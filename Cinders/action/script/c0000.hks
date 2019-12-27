@@ -759,49 +759,49 @@ end
 function SetEvasionStaminaCost()
     local weight = env(257)
     if weight == WEIGHT_LIGHT then
-        c_StaminaCostRolling = -16
-        c_StaminaCostBackStep = -11
-        c_StaminaCostJump = -16
+        c_StaminaCostRolling = -20
+        c_StaminaCostBackStep = -20
+        c_StaminaCostJump = -20
     elseif weight == WEIGHT_NORMAL then
-        c_StaminaCostRolling = -16
-        c_StaminaCostBackStep = -11
-        c_StaminaCostJump = -16
+        c_StaminaCostRolling = -25
+        c_StaminaCostBackStep = -25
+        c_StaminaCostJump = -25
     elseif weight == WEIGHT_HEAVY then
-        c_StaminaCostRolling = -16
-        c_StaminaCostBackStep = -11
-        c_StaminaCostJump = -16
+        c_StaminaCostRolling = -30
+        c_StaminaCostBackStep = -30
+        c_StaminaCostJump = -30
     elseif weight == WEIGHT_OVERWEIGHT then
-        c_StaminaCostRolling = -26
-        c_StaminaCostBackStep = -18
-        c_StaminaCostJump = -26
+        c_StaminaCostRolling = -40
+        c_StaminaCostBackStep = -40
+        c_StaminaCostJump = -40
     else
-        c_StaminaCostRolling = -16
-        c_StaminaCostBackStep = -11
-        c_StaminaCostJump = -16
+        c_StaminaCostRolling = -20
+        c_StaminaCostBackStep = -20
+        c_StaminaCostJump = -20
     end
     
     if env(1116, 112000) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 3
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 3
-        c_StaminaCostJump = c_StaminaCostJump * 3
+        c_StaminaCostRolling = c_StaminaCostRolling * 1.5
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 1.5
+        c_StaminaCostJump = c_StaminaCostJump * 1.5
     end
     
     if env(1116, 112002) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 2
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 2
-        c_StaminaCostJump = c_StaminaCostJump * 2
+        c_StaminaCostRolling = c_StaminaCostRolling * 1.25
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 1.25
+        c_StaminaCostJump = c_StaminaCostJump * 1.25
     end
     
     if env(1116, 112001) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling / 2
-        c_StaminaCostBackStep = c_StaminaCostBackStep / 2
-        c_StaminaCostJump = c_StaminaCostJump / 2
+        c_StaminaCostRolling = c_StaminaCostRolling * 0.9
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.9
+        c_StaminaCostJump = c_StaminaCostJump * 0.9
     end
     
     if env(1116, 112003) == TRUE then
-        c_StaminaCostRolling = 0
-        c_StaminaCostBackStep = 0
-        c_StaminaCostJump = 0
+        c_StaminaCostRolling = c_StaminaCostRolling * 0.75
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
+        c_StaminaCostJump = c_StaminaCostJump * 0.75
     end
     
     return 
