@@ -50,3 +50,4 @@ and dinput8.dll to another folder away of your Game directory.
 
 Be also sure to move your modded save files (%appdata%/DarkSoulsIII).
 
+ 
