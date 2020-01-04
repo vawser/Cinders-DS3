@@ -605,28 +605,28 @@ These are the multipliers applied to the base stats of the enemies in the listed
 These multipliers are applied with the above values on each New Game above +1:
 
 +2
-- Max HP: 1.1
+- Max HP: 1.25
 - MAX FP: 1.1
 - Max Stamina: 1.1
 - Damage: 1.1
 - Soul Multiplier: 2
 
 +3
-- Max HP: 1.2
+- Max HP: 1.5
 - MAX FP: 1.2
 - Max Stamina: 1.2
 - Damage: 1.15
 - Soul Multiplier: 3
 
 +4
-- Max HP: 1.5
+- Max HP: 1.75
 - MAX FP: 1.5
 - Max Stamina: 1.5
 - Damage: 1.2
 - Soul Multiplier: 4
 
 +5
-- Max HP: 1.75
+- Max HP: 2
 - MAX FP: 1.75
 - Max Stamina: 1.75
 - Damage: 1.25
