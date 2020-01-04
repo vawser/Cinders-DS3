@@ -1,0 +1,481 @@
+﻿#---------------------------
+# Notes
+#---------------------------
+# Adjust Magic Ability / Adjust Faith Ability
+Scales the values within the SpEffect by the currently equipped spell buff (e.g. 250 == 2.5 multiplier)
+
+#---------------------------
+# State Info
+#---------------------------
+0   None
+2   Used when applying Poison
+3   Effect99101
+4   Used when applying Durability damage
+5   Used when applying Toxic
+6   Used when applying Bleed
+7   Ghost
+8   Used when modifying Enemy Sight Reduction
+9   Tranquil Walk of Peace
+10  Used to remove Poison buildup
+11  Used to remove Toxic buildup
+12  Used to remove Bleed buildup
+13  Used to remove all aux buildup
+14  Humanity Stolen
+15  Binoculars
+16  Warp_Lothric3002953
+17  OnSpEffectRevive
+19  Dispel Black Phantom
+22  Unknown
+23  OnReviveMagic
+24  Disables Spell Usage
+28  Magic Buff Low VFX
+29  Magic Protection Low VFX
+31  Ghost Parameter Change
+32  Middle of Paralysis
+34  Giant Slime Freezing
+35  Effect99310
+36  Effect99311
+37  Effect99312
+39  Sound Feed
+40  Magic Protection VFX
+41  Veil of Water VFX
+42  Used in HP Recovery
+43  Unknown
+44  Unknown
+45  Unknown
+46  Modify Target Priority
+47  Disable Fall Damage
+48  Increase Damage
+49  Increase Defense
+50  Used in HP Recovery (WA Sacred Chime of Filianore)
+52  Pledge Effect Test
+54  Modify Enemy Listen Reduction
+55  HostDeath
+58  Point Light Source Equipped
+59  Your Message Was Rated
+60  Magic Buff VFX
+61  Crystal Magic Buff VFX
+62  Charcoal Pine Resin VFX
+64  Effect1040
+65  Effect12180
+66  Modify Item Discovery
+69  Tears of Denial Effect VFX
+70  Is Dead Test Condition
+71  Damage Boost (Spells)
+75  Green Blossom VFX
+76  Modify Soul Rate
+78  Effect93313
+79  Effect93314
+91  Effect99201
+95  Applies Chamelon effect
+96  Applies Dragon Form effect
+98  MP Detection
+99  MP Wait for Cooperation
+100 MP Cooperation
+101 MP Cooperation Sent
+102 Wax Slow Down
+103 Used for Evil Eye effect
+104 MP Wait for Cooperation
+105 MP Cooperation LV 1
+106 MP Cooperation LV 2
+107 MP Cooperation LV 3
+108 Used for Evil Eye effect (1)
+109 Used for Evil Eye effect (2)
+110 Counter Damage
+112 1409F7282_HKS
+113 Unknown
+114 Unknown
+115 Backstep Animation Change
+116 Apply Curse
+117 Apply Curse - Extra
+118 Apply Curse - Extra
+119 Effect3231
+120 Damage Level Change before Poise Break
+121 Damage Level Change
+122 Unknown
+123 Apply Effect on Roll (Head)
+124 Apply Effect on Roll (Body)
+125 Apply Effect on Roll (Hands)
+126 Apply Effect on Roll (Legs)
+127 Mimic Sleep
+128 Mimic Sleep
+130 Mimic Sleep
+131 Mimic Sleep
+132 Change Team Type
+133 Enable Developer Messages
+134 Body Of Iron
+135 Mimic Sleep
+136 Curse
+137 ResonanceLvl 0
+138 ResonanceLvl 1
+139 ResonanceLvl 2
+140 ResonanceLvl 3
+141 ResonanceLvl 4
+142 NPC Behavior ID Change
+143 Character Respawn
+144 Unknown
+146 Restore Durability
+147 Cast Light
+148 Unknown
+149 White Relief Magic
+150 Black Relief Magic
+151 Gold Pine Resin VFX
+152 Enable AttackOccurance for Enemies
+153 Enable AttackOccurance for Players
+154 Block Estus usage
+155 Modify Poise
+156 Disable Durability
+157 Transient Curse
+158 Modify Guard Absorption
+159 Ring of Sacrifice
+160 Rare Ring of Sacrifice [DS1]
+161 Warp1_Removed
+162 Warp2_Removed
+163 Warp3_Removed
+164 Warp_Firelink
+165 Warp4_Removed
+166 Pledge Discarded
+167 Dragon Change VFX
+168 Bow Distance Change
+169 Ring of the Sun Princess [DS1]
+170 Karmic Justice Counter
+171 Karmic Justice - Used for Behavior Change
+173 Ritual
+174 Power of Evil Spirits
+175 Revival Production
+176 Aural Decoy
+177 Unknown
+179 CurseEffectLv1
+180 CurseEffectLv2
+181 CurseEffectLv3
+182 CurseEffectLv4
+183 BlueSignVisualization
+184 Hide Weapon
+185 Gravelord Invasion
+186 Orange Charred Ring [DS1]
+188 Blade of the Darkmoon
+189 Spear of the Church
+190 Watchdog of Farron
+192 Unknown
+193 Modify Effect Duration
+194 CompareWith203
+195 Unknown
+196 IfWorldChrManNull
+197 Leo Ring
+198 Unknown
+199 Use DeathOccurance SpEffect
+200 PowerOfMadnessVisual
+201 VowOfSilenceVisual
+202 Dragon Roar
+203 CompareWith194
+204 100% Guard Stability
+206 Effect12013
+207 Effect11897 (Jailer HP Drain)
+213 Hornet Ring - Checks for backstab on enemies
+221 Effect4085
+222 ItemBan
+223 Effect9132
+224 Effect4700
+232 DisableUseAtColiseum
+237 Calamity Ring
+252 Oil
+253 Fire
+259 Effect90
+260 Apply Frostbite
+261 Remove Effect If Torch In Hand
+262 WormRecovery(Torch)
+264 SetCultBool
+266 FallDeathIsDisabled
+267 AiVisualDistanceChange
+269 Effect1906
+275 Player Behavior ID Change
+276 Unknown
+277 Effect3296
+278 DisableSpellEffect
+280 WatchdogTriggerForHost
+281 WetSystemTrigger
+282 Effect140001
+283 Unknown
+284 SpCategory
+285 Unknown
+286 Weak Movement Slow
+287 Strong Movement Slow
+288 Critical Hits (HP)
+289 Critical Hits (FP)
+290 Grants roll i-frames
+291 Grants roll invisibility
+292 Repair1
+293 Change Durability
+294 AldrichFaithful
+295 AldrichFaithfulForHost
+296 ChrFinder_DarkmoonInvasion
+297 Cant Be Used In Session
+298 Trigger on Backstab
+299 Enemies attack Invaders
+300 Enemies attack Invaders
+301 1410370B1
+302 Warp_Extra
+303 Condition Occurence 1
+304 Condition Occurence 2
+305 Condition Occurence 3
+306 Condition Occurence 4
+307 Condition Occurence 5
+308 Condition Occurence 6
+309 Condition Occurence 7
+310 Condition Occurence 8 (Jailer HP Drain)
+311 Condition Occurence 9
+312 Unknown
+313 Seek Guidance
+314 Add Stability
+315 Flynn's Ring - CalcCorrectGraph_32
+316 CalcCorrectGraph_33
+317 Revoke Online Penalty
+318 Dead Again
+319 Effect4901
+320 Effect4902
+321 Reverse Hollowing
+322 ChrAsmStyle_HKS_LEFTHAND
+323 ChrAsmStyle_HKS_RIGHTHAND
+324 Unknown
+325 Wet Aspect Param
+326 Gender Change
+327 Ember
+328 Change Durability
+329 GetEstusCharge
+330 Online Check, Reset Event Flag 2100
+331 AiParam1
+332 AiParam_effect16189
+333 SpellEnhance(+6)
+334 Bullet Behavior ID Change - Use this so bullets don't inherit weapon attributes (i.e. behavior effects)
+335 AiParam2
+336 Effect16413
+1000 SkipSpCategoryCheck1
+1001 SkipSpCategoryCheck2
+
+#---------------------------
+# Effect Category
+#---------------------------
+10      Stacks with Self
+20      Recovery
+
+151     Body Buff (Tears of Denial/Deep Protection)
+160     Body Buff (Sacred Oath)
+161     Body Buff (Regen Miracles)
+162     Weapon Buff (Weapon Buff)
+163     Weapon Buff (Shield Buff)
+
+100     Animation Change Offset
+1001    Super Armor Change
+10001   Damage Level Change
+
+110     Resonance
+154     Spook
+156     Stamina Recovery
+1000    Movement (MoveType)
+1002    Lava Walk
+
+10003   Bleed
+10004   Poison
+10005   Toxic
+10006   Curse?
+10007   Frostbite
+ 
+
+#---------------------------
+# Attack Attribute
+#---------------------------
+1   Slash
+2   Strike
+3   Thrust
+4   Standard
+
+#---------------------------
+# Effect Attribute
+#---------------------------
+1   Physical
+2   Fire
+3   Magic
+4   Poison/Bleed
+6   Lightning
+7   Petrify
+8   Crystallized
+9   Dark
+ 
+#---------------------------
+# Damage Level
+#---------------------------
+Controls stagger animations on damage.
+
+1   Blocks stagger animation
+2   Normal Stagger - Short
+3   Normal Stagger - Long
+4   Big knockback to floor
+5   Stumble backwards
+6   Faceplant
+7   Big knockback to floor
+8   Applies faceplant knockdown animation
+9   Applies air uppercut knockdown animation
+10  Applies push animation
+11  Applies big stagger knockdown animation
+12  Applies tumble backwards knockdown animation
+ 
+#---------------------------
+# Throw Trigger
+#---------------------------
+0   None
+1   Not Allowed
+2   Parry
+4   Fall
+5   Hornet Ring
+6   Lifedrain
+
+#---------------------------
+# Move Type
+#---------------------------
+0   None
+3   1
+4   2
+5   3
+ 
+#---------------------------
+# Weapon Param Change
+#---------------------------
+Controls which weapon element to affect.
+ 
+0   None
+1   Right-hand Weapon
+2   Left-hand Weapon
+3   Self (Status Effect)
+4   Kick
+ 
+Note: any value other than 0 will cause the effect to terminate when the weapon is switched
+
+#---------------------------
+# Wet Aspect Param ID
+#---------------------------
+0   1 - Water Wet
+1   2 - Poison Wet
+2   4 - Mud Stains
+3   6 - Freezing
+4   3 - Oil Wet
+5   5 - Sand Dust
+6   10 - Preliminary 2
+7   Any
+
+#---------------------------
+# Aux Change %
+#---------------------------
+7.006492E-45 # 5
+1.401298E-44 # 10
+2.802597E-44 # 20
+3.503246E-44 # 25
+4.203895E-44 # 30
+4.764415E-44 # 35
+5.605194E-44 # 40
+7.006492E-44 # 50
+8.407791E-44 # 60
+9.809089E-44 # 70
+9.949219E-44 # 75
+1.121039E-43 # 80
+1.261169E-43 # 90
+
+1.401298E-43 # 100
+1.751623E-43 # 125
+2.101948E-43 # 150
+2.452272E-43 # 175
+2.802597E-43 # 200
+3.503246E-43 # 250
+4.203895E-43 # 300
+4.903895E-43 # 350
+5.605194E-43 # 400
+7.006492E-43 # 500
+
+#---------------------------
+# State Effect
+#---------------------------
+State Info: 303 (when using State Effects)
+
+# Conditions
+3  - Unknown
+5  - Unknown
+7  - Unknown
+17 - Used for attack consecutively, get buff
+30 - Used for attack consecutively, get buff
+45 - Used for attack consecutively, get buff
+60 - Used for attack consecutively, get buff
+85 - Unknown
+120 - Unknown
+180 - Unknown
+250 - Jailer HP Drain
+
+# State Effect Increment
+Adjusts counter for conditionUnknown
+
+#---------------------------
+# Behavior
+#---------------------------
+Behavior ID; <target behavior>
+State Info: 275
+Unk8: <position id>
+    
+#---------------------------
+# Unknowns
+#---------------------------
+Global Weapon Damage %
+ Durability damage taken?
+
+Unk28
+Unk29
+
+Unk30 - Related to absorption?
+    5055
+    5056
+    5057
+    5058
+    5059
+    12128 Soul of Cinder
+        1.5
+    13060
+        1.75
+    15042
+        0.9
+    
+Unk39
+    3350 - Unknown
+    
+Unk40
+    10550 Crystal Elders Buff (for myself)
+        200
+    10551 Crystal Elders Buff (for ally)
+        144
+    10640 The Old King _hu1 stage of caries
+        44
+    10642 [Pontiff Sulyvahn] the illusion of Enchantment ID addition for ghosts
+        44
+    11400 [Yhorm] Heat Up
+        100
+    11500 Deacons of the Deep - Curse Bullet
+        144
+    11501 Deacons of the Deep - Curse Apperance
+        144
+    12306 [Champion Gundyr] Add Behavior Judge ID
+        100
+        
+Unk41
+    10551 Crystal Elders Buff (for ally)
+        1
+    10640 The Old King _hu1 stage of caries
+        1
+    10642 [Pontiff Sulyvahn] the illusion of Enchantment ID addition for ghosts
+        1
+    11500 Deacons of the Deep - Curse Bullet
+        1
+        
+Purchase Item / Soul Transposition Menu
+    12600 [High Lord Wolnir]
+        1.2
+    99810 
+        2
+        
+Unk42
+

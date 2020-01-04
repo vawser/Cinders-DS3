@@ -1,0 +1,859 @@
+﻿#------------------------
+# Boss Stats
+#------------------------
+- HP in first [] is for Dream form
+- HP in second [] is for Nightmare form
+- Absorption percentages are damage taken.
+
+# Iudex Gundyr 
+- HP: 2000 [2000] [8000]      
+- Souls: 2500 [5000] [12500]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       85%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        90%
+- Absorption: Fire:         90%
+- Absorption: Lightning:    110%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+# Vordt of the Boreal Valley 
+- HP: 2000 [2000] [8000]           
+- Souls: 5000 [10000] [25000]
+- Absorption: Standard:     65%
+- Absorption: Slash:        65%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       65%
+- Absorption: Magic:        75%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    85%
+- Absorption: Dark:         125%
+- Affected by: Poison, Bleed, Frost
+
+# Curse-rotted Greatwood 
+- HP: 6000 [6000] [12000]          
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     140%
+- Absorption: Slash:        175%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       175%
+- Absorption: Magic:        115%
+- Absorption: Fire:         210%
+- Absorption: Lightning:    120%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+# Crystal Sage
+- HP: 5000 [5000] [15000]           
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       120%
+- Absorption: Magic:        60%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+
+# Deacons of the Deep
+- HP: 7500 [7500] [15000]          
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       120%
+- Absorption: Magic:        55%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         55%
+- Affected by: Poison, Bleed, Frost
+- Considered Hollow.
+
+# Abyss Watchers
+- Boss HP: 5000 [5000] [15000]
+- Souls: 25000 [50000] [125000]
+- Absorption: Standard:     95%
+- Absorption: Slash:        90%
+- Absorption: Strike:       110%
+- Absorption: Thrust:       95%
+- Absorption: Magic:        90%
+- Absorption: Fire:         90%
+- Absorption: Lightning:    110%
+- Absorption: Dark:         65%
+- Affected by: Poison, Bleed, Frost
+
+# High Lord Wolnir
+- HP: 8000 [8000] [16000]         
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     70%
+- Absorption: Slash:        65%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       65%
+- Absorption: Magic:        75%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+- Considered Undead and Abyssal.
+
+# Old Demon King 
+- HP: 8000 [8000] [16000]          
+- Souls: 15000 [30000] [75000]
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        95%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    95%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+- Considered Demon.
+
+# Pontiff Sulyvahn 
+- Boss HP: 9000 [9000] [18000]    
+- Souls: 25000 [50000] [125000]
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       120%
+- Absorption: Magic:        90%
+- Absorption: Fire:         90%
+- Absorption: Lightning:    95%
+- Absorption: Dark:         95%
+- Affected by: Poison, Bleed, Frost
+
+# Pontiff Sulyvahn - Clone
+- HP: 1000 [1000] [2000]
+- Absorption: Standard:     50%
+- Absorption: Slash:        50%
+- Absorption: Strike:       50%
+- Absorption: Thrust:       50%
+- Absorption: Magic:        95%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+
+# Aldrich, Devourer of Gods
+- HP: 10000 [10000] [20000]         
+- Souls: 50000 [100000] [150000]
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        50%
+- Absorption: Fire:         110%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+# Yhorm the Giant 
+- HP: 10000 [10000] [20000]         
+- Souls: 25000 [50000] [125000]
+- Absorption: Standard:     85%
+- Absorption: Slash:        85%
+- Absorption: Strike:       95%
+- Absorption: Thrust:       85%
+- Absorption: Magic:        95%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    110%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+
+# Dancer of the Boreal Valley
+- HP: 9000 [9000] [18000]          
+- Souls: 15000 [30000] [75000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         125%
+- Affected by: Poison, Bleed, Frost
+
+# Oceiros, the Consumed King
+- HP: 12000 [12000] [18000]         
+- Souls: 20000 [40000] [80000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       85%
+- Absorption: Magic:        60%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    140%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+# Dragonslayer Armour 
+- HP: 9000 [9000] [18000]         	
+- Souls: 20000 [40000] [80000]
+- Absorption: Standard:     70%
+- Absorption: Slash:        65%
+- Absorption: Strike:       75%
+- Absorption: Thrust:       65%
+- Absorption: Magic:        75%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    50%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+# Ancient Wyvern 
+- HP: 10000 [10000] [20000]         
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    130%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+# King of the Storm
+- HP: 8000 [8000] [16000]          
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        90%
+- Absorption: Fire:         65%
+- Absorption: Lightning:    130%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+
+# Nameless King 
+- HP: 12000 [12000] [24000]         
+- Souls: 50000 [100000] [150000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        75%
+- Absorption: Fire:         75%
+- Absorption: Lightning:    50%
+- Absorption: Dark:         110%
+- Affected by: Poison, Bleed, Frost
+
+# Champion Gundyr 
+- HP: 12000 [12000] [24000]         
+- Souls: 20000 [40000] [80000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       85%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        90%
+- Absorption: Fire:         90%
+- Absorption: Lightning:    110%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+
+# Lorian, Elder Prince
+- Phase 1 HP: 9000 [9000] [18000]  
+- Phase 2 HP: 9000 [9000] [18000]  
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        95%
+- Absorption: Fire:         90%
+- Absorption: Lightning:    120%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+
+# Lothric, Younger Prince 
+- HP: 9000 [9000] [18000]         
+- Souls: 50000 [100000] [150000]
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       120%
+- Absorption: Magic:        50%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+
+# Soul of Cinder 
+- HP: 12500 [12500] [25000]        
+- Souls: 100000 [200000] [300000]
+- Absorption: Standard:     85%
+- Absorption: Slash:        85%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       85%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+# Sister Friede
+- Phase 1 HP: 8000 [8000] [16000]      
+- Phase 2 HP: 10000 [10000] [20000]     
+- Souls: 50000 [100000] [150000]
+- Absorption: Standard:     105%
+- Absorption: Slash:        105%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       110%
+- Absorption: Magic:        60%
+- Absorption: Fire:         85%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         95%
+- Affected by: Poison, Bleed, Frost
+
+# Father Ariandel 
+- HP: 6000 [6000] [12000]
+- Absorption: Standard:     128%
+- Absorption: Slash:        130%
+- Absorption: Strike:       126%
+- Absorption: Thrust:       134%
+- Absorption: Magic:        98%
+- Absorption: Fire:         119%
+- Absorption: Lightning:    127%
+- Absorption: Dark:         127%
+- Affected by: Poison, Bleed, Frost
+
+# Champion's Gravetender & Gravetender Greatwolf
+- HP: 8000 [8000] [16000]        
+- Souls: 10000 [20000] [50000]
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        80%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    90%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+
+# Demon Princes (4)
+- Demon in Pain HP: 10000 [10000] [20000]        
+- Demon from Below HP: 10000 [10000] [20000]
+- Demon Prince HP: 10000 [10000] [20000]
+- Souls: 100000 [200000] [300000]
+- Absorption: Standard:     100%
+- Absorption: Slash:        120%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         85%
+- Affected by: Poison, Bleed, Frost
+- Considered Demon.
+
+# Halflight
+- Souls: 25000 [50000]
+
+# Darkeater Midir (5)
+- HP: 16000 [16000] [24000]             
+- Souls: 150000 [300000] [600000]
+- Absorption: Standard:     50%
+- Absorption: Slash:        50%
+- Absorption: Strike:       50%
+- Absorption: Thrust:       60%
+- Absorption: Magic:        50%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+# Slave Knight Gael (5)
+- HP: 16000 [16000] [24000]            
+- Souls: 125000 [250000] [500000]
+- Absorption: Standard:     65%
+- Absorption: Slash:        60%
+- Absorption: Strike:       65%
+- Absorption: Thrust:       65%
+- Absorption: Magic:        55%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+- Considered Hollow.
+
+#------------------------
+# Invader Changes
+#------------------------
+# Alva, Seeker of the Spurned (Ringed City)
+- Drops Titanite Slab (The Ringed City).
+
+#------------------------
+# Enemy Changes
+#------------------------
+# Mimic
+- Will drop Covetous Silver Serpent Ring (High Wall of Lothric).
+- Will drop Acolyte Ring (High Wall of Lothric).
+- Will drop Deep Braille Divine Tome (Cathedral of the Deep).
+- Will drop Sacred Oath (Lothric Castle).
+- Will drop Lothric Candlestick (Lothric Castle).
+- Will drop Black Blade (Catacombs of Carthus).
+- Will drop Great Deep Soul (Irithyll of the Boreal Valley).
+- Will drop Lightning Clutch Ring (Irithyll Dungeon).
+- Will drop Engraved Dagger (Irithyll Dungeon).
+- Will drop Estus Shard (Irithyll Dungeon).
+- Will drop Dark Clutch Ring (Irithyll Dungeon).
+- Will drop Giant's Set (Profaned Capital).
+- Will drop Court Sorcerer's Staff (Profaned Capital).
+- Will drop Greatshield of Glory (Profaned Capital).
+- Will drop Titanite Slab (The Ringed City).
+
+# Sulyvahn's Beast
+- Will drop Small Doll (Irithyll on Bridge).
+- Can drop Lethal Gem (Irithyll).
+
+# Boreal Outrider Knight
+- Can drop Twinkling Titanite.
+- Can drop Irithyll Straight Sword.
+- Can drop Irithyll Rapier.
+- Can drop Irithyll Lance.
+- Can drop Irithyll Pick.
+- Can drop Irithyll Mace.
+- Can drop Irithyll Greatsword.
+- Can drop Outrider Knight Set.
+- Can drop Frost Gem.
+- Can drop Sharp Gem.
+- Will drop Pontiff's Right Eye (High Wall of Lothric).
+
+# Black Knight
+- Can drop Titanite Slab (Kiln of the First Flame).
+- Can drop Titanite Chunk (Kiln of the First Flame).
+- Can drop Lethal Gem.
+
+# Carthus Swordsmen
+- Can drop Bone Fragments.
+- Can drop Blood Gem.
+
+# Lothric Knight
+- Can drop Raw Gem (High Wall of Lothric).
+- Can drop Lethal Gem (Lothric Castle).
+
+# Silver Knight
+- Can drop Dragonslayer Greatbow.
+- Can drop Lightning Gem.
+
+# Hollow Manservant
+- Can drop Footman's Hood.
+- Can drop Footman's Overcoat.
+- Can drop Footman's Bracelet.
+- Can drop Footman's Trousers.
+- Can drop Machete.
+- Can drop Lizard Hide.
+- Can drop Raw Gem.
+
+# Archive Scholar
+- Can drop Scholar's Shed Skin.
+- Can drop Oozing Pellet.
+- Can drop Resonating Crystal.
+- Can drop Infusing Essence.
+- Can drop Degrading Essence.
+- Can drop Magic Gem.
+- Can drop Enchanted Gem.
+
+# Giant Serpent-man
+- Can drop Titanite Slab.
+- Can drop Lizard Hide.
+- Can drop Lightning Gem.
+- Can drop Lethal Gem.
+- Can drop Heavy Gem.
+
+# Serpent-man Summoner
+- Can drop Man Serpent's Mask.
+- Can drop Man Serpent's Robes.
+- Can drop Dragon Scale.
+- Can drop Lizard Hide.
+- Can drop Lightning Gem.
+
+# Serpent Men
+- Can drop Dragon Scale.
+- Can drop Lizard Hide.
+- Can drop Lightning Gem.
+- Can drop Sharp Gem.
+
+# Pus of Man
+- Can drop Brightbug.
+- Can drop Dark Gem.
+
+# Irithyllian Slave
+- Can drop Oozing Pellet.
+- Can drop Cursed Pellet.
+- Can drop Bone Fragment.
+- Can drop Dark Gem.
+- Can drop Blackweed Balm.
+
+# Sage Prentice
+- Can drop Resonating Crystal.
+- Can drop Magic Gem.
+- Can drop Enchanted Gem.
+
+# Sage's Devout
+- Can drop Quarterstaff.
+- Can drop Resonating Crystal.
+- Can drop Infusing Essence.
+- Can drop Degrading Essence.
+- Can drop Magic Gem.
+- Can drop Enchanted Gem.
+
+# Undead Cleric
+- Can drop Cleric's Parma.
+
+# Monstrosity of Sin
+- Can drop Titanite Chunk.
+- Can drop Dark Gem.
+
+# Pontiff Knight
+- Can drop Pontiff Knight Greatsword.
+- Can drop Twinkling Titanite.
+
+# Cathedral Knight
+- Can drop Large Titanite Shard.
+- Can drop Holy Gem. (Cathedral of the Deep)
+- Can drop Magic Gem. (Consumed King's Garden)
+
+# Ghru
+- Can drop Large Titanite Shard.
+- Can drop Poison Gem.
+- Can drop Vine Balm.
+
+# Smouldering Ghru
+- Can drop Titanite Chunk.
+- Can drop Fire Gem.
+
+# Peasant Hollow
+- Can drop Titanite Shard.
+- Can drop Wooden Mallet.
+
+# Wretch
+- Can drop Dragon Scale.
+- Can drop Lizard Hide.
+- Can drop Lucky Gem.
+- Can drop Magic Gem.
+- Can drop Dark Gem.
+
+# Writhing Rotten Flesh
+- Can drop Lucky Gem.
+
+# Smouldering Rotten Flesh
+- Can drop Large Titanite Shard.
+- Can drop Fire Seed.
+- Can drop Fire Gem.
+
+# Gargoyle
+- Can drop Twinkling Titanite.
+- Can drop Fire Gem.
+
+# Great Crab (Smouldering Lake)
+- Can drop Titanite Scale.
+
+# Demon Cleric
+- Can drop Titanite Chunk.
+- Can drop Fire Seed.
+- Can drop Fire Gem.
+- Can drop Cinder.
+
+# Winged Knight
+- Can drop Resonating Crystal.
+- Can drop Holy Gem.
+- Can drop Heavy Gem.
+- Can drop Titanite Slab (Grand Archives).
+- Can drop Dragonrider Bow (Grand Archives).
+
+# Wyvern
+- Now drops Tailbone Sword (High Wall of Lothric).
+
+# Cathedral Evangelist
+- Can drop Missionary Axe.
+- Can drop Resonating Crystal.
+
+# Hollow Slave
+- Can drop Bone Fragment.
+
+# Lycanthrope
+- Can drop Lizard Hide.
+- Can drop Old Growth Balm.
+
+# Bonewheel Skeleton
+- Can drop Bone Fragment.
+- Can drop Lethal Gem.
+
+# Corvian
+- Can drop Bone Fragment.
+- Can drop Shriving Stone.
+
+# Jailer Handmaid
+- Can drop Lizard Hide.
+
+# Cage Spider
+- Can drop Bone Fragment.
+
+# Irithyll Fire Witch
+- Can drop Resonating Crystal.
+- Can drop Magic Gem.
+- Can drop Fire Gem.
+
+# Judicator
+- Will drop Titanite Slab.
+
+# Elder Ghru
+- Will drop Black Bow of Pharis.
+
+# Millwood Knight
+- Can drop Millwood Greatbow.
+
+# Tree Women
+- Can drop Fire Seeds.
+
+# Demon
+- Can drop Fire Seed (Smouldering Lake).
+- Can drop Fire Gem (Smouldering Lake).
+- Can drop Cinder.
+
+# Deep Acursed
+- Can drop Titanite Shard (Cathedral of the Deep).
+- Can drop Large Titanite Shard (Cathedral of the Deep).
+- Can drop Titanite Chunk (Cathedral of the Deep).
+- Can drop Lethal Gem (Cathedral of the Deep).
+
+# Basilisk
+- Can drop Lethal Gem.
+- Can drop Raw Gem.
+- Can drop Poison Gem.
+- Can drop Blood Gem.
+- Can drop Frost Gem.
+- Can drop Magic Gem.
+- Can drop Fire Gem.
+- Can drop Lightning Gem.
+- Can drop Dark Gem.
+- Can drop Lucky Gem.
+- Can drop Enchanted Gem.
+- Can drop Holy Gem.
+- Can drop Sharp Gem.
+- Can drop Heavy Gem.
+
+# Rock Lizard
+- Can drop Titanite Scale.
+- Can drop Twinkling Titanite.
+- Can drop Dragon Scale.
+
+# Skeleton
+- Can drop Blood Gem.
+- Can drop Fire Gem.
+- Can drop Dark Gem.
+
+# Large Hollow Soldier
+- Can drop Raw Gem.
+
+# Cathedral Grave Warden
+- Can drop Blood Gem.
+
+# Undead Dog
+- Can drop Shriving Stone.
+
+# Large Undead Dog
+- Can drop Shriving Stone.
+
+# Sewer Centipede
+- Can drop Poison Gem.
+
+# Giant Crab
+- Can drop Lucky Gem.
+
+# Lesser Crab
+- Can drop Lucky Gem.
+
+# Giant Rat
+- Can drop Blood Gem.
+
+# Irithyll Dog
+- Can drop Frost Gem.
+
+# Poisonhorn Bug
+- Can drop Poison Gem.
+
+# Stray Demon
+- Can drop Lethal Gem (Smouldering Lake).
+- Can drop Fire Gem (Smouldering Lake).
+- Can drop Fire Seed (Smouldering Lake).
+- Can drop Cinder.
+
+# Farron Follower
+- Can drop Frost Gem.
+
+# Corvian Knight
+- Can drop Large Titanite Shard.
+- Can drop Titanite Chunk.
+- Can drop Titanite Slab.
+- Can drop Lethal Gem.
+
+# Giant Fly
+- Can drop Dark Gem.
+
+# Millwood Knight
+- Can drop Titanite Shard.
+- Can drop Large Titanite Shard.
+- Can drop Titanite Chunk.
+- Can drop Titanite Slab.
+- Can drop Lethal Gem.
+
+# Murkman
+- Can drop Dark Gem.
+
+# Ringed Knight
+- Can drop Lethal Gem.
+- Can drop Fire Gem.
+
+# Lothric Theif
+- Can drop Lightning Gem.
+
+# Hollow Cleric
+- Can drop Holy Gem.
+
+# Big Locust
+- Can drop Locust Arm.
+
+#------------------------
+# Enemy Types
+#------------------------
+# Sir Vilhelm
+- Considered Hollow.
+
+# Livid Pyromancer Dunnel
+- Considered Hollow.
+
+# Amnesiac Lapp
+- Considered Hollow.
+
+# Yuria of Londor
+- Considered Hollow.
+
+# Luyila of Londor
+- Considered Hollow.
+
+# Skeleton
+- Considered Undead.
+
+# Pus of Man
+- Considered Abyssal.
+
+# Hollow Soldier
+- Considered Hollow.
+
+# Hollow Assassin
+- Considered Hollow.
+
+# Large Hollow Soldier
+- Considered Hollow.
+
+# Carthus Swordsman
+- Considered Undead.
+
+# Cathedral Knight
+- Considered Hollow.
+
+# Hollow Slave
+- Considered Hollow.
+
+# Cathedral Evangelist
+- Considered Hollow.
+
+# Peasant Hollow
+- Considered Hollow.
+
+# Cathedral Grave Warden
+- Considered Hollow.
+
+# Hollow Manservant
+- Considered Hollow.
+
+# Lothric Knight
+- Considered Hollow.
+
+# Winged Knight
+- Considered Hollow.
+
+# Archive Scholar
+- Considered Hollow.
+
+# Irithyllian Slave
+- Considered Hollow.
+
+# Lycanthrope
+- Considered Hollow.
+
+# Silver Knight
+- Considered Hollow.
+
+# Undead Cleric
+- Considered Hollow.
+
+# Devout Bomber
+- Considered Hollow.
+
+# Devout of the Deep
+- Considered Hollow.
+
+# Large Devout of the Deep
+- Considered Hollow.
+
+# Sage Prentice
+- Considered Hollow.
+
+# Bonewheel Skeleton
+- Considered Undead.
+
+# Undead Dog
+- Considered Hollow.
+
+# Infested Corpse
+- Considered Undead.
+
+# Writhing Rotten Flesh
+- Considered Abyssal.
+
+# Irithyll Dog
+- Considered Undead.
+
+# Demon
+- Considered Demon.
+
+# Stray Demon
+- Considered Demon.
+
+# Demon Cleric
+- Considered Demon.
+
+# Caged Hollow
+- Considered Hollow.
+
+# Deep Accursed
+- Considered Abyssal.
+
+# Darkwraith
+- Considered Abyssal.
+
+# Deacon
+- Considered Hollow.
+
+# Farron Follower
+- Considered Hollow.
+
+# Corvian Villager
+- Considered Hollow.
+
+# Lothric Thief
+- Considered Hollow.
+
+# Hollow Cleric
+- Considered Hollow.
+
+# Harald Knight
+- Considered Abyssal.

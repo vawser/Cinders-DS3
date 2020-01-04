@@ -1,0 +1,634 @@
+﻿#------------------------
+# General Changes
+#------------------------
+- All weapons and shields can now be buffed.
+- Armor now acts as Dark Souls 1 armor does, preventing stagger until it's poise is drained from enemy attacks.
+
+#------------------------
+# Gifts
+#------------------------
+The following gifts are available:
+- None
+- Master Key
+- Coiled Sword Fragment
+- Estus Shard
+- Undead Bone Shard
+- Soul of a Crestfallen Knight
+- Titanite Shard (10)
+- Lethal Gem
+- Raw Gem
+- Poison Gem
+- Blood Gem
+- Frost Gem
+- Magic Gem
+- Fire Gem
+- Lightning Gem
+- Dark Gem
+- Lucky Gem
+- Enchanted Gem
+- Holy Gem
+- Sharp Gem
+- Blunt Gem
+- Ring of Steel Protection
+- Flame Stoneplate Ring
+- Thunder Stoneplate Ring
+- Magic Stoneplate Ring
+- Dark Stoneplate Ring
+- Young White Branch
+
+#------------------------
+# Classes
+#------------------------
+The following classes are available:
+- Knight
+- Soldier
+- Thief
+- Sentinel
+- Mercenary
+- Wayfarer
+- Assassin
+- Samurai
+- Warrior
+- Bandit
+- Deprived
+- Paladin
+- Herald
+- Captain
+- Peasant
+- Explorer
+- Brawler
+- Hunter
+- Sorcerer
+- Pyromancer
+- Cleric
+- Priest
+- Heretic
+- Outcast
+- Skeptic
+- Acolyte
+
+#------------------------
+# Status Effect Changes
+#------------------------
+These are only accurate for weapons infused with these effects. 
+Weapons with innate versions of these effects may have different values.
+
+Poison
+- Lasts 30/40/50/60 seconds. Depends on weapon type.
+- Deals 30 + 0.05% damage per second.
+- Effect: reduces enemy attack by 10% whilst active.
+
+Bleed
+- Deals 100/150/200 + 5% damage on proc. Depends on weapon type.
+
+Frost
+- Deals 50/75/100 + 2.5% damage on proc. Depends on weapon type.
+- Effect: reduces enemy absorption by 10% whilst active, and reduces stamina recovery by 10.
+
+- Curse:
+ - Effect:
+   - Reduces absorption by 10% on proc. Stacks.
+   - Reduces damage by 10% on proc. Stacks.
+   
+#------------------------
+# Stat Changes
+#------------------------
+- Scales are {<level>:<stat value at this level>}
+
+# Soul Level:
+- Defence Scale: {1:0, 200:25, 400:50, 600:75, 800:100}
+- No longer increases resistances.
+ 
+# Vigor:
+- HP Scale: {1:500, 20:1000, 40:1400, 60:1800, 99:2000}
+- Frost Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+
+# Attunement:
+- FP Scale: {1:100, 20:200, 40:300, 60:400, 99:500}
+ 
+# Endurance:
+- Lightning Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+- Bleed Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+
+# Vitality:
+- Physical Defence Scale: {1:0, 25:25, 50:50, 75:75, 99:100}
+- Poison Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+
+# Strength:
+- Physical Defence Scale: {1:0, 25:25, 50:50, 75:75, 99:100}
+- Fire Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+
+# Intelligence
+- Magic Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+
+# Faith:
+- Dark Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+
+# Luck:
+- Item Discovery Scale: {1:1, 25:1.25, 50:1.5, 75:1.75, 99:2}
+- Curse Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+
+#------------------------
+# Covenants
+#------------------------
+All covenant emblem items now enable the dropping of their respective materials from any enemy when they are killed.
+
+# Darkmoon Faithful
+- Material Drop Chance: 10%
+
+# Spears of the Church
+- Material Drop Chance: 10%
+
+# Watchdogs of Farron
+- Material Drop Chance: 10%
+
+# Aldrich Faithful
+- Material Drop Chance: 10%
+
+# Warriors of Sunlight
+- Material Drop Chance: 10%
+
+# Mound-makers
+- Material Drop Chance: 10%
+
+# Rosaria's Fingers
+- Material Drop Chance: 10%
+
+# Chaos Servants
+- Material Drop Chance: 10%
+
+# Thieves' Pact
+- Rather than covenant materials, equipping the Thieves' Pact emblem will enable any reinforcement and infusion material to be dropped from random enemies.
+- You must purchase the Thieves' Pact emblem from Greirat.
+
+#------------------------
+# Champion's Pact
+#------------------------
+- Enabled at Fire Keeper, this pact can be toggled.
+ - Spawns additional enemies throughout the game. 
+ - Enemies will now have the following below 50% HP:
+  - +25% damage
+  - +25% absorption
+  - +30 stamina recovery
+  - +5 + 0.05% HP regen
+ - Boosts soul gain by 100%.
+
+#------------------------
+# Deathless Runs
+#------------------------
+By default the player is eligible for the Deathless challenge, which rewards the Crown of the Great Lord.
+
+You must defeat the Soul of Cinder without dying to receive the reward.
+
+You can check your eligibility at the Fire Keeper by using the 'Check Worthiness' menu option.
+
+#------------------------
+# Memories
+#------------------------
+Bosses can be respawned through the use of Dreams and Nightmares.
+
+Dreams spawn the boss as normal.
+Nightmares spawn the boss with additional modifiers.
+
+The Shrine Handmaid has the Memories shop option.
+
+#------------------------
+# Area Scaling
+#------------------------
+These are the multipliers applied to the base stats of the enemies in the listed zones.
+
+# Cemetery of Ash
+- Max HP: 1
+- Max Stamina: 1
+- Damage: 1.25
+- Defence: 1.02
+
+# High Wall of Lothric
+- Max HP: 1
+- Max Stamina: 1
+- Damage: 1.3
+- Defence: 1.02
+
+# Undead Settlement
+- Max HP: 1
+- Max Stamina: 1.1
+- Damage: 1.5
+- Defence: 1.03
+
+# Road of Sacrifices
+- Max HP: 1
+- Max Stamina: 1.1
+- Damage: 1.6
+- Defence: 1.04
+
+# Cathedral of the Deep
+- Max HP: 1
+- Max Stamina: 1.2
+- Damage: 1.75
+- Defence: 1.06
+
+# Farron Keep
+- Max HP: 1
+- Max Stamina: 1.2
+- Damage: 1.75
+- Defence: 1.07
+
+# Catacombs of Carthus
+- Max HP: 1
+- Max Stamina: 1.3
+- Damage: 1.75
+- Defence: 1.08
+
+# Smouldering Lake
+- Max HP: 1
+- Max Stamina: 1.5
+- Damage: 2
+- Defence: 1.15
+
+# Irithyll of the Boreal Valley
+- Max HP: 1
+- Max Stamina: 1.3
+- Damage: 2
+- Defence: 1.1
+
+# Irithyll Dungeon/Profaned Capital
+- Max HP: 1
+- Max Stamina: 1.4
+- Damage: 2
+- Defence: 1.1
+
+# Anor Londo/Lothric Castle
+- Max HP: 1
+- Max Stamina: 1.5
+- Damage: 2.25
+- Defence: 1.2
+
+# Lothric Castle
+- Max HP: 1
+- Max Stamina: 1.5
+- Damage: 2.25
+- Defence: 1.2
+
+# Unturned Graves
+- Max HP: 1
+- Max Stamina: 1.75
+- Damage: 2.5
+- Defence: 1.25
+
+# Grand Archives
+- Max HP: 1
+- Max Stamina: 2
+- Damage: 2.5
+- Defence: 1.25
+
+# Archdragon Peak
+- Max HP: 1
+- Max Stamina: 2
+- Damage: 2.5
+- Defence: 1.25
+
+# Fireless Shrine
+- Max HP: 1
+- Max Stamina: 2
+- Damage: 2.5
+- Defence: 1.25
+
+# Ariandel
+- Max HP: 1
+- Max Stamina: 1.5
+- Damage: 2
+- Defence: 1.25
+
+# Dreg Heap
+- Max HP: 1
+- Max Stamina: 1.5
+- Damage: 2
+- Defence: 1.2
+
+# Ringed City
+- Max HP: 1
+- Max Stamina: 2
+- Damage: 2.5
+- Defence: 1.25
+
+#------------------------
+# New Game+ Scaling Changes
+#------------------------
+# Cemetery of Ash
+- Max HP: 2
+- Max Stamina: 1.9
+- Physical Damage: 2
+- Magic Damage: 2
+- Fire Damage: 2
+- Lightning Damage: 2
+- Dark Damage: 2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# High Wall of Lothric
+- Max HP: 2
+- Max Stamina: 2
+- Physical Damage: 2
+- Magic Damage: 2
+- Fire Damage: 2
+- Lightning Damage: 2
+- Dark Damage: 2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Undead Settlement
+- Max HP: 2
+- Max Stamina: 1.8
+- Physical Damage: 1.8
+- Magic Damage: 1.8
+- Fire Damage: 1.8
+- Lightning Damage: 1.8
+- Dark Damage: 1.8
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Road of Sacrifices
+- Max HP: 2
+- Max Stamina: 1.8
+- Physical Damage: 1.7
+- Magic Damage: 1.7
+- Fire Damage: 1.7
+- Lightning Damage: 1.7
+- Dark Damage: 1.7
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Cathedral of the Deep
+- Max HP: 2
+- Max Stamina: 1.7
+- Physical Damage: 1.7
+- Magic Damage: 1.7
+- Fire Damage: 1.7
+- Lightning Damage: 1.7
+- Dark Damage: 1.7
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Farron Keep
+- Max HP: 2
+- Max Stamina: 1.7
+- Physical Damage: 1.5
+- Magic Damage: 1.5
+- Fire Damage: 1.5
+- Lightning Damage: 1.5
+- Dark Damage: 1.5
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Catacombs of Carthus
+- Max HP: 2
+- Max Stamina: 1.6
+- Physical Damage: 1.4
+- Magic Damage: 1.4
+- Fire Damage: 1.4
+- Lightning Damage: 1.4
+- Dark Damage: 1.4
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Smouldering Lake
+- Max HP: 2
+- Max Stamina: 1.4
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Irithyll of the Boreal Valley
+- Max HP: 2
+- Max Stamina: 1.6
+- Physical Damage: 1.4
+- Magic Damage: 1.4
+- Fire Damage: 1.4
+- Lightning Damage: 1.4
+- Dark Damage: 1.4
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Irithyll Dungeon/Profaned Capital
+- Max HP: 2
+- Max Stamina: 1.5
+- Physical Damage: 1.3
+- Magic Damage: 1.3
+- Fire Damage: 1.3
+- Lightning Damage: 1.3
+- Dark Damage: 1.3
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Anor Londo/Lothric Castle
+- Max HP: 2
+- Max Stamina: 1.4
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Lothric Castle
+- Max HP: 2
+- Max Stamina: 1.2
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Unturned Graves
+- Max HP: 2
+- Max Stamina: 1.3
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Grand Archives
+- Max HP: 2
+- Max Stamina: 1.2
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Archdragon Peak
+- Max HP: 2
+- Max Stamina: 1.1
+- Physical Damage: 1.1
+- Magic Damage: 1.1
+- Fire Damage: 1.1
+- Lightning Damage: 1.1
+- Dark Damage: 1.1
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Fireless Shrine
+- Max HP: 2
+- Max Stamina: 1.2
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Ariandel
+- Max HP: 2
+- Max Stamina: 1.1
+- Physical Damage: 1.1
+- Magic Damage: 1.1
+- Fire Damage: 1.1
+- Lightning Damage: 1.1
+- Dark Damage: 1.1
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Dreg Heap
+- Max HP: 2
+- Max Stamina: 1.1
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+# Ringed City
+- Max HP: 2
+- Max Stamina: 1.1
+- Physical Damage: 1.2
+- Magic Damage: 1.2
+- Fire Damage: 1.2
+- Lightning Damage: 1.2
+- Dark Damage: 1.2
+- Stamina Damage: 1.2
+- Physical Defence: 1.2
+- Magic Defence: 1.2
+- Fire Defence: 1.2
+- Lightning Defence: 1.2
+- Dark Defence: 1.2
+
+#------------------------
+# New Game+ Correction Changes
+#------------------------
+These multipliers are applied with the above values on each New Game above +1:
+
++2
+- Max HP: 1.1
+- MAX FP: 1.1
+- Max Stamina: 1.1
+- Damage: 1.1
+- Soul Multiplier: 2
+
++3
+- Max HP: 1.2
+- MAX FP: 1.2
+- Max Stamina: 1.2
+- Damage: 1.15
+- Soul Multiplier: 3
+
++4
+- Max HP: 1.5
+- MAX FP: 1.5
+- Max Stamina: 1.5
+- Damage: 1.2
+- Soul Multiplier: 4
+
++5
+- Max HP: 1.75
+- MAX FP: 1.75
+- Max Stamina: 1.75
+- Damage: 1.25
+- Soul Multiplier: 5
+

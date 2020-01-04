@@ -1,0 +1,169 @@
+﻿#------------------------------------
+# Compile Notes
+#------------------------------------
+# Firelink
+esdtool.exe -ds3 -i t400200.py t400130.py t400131.py t400240.py t400000.py t400120.py t400230.py -writebnd mymod
+
+# Irithyll
+esdtool.exe -ds3 -i t370160.py t370020.py -writebnd mymod
+
+# Farron Keep
+esdtool.exe -ds3 -i t330020.py -writebnd mymod
+
+# Lothric Castle
+esdtool.exe -ds3 -i t301020.py -writebnd mymod
+
+# Undead Settlement
+esdtool.exe -ds3 -i t310020.py -writebnd mymod
+
+# Cathedral of the Deep
+esdtool.exe -ds3 -i t350020.py -writebnd mymod
+
+# The Ringed City
+
+#------------------------------------
+# Command Notes
+#------------------------------------
+c1108( f109(0) + 1, 0 ) # Likely "Increase Estus Flask Count"
+f109(0) # Likely "Get Estus Flask Count"
+c1111( <start id>, <end id> ) # Open Transposition menu with specified shop range
+OpenHollowLevelUpMenu() # Open Free level menu
+
+# Use to add soul cost to menu
+SetAquittalCostMessageTag(z7, z8)
+ComparePlayerAcquittalPrice(z7, z8, 2) == 1
+SubtractAcquittalCostFromPlayerSouls(z7, z8)
+
+#------------------------------------
+# Talk IDs
+#------------------------------------
+400000 # Firelink Shrine bonfire
+400001 # Cemetery of Ash bonfire
+400002 # Iudex Gundyr bonfire
+400003 # Untended Graves bonfie
+400004 # Champion Gundyr bonfire
+
+400150 # Yoel
+400130 # Ludleth #1
+400131 # Ludleth #2 (ashes)
+400390 # Crows
+400500 # Nestling
+400260 # Irina of Carim #1
+400261 # Irina of Carim #2
+400262 # Irina of Carim #3
+400270 # Eygon of Carim #1
+400271 # Eygon of Carim #2
+400180 # Siris of the Sunless Realms
+400290 # Anri of Astora #1
+400295 # Anri of Astora #2
+400360 # Horace the Hushed
+400240 # Cornyx of the Great Swamp
+400220 # Greirat of the Undead Settlement
+400250 # Karla
+400230 # Orbeck of Vinheim
+400140 # Yuria of Londor
+400190 # Ringfinger Leonhard
+400300 # Patches #1
+400301 # Patches #2
+400170 # Hawkwood the Deserter
+400171 # Hawkwood the Deserter
+
+400120 # Firekeeper
+400200 # Andre
+400210 # Shrine Handmaid
+400211 # Shrine Handmaid (Untended Graves)
+
+370020 Archdeacon McDonnell
+370160 Company Captain Yorshka
+330020 Old Watchdog
+310020 Mound-makers
+350020 Rosaria
+301020 Sunlight Altar
+510020 Church Monument
+510021 Purging Monument
+
+#------------------------------------
+# Gesture
+#------------------------------------
+# String: 99000960
+AcquireGesture(25) #  Index
+OpenItemAcquisitionMenu(3, 9025, 1) # Item prompt
+        
+Index:
+ 25 - Collapse
+ 26 - 
+
+#------------------------------------
+# ShopLineup Ranges
+#------------------------------------
+ShopLineup Ranges are defined in the .esd file for the relevant characters with this line: OpenRegularShop(130100, 139999);
+ 
+Orbeck # 130100, 139999
+
+#------------------------------------
+# Reference
+#------------------------------------
+--DARK SOULS 3--
+
+COMMAND FUNCTIONS:
+108:EstusAllocationUpdate
+109:BonfireActivation
+110:FirelinkBonfireMenuFlag
+111:SoulsTransposition
+112:SetBonfireMenuData
+113:ReallocateAttributes
+114:UndeadMatch
+
+
+BYTECODE FUNCTIONS:
+
+---ENUM FOR GetStatus---
+   0:Vitality
+   1:Attunement
+   2:Endurance
+   3:Strength
+   4:Dexterity
+   5:Magic
+   6:Faith
+   7:Luck
+   8:Soul
+   9:TotalGetSoul
+   10:Humanity
+   11:VowType(CovenantType)
+   12:Gender
+   13:Unk1
+   14:Unk2
+   15:EquipedCovenantPoints
+   16:EquipedCovenantPoints_CalculateLevel
+   17:Blade Of Darkmoon Points
+   18:Warrior of Sunlight Points
+   19:Mound-makers Points
+   20:Spears of the Church Points
+   21:Rosaria's Fingers Points
+   22:Watchdogs of Farron Points
+   23:Aldrich Faithful Points
+   24:Blade Of Darkmoon Points_CalculateLevel
+   25:Warrior of Sunlight Points_CalculateLevel
+   26:Mound-makers Points_CalculateLevel
+   27:Spears of the Church Points_CalculateLevel
+   28:Rosaria's Fingers Points_CalculateLevel
+   29:Watchdogs of Farron Points_CalculateLevel
+   30:Aldrich Faithful Points_CalculateLevel
+   31:deceasedLvl(YoelLvl)
+   32:deceaseLvl_CheckHollowPoints?
+   33:SoulLvl
+   34:FreeLvlUpRemain
+   35:Way of Blue Points
+   36:Way of Blue Points_CalculateLevel
+   37:Blue Sentinels Points
+   38:Blue Sentinels Points_CalculateLevel
+   
+109:GetEstusAllocation
+
+  ---ENUM FOR BYTECODE_109---
+   0:HpEstus
+   1:MpEstus
+   
+110:GetTotalBonfireLevel
+111:GetIsOnline
+112:GetIsNetPenalized_ForArena

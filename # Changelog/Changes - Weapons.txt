@@ -1,0 +1,63 @@
+﻿#------------------------
+# Infusions
+#------------------------
+Normal:
+- Default state.
+
+Lethal:
+- Boosts STR and DEX scaling.
+- Adds 50 additional critical.
+
+Cursed:
+- Adds Curse aux.
+- Reduces base damage.
+
+Poison:
+- Adds Poison aux. Increases Luck scaling for Poison.
+- Reduces base damage.
+
+Blood:
+- Adds Bleed aux. Increases Luck scaling for Bleed.
+- Reduces base damage.
+
+Frost:
+- Adds Frost aux. 
+- Reduces base damage.
+
+Magic:  
+- Adds Magic damage.
+- Adds effect: absorbs X FP on hit. X depends on weapon type.
+
+Fire:  
+- Adds Fire damage.
+- Adds effect: adds X damage DOT on hit, lasting 5 seconds. X depends on weapon type.
+
+Lightning:  
+- Adds Lightning damage.
+- Adds effect: reduces enemy poise by 25 for 60 seconds on hit.
+
+Dark:  
+- Adds Dark damage.
+- Adds effect: absorbs X HP on hit. X depends on weapon type.
+
+Lucky:
+- Adds LCK scaling.
+- Adds effect: increases Item Discovery by 25
+
+Enchanted:
+- Adds physical INT scaling.
+- Adds effect: grants 1 FP every second.
+
+Holy:
+- Adds physical FTH scaling.
+- Adds effect: grants 3 HP every second.
+
+Sharp
+- Increases DEX scaling.
+- Adds effect: reduces weapon stamina consumption by 25%
+
+Blunt
+- Increases STR scaling.
+- Adds effect: increases stamina damage by 25%
+- Adds effect: boosts equipment load by 10%
+

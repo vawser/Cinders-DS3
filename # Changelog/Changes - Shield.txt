@@ -1,0 +1,156 @@
+﻿#------------------------
+# Infusions
+#------------------------
+# Clarity
+- Reduces Stability by 25%
+- Effect: Grants 1 FP every second.
+
+# Rejuvenation
+- Reduces Stability by 25%
+- Effect: Grants 15 Stamina Recovery
+
+# Restoration
+- Reduces Stability by 25%
+- Effect: Grants 3 HP every second.
+
+# Respite
+- Reduces Stability by 25%
+- Effect: Grants 10% Equip Load
+
+# Lucidity
+- Reduces Stability by 25%
+- Effect: Grants 15% reduction to weapon/spell FP cost
+
+# Greed
+- Reduces Stability by 25%
+- Effect: Grants 10% soul gain.
+
+# Magic
+- Reduces Stability by 25%
+- Boosts Magic guard absorption by 10
+- Effect: increases Magic absorption by 10%
+
+# Fire
+- Reduces Stability by 25%
+- Boosts Fire guard absorption by 10
+- Effect: increases Fire absorption by 10%
+
+# Lightning
+- Reduces Stability by 25%
+- Boosts Lightning guard absorption by 10
+- Effect: increases Lightning absorption by 10%
+
+# Dark
+- Reduces Stability by 25%
+- Boosts Dark guard absorption by 10
+- Effect: increases Dark absorption by 10%
+
+#------------------------
+# Small Shields
+#------------------------
+# Eastern Iron Shield
+- Effect: reduces weapon stamina consumption by 10%
+- Source: Purchase - Easterner's Ashes - Shrine Handmaid
+
+# Golden Falcon Shield
+- Effect: grants 5 Luck
+- Source: Treasure - Road of Sacrifices
+
+# Hawkwood's Shield
+- Effect: grants weapon stamina consumption reduction of 10%
+- Source: Quest - Hawkwood
+
+# Llewellyn Shield
+- Effect: grants 20% absorption below 25% health.
+- Source: Quest - Horace
+- Source: Drop - Horace
+
+# Sacred Bloom Shield
+- Effect: grants 10% increased Max FP.
+- Source: Treasure - Lothric Castle
+
+# Elkhorn Round Shield
+- Effect: grants 1% HP regen whilst below 50% HP
+
+# Crimson Parma
+- Effect: increases max HP by 10%
+
+# Loch Shield
+- Effect: increases max FP by 10%.
+
+#------------------------
+# Medium Shields
+#------------------------
+# Ethereal Oak Shield   
+- Effect: grants 1 HP every second.
+- Source: Treasure - Ariandel
+
+# Grass Crest Shield    
+- Effect: increases Stamina recovery by 15
+- Source: Treasure - Farron Keep
+
+# Porcine Shield
+- Effect: grants 25 Item Discovery
+- Source: Treasure - Lothric Castle
+
+# Shield of Want    
+- Effect: increases souls gain by 20%
+- Source: Treasure - Smouldering Lake
+
+# Sunlight Shield
+- Effect: reduces miracle FP consumption by 15%
+- Source: Covenant - Warriors of Sunlight
+
+# Spider Shield
+- Effect: grants 100 Poison and Toxic resistance.
+- Source: Drop - Unkindled Bandit - Cathedral of the Deep
+
+# Carthus Shield
+- Effect: increases Stamina recovery by 15
+
+# Stone Parma
+- Effect: increases Physical defence by 50
+
+# Wargod Wooden Shield
+- Effect: reduces weapon FP costs by 20%
+
+# Gargoyle Shield
+- Effect: increases Physical defence by 50
+
+# Rune Shield
+- Effect: increases Magic absorption by 10%
+
+# Quicksilver Shield
+- Effect: increases Dark absorption by 10%
+
+# Prince's Shield
+- Effect: grants 1 HP per second
+
+#------------------------
+# Greatshields
+#------------------------
+# Ancient Dragon Greatshield
+- Effect: grants 2 HP per second
+- Source: Treasure - Archdragon Peak
+
+# Greatshield of Glory
+- Effect: reduces stamina recovery by 5
+- Source: Drop - Mimic - Profaned Capital
+
+# Twin Dragon Greatshield
+- Effect: Grants 25 item discovery
+- Source: Treasure - Road of Sacrifices
+
+# Wolf Knight's Greatshield
+- Effect: increases max stamina by 10%.
+- Source: Covenant - Watchdogs of Farron
+
+# Yhorm's Greatshield
+- Effect: increases max HP by 10%.
+- Source: Boss - Yhorm the Giant
+
+# Twinfang Greatshield
+- Effect: increases Fire absorption by 10%
+
+# Immortal Dragon Greatshield
+- Effect: increases souls gain by 20%

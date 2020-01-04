@@ -1,0 +1,115 @@
+﻿#------------------------
+# env( x, y )
+#------------------------
+装備武器特殊カテゴリ番号取得 
+- Get Special Category ID (y is hand index)
+
+待機アニメカテゴリ取得
+- Get Base Category ID
+
+武器格納場所タイプ取得
+- Get Weapon Storage Position (y is hand index)
+
+剣戟キャンセルタイプを取得
+- Get Weapon Art Cancel Type (y is hand index)
+
+女性か
+- Is Female
+
+アーツポイント足りるか
+- Is FP enough for Weapon Art (y is button index, z is hand index)
+
+武器能力開放ステータス値到達か
+- IsEnoughWeaponReleaseStatus (y is hand index)
+
+アニメ終了か
+- Is End of Animation
+
+1116    - Check SpEffect
+225     - Check Weapon Category (y is hand index)
+234     - Get Invalid Attack State?
+333     - Get Current Time
+257     - Get Move ID
+305     - Get Gravity Type
+326     - Get Weapon Art ID (y is hand index)
+1106    - Get Attack Request (y is action arm index)
+1108    - Get Guard Request (y is action arm index)
+1001    - Get Current Stamina
+1007    - 
+105     - 
+303     - Get Ladder Dismount Bottom
+304     - Get Ladder Dismount Top
+311     - 
+262     - 
+245     - Get Ammo Type (y is hand index)
+1109    - Is Action Request
+301     - 
+227     - Get Magic Type
+
+#------------------------
+# act( x, y, z )
+#------------------------
+自動捕捉対象クリア                   
+- Acquired special category number for clear-equipped clear weapons
+
+キャンセルタイミングでAIへのリプランニング要求    
+- Request for replanning to AI at cancellation timing
+
+投げ抜け抵抗回数取得                      
+- Get throw-through resistance count
+
+武器パラメータ参照先
+Weapon parameter reference - SetAttackHand (y is hand index)
+
+AI通知攻撃タイプ
+AI notification attack type - SetInterruptType (y is type index)
+
+弓矢スロット選択
+- Get Arrow/Bolt Selection
+
+アーツポイント使用予約
+- Get FP Reservation for Weapon Art (y is button index, z is hand index)
+
+自動捕捉対象設定
+- Update Lockon Target
+
+自動捕捉対象クリア
+- Clear Lockon Target
+
+110     -
+148     - SetVariable (y is name, z is value)
+1001    - AddStamina (y is Stamina value)
+2002    - SetStyleSpecialEffect (y is SpEffect)
+2004    - SetTurnSpeed (y is turn_speed)
+9103    - SetAIActionState (y is bool)
+9101    -
+2011    - SetSwordArtsCancelType
+
+#------------------------
+# Variables
+#------------------------
+MoveSpeedLevelReal
+LowerDefaultState0
+UpperDefaultState0
+MoveWeightIndex
+IndexBaseCategory
+MoveType
+DrawStanceLoopUpperBlend
+ThrowID
+ThrowHoldBlendWeight
+ThrowHolding
+ThrowNoRegistTime
+IsEnableTAEThrowHold
+IsLockon
+TurnAngleReal
+RollingAngleReal
+RollingAngleRealSelftrans
+ArtsTransition
+AtkAutoAimTime
+AtkAutoAimFlag
+MoveAngle
+
+#------------------------
+# IsNodeActive( x )
+#------------------------
+

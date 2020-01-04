@@ -1,0 +1,222 @@
+﻿#------------------------------
+# Item ID ranges
+#------------------------------
+# Proper
+# Map - Enemies: xxx0000
+# Map - Players: xxx0900
+# Map - Object: xxx1000
+# Map - MSBRegions: xxx2000
+# Map - MSBEvents: xxA10000
+# Map - Collision: xxx4000
+# Map - Chest ObjAct: xxx4300
+
+# These need to be used for new treasures in each area
+54002046 Cemetery of Ash / Unturned Graves
+53002081 High Wall of Lothric / Consumed King's Garden
+53102070 Undead Settlement
+53302138 Road of Sacrifices / Farron Keep
+53502062 Cathedral of the Deep
+53802136 Catacombs of Carthus / Smouldering Lake
+53702120 Irithyll of the Boreal Valley / Anor Londo
+53902088 Irithyll Dungeon / Profaned Capital
+53012073 Lothric Castle
+53412114 Grand Archives
+54102010 Kiln of the First Flame
+53202058 Archdragon Peak
+54502037 Painted World of Ariandel
+55002050 Dreg Heap
+55102038 The Ringed City
+
+#------------------------------
+# Models
+#------------------------------
+# Armor
+9815    Great Lord Set
+9816    Gwyndolin's Set
+9817    Lord's Blade Set
+9818    Paladin's Set
+9863    Velka's Set
+9819    Dragonrider's Set
+9869    Ancient King Set
+9870    Binded Set
+9871    Brushwood Set
+9872    Venerable Sage's Set
+9875    Gloom Set
+9878    Penetrator Set
+9880    Quicksilver Set
+
+9868    Heide Mask
+9804    Pontiff Set
+9809    Giant Slave Helmet
+9810    Gargoyle Skull
+9811    Demon Cleric Mask
+9812    Crab Helmet
+9813    Corvian Knight Helmet
+
+# Weapons
+9937    Beast Claw
+9939    Rakuyo (long)
+9946    Crystal Shield
+9947    Sanctus
+9948    Velka's Talisman
+9949    Ladle
+9950    Crypt Greatsword
+9951    Smelter Sword
+9953    Blue Flame
+9954    Ash Demon Hammer
+9955    Consumed King's Staff
+9956    Elder Ghru Tree
+9957    Giant Crab Arm
+9958    Hunter's Log
+9959    Shield of the Hunted
+9960    Man-serpent Battle Axe
+9961    Man-serpent Handaxe
+9962    Man-serpent Twindaggers
+9963    Rotten Ghru Talisman
+9964    Slave Knife
+9965    Thrall Harpe
+9966    Smouldering Ghru Curved Sword
+9967    Smouldering Ghru Dagger
+9968    Smouldering Ghru Shield
+9969    Smouldering Ghru Spear
+9970    Smouldering Ghru Talisman
+9971    Thrall Pick
+9972    Worker Machete
+9973    Rampart Golem Lance
+9974    Bewitched Alonne Sword
+9975    Bone Scythe
+9976    Dragonrider Halberd
+9977    Key to the Embedded
+9978    King's Ultra Greatsword
+9979    Pilgrim's Spontoon
+9980    Sacred Chime Hammer
+9981    Scythe of Nahr Alma
+9982    Scythe of Want
+9983    Crab Claws
+
+#------------------------------
+# Changelog
+#------------------------------
+# General
+- Champion's Pact: Boosts soul gain by 100%, no longer boosts Item Discovery.
+
+# Infusion
+- Lucidity: reduced FP reduction to 15% (from 20%)
+
+# Weapons
+- Adjusted the reinforcement multipliers for scaling. Damage output is inline with vanilla at +10 (rather than +12 before).
+- Reduced Fury of Manus WA to 25% boost.
+- Reduced Crystallization WA to 25% boost.
+- Increasded Logan's Focus WA to 75% FP cost reduction.
+- Holy Moonlight Greatsword is now just part of the base Moonlight Greatsword when infused to Holy (it switches to that model). Removed the separate weapon.
+- Greatsword of Artorias now uses the corrupted model for the Cursed and Dark infusion. Removed the Abyss Greatsword (was the corrupted version).
+- Balder Side Sword now has thrusting heavy attack.
+- Penetrating Sword now has thrusting heavy attack and Shield Splitter Wa.
+
+# Armor
+- Lowered the top poise values and removed poise on the lighter armours.
+- Reduced the spell FP consumption effects to 20% (from 30%).
+- Shira's Set now reduces miracle FP consumption.
+- Cathedral Knight Set now boosts Strength.
+- Lorian's Set now boosts Faith.
+- Maiden Set now boosts Faith.
+- Removed the Poise values within the menus as they don't display the actual values used.
+- Added Poise: X to each armor piece description.
+
+# Spells
+- Soul Arrow: damage to 200
+- Great Soul Arrow: damage to 300
+- Soul Spear: damage to 400
+- Crystal Soul Spear: damage to 500
+- Soul Greatsword: damage to 400
+- Old Moonlight: damage to 400 (500)
+- Soul Wave: damage to 300
+- Soul Stream: damage to 200, FP to 100
+- Unleash Magic: now boosts magic/dark damage by 20% for 30 seconds, but reduces absorption by 100% whilst active.
+- Pestilent Mist: now inflicts Curse rather than dealing damage. Will inflict 240 Curse over its whole duration.
+- Fire Surge: damage to 150
+- Great Chaos Fire Orb: damage to 400
+- Chaos Storm: damage to 400 (350)
+- Profaned Flame: damage to 350
+- Chaos Bed Vestiges: damage to 500
+- Cataclysm: FP to 100
+- Bursting Fireball: FP to 35, damage to 75
+- Boulder Heave: FP to 60, damage to 500, 300
+- Sacred Flame: reduced damage multipliers.
+- Earthfall: FP to 100
+- Acid Surge: deals damage and reduces durability rather than reducing absorption.
+- Warmth: heals 30 HP per tick
+- Power Within: boosts damage by 35%
+- Force: no longer deals damage.
+- Emit Force: damage to 250 (100)
+- Wrath of the Gods: FP to 50, damage to 500
+- Great Lightning Spear: damage to 350
+- Sunlight Spear: FP to 75, damage to 500
+- Heavenly Thunder: FP to 100
+- Atonement: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. FP to 50.
+- Sacred Oath: boosts damage and absorption by 20%.
+- Seek Guidance renamed to Heavenly Relief
+- Heavenly Relief: boosts equipment load by 25% and reveals signs without ember for 60 seconds.
+- Perseverance: boosts Poise by 30 for 60 seconds.
+- All Dark spells no longer cost HP.
+- Deep Barb: FP to 10, damage to 100
+- Dark Edge: FP to 20, damage to 250
+- Deep Soul: FP to 25, damage to 200
+- Great Deep Soul: FP to 30, damage to 300
+- Great Soul Dregs: FP to 50, damage to 500
+- Climax: FP to 50, damage to 500, removes 1000 souls upon use. Doesn't affect damage.
+- Abyssal Edge: FP to 30, damage to 400
+- Affinity: FP to 75, damage to 100
+- Whisper of Despair: FP to 60, now inflicts 100 Curse.
+- Yearning Dregs: FP to 6, damage to 250
+- Writhing Deep: FP to 40, damage to 250 [500]
+- Dark Bead: FP to 50, damage to 75
+- Cascading Deep: FP to 75, damage to 75
+- Surging Deep: FP to 5, damage to 100
+- Dreg Torrent: FP to 75, damage to 100
+- Repel: FP to 25
+- Numbness: FP to 100
+- Black Fire Orb: FP to 40, damage to 400 (300)
+- Black Flame: FP to 30, damage to 350 (200)
+- Black Serpent: FP to 40, damage to 300
+- Dark Dance: FP to 6, damage to 250
+- Recollection: FP to 75, damage to 100
+- Mournful Flames: FP to 40, damage to 300
+- Nibble: FP to 10
+- Gnaw: FP to 25
+- Dorhys' Gnawing: FP to 30
+- Lifehunt Scythe: FP to 30, damage to 400
+- Devouring Swarm: FP to 75
+- Dead Again: FP to 30
+- Deep Protection: FP to 60
+- Dark Blade: FP to 100
+- Vow of Silence: FP to 30
+
+# Rings
+- Added the covenant phantom rings to the Primordial shop
+- Renamed Ring of the Fingers to Ring of Rosaria
+- Renamed Ring of Champions to Ring of the Exalted
+- Renamed Beastial Band to Bestial Band
+- Dusk Crown Ring: reduces sorcery FP reduction to 25% (from 30%)
+- Charred Bone: reduces pyromancy FP reduction to 25% (from 30%)
+- Tome of Sunlight: reduces miracle FP reduction to 25% (from 30%)
+
+# Enemies
+- Increased the damage of the Soul of Cinder.
+- Bosses are slightly tougher to inflict Curse on than before.
+
+# Bugfixes
+- Entering NG+ will now correctly unlock Spell/Ring forging.
+- Priscilla's Scythe now correctly inflicts self-bleed.
+- Fixed various localization issues.
+- Fixed Darkdrift instantly cursing you.
+- Fixed Lightning Moonlight Greatsword not having the correct scaling.
+- Fixed various irregularities with the animation cancel changes.
+
+#------------------------------
+# TODO 
+#------------------------------
+Add new models
+Add the DS2 dragonform as normal armor
+Fix the bosses dropping the nightmare/dream speffects after resting
+

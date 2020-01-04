@@ -1,0 +1,583 @@
+﻿#------------------------
+# Item Changes
+#------------------------
+#------------------------
+# Nestling
+#------------------------
+The Nestling will now take Bone Fragments, Lizard Hides and Resonating Crystals.
+The player can give the Nestling these items an unlimited number of times.
+
+# Bone Fragment
+- Ember
+- Titanite Shard
+- Large Titanite Shard
+- Mossfruit
+- Bloodred Moss Clump
+- Purple Moss Clump
+- Blooming Purple Moss Clump
+- Rime-blue Moss Clump
+
+# Lizard Hide
+- Ember
+- Titanite Shard
+- Large Titanite Shard
+- Titanite Chunk
+- Dragon Scale
+- Titanite Scale
+- Twinkling Titanite
+- Titanite Slab
+
+# Resonating Crystal
+- Ember
+- Divine Blessing
+- Hidden Blessing
+- Siegbräu
+- Brightbug
+- Repair Powder
+- Purging Stone
+- Budding Green Blossom
+
+#------------------------
+# NPC
+#------------------------
+# Black Hand Gotthard
+- Now drops Divine Blessing
+- Now drops Hidden Blessing
+
+# Isabella the Mad
+- Now drops Blight Ring
+
+# Court Sorcerer
+- Now drops Ring of Wisdom
+
+# Knight Slayer Tsorig
+- Now drops Fume Sword
+
+# Darkwraith (High Wall of Lothric)
+- Now drops Abyssal Greatsword
+
+#------------------------
+# Covenant
+#------------------------
+# Champion's Pact
+- Titanite Weapons: 10 Awestone
+- Twinkling Weapons: 15 Awestones
+- Boss/Dragon Weapons: 20 Awestones
+- Basic Spells: 10 Awestone
+- Mid Spells: 15 Awestones
+- Powerful Spells: 20 Awestones
+- Rings: 15 / 20 Awestones
+- Armor: 15 / 20 Awestones
+
+# Darkmoon Faithful
+- Darkmoon Ring
+- Darkmoon Blade
+- Yorshka's Chime
+- Magic Gem
+- Enchanted Gem
+- Twinkling Titanite
+- Saint's Set
+- Sunless Set
+
+# Watchdogs of Farron
+- Old Wolf Curved Sword
+- Wolf Knight's Greatshield
+- Wolf Ring
+- Havel's Ring
+- Runic Seal
+- Blunt Gem
+- Titanite Shard
+- Large Titanite Shard
+- Titanite Chunk
+- Wolf Knight Set
+
+# Aldrich Faithful
+- Archdeacon's Great Staff
+- Archdeacon's Longstaff
+- Numbness
+- Climax
+- Dark Gem
+- Twinkling Titanite
+- Archdeacon Set
+
+# Warrior of Sunlight
+- Sunlight Shield
+- Sunlight Staight Sword
+- Inner Fervor
+- Heavenly Thunder
+- Lightning Gem
+- Titanite Scale
+- Armor of the Sun Set 
+
+# Mound-makers
+- Bloodlust
+- Warmth
+- Hollowslayer Greatsword
+- Flynn's Bow
+- Sharp Gem
+- Titanite Shard
+- Large Titanite Shard
+- Titanite Chunk
+- Sunset Set
+
+# Chaos Servants
+- Earthquake
+- Seething Chaos
+- Lingering Chaos
+- Cataclysm
+- Charred Bone
+- Fire Seed
+- Fire Gem
+- Cornyx's Set
+
+# Rosaria's Fingers
+- Obscuring Ring
+- Man-grub's Staff
+- Hornet Ring
+- Wretched Pendant
+- Holy Gem
+- Lucky Gem
+- Twinkling Titanite
+- Armor of Thorns Set
+
+# Spears of the Church
+- Young Grass Dew
+- Divine Spear Fragment
+- Ritual Spear Fragment
+- White Birch Bow
+- Sacred Chime of Filianore
+- Lethal Gem
+- Dragon Scale
+- Shira's Set
+
+#------------------------
+# Transfusion
+#------------------------
+# Soul of the Blood of the Wolf
+- Can transfuse into Farron Greatsword
+- Can transfuse into Wolf Knight's Greatsword
+
+# Soul of the Crystal Sage
+- Can transfuse into Crystal Sage's Rapier
+- Can transfuse into Crystal Hail
+- Can transfuse into Sage's Emblem
+
+# Soul of the Rotted Greatwood
+- Can transfuse into Arstor's Spear
+- Can transfuse into Hammer of the Great Tree
+- Can transfuse into Greatwood Remnants
+- Can transfuse into Greatwood Club
+
+# Soul of Boreal Valley Vordt
+- Can transfuse into Vordt's Great Hammer
+- Can transfuse into Pontiff's Left Eye
+- Can transfuse into Snap Freeze
+
+# Soul of Aldrich
+- Can transfuse into Lifehunt Scythe
+- Can transfuse into Darkmoon Longbow
+- Can transfuse into Darkmoon Ritual Staff
+- Can transfuse into Sword of Avowal
+
+# Soul of the Twin Princes
+- Can transfuse into Lorian's Greatsword
+- Can transfuse into Lothric's Holy Sword
+- Can transfuse into Lothric's Scythe
+- Can transfuse into Prince's Shield
+- Can transfuse into Elder Dragon Ring
+
+# Soul of Rosaria
+- Can transfuse into Bountiful Sunlight
+- Can transfuse into Longstaff of Rosaria
+
+# Soul of Cinder
+- Can transfuse into Firelink Greatsword
+- Can transfuse into Firelink Dagger
+- Can transfuse into Firelink Spear
+- Can transfuse into Firelink Sword
+- Can transfuse into Firelink Rapier
+- Can transfuse into Ring of Constitution
+- Can transfuse into Ring of Fortitude
+- Can transfuse into Ring of Clarity
+
+# Soul of Demon
+- Can transfuse into Demon's Greataxe
+- Can transfuse into Demon's Fist
+
+# Soul of a Stray Demon
+- Can transfuse into Boulder Heave
+- Can transfuse into Demon's Great Hammer
+
+# Soul of High Lord Wolnir
+- Can transfuse into Wolnir's Holy Sword
+- Can transfuse into Black Serpent
+
+# Soul of Consumed King Oceiros
+- Can transfuse into Moonlight Greatsword
+- Can transfuse into White Dragon Breath
+- Can transfuse into Ring of Alacrity
+- Can transfuse into Crystal Storm
+
+# Soul of Pontiff Sulyvahn
+- Can transfuse into Greatsword of Judgment
+- Can transfuse into Profaned Greatsword
+
+# Soul of the Dancer
+- Can transfuse into Dancer's Enchanted Swords
+- Can transfuse into Soothing Sunlight
+
+# Soul of the Dragonslayer Armour
+- Can transfuse into Dragonslayer Greataxe
+- Can transfuse into Dragonslayer Greatshield
+
+# Soul of the Champion Gundyr
+- Can transfuse into Gundyr's Halberd
+- Can transfuse into Prisoner's Chain
+
+# Soul of the Old Demon King
+- Can transfuse into Old King's Great Hammer
+- Can transfuse into Chaos Bed Vestiges
+- Can transfuse into Chaos Flame
+
+# Soul of the Deacons
+- Can transfuse into Cleric's Candlestick
+- Can transfuse into Deep Ring
+- Can transfuse into Whisper of Despair
+
+# Soul of the Nameless King
+- Can transfuse into Dragonslayer Swordspear
+- Can transfuse into Storm Curved Sword
+- Can transfuse into Ring of the Sun
+
+# Soul of Yhorm the Giant
+- Can transfuse into Yhorm's Great Machete
+- Can transfuse into Yhorm's Greatshield
+- Can transfuse into Iron Grain Ring
+
+# Soul of Freide
+- Can transfuse into Friede's Great Scythe
+- Can transfuse into Rose of Ariandel
+- Can transfuse into Celestial Ring
+- Can transfuse into Blizzard
+
+# Soul of the Demon Prince
+- Can transfuse into Demon's Scar
+- Can transfuse into Ring of Disparity
+- Can transfuse into Abyssal Flame
+
+# Soul of Slave Knight Gael
+- Can transfuse into Gael's Greatsword
+- Can transfuse into Repeating Crossbow
+- Can transfuse into Halo
+- Can transfuse into Vanquisher Ring
+
+# Soul of Midir
+- Can transfuse into Frayed Blade
+- Can transfuse into Old Moonlight
+- Can transfuse into Abyss Ring
+
+#------------------------
+# Estus Shard (11)
+#------------------------
+Cemetery of Ash
+1. In the chest in the roof of Firelink Shrine.
+    
+High Wall of Lothric
+2. On the anvil in the area above the courtyard where the Winged Knight patrols.
+
+Undead Settlement
+3. In the pit with the Boreal Outrider Knight near to the Giant's tower.
+
+Road of Sacrifices
+4. On the ledge by the Elder Ghru.
+
+Cathedral of the Deep
+5. By the Deacon found in the tower on the route to the Cathedral rafters.
+
+Farron Keep
+6. On the path that leads to the Abyss Watchers.
+
+Catacombs of Carthus
+7. Found in the passage guarded by Bonewheel Skeletons and Writhing Rotten Flesh.
+
+Irithyll of the Boreal Valley
+8. Dropped by the Mimic in the Pontiff's cathedral.
+
+Irithyll Dungeon
+9. Dropped by one of the Mimics in the dungeon.
+
+Lothric Castle
+10. Beneath the left infected Wyvern on the castle.
+
+Grand Archives
+11. Found on the balcony at the back of the Grand Archives, near to the shortcut from the rooftops back into the archives.
+
+#------------------------
+# Undead Bone Shard (10)
+#------------------------
+Undead Settlement
+1. On the roof of the building in area where you encounter the Demon.
+
+Road of Sacrifices
+2. In the blocked passage area near to the ladder down to Farron swamp.
+
+Farron Keep
+3. In between the Elder Ghru trio in the swamp.
+
+Cathedral of the Deep
+4. On the coffin jutting out in the area that approaches the Cathedral entrance.
+
+Irithyll of the Boreal Valley
+5. Found behind the gravestone the Corvian is praying at.
+
+Profaned Capital
+6. On the ledge that drops down from the Toxic swamp area back to the Profaned Capital tower.
+
+Smouldering Lake
+7. Dropped by the Carthus Sandworm.
+8. Found within the catacombs beneath the cavern, in the passage with Smouldering Rotten Flesh.
+
+Lothric Castle
+9. In the secret beneath the elevator that leads up to the Twin Princes.
+
+Grand Archives
+10. On the rooftops near the trio of Angelic Winged Knights.
+
+#------------------------
+# Cemetery of Ash
+#------------------------
+- East-West Shield location is now Plank Shield
+- Homeward Bone location is now East-West Shield
+- Estus Shard location is now Estus Ring
+- Estus Ring location is now Transposing Kiln
+- Covetous Silver Serpent Ring location is now Estus Shard
+- Soul of a Deserted Corpse location is now Company of Champions
+
+#------------------------
+# High Wall of Lothric
+#------------------------
+- Ember location is now Braille Divine Tome of Lothric
+- Undead Hunter Charm location is now Oozing Pellets
+- Estus Shard location is now Green Tearstone Ring
+- Green Blossom location is now Titanite Shard
+- Throwing Knife location is now Titanite Scale
+- Throwing Knife location is now Titanite Scale
+- Titanite Shard location is now Banner of Tenacity
+- Green Blossom location is now Glaive
+- Gold Pine Resin location is now Repair Powder
+- Firebomb location is now Repair Powder
+- Longbow location is now Dragonslayer Greatbow and 50 Wood Greatarrows
+- Ring of Sacrifice is now Redeye Ring
+
+#------------------------
+# Undead Settlement
+#------------------------
+- Estus Shard location is now Flame Stoneplate Ring
+- Flame Stoneplate Ring location is now Estus Shard
+- Undead Bone Shard location is now Flynn's Ring
+- Flynn's Ring location is now Undead Bone Shard
+- Alluring Skull location is now Bone Fragment
+- Repair Powder location is now Oozing Pellets
+- Plank Shield location is now Quarterstaff
+- Soul of an Unknown Traveler location is now Yellow Tearstone Ring
+- Alluring Skull location is now Bulwark Ring
+- Soul of an Unknown Traveler location is now Short Bow
+- Charcoal Pine Bundle location is now Warpick
+- Large Soul of a Deserted Corpse location is now Zweihander
+- Kukri location is now Estoc
+- Rusted Coin location is now Lucky Coin
+- Fading Soul location is now Battle Axe
+
+#------------------------
+# Road of Sacrifices
+#------------------------
+- Estus Shard location is now Sellsword Twinblades
+- Sellsword Twinblades location is now Estus Shard
+- Soul of an Unknown Traveler location is now Brightbug
+- Shriving Stone location is now Brightbug.
+- Purple Moss Clump location is now Oozing Pellets
+- Gold Pine Bundle location is now Symbol of the Penitent
+- Ring of Sacrifice location is now Varangian Set
+- Green Blossom location is now Violet Tearstone Ring
+- Farron Coal location is now Flame Ember
+- Hollow Gem location is now Scrolls of the Augur
+- Added Fire Seed to Conjurator Set location
+
+#------------------------
+# Farron Keep
+#------------------------
+- Ember location is now Heretic's Staff
+- Ember location is now Speckled Stoneplate Ring
+- Sunlight Talisman location is now Lightning Arrow
+- Rusted Gold Coin location is now Heretic's Warstaff
+- Rotten Pine Resin location is now Runic Seal
+- Prism Stone location is now Corvian Longstaff
+- Rotten Pine Resin location is now Ring of Retaliation
+- Sage's Coal location is now Crystal Ember
+- Added Fire Seed to Iron Flesh location
+- Changed Wolf's Blood Swordgrass location to Flynn's Bow
+
+#------------------------
+# Cathedral of the Deep
+#------------------------
+- Deacons of the Deep now drop 5 Human Dregs instead of the Small Doll
+- Poisonbite Ring location is now Archdeacon's Bident
+- Notched Whip location is now Lloyd's Sword Ring
+- Estus Shard location is now Saint Bident
+- Crest Shield location is now Estus Shard
+- Ember location is now Crest Shield
+- Lloyd's Sword Ring location is now Ember
+- Saint Bident location is now Oak Crossbow
+- Fading Soul location is now Titanite Shard
+- Fading Soul location is now Oozing Pellets
+- Titanite Shard location is now Dragonrider Bow
+- Undead Hunter Charm location is now Hexer Set
+- Duel Charm location is now Ring of Vengeance
+- Red Bug Pellet location is now Lizard Hide
+- Titanite Shard location is now Fire Seed
+- Blessed Gem location is now Holy Flame
+
+#------------------------
+# Catacombs of Carthus
+#------------------------
+- Ember location is now Demonsbane Ring
+- Grave Warden Pyromancy Tome location is now Unholy Remains
+- Ember location is now Grave Warden Pyromancy Tome
+- Yellow Bug Pellet location is now Crypt Ring
+- Titanite Shard location is now Fire Seed
+- Large Titanite Shard location is now Fire Seed
+- Chaos Gem location is now Black Fire Orb
+- Added Dark Edge to Black Flame spell tool location
+
+#------------------------
+# Smouldering Lake
+#------------------------
+- Speckled Stoneplate Ring location is now Estus Shard
+- Dragonrider Bow location is now Power Within
+- Large Titanite Shard location is now Charred Bone
+- Soul of a Crestfallen Knight location is now Witch's Staff
+- Homeward Bone location is now Smouldering Greatsword
+- Ember location is now Ring of Spite
+- Large Titanite Shard location is now Fire Seed
+- Added Fire Seed to Witch's Ring location
+- Added Fire Seed to Sacred Flame location
+
+#------------------------
+# Irithyll of the Boreal Valley
+#------------------------
+- Divine Blessing location is now Golden Dual Swords
+- Painting Guardian's Curved Sword location is now Great Heal
+- Large Soul of a Nameless Soldier location is now Sorcerous Flame
+- Lightning Gem location is now Great Lightning Spear
+- Large Titanite Shard location is now Witchtree Limb
+- Deep Gem location is now Titanite Scale
+- Great Heal location is now Wretched Pendant
+- Rusted Gold Coin location is now Infusing Essence
+- Blood Gem location is now Ring of Reprisal
+- Kukri location is now Resonating Crystal
+- Fading Soul location is now Fire Seed
+
+#------------------------
+# Irithyll Dungeon
+#------------------------
+- Purging Stone location is now Notched Whip
+- Dung Pie location is now Murky Warstaff
+- Large Soul of a Nameless Soldier location is now Hallowed Ring
+- Jailer's Key Ring location is now Old Cell Key
+- Old Cell Key location is now Jailer's Key Ring
+- Fading Soul location is now Fire Seed
+- Large Titanite Shard location is now Fire Seed
+- Soul of a Weary Warrior location is now Poisonbite Ring
+
+#------------------------
+# Profaned Capital
+#------------------------
+- Rubbish location is now Undead Bone Shard
+- Undead Bone Shard location is now Rubbish
+- Rusted Gold Coin location is now Golden Ritual Spear
+- Poison Gem location is now Ring of Londor
+- Shriving Stone location is now Grotto Set
+- Profaned Coal location is now Dark Ember
+- Rusted Coin location is now Fire Seed
+
+#------------------------
+# Anor Londo
+#------------------------
+- Estus Shard location location is now Titanite Chunks
+- Moonlight Arrow location is now Forgotten Pendant
+- Large Soul of a Weary Warrior is now Saint's Set
+- Proof of a Concord Kept location is now Painting Guardian's Curved Sword
+- Rusted Gold Coin is now Ring of Woe
+- Giant's Coal location is now Lightning Ember
+
+#------------------------
+# Lothric Castle
+#------------------------
+- Braille Divine Tome of Lothric location is now Sunlight Spear
+- Knight's Ring location is now Desiccated Finger
+- Sunlight Medal location is now Red Tearstone Ring
+- Red Tearstone Ring location is now Gotthard Twinswords
+- Titanite Scale location is now Sunlight Talisman
+- Soul of a Crestfallen Knight is now Grand Archives Key
+- Raw Gem location is now Resonating Crystal
+- Titanite Chunk location is now Fire Seed
+
+#------------------------
+# Consumed King's Garden
+#------------------------
+- Titanite Scale location is now Spirit Amethyst
+- Titanite Chunk location is now Ring of Adversity
+- Titanite Scale location is now Unleash Magic
+
+#------------------------
+# Archdragon Peak
+#------------------------
+- Path of the Dragon statue reward is now a Titanite Slab.
+- Lightning Clutch Ring location is now 50 Dragonslayer Lightning Arrows
+- Large Soul of a Crestfallen Knight location is now Immortal Dragon Greatshield
+- Lightning Bolt location is now Ancient Dragon Halberd
+- Titanite Chunk location is now Dragon Scale
+- Titanite Chunk location is now Dragon Scale
+- Titanite Chunk location is now Dragon Scale
+- Titanite Slab location is now Estus Shard
+- Homeward Bone location is now Ring of Retribution
+
+#------------------------
+# Untended Graves
+#------------------------
+- Soul of a Crestfallen Knight location is now Dingy Hood
+- Hidden Blessing location is now Burial Knight set
+
+#------------------------
+# Grand Archives
+#------------------------
+- Power Within location is now Ring of Catastrophe
+- Titanite Slab location is now Tome of Sunlight
+- Titanite Chunk location is now Fire Seed
+- Titanite Scale location is now Fire Seed
+- Ember location is now Arcane Trinket.
+- Scholar Ring is now 3 Twinkling Titanite.
+- Hunter's Ring is now Titanite Slab.
+
+#------------------------
+# Painted World of Ariandel
+#------------------------
+- Way of White Corona location is now Titanite Slab
+- Snap Freeze location is now Titanite Slab
+
+#------------------------
+# Dreg Heap
+#------------------------
+- Soul of a Weary Warrior locations are now Soul of an Unknown Traveler
+- Soul of a Crestfallen Knight locations are now Soul of a Nameless Soldier
+- Large Soul of a Weary Warrior locations are now Large Soul of an Unknown Traveler
+
+
+#------------------------
+# The Ringed City
+#------------------------
+- Lightning Arrow location is now Titanite Slab
+- Havel's Ring+3 location is now Titanite Slab
+- Titanite Chunk location is now Bluemoon Greatsword
+- Fading Soul location is now Flask of Abyss
+- Fading Soul location is now Ledo's Great Hammer

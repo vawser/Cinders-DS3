@@ -1,0 +1,100 @@
+﻿#---------------------------
+# Follow Type
+#---------------------------
+Used to change how the bullet follows.
+
+Follow Type 0   Follow the player position
+
+#---------------------------
+# Emitter Position Type
+#---------------------------
+
+
+#---------------------------
+# Magic School Type
+#---------------------------
+0   Sorcery
+1   Miracles
+2   Pyromancy
+ 
+#---------------------------
+# Effect Category
+#---------------------------
+Determines the damage scaling type used by the spell
+
+3   Sorcery
+4   Miracles
+10  Pyromancy
+ 
+#---------------------------
+# Ref Category
+#---------------------------
+0   Behavior
+1   Bullet
+2   SpEffect
+ 
+#---------------------------
+# Attribute Type 
+#---------------------------
+2   Lifehunt Scythe
+ 
+#---------------------------
+# Attribute Value (0 to 3)
+#---------------------------
+Appears to determine the stat levels at which to use the Magic ID entries.
+
+#---------------------------
+# Magic ID (0 to 3)
+#---------------------------
+Points to seperate Magic entries, corresponding to the attribute values (e.g. AV 0 == 20, AV 1 = 30, Magic ID 0 will fire between 20 and 30)
+
+#---------------------------
+# Animation Category
+#---------------------------
+0 	Soul Arrow [1]
+1 	Magic Weapon [2]
+2 	Hidden Body [4]
+13	Chameleon [2]
+17	Magic Shield [2]
+20	Cast Light [2]
+22	Heavy Soul Arrow [2]
+25	Soul Greatsword [2]
+29	Farron Dart [1]
+30	Farron Flashsword [1]
+31	Soul Stream [5]
+37	Dark Edge [3]
+40	Farron Hail [2.5]
+41	Affinity [4]
+46	Old Moonlight [3]
+
+5	Fireball [3]
+6	Iron Flesh [4]
+8	Great Combustion [2]
+9	Poison Mist [4]
+10	Firestorm [6]
+11	Rapport [4]
+23	Fire Surge [1]
+24	Fire Whip [3]
+32	Profaned Flame [3]
+33	Sacred Flame [4]
+38	Warmth [4]
+42	Black Serpent [4]
+43	Chaos Bed Vestiges [4]
+47	Floating Chaos [5]
+50	Flame Fan [1]
+
+12	Force [2]
+15	Lightning Blade [3]
+18	Emit Force [4]
+19	Lightning Spear [3]
+26	Heal [5]
+27	Heal Aid [3]
+28	Sacred Oath [7]
+34	Lightning Stake [4]
+35	Gnaw [3]
+36	Lightning Storm [5]
+39	Wrath of the Gods [5]
+44	Lifehunt Scythe [3]
+45	Divine Pillars of Light [5]
+48	Way of White Corona [3]
+49	Lightning Arrow [3]

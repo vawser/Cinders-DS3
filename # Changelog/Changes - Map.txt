@@ -1,0 +1,512 @@
+﻿#------------------------
+# Progression Changes
+#------------------------
+There the following in-map warps:
+- Undead Settlement -> Catacombs of Carthus
+- Undead Settlement -> Farron Keep
+- High Wall of Lothric -> Archdragon Peak
+- Smouldering Lake -> Irithyll Dungeon
+- Cathedral of the Deep -> Irithyll of the Boreal Valley
+- Cemetery of Ash -> Untended Graves
+- Cemetery of Ash -> Dreg Heap
+
+#---------------------------------
+# Cemetery of Ash - m40
+#---------------------------------
+- Added NG+ coffin.
+- Added Champion's Pact treasure.
+- Added Censuring Palm treasure.
+- Added Fire Keeper Mask treasure.
+- Added Untended Grave warp: commune with the Fire Keeper remains in Firelink Tower.
+- Added Dreg Heap warp: commune with the petrified giant near to Firelink Tower.
+
+#---------------------------------
+# High Wall of Lothric - m30
+#---------------------------------
+- Removed Tower on the Wall bonfire.
+- Removed Vordt boss bonfire.
+- Removed Dancer boss bonfire.
+- Removed Oceiros boss bonfire.
+- Added Castle Entrance bonfire, in the courtyard between Vordt and Dancer.
+- Added Boreal Outrider Knight in Tower on the Wall bonfire area.
+- Added three Hollow Soldiers to starting rampart after first bonfire.
+- Added Mimic to mimic room, drops Acolyte Ring.
+- Added corpse to mimic room, holds 1 Ember.
+- Added Hollow Crossbowman to rooftop overlooking courtyard.
+- Added Hollow Crossbowman to courtyard between Vordt and Dancer.
+- Added Hollow Crossbowman.
+- Added Captain Morrel: drops Lothric Knight Greatsword and Ember.
+- Added Serpent-man, who can drop Dragon Scales [5%].
+- Added Dragon Scale treasure.
+- Added Homing Soulmass treasure.
+- Added Mercenary Ring treasure.
+- Added Physician Ring treasure.
+- Added Fire Seed treasure.
+- Added Tailbone Club treasure.
+- Added Archdragon Peak warp: commune with the petrified dragon near to the High Wall of Lothric bonfire.
+- Added Huntmaster Ava: drops Endless Quiver
+- Added The Pursuer: drops Pursuer's Ultra Greatsword
+
+# NG+
+- Added Undead Dog.
+- Added Large Hollow Soldier.
+- Added Large Hollow Soldier.
+- Added Large Hollow Soldier.
+- Added Lothric Knight.
+- Added Lothric Knight.
+- Added Lothric Knight.
+- Added Winged Knight.
+- Added Winged Knight.
+- Added Winged Knight.
+- Added Winged Knight.
+
+#---------------------------------
+# Undead Settlement - m31
+#---------------------------------
+- Removed Undead Settlement bonfire.
+- Added Cathedral Evangelist in Undead Settlement bonfire area.
+- Added Cathedral Evangelist.
+- Added two houses near the drop from the Hollow Slave rooftops to the base of the Giant's tower, creating a shortcut.
+- Added Catacombs of Carthus warp: touch the door in the passage outside of the Curse-rotted Greatwood arena.
+- Added Farron Keep warp: commune with the petrified pilgrim near the front of the group on the bridge at the start of Undead Settlement.
+- Added Emblem of Vitality treasure.
+- Added Fire Seed treasure.
+- Added Fire Seed treasure.
+- Added Cathedral Evangelist.
+- Added Cage Spider.
+- Added Cage Spider.
+- Added Boreal Outrider Knight.
+- Added Deep Barb treasure.
+- Added Old Pygmy Ring treasure.
+- Added Mask of Velka treasure.
+- Added Velka's Rapier treasure.
+- Added Eccentric Archibald: drops Tonitrus
+- Added Beast Cutter treasure.
+- Added Beasthunter Saif treasure.
+- Added Cart Wheel treasure.
+
+# NG+
+- Added Boreal Outrider Knight.
+- Added Cathedral Evangelist.
+- Added Cathedral Evangelist.
+- Added Cathedral Evangelist.
+- Added Cathedral Evangelist.
+- Added Hollow Manservant.
+- Added Hollow Manservant.
+- Added Hollow Manservant.
+- Added Hollow Manservant.
+- Added Peasant Hollow.
+- Added Peasant Hollow.
+- Added Peasant Hollow.
+- Added Peasant Hollow.
+- Added Peasant Hollow.
+
+#---------------------------------
+# Road of Sacrifices - m33
+#---------------------------------
+- Removed Crystal Sage boss bonfire.
+- Removed Road of Sacrifices bonfire.
+- Moved Crucifixion Woods bonfire closer to Crystal Sage, renamed to Sage's Overlook
+- Added Elder Ghru.
+- Added Elder Ghru.
+- Added Elder Ghru.
+- Added chest in the Halfway Fortress bonfire area, holding Anri's Straight Sword.
+- Added Sieghardt of Catarina: drops Catarina Set and Pierce Shield.
+- Added the Forlorn: drops Twinspears of the Forlon
+- Added Scholar Ring treasure.
+- Added Drangleic Sword treasure.
+- Added Wanderer's Coat treasure.
+
+# NG+
+- Added Darkwraith.
+- Added Elder Ghru.
+- Added Elder Ghru.
+- Added Sage's Devout.
+- Added Sage's Devout.
+
+#---------------------------------
+# Farron Keep - m33
+#---------------------------------
+- Removed Keep Ruins bonfire.
+- Removed Abyss Watchers boss bonfire.
+- Added new wall.
+- Added Basilisk.
+- Added Basilisk.
+- Added Basilisk.
+- Added Basilisk.
+- Added Forgotten Locklin: drops Mirrah Chain Set and Dragonslayer's Axe.
+- Added Knight's Ring treasure.
+- Added Hunter's Ring treasure.
+- Added Drangleic Greatsword treasure.
+- Added Skull Mask treasure.
+- Added Hunter Axe treasure.
+
+# NG+
+- Added Black Knight.
+- Added Darkwraith.
+- Added Darkwraith.
+- Added Darkwraith.
+- Added Darkwraith.
+
+#---------------------------------
+# Cathedral of the Deep - m35
+#---------------------------------
+- Added Irithyll warp: commune with the small coffin behind the central coffin in the Deacons of the Deep arena.
+- Removed Deacons of the Deep boss bonfire.
+- Removed the Cathedral of the Deep bonfire.
+- Cathedral Knights are now present in the Deacons boss room in NG+. One extra is added for each NG+ cycle, up to 5 extra.
+- Added Deep Accursed.
+- Added Cathedral Knight.
+- Added Morric, the Fallen Knight: drops Morne's Great Hammer
+- Added Priestess Ring treasure.
+- Added Perseverance treasure.
+- Added Barbed Straight Sword treasure.
+- Added Spiked Shield treasure.
+- Added Poison Gem treasure.
+- Added Writhing Deep treasure.
+- Added Yearning Dregs treasure.
+- Added Dark Gem treasure.
+- Added Lethal Gem treasure.
+- Added Church Pick treasure.
+- Added Kirkhammer treasure.
+
+# NG+
+- Added Cathedral Knight.
+- Added Cathedral Knight.
+- Added Cathedral Knight.
+- Added Cathedral Knight.
+- Added Cathedral Knight.
+- Added Deep Accursed.
+- Added Deep Accursed.
+- Added Grave Warden.
+- Added Cathedral Evangelist.
+- Added Cathedral Evangelist.
+- Added Cathedral Hollow.
+- Added Cathedral Hollow.
+
+#---------------------------------
+# Catacombs of Carthus - m38
+#---------------------------------
+- Catacombs of Carthus bonfire moved to the start of the area.
+- High Lord Wolnir bonfire renamed to Tomb of the High Lord, and is no longer a boss bonfire.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Bonewheel Skeleton.
+- Added Black Knight.
+- Added Holy Knight Morton: drops Sunset Set, Silvercat Ring and Sunset Shield
+- Added Black Flame treasure.
+- Added Tomb Raider Dyfan: drops Bone Rapier
+- Added Fire Gem treasure.
+- Added Blood Gem treasure.
+- Added Carthus Swordsman (Bow)
+- Added Carthus Swordsman (Bow)
+- Added Recollection treasure.
+
+# NG+
+- Added Skeleton.
+- Added Skeleton.
+- Added Skeleton.
+- Added Carthus Swordsman.
+- Added Carthus Swordsman.
+
+#---------------------------------
+# Smouldering Lake - m38
+#---------------------------------
+- Moved the Demon Ruins bonfire to upper levels of the cavern. Renamed it to Smouldering Lake.
+- Placed the Old King's Antechamber bonfire closer to the entrance of the underground area.
+- Removed the Abandoned Tomb bonfire.
+- Removed Old Demon King bonfire.
+- Added Irithyll Dungeon warp: commune with the petrified giant slave near to the top of Smouldering Lake on the way to the ballista.
+- Added Demon
+- Added Demon
+- Added Demon
+- Added Stray Demon.
+- Added Stray Demon.
+- Added Stray Demon.
+- Added corpse near the Ballista, holds the Chaos Servants covenant item.
+- Added Black Knight.
+- Added Black Knight.
+- Added Demon Cleric.
+- Added Lilla of the Sunless Realms: drops Sunless Talisman and Sunless Set.
+- Added Chaos Servant Eygor: drops Demon's Axe
+- Added Lethal Gem treasure.
+- Added Flask of Fire treasure.
+- Added Carthus Swordsman (Bow)
+- Added Carthus Swordsman (Bow)
+- Added Carthus Swordsman (Bow)
+- Added Dark Dance treasure.
+- Added Fire Gem treasure.
+- Added Fool's Flame treasure.
+
+# NG+
+- Added Demon.
+- Added Demon.
+- Added Demon.
+- Added Stray Demon.
+- Added Stray Demon.
+- Added Demon Statue.
+- Added Demon Statue.
+- Added Demon Statue.
+- Added Demon Cleric.
+
+#---------------------------------
+# Irithyll of the Boreal Valley - m37
+#---------------------------------
+- Removed Pontiff Sulyvahn boss bonfire.
+- Removed Irithyll of the Boreal Valley bonfire.
+- Added Sulyvahn's Beast
+- Added Silver Knight (Greatbow)
+- Added Silver Knight (Greatbow)
+- Added Silver Knight (Greatbow)
+- Added Silver Knight (Greatbow)
+- Added Silver Knight (Greatbow)
+- Added Pontiff Knight.
+- Added Irithyll Fire Witch.
+- Added Giant Slave.
+- Added Devotee Scarlett: drops Pale Shade Set and Morion Blade
+- Added Flask of Magic treasure.
+- Added Murakumo treasure.
+- Added Manikin Claws treasure.
+- Added The Pursuer: drops Pursuer's Gauntlets
+- Added Boom Hammer treasure.
+- Added Burial Blade treasure.
+
+# NG+
+- Added Pontiff Knight
+- Added Pontiff Knight
+- Added Irithyll Fire Witch
+- Added Irithyll Fire Witch
+- Added Giant Slave
+- Added Giant Slave
+- Added Giant Slave
+- Added Fat Deacon
+- Added Fat Deacon
+- Added Tall Deacon
+- Added Short Deacon
+- Added Sulyvahn's Beast
+- Added Sulyvahn's Beast
+- Added Silver Knight
+- Added Silver Knight
+- Added Silver Knight
+
+#---------------------------------
+# Anor Londo - m37
+#---------------------------------
+- Added Deep Acursed
+- Added Cascading Deep treasure.
+- Added Repel treasure.
+
+# NG+
+- Added Silver Knight
+- Added Silver Knight
+
+#---------------------------------
+# Irithyll Dungeon - m39
+#---------------------------------
+- Added Wretch.
+- Added Wretch.
+- Added Wretch.
+- Added Giant Rat.
+- Added Rat.
+- Added Rat.
+- Removed Jailers from a room on the right-side of the dungeon.
+- Removed the Jailers from the lower level of the dungeon.
+- Added Giant Rat.
+- Added Giant Rat.
+- Added Giant Rat.
+- Added Rat.
+- Added Rat.
+- Added Rat.
+- Added Rat.
+- Added Rat.
+- Added Rat.
+- Added Rat.
+- Added Executioner Gauntlets treasure.
+- Added Corrupted Knight Lloyd: drops Four Knights Hammer
+- Added Jailer Eileen: drops Blades of Mercy
+- Added Ollis the Merciless: drops the Bloodletter
+
+# NG+
+- Added Lycanthrope.
+- Added Lycanthrope.
+- Added Wretch.
+- Added Giant Rat.
+- Added Giant Rat.
+- Added Infested Corpse.
+- Added Infested Corpse.
+- Added Jailer.
+
+#---------------------------------
+# Profaned Capital - m39
+#---------------------------------
+- Profaned Capital bonfire moved down to the lower path near the Profaned Flame.
+- Added Fester the Jester: drops Jester's Talisman
+- Added Monstrosity of Sin.
+- Added Vileblood Set treasure.
+- Added Gargoyle Helm treasure.
+- Added The Pursuer: drops Pursuer's Leggings
+- Added Vileblood Annalise: drops Chikage
+- Added Stone Ember mimic.
+
+# NG+
+- Added Gargoyle.
+- Added Gargoyle.
+- Added Jailer Handmaid.
+- Added Jailer Handmaid.
+- Added Giant Rat.
+- Added Giant Rat.
+
+#---------------------------------
+# Lothric Castle - m30_01
+#---------------------------------
+- Dragonslayer Armour boss bonfire removed.
+- Dragon Barracks bonfire moved close to Dragonslayer Armour.
+- Added Tiny: drops Titanite Slab.
+- Added Luyila of Londor: drops Black Set and Darkdrift.
+- Added Dominatrix Sharron: drops Titanite Slab.
+- Added Armor of the Sun set treasure.
+- Added Lucatiel's Mask treasure.
+- Added Porcine Shield treasure.
+- Added Gold Ardeo treasure.
+- Added Blinding Light treasure.
+- Added The Pursuer: drops Pursuer's Helm
+
+# NG+
+- Added Winged Knight.
+- Added Winged Knight.
+- Added Lothric Knight.
+- Added Lothric Knight.
+- Added Lothric Knight.
+- Added Lothric Knight.
+
+#---------------------------------
+# Consumed King's Gardens - m30
+#---------------------------------
+- Added Consumed Gardens bonfire, near to Oceiros.
+- Added Inquisitor Ashford: drops Moonlight Sword
+- Added Iron Keeper Helm treasure.
+
+#---------------------------------
+# Grand Archives - m34_01
+#---------------------------------
+- Removed the Grand Archives bonfire.
+- Added Lord's Chime treasure.
+- Added Logan's Staff treasure.
+- Changed Scholar Ring treasure to Loch Shield.
+- Changed Hunter's Ring treasure to Sunlight Greatsword.
+- Added Iron Cage treasure.
+- Added The Pursuer: drops Pursuer's Armor
+- Added Nil Blade treasure.
+- Added Sanguinus treasure.
+
+# NG+
+- Added Boreal Outrider Knight.
+- Added Boreal Outrider Knight.
+- Added Boreal Outrider Knight.
+- Added Lothric Knight.
+- Added Lothric Knight.
+- Added Archive Scholar.
+- Added Archive Scholar.
+- Added Archive Scholar.
+- Added Gargoyle.
+
+#---------------------------------
+# Unturned Graves - m40
+#---------------------------------
+- Added Burial Scythe treasure.
+- Added The Father: drops the Mask of the Father
+- Added The Mother: drops the Mask of the Mother
+- Added The Child: drops the Mask of the Child
+
+#---------------------------------
+# Kiln of the First Flame - m41
+#---------------------------------
+- Added Black Knight.
+- Added Black Knight.
+- Added Black Knight.
+- Added Black Knight.
+
+#---------------------------------
+# Archdragon Peak - m32
+#---------------------------------
+- Removed Dragon-kin Mausoleum bonfire.
+- Removed Nameless King bonfire.
+- Added Ancient Wyvern.
+- Removed two Serpent-men near Great Belfry.
+- Moved the Dragon Chaser's Ashes into the area below the Nameless King.
+- Added Tailbone Pick treasure.
+- Added Dragon Cultist Xeric: drops Staff of Serpents
+- Added Flask of Lightning treasure.
+- Redesigned the area beneath the Nameless King. It is now accessible from the Dragon-kin Mausoleum and acts as a gauntlet to get to the Great Belfry bonfire.
+- Added Lightning Storm treasure.
+- Added Titanite Slab treasure.
+- Added Dragon's Grasp treasure.
+
+# NG+
+- Added Giant Serpent-man.
+- Added Giant Serpent-man.
+- Added Giant Serpent-man.
+- Added Giant Serpent-man.
+- Added Serpent-man Summoner.
+- Added Serpent-man.
+- Added Rock Lizard.
+- Added Rock Lizard.
+- Added Rock Lizard.
+
+#---------------------------------
+# Painted World of Ariandel - m45
+#---------------------------------
+- Moved Corvian Knight by the gate in the village up onto the higher path.
+
+# NG+
+- Added Wolf.
+- Added Wolf.
+- Added Wolf.
+- Added Wolf.
+- Added Wolf.
+- Added Millwood Knight.
+- Added Millwood Knight.
+- Added Corvian Knight.
+
+#---------------------------------
+# Dreg Heap - m50
+#---------------------------------
+
+# NG+
+- Added Harald Knight.
+- Added Harald Knight.
+- Added Harald Knight.
+- Added Harald Knight.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+- Added Poisonhorn Bug.
+
+#---------------------------------
+# The Ringed City - m51
+#---------------------------------
+- Removed three of the Harald Knights in the Ringed City Streets.
+
+# NG+
+- Added Ringed Knight.
+- Added Ringed Knight.
+- Added Lothric Thief.
+- Added Hollow Cleric.
+- Added Hollow Cleric.
+- Added Hollow Cleric.
+- Added Hollow Cleric.
+
+#---------------------------------
+# Filianore's Rest - m51_01
+#---------------------------------

@@ -1,0 +1,451 @@
+﻿#--------------------------------------------
+# General
+#--------------------------------------------
+Entity ID 10000 is always the player.
+NPCs are always respawned on map load. 
+
+Event execution flags are constructed like so: <slot number><actual id>
+
+So an event entity id of 3300900 would be 13300900 as an event execution flag.
+
+#------------------------------------------------------------------
+# Event Entity IDs
+#------------------------------------------------------------------
+#---------------------------------
+# High Wall of Lothric - m30
+#---------------------------------
+3000800 Vordt of the Boreal Valley
+3000830 Oceiros, the Consumed King
+3000899 Dancer of the Boreal Valley
+
+#---------------------------------
+# Lothric Castle / Gardens - m30_01
+#---------------------------------
+3010800 Dragonslayer Armour
+
+#---------------------------------
+# Grand Archives - m34
+#---------------------------------
+3410832 Lorian, Elder Prince (1st stage)
+3410830 Lorian, Elder Prince (2nd stage)
+3410831 Lothric, Younger Prince (2nd stage)
+
+#---------------------------------
+# Undead Settlement - m31
+#---------------------------------
+3100800 Cursed-rotted Greatwood
+
+#---------------------------------
+# Archdragon Peak - m32
+#---------------------------------
+3200800 Ancient Wyvern
+3200850 King of the Storm
+3200851 Nameless King
+
+#---------------------------------
+# Road of Sacrifices / Farron Keep - m33
+#---------------------------------
+3300801 Abyss Watchers
+3300850 Crystal Sage
+
+#---------------------------------
+# Cathedral of the Deep - m35
+#---------------------------------
+3500800 Deacons of the Deep
+
+#---------------------------------
+# Irithyll of the Valley / Anor Londo - m37
+#---------------------------------
+3700800 Aldrich, Devourer of Gods
+3700850 Pontiff Sulyvahn
+
+#---------------------------------
+# Catacombs of Carthus / Smouldering Lake - m38
+#---------------------------------
+3800800 High Lord Wolnir
+3800830 Old Demon King
+
+#---------------------------------
+# Profaned Capital
+#---------------------------------
+3900800 Yhorm the Giant
+
+#---------------------------------
+# Firelink Shrine / Graves - m40
+#---------------------------------
+4000800 Iudex Gundyr
+4000830 Champion Gundyr
+
+4001260 Firelink Arena door
+4001261 Firelink Arena door (Untended Graves)
+
+#---------------------------------
+# Kiln of the First Flame - m41
+#---------------------------------
+4100800 Soul of Cinder
+
+#---------------------------------
+# Painted World of Ariandel - m45
+#---------------------------------
+4500800 Blackflame Friede (3rd stage)
+4500801 Sister Friede (1st stage)
+4500802 Sister Friede (2nd stage)
+4500861 Gravetender Greatwolf
+
+#---------------------------------
+# Dreg Heap - m50
+#---------------------------------
+5000801 Demon from Below (becomes Demon Prince)
+5000802 Demon in Pain (becomes Demon Prince)
+
+#---------------------------------
+# The Ringed City - m51
+#---------------------------------
+5100850 Darkeater Midir
+
+#---------------------------------
+# Gael's Arena - m51_01
+#---------------------------------
+5110800 Slave Knight Gael
+
+#------------------------------------------------------------------
+# Event Flags
+#------------------------------------------------------------------
+23   Related to game clear
+
+50   Toggled on in NG0
+51   Toggled on in NG1
+52   Toggled on in NG2
+53   Toggled on in NG3
+54   Toggled on in NG4
+55   Toggled on in NG5
+56   Toggled on in NG6+
+
+100  
+101  
+110  Set on after game clear (link the fire)
+
+2051 Cinders placed?
+2052 
+
+6000 Toggled off on New Game start
+6001 Toggled on New Game start
+
+6100 Set after Abyss Watcher kill
+6101 Set after Yhorm kill
+6102 Set after Aldrich kill
+6103 Set after Lothric kill
+6104 Set after Iudex Gundyr kill
+6105 Set after Vordt kill
+6106 Set after Crystal Sage kill
+6107 Set after Deacons of the Deep kill
+6108 Set after High Lord Wolnir kill
+6109 Set after Pontiff Sulyvahn kill
+6110 Set after Dancer kill
+6111 Set after Dragonslayer Armour kill
+6112 Set after game clear
+
+6400 Set on game clear, cleared on New Game start
+
+6700 Warrior of Sunlight
+6710 Mound-makers
+6720 Watchdogs of Farron
+6730 Aldrich Faithful
+6740 Blue Sentinels
+6750 Blade of the Darkmoon
+6760 Rosaria's Fingers
+6770 Way of Blue
+6780 Red Eye Orb
+6781 Red Sign Soapstone
+6782 Roster of Knights
+6790 Hello Carving
+6791 Thank you Carving
+6792 Very good! Carving
+6793 I'm sorry Carving
+6794 Help me! Carving
+6830 Spears of the Church
+
+9210 Cinders of a Lord completion - Checked for the Fireless Shrine action
+9211 Prince Lothric - Cinders placed
+9212 Aldrich - Cinders placed
+9213 Abyss Watchers - Cinders placed
+9214 Yhorm - Cinders placed
+9215 Toggled on New Game start
+
+9923 Related to game clear
+
+50006020 Toggled on New Game start
+50006162 Toggled on New Game start
+50006163 Toggled on New Game start
+
+53100630 Related to Giant Archer
+53100660 Related to Giant Archer
+
+74000010 Toggled during in m40 for SFX commands
+
+70000125 Toggled on New Game start
+70000128 Toggled on New Game start
+70000129 Toggled on New Game start
+
+74000465 Toggled on for Pyromancer characters on New Game start
+
+74000587 Toggled on for Sorcerer characters on New Game start
+
+70000900 Toggled on in NG0, off in NG+
+
+73501010 Toggled on New Game start
+73501020 Toggled on New Game start
+73501030 Toggled on New Game start
+73501040 Toggled on New Game start
+73501050 Toggled on New Game start
+
+#---------------------------------
+# High Wall of Lothric - m30
+#---------------------------------
+13000000 High Wall of Lothric - warp room
+13000001 Oceiros bonfire
+13000002 Vordt bonfire
+13000003 Unused bonfire
+13000004 Dancer bonfire
+13000005 Tower on the Wall bonfire
+13000008 Unused bonfire
+13000009 High Wall of Lothric bonfire
+
+13000800 Boss Kill - Vordt of the Boreal Valley
+13000801 Vordt
+
+13000890 Boss Kill - Dancer of the Boreal Valley
+
+13005392 Basin of Vows placed
+
+3000190 Lion Knight Albert
+3000191 Sword Master
+3000192 Hawkwood the Deserter
+3000700 Greirat of the Undead Settlement
+
+#---------------------------------
+# Lothric Castle / Gardens - m30_01
+#---------------------------------
+13010000 Lothric Castle bonfire
+13010001 Dragonslayer Armour bonfire
+13010002 Dragon Barrack bonfire
+
+13000830 Boss Kill - Oceiros, the Consumed King
+13010800 Boss Kill - Dragonslayer Armour
+
+#---------------------------------
+# Grand Archives - m34
+#---------------------------------
+13410000 Twin Princes bonfire
+13410001 Grand Archives bonfire
+
+13410830 Boss Kill - Lothric Princes
+
+#---------------------------------
+# Undead Settlement - m31
+#---------------------------------
+13100000 Undead Settlement bonfire
+13100001 Pit of Hollows bonfire
+13100002 Cliff Underside bonfire
+13100003 Dilapidated Bridge bonfire
+13100004 Foot of the High Wall bonfire
+
+13100800 Boss Kill - Curse-rotted Greatwood
+
+#---------------------------------
+# Archdragon Peak - m32
+#---------------------------------
+13200000 Archdragon Peak bonfire
+13200001 Nameless King bonfire
+13200002 Great Belfry bonfire
+13200003 Dragon-Kin Mausoleum bonfire
+
+13200800 Boss Kill - Ancient Wyvern
+13200850 Boss Kill - Nameless King
+
+#---------------------------------
+# Road of Sacrifices / Farron Keep - m33
+#---------------------------------
+13300000 Halfway Fortress bonfire
+13300001 Abyss Watchers bonfire
+13300002 Crystal Sage bonfire
+13300003 Farron Keep bonfire
+13300004 Keep Ruins bonfire
+13300005 Old Wolf of Farron bonfire
+13300006 Road of Sacrifices bonfire
+13300007 Crucifixion Woods bonfire
+13300008 Farron Keep Perimeter bonfire
+
+13300850 Boss Kill - Crystal Sage
+13300800 Boss Kill - Abyss Watchers
+
+#---------------------------------
+# Cathedral of the Deep - m35
+#---------------------------------
+13500000 Cleansing Chapel bonfire
+13500001 Deacons of the Deep bonfire
+13500002 Rosaria's Bed Chamber bonfire
+13500003 Cathedral of the Deep bonfire
+
+13500800 Boss Kill - Deacons of the Deep
+
+#---------------------------------
+# Irithyll of the Valley / Anor Londo - m37
+#---------------------------------
+13700000 Church of Yorshka bonfire
+13700001 Pontiff Sulyvahn bonfire
+13700002 Aldrich bonfire
+13700003 Anor Londo bonfire
+13700004 Central Irithyll bonfire
+13700005 Distant Manor bonfire
+13700006 Water Reserve bonfire
+13700007 Irityll of the Boreal Valley bonfire
+13700008 Prison Tower bonfire
+
+13700850 Boss Kill - Pontiff Sulyvahn
+13700800 Boss Kill - Aldrich
+
+#---------------------------------
+# Catacombs of Carthus / Smouldering Lake - m38
+#---------------------------------
+13100001 Catacombs of Carthus bonfire
+13800000 High Lord Wolnir bonfire
+13800001 Abandoned Tomb bonfire
+13800002 Old King's Antechamber
+13800003 Demon Ruins bonfire
+13800004 Old Demon King bonfire
+
+13800800 Boss Kill - High Lord Wolnir
+13800830 Boss Kill - Old Demon King
+
+#---------------------------------
+# Profaned Capital
+#---------------------------------
+13900000 Irithyll Dungeon bonfire
+13900002 Profaned Capital bonfire
+13900001 Yhorm the Giant bonfire
+13900800 Boss Kill - Yhorm the Giant
+
+#---------------------------------
+# Firelink Shrine / Graves - m40
+#---------------------------------
+14000000 Firelink Shrine bonfire
+14000001 Cemetery of Ash bonfire
+14000002 Iudex Gundyr bonfire
+14000003 Untended Graves bonfire
+14000004 Champion Gundyr bonfire
+
+14000800 Boss Kill - Iudex Gundyr
+14000830 Boss Kill - Champion Gundyr
+
+743 Area Welcome Message
+
+2040 Crow related
+2041 Crow related
+2042 Crow related
+
+6010 Ashen Estus Flask pickup
+
+6021 Used to give Ashen Estus Flask +1
+6022 Used to give Ashen Estus Flask +2
+6023 Used to give Ashen Estus Flask +3
+6024 Used to give Ashen Estus Flask +4
+6025 Used to give Ashen Estus Flask +5
+6026 Used to give Ashen Estus Flask +6
+6027 Used to give Ashen Estus Flask +7
+6028 Used to give Ashen Estus Flask +8
+6029 Used to give Ashen Estus Flask +9
+6030 Used to give Ashen Estus Flask +10
+
+6319 Iudex Gundyr defeat related
+6320 Champion Gundyr defeat related
+9319 Iudex Gundyr defeat related
+9320 Champion Gundyr defeat related
+
+9400 Seed of a Giant Tree cooldown
+
+14000101 Coiled Sword placement - Execution flag
+14000110 Warp to Fireless Shrine - Execution flag
+14000400
+14000420 Ladder in Firelink Shrine - Disable Top
+14000421 Ladder in Firelink Shrine - Disable Bottom 
+
+14000801 Iudex Gundyr fight active
+14000802 Iudex Gundyr fight related
+14005802 Iudex Gundyr fight related
+14005805 Iudex Gundyr fight related
+14005832 Iudex Gundyr defeated related
+
+14000831 Champion Gundyr fight active
+14005835 Champion Gundyr fight related
+
+50006020
+
+64000260 Firelink Arena door
+64000261 Firelink Arena door (Untended Graves)
+
+74000012 Loading Screen Tips related
+74000013 Welcome Message related
+74000123 Check for Fireless Shrine action
+74000013 Related to Firelink Shrine ceremony
+74000122
+
+74000990 Crow related
+74000995
+74000996 Crow Response Flag 1
+74000997 Crow Respone Flag 2
+
+#---------------------------------
+# Kiln of the First Flame - m41
+#---------------------------------
+14100000 Flameless Shrine bonfire
+14100001 Kiln of the First Flame bonfire
+14100002 The First Flame bonfire
+
+14100800 Boss Kill - Soul of Cinder
+
+#---------------------------------
+# Painted World of Ariandel - m45
+#---------------------------------
+14500000 Sister Friede bonfire
+14500001 Snowfield bonfire
+14500002 Rope Bridge Cave bonfire
+14500003 Corvian Settlement bonfire
+14500004 Snowy Mountain Pass bonfire
+14500005 Ariandel Chapel bonfire
+14500006 Champion's Gravetender
+14500007 Depths of the Painting bonfire
+
+14500800 Boss Kill - Sister Friede
+14500860 Boss Kill - Gravetender Greatwolf
+
+#---------------------------------
+# Dreg Heap - m50
+#---------------------------------
+15000000 The Demon Prince bonfire
+15000001 The Dreg Heap bonfire
+15000002 Earthen Peak Ruins bonfire
+15000003 Within the Earthen Peak Ruins bonfire
+
+15000800 Boss Kill - Demon Prince
+
+#---------------------------------
+# The Ringed City - m51
+#---------------------------------
+15100000 Church of Filianore bonfire
+15100001 Darkeater Midir bonfire
+15100002 Mausoleum Lookout bonfire
+15100003 Ringed Inner Wall bonfire
+15100004 Ringed City Streets bonfire
+15100005 Shared Grave bonfire
+
+15100800 Boss Kill - Halflight
+15100850 Boss Kill - Darkeater Midir
+
+#---------------------------------
+# Gael's Arena - m51_01
+#---------------------------------
+15110001 Filianore's Rest bonfire
+15110000 Slave Knight Gael bonfire
+
+15110800 Boss Kill - Slave Knight Gael

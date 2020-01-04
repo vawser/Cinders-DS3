@@ -1,0 +1,692 @@
+﻿#---------------------
+# Notes
+#---------------------
+First three digits in the animations for a move (from the console in MegaTAE) point to the tae file it uses, i.e. 229038700 is part of a229.tae.
+
+In a weapon, Weapon Moveset Category will point to the the TAE file used, i.e. 29 is a20.tae. 
+
+In a weapon, Moveset Override Category will point to the the TAE file used, i.e. 231 is a231.tae. 
+
+Animation, last two digits are the behaviour judge id, i.e. 30010 is 1H Light #2
+
+#---------------------
+# Added
+#---------------------
+268 Stone Greatsword
+
+#---------------------
+# Events
+#---------------------
+CreateSpEffectBehavior_Multiplayer
+ 31 - Counter Damage
+
+JumpTable
+ JumpTableID
+    4   - InvokeAttackAction - Allow anim cancel during period
+    7   - UnvokeLockChrRotation - Prevent rotation during period
+    8   - InvokeInvincibilityFrames 
+    24  - 
+    3   - Set Is Guard - Parry frames?
+ ArgA - 0
+ ArgB - -1
+ ArgC - 6   
+ ArgD - 0
+ ArgE - StateInfo
+
+SupportJumpTable
+ JumpTableID_Action
+    0  -
+    4  - 
+    27 - Change Jump Height
+    93 - Value (Used with GetCastSpeed)
+ JumpTableID_CharacterData
+    1 - InvokeMaxEquipWeightChange
+    2 - GetWeaponWeightRate
+    3 - GetCompressedDamageRate
+    4 - Get 0.00
+    5 - GetCastSpeed
+    6 - GetDebugTaeValue
+ Parameter1 - 1
+ Parameter2 - 0
+ Unk0C      - -1
+ StateInfo  - -1
+ 
+- SupportJumpTable( 93, GetCastSpeed ) is what determines the cast speed anim change
+ 
+InvokeBulletBehavior
+ DummyPolyID - Position of bullet start
+ BehaviorSubID - The judgment ID to substitute into the weapon behavior ID to find the behavior param.
+ 
+
+#---------------------
+# Animation Groups
+#---------------------
+20 - Dagger
+23 - Sword
+25 - Greatsword 
+26 - Ultra Greatsword
+28 - Curved Sword
+29 - Katana
+28 - Curved Greatsword
+30 - Axe
+32 - Greataxe
+33 - Hammer
+35 - Great Hammer
+36 - Spear
+38 - Halberd
+41 - Staff
+42 - Fist
+43 - Whip
+44 - Bow
+46 - Crossbow
+47 - Greatshield
+48 - Shield
+49 - Torch
+
+#---------------------------------------
+# c0000 - TAE Ranges
+#---------------------------------------
+# Staggers
+5000, 10000 <> 19000
+
+# Walking
+20000, 21000, 23000, 24000
+
+# Run
+20100, 23100
+
+# Sprint
+20200, 23200
+
+# Stopping
+22000
+
+# Turning
+26000
+
+# Backstep
+27000
+
+# Roll
+27100 # Light
+27110 # Med
+27120 # Fat
+27130 # Encumbered
+27140 # Ninja Flip
+27150 # Quickstep
+
+# Climbing
+28000
+
+# Magic
+40000 <> 49000
+
+40000 - Cast Startup
+40300 - Right Cast Action
+41000 - Invalid Right Cast Action
+42000 - Left Cast Startup
+42300 - Left Cast Action
+43000 - Invalid Left Cast Action
+44000 - Sacred Flame?
+45000 - Farron Dart
+47000 - Farron Flashsword
+48000 - Flame Fan
+49000 - Flame Fan
+
+0 	Soul Arrow [1]
+1 	Magic Weapon [2]
+2 	Hidden Body [4]
+3   Heal Animation
+4   Quaking Orb
+5	Fireball [3]
+6	Iron Flesh [4]
+7   Toss from Side
+8	Great Combustion [2]
+9	Poison Mist [4]
+10	Firestorm [6]
+11	Rapport [4]
+12	Force [2]
+13	Chameleon [2]
+14  Grasp Boulder
+15	Lightning Blade [3]
+16  Surge
+17	Magic Shield [2]
+18	Emit Force [4]
+19	Lightning Spear [3]
+20	Cast Light [2]
+21  Hold Tool and Wait
+22	Heavy Soul Arrow [2]
+23	Fire Surge [1]
+24	Fire Whip [3]
+25	Soul Greatsword [2]
+26	Heal [5]
+27	Heal Aid [3]
+28	Sacred Oath [7]
+29	Farron Dart [1]
+30	Farron Flashsword [1]
+31	Soul Stream [5]
+32	Profaned Flame [3]
+33	Sacred Flame [4]
+34	Lightning Stake [4]
+35	Gnaw [3]
+36	Lightning Storm [5]
+37	Dark Edge [3]
+38	Warmth [4]
+39	Wrath of the Gods [5]
+40	Farron Hail [2.5]
+41	Affinity [4]
+42	Black Serpent [4]
+43	Chaos Bed Vestiges [4]
+44	Lifehunt Scythe [3]
+45	Divine Pillars of Light [5]
+46	Old Moonlight [3]
+47	Floating Chaos [5]
+48	Way of White Corona [3]
+49	Lightning Arrow [3]
+50	Flame Fan [1]
+51  Ready Bow
+
+# Goods
+50000 
+51000 # On Ladder
+52000 # On Ladder
+55000 # Throw
+
+# Objects
+60000 <> 69000
+
+# Throws (against player)
+70000 <> 79000
+
+# Gestures
+80000 # Beckon
+80001 # Praise the Sun
+80002 # Point Up
+80003 # Point Down
+80004 # 'Pat Head'
+80005 # Point Forward
+80006 # Welcome
+80007 # Kneeling Prayer 
+80008 # Proper Bow
+80009 # Darkmoon Loyalty
+80010 # Bow
+80011 # Wave
+80012 # Hurrah
+80013 # Joy
+80014 # Shrug
+80100 # Praise the Sun
+80200 # Point up
+80300 # Point down
+80400 # Dignified Bow
+80500 # Point forward
+80600 # Welcome
+80700 # Collapse
+80800 # Proper Bow
+80900 # Prayer
+81000 # Bow
+81100 # Wave
+81200 # By My Sword
+81300 # Joy
+81400 # 
+81500 # My Thankss
+81600 # Rejoice
+81700 # Rest
+82400 # Toast
+83300 # Duel Bow
+83900 # Roar
+84100 # Toss
+84200 # Squat
+84300 # Stretch Out
+84400 # Call Over
+84500 # Collapse
+84600 # 
+84700 # Patches Squat
+85000 # Clap
+85100 # Path of the Dragon
+85200 # Legion Etiquette
+85300 # Darkmoon Loyalty
+85400 # Sleep
+85500 # Sitting Toast
+85600 # Silent Ally
+
+# NPC Idles
+90000 Kneeling (one knee)
+90005 Kneeling (both knees)
+90010 Kneeling (forward)
+90020 Sitting on Chair
+90025 Sitting on Chair (proper)
+90030 Sitting on Chair (wide)
+90035 Sitting on Chair (knees touching)
+90040 Sitting on Floor
+90050 Standing
+90055 Leaning on Wall
+90070 Lying on Floor
+90080 Sitting out on floor
+90090 Sitting (crestfallen)
+90100 Sitting on Floor (rest)
+90110 Sitting on Floor (sleep)
+90120 Sitting on Floor (awake)
+90130 Squatting
+90140 Standing (proud)
+90150 Standing (crossed arms)
+90170 Standing (death stance)
+90180 Standing (arms out)
+90190 Standing (arms crossed female)
+90200 Standing (arms crossing heart)
+90210 Praying
+90220 Meditation
+90230 Grovelling Prayer
+90250 Pledge Loyalty (down)
+90260 Pledge Loyalty (stand up)
+90280 Go to Knee
+90300 Standing (Yuria)
+90320 Stumble Back
+90330 Die (clutch heart)
+90340 Sitting on Ledge
+90360 Sitting (huntched)
+90380 Lying in pain
+90390 Standing (crossed arms)
+<> 99999
+
+#---------------------
+# Behaviour Judge ID
+#---------------------
+ 0   - 1H Light #1
+ 1   - 
+ 10  - 1H Light #2
+ 20  - 1H Light #3
+ 30  - 1H Jump Attack
+ 40  - 1H Fall Loop
+ 50  - 1H Fall Landing
+ 100 - 1H Heavy #1
+ 105 - 1H Heavy #1 Max
+ 110 - 1H Heavy #2
+ 115 - 1H Heavy #2 Max
+ 200 - 2H Light #1
+ 210 - 2H Light #2
+ 220 - 2H Light #3
+ 230 - 2H Jump Attack
+ 240 - 2H Fall Loop
+ 250 - 2H Fall Landing
+ 300 - 2H Heavy #1
+ 305 - 2H Heavy #1 Max
+ 310 - 2H Heavy #2
+ 315 - 2H Heavy #2 Max
+ 400 - Left Hand
+ 402 - 
+ 404 - 
+ 410 - 1H Kick
+ 420 - 2H Kick
+ 430 - 1H Guard
+ 440 - 2H Guard
+ 450 - Parry
+ 470 - Critical
+ 490 - Plunging Critical
+ 500 - Backstab
+ 505 - Backstab (Hornet Ring)
+ 510 - Riposte
+ 515 - Riposte (Hornet Ring) #1
+ 516 - Riposte (Hornet Ring) #2
+ 520 - 1H Roll Attack
+ 530 - 2H Roll Attack
+ 540 - 1H Backstep
+ 580 - 2H Backstep
+ 600 - Parry
+ 610 - Backstab Transition
+ 615 - Missed Backstab Transition
+ 620 -
+ 621 -
+ 630 -
+ 631 - 
+ 640 -
+ 641 -
+ 699 - 
+ 700 - Weapon Art
+ 701 - Weapon Art 
+ 705 - Weapon Art Projectile
+ 706 - Weapon Art
+ 710 - Weapon Art
+ 711 - Weapon Art
+ 716 - Weapon Art
+ 720 - Weapon Art
+ 721 - Weapon Art
+ 722 - Weapon Art
+ 723 - 
+ 725 - Weapon Art
+ 726 - Weapon Art
+ 730 - Weapon Art
+ 731 - Weapon Art
+ 735 - Weapon Art
+ 736 - Weapon Art
+ 740 - Weapon Art
+ 741 - Weapon Art
+ 742 - Weapon Art
+ 743 - Weapon Art
+ 744 - Weapon Art
+ 745 - Weapon Art
+ 746 - Weapon Art
+ 747 - Weapon Art
+ 750 - Weapon Art
+ 751 - Weapon Art
+ 760 - Weapon Art
+ 761 - Weapon Art
+ 770 - Weapon Art
+ 780 - Weapon Art
+ 800 - Weapon Art
+ 920 -
+ 921 - 
+ 
+#---------------------
+# Animation Overrides
+#---------------------
+152     Dagger
+153     Bandit's Knife
+71      Parrying Dagger
+72      Rotten Ghru Dagger
+72      Harpe
+206     Scholar's Candlestick
+204     Tailbone Short Sword
+72      Corvian Greatknife
+153     Handmaid's Dagger
+256     Aquamarine Dagger
+72      Murky Hand Scythe
+
+54      Shortsword
+0       Long Sword
+53      Broadsword
+53      Broken Straight Sword
+54      Lothric Knight Sword
+209     Sunlight Straight Sword
+151     Rotten Ghru Curved Sword
+208     Irithyll Straight Sword
+207     Cleric's Candlestick
+0       Morion Blade
+0       Astora Straight Sword
+0       Barbed Straight Sword
+0       Anri's Straight Sword
+245     Onyx Blade
+251     Ringed Knight Straight Sword
+57      Dark Sword
+80      Black Knight Sword
+188     Lothric's Holy Sword
+156     Wolnir's Holy Sword
+
+113     Estoc
+205     Mail Breaker
+218     Rapier
+115     Ricard's Rapier
+0       Crystal Sage's Rapier
+187     Irithyll Rapier
+237     Crow Quills
+
+99      Shotel
+151     Scimitar
+0       Falchion
+0       Carthus Curved Sword
+164     Pontiff Knight Curved Sword
+212     Storm Curved Sword
+101     Painting Guardian's Curved Sword
+165     Crescent Moon Sword
+0       Carthus Shotel
+247     Follower Sabre
+257     Demon's Scar
+
+0       Uchigatana
+0       Washing Pole
+0       Chaos Blade
+90      Black Blade
+198     Bloodlust
+0       Darkdrift
+258     Frayed Blade
+
+0       Bastard Sword
+74      Claymore
+203     Zweihander
+193     Greatsword
+160     Astora Greatsword
+195     Murakumo
+202     Lothric Knight Greatsword
+128     Black Knight Greatsword
+0       Flamberge
+195     Exile Greatsword
+154     Greatsword of Judgment
+162     Profaned Greatsword
+95      Cathedral Knight Greatsword
+161     Farron Greatsword
+169     Yhorm's Great Machete
+221     Executioner's Greatsword
+263     Gael's Greatsword
+51      Carthus Curved Greatsword
+189     Lorian's Greatsword
+155     Twin Princes' Greatsword
+131     Wolf Knight's Greatsword
+157     Hollowslayer Greatsword
+158     Moonlight Greatsword
+196     Drakeblood Greatsword
+159     Firelink Greatsword
+163     Fume Ultra Greatsword
+166     Old Wolf Curved Sword
+0       Storm Ruler
+264     Harald Curved Greatsword
+0       Great Machete
+
+102     Hand Axe
+0       Battle Axe
+0       Brigand Axe
+0       Crescent Axe
+103     Butcher Knife
+0       Dragonslayer's Axe
+0       Missionary's Axe
+102     Thrall Axe
+167     Eleonora
+0       Man Serpent Hatchet
+241     Millwood Battle Axe
+
+0       Greataxe
+199     Dragonslayer Greataxe
+168     Demon's Greataxe
+242     Earth Seeker
+107     Black Knight Greataxe
+
+59      Club
+0       Mace
+0       Morning Star
+210     Reinforced Club
+69      Large Club
+220     Heysel Pick
+
+213     Great Club
+0       Great Mace
+0       Great Wooden Hammer
+172     Gargoyle Flame Hammer
+173     Vordt's Great Hammer
+174     Old King's Great Hammer
+0       Four Knights Hammer
+0       Hammer of the Great Tree
+228     Warpick
+171     Pickaxe
+0       Dragon Tooth
+70      Smough's Great Hammer
+0       Blacksmith Hammer
+211     Morne's Great Hammer
+0       Spiked Mace
+243     Quakestone Hammer
+259     Ledo's Great Hammer
+
+200     Spear
+0       Winged Spear
+63      Partizan
+177     Greatlance
+67      Lothric Knight Long Spear
+134     Four-Pronged Plow
+175     Gargoyle Flame Spear
+0       Rotten Ghru Spear
+0       Tailbone Spear
+0       Soldering Iron
+176     Dragonslayer Swordspear
+200     Arstor's Spear
+0       Saint Bident
+197     Yorshka's Spear
+67      Pike
+68      Dragonslayer Spear
+246     Follower Javelin
+252     Ringed Knight Spear
+260     Lothric War Banner
+178     Golden Ritual Spear
+
+0       Lucerne
+0       Glaive
+108     Halberd
+201     Winged Knight Halberd
+215     Gundyr's Halberd
+0       Ancient Dragon Halberd
+108     Red Hilted Halberd
+112     Black Knight Glaive
+217     Immolation Tinder
+248     Splitleaf Greatsword
+261     Crucifix of the Mad King
+
+50      Great Scythe
+179     Pontiff Knight Great Scythe
+50      Great Corvian Scythe
+50      Lothric's Scythe
+232     Friede's Great Scythe
+
+146     Claw
+152     Caestus
+146     Manikin Claws
+152     Demon's Fist
+123     Dark Hand
+235     Crow Talons
+
+231     Whip
+229     Witch's Locks
+231     Notched Whip
+231     Spotted Whip
+234     Rose of Ariandel
+
+127     Talisman
+0       Sorcerer's Staff
+224     Storyteller's Staff
+0       Mendicant's Staff
+0       Man-grub's Staff
+0       Archdeacon's Great Staff
+185     Yorshka's Chime
+223     Sage's Crystal Staff
+0       Heretic's Staff
+0       Court Sorcerer's Staff
+0       Witchtree Branch
+0       Izalith Staff
+185     Cleric's Sacred Chime
+185     Priest's Chime
+185     Saint-tree Bellvine
+185     Caitha's Chime
+185     Crystal Chime
+127     Sunlight Talisman
+127     Canvas Talisman
+127     Sunless Talisman
+127     Saint's Talisman
+127     White Hair Talisman
+149     Pyromancy Flame
+239     Pyromancer's Parting Flame
+266     Murky Longstaff
+267     Sacred Chime of Filianore
+265     Preacher's Right Arm
+
+83      Dragonslayer Greatbow
+81      Short Bow
+81      Composite Bow
+0       Light Crossbow
+0       Arbalest
+0       Longbow
+0       Dragonrider Bow
+84      Avelyn
+0       Knight's Crossbow
+0       Heavy Crossbow
+249     White Birch Bow
+230     Darkmoon Longbow
+184     Onislayer Greatbow
+82      Black Bow of Pharis
+85      Sniper Crossbow
+244     Millwood Greatbow
+262     Repeating Crossbow
+
+137     Sellsword Twinblades
+137     Warden Twinblades
+138     Winged Knight Twinaxes
+139     Dancer's Enchanted Swords
+141     Brigand Twindaggers
+142     Gotthard Twinswords
+139     Golden Dual Swords
+144     Onikiri and Ubadachi
+145     Drang Twinspears
+148     Drang Hammers
+250     Giant Door Shield
+236     Valorheart
+253     Ringed Knight Paired Greatswords
+
+0       Torch
+240     Follower Torch
+
+91      Buckler
+91      Small Leather Shield
+150     Round Shield
+150     Large Leather Shield
+0       Hawkwood's Shield
+0       Iron Round Shield
+150     Wooden Shield
+150     Kite Shield
+0       Ghru Rotshield
+94      Havel's Greatshield
+91      Target Shield
+0       Elkhorn Round Shield
+0       Warrior's Round Shield
+0       Caduceus Round Shield
+0       Red and White Round Shield
+0       Plank Shield
+0       Leather Shield
+0       Crimson Parma
+0       Eastern Iron Shield
+0       Llewellyn Shield
+0       Golden Falcon Shield
+214     Sacred Bloom Shield
+0       Ancient Dragon Greatshield
+150     Follower Shield
+254     Dragonhead Shield
+150     Lothric Knight Shield
+150     Knight Shield
+150     Pontiff Knight Shield
+150     Carthus Shield
+150     Black Knight Shield
+150     Silver Knight Shield
+227     Spiked Shield
+93      Pierce Shield
+150     East-West Shield
+150     Sunlight Shield
+150     Crest Shield
+150     Dragon Crest Shield
+150     Spider Shield
+150     Grass Crest Shield
+150     Sunset Shield
+150     Golden Wing Crest Shield
+150     Blue Wooden Shield
+150     Silver Eagle Kite Shield
+150     Stone Parma
+150     Spirit Tree Crest Shield
+150     Porcine Shield
+150     Shield of Want
+150     Wargod Wooden Shield
+150     Ethereal Oak Shield
+255     Dragonhead Greatshield
+0       Lothric Knight Greatshield
+0       Cathedral Knight Greatshield
+225     Dragonslayer Greatshield
+222     Moaning Shield
+0       Yhorm's Greatshield
+0       Black Iron Greatshield
+0       Wolf Knight's Greatshield
+0       Twin Dragon Greatshield
+0       Greatshield of Glory
+0       Curse Ward Greatshield
+126     Bonewheel Shield
+0       Stone Greatshield

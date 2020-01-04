@@ -1,0 +1,97 @@
+﻿#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Valiant Memory
+#-------------------------------------------------------
+4008100, 0
+ 4[05] (biiBbf)[1, 10000, 260100100, 1, 0, 1.0]
+ 0[00] (bBb)[0, 1, 1] 
+    
+ # Flags
+ 2003[02] (iB)[13700801, 1] # Empowered flag
+ 2003[02] (iB)[13700800, 0]
+ 2003[02] (iB)[9314, 0]
+ 2003[02] (iB)[6314, 0]
+ 2003[02] (iB)[13700002, 0] # Disable bonfire
+ 
+ # Warp
+ 2003[23] (i)[3702953] # Respawn point
+ 2000[05] (B)[0] # Save
+ 
+ 1001[00] (f)[1.0] # Wait 1 second
+ 2003[14] (BBi)[37, 0, 3700973] # Warp player
+ 
+ 1000[04] (B)[0] # End
+ 
+#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Tormented Memory
+#-------------------------------------------------------
+4008101, 0
+ 4[05] (biiBbf)[1, 10000, 260100102, 1, 0, 1.0]
+ 0[00] (bBb)[0, 1, 1] 
+    
+ # Flags
+ 2003[02] (iB)[13700802, 1] # Empowered flag
+ 2003[02] (iB)[13700800, 0]
+ 2003[02] (iB)[9314, 0]
+ 2003[02] (iB)[6314, 0]
+ 2003[02] (iB)[13700002, 0] # Disable bonfire
+ 
+ # Warp
+ 2003[23] (i)[3702953] # Respawn point
+ 2000[05] (B)[0] # Save
+ 
+ 1001[00] (f)[1.0] # Wait 1 second
+ 2003[14] (BBi)[37, 0, 3700973] # Warp player
+ 
+ 1000[04] (B)[0] # End
+ 
+#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Valiant Memory - Boost
+#-------------------------------------------------------
+4008102, 0
+ 1003[02] (BBBi)[0, 1, 0, 13700802] # End if Tormented Memory flag is ON
+ 1003[00] (BBi)[1, 0, 13700801] # Wait for Valiant Memory flag to be ON
+ 
+ 2004[08] (ii)[3700800, 260100101] # Add Vailant Memory boost
+ 
+ 1000[04] (B)[0] # End
+
+#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Tormented Memory - Boost
+#-------------------------------------------------------
+4008103, 0
+ 1003[02] (BBBi)[0, 1, 0, 13700801] # End if Valiant Memory flag is ON
+ 1003[00] (BBi)[1, 0, 13700802] # Wait for Tormented Memory flag to be ON
+    
+ 2004[08] (ii)[3700800, 260100103] # Add Tormented Memory boost
+ 
+ 1000[04] (B)[0] # End
+ 
+#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Valiant Memory - Drop
+#-------------------------------------------------------
+4008104, 0
+ 1003[02] (BBBi)[0, 1, 0, 13700800] # End if Boss flag is ON
+ 1003[02] (BBBi)[0, 1, 0, 13700802] # End if Tormented Memory flag is ON
+ 1003[00] (BBi)[1, 0, 13700801] # Wait for Valiant Memory flag to be ON
+ 1003[00] (BBi)[1, 0, 13700800] # Wait for Boss flag to be ON
+    
+ 2003[04] (i)[800201000] # Award boss item drop
+ 2003[02] (iB)[13700801, 0] # Disable Vailant Memory flag
+ 2004[21] (ii)[3700800, 260100101] # Remove Vailant Memory boost
+ 
+ 1000[04] (B)[0] # End
+
+#-------------------------------------------------------
+# Aldrich, Devourer of Gods - Tormented Memory - Drop
+#-------------------------------------------------------
+4008105, 0
+ 1003[02] (BBBi)[0, 1, 0, 13700800] # End if Boss flag is ON
+ 1003[02] (BBBi)[0, 1, 0, 13700801] # End if Valiant Memory flag is ON
+ 1003[00] (BBi)[1, 0, 13700802] # Wait for Tormented Memory flag to be ON
+ 1003[00] (BBi)[1, 0, 13700800] # Wait for Boss flag to be ON
+    
+ 2003[04] (i)[800201020] # Award boss item drop
+ 2003[02] (iB)[13700802, 0] # Disable Tormented Memory flag
+ 2004[21] (ii)[3700800, 260100103] # Remove Tormented Memory boost
+ 
+ 1000[04] (B)[0] # End
