@@ -112,8 +112,8 @@
 - Greatsword of Artorias now uses the corrupted model for the Cursed and Dark infusion. Removed the Abyss Greatsword (was the corrupted version).
 - Balder Side Sword now has thrusting heavy attack.
 - Penetrating Sword now has thrusting heavy attack and Shield Splitter WA.
-# - Reduced the damage of the Dark Hand.
-# - Reduced the spell buff of Holy Flame and Sorcerous Flame.
+- Reduced the damage of the Dark Hand.
+- Reduced the spell buff of Holy Flame and Sorcerous Flame.
 
 # Armor
 - Lowered the top poise values and removed poise on the lighter armours.
@@ -206,9 +206,9 @@
 # Enemies
 - Increased the damage of the Soul of Cinder.
 - Bosses are slightly tougher to inflict Curse on than before.
-# - Increased the absorptions on bosses and some enemies, to reduce the ability to burst them down.
-# - Reduced the damage boost for Nightmare bosses.
-# - Increased the health boost from NG+ for enemies.
+- Increased the absorptions on bosses and some enemies, to reduce the ability to burst them down.
+- Reduced the damage boost for Nightmare bosses.
+- Increased the health boost from NG+ for enemies.
 
 # Bugfixes
 - Entering NG+ will now correctly unlock Spell/Ring forging.
@@ -217,8 +217,8 @@
 - Fixed Darkdrift instantly cursing you.
 - Fixed Lightning Moonlight Greatsword not having the correct scaling.
 - Fixed various irregularities with the animation cancel changes.
-# - Fixed the broken Winged Knight in High Wall.
-# - Fixed Magic Irithyll Greatsword having the wrong scaling.
+- Fixed the broken Winged Knight in High Wall.
+- Fixed Magic Irithyll Greatsword having the wrong scaling.
 
 #------------------------------
 # TODO 
