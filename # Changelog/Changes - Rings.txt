@@ -6,7 +6,7 @@
 - Source: Treasure - Cemetery of Ash
 
 # Darkmoon Faithful
-- Boosts Magic damage by 5%.
+- Grants 1 FP per second.
 - Source: Company Captain Yorshka - Anor Londo
 
 # Spears of the Church
@@ -38,7 +38,7 @@
 - Source: Quest - Cornyx
 
 # Vinheim Scholars
-- Grants 1 FP per second.
+- Boosts Magic damage by 5%.
 - Source: Quest - Orbeck
 
 # Pilgrims of Dark
@@ -268,7 +268,7 @@
 
 # Covetous Gold Serpent Ring
 - Weight: 2
-- Grants 30 item discovery
+- Grants 75 item discovery
 - Source: Treasure - Profaned Capital
 
 # Covetous Silver Serpent Ring

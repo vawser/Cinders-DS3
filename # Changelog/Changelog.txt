@@ -114,6 +114,7 @@
 - Penetrating Sword now has thrusting heavy attack and Shield Splitter WA.
 - Reduced the damage of the Dark Hand.
 - Reduced the spell buff of Holy Flame and Sorcerous Flame.
+- Adjusted the length/power of various weapon arts so they correspond better with FP regen and more frequent usage.
 
 # Armor
 - Lowered the top poise values and removed poise on the lighter armours.
@@ -127,23 +128,23 @@
 
 # Spells
 - Soul Arrow: damage to 200
-- Great Soul Arrow: damage to 300
-- Soul Spear: damage to 400
-- Crystal Soul Spear: damage to 500
-- Soul Greatsword: damage to 400
-- Old Moonlight: damage to 400 (500)
+- Great Soul Arrow: damage to 260
+- Soul Spear: damage to 360
+- Crystal Soul Spear: damage to 420
+- Soul Greatsword: damage to 350
+- Old Moonlight: damage to 380 (460)
 - Soul Wave: damage to 300
-- Soul Stream: damage to 200, FP to 100
+- Soul Stream: damage to 160, FP to 100
 - Unleash Magic: now boosts magic/dark damage by 20% for 30 seconds, but reduces absorption by 100% whilst active.
-- Pestilent Mist: now inflicts Curse rather than dealing damage. Will inflict 480 Curse over its whole duration.
-- Fire Surge: damage to 150
-- Great Chaos Fire Orb: damage to 400
+' - Pestilent Mist: now inflicts Curse rather than dealing damage. Will inflict 480 Curse over its whole duration. Now casts at a distance, rather than immediately in front.
+- Fire Surge: damage to 100
+- Great Chaos Fire Orb: damage to 360
 - Chaos Storm: damage to 400 (350)
-- Profaned Flame: damage to 350
-- Chaos Bed Vestiges: damage to 500
+- Profaned Flame: damage to 320
+- Chaos Bed Vestiges: damage to 420
 - Cataclysm: FP to 100
 - Bursting Fireball: FP to 35, damage to 75
-- Boulder Heave: FP to 60, damage to 500, 300
+- Boulder Heave: FP to 60, damage to 400, 250
 - Sacred Flame: reduced damage multipliers.
 - Earthfall: FP to 100
 - Acid Surge: deals damage and reduces durability rather than reducing absorption.
@@ -151,9 +152,9 @@
 - Power Within: boosts damage by 35%
 - Force: no longer deals damage.
 - Emit Force: damage to 250 (100)
-- Wrath of the Gods: FP to 50, damage to 500
-- Great Lightning Spear: damage to 350
-- Sunlight Spear: FP to 75, damage to 500
+- Wrath of the Gods: FP to 50, damage to 450
+- Great Lightning Spear: damage to 320
+- Sunlight Spear: FP to 75, damage to 420
 - Heavenly Thunder: FP to 100
 - Atonement: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. FP to 50.
 - Sacred Oath: boosts damage and absorption by 20%.
@@ -164,10 +165,10 @@
 - Deep Barb: FP to 10, damage to 100
 - Dark Edge: FP to 20, damage to 250
 - Deep Soul: FP to 25, damage to 200
-- Great Deep Soul: FP to 30, damage to 300
-- Great Soul Dregs: FP to 50, damage to 500
-- Climax: FP to 50, damage to 500, removes 1000 souls upon use. Doesn't affect damage.
-- Abyssal Edge: FP to 30, damage to 400
+- Great Deep Soul: FP to 30, damage to 260
+- Great Soul Dregs: FP to 50, damage to 420
+- Climax: FP to 50, damage to 420, removes 1000 souls upon use. Doesn't affect damage.
+- Abyssal Edge: FP to 30, damage to 350
 - Affinity: FP to 75, damage to 100
 - Whisper of Despair: FP to 60, now inflicts 100 Curse.
 - Yearning Dregs: FP to 6, damage to 250
@@ -178,8 +179,8 @@
 - Dreg Torrent: FP to 75, damage to 100
 - Repel: FP to 25
 - Numbness: FP to 100
-- Black Fire Orb: FP to 40, damage to 400 (300)
-- Black Flame: FP to 30, damage to 350 (200)
+- Black Fire Orb: FP to 40, damage to 320 (250)
+- Black Flame: FP to 30, damage to 300 (150)
 - Black Serpent: FP to 40, damage to 300
 - Dark Dance: FP to 6, damage to 250
 - Recollection: FP to 75, damage to 100
@@ -193,6 +194,10 @@
 - Deep Protection: FP to 60
 - Dark Blade: FP to 100
 - Vow of Silence: FP to 30
+- White Dragon Breath: now inflicts Curse.
+
+# Covenants
+- Swapped Darkmoon Faithful and Vinheim Scholars effects.
 
 # Rings
 - Added the covenant phantom rings to the Primordial shop
@@ -202,6 +207,7 @@
 - Dusk Crown Ring: reduces sorcery FP reduction to 25% (from 30%)
 - Charred Bone: reduces pyromancy FP reduction to 25% (from 30%)
 - Tome of Sunlight: reduces miracle FP reduction to 25% (from 30%)
+- Covetous Gold Serpent Ring: boosts Item Discovery by 75
 
 # Enemies
 - Increased the damage of the Soul of Cinder.
