@@ -88,7 +88,7 @@ Frost
 - Curse:
  - Effect:
    - Reduces absorption by 10% on proc. Stacks.
-   - Reduces damage by 10% on proc. Stacks.
+   - Reduces damage by 5% on proc. Stacks.
    
 #------------------------
 # Stat Changes

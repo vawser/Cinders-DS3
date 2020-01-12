@@ -103,6 +103,9 @@
 # Infusion
 - Lucidity: reduced FP reduction to 15% (from 20%)
 
+# Status Effect
+# - Curse: reduces damage by 5% per stack.
+
 # Weapons
 - Adjusted the reinforcement multipliers for scaling. Damage output is inline with vanilla at +10 (rather than +12 before).
 - Reduced Fury of Manus WA to 25% boost.
@@ -225,11 +228,15 @@
 - Fixed various irregularities with the animation cancel changes.
 - Fixed the broken Winged Knight in High Wall.
 - Fixed Magic Irithyll Greatsword having the wrong scaling.
+# - Fixed weapon effects that add max FP allowing for the swap exploit.
+# - Fixed some infusion reinforcement paths costing less shards.
 
 #------------------------------
 # TODO 
 #------------------------------
-Add new models
+Add new weapons and armor
 Add the DS2 dragonform as normal armor
-Fix the bosses dropping the nightmare/dream speffects after resting
+Split armor effects into per armor speffects, boost light armor effects
 
+# Maybe
+Fix the bosses dropping the nightmare/dream speffects after resting
