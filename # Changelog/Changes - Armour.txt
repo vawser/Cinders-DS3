@@ -83,6 +83,10 @@ The effect value listed below is the total value from wearing all pieces in a se
 #----------------------------
 # Medium 1 (30 - 40)
 #----------------------------
+# Black Dragon Set
+- Weight: 34
+- [Legs] Effect: adds 100 Fire damage to kick.
+
 # Drakeblood Set
 - Weight: 40
 

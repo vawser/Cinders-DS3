@@ -98,208 +98,213 @@
 # Changelog
 #------------------------------
 # General
-# - Added exact values for effects in weapon, armor and ring descriptions.
+- Added exact values for effects in weapon, armor and ring descriptions.
 - Champion's Pact: Boosts soul gain by 100%, no longer boosts Item Discovery.
 
 # Infusion
 - Lucidity: reduced FP reduction to 15% (from 20%)
 
 # Status Effect
-# - Curse: reduces damage by 5% per stack.
+- Curse: reduces damage by 5% per stack.
 
-# Weapons
-- Adjusted the reinforcement multipliers for scaling. Damage output is inline with vanilla at +10 (rather than +12 before).
+# Weapon Arts
+- Adjusted the length/power of various weapon arts so they correspond better with FP regen and more frequent usage.
 - Reduced Fury of Manus WA to 25% boost.
 - Reduced Crystallization WA to 25% boost.
 - Increasded Logan's Focus WA to 75% FP cost reduction.
+- Increased Stone Flesh (Havel's Greatshield) to 20 seconds, and fixed the damage level override to match Perseverance.
+
+# Weapons
+- Adjusted the reinforcement multipliers for scaling. Damage output is inline with vanilla at +10 (rather than +12 before).
 - Holy Moonlight Greatsword is now just part of the base Moonlight Greatsword when infused to Holy (it switches to that model). Removed the separate weapon.
 - Greatsword of Artorias now uses the corrupted model for the Cursed and Dark infusion. Removed the Abyss Greatsword (was the corrupted version).
 - Balder Side Sword now has thrusting heavy attack.
 - Penetrating Sword now has thrusting heavy attack and Shield Splitter WA.
 - Reduced the damage of the Dark Hand.
 - Reduced the spell buff of Holy Flame and Sorcerous Flame.
-- Adjusted the length/power of various weapon arts so they correspond better with FP regen and more frequent usage.
-# - The moonlight weapons no longer have abnormally high durability.
-# - Insanity Catalyst: now casts all schools, has 400 spell buff, lose 1% of health every second.
-# - Normal catalysts now deal 50% less damage with Dark spells, vice versa for Dark catalysts. This property is noted in the description for all catalysts.
-# - Lothric's Scythe: restores 3 HP every second.
-# - Branding Iron: reduces HP and FP restoration from the Estus Flask by 100% for 10 seconds.
-# - Witch's Staff: reduces the FP consumption of pyromancies by 10%.
-# - Yorshka's Chime: reduces FP consumption of miracles by 10%.
+- The moonlight weapons no longer have abnormally high durability.
+- Insanity Catalyst: now casts all schools, has 400 spell buff, lose 1% of health every second.
+- Normal catalysts now deal 50% less damage with Dark spells, vice versa for Dark catalysts. This property is noted in the description for all catalysts.
+- Lothric's Scythe: restores 3 HP every second.
+- Branding Iron: reduces HP and FP restoration from the Estus Flask by 100% for 10 seconds.
+- Witch's Staff: reduces the FP consumption of pyromancies by 10%.
+- Yorshka's Chime: reduces FP consumption of miracles by 10%.
 
 # Armor
+- Added Black Dragon armor set.
 - Lowered the top poise values and removed poise on the lighter armours.
 - Removed the Poise values within the menus as they don't display the actual values used.
 - Added Poise: X to each armor piece description.
-# - Changed the armor effect design. Now matches the style of the older games, where specific pieces have effects. This does mean the majority of pieces no longer have effects. The strength of the effects are stronger than before however.
-# - Effects that boosted resists on armor are now just directly part of the armor's resistances, rather than separate effects.
-# Pursuer's Gauntlets
-# - [Hands] Effect: Increase damage against Hollows by 15%
+- Changed the armor effect design. Now matches the style of the older games, where specific pieces have effects. This does mean the majority of pieces no longer have effects. The strength of the effects are stronger than before however.
+- Effects that boosted resists on armor are now just directly part of the armor's resistances, rather than separate effects.
 
-# Millwood Knight Gauntlets
-# - [Hands] Effect: Grants 2 HP per second.
+Pursuer's Gauntlets
+- [Hands] Effect: Increase damage against Hollows by 15%
 
-# Morne's Gauntlets
-# - [Head] Effect: Reduces miracle FP consumption by 15%.
+Millwood Knight Gauntlets
+- [Hands] Effect: Grants 2 HP per second.
 
-# Black Knight Gauntlets
-# - [Hands] Effect: Increase damage against Demons by 15%.
+Morne's Gauntlets
+- [Head] Effect: Reduces miracle FP consumption by 15%.
 
-# Silver Knight Gauntlets
-# - [Hands] Effect: Boosts lightning damage by 5%.
+Black Knight Gauntlets
+- [Hands] Effect: Increase damage against Demons by 15%.
 
-# Ringed Knight Hood
-# - [Head] Effect: Boosts fire damage by 5%.
+Silver Knight Gauntlets
+- [Hands] Effect: Boosts lightning damage by 5%.
 
-# Yhorm's Crown
-# - [Head] Effect: boosts STR by 5.
+Ringed Knight Hood
+- [Head] Effect: Boosts fire damage by 5%.
 
-# Wolf Knight Gauntlets
-# - [Hands] Effect: boosts DEX by 5.
+Yhorm's Crown
+- [Head] Effect: boosts STR by 5.
 
-# Footman's Overcoat
-# - [Body] Effect: reduces backstab damage by 90%.
+Wolf Knight Gauntlets
+- [Hands] Effect: boosts DEX by 5.
 
-# Creighton's Steel Mask
-# - [Head] Effect: boosts stamina recovery by 10.
+Footman's Overcoat
+- [Body] Effect: reduces backstab damage by 90%.
 
-# Armor of the Sun
-# - [Body] Effect: increases HP restored through estus flasks by 100%.
+Creighton's Steel Mask
+- [Head] Effect: boosts stamina recovery by 10.
 
-# Vilhelm's Armor
-# - [Hands] Effect: Boosts dark damage by 5%.
+Armor of the Sun
+- [Body] Effect: increases HP restored through estus flasks by 100%.
 
-# Golden Crown
-# - [Head] Effect: Boosts lightning damage by 5%.
+Vilhelm's Armor
+- [Hands] Effect: Boosts dark damage by 5%.
 
-# Evangelist Hat
-# - [Head] Effect: boosts FTH by 5.
+Golden Crown
+- [Head] Effect: Boosts lightning damage by 5%.
 
-# Lucatiel's Mask
-# - [Head] Effect: reduces the stamina consumption of weapon swings by 15%.
+Evangelist Hat
+- [Head] Effect: boosts FTH by 5.
 
-# Aristocrat's Mask
-# - [Head] Effect: boosts Item Discovery by 30.
+Lucatiel's Mask
+- [Head] Effect: reduces the stamina consumption of weapon swings by 15%.
 
-# Vileblood Helm
-# - [Head] Effect: absorb 50 HP from fallen foes.
+Aristocrat's Mask
+- [Head] Effect: boosts Item Discovery by 30.
 
-# Sunless Veil
-# - [Head] Effect: boosts magic damage by 5%.
+Vileblood Helm
+- [Head] Effect: absorb 50 HP from fallen foes.
 
-# Silver Mask
-# - [Head] Effect: reduces FP consumption from weapon skills by 15%.
+Sunless Veil
+- [Head] Effect: boosts magic damage by 5%.
 
-# Xanthous Crown
-# - [Head] Effect: absorb 50 FP from fallen foes.
+Silver Mask
+- [Head] Effect: reduces FP consumption from weapon skills by 15%.
 
-# Pharis's Hat
-# - [Head] Effect: increases range of bows, greatbows and crossbows by 100.
+Xanthous Crown
+- [Head] Effect: absorb 50 FP from fallen foes.
 
-# Shira's Crown
-# - [Head] Effect: boosts FTH by 5.
+Pharis's Hat
+- [Head] Effect: increases range of bows, greatbows and crossbows by 100.
 
-# Karla's Pointed Hat
-# - [Head] Effect: boosts INT and FTH by 3.
+Shira's Crown
+- [Head] Effect: boosts FTH by 5.
 
-# Black Witch Hat
-# - [Head] Effect: boosts dark damage by 5%.
+Karla's Pointed Hat
+- [Head] Effect: boosts INT and FTH by 3.
 
-# Court Sorcerer Gloves
-# - [Hands] Effect: boosts magic damage by 5%.
+Black Witch Hat
+- [Head] Effect: boosts dark damage by 5%.
 
-# Old Sorcerer Hat
-# - [Head] Effect: boosts INT by 5.
+Court Sorcerer Gloves
+- [Hands] Effect: boosts magic damage by 5%.
 
-# Shadow Set
-# - [Head] Effect: reduces enemy sight and hearing by 20%. Fades player body.
-# - [Body] Effect: reduces enemy sight and hearing by 20%. Fades player body.
-# - [Hands] Effect: reduces enemy sight and hearing by 20%. Fades player body.
-# - [Legs] Effect: reduces enemy sight and hearing by 20%. Fades player body.
+Old Sorcerer Hat
+- [Head] Effect: boosts INT by 5.
 
-# Maiden Robe
-# - [Body] Effect: boosts FTH by 5.
+Shadow Set
+- [Head] Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Body] Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Hands] Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Legs] Effect: reduces enemy sight and hearing by 20%. Fades player body.
 
-# Hexer's Robes
-# - [Body] Effect: boosts cast speed by 20.
+Maiden Robe
+- [Body] Effect: boosts FTH by 5.
 
-# Old Sage's Blindfold
-# - [Head] Effect: reduces FP consumption of pyromancies by 15%.
+Hexer's Robes
+- [Body] Effect: boosts cast speed by 20.
 
-# Ordained Dress
-# - [Body] Effect: boosts cast speed by 20.
+Old Sage's Blindfold
+- [Head] Effect: reduces FP consumption of pyromancies by 15%.
 
-# Archdeacon White Crown
-# - [Head] Effect: reduces FP consumption of miracles by 15%.
+Ordained Dress
+- [Body] Effect: boosts cast speed by 20.
 
-# Robe of Prayer
-# - [Body] Effect: grants 4 HP every second.
+Archdeacon White Crown
+- [Head] Effect: reduces FP consumption of miracles by 15%.
 
-# Fire Keeper Mask
-# - [Head] Effect: boosts soul gain by 25%.
+Robe of Prayer
+- [Body] Effect: grants 4 HP every second.
 
-# Crown of Dusk
-# - [Head] Effect: reduces FP consumption of sorceries by 15%.
+Fire Keeper Mask
+- [Head] Effect: boosts soul gain by 25%.
 
-# Ragged Mask
-# - [Head] Effect: increases stamina recovery by 15.
+Crown of Dusk
+- [Head] Effect: reduces FP consumption of sorceries by 15%.
 
-# Gargoyle Helm
-# - [Head] Effect: boosts VIG by 5.
+Ragged Mask
+- [Head] Effect: increases stamina recovery by 15.
 
-# Gold Ardeo
-# - [Head] Effect: boosts physical damage by 5%.
+Gargoyle Helm
+- [Head] Effect: boosts VIG by 5.
 
-# Iron Cage
-# - [Head] Effect: increases max FP by 20%.
+Gold Ardeo
+- [Head] Effect: boosts physical damage by 5%.
 
-# Crown of the Great Lord
-# - [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
+Iron Cage
+- [Head] Effect: increases max FP by 20%.
 
-# Blindfold Mask
-# - [Head] Effect: Grants 1 attunement slot
+Crown of the Great Lord
+- [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
 
-# Black Witch Veil
-# - [Head] Effect: grants 10 ATN.
+Blindfold Mask
+- [Head] Effect: Grants 1 attunement slot
 
-# Clandestine Coat
-# - [Body] Effect: makes footsteps silent.
+Black Witch Veil
+- [Head] Effect: grants 10 ATN.
 
-# Sage's Big Hat
-# - [Body] Effect: increases FP restored through estus flasks by 100%.
+Clandestine Coat
+- [Body] Effect: makes footsteps silent.
 
-# Thrall Hood
-# - [Head] Effect: boosts LCK by 5.
+Sage's Big Hat
+- [Body] Effect: increases FP restored through estus flasks by 100%.
 
-# Wolnir's Crown
-# - [Head] Effect: boosts physical damage by 5%.
+Thrall Hood
+- [Head] Effect: boosts LCK by 5.
 
-# Symbol of Avarice
-# - [Head] Effect: boosts Item Discovery by 250, reduces HP by 1% per second.
+Wolnir's Crown
+- [Head] Effect: boosts physical damage by 5%.
 
-# Mask of Velka
-# - [Head] Effect: boosts magic damage by 5%.
+Symbol of Avarice
+- [Head] Effect: boosts Item Discovery by 250, reduces HP by 1% per second.
 
-# Skull Mask
-# - [Head] Effect: boosts VIT by 5.
+Mask of Velka
+- [Head] Effect: boosts magic damage by 5%.
 
-# Wanderer's Coat
-# - [Body] Effect: boosts END by 5.
+Skull Mask
+- [Head] Effect: boosts VIT by 5.
 
-# Mask of the Father
-# - [Head] Effect: boosts equipment load by 10%.
+Wanderer's Coat
+- [Body] Effect: boosts END by 5.
 
-# Mask of the Mother
-# - [Head] Effect: increases max HP by 10%.
+Mask of the Father
+- [Head] Effect: boosts equipment load by 10%.
 
-# Mask of the Child
-# - [Head] Effect: increases stamina recovery by 15.
+Mask of the Mother
+- [Head] Effect: increases max HP by 10%.
 
-# Armor of Thorns Set
-# - [Head]  Effect: Adds 25 Physical damage on rolling.
-# - [Body]  Effect: Adds 25 Physical damage on rolling.
-# - [Hands] Effect: Adds 25 Physical damage on rolling.
-# - [Legs]  Effect: Adds 25 Physical damage on rolling.
+Mask of the Child
+- [Head] Effect: increases stamina recovery by 15.
+
+Armor of Thorns Set
+- [Head]  Effect: Adds 25 Physical damage on rolling.
+- [Body]  Effect: Adds 25 Physical damage on rolling.
+- [Hands] Effect: Adds 25 Physical damage on rolling.
+- [Legs]  Effect: Adds 25 Physical damage on rolling.
 
 # Spells
 - Soul Arrow: damage to 200
@@ -370,15 +375,16 @@
 - Dark Blade: FP to 100
 - Vow of Silence: FP to 30
 - White Dragon Breath: now inflicts Curse.
-# - Removed the passive effects from the weapon buff spells. The damage added by them has been boosted however.
-# - Magic Weapon: adds 60 Magic damage. Lasts 90 seconds.
-# - Great Magic Weapon: adds 90 Magic damage. Lasts 60 seconds.
-# - Crystal Magic Weapon: adds 120 Magic damage. Lasts 30 seconds.
-# - Carthus Flame Arc: adds 90 Fire damage. Lasts 60 seconds.
-# - Lightning Blade: adds 90 Lightning damage. Lasts 60 seconds.
-# - Darkmoon Blade: adds 90 Magic damage. Lasts 60 seconds.
-# - Dark Blade: adds 100 Dark damage. Lasts 60 seconds.
-# - Blessed Weapon: adds Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
+- Removed the passive effects from the weapon buff spells. The damage added by them has been boosted however.
+- Magic Weapon: adds 60 Magic damage. Lasts 90 seconds.
+- Great Magic Weapon: adds 90 Magic damage. Lasts 60 seconds.
+- Crystal Magic Weapon: adds 120 Magic damage. Lasts 30 seconds.
+- Carthus Flame Arc: adds 90 Fire damage. Lasts 60 seconds.
+- Lightning Blade: adds 90 Lightning damage. Lasts 60 seconds.
+- Darkmoon Blade: adds 90 Magic damage. Lasts 60 seconds.
+- Dark Blade: adds 100 Dark damage. Lasts 60 seconds.
+- Blessed Weapon: adds Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
+- Rockflesh: lasts 30 seconds.
 
 # Covenants
 - Swapped Darkmoon Faithful and Vinheim Scholars effects.
@@ -392,11 +398,11 @@
 - Charred Bone: reduces pyromancy FP reduction to 25% (from 30%)
 - Tome of Sunlight: reduces miracle FP reduction to 25% (from 30%)
 - Covetous Gold Serpent Ring: boosts Item Discovery by 75
-# - Runic Seal: increases attack deflection by 80
-# - Ring of Londor: increases stamina drain dealt to enemies by 50%.
-# - Old Pygmy Brooch: Increases shield stability by 10%.
-# - Green Tearstone Ring: Restores 5 HP every second whilst HP is 25% of max.
-# - Violet Tearstone Ring: Restores 5 FP every second whilst HP is 25% of max.
+- Runic Seal: increases attack deflection by 80
+- Ring of Londor: increases stamina drain dealt to enemies by 50%.
+- Old Pygmy Brooch: Increases shield stability by 10%.
+- Green Tearstone Ring: Restores 5 HP every second whilst HP is 25% of max.
+- Violet Tearstone Ring: Restores 5 FP every second whilst HP is 25% of max.
 
 # Enemies
 - Increased the damage of the Soul of Cinder.
@@ -414,15 +420,15 @@
 - Fixed various irregularities with the animation cancel changes.
 - Fixed the broken Winged Knight in High Wall.
 - Fixed Magic Irithyll Greatsword having the wrong scaling.
-# - Fixed weapon effects that add max FP allowing for the swap exploit.
-# - Fixed some infusion reinforcement paths costing less shards.
+- Fixed weapon effects that add max FP allowing for the swap exploit.
+- Fixed some infusion reinforcement paths costing less shards.
 
 #------------------------------
 # TODO 
 #------------------------------
 Add new weapons and armor
-Add the DS2 dragonform as normal armor
 
 # Maybe
 Fix the bosses dropping the nightmare/dream speffects after resting
 
+99190000
