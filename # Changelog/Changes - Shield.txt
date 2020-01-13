@@ -49,100 +49,103 @@
 # Small Shields
 #------------------------
 # Eastern Iron Shield
-- Effect: reduces weapon stamina consumption by 10%
+- Effect: reduces weapon stamina consumption by 10%.
 - Source: Purchase - Easterner's Ashes - Shrine Handmaid
 
 # Golden Falcon Shield
-- Effect: grants 5 Luck
+- Effect: increases Luck by 5.
 - Source: Treasure - Road of Sacrifices
 
 # Hawkwood's Shield
-- Effect: grants weapon stamina consumption reduction of 10%
+- Effect: reduces weapon stamina consumption by 10%.
 - Source: Quest - Hawkwood
 
 # Llewellyn Shield
-- Effect: grants 20% absorption below 25% health.
+- Effect: increases Magic, Fire, Lightning and Dark absorption by 10%.
 - Source: Quest - Horace
 - Source: Drop - Horace
 
 # Sacred Bloom Shield
-- Effect: grants 10% increased Max FP.
+- Effect: increases max FP by 10%.
 - Source: Treasure - Lothric Castle
 
 # Elkhorn Round Shield
-- Effect: grants 1% HP regen whilst below 50% HP
+- Effect: restores 1 HP every second.
 
 # Crimson Parma
 - Effect: increases max HP by 10%
 
 # Loch Shield
-- Effect: increases max FP by 10%.
+- Effect: restores 1 FP every second.
+
+# Caduceus Round Shield
+- Effect: increases max Stamina by 10%.
 
 #------------------------
 # Medium Shields
 #------------------------
 # Ethereal Oak Shield   
-- Effect: grants 1 HP every second.
+- Effect: restores 1 HP every second.
 - Source: Treasure - Ariandel
 
 # Grass Crest Shield    
-- Effect: increases Stamina recovery by 15
+- Effect: increases stamina recovery by 15.
 - Source: Treasure - Farron Keep
 
 # Porcine Shield
-- Effect: grants 25 Item Discovery
+- Effect: increases Item Discovery by 25.
 - Source: Treasure - Lothric Castle
 
 # Shield of Want    
-- Effect: increases souls gain by 20%
+- Effect: increases soul absorption by 20%.
 - Source: Treasure - Smouldering Lake
 
 # Sunlight Shield
-- Effect: reduces miracle FP consumption by 15%
+- Effect: increases HP restored by the Estus Flask by 25%.
 - Source: Covenant - Warriors of Sunlight
 
 # Spider Shield
-- Effect: grants 100 Poison and Toxic resistance.
+- Effect: increases Poison and Toxic resistance by 100.
 - Source: Drop - Unkindled Bandit - Cathedral of the Deep
 
 # Carthus Shield
-- Effect: increases Stamina recovery by 15
+- Effect: reduces weapon stamina consumption by 10%.
 
 # Stone Parma
-- Effect: increases Physical defence by 50
+- Effect: increases Physical defence by 50.
 
 # Wargod Wooden Shield
-- Effect: reduces weapon FP costs by 20%
+- Effect: increases Physical damage by 5%.
 
 # Gargoyle Shield
-- Effect: increases Physical defence by 50
+- Effect: increases Physical defence by 50.
 
 # Rune Shield
-- Effect: increases Magic absorption by 10%
+- Effect: increases Magic absorption by 10%.
 
 # Quicksilver Shield
-- Effect: increases Dark absorption by 10%
+- Effect: increases Dark absorption by 10%.
 
 # Prince's Shield
-- Effect: grants 1 HP per second
+- Effect: restores 2 HP every second.
 
 #------------------------
 # Greatshields
 #------------------------
 # Ancient Dragon Greatshield
-- Effect: grants 2 HP per second
+- Effect: restores 2 HP every second.
 - Source: Treasure - Archdragon Peak
 
 # Greatshield of Glory
-- Effect: reduces stamina recovery by 5
+- Effect: reduces stamina recovery by 5.
 - Source: Drop - Mimic - Profaned Capital
 
 # Twin Dragon Greatshield
-- Effect: Grants 25 item discovery
+- Effect: increases Item Discovery by 25.
 - Source: Treasure - Road of Sacrifices
 
 # Wolf Knight's Greatshield
-- Effect: increases max stamina by 10%.
+- Effect: increases max Stamina by 10%.
 - Source: Covenant - Watchdogs of Farron
 
 # Yhorm's Greatshield
@@ -150,7 +153,10 @@
 - Source: Boss - Yhorm the Giant
 
 # Twinfang Greatshield
-- Effect: increases Fire absorption by 10%
+- Effect: increases Fire absorption by 10%.
 
 # Immortal Dragon Greatshield
-- Effect: increases souls gain by 20%
+- Effect: increases soul absorption by 20%.
+
+# Greatshield of Artorias
+- Effect: increases max Stamina by 10%.

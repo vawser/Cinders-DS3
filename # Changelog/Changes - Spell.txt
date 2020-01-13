@@ -230,8 +230,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: Adds 30 Magic damage to main weapon for 90 seconds. Scales with INT.
-- Effect: Adds 1 FP per second.
+- Effect: Adds 60 Magic damage to main weapon for 90 seconds. Scales with INT.
 
 - INT Req: 20
 - Source: Orbeck - Default
@@ -241,8 +240,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 75
 - Slot Usage: 1
-- Effect: Adds 40 Magic damage to main weapon for 60 seconds. Scales with INT.
-- Effect: Adds 2 FP per second.
+- Effect: Adds 90 Magic damage to main weapon for 60 seconds. Scales with INT.
 
 - INT Req: 30
 - Source: Treasure - Farron Keep
@@ -252,8 +250,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 100
 - Slot Usage: 1
-- Effect: Adds 50 Magic damage to main weapon for 60 seconds. Scales with INT.
-- Effect: Adds 3 FP per second.
+- Effect: Adds 120 Magic damage to main weapon for 30 seconds. Scales with INT.
 
 - INT Req: 40
 - Source: Orbeck - Crystal Scroll - Grand Archives
@@ -295,7 +292,6 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 50
 - Slot Usage: 1
 - Effect: hides main weapon for 300 seconds.
-- Effect: grants 10 stamina recovery.
 
 - INT Req: 10
 - Source: Orbeck - Golden Scroll - Farron Keep
@@ -703,8 +699,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 100
 - Slot Usage: 1
-- Effect: adds 40 Fire damage to main weapon for 90 seconds. Scales with INT and FTH.
-- Effect: reduces weapon stamina consumption by 25%.
+- Effect: adds 90 Fire damage to main weapon for 60 seconds. Scales with INT and FTH.
 
 - Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
 
@@ -999,7 +994,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - HP Recovery: 5
 - Slot Usage: 1
-- Effect: increases Physical damage by 30 and restores 5 HP per second for 60 seconds. Scales with FTH.
+- Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
 
 - FTH Req: 16
 - Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
@@ -1030,8 +1025,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 75
 - Lightning Damage: 80
 - Slot Usage: 1
-- Effect: adds 40 Lightning damage to main weapon for 60 seconds. Scales with FTH.
-- Effect: increases stamina damage by 100%.
+- Effect: adds 90 Lightning damage to main weapon for 60 seconds. Scales with FTH.
 
 - FTH Req: 20
 - Source: Treasure - Irithyll Dungeon
@@ -1042,8 +1036,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 75
 - Magic Damage: 80
 - Slot Usage: 1
-- Effect: adds 40 Magic damage to main weapon for 60 seconds. Scales with FTH.
-- Effect: increases max FP by 50%.
+- Effect: adds 90 Magic damage to main weapon for 60 seconds. Scales with FTH.
 
 - FTH Req: 20
 - Source: Covenant - Darkmoon Rank 2 - Anor Londo
@@ -1447,8 +1440,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - Dark Damage: 80
 - Slot Usage: 1
-- Effect: adds 40 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
-- Effect: adds 5 HP per second.
+- Effect: adds 90 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
 
 - INT Req: 10
 - FTH Req: 20

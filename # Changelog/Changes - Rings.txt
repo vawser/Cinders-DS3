@@ -46,7 +46,7 @@
 - Source: Quest - Karla
 
 # Way of White
-- Boosts estus recovery by 25%
+- Increases HP restored through estus flasks by 50%.
 - Source: Quest - Irina
 
 # Dragon Remnants
@@ -405,7 +405,7 @@
 # Carthus Bloodring
 - Weight: 0.5
 - Shifts evasion class downwards and obscures rolling, but
-removes defence.
+increases evasive movement stamina costs by 50%.
 - Source: Treasure - Catacombs of Carthus
 
 # Reversal Ring
@@ -455,12 +455,12 @@ removes defence.
 
 # Runic Seal
 - Weight: 2
-- Grants 25 poise but reduces stamina recovery by 15.
+- Increases attack deflection by 80.
 - Source: Treasure - Farron Keep
 
 # Greatwood Remnants
 - Weight: 3
-- Increases absorption by 15% but doubles evasion stamina consumption.
+- Increases absorption by 15% but increases evasive stamina consumption by 25%.
 - Source: Boss - Curse-rotted Greatwood
 
 # Green Tearstone Ring
@@ -575,22 +575,22 @@ removes defence.
 
 # Ring of Calamity
 - Weight: 1
-- Boosts all damage by 20% but reduces health by 1% every second.
+- Boosts all damage by 20% but reduces HP by 1% of max every second.
 - Source: Treasure - Grand Archives
 
 # Ring of Woe
 - Weight: 1
-- Boosts all absorption by 20% but reduces health by 1% every second.
+- Boosts all absorption by 20% but reduces HP by 1% of max every second.
 - Source: Treasure - Grand Archives
 
 # Ring of Adversity
 - Weight: 1
-- Boosts stamina recovery by 30 but reduces health by 1% every second.
+- Boosts stamina recovery by 30 but reduces HP by 1% of max every second.
 - Source: Treasure - Irithyll of the Boreal Valley
 
 # Ring of Catastrophe
 - Weight: 1
-- Grants 5 FP every second but reduces health by 1% every second.
+- Grants 5 FP every second but reduces HP by 1% of max every second.
 - Source: Treasure - Anor Londo
 
 # Black Tearstone Ring

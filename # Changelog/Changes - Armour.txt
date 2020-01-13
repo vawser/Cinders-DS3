@@ -8,336 +8,281 @@ The effect value listed below is the total value from wearing all pieces in a se
 #----------------------------
 # Havel's Set
 - Weight: 70
-- Effect: Increases Magic, Fire and Dark defence by 75 [10, 35, 10, 20]
 
 # Giant's Set
 - Weight: 68
-- Effect: Increases Physical defence by 50 [5, 25, 5, 15]
 
 # Pursuer's Set
 - Weight: 67
-- Effect: Increase damage against Hollows by 10% [1, 5, 1, 3]
+- [Hands] Effect: Increase damage against Hollows by 15%.
 
 # Smough's Set
 - Weight: 66
-- Effect: Absorb 50 HP from fallen foes [5, 25, 5, 15]
 
 # Gundyr Set
 - Weight: 65
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Winged Knight Set 
 - Weight: 65
-- Effect: Increases max HP by 10% [1, 5, 1, 3]
 
 # Millwood Knight Set
 - Weight: 65
-- Effect: Grants 4 HP every 4 seconds [1, 1, 1, 1]
+- [Hands] Effect: Grants 2 HP every second.
 
 # Catarina Set
 - Weight: 64
-- Effect: Increases enemy attack deflection by 50 [5, 25, 8, 12]
 
 # Cathedral Knight Set
 - Weight: 64
-- Effect: Increases Magic defence by 50 [5, 25, 5, 15]
 
 # Black Iron Set
 - Weight: 64
-- Effect: Increases Fire defence by 50 [5, 25, 5, 15]
 
 # Iron Dragonslayer Set
 - Weight: 63
-- Effect: Increases Dark defence by 50 [5, 25, 5, 15]
 
 # Lapp's Set
 - Weight: 63
-- Effect: Increases max HP by 10% [1, 5, 1, 3]
 
 # Morne's Set
 - Weight: 62
-- Effect: Reduces miracle FP consumption by 20% [2, 9, 2, 7]
+- [Head] Effect: Reduces miracle FP consumption by 15%.
 
 # Executioner Set
 - Weight: 61
-- Effect: Absorb 50 FP from fallen foes [5, 25, 5, 15]
 
 # Dragonslayer Set
 - Weight: 60
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Lothric Knight Armor Set
 - Weight: 60
-- Effect: Increases max Stamina by 10% [1, 5, 1, 3]
 
 #----------------------------
 # Heavy (50 - 60)
 #----------------------------
 # Harald Legion Set
 - Weight: 59
-- Effect: Increases Dark defence by 50 [5, 25, 5, 15]
 
 # Exile Armor Set
 - Weight: 58
-- Effect: Increases stamina recovery by 20 [2, 10, 2, 6]
 
 # Black Knight Set
 - Weight: 56
-- Effect: Increase damage against Demons by 10% [1, 5, 1, 3]
+- [Hands] Effect: Increase damage against Demons by 15%
 
 # Silver Knight Set
 - Weight: 56
-- Effect: Increases max Stamina by 10% [1, 5, 1, 3]
+- [Hands] Effect: Boosts lightning damage by 5%.
 
 # Ruin Set
 - Weight: 54
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Lorian's Set
 - Weight: 52
-- Effect: Increases Magic defence by 50 [5, 25, 5, 15]
 
 #----------------------------
 # Medium 1 (30 - 40)
 #----------------------------
 # Drakeblood Set
 - Weight: 40
-- Effect: Increases stamina damage by 20% [2, 10, 2, 6]
 
 # Ringed Knight Set
 - Weight: 40
-- Effect: Increases Fire defence by 50 [5, 25, 5, 15]
+- [Head] Effect: Boosts fire damage by 5%.
 
 # Yhorm's Set
 - Weight: 38
-- Effect: Increases Physical defence by 50 [5, 25, 5, 15]
+- [Head] Effect: boosts STR by 5.
 
 # Firelink Set
 - Weight: 36
-- Effect: Increases max HP, stamina and equip load by 10% [1, 5, 1, 3]
 
 # Eastern Armor Set
 - Weight: 36
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Brass Set
 - Weight: 35
-- Effect: Absorb 50 FP from fallen foes [5, 25, 5, 15]
 
 # Armor of Favor Set
 - Weight: 34
-- Effect: Increases max HP, stamina and equip load by 5% [0.5, 3, 0.5, 1]
 
 # Sunset Set
 - Weight: 32
-- Effect: Reduces weapon FP consumption by 20% [2, 9, 2, 7]
 
 # Wolf Knight Set
 - Weight: 32
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
+- [Hands] Effect: boosts DEX by 5.
 
 # Elite Knight Set
 - Weight: 30
-- Effect: Boosts estus recovery by 50% [5, 25, 5, 15]
 
 # Burial Knight Set
 - Weight: 30
-- Effect: Boosts estus recovery by 50% [5, 25, 5, 15]
 
 # Faraam Armor Set
 - Weight: 30
-- Effect: Increases Frost resistance by 400 [100, 100, 100, 100]
 
 #----------------------------
 # Medium 2 (20 - 30)
 #----------------------------
 # Knight Set
 - Weight: 28
-- Effect: Increases max HP by 10% [1, 5, 1, 3]
 
 # Armor of Thorns Set
 - Weight: 28
-- Effect: Adds 40 Physical damage on rolling. [50, 50, 50, 50]
+- [Head]  Effect: Adds 25 Physical damage on rolling.
+- [Body]  Effect: Adds 25 Physical damage on rolling.
+- [Hands] Effect: Adds 25 Physical damage on rolling.
+- [Legs]  Effect: Adds 25 Physical damage on rolling.
 
 # Nameless Knight Set
 - Weight: 28
-- Effect: Increases enemy attack deflection by 50 [5, 25, 8, 12]
 
 # Footman Set
 - Weight: 28
-- Effect: Increases STR by 5 [1, 2, 1, 1]
-- [Body] Effect: reduces backstab damage by 75%
+- [Body] Effect: reduces backstab damage by 90%
 
 # Alva Set
 - Weight: 26
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Outrider Knight Armor Set
 - Weight: 26
-- Effect: Increases Frost resistance by 400 [100, 100, 100, 100]
 
 # Dark Set
 - Weight: 25
-- Effect: Absorb 50 HP from fallen foes [5, 25, 5, 15]
 
 # Undead Legion Set
 - Weight: 25
-- Effect: Increases max equip load by 10% [1, 5, 1, 3]
 
 # Mirrah Chain Set
 - Weight: 24
-- Effect: Increases max Stamina by 10% [1, 5, 1, 3]
+- [Head] Effect: boosts stamina recovery by 10.
 
 # Herald Set
 - Weight: 24
-- Effect: Increases FTH by 5 [1, 2, 1, 1]
 
 # Fallen Knight Set
 - Weight: 24
-- Effect: Increases Fire defence by 50 [5, 25, 5, 15]
 
 # Armor of the Sun Set
 - Weight: 24
-- Effect: Reduces miracle FP consumption by 20% [2, 9, 2, 7]
+- [Body] Effect: boosts estus HP recovery by 100%.
 
 # Fire Witch Set
 - Weight: 23
-- Effect: Extends spell effect duration by 20% [2, 10, 2, 6]
 
 # Chain Armor Set
 - Weight: 23
-- Effect: Increases Bleed resistance by 400 [100, 100, 100, 100]
 
 # Vilhelm's Set
 - Weight: 22
-- Effect: Increases Dark defence by 50 [5, 25, 5, 15]
+- [Hands] Effect: Boosts dark damage by 5%.
 
 # Varangian Set
 - Weight: 22
-- Effect: Increases Poison, Toxic, Bleed, Curse and Frost by 200 [50, 50, 50, 50]
 
 # Northern Set
 - Weight: 22
-- Effect: Increases Frost resistance by 400 [100, 100, 100, 100]
 
 # Slave Knight Set
 - Weight: 21
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 #----------------------------
 # Light (10 - 20)
 #----------------------------
 # Nameless King Set
 - Weight: 20
-- Effect: Reduces miracle FP consumption by 20% [2, 9, 2, 7]
+- [Head] Effect: Boosts lightning damage by 5%.
 
 # Follower Set
 - Weight: 20
-- Effect: Increases Frost resistance by 400 [100, 100, 100, 100]
 
 # Pontiff Knight Set
 - Weight: 19
-- Effect: Increases Magic defence by 50 [5, 25, 5, 15]
 
 # Dancer Set
 - Weight: 18
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
 
 # Evangelist Set
 - Weight: 18
-- Effect: Increases casting speed by 20 [2, 10, 2, 6]
+- [Head] Effect: boosts FTH by 5.
 
 # Mirrah Set
 - Weight: 16
-- Effect: Increases stamina recovery by 20 [2, 10, 2, 6]
+- [Head] Effect: reduces weapon stamina consumption by 15%
 
 # Hard Leather Set
 - Weight: 16
-- Effect: Increases max equip load by 10% [1, 5, 1, 3]
 
 # Jailer Set
 - Weight: 16
-- Effect: Increases Item Discovery by 50 [25, 5, 15, 5]
+- [Head] Effect: boosts Item Discovery by 30.
 
 # Black Set
 - Weight: 16
-- Effect: Increases Soul gain by 25% [2.5, 12.5, 2.5, 7.5]
 
 # Sellsword Set
 - Weight: 16
-- Effect: Increases DEX by 5 [1, 2, 1, 1]
 
 # Vileblood Set
 - Weight: 16
-- Effect: Absorb 50 HP from fallen foes [5, 25, 5, 15]
+- [Head] Effect: absorb 50 HP from fallen foes.
 
 # Sunless Set
 - Weight: 15
-- Effect: Increases casting speed by 20 [2, 10, 2, 6]
+- [Head] Effect: boosts magic damage by 5%.
 
 # Leonhard's Set
 - Weight: 15
-- Effect: Increases stamina damage by 20% [2, 10, 2, 6]
+- [Head] Effect: reduces weapon FP consumption by 15%.
 
 # Xanthous Set
 - Weight: 15
-- Effect: Absorb 50 FP from fallen foes [5, 25, 5, 15]
+- [Head] Effect: absorb 50 FP from fallen foes.
 
 # Deserter Set
 - Weight: 15
-- Effect: Increases LCK by 4 [1, 2, 1]
 
 # Black Leather Set
 - Weight: 15
-- Effect: Increases END by 5 [1, 2, 1, 1]
 
 # Brigand Set
 - Weight: 14
-- Effect: Increases stamina damage by 20% [2, 10, 2, 6]
 
 # Leather Set
 - Weight: 13
-- Effect: Increases bow distance by 100 [50, 30, 10, 10]
+- [Head] Effect: boosts bow range by 100.
 
 # Shira's Set
 - Weight: 13
-- Effect: Reduces miracle FP consumption by 20% [2, 9, 2, 7]
+- [Head] Effect: boosts FTH by 5.
 
 # Black Hand Set
 - Weight: 12
-- Effect: Reduces weapon stamina consumption by 6% [1, 5]
 
 # Conjurator Set
 - Weight: 12
-- Effect: Increases casting speed by 20 [2, 10, 2, 6]
 
 # Grotto Set
 - Weight: 11
-- Effect: Increases Poison/Toxic resistance by 400 [100, 100, 100, 100]
 
 # Cleric Set
 - Weight: 11
-- Effect: Increases FTH by 5 [1, 2, 1, 1]
 
 # Worker Set
 - Weight: 11
-- Effect: Increases LCK by 5 [1, 2, 1, 1]
 
 # Assassin Set
 - Weight: 10
-- Effect: Increases stamina recovery by 20 [2, 10, 2, 6]
 
 # Painting Guardian Set
 - Weight: 10
-- Effect: Increases max Stamina by 10% [1, 5, 1, 3]
 
 # Drang Set
 - Weight: 13.6
-- Effect: Increases Item Discovery by 45 [25, 5, 15]
 
 # Man Serpent Set
 - Weight: 6.6
-- Effect: Increases Soul gain by 15% [2.5, 12.5]
 
 #----------------------------
 # Ultra Light (0 - 10)
@@ -345,111 +290,106 @@ The effect value listed below is the total value from wearing all pieces in a se
 # Pyromancer Set
 - Weight: 9.4
 - Poise: 0
-- Effect: Increases max FP by 10% [1, 5, 1, 3]
 
 # Karla's Set
 - Weight: 9.2
 - Poise: 0
-- Effect: Increases max FP by 10% [1, 5, 1, 3]
+- [Head] Effect: boosts INT and FTH by 3.
 
 # Black Witch Set
 - Weight: 9.2
 - Poise: 0
-- Effect: Increases casting speed by 20 [2, 10, 2, 6]
+- [Head] Effect: boosts dark damage by 5%.
 
 # Sorcerer Set
 - Weight: 9
-- Effect: Increases INT by 5 [1, 2, 1, 1]
 
 # Court Sorcerer Set
 - Weight: 9
 - Poise: 0
-- Effect: Increases max FP by 10% [1, 5, 1, 3]
+- [Hands] Effect: boosts magic damage by 5%.
 
 # Old Sorcerer Set
 - Weight: 9
 - Poise: 0
-- Effect: Extends spell effect duration by 20% [2, 10, 2, 6]
+- [Head] Effect: boosts INT by 5.
 
 # Pale Shade Set
 - Weight: 8.5
 - Poise: 0
-- Effect: Increases Soul gain by 25% [2.5, 12.5, 2.5, 7.5]
 
 # Shadow Set
 - Weight: 8
 - Poise: 0
-- Effect: Reduces enemy sight and hearing by 80%, applies translucent VFX. [8, 40, 8, 24]
+- [Head]  Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Body]  Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Hands] Effect: reduces enemy sight and hearing by 20%. Fades player body.
+- [Legs]  Effect: reduces enemy sight and hearing by 20%. Fades player body.
 
 # Maiden Set
 - Weight: 8
 - Poise: 0
-- Effect: Extends spell effect duration by 20% [2, 10, 2, 6]
+- [Body] Effect: boosts FTH by 5.
 
 # Hexer Set
 - Weight: 8
 - Poise: 0
-- Effect: Increases casting speed by 20 [2, 10, 2, 6]
+- [Body] Effect: boosts cast speed by 20.
 
 # Cornyx's Set
 - Weight: 8
 - Poise: 0
-- Effect: Reduces pyromancy FP consumption by 20% [2, 9, 2, 7]
+- [Head] Effect: reduces FP consumption of pyromancies by 15%.
 
 # Grave Warden Set
 - Weight: 8
 - Poise: 0
-- Effect: Increase damage against Hollows by 10% [1, 5, 1, 3]
 
 # Ordained Set
 - Weight: 7.65
 - Poise: 0
-- Effect: Increases max FP by 9% [1, 5, 3]
+- [Body] Effect: boosts cast speed by 20.
 
 # Desert Pyromancer Set
 - Weight: 7
 - Poise: 0
-- Effect: Reduces pyromancy FP consumption by 20% [2, 9, 2, 7]
 
 # Archdeacon Set
 - Weight: 6.8
 - Poise: 0
-- Effect: Reduces miracle FP consumption by 18% [2, 9, 7]
+- [Head] Effect: reduces FP consumption of miracles by 15%.
 
 # Prayer Set
 - Weight: 6.8
 - Poise: 0
-- Effect: Grants 3 HP every 4 seconds [1, 1, 1]
+- [Body] Effect: grants 4 HP every second.
 
 # Fire Keeper Set
 - Weight: 6
 - Poise: 0
-- Effect: Increases Soul gain by 25% [2.5, 12.5, 2.5, 7.5]
+- [Head] Effect: boosts soul gain by 25%.
 
 # Antiquated Set
 - Weight: 6
 - Poise: 0
-- Effect: Reduces sorcery FP consumption by 20% [2, 9, 2, 7]
+- [Head] Effect: reduces FP consumption of sorceries by 15%.
 
 # Antiquated Plain Set
 - Weight: 5.1
 - Poise: 0
-- Effect: Reduces sorcery FP consumption by 18% [9, 2, 7]
 
 # Master's Set
 - Weight: 5
 - Poise: 0
-- Effect: Reduces weapon stamina consumption by 10% [1, 5, 1, 3]
+- [Head] Effect: increases stamina recovery by 15.
 
 # Deacon Set
 - Weight: 4.6
 - Poise: 0
-- Effect: Grants 2 HP every 4 seconds [1, 1]
 
 # Saint Set
 - Weight: 3.3
 - Poise: 0
-- Effect: Reduces miracle FP consumption by 11% [2, 9]
 
 #----------------------------
 # Unique
@@ -457,120 +397,113 @@ The effect value listed below is the total value from wearing all pieces in a se
 # Gargoyle Helm
 - Weight: 3
 - Poise: 3
-- Effect: Increases enemy attack deflection by 20
+- [Head] Effect: boosts VIG by 5.
 
 # Gold Ardeo
 - Weight: 3
 - Poise: 3
-- Effect: increases physical defence by 20
+- [Head] Effect: boosts physical damage by 5%.
 
 # Iron Keeper Helm
 - Weight: 4.5
 - Poise: 3
-- Effect: increases physical defense by 20
 
 # Iron Cage
 - Weight: 3
 - Poise: 2
-- Effect: Increases max FP by 10%
+- [Head] Effect: increases max FP by 20%.
 
 # Soldier's Hood
 - Weight: 1.5
 - Poise: 2
-- Effect: increases stamina recovery by 5
 
 # Bloodstained Gauntlets
 - Weight: 1
 - Poise: 1
-- Effect: reduces weapon stamina consumption by 5%
 
 # Frigid Valley Mask
 - Weight: 2
 - Poise: 2
-- Effect: reduces weapon stamina consumption by 10%
 
 # Crown of the Great Lord
 - Weight: 1
 - Poise: 1
-- Effect: boosts max HP, FP and Stamina by 5% and unique backflip
-- Source: Deathless Run
+- [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
 
 # Blindfold Mask
 - Weight: 0.9
 - Poise: 0
-- Effect: Grants 1 attunement slot
+- [Head] Effect: Grants 1 attunement slot
 
 # Black Witch Veil
 - Weight: 1.35
 - Poise: 0
-- Effect: Reduces spell FP consumption by 10%
+- [Head] Effect: grants 10 ATN.
 
 # Clandestine Coat
 - Weight: 3.68
 - Poise: 0
-- Effect: Grants 100% reduction to enemy hearing
+- [Body] Effect: makes footsteps silent.
 
 # Sage's Big Hat
 - Weight: 1.65
 - Poise: 0
-- Effect: Increases max FP by 10%
+- [Body] Effect: boosts estus FP recovery by 100%.
 
 # Thrall Hood
 - Weight: 1.5
 - Poise: 0
-- Effect: Grants 3 LCK
+- [Head] Effect: boosts LCK by 5.
 
 # White Preacher Head
 - Weight: 3.5
 - Poise: 0
-- Effect: Increases Curse resistance by 100
 
 # Wolnir's Crown
 - Weight: 3.4
 - Poise: 0
-- Effect: Reduces weapon FP consumption by 20%
+- [Head] Effect: boosts physical damage by 5%.
 
 # Scholar's Shed Skin
 - Weight: 1.8
 - Poise: 0
-- Effect: Increases Curse resistance by 100
 
 # Scholar's Robe
 - Weight: 4.2
 - Poise: 0
-- Effect: Increases Curse resistance by 100
 
 # Symbol of Avarice
 - Weight: 8
 - Poise: 0
-- Effect: Increases soul gain by 25%, adds 100 Item Discovery and reduces HP by 10 per second.
+- [Head] Effect: boosts Item Discovery by 250, reduces HP by 1% per second.
 
 # Mask of Velka
 - Weight: 3
 - Poise: 0
-- Effect: Reduces spell FP consumption by 10%
+- [Head] Effect: boosts magic damage by 5%.
 
 # Skull Mask
 - Weight: 1
 - Poise: 0
-- Effect: increases target priority by 0.1
+- [Head] Effect: boosts VIT by 5.
 
 # Wanderer's Coat
 - Weight: 3
 - Poise: 0
-- Effect: grants 25 Item discovery
+- [Body] Effect: boosts END by 5.
 
 # Mask of the Father
 - Weight: 1
 - Poise: 0
-- Effect: increases equip load by 5%
+- [Head] Effect: boosts equipment load by 10%.
 
 # Mask of the Mother
 - Weight: 1
 - Poise: 0
-- Effect: increases max HP by 10%
+- [Head] Effect: increases max HP by 10%.
 
 # Mask of the Child
 - Weight: 1
 - Poise: 0
-- Effect: increases stamina recovery by 10
+- [Head] Effect: increases stamina recovery by 15.
+
