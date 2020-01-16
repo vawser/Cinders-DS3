@@ -48,66 +48,66 @@
 # Equip Icons
 #------------------------
 # Block 1
-1300
-1301
-1302
-1303
-1304
-1305
-1306
-1307
-1308
-1309
-1310
-1311
-1312
-1313
-1314
-1315
-1316
-1317
-1318
-1319
-1320
-1321
-1322
-1323
-1324
-1325
-1326
-1327
-1328
-1329
-1330
-1331
-1332
-1333
-1334
-1335
-1336
-1337
-1338
-1339
-1340
-1341
-1342
-1343
-1344
-1345
-1346
-1347
-1348
-1349
-1350
-1351
-1352
-1353
-1354
-1355
-1356
-1357
-1358
-1359
+1300 Brushwood Helm
+1301 Brushwood Armor
+1302 Brushwood Gauntlets
+1303 Brushwood Leggings
+1304 Dragonrider Helm
+1305 Dragonrider Armor
+1306 Dragonrider Gauntlets
+1307 Dragonrider Leggings
+1308 Penetrator Helm
+1309 Penetrator Armor
+1310 Penetrator Gauntlets
+1311 Penetrator Leggings
+1312 Paladin Helm
+1313 Paladin Armor
+1314 Paladin Gauntlets
+1315 Paladin Leggings
+1316 Quicksilver Helm
+1317 Quicksilver Armor
+1318 Quicksilver Gauntlets
+1319 Quicksilver Leggings
+1320 Heide Mask
+1321 Gloom Helm
+1322 Gloom Armor
+1323 Gloom Gauntlets
+1324 Gloom Leggings
+1325 Gargoyle Skull
+1326 Crab Helmet
+1327 Crown of the Great Lord
+1328 Robe of the Great Lord
+1329 Bracelet of the Great Lord
+1330 Anklet of the Great Lord
+1331 Giant Slave Helmet
+1332 Corvian Knight Helmet
+1333 Porcelain Mask
+1334 Lord's Blade Robe
+1335 Lord's Blade Gloves
+1336 Lord's Blade Waistcloth
+1337 Ancient King's Mask
+1338 Ancient King's Breastplate
+1339 Ancient King's Gauntlets
+1340 Ancient King's Leggings
+1341 Demon Cleric Mask
+1342 Pontiff's Crown
+1343 Pontiff's Bracelets
+1344 Mask of Velka
+1345 Black Cleric Robe
+1346 Black Manchettes
+1347 Black Tights
+1348 Binded Hood
+1349 Binded Cross
+1350 Binded Gloves
+1351 Binded Boots
+1352 Venerable Sage's Hood
+1353 Venerable Sage's Robe
+1354 Venerable Sage's Gloves
+1355 Venerable Sage's Boots
+1356 Crown of the Dark Sun
+1357 Moonlight Robe
+1358 Moonlight Gloves
+1359 Moonlight Waistcloth
 1360
 1361
 1362

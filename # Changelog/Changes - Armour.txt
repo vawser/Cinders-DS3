@@ -11,7 +11,6 @@
 # Smough's Set
 
 # Gundyr Set
-- [Legs] Effect: kicks cause enemies to fall down.
 
 # Winged Knight Set 
 
@@ -277,6 +276,7 @@
 - [Head] Effect: boosts physical damage by 5%.
 
 # Iron Keeper Helm
+- [Head] Effect: prevents headshot damage.
 
 # Iron Cage
 - [Head] Effect: increases max FP by 20%.
@@ -287,7 +287,7 @@
 
 # Frigid Valley Mask
 
-# Crown of the Great Lord
+# Crown of the Forgotten Lord
 - [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
 
 # Blindfold Mask

@@ -30,28 +30,6 @@
 #------------------------------
 # Models
 #------------------------------
-# Armor
-99200000 9815 Great Lord Set # Firelink
-99210000 9816 Gwyndolin's Set # Sorcerer
-99220000 9817 Lord's Blade Set # Firelink
-99230000 9818 Paladin's Set # Morne
-99240000 9863 Velka's Set # Cleric
-99250000 9819 Dragonrider's Set # Millwood Knight
-99260000 9869 Ancient King Set # Herald
-99270000 9870 Binded Set # Worker
-99280000 9871 Brushwood Set # Gundyr
-99290000 9872 Venerable Sage's Set # Sorcerer
-99300000 9875 Gloom Set # Black Knight
-99310000 9878 Penetrator Set # Lapp
-99320000 9880 Quicksilver Set # Morne
-
-99330000 9868 Heide Mask # Lothric Knight
-99340000 9804 Pontiff Set # Brigand
-99350000 9809 Giant Slave Helmet # Ruin
-99360000 9810 Gargoyle Skull # Ruin
-99370000 9811 Demon Cleric Mask # Brigand
-99380000 9812 Crab Helmet # Lothric Knight
-99390000 9813 Corvian Knight Helmet # Ruin
 
 # Weapons
 31100000 9937 Beast Claw # 11000000 Claw
@@ -105,21 +83,43 @@
 - Changed Stone Flesh WA attack deflection to 80.
 
 # Armor
-# - Reduced the weight of heavier armor.
-# - Increase the strike absorption on armor.
+- Reduced the weight of heavier armor.
+- Increase the strike absorption on armor.
+# - Iron Keeper Helm: prevents headshot damage.
+# - Renamed Crown of the Great Lord to Crown of the Forgotten Lord
+# - Added the Great Lord Set 
+# - Added the Gwyndolin's Set 
+# - Added the Lord's Blade Set 
+# - Added the Paladin's Set 
+# - Added the Black Set 
+# - Added the Dragonrider's Set 
+# - Added the Ancient King Set 
+# - Added the Binded Set 
+# - Added the Brushwood Set 
+# - Added the Venerable Sage's Set 
+# - Added the Gloom Set 
+# - Added the Penetrator Set 
+# - Added the Quicksilver Set 
+# - Added the Heide Mask 
+# - Added the Pontiff Set 
+# - Added the Giant Slave Helmet 
+# - Added the Gargoyle Skull 
+# - Added the Demon Cleric Mask 
+# - Added the Crab Helmet 
+# - Added the Corvian Knight Helmet
 
 # Rings
 - Runic Seal: reduces deflection to 50.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
-# - Magic Weapon: adds 40 Magic damage.
-# - Great Magic Weapon: adds 50 Magic damage.
-# - Crystal Magic Weapon: adds 60 Magic damage.
-# - Carthus Flame Arc: adds 60 Fire damage.
-# - Lightning Blade: adds 60 Lightning damage.
-# - Darkmoon Blade: adds 60 Magic damage.
-# - Dark Blade: adds 60 Dark damage.
+- Magic Weapon: adds 40 Magic damage.
+- Great Magic Weapon: adds 50 Magic damage.
+- Crystal Magic Weapon: adds 60 Magic damage.
+- Carthus Flame Arc: adds 60 Fire damage.
+- Lightning Blade: adds 60 Lightning damage.
+- Darkmoon Blade: adds 60 Magic damage.
+- Dark Blade: adds 60 Dark damage.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -130,5 +130,3 @@
 # TODO 
 #------------------------------
 Add new weapons and armor
-
-
