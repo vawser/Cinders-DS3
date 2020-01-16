@@ -31,74 +31,95 @@
 # Models
 #------------------------------
 # Armor
-9815    Great Lord Set
-9816    Gwyndolin's Set
-9817    Lord's Blade Set
-9818    Paladin's Set
-9863    Velka's Set
-9819    Dragonrider's Set
-9869    Ancient King Set
-9870    Binded Set
-9871    Brushwood Set
-9872    Venerable Sage's Set
-9875    Gloom Set
-9878    Penetrator Set
-9880    Quicksilver Set
+99200000 9815 Great Lord Set # Firelink
+99210000 9816 Gwyndolin's Set # Sorcerer
+99220000 9817 Lord's Blade Set # Firelink
+99230000 9818 Paladin's Set # Morne
+99240000 9863 Velka's Set # Cleric
+99250000 9819 Dragonrider's Set # Millwood Knight
+99260000 9869 Ancient King Set # Herald
+99270000 9870 Binded Set # Worker
+99280000 9871 Brushwood Set # Gundyr
+99290000 9872 Venerable Sage's Set # Sorcerer
+99300000 9875 Gloom Set # Black Knight
+99310000 9878 Penetrator Set # Lapp
+99320000 9880 Quicksilver Set # Morne
 
-9868    Heide Mask
-9804    Pontiff Set
-9809    Giant Slave Helmet
-9810    Gargoyle Skull
-9811    Demon Cleric Mask
-9812    Crab Helmet
-9813    Corvian Knight Helmet
+99330000 9868 Heide Mask # Lothric Knight
+99340000 9804 Pontiff Set # Brigand
+99350000 9809 Giant Slave Helmet # Ruin
+99360000 9810 Gargoyle Skull # Ruin
+99370000 9811 Demon Cleric Mask # Brigand
+99380000 9812 Crab Helmet # Lothric Knight
+99390000 9813 Corvian Knight Helmet # Ruin
 
 # Weapons
-9937    Beast Claw
-9939    Rakuyo (long)
-9946    Crystal Shield
-9947    Sanctus
-9948    Velka's Talisman
-9949    Ladle
-9950    Crypt Greatsword
-9951    Smelter Sword
-9953    Blue Flame
-9954    Ash Demon Hammer
-9955    Consumed King's Staff
-9956    Elder Ghru Tree
-9957    Giant Crab Arm
-9958    Hunter's Log
-9959    Shield of the Hunted
-9962    Man-serpent Twindaggers
-9963    Rotten Ghru Talisman
-9965    Thrall Harpe
-9968    Smouldering Ghru Shield
-9969    Smouldering Ghru Spear
-9971    Thrall Pick
-9972    Worker Machete
-9973    Rampart Golem Lance
-9974    Bewitched Alonne Sword
-9975    Bone Scythe
-9976    Dragonrider Halberd
-9977    Key to the Embedded
-9978    King's Ultra Greatsword
-9979    Pilgrim's Spontoon
-9980    Sacred Chime Hammer
-9981    Scythe of Nahr Alma
-9982    Scythe of Want
-9983    Crab Claws
+31100000 9937 Beast Claw # 11000000 Claw
+31110000 9939 Rakuyo (long) # 5000000 Uchi
+31120000 9949 Ladle # 8010000 Mace
+31130000 9950 Crypt Blacksword # 7050000 Greataxe (UGS though)
+31140000 9951 Smelter Sword # 6260000 Lorian's Greatsword
+31150000 9953 Blue Flame # 2160000 Cleric's Candlestick (edit dummys)
+31160000 9954 Ash Demon Hammer # 81100008080000 Great Club
+31170000 9956 Elder Ghru Tree # 8110000 Great Club
+31180000 9957 Giant Crab Arm # 8110000 Great Club
+31190000 9958 Hunter's Log # 9200000 Pike
+31200000 9962 Man-serpent Twindaggers # 16060000 Brigand Twindaggers
+31210000 9965 Thrall Harpe # 1060000 Harpe
+31220000 9969 Smouldering Ghru Spear # 9010000 Winged Spear
+31230000 9971 Thrall Pick # 8240000 Warpick
+31240000 9972 Worker Machete # 4040000 Falchion
+31250000 9973 Rampart Golem Lance # 9080000 Greatlance
+31260000 9974 Bewitched Alonne Sword # 5020000 Chaos Blade
+31270000 9975 Bone Scythe # 10000000 Great Scythe
+31280000 9976 Dragonrider Halberd # 10030000 Halberd
+31290000 9977 Key to the Embedded # 6310000 Hollowslayer Greatsword
+31300000 9978 King's Ultra Greatsword # 7050000 Greataxe (UGS though)
+31310000 9979 Pilgrim's Spontoon # 13120000 Golden Ritual Spear (edit dummys)
+31320000 9980 Sacred Chime Hammer # 8290000 Morne's Great Hammer
+31330000 9981 Scythe of Nahr Alma # 10000000 Great Scythe
+31340000 9982 Scythe of Want # 10000000 Great Scythe
+31350000 9983 Crab Claws # 11000000 Claw
+
+22280000 9946 Crystal Shield # 21180000 Dragoncrest Shield
+22290000 9947 Sanctus # 21150000 East-west Shield
+22300000 9959 Shield of the Hunted # 21270000 Porcine Shield
+22310000 9968 Smouldering Ghru Shield # 21150000 East-west Shield
+
+13620000 9948 Velka's Talisman # Talisman
+13630000 9955 Consumed King's Staff # Storyteller's Staff
+13640000 9963 Rotten Ghru Talisman # Talisman
 
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Changed the IDs of the following weapons, they will break in old saves:
+ - Insanity Catalyst
+ - Talisman of Beasts
+ - Manus Catalyst
+ - Tin Banishment Catalyst
+ - Dragonslayer Greatbow
+
 # Weapons
 - Changed Stone Flesh WA attack deflection to 80.
+
+# Armor
+# - Reduced the weight of heavier armor.
+# - Increase the strike absorption on armor.
 
 # Rings
 - Runic Seal: reduces deflection to 50.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
+# - Magic Weapon: adds 40 Magic damage.
+# - Great Magic Weapon: adds 50 Magic damage.
+# - Crystal Magic Weapon: adds 60 Magic damage.
+# - Carthus Flame Arc: adds 60 Fire damage.
+# - Lightning Blade: adds 60 Lightning damage.
+# - Darkmoon Blade: adds 60 Magic damage.
+# - Dark Blade: adds 60 Dark damage.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
