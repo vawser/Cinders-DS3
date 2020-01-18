@@ -78,28 +78,28 @@
  - Manus Catalyst
  - Tin Banishment Catalyst
  - Dragonslayer Greatbow
-# - Opening animations no longer make you invunerable.
+- Opening animations no longer make you invunerable.
  
 # Classes
-# - Paladin now starts with the Paladin Set and Grant.
+- Paladin now starts with the Paladin Set and Grant.
 
 # Infusion
-# - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
+- Lightning: reduces enemy poise by 50% for 15 seconds on hit.
 
 # Weapons
 - Changed Stone Flesh WA attack deflection to 80.
-# - Innate Fire DOTs no longer stack.
-# - Blind: reduces poise by 50% for 15 seconds on hit. Stacks.
-# - Ancient Dragon Halberd: boosts poise by 15%.
-# - Lothric Knight Long Spear: boosts poise by 15%.
-# - Titanite Catch Pole: boosts poise by 15%.
+- Innate Fire DOTs no longer stack.
+- Blind: reduces poise by 50% for 15 seconds on hit. Stacks.
+- Ancient Dragon Halberd: boosts poise by 15%.
+- Lothric Knight Long Spear: boosts poise by 15%.
+- Titanite Catch Pole: boosts poise by 15%.
 
 # Armor
-# - Poise now works on in a similar way to DS2. Rather than specific animations having poise frames, all animations now have poise frames throughout. This means rather than poise being active during a specific period, it is always active. However, the various animations have different levels of poise health. This means being staggered whilst moving is much easier than during an attack. This grants the benefits of passive poise without it being too powerful, and retains the benefit of active poise during attacks.
-# - In general, poise health for most non-combat animations is 20, for attacks it ranges from 20 (daggers) to 50 (UGS, etc). Poise health is only restored upon attacking or rolling (i.e. if you get staggered and don't do either of these, you will get staggered if hit again).
-# - Just to note, the poise value itself is basically Poise Health Absorption, i.e. 68 poise will reduce incoming poise damage by 68%.
-# - Due to this, the poise value on armor has been increased and it is now present on all pieces.
-# - The poise icon and value in the menu has been restored.
+- Poise now works on in a similar way to DS2. Rather than specific animations having poise frames, all animations now have poise frames throughout. This means rather than poise being active during a specific period, it is always active. However, the various animations have different levels of poise health. This means being staggered whilst moving is much easier than during an attack. This grants the benefits of passive poise without it being too powerful, and retains the benefit of active poise during attacks.
+- In general, poise health for most non-combat animations is 20, for attacks it ranges from 20 (daggers) to 50 (UGS, etc). Poise health is only restored upon attacking or rolling (i.e. if you get staggered and don't do either of these, you will get staggered if hit again).
+- Just to note, the poise value itself is basically Poise Health Absorption, i.e. 68 poise will reduce incoming poise damage by 68%.
+- Due to this, the poise value on armor has been increased and it is now present on all pieces.
+- The poise icon and value in the menu has been restored.
 - Reduced the weight of heavier armor.
 - Increase the strike absorption on armor.
 - Iron Keeper Helm: prevents headshot damage.
@@ -127,13 +127,13 @@
 
 # Rings
 - Runic Seal: reduces deflection to 50.
-# - Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
-# - Wolf Ring: Boosts poise by 20%.
-# - Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
-# - Ring of Londor: Restores 1 FP every second whilst at 100% HP.
+- Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
+- Wolf Ring: Boosts poise by 20%.
+- Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
+- Ring of Londor: Restores 1 FP every second whilst at 100% HP.
 
 # Items
-# - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
+- Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
@@ -147,14 +147,14 @@
 - Perseverance: boosts Poise by 50% for 60 seconds.
 
 # Enemies
-# - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
+- Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
 - Fixed some inaccurate localization.
 - Made the critical multipliers more consistent in how they work: big multiplier first, then a smaller one for the extra hits.
-# - Fixed some bugged attack correction IDs in weapons.
-# - Fixed the Demon's Scar missing the cast speed changes.
+- Fixed some bugged attack correction IDs in weapons.
+- Fixed the Demon's Scar missing the cast speed changes.
 
 #------------------------------
 # TODO 
