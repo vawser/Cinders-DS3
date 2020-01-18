@@ -1414,7 +1414,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsArtsSpAtk() == TRUE and r1 == "W_AttackRightLightStep" then
             r1 = "W_AttackRightLightStepSpecial"
         end
-        act(2002, 115000)
+        
         ExecEventAllBody(r1)
     elseif request == ATTACK_REQUEST_LIGHT_KICK then
         if HAND_LEFT_BOTH <= style then
@@ -1422,7 +1422,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventAllBody("W_AttackRightLightKick")
         end
-        act(2002, 115001)
+        
     elseif request == ATTACK_REQUEST_RIGHT_HEAVY then
         if artsr2 == TRUE then
             SetSwordArtsPointInfo(ACTION_ARM_R2, TRUE)
@@ -1444,7 +1444,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 r2 = "W_AttackRightHeavyWepBroken2Start"
             end
         end
-        act(2002, 115002)
+        
         ExecEventAllBody(r2)
     elseif request == ATTACK_REQUEST_HEAVY_KICK then
         if HAND_LEFT_BOTH <= style then
@@ -1458,14 +1458,14 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventAllBody("W_AttackRightHeavyKick")
         end
-        act(2002, 115003)
+        
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
-        act(2002, 115004)
+        
         ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
-        act(2002, 115005)
+        
         ExecEventAllBody(l2)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY_SP then
         atk_hand = HAND_LEFT
@@ -1476,7 +1476,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             l2 = "W_AttackLeftHeavySp1"
         end
-        act(2002, 115005)
+        
         ExecEventAllBody(l2)
     elseif request == ATTACK_REQUEST_BOTH_LIGHT then
         if artsr1 == TRUE then
@@ -1485,7 +1485,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsArtsSpAtk() == TRUE and b1 == "W_AttackBothLightStep" then
             b1 = "W_AttackBothLightStepSpecial"
         end
-        act(2002, 115006)
+        
         ExecEventAllBody(b1)
     elseif request == ATTACK_REQUEST_BOTH_LEFT then
         if r1 == "W_AttackRightLightDash" then
@@ -1497,7 +1497,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         elseif l1 == "W_AttackLeftLight2" then
             l1 = "W_AttackBothLeft2"
         end
-        act(2002, 115007)
+        
         ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_BOTH_HEAVY then
         if artsr2 == TRUE then
@@ -1520,7 +1520,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 b2 = "W_AttackBothHeavyWepBroken2Start"
             end
         end
-        act(2002, 115008)
+        
         ExecEventAllBody(b2)
     elseif request == ATTACK_REQUEST_ARROW_BOTH_RIGHT then
         if ExecHandChange(HAND_RIGHT, TRUE, blend_type) == TRUE then
@@ -2513,161 +2513,6 @@ function ExecMagic(quick_type, blend_type)
         if GetVariable("IsLockon") == false then
             act("自動捕捉対象設定")
         end
-    end
-    
-    if magic_type == 0 then
-        act(2002, 110000)
-        act(2002, 110100)
-    elseif magic_type == 1 then
-        act(2002, 110001)
-        act(2002, 110101)
-    elseif magic_type == 2 then
-        act(2002, 110002)
-        act(2002, 110102)
-    elseif magic_type == 3 then
-        act(2002, 110003)
-        act(2002, 110103)
-    elseif magic_type == 4 then
-        act(2002, 110004)
-        act(2002, 110104)
-    elseif magic_type == 5 then
-        act(2002, 110005)
-        act(2002, 110105)
-    elseif magic_type == 6 then
-        act(2002, 110006)
-        act(2002, 110106)
-    elseif magic_type == 7 then
-        act(2002, 110007)
-        act(2002, 110107)
-    elseif magic_type == 8 then
-        act(2002, 110008)
-        act(2002, 110108)
-    elseif magic_type == 9 then
-        act(2002, 110009)
-        act(2002, 110109)
-    elseif magic_type == 10 then
-        act(2002, 110010)
-        act(2002, 110110)
-    elseif magic_type == 11 then
-        act(2002, 110011)
-        act(2002, 110111)
-    elseif magic_type == 12 then
-        act(2002, 110012)
-        act(2002, 110112)
-    elseif magic_type == 13 then
-        act(2002, 110013)
-        act(2002, 110113)
-    elseif magic_type == 14 then
-        act(2002, 110014)
-        act(2002, 110114)
-    elseif magic_type == 15 then
-        act(2002, 110015)
-        act(2002, 110115)
-    elseif magic_type == 16 then
-        act(2002, 110016)
-        act(2002, 110116)
-    elseif magic_type == 17 then
-        act(2002, 110017)
-        act(2002, 110117)
-    elseif magic_type == 18 then
-        act(2002, 110018)
-        act(2002, 110118)
-    elseif magic_type == 19 then
-        act(2002, 110019)
-        act(2002, 110119)
-    elseif magic_type == 20 then
-        act(2002, 110020)
-        act(2002, 110120)
-    elseif magic_type == 21 then
-        act(2002, 110021)
-        act(2002, 110121)
-    elseif magic_type == 22 then
-        act(2002, 110022)
-        act(2002, 110122)
-    elseif magic_type == 23 then
-        act(2002, 110023)
-        act(2002, 110123)
-    elseif magic_type == 24 then
-        act(2002, 110024)
-        act(2002, 110124)
-    elseif magic_type == 25 then
-        act(2002, 110025)
-        act(2002, 110125)
-    elseif magic_type == 26 then
-        act(2002, 110026)
-        act(2002, 110126)
-    elseif magic_type == 27 then
-        act(2002, 110027)
-        act(2002, 110127)
-    elseif magic_type == 28 then
-        act(2002, 110028)
-        act(2002, 110128)
-    elseif magic_type == 29 then
-        act(2002, 110029)
-        act(2002, 110129)
-    elseif magic_type == 30 then
-        act(2002, 110030)
-        act(2002, 110130)
-    elseif magic_type == 31 then
-        act(2002, 110031)
-        act(2002, 110131)
-    elseif magic_type == 32 then
-        act(2002, 110032)
-        act(2002, 110132)
-    elseif magic_type == 33 then
-        act(2002, 110033)
-        act(2002, 110133)
-    elseif magic_type == 34 then
-        act(2002, 110034)
-        act(2002, 110134)
-    elseif magic_type == 35 then
-        act(2002, 110035)
-        act(2002, 110135)
-    elseif magic_type == 36 then
-        act(2002, 110036)
-        act(2002, 110136)
-    elseif magic_type == 37 then
-        act(2002, 110037)
-        act(2002, 110137)
-    elseif magic_type == 38 then
-        act(2002, 110038)
-        act(2002, 110138)
-    elseif magic_type == 39 then
-        act(2002, 110039)
-        act(2002, 110139)
-    elseif magic_type == 40 then
-        act(2002, 110040)
-        act(2002, 110140)
-    elseif magic_type == 41 then
-        act(2002, 110041)
-        act(2002, 110141)
-    elseif magic_type == 42 then
-        act(2002, 110042) 
-        act(2002, 110142)
-    elseif magic_type == 43 then
-        act(2002, 110043)
-        act(2002, 110143)
-    elseif magic_type == 44 then
-        act(2002, 110044)
-        act(2002, 110144)
-    elseif magic_type == 45 then
-        act(2002, 110045)
-        act(2002, 110145)
-    elseif magic_type == 46 then
-        act(2002, 110046)
-        act(2002, 110146)
-    elseif magic_type == 47 then
-        act(2002, 110047)
-        act(2002, 110147)
-    elseif magic_type == 48 then
-        act(2002, 110048)
-        act(2002, 110148)
-    elseif magic_type == 49 then
-        act(2002, 110049)
-        act(2002, 110149)
-    elseif magic_type == 50 then
-        act(2002, 110050)
-        act(2002, 110150)
     end
     
     SetVariable("AtkAutoAimTime", 0)

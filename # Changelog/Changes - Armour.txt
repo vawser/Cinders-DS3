@@ -12,10 +12,14 @@
 
 # Gundyr Set
 
+# Brushwood Set
+
 # Winged Knight Set 
 
 # Millwood Knight Set
 - [Hands] Effect: Grants 2 HP every second.
+
+# Dragonrider Set
 
 # Catarina Set
 
@@ -27,14 +31,25 @@
 
 # Lapp's Set
 
+# Penetrator Set
+
 # Morne's Set
 - [Hands] Effect: Reduces miracle FP consumption by 15%.
+
+# Paladin Set
+
+# Quicksilver
 
 # Executioner Set
 
 # Dragonslayer Set
 
 # Lothric Knight Armor Set
+
+# Iron Keeper Helm
+- [Head] Effect: prevents headshot damage.
+
+# Heide Mask
 
 #----------------------------
 # Heavy (50 - 60)
@@ -49,17 +64,36 @@
 # Silver Knight Set
 - [Hands] Effect: Boosts lightning damage by 5%.
 
+# Gloom Set
+
 # Ruin Set
 
+# Gargoyle Helm
+- [Head] Effect: boosts VIG by 5.
+
+# Gargoyle Skull
+
+# Crab Helmet
+
 # Lorian's Set
+
+# Great Lord Set
+
+# Crown of the Forgotten Lord
+- [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
+
+# Symbol of Avarice
+- [Head] Effect: boosts Item Discovery by 250, reduces HP by 1% per second.
+
+# Giant Slave Helmet
 
 #----------------------------
 # Medium 1 (30 - 40)
 #----------------------------
+# Drakeblood Set
+
 # Black Dragon Set
 - [Legs] Effect: adds 100 Fire damage to kick.
-
-# Drakeblood Set
 
 # Ringed Knight Set
 - [Head] Effect: Boosts fire damage by 5%.
@@ -69,26 +103,38 @@
 
 # Firelink Set
 
+# Gold Ardeo
+- [Head] Effect: boosts physical damage by 5%.
+
+# Iron Cage
+- [Head] Effect: increases max FP by 20%.
+
+# Corvian Knight Helmet
+
 # Eastern Armor Set
 
 # Brass Set
 
 # Armor of Favor Set
 
+# Lord's Blade Set
+
 # Sunset Set
+
+# Bloodstained Gauntlets
 
 # Wolf Knight Set
 - [Hands] Effect: boosts DEX by 5.
 
-# Elite Knight Set
-
-# Burial Knight Set
-
-# Faraam Armor Set
+# Ancient King
 
 #----------------------------
 # Medium 2 (20 - 30)
 #----------------------------
+# Elite Knight Set
+
+# Burial Knight Set
+
 # Knight Set
 
 # Armor of Thorns Set
@@ -99,14 +145,30 @@
 
 # Nameless Knight Set
 
-# Footman Set
-- [Body] Effect: reduces backstab damage by 90%
+# Mask of the Father
+- [Head] Effect: boosts equipment load by 10%.
+
+# Mask of the Mother
+- [Head] Effect: increases max HP by 10%.
+
+# Mask of the Child
+- [Head] Effect: increases stamina recovery by 15.
+
+# Demon Cleric Mask
+
+# Faraam Armor Set
 
 # Alva Set
+
+# Footman Set
+- [Body] Effect: reduces backstab damage by 90%
 
 # Outrider Knight Armor Set
 
 # Dark Set
+
+# Skull Mask
+- [Head] Effect: boosts VIT by 5.
 
 # Undead Legion Set
 
@@ -129,6 +191,9 @@
 
 # Varangian Set
 
+# Wolnir's Crown
+- [Head] Effect: boosts physical damage by 5%.
+
 # Northern Set
 
 # Slave Knight Set
@@ -143,7 +208,11 @@
 
 # Pontiff Knight Set
 
+# Pontiff's Set
+
 # Dancer Set
+
+# Frigid Valley Mask
 
 # Evangelist Set
 - [Head] Effect: boosts FTH by 5.
@@ -172,7 +241,11 @@
 # Xanthous Set
 - [Head] Effect: absorb 50 FP from fallen foes.
 
+# White Preacher Head
+
 # Deserter Set
+
+# Soldier's Hood
 
 # Black Leather Set
 
@@ -192,7 +265,14 @@
 
 # Cleric Set
 
+# Black Cleric Set
+
 # Worker Set
+
+# Binded Set
+
+# Thrall Hood
+- [Head] Effect: boosts LCK by 5.
 
 # Assassin Set
 
@@ -201,6 +281,8 @@
 # Drang Set
 
 # Man Serpent Set
+
+# Scholar Set
 
 #----------------------------
 # Ultra Light (0 - 10)
@@ -213,6 +295,9 @@
 # Black Witch Set
 - [Head] Effect: boosts dark damage by 5%.
 
+# Black Witch Veil
+- [Head] Effect: grants 10 ATN.
+
 # Sorcerer Set
 
 # Court Sorcerer Set
@@ -220,6 +305,17 @@
 
 # Old Sorcerer Set
 - [Head] Effect: boosts INT by 5.
+
+# Clandestine Coat
+- [Body] Effect: makes footsteps silent.
+
+# Wanderer's Coat
+- [Body] Effect: boosts END by 5.
+
+# Sage's Big Hat
+- [Body] Effect: boosts estus FP recovery by 100%.
+
+# Gwyndolin Moonlight Set
 
 # Pale Shade Set
 
@@ -254,6 +350,9 @@
 # Fire Keeper Set
 - [Head] Effect: boosts soul gain by 25%.
 
+# Blindfold Mask
+- [Head] Effect: Grants 1 attunement slot
+
 # Antiquated Set
 - [Head] Effect: reduces FP consumption of sorceries by 15%.
 
@@ -266,72 +365,24 @@
 
 # Saint Set
 
-#----------------------------
-# Unique
-#----------------------------
-# Gargoyle Helm
-- [Head] Effect: boosts VIG by 5.
 
-# Gold Ardeo
-- [Head] Effect: boosts physical damage by 5%.
 
-# Iron Keeper Helm
-- [Head] Effect: prevents headshot damage.
 
-# Iron Cage
-- [Head] Effect: increases max FP by 20%.
 
-# Soldier's Hood
 
-# Bloodstained Gauntlets
 
-# Frigid Valley Mask
 
-# Crown of the Forgotten Lord
-- [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
 
-# Blindfold Mask
-- [Head] Effect: Grants 1 attunement slot
 
-# Black Witch Veil
-- [Head] Effect: grants 10 ATN.
 
-# Clandestine Coat
-- [Body] Effect: makes footsteps silent.
 
-# Sage's Big Hat
-- [Body] Effect: boosts estus FP recovery by 100%.
 
-# Thrall Hood
-- [Head] Effect: boosts LCK by 5.
 
-# White Preacher Head
 
-# Wolnir's Crown
-- [Head] Effect: boosts physical damage by 5%.
 
-# Scholar's Shed Skin
 
-# Scholar's Robe
 
-# Symbol of Avarice
-- [Head] Effect: boosts Item Discovery by 250, reduces HP by 1% per second.
 
-# Mask of Velka
-- [Head] Effect: boosts magic damage by 5%.
 
-# Skull Mask
-- [Head] Effect: boosts VIT by 5.
 
-# Wanderer's Coat
-- [Body] Effect: boosts END by 5.
-
-# Mask of the Father
-- [Head] Effect: boosts equipment load by 10%.
-
-# Mask of the Mother
-- [Head] Effect: increases max HP by 10%.
-
-# Mask of the Child
-- [Head] Effect: increases stamina recovery by 15.
 

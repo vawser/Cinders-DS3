@@ -159,7 +159,7 @@
 
 # Wolf Ring
 - Weight: 1
-- Grants 10 poise.
+- Boosts poise by 20%.
 - Source: Covenant - Watchdogs of Farron
 
 # Leo Ring
@@ -313,7 +313,7 @@
 
 # Knight Slayer's Ring
 - Weight: 2
-- Enemies lose 25 poise when hit for 60 seconds.
+- Increases stamina drain dealt to enemies by 50%.
 - Source: Drop - Knight Slayer Tsorig - Catacombs of Carthus
 
 # Magic Clutch Ring
@@ -565,7 +565,7 @@ increases evasive movement stamina costs by 50%.
 
 # Old Pygmy Brooch
 - Weight: 1
-- Boosts defences by 50 and grants 25 poise whilst at full health.
+- Boosts weapon/shield stability by 5%.
 - Source: Treasure - Undead Settlement
 
 # Redeye Ring

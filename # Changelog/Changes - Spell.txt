@@ -1076,7 +1076,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: boosts Poise by 30 for 60 seconds
+- Effect: boosts Poise by 50% for 60 seconds
 - FTH Req: 40
 - Source: Treasure - Cathedral of the Deep
 

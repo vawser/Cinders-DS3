@@ -9,14 +9,14 @@
     
 26 - Ultra Greatsword
     Base moveset
+  
+27 - Thrusting Sword
+    Base moveset
     
-28 - Curved Sword
+28 - Curved Sword / Curved Greatsword
     Base moveset
     
 29 - Katana
-    Base moveset
-    
-28 - Curved Greatsword
     Base moveset
     
 30 - Axe
@@ -151,10 +151,7 @@
 80 - Black Knight Sword
     Greatsword (Light/Heavy) Override
     
-81 - Composite Bow
-    Bow Override
-    
-81 - Short Bow
+81 - Composite Bow / Short Bow
     Bow Override
     
 82 - Black Bow of Pharis
@@ -341,7 +338,7 @@
     Straight Sword Override
     
 143 - Ciaran's Tracers
-    Dagger Override
+    Curved Sword Override
 
 144 - Onikiri and Ubadachi
     Katana Override
@@ -615,9 +612,6 @@
 
 237 - Crow Quills
     Rapier Override
-
-238 - Unused
-    Spell Tool Override
 
 239 - Pyromancer's Parting Flame
     Spell Tool Override

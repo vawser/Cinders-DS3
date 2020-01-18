@@ -78,38 +78,62 @@
  - Manus Catalyst
  - Tin Banishment Catalyst
  - Dragonslayer Greatbow
+# - Opening animations no longer make you invunerable.
+ 
+# Classes
+# - Paladin now starts with the Paladin Set and Grant.
+
+# Infusion
+# - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
 
 # Weapons
 - Changed Stone Flesh WA attack deflection to 80.
+# - Innate Fire DOTs no longer stack.
+# - Blind: reduces poise by 50% for 15 seconds on hit. Stacks.
+# - Ancient Dragon Halberd: boosts poise by 15%.
+# - Lothric Knight Long Spear: boosts poise by 15%.
+# - Titanite Catch Pole: boosts poise by 15%.
 
 # Armor
+# - Poise now works on in a similar way to DS2. Rather than specific animations having poise frames, all animations now have poise frames throughout. This means rather than poise being active during a specific period, it is always active. However, the various animations have different levels of poise health. This means being staggered whilst moving is much easier than during an attack. This grants the benefits of passive poise without it being too powerful, and retains the benefit of active poise during attacks.
+# - In general, poise health for most non-combat animations is 20, for attacks it ranges from 20 (daggers) to 50 (UGS, etc). Poise health is only restored upon attacking or rolling (i.e. if you get staggered and don't do either of these, you will get staggered if hit again).
+# - Just to note, the poise value itself is basically Poise Health Absorption, i.e. 68 poise will reduce incoming poise damage by 68%.
+# - Due to this, the poise value on armor has been increased and it is now present on all pieces.
+# - The poise icon and value in the menu has been restored.
 - Reduced the weight of heavier armor.
 - Increase the strike absorption on armor.
-# - Iron Keeper Helm: prevents headshot damage.
-# - Renamed Crown of the Great Lord to Crown of the Forgotten Lord
-# - Added the Great Lord Set 
-# - Added the Gwyndolin's Set 
-# - Added the Lord's Blade Set 
-# - Added the Paladin's Set 
-# - Added the Black Set 
-# - Added the Dragonrider's Set 
-# - Added the Ancient King Set 
-# - Added the Binded Set 
-# - Added the Brushwood Set 
-# - Added the Venerable Sage's Set 
-# - Added the Gloom Set 
-# - Added the Penetrator Set 
-# - Added the Quicksilver Set 
-# - Added the Heide Mask 
-# - Added the Pontiff Set 
-# - Added the Giant Slave Helmet 
-# - Added the Gargoyle Skull 
-# - Added the Demon Cleric Mask 
-# - Added the Crab Helmet 
-# - Added the Corvian Knight Helmet
+- Iron Keeper Helm: prevents headshot damage.
+- Renamed Crown of the Great Lord to Crown of the Forgotten Lord
+- Added the Great Lord Set 
+- Added the Gwyndolin's Set 
+- Added the Lord's Blade Set 
+- Added the Paladin's Set 
+- Added the Black Set 
+- Added the Dragonrider's Set 
+- Added the Ancient King Set 
+- Added the Binded Set 
+- Added the Brushwood Set 
+- Added the Venerable Sage's Set 
+- Added the Gloom Set 
+- Added the Penetrator Set 
+- Added the Quicksilver Set 
+- Added the Heide Mask 
+- Added the Pontiff Set 
+- Added the Giant Slave Helmet 
+- Added the Gargoyle Skull 
+- Added the Demon Cleric Mask 
+- Added the Crab Helmet 
+- Added the Corvian Knight Helmet
 
 # Rings
 - Runic Seal: reduces deflection to 50.
+# - Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
+# - Wolf Ring: Boosts poise by 20%.
+# - Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
+# - Ring of Londor: Restores 1 FP every second whilst at 100% HP.
+
+# Items
+# - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
@@ -120,13 +144,112 @@
 - Lightning Blade: adds 60 Lightning damage.
 - Darkmoon Blade: adds 60 Magic damage.
 - Dark Blade: adds 60 Dark damage.
+- Perseverance: boosts Poise by 50% for 60 seconds.
+
+# Enemies
+# - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
 - Fixed some inaccurate localization.
 - Made the critical multipliers more consistent in how they work: big multiplier first, then a smaller one for the extra hits.
+# - Fixed some bugged attack correction IDs in weapons.
+# - Fixed the Demon's Scar missing the cast speed changes.
 
 #------------------------------
 # TODO 
 #------------------------------
 Add new weapons and armor
+Place new items
+
+#------------------------------
+# Treasures
+#------------------------------
+# False Lord Wynn 
+30800800 Great Lord Greatsword
+22150200 Loch Shield
+99200000 Crown of the Great Lord
+99201000 Robe of the Great Lord
+99202000 Bracelet of the Great Lord
+99203000 Anklet of the Great Lord
+
+# Kyra, the False Lord's Blade
+16080400 Ciaran's Tracers [Blood]
+16080300 Ciaran's Tracers [Poison]
+99220000 Porcelain Mask
+99221000 Lord's Blade Robe
+99222000 Lord's Blade Gloves
+99223000 Lord's Blade Waistcloth
+
+# Darkmoon Pretender Gwyneth
+13540000 Darkmoon Ritual Staff
+20260200 Cleric's Parma [Rejuvenation]
+99210000 Crown of the Dark Sun
+99211000 Moonlight Robe
+99212000 Moonlight Gloves
+99213000 Moonlight Waistcloth
+1805000 Orbs of Judgment
+
+# Paladin Elroy
+30781200 Grant [Holy]
+X Sanctus
+99230000 Paladin Helm
+99231000 Paladin Armor
+99232000 Paladin Gauntlets
+99233000 Paladin Leggings
+
+# Cromwell the Pardoner
+30301100 Velka's Rapier [Enchanted]
+x Velka's Talisman
+99240000 Mask of Velka
+99241000 Black Cleric Robe
+99242000 Black Manchettes
+99243000 Black Tights
+3581000 Vow of Silence
+
+# Executioner Myranda
+30830200 Guillotine Axe [Curse]
+99270000 Binded Hood
+99271000 Binded Cross
+99272000 Binded Gloves
+99273000 Binded Boots
+
+# Treasure
+99260000 Ancient King's Mask
+99261000 Ancient King's Breastplate
+99262000 Ancient King's Gauntlets
+99263000 Ancient King's Leggings
+
+99250000 Dragonrider Helm
+99251000 Dragonrider Armor
+99252000 Dragonrider Gauntlets
+99253000 Dragonrider Leggings
+
+99280000 Brushwood Helm
+99281000 Brushwood Armor
+99282000 Brushwood Gauntlets
+99283000 Brushwood Leggings
+
+99290000 Venerable Sage's Hood
+99291000 Venerable Sage's Robe
+99292000 Venerable Sage's Gloves
+99293000 Venerable Sage's Boots
+
+99300000 Gloom Helm
+99301000 Gloom Armor
+99302000 Gloom Gauntlets
+99303000 Gloom Leggings
+
+99320000 Quicksilver Helm
+99321000 Quicksilver Armor
+99322000 Quicksilver Gauntlets
+99323000 Quicksilver Leggings
+
+99330000 Heide Mask
+99340000 Pontiff's Crown
+99342000 Pontiff's Bracelets
+99350000 Giant Slave Helmet
+99360000 Gargoyle Skull
+99370000 Demon Cleric Mask
+99380000 Crab Helmet
+99390000 Corvian Knight Helmet

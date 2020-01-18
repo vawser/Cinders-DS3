@@ -43,8 +43,12 @@
 262     - 
 245     - Get Ammo Type (y is hand index)
 1109    - Is Action Request
-301     - 
+301     - Item Usage is Valid (?)
 227     - Get Magic Type
+273     - Get Throw ID
+276     - Is Dead in Throw
+277     - Escaped Throw
+1112    - 
 
 #------------------------
 # act( x, y, z )
@@ -75,6 +79,21 @@ AI notification attack type - SetInterruptType (y is type index)
 
 自動捕捉対象クリア
 - Clear Lockon Target
+
+貪欲者の印スリップダメージ無効
+- No Greedy Slip Damage
+
+バックスタブ発動
+- Activate backstab
+
+魔法ID切り替え無効
+- Magic ID switching disabled
+
+ロックオン中角度固定解除
+- Lock-on angle released
+
+ロックオン時システム旋回不可角度
+- Lock-on system non-turnable angle
 
 110     -
 148     - SetVariable (y is name, z is value)

@@ -2,7 +2,19 @@
 # General Changes
 #------------------------
 - All weapons and shields can now be buffed.
-- Armor now acts as Dark Souls 1 armor does, preventing stagger until it's poise is drained from enemy attacks.
+
+#------------------------
+# Poise
+#------------------------
+Poise now works on in a similar way to DS2. Rather than specific animations having poise frames, all animations now have poise frames throughout. This means rather than poise being active during a specific period, it is always active. 
+
+However, the various animations have different levels of poise health. This means being staggered whilst moving is much easier than during an attack. 
+
+This grants the benefits of passive poise without it being too powerful, and retains the benefit of active poise during attacks.
+
+In general, poise health for most non-combat animations is 20, for attacks it ranges from 20 (daggers) to 50 (UGS, etc). Poise health is only restored upon attacking or rolling (i.e. if you get staggered and don't do either of these, you will get staggered if hit again).
+
+Just to note, the poise value itself is basically Poise Health Absorption, i.e. 68 poise will reduce incoming poise damage by 68%.
 
 #------------------------
 # Gifts

@@ -34,7 +34,7 @@ Fire:
 
 Lightning:  
 - Adds Lightning damage.
-- Adds effect: reduces enemy poise by 25 for 60 seconds on hit.
+- Adds effect: reduces enemy poise by 50% for 15 seconds on hit.
 
 Dark:  
 - Adds Dark damage.
@@ -92,7 +92,7 @@ Firelink Greatsword
 - Effect: increases max HP, FP and Stamina by 5%.
 
 Lothric Knight Long Spear
-- Effect: increases Poise by 10.
+- Effect: increases Poise by 15%.
 
 Branding Iron
 - Effect: reduces HP and FP restoration from the Estus Flask by 100% for 10 seconds.
@@ -104,7 +104,7 @@ Lothric's Scythe
 - Effect: restores 3 HP every second.
 
 Ancient Dragon Halberd
-- Effect: increases Poise by 10.
+- Effect: increases Poise by 15%.
 
 Black Knight Glaive 
 - Effect: increases damage against Demons by 10%.
@@ -170,7 +170,7 @@ Nil Blade
 - Effect: increases damage by 10% when Hollow.
 
 Blind
-- Effect: reduces poise by 10 for 10 seconds on hit. Stacks.
+- Effect: reduces poise by 50% for 15 seconds on hit. Stacks.
 
 Blueblood Sword
 - Effect: absorb FP on hit, restoring 1% FP.
@@ -218,7 +218,7 @@ Stone Greatsword
 - Effect: boosts Physical absorption by 10%.
 
 Titanite Catch Pole
-- Effect: increases Poise by 10.
+- Effect: increases Poise by 15%.
 
 Kris Blade
 - Effect: boosts spell damage by 10%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
