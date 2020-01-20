@@ -186,6 +186,12 @@ x Velka's Talisman
 - Lothric Knight Long Spear: boosts poise by 15%.
 - Titanite Catch Pole: boosts poise by 15%.
 
+# Status Effects
+# - Curse: now lasts for 300 seconds, rather than forever.
+# - Frost: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10.
+# - Poison: Lasts 60 seconds.
+# - Reduced the aux values on weapons.
+
 # Armor
 - Poise now works on in a similar way to DS2, albeit in a form that means passive poise is still present.
 - Due to this, the poise value on armor has been increased and it is now present on all pieces.
@@ -246,11 +252,12 @@ x Velka's Talisman
 - Made the critical multipliers more consistent in how they work: big multiplier first, then a smaller one for the extra hits.
 - Fixed some bugged attack correction IDs in weapons.
 - Fixed the Demon's Scar missing the cast speed changes.
+# - Siegward will now wield the Storm Ruler when he should.
 
 #------------------------------
 # TODO 
 #------------------------------
-Add new weapons and armor
 Place new items
-
+Add new weapons and armor
+Do icons
 

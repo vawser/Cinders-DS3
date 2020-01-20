@@ -87,7 +87,7 @@ Scales the values within the SpEffect by the currently equipped spell buff (e.g.
 114 Unknown
 115 Backstep Animation Change
 116 Apply Curse
-117 Apply Curse - Extra
+117 Curse - Instant Death animation
 118 Apply Curse - Extra
 119 Effect3231
 120 Damage Level Change before Poise Break

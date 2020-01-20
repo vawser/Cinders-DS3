@@ -86,7 +86,7 @@ These are only accurate for weapons infused with these effects.
 Weapons with innate versions of these effects may have different values.
 
 Poison
-- Lasts 30/40/50/60 seconds. Depends on weapon type.
+- Lasts 60 seconds.
 - Deals 30 + 0.05% damage per second.
 - Effect: reduces enemy attack by 10% whilst active.
 
@@ -95,12 +95,13 @@ Bleed
 
 Frost
 - Deals 50/75/100 + 2.5% damage on proc. Depends on weapon type.
-- Effect: reduces enemy absorption by 10% whilst active, and reduces stamina recovery by 10.
+- Effect: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10. Lasts 30 seconds.
 
 - Curse:
  - Effect:
    - Reduces absorption by 10% on proc. Stacks.
    - Reduces damage by 5% on proc. Stacks.
+   - Lasts for 300 seconds.
    
 #------------------------
 # Stat Changes
