@@ -187,10 +187,10 @@ x Velka's Talisman
 - Titanite Catch Pole: boosts poise by 15%.
 
 # Status Effects
-# - Curse: now lasts for 300 seconds, rather than forever.
-# - Frost: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10.
-# - Poison: Lasts 60 seconds.
-# - Reduced the aux values on weapons.
+- Curse: now lasts for 300 seconds, rather than forever.
+- Frost: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10.
+- Poison: Lasts 60 seconds.
+- Reduced the aux values on weapons.
 
 # Armor
 - Poise now works on in a similar way to DS2, albeit in a form that means passive poise is still present.
@@ -244,7 +244,7 @@ x Velka's Talisman
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
-# - Reduced the power of the Soul of Cinder.
+- Reduced the power of the Soul of Cinder.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -252,7 +252,8 @@ x Velka's Talisman
 - Made the critical multipliers more consistent in how they work: big multiplier first, then a smaller one for the extra hits.
 - Fixed some bugged attack correction IDs in weapons.
 - Fixed the Demon's Scar missing the cast speed changes.
-# - Siegward will now wield the Storm Ruler when he should.
+- Siegward will now wield the Storm Ruler when he should.
+- Blunt/Sharp weapon effects now stack when you wield 2 weapons with the same effect.
 
 #------------------------------
 # TODO 
