@@ -230,6 +230,9 @@ x Velka's Talisman
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
+# - Moved the Champion's Bones to the treasure in front of Ludleth.
+# - Added the Ring of the Exalted and the Master Key to the Shrine Handmaid shop (Untended Graves version only).
+# - Seed of a Giant Tree now lasts 300 seconds.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
@@ -241,10 +244,20 @@ x Velka's Talisman
 - Darkmoon Blade: adds 60 Magic damage.
 - Dark Blade: adds 60 Dark damage.
 - Perseverance: boosts Poise by 50% for 60 seconds.
+# - Removed the old animation speed changes for casting animations. Casting speed basically emulates this now.
+# - Made all of the Firestorm spells summon more pillars and over a much bigger radius.
+# - Increased Hidden Body duration to 30 seconds.
+# - Increased Cast Light duration to 120 seconds.
+# - Reduced Hidden Weapon duration to 120 seconds. Reduced FP cost to 25.
+# - Increased Spook duration to 30 seconds.
+# - Lifehunt Scythe now absorbs a fixed 10% HP on hit.
+# - Deep Protection now boosts resistances by 50 (was 20).
+# - Profuse Sweat now boosts resistances by 200 (was 80).
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 - Reduced the power of the Soul of Cinder.
+# - Champion's Gravetender now drops a Titanite Slab.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -261,4 +274,3 @@ x Velka's Talisman
 Place new items
 Add new weapons and armor
 Do icons
-

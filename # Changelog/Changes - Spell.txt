@@ -289,9 +289,9 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Hidden Weapon
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 25
 - Slot Usage: 1
-- Effect: hides main weapon for 300 seconds.
+- Effect: hides main weapon for 120 seconds.
 
 - INT Req: 10
 - Source: Orbeck - Golden Scroll - Farron Keep
@@ -301,7 +301,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 100
 - Slot Usage: 1
-- Effect: hides player for 10 seconds, reducing enemy sight by 100%.
+- Effect: hides player for 30 seconds, reducing enemy sight by 100%.
 
 - INT Req: 20
 - Source: Orbeck - Golden Scroll - Farron Keep
@@ -311,7 +311,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: summons a light source that follows you for 60 seconds.
+- Effect: summons a light source that follows you for 120 seconds.
 
 - INT Req: 10
 - Source: Orbeck - Golden Scroll - Farron Keep
@@ -331,7 +331,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: reduces enemy listen by 100% for 20 seconds.
+- Effect: reduces enemy listen by 100% for 30 seconds.
 
 - INT Req: 18
 - Source: Orbeck - Default
@@ -646,7 +646,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 80 for 60 seconds.
+- Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
 
 - Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
 
@@ -1393,6 +1393,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 30
 - Dark Damage: 400
 - Slot Usage: 1
+- Effect: absorbs 10% HP on hit.
 
 - INT Req: 10
 - FTH Req: 36
@@ -1427,7 +1428,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 60
 - Slot Usage: 1
-- Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 20. Increases stamina recovery by 10. 
+- Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. 
 
 - INT Req: 10
 - FTH Req: 30
