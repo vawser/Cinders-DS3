@@ -28,139 +28,6 @@
 55102038 The Ringed City
 
 #------------------------------
-# Models
-#------------------------------
-
-# Weapons
-31100000 9937 Beast Claw # 11000000 Claw
-31110000 9939 Rakuyo (long) # 5000000 Uchi
-31120000 9949 Ladle # 8010000 Mace
-31130000 9950 Crypt Blacksword # 7050000 Greataxe (UGS though)
-31140000 9951 Smelter Sword # 6260000 Lorian's Greatsword
-31150000 9953 Blue Flame # 2160000 Cleric's Candlestick (edit dummys)
-31160000 9954 Ash Demon Hammer # 81100008080000 Great Club
-31170000 9956 Elder Ghru Tree # 8110000 Great Club
-31180000 9957 Giant Crab Arm # 8110000 Great Club
-31190000 9958 Hunter's Log # 9200000 Pike
-31200000 9962 Man-serpent Twindaggers # 16060000 Brigand Twindaggers
-31210000 9965 Thrall Harpe # 1060000 Harpe
-31220000 9969 Smouldering Ghru Spear # 9010000 Winged Spear
-31230000 9971 Thrall Pick # 8240000 Warpick
-31240000 9972 Worker Machete # 4040000 Falchion
-31250000 9973 Rampart Golem Lance # 9080000 Greatlance
-31260000 9974 Bewitched Alonne Sword # 5020000 Chaos Blade
-31270000 9975 Bone Scythe # 10000000 Great Scythe
-31280000 9976 Dragonrider Halberd # 10030000 Halberd
-31290000 9977 Key to the Embedded # 6310000 Hollowslayer Greatsword
-31300000 9978 King's Ultra Greatsword # 7050000 Greataxe (UGS though)
-31310000 9979 Pilgrim's Spontoon # 13120000 Golden Ritual Spear (edit dummys)
-31320000 9980 Sacred Chime Hammer # 8290000 Morne's Great Hammer
-31330000 9981 Scythe of Nahr Alma # 10000000 Great Scythe
-31340000 9982 Scythe of Want # 10000000 Great Scythe
-31350000 9983 Crab Claws # 11000000 Claw
-
-22280000 9946 Crystal Shield # 21180000 Dragoncrest Shield
-22290000 9947 Sanctus # 21150000 East-west Shield
-22300000 9959 Shield of the Hunted # 21270000 Porcine Shield
-22310000 9968 Smouldering Ghru Shield # 21150000 East-west Shield
-
-13620000 9948 Velka's Talisman # Talisman
-13630000 9955 Consumed King's Staff # Storyteller's Staff
-13640000 9963 Rotten Ghru Talisman # Talisman
-
-#------------------------------
-# Treasures
-#------------------------------
-# False Lord Wynn 
-30800800 Great Lord Greatsword
-22150200 Loch Shield
-99200000 Crown of the Great Lord
-99201000 Robe of the Great Lord
-99202000 Bracelet of the Great Lord
-99203000 Anklet of the Great Lord
-
-# Kyra, the False Lord's Blade
-16080400 Ciaran's Tracers [Blood]
-16080300 Ciaran's Tracers [Poison]
-99220000 Porcelain Mask
-99221000 Lord's Blade Robe
-99222000 Lord's Blade Gloves
-99223000 Lord's Blade Waistcloth
-
-# Darkmoon Pretender Gwyneth
-13540000 Darkmoon Ritual Staff
-20260200 Cleric's Parma [Rejuvenation]
-99210000 Crown of the Dark Sun
-99211000 Moonlight Robe
-99212000 Moonlight Gloves
-99213000 Moonlight Waistcloth
-1805000 Orbs of Judgment
-
-# Paladin Elroy
-30781200 Grant [Holy]
-X Sanctus
-99230000 Paladin Helm
-99231000 Paladin Armor
-99232000 Paladin Gauntlets
-99233000 Paladin Leggings
-
-# Cromwell the Pardoner
-30301100 Velka's Rapier [Enchanted]
-x Velka's Talisman
-99240000 Mask of Velka
-99241000 Black Cleric Robe
-99242000 Black Manchettes
-99243000 Black Tights
-3581000 Vow of Silence
-
-# Executioner Myranda
-30830200 Guillotine Axe [Curse]
-99270000 Binded Hood
-99271000 Binded Cross
-99272000 Binded Gloves
-99273000 Binded Boots
-
-# Treasure
-99260000 Ancient King's Mask
-99261000 Ancient King's Breastplate
-99262000 Ancient King's Gauntlets
-99263000 Ancient King's Leggings
-
-99250000 Dragonrider Helm
-99251000 Dragonrider Armor
-99252000 Dragonrider Gauntlets
-99253000 Dragonrider Leggings
-
-99280000 Brushwood Helm
-99281000 Brushwood Armor
-99282000 Brushwood Gauntlets
-99283000 Brushwood Leggings
-
-99290000 Venerable Sage's Hood
-99291000 Venerable Sage's Robe
-99292000 Venerable Sage's Gloves
-99293000 Venerable Sage's Boots
-
-99300000 Gloom Helm
-99301000 Gloom Armor
-99302000 Gloom Gauntlets
-99303000 Gloom Leggings
-
-99320000 Quicksilver Helm
-99321000 Quicksilver Armor
-99322000 Quicksilver Gauntlets
-99323000 Quicksilver Leggings
-
-99330000 Heide Mask
-99340000 Pontiff's Crown
-99342000 Pontiff's Bracelets
-99350000 Giant Slave Helmet
-99360000 Gargoyle Skull
-99370000 Demon Cleric Mask
-99380000 Crab Helmet
-99390000 Corvian Knight Helmet
-
-#------------------------------
 # Changelog
 #------------------------------
 # General
@@ -185,6 +52,45 @@ x Velka's Talisman
 - Ancient Dragon Halberd: boosts poise by 15%.
 - Lothric Knight Long Spear: boosts poise by 15%.
 - Titanite Catch Pole: boosts poise by 15%.
+- Added Consumed King's Staff. Transposed from Oceiros's soul.
+- Added Ash Demon Hammer. Transposed from the Stray Demon's soul.
+- Added Hunter's Log. Dropped by Lycanthrope Hunters (5%).
+- Added Serpentine Twindaggers. Dropped by Serpent-men (5%).
+- Added Serpentine Hatchet. Dropped by Serpent-men (5%).
+- Added Serpentine Axe. Dropped by Serpent-men (5%).
+- Added Elder Ghru Tree. Dropped by Elder Ghru (5%).
+- Added Thrall Harpe. Dropped by Thralls (5%).
+- Added Thrall Pick. Dropped by Thralls (5%).
+- Added Rotten Talisman. Dropped by Ghru (5%).
+- Added Smouldering Curved Sword. Dropped by Smouldering Ghrus (5%).
+- Added Smouldering Spear. Dropped by Smouldering Ghrus (5%).
+- Added Smouldering Dagger. Dropped by Smouldering Ghrus (5%).
+- Added Smouldering Shield. Dropped by Smouldering Ghrus (5%).
+- Added Smouldering Talisman. Dropped by Smouldering Ghrus (5%).
+- Added Worker Machete. Dropped by Peasant Hollow (Axe) (5%).
+- Added Shield of the Hunted. Dropped by Lycanthropes (5%).
+- Added Ladle. Found by the gravestone in Cemetery of Ash.
+- Added Shiv. Found with the Caduceus Round Shield in Undead Settlement.
+- Added Sacntus. Found in the chest with the Paladin Set.
+- Added Velka's Talisman. Found with the Black Cleric Set.
+- Added Giant Crab Arm. Dropped by Giant Crabs (5%).
+- Added Crab Claw. Dropped by Lesser Crabs (5%).
+- Added Beast Claw. Dropped by Lycanthropes (5%).
+- Added Scythe of Want. Sold by Pilgrims of Dark.
+- Added Blue Flame. Sold by Vinheim Scholars.
+- Added Sacred Chime Hammer. Sold by Spears of the Church.
+- Added Smelter Sword. Sold by Chaos Servants.
+- Added Scythe of Nahr Alma. Sold by Mound-makers.
+- Added Crystal Shield. Sold by Vinheim Scholars.
+- Added Bone Scythe. Found in a chest in the Smouldering Lake.
+- Added Pilgrim's Spontoon. Found in a chest in Irithyll.
+- Added Key to the Embedded. Found in a chest in Lothric Castle.
+- Added Rakuyo. Found in a chest in Lothric Castle.
+- Added Crypt Blacksword. Sold by Patches.
+- Added Dragonrider Halberd. Sold by the Shrine Handmaid after turning in the Dragon Chaser's Ashes.
+- Added King's Ultra Greatsword. Sold by Andre after killing the Soul of Cinder.
+- Added Rampart Golem Lance. Sold by Greirat after sending him to Irithyll.
+- Added Bewitched Alonne Sword. Sold by Andre after tunring in the Easterner's Ashes.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -199,27 +105,27 @@ x Velka's Talisman
 - Reduced the weight of heavier armor.
 - Increase the strike absorption on armor.
 - Iron Keeper Helm: prevents headshot damage.
-- Renamed Crown of the Great Lord to Crown of the Forgotten Lord
-- Added the Great Lord Set 
-- Added the Gwyndolin's Set 
-- Added the Lord's Blade Set 
-- Added the Paladin's Set 
-- Added the Black Set 
-- Added the Dragonrider's Set 
-- Added the Ancient King Set 
-- Added the Binded Set 
-- Added the Brushwood Set 
-- Added the Venerable Sage's Set 
-- Added the Gloom Set 
-- Added the Penetrator Set 
-- Added the Quicksilver Set 
-- Added the Heide Mask 
-- Added the Pontiff Set 
-- Added the Giant Slave Helmet 
-- Added the Gargoyle Skull 
-- Added the Demon Cleric Mask 
-- Added the Crab Helmet 
-- Added the Corvian Knight Helmet
+- Renamed Crown of the Great Lord to Crown of the Forgotten Lord.
+- Added the Great Lord Set. Sold by the Shrine Handmaid after killing Soul of Cinder.
+- Added the Gwyndolin's Set. Sold by the Darkmoon Faithful.
+- Added the Lord's Blade Set. Found in a chest in Irithyll.
+- Added the Paladin's Set. Found in a chest in the Catacombs of Carthus.
+- Added the Black Cleric Set. Found in the Undead Settlement.
+- Added the Dragonrider's Set. Sold by the Shrine Handmaid after turning in the Dragon Chaser's Ashes.
+- Added the Ancient King Set. Sold by the Shrine Handmaid in Untended Graves.
+- Added the Binded Set. Sold by Greirat after sending him to the Undead Settlement.
+- Added the Brushwood Set. Sold by the Stone-humped Hag.
+- Added the Venerable Sage's Set. Sold by Orbeck after giving him the Crystal Scroll.
+- Added the Gloom Set. Sold by the Stone-humped Hag.
+- Added the Penetrator Set. Dropped by Ezekiel the Penetrator.
+- Added the Quicksilver Set. Sold by Irina after giving her the Deep tome.
+- Added the Heide Mask. Sold by Greirat after sending him to Irithyll.
+- Added the Pontiff Set. Sold by the Shrine Handmaid after killing Pontiff Sulyvahn.
+- Added the Giant Slave Helmet. Dropped by the Giant Slave in Irithyll Dungeon.
+- Added the Gargoyle Skull. Dropped by Gargoyles (5%).
+- Added the Demon Cleric Mask. Dropped by Demon Clerics (5%).
+- Added the Crab Helmet. Dropped by the Giant Crabs in Smouldering Lake (5%).
+- Added the Corvian Knight Helmet. Dropped by Corvian Knights (5%).
 
 # Rings
 - Runic Seal: reduces deflection to 50.
@@ -234,6 +140,7 @@ x Velka's Talisman
 - Added the Ring of the Exalted and the Master Key to the Shrine Handmaid shop (Untended Graves version only).
 - Seed of a Giant Tree now lasts 300 seconds.
 - Removed the Flask of Magic/Fire/Lightning/Abyss.
+- Surging Deep now sold by Aldrich Faithful.
 
 # Spells
 - Changed Rockflesh attack deflection to 80.
@@ -255,7 +162,7 @@ x Velka's Talisman
 - Deep Protection now boosts resistances by 50 (was 20).
 - Profuse Sweat now boosts resistances by 200 (was 80).
 - Magic Shield: now only boosts stability by 5%.
-- Greag Magic Shield: now only boost stability by 10%.
+- Great Magic Shield: now only boost stability by 10%.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -270,11 +177,99 @@ x Velka's Talisman
 - Fixed the Demon's Scar missing the cast speed changes.
 - Siegward will now wield the Storm Ruler when he should.
 - Blunt/Sharp weapon effects now stack when you wield 2 weapons with the same effect.
+- Enabled side door fogwall during Pontiff Sulyvahn boss fight.
+- Disabled Irithyll Cathedral bonfire upon using Pontiff Sulyvahn dream/nightmare. Lift is also reset.
+- Moved the lift levers to prevent usage during the boss fight.
 
 #------------------------------
 # TODO 
 #------------------------------
-Place new items
-Add new weapons and armor
-Do icons
+Design the new weapons
+Add weapon localization
+Finish the icons for weapons/armor
 
+#------------------------------
+# Models
+#------------------------------
+13620000 Velka's Talisman [Unique]
+13630000 Consumed King's Staff [Boss]
+13640000 Rotten Talisman [Normal]
+13650000 Smouldering Talisman [Normal]
+
+22280000 Crystal Shield [Unique]
+22290000 Sanctus [Unique]
+22300000 Shield of the Hunted [Normal]
+22310000 Smouldering Shield [Normal]
+
+31100000 Beast Claw [Unique]
+31110000 Rakuyo [Unique]
+31120000 Ladle [Normal]
+31130000 Crypt Blacksword [Boss]
+31140000 Smelter Sword [Boss]
+31150000 Blue Flame [Unique]
+31160000 Ash Demon Hammer [Boss]
+31170000 Elder Ghru Tree [Unique]
+31180000 Giant Crab Arm [Unique]
+31190000 Hunter's Log [Normal]
+31200000 Serpentine Twindaggers [Normal]
+31210000 Shiv [Normal]
+31220000 Serpentine Hatchet [Normal]
+31230000 Serpentine Axe [Normal]
+31240000 Thrall Harpe [Normal]
+31250000 Smouldering Curved Sword [Normal]
+31260000 Smouldering Dagger [Normal]
+31270000 Smouldering Spear [Normal]
+31280000 Thrall Pick [Normal]
+31290000 Worker Machete [Normal]
+31300000 Rampart Golem Lance [Unique]
+31310000 Bewitched Alonne Sword [Boss]
+31320000 Bone Scythe [Unique]
+31330000 Dragonrider Halberd [Boss]
+31340000 Key to the Embedded [Unique]
+31350000 King's Ultra Greatsword [Boss]
+31360000 Pilgrim's Spontoon [Unique]
+31370000 Sacred Chime Hammer [Unique]
+31380000 Scythe of Nahr Alma [Unique]
+31390000 Scythe of Want [Boss]
+31400000 Crab Claw [Unique]
+
+ID: 00CFD320 ,  name: Velka's Talisman
+ID: 00CFFA30 ,  name: Consumed King's Staff
+ID: 00D02140 ,  name: Rotten Talisman
+ID: 00D04850 ,  name: Smouldering Talisman
+ID: 0153F740 ,  name: Crystal Shield
+ID: 01541E50 ,  name: Sanctus
+ID: 01544560 ,  name: Shield of the Hunted
+ID: 01546C70 ,  name: Smouldering Shield
+
+ID: 01DA8C60 ,  name: Beast Claw
+ID: 01DAB370 ,  name: Rakuyo
+ID: 01DADA80 ,  name: Ladle
+ID: 01DB0190 ,  name: Crypt Blacksword
+ID: 01DB28A0 ,  name: Smelter Sword
+ID: 01DB4FB0 ,  name: Blue Flame
+ID: 01DB76C0 ,  name: Ash Demon Hammer
+ID: 01DB9DD0 ,  name: Elder Ghru Tree
+ID: 01DBC4E0 ,  name: Giant Crab Arm
+ID: 01DBEBF0 ,  name: Hunter's Log
+ID: 01DC1300 ,  name: Serpentine Twindaggers
+ID: 01DC3A10 ,  name: Shiv
+ID: 01DC6120 ,  name: Serpentine Hatchet
+ID: 01DC8830 ,  name: Serpentine Axe
+ID: 01DCAF40 ,  name: Thrall Harpe
+ID: 01DCD650 ,  name: Smouldering Curved Sword
+ID: 01DCFD60 ,  name: Smouldering Dagger
+ID: 01DD2470 ,  name: Smouldering Spear
+ID: 01DD4B80 ,  name: Thrall Pick
+ID: 01DD7290 ,  name: Worker Machete
+ID: 01DD99A0 ,  name: Rampart Golem Lance
+ID: 01DDC0B0 ,  name: Bewitched Alonne Sword
+ID: 01DDE7C0 ,  name: Bone Scythe
+ID: 01DE0ED0 ,  name: Dragonrider Halberd
+ID: 01DE35E0 ,  name: Key to the Embedded
+ID: 01DE5CF0 ,  name: King's Ultra Greatsword
+ID: 01DE8400 ,  name: Pilgrim's Spontoon
+ID: 01DEAB10 ,  name: Sacred Chime Hammer
+ID: 01DED220 ,  name: Scythe of Nahr Alma
+ID: 01DEF930 ,  name: Scythe of Want
+ID: 01DF2040 ,  name: Crab Claw
