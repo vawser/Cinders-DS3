@@ -465,12 +465,12 @@ increases evasive movement stamina costs by 50%.
 
 # Green Tearstone Ring
 - Weight: 1
-- Boosts stamina recovery by 50 whilst below 25% health
+- Restores 5% HP every second whilst below 25% HP.
 - Source: Treasure - Farron Keep
 
 # Violet Tearstone Ring
 - Weight: 1
-- Reduces skill and spell FP consumption by 50% whilst below 25% health
+- Restores 5% FP every second whilst below 25% HP.
 - Source: Treasure - Road of Sacrifices
 
 # Demonsbane Ring

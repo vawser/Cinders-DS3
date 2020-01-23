@@ -133,6 +133,8 @@
 - Wolf Ring: Boosts poise by 20%.
 - Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
 - Ring of Londor: Restores 1 FP every second whilst at 100% HP.
+# - Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
+# - Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
@@ -180,6 +182,8 @@
 - Enabled side door fogwall during Pontiff Sulyvahn boss fight.
 - Disabled Irithyll Cathedral bonfire upon using Pontiff Sulyvahn dream/nightmare. Lift is also reset.
 - Moved the lift levers to prevent usage during the boss fight.
+# - Fixed the Green/Violet Tearstone Ring.
+# - Fixed the Cursed ring curse effects.
 
 #------------------------------
 # TODO 
