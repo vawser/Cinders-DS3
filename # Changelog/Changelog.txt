@@ -185,91 +185,197 @@
 # TODO 
 #------------------------------
 Design the new weapons
+ - Choose WA + any overrides
+ - Assign scaling/damage in sheet
+ - Add special effects
+ 
 Add weapon localization
+ - Add description
+ - Add WA description
+ 
 Finish the icons for weapons/armor
 
 #------------------------------
 # Models
 #------------------------------
-13620000 Velka's Talisman [Unique]
-13630000 Consumed King's Staff [Boss]
-13640000 Rotten Talisman [Normal]
-13650000 Smouldering Talisman [Normal]
+13620000 Velka's Talisman [Unique] - DONE
+    Scales Miracles with INT
+    Velka's Grace WA: Steady Chant WA, boosts cast speed
 
-22280000 Crystal Shield [Unique]
+13630000 Consumed King's Staff [Boss] - DONE
+    Pestilent Mist WA: Poison Spores WA, emits curse mist
+
+13640000 Rotten Talisman [Normal] - DONE
+    Unfaltering Prayer WA
+    Inflicts poison
+
+13650000 Smouldering Talisman [Normal] - DONE
+    Unfaltering Prayer WA
+    Effect: fire absorption
+    add fire vfx
+    Miracles and Pyromancies
+
+22280000 Crystal Ring Shield [Unique]
+    High magic absorption
+    Effect: boosts Magic absorption
+    Shield Bash WA: but emits magic burst on contact
+
 22290000 Sanctus [Unique]
+    Parry WA
+    Effect: restores HP
+
 22300000 Shield of the Hunted [Normal]
+    Shield Bash WA
+    
 22310000 Smouldering Shield [Normal]
-
+    Add fire VFX
+    Inflicts physical/fire damage
+    Effect: boosts Fire absorption
+    Shield Bash WA
+    
 31100000 Beast Claw [Unique]
+    STR focus
+    Effect: each kill boosts damage, lasts 120 seconds.
+    Bestial Flurry WA: Raptor Flurry WA
+    
 31110000 Rakuyo [Unique]
+    DEX focus
+    Damage scales off LCK
+    Effect: each hit adds 1 LCK, expires after 120 seconds.
+    Pierce WA: Darkdrift WA
+    
 31120000 Ladle [Normal]
+    Low damage, no scaling
+    Effect: Boosts VIT, END by 2
+    Galvanize WA
+
 31130000 Crypt Blacksword [Boss]
+    STR/Dark focus
+    Cryptic Wrath WA: Earthen Wrath WA but with dark VFX
+
 31140000 Smelter Sword [Boss]
+    STR/Fire focus
+    Add fire vfx on heavy attacks
+    Smelter's Fury WA: Flame of Lorian WA
+
 31150000 Blue Flame [Unique]
+    Sorcery catalyst
+    Steady Chant WA
+
 31160000 Ash Demon Hammer [Boss]
+    STR focus
+    Quake WA
+
 31170000 Elder Ghru Tree [Unique]
+    STR focus
+    Elder Spirits WA: Morne's Rage WA but with the red skull VFX and bullets
+    
 31180000 Giant Crab Arm [Unique]
+    STR focus
+    Bubblebeam WA: Kindled Flurry WA but with the crab spit VFX
+
 31190000 Hunter's Log [Normal]
+    STR focus
+    Charge WA
+
 31200000 Serpentine Twindaggers [Normal]
+    STR focus
+    Quickstep WA
+    Add guard bypass to attacks
+    
 31210000 Shiv [Normal]
+    Blind Spot WA
+    Add guard bypass to attacks
+    
 31220000 Serpentine Hatchet [Normal]
+    STR focus
+    Warcry WA
+    Add guard bypass to attacks
+    
 31230000 Serpentine Axe [Normal]
+    STR focus
+    Warcry WA
+    Add guard bypass to attacks
+    
 31240000 Thrall Harpe [Normal]
+    DEX focus
+    Quickstep WA
+    Effect: add LCK
+
 31250000 Smouldering Curved Sword [Normal]
+    DEX/Fire focus
+    Add fire VFX
+    Effect: boosts Fire absorption
+    Spin Slash WA
+    
 31260000 Smouldering Dagger [Normal]
+    DEX/Fire focus
+    Add fire VFX
+    Effect: boosts Fire absorption
+    Quickstep WA
+    
 31270000 Smouldering Spear [Normal]
+    DEX/Fire focus
+    Add fire VFX
+    Effect: boosts Fire absorption
+    Charge WA
+    
 31280000 Thrall Pick [Normal]
+    DEX focus
+    Quickstep WA
+    Effect: add LCK
+    
 31290000 Worker Machete [Normal]
+    Quality focus
+    Spin Slash WA
+
 31300000 Rampart Golem Lance [Unique]
+    STR focus
+    Add frost VFX + on hit
+    Charge WA
+    
 31310000 Bewitched Alonne Sword [Boss]
+    DEX focus
+    Seppuku WA: Bloodlust WA
+    
 31320000 Bone Scythe [Unique]
+    STR focus
+    Add 100% guard bypass to attacks
+    Neck Swipe WA
+
 31330000 Dragonrider Halberd [Boss]
+    Quality focus
+    Charge WA
+    
 31340000 Key to the Embedded [Unique]
+    DEX focus
+    Stance WA
+    
 31350000 King's Ultra Greatsword [Boss]
+    STR focus
+    Warcry WA
+    Effect: deals more durability damage on hit
+    
 31360000 Pilgrim's Spontoon [Unique]
+    Magic/Dark focus
+    Sorcery catalyst
+    Steady Chant WA
+    
 31370000 Sacred Chime Hammer [Unique]
+    STR/Dark focus
+    Dark Cry WA: Morne's Rage WA but emits affinity orbs in circle around player
+
 31380000 Scythe of Nahr Alma [Unique]
+    DEX/Dark focus
+    Inflicts Bleed
+    Neck Swipe WA
+
 31390000 Scythe of Want [Boss]
+    DEX/Dark focus
+    Effect: each kill boosts soul absorption. Lasts 300 seconds.
+    Neck Swipe WA
+
 31400000 Crab Claw [Unique]
+    STR focus
+    Crabby WA: Raptor Flurry WA but bypass guard
 
-ID: 00CFD320 ,  name: Velka's Talisman
-ID: 00CFFA30 ,  name: Consumed King's Staff
-ID: 00D02140 ,  name: Rotten Talisman
-ID: 00D04850 ,  name: Smouldering Talisman
-ID: 0153F740 ,  name: Crystal Shield
-ID: 01541E50 ,  name: Sanctus
-ID: 01544560 ,  name: Shield of the Hunted
-ID: 01546C70 ,  name: Smouldering Shield
-
-ID: 01DA8C60 ,  name: Beast Claw
-ID: 01DAB370 ,  name: Rakuyo
-ID: 01DADA80 ,  name: Ladle
-ID: 01DB0190 ,  name: Crypt Blacksword
-ID: 01DB28A0 ,  name: Smelter Sword
-ID: 01DB4FB0 ,  name: Blue Flame
-ID: 01DB76C0 ,  name: Ash Demon Hammer
-ID: 01DB9DD0 ,  name: Elder Ghru Tree
-ID: 01DBC4E0 ,  name: Giant Crab Arm
-ID: 01DBEBF0 ,  name: Hunter's Log
-ID: 01DC1300 ,  name: Serpentine Twindaggers
-ID: 01DC3A10 ,  name: Shiv
-ID: 01DC6120 ,  name: Serpentine Hatchet
-ID: 01DC8830 ,  name: Serpentine Axe
-ID: 01DCAF40 ,  name: Thrall Harpe
-ID: 01DCD650 ,  name: Smouldering Curved Sword
-ID: 01DCFD60 ,  name: Smouldering Dagger
-ID: 01DD2470 ,  name: Smouldering Spear
-ID: 01DD4B80 ,  name: Thrall Pick
-ID: 01DD7290 ,  name: Worker Machete
-ID: 01DD99A0 ,  name: Rampart Golem Lance
-ID: 01DDC0B0 ,  name: Bewitched Alonne Sword
-ID: 01DDE7C0 ,  name: Bone Scythe
-ID: 01DE0ED0 ,  name: Dragonrider Halberd
-ID: 01DE35E0 ,  name: Key to the Embedded
-ID: 01DE5CF0 ,  name: King's Ultra Greatsword
-ID: 01DE8400 ,  name: Pilgrim's Spontoon
-ID: 01DEAB10 ,  name: Sacred Chime Hammer
-ID: 01DED220 ,  name: Scythe of Nahr Alma
-ID: 01DEF930 ,  name: Scythe of Want
-ID: 01DF2040 ,  name: Crab Claw

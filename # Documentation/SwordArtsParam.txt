@@ -89,7 +89,7 @@
 200 [2301] [53]   Stance                 - Broadsword
 200 [2306] [54]   Stance                 - Lothric Knight Sword
 201 [2304] [57]   Stomp                  - Dark Sword
-202 Guiding Light
+202               Guiding Light           
 203 [2320] [209]  Oath of Sunlight       - Sunlight Straight Sword
 204 [2310] [188]  Sacred Lothric Light   - Lothric's Holy Sword
 205 [2300] [208]  Stance                 - Irithyll Straight Sword
