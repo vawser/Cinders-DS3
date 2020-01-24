@@ -39,6 +39,9 @@
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
+
+# Map
+# - The loading fogwalls in Firelink Shrine no longer appear.
  
 # Classes
 - Paladin now starts with the Paladin Set and Grant.
@@ -153,8 +156,11 @@
 - Surging Deep now sold by Aldrich Faithful.
 
 # Spells
-# - Adjusted the casting animations to slow some of them down. This is to make the spells that use them more risky. In turn, the spells do more damage.
-# - Adjusted the FP and damage of spells to account for this.
+# - Adjusted FP and damage of spells.
+# - Slowed the Soul Arrow cast animation.
+# - Slowed the Lightning Spear cast animation.
+# - Slowed the Heavy Soul Arrow cast animation.
+# - Slowed the Heal cast animation.
 - Changed the cast speed change to only increase the speed by 50% at 99.
 - Cast speed from DEX starts from 1 DEX (was 20).
 - Changed Rockflesh attack deflection to 80.
@@ -212,8 +218,6 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
-
-Adjust default lock-on
 
 #------------------------------
 # Models

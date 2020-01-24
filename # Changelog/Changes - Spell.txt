@@ -24,7 +24,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Dart
 #--------------------------------
 - FP Cost: 10
-- Magic Damage: 100
+- Magic Damage: 80
 - Slot Usage: 1
 
 - Source: Orbeck - Default
@@ -33,7 +33,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Flashsword
 #--------------------------------
 - FP Cost: 10
-- Magic Damage: 125
+- Magic Damage: 90
 - Slot Usage: 1
 
 - INT Req: 10
@@ -44,7 +44,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Farron Dart
 #--------------------------------
 - FP Cost: 20
-- Magic Damage: 150
+- Magic Damage: 120
 - Slot Usage: 1
 
 - INT Req: 10
@@ -95,7 +95,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Homing Soulmass
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 100 (per bullet) 
+- Magic Damage: 80 (per bullet) 
 - Slot Usage: 1
 
 - INT Req: 20
@@ -106,7 +106,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Homing Crystal Soulmass
 #--------------------------------
 - FP Cost: 75
-- Magic Damage: 150 (per bullet)
+- Magic Damage: 125 (per bullet)
 - Slot Usage: 1
 
 - INT Req: 40
@@ -116,7 +116,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Geyser
 #--------------------------------
 - FP Cost: 100
-- Magic Damage: 150 [150]
+- Magic Damage: 120 [120]
 - Slot Usage: 1
 
 - INT Req: 50
@@ -186,7 +186,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Wave
 #--------------------------------
 - FP Cost: 40
-- Magic Damage: 300
+- Magic Damage: 200
 - Slot Usage: 1
 
 - INT Req: 20
@@ -196,7 +196,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Stream
 #--------------------------------
 - FP Cost: 100
-- Magic Damage: 300 (per tick) [300] [300]
+- Magic Damage: 250 (per tick) [250] [250]
 - Slot Usage: 1
 
 - INT Req: 40
@@ -216,7 +216,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Orbs of Judgment
 #--------------------------------
 - FP Cost: 75
-- Magic Damage: 100 per bullet
+- Magic Damage: 80 per bullet
 - Slot Usage: 1
 
 - INT Req: 30
@@ -434,7 +434,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Flame Fan
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 175
+- Fire Damage: 100
 - Slot Usage: 1
 
 - Source: Drop - Desert Pyromancer Zoey - Dreg Heap
@@ -806,8 +806,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Lightning Arrow
 #--------------------------------
-- FP Cost: 30
-- Lightning Damage: 150
+- FP Cost: 20
+- Lightning Damage: 120
 - Slot Usage: 1
 
 - FTH Req: 10
@@ -837,7 +837,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Divine Pillars of Light
 #--------------------------------
 - FP Cost: 10
-- Physical Damage: 500 #
+- Physical Damage: 500
 - Slot Usage: 1
 
 - FTH Req: 30
@@ -857,7 +857,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 100
-- Lightning Damage: 100 (per bullet)
+- Lightning Damage: 75 (per bullet)
 - Slot Usage: 1
 
 - FTH Req: 50
@@ -1097,7 +1097,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Deep Barb
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 100
+- Dark Damage: 80
 - Slot Usage: 1
 - Inflicts Curse.
 
@@ -1107,7 +1107,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Dark Edge
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 400 
+- Dark Damage: 300 
 - Slot Usage: 1
 - INT Req: 10
 - FTH Req: 6
@@ -1166,7 +1166,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 40
-- Dark Damage: 600 # 
+- Dark Damage: 500  
 - Slot Usage: 1
 
 - INT Req: 28
@@ -1177,7 +1177,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Affinity
 #--------------------------------
 - FP Cost: 75
-- Dark Damage: 150 (per bullet) 
+- Dark Damage: 125 (per bullet) 
 - Slot Usage: 1
 
 - INT Req: 28
@@ -1344,7 +1344,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Mournful Flames 
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500 # 
+- Dark Damage: 500 
 - Slot Usage: 1
 
 - Source: Boss Soul - Wolnir
@@ -1356,7 +1356,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Nibble
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 100
+- Dark Damage: 80
 - Slot Usage: 1
 - Inflicts Bleed on the target.
 
@@ -1391,7 +1391,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Lifehunt Scythe
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 600 
+- Dark Damage: 400 
 - Slot Usage: 1
 - Effect: absorbs 10% HP on hit.
 

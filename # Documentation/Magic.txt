@@ -51,48 +51,48 @@ Points to seperate Magic entries, corresponding to the attribute values (e.g. AV
 #---------------------------
 # Animation Category
 #---------------------------
-0 	Soul Arrow [1]
-1 	Magic Weapon [2]
-2 	Hidden Body [4]
-5	Fireball [3]
-6	Iron Flesh [4]
-8	Great Combustion [2]
-9	Poison Mist [4]
-10	Firestorm [6]
-11	Rapport [4]
-12	Force [2]
-13	Chameleon [2]
-15	Lightning Blade [3]
-17	Magic Shield [2]
-18	Emit Force [4]
-19	Lightning Spear [3]
-20	Cast Light [2]
-22	Heavy Soul Arrow [2]
-23	Fire Surge [1]
-24	Fire Whip [3]
-25	Soul Greatsword [2]
-26	Heal [5]
-27	Heal Aid [3]
-28	Sacred Oath [7]
-29	Farron Dart [1]
-30	Farron Flashsword [1] 
-31	Soul Stream [5]
+# Casting animations
+0 	Soul Arrow          - a000_040000 - 0.5
+1 	Magic Weapon        - a000_040002 - 1.0
+2 	Hidden Body         - a000_040002 - 1.0 
+5	Fireball            - a000_040004 - 1.0
+6	Iron Flesh          - a000_040005 - 1.5
+8	Great Combustion    - a000_040007 - 0.5
+9	Poison Mist         - a000_040008 - 1.33
+10	Firestorm           - a000_040009 - 1.67
+11	Rapport             - a000_040010 - 1.33
+12	Force               - a000_040022 - 0.33
+13	Chameleon           - a000_040002 - 1.0  
+17	Magic Shield        - a000_040016 - 1.17
+18	Emit Force          - a000_042017 - 1.33
+19	Lightning Spear     - a000_040018 - 0.43
+20	Cast Light          - a000_040019 - 1.33
+22	Heavy Soul Arrow    - a000_040024 - 1.67 
+23	Fire Surge          - a000_040025 - 0.67
+24	Fire Whip           - a000_040026 - 0.67
+25	Soul Greatsword     - a000_040027 - 0.67
+26	Heal                - a000_040029 - 1.83
+27	Heal Aid            - a000_040028 - 0.73
+28	Sacred Oath         - a000_040020 - 1.83
+29	Farron Dart         - a000_040030 - 0.4
+30	Farron Flashsword   - a000_040032 - 0.67
+31	Soul Stream         - a000_040040 - 2.83
 32	Profaned Flame [3]
-33	Sacred Flame [4]
-34	Lightning Stake [4]
-35	Gnaw [3]
-36	Lightning Storm [5]
-37	Dark Edge [3]
-38	Warmth [4]
-39	Wrath of the Gods [5]
-40	Farron Hail [2.5]
-41	Affinity [4]
-42	Black Serpent [4]
-43	Chaos Bed Vestiges [4]
-44	Lifehunt Scythe [3]
-45	Divine Pillars of Light [5]
-46	Old Moonlight [3]
-47	Floating Chaos [5]
-48	Way of White Corona [3]
-49	Lightning Arrow [3] 
-50	Flame Fan [1] 
+33	Sacred Flame            - a000_040015 - 1.83
+34	Lightning Stake         - a000_040034 - 1.0
+35	Gnaw                    - a000_040035 - 1.67
+36	Lightning Storm         - a000_040036 - 1.67
+37	Dark Edge               - a000_040037 - 0.67
+38	Warmth                  - a000_040038 - 1.33
+39	Wrath of the Gods       - a000_040039 - 1.63
+40	Farron Hail             - a000_040041 - 1.57
+41	Affinity                - a000_040042 - 1.67
+42	Black Serpent           - a000_040043 - 1.0
+43	Chaos Bed Vestiges      - a000_040044 - 0.97
+44	Lifehunt Scythe         - a000_040045 - 1.17
+45	Divine Pillars of Light - a000_040046 - 1.67
+46	Old Moonlight           - a000_040027 - 0.67
+47	Floating Chaos          - a000_040048 - 1.33
+48	Way of White Corona     - a000_040018 - 0.43
+49	Lightning Arrow         - a000_040050 - 1.83
+50	Flame Fan               - a000_040051 - 0.5
