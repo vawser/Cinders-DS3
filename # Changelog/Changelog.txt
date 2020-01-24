@@ -153,6 +153,9 @@
 - Surging Deep now sold by Aldrich Faithful.
 
 # Spells
+# - Slowed down the casting animations to 50% normal speed.
+# - Changed the cast speed change to only increase the speed by 50% at 99.
+# - Cast speed from DEX starts from 1 DEX (was 20).
 - Changed Rockflesh attack deflection to 80.
 - Magic Weapon: adds 40 Magic damage.
 - Great Magic Weapon: adds 50 Magic damage.
@@ -173,6 +176,7 @@
 - Profuse Sweat now boosts resistances by 200 (was 80).
 - Magic Shield: now only boosts stability by 5%.
 - Great Magic Shield: now only boost stability by 10%.
+# - Orbs of Judgment: damage to 50 (was 80)
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -208,24 +212,6 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
-
-# Flame Fan
-529010 Swing
-
-# Lightning Arrow
-528608 Hold
-528601 Hold
-528604 Hold
-
-# Soul Greatsword
-521970 Swing
-
-# Dark Edge
-521970 Swing
-
-# Lifehunt Scythe
-521970 Swing
-527302 Swing
 
 #------------------------------
 # Models

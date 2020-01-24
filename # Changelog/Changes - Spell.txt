@@ -216,7 +216,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Orbs of Judgment
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 80 per bullet
+- Magic Damage: 50 per bullet
 - Slot Usage: 1
 
 - INT Req: 30

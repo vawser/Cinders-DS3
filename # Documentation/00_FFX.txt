@@ -594,104 +594,130 @@
 #------------------------
 # Spells
 #------------------------
+510000 Sorcery orb (pulse inwards) 
+510001 Sorcery orb (burst) [E]
+510002 Sorcery flames
+
+512001 Holy burst [E]
+512002 Holy aura 
+
+522000 Farron Dart - Cast [E]
+522001 Farron Dart - Cast burst [E]
 522002 Farron Dart - Bullet
-522003 Farron Dart - Hit
+522003 Farron Dart - Hit [E]
 
+522100 Great Farron Dart - Cast [E]
+522101 Great Farron Dart - Cast burst [E]
 522102 Great Farron Dart - Bullet
-522103 Great Farron Dart - Hit
+522103 Great Farron Dart - Hit [E]
 
+523000 Soul Arrow - Cast [E]
+523001 Soul Arrow - Cast burst [E]
 523002 Soul Arrow - Bullet
-523003 Soul Arrow - Hit
+523003 Soul Arrow - Hit [E]
 
+523010 Great Soul Arrow - Cast [E]
+523011 Great Soul Arrow - Cast burst [E]
 523012 Great Soul Arrow - Bullet
-523013 Great Soul Arrow - Hit
+523013 Great Soul Arrow - Hit [E]
 
+523020 Heavy Soul Arrow - Cast [E]
+523021 Heavy Soul Arrow - Cast burst [E]
 523022 Heavy Soul Arrow - Bullet
-523023 Heavy Soul Arrow - Hit
+523023 Heavy Soul Arrow - Hit [E]
 
+523030 Great Heavy Soul Arrow - Cast [E]
+523031 Great Heavy Soul Arrow - Cast burst [E]
 523032 Great Heavy Soul Arrow - Bullet
-523033 Great Heavy Soul Arrow - Hit
+523033 Great Heavy Soul Arrow - Hit [E]
 
+523040 Homing Soulmass - Cast [E]
+523041 Homing Soulmass - Cast burst [E]
 523042 Homing Soulmass - Bullet (inert)
-523043 Homing Soulmass - Homing - Hit
-523044 Homing Soulmass - Homing - Hit
+523043 Homing Soulmass - Homing - Hit [E]
+523044 Homing Soulmass - Homing - Hit [E]
 
+523050 Crystal Homing Soulmass - Cast [E]
+523051 Crystal Homing Soulmass - Cast burst [E]
 523052 Crystal Homing Soulmass - Bullet
-523055 Crystal Homing Soulmass - Hit
+523055 Crystal Homing Soulmass - Hit [E]
 523053 Crystal Homing Soulmass - Homing - Bullet
-523054 Crystal Homing Soulmass - Homing - Hit
+523054 Crystal Homing Soulmass - Homing - Hit [E]
 
+523060 Soul Spear - Cast [E]
+523061 Soul Spear - Cast burst [E]
 523062 Soul Spear - Bullet
-523063 Soul Spear - Hit
+523063 Soul Spear - Hit [E]
 
+523070 Crystal Soul Spear - Cast [E]
+523071 Crystal Soul Spear - Cast burst [E]
 523072 Crystal Soul Spear - Bullet
-523073 Crystal Soul Spear - Hit
+523073 Crystal Soul Spear - Hit [E]
 
+523080 Deep Soul - Cast [E]
+523081 Deep Soul - Cast burst [E]
 523083 Deep Soul - Bullet
-523084 Deel Soul - Hit
+523084 Deel Soul - Hit [E]
 
+523090 Great Deep Soul - Cast [E]
+523091 Great Deep Soul - Cast burst [E]
 523093 Great Deep Soul - Bullet
-523094 Great Deep Soul - Hit
+523094 Great Deep Soul - Hit [E]
 
+523560 Aural Decoy - Cast [E]
+523561 Aural Decoy - Cast burst [E]
 523562 Aural Decoy - Bullet
-523563 Aural Decoy - Hit
-523564 Aural Decoy - Hit
+523563 Aural Decoy - Hit [E]
+523564 Aural Decoy - Hit [E]
 
-523703 White Dragon Breath
+523610 Holy Light
+523611 Holy swirls [E]
 
+523700 White Dragon Breath - Cast [E]
+523701 White Dragon Breath - Cast beam [E]
+523702 None
+523703 White Dragon Breath - Crystal Burst [E]
+
+523720 Farron Hail - Cast [E]
+523721 Farron Hail - Cast burst [E]
 523722 Farron Hail - Bullet
-523723 Farron Hail - Hit
+523723 Farron Hail - Hit [E]
 
+523730 Crystal Hail - Cast [E]
+523731 Crystal Hail - Cast burst [E]
 523732 Crystal Hail - Emitter - Bullet
-523735 Crystal Hail - Emitter - Hit
+523735 Crystal Hail - Emitter - Hit [E]
 523733 Crystal Hail - Bullet
-523734 Crystal Hail - Hit
+523734 Crystal Hail - Hit [E]
+523735 Crystal Hail - Hit [E]
 
-528903 Old Moonlight - Bullet
-528904 Old Moonlight - Hit
-528905 Old Moonlight - Sword
-528906 Old Moonlight - Sword
-528907 Old Moonlight - Sword - Glow
-528908 Old Moonlight - Wave - Bullet
-528909 Old Moonlight - Wave - Hit
+523740 Soul Greatsword - Cast [E]
+523742 Soul Greatsword - Solid into Fade
 
-526032 Affinity - Bullet
-526035 Affinity - Hit
-526033 Affinity - Homing - Bullet
-526034 Affinity - Homing - Hit
+523750 Farron Flashsword - Cast [E]
+523752 Farron Flashsword - Solid into Fade
 
-528802 Great Soul Dregs - Bullet
-528803 Great Soul Dregs - Hit
+524000 Fireball - Cast
+524002 Fireball - Moving
+524003 Fireball - Hit [E]
 
-526251 Soul Stream - Bullet
-526252 Soul Stream - Emitter - Bullet
-526253 Soul Stream - Emitter - Hit
+524020 Fire Orb - Cast
+524022 Fire Orb - Moving
+524023 Fire Orb - Hit [E]
 
-526512 Twisted Wall of Light
-
-527402 Pestilent Mist - Bullet
-527403 Pestilent Mist - Hit
-
-528102 Snap Freeze - Close Fog
-528103 Snap Freeze - Far Fog
-528104 Snap Freeze - Back Fog
-
-524002 Fireball - Bullet
-524003 Fireball - Hit
-
-524022 Fire Orb - Bullet
-524023 Fire Orb - Hit
-
+524030 Firestorm - Cast
 524032 Firestorm - Pillar
-524033 Firestorm - Nothing
 524034 Firestorm - Floor Marker
 
-524052 Fire Surge - Bullet
-524053 Fire Surge - Hit
+524052 Fire Surge - Cast
+524053 Fire Surge - Glow
 
-524072 Black Serpent
+524070 Black Fire Orb
+524072 Black Fire Orb - Hit [E]
 
-524112 Great Combustion
+524102 Fire Burst [E]
+
+524112 Great Combustion [E]
 
 524202 Poison Mist
 
@@ -700,10 +726,32 @@
 524222 Acid Surge - Bullet
 524223 Acid Surge - Hit
 
-524502 Great Chaos Fire Orb - Bullet
-524503 Great Chaos Fire Orb - Hit
-524504 Great Chaos Fire Orb - Lava Pool
+524300 Fire Orb - Cast
+524301 Fire Orb - Physical Burst [E]
 
+524310 Fire Orb - Cast
+524311 Fire Orb - Physical Burst [E]
+
+524350 Fire Orb - Cast
+524351 Fire Orb - Font of Fire [E] + Glow
+524352 Fire Orb - Small Fire Trail
+
+524360 Red Star Orb - Cast
+524361 Red Star Orb - Burst [E]
+524363 Red Star Orb - Small
+524364 Red Star Orb - Small
+
+524400 Fire Orb - Cast
+524401 Fire Orb - Physical Burst [E]
+524402 Fire Orb - Red Flames
+
+524500 Chaos Fire Orb - Cast
+524501 Chaos Fire Orb - Burst [E]
+524502 Chaos Fire Orb - Bullet
+524503 Chaos Fire Orb - Burst [E]
+524504 Chaos Fire Orb - Lava
+
+524510 Chaos Storm - Cast
 524512 Chaos Storm - Pillar
 524513 Chaos Storm - Nothing
 524514 Chaos Storm - Floor Marker
@@ -713,104 +761,359 @@
 
 524532 Black Flame
 
-524552 Profaned Flame - Hit
-524553 Profaned Flame - Bullet
+524072 Black Serpent
 
+524550 Profaned Flame - Cast [E]
+524551 Profaned Flame - Cast burst [E]
+524552 Profaned Flame - Hit [E]
+524553 Profaned Flame - Bullet [E]
+
+524560 Chaos Bed Vestiges - Cast
 524562 Chaos Bed Vestiges - Bullet
-524563 Chaos Bed Vestiges - Hit
+524563 Chaos Bed Vestiges - Hit [E]
+
+524702 Warmth
+
+524900 Heal Aid - Cast [E]
+524901 Heal Aid - Cast Burst [E]
+524902 Heal Aid [E]
+524903 Heal Aid - Heal Burst [E]
+
+525000 Heal - Cast [E]
+525001 Heal - Cast Burst [E]
+525002 Heal [E]
+525003 Heal - Heal Burst [E]
+
+525010 Med Heal - Cast [E]
+525011 Med Heal - Cast Burst [E]
+525012 Med Heal [E]
+525013 Med Heal - Heal Burst [E]
+
+525020 Great Heal - Cast [E]
+525021 Great Heal - Cast Burst [E]
+525022 Great Heal [E]
+525023 Great Heal - Heal Burst [E]
+
+525030 Soothing Sunlight - Cast [E]
+525031 Soothing Sunlight - Cast Burst [E]
+525032 Soothing Sunlight [E]
+525033 Soothing Sunlight - Heal Burst [E]
+
+525040 Heal Aura - Cast [E]
+525041 Heal Aura - Cast burst [E]
+525042 Heal Aura
+525043 Heal Aura - Burst [E]
+
+525050 Bountiful Sunlight - Cast [E]
+525051 Bountiful Sunlight - Cast burst [E]
+525052 Bountiful Sunlight [E]
+525053 Bountiful Sunlight [E]
+
+525070 Heal Aura - Cast [E]
+525071 Heal Aura - Cast burst [E]
+525072 Heal Aura
+
+525080 Caressing Tears - Cast [E]
+525081 Caressing Tears - Cast burst [E]
+525082 Caressing Tears [E]
+525083 Caressing Tears - Burst [E]
+
+525200 Healing Orb - Cast [E]
+525202 Healing Orb - Cast Burst [E]
+525203 Healing Orb
+525205 Healing Orb - Light Burst [E]
+
+525210 Healing - Cast [E]
+525211 Healing - Cast burst [E]
+
+525300 Force - Cast [E]
+525302 Force - Bullet [E]
+525303 Force - Hit [E]
+
+525310 Wrath of the Gods - Cast [E]
+525312 Wrath of the Gods - Bullet [E]
+525313 Wrath of the Gods - Hit [E]
+
+525320 Emit Force - Cast [E]
+525322 Emit Force - Bullet
+525323 Emit Force - Hit [E]
+
+525400 Pulsating Heal - Cast [E]
+525401 Pulsating Heal [E]
+
+525500 Lightning Spear - Cast
+525501 Lightning Spear - Cast burst [E]
+525502 Lightning Spear - Bullet
+525503 Lightning Spear - Sparks [E]
+525504 Lightning Spear - Sparks Burst [E]
+
+525510 Great Lightning Spear - Cast
+525511 Great Lightning Spear - Cast burst [E]
+525512 Great Lightning Spear - Bullet
+525513 Great Lightning Spear - Sparks [E]
+525514 Great Lightning Spear - Sparks Burst [E]
+
+525520 Sunlight Spear - Cast
+525521 Sunlight Spear - Cast burst [E]
+525522 Sunlight Spear - Bullet
+525523 Sunlight Spear - Sparks [E]
+525524 Sunlight Spear - Sparks Burst [E]
+
+525530 Lightning Storm - Cast [E]
+525532 Lightning Storm - Burst [E]
+525533 Lightning Storm - Lightning Sparks [E]
+
+525540 Gnaw - Cast [E]
+525541 Gnaw - Cast burst [E]
+525542 Gnaw - Bullet
+525543 Gnaw - Blood Hit [E]
+
+525550 Dorhys' Gnawing - Cast [E]
+525551 Dorhys' Gnawing - Cast burst [E]
+525552 Dorhys' Gnawing - Bullet
+525553 Dorhys' Gnawing - Hit [E]
+
+525600 White Heal - Cast [E]
+525601 White Heal - Cast burst [E]
+525602 White Heal - Resonance
+
+525610 White Heal - Cast [E]
+525611 White Heal - Cast burst [E]
+525612 White Heal - Resonance
+
+525620 Fire Orb
+525621 Fire Orb - Physical Burst [E]
+
+525630 Sunlight Oath - Cast [E]
+525631 Sunlight Oath - Marker
+525632 Sunlight Oath - Marker Fade [E]
+525633 Sunlight Oath - Orange Flames
+525632 Sunlight Oath - Orange Orb [E]
+
+525800 Holy Orb
+525803 White Ground Marker
+
+525810 Vow of Silence [E]
+525811 Vow of Silence - Drop to Ground and Explode [E]
+525812 Vow of Silence - Marker
+
+525900 Lightning Sparks [E]
+525902 Sunlight Sparks 
+
+525910 Darkmoon Orb
+525910 Darkmoon Stars
+
+526000 Dark Orb - Cast
+526003 Dark Orb - Hit [E]
+
+526030 Affinity - Cast [E]
+526031 Affinity - Cast Burst [E]
+526032 Affinity - Bullet
+526035 Affinity - Hit [E]
+526033 Affinity - Homing - Bullet
+526034 Affinity - Homing - Hit [E]
+526035 Affinity - Hit [E]
+
+526100 Black Fire Orb - Cast [E]
+526102 Black Fire Orb - Bullet
+526103 Black Fire Orb - Hit [E]
+
+526130 Dark Edge - Cast [E]
+526132 Dark Edge - Sword [E]
+
+526200 Bursting Fireball - Cast [E]
+526202 Bursting Fireball - Bullet
+526203 Bursting Fireball - Hit [E]
+526204 Bursting Fireball - Bullet
+526205 Bursting Fireball - Hit [E]
+
+526250 Soul Stream - Cast [E]
+526251 Soul Stream - Cast Burst
+526252 Soul Stream - Beam
+526253 Soul Stream - Burst [E]
+526254 Soul Stream - Forming Orb [E]
+
+526302 Boulder Heave - Bullet
+526303 Boulder Heave - Hit
+
+526512 Twisted Wall of Light
+
+526400 Purple Orb [E]
+526402 Purple/Black flames
+
+526450 Fire Orb - Cast [E]
+526451 Fire Orb - Spew Fire
+526452 Fire Orb - Burst [E]
+
+526500 Fire Orb - Cast [E]
+526501 Fire Orb - Physical burst [E]
+526502 Green Flames
+
+526510 Holy Orb - Cast [E]
+526512 Holy Burst [E]
+
+527000 Purple Orb - Cast [E]
+527001 Purple Orb to Ground [E]
+527003 Big Purple Orb
+527004 Big Purple Burst [E]
+
+527100 Lightning Stake - Cast 
+527102 Lightning Stake - Bullet
+527103 Lightning Stake - Burst [E]
+
+527200 Divine Pillars of Light - Cast [E]
+527202 Divine Pillars of Light - Pillar [E]
+527204 Divine Pillars of Light - Ground Marker [E]
+
+527300 Lifehunt Scythe - Cast [E]
+527301 Lifehunt Scythe - Cast burst [E]
+527302 Lifehunt Scythe [E]
+527303 Lifehunt Scythe - Heal [E]
+
+527400 Pestilent Mist - Cast [E]
+527402 Pestilent Mist - Bullet
+527403 Pestilent Mist - Hit [E]
+
+527600 White Orb - Cast [E]
+527602 White Stars
+
+527700 Dark Heal - Cast [E]
+527701 Dark Heal - Cast Burst [E]
+527702 Dark Heal - Aura
+
+527800 Purple Orb - Cast [E]
+527801 Purple Orb to Ground Marker [E]
+527802 Purple Flames
+
+527810 Red Eye with Trail
+
+528100 Snap Freeze - Cast [E]
+528101 Snap Freeze - Cast burst [E]
+528102 Snap Freeze - Close Fog
+528103 Snap Freeze - Far Fog
+528104 Snap Freeze - Back Fog
 
 528112 Floating Chaos - Emitter - Bullet
 528113 Floating Chaos - Emitter - Hit
 528114 Floating Chaos - Bullet
 528115 Floating Chaos - Hit
 
-529003 Flame Fan
-
-524702 Warmth
-
-526002 Dark Orb - Nothing
-526003 Dark Orb - Hit
-
-526102 Black Fire Orb - Bullet
-526103 Black Fire Orb - Hit
-
-526202 Bursting Fireball - Bullet
-526203 Bursting Fireball - Hit
-526204 Bursting Fireball - Bullet
-526205 Bursting Fireball - Hit
-
-526302 Boulder Heave - Bullet
-526303 Boulder Heave - Hit
-
-529102 Seething Chaos - Bullet
-529103 Seething Chaos - Hit
-529104 Seething Chaos - Ground Marker
-529105 Seething Chaos - Ground Marker
-529106 Seething Chaos - Ground Marker
-
-524902 Heal Aid
-
-525002 Heal
-
-525012 Med Heal
-
-525022 Great Heal
-
-525032 Soothing Sunlight
-
-525053 Bountiful Sunlight
-
-525082 Caressing Tears
-
-528602 Lightning Arrow - Bullet
-528603 Lightning Arrow - Hit
-
-525302 Force - Bullet
-525303 Force - Hit
-
-525312 Wrath of the Gods - Bullet
-525313 Wrath of the Gods - Hit
-
-525322 Emit Force - Bullet
-525323 Emit Force - Hit
-
-525501 Lightning Spear - Bullet
-525502 Lightning Spear - Bullet
-525503 Lightning Spear - Sparks
-525504 Lightning Spear - Sparks Burst
-
-525511 Great Lightning Spear - Bullet
-525512 Great Lightning Spear - Bullet
-525513 Great Lightning Spear - Sparks
-525514 Great Lightning Spear - Sparks Burst
-
-525521 Sunlight Spear - Bullet
-525522 Sunlight Spear - Bullet
-525523 Sunlight Spear - Sparks
-525524 Sunlight Spear - Sparks Burst
-
-525533 Lightning Storm - Lightning Sparks
-
-525542 Gnaw - Bullet
-525543 Gnaw - Hit
-
-525552 Dorhys' Gnawing - Bullet
-525553 Dorhys' Gnawing - Hit
-
+528120 Way of White Corona - Cast [E]
+528121 Way of White Corona - Cast burst [E]
 528122 Way of White Corona - Bullet
 528123 Way of White Corona - Hit
 528124 Way of White Corona - Bullet
 
+528201 Orange Flame Burst [E]
+528203 Long Arrow
+528204 Orange Flame Drop [E]
+
+528301 Dragonhead with Orange Flame Aura [E]
+528302 Dragonhead Breath [E]
+528304 Dragonhead Leave [E]
+528306 Dragon Breath
+528307 Fire Spots [E]
+
+528400 Orange Flame Aura [E]
+528403 Big Physical Burst [E]
+528404 Orange Flame Drop [E]
+
+528410 Black Marker [E]
+
+528501 Orange Flame Burst [E] with Dark Orb Behind
+528503 Black Flame Pillar
+528504 Orange Flame Drop [E]
+
+528600 Lightning Arrow - Cast [E]
+528601 Lightning Arrow - Bow Outline in Sparks
+528602 Lightning Arrow - Bullet
+528603 Lightning Arrow - Hit [E]
+528604 Lightning Arrow - Arrow
+528606 Lightning Arrow - Draw Bow [E]
+528607 Lightning Arrow - Release Bow [E]
+528608 Lightning Arrow - Hold Bow
+
+528700 Projected Heal - Cast [E]
 528702 Projected Heal - Bullet
-528705 Projected Heal - Hit
+528703 Projected Heal - Hit [E]
+528704 Projected Heal - Heal Burst [E]
+528705 Projected Heal - Heal [E]
 
-527102 Lightning Stake - Bullet
+528800 Great Soul Dregs - Cast [E]
+528801 Great Soul Dregs - Cast Burst [E]
+528802 Great Soul Dregs - Bullet
+528803 Great Soul Dregs - Hit
 
-527202 Divine Pillars of Light - Pillar
-527204 Divine Pillars of Light - Ground Marker
+528900 Old Moonlight - Cast [E]
+528902 Old Moonlight - Solid into Fade
+528903 Old Moonlight - Bullet [E]
+528904 Old Moonlight - Hit [E]
+528905 Old Moonlight - Sword
+528906 Old Moonlight - Sword [E]
+528907 Old Moonlight - Sword - Glow
+528908 Old Moonlight - Wave - Bullet
+528909 Old Moonlight - Wave - Hit [E]
 
-527003 Purple Orb
-527004 Purple Burst
+529000 Flame Fan - Cast [E]
+529002 Flame Fan - Fire 
+529003 Flame Fan - Fire 
+
+529100 Seething Chaos - Cast [E]
+529102 Seething Chaos - Bullet
+529103 Seething Chaos - Hit [E]
+529104 Seething Chaos - Ground Marker [E]
+529105 Seething Chaos - Ground Marker [E]
+529106 Seething Chaos - Ground Marker [E]
+
+530002 Sparking Orb
+530003 Sparking Orb - Lightning Spike [E]
+530005 Sparking Orb - Burst [E]
+
+530012 White Flame Orb
+530013 White Flame Orb - Spike [E]
+530015 White Flame Orb - Burst [E]
+
+532000 Sorcery Orb - Cast [E]
+532001 Sorcery Orb - Cast burst [E]
+532002 Sorcery Orb - Bullet
+532003 Sorcery Orb - Hit [E]
+
+610700 White eye
+
+610705 Affinity Urn
+610706 Affinity Urn Throw
+610707 Affinity Urn - Purple Burst [E]
+610708 Affinity - Moving
+610709 Affinity - Moving Burst [E]
+
+613000 Deep Red Flames [E]
+613001 Deep Red Flames [E]
+
+613412 Sticky White Stuff
+613413 Sticky White Stuff - Burst [E]
+
+631401 Rapid Embers from Sky
+631402 Fire Spots
+
+631433 Dust Burst [E]
+
+631600 Earth Burst [E]
+631601 Earth Burst - Burst [E] 
+631602 Earth Burst - Swirling Winds
+631605 Earth Burst - Emit Pebbles [E]
+
+631606 Emit Red Sparks [E]
+
+631610 Wind Plane [E]
+631612 Wind Plane - Burst [E]
+631615 Wind Plane - Burst [E]
+
+631620 Pulsating Sparks and Force
+631630 Lighning Pillar
+631640 Flashing Ground
+631641 Lightning Burst [E]
+
+631690 Small Dirt Burst [E]
 
 #------------------------
 # Weapon Arts
@@ -1148,79 +1451,3 @@ These must be tranferred to the common ffx file for implementation.
 302     Near Tip
 303     Tip
 
-#--------------------------------
-# Weapon VFX
-#--------------------------------
-# Nothing
-100
-110
-120
-130
-180     
-
-# Magic
-523052  Crystal Soulmass
-523042  Soulmass
-523312  Blue Aura
-510002  Steady Chant Aura
-303141  Purple Star Light
-440100  Green Star Light
-523102  Magic Energies
-440216  Deep Purple Energies
-303111  Small Crystals
-
-# Lightning
-525522  Sunlight Spear
-525902  Sunlight Sparks
-303011  Lightning Sparks
-
-# Fire
-303001  Fire
-440125  Small Fire
-441035  Fire (Strong)
-440800  Demon's Scar Fire
-528112  Chaos Orb
-440400  Fire Aura
-
-# Frost
-303151  Frost (Small)
-440280  Frost 
-441020  Frost (Intense)
-303131  Frost Aura
-
-# Dark
-441055  Dark Hand
-611301  Dark Vomit
-442331  Dark Orb
-526032  Dark Soulmass
-525542  Gnaw
-441602  Dark Flames
-526402  Dark Energies
-441080  Deep Orb
-
-# Light
-302020  Prism Stone
-303121  Blessed Light
-440473  Light Arua
-
-# Force
-525322  Emit Force
-528122  Corona
-
-# Holy
-525072  Holy Aura
-525622  Holy Energies
-525203  Holy Flames
-441073  Holy Mists
-
-# Other
-526302  Boulder
-4060    Warcry Aura
-4051    Maggots
-512002  Yellow Aura
-4011    Poison
-4071    Dark Poison
-4021    Dust
-524402  Bleed
-527802  Poison Arua
-300101  Dung Pie
