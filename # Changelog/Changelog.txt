@@ -97,7 +97,7 @@
 - Increased the guard physical/fire ABS for the Smelter Hammer.
 - Increased the power of bows/greatbows/crossbows.
 - Made the Millwood Greatbow heavier, the other two lighter.
-# - Magic Moonlight Greatsword now uses the Old Moonlight VFX.
+- Magic Moonlight Greatsword now uses the Old Moonlight VFX.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -153,9 +153,10 @@
 - Surging Deep now sold by Aldrich Faithful.
 
 # Spells
-# - Slowed down the casting animations to 50% normal speed.
-# - Changed the cast speed change to only increase the speed by 50% at 99.
-# - Cast speed from DEX starts from 1 DEX (was 20).
+# - Adjusted the casting animations to slow some of them down. This is to make the spells that use them more risky. In turn, the spells do more damage.
+# - Adjusted the FP and damage of spells to account for this.
+- Changed the cast speed change to only increase the speed by 50% at 99.
+- Cast speed from DEX starts from 1 DEX (was 20).
 - Changed Rockflesh attack deflection to 80.
 - Magic Weapon: adds 40 Magic damage.
 - Great Magic Weapon: adds 50 Magic damage.
@@ -176,7 +177,6 @@
 - Profuse Sweat now boosts resistances by 200 (was 80).
 - Magic Shield: now only boosts stability by 5%.
 - Great Magic Shield: now only boost stability by 10%.
-# - Orbs of Judgment: damage to 50 (was 80)
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -212,6 +212,8 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
+
+Adjust default lock-on
 
 #------------------------------
 # Models
