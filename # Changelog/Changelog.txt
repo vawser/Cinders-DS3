@@ -38,15 +38,15 @@
  - Tin Banishment Catalyst
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
-# - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
+- Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
  
 # Classes
 - Paladin now starts with the Paladin Set and Grant.
 
 # Infusion
 - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
-# - Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
-# - Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
+- Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
+- Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
 
 # Weapons
 - Changed Stone Flesh WA attack deflection to 80.
@@ -94,9 +94,10 @@
 - Added King's Ultra Greatsword. Sold by Andre after killing the Soul of Cinder.
 - Added Rampart Golem Lance. Sold by Greirat after sending him to Irithyll.
 - Added Bewitched Alonne Sword. Sold by Andre after tunring in the Easterner's Ashes.
-# - Increased the guard physical/fire ABS for the Smelter Hammer.
-# - Increased the power of bows/greatbows/crossbows.
-# - Made the Millwood Greatbow heavier, the other two lighter.
+- Increased the guard physical/fire ABS for the Smelter Hammer.
+- Increased the power of bows/greatbows/crossbows.
+- Made the Millwood Greatbow heavier, the other two lighter.
+# - Magic Moonlight Greatsword now uses the Old Moonlight VFX.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -146,7 +147,7 @@
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
 - Moved the Champion's Bones to the treasure in front of Ludleth.
 - Added the Master Key to the Shrine Handmaid shop (Untended Graves version only).
-# - Moved the Ring of the Exalted to the treasure just after the tree jump.
+- Moved the Ring of the Exalted to the treasure just after the tree jump.
 - Seed of a Giant Tree now lasts 300 seconds.
 - Removed the Flask of Magic/Fire/Lightning/Abyss.
 - Surging Deep now sold by Aldrich Faithful.
@@ -177,8 +178,8 @@
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 - Reduced the power of the Soul of Cinder.
 - Champion's Gravetender now drops a Titanite Slab.
-# - Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
-# - Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
+- Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
+- Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -192,7 +193,7 @@
 - Disabled Irithyll Cathedral bonfire upon using Pontiff Sulyvahn dream/nightmare. Lift is also reset.
 - Moved the lift levers to prevent usage during the boss fight.
 - Fixed the Cursed ring curse effects.
-# - Fixed Elkhorn Round Shield effect not matching description.
+- Fixed Elkhorn Round Shield effect not matching description.
 
 #------------------------------
 # TODO 
@@ -207,6 +208,16 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
+
+9984
+Weapon VFX 0	528900
+Weapon VFX 1	528901
+Weapon VFX 2	528902
+Weapon VFX 3	-1
+Weapon VFX 1 Position	420
+Weapon VFX 2 Position	420
+Weapon VFX 3 Position	430
+Weapon VFX 4 Position	-1
 
 #------------------------------
 # Models
