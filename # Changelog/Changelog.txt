@@ -209,15 +209,23 @@ Add weapon localization
  
 Finish the icons for weapons/armor
 
-9984
-Weapon VFX 0	528900
-Weapon VFX 1	528901
-Weapon VFX 2	528902
-Weapon VFX 3	-1
-Weapon VFX 1 Position	420
-Weapon VFX 2 Position	420
-Weapon VFX 3 Position	430
-Weapon VFX 4 Position	-1
+# Flame Fan
+529010 Swing
+
+# Lightning Arrow
+528608 Hold
+528601 Hold
+528604 Hold
+
+# Soul Greatsword
+521970 Swing
+
+# Dark Edge
+521970 Swing
+
+# Lifehunt Scythe
+521970 Swing
+527302 Swing
 
 #------------------------------
 # Models
