@@ -41,7 +41,7 @@
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
 
 # Map
-# - The loading fogwalls in Firelink Shrine no longer appear.
+- The loading fogwalls in Firelink Shrine no longer appear.
  
 # Classes
 - Paladin now starts with the Paladin Set and Grant.
@@ -156,11 +156,11 @@
 - Surging Deep now sold by Aldrich Faithful.
 
 # Spells
-# - Adjusted FP and damage of spells.
-# - Slowed the Soul Arrow cast animation.
-# - Slowed the Lightning Spear cast animation.
-# - Slowed the Heavy Soul Arrow cast animation.
-# - Slowed the Heal cast animation.
+- Adjusted FP and damage of spells.
+- Slowed the Soul Arrow cast animation.
+- Slowed the Lightning Spear cast animation.
+- Slowed the Heavy Soul Arrow cast animation.
+- Slowed the Heal cast animation.
 - Changed the cast speed change to only increase the speed by 50% at 99.
 - Cast speed from DEX starts from 1 DEX (was 20).
 - Changed Rockflesh attack deflection to 80.
@@ -225,18 +225,18 @@ Finish the icons for weapons/armor
 # Weapons
 31100000 Beast Claw [Unique]
     STR focus
-    Effect: each kill boosts damage, lasts 120 seconds.
+    160201120 Effect: each kill boosts damage by 1%, lasts 120 seconds.
     Bestial Fury WA: 1805
     
 31110000 Rakuyo [Unique]
     DEX focus
     Damage scales off LCK
-    Effect: each hit adds 1 LCK, expires after 120 seconds.
+    160201130 Effect: each hit adds 1 LCK, expires after 60 seconds.
     Pierce WA: 805
     
-31120000 Ladle [Normal]
+31120000 Handmaid's Ladle [Normal]
     Low damage, no scaling
-    Effect: Boosts VIT, END by 2
+    160201140 Effect: Boosts VIT, END by 2
     Galvanize WA: 1103
 
 31130000 Crypt Blacksword [Boss]
@@ -290,30 +290,30 @@ Finish the icons for weapons/armor
 31240000 Thrall Harpe [Normal]
     DEX focus
     Quickstep WA: 100
-    Effect: add LCK
+    160201190 Effect: add LCK
 
 31250000 Smouldering Curved Sword [Normal]
     DEX/Fire focus
     Add fire VFX
-    Effect: boosts Fire absorption
+    160201150 Effect: boosts Fire absorption by 10%
     Spin Slash WA: 600
     
 31260000 Smouldering Dagger [Normal]
     DEX/Fire focus
     Add fire VFX
-    Effect: boosts Fire absorption
+    160201160 Effect: boosts Fire absorption by 10%
     Quickstep WA: 100
     
 31270000 Smouldering Spear [Normal]
     DEX/Fire focus
     Add fire VFX
-    Effect: boosts Fire absorption
+    160201170 Effect: boosts Fire absorption by 10%
     Charge WA: 1300
     
 31280000 Thrall Pick [Normal]
     DEX focus
     Quickstep WA: 100
-    Effect: add LCK
+    160201180 Effect: add 5 LCK
     
 31290000 Worker Machete [Normal]
     Quality focus
@@ -321,7 +321,7 @@ Finish the icons for weapons/armor
 
 31300000 Rampart Golem Lance [Unique]
     STR focus
-    Add frost VFX + on hit
+    180020140 / 180020141 Add frost VFX + on hit
     Charge WA: 1306
     
 31310000 Bewitched Alonne Sword [Boss]
@@ -344,7 +344,7 @@ Finish the icons for weapons/armor
 31350000 King's Ultra Greatsword [Boss]
     STR focus
     Warcry WA: 1000
-    Effect: deals more durability damage on hit
+    170000300 Effect: deals more durability damage on hit
     
 31360000 Pilgrim's Spontoon [Unique]
     Magic/Dark focus
@@ -357,12 +357,12 @@ Finish the icons for weapons/armor
 
 31380000 Scythe of Nahr Alma [Unique]
     DEX/Dark focus
-    Inflicts Bleed
+    180010500 / 180010501 Inflicts Bleed
     Neck Swipe WA: 1500
 
 31390000 Scythe of Want [Boss]
     DEX/Dark focus
-    Effect: each kill boosts soul absorption. Lasts 300 seconds.
+    160201200 Effect: each kill boosts soul absorption. Lasts 300 seconds.
     Neck Swipe WA: 1500
 
 31400000 Crab Claw [Unique]
