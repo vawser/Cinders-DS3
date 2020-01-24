@@ -38,12 +38,15 @@
  - Tin Banishment Catalyst
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
+# - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
  
 # Classes
 - Paladin now starts with the Paladin Set and Grant.
 
 # Infusion
 - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
+# - Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
+# - Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
 
 # Weapons
 - Changed Stone Flesh WA attack deflection to 80.
@@ -91,6 +94,9 @@
 - Added King's Ultra Greatsword. Sold by Andre after killing the Soul of Cinder.
 - Added Rampart Golem Lance. Sold by Greirat after sending him to Irithyll.
 - Added Bewitched Alonne Sword. Sold by Andre after tunring in the Easterner's Ashes.
+# - Increased the guard physical/fire ABS for the Smelter Hammer.
+# - Increased the power of bows/greatbows/crossbows.
+# - Made the Millwood Greatbow heavier, the other two lighter.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -133,13 +139,14 @@
 - Wolf Ring: Boosts poise by 20%.
 - Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
 - Ring of Londor: Restores 1 FP every second whilst at 100% HP.
-# - Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
-# - Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
+- Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
+- Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
 - Moved the Champion's Bones to the treasure in front of Ludleth.
-- Added the Ring of the Exalted and the Master Key to the Shrine Handmaid shop (Untended Graves version only).
+- Added the Master Key to the Shrine Handmaid shop (Untended Graves version only).
+# - Moved the Ring of the Exalted to the treasure just after the tree jump.
 - Seed of a Giant Tree now lasts 300 seconds.
 - Removed the Flask of Magic/Fire/Lightning/Abyss.
 - Surging Deep now sold by Aldrich Faithful.
@@ -170,6 +177,8 @@
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 - Reduced the power of the Soul of Cinder.
 - Champion's Gravetender now drops a Titanite Slab.
+# - Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
+# - Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -182,8 +191,8 @@
 - Enabled side door fogwall during Pontiff Sulyvahn boss fight.
 - Disabled Irithyll Cathedral bonfire upon using Pontiff Sulyvahn dream/nightmare. Lift is also reset.
 - Moved the lift levers to prevent usage during the boss fight.
-# - Fixed the Green/Violet Tearstone Ring.
-# - Fixed the Cursed ring curse effects.
+- Fixed the Cursed ring curse effects.
+# - Fixed Elkhorn Round Shield effect not matching description.
 
 #------------------------------
 # TODO 
@@ -202,182 +211,148 @@ Finish the icons for weapons/armor
 #------------------------------
 # Models
 #------------------------------
-13620000 Velka's Talisman [Unique] - DONE
-    Scales Miracles with INT
-    Velka's Grace WA: Steady Chant WA, boosts cast speed
-
-13630000 Consumed King's Staff [Boss] - DONE
-    Pestilent Mist WA: Poison Spores WA, emits curse mist
-
-13640000 Rotten Talisman [Normal] - DONE
-    Unfaltering Prayer WA
-    Inflicts poison
-
-13650000 Smouldering Talisman [Normal] - DONE
-    Unfaltering Prayer WA
-    Effect: fire absorption
-    add fire vfx
-    Miracles and Pyromancies
-
-22280000 Crystal Ring Shield [Unique]
-    High magic absorption
-    Effect: boosts Magic absorption
-    Shield Bash WA: but emits magic burst on contact
-
-22290000 Sanctus [Unique]
-    Parry WA
-    Effect: restores HP
-
-22300000 Shield of the Hunted [Normal]
-    Shield Bash WA
-    
-22310000 Smouldering Shield [Normal]
-    Add fire VFX
-    Inflicts physical/fire damage
-    Effect: boosts Fire absorption
-    Shield Bash WA
-    
+# Weapons
 31100000 Beast Claw [Unique]
     STR focus
     Effect: each kill boosts damage, lasts 120 seconds.
-    Bestial Flurry WA: Raptor Flurry WA
+    Bestial Fury WA: 1805
     
 31110000 Rakuyo [Unique]
     DEX focus
     Damage scales off LCK
     Effect: each hit adds 1 LCK, expires after 120 seconds.
-    Pierce WA: Darkdrift WA
+    Pierce WA: 805
     
 31120000 Ladle [Normal]
     Low damage, no scaling
     Effect: Boosts VIT, END by 2
-    Galvanize WA
+    Galvanize WA: 1103
 
 31130000 Crypt Blacksword [Boss]
     STR/Dark focus
-    Cryptic Wrath WA: Earthen Wrath WA but with dark VFX
+    Undead Wrath WA: 1009
 
 31140000 Smelter Sword [Boss]
     STR/Fire focus
     Add fire vfx on heavy attacks
-    Smelter's Fury WA: Flame of Lorian WA
+    Smelter's Fury WA: 414
 
 31150000 Blue Flame [Unique]
     Sorcery catalyst
-    Steady Chant WA
+    Steady Chant WA: 2200
 
 31160000 Ash Demon Hammer [Boss]
     STR focus
-    Quake WA
+    Quake WA: 1207
 
 31170000 Elder Ghru Tree [Unique]
     STR focus
-    Elder Spirits WA: Morne's Rage WA but with the red skull VFX and bullets
+    Ghru Spirits WA: 1212
     
 31180000 Giant Crab Arm [Unique]
     STR focus
-    Bubblebeam WA: Kindled Flurry WA but with the crab spit VFX
+    Bubblebeam WA: 1213
 
 31190000 Hunter's Log [Normal]
     STR focus
-    Charge WA
+    Charge WA: 1300
 
 31200000 Serpentine Twindaggers [Normal]
     STR focus
-    Quickstep WA
+    Quickstep WA: 2500
     Add guard bypass to attacks
     
 31210000 Shiv [Normal]
-    Blind Spot WA
+    Blind Spot WA: 104
     Add guard bypass to attacks
     
 31220000 Serpentine Hatchet [Normal]
     STR focus
-    Warcry WA
+    Warcry WA: 900
     Add guard bypass to attacks
     
 31230000 Serpentine Axe [Normal]
     STR focus
-    Warcry WA
+    Warcry WA: 904
     Add guard bypass to attacks
     
 31240000 Thrall Harpe [Normal]
     DEX focus
-    Quickstep WA
+    Quickstep WA: 100
     Effect: add LCK
 
 31250000 Smouldering Curved Sword [Normal]
     DEX/Fire focus
     Add fire VFX
     Effect: boosts Fire absorption
-    Spin Slash WA
+    Spin Slash WA: 600
     
 31260000 Smouldering Dagger [Normal]
     DEX/Fire focus
     Add fire VFX
     Effect: boosts Fire absorption
-    Quickstep WA
+    Quickstep WA: 100
     
 31270000 Smouldering Spear [Normal]
     DEX/Fire focus
     Add fire VFX
     Effect: boosts Fire absorption
-    Charge WA
+    Charge WA: 1300
     
 31280000 Thrall Pick [Normal]
     DEX focus
-    Quickstep WA
+    Quickstep WA: 100
     Effect: add LCK
     
 31290000 Worker Machete [Normal]
     Quality focus
-    Spin Slash WA
+    Spin Slash WA: 600
 
 31300000 Rampart Golem Lance [Unique]
     STR focus
     Add frost VFX + on hit
-    Charge WA
+    Charge WA: 1306
     
 31310000 Bewitched Alonne Sword [Boss]
     DEX focus
-    Seppuku WA: Bloodlust WA
+    Seppuku WA: 806
     
 31320000 Bone Scythe [Unique]
     STR focus
     Add 100% guard bypass to attacks
-    Neck Swipe WA
+    Neck Swipe WA: 1500
 
 31330000 Dragonrider Halberd [Boss]
     Quality focus
-    Charge WA
+    Charge WA: 1406
     
 31340000 Key to the Embedded [Unique]
     DEX focus
-    Stance WA
+    Stance WA: 300
     
 31350000 King's Ultra Greatsword [Boss]
     STR focus
-    Warcry WA
+    Warcry WA: 1000
     Effect: deals more durability damage on hit
     
 31360000 Pilgrim's Spontoon [Unique]
     Magic/Dark focus
     Sorcery catalyst
-    Steady Chant WA
+    Steady Chant WA: 1304
     
 31370000 Sacred Chime Hammer [Unique]
     STR/Dark focus
-    Dark Cry WA: Morne's Rage WA but emits affinity orbs in circle around player
+    Abyssal Howl WA: 1214
 
 31380000 Scythe of Nahr Alma [Unique]
     DEX/Dark focus
     Inflicts Bleed
-    Neck Swipe WA
+    Neck Swipe WA: 1500
 
 31390000 Scythe of Want [Boss]
     DEX/Dark focus
     Effect: each kill boosts soul absorption. Lasts 300 seconds.
-    Neck Swipe WA
+    Neck Swipe WA: 1500
 
 31400000 Crab Claw [Unique]
     STR focus
