@@ -230,12 +230,11 @@ Finish the icons for weapons/armor
     
 31110000 Rakuyo [Unique]
     DEX focus
-    Damage scales off LCK
-    160201130 Effect: each hit adds 1 LCK, expires after 60 seconds.
+    160201130 Effect: each hit adds 1 DEX, expires after 60 seconds.
     Pierce WA: 805
     
 31120000 Handmaid's Ladle [Normal]
-    Low damage, no scaling
+    Low damage, min scaling
     160201140 Effect: Boosts VIT, END by 2
     Galvanize WA: 1103
 

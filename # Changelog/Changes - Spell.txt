@@ -54,7 +54,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Arrow
 #--------------------------------
 - FP Cost: 30
-- Magic Damage: 250
+- Magic Damage: 300
 - Slot Usage: 1
 
 - INT Req: 15
@@ -65,7 +65,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Soul Arrow
 #--------------------------------
 - FP Cost: 40
-- Magic Damage: 300
+- Magic Damage: 400
 - Slot Usage: 1
 
 - INT Req: 20
@@ -75,7 +75,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Spear
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 400
+- Magic Damage: 500
 - Slot Usage: 1
 
 - INT Req: 30
@@ -85,7 +85,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 60
-- Magic Damage: 500 
+- Magic Damage: 600 
 - Slot Usage: 1
 
 - INT Req: 40
@@ -1118,7 +1118,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Deep Soul
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 250 
+- Dark Damage: 300 
 - Slot Usage: 1
 - Inflicts Curse.
 
@@ -1130,7 +1130,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Deep Soul
 #--------------------------------
 - FP Cost: 40
-- Dark Damage: 300 
+- Dark Damage: 400 
 - Slot Usage: 1
 - Inflicts Curse.
 
@@ -1142,11 +1142,11 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Soul Dregs
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500 
+- Dark Damage: 600 
 - Slot Usage: 1
 - Inflicts Curse.
 
-- INT Req: 36
+- INT Req: 40
 - FTH Req: 10
 - Source: Treasure - Dreg Heap
 
@@ -1158,7 +1158,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Slot Usage: 1
 - Effect: removes 1000 souls upon use. Doesn't affect damage.
 
-- INT Req: 50
+- INT Req: 40
 - FTH Req: 10
 - Source: Covenant - Aldrich Faithful
 
