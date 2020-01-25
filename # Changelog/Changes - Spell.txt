@@ -227,7 +227,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: inflicts 240 Curse whilst active.
+- Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds
+and 
 
 - INT Req: 25
 - Source: Orbeck - Any Scroll

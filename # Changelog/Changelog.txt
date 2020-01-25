@@ -183,6 +183,7 @@
 - Profuse Sweat now boosts resistances by 200 (was 80).
 - Magic Shield: now only boosts stability by 5%.
 - Great Magic Shield: now only boost stability by 10%.
+# - Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -204,6 +205,7 @@
 - Moved the lift levers to prevent usage during the boss fight.
 - Fixed the Cursed ring curse effects.
 - Fixed Elkhorn Round Shield effect not matching description.
+# - Fixed Pestilent Mist not applying Curse.
 
 #------------------------------
 # TODO 
