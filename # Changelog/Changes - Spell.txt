@@ -24,7 +24,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Dart
 #--------------------------------
 - FP Cost: 10
-- Magic Damage: 80
+- Magic Damage: 150
 - Slot Usage: 1
 
 - Source: Orbeck - Default
@@ -33,7 +33,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Flashsword
 #--------------------------------
 - FP Cost: 10
-- Magic Damage: 90
+- Magic Damage: 150
 - Slot Usage: 1
 
 - INT Req: 10
@@ -44,7 +44,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Farron Dart
 #--------------------------------
 - FP Cost: 20
-- Magic Damage: 120
+- Magic Damage: 200
 - Slot Usage: 1
 
 - INT Req: 10
@@ -75,7 +75,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Spear
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 500
+- Magic Damage: 600
 - Slot Usage: 1
 
 - INT Req: 30
@@ -85,7 +85,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 60
-- Magic Damage: 600 
+- Magic Damage: 800 
 - Slot Usage: 1
 
 - INT Req: 40
@@ -116,7 +116,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Geyser
 #--------------------------------
 - FP Cost: 100
-- Magic Damage: 120 [120]
+- Magic Damage: 150 [150]
 - Slot Usage: 1
 
 - INT Req: 50
@@ -126,7 +126,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # White Dragon Breath
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 500 [300] 
+- Magic Damage: 600 [300] 
 - Slot Usage: 1
 
 - INT Req: 40
@@ -146,7 +146,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Hail
 #--------------------------------
 - FP Cost: 20
-- Magic Damage: 80 (per bullet)
+- Magic Damage: 150 (per bullet)
 - Slot Usage: 1
 
 - INT Req: 15
@@ -156,7 +156,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Crystal Hail
 #--------------------------------
 - FP Cost: 80
-- Magic Damage: 80 (per bullet) 
+- Magic Damage: 150 (per bullet) 
 - Slot Usage: 1
 
 - INT Req: 20
@@ -166,7 +166,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Greatsword
 #--------------------------------
 - FP Cost: 40
-- Magic Damage: 400
+- Magic Damage: 500
 - Slot Usage: 1
 
 - INT Req: 25
@@ -176,7 +176,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Old Moonlight
 #--------------------------------
 - FP Cost: 60
-- Magic Damage: 500 (600 charged) [200]
+- Magic Damage: 500 (800 charged) [200]
 - Slot Usage: 1
 
 - INT Req: 40
@@ -186,7 +186,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Wave
 #--------------------------------
 - FP Cost: 40
-- Magic Damage: 200
+- Magic Damage: 300
 - Slot Usage: 1
 
 - INT Req: 20
@@ -216,7 +216,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Orbs of Judgment
 #--------------------------------
 - FP Cost: 75
-- Magic Damage: 80 per bullet
+- Magic Damage: 100 per bullet
 - Slot Usage: 1
 
 - INT Req: 30
@@ -435,7 +435,7 @@ and
 # Flame Fan
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 100
+- Fire Damage: 150
 - Slot Usage: 1
 
 - Source: Drop - Desert Pyromancer Zoey - Dreg Heap
@@ -444,7 +444,7 @@ and
 # Fireball
 #--------------------------------
 - FP Cost: 30
-- Fire Damage: 250 [150] 
+- Fire Damage: 300 [150] 
 - Slot Usage: 1
 
 - Source: Class - Pyromancer
@@ -454,7 +454,7 @@ and
 # Fire Orb
 #--------------------------------
 - FP Cost: 40
-- Fire Damage: 300 [200] 
+- Fire Damage: 400 [200] 
 - Slot Usage: 1
 
 - Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
@@ -490,7 +490,7 @@ and
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 400 [200] [350] 
+- Fire Damage: 600 [200] [350] 
 - Slot Length: 1
 
 - Source: Cornyx - Izalith Pyromancy Tome - Smouldering Lake
@@ -526,7 +526,7 @@ and
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 60
-- Fire Damage: 500 [200] 
+- Fire Damage: 800 [200] 
 - Slot Length: 1
 
 - Source: Boss Soul - Old Demon King
@@ -553,7 +553,7 @@ and
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 35
-- Fire Damage: 75 [75]
+- Fire Damage: 100 [100]
 - Slot Usage: 1
 
 - Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
@@ -580,7 +580,7 @@ and
 # Seething Chaos
 #--------------------------------
 - FP Cost: 40
-- Fire Damage: 300 [600] #
+- Fire Damage: 300 [600] 
 - Slot Usage: 1
 
 - Source: Boss Soul - Old Demon King
@@ -589,7 +589,7 @@ and
 # Wretch Earth
 #--------------------------------
 - FP Cost: 50
-- Physical Damage: 500 
+- Physical Damage: 600 
 - Slot Usage: 1
 
 - Source: Treasure - Painted World of Ariandel
@@ -738,7 +738,7 @@ and
 # Way of White Corona
 #--------------------------------
 - FP Cost: 25
-- Physical Damage: 75 [75] [75]
+- Physical Damage: 100 [100] [100]
 - Cast Speed: 1
 
 - Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
@@ -757,7 +757,7 @@ and
 # Emit Force
 #--------------------------------
 - FP Cost: 30
-- Physical Damage: 300 [200] 
+- Physical Damage: 400 [200] 
 - Slot Usage: 1
 
 - FTH Req: 10
@@ -767,7 +767,7 @@ and
 # Wrath of the Gods
 #--------------------------------
 - FP Cost: 50
-- Physical Damage: 600 
+- Physical Damage: 900 
 - Slot Usage: 1
 
 - FTH Req: 30
@@ -777,7 +777,7 @@ and
 # Lightning Spear
 #--------------------------------
 - FP Cost: 40
-- Lightning Damage: 400 [100] [200] 
+- Lightning Damage: 500 [100] [200] 
 - Slot Usage: 1
 
 - FTH Req: 16
@@ -788,7 +788,7 @@ and
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 50
-- Lightning Damage: 500 [150] [300] 
+- Lightning Damage: 700 [150] [300] 
 - Slot Usage: 1
 
 - FTH Req: 30
@@ -798,7 +798,7 @@ and
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 60
-- Lightning Damage: 600 [200] [400] 
+- Lightning Damage: 900 [200] [400] 
 - Slot Usage: 1
 
 - FTH Req: 40
@@ -808,7 +808,7 @@ and
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 20
-- Lightning Damage: 120
+- Lightning Damage: 150
 - Slot Usage: 1
 
 - FTH Req: 10
@@ -828,7 +828,7 @@ and
 # Lightning Stake
 #--------------------------------
 - FP Cost: 50
-- Lightning Damage: 600 [400] 
+- Lightning Damage: 800 [400] 
 - Slot Usage: 1
 
 - FTH Req: 30
@@ -1098,7 +1098,7 @@ and
 # Deep Barb
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 80
+- Dark Damage: 150
 - Slot Usage: 1
 - Inflicts Curse.
 
@@ -1140,22 +1140,10 @@ and
 - Source: Treasure - Irithyll of the Boreal Valley
 
 #--------------------------------
-# Great Soul Dregs
-#--------------------------------
-- FP Cost: 50
-- Dark Damage: 600 
-- Slot Usage: 1
-- Inflicts Curse.
-
-- INT Req: 40
-- FTH Req: 10
-- Source: Treasure - Dreg Heap
-
-#--------------------------------
 # Climax
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500 
+- Dark Damage: 600 
 - Slot Usage: 1
 - Effect: removes 1000 souls upon use. Doesn't affect damage.
 
@@ -1164,10 +1152,22 @@ and
 - Source: Covenant - Aldrich Faithful
 
 #--------------------------------
+# Great Soul Dregs
+#--------------------------------
+- FP Cost: 50
+- Dark Damage: 800 
+- Slot Usage: 1
+- Inflicts Curse.
+
+- INT Req: 40
+- FTH Req: 10
+- Source: Treasure - Dreg Heap
+
+#--------------------------------
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 40
-- Dark Damage: 500  
+- Dark Damage: 600  
 - Slot Usage: 1
 
 - INT Req: 28
@@ -1357,7 +1357,7 @@ and
 # Nibble
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 80
+- Dark Damage: 150
 - Slot Usage: 1
 - Inflicts Bleed on the target.
 
@@ -1367,7 +1367,7 @@ and
 # Gnaw
 #--------------------------------
 - FP Cost: 25
-- Dark Damage: 200
+- Dark Damage: 300
 - Slot Usage: 1
 - Inflicts Bleed on the target.
 
@@ -1380,7 +1380,7 @@ and
 # Dorhys' Gnawing
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 300
+- Dark Damage: 600
 - Slot Usage: 1
 - Inflicts Bleed on the target.
 

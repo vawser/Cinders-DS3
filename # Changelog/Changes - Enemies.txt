@@ -42,7 +42,7 @@
 - Absorption: Magic:        80%
 - Absorption: Fire:         150%
 - Absorption: Lightning:    80%
-- Absorption: Dark:         30%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 
 # Crystal Sage
@@ -52,10 +52,10 @@
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
 - Absorption: Thrust:       100%
-- Absorption: Magic:        25%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Magic:        50%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Deacons of the Deep
@@ -65,10 +65,10 @@
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
 - Absorption: Thrust:       100%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         25%
+- Absorption: Magic:        70%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
@@ -92,10 +92,10 @@
 - Absorption: Slash:        60%
 - Absorption: Strike:       50%
 - Absorption: Thrust:       60%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
+- Absorption: Magic:        60%
+- Absorption: Fire:         60%
 - Absorption: Lightning:    80%
-- Absorption: Dark:         25%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 - Considered Undead and Abyssal.
 
@@ -106,10 +106,10 @@
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       70%
-- Absorption: Magic:        50%
-- Absorption: Fire:         20%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Magic:        60%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 - Considered Demon.
 
@@ -120,10 +120,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       90%
-- Absorption: Magic:        25%
-- Absorption: Fire:         40%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         40%
+- Absorption: Magic:        50%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 
 # Pontiff Sulyvahn - Clone
@@ -132,10 +132,10 @@
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
 - Absorption: Thrust:       50%
-- Absorption: Magic:        25%
-- Absorption: Fire:         40%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         40%
+- Absorption: Magic:        50%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 
 # Aldrich, Devourer of Gods
@@ -145,10 +145,10 @@
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
 - Absorption: Thrust:       75%
-- Absorption: Magic:        25%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    80%
-- Absorption: Dark:         25%
+- Absorption: Magic:        50%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 - Considered Abyssal.
 
@@ -159,10 +159,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       90%
-- Absorption: Magic:        50%
-- Absorption: Fire:         25%
+- Absorption: Magic:        70%
+- Absorption: Fire:         50%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         50%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Dancer of the Boreal Valley
@@ -172,10 +172,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
 - Absorption: Thrust:       80%
-- Absorption: Magic:        50%
-- Absorption: Fire:         75%
-- Absorption: Lightning:    75%
-- Absorption: Dark:         50%
+- Absorption: Magic:        60%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 
 # Oceiros, the Consumed King
@@ -213,7 +213,7 @@
 - Absorption: Strike:       90%
 - Absorption: Thrust:       80%
 - Absorption: Magic:        50%
-- Absorption: Fire:         25%
+- Absorption: Fire:         50%
 - Absorption: Lightning:    100%
 - Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
@@ -237,10 +237,10 @@
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       70%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    25%
-- Absorption: Dark:         60%
+- Absorption: Magic:        70%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    50%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Champion Gundyr 
@@ -250,10 +250,10 @@
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       70%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Magic:        75%
+- Absorption: Fire:         75%
+- Absorption: Lightning:    75%
+- Absorption: Dark:         75%
 - Affected by: Poison, Bleed, Frost
 
 # Lorian, Elder Prince
@@ -263,10 +263,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
 - Absorption: Thrust:       80%
-- Absorption: Magic:        50%
-- Absorption: Fire:         25%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Magic:        75%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    90%
+- Absorption: Dark:         75%
 - Affected by: Poison, Bleed, Frost
 
 # Lothric, Younger Prince 
@@ -276,10 +276,10 @@
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
 - Absorption: Thrust:       100%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Magic:        75%
+- Absorption: Fire:         75%
+- Absorption: Lightning:    75%
+- Absorption: Dark:         75%
 - Affected by: Poison, Bleed, Frost
 
 # Soul of Cinder 
@@ -289,10 +289,10 @@
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       70%
-- Absorption: Magic:        50%
+- Absorption: Magic:        75%
 - Absorption: Fire:         50%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Lightning:    75%
+- Absorption: Dark:         75%
 - Affected by: Poison, Bleed, Frost
 
 # Sister Friede
@@ -303,10 +303,10 @@
 - Absorption: Slash:        90%
 - Absorption: Strike:       90%
 - Absorption: Thrust:       100%
-- Absorption: Magic:        50%
-- Absorption: Fire:         50%
+- Absorption: Magic:        60%
+- Absorption: Fire:         60%
 - Absorption: Lightning:    80%
-- Absorption: Dark:         25%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 
 # Father Ariandel 
@@ -328,10 +328,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
 - Absorption: Thrust:       90%
-- Absorption: Magic:        50%
+- Absorption: Magic:        70%
 - Absorption: Fire:         80%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Demon Prince
@@ -360,10 +360,10 @@
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
 - Absorption: Thrust:       60%
-- Absorption: Magic:        40%
-- Absorption: Fire:         30%
-- Absorption: Lightning:    60%
-- Absorption: Dark:         25%
+- Absorption: Magic:        55%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 - Considered Abyssal.
 

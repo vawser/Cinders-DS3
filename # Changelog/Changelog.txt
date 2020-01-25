@@ -101,6 +101,14 @@
 - Increased the power of bows/greatbows/crossbows.
 - Made the Millwood Greatbow heavier, the other two lighter.
 - Magic Moonlight Greatsword now uses the Old Moonlight VFX.
+# - Increased ammunition damage.
+# - Onislayer Greatarrow now has natural shield penetration.
+# - Millwood Greatarrows are now slower.
+# - Sniper Bolts now has natural shield penetration and move much faster.
+# - Logan's Staff: Logan's Focus now just reduces spell FP cost by 50% for 15 seconds.
+# - Sage's Crystal Staff: Crystallization now boosts sorcery damage by 20%, but increases FP cost by 25% for 15 seconds.
+# - Manus Catalyst: Fury of Manus now boosts dark sorcery damage by 20%, but inflicts Curse on self for 15 seconds.
+# - Tin Banishment Catalyst: now has Banish WA, applies rapport effect.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -156,11 +164,13 @@
 - Surging Deep now sold by Aldrich Faithful.
 
 # Spells
+# - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
 - Adjusted FP and damage of spells.
 - Slowed the Soul Arrow cast animation.
 - Slowed the Lightning Spear cast animation.
 - Slowed the Heavy Soul Arrow cast animation.
 - Slowed the Heal cast animation.
+# - Adjusted which spells use which animations.
 - Changed the cast speed change to only increase the speed by 50% at 99.
 - Cast speed from DEX starts from 1 DEX (was 20).
 - Changed Rockflesh attack deflection to 80.
@@ -183,7 +193,9 @@
 - Profuse Sweat now boosts resistances by 200 (was 80).
 - Magic Shield: now only boosts stability by 5%.
 - Great Magic Shield: now only boost stability by 10%.
-# - Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
+- Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
+# - Fire Surge: now partially bypasses shield absorption if the target is guarding.
+# - Great Lightning Spear/Sunlight Spear: now knocks target down.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -191,6 +203,7 @@
 - Champion's Gravetender now drops a Titanite Slab.
 - Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
 - Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
+# - Reduced some of the more punishing absorptions on bosses (the max is now 50% reduced, rather than 75%).
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -205,7 +218,7 @@
 - Moved the lift levers to prevent usage during the boss fight.
 - Fixed the Cursed ring curse effects.
 - Fixed Elkhorn Round Shield effect not matching description.
-# - Fixed Pestilent Mist not applying Curse.
+- Fixed Pestilent Mist not applying Curse.
 
 #------------------------------
 # TODO 
@@ -220,6 +233,37 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
+
+Sunlight Talisman
+    Shower of Sunlight
+    Emit heavenly thunder (but shorter)
+    
+Lord's Chime
+    Lord's Bellow
+    Emit wrath of the gods
+    
+Caitha's Chime
+    Caitha's Affliction
+    Emit powerful gnaw
+    
+Crystal Chime
+    Crystallization
+    boosts all damage by 20%, but increases FP cost by 25% for 15 seconds.
+    
+Insanity Catalyst
+    Insanity
+    Removes 90% of HP, but grants damage buff of 30% for 20 seconds.
+    
+Talisman of Beasts
+    Bestial Wrath
+    Boosts casting speed by 50 for 15 seconds
+    
+Rotten Talisman
+    Emit poison spores
+    
+Smouldering Talisman
+    Immolate
+    Add flames to self, emit aura of flame that harms enemies
 
 #------------------------------
 # Models
