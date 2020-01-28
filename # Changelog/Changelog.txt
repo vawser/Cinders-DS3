@@ -109,14 +109,14 @@
 - Sage's Crystal Staff: Crystallization now boosts sorcery damage by 20%, but increases FP cost by 25% for 15 seconds.
 - Manus Catalyst: Fury of Manus now boosts dark sorcery damage by 20%, but inflicts Curse on self for 15 seconds.
 - Tin Banishment Catalyst: now has Banish WA, applies rapport effect.
-# - Sunlight Talisman: added Shower of Sunlight WA, emits short heavenly thunder.
-# - Lord's Chime: added Lord's Bellow WA, emits wrath of the gods
-# - Caitha's Chime: added Caitha's Affliction Wa, emits powerful gnaw
-# - Crystal Chime: added Crystallization WA, boosts miracle damage by 20%, but increases FP costs by 20%. Lasts 15 seconds.
-# - Insanity Catalyst: removed passive effect, added Insanity WA, boosts damage by 30% but removes 5% HP per second. Lasts 20 seconds
-# - Talisman of Beasts: added Bestial Wrath WA, boosts casting speed by 50 for 15 seconds.
-# - Rotten Talisman: added Poison Spores WA.
-# - Smouldering Talisman: added Immolate WA, burning self and nearby foes.
+- Sunlight Talisman: added Shower of Sunlight WA, emits short heavenly thunder.
+- Lord's Chime: added Lord's Bellow WA, emits wrath of the gods
+- Caitha's Chime: added Caitha's Affliction Wa, emits powerful gnaw
+- Crystal Chime: added Crystallization WA, boosts miracle damage by 20%, but increases FP costs by 20%. Lasts 15 seconds.
+- Insanity Catalyst: removed passive effect, added Insanity WA, boosts damage by 30% but removes 5% HP per second. Lasts 20 seconds
+- Talisman of Beasts: added Bestial Wrath WA, boosts casting speed by 50 for 15 seconds.
+- Rotten Talisman: added Poison Spores WA.
+- Smouldering Talisman: added Immolate WA, burning self and nearby foes.
 
 # Status Effects
 - Curse: now lasts for 300 seconds, rather than forever.
@@ -125,7 +125,9 @@
 - Reduced the aux values on weapons.
 
 # Armor
-- Poise now works on in a similar way to DS2, albeit in a form that means passive poise is still present.
+- Poise now works on in a similar way to DS2. You have poise passively,
+with an increased ratio during attacks. Poise Health is only restored after
+being staggered. 
 - Due to this, the poise value on armor has been increased and it is now present on all pieces.
 - The poise icon and value in the menu has been restored.
 - Reduced the weight of heavier armor.
@@ -227,6 +229,7 @@
 - Fixed the Cursed ring curse effects.
 - Fixed Elkhorn Round Shield effect not matching description.
 - Fixed Pestilent Mist not applying Curse.
+# - Velka's Rapier hitbox is no longer ultra-scuffed.
 
 #------------------------------
 # TODO 
@@ -241,7 +244,6 @@ Add weapon localization
  - Add WA description
  
 Finish the icons for weapons/armor
-
 
 #------------------------------
 # Models

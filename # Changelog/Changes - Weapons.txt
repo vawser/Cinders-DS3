@@ -142,9 +142,6 @@ Sunlight Talisman
 Sunless Talisman
 - Effect: increases max FP by 10%.
 
-Insanity Catalyst 
-- Effect: lose 1% of health every second.
-
 Firelink Dagger 
 - Effect: increases max HP, FP and Stamina by 5%.
 
@@ -164,7 +161,7 @@ Hallowed Greatsword
 - Effect: increases Item Discovery by 25.
 
 Chikage
-- Effect: absorbs HP on hit, restoring 1% HP.
+- Effect: absorbs HP on death, restoring 3% HP upon the death of a foe.
 
 Nil Blade
 - Effect: increases damage by 10% when Hollow.
