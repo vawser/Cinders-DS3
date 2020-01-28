@@ -229,7 +229,7 @@ being staggered.
 - Fixed the Cursed ring curse effects.
 - Fixed Elkhorn Round Shield effect not matching description.
 - Fixed Pestilent Mist not applying Curse.
-# - Velka's Rapier hitbox is no longer ultra-scuffed.
+- Velka's Rapier hitbox is no longer ultra-scuffed.
 
 #------------------------------
 # TODO 
@@ -250,28 +250,10 @@ Finish the icons for weapons/armor
 #------------------------------
 # Weapons
 31100000 Beast Claw [Unique]
-    STR focus
-    160201120 Effect: each kill boosts damage by 1%, lasts 120 seconds.
-    Bestial Fury WA: 1805
-    
 31110000 Rakuyo [Unique]
-    DEX focus
-    160201130 Effect: each hit adds 1 DEX, expires after 60 seconds.
-    Pierce WA: 805
-    
 31120000 Handmaid's Ladle [Normal]
-    Low damage, min scaling
-    160201140 Effect: Boosts VIT, END by 2
-    Galvanize WA: 1103
-
 31130000 Crypt Blacksword [Boss]
-    STR/Dark focus
-    Undead Wrath WA: 1009
-
 31140000 Smelter Sword [Boss]
-    STR/Fire focus
-    Add fire vfx on heavy attacks
-    Smelter's Fury WA: 414
 
 31150000 Blue Flame [Unique]
     Sorcery catalyst
