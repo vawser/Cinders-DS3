@@ -293,7 +293,7 @@ and
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: Adds 30% absorption and 10% stability to main shield for 60 seconds.
+- Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
 
 - INT Req: 20
 - Source: Orbeck - Default
@@ -303,7 +303,7 @@ and
 #--------------------------------
 - FP Cost: 100
 - Slot Usage: 1
-- Effect: Adds max absorption and 20% stability to main shield for 30 seconds.
+- Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
 
 - INT Req: 30
 - Source: Treasure - Cathedral of the Deep - Rosaria Quest
@@ -1005,7 +1005,7 @@ and
 #--------------------------------
 - FP Cost: 50
 - Slot Usage: 1
-- Effect: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster.
+- Effect: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. Lasts 30 seconds.
 
 - FTH Req: 10
 - Source: Treasure - Farron Keep
@@ -1086,7 +1086,7 @@ and
 #--------------------------------
 - FP Cost: 0
 - Slot Usage: 1
-- Exchange 5% HP for 5% FP every 0.25 seconds whilst held.
+- Exchange 1% HP for 1% FP every 0.25 seconds whilst held.
 
 - FTH Req: 30
 - Source: Covenant - Warrior of Sunlight
