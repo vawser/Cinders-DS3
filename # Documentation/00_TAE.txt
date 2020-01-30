@@ -23,10 +23,11 @@ CreateSpEffectBehavior_Multiplayer
 JumpTable
  JumpTableID
     4   - InvokeAttackAction - Allow anim cancel during period
+    5   - SetIsStartbit10 - Controls parry frame for attack
     7   - UnvokeLockChrRotation - Prevent rotation during period
     8   - InvokeInvincibilityFrames 
     24  - 
-    3   - Set Is Guard - Parry frames?
+    3   - Set Is Guard
  ArgA - 0
  ArgB - -1
  ArgC - 6   

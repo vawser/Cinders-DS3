@@ -266,8 +266,10 @@ being staggered.
 - Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
 - Reduced some of the more punishing absorptions on bosses (the max is now 50% reduced, rather than 75%).
 - Added 45 empowered enemies per NG+ (for +1, +2 and +3). Each drop one of the + rings once, and Primordial Titanite thereafter.
-# - Lowered the amount of Primordial Titanite dropped by some Dream bosses.
-# - Increased the amount of Primordial Titanite dropped by Nightmare bosses.
+- Lowered the amount of Primordial Titanite dropped by some Dream bosses.
+- Increased the amount of Primordial Titanite dropped by Nightmare bosses.
+# - Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
+# Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -284,6 +286,7 @@ being staggered.
 - Fixed Elkhorn Round Shield effect not matching description.
 - Fixed Pestilent Mist not applying Curse.
 - Velka's Rapier hitbox is no longer ultra-scuffed.
+# - All new Mimics now have the open action fixed.
 
 #------------------------------
 # Models
@@ -297,6 +300,7 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-
-
-
+31380000 Scythe of Nahr Alma
+31070000 Quelaag's Fury Sword
+31140000 Smelter Sword
+31370000 Sacred Chime Hammer
