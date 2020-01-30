@@ -40,7 +40,7 @@
 - Opening animations no longer make you invunerable.
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
 - NG+ modifier values have been shifted to mostly occur over +1, +2 and +3, the remaining NG+ levels are marginal. 
-# - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
+- Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 
 # Map
 - The loading fogwalls in Firelink Shrine no longer appear.
@@ -168,7 +168,7 @@ being staggered.
 
 + Rings
 - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
-- Alternatively, they are available in the Primordial Shop upon reaching NG+1/+2/+3.
+- Alternatively, they are available in the Primordial Shop upon reaching NG+2/+3/+4.
 - Added +1/+2/+3 versions of Life Ring
 - Added +1/+2/+3 versions of Havel's Ring
 - Added +1/+2/+3 versions of Ring of Favor
@@ -287,7 +287,13 @@ being staggered.
 # Models
 #------------------------------
 Finish the icons
-
+Add armor icons
+Add shield icons
+Add spell tool icons
+Add weapon icons
+Finish new weapon design
+Finish new weapon damage
+Finish new weapon infusions
 
 
 
