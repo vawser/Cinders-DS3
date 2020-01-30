@@ -263,3 +263,176 @@ Pilgrim's Spontoon
 - Dark aligned
 
 
+#------------------------------
+# Weapons
+#------------------------------
+Design the new weapons
+ - Choose WA + any overrides
+ - Assign scaling/damage in sheet
+ - Add special effects
+ 
+Add weapon localization
+ - Add description
+ - Add WA description
+ 
+31100000 Beast Claw [Unique]
+    Source: Lycanthrope
+    
+31110000 Rakuyo [Unique]
+    Source: Chest 210002240
+ 
+31120000 Handmaid's Ladle [Normal]
+    Source: 
+    
+31130000 Crypt Blacksword [Boss]
+    Source: Patches shop
+    
+31140000 Smelter Sword [Boss]
+    Source: Chaos Servants
+
+31400000 Crab Claw [Unique] # Fist
+    Source: Lesser Crab
+    STR focus
+    Crabby WA: Raptor Flurry WA but bypass guard
+
+31150000 Blue Flame [Unique] # Straight Sword
+    Source: Vinheim Scholars
+    Sorcery catalyst
+    Steady Chant WA: 2200
+
+31160000 Ash Demon Hammer [Boss] # Great Hammer
+    Source: Stray Demon transposition
+    STR focus
+    Quake WA: 1207
+
+31170000 Elder Ghru Tree [Unique] # Great Hammer
+    Source: Elder Ghru
+    STR focus
+    Ghru Spirits WA: 1212
+    
+31180000 Giant Crab Arm [Unique] # Great Hammer
+    Source: Great Crab
+    STR focus
+    Bubblebeam WA: 1213
+
+31370000 Sacred Chime Hammer [Unique] # Great Hammer
+    Source: Spears of the Church
+    STR/Dark focus
+    Abyssal Howl WA: 1214
+    
+31220000 Serpentine Hatchet [Normal] # Axe
+    Source: Serpent-man
+    STR focus
+    Warcry WA: 900
+    Add guard bypass to attacks
+    
+31230000 Serpentine Axe [Normal] # Axe  
+    Source: Serpent-man
+    STR focus
+    Warcry WA: 904
+    Add guard bypass to attacks
+    
+31280000 Thrall Pick [Normal] # Axe
+    Source: Thrall
+    DEX focus
+    Quickstep WA: 100
+    160201180 Effect: add 5 LCK
+    
+31200000 Serpentine Twindaggers [Normal] # Twin Dagger
+    Source: Serpent-man
+    STR focus
+    Quickstep WA: 2500
+    Add guard bypass to attacks
+    
+31210000 Shiv [Normal] # Dagger
+    Source: Treasure 3100051
+    Blind Spot WA: 104
+    Add guard bypass to attacks
+    
+31240000 Thrall Harpe [Normal] # Dagger
+    Source: Thrall
+    DEX focus
+    Quickstep WA: 100
+    160201190 Effect: add LCK
+
+31260000 Smouldering Dagger [Normal] # Dagger
+    Source: Smouldering Ghru
+    DEX/Fire focus
+    Add fire VFX
+    160201160 Effect: boosts Fire absorption by 10%
+    Quickstep WA: 100
+    
+31250000 Smouldering Curved Sword [Normal] # Curved Sword
+    Source: Smouldering Ghru
+    DEX/Fire focus
+    Add fire VFX
+    160201150 Effect: boosts Fire absorption by 10%
+    Spin Slash WA: 600
+    
+31270000 Smouldering Spear [Normal] # Spear
+    Source: Smouldering Ghru
+    DEX/Fire focus
+    Add fire VFX
+    160201170 Effect: boosts Fire absorption by 10%
+    Charge WA: 1300
+    
+31190000 Hunter's Log [Normal] # Pike
+    Source: Lycanthrope Hunter
+    STR focus
+    Charge WA: 1300
+    
+31300000 Rampart Golem Lance [Unique] # Spear
+    Source: 
+    STR focus
+    180020140 / 180020141 Add frost VFX + on hit
+    Charge WA: 1306
+    
+31360000 Pilgrim's Spontoon [Unique] # Spear
+    Source: Chest 210002000
+    Magic/Dark focus
+    Sorcery catalyst
+    Steady Chant WA: 1304
+    
+31320000 Bone Scythe [Unique] # Reaper
+    Source: Chest 3800760
+    STR focus
+    Add 100% guard bypass to attacks
+    Neck Swipe WA: 1500
+
+31380000 Scythe of Nahr Alma [Unique] # Reaper
+    Source: Mound-makers
+    DEX/Dark focus
+    180010500 / 180010501 Inflicts Bleed
+    Neck Swipe WA: 1500
+
+31390000 Scythe of Want [Boss] # Reaper
+    Source: Pilgrims of Dark
+    DEX/Dark focus 
+    160201200 Effect: each kill boosts soul absorption. Lasts 300 seconds.
+    Neck Swipe WA: 1500
+    
+31290000 Worker Machete [Normal] # Curved Sword
+    Source: Peasant Hollow
+    Quality focus
+    Spin Slash WA: 600
+
+31310000 Bewitched Alonne Sword [Boss] # Katana
+    Source: Andre - Easterners Ashes
+    DEX focus
+    Seppuku WA: 806
+
+31330000 Dragonrider Halberd [Boss] # Halberd
+    Source: Shrine Handmaid - Dragon Chaser's Ashes
+    Quality focus
+    Charge WA: 1406
+    
+31340000 Key to the Embedded [Unique] # Greatsword
+    Source: Chest 210002210
+    DEX focus
+    Stance WA: 300
+
+31350000 King's Ultra Greatsword [Boss] # UGS
+    Source: Andre - Soul of Cinder kill
+    STR focus
+    Warcry WA: 1000
+    170000300 Effect: deals more durability damage on hit

@@ -39,7 +39,8 @@
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
-# - NG+ modifier values have been shifted to mostly occur over +1, +2 and +3, the remaining NG+ levels are marginal. 
+- NG+ modifier values have been shifted to mostly occur over +1, +2 and +3, the remaining NG+ levels are marginal. 
+# - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 
 # Map
 - The loading fogwalls in Firelink Shrine no longer appear.
@@ -165,54 +166,54 @@ being staggered.
 - Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
 - Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
 
-# + Rings
-# - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
-# - Alternatively, they are available in the Primordial Shop upon reaching NG+1/+2/+3.
-# - Added +1/+2/+3 versions of Life Ring
-# - Added +1/+2/+3 versions of Havel's Ring
-# - Added +1/+2/+3 versions of Ring of Favor
-# - Added +1/+2/+3 versions of Ring of Wisdom
-# - Added +1/+2/+3 versions of Chloranthy Ring
-# - Added +1/+2/+3 versions of Wood Grain Ring
-# - Added +1/+2/+3 versions of Wolf Ring
-# - Added +1/+2/+3 versions of Hawk Ring
-# - Added +1/+2/+3 versions of Knight Slayer's Ring
-# - Added +1/+2/+3 versions of Farron Ring
-# - Added +1/+2/+3 versions of Dragonscale Ring
-# - Added +1/+2/+3 versions of Horsehoof Ring
-# - Added +1/+2/+3 versions of Symbol of the Penitent
-# - Added +1/+2/+3 versions of Knight's Ring
-# - Added +1/+2/+3 versions of Hunter's Ring
-# - Added +1/+2/+3 versions of Scholar Ring
-# - Added +1/+2/+3 versions of Priestess Ring
-# - Added +1/+2/+3 versions of Mercenary Ring
-# - Added +1/+2/+3 versions of Heretic Ring
-# - Added +1/+2/+3 versions of Merchant Ring
-# - Added +1/+2/+3 versions of Physician Ring
-# - Added +1/+2/+3 versions of Jester Ring
-# - Added +1/+2/+3 versions of Dusk Crown Ring
-# - Added +1/+2/+3 versions of Tome of Sunlight
-# - Added +1/+2/+3 versions of Charred Bone
-# - Added +1/+2/+3 versions of Lingering Dragoncrest Ring
-# - Added +1/+2/+3 versions of Sage Ring
-# - Added +1/+2/+3 versions of Ring of Steel Protection
-# - Added +1/+2/+3 versions of Flame Stoneplate Ring
-# - Added +1/+2/+3 versions of Thunder Stoneplate Ring
-# - Added +1/+2/+3 versions of Magic Stoneplate Ring
-# - Added +1/+2/+3 versions of Dark Stoneplate Ring
-# - Added +1/+2/+3 versions of Speckled Stoneplate Ring
-# - Added +1/+2/+3 versions of Band of Stone
-# - Added +1/+2/+3 versions of Band of Magic
-# - Added +1/+2/+3 versions of Band of Flame
-# - Added +1/+2/+3 versions of Band of Sparks
-# - Added +1/+2/+3 versions of Band of Darkness
-# - Added +1/+2/+3 versions of Covetous Gold Serpent Ring
-# - Added +1/+2/+3 versions of Covetous Silver Serpent Ring
-# - Added +1/+2/+3 versions of Skull Ring
-# - Added +1/+2/+3 versions of Magic Clutch Ring
-# - Added +1/+2/+3 versions of Lightning Clutch Ring
-# - Added +1/+2/+3 versions of Fire Clutch Ring
-# - Added +1/+2/+3 versions of Dark Clutch Ring
++ Rings
+- All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
+- Alternatively, they are available in the Primordial Shop upon reaching NG+1/+2/+3.
+- Added +1/+2/+3 versions of Life Ring
+- Added +1/+2/+3 versions of Havel's Ring
+- Added +1/+2/+3 versions of Ring of Favor
+- Added +1/+2/+3 versions of Ring of Wisdom
+- Added +1/+2/+3 versions of Chloranthy Ring
+- Added +1/+2/+3 versions of Wood Grain Ring
+- Added +1/+2/+3 versions of Wolf Ring
+- Added +1/+2/+3 versions of Hawk Ring
+- Added +1/+2/+3 versions of Knight Slayer's Ring
+- Added +1/+2/+3 versions of Farron Ring
+- Added +1/+2/+3 versions of Dragonscale Ring
+- Added +1/+2/+3 versions of Horsehoof Ring
+- Added +1/+2/+3 versions of Symbol of the Penitent
+- Added +1/+2/+3 versions of Knight's Ring
+- Added +1/+2/+3 versions of Hunter's Ring
+- Added +1/+2/+3 versions of Scholar Ring
+- Added +1/+2/+3 versions of Priestess Ring
+- Added +1/+2/+3 versions of Mercenary Ring
+- Added +1/+2/+3 versions of Heretic Ring
+- Added +1/+2/+3 versions of Merchant Ring
+- Added +1/+2/+3 versions of Physician Ring
+- Added +1/+2/+3 versions of Jester Ring
+- Added +1/+2/+3 versions of Dusk Crown Ring
+- Added +1/+2/+3 versions of Tome of Sunlight
+- Added +1/+2/+3 versions of Charred Bone
+- Added +1/+2/+3 versions of Lingering Dragoncrest Ring
+- Added +1/+2/+3 versions of Sage Ring
+- Added +1/+2/+3 versions of Ring of Steel Protection
+- Added +1/+2/+3 versions of Flame Stoneplate Ring
+- Added +1/+2/+3 versions of Thunder Stoneplate Ring
+- Added +1/+2/+3 versions of Magic Stoneplate Ring
+- Added +1/+2/+3 versions of Dark Stoneplate Ring
+- Added +1/+2/+3 versions of Speckled Stoneplate Ring
+- Added +1/+2/+3 versions of Band of Stone
+- Added +1/+2/+3 versions of Band of Magic
+- Added +1/+2/+3 versions of Band of Flame
+- Added +1/+2/+3 versions of Band of Sparks
+- Added +1/+2/+3 versions of Band of Darkness
+- Added +1/+2/+3 versions of Covetous Gold Serpent Ring
+- Added +1/+2/+3 versions of Covetous Silver Serpent Ring
+- Added +1/+2/+3 versions of Skull Ring
+- Added +1/+2/+3 versions of Magic Clutch Ring
+- Added +1/+2/+3 versions of Lightning Clutch Ring
+- Added +1/+2/+3 versions of Fire Clutch Ring
+- Added +1/+2/+3 versions of Dark Clutch Ring
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
@@ -264,7 +265,7 @@ being staggered.
 - Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
 - Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
 - Reduced some of the more punishing absorptions on bosses (the max is now 50% reduced, rather than 75%).
-# - Added 45 empowered enemies per NG+ (for +1, +2 and +3). Each drop one of the + rings once, and Primordial Titanite thereafter.
+- Added 45 empowered enemies per NG+ (for +1, +2 and +3). Each drop one of the + rings once, and Primordial Titanite thereafter.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -285,151 +286,8 @@ being staggered.
 #------------------------------
 # Models
 #------------------------------
-Design the new weapons
- - Choose WA + any overrides
- - Assign scaling/damage in sheet
- - Add special effects
- 
-Add weapon localization
- - Add description
- - Add WA description
- 
-Finish the icons for weapons/armor
+Finish the icons
 
-Fix the dummy polys on Velka's Rapier + lengthen bones again
-
-#------------------------------
-# Weapons
-#------------------------------
-31100000 Beast Claw [Unique]
-31110000 Rakuyo [Unique]
-31120000 Handmaid's Ladle [Normal]
-31130000 Crypt Blacksword [Boss]
-31140000 Smelter Sword [Boss]
-
-31400000 Crab Claw [Unique] # Fist
-    STR focus
-    Crabby WA: Raptor Flurry WA but bypass guard
-
-31150000 Blue Flame [Unique] # Straight Sword
-    Sorcery catalyst
-    Steady Chant WA: 2200
-
-31160000 Ash Demon Hammer [Boss] # Great Hammer
-    STR focus
-    Quake WA: 1207
-
-31170000 Elder Ghru Tree [Unique] # Great Hammer
-    STR focus
-    Ghru Spirits WA: 1212
-    
-31180000 Giant Crab Arm [Unique] # Great Hammer
-    STR focus
-    Bubblebeam WA: 1213
-
-31370000 Sacred Chime Hammer [Unique] # Great Hammer
-    STR/Dark focus
-    Abyssal Howl WA: 1214
-    
-31220000 Serpentine Hatchet [Normal] # Axe
-    STR focus
-    Warcry WA: 900
-    Add guard bypass to attacks
-    
-31230000 Serpentine Axe [Normal] # Axe
-    STR focus
-    Warcry WA: 904
-    Add guard bypass to attacks
-    
-31280000 Thrall Pick [Normal] # Axe
-    DEX focus
-    Quickstep WA: 100
-    160201180 Effect: add 5 LCK
-    
-31200000 Serpentine Twindaggers [Normal] # Twin Dagger
-    STR focus
-    Quickstep WA: 2500
-    Add guard bypass to attacks
-    
-31210000 Shiv [Normal] # Dagger
-    Blind Spot WA: 104
-    Add guard bypass to attacks
-    
-31240000 Thrall Harpe [Normal] # Dagger
-    DEX focus
-    Quickstep WA: 100
-    160201190 Effect: add LCK
-
-31260000 Smouldering Dagger [Normal] # Dagger
-    DEX/Fire focus
-    Add fire VFX
-    160201160 Effect: boosts Fire absorption by 10%
-    Quickstep WA: 100
-    
-31250000 Smouldering Curved Sword [Normal] # Curved Sword
-    DEX/Fire focus
-    Add fire VFX
-    160201150 Effect: boosts Fire absorption by 10%
-    Spin Slash WA: 600
-    
-31270000 Smouldering Spear [Normal] # Spear
-    DEX/Fire focus
-    Add fire VFX
-    160201170 Effect: boosts Fire absorption by 10%
-    Charge WA: 1300
-    
-31190000 Hunter's Log [Normal] # Pike
-    STR focus
-    Charge WA: 1300
-    
-31300000 Rampart Golem Lance [Unique] # Spear
-    STR focus
-    180020140 / 180020141 Add frost VFX + on hit
-    Charge WA: 1306
-    
-31360000 Pilgrim's Spontoon [Unique] # Spear
-    Magic/Dark focus
-    Sorcery catalyst
-    Steady Chant WA: 1304
-    
-31320000 Bone Scythe [Unique] # Reaper
-    STR focus
-    Add 100% guard bypass to attacks
-    Neck Swipe WA: 1500
-
-31380000 Scythe of Nahr Alma [Unique] # Reaper
-    DEX/Dark focus
-    180010500 / 180010501 Inflicts Bleed
-    Neck Swipe WA: 1500
-
-31390000 Scythe of Want [Boss] # Reaper
-    DEX/Dark focus 
-    160201200 Effect: each kill boosts soul absorption. Lasts 300 seconds.
-    Neck Swipe WA: 1500
-    
-31290000 Worker Machete [Normal] # Curved Sword
-    Quality focus
-    Spin Slash WA: 600
-
-31310000 Bewitched Alonne Sword [Boss] # Katana
-    DEX focus
-    Seppuku WA: 806
-
-31330000 Dragonrider Halberd [Boss] # Halberd
-    Quality focus
-    Charge WA: 1406
-    
-31340000 Key to the Embedded [Unique] # Greatsword
-    DEX focus
-    Stance WA: 300
-    
-31350000 King's Ultra Greatsword [Boss] # UGS
-    STR focus
-    Warcry WA: 1000
-    170000300 Effect: deals more durability damage on hit
-    
-
-    
 
 
 
