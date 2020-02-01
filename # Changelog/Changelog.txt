@@ -257,7 +257,11 @@ being staggered.
 - Fire Surge: now partially bypasses shield absorption if the target is guarding.
 - Great Lightning Spear/Sunlight Spear: now knocks target down.
 - Removed the soul cost on Climax.
-- Most utility spells now have much lower FP costs, but have limited uses, ranging from 5 to 25. These uses are rest upon bonfire rest, and the total is noted in the description.
+# - Reduced the FP cost of utility spells.
+# - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses.
+# - Healing miracles gain uses with FTH investment. At 80 they become unlimited.
+# - Repair gains uses with INT investment. At 80 it becomes unlimited.
+# - Warmth gains uses with STR investment. At 80 it becomes unlimited.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -300,4 +304,3 @@ Add weapon icons
 Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
-
