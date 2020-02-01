@@ -259,6 +259,7 @@ being staggered.
 - Removed the soul cost on Climax.
 - Reduced the FP cost of utility spells.
 - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
+# - Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
 
 # Ascended Spells
 - Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
@@ -276,12 +277,30 @@ being staggered.
 - Soul Geyser: increases projectiles shot to 5, hits now do more poise damage and cause stagger.
 - White Dragon Breath: shoots 3 projectiles.
 - Crystal Storm: emits more burst points.
-- Crystal Hail: lasts twice as long.
+- Crystal Hail: lasts 8 seconds (normally 4).
 - Soul Greatsword: gains the Farron Flashsword cast animation.
-- Old Moonlight: the sword part deals twice as much poise damage.
+- Old Moonlight: the sword part deals 100 poise damage (normally 50).
 - Soul Wave: shoots 3 projectiles.
-- Soul Stream: lasts thrice as long.
+- Soul Stream: deals 20 poise damage per tick (was 10).
 - Blizzard: doubles the area of effect.
+- Orbs of Judgment: emits 8 projectiles (normally 6).
+- Pestilent Mist: inflicts 30 Curse and removes 0.3% HP per tick.
+- Snap Freeze: emits a snowstorm. Lasts 10 seconds.
+- Blinding Light: deals 100 poise damage (normally 50).
+- Magic Weapon: extends duration to 300 seconds.
+- Great Magic Weapon: adds 1 FP per second.
+- Crystal Magic Weapon: adds 90 Magic damage to main weapon for 30 seconds.
+- Frozen Weapon: extends duration to 300 seconds.
+- Magic Shield: extends duration to 300 seconds.
+- Great Magic Shield: increases stability boost to 15%.
+- Hidden Weapon: boosts stamina drain by 25%.
+- Hidden Body: extends duration to 60 seconds.
+- Cast Light: summons a hail of light orbs (plus original effect).
+- Repair: gains unlimited uses.
+- Spook: extends duration to 60 seconds.
+- Aural Decoy: extends duration to 15 seconds.
+- Twisted Wall of Light: extends duration to 3 seconds.
+- Unleash Magic: extends duration to 60 seconds.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
