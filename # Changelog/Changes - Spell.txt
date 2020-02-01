@@ -25,244 +25,192 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Magic Damage: 150
-- Slot Usage: 1
-
-- Source: Orbeck - Default
+- Ascended Effect: projectile is faster and tracks better.
 
 #--------------------------------
 # Farron Flashsword
 #--------------------------------
 - FP Cost: 10
 - Magic Damage: 150
-- Slot Usage: 1
-
 - INT Req: 10
-- Source: Class - Sorcerer
-- Source: Orbeck - Default
+- Ascended Effect: attacks restore 1% FP on hit.
 
 #--------------------------------
 # Great Farron Dart
 #--------------------------------
 - FP Cost: 20
 - Magic Damage: 200
-- Slot Usage: 1
-
 - INT Req: 10
-- Source: Orbeck - Sage's Scroll - Farron Keep
+- Ascended Effect: 3 projectiles are shot.
 
 #--------------------------------
 # Soul Arrow
 #--------------------------------
 - FP Cost: 30
 - Magic Damage: 300
-- Slot Usage: 1
-
 - INT Req: 15
-- Source: Class - Sorcerer
-- Source: Orbeck - Default
+- Ascended Effect: projectile is faster and tracks better.
 
 #--------------------------------
 # Great Soul Arrow
 #--------------------------------
 - FP Cost: 40
 - Magic Damage: 400
-- Slot Usage: 1
-
 - INT Req: 20
-- Source: Orbeck - Default
+- Ascended Effect: 3 projectiles are shot.
 
 #--------------------------------
 # Soul Spear
 #--------------------------------
 - FP Cost: 50
 - Magic Damage: 600
-- Slot Usage: 1
-
 - INT Req: 30
-- Source: Orbeck - Logan's Scroll - Profaned Capital
+- Ascended Effect: projectile is faster and tracks better.
 
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 60
 - Magic Damage: 800 
-- Slot Usage: 1
-
 - INT Req: 40
-- Source: Orbeck - Crystal Scroll - Grand Archives
+- Ascended Effect: projectile tracks better.
 
 #--------------------------------
 # Homing Soulmass
 #--------------------------------
 - FP Cost: 50
 - Magic Damage: 80 (per bullet) 
-- Slot Usage: 1
-
 - INT Req: 20
-- Source: Treasure - High Wall of Lothric
-- Source: Orbeck - Logan's Scroll - Profaned Capital
+- Ascended Effect: None
 
 #--------------------------------
 # Homing Crystal Soulmass
 #--------------------------------
 - FP Cost: 75
 - Magic Damage: 125 (per bullet)
-- Slot Usage: 1
-
 - INT Req: 40
-- Source: Orbeck - Crystal Scroll - Grand Archives
+- Ascended Effect: None
 
 #--------------------------------
 # Soul Geyser
 #--------------------------------
 - FP Cost: 100
 - Magic Damage: 150 [150]
-- Slot Usage: 1
-
 - INT Req: 50
-- Source: Treasure - Grand Archives
+- Ascended Effect: increases projectiles shot to 5, hits now do more poise damage and cause stagger.
 
 #--------------------------------
 # White Dragon Breath
 #--------------------------------
 - FP Cost: 50
 - Magic Damage: 600 [300] 
-- Slot Usage: 1
-
 - INT Req: 40
-- Source: Boss Soul - Oceiros
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Crystal Storm
 #--------------------------------
 - FP Cost: 10
 - Magic Damage: 500 
-- Slot Usage: 1
-
 - INT Req: 50
-- Source: Boss Soul - Oceiros
+- Ascended Effect: emits more burst points.
 
 #--------------------------------
 # Farron Hail
 #--------------------------------
 - FP Cost: 20
 - Magic Damage: 150 (per bullet)
-- Slot Usage: 1
-
 - INT Req: 15
-- Source: Orbeck - Sage's Scroll - Farron Keep
+- Ascended Effect: shoots 10 projectiles per tick.
 
 #--------------------------------
 # Crystal Hail
 #--------------------------------
 - FP Cost: 80
 - Magic Damage: 150 (per bullet) 
-- Slot Usage: 1
-
 - INT Req: 20
-- Source: Boss Soul - Crystal Sage
+- Ascended Effect: lasts twice as long.
 
 #--------------------------------
 # Soul Greatsword
 #--------------------------------
 - FP Cost: 40
 - Magic Damage: 500
-- Slot Usage: 1
-
 - INT Req: 25
-- Source: Orbeck - Default
+- Ascended Effect: gains the Farron Flashsword cast animation.
 
 #--------------------------------
 # Old Moonlight
 #--------------------------------
 - FP Cost: 60
 - Magic Damage: 500 (800 charged) [200]
-- Slot Usage: 1
-
 - INT Req: 40
-- Source: Boss Soul - Midir
+- Ascended Effect: the sword part deals twice as much poise damage.
 
 #--------------------------------
 # Soul Wave
 #--------------------------------
 - FP Cost: 40
 - Magic Damage: 300
-- Slot Usage: 1
-
 - INT Req: 20
-- Source: Treasure - Irithyll Dungeon
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Soul Stream
 #--------------------------------
 - FP Cost: 100
 - Magic Damage: 250 (per tick) [250] [250]
-- Slot Usage: 1
-
 - INT Req: 40
-- Source: Treasure - Grand Archives
+- Ascended Effect: lasts thrice as long.
 
 #--------------------------------
 # Blizzard
 #--------------------------------
 - FP Cost: 8
 - Magic Damage: 400
-- Slot Usage: 1
-
 - INT Req: 30
-- Source: Boss Soul - Sister Friede
+- Ascended Effect: doubles the area of effect.
 
 #--------------------------------
 # Orbs of Judgment
 #--------------------------------
 - FP Cost: 75
 - Magic Damage: 100 per bullet
-- Slot Usage: 1
-
 - INT Req: 30
-- Source: Boss Soul - Pontiff Sulyvahn
+- Ascended Effect: None
 
 #--------------------------------
 # Pestilent Mist
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds
-and 
-
 - INT Req: 25
-- Source: Orbeck - Any Scroll
+- Base Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Snap Freeze
 #--------------------------------
 - FP Cost: 50
 - Magic Damage: 150
-- Slot Usage: 1
-- Effect: summons patch that deals 3 Frost aux for 28 seconds.
-
 - INT Req: 20
-- Source: Boss Soul - Vordt of the Boreal Valley
+- Base Effect: summons patch that deals 3 Frost aux for 28 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Blinding Light
 #--------------------------------
 - FP Cost: 20
-- Slot Usage: 1
-- Effect: knocks enemies back.
-
 - INT Req: 20
-- Source: Boss Soul - Lothric
+- Base Effect: knocks enemies back.
+- Ascended Effect: None
 
 #--------------------------------
 # Shockwave
 #--------------------------------
 - FP Cost: 20
-- Slot Usage: 1
-- Knocks down enemies.
-
 - INT Req: 10
-- Source: Orbeck - Default
+- Base Effect: Knocks down enemies.
+- Ascended Effect: knocks the enemies into the air.
 
 #--------------------------------------------------------------------------
 # Sorceries - Effects
@@ -271,163 +219,130 @@ and
 # Magic Weapon
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: Adds 40 Magic damage to main weapon for 90 seconds. Scales with INT.
-
 - INT Req: 20
-- Source: Orbeck - Default
+- Base Effect: Adds 40 Magic damage to main weapon for 90 seconds. Scales with INT.
+- Ascended Effect: None
 
 #--------------------------------
 # Great Magic Weapon
 #--------------------------------
 - FP Cost: 40
-- Slot Usage: 1
-- Effect: Adds 50 Magic damage to main weapon for 60 seconds. Scales with INT.
-
 - INT Req: 30
-- Source: Treasure - Farron Keep
+- Base Effect: Adds 50 Magic damage to main weapon for 60 seconds. Scales with INT.
+- Ascended Effect: None
 
 #--------------------------------
 # Crystal Magic Weapon
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: Adds 60 Magic damage to main weapon for 30 seconds. Scales with INT.
-
 - INT Req: 40
-- Source: Orbeck - Crystal Scroll - Grand Archives
+- Base Effect: Adds 60 Magic damage to main weapon for 30 seconds. Scales with INT.
+- Ascended Effect: None
 
 #--------------------------------
 # Frozen Weapon
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: Adds 48 Frost aux to main weapon for 60 seconds.
-
 - INT Req: 20
-- Source: Treasure - Ariandel
-- Source: Orbeck - Default
+- Base Effect: Adds 48 Frost aux to main weapon for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Magic Shield
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
-
 - INT Req: 20
-- Source: Orbeck - Default
+- Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Great Magic Shield
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
-
 - INT Req: 30
-- Source: Treasure - Cathedral of the Deep - Rosaria Quest
+- Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Hidden Weapon
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: hides main weapon for 120 seconds.
-
 - INT Req: 10
-- Source: Orbeck - Golden Scroll - Farron Keep
+- Base Effect: hides main weapon for 120 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Hidden Body
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: hides player for 30 seconds, reducing enemy sight by 100%.
-
 - INT Req: 20
-- Source: Orbeck - Golden Scroll - Farron Keep
+- Base Effect: hides player for 30 seconds, reducing enemy sight by 100%.
+- Ascended Effect: None
 
 #--------------------------------
 # Cast Light
 #--------------------------------
 - FP Cost: 25
-- Slot Usage: 1
-- Effect: summons a light source that follows you for 120 seconds.
-
 - INT Req: 10
-- Source: Orbeck - Golden Scroll - Farron Keep
+- Base Effect: summons a light source that follows you for 120 seconds.
+- Ascended Effect: summons a hail of light orbs (plus original effect).
 
 #--------------------------------
 # Repair
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: repairs main weapon by 50 durability.
-- Uses: 5/6/7/8
-
+- Uses: 5
 - INT Req: 20
-- Source: Orbeck - Golden Scroll - Farron Keep
+- Base Effect: repairs main weapon by 50 durability.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Spook
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: reduces enemy listen by 100% for 30 seconds.
-
 - INT Req: 18
-- Source: Orbeck - Default
+- Base Effect: reduces enemy listen by 100% for 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Chameleon
 #--------------------------------
 - FP Cost: 25
-- Slot Usage: 1
-- Effect: transforms player into object from level.
-
 - INT Req: 20
-- Source: Treasure - Londor Pilgrim - Anri Quest
+- Base Effect: transforms player into object from level.
+- Ascended Effect: None
 
 #--------------------------------
 # Aural Decoy
 #--------------------------------
 - FP Cost: 20
-- Slot Usage: 1
-- Effect: shoots decoy orb that distracts enemies for 5 seconds.
-
 - INT Req: 18
-- Source: Orbeck - Default
+- Base Effect: shoots decoy orb that distracts enemies for 5 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Twisted Wall of Light
 #--------------------------------
 - FP Cost: 15
-- Slot Usage: 1
-- Effect: reflect spells away for 2 seconds.
-
 - INT Req: 15
-- Source: Orbeck - Golden Scroll - Farron Keep
+- Base Effect: reflect spells away for 2 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Unleash Magic
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
-
 - INT Req: 40
-- Source: Treasure - Lothric Castle
+- Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
+- Ascended Effect: None
 
 #--------------------------------
 # Soul Focus
 #--------------------------------
 - FP Cost: 0
-- Slot Usage: 1
-- Exchange 5% HP for 5% FP every 0.25 seconds whilst held.
-
 - INT Req: 30
-- Source: Orbeck - Default
+- Exchange 5% HP for 5% FP every 0.25 seconds whilst held.
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive
@@ -437,216 +352,168 @@ and
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 150
-- Slot Usage: 1
-
-- Source: Drop - Desert Pyromancer Zoey - Dreg Heap
+- Ascended Effect: None
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 300 [150] 
-- Slot Usage: 1
-
-- Source: Class - Pyromancer
-- Source: Cornyx - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 400 [200] 
-- Slot Usage: 1
-
-- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
+- Ascended Effect: None
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 8
 - Fire Damage: 400 
-- Slot Usage: 1
-
-- Source: Karla - Quelana Pyromancy Tome - Smouldering Lake
+- Ascended Effect: None
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 100
-- Slot Usage: 1
-
-- Source: Cornyx - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 500 [200] 
-- Slot Usage: 1
-
-- Source: Cornyx - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 50
 - Fire Damage: 600 [200] [350] 
-- Slot Length: 1
-
-- Source: Cornyx - Izalith Pyromancy Tome - Smouldering Lake
+- Ascended Effect: None
 
 #--------------------------------
 # Chaos Storm
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 500 [350] 
-- Slot Length: 1
-
-- Source: Cornyx - Izalith Pyromancy Tome - Smouldering Lake
+- Ascended Effect: None
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 100 (per bullet)
-- Slot Usage: 1
-
-- Source: Karla - Quelana Pyromancy Tome - Smouldering Lake
+- Ascended Effect: None
 
 #--------------------------------
 # Profaned Flame
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 400 
-- Slot Usage: 1
-
-- Source: Treasure - Irithyll Dungeon
+- Ascended Effect: None
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 60
 - Fire Damage: 800 [200] 
-- Slot Length: 1
-
-- Source: Boss Soul - Old Demon King
+- Ascended Effect: None
 
 #--------------------------------
 # Cataclysm
 #--------------------------------
 - FP Cost: 100
 - Fire Damage: 75 per bullet
-- Slot Length: 1
-
-- Source: Covenant - Chaos Servants
+- Ascended Effect: None
 
 #--------------------------------
 # Floating Chaos
 #--------------------------------
 - FP Cost: 80
 - Fire Damage: 100 (per bullet)
-- Slot Usage: 1
-
-- Source: Drop - Livid Pyromancer Dunnel - Ariandel
+- Ascended Effect: None
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 35
 - Fire Damage: 100 [100]
-- Slot Usage: 1
-
-- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
+- Ascended Effect: None
 
 #--------------------------------
 # Boulder Heave
 #--------------------------------
 - FP Cost: 60
 - Physical Damage: 500 [250] 
-- Slot Usage: 1
-
-- Source: Boss Soul - Stray Demon
+- Ascended Effect: None
 
 #--------------------------------
 # Sacred Flame
 #--------------------------------
 - FP Cost: 50
 - Fire Damage: based on spell tool.
-- Slot Usage: 1
-
-- Source: Treasure - Smouldering Lake
+- Ascended Effect: None
 
 #--------------------------------
 # Seething Chaos
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 300 [600] 
-- Slot Usage: 1
-
-- Source: Boss Soul - Old Demon King
+- Ascended Effect: None
 
 #--------------------------------
 # Wretch Earth
 #--------------------------------
 - FP Cost: 50
 - Physical Damage: 600 
-- Slot Usage: 1
-
-- Source: Treasure - Painted World of Ariandel
+- Ascended Effect: None
 
 #--------------------------------
 # Earthquake
 #--------------------------------
 - FP Cost: 8
 - Physical Damage: 400 
-- Slot Usage: 1
-
-- Source: Boss Soul - Yhorm the Giant
+- Ascended Effect: None
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 400 
-- Slot Length: 1
-
-- Source: Covenant - Chaos Servants
+- Ascended Effect: None
 
 #--------------------------------
 # Earthfall
 #--------------------------------
 - FP Cost: 100
 - Fire Damage: 75 (per bullet) 
-- Slot Usage: 1
-
-- Source: Treasure - Profaned Capital
+- Ascended Effect: None
 
 #--------------------------------
 # Poison Mist
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: summons patch of poison that deals 15 Poison aux for 60 seconds.
-
-- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
+- Base Effect: summons patch of poison that deals 15 Poison aux for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Toxic Mist
 #--------------------------------
 - FP Cost: 75
-- Slot Usage: 1
-- Effect: summons patch of poison that deals 12 Toxic aux for 60 seconds.
-
-- Source: Treasure - Smouldering Lake
+- Base Effect: summons patch of poison that deals 12 Toxic aux for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Acid Surge
 #--------------------------------
 - FP Cost: 100
-- Effect: summons patch of corrosion that reduces durability and deals damage. Lasts for 6 seconds.
-
-- Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
+- Base Effect: summons patch of corrosion that reduces durability and deals damage. Lasts for 6 seconds.
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
@@ -655,83 +522,66 @@ and
 # Carthus Beacon
 #--------------------------------
 - FP Cost: 50
-- Slot Length: 1
-- Effect: boosts attack whilst attacking persists. Starts at 7%, increases to 14% with unbroken attacking. Lasts 30 seconds.
-
-- Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
+- Base Effect: boosts attack whilst attacking persists. Starts at 7%, increases to 14% with unbroken attacking. Lasts 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Warmth
 #--------------------------------
 - FP Cost: 50
-- Slot Length: 2
-- Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
-- Uses: 5/6/7/8
-
-- Source: Covenant - Mound-makers Rank 2 - Undead Settlement
+- Uses: 5
+- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Profuse Sweat
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
-
-- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
+- Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Iron Flesh
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
-
-- Source: Treasure - Farron Keep
+- Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
 - FP Cost: 30
 - Slot Usage: 1
-- Effect: Increases Fire absorption by 30% for 30 seconds.
-
-- Source: Cornyx - Default
+- Base Effect: Increases Fire absorption by 30% for 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Carthus Flame Arc
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: adds 60 Fire damage to main weapon for 60 seconds. Scales with INT and FTH.
-
-- Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
+- Base Effect: adds 60 Fire damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Ascended Effect: None
 
 #--------------------------------
 # Rapport
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: converts target enemy to player team for 30 seconds.
-
-- Source: Karla - Quelana Pyromancy Tome - Smouldering Lake
+- Base Effect: converts target enemy to player team for 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Power Within
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: increases damage by 35% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
-
-- Source: Treasure - Smouldering Lake
+- Base Effect: increases damage by 35% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
+- Ascended Effect: None
 
 #--------------------------------
 # Rockflesh
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 15 seconds.
-
-- Source: Treasure - Profaned Capital
+- Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 15 seconds.
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
@@ -741,130 +591,103 @@ and
 #--------------------------------
 - FP Cost: 25
 - Physical Damage: 100 [100] [100]
-- Cast Speed: 1
-
-- Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
+- Ascended Effect: None
 
 #--------------------------------
 # Force
 #--------------------------------
 - FP Cost: 10
-- Slot Usage: 1
-
 - FTH Req: 10
-- Source: Treasure - Undead Settlement
-- Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
+- Ascended Effect: None
 
 #--------------------------------
 # Emit Force
 #--------------------------------
 - FP Cost: 30
 - Physical Damage: 400 [200] 
-- Slot Usage: 1
-
 - FTH Req: 10
-- Source: Treasure - Irithyll - Siegward of Catarina Quest
+- Ascended Effect: None
 
 #--------------------------------
 # Wrath of the Gods
 #--------------------------------
 - FP Cost: 50
 - Physical Damage: 900 
-- Slot Usage: 1
-
 - FTH Req: 30
-- Source: Treasure - Profaned Capital
+- Ascended Effect: None
 
 #--------------------------------
 # Lightning Spear
 #--------------------------------
 - FP Cost: 40
 - Lightning Damage: 500 [100] [200] 
-- Slot Usage: 1
-
 - FTH Req: 16
-- Source: Class - Cleric
-- Source: Treasure - Farron Keep
+- Ascended Effect: None
+
 
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 50
 - Lightning Damage: 700 [150] [300] 
-- Slot Usage: 1
-
 - FTH Req: 30
-- Source: Tresure - Irithyll
+- Ascended Effect: None
 
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 60
 - Lightning Damage: 900 [200] [400] 
-- Slot Usage: 1
-
 - FTH Req: 40
-- Source: Treasure - Lothric Castle
+- Ascended Effect: None
 
 #--------------------------------
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 20
 - Lightning Damage: 150
-- Slot Usage: 1
-
 - FTH Req: 10
-- Source: Treasure - Lightning Arrow - Farron Keep
+- Ascended Effect: None
 
 #--------------------------------
 # Lightning Storm
 #--------------------------------
 - FP Cost: 50
 - Lightning Damage: 500 
-- Slot Length: 1
-
 - FTH Req: 25
-- Source: Boss Soul - Nameless King
+- Ascended Effect: None
 
 #--------------------------------
 # Lightning Stake
 #--------------------------------
 - FP Cost: 50
 - Lightning Damage: 800 [400] 
-- Slot Usage: 1
-
 - FTH Req: 30
-- Source: Drop - Carthus Sandworm
+- Ascended Effect: None
 
 #--------------------------------
 # Divine Pillars of Light
 #--------------------------------
 - FP Cost: 10
 - Physical Damage: 500
-- Slot Usage: 1
-
 - FTH Req: 30
-- Source: Treasure - Grand Archives
+- Ascended Effect: None
 
 #--------------------------------
 # Halo
 #--------------------------------
 - FP Cost: 30
 - Physical Damage: 400 [200] per bullet 
-- Slot Usage: 1
-
 - FTH Req: 25
-- Source: Boss Soul - Gael
+- Ascended Effect: None
 
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 100
 - Lightning Damage: 75 (per bullet)
-- Slot Usage: 1
-
 - FTH Req: 50
-- Source: Covenant - Warrior of Sunlight
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
@@ -873,236 +696,191 @@ and
 # Heal Aid
 #--------------------------------
 - FP Cost: 20
-- Heals 100 HP. Scales with FTH.
-- Slot Usage: 1
-- Uses: 20/22/24/25
-
+- Uses: 20
 - FTH Req: 10
-- Source: Shrine Handmaid - Default
+- Base Effect: Heals 100 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Heal
 #--------------------------------
 - FP Cost: 30
-- Heals 200 HP. Scales with FTH.
-- Slot Usage: 1
-- Uses: 15/17/19/20
-
+- Uses: 15
 - FTH Req: 15
-- Source: Class - Cleric
-- Source: Irina - Default
+- Base Effect: Heals 200 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Med Heal
 #--------------------------------
 - FP Cost: 40
-- Heals 300 HP. Scales with FTH.
-- Slot Usage: 1
-- Uses: 10/12/14/15
-
+- Uses: 10
 - FTH Req: 20
-- Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
+- Base Effect: Heals 300 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Great Heal
 #--------------------------------
 - FP Cost: 50
-- Heals 400 HP. Scales with FTH.
 - Slot Usage: 2
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 30
-- Source: Treasure - Irithyll
+- Base Effect: Heals 400 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Soothing Sunlight
 #--------------------------------
 - FP Cost: 60
-- Heals 500 HP. Scales with FTH.
-- Slot Usage: 1
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 40
-- Source: Boss Soul - Dancer
+- Base Effect: Heals 500 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Projected Heal
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Heals 200 HP. Scales with FTH.
-- Uses: 20/22/24/25
-
+- Uses: 20
 - FTH Req: 30
-- Source: Treasure - Dreg Heap
+- Base Effect: Heals 200 HP. Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Replenishment
 #--------------------------------
 - FP Cost: 30
-- Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
-- Slot Usage: 1
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 20
-- Source: Irina - Default
+- Base Effect: Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Bountiful Light
 #--------------------------------
 - FP Cost: 40
-- Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
-- Slot Usage: 1
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 30
-- Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
+- Base Effect: Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Bountiful Sunlight
 #--------------------------------
 - FP Cost: 50
-- Slot Length: 1
-- Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
-- Slot Usage: 1
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 40
-- Source: Boss Soul - Rosaria
+- Base Effect: Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Caressing Tears
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: Cures all status aux for caster and allies in range.
-
 - FTH Req: 20
-- Source: Irina - Default
+- Base Effect: Cures all status aux for caster and allies in range.
+- Ascended Effect: None
 
 #--------------------------------
 # Tears of Denial
 #--------------------------------
 - FP Cost: 100
-- Slot Length: 1
-- Effect: prevents killing blow whilst active. Lasts until death.
-- Uses: 5/6/7/8
-
+- Uses: 5
 - FTH Req: 40
-- Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
+- Base Effect: prevents killing blow whilst active. Lasts until death.
+- Ascended Effect: Gains unlimited uses.
 
 #--------------------------------
 # Homeward
 #--------------------------------
 - FP Cost: 10
-- Slot Usage: 1
-- Effect: return to bonfire.
-
 - FTH Req: 10
-- Source: Irina - Default
+- Base Effect: return to bonfire.
+- Ascended Effect: None
 
 #--------------------------------
 # Blessed Weapon
 #--------------------------------
 - FP Cost: 50
 - HP Recovery: 5
-- Slot Usage: 1
-- Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
-
 - FTH Req: 16
-- Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
+- Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
+- Ascended Effect: None
 
 #--------------------------------
 # Atonement
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. Lasts 30 seconds.
-
 - FTH Req: 10
-- Source: Treasure - Farron Keep
+- Base Effect: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. Lasts 30 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Sacred Oath
 #--------------------------------
 - FP Cost: 100
-- Slot Length: 1
-- Effect: Increases damage and absorption by 20% for 60 seconds.
-
 - FTH Req: 40
-- Source: Treasure - Mimic - Lothric Castle
+- Base Effect: Increases damage and absorption by 20% for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Lightning Blade
 #--------------------------------
 - FP Cost: 50
 - Lightning Damage: 80
-- Slot Usage: 1
-- Effect: adds 60 Lightning damage to main weapon for 60 seconds. Scales with FTH.
-
 - FTH Req: 20
-- Source: Treasure - Irithyll Dungeon
+- Base Effect: adds 60 Lightning damage to main weapon for 60 seconds. Scales with FTH.
+- Ascended Effect: None
 
 #--------------------------------
 # Darkmoon Blade
 #--------------------------------
 - FP Cost: 50
 - Magic Damage: 80
-- Slot Usage: 1
-- Effect: adds 60 Magic damage to main weapon for 60 seconds. Scales with FTH.
-
 - FTH Req: 20
-- Source: Covenant - Darkmoon Rank 2 - Anor Londo
+- Base Effect: adds 60 Magic damage to main weapon for 60 seconds. Scales with FTH.
+- Ascended Effect: None
 
 #--------------------------------
 # Magic Barrier
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: increases Magic absorption by 30% for 60 seconds.
-
 - FTH Req: 20
-- Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
+- Base Effect: increases Magic absorption by 30% for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Great Magic Barrier
 #--------------------------------
 - FP Cost: 50
-- Slot Length: 1
-- Effect: increases Magic absorption by 50% for 60 seconds.
-
 - FTH Req: 30
-- Source: Treasure - Archdragon Peak
+- Base Effect: increases Magic absorption by 50% for 60 seconds.
+- Ascended Effect: None
 
 #--------------------------------
 # Heavenly Relief
 #--------------------------------
 - FP Cost: 75
-- Slot Usage: 1
-- Effect: boosts equipment load by 25% and reveals signs without ember.
-
 - FTH Req: 10
-- Source: Treasure - Cathedral of the Deep
+- Base Effect: boosts equipment load by 25% and reveals signs without ember.
+- Ascended Effect: None
 
 #--------------------------------
 # Perseverance
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: boosts Poise by 50% for 60 seconds
-
 - FTH Req: 40
-- Source: Treasure - Cathedral of the Deep
+- Base Effect: boosts Poise by 50% for 60 seconds
+- Ascended Effect: None
 
 #--------------------------------
 # Inner Fervor
 #--------------------------------
 - FP Cost: 0
-- Slot Usage: 1
-- Exchange 1% HP for 1% FP every 0.25 seconds whilst held.
-
 - FTH Req: 30
-- Source: Covenant - Warrior of Sunlight
+- Exchange 1% HP for 1% FP every 0.25 seconds whilst held.
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Dark Sorceries - Offensive
@@ -1112,172 +890,144 @@ and
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 150
-- Slot Usage: 1
-- Inflicts Curse.
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
-- Source: Purchase - Shrine Handmaid
 
 #--------------------------------
 # Dark Edge
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 300 
-- Slot Usage: 1
 - INT Req: 10
 - FTH Req: 6
-
-- Source: Karla - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Deep Soul
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 300 
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 12
 - FTH Req: 8
-- Source: Karla - Default
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 400 
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 16
 - FTH Req: 10
-- Source: Treasure - Irithyll of the Boreal Valley
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
+
 
 #--------------------------------
 # Climax
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 600 
-- Slot Usage: 1
-
 - INT Req: 40
 - FTH Req: 10
-- Source: Covenant - Aldrich Faithful
+- Ascended Effect: None
 
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 800 
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 40
 - FTH Req: 10
-- Source: Treasure - Dreg Heap
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 600  
-- Slot Usage: 1
-
 - INT Req: 28
 - FTH Req: 10
-- Source: Karla - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Affinity
 #--------------------------------
 - FP Cost: 75
 - Dark Damage: 125 (per bullet) 
-- Slot Usage: 1
-
 - INT Req: 28
 - FTH Req: 10
-- Source: Karla - Default
+- Ascended Effect: None
 
 #--------------------------------
 # Whisper of Despair
 #--------------------------------
 - FP Cost: 50
-- Effect: Inflicts 100 Curse.
-- Slot Usage: 1
-
 - INT Req: 20
 - FTH Req: 20
-- Source: Boss Soul - Deacon of the Deep
+- Base Effect: Inflicts 100 Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Yearning Dregs
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 500
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 25
 - FTH Req: 10
-- Source: Treasure - Cathedral of the Deep
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Writhing Deep
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 300 [600] 
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 24
 - FTH Req: 8
-- Source: Treasure - Cathedral of the Deep
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Dark Bead
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 100 per bullet 
-- Slot Usage: 1
-
 - INT Req: 30
 - FTH Req: 10
-- Source: Covenant - Aldrich Faithful
+- Ascended Effect: None
 
 #--------------------------------
 # Cascading Deep
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 80 (per bullet)
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 38
 - FTH Req: 10
-- Source: Treasure - Anor Londo
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Surging Deep
 #--------------------------------
 - FP Cost: 5
 - Dark Damage: 100 (per bullet)
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 16
 - FTH Req: 8
-- Source: Treasure - Irithyll of the Boreal Valley
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------
 # Dreg Torrent
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 100 (per bullet)
-- Slot Usage: 1
-- Inflicts Curse.
-
 - INT Req: 40
 - FTH Req: 10
-- Source: Boss Soul - Deacons of the Deep
+- Base Effect: Inflicts Curse.
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Dark Sorceries - Effect
@@ -1286,24 +1036,20 @@ and
 # Repel
 #--------------------------------
 - FP Cost: 25
-- Slot Usage: 1
-- Effect: increases absorption to 100% for 3 seconds
-
 - INT Req: 32
 - FTH Req: 10
-- Source: Boss Soul - Darkeater Midir
+- Base Effect: increases absorption to 100% for 3 seconds
+- Ascended Effect: None
 
 
 #--------------------------------
 # Numbness
 #--------------------------------
 - FP Cost: 100
-- Slot Usage: 1
-- Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
-
 - INT Req: 40
 - FTH Req: 10
-- Source: Covenant - Aldrich Faithful
+- Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Dark Pyromancies - Offensive
@@ -1313,55 +1059,42 @@ and
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 300 [250] 
-- Slot Usage: 1
-
-- Source: Karla - Grave Warden Pyromancy Tome - Catacombs of Carthus
-- Source: Treasure - Catacombs of Carthus
+- Ascended Effect: None
 
 #--------------------------------
 # Black Flame
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 300 [150] 
-- Slot Usage: 1
-
-- Source: Karla - Grave Warden Pyromancy Tome - Catacombs of Carthus
+- Ascended Effect: None
 
 #--------------------------------
 # Black Serpent
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 500 
-- Slot Usage: 1
-
-- Source: Boss Soul - Wolnir
+- Ascended Effect: None
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
 - FP Cost: 6
 - Dark Damage: 400 
-- Slot Usage: 1
-
-- Source: Treasure - Catacombs of Carthus
+- Ascended Effect: None
 
 #--------------------------------
 # Recollection  
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 100 (per bullet)
-- Slot Usage: 1
-
-- Source: Treasure - Catacombs of Carthus
+- Ascended Effect: None
 
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 500 
-- Slot Usage: 1
-
-- Source: Boss Soul - Wolnir
+- Ascended Effect: None
 
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
@@ -1371,106 +1104,86 @@ and
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 150
-- Slot Usage: 1
-- Inflicts Bleed on the target.
-
-- Source: Purchase - Shrine Handmaid
+- Base Effect: Inflicts Bleed
+- Ascended Effect: None
 
 #--------------------------------
 # Gnaw
 #--------------------------------
 - FP Cost: 25
 - Dark Damage: 300
-- Slot Usage: 1
-- Inflicts Bleed on the target.
-
 - INT Req: 8
 - FTH Req: 12
-- Source: Karla - Deep Braille Divine Tome - Cathedral of the Deep
-- Source: Irina - Deep Braille Divine Tome - Cathedral of the Deep
+- Base Effect: Inflicts Bleed
+- Ascended Effect: None
 
 #--------------------------------
 # Dorhys' Gnawing
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 600
-- Slot Usage: 1
-- Inflicts Bleed on the target.
-
 - INT Req: 10
 - FTH Req: 25
-- Source: Drop - Cathedral Evangelist - Irithyll
+- Base Effect: Inflicts Bleed
+- Ascended Effect: None
 
 #--------------------------------
 # Lifehunt Scythe
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 400 
-- Slot Usage: 1
-- Effect: absorbs 10% HP on hit.
-
 - INT Req: 10
 - FTH Req: 36
-- Source: Boss Soul - Aldrich
+- Base Effect: absorbs 10% HP on hit.
+- Ascended Effect: None
 
 #--------------------------------
 # Devouring Swarm
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 100 (per bullet)
-- Slot Usage: 1
-- Inflicts Bleed on the target.
-
 - INT Req: 10
 - FTH Req: 40
-- Source: Treasure - Grand Archives
+- Base Effect: Inflicts Bleed
+- Ascended Effect: None
 
 #--------------------------------
 # Dead Again
 #--------------------------------
 - FP Cost: 30
-- Slot Usage: 1
-- Effect: causes corpses to explode, dealing damage to foes.
-
 - INT Req: 10
 - FTH Req: 25
-- Source: Karla - Londor Braille Divine Tome - Yuria
-- Source: Irina - Londor Braille Divine Tome - Yuria
+- Base Effect: causes corpses to explode, dealing damage to foes.
+- Ascended Effect: None
 
 #--------------------------------
 # Deep Protection
 #--------------------------------
 - FP Cost: 50
-- Slot Usage: 1
-- Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. 
-
 - INT Req: 10
 - FTH Req: 30
-- Source: Karla - Deep Braille Divine Tome - Cathedral of the Deep
-- Source: Irina - Deep Braille Divine Tome - Cathedral of the Deep
+- Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. 
+- Ascended Effect: None
+
 
 #--------------------------------
 # Dark Blade
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 80
-- Slot Usage: 1
-- Effect: adds 60 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
-
 - INT Req: 10
 - FTH Req: 20
-- Source: Karla - Londor Braille Divine Tome - Yuria
-- Source: Irina - Londor Braille Divine Tome - Yuria
+- Base Effect: adds 60 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Ascended Effect: None
+
 
 #--------------------------------
 # Vow of Silence
 #--------------------------------
 - FP Cost: 50
-- Slot Length: 1
-- Effect: silence self and target for 15 seconds.
-
 - INT Req: 10
 - FTH Req: 25
-- Source: Karla - Londor Braille Divine Tome - Yuria
-- Source: Irina - Londor Braille Divine Tome - Yuria
+- Base Effect: silence self and target for 15 seconds.
+- Ascended Effect: None
+
 
