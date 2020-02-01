@@ -230,7 +230,6 @@ being staggered.
 - Slowed the Soul Arrow cast animation.
 - Slowed the Lightning Spear cast animation.
 - Slowed the Heavy Soul Arrow cast animation.
-- Slowed the Heal cast animation.
 - Adjusted which spells use which animations.
 - Changed the cast speed change to only increase the speed by 50% at 99.
 - Cast speed from DEX starts from 1 DEX (was 20).
@@ -257,8 +256,8 @@ being staggered.
 - Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
 - Fire Surge: now partially bypasses shield absorption if the target is guarding.
 - Great Lightning Spear/Sunlight Spear: now knocks target down.
-# - Removed the soul cost on Climax.
-# - Most utility spells now have much lower FP costs, but have limited uses, ranging from 5 to 25. These uses are rest upon bonfire rest, and the total is noted in the description.
+- Removed the soul cost on Climax.
+- Most utility spells now have much lower FP costs, but have limited uses, ranging from 5 to 25. These uses are rest upon bonfire rest, and the total is noted in the description.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
