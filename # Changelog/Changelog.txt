@@ -262,6 +262,7 @@ being staggered.
 - Healing miracles become unlimited at 80 FTH.
 - Repair becomes unlimited at 80 INT.
 - Warmth becomes unlimited at 80 STR.
+# - White Dragon Breath changes at 80 INT, shooting 3 lines instead of 1.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.

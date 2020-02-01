@@ -36,17 +36,21 @@ Determines the damage scaling type used by the spell
 #---------------------------
 # Attribute Type 
 #---------------------------
-2   Lifehunt Scythe
+0 STR
+1 DEX
+2 FTH
+3 INT
  
 #---------------------------
 # Attribute Value (0 to 3)
 #---------------------------
-Appears to determine the stat levels at which to use the Magic ID entries.
+Determines what level to use the specified Magic ID replacements.
 
 #---------------------------
 # Magic ID (0 to 3)
 #---------------------------
-Points to seperate Magic entries, corresponding to the attribute values (e.g. AV 0 == 20, AV 1 = 30, Magic ID 0 will fire between 20 and 30)
+Magic ID replacements to use at the specificied breakpoints.
+All 4 are required to work correctly.
 
 #---------------------------
 # Animation Category
