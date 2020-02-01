@@ -352,35 +352,35 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 150
-- Ascended Effect: None
+- Ascended Effect: deals 50 poise damage (normally 25).
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 300 [150] 
-- Ascended Effect: None
+- Ascended Effect: impact now leaves a lava pool.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 400 [200] 
-- Ascended Effect: None
+- Ascended Effect: impact now leaves a lava pool.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 8
 - Fire Damage: 400 
-- Ascended Effect: None
+- Ascended Effect: extends area of effect.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 100
-- Ascended Effect: None
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Great Combustion
@@ -498,22 +498,22 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Poison Mist
 #--------------------------------
 - FP Cost: 50
-- Base Effect: summons patch of poison that deals 15 Poison aux for 60 seconds.
-- Ascended Effect: None
+- Base Effect: summons patch of poison that deals 25 Poison aux for 6 seconds.
+- Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Toxic Mist
 #--------------------------------
 - FP Cost: 75
-- Base Effect: summons patch of poison that deals 12 Toxic aux for 60 seconds.
-- Ascended Effect: None
+- Base Effect: summons patch of poison that deals 10 Toxic aux for 6 seconds.
+- Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Acid Surge
 #--------------------------------
 - FP Cost: 100
-- Base Effect: summons patch of corrosion that reduces durability and deals damage. Lasts for 6 seconds.
-- Ascended Effect: None
+- Base Effect: summons patch of corrosion that reduces durability by 1 and removes 0.5% HP per tick. Lasts for 6 seconds.
+- Ascended Effect: expands area of effect.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Effects

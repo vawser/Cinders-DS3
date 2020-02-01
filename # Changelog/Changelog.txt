@@ -301,6 +301,14 @@ being staggered.
 - Aural Decoy: extends duration to 15 seconds.
 - Twisted Wall of Light: extends duration to 3 seconds.
 - Unleash Magic: extends duration to 60 seconds.
+- Poison Mist: expands area of effect.
+- Toxic Mist: expands area of effect.
+- Acid Surge: expands area of effect.
+- Flame Fan: deals 50 poise damage (normally 25).
+- Fireball: impact now leaves a lava pool.
+- Fire Orb: impact now leaves a lava pool.
+- Firestorm: extends area of effect.
+- Fire Surge: shoots 3 projectiles.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
