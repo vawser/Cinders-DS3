@@ -262,7 +262,11 @@ being staggered.
 - Healing miracles become unlimited at 80 FTH.
 - Repair becomes unlimited at 80 INT.
 - Warmth becomes unlimited at 80 STR.
-# - White Dragon Breath changes at 80 INT, shooting 3 lines instead of 1.
+- White Dragon Breath changes at 80 INT, shooting 3 lines instead of 1.
+# - Crystal Soul Spear changes at 80 INT, casting quicker and with better tracking.
+# - Homing Crystal Soulmass changes at 80 INT, casting quicker.
+# - Crystal Magic Weapon changes at 80 INT, adding more damage (120).
+# - Cast Light changes at 80 INT, become a light version of Crystal Hail.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
