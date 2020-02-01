@@ -244,160 +244,6 @@ and
 - INT Req: 20
 - Source: Boss Soul - Vordt of the Boreal Valley
 
-#--------------------------------------------------------------------------
-# Sorceries - Effects
-#--------------------------------------------------------------------------
-#--------------------------------
-# Magic Weapon
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: Adds 40 Magic damage to main weapon for 90 seconds. Scales with INT.
-
-- INT Req: 20
-- Source: Orbeck - Default
-
-#--------------------------------
-# Great Magic Weapon
-#--------------------------------
-- FP Cost: 75
-- Slot Usage: 1
-- Effect: Adds 50 Magic damage to main weapon for 60 seconds. Scales with INT.
-
-- INT Req: 30
-- Source: Treasure - Farron Keep
-
-#--------------------------------
-# Crystal Magic Weapon
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Effect: Adds 60 Magic damage to main weapon for 30 seconds. Scales with INT.
-
-- INT Req: 40
-- Source: Orbeck - Crystal Scroll - Grand Archives
-
-#--------------------------------
-# Frozen Weapon
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: Adds 48 Frost aux to main weapon for 60 seconds.
-
-- INT Req: 20
-- Source: Treasure - Ariandel
-- Source: Orbeck - Default
-
-#--------------------------------
-# Magic Shield
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
-
-- INT Req: 20
-- Source: Orbeck - Default
-
-#--------------------------------
-# Great Magic Shield
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
-
-- INT Req: 30
-- Source: Treasure - Cathedral of the Deep - Rosaria Quest
-
-#--------------------------------
-# Hidden Weapon
-#--------------------------------
-- FP Cost: 25
-- Slot Usage: 1
-- Effect: hides main weapon for 120 seconds.
-
-- INT Req: 10
-- Source: Orbeck - Golden Scroll - Farron Keep
-
-#--------------------------------
-# Hidden Body
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Effect: hides player for 30 seconds, reducing enemy sight by 100%.
-
-- INT Req: 20
-- Source: Orbeck - Golden Scroll - Farron Keep
-
-#--------------------------------
-# Cast Light
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: summons a light source that follows you for 120 seconds.
-
-- INT Req: 10
-- Source: Orbeck - Golden Scroll - Farron Keep
-
-#--------------------------------
-# Repair
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Effect: repairs main weapon by 50 durability.
-
-- INT Req: 20
-- Source: Orbeck - Golden Scroll - Farron Keep
-
-#--------------------------------
-# Spook
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: reduces enemy listen by 100% for 30 seconds.
-
-- INT Req: 18
-- Source: Orbeck - Default
-
-#--------------------------------
-# Chameleon
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Effect: transforms player into object from level.
-
-- INT Req: 20
-- Source: Treasure - Londor Pilgrim - Anri Quest
-
-#--------------------------------
-# Aural Decoy
-#--------------------------------
-- FP Cost: 30
-- Slot Usage: 1
-- Effect: shoots decoy orb that distracts enemies for 5 seconds.
-
-- INT Req: 18
-- Source: Orbeck - Default
-
-#--------------------------------
-# Twisted Wall of Light
-#--------------------------------
-- FP Cost: 20
-- Slot Usage: 1
-- Effect: reflect spells away for 5 seconds.
-
-- INT Req: 15
-- Source: Orbeck - Golden Scroll - Farron Keep
-
-#--------------------------------
-# Unleash Magic
-#--------------------------------
-- FP Cost: 100
-- Slot Usage: 1
-- Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
-
-- INT Req: 40
-- Source: Treasure - Lothric Castle
-
 #--------------------------------
 # Blinding Light
 #--------------------------------
@@ -409,16 +255,6 @@ and
 - Source: Boss Soul - Lothric
 
 #--------------------------------
-# Soul Focus
-#--------------------------------
-- FP Cost: 0
-- Slot Usage: 1
-- Exchange 5% HP for 5% FP every 0.25 seconds whilst held.
-
-- INT Req: 30
-- Source: Orbeck - Default
-
-#--------------------------------
 # Shockwave
 #--------------------------------
 - FP Cost: 20
@@ -426,6 +262,185 @@ and
 - Knocks down enemies.
 
 - INT Req: 10
+- Source: Orbeck - Default
+
+#--------------------------------------------------------------------------
+# Sorceries - Effects
+#--------------------------------------------------------------------------
+#--------------------------------
+# Magic Weapon
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: Adds 40 Magic damage to main weapon for 90 seconds. Scales with INT.
+- Uses: 15
+
+- INT Req: 20
+- Source: Orbeck - Default
+
+#--------------------------------
+# Great Magic Weapon
+#--------------------------------
+- FP Cost: 15
+- Slot Usage: 1
+- Effect: Adds 50 Magic damage to main weapon for 60 seconds. Scales with INT.
+- Uses: 10
+
+- INT Req: 30
+- Source: Treasure - Farron Keep
+
+#--------------------------------
+# Crystal Magic Weapon
+#--------------------------------
+- FP Cost: 25
+- Slot Usage: 1
+- Effect: Adds 60 Magic damage to main weapon for 30 seconds. Scales with INT.
+- Uses: 5
+
+- INT Req: 40
+- Source: Orbeck - Crystal Scroll - Grand Archives
+
+#--------------------------------
+# Frozen Weapon
+#--------------------------------
+- FP Cost: 15
+- Slot Usage: 1
+- Effect: Adds 48 Frost aux to main weapon for 60 seconds.
+- Uses: 10
+
+- INT Req: 20
+- Source: Treasure - Ariandel
+- Source: Orbeck - Default
+
+#--------------------------------
+# Magic Shield
+#--------------------------------
+- FP Cost: 15
+- Slot Usage: 1
+- Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
+- Uses: 10
+
+- INT Req: 20
+- Source: Orbeck - Default
+
+#--------------------------------
+# Great Magic Shield
+#--------------------------------
+- FP Cost: 25
+- Slot Usage: 1
+- Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
+- Uses: 10
+
+- INT Req: 30
+- Source: Treasure - Cathedral of the Deep - Rosaria Quest
+
+#--------------------------------
+# Hidden Weapon
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: hides main weapon for 120 seconds.
+- Uses: 15
+
+- INT Req: 10
+- Source: Orbeck - Golden Scroll - Farron Keep
+
+#--------------------------------
+# Hidden Body
+#--------------------------------
+- FP Cost: 15
+- Slot Usage: 1
+- Effect: hides player for 30 seconds, reducing enemy sight by 100%.
+- Uses: 10
+
+- INT Req: 20
+- Source: Orbeck - Golden Scroll - Farron Keep
+
+#--------------------------------
+# Cast Light
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: summons a light source that follows you for 120 seconds.
+- Uses: 25
+
+- INT Req: 10
+- Source: Orbeck - Golden Scroll - Farron Keep
+
+#--------------------------------
+# Repair
+#--------------------------------
+- FP Cost: 25
+- Slot Usage: 1
+- Effect: repairs main weapon by 50 durability.
+- Uses: 5
+
+- INT Req: 20
+- Source: Orbeck - Golden Scroll - Farron Keep
+
+#--------------------------------
+# Spook
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: reduces enemy listen by 100% for 30 seconds.
+- Uses: 5
+
+- INT Req: 18
+- Source: Orbeck - Default
+
+#--------------------------------
+# Chameleon
+#--------------------------------
+- FP Cost: 25
+- Slot Usage: 1
+- Effect: transforms player into object from level.
+- Uses: 5
+
+- INT Req: 20
+- Source: Treasure - Londor Pilgrim - Anri Quest
+
+#--------------------------------
+# Aural Decoy
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: shoots decoy orb that distracts enemies for 5 seconds.
+- Uses: 10
+
+- INT Req: 18
+- Source: Orbeck - Default
+
+#--------------------------------
+# Twisted Wall of Light
+#--------------------------------
+- FP Cost: 10
+- Slot Usage: 1
+- Effect: reflect spells away for 5 seconds.
+- Uses: 15
+
+- INT Req: 15
+- Source: Orbeck - Golden Scroll - Farron Keep
+
+#--------------------------------
+# Unleash Magic
+#--------------------------------
+- FP Cost: 25
+- Slot Usage: 1
+- Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
+- Uses: 5
+
+- INT Req: 40
+- Source: Treasure - Lothric Castle
+
+#--------------------------------
+# Soul Focus
+#--------------------------------
+- FP Cost: 0
+- Slot Usage: 1
+- Exchange 5% HP for 5% FP every 0.25 seconds whilst held.
+
+- INT Req: 30
 - Source: Orbeck - Default
 
 #--------------------------------------------------------------------------
@@ -621,36 +636,6 @@ and
 
 - Source: Treasure - Profaned Capital
 
-#--------------------------------------------------------------------------
-# Pyromancies - Effects
-#--------------------------------------------------------------------------
-#--------------------------------
-# Carthus Beacon
-#--------------------------------
-- FP Cost: 75
-- Slot Length: 1
-- Effect: boosts attack whilst attacking persists. Starts at 7%, increases to 14% with unbroken attacking. Lasts 30 seconds.
-
-- Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
-
-#--------------------------------
-# Warmth
-#--------------------------------
-- FP Cost: 100
-- Slot Length: 2
-- Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
-
-- Source: Covenant - Mound-makers Rank 2 - Undead Settlement
-
-#--------------------------------
-# Profuse Sweat
-#--------------------------------
-- FP Cost: 50
-- Slot Usage: 1
-- Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
-
-- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
-
 #--------------------------------
 # Poison Mist
 #--------------------------------
@@ -677,57 +662,96 @@ and
 
 - Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
 
+#--------------------------------------------------------------------------
+# Pyromancies - Effects
+#--------------------------------------------------------------------------
+#--------------------------------
+# Carthus Beacon
+#--------------------------------
+- FP Cost: 25
+- Slot Length: 1
+- Effect: boosts attack whilst attacking persists. Starts at 7%, increases to 14% with unbroken attacking. Lasts 30 seconds.
+- Uses: 5
+
+- Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
+
+#--------------------------------
+# Warmth
+#--------------------------------
+- FP Cost: 25
+- Slot Length: 2
+- Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
+- Uses: 5
+
+- Source: Covenant - Mound-makers Rank 2 - Undead Settlement
+
+#--------------------------------
+# Profuse Sweat
+#--------------------------------
+- FP Cost: 15
+- Slot Usage: 1
+- Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
+- Uses: 10
+
+- Source: Cornyx - Great Swamp Pyromancy Tome - Road of Sacrifices
+
 #--------------------------------
 # Iron Flesh
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
+- Uses: 5
 
 - Source: Treasure - Farron Keep
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 15
 - Slot Usage: 1
 - Effect: Increases Fire absorption by 30% for 30 seconds.
+- Uses: 10
 
 - Source: Cornyx - Default
 
 #--------------------------------
 # Carthus Flame Arc
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: adds 60 Fire damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Uses: 5
 
 - Source: Cornyx - Carthus Pyromancy Tome - Catacombs of Carthus
 
 #--------------------------------
 # Rapport
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: converts target enemy to player team for 30 seconds.
+- Uses: 5
 
 - Source: Karla - Quelana Pyromancy Tome - Smouldering Lake
 
 #--------------------------------
 # Power Within
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: increases damage by 35% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
+- Uses: 5
 
 - Source: Treasure - Smouldering Lake
 
 #--------------------------------
 # Rockflesh
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 15 seconds.
+- Uses: 5
 
 - Source: Treasure - Profaned Capital
 
@@ -870,9 +894,10 @@ and
 #--------------------------------
 # Heal Aid
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 10
 - Heals 100 HP. Scales with FTH.
 - Slot Usage: 1
+- Uses: 15
 
 - FTH Req: 10
 - Source: Shrine Handmaid - Default
@@ -880,9 +905,10 @@ and
 #--------------------------------
 # Heal
 #--------------------------------
-- FP Cost: 45
+- FP Cost: 15
 - Heals 200 HP. Scales with FTH.
 - Slot Usage: 1
+- Uses: 10
 
 - FTH Req: 15
 - Source: Class - Cleric
@@ -891,9 +917,10 @@ and
 #--------------------------------
 # Med Heal
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 20
 - Heals 300 HP. Scales with FTH.
 - Slot Usage: 1
+- Uses: 5
 
 - FTH Req: 20
 - Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
@@ -901,9 +928,10 @@ and
 #--------------------------------
 # Great Heal
 #--------------------------------
-- FP Cost: 55
+- FP Cost: 25
 - Heals 400 HP. Scales with FTH.
 - Slot Usage: 2
+- Uses: 5
 
 - FTH Req: 30
 - Source: Treasure - Irithyll
@@ -911,9 +939,10 @@ and
 #--------------------------------
 # Soothing Sunlight
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 30
 - Heals 500 HP. Scales with FTH.
 - Slot Usage: 1
+- Uses: 5
 
 - FTH Req: 40
 - Source: Boss Soul - Dancer
@@ -921,9 +950,10 @@ and
 #--------------------------------
 # Projected Heal
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 15
 - Slot Usage: 1
 - Heals 200 HP. Scales with FTH.
+- Uses: 10
 
 - FTH Req: 30
 - Source: Treasure - Dreg Heap
@@ -931,9 +961,10 @@ and
 #--------------------------------
 # Replenishment
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 10
 - Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
 - Slot Usage: 1
+- Uses: 5
 
 - FTH Req: 20
 - Source: Irina - Default
@@ -941,9 +972,10 @@ and
 #--------------------------------
 # Bountiful Light
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 15
 - Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
 - Slot Usage: 1
+- Uses: 5
 
 - FTH Req: 30
 - Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
@@ -955,6 +987,7 @@ and
 - Slot Length: 1
 - Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
 - Slot Usage: 1
+- Uses: 5
 
 - FTH Req: 40
 - Source: Boss Soul - Rosaria
@@ -962,9 +995,10 @@ and
 #--------------------------------
 # Caressing Tears
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: Cures all status aux for caster and allies in range.
+- Uses: 5
 
 - FTH Req: 20
 - Source: Irina - Default
@@ -972,9 +1006,10 @@ and
 #--------------------------------
 # Tears of Denial
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Length: 1
 - Effect: prevents killing blow whilst active. Lasts until death.
+- Uses: 5
 
 - FTH Req: 40
 - Source: Irina - Braille Divine Tome of Carim - Road of Sacrifices
@@ -982,9 +1017,10 @@ and
 #--------------------------------
 # Homeward
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 10
 - Slot Usage: 1
 - Effect: return to bonfire.
+- Uses: 1
 
 - FTH Req: 10
 - Source: Irina - Default
@@ -992,10 +1028,11 @@ and
 #--------------------------------
 # Blessed Weapon
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - HP Recovery: 5
 - Slot Usage: 1
 - Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
+- Uses: 5
 
 - FTH Req: 16
 - Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
@@ -1003,9 +1040,10 @@ and
 #--------------------------------
 # Atonement
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: boosts absorption by 25% and grants 1% HP and FP recovery, but slows the caster. Lasts 30 seconds.
+- Uses: 5
 
 - FTH Req: 10
 - Source: Treasure - Farron Keep
@@ -1013,9 +1051,10 @@ and
 #--------------------------------
 # Sacred Oath
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Length: 1
 - Effect: Increases damage and absorption by 20% for 60 seconds.
+- Uses: 5
 
 - FTH Req: 40
 - Source: Treasure - Mimic - Lothric Castle
@@ -1023,10 +1062,11 @@ and
 #--------------------------------
 # Lightning Blade
 #--------------------------------
-- FP Cost: 75
+- FP Cost: 25
 - Lightning Damage: 80
 - Slot Usage: 1
 - Effect: adds 60 Lightning damage to main weapon for 60 seconds. Scales with FTH.
+- Uses: 5
 
 - FTH Req: 20
 - Source: Treasure - Irithyll Dungeon
@@ -1034,10 +1074,11 @@ and
 #--------------------------------
 # Darkmoon Blade
 #--------------------------------
-- FP Cost: 75
+- FP Cost: 25
 - Magic Damage: 80
 - Slot Usage: 1
 - Effect: adds 60 Magic damage to main weapon for 60 seconds. Scales with FTH.
+- Uses: 5
 
 - FTH Req: 20
 - Source: Covenant - Darkmoon Rank 2 - Anor Londo
@@ -1045,9 +1086,10 @@ and
 #--------------------------------
 # Magic Barrier
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 15
 - Slot Usage: 1
 - Effect: increases Magic absorption by 30% for 60 seconds.
+- Uses: 10
 
 - FTH Req: 20
 - Source: Irina - Braille Divine Tome of Lothric - High Wall of Lothric
@@ -1055,9 +1097,10 @@ and
 #--------------------------------
 # Great Magic Barrier
 #--------------------------------
-- FP Cost: 75
+- FP Cost: 25
 - Slot Length: 1
 - Effect: increases Magic absorption by 50% for 60 seconds.
+- Uses: 5
 
 - FTH Req: 30
 - Source: Treasure - Archdragon Peak
@@ -1065,9 +1108,10 @@ and
 #--------------------------------
 # Heavenly Relief
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 20
 - Slot Usage: 1
 - Effect: boosts equipment load by 25% and reveals signs without ember.
+- Uses: 5
 
 - FTH Req: 10
 - Source: Treasure - Cathedral of the Deep
@@ -1075,11 +1119,14 @@ and
 #--------------------------------
 # Perseverance
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: boosts Poise by 50% for 60 seconds
+- Uses: 5
+
 - FTH Req: 40
 - Source: Treasure - Cathedral of the Deep
+
 
 #--------------------------------
 # Inner Fervor
@@ -1145,7 +1192,6 @@ and
 - FP Cost: 50
 - Dark Damage: 600 
 - Slot Usage: 1
-- Effect: removes 1000 souls upon use. Doesn't affect damage.
 
 - INT Req: 40
 - FTH Req: 10
@@ -1273,20 +1319,23 @@ and
 #--------------------------------
 # Repel
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 10
 - Slot Usage: 1
 - Effect: increases absorption to 100% for 3 seconds
+- Uses: 10
 
 - INT Req: 32
 - FTH Req: 10
 - Source: Boss Soul - Darkeater Midir
 
+
 #--------------------------------
 # Numbness
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Slot Usage: 1
 - Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
+- Uses: 5
 
 - INT Req: 40
 - FTH Req: 10
@@ -1427,9 +1476,10 @@ and
 #--------------------------------
 # Deep Protection
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 15
 - Slot Usage: 1
 - Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. 
+- Uses: 10
 
 - INT Req: 10
 - FTH Req: 30
@@ -1439,10 +1489,11 @@ and
 #--------------------------------
 # Dark Blade
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 25
 - Dark Damage: 80
 - Slot Usage: 1
 - Effect: adds 60 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Uses: 5
 
 - INT Req: 10
 - FTH Req: 20
@@ -1452,9 +1503,10 @@ and
 #--------------------------------
 # Vow of Silence
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 15
 - Slot Length: 1
 - Effect: silence self and target for 15 seconds.
+- Uses: 10
 
 - INT Req: 10
 - FTH Req: 25

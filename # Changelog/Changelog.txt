@@ -257,6 +257,8 @@ being staggered.
 - Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
 - Fire Surge: now partially bypasses shield absorption if the target is guarding.
 - Great Lightning Spear/Sunlight Spear: now knocks target down.
+# - Removed the soul cost on Climax.
+# - Most utility spells now have much lower FP costs, but have limited uses, ranging from 5 to 25. These uses are rest upon bonfire rest, and the total is noted in the description.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -268,8 +270,8 @@ being staggered.
 - Added 45 empowered enemies per NG+ (for +1, +2 and +3). Each drop one of the + rings once, and Primordial Titanite thereafter.
 - Lowered the amount of Primordial Titanite dropped by some Dream bosses.
 - Increased the amount of Primordial Titanite dropped by Nightmare bosses.
-# - Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
-# Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
+- Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
+Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -286,7 +288,7 @@ being staggered.
 - Fixed Elkhorn Round Shield effect not matching description.
 - Fixed Pestilent Mist not applying Curse.
 - Velka's Rapier hitbox is no longer ultra-scuffed.
-# - All new Mimics now have the open action fixed.
+- All new Mimics now have the open action fixed.
 
 #------------------------------
 # Models
@@ -300,7 +302,3 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-31380000 Scythe of Nahr Alma
-31070000 Quelaag's Fury Sword
-31140000 Smelter Sword
-31370000 Sacred Chime Hammer

@@ -95,6 +95,9 @@ AI notification attack type - SetInterruptType (y is type index)
 ロックオン時システム旋回不可角度
 - Lock-on system non-turnable angle
 
+ロックオン対象へ即座に旋回
+- Turn instantly to lock-on target
+
 110     -
 148     - SetVariable (y is name, z is value)
 1001    - AddStamina (y is Stamina value)
