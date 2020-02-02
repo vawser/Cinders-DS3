@@ -113,7 +113,7 @@ Frost
 - No longer increases resistances.
  
 # Vigor:
-- HP Scale: {1:500, 20:1000, 60:1500, 80:2000, 99:2500}
+- HP Scale: {1:500, 20:1000, 60:1400, 80:1800, 99:2000}
 - Frost Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Attunement:
