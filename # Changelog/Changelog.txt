@@ -394,7 +394,7 @@ being staggered.
 - Nibble: inflicts 50 Bleed, moves quicker.
 - Gnaw: inflicts 75 Bleed, moves quicker.
 - Dorhys' Gnawing: inflicts 100 Bleed, moves quicker.
-- Lifehunt Scythe: uses Farron Flashsword cast animation.
+- Lifehunt Scythe: absorbs 15% HP.
 - Devouring Swarm: emits projectiles more rapidly.
 - Deep Protection: increases damage and absorption by 15%.
 - Dark Blade: adds 90 Dark damage to main weapon for 60 seconds.
