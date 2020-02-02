@@ -260,6 +260,7 @@ being staggered.
 - Reduced the FP cost of utility spells.
 - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
 - Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
+# - Halo now slowly moves away from the player upon casting, and after 8 seconds, returns.
 
 # Ascended Spells
 - Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
@@ -300,7 +301,7 @@ being staggered.
 - Spook: extends duration to 60 seconds.
 - Aural Decoy: extends duration to 15 seconds.
 - Twisted Wall of Light: extends duration to 3 seconds.
-- Unleash Magic: extends duration to 60 seconds.
+- Unleash Magic: extends duration to 60 seconds and removes absorption debuff.
 - Poison Mist: expands area of effect.
 - Toxic Mist: expands area of effect.
 - Acid Surge: expands area of effect.
@@ -313,6 +314,59 @@ being staggered.
 - Great Chaos Fire Orb: shoots 2 projectiles.
 - Chaos Storm: extends area of effect.
 - Fire Whip: increases poise damage to 10 (normally 5).
+- Profaned Flame: shoots 3 projectiles.
+- Chaos Bed Vestiges: impact now leaves lava pool.
+- Cataclysm: extends duration to 8 (normally 5).
+- Floating Chaos: emits bullets twice as fast.
+- Bursting Fireball: impact now leaves lava pool.
+- Boulder Heave: now emits a stream of boulders.
+- Sacred Flame: reduces FP cost to 40.
+- Seething Chaos: shoots 2 projectiles.
+- Wretch Earth: shoots 3 projectiles.
+- Earthquake: extends area of effect.
+- Lingering Chaos: uses the Farron Dart cast animation.
+- Earthfall: extends duration to 8 (normally 5).
+- Carthus Beacon: extends duration to 60 seconds.
+- Warmth: gains unlimited uses.
+- Profuse Sweat: extends duration to 300 seconds.
+- Iron Flesh: extends duration to 30 seconds.
+- Flash Sweat: extends duration to 300 seconds.
+- Carthus Flame Arc: adds 90 Fire damage to main weapon for 60 seconds.
+- Rapport: extends duration to 60 seconds, boosts enemy power by 100% whilst friendly.
+- Power Within: reduces HP loss to 0.5% per second.
+- Rockflesh: no longer slows movement.
+- Way of White Corona: shoots 3 projectiles.
+- Force: does 100 poise damage (normally 10).
+- Emit Force: uses the Farron Dart cast animation.
+- Wrath of the Gods: uses the Force cast animation.
+- Lightning Spear: shoots 5 projectiles with much stronger tracking.
+- Great Lightning Spear: gains much stronger tracking, now penetrates target.
+- Sunlight Spear: gain much stronger tracking.
+- Lightning Arrow: shoots 3 projectiles in a tight cone.
+- Lightning Storm: emits 10 projectiles (normally 5).
+- Lightning Stake: does 60 poise damage (normally 30).
+- Divine Pillars of Light: expands area of effect.
+- Halo: hits now cause long stagger.
+- Heavenly Thunder: emits more projectiles.
+- Heal Aid: gains unlimited uses.
+- Heal: gains unlimited uses.
+- Med Heal: gains unlimited uses.
+- Great Heal: gains unlimited uses.
+- Soothing Sunlight: gains unlimited uses.
+- Projected Heal: gains unlimited uses.
+- Replenishment: gains unlimited uses.
+- Bountiful Light: gains unlimited uses.
+- Bountiful Sunlight: gains unlimited uses.
+- Tears of Denial: gains unlimited uses.
+- Blessed Weapon: increases Physical damage by 90.
+- Atonement: extends duration to 60.
+- Sacred Oath: extends duration to 90.
+- Lightning Blade: adds 90 Lightning damage.
+- Darkmoon Blade: adds 90 Magic damage.
+- Magic Barrier: increases Magic, Fire, Lightning and Dark absorption by 30% for 60 seconds.
+- Great Magic Barrier: increases Magic, Fire, Lightning and Dark absorption by 50% for 60 seconds.
+- Heavenly Relief: increases equipment load by 50%.
+- Perseverance: extends duration to 120.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -325,7 +379,7 @@ being staggered.
 - Lowered the amount of Primordial Titanite dropped by some Dream bosses.
 - Increased the amount of Primordial Titanite dropped by Nightmare bosses.
 - Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
-Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
+- Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -356,9 +410,4 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Check Blinding light
-Reduce Acid Surge % removal
-Fix new armor on females
-Move the stray demon in Farron Keep above bonfire
-Lower pestilent mist curse boost
-Aural Decoy 80 version not working
+Make the NG+ enemies use a phantom color
