@@ -109,37 +109,37 @@ Frost
 - Scales are {<level>:<stat value at this level>}
 
 # Soul Level:
-- Defence Scale: {1:0, 200:25, 400:50, 600:75, 800:100}
+- Defence Scale: {1:0, 100:50, 200:100, 300:150, 400:200}
 - No longer increases resistances.
  
 # Vigor:
-- HP Scale: {1:500, 20:1000, 40:1400, 60:1800, 99:2000}
-- Frost Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+- HP Scale: {1:500, 20:1000, 60:1500, 80:2000, 99:2500}
+- Frost Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Attunement:
-- FP Scale: {1:100, 20:200, 40:300, 60:400, 99:500}
+- FP Scale: {1:100, 20:200, 60:400, 80:600, 99:800}
  
 # Endurance:
-- Lightning Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
-- Bleed Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+- Lightning Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
+- Bleed Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Vitality:
-- Physical Defence Scale: {1:0, 25:25, 50:50, 75:75, 99:100}
-- Poison Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+- Physical Defence Scale: {1:0, 20:50, 60:100, 80:150, 99:200}
+- Poison Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Strength:
-- Physical Defence Scale: {1:0, 25:25, 50:50, 75:75, 99:100}
-- Fire Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+- Physical Defence Scale: {1:0, 20:50, 60:100, 80:150, 99:200}
+- Fire Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
 
 # Intelligence
-- Magic Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+- Magic Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
 
 # Faith:
-- Dark Defence Scale: {1:0, 25:50, 50:100, 75:150, 99:200}
+- Dark Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
 
 # Luck:
-- Item Discovery Scale: {1:1, 25:1.25, 50:1.5, 75:1.75, 99:2}
-- Curse Resist Scale: {1:100, 25:200, 50:300, 75:350, 99:400}
+- Item Discovery Scale: {1:1, 20:1.2, 60:1.6, 80:1.8, 99:2}
+- Curse Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 #------------------------
 # Covenants

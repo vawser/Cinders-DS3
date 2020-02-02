@@ -42,6 +42,9 @@
 - NG+ modifier values have been shifted to mostly occur over +1, +2 and +3, the remaining NG+ levels are marginal. 
 - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 
+# Stats
+- Shifted the return from stats, making them slightly worse during the middle levels, but much better after 80.
+
 # Map
 - The loading fogwalls in Firelink Shrine no longer appear.
  
@@ -49,6 +52,7 @@
 - Paladin now starts with the Paladin Set and Grant.
 
 # Infusion
+- Increased Primordial Titanite costs in reinforcement to 5/10/15/20.
 - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
 - Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
 - Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
@@ -442,5 +446,3 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Add this as the emitter FFX for Heavenly thunder
-622000 Big lightning orb

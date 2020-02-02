@@ -1,1 +1,395 @@
-﻿
+﻿112 Large White Flash Burst + Particles + Smoke
+114 Large White Force Burst + Smoke
+115 Large White Force Burst + Smoke
+120 Large White Force Burst + Smoke
+147021 Pillar Dust Burst
+147161 Cylinder Dust Burst
+147162 Dust burst
+260000 Black liquid burst
+260001 Black liquid burst
+260002 Black liquid burst
+260003 Black liquid burst
+260004 Black liquid burst
+260100 Black liquid burst - Pillar
+260101 Black liquid burst - Pillar
+260102 Black liquid burst - Pillar
+260103 Black liquid burst - Pillar
+260104 Black liquid burst - Pillar
+260200 Black liquid burst
+260201 Black liquid burst
+260202 Black liquid burst
+260203 Black liquid burst
+260204 Black liquid burst
+260300 Black liquid burst - Sidewards
+260301 Black liquid burst - Sidewards
+260302 Black liquid burst - Sidewards
+260303 Black liquid burst - Sidewards
+260304 Black liquid burst - Sidewards
+260400 Black liquid burst - Backwards
+260401 Black liquid burst - Backwards
+260402 Black liquid burst - Backwards
+260403 Black liquid burst - Backwards
+260404 Black liquid burst - Backwards
+260500 Black liquid burst
+260501 Black liquid burst
+260502 Black liquid burst
+260503 Black liquid burst
+300070 Sunlight lightning orb
+300072 Orange puffs
+300073 Sunlight lightning impact
+300074 Sunlight lightning spears (3)
+300080 Light orb
+300082 White puffs 
+300083 Light impact
+300084 White lightning spears (3)
+430002 Chameleon Cast
+431001 Chameleon: Medium pot
+439111 Chameleon: Rock formation
+439112 Chameleon Cast
+439121 Chameleon: Stone slab
+439122 Chameleon Cast
+439131 Chameleon: Humanity
+439132 Chameleon Cast
+439141 Chameleon: Medium pot
+439142 Chameleon Cast
+439151 Chameleon: Avowal symbol
+439152 Chameleon Cast
+439161 Chameleon: Stone Ringed Knight
+439162 Chameleon Cast
+439171 Chameleon: Stone Throne
+439172 Chameleon Cast
+439181 Chameleon: Avowal symbol
+439182 Chameleon Cast
+440902 Dark Sorcery Tear
+528201 Summoned Ruin Knight Archer: Draw
+528202 Summoned Ruin Knight Archer: Release
+528203 Long Arrow
+528204 Summoned Ruin Knight Archer: Recover to Idle
+528205 Summoned Ruin Knight Archer: Shoot
+528301 Summoned Dragonform: Dragon Head Stone start
+528302 Summoned Dragonform: Dragon Head Stone breath 
+528304 Summoned Dragonform: Dragon Head Stone end 
+528306 Summoned Dragonform: Dragon breath
+528307 Summoned Dragonform: Ground fires
+528400 Summoned Ledo: Appear
+528401 Summoned Ledo: Spin
+528402 Summoned Ledo: Spin
+528403 Summoned Ledo: Smash
+528404 Summoned Ledo: Recover
+528410 Black Ground Marker
+528501 Summoned Witch: Appear
+528502 Summoned Witch: Dark Edge
+528503 White Dark Tear
+528504 Summoned Witch: Disappear
+530002 Small Sunlight Orb
+530003 Sunlight Spear Tip
+530004 Sunlight Spear Tip
+530005 Sunlight Burst
+530012 Small White Orb
+530013 White Spear Tip
+530014 White Spear Tip
+530015 White Burst
+610700 White Eye Glow
+610705 Dark Firebomb
+610706 Dark Firebomb Throw
+610707 Dark Firebomb Impact
+610708 Dark Firebomb: Affinity
+610709 Dark Firebomb: Affinity Impact
+610710 Arrow
+610711 Arrow Moving
+610712 Arrow
+610713 Arrow Flick
+610715 Black Swirling Ground Marker
+610716 Small Black Fog 
+613000 Red Skull Ground Marker
+613001 Red Skull Ground Marker
+613412 Sticky White Stuff
+613413 Sticky White Stuff Impact
+631401 Ember Puffs - Flow Forward
+631402 Ground Fires
+631433 Big Earth Impact
+631600 Big Earth Impact - Pillar
+631601
+631602
+631605
+631606
+631610
+631611
+631612
+631615
+631620
+631630
+631640
+631641
+631690
+631691
+662000
+662001
+662002
+662003
+662004
+662011
+662012
+662013
+662020
+662025
+662030
+662035
+662036
+662040
+662041
+662050
+662051
+662052
+662053
+662054
+662060
+662061
+662062
+662065
+662066
+662069
+662070
+662071
+662072
+662080
+662081
+662082
+662083
+662084
+662090
+662101
+662102
+662103
+662107
+662108
+662110
+662111
+662112
+662113
+662114
+662115
+662116
+662121
+662122
+662123
+662140
+662141
+662144
+662145
+662146
+662147
+662150
+662151
+662160
+662161
+662162
+662163
+662164
+662170
+662201
+662202
+662203
+662205
+662210
+662211
+662212
+662220
+662221
+662222
+662223
+662224
+662225
+662226
+662227
+662228
+662229
+662230
+662231
+662232
+662240
+662241
+662243
+662250
+662251
+662260
+662261
+662265
+662266
+662271
+662272
+662273
+662280
+662290
+662600
+662601
+662604
+662605
+662606
+662610
+662611
+662612
+662613
+662620
+662621
+662622
+662630
+662631
+662632
+662633
+662640
+662641
+662642
+662643
+662644
+662645
+662646
+662647
+662650
+662651
+662652
+662653
+662660
+662670
+662671
+662700
+662701
+662702
+662706
+662707
+662710
+662711
+662712
+662713
+662714
+662720
+662723
+662800
+662900
+662901
+662902
+662903
+662904
+662910
+662911
+662912
+662913
+662914
+663200
+663210
+663220
+663300
+663310
+663311
+663312
+663313
+663316
+663317
+663320
+663321
+663330
+663331
+663332
+751000
+751001
+751002
+751003
+751004
+751005
+751006
+751007
+751008
+751030
+751031
+751032
+751033
+751034
+751035
+751036
+751037
+751038
+751039
+751050
+751051
+751052
+751053
+751054
+751055
+751056
+751057
+751058
+751059
+751060
+751061
+751062
+751063
+751064
+751065
+751100
+751101
+751102
+751103
+751150
+751151
+751152
+751153
+751154
+751155
+751156
+751157
+751158
+751159
+751160
+751161
+751162
+751163
+751164
+751165
+751166
+751167
+751168
+751169
+751170
+751171
+751172
+751173
+838100
+845047
+845205
+850800
+850801
+850802
+851000
+851001
+851002
+851010
+851011
+851012
+851013
+851014
+851015
+851020
+851021
+851030
+851031
+851040
+851041
+851050
+851051
+851052
+851060
+851061
+851070
+851071
+851072
+851080
+851100
+851101
+851110
+851120
+851150
+851151
+851160
+851161
+851162
+851163
