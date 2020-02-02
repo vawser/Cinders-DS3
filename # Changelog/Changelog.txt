@@ -259,7 +259,7 @@ being staggered.
 - Removed the soul cost on Climax.
 - Reduced the FP cost of utility spells.
 - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
-# - Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
+- Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
 
 # Ascended Spells
 - Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
@@ -284,7 +284,7 @@ being staggered.
 - Soul Stream: deals 20 poise damage per tick (was 10).
 - Blizzard: doubles the area of effect.
 - Orbs of Judgment: emits 8 projectiles (normally 6).
-- Pestilent Mist: inflicts 30 Curse and removes 0.3% HP per tick.
+- Pestilent Mist: inflicts 15 Curse and removes 0.25% HP per tick.
 - Snap Freeze: emits a snowstorm. Lasts 10 seconds.
 - Blinding Light: deals 100 poise damage (normally 50).
 - Magic Weapon: extends duration to 300 seconds.
@@ -309,6 +309,10 @@ being staggered.
 - Fire Orb: impact now leaves a lava pool.
 - Firestorm: extends area of effect.
 - Fire Surge: shoots 3 projectiles.
+- Great Combustion: adds knockdown to floor stagger.
+- Great Chaos Fire Orb: shoots 2 projectiles.
+- Chaos Storm: extends area of effect.
+- Fire Whip: increases poise damage to 10 (normally 5).
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -351,3 +355,10 @@ Add weapon icons
 Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
+
+Check Blinding light
+Reduce Acid Surge % removal
+Fix new armor on females
+Move the stray demon in Farron Keep above bonfire
+Lower pestilent mist curse boost
+Aural Decoy 80 version not working

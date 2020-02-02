@@ -185,7 +185,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 50
 - INT Req: 25
 - Base Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
-- Ascended Effect: inflicts 30 Curse and removes 0.3% HP per tick.
+- Ascended Effect: inflicts 15 Curse and removes 0.25% HP per tick.
 
 #--------------------------------
 # Snap Freeze
@@ -334,7 +334,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - INT Req: 40
 - Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
-- Ascended Effect: extends duration to 60 seconds.
+- Ascended Effect: extends duration to 60 seconds and removes absorption debuff.
 
 #--------------------------------
 # Soul Focus
@@ -387,28 +387,28 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 500 [200] 
-- Ascended Effect: None
+- Ascended Effect: increases poise damage to 100 (normally 20), adds air juggle stagger.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 50
 - Fire Damage: 600 [200] [350] 
-- Ascended Effect: None
+- Ascended Effect: shoots 2 projectiles.
 
 #--------------------------------
 # Chaos Storm
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 500 [350] 
-- Ascended Effect: None
+- Ascended Effect: extends area of effect.
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 100 (per bullet)
-- Ascended Effect: None
+- Ascended Effect: increases poise damage to 10 (normally 5).
 
 #--------------------------------
 # Profaned Flame
@@ -512,7 +512,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Acid Surge
 #--------------------------------
 - FP Cost: 100
-- Base Effect: summons patch of corrosion that reduces durability by 1 and removes 0.5% HP per tick. Lasts for 6 seconds.
+- Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
 - Ascended Effect: expands area of effect.
 
 #--------------------------------------------------------------------------
