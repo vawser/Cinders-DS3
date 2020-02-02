@@ -889,10 +889,10 @@ increases evasive movement stamina costs by 50%.
 - [+2] Source: Empowered Enemy - NG+2
 - [+3] Source: Empowered Enemy - NG+3
 
-# Ring of the Exalted
+# Rainbow Ring
 - Weight: 1
 - Take on the apperance of a rainbow phantom.
-- Source: Drop - Ludleth of Courland
+- Source: Treasure - Firelink Shrine
 
 # Ring of the Dutiful
 - Weight: 1
@@ -963,3 +963,8 @@ increases evasive movement stamina costs by 50%.
 - Weight: 40
 - Grants 30% absorption.
 - Source: Covenant - Pilgrims of Dark
+
+# Tomb Ring
+- Weight: 1
+- Take on the apperance of a tomb ghost.
+- Source: Treasure - Catacombs of Carthus

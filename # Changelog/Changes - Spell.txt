@@ -622,7 +622,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 40
 - Lightning Damage: 500 [100] [200] 
 - FTH Req: 16
-- Ascended Effect: shoots 5 projectiles with much stronger tracking.
+- Ascended Effect: gains stronger tracking, now penetrates target.
 
 #--------------------------------
 # Great Lightning Spear
@@ -630,7 +630,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 50
 - Lightning Damage: 700 [150] [300] 
 - FTH Req: 30
-- Ascended Effect: gains much stronger tracking, now penetrates target.
+- Ascended Effect: gains stronger tracking, now penetrates target.
 
 #--------------------------------
 # Sunlight Spear
@@ -638,7 +638,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 60
 - Lightning Damage: 900 [200] [400] 
 - FTH Req: 40
-- Ascended Effect: gains much stronger tracking.
+- Ascended Effect: gains stronger tracking, now penetrates target.
 
 #--------------------------------
 # Lightning Arrow
@@ -890,7 +890,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 10
 - Dark Damage: 150
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: gains stronger tracking.
 
 #--------------------------------
 # Dark Edge
@@ -899,7 +899,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 
 - INT Req: 10
 - FTH Req: 6
-- Ascended Effect: None
+- Ascended Effect: uses the Farron Flashsword cast animation.
 
 #--------------------------------
 # Deep Soul
@@ -909,7 +909,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 12
 - FTH Req: 8
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: gains stronger tracking.
 
 #--------------------------------
 # Great Deep Soul
@@ -919,8 +919,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 16
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
-
+- Ascended Effect: gains stronger tracking.
 
 #--------------------------------
 # Climax
@@ -929,7 +928,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 600 
 - INT Req: 40
 - FTH Req: 10
-- Ascended Effect: None
+- Ascended Effect: now deals 100 poise damage (normally 30) and causes juggle stagger.
 
 #--------------------------------
 # Great Soul Dregs
@@ -939,7 +938,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: impact now emits a flurry of deep souls for 3 seconds.
 
 #--------------------------------
 # Abyssal Edge
@@ -948,7 +947,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 600  
 - INT Req: 28
 - FTH Req: 10
-- Ascended Effect: None
+- Ascended Effect: now deals 80 poise damage (normally 40) and causes faceplant stagger.
 
 #--------------------------------
 # Affinity
@@ -966,7 +965,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: Inflicts 100 Curse.
-- Ascended Effect: None
+- Ascended Effect: does 125 Curse and moves much faster.
 
 #--------------------------------
 # Yearning Dregs
@@ -976,7 +975,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 25
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Writhing Deep
@@ -986,7 +985,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 24
 - FTH Req: 8
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: shoots 2 projectiles.
 
 #--------------------------------
 # Dark Bead
@@ -995,7 +994,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 per bullet 
 - INT Req: 30
 - FTH Req: 10
-- Ascended Effect: None
+- Ascended Effect: uses the Quick Soul Arrow cast animation.
 
 #--------------------------------
 # Cascading Deep
@@ -1005,7 +1004,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 38
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: emits projectiles more rapidly.
 
 #--------------------------------
 # Surging Deep
@@ -1015,7 +1014,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 16
 - FTH Req: 8
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: shoots projectiles more frequently.
 
 #--------------------------------
 # Dreg Torrent
@@ -1025,7 +1024,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: None
+- Ascended Effect: extends duration to 8 (normally 5).
 
 #--------------------------------------------------------------------------
 # Dark Sorceries - Effect
@@ -1037,8 +1036,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 32
 - FTH Req: 10
 - Base Effect: increases absorption to 100% for 3 seconds
-- Ascended Effect: None
-
+- Ascended Effect: extends duration to 5.
 
 #--------------------------------
 # Numbness
@@ -1047,7 +1045,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
-- Ascended Effect: None
+- Ascended Effect: extends duration to 300.
 
 #--------------------------------------------------------------------------
 # Dark Pyromancies - Offensive
@@ -1057,42 +1055,42 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 300 [250] 
-- Ascended Effect: None
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Black Flame
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 300 [150] 
-- Ascended Effect: None
+- Ascended Effect: increases poise damage to 100 (normally 20), adds air juggle stagger.
 
 #--------------------------------
 # Black Serpent
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 500 
-- Ascended Effect: None
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
 - FP Cost: 6
 - Dark Damage: 400 
-- Ascended Effect: None
+- Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Recollection  
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 100 (per bullet)
-- Ascended Effect: None
+- Ascended Effect: emits projectiles more rapidly.
 
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 500 
-- Ascended Effect: None
+- Ascended Effect: uses the Force cast animation.
 
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
@@ -1102,8 +1100,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 150
-- Base Effect: Inflicts Bleed
-- Ascended Effect: None
+- Base Effect: inflicts 25 Bleed
+- Ascended Effect: inflicts 50 Bleed, moves quicker.
 
 #--------------------------------
 # Gnaw
@@ -1112,8 +1110,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300
 - INT Req: 8
 - FTH Req: 12
-- Base Effect: Inflicts Bleed
-- Ascended Effect: None
+- Base Effect: inflicts 50 Bleed
+- Ascended Effect: inflicts 75 Bleed, moves quicker.
 
 #--------------------------------
 # Dorhys' Gnawing
@@ -1122,8 +1120,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 600
 - INT Req: 10
 - FTH Req: 25
-- Base Effect: Inflicts Bleed
-- Ascended Effect: None
+- Base Effect: inflicts 75 Bleed
+- Ascended Effect: inflicts 100 Bleed, moves quicker.
 
 #--------------------------------
 # Lifehunt Scythe
@@ -1133,7 +1131,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 10
 - FTH Req: 36
 - Base Effect: absorbs 10% HP on hit.
-- Ascended Effect: None
+- Ascended Effect: absorbs 15% HP on hit.
 
 #--------------------------------
 # Devouring Swarm
@@ -1142,8 +1140,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 (per bullet)
 - INT Req: 10
 - FTH Req: 40
-- Base Effect: Inflicts Bleed
-- Ascended Effect: None
+- Base Effect: inflicts 10 Bleed
+- Ascended Effect: emits projectiles more rapidly.
 
 #--------------------------------
 # Dead Again
@@ -1161,8 +1159,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 10
 - FTH Req: 30
 - Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. 
-- Ascended Effect: None
-
+- Ascended Effect: increases damage and absorption by 15%.
 
 #--------------------------------
 # Dark Blade
@@ -1172,8 +1169,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 10
 - FTH Req: 20
 - Base Effect: adds 60 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
-- Ascended Effect: None
-
+- Ascended Effect: adds 90 Dark damage to main weapon for 60 seconds.
 
 #--------------------------------
 # Vow of Silence
@@ -1182,6 +1178,6 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 10
 - FTH Req: 25
 - Base Effect: silence self and target for 15 seconds.
-- Ascended Effect: None
+- Ascended Effect: extends duration to 60.
 
 

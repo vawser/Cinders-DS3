@@ -166,7 +166,7 @@ being staggered.
 - Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
 - Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
 
-+ Rings
+# Rings
 - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
 - Alternatively, they are available in the Primordial Shop upon reaching NG+2/+3/+4.
 - Added +1/+2/+3 versions of Life Ring
@@ -214,6 +214,9 @@ being staggered.
 - Added +1/+2/+3 versions of Lightning Clutch Ring
 - Added +1/+2/+3 versions of Fire Clutch Ring
 - Added +1/+2/+3 versions of Dark Clutch Ring
+- Renamed Ring of the Exalted to Rainbow Ring
+- Added flames to the Ring of Demons cosmetic look.
+- Added the Tomb Ring, letting you look like a tomb ghost.
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
@@ -260,7 +263,7 @@ being staggered.
 - Reduced the FP cost of utility spells.
 - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
 - Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
-# - Halo now slowly moves away from the player upon casting, and after 8 seconds, returns.
+- Halo now slowly moves away from the player upon casting, and after 8 seconds, returns.
 
 # Ascended Spells
 - Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
@@ -339,9 +342,9 @@ being staggered.
 - Force: does 100 poise damage (normally 10).
 - Emit Force: uses the Farron Dart cast animation.
 - Wrath of the Gods: uses the Force cast animation.
-- Lightning Spear: shoots 5 projectiles with much stronger tracking.
-- Great Lightning Spear: gains much stronger tracking, now penetrates target.
-- Sunlight Spear: gain much stronger tracking.
+- Lightning Spear: gains stronger tracking, now penetrates target.
+- Great Lightning Spear: gains stronger tracking, now penetrates target.
+- Sunlight Spear: gains stronger tracking, now penetrates target.
 - Lightning Arrow: shoots 3 projectiles in a tight cone.
 - Lightning Storm: emits 10 projectiles (normally 5).
 - Lightning Stake: does 60 poise damage (normally 30).
@@ -367,6 +370,35 @@ being staggered.
 - Great Magic Barrier: increases Magic, Fire, Lightning and Dark absorption by 50% for 60 seconds.
 - Heavenly Relief: increases equipment load by 50%.
 - Perseverance: extends duration to 120.
+- Deep Barb: gains stronger tracking.
+- Dark Edge: uses the Farron Flashsword cast animation.
+- Deep Soul: gains stronger tracking.
+- Great Deep Soul: gains stronger tracking.
+- Climax: now deals 100 poise damage (normally 30) and causes juggle stagger.
+- Great Soul Dregs: impact now emits a flurry of deep souls for 3 seconds.
+- Abyssal Edge: now deals 80 poise damage (normally 40) and causes faceplant stagger.
+- Whisper of Despair: does 125 Curse and moves much faster.
+- Yearning Dregs: expands area of effect.
+- Writhing Deep: shoots 2 projectiles.
+- Dark Bead: uses the Quick Soul Arrow cast animation.
+- Cascading Deep: emits projectiles more rapidly.
+- Surging Deep: shoots projectiles more frequently.
+- Dreg Torrent: extends duration to 8 (normally 5).
+- Repel: extends duration to 5.
+- Black Fire Orb: shoots 3 projectiles.
+- Black Flame: increases poise damage to 100 (normally 20), adds air juggle stagger.
+- Black Serpent: shoots 3 projectiles.
+- Dark Dance: expands area of effect.
+- Recollection: emits projectiles more rapidly.
+- Mournful Flames: uses the Force cast animation.
+- Nibble: inflicts 50 Bleed, moves quicker.
+- Gnaw: inflicts 75 Bleed, moves quicker.
+- Dorhys' Gnawing: inflicts 100 Bleed, moves quicker.
+- Lifehunt Scythe: uses Farron Flashsword cast animation.
+- Devouring Swarm: emits projectiles more rapidly.
+- Deep Protection: increases damage and absorption by 15%.
+- Dark Blade: adds 90 Dark damage to main weapon for 60 seconds.
+- Vow of Silence: extends duration to 60.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -410,4 +442,5 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Make the NG+ enemies use a phantom color
+Add this as the emitter FFX for Heavenly thunder
+622000 Big lightning orb
