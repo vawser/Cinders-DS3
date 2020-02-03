@@ -49,7 +49,7 @@
 - The loading fogwalls in Firelink Shrine no longer appear.
  
 # Classes
-- Paladin now starts with the Paladin Set and Grant.
+- Added the Accursed class.
 
 # Infusion
 - Increased Primordial Titanite costs in reinforcement to 5/10/15/20.
@@ -173,9 +173,12 @@ being staggered.
 - Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
 - Wolf Ring: Boosts poise by 20%.
 - Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
-- Ring of Londor: Restores 1 FP every second whilst at 100% HP.
+- Ring of Londor: Restores 1% FP every second whilst at 100% HP.
 - Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
 - Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
+- Renamed Ring of the Exalted to Rainbow Ring
+- Added flames to the Ring of Demons cosmetic look.
+- Added the Tomb Ring, letting you look like a tomb ghost.
 
 # Rings
 - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
@@ -225,9 +228,6 @@ being staggered.
 - Added +1/+2/+3 versions of Lightning Clutch Ring
 - Added +1/+2/+3 versions of Fire Clutch Ring
 - Added +1/+2/+3 versions of Dark Clutch Ring
-- Renamed Ring of the Exalted to Rainbow Ring
-- Added flames to the Ring of Demons cosmetic look.
-- Added the Tomb Ring, letting you look like a tomb ghost.
 
 # Items
 - Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
@@ -460,4 +460,3 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Look into making the cathedral knight mini-holy burst thing a spell
