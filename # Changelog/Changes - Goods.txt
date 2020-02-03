@@ -221,3 +221,12 @@
     
 # Soul of Slave Knight Gael
 - Boosts Physical Damage by 25% for 60 seconds.
+
+# Devil's Trumpet
+- Sets the camera distance to far.
+
+# Moonflower
+- Sets the FOV to 90.
+
+# Henbane
+- Removes 99% HP.
