@@ -83,7 +83,7 @@
 - Added Shield of the Hunted. Dropped by Lycanthropes (5%).
 - Added Ladle. Found by the gravestone in Cemetery of Ash.
 - Added Shiv. Found with the Caduceus Round Shield in Undead Settlement.
-- Added Sacntus. Found in the chest with the Paladin Set.
+- Added Sanctus. Found in the chest with the Paladin Set.
 - Added Velka's Talisman. Found with the Black Cleric Set.
 - Added Giant Crab Arm. Dropped by Giant Crabs (5%).
 - Added Crab Claw. Dropped by Lesser Crabs (5%).
@@ -233,6 +233,7 @@ being staggered.
 - Added Devil's Trumpet.
 - Added Moonflower.
 - Added Henbane.
+# - Increased the damage of the affinity orbs from the Hexing Urn and improved the speed of the orbs.
 
 # Spells
 - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
@@ -418,7 +419,8 @@ being staggered.
 - Lowered the amount of Primordial Titanite dropped by some Dream bosses.
 - Increased the amount of Primordial Titanite dropped by Nightmare bosses.
 - Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
-- Curse from normal enemies is now more potent: -100% ABS, -25% damage, to account for the ease of avoidance.
+- Curse from normal enemies now just kills you as in vanilla. Hostile NPCs still use the player version however.
+# - Normal Deacons no longer inflict Curse.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -449,3 +451,4 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
+Fix Hexing Urn
