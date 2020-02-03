@@ -41,10 +41,6 @@
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
 - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 - Changed the NG+ scaling modifiers. There are now two general sets, one for weak enemies, one for tanky enemies. Bosses each have their own tailored set as well.
-- Reduced the damage boost bosses get from NG+ scaling.
-- Reduced the HP/damage boost tanky enemies get from NG+ scaling.
-- Increased NG+ souls multiplier for tanky enemies to 3.
-- Increased NG+ souls multiplier for bosses to 3.
  
 # Stats
 - Shifted the return from stats, making them slightly worse during the middle levels, but much better after 80.
@@ -234,6 +230,9 @@ being staggered.
 - Seed of a Giant Tree now lasts 300 seconds.
 - Removed the Flask of Magic/Fire/Lightning/Abyss.
 - Surging Deep now sold by Aldrich Faithful.
+- Added Devil's Trumpet.
+- Added Moonflower.
+- Added Henbane.
 
 # Spells
 - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
@@ -383,7 +382,7 @@ being staggered.
 - Deep Soul: gains stronger tracking.
 - Great Deep Soul: gains stronger tracking.
 - Climax: now deals 100 poise damage (normally 30) and causes juggle stagger.
-- Great Soul Dregs: impact now emits a flurry of deep souls for 3 seconds.
+- Great Soul Dregs: impact now emits a flurry of deep souls for 1 second.
 - Abyssal Edge: now deals 80 poise damage (normally 40) and causes faceplant stagger.
 - Whisper of Despair: does 125 Curse and moves much faster.
 - Yearning Dregs: expands area of effect.
@@ -449,6 +448,4 @@ Add weapon icons
 Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
-
-Add camera item
 

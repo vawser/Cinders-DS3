@@ -581,127 +581,127 @@ These are the multipliers applied to the base stats of the enemies in the listed
 
 # Crystal Sage
 - HP: 2
-- Damage: 1.6
+- Damage: 1.8
 - Defence: 1.2
 - Souls: 3
 
 # Deacons of the Deep
 - HP: 2
-- Damage: 1.5
+- Damage: 1.8
 - Defence: 1.2
 - Souls: 3
 
 # Abyss Watchers
 - HP: 2
-- Damage: 1.4
+- Damage: 1.6
 - Defence: 1.2
 - Souls: 3
 
 # High Lord Wolnir
 - HP: 2
-- Damage: 1.4
+- Damage: 1.6
 - Defence: 1.2
 - Souls: 3
 
 # Old Demon King
 - HP: 2
-- Damage: 1.3
+- Damage: 1.5
 - Defence: 1.2
 - Souls: 3
 
 # Pontiff Sulyvahn
 - HP: 2
-- Damage: 1.3
+- Damage: 1.5
 - Defence: 1.2
 - Souls: 3
 
 # Aldrich, Devourer of Gods
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Yhorm the Giant
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Dancer of the Boreal Valley
 - HP: 2
-- Damage: 1.3
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Dragonslayer Armour
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Ancient Wyvern
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Nameless King
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Champion Gundyr
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Twin Princes
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Soul of Cinder
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Sister Friede
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Gravetender's Champion
 - HP: 2
-- Damage: 1.4
+- Damage: 1.6
 - Defence: 1.2
 - Souls: 3
 
 # Demon Prince
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Darkeater Midir
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Slave Knight Gael
 - HP: 2
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
 # Halflight
 - HP: 1.5
-- Damage: 1.2
+- Damage: 1.4
 - Defence: 1.2
 - Souls: 3
 
@@ -726,21 +726,21 @@ These multipliers are applied with the above values on each New Game above +1:
 - Soul Multiplier: 2
 
 +4
-- Max HP: 1.125
+- Max HP: 1.15
 - Damage: 1.125
 - Soul Multiplier: 2.5
 
 +5
-- Max HP: 1.15
+- Max HP: 1.2
 - Damage: 1.15
 - Soul Multiplier: 3
 
 +6
-- Max HP: 1.175
+- Max HP: 1.25
 - Damage: 1.175
 - Soul Multiplier: 3.5
 
 +7
-- Max HP: 1.2
+- Max HP: 1.3
 - Damage: 1.2
 - Soul Multiplier: 4

@@ -938,7 +938,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: Inflicts Curse.
-- Ascended Effect: impact now emits a flurry of deep souls for 3 seconds.
+- Ascended Effect: impact now emits a flurry of deep souls for 1 seconds.
 
 #--------------------------------
 # Abyssal Edge
