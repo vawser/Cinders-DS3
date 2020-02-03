@@ -313,7 +313,7 @@
 - [Body] Effect: boosts END by 5.
 
 # Sage's Big Hat
-- [Body] Effect: boosts estus FP recovery by 100%.
+- [Body] Effect: increases max FP by 20%.
 
 # Gwyndolin Moonlight Set
 

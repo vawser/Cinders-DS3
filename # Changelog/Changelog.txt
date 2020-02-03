@@ -160,6 +160,7 @@ being staggered.
 - Added the Demon Cleric Mask. Dropped by Demon Clerics (5%).
 - Added the Crab Helmet. Dropped by the Giant Crabs in Smouldering Lake (5%).
 - Added the Corvian Knight Helmet. Dropped by Corvian Knights (5%).
+# - Sage's Big Hat: increases max FP by 20%.
 
 # Rings
 - Runic Seal: reduces deflection to 50.
@@ -233,7 +234,7 @@ being staggered.
 - Added Devil's Trumpet.
 - Added Moonflower.
 - Added Henbane.
-# - Increased the damage of the affinity orbs from the Hexing Urn and improved the speed of the orbs.
+- Increased the damage of the affinity orbs from the Hexing Urn and improved the speed of the orbs.
 
 # Spells
 - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
@@ -420,7 +421,7 @@ being staggered.
 - Increased the amount of Primordial Titanite dropped by Nightmare bosses.
 - Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
 - Curse from normal enemies now just kills you as in vanilla. Hostile NPCs still use the player version however.
-# - Normal Deacons no longer inflict Curse.
+- Normal Deacons no longer inflict Curse.
 
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
@@ -451,4 +452,3 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Fix Hexing Urn
