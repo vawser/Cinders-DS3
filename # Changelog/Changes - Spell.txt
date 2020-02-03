@@ -105,6 +105,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 50
 - Magic Damage: 600 [300] 
 - INT Req: 40
+- Effect: inflicts 30 Curse.
 - Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
@@ -889,7 +890,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 150
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 15 Curse.
 - Ascended Effect: gains stronger tracking.
 
 #--------------------------------
@@ -908,7 +909,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 
 - INT Req: 12
 - FTH Req: 8
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 25 Curse.
 - Ascended Effect: gains stronger tracking.
 
 #--------------------------------
@@ -918,7 +919,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 400 
 - INT Req: 16
 - FTH Req: 10
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 30 Curse.
 - Ascended Effect: gains stronger tracking.
 
 #--------------------------------
@@ -937,7 +938,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 800 
 - INT Req: 40
 - FTH Req: 10
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 40 Curse.
 - Ascended Effect: impact now emits a flurry of deep souls for 1 seconds.
 
 #--------------------------------
@@ -965,7 +966,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: Inflicts 100 Curse.
-- Ascended Effect: does 125 Curse and moves much faster.
+- Ascended Effect: does 150 Curse and moves much faster.
 
 #--------------------------------
 # Yearning Dregs
@@ -974,7 +975,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 500
 - INT Req: 25
 - FTH Req: 10
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 30 Curse per pillar.
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -984,7 +985,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 [600] 
 - INT Req: 24
 - FTH Req: 8
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 30 Curse.
 - Ascended Effect: shoots 2 projectiles.
 
 #--------------------------------
@@ -1003,7 +1004,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 80 (per bullet)
 - INT Req: 38
 - FTH Req: 10
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 10 Curse per bullet.
 - Ascended Effect: emits projectiles more rapidly.
 
 #--------------------------------
@@ -1013,7 +1014,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 (per bullet)
 - INT Req: 16
 - FTH Req: 8
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 15 Curse.
 - Ascended Effect: shoots projectiles more frequently.
 
 #--------------------------------
@@ -1023,7 +1024,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 (per bullet)
 - INT Req: 40
 - FTH Req: 10
-- Base Effect: Inflicts Curse.
+- Base Effect: Inflicts 10 Curse per bullet.
 - Ascended Effect: extends duration to 8 (normally 5).
 
 #--------------------------------------------------------------------------

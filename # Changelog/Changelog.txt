@@ -125,10 +125,15 @@
 - Smouldering Talisman: added Immolate WA, burning self and nearby foes.
 
 # Status Effects
-- Curse: now lasts for 300 seconds, rather than forever.
+- Reduced the aux values on weapons.
 - Frost: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10.
 - Poison: Lasts 60 seconds.
-- Reduced the aux values on weapons.
+- Curse now does the following for players:
+ - Lasts 12 seconds.
+ - Deals 2.5% damage on proc.
+ - Reduces attack by 30% whilst active.
+ - Reduces absorption by 30% whilst active.
+ - Boosts dropped souls by 30% whilst active.
 
 # Armor
 - Poise now works on in a similar way to DS2. You have poise passively,
@@ -161,7 +166,8 @@ being staggered.
 - Added the Crab Helmet. Dropped by the Giant Crabs in Smouldering Lake (5%).
 - Added the Corvian Knight Helmet. Dropped by Corvian Knights (5%).
 - Sage's Big Hat: increases max FP by 20%.
-# - Frigid Valley Mask: emits an aura of frost, inflicting 25 Frost every second.
+- Frigid Valley Mask: emits an aura of frost, inflicting 25 Frost every second.
+
 # Rings
 - Runic Seal: reduces deflection to 50.
 - Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
@@ -439,8 +445,8 @@ being staggered.
 - Fixed Pestilent Mist not applying Curse.
 - Velka's Rapier hitbox is no longer ultra-scuffed.
 - All new Mimics now have the open action fixed.
-# - Orbeck now has a separate Purchase Item menu option for the non-spell items.
-# - Irina now correctly has the non-spell items in her Purchase Item shop range.
+- Orbeck now has a separate Purchase Item menu option for the non-spell items.
+- Irina now correctly has the non-spell items in her Purchase Item shop range.
 
 #------------------------------
 # Models
@@ -454,5 +460,4 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Frost aura on frigid valley mask
 Look into making the cathedral knight mini-holy burst thing a spell

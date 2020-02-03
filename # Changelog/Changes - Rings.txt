@@ -936,22 +936,22 @@ increases evasive movement stamina costs by 50%.
 
 # Cursed Ring of Evasion
 - Weight: 1
-- Removes the cost of evasive movements by 25%. Applies Curse to the wearer.
+- Removes the cost of evasive movements by 25%. Applies 5 Curse to the wearer every second.
 - Source: Drop - Eija the Shadow
 
 # Cursed Ring of Vengeance
 - Weight: 1
-- Imbues Curse upon the currently wielded weapon. Applies Curse to the wearer.
+- Imbues Curse upon the currently wielded weapon. Applies 5 Curse to the wearer every second.
 - Source: Drop - Freya the Wretched
 
 # Cursed Ring of Deflection
 - Weight: 1
-- Automatically deflect spells. Applies Curse to the wearer.
+- Automatically deflect spells. Applies 50 Curse to the wearer every second.
 - Source: Drop - Nahor the Fallen
 
 # Cursed Ring of Confusion
 - Weight: 1
-- Emits a confusion aura, allowing enemies to harm one another. Applies Curse to the wearer.
+- Emits a confusion aura, allowing enemies to harm one another. Applies 30 Curse to the wearer every second.
 - Source: Drop - Dulfisk the Accursed
 
 # Elden Ring
