@@ -160,8 +160,8 @@ being staggered.
 - Added the Demon Cleric Mask. Dropped by Demon Clerics (5%).
 - Added the Crab Helmet. Dropped by the Giant Crabs in Smouldering Lake (5%).
 - Added the Corvian Knight Helmet. Dropped by Corvian Knights (5%).
-# - Sage's Big Hat: increases max FP by 20%.
-
+- Sage's Big Hat: increases max FP by 20%.
+# - Frigid Valley Mask: emits an aura of frost, inflicting 25 Frost every second.
 # Rings
 - Runic Seal: reduces deflection to 50.
 - Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
@@ -439,6 +439,8 @@ being staggered.
 - Fixed Pestilent Mist not applying Curse.
 - Velka's Rapier hitbox is no longer ultra-scuffed.
 - All new Mimics now have the open action fixed.
+# - Orbeck now has a separate Purchase Item menu option for the non-spell items.
+# - Irina now correctly has the non-spell items in her Purchase Item shop range.
 
 #------------------------------
 # Models
@@ -452,3 +454,5 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
+Frost aura on frigid valley mask
+Look into making the cathedral knight mini-holy burst thing a spell

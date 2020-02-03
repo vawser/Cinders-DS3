@@ -213,6 +213,7 @@
 # Dancer Set
 
 # Frigid Valley Mask
+- [Head] Effect: emits an aura of frost, inflicting 25 Frost every second.
 
 # Evangelist Set
 - [Head] Effect: boosts FTH by 5.
