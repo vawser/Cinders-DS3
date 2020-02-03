@@ -623,31 +623,31 @@ These multipliers are applied with the above values on each New Game above +1:
 - Soul Multiplier: 1
 
 +2
-- Max HP: 1.25
+- Max HP: 1.025
 - Damage: 1.15
 - Soul Multiplier: 1.5
 
 +3
-- Max HP: 1.5
+- Max HP: 1.05
 - Damage: 1.25
 - Soul Multiplier: 2
 
 +4
-- Max HP: 1.75
+- Max HP: 1.075
 - Damage: 1.275
 - Soul Multiplier: 2.5
 
 +5
-- Max HP: 2
+- Max HP: 1.1
 - Damage: 1.3
 - Soul Multiplier: 3
 
 +6
-- Max HP: 2.25
+- Max HP: 1.125
 - Damage: 1.325
 - Soul Multiplier: 3.5
 
 +7
-- Max HP: 2.5
+- Max HP: 1.15
 - Damage: 1.35
 - Soul Multiplier: 4
