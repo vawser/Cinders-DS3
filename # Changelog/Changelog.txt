@@ -39,9 +39,13 @@
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
 - Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
-- NG+ modifier values have been shifted to mostly occur over +1, +2 and +3, the remaining NG+ levels are marginal. 
 - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
-
+- Changed the NG+ scaling modifiers. There are now two general sets, one for weak enemies, one for tanky enemies. Bosses each have their own tailored set as well.
+- Reduced the damage boost bosses get from NG+ scaling.
+- Reduced the HP/damage boost tanky enemies get from NG+ scaling.
+- Increased NG+ souls multiplier for tanky enemies to 3.
+- Increased NG+ souls multiplier for bosses to 3.
+ 
 # Stats
 - Shifted the return from stats, making them slightly worse during the middle levels, but much better after 80.
 
@@ -445,4 +449,6 @@ Add weapon icons
 Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
+
+Add camera item
 
