@@ -414,7 +414,7 @@
 
 # Sun Princess Ring
 - Weight: 0.5
-- Grants 0.5% HP every second.
+- Grants 5 + 0.1% HP every second.
 - Source: Treasure - Irithyll of the Boreal Valley
 
 # Silvercat Ring
