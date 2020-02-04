@@ -283,6 +283,7 @@ being staggered.
 - The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
 - Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
 - Halo now slowly moves away from the player upon casting, and after 8 seconds, returns.
+- Mournful Flames: you now throw 3 black fireballs that become weak black serpent lines.
 
 # Ascended Spells
 - Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
@@ -298,7 +299,7 @@ being staggered.
 - Great Soul Arrow: 3 projectiles are shot.
 - Shockwave: knocks the enemies into the air.
 - Soul Geyser: increases projectiles shot to 5, hits now do more poise damage and cause stagger.
-- White Dragon Breath: shoots 3 projectiles.
+- White Dragon Breath: extends the length of the line, increases Curse to 50.
 - Crystal Storm: emits more burst points.
 - Crystal Hail: lasts 8 seconds (normally 4).
 - Soul Greatsword: gains the Farron Flashsword cast animation.
@@ -406,7 +407,7 @@ being staggered.
 - Repel: extends duration to 5.
 - Black Fire Orb: shoots 3 projectiles.
 - Black Flame: increases poise damage to 100 (normally 20), adds air juggle stagger.
-- Black Serpent: shoots 3 projectiles.
+- Black Serpent: extends the length of the line greatly.
 - Dark Dance: expands area of effect.
 - Recollection: emits projectiles more rapidly.
 - Mournful Flames: uses the Force cast animation.
@@ -418,6 +419,7 @@ being staggered.
 - Deep Protection: increases damage and absorption by 15%.
 - Dark Blade: adds 90 Dark damage to main weapon for 60 seconds.
 - Vow of Silence: extends duration to 60.
+- Mournful Flames: extends the length of the lines.
 
 # Enemies
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
@@ -471,4 +473,6 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-- Lothric Candlestick is now Priest's Candlestick.
+- White Dragon Breath: extends the length of the line, increases Curse to 50.
+- Black Serpent: extends the length of the line greatly.
+- Mournful Flames: you now throw 3 black fireballs that become weak black serpent lines.

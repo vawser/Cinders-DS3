@@ -106,7 +106,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Magic Damage: 600 [300] 
 - INT Req: 40
 - Effect: inflicts 30 Curse.
-- Ascended Effect: shoots 3 projectiles.
+- Ascended Effect: extends the length of the line, increases Curse to 50.
 
 #--------------------------------
 # Crystal Storm
@@ -1070,7 +1070,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 500 
-- Ascended Effect: shoots 3 projectiles.
+- Ascended Effect: extends the length of the line greatly.
 
 #--------------------------------
 # Dark Dance  
@@ -1090,8 +1090,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Mournful Flames 
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500 
-- Ascended Effect: uses the Force cast animation.
+- Dark Damage: 300 [300]
+- Ascended Effect: extends the length of the lines.
 
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
