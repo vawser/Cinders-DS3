@@ -123,6 +123,7 @@
 - Talisman of Beasts: added Bestial Wrath WA, boosts casting speed by 50 for 15 seconds.
 - Rotten Talisman: added Poison Spores WA.
 - Smouldering Talisman: added Immolate WA, burning self and nearby foes.
+- Lothric Candlestick is now Priest's Candlestick.
 
 # Status Effects
 - Reduced the aux values on weapons.
@@ -470,3 +471,4 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
+- Lothric Candlestick is now Priest's Candlestick.
