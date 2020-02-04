@@ -180,6 +180,7 @@ being staggered.
 - Added flames to the Ring of Demons cosmetic look.
 - Added the Tomb Ring, letting you look like a tomb ghost.
 # - Sun Princess Ring: grants 5 + 0.1% HP every second.
+- Added the Accursed Ring, letting you use the Curse crystal look.
 
 # Rings
 - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
@@ -242,6 +243,7 @@ being staggered.
 - Added Moonflower.
 - Added Henbane.
 - Increased the damage of the affinity orbs from the Hexing Urn and improved the speed of the orbs.
+# - Added Frozen Pine Resin.
 
 # Spells
 - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
@@ -448,10 +450,17 @@ being staggered.
 - All new Mimics now have the open action fixed.
 - Orbeck now has a separate Purchase Item menu option for the non-spell items.
 - Irina now correctly has the non-spell items in her Purchase Item shop range.
+# - Fixed the aux resin items now actually applying the aux.
+# - Fixed bug with Lifehunt Scythe not restoring HP.
 
 #------------------------------
 # Models
 #------------------------------
+Bad models:
+ Velka's Rapier (bad bone orientation)
+ Firelink Spear (no dummy for 1H behind shield mode)
+ Insanity Catalyst (missing melee spell dummy)
+ 
 Finish the icons
 Add armor icons
 Add shield icons
@@ -460,4 +469,3 @@ Add weapon icons
 Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
-
