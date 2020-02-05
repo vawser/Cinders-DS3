@@ -460,9 +460,7 @@ being staggered.
 # Models
 #------------------------------
 Bad models:
- Velka's Rapier (bad bone orientation)
  Firelink Spear (no dummy for 1H behind shield mode)
- Insanity Catalyst (missing melee spell dummy)
  
 Finish the icons
 Add armor icons
@@ -473,6 +471,11 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-- White Dragon Breath: extends the length of the line, increases Curse to 50.
-- Black Serpent: extends the length of the line greatly.
-- Mournful Flames: you now throw 3 black fireballs that become weak black serpent lines.
+Fix Dancer's fogwall
+Check Darkdrift NPC in Lothric Castle
+
+- Grant now has more sensible dummy polys.
+- The Darkwraiths near Sage's Overlook are no longer hostile to enemies.
+- Fixed Velka's Rapier dummy polys.
+- Fixed Insanity Catalyst dummy polys.
+

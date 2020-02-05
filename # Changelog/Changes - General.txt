@@ -183,7 +183,6 @@ All covenant emblem items now enable the dropping of their respective materials 
  - Spawns additional enemies throughout the game. 
  - Enemies will now have the following below 50% HP:
   - +25% damage
-  - +25% absorption
   - +30 stamina recovery
   - +5 + 0.05% HP regen
  - Boosts soul gain by 100%.
@@ -215,25 +214,25 @@ These are the multipliers applied to the base stats of the enemies in the listed
 # Cemetery of Ash
 - Max HP: 1
 - Max Stamina: 1
-- Damage: 1.25
+- Damage: 1.5
 - Defence: 1.02
 
 # High Wall of Lothric
 - Max HP: 1
 - Max Stamina: 1
-- Damage: 1.3
+- Damage: 1.6
 - Defence: 1.02
 
 # Undead Settlement
 - Max HP: 1
 - Max Stamina: 1.1
-- Damage: 1.5
+- Damage: 1.65
 - Defence: 1.03
 
 # Road of Sacrifices
 - Max HP: 1
 - Max Stamina: 1.1
-- Damage: 1.6
+- Damage: 1.7
 - Defence: 1.04
 
 # Cathedral of the Deep

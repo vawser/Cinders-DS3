@@ -1,25 +1,8 @@
 ﻿#------------------------------------
-# Compile Notes
+# Adding New Ones
 #------------------------------------
-# Firelink
-esdtool.exe -ds3 -i t400200.py t400130.py t400131.py t400240.py t400000.py t400120.py t400230.py -writebnd mymod
-
-# Irithyll
-esdtool.exe -ds3 -i t370160.py t370020.py -writebnd mymod
-
-# Farron Keep
-esdtool.exe -ds3 -i t330020.py -writebnd mymod
-
-# Lothric Castle
-esdtool.exe -ds3 -i t301020.py -writebnd mymod
-
-# Undead Settlement
-esdtool.exe -ds3 -i t310020.py -writebnd mymod
-
-# Cathedral of the Deep
-esdtool.exe -ds3 -i t350020.py -writebnd mymod
-
-# The Ringed City
+Add the esd file within the chosen map dcx first using Yabber.
+Then create the python version and recompile it.
 
 #------------------------------------
 # Command Notes
@@ -37,6 +20,14 @@ SubtractAcquittalCostFromPlayerSouls(z7, z8)
 #------------------------------------
 # Talk IDs
 #------------------------------------
+# Added IDs
+400005
+400006
+400007
+400008
+400009
+
+# Original
 400000 # Firelink Shrine bonfire
 400001 # Cemetery of Ash bonfire
 400002 # Iudex Gundyr bonfire
