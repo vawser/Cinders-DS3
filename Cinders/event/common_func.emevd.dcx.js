@@ -23,6 +23,7 @@ Event(20005110, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Disable AI until area entered or attacked
 Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -102,6 +103,7 @@ Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Patrol Leader Setup
 Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -169,6 +171,7 @@ Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Wake up in radius (and attacked)
 Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -401,6 +404,7 @@ Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Hang until triggered to climb
 Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -502,6 +506,7 @@ Event(20005204, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Hang until triggered
 Event(20005205, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -1361,6 +1366,7 @@ Event(20005265, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Reassess AI when attacked - Entity ID, Anim ID 1, Anim ID 2
 Event(20005290, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -1661,6 +1667,7 @@ Event(20005400, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Ememy - Dragon Trap
 Event(20005410, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterAIState(MAIN, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
@@ -1670,6 +1677,7 @@ Event(20005410, Restart, function(X0_4, X4_4) {
     RequestCharacterAICommand(X0_4, 0, 0);
 });
 
+// Enemy - Ladder Gank
 Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
@@ -1682,6 +1690,7 @@ Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X4_4);
 });
 
+// Pus of Man Setup - End Flag, Entity ID, Entity ID, Anim ID 1, Anim ID 2, Area Entity ID, Label1 Flag, Label0 Flag
 Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     CreateNPCPart(X8_4, 10, NPCPartType.Part1, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 20, NPCPartType.Part2, 9999, 1, 1, false, false);
@@ -1773,6 +1782,7 @@ Event(20005416, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Pus of Man Setup
 Event(20005417, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     CreateNPCPart(X8_4, 10, NPCPartType.Part1, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 20, NPCPartType.Part2, 9999, 1, 1, false, false);
@@ -2258,6 +2268,7 @@ Event(20005511, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Chest - Setup - Used ID, Entity ID, ObjAct ID
 Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ReproduceObjectAnimation(X4_4, 1);
@@ -2272,6 +2283,7 @@ Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Pot Treasure - Setup - Used ID, Network Used ID, Pot ID, Corpse ID, Itemlot ID 
 Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
     IfObjectDestroyed(MAIN, DestructionState.Destroyed, X8_4, ComparisonType.Equal, 1);
@@ -2292,6 +2304,7 @@ Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Destructible Treasure - Setup - Used ID, Entity ID, ObjAct ID
 Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventIDSlotNumber, 0);
     ReproduceObjectAnimation(X4_4, 1);
@@ -2306,6 +2319,7 @@ Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
     SetObjectTreasureState(X4_4, Enabled);
 });
 
+// NG+ Treasure - Setup - Entity ID, Game Cycle Value
 Event(20005523, Restart, function(X0_4, X4_1) {
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
@@ -2317,6 +2331,7 @@ Event(20005523, Restart, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
+// Event Treasure - Setup - Entity ID, Event Flag
 Event(20005524, Restart, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
     DeactivateObject(X0_4, Disabled);
@@ -2327,6 +2342,7 @@ Event(20005524, Restart, function(X0_4, X4_4) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
+// FFX Treasure - Setup - Used ID, Itemlot ID, Entity ID, FFX ID
 Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -2338,6 +2354,7 @@ Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
     AwardItemLot(X4_4);
 });
 
+// Treasure - Used ID, Entity ID, Entity ID, FFX ID, Activate Flag
 Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -2412,6 +2429,7 @@ Event(20005531, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     CreateDamagingObject(X0_4, X4_4, X12_4, X20_4, DamageTargetType.Character, X24_4, X28_4, 0);
 });
 
+// Burning Object
 Event(20005540, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     DeleteObjectEvent(X0_4);
     CreateDamagingObject(X0_4, X4_4, X8_4, X12_4, DamageTargetType.Character, X16_4, X20_4, X24_4);
@@ -2519,6 +2537,7 @@ Event(20005610, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Setup Door
 Event(20005611, Default, function(X0_4, X4_4, X8_4, X12_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
@@ -2542,6 +2561,7 @@ Event(20005612, Default, function(X0_4, X4_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Setup Door 
 Event(20005613, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -2579,6 +2599,7 @@ Event(20005620, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Setup Lift 
 Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -2693,6 +2714,7 @@ Event(20005622, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Setup Lift
 Event(20005623, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -2807,6 +2829,7 @@ Event(20005624, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Setup Lift
 Event(20005625, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -2964,6 +2987,7 @@ Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RegisterLadder(X8_4, X12_4, X4_4);
 });
 
+// Illusory Wall - Setup
 Event(20005650, Restart, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
@@ -3026,7 +3050,7 @@ Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
 
-// Summon Sign - Setup
+// Summon - Setup
 Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
@@ -3059,6 +3083,7 @@ Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X12_4, Enabled);
 });
 
+// Summon - AI Update
 Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3158,7 +3183,7 @@ Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetEventFlag(X0_4, ON);
 });
 
-// Summon - Player has Died
+// Summon - Player Check (If Dead)
 Event(20005714, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -3238,7 +3263,7 @@ Event(20005715, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Summon Sign - Apperance
+// Summon - Apperance
 Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
@@ -4001,6 +4026,7 @@ Event(20005941, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// NPC - Check Hostility
 Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -4033,6 +4059,7 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
+// NPC - Hostility Cooldown
 Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     WaitFixedTimeFrames(1);
@@ -4090,6 +4117,7 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - Check Death
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
@@ -4100,6 +4128,7 @@ Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SaveRequest(0);
 });
 
+// NPC Toggle in Multiplayer
 Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetEventFlag(X4_4, OFF);
@@ -4393,85 +4422,127 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
     IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
     IfCharacterBackreadStatus(AND_02, X0_4, false, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_02);
-    EndUnconditionally(EventEndType.Restart);
+    EndUnconditionally(EventEndType.Restart);IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
 });
 
-// Spawn Control - NG+1 or abovre
+// Spawn Control - NG+1 or above
 Event(20008000, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+1 or abovre
+// Spawn Control - NG+1 or above
 Event(20008001, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+2 or abovre
+// Spawn Control - NG+2 or above
 Event(20008002, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 2);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+3 or abovre
+// Spawn Control - NG+3 or above
 Event(20008003, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 3);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+4 or abovre
+// Spawn Control - NG+4 or above
 Event(20008004, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+5 or abovre
+// Spawn Control - NG+5 or above
 Event(20008005, Default, function(X0_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
 // Spawn Control - Champion's Pact
@@ -4480,11 +4551,18 @@ Event(20008020, Default, function(X0_4) {
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
 // Spawn Control - Undead Pyre
@@ -4493,11 +4571,18 @@ Event(20008030, Default, function(X0_4) {
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
 // Spawn Control - Eclipse
@@ -4506,11 +4591,18 @@ Event(20008040, Default, function(X0_4) {
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    GotoUnconditionally(Label.LABEL1)
+    
     Label0();
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
 });
 
 // Spawn Control - One-time Encounter - With Itemlot
@@ -4803,8 +4895,3 @@ Event(20020024, Restart, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000044, ON);
 });
-
-
-
-
-
