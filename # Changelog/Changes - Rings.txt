@@ -600,7 +600,7 @@
 # Carthus Bloodring
 - Weight: 0.5
 - Shifts evasion class downwards and obscures rolling, but
-increases evasive movement stamina costs by 50%.
+increases evasive movement stamina costs by 200%.
 - Source: Treasure - Catacombs of Carthus
 
 # Reversal Ring
@@ -646,7 +646,7 @@ increases evasive movement stamina costs by 50%.
 
 # Wretched Pendant
 - Weight: 1
-- Emits degredation aura, reducing the absorption of nearby enemies by 2.5% every second (each stack expires after 40 seconds), and slows their movement. Slows the wearer.
+- Emits degredation aura, reducing the absorption of nearby enemies by 2.5% every second (each stack expires after 10 seconds), and slows their movement. Slows the wearer.
 - Source: Covenant - Rosaria's Fingers
 
 # Symbol of the Penitent
@@ -661,7 +661,7 @@ increases evasive movement stamina costs by 50%.
 
 # Greatwood Remnants
 - Weight: 3
-- Increases absorption by 15% but increases evasive stamina consumption by 25%.
+- Increases physical defence by 150 but increases evasive stamina consumption by 50%.
 - Source: Boss - Curse-rotted Greatwood
 
 # Green Tearstone Ring
@@ -785,8 +785,8 @@ increases evasive movement stamina costs by 50%.
 - Source: Drop - Mimic - High Wall of Lothric
 
 # Londor Tincture
-- Weight: 1
-- Boosts all defences by 75.
+- Weight: 3
+- Boosts all defences by 25%.
 - Source: Treasure - Undead Settlement
 
 # Enchanted Quiver
@@ -811,7 +811,7 @@ increases evasive movement stamina costs by 50%.
 
 # Ring of Woe
 - Weight: 1
-- Boosts all absorption by 20% but reduces HP by 1% of max every second.
+- Boosts soul absorption by 20% but reduces HP by 1% of max every second.
 - Source: Treasure - Grand Archives
 
 # Ring of Adversity
@@ -960,8 +960,8 @@ increases evasive movement stamina costs by 50%.
 - Source: Drop - Glaive Master Hodir
 
 # Rare Ring of Humanity
-- Weight: 40
-- Grants 30% absorption.
+- Weight: 20
+- Grants 20% absorption.
 - Source: Covenant - Pilgrims of Dark
 
 # Tomb Ring

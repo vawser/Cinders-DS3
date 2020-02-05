@@ -4179,5 +4179,3 @@ Event(4008245, Default, function() {
     ClearSpeffect(3700801, 260100103);
     EndUnconditionally(EventEndType.End);
 });
-
-

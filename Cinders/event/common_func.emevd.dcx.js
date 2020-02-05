@@ -4425,9 +4425,9 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
 });
 
-// Spawn Control - NG+1 or above
-Event(20008000, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
+// Spawn Control - NG+
+Event(20008000, Default, function(X0_4, X4_1) {
+    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
@@ -4445,9 +4445,9 @@ Event(20008000, Default, function(X0_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+1 or above
-Event(20008001, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
+// Spawn Control - Event Flag
+Event(20008010, Default, function(X0_4, X4_4) {
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
@@ -4465,9 +4465,10 @@ Event(20008001, Default, function(X0_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+2 or above
-Event(20008002, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 2);
+// Spawn Control - NG+ and Event Flag
+Event(20008020, Default, function(X0_4, X4_4, X8_1) {
+    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
@@ -4485,127 +4486,7 @@ Event(20008002, Default, function(X0_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Spawn Control - NG+3 or above
-Event(20008003, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 3);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - NG+4 or above
-Event(20008004, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - NG+5 or above
-Event(20008005, Default, function(X0_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - Champion's Pact
-Event(20008020, Default, function(X0_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000000);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - Undead Pyre
-Event(20008030, Default, function(X0_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13100500);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - Eclipse
-Event(20008040, Default, function(X0_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13410830);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-// Spawn Control - One-time Encounter - With Itemlot
+// Spawn Control - OTE - With Itemlot
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4620,7 +4501,55 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Spawn Control - One-time Encounter - No Itemlot
+// Spawn Control - OTE - NG+ - With Itemlot
+Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
+    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    ForceCharacterDeath(X4_4, false);
+    EndUnconditionally(EventEndType.End);
+    
+    Label0();
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, X0_4);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    ForceCharacterDeath(X4_4, false);
+    EndUnconditionally(EventEndType.End);
+    
+    Label1();
+    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+    SetEventFlag(X0_4, ON);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    AwardItemsIncludingClients(X8_4);
+    EndUnconditionally(EventEndType.End);
+});
+
+// Spawn Control - OTE - Event Flag - With Itemlot
+Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    ForceCharacterDeath(X4_4, false);
+    EndUnconditionally(EventEndType.End);
+    
+    Label0();
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, X0_4);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    ForceCharacterDeath(X4_4, false);
+    EndUnconditionally(EventEndType.End);
+    
+    Label1();
+    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+    SetEventFlag(X0_4, ON);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    AwardItemsIncludingClients(X8_4);
+    EndUnconditionally(EventEndType.End);
+});
+
+// Spawn Control - OTE - No Itemlot
 Event(20008150, Default, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4636,6 +4565,16 @@ Event(20008150, Default, function(X0_4, X4_4) {
 
 // Warp to Location
 Event(20008200, Default, function(X0_4, X4_4, X8_1, X12_4) {
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    RotateCharacter(10000, X0_4, 91040, false);
+    SendAllPhantomsHome(0);
+    WaitFixedTimeSeconds(3);
+    WarpPlayer(X8_1, 0, X12_4);
+});
+
+// Warp to Location - Wait for Flag
+Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -4709,6 +4648,13 @@ Event(20009200, Default, function(X0_4, X4_4) {
     RemoveItemFromPlayer(ItemType.Goods, 5022, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5024, 99);
+});
+
+// NPC Kill Emote
+Event(20009201, Default, function(X0_4, X4_4) {
+    EndIfNumberOfCoopClients(EventEndType.End, ComparisonType.GreaterOrEqual, 1);
+    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
+    ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
 });
 
 // Setup Game Flags
