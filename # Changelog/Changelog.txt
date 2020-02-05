@@ -449,7 +449,9 @@ being staggered.
 - Fixed the Cursed ring curse effects.
 - Fixed Elkhorn Round Shield effect not matching description.
 - Fixed Pestilent Mist not applying Curse.
-- Velka's Rapier hitbox is no longer ultra-scuffed.
+- Fixed Velka's Rapier dummy polys.
+- Fixed Insanity Catalyst dummy polys.
+- Grant now has more sensible dummy polys.
 - All new Mimics now have the open action fixed.
 - Orbeck now has a separate Purchase Item menu option for the non-spell items.
 - Irina now correctly has the non-spell items in her Purchase Item shop range.
@@ -459,9 +461,36 @@ being staggered.
 #------------------------------
 # Models
 #------------------------------
-Bad models:
- Firelink Spear (no dummy for 1H behind shield mode)
- 
+Firelink Spear (no dummy for 1H behind shield mode)
+Black Dragon Sword (no vfx)
+Black Dragon Greatsword (no vfx)
+Chikage (no vfx)
+Black Dragon Greataxe (no vfx)
+Phosophrescent Pole (no vfx)
+Quarterstaff (no vfx)
+Corvian Longstaff (no vfx)
+Witchtree Limb (no vfx)
+Longstaff of Rosaria (no vfx)
+Staff of Serpents (no vfx)
+Archdragon Longstaff (no vfx)
+Heretic's Warstaff (no vfx)
+Witch's Staff (no vfx)
+Obsidian Greatsword (vfx offset)
+Meat Cleaver (vfx offset)
+Hunter Axe (vfx offset)
+Scythe of Want (vfx offset)
+Beast Claw (vfx offset)
+Demon Axe (vfx on handle)
+Boom Hammer (vfx on handle)
+Smelter Hammer (vfx on handle)
+Abyssal Blade (vfx offset minor)
+Beasthunter Saif (vfx offset minor)
+Burial Blade (vfx offset minor)
+Serpentine Hatchet (vfx offset minor)
+Dozer Axe (vfx offset minor)
+King's Ultra Greatsword (vfx -> fume)
+Crypt Blacksword (vfx -> fume)
+
 Finish the icons
 Add armor icons
 Add shield icons
@@ -471,11 +500,20 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Fix Dancer's fogwall
+Fix Dancer's fogwall: 3001890
+ 13005350
+ 20005840
+ 20005841
+ 20005810
+ 
+ flag: 13000896
+ 13000896
+ 
+ door: 3001895
+    
 Check Darkdrift NPC in Lothric Castle
 
-- Grant now has more sensible dummy polys.
-- The Darkwraiths near Sage's Overlook are no longer hostile to enemies.
-- Fixed Velka's Rapier dummy polys.
-- Fixed Insanity Catalyst dummy polys.
+
+
+- Fixed issue with Firelink Tower door.
 
