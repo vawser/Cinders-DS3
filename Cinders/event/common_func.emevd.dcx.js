@@ -4841,3 +4841,41 @@ Event(20020024, Restart, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000044, ON);
 });
+
+// NPC Anti-Fall - Entity ID, Warp Event Point ID, Region ID, FFX ID, FFX Dummy ID
+Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetCharacterGravity(X0_4, Disabled)
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
+    WaitFixedTimeSeconds(0.1);
+    
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, X16_4, X12_4);
+    SetCharacterGravity(X0_4, Enabled)
+    
+    EndUnconditionally(EventEndType.Restart)
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

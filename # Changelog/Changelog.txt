@@ -507,16 +507,7 @@ Finish new weapon design
 Finish new weapon damage
 Finish new weapon infusions
 
-Fix Dancer's fogwall: 3001890
- 13005350
- 20005840
- 20005841
- 20005810
- 
- flag: 13000896
- 13000896
- 
- door: 3001895
-    
+Fix Dancer's fogwall
 Check Darkdrift NPC in Lothric Castle
-
+Buff the innate split damage weapons
+Increase dagger damage a bit

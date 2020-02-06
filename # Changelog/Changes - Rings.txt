@@ -636,7 +636,7 @@ increases evasive movement stamina costs by 200%.
 
 # Ring of Londor
 - Weight: 0.5
-- Increases casting speed by 25 whilst at 100% HP.
+- Increases casting speed by 40 whilst at 100% HP.
 - Source: Treasure - Grand Archives
 
 # Spirit Amethyst
