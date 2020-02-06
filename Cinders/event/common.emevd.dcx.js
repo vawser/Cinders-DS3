@@ -1650,8 +1650,6 @@ Event(400010, Default, function(X0_4, X4_4) {
 Event(400016, Default, function() {
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
     SetEventFlag(25000011, ON); // NG+1
-    SetEventFlag(25000080, ON); // Primordial Weapons/Armor
-    SetEventFlag(25000082, ON); // Primodial Spells/Rings
     
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 2);
     SetEventFlag(25000012, ON); // NG+2
