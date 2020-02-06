@@ -520,16 +520,3 @@ Fix Dancer's fogwall: 3001890
     
 Check Darkdrift NPC in Lothric Castle
 
-- Reduced defence gain from stats.
-- Carthus Bloodring: now increases stamina cost by 200%.
-- Wretched Pendant: stacks now last 10 seconds.
-- Greatwood Remnants: Increases physical defence by 150 but increases evasive stamina consumption by 50%.
-- Ring of Woe: Boosts soul absorption by 20% but lose 1% of health every second.
-- Londor Tincture: Boosts all defences by 25%.
-- Rare Ring of Humanity: weighs 20, grants 20% absorption.
-- Fixed Curse resists being lowered for enemies by accident (was 25% of normal).
-- Enemies now have 100 defence again.
-- Reduced the damage of ammunition.
-- Added stat reqs: 20 INT/FTH for the Dark Hand.
-- Stats reqs for Twinspears of the Forlorn are now 25 INT/FTH.
-- Increased stamina consumption for rolls.

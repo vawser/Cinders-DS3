@@ -4426,7 +4426,7 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 });
 
 // Spawn Control - NG+
-Event(20008000, Default, function(X0_4, X4_1) {
+Event(20008000, Restart, function(X0_4, X4_1) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4446,7 +4446,7 @@ Event(20008000, Default, function(X0_4, X4_1) {
 });
 
 // Spawn Control - Event Flag
-Event(20008010, Default, function(X0_4, X4_4) {
+Event(20008010, Restart, function(X0_4, X4_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4466,7 +4466,7 @@ Event(20008010, Default, function(X0_4, X4_4) {
 });
 
 // Spawn Control - NG+ and Event Flag
-Event(20008020, Default, function(X0_4, X4_4, X8_1) {
+Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);

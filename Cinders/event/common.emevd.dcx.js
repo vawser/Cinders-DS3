@@ -1729,35 +1729,35 @@ Event(400200, Default, function() {
 });
 
 // Rainbow Ring - Cycle
-Event(400201, Default, function(X0_4) {
-    ClearSpeffect(X0_4, 160601399);
-    SetSpeffect(X0_4, 160601391);
+Event(400201, Default, function() {
+    ClearSpeffect(10000, 160601399);
+    SetSpeffect(10000, 160601391);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601391);
-    SetSpeffect(X0_4, 160601392);
+    ClearSpeffect(10000, 160601391);
+    SetSpeffect(10000, 160601392);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601392);
-    SetSpeffect(X0_4, 160601393);
+    ClearSpeffect(10000, 160601392);
+    SetSpeffect(10000, 160601393);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601393);
-    SetSpeffect(X0_4, 160601394);
+    ClearSpeffect(10000, 160601393);
+    SetSpeffect(10000, 160601394);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601394);
-    SetSpeffect(X0_4, 160601395);
+    ClearSpeffect(10000, 160601394);
+    SetSpeffect(10000, 160601395);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601395);
-    SetSpeffect(X0_4, 160601396);
+    ClearSpeffect(10000, 160601395);
+    SetSpeffect(10000, 160601396);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601396);
-    SetSpeffect(X0_4, 160601397);
+    ClearSpeffect(10000, 160601396);
+    SetSpeffect(10000, 160601397);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601397);
-    SetSpeffect(X0_4, 160601398);
+    ClearSpeffect(10000, 160601397);
+    SetSpeffect(10000, 160601398);
     WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(X0_4, 160601398);
-    SetSpeffect(X0_4, 160601399);
+    ClearSpeffect(10000, 160601398);
+    SetSpeffect(10000, 160601399);
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 160601390, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, 10000, 160601390, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     EndUnconditionally(EventEndType.Restart);
 });
