@@ -38,7 +38,6 @@
  - Tin Banishment Catalyst
  - Dragonslayer Greatbow
 - Opening animations no longer make you invunerable.
-- Changed the base FP regen back to 1%. This is to reduce the amount in the early game, encouraging ashen estus flask usage, and to allow it to grow later.
 - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 - Changed the NG+ scaling modifiers. There are now two general sets, one for weak enemies, one for tanky enemies. Bosses each have their own tailored set as well.
  
@@ -189,7 +188,7 @@ being staggered.
 - Londor Tincture: Boosts all defences by 25%.
 - Rare Ring of Humanity: weighs 20, grants 20% absorption.
 
-# Rings
+# + Rings
 - All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
 - Alternatively, they are available in the Primordial Shop upon reaching NG+2/+3/+4.
 - Added +1/+2/+3 versions of Life Ring
@@ -253,6 +252,7 @@ being staggered.
 - Added Frozen Pine Resin.
 
 # Spells
+- Base FP regen is 2 + 1%.
 - Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
 - Adjusted FP and damage of spells.
 - Slowed the Soul Arrow cast animation.

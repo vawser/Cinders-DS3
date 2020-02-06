@@ -28,22 +28,22 @@
 # Magic
 - Reduces Stability by 25%
 - Boosts Magic guard absorption by 10
-- Effect: increases Magic absorption by 10%
+- Effect: increases Magic absorption by 5%
 
 # Fire
 - Reduces Stability by 25%
 - Boosts Fire guard absorption by 10
-- Effect: increases Fire absorption by 10%
+- Effect: increases Fire absorption by 5%
 
 # Lightning
 - Reduces Stability by 25%
 - Boosts Lightning guard absorption by 10
-- Effect: increases Lightning absorption by 10%
+- Effect: increases Lightning absorption by 5%
 
 # Dark
 - Reduces Stability by 25%
 - Boosts Dark guard absorption by 10
-- Effect: increases Dark absorption by 10%
+- Effect: increases Dark absorption by 5%
 
 #------------------------
 # Small Shields
@@ -61,19 +61,19 @@
 - Source: Quest - Hawkwood
 
 # Llewellyn Shield
-- Effect: increases Magic, Fire, Lightning and Dark absorption by 10%.
+- Effect: increases Magic, Fire, Lightning and Dark absorption by 5%.
 - Source: Quest - Horace
 - Source: Drop - Horace
 
 # Sacred Bloom Shield
-- Effect: increases max FP by 10%.
+- Effect: increases max FP by 5%.
 - Source: Treasure - Lothric Castle
 
 # Elkhorn Round Shield
 - Effect: restores 1 HP every second.
 
 # Crimson Parma
-- Effect: increases max HP by 10%
+- Effect: increases max HP by 5%
 
 # Loch Shield
 - Effect: restores 1 FP every second.
@@ -121,13 +121,16 @@
 - Effect: increases Physical defence by 50.
 
 # Rune Shield
-- Effect: increases Magic absorption by 10%.
+- Effect: increases Magic absorption by 5%.
 
 # Quicksilver Shield
-- Effect: increases Dark absorption by 10%.
+- Effect: increases Dark absorption by 5%.
 
 # Prince's Shield
 - Effect: restores 2 HP every second.
+
+# Crystal Ring Shield
+- Effect: increases Magic absorption by 5%.
 
 #------------------------
 # Greatshields
@@ -149,11 +152,11 @@
 - Source: Covenant - Watchdogs of Farron
 
 # Yhorm's Greatshield
-- Effect: increases max HP by 10%.
+- Effect: increases max HP by 5%.
 - Source: Boss - Yhorm the Giant
 
 # Twinfang Greatshield
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 # Immortal Dragon Greatshield
 - Effect: increases soul absorption by 20%.

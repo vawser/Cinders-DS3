@@ -119,7 +119,7 @@ Frost
 - Frost Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Attunement:
-- FP Scale: {1:100, 20:150, 40:200, 60:250, 99:300}
+- FP Scale: {1:100, 20:200, 40:300, 60:350, 99:400}
  
 # Endurance:
 - Lightning Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}

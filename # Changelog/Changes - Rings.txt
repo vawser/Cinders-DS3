@@ -42,15 +42,15 @@
 - Source: Quest - Orbeck
 
 # Pilgrims of Dark
-- Increases max HP by 10%
+- Increases max HP by 5%
 - Source: Quest - Karla
 
 # Way of White
-- Increases HP restored through estus flasks by 50%.
+- Increases HP restored through estus flasks by 10%.
 - Source: Quest - Irina
 
 # Dragon Remnants
-- Boosts stamina damage by 100%
+- Boosts stamina damage by 25%
 - Source: Quest - Hawkwood
 
 #------------------------
@@ -58,10 +58,10 @@
 #------------------------
 # Life Ring
 - Weight: 1
-- [+0] Grants 20% increased Max HP
-- [+1] Grants 25% increased Max HP
-- [+2] Grants 30% increased Max HP
-- [+3] Grants 35% increased Max HP
+- [+0] Grants 10% increased Max HP
+- [+1] Grants 12% increased Max HP
+- [+2] Grants 14% increased Max HP
+- [+3] Grants 16% increased Max HP
 - [+0] Source: Purchase - Shrine Handmaid
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -91,10 +91,10 @@
 
 # Ring of Favor
 - Weight: 1.5
-- [+0] Grants 5% increased Max HP, Max Stamina and Max. Equip Load.
-- [+1] Grants 7.5% increased Max HP, Max Stamina and Max. Equip Load.
+- [+0] Grants 6% increased Max HP, Max Stamina and Max. Equip Load.
+- [+1] Grants 8% increased Max HP, Max Stamina and Max. Equip Load.
 - [+2] Grants 10% increased Max HP, Max Stamina and Max. Equip Load.
-- [+3] Grants 12.5% increased Max HP, Max Stamina and Max. Equip Load.
+- [+3] Grants 12% increased Max HP, Max Stamina and Max. Equip Load.
 - [+0] Source: Drop - Sulyvahn's Beast - Irithyll of the Boreal Valley
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -102,10 +102,10 @@
 
 # Ring of Wisdom
 - Weight: 1
-- [+0] Increases max FP by 5%, reduces spell FP consumption by 10% and grants 1 attunement slot.
-- [+1] Increases max FP by 10%, reduces spell FP consumption by 15% and grants 1 attunement slot.
-- [+2] Increases max FP by 15%, reduces spell FP consumption by 20% and grants 1 attunement slot.
-- [+3] Increases max FP by 20%, reduces spell FP consumption by 25% and grants 1 attunement slot.
+- [+0] Increases max FP by 3%, reduces spell FP consumption by 10% and grants 1 attunement slot.
+- [+1] Increases max FP by 6%, reduces spell FP consumption by 15% and grants 1 attunement slot.
+- [+2] Increases max FP by 9%, reduces spell FP consumption by 20% and grants 1 attunement slot.
+- [+3] Increases max FP by 12%, reduces spell FP consumption by 25% and grants 1 attunement slot.
 - [+0] Source: Drop - Court Sorcerer - Profaned Capital
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -371,7 +371,7 @@
 
 # Darkmoon Ring
 - Weight: 0.5
-- Grants 2 FP every second.
+- Grants 1 + 0.5% FP every second.
 - Source: Covenant - Blade of the Darkmoon
 
 # Hawk Ring
@@ -620,10 +620,10 @@ increases evasive movement stamina costs by 200%.
 
 # Dragonscale Ring
 - Weight: 1
-- [+0] Grants 20% increased Max FP
-- [+1] Grants 25% increased Max FP
-- [+2] Grants 30% increased Max FP
-- [+3] Grants 35% increased Max FP
+- [+0] Grants 10% increased Max FP
+- [+1] Grants 12% increased Max FP
+- [+2] Grants 14% increased Max FP
+- [+3] Grants 16% increased Max FP
 - [+0] Source: Treasure - Consumed King's Garden
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -636,7 +636,7 @@ increases evasive movement stamina costs by 200%.
 
 # Ring of Londor
 - Weight: 0.5
-- Restores 1% FP every second whilst at 100% HP.
+- Increases casting speed by 25 whilst at 100% HP.
 - Source: Treasure - Grand Archives
 
 # Spirit Amethyst

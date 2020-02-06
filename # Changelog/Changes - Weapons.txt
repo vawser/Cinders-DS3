@@ -113,7 +113,7 @@ Longstaff of Rosaria
 - Effect: increases Item Discovery by 25.
 
 Scholar's Bow
-- Effect: increases max FP by 10%.
+- Effect: increases max FP by 5%.
 
 Witch's Staff
 - Effect: reduces the FP consumption of pyromancies by 10%.
@@ -137,10 +137,10 @@ Preacher's Right Arm
 - Effect: increases equipment load by 10%.
 
 Sunlight Talisman
-- Effect: increases HP restored by the Estus Flask by 25%.
+- Effect: increases HP restored by the Estus Flask by 10%.
 
 Sunless Talisman
-- Effect: increases max FP by 10%.
+- Effect: increases max FP by 5%.
 
 Firelink Dagger 
 - Effect: increases max HP, FP and Stamina by 5%.
@@ -176,25 +176,25 @@ Bramd
 - Effect: restores 2 HP every second.
 
 Channeler's Trident
-- Effect: increases max FP by 10%.
+- Effect: increases max FP by 5%.
 
 Marvelous Zweihander
 - Effect: increases Luck by 10.
 
 Dragon Bone Fist
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 Dragon Bone Smasher 
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 Dragon Greatsword
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 Dragon King Greataxe
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 Drake Sword
-- Effect: increases Fire absorption by 10%.
+- Effect: increases Fire absorption by 5%.
 
 Sage's Stiletto
 - Effect: absorb FP on hit, restoring 1% FP.
@@ -203,7 +203,7 @@ Grant
 - Effect: reduces the FP consumption of miracles by 10%.
 
 Rune Sword
-- Effect: increases Magic absorption by 10%.
+- Effect: increases Magic absorption by 5%.
 
 Scraping Spear
 - Effect: reduces durability by 1 on hit.
@@ -212,7 +212,7 @@ Server
 - Effect: absorb HP on hit, restoring 1% HP.
 
 Stone Greatsword
-- Effect: boosts Physical absorption by 10%.
+- Effect: increases Physical absorption by 5%.
 
 Titanite Catch Pole
 - Effect: increases Poise by 15%.

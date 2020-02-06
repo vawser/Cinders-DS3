@@ -107,7 +107,7 @@
 - [Head] Effect: boosts physical damage by 5%.
 
 # Iron Cage
-- [Head] Effect: increases max FP by 20%.
+- [Head] Effect: increases max FP by 10%.
 
 # Corvian Knight Helmet
 
@@ -146,10 +146,10 @@
 # Nameless Knight Set
 
 # Mask of the Father
-- [Head] Effect: boosts equipment load by 10%.
+- [Head] Effect: boosts equipment load by 5%.
 
 # Mask of the Mother
-- [Head] Effect: increases max HP by 10%.
+- [Head] Effect: increases max HP by 5%.
 
 # Mask of the Child
 - [Head] Effect: increases stamina recovery by 15.
@@ -180,7 +180,7 @@
 # Fallen Knight Set
 
 # Armor of the Sun Set
-- [Body] Effect: boosts estus HP recovery by 100%.
+- [Body] Effect: boosts estus HP recovery by 30%.
 
 # Fire Witch Set
 
@@ -314,7 +314,7 @@
 - [Body] Effect: boosts END by 5.
 
 # Sage's Big Hat
-- [Body] Effect: increases max FP by 20%.
+- [Body] Effect: increases max FP by 10%.
 
 # Gwyndolin Moonlight Set
 
