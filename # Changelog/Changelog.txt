@@ -500,18 +500,11 @@ Crypt Blacksword (vfx -> fume)
 
 Fix Dancer's fogwall
 Check Darkdrift NPC in Lothric Castle
+Add new illusory walls?
+Add secret drop warp spots
+Change warp prompts to use an actual prompt
 Buff the innate split damage weapons (100 boost to element)
 Increase dagger damage a bit
-
-- Enemies in Cemetery of Ash have 50 base defence, in High Wall they have 75 base defence, everywhere else they have 100 base defence.
-- The Primordial Coal and Scroll are now transposed from the Soul of the Lords.
-- Gaius and Quintus now drop a Titanite Slab.
-- Items from the Primordial shop now cost many more souls.
-- The amount of Primordial Titanite needed for reinforcement has been changed to: 2/4/6/8
-- Primordial Titanite no longer drops from Dream bosses, and less is dropped.
-- Iudex Gundyr, Vordt, Ancient Wyvern and Champion's Gravetender no longer drop Primordial Titanite in any form.
-- Entering NG+ no longer automatically unlocks the Primordial Shop.
-
 
 Damage/Scaling
 Effects
