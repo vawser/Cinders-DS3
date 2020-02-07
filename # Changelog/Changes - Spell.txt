@@ -621,7 +621,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Lightning Spear
 #--------------------------------
 - FP Cost: 40
-- Lightning Damage: 500 [100] [200] 
+- Lightning Damage: 250 [25] [100] 
 - FTH Req: 16
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -629,7 +629,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 60
-- Lightning Damage: 700 [150] [300] 
+- Lightning Damage: 600 [150] [200] 
 - FTH Req: 30
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -637,7 +637,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 80
-- Lightning Damage: 900 [200] [400] 
+- Lightning Damage: 900 [200] [300] 
 - FTH Req: 40
 - Ascended Effect: gains stronger tracking, now penetrates target.
 

@@ -40,9 +40,6 @@
 - Opening animations no longer make you invunerable.
 - Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
 - Changed the NG+ scaling modifiers. There are now two general sets, one for weak enemies, one for tanky enemies. Bosses each have their own tailored set as well.
- 
-# Stats
-- Shifted the return from stats, making them slightly worse during the middle levels, but much better after 80.
 
 # Map
 - The loading fogwalls in Firelink Shrine no longer appear.
@@ -51,7 +48,7 @@
 - Added the Accursed class.
 
 # Infusion
-- Increased Primordial Titanite costs in reinforcement to 5/10/15/20.
+- Changed Primordial Titanite costs in reinforcement to 2/4/6/8.
 - Lightning: reduces enemy poise by 50% for 15 seconds on hit.
 - Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
 - Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
@@ -428,7 +425,7 @@ being staggered.
 - Mournful Flames: extends the length of the lines.
 
 # Enemies
-- Enemies now have base 100 Physical defence (elemental defence is still 0).
+- Enemies now have base 100 defence as per vanilla.
 - Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
 - Reduced the power of the Soul of Cinder.
 - Champion's Gravetender now drops a Titanite Slab.
@@ -508,7 +505,18 @@ Increase dagger damage a bit
 
 Damage/Scaling
 Effects
-Materials
- Material: 100
- 
+
+Material
 Reinforce ID
+    Crypt Blacksword
+  
+#------------------------------  
+# Commit   
+#------------------------------
+- Lightning Spear: Lightning Damage: 250 [25] [100]
+- Great Lightning Spear: Lightning Damage: 600 [150] [200]
+- Increased the Primordial Titanite drops from the later bosses.
+- Reduced the titanite price of items in the Primordial shop.
+- Increased the soul drops of most Nightmare bosses.
+- Reduced the soul drop of nightmare Ancient Wyvern and Champion's Gravetender.
+- Ancient Wyvern is now killed with 1 plunge attack, as per vanilla.

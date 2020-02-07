@@ -7,7 +7,7 @@
 
 # Iudex Gundyr 
 - HP: 2000 [2000] [8000]      
-- Souls: 2500 [5000] [12500]
+- Souls: 2500 [5000] [25000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       85%
@@ -21,7 +21,7 @@
 
 # Vordt of the Boreal Valley 
 - HP: 2000 [2000] [8000]           
-- Souls: 5000 [10000] [25000]
+- Souls: 5000 [10000] [30000]
 - Absorption: Standard:     65%
 - Absorption: Slash:        65%
 - Absorption: Strike:       80%
@@ -74,7 +74,7 @@
 
 # Abyss Watchers
 - Boss HP: 5000 [5000] [15000]
-- Souls: 25000 [50000] [125000]
+- Souls: 25000 [50000] [150000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -101,7 +101,7 @@
 
 # Old Demon King 
 - HP: 8000 [8000] [16000]          
-- Souls: 15000 [30000] [75000]
+- Souls: 15000 [30000] [90000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -115,7 +115,7 @@
 
 # Pontiff Sulyvahn 
 - Boss HP: 9000 [9000] [18000]    
-- Souls: 25000 [50000] [125000]
+- Souls: 25000 [50000] [150000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
@@ -140,7 +140,7 @@
 
 # Aldrich, Devourer of Gods
 - HP: 10000 [10000] [20000]         
-- Souls: 50000 [100000] [150000]
+- Souls: 50000 [100000] [200000]
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
@@ -154,7 +154,7 @@
 
 # Yhorm the Giant 
 - HP: 10000 [10000] [20000]         
-- Souls: 25000 [50000] [125000]
+- Souls: 25000 [50000] [100000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
@@ -167,7 +167,7 @@
 
 # Dancer of the Boreal Valley
 - HP: 9000 [9000] [18000]          
-- Souls: 15000 [30000] [75000]
+- Souls: 15000 [30000] [90000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -180,7 +180,7 @@
 
 # Oceiros, the Consumed King
 - HP: 12000 [12000] [18000]         
-- Souls: 20000 [40000] [80000]
+- Souls: 20000 [40000] [100000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        90%
 - Absorption: Strike:       80%
@@ -193,7 +193,7 @@
 
 # Dragonslayer Armour 
 - HP: 9000 [9000] [18000]         	
-- Souls: 20000 [40000] [80000]
+- Souls: 20000 [40000] [100000]
 - Absorption: Standard:     60%
 - Absorption: Slash:        60%
 - Absorption: Strike:       70%
@@ -207,7 +207,7 @@
 
 # Ancient Wyvern 
 - HP: 10000 [10000] [20000]         
-- Souls: 10000 [20000] [50000]
+- Souls: 10000 [20000] [30000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -232,7 +232,7 @@
 
 # Nameless King 
 - HP: 12000 [12000] [24000]         
-- Souls: 50000 [100000] [150000]
+- Souls: 50000 [100000] [200000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -245,7 +245,7 @@
 
 # Champion Gundyr 
 - HP: 12000 [12000] [24000]         
-- Souls: 20000 [40000] [80000]
+- Souls: 20000 [40000] [100000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -271,7 +271,7 @@
 
 # Lothric, Younger Prince 
 - HP: 9000 [9000] [18000]         
-- Souls: 50000 [100000] [150000]
+- Souls: 50000 [100000] [200000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -284,7 +284,7 @@
 
 # Soul of Cinder 
 - HP: 12500 [12500] [25000]        
-- Souls: 100000 [200000] [300000]
+- Souls: 100000 [200000] [500000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -298,7 +298,7 @@
 # Sister Friede
 - Phase 1 HP: 8000 [8000] [16000]      
 - Phase 2 HP: 10000 [10000] [20000]     
-- Souls: 50000 [100000] [150000]
+- Souls: 50000 [100000] [250000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
 - Absorption: Strike:       90%
@@ -323,7 +323,7 @@
 
 # Champion's Gravetender & Gravetender Greatwolf
 - HP: 8000 [8000] [16000]        
-- Souls: 10000 [20000] [50000]
+- Souls: 10000 [20000] [30000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
