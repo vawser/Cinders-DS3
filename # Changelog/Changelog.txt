@@ -501,7 +501,6 @@ Add new illusory walls?
 Add secret drop warp spots
 Change warp prompts to use an actual prompt
 
-Fix Dancer's fogwall
 Buff the innate split damage weapons (100 boost to element)
 Increase dagger damage a bit
 
@@ -515,7 +514,3 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
-- Dancer's fog wall is no longer glitched.
-- Increased the FP cost of the bow WAs slightly.
-- Reduced the motion value for Rapid Fire WA to 50 (was 100).
-- Increased the motion value for Tripe Shot WA to 80 (was 60).

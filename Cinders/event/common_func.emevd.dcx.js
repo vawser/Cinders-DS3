@@ -4831,6 +4831,11 @@ Event(20020017, Restart, function() {
 
 // Soul of Cinder
 Event(20020018, Restart, function() {
+    SetEventFlag(25000080, ON); // Primordial Weapons
+    SetEventFlag(25000081, ON); // Primordial Armor
+    SetEventFlag(25000082, ON); // Primordial Spells
+    SetEventFlag(25000083, ON); // Primordial Rings  
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000038, ON);
 });
@@ -4905,4 +4910,3 @@ Event(20030100, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     ClearSpeffect(X16_4, X20_4);
     EndUnconditionally(EventEndType.End);
 });
-
