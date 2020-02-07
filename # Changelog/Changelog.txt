@@ -497,10 +497,7 @@ Beasthunter Saif (vfx offset minor)
 Burial Blade (vfx offset minor)
 Serpentine Hatchet (vfx offset minor)
 Dozer Axe (vfx offset minor)
-King's Ultra Greatsword (vfx -> fume)
-Crypt Blacksword (vfx -> fume)
 
-Check Darkdrift NPC in Lothric Castle
 Add new illusory walls?
 Add secret drop warp spots
 
@@ -520,8 +517,4 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
-- Loch Shield is now found in Witch's Locks old location in Grand Archives.
-- Dominatrix Sharron now drops the Witch's Locks.
-- Penetrating Sword/BSS now actually has thrust type on the heavy attacks.
-- Moved most of the extra enemies that appear in boss arenas to elsewhere outside.
-
+3600
