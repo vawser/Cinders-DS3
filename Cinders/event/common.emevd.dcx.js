@@ -2170,6 +2170,7 @@ Event(401000, Restart, function() {
     InitializeEvent(0, 4008245, 0);
 });
 
+// Iudex Gundyr - Dream
 Event(4008010, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2189,6 +2190,7 @@ Event(4008010, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Iudex Gundyr - Nightmare
 Event(4008011, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100012, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2244,6 +2246,7 @@ Event(4008015, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Dream - Vordt
 Event(4008020, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2259,6 +2262,7 @@ Event(4008020, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Nightmare - Vordt
 Event(4008021, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100022, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);

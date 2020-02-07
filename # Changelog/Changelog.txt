@@ -515,6 +515,7 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
-
-
-
+- Dancer's fog wall is no longer glitched.
+- Increased the FP cost of the bow WAs slightly.
+- Reduced the motion value for Rapid Fire WA to 50 (was 100).
+- Increased the motion value for Tripe Shot WA to 80 (was 60).

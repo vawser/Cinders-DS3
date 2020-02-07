@@ -4885,3 +4885,24 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     
     EndUnconditionally(EventEndType.Restart)
 });
+
+// Boss System - Add Effect - End Flag, Trigger Flag, Entity ID, SpEffect ID
+Event(20030000, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X4_4);
+    SetSpeffect(X8_4, X12_4);
+    EndUnconditionally(EventEndType.End);
+});
+
+// Boss System - Award Itemlot - Kill End Flag, End State Flag, Award State Flag, Itemlot ID, Entity ID, SpEffect ID
+Event(20030100, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X8_4);
+    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X0_4);
+    AwardItemLot(X12_4);
+    SetEventFlag(X8_4, OFF);
+    ClearSpeffect(X16_4, X20_4);
+    EndUnconditionally(EventEndType.End);
+});
+
