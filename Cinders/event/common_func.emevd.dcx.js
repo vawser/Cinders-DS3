@@ -6,6 +6,7 @@
 // @linked    []
 // ==/EMEVD==
 
+// Enemy - Enable AI upon area/attack trigger
 Event(20005110, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -23,7 +24,7 @@ Event(20005110, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Disable AI until area entered or attacked
+// Enemy - Enable AI upon area/attack trigger - Wake-up animation
 Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -42,6 +43,7 @@ Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI/Gravity upon area/attack trigger
 Event(20005112, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -61,6 +63,7 @@ Event(20005112, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI/Gravity upon area/attack trigger - With delayed wake up
 Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -83,6 +86,7 @@ Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon area/attack trigger - With delayed wake up
 Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -134,6 +138,7 @@ Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/attack trigger
 Event(20005120, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -151,6 +156,7 @@ Event(20005120, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/attack trigger - With delayed wake up
 Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -171,7 +177,7 @@ Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Wake up in radius (and attacked)
+// Enemy - Enable AI upon radius/attack trigger - With wake up animation
 Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -190,6 +196,7 @@ Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/area/attack trigger
 Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -208,6 +215,7 @@ Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
 Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -227,6 +235,7 @@ Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/area/attack trigger
 Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -246,6 +255,7 @@ Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
 Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -266,6 +276,7 @@ Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
 Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -289,6 +300,7 @@ Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon area/attack/combat trigger
 Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -307,6 +319,7 @@ Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon attack trigger
 Event(20005150, Restart, function(X0_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -1520,6 +1533,7 @@ Event(20005331, Restart, function(X0_4) {
     ClearSpeffect(X0_4, 5000);
 });
 
+// Enemy - One-time Apperance
 Event(20005340, Restart, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -1532,6 +1546,7 @@ Event(20005340, Restart, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Award Item on Kill
 Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -1546,6 +1561,7 @@ Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Show Treasure if Killed but Treasure missed
 Event(20005342, Restart, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4447,6 +4463,7 @@ Event(20008000, Restart, function(X0_4, X4_1) {
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
     GotoUnconditionally(Label.LABEL1)
     
     Label1();
@@ -4467,6 +4484,7 @@ Event(20008010, Restart, function(X0_4, X4_4) {
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
     GotoUnconditionally(Label.LABEL1)
     
     Label1();
@@ -4488,6 +4506,7 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
     GotoUnconditionally(Label.LABEL1)
     
     Label1();

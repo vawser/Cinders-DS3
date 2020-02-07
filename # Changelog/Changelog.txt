@@ -457,6 +457,7 @@ being staggered.
 - Fixed Insanity Catalyst dummy polys.
 - Grant now has more sensible dummy polys.
 - All new Mimics now have the open action fixed.
+- Fixed mimic treasure so it will appear on reload if you kill them, but miss the treasure.
 - Orbeck now has a separate Purchase Item menu option for the non-spell items.
 - Irina now correctly has the non-spell items in her Purchase Item shop range.
 - Fixed the aux resin items now actually applying the aux.
@@ -514,9 +515,6 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
-- Extended the duration of weapon arts slightly.
-- Gentle Prayer now restores 100 HP over 5 seconds.
-- Pray for Favor now restores 200 HP over 5 seconds.
-- Mimic treasure will now appear in their spot if they die without it being picked up.
-- Changed defence to defense in descriptions to match the game's spelling.
+
+
 
