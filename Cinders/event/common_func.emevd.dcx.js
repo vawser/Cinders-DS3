@@ -391,6 +391,7 @@ Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Wakeup with animation
 Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -639,6 +640,7 @@ Event(20005207, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Animate on wakeup
 Event(20005210, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -1502,6 +1504,7 @@ Event(20005322, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Wake up and run into combat
 Event(20005330, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X8_4);
@@ -3108,7 +3111,7 @@ Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X12_4, Enabled);
 });
 
-// Summon Boss Fog AI - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID
+// Summon Boss Fog AI - Summon Flag, Boss Fight Active Flag, Entity ID, Region ID, Region ID
 Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3290,7 +3293,7 @@ Event(20005715, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Summon - Apperance
+// Summon - Apperance - Summon Flag, Dismissal Flag, Boss Flag, Entity ID
 Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
@@ -3428,6 +3431,7 @@ Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Boss - Enter Boss Room
 Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X24_4, 0);
@@ -3468,6 +3472,7 @@ Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Boss - Enter Fogwall
 Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -3483,6 +3488,7 @@ Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Boss - Enter Boss Room (Client)
 Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3524,6 +3530,7 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SetEventFlag(X4_4, ON);
 });
 
+// Boss - Toggle Fogwall State
 Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
@@ -3711,6 +3718,7 @@ Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EnableBossMapSound(-1, Disabled);
 });
 
+// Boss - Boss Sound State
 Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -4594,7 +4602,7 @@ Event(20008150, Default, function(X0_4, X4_4) {
 });
 
 // Warp to Location
-Event(20008200, Default, function(X0_4, X4_4, X8_1, X12_4) {
+Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -4603,7 +4611,7 @@ Event(20008200, Default, function(X0_4, X4_4, X8_1, X12_4) {
 });
 
 // Warp to Location - Wait for Flag
-Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+Event(20008205, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4910,4 +4918,20 @@ Event(20030100, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetEventFlag(X8_4, OFF);
     ClearSpeffect(X16_4, X20_4);
     EndUnconditionally(EventEndType.End);
+});
+
+// Estus Pot - Object ID, Area Entity ID, FFX ID, Drink FFX ID, SpEffect ID
+Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    SetNetworkSyncState(Disabled);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    CreateObjectfollowingSFX(X0_4, 200, X8_4);
+    CreateObjectfollowingSFX(X0_4, 200, 60);
+    IfActionButtonInArea(MAIN, 9600, X4_4);
+    ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1); // Drink
+    WaitFixedTimeSeconds(0.2);
+    SpawnOneshotSFX(TargetEntityType.Character, 10000, 220, X12_4);
+    PlaySE(10000, SoundType.c_CharacterMotion, 999999988);
+    SetSpeffect(10000, X16_4);
+    DeleteObjectfollowingSFX(X0_4, true);
 });

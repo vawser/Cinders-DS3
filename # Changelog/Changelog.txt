@@ -503,11 +503,12 @@ Crypt Blacksword (vfx -> fume)
 Check Darkdrift NPC in Lothric Castle
 Add new illusory walls?
 Add secret drop warp spots
+
 Change warp prompts to use an actual prompt
+Make dream/nightmare items warp to specific points
 
 Buff the innate split damage weapons (100 boost to element)
 Increase dagger damage a bit
-Aldrich not teleporting right
 
 Damage/Scaling
 Effects
@@ -519,3 +520,8 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
+- Loch Shield is now found in Witch's Locks old location in Grand Archives.
+- Dominatrix Sharron now drops the Witch's Locks.
+- Penetrating Sword/BSS now actually has thrust type on the heavy attacks.
+- Moved most of the extra enemies that appear in boss arenas to elsewhere outside.
+
