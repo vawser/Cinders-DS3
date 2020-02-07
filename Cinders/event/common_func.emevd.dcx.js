@@ -2217,6 +2217,7 @@ Event(20005496, Default, function(X0_4) {
     DeactivateObject(X0_4, Disabled);
 });
 
+// Register Bonfire - After Event Flag
 Event(20005500, Default, function(X0_4, X4_4, X8_4, X12_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
     DeactivateObject(X12_4, Disabled);
@@ -4611,7 +4612,7 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
-// Warp to Location - Untended Graves
+// Warp to Location - Map Ceremony
 Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);

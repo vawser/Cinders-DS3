@@ -439,6 +439,10 @@ being staggered.
 - Curse from normal enemies now just kills you as in vanilla. Hostile NPCs still use the player version however.
 - Normal Deacons no longer inflict Curse.
 
+# Map
+- Moved the Archdragon Peak commune point to the statue at the end of the right path from the first bonfire in High Wall.
+- Changed the enemies on the right path from the first bonfire to Serpent-men, to allude to the commune point.
+
 # Bugfixes
 - Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
 - Fixed some inaccurate localization.
@@ -503,6 +507,7 @@ Change warp prompts to use an actual prompt
 
 Buff the innate split damage weapons (100 boost to element)
 Increase dagger damage a bit
+Aldrich not teleporting right
 
 Damage/Scaling
 Effects
