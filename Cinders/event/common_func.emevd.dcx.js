@@ -919,6 +919,7 @@ Event(20005219, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Idle State
 Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -937,6 +938,7 @@ Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Idle State
 Event(20005221, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -965,6 +967,7 @@ Event(20005221, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Idle State
 Event(20005222, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -995,6 +998,7 @@ Event(20005222, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Idle State
 Event(20005223, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -1015,6 +1019,7 @@ Event(20005223, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Idle State
 Event(20005224, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -1551,6 +1556,7 @@ Event(20005342, Restart, function(X0_4, X4_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Enemy - Show Treasure if Killed but Treasure missed
 Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -1564,6 +1570,7 @@ Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Enemy - One-time Item Drop
 Event(20005350, Default, function(X0_4, X4_4, X8_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
@@ -3038,6 +3045,7 @@ Event(20005673, Restart, function(X0_1, X1_1, X4_4) {
     DeleteMapSFX(X4_4, false);
 });
 
+// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID
 Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
@@ -3050,7 +3058,7 @@ Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
 
-// Summon - Setup
+// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID, Unk Flag
 Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
@@ -3083,7 +3091,7 @@ Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X12_4, Enabled);
 });
 
-// Summon - AI Update
+// Summon Boss Fog AI - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID
 Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3103,6 +3111,7 @@ Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
+// Summon Boss Fog AI - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID, Unk Flag
 Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3124,6 +3133,7 @@ Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
+// Summon Boss Fog AI (Client Player) - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID
 Event(20005716, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -4856,26 +4866,3 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     
     EndUnconditionally(EventEndType.Restart)
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

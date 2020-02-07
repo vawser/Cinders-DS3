@@ -495,11 +495,12 @@ Dozer Axe (vfx offset minor)
 King's Ultra Greatsword (vfx -> fume)
 Crypt Blacksword (vfx -> fume)
 
-Fix Dancer's fogwall
 Check Darkdrift NPC in Lothric Castle
 Add new illusory walls?
 Add secret drop warp spots
 Change warp prompts to use an actual prompt
+
+Fix Dancer's fogwall
 Buff the innate split damage weapons (100 boost to element)
 Increase dagger damage a bit
 
@@ -513,10 +514,9 @@ Reinforce ID
 #------------------------------  
 # Commit   
 #------------------------------
-- Lightning Spear: Lightning Damage: 250 [25] [100]
-- Great Lightning Spear: Lightning Damage: 600 [150] [200]
-- Increased the Primordial Titanite drops from the later bosses.
-- Reduced the titanite price of items in the Primordial shop.
-- Increased the soul drops of most Nightmare bosses.
-- Reduced the soul drop of nightmare Ancient Wyvern and Champion's Gravetender.
-- Ancient Wyvern is now killed with 1 plunge attack, as per vanilla.
+- Extended the duration of weapon arts slightly.
+- Gentle Prayer now restores 100 HP over 5 seconds.
+- Pray for Favor now restores 200 HP over 5 seconds.
+- Mimic treasure will now appear in their spot if they die without it being picked up.
+- Changed defence to defense in descriptions to match the game's spelling.
+
