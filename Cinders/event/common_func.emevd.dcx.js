@@ -4886,7 +4886,7 @@ Event(20020024, Restart, function() {
     SetEventFlag(25000044, ON);
 });
 
-// NPC Anti-Fall - Entity ID, Warp Event Point ID, Region ID, FFX ID, FFX Dummy ID
+// Region Warp - Entity ID, Warp Event Point ID, Region ID, FFX ID, FFX Dummy ID
 Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
     IfConditionGroup(MAIN, PASS, OR_01);
@@ -4901,7 +4901,22 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart)
 });
 
-// Boss System - Add Effect - End Flag, Trigger Flag, Entity ID, SpEffect ID
+// Object Warp - Entity ID, Object ID, Action Param ID, Warp Point ID, FFX ID, FFX Dummy ID
+Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    IfActionButtonInArea(OR_01, X8_4, X4_4);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetCharacterGravity(X0_4, Disabled)
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X12_4, -1, X0_4);
+    WaitFixedTimeSeconds(0.1);
+    
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, X20_4, X16_4);
+    SetCharacterGravity(X0_4, Enabled)
+    
+    EndUnconditionally(EventEndType.Restart)
+});
+
+// Boss Fight System - Add Effect - End Flag, Trigger Flag, Entity ID, SpEffect ID
 Event(20030000, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X4_4);
@@ -4909,7 +4924,7 @@ Event(20030000, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Boss System - Award Itemlot - Kill End Flag, End State Flag, Award State Flag, Itemlot ID, Entity ID, SpEffect ID
+// Boss Fight System - Award Itemlot - Kill End Flag, End State Flag, Award State Flag, Itemlot ID, Entity ID, SpEffect ID
 Event(20030100, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);

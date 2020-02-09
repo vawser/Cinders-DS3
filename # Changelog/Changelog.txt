@@ -509,17 +509,17 @@ Dozer Axe (vfx offset minor)
 Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
 Make equipment from enemies drop 100% from specific enemies, remove the random drops.
-Add empowered phantom aura
-Firebombs, revert to STR scaling
-Boost cost of hexing urns
+Try to fix LOD issue
 
 Do icons
 
 #------------------------------  
 # Commit   
 #------------------------------
-- Restored the original parrying dagger parry frames.
-- Moved the straight sword parry frames (Firelink Dagger) so they no longer start immediately.
-- Increased the cast speed range for Lightning Arrow animation.
-- Increased the cast speed range of Lightning Spear animation.
-- Added anti-fall for the Exile Watchdogs.
+- Increased cost of Hexing Urns.
+- Firebombs scale with STR/DEX again.
+- NG+ ring dropping enemies (called Echoes of the Past) now have a ghostly phantom aura to distingush them amoungst other enemies.
+- Adjusted the motion values for a few of the ascended spells that split into multiple projectiles so they don't have such a massive boost in damage due to the extra projectiles.
+- Profaned Flame ascended effect: emits a secondary flame after the first explodes.
+- Wretch Earth ascended effect: now homes onto enemies. 
+- Lightning Arrow ascended effect: gains stronger tracking.

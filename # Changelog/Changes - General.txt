@@ -225,31 +225,31 @@ These are the multipliers applied to the base stats of the enemies in the listed
 # Cemetery of Ash
 - Max HP: 1
 - Max Stamina: 1
-- Damage: 1.5
+- Damage: 1.3
 - Defence: 1.02
 
 # High Wall of Lothric
 - Max HP: 1
 - Max Stamina: 1
-- Damage: 1.6
+- Damage: 1.4
 - Defence: 1.02
 
 # Undead Settlement
 - Max HP: 1
 - Max Stamina: 1.1
-- Damage: 1.65
+- Damage: 1.5
 - Defence: 1.03
 
 # Road of Sacrifices
 - Max HP: 1
 - Max Stamina: 1.1
-- Damage: 1.7
+- Damage: 1.6
 - Defence: 1.04
 
 # Cathedral of the Deep
 - Max HP: 1
 - Max Stamina: 1.2
-- Damage: 1.75
+- Damage: 1.7
 - Defence: 1.06
 
 # Farron Keep

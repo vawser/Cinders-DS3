@@ -381,7 +381,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 100
-- Ascended Effect: shoots 3 projectiles.
+- Ascended Effect: shoots 3 projectiles and hits more often.
 
 #--------------------------------
 # Great Combustion
@@ -416,7 +416,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 400 
-- Ascended Effect: shoots 3 projectiles.
+- Ascended Effect: secondary flame is emitted after first explodes.
 
 #--------------------------------
 # Chaos Bed Vestiges
@@ -472,7 +472,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 60
 - Physical Damage: 600 
-- Ascended Effect: shoots 3 projectiles.
+- Ascended Effect: now homes onto enemies.
 
 #--------------------------------
 # Earthquake
@@ -647,7 +647,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 20
 - Lightning Damage: 150
 - FTH Req: 10
-- Ascended Effect: shoots 3 projectiles in a tight cone.
+- Ascended Effect: gains stronger tracking.
 
 #--------------------------------
 # Lightning Storm

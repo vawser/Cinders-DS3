@@ -2149,7 +2149,7 @@ Event(4008020, Default, function() {
     SetEventFlag(13000800, OFF);
     SetEventFlag(9301, OFF);
     SetEventFlag(6301, OFF);
-    SetPlayerRespawnPoint(3002955);
+    SetPlayerRespawnPoint(3002958);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
     WarpPlayer(30, 0, 3000975);
@@ -2165,7 +2165,7 @@ Event(4008021, Default, function() {
     SetEventFlag(13000800, OFF);
     SetEventFlag(9301, OFF);
     SetEventFlag(6301, OFF);
-    SetPlayerRespawnPoint(3002955);
+    SetPlayerRespawnPoint(3002958);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
     WarpPlayer(30, 0, 3000975);
@@ -3072,6 +3072,7 @@ Event(4008115, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Dream - Dancer
 Event(4008120, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3088,6 +3089,7 @@ Event(4008120, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Nightmare - Dancer
 Event(4008121, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100122, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3140,6 +3142,7 @@ Event(4008125, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Dream - Oceiros
 Event(4008130, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3155,6 +3158,7 @@ Event(4008130, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Nightmare - Oceiros
 Event(4008131, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100132, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
