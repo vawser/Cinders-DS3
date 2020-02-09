@@ -3628,6 +3628,7 @@ Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EnableBossMapSound(-1, Disabled);
 });
 
+// Boss - Boss Sound State
 Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -4611,7 +4612,7 @@ Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
 });
 
 // Warp to Location - Wait for Flag
-Event(20008205, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4855,7 +4856,7 @@ Event(20020019, Restart, function() {
     SetEventFlag(25000039, ON);
 });
 
-// Gravetender's Champion
+// The Triad
 Event(20020020, Restart, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000040, ON);

@@ -141,10 +141,10 @@
 # Aldrich, Devourer of Gods
 - HP: 10000 [10000] [20000]         
 - Souls: 50000 [100000] [200000]
-- Absorption: Standard:     50%
-- Absorption: Slash:        50%
-- Absorption: Strike:       50%
-- Absorption: Thrust:       75%
+- Absorption: Standard:     75%
+- Absorption: Slash:        75%
+- Absorption: Strike:       75%
+- Absorption: Thrust:       100%
 - Absorption: Magic:        50%
 - Absorption: Fire:         80%
 - Absorption: Lightning:    100%

@@ -1629,7 +1629,6 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
     InitializeEvent(0, 400400, 10000); // Blood of Might
-    InitializeEvent(0, 400401, 10000); // Beastly Flesh
     InitializeEvent(0, 400402, 10000); // Event Flag Tool
     
     InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
@@ -1849,111 +1848,6 @@ Event(400400, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Beastly Flesh - Reset flags
-Event(400401, Default, function(X0_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, 160700080, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    // Spawn flags
-    SetEventFlag(13800381, OFF);
-    SetEventFlag(6331, OFF);
-    SetEventFlag(13300560, OFF);
-    SetEventFlag(13100900, OFF);
-    SetEventFlag(14000604, OFF);
-    SetEventFlag(14000605, OFF);
-    SetEventFlag(14000606, OFF);
-    SetEventFlag(13900106, OFF);
-    SetEventFlag(13800105, OFF);
-    SetEventFlag(13800106, OFF);
-    SetEventFlag(13700174, OFF);
-    SetEventFlag(13700175, OFF);
-    SetEventFlag(13700544, OFF);
-    SetEventFlag(13700176, OFF);
-    SetEventFlag(13700177, OFF);
-    SetEventFlag(13700178, OFF);
-    SetEventFlag(13700179, OFF);
-    SetEventFlag(13500196, OFF);
-    SetEventFlag(13410192, OFF);
-    SetEventFlag(13410193, OFF);
-    SetEventFlag(13410194, OFF);
-    SetEventFlag(13410195, OFF);
-    SetEventFlag(13300603, OFF);
-    SetEventFlag(13300604, OFF);
-    SetEventFlag(13100613, OFF);
-    SetEventFlag(13100615, OFF);
-    SetEventFlag(13100616, OFF);
-    SetEventFlag(13010306, OFF);
-    SetEventFlag(13010307, OFF);
-    SetEventFlag(13000621, OFF);
-    SetEventFlag(13000622, OFF);
-    SetEventFlag(13000358, OFF);
-    SetEventFlag(13000359, OFF);
-    SetEventFlag(13010591, OFF);
-    SetEventFlag(13010592, OFF);
-    SetEventFlag(13700370, OFF);
-    SetEventFlag(13700400, OFF);
-    SetEventFlag(13500298, OFF);
-    SetEventFlag(13800390, OFF);
-    SetEventFlag(13900370, OFF);
-    SetEventFlag(13900371, OFF);
-    SetEventFlag(13900372, OFF);
-    SetEventFlag(13900373, OFF);
-    SetEventFlag(13500300, OFF);
-    SetEventFlag(13500301, OFF);
-    SetEventFlag(13900380, OFF);
-    SetEventFlag(15100285, OFF);
-    SetEventFlag(15100298, OFF);
-    SetEventFlag(13800780, OFF);
-    SetEventFlag(13800781, OFF);
-    SetEventFlag(13800782, OFF);
-    SetEventFlag(13800783, OFF);
-    
-    // Treasure flags
-    SetEventFlag(53800941, OFF);
-    SetEventFlag(53100985, OFF);
-    SetEventFlag(55100987, OFF);
-    SetEventFlag(53500980, OFF);
-    SetEventFlag(53010950, OFF);
-    SetEventFlag(53010960, OFF);
-    SetEventFlag(53800940, OFF);
-    SetEventFlag(53900940, OFF);
-    SetEventFlag(53900950, OFF);
-    SetEventFlag(53900960, OFF);
-    SetEventFlag(53900970, OFF);
-    SetEventFlag(53900980, OFF);
-    SetEventFlag(53900995, OFF);
-    SetEventFlag(53900990, OFF);
-    SetEventFlag(53700980, OFF);
-    SetEventFlag(53000960, OFF);
-    SetEventFlag(55100986, OFF);
-    SetEventFlag(53002074, OFF);
-    SetEventFlag(53902080, OFF);
-    SetEventFlag(53002075, OFF);
-    SetEventFlag(53902080, OFF);
-    SetEventFlag(53102063, OFF);
-    SetEventFlag(53702113, OFF);
-    SetEventFlag(53702115, OFF);
-    SetEventFlag(53302133, OFF);
-    SetEventFlag(53802125, OFF);
-    SetEventFlag(53802127, OFF);
-    SetEventFlag(53412102, OFF);
-    SetEventFlag(53412104, OFF);
-    SetEventFlag(53012065, OFF);
-    SetEventFlag(53702109, OFF);
-    SetEventFlag(53702111, OFF);
-    SetEventFlag(53012067, OFF);
-    SetEventFlag(53412106, OFF);
-    SetEventFlag(53802151, OFF);
-    SetEventFlag(53802152, OFF);
-    SetEventFlag(53802153, OFF);
-    SetEventFlag(53802154, OFF);
-    SetPlayerRespawnPoint(4002950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000970);
-    EndUnconditionally(EventEndType.Restart);
-});
 
 // Event Flag Tool
 Event(400402, Default, function(X0_4) {

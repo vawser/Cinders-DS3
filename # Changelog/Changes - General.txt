@@ -111,7 +111,7 @@ Frost
 - Scales are {<level>:<stat value at this level>}
 
 # Soul Level:
-- Defence Scale: {1:0, 100:25, 200:50, 300:75, 400:100}
+- Defence Scale: {1:0, 100:0, 200:0, 300:0, 400:0}
 - No longer increases resistances.
  
 # Vigor:
@@ -122,22 +122,22 @@ Frost
 - FP Scale: {1:100, 20:200, 40:300, 60:350, 99:400}
  
 # Endurance:
-- Lightning Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}
+- Lightning Defence Scale: {1:0, 20:20, 60:40, 80:80, 99:100}
 - Bleed Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Vitality:
-- Physical Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}
+- Physical Defence Scale: {1:0, 20:20, 60:40, 80:80, 99:100}
 - Poison Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Strength:
-- Physical Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}
+- Physical Defence Scale: {1:0, 20:20, 60:40, 80:80, 99:100}
 - Fire Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
 
 # Intelligence
-- Magic Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}
+- Magic Defence Scale: {1:0, 20:20, 60:40, 80:80, 99:100}
 
 # Faith:
-- Dark Defence Scale: {1:0, 20:25, 60:50, 80:75, 99:100}
+- Dark Defence Scale: {1:0, 20:20, 60:40, 80:80, 99:100}
 
 # Luck:
 - Item Discovery Scale: {1:1, 20:1.2, 60:1.6, 80:1.8, 99:2}
@@ -149,32 +149,43 @@ Frost
 All covenant emblem items now enable the dropping of their respective materials from any enemy when they are killed.
 
 # Darkmoon Faithful
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Spears of the Church
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Watchdogs of Farron
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Aldrich Faithful
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Warriors of Sunlight
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Mound-makers
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
 # Rosaria's Fingers
-- Material Drop Chance: 10%
+- Material Drop Chance: 5%
 
-# Chaos Servants
-- Material Drop Chance: 10%
+# Chaos Servant
+- Material Drop Chance: 5%
+
+# Vinheim Scholars
+- Material Drop Chance: 5%
+
+# Pilgrims of Dark
+- Material Drop Chance: 5%
+
+# Dragon Remnants
+- Material Drop Chance: 5%
 
 # Thieves' Pact
-- Rather than covenant materials, equipping the Thieves' Pact emblem will enable any reinforcement and infusion material to be dropped from random enemies.
-- You must purchase the Thieves' Pact emblem from Greirat.
+- Rather than covenant materials, equipping the emblem will enable random reinforcement items to be found when killing enemies.
+
+# Way of White
+- Rather than covenant materials, equipping the emblem will enable random healing items to be found when killing enemies.
 
 #------------------------
 # Champion's Pact

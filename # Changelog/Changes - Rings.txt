@@ -113,10 +113,10 @@
 
 # Ring of Steel Protection
 - Weight: 1.5
-- [+0] Grants 15% Physical Absorption
-- [+1] Grants 20% Physical Absorption
-- [+2] Grants 25% Physical Absorption
-- [+3] Grants 30% Physical Absorption
+- [+0] Grants 10% Physical Absorption
+- [+1] Grants 12% Physical Absorption
+- [+2] Grants 14% Physical Absorption
+- [+3] Grants 16% Physical Absorption
 - [+0] Source: Treasure - Archdragon Peak
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -124,10 +124,10 @@
 
 # Flame Stoneplate Ring
 - Weight: 1
-- [+0] Grants 15% Fire Absorption
-- [+1] Grants 20% Fire Absorption
-- [+2] Grants 25% Fire Absorption
-- [+3] Grants 30% Fire Absorption
+- [+0] Grants 10% Fire Absorption
+- [+1] Grants 12% Fire Absorption
+- [+2] Grants 14% Fire Absorption
+- [+3] Grants 16% Fire Absorption
 - [+0] Source: Treasure - Undead Settlement
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -135,10 +135,10 @@
 
 # Thunder Stoneplate Ring
 - Weight: 1
-- [+0] Grants 15% Lightning Absorption
-- [+1] Grants 20% Lightning Absorption
-- [+2] Grants 25% Lightning Absorption
-- [+3] Grants 30% Lightning Absorption
+- [+0] Grants 10% Lightning Absorption
+- [+1] Grants 12% Lightning Absorption
+- [+2] Grants 14% Lightning Absorption
+- [+3] Grants 16% Lightning Absorption
 - [+0] Source: Treasure - Archdragon Peak
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -146,10 +146,10 @@
 
 # Magic Stoneplate Ring
 - Weight: 1
-- [+0] Grants 15% Magic Absorption
-- [+1] Grants 20% Magic Absorption
-- [+2] Grants 25% Magic Absorption
-- [+3] Grants 30% Magic Absorption
+- [+0] Grants 10% Magic Absorption
+- [+1] Grants 12% Magic Absorption
+- [+2] Grants 14% Magic Absorption
+- [+3] Grants 16% Magic Absorption
 - [+0] Source: Drop - Cathedral Knight - Consumed King's Garden
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -157,10 +157,10 @@
 
 # Dark Stoneplate Ring
 - Weight: 1
-- [+0] Grants 15% Dark Absorption
-- [+1] Grants 20% Dark Absorption
-- [+2] Grants 25% Dark Absorption
-- [+3] Grants 30% Dark Absorption
+- [+0] Grants 10% Dark Absorption
+- [+1] Grants 12% Dark Absorption
+- [+2] Grants 14% Dark Absorption
+- [+3] Grants 16% Dark Absorption
 - [+0] Source: Treasure - Irithyll of the Boreal Valley
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -168,10 +168,10 @@
 
 # Speckled Stoneplate Ring
 - Weight: 1
-- [+0] Grants 10% Magic, Fire, Lightning and Dark Absorption
-- [+1] Grants 15% Magic, Fire, Lightning and Dark Absorption
-- [+2] Grants 20% Magic, Fire, Lightning and Dark Absorption
-- [+3] Grants 25% Magic, Fire, Lightning and Dark Absorption
+- [+0] Grants 5% Magic, Fire, Lightning and Dark Absorption
+- [+1] Grants 6% Magic, Fire, Lightning and Dark Absorption
+- [+2] Grants 7% Magic, Fire, Lightning and Dark Absorption
+- [+3] Grants 8% Magic, Fire, Lightning and Dark Absorption
 - [+0] Source: Treasure - Farron Keep
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -661,7 +661,7 @@ increases evasive movement stamina costs by 200%.
 
 # Greatwood Remnants
 - Weight: 3
-- Increases physical defence by 150 but increases evasive stamina consumption by 50%.
+- Increases physical defence by 75 but increases evasive stamina consumption by 50%.
 - Source: Boss - Curse-rotted Greatwood
 
 # Green Tearstone Ring
@@ -785,8 +785,8 @@ increases evasive movement stamina costs by 200%.
 - Source: Drop - Mimic - High Wall of Lothric
 
 # Londor Tincture
-- Weight: 3
-- Boosts all defences by 25%.
+- Weight: 1
+- Restores 8 HP per second whilst below 50% HP.
 - Source: Treasure - Undead Settlement
 
 # Enchanted Quiver
@@ -836,10 +836,10 @@ increases evasive movement stamina costs by 200%.
 
 # Band of Stone
 - Weight: 1
-- [+0] Boosts Physical defence by 100.
-- [+1] Boosts Physical defence by 150.
-- [+2] Boosts Physical defence by 175.
-- [+3] Boosts Physical defence by 200.
+- [+0] Boosts Physical defence by 50.
+- [+1] Boosts Physical defence by 60.
+- [+2] Boosts Physical defence by 70.
+- [+3] Boosts Physical defence by 80.
 - [+0] Source: Treasure - Archdragon Peak
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -847,10 +847,10 @@ increases evasive movement stamina costs by 200%.
 
 # Band of Magic
 - Weight: 1
-- [+0] Boosts Magic defence by 100.
-- [+1] Boosts Magic defence by 150.
-- [+2] Boosts Magic defence by 175.
-- [+3] Boosts Magic defence by 200.
+- [+0] Boosts Magic defence by 50.
+- [+1] Boosts Magic defence by 60.
+- [+2] Boosts Magic defence by 70.
+- [+3] Boosts Magic defence by 80.
 - [+0] Source: Treasure - Irithyll Dungeon
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -858,10 +858,10 @@ increases evasive movement stamina costs by 200%.
 
 # Band of Flame
 - Weight: 1
-- [+0] Boosts Fire defence by 100.
-- [+1] Boosts Fire defence by 150.
-- [+2] Boosts Fire defence by 175.
-- [+3] Boosts Fire defence by 200.
+- [+0] Boosts Fire defence by 50.
+- [+1] Boosts Fire defence by 60.
+- [+2] Boosts Fire defence by 70.
+- [+3] Boosts Fire defence by 80.
 - [+0] Source: Treasure - Smouldering Lake
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -869,10 +869,10 @@ increases evasive movement stamina costs by 200%.
 
 # Band of Sparks
 - Weight: 1
-- [+0] Boosts Lightning defence by 100.
-- [+1] Boosts Lightning defence by 150.
-- [+2] Boosts Lightning defence by 175.
-- [+3] Boosts Lightning defence by 200.
+- [+0] Boosts Lightning defence by 50.
+- [+1] Boosts Lightning defence by 60.
+- [+2] Boosts Lightning defence by 70.
+- [+3] Boosts Lightning defence by 80.
 - [+0] Source: Mimic - Drop - Irithyll Dungeon
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -880,10 +880,10 @@ increases evasive movement stamina costs by 200%.
 
 # Band of Darkness
 - Weight: 1
-- [+0] Boosts Dark defence by 100.
-- [+1] Boosts Dark defence by 150.
-- [+2] Boosts Dark defence by 175.
-- [+3] Boosts Dark defence by 200.
+- [+0] Boosts Dark defence by 50.
+- [+1] Boosts Dark defence by 60.
+- [+2] Boosts Dark defence by 70.
+- [+3] Boosts Dark defence by 80.
 - [+0] Source: Treasure - Untended Graves
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -960,8 +960,8 @@ increases evasive movement stamina costs by 200%.
 - Source: Drop - Glaive Master Hodir
 
 # Rare Ring of Humanity
-- Weight: 20
-- Grants 20% absorption.
+- Weight: 10
+- Boosts defences by 25%.
 - Source: Covenant - Pilgrims of Dark
 
 # Tomb Ring

@@ -18,7 +18,7 @@
 53502068 Cathedral of the Deep
 53802151 Catacombs of Carthus / Smouldering Lake
 53702135 Irithyll of the Boreal Valley / Anor Londo
-53902106 Irithyll Dungeon / Profaned Capital
+53902107 Irithyll Dungeon / Profaned Capital
 53012082 Lothric Castle
 53412123 Grand Archives
 54102010 Kiln of the First Flame
@@ -468,9 +468,19 @@ being staggered.
 - Fixed bug with Lifehunt Scythe not restoring HP.
 
 #------------------------------
-# Models
+# Ideas
 #------------------------------
-Firelink Spear (no dummy for 1H behind shield mode)
+New illusory walls
+Add secret drop points that warp you to special areas
+Make the re-fight items warp you to points in front of the fog door
+Add respawn points for the warps where they warp you to.
+Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
+Add darkness to nightmare bosses (add intercept in boss start script to check for nightmare mode)
+Add mimic boss
+
+#------------------------------
+# TODO
+#------------------------------
 Black Dragon Sword (no vfx)
 Black Dragon Greatsword (no vfx)
 Chikage (no vfx)
@@ -498,23 +508,41 @@ Burial Blade (vfx offset minor)
 Serpentine Hatchet (vfx offset minor)
 Dozer Axe (vfx offset minor)
 
-Add new illusory walls?
-Add secret drop warp spots
+Make equipment from enemies drop 100% from specific enemies, remove the random drops.
 
-Change warp prompts to use an actual prompt
-Make dream/nightmare items warp to specific points
+Change physical absorptions
 
-Buff the innate split damage weapons (100 boost to element)
-Increase dagger damage a bit
-
-Damage/Scaling
-Effects
-
-Material
-Reinforce ID
-    Crypt Blacksword
-  
 #------------------------------  
 # Commit   
 #------------------------------
-3600
+- Fume Sword now matches its DS2 gameplay design (physical/dark).
+- Fool's Flame is now found in Irithyll.
+- The Champion's Gravetender boss is now called the Triad, and considers of The Lord's Blade, the Dragonslayer and the Executioner. Upon killing them, you receive the Lord's Blade Set.
+- Dream bosses now give normal soul amounts.
+- Dream bosses now drop Primordial Titanite, but at a % chance in most cases. Does not scale with Luck.
+- All bosses except the Ancient Wyvern now potentially drop Primordial Titanite again.
+- Missionary Axe is now found in a chest in Undead Settlement (no longer dropped by the Evangelists).
+- Stray Demons in Smouldering Lake are now appropriately tanky.
+- Increased the drop rate of covenant items from the covenant emblems.
+- Removed the Beastly Flesh item.
+- Weapons with innate split damage have been buffed to account for the multiple defences/absorptions they have to go through.
+- Symbol of Avarice now drops from a mimic in Smouldering Lake. It is no longer a random drop from any of them.
+- Ring of Steel Protection: Grants 10/12/14/16% Physical Absorption
+- Flame Stoneplate Ring: Grants 10/12/14/16% Fire Absorption
+- Thunder Stoneplate Ring: Grants 10/12/14/16% Lightning Absorption
+- Magic Stoneplate Ring: Grants 10/12/14/16% Magic Absorption
+- Dark Stoneplate Ring: Grants 10/12/14/16% Dark Absorption
+- Speckled Stoneplate Ring: Grants 5/6/7/8% Elemental Absorption
+- Greatwood Remnants: Increases physical defence by 75 but increases evasive stamina consumption by 50%.
+- Londor Tincture: Restores 8 HP per second whilst below 50% HP.
+- Band of Stone: Increases Physical defense by 50/60/70/80
+- Band of Magic: Increases Magic defense by 50/60/70/80
+- Band of Flame: Increases Fire defense by 50/60/70/80
+- Band of Sparks: Increases Lightning defense by 50/60/70/80
+- Band of Darkness: Increases Dark defense by 50/60/70/80
+- Normalized the scale, bringing up the mid armors in terms of absorption, but lowering the heavy and light armors.
+- Reduced the slash/strike/thrust absorption values to be inline with the standard absorption.
+- Lowered the poise on light/ultra light armors.
+- Changed the curve on defense from stats to slow gain during the early levels.
+- Removed defense gain from soul level.
+- Increased the scaling multipliers for the Primordial reinforcement levels by 0.25 (was 1.75, now 2).
