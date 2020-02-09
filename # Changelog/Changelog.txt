@@ -516,10 +516,3 @@ Do icons
 #------------------------------  
 # Commit   
 #------------------------------
-- Increased cost of Hexing Urns.
-- Firebombs scale with STR/DEX again.
-- NG+ ring dropping enemies (called Echoes of the Past) now have a ghostly phantom aura to distingush them amoungst other enemies.
-- Adjusted the motion values for a few of the ascended spells that split into multiple projectiles so they don't have such a massive boost in damage due to the extra projectiles.
-- Profaned Flame ascended effect: emits a secondary flame after the first explodes.
-- Wretch Earth ascended effect: now homes onto enemies. 
-- Lightning Arrow ascended effect: gains stronger tracking.
