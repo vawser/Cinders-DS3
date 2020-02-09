@@ -100,3 +100,12 @@ All 4 are required to work correctly.
 48	Way of White Corona     - a000_040018 - 0.43
 49	Lightning Arrow         - a000_040050 - 1.83 [0.915]
 50	Flame Fan               - a000_040051 - 0.5
+
+
+Overrides:
+41 Spell Tool
+127 Talisman
+149 Pyromancy Flame
+185 Chime - Spell overrides
+239 Pyromancy's Parting Flame
+267 Sacred Chime of Filianore

@@ -28,6 +28,8 @@ JumpTable
     8   - InvokeInvincibilityFrames 
     24  - 
     3   - Set Is Guard
+    18  - SetIsStartbit3 - Parry frame
+    119 - Startbit42 - Parry frame?
  ArgA - 0
  ArgB - -1
  ArgC - 6   
@@ -58,6 +60,8 @@ InvokeBulletBehavior
  DummyPolyID - Position of bullet start
  BehaviorSubID - The judgment ID to substitute into the weapon behavior ID to find the behavior param.
  
+32100
+36900
 
 #---------------------
 # Animation Groups
