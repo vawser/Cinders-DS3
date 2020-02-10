@@ -521,10 +521,3 @@ Add flags for all equipment drops (shared between source within the same map).
 #------------------------------  
 # Commit   
 #------------------------------
-- Frost infused Crab Claw uses the Frost Crab Claw model.
-- Increased the soul reward from the Triad to 30,000.
-- The remaining members of the Triad will now empower themselves for 30 seconds when one dies.
-- Added trees and ice rocks to the Triad arena to make it a bit more varied.
-- Reverted all the edited cast animation times to normal.
-- Reverted cast speed reduction to the 1.63 ranges.
-- Reduced the damage of several spells to account for this.
