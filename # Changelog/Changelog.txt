@@ -518,9 +518,17 @@ Do icons
 #------------------------------  
 # Commit   
 #------------------------------
-- Reduced the cast speed reduction for several animations.
-- Slowed down the cast animation for Very Slow Soul Arrow to 2.505 (was 1.67, in previous patch it was 3.6).
-- Slowed down the Lightning Spear cast animation to 0.83 (was 0.43, in previous patch it was 1.72).
-- Boosted the damage to 600 for Crystal Soul Spear, Chaos Bed Vestiges, Great Soul Dregs and Sunlight Spear.
-- Reduced the damage to 500 for White Dragon Breath, Heave Earth and Black Serpent.
-- Emit Force: Ascended Effect: shoots 3 projectiles.
+- Power Within: changes HP loss to 5% (2.5% when ascended).
+- Great Magic Weapon: Adds 60 Magic damage
+- Crystal Magic Weapon: Adds 80 Magic damage (100 when ascended)
+- Carthus Flame Arc: Adds 80 Fire damage (100 when ascended)
+- Lightning Blade: Adds 80 Lightning damage (100 when ascended)
+- Darkmoon Blade: Adds 80 Magic damage (100 when ascended)
+- Dark Blade: Adds 80 Dark damage (100 when ascended)
+- Blessed Weapon: Adds 80 Physical damage (100 when ascended)
+- Unleash Magic: Increases potency of Sorceries by 40% for 30 seconds, but removes 5% HP per second. (lasts 60 seconds when ascended).
+- Carthus Beacon: boosts attack by 30% (starts at 15%).
+- Iron Flesh: increases physical absorption by 30% (was 40%).
+- Atonement: grants 1% HP and FP recovery, but slows the caster.
+- Moved the Dreg Heap warp to the Grand Archives. It is found on one of the rafters at the top.
+- Giant Serpent-men are no longer backstabbable.
