@@ -478,6 +478,8 @@ Add secret drop points that warp you to special areas
 Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
 Add darkness to nightmare bosses (add intercept in boss start script to check for nightmare mode)
 Add mimic boss
+Make the re-fight items warp you to points in front of the fog door
+Add respawn points for the warps where they warp you to.
 
 #------------------------------
 # TODO
@@ -509,15 +511,16 @@ Burial Blade (vfx offset minor)
 Serpentine Hatchet (vfx offset minor)
 Dozer Axe (vfx offset minor)
 
-Make the re-fight items warp you to points in front of the fog door
-Add respawn points for the warps where they warp you to.
+Add wolf in DLC1 as one-time enemy in ice pit area
 
 Do icons
-
-Add flags for all equipment drops (shared between source within the same map).
-
-54003000
 
 #------------------------------  
 # Commit   
 #------------------------------
+- Reduced the cast speed reduction for several animations.
+- Slowed down the cast animation for Very Slow Soul Arrow to 2.505 (was 1.67, in previous patch it was 3.6).
+- Slowed down the Lightning Spear cast animation to 0.83 (was 0.43, in previous patch it was 1.72).
+- Boosted the damage to 600 for Crystal Soul Spear, Chaos Bed Vestiges, Great Soul Dregs and Sunlight Spear.
+- Reduced the damage to 500 for White Dragon Breath, Heave Earth and Black Serpent.
+- Emit Force: Ascended Effect: shoots 3 projectiles.

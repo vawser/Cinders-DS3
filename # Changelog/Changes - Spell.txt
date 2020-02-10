@@ -71,7 +71,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 80
-- Magic Damage: 500 
+- Magic Damage: 600 
 - INT Req: 40
 - Ascended Effect: projectile tracks better.
 
@@ -103,7 +103,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # White Dragon Breath
 #--------------------------------
 - FP Cost: 60
-- Magic Damage: 600 [300] 
+- Magic Damage: 500 [200] 
 - INT Req: 40
 - Effect: inflicts 30 Curse.
 - Ascended Effect: extends the length of the line, increases Curse to 50.
@@ -422,7 +422,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 80
-- Fire Damage: 500 [100] 
+- Fire Damage: 600 [100] 
 - Ascended Effect: impact now leaves lava pool.
 
 #--------------------------------
@@ -468,10 +468,10 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Ascended Effect: deals 100 poise damage (normally 40).
 
 #--------------------------------
-# Wretch Earth
+# Heave Earth
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 600 
+- Physical Damage: 500 
 - Ascended Effect: now homes onto enemies.
 
 #--------------------------------
@@ -607,7 +607,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 30
 - Physical Damage: 400 [200] 
 - FTH Req: 10
-- Ascended Effect: uses the Farron Dart cast animation.
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Wrath of the Gods
@@ -637,7 +637,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 80
-- Lightning Damage: 500 [50] [100] 
+- Lightning Damage: 600 [50] [100] 
 - FTH Req: 40
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -935,7 +935,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Soul Dregs
 #--------------------------------
 - FP Cost: 80
-- Dark Damage: 500 
+- Dark Damage: 600 
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: Inflicts 40 Curse.
