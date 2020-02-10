@@ -6,8 +6,8 @@
 - Absorption percentages are damage taken.
 
 # Iudex Gundyr 
-- HP: 2000 [2000] [8000]      
-- Souls: 2500 [5000] [25000]
+- HP: 2000 [8000]      
+- Souls: 2500 [25000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       85%
@@ -20,8 +20,8 @@
 - Considered Abyssal.
 
 # Vordt of the Boreal Valley 
-- HP: 2000 [2000] [8000]           
-- Souls: 5000 [10000] [30000]
+- HP: 2000 [8000]           
+- Souls: 5000 [30000]
 - Absorption: Standard:     65%
 - Absorption: Slash:        65%
 - Absorption: Strike:       80%
@@ -33,8 +33,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Curse-rotted Greatwood 
-- HP: 6000 [6000] [12000]          
-- Souls: 10000 [20000] [50000]
+- HP: 6000 [12000]          
+- Souls: 10000 [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -46,8 +46,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Crystal Sage
-- HP: 5000 [5000] [15000]           
-- Souls: 10000 [20000] [50000]
+- HP: 5000 [15000]           
+- Souls: 10000 [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -59,8 +59,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Deacons of the Deep
-- HP: 7500 [7500] [15000]          
-- Souls: 10000 [20000] [50000]
+- HP: 7500 [15000]          
+- Souls: 10000 [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -73,8 +73,8 @@
 - Considered Hollow.
 
 # Abyss Watchers
-- Boss HP: 5000 [5000] [15000]
-- Souls: 25000 [50000] [150000]
+- Boss HP: 5000 [15000]
+- Souls: 25000 [150000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -86,8 +86,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # High Lord Wolnir
-- HP: 8000 [8000] [16000]         
-- Souls: 10000 [20000] [50000]
+- HP: 8000 [16000]         
+- Souls: 10000 [50000]
 - Absorption: Standard:     60%
 - Absorption: Slash:        60%
 - Absorption: Strike:       50%
@@ -100,8 +100,8 @@
 - Considered Undead and Abyssal.
 
 # Old Demon King 
-- HP: 8000 [8000] [16000]          
-- Souls: 15000 [30000] [90000]
+- HP: 8000 [16000]          
+- Souls: 15000 [90000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -114,8 +114,8 @@
 - Considered Demon.
 
 # Pontiff Sulyvahn 
-- Boss HP: 9000 [9000] [18000]    
-- Souls: 25000 [50000] [150000]
+- Boss HP: 9000 [18000]    
+- Souls: 25000 [150000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
@@ -127,7 +127,7 @@
 - Affected by: Poison, Bleed, Frost
 
 # Pontiff Sulyvahn - Clone
-- HP: 1000 [1000] [2000]
+- HP: 1000 [2000]
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
@@ -139,8 +139,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Aldrich, Devourer of Gods
-- HP: 10000 [10000] [20000]         
-- Souls: 50000 [100000] [200000]
+- HP: 10000 [20000]         
+- Souls: 50000 [200000]
 - Absorption: Standard:     75%
 - Absorption: Slash:        75%
 - Absorption: Strike:       75%
@@ -153,8 +153,8 @@
 - Considered Abyssal.
 
 # Yhorm the Giant 
-- HP: 10000 [10000] [20000]         
-- Souls: 25000 [50000] [100000]
+- HP: 10000 [20000]         
+- Souls: 25000 [100000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
@@ -166,8 +166,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Dancer of the Boreal Valley
-- HP: 9000 [9000] [18000]          
-- Souls: 15000 [30000] [90000]
+- HP: 9000 [18000]          
+- Souls: 15000 [90000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -179,8 +179,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Oceiros, the Consumed King
-- HP: 12000 [12000] [18000]         
-- Souls: 20000 [40000] [100000]
+- HP: 12000 [18000]         
+- Souls: 20000 [100000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        90%
 - Absorption: Strike:       80%
@@ -192,8 +192,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Dragonslayer Armour 
-- HP: 9000 [9000] [18000]         	
-- Souls: 20000 [40000] [100000]
+- HP: 9000 [18000]         	
+- Souls: 20000 [100000]
 - Absorption: Standard:     60%
 - Absorption: Slash:        60%
 - Absorption: Strike:       70%
@@ -206,8 +206,8 @@
 - Considered Abyssal.
 
 # Ancient Wyvern 
-- HP: 10000 [10000] [20000]         
-- Souls: 10000 [20000] [30000]
+- HP: 10000 [20000]         
+- Souls: 10000 [30000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -219,7 +219,7 @@
 - Affected by: Poison, Bleed, Frost
 
 # King of the Storm
-- HP: 8000 [8000] [16000]          
+- HP: 8000 [16000]          
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
@@ -231,8 +231,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Nameless King 
-- HP: 12000 [12000] [24000]         
-- Souls: 50000 [100000] [200000]
+- HP: 12000 [24000]         
+- Souls: 50000 [200000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -244,8 +244,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Champion Gundyr 
-- HP: 12000 [12000] [24000]         
-- Souls: 20000 [40000] [100000]
+- HP: 12000 [24000]         
+- Souls: 20000 [100000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -257,8 +257,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Lorian, Elder Prince
-- Phase 1 HP: 9000 [9000] [18000]  
-- Phase 2 HP: 9000 [9000] [18000]  
+- Phase 1 HP: 9000 [18000]  
+- Phase 2 HP: 9000 [18000]  
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -270,8 +270,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Lothric, Younger Prince 
-- HP: 9000 [9000] [18000]         
-- Souls: 50000 [100000] [200000]
+- HP: 9000 [18000]         
+- Souls: 50000 [200000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -283,8 +283,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Soul of Cinder 
-- HP: 12500 [12500] [25000]        
-- Souls: 100000 [200000] [500000]
+- HP: 12500 [25000]        
+- Souls: 100000 [500000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -296,9 +296,9 @@
 - Affected by: Poison, Bleed, Frost
 
 # Sister Friede
-- Phase 1 HP: 8000 [8000] [16000]      
-- Phase 2 HP: 10000 [10000] [20000]     
-- Souls: 50000 [100000] [250000]
+- Phase 1 HP: 8000 [16000]      
+- Phase 2 HP: 10000 [20000]     
+- Souls: 50000 [250000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
 - Absorption: Strike:       90%
@@ -321,9 +321,9 @@
 - Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 
-# Champion's Gravetender & Gravetender Greatwolf
-- HP: 8000 [8000] [16000]        
-- Souls: 10000 [20000] [30000]
+# The Triad
+- HP: 2000, 2400, 2800 
+- Souls: 30000 [90000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       80%
@@ -335,10 +335,10 @@
 - Affected by: Poison, Bleed, Frost
 
 # Demon Prince
-- Demon in Pain HP: 10000 [10000] [20000]        
-- Demon from Below HP: 10000 [10000] [20000]
-- Demon Prince HP: 10000 [10000] [20000]
-- Souls: 100000 [200000] [300000]
+- Demon in Pain HP: 10000 [20000]        
+- Demon from Below HP: 10000 [20000]
+- Demon Prince HP: 10000 [20000]
+- Souls: 100000 [300000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
 - Absorption: Strike:       80%
@@ -354,8 +354,8 @@
 - Souls: 25000 [50000]
 
 # Darkeater Midir (5)
-- HP: 16000 [16000] [24000]             
-- Souls: 150000 [300000] [600000]
+- HP: 16000 [24000]             
+- Souls: 150000 [600000]
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       50%
@@ -368,8 +368,8 @@
 - Considered Abyssal.
 
 # Slave Knight Gael (5)
-- HP: 16000 [16000] [24000]            
-- Souls: 125000 [250000] [500000]
+- HP: 16000 [24000]            
+- Souls: 125000 [500000]
 - Absorption: Standard:     60%
 - Absorption: Slash:        60%
 - Absorption: Strike:       70%

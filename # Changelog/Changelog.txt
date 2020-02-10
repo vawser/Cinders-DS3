@@ -27,6 +27,9 @@
 55002056 Dreg Heap
 55102050 The Ringed City
 
+# One-time Equipment Drops
+54003000
+
 #------------------------------
 # Changelog
 #------------------------------
@@ -508,11 +511,20 @@ Dozer Axe (vfx offset minor)
 
 Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
-Make equipment from enemies drop 100% from specific enemies, remove the random drops.
-Try to fix LOD issue
 
 Do icons
+
+Add flags for all equipment drops (shared between source within the same map).
+
+54003000
 
 #------------------------------  
 # Commit   
 #------------------------------
+- Frost infused Crab Claw uses the Frost Crab Claw model.
+- Increased the soul reward from the Triad to 30,000.
+- The remaining members of the Triad will now empower themselves for 30 seconds when one dies.
+- Added trees and ice rocks to the Triad arena to make it a bit more varied.
+- Reverted all the edited cast animation times to normal.
+- Reverted cast speed reduction to the 1.63 ranges.
+- Reduced the damage of several spells to account for this.

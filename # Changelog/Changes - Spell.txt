@@ -63,7 +63,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Spear
 #--------------------------------
 - FP Cost: 60
-- Magic Damage: 600
+- Magic Damage: 500
 - INT Req: 30
 - Ascended Effect: projectile is faster and tracks better.
 
@@ -71,7 +71,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 80
-- Magic Damage: 800 
+- Magic Damage: 600 
 - INT Req: 40
 - Ascended Effect: projectile tracks better.
 
@@ -160,7 +160,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Stream
 #--------------------------------
 - FP Cost: 140
-- Magic Damage: 250 (per tick) [250] [250]
+- Magic Damage: 200 (per tick) [200] [200]
 - INT Req: 40
 - Ascended Effect: deals 20 poise damage per tick (was 10).
 
@@ -613,7 +613,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Wrath of the Gods
 #--------------------------------
 - FP Cost: 80
-- Physical Damage: 900 
+- Physical Damage: 750 
 - FTH Req: 30
 - Ascended Effect: uses the Force cast animation.
 
@@ -621,7 +621,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Lightning Spear
 #--------------------------------
 - FP Cost: 40
-- Lightning Damage: 250 [25] [100] 
+- Lightning Damage: 300 [50] [100] 
 - FTH Req: 16
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -629,7 +629,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 60
-- Lightning Damage: 600 [150] [200] 
+- Lightning Damage: 500 [50] [100] 
 - FTH Req: 30
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -637,7 +637,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 80
-- Lightning Damage: 900 [200] [300] 
+- Lightning Damage: 700 [50] [100] 
 - FTH Req: 40
 - Ascended Effect: gains stronger tracking, now penetrates target.
 
@@ -926,7 +926,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Climax
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 600 
+- Dark Damage: 500 
 - INT Req: 40
 - FTH Req: 10
 - Ascended Effect: now deals 100 poise damage (normally 30) and causes juggle stagger.
@@ -935,7 +935,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Soul Dregs
 #--------------------------------
 - FP Cost: 80
-- Dark Damage: 800 
+- Dark Damage: 600 
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: Inflicts 40 Curse.
@@ -945,7 +945,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 60
-- Dark Damage: 600  
+- Dark Damage: 500  
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: now deals 80 poise damage (normally 40) and causes faceplant stagger.
@@ -992,7 +992,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Dark Bead
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 100 per bullet 
+- Dark Damage: 80 per bullet 
 - INT Req: 30
 - FTH Req: 10
 - Ascended Effect: uses the Quick Soul Arrow cast animation.
@@ -1118,7 +1118,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Dorhys' Gnawing
 #--------------------------------
 - FP Cost: 60
-- Dark Damage: 600
+- Dark Damage: 500
 - INT Req: 10
 - FTH Req: 25
 - Base Effect: inflicts 75 Bleed
