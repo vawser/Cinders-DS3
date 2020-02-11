@@ -74,7 +74,7 @@ Handmaid's Dagger
 - Effect: reduces FP consumption of pyromancies by 10%.
 
 Morion Blade
-- Effect: boosts attack by 20% whilst below 20% health.
+- Effect: boosts attack by 10% whilst below 25% health.
 
 Executioner's Greatsword
 - Effect: absorbs FP on hit, restoring 1% FP.
@@ -218,13 +218,13 @@ Titanite Catch Pole
 - Effect: increases Poise by 15%.
 
 Kris Blade
-- Effect: boosts spell damage by 10%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
+- Effect: boosts spell damage by 5%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
 
 Priscilla's Scythe
 - Effect: inflicts potent Bleed upon the enemy and oneself.
 
 Morion Great Blade 
-- Effect: boosts attack by 20% whilst below 20% health.
+- Effect: boosts attack by 10% whilst below 25% health.
 
 Phosophrescent Pole
 - Effect: emits light.
@@ -251,7 +251,7 @@ Thrall Harpe
 - Effect: increases Luck by 5
 
 Beast Claw
-- Effect: each kill boosts damage by 1%, lasting for 120 seconds. Stacks.
+- Effect: each hit boosts damage by 1%, lasting for 60 seconds. Stacks.
 
 Rakuyo
 - Effect: each hit adds 1 DEX, lasting for 60 seconds. Stacks.

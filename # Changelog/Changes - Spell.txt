@@ -574,7 +574,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Power Within
 #--------------------------------
 - FP Cost: 100
-- Base Effect: increases damage by 35% and stamina recovery by 30 for 30 seconds. Lose 5% HP per second whilst active.
+- Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 5% HP per second whilst active.
 - Ascended Effect: reduces HP loss to 2.5% per second.
 
 #--------------------------------

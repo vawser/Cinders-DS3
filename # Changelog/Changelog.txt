@@ -31,316 +31,6 @@
 54003000
 
 #------------------------------
-# Changelog
-#------------------------------
-# General
-- Changed the IDs of the following weapons, they will break in old saves:
- - Insanity Catalyst
- - Talisman of Beasts
- - Manus Catalyst
- - Tin Banishment Catalyst
- - Dragonslayer Greatbow
-- Opening animations no longer make you invunerable.
-- Champion's Pact no longer boosts enemy absorption, but damage boost is now 30%.
-- Changed the NG+ scaling modifiers. There are now two general sets, one for weak enemies, one for tanky enemies. Bosses each have their own tailored set as well.
-
-# Map
-- The loading fogwalls in Firelink Shrine no longer appear.
- 
-# Classes
-- Added the Accursed class.
-
-# Infusion
-- Changed Primordial Titanite costs in reinforcement to 2/4/6/8.
-- Lightning: reduces enemy poise by 50% for 15 seconds on hit.
-- Fixed discrepencies in infusion cost. Normal weapons and shields now all cost 2500 souls to infuse, whereas the Unique/Boss/Dragon cost 10000 souls.
-- Infusing the hybrid spell tools will now switch the Dark alignment buff (i.e a Dark aligned one will switch to non-Dark if infused with Magic/Fire/Light, whilst a Normal aligned one will switch to Dark if infused with Dark).
-
-# Weapons
-- Changed Stone Flesh WA attack deflection to 80.
-- Innate Fire DOTs no longer stack.
-- Blind: reduces poise by 50% for 15 seconds on hit. Stacks.
-- Ancient Dragon Halberd: boosts poise by 15%.
-- Lothric Knight Long Spear: boosts poise by 15%.
-- Titanite Catch Pole: boosts poise by 15%.
-- Added Consumed King's Staff. Transposed from Oceiros's soul.
-- Added Ash Demon Hammer. Transposed from the Stray Demon's soul.
-- Added Hunter's Log. Dropped by Lycanthrope Hunters.
-- Added Serpentine Twindaggers. Dropped by Serpent-men.
-- Added Serpentine Hatchet. Dropped by Serpent-men.
-- Added Serpentine Axe. Dropped by Serpent-men.
-- Added Elder Ghru Tree. Dropped by Elder Ghru.
-- Added Thrall Harpe. Dropped by Thralls.
-- Added Thrall Pick. Dropped by Thralls.
-- Added Rotten Talisman. Dropped by Ghru.
-- Added Smouldering Curved Sword. Dropped by Smouldering Ghrus.
-- Added Smouldering Spear. Dropped by Smouldering Ghrus.
-- Added Smouldering Dagger. Dropped by Smouldering Ghrus.
-- Added Smouldering Shield. Dropped by Smouldering Ghrus.
-- Added Smouldering Talisman. Dropped by Smouldering Ghrus.
-- Added Worker Machete. Dropped by Peasant Hollow (Axe).
-- Added Shield of the Hunted. Dropped by Lycanthropes.
-- Added Ladle. Found by the gravestone in Cemetery of Ash.
-- Added Shiv. Found with the Caduceus Round Shield in Undead Settlement.
-- Added Sanctus. Found in the chest with the Paladin Set.
-- Added Velka's Talisman. Found with the Black Cleric Set.
-- Added Giant Crab Arm. Dropped by Giant Crabs.
-- Added Crab Claw. Dropped by Lesser Crabs.
-- Added Beast Claw. Dropped by Lycanthropes.
-- Added Scythe of Want. Sold by Pilgrims of Dark.
-- Added Blue Flame. Sold by Vinheim Scholars.
-- Added Sacred Chime Hammer. Sold by Spears of the Church.
-- Added Smelter Sword. Sold by Chaos Servants.
-- Added Scythe of Nahr Alma. Sold by Mound-makers.
-- Added Crystal Shield. Sold by Vinheim Scholars.
-- Added Bone Scythe. Found in a chest in the Smouldering Lake.
-- Added Pilgrim's Spontoon. Found in a chest in Irithyll.
-- Added Key to the Embedded. Found in a chest in Lothric Castle.
-- Added Rakuyo. Found in a chest in Lothric Castle.
-- Added Crypt Blacksword. Sold by Patches.
-- Added Dragonrider Halberd. Sold by the Shrine Handmaid after turning in the Dragon Chaser's Ashes.
-- Added King's Ultra Greatsword. Sold by Andre after killing the Soul of Cinder.
-- Added Rampart Golem Lance. Sold by Greirat after sending him to Irithyll.
-- Added Bewitched Alonne Sword. Sold by Andre after tunring in the Easterner's Ashes.
-- Increased the guard physical/fire ABS for the Smelter Hammer.
-- Increased the power of bows/greatbows/crossbows.
-- Made the Millwood Greatbow heavier, the other two lighter.
-- Magic Moonlight Greatsword now uses the Old Moonlight VFX.
-- Increased ammunition damage.
-- Onislayer Greatarrow now has natural shield penetration.
-- Millwood Greatarrows are now slower.
-- Sniper Bolts now has natural shield penetration and move much faster.
-- Logan's Staff: Logan's Focus now just reduces spell FP cost by 50% for 15 seconds.
-- Sage's Crystal Staff: Crystallization now boosts sorcery damage by 20%, but increases FP cost by 25% for 15 seconds.
-- Manus Catalyst: Fury of Manus now boosts dark sorcery damage by 20%, but inflicts Curse on self for 15 seconds.
-- Tin Banishment Catalyst: now has Banish WA, applies rapport effect.
-- Sunlight Talisman: added Shower of Sunlight WA, emits short heavenly thunder.
-- Lord's Chime: added Lord's Bellow WA, emits wrath of the gods
-- Caitha's Chime: added Caitha's Affliction Wa, emits powerful gnaw
-- Crystal Chime: added Crystallization WA, boosts miracle damage by 20%, but increases FP costs by 20%. Lasts 15 seconds.
-- Insanity Catalyst: removed passive effect, added Insanity WA, boosts damage by 30% but removes 5% HP per second. Lasts 20 seconds
-- Talisman of Beasts: added Bestial Wrath WA, boosts casting speed by 50 for 15 seconds.
-- Rotten Talisman: added Poison Spores WA.
-- Smouldering Talisman: added Immolate WA, burning self and nearby foes.
-- Lothric Candlestick is now Priest's Candlestick.
-
-# Status Effects
-- Reduced the aux values on weapons.
-- Frost: reduces enemy absorption by 20% whilst active, and reduces stamina recovery by 10.
-- Poison: Lasts 60 seconds.
-- Curse now does the following for players:
- - Lasts 12 seconds.
- - Deals 2.5% damage on proc.
- - Reduces attack by 30% whilst active.
- - Reduces absorption by 30% whilst active.
- - Boosts dropped souls by 30% whilst active.
-
-# Armor
-- Poise now works on in a similar way to DS2. You have poise passively,
-with an increased ratio during attacks. Poise Health is only restored after
-being staggered. 
-- Due to this, the poise value on armor has been increased and it is now present on all pieces.
-- The poise icon and value in the menu has been restored.
-- Reduced the weight of heavier armor.
-- Increase the strike absorption on armor.
-- Iron Keeper Helm: prevents headshot damage.
-- Renamed Crown of the Great Lord to Crown of the Forgotten Lord.
-- Added the Great Lord Set. Sold by the Shrine Handmaid after killing Soul of Cinder.
-- Added the Gwyndolin's Set. Sold by the Darkmoon Faithful.
-- Added the Lord's Blade Set. Found in a chest in Irithyll.
-- Added the Paladin's Set. Found in a chest in the Catacombs of Carthus.
-- Added the Black Cleric Set. Found in the Undead Settlement.
-- Added the Dragonrider's Set. Sold by the Shrine Handmaid after turning in the Dragon Chaser's Ashes.
-- Added the Ancient King Set. Sold by the Shrine Handmaid in Untended Graves.
-- Added the Binded Set. Sold by Greirat after sending him to the Undead Settlement.
-- Added the Brushwood Set. Sold by the Stone-humped Hag.
-- Added the Venerable Sage's Set. Sold by Orbeck after giving him the Crystal Scroll.
-- Added the Gloom Set. Sold by the Stone-humped Hag.
-- Added the Penetrator Set. Dropped by Ezekiel the Penetrator.
-- Added the Quicksilver Set. Sold by Irina after giving her the Deep tome.
-- Added the Heide Mask. Sold by Greirat after sending him to Irithyll.
-- Added the Pontiff Set. Sold by the Shrine Handmaid after killing Pontiff Sulyvahn.
-- Added the Giant Slave Helmet. Dropped by the Giant Slave in Irithyll Dungeon.
-- Added the Gargoyle Skull. Dropped by Gargoyles.
-- Added the Demon Cleric Mask. Dropped by Demon Clerics.
-- Added the Crab Helmet. Dropped by the Giant Crabs in Smouldering Lake.
-- Added the Corvian Knight Helmet. Dropped by Corvian Knights.
-- Sage's Big Hat: increases max FP by 10%.
-- Frigid Valley Mask: emits an aura of frost, inflicting 25 Frost every second.
-
-# Rings
-- Runic Seal: reduces deflection to 50.
-- Old Pygmy Brooch: Boosts weapon/shield stability by 5%.
-- Wolf Ring: Boosts poise by 20%.
-- Knight Slayer's Ring: Increases stamina drain dealt to enemies by 50%.
-- Ring of Londor: Restores 1% FP every second whilst at 100% HP.
-- Green Tearstone Ring: Increases stamina recovery by 50 whilst below 25% HP.
-- Violet Tearstone Ring: Increases casting speed by 50 whilst below 25% HP.
-- Renamed Ring of the Exalted to Rainbow Ring
-- Added flames to the Ring of Demons cosmetic look.
-- Added the Tomb Ring, letting you look like a tomb ghost.
-- Sun Princess Ring: grants 5 + 0.1% HP every second.
-- Added the Accursed Ring, letting you use the Curse crystal look.
-- Carthus Bloodring: now increases stamina cost by 200%.
-- Wretched Pendant: stacks now last 10 seconds.
-- Greatwood Remannts: Increases physical defence by 75 but increases evasive stamina consumption by 50%.
-- Ring of Woe: Boosts soul absorption by 20% but lose 1% of health every second.
-- Londor Tincture: Restores 8 HP per second whilst below 50% HP.
-- Rare Ring of Humanity: weighs 10, boosts defences by 25%.
-
-# + Rings
-- All of the following rings are dropped by empowered enemies in NG+1/+2/+3 respectively. They have more health and deal more damage than their normal counterparts. (135 added in total).
-- Alternatively, they are available in the Primordial Shop upon reaching NG+2/+3/+4.
-- Added +1/+2/+3 versions of Life Ring
-- Added +1/+2/+3 versions of Havel's Ring
-- Added +1/+2/+3 versions of Ring of Favor
-- Added +1/+2/+3 versions of Ring of Wisdom
-- Added +1/+2/+3 versions of Chloranthy Ring
-- Added +1/+2/+3 versions of Wood Grain Ring
-- Added +1/+2/+3 versions of Wolf Ring
-- Added +1/+2/+3 versions of Hawk Ring
-- Added +1/+2/+3 versions of Knight Slayer's Ring
-- Added +1/+2/+3 versions of Farron Ring
-- Added +1/+2/+3 versions of Dragonscale Ring
-- Added +1/+2/+3 versions of Horsehoof Ring
-- Added +1/+2/+3 versions of Symbol of the Penitent
-- Added +1/+2/+3 versions of Knight's Ring
-- Added +1/+2/+3 versions of Hunter's Ring
-- Added +1/+2/+3 versions of Scholar Ring
-- Added +1/+2/+3 versions of Priestess Ring
-- Added +1/+2/+3 versions of Mercenary Ring
-- Added +1/+2/+3 versions of Heretic Ring
-- Added +1/+2/+3 versions of Merchant Ring
-- Added +1/+2/+3 versions of Physician Ring
-- Added +1/+2/+3 versions of Jester Ring
-- Added +1/+2/+3 versions of Dusk Crown Ring
-- Added +1/+2/+3 versions of Tome of Sunlight
-- Added +1/+2/+3 versions of Charred Bone
-- Added +1/+2/+3 versions of Lingering Dragoncrest Ring
-- Added +1/+2/+3 versions of Sage Ring
-- Added +1/+2/+3 versions of Ring of Steel Protection
-- Added +1/+2/+3 versions of Flame Stoneplate Ring
-- Added +1/+2/+3 versions of Thunder Stoneplate Ring
-- Added +1/+2/+3 versions of Magic Stoneplate Ring
-- Added +1/+2/+3 versions of Dark Stoneplate Ring
-- Added +1/+2/+3 versions of Speckled Stoneplate Ring
-- Added +1/+2/+3 versions of Band of Stone
-- Added +1/+2/+3 versions of Band of Magic
-- Added +1/+2/+3 versions of Band of Flame
-- Added +1/+2/+3 versions of Band of Sparks
-- Added +1/+2/+3 versions of Band of Darkness
-- Added +1/+2/+3 versions of Covetous Gold Serpent Ring
-- Added +1/+2/+3 versions of Covetous Silver Serpent Ring
-- Added +1/+2/+3 versions of Skull Ring
-- Added +1/+2/+3 versions of Magic Clutch Ring
-- Added +1/+2/+3 versions of Lightning Clutch Ring
-- Added +1/+2/+3 versions of Fire Clutch Ring
-- Added +1/+2/+3 versions of Dark Clutch Ring
-
-# Items
-- Soul of Yhorm the Giant: Boosts Poise by 50% for 60 seconds.
-- Moved the Champion's Bones to the treasure in front of Ludleth.
-- Added the Master Key to the Shrine Handmaid shop (Untended Graves version only).
-- Moved the Ring of the Exalted to the treasure just after the tree jump.
-- Seed of a Giant Tree now lasts 300 seconds.
-- Removed the Flask of Magic/Fire/Lightning/Abyss.
-- Surging Deep now sold by Aldrich Faithful.
-- Added Devil's Trumpet.
-- Added Moonflower.
-- Added Henbane.
-- Increased the damage of the affinity orbs from the Hexing Urn and improved the speed of the orbs.
-- Added Frozen Pine Resin.
-
-# Spells
-- Base FP regen is 2 + 1%.
-- Reduced the spell buff from catalysts, as the base damage of spell has been increased substantially.
-- Adjusted FP and damage of spells.
-- Slowed the Soul Arrow cast animation.
-- Slowed the Lightning Spear cast animation.
-- Slowed the Heavy Soul Arrow cast animation.
-- Adjusted which spells use which animations.
-- Changed the cast speed change to only increase the speed by 50% at 99.
-- Cast speed from DEX starts from 1 DEX (was 20).
-- Changed Rockflesh attack deflection to 80.
-- Magic Weapon: adds 40 Magic damage.
-- Great Magic Weapon: adds 60 Magic damage.
-- Crystal Magic Weapon: adds 80 Magic damage.
-- Carthus Flame Arc: adds 80 Fire damage.
-- Lightning Blade: adds 80 Lightning damage.
-- Darkmoon Blade: adds 80 Magic damage.
-- Dark Blade: adds 80 Dark damage.
-- Perseverance: boosts Poise by 50% for 60 seconds.
-- Removed the old animation speed changes for casting animations. Casting speed basically emulates this now.
-- Made all of the Firestorm spells summon more pillars and over a much bigger radius.
-- Increased Hidden Body duration to 30 seconds.
-- Increased Cast Light duration to 120 seconds.
-- Reduced Hidden Weapon duration to 120 seconds. Reduced FP cost to 25.
-- Increased Spook duration to 30 seconds.
-- Lifehunt Scythe now absorbs a fixed 10% HP on hit.
-- Deep Protection now boosts resistances by 50 (was 20).
-- Profuse Sweat now boosts resistances by 200 (was 80).
-- Magic Shield: now only boosts stability by 5%.
-- Great Magic Shield: now only boost stability by 10%.
-- Pestilent Mist: inflicts 10 Curse and removes 0.2% HP per tick.
-- Fire Surge: now partially bypasses shield absorption if the target is guarding.
-- Great Lightning Spear/Sunlight Spear: now knocks target down.
-- Removed the soul cost on Climax.
-- Reduced the FP cost of utility spells.
-- The Healing spells, Repair, Warmth, Tears of Denial now have limited uses. When ascended, they gain unlimited uses.
-- Pestilent Mist can now be placed normally (the projectile is no longer shot weirdly).
-- Halo now slowly moves away from the player upon casting, and after 8 seconds, returns.
-- Mournful Flames: you now throw 3 black fireballs that become weak black serpent lines.
-- Many spells are now considered 'Ascended' when you hit 80 in a specific stat. This grants them additional effects or attributes over the base version.
-- For Normal and Dark Sorceries, they ascend at 80 INT.
-- For Pyromancies, they ascend at 80 INT.
-- For Rock Pyromancies, they ascend at 80 STR.
-- For Dark Pyromancies, they ascend at 80 FTH.
-- For Normal and Dark Miracles, they ascended at 80 FTH.
-
-# Enemies
-- Enemies now have base 100 defence as per vanilla.
-- Ezekiel of Mirrah: now has the Penetrator Set, drops the Penetrator Set + Penetrating Sword. Renamed to Ezekiel the Penetrator.
-- Reduced the power of the Soul of Cinder.
-- Champion's Gravetender now drops a Titanite Slab.
-- Changed the hostile to any lycanthropes in Road of Sacrifices to not be, so they don't just kill everything off-screen.
-- Boosted the early area scaling for damage, so early enemies pose a little bit more of a threat.
-- Reduced some of the more punishing absorptions on bosses (the max is now 50% reduced, rather than 75%).
-- Added 45 empowered enemies per NG+ (for +1, +2 and +3). Each drop one of the + rings once, and Primordial Titanite thereafter.
-- Lowered the amount of Primordial Titanite dropped by some Dream bosses.
-- Increased the amount of Primordial Titanite dropped by Nightmare bosses.
-- Tightened the parry frames on Iudex Gundyr's attacks to make it slightly harder to parry him.
-- Curse from normal enemies now just kills you as in vanilla. Hostile NPCs still use the player version however.
-- Normal Deacons no longer inflict Curse.
-
-# Map
-- Moved the Archdragon Peak commune point to the statue at the end of the right path from the first bonfire in High Wall.
-- Changed the enemies on the right path from the first bonfire to Serpent-men, to allude to the commune point.
-
-# Bugfixes
-- Made the Dream/Nightmares more reliable when it comes to their states. This should prevent the boosts from falling off when reloading the map.
-- Fixed some inaccurate localization.
-- Made the critical multipliers more consistent in how they work: big multiplier first, then a smaller one for the extra hits.
-- Fixed some bugged attack correction IDs in weapons.
-- Fixed the Demon's Scar missing the cast speed changes.
-- Siegward will now wield the Storm Ruler when he should.
-- Blunt/Sharp weapon effects now stack when you wield 2 weapons with the same effect.
-- Enabled side door fogwall during Pontiff Sulyvahn boss fight.
-- Disabled Irithyll Cathedral bonfire upon using Pontiff Sulyvahn dream/nightmare. Lift is also reset.
-- Moved the lift levers to prevent usage during the boss fight.
-- Fixed the Cursed ring curse effects.
-- Fixed Elkhorn Round Shield effect not matching description.
-- Fixed Pestilent Mist not applying Curse.
-- Fixed Velka's Rapier dummy polys.
-- Fixed Insanity Catalyst dummy polys.
-- Grant now has more sensible dummy polys.
-- All new Mimics now have the open action fixed.
-- Fixed mimic treasure so it will appear on reload if you kill them, but miss the treasure.
-- Orbeck now has a separate Purchase Item menu option for the non-spell items.
-- Irina now correctly has the non-spell items in her Purchase Item shop range.
-- Fixed the aux resin items now actually applying the aux.
-- Fixed bug with Lifehunt Scythe not restoring HP.
-
-#------------------------------
 # Ideas
 #------------------------------
 New illusory walls
@@ -388,9 +78,28 @@ Map out the NPC related stuff in emevd
 Unleash Magic:
  Reduces spell cost to 0% for 12 seconds, but reduces max FP to 0% for duration + 18 seconds after.
 
-Adjust stability of shields slightly
 Change Crypt Blacksword WA
 
-#------------------------------  
-# Commit   
 #------------------------------
+# Changelog
+#------------------------------
+# Weapons
+- Increased Friede's Great Scythe damage output.
+- Beast Claw: each hit boosts damage by 1%, lasting for 60 seconds. Stacks.
+- Insanity Catalyst reqs are now 50/50.
+- Morion Blade: boosts attack by 10% whilst below 25% health.
+- Morion Great Blade: boosts attack by 10% whilst below 25% health.
+- Kris Blade: boosts spell damage by 5%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
+
+# Shields
+- Excluding exceptions, reduced medium shields to 55 stability and greatshields to 60, and the heaviest greatshields to 65.
+
+# Rings
+- Ring of Calamity: boosts all damage by 10% but lose 1% of health every second.
+
+# Spells
+- Power Within: damage boost changed to 20%.
+- Unleash Magic: boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
+
+# Bugfixes
+- Added the on-hit effects for infusions to the new weapons.

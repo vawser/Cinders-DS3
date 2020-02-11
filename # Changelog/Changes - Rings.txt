@@ -806,7 +806,7 @@ increases evasive movement stamina costs by 200%.
 
 # Ring of Calamity
 - Weight: 1
-- Boosts all damage by 20% but reduces HP by 1% of max every second.
+- Boosts all damage by 10% but reduces HP by 1% of max every second.
 - Source: Treasure - Grand Archives
 
 # Ring of Woe
