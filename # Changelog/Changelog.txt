@@ -64,9 +64,11 @@ Add respawn points for the warps where they warp you to.
 # Spells
 - Power Within: damage boost changed to 20%.
 - Unleash Magic: boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
+# - Immolation: burns oneself for 2% damage per second, radiating a flame aura that deals 100 damage to enemies every second for 15 seconds. Transposed from the Old Demon King soul. Ascended Effect: no longer burns oneself.
 
 # Bugfixes
 - Added the on-hit effects for infusions to the new weapons.
+# - Fixed Elkhorn Shield regen being 1%, not +1.
 
 #------------------------------
 # TODO
@@ -101,9 +103,4 @@ Dozer Axe (vfx offset minor)
 Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-
-Unleash Magic:
- Reduces spell cost to 0% for 12 seconds, but reduces max FP to 0% for duration + 18 seconds after.
-
-Change Crypt Blacksword WA
 

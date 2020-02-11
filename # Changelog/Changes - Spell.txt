@@ -516,6 +516,13 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
 - Ascended Effect: expands area of effect.
 
+#--------------------------------
+# Immolation
+#--------------------------------
+- FP Cost: 50
+- Base Effect: burns oneself for 2% damage, radiating a flame aura that deals 100 damage to enemies every second for 15 seconds.
+- Ascended Effect: no longer burns oneself.
+
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
 #--------------------------------------------------------------------------
