@@ -42,6 +42,33 @@ Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
 
 #------------------------------
+# Changelog
+#------------------------------
+# General
+- HP Scale: {1:100, 5:500, 20:1000, 40:1400, 99:2000}
+
+# Weapons
+- Increased Friede's Great Scythe damage output.
+- Beast Claw: each hit boosts damage by 1%, lasting for 60 seconds. Stacks.
+- Insanity Catalyst reqs are now 50/50.
+- Morion Blade: boosts attack by 10% whilst below 25% health.
+- Morion Great Blade: boosts attack by 10% whilst below 25% health.
+- Kris Blade: boosts spell damage by 5%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
+
+# Shields
+- Excluding exceptions, reduced medium shields to 55 stability and greatshields to 60, and the heaviest greatshields to 65.
+
+# Rings
+- Ring of Calamity: boosts all damage by 10% but lose 1% of health every second.
+
+# Spells
+- Power Within: damage boost changed to 20%.
+- Unleash Magic: boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
+
+# Bugfixes
+- Added the on-hit effects for infusions to the new weapons.
+
+#------------------------------
 # TODO
 #------------------------------
 Black Dragon Sword (no vfx)
@@ -80,26 +107,3 @@ Unleash Magic:
 
 Change Crypt Blacksword WA
 
-#------------------------------
-# Changelog
-#------------------------------
-# Weapons
-- Increased Friede's Great Scythe damage output.
-- Beast Claw: each hit boosts damage by 1%, lasting for 60 seconds. Stacks.
-- Insanity Catalyst reqs are now 50/50.
-- Morion Blade: boosts attack by 10% whilst below 25% health.
-- Morion Great Blade: boosts attack by 10% whilst below 25% health.
-- Kris Blade: boosts spell damage by 5%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
-
-# Shields
-- Excluding exceptions, reduced medium shields to 55 stability and greatshields to 60, and the heaviest greatshields to 65.
-
-# Rings
-- Ring of Calamity: boosts all damage by 10% but lose 1% of health every second.
-
-# Spells
-- Power Within: damage boost changed to 20%.
-- Unleash Magic: boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
-
-# Bugfixes
-- Added the on-hit effects for infusions to the new weapons.
