@@ -385,8 +385,6 @@ Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
-Do icons
-
 Unleash Magic:
  Reduces spell cost to 0% for 12 seconds, but reduces max FP to 0% for duration + 18 seconds after.
 
