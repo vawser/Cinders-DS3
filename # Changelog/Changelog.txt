@@ -31,17 +31,6 @@
 54003000
 
 #------------------------------
-# Ideas
-#------------------------------
-New illusory walls
-Add secret drop points that warp you to special areas
-Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
-Add darkness to nightmare bosses (add intercept in boss start script to check for nightmare mode)
-Add mimic boss
-Make the re-fight items warp you to points in front of the fog door
-Add respawn points for the warps where they warp you to.
-
-#------------------------------
 # Changelog
 #------------------------------
 # General
@@ -62,6 +51,7 @@ Add respawn points for the warps where they warp you to.
 - Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
 - Lightning Arrow: damage to 200.
 - Heavenly Thunder: damage to 150.
+- Emit Force: damage to 300 (100).
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
@@ -74,53 +64,23 @@ Add respawn points for the warps where they warp you to.
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
 - Blue Flame is now correctly only Sorceries.
 
+- Self-damage will no longer trigger the enemy buffs on the player from the Champion's Pact.
+- Fixed Black Dragon Sword vfx/hitbox.
+- Fixed Black Dragon Greatsword vfx/hitbox.
+- Fixed the Forlorn not meeting weapon reqs.
+
 #------------------------------
 # TODO
 #------------------------------
+New illusory walls
+Add secret drop points that warp you to special areas
+Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
+Add darkness to nightmare bosses (add intercept in boss start script to check for nightmare mode)
+Add mimic boss
+Make the re-fight items warp you to points in front of the fog door
+Add respawn points for the warps where they warp you to.
+
 Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-
-Black Dragon Sword (no vfx)
- 9867 # 202
  
-Black Dragon Greatsword (no vfx)
- 9868 # 602
- 
-Chikage (no vfx)
- 9843 # 1609
- 
-Black Dragon Greataxe (no vfx) 
- 9869 # 712
- 
-Phosophrescent Pole (no vfx)
- 9889 # 908
-
-Obsidian Greatsword (vfx offset)
-Meat Cleaver (vfx offset)
-Hunter Axe (vfx offset)
-Scythe of Want (vfx offset)
-Beast Claw (vfx offset)
-Demon Axe (vfx on handle)
-Boom Hammer (vfx on handle)
-Smelter Hammer (vfx on handle)
-Abyssal Blade (vfx offset minor)
-Beasthunter Saif (vfx offset minor)
-Burial Blade (vfx offset minor)
-Serpentine Hatchet (vfx offset minor)
-Dozer Axe (vfx offset minor)
-
-Holy Beam 6250100
-
-Holy Curse Mist 6250741
- 
-Summoned Archer 6280310
- 
-Holy Circle HP Removal 6290080
- 
-Fire Wave 6211400
-
-Red Skull Orbs 6200750
-
-Blue Lightning 6200950
-
