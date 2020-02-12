@@ -52,6 +52,8 @@
 - Lightning Arrow: damage to 200.
 - Heavenly Thunder: damage to 150.
 - Emit Force: damage to 300 (100).
+# - Farron Dart: damage to 100
+# - Great Farron Dart: damage to 150
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
@@ -63,7 +65,6 @@
 # Bugfixes
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
 - Blue Flame is now correctly only Sorceries.
-
 - Self-damage will no longer trigger the enemy buffs on the player from the Champion's Pact.
 - Fixed Black Dragon Sword vfx/hitbox.
 - Fixed Black Dragon Greatsword vfx/hitbox.

@@ -24,7 +24,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Farron Dart
 #--------------------------------
 - FP Cost: 10
-- Magic Damage: 150
+- Magic Damage: 100
 - Ascended Effect: projectile is faster and tracks better.
 
 #--------------------------------
@@ -39,7 +39,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Farron Dart
 #--------------------------------
 - FP Cost: 20
-- Magic Damage: 200
+- Magic Damage: 150
 - INT Req: 10
 - Ascended Effect: 3 projectiles are shot.
 

@@ -46,19 +46,9 @@ m54_00_00_00 - Round Plaza
 24 - Normal (solid)
 
 #------------------------------------
-# Map Editor
+# Collision
 #------------------------------------
-Don't mass rename stuff, the name is used as reference in events, etc.
 
-#------------------------------------
-# Enemies
-#------------------------------------
-Enemies require their collision group to be changed if they are moved into a different area. The collision group is a 'region' that controls various aspects, such as visibility. The collision group can be found by click on the geometry in the intended area.
-
-#------------------------------------
-# Mimic
-#------------------------------------
-Just add unique NPCParam and suitable ItemLot in NPCParam for a regular mimic.
 
 #------------------------------------
 # Corpse
