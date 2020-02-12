@@ -25,6 +25,9 @@
 アニメ終了か
 - Is End of Animation
 
+双剣か
+- Double sword
+
 1116    - Check SpEffect
 225     - Check Weapon Category (y is hand index)
 234     - Get Invalid Attack State?

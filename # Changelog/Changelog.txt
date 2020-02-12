@@ -23,7 +23,7 @@
 53412123 Grand Archives
 54102010 Kiln of the First Flame
 53202067 Archdragon Peak
-54502046 Painted World of Ariandel
+54502070 Painted World of Ariandel
 55002056 Dreg Heap
 55102050 The Ringed City
 
@@ -60,6 +60,7 @@ Add respawn points for the warps where they warp you to.
 - Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
 - Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
 - Boosted the stock multipliers to lower the gap between infusions and stock.
+- Scythe of Want: increases soul absorption by 20%.
 
 # Spells
 - Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
@@ -68,6 +69,9 @@ Add respawn points for the warps where they warp you to.
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
+
+# Map
+- Added 16 new treasure corpses and 7 chests to Ariandel.
 
 # Bugfixes
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
@@ -81,18 +85,20 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
 Black Dragon Sword (no vfx)
+ 9867 # 202
+ 
 Black Dragon Greatsword (no vfx)
+ 9868 # 602
+ 
 Chikage (no vfx)
-Black Dragon Greataxe (no vfx)
+ 9843 # 1609
+ 
+Black Dragon Greataxe (no vfx) 
+ 9869 # 712
+ 
 Phosophrescent Pole (no vfx)
-Quarterstaff (no vfx)
-Corvian Longstaff (no vfx)
-Witchtree Limb (no vfx)
-Longstaff of Rosaria (no vfx)
-Staff of Serpents (no vfx)
-Archdragon Longstaff (no vfx)
-Heretic's Warstaff (no vfx)
-Witch's Staff (no vfx)
+ 9889 # 908
+
 Obsidian Greatsword (vfx offset)
 Meat Cleaver (vfx offset)
 Hunter Axe (vfx offset)
