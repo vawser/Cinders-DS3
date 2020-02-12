@@ -111,37 +111,29 @@ Frost
 - Scales are {<level>:<stat value at this level>}
 
 # Soul Level:
-- Defence Scale: {1:0, 100:100, 200:150, 300:200, 400:250}
-- No longer increases resistances.
+- Defence Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
+- Resist Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
  
 # Vigor:
 - HP Scale: {1:100, 5:500, 20:1000, 40:1400, 99:2000}
-- Frost Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Attunement:
 - FP Scale: {1:100, 20:200, 40:300, 60:350, 99:400}
  
 # Endurance:
-- Lightning Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- Bleed Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Vitality:
-- Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- Poison Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 # Strength:
-- Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- Fire Defence Scale: {1:0, 20:50, 60:100, 80:200, 99:300}
+
+# Dexterity:
 
 # Intelligence
-- Magic Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
 
 # Faith:
-- Dark Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
 
 # Luck:
 - Item Discovery Scale: {1:1, 20:1.2, 60:1.6, 80:1.8, 99:2}
-- Curse Resist Scale: {1:100, 20:200, 60:300, 80:400, 99:500}
 
 #------------------------
 # Covenants
@@ -725,34 +717,41 @@ These multipliers are applied with the above values on each New Game above +1:
 +1
 - Max HP: 1
 - Damage: 1
+- Defence: 1
 - Soul Multiplier: 1
 
 +2
 - Max HP: 1.05
-- Damage: 1.05
+- Damage: 1.1
+- Defence: 1.1
 - Soul Multiplier: 1.5
 
 +3
 - Max HP: 1.1
-- Damage: 1.1
+- Damage: 1.15
+- Defence: 1.15
 - Soul Multiplier: 2
 
 +4
 - Max HP: 1.15
-- Damage: 1.125
+- Damage: 1.2
+- Defence: 1.2
 - Soul Multiplier: 2.5
 
 +5
 - Max HP: 1.2
-- Damage: 1.15
+- Damage: 1.25
+- Defence: 1.25
 - Soul Multiplier: 3
 
 +6
 - Max HP: 1.25
-- Damage: 1.175
+- Damage: 1.3
+- Defence: 1.3
 - Soul Multiplier: 3.5
 
 +7
 - Max HP: 1.3
-- Damage: 1.2
+- Damage: 1.35
+- Defence: 1.35
 - Soul Multiplier: 4

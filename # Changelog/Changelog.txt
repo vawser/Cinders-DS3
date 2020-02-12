@@ -45,16 +45,12 @@ Add respawn points for the warps where they warp you to.
 # Changelog
 #------------------------------
 # General
-- Soul Level - Defence Scale: {1:0, 100:100, 200:150, 300:200, 400:250}
-- VIT - Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- STR - Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- END - Lightning Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- INT - Magic Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- FTH - Dark Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
-- STR - Fire Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
 - Reduced the damage multipliers in NG+ for enemies.
 - Removed the multipliers to the elemental defences in area/ng scaling, so split damage weapons aren't unduly reduced.
 - Reduced the physical defence of enemies in the early zones significantly.
+- Defense and Resist now only come from Soul Level, not individual stats.
+- Defence Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
+- Resist Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
 
 # Weapons
 - Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
@@ -72,6 +68,7 @@ Add respawn points for the warps where they warp you to.
 
 # Map
 - Added 16 new treasure corpses and 7 chests to Ariandel.
+- Made the Pilgrim Angels slightly less accurate.
 
 # Bugfixes
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
@@ -112,4 +109,18 @@ Beasthunter Saif (vfx offset minor)
 Burial Blade (vfx offset minor)
 Serpentine Hatchet (vfx offset minor)
 Dozer Axe (vfx offset minor)
+
+Holy Beam 6250100
+
+Holy Curse Mist 6250741
+ 
+Summoned Archer 6280310
+ 
+Holy Circle HP Removal 6290080
+ 
+Fire Wave 6211400
+
+Red Skull Orbs 6200750
+
+Blue Lightning 6200950
 

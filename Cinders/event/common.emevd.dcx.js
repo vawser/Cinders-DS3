@@ -2031,7 +2031,7 @@ Event(401000, Restart, function() {
     InitializeEvent(0, 4008204, 0);
     InitializeEvent(0, 4008205, 0);
     
-    // Gravetender's Champion
+    // The Triad
     InitializeEvent(0, 4008210, 0);
     InitializeEvent(0, 4008211, 0);
     InitializeEvent(0, 4008212, 0);
@@ -3790,6 +3790,7 @@ Event(4008205, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// The Triad
 Event(4008210, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3797,6 +3798,7 @@ Event(4008210, Default, function() {
     SetEventFlag(14502870, OFF);
     SetEventFlag(14500860, OFF);
     SetEventFlag(14500861, OFF);
+    SetEventFlag(14500862, OFF);
     SetEventFlag(9323, OFF);
     SetEventFlag(6323, OFF);
     SetEventFlag(14500006, OFF);
@@ -3814,6 +3816,7 @@ Event(4008211, Default, function() {
     SetEventFlag(14502870, ON);
     SetEventFlag(14500860, OFF);
     SetEventFlag(14500861, OFF);
+    SetEventFlag(14500862, OFF);
     SetEventFlag(9323, OFF);
     SetEventFlag(6323, OFF);
     SetEventFlag(14500006, OFF);
@@ -3829,6 +3832,7 @@ Event(4008212, Default, function() {
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501870);
     SetSpeffect(4500860, 260100211);
     SetSpeffect(4500861, 260100211);
+    SetSpeffect(4500862, 260100211);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -3837,6 +3841,7 @@ Event(4008213, Default, function() {
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502870);
     SetSpeffect(4500860, 260100213);
     SetSpeffect(4500861, 260100213);
+    SetSpeffect(4500862, 260100213);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -3849,6 +3854,7 @@ Event(4008214, Default, function() {
     SetEventFlag(14501870, OFF);
     ClearSpeffect(4500860, 260100211);
     ClearSpeffect(4500861, 260100211);
+    ClearSpeffect(4500862, 260100211);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -3861,9 +3867,11 @@ Event(4008215, Default, function() {
     SetEventFlag(14502870, OFF);
     ClearSpeffect(4500860, 260100213);
     ClearSpeffect(4500861, 260100213);
+    ClearSpeffect(4500862, 260100213);
     EndUnconditionally(EventEndType.End);
 });
 
+// Sister Friede
 Event(4008220, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
