@@ -652,7 +652,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 20
-- Lightning Damage: 150
+- Lightning Damage: 200
 - FTH Req: 10
 - Ascended Effect: gains stronger tracking.
 
@@ -692,7 +692,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 140
-- Lightning Damage: 75 (per bullet)
+- Lightning Damage: 150 (per bullet)
 - FTH Req: 50
 - Ascended Effect: emits more projectiles.
 

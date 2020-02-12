@@ -45,34 +45,41 @@ Add respawn points for the warps where they warp you to.
 # Changelog
 #------------------------------
 # General
-- HP Scale: {1:100, 5:500, 20:1000, 40:1400, 99:2000}
+- Soul Level - Defence Scale: {1:0, 100:100, 200:150, 300:200, 400:250}
+- VIT - Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- STR - Physical Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- END - Lightning Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- INT - Magic Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- FTH - Dark Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- STR - Fire Defence Scale: {1:0, 20:50, 40:75, 60:100, 99:125}
+- Reduced the damage multipliers in NG+ for enemies.
+- Removed the multipliers to the elemental defences in area/ng scaling, so split damage weapons aren't unduly reduced.
+- Reduced the physical defence of enemies in the early zones significantly.
 
 # Weapons
-- Increased Friede's Great Scythe damage output.
-- Beast Claw: each hit boosts damage by 1%, lasting for 60 seconds. Stacks.
-- Insanity Catalyst reqs are now 50/50.
-- Morion Blade: boosts attack by 10% whilst below 25% health.
-- Morion Great Blade: boosts attack by 10% whilst below 25% health.
-- Kris Blade: boosts spell damage by 5%, but reduces Magic, Fire, Lightning and Dark absorption by 20%.
-
-# Shields
-- Excluding exceptions, reduced medium shields to 55 stability and greatshields to 60, and the heaviest greatshields to 65.
-
-# Rings
-- Ring of Calamity: boosts all damage by 10% but lose 1% of health every second.
+- Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
+- Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
+- Boosted the stock multipliers to lower the gap between infusions and stock.
 
 # Spells
-- Power Within: damage boost changed to 20%.
-- Unleash Magic: boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
-# - Immolation: burns oneself for 2% damage per second, radiating a flame aura that deals 100 damage to enemies every second for 15 seconds. Transposed from the Old Demon King soul. Ascended Effect: no longer burns oneself.
+- Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
+- Lightning Arrow: damage to 200.
+- Heavenly Thunder: damage to 150.
+
+# Rings
+- Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
 
 # Bugfixes
-- Added the on-hit effects for infusions to the new weapons.
-# - Fixed Elkhorn Shield regen being 1%, not +1.
+- Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
+- Blue Flame is now correctly only Sorceries.
 
 #------------------------------
 # TODO
 #------------------------------
+Add wolf in DLC1 as one-time enemy in ice pit area
+Map out the NPC related stuff in emevd
+ Yoel - check trigger on catacombs stairs
+
 Black Dragon Sword (no vfx)
 Black Dragon Greatsword (no vfx)
 Chikage (no vfx)
@@ -99,8 +106,4 @@ Beasthunter Saif (vfx offset minor)
 Burial Blade (vfx offset minor)
 Serpentine Hatchet (vfx offset minor)
 Dozer Axe (vfx offset minor)
-
-Add wolf in DLC1 as one-time enemy in ice pit area
-Map out the NPC related stuff in emevd
- Yoel - check trigger on catacombs stairs
 

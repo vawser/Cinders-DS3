@@ -661,7 +661,7 @@ increases evasive movement stamina costs by 200%.
 
 # Greatwood Remnants
 - Weight: 3
-- Increases physical defence by 75 but increases evasive stamina consumption by 50%.
+- Increases physical defence by 50% but increases evasive stamina consumption by 50%.
 - Source: Boss - Curse-rotted Greatwood
 
 # Green Tearstone Ring
