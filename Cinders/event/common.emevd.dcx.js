@@ -1605,8 +1605,11 @@ Event(400000, Default, function() {
     
     InitializeEvent(0, 400020, 0); // Deathless Run - Effect
     InitializeEvent(0, 400021, 0); // Deathless Run - Check
-    InitializeEvent(0, 400022, 0); // Champion's Pact - Enemies
-    InitializeEvent(0, 400023, 0); // Champion's Pact - Clients
+    InitializeEvent(0, 400022, 0); // Wrath
+    InitializeEvent(0, 400023, 0); // Gluttony
+    InitializeEvent(0, 400024, 0); // Greed
+    InitializeEvent(0, 400025, 0); // Lethargy
+    InitializeEvent(0, 400026, 0); // Pride
     
     InitializeEvent(0, 400030, 0); // Crow Trades
     
@@ -1675,19 +1678,36 @@ Event(400021, Default, function() {
     SetEventFlag(25000010, OFF);
 });
 
-// Champion's Pact - Add Effect
+// Wrath
 Event(400022, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000004);
+    SetSpeffect(10000, 250001100);
+});
+
+// Gluttony
+Event(400023, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000001);
+    SetSpeffect(10000, 250001200);
+});
+
+// Greed
+Event(400024, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000002);
+    SetSpeffect(10000, 250001300);
+});
+
+// Lethargy
+Event(400025, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000003);
+    SetSpeffect(10000, 250001400);
+});
+
+// Pride
+Event(400026, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
     SetSpeffect(10000, 250001000);
     SetSpeffect(10000, 250001001);
     SetSpeffect(10000, 250001010);
-});
-
-// Champion's Pact - Clients
-Event(400023, Default, function() {
-    SetNetworkSyncState(Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
-    SetNetworkconnectedEventFlag(25000000, ON);
 });
 
 // Crow Trades

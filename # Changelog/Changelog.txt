@@ -41,6 +41,15 @@
 - Defence Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
 - Resist Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
 
+# Champion's Pact
+- Split into five options, each giving 20% soul absorption.
+- Toggled behind each of the Lord of Cinder thrones, where the engravings used to be.
+ - Curse of Pride: Adds additional enemies in the world.
+ - Curse of Wrath: Enemies will gain 1% damage per second after combat begins.
+ - Curse of Gluttony: FP and stamina consumption is increased by 50%.
+ - Curse of Vulnerability: Reduces absorption by 50%.
+ - Curse of Agony: Lose 10 + 0.5% HP every second.
+
 # Weapons
 - Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
 - Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
@@ -64,6 +73,7 @@
 # Map
 - Added 16 new treasure corpses and 7 chests to Ariandel.
 - Made the Pilgrim Angels slightly less accurate.
+- New journey giant is now only present in Cemetery of Ash, and is on the side route at the start.
 
 # Bugfixes
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
@@ -87,4 +97,3 @@ Add respawn points for the warps where they warp you to.
 Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
- 

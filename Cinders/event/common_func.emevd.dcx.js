@@ -4621,7 +4621,7 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
-// Warp to Location - Map Ceremony
+// Warp to Location - Untended Graves
 Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4657,6 +4657,7 @@ Event(20009100, Default, function(X0_4, X4_1) {
 
 // Petrified Giant - Advance Journey
 Event(20009200, Default, function(X0_4, X4_4) {
+    IfMapCeremonyState(MAIN, Enabled, 40, 0, 0);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     WaitFixedTimeSeconds(3);
@@ -4699,6 +4700,11 @@ Event(20009201, Default, function(X0_4, X4_4) {
 // Setup Game Flags
 Event(20009300, Restart, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
+    // 25000000 - Pride - Ludleth
+    // 25000001 - Gluttony - Aldrich
+    // 25000002 - Greed - Abyss Watchers
+    // 25000003 - Lethargy -   Yhorm
+    // 25000004 - Wrath - Lothric
     SetEventFlag(25000010, ON); // Deathless Run
     
     // Deathless Boss Kill Flags
@@ -4951,3 +4957,31 @@ Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetSpeffect(10000, X16_4);
     DeleteObjectfollowingSFX(X0_4, true);
 });
+
+// Pact Epitaph
+Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    SetNetworkSyncState(Disabled);
+    
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X12_4);
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X12_4);
+    
+    Label0();
+    IfActionButtonInArea(MAIN, X8_4, X4_4);
+    DisplayEpitaphMessage(X0_4);
+    SetEventFlag(X12_4, ON);
+    SetSpeffect(10000, X24_4);
+    SetSpeffect(10000, X28_4);
+    WaitFixedTimeSeconds(3);
+    
+    Label1();
+    IfActionButtonInArea(MAIN, X16_4, X4_4);
+    DisplayEpitaphMessage(X20_4);
+    SetEventFlag(X12_4, OFF);
+    ClearSpeffect(10000, X24_4);
+    ClearSpeffect(10000, X28_4);
+    WaitFixedTimeSeconds(3);
+    
+    Label2();
+    EndUnconditionally(EventEndType.Restart);
+});
+
