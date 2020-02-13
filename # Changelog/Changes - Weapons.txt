@@ -6,7 +6,7 @@ Normal:
 
 Lethal:
 - Boosts STR and DEX scaling.
-- Adds 50 additional critical.
+- Adds 10 additional critical.
 
 Cursed:
 - Adds Curse aux.

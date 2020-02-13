@@ -46,14 +46,17 @@
 - Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
 - Boosted the stock multipliers to lower the gap between infusions and stock.
 - Scythe of Want: increases soul absorption by 20%.
+- Reverted the backstab/riposte motion values to vanilla.
+- Friede's Great Scythe now deals its magic damage on its normal attacks.
+- Reduced critical boost from Lethal to 10.
 
 # Spells
 - Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
 - Lightning Arrow: damage to 200.
 - Heavenly Thunder: damage to 150.
 - Emit Force: damage to 300 (100).
-# - Farron Dart: damage to 100
-# - Great Farron Dart: damage to 150
+- Farron Dart: damage to 100
+- Great Farron Dart: damage to 150
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
