@@ -26,6 +26,7 @@
 54502070 Painted World of Ariandel
 55002056 Dreg Heap
 55102050 The Ringed City
+56000000 Cross-map
 
 # One-time Equipment Drops
 54003000
@@ -66,6 +67,7 @@
 - Emit Force: damage to 300 (100).
 - Farron Dart: damage to 100
 - Great Farron Dart: damage to 150
+- Halo: now acts more like Gael's halo spell.
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
@@ -97,3 +99,183 @@ Add respawn points for the warps where they warp you to.
 Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
+
+Move all equipment from random drop into either specific enemy drop or treasure
+
+# Cemetery of Ash
+13210000 Cleric's Sacred Chime
+20260000 Cleric's Parma
+
+# High Wall
+40000000 Steel Soldier Helm
+40001000 Deserter Armor
+40003000 Deserter Trousers
+20080000 Iron Round Shield
+20110000 Wooden Shield
+2010000 Long Sword
+14040000 Birch Crossbow
+2030000 Broken Straight Sword
+10030000 Halberd
+14100000 Knight's Crossbow
+
+# Undead Settlement
+4030000 Scimitar
+4040000 Falchion
+7050000 Greataxe
+7100000 Thrall Axe
+47500000 Thrall Hood
+31240000 Thrall Harpe
+31280000 Thrall Pick
+31290000 Worker Machete
+1060000 Harpe
+30240000 Wooden Mallet
+9100000 Four-pronged Plow
+30080000 Machete
+
+# Road of Sacrifices
+31100000 Beast Claw
+31190000 Hunter's Log
+12110000 Quarterstaff
+13060000 Sorcerer's Staff
+
+# Farron Keep
+9120000 Rotten Ghru Spear
+20130000 Ghru Rotshield
+2120000 Rotten Ghru Curved Sword
+1040000 Rotten Ghru Dagger
+13640000 Rotten Talisman
+
+# Cathedral of the Deep
+8300000 Spiked Mace
+48000000 Evangelist Hat
+48001000 Evangelist Robe
+48002000 Evangelist Gloves
+48003000 Evangelist Trousers
+46000000 Grave Warden Hood
+46001000 Grave Warden Robe
+46002000 Grave Warden Wrap
+46003000 Grave Warden Skirt
+14110000 Oak Crossbow
+14050000 Arbalest
+
+# Smouldering Lake
+31270000 Smouldering Spear
+22310000 Smouldering Shield
+31250000 Smouldering Curved Sword
+31260000 Smouldering Dagger
+13650000 Smouldering Talisman
+
+# Lothric Castle
+52000000 Lothric Knight Helm
+52001000 Lothric Knight Armor
+52002000 Lothric Knight Gauntlets
+52003000 Lothric Knight Leggings
+10090000 Winged Knight Halberd
+16030000 Winged Knight Twinaxes
+14070000 Dragonrider Bow
+1030000 Engraved Dagger
+
+# Irithyll
+56000000 Pontiff Knight Crown
+56001000 Pontiff Knight Armor
+56002000 Pontiff Knight Gauntlets
+56003000 Pontiff Knight Leggings
+30130000 Pontiff Knight Greatsword
+
+# Anor Londo
+85000000 Silver Knight Helm
+85001000 Silver Knight Armor
+85002000 Silver Knight Gauntlets
+85003000 Silver Knight Leggings
+
+# Irithyll Dungeon
+9130000 Tailbone Spear
+1080000 Tailbone Short Sword
+
+# Grand Archives
+48500000 Scholar's Shed Skin
+48501000 Scholar's Robe
+
+# Archdragon Peak
+59500000 Man Serpent's Mask
+59501000 Man Serpent's Robes
+
+# Carthus Swordsman
+4050000 Carthus Curved Sword
+21070000 Carthus Shield
+4060000 Carthus Curved Greatsword
+4110000 Carthus Shotel
+
+# Cathedral Knight
+8110000 Great Mace
+6190000 Cathedral Knight Greatsword
+22020000 Cathedral Knight Greatshield
+50500000 Cathedral Knight Helm
+50501000 Cathedral Knight Armor
+50502000 Cathedral Knight Gauntlets
+50503000 Cathedral Knight Leggings
+
+# Thrall
+6140000 Flamberge
+
+# Peasant Hollow
+47000000 Worker Hat
+47001000 Worker Garb
+47002000 Worker Gloves
+47003000 Worker Trousers
+8160000 Great Wooden Hammer
+
+# Cathedral Grave Warden
+16020000 Warden Twinblades
+
+# Hollow Manservant
+16050000 Great Machete
+45000000 Footman's Hood
+45001000 Footman's Overcoat
+45002000 Footman's Bracelet
+45003000 Footman's Trousers
+
+# Lothric Knight
+6100000 Lothric Knight Greatsword
+2060000 Lothric Knight Sword
+21010000 Lothric Knight Shield
+9090000 Lothric Knight Long Spear
+22010000 Lothric Knight Greatshield
+
+# Black Knight
+6130000 Black Knight Greatsword
+10050000 Black Knight Greataxe
+21100000 Black Knight Shield
+54000000 Black Knight Helm
+54001000 Black Knight Armor
+54002000 Black Knight Gauntlets
+54003000 Black Knight Leggings
+
+# Archive Scholar
+1070000 Scholar's Candlestick
+
+# Lycanthrope
+22300000 Shield of the Hunted
+
+# Serpent-man Summoner
+13080000 Mendicant's Staff
+
+# Serpent-man
+31200000 Serpentine Twindaggers
+7150000 Man Serpent Hatchet
+31220000 Serpentine Hatchet
+31230000 Serpentine Axe
+
+# Silver Knight
+21120000 Silver Knight Shield
+30880000 Silver Knight Spear
+30890000 Silver Knight Straight Sword
+14030000 Dragonslayer Greatbow
+
+# Bonewheel Skeleton
+22130000 Bonewheel Shield
+
+# Pontiff Knight
+4070000 Pontiff Knight Curved Sword
+10070000 Pontiff Knight Great Scythe
+21060000 Pontiff Knight Shield

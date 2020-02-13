@@ -4958,7 +4958,7 @@ Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
-// Pact Epitaph
+// Pact Toggle
 Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     
@@ -4984,4 +4984,5 @@ Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     Label2();
     EndUnconditionally(EventEndType.Restart);
 });
+
 
