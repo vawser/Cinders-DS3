@@ -1599,6 +1599,7 @@ Event(20005350, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Award Itemlot (Respawns) - Entity ID, Itemlot ID, Loot flag ID, Delay
 Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
@@ -4984,5 +4985,3 @@ Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     Label2();
     EndUnconditionally(EventEndType.Restart);
 });
-
-

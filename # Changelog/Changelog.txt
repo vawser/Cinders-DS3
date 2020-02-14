@@ -12,24 +12,20 @@
 
 # These need to be used for new treasures in each area
 54002049 Cemetery of Ash / Unturned Graves
-53002087 High Wall of Lothric / Consumed King's Garden
-53102073 Undead Settlement
-53302153 Road of Sacrifices / Farron Keep
-53502068 Cathedral of the Deep
-53802151 Catacombs of Carthus / Smouldering Lake
-53702135 Irithyll of the Boreal Valley / Anor Londo
-53902107 Irithyll Dungeon / Profaned Capital
-53012082 Lothric Castle
-53412123 Grand Archives
+53002097 High Wall of Lothric / Consumed King's Garden
+53102091 Undead Settlement
+53302172 Road of Sacrifices / Farron Keep
+53502078 Cathedral of the Deep
+53802164 Catacombs of Carthus / Smouldering Lake
+53702144 Irithyll of the Boreal Valley / Anor Londo
+53902114 Irithyll Dungeon / Profaned Capital
+53012089 Lothric Castle
+53412124 Grand Archives
 54102010 Kiln of the First Flame
-53202067 Archdragon Peak
+53202072 Archdragon Peak
 54502070 Painted World of Ariandel
-55002056 Dreg Heap
-55102050 The Ringed City
-56000000 Cross-map
-
-# One-time Equipment Drops
-54003000
+55002057 Dreg Heap
+55102054 The Ringed City
 
 #------------------------------
 # Changelog
@@ -72,10 +68,14 @@
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
 
+# Enemies
+- Enemies that once dropped random equipment no longer drop it. All equipment is now either treasure or guaranteed one-time drops from specific enemies. Enemies still drop non-equipment items.
+
 # Map
 - Added 16 new treasure corpses and 7 chests to Ariandel.
 - Made the Pilgrim Angels slightly less accurate.
 - New journey giant is now only present in Cemetery of Ash, and is on the side route at the start.
+- Added 71 treasures for the once random equipment.
 
 # Bugfixes
 - Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
@@ -88,6 +88,8 @@
 #------------------------------
 # TODO
 #------------------------------
+Map out the NPC related stuff in emevd
+ Yoel - check trigger on catacombs stairs
 New illusory walls
 Add secret drop points that warp you to special areas
 Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
@@ -97,185 +99,143 @@ Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
 
 Add wolf in DLC1 as one-time enemy in ice pit area
-Map out the NPC related stuff in emevd
- Yoel - check trigger on catacombs stairs
+Change Smough to Artorias, add gough arrows as 'event' during fight
 
 Move all equipment from random drop into either specific enemy drop or treasure
 
-# Cemetery of Ash
-13210000 Cleric's Sacred Chime
-20260000 Cleric's Parma
-
-# High Wall
-40000000 Steel Soldier Helm
-40001000 Deserter Armor
-40003000 Deserter Trousers
-20080000 Iron Round Shield
-20110000 Wooden Shield
-2010000 Long Sword
-14040000 Birch Crossbow
-2030000 Broken Straight Sword
-10030000 Halberd
-14100000 Knight's Crossbow
-
-# Undead Settlement
-4030000 Scimitar
-4040000 Falchion
-7050000 Greataxe
-7100000 Thrall Axe
-47500000 Thrall Hood
-31240000 Thrall Harpe
-31280000 Thrall Pick
-31290000 Worker Machete
-1060000 Harpe
-30240000 Wooden Mallet
-9100000 Four-pronged Plow
-30080000 Machete
-
 # Road of Sacrifices
-31100000 Beast Claw
-31190000 Hunter's Log
-12110000 Quarterstaff
-13060000 Sorcerer's Staff
-
+210003110 Beast Claw
+    -35, -237, -573
+    
+210003120 Hunter's Log
+    -55, -258, -515
+    
+210003130 Quarterstaff
+    -122, -253, -478
+    
+210003140 Sorcerer's Staff
+    -131, -56, -443
+    
+210003150 Corvian Greatknife
+    -56, -220, -681
+    
+210003160 Corvian Scythe
+    -9, -209, -658
+    
 # Farron Keep
-9120000 Rotten Ghru Spear
-20130000 Ghru Rotshield
-2120000 Rotten Ghru Curved Sword
-1040000 Rotten Ghru Dagger
-13640000 Rotten Talisman
+210003170 Rotten Ghru Spear
+    25, -279, -401
+  
+210003180 Rotten Ghru Curved Sword  / Ghru Rotshield
+    170, -278, -396
+    
+210003190 Rotten Ghru Dagger
+    110, -279, -423
+
+210003200 Rotten Talisman
+    144, -279, -349
+
+210003210 Storyteller's Staff
+    187, -267, -454
+
+210003220 Stone Greatshield
+    153, -260, -470
+    
+210003230 Dark Sword
+    170, -267, -490
+    
+210003240 Dark Set
+    chest: 269, -249, -474
 
 # Cathedral of the Deep
-8300000 Spiked Mace
-48000000 Evangelist Hat
-48001000 Evangelist Robe
-48002000 Evangelist Gloves
-48003000 Evangelist Trousers
-46000000 Grave Warden Hood
-46001000 Grave Warden Robe
-46002000 Grave Warden Wrap
-46003000 Grave Warden Skirt
-14110000 Oak Crossbow
-14050000 Arbalest
+210003250 Spiked Mace
+    -256, -180, -558
+    
+210003260 Oak Crossbow
+    -267, -181, -548
+    
+210003270 Arbalest
+    -366, -198, -491
+    
+210003280 Deacon Robe
+    -269, -184, -480
+    
+210003290 Deacon Skirt
+    -244, -184, -522
+    
+210003300 Warden Twinblades
+    -251, -176, -481
+    
+210003310 Evangelist Set
+    chest: -257, -206, -620
+    
+210003320 Grave Warden Set
+    chest: -221, -185, -528
+    
+# Catacombs of Carthus
+210003330 Carthus Shield
+    322, -283, -623
 
 # Smouldering Lake
-31270000 Smouldering Spear
-22310000 Smouldering Shield
-31250000 Smouldering Curved Sword
-31260000 Smouldering Dagger
-13650000 Smouldering Talisman
+210003340 Smouldering Spear / Smouldering Shield
+    254, -347, -786
+    
+210003350 Smouldering Curved Sword
+    174, -338, -776
+    
+210003360 Smouldering Dagger
+    169, -339, -753
+    
+210003370 Smouldering Talisman
+    229, -347, -805
+    
+210003380 Demon Cleric Mask
+    190, -347, -844
 
 # Lothric Castle
-52000000 Lothric Knight Helm
-52001000 Lothric Knight Armor
-52002000 Lothric Knight Gauntlets
-52003000 Lothric Knight Leggings
-10090000 Winged Knight Halberd
-16030000 Winged Knight Twinaxes
-14070000 Dragonrider Bow
-1030000 Engraved Dagger
+210003390 Winged Knight Halberd
+    9, 53, 233
+    
+210003400 Winged Knight Twinaxes
+    chest: -32, 59, 214
+    
+210003410 Dragonrider Bow
+    13, 41, 222
+    
+210003420 Engraved Dagger
+    46, 27, 180
+
+210003430 Lothric Knight Set
+    23, 47, 266
 
 # Irithyll
-56000000 Pontiff Knight Crown
-56001000 Pontiff Knight Armor
-56002000 Pontiff Knight Gauntlets
-56003000 Pontiff Knight Leggings
-30130000 Pontiff Knight Greatsword
+210003440 Pontiff Knight Greatsword
+    373, -251, -974
+    
+210003450 Immolation Tinder
+    422, -225, -1094
+
+210003460 Pontiff Knight Set
+    chest: 380, -238, -1055 (move lever)
 
 # Anor Londo
-85000000 Silver Knight Helm
-85001000 Silver Knight Armor
-85002000 Silver Knight Gauntlets
-85003000 Silver Knight Leggings
+210003470 Silver Knight Set
+    chest: 607, -131, -1123
 
 # Irithyll Dungeon
-9130000 Tailbone Spear
-1080000 Tailbone Short Sword
+210003480 Tailbone Spear
+    111, -331, -860
+    
+210003490 Tailbone Short Sword
+    109, -331, -817
+    
+210003500 Handmaid's Dagger
+    103, -325, -883
+    
+210003510 Jailer Set
+    92, -355, -849
 
-# Grand Archives
-48500000 Scholar's Shed Skin
-48501000 Scholar's Robe
+# Profaned Capital
+210003520 Gargoyle Skull
+    47, -364, -765
 
-# Archdragon Peak
-59500000 Man Serpent's Mask
-59501000 Man Serpent's Robes
-
-# Carthus Swordsman
-4050000 Carthus Curved Sword
-21070000 Carthus Shield
-4060000 Carthus Curved Greatsword
-4110000 Carthus Shotel
-
-# Cathedral Knight
-8110000 Great Mace
-6190000 Cathedral Knight Greatsword
-22020000 Cathedral Knight Greatshield
-50500000 Cathedral Knight Helm
-50501000 Cathedral Knight Armor
-50502000 Cathedral Knight Gauntlets
-50503000 Cathedral Knight Leggings
-
-# Thrall
-6140000 Flamberge
-
-# Peasant Hollow
-47000000 Worker Hat
-47001000 Worker Garb
-47002000 Worker Gloves
-47003000 Worker Trousers
-8160000 Great Wooden Hammer
-
-# Cathedral Grave Warden
-16020000 Warden Twinblades
-
-# Hollow Manservant
-16050000 Great Machete
-45000000 Footman's Hood
-45001000 Footman's Overcoat
-45002000 Footman's Bracelet
-45003000 Footman's Trousers
-
-# Lothric Knight
-6100000 Lothric Knight Greatsword
-2060000 Lothric Knight Sword
-21010000 Lothric Knight Shield
-9090000 Lothric Knight Long Spear
-22010000 Lothric Knight Greatshield
-
-# Black Knight
-6130000 Black Knight Greatsword
-10050000 Black Knight Greataxe
-21100000 Black Knight Shield
-54000000 Black Knight Helm
-54001000 Black Knight Armor
-54002000 Black Knight Gauntlets
-54003000 Black Knight Leggings
-
-# Archive Scholar
-1070000 Scholar's Candlestick
-
-# Lycanthrope
-22300000 Shield of the Hunted
-
-# Serpent-man Summoner
-13080000 Mendicant's Staff
-
-# Serpent-man
-31200000 Serpentine Twindaggers
-7150000 Man Serpent Hatchet
-31220000 Serpentine Hatchet
-31230000 Serpentine Axe
-
-# Silver Knight
-21120000 Silver Knight Shield
-30880000 Silver Knight Spear
-30890000 Silver Knight Straight Sword
-14030000 Dragonslayer Greatbow
-
-# Bonewheel Skeleton
-22130000 Bonewheel Shield
-
-# Pontiff Knight
-4070000 Pontiff Knight Curved Sword
-10070000 Pontiff Knight Great Scythe
-21060000 Pontiff Knight Shield
