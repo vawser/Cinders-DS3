@@ -70,6 +70,7 @@
 
 # Enemies
 - Enemies that once dropped random equipment no longer drop it. All equipment is now either treasure or guaranteed one-time drops from specific enemies. Enemies still drop non-equipment items.
+- The Executioner is now the Abyss Walker in the Triad boss fight.
 
 # Map
 - Added 16 new treasure corpses and 7 chests to Ariandel.
@@ -88,6 +89,7 @@
 #------------------------------
 # TODO
 #------------------------------
+Add wolf in DLC1 as one-time enemy in ice pit area
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 New illusory walls
@@ -98,9 +100,16 @@ Add mimic boss
 Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
 
-Add wolf in DLC1 as one-time enemy in ice pit area
-Change Smough to Artorias, add gough arrows as 'event' during fight
-
 Go through WA, adjust motion values
+Reduce top end reinforcement modifiers down a bit
 Move all equipment from random drop into either specific enemy drop or treasure
+    Sage Prentice
+    
 
+- Tidied up enemy itemlots.
+- Reduced the scaling boost from the primordial titanite part. (+10 was 2.3, is now 2).
+- Adjusted weapon art motion values.
+- Great Scythe uses the normal reaper moveset again.
+- Renamed Man Serpent's Mask/Robe to Serpentine Mask/Robe.
+- Renamed Man Serpent's Hatchet to Serpentine Hatchet.
+- Renamed the old Serpentine Hatchet to Serpentine Battle Axe.
