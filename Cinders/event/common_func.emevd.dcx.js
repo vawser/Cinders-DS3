@@ -4632,6 +4632,27 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+// Trial - Warp To
+Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    SetEventFlag(X16_4, ON);
+    RotateCharacter(10000, X0_4, 91040, false);
+    SendAllPhantomsHome(0);
+    WaitFixedTimeSeconds(3);
+    WarpPlayer(X8_1, 0, X12_4);
+});
+
+// Trial - Warp From
+Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    SetEventFlag(X16_4, OFF);
+    RotateCharacter(10000, X0_4, 91040, false);
+    SendAllPhantomsHome(0);
+    WaitFixedTimeSeconds(3);
+    SetMapCeremony(X8_1, 0, 0);
+    WarpPlayer(X8_1, 0, X12_4);
+});
+
 // Treasure Control - NG+ = X
 Event(20009000, Default, function(X0_4, X4_1) {
     IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
@@ -4706,6 +4727,10 @@ Event(20009300, Restart, function() {
     // 25000002 - Greed - Abyss Watchers
     // 25000003 - Lethargy -   Yhorm
     // 25000004 - Wrath - Lothric
+    // 25000005 - Trial of Avarice
+    // 25000006 - Trial of Might
+    // 25000007 - Trial of Valor
+    // 25000008 - Trial of Fortitude
     SetEventFlag(25000010, ON); // Deathless Run
     
     // Deathless Boss Kill Flags

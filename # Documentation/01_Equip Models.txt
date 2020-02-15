@@ -187,13 +187,13 @@
 9982    Scythe of Want
 9983    Crab Claws
 9984    Old Moonlight Greatsword
+
 9985    Coiled Stake 
 9986    Deacon's Candle
 9987    Deacon's Candlestick
 9988    Frost Crab Claws
 9989    Gael's Dusty Greatsword
 9990    Wax-covered Candlestick
-
 0840    Hands of Sin
 0841    Aldia Hammer   
 0842    Black Scorpion Stinger
@@ -217,14 +217,43 @@
 0860    Spitfire Spear
 0861    Syan's Halberd
 0862    Warped Sword
-0863
-0864
-0865
-0866
-0867
-0868
-0869
-0870
+0863    Cracked Round Shield
+0864    Frying Pan
+0865    Gertrude's Knight Longaxe
+0866    Winged Knight Longaxe
+0867    Giant's Crossbow
+0868    Lothric Knight Claymore
+0869    Serpentine Chain-axe
+0870    Model Ballista
+0871    
+0872
+0873
+0874
+0875
+0876
+0877
+0878
+0879
+0880
+0881
+0882
+0883
+0884
+0885
+0886
+0887
+0888
+0889
+0890
+0891
+0892
+0893
+0894
+0895
+0896
+0897
+0898
+0899
 
 #------------------------
 # Custom Armor
@@ -262,15 +291,15 @@
 9830    Pygmy Crown
 9831    Ringed Cleric Turban
 9832    Ringed Knight Head
-9833
-9834
-9835
-9836
-9837
-9838
-9839
-9840
-9841
+9833    Basilisk Cap
+9834    Crown of the Holy King
+9835    Large Soldier Helm
+9836    Pot Helmet
+9837    Priest Mask
+9838    Murkman
+9839    Skeleton
+9840    Skeleton (Tree)
+9841    Skeleton (hat)
 9842
 9843
 9844

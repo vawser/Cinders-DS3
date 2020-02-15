@@ -30,69 +30,10 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Reduced the damage multipliers in NG+ for enemies.
-- Removed the multipliers to the elemental defences in area/ng scaling, so split damage weapons aren't unduly reduced.
-- Reduced the physical defence of enemies in the early zones significantly.
-- Defense and Resist now only come from Soul Level, not individual stats.
-- Defence Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
-- Resist Scale: {1:50, 100:100, 200:150, 300:200, 400:300}
 
-# Champion's Pact
-- Split into five options, each giving 20% soul absorption.
-- Toggled behind each of the Lord of Cinder thrones, where the engravings used to be.
- - Curse of Pride: Adds additional enemies in the world.
- - Curse of Wrath: Enemies will gain 1% damage per second after combat begins.
- - Curse of Gluttony: FP and stamina consumption is increased by 50%.
- - Curse of Vulnerability: Reduces absorption by 50%.
- - Curse of Agony: Lose 10 + 0.5% HP every second.
-
-# Status Effects:
-- Frost: reduces defense by 75%, rather than absorption by 20%.
-
-# Weapons
-- Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
-- Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
-- Boosted the stock multipliers to lower the gap between infusions and stock.
-- Scythe of Want: increases soul absorption by 20%.
-- Reverted the backstab/riposte motion values to vanilla.
-- Friede's Great Scythe now deals its magic damage on its normal attacks.
-- Reduced critical boost from Lethal to 10.
-- Restored the bow animation speeds to the older version (they were accidently reverted recently).
-- Fire Infusion DOT: now lasts 5 seconds, deals 5 + 0.2% damage every 0.3 seconds.
-- Lightning Infusion: now lasts 5 seconds.
-
-# Spells
-- Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
-- Lightning Arrow: damage to 200.
-- Heavenly Thunder: damage to 150.
-- Emit Force: damage to 300 (100).
-- Farron Dart: damage to 100
-- Great Farron Dart: damage to 150
-- Halo: now acts more like Gael's halo spell.
-- Increased the base speed of the Lightning Arrow animation.
-
-# Rings
-- Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
-
-# Enemies
-- Enemies that once dropped random equipment no longer drop it. All equipment is now either treasure or guaranteed one-time drops from specific enemies. Enemies still drop non-equipment items.
-- The Executioner is now the Abyss Walker in the Triad boss fight.
-
-# Map
-- Added 16 new treasure corpses and 7 chests to Ariandel.
-- Made the Pilgrim Angels slightly less accurate.
-- New journey giant is now only present in Cemetery of Ash, and is on the side route at the start.
-- Added 71 treasures for the once random equipment.
-
-# Bugfixes
-- Fixed a few new weapons that were missed when doing the damage/scaling for their infusions.
-- Blue Flame is now correctly only Sorceries.
-- Self-damage will no longer trigger the enemy buffs on the player from the Champion's Pact.
-- Fixed Black Dragon Sword vfx/hitbox.
-- Fixed Black Dragon Greatsword vfx/hitbox.
-- Fixed the Forlorn not meeting weapon reqs.
-- Glaive Master Hodir now wields actual glaives.
+# Bugfxies
+- King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
+- Ascended pyromancies that drop lava now drop it properly.
 
 #------------------------------
 # TODO
@@ -105,6 +46,4 @@ Add secret drop points that warp you to special areas
 Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
 Add darkness to nightmare bosses (add intercept in boss start script to check for nightmare mode)
 Add mimic boss
-Make the re-fight items warp you to points in front of the fog door
-Add respawn points for the warps where they warp you to.
 
