@@ -30,11 +30,11 @@ Magic:
 
 Fire:  
 - Adds Fire damage.
-- Adds effect: adds X damage DOT on hit, lasting 5 seconds. X depends on weapon type.
+- Adds effect: adds 5 + 0.2% damage DOT on hit, lasting 5 seconds.
 
 Lightning:  
 - Adds Lightning damage.
-- Adds effect: reduces enemy poise by 50% for 15 seconds on hit.
+- Adds effect: reduces enemy poise by 50% for 5 seconds on hit.
 
 Dark:  
 - Adds Dark damage.

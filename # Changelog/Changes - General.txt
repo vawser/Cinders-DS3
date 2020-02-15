@@ -103,7 +103,7 @@ Frost
 - Lasts 30 seconds.
 - Deals 50/75/100 + 2.5% damage on proc. Depends on weapon type.
 - Reduces stamina recovery by 15.
-- Reduces absorption by 20% whilst active.
+- Reduces defense by 75% whilst active.
 
 #------------------------
 # Stat Changes

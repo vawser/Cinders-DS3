@@ -15,17 +15,17 @@
 53002097 High Wall of Lothric / Consumed King's Garden
 53102091 Undead Settlement
 53302172 Road of Sacrifices / Farron Keep
-53502078 Cathedral of the Deep
-53802164 Catacombs of Carthus / Smouldering Lake
+53502080 Cathedral of the Deep
+53802166 Catacombs of Carthus / Smouldering Lake
 53702144 Irithyll of the Boreal Valley / Anor Londo
-53902114 Irithyll Dungeon / Profaned Capital
+53902115 Irithyll Dungeon / Profaned Capital
 53012089 Lothric Castle
 53412124 Grand Archives
 54102010 Kiln of the First Flame
 53202072 Archdragon Peak
 54502070 Painted World of Ariandel
 55002057 Dreg Heap
-55102054 The Ringed City
+55102055 The Ringed City
 
 #------------------------------
 # Changelog
@@ -47,6 +47,9 @@
  - Curse of Vulnerability: Reduces absorption by 50%.
  - Curse of Agony: Lose 10 + 0.5% HP every second.
 
+# Status Effects:
+- Frost: reduces defense by 75%, rather than absorption by 20%.
+
 # Weapons
 - Improved the reinforcement multipliers so damage scales better into the lategame. (i.e. Max scaling went from 2 to 2.3)
 - Improved the scaling multipliers for Lethal/Sharp/Blunt so they keep up with the other infusions.
@@ -55,6 +58,9 @@
 - Reverted the backstab/riposte motion values to vanilla.
 - Friede's Great Scythe now deals its magic damage on its normal attacks.
 - Reduced critical boost from Lethal to 10.
+- Restored the bow animation speeds to the older version (they were accidently reverted recently).
+- Fire Infusion DOT: now lasts 5 seconds, deals 5 + 0.2% damage every 0.3 seconds.
+- Lightning Infusion: now lasts 5 seconds.
 
 # Spells
 - Sacred Oath now only boosts Physical and Lightning attack damage (+ absorption stuff).
@@ -64,6 +70,7 @@
 - Farron Dart: damage to 100
 - Great Farron Dart: damage to 150
 - Halo: now acts more like Gael's halo spell.
+- Increased the base speed of the Lightning Arrow animation.
 
 # Rings
 - Greatwood Remnants: Increases physical defence by 50% but increases evasive stamina consumption by 50%.
@@ -85,6 +92,7 @@
 - Fixed Black Dragon Sword vfx/hitbox.
 - Fixed Black Dragon Greatsword vfx/hitbox.
 - Fixed the Forlorn not meeting weapon reqs.
+- Glaive Master Hodir now wields actual glaives.
 
 #------------------------------
 # TODO
@@ -100,16 +108,3 @@ Add mimic boss
 Make the re-fight items warp you to points in front of the fog door
 Add respawn points for the warps where they warp you to.
 
-Go through WA, adjust motion values
-Reduce top end reinforcement modifiers down a bit
-Move all equipment from random drop into either specific enemy drop or treasure
-    Sage Prentice
-    
-
-- Tidied up enemy itemlots.
-- Reduced the scaling boost from the primordial titanite part. (+10 was 2.3, is now 2).
-- Adjusted weapon art motion values.
-- Great Scythe uses the normal reaper moveset again.
-- Renamed Man Serpent's Mask/Robe to Serpentine Mask/Robe.
-- Renamed Man Serpent's Hatchet to Serpentine Hatchet.
-- Renamed the old Serpentine Hatchet to Serpentine Battle Axe.

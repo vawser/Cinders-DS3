@@ -212,10 +212,11 @@ To edit:
 #---------------------
 # Bows
 #---------------------
-81  # Bow
-82  # Pharis
-83  # Greatbow
-44  # Longbow
+081  # Bow
+082  # Pharis
+044  # Longbow
+
+083  # Greatbow
 184 # Onibow
 244 # Millwood
 
