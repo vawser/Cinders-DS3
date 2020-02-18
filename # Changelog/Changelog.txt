@@ -86,13 +86,14 @@ NG Scaling: 8500
  700230 Lothric Knight - Red-eyed - 128221 - c1280
  
 # Wave 5
+ 
+  
+# Wave 6
  700240 Giant Crystal Lizard - 310001 - c3100
  700250 Wretch - Unarmed - 207001 - c2070
  700260 Wretch - Spear - 207012 - c2070
  700270 Wretch - Dagger - 207021 - c2070
-  
-# Wave 6
-
+ 
 # Wave 7
 
 # Wave 8
