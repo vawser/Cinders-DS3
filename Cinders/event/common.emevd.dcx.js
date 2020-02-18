@@ -1682,24 +1682,28 @@ Event(400021, Default, function() {
 Event(400022, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000004);
     SetSpeffect(10000, 250001100);
+    SetSpeffect(10000, 250001101);
 });
 
 // Gluttony
 Event(400023, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000001);
     SetSpeffect(10000, 250001200);
+    SetSpeffect(10000, 250001201);
 });
 
 // Greed
 Event(400024, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000002);
     SetSpeffect(10000, 250001300);
+    SetSpeffect(10000, 250001301);
 });
 
 // Lethargy
 Event(400025, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000003);
     SetSpeffect(10000, 250001400);
+    SetSpeffect(10000, 250001401);
 });
 
 // Pride
@@ -1707,7 +1711,6 @@ Event(400026, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
     SetSpeffect(10000, 250001000);
     SetSpeffect(10000, 250001001);
-    SetSpeffect(10000, 250001010);
 });
 
 // Crow Trades
