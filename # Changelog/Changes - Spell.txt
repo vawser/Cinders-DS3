@@ -360,14 +360,14 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 250 [150] 
-- Ascended Effect: impact now leaves a lava pool.
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 40
 - Fire Damage: 300 [200] 
-- Ascended Effect: impact now leaves a lava pool.
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Firestorm
@@ -395,7 +395,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 60
 - Fire Damage: 400 [100] [350] 
-- Ascended Effect: shoots 2 projectiles.
+- Ascended Effect: shoots 3 projectiles.
 
 #--------------------------------
 # Chaos Storm
@@ -423,13 +423,13 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 80
 - Fire Damage: 600 [100] 
-- Ascended Effect: impact now leaves lava pool.
+- Ascended Effect: increases poise damage to 100 (normally 40).
 
 #--------------------------------
 # Cataclysm
 #--------------------------------
 - FP Cost: 140
-- Fire Damage: 75 per bullet
+- Fire Damage: 200 per bullet
 - Ascended Effect: extends duration to 8 (normally 5).
 
 #--------------------------------
@@ -492,7 +492,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Earthfall
 #--------------------------------
 - FP Cost: 140
-- Fire Damage: 75 (per bullet) 
+- Fire Damage: 200 (per bullet) 
 - Ascended Effect: extends duration to 8 (normally 5).
 
 #--------------------------------
@@ -692,7 +692,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 140
-- Lightning Damage: 150 (per bullet)
+- Lightning Damage: 200 (per bullet)
 - FTH Req: 50
 - Ascended Effect: emits more projectiles.
 

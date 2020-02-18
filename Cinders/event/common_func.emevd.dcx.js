@@ -3946,6 +3946,7 @@ Event(20005062, Restart, function(X0_4, X4_4) {
     SetEventFlag(X4_4, ON);
 });
 
+// Hollow Arena - Setup
 Event(20005920, Restart, function(X0_1, X4_4, X8_4, X12_4) {
     SetAreaWelcomeMessageState(Disabled);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
@@ -3968,6 +3969,7 @@ Event(20005920, Restart, function(X0_1, X4_4, X8_4, X12_4) {
     SetNetworkconnectedEventFlag(X4_4, ON);
 });
 
+// Hollow Arena - Duel
 Event(20005930, Restart, function(X0_4) {
     IfHollowArenaSoloScoreComparison(OR_01, ComparisonType.Equal, 0);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3977,6 +3979,7 @@ Event(20005930, Restart, function(X0_4) {
     SetNetworkconnectedEventFlag(X0_4, ON);
 });
 
+// Hollow Arena - Cleanup
 Event(20005940, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -4023,6 +4026,7 @@ Event(20005940, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Hollow Arena - Duel
 Event(20005941, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -4727,10 +4731,8 @@ Event(20009300, Restart, function() {
     // 25000002 - Greed - Abyss Watchers
     // 25000003 - Lethargy -   Yhorm
     // 25000004 - Wrath - Lothric
-    // 25000005 - Trial of Avarice
-    // 25000006 - Trial of Might
-    // 25000007 - Trial of Valor
-    // 25000008 - Trial of Fortitude
+    // 25000005 - Wave of Trial
+
     SetEventFlag(25000010, ON); // Deathless Run
     
     // Deathless Boss Kill Flags
@@ -5009,4 +5011,10 @@ Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     
     Label2();
     EndUnconditionally(EventEndType.Restart);
+});
+
+// Check Player Death for Firelink Return
+Event(20060001, Restart, function() {
+    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    SetMapCeremony(40, 0, 0);
 });

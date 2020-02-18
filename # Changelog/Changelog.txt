@@ -16,7 +16,7 @@
 53102091 Undead Settlement
 53302172 Road of Sacrifices / Farron Keep
 53502080 Cathedral of the Deep
-53802166 Catacombs of Carthus / Smouldering Lake
+53802171 Catacombs of Carthus / Smouldering Lake
 53702144 Irithyll of the Boreal Valley / Anor Londo
 53902115 Irithyll Dungeon / Profaned Capital
 53012089 Lothric Castle
@@ -30,18 +30,74 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Reduced the damage multipliers for the Primordial Titanite levels.
+- Reduced the Bewitched Alonne Sword damage.
+
+# Curse
+- Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
+
+# Spells
+- Adjusted some ascended pyromancies.
+- Blessed Weapon now requires 30 FTH.
+
 # Bugfixes
 - King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
-- Ascended pyromancies that drop lava now drop it properly.
 
 #------------------------------
 # TODO
 #------------------------------
-Add wolf in DLC1 as one-time enemy in ice pit area
+New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-New illusory walls
-Add secret drop points that warp you to special areas
-Add a horde challenge, using generators, where you must survive for a period of time. If you do, get a reward. Probably in Midir's arena.
-Add mimic boss
+
+NG Scaling: 8500
+
+# Wave 1
+ 700000 Giant Rat - 228001 - c2280
+ 700020 Hound-rat - 211001 - c2110
+ 700010 Giant Slave - 302001 - c3020
+ 
+# Wave 2
+ 700030 Ghru - Spear - 121002 - c1210
+ 700040 Ghru - Curved Sword - 121011 - c1210
+ 700050 Ghru - Talisman - 121024 - c1210
+ 700060 Ghru - Mad - 121031 - c1210
+ 700070 Elder Ghru - 312010 - c3120
+ 
+# Wave 3
+ 700080 Skeleton - Scimitar - 107041 - c1070
+ 700090 Skeleton - Falchion - 107042 - c1070
+ 700100 Skeleton - Bow - 107043 - c1070
+ 700110 Skeleton - Firebomb - 107044 - c1070
+ 700120 Carthus Swordsman - Curved Sword - 117020 - c1170
+ 700130 Carthus Swordsman - Curved Greatword - 117021 - c1170
+ 700140 Carthus Swordsman - Bow - 117022 - c1170
+ 700150 Demon - 306001 - c3060
+ 
+# Wave 4
+ 700160 Hollow Soldier - Sword - 110200 - c1100
+ 700170 Hollow Soldier - Sword and Shield - 110201 - c1100
+ 700180 Hollow Soldier - Crossbow - 110202 - c1100
+ 700190 Hollow Soldier - Spear and Shield - 110203 - c1100
+ 700200 Hollow Soldier - Assassin - 110204 - c1100
+ 700210 Large Hollow Soldier - Greataxe - 110502 - c1105
+ 700220 Large Hollow Soldier - Halberd - 110512 - c1105
+ 700230 Lothric Knight - Red-eyed - 128221 - c1280
+ 
+# Wave 5
+ 700240 Giant Crystal Lizard - 310001 - c3100
+ 700250 Wretch - Unarmed - 207001 - c2070
+ 700260 Wretch - Spear - 207012 - c2070
+ 700270 Wretch - Dagger - 207021 - c2070
+  
+# Wave 6
+
+# Wave 7
+
+# Wave 8
+
+# Wave 9
+
+# Wave 10
 
