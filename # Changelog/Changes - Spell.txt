@@ -428,9 +428,9 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Cataclysm
 #--------------------------------
-- FP Cost: 140
-- Fire Damage: 200 per bullet
-- Ascended Effect: extends duration to 8 (normally 5).
+- FP Cost: 80
+- Fire Damage: 800
+- Ascended Effect: emits more projectiles.
 
 #--------------------------------
 # Floating Chaos
@@ -491,9 +491,9 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Earthfall
 #--------------------------------
-- FP Cost: 140
-- Fire Damage: 200 (per bullet) 
-- Ascended Effect: extends duration to 8 (normally 5).
+- FP Cost: 80
+- Fire Damage: 800
+- Ascended Effect: emits more projectiles.
 
 #--------------------------------
 # Poison Mist
@@ -691,8 +691,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 140
-- Lightning Damage: 200 (per bullet)
+- FP Cost: 80
+- Lightning Damage: 800
 - FTH Req: 50
 - Ascended Effect: emits more projectiles.
 

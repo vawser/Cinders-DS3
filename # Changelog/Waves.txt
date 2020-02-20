@@ -1,0 +1,81 @@
+﻿# Wave 1
+ 700160 Hollow Soldier - Sword - 110200 - c1100
+ 700170 Hollow Soldier - Sword and Shield - 110201 - c1100
+ 700180 Hollow Soldier - Crossbow - 110202 - c1100
+ 700190 Hollow Soldier - Spear and Shield - 110203 - c1100
+ 700200 Hollow Soldier - Assassin - 110204 - c1100
+ 700210 Large Hollow Soldier - Greataxe - 110502 - c1105
+ 700220 Large Hollow Soldier - Halberd - 110512 - c1105
+ 700230 Lothric Knight - Greatsword - 128221 - c1280
+ 700290 Lothric Knight - Sword - 128222 - c1280
+ 700300 Lothric Knight - Spear - 128223 - c1280
+ 700310 Winged Knight [Miniboss] - 129011 - c1290
+ 
+# Wave 2
+ 700320 Peasant Hollow - Axe - 124060 - c1240
+ 700330 Peasant Hollow - Lantern - 124061 - c1240
+ 700340 Peasant Hollow - Sickle - 124062 - c1240
+ 700350 Peasant Hollow - Mallet - 124063 - c1240
+ 700360 Peasant Hollow - Hoe - 124064 - c1240
+ 700370 Hollow Manservant - Saw - 126011 - c1260
+ 700380 Hollow Manservant - Pot - 126010 - c1260
+ 700390 Black Knight - Greatsword - 130011 - c1300
+ 
+# Wave 3
+ 700400 Corvian - Dagger - 221030 - c2210
+ 700410 Corvian - Scythe - 221031 - c2210
+ 700420 Corvian - Staff - 221032 - c2210
+ 700430 Undead Dog - 202001 - c2020
+ 700440 Black Knight - Greataxe - 130021 - c1300
+ 
+# Wave 4
+ 700450 Cathedral Knight - Mace 
+ 700460 Cathedral Knight - Greatsword
+ 700470 Fat Deacon
+ 700480 Tall Deacon
+ 700490 Thin Deacon
+ 700500 Deep Accursed
+ 
+# Wave 5
+ 700030 Ghru - Spear - 121002 - c1210
+ 700040 Ghru - Curved Sword - 121011 - c1210
+ 700050 Ghru - Talisman - 121024 - c1210
+ 700060 Ghru - Mad - 121031 - c1210
+ 700070 Elder Ghru - 312010 - c3120
+ 
+# 
+ 700000 Giant Rat - 228001 - c2280
+ 700020 Hound-rat - 211001 - c2110
+ 700010 Giant Slave - 302001 - c3020
+ 
+
+ 
+# Wave 3
+ 700080 Skeleton - Scimitar - 107041 - c1070
+ 700090 Skeleton - Falchion - 107042 - c1070
+ 700100 Skeleton - Bow - 107043 - c1070
+ 700110 Skeleton - Firebomb - 107044 - c1070
+ 700120 Carthus Swordsman - Curved Sword - 117020 - c1170
+ 700130 Carthus Swordsman - Curved Greatword - 117021 - c1170
+ 700140 Carthus Swordsman - Bow - 117022 - c1170
+ 700150 Demon - 306001 - c3060
+ 
+# Wave 4
+ 
+ 
+# Wave 5
+ 
+  
+# Wave 6
+ 700240 Giant Crystal Lizard - 310001 - c3100
+ 700250 Wretch - Unarmed - 207001 - c2070
+ 700260 Wretch - Spear - 207012 - c2070
+ 700270 Wretch - Dagger - 207021 - c2070
+ 
+# Wave 7
+
+# Wave 8
+
+# Wave 9
+
+# Wave 10

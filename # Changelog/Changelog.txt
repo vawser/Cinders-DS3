@@ -40,6 +40,12 @@
 # Spells
 - Adjusted some ascended pyromancies.
 - Blessed Weapon now requires 30 FTH.
+- Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
+- Likewise with Cataclysm and Earthfall.
+- Reduced Heavenly Thunder FTH requirement to 35.
+
+# Enemies
+- Added red eye VFX to nightmare bosses that support it.
 
 # Bugfixes
 - King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
@@ -50,55 +56,4 @@
 New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-
-NG Scaling: 8500
-
-# Wave 1
- 700000 Giant Rat - 228001 - c2280
- 700020 Hound-rat - 211001 - c2110
- 700010 Giant Slave - 302001 - c3020
- 
-# Wave 2
- 700030 Ghru - Spear - 121002 - c1210
- 700040 Ghru - Curved Sword - 121011 - c1210
- 700050 Ghru - Talisman - 121024 - c1210
- 700060 Ghru - Mad - 121031 - c1210
- 700070 Elder Ghru - 312010 - c3120
- 
-# Wave 3
- 700080 Skeleton - Scimitar - 107041 - c1070
- 700090 Skeleton - Falchion - 107042 - c1070
- 700100 Skeleton - Bow - 107043 - c1070
- 700110 Skeleton - Firebomb - 107044 - c1070
- 700120 Carthus Swordsman - Curved Sword - 117020 - c1170
- 700130 Carthus Swordsman - Curved Greatword - 117021 - c1170
- 700140 Carthus Swordsman - Bow - 117022 - c1170
- 700150 Demon - 306001 - c3060
- 
-# Wave 4
- 700160 Hollow Soldier - Sword - 110200 - c1100
- 700170 Hollow Soldier - Sword and Shield - 110201 - c1100
- 700180 Hollow Soldier - Crossbow - 110202 - c1100
- 700190 Hollow Soldier - Spear and Shield - 110203 - c1100
- 700200 Hollow Soldier - Assassin - 110204 - c1100
- 700210 Large Hollow Soldier - Greataxe - 110502 - c1105
- 700220 Large Hollow Soldier - Halberd - 110512 - c1105
- 700230 Lothric Knight - Red-eyed - 128221 - c1280
- 
-# Wave 5
- 
-  
-# Wave 6
- 700240 Giant Crystal Lizard - 310001 - c3100
- 700250 Wretch - Unarmed - 207001 - c2070
- 700260 Wretch - Spear - 207012 - c2070
- 700270 Wretch - Dagger - 207021 - c2070
- 
-# Wave 7
-
-# Wave 8
-
-# Wave 9
-
-# Wave 10
 
