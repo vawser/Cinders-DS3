@@ -4637,9 +4637,8 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
 });
 
 // Trial - Warp To
-Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
-    SetEventFlag(X16_4, ON);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
@@ -5010,6 +5009,15 @@ Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     WaitFixedTimeSeconds(3);
     
     Label2();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Read Engraving
+Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    IfActionButtonInArea(MAIN, X8_4, X4_4);
+    DisplayEpitaphMessage(X0_4);
+    WaitFixedTimeSeconds(3);
     EndUnconditionally(EventEndType.Restart);
 });
 

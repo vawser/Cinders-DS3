@@ -30,12 +30,23 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Trial of Perseverance
+- You may now enter the Trial of Perseverance via the sword in the alcove near to the Firelink Shrine bonfire.
+- The Trial of Perseverance is an endurance challenge, where you must survive for as long as possible without resting.
+- There are 31 different kinds of waves, which ones you face are randomly picked every 90 seconds.
+- Each wave lasts 60 seconds, with a 30 second rest period between each wave.
+- If you survive 15 minutes you will unlock the ability to use the Primordial Forging options.
+- All enemies drop their normal drops and souls within waves, meaning you can farm them via the trial.
+- Each wave completed will boost soul absorption by 10% and Item Discovery by 10, meaning you are rewarded for each wave you survive consecutively.
+
 # Weapons
 - Reduced the damage multipliers for the Primordial Titanite levels.
 - Reduced the Bewitched Alonne Sword damage.
 
 # Curse
 - Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
+- Curse of Gluttony now forces slow movement.
+- Curse of Vulnerability now prevents estus flask usage.
 
 # Spells
 - Adjusted some ascended pyromancies.
@@ -43,12 +54,18 @@
 - Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
 - Likewise with Cataclysm and Earthfall.
 - Reduced Heavenly Thunder FTH requirement to 35.
+- Adjusted Soul Geyser bullets.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
+- Primordial Titanite drops from NG+ ring mobs is now less than 100% on the weaker mobs.
 
 # Bugfixes
 - King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
+- Fixed Scholar's Bow not adding its effect.
+- Corrected incorrect Rare Ring of Humanity summary.
+- Fixed the Primordial Titanite drop rate from Dream bosses being inverted.
+- Fixed bug with Crab Claw drop.
 
 #------------------------------
 # TODO
@@ -56,4 +73,4 @@
 New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-
+Fix the warp issues by setting ceremony

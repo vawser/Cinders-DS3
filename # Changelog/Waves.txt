@@ -1,81 +1,276 @@
 ﻿# Wave 1
- 700160 Hollow Soldier - Sword - 110200 - c1100
- 700170 Hollow Soldier - Sword and Shield - 110201 - c1100
- 700180 Hollow Soldier - Crossbow - 110202 - c1100
- 700190 Hollow Soldier - Spear and Shield - 110203 - c1100
- 700200 Hollow Soldier - Assassin - 110204 - c1100
- 700210 Large Hollow Soldier - Greataxe - 110502 - c1105
- 700220 Large Hollow Soldier - Halberd - 110512 - c1105
- 700230 Lothric Knight - Greatsword - 128221 - c1280
- 700290 Lothric Knight - Sword - 128222 - c1280
- 700300 Lothric Knight - Spear - 128223 - c1280
- 700310 Winged Knight [Miniboss] - 129011 - c1290
- 
-# Wave 2
- 700320 Peasant Hollow - Axe - 124060 - c1240
- 700330 Peasant Hollow - Lantern - 124061 - c1240
- 700340 Peasant Hollow - Sickle - 124062 - c1240
- 700350 Peasant Hollow - Mallet - 124063 - c1240
- 700360 Peasant Hollow - Hoe - 124064 - c1240
- 700370 Hollow Manservant - Saw - 126011 - c1260
- 700380 Hollow Manservant - Pot - 126010 - c1260
- 700390 Black Knight - Greatsword - 130011 - c1300
- 
-# Wave 3
- 700400 Corvian - Dagger - 221030 - c2210
- 700410 Corvian - Scythe - 221031 - c2210
- 700420 Corvian - Staff - 221032 - c2210
- 700430 Undead Dog - 202001 - c2020
- 700440 Black Knight - Greataxe - 130021 - c1300
- 
-# Wave 4
- 700450 Cathedral Knight - Mace 
- 700460 Cathedral Knight - Greatsword
- 700470 Fat Deacon
- 700480 Tall Deacon
- 700490 Thin Deacon
- 700500 Deep Accursed
- 
-# Wave 5
- 700030 Ghru - Spear - 121002 - c1210
- 700040 Ghru - Curved Sword - 121011 - c1210
- 700050 Ghru - Talisman - 121024 - c1210
- 700060 Ghru - Mad - 121031 - c1210
- 700070 Elder Ghru - 312010 - c3120
- 
-# 
- 700000 Giant Rat - 228001 - c2280
- 700020 Hound-rat - 211001 - c2110
- 700010 Giant Slave - 302001 - c3020
- 
+Hollow Soldier - Straight Sword (1)
+Hollow Soldier - Sword and Shield (1)
+Hollow Soldier - Lantern (1)
+Hollow Soldier - Crossbow (1)
+Hollow Soldier - Spear and Shield (1)
+Hollow Soldier - Assassin (1)
+Large Hollow Soldier - Greataxe (1)
+Large Hollow Soldier - Halberd (1)
 
- 
+# Wave 2
+Basilisk (1)
+Basilisk (2)
+Basilisk (3)
+Rotten Slug (1)
+Rotten Slug (2)
+Rotten Slug (3)
+
 # Wave 3
- 700080 Skeleton - Scimitar - 107041 - c1070
- 700090 Skeleton - Falchion - 107042 - c1070
- 700100 Skeleton - Bow - 107043 - c1070
- 700110 Skeleton - Firebomb - 107044 - c1070
- 700120 Carthus Swordsman - Curved Sword - 117020 - c1170
- 700130 Carthus Swordsman - Curved Greatword - 117021 - c1170
- 700140 Carthus Swordsman - Bow - 117022 - c1170
- 700150 Demon - 306001 - c3060
- 
+Peasant Hollow - Axe (1)
+Peasant Hollow - Lantern (1)
+Peasant Hollow - Sickle (1)
+Peasant Hollow - Mallet (1)
+Peasant Hollow - Hoe (1)
+Cathedral Evangelist (1)
+Hollow Manservant - Saw (1)
+Hollow Manservant - Pot (1)
+
 # Wave 4
- 
- 
+Undead Dog (1)
+Undead Dog (2)
+Undead Dog (3)
+Undead Dog (4)
+Small Undead Dog (1)
+Small Undead Dog (2)
+Small Undead Dog (3)
+Small Undead Dog (4)
+
 # Wave 5
- 
-  
+Corvian - Dagger (1)
+Corvian - Scythe (1)
+Corvian - Storyteller Staff (1)
+Lycanthrope (1)
+Lycanthrope Hunter (1)
+Lycanthrope Hunter (2)
+Lycanthrope Hunter (3)
+
 # Wave 6
- 700240 Giant Crystal Lizard - 310001 - c3100
- 700250 Wretch - Unarmed - 207001 - c2070
- 700260 Wretch - Spear - 207012 - c2070
- 700270 Wretch - Dagger - 207021 - c2070
- 
+Darkwraith (1)
+Darkwraith (2)
+Darkwraith (3)
+Darkwraith (4)
+Darkwraith (5)
+Darkwraith (6)
+
 # Wave 7
+Skeleton - Scimitar (1)
+Skeleton - Falchion (1)
+Skeleton - Bow (1)
+Skeleton - Firebomb (1)
+Carthus Swordsman - Sword (1)
+Carthus Swordsman - Greatsword (1)
+Carthus Swordsman - Bow (1)
+Carthus Swordsman - Shotel (1)
 
 # Wave 8
+Bonewheel Skeleton (1)
+Bonewheel Skeleton (2)
+Bonewheel Skeleton (3)
+Bonewheel Skeleton (4)
+Bonewheel Skeleton (5)
+Bonewheel Skeleton (6)
+Bonewheel Skeleton (7)
+Bonewheel Skeleton (8)
 
 # Wave 9
+Elder Ghru (1)
+Ghru - Spear (1)
+Ghru - Spear (2)
+Ghru - Curved Sword (1)
+Ghru - Curved Sword (2)
+Ghru - Dagger (1)
+Ghru - Dagger (2)
+Ghru - Mad (1)
+Ghru - Mad (2)
 
 # Wave 10
+Demon Cleric (1)
+Demon Cleric (2)
+Demon Statue (1)
+Demon Statue (2)
+Demon Statue (3)
+Demon Statue (4)
+Demon Statue (5)
+
+# Wave 11
+Cathedral Grave Warden (1)
+Cathedral Grave Warden (2)
+Cathedral Grave Warden (3)
+Deep Acursed (1)
+
+# Wave 12
+Black Knight - Greatsword (1)
+Black Knight - Greatsword (2)
+Black Knight - Greataxe (1)
+Black Knight - Greataxe (2)
+
+# Wave 13
+Rotten Slug (1)
+Rotten Slug (2)
+Rotten Slug (3)
+Hollow Slave - Axe (1)
+Hollow Slave - Pick (1)
+Hollow Slave - Flamberge (1)
+Cathedral Knight - Mace (1)
+Cathedral Knight - Greatsword (1)
+
+# Wave 14
+Gargoyle - Hammer (1)
+Gargoyle - Hammer (2)
+Gargoyle - Spear (1)
+Gargoyle - Spear (2)
+
+# Wave 15
+Fat Deacon (1)
+Fat Deacon (2)
+Fat Deacon (3)
+Tall Deacon (1)
+Tall Deacon (2)
+Tall Deacon (3)
+Thin Deacon (1)
+Thin Deacon (2)
+Thin Deacon (3)
+
+# Wave 16
+Monstrosity of Sin (1)
+Poisonhorn Bug (1)
+Poisonhorn Bug (2)
+Poisonhorn Bug (3)
+Writhing Rotten Flesh (1)
+Writhing Rotten Flesh (2)
+Writhing Rotten Flesh (3)
+Sewer Centipede (1)
+Sewer Centipede (2)
+Sewer Centipede (3)
+
+# Wave 17
+Jailer (1)
+Jailer (2)
+Jailer (3)
+Jailer Handmaid (1)
+Jailer Handmaid (2)
+Jailer Handmaid (3)
+
+# Wave 18
+Hound-rat (1)
+Hound-rat (2)
+Hound-rat (3)
+Hound-rat (4)
+Hound-rat (5)
+Giant Rat (1)
+Giant Rat (2)
+Basilisk (1)
+Basilisk (2)
+Basilisk (3)
+
+# Wave 19
+Wretch - Unarmed (1)
+Wretch - Unarmed (2)
+Wretch - Spear (1)
+Wretch - Spear (2)
+Wretch - Dagger (1)
+Wretch - Dagger (2)
+Giant Slave (1)
+
+# Wave 20
+Serpent-man Summoner (1)
+Serpent-man - Dagger (1)
+Serpent-man - Hatchet (1)
+Serpent-man - Axe (1)
+Serpent-man - Double-bit Axe (1)
+Giant Serpent-man - Chainaxe (1)
+Giant Serpent-man - Greataxe (1)
+
+# Wave 21
+Rock Lizard (1)
+Rock Lizard (2)
+Rock Lizard (3)
+Rock Lizard (4)
+Rock Lizard (5)
+Rock Lizard (6)
+
+# Wave 22
+Lothric Knight - Sword (1)
+Lothric Knight - Spear and Shield (1)
+Lothric Knight - Greatsword (1)
+Winged Knight - Halberd (1)
+Winged Knight - Twinaxes (1)
+
+# Wave 23
+Irithyllian Slave - 1 (1)
+Irithyllian Slave - 2 (1)
+Irithyllian Slave - 3 (1)
+Irithyllian Slave - 4 (1)
+Irithyllian Slave - 5 (1)
+Irithyll Fire Witch (1)
+
+# Wave 24
+Pontiff Knight - Curved Sword (1)
+Pontiff Knight - Curved Sword (2)
+Pontiff Knight - Scythe (1)
+Pontiff Knight - Scythe (2)
+Boreal Outrider Knight (1)
+
+# Wave 25
+Silver Knight - Sword and Shield (1)
+Silver Knight - Sword and Shield (2)
+Silver Knight - Spear and Shield (1)
+Silver Knight - Spear and Shield (2)
+Silver Knight - Greatbow (1)
+Silver Knight - Greatbow (2)
+
+# Wave 26
+Archive Scholar (1)
+Archive Scholar (2)
+Archive Scholar (3)
+Ravenous Crystal Lizard (1)
+Ravenous Crystal Lizard (2)
+
+# Wave 27
+Farron Follower - 1 (1)
+Farron Follower - 2 (1)
+Farron Follower - 3 (1)
+Farron Follower - 4 (1)
+Tree Woman (1)
+Tree Woman (2)
+
+# Wave 28
+Wolf (1)
+Wolf (2)
+Wolf (3)
+Wolf (4)
+Skittish Wolf (1)
+Skittish Wolf (2)
+Skittish Wolf (3)
+Skittish Wolf (4)
+
+# Wave 29
+Big Locust (1)
+Big Locust (2)
+Big Locust (3)
+Small Locust (1)
+Small Locust (2)
+Small Locust (3)
+Small Locust (4)
+Small Locust (5)
+
+# Wave 30
+Harald Knight (1)
+Harald Knight (2)
+Hollow Cleric (1)
+Hollow Cleric (2)
+Hollow Cleric (3)
+
+# Wave 31
+Ringed Knight - 1 (1)
+Ringed Knight - 2 (1)
+Ringed Knight - 3 (1)
+Lothric Thief - 1 (1)
+Lothric Thief - 2 (1)
+Lothric Thief - 3 (1)
+Lothric Thief - 4 (1)
+Lothric Thief - 5 (1)
+Lothric Thief - 6 (1)
+
+
