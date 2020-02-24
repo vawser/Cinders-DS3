@@ -4607,7 +4607,7 @@ Event(20008150, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Warp to Location
+// Warp to Location 
 Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4623,7 +4623,7 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
-    WarpPlayer(X8_1, 0, X12_4);
+    WarpPlayer(X8_1, 0, X12_4)
 });
 
 // Warp to Location - Untended Graves

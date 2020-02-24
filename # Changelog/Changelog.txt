@@ -55,6 +55,7 @@
 - Likewise with Cataclysm and Earthfall.
 - Reduced Heavenly Thunder FTH requirement to 35.
 - Adjusted Soul Geyser bullets.
+- Lightning Storm: FP to 100
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
@@ -73,4 +74,4 @@
 New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-Fix the warp issues by setting ceremony
+

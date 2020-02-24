@@ -659,7 +659,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Lightning Storm
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 100
 - Lightning Damage: 500 
 - FTH Req: 25
 - Ascended Effect: emits 10 projectiles (normally 5).
