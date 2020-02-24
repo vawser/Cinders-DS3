@@ -4643,6 +4643,7 @@ Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
     WarpPlayer(X8_1, 0, X12_4);
+    SetEventFlag(250002000, ON);
 });
 
 // Trial - Warp From
