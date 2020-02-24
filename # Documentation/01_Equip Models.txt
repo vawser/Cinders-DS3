@@ -219,15 +219,15 @@
 0862    Warped Sword
 0863    Cracked Round Shield
 0864    Frying Pan
-0865    Gertrude's Knight Longaxe
-0866    Winged Knight Longaxe
+0865    Gertrude's Knight Longaxe #
+0866    Winged Knight Longaxe #
 0867    Giant's Crossbow
-0868    Lothric Knight Claymore
+0868    Lothric Knight Claymore #
 0869    Serpentine Chain-axe
 0870    Model Ballista
-0871    
-0872
-0873
+0871    Bone Ash Katana
+0872    Fist of Gratia
+0873    Imperious Greatshield
 0874
 0875
 0876
@@ -281,7 +281,7 @@
 9820    Alonne Set
 9821    Rampart Golem Set
 9822    Smelter Demon Set
-9823    Andre's Beard
+9823    Andre's Beard #
 9824    Carthus Blindfold
 9825    Crown of Filianore
 9826    Ludleth's Crown
@@ -300,9 +300,9 @@
 9839    Skeleton
 9840    Skeleton (Tree)
 9841    Skeleton (hat)
-9842
-9843
-9844
+9842    Bone Ash Set
+9843    Heide Set
+9844    Imperious Set
 9845
 9846
 9847

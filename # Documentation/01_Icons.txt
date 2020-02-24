@@ -149,39 +149,39 @@
 1396 Consumed King's Staff
 1397 Rotten Talisman
 1398 Smouldering Talisman
-1399
-1400
-1401
-1402
-1403
-1404
-1405
-1406
-1407
-1408
-1409
-1410
-1411
-1412
-1413
-1414
-1415
-1416
-1417
-1418
-1419
-1420
-1421
-1422
-1423
-1424
-1425
-1426
-1427
-1428
-1429
-1430
-1431
+1399 Coiled Stake 
+1400 Deacon's Candle
+1401 Deacon's Candlestick
+1402 Gael's Dusty Greatsword
+1403 Wax-covered Candlestick
+1404 Hands of Sin
+1405 Aldia Hammer
+1406 Black Scorpion Stinger
+1407 Dragonrider Twinblade
+1408 Drakekeeeper's Great Hammer
+1409 Drakekeeper's Greataxe
+1410 Drakekeeper's Warpick
+1411 Drakewing Ultra Greatsword
+1412 Gargoyle Bident
+1413 Giant Warrior Club
+1414 Helix Halberd
+1415 Malformed Skull
+1416 Melu Scimitar
+1417 Old Knight Halberd
+1418 Old Knight Hammer
+1419 Old Knight Pike
+1420 Red Rust Scimitar
+1421 Roaring Halberd
+1422 Sanctum Mace
+1423 Spider's Silk
+1424 Spitfire Spear
+1425 Syan's Halberd
+1426 Warped Sword
+1427 Cracked Round Shield
+1428 Frying Pan
+1429 Giant's Crossbow
+1430 Serpentine Chain-axe
+1431 Model Ballista
 
 # Block 2
 2108 Pharros Lockstone (Unassigned)
@@ -191,29 +191,29 @@
 2112 Ash Knuckle Ring (Unassigned)
 2113 Bracing Knuckle Ring (Unassigned)
 2114 Ring of Blades (Unassigned)
-2115 Stone Ring
-2116 Giant's ring
-2117 Clear Bluestone Ring
-2118 Old Sun Ring
-2119 Ring of Thorns
-2120 Red String
-2121
-2122
-2123
-2124
-2125
-2126
-2127
-2128
-2129
-2130
-2131
-2132
-2133
-2134
-2135
-2136
-2137
+2115 Stone Ring (Unassigned)
+2116 Giant's ring (Unassigned)
+2117 Clear Bluestone Ring (Unassigned)
+2118 Old Sun Ring (Unassigned)
+2119 Ring of Thorns (Unassigned)
+2120 Red String (Unassigned)
+2121 Bone Ash Katana
+2122 Fist of Gratia
+2123 Imperious Greatshield
+2124 Carthus Blindfold
+2125 Crown of Filianore
+2126 Ludleth's Crown
+2127 Mask of Sin
+2128 Old Demon King's Crown
+2129 Poisonhorn Helmet
+2130 Pygmy Crown
+2131 Lothric Thief Cowl
+2132 Hollow Head
+2133 Basilisk Cap
+2134 Crown of the Holy King
+2135 Mailed Soldier Helmet
+2136 Pot Helmet
+2137 Priest Mask
 2138
 2139
 2140
@@ -222,30 +222,30 @@
 2143
 
 # Block 3
-3512
-3513
-3514
-3515
-3516
-3517
-3518
-3519
-3520
-3521
-3522
-3523
-3524
-3525
-3526
-3527
-3528
-3529
-3530
-3531
-3532
-3533
-3534
-3535
+3512 Alonne Head
+3513 Alonne Body
+3514 Alonne Hands
+3515 Alonne Legs
+3516 Rampart Golem Head
+3517 Rampart Golem Body
+3518 Rampart Golem Hands
+3519 Rampart Golem Legs
+3520 Smelter Demon Head
+3521 Smelter Demon Body
+3522 Smelter Demon Hands
+3523 Smelter Demon Legs
+3524 Bone Ash Head
+3525 Bone Ash Body
+3526 Bone Ash Hands
+3527 Bone Ash Legs
+3528 Heide Head
+3529 Heide Body
+3530 Heide Hands
+3531 Heide Legs
+3532 Imperious Head
+3533 Imperious Body
+3534 Imperious Hands
+3535 Imperious Legs
 3536
 3537
 3538
