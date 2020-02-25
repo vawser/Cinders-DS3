@@ -60,6 +60,8 @@
 - Lightning Storm: FP to 100
 - Climax inflicts air juggle stagger normally.
 - Profaned Flame has a secondary projectile normally.
+- Great Farron Dart is now Scattered Farron Dart, emits a scattering of darts upon cast.
+- Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
