@@ -37,7 +37,7 @@
 - Each wave only ends once enough enemies have been killed. You can see your progress by looking at the boss HP bar that is active during a wave.
 - Each wave completed will reward reinforcement material directly, the kind improving with subsequent waves.
 - All enemies drop their normal drops and souls within waves, meaning you can farm them via the trial.
-- Each wave completed will boost soul absorption by 25% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
+- Each wave completed will boost soul absorption by 5% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
 - Completing the full trial will unlock Primordial Forging early (Soul of Cinder still unlocks it, this is just an additional option).
 
 # Weapons
@@ -81,3 +81,10 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
+Spells:
+ Circle of Pain: 6290080
+ Holy Spear: 6250750
+ Tranquil Mist: 6250741
+ Seeking Embers: 6060710
+ Frost Breath: 6030700
+ 
