@@ -49,6 +49,11 @@ m54_00_00_00 - Round Plaza
 # Collision
 #------------------------------------
 
+#------------------------------------
+# Generators
+#------------------------------------
+Using ForceCharacterDeath on an enemy used in a generator that is disabled will cause the enemy to bug out when spawned.
+Use a SpEffect to kill instead, as that cannot affect disabled enemies.
 
 #------------------------------------
 # Corpse

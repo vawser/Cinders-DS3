@@ -5028,7 +5028,7 @@ Event(20060001, Restart, function() {
     SetMapCeremony(40, 0, 0);
 });
 
-// Enemy Wave Damage
+// Trial of Peseverance - Enemy  Wave Damage
 Event(20060010, Default, function(X0_4, X4_4) {
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
@@ -5039,7 +5039,7 @@ Event(20060010, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Enemy - Enforce State
+// Trial of Peseverance - Enemy - Enforce State
 Event(20060011, Default, function(X0_4, X4_4) {
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     SetCharacterGravity(X0_4, Enabled);
@@ -5053,4 +5053,12 @@ Event(20060011, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-
+// Trial of Peseverance - Enemy - Kill on Wave End
+Event(20060012, Default, function(X0_4, X4_4) {
+    IfCharacterHPRatio(AND_01, 5300500, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    SetSpeffect(X0_4, 260200002);
+    WaitFixedTimeSeconds(1.0);
+    EndUnconditionally(EventEndType.Restart);
+});

@@ -77,7 +77,3 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
-Trial
- Optimise the mob kill so its per wave
- Adjust the wave damage so there isn't a lag and multiple enemies can count (except on same frame)
- Fix enemies going invunerable randomly (linked to spawn point/mob kill?)
