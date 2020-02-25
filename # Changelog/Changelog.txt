@@ -32,16 +32,18 @@
 #------------------------------
 # Trial of Perseverance
 - You may now enter the Trial of Perseverance via the sword in the alcove near to the Firelink Shrine bonfire.
-- The Trial of Perseverance is an endurance challenge, where you must survive for as long as possible without resting.
-- There are 31 different kinds of waves, which ones you face are randomly picked every 90 seconds.
-- Each wave lasts 60 seconds, with a 30 second rest period between each wave.
-- If you survive 15 minutes you will unlock the ability to use the Primordial Forging options.
+- The Trial of Perseverance consists of 31 waves, which you must survive by killing enough enemies during each wave to advance to the next one.
+- Each wave is unique. They are ordered by relative difficulty, so the trial starts off fairly easy and ramps up in difficulty.
+- Each wave only ends once enough enemies have been killed. You can see your progress by looking at the boss HP bar that is active during a wave.
+- Each wave completed will reward reinforcement material directly, the kind improving with subsequent waves.
 - All enemies drop their normal drops and souls within waves, meaning you can farm them via the trial.
-- Each wave completed will boost soul absorption by 10% and Item Discovery by 10, meaning you are rewarded for each wave you survive consecutively.
+- Each wave completed will boost soul absorption by 25% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
+- Completing the full trial will unlock Primordial Forging early (Soul of Cinder still unlocks it, this is just an additional option).
 
 # Weapons
 - Reduced the damage multipliers for the Primordial Titanite levels.
 - Reduced the Bewitched Alonne Sword damage.
+- Fury of Manus WA now only gives you the normal cursed back VFX.
 
 # Curse
 - Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
@@ -75,3 +77,7 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
+Trial
+ Optimise the mob kill so its per wave
+ Adjust the wave damage so there isn't a lag and multiple enemies can count (except on same frame)
+ Fix enemies going invunerable randomly (linked to spawn point/mob kill?)

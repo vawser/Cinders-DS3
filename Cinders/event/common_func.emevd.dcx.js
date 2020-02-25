@@ -5027,3 +5027,30 @@ Event(20060001, Restart, function() {
     IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     SetMapCeremony(40, 0, 0);
 });
+
+// Enemy Wave Damage
+Event(20060010, Default, function(X0_4, X4_4) {
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
+    IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    IfCharacterDamagedBy(AND_01, X0_4, 10000);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    SetSpeffect(5300500, X4_4);
+    WaitFixedTimeFrames(1);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Enemy - Enforce State
+Event(20060011, Default, function(X0_4, X4_4) {
+    IfCharacterDeadalive(MAIN, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterImmortality(X0_4, Disabled);
+    SetCharacterInvincibility(X0_4, Disabled);
+    SetCharacterHPBarDisplay(X0_4, Enabled);
+    
+    WaitFixedTimeSeconds(1.0);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+

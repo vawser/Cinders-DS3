@@ -1876,7 +1876,7 @@ Event(400400, Default, function(X0_4) {
 Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13000896, OFF);
+    SetSpeffect(5300500, 260200037);
     EndUnconditionally(EventEndType.Restart);
 });
 
