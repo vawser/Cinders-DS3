@@ -51,13 +51,15 @@
 - Curse of Vulnerability now prevents estus flask usage.
 
 # Spells
-- Adjusted some ascended pyromancies.
+- Removed the 'ascension' mechanic for spells. Namely because it is just a 'moar power' thing, and it doesn't mesh well with pyromancies and dark spells.
 - Blessed Weapon now requires 30 FTH.
 - Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
 - Likewise with Cataclysm and Earthfall.
 - Reduced Heavenly Thunder FTH requirement to 35.
 - Adjusted Soul Geyser bullets.
 - Lightning Storm: FP to 100
+- Climax inflicts air juggle stagger normally.
+- Profaned Flame has a secondary projectile normally.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
