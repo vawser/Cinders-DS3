@@ -228,32 +228,82 @@
 0871    Bone Ash Katana
 0872    Fist of Gratia
 0873    Imperious Greatshield
-0874
-0875
-0876
-0877
-0878
-0879
-0880
-0881
-0882
-0883
-0884
-0885
-0886
-0887
-0888
-0889
-0890
-0891
-0892
-0893
-0894
-0895
-0896
-0897
-0898
-0899
+0874    Armored Warrior Sword
+0875    Black Mortal Blade
+0876    Centipede Claws
+0877    Corrupted Monk Dagger
+0878    Corrupted Monk Glaive
+0879    Drunkard Sword
+0880    Emma's Gentle Blade
+0881    Genichiro's Blade
+0882    Genichiro's Bow
+0883    Guardian Ape Sword
+0884    Gyoubu's Spear
+0885    Headless Sword
+0886    Kusabimaru
+0887    Kusabimaru+Sabimaru
+0888    Loaded Axe
+0889    Loaded Spear
+0890    Mortal Blade
+0891    Nightjar Sickle
+0892    Nightjar Twinsickles
+0893    Okami Bow
+0894    Okami Glaive
+0895    Okami Sword
+0896    Owl's Sword
+0897    Rat Dagger
+0898    Sabimaru
+0899    Seven Ashina Spear
+
+0927    Shichimen Staff
+0928    Sword Saint's Gun
+0929    Sword Saint's Spear
+0930    Tengu Sword
+0931
+0932
+0933
+0934
+0935
+0936
+0937
+0938
+0939
+0940
+0941
+0942
+0943
+0944
+0945
+0946
+0947
+0948
+0949
+0950
+0951
+0952
+0953
+0954
+0955
+0956
+0957
+0958
+0959
+0960
+0961
+0962
+0963
+0964
+0965
+0966
+0967
+0968
+0969
+0970
+0971
+0972
+0973
+0974
+
 
 #------------------------
 # Custom Armor
@@ -303,15 +353,15 @@
 9842    Bone Ash Set
 9843    Heide Set
 9844    Imperious Set
-9845
-9846
-9847
-9848
-9849
-9850
-9851
-9852
-9853
+9845    Badger's Black Hat
+9846    Corrupted Monk Mask
+9847    Genichiro's Helmet (mf)
+9848    Gyoubu's Helm
+9849    Nightjar Mask
+9850    Nightjar Wrapped Mask
+9851    Okami Mask
+9852    Seven Spear Helmet
+9853    Tengu Mask
 9854
 9855    Gold Ardeo
 9856    Micolash Cage

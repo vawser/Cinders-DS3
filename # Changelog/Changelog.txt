@@ -62,6 +62,7 @@
 - Profaned Flame has a secondary projectile normally.
 - Great Farron Dart is now Scattered Farron Dart, emits a scattering of darts upon cast.
 - Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
+- Dark Edge uses farron flashsword animation normally.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
@@ -87,4 +88,4 @@ Spells:
  Tranquil Mist: 6250741
  Seeking Embers: 6060710
  Frost Breath: 6030700
- 
+ Fire Wave: 6010700

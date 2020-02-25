@@ -35,6 +35,36 @@
 0871 Bone Ash Katana - 2121
 0872 Fist of Gratia - 2122
 0873 Imperious Greatshield - 2123
+0874 Armored Warrior Sword
+0875 Black Mortal Blade
+0876 Centipede Claws
+0877 Corrupted Monk Dagger
+0878 Corrupted Monk Glaive
+0879 Drunkard Sword
+0880 Emma's Gentle Blade
+0881 Genichiro's Blade
+0882 Genichiro's Bow
+0883 Guardian Ape Sword
+0884 Gyoubu's Spear
+0885 Headless Sword
+0886 Kusabimaru
+0887 Kusabimaru+Sabimaru
+0888 Loaded Axe
+0889 Loaded Spear
+0890 Mortal Blade
+0891 Nightjar Sickle
+0892 Nightjar Twinsickles
+0893 Okami Bow
+0894 Okami Glaive
+0895 Okami Sword
+0896 Owl's Sword
+0897 Rat Dagger
+0898 Sabimaru
+0899 Seven Ashina Spear
+0927 Shichimen Staff
+0928 Sword Saint's Gun
+0929 Sword Saint's Spear
+0930 Tengu Sword
 
 # Armor
 9820 Alonne Set - 3512, 3513, 3514, 3515
@@ -59,3 +89,12 @@
 9836 Pot Helmet - 2136
 9837 Priest Mask - 2137
 
+9845 Badger's Black Hat
+9846 Corrupted Monk Mask
+9847 Genichiro's Helmet (mf)
+9848 Gyoubu's Helm
+9849 Nightjar Mask
+9850 Nightjar Wrapped Mask
+9851 Okami Mask
+9852 Seven Spear Helmet
+9853 Tengu Mask
