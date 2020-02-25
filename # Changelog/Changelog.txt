@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Added Gael's Beard and Andre's Beard to the beard selection.
+
 # Trial of Perseverance
 - You may now enter the Trial of Perseverance via the sword in the alcove near to the Firelink Shrine bonfire.
 - The Trial of Perseverance consists of 31 waves, which you must survive by killing enough enemies during each wave to advance to the next one.
@@ -67,6 +70,7 @@
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
 - Primordial Titanite drops from NG+ ring mobs is now less than 100% on the weaker mobs.
+- Reduced boss aux resists to a 150 <> 250 range, so later bosses aren't so resistant.
 
 # Bugfixes
 - King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
@@ -89,3 +93,7 @@ Spells:
  Seeking Embers: 6060710
  Frost Breath: 6030700
  Fire Wave: 6010700
+ 
+WA:
+ Crypt Blacksword - Make more flashy
+ Obsidian Greatsword - make it black fire AOE
