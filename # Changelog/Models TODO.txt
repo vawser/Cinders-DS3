@@ -35,36 +35,35 @@
 0871 Bone Ash Katana - 2121
 0872 Fist of Gratia - 2122
 0873 Imperious Greatshield - 2123
-0874 Armored Warrior Sword
-0875 Black Mortal Blade
-0876 Centipede Claws
-0877 Corrupted Monk Dagger
-0878 Corrupted Monk Glaive
-0879 Drunkard Sword
-0880 Emma's Gentle Blade
-0881 Genichiro's Blade
-0882 Genichiro's Bow
-0883 Guardian Ape Sword
-0884 Gyoubu's Spear
-0885 Headless Sword
-0886 Kusabimaru
-0887 Kusabimaru+Sabimaru
-0888 Loaded Axe
-0889 Loaded Spear
-0890 Mortal Blade
-0891 Nightjar Sickle
-0892 Nightjar Twinsickles
-0893 Okami Bow
-0894 Okami Glaive
-0895 Okami Sword
-0896 Owl's Sword
-0897 Rat Dagger
-0898 Sabimaru
-0899 Seven Ashina Spear
-0927 Shichimen Staff
-0928 Sword Saint's Gun
-0929 Sword Saint's Spear
-0930 Tengu Sword
+0874 Armored Warrior Sword - 3545
+0875 Black Mortal Blade - 3546
+0876 Centipede Claws - 3547
+0877 Corrupted Monk Dagger - 3548
+0878 Corrupted Monk Glaive - 3549
+0879 Drunkard Sword - 3550
+0880 Emma's Gentle Blade - 3551
+0881 Genichiro's Blade - 3552
+0882 Genichiro's Bow - 3553
+0883 Guardian Ape Sword - 3554
+0884 Gyoubu's Spear - 3555
+0885 Headless Sword - 3556
+0886 Kusabimaru - 3557
+0888 Loaded Axe - 3558
+0889 Loaded Spear - 3559
+0890 Mortal Blade - 3560
+0891 Nightjar Sickle - 3561
+0892 Nightjar Twinsickles - 3562
+0893 Okami Bow - 3563
+0894 Okami Glaive - 3564
+0895 Okami Sword - 3565
+0896 Owl's Sword - 3566
+0897 Rat Dagger - 3567
+0898 Sabimaru - 3568
+0899 Seven Ashina Spear - 3569
+0927 Shichimen Staff - 3570
+0928 Sword Saint's Gun - 3571
+0929 Sword Saint's Spear - 3572
+0930 Tengu Sword - 3573
 
 # Armor
 9820 Alonne Set - 3512, 3513, 3514, 3515
@@ -89,12 +88,12 @@
 9836 Pot Helmet - 2136
 9837 Priest Mask - 2137
 
-9845 Badger's Black Hat
-9846 Corrupted Monk Mask
-9847 Genichiro's Helmet (mf)
-9848 Gyoubu's Helm
-9849 Nightjar Mask
-9850 Nightjar Wrapped Mask
-9851 Okami Mask
-9852 Seven Spear Helmet
-9853 Tengu Mask
+9845 Badger's Black Hat - 3536
+9846 Corrupted Monk Mask - 3537
+9847 Genichiro's Helmet (mf) - 3538
+9848 Gyoubu's Helm - 3539
+9849 Nightjar Mask - 3540
+9850 Nightjar Wrapped Mask - 3541
+9851 Okami Mask - 3542
+9852 Seven Spear Helmet - 3543
+9853 Tengu Mask - 3544
