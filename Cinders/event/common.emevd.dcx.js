@@ -1628,7 +1628,9 @@ Event(400000, Default, function() {
     InitializeEvent(12, 400100, 10000, 160100372, 800090300); // Dragon Remnants
     
     InitializeEvent(0, 400200, 0); // Rainbow Ring
-
+    InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
+    InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
+    
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
     InitializeEvent(0, 400400, 10000); // Blood of Might
@@ -1779,6 +1781,66 @@ Event(400201, Default, function() {
     WaitFixedTimeSeconds(0.1);
     IfCharacterHasSpeffect(AND_01, 10000, 160601390, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Fool's Sigil - Setup
+Event(400210, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160601570, true, ComparisonType.Equal, 1);
+    SetEventFlag(25007000, ON);
+    SetEventFlag(25007001, OFF);
+    SetEventFlag(25007002, OFF);
+    SetEventFlag(25007003, OFF);
+    SetEventFlag(25007004, OFF);
+    SetEventFlag(25007005, OFF);
+    SetEventFlag(25007006, OFF);
+    SetEventFlag(25007007, OFF);
+    SetEventFlag(25007008, OFF);
+    RandomlySetEventFlagInRange(25007001, 25007008, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
+    SetSpeffect(10000, 160601571);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
+    SetSpeffect(10000, 160601572);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
+    SetSpeffect(10000, 160601573);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
+    SetSpeffect(10000, 160601574);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007005);
+    SetSpeffect(10000, 160601575);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007006);
+    SetSpeffect(10000, 160601576);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007007);
+    SetSpeffect(10000, 160601577);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007008);
+    SetSpeffect(10000, 160601578);
+    
+    WaitFixedTimeSeconds(15);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Fool's Sigil - Clear Effects
+Event(400211, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007000);
+    IfCharacterHasSpeffect(MAIN, 10000, 160601570, false, ComparisonType.Equal, 1);
+    ClearSpeffect(10000, 160601571);
+    ClearSpeffect(10000, 160601572);
+    ClearSpeffect(10000, 160601573);
+    ClearSpeffect(10000, 160601574);
+    ClearSpeffect(10000, 160601575);
+    ClearSpeffect(10000, 160601576);
+    ClearSpeffect(10000, 160601577);
+    ClearSpeffect(10000, 160601578);
+    SetSpeffect(10000, 160601579);
+    SetEventFlag(25007000, OFF);
+    WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
 

@@ -71,6 +71,19 @@
 - Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 40 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
 - Added Angelic Barrage, acts like soul stream but with holy beam and quicker cast animation. Requires 40 FTH, is found in the room below the first Judicator in the Ringed City.
 
+# Rings
+- Added the Fool's Sigil, a ring that gives you a random effect every 15 seconds. Found in Ariandel, in the area below the bridge.
+- Possible effects:
+ - +15% Attack
+ - +15% Absorption
+ - 30 Stamina recovery
+ - +1% FP Regen
+ - -25% Stamina/FP consumption
+ - Immunity to status effects
+ - Estus Usage blocked
+ - -100% Absorption
+- Removing the ring inflicts 50% HP damage to discourage swapping it out when a bad effect is active.
+
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
 - Primordial Titanite drops from NG+ ring mobs is now less than 100% on the weaker mobs.
@@ -90,31 +103,4 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
-109544000
- 16298
- 
- 160500230
- 
-Spells:
- 3812000 Angelic Shower
- Holy Spear: 
-    662501
-    662502
-  
- Tranquil Mist: 
-    662521
-    662522
-    
- Seeking Embers: 
-    660607
-    660608
-    
- Frost Breath: 
-    660351
-    
- Fire Wave: 
-    660111
-    
- Maggots: 
-    612212
-    
+30840
