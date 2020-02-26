@@ -68,6 +68,7 @@
 - Great Farron Dart is now Scattered Farron Dart, emits a scattering of darts upon cast.
 - Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
 - Dark Edge uses farron flashsword animation normally.
+- Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 30 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
@@ -88,10 +89,17 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
+109544000
+ 16298
+ 
+ 160500230
+ 
 Spells:
- Circle of Pain: 
+ 3811000 Vow of Agony: 
     662902
     662903
+    
+    109544000
     
  Holy Spear: 
     662501
