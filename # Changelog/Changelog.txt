@@ -89,34 +89,28 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
 Spells:
- Circle of Pain: 6290080
- Holy Spear: 6250750
- Tranquil Mist: 6250741
- Seeking Embers: 6060710
- Frost Breath: 6030700
- Fire Wave: 6010700
+ Circle of Pain: 
+    662902
+    662903
+    
+ Holy Spear: 
+    662501
+    662502
+  
+ Tranquil Mist: 
+    662521
+    662522
+    
+ Seeking Embers: 
+    660607
+    660608
+    
+ Frost Breath: 
+    660351
+    
+ Fire Wave: 
+    660111
+    
  Maggots: 
- 
-662612 Fire Sword
-662613 Fire Sword - Trail
-662621 Fire Spear
-662622 Fire Spear - Trail
-662631 Fire Dragon Greatsword
-662632 Fire Dragon Greatsword - Trail
-662633 Fire Dragon Greatsword - Trail
- 
-WA:
- Crypt Blacksword - Make more flashy
-  662251 Abyssal Impact
-  
- Obsidian Greatsword - make it black fire AOE
-  663200 Black Orb Marker
-  662151 Black Abyss Burst
-  
-  321
-  
-  211
-  
-  2527
-  
-  2527706
+    612212
+    
