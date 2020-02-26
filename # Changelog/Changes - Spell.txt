@@ -142,8 +142,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Soul Stream
 #--------------------------------
-- FP Cost: 140
-- Magic Damage: 200 (per tick) [200] [200]
+- FP Cost: 100
+- Magic Damage: 300 (per tick)
 - INT Req: 40
 
 #--------------------------------
@@ -610,11 +610,18 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FTH Req: 50
 
 #--------------------------------
-# Circle of Agony
+# Vow of Agony
 #--------------------------------
 - FP Cost: 30
 - Physical Damage: 300
-- FTH Req: 30
+- FTH Req: 40
+
+#--------------------------------
+# Angelic Barrage
+#--------------------------------
+- FP Cost: 100
+- Physical Damage: 300 (per tick)
+- FTH Req: 40
 
 #--------------------------------------------------------------------------
 # Miracles - Effects

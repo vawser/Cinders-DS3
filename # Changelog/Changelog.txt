@@ -68,7 +68,8 @@
 - Great Farron Dart is now Scattered Farron Dart, emits a scattering of darts upon cast.
 - Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
 - Dark Edge uses farron flashsword animation normally.
-- Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 30 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
+- Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 40 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
+- Added Angelic Barrage, acts like soul stream but with holy beam and quicker cast animation. Requires 40 FTH, is found in the room below the first Judicator in the Ringed City.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
@@ -95,12 +96,7 @@ Map out the NPC related stuff in emevd
  160500230
  
 Spells:
- 3811000 Vow of Agony: 
-    662902
-    662903
-    
-    109544000
-    
+ 3812000 Angelic Shower
  Holy Spear: 
     662501
     662502
