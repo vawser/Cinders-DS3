@@ -1,0 +1,257 @@
+﻿﻿#--------------------------------------------------------------------------
+# Books
+#--------------------------------------------------------------------------
+Sage's Scroll - Farron Keep
+Golden Scroll - Farron Keep
+Logan's Scroll - Profaned Capital - Court Sorcerer
+Crystal Scroll - Grand Archives
+
+Great Swamp Pyromancy Tome - Road of Sacrifices
+Quelana Pyromancy Tome - Smouldering Lake
+Izalith Pyromancy Tome - Smouldering Lake
+Carthus Pyromancy Tome - Catacombs of Carthus
+Grave Warden Pyromancy Tome - Catacombs of Carthus
+
+Braille Divine Tome of Carim - Road of Sacrifices
+Braille Divine Tome of Lothric - High Wall of Lothric
+Londor Braille Divine Tome - Yuria - Quest
+Deep Braille Divine Tome - Cathedral of the Deep
+
+#--------------------------------------------------------------------------
+# Sorceries - Offensive
+#--------------------------------------------------------------------------
+#--------------------------------
+# Great Farron Dart
+#--------------------------------
+- FP Cost: 20
+- Magic Damage: 150
+- INT Req: 10
+- Ascended Effect: 3 projectiles are shot.
+
+#--------------------------------
+# Great Soul Arrow
+#--------------------------------
+- FP Cost: 40
+- Magic Damage: 300
+- INT Req: 20
+- Ascended Effect: 3 projectiles are shot.
+
+#--------------------------------
+# Soul Greatsword
+#--------------------------------
+- FP Cost: 50
+- Magic Damage: 500
+- INT Req: 25
+- Ascended Effect: gains the Farron Flashsword cast animation.
+
+#--------------------------------
+# Soul Wave
+#--------------------------------
+- FP Cost: 40
+- Magic Damage: 300
+- INT Req: 20
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Cast Light
+#--------------------------------
+- FP Cost: 25
+- INT Req: 10
+- Base Effect: summons a light source that follows you for 120 seconds.
+- Ascended Effect: summons a hail of light orbs (plus original effect).
+
+#--------------------------------
+# Repair
+#--------------------------------
+- FP Cost: 100
+- Uses: 5
+- INT Req: 20
+- Base Effect: repairs main weapon by 50 durability.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Fireball
+#--------------------------------
+- FP Cost: 30
+- Fire Damage: 250 [150] 
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Fire Orb
+#--------------------------------
+- FP Cost: 40
+- Fire Damage: 300 [200] 
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Fire Surge
+#--------------------------------
+- FP Cost: 5
+- Fire Damage: 100
+- Ascended Effect: shoots 3 projectiles and hits more often.
+
+#--------------------------------
+# Great Chaos Fire Orb
+#--------------------------------
+- FP Cost: 60
+- Fire Damage: 400 [100] [350] 
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Profaned Flame
+#--------------------------------
+- FP Cost: 40
+- Fire Damage: 400 
+- Ascended Effect: secondary flame is emitted after first explodes.
+
+#--------------------------------
+# Bursting Fireball
+#--------------------------------
+- FP Cost: 35
+- Fire Damage: 100 [100]
+- Ascended Effect: impact now leaves lava pool.
+
+#--------------------------------
+# Boulder Heave
+#--------------------------------
+- FP Cost: 75
+- Physical Damage: 500 [250] 
+- Ascended Effect: now emits a stream of boulders.
+
+#--------------------------------
+# Heave Earth
+#--------------------------------
+- FP Cost: 60
+- Physical Damage: 500 
+- Ascended Effect: now homes onto enemies.
+
+#--------------------------------
+# Warmth
+#--------------------------------
+- FP Cost: 50
+- Uses: 5
+- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Way of White Corona
+#--------------------------------
+- FP Cost: 25
+- Physical Damage: 100 [100] [100]
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Emit Force
+#--------------------------------
+- FP Cost: 30
+- Physical Damage: 300 [100] 
+- FTH Req: 10
+- Ascended Effect: shoots 3 projectiles.
+
+#--------------------------------
+# Halo
+#--------------------------------
+- FP Cost: 30
+- Physical Damage: 400 [200] per bullet 
+- FTH Req: 25
+- Ascended Effect: hits now cause long stagger.
+
+#--------------------------------
+# Heal Aid
+#--------------------------------
+- FP Cost: 20
+- Uses: 20
+- FTH Req: 10
+- Base Effect: Heals 200 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Heal
+#--------------------------------
+- FP Cost: 30
+- Uses: 15
+- FTH Req: 15
+- Base Effect: Heals 300 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Med Heal
+#--------------------------------
+- FP Cost: 40
+- Uses: 10
+- FTH Req: 20
+- Base Effect: Heals 350 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Great Heal
+#--------------------------------
+- FP Cost: 50
+- Slot Usage: 2
+- Uses: 5
+- FTH Req: 30
+- Base Effect: Heals 400 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Soothing Sunlight
+#--------------------------------
+- FP Cost: 60
+- Uses: 5
+- FTH Req: 40
+- Base Effect: Heals 500 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Projected Heal
+#--------------------------------
+- FP Cost: 30
+- Uses: 20
+- FTH Req: 30
+- Base Effect: Heals 300 HP. Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Replenishment
+#--------------------------------
+- FP Cost: 30
+- Uses: 5
+- FTH Req: 20
+- Base Effect: Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Bountiful Light
+#--------------------------------
+- FP Cost: 40
+- Uses: 5
+- FTH Req: 30
+- Base Effect: Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Bountiful Sunlight
+#--------------------------------
+- FP Cost: 50
+- Uses: 5
+- FTH Req: 40
+- Base Effect: Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Tears of Denial
+#--------------------------------
+- FP Cost: 100
+- Uses: 5
+- FTH Req: 40
+- Base Effect: prevents killing blow whilst active. Lasts until death.
+- Ascended Effect: gains unlimited uses.
+
+#--------------------------------
+# Dark Edge
+#--------------------------------
+- FP Cost: 30
+- Dark Damage: 300 
+- INT Req: 10
+- FTH Req: 6
+- Ascended Effect: uses the Farron Flashsword cast animation.

@@ -109,41 +109,41 @@
 631402 Ground Fires
 631433 Big Earth Impact
 631600 Big Earth Impact - Pillar
-631601
-631602
-631605
-631606
-631610
+631601 Big Earth Impact
+631602 Wind Swirl with Rocks
+631605 Rock Impact
+631606 Impact Sparks
+631610 Wind Impact
 631611
-631612
-631615
-631620
-631630
-631640
-631641
+631612 Twin Earth Burst
+631615 Wind Force
+631620 Sparking Force
+631630 Sparking Arc
+631640 Glow Ground Flicker
+631641 Lightning Impact
 631690
 631691
-662000
-662001
-662002
-662003
-662004
-662011
+662000 Corona Swirl
+662001 Corona Impact Aura
+662002 Corona Swirl
+662003 Corona Impact
+662004 Corona Swirl
+662011 Arrow
 662012
 662013
-662020
-662025
+662020 
+662025 Red Aura Force
 662030
-662035
-662036
+662035 Red Marker (Above)
+662036 Red Marker (Below)
 662040
 662041
 662050
-662051
-662052
+662051 
+662052 Red Abyss Burst
 662053
-662054
-662060
+662054 Blue Lightning
+662060 Earth Impact
 662061
 662062
 662065
@@ -152,27 +152,27 @@
 662070
 662071
 662072
-662080
-662081
-662082
-662083
-662084
-662090
-662101
-662102
-662103
-662107
-662108
-662110
-662111
-662112
-662113
+662080 Corona Swirl
+662081 Corona Aura
+662082 Corona Swirl
+662083 Corona Impact
+662084 Corona Swirl
+662090 
+662101 Breath with Crystal
+662102 Breath with Crystal
+662103 Breath with Crystal
+662107 Light Points with Crystal - Beam
+662108 Light Points with Crystal - Beam
+662110 Fire
+662111 Fire Orb
+662112 Fire Breath
+662113 Fire Breath
 662114
-662115
-662116
-662121
-662122
-662123
+662115 Fire Patch
+662116 Fire Cinders
+662121 Intense Fire Breath
+662122 Multiple Abyssal Burst
+662123 Abyssal Impact
 662140
 662141
 662144
@@ -180,12 +180,12 @@
 662146
 662147
 662150
-662151
-662160
-662161
-662162
-662163
-662164
+662151 Black Abyss Burst
+662160 Gathering Winds
+662161 Gathering Winds
+662162 Gathering Winds
+662163 Gathering Winds
+662164 Gathering Winds
 662170
 662201
 662202
@@ -204,14 +204,14 @@
 662227
 662228
 662229
-662230
-662231
+662230 Big Affinity Orb
+662231 Big Affinity Orb Impact
 662232
 662240
-662241
+662241 Big Abyssal Impact
 662243
-662250
-662251
+662250 Small Abyssal Impact
+662251 Abyssal Impact
 662260
 662261
 662265
@@ -226,26 +226,26 @@
 662604
 662605
 662606
-662610
+662610 Dragon Roar
 662611
-662612
-662613
+662612 Fire Sword
+662613 Fire Sword - Trail
 662620
-662621
-662622
+662621 Fire Spear
+662622 Fire Spear - Trail
 662630
-662631
-662632
-662633
-662640
-662641
-662642
-662643
-662644
-662645
-662646
-662647
-662650
+662631 Fire Dragon Greatsword
+662632 Fire Dragon Greatsword - Trail
+662633 Fire Dragon Greatsword - Trail
+662640 Fire Wave
+662641 Fire Wave
+662642 Fire Wave
+662643 Fire Wave
+662644 Fire Wave
+662645 Vertical Fire Wave
+662646 Vertical Fire Wave
+662647 Vertical Fire Wave
+662650 Big Fire Burst
 662651
 662652
 662653
@@ -255,41 +255,41 @@
 662700
 662701
 662702
-662706
-662707
-662710
-662711
-662712
-662713
-662714
-662720
-662723
+662706 Curse Back
+662707 Curse Spot
+662710 Lightning Bolt
+662711 Lightning Bolt Impact
+662712 Lightning Bolt
+662713 Lightning Bolt Impact
+662714 Lightning Bolt Impact Pillar
+662720 Lightning Bolt - Forming
+662723 Lightning Strike
 662800
-662900
-662901
-662902
-662903
-662904
+662900 Circle of Pain
+662901 Circle of Pain
+662902 Circle of Pain
+662903 Big Circle of Pain
+662904 Circle of Pain Impact
 662910
 662911
 662912
 662913
 662914
-663200
-663210
-663220
+663200 Small Black Mist
+663210 Black Burst
+663220 Black Aura
 663300
 663310
 663311
-663312
-663313
-663316
-663317
+663312 Magic Branch - Right
+663313 Magic Branch - Left
+663316 Magic Branch - Trail - Right
+663317 Magic Branch - Trail - Left
 663320
 663321
-663330
-663331
-663332
+663330 Goop
+663331 Goop
+663332 Goop Impact
 751000
 751001
 751002

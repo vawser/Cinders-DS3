@@ -47,6 +47,8 @@
 - Reduced the damage multipliers for the Primordial Titanite levels.
 - Reduced the Bewitched Alonne Sword damage.
 - Fury of Manus WA now only gives you the normal cursed back VFX.
+- Crypt Blacksword WA now looks flashier.
+- Obsidian Greatsword now has the Abyssal Fire WA, which is like its special attack in DS1.
 
 # Curse
 - Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
@@ -93,7 +95,28 @@ Spells:
  Seeking Embers: 6060710
  Frost Breath: 6030700
  Fire Wave: 6010700
+ Maggots: 
+ 
+662612 Fire Sword
+662613 Fire Sword - Trail
+662621 Fire Spear
+662622 Fire Spear - Trail
+662631 Fire Dragon Greatsword
+662632 Fire Dragon Greatsword - Trail
+662633 Fire Dragon Greatsword - Trail
  
 WA:
  Crypt Blacksword - Make more flashy
+  662251 Abyssal Impact
+  
  Obsidian Greatsword - make it black fire AOE
+  663200 Black Orb Marker
+  662151 Black Abyss Burst
+  
+  321
+  
+  211
+  
+  2527
+  
+  2527706
