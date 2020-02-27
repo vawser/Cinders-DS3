@@ -59,7 +59,7 @@
 - Curse of Vulnerability now prevents estus flask usage.
 
 # Spells
-- Changed the Ascended mechanic for spells. Now referred to as mastery, it is noted which spells have it in their description. It is now limited to offensive sorceries.
+- Changed the Ascended mechanic for spells. It is now limited to offensive magic and dark sorceries.
 - Blessed Weapon now requires 30 FTH.
 - Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
 - Likewise with Cataclysm and Earthfall.
@@ -72,7 +72,7 @@
 - Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
 - Dark Edge uses farron flashsword animation normally.
 - Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 40 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
-- Added Angelic Barrage, acts like soul stream but with holy beam and quicker cast animation. Requires 40 FTH, is found in the room below the first Judicator in the Ringed City.
+- Added Angelic Ray, acts like soul stream but with holy beam and quicker cast animation. Requires 40 FTH, is found in the room below the first Judicator in the Ringed City.
 
 # Rings
 - Added the Fool's Sigil, a ring that gives you a random effect every 15 seconds. Found in Ariandel, in the area below the bridge.
