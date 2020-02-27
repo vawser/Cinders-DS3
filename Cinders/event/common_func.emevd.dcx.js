@@ -4530,6 +4530,12 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Spawn Control - Disable By Default
+Event(20008030, Restart, function(X0_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+});
+
 // Spawn Control - OTE - With Itemlot
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);

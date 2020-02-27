@@ -52,6 +52,7 @@
 - Fury of Manus WA now only gives you the normal cursed back VFX.
 - Crypt Blacksword WA now looks flashier.
 - Obsidian Greatsword now has the Abyssal Fire WA, which is like its special attack in DS1.
+- Black Knight Greataxe now uses the Great Hammer rolling attack.
 
 # Curse
 - Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
@@ -106,3 +107,15 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 Add new weapons
 Add new armor
+
+109546000 Infected Spit
+ 612212
+ 
+109547000 Lothric's Holy Spear
+ 652517
+ 652518
+ 
+109548000 Divine Arrow (Grub)
+ 621812
+ 621813
+ 
