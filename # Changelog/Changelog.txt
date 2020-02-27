@@ -56,7 +56,7 @@
 - Curse of Vulnerability now prevents estus flask usage.
 
 # Spells
-- Removed the 'ascension' mechanic for spells. Namely because it is just a 'moar power' thing, and it doesn't mesh well with pyromancies and dark spells.
+- Changed the Ascended mechanic for spells. Now referred to as mastery, it is noted which spells have it in their description. It is now limited to offensive sorceries.
 - Blessed Weapon now requires 30 FTH.
 - Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
 - Likewise with Cataclysm and Earthfall.
@@ -103,4 +103,3 @@ New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 
-30840
