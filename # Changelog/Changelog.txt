@@ -33,6 +33,9 @@
 # General
 - Added Gael's Beard and Andre's Beard to the beard selection.
 
+# Item Randomiser
+- A custom version of LukeYui's item randomiser is now available for Cinders. It is an optional file download. To use it, just drag and drop the files into the Game directory, replacing the original modengine.ini when prompted.
+
 # Trial of Perseverance
 - You may now enter the Trial of Perseverance via the sword in the alcove near to the Firelink Shrine bonfire.
 - The Trial of Perseverance consists of 31 waves, which you must survive by killing enough enemies during each wave to advance to the next one.
@@ -99,7 +102,7 @@
 #------------------------------
 # TODO
 #------------------------------
-New illusory walls
 Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
-
+Add new weapons
+Add new armor
