@@ -87,6 +87,9 @@
  - Estus Usage blocked
  - -100% Absorption
 - Removing the ring inflicts 50% HP damage to discourage swapping it out when a bad effect is active.
+- Adjusted the Thieves' Pact material drop rates, lesser materials are more likely, and slabs are less likely. No longer scales with Item Discovery.
+- Added Rattling Finger, making you a spooky skeleton. Found in the Catacombs of Carthus.
+- Added Murky Finger, making you a murkman. Found in the Dreg Heap.
 
 # Enemies
 - Added red eye VFX to nightmare bosses that support it.
@@ -119,3 +122,9 @@ Add new armor
  621812
  621813
  
+109549000 Echoes of Nobility
+109550000 Echoes of Darkness
+109551000 Echoes of Brutality
+
+30850
+30860
