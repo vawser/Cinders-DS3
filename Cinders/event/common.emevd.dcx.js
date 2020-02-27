@@ -1631,6 +1631,9 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
     InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
     
+    InitializeEvent(0, 400220, 0); // Rattling Finger - Active
+    InitializeEvent(0, 400221, 0); // Rattling Finger - Inactive
+    
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
     InitializeEvent(0, 400400, 10000); // Blood of Might
@@ -1840,6 +1843,45 @@ Event(400211, Default, function() {
     ClearSpeffect(10000, 160601578);
     SetSpeffect(10000, 160601579);
     SetEventFlag(25007000, OFF);
+    WaitFixedTimeFrames(1);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Rattling Finger - Setup
+Event(400220, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160601580, true, ComparisonType.Equal, 1);
+    SetEventFlag(25007010, ON);
+    SetEventFlag(25007011, OFF);
+    SetEventFlag(25007012, OFF);
+    SetEventFlag(25007013, OFF);
+    SetEventFlag(25007014, OFF);
+    RandomlySetEventFlagInRange(25007011, 25007014, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007011);
+    SetSpeffect(10000, 160601581);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007012);
+    SetSpeffect(10000, 160601582);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007013);
+    SetSpeffect(10000, 160601583);
+
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007014);
+    SetSpeffect(10000, 160601584);
+    
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25007010);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Rattling Finger - Clear Effects
+Event(400221, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007010);
+    IfCharacterHasSpeffect(MAIN, 10000, 160601580, false, ComparisonType.Equal, 1);
+    ClearSpeffect(10000, 160601581);
+    ClearSpeffect(10000, 160601582);
+    ClearSpeffect(10000, 160601583);
+    ClearSpeffect(10000, 160601584);
+    SetEventFlag(25007010, OFF);
     WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
