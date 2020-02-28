@@ -46,8 +46,13 @@
 - Each wave completed will boost soul absorption by 5% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
 - Completing the full trial will unlock Primordial Forging early (Soul of Cinder still unlocks it, this is just an additional option).
 
+# Reinforcement
+- Increased the effectiveness of Primordial Titanite reinforcement for melee weapons.
+- Increased the material cost for Primordial Titanite reinforcement to 3/6/9/12.
+- Final reinforcement now requires Primordial Essence instead of a slab.
+- Primordial Essence is dropped by Soul of Cinder in NG+, or Nightmare Soul of Cinder in any NG.
+
 # Weapons
-- Reduced the damage multipliers for the Primordial Titanite levels.
 - Reduced the Bewitched Alonne Sword damage.
 - Fury of Manus WA now only gives you the normal cursed back VFX.
 - Crypt Blacksword WA now looks flashier.
@@ -114,4 +119,3 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-- Increased the scaling multipliers for weapons at the Primordial reinforcement levels significantly.
