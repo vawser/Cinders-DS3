@@ -1275,7 +1275,6 @@
 # Consumables
 400000F0 Divine Blessing 
 400000F1 Hidden Blessing 
-400000F2 Silver Pendant 
 40000104 Green Blossom 
 40000105 Budding Green Blossom 
 40000106 Budding Green Blossom 
@@ -1322,7 +1321,6 @@
 40000899 Degrading Essence 
 40000BB8 Cinder 
 40000BB9 Primordial Titanite 
-40000BBA Cursed Pellet 
 40000BBC Tarnished Coin 
 40000BBD Tarnished Silver Coin 
 40000BCA Hexing Urn 
