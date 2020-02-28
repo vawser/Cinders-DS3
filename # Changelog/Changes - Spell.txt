@@ -93,7 +93,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Soul Geyser
 #--------------------------------
 - FP Cost: 100
-- Magic Damage: 200
+- Magic Damage: 300
 - INT Req: 50
 - Ascended: emits 5 projectiles in a tighter cone.
 
@@ -631,7 +631,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Vow of Agony
 #--------------------------------
 - FP Cost: 30
-- Physical Damage: 100
+- Physical Damage: 200
 - FTH Req: 40
 
 #--------------------------------

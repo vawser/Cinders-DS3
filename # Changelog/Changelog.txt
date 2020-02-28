@@ -95,6 +95,9 @@
 - Added red eye VFX to nightmare bosses that support it.
 - Primordial Titanite drops from NG+ ring mobs is now less than 100% on the weaker mobs.
 - Reduced boss aux resists to a 150 <> 250 range, so later bosses aren't so resistant.
+- Yhorm now has new after-effects on his moves, making his fight a bit more interesting.
+- Storm Ruler now applies a 30 debuff when its WA is used on Yhorm.
+- Increased the HP of most bosses. But reduces their absorption to ease this slightly. This is to give bosses a bit more bulk, but still to allow high power builds to feel their power.
 
 # Bugfixes
 - King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
@@ -110,5 +113,3 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 Add new weapons
 Add new armor
-
-
