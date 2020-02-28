@@ -1,57 +1,108 @@
 ﻿#------------------------
-# WA only overrides
+# Notes
 #------------------------
-204 Unleash Dragon
-209 Hold Weapon Up -> Bullet
-246 Throw Weapon -> Bullet
-211 Anchor Weapon -> Bullet
-172 Hold Spear -> Bullet
-165 Charge Weapon -> Bullet
+The ActType animations are found in x0XX_036XXXX and above.
 
 #------------------------
-# ActType0
+# Supported Act Types
 #------------------------
-# ActType1 = 1
-0   Smash on ground
+This list notes the act types supported by the various movesets. 
 
-# ActType1 = 2
-0   Parry
-1   Close Swipe Upwards
-2   Stomp
-3   Quickstep (Best)
-4   Stance
-5   
-6   
-7   
-8   Side Kick
-9   
-10  T-Pose
-11  Spin Slash
-12  Warcry
-13  Charge
-14  Perserverence
-15  
-16  Steady Chant
-17  Cast Spell
-18  Quickstep (Lesser)
-19  Draw Bow
-20  Perserverence (Great Hammer)
-21  Neck Swipe
-22  Slam Weapon on Ground
-23  Turn to Stone
-24  Oath of Sunlight
-25  Storm King
-26  Side Kick
-27  Cast Spell
-28  Cast Spell
-29  Side Kick
-30  Raise Weapon
-31  Jump and Throw Quill Dart
-32  Stance
-33  Raise Weapon to Head
-34  Hold and Smash into Ground
-35  Steady Chant
-36  Stance
+The override ones are just grouped with the base types for ease of reading. 
+They can be used with any base type.
+
+# Dagger (20)
+18 Quickstep
+24 Blind Spot
+01 Parry (Dagger) [71]
+22 Unleash Dragon [204]
+24 Blind Spot [72]
+24 Shield Splitter [205]
+
+# Straight Sword (23)
+01 Parry (Sword)
+04 Stance
+02 Stomp (Sword) [57]
+04 Stance (Lothric Light) [188]
+04 Stance (Irithyll Sword) [208]
+24 Guiding Light [206]
+24 Oath of Sunlight [209]
+32 Lion Stance [236]
+32 Ember (Ringed Sword Stance) [251]
+36 Crystal Blade [256]
+
+# Greatsword (25)
+02 Stomp
+04 Stance
+14 Perseverance
+
+# Ultra Greatsword (26)
+02 Stomp
+13 Charge
+
+# Thrusting Sword (27)
+01 Parry
+04 Stance
+
+# Curved Sword (28)
+11 Spin Slash
+
+# Katana (29)
+04 Hold (Stance)
+
+# Axe (30)
+12 Warcry
+18 Quickstep
+
+# Greataxe (32)
+12 Warcry
+22 Sharpen
+
+# Hammer (33)
+12 Warcry
+14 Perseverance
+
+# Great Hammer (35)
+11 Spin Bash
+12 Warcry
+14 Perseverance
+
+# Spear (36)
+11 Spin Sweep
+13 Charge
+22 Unleash Dragon
+
+# Halberd (38)
+11 Spin Sweep
+12 Warcry
+13 Charge
+14 Perseverance
+
+# Spell Tool (41)
+16 Steady Chant
+
+# Fist (42)
+14 Perseverance
+18 Quickstep
+11 Whirlwind [152]
+23 Lifedrain [123]
+
+# Whip (43)
+24 Impact
+
+# Bow (44)
+08 Rapid Fire
+26 Puncture
+
+# Crossbow (46)
+18 Quickstep
+22 Tackle
+
+# Greatshield (47)
+23 Shield Bash
+
+# Shield (48)
+23 Shield Bash
 
 #------------------------
 # Skills
