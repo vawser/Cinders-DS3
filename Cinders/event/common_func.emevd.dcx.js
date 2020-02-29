@@ -5041,7 +5041,9 @@ Event(20060010, Default, function(X0_4, X4_4) {
     IfCharacterDamagedBy(AND_01, X0_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetSpeffect(5300500, X4_4);
-    WaitFixedTimeFrames(1);
+    
+    IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    WaitForConditionGroupState(PASS, AND_02);
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -5068,20 +5070,3 @@ Event(20060012, Default, function(X0_4, X4_4) {
     WaitFixedTimeSeconds(1.0);
     EndUnconditionally(EventEndType.Restart);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
