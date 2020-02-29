@@ -2388,6 +2388,11 @@ function ExecMagic(quick_type, blend_type)
         SetAIActionState()
         return TRUE
     end
+
+    if env(1116, 112004) == TRUE then
+        act(2002, 112005)
+    end
+    
     if env(116) == TRUE then
         return FALSE
     elseif env(114) == TRUE then

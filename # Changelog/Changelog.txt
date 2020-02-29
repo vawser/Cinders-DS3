@@ -46,6 +46,11 @@
 - Each wave completed will boost soul absorption by 5% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
 - Completing the full trial will unlock Primordial Forging early (Soul of Cinder still unlocks it, this is just an additional option).
 
+# Curse
+- Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
+- Curse of Gluttony now forces slow movement.
+- Curse of Vulnerability now prevents estus flask usage.
+
 # Reinforcement
 - Increased the effectiveness of Primordial Titanite reinforcement for melee weapons.
 - Increased the material cost for Primordial Titanite reinforcement to 3/6/9/12.
@@ -59,10 +64,22 @@
 - Obsidian Greatsword now has the Abyssal Fire WA, which is like its special attack in DS1.
 - Black Knight Greataxe now uses the Great Hammer rolling attack.
 
-# Curse
-- Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
-- Curse of Gluttony now forces slow movement.
-- Curse of Vulnerability now prevents estus flask usage.
+
+# Spell Tools
+- Increased the scaling multipliers for non-hybrid spell tools.
+- Changed the spell tool material quantities to 3/6/9/12 for +1 to +4.
+- All the non-hybrid spell tools now have different reinforcement materials. 
+- Staves require Crystal Fragments
+- Chimes and Talismans require Holy Fragments
+- Pyromancy Flames require Fire Seeds (as before).
+- Dark staves, chimes, talismans and flames require Abyssal Fragments
+- Insanity Catalyst is now reinforced with the souls of the Lords of Cinder and the Soul of Cinder. It's spell buff has been increased.
+- Insanity Catalyst now removes 20% HP per cast.
+- Insanity Catalyst WA: Boosts damage by 20% for 15 seconds but brings the caster close to death afterwards.
+
+# Items
+- Increased the shop price of reinforcement materials.
+- Removed the ability to purchase Primordial Titanite.
 
 # Spells
 - Changed the Ascended mechanic for spells. It is now limited to offensive magic and dark sorceries.
@@ -119,10 +136,12 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-Change catalyst situation
-
 Cleric's Candlestick
 Demon's Scar
 Demon's Scar
 Immolation Tinder
- 
+Pilgrim's Spontoon
+
+
+
+

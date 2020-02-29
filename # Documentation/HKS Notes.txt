@@ -104,7 +104,7 @@ AI notification attack type - SetInterruptType (y is type index)
 110     -
 148     - SetVariable (y is name, z is value)
 1001    - AddStamina (y is Stamina value)
-2002    - SetStyleSpecialEffect (y is SpEffect)
+2002    - SetSpecialEffect (y is SpEffect)
 2004    - SetTurnSpeed (y is turn_speed)
 9103    - SetAIActionState (y is bool)
 9101    -

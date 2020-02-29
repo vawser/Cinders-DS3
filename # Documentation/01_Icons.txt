@@ -214,7 +214,7 @@
 2135 Mailed Soldier Helmet
 2136 Pot Helmet
 2137 Priest Mask
-2138
+2138 
 2139
 2140
 2141
@@ -428,11 +428,11 @@
 4287
 
 # Block 6
-6020
-6021
-6022
-6023
-6024
+6020 Crystal Fragment
+6021 Abyssal Fragment
+6022 Holy Fragment
+6023 Fire Seed
+6024 Primsatic Slab
 6025
 6026
 6027
