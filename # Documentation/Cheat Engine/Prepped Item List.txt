@@ -1184,8 +1184,11 @@
 2000785A Rare Ring of Humanity 
 20007864 Tomb Ring 
 2000786E Accursed Ring 
-20007878 Fool's Sigil 
-
+20007878 Fool's Sigil
+20007882 Rattling Finger
+2000788C Murky Finger
+ 
+ 
 # Progression Items (include in restricted too)
 400007D1 Lift Chamber Key 
 400007D5 Small Doll 
@@ -1435,6 +1438,11 @@
 400001A4 Soul of a Great Champion 
 400001B8 Seed of a Giant Tree 
 4000017C Rubbish 
+40000BBA Primordial Essence
+4000041A Primsatic Slab
+4000042E Crystal Fragment
+40000438 Abyssal Fragment
+40000442 Holy Fragment
 
 # Spells
 40124F80 

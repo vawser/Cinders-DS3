@@ -79,8 +79,8 @@
 
 # Items
 - Increased the shop price of reinforcement materials.
-- Removed the ability to purchase Primordial Titanite.
 - Renamed Humanity to Human Effigy.
+- You can now purchase Primordial Titanite and Essence only after unlocking Primordial Forging.
 
 # Spells
 - Changed the Ascended mechanic for spells. It is now limited to offensive magic and dark sorceries.
@@ -138,8 +138,7 @@ Add new weapons
 Add new armor
 
 Ciaran's Tracers need custom behavior/atkparam
-Fix randomiser reinforcement/infusion ID code
 
-Remove soul of a great bat
-Remove Thief mask
-
+- Increased boss HP.
+- Added the new materials to the randomiser.
+- You can now purchase Primordial Titanite and Essence only after unlocking Primordial Forging.
