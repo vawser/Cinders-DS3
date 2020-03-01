@@ -80,6 +80,7 @@
 # Items
 - Increased the shop price of reinforcement materials.
 - Removed the ability to purchase Primordial Titanite.
+- Renamed Humanity to Human Effigy.
 
 # Spells
 - Changed the Ascended mechanic for spells. It is now limited to offensive magic and dark sorceries.
@@ -136,12 +137,9 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-Cleric's Candlestick
-Demon's Scar
-Demon's Scar
-Immolation Tinder
-Pilgrim's Spontoon
+Ciaran's Tracers need custom behavior/atkparam
+Fix randomiser reinforcement/infusion ID code
 
-
-
+Remove soul of a great bat
+Remove Thief mask
 

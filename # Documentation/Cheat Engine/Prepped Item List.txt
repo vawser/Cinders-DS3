@@ -1569,3 +1569,109 @@
 403A1718 
 403A26B8 
 403A2AA0 
+
+# DLC
+009B55A0 Friede's Great Scythe
+00F646E0 Valorheart
+00222E00 Onyx Blade
+00F66DF0 Crow Quills
+006D67D0 Millwood Battle Axe
+006D8EE0 Earth Seeker
+007ECCF0 Quakestone Hammer
+00A89C10 Crow Talons
+008CD6B0 Follower Javelin
+00D85EA0 Millwood Greatbow
+015F1AD0 Follower Torch
+00CC9ED0 Pyromancer's Parting Flame
+00B82C70 Rose of Ariandel
+0135C0E0 Follower Shield
+01450320 Ethereal Oak Shield
+003EDDC0 Follower Saber
+
+58500000 Follower Set
+ 037CA3A0
+ 037CA788
+ 037CAB70
+ 037CAF58
+60500000 Millwood Set
+ 039B2820
+ 039B2C08
+ 039B2FF0
+ 039B33D8
+55500000 Slave Set
+ 034EDCE0
+ 034EE0C8
+ 034EE4B0
+ 034EE898
+56500000 Ordained Set (ex 2)
+ 035E1F20
+ 035E2308
+ 035E2AD8
+20000000 Vilhelm's Set
+ 01312D00
+ 013130E8
+ 013134D0
+ 013138B8
+ 
+009B2E90 Splitleaf Greatsword
+00118C30 Murky Hand Scythe
+00CCC5E0 Murky Longstaff
+00116520 Aquamarine Dagger
+006159E0 Harald Curved Greatsword
+003F04D0 Demon's Scar
+00225510 Ringed Knight Straight Sword
+00F69500 Ringed Knight Paired Greatswords
+004D35A0 Frayed Blade
+00227C20 Gael's Greatsword
+00D885B0 Repeating Crossbow
+008D24D0 Lothric War Banner
+00F5F8C0 Giant Door Shield
+01452A30 Dragonhead Greatshield
+007EF400 Ledo's Great Hammer
+008D4BE0 Crucifix of the Mad King
+00D77440 White Birch Bow
+
+28501000 Antiquated Plain Set (ex 0)
+ 01B2E408
+ 01B2E7F0
+ 01B2EBD8
+82500000 Black Witch Set
+ 04EAD9A0
+ 04EADD88
+ 04EAE170
+ 04EAE558
+81500000 Desert Pyromancer Set
+ 04DB9760
+ 04DB9B48
+ 04DB9F30
+ 04DBA318
+64500000 Harald Set
+ 03D83120
+ 03D83508
+ 03D838F0
+ 03D83CD8
+67500000 Iron Dragonslayer Set
+ 0405F7E0
+ 0405FBC8
+ 0405FFB0
+ 04060398
+32000000 Lapp's Set
+ 01E84800
+ 01E84BE8
+ 01E84FD0
+ 01E853B8
+63500000 Ringed Knight Set
+ 03C8EEE0
+ 03C8F2C8
+ 03C8F6B0
+ 03C8FA98
+80500000 Ruin Set
+ 04CC5520
+ 04CC5908
+ 04CC5CF0
+ 04CC60D8
+29500000 Shira's Set
+ 01C22260
+ 01C22648
+ 01C22A30
+ 01C22E18
