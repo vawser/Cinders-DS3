@@ -214,12 +214,12 @@
 2135 Mailed Soldier Helmet
 2136 Pot Helmet
 2137 Priest Mask
-2138 
-2139
-2140
-2141
-2142
-2143
+2138 Butterfly Kunai
+2139 Gun Fort Bayonet
+2140 Monk Staff
+2141 Monk Twinblade
+2142 Shinobi Hunter Spear
+2143 Snake Eyes Cannon
 
 # Block 3
 3512 Alonne Head
@@ -284,8 +284,8 @@
 3571 Sword Saint's Gun
 3572 Sword Saint's Spear
 3573 Tengu Sword
-3574
-3575
+3574 Demon of Hatred Head
+3575 Monk Straw Hat
 
 # Block 4
 4150 Shockwave
@@ -433,8 +433,8 @@
 6022 Holy Fragment
 6023 Fire Seed
 6024 Primsatic Slab
-6025
-6026
+6025 Taro Mace
+6026 Taro Mallet
 6027
 6028
 6029

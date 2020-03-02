@@ -449,6 +449,7 @@ Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Wake-up
 Event(20005203, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -483,6 +484,7 @@ Event(20005203, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Wake-up
 Event(20005204, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -690,6 +692,7 @@ Event(20005211, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Wake-up
 Event(20005212, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -714,6 +717,7 @@ Event(20005212, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Wake-up
 Event(20005213, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -739,6 +743,7 @@ Event(20005213, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy -Toggle Gravity
 Event(20005214, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -769,6 +774,7 @@ Event(20005214, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Toggle Gravity
 Event(20005215, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -802,6 +808,7 @@ Event(20005215, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Toggle Gravity
 Event(20005216, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -833,6 +840,7 @@ Event(20005216, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Toggle Gravity
 Event(20005217, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -865,6 +873,7 @@ Event(20005217, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Toggle Gravity
 Event(20005218, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -899,6 +908,7 @@ Event(20005218, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
+// Enemy - Toggle Gravity
 Event(20005219, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -1329,6 +1339,7 @@ Event(20005243, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Wake-up
 Event(20005260, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -1459,6 +1470,7 @@ Event(2005310, Restart, function(X0_4, X4_4, X8_4) {
     SetSpeffect(X0_4, X8_4);
 });
 
+// Patrol - Update based on Area
 Event(20005320, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
@@ -2020,6 +2032,7 @@ Event(20005434, Restart, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Toggle Gravity and Warp on activation
 Event(20005440, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterGravity(X4_4, Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
@@ -2032,6 +2045,7 @@ Event(20005440, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Enemy - Kill if main enemy is dead
 Event(20005441, Restart, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
@@ -3202,6 +3216,7 @@ Event(20005712, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
+// Summon - Death
 Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -3311,6 +3326,7 @@ Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
+// Invader - Handle Enable State
 Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
@@ -3326,6 +3342,7 @@ Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
+// Invader - Setup
 Event(20005750, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -3390,6 +3407,7 @@ Event(20005752, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Invader - Death
 Event(20005760, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -3399,6 +3417,7 @@ Event(20005760, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Handle Transition Fog Wall
 Event(20005780, Default, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X0_4, Disabled);
@@ -3879,6 +3898,7 @@ Event(20005839, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Handle Fog Wall for Player
 Event(20005840, Restart, function(X0_4) {
     IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
     IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, 5, 1);
@@ -3888,6 +3908,7 @@ Event(20005840, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Handle Fog Wall for Client Player
 Event(20005841, Restart, function(X0_4) {
     IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
     IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Outside, 10000, X0_4, 5, 1);
@@ -3898,6 +3919,7 @@ Event(20005841, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Set Flag based on Flag
 Event(20005900, Restart, function(X0_4, X4_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     SetEventFlag(X4_4, ON);

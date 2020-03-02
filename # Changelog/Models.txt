@@ -64,6 +64,14 @@
 0928 Sword Saint's Gun - 3571
 0929 Sword Saint's Spear - 3572
 0930 Tengu Sword - 3573
+0931 Butterfly Kunai - 2138
+0932 Gun Fort Bayonet - 2139
+0933 Monk Staff - 2140
+0934 Monk Twinblade - 2141
+0935 Shinobi Hunter Spear - 2142
+0936 Snake Eyes Cannon  - 2143
+0937 Taro Mace - 6025
+0938 Taro Mallet - 6026
 
 # Armor
 9820 Alonne Set - 3512, 3513, 3514, 3515
@@ -97,3 +105,5 @@
 9851 Okami Mask - 3542
 9852 Seven Spear Helmet - 3543
 9853 Tengu Mask - 3544
+9873 Demon of Hatred Head - 3574
+9874 Monk Straw Hat - 3575

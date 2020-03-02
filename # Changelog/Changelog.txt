@@ -30,104 +30,24 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Added Gael's Beard and Andre's Beard to the beard selection.
 
-# Item Randomiser
-- A custom version of LukeYui's item randomiser is now available for Cinders. It is an optional file download. To use it, just drag and drop the files into the Game directory, replacing the original modengine.ini when prompted.
+# Stats
+- Luck renamed to Humanity (HUM).
 
-# Trial of Perseverance
-- You may now enter the Trial of Perseverance via the sword in the alcove near to the Firelink Shrine bonfire.
-- The Trial of Perseverance consists of 31 waves, which you must survive by killing enough enemies during each wave to advance to the next one.
-- Each wave is unique. They are ordered by relative difficulty, so the trial starts off fairly easy and ramps up in difficulty.
-- Each wave only ends once enough enemies have been killed. You can see your progress by looking at the boss HP bar that is active during a wave.
-- Each wave completed will reward reinforcement material directly, the kind improving with subsequent waves.
-- All enemies drop their normal drops and souls within waves, meaning you can farm them via the trial.
-- Each wave completed will boost soul absorption by 5% and Item Discovery by 25, meaning you are rewarded for each wave you survive consecutively.
-- Completing the full trial will unlock Primordial Forging early (Soul of Cinder still unlocks it, this is just an additional option).
+# Status Effects
+- Poison and Bleed no longer scale with Luck (Humanity).
+- Increased the amount of inflict for all types, in general: 30 (for quick), 50 (for normal), 80 (for slow). This is doubled for infusions on those with innate inflict.
 
-# Curse
-- Curse of Agony is now Curse of Vitality: Enemies brim with unholy vitality. They recover 10 + 0.05% HP every second. Boosts soul absorption by 20%.
-- Curse of Gluttony now forces slow movement.
-- Curse of Vulnerability now prevents estus flask usage.
-
-# Reinforcement
-- Increased the effectiveness of Primordial Titanite reinforcement for melee weapons.
-- Increased the material cost for Primordial Titanite reinforcement to 3/6/9/12.
-- Final reinforcement now requires Primordial Essence instead of a slab.
-- Primordial Essence is dropped by Soul of Cinder in NG+, or Nightmare Soul of Cinder in any NG.
-
-# Weapons
-- Reduced the Bewitched Alonne Sword damage.
-- Fury of Manus WA now only gives you the normal cursed back VFX.
-- Crypt Blacksword WA now looks flashier.
-- Obsidian Greatsword now has the Abyssal Fire WA, which is like its special attack in DS1.
-- Black Knight Greataxe now uses the Great Hammer rolling attack.
-
-
-# Spell Tools
-- Increased the scaling multipliers for non-hybrid spell tools.
-- Changed the spell tool material quantities to 3/6/9/12 for +1 to +4.
-- All the non-hybrid spell tools now have different reinforcement materials. 
-- Staves require Crystal Fragments
-- Chimes and Talismans require Holy Fragments
-- Pyromancy Flames require Fire Seeds (as before).
-- Dark staves, chimes, talismans and flames require Abyssal Fragments
-- Insanity Catalyst is now reinforced with the souls of the Lords of Cinder and the Soul of Cinder. It's spell buff has been increased.
-- Insanity Catalyst now removes 20% HP per cast.
-- Insanity Catalyst WA: Boosts damage by 20% for 15 seconds but brings the caster close to death afterwards.
-
-# Items
-- Increased the shop price of reinforcement materials.
-- Renamed Humanity to Human Effigy.
-- You can now purchase Primordial Titanite and Essence only after unlocking Primordial Forging.
+# Catalysts
+- Removed the Dark/Non-Dark catalyst mechanic.
+- All catalysts now have a innate Humanity scaling, the 'dark' catalysts have more than the others.
 
 # Spells
-- Changed the Ascended mechanic for spells. It is now limited to offensive magic and dark sorceries.
-- Blessed Weapon now requires 30 FTH.
-- Heavenly Thunder: FP is now 80, works like the SoC's version, damage is 800 per bullet.
-- Likewise with Cataclysm and Earthfall.
-- Reduced Heavenly Thunder FTH requirement to 35.
-- Adjusted Soul Geyser bullets.
-- Lightning Storm: FP to 100
-- Climax inflicts air juggle stagger normally.
-- Profaned Flame has a secondary projectile normally.
-- Great Farron Dart is now Scattered Farron Dart, emits a scattering of darts upon cast.
-- Great Soul Arrow is now Scattered Soul Arrow, emits a scattering of soul arrows upon cast.
-- Dark Edge uses farron flashsword animation normally.
-- Added Vow of Agony, casts a circle of agony that targets the closest foe, dealing 300 damage per tick (ticks 4 times). Requires 40 FTH, is found in the Ringed City, on the corpse on the Gwyn statue.
-- Added Angelic Ray, acts like soul stream but with holy beam and quicker cast animation. Requires 40 FTH, is found in the room below the first Judicator in the Ringed City.
-
-# Rings
-- Added the Fool's Sigil, a ring that gives you a random effect every 15 seconds. Found in Ariandel, in the area below the bridge.
-- Possible effects:
- - +15% Attack
- - +15% Absorption
- - 30 Stamina recovery
- - +1% FP Regen
- - -25% Stamina/FP consumption
- - Immunity to status effects
- - Estus Usage blocked
- - -100% Absorption
-- Removing the ring inflicts 50% HP damage to discourage swapping it out when a bad effect is active.
-- Adjusted the Thieves' Pact material drop rates, lesser materials are more likely, and slabs are less likely. No longer scales with Item Discovery.
-- Added Rattling Finger, making you a spooky skeleton. Found in the Catacombs of Carthus.
-- Added Murky Finger, making you a murkman. Found in the Dreg Heap.
+- All Dark spells now scale from Humanity.
+- Dark spells now take INT/FTH/HUM into account. This means they max at the highest amount of damage out of all the types, but requires investment in all three to achieve this.
 
 # Enemies
-- Added red eye VFX to nightmare bosses that support it.
-- Primordial Titanite drops from NG+ ring mobs is now less than 100% on the weaker mobs.
-- Reduced boss aux resists to a 150 <> 250 range, so later bosses aren't so resistant.
-- Yhorm now has new after-effects on his moves, making his fight a bit more interesting.
-- Storm Ruler now applies a 30 debuff when its WA is used on Yhorm.
-- Increased the HP of most bosses. But reduces their absorption to ease this slightly. This is to give bosses a bit more bulk, but still to allow high power builds to feel their power.
-
-# Bugfixes
-- King's Ultra Greatsword / Crypt Blacksword now deal Strike damage on attacks.
-- Fixed Scholar's Bow not adding its effect.
-- Corrected incorrect Rare Ring of Humanity summary.
-- Fixed the Primordial Titanite drop rate from Dream bosses being inverted.
-- Fixed bug with Crab Claw drop.
+- Yhorm's flame patch lasts 15 seconds (was 8).
 
 #------------------------------
 # TODO
@@ -137,6 +57,3 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-Ciaran's Tracers need custom behavior/atkparam
-
-5306
