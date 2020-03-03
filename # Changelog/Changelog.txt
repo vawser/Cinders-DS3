@@ -40,11 +40,14 @@
 
 # Catalysts
 - Removed the Dark/Non-Dark catalyst mechanic.
-- All catalysts now have a innate Humanity scaling, the 'dark' catalysts have more than the others.
+- All 'dark' catalysts now have Humanity scaling, adding to overall spell buff. The normal INT/FTH scaling on 'dark' catalysts has been reduced, but the added HUM scaling pushes their actual spell buff above the regular catalysts. This means they are sub-optimal for normal spells, but the best for dark spells.
+- Reduced the scaling on the hybrid weapons so they are set to 190 spell buff, making them mid-tier.
+- Reduced the max scaling for catalysts down to 3 (from 4).
 
 # Spells
 - All Dark spells now scale from Humanity.
-- Dark spells now take INT/FTH/HUM into account. This means they max at the highest amount of damage out of all the types, but requires investment in all three to achieve this.
+- Dark spells now take INT/FTH/HUM into account.
+- Increased the damage of normal and dark pyromancies.
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).

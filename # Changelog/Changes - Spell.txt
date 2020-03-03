@@ -330,49 +330,49 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Flame Fan
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 150
+- Fire Damage: 200
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 30
-- Fire Damage: 250 [150] 
+- Fire Damage: 300 [200] 
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 40
-- Fire Damage: 300 [200] 
+- Fire Damage: 400 [200] 
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 8
-- Fire Damage: 400 
+- Fire Damage: 500 
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
-- Fire Damage: 100
+- Fire Damage: 150
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 500 [200] 
+- Fire Damage: 600 [200] 
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 60
-- Fire Damage: 400 [100] [350] 
+- Fire Damage: 500 [100] [350] 
 
 #--------------------------------
 # Chaos Storm
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 500 [350] 
+- Fire Damage: 600 [350] 
 
 #--------------------------------
 # Fire Whip
@@ -384,13 +384,13 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Profaned Flame
 #--------------------------------
 - FP Cost: 40
-- Fire Damage: 400 
+- Fire Damage: 400 [400]
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 80
-- Fire Damage: 600 [100] 
+- Fire Damage: 800 [100] 
 
 #--------------------------------
 # Cataclysm
@@ -402,19 +402,19 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Floating Chaos
 #--------------------------------
 - FP Cost: 100
-- Fire Damage: 100 (per bullet)
+- Fire Damage: 150 (per bullet)
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 35
-- Fire Damage: 100 [100]
+- Fire Damage: 120 [100]
 
 #--------------------------------
 # Boulder Heave
 #--------------------------------
 - FP Cost: 75
-- Physical Damage: 500 [250] 
+- Physical Damage: 800 [250] 
 
 #--------------------------------
 # Sacred Flame
@@ -426,19 +426,19 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Seething Chaos
 #--------------------------------
 - FP Cost: 40
-- Fire Damage: 300 [600] 
+- Fire Damage: 300 [900] 
 
 #--------------------------------
 # Heave Earth
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 500 
+- Physical Damage: 600 
 
 #--------------------------------
 # Earthquake
 #--------------------------------
 - FP Cost: 8
-- Physical Damage: 400 
+- Physical Damage: 600 
 
 #--------------------------------
 # Lingering Chaos
@@ -981,37 +981,37 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Black Fire Orb
 #--------------------------------
 - FP Cost: 40
-- Dark Damage: 300 [250] 
+- Dark Damage: 400 [250] 
 
 #--------------------------------
 # Black Flame
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 300 [150] 
+- Dark Damage: 500 [150] 
 
 #--------------------------------
 # Black Serpent
 #--------------------------------
 - FP Cost: 60
-- Dark Damage: 500 
+- Dark Damage: 700 
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
 - FP Cost: 6
-- Dark Damage: 400 
+- Dark Damage: 600 
 
 #--------------------------------
 # Recollection  
 #--------------------------------
 - FP Cost: 100
-- Dark Damage: 100 (per bullet)
+- Dark Damage: 150 (per bullet)
 
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 300 [300]
+- Dark Damage: 300 [400]
 
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
