@@ -45,11 +45,13 @@
 - All 'dark' catalysts now have Humanity scaling, adding to overall spell buff. The normal INT/FTH scaling on 'dark' catalysts has been reduced, but the added HUM scaling pushes their actual spell buff above the regular catalysts. This means they are sub-optimal for normal spells, but the best for dark spells.
 - Reduced the scaling on the hybrid weapons so they are set to 190 spell buff, making them mid-tier.
 - Reduced the max scaling for catalysts down to 3 (from 4).
+- Removed the Lord's Chime (Sacred Chime of Filianore now replaces it in terms of power).
 
 # Spells
 - All Dark spells now scale from Humanity.
 - Dark spells now take INT/FTH/HUM into account.
 - Increased the damage of normal and dark pyromancies.
+- Vow of Agony now does dark damage.
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
