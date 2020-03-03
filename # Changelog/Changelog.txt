@@ -32,7 +32,9 @@
 #------------------------------
 
 # Stats
+- Changed the levelling cost to no longer ramp up. Now costs ~300,000,000 souls to reach max, whereas before 999,999,999 souls only reached level 619.
 - Luck renamed to Humanity (HUM).
+- Adjusted the stats of the Heretic, Outcast and Skeptic classes
 
 # Status Effects
 - Poison and Bleed no longer scale with Luck (Humanity).
