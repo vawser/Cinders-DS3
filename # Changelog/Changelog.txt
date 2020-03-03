@@ -32,7 +32,7 @@
 #------------------------------
 
 # Stats
-- Changed the levelling cost to no longer ramp up. Now costs ~300,000,000 souls to reach max, whereas before 999,999,999 souls only reached level 619.
+- Changed the levelling cost. Before 999,999,999 souls only reached level 619, now it reaches level 836.
 - Luck renamed to Humanity (HUM).
 - Adjusted the stats of the Heretic, Outcast and Skeptic classes
 
