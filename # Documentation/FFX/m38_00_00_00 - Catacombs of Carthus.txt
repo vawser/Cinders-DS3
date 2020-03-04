@@ -7,172 +7,172 @@
 436032
 436041
 436042
-610700
-610705
-610706
-610707
-610708
-610709
-610710
-610711
-610712
-610713
-610715
-610716
-611700
-611701
-611710
-611711
-611712
-611713
-611720
-611730
-611731
-611800
-611801
-611802
-611803
-612100
-612101
-612102
-612105
-612106
-612107
-612110
-612111
-612120
-621100
-621200
-621201
-621202
-621210
-621220
-621221
-621320
-621321
-621330
-621400
-621410
-621420
-622000
-622001
-622002
-622003
-622004
-622005
-622010
-622011
-622012
-622310
-622321
-622600
-622601
-622602
-622700
-622701
-622702
-622703
-622800
-630500
-630501
-630502
-630503
-630510
-630511
-630512
-630520
-630522
-630523
-630524
-630525
-630528
-630530
-630531
-630532
-630533
-630534
-630542
-630543
-630544
-630545
-630546
-630550
-630552
-630553
-630555
-630562
-630563
-630570
-630571
-630572
-630580
-630581
-630582
-630583
-630600
-630601
-630602
-630603
-630610
-630611
-630612
-630613
-630620
-630630
-630631
-630632
-630633
-630640
-630641
-630650
-630651
-630700
-630701
-630702
-630710
-630711
-630712
-630713
-630715
-630716
-630717
-630719
-630720
-630721
-630722
-630725
-630740
-630741
-631000
-631020
-631030
-631040
-631050
-631060
-632300
-632301
-632302
-632305
-632306
-651600
-651605
-651615
-651620
-651621
-651622
-651624
-651625
-651626
-651627
-651630
-651635
-651636
-651640
-651643
-651645
-651650
-651655
-651656
+610700 Skeleton: 
+610705 Skeleton: Oil Urn
+610706 Skeleton: 
+610707 Skeleton: 
+610708 Skeleton: 
+610709 Skeleton: 
+610710 Skeleton: Arrow
+610711 Skeleton: 
+610712 Skeleton: 
+610713 Skeleton: 
+610715 Skeleton: 
+610716 Skeleton: 
+611700 Carthus Swordsmen: Red Eye
+611701 Carthus Swordsmen: White Eye
+611710 Carthus Swordsmen: Fire Arrow
+611711 Carthus Swordsmen: 
+611712 Carthus Swordsmen: 
+611713 Carthus Swordsmen: 
+611720 Carthus Swordsmen:  Blood Weapon Aura
+611730 Carthus Swordsmen:  Dust Cloud
+611731 Carthus Swordsmen:  Dust Cloud
+611800 Carthus Swordsmen (Shotel): Kukri
+611801 Carthus Swordsmen (Shotel):
+611802 Carthus Swordsmen (Shotel):
+611803 Carthus Swordsmen (Shotel):
+612100 Smouldering Ghru: 
+612101 Smouldering Ghru: Poison Cloud
+612102 Smouldering Ghru: Toxic Cloud
+612105 Smouldering Ghru: Dung Pie
+612106 Smouldering Ghru: 
+612107 Smouldering Ghru: 
+612110 Smouldering Ghru: Light Orb
+612111 Smouldering Ghru: 
+612120 Smouldering Ghru: 
+621100 Hound-rat:  
+621200 Hound-rat: 
+621201 Hound-rat: 
+621202 Hound-rat: 
+621210 Hound-rat: White aura
+621220 Hound-rat: 
+621221 Hound-rat: 
+621320 Hound-rat: 
+621321 Hound-rat: 
+621330 Hound-rat: 
+621400 Basilisk: Petrify Gas
+621410 Basilisk: Petrify Gas
+621420 Basilisk: Petrify Gas
+622000 Carthus Sandworm: Gathering Lightning Orb
+622001 Carthus Sandworm: Big Lightning Bolt
+622002 Carthus Sandworm: Big Lightning Bolt
+622003 Carthus Sandworm: Big Lightning Sparks
+622004 Carthus Sandworm: Big Lightning Impact
+622005 Carthus Sandworm: Big Lightning Sparks
+622010 Carthus Sandworm: Big Water Burst
+622011 Carthus Carthus Sandworm: Big Water Burst
+622012 Carthus Sandworm: Big Water Burst - Sideways
+622310 Carthus Sandworm: Petrify Gas
+622321 Carthus Sandworm: Petrify Gas
+622600 Carthus Sandworm: 
+622601 Carthus Sandworm: Big Water Burst
+622602 Carthus Sandworm: Big Rock Impact
+622700 Giant Crab: Bubblebeam
+622701 Giant Crab: Crab Bubblebeam
+622702 Giant Crab: Crab Bubblebeam
+622703 Giant Crab: Crab Bubblebeam
+622800 Giant Rat: 
+630500 Old Demon King: 
+630501 Old Demon King: 
+630502 Old Demon King: 
+630503 Old Demon King: 
+630510 Old Demon King: 
+630511 Old Demon King: 
+630512 Old Demon King: 
+630520 Old Demon King: 
+630522 Old Demon King: 
+630523 Old Demon King: 
+630524 Old Demon King:  White Volumetric Fog 
+630525 Old Demon King:  White Fog Burst
+630528 Old Demon King: 
+630530 Old Demon King: 
+630531 Old Demon King: 
+630532 Old Demon King: 
+630533 Old Demon King: 
+630534 Old Demon King: 
+630542 Old Demon King: 
+630543 Old Demon King: 
+630544 Old Demon King: 
+630545 Old Demon King: 
+630546 Old Demon King: 
+630550 Old Demon King: 
+630552 Old Demon King: 
+630553 Old Demon King: 
+630555 Old Demon King: 
+630562 Old Demon King: 
+630563 Old Demon King: 
+630570 Old Demon King: 
+630571 Old Demon King: 
+630572 Old Demon King: 
+630580 Old Demon King: 
+630581 Old Demon King: 
+630582 Old Demon King: 
+630583 Old Demon King: 
+630600 Demon: 
+630601 Demon: 
+630602 Demon: 
+630603 Demon: 
+630610 Demon: 
+630611 Demon: 
+630612 Demon: 
+630613 Demon: 
+630620 Demon: 
+630630 Demon: 
+630631 Demon: 
+630632 Demon: 
+630633 Demon: 
+630640 Demon: 
+630641 Demon: 
+630650 Demon: 
+630651 Demon: 
+630700 Demon Cleric: 
+630701 Demon Cleric:
+630702 Demon Cleric:
+630710 Demon Cleric:
+630711 Demon Cleric:
+630712 Demon Cleric:
+630713 Demon Cleric:
+630715 Demon Cleric:
+630716 Demon Cleric:
+630717 Demon Cleric:
+630719 Demon Cleric:
+630720 Demon Cleric:
+630721 Demon Cleric:
+630722 Demon Cleric:
+630725 Demon Cleric:
+630740 Demon Cleric:
+630741 Demon Cleric:
+631000 Ravenous Crystal Lizard: 
+631020 Ravenous Crystal Lizard: 
+631030 Ravenous Crystal Lizard: 
+631040 Ravenous Crystal Lizard: 
+631050 Ravenous Crystal Lizard: 
+631060 Ravenous Crystal Lizard: 
+632300 Demon Statue: 
+632301 Demon Statue: 
+632302 Demon Statue: 
+632305 Demon Statue: 
+632306 Demon Statue: 
+651600 High Lord Wolnir: Miasma Fog around entity
+651605 High Lord Wolnir: Darkness
+651615 High Lord Wolnir: Rising Black aura around entity
+651620 High Lord Wolnir: Emit Miasma - Forward
+651621 High Lord Wolnir: Emit Miasma - Down
+651622 High Lord Wolnir: Emit Miasma - Up
+651624 High Lord Wolnir: Holy Sword Yellow Glow
+651625 High Lord Wolnir: Holy Sword Aura
+651626 High Lord Wolnir: Holy Force Burst
+651627 High Lord Wolnir: 
+651630 High Lord Wolnir: Holy Sword Emit Wisps
+651635 High Lord Wolnir: Black Fog Spot
+651636 High Lord Wolnir: Black Fog Burst
+651640 High Lord Wolnir: Light Yellow Glow
+651643 High Lord Wolnir: Holy Sword Wisp Burst
+651645 High Lord Wolnir: Light Grey Glow
+651650 High Lord Wolnir: Ground Impact
+651655 High Lord Wolnir: Wide Ground Arc Impact
+651656 High Lord Wolnir: Distant Dust Impact
 738000
 738001
 738002
