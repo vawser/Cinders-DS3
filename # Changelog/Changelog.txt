@@ -74,13 +74,6 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-- Catalysts
-Restricted to a single school
-Same spell buff
-Difference is WA and innate effects
-Dark catalysts have dual stats, normals have 1
-Remove luck scaling catalysts
-Normal pyromancy flames have no scaling
-
-Change Insanity damage to only occur with WA
-
+Fire infusion, make psuedo raw
+Add different VFX pyromancy flames with innate effects
+Give Golden Ritual Spear the Darkmoon Volley WA
