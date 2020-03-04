@@ -129,148 +129,148 @@
 439101
 439102
 441402
-611000
-611001
-611010
-611011
-611012
-612000
-612001
-612002
-612003
-612010
-612011
-612012
-612013
-612020
-612800
-612810
-612812
-612813
-612814
-612820
-612821
-612822
-612823
-612824
-612830
-612831
-612832
-632100
-650198
-650199
-650201 Fire Beam - Start
-650202 Fire Beam
-650203 Fire Beam
-650204 Fire Beam - Impact
-650205 Big Flame Orb
-650206 Big Flame Orb
-650207 Big Flame Orb - Glow
-650208 Big Flame Orb - Aura
-650209 Flame Pillar
-650210
-650212 Big Fireball
-650213 Big Fireball - Impact
-650214 Lava Patch
-650215
-650216 Flame Orb
-650217 Small Fire Orb
-650218
-650219 Flame Impact
-650220
-650221
-650222
-650223
-650224
-650225
-650226
-650227
-650230
-650231
-650232
-650233
-650234
-650240
-650241
-650242
-650245
-650246
-650250
-650251
-650252
-650255
-650256
-650259
-650260
-650261
-650262 Fire Boulder
-650263
-650264 Fire Boulder
-650265 Fire Boulder
-650266 Fire Boulder - Impact
-650269
-650270
-650271
-650272
-650274
-650275
-650276
-650280
-650281
-650285
-650290
-650291
-650292
-650293
-650295
-650296
-650297
-650298
-650299
-662300
-662301
-662310
-662311
-662312
-662313
-662318
-662319
-662320
-662321
-662322
-662323
-662324
-662325
-662326
-662327
-662328
-662329
-662330
-662331
-662332
-662333
-662334
-662335
-662336
-662400
-662500
-662501
-662502
-662503
-662510
-662511
-662512
-662513
-662520
-662521
-662522
-662530
-662535
-662540
-662550
-663200
-663210
-663220
+611000 Hollow Soldier: 
+611001 Hollow Soldier:
+611010 Hollow Soldier:
+611011 Hollow Soldier:
+611012 Hollow Soldier:
+612000 Hollow Slave:
+612001 Hollow Slave:
+612002 Hollow Slave:
+612003 Hollow Slave:
+612010 Hollow Slave:
+612011 Hollow Slave:
+612012 Hollow Slave:
+612013 Hollow Slave:
+612020 Hollow Slave:
+612800 Lothric Knight: 
+612810 Lothric Knight: 
+612812 Lothric Knight: 
+612813 Lothric Knight: 
+612814 Lothric Knight: 
+612820 Lothric Knight: 
+612821 Lothric Knight: 
+612822 Lothric Knight: 
+612823 Lothric Knight: 
+612824 Lothric Knight: 
+612830 Lothric Knight: 
+612831 Lothric Knight: 
+612832 Lothric Knight: 
+632100 Poisonhorn Bug: 
+650198 Nameless King: 
+650199 Nameless King: 
+650201 Demon Prince: Fire Beam - Start
+650202 Demon Prince: Fire Beam
+650203 Demon Prince: Fire Beam
+650204 Demon Prince: Fire Beam - Impact
+650205 Demon Prince: Big Flame Orb
+650206 Demon Prince: Big Flame Orb
+650207 Demon Prince: Big Flame Orb - Glow
+650208 Demon Prince: Big Flame Orb - Aura
+650209 Demon Prince: Flame Pillar
+650210 Demon Prince: 
+650212 Demon Prince: Big Fireball
+650213 Demon Prince: Big Fireball - Impact
+650214 Demon Prince: Lava Patch
+650215 Demon Prince: 
+650216 Demon Prince: Flame Orb
+650217 Demon Prince: Small Fire Orb
+650218 Demon Prince: 
+650219 Demon Prince: Flame Impact
+650220 Demon Prince: 
+650221 Demon Prince: 
+650222 Demon Prince: 
+650223 Demon Prince: 
+650224 Demon Prince: 
+650225 Demon Prince: 
+650226 Demon Prince: 
+650227 Demon Prince: 
+650230 Demon Prince: 
+650231 Demon Prince: 
+650232 Demon Prince: 
+650233 Demon Prince: 
+650234 Demon Prince: 
+650240 Demon Prince: 
+650241 Demon Prince: 
+650242 Demon Prince: 
+650245 Demon Prince: 
+650246 Demon Prince: 
+650250 Demon Prince: 
+650251 Demon Prince: 
+650252 Demon Prince: 
+650255 Demon Prince: 
+650256 Demon Prince: 
+650259 Demon Prince: 
+650260 Demon Prince: 
+650261 Demon Prince: 
+650262 Demon Prince: Fire Boulder
+650263 Demon Prince: 
+650264 Demon Prince: Fire Boulder
+650265 Demon Prince: Fire Boulder
+650266 Demon Prince: Fire Boulder - Impact
+650269 Demon Prince: 
+650270 Demon Prince: 
+650271 Demon Prince: 
+650272 Demon Prince: 
+650274 Demon Prince: 
+650275 Demon Prince: 
+650276 Demon Prince: 
+650280 Demon Prince: 
+650281 Demon Prince: 
+650285 Demon Prince: 
+650290 Demon Prince: 
+650291 Demon Prince: 
+650292 Demon Prince: 
+650293 Demon Prince: 
+650295 Demon Prince: 
+650296 Demon Prince: 
+650297 Demon Prince: 
+650298 Demon Prince: 
+650299 Demon Prince: 
+662300 Murkman: 
+662301 Murkman: 
+662310 Murkman: 
+662311 Murkman: 
+662312 Murkman: 
+662313 Murkman: 
+662318 Murkman: 
+662319 Murkman: 
+662320 Murkman: 
+662321 Murkman: 
+662322 Murkman: 
+662323 Murkman: 
+662324 Murkman: 
+662325 Murkman: 
+662326 Murkman: 
+662327 Murkman: 
+662328 Murkman: 
+662329 Murkman: 
+662330 Murkman: 
+662331 Murkman: 
+662332 Murkman: 
+662333 Murkman: 
+662334 Murkman: 
+662335 Murkman: 
+662336 Murkman: 
+662400 Pilgrim Pulpa: 
+662500 Pilgrim Angel:
+662501 Pilgrim Angel:
+662502 Pilgrim Angel:
+662503 Pilgrim Angel:
+662510 Pilgrim Angel:
+662511 Pilgrim Angel:
+662512 Pilgrim Angel:
+662513 Pilgrim Angel:
+662520 Pilgrim Angel:
+662521 Pilgrim Angel:
+662522 Pilgrim Angel:
+662530 Pilgrim Angel:
+662535 Pilgrim Angel:
+662540 Pilgrim Angel:
+662550 Pilgrim Angel:
+663200 Harald Knight: 
+663210 Harald Knight: 
+663220 Harald Knight: 
 838110
 850000
 850010

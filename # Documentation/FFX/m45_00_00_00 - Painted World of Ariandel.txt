@@ -114,184 +114,184 @@
 439061
 439062
 620801
-621000
-621001
-622100
-622101
-622102
-622103
-622105
-622106
-622107
-622108
-622110
-622111
-622115
-622120
-622121
-622130
-622140
-622141
-660000
-660002
-660003
-660010
-660011
-660012
-660013
-660020
-660100
-660109
-660110
-660111
-660115
-660116
-660120
-660130
-660135
-660140
-660141
-660142
-660150
-660151
-660152
-660190
-660200
-660201
-660202
-660204
-660205
-660206
-660210
-660211
-660212
-660213
-660215
-660216
-660217
-660220
-660221
-660222
-660224
-660225
-660226
-660227
-660228
-660229
-660230
-660231
-660232
-660233
-660235
-660236
-660237
-660238
-660240
-660241
-660242
-660243
-660245
-660246
-660250
-660255
-660259
-660260
-660261
-660262
-660263
-660266
-660267
-660268
-660270
-660274
-660275
-660276
-660277
-660280
-660285
-660286
-660290
-660295
-660296
-660297
-660298
-660300
-660301
-660305
-660310
-660311
-660312
-660315
-660316
-660320
-660330
-660340
-660350
-660351
-660360
-660361
-660400
-660600
-660607
-660608
-660610
-660612
-660614
-660620
-660622
-660623
-660624
-660630
-660640
-660700
-660701
-660702
-660703
-660704
-660710
-660711
-660720
-660721
-660800
-660801
-660802
-660803
-660806
-660807
-660810
-660811
-660812
-660813
-660816
-660817
-660900
-660901
-660902
-660903
-660905
-660906
-661001
-661002
-661003
-661005
-661006
-661007
-661010
-661011
-661012
-661013
-661014
-661015
-661020
-661301
-661304
-661305
-661311
-661312
-661313
-661314
-661316
-661317
+621000 Sewer Centipede: 
+621001 Sewer Centipede: 
+622100 Corvian: 
+622101 Corvian: 
+622102 Corvian: 
+622103 Corvian: 
+622105 Corvian: 
+622106 Corvian: 
+622107 Corvian: 
+622108 Corvian: 
+622110 Corvian: 
+622111 Corvian: 
+622115 Corvian: 
+622120 Corvian: 
+622121 Corvian: 
+622130 Corvian: 
+622140 Corvian: 
+622141 Corvian: 
+660000 Farron Follower:
+660002 Farron Follower:
+660003 Farron Follower:
+660010 Farron Follower:
+660011 Farron Follower:
+660012 Farron Follower:
+660013 Farron Follower:
+660020 Farron Follower:
+660100 Father Ariandel: 
+660109 Father Ariandel: 
+660110 Father Ariandel: 
+660111 Father Ariandel: 
+660115 Father Ariandel: 
+660116 Father Ariandel: 
+660120 Father Ariandel: 
+660130 Father Ariandel: 
+660135 Father Ariandel: 
+660140 Father Ariandel: 
+660141 Father Ariandel: 
+660142 Father Ariandel: 
+660150 Father Ariandel: 
+660151 Father Ariandel: 
+660152 Father Ariandel: 
+660190 Father Ariandel: 
+660200 Sister Friede: 
+660201 Sister Friede: 
+660202 Sister Friede: 
+660204 Sister Friede: 
+660205 Sister Friede: 
+660206 Sister Friede: 
+660210 Sister Friede: 
+660211 Sister Friede: 
+660212 Sister Friede: 
+660213 Sister Friede: 
+660215 Sister Friede: 
+660216 Sister Friede: 
+660217 Sister Friede: 
+660220 Sister Friede: 
+660221 Sister Friede: 
+660222 Sister Friede: 
+660224 Sister Friede: 
+660225 Sister Friede: 
+660226 Sister Friede: 
+660227 Sister Friede: 
+660228 Sister Friede: 
+660229 Sister Friede: 
+660230 Sister Friede: 
+660231 Sister Friede: 
+660232 Sister Friede: 
+660233 Sister Friede: 
+660235 Sister Friede: 
+660236 Sister Friede: 
+660237 Sister Friede: 
+660238 Sister Friede: 
+660240 Sister Friede: 
+660241 Sister Friede: 
+660242 Sister Friede: 
+660243 Sister Friede: 
+660245 Sister Friede: 
+660246 Sister Friede: 
+660250 Sister Friede: 
+660255 Sister Friede: 
+660259 Sister Friede: 
+660260 Sister Friede: 
+660261 Sister Friede: 
+660262 Sister Friede: 
+660263 Sister Friede: 
+660266 Sister Friede: 
+660267 Sister Friede: 
+660268 Sister Friede: 
+660270 Sister Friede: 
+660274 Sister Friede: 
+660275 Sister Friede: 
+660276 Sister Friede: 
+660277 Sister Friede: 
+660280 Sister Friede: 
+660285 Sister Friede: 
+660286 Sister Friede: 
+660290 Sister Friede: 
+660295 Sister Friede: 
+660296 Sister Friede: 
+660297 Sister Friede: 
+660298 Sister Friede: 
+660300 Greatwolf: 
+660301 Greatwolf: 
+660305 Greatwolf: 
+660310 Greatwolf: 
+660311 Greatwolf: 
+660312 Greatwolf: 
+660315 Greatwolf: 
+660316 Greatwolf: 
+660320 Greatwolf: 
+660330 Greatwolf: 
+660340 Greatwolf: 
+660350 Greatwolf: 
+660351 Greatwolf: 
+660360 Greatwolf: 
+660361 Greatwolf: 
+660400 Wolf: 
+660600 Tree Woman: 
+660607 Tree Woman: 
+660608 Tree Woman: 
+660610 Tree Woman: 
+660612 Tree Woman: 
+660614 Tree Woman: 
+660620 Tree Woman: 
+660622 Tree Woman: 
+660623 Tree Woman: 
+660624 Tree Woman: 
+660630 Tree Woman: 
+660640 Tree Woman: 
+660700 Corvian Knight: 
+660701 Corvian Knight: 
+660702 Corvian Knight: 
+660703 Corvian Knight: 
+660704 Corvian Knight: 
+660710 Corvian Knight: 
+660711 Corvian Knight: 
+660720 Corvian Knight: 
+660721 Corvian Knight: 
+660800 Corvian Villager: 
+660801 Corvian Villager: 
+660802 Corvian Villager: 
+660803 Corvian Villager: 
+660806 Corvian Villager: 
+660807 Corvian Villager: 
+660810 Corvian Villager: 
+660811 Corvian Villager: 
+660812 Corvian Villager: 
+660813 Corvian Villager: 
+660816 Corvian Villager: 
+660817 Corvian Villager: 
+660900 Giant Fly:
+660901 Giant Fly:
+660902 Giant Fly:
+660903 Giant Fly:
+660905 Giant Fly:
+660906 Giant Fly:
+661001 Millwood Knight: 
+661002 Millwood Knight: 
+661003 Millwood Knight: 
+661005 Millwood Knight: 
+661006 Millwood Knight: 
+661007 Millwood Knight: 
+661010 Millwood Knight: 
+661011 Millwood Knight: 
+661012 Millwood Knight: 
+661013 Millwood Knight: 
+661014 Millwood Knight: 
+661015 Millwood Knight: 
+661020 Millwood Knight: 
+661301 Giant Crab:
+661304 Giant Crab:
+661305 Giant Crab:
+661311 Giant Crab:
+661312 Giant Crab:
+661313 Giant Crab:
+661314 Giant Crab:
+661316 Giant Crab:
+661317 Giant Crab:
 680000
 745000
 745001

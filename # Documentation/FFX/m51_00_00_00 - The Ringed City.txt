@@ -89,207 +89,207 @@
 530013 White Spear Tip
 530014 White Spear Tip
 530015 White Burst
-610700 White Eye Glow
-610705 Dark Firebomb
-610706 Dark Firebomb Throw
-610707 Dark Firebomb Impact
-610708 Dark Firebomb: Affinity
-610709 Dark Firebomb: Affinity Impact
-610710 Arrow
-610711 Arrow Moving
-610712 Arrow
-610713 Arrow Flick
-610715 Black Swirling Ground Marker
-610716 Small Black Fog 
-613000 Red Skull Ground Marker
-613001 Red Skull Ground Marker
-613412 Sticky White Stuff
-613413 Sticky White Stuff Impact
-631401 Ember Puffs - Flow Forward
-631402 Ground Fires
-631433 Big Earth Impact
-631600 Big Earth Impact - Pillar
-631601 Big Earth Impact
-631602 Wind Swirl with Rocks
-631605 Rock Impact
-631606 Impact Sparks
-631610 Wind Impact
-631611
-631612 Twin Earth Burst
-631615 Wind Force
-631620 Sparking Force
-631630 Sparking Arc
-631640 Glow Ground Flicker
-631641 Lightning Impact
-631690
-631691
-662000 Corona Swirl
-662001 Corona Impact Aura
-662002 Corona Swirl
-662003 Corona Impact
-662004 Corona Swirl
-662011 Arrow
-662012
-662013
-662020 
-662025 Red Aura Force
-662030
-662035 Red Marker (Above)
-662036 Red Marker (Below)
-662040
-662041
-662050
-662051 
-662052 Red Abyss Burst
-662053
-662054 Blue Lightning
-662060 Earth Impact
-662061
-662062
-662065
-662066
-662069
-662070
-662071
-662072
-662080 Corona Swirl
-662081 Corona Aura
-662082 Corona Swirl
-662083 Corona Impact
-662084 Corona Swirl
-662090 
-662101 Breath with Crystal
-662102 Breath with Crystal
-662103 Breath with Crystal
-662107 Light Points with Crystal - Beam
-662108 Light Points with Crystal - Beam
-662110 Fire
-662111 Fire Orb
-662112 Fire Breath
-662113 Fire Breath
-662114
-662115 Fire Patch
-662116 Fire Cinders
-662121 Intense Fire Breath
-662122 Multiple Abyssal Burst
-662123 Abyssal Impact
-662140
-662141
-662144
-662145
-662146
-662147
-662150
-662151 Black Abyss Burst
-662160 Gathering Winds
-662161 Gathering Winds
-662162 Gathering Winds
-662163 Gathering Winds
-662164 Gathering Winds
-662170
-662201
-662202
-662203
-662205
-662210
-662211
-662212
-662220
-662221
-662222
-662223
-662224
-662225
-662226
-662227
-662228
-662229
-662230 Big Affinity Orb
-662231 Big Affinity Orb Impact
-662232
-662240
-662241 Big Abyssal Impact
-662243
-662250 Small Abyssal Impact
-662251 Abyssal Impact
-662260
-662261
-662265
-662266
-662271
-662272
-662273
-662280
-662290
-662600
-662601
-662604
-662605
-662606
-662610 Dragon Roar
-662611
-662612 Fire Sword
-662613 Fire Sword - Trail
-662620
-662621 Fire Spear
-662622 Fire Spear - Trail
-662630
-662631 Fire Dragon Greatsword
-662632 Fire Dragon Greatsword - Trail
-662633 Fire Dragon Greatsword - Trail
-662640 Fire Wave
-662641 Fire Wave
-662642 Fire Wave
-662643 Fire Wave
-662644 Fire Wave
-662645 Vertical Fire Wave
-662646 Vertical Fire Wave
-662647 Vertical Fire Wave
-662650 Big Fire Burst
-662651
-662652
-662653
-662660
-662670
-662671
-662700
-662701
-662702
-662706 Curse Back
-662707 Curse Spot
-662710 Lightning Bolt
-662711 Lightning Bolt Impact
-662712 Lightning Bolt
-662713 Lightning Bolt Impact
-662714 Lightning Bolt Impact Pillar
-662720 Lightning Bolt - Forming
-662723 Lightning Strike
-662800
-662900 Circle of Pain
-662901 Circle of Pain
-662902 Circle of Pain
-662903 Big Circle of Pain
-662904 Circle of Pain Impact
-662910
-662911
-662912
-662913
-662914
-663200 Small Black Mist
-663210 Black Burst
-663220 Black Aura
-663300
-663310
-663311
-663312 Magic Branch - Right
-663313 Magic Branch - Left
-663316 Magic Branch - Trail - Right
-663317 Magic Branch - Trail - Left
-663320
-663321
-663330 Goop
-663331 Goop
-663332 Goop Impact
+610700 Skeleton: White Eye Glow
+610705 Skeleton: Dark Firebomb
+610706 Skeleton: Dark Firebomb Throw
+610707 Skeleton: Dark Firebomb Impact
+610708 Skeleton: Dark Firebomb: Affinity
+610709 Skeleton: Dark Firebomb: Affinity Impact
+610710 Skeleton: Arrow
+610711 Skeleton: Arrow Moving
+610712 Skeleton: Arrow
+610713 Skeleton: Arrow Flick
+610715 Skeleton: Black Swirling Ground Marker
+610716 Skeleton: Small Black Fog 
+613000 Black Knight: Red Skull Ground Marker
+613001 Black Knight: Red Skull Ground Marker
+613412 Archive Scholar: Sticky White Stuff
+613413 Archive Scholar: Sticky White Stuff Impact
+631401 Ancient Wyvern: Ember Puffs - Flow Forward
+631402 Ancient Wyvern: Ground Fires
+631433 Ancient Wyvern: Big Earth Impact
+631600 Dragonslayer Armour: Big Earth Impact - Pillar
+631601 Dragonslayer Armour: Big Earth Impact
+631602 Dragonslayer Armour: Wind Swirl with Rocks
+631605 Dragonslayer Armour: Rock Impact
+631606 Dragonslayer Armour: Impact Sparks
+631610 Dragonslayer Armour: Wind Impact
+631611 Dragonslayer Armour: 
+631612 Dragonslayer Armour: Twin Earth Burst
+631615 Dragonslayer Armour: Wind Force
+631620 Dragonslayer Armour: Sparking Force
+631630 Dragonslayer Armour: Sparking Arc
+631640 Dragonslayer Armour: Glow Ground Flicker
+631641 Dragonslayer Armour: Lightning Impact
+631690 Dragonslayer Armour: 
+631691 Dragonslayer Armour: 
+662000 Slave Knight Gael: Corona Swirl
+662001 Slave Knight Gael: Corona Impact Aura
+662002 Slave Knight Gael: Corona Swirl
+662003 Slave Knight Gael: Corona Impact
+662004 Slave Knight Gael: Corona Swirl
+662011 Slave Knight Gael: Arrow
+662012 Slave Knight Gael: 
+662013 Slave Knight Gael: 
+662020 Slave Knight Gael: 
+662025 Slave Knight Gael: Red Aura Force
+662030 Slave Knight Gael: 
+662035 Slave Knight Gael: Red Marker (Above)
+662036 Slave Knight Gael: Red Marker (Below)
+662040 Slave Knight Gael: 
+662041 Slave Knight Gael: 
+662050 Slave Knight Gael: 
+662051 Slave Knight Gael: 
+662052 Slave Knight Gael: Red Abyss Burst
+662053 Slave Knight Gael: 
+662054 Slave Knight Gael:  Blue Lightning
+662060 Slave Knight Gael:  Earth Impact
+662061 Slave Knight Gael: 
+662062 Slave Knight Gael: 
+662065 Slave Knight Gael: 
+662066 Slave Knight Gael: 
+662069 Slave Knight Gael: 
+662070 Slave Knight Gael: 
+662071 Slave Knight Gael: 
+662072 Slave Knight Gael: 
+662080 Slave Knight Gael: Corona Swirl
+662081 Slave Knight Gael: Corona Aura
+662082 Slave Knight Gael: Corona Swirl
+662083 Slave Knight Gael: Corona Impact
+662084 Slave Knight Gael: Corona Swirl
+662090 Slave Knight Gael: 
+662101 Darkeater Midir: Breath with Crystal
+662102 Darkeater Midir: Breath with Crystal
+662103 Darkeater Midir: Breath with Crystal
+662107 Darkeater Midir: Light Points with Crystal - Beam
+662108 Darkeater Midir: Light Points with Crystal - Beam
+662110 Darkeater Midir: Fire
+662111 Darkeater Midir: Fire Orb
+662112 Darkeater Midir: Fire Breath
+662113 Darkeater Midir: Fire Breath
+662114 Darkeater Midir: 
+662115 Darkeater Midir: Fire Patch
+662116 Darkeater Midir: Fire Cinders
+662121 Darkeater Midir: Intense Fire Breath
+662122 Darkeater Midir: Multiple Abyssal Burst
+662123 Darkeater Midir: Abyssal Impact
+662140 Darkeater Midir: 
+662141 Darkeater Midir: 
+662144 Darkeater Midir: 
+662145 Darkeater Midir: 
+662146 Darkeater Midir: 
+662147 Darkeater Midir: 
+662150 Darkeater Midir: 
+662151 Darkeater Midir: Black Abyss Burst
+662160 Darkeater Midir: Gathering Winds
+662161 Darkeater Midir: Gathering Winds
+662162 Darkeater Midir: Gathering Winds
+662163 Darkeater Midir: Gathering Winds
+662164 Darkeater Midir: Gathering Winds
+662170 Darkeater Midir: 
+662201 Darkeater Midir: 
+662202 Darkeater Midir: 
+662203 Darkeater Midir: 
+662205 Darkeater Midir: 
+662210 Darkeater Midir: 
+662211 Darkeater Midir: 
+662212 Darkeater Midir: 
+662220 Darkeater Midir: 
+662221 Darkeater Midir: 
+662222 Darkeater Midir: 
+662223 Darkeater Midir: 
+662224 Darkeater Midir: 
+662225 Darkeater Midir: 
+662226 Darkeater Midir: 
+662227 Darkeater Midir: 
+662228 Darkeater Midir: 
+662229 Darkeater Midir: 
+662230 Darkeater Midir: Big Affinity Orb
+662231 Darkeater Midir: Big Affinity Orb Impact
+662232 Darkeater Midir: 
+662240 Darkeater Midir: 
+662241 Darkeater Midir: Big Abyssal Impact
+662243 Darkeater Midir: 
+662250 Darkeater Midir: Small Abyssal Impact
+662251 Darkeater Midir: Abyssal Impact
+662260 Darkeater Midir: 
+662261 Darkeater Midir: 
+662265 Darkeater Midir: 
+662266 Darkeater Midir: 
+662271 Darkeater Midir: 
+662272 Darkeater Midir: 
+662273 Darkeater Midir: 
+662280 Darkeater Midir: 
+662290 Darkeater Midir: 
+662600 Ringed Knight: 
+662601 Ringed Knight: 
+662604 Ringed Knight: 
+662605 Ringed Knight: 
+662606 Ringed Knight: 
+662610 Ringed Knight: Dragon Roar
+662611 Ringed Knight: 
+662612 Ringed Knight: Fire Sword
+662613 Ringed Knight: Fire Sword - Trail
+662620 Ringed Knight: 
+662621 Ringed Knight: Fire Spear
+662622 Ringed Knight: Fire Spear - Trail
+662630 Ringed Knight: 
+662631 Ringed Knight: Fire Dragon Greatsword
+662632 Ringed Knight: Fire Dragon Greatsword - Trail
+662633 Ringed Knight: Fire Dragon Greatsword - Trail
+662640 Ringed Knight: Fire Wave
+662641 Ringed Knight: Fire Wave
+662642 Ringed Knight: Fire Wave
+662643 Ringed Knight: Fire Wave
+662644 Ringed Knight: Fire Wave
+662645 Ringed Knight: Vertical Fire Wave
+662646 Ringed Knight: Vertical Fire Wave
+662647 Ringed Knight: Vertical Fire Wave
+662650 Ringed Knight: Big Fire Burst
+662651 Ringed Knight: 
+662652 Ringed Knight: 
+662653 Ringed Knight: 
+662660 Ringed Knight: 
+662670 Ringed Knight: 
+662671 Ringed Knight: 
+662700 Hollow Vagabond: 
+662701 Hollow Vagabond: 
+662702 Hollow Vagabond: 
+662706 Hollow Vagabond: Curse Back
+662707 Hollow Vagabond: Curse Spot
+662710 Hollow Vagabond: Lightning Bolt
+662711 Hollow Vagabond: Lightning Bolt Impact
+662712 Hollow Vagabond: Lightning Bolt
+662713 Hollow Vagabond: Lightning Bolt Impact
+662714 Hollow Vagabond: Lightning Bolt Impact Pillar
+662720 Hollow Vagabond: Lightning Bolt - Forming
+662723 Hollow Vagabond: Lightning Strike
+662800 Judicator: 
+662900 Hollow Cleric: Circle of Pain
+662901 Hollow Cleric: Circle of Pain
+662902 Hollow Cleric: Circle of Pain
+662903 Hollow Cleric: Big Circle of Pain
+662904 Hollow Cleric: Circle of Pain Impact
+662910 Hollow Cleric: 
+662911 Hollow Cleric: 
+662912 Hollow Cleric: 
+662913 Hollow Cleric: 
+662914 Hollow Cleric: 
+663200 Harald Knight: Small Black Mist
+663210 Harald Knight: Black Burst
+663220 Harald Knight: Black Aura
+663300 Big Locust: 
+663310 Big Locust: 
+663311 Big Locust: 
+663312 Big Locust: Magic Branch - Right
+663313 Big Locust: Magic Branch - Left
+663316 Big Locust: Magic Branch - Trail - Right
+663317 Big Locust: Magic Branch - Trail - Left
+663320 Big Locust: 
+663321 Big Locust: 
+663330 Big Locust: Goop
+663331 Big Locust: Goop
+663332 Big Locust: Goop Impact
 751000
 751001
 751002

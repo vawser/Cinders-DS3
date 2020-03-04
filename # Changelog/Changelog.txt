@@ -80,20 +80,13 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-Add dark spells to Yoel
+651605 High Lord Wolnir: Darkness
 
-4175 Black Carthus Flame Arc
-4176 Black Bursting Fireball
-4177 Black Chaos Flame Vesitges
-4178 Black Fireball
-4179 Black Iron Flesh
-4180 Black Profaned Flame
-4181 Black Profuse Sweat
-4182 Black Rapport
-4183 Black Warmth
+- Fixed Priest's Candlestick.
+- Fixed a few localization issues.
+- Reduced the levelling costs.
+- Added a few more dark spells to Yoel, to help starting dark spellcasters.
+- Shrine Handmaid no longer sells the starting spells.
+- Vow of Agony now summons a big circle below the player, that harms enemies that walk into it. Lasts 5 seconds (hits once per second), costs 60 FP.
 
-260000 Black liquid burst
-528503 White Dark Tear
-610715 Black Swirling Ground Marker
-610716 Small Black Fog 
-662151 Black Abyss Burst
+662902
