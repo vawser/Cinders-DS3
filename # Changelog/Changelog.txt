@@ -52,9 +52,18 @@
 - Dark spells now take INT/FTH/HUM into account.
 - Increased the damage of normal and dark pyromancies.
 - Vow of Agony now does dark damage.
+- Increased damage of Way of White Corona to 200 per hit.
+- Removed the limited uses from any spells that had it. Upped the cost of heals a bit.
+
+# Items
+- Brightbug now lasts 15 seconds and only boosts by 10%. Limited to 3 held.
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
+
+# Bugfixes
+- Fixed various small oversights.
+- Fixed Sacred Chime of Filianore not casting the miracles that use its AOE mechanic.
 
 #------------------------------
 # TODO
@@ -63,4 +72,3 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 Add new weapons
 Add new armor
-

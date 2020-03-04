@@ -542,7 +542,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Way of White Corona
 #--------------------------------
 - FP Cost: 25
-- Physical Damage: 100 [100] [100]
+- Physical Damage: 200 [200] [200]
 
 #--------------------------------
 # Force
@@ -647,7 +647,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Heal Aid
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 40
 - Uses: 20
 - FTH Req: 10
 - Base Effect: Heals 200 HP. Scales with FTH.
@@ -655,7 +655,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Heal
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 60
 - Uses: 15
 - FTH Req: 15
 - Base Effect: Heals 300 HP. Scales with FTH.
@@ -663,7 +663,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Med Heal
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 80
 - Uses: 10
 - FTH Req: 20
 - Base Effect: Heals 350 HP. Scales with FTH.
@@ -671,7 +671,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Great Heal
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 100
 - Slot Usage: 2
 - Uses: 5
 - FTH Req: 30
@@ -680,7 +680,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Soothing Sunlight
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 120
 - Uses: 5
 - FTH Req: 40
 - Base Effect: Heals 500 HP. Scales with FTH.
@@ -688,7 +688,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Projected Heal
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 70
 - Uses: 20
 - FTH Req: 30
 - Base Effect: Heals 300 HP. Scales with FTH.
@@ -696,7 +696,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Replenishment
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 80
 - Uses: 5
 - FTH Req: 20
 - Base Effect: Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
@@ -704,7 +704,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Bountiful Light
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 100
 - Uses: 5
 - FTH Req: 30
 - Base Effect: Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
@@ -712,7 +712,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Bountiful Sunlight
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 120
 - Uses: 5
 - FTH Req: 40
 - Base Effect: Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
@@ -727,7 +727,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Tears of Denial
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 150
 - Uses: 5
 - FTH Req: 40
 - Base Effect: prevents killing blow whilst active. Lasts until death.
