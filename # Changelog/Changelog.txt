@@ -33,7 +33,6 @@
 
 # Stats
 - Changed the levelling cost. Before 999,999,999 souls only reached level 619, now it reaches level 836.
-- Luck renamed to Humanity (HUM).
 - Adjusted the stats of the Heretic, Outcast and Skeptic classes
 
 # Status Effects
@@ -42,21 +41,23 @@
 
 # Catalysts
 - Removed the Dark/Non-Dark catalyst mechanic.
-- All 'dark' catalysts now have Humanity scaling, adding to overall spell buff. The normal INT/FTH scaling on 'dark' catalysts has been reduced, but the added HUM scaling pushes their actual spell buff above the regular catalysts. This means they are sub-optimal for normal spells, but the best for dark spells.
-- Reduced the scaling on the hybrid weapons so they are set to 190 spell buff, making them mid-tier.
+- Reduced the scaling on the hybrid weapons so they are mid-tier.
 - Reduced the max scaling for catalysts down to 3 (from 4).
 - Removed the Lord's Chime (Sacred Chime of Filianore now replaces it in terms of power).
+- Pyromancy catalysts now give spell buff independant of stats for Fire damage.
+- Dark catalysts now all have both INT/FTH scaling. The total is higher than the normal catalysts, to account for the 2 stats required for max damage.
+- Added some innate effects to a few of the catalysts.
+- Spell buff (within a school and type) is now the same across most catalysts, except the 'starting' catalysts, which are slightly lower. 
 
 # Spells
-- All Dark spells now scale from Humanity.
-- Dark spells now take INT/FTH/HUM into account.
+- All Dark spells now scale from INT/FTH
 - Increased the damage of normal and dark pyromancies.
 - Vow of Agony now does dark damage.
 - Increased damage of Way of White Corona to 200 per hit.
 - Removed the limited uses from any spells that had it. Upped the cost of heals a bit.
 
 # Items
-- Brightbug now lasts 15 seconds and only boosts by 10%. Limited to 3 held.
+- Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
@@ -72,3 +73,14 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 Add new weapons
 Add new armor
+
+- Catalysts
+Restricted to a single school
+Same spell buff
+Difference is WA and innate effects
+Dark catalysts have dual stats, normals have 1
+Remove luck scaling catalysts
+Normal pyromancy flames have no scaling
+
+Change Insanity damage to only occur with WA
+
