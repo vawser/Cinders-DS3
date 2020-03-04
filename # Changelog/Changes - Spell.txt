@@ -628,17 +628,10 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FTH Req: 50
 
 #--------------------------------
-# Vow of Agony
-#--------------------------------
-- FP Cost: 30
-- Physical Damage: 200
-- FTH Req: 40
-
-#--------------------------------
 # Angelic Ray
 #--------------------------------
 - FP Cost: 80
-- Physical Damage: 300 (per tick)
+- Physical Damage: 200 (per bullet)
 - FTH Req: 40
 
 #--------------------------------------------------------------------------
@@ -1092,4 +1085,9 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FTH Req: 25
 - Base Effect: silence self and target for 15 seconds.
 
-
+#--------------------------------
+# Vow of Agony
+#--------------------------------
+- FP Cost: 60
+- Dark Damage: 100 (per tick)
+- FTH Req: 25

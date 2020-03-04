@@ -32,7 +32,7 @@
 #------------------------------
 
 # Stats
-- Changed the levelling cost. Before 999,999,999 souls only reached level 619, now it reaches level 836.
+- Reduced the cost of leveling.
 - Adjusted the stats of the Heretic, Outcast and Skeptic classes
 
 # Weapons
@@ -61,9 +61,13 @@
 - Vow of Agony now does dark damage.
 - Increased damage of Way of White Corona to 200 per hit.
 - Removed the limited uses from any spells that had it. Upped the cost of heals a bit.
+- Vow of Agony now summons a big circle below the player, that harms enemies that walk into it. Lasts 30 seconds (hits once per second), costs 60 FP.
+- Angelic Ray is now Angelic Barrage, acts a bit like crystal hail, but with a more accurate firing method.
 
 # Items
 - Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
+- Added a few more dark spells to Yoel, to help starting dark spellcasters.
+- Shrine Handmaid no longer sells the starting spells.
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
@@ -71,6 +75,7 @@
 # Bugfixes
 - Fixed various small oversights.
 - Fixed Sacred Chime of Filianore not casting the miracles that use its AOE mechanic.
+- Fixed Priest's Candlestick.
 
 #------------------------------
 # TODO
@@ -82,11 +87,3 @@ Add new armor
 
 651605 High Lord Wolnir: Darkness
 
-- Fixed Priest's Candlestick.
-- Fixed a few localization issues.
-- Reduced the levelling costs.
-- Added a few more dark spells to Yoel, to help starting dark spellcasters.
-- Shrine Handmaid no longer sells the starting spells.
-- Vow of Agony now summons a big circle below the player, that harms enemies that walk into it. Lasts 5 seconds (hits once per second), costs 60 FP.
-
-662902
