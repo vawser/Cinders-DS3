@@ -1723,7 +1723,7 @@ Event(400026, Default, function() {
 Event(400027, Default, function() {
     IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
     
-    WaitRandomTimeSeconds(10, 11);
+    WaitRandomTimeSeconds(60, 120);
     
     SetEventFlag(25009000, OFF);
     SetEventFlag(25009001, OFF);
@@ -1771,7 +1771,7 @@ Event(400027, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009010);
     ForceAnimationPlayback(10000, 81200, false, false, false, 0, 1);
     
-    WaitFixedTimeSeconds(60, 120);
+    WaitFixedTimeSeconds(5);
     ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
     
     EndUnconditionally(EventEndType.Restart);

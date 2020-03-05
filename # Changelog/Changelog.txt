@@ -88,8 +88,3 @@ Map out the NPC related stuff in emevd
  Yoel - check trigger on catacombs stairs
 Add new weapons
 Add new armor
-
-- Reduced the soul absorption gained from each Curse to 10%.
-- Curse of Gluttony changed to Curse of Insolence. You now lose all souls upon death.
-- Curse of Vulnerability changed to Curse of Folly. You will randomly do a gesture animation every 60 to 120 seconds.
-
