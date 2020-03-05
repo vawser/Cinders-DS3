@@ -368,6 +368,7 @@ Event(20005191, Restart, function(X0_4) {
     ClearSpeffect(X0_4, 99006);
 });
 
+// Enemy - Wake-up
 Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
