@@ -30,6 +30,10 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Curses
+- Reduced the soul absorption gained from each Curse to 10%.
+- Curse of Gluttony changed to Curse of Insolence. You now lose all souls upon death.
+- Curse of Vulnerability changed to Curse of Folly. You will randomly do a gesture animation every 60 to 120 seconds.
 
 # Stats
 - Reduced the cost of leveling.
@@ -85,5 +89,7 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-651605 High Lord Wolnir: Darkness
+- Reduced the soul absorption gained from each Curse to 10%.
+- Curse of Gluttony changed to Curse of Insolence. You now lose all souls upon death.
+- Curse of Vulnerability changed to Curse of Folly. You will randomly do a gesture animation every 60 to 120 seconds.
 

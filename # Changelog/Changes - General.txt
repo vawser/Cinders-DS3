@@ -180,17 +180,6 @@ All covenant emblem items now enable the dropping of their respective materials 
 - Rather than covenant materials, equipping the emblem will enable random healing items to be found when killing enemies.
 
 #------------------------
-# Champion's Pact
-#------------------------
-- Enabled at Fire Keeper, this pact can be toggled.
- - Spawns additional enemies throughout the game. 
- - Enemies will now have the following below 50% HP:
-  - +25% damage
-  - +30 stamina recovery
-  - +5 + 0.05% HP regen
- - Boosts soul gain by 100%.
-
-#------------------------
 # Deathless Runs
 #------------------------
 By default the player is eligible for the Deathless challenge, which rewards the Crown of the Great Lord.

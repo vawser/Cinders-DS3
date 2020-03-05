@@ -1606,10 +1606,11 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400020, 0); // Deathless Run - Effect
     InitializeEvent(0, 400021, 0); // Deathless Run - Check
     InitializeEvent(0, 400022, 0); // Wrath
-    InitializeEvent(0, 400023, 0); // Gluttony
-    InitializeEvent(0, 400024, 0); // Greed
-    InitializeEvent(0, 400025, 0); // Lethargy
+    InitializeEvent(0, 400023, 0); // Folly
+    InitializeEvent(0, 400024, 0); // Arrogance
+    InitializeEvent(0, 400025, 0); // Vitality
     InitializeEvent(0, 400026, 0); // Pride
+    InitializeEvent(0, 400027, 0); // Folly - Animations
     
     InitializeEvent(0, 400030, 0); // Crow Trades
     
@@ -1690,21 +1691,21 @@ Event(400022, Default, function() {
     SetSpeffect(10000, 250001101);
 });
 
-// Gluttony
+// Folly
 Event(400023, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000001);
     SetSpeffect(10000, 250001200);
     SetSpeffect(10000, 250001201);
 });
 
-// Greed
+// Insolence
 Event(400024, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000002);
     SetSpeffect(10000, 250001300);
     SetSpeffect(10000, 250001301);
 });
 
-// Lethargy
+// Vitality
 Event(400025, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000003);
     SetSpeffect(10000, 250001400);
@@ -1716,6 +1717,64 @@ Event(400026, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
     SetSpeffect(10000, 250001000);
     SetSpeffect(10000, 250001001);
+});
+
+// Folly - Animations
+Event(400027, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
+    
+    WaitRandomTimeSeconds(10, 11);
+    
+    SetEventFlag(25009000, OFF);
+    SetEventFlag(25009001, OFF);
+    SetEventFlag(25009002, OFF);
+    SetEventFlag(25009003, OFF);
+    SetEventFlag(25009004, OFF);
+    SetEventFlag(25009005, OFF);
+    SetEventFlag(25009006, OFF);
+    SetEventFlag(25009007, OFF);
+    SetEventFlag(25009008, OFF);
+    SetEventFlag(25009009, OFF);
+    SetEventFlag(25009010, OFF);
+    RandomlySetEventFlagInRange(25009000, 25009010, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009000);
+    ForceAnimationPlayback(10000, 85000, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009001);
+    ForceAnimationPlayback(10000, 84600, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009002);
+    ForceAnimationPlayback(10000, 84500, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009003);
+    ForceAnimationPlayback(10000, 84400, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009004);
+    ForceAnimationPlayback(10000, 84300, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009005);
+    ForceAnimationPlayback(10000, 84200, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009006);
+    ForceAnimationPlayback(10000, 83900, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009007);
+    ForceAnimationPlayback(10000, 82400, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009008);
+    ForceAnimationPlayback(10000, 81400, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009009);
+    ForceAnimationPlayback(10000, 81300, false, false, false, 0, 1);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009010);
+    ForceAnimationPlayback(10000, 81200, false, false, false, 0, 1);
+    
+    WaitFixedTimeSeconds(60, 120);
+    ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Crow Trades
