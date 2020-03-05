@@ -628,11 +628,25 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FTH Req: 50
 
 #--------------------------------
-# Angelic Ray
+# Angelic Barrage
 #--------------------------------
 - FP Cost: 80
 - Physical Damage: 200 (per bullet)
 - FTH Req: 40
+
+#--------------------------------
+# Divine Arrow
+#--------------------------------
+- FP Cost: 30
+- Physical Damage: 250
+- FTH Req: 15
+
+#--------------------------------
+# Lothric's Holy Spear
+#--------------------------------
+- FP Cost: 80
+- Physical Damage: 800 
+- FTH Req: 50
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
