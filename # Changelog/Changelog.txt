@@ -70,6 +70,7 @@
 - Limited Vow of Agony to 1 instance active at any one time.
 - Added Divine Arrow: a soul arrow like miracle purchased from Rosaria.
 - Added Lothric's Holy Spear: a holy soul spear miracle transposed from his soul.
+- Added Proof of a Pact: summon Ledo to smash foe. Dropped by one of the judicators in the Ringed City.
 
 # Items
 - Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
@@ -92,22 +93,17 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-
-
-3813000 Divine Arrow
-3814000 Lothric's Holy Spear
-
-
-4184
+3815000 Proof of a Pact
+109549000
 
 Add new spells
 
 109546000 Infected Spit
  612212
  
-109549000 Echoes of Nobility
-109550000 Echoes of Darkness
-109551000 Echoes of Brutality
+109549000 Echo of Glory
+109550000 Echo of Corruption
+109551000 Echo of Victory
 
 4175 Black Carthus Flame Arc
 4176 Black Bursting Fireball
@@ -126,3 +122,5 @@ Add new spells
 610715 Black Swirling Ground Marker
 610716 Small Black Fog 
 662151 Black Abyss Burst
+
+19549010

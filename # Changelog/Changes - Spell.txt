@@ -646,7 +646,14 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 80
 - Physical Damage: 800 
-- FTH Req: 50
+- FTH Req: 40
+
+#--------------------------------
+# Proof of a Pact
+#--------------------------------
+- FP Cost: 60
+- Physical Damage: 600 
+- FTH Req: 30
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
