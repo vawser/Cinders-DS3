@@ -49,17 +49,18 @@
 - Increased the amount of inflict for all types, in general: 30 (for quick), 50 (for normal), 80 (for slow). This is doubled for infusions on those with innate inflict.
 
 # Catalysts
+- Spell ascension is active whilst using a catalyst at maximum reinforcement, rather than at specific stat levels.
 - Removed the Dark/Non-Dark catalyst mechanic.
 - Reduced the scaling on the hybrid weapons so they are mid-tier.
 - Reduced the max scaling for catalysts down to 3 (from 4).
 - Removed the Lord's Chime (Sacred Chime of Filianore now replaces it in terms of power).
-- Pyromancy catalysts now give spell buff independant of stats for Fire damage.
+- Pyromancy catalysts now have a 'free' 50% effectiveness of scaling, meaning they start off better than the other schools due to the reduced need for stats.
 - Dark catalysts now all have both INT/FTH scaling. The total is higher than the normal catalysts, to account for the 2 stats required for max damage.
 - Added some innate effects to a few of the catalysts.
-- Spell buff (within a school and type) is now the same across most catalysts, except the 'starting' catalysts, which are slightly lower. 
+- Spell buff (within a school and type) is now the same across most catalysts, except the 'starting' catalysts, which are slightly lower.
+- Sacred Chime of Filianore no longer increases the AOE of healing spells (this is because that is now part of the ascension system, and the mechanic used by the chime is what enables it for all of the catalysts).
 
 # Spells
-- Spell ascension is active whilst using a catalyst at maximum reinforcement, rather than at specific stat levels.
 - All Dark spells now scale from INT/FTH
 - Increased the damage of normal and dark pyromancies.
 - Vow of Agony now does dark damage.
