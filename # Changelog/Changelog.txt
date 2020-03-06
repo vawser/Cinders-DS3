@@ -59,6 +59,7 @@
 - Spell buff (within a school and type) is now the same across most catalysts, except the 'starting' catalysts, which are slightly lower. 
 
 # Spells
+- Spell ascension is active whilst using a catalyst at maximum reinforcement, rather than at specific stat levels.
 - All Dark spells now scale from INT/FTH
 - Increased the damage of normal and dark pyromancies.
 - Vow of Agony now does dark damage.
@@ -92,16 +93,7 @@ Map out the NPC related stuff in emevd
 Add new weapons
 Add new armor
 
-- Changed curses back to 20%
-- Changed Curse of Insolence into Curse of Obscurity, shrouding the player in darkness.
-- Spell ascension is active whilst using a catalyst at maximum reinforcement, rather than at specific stat levels.
-- Adjusted class equipment to account for the catalyst changes.
-
 Get Ghostly Assault to work
 Consider changing armor effect design
 Add ascensions for spells again.
 
-
-
-13270000 Corrupted Talisman
-13210000 Cleric's Sacred Chime

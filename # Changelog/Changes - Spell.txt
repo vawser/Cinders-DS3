@@ -25,7 +25,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Magic Damage: 100
-- Ascended: emits 3 projectiles.
+- Ascended: gains much better tracking.
 
 #--------------------------------
 # Farron Flashsword
@@ -41,7 +41,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 30
 - Magic Damage: 80
 - INT Req: 10
-- Ascended: emits 12 projectiles.
+- Ascended: gains much better tracking.
 
 #--------------------------------
 # Soul Arrow
@@ -65,15 +65,15 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 60
 - Magic Damage: 400
 - INT Req: 30
-- Ascended: emits 3 projectiles.
+- Ascended: gains much better tracking and speed.
 
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
 - FP Cost: 80
-- Magic Damage: 600 
+- Magic Damage: 800 
 - INT Req: 40
-- Ascended: deals 1000 Magic damage.
+- Ascended: gains much better tracking and speed.
 
 #--------------------------------
 # Homing Soulmass
@@ -81,6 +81,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 50
 - Magic Damage: 80 (per bullet) 
 - INT Req: 20
+- Ascended: hits reduce target Magic absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Homing Crystal Soulmass
@@ -88,6 +89,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - Magic Damage: 125 (per bullet)
 - INT Req: 40
+- Ascended: hits reduce target Magic absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Soul Geyser
@@ -95,7 +97,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - Magic Damage: 300
 - INT Req: 50
-- Ascended: emits 5 projectiles in a tighter cone.
+- Ascended: gains much better tracking and a tighter spread.
 
 #--------------------------------
 # White Dragon Breath
@@ -120,7 +122,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 20
 - Magic Damage: 150 (per bullet)
 - INT Req: 15
-- Ascended: emits 10 projectiles.
+- Ascended: gains much better tracking.
 
 #--------------------------------
 # Crystal Hail
@@ -144,7 +146,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 75
 - Magic Damage: 500 (800 charged) [200]
 - INT Req: 40
-- Ascended: charged projectile now does 1000 Magic damage.
+- Ascended: charged cast deals much more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Soul Wave
@@ -160,7 +162,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 100
 - Magic Damage: 300 (per tick)
 - INT Req: 40
-- Ascended: emits 4 projectiles in a cross pattern.
+- Ascended: stream lasts for 3 seconds (normally 1).
 
 #--------------------------------
 # Blizzard
