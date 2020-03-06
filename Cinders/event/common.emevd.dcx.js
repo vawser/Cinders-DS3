@@ -1605,12 +1605,12 @@ Event(400000, Default, function() {
     
     InitializeEvent(0, 400020, 0); // Deathless Run - Effect
     InitializeEvent(0, 400021, 0); // Deathless Run - Check
-    InitializeEvent(0, 400022, 0); // Wrath
-    InitializeEvent(0, 400023, 0); // Folly
-    InitializeEvent(0, 400024, 0); // Arrogance
-    InitializeEvent(0, 400025, 0); // Vitality
-    InitializeEvent(0, 400026, 0); // Pride
-    InitializeEvent(0, 400027, 0); // Folly - Animations
+    InitializeEvent(0, 400022, 0); // Curse of Wrath
+    InitializeEvent(0, 400023, 0); // Curse of Folly
+    InitializeEvent(0, 400024, 0); // Curse of Obscurity
+    InitializeEvent(0, 400025, 0); // Curse of Vitality
+    InitializeEvent(0, 400026, 0); // Curse of Pride
+    InitializeEvent(0, 400027, 0); // Curse of Folly - Animations
     
     InitializeEvent(0, 400030, 0); // Crow Trades
     
@@ -1684,35 +1684,35 @@ Event(400021, Default, function() {
     SetEventFlag(25000010, OFF);
 });
 
-// Wrath
+// Curse of Wrath
 Event(400022, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000004);
     SetSpeffect(10000, 250001100);
     SetSpeffect(10000, 250001101);
 });
 
-// Folly
+// Curse of Folly
 Event(400023, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000001);
     SetSpeffect(10000, 250001200);
     SetSpeffect(10000, 250001201);
 });
 
-// Insolence
+// Curse of Obscurity
 Event(400024, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000002);
     SetSpeffect(10000, 250001300);
     SetSpeffect(10000, 250001301);
 });
 
-// Vitality
+// Curse of Vitality
 Event(400025, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000003);
     SetSpeffect(10000, 250001400);
     SetSpeffect(10000, 250001401);
 });
 
-// Pride
+// Curse of Pride
 Event(400026, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
     SetSpeffect(10000, 250001000);
