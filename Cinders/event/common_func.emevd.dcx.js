@@ -4773,6 +4773,7 @@ Event(20009300, Restart, function() {
     SetBonfireWarpingState(4001950, 60430, Enabled);
     SetEventFlag(74000010, OFF);
     SetEventFlag(14000101, ON);
+    SetEventFlag(14000000, ON);
     
     // Deathless Boss Kill Flags
     SetEventFlag(25000020, OFF); // Iudex Gundyr

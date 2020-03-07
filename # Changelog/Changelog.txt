@@ -80,6 +80,7 @@
 
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
+- Iudex Gundyr is now a mid-tier boss that you can face early optionally.
 
 # Map
 - Added warp from the lower part of Smouldering Lake to the top area, allowing you to turn off the ballista quicker.
@@ -101,5 +102,14 @@ Add new armor
 Get Ghostly Assault to work
 Consider changing armor effect design
 Add ascensions for spells again.
+Add some new Capra style bosses in a few maps.
 
-- Player now starts in Firelink Shrine.
+Increase Iudex gundyr strength, add some stuff to his moves
+Add Ravenous Crystal Lizard boss in other arena part
+Add some more powerful enemies in the cemetery part and change loot
+Add item reward for Iudex Gundyr
+
+- Iudex Gundyr is now a mid-tier boss that you can face early optionally.
+- Moved the Ashen Estus pickup to the gravestone just outside of Gundyr's arena on the Firelink side.
+- Moved the NG+ giant behind the gravestone just outside of Gundyr's arena on the Firelink side.
+- Reduced the HP boost in NG+ for enemies to a more reasonable level.

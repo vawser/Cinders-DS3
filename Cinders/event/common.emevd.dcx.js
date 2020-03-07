@@ -2262,11 +2262,11 @@ Event(4008010, Default, function() {
     SetEventFlag(14000002, OFF);
     SetEventFlag(64000260, OFF);
     SetEventFlag(64000261, OFF);
-    SetPlayerRespawnPoint(4002951);
+    SetPlayerRespawnPoint(4002950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
     SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000971);
+    WarpPlayer(40, 0, 4000970);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -2282,11 +2282,11 @@ Event(4008011, Default, function() {
     SetEventFlag(14000002, OFF);
     SetEventFlag(64000260, OFF);
     SetEventFlag(64000261, OFF);
-    SetPlayerRespawnPoint(4002951);
+    SetPlayerRespawnPoint(4002950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
     SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000971);
+    WarpPlayer(40, 0, 4000970);
     EndUnconditionally(EventEndType.End);
 });
 

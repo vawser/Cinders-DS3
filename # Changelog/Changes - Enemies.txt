@@ -4,24 +4,9 @@
 - HP in first [] is for Nightmare form
 - Absorption percentages are damage taken.
 
-# Iudex Gundyr 
-- NG0 HP: 3000 [6000]
-- NG+ HP: 9000 [18000]
-- Souls: 2500 [25000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        100%
-- Absorption: Fire:         110% (150% as Pus of Man)
-- Absorption: Lightning:    100%
-- Absorption: Dark:         90%
-- Affected by: Poison, Bleed, Frost
-- Considered Abyssal.
-
 # Vordt of the Boreal Valley 
-- NG0 HP: 4000 [8000]     
-- NG+ HP: 12000 [24000]    
+- NG0 HP: 4000 [6000]     
+- NG+ HP: 8000 [12000]    
 - Souls: 5000 [30000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -35,7 +20,7 @@
 
 # Curse-rotted Greatwood 
 - NG0 HP: 8000 [12000]
-- NG+ HP: 24000 [36000]          
+- NG+ HP: 16000 [36000]          
 - Souls: 10000 [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
@@ -259,6 +244,21 @@
 - Absorption: Lightning:    80%
 - Absorption: Dark:         90%
 - Affected by: Poison, Bleed, Frost
+
+# Iudex Gundyr 
+- NG0 HP: 16000 [24000]      
+- NG+ HP: 48000 [72000]   
+- Souls: 16000 [80000]
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        100%
+- Absorption: Fire:         110% (150% as Pus of Man)
+- Absorption: Lightning:    100%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
 
 # Champion Gundyr 
 - NG0 HP: 18000 [27000]      
