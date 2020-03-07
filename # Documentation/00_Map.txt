@@ -46,8 +46,16 @@ m54_00_00_00 - Round Plaza
 24 - Normal (solid)
 
 #------------------------------------
-# Collision
+# Fog Walls
 #------------------------------------
+Boss Fogwalls have a special piece of collision using hit filter 20 that must be placed below the fogwall object so it can be used, otherwise the prompt will not appear.
+
+To add new:
+ Fogwall object [Object]
+ Fogwall collision piece (normally horizontal) [Collison]
+ Boss start area [Event]
+ NPC collision piece (normally vertical) [Collison]
+ In scripts, add new common fogwall events (follow FROM's pattern)
 
 #------------------------------------
 # Generators

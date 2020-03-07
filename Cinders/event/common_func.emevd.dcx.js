@@ -3452,7 +3452,8 @@ Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Boss - Enter Boss Room
+// Boss - Enter Boss Room 
+// Args: <boss_flag_id>, <fogwall_id>, <start_area_id>, <flag_id>, <action_id>, <boss_entity_id>, <flag>, <start_area_id>
 Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X24_4, 0);
@@ -3510,6 +3511,7 @@ Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // Boss - Enter Boss Room (Client)
+// Args: <boss_flag_id>, <fogwall_id>, <start_area_id>, <flag_id>, <action_id>, <start_area_id>
 Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3552,6 +3554,7 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 });
 
 // Boss - Toggle Fogwall State
+// Args: <boss_flag_id>, <fogwall_id>, <ffx_id>, <flag_id>
 Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
@@ -3650,6 +3653,7 @@ Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 });
 
 // Boss - Boss Sound State
+// Args: <boss_flag_id>, <fogwall_id>, <flag_id>, <start_area_id>, <bgm_id>, <bgm_flag_id>, <flag>
 Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3741,6 +3745,7 @@ Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 });
 
 // Boss - Boss Sound State
+// Args: <boss_flag_id>, <fogwall_id>, <flag_id>, <flag_id>, <bgm_id>, <bgm_flag_id>, <flag>
 Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -4763,6 +4768,11 @@ Event(20009300, Restart, function() {
     // 25000005 - Wave of Trial
 
     SetEventFlag(25000010, ON); // Deathless Run
+    
+    // Enable Firelink Shrine bonfire
+    SetBonfireWarpingState(4001950, 60430, Enabled);
+    SetEventFlag(74000010, OFF);
+    SetEventFlag(14000101, ON);
     
     // Deathless Boss Kill Flags
     SetEventFlag(25000020, OFF); // Iudex Gundyr
