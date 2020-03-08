@@ -422,12 +422,14 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 80
 - Fire Damage: 800 [100] 
+- Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Cataclysm
 #--------------------------------
 - FP Cost: 80
 - Fire Damage: 800
+- Ascended Effect: 
 
 #--------------------------------
 # Floating Chaos
