@@ -61,6 +61,21 @@
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
+# Iudex Gundyr 
+- NG0 HP: 9000 [13500]      
+- NG+ HP: 18000 [27000]   
+- Souls: 8000 [40000]
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        100%
+- Absorption: Fire:         110% (150% as Pus of Man)
+- Absorption: Lightning:    100%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
 # Abyss Watchers
 - NG0 HP: 10000 [15000]
 - NG+ HP: 20000 [30000]
@@ -244,21 +259,6 @@
 - Absorption: Lightning:    80%
 - Absorption: Dark:         90%
 - Affected by: Poison, Bleed, Frost
-
-# Iudex Gundyr 
-- NG0 HP: 16000 [24000]      
-- NG+ HP: 32000 [48000]   
-- Souls: 16000 [80000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        100%
-- Absorption: Fire:         110% (150% as Pus of Man)
-- Absorption: Lightning:    100%
-- Absorption: Dark:         90%
-- Affected by: Poison, Bleed, Frost
-- Considered Abyssal.
 
 # Champion Gundyr 
 - NG0 HP: 18000 [27000]      
