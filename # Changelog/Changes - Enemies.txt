@@ -8,10 +8,10 @@
 - NG0 HP: 4000 [6000]     
 - NG+ HP: 8000 [12000]    
 - Souls: 5000 [30000]
-- Absorption: Standard:     80%
-- Absorption: Slash:        80%
-- Absorption: Strike:       90%
-- Absorption: Thrust:       80%
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       110%
+- Absorption: Thrust:       100%
 - Absorption: Magic:        90%
 - Absorption: Fire:         100%
 - Absorption: Lightning:    100%
@@ -22,10 +22,10 @@
 - NG0 HP: 8000 [12000]
 - NG+ HP: 16000 [24000]          
 - Souls: 10000 [50000]
-- Absorption: Standard:     100%
+- Absorption: Standard:     120%
 - Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       100%
+- Absorption: Strike:       130%
+- Absorption: Thrust:       120%
 - Absorption: Magic:        80%
 - Absorption: Fire:         150%
 - Absorption: Lightning:    80%
@@ -36,10 +36,10 @@
 - NG0 HP: 8000 [12000]    
 - NG+ HP: 16000 [24000]       
 - Souls: 10000 [50000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       100%
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       120%
 - Absorption: Magic:        80%
 - Absorption: Fire:         90%
 - Absorption: Lightning:    90%
@@ -61,14 +61,14 @@
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
-# Iudex Gundyr 
+# Corrupted Gundyr 
 - NG0 HP: 9000 [13500]      
 - NG+ HP: 18000 [27000]   
 - Souls: 8000 [40000]
-- Absorption: Standard:     90%
+- Absorption: Standard:     100%
 - Absorption: Slash:        90%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
+- Absorption: Strike:       110%
+- Absorption: Thrust:       100%
 - Absorption: Magic:        100%
 - Absorption: Fire:         110% (150% as Pus of Man)
 - Absorption: Lightning:    100%
@@ -80,10 +80,10 @@
 - NG0 HP: 10000 [15000]
 - NG+ HP: 20000 [30000]
 - Souls: 25000 [150000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       110%
+- Absorption: Standard:     150%
+- Absorption: Slash:        150%
+- Absorption: Strike:       150%
+- Absorption: Thrust:       160%
 - Absorption: Magic:        100%
 - Absorption: Fire:         80%
 - Absorption: Lightning:    100%
@@ -124,10 +124,10 @@
 - NG0 HP: 16000 [24000]
 - NG+ HP: 32000 [48000]
 - Souls: 25000 [150000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       100%
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       130%
+- Absorption: Thrust:       120%
 - Absorption: Magic:        80%
 - Absorption: Fire:         100%
 - Absorption: Lightning:    100%
@@ -166,24 +166,24 @@
 - NG0 HP: 20000 [30000]
 - NG+ HP: 40000 [60000]
 - Souls: 25000 [100000]
-- Absorption: Standard:     60%
-- Absorption: Slash:        60%
-- Absorption: Strike:       70%
-- Absorption: Thrust:       60%
-- Absorption: Magic:        90%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    90%
-- Absorption: Dark:         90%
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        80%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Dancer of the Boreal Valley
 - NG0 HP: 16000 [24000]          
 - NG+ HP: 32000 [48000]
 - Souls: 15000 [90000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       100%
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       130%
+- Absorption: Thrust:       120%
 - Absorption: Magic:        80%
 - Absorption: Fire:         80%
 - Absorption: Lightning:    100%
@@ -194,10 +194,10 @@
 - NG0 HP: 18000 [27000]      
 - NG+ HP: 36000 [54000]   
 - Souls: 20000 [100000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       100%
+- Absorption: Standard:     120%
+- Absorption: Slash:        120%
+- Absorption: Strike:       120%
+- Absorption: Thrust:       130%
 - Absorption: Magic:        80%
 - Absorption: Fire:         90%
 - Absorption: Lightning:    100%
@@ -304,8 +304,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Soul of Cinder 
-- NG0 HP: 20000 [30000]
-- NG+ HP: 40000 [60000]
+- NG0 HP: 16000 [24000]
+- NG+ HP: 32000 [48000]
 - Souls: 100000 [500000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
@@ -323,10 +323,10 @@
 - Phase 1 NG+ HP: 18000 [27000]      
 - Phase 2 NG+ HP: 24000 [36000]     
 - Souls: 50000 [250000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        110%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       120%
+- Absorption: Standard:     130%
+- Absorption: Slash:        130%
+- Absorption: Strike:       130%
+- Absorption: Thrust:       150%
 - Absorption: Magic:        80%
 - Absorption: Fire:         100%
 - Absorption: Lightning:    100%
@@ -347,15 +347,15 @@
 - Affected by: Poison, Bleed, Frost
 
 # The Triad
-- NG0 HP: 2000, 2400, 2800 
-- NG+ HP: 4000, 4800, 5600 
+- NG0 HP: 1000, 1400, 1800 
+- NG+ HP: 2000, 2800, 3600 
 - Souls: 30000 [90000]
 
 # Demon Prince
-- Phase 1 NG0 HP: 16000 [32000] 
-- Phase 2 NG0 HP: 16000 [32000]
-- Phase 1 NG+ HP: 32000 [48000] 
-- Phase 2 NG+ HP: 32000 [48000]
+- Phase 1 NG0 HP: 12000 [18000] 
+- Phase 2 NG0 HP: 12000 [18000]
+- Phase 1 NG+ HP: 24000 [36000] 
+- Phase 2 NG+ HP: 24000 [36000]
 - Souls: 100000 [300000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        80%
@@ -387,8 +387,8 @@
 - Considered Abyssal.
 
 # Slave Knight Gael (5)
-- NG0 HP: 30000 [45000]       
-- NG+ HP: 60000 [90000]
+- NG0 HP: 20000 [30000]       
+- NG+ HP: 40000 [60000]
 - Souls: 125000 [500000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        80%
