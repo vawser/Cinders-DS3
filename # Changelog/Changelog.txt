@@ -72,6 +72,7 @@
 - Added Divine Arrow: a soul arrow like miracle purchased from Rosaria.
 - Added Lothric's Holy Spear: a holy soul spear miracle transposed from his soul.
 - Added Proof of a Pact: summon Ledo to smash foe. Dropped by one of the judicators in the Ringed City.
+- Power Within now only removes 1% per second.
 
 # Items
 - Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
@@ -87,7 +88,9 @@
 - Added warp from the lower part of Smouldering Lake to the top area, allowing you to turn off the ballista quicker.
 - Player now starts in Firelink Shrine.
 - Moved the Undead Pyre bonfire on to the ridge you find Siegward, rename it to Giant's Tower.
-- Added unnamed Undead Hexers around the Undead Settlement.
+- Added 5 unnamed Undead Hexers around the Undead Settlement.
+- Added 2 unnamed Roaming Sorcerers in the first part of Road of Sacrifices.
+- Removed a few Corvians from the first part of Road of Sacrifices.
 
 # Trial
 - Reduced the HP of the Afflicted Swarm wave.
@@ -110,4 +113,3 @@ Get Ghostly Assault to work
 Consider changing armor effect design
 Add ascensions for spells again.
 Add some new Capra style bosses in a few maps.
-
