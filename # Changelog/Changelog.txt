@@ -84,7 +84,7 @@
 - Iudex Gundyr is now a early to mid-tier boss that you can face early optionally.
 - Reduced the Soul of Cinder HP to 16,000 (therefore 32,000 overall).
 - Reduced the melee absorptions for some bosses to make melee better against them.
-- Reduced the HP of the Triad members.
+- Changed the HP of the Triad members to be the same for all members, reduced their damage output a bit.
 - Reduced the HP of the Demon Prince to 12,000 (therefore 36,000 overall).
 - Reduced the HP of Slave Knight Gael to 20,000.
 

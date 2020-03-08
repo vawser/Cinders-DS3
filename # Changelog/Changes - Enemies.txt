@@ -347,8 +347,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # The Triad
-- NG0 HP: 1000, 1400, 1800 
-- NG+ HP: 2000, 2800, 3600 
+- NG0 HP: 2000 [3000]
+- NG+ HP: 4000 [6000]
 - Souls: 30000 [90000]
 
 # Demon Prince
