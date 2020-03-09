@@ -43,10 +43,12 @@
 - Removed Darkmoon Ritual Staff.
 - Removed Logan's Staff.
 - Fire/Dark infusion now acts like a psuedo-raw infusion, as you'll get 30% of the damage irrespective of stats.
+- Increased the damage of bolts with Repeat Fire WA, but lowered status inflict.
 
 # Status Effects
 - Poison and Bleed no longer scale with Luck (Humanity).
 - Increased the amount of inflict for all types, in general: 30 (for quick), 50 (for normal), 80 (for slow). This is doubled for infusions on those with innate inflict.
+- Increased duration of non-lethal Curse to 30 seconds
 
 # Catalysts
 - Spell ascension is active whilst using a catalyst at maximum reinforcement, rather than at specific stat levels.
@@ -78,46 +80,6 @@
 - Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
 - Added a few more dark spells to Yoel, to help starting dark spellcasters.
 - Shrine Handmaid no longer sells the starting spells.
-
-# Enemies
-- Yhorm's flame patch lasts 15 seconds (was 8).
-- Iudex Gundyr is now a early to mid-tier boss that you can face early optionally.
-- Reduced the Soul of Cinder HP to 16,000 (therefore 32,000 overall).
-- Reduced the melee absorptions for some bosses to make melee better against them.
-- Changed the HP of the Triad members to be the same for all members, reduced their damage output a bit.
-- Reduced the HP of the Demon Prince to 12,000 (therefore 36,000 overall).
-- Reduced the HP of Slave Knight Gael to 20,000.
-
-# Map
-- Added warp from the lower part of Smouldering Lake to the top area, allowing you to turn off the ballista quicker.
-- Player now starts in Firelink Shrine.
-- Moved the Undead Pyre bonfire on to the ridge you find Siegward, rename it to Giant's Tower.
-- Added Thorned Knights in the Cemetery of Ash.
-- Added 5 unnamed Undead Hexers around the Undead Settlement.
-- Added 2 unnamed Roaming Sorcerers in the first part of Road of Sacrifices.
-- Removed a few Corvians from the first part of Road of Sacrifices.
-
-# Trial
-- Reduced the HP of the Afflicted Swarm wave.
-- Reduced the HP of the Wraiths of the Abyss wave.
-
-# Bugfixes
-- Fixed various small oversights.
-- Fixed Sacred Chime of Filianore not casting the miracles that use its AOE mechanic.
-- Fixed Priest's Candlestick.
-
-#------------------------------
-# TODO
-#------------------------------
-Map out the NPC related stuff in emevd
- Yoel - check trigger on catacombs stairs
-Add new weapons
-Add new armor
-
-Get Ghostly Assault to work
-Consider changing armor effect design
-Add some new Capra style bosses in a few maps.
-
 - Added Soul of Corrupted Gundyr.
 - Added Soul of the Ancient Wyvern.
 - Added Soul of the Triad.
@@ -145,3 +107,48 @@ Add some new Capra style bosses in a few maps.
  - Greatshield of Artorias
  - Greatsword of Artorias
 
+# Enemies
+- Yhorm's flame patch lasts 15 seconds (was 8).
+- Iudex Gundyr is now a early to mid-tier boss that you can face early optionally.
+- Reduced the Soul of Cinder HP to 16,000 (therefore 32,000 overall).
+- Reduced the melee absorptions for some bosses to make melee better against them.
+- Changed the HP of the Triad members to be the same for all members, reduced their damage output a bit.
+- Reduced the HP of the Demon Prince to 12,000 (therefore 36,000 overall).
+- Reduced the HP of Slave Knight Gael to 20,000.
+
+# Map
+- Added warp from the lower part of Smouldering Lake to the top area, allowing you to turn off the ballista quicker.
+- Player now starts in Firelink Shrine.
+- Moved the Undead Pyre bonfire on to the ridge you find Siegward, rename it to Giant's Tower.
+- Added Thorned Knights in the Cemetery of Ash.
+- Added 5 unnamed Undead Hexers around the Undead Settlement.
+- Added 2 unnamed Roaming Sorcerers in the first part of Road of Sacrifices.
+- Removed a few Corvians from the first part of Road of Sacrifices.
+
+# Trial
+- Reduced the HP of the Afflicted Swarm wave.
+- Reduced the HP of the Wraiths of the Abyss wave.
+
+# Armor
+- Crown of the Forgotten Lord is now Ludleth's Crown.
+
+# Bugfixes
+- Fixed various small oversights.
+- Fixed Sacred Chime of Filianore not casting the miracles that use its AOE mechanic.
+- Fixed Priest's Candlestick.
+
+#------------------------------
+# TODO
+#------------------------------
+Add new weapons
+Add new armor
+
+Add some new Capra style bosses in a few maps
+Make the swamp/wall Judicator a one-time kill
+
+Change Moonlight Greatsword WA/Heavy
+Get Ghostly Assault to work
+Make Recollection less shit
+Make Dark Dance more swirly
+
+Consider changing armor effect design

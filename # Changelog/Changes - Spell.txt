@@ -572,7 +572,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 100
 - Base Effect: converts target enemy to player team for 30 seconds.
-- Ascended Effect: lasts for 60 seconds, boosts converted enemy power by 100%.
+- Ascended Effect: lasts for 60 seconds, boosts converted enemy power by 20%.
 
 #--------------------------------
 # Power Within

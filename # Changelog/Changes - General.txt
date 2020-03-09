@@ -90,7 +90,7 @@ Poison
 - Deals 30 + 0.05% damage per second.
 
 Curse:
-- Lasts 12 seconds.
+- Lasts 30 seconds.
 - Deals 2.5% damage on proc.
 - Reduces attack by 30% whilst active.
 - Reduces absorption by 30% whilst active.

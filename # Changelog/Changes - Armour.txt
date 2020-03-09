@@ -6,7 +6,6 @@
 # Giant's Set
 
 # Pursuer's Set
-- [Hands] Effect: Increase damage against Hollows by 15%.
 
 # Smough's Set
 
@@ -17,7 +16,6 @@
 # Winged Knight Set 
 
 # Millwood Knight Set
-- [Hands] Effect: Grants 2 HP every second.
 
 # Dragonrider Set
 
@@ -34,7 +32,6 @@
 # Penetrator Set
 
 # Morne's Set
-- [Hands] Effect: Reduces miracle FP consumption by 15%.
 
 # Paladin Set
 
@@ -59,17 +56,14 @@
 # Exile Armor Set
 
 # Black Knight Set
-- [Hands] Effect: Increase damage against Demons by 15%
 
 # Silver Knight Set
-- [Hands] Effect: Boosts lightning damage by 5%.
 
 # Gloom Set
 
 # Ruin Set
 
 # Gargoyle Helm
-- [Head] Effect: boosts VIG by 5.
 
 # Gargoyle Skull
 
@@ -79,7 +73,7 @@
 
 # Great Lord Set
 
-# Crown of the Forgotten Lord
+# Ludleth's Crown
 - [Head] Effect: boosts max HP, FP and Stamina by 10% and unique backflip
 
 # Symbol of Avarice
@@ -96,18 +90,14 @@
 - [Legs] Effect: adds 100 Fire damage to kick.
 
 # Ringed Knight Set
-- [Head] Effect: Boosts fire damage by 5%.
 
 # Yhorm's Set
-- [Head] Effect: boosts STR by 5.
 
 # Firelink Set
 
 # Gold Ardeo
-- [Head] Effect: boosts physical damage by 5%.
 
 # Iron Cage
-- [Head] Effect: increases max FP by 10%.
 
 # Corvian Knight Helmet
 
@@ -124,7 +114,6 @@
 # Bloodstained Gauntlets
 
 # Wolf Knight Set
-- [Hands] Effect: boosts DEX by 5.
 
 # Ancient King
 
@@ -168,31 +157,26 @@
 # Dark Set
 
 # Skull Mask
-- [Head] Effect: boosts VIT by 5.
 
 # Undead Legion Set
 
 # Mirrah Chain Set
-- [Head] Effect: boosts stamina recovery by 10.
 
 # Herald Set
 
 # Fallen Knight Set
 
 # Armor of the Sun Set
-- [Body] Effect: boosts estus HP recovery by 30%.
 
 # Fire Witch Set
 
 # Chain Armor Set
 
 # Vilhelm's Set
-- [Hands] Effect: Boosts dark damage by 5%.
 
 # Varangian Set
 
 # Wolnir's Crown
-- [Head] Effect: boosts physical damage by 5%.
 
 # Northern Set
 
@@ -216,31 +200,24 @@
 - [Head] Effect: emits an aura of frost, inflicting 25 Frost every second.
 
 # Evangelist Set
-- [Head] Effect: boosts FTH by 5.
 
 # Mirrah Set
-- [Head] Effect: reduces weapon stamina consumption by 15%
 
 # Hard Leather Set
 
 # Jailer Set
-- [Head] Effect: boosts Item Discovery by 30.
 
 # Black Set
 
 # Sellsword Set
 
 # Vileblood Set
-- [Head] Effect: absorb 50 HP from fallen foes.
 
 # Sunless Set
-- [Head] Effect: boosts magic damage by 5%.
 
 # Leonhard's Set
-- [Head] Effect: reduces weapon FP consumption by 15%.
 
 # Xanthous Set
-- [Head] Effect: absorb 50 FP from fallen foes.
 
 # White Preacher Head
 
@@ -253,10 +230,8 @@
 # Brigand Set
 
 # Leather Set
-- [Head] Effect: boosts bow range by 100.
 
 # Shira's Set
-- [Head] Effect: boosts FTH by 5.
 
 # Black Hand Set
 
@@ -273,7 +248,6 @@
 # Binded Set
 
 # Thrall Hood
-- [Head] Effect: boosts LCK by 5.
 
 # Assassin Set
 
@@ -291,30 +265,23 @@
 # Pyromancer Set
 
 # Karla's Set
-- [Head] Effect: boosts INT and FTH by 3.
 
 # Black Witch Set
-- [Head] Effect: boosts dark damage by 5%.
 
 # Black Witch Veil
-- [Head] Effect: grants 10 ATN.
 
 # Sorcerer Set
 
 # Court Sorcerer Set
-- [Hands] Effect: boosts magic damage by 5%.
 
 # Old Sorcerer Set
-- [Head] Effect: boosts INT by 5.
 
 # Clandestine Coat
 - [Body] Effect: makes footsteps silent.
 
 # Wanderer's Coat
-- [Body] Effect: boosts END by 5.
 
 # Sage's Big Hat
-- [Body] Effect: increases max FP by 10%.
 
 # Gwyndolin Moonlight Set
 
@@ -327,40 +294,30 @@
 - [Legs]  Effect: reduces enemy sight and hearing by 20%. Fades player body.
 
 # Maiden Set
-- [Body] Effect: boosts FTH by 5.
 
 # Hexer Set
-- [Body] Effect: boosts cast speed by 20.
 
 # Cornyx's Set
-- [Head] Effect: reduces FP consumption of pyromancies by 15%.
 
 # Grave Warden Set
 
 # Ordained Set
-- [Body] Effect: boosts cast speed by 20.
 
 # Desert Pyromancer Set
 
 # Archdeacon Set
-- [Head] Effect: reduces FP consumption of miracles by 15%.
 
 # Prayer Set
-- [Body] Effect: grants 4 HP every second.
 
 # Fire Keeper Set
-- [Head] Effect: boosts soul gain by 25%.
 
 # Blindfold Mask
-- [Head] Effect: Grants 1 attunement slot
 
 # Antiquated Set
-- [Head] Effect: reduces FP consumption of sorceries by 15%.
 
 # Antiquated Plain Set
 
 # Master's Set
-- [Head] Effect: increases stamina recovery by 15.
 
 # Deacon Set
 
