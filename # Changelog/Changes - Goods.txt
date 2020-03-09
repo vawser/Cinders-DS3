@@ -144,8 +144,14 @@
 # Blood of Might
 - Respawn all hostile NPC characters and resets their drops.
 
-# Beastly Flesh
-- Respawn all hostile one-time enemies and resets their drops.
+# Devil's Trumpet
+- Sets the camera distance to far.
+
+# Moonflower
+- Sets the FOV to 90.
+
+# Henbane
+- Removes 99% HP.
 
 #------------------------
 # Boss Souls
@@ -222,11 +228,11 @@
 # Soul of Slave Knight Gael
 - Boosts Physical Damage by 25% for 60 seconds.
 
-# Devil's Trumpet
-- Sets the camera distance to far.
+# Soul of Corrupted Gundyr
+- Boosts Dark Damage by 25% for 60 seconds.
 
-# Moonflower
-- Sets the FOV to 90.
+# Soul of the Ancient Dragon
+- Boosts Fire Damage by 25% for 60 seconds.
 
-# Henbane
-- Removes 99% HP.
+# Soul of the Triad
+- Boosts Physical Damage by 25% for 60 seconds.

@@ -116,9 +116,32 @@ Add new armor
 
 Get Ghostly Assault to work
 Consider changing armor effect design
-Add ascensions for spells again.
 Add some new Capra style bosses in a few maps.
 
-Add Giant covenant (Vestiges of Oolacile), change Tower Giant into covenant type NPC
+- Added Soul of Corrupted Gundyr.
+- Added Soul of the Ancient Wyvern.
+- Added Soul of the Triad.
+- Lord's Blade Set is now available from the Shrine Handmaid after defeating the Triad.
+- Re-arranged a few items between covenants/transpositions/treasures.
 
-Add aquamarine override without the crystal blade vfx (do copy and replace)
+- Soul of Corrupted Gundyr transposes into:
+ - Writhing Hammer
+ - Cursed Ring of Evasion
+ - Cursed Ring of Vengeance
+ - Cursed Ring of Deflection
+ - Cursed Ring of Confusion
+ 
+- Soul of the Ancient Wyvern transposes into:
+ - Dragon King Greataxe
+ - Dragon Greatsword
+ - Immortal Dragon Greatshield
+ - Ancient Dragon Halberd 
+ - Dragon Bone Fist
+
+- Soul of the Triad transposes into:
+ - Dragonslayer Spear
+ - Ciaran's Tracers
+ - Leo Ring
+ - Greatshield of Artorias
+ - Greatsword of Artorias
+
