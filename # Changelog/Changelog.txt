@@ -77,6 +77,7 @@
 - Power Within now only removes 1% per second.
 
 # Items
+- Added Ring of Betrothal. Found in Irithyll.
 - Brightbug now lasts 30 seconds and only boosts by 10%. Limited to 10 held.
 - Added a few more dark spells to Yoel, to help starting dark spellcasters.
 - Shrine Handmaid no longer sells the starting spells.
@@ -152,3 +153,7 @@ Make Recollection less shit
 Make Dark Dance more swirly
 
 Consider changing armor effect design
+
+<text id="15000002">Good to know that a skinny little heretic can still turn heads.</text>
+
+Finish adding Karla's Form Betrothal option
