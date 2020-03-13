@@ -148,8 +148,8 @@ Get Ghostly Assault to work
 Make Recollection less shit
 Make Dark Dance more swirly
 Add some new Capra style bosses in a few maps
-Make the swamp/wall Judicator a one-time kill
 Enable Gundyr's back fogwall by default
 
-- Added multi-school casting back for some catalysts.
-- The hybrid catalysts now swap the schools based on the infusion (i.e. Sorceries for Magic/Enchanted, Pyromancies for Fire, Miracles for Lightning/Holy)
+- The Judicator in the swamp is now a one-time spawn, and drops the Proof of the Pact spell.
+- The swamp in the Ringed City now inflicts Curse (slowly).
+- Reduced the damage of the Angels.
