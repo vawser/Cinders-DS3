@@ -151,6 +151,5 @@ Add some new Capra style bosses in a few maps
 Make the swamp/wall Judicator a one-time kill
 Enable Gundyr's back fogwall by default
 
-- Reduced the HP of new respawning player-like enemies.
-- Added more entries for reinforcement materials, Estus Shards and Undead Bone Shards to the randomiser so you actually get more than 1 per run.
-- Fixed weapons not randomising both reinforcement and infusion together.
+- Added multi-school casting back for some catalysts.
+- The hybrid catalysts now swap the schools based on the infusion (i.e. Sorceries for Magic/Enchanted, Pyromancies for Fire, Miracles for Lightning/Holy)
