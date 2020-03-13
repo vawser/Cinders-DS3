@@ -143,17 +143,14 @@
 #------------------------------
 Add new weapons
 Add new armor
-
-Add some new Capra style bosses in a few maps
-Make the swamp/wall Judicator a one-time kill
-
 Change Moonlight Greatsword WA/Heavy
 Get Ghostly Assault to work
 Make Recollection less shit
 Make Dark Dance more swirly
+Add some new Capra style bosses in a few maps
+Make the swamp/wall Judicator a one-time kill
+Enable Gundyr's back fogwall by default
 
-Consider changing armor effect design
-
-<text id="15000002">Good to know that a skinny little heretic can still turn heads.</text>
-
-Finish adding Karla's Form Betrothal option
+- Reduced the HP of new respawning player-like enemies.
+- Added more entries for reinforcement materials, Estus Shards and Undead Bone Shards to the randomiser so you actually get more than 1 per run.
+- Fixed weapons not randomising both reinforcement and infusion together.
