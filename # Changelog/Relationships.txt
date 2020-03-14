@@ -1,0 +1,49 @@
+﻿Relationships
+25008010 - Karla
+25008020 - Fire Keeper
+25008030 - Painter
+25008040 - 
+25008050 - 
+25008060 - 
+25008070 - 
+25008080 - 
+25008090 - 
+25008100 - 
+25008110 - 
+25008120 - 
+25008130 - 
+25008140 - 
+25008150 - 
+25008160 - 
+25008170 - 
+25008180 - 
+25008190 - 
+25008200 - 
+25008210 - 
+25008220 - 
+25008230 - 
+25008240 - 
+25008250 - 
+
+goods5=2000
+
+# Form Betrothal
+AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1, 10, 15015040, -1)
+  
+# Form Betrothal - Event
+elif GetTalkListEntryResult() == 30:
+    SetEventState(25008010, 1)
+    PlayerEquipmentQuantityChange(3, goods5, -1)
+    assert t400250_x5(text1=25005000, flag1=0, mode1=1)
+
+# Flirt
+AddTalkListDataIf(GetEventStatus(25008010) == 0, 31, 15015041, -1)
+
+# Flirt - Event
+elif GetTalkListEntryResult() == 31:
+    assert t400250_x5(text1=25004000, flag1=0, mode1=1)
+    
+2000101
+2000902
+
+t400120_x6

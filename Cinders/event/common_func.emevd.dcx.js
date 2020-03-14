@@ -4770,18 +4770,6 @@ Event(20009300, Restart, function() {
     // 25000004 - Wrath - Lothric
     // 25000005 - Wave of Trial
     
-    // Relationships
-    // 25008010 - Karla
-    // 25008020 - 
-    // 25008030 - 
-    // 25008040 - 
-    // 25008050 - 
-    // 25008060 - 
-    // 25008070 - 
-    // 25008080 - 
-    // 25008090 - 
-    // 25008100 - 
-    
     SetEventFlag(25000010, ON); // Deathless Run
     
     // Enable Firelink Shrine bonfire

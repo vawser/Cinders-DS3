@@ -143,6 +143,8 @@
 - Fixed various small oversights.
 - Fixed Sacred Chime of Filianore not casting the miracles that use its AOE mechanic.
 - Fixed Priest's Candlestick.
+- Nightmare memories are now removed upon entering NG+.
+- Sources that unlock Primordial Forging now award an item: the Primordial Scroll. This is now what unlocks the options. This means Primordial Forging will now persist into NG+ if you've already unlocked it.
 
 #------------------------------
 # TODO
@@ -153,6 +155,8 @@ Do the weapon/armor icons
 
 Mess with map obstacles (i.e. frost mist, etc)
 
-- Sources that unlock Primordial Forging now award an item: the Primordial Scroll. This is now what unlocks the options. This means Primordial Forging will now persist into NG+ if you've already unlocked it.
-- Nightmare memories are now removed upon entering NG+.
+- Add more relationship options
+ Painter (Flirt option insta-kills)
+ Fire Keeper
+
 
