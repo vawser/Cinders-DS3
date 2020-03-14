@@ -149,12 +149,10 @@
 #------------------------------
 Add new weapons
 Add new armor
+Do the weapon/armor icons
 
-Change Moonlight Greatsword WA/Heavy
-Get Ghostly Assault to work
-Make Recollection less shit
-Make Dark Dance more swirly
+Mess with map obstacles (i.e. frost mist, etc)
 
-- Do the weapon/armor icons
+- Sources that unlock Primordial Forging now award an item: the Primordial Scroll. This is now what unlocks the options. This means Primordial Forging will now persist into NG+ if you've already unlocked it.
+- Nightmare memories are now removed upon entering NG+.
 
-- Updated the Silver Knight Straight Sword model and TAE (thanks to Max).

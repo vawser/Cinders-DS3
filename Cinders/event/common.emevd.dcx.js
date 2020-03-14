@@ -247,6 +247,8 @@ Event(50, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 2156, 1);
     RemoveItemFromPlayer(ItemType.Goods, 2157, 1);
     RemoveItemFromPlayer(ItemType.Goods, 2158, 1);
+    
+    // Dreams
     RemoveItemFromPlayer(ItemType.Goods, 5000, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5001, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5002, 99);
@@ -271,6 +273,33 @@ Event(50, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 5021, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5022, 99);
     RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
+    
+    // Nightmares
+    RemoveItemFromPlayer(ItemType.Goods, 5100, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5101, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5102, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5103, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5104, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5105, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5106, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5107, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5108, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5109, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5110, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5111, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5112, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5113, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5114, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5115, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5116, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5117, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5118, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5119, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5120, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5121, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5122, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5123, 99);
+    
     SetEventFlag(6400, OFF);
     Label0();
 });
