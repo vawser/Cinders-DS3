@@ -69,10 +69,10 @@
 
 # Chloranthy Ring
 - Weight: 1
-- [+0] Grants 10 Stamina Recovery
-- [+1] Grants 15 Stamina Recovery
-- [+2] Grants 20 Stamina Recovery
-- [+3] Grants 25 Stamina Recovery
+- [+0] Grants 20 Stamina Recovery
+- [+1] Grants 30 Stamina Recovery
+- [+2] Grants 40 Stamina Recovery
+- [+3] Grants 50 Stamina Recovery
 - [+0] Source: Treasure - Undead Settlement
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2

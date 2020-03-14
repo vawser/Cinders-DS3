@@ -13,13 +13,13 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Strength: [1, 2, 1, 2]
 
 # Pursuer's Set
-- Stamina Damage: [1.06, 1.12, 1.03, 1.09]
+- Anti-Hollow: [1.02, 1.024, 1.006, 1.018]
 
 # Smough's Set
-- HP Absorb: [6, 12, 3, 9]
+- HP Absorb on Kill: [24, 48, 12, 36]
 
 # Gundyr Set
-- Weapon Stamina Consumption: [1.02, 1.024, 1.006, 1.018]
+- Weapon Stamina Consumption: [0.98, 0.976, 0.994, 0.982]
 
 # Brushwood Set
 - Strength: [1, 2, 1, 2]
@@ -31,19 +31,19 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Vigor: [1, 2, 1, 2]
 
 # Dragonrider Set
-- Max HP: [1.02, 1.024, 1.006, 1.018]
+- Strength: [1, 2, 1, 2]
 
 # Catarina Set
 - Deflection: [6, 12, 3, 9]
 
 # Cathedral Knight Set
-- Miracle Cost: [1.02, 1.04, 1.01, 1.03]
+- Miracle Cost: [0.98, 0.96, 0.99, 0.97]
 
 # Black Iron Set
 - Vitality: [1, 2, 1, 2]
 
 # Iron Dragonslayer Set
-- Skill FP Cost: [1.02, 1.04, 1.01, 1.03]
+- Skill FP Cost: [0.98, 0.96, 0.99, 0.97]
 
 # Lapp's Set
 - Luck: [1, 2, 1, 2]
@@ -52,16 +52,16 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Max Stamina: [1.02, 1.024, 1.006, 1.018]
 
 # Morne's Set
-- Miracle Cost: [1.02, 1.04, 1.01, 1.03]
+- Miracle Cost: [0.98, 0.96, 0.99, 0.97]
 
 # Paladin Set
 - Faith: [1, 2, 1, 2]
 
-# Quicksilver
+# Quicksilver Set
 - FP Regen: [1, 2, 1, 2]
 
 # Executioner Set
-- FP Absorb: [6, 12, 3, 9]
+- FP Absorb on Kill: [12, 24, 6, 18]
 
 # Dragonslayer Set
 - Faith: [1, 2, 1, 2]
@@ -82,7 +82,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Strength: [1, 2, 1, 2]
 
 # Exile Armor Set
-- Weapon Stamina Consumption: [1.02, 1.024, 1.006, 1.018]
+- Weapon Stamina Consumption: [0.98, 0.976, 0.994, 0.982]
 
 # Black Knight Set
 - Anti-Demon: [1.02, 1.024, 1.006, 1.018]
@@ -103,23 +103,23 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Damage: [1.1]
 
 # Crab Helmet
-- HP Estus Restore: [1.1]
+- Boosts Stats by 40 below 25% HP
 
 # Lorian's Set
 - HP Regen: [1, 2, 1, 2]
 
 # Great Lord Set
-- Miracle Cost: [1.02, 1.04, 1.01, 1.03]
+- Miracle Cost: [0.98, 0.96, 0.99, 0.97]
 
 # Ludleth's Crown
-- Soul Absorption: [1.1]
+- Soul Absorption: [1.25]
 
 # Symbol of Avarice
 - Item Discovery: [2.5]
 - HP Loss %: [1]
 
 # Giant Slave Helmet
-- Soul Absorption: [1.02]
+- Soul Absorption: [1.05]
 
 #----------------------------
 # Medium 1 (30 - 40)
@@ -141,16 +141,16 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Soul Absorption: [1.03, 1.06, 1.015, 1.045]
 
 # Gold Ardeo
-- HP Absorb: [8]
+- HP Absorb on Kill: [32]
 
 # Iron Cage
-- FP Absorb: [8]
+- FP Absorb on Kill: [16]
 
 # Corvian Knight Helmet
 - Poison Aura: [10]
 
 # Eastern Armor Set
-- Weapon Stamina Consumption: [1.016, 1.032, 1.008, 1.024]
+- Weapon Stamina Consumption: [0.984, 0.968, 0.992, 0.976]
 
 # Brass Set
 - Effect Duration: [1.08, 1.16, 1.04, 1.12]
@@ -165,7 +165,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Endurance: [2, 3, 1, 2]
 
 # Bloodstained Gauntlets
-- HP Absorb: [8]
+- HP Absorb on Kill: [12]
 
 # Wolf Knight Set
 - Stamina Recovery: [2, 3, 1, 2]
@@ -186,7 +186,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Damage: [1.08, 1.16, 1.04, 1.12]
 
 # Armor of Thorns Set
-- Roll Damage: [25, 25, 25, 25]
+- Roll Damage: [20, 40, 10, 30]
 
 # Nameless Knight Set
 - Item Discovery: [1.08, 1.16, 1.04, 1.12]
@@ -201,7 +201,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Recovery: [10]
 
 # Demon Cleric Mask
-- Vigor: [3]
+- Cast Speed: [10]
 
 # Faraam Armor Set
 - Stamina Recovery: [2, 3, 1, 2]
@@ -210,6 +210,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Luck: [2, 3, 1, 2]
 
 # Footman Set
+- Strength: [2, 3, 1, 2]
 - [Body] Effect: reduces backstab damage by 90%
 
 # Outrider Knight Armor Set
@@ -249,7 +250,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Dexterity: [2, 3, 1, 2]
 
 # Wolnir's Crown
-- Faith: [3]
+- STR/DEX/INT/FTH: [1]
 
 # Northern Set
 - Max Stamina: [1.016, 1.032, 1.008, 1.024]
@@ -261,7 +262,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Light (10 - 20)
 #----------------------------
 # Nameless King Set
-- Miracle Cost: [1.04, 1.08, 1.02, 1.06]
+- Miracle Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Follower Set
 - Endurance: [2, 4, 1, 3]
@@ -270,10 +271,10 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Intelligence: [2, 4, 1, 3]
 
 # Pontiff's Set
-- FP Absorb: [10, 5]
+- FP Absorb on Kill: [20, 10]
 
 # Dancer Set
-- Weapon Stamina Consumption: [1.02, 1.04, 1.01, 1.03]
+- Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
 
 # Frigid Valley Mask
 - Frost Aura: [10]
@@ -297,7 +298,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Dexterity: [2, 4, 1, 3]
 
 # Vileblood Set
-- HP Absorb: [10, 20, 5, 15]
+- HP Absorb on Kill: [30, 60, 15, 45]
 
 # Sunless Set
 - FP Regen: [2, 4, 1, 3]
@@ -306,13 +307,13 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Intelligence: [2, 4, 1, 3]
 
 # Xanthous Set
-- FP Absorb: [10, 20, 5, 15]
+- FP Absorb on Kill: [20, 40, 10, 30]
 
 # White Preacher Head
 - Curse Aura: [10]
 
 # Deserter Set
-- Item Discovery: [1.1, 1.2, 1.05, 1.15]
+- Item Discovery: [1.1, 1.2, 1.15]
 
 # Soldier's Hood
 - Item Discovery: [1.1]
@@ -321,7 +322,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Luck: [2, 4, 1, 3]
 
 # Brigand Set
-- Skill FP Cost: [1.04, 1.08, 1.02, 1.06]
+- Skill FP Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Leather Set
 - Bow Distance: [10, 20, 5, 15]
@@ -330,10 +331,10 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Attunement: [2, 4, 1, 3]
 
 # Black Hand Set
-- Dexterity: [2, 4, 1, 3]
+- Dexterity: [2, 4]
 
 # Conjurator Set
-- Pyromancy Cost: [1.04, 1.08, 1.02, 1.06]
+- Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Grotto Set
 - Poison Aura: [10, 20, 5, 15]
@@ -357,12 +358,12 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Recovery: [2, 4, 1, 3]
 
 # Painting Guardian Set
-- Skill FP Cost: [1.04, 1.08, 1.02, 1.06]
+- Skill FP Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Drang Set
 - Stamina Recovery: [4, 1, 3]
 
-# Man Serpent Set
+# Serpentine Set
 - Attunement: [2, 4]
 
 # Scholar Set
@@ -372,10 +373,10 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Ultra Light (0 - 10)
 #----------------------------
 # Pyromancer Set
-- Pyromancy Cost: [1.04, 1.08, 1.02, 1.06]
+- Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Karla's Set
-- Max FP:[1.02, 1.04, 1.01, 1.03]
+- Max FP: [1.02, 1.04, 1.01, 1.03]
 
 # Black Witch Set
 - FP Regen: [2, 4, 1, 3]
@@ -387,13 +388,13 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Intelligence: [2, 4, 1, 3]
 
 # Court Sorcerer Set
-- Sorcery Cost: [1.04, 1.08, 1.02, 1.06]
+- Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Old Sorcerer Set
 - FP Regen: [2, 4, 1, 3]
 
 # Venerable Sage's Set
-- FP Absorb: [10, 20, 5, 15]
+- FP Absorb on Kill: [20, 40, 10, 30]
 
 # Clandestine Coat
 - Silent Footsteps
@@ -405,7 +406,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Max FP: [1.1]
 
 # Gwyndolin Moonlight Set
-- Sorcery Cost: [1.04, 1.08, 1.02, 1.06]
+- Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Pale Shade Set
 - Anti-Hollow: [1.02, 1.04, 1.01, 1.03]
@@ -414,49 +415,49 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Fade Player and Reduce Sight and Listen: [20, 20, 20, 20]
 
 # Maiden Set
-- HP Regen: [2, 4, 1, 3]
+- Miracle Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Hexer Set
 - FP Regen: [2, 4, 1, 3]
 
 # Cornyx's Set
-- Pyromancy Cost: [1.04, 1.08, 1.02, 1.06]
+- Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Grave Warden Set
 - Dexterity: [2, 4, 1, 3]
 
 # Ordained Set
-- Intelligence: [2, 4, 1, 3]
+- Intelligence: [2, 4, 3]
 
 # Desert Pyromancer Set
-- Pyromancy Cost: [1.04, 1.08, 1.02, 1.06]
+- Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Archdeacon Set
-- Faith: [2, 4, 1, 3]
+- Faith: [2, 4, 3]
 
 # Prayer Set
-- HP Regen: [2, 4, 1, 3]
+- HP Regen: [2, 4, 3]
 
 # Fire Keeper Set
 - Soul Absorption: [1.04, 1.08, 1.02, 1.06]
 
 # Blindfold Mask
-- Attunement: [3]
+- Sorcery/Pyromancy/Miracle Cost: [0.98]
 
 # Antiquated Set
-- Sorcery Cost: [1.04, 1.08, 1.02, 1.06]
+- Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Antiquated Plain Set
-- Sorcery Cost: [1.04, 1.08, 1.02, 1.06]
+- Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Master's Set
-- Weapon Stamina Consumption: [1.02, 1.04, 1.01, 1.03]
+- Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
 
 # Deacon Set
 - Curse Aura: [10, 20, 5, 15]
 
 # Saint Set
-- HP Estus Restore: [1.04, 1.08, 1.02, 1.06]
+- HP Regen: [2, 4]
 
 
 

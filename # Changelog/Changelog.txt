@@ -108,6 +108,9 @@
  - Greatshield of Artorias
  - Greatsword of Artorias
 
+# Rings
+- Chloranthy Ring: now grants 20/30/40/50 stamina recovery.
+
 # Enemies
 - Yhorm's flame patch lasts 15 seconds (was 8).
 - Iudex Gundyr is now a early to mid-tier boss that you can face early optionally.
@@ -152,5 +155,5 @@ Make Recollection less shit
 Make Dark Dance more swirly
 Add some new Capra style bosses in a few maps
 Enable Gundyr's back fogwall by default
-
 Add snowstorm spots in Irithyll that cause frost damage
+
