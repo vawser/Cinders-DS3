@@ -1187,7 +1187,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - INT Req: 10
 - FTH Req: 20
 - Base Effect: adds 80 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
-- Ascended Effect: attacks restore 50 HP per hit.
+- Ascended Effect: restores 1% HP per second.
 
 #--------------------------------
 # Atonement
