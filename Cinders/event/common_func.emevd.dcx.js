@@ -4663,6 +4663,14 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4)
 });
 
+// Warp to Location - Firelink Shrine
+Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    SendAllPhantomsHome(0);
+    WaitFixedTimeSeconds(1);
+    WarpPlayer(X8_1, 0, X12_4);
+});
+
 // Warp to Location - Untended Graves
 Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4758,6 +4766,8 @@ Event(20009201, Default, function(X0_4, X4_4) {
     EndIfNumberOfCoopClients(EventEndType.End, ComparisonType.GreaterOrEqual, 1);
     IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
+    WaitFixedTimeSeconds(5);
+    ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
 // Setup Game Flags
@@ -4776,7 +4786,7 @@ Event(20009300, Restart, function() {
     SetBonfireWarpingState(4001950, 60430, Enabled);
     SetEventFlag(74000010, OFF);
     SetEventFlag(14000101, ON);
-    SetEventFlag(14000000, ON);
+    SetEventFlag(13100004, ON);
     SetEventFlag(13000000, ON);
     
     // Deathless Boss Kill Flags

@@ -340,7 +340,7 @@ Event(230, Restart, function() {
 Event(231, Restart, function() {
     IfPlayerInoutMap(AND_01, true, 40, 0);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
-    SetMapCeremony(40, 0, 10);
+    //SetMapCeremony(40, 0, 10);
     EndUnconditionally(EventEndType.End);
 });
 
