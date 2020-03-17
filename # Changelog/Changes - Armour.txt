@@ -58,7 +58,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Faith: [1, 2, 1, 2]
 
 # Quicksilver Set
-- FP Regen: [1, 1, 1, 1]
+- Max FP: [1.02, 1.024, 1.006, 1.018]
 
 # Executioner Set
 - FP Absorb on Kill: [12, 24, 6, 18]
@@ -418,7 +418,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Miracle Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Hexer Set
-- FP Regen: [1, 1, 1, 1]
+- Cast Speed: 30 [6, 12, 3, 9]
 
 # Cornyx's Set
 - Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]

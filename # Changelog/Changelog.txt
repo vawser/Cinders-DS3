@@ -54,7 +54,13 @@
 - Rosaria's transpositions now appear after the Deacons are killed.
 
 # Armor
-- Reduced the FP regen from armor to a flat 1 per piece.
+- Reduced the FP regen from armor.
+- Quicksilver Set now boosts max FP.
+- Hexer Set now boost cast speed.
+
+# Spells
+- Reduced the poise damage of Dark Bead.
+- Reduced the poise damage of Climax.
 
 # Bugfixes
 - Fixed Undead Legion Leggings having incorrect value for damage boost.
