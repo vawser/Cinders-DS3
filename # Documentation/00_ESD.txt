@@ -261,6 +261,16 @@ Then create the python version and recompile it.
 
 -- GetWhetherChrEventAnimHasEnded()
 
+-- f109(<type>) # Get Estus Flask Count
+    0:Full
+    1:Drained
+    
+-- f110() # Get Undead Bone Shard count
+
+-- f111() # Used during Bonfire check
+
+-- f112() # Used during Bonfire check negatively
+
 #------------------------------------
 # Effect Reference
 #------------------------------------
@@ -296,9 +306,232 @@ Then create the python version and recompile it.
 
 -- CloseCampMenu()
 
--- c1111( <start id>, <end id> )   # Transposition Menu
+-- ChangeTeamType( <type> )
 
--- OpenHollowLevelUpMenu()         # Open Free level menu
+-- SetDefaultTeamType( <type> )
+
+-- OpenGenericDialog( <type>, <text>, <dialog result>, <unk>, <unk> )
+<type>
+    1:
+    2:
+    7:
+    8:
+
+<dialog result>
+    0: Cancel
+    1: Left
+    2: Right
+    3: Leave
+
+-- ForceCloseGenericDialog()
+
+-- AddTalkListData( <slot>, <text id>, <unk> )
+
+-- AddTalkListDataIf( <condition>, <slot>, <text id>, <unk> )
+
+-- ClearTalkListData()
+
+-- RequestMoviePlayback( <id> )
+
+-- OpenRegularShop( <start id>, <end id> )
+
+-- OpenRepairShop()
+
+-- OpenEnhanceShop( <type> ) # Reinforcement Menu
+<type>
+    0: Normal
+    10: Unknown
+
+-- OpenHumanityMenu()
+
+-- OpenMagicShop() # Old special shop?
+
+-- OpenMiracleShop() # Old special shop?
+
+-- OpenMagicEquip( <start id>, <end id> ) # Attunement Menu
+1000 is used for both in DS3
+
+-- OpenMiracleEquip( <start id>, <end id> ) # Attunement Menu
+1000 is used for both in DS3
+
+-- OpenRepository()
+
+-- OpenSoul() # Level Up Menu
+
+-- CloseMenu() # Close current menu
+
+-- SetEventFlagRange( <unk>, <unk> )
+ 
+-- OpenDepository() # Old?
+
+-- ClearTalkActionState()
+
+-- ClearTalkDisabledState()
+
+-- SetTalkDisableStateMaxDuration()
+
+-- SetUpdateDistance( <distance> )
+
+-- ClearPlayerDamageInfo()
+
+-- OfferHumanity()
+
+-- StartWarpMenuInit( <bonfire warp id> )
+
+-- StartBonfireAnimLoop()
+
+-- EndBonfireKindleAnimLoop()
+
+-- OpenSellShop( <id>, <id> )
+
+-- ChangePlayerStats( <stat>, <change type>, <value>)
+<change type>
+    0: Addition
+    1: Subtraction
+    5: Set
+    
+<stat>
+    0: Vitality
+    1: Attunement
+    2: Endurance
+    3: Strength
+    4: Dexterity
+    5: Magic
+    6: Faith
+    7: Luck
+    8: Soul
+    9: Total Get Soul
+    10: Humanity
+    11: Covenant Type
+    12: Gender
+    13: Unk1
+    14: Unk2
+    15: Equipped Covenant Points
+    16: Equipped Covenant Points - Covenant Level 
+    17: Blade Of Darkmoon Points
+    18: Warrior of Sunlight Points
+    19: Mound-makers Points
+    20: Spears of the Church Points
+    21: Rosaria's Fingers Points
+    22: Watchdogs of Farron Points
+    23: Aldrich Faithful Points
+    24: Blade Of Darkmoon Points - Covenant Level
+    25: Warrior of Sunlight Points - Covenant Level
+    26: Mound-makers Points - Covenant Level
+    27: Spears of the Church Points - Covenant Level
+    28: Rosaria's Fingers Points - Covenant Level
+    29: Watchdogs of Farron Points - Covenant Level
+    30: Aldrich Faithful Points - Covenant Level
+    31: Hollowing Level (Yoel)
+    32: Previous Soul Level
+    33: Soul Level
+    34: Free Yoel Level Ups Remaining
+    35: Way of Blue Points
+    36: Way of Blue Points - Covenant Level
+    37: Blue Sentinels Points
+    38: Blue Sentinels Points - Covenant Level
+    
+-- OpenEquipmentChangeOfPurposeShop()
+
+-- CombineMenuFlagAndEventFlag( <flag>, <flag> )
+
+-- RequestSave( <unk> )
+
+-- ChangeMotionOffsetID( <unk> )
+
+-- PlayerEquipmentQuantityChange( <type>, <item id>, <value> )
+<type>
+    0:Weapon
+    1:Protector
+    2:Accessory
+    3:Goods
+    
+-- RequestUnlockTrophy( <id> )
+
+-- EnterBonfireEventRange()
+
+-- SetAquittalCostMessageTag( <cost>, <unk> )
+
+-- SubtractAcquittalCostFromPlayerSouls( <cost>, <unk> )
+
+-- ShuffleRNGSeed( <unk> )
+
+-- SetRNGSeed()
+
+-- ReplaceTool( <item id>, <item id>, <value> )
+
+-- BreakCovenantPledge()
+
+-- PlayerRespawn()
+
+-- GiveSpEffectToPlayer( <SpEffect> )
+
+-- ShowGrandioseTextPresentation( <unk> )
+
+-- AddIzalithRankingPoints()
+
+-- OpenItemAcquisitionMenu( <type>, <item id>, <value> )
+<type>
+    0:Weapon
+    1:Protector
+    2:Accessory
+    3:Goods
+    
+-- AcquireGesture( <gesture id> )
+
+-- ForceCloseMenu()
+
+-- SetTalkTime( <time> )
+
+-- CollectJustPyromancyFlame()
+
+-- OpenArenaRanking()
+
+-- ReportConversationEndToHavokBehavior()
+
+-- OpenConversationChoicesMenu( <unk> )
+
+-- StopEventAnimWithoutForcingConversationEnd( <unk> 
+
+-- OpenCharaMakeMenu() # Character Edit Menu
+
+-- OpenChooseQuantityDialog( <item id>, <value> )
+
+-- ClearQuantityValueOfChooseQuantityDialog()
+
+-- SetWorkValue( <unk>, <value> )
+
+-- UpdatePlayerRespawnPoint()
+
+-- SetMessageTagValue( <unk>, <value>, *<value> )
+
+-- TurnCharacterToFaceEntity( <unk>, <player>, <unk> )
+
+-- GetItemFromItemLot( <itemlot id> )
+
+-- OpenEstusAllotMenu()
+
+-- AddRankingPoints( <type>, <value> )
+<type>
+    5:
+
+-- OpenHollowLevelUpMenu()
+        
+-- c1108( <value>, <type> ) # Set Estus Flask Count
+    0:Full
+    1:Drained
+        
+-- c1109( <value> ) # Set Estus Flask Strength
+        
+-- c1110() # Show Talk Options
+        
+-- c1111( <start shop id>, <end shop id> ) # Transposition Menu
+
+-- c1112( <talk id> ) # Fire Keeper during the End of Fire ending 
+
+-- c1113() # Rebirth Menu
+
+-- c1114() # Undead Match Menu
 
 #------------------------------------
 # Misc Reference
