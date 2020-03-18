@@ -5121,3 +5121,65 @@ Event(20060012, Default, function(X0_4, X4_4) {
     WaitFixedTimeSeconds(1.0);
     EndUnconditionally(EventEndType.Restart);
 });
+
+// Summon Setup- Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID
+Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
+    SetNetworkUpdateAuthority(X8_4, AuthorityLevel.Forced);
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
+    IfCharacterBackreadStatus(AND_01, X8_4, true, ComparisonType.Equal, 1);
+    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X8_4, 10000, 10, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    PlaceNPCSummonSign(SummonSignType.WhiteSign, X8_4, X12_4, X0_4, X4_4);
+});
+
+// Summon Setup - Apperance - Summon Flag, Dismissal Flag, Boss Flag, Entity ID
+Event(20070001, Default, function(X0_4, X4_4, X8_4) {
+    ChangeCharacterEnableState(X8_4, Disabled);
+    SetCharacterAnimationState(X8_4, Disabled);
+    SetCharacterAIState(X8_4, Disabled);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    ChangeCharacterEnableState(X8_4, Enabled);
+    SetCharacterAnimationState(X8_4, Enabled);
+    SetCharacterAIState(X8_4, Enabled);
+    SetCharacterDefaultBackreadState(X8_4, Enabled);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    SetCharacterDefaultBackreadState(X8_4, Disabled);
+});
+
+// Summon Setup - Player Check (If Dead)
+Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
+    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X12_4, 1);
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(MAIN, PASS, AND_02);
+    RequestCharacterAICommand(X8_4, 10, 0);
+    RequestCharacterAIReplan(X8_4);
+    EndUnconditionally(EventEndType.Restart);
+    Label0();
+    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_03, InsideOutsideState.Outside, 10000, X12_4, 1);
+    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(OR_01, PASS, AND_03);
+    IfConditionGroup(OR_01, PASS, AND_04);
+    IfConditionGroup(AND_06, PASS, OR_01);
+    IfConditionGroup(AND_06, PASS, AND_05);
+    IfConditionGroup(MAIN, PASS, AND_06);
+    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07);
+    RequestCharacterAICommand(X8_4, -1, 0);
+    RequestCharacterAIReplan(X8_4);
+    WaitFixedTimeFrames(1);
+    EndUnconditionally(EventEndType.Restart);
+});

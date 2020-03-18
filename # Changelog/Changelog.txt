@@ -82,6 +82,7 @@
 - Fixed Handmaid's Ladle not being present in Firelink Shrine.
 - Fixed Numbness not working when ascended.
 - Fixed Smouldering Shield not using the Shield Bash WA.
+- Fixed a few inactive enemies in the High Wall.
 
 #------------------------------
 # TODO
@@ -89,5 +90,4 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-
 
