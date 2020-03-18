@@ -30,6 +30,15 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Menu
+- Changed the values the scaling letters represent to better show the player the current scaling of a weapon.
+ - E: 0 to 59
+ - D: 60 to 99
+ - C: 100 to 149
+ - B: 150 to 199
+ - A: 200 to 249
+ - S: 250 and above
+
 # Reinforcement
 - Adjusted weapon reinforcement multipliers. The damage curve is now shallower, meaning you start with more damage and end at the same max as before.
 - Adjusted infusion balance: Lethal/Sharp/Blunt are now the best (with 99 stats). The elemental infusions however are better than them early on, falling off over time.
@@ -38,6 +47,7 @@
 # Weapons
 - Reduced the stamina damage and increased the stamina cost of the Penetrating Sword.
 - Adjusted the stat requirements for the catalysts.
+- Reduced the effectiveness of aux with a few WAs.
 
 # Map
 - You now start in the bottom of the Bell Tower. 
@@ -61,7 +71,7 @@
 
 # Curse of Pride
 - The additional enemies are now just part of the base playthrough. I've toned down some of the more unfair encounters and moved a few enemies around so they make more sense for a base playthrough.
-- Curse of Pride: stats now scale downwards as you lose HP. Technically you lose 1 level in all stats for every 5% of HP lost. The levels are restored as your HP recovers.
+- Curse of Pride: stamina and FP consumption scale upwards based on your current HP.
 
 # Items
 - Irithyll: Small Doll is now found in chest in the first area before the barrier.
