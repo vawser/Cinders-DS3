@@ -4726,6 +4726,14 @@ Event(20009100, Default, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
+// Generator Control - Curse of Pride
+Event(20009110, Restart, function(X0_4) {
+    SetNetworkSyncState(Disabled);
+    DeactivateGenerator(X0_4, Disabled);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000000);
+    DeactivateGenerator(X0_4, Enabled);
+});
+
 // Petrified Giant - Advance Journey
 Event(20009200, Default, function(X0_4, X4_4) {
     IfMapCeremonyState(MAIN, Enabled, 40, 0, 0);

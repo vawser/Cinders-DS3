@@ -1746,6 +1746,24 @@ Event(400026, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
     SetSpeffect(10000, 250001000);
     SetSpeffect(10000, 250001001);
+    SetSpeffect(10000, 250001002);
+    SetSpeffect(10000, 250001003);
+    SetSpeffect(10000, 250001004);
+    SetSpeffect(10000, 250001005);
+    SetSpeffect(10000, 250001006);
+    SetSpeffect(10000, 250001007);
+    SetSpeffect(10000, 250001008);
+    SetSpeffect(10000, 250001009);
+    SetSpeffect(10000, 250001010);
+    SetSpeffect(10000, 250001011);
+    SetSpeffect(10000, 250001012);
+    SetSpeffect(10000, 250001013);
+    SetSpeffect(10000, 250001014);
+    SetSpeffect(10000, 250001015);
+    SetSpeffect(10000, 250001016);
+    SetSpeffect(10000, 250001017);
+    SetSpeffect(10000, 250001018);
+    SetSpeffect(10000, 250001019);
 });
 
 // Folly - Animations

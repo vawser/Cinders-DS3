@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002052 Cemetery of Ash / Unturned Graves
+54002053 Cemetery of Ash / Unturned Graves
 53002097 High Wall of Lothric / Consumed King's Garden
 53102091 Undead Settlement
 53302172 Road of Sacrifices / Farron Keep
@@ -30,6 +30,13 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Reinforcement
+- Adjusted weapon reinforcement multipliers. The damage curve is now shallower, meaning you start with more damage and end at the same max as before.
+- Adjusted infusion balance: Lethal/Sharp/Blunt are now the best (with 99 stats). The elemental infusions however are better than them early on, falling off over time.
+
+# Weapons
+- Reduced the stamina damage and increased the stamina cost of the Penetrating Sword.
+
 # Map
 - You now start in the bottom of the Bell Tower. 
 - The treasure in the bottom of the Bell Tower has been moved up onto a coffin so you need to drop down to get it.
@@ -40,6 +47,7 @@
 - Removed the serpent-men and added some suitable replacement enemies.
 - Moved the Archdragon Peak warp into the initial warp room.
 - Moved the Dreg Heap warp back to Firelink Shrine, now placed where you originally started, therefore requiring Corrupted Gundyr be killed first.
+- The Black Knights near the Undead Pyre are now there normally, but have been reduced down to 2.
 
 # Enemies
 - The Thorned Knights are now Burial Knights.
@@ -47,6 +55,11 @@
 # Trial
 - The trial is now only 11 waves long. The first 10 waves are randomised between 3 types.
 - Material rewards from the trial have been increased slightly and the ones near the end are better.
+- Reduced the wave HP significantly.
+
+# Curse of Pride
+- The additional enemies are now just part of the base playthrough. I've toned down some of the more unfair encounters and moved a few enemies around so they make more sense for a base playthrough.
+- Curse of Pride: stats now scale downwards as you lose HP. Technically you lose 1 level in all stats for every 5% of HP lost. The levels are restored as your HP recovers.
 
 # Items
 - Irithyll: Small Doll is now found in chest in the first area before the barrier.
@@ -61,6 +74,8 @@
 # Spells
 - Reduced the poise damage of Dark Bead.
 - Reduced the poise damage of Climax.
+- Increased the damage of Great Soul Dregs.
+- Increased the damage of Abyssal Edge.
 
 # Bugfixes
 - Fixed Undead Legion Leggings having incorrect value for damage boost.
@@ -74,4 +89,5 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
+
 

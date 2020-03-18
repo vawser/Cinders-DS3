@@ -697,8 +697,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Angelic Barrage
 #--------------------------------
 - FP Cost: 80
-- Physical Damage: 200 (per bullet)
-- FTH Req: 40
+- Physical Damage: 100 (per bullet)
+- FTH Req: 60
 - Ascended Effect: emits more beams.
 
 #--------------------------------
@@ -706,7 +706,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 30
 - Physical Damage: 250
-- FTH Req: 15
+- FTH Req: 30
 - Ascended Effect: increases poise damage, inflicts stagger animation and improves tracking.
 
 #--------------------------------
@@ -714,15 +714,15 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 80
 - Physical Damage: 800 
-- FTH Req: 40
+- FTH Req: 50
 - Ascended Effect: improves tracking.
 
 #--------------------------------
 # Proof of a Pact
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 1200
-- FTH Req: 30
+- Physical Damage: 1000
+- FTH Req: 40
 - Ascended Effect: costs 30 FP.
 
 #--------------------------------------------------------------------------
@@ -952,7 +952,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Great Soul Dregs
 #--------------------------------
 - FP Cost: 80
-- Dark Damage: 600 
+- Dark Damage: 900 
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: inflicts 80 Curse.
@@ -962,7 +962,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 60
-- Dark Damage: 500  
+- Dark Damage: 600  
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: increases Poise damage to 100, gains Faceplant stagger.
