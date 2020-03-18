@@ -5,65 +5,36 @@ Add the esd file within the chosen map dcx first using Yabber.
 Then create the python version and recompile it.
 
 #------------------------------------
-# Command Notes
-#------------------------------------
-c1108( f109(0) + 1, 0 ) # Likely "Increase Estus Flask Count"
-f109(0) # Likely "Get Estus Flask Count"
-c1111( <start id>, <end id> ) # Open Transposition menu with specified shop range
-OpenHollowLevelUpMenu() # Open Free level menu
-
-# Use to add soul cost to menu
-SetAquittalCostMessageTag(z7, z8)
-ComparePlayerAcquittalPrice(z7, z8, 2) == 1
-SubtractAcquittalCostFromPlayerSouls(z7, z8)
-
-#------------------------------------
 # Talk IDs
 #------------------------------------
-# Added IDs
-400005
-400006
-400007
-400008
-400009
-
-# Original
-400000 # Firelink Shrine bonfire
-400001 # Cemetery of Ash bonfire
-400002 # Iudex Gundyr bonfire
-400003 # Untended Graves bonfie
-400004 # Champion Gundyr bonfire
-
-400150 # Yoel
-400130 # Ludleth #1
-400131 # Ludleth #2 (ashes)
-400390 # Crows
-400500 # Nestling
-400260 # Irina of Carim #1
-400261 # Irina of Carim #2
-400262 # Irina of Carim #3
-400270 # Eygon of Carim #1
-400271 # Eygon of Carim #2
-400180 # Siris of the Sunless Realms
-400290 # Anri of Astora #1
-400295 # Anri of Astora #2
-400360 # Horace the Hushed
-400240 # Cornyx of the Great Swamp
-400220 # Greirat of the Undead Settlement
-400250 # Karla
-400230 # Orbeck of Vinheim
-400140 # Yuria of Londor
-400190 # Ringfinger Leonhard
-400300 # Patches #1
-400301 # Patches #2
-400170 # Hawkwood the Deserter
-400171 # Hawkwood the Deserter
-
-400120 # Firekeeper
-400200 # Andre
-400210 # Shrine Handmaid
-400211 # Shrine Handmaid (Untended Graves)
-
+400150 Yoel
+400130 Ludleth #1
+400131 Ludleth #2 (ashes)
+400390 Crows
+400500 Nestling
+400260 Irina of Carim #1
+400261 Irina of Carim #2
+400262 Irina of Carim #3
+400270 Eygon of Carim #1
+400271 Eygon of Carim #2
+400180 Siris of the Sunless Realms
+400290 Anri of Astora #1
+400295 Anri of Astora #2
+400360 Horace the Hushed
+400240 Cornyx of the Great Swamp
+400220 Greirat of the Undead Settlement
+400250 Karla
+400230 Orbeck of Vinheim
+400140 Yuria of Londor
+400190 Ringfinger Leonhard
+400300 Patches #1
+400301 Patches #2
+400170 Hawkwood the Deserter
+400171 Hawkwood the Deserter
+400120 Firekeeper
+400200 Andre
+400210 Shrine Handmaid
+400211 Shrine Handmaid (Untended Graves)
 370020 Archdeacon McDonnell
 370160 Company Captain Yorshka
 330020 Old Watchdog
@@ -74,29 +45,264 @@ SubtractAcquittalCostFromPlayerSouls(z7, z8)
 510021 Purging Monument
 
 #------------------------------------
-# Gesture
+# Condition Reference
 #------------------------------------
-# String: 99000960
-AcquireGesture(25) #  Index
-OpenItemAcquisitionMenu(3, 9025, 1) # Item prompt
-        
-Index:
- 25 - Collapse
- 26 - 
+-- GetDistanceToPlayer()
+
+-- HasTalkEnded()
+
+-- CheckSelfDeath()
+
+-- IsPlayerTalkingToMe()
+
+-- IsAttackedBySomeone()
+
+-- GetSelfHP()
+
+-- GetRelativeAngleBetweenPlayerAndSelf()
+
+-- IsPlayerAttacking()
+
+-- GetShopCondition()
+
+-- GetOneLineHelpStatus() # Check if client player
+
+-- IsClientPlayer() # Check if client player
+
+-- IsGenericDialogOpen()
+
+-- GetGenericDialogButtonResult() 
+
+-- GetTalkListEntryResult() # Get talk option result
+
+-- IsCharacterDisabled()
+
+-- IsPlayerDead()
+
+-- IsTalkingToSomeoneElse()
+
+-- HasDisableTalkPeriodElapsed()
+
+-- GetPlayerYDistance()
+
+-- HasPlayerBeenAttacked()
+
+-- GetPlayerChrType()
+
+-- WasWarpMenuDestinationSelected()
+
+-- IsMultiplayerInProgress()
+
+-- GetValueFromNumberSelectDialog()
+
+-- GetCurrentStateElapsedFrames()
+
+-- GetCurrentStateElapsedTime()
+
+-- GetWorkValue( <unk> ) # Covenant level?
+
+-- GetEventStatus( <flag> ) # Check event flag
+
+-- GetItemHeldNumLimit( <item type>, <item ID>, <value> )
+-- IsEquipmentIDEquipped( <item type>, <item ID> ) # Check if item is equipped
+-- IsEquipmentIDObtained( <item type>, <item ID> ) # Check if item is obtained
+    0:Weapon
+    1:Protector
+    2:Accessory
+    3:Goods
+    
+-- ComparePlayerInventoryNumber( <item type>, <item ID, <compare type>, <value>, <count storage?> )
+    0: ==
+    1: !=
+    2: >
+    3: <
+    4: >=
+    5: <=
+    
+-- IsMenuOpen( <menu ID> )
+-- DidYouDoSomethingInTheMenu( <menu ID> )
+    11: Talk Menu
+    12: Repair Menu
+    13: Reinforcement Menu
+    23: Level Up Menu
+    25: Attunement Menu
+    26: Storage Menu
+    30: Character Edit Menu
+    31: Covenant Material Menu
+    36: Warp Menu
+    63: Bonfire Menu
+    
+-- CompareBonfireState( <state> )
+    0:
+    1:
+    
+-- CompareBonfireLevel( <unk>, <unk> )
+    0:
+    2:
+    5:
+    
+-- ComparePlayerStatus( <stat>, <compare type>, <value> )
+    0: ==
+    1: !=
+    2: >
+    3: <
+    4: >=
+    5: <=
+    
+-- GetPlayerStatus( <stat> )
+-- GetStatus( <stat> )
+    0: Vitality
+    1: Attunement
+    2: Endurance
+    3: Strength
+    4: Dexterity
+    5: Magic
+    6: Faith
+    7: Luck
+    8: Soul
+    9: Total Get Soul
+    10: Humanity
+    11: Covenant Type
+    12: Gender
+    13: Unk1
+    14: Unk2
+    15: Equipped Covenant Points
+    16: Equipped Covenant Points - Covenant Level 
+    17: Blade Of Darkmoon Points
+    18: Warrior of Sunlight Points
+    19: Mound-makers Points
+    20: Spears of the Church Points
+    21: Rosaria's Fingers Points
+    22: Watchdogs of Farron Points
+    23: Aldrich Faithful Points
+    24: Blade Of Darkmoon Points - Covenant Level
+    25: Warrior of Sunlight Points - Covenant Level
+    26: Mound-makers Points - Covenant Level
+    27: Spears of the Church Points - Covenant Level
+    28: Rosaria's Fingers Points - Covenant Level
+    29: Watchdogs of Farron Points - Covenant Level
+    30: Aldrich Faithful Points - Covenant Level
+    31: Hollowing Level (Yoel)
+    32: Hollowing Level - Covenant Level
+    33: Soul Level
+    34: Free Yoel Level Ups Remaining
+    35: Way of Blue Points
+    36: Way of Blue Points - Covenant Level
+    37: Blue Sentinels Points
+    38: Blue Sentinels Points - Covenant Level
+   
+-- GetEstusAllocation (c109)
+    0: HP Estus
+    1: FP Estus
+
+-- ComparePlayerAcquittalPrice( <price>, <unk>, <unk> )
+    
+-- CompareRNGValue( <unk>, <unk> )
+    
+-- CheckActionButtonArea( <action ID> )
+
+-- CheckSpecificPersonTalkHasEnded( <unk> )
+
+-- CheckSpecificPersonGenericDialogIsOpen( <unk> )
+
+-- CheckSpecificPersonMenuIsOpen( <unk>, <unk> )
+
+-- DoesSelfHaveSpEffect( <SpEffect> )
+    
+-- DoesPlayerHaveSpEffect( <SpEffect> ) 
+
+-- GetEventFlagValue( <flag>, <value> )
+
+-- GetLevelUpSoulCost( <previous level>, <level> )
+
+-- GetWhetherEnemiesAreNearby()
+
+-- GetRelativeAngleBetweenSelfAndPlayer()
+
+-- IsTalkInProgress()
+
+-- GetDistanceFromEnemy()
+
+-- GetTalkInterruptReason()
+
+-- IsFightingAlone()
+
+-- IsCampMenuOpen()
+
+-- IsMoviePlaying()
+
+-- IsPlayerMovingACertainDistance()
+
+-- CanIGoToNextTalkBlock()
+
+-- CompareParentBonfire()
+
+-- BonfireRegistration0()
+
+-- BonfireRegistration1()
+
+-- BonfireRegistration2()
+
+-- BonfireRegistration3()
+
+-- BonfireRegistration4()
+
+-- RelativeAngleBetweenTwoPlayers_SpecifyAxis()
+
+-- IsPlayerCurrentWeaponDamaged()
+
+-- IsTalkExclusiveMenuOpen()
+
+-- IsRankingMenuOpen()
+
+-- GetPlayerRemainingHP()
+
+-- GetWhetherChrTurnAnimHasEnded()
+
+-- GetWhetherChrEventAnimHasEnded()
 
 #------------------------------------
-# ShopLineup Ranges
+# Effect Reference
 #------------------------------------
-ShopLineup Ranges are defined in the .esd file for the relevant characters with this line: OpenRegularShop(130100, 139999);
- 
-Orbeck # 130100, 139999
+* are optional parameters.
+
+-- TalkToPlayer( <talk id>, <unk>, <unk>, *<flag> )
+
+-- InvokeEvent()
+
+-- StopAttacking()
+
+-- Attack() 
+
+-- RemoveMyAggro()
+
+-- DisplayOneLineHelp( <text id> ) # Action prompt
+
+-- TurnToFacePlayer()
+
+-- ForceEndTalk( <unk> )
+
+-- ClearTalkProgressData()
+
+-- ShowShopMessage( <type>, *<unk>, *<unk>)
+    0:Talk Options (old)
+    1:Talk Options
+
+-- CloseShopMessage()
+
+-- SetEventState( <event flag>, <bool> )
+
+-- OpenCampMenu()
+
+-- CloseCampMenu()
+
+-- c1111( <start id>, <end id> )   # Transposition Menu
+
+-- OpenHollowLevelUpMenu()         # Open Free level menu
 
 #------------------------------------
-# Reference
+# Misc Reference
 #------------------------------------
---DARK SOULS 3--
-
-COMMAND FUNCTIONS:
 108:EstusAllocationUpdate
 109:BonfireActivation
 110:FirelinkBonfireMenuFlag
@@ -105,56 +311,8 @@ COMMAND FUNCTIONS:
 113:ReallocateAttributes
 114:UndeadMatch
 
-
-BYTECODE FUNCTIONS:
-
----ENUM FOR GetStatus---
-   0:Vitality
-   1:Attunement
-   2:Endurance
-   3:Strength
-   4:Dexterity
-   5:Magic
-   6:Faith
-   7:Luck
-   8:Soul
-   9:TotalGetSoul
-   10:Humanity
-   11:VowType(CovenantType)
-   12:Gender
-   13:Unk1
-   14:Unk2
-   15:EquipedCovenantPoints
-   16:EquipedCovenantPoints_CalculateLevel
-   17:Blade Of Darkmoon Points
-   18:Warrior of Sunlight Points
-   19:Mound-makers Points
-   20:Spears of the Church Points
-   21:Rosaria's Fingers Points
-   22:Watchdogs of Farron Points
-   23:Aldrich Faithful Points
-   24:Blade Of Darkmoon Points_CalculateLevel
-   25:Warrior of Sunlight Points_CalculateLevel
-   26:Mound-makers Points_CalculateLevel
-   27:Spears of the Church Points_CalculateLevel
-   28:Rosaria's Fingers Points_CalculateLevel
-   29:Watchdogs of Farron Points_CalculateLevel
-   30:Aldrich Faithful Points_CalculateLevel
-   31:deceasedLvl(YoelLvl)
-   32:deceaseLvl_CheckHollowPoints?
-   33:SoulLvl
-   34:FreeLvlUpRemain
-   35:Way of Blue Points
-   36:Way of Blue Points_CalculateLevel
-   37:Blue Sentinels Points
-   38:Blue Sentinels Points_CalculateLevel
-   
-109:GetEstusAllocation
-
-  ---ENUM FOR BYTECODE_109---
-   0:HpEstus
-   1:MpEstus
-   
-110:GetTotalBonfireLevel
-111:GetIsOnline
-112:GetIsNetPenalized_ForArena
+c1108( f109(0) + 1, 0 ) # Likely "Increase Estus Flask Count"
+f109(0) # Likely "Get Estus Flask Count"
+SetAquittalCostMessageTag(z7, z8)
+ComparePlayerAcquittalPrice(z7, z8, 2) == 1
+SubtractAcquittalCostFromPlayerSouls(z7, z8)
