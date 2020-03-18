@@ -33,9 +33,11 @@
 # Reinforcement
 - Adjusted weapon reinforcement multipliers. The damage curve is now shallower, meaning you start with more damage and end at the same max as before.
 - Adjusted infusion balance: Lethal/Sharp/Blunt are now the best (with 99 stats). The elemental infusions however are better than them early on, falling off over time.
+- Effectiveness of scaling is linear (i.e. each level in a stat invested returns the same amount). Since weapons start with much better scaling and higher base damage, this doesn't impact initial damage too much, but makes the midgame damage gain less of a jump, whilst retaining the high damage as a possibility, but with the suitable investment required. (TLDR: softcaps dead)
 
 # Weapons
 - Reduced the stamina damage and increased the stamina cost of the Penetrating Sword.
+- Adjusted the stat requirements for the catalysts.
 
 # Map
 - You now start in the bottom of the Bell Tower. 
