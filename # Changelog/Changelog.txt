@@ -31,6 +31,9 @@
 # Changelog
 #------------------------------
 
+# Armor
+- Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
+- Increased the Poison/Frost inflicted by the armor auras to account for this. Curse has been left as is since it is the strongest one.
 
 #------------------------------
 # TODO

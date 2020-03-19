@@ -91,7 +91,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Recovery: [1, 2, 1, 2]
 
 # Gloom Set
-- Frost Aura: [10, 20, 5, 15]
+- Frost Aura: [20, 40, 10, 30]
 
 # Ruin Set
 - Endurance: [1, 2, 1, 2]
@@ -147,7 +147,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - FP Absorb on Kill: [16]
 
 # Corvian Knight Helmet
-- Poison Aura: [10]
+- Poison Aura: [20]
 
 # Eastern Armor Set
 - Weapon Stamina Consumption: [0.984, 0.968, 0.992, 0.976]
@@ -170,7 +170,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Wolf Knight Set
 - Stamina Recovery: [2, 3, 1, 2]
 
-# Ancient King
+# Ancient King Set
 - Curse Aura: [10, 20, 5, 15]
 
 #----------------------------
@@ -214,7 +214,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - [Body] Effect: reduces backstab damage by 90%
 
 # Outrider Knight Armor Set
-- Frost Aura: [10, 20, 5, 15]
+- Frost Aura: [20, 40, 10, 30]
 
 # Dark Set
 - Curse Aura: [10, 20, 5, 15]
@@ -277,7 +277,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
 
 # Frigid Valley Mask
-- Frost Aura: [10]
+- Frost Aura: [20]
 
 # Evangelist Set
 - Faith: [2, 4, 1, 3]
