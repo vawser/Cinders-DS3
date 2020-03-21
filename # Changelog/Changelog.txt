@@ -35,6 +35,19 @@
 - Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
 - Increased the Poison/Frost inflicted by the armor auras to account for this. Curse has been left as is since it is the strongest one.
 
+# Shops
+- The memory shop is now reset properly when you enter NG+.
+- You can now purchase a boss's memories whilst a boss has been respawned.
+- Yoel now sells the Dark Hand.
+
+# Enemies
+- The Undead Settlement Black Knights are now hostile to other enemies.
+
+# Bugfixes
+- Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
+- Livid Pyromancer Dunnel now spawns properly (His CharInit was accidently deleted before).
+- Greatsword and Greatshield of Artorias now actually transposed from the Triad soul.
+
 #------------------------------
 # TODO
 #------------------------------

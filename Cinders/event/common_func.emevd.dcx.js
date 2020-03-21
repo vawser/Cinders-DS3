@@ -4098,7 +4098,7 @@ Event(20005941, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// NPC - Check Hostility
+// NPC - Set Hosility Flags
 Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -4189,7 +4189,7 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - Check Death
+// NPC - Set Flags on Death
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
@@ -4734,41 +4734,6 @@ Event(20009110, Restart, function(X0_4) {
     DeactivateGenerator(X0_4, Enabled);
 });
 
-// Petrified Giant - Advance Journey
-Event(20009200, Default, function(X0_4, X4_4) {
-    IfMapCeremonyState(MAIN, Enabled, 40, 0, 0);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
-    RotateCharacter(10000, X0_4, 91040, false);
-    WaitFixedTimeSeconds(3);
-    SetEventFlag(74000012, ON);
-    SetEventFlag(14005617, OFF);
-    RemoveItemFromPlayer(ItemType.Goods, 5000, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5001, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5002, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5003, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5004, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5005, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5006, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5007, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5008, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5009, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5010, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5011, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5012, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5013, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5014, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5015, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5016, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5017, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5018, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5019, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5020, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5021, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5022, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5024, 99);
-});
-
 // NPC Kill Emote
 Event(20009201, Default, function(X0_4, X4_4) {
     EndIfNumberOfCoopClients(EventEndType.End, ComparisonType.GreaterOrEqual, 1);
@@ -4776,6 +4741,16 @@ Event(20009201, Default, function(X0_4, X4_4) {
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
     WaitFixedTimeSeconds(5);
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
+});
+
+// Petrified Giant - Advance Journey
+Event(20009210, Default, function(X0_4) {
+    IfMapCeremonyState(MAIN, Enabled, 40, 0, 0);
+    IfActionButtonInArea(MAIN, 20004, X0_4);
+    RotateCharacter(10000, X0_4, 91040, false);
+    WaitFixedTimeSeconds(3);
+    SetEventFlag(74000012, ON);
+    SetEventFlag(14005617, OFF);
 });
 
 // Setup Game Flags
@@ -4798,7 +4773,7 @@ Event(20009300, Restart, function() {
     SetEventFlag(13000000, ON);
     
     // Deathless Boss Kill Flags
-    SetEventFlag(25000020, OFF); // Iudex Gundyr
+    SetEventFlag(25000020, OFF); // Corrupted Gundyr
     SetEventFlag(25000021, OFF); // Vordt of the Boreal Valley
     SetEventFlag(25000022, OFF); // Curse-rotted Greatwood
     SetEventFlag(25000023, OFF); // Crystal Sage
@@ -4818,161 +4793,238 @@ Event(20009300, Restart, function() {
     SetEventFlag(25000037, OFF); // Twin Princes
     SetEventFlag(25000038, OFF); // Soul of Cinder
     SetEventFlag(25000039, OFF); // Sister Friede
-    SetEventFlag(25000040, OFF); // Gravetender's Champion
+    SetEventFlag(25000040, OFF); // The Triad
     SetEventFlag(25000041, OFF); // Demon Prince
     SetEventFlag(25000042, OFF); // Darkeater Midir 
     SetEventFlag(25000043, OFF); // Slave Knight Gael
     SetEventFlag(25000044, OFF); // Halflight
 
+    // Shop Flags
+    SetEventFlag(25001001, OFF); // Corrupted Gundyr
+    SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
+    SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
+    SetEventFlag(25001004, OFF); // Crystal Sage
+    SetEventFlag(25001005, OFF); // Deacons of the Deep
+    SetEventFlag(25001006, OFF); // Abyss Watchers
+    SetEventFlag(25001007, OFF); // High Lord Wolnir
+    SetEventFlag(25001008, OFF); // Old Demon King
+    SetEventFlag(25001009, OFF); // Pontiff Sulyvahn
+    SetEventFlag(25001010, OFF); // Aldrich, Devourer of Gods
+    SetEventFlag(25001011, OFF); // Yhorm the Giant
+    SetEventFlag(25001012, OFF); // Dancer of the Boreal Valley
+    SetEventFlag(25001013, OFF); // Oceiros, the Consumed King
+    SetEventFlag(25001014, OFF); // Dragonslayer Armour
+    SetEventFlag(25001015, OFF); // Ancient Wyvern
+    SetEventFlag(25001016, OFF); // Nameless King
+    SetEventFlag(25001017, OFF); // Champion Gundyr
+    SetEventFlag(25001018, OFF); // Twin Princes
+    SetEventFlag(25001019, OFF); // Soul of Cinder
+    SetEventFlag(25001020, OFF); // Sister Friede
+    SetEventFlag(25001021, OFF); // The Triad
+    SetEventFlag(25001022, OFF); // Demon Prince
+    SetEventFlag(25001023, OFF); // Darkeater Midir 
+    SetEventFlag(25001024, OFF); // Slave Knight Gael
+    SetEventFlag(25001025, OFF); // Halflight
+    
     SetEventFlag(25000099, ON); // Execution flag
 });
 
 // Iudex Gundyr
 Event(20020000, Restart, function() {
+    SetEventFlag(25001001, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000020, ON);
 });
 
 // Vordt of the Boreal Valley
 Event(20020001, Restart, function() {
+    SetEventFlag(25001002, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000021, ON);
 });
 
 // Curse-rotted Greatwood
 Event(20020002, Restart, function() {
+    SetEventFlag(25001003, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000022, ON);
 });
 
 // Crystal Sage
 Event(20020003, Restart, function() {
+    SetEventFlag(25001004, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000023, ON);
 });
 
 // Deacons of the Deep
 Event(20020004, Restart, function() {
+    SetEventFlag(25001005, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000024, ON);
 });
 
 // Abyss Watchers
 Event(20020005, Restart, function() {
+    SetEventFlag(25001006, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000025, ON);
 });
 
 // High Lord Wolnir
 Event(20020006, Restart, function() {
+    SetEventFlag(25001007, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000026, ON);
 });
 
 // Old Demon King
 Event(20020007, Restart, function() {
+    SetEventFlag(25001008, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000027, ON);
 });
 
 // Pontiff Sulyvahn
 Event(20020008, Restart, function() {
+    SetEventFlag(25001009, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000028, ON);
 });
 
 // Aldrich, Devourer of Gods
 Event(20020009, Restart, function() {
+    SetEventFlag(25001010, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000029, ON);
 });
 
 // Yhorm the Giant
 Event(20020010, Restart, function() {
+    SetEventFlag(25001011, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000030, ON);
 });
 
 // Dancer of the Boreal Valley
 Event(20020011, Restart, function() {
+    SetEventFlag(25001012, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000031, ON);
 });
 
 // Oceiros, the Consumed King
 Event(20020012, Restart, function() {
+    SetEventFlag(25001013, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000032, ON);
 });
 
 // Dragonslayer Armour
 Event(20020013, Restart, function() {
+    SetEventFlag(25001014, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000033, ON);
 });
 
 // Ancient Wyvern
 Event(20020014, Restart, function() {
+    SetEventFlag(25001015, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000034, ON);
 });
 
 // Nameless King
 Event(20020015, Restart, function() {
+    SetEventFlag(25001016, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000035, ON);
 });
 
 // Champion Gundyr
 Event(20020016, Restart, function() {
+    SetEventFlag(25001017, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000036, ON);
 });
 
 // Twin Princes
 Event(20020017, Restart, function() {
+    SetEventFlag(25001018, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000037, ON);
 });
 
 // Soul of Cinder
 Event(20020018, Restart, function() {
+    SetEventFlag(25001019, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000038, ON);
 });
 
 // Sister Friede
 Event(20020019, Restart, function() {
+    SetEventFlag(25001020, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000039, ON);
 });
 
 // The Triad
 Event(20020020, Restart, function() {
+    SetEventFlag(25001021, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000040, ON);
 });
 
 // Demon Prince
 Event(20020021, Restart, function() {
+    SetEventFlag(25001022, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000041, ON);
 });
 
 // Darkeater Midir 
 Event(20020022, Restart, function() {
+    SetEventFlag(25001023, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000042, ON);
 });
 
 // Slave Knight Gael
 Event(20020023, Restart, function() {
+    SetEventFlag(25001024, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000043, ON);
 });
 
 // Halflight
 Event(20020024, Restart, function() {
+    SetEventFlag(25001025, ON);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000044, ON);
 });
