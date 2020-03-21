@@ -30,10 +30,25 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
 
 # Armor
 - Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
 - Increased the Poison/Frost inflicted by the armor auras to account for this. Curse has been left as is since it is the strongest one.
+
+# Rings
+- Reduced the curse build-up on self from the Cursed Ring of Vengeance to 3 per tick.
+- Reduced the curse build-up on self from the Cursed Ring of Confusion to 5 per tick.
+- Reduced the curse build-up on self from the Cursed Ring of Evasion to 4 per tick.
+- Reduced the curse build-up on self from the Cursed Ring of Deflection to 15 per tick.
+
+# Spells
+- Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
+- Changed Heavenly Thunder to be a lightning version of Angelic Barrage, but stronger and less frequent.
+- Added Pulsating Blade miracle: adds Bleed inflict to weapon. Transposed from Deacon soul.
+- Added Pungent Blade pyromancy: adds Poison inflict to weapon. Transposed from Greatwood soul.
+- Added Black Flame Arc pyromancy: adds Dark damage to weapon. Transposes from Friede's soul.
 
 # Shops
 - The memory shop is now reset properly when you enter NG+.
@@ -42,6 +57,7 @@
 
 # Enemies
 - The Undead Settlement Black Knights are now hostile to other enemies.
+- Pilgrim Angel's Holy Barrage now shoots at a much higher interval. The random angle has been removed and the damage has been changed to Physical.
 
 # Bugfixes
 - Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).

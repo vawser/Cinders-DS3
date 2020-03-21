@@ -689,16 +689,16 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 80
-- Lightning Damage: 800
-- FTH Req: 50
+- Lightning Damage: 300 (per bullet)
+- FTH Req: 60
 - Ascended Effect: emits more bolts.
 
 #--------------------------------
 # Angelic Barrage
 #--------------------------------
-- FP Cost: 80
-- Physical Damage: 100 (per bullet)
-- FTH Req: 60
+- FP Cost: 60
+- Physical Damage: 80 (per bullet)
+- FTH Req: 50
 - Ascended Effect: emits more beams.
 
 #--------------------------------
@@ -1110,6 +1110,20 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 [400]
 - Ascended Effect: costs 30 FP.
 
+#--------------------------------
+# Black Flame Arc
+#--------------------------------
+- FP Cost: 50
+- Base Effect: adds 80 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Ascended Effect: increases stamina damage by 100%.
+
+#--------------------------------
+# Pungent Blade
+#--------------------------------
+- FP Cost: 30
+- Base Effect: Adds 50 Poison inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Poison inflict to 100.
+
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
 #--------------------------------------------------------------------------
@@ -1214,3 +1228,11 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FTH Req: 25
 - Ascended Effect: lasts for 60 seconds.
 
+#--------------------------------
+# Pulsating Blade
+#--------------------------------
+- FP Cost: 30
+- INT Req: 10
+- FTH Req: 30
+- Base Effect: Adds 50 Bleed inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Bleed inflict to 100.
