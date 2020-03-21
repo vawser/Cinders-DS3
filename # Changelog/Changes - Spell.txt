@@ -245,8 +245,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 30
 - INT Req: 20
-- Base Effect: Adds 50 Frost inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Frost inflict to 100.
+- Base Effect: Adds 40 Frost inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Frost inflict to 80.
 
 #--------------------------------
 # Magic Shield
@@ -907,8 +907,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 - FP Cost: 10
 - Dark Damage: 150
-- Base Effect: inflicts 15 Curse.
-- Ascended Effect: inflicts 30 Curse.
+- Base Effect: inflicts 10 Curse.
+- Ascended Effect: inflicts 20 Curse.
 
 #--------------------------------
 # Dark Edge
@@ -926,8 +926,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 200 
 - INT Req: 12
 - FTH Req: 8
-- Base Effect: inflicts 25 Curse.
-- Ascended Effect: inflicts 50 Curse.
+- Base Effect: inflicts 30 Curse.
+- Ascended Effect: inflicts 60 Curse.
 
 #--------------------------------
 # Great Deep Soul
@@ -936,8 +936,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 
 - INT Req: 16
 - FTH Req: 10
-- Base Effect: inflicts 45 Curse.
-- Ascended Effect: inflicts 90 Curse.
+- Base Effect: inflicts 50 Curse.
+- Ascended Effect: inflicts 100 Curse.
 
 #--------------------------------
 # Climax
@@ -955,8 +955,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 900 
 - INT Req: 40
 - FTH Req: 10
-- Base Effect: inflicts 80 Curse.
-- Ascended Effect: inflicts 160 Curse.
+- Base Effect: inflicts 75 Curse.
+- Ascended Effect: inflicts 150 Curse.
 
 #--------------------------------
 # Abyssal Edge
@@ -1002,8 +1002,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 300 [600] 
 - INT Req: 24
 - FTH Req: 8
-- Base Effect: inflicts 80 Curse.
-- Ascended Effect: inflicts 160 Curse.
+- Base Effect: inflicts 75 Curse.
+- Ascended Effect: inflicts 150 Curse.
 
 #--------------------------------
 # Dark Bead
@@ -1012,7 +1012,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 150 per bullet 
 - INT Req: 30
 - FTH Req: 10
-- Ascended Effect: inflicts 20 Curse per bullet.
+- Ascended Effect: inflicts 10 Curse per bullet.
 
 #--------------------------------
 # Cascading Deep
@@ -1031,8 +1031,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 (per bullet)
 - INT Req: 16
 - FTH Req: 8
-- Base Effect: inflicts 15 Curse.
-- Ascended Effect: inflicts 30 Curse.
+- Base Effect: inflicts 10 Curse.
+- Ascended Effect: inflicts 20 Curse.
 
 #--------------------------------
 # Dreg Torrent
@@ -1121,8 +1121,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Pungent Blade
 #--------------------------------
 - FP Cost: 30
-- Base Effect: Adds 50 Poison inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Poison inflict to 100.
+- Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Poison inflict to 80.
 
 #--------------------------------------------------------------------------
 # Dark Miracles - Offensive
@@ -1172,7 +1172,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - Dark Damage: 100 (per bullet)
 - INT Req: 10
 - FTH Req: 40
-- Base Effect: inflicts 20 Bleed
+- Base Effect: inflicts 10 Bleed
 - Ascended Effect: emits more projectiles.
 
 #--------------------------------
@@ -1234,5 +1234,5 @@ Deep Braille Divine Tome - Cathedral of the Deep
 - FP Cost: 30
 - INT Req: 10
 - FTH Req: 30
-- Base Effect: Adds 50 Bleed inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Bleed inflict to 100.
+- Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Bleed inflict to 60.
