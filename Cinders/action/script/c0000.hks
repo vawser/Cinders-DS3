@@ -1451,9 +1451,6 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local atk_hand = HAND_RIGHT
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
-    local effect_backflip = env(1116, 112006)
-    local effect_jump = env(1116, 112007)
-    local effect_quickstep = env(1116, 112008)
     
     act(2006, 0)
     if env(271) == TRUE then
@@ -1515,16 +1512,21 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventAllBody("W_AttackRightHeavyKick")
         end
-        
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
+        local effect_backflip = env(1116, 112006)
+        local effect_jump = env(1116, 112007)
+        local effect_quickstep = env(1116, 112008)
+    
         if effect_backflip == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_BackStepSuperlight")
+            return FALSE
         elseif effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+            return FALSE
         elseif effect_quickstep == TRUE then
             AddStamina(-10)
             local angle = GetVariable("MoveAngle")
@@ -1559,18 +1561,25 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 SetVariable("CircleStepAngle", angle)
                 ExecEventAllBody("W_CircleStepStart")
             end
-        else
-           ExecEventAllBody(11)
+            return FALSE
         end
+        
+        ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
+        local effect_backflip = env(1116, 112006)
+        local effect_jump = env(1116, 112007)
+        local effect_quickstep = env(1116, 112008)
+    
         if effect_backflip == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_BackStepSuperlight")
+            return FALSE
         elseif effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+            return FALSE
         elseif effect_quickstep == TRUE then
             AddStamina(-10)
             local angle = GetVariable("MoveAngle")
@@ -1605,9 +1614,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 SetVariable("CircleStepAngle", angle)
                 ExecEventAllBody("W_CircleStepStart")
             end
-        else
-           ExecEventAllBody(12)
+            return FALSE
         end
+        
+        ExecEventAllBody(l2)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY_SP then
         atk_hand = HAND_LEFT
         if l2 == "W_AttackLeftHeavy2" then
