@@ -106,6 +106,9 @@ AI notification attack type - SetInterruptType (y is type index)
 ロックオン対象へ即座に旋回
 - Turn instantly to lock-on target
 
+4方向移動閾値設定
+- 4-way movement threshold setting
+
 110     -
 148     - SetVariable (y is name, z is value)
 1001    - AddStamina (y is Stamina value)

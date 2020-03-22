@@ -50,6 +50,7 @@
 - Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
 - Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
 - Added Ring of Acrobaics: lets you backflip easily, overrides guard and left light attack actions. Dropped by Holy Knight Morton.
+- Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the Grand Archives.
 
 # Spells
 - Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
@@ -80,3 +81,4 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
+30900

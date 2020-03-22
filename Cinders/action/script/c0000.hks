@@ -15156,6 +15156,9 @@ function SpeedUpdate()
         end
     elseif env(1116, 100220) == TRUE then
         stick_level = 2
+    elseif env(1116, 112009) == TRUE then -- Effect Dash
+        stick_level = 2
+        AddStamina(1)
     elseif env(1116, 100020) == TRUE then
         if 1.10000002384186 < stick_level then
             stick_level = 1
@@ -15163,6 +15166,7 @@ function SpeedUpdate()
     elseif GetVariable("MoveType") ~= 3 and 0.5 < stick_level then
         stick_level = 0.5
     end
+    
     if 1.10000002384186 < stick_level then
         if GetVariable("MoveType") == 3 then
             act("ロックオン中角度固定解除")
@@ -15173,11 +15177,14 @@ function SpeedUpdate()
     else
         SetVariable("MoveSpeedIndex", 0)
     end
+    
     local speed = GetMoveSpeed(stick_level)
     SetVariable("MoveSpeedLevelReal", speed)
+    
     if env(1001) <= 0 then
         act(2002, 100020)
     end
+    
     if env(1116, 100002) == TRUE then
         act(110)
         local dT = GetDeltaTime()
