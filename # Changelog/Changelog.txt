@@ -32,7 +32,8 @@
 #------------------------------
 # Weapons
 - Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
-- Burial Blade and Scythe now let you backflip when you press the guard button (instead of guarding.)
+- Burial Blade and Scythe now let you backflip when you press the guard or left light attack button (overrides these actions.)
+- Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -75,12 +76,15 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
+local weapon_backflip = env(1116, 112006)
+local weapon_jump = env(1116, 112007)
 
-local guard_backflip = env(1116, 112006)
-if guard_backflip == TRUE then
+if weapon_backflip == TRUE then
     AddStamina(-10)
     ExecEventAllBody("W_BackStepSuperlight")
-elseif guard_backflip == FALSE then
-    -- ExecEventHalfBlend(event, blend_type)
-    ExecEventAllBody("W_AsuraStep")
+elseif weapon_backflip == TRUE then
+    AddStamina(-10)
+    ExecEventAllBody("W_Jump")
+else
+    ExecEventHalfBlend(event, blend_type)
 end
