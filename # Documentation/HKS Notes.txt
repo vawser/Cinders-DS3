@@ -33,6 +33,9 @@ Event is normally once per, so SpEffects won't be refreshed until the action is 
 双剣か
 - Double sword
 
+弓矢スロット取得
+- Get Ammunition Slot
+
 1116    - Check SpEffect
 225     - Check Weapon Category (y is hand index)
 234     - Get Invalid Attack State?
@@ -41,7 +44,7 @@ Event is normally once per, so SpEffects won't be refreshed until the action is 
 305     - Get Gravity Type
 326     - Get Weapon Art ID (y is hand index)
 1106    - Get Attack Request (y is action arm index)
-1108    - Get Guard Request (y is action arm index)
+1108    - Get Hold Time (y is action arm index)
 1001    - Get Current Stamina
 1007    - 
 105     - 
@@ -109,6 +112,9 @@ AI notification attack type - SetInterruptType (y is type index)
 4方向移動閾値設定
 - 4-way movement threshold setting
 
+- 精密射撃可能か
+- Is precision shooting possible?
+
 110     -
 148     - SetVariable (y is name, z is value)
 1001    - AddStamina (y is Stamina value)
@@ -117,6 +123,7 @@ AI notification attack type - SetInterruptType (y is type index)
 9103    - SetAIActionState (y is bool)
 9101    -
 2011    - SetSwordArtsCancelType
+2001    - SetAngle?
 
 #------------------------
 # Variables

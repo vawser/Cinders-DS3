@@ -34,6 +34,7 @@
 - Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
 - Burial Blade and Scythe now let you backflip when you press the guard or left light attack button (overrides these actions.)
 - Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
+- Reduced the charge time for the Storm King WA.
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -49,10 +50,11 @@
 - Reduced the curse build-up on self from the Cursed Ring of Deflection to 15 per tick.
 - Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
 - Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
-- Added Ring of Acrobaics: lets you backflip easily, overrides guard and left light attack actions. Dropped by Holy Knight Morton.
-- Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the Grand Archives.
+- Added Ring of Acrobatics: lets you backflip easily, overrides guard and left light attack actions. Dropped by Holy Knight Morton.
+- Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the locked chest at the top of Firelink Shrine.
 
 # Spells
+- You can now hold many spells, let you choose when to fire them.
 - Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
 - Changed Heavenly Thunder to be a lightning version of Angelic Barrage, but stronger and less frequent.
 - Added Pulsating Blade miracle: adds Bleed inflict to weapon. Transposed from Deacon soul.
@@ -80,5 +82,13 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
+
+DamageCommonFunction
+
+Old Moonlight:
+528905 ffx
+528907 ffx
+20 poly (right)
+21 poly (left)
 
 30900
