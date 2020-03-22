@@ -47,6 +47,9 @@
 - Reduced the curse build-up on self from the Cursed Ring of Confusion to 5 per tick.
 - Reduced the curse build-up on self from the Cursed Ring of Evasion to 4 per tick.
 - Reduced the curse build-up on self from the Cursed Ring of Deflection to 15 per tick.
+- Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
+- Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
+- Added Ring of Acrobaics: lets you backflip easily, overrides guard and left light attack actions. Dropped by Holy Knight Morton.
 
 # Spells
 - Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
@@ -68,6 +71,7 @@
 - Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
 - Livid Pyromancer Dunnel now spawns properly (His CharInit was accidently deleted before).
 - Greatsword and Greatshield of Artorias now actually transposed from the Triad soul.
+- Fixed Quickstep causing damage on several weapon types.
 
 #------------------------------
 # TODO
@@ -76,15 +80,3 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-local weapon_backflip = env(1116, 112006)
-local weapon_jump = env(1116, 112007)
-
-if weapon_backflip == TRUE then
-    AddStamina(-10)
-    ExecEventAllBody("W_BackStepSuperlight")
-elseif weapon_backflip == TRUE then
-    AddStamina(-10)
-    ExecEventAllBody("W_Jump")
-else
-    ExecEventHalfBlend(event, blend_type)
-end

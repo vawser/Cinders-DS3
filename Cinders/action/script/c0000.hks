@@ -1299,17 +1299,52 @@ function ExecGuard(event, blend_type)
                 blend_type = UPPER
             end
             
-            local weapon_backflip = env(1116, 112006)
-            local weapon_jump = env(1116, 112007)
+            local effect_backflip = env(1116, 112006)
+            local effect_jump = env(1116, 112007)
+            local effect_quickstep = env(1116, 112008)
             
-            if weapon_backflip == TRUE then
+            if effect_backflip == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_BackStepSuperlight")
-            elseif weapon_jump == TRUE then
+            elseif effect_jump == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_Jump")
+            elseif effect_quickstep == TRUE then
+                AddStamina(-10)
+                local angle = GetVariable("MoveAngle")
+                local front, back, left, right = false
+                if 135 < math.abs(angle) then
+                    back = true
+                elseif 45 < angle then
+                    right = true
+                elseif angle < -45 then
+                    left = true
+                else
+                    front = true
+                end
+                SetVariable("EnableTAE_CircleStepFront", front)
+                SetVariable("EnableTAE_CircleStepBack", back)
+                SetVariable("EnableTAE_CircleStepLeft", left)
+                SetVariable("EnableTAE_CircleStepRight", right)
+                if IsNodeActive("CircleStepStart_Blend") == TRUE then
+                    if 0 <= angle then
+                        SetVariable("CircleStepDirectionSelftrans", 1)
+                    else
+                        SetVariable("CircleStepDirectionSelftrans", 0)
+                    end
+                    SetVariable("CircleStepAngleSelftrans", angle)
+                    ExecEventAllBody("W_CircleStepStartSelftrans")
+                else
+                    if 0 <= angle then
+                        SetVariable("CircleStepDirection", 1)
+                    else
+                        SetVariable("CircleStepDirection", 0)
+                    end
+                    SetVariable("CircleStepAngle", angle)
+                    ExecEventAllBody("W_CircleStepStart")
+                end
             else
-                ExecEventHalfBlend(event, blend_type)
+               ExecEventHalfBlend(event, blend_type)
             end
             
             return TRUE
@@ -1416,8 +1451,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local atk_hand = HAND_RIGHT
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
-    local weapon_backflip = env(1116, 112006)
-    local weapon_jump = env(1116, 112007)
+    local effect_backflip = env(1116, 112006)
+    local effect_jump = env(1116, 112007)
+    local effect_quickstep = env(1116, 112008)
     
     act(2006, 0)
     if env(271) == TRUE then
@@ -1483,26 +1519,94 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
-        if weapon_backflip == TRUE then
+        if effect_backflip == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_BackStepSuperlight")
-        elseif weapon_jump == TRUE then
+        elseif effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+        elseif effect_quickstep == TRUE then
+            AddStamina(-10)
+            local angle = GetVariable("MoveAngle")
+            local front, back, left, right = false
+            if 135 < math.abs(angle) then
+                back = true
+            elseif 45 < angle then
+                right = true
+            elseif angle < -45 then
+                left = true
+            else
+                front = true
+            end
+            SetVariable("EnableTAE_CircleStepFront", front)
+            SetVariable("EnableTAE_CircleStepBack", back)
+            SetVariable("EnableTAE_CircleStepLeft", left)
+            SetVariable("EnableTAE_CircleStepRight", right)
+            if IsNodeActive("CircleStepStart_Blend") == TRUE then
+                if 0 <= angle then
+                    SetVariable("CircleStepDirectionSelftrans", 1)
+                else
+                    SetVariable("CircleStepDirectionSelftrans", 0)
+                end
+                SetVariable("CircleStepAngleSelftrans", angle)
+                ExecEventAllBody("W_CircleStepStartSelftrans")
+            else
+                if 0 <= angle then
+                    SetVariable("CircleStepDirection", 1)
+                else
+                    SetVariable("CircleStepDirection", 0)
+                end
+                SetVariable("CircleStepAngle", angle)
+                ExecEventAllBody("W_CircleStepStart")
+            end
         else
-            ExecEventAllBody(11)
+           ExecEventAllBody(11)
         end
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
-        if weapon_backflip == TRUE then
+        if effect_backflip == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_BackStepSuperlight")
-        elseif weapon_jump == TRUE then
+        elseif effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+        elseif effect_quickstep == TRUE then
+            AddStamina(-10)
+            local angle = GetVariable("MoveAngle")
+            local front, back, left, right = false
+            if 135 < math.abs(angle) then
+                back = true
+            elseif 45 < angle then
+                right = true
+            elseif angle < -45 then
+                left = true
+            else
+                front = true
+            end
+            SetVariable("EnableTAE_CircleStepFront", front)
+            SetVariable("EnableTAE_CircleStepBack", back)
+            SetVariable("EnableTAE_CircleStepLeft", left)
+            SetVariable("EnableTAE_CircleStepRight", right)
+            if IsNodeActive("CircleStepStart_Blend") == TRUE then
+                if 0 <= angle then
+                    SetVariable("CircleStepDirectionSelftrans", 1)
+                else
+                    SetVariable("CircleStepDirectionSelftrans", 0)
+                end
+                SetVariable("CircleStepAngleSelftrans", angle)
+                ExecEventAllBody("W_CircleStepStartSelftrans")
+            else
+                if 0 <= angle then
+                    SetVariable("CircleStepDirection", 1)
+                else
+                    SetVariable("CircleStepDirection", 0)
+                end
+                SetVariable("CircleStepAngle", angle)
+                ExecEventAllBody("W_CircleStepStart")
+            end
         else
-            ExecEventAllBody(12)
+           ExecEventAllBody(12)
         end
     elseif request == ATTACK_REQUEST_LEFT_HEAVY_SP then
         atk_hand = HAND_LEFT
