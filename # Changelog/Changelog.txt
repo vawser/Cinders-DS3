@@ -32,6 +32,7 @@
 #------------------------------
 # Weapons
 - Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
+- Burial Blade and Scythe now let you backflip when you press the guard button (instead of guarding.)
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.

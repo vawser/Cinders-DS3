@@ -1293,7 +1293,16 @@ function ExecGuard(event, blend_type)
             if blend_type == ALLBODY and MoveStart(LOWER, Event_MoveLong, FALSE) == TRUE then
                 blend_type = UPPER
             end
-            ExecEventHalfBlend(event, blend_type)
+            
+            -- Guard Backflip
+            local guard_backflip = env(1116, 112006)
+            if guard_backflip == TRUE then
+                AddStamina(-10)
+                ExecEventAllBody("W_BackStepSuperlight")
+            elseif guard_backflip == FALSE then
+                ExecEventHalfBlend(event, blend_type)
+            end
+            
             return TRUE
         end
     end

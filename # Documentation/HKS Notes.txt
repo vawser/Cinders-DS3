@@ -1,4 +1,9 @@
 ﻿#------------------------
+# Notes
+#------------------------
+Event is normally once per, so SpEffects won't be refreshed until the action is done again.
+
+#------------------------
 # env( x, y )
 #------------------------
 装備武器特殊カテゴリ番号取得 
@@ -137,4 +142,13 @@ MoveAngle
 #------------------------
 # IsNodeActive( x )
 #------------------------
+
+#------------------------
+# Quick Commands
+#------------------------
+ExecEventAllBody( <anim name> ) # Play anim
+env(1116, <speffect> ) # Check SpEffect
+act(2002, <speffect>) # Add SpEffect
+AddStamina( <amount> )
+
 
