@@ -75,3 +75,12 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
+
+local guard_backflip = env(1116, 112006)
+if guard_backflip == TRUE then
+    AddStamina(-10)
+    ExecEventAllBody("W_BackStepSuperlight")
+elseif guard_backflip == FALSE then
+    -- ExecEventHalfBlend(event, blend_type)
+    ExecEventAllBody("W_AsuraStep")
+end

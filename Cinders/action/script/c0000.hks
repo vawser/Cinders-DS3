@@ -330,6 +330,7 @@ function GetWeightIndex(is_move)
         move_weight = MOVE_WEIGHT_HEAVY
     end
     
+    -- Carthus Bloodring Effect
     if env(1116, 112000) == TRUE then
         if evasion_weight == EVASION_WEIGHT_INDEX_OVERWEIGHT then
             evasion_weight = EVASION_WEIGHT_INDEX_HEAVY
@@ -780,24 +781,28 @@ function SetEvasionStaminaCost()
         c_StaminaCostJump = -25
     end
     
+    -- Carthus Bloodring Effect
     if env(1116, 112000) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 3
         c_StaminaCostBackStep = c_StaminaCostBackStep * 3
         c_StaminaCostJump = c_StaminaCostJump * 3
     end
     
+    -- Greatwood Remnants Effect
     if env(1116, 112002) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 1.5
         c_StaminaCostBackStep = c_StaminaCostBackStep * 1.5
         c_StaminaCostJump = c_StaminaCostJump * 1.5
     end
     
+    -- Carthus Milkring Effect
     if env(1116, 112001) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 0.9
         c_StaminaCostBackStep = c_StaminaCostBackStep * 0.9
         c_StaminaCostJump = c_StaminaCostJump * 0.9
     end
     
+    -- Cursed Ring of Evasion Effect
     if env(1116, 112003) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 0.75
         c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
@@ -1294,6 +1299,7 @@ function ExecGuard(event, blend_type)
                 blend_type = UPPER
             end
             
+            
             -- Guard Backflip
             local guard_backflip = env(1116, 112006)
             if guard_backflip == TRUE then
@@ -1471,11 +1477,23 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
-        ExecEventAllBody(l1)
+        local guard_backflip = env(1116, 112006)
+        if guard_backflip == TRUE then
+            AddStamina(-10)
+            ExecEventAllBody("W_BackStepSuperlight")
+        elseif guard_backflip == FALSE then
+            ExecEventAllBody(11)
+        end
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
-        ExecEventAllBody(l2)
+        local guard_backflip = env(1116, 112006)
+        if guard_backflip == TRUE then
+            AddStamina(-10)
+            ExecEventAllBody("W_BackStepSuperlight")
+        elseif guard_backflip == FALSE then
+            ExecEventAllBody(l2)
+        end
     elseif request == ATTACK_REQUEST_LEFT_HEAVY_SP then
         atk_hand = HAND_LEFT
         if l2 == "W_AttackLeftHeavy2" then
@@ -2398,8 +2416,9 @@ function ExecMagic(quick_type, blend_type)
         return TRUE
     end
 
+    -- Insanity Catalyst - WA Effect
     if env(1116, 112004) == TRUE then
-        act(2002, 112005)
+        act(2002, 112005) -- Apply HP loss on cast
     end
     
     if env(116) == TRUE then
