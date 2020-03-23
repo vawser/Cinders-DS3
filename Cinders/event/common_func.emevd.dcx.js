@@ -4749,8 +4749,61 @@ Event(20009210, Default, function(X0_4) {
     IfActionButtonInArea(MAIN, 20004, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     WaitFixedTimeSeconds(3);
+    
     SetEventFlag(74000012, ON);
     SetEventFlag(14005617, OFF);
+    
+    // Dreams
+    RemoveItemFromPlayer(ItemType.Goods, 5000, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5001, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5002, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5003, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5004, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5005, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5006, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5007, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5008, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5009, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5010, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5011, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5012, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5013, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5014, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5015, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5016, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5017, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5018, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5019, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5020, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5021, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5022, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
+    
+    // Nightmares
+    RemoveItemFromPlayer(ItemType.Goods, 5100, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5101, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5102, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5103, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5104, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5105, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5106, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5107, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5108, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5109, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5110, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5111, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5112, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5113, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5114, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5115, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5116, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5117, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5118, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5119, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5120, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5121, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5122, 99);
+    RemoveItemFromPlayer(ItemType.Goods, 5123, 99);
 });
 
 // Setup Game Flags
