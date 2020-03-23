@@ -7,42 +7,235 @@ Then create the python version and recompile it.
 #------------------------------------
 # Talk IDs
 #------------------------------------
-400150 Yoel
+300000 High Wall of Lothric bonfire
+300001 Consumed King's Gardens bonfire
+300002 High Wall Jail bonfire
+300003 Soldier's Nook bonfire
+300004 Knight's Rest bonfire
+300005 Unused
+300008 Unused
+300009 Unused
+300020 Path of the Dragon gesture pickup
+300220 Greirat
+300324 Oceiros
+300330 Emma
+300705 Unused
+300706 Unused
+300720 Unused
+
+301000 Lothric Castle bonfire
+301001 Dragonslayer Armour bonfire
+301002 Dragon Barracks bonfire
+301020 Sunlight Altar
+
+310000 Giant's Tower bonfire
+310001 Pit of Hollows bonfire
+310002 Cliff Underside bonfire
+310003 Dilapidated Bridge bonfire
+310004 Foot of the High Wall bonfire
+310020 Mound-makers
+310021 Velka's Statue
+310150 Yoel of Londor
+310180 Sirris of the Sunless Realm
+310240 Cornyx of the Great Swamp
+310260 Irina of Carim
+310270 Eygon of Carim
+310310 Siegward of Catarina (lift)
+310311 Siegward of Catarina (ledge)
+310380 Talking Cage Hollow
+310410 Holy Knight Hodrick
+310610 Tower Giant
+
+320000 Archdragon Peak bonfire
+320001 Nameless King bonfire
+320002 Great Belfry bonfire
+320003 Dragon-kin Mausoleum bonfire
+
+330000 Halfway Fortress bonfire
+330001 Abyss Watchers bonfire
+330002 Crystal Sage bonfire
+330003 Farron Keep bonfire
+330004 Keep Ruins bonfire
+330005 Old Wolf bonfire
+330006 Road of Sacrifices bonfire
+330007 Sage's Overlook bonfire
+330008 Farron Keep Perimeter bonfire
+330020 Old Wolf of Farron
+330170 Hawkwood the Deserter
+330230 Orbeck of Vinheim
+330290 Anri of Astora (male)
+330291 Unused
+330295 Anri of Astora (female)
+330360 Horace the Hushed
+
+341000 Royal Library bonfire
+341001 Grand Archives Rooftop bonfire
+341320 Lothric
+
+350000 Cleansing Chapel bonfire
+350001 Rosaria's Bed Chamber bonfire
+350002 Deacons of the Deep bonfire
+350003 Cathedral of the Deep bonfire
+350020 Rosaria
+350190 Ringfinger Leonhard
+350191 Unused
+350300 Unbreakable Patches (Door side)
+350301 Unbreakable Patches (Rosaria side)
+350302 Unbreakable Patches (Door side)
+350310 Longfinger Kirk
+350510 Slave Knight Gael
+350793 Unused
+350903 Unused
+350906 Unused
+
+370000 Church of Yorshka bonfire
+370001 Irithyll Cathedral bonfire
+370002 Chamber of the Princess bonfire
+370003 Anor Londo bonfire
+370004 Central Irithyll bonfire
+370005 Distant Manor bonfire
+370006 Water Reserve bonfire
+370007 Irithyll of the Boreal Valley bonfire
+370008 Prison Tower bonfire
+370020 Archdeacon McDonnell
+370160 Company Captain Yorshka
+370180 Sirris of the Sunless Realm
+370190 Ringfinger Leonhard
+370290 Anri of Astora (male)
+370291 Anri of Astora (male) - Aldrich room
+370292 Unused
+370295 Anri of Astora (female)
+370296 Anri of Astora (female) - Aldrich room
+370310 Siegward of Catarina
+370400 Londor Assassin (Church of Yorshka)
+370401 Londor Assassin (Darkmoon Tomb)
+
+380000 High Lord Wolnir bonfire
+380001
+380002
+380003
+380004
+380005
+380006
+380290
+380291
+380295
+380296
+
+390000
+390001
+390002
+390250
+390310
+390311
+
+400000
+400001
+400002
+400003
+400004
+400010
+400120 Firekeeper
 400130 Ludleth #1
 400131 Ludleth #2 (ashes)
-400390 Crows
-400500 Nestling
+400140 Yuria of Londor
+400150 Yoel of Londor
+400170 Hawkwood the Deserter
+400171 Hawkwood the Deserter
+400172 Hawkwood the Deserter
+400180 Siris of the Sunless Realms
+400190 Ringfinger Leonhard
+400200 Andre
+400210 Shrine Handmaid
+400211 Shrine Handmaid (Untended Graves)
+400220 Greirat of the Undead Settlement
+400230 Orbeck of Vinheim
+400240 Cornyx of the Great Swamp
+400250 Karla
 400260 Irina of Carim #1
 400261 Irina of Carim #2
 400262 Irina of Carim #3
 400270 Eygon of Carim #1
 400271 Eygon of Carim #2
-400180 Siris of the Sunless Realms
 400290 Anri of Astora #1
 400295 Anri of Astora #2
-400360 Horace the Hushed
-400240 Cornyx of the Great Swamp
-400220 Greirat of the Undead Settlement
-400250 Karla
-400230 Orbeck of Vinheim
-400140 Yuria of Londor
-400190 Ringfinger Leonhard
 400300 Patches #1
 400301 Patches #2
-400170 Hawkwood the Deserter
-400171 Hawkwood the Deserter
-400120 Firekeeper
-400200 Andre
-400210 Shrine Handmaid
-400211 Shrine Handmaid (Untended Graves)
-370020 Archdeacon McDonnell
-370160 Company Captain Yorshka
-330020 Old Watchdog
-310020 Mound-makers
-350020 Rosaria
-301020 Sunlight Altar
+400360 Horace the Hushed
+400390 Crows
+400500 Nestling
+400790
+400791
+400792
+400900
+400901
+400902
+400903
+400904
+400905
+400907
+400908
+400909
+
+410000
+410001
+410002
+410010
+410120
+410990
+
+450000
+450001
+450002
+450003
+450004
+450005
+450006
+450007
+450520
+450521
+450530
+450531
+450540
+450541
+450550
+450551
+450560
+450561
+450590
+
+500000
+500001
+500002
+500003
+500004
+500730
+500731
+500732
+500760
+
+510000
+510001
+510002
+510003
+510004
+510005
 510020 Church Monument
 510021 Purging Monument
+510730
+510731
+510732
+510740
+510750
+510751
+510752
+510770
+510780
+
+511000
+511001
+511740
+511770
 
 #------------------------------------
 # Condition Reference

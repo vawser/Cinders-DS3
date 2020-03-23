@@ -3880,6 +3880,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_level = env(236)
     local damage_type = env(202)
     local is_damaged = env(256)
+    
     if damage_level <= DAMAGE_LEVEL_NONE and is_damaged == FALSE and (damage_type == DAMAGE_TYPE_INVALID or damage_type == DAMAGE_TYPE_WEAK_POINT or damage_type == DAMAGE_LEVEL_MINIMUM) then
         return FALSE
     end

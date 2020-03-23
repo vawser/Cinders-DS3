@@ -42,6 +42,7 @@
 # Armor
 - Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
 - Increased the Poison/Frost inflicted by the armor auras to account for this. Curse has been left as is since it is the strongest one.
+- Crab Helmet now only boosts stats by 10.
 
 # Rings
 - Reduced the curse build-up on self from the Cursed Ring of Vengeance to 3 per tick.
@@ -54,7 +55,7 @@
 - Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the locked chest at the top of Firelink Shrine.
 
 # Spells
-- You can now hold many spells, let you choose when to fire them.
+- You can now hold many spells, letting you choose when to fire them.
 - Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
 - Changed Heavenly Thunder to be a lightning version of Angelic Barrage, but stronger and less frequent.
 - Added Pulsating Blade miracle: adds Bleed inflict to weapon. Transposed from Deacon soul.
@@ -65,16 +66,32 @@
 - The memory shop is now reset properly when you enter NG+.
 - You can now purchase a boss's memories whilst a boss has been respawned.
 - Yoel now sells the Dark Hand.
+- Removed all the ashes you get from killing vendors (i.e. Karla's Ashes).
+
+# Covenant
+- Way of White now an Offerings shop.
+- Vinheim Scholars now get Crystal Fragments as their covenant material.
+- Chaos Servants now get Fire Seeds as their covenant material.
+- Pilgrims of Dark now gets Abyssal Fragments as their covenant material.
+- Way of White now gets Holy Fragments as their covenant material.
+
+# NPC
+- Greirat no longer has the pillage quest. Instead his inventory unlocks after killing the Curse-rotted Greatwood, and then Pontiff Sulyvahn.
+- Orbeck now gets Pestilent Mist after you kill Oceiros.
+- Orbeck will no longer leave when you buy all his spells.
+- Irina now progresses towards the Light ending of her quest if you form a covenant with her (Way of White). If not, she gets the Dark ending.
 
 # Enemies
 - The Undead Settlement Black Knights are now hostile to other enemies.
 - Pilgrim Angel's Holy Barrage now shoots at a much higher interval. The random angle has been removed and the damage has been changed to Physical.
+- Reduced the number of added enemies in base playthrough, moved some into NG+ only.
 
 # Bugfixes
 - Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
 - Livid Pyromancer Dunnel now spawns properly (His CharInit was accidently deleted before).
 - Greatsword and Greatshield of Artorias now actually transposed from the Triad soul.
 - Fixed Quickstep causing damage on several weapon types.
+- Fixed Pyromancer's Parting Flame not ascending correctly.
 
 #------------------------------
 # TODO
@@ -83,12 +100,4 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-DamageCommonFunction
-
-Old Moonlight:
-528905 ffx
-528907 ffx
-20 poly (right)
-21 poly (left)
-
-30900
+Change Yuria/Yoel and Orbeck so they never leave
