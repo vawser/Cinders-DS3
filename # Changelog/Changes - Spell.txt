@@ -680,10 +680,10 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Halo
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 60
 - Physical Damage: 400 [200] per bullet 
 - FTH Req: 25
-- Ascended Effect: costs 15 FP.
+- Ascended Effect: uses Force cast animation
 
 #--------------------------------
 # Heavenly Thunder

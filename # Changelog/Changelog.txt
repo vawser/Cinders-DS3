@@ -66,6 +66,7 @@
 - Added Pulsating Blade miracle: adds Bleed inflict to weapon. Transposed from Deacon soul.
 - Added Pungent Blade pyromancy: adds Poison inflict to weapon. Transposed from Greatwood soul.
 - Added Black Flame Arc pyromancy: adds Dark damage to weapon. Transposes from Friede's soul.
+- Halo now costs 60 FP and uses Wrath of the Gods cast animation (ascended uses Force animation).
 
 # Shops
 - The memory shop is now reset properly when you enter NG+.
@@ -86,6 +87,8 @@
 - Orbeck now gets Pestilent Mist after you kill Oceiros.
 - Orbeck will no longer leave when you buy all his spells.
 - Irina now progresses towards the Light ending of her quest if you form a covenant with her (Way of White). If not, she gets the Dark ending.
+- You can now learn the Unmannered Bow gesture from Cornyx.
+- You can now learn the Shrug gesture from the Shrine Handmaid.
 
 # Enemies
 - The Undead Settlement Black Knights are now hostile to other enemies.
@@ -107,58 +110,6 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-
-Fix HP toggle glitch by adding HP removal on equip (equal to regen)
-Fix bowglitch by disallowing left-hand usage
-Change Lothric's Holy Scythe WA to use the Warp backstab from Ashes
 Change phantom rings into re-usable consumables
+Mess about with movesets to add variety
 
-a050_038400.hkt
-
-# Gestures
-Well what is it
-Look skyward
-Shrug
-Savage's Bow
-
-AcquireGesture(0)
-AcquireGesture(1)
-AcquireGesture(2)
-AcquireGesture(3)
-AcquireGesture(4)
-AcquireGesture(5)
-AcquireGesture(6)
-AcquireGesture(7)
-AcquireGesture(8)
-AcquireGesture(9)
-AcquireGesture(10)
-AcquireGesture(11)
-AcquireGesture(12)
-AcquireGesture(13)
-AcquireGesture(14)
-AcquireGesture(15)
-AcquireGesture(16)
-AcquireGesture(17)
-AcquireGesture(18)
-AcquireGesture(19)
-AcquireGesture(20)
-AcquireGesture(21)
-AcquireGesture(22)
-AcquireGesture(23)
-AcquireGesture(24)
-AcquireGesture(25)
-AcquireGesture(26)
-AcquireGesture(27)
-AcquireGesture(28)
-AcquireGesture(29)
-AcquireGesture(30)
-AcquireGesture(31)
-AcquireGesture(32)
-AcquireGesture(33)
-AcquireGesture(34)
-AcquireGesture(35)
-AcquireGesture(36)
-AcquireGesture(37)
-AcquireGesture(38)
-AcquireGesture(39)
-AcquireGesture(40)
