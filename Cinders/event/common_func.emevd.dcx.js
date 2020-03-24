@@ -945,7 +945,7 @@ Event(20005219, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
-// Enemy - Idle State
+// Enemy - Idle State (Attack)
 Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -964,7 +964,7 @@ Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Enemy - Idle State
+// Enemy - Idle State (Attack/Area)
 Event(20005221, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
