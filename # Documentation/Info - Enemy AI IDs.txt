@@ -1,4 +1,12 @@
-﻿
+﻿#------------------------------------
+# Logic ID
+#------------------------------------
+10000 Hostile
+20100 White Phantom
+
+#------------------------------------
+# Battle Logic ID
+#------------------------------------
 21000 Slave Knight Gael
     Executioner's Greatsword
     Sunset Shield
