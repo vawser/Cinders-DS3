@@ -1644,19 +1644,19 @@ Event(400000, Default, function() {
     
     InitializeEvent(0, 400030, 0); // Crow Trades
     
-    InitializeEvent(0, 400100, 10000, 160100242, 800020000); // Darkmoon Faithful
-    InitializeEvent(1, 400100, 10000, 160100252, 800030000); // Spears of the Church
-    InitializeEvent(2, 400100, 10000, 160100262, 800040000); // Watchdogs of Farron
-    InitializeEvent(3, 400100, 10000, 160100272, 800050000); // Aldrich Faithful
-    InitializeEvent(4, 400100, 10000, 160100292, 800060000); // Warrior of Sunlight
-    InitializeEvent(5, 400100, 10000, 160100302, 800070000); // Mound-makers
-    InitializeEvent(6, 400100, 10000, 160100322, 800080000); // Rosaria's Fingers
-    InitializeEvent(7, 400100, 10000, 160100332, 800090000); // Chaos Servant
-    InitializeEvent(8, 400100, 10000, 160100232, 800010000); // Thieves' Code
-    InitializeEvent(9, 400100, 10000, 160100342, 800090100); // Vinheim Scholars
-    InitializeEvent(10, 400100, 10000, 160100352, 800090200); // Pilgrims of Dark
-    InitializeEvent(11, 400100, 10000, 160100362, 800090400); // Way of White
-    InitializeEvent(12, 400100, 10000, 160100372, 800090300); // Dragon Remnants
+    InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
+    InitializeEvent(1, 400100, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
+    InitializeEvent(2, 400100, 10000, 160100252, 800010200, 800010220); // Spears of the Church
+    InitializeEvent(3, 400100, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
+    InitializeEvent(4, 400100, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
+    InitializeEvent(5, 400100, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
+    InitializeEvent(6, 400100, 10000, 160100302, 800010600, 800010620); // Mound-makers
+    InitializeEvent(7, 400100, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
+    InitializeEvent(8, 400100, 10000, 160100332, 800010800, 800010820); // Chaos Servant
+    InitializeEvent(9, 400100, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
+    InitializeEvent(10, 400100, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
+    InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
+    InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
     
     InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
     
@@ -1850,11 +1850,31 @@ Event(400030, Default, function() {
 });
 
 // Covenant - Trigger Covenant Item Drop
-Event(400100, Default, function(X0_4, X4_4, X8_4) {
+Event(400100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Normal Rate
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502930, 1); // Area: Graveyard 1
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502931, 1); // Area: Graveyard 2
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502932, 1); // Area: Deacons
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3102930, 1); // Area: Rats
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902930, 1); // Area: Giant + Rats
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 5002930, 1); // Area: Murkmen
+    SkipIfConditionGroupStateUncompiled(1, PASS, OR_01);
     AwardItemsIncludingClients(X8_4);
+    
+    // Reduced Rate
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502930, 1); // Area: Graveyard 1
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502931, 1); // Area: Graveyard 2
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502932, 1); // Area: Deacons
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3102930, 1); // Area: Rats
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3902930, 1); // Area: Giant + Rats
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 5002930, 1); // Area: Murkmen
+    SkipIfConditionGroupStateUncompiled(1, PASS, OR_02);
+    AwardItemsIncludingClients(X12_4);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 

@@ -78,6 +78,7 @@
 - Chaos Servants now get Fire Seeds as their covenant material.
 - Pilgrims of Dark now gets Abyssal Fragments as their covenant material.
 - Way of White now gets Holy Fragments as their covenant material.
+- The areas where enemies constantly respawn now switch the covenant material drop rate to a much lower rate.
 
 # NPC
 - Greirat no longer has the pillage quest. Instead his inventory unlocks after killing the Curse-rotted Greatwood, and then Pontiff Sulyvahn.
@@ -107,3 +108,5 @@ Do the weapon/armor icons
 a042_030100
 
 Fix Path of the Dragon gesture pickup
+13000900
+
