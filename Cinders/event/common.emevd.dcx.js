@@ -337,11 +337,10 @@ Event(230, Restart, function() {
     SetEventFlag(230, ON);
 });
 
-// Enable Untended Graves when player is on the collision near to the connect collision
+// Enable Untended Graves when player is outside the map
 Event(231, Restart, function() {
-    IfPlayerMovingOnHit(OR_01, 3008110);
-    IfPlayerStandingOnHit(OR_01, 3008110);
-    WaitForConditionGroupState(PASS, OR_01);
+    IfPlayerInoutMap(AND_01, true, 40, 0);
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     SetMapCeremony(40, 0, 10);
     EndUnconditionally(EventEndType.End);
 });
