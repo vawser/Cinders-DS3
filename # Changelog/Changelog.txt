@@ -30,9 +30,12 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- The <30% rolling animation is now the ninja flip.
+
 # Weapons
 - Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
-- Burial Blade and Scythe now let you backflip when you press the guard or left light attack button (overrides these actions.)
+- Burial Blade and Scythe now let you quickstep when you press the guard or left light attack button (overrides these actions.)
 - Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
 - Reduced the charge time for the Storm King WA.
 
@@ -51,7 +54,6 @@
 - Reduced the curse build-up on self from the Cursed Ring of Deflection to 15 per tick.
 - Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
 - Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
-- Added Ring of Acrobatics: lets you backflip easily, overrides guard and left light attack actions. Dropped by Holy Knight Morton.
 - Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the locked chest at the top of Firelink Shrine.
 
 # Spells

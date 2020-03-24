@@ -1306,14 +1306,10 @@ function ExecGuard(event, blend_type)
                 blend_type = UPPER
             end
             
-            local effect_backflip = env(1116, 112006)
             local effect_jump = env(1116, 112007)
             local effect_quickstep = env(1116, 112008)
             
-            if effect_backflip == TRUE then
-                AddStamina(-10)
-                ExecEventAllBody("W_BackStepSuperlight")
-            elseif effect_jump == TRUE then
+            if effect_jump == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_Jump")
             elseif effect_quickstep == TRUE then
@@ -1522,15 +1518,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
-        local effect_backflip = env(1116, 112006)
         local effect_jump = env(1116, 112007)
         local effect_quickstep = env(1116, 112008)
     
-        if effect_backflip == TRUE then
-            AddStamina(-10)
-            ExecEventAllBody("W_BackStepSuperlight")
-            return FALSE
-        elseif effect_jump == TRUE then
+        if effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
             return FALSE
@@ -1575,15 +1566,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
-        local effect_backflip = env(1116, 112006)
         local effect_jump = env(1116, 112007)
         local effect_quickstep = env(1116, 112008)
     
-        if effect_backflip == TRUE then
-            AddStamina(-10)
-            ExecEventAllBody("W_BackStepSuperlight")
-            return FALSE
-        elseif effect_jump == TRUE then
+        if effect_jump == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
             return FALSE

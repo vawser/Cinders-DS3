@@ -6,6 +6,8 @@ Event is normally once per, so SpEffects won't be refreshed until the action is 
 #------------------------
 # env( x, y )
 #------------------------
+Returns TRUE or FALSE.
+
 装備武器特殊カテゴリ番号取得 
 - Get Special Category ID (y is hand index)
 
@@ -36,30 +38,77 @@ Event is normally once per, so SpEffects won't be refreshed until the action is 
 弓矢スロット取得
 - Get Ammunition Slot
 
-1116    - Check SpEffect
+HP取得
+- Get HP
+
+弱点か取得
+- Get Weakness
+
+ダメージレベル取得
+- Get Damage Level
+
+食らったダメージタイプを取得
+- Get Damage Type
+
+飛行中か
+- In Flight
+
+食らったダメージ方向を取得
+- Get Damage Directiton
+
+落下しているか
+- Is Falling
+
+着地しているか
+- Is Landing
+
+落下した高さを取得
+- Get Fallen Height
+
+投げ要求か
+- Throw Request
+
+AI行動タイプを取得
+- Get AI Action Type
+
+ガードレベルアクション取得
+- Get Guard Level action
+
+105     - Unk
+133     - Unk
+201     - Unk (Death related)
+202     - Unk
+224     - Unk
 225     - Check Weapon Category (y is hand index)
-234     - Get Invalid Attack State?
-333     - Get Current Time
-257     - Get Move ID
-305     - Get Gravity Type
-326     - Get Weapon Art ID (y is hand index)
-1106    - Get Attack Request (y is action arm index)
-1108    - Get Hold Time (y is action arm index)
-1001    - Get Current Stamina
-1007    - 
-105     - 
-303     - Get Ladder Dismount Bottom
-304     - Get Ladder Dismount Top
-311     - 
-262     - 
-245     - Get Ammo Type (y is hand index)
-1109    - Is Action Request
-301     - Item Usage is Valid (?)
 227     - Get Magic Type
+234     - Get Invalid Attack State?
+245     - Get Ammo Type (y is hand index)
+248     - Unk
+251     - Get Animation ID
+257     - Get Move ID
+262     - Unk
 273     - Get Throw ID
 276     - Is Dead in Throw
 277     - Escaped Throw
-1112    - 
+301     - Item Usage is Valid (?)
+303     - Get Ladder Dismount Bottom
+304     - Get Ladder Dismount Top
+305     - Get Gravity Type
+311     - Unk
+326     - Get Weapon Art ID (y is hand index)
+333     - Get Current Time
+1000    - Unk
+1001    - Get Current Stamina
+1007    - Unk
+1106    - Get Attack Request (y is action arm index)
+1108    - Get Hold Time (y is action arm index)
+1109    - Is Action Request
+1112    - Unk
+1114    - Unk (Animation related)
+1116    - Check SpEffect
+2000    - Unk
+2003    - Unk: Cult Related
+2005    - Get Cult State
 
 #------------------------
 # act( x, y, z )
@@ -74,10 +123,10 @@ Event is normally once per, so SpEffects won't be refreshed until the action is 
 - Get throw-through resistance count
 
 武器パラメータ参照先
-Weapon parameter reference - SetAttackHand (y is hand index)
+- Weapon parameter reference - SetAttackHand (y is hand index)
 
 AI通知攻撃タイプ
-AI notification attack type - SetInterruptType (y is type index)
+- AI notification attack type - SetInterruptType (y is type index)
 
 弓矢スロット選択
 - Get Arrow/Bolt Selection
@@ -115,50 +164,66 @@ AI notification attack type - SetInterruptType (y is type index)
 - 精密射撃可能か
 - Is precision shooting possible?
 
-110     -
+攻撃が中断された
+- Attack Interrupted
+
+吹っ飛びダメージ旋回
+- Blow off damage swirl
+
+はしごアクション状態設定
+- Ladder Action State
+
+AIが行動中か設定
+- Set whether AI is in action state
+
+投げアニメ強制停止
+- Throw Animation Force Stop
+
+投げアニメ停止要請
+- Request Stop Throw Animation
+
+投げ攻撃可能タイプ設定
+- Throw Attack Possible Type (y is type index - 255 for none)
+
+移動切替
+- Move Switching (y is boolean)
+
+デバッグログ出力
+- Debug log output (y is string)
+
+AI攻撃ステート
+- AI Attack State (y is action type)
+
+102     - Unk (y is int or enum)
+101     - Unk (y is bool)
+110     - Unk
+111     - Unk (y is bool)
+133     - Unk (y is int or enum)
+135     - Unk
+139     - Unk
 148     - SetVariable (y is name, z is value)
 1001    - AddStamina (y is Stamina value)
+2001    - SetAngle?
 2002    - SetSpecialEffect (y is SpEffect)
 2004    - SetTurnSpeed (y is turn_speed)
-9103    - SetAIActionState (y is bool)
-9101    -
 2011    - SetSwordArtsCancelType
-2001    - SetAngle?
+9101    - Unk
+9102    - Unk
+9103    - SetAIActionState (y is bool)
 
 #------------------------
-# Variables
+# Other Commands
 #------------------------
-MoveSpeedLevelReal
-LowerDefaultState0
-UpperDefaultState0
-MoveWeightIndex
-IndexBaseCategory
-MoveType
-DrawStanceLoopUpperBlend
-ThrowID
-ThrowHoldBlendWeight
-ThrowHolding
-ThrowNoRegistTime
-IsEnableTAEThrowHold
-IsLockon
-TurnAngleReal
-RollingAngleReal
-RollingAngleRealSelftrans
-ArtsTransition
-AtkAutoAimTime
-AtkAutoAimFlag
-MoveAngle
+# Getter
+root:getTranslation() # Returns position
 
-#------------------------
-# IsNodeActive( x )
-#------------------------
+# Animation
+Fire( <animation> )
+ExecEvent( <animation> ) # Found in eventnameid.txt
+ExecEventAllBody( <animation> ) # Found in eventnameid.txt
 
-#------------------------
-# Quick Commands
-#------------------------
-ExecEventAllBody( <anim name> ) # Play anim
-env(1116, <speffect> ) # Check SpEffect
-act(2002, <speffect>) # Add SpEffect
-AddStamina( <amount> )
-
+# HKB
+hkbFireEvent( <state> )
+hkbSetVariable( <variable>, <value> ) # Found in variablenameid.txt
+hkbGetBoneModelSpace( <bone> ) # 
 
