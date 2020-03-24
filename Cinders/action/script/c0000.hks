@@ -1455,6 +1455,13 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     
+    if env(1116, 112006) == TRUE then
+        local rand = math.random(0, 100)
+        if rand < 5 then
+            act(2002, 160601600)
+        end
+    end
+    
     act(2006, 0)
     if env(271) == TRUE then
         r1 = "W_AttackRightLight1"

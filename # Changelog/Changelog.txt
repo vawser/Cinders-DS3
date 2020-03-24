@@ -38,6 +38,7 @@
 - Burial Blade and Scythe now let you quickstep when you press the guard or left light attack button (overrides these actions.)
 - Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
 - Reduced the charge time for the Storm King WA.
+- Fists kicks now use the Gundyr kick animation.
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -55,6 +56,7 @@
 - Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
 - Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
 - Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the locked chest at the top of Firelink Shrine.
+- Added Ring of Punishment: grants your attacks the chance to critically hit, dealing double damage. Dropped by Holy Knight Morton.
 
 # Spells
 - You can now hold many spells, letting you choose when to fire them.
@@ -102,10 +104,5 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-a026_036500
-
-xx0100
-xx4100
-
-a036_030100.hkt
-a036_034100.hkt
+local rand = math.random(0, 100)
+if 50 < rand then
