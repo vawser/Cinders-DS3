@@ -39,6 +39,7 @@
 - Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
 - Reduced the charge time for the Storm King WA.
 - Fists kicks now use the Gundyr kick animation.
+- Changed the 2H Greataxe roll attack animation to a normal strike, rather than a useless close smash.
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -97,6 +98,8 @@
 - Greatsword and Greatshield of Artorias now actually transposed from the Triad soul.
 - Fixed Quickstep causing damage on several weapon types.
 - Fixed Pyromancer's Parting Flame not ascending correctly.
+- Fixed Wolf Stance staggering you whilst flipping if you had additional flat damage.
+- Fixed Curse Normal +1 reinforcement not being used correctly.
 
 #------------------------------
 # TODO
