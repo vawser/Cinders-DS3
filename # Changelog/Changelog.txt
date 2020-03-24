@@ -108,8 +108,57 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-a042_030100
+Fix HP toggle glitch by adding HP removal on equip (equal to regen)
+Fix bowglitch by disallowing left-hand usage
+Change Lothric's Holy Scythe WA to use the Warp backstab from Ashes
+Change phantom rings into re-usable consumables
 
-Fix Path of the Dragon gesture pickup
-13000900
+a050_038400.hkt
 
+# Gestures
+Well what is it
+Look skyward
+Shrug
+Savage's Bow
+
+AcquireGesture(0)
+AcquireGesture(1)
+AcquireGesture(2)
+AcquireGesture(3)
+AcquireGesture(4)
+AcquireGesture(5)
+AcquireGesture(6)
+AcquireGesture(7)
+AcquireGesture(8)
+AcquireGesture(9)
+AcquireGesture(10)
+AcquireGesture(11)
+AcquireGesture(12)
+AcquireGesture(13)
+AcquireGesture(14)
+AcquireGesture(15)
+AcquireGesture(16)
+AcquireGesture(17)
+AcquireGesture(18)
+AcquireGesture(19)
+AcquireGesture(20)
+AcquireGesture(21)
+AcquireGesture(22)
+AcquireGesture(23)
+AcquireGesture(24)
+AcquireGesture(25)
+AcquireGesture(26)
+AcquireGesture(27)
+AcquireGesture(28)
+AcquireGesture(29)
+AcquireGesture(30)
+AcquireGesture(31)
+AcquireGesture(32)
+AcquireGesture(33)
+AcquireGesture(34)
+AcquireGesture(35)
+AcquireGesture(36)
+AcquireGesture(37)
+AcquireGesture(38)
+AcquireGesture(39)
+AcquireGesture(40)
