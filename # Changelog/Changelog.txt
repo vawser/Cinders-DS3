@@ -104,5 +104,4 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-local rand = math.random(0, 100)
-if 50 < rand then
+a042_030100
