@@ -1,4 +1,5 @@
-﻿0 Point forward
+﻿# Gesture Index
+0 Point forward
 1 Point down
 2 Praise the sun
 3 Point up
@@ -20,7 +21,7 @@
 19 Diginified Bow
 20 Unmannered Bow
 21 Shrug
-22 ?
+22 Curl up
 23 Stretch out
 24 Call Over
 25 Collapse
@@ -46,3 +47,9 @@ Well what is it
 Look skyward
 Shrug
 Savage's Bow
+
+# Adding New Gestures
+Use MegaTAE to add a new animation entry to the a00_08xxxx range.
+The gesture index is the order of these animations (exclude sub-anims).
+The icon used for the gesture is hardcoded to be the gesture index + 7000.
+The gesture item is purely used to 'show' acquisition.

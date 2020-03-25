@@ -1695,6 +1695,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400512, 160702201, 160702200); // Demonic Elixir
     InitializeEvent(0, 400513, 160702301, 160702300); // Elixir of Deceit
     InitializeEvent(0, 400514, 160702401, 160702400); // Elixir of Cooperation
+    InitializeEvent(0, 400515, 160702501, 160702500); // Cleansing Elixir
     
     InitializeEvent(0, 400550, 160701400); // Psychedelic Elixir - Cycle through colors
     
@@ -1708,6 +1709,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400606, 160706061, 160706060); // Frost Stone
     InitializeEvent(0, 400607, 160706071, 160706070); // Blessed Stone
     InitializeEvent(0, 400608, 160706081, 160706080); // Enchanted Stone
+    InitializeEvent(0, 400609, 160706091, 160706090); // Cleansing Stone
 });
 
 // Rattling Finger
@@ -2269,6 +2271,42 @@ Event(400514, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Cleansing Elixir
+Event(400515, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 // Psychedelic Elixir - Triggered
 Event(400550, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
@@ -2499,6 +2537,23 @@ Event(400608, Default, function(X0_4, X4_4) {
     
     SetSpeffect(10000, X4_4);
     
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Cleansing Stone
+Event(400609, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+
     EndUnconditionally(EventEndType.Restart);
 });
 
