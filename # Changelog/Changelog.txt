@@ -105,8 +105,6 @@
 - Orbeck now gets Pestilent Mist after you kill Oceiros.
 - Orbeck will no longer leave when you buy all his spells.
 - Irina now progresses towards the Light ending of her quest if you form a covenant with her (Way of White). If not, she gets the Dark ending.
-- You can now learn the Unmannered Bow gesture from Cornyx.
-- You can now learn the Shrug gesture from the Shrine Handmaid.
 
 # Enemies
 - The Undead Settlement Black Knights are now hostile to other enemies.
@@ -116,6 +114,10 @@
 # Map
 - Moved the Irithyll Cathedral bonfire into the shortcut room in the lower area before the Silver Knights. Renamed it Irithyll Commons.
 - Removed the one-way door where the Irithyll Commons bonfire is.
+
+# Gestures
+- You can now learn the Unmannered Bow gesture from Cornyx.
+- You can now learn the Shrug gesture from the Shrine Handmaid.
 
 # Bugfixes
 - Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
@@ -132,8 +134,29 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-Fix ninja flip locked-on rolls
-Mess about with movesets to add variety
 
-3041 Cleansing Elixir
-4020 Cleansing Stone
+Fix Trial warp sending you back to Untended Graves
+Fix Irina automatically going dark
+Fix ninja flip locked-on rolls
+Add gundyr kick to gundyr's halberd (add new entry)
+Mess about with movesets to add variety
+ Look into how they chain together in MegaTAE
+
+a000_080003 Sarcastic Point Down
+a000_080004 Look skyward
+a000_080006 Well! What is it!
+
+a000_065400 Stab through Anri's Head
+a000_060360 Big leap
+a000_060350 Jump in spot
+a000_060320 Confused
+a000_060210 Light Kick
+a000_042346 Praise the Heavens
+a000_042336 Strike a Pose
+a000_042312 Dragon Roar
+a000_042308 Spit
+
+a026_036000 Stomp
+a067_036710 Charge
+a028_036420 Spin
+a032_037670 Warcry
