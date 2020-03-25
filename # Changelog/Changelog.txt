@@ -135,8 +135,7 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
-Fix Trial warp sending you back to Untended Graves
-Fix Irina automatically going dark
+Fix Binded set masks
 Fix ninja flip locked-on rolls
 Add gundyr kick to gundyr's halberd (add new entry)
 Mess about with movesets to add variety
