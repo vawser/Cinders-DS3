@@ -3975,7 +3975,6 @@ Event(4008090, Default, function() {
     SetEventFlag(13700850, OFF);
     SetEventFlag(9313, OFF);
     SetEventFlag(6313, OFF);
-    SetEventFlag(13700001, OFF);
     SetEventFlag(13700420, OFF);
     SetPlayerRespawnPoint(3702950);
     SaveRequest(0);
@@ -3993,6 +3992,7 @@ Event(4008091, Default, function() {
     SetEventFlag(13700850, OFF);
     SetEventFlag(9313, OFF);
     SetEventFlag(6313, OFF);
+    SetEventFlag(13700420, OFF);
     SetPlayerRespawnPoint(3702950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);

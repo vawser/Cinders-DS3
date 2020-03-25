@@ -113,6 +113,10 @@
 - Pilgrim Angel's Holy Barrage now shoots at a much higher interval. The random angle has been removed and the damage has been changed to Physical.
 - Reduced the number of added enemies in base playthrough, moved some into NG+ only.
 
+# Map
+- Moved the Irithyll Cathedral bonfire into the shortcut room in the lower area before the Silver Knights. Renamed it Irithyll Commons.
+- Removed the one-way door where the Irithyll Commons bonfire is.
+
 # Bugfixes
 - Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
 - Livid Pyromancer Dunnel now spawns properly (His CharInit was accidently deleted before).
@@ -128,14 +132,5 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-Fix pontiff bonfire
+Fix ninja flip locked-on rolls
 Mess about with movesets to add variety
-
-o000100_3001
-c1000_0001
-c0000_0002
-5th 【篝火】復帰ポイント_ランドマーク教会
-
-510
--211
--1152
