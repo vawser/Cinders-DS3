@@ -1,38 +1,38 @@
 ﻿0 Point forward
-1 Point up
-2 Point down 
-3 Wave
-4 Beckon
-5 Call over
+1 Point down
+2 Praise the sun
+3 Point up
+4 Point down
+5 Duel bow
 6 Welcome
-7 Applause
-8 Quiet Resolve
-9 Jump for Joy
-10 Joy
-11 Rejoice
-12 Hurrah
-13 Praise the Sun
-14 My thanks!
-15 Bow
-16 Proper bow
-17 Dignified bow
-18 Duel bow
-19 Legion Etiquette
-20 Darkmoon Loyalty
-21 By my sword
-22 Prayer
-23 Silent Ally
-24 Rest
+7 Prostration
+8 Proper bow
+9 Prayer
+10 Bow 
+11 Wave
+12 Hurrah!
+13 Jump for joy
+14 Joy
+15 My thanks
+16 Rejoice
+17 Rest
+18 By my sword
+19 Diginified Bow
+20 Unmannered Bow
+21 Shrug
+22 ?
+23 Stretch out
+24 Call Over
 25 Collapse
-26 Patches Squat
-27 Prostration
-28 Toast
-29 Sleep
-30 Curl Up
-31 Stretch Out
-32 Path of the Dragon
-33 Unmannered Bow # Toast
-34 Lord of Cinder # Silent Ally
+26 Quiet Resolve
+27 Patches Squart
+28 Applause
+29 Path of the Dragon
+30 Legion Etiquette
+31 Darkmoon Loyalty
+32 Sleep
+33 Toast
+34 Silent Ally
 35 301140
 36 301141
 37 301142
@@ -46,4 +46,3 @@ Well what is it
 Look skyward
 Shrug
 Savage's Bow
-
