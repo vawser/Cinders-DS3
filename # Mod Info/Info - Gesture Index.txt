@@ -34,19 +34,12 @@
 32 Sleep
 33 Toast
 34 Silent Ally
-35 301140
-36 301141
-37 301142
-38 301143
-39 301144
-40 301145
-41 301146
-
-# Gestures
-Well what is it
-Look skyward
-Shrug
-Savage's Bow
+35 Dismissive Point
+36 Look Skyward
+37 Well! What is it!
+38 Praise the Heavens
+39 Retch
+40 Confused
 
 # Adding New Gestures
 Use MegaTAE to add a new animation entry to the a00_08xxxx range.
