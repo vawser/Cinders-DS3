@@ -728,18 +728,18 @@
 7056 Charred Bone 
 7058 Engraved Dagger 
 7063 Abyssal Edge 
-7064 Seeds of Chaos 
+7064 Demonic Elixir
 7066 Nibble 
-7067 Ravenous Gnawing 
-7068 Sparks 
-7069 Voracious Gnawing 
+7067 Elixir of Ghosts
+7068 Accursed Elixir
+7069 Psychedelic Elixir
 7070 Bone Rapier 
 7072 Jester's Talisman 
 7073 Lothric Candlestick 
 7074 Smouldering Greatsword 
-7075 Veiled Flame 
-7076 Veiled Staff 
-7077 Veiled Talisman 
+7075 Darkmoon Elixir
+7076 Holy Elixir
+7077 Earthen Elixir
 7078 Black Flame 
 7079 Holy Flame 
 7080 Sorcerous Flame 
@@ -768,10 +768,10 @@
 7101 Cinders
 7102 Frost Stone
 7103 Lightning Stone
-7104 Magic Flask
-7105 Fire Flask
-7106 Lightning Flask
-7107 Dark Flask
+7104 Abyssal Elixir
+7105 Sunlight Elixir
+7106 Maddening Elixir
+7107 Bloody Elixir
 7108 Rotted Greatwood Ring
 7114 Drangleic Sword
 7115 Drangleic Greatsword
@@ -789,8 +789,8 @@
 7127 Numbness
 7128 Perseverance
 7129 Soul Flash
-7130 Logan's Staff
-7131 Lord's Chime
+7130 Elixir of Cooperation
+7131 Elixir of Deceit
 7132 Smelter Hammer
 
 7137 Soul Focus

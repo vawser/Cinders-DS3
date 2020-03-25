@@ -1644,6 +1644,7 @@ Event(400000, Default, function() {
     
     InitializeEvent(0, 400030, 0); // Crow Trades
     
+    // Covenant Material Drops
     InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
     InitializeEvent(1, 400100, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
     InitializeEvent(2, 400100, 10000, 160100252, 800010200, 800010220); // Spears of the Church
@@ -1658,24 +1659,665 @@ Event(400000, Default, function() {
     InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
     InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
     
+    // Bosses
+    InitializeEvent(0, 401000, 0); // Boss System
+    
+    // Weapons
     InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
     
-    InitializeEvent(0, 400200, 0); // Rainbow Ring
+    // Rings
     InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
     InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
     
-    InitializeEvent(0, 400220, 0); // Rattling Finger - Active
-    InitializeEvent(0, 400221, 0); // Rattling Finger - Inactive
-    
+    // Spells
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
+
+    // Items
+    InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
     InitializeEvent(0, 400400, 10000); // Blood of Might
     InitializeEvent(0, 400402, 10000); // Event Flag Tool
     
-    InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
+    // Phantom Items
+    InitializeEvent(0, 400500, 160701000, 160701000); // Rattling Finger
+    InitializeEvent(0, 400501, 160701101, 160701100); // Murky Finger
+    InitializeEvent(0, 400502, 160701201, 160701200); // Elixir of Ghosts
+    InitializeEvent(0, 400503, 160701301, 160701300); // Accursed Elixir
+    InitializeEvent(0, 400504, 160701401, 160701400); // Psychedelic Elixir
+    InitializeEvent(0, 400505, 160701501, 160701500); // Darkmoon Elixir
+    InitializeEvent(0, 400506, 160701601, 160701600); // Holy Elixir
+    InitializeEvent(0, 400507, 160701701, 160701700); // Earthen Elixir
+    InitializeEvent(0, 400508, 160701801, 160701800); // Abyssal Elixir
+    InitializeEvent(0, 400509, 160701901, 160701900); // Sunlight Elixir
+    InitializeEvent(0, 400510, 160702001, 160702000); // Maddening Elixir
+    InitializeEvent(0, 400511, 160702101, 160702100); // Bloody Elixir
+    InitializeEvent(0, 400512, 160702201, 160702200); // Demonic Elixir
+    InitializeEvent(0, 400513, 160702301, 160702300); // Elixir of Deceit
+    InitializeEvent(0, 400514, 160702401, 160702400); // Elixir of Cooperation
     
-    InitializeEvent(0, 401000, 0); // Boss System
+    InitializeEvent(0, 400550, 160701400); // Psychedelic Elixir - Cycle through colors
+});
+
+// Rattling Finger
+Event(400500, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetEventFlag(25007011, OFF);
+    SetEventFlag(25007012, OFF);
+    SetEventFlag(25007013, OFF);
+    SetEventFlag(25007014, OFF);
+    RandomlySetEventFlagInRange(25007011, 25007014, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007011);
+    SetSpeffect(10000, 160701010);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007012);
+    SetSpeffect(10000, 160701011);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007013);
+    SetSpeffect(10000, 160701012);
+
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007014);
+    SetSpeffect(10000, 160701013);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Murky Finger
+Event(400501, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Elixir of Ghosts
+Event(400502, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Accursed Elixir
+Event(400503, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701300);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Psychedelic Elixir
+Event(400504, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Darkmoon Elixir
+Event(400505, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Holy Elixir
+Event(400506, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Earthen Elixir
+Event(400507, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Abyssal Elixir
+Event(400508, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Sunlight Elixir
+Event(400509, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Maddening Elixir
+Event(400510, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Bloody Elixir
+Event(400511, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Demonic Elixir
+Event(400512, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Elixir of Deceit
+Event(400513, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Elixir of Cooperation
+Event(400514, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Psychedelic Elixir - Triggered
+Event(400550, Default, function(X0_4) {
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701418);
+    SetSpeffect(10000, 160701410);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+        
+    ClearSpeffect(10000, 160701410);
+    SetSpeffect(10000, 160701411);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701411);
+    SetSpeffect(10000, 160701412);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701412);
+    SetSpeffect(10000, 160701413);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701413);
+    SetSpeffect(10000, 160701414);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701414);
+    SetSpeffect(10000, 160701415);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701415);
+    SetSpeffect(10000, 160701416);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701416);
+    SetSpeffect(10000, 160701417);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    ClearSpeffect(10000, 160701417);
+    SetSpeffect(10000, 160701418);
+    WaitFixedTimeSeconds(0.1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
+    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Add Effect to X
@@ -1894,62 +2536,6 @@ Event(400110, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Rainbow Ring - Setup
-Event(400200, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfCharacterHasSpeffect(AND_01, 10000, 160601390, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    InitializeEvent(0, 400201, 0);
-    Label0();
-    IfCharacterHasSpeffect(AND_02, 10000, 160601390, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, FAIL, AND_02);
-    ClearSpeffect(10000, 160601391);
-    ClearSpeffect(10000, 160601392);
-    ClearSpeffect(10000, 160601393);
-    ClearSpeffect(10000, 160601394);
-    ClearSpeffect(10000, 160601395);
-    ClearSpeffect(10000, 160601396);
-    ClearSpeffect(10000, 160601397);
-    ClearSpeffect(10000, 160601398);
-    ClearSpeffect(10000, 160601399);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Rainbow Ring - Cycle
-Event(400201, Default, function() {
-    SetNetworkSyncState(Disabled);
-    ClearSpeffect(10000, 160601399);
-    SetSpeffect(10000, 160601391);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601391);
-    SetSpeffect(10000, 160601392);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601392);
-    SetSpeffect(10000, 160601393);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601393);
-    SetSpeffect(10000, 160601394);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601394);
-    SetSpeffect(10000, 160601395);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601395);
-    SetSpeffect(10000, 160601396);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601396);
-    SetSpeffect(10000, 160601397);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601397);
-    SetSpeffect(10000, 160601398);
-    WaitFixedTimeSeconds(0.1);
-    ClearSpeffect(10000, 160601398);
-    SetSpeffect(10000, 160601399);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, 160601390, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Fool's Sigil - Setup
 Event(400210, Default, function() {
     SetNetworkSyncState(Disabled);
@@ -2008,47 +2594,6 @@ Event(400211, Default, function() {
     ClearSpeffect(10000, 160601578);
     SetSpeffect(10000, 160601579);
     SetEventFlag(25007000, OFF);
-    WaitFixedTimeFrames(1);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Rattling Finger - Setup
-Event(400220, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfCharacterHasSpeffect(MAIN, 10000, 160601580, true, ComparisonType.Equal, 1);
-    SetEventFlag(25007010, ON);
-    SetEventFlag(25007011, OFF);
-    SetEventFlag(25007012, OFF);
-    SetEventFlag(25007013, OFF);
-    SetEventFlag(25007014, OFF);
-    RandomlySetEventFlagInRange(25007011, 25007014, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007011);
-    SetSpeffect(10000, 160601581);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007012);
-    SetSpeffect(10000, 160601582);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007013);
-    SetSpeffect(10000, 160601583);
-
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007014);
-    SetSpeffect(10000, 160601584);
-    
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25007010);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Rattling Finger - Clear Effects
-Event(400221, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007010);
-    IfCharacterHasSpeffect(MAIN, 10000, 160601580, false, ComparisonType.Equal, 1);
-    ClearSpeffect(10000, 160601581);
-    ClearSpeffect(10000, 160601582);
-    ClearSpeffect(10000, 160601583);
-    ClearSpeffect(10000, 160601584);
-    SetEventFlag(25007010, OFF);
     WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });

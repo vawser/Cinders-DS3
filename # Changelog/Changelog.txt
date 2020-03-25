@@ -68,6 +68,24 @@
 - Added Black Flame Arc pyromancy: adds Dark damage to weapon. Transposes from Friede's soul.
 - Halo now costs 60 FP and uses Wrath of the Gods cast animation (ascended uses Force animation).
 
+# Items
+- Removed all the cosmetic look rings and changed them into re-usable items. They now last until death or you use another one:
+ - Rattling Finger: skeleton form
+ - Murky Finger: murkman form
+ - Elixir of Ghosts: tomb ghost
+ - Accursed Elixir: cursed hollow sfx
+ - Psychedelic Elixir: rainbow phantom
+ - Darkmoon Elixir: darkmoon phantom
+ - Holy Elixir: spear of the church phantom
+ - Earthen Elixir: watchdog phantom
+ - Abyssal Elixir: aldrich faithful phantom
+ - Sunlight Elixir: warrior of sunlight phantom
+ - Maddening Elixir: mad phantom
+ - Bloody Elixir: red phantom
+ - Demonic Elixir: chaos servant phantom
+ - Elixir of Cooperation: white phantom
+ - Elixir of Deceit: human form
+ 
 # Shops
 - The memory shop is now reset properly when you enter NG+.
 - You can now purchase a boss's memories whilst a boss has been respawned.
@@ -110,6 +128,22 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-Change phantom rings into re-usable consumables
+Fix pontiff bonfire
 Mess about with movesets to add variety
+
+3026 Rattling Finger 
+3027 Murky Finger 
+3028 Elixir of Ghosts 
+3029 Accursed Elixir 
+3030 Psychedelic Elixir 
+3031 Darkmoon Elixir 
+3032 Holy Elixir
+3033 Earthen Elixir
+3034 Abyssal Elixir 
+3035 Sunlight Elixir
+3036 Maddening Elixir 
+3037 Bloody Elixir 
+3038 Demonic Elixir
+3040 Elixir of Deceit
+3039 Elixir of Cooperation
 
