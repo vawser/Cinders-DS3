@@ -1679,7 +1679,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400400, 10000); // Blood of Might
     InitializeEvent(0, 400402, 10000); // Event Flag Tool
     
-    // Phantom Items
+    // Phantom Visual Items
     InitializeEvent(0, 400500, 160701000, 160701000); // Rattling Finger
     InitializeEvent(0, 400501, 160701101, 160701100); // Murky Finger
     InitializeEvent(0, 400502, 160701201, 160701200); // Elixir of Ghosts
@@ -1697,6 +1697,17 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400514, 160702401, 160702400); // Elixir of Cooperation
     
     InitializeEvent(0, 400550, 160701400); // Psychedelic Elixir - Cycle through colors
+    
+    // Weapon Visual Items
+    InitializeEvent(0, 400600, 160706001, 160706000); // Fire Stone
+    InitializeEvent(0, 400601, 160706011, 160706010); // Magic Stone
+    InitializeEvent(0, 400602, 160706021, 160706020); // Lightning Stone
+    InitializeEvent(0, 400603, 160706031, 160706030); // Dark Stone
+    InitializeEvent(0, 400604, 160706041, 160706040); // Poison Stone
+    InitializeEvent(0, 400605, 160706051, 160706050); // Bleed Stone
+    InitializeEvent(0, 400606, 160706061, 160706060); // Frost Stone
+    InitializeEvent(0, 400607, 160706071, 160706070); // Blessed Stone
+    InitializeEvent(0, 400608, 160706081, 160706080); // Enchanted Stone
 });
 
 // Rattling Finger
@@ -2316,6 +2327,177 @@ Event(400550, Default, function(X0_4) {
     WaitFixedTimeSeconds(0.1);
     IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
     EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Fire Stone
+Event(400600, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Magic Stone
+Event(400601, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Lightning Stone
+Event(400602, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Dark Stone
+Event(400603, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Poison Stone
+Event(400604, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Bleed Stone
+Event(400605, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Frost Stone
+Event(400606, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Blessed Stone
+Event(400607, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Enchanted Stone
+Event(400608, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160706000);
+    ClearSpeffect(10000, 160706010);
+    ClearSpeffect(10000, 160706020);
+    ClearSpeffect(10000, 160706030);
+    ClearSpeffect(10000, 160706040);
+    ClearSpeffect(10000, 160706050);
+    ClearSpeffect(10000, 160706060);
+    ClearSpeffect(10000, 160706070);
+    ClearSpeffect(10000, 160706080);
+    
+    SetSpeffect(10000, X4_4);
     
     EndUnconditionally(EventEndType.Restart);
 });
