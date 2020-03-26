@@ -41,6 +41,7 @@
 - Hands of God now shoots force with charged heavy attack.
 - Changed Moonlight Greatsword moveset. The moonlight waves now fire from all heavy attacks, and they use the Straight Sword heavy attack animations.
 - Halberds now use the Gundyr kick animation.
+- Smough's Great Hammer now has a lightning smash effect on its 2H heavy attacks.
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -144,8 +145,4 @@ Add new armor
 Do the weapon/armor icons
 
 Fix Binded set masks
-
-
-
-Add lightning stake to Smough's Hammer heavy smash
 
