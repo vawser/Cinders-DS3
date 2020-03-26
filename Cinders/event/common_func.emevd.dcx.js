@@ -4189,7 +4189,7 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - Set Flags on Death
+// NPC - Set Flags if Dead
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
@@ -4249,12 +4249,15 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfComparison(Label.LABEL0, ComparisonType.NotEqual, X12_4, 0);
+    
     IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X16_4, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_01);
+    
     RotateCharacter(10000, X0_4, 69070, false);
     WaitFixedTimeFrames(1);
     IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, 10000, X0_4, X16_4, 1);
     GotoUnconditionally(Label.LABEL8);
+    
     Label0();
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_01);
@@ -4262,6 +4265,7 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     WaitFixedTimeFrames(1);
     IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X12_4, 1);
     GotoUnconditionally(Label.LABEL8);
+    
     Label8();
     IfCharacterHasSpeffect(AND_02, 10000, 150, false, ComparisonType.Equal, 1);
     IfConditionGroup(OR_01, PASS, AND_02);
@@ -4271,6 +4275,7 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     IfConditionGroup(MAIN, PASS, OR_01);
     GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_02);
     GotoIfConditionGroupStateCompiled(Label.LABEL19, PASS, OR_02);
+    
     Label9();
     RotateCharacter(10000, X0_4, X20_4, true);
     WaitFixedTimeFrames(1);
@@ -4286,14 +4291,17 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     IfConditionGroup(OR_04, PASS, AND_04);
     IfConditionGroup(MAIN, PASS, OR_04);
     GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_04);
+    
     Label10();
     SetEventFlag(X8_4, OFF);
     ForceAnimationPlayback(10000, X24_4, false, true, false, 0, 1);
     EndUnconditionally(EventEndType.Restart);
+    
     Label19();
     ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
     SetEventFlag(X4_4, OFF);
     EndUnconditionally(EventEndType.Restart);
+    
     Label20();
     SetEventFlag(X4_4, OFF);
     SetEventFlag(X8_4, OFF);
@@ -5288,8 +5296,3 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
-
-
-
-
-

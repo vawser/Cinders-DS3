@@ -30,9 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- The <30% rolling animation is now the ninja flip.
-
 # Weapons
 - Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
 - Burial Blade and Scythe now let you quickstep when you press the guard or left light attack button (overrides these actions.)
@@ -40,6 +37,10 @@
 - Reduced the charge time for the Storm King WA.
 - Fists kicks now use the Gundyr kick animation.
 - Changed the 2H Greataxe roll attack animation to a normal strike, rather than a useless close smash.
+- Demon's Fist now shoots fireballs with charged heavy attack.
+- Hands of God now shoots force with charged heavy attack.
+- Changed Moonlight Greatsword moveset. The moonlight waves now fire from all heavy attacks, and they use the Straight Sword heavy attack animations.
+- Halberds now use the Gundyr kick animation.
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
@@ -143,9 +144,8 @@ Add new armor
 Do the weapon/armor icons
 
 Fix Binded set masks
-Fix ninja flip locked-on rolls
-Add gundyr kick to gundyr's halberd (add new entry)
-Mess about with movesets to add variety
- Look into how they chain together in MegaTAE
 
-45
+
+
+Add lightning stake to Smough's Hammer heavy smash
+
