@@ -429,12 +429,12 @@
 6064 Jester Ring
 6065 Cleansing Elixir
 6066 Cleansing Stone
-6067 Taro Mace
-6068 Taro Mallet
-6069
-6070
-6071
-6072
+6067 Profaned Pyromancy Tome
+6068 Accursed Scroll
+6069 Writhing Tome
+6070 Abyssal Tome
+6071 Heavenly Tome
+6072 Angelic Tome
 6073
 6074
 6075
@@ -450,8 +450,8 @@
 6085 Cinder
 6086 Frost Crystal
 6087 Lightning Stone
-6088
-6089
+6088 Taro Mace
+6089 Taro Mallet
 6090
 6091 Pygmy Brooch
 6092 Arcane Trinket

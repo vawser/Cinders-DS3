@@ -93,6 +93,16 @@
 - You can now purchase a boss's memories whilst a boss has been respawned.
 - Yoel now sells the Dark Hand.
 - Removed all the ashes you get from killing vendors (i.e. Karla's Ashes).
+- Disabled the Primordial Forging shop (by making the Primordial Scroll unobtainable). 
+- Reworked the spells sold by the spell vendors, moving most of the pickup spells into the relevant shop (or into a transposition).
+- Added Accursed Scroll key item, given to Karla to unlock dark sorceries.
+- Added Writhing Tome key item, given to Karla to unlock dark sorceries.
+- Added Abyssal Tome key item, given to Karla to unlock dark sorceries.
+- Added Profaned Pyromancy Tome key item, given to Cornyx to unlock certain pyromancies.
+- Added Angelic Braille Divine Tome key item, given to Irina to unlock certain miracles.
+- Added Heavenly Braille Divine Tome key item, given to Irina to unlock certain miracles.
+- Added Braille Divine Tome of Sunlight key item, given to Irina to unlock certain miracles.
+- Irina no longer takes the Deep or Londor Braille Divine Tome items.
 
 # Covenant
 - Way of White now an Offerings shop.
@@ -104,14 +114,15 @@
 
 # NPC
 - Greirat no longer has the pillage quest. Instead his inventory unlocks after killing the Curse-rotted Greatwood, and then Pontiff Sulyvahn.
-- Orbeck now gets Pestilent Mist after you kill Oceiros.
 - Orbeck will no longer leave when you buy all his spells.
-- Irina now progresses towards the Light ending of her quest if you form a covenant with her (Way of White). If not, she gets the Dark ending.
 
 # Enemies
 - The Undead Settlement Black Knights are now hostile to other enemies.
 - Pilgrim Angel's Holy Barrage now shoots at a much higher interval. The random angle has been removed and the damage has been changed to Physical.
 - Reduced the number of added enemies in base playthrough, moved some into NG+ only.
+- Londor Pilgrim no longer drops Chameleon.
+- Mad Pyromancer Dunnel no longer drops Floating Chaos.
+- Desert Pyromancer Zoey no longer drops Flame Fan.
 
 # Map
 - Moved the Irithyll Cathedral bonfire into the shortcut room in the lower area before the Silver Knights. Renamed it Irithyll Commons.
@@ -144,5 +155,34 @@ Add new weapons
 Add new armor
 Do the weapon/armor icons
 
+Look at Ashes Focus Blast anim on Caestus
 Fix Binded set masks
+
+70000201 Sage's Scroll
+70000202 Logan's Scroll
+70000203 Crystal Scroll
+70000204 Golden Scroll
+
+70000305 Accursed Scroll
+70000306 Writhing Scroll
+70000307 Abyssal Tome
+
+70000250 Great Swamp Tome
+70000251 Carthus Tome
+70000252 Izalith Tome
+70000253 Profaned Tome
+70000300 Quelana Tome
+
+70000301 Grave Warden Tome
+
+70000350 Carim
+70000351 Lothric
+70000356 Sunlight
+70000357 Heavenly
+70000358 Angelic
+
+70000302 Deep Tome
+70000303 Londor Tome
+
+
 
