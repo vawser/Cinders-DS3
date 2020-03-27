@@ -158,31 +158,6 @@ Do the weapon/armor icons
 Look at Ashes Focus Blast anim on Caestus
 Fix Binded set masks
 
-70000201 Sage's Scroll
-70000202 Logan's Scroll
-70000203 Crystal Scroll
-70000204 Golden Scroll
-
-70000305 Accursed Scroll
-70000306 Writhing Scroll
-70000307 Abyssal Tome
-
-70000250 Great Swamp Tome
-70000251 Carthus Tome
-70000252 Izalith Tome
-70000253 Profaned Tome
-70000300 Quelana Tome
-
-70000301 Grave Warden Tome
-
-70000350 Carim
-70000351 Lothric
-70000356 Sunlight
-70000357 Heavenly
-70000358 Angelic
-
-70000302 Deep Tome
-70000303 Londor Tome
-
-
-
+Adjust class stats, reduce the inflated ones.
+Add option to allow Irina dark ending
+Tier the primordial titanite into the 3 tiers + essence. That way bosses can drop different forms, controlling progression of weapon a bit better.
