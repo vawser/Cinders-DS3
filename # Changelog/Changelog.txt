@@ -43,6 +43,12 @@
 - Halberds now use the Gundyr kick animation.
 - Smough's Great Hammer now has a lightning smash effect on its 2H heavy attacks.
 
+# Reinforcement
+- Split Primordial Titanite into five forms: Primordial Shard, Large Primordial Shard, Primordial Fragment, Primordial Chunk and Primordial Slab.
+- Each boss now drops 1 of a specific type when killed in Nightmare mode (in Dream mode it is a 50/50 chance).
+- The type dropped has been set to control progression a bit better. This also encourages killing different bosses, since you'll need to kill atleast 5 different ones to get the materials now.
+- The amount required for each ascended reinforcement level has been changed to 3/3/3/3/1. So you need 3 of the first four types, and 1 slab.
+
 # Status Effects
 - Reduced all sources of aux inflict slightly.
 
@@ -125,6 +131,7 @@
 - Londor Pilgrim no longer drops Chameleon.
 - Mad Pyromancer Dunnel no longer drops Floating Chaos.
 - Desert Pyromancer Zoey no longer drops Flame Fan.
+- The NG+ echoes of the past enemies now drop all the new forms of Primordial Titanite (although the weaker ones are restricted the the first two forms). The chance goes up based on the NG+ they appear in (i.e. NG+3 ones have a higher chance to drop stuff).
 
 # Map
 - Moved the Irithyll Cathedral bonfire into the shortcut room in the lower area before the Silver Knights. Renamed it Irithyll Commons.
@@ -162,4 +169,5 @@ Fix Binded set masks
 
 Adjust class stats, reduce the inflated ones.
 Add option to allow Irina dark ending
-Tier the primordial titanite into the 3 tiers + essence. That way bosses can drop different forms, controlling progression of weapon a bit better.
+Karla early start, make it an item or false encounter that flips the flag
+Make Frost a 'stun' effect, reducing stamina recovery by 100 for 5 seconds, freezing enemies.
