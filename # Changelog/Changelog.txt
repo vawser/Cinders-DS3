@@ -51,6 +51,10 @@
 
 # Status Effects
 - Reduced all sources of aux inflict slightly.
+- Frost:
+ - Lasts 5 seconds.
+ - Deals 10 + 1% damage per second.
+ - Reduces stamina recovery by 200 whilst active. This prevents enemies from attacking.
 
 # Armor
 - Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
@@ -170,4 +174,4 @@ Fix Binded set masks
 Adjust class stats, reduce the inflated ones.
 Add option to allow Irina dark ending
 Karla early start, make it an item or false encounter that flips the flag
-Make Frost a 'stun' effect, reducing stamina recovery by 100 for 5 seconds, freezing enemies.
+
