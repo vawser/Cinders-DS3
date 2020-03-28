@@ -55,11 +55,12 @@
  - Lasts 5 seconds.
  - Deals 10 + 1% damage per second.
  - Reduces stamina recovery by 200 whilst active. This prevents enemies from attacking.
+ - No longer cancelled by fire damage.
 
 # Armor
-- Changed the interval for the aux inflict auras to 5 seconds to reduce the weird AI behavior.
-- Increased the Poison/Frost inflicted by the armor auras to account for this. Curse has been left as is since it is the strongest one.
 - Crab Helmet now only boosts stats by 10.
+- Changed the aux aura armors. They now have stat increases except on the hands, which provide the aux inflict to the right-hand weapon.
+- Added Bleed inflict to the Grave Warden hands.
 
 # Rings
 - Reduced the curse build-up on self from the Cursed Ring of Vengeance to 3 per tick.

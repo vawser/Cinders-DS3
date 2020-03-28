@@ -91,7 +91,8 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Recovery: [1, 2, 1, 2]
 
 # Gloom Set
-- Frost Aura: [20, 40, 10, 30]
+- Endurance: [1, 2, 2]
+- Frost Inflict: [50]
 
 # Ruin Set
 - Endurance: [1, 2, 1, 2]
@@ -147,7 +148,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - FP Absorb on Kill: [16]
 
 # Corvian Knight Helmet
-- Poison Aura: [20]
+- Vigor: [2]
 
 # Eastern Armor Set
 - Weapon Stamina Consumption: [0.984, 0.968, 0.992, 0.976]
@@ -171,7 +172,8 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Recovery: [2, 3, 1, 2]
 
 # Ancient King Set
-- Curse Aura: [10, 20, 5, 15]
+- Vigor: [2, 3, 2]
+- Curse Inflict: [30]
 
 #----------------------------
 # Medium 2 (20 - 30)
@@ -214,13 +216,15 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - [Body] Effect: reduces backstab damage by 90%
 
 # Outrider Knight Armor Set
-- Frost Aura: [20, 40, 10, 30]
+- Endurance: [2, 3, 2]
+- Frost Inflict: [50]
 
 # Dark Set
-- Curse Aura: [10, 20, 5, 15]
+- Vigor: [2, 3, 2]
+- Curse Inflict: [30]
 
 # Skull Mask
-- Curse Aura: [10]
+- Vigor: [2]
 
 # Undead Legion Set
 - Anti-Abyssal: [1.016, 1.032, 1.008, 1.024]
@@ -277,7 +281,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
 
 # Frigid Valley Mask
-- Frost Aura: [20]
+- Attunement: [2]
 
 # Evangelist Set
 - Faith: [2, 4, 1, 3]
@@ -310,7 +314,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - FP Absorb on Kill: [20, 40, 10, 30]
 
 # White Preacher Head
-- Curse Aura: [10]
+- Attunement: [2]
 
 # Deserter Set
 - Item Discovery: [1.1, 1.2, 1.15]
@@ -337,7 +341,8 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Grotto Set
-- Poison Aura: [10, 20, 5, 15]
+- Intelligence: [2, 4, 3]
+- Poison Inflict: [50]
 
 # Cleric Set
 - HP Estus Restore: [1.04, 1.08, 1.02, 1.06]
@@ -424,7 +429,8 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Grave Warden Set
-- Dexterity: [2, 4, 1, 3]
+- Dexterity: [2, 4, 3]
+- Bleed Inflict: [30]
 
 # Ordained Set
 - Intelligence: [2, 4, 3]
@@ -454,7 +460,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
 
 # Deacon Set
-- Curse Aura: [10, 20, 5, 15]
+- Attunement: [4, 3]
 
 # Saint Set
 - HP Regen: [2, 4]
