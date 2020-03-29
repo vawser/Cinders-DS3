@@ -1,38 +1,38 @@
-﻿1
-2
-3
-4
-15
-30
-31
-32
-40
-42
-43
-50
-51
-60
-61
-62
-63
-70
-82
-83
-84
-85
-90
-91
-92
-101
-103
-104
-105
+﻿1   Debug square
+2   Fogwall 
+3   Fogwall (Big)
+4   Fogwall (Massive)
+15  White Smoke
+30  Message Marker
+31  Message Marker
+32  Orange Force Burst
+40  Bloodstain (With Souls)
+42  Bloodstain (Without Souls)
+43  Bloodstain Pickup
+50  Searching Grey Wisp
+51  Searching Grey Wisp
+60  White Orb (Small)
+61  White Orb (Small)
+62  White Orb (Normal)
+63  White Orb (Normal)
+70  White Orb (Normal)
+82  Green Glow
+83  Darksign Glow + Flames
+84  Darksign Flames + Burst
+85  Darksign Glow + Flames
+90  Grey Scattered Smoke
+91  Grey Smoke
+92  Grey Crystal
+101 Grey Smoke (Wide)
+103 White Orb (Fades) + Grey Smoke
+104 Grey Smoke (Wide)
+105 White Glow
 106
 107
-108
+108 White Smoke + Feathers
 109
-110
-111
+110 White Smoke Breath
+111 White Smoke Burst + Glow
 300
 320
 400
@@ -40,23 +40,23 @@
 402
 403
 410
-411
+411 
 412
 420
 421
 422
-500
-501
-502
-503
-504
-505
-1000
-1001
-1002
-1003
-1004
-1010
+500 Ring Drop
+501 Armor Drop
+502 Weapon Drop
+503 Rock Drop
+504 Goods Drop
+505 Yellow Orb (Normal)
+1000 Orange Ember Burst
+1001 Orange Ember Burst
+1002 Orange Ember Burst
+1003 Orange Ember Burst
+1004 Orange Ember Burst
+1010 Small Flame + Glow
 1011
 1012
 1013
@@ -1808,14 +1808,14 @@
 810030
 830095
 839010
-f001002247
-f001002248
-f001002249
-f001003001
-f099999998
-f700000000
-f700000001
-f999999999
+1002247
+1002248
+1002249
+1003001
+99999998
+700000000
+700000001
+999999999
 652000
 652010
 652020

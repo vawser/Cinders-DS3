@@ -100,9 +100,9 @@ Bleed
 - Deals 100/150/200 + 5% damage on proc. Depends on weapon type.
 
 Frost
-- Lasts 5 seconds.
-- Deals 10 + 1% damage per second.
-- Reduces stamina recovery by 200 whilst active. This prevents enemies from attacking.
+- Cannot be re-applied for 8 seconds.
+- Deals 50 + 2% damage on proc.
+- Reduces stamina by -200 on proc.
 
 #------------------------
 # Stat Changes

@@ -30,137 +30,11 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Reduced the damage done by the first two parts of Ledo's Great Hammer WA.
-- Burial Blade and Scythe now let you quickstep when you press the guard or left light attack button (overrides these actions.)
-- Shiv now lets you jump immediately when you press the guard or left light attack button (overrides these actions.) 
-- Reduced the charge time for the Storm King WA.
-- Fists kicks now use the Gundyr kick animation.
-- Changed the 2H Greataxe roll attack animation to a normal strike, rather than a useless close smash.
-- Demon's Fist now shoots fireballs with charged heavy attack.
-- Hands of God now shoots force with charged heavy attack.
-- Changed Moonlight Greatsword moveset. The moonlight waves now fire from all heavy attacks, and they use the Straight Sword heavy attack animations.
-- Halberds now use the Gundyr kick animation.
-- Smough's Great Hammer now has a lightning smash effect on its 2H heavy attacks.
-
-# Reinforcement
-- Split Primordial Titanite into five forms: Primordial Shard, Large Primordial Shard, Primordial Fragment, Primordial Chunk and Primordial Slab.
-- Each boss now drops 1 of a specific type when killed in Nightmare mode (in Dream mode it is a 50/50 chance).
-- The type dropped has been set to control progression a bit better. This also encourages killing different bosses, since you'll need to kill atleast 5 different ones to get the materials now.
-- The amount required for each ascended reinforcement level has been changed to 3/3/3/3/1. So you need 3 of the first four types, and 1 slab.
-
 # Status Effects
-- Reduced all sources of aux inflict slightly.
 - Frost:
- - Lasts 5 seconds.
- - Deals 10 + 1% damage per second.
- - Reduces stamina recovery by 200 whilst active. This prevents enemies from attacking.
- - No longer cancelled by fire damage.
-
-# Armor
-- Crab Helmet now only boosts stats by 10.
-- Changed the aux aura armors. They now have stat increases except on the hands, which provide the aux inflict to the right-hand weapon.
-- Added Bleed inflict to the Grave Warden hands.
-
-# Rings
-- Reduced the curse build-up on self from the Cursed Ring of Vengeance to 3 per tick.
-- Reduced the curse build-up on self from the Cursed Ring of Confusion to 5 per tick.
-- Reduced the curse build-up on self from the Cursed Ring of Evasion to 4 per tick.
-- Reduced the curse build-up on self from the Cursed Ring of Deflection to 15 per tick.
-- Added Ring of Momentum: lets you quickstep easily, overrides guard and left light attack actions. Dropped by Sieghardt of Catarina.
-- Added Ring of Grace: lets you jump easily, overrides guard and left light attack actions. Found in Irithyll Dungeon.
-- Added Dashmaster's String: lets you sprint endlessly and automatically. Found in the locked chest at the top of Firelink Shrine.
-- Added Ring of Punishment: grants your attacks the chance to critically hit, dealing double damage. Dropped by Holy Knight Morton.
-
-# Spells
-- You can now hold many spells, letting you choose when to fire them.
-- Reduced the damage of Angelic Barrage, lowered poise/stamina damage.
-- Changed Heavenly Thunder to be a lightning version of Angelic Barrage, but stronger and less frequent.
-- Added Pulsating Blade miracle: adds Bleed inflict to weapon. Transposed from Deacon soul.
-- Added Pungent Blade pyromancy: adds Poison inflict to weapon. Transposed from Greatwood soul.
-- Added Black Flame Arc pyromancy: adds Dark damage to weapon. Transposes from Friede's soul.
-- Halo now costs 60 FP and uses Wrath of the Gods cast animation (ascended uses Force animation).
-
-# Items
-- Removed all the cosmetic look rings and changed them into re-usable items. They now last until death or you use another one:
- - Rattling Finger: skeleton form
- - Murky Finger: murkman form
- - Elixir of Ghosts: tomb ghost
- - Accursed Elixir: cursed hollow sfx
- - Psychedelic Elixir: rainbow phantom
- - Darkmoon Elixir: darkmoon phantom
- - Holy Elixir: spear of the church phantom
- - Earthen Elixir: watchdog phantom
- - Abyssal Elixir: aldrich faithful phantom
- - Sunlight Elixir: warrior of sunlight phantom
- - Maddening Elixir: mad phantom
- - Bloody Elixir: red phantom
- - Demonic Elixir: chaos servant phantom
- - Elixir of Cooperation: white phantom
- - Elixir of Deceit: human form
- 
-# Shops
-- The memory shop is now reset properly when you enter NG+.
-- You can now purchase a boss's memories whilst a boss has been respawned.
-- Yoel now sells the Dark Hand.
-- Removed all the ashes you get from killing vendors (i.e. Karla's Ashes).
-- Disabled the Primordial Forging shop (by making the Primordial Scroll unobtainable). 
-- Reworked the spells sold by the spell vendors, moving most of the pickup spells into the relevant shop (or into a transposition).
-- Added Accursed Scroll key item, given to Karla to unlock dark sorceries.
-- Added Writhing Tome key item, given to Karla to unlock dark sorceries.
-- Added Abyssal Tome key item, given to Karla to unlock dark sorceries.
-- Added Profaned Pyromancy Tome key item, given to Cornyx to unlock certain pyromancies.
-- Added Angelic Braille Divine Tome key item, given to Irina to unlock certain miracles.
-- Added Heavenly Braille Divine Tome key item, given to Irina to unlock certain miracles.
-- Added Braille Divine Tome of Sunlight key item, given to Irina to unlock certain miracles.
-- Irina no longer takes the Deep or Londor Braille Divine Tome items.
-
-# Covenant
-- Way of White now an Offerings shop.
-- Vinheim Scholars now get Crystal Fragments as their covenant material.
-- Chaos Servants now get Fire Seeds as their covenant material.
-- Pilgrims of Dark now gets Abyssal Fragments as their covenant material.
-- Way of White now gets Holy Fragments as their covenant material.
-- The areas where enemies constantly respawn now switch the covenant material drop rate to a much lower rate.
-
-# NPC
-- Greirat no longer has the pillage quest. Instead his inventory unlocks after killing the Curse-rotted Greatwood, and then Pontiff Sulyvahn.
-- Orbeck will no longer leave when you buy all his spells.
-- Karla now starts in Firelink Shrine.
-- Moved Irina's spot into the alcove opposite the Handmaid.
-
-# Enemies
-- The Undead Settlement Black Knights are now hostile to other enemies.
-- Pilgrim Angel's Holy Barrage now shoots at a much higher interval. The random angle has been removed and the damage has been changed to Physical.
-- Reduced the number of added enemies in base playthrough, moved some into NG+ only.
-- Londor Pilgrim no longer drops Chameleon.
-- Mad Pyromancer Dunnel no longer drops Floating Chaos.
-- Desert Pyromancer Zoey no longer drops Flame Fan.
-- The NG+ echoes of the past enemies now drop all the new forms of Primordial Titanite (although the weaker ones are restricted the the first two forms). The chance goes up based on the NG+ they appear in (i.e. NG+3 ones have a higher chance to drop stuff).
-
-# Map
-- Moved the Irithyll Cathedral bonfire into the shortcut room in the lower area before the Silver Knights. Renamed it Irithyll Commons.
-- Removed the one-way door where the Irithyll Commons bonfire is.
-
-# Gestures
-- You can now learn the Unmannered Bow gesture from Cornyx.
-- You can now learn the Shrug gesture from the Shrine Handmaid.
-- You can now learn the Path of the Dragon gesture from Hawkwood.
-- You can now learn the Dismissive Point gesture from Yuria of Londor.
-- You now learn the Look Skyward gesture from the Tower Giant.
-- You now learn the Well! What is it! gesture from Ringfinger Leonhard.
-- You now learn the Praise the Heavens gesture from Irina.
-- You now learn the Retch gesture from Archdeacon McDonnell.
-- You can now learn the Confused gesture from Greirat.
-
-# Bugfixes
-- Removed the weapon VFX from Steady Chant/Chant from the Depths WA to prevent confusion (the icon below FP shows you when it is active still).
-- Livid Pyromancer Dunnel now spawns properly (His CharInit was accidently deleted before).
-- Greatsword and Greatshield of Artorias now actually transposed from the Triad soul.
-- Fixed Quickstep causing damage on several weapon types.
-- Fixed Pyromancer's Parting Flame not ascending correctly.
-- Fixed Wolf Stance staggering you whilst flipping if you had additional flat damage.
-- Fixed Curse Normal +1 reinforcement not being used correctly.
+ - Cannot be re-applied for 8 seconds.
+ - Deals 50 + 2% damage on proc.
+ - Reduces stamina by -200 on proc.
 
 #------------------------------
 # TODO
@@ -168,10 +42,8 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
-
 Look at Ashes Focus Blast anim on Caestus
 Fix Binded set masks
-
 Adjust class stats, reduce the inflated ones.
 Add option to allow Irina dark ending
 Karla early start, make it an item or false encounter that flips the flag
