@@ -101,7 +101,7 @@ Bleed
 
 Frost
 - Cannot be re-applied for 8 seconds.
-- Deals 50 + 2% damage on proc.
+- Deals 50 + 5% damage on proc.
 - Reduces stamina by -200 on proc.
 
 #------------------------
