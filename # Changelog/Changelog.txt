@@ -35,6 +35,19 @@
  - Cannot be re-applied for 8 seconds.
  - Deals 50 + 5% damage on proc.
  - Reduces stamina by -200 on proc.
+ 
+# General
+- Ludleth's Crown is now a reward from killing the Soul of Cinder without being hit. (Deathless is no longer rewarded in anyway).
+
+# NPCs
+- Karla is now brought to the shrine after your turn in the Accursed Signet to the Fire Keeper. It is found in High Wall.
+
+# Enemies
+- Moved a mimic into Karla's old room in Irithyll Dungeon.
+
+# Bugfixes
+- Cornyx now removes the Profaned Pyromancy Tome when taking it.
+- Karla no longer appears in Irithyll Dungeon.
 
 #------------------------------
 # TODO
@@ -45,6 +58,5 @@ Do the weapon/armor icons
 Look at Ashes Focus Blast anim on Caestus
 Fix Binded set masks
 Adjust class stats, reduce the inflated ones.
-Add option to allow Irina dark ending
-Karla early start, make it an item or false encounter that flips the flag
+
 

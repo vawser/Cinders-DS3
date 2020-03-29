@@ -4833,10 +4833,6 @@ Event(20009300, Restart, function() {
     SetEventFlag(13100004, ON);
     SetEventFlag(13000000, ON);
     
-    // Enable Karla at Start
-    SetEventFlag(1260, ON);
-    SetEventFlag(1261, ON);
-    
     // Deathless Boss Kill Flags
     SetEventFlag(25000020, OFF); // Corrupted Gundyr
     SetEventFlag(25000021, OFF); // Vordt of the Boreal Valley
