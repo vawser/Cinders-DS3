@@ -58,7 +58,12 @@ Add new armor
 Do the weapon/armor icons
 
 Look at Ashes Focus Blast anim on Caestus
+Velka's Talisman (add missing dp)
+Priest's Candlestick (add missing dp)
 
+Lucky infusion: adds variable damage buff/debuff on attacks
 
-c1000_0000
-eei: 4000950
+Add new kind of summons, toggled at a menu, they then appear at your current bonfire when you rest/warp to it.
+ NPC added to each map
+ Use the bonfire player objects as the warp points
+ Menu toggled whether to spawn a NPC, items are given to it to unlock options, only 1 active at any one time.
