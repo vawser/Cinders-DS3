@@ -30,17 +30,18 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Ludleth's Crown is now a reward from killing the Soul of Cinder without being hit. (Deathless is no longer rewarded in anyway).
+- The Advance Journey dialogue now takes place in a menu, and gives you 3 chances to exit before it puts you into NG+.
+
 # Status Effects
 - Frost:
  - Cannot be re-applied for 8 seconds.
  - Deals 50 + 5% damage on proc.
  - Reduces stamina by -200 on proc.
  
-# General
-- Ludleth's Crown is now a reward from killing the Soul of Cinder without being hit. (Deathless is no longer rewarded in anyway).
-
 # NPCs
-- Karla is now brought to the shrine after your turn in the Accursed Signet to the Fire Keeper. It is found in High Wall.
+- Karla is now brought to the shrine after you turn in the Accursed Signet to the Fire Keeper. It is found in High Wall.
 
 # Enemies
 - Moved a mimic into Karla's old room in Irithyll Dungeon.
@@ -55,8 +56,9 @@
 Add new weapons
 Add new armor
 Do the weapon/armor icons
+
 Look at Ashes Focus Blast anim on Caestus
-Fix Binded set masks
-Adjust class stats, reduce the inflated ones.
 
 
+c1000_0000
+eei: 4000950
