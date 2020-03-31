@@ -5140,7 +5140,6 @@ Event(20060001, Restart, function() {
 Event(20060010, Default, function(X0_4, X4_4) {
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    IfCharacterDamagedBy(AND_01, X0_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetSpeffect(5300500, X4_4);
     
@@ -5232,5 +5231,38 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Companion - Setup in Map
+Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
+    // Disable by Default
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+});
+
+// Companion - Warp to Player
+Event(20080001, Restart, function(X0_4, X4_4, X8_4) {
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Companion enabled
+    IfCharacterHasSpeffect(AND_01, 10000, 160760000, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    // Enable NPC
+    SetCharacterAIState(X0_4, Disabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    SetSpeffect(X0_4, X8_4);
+    SetSpeffect(X0_4, 160760100);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 220, 10000);
+
+    WaitFixedTimeSeconds(0.5);
+    
+    SetCharacterAIState(X0_4, Enabled);
+    
     EndUnconditionally(EventEndType.Restart);
 });
