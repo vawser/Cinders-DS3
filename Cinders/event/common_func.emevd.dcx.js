@@ -5253,6 +5253,7 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4) {
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
+    SetCharacterHPBarDisplay(X0_4, Enabled);
     SetSpeffect(X0_4, X8_4);
     SetSpeffect(X0_4, 160760100);
     
