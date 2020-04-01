@@ -1472,7 +1472,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     end
     
     -- Lucky - Damage Variance
-    if env(1116, 112010) == TRUE then
+    if env(1116, 112010) == TRUE or env(1116, 112021) == TRUE then
         local rand = math.random(0, 100)
         if rand <= 2 then
             act(2002, 112011) -- -25%
@@ -2580,6 +2580,34 @@ function ExecMagic(quick_type, blend_type)
     -- Insanity Catalyst - WA Effect
     if env(1116, 112004) == TRUE then
         act(2002, 112005) -- Apply HP loss on cast
+    end
+    
+    -- Lucky Catalyst - Spell Damage Variance
+    if env(1116, 112030) == TRUE then
+        local rand = math.random(0, 100)
+        if rand <= 2 then
+            act(2002, 112031) -- -25%
+        elseif rand > 2 and rand <= 5 then
+            act(2002, 112032) -- -20%
+        elseif rand > 5 and rand <= 10 then
+            act(2002, 112033) -- -15%
+        elseif rand > 10 and rand <= 20 then
+            act(2002, 112034) -- -10%
+        elseif rand > 20 and rand <= 35 then
+            act(2002, 112035) -- -5%
+        elseif rand > 35 and rand <= 65 then
+            -- nothing
+        elseif rand > 65 and rand <= 80 then
+            act(2002, 112036) -- 5%
+        elseif rand > 80 and rand <= 90 then
+            act(2002, 112037) -- 10%
+        elseif rand > 90 and rand <= 95 then
+            act(2002, 112038) -- 15%
+        elseif rand > 95 and rand <= 98 then
+            act(2002, 112039) -- 20%
+        elseif rand > 98 then
+            act(2002, 112040) -- 25%
+        end
     end
     
     if env(116) == TRUE then

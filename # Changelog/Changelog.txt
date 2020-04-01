@@ -63,6 +63,9 @@
  - 5%: +15%
  - 3%: +20%
  - 2%: +25%
+ 
+# Catalysts
+- The Lucky catalysts now have damage variance (same as the Lucky infusion for weapons).
 
 # Rings
 - Ring of Punishment critical hit chance scales up to 10% if the weapon is Lucky.
@@ -96,3 +99,4 @@ Add new Chr type (add action script)
 Look at Ashes Focus Blast anim on Caestus
 Velka's Talisman (add missing dp)
 Priest's Candlestick (add missing dp)
+
