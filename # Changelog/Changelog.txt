@@ -64,6 +64,9 @@
  - 3%: +20%
  - 2%: +25%
 
+# Rings
+- Ring of Punishment critical hit chance scales up to 10% if the weapon is Lucky.
+
 # Status Effects
 - Frost:
  - Cannot be re-applied for 8 seconds.
@@ -93,6 +96,3 @@ Add new Chr type (add action script)
 Look at Ashes Focus Blast anim on Caestus
 Velka's Talisman (add missing dp)
 Priest's Candlestick (add missing dp)
-
-Lucky infusion: adds variable damage buff/debuff on attacks
-
