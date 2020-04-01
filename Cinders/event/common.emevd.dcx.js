@@ -1633,16 +1633,31 @@ Event(400000, Default, function() {
     
     InitializeEvent(0, 400016, 0); // NG+ Flags
     
-    InitializeEvent(0, 400020, 0); // Deathless Run - Effect
-    InitializeEvent(0, 400021, 0); // Deathless Run - Check
-    InitializeEvent(0, 400022, 0); // Curse of Wrath
-    InitializeEvent(0, 400023, 0); // Curse of Folly
-    InitializeEvent(0, 400024, 0); // Curse of Obscurity
-    InitializeEvent(0, 400025, 0); // Curse of Vitality
-    InitializeEvent(0, 400026, 0); // Curse of Pride
-    InitializeEvent(0, 400027, 0); // Curse of Folly - Animations
+    // Curse Info Prompts
+    InitializeEvent(0, 400020, 25004100, 99002100); // Folly
+    InitializeEvent(1, 400020, 25004101, 99002101); // Obscurity 
+    InitializeEvent(2, 400020, 25004102, 99002102); // Vitality 
+    InitializeEvent(3, 400020, 25004103, 99002103); // Wrath 
+    InitializeEvent(4, 400020, 25004104, 99002104); // Pride
     
-    InitializeEvent(0, 400030, 0); // Crow Trades
+    // Enable
+    InitializeEvent(0, 400021, 25000000, 250001200, 250001201); // Curse of Folly
+    InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
+    InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
+    InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
+
+    // Disable
+    InitializeEvent(0, 400022, 25000000, 250001200, 250001201); // Curse of Folly
+    InitializeEvent(1, 400022, 25000001, 250001300, 250001301); // Curse of Obscurity
+    InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
+    InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
+    
+    InitializeEvent(0, 400023, 25000004); // Curse of Pride - Enable
+    InitializeEvent(0, 400024, 25000004); // Curse of Pride - Disable
+    InitializeEvent(0, 400025, 0); // Curse of Folly - Animations
+    
+    // Trades
+    InitializeEvent(0, 400099, 0); // Crow Trades
     
     // Covenant Material Drops
     InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
@@ -2585,56 +2600,38 @@ Event(400016, Default, function() {
     SetEventFlag(25000015, ON); // NG+5
 });
 
-// Deathless Run - Add Effect
-Event(400020, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetSpeffect(10000, 250000100);
+// Show Curse Information
+Event(400020, Restart, function(X0_4, X4_4) {
+    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X0_4);
+    DisplayEpitaphMessage(X4_4);
+    SetEventFlag(X0_4, OFF);
+    EndUnconditionally(EventEndType.Restart);
 });
 
-// Deathless Run - Check Status
-Event(400021, Default, function() {
+// Enable Curse
+Event(400021, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
-    SetEventFlag(25000010, OFF);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    SetSpeffect(10000, X4_4);
+    SetSpeffect(10000, X8_4);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
-// Curse of Wrath
-Event(400022, Default, function() {
+// Disable Curse
+Event(400022, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000004);
-    SetSpeffect(10000, 250001100);
-    SetSpeffect(10000, 250001101);
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
+    ClearSpeffect(10000, X4_4);
+    ClearSpeffect(10000, X8_4);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
-// Curse of Folly
-Event(400023, Default, function() {
+// Curse of Pride - Enable
+Event(400023, Default, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000001);
-    SetSpeffect(10000, 250001200);
-    SetSpeffect(10000, 250001201);
-});
-
-// Curse of Obscurity
-Event(400024, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000002);
-    SetSpeffect(10000, 250001300);
-    SetSpeffect(10000, 250001301);
-});
-
-// Curse of Vitality
-Event(400025, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000003);
-    SetSpeffect(10000, 250001400);
-    SetSpeffect(10000, 250001401);
-});
-
-// Curse of Pride
-Event(400026, Default, function() {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000000);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     SetSpeffect(10000, 250001000);
     SetSpeffect(10000, 250001001);
     SetSpeffect(10000, 250001002);
@@ -2655,10 +2652,44 @@ Event(400026, Default, function() {
     SetSpeffect(10000, 250001017);
     SetSpeffect(10000, 250001018);
     SetSpeffect(10000, 250001019);
+    
+    WaitFixedTimeSeconds(1);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Curse of Pride - Disable
+Event(400024, Default, function(X0_4) {
+    SetNetworkSyncState(Disabled);
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
+    ClearSpeffect(10000, 250001000);
+    ClearSpeffect(10000, 250001001);
+    ClearSpeffect(10000, 250001002);
+    ClearSpeffect(10000, 250001003);
+    ClearSpeffect(10000, 250001004);
+    ClearSpeffect(10000, 250001005);
+    ClearSpeffect(10000, 250001006);
+    ClearSpeffect(10000, 250001007);
+    ClearSpeffect(10000, 250001008);
+    ClearSpeffect(10000, 250001009);
+    ClearSpeffect(10000, 250001010);
+    ClearSpeffect(10000, 250001011);
+    ClearSpeffect(10000, 250001012);
+    ClearSpeffect(10000, 250001013);
+    ClearSpeffect(10000, 250001014);
+    ClearSpeffect(10000, 250001015);
+    ClearSpeffect(10000, 250001016);
+    ClearSpeffect(10000, 250001017);
+    ClearSpeffect(10000, 250001018);
+    ClearSpeffect(10000, 250001019);
+    
+    WaitFixedTimeSeconds(1);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Folly - Animations
-Event(400027, Default, function() {
+Event(400025, Default, function() {
     SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
     
@@ -2722,7 +2753,7 @@ Event(400027, Default, function() {
 });
 
 // Crow Trades
-Event(400030, Default, function() {
+Event(400099, Default, function() {
     InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
     InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
     InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);

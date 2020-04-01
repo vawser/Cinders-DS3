@@ -33,6 +33,7 @@
 # General
 - Ludleth's Crown is now a reward from killing the Soul of Cinder without being hit. (Deathless is no longer rewarded in anyway).
 - The Advance Journey dialogue now takes place in a menu, and gives you 3 chances to exit before it puts you into NG+.
+- Moved the Curses into a menu. You can toggle them at the Altar of Affliction, behind Lothric's Throne in Firelink Shrine.
 
 # Companions
 - Added a companion system, where you can summon special NPCs that will follow you about and fith for you.

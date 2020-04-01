@@ -5094,33 +5094,6 @@ Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
-// Pact Toggle
-Event(20050000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    SetNetworkSyncState(Disabled);
-    
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X12_4);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X12_4);
-    
-    Label0();
-    IfActionButtonInArea(MAIN, X8_4, X4_4);
-    DisplayEpitaphMessage(X0_4);
-    SetEventFlag(X12_4, ON);
-    SetSpeffect(10000, X24_4);
-    SetSpeffect(10000, X28_4);
-    WaitFixedTimeSeconds(3);
-    
-    Label1();
-    IfActionButtonInArea(MAIN, X16_4, X4_4);
-    DisplayEpitaphMessage(X20_4);
-    SetEventFlag(X12_4, OFF);
-    ClearSpeffect(10000, X24_4);
-    ClearSpeffect(10000, X28_4);
-    WaitFixedTimeSeconds(3);
-    
-    Label2();
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Read Engraving
 Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
