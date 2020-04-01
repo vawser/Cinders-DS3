@@ -50,6 +50,20 @@
  - Iron Knight Tarkus  - Tarkus's Incense: Treasure - Catacombs of Carthus
  - Havel the Rock      - Havel's Incense: Treasure - Archdragon Peak
 
+# Infusions
+- Lucky now adds damage variance to your weapon. Every attack will have a random chance to gain a damage modifier, both positive and negative.
+ - 2%: -25%
+ - 3%: -20%
+ - 5%: -15%
+ - 10%: -10%
+ - 15%: -5%
+ - 30%: None
+ - 15%: +5%
+ - 10%: +10%
+ - 5%: +15%
+ - 3%: +20%
+ - 2%: +25%
+
 # Status Effects
 - Frost:
  - Cannot be re-applied for 8 seconds.
