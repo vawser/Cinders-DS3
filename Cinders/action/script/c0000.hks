@@ -1463,6 +1463,34 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
+    -- Lucky - Damage Variance
+    -- if env(1116, 200001000) == TRUE then
+        -- local rand = math.random(0, 100)
+        -- if rand <= 2 then
+            -- act(2002, 200001010) -- -25%
+        -- elseif rand > 2 and rand <= 5 then
+            -- act(2002, 200001011) -- -20%
+        -- elseif rand > 5 and rand <= 10 then
+            -- act(2002, 200001012) -- -15%
+        -- elseif rand > 10 and rand <= 20 then
+            -- act(2002, 200001013) -- -10%
+        -- elseif rand > 20 and rand <= 35 then
+            -- act(2002, 200001014) -- -5%
+        -- elseif rand > 35 and rand <= 65 then
+            -- -- nothing
+        -- elseif rand > 65 and rand <= 80 then
+            -- act(2002, 200001015) -- 5%
+        -- elseif rand > 80 and rand <= 90 then
+            -- act(2002, 200001016) -- 10%
+        -- elseif rand > 90 and rand <= 95 then
+            -- act(2002, 200001017) -- 15%
+        -- elseif rand > 95 and rand <= 98 then
+            -- act(2002, 200001018) -- 20%
+        -- elseif rand > 98 then
+            -- act(2002, 200001019) -- 25%
+        -- end
+    -- end
+    
     act(2006, 0)
     if env(271) == TRUE then
         r1 = "W_AttackRightLight1"
