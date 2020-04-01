@@ -5234,36 +5234,32 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Companion - Warp to Player
+Event(20080001, Restart, function(X0_4, X4_4, X8_4) {
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    // Spawn NPC
+    SetCharacterAIState(X0_4, Disabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    SetSpeffect(X0_4, X8_4);
+    SetSpeffect(X0_4, 160760100);
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    WaitFixedTimeSeconds(1);
+    SetCharacterAIState(X0_4, Enabled);
+    EndUnconditionally(EventEndType.Restart);
+    
+    // Not Enabled
+    Label0();
+    EndUnconditionally(EventEndType.Restart);
+});
+
 // Companion - Setup in Map
 Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
     // Disable by Default
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
-});
-
-// Companion - Warp to Player
-Event(20080001, Restart, function(X0_4, X4_4, X8_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Companion enabled
-    IfCharacterHasSpeffect(AND_01, 10000, 160760000, true, ComparisonType.Equal, 1); // Beckoning Incense used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    // Enable NPC
-    SetCharacterAIState(X0_4, Disabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterDefaultBackreadState(X0_4, Enabled);
-    SetCharacterHPBarDisplay(X0_4, Enabled);
-    SetSpeffect(X0_4, X8_4);
-    SetSpeffect(X0_4, 160760100);
-    
-    WaitFixedTimeSeconds(0.5);
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 220, 10000);
-
-    WaitFixedTimeSeconds(0.5);
-    
-    SetCharacterAIState(X0_4, Enabled);
-    
-    EndUnconditionally(EventEndType.Restart);
 });

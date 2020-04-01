@@ -84,42 +84,56 @@ Flags used in the Cinders range:
 25008250 
 
 25003000 Companion 
-25003001 Knight Solaire
- 4000860 m40
- 3000710 m30
- 3010710 m30_01
- 3100750 m31
- 3200710 m32
- 3300725 m33
- 3410710 m34_01
- 3500730 m35
- 3700750 m37
- 3800760 m38
- 3900750 m39
- 4100750 m41
- 4500750 m45
- 5000750 m50
- 5100750 m51
- 5110750 m51_01
- 5300850 m53
+25003001 Solaire of Astora
+ 4000860 m40 #
+ 3000710 m30 #
+ 3010710 m30_01 #
+ 3100750 m31 #
+ 3200710 m32 #
+ 3300730 m33 #
+ 3410710 m34_01 #
+ 3500730 m35 #
+ 3700750 m37 #
+ 3800760 m38 #
+ 3900750 m39 #
+ 4100750 m41 #
+ 4500750 m45 #
+ 5000750 m50 #
+ 5100750 m51 #
+ 5110750 m51_01 #
+ 5300850 m53 #
+ - IDs for the others are based on these + order position
  
-25003002
-25003003
-25003004
-25003005
-25003006
-25003007
-25003008
-25003009
-25003010
-25003011
-25003012
-25003013
-25003014
-25003015
-25003016
-25003017
-25003018
-25003019
-25003020
+25003002 Sirris of the Sunless Realms
+25003003 Watchdog Yug
+25003004 Anri of Astora
+25003005 Horace the Hushed
+25003006 Holy Knight Hodrick
+25003007 Greirat of the Undead Settlement
+25003008 Cornyx of the Great Swamp
+25003009 Great Swamp Cuculus
+25003010 Ringfinger Leonhard
+25003011 Yellowfinger Heysel
+25003012 Longfinger Kirk
+25003013 Shira, Knight of Filianore
+25003014 Orbeck of Vinheim
+25003015 Daughter of Crystal Kriemhild
+25003016 Karla
+25003017 Yuria of Londor
+25003018 Londor Pale Shade
+25003019 Eygon of Carim
+25003020 Unbreakable Patches
+25003021 Hawkwood the Deserter
+25003022 Transcendent Edde
+25003023 Alva, Seeker of the Spurned
+25003024 Creighton the Wanderer
+25003025 Knight Slayer Tsorig
+25003026 Prince Ricard
+25003027 Havel the Rock
+25003028 Black Hand Gotthard
+25003029 Siegward of Catarina
+25003030 Glaive Master Hodir
+25003031 The Dashmaster
+25003032 Lucatiel of Mirrah
+25003033 Sellsword Luet
 

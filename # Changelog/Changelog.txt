@@ -35,20 +35,21 @@
 - The Advance Journey dialogue now takes place in a menu, and gives you 3 chances to exit before it puts you into NG+.
 
 # Companions
-- Added a Companion system. Allows you to assign yourself a companion, that you can summon to you anywhere in the game world. They act like summons, except they last forever and do not have any of the restrictions summons normally have regarding bosses.
+- Added a companion system, where you can summon special NPCs that will follow you about and fith for you.
+- To use a companion, you need to find their Incense item, which is used to summon them to your position. This item is reusable, but costs FP.
+- You can summon multiple companions at once.
+- These are the available companions:
+ - Solaire of Astora   - Solaire's Incense: Warrior of Sunlight
+ - Lautrec of Carim    - Lautrec's Incense: Mimic - Cathedral
+ - Paladin Leeroy      - Leeroy's Incense: Way of White
+ - Zullie the Witch    - Zullie's Incense: Pilgrim of Dark
+ - Transcendent Edde   - Edde's Incense: Dragon Remnants
+ - Sellsword Luet      - Luet's Incense: Treasure - High Wall
+ - Steelheart Ellie    - Ellie's Incense: Treasure - Undead Settlement
+ - Glaive Master Hodir - Hodir's Incense: Mimic - Ringed City
+ - Iron Knight Tarkus  - Tarkus's Incense: Treasure - Catacombs of Carthus
+ - Havel the Rock      - Havel's Incense: Treasure - Archdragon Peak
 
-- To begin using a companion, you must assign one at the Altar of Kinship. This is found behind Lothric's throne in Firelink Shrine.
-
-- Having assigned a companion, you can then summon them using the Beckoning Incense. This is a re-usable tool that warps them to your current location. It is found in front of Ludleth in Firelink Shrine.
-
-- Companions are made available when you have acquired certain items.
- - Knight Solaire: have the Warrior of Sunlight covenant item.
- 
-- Notes:
- - The strength of companions varies based on the map you are in.
- - You will need to use the Beckoning Incense to get your companion past fogwalls or places where the navmesh doesn't support transition. 
- - If your companion dies, you'll need to reload the map to summon them again.
- 
 # Status Effects
 - Frost:
  - Cannot be re-applied for 8 seconds.
@@ -65,7 +66,7 @@
 - Cornyx now removes the Profaned Pyromancy Tome when taking it.
 - Karla no longer appears in Irithyll Dungeon.
 - Wave damage in the Trial no longer requires the player to be the source to count.
-- Dreams/Nightmares/Beckoning Incense cannot be used as a client player.
+- Dreams/Nightmares cannot be used as a client player.
 
 #------------------------------
 # TODO
@@ -78,84 +79,6 @@ Add new Chr type (add action script)
 Look at Ashes Focus Blast anim on Caestus
 Velka's Talisman (add missing dp)
 Priest's Candlestick (add missing dp)
-Fix Quintus NPC
 
 Lucky infusion: adds variable damage buff/debuff on attacks
 
-# TODO
-Add more companions:
-10000 Darkmoon Faithful
- Sirris of the Sunless Realms
- 
-10020 Watchdogs of Farron
- Watchdog Yug (NEW)
-
-10030 Aldrich Faithful
- Anri of Astora
- Horace the Hushed
-
-10050 Mound-makers
- Holy Knight Hodrick
-
-10060 Thieves' Pact
- Greirat of the Undead Settlement
-
-10070 Chaos Servant
- Cornyx of the Great Swamp
- Great Swamp Cuculus
-
-10080 Rosaria's Fingers
- Ringfinger Leonhard
- Yellowfinger Heysel
- Longfinger Kirk
- 
-10090 Spears of the Church
- Shira
-
-10100 Vinheim Scholars
- Orbeck of Vinheim
- Daughter of Crystal Kriemhild
- 
-10110 Pilgrims of Dark
- Karla
- Yuria of Londor
- Londor Pale Shade
-
-10120 Way of White
- Eygon of Carim
- Patches
-
-10130 Dragon Remnants
- Hawkwood the Deserter
- Transcendent Edde (NEW)
- 
-6080000 Murakumo
- Alva, Seeker of the Spurned
- 
-2005 Small Doll
- Creighton the Wanderer
- 
-6350000 Fume Ultra Greatsword
- Knight Slayer Tsorig
- 
-3030000 Ricard's Rapier
- Prince Ricard
- 
-8260000 Dragon Tooth
- Havel the Rock
- 
-2014 Grand Archives Key
- Black Hand Gotthard
- 
-6370000 Storm Ruler
- Siegward of Catarina
- 
-30800 Elden Ring
- Glaive Master Hodir
- 
-30900 Dashmaster's String
- The Dashmaster (NEW)
- 
- Lucatiel of Mirrah
- 
- Sellsword Luet
