@@ -103,39 +103,39 @@
 1396 Consumed King's Staff
 1397 Rotten Talisman
 1398 Smouldering Talisman
-1399 Coiled Stake 
-1400 Deacon's Candle
-1401 Deacon's Candlestick
-1402 Gael's Dusty Greatsword
-1403 Wax-covered Candlestick
-1404 Hands of Sin
-1405 Aldia Hammer
-1406 Black Scorpion Stinger
-1407 Dragonrider Twinblade
-1408 Drakekeeeper's Great Hammer
-1409 Drakekeeper's Greataxe
-1410 Drakekeeper's Warpick
-1411 Drakewing Ultra Greatsword
-1412 Gargoyle Bident
-1413 Giant Warrior Club
-1414 Helix Halberd
-1415 Malformed Skull
-1416 Melu Scimitar
-1417 Old Knight Halberd
-1418 Old Knight Hammer
-1419 Old Knight Pike
-1420 Red Rust Scimitar
-1421 Roaring Halberd
-1422 Sanctum Mace
-1423 Spider's Silk
-1424 Spitfire Spear
-1425 Syan's Halberd
-1426 Warped Sword
-1427 Cracked Round Shield
-1428 Frying Pan
-1429 Giant's Crossbow
-1430 Serpentine Chain-axe
-1431 Model Ballista
+1399 
+1400 
+1401 
+1402 
+1403 
+1404 
+1405 
+1406 
+1407 
+1408 
+1409 
+1410 
+1411 
+1412 
+1413 
+1414 
+1415 
+1416 
+1417 
+1418 
+1419 
+1420 
+1421 
+1422 
+1423 
+1424 
+1425 
+1426 
+1427 
+1428 
+1429 
+1430 
+1431 
 
 # Block 2
 2108 Pharros Lockstone (Unassigned)
@@ -151,29 +151,29 @@
 2118 Old Sun Ring
 2119 Ring of Thorns (Unassigned)
 2120 Red String (Unassigned)
-2121 Bone Ash Katana
-2122 Fist of Gratia
-2123 Imperious Greatshield
-2124 Carthus Blindfold
-2125 Crown of Filianore
-2126 Ludleth's Crown
-2127 Mask of Sin
-2128 Old Demon King's Crown
-2129 Poisonhorn Helmet
-2130 Pygmy Crown
-2131 Lothric Thief Cowl
-2132 Hollow Head
-2133 Basilisk Cap
-2134 Crown of the Holy King
-2135 Mailed Soldier Helmet
-2136 Pot Helmet
-2137 Priest Mask
-2138 Butterfly Kunai
-2139 Gun Fort Bayonet
-2140 Monk Staff
-2141 Monk Twinblade
-2142 Shinobi Hunter Spear
-2143 Snake Eyes Cannon
+2121 
+2122 
+2123 
+2124 
+2125 
+2126 
+2127 
+2128 
+2129 
+2130 
+2131 
+2132 
+2133 
+2134 
+2135 
+2136 
+2137 
+2138 
+2139 
+2140 
+2141 
+2142 
+2143 
 
 # Block 3
 3512 Alonne Head
@@ -209,37 +209,37 @@
 3542 Okami Mask
 3543 Seven Spear Helmet
 3544 Tengu Mask
-3545 Armored Warrior Sword
-3546 Black Mortal Blade
-3547 Centipede Claws
-3548 Corrupted Monk Dagger
-3549 Corrupted Monk Glaive
-3550 Drunkard Sword
-3551 Emma's Gentle Blade
-3552 Genichiro's Blade
-3553 Genichiro's Bow
-3554 Guardian Ape Sword
-3555 Gyoubu's Spear
-3556 Headless Sword 
-3557 Kusabimaru
-3558 Loaded Axe
-3559 Loaded Spear
-3560 Mortal Blade
-3561 Nightjar Sickle
-3562 Nightjar Twinsickles
-3563 Okami Bow
-3564 Okami Glaive
-3565 Okami Sword
-3566 Owl's Sword
-3567 Rat Dagger
-3568 Sabimaru
-3569 Seven Ashina Spear
-3570 Shichimen Staff
-3571 Sword Saint's Gun
-3572 Sword Saint's Spear
-3573 Tengu Sword
-3574 Demon of Hatred Head
-3575 Monk Straw Hat
+3545 Demon of Hatred Head
+3546 Monk Straw Hat
+3547 Carthus Blindfold
+3548 Crown of Filianore
+3549 Mask of Sin
+3550 Old Demon King's Crown
+3551 Poisonhorn Helmet
+3552 Pygmy Crown
+3553 Vagabond Cowl
+3554 Hollow Head
+3555 Basilisk Cap
+3556 Crown of the Holy King
+3557 Mailed Soldier Helmet
+3558 Pot Helmet
+3559 Priest Mask
+3560 Ludleth's Crown
+3561 
+3562 
+3563 
+3564 
+3565 
+3566 
+3567 
+3568 
+3569 
+3570 
+3571 
+3572 
+3573
+3574 
+3575 
 
 # Block 4
 4150 Shockwave
@@ -450,8 +450,8 @@
 6085 Cinder
 6086 Frost Crystal
 6087 Lightning Stone
-6088 Taro Mace
-6089 Taro Mallet
+6088 
+6089 
 6090
 6091 Pygmy Brooch
 6092 Arcane Trinket

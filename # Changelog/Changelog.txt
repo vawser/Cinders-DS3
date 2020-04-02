@@ -31,6 +31,9 @@
 # Changelog
 #------------------------------
 
+# Companions
+- Added NG+ scaling so they don't drop off so much.
+
 # Items
 - Moved some spells around in the tomes.
 - Moved the Sunlight Tome to a chest in Irithyll
@@ -43,10 +46,124 @@
 Velka's Talisman (add missing dp) 9948
 Priest's Candlestick (add missing dp) 8000
 
-Add new weapons
-Add new armor
-Do the weapon/armor icons
+Blacksmith's Nightmare:
+ Smelter Demon Set + Smelter Sword
+ 
+The Rampart Golem:
+ Rampart Golem Set + Rampart Golem Lance
 
+Sir Alonne:
+ Alonne Knight Set + Betwitched Alonne Sword
+
+Wandering Knight:
+ Heide Knight Set + Lightning Longsword
+ 
+Easterner Genichiro
+ Easterner's Set + Genichiro's Helmet
+ 
+Easterner Gyoubu
+ Easterner's Set + Gyoubu's Helm
+ 
 Add new Chr type (add action script)
-Look at Ashes Focus Blast anim on Caestus
 
+# Eastern
+3512 Alonne's 
+3513 Alonne's Armor
+3514 Alonne's Gauntlets
+3515 Alonne's Leggings
+
+# Ruin
+3516 Rampart Golem Helm
+3517 Rampart Golem Armor
+3518 Rampart Golem Gauntlets
+3519 Rampart Golem Leggings
+
+# Yhorm
+3520 Smelter Demon Helm
+3521 Smelter Demon Armor
+3522 Smelter Demon Gauntlets
+3523 Smelter Demon Leggings
+
+# Vilhelm
+3524 Bone Ash Mask
+3525 Bone Ash Armor
+3526 Bone Ash Gauntlets
+3527 Bone Ash Leggings
+
+# Black Knight
+3528 Heide Knight Greathelm
+3529 Heide Knight Chainmail
+3530 Heide Knight Gauntlets
+3531 Heide Knight Leggings
+
+# Drakeblood
+3532 Imperious Head
+3533 Imperious Armor
+3534 Imperious Gauntlets
+3535 Imperious Leggings
+
+# Grotto
+3536 Black Straw Hat
+
+# Father Mask
+3537 Mask of Horror
+
+# Gargoyle Skull
+3538 Imperial Samurai Helm
+
+# Gargoyle Skull
+3539 Horned Samurai Helm
+
+# Father Mask
+3540 Mask of Cruelty
+
+# Father Mask
+3541 Mask of Serenity
+
+# Gargoyle Skull
+3542 Ornate Samurai Helm
+
+# Father Mask
+3543 Mask of War
+
+# Grotto
+3544 Tan Straw Hat
+
+# Blindfold Mask
+3545 Carthus Blindfold
+
+# Ancient King
+3546 Crown of Filianore
+
+# Drakeblood
+3547 Mask of Sin
+
+# Ludleth's Crown
+3548 Old Demon King's Crown
+
+# White Preacher Head
+3549 Poisonhorn Helmet
+
+# Ludleth's Crown
+3550 Pygmy Crown
+
+# White Preacher Head
+3551 Vagabond Cowl
+
+# White Preacher Head
+3552 Hollow Head
+
+# White Preacher Head
+3553 Basilisk Cap
+
+# Ancient King
+3554 Crown of the Holy King
+
+# Deserter
+3555 Deserter Helm
+
+# Drakeblood
+3556 Pot
+
+# White Preacher Head
+3557 Raven Mask
