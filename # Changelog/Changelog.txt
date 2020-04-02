@@ -65,11 +65,15 @@
  - 3%: +20%
  - 2%: +25%
  
-# Catalysts
+# Weapons
 - The Lucky catalysts now have damage variance (same as the Lucky infusion for weapons).
+- Reduced damage of Ciaran's Tracers slightly and increased stamina costs.
 
 # Rings
 - Ring of Punishment critical hit chance scales up to 10% if the weapon is Lucky.
+
+# Items
+- Brightbug now counts as a body buff.
 
 # Status Effects
 - Frost:
