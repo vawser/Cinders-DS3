@@ -4764,12 +4764,15 @@ Event(20009300, Restart, function() {
     
     SetEventFlag(25000010, ON); // Deathless Run
     
+    
     // Enable Firelink Shrine bonfire
     SetBonfireWarpingState(4001950, 60430, Enabled);
     SetEventFlag(74000010, OFF);
     SetEventFlag(14000101, ON);
     SetEventFlag(13100004, ON);
     SetEventFlag(13000000, ON);
+    
+    SetEventFlag(74000171, 1) // Transposition Enabled
     
     // Deathless Boss Kill Flags
     SetEventFlag(25000020, OFF); // Corrupted Gundyr

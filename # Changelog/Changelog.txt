@@ -14,30 +14,80 @@
 54002053 Cemetery of Ash / Unturned Graves
 53002097 High Wall of Lothric / Consumed King's Garden
 53102091 Undead Settlement
-53302172 Road of Sacrifices / Farron Keep
+53302173 Road of Sacrifices / Farron Keep
 53502080 Cathedral of the Deep
-53802171 Catacombs of Carthus / Smouldering Lake
+53802172 Catacombs of Carthus / Smouldering Lake
 53702144 Irithyll of the Boreal Valley / Anor Londo
 53902115 Irithyll Dungeon / Profaned Capital
 53012089 Lothric Castle
-53412124 Grand Archives
+53412130 Grand Archives
 54102010 Kiln of the First Flame
 53202072 Archdragon Peak
 54502070 Painted World of Ariandel
 55002057 Dreg Heap
-55102055 The Ringed City
+55102056 The Ringed City
 
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Enabled the Undead Match by default, Champion's Ashes are no longer needed.
+- Enabled Transposition without the need for the Transposing Kiln.
+
 # Companions
-- Added NG+ scaling so they don't drop off so much.
+- Removed all but Solaire. This is due to the instability adding so many was causing.
+- Added NG+ scaling so Solaire doesn't drop off so much.
+- Changed Solaire's Incense into Incense of Cooperation and placed it in front of Ludleth.
 
 # Items
 - Moved some spells around in the tomes.
 - Moved the Sunlight Tome to a chest in Irithyll
 - Moved the Abyssal Tome to a chest in Irithyll
 - Moved the Angelic Tome to the cage location in Grand Archives.
+
+# Armor
+- Added Smelter Demon Set.
+- Added Rampart Golem Set.
+- Added Heide Knight Set.
+- Added Bone Ash Set.
+- Added Imperious Set. Sold by the Shrine Handmaid after killing Yhorm the Giant.
+- Added Pygmy Crown. Sold by the Shrine Handmaid after killing the Slave Knight Gael. 
+- Added Deserter Helm. Found in High Wall.
+- Added Raven Mask. Found in Consumed King's Garden.
+- Added Imperial Samurai Helm.
+- Added Horned Samurai Helm.
+- Added Ornate Samurai Helm.
+- Added Mask of Horror. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
+- Added Mask of Cruelty. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
+- Added Mask of Serenity. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
+- Added Mask of War. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
+- Added Pot. 
+- Added Crown of Filianore.
+- Added Crown of the Holy King. Sold by the Shrine Handmaid after killing the Twin Princes.
+- Added Old Demon's King Crown. Sold by the Shrine Handmaid after killing the Old Demon King.
+- Added Basilisk Cap. Found in Road of Sacrifices.
+- Added Poisonhorn Cap. Found in Road of Sacrifices.
+- Added Black Metal Hat. Found in Profaned Capital.
+- Added Tan Straw Hat. Found in Undead Settlement.
+- Added Carthus Blindfold. Found in Catacombs of Carthus.
+- Added Mask of Sin. Found in Profaned Capital.
+- Added Vagabond Cowl. Found in the Ringed City.
+- Added Hollow Head. Found in Firelink Shrine.
+
+# Enemies
+- Added Blacksmith's Nightmare in Untended Graves. Drops Smelter Demon Set.
+- Added Ashen Keeper Sofija in Untended Graves. Drops Bone Ash Set.
+- Added Frozen Knight Torbjorn in Ariandel. Drops Rampart Golem Set.
+- Added Wandering Knight Osvaldo in Road of Sacrifices. Drops Heide Knight Set.
+- Added Bewitched Knight Iwai in Profaned Capital. Drops Alonne's Set.
+- Added Lord Takatsuji in Profaned Capital. Drops Imperial Samurai Helm.
+- Added Lieutenant Ugali in Profaned Capital. Drops Horned Samurai Helm.
+- Added Lieutenant Hanji in Profaned Capital. Drops Ornate Samurai Helm.
+- Mad Pilgrim in Gael's arena drops the Pygmy Crown.
+
+# Events
+- Using Prostration in front of the estus pot in the Distant Manor in Irithyll rewards the Pot.
+- Using Prostration in front of Princess Filianore rewards the Crown of Filianore.
 
 # Bugfixes
 - Fixed various bugs.
@@ -47,173 +97,7 @@
 #------------------------------
 Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
-
+Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
 
-# NPCs
-Blacksmith's Nightmare:
- Smelter Demon Set + Smelter Sword
- 
-The Rampart Golem:
- Rampart Golem Set + Rampart Golem Lance
 
-Sir Alonne:
- Alonne Knight Set + Betwitched Alonne Sword
-
-Wandering Knight:
- Heide Knight Set + Lightning Longsword
- 
-Lord Katel
- Easterner's Set + Imperial Samurai Helm
- 
-Lieutenant Ugali
- Easterner's Set + Horned Samurai Helm
- 
-Lieutenant Hanji
- Easterner's Set + Ornate Samurai Helm
- 
-# Gesture Treasures
-Pot
- Prostration in front of estus pot in Irithyll
- 
-Crown of Filianore
- Prostration in front of Filianore
- 
-Crown of the Holy King
- Prostration in front of Lothric's bed
- 
-# Treasures
-Basilisk Cap
-Poisonhorn Cap
- 
-Add new Chr type (add action script)
-
-# Eastern
-3512 Alonne's Helm
-3513 Alonne's Armor
-3514 Alonne's Gauntlets
-3515 Alonne's Leggings
-99400000
-
-# Ruin
-3516 Rampart Golem Helm
-3517 Rampart Golem Armor
-3518 Rampart Golem Gauntlets
-3519 Rampart Golem Leggings
-99410000
-
-# Yhorm
-3520 Smelter Demon Helm
-3521 Smelter Demon Armor
-3522 Smelter Demon Gauntlets
-3523 Smelter Demon Leggings
-99420000
-
-# Vilhelm
-3524 Bone Ash Mask
-3525 Bone Ash Armor
-3526 Bone Ash Gauntlets
-3527 Bone Ash Leggings
-99430000
-
-# Black Knight
-3528 Heide Knight Greathelm
-3529 Heide Knight Chainmail
-3530 Heide Knight Gauntlets
-3531 Heide Knight Leggings
-99440000
-
-# Drakeblood
-3532 Imperious Head
-3533 Imperious Armor
-3534 Imperious Gauntlets
-3535 Imperious Leggings
-99450000
-
-# Father Mask
-3537 Mask of Horror
-99460000
-
-# Father Mask
-3540 Mask of Cruelty
-99470000
-
-# Father Mask
-3541 Mask of Serenity
-99480000
-
-# Father Mask
-3543 Mask of War
-99490000
-
-# Gargoyle Skull
-3538 Imperial Samurai Helm
-99500000
-
-# Gargoyle Skull
-3539 Horned Samurai Helm
-99510000
-
-# Gargoyle Skull
-3542 Ornate Samurai Helm
-99520000
-
-# Grotto
-3536 Black Metal Hat
-99530000
-
-# Grotto
-3544 Tan Straw Hat
-99540000
-
-# Blindfold Mask
-3545 Carthus Blindfold
-99550000
-
-# Ancient King
-3546 Crown of Filianore
-99560000
-
-# Ancient King
-3554 Crown of the Holy King
-99570000
-
-# Ludleth's Crown
-3550 Pygmy Crown
-99580000
-
-# Ludleth's Crown
-3548 Old Demon King's Crown
-99590000
-
-# Drakeblood
-3547 Mask of Sin
-99600000
-
-# White Preacher Head
-3549 Poisonhorn Cap
-99610000
-
-# White Preacher Head
-3551 Vagabond Cowl
-99620000
-
-# White Preacher Head
-3552 Hollow Head
-99630000
-
-# White Preacher Head
-3553 Basilisk Cap
-99640000
-
-# Deserter
-3555 Deserter Helm
-99650000
-
-# Drakeblood
-3556 Pot
-99660000
-
-# White Preacher Head
-3557 Raven Mask
-99670000
