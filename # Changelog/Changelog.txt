@@ -30,7 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Companions
 - Added NG+ scaling so they don't drop off so much.
 
@@ -40,12 +39,18 @@
 - Moved the Abyssal Tome to a chest in Irithyll
 - Moved the Angelic Tome to the cage location in Grand Archives.
 
+# Bugfixes
+- Fixed various bugs.
+
 #------------------------------
 # TODO
 #------------------------------
-Velka's Talisman (add missing dp) 9948
-Priest's Candlestick (add missing dp) 8000
+Make Priest's Candlestick normal weapon (add spell WA)
+Change Breaking Wheel moveset + Power Within WA
 
+Velka's Talisman (add missing dp) 9948
+
+# NPCs
 Blacksmith's Nightmare:
  Smelter Demon Set + Smelter Sword
  
@@ -58,112 +63,157 @@ Sir Alonne:
 Wandering Knight:
  Heide Knight Set + Lightning Longsword
  
-Easterner Genichiro
- Easterner's Set + Genichiro's Helmet
+Lord Katel
+ Easterner's Set + Imperial Samurai Helm
  
-Easterner Gyoubu
- Easterner's Set + Gyoubu's Helm
+Lieutenant Ugali
+ Easterner's Set + Horned Samurai Helm
+ 
+Lieutenant Hanji
+ Easterner's Set + Ornate Samurai Helm
+ 
+# Gesture Treasures
+Pot
+ Prostration in front of estus pot in Irithyll
+ 
+Crown of Filianore
+ Prostration in front of Filianore
+ 
+Crown of the Holy King
+ Prostration in front of Lothric's bed
+ 
+# Treasures
+Basilisk Cap
+Poisonhorn Cap
  
 Add new Chr type (add action script)
 
 # Eastern
-3512 Alonne's 
+3512 Alonne's Helm
 3513 Alonne's Armor
 3514 Alonne's Gauntlets
 3515 Alonne's Leggings
+99400000
 
 # Ruin
 3516 Rampart Golem Helm
 3517 Rampart Golem Armor
 3518 Rampart Golem Gauntlets
 3519 Rampart Golem Leggings
+99410000
 
 # Yhorm
 3520 Smelter Demon Helm
 3521 Smelter Demon Armor
 3522 Smelter Demon Gauntlets
 3523 Smelter Demon Leggings
+99420000
 
 # Vilhelm
 3524 Bone Ash Mask
 3525 Bone Ash Armor
 3526 Bone Ash Gauntlets
 3527 Bone Ash Leggings
+99430000
 
 # Black Knight
 3528 Heide Knight Greathelm
 3529 Heide Knight Chainmail
 3530 Heide Knight Gauntlets
 3531 Heide Knight Leggings
+99440000
 
 # Drakeblood
 3532 Imperious Head
 3533 Imperious Armor
 3534 Imperious Gauntlets
 3535 Imperious Leggings
-
-# Grotto
-3536 Black Straw Hat
+99450000
 
 # Father Mask
 3537 Mask of Horror
-
-# Gargoyle Skull
-3538 Imperial Samurai Helm
-
-# Gargoyle Skull
-3539 Horned Samurai Helm
+99460000
 
 # Father Mask
 3540 Mask of Cruelty
+99470000
 
 # Father Mask
 3541 Mask of Serenity
-
-# Gargoyle Skull
-3542 Ornate Samurai Helm
+99480000
 
 # Father Mask
 3543 Mask of War
+99490000
+
+# Gargoyle Skull
+3538 Imperial Samurai Helm
+99500000
+
+# Gargoyle Skull
+3539 Horned Samurai Helm
+99510000
+
+# Gargoyle Skull
+3542 Ornate Samurai Helm
+99520000
+
+# Grotto
+3536 Black Metal Hat
+99530000
 
 # Grotto
 3544 Tan Straw Hat
+99540000
 
 # Blindfold Mask
 3545 Carthus Blindfold
+99550000
 
 # Ancient King
 3546 Crown of Filianore
-
-# Drakeblood
-3547 Mask of Sin
-
-# Ludleth's Crown
-3548 Old Demon King's Crown
-
-# White Preacher Head
-3549 Poisonhorn Helmet
-
-# Ludleth's Crown
-3550 Pygmy Crown
-
-# White Preacher Head
-3551 Vagabond Cowl
-
-# White Preacher Head
-3552 Hollow Head
-
-# White Preacher Head
-3553 Basilisk Cap
+99560000
 
 # Ancient King
 3554 Crown of the Holy King
+99570000
+
+# Ludleth's Crown
+3550 Pygmy Crown
+99580000
+
+# Ludleth's Crown
+3548 Old Demon King's Crown
+99590000
+
+# Drakeblood
+3547 Mask of Sin
+99600000
+
+# White Preacher Head
+3549 Poisonhorn Cap
+99610000
+
+# White Preacher Head
+3551 Vagabond Cowl
+99620000
+
+# White Preacher Head
+3552 Hollow Head
+99630000
+
+# White Preacher Head
+3553 Basilisk Cap
+99640000
 
 # Deserter
 3555 Deserter Helm
+99650000
 
 # Drakeblood
 3556 Pot
+99660000
 
 # White Preacher Head
 3557 Raven Mask
+99670000

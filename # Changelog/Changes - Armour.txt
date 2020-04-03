@@ -73,7 +73,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Headshot Damage %: [0]
 
 # Heide Mask
-- Item Discovery: [1.1]
+- Skill FP Cost: [0.98]
 
 #----------------------------
 # Heavy (50 - 60)
@@ -90,12 +90,19 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Silver Knight Set
 - Stamina Recovery: [1, 2, 1, 2]
 
+# Heide Knight Set
+- Skill FP Cost: [0.98, 0.96, 0.99, 0.97]
+
 # Gloom Set
 - Endurance: [1, 2, 2]
 - Frost Inflict: [50]
 
 # Ruin Set
 - Endurance: [1, 2, 1, 2]
+
+# Rampart Golem
+- Strength: [1, 2, 2]
+- Frost Inflict: [50]
 
 # Gargoyle Helm
 - Equip Load: [1.05]
@@ -105,6 +112,15 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Crab Helmet
 - Boosts Stats by 40 below 25% HP
+
+# Imperial Samurai Helm
+- Dexterity: [3]
+
+# Horned Samurai Helm
+- Strength: [3]
+
+# Ornate Samurai Helm
+- Weapon Stamina Consumption: [0.95]
 
 # Lorian's Set
 - HP Regen: [1, 2, 1, 2]
@@ -122,11 +138,26 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Giant Slave Helmet
 - Soul Absorption: [1.05]
 
+# Old Demon King's Crown
+- Stamina Recovery: [5]
+
+# Pygmy Crown
+- Attunement: [5]
+
 #----------------------------
 # Medium 1 (30 - 40)
 #----------------------------
 # Drakeblood Set
 - Stamina Damage: [1.08, 1.16, 1.04, 1.12]
+
+# Imperious Set
+- Max HP: [1.016, 1.032, 1.008, 1.024]
+
+# Mask of Sin
+- Soul absorption: [1.05]
+
+# Pot
+- HP Estus Restore: [1.05]
 
 # Black Dragon Set
 - Strength: [2, 3, 1, 2]
@@ -137,6 +168,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Yhorm's Set
 - Vigor: [2, 3, 1, 2]
+
+# Smelter Demon Set
+- Pyromancy Cost: [0.97, 0.94, 0.985, 0.955]
 
 # Firelink Set
 - Soul Absorption: [1.03, 1.06, 1.015, 1.045]
@@ -152,6 +186,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Eastern Armor Set
 - Weapon Stamina Consumption: [0.984, 0.968, 0.992, 0.976]
+
+# Alonne Set
+- Dexterity: [2, 3, 1, 2]
 
 # Brass Set
 - Effect Duration: [1.08, 1.16, 1.04, 1.12]
@@ -174,6 +211,12 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Ancient King Set
 - Vigor: [2, 3, 2]
 - Curse Inflict: [30]
+
+# Crown of Filianore
+- HP Regen: [2]
+
+# Crown of the Holy King
+- Faith: [3]
 
 #----------------------------
 # Medium 2 (20 - 30)
@@ -204,6 +247,18 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Demon Cleric Mask
 - Cast Speed: [10]
+
+# Mask of Horror
+- Anti-Undead: [1.05]
+
+# Mask of Cruelty
+- Stamina Damage: [1.1]
+
+# Mask of Serenity
+- FP Regen: [2]
+
+# Mask of War
+- Stamina Recovery: [5]
 
 # Faraam Armor Set
 - Stamina Recovery: [2, 3, 1, 2]
@@ -249,6 +304,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Vilhelm's Set
 - Anti-Hollow: [1.016, 1.032, 1.008, 1.024]
+
+# Bone Ash Set
+- HP Estus Restore: [1.03, 1.06, 1.015, 1.045]
 
 # Varangian Set
 - Dexterity: [2, 3, 1, 2]
@@ -316,8 +374,26 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # White Preacher Head
 - Attunement: [2]
 
+# Poisonhorn Cap
+- Vigor: [3]
+
+# Hollow Head
+- Vitality: [3]
+
+# Basilisk Cap
+- Luck: [3]
+
+# Vagabond Cowl
+- Faith: [3]
+
+# Raven Mask
+- Intelligence: [2]
+
 # Deserter Set
 - Item Discovery: [1.1, 1.2, 1.15]
+
+# Deserter Helm
+- Item Discovery: [1.1]
 
 # Soldier's Hood
 - Item Discovery: [1.1]
@@ -343,6 +419,12 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Grotto Set
 - Intelligence: [2, 4, 3]
 - Poison Inflict: [50]
+
+# Black Straw Hat
+- Skill FP Cost: [1.05]
+
+# Tan Straw Hat
+- Skill FP Cost: [1.05]
 
 # Cleric Set
 - HP Estus Restore: [1.04, 1.08, 1.02, 1.06]
@@ -449,6 +531,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Blindfold Mask
 - Sorcery/Pyromancy/Miracle Cost: [0.98]
+
+# Carthus Blindfold
+- Dexterity: [3]
 
 # Antiquated Set
 - Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
