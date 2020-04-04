@@ -30,7 +30,7 @@ Magic:
 
 Fire:  
 - Adds Fire damage.
-- Adds effect: adds 5 + 0.2% damage DOT on hit, lasting 5 seconds.
+- Adds effect: adds 30 + 0.05% damage DOT on hit, lasting 5 seconds.
 
 Lightning:  
 - Adds Lightning damage.
@@ -46,7 +46,7 @@ Lucky:
 
 Enchanted:
 - Adds physical INT scaling.
-- Adds effect: grants 1 FP every second.
+- Adds effect: grants 3 FP every second.
 
 Holy:
 - Adds physical FTH scaling.
@@ -77,7 +77,7 @@ Morion Blade
 - Effect: boosts attack by 10% whilst below 25% health.
 
 Executioner's Greatsword
-- Effect: absorbs FP on hit, restoring 1% FP.
+- Effect: absorbs FP on kill, restoring 5% FP.
 
 Crystal Sage's Rapier
 - Effect: increases Item Discovery by 25.
@@ -170,7 +170,7 @@ Blind
 - Effect: reduces poise by 50% for 15 seconds on hit. Stacks.
 
 Blueblood Sword
-- Effect: absorb FP on hit, restoring 1% FP.
+- Effect: absorb FP on hit, restoring 5% FP.
 
 Bramd
 - Effect: restores 2 HP every second.
@@ -197,7 +197,7 @@ Drake Sword
 - Effect: increases Fire absorption by 5%.
 
 Sage's Stiletto
-- Effect: absorb FP on hit, restoring 1% FP.
+- Effect: absorb FP on hit, restoring 4% FP.
 
 Grant
 - Effect: reduces the FP consumption of miracles by 10%.

@@ -2949,6 +2949,14 @@ Event(400400, Default, function(X0_4) {
     SetEventFlag(13200436, OFF); // Gaius the Mighty
     SetEventFlag(13410259, OFF); // Quintus the Monstrous
     
+    SetEventFlag(13300606, OFF); // Wandering Knight Osvaldo
+    SetEventFlag(13900110, OFF); // Bewitched Knight Iwai
+    SetEventFlag(13900111, OFF); // Lord Takatsuji
+    SetEventFlag(13900112, OFF); // Lieutenant Ugali
+    SetEventFlag(13900113, OFF); // Lieutenant Hanji
+    SetEventFlag(14000860, OFF); // Blacksmith's Nightmare
+    SetEventFlag(14000861, OFF); // Ashen Keeper Sofija
+    
     SetPlayerRespawnPoint(4002950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);

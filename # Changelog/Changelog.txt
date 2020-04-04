@@ -83,14 +83,40 @@
 - Added Lord Takatsuji in Profaned Capital. Drops Imperial Samurai Helm.
 - Added Lieutenant Ugali in Profaned Capital. Drops Horned Samurai Helm.
 - Added Lieutenant Hanji in Profaned Capital. Drops Ornate Samurai Helm.
-- Mad Pilgrim in Gael's arena drops the Pygmy Crown.
 
 # Events
 - Using Prostration in front of the estus pot in the Distant Manor in Irithyll rewards the Pot.
 - Using Prostration in front of Princess Filianore rewards the Crown of Filianore.
 
+# Weapons
+- Dagger 1H Heavy R1 is now a thrust.
+- Greatsword 1H Heavy R1 is now a thrust.
+- Axe 1H Heavy R1 is now an upward slash.
+- Hammer 1H Heavy R1 is now an side strike.
+- Great Hammer 1H Heavy R1 is now an side strike.
+- Boosted the motion value for heavy attacks (in general):
+ 1H Heavy (Uncharged): 140% of base
+ 1H Heavy (Charged): 180% of base
+ 2H Heavy (Uncharged): 150% of base
+ 2H Heavy (Charged): 200% of base
+- Weapons with Warcry animation swaps get an extra +20% for the heavy attacks during the Warcry duration.
+- Reduced the damage of the Phosophrescent Pole.
+
+# Infusions
+- Enchanted restores 3 FP per second.
+- Clarity restores 3 FP per second.
+- Magic restores much more FP on hit (3 to 9% on hit). Also adjusted weapons with this effect innately.
+- Fire deals less damage % damage, but more flat damage with its DOT.
+- Dark restores more HP on hit.
+
+# Spells
+- Increased the FP cost of spells, greatly so for high-tier spells to reflect their power. This is to make sustaining high damage much more expensive in the late game, and to increase the value of FP regen/cost reduction.
+- Soul Greatsword now just costs less FP when ascended, doesn't switch cast animations. This is to retain its AOE use.
+ 
 # Bugfixes
 - Fixed various bugs.
+- NPCs that use weapons with the Bloodlust WA now have special versions that don't have it, to stop them killing themslves.
+- Added new NPCs to Blood of Might script.
 
 #------------------------------
 # TODO
@@ -99,5 +125,17 @@ Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
 Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
+
+Move Swordmaster (Firelink) to otherside of corrupted gundyr
+Restore the Road of Sacrifices bonfire
+
+# Heavy attack motion values:
+Dragonslayer Swordspear 
+
+140
+180
+
+150
+200
 
 
