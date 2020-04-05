@@ -1687,7 +1687,6 @@ Event(400000, Default, function() {
     // Spells
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
-
     // Items
     InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
     InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
@@ -1725,6 +1724,17 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400607, 160706071, 160706070); // Blessed Stone
     InitializeEvent(0, 400608, 160706081, 160706080); // Enchanted Stone
     InitializeEvent(0, 400609, 160706091, 160706090); // Cleansing Stone
+    
+    // No Hit State
+    InitializeEvent(0, 400700, 0);
+});
+
+// No Hit State
+Event(400700, Default, function() {
+    SetEventFlag(25006000, 0);
+    IfCharacterHasSpeffect(MAIN, 10000, 112060, true, ComparisonType.Equal, 1);
+    SetEventFlag(25006000, 1);
+    EndUnconditionally(EventEndType.End);
 });
 
 // Rattling Finger

@@ -30,14 +30,23 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Millwood Knight Set
 - Vigor: [1, 2, 1, 2]
 
+# Mirror Knight Set
+- Faith: [1, 2, 1, 2]
+
 # Dragonrider Set
 - Strength: [1, 2, 1, 2]
 
 # Catarina Set
 - Deflection: [6, 12, 3, 9]
 
+# Steel Set
+- Max HP: [1.02, 1.024, 1.006, 1.018]
+
 # Cathedral Knight Set
 - Miracle Cost: [0.98, 0.96, 0.99, 0.97]
+
+# Drakekeeper Set
+- Stamina Damage: [1.06, 1.12, 1.03, 1.09]
 
 # Black Iron Set
 - Vitality: [1, 2, 1, 2]
@@ -92,6 +101,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Heide Knight Set
 - Skill FP Cost: [0.98, 0.96, 0.99, 0.97]
+
+# Syan Knight Set
+- Vigor: [1, 2, 1, 2]
 
 # Gloom Set
 - Endurance: [1, 2, 2]
@@ -150,6 +162,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Drakeblood Set
 - Stamina Damage: [1.08, 1.16, 1.04, 1.12]
 
+# Mad Warrior Set
+- Skill FP Cost: [0.98, 0.96, 0.99, 0.97]
+
 # Imperious Set
 - Max HP: [1.016, 1.032, 1.008, 1.024]
 
@@ -165,6 +180,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Ringed Knight Set
 - Anti-Abyssal: [1.016, 1.032, 1.008, 1.024]
+
+# Ivory King Set
+- Anti-Demon: [1.016, 1.032, 1.008, 1.024]
 
 # Yhorm's Set
 - Vigor: [2, 3, 1, 2]
@@ -293,6 +311,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Fallen Knight Set
 - Anti-Demon: [1.016, 1.032, 1.008, 1.024]
 
+# Hallowed Knight Set
+- Anti-Undead: [1.016, 1.032, 1.008, 1.024]
+
 # Armor of the Sun Set
 - HP Estus Restore: [1.03, 1.06, 1.015, 1.045]
 
@@ -314,6 +335,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Wolnir's Crown
 - STR/DEX/INT/FTH: [1]
 
+# Crown of the Fallen
+- Intelligence: [3]
+
 # Northern Set
 - Max Stamina: [1.016, 1.032, 1.008, 1.024]
 
@@ -325,6 +349,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 #----------------------------
 # Nameless King Set
 - Miracle Cost: [0.96, 0.92, 0.98, 0.94]
+
+# Courtier Set
+- Soul absorption: [1.04, 1.08, 1.02, 1.06]
 
 # Follower Set
 - Endurance: [2, 4, 1, 3]

@@ -4831,9 +4831,12 @@ Event(20009300, Restart, function() {
     SetEventFlag(25000099, ON); // Execution flag
 });
 
-// Iudex Gundyr
+// Corrupted Gundyr
 Event(20020000, Restart, function() {
     SetEventFlag(25001001, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210000);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000020, ON);
@@ -4843,6 +4846,9 @@ Event(20020000, Restart, function() {
 Event(20020001, Restart, function() {
     SetEventFlag(25001002, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210010);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000021, ON);
 });
@@ -4850,6 +4856,9 @@ Event(20020001, Restart, function() {
 // Curse-rotted Greatwood
 Event(20020002, Restart, function() {
     SetEventFlag(25001003, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210020);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000022, ON);
@@ -4859,6 +4868,9 @@ Event(20020002, Restart, function() {
 Event(20020003, Restart, function() {
     SetEventFlag(25001004, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210030);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000023, ON);
 });
@@ -4866,6 +4878,9 @@ Event(20020003, Restart, function() {
 // Deacons of the Deep
 Event(20020004, Restart, function() {
     SetEventFlag(25001005, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210040);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000024, ON);
@@ -4875,6 +4890,9 @@ Event(20020004, Restart, function() {
 Event(20020005, Restart, function() {
     SetEventFlag(25001006, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210050);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000025, ON);
 });
@@ -4882,6 +4900,9 @@ Event(20020005, Restart, function() {
 // High Lord Wolnir
 Event(20020006, Restart, function() {
     SetEventFlag(25001007, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210060);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000026, ON);
@@ -4891,6 +4912,9 @@ Event(20020006, Restart, function() {
 Event(20020007, Restart, function() {
     SetEventFlag(25001008, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210070);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000027, ON);
 });
@@ -4898,6 +4922,9 @@ Event(20020007, Restart, function() {
 // Pontiff Sulyvahn
 Event(20020008, Restart, function() {
     SetEventFlag(25001009, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210080);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000028, ON);
@@ -4907,6 +4934,9 @@ Event(20020008, Restart, function() {
 Event(20020009, Restart, function() {
     SetEventFlag(25001010, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210090);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000029, ON);
 });
@@ -4914,6 +4944,9 @@ Event(20020009, Restart, function() {
 // Yhorm the Giant
 Event(20020010, Restart, function() {
     SetEventFlag(25001011, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210100);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000030, ON);
@@ -4923,6 +4956,9 @@ Event(20020010, Restart, function() {
 Event(20020011, Restart, function() {
     SetEventFlag(25001012, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210110);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000031, ON);
 });
@@ -4930,6 +4966,9 @@ Event(20020011, Restart, function() {
 // Oceiros, the Consumed King
 Event(20020012, Restart, function() {
     SetEventFlag(25001013, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210120);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000032, ON);
@@ -4939,6 +4978,9 @@ Event(20020012, Restart, function() {
 Event(20020013, Restart, function() {
     SetEventFlag(25001014, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210130);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000033, ON);
 });
@@ -4946,6 +4988,9 @@ Event(20020013, Restart, function() {
 // Ancient Wyvern
 Event(20020014, Restart, function() {
     SetEventFlag(25001015, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210140);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000034, ON);
@@ -4955,6 +5000,9 @@ Event(20020014, Restart, function() {
 Event(20020015, Restart, function() {
     SetEventFlag(25001016, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210150);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000035, ON);
 });
@@ -4962,6 +5010,9 @@ Event(20020015, Restart, function() {
 // Champion Gundyr
 Event(20020016, Restart, function() {
     SetEventFlag(25001017, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210160);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000036, ON);
@@ -4971,6 +5022,9 @@ Event(20020016, Restart, function() {
 Event(20020017, Restart, function() {
     SetEventFlag(25001018, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210170);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000037, ON);
 });
@@ -4978,6 +5032,9 @@ Event(20020017, Restart, function() {
 // Soul of Cinder
 Event(20020018, Restart, function() {
     SetEventFlag(25001019, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210180);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000038, ON);
@@ -4987,6 +5044,9 @@ Event(20020018, Restart, function() {
 Event(20020019, Restart, function() {
     SetEventFlag(25001020, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210190);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000039, ON);
 });
@@ -4994,6 +5054,9 @@ Event(20020019, Restart, function() {
 // The Triad
 Event(20020020, Restart, function() {
     SetEventFlag(25001021, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210200);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000040, ON);
@@ -5003,6 +5066,9 @@ Event(20020020, Restart, function() {
 Event(20020021, Restart, function() {
     SetEventFlag(25001022, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210210);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000041, ON);
 });
@@ -5010,6 +5076,9 @@ Event(20020021, Restart, function() {
 // Darkeater Midir 
 Event(20020022, Restart, function() {
     SetEventFlag(25001023, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210220);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000042, ON);
@@ -5019,6 +5088,9 @@ Event(20020022, Restart, function() {
 Event(20020023, Restart, function() {
     SetEventFlag(25001024, ON);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210230);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000043, ON);
 });
@@ -5026,6 +5098,9 @@ Event(20020023, Restart, function() {
 // Halflight
 Event(20020024, Restart, function() {
     SetEventFlag(25001025, ON);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800210240);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
     SetEventFlag(25000044, ON);

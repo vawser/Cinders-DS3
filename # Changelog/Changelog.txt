@@ -33,6 +33,7 @@
 # General
 - Enabled the Undead Match by default, Champion's Ashes are no longer needed.
 - Enabled Transposition without the need for the Transposing Kiln.
+- All bosses now have a no hit reward. In general they will reward you with a Soul of a Great Champion everytime you do a no hit kill, although some will have one-time rewards like Ludleth's Crown from Soul of Cinder.
 
 # Companions
 - Removed all but Solaire. This is due to the instability adding so many was causing.
@@ -117,6 +118,7 @@
 - Fixed various bugs.
 - NPCs that use weapons with the Bloodlust WA now have special versions that don't have it, to stop them killing themslves.
 - Added new NPCs to Blood of Might script.
+- No Hit state now checks if the enemy has hit you, rather than your current health.
 
 #------------------------------
 # TODO
@@ -125,17 +127,17 @@ Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
 Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
+Move Pontiff elevator back and change script to disable it.
 
-Move Swordmaster (Firelink) to otherside of corrupted gundyr
-Restore the Road of Sacrifices bonfire
+99680000 Crown of Illusions 
+99690000 Hallowed Knight Set  
+99700000 Courtier Set 
+99710000 Steel Set 
+99720000 Drakekeeper Set 
+99730000 Ivory King Set 
+99740000 Mad Warrior Set 
+99750000 Mirror Knight Set 
+99760000 Syan Knight Set 
 
-# Heavy attack motion values:
-Dragonslayer Swordspear 
-
-140
-180
-
-150
-200
-
+ 
 

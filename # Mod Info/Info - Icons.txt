@@ -103,26 +103,26 @@
 1396 Consumed King's Staff
 1397 Rotten Talisman
 1398 Smouldering Talisman
-1399 
-1400 
-1401 
-1402 
-1403 
-1404 
-1405 
-1406 
-1407 
-1408 
-1409 
-1410 
-1411 
-1412 
-1413 
-1414 
-1415 
-1416 
-1417 
-1418 
+1399 Drakekeeper Helm
+1400 Drakekeeper Armor
+1401 Drakekeeper Gauntlets 
+1402 Drakekeeper Leggings
+1403 Ivory King Helm
+1404 Ivory King Armor
+1405 Ivory King Gauntlets
+1406 Ivory King Leggings
+1407 Mad Warrior Helm
+1408 Mad Warrior Armor
+1409 Mad Warrior Gauntlets
+1410 Mad Warrior Leggings
+1411 Mirror Knight Helm
+1412 Mirror Knight Armor
+1413 Mirror Knight Gauntlets
+1414 Mirror Knight Leggings
+1415 Syan Knight Helm
+1416 Syan Knight Armor
+1417 Syan Knight Gauntlets
+1418 Syan Knight Leggings
 1419 
 1420 
 1421 
@@ -225,19 +225,19 @@
 3558 Pot Helmet
 3559 Priest Mask
 3560 Ludleth's Crown
-3561 
-3562 
-3563 
-3564 
-3565 
-3566 
-3567 
-3568 
-3569 
-3570 
-3571 
-3572 
-3573
+3561 Hallowed Knight Helm
+3562 Hallowed Knight Armor
+3563 Hallowed Knight Gauntlets
+3564 Hallowed Knight Leggings
+3565 Courtier's Wig
+3566 Courtier's Garb
+3567 Courtier's Gloves
+3568 Courtier's Trousers
+3569 Crown of the Fallen
+3570 Steel Helm
+3571 Steel Armor
+3572 Steel Gauntlets
+3573 Steel Leggings
 3574 
 3575 
 
