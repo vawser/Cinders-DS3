@@ -39,41 +39,17 @@
 
 # Young Grass Dew
 - Requires the Spears of the Church emblem equipped
-- Costs 25 FP to use.
+- Costs 250 FP to use.
 - Lasts for 120 seconds.
 - Grants 3 HP every second.
 - Grants 5 stamina recovery and 5% damage absorption.
 - Source: Covenant - Spears of the Church
 
 # Ritual Spear Fragment
-- Costs 25 FP to use.
+- Costs 250 FP to use.
 
 # Divine Spear Fragment
-- Costs 50 FP to use.
-
-# Flask of Magic
-- Costs 20 FP to use.
-- Lasts for 3 seconds
-- Grants 100% Magic Absorption
-- Source: Treasure - Irithyll of the Boreal Valley
-
-# Flask of Fire
-- Costs 20 FP to use.
-- Lasts for 3 seconds
-- Grants 100% Fire Absorption
-- Source: Treasure - Smouldering Lake
-
-# Flask of Lightning
-- Costs 20 FP to use.
-- Lasts for 3 seconds
-- Grants 100% Lightning Absorption
-- Source: Treasure - Archdragon Peak
-
-# Flask of Abyss
-- Costs 20 FP to use.
-- Lasts for 3 seconds
-- Grants 100% Dark Absorption
-- Source: Treasure - Dreg Heap
+- Costs 500 FP to use.
 
 #------------------------
 # Consumables

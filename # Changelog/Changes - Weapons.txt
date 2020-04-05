@@ -46,7 +46,7 @@ Lucky:
 
 Enchanted:
 - Adds physical INT scaling.
-- Adds effect: grants 3 FP every second.
+- Adds effect: grants 1% FP every second.
 
 Holy:
 - Adds physical FTH scaling.
@@ -71,7 +71,7 @@ Scholar's Candlestick
 - Effect: increases max FP by 10%.
 
 Handmaid's Dagger
-- Effect: reduces FP consumption of pyromancies by 10%.
+- Effect: reduces FP consumption of pyromancies by 5%.
 
 Morion Blade
 - Effect: boosts attack by 10% whilst below 25% health.
@@ -116,7 +116,7 @@ Scholar's Bow
 - Effect: increases max FP by 5%.
 
 Witch's Staff
-- Effect: reduces the FP consumption of pyromancies by 10%.
+- Effect: reduces the FP consumption of pyromancies by 5%.
 
 Storyteller's Staff
 - Effect: increases Poison and Toxic resistance by 200.
@@ -125,7 +125,7 @@ Mendicant's Staff
 - Effect: increases soul absorption by 20%.
 
 Yorshka's Chime
-- Effect: reduces FP consumption of miracles by 10%.
+- Effect: reduces FP consumption of miracles by 5%.
 
 Witchtree Branch
 - Effect: increases casting speed by 25.
@@ -200,7 +200,7 @@ Sage's Stiletto
 - Effect: absorb FP on hit, restoring 4% FP.
 
 Grant
-- Effect: reduces the FP consumption of miracles by 10%.
+- Effect: reduces the FP consumption of miracles by 5%.
 
 Rune Sword
 - Effect: increases Magic absorption by 5%.

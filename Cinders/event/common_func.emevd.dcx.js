@@ -4751,9 +4751,8 @@ Event(20009201, Default, function(X0_4, X4_4) {
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
-
 // Setup Game Flags
-Event(20009300, Restart, function() {
+Event(20009300, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
     // 25000000 - Pride - Ludleth
     // 25000001 - Gluttony - Aldrich
@@ -4832,7 +4831,7 @@ Event(20009300, Restart, function() {
 });
 
 // Corrupted Gundyr
-Event(20020000, Restart, function() {
+Event(20020000, Default, function() {
     SetEventFlag(25001001, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4843,7 +4842,7 @@ Event(20020000, Restart, function() {
 });
 
 // Vordt of the Boreal Valley
-Event(20020001, Restart, function() {
+Event(20020001, Default, function() {
     SetEventFlag(25001002, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4854,7 +4853,7 @@ Event(20020001, Restart, function() {
 });
 
 // Curse-rotted Greatwood
-Event(20020002, Restart, function() {
+Event(20020002, Default, function() {
     SetEventFlag(25001003, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4865,7 +4864,7 @@ Event(20020002, Restart, function() {
 });
 
 // Crystal Sage
-Event(20020003, Restart, function() {
+Event(20020003, Default, function() {
     SetEventFlag(25001004, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4876,7 +4875,7 @@ Event(20020003, Restart, function() {
 });
 
 // Deacons of the Deep
-Event(20020004, Restart, function() {
+Event(20020004, Default, function() {
     SetEventFlag(25001005, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4887,7 +4886,7 @@ Event(20020004, Restart, function() {
 });
 
 // Abyss Watchers
-Event(20020005, Restart, function() {
+Event(20020005, Default, function() {
     SetEventFlag(25001006, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4898,7 +4897,7 @@ Event(20020005, Restart, function() {
 });
 
 // High Lord Wolnir
-Event(20020006, Restart, function() {
+Event(20020006, Default, function() {
     SetEventFlag(25001007, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4909,7 +4908,7 @@ Event(20020006, Restart, function() {
 });
 
 // Old Demon King
-Event(20020007, Restart, function() {
+Event(20020007, Default, function() {
     SetEventFlag(25001008, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4920,7 +4919,7 @@ Event(20020007, Restart, function() {
 });
 
 // Pontiff Sulyvahn
-Event(20020008, Restart, function() {
+Event(20020008, Default, function() {
     SetEventFlag(25001009, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4931,7 +4930,7 @@ Event(20020008, Restart, function() {
 });
 
 // Aldrich, Devourer of Gods
-Event(20020009, Restart, function() {
+Event(20020009, Default, function() {
     SetEventFlag(25001010, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4942,7 +4941,7 @@ Event(20020009, Restart, function() {
 });
 
 // Yhorm the Giant
-Event(20020010, Restart, function() {
+Event(20020010, Default, function() {
     SetEventFlag(25001011, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4953,7 +4952,7 @@ Event(20020010, Restart, function() {
 });
 
 // Dancer of the Boreal Valley
-Event(20020011, Restart, function() {
+Event(20020011, Default, function() {
     SetEventFlag(25001012, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4964,7 +4963,7 @@ Event(20020011, Restart, function() {
 });
 
 // Oceiros, the Consumed King
-Event(20020012, Restart, function() {
+Event(20020012, Default, function() {
     SetEventFlag(25001013, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4975,7 +4974,7 @@ Event(20020012, Restart, function() {
 });
 
 // Dragonslayer Armour
-Event(20020013, Restart, function() {
+Event(20020013, Default, function() {
     SetEventFlag(25001014, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4986,7 +4985,7 @@ Event(20020013, Restart, function() {
 });
 
 // Ancient Wyvern
-Event(20020014, Restart, function() {
+Event(20020014, Default, function() {
     SetEventFlag(25001015, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4997,7 +4996,7 @@ Event(20020014, Restart, function() {
 });
 
 // Nameless King
-Event(20020015, Restart, function() {
+Event(20020015, Default, function() {
     SetEventFlag(25001016, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5008,7 +5007,7 @@ Event(20020015, Restart, function() {
 });
 
 // Champion Gundyr
-Event(20020016, Restart, function() {
+Event(20020016, Default, function() {
     SetEventFlag(25001017, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5019,7 +5018,7 @@ Event(20020016, Restart, function() {
 });
 
 // Twin Princes
-Event(20020017, Restart, function() {
+Event(20020017, Default, function() {
     SetEventFlag(25001018, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5030,7 +5029,7 @@ Event(20020017, Restart, function() {
 });
 
 // Soul of Cinder
-Event(20020018, Restart, function() {
+Event(20020018, Default, function() {
     SetEventFlag(25001019, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5041,7 +5040,7 @@ Event(20020018, Restart, function() {
 });
 
 // Sister Friede
-Event(20020019, Restart, function() {
+Event(20020019, Default, function() {
     SetEventFlag(25001020, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5052,7 +5051,7 @@ Event(20020019, Restart, function() {
 });
 
 // The Triad
-Event(20020020, Restart, function() {
+Event(20020020, Default, function() {
     SetEventFlag(25001021, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5063,7 +5062,7 @@ Event(20020020, Restart, function() {
 });
 
 // Demon Prince
-Event(20020021, Restart, function() {
+Event(20020021, Default, function() {
     SetEventFlag(25001022, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5074,7 +5073,7 @@ Event(20020021, Restart, function() {
 });
 
 // Darkeater Midir 
-Event(20020022, Restart, function() {
+Event(20020022, Default, function() {
     SetEventFlag(25001023, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5085,7 +5084,7 @@ Event(20020022, Restart, function() {
 });
 
 // Slave Knight Gael
-Event(20020023, Restart, function() {
+Event(20020023, Default, function() {
     SetEventFlag(25001024, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5096,7 +5095,7 @@ Event(20020023, Restart, function() {
 });
 
 // Halflight
-Event(20020024, Restart, function() {
+Event(20020024, Default, function() {
     SetEventFlag(25001025, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);

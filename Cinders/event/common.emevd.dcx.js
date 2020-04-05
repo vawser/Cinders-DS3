@@ -1629,8 +1629,6 @@ Event(870, Default, function(X0_1, X4_4) {
 });
 
 Event(400000, Default, function() {
-    InitializeEvent(0, 400010, 10000, 160100005); // Setup Effects
-    
     InitializeEvent(0, 400016, 0); // NG+ Flags
     
     // Curse Info Prompts
@@ -1725,14 +1723,57 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400608, 160706081, 160706080); // Enchanted Stone
     InitializeEvent(0, 400609, 160706091, 160706090); // Cleansing Stone
     
-    // No Hit State
-    InitializeEvent(0, 400700, 0);
+    // General Scripts
+    InitializeEvent(0, 400700, 10000); // No Hit State
+    InitializeEvent(0, 400800, 10000); // FP Regen
+});
+
+// FP Regen
+Event(400800, Default, function(X0_4) {
+    IfCharacterHasSpeffect(MAIN, X0_4, 113000, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 113001, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 113002, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 113003, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 113004, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 113005, false, ComparisonType.Equal, 1);
+    
+    // Add Base FP
+    SetSpeffect(X0_4, 113100);
+    
+    // Enchanted - 200001100
+    IfCharacterHasSpeffect(AND_01, X0_4, 200001100, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
+    SetSpeffect(X0_4, 113101);
+    
+    // Clarity - 200002000
+    IfCharacterHasSpeffect(AND_02, X0_4, 200002000, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
+    SetSpeffect(X0_4, 113101);
+    
+    // Darkmoon Faithful - 160100240
+    IfCharacterHasSpeffect(AND_03, X0_4, 160100240, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_03);
+    SetSpeffect(X0_4, 113101);
+    
+    // Darkmoon Ring - 160600350
+    IfCharacterHasSpeffect(AND_04, X0_4, 160600350, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_04);
+    SetSpeffect(X0_4, 113101);
+    
+    // Ring of Catastrophe - 160601270
+    IfCharacterHasSpeffect(AND_05, X0_4, 160601270, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
+    SetSpeffect(X0_4, 113100);
+    
+    // Reset
+    WaitFixedTimeSeconds(0.2);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // No Hit State
-Event(400700, Default, function() {
+Event(400700, Default, function(X0_4) {
     SetEventFlag(25006000, 0);
-    IfCharacterHasSpeffect(MAIN, 10000, 112060, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
     SetEventFlag(25006000, 1);
     EndUnconditionally(EventEndType.End);
 });

@@ -45,6 +45,9 @@
 - Moved the Sunlight Tome to a chest in Irithyll
 - Moved the Abyssal Tome to a chest in Irithyll
 - Moved the Angelic Tome to the cage location in Grand Archives.
+- Black Fire Orb is now Wolnir transposition.
+- Black Fireball is now a spell in Karla's initial stock.
+- Increased the amount healed by estus (both types), but reduced the gain from reinforcing it.
 
 # Armor
 - Added Smelter Demon Set.
@@ -104,16 +107,34 @@
 - Reduced the damage of the Phosophrescent Pole.
 
 # Infusions
-- Enchanted restores 3 FP per second.
-- Clarity restores 3 FP per second.
-- Magic restores much more FP on hit (3 to 9% on hit). Also adjusted weapons with this effect innately.
 - Fire deals less damage % damage, but more flat damage with its DOT.
 - Dark restores more HP on hit.
 
 # Spells
-- Increased the FP cost of spells, greatly so for high-tier spells to reflect their power. This is to make sustaining high damage much more expensive in the late game, and to increase the value of FP regen/cost reduction.
 - Soul Greatsword now just costs less FP when ascended, doesn't switch cast animations. This is to retain its AOE use.
- 
+- Added Black Fireball, a starter spell for Dark Pyromancy.
+- Added Black Fire Scatter, a dark version of Bursting Fireball.
+- Removed Soul Focus.
+- Removed Inner Fervor.
+
+# FP
+- FP regen has changed. It is now paused when you cast a spell, the duration depending on the spell. This applies to all sources that give you more FP regen too.
+- The scale for FP has changed to {1:500, 20:1000, 40:1400, 60:1800, 99:2000}. This allows for the % regen to work in a more continuous fashion.
+- Base FP regen is now 5%.
+- Changed the FP regen effects to other effects on armor.
+- Changed the FP absorb to % on armor.
+- Enchanted restores 1% FP per second.
+- Clarity restores 1% FP per second.
+- Lucidity reduces spell FP cost by 5%.
+- Magic restores much more FP on hit (3 to 9% on hit). Also adjusted weapons with this effect innately.
+- Darkmoon Ring: 2% FP per second.
+- Ring of Catastrophe: 5% FP per second whilst losing 1% HP per second.
+- Spell FP Cost Reduction rings changed to: 10%/12%/14%/16%.
+- Ring of Wisdom spell FP cost reduction changed to 5%/6%/7%/8%.
+- Reduced the spell FP cost reduction values from weapon sources.
+- Changed the FP cost of spells to fit the new FP model.
+- Changed the FP cost of skills to fit the new FP model.
+
 # Bugfixes
 - Fixed various bugs.
 - NPCs that use weapons with the Bloodlust WA now have special versions that don't have it, to stop them killing themslves.
@@ -123,15 +144,18 @@
 #------------------------------
 # TODO
 #------------------------------
-Make Priest's Candlestick normal weapon (add spell WA)
-Change Breaking Wheel moveset + Power Within WA
 Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
+Make Priest's Candlestick normal weapon (add spell WA)
+
+Change Breaking Wheel moveset + Power Within WA
 Move Pontiff elevator back and change script to disable it.
+Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
+Do new armor icons
 
 99680000 Crown of Illusions 
 99690000 Hallowed Knight Set  
-99700000 Courtier Set 
+99700000 Courtier Set
 99710000 Steel Set 
 99720000 Drakekeeper Set 
 99730000 Ivory King Set 
@@ -139,5 +163,4 @@ Move Pontiff elevator back and change script to disable it.
 99750000 Mirror Knight Set 
 99760000 Syan Knight Set 
 
- 
-
+112070

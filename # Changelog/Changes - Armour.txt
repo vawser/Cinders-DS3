@@ -70,7 +70,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Max FP: [1.02, 1.024, 1.006, 1.018]
 
 # Executioner Set
-- FP Absorb on Kill: [12, 24, 6, 18]
+- FP Absorb on Kill: [1%, 2%, 1%, 1%]
 
 # Dragonslayer Set
 - Faith: [1, 2, 1, 2]
@@ -197,7 +197,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - HP Absorb on Kill: [32]
 
 # Iron Cage
-- FP Absorb on Kill: [16]
+- FP Absorb on Kill: [1%]
 
 # Corvian Knight Helmet
 - Vigor: [2]
@@ -273,7 +273,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Stamina Damage: [1.1]
 
 # Mask of Serenity
-- FP Regen: [2]
+- Max FP: [1.05]
 
 # Mask of War
 - Stamina Recovery: [5]
@@ -360,7 +360,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Intelligence: [2, 4, 1, 3]
 
 # Pontiff's Set
-- FP Absorb on Kill: [20, 10]
+- FP Absorb on Kill: [1%, 1%]
 
 # Dancer Set
 - Weapon Stamina Consumption: [0.98, 0.96, 0.99, 0.97]
@@ -390,13 +390,13 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - HP Absorb on Kill: [30, 60, 15, 45]
 
 # Sunless Set
-- FP Regen: [1, 1, 1, 1]
+- Max FP: [1.02, 1.04, 1.01, 1.03]
 
 # Leonhard's Set
 - Intelligence: [2, 4, 1, 3]
 
 # Xanthous Set
-- FP Absorb on Kill: [20, 40, 10, 30]
+- FP Absorb on Kill: [1%, 2%, 1%, 1%]
 
 # White Preacher Head
 - Attunement: [2]
@@ -481,7 +481,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Attunement: [2, 4]
 
 # Scholar Set
-- FP Regen: [1, 1]
+- Max FP: [1.02, 1.04]
 
 #----------------------------
 # Ultra Light (0 - 10)
@@ -493,10 +493,10 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Max FP: [1.02, 1.04, 1.01, 1.03]
 
 # Black Witch Set
-- FP Regen: [1, 1, 1, 1]
+- Max FP: [1.02, 1.04, 1.01, 1.03]
 
 # Black Witch Veil
-- FP Regen: [1]
+- Max FP: [1.02]
 
 # Sorcerer Set
 - Intelligence: [2, 4, 1, 3]
@@ -505,10 +505,10 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Sorcery Cost: [0.96, 0.92, 0.98, 0.94]
 
 # Old Sorcerer Set
-- FP Regen: [1, 1, 1, 1]
+- Cast Speed: 30 [6, 12, 3, 9]
 
 # Venerable Sage's Set
-- FP Absorb on Kill: [20, 40, 10, 30]
+- FP Absorb on Kill: [1%, 2%, 1%, 1%]
 
 # Clandestine Coat
 - Silent Footsteps

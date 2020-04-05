@@ -3,7 +3,7 @@
 #------------------------
 # Clarity
 - Reduces Stability by 25%
-- Effect: Grants 3 FP every second.
+- Effect: Grants 1% FP every second.
 
 # Rejuvenation
 - Reduces Stability by 25%
@@ -19,7 +19,7 @@
 
 # Lucidity
 - Reduces Stability by 25%
-- Effect: Grants 15% reduction to weapon/spell FP cost
+- Effect: Grants 5% reduction to weapon/spell FP cost
 
 # Greed
 - Reduces Stability by 25%
@@ -76,7 +76,7 @@
 - Effect: increases max HP by 5%
 
 # Loch Shield
-- Effect: restores 1 FP every second.
+- Effect: increases max FP by 5%.
 
 # Caduceus Round Shield
 - Effect: increases max Stamina by 10%.

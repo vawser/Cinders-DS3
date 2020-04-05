@@ -6,7 +6,7 @@
 - Source: Treasure - Cemetery of Ash
 
 # Darkmoon Faithful
-- Grants 1 FP per second.
+- Grants 1% FP per second.
 - Source: Company Captain Yorshka - Anor Londo
 
 # Spears of the Church
@@ -102,10 +102,10 @@
 
 # Ring of Wisdom
 - Weight: 1
-- [+0] Increases max FP by 3%, reduces spell FP consumption by 10% and grants 1 attunement slot.
-- [+1] Increases max FP by 6%, reduces spell FP consumption by 15% and grants 1 attunement slot.
-- [+2] Increases max FP by 9%, reduces spell FP consumption by 20% and grants 1 attunement slot.
-- [+3] Increases max FP by 12%, reduces spell FP consumption by 25% and grants 1 attunement slot.
+- [+0] Increases max FP by 3%, reduces spell FP consumption by 5% and grants 1 attunement slot.
+- [+1] Increases max FP by 6%, reduces spell FP consumption by 6% and grants 1 attunement slot.
+- [+2] Increases max FP by 9%, reduces spell FP consumption by 7% and grants 1 attunement slot.
+- [+3] Increases max FP by 12%, reduces spell FP consumption by 8% and grants 1 attunement slot.
 - [+0] Source: Drop - Court Sorcerer - Profaned Capital
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -306,10 +306,10 @@
 
 # Dusk Crown Ring
 - Weight: 0.5
-- [+0] Reduces FP consumption of sorceries by 25%.
-- [+1] Reduces FP consumption of sorceries by 27.5%.
-- [+2] Reduces FP consumption of sorceries by 30%.
-- [+3] Reduces FP consumption of sorceries by 32.5%.
+- [+0] Reduces FP consumption of sorceries by 10%.
+- [+1] Reduces FP consumption of sorceries by 12%.
+- [+2] Reduces FP consumption of sorceries by 14%.
+- [+3] Reduces FP consumption of sorceries by 16%.
 - [+0] Source: Treasure - Irithyll Dungeon
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -317,10 +317,10 @@
 
 # Tome of Sunlight
 - Weight: 1
-- [+0] Reduces FP consumption of miracles by 25%.
-- [+1] Reduces FP consumption of miracles by 27.5%.
-- [+2] Reduces FP consumption of miracles by 30%.
-- [+3] Reduces FP consumption of miracles by 32.5%.
+- [+0] Reduces FP consumption of miracles by 10%.
+- [+1] Reduces FP consumption of miracles by 12%.
+- [+2] Reduces FP consumption of miracles by 14%.
+- [+3] Reduces FP consumption of miracles by 16%.
 - [+0] Source: Treasure - Lothric Castle
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -328,10 +328,10 @@
 
 # Charred Bone
 - Weight: 1
-- [+0] Reduces FP consumption of pyromancies by 25%.
-- [+1] Reduces FP consumption of pyromancies by 27.5%.
-- [+2] Reduces FP consumption of pyromancies by 30%.
-- [+3] Reduces FP consumption of pyromancies by 32.5%.
+- [+0] Reduces FP consumption of pyromancies by 10%.
+- [+1] Reduces FP consumption of pyromancies by 12%.
+- [+2] Reduces FP consumption of pyromancies by 14%.
+- [+3] Reduces FP consumption of pyromancies by 16%.
 - [+0] Source: Covenant - Chaos Servants
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -371,7 +371,7 @@
 
 # Darkmoon Ring
 - Weight: 0.5
-- Grants 1 + 0.5% FP every second.
+- Grants 1% FP every second.
 - Source: Covenant - Blade of the Darkmoon
 
 # Hawk Ring
@@ -821,7 +821,7 @@ increases evasive movement stamina costs by 200%.
 
 # Ring of Catastrophe
 - Weight: 1
-- Grants 5 FP every second but reduces HP by 1% of max every second.
+- Grants 5% FP every second but reduces HP by 1% of max every second.
 - Source: Treasure - Anor Londo
 
 # Black Tearstone Ring
