@@ -140,6 +140,7 @@
 - NPCs that use weapons with the Bloodlust WA now have special versions that don't have it, to stop them killing themslves.
 - Added new NPCs to Blood of Might script.
 - No Hit state now checks if the enemy has hit you, rather than your current health.
+- Fixed issue with bow WA animations repeating the animation on use.
 
 #------------------------------
 # TODO
@@ -163,4 +164,3 @@ Do new armor icons
 99750000 Mirror Knight Set 
 99760000 Syan Knight Set 
 
-112070
