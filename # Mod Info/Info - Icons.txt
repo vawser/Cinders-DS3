@@ -103,6 +103,7 @@
 1396 Consumed King's Staff
 1397 Rotten Talisman
 1398 Smouldering Talisman
+
 1399 Drakekeeper Helm
 1400 Drakekeeper Armor
 1401 Drakekeeper Gauntlets 
@@ -201,30 +202,30 @@
 3534 Imperious Hands
 3535 Imperious Legs
 3536 Badger's Black Hat
-3537 Corrupted Monk Mask
+3537 Mask of Horror
 3538 Genichiro's Helmet
 3539 Gyoubu's Helm
 3540 Nightjar Mask
-3541 Nightjar Wrapped Mask
-3542 Okami Mask
-3543 Seven Spear Helmet
-3544 Tengu Mask
-3545 Demon of Hatred Head
-3546 Monk Straw Hat
-3547 Carthus Blindfold
-3548 Crown of Filianore
-3549 Mask of Sin
-3550 Old Demon King's Crown
-3551 Poisonhorn Helmet
-3552 Pygmy Crown
-3553 Vagabond Cowl
-3554 Hollow Head
-3555 Basilisk Cap
-3556 Crown of the Holy King
+3541 Okami Mask
+3542 Seven Spear Helmet
+3543 Tengu Mask
+3544 Monk Straw Hat
+3545 Carthus Blindfold
+3546 Crown of Filianore
+3547 Mask of Sin
+3548 Old Demon King's Crown
+3549 Poisonhorn Helmet
+3550 Pygmy Crown
+3551 Vagabond Cowl
+3552 Hollow Head
+3553 Basilisk Cap
+3555 Crown of the Holy King
 3557 Mailed Soldier Helmet
-3558 Pot Helmet
-3559 Priest Mask
-3560 Ludleth's Crown
+3556 Pot Helmet
+3557 Priest Mask
+3558
+3559
+3560
 3561 Hallowed Knight Helm
 3562 Hallowed Knight Armor
 3563 Hallowed Knight Gauntlets

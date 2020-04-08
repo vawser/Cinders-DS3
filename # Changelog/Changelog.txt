@@ -15,16 +15,16 @@
 53002097 High Wall of Lothric / Consumed King's Garden
 53102091 Undead Settlement
 53302173 Road of Sacrifices / Farron Keep
-53502080 Cathedral of the Deep
+53502081 Cathedral of the Deep
 53802172 Catacombs of Carthus / Smouldering Lake
 53702144 Irithyll of the Boreal Valley / Anor Londo
-53902115 Irithyll Dungeon / Profaned Capital
+53902117 Irithyll Dungeon / Profaned Capital
 53012089 Lothric Castle
-53412130 Grand Archives
+53412133 Grand Archives
 54102010 Kiln of the First Flame
-53202072 Archdragon Peak
-54502070 Painted World of Ariandel
-55002057 Dreg Heap
+53202073 Archdragon Peak
+54502071 Painted World of Ariandel
+55002058 Dreg Heap
 55102056 The Ringed City
 
 #------------------------------
@@ -77,6 +77,11 @@
 - Added Mask of Sin. Found in Profaned Capital.
 - Added Vagabond Cowl. Found in the Ringed City.
 - Added Hollow Head. Found in Firelink Shrine.
+- Added Crown of Illusions. Found in the Grand Archives.
+- Added Courtier Set. Found in the Grand Archives.
+- Added Mirror Knight Set. Found in the Grand Archives.
+- Added Steel Set. Found in Irithyll Dungeon.
+- Added Syan Knight Set. Found in Profaned Capital.
 
 # Enemies
 - Added Blacksmith's Nightmare in Untended Graves. Drops Smelter Demon Set.
@@ -87,6 +92,10 @@
 - Added Lord Takatsuji in Profaned Capital. Drops Imperial Samurai Helm.
 - Added Lieutenant Ugali in Profaned Capital. Drops Horned Samurai Helm.
 - Added Lieutenant Hanji in Profaned Capital. Drops Ornate Samurai Helm.
+- Added Hallowed Knight Orthell in the Cathedral of the Deep. Drops the Hallowed Knight Set.
+- Added Dragon Hunter Karstark in Archdragon Peak. Drops the Drakekeeper Set.
+- Added Disciple of Alsanna in Ariandel. Drops the Ivory King Set.
+- Added The Prowler in the Dreg Heap. Drops the Mad Warrior Set.
 
 # Events
 - Using Prostration in front of the estus pot in the Distant Manor in Irithyll rewards the Pot.
@@ -145,22 +154,11 @@
 #------------------------------
 # TODO
 #------------------------------
+Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
+
 Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
 Make Priest's Candlestick normal weapon (add spell WA)
 
 Change Breaking Wheel moveset + Power Within WA
 Move Pontiff elevator back and change script to disable it.
-Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
-Do new armor icons
-
-99680000 Crown of Illusions 
-99690000 Hallowed Knight Set  
-99700000 Courtier Set
-99710000 Steel Set 
-99720000 Drakekeeper Set 
-99730000 Ivory King Set 
-99740000 Mad Warrior Set 
-99750000 Mirror Knight Set 
-99760000 Syan Knight Set 
-
