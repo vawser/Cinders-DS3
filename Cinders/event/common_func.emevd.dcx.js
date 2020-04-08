@@ -2679,12 +2679,14 @@ Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X40_4);
     ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
     GotoUnconditionally(Label.LABEL1);
+    
     Label0();
     SetNetworkconnectedEventFlag(X40_4, ON);
     WaitFixedTimeSeconds(2);
     ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
     ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
     SetNetworkconnectedEventFlag(X40_4, OFF);
+    
     Label1();
     IfAllPlayersInoutsideArea(OR_10, InsideOutsideState.Outside, X32_4);
     IfEventFlag(OR_10, OFF, TargetEventFlagType.EventFlag, X0_4);
@@ -2697,6 +2699,7 @@ Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SkipUnconditionally(1);
     ForceAnimationPlayback(X8_4, 110, false, true, true, 0, 1);
     EndUnconditionally(EventEndType.Restart);
+    
     Label2();
     SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
     SetObjactState(X12_4, -1, Enabled);
@@ -2721,12 +2724,14 @@ Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     GotoIfEventFlag(Label.LABEL3, ON, TargetEventFlagType.EventFlag, X40_4);
     ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
     GotoUnconditionally(Label.LABEL4);
+    
     Label3();
     SetNetworkconnectedEventFlag(X40_4, ON);
     WaitFixedTimeSeconds(2);
     ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
     ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
     SetNetworkconnectedEventFlag(X40_4, OFF);
+    
     Label4();
     IfAllPlayersInoutsideArea(OR_11, InsideOutsideState.Outside, X28_4);
     IfEventFlag(OR_11, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -2992,6 +2997,7 @@ Event(20000627, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Lift Levers
 Event(20005628, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);

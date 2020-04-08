@@ -150,6 +150,7 @@
 - Added new NPCs to Blood of Might script.
 - No Hit state now checks if the enemy has hit you, rather than your current health.
 - Fixed issue with bow WA animations repeating the animation on use.
+- Pontiff's Lift is now reset properly when he is respawned (and the levers have been moved back).
 
 #------------------------------
 # TODO
@@ -159,6 +160,4 @@ Add King's Mirror, Shield Bash WA, but with special spell deflection state that 
 Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
 Make Priest's Candlestick normal weapon (add spell WA)
-
 Change Breaking Wheel moveset + Power Within WA
-Move Pontiff elevator back and change script to disable it.

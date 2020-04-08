@@ -4120,7 +4120,12 @@ Event(4008090, Default, function() {
     SetEventFlag(13700850, OFF);
     SetEventFlag(9313, OFF);
     SetEventFlag(6313, OFF);
+    
+    // Lift
     SetEventFlag(13700420, OFF);
+    SetEventFlag(13700421, OFF);
+    SetEventFlag(13700422, OFF);
+    
     SetPlayerRespawnPoint(3702950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
@@ -4137,7 +4142,12 @@ Event(4008091, Default, function() {
     SetEventFlag(13700850, OFF);
     SetEventFlag(9313, OFF);
     SetEventFlag(6313, OFF);
+
+    // Lift
     SetEventFlag(13700420, OFF);
+    SetEventFlag(13700421, OFF);
+    SetEventFlag(13700422, OFF);
+    
     SetPlayerRespawnPoint(3702950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
