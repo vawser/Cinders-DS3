@@ -1,4 +1,14 @@
-﻿20 - Dagger
+﻿0   1H Weapon Hold - One hand down by hip
+2   1H Weapon Hold - One hand on shoulder
+3   1H Weapon Hold - One hand down and behind hip
+10  2H Weapon Hold - Both hands in front
+12  2H Weapon Hold - Both hands on shoulder
+13  2H Weapon Hold - Both hands in spear position
+14  2H Weapon Hold - Both hands in bow position
+15  2H Weapon Hold - Both hands in shield position
+16  2H Weapon Hold - Both hands in crossbow position
+
+20 - Dagger
     Base moveset
     
 23 - Sword

@@ -475,9 +475,9 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
-- FP Cost: 75
-- Fire Damage: 400 
-- Ascended Effect: extends duration to 20 seconds.
+- FP Cost: 500
+- Fire Damage: 100
+- Ascended Effect: extends duration to 30 seconds.
 
 #--------------------------------
 # Earthfall

@@ -30,127 +30,14 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Enabled the Undead Match by default, Champion's Ashes are no longer needed.
-- Enabled Transposition without the need for the Transposing Kiln.
-- All bosses now have a no hit reward. In general they will reward you with a Soul of a Great Champion everytime you do a no hit kill, although some will have one-time rewards like Ludleth's Crown from Soul of Cinder.
-
-# Companions
-- Removed all but Solaire. This is due to the instability adding so many was causing.
-- Added NG+ scaling so Solaire doesn't drop off so much.
-- Changed Solaire's Incense into Incense of Cooperation and placed it in front of Ludleth.
+# Spells
+- Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
 
 # Items
-- Moved some spells around in the tomes.
-- Moved the Sunlight Tome to a chest in Irithyll
-- Moved the Abyssal Tome to a chest in Irithyll
-- Moved the Angelic Tome to the cage location in Grand Archives.
-- Black Fire Orb is now Wolnir transposition.
-- Black Fireball is now a spell in Karla's initial stock.
-- Increased the amount healed by estus (both types), but reduced the gain from reinforcing it.
-
-# Armor
-- Added Smelter Demon Set.
-- Added Rampart Golem Set.
-- Added Heide Knight Set.
-- Added Bone Ash Set.
-- Added Imperious Set. Sold by the Shrine Handmaid after killing Yhorm the Giant.
-- Added Pygmy Crown. Sold by the Shrine Handmaid after killing the Slave Knight Gael. 
-- Added Deserter Helm. Found in High Wall.
-- Added Raven Mask. Found in Consumed King's Garden.
-- Added Imperial Samurai Helm.
-- Added Horned Samurai Helm.
-- Added Ornate Samurai Helm.
-- Added Mask of Horror. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
-- Added Mask of Cruelty. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
-- Added Mask of Serenity. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
-- Added Mask of War. Unlocked by the Easterner's Ashes at the Shrine Handmaid.
-- Added Pot. 
-- Added Crown of Filianore.
-- Added Crown of the Holy King. Sold by the Shrine Handmaid after killing the Twin Princes.
-- Added Old Demon's King Crown. Sold by the Shrine Handmaid after killing the Old Demon King.
-- Added Basilisk Cap. Found in Road of Sacrifices.
-- Added Poisonhorn Cap. Found in Road of Sacrifices.
-- Added Black Metal Hat. Found in Profaned Capital.
-- Added Tan Straw Hat. Found in Undead Settlement.
-- Added Carthus Blindfold. Found in Catacombs of Carthus.
-- Added Mask of Sin. Found in Profaned Capital.
-- Added Vagabond Cowl. Found in the Ringed City.
-- Added Hollow Head. Found in Firelink Shrine.
-- Added Crown of Illusions. Found in the Grand Archives.
-- Added Courtier Set. Found in the Grand Archives.
-- Added Mirror Knight Set. Found in the Grand Archives.
-- Added Steel Set. Found in Irithyll Dungeon.
-- Added Syan Knight Set. Found in Profaned Capital.
-
-# Enemies
-- Added Blacksmith's Nightmare in Untended Graves. Drops Smelter Demon Set.
-- Added Ashen Keeper Sofija in Untended Graves. Drops Bone Ash Set.
-- Added Frozen Knight Torbjorn in Ariandel. Drops Rampart Golem Set.
-- Added Wandering Knight Osvaldo in Road of Sacrifices. Drops Heide Knight Set.
-- Added Bewitched Knight Iwai in Profaned Capital. Drops Alonne's Set.
-- Added Lord Takatsuji in Profaned Capital. Drops Imperial Samurai Helm.
-- Added Lieutenant Ugali in Profaned Capital. Drops Horned Samurai Helm.
-- Added Lieutenant Hanji in Profaned Capital. Drops Ornate Samurai Helm.
-- Added Hallowed Knight Orthell in the Cathedral of the Deep. Drops the Hallowed Knight Set.
-- Added Dragon Hunter Karstark in Archdragon Peak. Drops the Drakekeeper Set.
-- Added Disciple of Alsanna in Ariandel. Drops the Ivory King Set.
-- Added The Prowler in the Dreg Heap. Drops the Mad Warrior Set.
-
-# Events
-- Using Prostration in front of the estus pot in the Distant Manor in Irithyll rewards the Pot.
-- Using Prostration in front of Princess Filianore rewards the Crown of Filianore.
-
-# Weapons
-- Dagger 1H Heavy R1 is now a thrust.
-- Greatsword 1H Heavy R1 is now a thrust.
-- Axe 1H Heavy R1 is now an upward slash.
-- Hammer 1H Heavy R1 is now an side strike.
-- Great Hammer 1H Heavy R1 is now an side strike.
-- Boosted the motion value for heavy attacks (in general):
- 1H Heavy (Uncharged): 140% of base
- 1H Heavy (Charged): 180% of base
- 2H Heavy (Uncharged): 150% of base
- 2H Heavy (Charged): 200% of base
-- Weapons with Warcry animation swaps get an extra +20% for the heavy attacks during the Warcry duration.
-- Reduced the damage of the Phosophrescent Pole.
-
-# Infusions
-- Fire deals less damage % damage, but more flat damage with its DOT.
-- Dark restores more HP on hit.
-
-# Spells
-- Soul Greatsword now just costs less FP when ascended, doesn't switch cast animations. This is to retain its AOE use.
-- Added Black Fireball, a starter spell for Dark Pyromancy.
-- Added Black Fire Scatter, a dark version of Bursting Fireball.
-- Removed Soul Focus.
-- Removed Inner Fervor.
-
-# FP
-- FP regen has changed. It is now paused when you cast a spell, the duration depending on the spell. This applies to all sources that give you more FP regen too.
-- The scale for FP has changed to {1:500, 20:1000, 40:1400, 60:1800, 99:2000}. This allows for the % regen to work in a more continuous fashion.
-- Base FP regen is now 5%.
-- Changed the FP regen effects to other effects on armor.
-- Changed the FP absorb to % on armor.
-- Enchanted restores 1% FP per second.
-- Clarity restores 1% FP per second.
-- Lucidity reduces spell FP cost by 5%.
-- Magic restores much more FP on hit (3 to 9% on hit). Also adjusted weapons with this effect innately.
-- Darkmoon Ring: 2% FP per second.
-- Ring of Catastrophe: 5% FP per second whilst losing 1% HP per second.
-- Spell FP Cost Reduction rings changed to: 10%/12%/14%/16%.
-- Ring of Wisdom spell FP cost reduction changed to 5%/6%/7%/8%.
-- Reduced the spell FP cost reduction values from weapon sources.
-- Changed the FP cost of spells to fit the new FP model.
-- Changed the FP cost of skills to fit the new FP model.
+- Moved some NG+ only treasure spots into NG.
 
 # Bugfixes
-- Fixed various bugs.
-- NPCs that use weapons with the Bloodlust WA now have special versions that don't have it, to stop them killing themslves.
-- Added new NPCs to Blood of Might script.
-- No Hit state now checks if the enemy has hit you, rather than your current health.
-- Fixed issue with bow WA animations repeating the animation on use.
-- Pontiff's Lift is now reset properly when he is respawned (and the levers have been moved back).
+- Fixed Corvian Dagger heavy attacks not using the new motion values.
 
 #------------------------------
 # TODO
@@ -161,3 +48,4 @@ Add new Chr type (add action script)
 Velka's Talisman (add missing dp) 9948
 Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
+

@@ -76,6 +76,9 @@ To edit:
 # Climbing
 28000
 
+# Weapon Switch Transition
+29000
+
 # Magic
 40000 <> 49000
 
