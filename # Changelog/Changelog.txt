@@ -50,6 +50,9 @@
 - Changed the no hit rewards to soul items of a suitable level for each boss.
 - You can now transpose the Soul of Cinder soul into Estus Shards/Undead Bone Shards.
 
+# Enemies
+- Moved Osvaldo to the area just after the door that exits the swamp area.
+
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
 
@@ -68,7 +71,7 @@ Add Curse of Attraction enemies
  3005750 # DONE
  3015750 # DONE
  3105750 # DONE
- 3205750
+ 3205750 # DONE
  3305750
  3415750
  3505750
@@ -84,5 +87,4 @@ Add Curse of Attraction enemies
  5305750
 
 Move mimic in m38 on bridge
-Move Heide Knight into different map
 Check hitless stuff with the bosses (use icon to check hits)
