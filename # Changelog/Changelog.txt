@@ -30,11 +30,22 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Curses
+- Each curse now only gives 10% soul absorption boost.
+- Added Curse of Attraction. Adds additional enemies throughout the level and increases target priority. (WIP, only High Wall done atm)
+- Added Curse of Fortitude. Increases enemy absorption and defence by 25%.
+- Made the Curse of Folly trigger animations much less often.
+- Curse of Vitality now applies all the time to all enemies.
+- Curse of Pride now applies +25% damage to the enemy, and applies it all the time to all enemies.
+- Curse of Wrath now increases enemy stamina recovery by 100, and applies it all the time to all enemies.
+
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
 
 # Items
 - Moved some NG+ only treasure spots into NG.
+- Changed the no hit rewards to soul items of a suitable level for each boss.
+- You can now transpose the Soul of Cinder soul into Estus Shards/Undead Bone Shards.
 
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
@@ -42,10 +53,34 @@
 #------------------------------
 # TODO
 #------------------------------
-Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
-
 Add new Chr type (add action script)
+Change Hawkwood leaving to an talk option
 Velka's Talisman (add missing dp) 9948
 Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
+Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
+Add Curse of Attraction enemies
+ 3005750 # Done
+ 3015750
+ 3105750
+ 3205750
+ 3305750
+ 3415750
+ 3505750
+ 3705750
+ 3805750
+ 3905750
+ 4005750
+ 4105750
+ 4505750
+ 5005750
+ 5105750
+ 5115750
+ 5305750
+ 
+Curse of Confusion
+ - Randomises your roll type whenever you roll.
+
+
+ 

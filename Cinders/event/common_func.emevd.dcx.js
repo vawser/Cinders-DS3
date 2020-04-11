@@ -4581,6 +4581,28 @@ Event(20008030, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
 });
 
+// Spawn Control - Curse of Attraction
+Event(20008040, Restart, function(X0_4) {
+    SetNetworkSyncState(Disabled);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label0();
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
+});
+
 // Spawn Control - OTE - With Itemlot
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
@@ -4760,15 +4782,16 @@ Event(20009201, Default, function(X0_4, X4_4) {
 // Setup Game Flags
 Event(20009300, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
-    // 25000000 - Pride - Ludleth
-    // 25000001 - Gluttony - Aldrich
-    // 25000002 - Greed - Abyss Watchers
-    // 25000003 - Lethargy -   Yhorm
-    // 25000004 - Wrath - Lothric
-    // 25000005 - Wave of Trial
+    
+    SetEventFlag(25000000, OFF); // Curse of Folly
+    SetEventFlag(25000001, OFF); // Curse of Obscurity
+    SetEventFlag(25000002, OFF); // Curse of Vitality
+    SetEventFlag(25000003, OFF); // Curse of Wraht
+    SetEventFlag(25000004, OFF); // Curse of Pride
+    SetEventFlag(25000005, OFF); // Curse of Attraction
+    SetEventFlag(25000006, OFF); // Curse of Fortitude
     
     SetEventFlag(25000010, ON); // Deathless Run
-    
     
     // Enable Firelink Shrine bonfire
     SetBonfireWarpingState(4001950, 60430, Enabled);
@@ -5318,4 +5341,33 @@ Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
+});
+
+// Curse - Spawn Control
+Event(20081000, Restart, function(X0_4, X4_4) {
+    SetNetworkSyncState(Disabled);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label0();
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
+});
+
+// Curse - Add SpEffect
+Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
+    SetSpeffect(X0_4, X4_4);
 });

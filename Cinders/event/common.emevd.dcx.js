@@ -1637,21 +1637,30 @@ Event(400000, Default, function() {
     InitializeEvent(2, 400020, 25004102, 99002102); // Vitality 
     InitializeEvent(3, 400020, 25004103, 99002103); // Wrath 
     InitializeEvent(4, 400020, 25004104, 99002104); // Pride
+    InitializeEvent(5, 400020, 25004105, 99002105); // Attraction
+    InitializeEvent(6, 400020, 25004106, 99002106); // Fortitude
+    InitializeEvent(7, 400020, 25004107, 99002107); // Gluttony
     
     // Enable
     InitializeEvent(0, 400021, 25000000, 250001200, 250001201); // Curse of Folly
     InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
-
+    InitializeEvent(4, 400021, 25000004, 250001000, 250001001); // Curse of Pride
+    InitializeEvent(5, 400021, 25000005, 250001500, 250001501); // Curse of Attraction
+    InitializeEvent(6, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(7, 400021, 25000007, 250001700, 250001701); // Curse of Fortitude
+    
     // Disable
     InitializeEvent(0, 400022, 25000000, 250001200, 250001201); // Curse of Folly
     InitializeEvent(1, 400022, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
+    InitializeEvent(4, 400022, 25000004, 250001000, 250001001); // Curse of Pride
+    InitializeEvent(5, 400022, 25000005, 250001500, 250001501); // Curse of Attraction
+    InitializeEvent(6, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Fortitude
     
-    InitializeEvent(0, 400023, 25000004); // Curse of Pride - Enable
-    InitializeEvent(0, 400024, 25000004); // Curse of Pride - Disable
     InitializeEvent(0, 400025, 0); // Curse of Folly - Animations
     
     // Trades
@@ -2679,72 +2688,12 @@ Event(400022, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Curse of Pride - Enable
-Event(400023, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    SetSpeffect(10000, 250001000);
-    SetSpeffect(10000, 250001001);
-    SetSpeffect(10000, 250001002);
-    SetSpeffect(10000, 250001003);
-    SetSpeffect(10000, 250001004);
-    SetSpeffect(10000, 250001005);
-    SetSpeffect(10000, 250001006);
-    SetSpeffect(10000, 250001007);
-    SetSpeffect(10000, 250001008);
-    SetSpeffect(10000, 250001009);
-    SetSpeffect(10000, 250001010);
-    SetSpeffect(10000, 250001011);
-    SetSpeffect(10000, 250001012);
-    SetSpeffect(10000, 250001013);
-    SetSpeffect(10000, 250001014);
-    SetSpeffect(10000, 250001015);
-    SetSpeffect(10000, 250001016);
-    SetSpeffect(10000, 250001017);
-    SetSpeffect(10000, 250001018);
-    SetSpeffect(10000, 250001019);
-    
-    WaitFixedTimeSeconds(1);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Curse of Pride - Disable
-Event(400024, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ClearSpeffect(10000, 250001000);
-    ClearSpeffect(10000, 250001001);
-    ClearSpeffect(10000, 250001002);
-    ClearSpeffect(10000, 250001003);
-    ClearSpeffect(10000, 250001004);
-    ClearSpeffect(10000, 250001005);
-    ClearSpeffect(10000, 250001006);
-    ClearSpeffect(10000, 250001007);
-    ClearSpeffect(10000, 250001008);
-    ClearSpeffect(10000, 250001009);
-    ClearSpeffect(10000, 250001010);
-    ClearSpeffect(10000, 250001011);
-    ClearSpeffect(10000, 250001012);
-    ClearSpeffect(10000, 250001013);
-    ClearSpeffect(10000, 250001014);
-    ClearSpeffect(10000, 250001015);
-    ClearSpeffect(10000, 250001016);
-    ClearSpeffect(10000, 250001017);
-    ClearSpeffect(10000, 250001018);
-    ClearSpeffect(10000, 250001019);
-    
-    WaitFixedTimeSeconds(1);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Folly - Animations
 Event(400025, Default, function() {
     SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
     
-    WaitRandomTimeSeconds(60, 120);
+    WaitRandomTimeSeconds(300, 600);
     
     GotoIfCharacterHasSpeffect(Label.LABEL0, 1000, 250001200, false, ComparisonType.Equal, 1);
     

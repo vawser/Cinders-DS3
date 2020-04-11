@@ -221,7 +221,7 @@
 0864    Frying Pan
 0865    Gertrude's Knight Longaxe #
 0866    Winged Knight Longaxe #
-0867    Giant's Crossbow
+0867    Giant's Bow
 0868    Lothric Knight Claymore #
 0869    Serpentine Chain-axe
 0870    Model Ballista
@@ -267,27 +267,28 @@
 0936    Snake Eyes Cannon
 0937    Taro Mace
 0938    Taro Mallet
-0939    
-0940
-0941
-0942
-0943
-0944
-0945
-0946
-0947
-0948
-0949
-0950
-0951
-0952
-0953
-0954
-0955
-0956
-0957
-0958
-0959
+
+0939    Stone Greataxe
+0940    Priscilla's Dagger
+0941    Jagged Ghost Blade
+0942    Iaito
+0943    Hammer of Vamos
+0944    Ghost Blade
+0945    Gargoyle Halberd
+0946    Gargoyle Axe
+0947    Demon's Catalyst
+0948    Crystal Greatsword
+0949    DS1 Knight Shield
+0950    Effigy Shield
+0951    Blood Shield
+0952    Balder Shield
+0953    Achillies Shield
+0954    Tower Shield
+0955    Ivory King Ultra Greatsword
+0956    King's Mirror
+0957    Thorned Greatsword
+0958    
+0959    
 0960
 0961
 0962
@@ -441,3 +442,56 @@ Jester's Set (DS2)
 Manikin Set (DS2)
 Adventurer's Set (DS1)
 Executioner Set (Bloodborne)
+
+# TODO
+31700000 0840 / 1419 Hands of Sin
+31600000 0864 / 1420 Frying Pan
+31500000 0869 / 1421 Serpentine Chain-axe
+16170000 - 0873 / 1422 Imperious Greatshield
+14220000 - 0867 / 1423 Giant's Bow
+14230000 - 0870 / 1424 Model Ballista
+
+0841    Aldia Hammer   
+0842    Black Scorpion Stinger
+0843    Dragonrider Twinblade
+0844    Drakekeeeper's Great Hammer
+0845    Drakekeeper's Greataxe
+0846    Drakekeeper's Warpick
+0847    Drakewing Ultra Greatsword
+0848    Gargoyle Bident
+0849    Giant Warrior Club
+0850    Helix Halberd
+0851    Malformed Skull
+0852    Melu Scimitar
+0853    Old Knight Halberd
+0854    Old Knight Hammer
+0855    Old Knight Pike
+0856    Red Rust Scimitar
+0857    Roaring Halberd
+0858    Sanctum Mace
+0859    Spider's Silk
+0860    Spitfire Spear (Fire projectile as WA)
+0861    Syan's Halberd
+0862    Warped Sword
+0863    Cracked Round Shield
+0871    Bone Ash Katana
+0872    Fist of Gratia
+0939    Stone Greataxe
+0940    Priscilla's Dagger
+0941    Jagged Ghost Blade
+0943    Hammer of Vamos
+0944    Ghost Blade
+0945    Gargoyle Halberd
+0946    Gargoyle Axe
+0947    Demon's Catalyst
+0948    Crystalline Greatsword
+0949    DS1 Knight Shield
+0950    Effigy Shield
+0951    Blood Shield
+0952    Balder Shield
+0954    Tower Shield
+0955    Ivory King Ultra Greatsword (Add light beam on blade when 2H, damage buff) 
+0956    King's Mirror 
+0957    Thorned Greatsword (Sunlight Bolt as WA)
+0882    Genichiro's Bow
+0893    Okami Bow

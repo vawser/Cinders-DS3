@@ -809,6 +809,13 @@ function SetEvasionStaminaCost()
         c_StaminaCostJump = c_StaminaCostJump * 0.75
     end
     
+    -- Curse of Gluttony
+    if env(1116, 112070) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling * 2
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 2
+        c_StaminaCostJump = c_StaminaCostJump * 2
+    end
+    
     return 
 end
 
