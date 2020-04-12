@@ -55,6 +55,7 @@
 
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
+- Fire Keeper will now progress past her initial talk about the bonfire after saying it.
 
 #------------------------------
 # TODO
@@ -72,10 +73,10 @@ Add Curse of Attraction enemies
  3015750 # DONE
  3105750 # DONE
  3205750 # DONE
- 3305750
- 3415750
- 3505750
- 3705750
+ 3305750 # DONE
+ 3415750 # DONE
+ 3505750 # DONE
+ 3705750 # DONE
  3805750
  3905750
  4005750
@@ -87,4 +88,5 @@ Add Curse of Attraction enemies
  5305750
 
 Move mimic in m38 on bridge
-Check hitless stuff with the bosses (use icon to check hits)
+
+c2240
