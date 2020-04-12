@@ -53,6 +53,9 @@
 # Enemies
 - Moved Osvaldo to the area just after the door that exits the swamp area.
 
+# Map
+- The Cleansing Chapel bonfire now requires you to defeat the living Morne's Armour before it appears.
+
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
 - Fire Keeper will now progress past her initial talk about the bonfire after saying it.
@@ -77,7 +80,7 @@ Add Curse of Attraction enemies
  3415750 # DONE
  3505750 # DONE
  3705750 # DONE
- 3805750
+ 3805750 # DONE
  3905750
  4005750
  4105750
@@ -87,5 +90,4 @@ Add Curse of Attraction enemies
  5115750
  5305750
 
-Move mimic in m38 on bridge
-
+InitializeCommonEvent(20005500, 13700249, 13700006, 3700956, 3701956); // Water Reserve bonfire
