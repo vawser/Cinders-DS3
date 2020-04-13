@@ -30,9 +30,12 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Dream bosses now only reward 25% of the boss's normal soul drop, and Nightmares reward 100%.
+
 # Curses
 - Each curse now only gives 10% soul absorption boost.
-- Added Curse of Attraction. Adds additional enemies throughout the level and increases target priority.
+- Added Curse of Attraction. Adds additional enemies (some unique to COA) throughout the level and increases target priority. 
 - Added Curse of Fortitude. Increases enemy absorption and defence by 25%.
 - Made the Curse of Folly trigger animations much less often.
 - Curse of Vitality now applies all the time to all enemies.
@@ -41,6 +44,9 @@
 
 # Weapons
 - Adjusted the innate Luck weapons so they are better with the Lucky infusion and no longer have unusually high Holy/Enchanted infusion output.
+- Fire: adds 15 + 0.01% damage DOT on hit, lasting 5 seconds.
+- Increased the base damage of Lucky/Enchanted/Holy infusions.
+- Increased the scaling of the Lucky infusion.
 
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
@@ -52,6 +58,8 @@
 
 # Enemies
 - Moved Osvaldo to the area just after the door that exits the swamp area.
+- Changed Farron Ring +1/2/3 source to Abyss Watcher mobs.
+- Changed Band of Flame +1/2/3 source to Demon Statue mobs.
 
 # Map
 - The Cleansing Chapel bonfire now requires you to defeat the living Morne's Armour before it appears.
@@ -90,4 +98,3 @@ Add Curse of Attraction enemies
  5115750
  5305750
 
-InitializeCommonEvent(20005500, 13700249, 13700006, 3700956, 3701956); // Water Reserve bonfire

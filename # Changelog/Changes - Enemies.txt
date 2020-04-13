@@ -7,7 +7,7 @@
 # Vordt of the Boreal Valley 
 - NG0 HP: 3000 [4500]     
 - NG+ HP: 6000 [9000]    
-- Souls: 5000 [30000]
+- Souls: 5000 [1250] [5000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       110%
@@ -21,7 +21,7 @@
 # Curse-rotted Greatwood 
 - NG0 HP: 6000 [9000]
 - NG+ HP: 12000 [18000]          
-- Souls: 10000 [50000]
+- Souls: 10000 [2500] [10000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        100%
 - Absorption: Strike:       130%
@@ -35,7 +35,7 @@
 # Crystal Sage
 - NG0 HP: 6000 [9000]    
 - NG+ HP: 12000 [18000]       
-- Souls: 10000 [50000]
+- Souls: 10000 [2500] [10000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        120%
 - Absorption: Strike:       120%
@@ -49,7 +49,7 @@
 # Deacons of the Deep
 - NG0 HP: 8000 [12000]          
 - NG+ HP: 16000 [24000]
-- Souls: 10000 [50000]
+- Souls: 10000 [2500] [10000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -64,7 +64,7 @@
 # Corrupted Gundyr 
 - NG0 HP: 6000 [9000]      
 - NG+ HP: 12000 [18000]   
-- Souls: 8000 [40000]
+- Souls: 8000 [2000] [8000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        90%
 - Absorption: Strike:       110%
@@ -79,7 +79,7 @@
 # Abyss Watchers
 - NG0 HP: 8000 [12000]
 - NG+ HP: 16000 [24000]
-- Souls: 25000 [150000]
+- Souls: 25000 [6250] [25000]
 - Absorption: Standard:     150%
 - Absorption: Slash:        150%
 - Absorption: Strike:       150%
@@ -93,7 +93,7 @@
 # High Lord Wolnir
 - NG0 HP: 8000 [12000]      
 - NG+ HP: 16000 [24000]
-- Souls: 10000 [50000]
+- Souls: 10000 [2500] [10000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -108,7 +108,7 @@
 # Old Demon King 
 - NG0 HP: 12000 [18000]  
 - NG+ HP: 24000 [36000]    
-- Souls: 15000 [90000]
+- Souls: 15000 [3750] [15000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -123,7 +123,7 @@
 # Pontiff Sulyvahn 
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
-- Souls: 25000 [150000]
+- Souls: 25000 [6250] [25000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        120%
 - Absorption: Strike:       130%
@@ -150,7 +150,7 @@
 # Aldrich, Devourer of Gods
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]
-- Souls: 50000 [200000]
+- Souls: 50000 [12500] [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -165,7 +165,7 @@
 # Yhorm the Giant 
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]
-- Souls: 25000 [100000]
+- Souls: 25000 [6250] [25000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
 - Absorption: Strike:       100%
@@ -179,7 +179,7 @@
 # Dancer of the Boreal Valley
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
-- Souls: 15000 [90000]
+- Souls: 15000 [3750] [15000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        120%
 - Absorption: Strike:       130%
@@ -193,7 +193,7 @@
 # Oceiros, the Consumed King
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
-- Souls: 20000 [100000]
+- Souls: 20000 [5000] [20000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        120%
 - Absorption: Strike:       120%
@@ -207,7 +207,7 @@
 # Dragonslayer Armour 
 - NG0 HP: 14000 [21000]
 - NG+ HP: 28000 [42000]   	
-- Souls: 20000 [100000]
+- Souls: 20000 [5000] [20000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -222,7 +222,7 @@
 # Ancient Wyvern 
 - NG0 HP: 10000 [20000]   
 - NG+ HP: 20000 [40000]
-- Souls: 10000 [30000]
+- Souls: 10000 [2000] [10000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -249,7 +249,7 @@
 # Nameless King 
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]   
-- Souls: 50000 [200000]
+- Souls: 50000 [12500] [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -263,7 +263,7 @@
 # Champion Gundyr 
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]         
-- Souls: 20000 [100000]
+- Souls: 20000 [5000] [20000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
 - Absorption: Strike:       100%
@@ -292,7 +292,7 @@
 # Lothric, Younger Prince 
 - NG0 HP: 12000 [18000]   
 - NG+ HP: 24000 [36000]          
-- Souls: 50000 [200000]
+- Souls: 50000 [12500] [50000]
 - Absorption: Standard:     120%
 - Absorption: Slash:        120%
 - Absorption: Strike:       120%
@@ -306,7 +306,7 @@
 # Soul of Cinder 
 - NG0 HP: 16000 [24000]
 - NG+ HP: 32000 [48000]
-- Souls: 100000 [500000]
+- Souls: 100000 [25000] [100000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       100%
@@ -322,7 +322,7 @@
 - Phase 2 NG0 HP: 12000 [18000]     
 - Phase 1 NG+ HP: 18000 [27000]      
 - Phase 2 NG+ HP: 24000 [36000]     
-- Souls: 50000 [250000]
+- Souls: 50000 [12500] [50000]
 - Absorption: Standard:     130%
 - Absorption: Slash:        130%
 - Absorption: Strike:       130%
@@ -349,14 +349,14 @@
 # The Triad
 - NG0 HP: 2000 [3000]
 - NG+ HP: 4000 [6000]
-- Souls: 30000 [90000]
+- Souls: 30000 [7500] [30000]
 
 # Demon Prince
 - Phase 1 NG0 HP: 8000 [12000] 
 - Phase 2 NG0 HP: 8000 [12000]
 - Phase 1 NG+ HP: 16000 [24000] 
 - Phase 2 NG+ HP: 16000 [24000]
-- Souls: 100000 [300000]
+- Souls: 100000 [25000] [100000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        80%
 - Absorption: Strike:       100%
@@ -374,7 +374,7 @@
 # Darkeater Midir (5)
 - NG0 HP: 30000 [45000]
 - NG+ HP: 60000 [90000]                  
-- Souls: 150000 [600000]
+- Souls: 150000 [37500] [150000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        70%
 - Absorption: Strike:       100%
@@ -389,7 +389,7 @@
 # Slave Knight Gael (5)
 - NG0 HP: 20000 [30000]       
 - NG+ HP: 40000 [60000]
-- Souls: 125000 [500000]
+- Souls: 125000 [31250] [125000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        80%
 - Absorption: Strike:       100%

@@ -30,7 +30,7 @@ Magic:
 
 Fire:  
 - Adds Fire damage.
-- Adds effect: adds 30 + 0.05% damage DOT on hit, lasting 5 seconds.
+- Adds effect: adds 15 + 0.01% damage DOT on hit, lasting 5 seconds.
 
 Lightning:  
 - Adds Lightning damage.
