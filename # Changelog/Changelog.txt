@@ -31,7 +31,8 @@
 # Changelog
 #------------------------------
 # General
-- Dream bosses now only reward 25% of the boss's normal soul drop, and Nightmares reward 100%.
+- Dream and Nightmare bosses now reward the normal amount of souls for the boss.
+- Dreams no longer drop any materials. This means Dreams are better for soul farming, whereas Nightmares are for reinforcement materials (and challenge).
 
 # Curses
 - Each curse now only gives 10% soul absorption boost.
@@ -44,9 +45,11 @@
 
 # Weapons
 - Adjusted the innate Luck weapons so they are better with the Lucky infusion and no longer have unusually high Holy/Enchanted infusion output.
-- Fire: adds 15 + 0.01% damage DOT on hit, lasting 5 seconds.
+- Fire: now reduces Fire ABS by 10% for 5 seconds (stacks).
 - Increased the base damage of Lucky/Enchanted/Holy infusions.
 - Increased the scaling of the Lucky infusion.
+- Increased the motion value of Neck Swipe.
+- Stone Greatsword's Tranquil Walk of Peace now applies -200 stamina to enemies (like Frost).
 
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
@@ -55,11 +58,14 @@
 - Moved some NG+ only treasure spots into NG.
 - Changed the no hit rewards to soul items of a suitable level for each boss.
 - You can now transpose the Soul of Cinder soul into Estus Shards/Undead Bone Shards.
+- Dreams now cost 0 souls to buy.
+- Nightmares now cost more souls to buy (varies based on boss).
 
 # Enemies
 - Moved Osvaldo to the area just after the door that exits the swamp area.
 - Changed Farron Ring +1/2/3 source to Abyss Watcher mobs.
 - Changed Band of Flame +1/2/3 source to Demon Statue mobs.
+- Enemies will no longer linger as much if there are many of them.
 
 # Map
 - The Cleansing Chapel bonfire now requires you to defeat the living Morne's Armour before it appears.
@@ -71,7 +77,6 @@
 #------------------------------
 # TODO
 #------------------------------
-Add new Chr type (add action script)
 Change Hawkwood leaving to an talk option
 
 Velka's Talisman (add missing dp) 9948
@@ -89,7 +94,7 @@ Add Curse of Attraction enemies
  3505750 # DONE
  3705750 # DONE
  3805750 # DONE
- 3905750
+ 3905750 # DONE
  4005750
  4105750
  4505750
