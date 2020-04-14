@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002053 Cemetery of Ash / Unturned Graves
+54002057 Cemetery of Ash / Unturned Graves
 53002097 High Wall of Lothric / Consumed King's Garden
 53102091 Undead Settlement
 53302173 Road of Sacrifices / Farron Keep
@@ -60,6 +60,8 @@
 - You can now transpose the Soul of Cinder soul into Estus Shards/Undead Bone Shards.
 - Dreams now cost 0 souls to buy.
 - Nightmares now cost more souls to buy (varies based on boss).
+- Changed the Tower Key into the Forgotten Key. Now dropped by a Ravenous Crystal Lizard in Untended Graves. Unlocks locked chests.
+- Master Key no longer unlocks locked chests.
 
 # Enemies
 - Moved Osvaldo to the area just after the door that exits the swamp area.
@@ -95,7 +97,7 @@ Add Curse of Attraction enemies
  3705750 # DONE
  3805750 # DONE
  3905750 # DONE
- 4005750
+ 4005750 # DONE
  4105750
  4505750
  5005750
@@ -103,3 +105,5 @@ Add Curse of Attraction enemies
  5115750
  5305750
 
+2013 Forgotten Key
+ObjAct 201
