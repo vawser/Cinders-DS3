@@ -50,6 +50,7 @@
 - Increased the scaling of the Lucky infusion.
 - Increased the motion value of Neck Swipe.
 - Stone Greatsword's Tranquil Walk of Peace now applies -200 stamina to enemies (like Frost).
+- Increased the motion value of Stomp.
 
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
@@ -68,6 +69,7 @@
 - Changed Farron Ring +1/2/3 source to Abyss Watcher mobs.
 - Changed Band of Flame +1/2/3 source to Demon Statue mobs.
 - Enemies will no longer linger as much if there are many of them.
+- Added Red Lizzies.
 
 # Map
 - The Cleansing Chapel bonfire now requires you to defeat the living Morne's Armour before it appears.
@@ -98,12 +100,10 @@ Add Curse of Attraction enemies
  3805750 # DONE
  3905750 # DONE
  4005750 # DONE
- 4105750
+ 4105750 # DONE
  4505750
  5005750
  5105750
  5115750
  5305750
 
-2013 Forgotten Key
-ObjAct 201
