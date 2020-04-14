@@ -89,6 +89,7 @@ Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
 Add Gundyr's fogwall at start (remove the special first encounter stuff)
+Add DSA to catehdral (disable on load, for sounds only)
 
 Add Curse of Attraction enemies
  3005750 # DONE
