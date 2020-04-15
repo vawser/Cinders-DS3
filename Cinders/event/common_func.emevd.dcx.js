@@ -1622,6 +1622,15 @@ Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+// Enemy - Award Itemlot (Respawns)
+Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    WaitFixedTimeSeconds(X8_4);
+    AwardItemsIncludingClients(X4_4);
+    EndUnconditionally(EventEndType.End);
+});
+
 Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1);
