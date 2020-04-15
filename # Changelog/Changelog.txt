@@ -91,21 +91,6 @@ Add King's Mirror, Shield Bash WA, but with special spell deflection state that 
 Add Gundyr's fogwall at start (remove the special first encounter stuff)
 Add DSA to catehdral (disable on load, for sounds only)
 
-Add Curse of Attraction enemies
- 3005750 # DONE
- 3015750 # DONE
- 3105750 # DONE
- 3205750 # DONE
- 3305750 # DONE
- 3415750 # DONE
- 3505750 # DONE
- 3705750 # DONE
- 3805750 # DONE
- 3905750 # DONE
- 4005750 # DONE
- 4105750 # DONE
- 4505750 # DONE
- 5005750 # DONE
- 5105750 # DONE
- 5115750
+3500725
 
+13500198
