@@ -4522,6 +4522,8 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - NG+
 Event(20008000, Restart, function(X0_4, X4_1) {
+    SetNetworkSyncState(Enabled);
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4543,6 +4545,8 @@ Event(20008000, Restart, function(X0_4, X4_1) {
 
 // Spawn Control - Event Flag
 Event(20008010, Restart, function(X0_4, X4_4) {
+    SetNetworkSyncState(Enabled);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4564,6 +4568,8 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 
 // Spawn Control - NG+ and Event Flag
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
+    SetNetworkSyncState(Enabled);
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4586,13 +4592,16 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
 
 // Spawn Control - Disable By Default
 Event(20008030, Restart, function(X0_4) {
+    SetNetworkSyncState(Enabled);
+    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 });
 
 // Spawn Control - Curse of Attraction
 Event(20008040, Restart, function(X0_4) {
-    SetNetworkSyncState(Disabled);
+    SetNetworkSyncState(Enabled);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4614,6 +4623,8 @@ Event(20008040, Restart, function(X0_4) {
 
 // Spawn Control - OTE - With Itemlot
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Enabled);
+    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -4629,6 +4640,8 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - OTE - NG+ - With Itemlot
 Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
+    SetNetworkSyncState(Enabled);
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4653,6 +4666,8 @@ Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
 
 // Spawn Control - OTE - Event Flag - With Itemlot
 Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    SetNetworkSyncState(Enabled);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4677,6 +4692,8 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
 // Spawn Control - OTE - No Itemlot
 Event(20008150, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Enabled);
+    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -4773,7 +4790,8 @@ Event(20009100, Default, function(X0_4, X4_1) {
 
 // Generator Control - Curse of Pride
 Event(20009110, Restart, function(X0_4) {
-    SetNetworkSyncState(Disabled);
+    SetNetworkSyncState(Enabled);
+    
     DeactivateGenerator(X0_4, Disabled);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000000);
     DeactivateGenerator(X0_4, Enabled);
@@ -5226,6 +5244,8 @@ Event(20060001, Restart, function() {
 
 // Trial of Peseverance - Enemy  Wave Damage
 Event(20060010, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Enabled);
+    
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -5238,6 +5258,8 @@ Event(20060010, Default, function(X0_4, X4_4) {
 
 // Trial of Peseverance - Enemy - Enforce State
 Event(20060011, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Enabled);
+    
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
@@ -5252,6 +5274,8 @@ Event(20060011, Default, function(X0_4, X4_4) {
 
 // Trial of Peseverance - Enemy - Kill on Wave End
 Event(20060012, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Enabled);
+    
     IfCharacterHPRatio(AND_01, 5300500, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -5354,7 +5378,7 @@ Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
 
 // Curse - Spawn Control
 Event(20081000, Restart, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
+    SetNetworkSyncState(Enabled);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5376,7 +5400,7 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 
 // Curse - Add SpEffect
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Disabled);
+    SetNetworkSyncState(Enabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
