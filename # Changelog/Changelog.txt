@@ -76,6 +76,7 @@
 
 # Map
 - The Cleansing Chapel bonfire now requires you to defeat the living Morne's Armour before it appears.
+- Added Dragon Altar menu to Archdragon Peak, allowing you to access the Dragon Remnants covenant stuff after Hawkwood has gone.
 
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
@@ -89,3 +90,4 @@ Velka's Talisman (add missing dp) 9948
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
+320010 Dragon Altar

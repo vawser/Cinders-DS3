@@ -50,6 +50,7 @@ Then create the python version and recompile it.
 320001 Nameless King bonfire
 320002 Great Belfry bonfire
 320003 Dragon-kin Mausoleum bonfire
+320010 Dragon Altar
 
 330000 Halfway Fortress bonfire
 330001 Abyss Watchers bonfire
