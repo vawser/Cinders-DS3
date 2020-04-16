@@ -1622,15 +1622,6 @@ Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Enemy - Award Itemlot (Respawns)
-Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    WaitFixedTimeSeconds(X8_4);
-    AwardItemsIncludingClients(X4_4);
-    EndUnconditionally(EventEndType.End);
-});
-
 Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1);
@@ -4788,15 +4779,6 @@ Event(20009100, Default, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
-// Generator Control - Curse of Pride
-Event(20009110, Restart, function(X0_4) {
-    SetNetworkSyncState(Enabled);
-    
-    DeactivateGenerator(X0_4, Disabled);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000000);
-    DeactivateGenerator(X0_4, Enabled);
-});
-
 // NPC Kill Emote
 Event(20009201, Default, function(X0_4, X4_4) {
     EndIfNumberOfCoopClients(EventEndType.End, ComparisonType.GreaterOrEqual, 1);
@@ -4810,13 +4792,14 @@ Event(20009201, Default, function(X0_4, X4_4) {
 Event(20009300, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
     
-    SetEventFlag(25000000, OFF); // Curse of Folly
     SetEventFlag(25000001, OFF); // Curse of Obscurity
     SetEventFlag(25000002, OFF); // Curse of Vitality
     SetEventFlag(25000003, OFF); // Curse of Wraht
     SetEventFlag(25000004, OFF); // Curse of Pride
     SetEventFlag(25000005, OFF); // Curse of Attraction
     SetEventFlag(25000006, OFF); // Curse of Fortitude
+    SetEventFlag(25000007, OFF); // Curse of Gluttony
+    SetEventFlag(25000008, OFF); // Curse of Folly
     
     SetEventFlag(25000010, ON); // Deathless Run
     
@@ -5403,4 +5386,14 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Enabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
+});
+
+// Enemy - Award Itemlot - Special Boss Case
+Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    WaitFixedTimeSeconds(X8_4);
+    AwardItemsIncludingClients(X4_4);
+    ForceCharacterDeath(X0_4, true);
+    EndUnconditionally(EventEndType.End);
 });

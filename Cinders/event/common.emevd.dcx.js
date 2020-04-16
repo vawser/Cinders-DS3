@@ -1632,7 +1632,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400016, 0); // NG+ Flags
     
     // Curse Info Prompts
-    InitializeEvent(0, 400020, 25004100, 99002100); // Folly
+    InitializeEvent(0, 400020, 25004108, 99002100); // Folly
     InitializeEvent(1, 400020, 25004101, 99002101); // Obscurity 
     InitializeEvent(2, 400020, 25004102, 99002102); // Vitality 
     InitializeEvent(3, 400020, 25004103, 99002103); // Wrath 
@@ -1642,24 +1642,24 @@ Event(400000, Default, function() {
     InitializeEvent(7, 400020, 25004107, 99002107); // Gluttony
     
     // Enable
-    InitializeEvent(0, 400021, 25000000, 250001200, 250001201); // Curse of Folly
+    InitializeEvent(0, 400021, 25000008, 250001200, 250001201); // Curse of Folly
     InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400021, 25000004, 250001000, 250001001); // Curse of Pride
     InitializeEvent(5, 400021, 25000005, 250001500, 250001501); // Curse of Attraction
     InitializeEvent(6, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(7, 400021, 25000007, 250001700, 250001701); // Curse of Fortitude
+    InitializeEvent(7, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
     
     // Disable
-    InitializeEvent(0, 400022, 25000000, 250001200, 250001201); // Curse of Folly
+    InitializeEvent(0, 400022, 25000008, 250001200, 250001201); // Curse of Folly
     InitializeEvent(1, 400022, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400022, 25000004, 250001000, 250001001); // Curse of Pride
     InitializeEvent(5, 400022, 25000005, 250001500, 250001501); // Curse of Attraction
     InitializeEvent(6, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Fortitude
+    InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
     
     InitializeEvent(0, 400025, 0); // Curse of Folly - Animations
     

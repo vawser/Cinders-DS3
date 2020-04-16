@@ -86,7 +86,6 @@
 #------------------------------
 Change Hawkwood leaving to an talk option
 Velka's Talisman (add missing dp) 9948
-Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
