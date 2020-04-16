@@ -689,8 +689,8 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Angelic Barrage
 #--------------------------------
-- FP Cost: 400
-- Physical Damage: 80 (per bullet)
+- FP Cost: 800
+- Physical Damage: 250 (per bullet)
 - FTH Req: 50
 - Ascended Effect: emits more beams.
 
@@ -1004,7 +1004,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Cascading Deep
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 80 (per bullet)
+- Dark Damage: 140 (per bullet)
 - INT Req: 38
 - FTH Req: 10
 - Base Effect: inflicts 10 Curse per bullet.

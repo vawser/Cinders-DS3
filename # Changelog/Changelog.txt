@@ -54,6 +54,8 @@
 
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
+- Angelic Barrage now does 250 per hit, costs 800 FP.
+- Cascading Deep now does 140 per hit.
 
 # Items
 - Moved some NG+ only treasure spots into NG.
@@ -82,7 +84,6 @@
 # TODO
 #------------------------------
 Change Hawkwood leaving to an talk option
-
 Velka's Talisman (add missing dp) 9948
 Make Priest's Candlestick normal weapon (add spell WA)
 Change Breaking Wheel moveset + Power Within WA
