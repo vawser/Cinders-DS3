@@ -434,7 +434,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 250
-- Fire Damage: 120 [100]
+- Fire Damage: 120 
 - Ascended Effect: impacts leave lava pools.
 
 #--------------------------------
@@ -1065,7 +1065,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 250
-- Dark Damage: 120 [100]
+- Dark Damage: 120 
 - Ascended Effect: impacts leave black fire spots.
 
 #--------------------------------
