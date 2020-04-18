@@ -24,7 +24,7 @@
 54102010 Kiln of the First Flame
 53202073 Archdragon Peak
 54502071 Painted World of Ariandel
-55002058 Dreg Heap
+55002059 Dreg Heap
 55102056 The Ringed City
 
 #------------------------------
@@ -66,6 +66,9 @@
 - Changed the Tower Key into the Forgotten Key. Now dropped by a Ravenous Crystal Lizard in Untended Graves. Unlocks locked chests.
 - Master Key no longer unlocks locked chests.
 
+# Merchants
+- Added Domhnall of Zena as a merchant to the Anor Londo section in Irithyll. He sells his set and a few other items. Note that he does not take kindly to acts of aggression.
+
 # Enemies
 - Moved Osvaldo to the area just after the door that exits the swamp area.
 - Changed Farron Ring +1/2/3 source to Abyss Watcher mobs.
@@ -81,13 +84,40 @@
 # Bugfixes
 - Fixed Corvian Dagger heavy attacks not using the new motion values.
 - Fire Keeper will now progress past her initial talk about the bonfire after saying it.
+- Fixed issue with some weapons having invalid infusion options.
+- Poison Spires WA now only hits 3 times (Poison inflict per hit has been increased to compensate for this).
 
 #------------------------------
 # TODO
 #------------------------------
-Change Hawkwood leaving to an talk option
 Velka's Talisman (add missing dp) 9948
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
-320010 Dragon Altar
+[18:24] ɹǝxᴉuoɯɹɐH: Known bugs to be fixed Soon™️, maybe:
+- Claw weapon R2 attack cancels its own animation when pressed again.
+- Horsehoof ring makes the gundyr kick from fists/claws/halbers to not send enemies flying.
+- There is no text behind the lord's thrones in firelink shrine.
+- Perseverance WA for greatswords only cost 50 fp.
+- Axes 1H R2s have a smash sound despite not hitting the ground.
+- Dragonslayer swordspear only uses the elemental part of the AR for it's WA, infusions like enchanted make it do 0 damage.
+- Corvian knight helmet applies poison aux buff to right hand weapon.
+- Talking to the NG+ tree and leaving without selecting any option triggers the fire keeper dialoge.
+- Soul gain from curse aux effect doesn't work.
+
+[18:24] ɹǝxᴉuoɯɹɐH: - There are 2 millwood greatbows as loot in ariandel.
+- Black knight greataxe warcry R2 has no hitbox after the first swing.
+- A second wave is automatically shooted when using the 2h r2 once on moonlight straight/greatswords and then waiting until the animation ends.
+- Karla's flirt option unlocked without the ring of betrothal simply by talking to her.
+- Flashsword gets a weird reverse grip cast animation when casted with sorcerous flame in the left hand.
+- Sorcerous flame visual effect disappears after a few seconds of being equipped.
+- Flashsword doesn't work when casted with velka's talisman.
+- Shield Breaker WA on the Mail Breaker uses more stamina than the one in the Balder Straight Sword.
+- The golden ritual spear's WA doesn't do anything.
+- Torch and follower torch have no physical scaling despite having D/E for str/dex, no infusion adds physical scaling either.
+- Hexing urn's damage only scales with intelligence.
+- Crimson bats in smouldering lake drop no souls.
+- The prowler doesn't drop his armor set.
+- Blood of might does not respawn the prowler.
+- Lucky infusion random damage effect doesn't last enough to change the damage of some charged R2 like the ones from ultras and whips.
+- Lothric's holy spear and angelic barrage projectiles have no sound effect.

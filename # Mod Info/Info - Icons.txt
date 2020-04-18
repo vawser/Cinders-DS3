@@ -223,9 +223,9 @@
 3557 Mailed Soldier Helmet
 3556 Pot Helmet
 3557 Priest Mask
-3558
-3559
-3560
+3558 Helm of the Wise
+3559 Armor of the Glorious
+3560 Gauntlets of the Vanquisher
 3561 Hallowed Knight Helm
 3562 Hallowed Knight Armor
 3563 Hallowed Knight Gauntlets
@@ -239,7 +239,7 @@
 3571 Steel Armor
 3572 Steel Gauntlets
 3573 Steel Leggings
-3574 
+3574 Boots of the Explorer
 3575 
 
 # Block 4

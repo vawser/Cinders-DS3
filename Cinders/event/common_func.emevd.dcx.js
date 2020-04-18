@@ -4513,8 +4513,6 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - NG+
 Event(20008000, Restart, function(X0_4, X4_1) {
-    SetNetworkSyncState(Enabled);
-    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4536,8 +4534,6 @@ Event(20008000, Restart, function(X0_4, X4_1) {
 
 // Spawn Control - Event Flag
 Event(20008010, Restart, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4559,8 +4555,6 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 
 // Spawn Control - NG+ and Event Flag
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
-    SetNetworkSyncState(Enabled);
-    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4583,16 +4577,12 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
 
 // Spawn Control - Disable By Default
 Event(20008030, Restart, function(X0_4) {
-    SetNetworkSyncState(Enabled);
-    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 });
 
 // Spawn Control - Curse of Attraction
 Event(20008040, Restart, function(X0_4) {
-    SetNetworkSyncState(Enabled);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4614,8 +4604,6 @@ Event(20008040, Restart, function(X0_4) {
 
 // Spawn Control - OTE - With Itemlot
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Enabled);
-    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -4631,8 +4619,6 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - OTE - NG+ - With Itemlot
 Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
-    SetNetworkSyncState(Enabled);
-    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4657,8 +4643,6 @@ Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
 
 // Spawn Control - OTE - Event Flag - With Itemlot
 Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SetNetworkSyncState(Enabled);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4683,8 +4667,6 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
 // Spawn Control - OTE - No Itemlot
 Event(20008150, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
-    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -5160,7 +5142,7 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 });
 
 // Object Warp - Entity ID, Object ID, Action Param ID, Warp Point ID, FFX ID, FFX Dummy ID
-Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     IfActionButtonInArea(OR_01, X8_4, X4_4);
     IfConditionGroup(MAIN, PASS, OR_01);
     
@@ -5169,6 +5151,21 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     WaitFixedTimeSeconds(0.1);
     
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, X20_4, X16_4);
+    SetCharacterGravity(X0_4, Enabled)
+    
+    EndUnconditionally(EventEndType.Restart)
+});
+
+// Damage Warp - Entity ID, Warp Event Point ID, Target ID, FFX ID, FFX Dummy ID,
+Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    IfCharacterDamagedBy(OR_01, X8_4, X0_4);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetCharacterGravity(X0_4, Disabled)
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
+    WaitFixedTimeSeconds(0.1);
+    
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, X16_4, X12_4);
     SetCharacterGravity(X0_4, Enabled)
     
     EndUnconditionally(EventEndType.Restart)
@@ -5361,7 +5358,6 @@ Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
 
 // Curse - Spawn Control
 Event(20081000, Restart, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5383,7 +5379,6 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 
 // Curse - Add SpEffect
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Enabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
@@ -5392,8 +5387,11 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
 Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    WaitFixedTimeSeconds(X8_4);
-    AwardItemsIncludingClients(X4_4);
-    ForceCharacterDeath(X0_4, true);
+    
+    WaitFixedTimeSeconds(5);
+    
+    AwardItemLot(X4_4);
+    SetSpeffect(10000, X8_4);
+    
     EndUnconditionally(EventEndType.End);
 });
