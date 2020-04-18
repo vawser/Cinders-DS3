@@ -2957,6 +2957,11 @@ Event(400400, Default, function(X0_4) {
     SetEventFlag(14000860, OFF); // Blacksmith's Nightmare
     SetEventFlag(14000861, OFF); // Ashen Keeper Sofija
     
+    SetEventFlag(13500197, OFF); // Hallowed Knight Orthell
+    SetEventFlag(13200470, OFF); // Dragon Hunter Karstark
+    SetEventFlag(14500663, OFF); // Disciple of Alsanna
+    SetEventFlag(15000601, OFF); // The Prowler
+    
     SetPlayerRespawnPoint(4002950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);

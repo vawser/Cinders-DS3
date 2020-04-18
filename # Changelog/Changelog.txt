@@ -86,38 +86,31 @@
 - Fire Keeper will now progress past her initial talk about the bonfire after saying it.
 - Fixed issue with some weapons having invalid infusion options.
 - Poison Spires WA now only hits 3 times (Poison inflict per hit has been increased to compensate for this).
+- Horsehoof Ring no longer stops the knockback from the gundyr kick (Note for some enemies you need multiple kicks to break their poise and get the knockback, that is intended).
+- Fixed Corvian Knight Helmet not using the right effect.
+- Fist R2's no longer let you cancel themselves immediately.
+- Fixed double bullet on Moonlight Greatsword 2H R2 (uncharged).
+- Fixed crimson bats not giving souls.
+- Added the new NPCs to the Blood of Might script.
+- Karla's Flirt option is no longer incorrectly enabled by using the Talk option.
+- Golden Ritual Spear WA now works.
+- Torch/Follower Torch now have STR/DEX scaling damage.
+- Mail Breaker WA now costs 30 stamina.
 
 #------------------------------
 # TODO
 #------------------------------
-Velka's Talisman (add missing dp) 9948
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
 [18:24] ɹǝxᴉuoɯɹɐH: Known bugs to be fixed Soon™️, maybe:
-- Claw weapon R2 attack cancels its own animation when pressed again.
-- Horsehoof ring makes the gundyr kick from fists/claws/halbers to not send enemies flying.
 - There is no text behind the lord's thrones in firelink shrine.
-- Perseverance WA for greatswords only cost 50 fp.
-- Axes 1H R2s have a smash sound despite not hitting the ground.
 - Dragonslayer swordspear only uses the elemental part of the AR for it's WA, infusions like enchanted make it do 0 damage.
-- Corvian knight helmet applies poison aux buff to right hand weapon.
-- Talking to the NG+ tree and leaving without selecting any option triggers the fire keeper dialoge.
 - Soul gain from curse aux effect doesn't work.
 
-[18:24] ɹǝxᴉuoɯɹɐH: - There are 2 millwood greatbows as loot in ariandel.
-- Black knight greataxe warcry R2 has no hitbox after the first swing.
-- A second wave is automatically shooted when using the 2h r2 once on moonlight straight/greatswords and then waiting until the animation ends.
-- Karla's flirt option unlocked without the ring of betrothal simply by talking to her.
 - Flashsword gets a weird reverse grip cast animation when casted with sorcerous flame in the left hand.
 - Sorcerous flame visual effect disappears after a few seconds of being equipped.
 - Flashsword doesn't work when casted with velka's talisman.
-- Shield Breaker WA on the Mail Breaker uses more stamina than the one in the Balder Straight Sword.
-- The golden ritual spear's WA doesn't do anything.
-- Torch and follower torch have no physical scaling despite having D/E for str/dex, no infusion adds physical scaling either.
+
 - Hexing urn's damage only scales with intelligence.
-- Crimson bats in smouldering lake drop no souls.
-- The prowler doesn't drop his armor set.
-- Blood of might does not respawn the prowler.
-- Lucky infusion random damage effect doesn't last enough to change the damage of some charged R2 like the ones from ultras and whips.
-- Lothric's holy spear and angelic barrage projectiles have no sound effect.
+
