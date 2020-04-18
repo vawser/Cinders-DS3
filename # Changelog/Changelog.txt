@@ -51,6 +51,7 @@
 - Increased the motion value of Neck Swipe.
 - Stone Greatsword's Tranquil Walk of Peace now applies -200 stamina to enemies (like Frost).
 - Increased the motion value of Stomp.
+- Increased FP cost of Crystal Blade WA.
 
 # Spells
 - Lingering Chaos is now 500 FP, shoots 8 orbs in a scattered formation at once. The damage of each orb is now only 100, deal far less poise/stamina damage and expire after 1 hit.
@@ -96,21 +97,18 @@
 - Golden Ritual Spear WA now works.
 - Torch/Follower Torch now have STR/DEX scaling damage.
 - Mail Breaker WA now costs 30 stamina.
+- Fixed Snap Freeze FP cost.
+- Fixed issue with Sorcerous Flame left hand cast.
+- Fixed Velka's Talisman/Priest's Candlestick (Thanks to Lost Cat)
+- Sorcerous Flame now uses a VFX that doesn't expire.
+- Curse no longer boosts soul gain from enemy (didn't work anyway).
+- Dragonslayer Swordspear WA now correctly uses all scaling for its damage.
+- Restored the throne prompts.
+- Fixed Hexing Urn not scaling with both INT/FTH.
 
 #------------------------------
 # TODO
 #------------------------------
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
-
-[18:24] ɹǝxᴉuoɯɹɐH: Known bugs to be fixed Soon™️, maybe:
-- There is no text behind the lord's thrones in firelink shrine.
-- Dragonslayer swordspear only uses the elemental part of the AR for it's WA, infusions like enchanted make it do 0 damage.
-- Soul gain from curse aux effect doesn't work.
-
-- Flashsword gets a weird reverse grip cast animation when casted with sorcerous flame in the left hand.
-- Sorcerous flame visual effect disappears after a few seconds of being equipped.
-- Flashsword doesn't work when casted with velka's talisman.
-
-- Hexing urn's damage only scales with intelligence.
 
