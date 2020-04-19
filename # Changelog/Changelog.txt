@@ -30,6 +30,12 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Companions
+- Weakened Solaire's power and HP.
+
+# Enemies
+- Extended the lock-on distance against all enemies.
+- Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
 
 #------------------------------
 # TODO
@@ -38,6 +44,5 @@ Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
 Fix door being open with Oceiros respawn
-Add extended lockon range to all enemies
-Change Red Lizard AI to use a quicker attack
 
+Add Skeleton Wheels that fire dark magic
