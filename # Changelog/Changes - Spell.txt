@@ -70,7 +70,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 500
+- FP Cost: 600
 - Magic Damage: 800 
 - INT Req: 40
 - Ascended Effect: gains much better tracking and speed.
@@ -928,7 +928,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Climax
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 400
 - Dark Damage: 400 
 - INT Req: 40
 - FTH Req: 10
@@ -937,7 +937,7 @@ Deep Braille Divine Tome - Cathedral of the Deep
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 500
+- FP Cost: 800
 - Dark Damage: 900 
 - INT Req: 40
 - FTH Req: 10

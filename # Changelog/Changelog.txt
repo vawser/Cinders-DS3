@@ -33,6 +33,12 @@
 # Companions
 - Weakened Solaire's power and HP.
 
+# Spells
+- Crystal Soul Spear: FP to 600.
+- Great Soul Dregs: FP to 800.
+- Climax: FP to 400.
+- Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
+
 # Enemies
 - Extended the lock-on distance against all enemies.
 - Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
