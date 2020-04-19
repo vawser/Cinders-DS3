@@ -39,6 +39,10 @@
 - Climax: FP to 400.
 - Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
 
+# Items
+- Increased the drop rate of gems from enemies.
+- Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
+
 # Enemies
 - Extended the lock-on distance against all enemies.
 - Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
@@ -52,3 +56,6 @@ Add King's Mirror, Shield Bash WA, but with special spell deflection state that 
 Fix door being open with Oceiros respawn
 
 Add Skeleton Wheels that fire dark magic
+Add secret red lizzie revenge:
+ add passive red lizzie in Irithyll Dungeon, can be killed
+ If killed, causes red lizzie swarm in Yhorm's room
