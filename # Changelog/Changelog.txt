@@ -47,6 +47,7 @@
 - Extended the lock-on distance against all enemies.
 - Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
 - Added a killable Red Crystal Lizard in the lower part of Irithyll Dungeon. Killing it will enable several spawns of Red Crystal Lizards in the Profaned Capital.
+- The COA Bonewheel Skeletons added in the catacombs now shoot black fireballs whilst spinning.
 
 #------------------------------
 # TODO
@@ -56,7 +57,4 @@ Add King's Mirror, Shield Bash WA, but with special spell deflection state that 
 
 Fix door being open with Oceiros respawn
 
-Add Skeleton Wheels that fire dark magic
-Add secret red lizzie revenge:
- add passive red lizzie in Irithyll Dungeon, can be killed
- If killed, causes red lizzie swarm in Yhorm's room
+
