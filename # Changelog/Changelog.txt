@@ -48,6 +48,7 @@
 # Items
 - Increased the drop rate of gems from enemies.
 - Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
+- The Drowsy Villager in Ariandel now gives you the Ceaseless Dung Pie.
 
 # Enemies
 - Extended the lock-on distance against all enemies.
