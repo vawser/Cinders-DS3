@@ -55,10 +55,11 @@
 - Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
 - Added a killable Red Crystal Lizard in the lower part of Irithyll Dungeon. Killing it will enable several spawns of Red Crystal Lizards in the Profaned Capital.
 - The COA Bonewheel Skeletons added in the catacombs now shoot black fireballs whilst spinning.
+- Removed the Undead Hexers.
 
 # Map
-- Removed 'Yoel V2' as the dummy.
-- The Fire Keeper now has 100,000 HP so she can serve as the new dummy.
+- Changed the Pilgrim Dummy into a spooky boi.
+- The Fire Keeper now has 100,000 HP to flex on the wifebeaters.
 - Moved Irina back to her old place.
 - Moved the Altar of Affliction to where the Dummy used to be.
 
