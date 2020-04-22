@@ -31,13 +31,19 @@
 # Changelog
 #------------------------------
 # Companions
-- Weakened Solaire's power and HP.
+- Weakened Solaire's damage in NG a bit.
+- Adjusted Solaire so his AI is less annoying. He will enter battles more readily and no longer spams Oath of Sunlight.
+- Solaire will now draw enemy aggro naturally, making him more useful in frantic fights.
+- Solaire gains an estus flask every 15 seconds, allowing him to heal throughout the course of a level.
 
 # Spells
 - Crystal Soul Spear: FP to 600.
 - Great Soul Dregs: FP to 800.
 - Climax: FP to 400.
 - Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
+
+# Infusions
+- Fire/Dark now get 15% free scaling instead of 30%.
 
 # Items
 - Increased the drop rate of gems from enemies.
@@ -49,14 +55,19 @@
 - Added a killable Red Crystal Lizard in the lower part of Irithyll Dungeon. Killing it will enable several spawns of Red Crystal Lizards in the Profaned Capital.
 - The COA Bonewheel Skeletons added in the catacombs now shoot black fireballs whilst spinning.
 
+# Map
+- Removed 'Yoel V2' as the dummy.
+- The Fire Keeper now has 100,000 HP so she can serve as the new dummy.
+- Moved Irina back to her old place.
+- Moved the Altar of Affliction to where the Dummy used to be.
+
+# Bugfixes
+- Added back fogwall to Oceiros arena to prevent the player from leaving during refights.
+- Fixed the Curse of Folly description not appearing.
+
 #------------------------------
 # TODO
 #------------------------------
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
-Fix door being open with Oceiros respawn
-
-
-3001813
-63000251

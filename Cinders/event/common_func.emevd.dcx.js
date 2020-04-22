@@ -3103,7 +3103,7 @@ Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
 
-// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID, Unk Flag
+// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID, Trigger Flag
 Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
@@ -3156,7 +3156,7 @@ Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
-// Summon Boss Fog AI - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID, Unk Flag
+// Summon Boss Fog AI - Summon Flag, Boss Active Flag, Entity ID, Region ID, Region ID, Unk Flag
 Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);

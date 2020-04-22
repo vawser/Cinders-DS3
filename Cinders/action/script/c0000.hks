@@ -523,19 +523,23 @@ function GetAttackRequest(is_guard)
     local style = c_Style
     local is_both = FALSE
     local is_both_right = FALSE
+    
     if HAND_LEFT_BOTH <= style then
         is_both = TRUE
     end
     if style == HAND_RIGHT_BOTH then
         is_both_right = TRUE
     end
+    
     local hand = HAND_RIGHT
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
+    
     local is_arrow = GetEquipType(hand, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW)
     local is_crossbow = GetEquipType(hand, WEAPON_CATEGORY_CROSSBOW)
     local is_staff = GetEquipType(hand, WEAPON_CATEGORY_STAFF)
+    
     if env(1106, ACTION_ARM_R1) == TRUE then
         if is_both == TRUE then
             if is_arrow == TRUE then
@@ -558,6 +562,7 @@ function GetAttackRequest(is_guard)
         elseif is_guard == TRUE then
             local is_spear = GetEquipType(HAND_RIGHT, WEAPON_CATEGORY_SPEAR)
             local is_rapier = GetEquipType(HAND_RIGHT, WEAPON_CATEGORY_RAPIER)
+            
             if is_spear == TRUE or is_rapier == TRUE then
                 if 0 < env(1108, ACTION_ARM_L1) then
                     return ATTACK_REQUEST_ATTACK_WHILE_GUARD
