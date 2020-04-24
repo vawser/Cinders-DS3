@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Summons
+- Made most of the white phantom summon signs unconditional to make them more useful.
+
 # Companions
 - Weakened Solaire's damage in NG a bit.
 - Adjusted Solaire so his AI is less annoying. He will enter battles more readily and no longer spams Oath of Sunlight.
@@ -56,29 +59,35 @@
 - Added a killable Red Crystal Lizard in the lower part of Irithyll Dungeon. Killing it will enable several spawns of Red Crystal Lizards in the Profaned Capital.
 - The COA Bonewheel Skeletons added in the catacombs now shoot black fireballs whilst spinning.
 - Removed the Undead Hexers.
+- Removed the Roaming Sorcerers.
+- Removed the Demon Prince enemies in Smouldering Lake due to issues. The Stray Demon near the back of the lake now drops the Undead Bone Shard.
+- Moved the Prowler into the Firelink Shrine part of Dreg Heap.
+- Reduced the aggro range of Morne's Armor.
 
 # Map
-- Changed the Pilgrim Dummy into a spooky boi.
-- The Fire Keeper now has 100,000 HP to flex on the wifebeaters.
-- Moved Irina back to her old place.
-- Moved the Altar of Affliction to where the Dummy used to be.
+- Changed the Pilgrim Dummy into a skeleton.
+- The Fire Keeper now has 100,000 HP as punishment for your sins.
+- Moved Irina back to her original placement.
+- Moved the Altar of Affliction to the alcove near to the Dummy.
 
 # Bugfixes
 - Added back fogwall to Oceiros arena to prevent the player from leaving during refights.
 - Fixed the Curse of Folly description not appearing.
+- Fixed Lion Knight Albert summon not being available.
 
 #------------------------------
 # TODO
-#------------------------------
+#------------------------------#
+Update item ID list
 Change Breaking Wheel moveset + Power Within WA
 Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
-Update item ID list
-
-Continue map ID/name adjustments
-Change demon prince enemies in smouldering lake
+Add new armors
 
 Fecal Overload
 Boulder heave, spit multiple dung pies, potent toxic
 
 Add warp to profaned capital, through a well in undead settlement, requires rope key item found in road of sacrifices
+
+Fix morne hitbox lingering in chapel, add fogwall, reduce aggro range, trigger AI and enable fogwall when player walks in
+

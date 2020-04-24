@@ -4513,6 +4513,8 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - NG+
 Event(20008000, Restart, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4534,6 +4536,8 @@ Event(20008000, Restart, function(X0_4, X4_1) {
 
 // Spawn Control - Event Flag
 Event(20008010, Restart, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4555,6 +4559,8 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 
 // Spawn Control - NG+ and Event Flag
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4583,6 +4589,8 @@ Event(20008030, Restart, function(X0_4) {
 
 // Spawn Control - Curse of Attraction
 Event(20008040, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4681,6 +4689,7 @@ Event(20008150, Default, function(X0_4, X4_4) {
 
 // Warp to Location 
 Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -4690,6 +4699,7 @@ Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
 
 // Warp to Location - Wait for Flag
 Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4700,6 +4710,7 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 
 // Warp to Location - Firelink Shrine
 Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(1);
@@ -4708,6 +4719,7 @@ Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
 
 // Warp to Location - Untended Graves
 Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -4718,6 +4730,7 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
 
 // Trial - Warp To
 Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -4728,6 +4741,7 @@ Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
 
 // Trial - Warp From
 Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     SetEventFlag(X16_4, OFF);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -4739,6 +4753,7 @@ Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 
 // Treasure Control - NG+ = X
 Event(20009000, Default, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -4751,6 +4766,7 @@ Event(20009000, Default, function(X0_4, X4_1) {
 
 // Treasure Control - NG+ => X
 Event(20009100, Default, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -4763,7 +4779,7 @@ Event(20009100, Default, function(X0_4, X4_1) {
 
 // NPC Kill Emote
 Event(20009201, Default, function(X0_4, X4_4) {
-    EndIfNumberOfCoopClients(EventEndType.End, ComparisonType.GreaterOrEqual, 1);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
     WaitFixedTimeSeconds(5);
@@ -4772,6 +4788,7 @@ Event(20009201, Default, function(X0_4, X4_4) {
 
 // Setup Game Flags
 Event(20009300, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
     
     SetEventFlag(25000001, OFF); // Curse of Obscurity
@@ -4853,6 +4870,7 @@ Event(20009300, Default, function() {
 
 // Corrupted Gundyr
 Event(20020000, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001001, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4864,6 +4882,7 @@ Event(20020000, Default, function() {
 
 // Vordt of the Boreal Valley
 Event(20020001, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001002, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4875,6 +4894,7 @@ Event(20020001, Default, function() {
 
 // Curse-rotted Greatwood
 Event(20020002, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001003, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4886,6 +4906,7 @@ Event(20020002, Default, function() {
 
 // Crystal Sage
 Event(20020003, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001004, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4897,6 +4918,7 @@ Event(20020003, Default, function() {
 
 // Deacons of the Deep
 Event(20020004, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001005, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4908,6 +4930,7 @@ Event(20020004, Default, function() {
 
 // Abyss Watchers
 Event(20020005, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001006, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4919,6 +4942,7 @@ Event(20020005, Default, function() {
 
 // High Lord Wolnir
 Event(20020006, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001007, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4930,6 +4954,7 @@ Event(20020006, Default, function() {
 
 // Old Demon King
 Event(20020007, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001008, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4941,6 +4966,7 @@ Event(20020007, Default, function() {
 
 // Pontiff Sulyvahn
 Event(20020008, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001009, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4952,6 +4978,7 @@ Event(20020008, Default, function() {
 
 // Aldrich, Devourer of Gods
 Event(20020009, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001010, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4963,6 +4990,7 @@ Event(20020009, Default, function() {
 
 // Yhorm the Giant
 Event(20020010, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001011, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4974,6 +5002,7 @@ Event(20020010, Default, function() {
 
 // Dancer of the Boreal Valley
 Event(20020011, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001012, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4985,6 +5014,7 @@ Event(20020011, Default, function() {
 
 // Oceiros, the Consumed King
 Event(20020012, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001013, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -4996,6 +5026,7 @@ Event(20020012, Default, function() {
 
 // Dragonslayer Armour
 Event(20020013, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001014, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5007,6 +5038,7 @@ Event(20020013, Default, function() {
 
 // Ancient Wyvern
 Event(20020014, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001015, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5018,6 +5050,7 @@ Event(20020014, Default, function() {
 
 // Nameless King
 Event(20020015, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001016, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5029,6 +5062,7 @@ Event(20020015, Default, function() {
 
 // Champion Gundyr
 Event(20020016, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001017, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5040,6 +5074,7 @@ Event(20020016, Default, function() {
 
 // Twin Princes
 Event(20020017, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001018, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5051,6 +5086,7 @@ Event(20020017, Default, function() {
 
 // Soul of Cinder
 Event(20020018, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001019, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5062,6 +5098,7 @@ Event(20020018, Default, function() {
 
 // Sister Friede
 Event(20020019, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001020, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5073,6 +5110,7 @@ Event(20020019, Default, function() {
 
 // The Triad
 Event(20020020, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001021, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5084,6 +5122,7 @@ Event(20020020, Default, function() {
 
 // Demon Prince
 Event(20020021, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001022, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5095,6 +5134,7 @@ Event(20020021, Default, function() {
 
 // Darkeater Midir 
 Event(20020022, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001023, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5106,6 +5146,7 @@ Event(20020022, Default, function() {
 
 // Slave Knight Gael
 Event(20020023, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001024, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5117,6 +5158,7 @@ Event(20020023, Default, function() {
 
 // Halflight
 Event(20020024, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001025, ON);
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5224,8 +5266,7 @@ Event(20060001, Restart, function() {
 
 // Trial of Peseverance - Enemy  Wave Damage
 Event(20060010, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
-    
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -5238,8 +5279,7 @@ Event(20060010, Default, function(X0_4, X4_4) {
 
 // Trial of Peseverance - Enemy - Enforce State
 Event(20060011, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
-    
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
@@ -5254,8 +5294,7 @@ Event(20060011, Default, function(X0_4, X4_4) {
 
 // Trial of Peseverance - Enemy - Kill on Wave End
 Event(20060012, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Enabled);
-    
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterHPRatio(AND_01, 5300500, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -5328,6 +5367,8 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
 // Companion - Warp to Player
 Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
     WaitForConditionGroupState(PASS, AND_01);
     
@@ -5358,6 +5399,8 @@ Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
 
 // Curse - Spawn Control
 Event(20081000, Restart, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5379,6 +5422,7 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 
 // Curse - Add SpEffect
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
