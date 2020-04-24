@@ -69,6 +69,7 @@
 - The Fire Keeper now has 100,000 HP as punishment for your sins.
 - Moved Irina back to her original placement.
 - Moved the Altar of Affliction to the alcove near to the Dummy.
+- Morne's Armor no longer unlocks the Cleansing Chapel bonfire (those changes have been reverted). It is now found in front of the grand doors on the way up to the Cathedral from the graveyard section. It drops Morne's Ring.
 
 # Bugfixes
 - Added back fogwall to Oceiros arena to prevent the player from leaving during refights.
@@ -88,6 +89,3 @@ Fecal Overload
 Boulder heave, spit multiple dung pies, potent toxic
 
 Add warp to profaned capital, through a well in undead settlement, requires rope key item found in road of sacrifices
-
-Fix morne hitbox lingering in chapel, add fogwall, reduce aggro range, trigger AI and enable fogwall when player walks in
-
