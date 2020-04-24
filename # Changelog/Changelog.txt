@@ -39,6 +39,10 @@
 - Solaire will now draw enemy aggro naturally, making him more useful in frantic fights.
 - Solaire gains an estus flask every 15 seconds, allowing him to heal throughout the course of a level.
 
+# Weapons
+- Added King's Mirror, a greatshield that grants automatic spell deflection whilst you use Shield Bash. Found near the Mirror Knight.
+- Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight. 
+
 # Spells
 - Crystal Soul Spear: FP to 600.
 - Great Soul Dregs: FP to 800.
@@ -89,12 +93,8 @@
 #------------------------------#
 Update item ID list
 Change Breaking Wheel moveset + Power Within WA
-Add King's Mirror, Shield Bash WA, but with special spell deflection state that is active during guard/shield bash animation (add new TAE for it)
 
 Add new armors
 
 Fecal Overload
 Boulder heave, spit multiple dung pies, potent toxic
-
-Add warp to profaned capital, through a well in undead settlement, requires rope key item found in road of sacrifices
-
