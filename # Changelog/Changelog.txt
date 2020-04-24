@@ -41,7 +41,8 @@
 
 # Weapons
 - Added King's Mirror, a greatshield that grants automatic spell deflection whilst you use Shield Bash. Found near the Mirror Knight.
-- Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight. 
+- Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight.
+- Improved greatshield base stability to 70/75.
 
 # Spells
 - Crystal Soul Spear: FP to 600.
