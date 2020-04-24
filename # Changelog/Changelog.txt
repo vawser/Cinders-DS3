@@ -52,6 +52,8 @@
 - Increased the drop rate of gems from enemies.
 - Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
 - The Drowsy Villager in Ariandel now gives you the Ceaseless Dung Pie.
+- Dragonrider Halberd is now a treasure found near the Dragonrider.
+- Mirror Knight set chest now has a Titanite Slab.
 
 # Enemies
 - Extended the lock-on distance against all enemies.
@@ -63,6 +65,12 @@
 - Removed the Demon Prince enemies in Smouldering Lake due to issues. The Stray Demon near the back of the lake now drops the Undead Bone Shard.
 - Moved the Prowler into the Firelink Shrine part of Dreg Heap.
 - Reduced the aggro range of Morne's Armor.
+- Added Mirror Knight to the upper room in Consumed King's Garden. Drops the Mirror Knight Set.
+- Added Black Dragon Knights in Grand Archives, drop the Black Dragon equipment. Removed the c0000 versions.
+- Moved Wandering Knight Osvaldo to Irithyll, found in the river area just before the Distant manor bonfire.
+- Added a Gyrm to Irithyll, near the tree on the route to the river area.
+- Added Ruin Sentinels to the Ringed City.
+- Added Dragonrider to Irithyll, in area just after the Pontiff, drops the Dragonrider Set.
 
 # Map
 - Changed the Pilgrim Dummy into a skeleton.
@@ -89,3 +97,4 @@ Fecal Overload
 Boulder heave, spit multiple dung pies, potent toxic
 
 Add warp to profaned capital, through a well in undead settlement, requires rope key item found in road of sacrifices
+
