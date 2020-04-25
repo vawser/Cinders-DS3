@@ -1604,7 +1604,6 @@ Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
 
 // Enemy - One-time Item Drop
 Event(20005350, Default, function(X0_4, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
@@ -1614,7 +1613,6 @@ Event(20005350, Default, function(X0_4, X4_4, X8_4) {
 
 // Enemy - Award Itemlot (Respawns) - Entity ID, Itemlot ID, Loot flag ID, Delay
 Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
     WaitFixedTimeSeconds(X12_4);
@@ -4513,8 +4511,6 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 
 // Spawn Control - NG+
 Event(20008000, Restart, function(X0_4, X4_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4536,8 +4532,6 @@ Event(20008000, Restart, function(X0_4, X4_1) {
 
 // Spawn Control - Event Flag
 Event(20008010, Restart, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4559,8 +4553,6 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 
 // Spawn Control - NG+ and Event Flag
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4589,8 +4581,6 @@ Event(20008030, Restart, function(X0_4) {
 
 // Spawn Control - Curse of Attraction
 Event(20008040, Restart, function(X0_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4753,7 +4743,6 @@ Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 
 // Treasure Control - NG+ = X
 Event(20009000, Default, function(X0_4, X4_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -4766,7 +4755,6 @@ Event(20009000, Default, function(X0_4, X4_1) {
 
 // Treasure Control - NG+ => X
 Event(20009100, Default, function(X0_4, X4_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -5399,8 +5387,6 @@ Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
 
 // Curse - Spawn Control
 Event(20081000, Restart, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5422,14 +5408,12 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 
 // Curse - Add SpEffect
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
 
 // Enemy - Award Itemlot - Special Boss Case
 Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     
     WaitFixedTimeSeconds(5);
