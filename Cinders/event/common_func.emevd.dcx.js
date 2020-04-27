@@ -5412,6 +5412,19 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     SetSpeffect(X0_4, X4_4);
 });
 
+// Company of Champions - Add SpEffect
+Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    SetSpeffect(X0_4, X8_4);
+    
+    IfCharacterHasSpeffect(AND_02, 10000, X4_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, FAIL, AND_02);
+    ClearSpeffect(X0_4, X8_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 // Enemy - Award Itemlot - Special Boss Case
 Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);

@@ -1,21 +1,127 @@
 ﻿#--------------------------------------------------------------------------
 # Books
 #--------------------------------------------------------------------------
-Sage's Scroll - Farron Keep
-Golden Scroll - Farron Keep
-Logan's Scroll - Profaned Capital - Court Sorcerer
-Crystal Scroll - Grand Archives
+# Sage's Scroll
+Shockwave
+Farron Hail
+Scattered Farron Dart
+Scattered Soul Arrow
 
-Great Swamp Pyromancy Tome - Road of Sacrifices
-Quelana Pyromancy Tome - Smouldering Lake
-Izalith Pyromancy Tome - Smouldering Lake
-Carthus Pyromancy Tome - Catacombs of Carthus
-Grave Warden Pyromancy Tome - Catacombs of Carthus
+# Logan's Scroll
+Soul Spear
+Great Magic Weapon
+Soul Greatsword
+Pestilent Mist
 
-Braille Divine Tome of Carim - Road of Sacrifices
-Braille Divine Tome of Lothric - High Wall of Lothric
-Londor Braille Divine Tome - Yuria - Quest
-Deep Braille Divine Tome - Cathedral of the Deep
+# Golden Scroll
+Blinding Light
+Hidden Weapon
+Hidden Body
+Repair
+Cast Light
+Twisted Wall of Light
+
+# Crystal Scroll
+Soul Stream
+Soul Geyser
+Homing Crystal Soulmass
+Crystal Soul Spear
+Crystal Magic Weapon
+
+# Great Swamp
+Fire Surge
+Great Combustion
+Flash Sweat
+Poison Mist
+
+# Carthus
+Toxic Mist
+Iron Flesh
+Carthus Flame Arc
+Carthus Beacon
+
+# Izalith
+Floating Chaos
+Bursting Fireball
+Great Chaos Fire Orb
+Chaos Storm
+
+# Quelana
+Power Within
+Seething Chaos
+Fire Whip
+Rapport
+
+# Profaned
+Profaned Flame
+Earthfall
+Heave Earth
+Earthquake
+Acid Surge
+
+# Accursed Scroll
+Affinity
+Numbness
+Surging Deep
+Whisper of Despair
+
+# Writhing Tome
+Great Deep Soul
+Yearning Dregs
+Writhing Deep
+Abyssal Edge
+
+# Abyssal Tome
+Repel
+Climax
+Cascading Deep
+Great Soul Dregs
+
+# Grave Warden
+Black Flame
+Dark Dance
+Recollection
+Black Fire Scatter
+
+# Deep
+Dorhys' Gnawing
+Devouring Swarm
+
+# Londor
+Vow of Silence
+Dark Blade
+Dead Again
+Deep Protection
+
+# Carim
+Heal
+Replenishment
+Caressing Tears
+
+# Heavenly
+Lightning Spear
+Magic Barrier
+Lightning Blade
+Emit Force
+
+# Lothric
+Med Heal
+Great Magic Barrier
+Bountiful Light
+Blessed Weapon
+Wrath of the Gods
+
+# Sunlight
+Great Lightning Spear
+Tears of Denial
+Sacred Oath
+Great Heal
+Lightning Stake
+
+# Angelic
+Angelic Barrage
+Vow of Agony
+Divine Pillars of Light
 
 #--------------------------------------------------------------------------
 # Sorceries - Offensive

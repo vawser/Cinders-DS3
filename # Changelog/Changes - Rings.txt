@@ -53,6 +53,24 @@
 - Boosts stamina damage by 25%
 - Source: Quest - Hawkwood
 
+# Blue Sentinels
+- Increases max FP by 5%.
+- Source: Quest - Horace the Hushed
+
+# Way of Blue
+- Increases max HP by 5%.
+- Enables the following drops:
+ - Divine Blessing
+ - Hidden Blessing
+ - Green Blossom
+ - Siegbräu
+- Source: Quest - High Priestess Emma
+
+# Company of Champions
+- Increases the damage, absorption and soul gain of enemies by 20%.
+- Source: Quest - Domhnall of Zena
+- Source: Treasure - Cemetery of Ash
+
 #------------------------
 # Ring Changes
 #------------------------

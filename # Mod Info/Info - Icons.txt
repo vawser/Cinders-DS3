@@ -431,7 +431,7 @@
 6022 Holy Fragment
 6023 Fire Seed
 6024 Primsatic Slab
-6025 Champion's Pact
+6025 Company of Champions
 6026 Gargoyle Helm
 6027 Velka's Rapier
 6028 Gold Ardeo
@@ -552,30 +552,30 @@
 6143 Bloody Elixir
 
 # Misc
-7120 
-7121
-7122
-7123
-7124
-7125
-7126
-7127
-7128
-7129
-7130
-7131
-7132
-7133
-7134
-7135
-7136
-7137
-7138
-7139
-7140
-7141
-7142
-7143
+7120 Gold-Hemmed Black Hood
+7121 Gold-Hemmed Black Cloak
+7122 Gold-Hemmed Black Gloves
+7123 Gold-Hemmed Black Skirt
+7124 Charred Loyce Helm
+7125 Charred Loyce Armor
+7126 Charred Loyce Gauntlets
+7127 Charred Loyce Leggings
+7128 Hood of the Forlorn
+7129 Armor of the Forlorn
+7130 Gauntlets of the Forlorn
+7131 Leggings of the Forlorn
+7132 Jester's Cap
+7133 Jester's Robes
+7134 Jester's Gloves
+7135 Jester's Tights
+7136 Royal Soldier Helm
+7137 Royal Soldier Armor
+7138 Royal Soldier Gauntlets
+7139 Royal Soldier Leggings
+7140 Loyce Helm
+7141 Loyce Armor
+7142 Loyce Gauntlets
+7143 Loyce Leggings
 7144
 
 

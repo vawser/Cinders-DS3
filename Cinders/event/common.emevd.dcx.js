@@ -1680,6 +1680,9 @@ Event(400000, Default, function() {
     InitializeEvent(10, 400100, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
     InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
     InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
+    InitializeEvent(13, 400100, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
+    InitializeEvent(14, 400100, 10000, 160100392, 800011400, 800011420); // Way of Blue
+    InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
     
     // Bosses
     InitializeEvent(0, 401000, 0); // Boss System
@@ -2634,7 +2637,6 @@ Event(400609, Default, function(X0_4, X4_4) {
 
 // Add Effect to X
 Event(400010, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, X0_4, X4_4, true, ComparisonType.GreaterOrEqual, 0);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetSpeffect(X0_4, X4_4);
@@ -2643,7 +2645,6 @@ Event(400010, Default, function(X0_4, X4_4) {
 
 // NG+ Flags
 Event(400016, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
     SetEventFlag(25000011, ON); // NG+1
     
@@ -2670,7 +2671,6 @@ Event(400020, Restart, function(X0_4, X4_4) {
 
 // Enable Curse
 Event(400021, Restart, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Disabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     SetSpeffect(10000, X4_4);
     SetSpeffect(10000, X8_4);
@@ -2680,7 +2680,6 @@ Event(400021, Restart, function(X0_4, X4_4, X8_4) {
 
 // Disable Curse
 Event(400022, Restart, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Disabled);
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     ClearSpeffect(10000, X4_4);
     ClearSpeffect(10000, X8_4);
@@ -2690,7 +2689,6 @@ Event(400022, Restart, function(X0_4, X4_4, X8_4) {
 
 // Folly - Animations
 Event(400025, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
     
     WaitRandomTimeSeconds(300, 600);
@@ -2761,7 +2759,6 @@ Event(400099, Default, function() {
 
 // Covenant - Trigger Covenant Item Drop
 Event(400100, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2790,7 +2787,6 @@ Event(400100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
 // Pyromancer's Parting Flame - Ascension
 Event(400110, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2806,7 +2802,6 @@ Event(400110, Default, function() {
 
 // Fool's Sigil - Setup
 Event(400210, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, 10000, 160601570, true, ComparisonType.Equal, 1);
     SetEventFlag(25007000, ON);
     SetEventFlag(25007001, OFF);
@@ -2849,7 +2844,6 @@ Event(400210, Default, function() {
 
 // Fool's Sigil - Clear Effects
 Event(400211, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007000);
     IfCharacterHasSpeffect(MAIN, 10000, 160601570, false, ComparisonType.Equal, 1);
     ClearSpeffect(10000, 160601571);
@@ -2868,7 +2862,6 @@ Event(400211, Default, function() {
 
 // Numbness - Change Camera
 Event(400300, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(20000, 20000);
@@ -2881,7 +2874,6 @@ Event(400300, Default, function(X0_4, X4_4) {
 
 // Blood of Might - Reset flags
 Event(400400, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160700030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
