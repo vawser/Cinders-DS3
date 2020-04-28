@@ -30,9 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Summons
-- Made most of the white phantom summon signs unconditional to make them more useful.
-
 # Covenants
 - Domhnall of Zena is the host of the Company of Champions. He will give you the Company of Champions covenant if you haven't already got it (it is a treasure after Corrupted Gundyr if you want to get it early). He exchanges Awestones for many of the exotic items he offers.
 - Pilgrims of Dark: increases casting speed by 5.
@@ -45,6 +42,9 @@
 - Adjusted Solaire so his AI is less annoying. He will enter battles more readily and no longer spams Oath of Sunlight.
 - Solaire will now draw enemy aggro naturally, making him more useful in frantic fights.
 - Solaire gains an estus flask every 15 seconds, allowing him to heal throughout the course of a level.
+
+# Summons
+- Made most of the white phantom summon signs unconditional to make them more useful.
 
 # Weapons
 - Added King's Mirror, a greatshield that grants automatic spell deflection whilst you use Shield Bash. Found near the Mirror Knight.
@@ -140,6 +140,9 @@ Add new armors
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-365 Awestone
-Change icon to original
+Lower the chance of the multi material drops
+Change warps to menu system
+Change Dragonrider to Gundyr base
 
+// Setup Talk Menus
+    InitializeEvent(0, 14000051, 4001960); // Petrified Giant - Advance Journey

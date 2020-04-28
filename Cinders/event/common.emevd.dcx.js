@@ -1628,6 +1628,9 @@ Event(870, Default, function(X0_1, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------------
+// Cinders
+//------------------------------------------------------
 Event(400000, Default, function() {
     InitializeEvent(0, 400016, 0); // NG+ Flags
     
