@@ -140,9 +140,3 @@ Add new armors
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-Lower the chance of the multi material drops
-Change warps to menu system
-Change Dragonrider to Gundyr base
-
-// Setup Talk Menus
-    InitializeEvent(0, 14000051, 4001960); // Petrified Giant - Advance Journey
