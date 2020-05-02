@@ -63,7 +63,6 @@
 - Breaking Wheel WA now imbues you with Power Within for 15 seconds.
 
 # FP
-- Base FP changed to 3% per second (from 5%).
 - Ring of Catastrophe: restores 3% FP every second, but lose 1% of health every second.
 
 # Spells
