@@ -113,6 +113,7 @@
 - Fixed Lion Knight Albert summon not being available.
 - Fixed the Pontiff Knight Great Scythe drop being locked out if you got the Pontiff Knight Curved Sword drop first.
 - Made the transpositions automatically visible to prevent issues where you have the soul but cannot see the transpositions.
+- Aldrich now goes to a random corner when he submerges, like he should.
 
 #------------------------------
 # TODO
