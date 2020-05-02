@@ -30,18 +30,28 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Curses
+- Curse of Folly: reduced soul gain to 5%.
+- Curse of Obscurity: reduced soul gain to 5%.
+- Curse of Vitality: increases HP recovery for enemies to 30 + 0.1%.
+- Curse of Wrath: reduced soul gain to 5%.
+- Curse of Pride: increases enemy damage by 50%.
+- Curse of Attraction: reduced soul gain to 5%.
+- Curse of Fortitude: increases enemy absorption by 50%.
+- Curse of Gluttony: reduced soul gain to 5%.
+
 # Covenants
 - Domhnall of Zena is the host of the Company of Champions. He will give you the Company of Champions covenant if you haven't already got it (it is a treasure after Corrupted Gundyr if you want to get it early). He exchanges Awestones for many of the exotic items he offers.
 - Pilgrims of Dark: increases casting speed by 5.
 - Added Blue Sentinels: increases max FP by 5%. Enables Proof of a Concord Kept drops.
 - Added Way of Blue: increases max HP by 5%. Enables random consumable drops.
-- Added Company of Champions: increases enemy absorption and damage by 20%, increases soul drops by 20%. Enables Awestone drops.
+- Added Company of Champions: increases enemy absorption and damage by 50%, increases soul drops by 10%. Enables Awestone drops.
 
 # Companions
-- Weakened Solaire's damage in NG a bit.
-- Adjusted Solaire so his AI is less annoying. He will enter battles more readily and no longer spams Oath of Sunlight.
-- Solaire will now draw enemy aggro naturally, making him more useful in frantic fights.
-- Solaire gains an estus flask every 15 seconds, allowing him to heal throughout the course of a level.
+- Solaire's AI is now mor proactive.
+- Solaire will now draw target aggro.
+- Incense of Cooperation now summons Solaire for 60 seconds, after which he disappears until you re-use the Incense.
+- Incense of Cooperation now costs 1000 FP to use.
 
 # Summons
 - Made most of the white phantom summon signs unconditional to make them more useful.
@@ -52,11 +62,16 @@
 - Improved greatshield base stability to 70/75.
 - Breaking Wheel WA now imbues you with Power Within for 15 seconds.
 
+# FP
+- Base FP changed to 3% per second (from 5%).
+- Ring of Catastrophe: restores 3% FP every second, but lose 1% of health every second.
+
 # Spells
 - Crystal Soul Spear: FP to 600.
 - Great Soul Dregs: FP to 800.
 - Climax: FP to 400.
 - Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
+- Reduced the damage of Black Fire Scatter a bit to compensate for its ability to hit with multiple orbs.
 
 # Infusions
 - Fire/Dark now get 15% free scaling instead of 30%.

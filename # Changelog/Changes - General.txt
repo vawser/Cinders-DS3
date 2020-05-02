@@ -179,15 +179,6 @@ All covenant emblem items now enable the dropping of their respective materials 
 - Rather than covenant materials, equipping the emblem will enable random healing items to be found when killing enemies.
 
 #------------------------
-# Deathless Runs
-#------------------------
-By default the player is eligible for the Deathless challenge, which rewards the Crown of the Great Lord.
-
-You must defeat the Soul of Cinder without dying to receive the reward.
-
-You can check your eligibility at the Fire Keeper by using the 'Check Worthiness' menu option.
-
-#------------------------
 # Memories
 #------------------------
 Bosses can be respawned through the use of Dreams and Nightmares.

@@ -1763,22 +1763,22 @@ Event(400800, Default, function(X0_4) {
     // Clarity - 200002000
     IfCharacterHasSpeffect(AND_02, X0_4, 200002000, false, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
-    SetSpeffect(X0_4, 113101);
+    SetSpeffect(X0_4, 113102);
     
     // Darkmoon Faithful - 160100240
     IfCharacterHasSpeffect(AND_03, X0_4, 160100240, false, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_03);
-    SetSpeffect(X0_4, 113101);
+    SetSpeffect(X0_4, 113103);
     
     // Darkmoon Ring - 160600350
     IfCharacterHasSpeffect(AND_04, X0_4, 160600350, false, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_04);
-    SetSpeffect(X0_4, 113101);
+    SetSpeffect(X0_4, 113104);
     
     // Ring of Catastrophe - 160601270
     IfCharacterHasSpeffect(AND_05, X0_4, 160601270, false, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
-    SetSpeffect(X0_4, 113100);
+    SetSpeffect(X0_4, 113105);
     
     // Reset
     WaitFixedTimeSeconds(0.2);

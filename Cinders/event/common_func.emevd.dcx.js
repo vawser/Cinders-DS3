@@ -5368,8 +5368,21 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1) {
     SetSpeffect(X0_4, X8_4);
     SetSpeffect(X0_4, 160760100);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
     WaitFixedTimeSeconds(1);
+    
     SetCharacterAIState(X0_4, Enabled);
+    
+    WaitFixedTimeSeconds(60);
+    
+    SetSpeffect(X0_4, 160760100);
+    
+    WaitFixedTimeSeconds(1);
+    
+    SetCharacterAIState(X0_4, Disabled);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    
     EndUnconditionally(EventEndType.Restart);
     
     // Not Enabled
