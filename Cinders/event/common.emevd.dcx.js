@@ -1711,7 +1711,6 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400501, 160701101, 160701100); // Murky Finger
     InitializeEvent(0, 400502, 160701201, 160701200); // Elixir of Ghosts
     InitializeEvent(0, 400503, 160701301, 160701300); // Accursed Elixir
-    InitializeEvent(0, 400504, 160701401, 160701400); // Psychedelic Elixir
     InitializeEvent(0, 400505, 160701501, 160701500); // Darkmoon Elixir
     InitializeEvent(0, 400506, 160701601, 160701600); // Holy Elixir
     InitializeEvent(0, 400507, 160701701, 160701700); // Earthen Elixir
@@ -1724,7 +1723,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400514, 160702401, 160702400); // Elixir of Cooperation
     InitializeEvent(0, 400515, 160702501, 160702500); // Cleansing Elixir
     
-    InitializeEvent(0, 400550, 160701400); // Psychedelic Elixir - Cycle through colors
+    InitializeEvent(0, 400504, 160701400); // Psychedelic Elixir - Special Case
     
     // Weapon Visual Items
     InitializeEvent(0, 400600, 160706001, 160706000); // Fire Stone
@@ -1935,7 +1934,7 @@ Event(400503, Default, function(X0_4, X4_4) {
 });
 
 // Psychedelic Elixir
-Event(400504, Default, function(X0_4, X4_4) {
+Event(400504, Default, function(X0_4) {
     IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
     
     ClearSpeffect(10000, 160701000);
@@ -1946,16 +1945,6 @@ Event(400504, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160701100);
     ClearSpeffect(10000, 160701200);
     ClearSpeffect(10000, 160701300);
-    ClearSpeffect(10000, 160701400);
-    ClearSpeffect(10000, 160701410);
-    ClearSpeffect(10000, 160701411);
-    ClearSpeffect(10000, 160701412);
-    ClearSpeffect(10000, 160701413);
-    ClearSpeffect(10000, 160701414);
-    ClearSpeffect(10000, 160701415);
-    ClearSpeffect(10000, 160701416);
-    ClearSpeffect(10000, 160701417);
-    ClearSpeffect(10000, 160701418);
     ClearSpeffect(10000, 160701500);
     ClearSpeffect(10000, 160701600);
     ClearSpeffect(10000, 160701700);
@@ -1967,7 +1956,9 @@ Event(400504, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702300);
     ClearSpeffect(10000, 160702400);
     
-    SetSpeffect(10000, X4_4);
+    SetSpeffect(10000, 160701410);
+    
+    WaitFixedTimeSeconds(2.25);
     
     EndUnconditionally(EventEndType.Restart);
 });
