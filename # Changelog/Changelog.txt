@@ -98,6 +98,7 @@
 - Added a Gyrm to Irithyll, near the tree on the route to the river area.
 - Added Ruin Sentinels to the Ringed City.
 - Added Dragonrider to Irithyll, in area just after the Pontiff, drops the Dragonrider Set.
+- Moved the Pursuer in Profaned Capital to the passage after you exit the first level of Irithyll Dungeon.
 
 # Map
 - Changed the Pilgrim Dummy into a skeleton.
@@ -157,5 +158,3 @@ Add new armors
 
 Check Dragon Knights
 Fix initial Gundyr encounter
-Change Consumed Beast position
-Change ghost Dancer position
