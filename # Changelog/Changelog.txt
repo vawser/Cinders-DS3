@@ -51,7 +51,7 @@
 - Solaire's AI is now mor proactive.
 - Solaire will now draw target aggro.
 - Incense of Cooperation now summons Solaire for 60 seconds, after which he disappears until you re-use the Incense.
-- Incense of Cooperation now costs 1000 FP to use.
+- Incense of Cooperation now costs 500 FP to use.
 
 # Summons
 - Made most of the white phantom summon signs unconditional to make them more useful.
