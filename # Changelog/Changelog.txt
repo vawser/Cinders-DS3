@@ -99,6 +99,7 @@
 - Added Ruin Sentinels to the Ringed City.
 - Added Dragonrider to Irithyll, in area just after the Pontiff, drops the Dragonrider Set.
 - Moved the Pursuer in Profaned Capital to the passage after you exit the first level of Irithyll Dungeon.
+- Corrupted Gundyr now has a better startup sequence.
 
 # Map
 - Changed the Pilgrim Dummy into a skeleton.
