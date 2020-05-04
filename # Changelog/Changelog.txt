@@ -99,7 +99,12 @@
 - Added Ruin Sentinels to the Ringed City.
 - Added Dragonrider to Irithyll, in area just after the Pontiff, drops the Dragonrider Set.
 - Moved the Pursuer in Profaned Capital to the passage after you exit the first level of Irithyll Dungeon.
+
+# Bosses
 - Corrupted Gundyr now has a better startup sequence.
+- Corrupted Gundyr now summons dark tears at specific HP % (90, 60, 30). They will cause damage, curse and knock the player to the floor if touched.
+- Yhorm has been changed to be less obnoxious. Instead he now causes earth to rupture from the ground at several set points after any of his strike attacks, knocking the player up if hit. Additionally, at certain HP intervals the roof will crumble, causing boulders to rain down from the middle. This is forewarned by earth rupturing in the middle.
+- Gough will now fire arrows upon the player during the Triad boss fight. He cycles through 10 spots, taking between 0.2 and 1 second for each shot, and then rests for 10 to 15 seconds before starting again. In Nightmare mode for the Triad, Gough will skip the cooldown period.
 
 # Map
 - Changed the Pilgrim Dummy into a skeleton.
@@ -157,5 +162,3 @@ Add new armors
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-Check Dragon Knights
-Fix initial Gundyr encounter

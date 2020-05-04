@@ -137,26 +137,22 @@ Flags used in the Cinders range:
 25003032 Lucatiel of Mirrah
 25003033 Sellsword Luet
 
-25000000 Curse of Folly
 25000001 Curse of Obscurity
 25000002 Curse of Vitality
 25000003 Curse of Wrath
 25000004 Curse of Pride
-25000005
-25000006
-25000007
-25000008
-25000009
+25000005 Curse of Attraction
+25000006 Curse of Fortitude
+25000007 Curse of Gluttony
+25000008 Curse of Folly
 
-25004100 Show Curse of Folly Info
 25004101 Show Curse of Obscurity Info
 25004102 Show Curse of Vitality Info
 25004103 Show Curse of Wrath Info
 25004104 Show Curse of Pride Info
-25004105
-25004106
-25004107
-25004108
-25004109
+25004105 Curse of Attraction Info
+25004106 Curse of Fortitude Info
+25004107 Curse of Gluttony Info
+25004108 Curse of Folly Info
 
 25009000 Random flag range
