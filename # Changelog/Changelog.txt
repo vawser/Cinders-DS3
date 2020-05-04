@@ -48,7 +48,7 @@
 - Added Company of Champions: increases enemy absorption and damage by 50%, increases soul drops by 10%. Enables Awestone drops.
 
 # Companions
-- Solaire's AI is now mor proactive.
+- Solaire's AI is now more proactive.
 - Solaire will now draw target aggro.
 - Incense of Cooperation now summons Solaire for 60 seconds, after which he disappears until you re-use the Incense.
 - Incense of Cooperation now costs 500 FP to use.
@@ -162,3 +162,5 @@ Add new armors
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
+Add taunts to the Triad npcs (via esd)
+Add some boss arenas for small boss encounters
