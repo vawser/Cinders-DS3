@@ -107,7 +107,7 @@
 - Gough will now fire arrows upon the player during the Triad boss fight. He cycles through 10 spots, taking between 0.2 and 1 second for each shot, and then rests for 10 to 15 seconds before starting again. In Nightmare mode for the Triad, Gough will skip the cooldown period.
 
 # Map
-- Changed the Pilgrim Dummy into a skeleton.
+- Changed the Pilgrim Dummy into a skeleton called El Hueso. Don't push him too far, or you might regret it.
 - The Fire Keeper now has 100,000 HP as punishment for your sins.
 - Moved Irina back to her original placement.
 - Moved the Altar of Affliction to the alcove near to the Dummy.
@@ -163,4 +163,6 @@ Add new armors
 7143 Loyce Leggings
 
 Add taunts to the Triad npcs (via esd)
+Change Triad into regular mob versions
+
 Add some boss arenas for small boss encounters
