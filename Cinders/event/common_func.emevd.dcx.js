@@ -5449,3 +5449,28 @@ Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
     
     EndUnconditionally(EventEndType.End);
 });
+
+// Talk Menu - Setup
+Event(20081030, Default, function(X0_4) {
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterGravity(X0_4, Disabled);
+    ChangeCharacterDispmask(X0_4, 0, OFF);
+    ChangeCharacterDispmask(X0_4, 1, OFF);
+    ChangeCharacterDispmask(X0_4, 2, OFF);
+    ChangeCharacterDispmask(X0_4, 3, OFF);
+    ChangeCharacterDispmask(X0_4, 4, OFF);
+    ChangeCharacterDispmask(X0_4, 5, OFF);
+    ChangeCharacterDispmask(X0_4, 6, OFF);
+    ChangeCharacterDispmask(X0_4, 7, OFF);
+    ChangeCharacterDispmask(X0_4, 8, OFF);
+    ChangeCharacterDispmask(X0_4, 9, OFF);
+    ChangeCharacterDispmask(X0_4, 10, OFF);
+    ChangeCharacterDispmask(X0_4, 11, OFF);
+    ChangeCharacterDispmask(X0_4, 12, OFF);
+    ChangeCharacterDispmask(X0_4, 13, OFF);
+    ChangeCharacterDispmask(X0_4, 14, OFF);
+    ChangeCharacterDispmask(X0_4, 15, OFF);
+    ChangeCharacterDispmask(X0_4, 16, OFF);
+    ChangeCharacterDispmask(X0_4, 17, OFF);
+    ChangeCharacterDispmask(X0_4, 18, OFF);
+});
