@@ -146,28 +146,46 @@ Add some boss arenas for small boss encounters
 9892    Royal Warrior
 9893    Silver Loyce
 
-7120 Gold-Hemmed Black Hood
+# 99780000
+# 9.1
+7120 Gold-Hemmed Black Hood 
 7121 Gold-Hemmed Black Cloak
 7122 Gold-Hemmed Black Gloves
 7123 Gold-Hemmed Black Skirt
-7124 Charred Loyce Helm
+
+# 99790000
+# 31
+# absorb HP on kill
+7124 Charred Loyce Helm 
 7125 Charred Loyce Armor
 7126 Charred Loyce Gauntlets
 7127 Charred Loyce Leggings
-7128 Hood of the Forlorn
+
+# 99800000
+# 24.1
+7128 Hood of the Forlorn 
 7129 Armor of the Forlorn
 7130 Gauntlets of the Forlorn
-7131 Leggings of the Forlorn
-7132 Jester's Cap
-7133 Jester's Robes
-7134 Jester's Gloves
-7135 Jester's Tights
-7136 Royal Soldier Helm
+7131 Leggings of the Forlorn 
+
+# 99810000
+# 13.7
+7132 Jester's Cap # item discovery
+7133 Jester's Robes # reduce backstab damage
+7134 Jester's Gloves # soul gain
+7135 Jester's Tights # silvercat
+
+# 99820000
+# 11.6
+7136 Royal Soldier Helm 
 7137 Royal Soldier Armor
 7138 Royal Soldier Gauntlets
 7139 Royal Soldier Leggings
-7140 Loyce Helm
+
+# 99830000
+# 30.5
+# absorb HP on kill
+7140 Loyce Helm 
 7141 Loyce Armor
 7142 Loyce Gauntlets
 7143 Loyce Leggings
-

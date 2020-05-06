@@ -1,0 +1,8 @@
+﻿# Adding New FXR
+Duplicate FXR with desired properties, hex edit the ID (on the first line, final 4 bytes), replacing it with new ID.
+
+# Changing Model
+Search fxr for existing model ID, replace with new model ID.
+
+# Adding new Model
+Add new definition in the resource ffxbnd with new ID.
