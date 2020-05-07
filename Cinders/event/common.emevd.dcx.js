@@ -3135,7 +3135,7 @@ Event(401000, Restart, function() {
     InitializeEvent(0, 4008245, 0);
 });
 
-// Iudex Gundyr - Dream
+// Iudex Gundyr - Dream - Respawn
 Event(4008010, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3155,7 +3155,7 @@ Event(4008010, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
-// Iudex Gundyr - Nightmare
+// Iudex Gundyr - Nightmare - Respawn
 Event(4008011, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100012, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3175,6 +3175,7 @@ Event(4008011, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Iudex Gundyr - Dream - SpEffect
 Event(4008012, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001800);
@@ -3182,6 +3183,7 @@ Event(4008012, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Iudex Gundyr - Nightmare - SpEffect
 Event(4008013, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002800);
@@ -3189,6 +3191,7 @@ Event(4008013, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Iudex Gundyr - Dream - Drop
 Event(4008014, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
@@ -3200,6 +3203,7 @@ Event(4008014, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Iudex Gundyr - Nightmare - Drop
 Event(4008015, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
@@ -3211,7 +3215,7 @@ Event(4008015, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
-// Dream - Vordt
+// Vordt - Dream - Respawn
 Event(4008020, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3227,7 +3231,7 @@ Event(4008020, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
-// Nightmare - Vordt
+// Vordt - Nightmare - Respawn
 Event(4008021, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100022, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3243,6 +3247,7 @@ Event(4008021, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Vordt - Dream - SpEffect
 Event(4008022, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13001800);
@@ -3250,6 +3255,7 @@ Event(4008022, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Vordt - Nightmare - SpEffect
 Event(4008023, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13002800);
@@ -3257,6 +3263,7 @@ Event(4008023, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Vordt - Dream - Drop
 Event(4008024, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
@@ -3268,6 +3275,7 @@ Event(4008024, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Vordt - Nightmare - Drop
 Event(4008025, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
@@ -3279,6 +3287,7 @@ Event(4008025, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Dream - Respawn
 Event(4008030, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3295,6 +3304,7 @@ Event(4008030, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Nightmare - Respawn
 Event(4008031, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100032, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3311,6 +3321,7 @@ Event(4008031, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Dream - SpEffect
 Event(4008032, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13101800);
@@ -3333,6 +3344,7 @@ Event(4008032, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Nightmare - SpEffect
 Event(4008033, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13102800);
@@ -3355,6 +3367,7 @@ Event(4008033, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Dream - Drop
 Event(4008034, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
@@ -3381,6 +3394,7 @@ Event(4008034, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Curse-rotted Greatwood - Nightmare - Drop
 Event(4008035, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
@@ -3407,6 +3421,7 @@ Event(4008035, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Dream - Respawn
 Event(4008040, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3422,6 +3437,7 @@ Event(4008040, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Nightmare - Respawn
 Event(4008041, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100042, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3437,6 +3453,7 @@ Event(4008041, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Dream - SpEffect
 Event(4008042, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301850);
@@ -3447,6 +3464,7 @@ Event(4008042, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Nightmare - SpEffect
 Event(4008043, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302850);
@@ -3457,6 +3475,7 @@ Event(4008043, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Dream - Drop
 Event(4008044, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
@@ -3471,6 +3490,7 @@ Event(4008044, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+// Crystal Sage - Nightmare - Drop
 Event(4008045, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
