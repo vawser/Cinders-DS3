@@ -30,8 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
-# UI
+# General
 - Added Lenox's extended textbox to the big item description view.
+- Made most of the white phantom summon signs unconditional to make them more useful.
 
 # Covenants
 - Domhnall of Zena is the host of the Company of Champions. He will give you the Company of Champions covenant if you haven't already got it (it is a treasure after Corrupted Gundyr if you want to get it early). He exchanges Awestones for many of the exotic items he offers.
@@ -56,9 +57,6 @@
 - Incense of Cooperation now summons Solaire for 60 seconds, after which he disappears until you re-use the Incense.
 - Incense of Cooperation now costs 500 FP to use.
 
-# Summons
-- Made most of the white phantom summon signs unconditional to make them more useful.
-
 # Weapons
 - Added King's Mirror, a greatshield that grants automatic spell deflection whilst you use Shield Bash. Found near the Mirror Knight.
 - Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight.
@@ -66,6 +64,19 @@
 - Breaking Wheel WA now imbues you with Power Within for 15 seconds.
 - Adjusted the damage of bows/greatbows/crossbows.
 - Added scaling to the crossbows.
+- Fire/Dark infusions now get 15% free scaling instead of 30%.
+
+# Armor
+- Sources of Poison/Frost inflict now give 30 inflict (was 50).
+
+# Items
+- Increased the drop rate of gems from enemies.
+- Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
+- The Fire Keeper now drops the Ceaseless Dung Pie (you poop).
+- Dragonrider Halberd is now a treasure found near the Dragonrider.
+- Mirror Knight set chest now has a Titanite Slab.
+- Removed the effects from boss souls. They now give souls on usage as before.
+- Brightbug now reduces WA/spell FP cost and weapon stamina cost by 50% for 30 seconds.
 
 # Rings
 - Ring of Catastrophe: restores 3% FP every second, but lose 1% of health every second.
@@ -77,15 +88,6 @@
 - Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
 - Reduced the damage of Black Fire Scatter a bit to compensate for its ability to hit with multiple orbs.
 
-# Infusions
-- Fire/Dark now get 15% free scaling instead of 30%.
-
-# Items
-- Increased the drop rate of gems from enemies.
-- Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
-- The Fire Keeper now drops the Ceaseless Dung Pie (you poop).
-- Dragonrider Halberd is now a treasure found near the Dragonrider.
-- Mirror Knight set chest now has a Titanite Slab.
 
 # Enemies
 - Extended the lock-on distance against all enemies.
@@ -192,5 +194,5 @@ Add some boss arenas for small boss encounters
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-Add interactive grave at boss fog door entrance, appears after boss is killed, respawns the boss
-Change the primordial drops to be dependant on current Curses, i.e. +50% damage gives 100% of the drop, whereas Attraction gives a 25% chance drop.
+Add warp points for the memories to the fogdoor
+
