@@ -1664,8 +1664,6 @@ Event(400000, Default, function() {
     InitializeEvent(6, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
     InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
     
-    InitializeEvent(0, 400025, 0); // Curse of Folly - Animations
-    
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
     
@@ -2678,69 +2676,6 @@ Event(400022, Restart, function(X0_4, X4_4, X8_4) {
     ClearSpeffect(10000, X4_4);
     ClearSpeffect(10000, X8_4);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Folly - Animations
-Event(400025, Default, function() {
-    IfCharacterHasSpeffect(MAIN, 10000, 250001200, true, ComparisonType.Equal, 1);
-    
-    WaitRandomTimeSeconds(300, 600);
-    
-    GotoIfCharacterHasSpeffect(Label.LABEL0, 1000, 250001200, false, ComparisonType.Equal, 1);
-    
-    SetEventFlag(25009000, OFF);
-    SetEventFlag(25009001, OFF);
-    SetEventFlag(25009002, OFF);
-    SetEventFlag(25009003, OFF);
-    SetEventFlag(25009004, OFF);
-    SetEventFlag(25009005, OFF);
-    SetEventFlag(25009006, OFF);
-    SetEventFlag(25009007, OFF);
-    SetEventFlag(25009008, OFF);
-    SetEventFlag(25009009, OFF);
-    SetEventFlag(25009010, OFF);
-    RandomlySetEventFlagInRange(25009000, 25009010, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009000);
-    ForceAnimationPlayback(10000, 85000, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009001);
-    ForceAnimationPlayback(10000, 84600, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009002);
-    ForceAnimationPlayback(10000, 84500, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009003);
-    ForceAnimationPlayback(10000, 84400, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009004);
-    ForceAnimationPlayback(10000, 84300, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009005);
-    ForceAnimationPlayback(10000, 84200, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009006);
-    ForceAnimationPlayback(10000, 83900, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009007);
-    ForceAnimationPlayback(10000, 82400, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009008);
-    ForceAnimationPlayback(10000, 81400, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009009);
-    ForceAnimationPlayback(10000, 81300, false, false, false, 0, 1);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009010);
-    ForceAnimationPlayback(10000, 81200, false, false, false, 0, 1);
-    
-    WaitFixedTimeSeconds(5);
-    ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
-    
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label0();
     EndUnconditionally(EventEndType.Restart);
 });
 

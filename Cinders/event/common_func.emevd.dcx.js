@@ -5425,6 +5425,12 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     SetSpeffect(X0_4, X4_4);
 });
 
+// Curse - Add Random SpEffect
+Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
+    SetSpeffect(X0_4, X4_4);
+});
+
 // Company of Champions - Add SpEffect
 Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1);

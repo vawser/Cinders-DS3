@@ -41,7 +41,7 @@
 - Added Company of Champions: increases enemy absorption and damage by 50%, increases soul drops by 10%. Enables Awestone drops.
 
 # Curses
-- Curse of Folly: reduced soul gain to 5%.
+- Changed Curse of Folly to Curse of Frailty. Makes enemies impossible to stagger. Reduced soul gain to 5%.
 - Curse of Obscurity: reduced soul gain to 5%.
 - Curse of Vitality: increases HP recovery for enemies to 30 + 0.1%.
 - Curse of Wrath: reduced soul gain to 5%.
@@ -64,8 +64,10 @@
 - Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight.
 - Improved greatshield base stability to 70/75.
 - Breaking Wheel WA now imbues you with Power Within for 15 seconds.
+- Reduced the damage of bows/greatbows/crossbows.
+- Added scaling to the crossbows.
 
-# FP
+# Rings
 - Ring of Catastrophe: restores 3% FP every second, but lose 1% of health every second.
 
 # Spells
@@ -81,7 +83,7 @@
 # Items
 - Increased the drop rate of gems from enemies.
 - Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
-- The Drowsy Villager in Ariandel now gives you the Ceaseless Dung Pie.
+- The Fire Keeper now drops the Ceaseless Dung Pie (you poop).
 - Dragonrider Halberd is now a treasure found near the Dragonrider.
 - Mirror Knight set chest now has a Titanite Slab.
 
