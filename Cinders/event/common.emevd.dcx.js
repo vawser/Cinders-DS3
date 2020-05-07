@@ -2894,7 +2894,6 @@ Event(400400, Default, function(X0_4) {
 
 // Event Flag Tool
 Event(400402, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     //SetSpeffect(5300500, 260200037);
@@ -2931,7 +2930,6 @@ Event(400402, Default, function(X0_4) {
 
 // Item - Camera Override
 Event(400410, Default, function(X0_4, X4_4, X8_4) {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(X8_4, X8_4);
@@ -2944,7 +2942,6 @@ Event(400410, Default, function(X0_4, X4_4, X8_4) {
 
 // Bosses - Setup
 Event(401000, Restart, function() {
-    SetNetworkSyncState(Disabled);
     // Iudex Gundyr
     InitializeEvent(0, 4008010, 0);
     InitializeEvent(0, 4008011, 0);
@@ -3140,7 +3137,6 @@ Event(401000, Restart, function() {
 
 // Iudex Gundyr - Dream
 Event(4008010, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14001800, ON);
@@ -3161,7 +3157,6 @@ Event(4008010, Default, function() {
 
 // Iudex Gundyr - Nightmare
 Event(4008011, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100012, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14001800, OFF);
@@ -3181,7 +3176,6 @@ Event(4008011, Default, function() {
 });
 
 Event(4008012, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001800);
     SetSpeffect(4000800, 260100011);
@@ -3189,7 +3183,6 @@ Event(4008012, Default, function() {
 });
 
 Event(4008013, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002800);
     SetSpeffect(4000800, 260100013);
@@ -3197,7 +3190,6 @@ Event(4008013, Default, function() {
 });
 
 Event(4008014, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001800);
@@ -3209,7 +3201,6 @@ Event(4008014, Default, function() {
 });
 
 Event(4008015, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002800);
@@ -3222,7 +3213,6 @@ Event(4008015, Default, function() {
 
 // Dream - Vordt
 Event(4008020, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13001800, ON);
@@ -3239,7 +3229,6 @@ Event(4008020, Default, function() {
 
 // Nightmare - Vordt
 Event(4008021, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100022, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13001800, OFF);
@@ -3255,7 +3244,6 @@ Event(4008021, Default, function() {
 });
 
 Event(4008022, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13001800);
     SetSpeffect(3000800, 260100021);
@@ -3263,7 +3251,6 @@ Event(4008022, Default, function() {
 });
 
 Event(4008023, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13002800);
     SetSpeffect(3000800, 260100023);
@@ -3271,7 +3258,6 @@ Event(4008023, Default, function() {
 });
 
 Event(4008024, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13001800);
@@ -3283,7 +3269,6 @@ Event(4008024, Default, function() {
 });
 
 Event(4008025, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13002800);
@@ -3295,7 +3280,6 @@ Event(4008025, Default, function() {
 });
 
 Event(4008030, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13101800, ON);
@@ -3312,7 +3296,6 @@ Event(4008030, Default, function() {
 });
 
 Event(4008031, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100032, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13101800, OFF);
@@ -3329,7 +3312,6 @@ Event(4008031, Default, function() {
 });
 
 Event(4008032, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13101800);
     SetSpeffect(3100800, 260100031);
@@ -3352,7 +3334,6 @@ Event(4008032, Default, function() {
 });
 
 Event(4008033, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13102800);
     SetSpeffect(3100800, 260100033);
@@ -3375,7 +3356,6 @@ Event(4008033, Default, function() {
 });
 
 Event(4008034, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13101800);
@@ -3402,7 +3382,6 @@ Event(4008034, Default, function() {
 });
 
 Event(4008035, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13102800);
@@ -3429,7 +3408,6 @@ Event(4008035, Default, function() {
 });
 
 Event(4008040, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13301850, ON);
@@ -3445,7 +3423,6 @@ Event(4008040, Default, function() {
 });
 
 Event(4008041, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100042, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13301850, OFF);
@@ -3461,7 +3438,6 @@ Event(4008041, Default, function() {
 });
 
 Event(4008042, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301850);
     SetSpeffect(3300850, 260100041);
@@ -3472,7 +3448,6 @@ Event(4008042, Default, function() {
 });
 
 Event(4008043, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302850);
     SetSpeffect(3300850, 260100043);
@@ -3483,7 +3458,6 @@ Event(4008043, Default, function() {
 });
 
 Event(4008044, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301850);
@@ -3498,7 +3472,6 @@ Event(4008044, Default, function() {
 });
 
 Event(4008045, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302850);
@@ -3513,7 +3486,6 @@ Event(4008045, Default, function() {
 });
 
 Event(4008050, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13503800, ON);
@@ -3529,7 +3501,6 @@ Event(4008050, Default, function() {
 });
 
 Event(4008051, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100052, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13503800, OFF);
@@ -3545,7 +3516,6 @@ Event(4008051, Default, function() {
 });
 
 Event(4008052, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503801);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503800);
     SetSpeffect(3500800, 260100051);
@@ -3596,7 +3566,6 @@ Event(4008052, Default, function() {
 });
 
 Event(4008053, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503801);
     SetSpeffect(3500800, 260100053);
@@ -3647,7 +3616,6 @@ Event(4008053, Default, function() {
 });
 
 Event(4008054, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13500800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503801);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503800);
@@ -3702,7 +3670,6 @@ Event(4008054, Default, function() {
 });
 
 Event(4008055, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13500800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503801);
@@ -3757,7 +3724,6 @@ Event(4008055, Default, function() {
 });
 
 Event(4008060, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13301800, ON);
@@ -3774,7 +3740,6 @@ Event(4008060, Default, function() {
 });
 
 Event(4008061, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100062, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13301800, OFF);
@@ -3791,7 +3756,6 @@ Event(4008061, Default, function() {
 });
 
 Event(4008062, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301800);
     SetSpeffect(3300801, 260100061);
@@ -3801,7 +3765,6 @@ Event(4008062, Default, function() {
 });
 
 Event(4008063, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302800);
     SetSpeffect(3300801, 260100063);
@@ -3811,7 +3774,6 @@ Event(4008063, Default, function() {
 });
 
 Event(4008064, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301800);
@@ -3825,7 +3787,6 @@ Event(4008064, Default, function() {
 });
 
 Event(4008065, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302800);
@@ -3839,7 +3800,6 @@ Event(4008065, Default, function() {
 });
 
 Event(4008070, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13801800, ON);
@@ -3857,7 +3817,6 @@ Event(4008070, Default, function() {
 });
 
 Event(4008071, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100072, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13801800, OFF);
@@ -3875,7 +3834,6 @@ Event(4008071, Default, function() {
 });
 
 Event(4008072, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801800);
     SetSpeffect(3800800, 260100071);
@@ -3883,7 +3841,6 @@ Event(4008072, Default, function() {
 });
 
 Event(4008073, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802800);
     SetSpeffect(3800800, 260100073);
@@ -3891,7 +3848,6 @@ Event(4008073, Default, function() {
 });
 
 Event(4008074, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801800);
@@ -3903,7 +3859,6 @@ Event(4008074, Default, function() {
 });
 
 Event(4008075, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802800);
@@ -3915,7 +3870,6 @@ Event(4008075, Default, function() {
 });
 
 Event(4008080, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13801830, ON);
@@ -3931,7 +3885,6 @@ Event(4008080, Default, function() {
 });
 
 Event(4008081, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100082, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13801830, OFF);
@@ -3947,7 +3900,6 @@ Event(4008081, Default, function() {
 });
 
 Event(4008082, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801830);
     SetSpeffect(3800830, 260100081);
@@ -3955,7 +3907,6 @@ Event(4008082, Default, function() {
 });
 
 Event(4008083, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802830);
     SetSpeffect(3800830, 260100083);
@@ -3975,7 +3926,6 @@ Event(4008084, Default, function() {
 });
 
 Event(4008085, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802830);
@@ -3987,7 +3937,6 @@ Event(4008085, Default, function() {
 });
 
 Event(4008090, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13701850, ON);
@@ -4009,7 +3958,6 @@ Event(4008090, Default, function() {
 });
 
 Event(4008091, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100092, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13701850, OFF);
@@ -4031,7 +3979,6 @@ Event(4008091, Default, function() {
 });
 
 Event(4008092, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701850);
     SetSpeffect(3700850, 260100091);
@@ -4040,7 +3987,6 @@ Event(4008092, Default, function() {
 });
 
 Event(4008093, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702850);
     SetSpeffect(3700850, 260100093);
@@ -4049,7 +3995,6 @@ Event(4008093, Default, function() {
 });
 
 Event(4008094, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701850);
@@ -4062,7 +4007,6 @@ Event(4008094, Default, function() {
 });
 
 Event(4008095, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702850);
@@ -4075,7 +4019,6 @@ Event(4008095, Default, function() {
 });
 
 Event(4008100, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13701800, ON);
@@ -4092,7 +4035,6 @@ Event(4008100, Default, function() {
 });
 
 Event(4008101, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100102, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13701800, OFF);
@@ -4109,7 +4051,6 @@ Event(4008101, Default, function() {
 });
 
 Event(4008102, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701800);
     SetSpeffect(3700800, 260100101);
@@ -4117,7 +4058,6 @@ Event(4008102, Default, function() {
 });
 
 Event(4008103, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702800);
     SetSpeffect(3700800, 260100103);
@@ -4125,7 +4065,6 @@ Event(4008103, Default, function() {
 });
 
 Event(4008104, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701800);
@@ -4137,7 +4076,6 @@ Event(4008104, Default, function() {
 });
 
 Event(4008105, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702800);
@@ -4149,7 +4087,6 @@ Event(4008105, Default, function() {
 });
 
 Event(4008110, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13901800, ON);
@@ -4166,7 +4103,6 @@ Event(4008110, Default, function() {
 });
 
 Event(4008111, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100112, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13901800, OFF);
@@ -4183,7 +4119,6 @@ Event(4008111, Default, function() {
 });
 
 Event(4008112, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13902800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13901800);
     SetSpeffect(3900800, 260100111);
@@ -4191,7 +4126,6 @@ Event(4008112, Default, function() {
 });
 
 Event(4008113, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13901800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13902800);
     SetSpeffect(3900800, 260100113);
@@ -4199,7 +4133,6 @@ Event(4008113, Default, function() {
 });
 
 Event(4008114, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13900800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13902800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13901800);
@@ -4211,7 +4144,6 @@ Event(4008114, Default, function() {
 });
 
 Event(4008115, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13900800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13901800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13902800);
@@ -4224,7 +4156,6 @@ Event(4008115, Default, function() {
 
 // Dream - Dancer
 Event(4008120, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13003890, ON);
@@ -4242,7 +4173,6 @@ Event(4008120, Default, function() {
 
 // Nightmare - Dancer
 Event(4008121, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100122, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13003890, OFF);
@@ -4259,7 +4189,6 @@ Event(4008121, Default, function() {
 });
 
 Event(4008122, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003891);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003890);
     SetSpeffect(3000899, 260100121);
@@ -4267,7 +4196,6 @@ Event(4008122, Default, function() {
 });
 
 Event(4008123, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003890);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003891);
     SetSpeffect(3000899, 260100123);
@@ -4275,7 +4203,6 @@ Event(4008123, Default, function() {
 });
 
 Event(4008124, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000890);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003891);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003890);
@@ -4287,7 +4214,6 @@ Event(4008124, Default, function() {
 });
 
 Event(4008125, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000890);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003890);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003891);
@@ -4300,7 +4226,6 @@ Event(4008125, Default, function() {
 
 // Dream - Oceiros
 Event(4008130, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13000831, ON);
@@ -4317,7 +4242,6 @@ Event(4008130, Default, function() {
 
 // Nightmare - Oceiros
 Event(4008131, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100132, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13000831, OFF);
@@ -4333,7 +4257,6 @@ Event(4008131, Default, function() {
 });
 
 Event(4008132, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000832);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000831);
     SetSpeffect(3000830, 260100131);
@@ -4341,7 +4264,6 @@ Event(4008132, Default, function() {
 });
 
 Event(4008133, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000831);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000832);
     SetSpeffect(3000830, 260100133);
@@ -4349,7 +4271,6 @@ Event(4008133, Default, function() {
 });
 
 Event(4008134, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000832);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000831);
@@ -4361,7 +4282,6 @@ Event(4008134, Default, function() {
 });
 
 Event(4008135, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000831);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000832);
@@ -4373,7 +4293,6 @@ Event(4008135, Default, function() {
 });
 
 Event(4008140, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13011800, ON);
@@ -4389,7 +4308,6 @@ Event(4008140, Default, function() {
 });
 
 Event(4008141, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100142, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13011800, OFF);
@@ -4405,7 +4323,6 @@ Event(4008141, Default, function() {
 });
 
 Event(4008142, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13012800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13011800);
     SetSpeffect(3010800, 260100141);
@@ -4413,7 +4330,6 @@ Event(4008142, Default, function() {
 });
 
 Event(4008143, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13011800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13012800);
     SetSpeffect(3010800, 260100143);
@@ -4421,7 +4337,6 @@ Event(4008143, Default, function() {
 });
 
 Event(4008144, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13010800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13012800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13011800);
@@ -4433,7 +4348,6 @@ Event(4008144, Default, function() {
 });
 
 Event(4008145, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13010800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13011800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13012800);
@@ -4445,7 +4359,6 @@ Event(4008145, Default, function() {
 });
 
 Event(4008150, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13201800, ON);
@@ -4461,7 +4374,6 @@ Event(4008150, Default, function() {
 });
 
 Event(4008151, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100152, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13201800, OFF);
@@ -4477,7 +4389,6 @@ Event(4008151, Default, function() {
 });
 
 Event(4008152, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201800);
     SetSpeffect(3200800, 260100151);
@@ -4502,7 +4413,6 @@ Event(4008152, Default, function() {
 });
 
 Event(4008153, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202800);
     SetSpeffect(3200800, 260100153);
@@ -4527,7 +4437,6 @@ Event(4008153, Default, function() {
 });
 
 Event(4008154, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201800);
@@ -4556,7 +4465,6 @@ Event(4008154, Default, function() {
 });
 
 Event(4008155, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202800);
@@ -4585,7 +4493,6 @@ Event(4008155, Default, function() {
 });
 
 Event(4008160, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13201850, ON);
@@ -4606,7 +4513,6 @@ Event(4008160, Default, function() {
 });
 
 Event(4008161, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100162, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13201850, OFF);
@@ -4627,7 +4533,6 @@ Event(4008161, Default, function() {
 });
 
 Event(4008162, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201850);
     SetSpeffect(3200850, 260100161);
@@ -4636,7 +4541,6 @@ Event(4008162, Default, function() {
 });
 
 Event(4008163, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202850);
     SetSpeffect(3200850, 260100163);
@@ -4645,7 +4549,6 @@ Event(4008163, Default, function() {
 });
 
 Event(4008164, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201850);
@@ -4658,7 +4561,6 @@ Event(4008164, Default, function() {
 });
 
 Event(4008165, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202850);
@@ -4671,7 +4573,6 @@ Event(4008165, Default, function() {
 });
 
 Event(4008170, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14001830, ON);
@@ -4691,7 +4592,6 @@ Event(4008170, Default, function() {
 });
 
 Event(4008171, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100172, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14001830, OFF);
@@ -4711,7 +4611,6 @@ Event(4008171, Default, function() {
 });
 
 Event(4008172, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001830);
     SetSpeffect(4000830, 260100171);
@@ -4719,7 +4618,6 @@ Event(4008172, Default, function() {
 });
 
 Event(4008173, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002830);
     SetSpeffect(4000830, 260100173);
@@ -4727,7 +4625,6 @@ Event(4008173, Default, function() {
 });
 
 Event(4008174, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001830);
@@ -4739,7 +4636,6 @@ Event(4008174, Default, function() {
 });
 
 Event(4008175, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002830);
@@ -4751,7 +4647,6 @@ Event(4008175, Default, function() {
 });
 
 Event(4008180, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13411830, ON);
@@ -4768,7 +4663,6 @@ Event(4008180, Default, function() {
 });
 
 Event(4008181, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100182, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(13411830, OFF);
@@ -4785,7 +4679,6 @@ Event(4008181, Default, function() {
 });
 
 Event(4008182, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13412830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13411830);
     SetSpeffect(3410830, 260100181);
@@ -4795,7 +4688,6 @@ Event(4008182, Default, function() {
 });
 
 Event(4008183, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13411830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13412830);
     SetSpeffect(3410830, 260100183);
@@ -4805,7 +4697,6 @@ Event(4008183, Default, function() {
 });
 
 Event(4008184, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13410830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13412830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13411830);
@@ -4819,7 +4710,6 @@ Event(4008184, Default, function() {
 });
 
 Event(4008185, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13410830);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13411830);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13412830);
@@ -4833,7 +4723,6 @@ Event(4008185, Default, function() {
 });
 
 Event(4008190, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14101800, ON);
@@ -4851,7 +4740,6 @@ Event(4008190, Default, function() {
 });
 
 Event(4008191, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100192, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14101800, OFF);
@@ -4869,7 +4757,6 @@ Event(4008191, Default, function() {
 });
 
 Event(4008192, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14102800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14101800);
     SetSpeffect(4100800, 260100191);
@@ -4877,7 +4764,6 @@ Event(4008192, Default, function() {
 });
 
 Event(4008193, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14101800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14102800);
     SetSpeffect(4100800, 260100193);
@@ -4885,7 +4771,6 @@ Event(4008193, Default, function() {
 });
 
 Event(4008194, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14102800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14101800);
@@ -4897,7 +4782,6 @@ Event(4008194, Default, function() {
 });
 
 Event(4008195, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14100800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14101800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14102800);
@@ -4909,7 +4793,6 @@ Event(4008195, Default, function() {
 });
 
 Event(4008200, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14501800, ON);
@@ -4926,7 +4809,6 @@ Event(4008200, Default, function() {
 });
 
 Event(4008201, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100202, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14501800, OFF);
@@ -4943,7 +4825,6 @@ Event(4008201, Default, function() {
 });
 
 Event(4008202, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501800);
     SetSpeffect(4500800, 260100201);
@@ -4954,7 +4835,6 @@ Event(4008202, Default, function() {
 });
 
 Event(4008203, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502800);
     SetSpeffect(4500800, 260100203);
@@ -4965,7 +4845,6 @@ Event(4008203, Default, function() {
 });
 
 Event(4008204, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501800);
@@ -4980,7 +4859,6 @@ Event(4008204, Default, function() {
 });
 
 Event(4008205, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502800);
@@ -4996,7 +4874,6 @@ Event(4008205, Default, function() {
 
 // The Triad
 Event(4008210, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14501870, ON);
@@ -5015,7 +4892,6 @@ Event(4008210, Default, function() {
 });
 
 Event(4008211, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100212, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(14501870, OFF);
@@ -5034,7 +4910,6 @@ Event(4008211, Default, function() {
 });
 
 Event(4008212, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502870);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501870);
     SetSpeffect(4500860, 260100211);
@@ -5044,7 +4919,6 @@ Event(4008212, Default, function() {
 });
 
 Event(4008213, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501870);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502870);
     SetSpeffect(4500860, 260100213);
@@ -5054,7 +4928,6 @@ Event(4008213, Default, function() {
 });
 
 Event(4008214, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500860);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502870);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501870);
@@ -5068,7 +4941,6 @@ Event(4008214, Default, function() {
 });
 
 Event(4008215, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500860);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501870);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502870);
@@ -5083,7 +4955,6 @@ Event(4008215, Default, function() {
 
 // Sister Friede
 Event(4008220, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15001800, ON);
@@ -5100,7 +4971,6 @@ Event(4008220, Default, function() {
 });
 
 Event(4008221, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100222, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15001800, OFF);
@@ -5117,7 +4987,6 @@ Event(4008221, Default, function() {
 });
 
 Event(4008222, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15001800);
     SetSpeffect(5000800, 260100221);
@@ -5127,7 +4996,6 @@ Event(4008222, Default, function() {
 });
 
 Event(4008223, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15002800);
     SetSpeffect(5000800, 260100223);
@@ -5137,7 +5005,6 @@ Event(4008223, Default, function() {
 });
 
 Event(4008224, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15002800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15001800);
@@ -5151,7 +5018,6 @@ Event(4008224, Default, function() {
 });
 
 Event(4008225, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15000800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15001800);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15002800);
@@ -5165,7 +5031,6 @@ Event(4008225, Default, function() {
 });
 
 Event(4008230, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15101850, ON);
@@ -5182,7 +5047,6 @@ Event(4008230, Default, function() {
 });
 
 Event(4008231, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100232, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15101850, OFF);
@@ -5199,7 +5063,6 @@ Event(4008231, Default, function() {
 });
 
 Event(4008232, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15102850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15101850);
     SetSpeffect(5100850, 260100231);
@@ -5207,7 +5070,6 @@ Event(4008232, Default, function() {
 });
 
 Event(4008233, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15101850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15102850);
     SetSpeffect(5100850, 260100233);
@@ -5215,7 +5077,6 @@ Event(4008233, Default, function() {
 });
 
 Event(4008234, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15100850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15102850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15101850);
@@ -5227,7 +5088,6 @@ Event(4008234, Default, function() {
 });
 
 Event(4008235, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15100850);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15101850);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15102850);
@@ -5239,7 +5099,6 @@ Event(4008235, Default, function() {
 });
 
 Event(4008240, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15111810, ON);
@@ -5256,7 +5115,6 @@ Event(4008240, Default, function() {
 });
 
 Event(4008241, Default, function() {
-    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, 10000, 260100242, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(15111810, OFF);
@@ -5273,7 +5131,6 @@ Event(4008241, Default, function() {
 });
 
 Event(4008242, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15112810);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15111810);
     SetSpeffect(5110800, 260100101);
@@ -5282,7 +5139,6 @@ Event(4008242, Default, function() {
 });
 
 Event(4008243, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15111810);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15112810);
     SetSpeffect(5110800, 260100103);
@@ -5291,7 +5147,6 @@ Event(4008243, Default, function() {
 });
 
 Event(4008244, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15110800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15112810);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15111810);
@@ -5304,7 +5159,6 @@ Event(4008244, Default, function() {
 });
 
 Event(4008245, Default, function() {
-    SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15110800);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15111810);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15112810);

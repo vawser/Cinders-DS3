@@ -64,7 +64,7 @@
 - Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight.
 - Improved greatshield base stability to 70/75.
 - Breaking Wheel WA now imbues you with Power Within for 15 seconds.
-- Reduced the damage of bows/greatbows/crossbows.
+- Adjusted the damage of bows/greatbows/crossbows.
 - Added scaling to the crossbows.
 
 # Rings
@@ -191,3 +191,6 @@ Add some boss arenas for small boss encounters
 7141 Loyce Armor
 7142 Loyce Gauntlets
 7143 Loyce Leggings
+
+Add interactive grave at boss fog door entrance, appears after boss is killed, respawns the boss
+Change the primordial drops to be dependant on current Curses, i.e. +50% damage gives 100% of the drop, whereas Attraction gives a 25% chance drop.
