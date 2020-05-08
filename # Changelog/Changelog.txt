@@ -11,21 +11,21 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002058 Cemetery of Ash / Unturned Graves
-53002097 High Wall of Lothric / Consumed King's Garden
-53102091 Undead Settlement
-53302176 Road of Sacrifices / Farron Keep
-53502081 Cathedral of the Deep
-53802172 Catacombs of Carthus / Smouldering Lake
-53702144 Irithyll of the Boreal Valley / Anor Londo
-53902119 Irithyll Dungeon / Profaned Capital
-53012089 Lothric Castle
-53412133 Grand Archives
-54102010 Kiln of the First Flame
-53202073 Archdragon Peak
-54502071 Painted World of Ariandel
-55002061 Dreg Heap
-55102056 The Ringed City
+54002060 Cemetery of Ash / Unturned Graves
+53002100 High Wall of Lothric / Consumed King's Garden
+53102092 Undead Settlement
+53302178 Road of Sacrifices / Farron Keep
+53502082 Cathedral of the Deep
+53802174 Catacombs of Carthus / Smouldering Lake
+53702146 Irithyll of the Boreal Valley / Anor Londo
+53902120 Irithyll Dungeon / Profaned Capital
+53012090 Lothric Castle
+53412134 Grand Archives
+54102011 Kiln of the First Flame
+53202075 Archdragon Peak
+54502073 Painted World of Ariandel
+55002062 Dreg Heap
+55102058 The Ringed City
 
 #------------------------------
 # Changelog
@@ -88,6 +88,21 @@
 - Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
 - Reduced the damage of Black Fire Scatter a bit to compensate for its ability to hit with multiple orbs.
 
+# Memories
+- Removed the Dream/Nightmare system. Instead you know get a Memory of X when you kill a boss, allowing you to respawn them. You will warp in front of their fog door now.
+- The Primordial drops are now linked to the usage of Curses, i.e. if you use Curse of Pride against the Soul of Cinder, he will drop the Primordial Slab.
+- Each curse has its own drop table, so the more curses you enable, the more chances you have at getting primordial material.
+- The no hit rewards is now primordial material.
+- These are the drop chances (the type varies based on the boss):
+ - No Hit: 100%
+ - Obscurity: 50%
+ - Vitality: 50%
+ - Fortitude: 50%
+ - Pride: 50%
+ - Wrath: 30%
+ - Gluttony: 30%
+ - Frailty: 30%
+ - Attraction: 10%
 
 # Enemies
 - Extended the lock-on distance against all enemies.
@@ -194,5 +209,5 @@ Add some boss arenas for small boss encounters
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-Add warp points for the memories to the fogdoor
 
+band of sparks +3 and the farron ring +3

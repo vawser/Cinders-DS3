@@ -12,22 +12,22 @@
 - Absorption: Slash:        100%
 - Absorption: Strike:       110%
 - Absorption: Thrust:       100%
-- Absorption: Magic:        90%
-- Absorption: Fire:         100%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Curse-rotted Greatwood 
 - NG0 HP: 6000 [9000]
 - NG+ HP: 12000 [18000]          
 - Souls: 10000 [2500] [10000]
-- Absorption: Standard:     120%
+- Absorption: Standard:     100%
 - Absorption: Slash:        100%
-- Absorption: Strike:       130%
+- Absorption: Strike:       100%
 - Absorption: Thrust:       120%
 - Absorption: Magic:        80%
-- Absorption: Fire:         150%
+- Absorption: Fire:         120%
 - Absorption: Lightning:    80%
 - Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
@@ -36,14 +36,14 @@
 - NG0 HP: 6000 [9000]    
 - NG+ HP: 12000 [18000]       
 - Souls: 10000 [2500] [10000]
-- Absorption: Standard:     120%
-- Absorption: Slash:        120%
-- Absorption: Strike:       120%
-- Absorption: Thrust:       120%
-- Absorption: Magic:        80%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    90%
-- Absorption: Dark:         90%
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        60%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 
 # Deacons of the Deep
@@ -65,14 +65,14 @@
 - NG0 HP: 6000 [9000]      
 - NG+ HP: 12000 [18000]   
 - Souls: 8000 [2000] [8000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        90%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       100%
-- Absorption: Magic:        100%
-- Absorption: Fire:         110% (150% as Pus of Man)
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         120%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         90%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 - Considered Abyssal.
 
@@ -80,28 +80,28 @@
 - NG0 HP: 8000 [12000]
 - NG+ HP: 16000 [24000]
 - Souls: 25000 [6250] [25000]
-- Absorption: Standard:     150%
-- Absorption: Slash:        150%
-- Absorption: Strike:       150%
-- Absorption: Thrust:       160%
-- Absorption: Magic:        100%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         120%
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       110%
+- Absorption: Magic:        80%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # High Lord Wolnir
 - NG0 HP: 8000 [12000]      
 - NG+ HP: 16000 [24000]
 - Souls: 10000 [2500] [10000]
-- Absorption: Standard:     80%
-- Absorption: Slash:        80%
-- Absorption: Strike:       90%
-- Absorption: Thrust:       80%
-- Absorption: Magic:        90%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    90%
-- Absorption: Dark:         80%
+- Absorption: Standard:     50%
+- Absorption: Slash:        50%
+- Absorption: Strike:       60%
+- Absorption: Thrust:       30%
+- Absorption: Magic:        50%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    50%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 - Considered Undead and Abyssal.
 
@@ -113,10 +113,10 @@
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
 - Absorption: Thrust:       80%
-- Absorption: Magic:        90%
-- Absorption: Fire:         80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         30%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         90%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 - Considered Demon.
 
@@ -124,14 +124,14 @@
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
 - Souls: 25000 [6250] [25000]
-- Absorption: Standard:     120%
-- Absorption: Slash:        120%
-- Absorption: Strike:       130%
-- Absorption: Thrust:       120%
-- Absorption: Magic:        80%
-- Absorption: Fire:         100%
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        60%
+- Absorption: Fire:         80%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Pontiff Sulyvahn - Clone
@@ -151,14 +151,14 @@
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]
 - Souls: 50000 [12500] [50000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       110%
-- Absorption: Magic:        90%
-- Absorption: Fire:         120%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         80%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        60%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 - Considered Abyssal.
 
@@ -166,40 +166,40 @@
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]
 - Souls: 25000 [6250] [25000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        80%
-- Absorption: Fire:         70%
-- Absorption: Lightning:    80%
-- Absorption: Dark:         80%
+- Absorption: Standard:     50%
+- Absorption: Slash:        50%
+- Absorption: Strike:       50%
+- Absorption: Thrust:       50%
+- Absorption: Magic:        50%
+- Absorption: Fire:         30%
+- Absorption: Lightning:    50%
+- Absorption: Dark:         50%
 - Affected by: Poison, Bleed, Frost
 
 # Dancer of the Boreal Valley
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
 - Souls: 15000 [3750] [15000]
-- Absorption: Standard:     120%
-- Absorption: Slash:        120%
-- Absorption: Strike:       130%
-- Absorption: Thrust:       120%
-- Absorption: Magic:        80%
-- Absorption: Fire:         80%
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        70%
+- Absorption: Fire:         70%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         100%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Oceiros, the Consumed King
 - NG0 HP: 12000 [18000]
 - NG+ HP: 24000 [36000]
 - Souls: 20000 [5000] [20000]
-- Absorption: Standard:     120%
-- Absorption: Slash:        120%
-- Absorption: Strike:       120%
-- Absorption: Thrust:       130%
-- Absorption: Magic:        80%
-- Absorption: Fire:         90%
+- Absorption: Standard:     80%
+- Absorption: Slash:        90%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        60%
+- Absorption: Fire:         70%
 - Absorption: Lightning:    100%
 - Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
@@ -236,42 +236,42 @@
 # King of the Storm
 - NG0 HP: 8000 [12000]      
 - NG+ HP: 16000 [24000]
-- Absorption: Standard:     100%
+- Absorption: Standard:     80%
 - Absorption: Slash:        80%
-- Absorption: Strike:       120%
-- Absorption: Thrust:       100%
-- Absorption: Magic:        90%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    120%
-- Absorption: Dark:         100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Nameless King 
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]   
 - Souls: 50000 [12500] [50000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       110%
-- Absorption: Magic:        90%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    80%
-- Absorption: Dark:         90%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        80%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Champion Gundyr 
 - NG0 HP: 16000 [24000]    
 - NG+ HP: 32000 [48000]         
 - Souls: 20000 [5000] [20000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        100%
-- Absorption: Fire:         110%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         90%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 
 # Lorian, Elder Prince
@@ -279,42 +279,42 @@
 - Phase 2 NG0 HP: 8000 [12000]  
 - Phase 1 NG+ HP: 32000 [48000]    
 - Phase 2 NG+ HP: 16000 [24000] 
-- Absorption: Standard:     90%
+- Absorption: Standard:     80%
 - Absorption: Slash:        80%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       100%
-- Absorption: Magic:        100%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    110%
-- Absorption: Dark:         100%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Lothric, Younger Prince 
 - NG0 HP: 12000 [18000]   
 - NG+ HP: 24000 [36000]          
 - Souls: 50000 [12500] [50000]
-- Absorption: Standard:     120%
-- Absorption: Slash:        120%
-- Absorption: Strike:       120%
-- Absorption: Thrust:       130%
-- Absorption: Magic:        80%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         100%
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       110%
+- Absorption: Magic:        60%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Soul of Cinder 
 - NG0 HP: 16000 [24000]
 - NG+ HP: 32000 [48000]
 - Souls: 100000 [25000] [100000]
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       100%
-- Absorption: Magic:        90%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    90%
-- Absorption: Dark:         90%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        60%
+- Absorption: Fire:         60%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Sister Friede
@@ -323,14 +323,14 @@
 - Phase 1 NG+ HP: 18000 [27000]      
 - Phase 2 NG+ HP: 24000 [36000]     
 - Souls: 50000 [12500] [50000]
-- Absorption: Standard:     130%
-- Absorption: Slash:        130%
-- Absorption: Strike:       130%
-- Absorption: Thrust:       150%
-- Absorption: Magic:        80%
-- Absorption: Fire:         100%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         90%
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       110%
+- Absorption: Magic:        60%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    90%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Father Ariandel 
@@ -357,14 +357,14 @@
 - Phase 1 NG+ HP: 16000 [24000] 
 - Phase 2 NG+ HP: 16000 [24000]
 - Souls: 100000 [25000] [100000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        80%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        100%
-- Absorption: Fire:         80%
+- Absorption: Standard:     70%
+- Absorption: Slash:        70%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       60%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 - Considered Demon.
 
@@ -375,10 +375,10 @@
 - NG0 HP: 30000 [45000]
 - NG+ HP: 60000 [90000]                  
 - Souls: 150000 [37500] [150000]
-- Absorption: Standard:     80%
-- Absorption: Slash:        70%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       90%
+- Absorption: Standard:     40%
+- Absorption: Slash:        30%
+- Absorption: Strike:       50%
+- Absorption: Thrust:       40%
 - Absorption: Magic:        40%
 - Absorption: Fire:         30%
 - Absorption: Lightning:    60%
@@ -390,10 +390,10 @@
 - NG0 HP: 20000 [30000]       
 - NG+ HP: 40000 [60000]
 - Souls: 125000 [31250] [125000]
-- Absorption: Standard:     90%
-- Absorption: Slash:        80%
-- Absorption: Strike:       100%
-- Absorption: Thrust:       100%
+- Absorption: Standard:     70%
+- Absorption: Slash:        70%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
 - Absorption: Magic:        80%
 - Absorption: Fire:         80%
 - Absorption: Lightning:    80%

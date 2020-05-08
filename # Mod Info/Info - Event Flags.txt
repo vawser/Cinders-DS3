@@ -144,7 +144,7 @@ Flags used in the Cinders range:
 25000005 Curse of Attraction
 25000006 Curse of Fortitude
 25000007 Curse of Gluttony
-25000008 Curse of Folly
+25000008 Curse of Frailty
 
 25004101 Show Curse of Obscurity Info
 25004102 Show Curse of Vitality Info
@@ -153,6 +153,8 @@ Flags used in the Cinders range:
 25004105 Curse of Attraction Info
 25004106 Curse of Fortitude Info
 25004107 Curse of Gluttony Info
-25004108 Curse of Folly Info
+25004108 Curse of Frailty Info
+
+25006000 No Hit state
 
 25009000 Random flag range

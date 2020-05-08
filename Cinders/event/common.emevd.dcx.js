@@ -1685,9 +1685,6 @@ Event(400000, Default, function() {
     InitializeEvent(14, 400100, 10000, 160100392, 800011400, 800011420); // Way of Blue
     InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
     
-    // Bosses
-    InitializeEvent(0, 401000, 0); // Boss System
-    
     // Weapons
     InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
     
@@ -1738,6 +1735,32 @@ Event(400000, Default, function() {
     // General Scripts
     InitializeEvent(0, 400700, 10000); // No Hit State
     InitializeEvent(0, 400800, 10000); // FP Regen
+    
+    // Bosses
+    InitializeEvent(0, 4008010, 0); // Corrupted Gundyr
+    InitializeEvent(0, 4008020, 0); // Vordt of the Boreal Valley
+    InitializeEvent(0, 4008030, 0); // Curse-rotted Greatwood
+    InitializeEvent(0, 4008040, 0); // Crystal Sage
+    InitializeEvent(0, 4008050, 0); // Deacons of the Deep
+    InitializeEvent(0, 4008060, 0); // Abyss Watchers
+    InitializeEvent(0, 4008070, 0); // High Lord Wolnir
+    InitializeEvent(0, 4008080, 0); // Old Demon King
+    InitializeEvent(0, 4008090, 0); // Pontiff Sulyvahn
+    InitializeEvent(0, 4008100, 0); // Aldrich, Devourer of Gods
+    InitializeEvent(0, 4008110, 0); // Yhorm the Giant
+    InitializeEvent(0, 4008120, 0); // Dancer of the Boreal Valley
+    InitializeEvent(0, 4008130, 0); // Oceiros, the Consumed King
+    InitializeEvent(0, 4008140, 0); // Dragonslayer Armour
+    InitializeEvent(0, 4008150, 0); // Ancient Wyvern
+    InitializeEvent(0, 4008160, 0); // Nameless King
+    InitializeEvent(0, 4008170, 0); // Champion Gundyr
+    InitializeEvent(0, 4008180, 0); // Twin Princes
+    InitializeEvent(0, 4008190, 0); // Soul of Cinder
+    InitializeEvent(0, 4008200, 0); // Sister Friede
+    InitializeEvent(0, 4008210, 0); // Lordran Remannts
+    InitializeEvent(0, 4008220, 0); // Demon Prince
+    InitializeEvent(0, 4008230, 0); // Darkeater Midir
+    InitializeEvent(0, 4008240, 0); // Slave Knight Gael
 });
 
 // FP Regen
@@ -2940,1583 +2963,356 @@ Event(400410, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Bosses - Setup
-Event(401000, Restart, function() {
-    // Iudex Gundyr
-    InitializeEvent(0, 4008010, 0);
-    InitializeEvent(0, 4008011, 0);
-    InitializeEvent(0, 4008012, 0);
-    InitializeEvent(0, 4008013, 0);
-    InitializeEvent(0, 4008014, 0);
-    InitializeEvent(0, 4008015, 0);
-    
-    // Vordt of the Boreal Valley
-    InitializeEvent(0, 4008020, 0);
-    InitializeEvent(0, 4008021, 0);
-    InitializeEvent(0, 4008022, 0);
-    InitializeEvent(0, 4008023, 0);
-    InitializeEvent(0, 4008024, 0);
-    InitializeEvent(0, 4008025, 0);
-    
-    // Curse-rotted Greatwood
-    InitializeEvent(0, 4008030, 0);
-    InitializeEvent(0, 4008031, 0);
-    InitializeEvent(0, 4008032, 0);
-    InitializeEvent(0, 4008033, 0);
-    InitializeEvent(0, 4008034, 0);
-    InitializeEvent(0, 4008035, 0);
-    
-    // Crystal Sage
-    InitializeEvent(0, 4008040, 0);
-    InitializeEvent(0, 4008041, 0);
-    InitializeEvent(0, 4008042, 0);
-    InitializeEvent(0, 4008043, 0);
-    InitializeEvent(0, 4008044, 0);
-    InitializeEvent(0, 4008045, 0);
-    
-    // Deacons of the Deep
-    InitializeEvent(0, 4008050, 0);
-    InitializeEvent(0, 4008051, 0);
-    InitializeEvent(0, 4008052, 0);
-    InitializeEvent(0, 4008053, 0);
-    InitializeEvent(0, 4008054, 0);
-    InitializeEvent(0, 4008055, 0);
-    
-    // Abyss Watchers
-    InitializeEvent(0, 4008060, 0);
-    InitializeEvent(0, 4008061, 0);
-    InitializeEvent(0, 4008062, 0);
-    InitializeEvent(0, 4008063, 0);
-    InitializeEvent(0, 4008064, 0);
-    InitializeEvent(0, 4008065, 0);
-    
-    // High Lord Wolnir
-    InitializeEvent(0, 4008070, 0);
-    InitializeEvent(0, 4008071, 0);
-    InitializeEvent(0, 4008072, 0);
-    InitializeEvent(0, 4008073, 0);
-    InitializeEvent(0, 4008074, 0);
-    InitializeEvent(0, 4008075, 0);
-    
-    // Old Demon King
-    InitializeEvent(0, 4008080, 0);
-    InitializeEvent(0, 4008081, 0);
-    InitializeEvent(0, 4008082, 0);
-    InitializeEvent(0, 4008083, 0);
-    InitializeEvent(0, 4008084, 0);
-    InitializeEvent(0, 4008085, 0);
-    
-    // Pontiff Sulyvahn
-    InitializeEvent(0, 4008090, 0);
-    InitializeEvent(0, 4008091, 0);
-    InitializeEvent(0, 4008092, 0);
-    InitializeEvent(0, 4008093, 0);
-    InitializeEvent(0, 4008094, 0);
-    InitializeEvent(0, 4008095, 0);
-    
-    // Aldrich, Devourer of Gods
-    InitializeEvent(0, 4008100, 0);
-    InitializeEvent(0, 4008101, 0);
-    InitializeEvent(0, 4008102, 0);
-    InitializeEvent(0, 4008103, 0);
-    InitializeEvent(0, 4008104, 0);
-    InitializeEvent(0, 4008105, 0);
-    
-    // Yhorm the Giant
-    InitializeEvent(0, 4008110, 0);
-    InitializeEvent(0, 4008111, 0);
-    InitializeEvent(0, 4008112, 0);
-    InitializeEvent(0, 4008113, 0);
-    InitializeEvent(0, 4008114, 0);
-    InitializeEvent(0, 4008115, 0);
-    
-    // Dancer of the Boreal Valley
-    InitializeEvent(0, 4008120, 0);
-    InitializeEvent(0, 4008121, 0);
-    InitializeEvent(0, 4008122, 0);
-    InitializeEvent(0, 4008123, 0);
-    InitializeEvent(0, 4008124, 0);
-    InitializeEvent(0, 4008125, 0);
-    
-    // Oceiros, the Consumed King
-    InitializeEvent(0, 4008130, 0);
-    InitializeEvent(0, 4008131, 0);
-    InitializeEvent(0, 4008132, 0);
-    InitializeEvent(0, 4008133, 0);
-    InitializeEvent(0, 4008134, 0);
-    InitializeEvent(0, 4008135, 0);
-    
-    // Dragonslayer Armour
-    InitializeEvent(0, 4008140, 0);
-    InitializeEvent(0, 4008141, 0);
-    InitializeEvent(0, 4008142, 0);
-    InitializeEvent(0, 4008143, 0);
-    InitializeEvent(0, 4008144, 0);
-    InitializeEvent(0, 4008145, 0);
-    
-    // Ancient Wyvern
-    InitializeEvent(0, 4008150, 0);
-    InitializeEvent(0, 4008151, 0);
-    InitializeEvent(0, 4008152, 0);
-    InitializeEvent(0, 4008153, 0);
-    InitializeEvent(0, 4008154, 0);
-    InitializeEvent(0, 4008155, 0);
-    
-    // Nameless King
-    InitializeEvent(0, 4008160, 0);
-    InitializeEvent(0, 4008161, 0);
-    InitializeEvent(0, 4008162, 0);
-    InitializeEvent(0, 4008163, 0);
-    InitializeEvent(0, 4008164, 0);
-    InitializeEvent(0, 4008165, 0);
-    
-    // Champion Gundyr
-    InitializeEvent(0, 4008170, 0);
-    InitializeEvent(0, 4008171, 0);
-    InitializeEvent(0, 4008172, 0);
-    InitializeEvent(0, 4008173, 0);
-    InitializeEvent(0, 4008174, 0);
-    InitializeEvent(0, 4008175, 0);
-    
-    // Twin Princes
-    InitializeEvent(0, 4008180, 0);
-    InitializeEvent(0, 4008181, 0);
-    InitializeEvent(0, 4008182, 0);
-    InitializeEvent(0, 4008183, 0);
-    InitializeEvent(0, 4008184, 0);
-    InitializeEvent(0, 4008185, 0);
-    
-    // Soul of Cinder
-    InitializeEvent(0, 4008190, 0);
-    InitializeEvent(0, 4008191, 0);
-    InitializeEvent(0, 4008192, 0);
-    InitializeEvent(0, 4008193, 0);
-    InitializeEvent(0, 4008194, 0);
-    InitializeEvent(0, 4008195, 0);
-    
-    // Sister Friede
-    InitializeEvent(0, 4008200, 0);
-    InitializeEvent(0, 4008201, 0);
-    InitializeEvent(0, 4008202, 0);
-    InitializeEvent(0, 4008203, 0);
-    InitializeEvent(0, 4008204, 0);
-    InitializeEvent(0, 4008205, 0);
-    
-    // The Triad
-    InitializeEvent(0, 4008210, 0);
-    InitializeEvent(0, 4008211, 0);
-    InitializeEvent(0, 4008212, 0);
-    InitializeEvent(0, 4008213, 0);
-    InitializeEvent(0, 4008214, 0);
-    InitializeEvent(0, 4008215, 0);
-    
-    // Demon Prince
-    InitializeEvent(0, 4008220, 0);
-    InitializeEvent(0, 4008221, 0);
-    InitializeEvent(0, 4008222, 0);
-    InitializeEvent(0, 4008223, 0);
-    InitializeEvent(0, 4008224, 0);
-    InitializeEvent(0, 4008225, 0);
-    
-    // Darkeater Midir
-    InitializeEvent(0, 4008230, 0);
-    InitializeEvent(0, 4008231, 0);
-    InitializeEvent(0, 4008232, 0);
-    InitializeEvent(0, 4008233, 0);
-    InitializeEvent(0, 4008234, 0);
-    InitializeEvent(0, 4008235, 0);
-    
-    // Slave Knight Gael
-    InitializeEvent(0, 4008240, 0);
-    InitializeEvent(0, 4008241, 0);
-    InitializeEvent(0, 4008242, 0);
-    InitializeEvent(0, 4008243, 0);
-    InitializeEvent(0, 4008244, 0);
-    InitializeEvent(0, 4008245, 0);
-});
-
-// Iudex Gundyr - Dream - Respawn
+// Corrupted Gundyr - Respawn
 Event(4008010, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14001800, ON);
-    SetEventFlag(14002800, OFF);
+    
+    // Flags
     SetEventFlag(14000800, OFF);
     SetEventFlag(9319, OFF);
     SetEventFlag(6319, OFF);
     SetEventFlag(14000002, OFF);
     SetEventFlag(64000260, OFF);
     SetEventFlag(64000261, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(4002950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
     SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000970);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Iudex Gundyr - Nightmare - Respawn
-Event(4008011, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100012, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14001800, OFF);
-    SetEventFlag(14002800, ON);
-    SetEventFlag(14000800, OFF);
-    SetEventFlag(9319, OFF);
-    SetEventFlag(6319, OFF);
-    SetEventFlag(14000002, OFF);
-    SetEventFlag(64000260, OFF);
-    SetEventFlag(64000261, OFF);
-    SetPlayerRespawnPoint(4002950);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000970);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(40, 0, 4000980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Iudex Gundyr - Dream - SpEffect
-Event(4008012, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001800);
-    SetSpeffect(4000800, 260100011);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Iudex Gundyr - Nightmare - SpEffect
-Event(4008013, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002800);
-    SetSpeffect(4000800, 260100013);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Iudex Gundyr - Dream - Drop
-Event(4008014, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14000800);
-    AwardItemLot(800200000);
-    SetEventFlag(14001800, OFF);
-    ClearSpeffect(4000800, 260100011);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Iudex Gundyr - Nightmare - Drop
-Event(4008015, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14000800);
-    AwardItemLot(800200020);
-    SetEventFlag(14002800, OFF);
-    ClearSpeffect(4000800, 260100013);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Vordt - Dream - Respawn
+// Vordt - Respawn
 Event(4008020, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13001800, ON);
-    SetEventFlag(13002800, OFF);
+    
+    // Flags
     SetEventFlag(13000800, OFF);
     SetEventFlag(9301, OFF);
     SetEventFlag(6301, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3002958);
+
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000975);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000982);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Vordt - Nightmare - Respawn
-Event(4008021, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100022, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13001800, OFF);
-    SetEventFlag(13002800, ON);
-    SetEventFlag(13000800, OFF);
-    SetEventFlag(9301, OFF);
-    SetEventFlag(6301, OFF);
-    SetPlayerRespawnPoint(3002958);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000975);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Vordt - Dream - SpEffect
-Event(4008022, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13001800);
-    SetSpeffect(3000800, 260100021);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Vordt - Nightmare - SpEffect
-Event(4008023, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13002800);
-    SetSpeffect(3000800, 260100023);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Vordt - Dream - Drop
-Event(4008024, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000800);
-    AwardItemLot(800200100);
-    SetEventFlag(13001800, OFF);
-    ClearSpeffect(3000800, 260100021);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Vordt - Nightmare - Drop
-Event(4008025, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000800);
-    AwardItemLot(800200120);
-    SetEventFlag(13002800, OFF);
-    ClearSpeffect(3000800, 260100023);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Curse-rotted Greatwood - Dream - Respawn
+// Curse-rotted Greatwood - Respawn
 Event(4008030, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13101800, ON);
-    SetEventFlag(13102800, OFF);
+    
+    // Flags
     SetEventFlag(13100800, OFF);
     SetEventFlag(9303, OFF);
     SetEventFlag(6303, OFF);
     SetEventFlag(13100001, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3102953);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(31, 0, 3100973);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(31, 0, 3100980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Curse-rotted Greatwood - Nightmare - Respawn
-Event(4008031, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100032, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13101800, OFF);
-    SetEventFlag(13102800, ON);
-    SetEventFlag(13100800, OFF);
-    SetEventFlag(9303, OFF);
-    SetEventFlag(6303, OFF);
-    SetEventFlag(13100001, OFF);
-    SetPlayerRespawnPoint(3102953);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(31, 0, 3100973);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Curse-rotted Greatwood - Dream - SpEffect
-Event(4008032, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13101800);
-    SetSpeffect(3100800, 260100031);
-    SetSpeffect(3100259, 260100031);
-    SetSpeffect(3100264, 260100031);
-    SetSpeffect(3100258, 260100031);
-    SetSpeffect(3100257, 260100031);
-    SetSpeffect(3100254, 260100031);
-    SetSpeffect(3100266, 260100031);
-    SetSpeffect(3100261, 260100031);
-    SetSpeffect(3100262, 260100031);
-    SetSpeffect(3100252, 260100031);
-    SetSpeffect(3100265, 260100031);
-    SetSpeffect(3100490, 260100031);
-    SetSpeffect(3100491, 260100031);
-    SetSpeffect(3100492, 260100031);
-    SetSpeffect(3100493, 260100031);
-    SetSpeffect(3100494, 260100031);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Curse-rotted Greatwood - Nightmare - SpEffect
-Event(4008033, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13102800);
-    SetSpeffect(3100800, 260100033);
-    SetSpeffect(3100259, 260100033);
-    SetSpeffect(3100264, 260100033);
-    SetSpeffect(3100258, 260100033);
-    SetSpeffect(3100257, 260100033);
-    SetSpeffect(3100254, 260100033);
-    SetSpeffect(3100266, 260100033);
-    SetSpeffect(3100261, 260100033);
-    SetSpeffect(3100262, 260100033);
-    SetSpeffect(3100252, 260100033);
-    SetSpeffect(3100265, 260100033);
-    SetSpeffect(3100490, 260100033);
-    SetSpeffect(3100491, 260100033);
-    SetSpeffect(3100492, 260100033);
-    SetSpeffect(3100493, 260100033);
-    SetSpeffect(3100494, 260100033);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Curse-rotted Greatwood - Dream - Drop
-Event(4008034, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13100800);
-    AwardItemLot(800200200);
-    SetEventFlag(13101800, OFF);
-    ClearSpeffect(3100800, 260100031);
-    ClearSpeffect(3100259, 260100031);
-    ClearSpeffect(3100264, 260100031);
-    ClearSpeffect(3100258, 260100031);
-    ClearSpeffect(3100257, 260100031);
-    ClearSpeffect(3100254, 260100031);
-    ClearSpeffect(3100266, 260100031);
-    ClearSpeffect(3100261, 260100031);
-    ClearSpeffect(3100262, 260100031);
-    ClearSpeffect(3100252, 260100031);
-    ClearSpeffect(3100265, 260100031);
-    ClearSpeffect(3100490, 260100031);
-    ClearSpeffect(3100491, 260100031);
-    ClearSpeffect(3100492, 260100031);
-    ClearSpeffect(3100493, 260100031);
-    ClearSpeffect(3100494, 260100031);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Curse-rotted Greatwood - Nightmare - Drop
-Event(4008035, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13100800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13100800);
-    AwardItemLot(800200220);
-    SetEventFlag(13102800, OFF);
-    ClearSpeffect(3100800, 260100033);
-    ClearSpeffect(3100259, 260100033);
-    ClearSpeffect(3100264, 260100033);
-    ClearSpeffect(3100258, 260100033);
-    ClearSpeffect(3100257, 260100033);
-    ClearSpeffect(3100254, 260100033);
-    ClearSpeffect(3100266, 260100033);
-    ClearSpeffect(3100261, 260100033);
-    ClearSpeffect(3100262, 260100033);
-    ClearSpeffect(3100252, 260100033);
-    ClearSpeffect(3100265, 260100033);
-    ClearSpeffect(3100490, 260100033);
-    ClearSpeffect(3100491, 260100033);
-    ClearSpeffect(3100492, 260100033);
-    ClearSpeffect(3100493, 260100033);
-    ClearSpeffect(3100494, 260100033);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Crystal Sage - Dream - Respawn
+// Crystal Sage - Respawn
 Event(4008040, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13301850, ON);
-    SetEventFlag(13302850, OFF);
+    
+    // Flags
     SetEventFlag(13300850, OFF);
     SetEventFlag(9306, OFF);
     SetEventFlag(6306, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3302957);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(33, 0, 3300977);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(33, 0, 3300980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Crystal Sage - Nightmare - Respawn
-Event(4008041, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100042, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13301850, OFF);
-    SetEventFlag(13302850, ON);
-    SetEventFlag(13300850, OFF);
-    SetEventFlag(9306, OFF);
-    SetEventFlag(6306, OFF);
-    SetPlayerRespawnPoint(3302957);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(33, 0, 3300977);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Crystal Sage - Dream - SpEffect
-Event(4008042, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301850);
-    SetSpeffect(3300850, 260100041);
-    SetSpeffect(3300851, 260100041);
-    SetSpeffect(3300852, 260100041);
-    SetSpeffect(3300853, 260100041);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Crystal Sage - Nightmare - SpEffect
-Event(4008043, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302850);
-    SetSpeffect(3300850, 260100043);
-    SetSpeffect(3300851, 260100043);
-    SetSpeffect(3300852, 260100043);
-    SetSpeffect(3300853, 260100043);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Crystal Sage - Dream - Drop
-Event(4008044, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13300850);
-    AwardItemLot(800200300);
-    SetEventFlag(13301850, OFF);
-    ClearSpeffect(3300850, 260100041);
-    ClearSpeffect(3300851, 260100041);
-    ClearSpeffect(3300852, 260100041);
-    ClearSpeffect(3300853, 260100041);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Crystal Sage - Nightmare - Drop
-Event(4008045, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13300850);
-    AwardItemLot(800200320);
-    SetEventFlag(13302850, OFF);
-    ClearSpeffect(3300850, 260100043);
-    ClearSpeffect(3300851, 260100043);
-    ClearSpeffect(3300852, 260100043);
-    ClearSpeffect(3300853, 260100043);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Deacons of the Deep - Respawn
 Event(4008050, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13503800, ON);
-    SetEventFlag(13503801, OFF);
+    
+    // Flags
     SetEventFlag(13500800, OFF);
     SetEventFlag(9311, OFF);
     SetEventFlag(6311, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3502950);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(35, 0, 3500970);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(35, 0, 3500980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008051, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100052, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13503800, OFF);
-    SetEventFlag(13503801, ON);
-    SetEventFlag(13500800, OFF);
-    SetEventFlag(9311, OFF);
-    SetEventFlag(6311, OFF);
-    SetPlayerRespawnPoint(3502950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(35, 0, 3500970);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008052, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503801);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503800);
-    SetSpeffect(3500800, 260100051);
-    SetSpeffect(3500842, 260100051);
-    SetSpeffect(3500841, 260100051);
-    SetSpeffect(3500840, 260100051);
-    SetSpeffect(3500836, 260100051);
-    SetSpeffect(3500811, 260100051);
-    SetSpeffect(3500837, 260100051);
-    SetSpeffect(3500815, 260100051);
-    SetSpeffect(3500819, 260100051);
-    SetSpeffect(3500813, 260100051);
-    SetSpeffect(3500818, 260100051);
-    SetSpeffect(3500817, 260100051);
-    SetSpeffect(3500839, 260100051);
-    SetSpeffect(3500835, 260100051);
-    SetSpeffect(3500828, 260100051);
-    SetSpeffect(3500848, 260100051);
-    SetSpeffect(3500847, 260100051);
-    SetSpeffect(3500825, 260100051);
-    SetSpeffect(3500826, 260100051);
-    SetSpeffect(3500845, 260100051);
-    SetSpeffect(3500846, 260100051);
-    SetSpeffect(3500827, 260100051);
-    SetSpeffect(3500844, 260100051);
-    SetSpeffect(3500843, 260100051);
-    SetSpeffect(3500814, 260100051);
-    SetSpeffect(3500820, 260100051);
-    SetSpeffect(3500834, 260100051);
-    SetSpeffect(3500812, 260100051);
-    SetSpeffect(3500838, 260100051);
-    SetSpeffect(3500816, 260100051);
-    SetSpeffect(3500810, 260100051);
-    SetSpeffect(3500821, 260100051);
-    SetSpeffect(3500822, 260100051);
-    SetSpeffect(3500823, 260100051);
-    SetSpeffect(3500824, 260100051);
-    SetSpeffect(3500379, 260100051);
-    SetSpeffect(3500322, 260100051);
-    SetSpeffect(3500268, 260100051);
-    SetSpeffect(3500267, 260100051);
-    SetSpeffect(3500266, 260100051);
-    SetSpeffect(3500265, 260100051);
-    SetSpeffect(3500264, 260100051);
-    SetSpeffect(3500377, 260100051);
-    SetSpeffect(3500378, 260100051);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008053, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503801);
-    SetSpeffect(3500800, 260100053);
-    SetSpeffect(3500842, 260100053);
-    SetSpeffect(3500841, 260100053);
-    SetSpeffect(3500840, 260100053);
-    SetSpeffect(3500836, 260100053);
-    SetSpeffect(3500811, 260100053);
-    SetSpeffect(3500837, 260100053);
-    SetSpeffect(3500815, 260100053);
-    SetSpeffect(3500819, 260100053);
-    SetSpeffect(3500813, 260100053);
-    SetSpeffect(3500818, 260100053);
-    SetSpeffect(3500817, 260100053);
-    SetSpeffect(3500839, 260100053);
-    SetSpeffect(3500835, 260100053);
-    SetSpeffect(3500828, 260100053);
-    SetSpeffect(3500848, 260100053);
-    SetSpeffect(3500847, 260100053);
-    SetSpeffect(3500825, 260100053);
-    SetSpeffect(3500826, 260100053);
-    SetSpeffect(3500845, 260100053);
-    SetSpeffect(3500846, 260100053);
-    SetSpeffect(3500827, 260100053);
-    SetSpeffect(3500844, 260100053);
-    SetSpeffect(3500843, 260100053);
-    SetSpeffect(3500814, 260100053);
-    SetSpeffect(3500820, 260100053);
-    SetSpeffect(3500834, 260100053);
-    SetSpeffect(3500812, 260100053);
-    SetSpeffect(3500838, 260100053);
-    SetSpeffect(3500816, 260100053);
-    SetSpeffect(3500810, 260100053);
-    SetSpeffect(3500821, 260100053);
-    SetSpeffect(3500822, 260100053);
-    SetSpeffect(3500823, 260100053);
-    SetSpeffect(3500824, 260100053);
-    SetSpeffect(3500379, 260100053);
-    SetSpeffect(3500322, 260100053);
-    SetSpeffect(3500268, 260100053);
-    SetSpeffect(3500267, 260100053);
-    SetSpeffect(3500266, 260100053);
-    SetSpeffect(3500265, 260100053);
-    SetSpeffect(3500264, 260100053);
-    SetSpeffect(3500377, 260100053);
-    SetSpeffect(3500378, 260100053);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008054, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13500800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503801);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13500800);
-    AwardItemLot(800200400);
-    SetEventFlag(13503800, OFF);
-    ClearSpeffect(3500800, 260100051);
-    ClearSpeffect(3500842, 260100051);
-    ClearSpeffect(3500841, 260100051);
-    ClearSpeffect(3500840, 260100051);
-    ClearSpeffect(3500836, 260100051);
-    ClearSpeffect(3500811, 260100051);
-    ClearSpeffect(3500837, 260100051);
-    ClearSpeffect(3500815, 260100051);
-    ClearSpeffect(3500819, 260100051);
-    ClearSpeffect(3500813, 260100051);
-    ClearSpeffect(3500818, 260100051);
-    ClearSpeffect(3500817, 260100051);
-    ClearSpeffect(3500839, 260100051);
-    ClearSpeffect(3500835, 260100051);
-    ClearSpeffect(3500828, 260100051);
-    ClearSpeffect(3500848, 260100051);
-    ClearSpeffect(3500847, 260100051);
-    ClearSpeffect(3500825, 260100051);
-    ClearSpeffect(3500826, 260100051);
-    ClearSpeffect(3500845, 260100051);
-    ClearSpeffect(3500846, 260100051);
-    ClearSpeffect(3500827, 260100051);
-    ClearSpeffect(3500844, 260100051);
-    ClearSpeffect(3500843, 260100051);
-    ClearSpeffect(3500814, 260100051);
-    ClearSpeffect(3500820, 260100051);
-    ClearSpeffect(3500834, 260100051);
-    ClearSpeffect(3500812, 260100051);
-    ClearSpeffect(3500838, 260100051);
-    ClearSpeffect(3500816, 260100051);
-    ClearSpeffect(3500810, 260100051);
-    ClearSpeffect(3500821, 260100051);
-    ClearSpeffect(3500822, 260100051);
-    ClearSpeffect(3500823, 260100051);
-    ClearSpeffect(3500824, 260100051);
-    ClearSpeffect(3500379, 260100051);
-    ClearSpeffect(3500322, 260100051);
-    ClearSpeffect(3500268, 260100051);
-    ClearSpeffect(3500267, 260100051);
-    ClearSpeffect(3500266, 260100051);
-    ClearSpeffect(3500265, 260100051);
-    ClearSpeffect(3500264, 260100051);
-    ClearSpeffect(3500377, 260100051);
-    ClearSpeffect(3500378, 260100051);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008055, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13500800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13503800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13503801);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13500800);
-    AwardItemLot(800200420);
-    SetEventFlag(13503801, OFF);
-    ClearSpeffect(3500800, 260100053);
-    ClearSpeffect(3500842, 260100053);
-    ClearSpeffect(3500841, 260100053);
-    ClearSpeffect(3500840, 260100053);
-    ClearSpeffect(3500836, 260100053);
-    ClearSpeffect(3500811, 260100053);
-    ClearSpeffect(3500837, 260100053);
-    ClearSpeffect(3500815, 260100053);
-    ClearSpeffect(3500819, 260100053);
-    ClearSpeffect(3500813, 260100053);
-    ClearSpeffect(3500818, 260100053);
-    ClearSpeffect(3500817, 260100053);
-    ClearSpeffect(3500839, 260100053);
-    ClearSpeffect(3500835, 260100053);
-    ClearSpeffect(3500828, 260100053);
-    ClearSpeffect(3500848, 260100053);
-    ClearSpeffect(3500847, 260100053);
-    ClearSpeffect(3500825, 260100053);
-    ClearSpeffect(3500826, 260100053);
-    ClearSpeffect(3500845, 260100053);
-    ClearSpeffect(3500846, 260100053);
-    ClearSpeffect(3500827, 260100053);
-    ClearSpeffect(3500844, 260100053);
-    ClearSpeffect(3500843, 260100053);
-    ClearSpeffect(3500814, 260100053);
-    ClearSpeffect(3500820, 260100053);
-    ClearSpeffect(3500834, 260100053);
-    ClearSpeffect(3500812, 260100053);
-    ClearSpeffect(3500838, 260100053);
-    ClearSpeffect(3500816, 260100053);
-    ClearSpeffect(3500810, 260100053);
-    ClearSpeffect(3500821, 260100053);
-    ClearSpeffect(3500822, 260100053);
-    ClearSpeffect(3500823, 260100053);
-    ClearSpeffect(3500824, 260100053);
-    ClearSpeffect(3500379, 260100053);
-    ClearSpeffect(3500322, 260100053);
-    ClearSpeffect(3500268, 260100053);
-    ClearSpeffect(3500267, 260100053);
-    ClearSpeffect(3500266, 260100053);
-    ClearSpeffect(3500265, 260100053);
-    ClearSpeffect(3500264, 260100053);
-    ClearSpeffect(3500377, 260100053);
-    ClearSpeffect(3500378, 260100053);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Abyss Watchers - Respawn
 Event(4008060, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13301800, ON);
-    SetEventFlag(13302800, OFF);
+    
+    // Flags
     SetEventFlag(13300800, OFF);
     SetEventFlag(9307, OFF);
     SetEventFlag(6307, OFF);
     SetEventFlag(13300421, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3302958);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(33, 0, 3300978);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(33, 0, 3300981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008061, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100062, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13301800, OFF);
-    SetEventFlag(13302800, ON);
-    SetEventFlag(13300800, OFF);
-    SetEventFlag(9307, OFF);
-    SetEventFlag(6307, OFF);
-    SetEventFlag(13300421, OFF);
-    SetPlayerRespawnPoint(3302958);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(33, 0, 3300978);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008062, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301800);
-    SetSpeffect(3300801, 260100061);
-    SetSpeffect(3300802, 260100061);
-    SetSpeffect(3300803, 260100061);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008063, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302800);
-    SetSpeffect(3300801, 260100063);
-    SetSpeffect(3300802, 260100063);
-    SetSpeffect(3300803, 260100063);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008064, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13302800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13301800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13300800);
-    AwardItemLot(800200500);
-    SetEventFlag(13301800, OFF);
-    ClearSpeffect(3300801, 260100061);
-    ClearSpeffect(3300802, 260100061);
-    ClearSpeffect(3300803, 260100061);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008065, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13300800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13301800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13302800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13300800);
-    AwardItemLot(800200520);
-    SetEventFlag(13302800, OFF);
-    ClearSpeffect(3300801, 260100063);
-    ClearSpeffect(3300802, 260100063);
-    ClearSpeffect(3300803, 260100063);
-    EndUnconditionally(EventEndType.End);
-});
-
+// High Lord Wolnir - Respawn
 Event(4008070, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13801800, ON);
-    SetEventFlag(13802800, OFF);
+   
+    // Flags
     SetEventFlag(13800800, OFF);
     SetEventFlag(9315, OFF);
     SetEventFlag(6315, OFF);
     SetEventFlag(13801800, OFF);
     SetEventFlag(63800561, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3802950);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(38, 0, 3800970);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(38, 0, 3800980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008071, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100072, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13801800, OFF);
-    SetEventFlag(13802800, ON);
-    SetEventFlag(13800800, OFF);
-    SetEventFlag(9315, OFF);
-    SetEventFlag(6315, OFF);
-    SetEventFlag(13801800, OFF);
-    SetEventFlag(63800561, OFF);
-    SetPlayerRespawnPoint(3802950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(38, 0, 3800970);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008072, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801800);
-    SetSpeffect(3800800, 260100071);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008073, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802800);
-    SetSpeffect(3800800, 260100073);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008074, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13800800);
-    AwardItemLot(800200600);
-    SetEventFlag(13801800, OFF);
-    ClearSpeffect(3800800, 260100071);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008075, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13800800);
-    AwardItemLot(800200620);
-    SetEventFlag(13802800, OFF);
-    ClearSpeffect(3800800, 260100073);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Old Demon King - Respawn
 Event(4008080, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13801830, ON);
-    SetEventFlag(13802830, OFF);
+    
+    // Flags
     SetEventFlag(13800830, OFF);
     SetEventFlag(9317, OFF);
     SetEventFlag(6317, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3802952);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(38, 0, 3800972);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(38, 0, 3800981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008081, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100082, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13801830, OFF);
-    SetEventFlag(13802830, ON);
-    SetEventFlag(13800830, OFF);
-    SetEventFlag(9317, OFF);
-    SetEventFlag(6317, OFF);
-    SetPlayerRespawnPoint(3802952);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(38, 0, 3800972);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008082, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801830);
-    SetSpeffect(3800830, 260100081);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008083, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802830);
-    SetSpeffect(3800830, 260100083);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008084, Default, function() {
-    SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13802830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13801830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13800830);
-    AwardItemLot(800200700);
-    SetEventFlag(13801830, OFF);
-    ClearSpeffect(3800830, 260100081);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008085, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13800830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13801830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13802830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13800830);
-    AwardItemLot(800200720);
-    SetEventFlag(13802830, OFF);
-    ClearSpeffect(3800830, 260100083);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Pontiff Sulyvahn - Respawn
 Event(4008090, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13701850, ON);
-    SetEventFlag(13702850, OFF);
+   
+    // Flags
     SetEventFlag(13700850, OFF);
     SetEventFlag(9313, OFF);
     SetEventFlag(6313, OFF);
+    SetEventFlag(13700420, OFF); // Lift
+    SetEventFlag(13700421, OFF); // Lift
+    SetEventFlag(13700422, OFF); // Lift
     
-    // Lift
-    SetEventFlag(13700420, OFF);
-    SetEventFlag(13700421, OFF);
-    SetEventFlag(13700422, OFF);
-    
+    // Warp Player
     SetPlayerRespawnPoint(3702950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(37, 0, 3700970);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008091, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100092, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13701850, OFF);
-    SetEventFlag(13702850, ON);
-    SetEventFlag(13700850, OFF);
-    SetEventFlag(9313, OFF);
-    SetEventFlag(6313, OFF);
-
-    // Lift
-    SetEventFlag(13700420, OFF);
-    SetEventFlag(13700421, OFF);
-    SetEventFlag(13700422, OFF);
     
-    SetPlayerRespawnPoint(3702950);
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(37, 0, 3700970);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(37, 0, 3700980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008092, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701850);
-    SetSpeffect(3700850, 260100091);
-    SetSpeffect(3700851, 260100091);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008093, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702850);
-    SetSpeffect(3700850, 260100093);
-    SetSpeffect(3700851, 260100093);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008094, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13700850);
-    AwardItemLot(800200800);
-    SetEventFlag(13701850, OFF);
-    ClearSpeffect(3700850, 260100091);
-    ClearSpeffect(3700851, 260100091);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008095, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13700850);
-    AwardItemLot(800200820);
-    SetEventFlag(13702850, OFF);
-    ClearSpeffect(3700850, 260100093);
-    ClearSpeffect(3700851, 260100093);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Aldrich - Respawn
 Event(4008100, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13701800, ON);
-    SetEventFlag(13702800, OFF);
+    
+    // Flags
     SetEventFlag(13700800, OFF);
     SetEventFlag(9314, OFF);
     SetEventFlag(6314, OFF);
     SetEventFlag(13700002, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3702953);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(37, 0, 3700973);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(37, 0, 3700981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008101, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100102, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13701800, OFF);
-    SetEventFlag(13702800, ON);
-    SetEventFlag(13700800, OFF);
-    SetEventFlag(9314, OFF);
-    SetEventFlag(6314, OFF);
-    SetEventFlag(13700002, OFF);
-    SetPlayerRespawnPoint(3702953);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(37, 0, 3700973);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008102, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701800);
-    SetSpeffect(3700800, 260100101);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008103, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702800);
-    SetSpeffect(3700800, 260100103);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008104, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13702800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13701800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13700800);
-    AwardItemLot(800200900);
-    SetEventFlag(13701800, OFF);
-    ClearSpeffect(3700800, 260100101);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008105, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13700800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13701800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13702800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13700800);
-    AwardItemLot(800200920);
-    SetEventFlag(13702800, OFF);
-    ClearSpeffect(3700800, 260100103);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Yhorm the Giant - Respawn
 Event(4008110, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13901800, ON);
-    SetEventFlag(13902800, OFF);
+    
+    // Flags
     SetEventFlag(13900800, OFF);
     SetEventFlag(9318, OFF);
     SetEventFlag(6318, OFF);
     SetEventFlag(13900001, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3902952);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(39, 0, 3900972);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(39, 0, 3900980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008111, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100112, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13901800, OFF);
-    SetEventFlag(13902800, ON);
-    SetEventFlag(13900800, OFF);
-    SetEventFlag(9318, OFF);
-    SetEventFlag(6318, OFF);
-    SetEventFlag(13900001, OFF);
-    SetPlayerRespawnPoint(3902952);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(39, 0, 3900972);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008112, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13902800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13901800);
-    SetSpeffect(3900800, 260100111);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008113, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13901800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13902800);
-    SetSpeffect(3900800, 260100113);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008114, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13900800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13902800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13901800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13900800);
-    AwardItemLot(800201000);
-    SetEventFlag(13901800, OFF);
-    ClearSpeffect(3900800, 260100111);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008115, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13900800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13901800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13902800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13900800);
-    AwardItemLot(800201020);
-    SetEventFlag(13902800, OFF);
-    ClearSpeffect(3900800, 260100113);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Dream - Dancer
+// Dancer - Respawn
 Event(4008120, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13003890, ON);
-    SetEventFlag(13003891, OFF);
+    
+    // Flags
     SetEventFlag(13000890, OFF);
     SetEventFlag(9300, OFF);
     SetEventFlag(6300, OFF);
     SetEventFlag(13000885, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3002955);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000975);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Nightmare - Dancer
-Event(4008121, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100122, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13003890, OFF);
-    SetEventFlag(13003891, ON);
-    SetEventFlag(13000890, OFF);
-    SetEventFlag(9300, OFF);
-    SetEventFlag(6300, OFF);
-    SetEventFlag(13000885, OFF);
-    SetPlayerRespawnPoint(3002955);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000975);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008122, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003891);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003890);
-    SetSpeffect(3000899, 260100121);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008123, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003890);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003891);
-    SetSpeffect(3000899, 260100123);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008124, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000890);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003891);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003890);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000890);
-    AwardItemLot(800201100);
-    SetEventFlag(13003890, OFF);
-    ClearSpeffect(3000899, 260100121);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008125, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000890);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13003890);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13003891);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000890);
-    AwardItemLot(800201120);
-    SetEventFlag(13003891, OFF);
-    ClearSpeffect(3000899, 260100123);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Dream - Oceiros
+// Oceiros - Respawn
 Event(4008130, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13000831, ON);
-    SetEventFlag(13000832, OFF);
+    
+    // Flags
     SetEventFlag(13000830, OFF);
     SetEventFlag(9302, OFF);
     SetEventFlag(6302, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3002951);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000971);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000983);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Nightmare - Oceiros
-Event(4008131, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100132, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13000831, OFF);
-    SetEventFlag(13000832, ON);
-    SetEventFlag(13000830, OFF);
-    SetEventFlag(9302, OFF);
-    SetEventFlag(6302, OFF);
-    SetPlayerRespawnPoint(3002951);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 0, 3000971);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008132, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000832);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000831);
-    SetSpeffect(3000830, 260100131);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008133, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000831);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000832);
-    SetSpeffect(3000830, 260100133);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008134, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000832);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000831);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000830);
-    AwardItemLot(800201200);
-    SetEventFlag(13000831, OFF);
-    ClearSpeffect(3000830, 260100131);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008135, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13000831);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000832);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13000830);
-    AwardItemLot(800201220);
-    SetEventFlag(13000832, OFF);
-    ClearSpeffect(3000830, 260100133);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Dragonslayer Armour - Respawn
 Event(4008140, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13011800, ON);
-    SetEventFlag(13012800, OFF);
+    
+    // Flags
     SetEventFlag(13010800, OFF);
     SetEventFlag(9308, OFF);
     SetEventFlag(6308, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3012952);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 1, 3010972);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 1, 3010980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008141, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100142, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13011800, OFF);
-    SetEventFlag(13012800, ON);
-    SetEventFlag(13010800, OFF);
-    SetEventFlag(9308, OFF);
-    SetEventFlag(6308, OFF);
-    SetPlayerRespawnPoint(3012952);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(30, 1, 3010972);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008142, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13012800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13011800);
-    SetSpeffect(3010800, 260100141);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008143, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13011800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13012800);
-    SetSpeffect(3010800, 260100143);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008144, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13010800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13012800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13011800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13010800);
-    AwardItemLot(800201300);
-    SetEventFlag(13011800, OFF);
-    ClearSpeffect(3010800, 260100141);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008145, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13010800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13011800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13012800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13010800);
-    AwardItemLot(800201320);
-    SetEventFlag(13012800, OFF);
-    ClearSpeffect(3010800, 260100143);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Ancient Wyvern - Respawn
 Event(4008150, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13201800, ON);
-    SetEventFlag(13202800, OFF);
+    
+    // Flags
     SetEventFlag(13200800, OFF);
     SetEventFlag(9305, OFF);
     SetEventFlag(6305, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3202950);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(32, 0, 3200970);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(32, 0, 3200980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008151, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100152, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13201800, OFF);
-    SetEventFlag(13202800, ON);
-    SetEventFlag(13200800, OFF);
-    SetEventFlag(9305, OFF);
-    SetEventFlag(6305, OFF);
-    SetPlayerRespawnPoint(3202950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(32, 0, 3200970);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008152, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201800);
-    SetSpeffect(3200800, 260100151);
-    SetSpeffect(3200220, 260100151);
-    SetSpeffect(3200222, 260100151);
-    SetSpeffect(3200221, 260100151);
-    SetSpeffect(3200224, 260100151);
-    SetSpeffect(3200226, 260100151);
-    SetSpeffect(3200225, 260100151);
-    SetSpeffect(3200223, 260100151);
-    SetSpeffect(3200227, 260100151);
-    SetSpeffect(3200228, 260100151);
-    SetSpeffect(3200230, 260100151);
-    SetSpeffect(3200229, 260100151);
-    SetSpeffect(3200233, 260100151);
-    SetSpeffect(3200231, 260100151);
-    SetSpeffect(3200232, 260100151);
-    SetSpeffect(3200421, 260100151);
-    SetSpeffect(3200514, 260100151);
-    SetSpeffect(3200515, 260100151);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008153, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202800);
-    SetSpeffect(3200800, 260100153);
-    SetSpeffect(3200220, 260100153);
-    SetSpeffect(3200222, 260100153);
-    SetSpeffect(3200221, 260100153);
-    SetSpeffect(3200224, 260100153);
-    SetSpeffect(3200226, 260100153);
-    SetSpeffect(3200225, 260100153);
-    SetSpeffect(3200223, 260100153);
-    SetSpeffect(3200227, 260100153);
-    SetSpeffect(3200228, 260100153);
-    SetSpeffect(3200230, 260100153);
-    SetSpeffect(3200229, 260100153);
-    SetSpeffect(3200233, 260100153);
-    SetSpeffect(3200231, 260100153);
-    SetSpeffect(3200232, 260100153);
-    SetSpeffect(3200421, 260100153);
-    SetSpeffect(3200514, 260100153);
-    SetSpeffect(3200515, 260100153);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008154, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13200800);
-    AwardItemLot(800201400);
-    SetEventFlag(13201800, OFF);
-    ClearSpeffect(3200800, 260100151);
-    ClearSpeffect(3200220, 260100151);
-    ClearSpeffect(3200222, 260100151);
-    ClearSpeffect(3200221, 260100151);
-    ClearSpeffect(3200224, 260100151);
-    ClearSpeffect(3200226, 260100151);
-    ClearSpeffect(3200225, 260100151);
-    ClearSpeffect(3200223, 260100151);
-    ClearSpeffect(3200227, 260100151);
-    ClearSpeffect(3200228, 260100151);
-    ClearSpeffect(3200230, 260100151);
-    ClearSpeffect(3200229, 260100151);
-    ClearSpeffect(3200233, 260100151);
-    ClearSpeffect(3200231, 260100151);
-    ClearSpeffect(3200232, 260100151);
-    ClearSpeffect(3200421, 260100151);
-    ClearSpeffect(3200514, 260100151);
-    ClearSpeffect(3200515, 260100151);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008155, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13200800);
-    AwardItemLot(800201420);
-    SetEventFlag(13202800, OFF);
-    ClearSpeffect(3200800, 260100153);
-    ClearSpeffect(3200220, 260100153);
-    ClearSpeffect(3200222, 260100153);
-    ClearSpeffect(3200221, 260100153);
-    ClearSpeffect(3200224, 260100153);
-    ClearSpeffect(3200226, 260100153);
-    ClearSpeffect(3200225, 260100153);
-    ClearSpeffect(3200223, 260100153);
-    ClearSpeffect(3200227, 260100153);
-    ClearSpeffect(3200228, 260100153);
-    ClearSpeffect(3200230, 260100153);
-    ClearSpeffect(3200229, 260100153);
-    ClearSpeffect(3200233, 260100153);
-    ClearSpeffect(3200231, 260100153);
-    ClearSpeffect(3200232, 260100153);
-    ClearSpeffect(3200421, 260100153);
-    ClearSpeffect(3200514, 260100153);
-    ClearSpeffect(3200515, 260100153);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Nameless King - Respawn
 Event(4008160, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13201850, ON);
-    SetEventFlag(13202850, OFF);
+    
+    // Flags
     SetEventFlag(13200850, OFF);
     SetEventFlag(9304, OFF);
     SetEventFlag(6304, OFF);
@@ -4525,667 +3321,206 @@ Event(4008160, Default, function() {
     SetEventFlag(13200855, OFF);
     SetEventFlag(13200856, OFF);
     SetEventFlag(13200862, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3202952);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(32, 0, 3200972);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(32, 0, 3200981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008161, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100162, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13201850, OFF);
-    SetEventFlag(13202850, ON);
-    SetEventFlag(13200850, OFF);
-    SetEventFlag(9304, OFF);
-    SetEventFlag(6304, OFF);
-    SetEventFlag(13200440, OFF);
-    SetEventFlag(13200445, OFF);
-    SetEventFlag(13200855, OFF);
-    SetEventFlag(13200856, OFF);
-    SetEventFlag(13200862, OFF);
-    SetPlayerRespawnPoint(3202952);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(32, 0, 3200972);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008162, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201850);
-    SetSpeffect(3200850, 260100161);
-    SetSpeffect(3200851, 260100161);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008163, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202850);
-    SetSpeffect(3200850, 260100163);
-    SetSpeffect(3200851, 260100163);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008164, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13202850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13201850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13200850);
-    AwardItemLot(800201500);
-    SetEventFlag(13201850, OFF);
-    ClearSpeffect(3200850, 260100161);
-    ClearSpeffect(3200851, 260100161);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008165, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13200850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13201850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13202850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13200850);
-    AwardItemLot(800201520);
-    SetEventFlag(13202850, OFF);
-    ClearSpeffect(3200850, 260100163);
-    ClearSpeffect(3200851, 260100163);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Champion Gundyr - Respawn
 Event(4008170, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14001830, ON);
-    SetEventFlag(14002830, OFF);
+    
+    // Flags
     SetEventFlag(14000830, OFF);
     SetEventFlag(9320, OFF);
     SetEventFlag(6320, OFF);
     SetEventFlag(14000004, OFF);
     SetEventFlag(64000260, OFF);
     SetEventFlag(64000261, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(4002953);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
     SetMapCeremony(40, 0, 10);
-    WarpPlayer(40, 0, 4000973);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008171, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100172, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14001830, OFF);
-    SetEventFlag(14002830, ON);
-    SetEventFlag(14000830, OFF);
-    SetEventFlag(9320, OFF);
-    SetEventFlag(6320, OFF);
-    SetEventFlag(14000004, OFF);
-    SetEventFlag(64000260, OFF);
-    SetEventFlag(64000261, OFF);
-    SetPlayerRespawnPoint(4002953);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    SetMapCeremony(40, 0, 10);
-    WarpPlayer(40, 0, 4000973);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(40, 0, 4000981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008172, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001830);
-    SetSpeffect(4000830, 260100171);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008173, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002830);
-    SetSpeffect(4000830, 260100173);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008174, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14002830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14001830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14000830);
-    AwardItemLot(800201600);
-    SetEventFlag(14001830, OFF);
-    ClearSpeffect(4000830, 260100171);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008175, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14000830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14001830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14002830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14000830);
-    AwardItemLot(800201620);
-    SetEventFlag(14002830, OFF);
-    ClearSpeffect(4000830, 260100173);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Twin Princes - Respawn
 Event(4008180, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13411830, ON);
-    SetEventFlag(13412830, OFF);
+    
+    // Flags
     SetEventFlag(13410830, OFF);
     SetEventFlag(9309, OFF);
     SetEventFlag(6309, OFF);
     SetEventFlag(13410000, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(3412951);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(34, 1, 3410971);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(34, 1, 3410980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008181, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100182, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(13411830, OFF);
-    SetEventFlag(13412830, ON);
-    SetEventFlag(13410830, OFF);
-    SetEventFlag(9309, OFF);
-    SetEventFlag(6309, OFF);
-    SetEventFlag(13410000, OFF);
-    SetPlayerRespawnPoint(3412951);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(34, 1, 3410971);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008182, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13412830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13411830);
-    SetSpeffect(3410830, 260100181);
-    SetSpeffect(3410831, 260100181);
-    SetSpeffect(3410832, 260100181);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008183, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13411830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13412830);
-    SetSpeffect(3410830, 260100183);
-    SetSpeffect(3410831, 260100183);
-    SetSpeffect(3410832, 260100183);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008184, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13410830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13412830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13411830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13410830);
-    AwardItemLot(800201700);
-    SetEventFlag(13411830, OFF);
-    ClearSpeffect(3410830, 260100181);
-    ClearSpeffect(3410831, 260100181);
-    ClearSpeffect(3410832, 260100181);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008185, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13410830);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 13411830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13412830);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 13410830);
-    AwardItemLot(800201720);
-    SetEventFlag(13412830, OFF);
-    ClearSpeffect(3410830, 260100183);
-    ClearSpeffect(3410831, 260100183);
-    ClearSpeffect(3410832, 260100183);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Soul of Cinder - Respawn
 Event(4008190, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14101800, ON);
-    SetEventFlag(14102800, OFF);
+    
+    // Flags
     SetEventFlag(14100800, OFF);
     SetEventFlag(14101100, OFF);
     SetEventFlag(9321, OFF);
     SetEventFlag(6321, OFF);
     SetEventFlag(14100002, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(4102951);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(41, 0, 4100971);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(41, 0, 4100980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008191, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100192, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14101800, OFF);
-    SetEventFlag(14102800, ON);
-    SetEventFlag(14100800, OFF);
-    SetEventFlag(14101100, OFF);
-    SetEventFlag(9321, OFF);
-    SetEventFlag(6321, OFF);
-    SetEventFlag(14100002, OFF);
-    SetPlayerRespawnPoint(4102951);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(41, 0, 4100971);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008192, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14101800);
-    SetSpeffect(4100800, 260100191);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008193, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14102800);
-    SetSpeffect(4100800, 260100193);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008194, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14100800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14100800);
-    AwardItemLot(800201800);
-    SetEventFlag(14101800, OFF);
-    ClearSpeffect(4100800, 260100191);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008195, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14100800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14101800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14102800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14100800);
-    AwardItemLot(800201820);
-    SetEventFlag(14102800, OFF);
-    ClearSpeffect(4100800, 260100193);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Sister Friede - Respawn
 Event(4008200, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14501800, ON);
-    SetEventFlag(14502800, OFF);
+    
+    // Flags
     SetEventFlag(14500800, OFF);
     SetEventFlag(9322, OFF);
     SetEventFlag(6322, OFF);
     SetEventFlag(14500000, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(4502955);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(45, 0, 4500975);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(45, 0, 4500980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008201, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100202, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14501800, OFF);
-    SetEventFlag(14502800, ON);
-    SetEventFlag(14500800, OFF);
-    SetEventFlag(9322, OFF);
-    SetEventFlag(6322, OFF);
-    SetEventFlag(14500000, OFF);
-    SetPlayerRespawnPoint(4502955);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(45, 0, 4500975);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008202, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501800);
-    SetSpeffect(4500800, 260100201);
-    SetSpeffect(4500801, 260100201);
-    SetSpeffect(4500802, 260100201);
-    SetSpeffect(4500803, 260100201);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008203, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502800);
-    SetSpeffect(4500800, 260100203);
-    SetSpeffect(4500801, 260100203);
-    SetSpeffect(4500802, 260100203);
-    SetSpeffect(4500803, 260100203);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008204, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14500800);
-    AwardItemLot(800201900);
-    SetEventFlag(14501800, OFF);
-    ClearSpeffect(4500800, 260100201);
-    ClearSpeffect(4500801, 260100201);
-    ClearSpeffect(4500802, 260100201);
-    ClearSpeffect(4500803, 260100201);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008205, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14500800);
-    AwardItemLot(800201920);
-    SetEventFlag(14502800, OFF);
-    ClearSpeffect(4500800, 260100203);
-    ClearSpeffect(4500801, 260100203);
-    ClearSpeffect(4500802, 260100203);
-    ClearSpeffect(4500803, 260100203);
-    EndUnconditionally(EventEndType.End);
-});
-
-// The Triad
+// Lordran Remnants - Respawn
 Event(4008210, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14501870, ON);
-    SetEventFlag(14502870, OFF);
+    
+    // Flags
     SetEventFlag(14500860, OFF);
     SetEventFlag(14500861, OFF);
     SetEventFlag(14500862, OFF);
     SetEventFlag(9323, OFF);
     SetEventFlag(6323, OFF);
     SetEventFlag(14500006, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(4502957);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(45, 0, 4500977);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(45, 0, 4500981);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008211, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100212, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(14501870, OFF);
-    SetEventFlag(14502870, ON);
-    SetEventFlag(14500860, OFF);
-    SetEventFlag(14500861, OFF);
-    SetEventFlag(14500862, OFF);
-    SetEventFlag(9323, OFF);
-    SetEventFlag(6323, OFF);
-    SetEventFlag(14500006, OFF);
-    SetPlayerRespawnPoint(4502957);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(45, 0, 4500977);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008212, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501870);
-    SetSpeffect(4500860, 260100211);
-    SetSpeffect(4500861, 260100211);
-    SetSpeffect(4500862, 260100211);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008213, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502870);
-    SetSpeffect(4500860, 260100213);
-    SetSpeffect(4500861, 260100213);
-    SetSpeffect(4500862, 260100213);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008214, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500860);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14502870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14501870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14500860);
-    AwardItemLot(800202000);
-    SetEventFlag(14501870, OFF);
-    ClearSpeffect(4500860, 260100211);
-    ClearSpeffect(4500861, 260100211);
-    ClearSpeffect(4500862, 260100211);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008215, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500860);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14501870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14502870);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 14500860);
-    AwardItemLot(800202020);
-    SetEventFlag(14502870, OFF);
-    ClearSpeffect(4500860, 260100213);
-    ClearSpeffect(4500861, 260100213);
-    ClearSpeffect(4500862, 260100213);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Sister Friede
+// Demon Prince - Respawn
 Event(4008220, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15001800, ON);
-    SetEventFlag(15002800, OFF);
+    
+    // Flags
     SetEventFlag(15000800, OFF);
     SetEventFlag(9324, OFF);
     SetEventFlag(6324, OFF);
     SetEventFlag(15000000, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(5002953);
+  
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(50, 0, 5000973);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(50, 0, 5000980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008221, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100222, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15001800, OFF);
-    SetEventFlag(15002800, ON);
-    SetEventFlag(15000800, OFF);
-    SetEventFlag(9324, OFF);
-    SetEventFlag(6324, OFF);
-    SetEventFlag(15000000, OFF);
-    SetPlayerRespawnPoint(5002953);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(50, 0, 5000973);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008222, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15001800);
-    SetSpeffect(5000800, 260100221);
-    SetSpeffect(5000801, 260100221);
-    SetSpeffect(5000802, 260100221);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008223, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15002800);
-    SetSpeffect(5000800, 260100223);
-    SetSpeffect(5000801, 260100223);
-    SetSpeffect(5000802, 260100223);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008224, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15000800);
-    AwardItemLot(800202100);
-    SetEventFlag(15001800, OFF);
-    ClearSpeffect(5000800, 260100221);
-    ClearSpeffect(5000801, 260100221);
-    ClearSpeffect(5000802, 260100221);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008225, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15000800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15001800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15002800);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15000800);
-    AwardItemLot(800202120);
-    SetEventFlag(15002800, OFF);
-    ClearSpeffect(5000800, 260100223);
-    ClearSpeffect(5000801, 260100223);
-    ClearSpeffect(5000802, 260100223);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Darkeater Midir - Respawn
 Event(4008230, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15101850, ON);
-    SetEventFlag(15102850, OFF);
+    
+    // Flags
     SetEventFlag(15100850, OFF);
     SetEventFlag(6326, OFF);
     SetEventFlag(9326, OFF);
     SetEventFlag(15100001, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(5102953);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(51, 0, 5100973);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 0, 5100980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008231, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100232, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15101850, OFF);
-    SetEventFlag(15102850, ON);
-    SetEventFlag(15100850, OFF);
-    SetEventFlag(6326, OFF);
-    SetEventFlag(9326, OFF);
-    SetEventFlag(15100001, OFF);
-    SetPlayerRespawnPoint(5102953);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(51, 0, 5100973);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008232, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15102850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15101850);
-    SetSpeffect(5100850, 260100231);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008233, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15101850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15102850);
-    SetSpeffect(5100850, 260100233);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008234, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15100850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15102850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15101850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15100850);
-    AwardItemLot(800202200);
-    SetEventFlag(15101850, OFF);
-    ClearSpeffect(5100850, 260100231);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008235, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15100850);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15101850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15102850);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15100850);
-    AwardItemLot(800202220);
-    SetEventFlag(15102850, OFF);
-    ClearSpeffect(5100850, 260100233);
-    EndUnconditionally(EventEndType.End);
-});
-
+// Slave Knight Gael - Respawn
 Event(4008240, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15111810, ON);
-    SetEventFlag(15112810, OFF);
+
+    // Flags
     SetEventFlag(15110800, OFF);
     SetEventFlag(6327, OFF);
     SetEventFlag(9327, OFF);
     SetEventFlag(15110000, OFF);
+    
+    // Warp Player
     SetPlayerRespawnPoint(5112951);
+    
+    WaitFixedTimeFrames(1);
     SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(51, 1, 5110971);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 1, 5110980);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-Event(4008241, Default, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100242, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetEventFlag(15111810, OFF);
-    SetEventFlag(15112810, ON);
-    SetEventFlag(15110800, OFF);
-    SetEventFlag(6327, OFF);
-    SetEventFlag(9327, OFF);
-    SetEventFlag(15110000, OFF);
-    SetPlayerRespawnPoint(5112951);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    WarpPlayer(51, 1, 5110971);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008242, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15112810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15111810);
-    SetSpeffect(5110800, 260100101);
-    SetSpeffect(5110801, 260100101);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008243, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15111810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15112810);
-    SetSpeffect(5110800, 260100103);
-    SetSpeffect(5110801, 260100103);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008244, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15110800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15112810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15111810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15110800);
-    AwardItemLot(800202300);
-    SetEventFlag(15111810, OFF);
-    ClearSpeffect(3700800, 260100101);
-    ClearSpeffect(3700801, 260100101);
-    EndUnconditionally(EventEndType.End);
-});
-
-Event(4008245, Default, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15110800);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 15111810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15112810);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, 15110800);
-    AwardItemLot(800202320);
-    SetEventFlag(15112810, OFF);
-    ClearSpeffect(3700800, 260100103);
-    ClearSpeffect(3700801, 260100103);
-    EndUnconditionally(EventEndType.End);
-});

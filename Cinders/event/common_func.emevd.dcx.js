@@ -4799,34 +4799,7 @@ Event(20009300, Default, function() {
     
     SetEventFlag(74000171, 1) // Transposition Enabled
     
-    // Deathless Boss Kill Flags
-    SetEventFlag(25000020, OFF); // Corrupted Gundyr
-    SetEventFlag(25000021, OFF); // Vordt of the Boreal Valley
-    SetEventFlag(25000022, OFF); // Curse-rotted Greatwood
-    SetEventFlag(25000023, OFF); // Crystal Sage
-    SetEventFlag(25000024, OFF); // Deacons of the Deep
-    SetEventFlag(25000025, OFF); // Abyss Watchers
-    SetEventFlag(25000026, OFF); // High Lord Wolnir
-    SetEventFlag(25000027, OFF); // Old Demon King
-    SetEventFlag(25000028, OFF); // Pontiff Sulyvahn
-    SetEventFlag(25000029, OFF); // Aldrich, Devourer of Gods
-    SetEventFlag(25000030, OFF); // Yhorm the Giant
-    SetEventFlag(25000031, OFF); // Dancer of the Boreal Valley
-    SetEventFlag(25000032, OFF); // Oceiros, the Consumed King
-    SetEventFlag(25000033, OFF); // Dragonslayer Armour
-    SetEventFlag(25000034, OFF); // Ancient Wyvern
-    SetEventFlag(25000035, OFF); // Nameless King
-    SetEventFlag(25000036, OFF); // Champion Gundyr
-    SetEventFlag(25000037, OFF); // Twin Princes
-    SetEventFlag(25000038, OFF); // Soul of Cinder
-    SetEventFlag(25000039, OFF); // Sister Friede
-    SetEventFlag(25000040, OFF); // The Triad
-    SetEventFlag(25000041, OFF); // Demon Prince
-    SetEventFlag(25000042, OFF); // Darkeater Midir 
-    SetEventFlag(25000043, OFF); // Slave Knight Gael
-    SetEventFlag(25000044, OFF); // Halflight
-
-    // Shop Flags
+    // Boss Kill Flags
     SetEventFlag(25001001, OFF); // Corrupted Gundyr
     SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
     SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
@@ -4847,7 +4820,7 @@ Event(20009300, Default, function() {
     SetEventFlag(25001018, OFF); // Twin Princes
     SetEventFlag(25001019, OFF); // Soul of Cinder
     SetEventFlag(25001020, OFF); // Sister Friede
-    SetEventFlag(25001021, OFF); // The Triad
+    SetEventFlag(25001021, OFF); // Lordran Remnants
     SetEventFlag(25001022, OFF); // Demon Prince
     SetEventFlag(25001023, OFF); // Darkeater Midir 
     SetEventFlag(25001024, OFF); // Slave Knight Gael
@@ -4856,304 +4829,1210 @@ Event(20009300, Default, function() {
     SetEventFlag(25000099, ON); // Execution flag
 });
 
+//--------------------------------------------------------------
+// Boss Kill
+//--------------------------------------------------------------
 // Corrupted Gundyr
 Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001001, ON);
+    SetEventFlag(25001001, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210000);
+    AwardItemLot(800200010);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000020, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200110);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200110);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200210);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200110);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200310);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200110);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200210);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200210);
 });
 
 // Vordt of the Boreal Valley
 Event(20020001, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001002, ON);
+    SetEventFlag(25001002, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210010);
+    AwardItemLot(800200000);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000021, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200100);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200100);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200200);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200100);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200300);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200100);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200200);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200200);
 });
 
 // Curse-rotted Greatwood
 Event(20020002, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001003, ON);
+    SetEventFlag(25001003, ON);// Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210020);
+    AwardItemLot(800200000);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000022, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200100);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200100);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200200);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200100);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200300);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200100);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200200);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200200);
 });
 
 // Crystal Sage
 Event(20020003, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001004, ON);
+    SetEventFlag(25001004, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210030);
+    AwardItemLot(800200010);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000023, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200110);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200110);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200210);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200110);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200310);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200110);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200210);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200210);
 });
 
 // Deacons of the Deep
 Event(20020004, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001005, ON);
+    SetEventFlag(25001005, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210040);
+    AwardItemLot(800200010);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000024, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200110);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200110);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200210);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200110);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200310);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200110);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200210);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200210);
 });
 
 // Abyss Watchers
 Event(20020005, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001006, ON);
+    SetEventFlag(25001006, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210050);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000025, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // High Lord Wolnir
 Event(20020006, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001007, ON);
+    SetEventFlag(25001007, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210060);
+    AwardItemLot(800200000);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000026, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200100);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200100);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200200);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200100);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200300);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200100);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200200);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200200);
 });
 
 // Old Demon King
 Event(20020007, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001008, ON);
+    SetEventFlag(25001008, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210070);
+    AwardItemLot(800200010);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000027, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200110);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200110);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200210);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200110);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200310);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200110);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200210);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200210);
 });
 
 // Pontiff Sulyvahn
 Event(20020008, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001009, ON);
+    SetEventFlag(25001009, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210080);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000028, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // Aldrich, Devourer of Gods
 Event(20020009, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001010, ON);
+    SetEventFlag(25001010, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210090);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000029, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Yhorm the Giant
 Event(20020010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001011, ON);
+    SetEventFlag(25001011, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210100);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000030, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Dancer of the Boreal Valley
 Event(20020011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001012, ON);
+    SetEventFlag(25001012, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210110);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000031, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // Oceiros, the Consumed King
 Event(20020012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001013, ON);
+    SetEventFlag(25001013, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210120);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000032, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // Dragonslayer Armour
 Event(20020013, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001014, ON);
+    SetEventFlag(25001014, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210130);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000033, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // Ancient Wyvern
 Event(20020014, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001015, ON);
+    SetEventFlag(25001015, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210140);
+    AwardItemLot(800200000);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000034, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200100);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200100);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200200);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200100);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200300);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200100);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200200);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200200);
 });
 
 // Nameless King
 Event(20020015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001016, ON);
+    SetEventFlag(25001016, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210150);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000035, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Champion Gundyr
 Event(20020016, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001017, ON);
+    SetEventFlag(25001017, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210160);
+    AwardItemLot(800200020);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000036, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200120);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200120);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200220);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200120);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200320);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200120);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200220);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200220);
 });
 
 // Twin Princes
 Event(20020017, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001018, ON);
+    SetEventFlag(25001018, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210170);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000037, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Soul of Cinder
 Event(20020018, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001019, ON);
+    SetEventFlag(25001019, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210180);
+    AwardItemLot(800200040);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000038, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200140);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200140);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200240);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200140);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200340);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200140);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200240);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200240);
 });
 
 // Sister Friede
 Event(20020019, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001020, ON);
+    SetEventFlag(25001020, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210190);
+    AwardItemLot(800200040);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000039, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200140);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200140);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200240);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200140);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200340);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200140);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200240);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200240);
 });
 
-// The Triad
+// Lordran Remnants
 Event(20020020, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001021, ON);
+    SetEventFlag(25001021, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210200);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000040, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Demon Prince
 Event(20020021, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001022, ON);
+    SetEventFlag(25001022, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210210);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000041, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
 });
 
 // Darkeater Midir 
 Event(20020022, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001023, ON);
+    SetEventFlag(25001023, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210220);
+    AwardItemLot(800200040);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000042, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200140);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200140);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200240);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200140);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200340);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200140);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200240);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200240);
 });
 
 // Slave Knight Gael
 Event(20020023, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001024, ON);
+    SetEventFlag(25001024, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210230);
+    AwardItemLot(800200040);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000043, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200140);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200140);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200240);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200140);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200340);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200140);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200240);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200240);
 });
 
 // Halflight
 Event(20020024, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    SetEventFlag(25001025, ON);
+    SetEventFlag(25001025, ON); // Boss Killed
     
+    // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800210240);
+    AwardItemLot(800200030);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25000010);
-    SetEventFlag(25000044, ON);
+    // Curse of Obscurity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
+    AwardItemLot(800200130);
+    
+    // Curse of Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
+    AwardItemLot(800200130);
+    
+    // Curse of Wrath
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
+    AwardItemLot(800200230);
+    
+    // Curse of Pride
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
+    AwardItemLot(800200130);
+    
+    // Curse of Attraction
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
+    AwardItemLot(800200330);
+    
+    // Curse of Fortitude
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
+    AwardItemLot(800200130);
+    
+    // Curse of Gluttony
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
+    AwardItemLot(800200230);
+    
+    // Curse of Frailty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
+    AwardItemLot(800200230);
+});
+
+//--------------------------------------------------------------
+// Boss Start
+//--------------------------------------------------------------
+// Corrupted Gundyr - Boss Start
+Event(20020100, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Vordt of the Boreal Valley - Boss Start
+Event(20020101, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Curse-rotted Greatwood - Boss Start
+Event(20020102, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Crystal Sage - Boss Start
+Event(20020103, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Deacons of the Deep - Boss Start
+Event(20020104, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Abyss Watchers - Boss Start
+Event(20020105, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// High Lord Wolnir - Boss Start
+Event(20020106, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Old Demon King - Boss Start
+Event(20020107, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Pontiff Sulyvahn - Boss Start
+Event(20020108, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Aldrich, Devourer of Gods - Boss Start
+Event(20020109, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Yhorm the Giant - Boss Start
+Event(20020110, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+   
+});
+
+// Dancer of the Boreal Valley - Boss Start
+Event(20020111, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Oceiros, the Consumed King - Boss Start
+Event(20020112, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Dragonslayer Armour - Boss Start
+Event(20020113, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Ancient Wyvern - Boss Start
+Event(20020114, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Nameless King - Boss Start
+Event(20020115, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Champion Gundyr - Boss Start
+Event(20020116, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Twin Princes - Boss Start
+Event(20020117, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Soul of Cinder - Boss Start
+Event(20020118, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Sister Friede - Boss Start
+Event(20020119, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// The Triad - Boss Start
+Event(20020120, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Demon Prince - Boss Start
+Event(20020121, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Darkeater Midir - Boss Start
+Event(20020122, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Slave Knight Gael - Boss Start
+Event(20020123, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+});
+
+// Halflight - Boss Start
+Event(20020124, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
 });
 
 // Region Warp - Entity ID, Warp Event Point ID, Region ID, FFX ID, FFX Dummy ID
