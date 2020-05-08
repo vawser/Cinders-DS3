@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002060 Cemetery of Ash / Unturned Graves
+54002061 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
 53302178 Road of Sacrifices / Farron Keep
@@ -210,4 +210,4 @@ Add some boss arenas for small boss encounters
 7143 Loyce Leggings
 
 
-band of sparks +3 and the farron ring +3
+99100000 Ludleth's Crown
