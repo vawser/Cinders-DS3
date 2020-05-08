@@ -4872,6 +4872,10 @@ Event(20020000, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200310);
 });
 
 // Vordt of the Boreal Valley
@@ -4914,6 +4918,10 @@ Event(20020001, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200300);
 });
 
 // Curse-rotted Greatwood
@@ -4956,6 +4964,10 @@ Event(20020002, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200300);
 });
 
 // Crystal Sage
@@ -4998,6 +5010,10 @@ Event(20020003, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200310);
 });
 
 // Deacons of the Deep
@@ -5040,6 +5056,10 @@ Event(20020004, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200310);
 });
 
 // Abyss Watchers
@@ -5082,6 +5102,10 @@ Event(20020005, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // High Lord Wolnir
@@ -5124,6 +5148,10 @@ Event(20020006, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200300);
 });
 
 // Old Demon King
@@ -5166,6 +5194,10 @@ Event(20020007, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200310);
 });
 
 // Pontiff Sulyvahn
@@ -5208,6 +5240,10 @@ Event(20020008, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // Aldrich, Devourer of Gods
@@ -5250,6 +5286,10 @@ Event(20020009, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Yhorm the Giant
@@ -5292,6 +5332,10 @@ Event(20020010, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Dancer of the Boreal Valley
@@ -5334,6 +5378,10 @@ Event(20020011, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // Oceiros, the Consumed King
@@ -5376,6 +5424,10 @@ Event(20020012, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // Dragonslayer Armour
@@ -5418,6 +5470,10 @@ Event(20020013, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // Ancient Wyvern
@@ -5460,6 +5516,10 @@ Event(20020014, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200300);
 });
 
 // Nameless King
@@ -5502,6 +5562,10 @@ Event(20020015, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Champion Gundyr
@@ -5544,6 +5608,10 @@ Event(20020016, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200320);
 });
 
 // Twin Princes
@@ -5586,6 +5654,10 @@ Event(20020017, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Soul of Cinder
@@ -5628,6 +5700,10 @@ Event(20020018, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200340);
 });
 
 // Sister Friede
@@ -5670,6 +5746,10 @@ Event(20020019, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200340);
 });
 
 // Lordran Remnants
@@ -5712,6 +5792,10 @@ Event(20020020, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Demon Prince
@@ -5754,6 +5838,10 @@ Event(20020021, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
 });
 
 // Darkeater Midir 
@@ -5796,6 +5884,10 @@ Event(20020022, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200340);
 });
 
 // Slave Knight Gael
@@ -5838,6 +5930,10 @@ Event(20020023, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200340);
 });
 
 // Halflight
@@ -5880,6 +5976,11 @@ Event(20020024, Default, function() {
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
+    
+    // Curse of Pandemonium
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(800200330);
+    
 });
 
 //--------------------------------------------------------------

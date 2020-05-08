@@ -3,6 +3,11 @@
 #-------------------------------------
 Flags used in the Cinders range:
 
+# Map Specific
+xxx5760 All Enemies
+xxx5750 Enemies enabled by Curse of Attraction
+
+# General
 25000010 Deathless Run
 25000011 NG+1
 25000012 NG+2
@@ -102,40 +107,6 @@ Flags used in the Cinders range:
  5100750 m51 #
  5110750 m51_01 #
  5300850 m53 #
- - IDs for the others are based on these + order position
- 
-25003002 Sirris of the Sunless Realms
-25003003 Watchdog Yug
-25003004 Anri of Astora
-25003005 Horace the Hushed
-25003006 Holy Knight Hodrick
-25003007 Greirat of the Undead Settlement
-25003008 Cornyx of the Great Swamp
-25003009 Great Swamp Cuculus
-25003010 Ringfinger Leonhard
-25003011 Yellowfinger Heysel
-25003012 Longfinger Kirk
-25003013 Shira, Knight of Filianore
-25003014 Orbeck of Vinheim
-25003015 Daughter of Crystal Kriemhild
-25003016 Karla
-25003017 Yuria of Londor
-25003018 Londor Pale Shade
-25003019 Eygon of Carim
-25003020 Unbreakable Patches
-25003021 Hawkwood the Deserter
-25003022 Transcendent Edde
-25003023 Alva, Seeker of the Spurned
-25003024 Creighton the Wanderer
-25003025 Knight Slayer Tsorig
-25003026 Prince Ricard
-25003027 Havel the Rock
-25003028 Black Hand Gotthard
-25003029 Siegward of Catarina
-25003030 Glaive Master Hodir
-25003031 The Dashmaster
-25003032 Lucatiel of Mirrah
-25003033 Sellsword Luet
 
 25000001 Curse of Obscurity
 25000002 Curse of Vitality
@@ -145,6 +116,7 @@ Flags used in the Cinders range:
 25000006 Curse of Fortitude
 25000007 Curse of Gluttony
 25000008 Curse of Frailty
+25000009 Curse of Pandemonium
 
 25004101 Show Curse of Obscurity Info
 25004102 Show Curse of Vitality Info
@@ -154,6 +126,7 @@ Flags used in the Cinders range:
 25004106 Curse of Fortitude Info
 25004107 Curse of Gluttony Info
 25004108 Curse of Frailty Info
+25004109 Curse of Pandemonium Info
 
 25006000 No Hit state
 
