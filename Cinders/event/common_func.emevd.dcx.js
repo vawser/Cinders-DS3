@@ -6460,3 +6460,37 @@ Event(20081030, Default, function(X0_4) {
     ChangeCharacterDispmask(X0_4, 17, OFF);
     ChangeCharacterDispmask(X0_4, 18, OFF);
 });
+
+// InitializeCommonEvent(20082000, 13705900, 3701900, 11, 11, 837070, 5200, 1071644672, 0, 1041865114);
+// Trap Object - <event flag> , <object id>, <ffx dummy id>, <object dummy id>, <ffx id>, <behavior id>, <radius>, <lifespan>, <repeat num>
+Event(20082000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    WaitFixedTimeFrames(1);
+    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
+    IfObjectDestroyed(MAIN, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
+    WaitFixedTimeFrames(1);
+    SpawnOneshotSFX(TargetEntityType.Object, X4_4, X8_4, X16_4);
+    CreateDamagingObject(X0_4, X4_4, X12_4, X20_4, DamageTargetType.Character, X24_4, X28_4, X32_4);
+    WaitFixedTimeSeconds(10);
+    DeleteObjectEvent(X0_4);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

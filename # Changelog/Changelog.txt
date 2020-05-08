@@ -42,7 +42,8 @@
 - Added Company of Champions: increases enemy absorption and damage by 50%, increases soul drops by 10%. Enables Awestone drops.
 
 # Curses
-- Changed Curse of Folly to Curse of Frailty. Makes enemies impossible to stagger. Reduced soul gain to 5%.
+- Added Curse of Pandemonium: adds traps and tricks throughout levels and in boss arenas, increases soul gain by 5%.
+- Changed Curse of Folly to Curse of Frailty. Makes enemies impossible to stagger. Increases soul gain by 5%.
 - Curse of Obscurity: reduced soul gain to 5%.
 - Curse of Vitality: increases HP recovery for enemies to 30 + 0.1%.
 - Curse of Wrath: reduced soul gain to 5%.
@@ -103,6 +104,7 @@
  - Gluttony: 30%
  - Frailty: 30%
  - Attraction: 10%
+ - Pandemonium: 10%.
 
 # Enemies
 - Extended the lock-on distance against all enemies.
@@ -210,3 +212,6 @@ Add some boss arenas for small boss encounters
 7143 Loyce Leggings
 
 25000009 Curse of Pandemonium
+Add traps to the levels + some boss tricks to each boss for COP
+ - Random explosions from picking up treasure/opening chests
+ 
