@@ -1198,9 +1198,9 @@ Divine Pillars of Light
 #--------------------------------
 # Dark Dance  
 #--------------------------------
-- FP Cost: 50
-- Dark Damage: 600 
-- Ascended Effect: expands area of effect.
+- FP Cost: 500
+- Dark Damage: 150 (per bullet)
+- Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Recollection  

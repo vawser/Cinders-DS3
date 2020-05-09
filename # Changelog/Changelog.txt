@@ -14,7 +14,7 @@
 54002061 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
-53302178 Road of Sacrifices / Farron Keep
+53302179 Road of Sacrifices / Farron Keep
 53502082 Cathedral of the Deep
 53802174 Catacombs of Carthus / Smouldering Lake
 53702146 Irithyll of the Boreal Valley / Anor Londo
@@ -30,136 +30,27 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Added Lenox's extended textbox to the big item description view.
-- Made most of the white phantom summon signs unconditional to make them more useful.
-
-# Covenants
-- Domhnall of Zena is the host of the Company of Champions. He will give you the Company of Champions covenant if you haven't already got it (it is a treasure after Corrupted Gundyr if you want to get it early). He exchanges Awestones for many of the exotic items he offers.
-- Pilgrims of Dark: increases casting speed by 5.
-- Added Blue Sentinels: increases max FP by 5%. Enables Proof of a Concord Kept drops.
-- Added Way of Blue: increases max HP by 5%. Enables random consumable drops.
-- Added Company of Champions: increases enemy absorption and damage by 50%, increases soul drops by 10%. Enables Awestone drops.
-
-# Curses
-- Added Curse of Pandemonium: adds traps and tricks throughout levels and in boss arenas, increases soul gain by 5%.
-- Changed Curse of Folly to Curse of Frailty. Makes enemies impossible to stagger. Increases soul gain by 5%.
-- Curse of Obscurity: reduced soul gain to 5%.
-- Curse of Vitality: increases HP recovery for enemies to 30 + 0.1%.
-- Curse of Wrath: reduced soul gain to 5%.
-- Curse of Pride: increases enemy damage by 50%.
-- Curse of Attraction: reduced soul gain to 5%.
-- Curse of Fortitude: increases enemy absorption by 50%.
-- Curse of Gluttony: reduced soul gain to 5%.
-
-# Companions
-- Solaire's AI is now more proactive.
-- Solaire will now draw target aggro.
-- Incense of Cooperation now summons Solaire for 60 seconds, after which he disappears until you re-use the Incense.
-- Incense of Cooperation now costs 500 FP to use.
-
-# Weapons
-- Added King's Mirror, a greatshield that grants automatic spell deflection whilst you use Shield Bash. Found near the Mirror Knight.
-- Added Thorned Greatsword. Has a special Stomp that fires a sunlight spear and self-buffs you with Lightning Blade. Found near the Mirror Knight.
-- Improved greatshield base stability to 70/75.
-- Breaking Wheel WA now imbues you with Power Within for 15 seconds.
-- Adjusted the damage of bows/greatbows/crossbows.
-- Added scaling to the crossbows.
-- Fire/Dark infusions now get 15% free scaling instead of 30%.
-
-# Armor
-- Sources of Poison/Frost inflict now give 30 inflict (was 50).
-
-# Items
-- Increased the drop rate of gems from enemies.
-- Changed the material drops to have a chance to drop multiple, to add more benefit to high Item Discovery.
-- The Fire Keeper now drops the Ceaseless Dung Pie (you poop).
-- Dragonrider Halberd is now a treasure found near the Dragonrider.
-- Mirror Knight set chest now has a Titanite Slab.
-- Removed the effects from boss souls. They now give souls on usage as before.
-- Brightbug now reduces WA/spell FP cost and weapon stamina cost by 50% for 30 seconds.
-
-# Rings
-- Ring of Catastrophe: restores 3% FP every second, but lose 1% of health every second.
 
 # Spells
-- Crystal Soul Spear: FP to 600.
-- Great Soul Dregs: FP to 800.
-- Climax: FP to 400.
-- Iron Flesh: now boosts Physical ABS by 75%, but reduces all elemental ABS by 100%. Lasts 15 seconds, 30 whilst ascended.
-- Reduced the damage of Black Fire Scatter a bit to compensate for its ability to hit with multiple orbs.
-
-# Memories
-- Removed the Dream/Nightmare system. Instead you know get a Memory of X when you kill a boss, allowing you to respawn them. You will warp in front of their fog door now.
-- The Primordial drops are now linked to the usage of Curses, i.e. if you use Curse of Pride against the Soul of Cinder, he will drop the Primordial Slab.
-- Each curse has its own drop table, so the more curses you enable, the more chances you have at getting primordial material.
-- The no hit rewards is now primordial material.
-- These are the drop chances (the type varies based on the boss):
- - No Hit: 100%
- - Obscurity: 50%
- - Vitality: 50%
- - Fortitude: 50%
- - Pride: 50%
- - Wrath: 30%
- - Gluttony: 30%
- - Frailty: 30%
- - Attraction: 10%
- - Pandemonium: 10%.
-
-# Enemies
-- Extended the lock-on distance against all enemies.
-- Made the Red Crystal Lizards more of a threat. They are now immune to damage and cause you to stagger if hit, and their explosion(s) fire earlier.
-- Added a killable Red Crystal Lizard in the lower part of Irithyll Dungeon. Killing it will enable several spawns of Red Crystal Lizards in the Profaned Capital.
-- The COA Bonewheel Skeletons added in the catacombs now shoot black fireballs whilst spinning.
-- Removed the Undead Hexers.
-- Removed the Roaming Sorcerers.
-- Removed the Demon Prince enemies in Smouldering Lake due to issues. The Stray Demon near the back of the lake now drops the Undead Bone Shard.
-- Moved the Prowler into the Firelink Shrine part of Dreg Heap.
-- Reduced the aggro range of Morne's Armor.
-- Added Mirror Knight to the upper room in Consumed King's Garden. Drops the Mirror Knight Set.
-- Added Black Dragon Knights in Grand Archives, drop the Black Dragon equipment. Removed the c0000 versions.
-- Moved Wandering Knight Osvaldo to Irithyll, found in the river area just before the Distant manor bonfire.
-- Added a Gyrm to Irithyll, near the tree on the route to the river area.
-- Added Ruin Sentinels to the Ringed City.
-- Added Dragonrider to Irithyll, in area just after the Pontiff, drops the Dragonrider Set.
-- Moved the Pursuer in Profaned Capital to the passage after you exit the first level of Irithyll Dungeon.
-
-# Bosses
-- Increased the soul drops for some bosses.
-- Increased Vordt's HP to 5000.
-- Renamed the Triad to Lordran Remnants.
-- Lordran Remnants now uses proper enemies for each of the 3 knights. 
-- Lordran Remnants now appear in a staggered fashion, starting with Ciaran, and then the Dragonslayer when she is at 25%, then the Abyss Walker when the Dragonslayer is at 25%.
-- Corrupted Gundyr now has a better startup sequence.
-- Corrupted Gundyr now summons dark tears at specific HP % (90, 60, 30). They will cause damage, curse and knock the player to the floor if touched.
-- Yhorm has been changed to be less obnoxious. Instead he now causes earth to rupture from the ground at several set points after any of his strike attacks, knocking the player up if hit. Additionally, at certain HP intervals the roof will crumble, causing boulders to rain down from the middle. This is forewarned by earth rupturing in the middle.
-- Gough will now fire arrows upon the player during the Triad boss fight. He cycles through 10 spots, taking between 0.2 and 1 second for each shot, and then rests for 10 to 15 seconds before starting again. In Nightmare mode for the Triad, Gough will skip the cooldown period.
-
-# Map
-- Changed the Pilgrim Dummy into a skeleton called El Hueso. Don't push him too far, or you might regret it.
-- The Fire Keeper now has 100,000 HP as punishment for your sins.
-- Moved Irina back to her original placement.
-- Moved the Altar of Affliction to the alcove near to the Dummy.
-- Morne's Armor no longer unlocks the Cleansing Chapel bonfire (those changes have been reverted). It is now found in front of the grand doors on the way up to the Cathedral from the graveyard section. It drops Morne's Ring.
+- Dark Dance is now more like the DS2 version, it now shoots 4 black fireballs outwards from the player in the soulmass formation that then tracks towards the target after a short delay.
 
 # Bugfixes
-- Added back fogwall to Oceiros arena to prevent the player from leaving during refights.
-- Fixed the Curse of Folly description not appearing.
-- Fixed Lion Knight Albert summon not being available.
-- Fixed the Pontiff Knight Great Scythe drop being locked out if you got the Pontiff Knight Curved Sword drop first.
-- Made the transpositions automatically visible to prevent issues where you have the soul but cannot see the transpositions.
-- Aldrich now goes to a random corner when he submerges, like he should.
+- Fixed Soul of Cinder respawn warp being in the fogwall.
+- Moved the Blue Sentinels covenant to a treasure corpse near to Anri and Horace.
 
 #------------------------------
 # TODO
 #------------------------------#
-Update item ID list
-
 Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add new armors
 Add some boss arenas for small boss encounters
 
+25000009 Curse of Pandemonium
+Add traps to the levels + some boss tricks to each boss for COP
+ - Random explosions from picking up treasure/opening chests
+ - Wolnir: skeleton balls roll from top down
+ 
 9888    Gold Hemmed Set #
 9889    Charred Loyce #
 9890    Forlorn #
@@ -211,7 +102,3 @@ Add some boss arenas for small boss encounters
 7142 Loyce Gauntlets
 7143 Loyce Leggings
 
-25000009 Curse of Pandemonium
-Add traps to the levels + some boss tricks to each boss for COP
- - Random explosions from picking up treasure/opening chests
- 
