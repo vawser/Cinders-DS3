@@ -41,6 +41,8 @@
 - Fixed Soul of Cinder respawn warp being in the fogwall.
 - Moved the Blue Sentinels covenant to a treasure corpse near to Anri and Horace.
 - Added proper item removal to the NG+ advance from the Petrified Giant.
+- Cathedral Knight Greatsword WA (Stomp) now uses the correct motion values.
+- King's Mirror is now correctly oriented.
 
 #------------------------------
 # TODO
