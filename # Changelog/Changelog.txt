@@ -44,6 +44,7 @@
 
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
+- Swapped location of the Dark Set and Abyssal Greatsword.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -116,4 +117,5 @@ Add traps to the levels + some boss tricks to each boss for COP
 7141 Loyce Armor
 7142 Loyce Gauntlets
 7143 Loyce Leggings
+
 
