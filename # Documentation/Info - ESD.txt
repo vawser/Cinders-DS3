@@ -290,10 +290,10 @@ Then create the python version and recompile it.
 400909
 
 410000
-410001
-410002
-410010
-410120
+410001 Kiln of the First Flame bonfire
+410002 Soul of Cinder bonfire
+410010 Flameless Shrine bonfire
+410120 Fire Keeper
 410500 GENERIC UNUSED
 410501 GENERIC UNUSED
 410502 GENERIC UNUSED
@@ -304,7 +304,7 @@ Then create the python version and recompile it.
 410507 GENERIC UNUSED
 410508 GENERIC UNUSED
 410509 GENERIC UNUSED
-410990
+410990 Found in SOC arena
 
 450000
 450001

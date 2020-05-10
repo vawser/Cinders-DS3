@@ -31,12 +31,16 @@
 # Changelog
 #------------------------------
 
+# Items
+- Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
+
 # Spells
 - Dark Dance is now more like the DS2 version, it now shoots 4 black fireballs outwards from the player in the soulmass formation that then tracks towards the target after a short delay.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
 - Moved the Blue Sentinels covenant to a treasure corpse near to Anri and Horace.
+- Added proper item removal to the NG+ advance from the Petrified Giant.
 
 #------------------------------
 # TODO
