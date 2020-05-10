@@ -31,11 +31,20 @@
 # Changelog
 #------------------------------
 
-# Items
-- Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
+# Armor
+- Clandestine Coat: reduces falling damage and reduces enemy detection via sound by 25%.
+- Shadow Set: reduces enemy detection via sight and sound: [10, 20, 5, 15]
+
+# Rings
+- Obscuring Ring: reduces enemy detection via sight by 50%.
 
 # Spells
 - Dark Dance is now more like the DS2 version, it now shoots 4 black fireballs outwards from the player in the soulmass formation that then tracks towards the target after a short delay.
+- Hidden Body: hides player for 60 seconds, reducing enemy detection via sight by 50%. 75% whilst ascended.
+- Spook: reduces falling damage and reduces enemy detection via sound by 50%. Lasts 60 seconds. 75% whilst ascended. 
+
+# Items
+- Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -43,6 +52,7 @@
 - Added proper item removal to the NG+ advance from the Petrified Giant.
 - Cathedral Knight Greatsword WA (Stomp) now uses the correct motion values.
 - King's Mirror is now correctly oriented.
+- Adjusted the model masks on the Binded Set.
 
 #------------------------------
 # TODO

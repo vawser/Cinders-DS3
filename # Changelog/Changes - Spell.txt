@@ -383,8 +383,8 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 500
 - INT Req: 20
-- Base Effect: hides player for 30 seconds, reducing enemy sight by 100%.
-- Ascended Effect: extends duration to 60 seconds.
+- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 50%.
+- Ascended Effect: reducing enemy detection via sight by 75%.
 
 #--------------------------------
 # Cast Light
@@ -407,8 +407,8 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 500
 - INT Req: 18
-- Base Effect: reduces enemy listen by 100% for 30 seconds.
-- Ascended Effect: extends duration to 60 seconds.
+- Base Effect: reduces enemy detection via sound by 50% for 60 seconds.
+- Ascended Effect: reduces enemy detection via sound by 75% for 60 seconds.
 
 #--------------------------------
 # Chameleon

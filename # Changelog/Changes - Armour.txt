@@ -511,7 +511,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - FP Absorb on Kill: [1%, 2%, 1%, 1%]
 
 # Clandestine Coat
-- Silent Footsteps
+- Reduces falling damage and reduces enemy detection via sound: [25]
 
 # Wanderer's Coat
 - Endurance: [4]
@@ -526,7 +526,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Anti-Hollow: [1.02, 1.04, 1.01, 1.03]
 
 # Shadow Set
-- Fade Player and Reduce Sight and Listen: [20, 20, 20, 20]
+- Reduces enemy detection via sight and sound: [10, 20, 5, 15]
 
 # Maiden Set
 - Miracle Cost: [0.96, 0.92, 0.98, 0.94]
