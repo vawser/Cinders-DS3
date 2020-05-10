@@ -30,7 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Armor
 - Clandestine Coat: reduces falling damage and reduces enemy detection via sound by 25%.
 - Shadow Set: reduces enemy detection via sight and sound: [10, 20, 5, 15]
