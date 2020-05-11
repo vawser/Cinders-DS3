@@ -16,7 +16,7 @@
 53102092 Undead Settlement
 53302179 Road of Sacrifices / Farron Keep
 53502082 Cathedral of the Deep
-53802174 Catacombs of Carthus / Smouldering Lake
+53802175 Catacombs of Carthus / Smouldering Lake
 53702146 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
 53012090 Lothric Castle
@@ -33,6 +33,12 @@
 # Armor
 - Clandestine Coat: reduces falling damage and reduces enemy detection via sound by 25%.
 - Shadow Set: reduces enemy detection via sight and sound: [10, 20, 5, 15]
+- Added the Forlorn Set: dropped by the Forlorn in Road of Sacrifices.
+- Added the Jester Set: dropped by Fester the Jester in Profaned Capital.
+- Added the Gold-hemmed Black Set: found near the wooden bridge in Catacombs of Carthus.
+- Added the Royal Soldier Set: found in the Dreg Heap, in the area below the first angel in the Earthern Peak section.
+- Added the Loyce Set: found in Ariandel, at the end of the Depths of the Painting section.
+- Added the Charred Loyce Set: found in the Smouldering Lake, in the Old Demon King's arena after the Old Demon King is killed.
 
 # Rings
 - Obscuring Ring: reduces enemy detection via sight by 50%.
@@ -67,55 +73,6 @@ Add traps to the levels + some boss tricks to each boss for COP
  - Random explosions from picking up treasure/opening chests
  - Wolnir: skeleton balls roll from top down
  
-9888    Gold Hemmed Set #
-9889    Charred Loyce #
-9890    Forlorn #
-9891    Jester
-9892    Royal Warrior
-9893    Silver Loyce
-
-# 99780000
-# 9.1
-7120 Gold-Hemmed Black Hood 
-7121 Gold-Hemmed Black Cloak
-7122 Gold-Hemmed Black Gloves
-7123 Gold-Hemmed Black Skirt
-
-# 99790000
-# 31
-# absorb HP on kill
-7124 Charred Loyce Helm 
-7125 Charred Loyce Armor
-7126 Charred Loyce Gauntlets
-7127 Charred Loyce Leggings
-
-# 99800000
-# 24.1
-7128 Hood of the Forlorn 
-7129 Armor of the Forlorn
-7130 Gauntlets of the Forlorn
-7131 Leggings of the Forlorn 
-
-# 99810000
-# 13.7
-7132 Jester's Cap # item discovery
-7133 Jester's Robes # reduce backstab damage
-7134 Jester's Gloves # soul gain
-7135 Jester's Tights # silvercat
-
-# 99820000
-# 11.6
-7136 Royal Soldier Helm 
-7137 Royal Soldier Armor
-7138 Royal Soldier Gauntlets
-7139 Royal Soldier Leggings
-
-# 99830000
-# 30.5
-# absorb HP on kill
-7140 Loyce Helm 
-7141 Loyce Armor
-7142 Loyce Gauntlets
-7143 Loyce Leggings
-
+Adjust AI for lizzies so Red Lizzies run towards player
+Add humanity sprite enemy
 

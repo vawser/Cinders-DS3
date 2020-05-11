@@ -552,32 +552,30 @@
 6143 Bloody Elixir
 
 # Misc
-7120 Gold-Hemmed Black Hood
-7121 Gold-Hemmed Black Cloak
-7122 Gold-Hemmed Black Gloves
-7123 Gold-Hemmed Black Skirt
-7124 Charred Loyce Helm
-7125 Charred Loyce Armor
-7126 Charred Loyce Gauntlets
-7127 Charred Loyce Leggings
-7128 Hood of the Forlorn
-7129 Armor of the Forlorn
-7130 Gauntlets of the Forlorn
-7131 Leggings of the Forlorn
-7132 Jester's Cap
-7133 Jester's Robes
-7134 Jester's Gloves
-7135 Jester's Tights
-7136 Royal Soldier Helm
-7137 Royal Soldier Armor
-7138 Royal Soldier Gauntlets
-7139 Royal Soldier Leggings
-7140 Loyce Helm
-7141 Loyce Armor
-7142 Loyce Gauntlets
-7143 Loyce Leggings
-7144
-
+7060 Gold-Hemmed Black Hood
+7061 Gold-Hemmed Black Cloak
+7062 Gold-Hemmed Black Gloves
+7063 Gold-Hemmed Black Skirt
+7064 Charred Loyce Helm
+7065 Charred Loyce Armor
+7066 Charred Loyce Gauntlets
+7067 Charred Loyce Leggings
+7068 Hood of the Forlorn
+7069 Armor of the Forlorn
+7070 Gauntlets of the Forlorn
+7071 Leggings of the Forlorn
+7072 Jester's Cap
+7073 Jester's Robes
+7074 Jester's Gloves
+7075 Jester's Tights
+7076 Royal Soldier Helm
+7077 Royal Soldier Armor
+7078 Royal Soldier Gauntlets
+7079 Royal Soldier Leggings
+7080 Loyce Helm
+7081 Loyce Armor
+7082 Loyce Gauntlets
+7083 Loyce Leggings
 
 # Rings
 5069 Ring of Momentum
