@@ -39,6 +39,8 @@
 - Added the Royal Soldier Set: found in the Dreg Heap, in the area below the first angel in the Earthern Peak section.
 - Added the Loyce Set: found in Ariandel, at the end of the Depths of the Painting section.
 - Added the Charred Loyce Set: found in the Smouldering Lake, in the Old Demon King's arena after the Old Demon King is killed.
+- Added Black Stag Helm: dropped by Silver Knight Ledo.
+- Added Golem Set: sold by Domhnall of Zena.
 
 # Rings
 - Obscuring Ring: reduces enemy detection via sight by 50%.
@@ -62,17 +64,14 @@
 
 #------------------------------
 # TODO
-#------------------------------#
-Add Overwhelming Power (Blue Lightning)
-Add Fecal Overload
-Add new armors
-Add some boss arenas for small boss encounters
-
+#------------------------------
 25000009 Curse of Pandemonium
 Add traps to the levels + some boss tricks to each boss for COP
  - Random explosions from picking up treasure/opening chests
  - Wolnir: skeleton balls roll from top down
  
-Adjust AI for lizzies so Red Lizzies run towards player
+Add Overwhelming Power (Blue Lightning)
+Add Fecal Overload
+Add some boss arenas for small boss encounters
 Add humanity sprite enemy
-
+Change Lothric's Scythe moveset

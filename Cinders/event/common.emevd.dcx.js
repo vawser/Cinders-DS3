@@ -493,7 +493,6 @@ Event(710, Default, function() {
     Label19();
     WaitFixedTimeSeconds(3);
     Label20();
-    SetEventFlag(13900001, ON);
     IfEventFlag(AND_09, ON, TargetEventFlagType.EventFlag, 13000896);
     IfEventFlag(AND_09, OFF, TargetEventFlagType.EventFlag, 13000890);
     SkipIfConditionGroupStateUncompiled(2, PASS, AND_09);
@@ -3207,7 +3206,6 @@ Event(4008110, Default, function() {
     SetEventFlag(13900800, OFF);
     SetEventFlag(9318, OFF);
     SetEventFlag(6318, OFF);
-    SetEventFlag(13900001, OFF);
     
     // Warp Player
     SetPlayerRespawnPoint(3902952);

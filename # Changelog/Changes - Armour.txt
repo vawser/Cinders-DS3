@@ -9,6 +9,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Havel's Set
 - Vigor: [1, 2, 1, 2]
 
+# Golem Set
+- Max Stamina: [1.02, 1.024, 1.006, 1.018]
+
 # Giant's Set
 - Strength: [1, 2, 1, 2]
 
@@ -98,6 +101,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 
 # Silver Knight Set
 - Stamina Recovery: [1, 2, 1, 2]
+
+# Silver Stag Helm
+- Strength: [2]
 
 # Heide Knight Set
 - Skill FP Cost: [0.98, 0.96, 0.99, 0.97]
