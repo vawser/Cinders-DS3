@@ -30,6 +30,12 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Reduced the effectiveness of scaling, to cap the maximum power at a more reasonable level.
+
+# NG+
+- Adjusted the NG+ scaling for enemy HP/absorption to account for the new scaling curve.
+
 # Trial of Perseverance
 - Changed how the material rewards are given. Each way has a tier of reward. For some this is a list of multiple, so it is random which material you get.
 - Added the Trial of Fortitude option. This changes the material rewards to Primordial Titanite, but increases the wave HP and the HP and damage of enemies.
