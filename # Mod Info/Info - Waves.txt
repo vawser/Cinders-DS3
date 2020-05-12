@@ -1,4 +1,5 @@
 ﻿# Wave 1
+# InitializeEvent(0, 15300110, 5300500, 260200100, 205000); // Wave 1
 Hollow Soldier - Straight Sword (1)
 Hollow Soldier - Sword and Shield (1)
 Hollow Soldier - Lantern (1)
@@ -9,6 +10,7 @@ Large Hollow Soldier - Greataxe (1)
 Large Hollow Soldier - Halberd (1)
 
 # Wave 2
+# InitializeEvent(1, 15300110, 5300501, 260200101, 205001); // Wave 2
 Basilisk (1)
 Basilisk (2)
 Basilisk (3)
@@ -17,6 +19,7 @@ Basilisk (5)
 Basilisk (6)
 
 # Wave 3
+# InitializeEvent(2, 15300110, 5300502, 260200102, 205002); // Wave 3
 Peasant Hollow - Axe (1)
 Peasant Hollow - Lantern (1)
 Peasant Hollow - Sickle (1)
@@ -27,6 +30,7 @@ Hollow Manservant - Saw (1)
 Hollow Manservant - Pot (1)
 
 # Wave 4
+# InitializeEvent(3, 15300110, 5300503, 260200103, 205003); // Wave 4
 Undead Dog (1)
 Undead Dog (2)
 Undead Dog (3)
@@ -37,6 +41,7 @@ Small Undead Dog (3)
 Small Undead Dog (4)
 
 # Wave 5
+# InitializeEvent(4, 15300110, 5300504, 260200104, 205004); // Wave 5
 Lycanthrope (1)
 Lycanthrope (2)
 Lycanthrope (3)
@@ -45,6 +50,7 @@ Lycanthrope Hunter (2)
 Lycanthrope Hunter (3)
 
 # Wave 6
+# InitializeEvent(5, 15300110, 5300505, 260200105, 205005); // Wave 6
 Darkwraith (1)
 Darkwraith (2)
 Darkwraith (3)
@@ -53,6 +59,7 @@ Darkwraith (5)
 Darkwraith (6)
 
 # Wave 7
+# InitializeEvent(6, 15300110, 5300506, 260200106, 205006); // Wave 7
 Skeleton - Scimitar (1)
 Skeleton - Falchion (1)
 Skeleton - Bow (1)
@@ -63,6 +70,7 @@ Carthus Swordsman - Bow (1)
 Carthus Swordsman - Shotel (1)
 
 # Wave 8
+# InitializeEvent(7, 15300110, 5300507, 260200107, 205007); // Wave 8
 Bonewheel Skeleton (1)
 Bonewheel Skeleton (2)
 Bonewheel Skeleton (3)
@@ -73,6 +81,7 @@ Bonewheel Skeleton (7)
 Bonewheel Skeleton (8)
 
 # Wave 9
+# InitializeEvent(8, 15300110, 5300508, 260200108, 205008); // Wave 9
 Elder Ghru (1)
 Ghru - Spear (1)
 Ghru - Spear (2)
@@ -84,6 +93,7 @@ Ghru - Mad (1)
 Ghru - Mad (2)
 
 # Wave 10
+# InitializeEvent(9, 15300110, 5300509, 260200109, 205009); // Wave 10
 Demon Cleric (1)
 Demon Cleric (2)
 Demon Statue (1)
@@ -93,18 +103,21 @@ Demon Statue (4)
 Demon Statue (5)
 
 # Wave 11
+# InitializeEvent(10, 15300110, 5300510, 260200110, 205010); // Wave 11
 Cathedral Grave Warden (1)
 Cathedral Grave Warden (2)
 Cathedral Grave Warden (3)
 Deep Acursed (1)
 
 # Wave 12
+# InitializeEvent(11, 15300110, 5300511, 260200111, 205011); // Wave 12
 Black Knight - Greatsword (1)
 Black Knight - Greatsword (2)
 Black Knight - Greataxe (1)
 Black Knight - Greataxe (2)
 
 # Wave 13
+# InitializeEvent(12, 15300110, 5300512, 260200112, 205012); // Wave 13
 Hollow Slave - Axe (1)
 Hollow Slave - Pick (1)
 Hollow Slave - Flamberge (1)
@@ -112,12 +125,14 @@ Cathedral Knight - Mace (1)
 Cathedral Knight - Greatsword (1)
 
 # Wave 14
+# InitializeEvent(13, 15300110, 5300513, 260200113, 205013); // Wave 14
 Gargoyle - Hammer (1)
 Gargoyle - Hammer (2)
 Gargoyle - Spear (1)
 Gargoyle - Spear (2)
 
 # Wave 15
+# InitializeEvent(14, 15300110, 5300514, 260200114, 205014); // Wave 15
 Fat Deacon (1)
 Fat Deacon (2)
 Fat Deacon (3)
@@ -129,6 +144,7 @@ Thin Deacon (2)
 Thin Deacon (3)
 
 # Wave 16
+# InitializeEvent(15, 15300110, 5300515, 260200115, 205015); // Wave 16
 Monstrosity of Sin (1)
 Monstrosity of Sin (2)
 Monstrosity of Sin (3)
@@ -137,6 +153,7 @@ Sewer Centipede (2)
 Sewer Centipede (3)
 
 # Wave 17
+# InitializeEvent(16, 15300110, 5300516, 260200116, 205016); // Wave 17
 Jailer (1)
 Jailer (2)
 Jailer (3)
@@ -149,6 +166,7 @@ Irithyll Dog (3)
 Irithyll Dog (4)
 
 # Wave 18
+# InitializeEvent(17, 15300110, 5300517, 260200117, 205017); // Wave 18
 Hound-rat (1)
 Hound-rat (2)
 Hound-rat (3)
@@ -161,6 +179,7 @@ Poisonhorn Bug (2)
 Poisonhorn Bug (3)
 
 # Wave 19
+# InitializeEvent(18, 15300110, 5300518, 260200118, 205018); // Wave 19
 Wretch - Unarmed (1)
 Wretch - Unarmed (2)
 Wretch - Spear (1)
@@ -170,6 +189,7 @@ Wretch - Dagger (2)
 Giant Slave (1)
 
 # Wave 20
+# InitializeEvent(19, 15300110, 5300519, 260200119, 205019); // Wave 20
 Serpent-man Summoner (1)
 Serpent-man - Dagger (1)
 Serpent-man - Hatchet (1)
@@ -179,6 +199,7 @@ Giant Serpent-man - Chainaxe (1)
 Giant Serpent-man - Greataxe (1)
 
 # Wave 21
+# InitializeEvent(20, 15300110, 5300520, 260200120, 205020); // Wave 21
 Rock Lizard (1)
 Rock Lizard (2)
 Rock Lizard (3)
@@ -187,11 +208,13 @@ Rock Lizard (5)
 Rock Lizard (6)
 
 # Wave 22
+# InitializeEvent(21, 15300110, 5300521, 260200121, 205021); // Wave 22
 Lothric Knight - Sword (1)
 Lothric Knight - Spear and Shield (1)
 Lothric Knight - Greatsword (1)
 
 # Wave 23
+# InitializeEvent(22, 15300110, 5300522, 260200122, 205022); // Wave 23
 Irithyllian Slave - 1 (1)
 Irithyllian Slave - 2 (1)
 Irithyllian Slave - 3 (1)
@@ -200,6 +223,7 @@ Irithyllian Slave - 5 (1)
 Irithyll Fire Witch (1)
 
 # Wave 24
+# InitializeEvent(23, 15300110, 5300523, 260200123, 205023); // Wave 24
 Pontiff Knight - Curved Sword (1)
 Pontiff Knight - Curved Sword (2)
 Pontiff Knight - Scythe (1)
@@ -207,6 +231,7 @@ Pontiff Knight - Scythe (2)
 Boreal Outrider Knight (1)
 
 # Wave 25
+# InitializeEvent(24, 15300110, 5300524, 260200124, 205024); // Wave 25
 Silver Knight - Sword and Shield (1)
 Silver Knight - Sword and Shield (2)
 Silver Knight - Spear and Shield (1)
@@ -215,6 +240,7 @@ Silver Knight - Greatbow (1)
 Silver Knight - Greatbow (2)
 
 # Wave 26
+# InitializeEvent(25, 15300110, 5300525, 260200125, 205025); // Wave 26
 Archive Scholar (1)
 Archive Scholar (2)
 Archive Scholar (3)
@@ -223,12 +249,14 @@ Archive Scholar (5)
 Ravenous Crystal Lizard (1)
 
 # Wave 27
+# InitializeEvent(26, 15300110, 5300526, 260200126, 205026); // Wave 27
 Winged Knight - Halberd (1)
 Winged Knight - Halberd (2)
 Winged Knight - Twinaxes (1)
 Winged Knight - Twinaxes (2)
 
 # Wave 28
+# InitializeEvent(27, 15300110, 5300527, 260200127, 205027); // Wave 28
 Lothric Thief - 1 (1)
 Lothric Thief - 2 (1)
 Lothric Thief - 3 (1)
@@ -237,6 +265,7 @@ Lothric Thief - 5 (1)
 Lothric Thief - 6 (1)
 
 # Wave 29
+# InitializeEvent(28, 15300110, 5300528, 260200128, 205028); // Wave 29
 Big Locust (1)
 Big Locust (2)
 Big Locust (3)
@@ -250,6 +279,7 @@ Writhing Rotten Flesh (2)
 Writhing Rotten Flesh (3)
 
 # Wave 30
+# InitializeEvent(29, 15300110, 5300529, 260200129, 205029); // Wave 30
 Harald Knight (1)
 Harald Knight (2)
 Hollow Cleric (1)
@@ -257,6 +287,7 @@ Hollow Cleric (2)
 Hollow Cleric (3)
 
 # Wave 31
+# InitializeEvent(30, 15300110, 5300530, 260200130, 205030); // Wave 31
 Ringed Knight - 1 (1)
 Ringed Knight - 2 (1)
 Ringed Knight - 3 (1)

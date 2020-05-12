@@ -2921,35 +2921,8 @@ Event(400400, Default, function(X0_4) {
 Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
-    //SetSpeffect(5300500, 260200037);
-    
-    // Shop Flags
-    SetEventFlag(25001001, ON); // Corrupted Gundyr
-    SetEventFlag(25001002, ON); // Vordt of the Boreal Valley
-    SetEventFlag(25001003, ON); // Curse-rotted Greatwood
-    SetEventFlag(25001004, ON); // Crystal Sage
-    SetEventFlag(25001005, ON); // Deacons of the Deep
-    SetEventFlag(25001006, ON); // Abyss Watchers
-    SetEventFlag(25001007, ON); // High Lord Wolnir
-    SetEventFlag(25001008, ON); // Old Demon King
-    SetEventFlag(25001009, ON); // Pontiff Sulyvahn
-    SetEventFlag(25001010, ON); // Aldrich, Devourer of Gods
-    SetEventFlag(25001011, ON); // Yhorm the Giant
-    SetEventFlag(25001012, ON); // Dancer of the Boreal Valley
-    SetEventFlag(25001013, ON); // Oceiros, the Consumed King
-    SetEventFlag(25001014, ON); // Dragonslayer Armour
-    SetEventFlag(25001015, ON); // Ancient Wyvern
-    SetEventFlag(25001016, ON); // Nameless King
-    SetEventFlag(25001017, ON); // Champion Gundyr
-    SetEventFlag(25001018, ON); // Twin Princes
-    SetEventFlag(25001019, ON); // Soul of Cinder
-    SetEventFlag(25001020, ON); // Sister Friede
-    SetEventFlag(25001021, ON); // The Triad
-    SetEventFlag(25001022, ON); // Demon Prince
-    SetEventFlag(25001023, ON); // Darkeater Midir 
-    SetEventFlag(25001024, ON); // Slave Knight Gael
-    SetEventFlag(25001025, ON); // Halflight
-    
+    SetSpeffect(5300500, 260200070);
+
     EndUnconditionally(EventEndType.Restart);
 });
 

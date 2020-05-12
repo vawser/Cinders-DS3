@@ -30,6 +30,10 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Trial of Perseverance
+- Changed how the material rewards are given. Each way has a tier of reward. For some this is a list of multiple, so it is random which material you get.
+- Added the Trial of Fortitude option. This changes the material rewards to Primordial Titanite, but increases the wave HP and the HP and damage of enemies.
+
 # Armor
 - Clandestine Coat: reduces falling damage and reduces enemy detection via sound by 25%.
 - Shadow Set: reduces enemy detection via sight and sound: [10, 20, 5, 15]
@@ -75,3 +79,4 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 Change Lothric's Scythe moveset
+
