@@ -47,6 +47,9 @@
 - Curse of Pride: enemy boost is now 30%.
 - Curse of Fortitude: enemy boost is now 30%.
 
+# Weapons
+- Repeating Crossbow WA now shoots a cone of bolts when used, rather than a line.
+
 # Armor
 - Clandestine Coat: reduces falling damage and reduces enemy detection via sound by 25%.
 - Shadow Set: reduces enemy detection via sight and sound: [10, 20, 5, 15]
