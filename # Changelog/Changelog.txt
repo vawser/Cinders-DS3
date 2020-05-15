@@ -73,6 +73,8 @@
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
 - Swapped location of the Dark Set and Abyssal Greatsword.
+- Added Demonic Claw: take the form of a capra demon. Found in the Chaos Servants offerings.
+- Added Forgotten Tablet: take the form of a titanite demon. Found in Untended Graves.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -96,4 +98,5 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 Change Lothric's Scythe moveset
+Fix the Trial of Fortitude modifiers not being applied
 

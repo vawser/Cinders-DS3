@@ -287,10 +287,10 @@
 0955    Ivory King Ultra Greatsword
 0956    King's Mirror
 0957    Thorned Greatsword
-0958    
-0959    
-0960
-0961
+0958    Firelink Curved Sowrd
+0959    Firelink Lance
+0960    Firelink Staff
+0961    Firelink UGS
 0962
 0963
 0964
@@ -427,8 +427,8 @@
 9893    Silver Loyce
 9894    Golem Set
 9895    Ledo's Helm
-9896
-9897
+9896    Capra Demon Form
+9897    Titanite Demon Form
 9898
 9899
 
