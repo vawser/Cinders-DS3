@@ -4,14 +4,9 @@ c1030 Mirror Knight c3160
 c1040 Ruin Sentinel c2030
 c1050 Dragonrider Knight c5110
 c1060 Black Dragon Knight c1300
-
 c7500 Ciaran c1250
 c7510 Artorias c5280
 c7520 Ornstein c5010
 
-c7530 Smough c3160
-c7540 Giant Sentinel c3160
-c7550 Velstadt c6100
-c7560 Chonky Crystal Lizard c3220
-c7570 Smelter Demon c5020
-c7580 Pursuer c3160
+c7530 Smelter Demon c5020
+c7540 Big Havel c5260

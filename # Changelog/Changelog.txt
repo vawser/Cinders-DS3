@@ -38,7 +38,7 @@
 
 # Trial of Perseverance
 - Changed how the material rewards are given. Each way has a tier of reward. For some this is a list of multiple, so it is random which material you get.
-- Added the Trial of Fortitude option. This changes the material rewards to Primordial Titanite, but increases the wave HP and the HP and damage of enemies.
+- Added the Trial of Glory: a boss rush trial. Primordial Titanite is dropped with each boss killed.
 
 # Covenant
 - Company of Champion enemy boost is now 30%.
@@ -98,5 +98,4 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 Change Lothric's Scythe moveset
-Fix the Trial of Fortitude modifiers not being applied
 
