@@ -6333,50 +6333,42 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Companion - Setup in Map
+Event(20080000, Restart, function(X0_4, X4_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, false);
+});
+
 // Companion - Warp to Player
-Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1) {
+Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    IfCharacterHasSpeffect(AND_01, 10000, X8_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
     WaitForConditionGroupState(PASS, AND_01);
     
-    
-    // Spawn NPC
-    SetCharacterAIState(X0_4, Disabled);
+    // Enable
+    SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
-    SetSpeffect(X0_4, X8_4);
+    
+    // Move to Player and Set Effects
+    SetSpeffect(X0_4, X12_4);
     SetSpeffect(X0_4, 160760100);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
-    WaitFixedTimeSeconds(1);
-    
-    SetCharacterAIState(X0_4, Enabled);
-    
     WaitFixedTimeSeconds(60);
-    
     SetSpeffect(X0_4, 160760100);
-    
     WaitFixedTimeSeconds(1);
     
-    SetCharacterAIState(X0_4, Disabled);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    
-    EndUnconditionally(EventEndType.Restart);
-    
-    // Not Enabled
-    Label0();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Companion - Setup in Map
-Event(20080000, Restart, function(X0_4, X4_4, X8_4) {
-    // Disable by Default
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Curse - Spawn Control

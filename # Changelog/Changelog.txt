@@ -32,6 +32,7 @@
 #------------------------------
 # General
 - Reduced the effectiveness of scaling, to cap the maximum power at a more reasonable level.
+- Made the blood decals more red.
 
 # NG+
 - Adjusted the NG+ scaling for enemy HP/absorption to account for the new scaling curve.
@@ -105,8 +106,4 @@ Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
-
-# Bad arms mask
-Bone ash chest
-gold hemmed chest
 
