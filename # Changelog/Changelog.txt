@@ -14,7 +14,7 @@
 54002061 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
-53302179 Road of Sacrifices / Farron Keep
+53302180 Road of Sacrifices / Farron Keep
 53502082 Cathedral of the Deep
 53802175 Catacombs of Carthus / Smouldering Lake
 53702146 Irithyll of the Boreal Valley / Anor Londo
@@ -23,7 +23,7 @@
 53412134 Grand Archives
 54102011 Kiln of the First Flame
 53202075 Archdragon Peak
-54502073 Painted World of Ariandel
+54502074 Painted World of Ariandel
 55002062 Dreg Heap
 55102058 The Ringed City
 
@@ -47,6 +47,11 @@
 # Curses
 - Curse of Pride: enemy boost is now 30%.
 - Curse of Fortitude: enemy boost is now 30%.
+
+# Companions
+- Lowered Solaire's damage but reverted his duration back to unlimited. Now the incense is used to warp him to you and to heal him.
+- Added Crab Bait: summons El Crabbo (Lesser Crab), who will serve as a battle ally. Same mechanics as Solaire. Found in Farron Keep.
+- Added Stick: summons Inu the Wolf (Wolf), who will serve as a battle ally. Same mechanics as Solaire. Found in Ariandel.
 
 # Weapons
 - Repeating Crossbow WA now shoots a cone of bolts when used, rather than a line.
@@ -106,4 +111,12 @@ Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
+
+5301 Crab Bait 210003620
+5302 Stick 210003630
+
+El Crabbo
+
+c2271 - 40010
+c6040 - 40020
 
