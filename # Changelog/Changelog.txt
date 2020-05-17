@@ -75,6 +75,9 @@
 - Swapped location of the Dark Set and Abyssal Greatsword.
 - Added Demonic Claw: take the form of a capra demon. Found in the Chaos Servants offerings.
 - Added Forgotten Tablet: take the form of a titanite demon. Found in Untended Graves.
+- Moved Great Magic Shield and Scared Flame into the tome shops (no longer treasures).
+- Removed the Immortal Dragon Greatshield transposition (now only treasure).
+- Moved Heavenly Relief into Way of White offerings (no longer treasure).
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -88,6 +91,11 @@
 #------------------------------
 # TODO
 #------------------------------
+Add Royal Rat Authority + Rats (Replace Vordt)
+Add Fume Knight (Replace Oceiros)
+Add Smough (Replace Dancer with O&S)
+Add Velstadt (Replace Artorias)
+
 25000009 Curse of Pandemonium
 Add traps to the levels + some boss tricks to each boss for COP
  - Random explosions from picking up treasure/opening chests
@@ -97,3 +105,8 @@ Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
+
+# Bad arms mask
+Bone ash chest
+gold hemmed chest
+
