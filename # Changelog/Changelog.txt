@@ -112,11 +112,8 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
-5301 Crab Bait 210003620
-5302 Stick 210003630
-
-El Crabbo
-
-c2271 - 40010
-c6040 - 40020
-
+Reduce pet aggro range a bit
+Change the dragom stones into:
+ Head -> original attack effect
+ Body -> Transformation (like the elixirs)
+ 
