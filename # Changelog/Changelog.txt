@@ -84,6 +84,15 @@
 - Moved Great Magic Shield and Scared Flame into the tome shops (no longer treasures).
 - Removed the Immortal Dragon Greatshield transposition (now only treasure).
 - Moved Heavenly Relief into Way of White offerings (no longer treasure).
+- Added Faded Dragon Stone: emit dragon breath. Found on the sitting dragonform corpse in Irithyll Dungeon, sold by Dragon Remnants covenant.
+- Added Twinkling Dragon Stone: emit dragon roar. Found by praying at the altar in Archdragon Peak, sold by Dragon Remnants covenant.
+- Added Aspiring Dragon Stone: become an aspirant of Archdragon Peak. sold by the Dragon Remnants covenant.
+
+# Enemies
+- Gough now only fires in the open area of the arena when fighting the Lordran Remnants.
+- The Dragonslayer and The Abyss Walker now come in when the former boss is at 10% HP (was 25%).
+- Gough's Arrows now does less damage, but will knock you down.
+- Pilgrim Pulpa's initial burst now does less damage, but will knock you down.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -112,8 +121,5 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
-Reduce pet aggro range a bit
-Change the dragom stones into:
- Head -> original attack effect
- Body -> Transformation (like the elixirs)
- 
+Add Pontiff's twin blades (Profaned Greatsword and Greatsword of Judgment): made in the same way as Twin Princes' Greatsword
+

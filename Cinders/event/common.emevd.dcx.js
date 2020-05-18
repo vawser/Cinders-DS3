@@ -1721,6 +1721,7 @@ Event(400000, Default, function() {
     InitializeEvent(0, 400515, 160702501, 160702500); // Cleansing Elixir
     InitializeEvent(0, 400516, 160702601, 160702600); // Demonic Claw
     InitializeEvent(0, 400517, 160702701, 160702700); // Forgotten Tablet
+    InitializeEvent(0, 400518, 160702801, 160702800); // Aspiring Dragon Stone
     
     InitializeEvent(0, 400504, 160701400); // Psychedelic Elixir - Special Case
     
@@ -1851,6 +1852,7 @@ Event(400500, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetEventFlag(25007011, OFF);
     SetEventFlag(25007012, OFF);
@@ -1907,6 +1909,7 @@ Event(400501, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -1947,6 +1950,7 @@ Event(400502, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -1988,6 +1992,7 @@ Event(400504, Default, function(X0_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, 160701410);
     
@@ -2030,6 +2035,7 @@ Event(400505, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2070,6 +2076,7 @@ Event(400506, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2110,6 +2117,7 @@ Event(400507, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2150,6 +2158,7 @@ Event(400508, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2190,6 +2199,7 @@ Event(400509, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2230,6 +2240,7 @@ Event(400510, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2270,6 +2281,7 @@ Event(400511, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2310,6 +2322,7 @@ Event(400512, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2350,6 +2363,7 @@ Event(400513, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2390,6 +2404,7 @@ Event(400514, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2430,6 +2445,7 @@ Event(400515, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2467,6 +2483,7 @@ Event(400516, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702300);
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702700);
+    ClearSpeffect(10000, 160702800);
     
     SetSpeffect(10000, X4_4);
     
@@ -2506,6 +2523,47 @@ Event(400517, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160702300);
     ClearSpeffect(10000, 160702400);
     ClearSpeffect(10000, 160702600);
+    ClearSpeffect(10000, 160702800);
+    
+    SetSpeffect(10000, X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Aspiring Dragon Stone
+Event(400518, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    
+    ClearSpeffect(10000, 160701000);
+    ClearSpeffect(10000, 160701010);
+    ClearSpeffect(10000, 160701011);
+    ClearSpeffect(10000, 160701012);
+    ClearSpeffect(10000, 160701013);
+    ClearSpeffect(10000, 160701100);
+    ClearSpeffect(10000, 160701200);
+    ClearSpeffect(10000, 160701300);
+    ClearSpeffect(10000, 160701400);
+    ClearSpeffect(10000, 160701410);
+    ClearSpeffect(10000, 160701411);
+    ClearSpeffect(10000, 160701412);
+    ClearSpeffect(10000, 160701413);
+    ClearSpeffect(10000, 160701414);
+    ClearSpeffect(10000, 160701415);
+    ClearSpeffect(10000, 160701416);
+    ClearSpeffect(10000, 160701417);
+    ClearSpeffect(10000, 160701418);
+    ClearSpeffect(10000, 160701500);
+    ClearSpeffect(10000, 160701600);
+    ClearSpeffect(10000, 160701700);
+    ClearSpeffect(10000, 160701800);
+    ClearSpeffect(10000, 160701900);
+    ClearSpeffect(10000, 160702000);
+    ClearSpeffect(10000, 160702100);
+    ClearSpeffect(10000, 160702200);
+    ClearSpeffect(10000, 160702300);
+    ClearSpeffect(10000, 160702400);
+    ClearSpeffect(10000, 160702600);
+    ClearSpeffect(10000, 160702700);
     
     SetSpeffect(10000, X4_4);
     

@@ -3108,8 +3108,9 @@ function ExecItem(quick_type, blend_type)
         end
     elseif item_type == ITEM_CHAMELEON then
         ExecEventHalfBlend(Event_ItemChameleon, blend_type)
+    -- Dragon Head V2
     elseif item_type == ITEM_DRAGONHEADLVL2 then
-        if env(305, CONDITION_TYPE_DRAGONHEAD) == TRUE or env(305, CONDITION_TYPE_DRAGONFULL) == TRUE then
+        if env(305, CONDITION_TYPE_DRAGONHEAD) == FALSE or env(305, CONDITION_TYPE_DRAGONFULL) == FALSE then -- Was TRUE
             if env(1001) <= 0 then
                 ResetRequest()
                 return FALSE
@@ -3118,8 +3119,9 @@ function ExecItem(quick_type, blend_type)
         else
             ExecEventHalfBlend(Event_DragonHeadStartBefore, blend_type)
         end
+    -- Dragon Torso V2
     elseif item_type == ITEM_DRAGONFULLLVL2 then
-        if env(305, CONDITION_TYPE_DRAGONFULL) == TRUE then
+        if env(305, CONDITION_TYPE_DRAGONFULL) == FALSE then -- Was TRUE
             if env(1001) < 0 then
                 ResetRequest()
                 return FALSE
