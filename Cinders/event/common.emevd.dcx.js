@@ -7,13 +7,22 @@
 // ==/EMEVD==
 
 Event(0, Default, function() {
-    InitializeEvent(0, 400000, 0); // Setup Cinders scripts
+    //---------------------------------------
+    // Host and Client
+    //---------------------------------------
     InitializeEvent(0, 200, 0);
-    InitializeEvent(0, 230, 0);
-    InitializeEvent(0, 9570, 4500, 3740);
-    InitializeEvent(1, 9570, 4510, 3750);
+    InitializeEvent(0, 230, 0); // Set Blood Moon ceremonies
+    InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
+    InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
+    
+    //---------------------------------------
+    // Host Only
+    //---------------------------------------
+    InitializeEvent(0, 400000, 0); // Setup Cinders scripts
+    
+    // Achievements - Locations
     InitializeEvent(0, 130, 40, 4004110, 0, -1);
     InitializeEvent(1, 130, 30, 3004110, 0, -1);
     InitializeEvent(2, 130, 31, 3104110, 0, -1);
@@ -34,38 +43,8 @@ Event(0, Default, function() {
     InitializeEvent(17, 130, 50, 5004110, 0, -1);
     InitializeEvent(18, 130, 51, 5104110, 0, -1);
     InitializeEvent(19, 130, 307, 5114110, 0, -1);
-    InitializeEvent(0, 9004, 9007);
-    InitializeEvent(0, 9005, 9008);
-    InitializeEvent(0, 9006, 9009);
-    InitializeEvent(0, 9000, 9001, 9007, 9008, 9009);
-    InitializeEvent(0, 9002, 9003);
-    InitializeEvent(0, 9010, 0);
-    InitializeEvent(0, 970, 13000800, 2000, 0, 0);
-    InitializeEvent(1, 970, 13000890, 2010, 0, 0);
-    InitializeEvent(2, 970, 13000830, 2020, 0, 0);
-    InitializeEvent(3, 970, 13010800, 2030, 0, 0);
-    InitializeEvent(9, 970, 13410830, 2040, 0, 0);
-    InitializeEvent(10, 970, 13410860, 2050, 0, 0);
-    InitializeEvent(4, 970, 13100800, 2060, 0, 0);
-    InitializeEvent(5, 970, 13200800, 2070, 0, 0);
-    InitializeEvent(6, 970, 13200850, 2080, 0, 0);
-    InitializeEvent(7, 970, 13300850, 2090, 0, 0);
-    InitializeEvent(8, 970, 13300800, 2100, 0, 0);
-    InitializeEvent(11, 970, 13500800, 2110, 0, 0);
-    InitializeEvent(12, 970, 13700850, 2120, 0, 0);
-    InitializeEvent(13, 970, 13700800, 2130, 0, 0);
-    InitializeEvent(14, 970, 13800800, 2140, 0, 0);
-    InitializeEvent(15, 970, 13800830, 2150, 0, 0);
-    InitializeEvent(17, 970, 13900800, 2170, 0, 0);
-    InitializeEvent(18, 970, 14000800, 2180, 0, 0);
-    InitializeEvent(19, 970, 14000830, 2190, 0, 0);
-    InitializeEvent(20, 970, 14100800, 2200, 0, 0);
-    InitializeEvent(21, 970, 14500800, 2300, 0, 0);
-    InitializeEvent(22, 970, 14500860, 2310, 0, 0);
-    InitializeEvent(23, 970, 15000800, 2330, 0, 0);
-    InitializeEvent(24, 970, 15100800, 2340, 0, 0);
-    InitializeEvent(25, 970, 15100850, 2350, 0, 0);
-    InitializeEvent(26, 970, 15110800, 2360, 0, 0);
+    
+    // Achievements - Bosses
     InitializeEvent(10, 250, 17, 6700, 0);
     InitializeEvent(11, 250, 18, 6770, 0);
     InitializeEvent(12, 250, 19, 6740, 0);
@@ -92,7 +71,47 @@ Event(0, Default, function() {
     InitializeEvent(35, 250, 38, 14000830, 0);
     InitializeEvent(36, 250, 39, 13200800, 0);
     InitializeEvent(37, 250, 40, 13200850, 0);
+    
+    // Achievements - Other
     InitializeEvent(0, 6099, 0);
+    
+    // Flag States
+    InitializeEvent(0, 9004, 9007);
+    InitializeEvent(0, 9005, 9008);
+    InitializeEvent(0, 9006, 9009);
+    InitializeEvent(0, 9000, 9001, 9007, 9008, 9009);
+    InitializeEvent(0, 9002, 9003);
+    InitializeEvent(0, 9010, 0);
+    
+    // Boss Defeat - Award Items
+    InitializeEvent(0, 970, 13000800, 2000, 0, 0); // Vordt
+    InitializeEvent(1, 970, 13000890, 2010, 0, 0); // Dancer
+    InitializeEvent(2, 970, 13000830, 2020, 0, 0); // Oceiros
+    InitializeEvent(3, 970, 13010800, 2030, 0, 0); // Dragonslayer Armour
+    InitializeEvent(9, 970, 13410830, 2040, 0, 0); // Twin Princes
+    InitializeEvent(10, 970, 13410860, 2050, 0, 0); // Unused
+    InitializeEvent(4, 970, 13100800, 2060, 0, 0); // Curse-rotted Greatwood
+    InitializeEvent(5, 970, 13200800, 2070, 0, 0); // Ancient Wyvern
+    InitializeEvent(6, 970, 13200850, 2080, 0, 0); // Nameless King
+    InitializeEvent(7, 970, 13300850, 2090, 0, 0); // Crystal Sage
+    InitializeEvent(8, 970, 13300800, 2100, 0, 0); // Abyss Watchers
+    InitializeEvent(11, 970, 13500800, 2110, 0, 0); // Deacons of the Deep
+    InitializeEvent(12, 970, 13700850, 2120, 0, 0); // Pontiff Sulyvahn
+    InitializeEvent(13, 970, 13700800, 2130, 0, 0); // Aldrich
+    InitializeEvent(14, 970, 13800800, 2140, 0, 0); // High Lord Wolnir
+    InitializeEvent(15, 970, 13800830, 2150, 0, 0); // Old Demon King
+    InitializeEvent(17, 970, 13900800, 2170, 0, 0); // Yhorm
+    InitializeEvent(18, 970, 14000800, 2180, 0, 0); // Corrupted Gundyr
+    InitializeEvent(19, 970, 14000830, 2190, 0, 0); // Champion Gundyr
+    InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
+    InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
+    InitializeEvent(22, 970, 14500860, 2310, 0, 0); // Lordran Remnants
+    InitializeEvent(23, 970, 15000800, 2330, 0, 0); // Demon Prince
+    InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
+    InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
+    InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
+    
+    // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
     InitializeEvent(1, 6100, 6101, 13900800);
     InitializeEvent(2, 6100, 6102, 13700800);
@@ -106,15 +125,25 @@ Event(0, Default, function() {
     InitializeEvent(10, 6100, 6110, 13000890);
     InitializeEvent(11, 6100, 6111, 13010800);
     InitializeEvent(12, 6100, 6112, 110);
+    
+    // Flag State - 6600, 703
     InitializeEvent(0, 702, 0);
+    
+    // Warp to Dancer
     InitializeEvent(0, 710, 0);
-    InitializeEvent(0, 9510, 0);
-    InitializeEvent(0, 9511, 0);
-    InitializeEvent(0, 9512, 0);
-    InitializeEvent(0, 9520, 4410, 8, 9013, 6058);
-    InitializeEvent(0, 9525, 4430, 4, 9005, 6054);
-    InitializeEvent(0, 9530, 4420, 18, 9020, 6068);
-    InitializeEvent(0, 9540, 15, 9017, 6065);
+    
+    // Phantoms
+    InitializeEvent(0, 9510, 0); // Sirris - Trigger Appearance
+    InitializeEvent(0, 9511, 0); // Longfinger Kirk - Trigger Appearance
+    InitializeEvent(0, 9512, 0); // Londor Pale Shade - Trigger Appearance
+    
+    // Gestures
+    InitializeEvent(0, 9520, 4410, 8, 9013, 6058); // Yellowfinger Heysel - Proper bow
+    InitializeEvent(0, 9525, 4430, 4, 9005, 6054); // Duel bow
+    InitializeEvent(0, 9530, 4420, 18, 9020, 6068); // By my sword
+    InitializeEvent(0, 9540, 15, 9017, 6065); // My thanks!
+    
+    // Boss Flag States
     InitializeEvent(0, 9100, 70000007);
     InitializeEvent(0, 9101, 70000008);
     InitializeEvent(0, 9102, 70000012);
@@ -138,13 +167,14 @@ Event(0, Default, function() {
     InitializeEvent(5, 9120, 74000921, 74000925, 74000925, 1, 1, 1, 1);
     InitializeEvent(6, 9120, 74000916, 74000913, 74000913, 1, 1, 1, 1);
     InitializeEvent(7, 9120, 73500265, 73500264, 73500264, 1, 1, 1, 0);
-    InitializeEvent(0, 9016, 0);
+    
+    InitializeEvent(0, 9016, 0); // Set Cleric class flag if Cleric
     InitializeEvent(0, 9011, 74000132);
-    InitializeEvent(0, 9014, 0);
+    InitializeEvent(0, 9014, 0); 
     InitializeEvent(0, 9018, 0);
     InitializeEvent(0, 9019, 74000669);
     InitializeEvent(0, 9015, 0);
-    InitializeEvent(0, 6900, 0);
+    InitializeEvent(0, 6900, 0); // Lack of Estus Flask flag
     InitializeEvent(0, 9020, 73500300, 1621, 1634, 6951, 35);
     InitializeEvent(1, 9020, 14100511, 14100512, 14100512, 6952, 41);
     InitializeEvent(2, 9020, 14500161, 14500162, 14500162, 6952, 45);
