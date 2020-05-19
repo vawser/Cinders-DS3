@@ -50,7 +50,7 @@
 # Companions
 - Lowered Solaire's damage but reverted his duration back to unlimited. Now the incense is used to warp him to you and to heal him.
 - Added Crab Bait: summons El Crabbo (Lesser Crab), who will serve as a battle ally. Same mechanics as Solaire. Found in Farron Keep.
-- Added Stick: summons Inu the Wolf (Wolf), who will serve as a battle ally. Same mechanics as Solaire. Found in Ariandel.
+- Added Stick: summons Rocky (Rock Lizard), who will serve as a battle ally. Same mechanics as Solaire. Found in Archdragon Peak.
 
 # Weapons
 - Repeating Crossbow WA now shoots a cone of bolts when used, rather than a line.
@@ -111,3 +111,6 @@ Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Winged Knight throwing axe FFX not in m41
+
+Remove the DLC enemies from the Trial (redesign those waves)
+
