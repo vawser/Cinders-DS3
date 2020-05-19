@@ -32,14 +32,13 @@
 #------------------------------
 # General
 - Reduced the effectiveness of scaling, to cap the maximum power at a more reasonable level.
-- Made the blood decals more red.
 
 # NG+
 - Adjusted the NG+ scaling for enemy HP/absorption to account for the new scaling curve.
 
 # Trial of Perseverance
 - Changed how the material rewards are given. Each way has a tier of reward. For some this is a list of multiple, so it is random which material you get.
-- Added the Trial of Glory: a boss rush trial. Primordial Titanite is dropped with each boss killed.
+- Curses will now enable Primordial Titanite to be dropped with the normal material reward, following the usual chances as with a boss.
 
 # Covenant
 - Company of Champion enemy boost is now 30%.
@@ -106,20 +105,9 @@
 #------------------------------
 # TODO
 #------------------------------
-Add Royal Rat Authority + Rats (Replace Vordt)
-Add Fume Knight (Replace Oceiros)
-Add Smough (Replace Dancer with O&S)
-Add Velstadt (Replace Artorias)
-
-25000009 Curse of Pandemonium
-Add traps to the levels + some boss tricks to each boss for COP
- - Random explosions from picking up treasure/opening chests
- - Wolnir: skeleton balls roll from top down
- 
 Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
-Add Pontiff's twin blades (Profaned Greatsword and Greatsword of Judgment): made in the same way as Twin Princes' Greatsword
-
+Winged Knight throwing axe FFX not in m41
