@@ -62,9 +62,7 @@ c1290_0010 Winged Knight (Halberd)
 c1290_0011 Winged Knight (Halberd)
 
 c1300_0000 Black Knight (Greatsword)
-c1300_0001 Black Knight (Greatsword)
 c1300_0010 Black Knight (Greataxe)
-c1300_0011 Black Knight (Greataxe)
 
 c1310_0000 Outrider Knight
 
@@ -190,13 +188,6 @@ c3120_0000 Elder Ghru
 c3170_0000 Darkwraith
 c3170_0001 Darkwraith
 c3170_0002 Darkwraith
-c3170_0003 Darkwraith
-c3170_0004 Darkwraith
-c3170_0005 Darkwraith
-
-c3210_0000 Poisonhorn Bug
-c3210_0001 Poisonhorn Bug
-c3210_0002 Poisonhorn Bug
 
 c3220_0000 Rock Lizard
 c3220_0001 Rock Lizard
@@ -232,31 +223,78 @@ c5223_0002 Deacon (Thin)
 c5223_0003 Deacon (Thin)
 c5223_0004 Deacon (Thin)
 
-c6260_0000 Ringed Knight (Type 1)
-c6260_0010 Ringed Knight (Type 2)
-c6260_0020 Ringed Knight (Type 3)
+# New
+c1090_0000 Pus of Man
+c1090_0001 Pus of Man
 
-c6270_0000 Hollow Vagabond (Type 1)
-c6270_0010 Hollow Vagabond (Type 2)
-c6270_0020 Hollow Vagabond (Type 3)
-c6270_0030 Hollow Vagabond (Type 4)
-c6270_0040 Hollow Vagabond (Type 5)
-c6270_0050 Hollow Vagabond (Type 6)
+c1130_0000 Rotten Slug #
+c1130_0001 Rotten Slug #
+c1130_0002 Rotten Slug #
 
-c6290_0000 Hollow Cleric
-c6290_0001 Hollow Cleric
-c6290_0002 Hollow Cleric
+c1320_0000 Crystal Sage #
+c1320_0001 Crystal Sage #
 
-c6320_0000 Harald Knight
+c1430_0000 Undead Cleric (Type 1) #
+c1430_0001 Undead Cleric (Type 1) # 
+c1430_0002 Undead Cleric (Type 1) #
+c1430_0010 Undead Cleric (Type 2) #
+c1430_0011 Undead Cleric (Type 2) #
+c1430_0012 Undead Cleric (Type 2) #
+c1430_0020 Undead Cleric (Type 3) #
+c1430_0021 Undead Cleric (Type 3) #
+c1430_0022 Undead Cleric (Type 3) #
 
-c6330_0000 Big Locust
-c6330_0001 Big Locust
-c6330_0002 Big Locust
+c1440_0000 Devout of the Deep (Type 1)
+c1440_0001 Devout of the Deep (Type 1)
+c1440_0010 Devout of the Deep (Type 2)
+c1440_0011 Devout of the Deep (Type 2)
+c1440_0020 Devout of the Deep (Type 3)
+c1440_0021 Devout of the Deep (Type 3)
+c1440_0030 Devout of the Deep (Type 4)
+c1440_0031 Devout of the Deep (Type 4)
+c1440_0040 Devout of the Deep (Type 5)
+c1440_0041 Devout of the Deep (Type 5)
+c1440_0050 Devout of the Deep (Type 6)
+c1440_0051 Devout of the Deep (Type 6)
 
-c6331_0000 Small Locust
-c6331_0001 Small Locust
-c6331_0002 Small Locust
-c6331_0003 Small Locust
-c6331_0004 Small Locust
+c1442_0000 Lothric Priest #
+c1442_0001 Lothric Priest #
 
+c2120_0000 Mimic #
+c2120_0001 Mimic #
+c2120_0002 Mimic #
+c2120_0003 Mimic #
 
+c2160_0000 Pilgrim #
+c2160_0001 Pilgrim #
+c2160_0002 Pilgrim #
+c2160_0003 Pilgrim #
+c2160_0004 Pilgrim #
+c2160_0005 Pilgrim #
+c2160_0006 Pilgrim #
+c2160_0007 Pilgrim #
+    
+c2250_0000 Sulyvahn's Beast #
+c2250_0001 Sulyvahn's Beast #
+    
+c2270_0000 Giant Crab #
+c2270_0001 Giant Crab #
+c2270_0002 Giant Crab #
+    
+c2271_0000 Lesser Crab #
+c2271_0001 Lesser Crab #
+c2271_0002 Lesser Crab #
+c2271_0003 Lesser Crab #
+c2271_0004 Lesser Crab #
+    
+c1010_0000 Gyrm #
+c1010_0001 Gyrm #
+c1010_0002 Gyrm #
+
+c3040_0000 Abyss Watcher # 
+c3040_0001 Abyss Watcher # 
+c3040_0002 Abyss Watcher # 
+c3040_0003 Abyss Watcher #
+c3040_0004 Abyss Watcher #
+
+c3060_0000 Demon #

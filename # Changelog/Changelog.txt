@@ -37,7 +37,12 @@
 - Adjusted the NG+ scaling for enemy HP/absorption to account for the new scaling curve.
 
 # Trial of Perseverance
-- Changed how the material rewards are given. Each way has a tier of reward. For some this is a list of multiple, so it is random which material you get.
+- Changed the composition of several waves.
+- Moved the trial to the Kiln of the First Flame.
+- Damage dealt to enemies is now reflected directly in the damage to the wave HP. The wave HP has been increased to work with this new method of damaging it. 
+- Each wave will now reload the map when it is over, to circumvent issues that arise from the game not being designed around so many enemies dying in close proximity (i.e. crashes).
+- Enemies no longer drop individual drops. Their soul drop has been increased though.
+- The rewards after each wave is completed have been increased.
 - Curses will now enable Primordial Titanite to be dropped with the normal material reward, following the usual chances as with a boss.
 
 # Covenant
@@ -111,17 +116,3 @@ Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Winged Knight throwing axe FFX not in m41
-
-Remove the DLC enemies from the Trial (redesign those waves)
-
-
-# Rework
-Gen: 6 - Agents of Darkness
-Gen: 18 - Ratatouille
-Gen: 28 - Swamp Vagabonds
-Gen: 29 - Locust Swarm
-Gen: 30 - Dregs of the Deep
-Gen: 31 - Remnants of the End
-
-c1090 Pus of Man # 109001
-
