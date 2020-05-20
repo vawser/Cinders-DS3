@@ -61,9 +61,6 @@ c1290_0001 Winged Knight (Axes)
 c1290_0010 Winged Knight (Halberd)
 c1290_0011 Winged Knight (Halberd)
 
-c1300_0000 Black Knight (Greatsword)
-c1300_0010 Black Knight (Greataxe)
-
 c1310_0000 Outrider Knight
 
 c1340_0000 Archive Scholar
@@ -148,10 +145,6 @@ c2110_0002 Hound-rat
 c2110_0003 Hound-rat
 c2110_0004 Hound-rat
 
-c2130_0000 Rotten Flesh
-c2130_0001 Rotten Flesh
-c2130_0002 Rotten Flesh
-
 c2140_0000 Basilisk
 c2140_0001 Basilisk
 c2140_0002 Basilisk
@@ -180,8 +173,6 @@ c2290_0002 Irithyll Dog
 c2290_0003 Irithyll Dog
 
 c3020_0000 Giant Slave
-
-c3110_0000 Deep Acursed
 
 c3120_0000 Elder Ghru
 
