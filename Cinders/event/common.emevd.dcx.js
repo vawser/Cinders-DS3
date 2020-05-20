@@ -11,9 +11,11 @@ Event(0, Default, function() {
     // Host and Client
     //---------------------------------------
     InitializeEvent(0, 200, 0);
-    InitializeEvent(0, 230, 0); // Set Blood Moon ceremonies
+    InitializeEvent(0, 230, 0); // Set Eclipse ceremonies
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
+    InitializeEvent(0, 400010, 0); // Setup Cinders scripts
+    
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
     
@@ -1660,6 +1662,7 @@ Event(870, Default, function(X0_1, X4_4) {
 //------------------------------------------------------
 // Cinders
 //------------------------------------------------------
+// Setup - Host only
 Event(400000, Default, function() {
     InitializeEvent(0, 400016, 0); // NG+ Flags
     
@@ -1673,7 +1676,10 @@ Event(400000, Default, function() {
     InitializeEvent(6, 400020, 25004106, 99002106); // Fortitude
     InitializeEvent(7, 400020, 25004107, 99002107); // Gluttony
     InitializeEvent(8, 400020, 25004109, 99002108); // Pandemonium
-    
+});
+
+// Setup - Host and Client
+Event(400010, Default, function() {
     // Enable
     InitializeEvent(0, 400021, 25000008, 250001200, 250001201); // Curse of Frailty
     InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
