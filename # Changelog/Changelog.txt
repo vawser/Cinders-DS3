@@ -79,6 +79,7 @@
 - Dark Dance is now more like the DS2 version, it now shoots 4 black fireballs outwards from the player in the soulmass formation that then tracks towards the target after a short delay.
 - Hidden Body: hides player for 60 seconds, reducing enemy detection via sight by 50%. 75% whilst ascended.
 - Spook: reduces falling damage and reduces enemy detection via sound by 50%. Lasts 60 seconds. 75% whilst ascended. 
+- Changed the healing spell FP regen pause to 6 seconds.
 
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
@@ -119,7 +120,3 @@ Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
-Winged Knight throwing axe FFX not in m41
-
-psychedelic now working
-rattling switching heads
