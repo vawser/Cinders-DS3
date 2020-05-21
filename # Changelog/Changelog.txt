@@ -93,6 +93,8 @@
 - Added Dragon Head Stone: enable dragonform head. Sold by the Dragon Remnants covenant.
 - Added Dragon Torso Stone: enable dragonform body. Sold by the Dragon Remnants covenant.
 - Added Mad Warrior set to Mound-makers offerings.
+- Added Forgotten Seal: apply titanite demon head only.
+- Added Demonic Skull: apply capra demon head only.
 
 # Enemies
 - Gough now only fires in the open area of the arena when fighting the Lordran Remnants.
@@ -119,4 +121,5 @@ Add humanity sprite enemy
 
 Winged Knight throwing axe FFX not in m41
 
-Add dragon head only item
+psychedelic now working
+rattling switching heads
