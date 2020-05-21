@@ -30,12 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Reduced the effectiveness of scaling, to cap the maximum power at a more reasonable level.
-
-# NG+
-- Adjusted the NG+ scaling for enemy HP/absorption to account for the new scaling curve.
-
 # Trial of Perseverance
 - Changed the composition of several waves.
 - Moved the trial to the Kiln of the First Flame.
