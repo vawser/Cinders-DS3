@@ -4698,6 +4698,17 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4)
 });
 
+// Warp to Location, set Flag
+Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    RotateCharacter(10000, X0_4, 91040, false);
+    SendAllPhantomsHome(0);
+    WaitFixedTimeSeconds(3);
+    SetEventFlag(X16_4, ON);
+    WarpPlayer(X8_1, 0, X12_4);
+});
+
 // Warp to Location - Firelink Shrine
 Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
