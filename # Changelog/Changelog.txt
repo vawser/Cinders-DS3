@@ -110,6 +110,7 @@
 - King's Mirror is now correctly oriented.
 - Adjusted the model masks on the Binded Set.
 - Fixed Chikage rolling R2 doing too much damage.
+- Fixed Deep Protection ascended effect.
 
 #------------------------------
 # TODO
