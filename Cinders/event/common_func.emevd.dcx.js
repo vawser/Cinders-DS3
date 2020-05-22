@@ -6353,9 +6353,10 @@ Event(20080000, Restart, function(X0_4, X4_4) {
 });
 
 // Companion - Warp to Player
-Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
+    IfPlayerInoutMap(AND_01, true, X16_1, X20_1);
     IfCharacterHasSpeffect(AND_01, 10000, X8_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
     WaitForConditionGroupState(PASS, AND_01);
     
