@@ -457,14 +457,14 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 25
 - Fire Damage: 300 [200]
-- Ascended Effect: impact leaves lava pool.
+- Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 250
 - Fire Damage: 400 [200] 
-- Ascended Effect: impact leaves lava pool.
+- Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Firestorm
@@ -540,7 +540,7 @@ Divine Pillars of Light
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 250
-- Fire Damage: 120 
+- Fire Damage: 60 [60] 
 - Ascended Effect: impacts leave lava pools.
 
 #--------------------------------
@@ -1165,21 +1165,21 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 100
 - Dark Damage: 150
-- Ascended Effect: impacts leave black fire spot.
+- Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 250
 - Dark Damage: 120 
-- Ascended Effect: impacts leave black fire spots.
+- Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
 - FP Cost: 300
 - Dark Damage: 400 [250] 
-- Ascended Effect: impacts leave black fire spot.
+- Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Flame

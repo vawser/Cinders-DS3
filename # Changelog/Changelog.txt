@@ -74,6 +74,9 @@
 - Hidden Body: hides player for 60 seconds, reducing enemy detection via sight by 50%. 75% whilst ascended.
 - Spook: reduces falling damage and reduces enemy detection via sound by 50%. Lasts 60 seconds. 75% whilst ascended. 
 - Changed the healing spell FP regen pause to 6 seconds.
+- Changed Fireball and Fire Orb ascended effect to more tracking.
+- Reduced the damage of Bursting Fireball.
+- Black Fire Orb, Black Fireball and Black Fire Scatter ascended effect is now more tracking.
 
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
@@ -90,12 +93,14 @@
 - Added Mad Warrior set to Mound-makers offerings.
 - Added Forgotten Seal: apply titanite demon head only.
 - Added Demonic Skull: apply capra demon head only.
+- Havel's Set is now found near to Havel in Archdragon Peak. The treasure that spawns in Farron Keep is now 5 Fire Seeds.
 
 # Enemies
 - Gough now only fires in the open area of the arena when fighting the Lordran Remnants.
 - The Dragonslayer and The Abyss Walker now come in when the former boss is at 10% HP (was 25%).
 - Gough's Arrows now does less damage, but will knock you down.
 - Pilgrim Pulpa's initial burst now does less damage, but will knock you down.
+- The NPC enemies will now drop their items again if respawned via Blood of Might.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
@@ -116,7 +121,7 @@ Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Add new hairs
-Go over ascended spell effects (change OP ones)
 
 hairs
 113
+
