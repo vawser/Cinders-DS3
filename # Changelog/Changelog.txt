@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Character Creation
+- Added 7 new hairstyles (thanks to Max).
+
 # Trial of Perseverance
 - Changed the composition of several waves.
 - Moved the trial to the Kiln of the First Flame.
@@ -126,3 +129,10 @@ Add new hairs
 hairs
 113
 
+113 Aranea
+114 Ardyn
+115 Cloud
+116 Ignis
+117 Noctis
+118 Ravus
+119 Sekiro
