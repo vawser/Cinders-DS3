@@ -4678,12 +4678,12 @@ Event(20008150, Default, function(X0_4, X4_4) {
 });
 
 // Warp to Location 
-Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4) {
+Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
-    RotateCharacter(10000, X0_4, 91040, false);
+    RotateCharacter(10000, X0_4, X16_4, false);
     SendAllPhantomsHome(0);
-    WaitFixedTimeSeconds(3);
+    WaitFixedTimeSeconds(1);
     WarpPlayer(X8_1, 0, X12_4);
 });
 

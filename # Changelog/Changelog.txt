@@ -80,6 +80,7 @@
 - Changed Fireball and Fire Orb ascended effect to more tracking.
 - Reduced the damage of Bursting Fireball.
 - Black Fire Orb, Black Fireball and Black Fire Scatter ascended effect is now more tracking.
+- Immolation now removes the maggot bleed effect.
 
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
@@ -104,6 +105,17 @@
 - Gough's Arrows now does less damage, but will knock you down.
 - Pilgrim Pulpa's initial burst now does less damage, but will knock you down.
 - The NPC enemies will now drop their items again if respawned via Blood of Might.
+- Moved the mimic on the bridge in Farron Keep down to the lower area.
+- Lordran Remnants will now aggro no matter where the player is when they spawn in.
+
+# Map
+- Changed Smouldering Lake -> Irithyll Dungeon warp. It is now found by the lava pit near to Tsorig within the Demon Ruins. It is now a door.
+- Changed Undead Settlement -> Catacombs of Carthus warp. It is now found in the skeleton passage below the settlement.
+- Added warp back from Catacombs to Undead Settlement.
+- Added warp back from Irithyll Dungeon to Smouldering Lake.
+- Added warp back from Farron Keep to Undead Settlement.
+- Changed Cathedral -> Irithyll warp. It is now a statue in the room with the drop down Deep Accursed.
+- Added warp back from Irithyll to Cathedral.
 
 # Bugfixes
 - Fixed Soul of Cinder respawn warp being in the fogwall.
