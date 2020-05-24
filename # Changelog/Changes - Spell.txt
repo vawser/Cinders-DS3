@@ -82,6 +82,7 @@ Black Flame
 Dark Dance
 Recollection
 Black Fire Scatter
+Black Fire Orb
 
 # Deep
 Dorhys' Gnawing
@@ -176,8 +177,8 @@ Divine Pillars of Light
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 600
-- Magic Damage: 800 
+- FP Cost: 500
+- Magic Damage: 750 
 - INT Req: 40
 - Ascended Effect: gains much better tracking and speed.
 
@@ -193,7 +194,7 @@ Divine Pillars of Light
 # Homing Crystal Soulmass
 #--------------------------------
 - FP Cost: 500
-- Magic Damage: 125 (per bullet)
+- Magic Damage: 150 (per bullet)
 - INT Req: 40
 - Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
 
@@ -208,8 +209,8 @@ Divine Pillars of Light
 #--------------------------------
 # White Dragon Breath
 #--------------------------------
-- FP Cost: 400
-- Magic Damage: 500 [200] 
+- FP Cost: 500
+- Magic Damage: 700 [200] 
 - INT Req: 40
 - Effect: inflicts 30 Curse.
 - Ascended Effect: extends the length of the breath.
@@ -265,7 +266,7 @@ Divine Pillars of Light
 #--------------------------------
 # Soul Stream
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 1000
 - Magic Damage: 300 (per tick)
 - INT Req: 40
 - Ascended Effect: stream lasts for 3 seconds (normally 1).
@@ -455,14 +456,14 @@ Divine Pillars of Light
 #--------------------------------
 # Fireball
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 200
 - Fire Damage: 300 [200]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 300
 - Fire Damage: 400 [200] 
 - Ascended Effect: gains improved tracking.
 
@@ -519,7 +520,7 @@ Divine Pillars of Light
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 800 [100] 
+- Fire Damage: 750 [100] 
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
@@ -568,7 +569,7 @@ Divine Pillars of Light
 # Heave Earth
 #--------------------------------
 - FP Cost: 500
-- Physical Damage: 600 
+- Physical Damage: 750 
 - Ascended Effect: costs 400 FP.
 
 #--------------------------------
@@ -812,7 +813,7 @@ Divine Pillars of Light
 # Lothric's Holy Spear
 #--------------------------------
 - FP Cost: 500
-- Physical Damage: 800 
+- Physical Damage: 750
 - FTH Req: 50
 - Ascended Effect: improves tracking.
 
@@ -1043,8 +1044,8 @@ Divine Pillars of Light
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 900 
+- FP Cost: 750
+- Dark Damage: 1000 
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: inflicts 75 Curse.
@@ -1063,7 +1064,7 @@ Divine Pillars of Light
 # Affinity
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 125 (per bullet) 
+- Dark Damage: 150 (per bullet) 
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: hits reduce Dark absorption by 20% for 10 seconds.
@@ -1182,6 +1183,13 @@ Divine Pillars of Light
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
+# Black Fire Vestiges
+#--------------------------------
+- FP Cost: 500
+- Magic Damage: 750 [500]
+- Ascended Effect: gains much better tracking.
+
+#--------------------------------
 # Black Flame
 #--------------------------------
 - FP Cost: 400
@@ -1192,14 +1200,14 @@ Divine Pillars of Light
 # Black Serpent
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 700 
+- Dark Damage: 750
 - Ascended Effect: expends the length.
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 150 (per bullet)
+- Dark Damage: 250 (per bullet)
 - Ascended Effect: increases poise damage.
 
 #--------------------------------

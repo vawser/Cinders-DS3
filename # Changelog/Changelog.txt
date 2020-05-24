@@ -73,6 +73,7 @@
 - Obscuring Ring: reduces enemy detection via sight by 50%.
 
 # Spells
+- Adjusted various spell damage/FP costs.
 - Dark Dance is now more like the DS2 version, it now shoots 4 black fireballs outwards from the player in the soulmass formation that then tracks towards the target after a short delay.
 - Hidden Body: hides player for 60 seconds, reducing enemy detection via sight by 50%. 75% whilst ascended.
 - Spook: reduces falling damage and reduces enemy detection via sound by 50%. Lasts 60 seconds. 75% whilst ascended. 
@@ -81,6 +82,8 @@
 - Reduced the damage of Bursting Fireball.
 - Black Fire Orb, Black Fireball and Black Fire Scatter ascended effect is now more tracking.
 - Immolation now removes the maggot bleed effect.
+- Added Black Fire Vestiges: a high power dark pyromancy spell.
+- Replaced Black Fire Orb transposition for Wolnir with Black Fire Vestiges. Black Fire Orb is now part of the Grave Warden tome.
 
 # Items
 - Dragon Chaser's Ashes is now given to you by performing the Path of the Dragon gesture in the Dragon-kin Mausoleum.
@@ -131,8 +134,13 @@
 # TODO
 #------------------------------
 Curse of Pandemonium - Add stuff
-Add Overwhelming Power (Blue Lightning)
-Add Fecal Overload
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
+
+Add new throwables, adjust throwable balance
+
+Add Overwhelming Power (Blue Lightning)
+Add Fecal Overload
+
+Ariandel - Anor Londor warp
 
