@@ -129,6 +129,8 @@
 - Adjusted the model masks on the Binded Set.
 - Fixed Chikage rolling R2 doing too much damage.
 - Fixed Deep Protection ascended effect.
+- Fester the Jester now actually wears the Jester Set.
+- Mask of Sin model mask fixed.
 
 #------------------------------
 # TODO
