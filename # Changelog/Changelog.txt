@@ -31,6 +31,8 @@
 # Changelog
 #------------------------------
 
+# Bugfixes
+- Fixed the Trial enemies appearing if you entered the Soul of Cinder arena after resting at the bonfire.
 
 #------------------------------
 # TODO
@@ -43,6 +45,7 @@ Add new throwables, adjust throwable balance
 
 Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
+Add Gravelord FFX, add Gravelord Sword Dance
 
 Ariandel - Anor Londor warp
 
