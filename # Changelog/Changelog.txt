@@ -30,6 +30,11 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Increased the base damage of all the whips.
+
+# Spells
+- Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
 
 # Map
 - Added Ariandel -> Irithyll warp: commune with the fallen corvian at the top of the chapel.
@@ -43,6 +48,9 @@
 - Fixed Cemetery of Ash -> Dreg Heap warp.
 - Fixed some bad model masks.
 - Dreg Heap warp in Sister Friede's room is now correctly disabled when you use her memory.
+- Fixed tailbone/gargoyle weapon drop bug.
+- Pontiff Knight Great Scythe (and any other weapons that use its behavior) now has the correct motion value setup (i.e. sweetspot mechanic removed).
+- Adjusted the correction for various spell tools where it was wrong.
 
 #------------------------------
 # TODO
@@ -57,5 +65,4 @@ Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add Gravelord FFX, add Gravelord Sword Dance
 
-Look at the spell tool scaling stuff
-Scythe sweetspot normalize
+

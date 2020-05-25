@@ -621,6 +621,13 @@ Divine Pillars of Light
 - Base Effect: burns oneself for 1% damage, radiating a flame aura that deals 100 damage to enemies every second for 15 seconds.
 - Ascended Effect: burns oneself for 0.25% damage.
 
+#--------------------------------
+# Fecal Explusion
+#--------------------------------
+- FP Cost: 600
+- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 100 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
+- Ascended Effect: expel 12 dung pies.
+
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
 #--------------------------------------------------------------------------
