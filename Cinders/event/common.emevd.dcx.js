@@ -3043,6 +3043,7 @@ Event(4008200, Default, function() {
     SetEventFlag(9322, OFF);
     SetEventFlag(6322, OFF);
     SetEventFlag(14500000, OFF);
+    SetEventFlag(14500162, OFF); // Dreg Heap warp
     
     // Warp Player
     SetPlayerRespawnPoint(4502955);

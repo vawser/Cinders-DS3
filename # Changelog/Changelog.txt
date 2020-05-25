@@ -31,8 +31,18 @@
 # Changelog
 #------------------------------
 
+# Map
+- Added Ariandel -> Irithyll warp: commune with the fallen corvian at the top of the chapel.
+- Added Irithyll -> Ariandel warp: commune with the statue in a tucked away section in the Silver Knight gauntlet area.
+- Changed the door in Ariandel Chapel so you open it from within the chapel. This lets you make a choice between the regular route or backwards through the Millwood and Follower area. This also allows you to fight Sister Friede much earlier.
+- Removed the Pus of Men in the Cemetery of Ash.
+- Moved the Burial Knights to make it easier to engage them one-on-one.
+
 # Bugfixes
 - Fixed the Trial enemies appearing if you entered the Soul of Cinder arena after resting at the bonfire.
+- Fixed Cemetery of Ash -> Dreg Heap warp.
+- Fixed some bad model masks.
+- Dreg Heap warp in Sister Friede's room is now correctly disabled when you use her memory.
 
 #------------------------------
 # TODO
@@ -47,5 +57,5 @@ Add Overwhelming Power (Blue Lightning)
 Add Fecal Overload
 Add Gravelord FFX, add Gravelord Sword Dance
 
-Ariandel - Anor Londor warp
-
+Look at the spell tool scaling stuff
+Scythe sweetspot normalize
