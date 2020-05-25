@@ -35,6 +35,7 @@
 
 # Spells
 - Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
+- Added Overwhelming Power: emit pillars of blue lightning. Transposed from Gael's soul.
 
 # Map
 - Added Ariandel -> Irithyll warp: commune with the fallen corvian at the top of the chapel.
@@ -61,8 +62,5 @@ Add humanity sprite enemy
 
 Add new throwables, adjust throwable balance
 
-Add Overwhelming Power (Blue Lightning)
-Add Fecal Overload
 Add Gravelord FFX, add Gravelord Sword Dance
-
 
