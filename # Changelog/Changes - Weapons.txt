@@ -260,16 +260,94 @@ Handmaid's Ladle
 - Effect: increases VIT and END by 2.
 
 #------------------------
+# Catalysts
+#------------------------
+# All Schools
+Heretic's Staff             - Dark
+Insanity Catalyst           - Any
+Man-grub's Staff            - Physical
+
+# Sorcery / Miracles
+Archdeacon's Great Staff    - Dark
+Golden Ritual Spear         - Magic
+Crystal Chime               - Magic
+
+# Miracles / Pyromancy
+White Hair Talisman         - Fire
+Holy Flame                  - Physical
+Smouldering Talisman        - Fire
+
+# Sorcery / Pyromancy 
+Izalith Staff               - Fire
+Sorcerous Flame             - Magic
+
+# Sorcery
+Sorcerer's Staff            - Magic
+Storyteller's Staff         - Dark
+Sage's Crystal Staff        - Magic
+Court Sorcerer's Staff      - Magic
+Witchtree Branch            - Magic
+Murky Longstaff             - Dark
+Manus Catalyst              - Dark
+Tin Banishment Catalyst     - Dark
+Velka's Talisman            - Magic
+Consumed King's Staff       - Dark
+
+# Miracles
+Talisman                    - Lightning
+Cleric's Sacred Chime       - Physical
+Fallen Priest's Chime       - Dark
+Yorshka's Chime             - Physical
+Saint-tree Bellvine         - Physical
+Caitha's Chime              - Dark
+Sunlight Talisman           - Lightning
+Corrupted Talisman          - Dark
+Sunless Talisman            - Physical
+Saint's Talisman            - Physical
+Sacred Chime of Filianore   - Physical
+Jester's Talisman           - Physical
+Talisman of Beasts          - Dark
+Rotten Talisman             - Physical
+Mendicant's Staff           - Physical
+
+# Pyromancy
+Pyromancy Flame             - Fire
+Pyromancer's Parting Flame  - Fire
+Black Flame                 - Dark
+Fool's Flame                - Physical
+Chaos Flame                 - Fire
+Abyssal Flame               - Dark
+
+#------------------------
 # Hybrid Tools
 #------------------------
-Cleric's Candlestick
-Priest's Candlestick
-Demon's Scar
-Golden Ritual Spear
-Heysel Pick
-Immolation Tinder
-Rose of Ariandel
-Preacher's Right Arm
-Blue Flame
-Pilgrim's Spontoon
+Effective at inflicting Magic damage.
+
+# All Schools
+Cleric's Candlestick    - Dark
+
+# Sorcery / Miracles
+Golden Ritual Spear     - Magic
+Pilgrim's Spontoon      - Dark
+
+# Miracles / Pyromancy
+
+# Sorcery / Pyromancy 
+Immolation Tinder       - Fire
+
+# Sorcery
+Heysel Pick             - Magic
+Preacher's Right Arm    - Magic
+Blue Flame              - Magic
+
+# Miracles
+Priest's Candlestick    - Physical
+Rose of Ariandel        - Physical
+
+# Pyromancy
+Demon's Scar            - Fire
+
+
+
+
 

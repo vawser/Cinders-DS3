@@ -32,6 +32,19 @@
 #------------------------------
 # Weapons
 - Increased the base damage of all the whips.
+- Mendicant's Staff now casts miracles.
+- Man-grub's Staff now casts all schools, and solely scales with LCK.
+- Sunless Talisman can now cast sorceries and miracles.
+- Velka's Talisman can now cast sorceries and miracles.
+- Insanity WA reduces to 30% boost.
+
+# Catalysts
+- Catalyst correction design changed. Each catalyst (both normal and hybrid) get one element they favor (i.e. get 100% of scaling for), all the others are restricted to 80%.
+- The infusions for the hybrids change this in the following ways:
+ - Magic/Fire/Lightning/Dark: changes its respective to the early peak 100% curve.
+ - Enchanted/Holy: changes the physcial to the early peak 100% curve. (Except if it is sorcery only, in which case Enchanted remains magic).
+- To put it in real terms, the Sunlight Talisman can cast miracles, both lightning and physical damage miracles. It will deal 100% with lightning based ones, but only 80% with physical ones.
+- Pyromancy flames don't get early peak scaling, just normal 100% with Fire.
 
 # Spells
 - Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
