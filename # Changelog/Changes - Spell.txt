@@ -625,7 +625,7 @@ Divine Pillars of Light
 # Fecal Explusion
 #--------------------------------
 - FP Cost: 600
-- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 100 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
+- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 30 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
 - Ascended Effect: expel 12 dung pies.
 
 #--------------------------------------------------------------------------

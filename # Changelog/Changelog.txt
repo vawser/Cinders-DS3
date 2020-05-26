@@ -50,6 +50,9 @@
 - Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
 - Added Overwhelming Power: emit pillars of blue lightning. Transposed from Gael's soul.
 
+# Items
+- All the throwable goods now scale with Luck (and no other stat).
+
 # Map
 - Added Ariandel -> Irithyll warp: commune with the fallen corvian at the top of the chapel.
 - Added Irithyll -> Ariandel warp: commune with the statue in a tucked away section in the Silver Knight gauntlet area.
