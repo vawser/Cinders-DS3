@@ -46,6 +46,9 @@
 - To put it in real terms, the Sunlight Talisman can cast miracles, both lightning and physical damage miracles. It will deal 100% with lightning based ones, but only 80% with physical ones.
 - Pyromancy flames don't get early peak scaling, just normal 100% with Fire.
 
+# Armor
+- Added Manikin Set (+ Crude Manikin Mask): found in the Dreg Heap.
+
 # Spells
 - Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
 - Added Overwhelming Power: emit pillars of blue lightning. Transposed from Gael's soul.
@@ -78,3 +81,9 @@ Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Add Gravelord FFX, add Gravelord Sword Dance
+
+99860000 Manikin Mask
+99861000 Manikin Top
+99862000 Manikin Gloves
+99863000 Manikin Boots
+99870000 Crude Manikin Mask

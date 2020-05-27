@@ -575,6 +575,12 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Desert Pyromancer Set
 - Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
 
+# Manikin Set
+- Dexterity: [2, 4, 1, 3]
+
+# Crude Manikin Mask
+- Dexterity: [2]
+
 # Archdeacon Set
 - Faith: [2, 4, 3]
 
