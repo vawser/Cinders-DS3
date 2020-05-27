@@ -68,6 +68,7 @@
 - Fixed tailbone/gargoyle weapon drop bug.
 - Pontiff Knight Great Scythe (and any other weapons that use its behavior) now has the correct motion value setup (i.e. sweetspot mechanic removed).
 - Adjusted the correction for various spell tools where it was wrong.
+- Curse of Vitality has a reduced effect in the Trial, only restore a flat 5 HP per second.
 
 #------------------------------
 # TODO
