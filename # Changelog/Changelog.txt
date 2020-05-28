@@ -48,6 +48,8 @@
 
 # Armor
 - Added Manikin Set (+ Crude Manikin Mask): found in the Dreg Heap.
+- Added Stone Knight Set: found in Farron Keep.
+- Added Guardian Knight Set: found in Farron Keep.
 
 # Spells
 - Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
@@ -72,18 +74,25 @@
 - Pontiff Knight Great Scythe (and any other weapons that use its behavior) now has the correct motion value setup (i.e. sweetspot mechanic removed).
 - Adjusted the correction for various spell tools where it was wrong.
 - Curse of Vitality has a reduced effect in the Trial, only restore a flat 5 HP per second.
+- Fixed a few WA attacks that allowed for excessive on hit effects (they no longer apply the effects during those attacks).
+- Fixed Dragon Bone Smasher texture bug.
+- Fixed Hands of God texture bug.
 
 #------------------------------
 # TODO
 #------------------------------
+# TODO
 Curse of Pandemonium - Add stuff
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Add Gravelord FFX, add Gravelord Sword Dance
 
-99860000 Manikin Mask
-99861000 Manikin Top
-99862000 Manikin Gloves
-99863000 Manikin Boots
-99870000 Crude Manikin Mask
+31700000 0840 / 1419 Hands of Sin
+31600000 0864 / 1420 Frying Pan
+31500000 0869 / 1421 Serpentine Chain-axe
+16170000 - 0873 / 1422 Imperious Greatshield
+14220000 - 0867 / 1423 Giant's Bow
+14230000 - 0870 / 1424 Model Ballista
+
+

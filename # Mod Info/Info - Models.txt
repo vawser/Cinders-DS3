@@ -1,6 +1,142 @@
 ﻿#------------------------
 # Custom Weapons
 #------------------------
+0840    Hands of Sin 
+0841    Aldia Hammer 
+0842    Black Scorpion Stinger 
+0843    Dragonrider Twinblade 
+0844    Drakekeeeper's Great Hammer 
+0845    Drakekeeper's Greataxe 
+0846    Drakekeeper's Warpick
+0847    Drakewing Ultra Greatsword
+0848    Gargoyle Bident
+0849    Giant Warrior Club
+0850    Helix Halberd
+0851    Malformed Skull
+0852    Melu Scimitar
+0853    Old Knight Halberd
+0854    Old Knight Hammer
+0855    Old Knight Pike
+0856    Red Rust Scimitar
+0857    Roaring Halberd
+0858    Sanctum Mace
+0859    Spider's Silk
+0860    Spitfire Spear
+0861    Syan's Halberd
+0862    Warped Sword
+0863    Cracked Round Shield
+0864    Frying Pan
+0865    Gertrude's Knight Longaxe #
+0866    Winged Knight Longaxe #
+0867    Giant's Bow
+0868    Lothric Knight Claymore #
+0869    Serpentine Chain-axe
+0870    Model Ballista
+0871    Bone Ash Katana
+0872    Fist of Gratia
+0873    Imperious Greatshield
+0874    Armored Warrior Sword
+0875    Black Mortal Blade
+0876    Centipede Claws
+0877    Corrupted Monk Dagger
+0878    Corrupted Monk Glaive
+0879    Drunkard Sword
+0880    Emma's Gentle Blade
+0881    Genichiro's Blade
+0882    Genichiro's Bow
+0883    Guardian Ape Sword
+0884    Gyoubu's Spear
+0885    Headless Sword
+0886    Kusabimaru
+0887    Kusabimaru+Sabimaru
+0888    Loaded Axe
+0889    Loaded Spear
+0890    Mortal Blade
+0891    Nightjar Sickle
+0892    Nightjar Twinsickles
+0893    Okami Bow
+0894    Okami Glaive
+0895    Okami Sword
+0896    Owl's Sword
+0897    Rat Dagger
+0898    Sabimaru
+0899    Seven Ashina Spear
+
+0927    Shichimen Staff
+0928    Sword Saint's Gun
+0929    Sword Saint's Spear
+0930    Tengu Sword
+0931    Butterfly Kunai
+0932    Gun Fort Bayonet
+0933    Monk Staff
+0934    Monk Twinblade
+0935    Shinobi Hunter Spear
+0936    Snake Eyes Cannon
+0937    Taro Mace
+0938    Taro Mallet
+
+0939    Stone Greataxe
+0940    Priscilla's Dagger
+0941    Jagged Ghost Blade
+0942    Iaito
+0943    Hammer of Vamos
+0944    Ghost Blade
+0945    Gargoyle Halberd
+0946    Gargoyle Axe
+0947    Demon's Catalyst
+0948    Crystal Greatsword
+0949    DS1 Knight Shield
+0950    Effigy Shield
+0951    Blood Shield
+0952    Balder Shield
+0953    Achillies Shield
+0954    Tower Shield
+0955    Ivory King Ultra Greatsword
+0956    King's Mirror
+0957    Thorned Greatsword
+0958    Firelink Curved Sowrd
+0959    Firelink Lance
+0960    Firelink Staff
+0961    Firelink UGS
+0962
+0963
+0964
+0965
+0966
+0967
+0968
+0969
+0970
+0971
+0972
+0973
+0974
+0975
+0976
+0977
+0978
+0979
+0980
+0981
+0982
+0983
+0984
+0985
+0986
+0987
+0988
+0989
+0990
+0991
+0992
+0993
+0994
+0995
+0996
+0997
+0998
+0999
+
 9801    Firelink Dagger             
 9802    Firelink Spear
 9803    Firelink Straight Sword
@@ -194,141 +330,7 @@
 9988    Frost Crab Claws
 9989    Gael's Dusty Greatsword
 9990    Wax-covered Candlestick
-0840    Hands of Sin
-0841    Aldia Hammer   
-0842    Black Scorpion Stinger
-0843    Dragonrider Twinblade
-0844    Drakekeeeper's Great Hammer
-0845    Drakekeeper's Greataxe
-0846    Drakekeeper's Warpick
-0847    Drakewing Ultra Greatsword
-0848    Gargoyle Bident
-0849    Giant Warrior Club
-0850    Helix Halberd
-0851    Malformed Skull
-0852    Melu Scimitar
-0853    Old Knight Halberd
-0854    Old Knight Hammer
-0855    Old Knight Pike
-0856    Red Rust Scimitar
-0857    Roaring Halberd
-0858    Sanctum Mace
-0859    Spider's Silk
-0860    Spitfire Spear
-0861    Syan's Halberd
-0862    Warped Sword
-0863    Cracked Round Shield
-0864    Frying Pan
-0865    Gertrude's Knight Longaxe #
-0866    Winged Knight Longaxe #
-0867    Giant's Bow
-0868    Lothric Knight Claymore #
-0869    Serpentine Chain-axe
-0870    Model Ballista
-0871    Bone Ash Katana
-0872    Fist of Gratia
-0873    Imperious Greatshield
-0874    Armored Warrior Sword
-0875    Black Mortal Blade
-0876    Centipede Claws
-0877    Corrupted Monk Dagger
-0878    Corrupted Monk Glaive
-0879    Drunkard Sword
-0880    Emma's Gentle Blade
-0881    Genichiro's Blade
-0882    Genichiro's Bow
-0883    Guardian Ape Sword
-0884    Gyoubu's Spear
-0885    Headless Sword
-0886    Kusabimaru
-0887    Kusabimaru+Sabimaru
-0888    Loaded Axe
-0889    Loaded Spear
-0890    Mortal Blade
-0891    Nightjar Sickle
-0892    Nightjar Twinsickles
-0893    Okami Bow
-0894    Okami Glaive
-0895    Okami Sword
-0896    Owl's Sword
-0897    Rat Dagger
-0898    Sabimaru
-0899    Seven Ashina Spear
 
-0927    Shichimen Staff
-0928    Sword Saint's Gun
-0929    Sword Saint's Spear
-0930    Tengu Sword
-0931    Butterfly Kunai
-0932    Gun Fort Bayonet
-0933    Monk Staff
-0934    Monk Twinblade
-0935    Shinobi Hunter Spear
-0936    Snake Eyes Cannon
-0937    Taro Mace
-0938    Taro Mallet
-
-0939    Stone Greataxe
-0940    Priscilla's Dagger
-0941    Jagged Ghost Blade
-0942    Iaito
-0943    Hammer of Vamos
-0944    Ghost Blade
-0945    Gargoyle Halberd
-0946    Gargoyle Axe
-0947    Demon's Catalyst
-0948    Crystal Greatsword
-0949    DS1 Knight Shield
-0950    Effigy Shield
-0951    Blood Shield
-0952    Balder Shield
-0953    Achillies Shield
-0954    Tower Shield
-0955    Ivory King Ultra Greatsword
-0956    King's Mirror
-0957    Thorned Greatsword
-0958    Firelink Curved Sowrd
-0959    Firelink Lance
-0960    Firelink Staff
-0961    Firelink UGS
-0962
-0963
-0964
-0965
-0966
-0967
-0968
-0969
-0970
-0971
-0972
-0973
-0974
-0975
-0976
-0977
-0978
-0979
-0980
-0981
-0982
-0983
-0984
-0985
-0986
-0987
-0988
-0989
-0990
-0991
-0992
-0993
-0994
-0995
-0996
-0997
-0998
-0999
 
 #------------------------
 # Custom Armor
@@ -431,8 +433,8 @@
 9897    Titanite Demon Form
 9898    Manikin Set
 9899    True Manikin Mask
-9901
-9902
+9901    Stone Set
+9902    Guardian Set
 9903
 9904
 9905
@@ -440,64 +442,3 @@
 9907
 9908
 
-# To Get
-Guardian Set (DS1)
-Stone Set (DS1)
-Hawkeye Gough's Set (DS1)
-Aurous Set (DS2)
-Astrologist's Set (DS2)
-Manikin Set (DS2)
-Executioner Set (Bloodborne)
-
-# TODO
-31700000 0840 / 1419 Hands of Sin
-31600000 0864 / 1420 Frying Pan
-31500000 0869 / 1421 Serpentine Chain-axe
-16170000 - 0873 / 1422 Imperious Greatshield
-14220000 - 0867 / 1423 Giant's Bow
-14230000 - 0870 / 1424 Model Ballista
-
-0841    Aldia Hammer   
-0842    Black Scorpion Stinger
-0843    Dragonrider Twinblade
-0844    Drakekeeeper's Great Hammer
-0845    Drakekeeper's Greataxe
-0846    Drakekeeper's Warpick
-0847    Drakewing Ultra Greatsword
-0848    Gargoyle Bident
-0849    Giant Warrior Club
-0850    Helix Halberd
-0851    Malformed Skull
-0852    Melu Scimitar
-0853    Old Knight Halberd
-0854    Old Knight Hammer
-0855    Old Knight Pike
-0856    Red Rust Scimitar
-0857    Roaring Halberd
-0858    Sanctum Mace
-0859    Spider's Silk
-0860    Spitfire Spear (Fire projectile as WA)
-0861    Syan's Halberd
-0862    Warped Sword
-0863    Cracked Round Shield
-0871    Bone Ash Katana
-0872    Fist of Gratia
-0939    Stone Greataxe
-0940    Priscilla's Dagger
-0941    Jagged Ghost Blade
-0943    Hammer of Vamos
-0944    Ghost Blade
-0945    Gargoyle Halberd
-0946    Gargoyle Axe
-0947    Demon's Catalyst
-0948    Crystalline Greatsword
-0949    DS1 Knight Shield
-0950    Effigy Shield
-0951    Blood Shield
-0952    Balder Shield
-0954    Tower Shield
-0955    Ivory King Ultra Greatsword (Add light beam on blade when 2H, damage buff) 
-0956    King's Mirror 
-0957    Thorned Greatsword (Sunlight Bolt as WA)
-0882    Genichiro's Bow
-0893    Okami Bow
