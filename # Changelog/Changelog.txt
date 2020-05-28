@@ -30,53 +30,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Increased the base damage of all the whips.
-- Mendicant's Staff now casts miracles.
-- Man-grub's Staff now casts all schools, and solely scales with LCK.
-- Sunless Talisman can now cast sorceries and miracles.
-- Velka's Talisman can now cast sorceries and miracles.
-- Insanity WA reduces to 30% boost.
 
-# Catalysts
-- Catalyst correction design changed. Each catalyst (both normal and hybrid) get one element they favor (i.e. get 100% of scaling for), all the others are restricted to 80%.
-- The infusions for the hybrids change this in the following ways:
- - Magic/Fire/Lightning/Dark: changes its respective to the early peak 100% curve.
- - Enchanted/Holy: changes the physcial to the early peak 100% curve. (Except if it is sorcery only, in which case Enchanted remains magic).
-- To put it in real terms, the Sunlight Talisman can cast miracles, both lightning and physical damage miracles. It will deal 100% with lightning based ones, but only 80% with physical ones.
-- Pyromancy flames don't get early peak scaling, just normal 100% with Fire.
-
-# Armor
-- Added Manikin Set (+ Crude Manikin Mask): found in the Dreg Heap.
-- Added Stone Knight Set: found in Farron Keep.
-- Added Guardian Knight Set: found in Farron Keep.
-
-# Spells
-- Added Fecal Expulsion: emit 8 dung pies from your mouth, inflicting Toxic. Found in the sewer in Irithyll.
-- Added Overwhelming Power: emit pillars of blue lightning. Transposed from Gael's soul.
-
-# Items
-- All the throwable goods now scale with Luck (and no other stat).
-
-# Map
-- Added Ariandel -> Irithyll warp: commune with the fallen corvian at the top of the chapel.
-- Added Irithyll -> Ariandel warp: commune with the statue in a tucked away section in the Silver Knight gauntlet area.
-- Changed the door in Ariandel Chapel so you open it from within the chapel. This lets you make a choice between the regular route or backwards through the Millwood and Follower area. This also allows you to fight Sister Friede much earlier.
-- Removed the Pus of Men in the Cemetery of Ash.
-- Moved the Burial Knights to make it easier to engage them one-on-one.
-
-# Bugfixes
-- Fixed the Trial enemies appearing if you entered the Soul of Cinder arena after resting at the bonfire.
-- Fixed Cemetery of Ash -> Dreg Heap warp.
-- Fixed some bad model masks.
-- Dreg Heap warp in Sister Friede's room is now correctly disabled when you use her memory.
-- Fixed tailbone/gargoyle weapon drop bug.
-- Pontiff Knight Great Scythe (and any other weapons that use its behavior) now has the correct motion value setup (i.e. sweetspot mechanic removed).
-- Adjusted the correction for various spell tools where it was wrong.
-- Curse of Vitality has a reduced effect in the Trial, only restore a flat 5 HP per second.
-- Fixed a few WA attacks that allowed for excessive on hit effects (they no longer apply the effects during those attacks).
-- Fixed Dragon Bone Smasher texture bug.
-- Fixed Hands of God texture bug.
 
 #------------------------------
 # TODO
@@ -94,5 +48,4 @@ Add Gravelord FFX, add Gravelord Sword Dance
 16170000 - 0873 / 1422 Imperious Greatshield
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
-
 
