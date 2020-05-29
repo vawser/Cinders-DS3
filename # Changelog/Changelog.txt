@@ -39,6 +39,8 @@
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
+- Increased the damage of enemies in early levels.
+- Increased defence multiplier for enemies in levels.
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
