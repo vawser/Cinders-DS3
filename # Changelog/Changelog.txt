@@ -36,6 +36,7 @@
 - Jester's Talisman now scales with Luck.
 - Changed the damage affinity system. Rather than reducing the other types, it simply gives the main type an early boost.
 - Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
+- Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.

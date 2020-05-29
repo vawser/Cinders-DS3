@@ -265,7 +265,7 @@ Handmaid's Ladle
 # All Schools
 Heretic's Staff             - Dark
 Insanity Catalyst           - Any
-Man-grub's Staff            - Physical
+Man-grub's Staff            - Magic
 
 # Sorcery / Miracles
 Archdeacon's Great Staff    - Dark
@@ -274,7 +274,7 @@ Crystal Chime               - Magic
 
 # Miracles / Pyromancy
 White Hair Talisman         - Fire
-Holy Flame                  - Physical
+Holy Flame                  - Lightning
 Smouldering Talisman        - Fire
 
 # Sorcery / Pyromancy 
@@ -295,34 +295,32 @@ Consumed King's Staff       - Dark
 
 # Miracles
 Talisman                    - Lightning
-Cleric's Sacred Chime       - Physical
+Cleric's Sacred Chime       - Lightning
 Fallen Priest's Chime       - Dark
-Yorshka's Chime             - Physical
-Saint-tree Bellvine         - Physical
+Yorshka's Chime             - Lightning
+Saint-tree Bellvine         - Lightning
 Caitha's Chime              - Dark
 Sunlight Talisman           - Lightning
 Corrupted Talisman          - Dark
-Sunless Talisman            - Physical
-Saint's Talisman            - Physical
-Sacred Chime of Filianore   - Physical
-Jester's Talisman           - Physical
+Sunless Talisman            - Magic
+Saint's Talisman            - Lightning
+Sacred Chime of Filianore   - Lightning
+Jester's Talisman           - Lightning
 Talisman of Beasts          - Dark
-Rotten Talisman             - Physical
-Mendicant's Staff           - Physical
+Rotten Talisman             - Lightning
+Mendicant's Staff           - Lightning
 
 # Pyromancy
 Pyromancy Flame             - Fire
 Pyromancer's Parting Flame  - Fire
 Black Flame                 - Dark
-Fool's Flame                - Physical
+Fool's Flame                - Fire
 Chaos Flame                 - Fire
 Abyssal Flame               - Dark
 
 #------------------------
 # Hybrid Tools
 #------------------------
-Effective at inflicting Magic damage.
-
 # All Schools
 Cleric's Candlestick    - Dark
 
