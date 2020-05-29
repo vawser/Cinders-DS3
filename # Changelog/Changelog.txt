@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Companions
+- Now reduce soul absorption by 80% once summoned (will last until loadscreen/death).
+
 # Catalysts
 - Insanity Catalyst has slightly more scaling, only requires 50 INT/FTH.
 - Fool's Flame now scales with Luck.

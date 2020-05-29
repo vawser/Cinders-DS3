@@ -6369,6 +6369,7 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_1) {
     // Move to Player and Set Effects
     SetSpeffect(X0_4, X12_4);
     SetSpeffect(X0_4, 160760100);
+    SetSpeffect(10000, 160761200);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
     EndUnconditionally(EventEndType.Restart);
