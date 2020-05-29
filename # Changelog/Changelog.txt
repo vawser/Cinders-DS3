@@ -30,7 +30,20 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Catalysts
+- Insanity Catalyst has slightly more scaling, only requires 50 INT/FTH.
+- Fool's Flame now scales with Luck.
+- Jester's Talisman now scales with Luck.
+- Changed the damage affinity system. Rather than reducing the other types, it simply gives the main type an early boost.
+- Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
 
+# Enemies
+- Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
+
+# Items
+- Ragged Mask is now part of the Swordmaster's drop.
+- Fixed an issue with some curses breaking weapon override effects.
+- Fixed issue with script check causing companions to be visible at map transitions.
 
 #------------------------------
 # TODO
