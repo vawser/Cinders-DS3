@@ -541,8 +541,8 @@ Divine Pillars of Light
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 250
-- Fire Damage: 80 [80] 
-- Ascended Effect: impacts leave lava pools.
+- Fire Damage: 60 [60] 
+- Ascended Effect: emits an additional fireball.
 
 #--------------------------------
 # Boulder Heave

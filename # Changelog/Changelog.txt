@@ -44,7 +44,8 @@
 
 # Spells
 - Adjusted the FP/damage of a few spells.
-- Dark Bead now has a random spread and less homing.
+- Dark Bead now has a more random spread and delayed tracking.
+- Bursting Fireball no longer drops pools of lava, rather additional fireballs are emitted whilst ascended.
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
@@ -70,7 +71,9 @@ Add Gravelord FFX, add Gravelord Sword Dance
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
 31500000 0869 / 1421 Serpentine Chain-axe
+
 16170000 - 0873 / 1422 Imperious Greatshield
+
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
