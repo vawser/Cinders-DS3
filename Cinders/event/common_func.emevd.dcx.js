@@ -4509,7 +4509,9 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
 });
 
+//----------------------------------------------
 // Spawn Control - NG+
+//----------------------------------------------
 Event(20008000, Restart, function(X0_4, X4_1) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4530,7 +4532,9 @@ Event(20008000, Restart, function(X0_4, X4_1) {
     RequestCharacterAIReplan(X0_4);
 });
 
+//----------------------------------------------
 // Spawn Control - Event Flag
+//----------------------------------------------
 Event(20008010, Restart, function(X0_4, X4_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4551,7 +4555,9 @@ Event(20008010, Restart, function(X0_4, X4_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+//----------------------------------------------
 // Spawn Control - NG+ and Event Flag
+//----------------------------------------------
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -4573,13 +4579,17 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
     RequestCharacterAIReplan(X0_4);
 });
 
+//----------------------------------------------
 // Spawn Control - Disable By Default
+//----------------------------------------------
 Event(20008030, Restart, function(X0_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 });
 
+//----------------------------------------------
 // Spawn Control - Curse of Attraction
+//----------------------------------------------
 Event(20008040, Restart, function(X0_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4600,7 +4610,9 @@ Event(20008040, Restart, function(X0_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+//----------------------------------------------
 // Spawn Control - OTE - With Itemlot
+//----------------------------------------------
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4615,7 +4627,9 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
 // Spawn Control - OTE - NG+ - With Itemlot
+//----------------------------------------------
 Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4639,7 +4653,9 @@ Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
 // Spawn Control - OTE - Event Flag - With Itemlot
+//----------------------------------------------
 Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -4663,7 +4679,9 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
 // Spawn Control - OTE - No Itemlot
+//----------------------------------------------
 Event(20008150, Default, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -4677,7 +4695,9 @@ Event(20008150, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
 // Warp to Location 
+//----------------------------------------------
 Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4687,7 +4707,9 @@ Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+//----------------------------------------------
 // Warp to Location - Wait for Flag
+//----------------------------------------------
 Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
@@ -4698,7 +4720,9 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4)
 });
 
+//----------------------------------------------
 // Warp to Location, set Flag
+//----------------------------------------------
 Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4709,7 +4733,9 @@ Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+//----------------------------------------------
 // Warp to Location - Firelink Shrine
+//----------------------------------------------
 Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4718,7 +4744,9 @@ Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+//----------------------------------------------
 // Warp to Location - Untended Graves
+//----------------------------------------------
 Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4729,7 +4757,9 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+//----------------------------------------------
 // Trial - Warp To
+//----------------------------------------------
 Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4740,7 +4770,10 @@ Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
     SetEventFlag(250002000, ON);
 });
 
+//----------------------------------------------
 // Trial - Warp From
+// <object id>, <action button id>, <map id>, <warp point id>, <flag>
+//----------------------------------------------
 Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
@@ -4752,7 +4785,10 @@ Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     WarpPlayer(X8_1, 0, X12_4);
 });
 
+//----------------------------------------------
 // Treasure Control - NG+ = X
+// <object id>, <game cycle value>
+//----------------------------------------------
 Event(20009000, Default, function(X0_4, X4_1) {
     IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
@@ -4764,7 +4800,10 @@ Event(20009000, Default, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
+//----------------------------------------------
 // Treasure Control - NG+ => X
+// <object id>, <game cycle value>
+//----------------------------------------------
 Event(20009100, Default, function(X0_4, X4_1) {
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
@@ -4776,7 +4815,10 @@ Event(20009100, Default, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
+//----------------------------------------------
 // NPC Kill Emote
+// <entity id>, <animation id>
+//----------------------------------------------
 Event(20009201, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
@@ -4785,7 +4827,9 @@ Event(20009201, Default, function(X0_4, X4_4) {
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
+//----------------------------------------------
 // Setup Game Flags
+//----------------------------------------------
 Event(20009300, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
@@ -4840,10 +4884,9 @@ Event(20009300, Default, function() {
     SetEventFlag(25000099, ON); // Execution flag
 });
 
-//--------------------------------------------------------------
-// Boss Kill
-//--------------------------------------------------------------
-// Corrupted Gundyr
+//----------------------------------------------
+// Corrupted Gundyr - Boss Kill
+//----------------------------------------------
 Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001001, ON); // Boss Killed
@@ -4889,7 +4932,9 @@ Event(20020000, Default, function() {
     AwardItemLot(800200310);
 });
 
-// Vordt of the Boreal Valley
+//----------------------------------------------
+// Vordt of the Boreal Valley - Boss Kill
+//----------------------------------------------
 Event(20020001, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001002, ON); // Boss Killed
@@ -4935,7 +4980,9 @@ Event(20020001, Default, function() {
     AwardItemLot(800200300);
 });
 
-// Curse-rotted Greatwood
+//----------------------------------------------
+// Curse-rotted Greatwood - Boss Kill
+//----------------------------------------------
 Event(20020002, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001003, ON);// Boss Killed
@@ -4981,7 +5028,9 @@ Event(20020002, Default, function() {
     AwardItemLot(800200300);
 });
 
-// Crystal Sage
+//----------------------------------------------
+// Crystal Sage - Boss Kill
+//----------------------------------------------
 Event(20020003, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001004, ON); // Boss Killed
@@ -5027,7 +5076,9 @@ Event(20020003, Default, function() {
     AwardItemLot(800200310);
 });
 
-// Deacons of the Deep
+//----------------------------------------------
+// Deacons of the Deep - Boss Kill
+//----------------------------------------------
 Event(20020004, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001005, ON); // Boss Killed
@@ -5073,7 +5124,9 @@ Event(20020004, Default, function() {
     AwardItemLot(800200310);
 });
 
-// Abyss Watchers
+//----------------------------------------------
+// Abyss Watchers - Boss Kill
+//----------------------------------------------
 Event(20020005, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001006, ON); // Boss Killed
@@ -5119,7 +5172,9 @@ Event(20020005, Default, function() {
     AwardItemLot(800200320);
 });
 
-// High Lord Wolnir
+//----------------------------------------------
+// High Lord Wolnir - Boss Kill
+//----------------------------------------------
 Event(20020006, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001007, ON); // Boss Killed
@@ -5165,7 +5220,9 @@ Event(20020006, Default, function() {
     AwardItemLot(800200300);
 });
 
-// Old Demon King
+//----------------------------------------------
+// Old Demon King - Boss Kill
+//----------------------------------------------
 Event(20020007, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001008, ON); // Boss Killed
@@ -5211,7 +5268,9 @@ Event(20020007, Default, function() {
     AwardItemLot(800200310);
 });
 
-// Pontiff Sulyvahn
+//----------------------------------------------
+// Pontiff Sulyvahn - Boss Kill
+//----------------------------------------------
 Event(20020008, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001009, ON); // Boss Killed
@@ -5257,7 +5316,9 @@ Event(20020008, Default, function() {
     AwardItemLot(800200320);
 });
 
-// Aldrich, Devourer of Gods
+//----------------------------------------------
+// Aldrich, Devourer of Gods - Boss Kill
+//----------------------------------------------
 Event(20020009, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001010, ON); // Boss Killed
@@ -5303,7 +5364,9 @@ Event(20020009, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Yhorm the Giant
+//----------------------------------------------
+// Yhorm the Giant - Boss Kill
+//----------------------------------------------
 Event(20020010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001011, ON); // Boss Killed
@@ -5349,7 +5412,9 @@ Event(20020010, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Dancer of the Boreal Valley
+//----------------------------------------------
+// Dancer of the Boreal Valley - Boss Kill
+//----------------------------------------------
 Event(20020011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001012, ON); // Boss Killed
@@ -5395,7 +5460,9 @@ Event(20020011, Default, function() {
     AwardItemLot(800200320);
 });
 
-// Oceiros, the Consumed King
+//----------------------------------------------
+// Oceiros, the Consumed King - Boss Kill
+//----------------------------------------------
 Event(20020012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001013, ON); // Boss Killed
@@ -5441,7 +5508,9 @@ Event(20020012, Default, function() {
     AwardItemLot(800200320);
 });
 
-// Dragonslayer Armour
+//----------------------------------------------
+// Dragonslayer Armour - Boss Kill
+//----------------------------------------------
 Event(20020013, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001014, ON); // Boss Killed
@@ -5487,7 +5556,9 @@ Event(20020013, Default, function() {
     AwardItemLot(800200320);
 });
 
-// Ancient Wyvern
+//----------------------------------------------
+// Ancient Wyvern - Boss Kill
+//----------------------------------------------
 Event(20020014, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001015, ON); // Boss Killed
@@ -5533,7 +5604,9 @@ Event(20020014, Default, function() {
     AwardItemLot(800200300);
 });
 
-// Nameless King
+//----------------------------------------------
+// Nameless King - Boss Kill
+//----------------------------------------------
 Event(20020015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001016, ON); // Boss Killed
@@ -5579,7 +5652,9 @@ Event(20020015, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Champion Gundyr
+//----------------------------------------------
+// Champion Gundyr - Boss Kill
+//----------------------------------------------
 Event(20020016, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001017, ON); // Boss Killed
@@ -5625,7 +5700,9 @@ Event(20020016, Default, function() {
     AwardItemLot(800200320);
 });
 
-// Twin Princes
+//----------------------------------------------
+// Twin Princes - Boss Kill
+//----------------------------------------------
 Event(20020017, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001018, ON); // Boss Killed
@@ -5671,7 +5748,9 @@ Event(20020017, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Soul of Cinder
+//----------------------------------------------
+// Soul of Cinder - Boss Kill
+//----------------------------------------------
 Event(20020018, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001019, ON); // Boss Killed
@@ -5717,7 +5796,9 @@ Event(20020018, Default, function() {
     AwardItemLot(800200340);
 });
 
-// Sister Friede
+//----------------------------------------------
+// Sister Friede - Boss Kill
+//----------------------------------------------
 Event(20020019, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001020, ON); // Boss Killed
@@ -5763,7 +5844,9 @@ Event(20020019, Default, function() {
     AwardItemLot(800200340);
 });
 
-// Lordran Remnants
+//----------------------------------------------
+// Lordran Remnants - Boss Kill
+//----------------------------------------------
 Event(20020020, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001021, ON); // Boss Killed
@@ -5809,7 +5892,9 @@ Event(20020020, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Demon Prince
+//----------------------------------------------
+// Demon Prince - Boss Kill
+//----------------------------------------------
 Event(20020021, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001022, ON); // Boss Killed
@@ -5855,7 +5940,9 @@ Event(20020021, Default, function() {
     AwardItemLot(800200330);
 });
 
-// Darkeater Midir 
+//----------------------------------------------
+// Darkeater Midir - Boss Kill
+//----------------------------------------------
 Event(20020022, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001023, ON); // Boss Killed
@@ -5901,7 +5988,9 @@ Event(20020022, Default, function() {
     AwardItemLot(800200340);
 });
 
-// Slave Knight Gael
+//----------------------------------------------
+// Slave Knight Gael - Boss Kill
+//----------------------------------------------
 Event(20020023, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001024, ON); // Boss Killed
@@ -5947,7 +6036,9 @@ Event(20020023, Default, function() {
     AwardItemLot(800200340);
 });
 
-// Halflight
+//----------------------------------------------
+// Halflight - Boss Kill
+//----------------------------------------------
 Event(20020024, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001025, ON); // Boss Killed
@@ -5994,160 +6085,210 @@ Event(20020024, Default, function() {
     
 });
 
-//--------------------------------------------------------------
-// Boss Start
-//--------------------------------------------------------------
+//----------------------------------------------
 // Corrupted Gundyr - Boss Start
+//----------------------------------------------
 Event(20020100, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Vordt of the Boreal Valley - Boss Start
+//----------------------------------------------
 Event(20020101, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Curse-rotted Greatwood - Boss Start
+//----------------------------------------------
 Event(20020102, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Crystal Sage - Boss Start
+//----------------------------------------------
 Event(20020103, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Deacons of the Deep - Boss Start
+//----------------------------------------------
 Event(20020104, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Abyss Watchers - Boss Start
+//----------------------------------------------
 Event(20020105, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // High Lord Wolnir - Boss Start
+//----------------------------------------------
 Event(20020106, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Old Demon King - Boss Start
+//----------------------------------------------
 Event(20020107, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Pontiff Sulyvahn - Boss Start
+//----------------------------------------------
 Event(20020108, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Aldrich, Devourer of Gods - Boss Start
+//----------------------------------------------
 Event(20020109, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Yhorm the Giant - Boss Start
+//----------------------------------------------
 Event(20020110, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
    
 });
 
+//----------------------------------------------
 // Dancer of the Boreal Valley - Boss Start
+//----------------------------------------------
 Event(20020111, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Oceiros, the Consumed King - Boss Start
+//----------------------------------------------
 Event(20020112, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Dragonslayer Armour - Boss Start
+//----------------------------------------------
 Event(20020113, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Ancient Wyvern - Boss Start
+//----------------------------------------------
 Event(20020114, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Nameless King - Boss Start
+//----------------------------------------------
 Event(20020115, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Champion Gundyr - Boss Start
+//----------------------------------------------
 Event(20020116, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Twin Princes - Boss Start
+//----------------------------------------------
 Event(20020117, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Soul of Cinder - Boss Start
+//----------------------------------------------
 Event(20020118, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Sister Friede - Boss Start
+//----------------------------------------------
 Event(20020119, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
-// The Triad - Boss Start
+//----------------------------------------------
+// Lordran Remnants - Boss Start
+//----------------------------------------------
 Event(20020120, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Demon Prince - Boss Start
+//----------------------------------------------
 Event(20020121, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Darkeater Midir - Boss Start
+//----------------------------------------------
 Event(20020122, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Slave Knight Gael - Boss Start
+//----------------------------------------------
 Event(20020123, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
+//----------------------------------------------
 // Halflight - Boss Start
+//----------------------------------------------
 Event(20020124, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
 });
 
-// Region Warp - Entity ID, Warp Event Point ID, Region ID, FFX ID, FFX Dummy ID
+//----------------------------------------------
+// Region Warp
+// <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
+//----------------------------------------------
 Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
     IfConditionGroup(MAIN, PASS, OR_01);
@@ -6162,7 +6303,10 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart)
 });
 
-// Object Warp - Entity ID, Object ID, Action Param ID, Warp Point ID, FFX ID, FFX Dummy ID
+//----------------------------------------------
+// Object Warp
+// <entity id>, <object id>, <action param id>, <warp point id>, <ffx id>, <dummy poly id>
+//----------------------------------------------
 Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     IfActionButtonInArea(OR_01, X8_4, X4_4);
     IfConditionGroup(MAIN, PASS, OR_01);
@@ -6177,7 +6321,10 @@ Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.Restart)
 });
 
-// Damage Warp - Entity ID, Warp Event Point ID, Target ID, FFX ID, FFX Dummy ID,
+//----------------------------------------------
+// Damage Warp
+// <entity id>, <warp point id>, <target id>, <ffx id>, <dummy poly id>
+//----------------------------------------------
 Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     IfCharacterDamagedBy(OR_01, X8_4, X0_4);
     IfConditionGroup(MAIN, PASS, OR_01);
@@ -6192,27 +6339,10 @@ Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart)
 });
 
-// Boss Fight System - Add Effect - End Flag, Trigger Flag, Entity ID, SpEffect ID
-Event(20030000, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X4_4);
-    SetSpeffect(X8_4, X12_4);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Boss Fight System - Award Itemlot - Kill End Flag, End State Flag, Award State Flag, Itemlot ID, Entity ID, SpEffect ID
-Event(20030100, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X8_4);
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X0_4);
-    AwardItemLot(X12_4);
-    SetEventFlag(X8_4, OFF);
-    ClearSpeffect(X16_4, X20_4);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Estus Pot - Object ID, Area Entity ID, FFX ID, Drink FFX ID, SpEffect ID
+//----------------------------------------------
+// Estus Pot
+// <object id>, <area entity id>, <ffx id>, <ffx drink id>, <speffect id>
+//----------------------------------------------
 Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetNetworkSyncState(Disabled);
@@ -6228,7 +6358,9 @@ Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
+//----------------------------------------------
 // Read Engraving
+//----------------------------------------------
 Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
     IfActionButtonInArea(MAIN, X8_4, X4_4);
@@ -6237,52 +6369,18 @@ Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Check Player Death for Firelink Return
+//----------------------------------------------
 Event(20060001, Restart, function() {
     IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     SetMapCeremony(40, 0, 0);
 });
 
-// Trial of Peseverance - Enemy Wave Damage
-Event(20060010, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfCharacterHPRatio(AND_01, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetSpeffect(5300500, X4_4);
-    
-    IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    WaitForConditionGroupState(PASS, AND_02);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Trial of Peseverance - Enemy - Enforce State
-Event(20060011, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterImmortality(X0_4, Disabled);
-    SetCharacterInvincibility(X0_4, Disabled);
-    SetCharacterHPBarDisplay(X0_4, Enabled);
-    
-    WaitFixedTimeSeconds(1.0);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Trial of Peseverance - Enemy - Kill on Wave End
-Event(20060012, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfCharacterHPRatio(AND_01, 5300500, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetSpeffect(X0_4, 260200002);
-    WaitFixedTimeSeconds(1.0);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Summon Setup- Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID
+//----------------------------------------------
+// Summon Setup
+// <summon flag, <dismiss flag>, <entity id>, <spawn point id>
+//----------------------------------------------
 Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X8_4, AuthorityLevel.Forced);
@@ -6296,7 +6394,10 @@ Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X8_4, X12_4, X0_4, X4_4);
 });
 
-// Summon Setup - Apperance - Summon Flag, Dismissal Flag, Boss Flag, Entity ID
+//----------------------------------------------
+// Summon Setup - Apperance
+// <summon flag, <dismiss flag>, <trigger flag>, <entity id>
+//----------------------------------------------
 Event(20070001, Default, function(X0_4, X4_4, X8_4) {
     ChangeCharacterEnableState(X8_4, Disabled);
     SetCharacterAnimationState(X8_4, Disabled);
@@ -6312,7 +6413,10 @@ Event(20070001, Default, function(X0_4, X4_4, X8_4) {
     SetCharacterDefaultBackreadState(X8_4, Disabled);
 });
 
+//----------------------------------------------
 // Summon Setup - Player Check (If Dead)
+// 
+//----------------------------------------------
 Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
     IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
@@ -6344,38 +6448,56 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Companion - Setup in Map
-Event(20080000, Restart, function(X0_4, X4_4) {
+//----------------------------------------------
+// Companion - Appearance Monitor
+// <entity id>
+//----------------------------------------------
+Event(20080000, Restart, function(X0_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, false);
+    SetCharacterBackreadState(X0_4, true);
+    
+    // Clear companions when one is summoned
+    IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Companion - Warp to Player
-Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_1) {
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+//----------------------------------------------
+Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    IfPlayerInoutMap(AND_01, true, X16_1, X20_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X8_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
     WaitForConditionGroupState(PASS, AND_01);
+    
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    WaitFixedTimeSeconds(0.1);
     
     // Enable
     SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
     
     // Move to Player and Set Effects
-    SetSpeffect(X0_4, X12_4);
-    SetSpeffect(X0_4, 160760100);
-    SetSpeffect(10000, 160761200);
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Curse - Spawn Control
+// <entity id>, <trigger flag>
+//----------------------------------------------
 Event(20081000, Restart, function(X0_4, X4_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -6396,19 +6518,28 @@ Event(20081000, Restart, function(X0_4, X4_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
+//----------------------------------------------
 // Curse - Add SpEffect
+// <entity id>, <speffect id>, <trigger flag>
+//----------------------------------------------
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
 
+//----------------------------------------------
 // Curse - Add Random SpEffect
+// <entity id>, <speffect id>, <trigger flag>
+//----------------------------------------------
 Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
 });
 
+//----------------------------------------------
 // Company of Champions - Add SpEffect
+// <entity id>, <speffect id>, <trigger flag>
+//----------------------------------------------
 Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -6421,7 +6552,10 @@ Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Enemy - Award Itemlot - Special Boss Case
+// <entity id>, <itemlot id>, <speffect id>
+//----------------------------------------------
 Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     
@@ -6433,7 +6567,10 @@ Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
 // Talk Menu - Setup
+// <entity id>
+//----------------------------------------------
 Event(20081030, Default, function(X0_4) {
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterGravity(X0_4, Disabled);
@@ -6458,7 +6595,10 @@ Event(20081030, Default, function(X0_4) {
     ChangeCharacterDispmask(X0_4, 18, OFF);
 });
 
+//----------------------------------------------
 // Primordial Drops - Guaranteed, Hard, Med, Easy
+// <itemlot id>, <itemlot id>, <itemlot id>, <itemlot id>
+//----------------------------------------------
 Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // No Hit
     //SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);

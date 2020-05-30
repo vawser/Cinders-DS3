@@ -534,14 +534,14 @@ Divine Pillars of Light
 # Floating Chaos
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 150 (per bullet)
+- Fire Damage: 250 (per bullet)
 - Ascended Effect: emits more fireballs.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 250
-- Fire Damage: 60 [60] 
+- Fire Damage: 80 [80] 
 - Ascended Effect: impacts leave lava pools.
 
 #--------------------------------
@@ -569,14 +569,14 @@ Divine Pillars of Light
 # Heave Earth
 #--------------------------------
 - FP Cost: 500
-- Physical Damage: 750 
+- Physical Damage: 900 
 - Ascended Effect: costs 400 FP.
 
 #--------------------------------
 # Earthquake
 #--------------------------------
 - FP Cost: 75
-- Physical Damage: 600 
+- Physical Damage: 700 
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -590,7 +590,7 @@ Divine Pillars of Light
 # Earthfall
 #--------------------------------
 - FP Cost: 600
-- Fire Damage: 800
+- Physical Damage: 800
 - Ascended Effect: emits more boulders.
 
 #--------------------------------
@@ -779,8 +779,8 @@ Divine Pillars of Light
 #--------------------------------
 # Divine Pillars of Light
 #--------------------------------
-- FP Cost: 75
-- Physical Damage: 500
+- FP Cost: 60
+- Physical Damage: 800
 - FTH Req: 30
 - Ascended Effect: expands area of effect.
 
@@ -1146,7 +1146,7 @@ Divine Pillars of Light
 # Dreg Torrent
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 100 (per bullet)
+- Dark Damage: 200 (per bullet)
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: inflicts 10 Curse per bullet.
@@ -1215,21 +1215,21 @@ Divine Pillars of Light
 # Black Serpent
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 750
+- Dark Damage: 900
 - Ascended Effect: expends the length.
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 250 (per bullet)
+- Dark Damage: 180 (per bullet)
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Recollection  
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 150 (per bullet)
+- Dark Damage: 250 (per bullet)
 - Ascended Effect: emits more orbs.
 
 #--------------------------------
