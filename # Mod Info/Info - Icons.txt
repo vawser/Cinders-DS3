@@ -204,18 +204,18 @@
 2127 Guardian Armor
 2128 Guardian Gauntlets
 2129 Guardian Leggings
-2130 
-2131 
-2132 
-2133 
-2134 
-2135 
-2136 
-2137 
-2138 
-2139 
-2140 
-2141 
+2130 Gough's Helm
+2131 Gough's Chest
+2132 Gough's Gloves
+2133 Gough's Leggings
+2134 Mask of the Sealer
+2135 Crimson Robe
+2136 Crimson Gloves
+2137 Crimson Waistcloth
+2138 Six-Eyed Helm of the Channelers
+2139 Robe of the Channelers
+2140 Gauntlets of the Channelers 
+2141 Waistcloth of the Channelers
 2142 
 2143 
 
@@ -581,14 +581,14 @@
 7086 Golem Armor
 7087 Golem Gauntlets
 7088 Golem Leggings
-7089
-7090
-7091
-7092
-7093
-7094
-7095
-7096
+7089 Moon Hat
+7090 Astrologist's Robe
+7091 Astrologist's Gauntlets
+7092 Astrologist's Bottoms
+7093 Helm of Aurous
+7094 Armor of Aurous
+7095 Gauntlets of Aurous
+7096 Leggings of Aurous
 7097
 7098
 7099

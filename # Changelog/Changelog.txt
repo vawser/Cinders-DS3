@@ -46,6 +46,8 @@
 - Adjusted the FP/damage of a few spells.
 - Dark Bead now has a more random spread and delayed tracking.
 - Bursting Fireball no longer drops pools of lava, rather additional fireballs are emitted whilst ascended.
+- Cleaned up how damage is dealt by various spells (i.e. removed several secondary hits.
+- Lightning Spear spells now deal big stamina and poise damage with their melee portion.
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
@@ -62,12 +64,6 @@
 # TODO
 #------------------------------
 # TODO
-Curse of Pandemonium - Add stuff
-Add some boss arenas for small boss encounters
-Add humanity sprite enemy
-
-Add Gravelord FFX, add Gravelord Sword Dance
-
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
 31500000 0869 / 1421 Serpentine Chain-axe
@@ -77,3 +73,45 @@ Add Gravelord FFX, add Gravelord Sword Dance
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
+Curse of Pandemonium - Add stuff
+Add some boss arenas for small boss encounters
+Add humanity sprite enemy
+
+Add Gravelord FFX, add Gravelord Sword Dance
+
+Adjust spells based on feedback from discord
+
+# 10010000
+9903    Gough's Set
+    2130 Gough's Helm
+    2131 Gough's Chest
+    2132 Gough's Gloves
+    2133 Gough's Leggings
+    
+# 10020000
+9904    Crimson Set
+    2134 Mask of the Sealer
+    2135 Crimson Robe
+    2136 Crimson Gloves
+    2137 Crimson Waistcloth
+
+# 10030000
+9905    Channeler Set
+    2138 Six-Eyed Helm of the Channelers
+    2139 Robe of the Channelers
+    2140 Gauntlets of the Channelers 
+    2141 Waistcloth of the Channelers
+
+# 10040000
+9906    Astrologist Set
+    7089 Moon Hat
+    7090 Astrologist's Robe
+    7091 Astrologist's Gauntlets
+    7092 Astrologist's Bottoms
+
+# 10050000
+9907    Aurous Set
+    7093 Helm of Aurous
+    7094 Armor of Aurous
+    7095 Gauntlets of Aurous
+    7096 Leggings of Aurous

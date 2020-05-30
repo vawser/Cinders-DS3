@@ -450,21 +450,21 @@ Divine Pillars of Light
 # Flame Fan
 #--------------------------------
 - FP Cost: 100
-- Fire Damage: 200
+- Fire Damage: 300
 - Ascended Effect: costs 50 FP.
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 200
-- Fire Damage: 300 [200]
+- Fire Damage: 300
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 300
-- Fire Damage: 400 [200] 
+- Fire Damage: 400
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
@@ -492,7 +492,7 @@ Divine Pillars of Light
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 400
-- Fire Damage: 500 [100] [350] 
+- Fire Damage: 500 [350] 
 - Ascended Effect: extends the duration of the lava pool to 8 seocnds.
 
 #--------------------------------
@@ -520,7 +520,7 @@ Divine Pillars of Light
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 750 [100] 
+- Fire Damage: 750
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
@@ -548,7 +548,7 @@ Divine Pillars of Light
 # Boulder Heave
 #--------------------------------
 - FP Cost: 500
-- Physical Damage: 800 [250]
+- Physical Damage: 800
 - Ascended Effect: increases poise damage and shoots further.
 
 #--------------------------------
@@ -732,7 +732,7 @@ Divine Pillars of Light
 # Lightning Spear
 #--------------------------------
 - FP Cost: 250
-- Lightning Damage: 300 [50] [100] 
+- Lightning Damage: 300 [50] [200] 
 - FTH Req: 16
 - Ascended Effect: increases poise damage and tracking.
 
@@ -740,7 +740,7 @@ Divine Pillars of Light
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 350
-- Lightning Damage: 400 [50] [100] 
+- Lightning Damage: 400 [50] [200] 
 - FTH Req: 30
 - Ascended Effect: increases poise damage and tracking.
 
@@ -748,7 +748,7 @@ Divine Pillars of Light
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 500
-- Lightning Damage: 600 [50] [100] 
+- Lightning Damage: 600 [50] [200] 
 - FTH Req: 40
 - Ascended Effect: increases poise damage and tracking.
 
@@ -1194,7 +1194,7 @@ Divine Pillars of Light
 # Black Fire Orb
 #--------------------------------
 - FP Cost: 300
-- Dark Damage: 400 [250] 
+- Dark Damage: 400
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
