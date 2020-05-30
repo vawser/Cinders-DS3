@@ -50,6 +50,7 @@
 - Ragged Mask is now part of the Swordmaster's drop.
 - Fixed an issue with some curses breaking weapon override effects.
 - Fixed issue with script check causing companions to be visible at map transitions.
+- Fixed bug with normal Priest's Candlestick not having the ascension effect.
 
 #------------------------------
 # TODO
