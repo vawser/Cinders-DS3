@@ -2527,11 +2527,8 @@ Event(400400, Default, function(X0_4) {
     SetEventFlag(13900360, OFF); // Court Sorcerer
     SetEventFlag(9500, OFF); // Sword Master
     SetEventFlag(15000180, OFF); // Desert Pyromancer Zoey
-    SetEventFlag(13410256, OFF); // Dragon Knight Oswald
-    SetEventFlag(13410257, OFF); // Dragon Knight Terrill
-    SetEventFlag(13410258, OFF); // Dragon Knight Lyre
-    SetEventFlag(14100810, OFF); // Lord Erectus
-    SetEventFlag(14500660, OFF); // Ezekiel the Penetrator
+    SetEventFlag(14100810, OFF); // Lord Zakar
+    SetEventFlag(14500660, OFF); // Ezekiel the Duelist
     SetEventFlag(14500661, OFF); // Eija the Shadow
     SetEventFlag(15000600, OFF); // Dulfisk the Accursed
     SetEventFlag(15100650, OFF); // Glaive Master Hodir

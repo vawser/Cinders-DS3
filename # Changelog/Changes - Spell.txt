@@ -457,49 +457,49 @@ Divine Pillars of Light
 # Fireball
 #--------------------------------
 - FP Cost: 200
-- Fire Damage: 300
+- Fire Damage: 350
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 300
-- Fire Damage: 400
+- Fire Damage: 550
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 500 
+- Fire Damage: 750 
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 150
+- Fire Damage: 200
 - Ascended Effect: hits more often.
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
 - FP Cost: 400
-- Fire Damage: 600 [200] 
+- Fire Damage: 800
 - Ascended Effect: deals more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 400
-- Fire Damage: 500 [350] 
+- Fire Damage: 650 [350] 
 - Ascended Effect: extends the duration of the lava pool to 8 seocnds.
 
 #--------------------------------
 # Chaos Storm
 #--------------------------------
 - FP Cost: 75
-- Fire Damage: 600 [350] 
+- Fire Damage: 900 [350] 
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -513,35 +513,35 @@ Divine Pillars of Light
 # Profaned Flame
 #--------------------------------
 - FP Cost: 300
-- Fire Damage: 400
+- Fire Damage: 500
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 750
+- Fire Damage: 900
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Cataclysm
 #--------------------------------
 - FP Cost: 600
-- Fire Damage: 800
+- Fire Damage: 1000
 - Ascended Effect: emits more orbs.
 
 #--------------------------------
 # Floating Chaos
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 250 (per bullet)
+- Fire Damage: 300 (per bullet)
 - Ascended Effect: emits more fireballs.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 250
-- Fire Damage: 60 [60] 
+- Fire Damage: 75
 - Ascended Effect: emits an additional fireball.
 
 #--------------------------------
@@ -562,7 +562,7 @@ Divine Pillars of Light
 # Seething Chaos
 #--------------------------------
 - FP Cost: 400
-- Fire Damage: 300 [900] 
+- Fire Damage: 300 [1200] 
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
@@ -576,21 +576,21 @@ Divine Pillars of Light
 # Earthquake
 #--------------------------------
 - FP Cost: 75
-- Physical Damage: 700 
+- Physical Damage: 900 
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 500
-- Fire Damage: 100
+- Fire Damage: 200
 - Ascended Effect: extends duration to 30 seconds.
 
 #--------------------------------
 # Earthfall
 #--------------------------------
 - FP Cost: 600
-- Physical Damage: 800
+- Physical Damage: 1000
 - Ascended Effect: emits more boulders.
 
 #--------------------------------
@@ -618,7 +618,7 @@ Divine Pillars of Light
 # Immolation
 #--------------------------------
 - FP Cost: 400
-- Base Effect: burns oneself for 1% damage, radiating a flame aura that deals 100 damage to enemies every second for 15 seconds.
+- Base Effect: burns oneself for 1% damage, radiating a flame aura that deals 250 damage to enemies every second for 15 seconds.
 - Ascended Effect: burns oneself for 0.25% damage.
 
 #--------------------------------
@@ -1187,14 +1187,14 @@ Divine Pillars of Light
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 250
-- Dark Damage: 120 
+- Dark Damage: 250 
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
 - FP Cost: 300
-- Dark Damage: 400
+- Dark Damage: 500
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
@@ -1208,7 +1208,7 @@ Divine Pillars of Light
 # Black Flame
 #--------------------------------
 - FP Cost: 400
-- Dark Damage: 500 [150] 
+- Dark Damage: 750 
 - Ascended Effect: increases poise damage and uses push stagger animation.
 
 #--------------------------------
@@ -1222,7 +1222,7 @@ Divine Pillars of Light
 # Dark Dance  
 #--------------------------------
 - FP Cost: 500
-- Dark Damage: 180 (per bullet)
+- Dark Damage: 250 (per bullet)
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
@@ -1237,7 +1237,7 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 600
 - Dark Damage: 300 [400]
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: emits 5 lines.
 
 #--------------------------------
 # Black Flame Arc

@@ -55,6 +55,7 @@
 - Bursting Fireball no longer drops pools of lava, rather additional fireballs are emitted whilst ascended.
 - Cleaned up how damage is dealt by various spells (i.e. removed several secondary hits.
 - Lightning Spear spells now deal big stamina and poise damage with their melee portion.
+- Increased the base damage of Pyromancies/Dark Pyromancies to account for the need to invest in two stats for proper effectiveness.
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
