@@ -1676,6 +1676,18 @@ Event(400000, Default, function() {
     InitializeEvent(6, 400020, 25004106, 99002106); // Fortitude
     InitializeEvent(7, 400020, 25004107, 99002107); // Gluttony
     InitializeEvent(8, 400020, 25004109, 99002108); // Pandemonium
+    
+    InitializeEvent(20, 400020, 25004208, 99002110); // Frailty Broken
+    InitializeEvent(21, 400020, 25004201, 99002111); // Obscurity Broken
+    InitializeEvent(22, 400020, 25004202, 99002112); // Vitality Broken
+    InitializeEvent(23, 400020, 25004203, 99002113); // Wrath Broken
+    InitializeEvent(24, 400020, 25004204, 99002114); // PrideBroken
+    InitializeEvent(25, 400020, 25004205, 99002115); // Attraction Broken
+    InitializeEvent(26, 400020, 25004206, 99002116); // Fortitude Broken
+    InitializeEvent(27, 400020, 25004207, 99002117); // Gluttony Broken
+    InitializeEvent(28, 400020, 25004209, 99002118); // Pandemonium Broken
+    
+    InitializeEvent(50, 400020, 25004300, 99002300); // Primordial Titanite
 });
 
 // Setup - Host and Client

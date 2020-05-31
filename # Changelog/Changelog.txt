@@ -78,6 +78,7 @@
 - Fixed issue with script check causing companions to be visible at map transitions.
 - Fixed bug with normal Priest's Candlestick not having the ascension effect.
 - Issue with Hawkwood's quest checking for the Twinkling Dragon Torso stone should now fixed (it just checks if the player has received the item from the Path of the Gesture puzzle now).
+- Fixed bugged chest in Profaned Capital.
 
 #------------------------------
 # TODO
