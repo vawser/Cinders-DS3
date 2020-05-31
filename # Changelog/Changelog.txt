@@ -76,6 +76,7 @@
 - Fixed an issue with some curses breaking weapon override effects.
 - Fixed issue with script check causing companions to be visible at map transitions.
 - Fixed bug with normal Priest's Candlestick not having the ascension effect.
+- Issue with Hawkwood's quest checking for the Twinkling Dragon Torso stone should now fixed (it just checks if the player has received the item from the Path of the Gesture puzzle now).
 
 #------------------------------
 # TODO
@@ -95,6 +96,4 @@ Add some boss arenas for small boss encounters
 Add humanity sprite enemy
 
 Add Gravelord FFX, add Gravelord Sword Dance
-
-Fix Hawkwood quest, change Twinkling Dragon Torso stone part
 
