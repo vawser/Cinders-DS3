@@ -42,6 +42,13 @@
 - Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
 - Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
 
+# Armor
+- Added Gough's Set: sold by the Shrine Handmaid after defeating the Lordran Remnants.
+- Added Crimson Set: found in Profaned Capital.
+- Added Channeler Set: purchased from the Vinheim Scholars covenant / dropped by Quintus the Monstrous.
+- Added Astrologist Set: found in Grand Archives (split across two chests).
+- Added Aurous Set: dropped by Gaius the Mighty.
+
 # Spells
 - Adjusted the FP/damage of a few spells.
 - Dark Bead now has a more random spread and delayed tracking.
@@ -53,9 +60,19 @@
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
 - Increased the damage of enemies in early levels.
 - Increased defence multiplier for enemies in levels.
+- Changed Quintus the Monstrous character setup.
+- Changed Gaius the Mighty character setup.
+- Renamed Lord Erectus to Lord Zakar (:wink:), changed his character setup. Now drops the Mad Warrior Set.
+- Renamed Ezekiel to Ezekiel the Duelist.
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
+- Swapped the Path of the Dragon gesture treasures in Archdragon Peak: using it at the Dragon Altar now gives you the Dragon Chaser's Ashes.
+- Giant Set, Giant Halberd and Giant Shield are now found in the Darkmoon Tomb.
+- Ring of Betrothal is now found on the Blacksmith Giant's body.
+- Moved Black Metal Hat to a corpse treasure.
+
+# Bugfixes
 - Fixed an issue with some curses breaking weapon override effects.
 - Fixed issue with script check causing companions to be visible at map transitions.
 - Fixed bug with normal Priest's Candlestick not having the ascension effect.
@@ -79,39 +96,5 @@ Add humanity sprite enemy
 
 Add Gravelord FFX, add Gravelord Sword Dance
 
-Adjust spells based on feedback from discord
+Fix Hawkwood quest, change Twinkling Dragon Torso stone part
 
-# 10010000
-9903    Gough's Set
-    2130 Gough's Helm
-    2131 Gough's Chest
-    2132 Gough's Gloves
-    2133 Gough's Leggings
-    
-# 10020000
-9904    Crimson Set
-    2134 Mask of the Sealer
-    2135 Crimson Robe
-    2136 Crimson Gloves
-    2137 Crimson Waistcloth
-
-# 10030000
-9905    Channeler Set
-    2138 Six-Eyed Helm of the Channelers
-    2139 Robe of the Channelers
-    2140 Gauntlets of the Channelers 
-    2141 Waistcloth of the Channelers
-
-# 10040000
-9906    Astrologist Set
-    7089 Moon Hat
-    7090 Astrologist's Robe
-    7091 Astrologist's Gauntlets
-    7092 Astrologist's Bottoms
-
-# 10050000
-9907    Aurous Set
-    7093 Helm of Aurous
-    7094 Armor of Aurous
-    7095 Gauntlets of Aurous
-    7096 Leggings of Aurous
