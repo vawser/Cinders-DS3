@@ -81,7 +81,13 @@
 #------------------------------
 # TODO
 #------------------------------
-# TODO
+Curse of Pandemonium - Add stuff
+Add some boss arenas for small boss encounters
+Add humanity sprite enemy
+
+Add Gravelord FFX, add Gravelord Sword Dance
+
+
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
 31500000 0869 / 1421 Serpentine Chain-axe
@@ -90,10 +96,4 @@
 
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
-
-Curse of Pandemonium - Add stuff
-Add some boss arenas for small boss encounters
-Add humanity sprite enemy
-
-Add Gravelord FFX, add Gravelord Sword Dance
 
