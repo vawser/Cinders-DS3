@@ -1187,7 +1187,7 @@ Divine Pillars of Light
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 250
-- Dark Damage: 250 
+- Dark Damage: 200 
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
