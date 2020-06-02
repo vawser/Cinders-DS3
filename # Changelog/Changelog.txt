@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
+
 # Companions
 - You can now only summon one companion at any one time.
 - Adjusted the strength of the companions so they are more equal, and implemented map-specific scaling for all of them. This means they will hit harder in later levels.
@@ -134,3 +137,14 @@ Fix model mask issues
     7108 Chester's Trousers
     160402030
     
+a000_27000
+ 00
+ 02 - Light
+ 03
+ 10 - Light
+ 12
+ 13
+ 14
+ 15
+ 16
+ 
