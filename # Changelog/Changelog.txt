@@ -71,6 +71,7 @@
 - Changed Gaius the Mighty character setup.
 - Renamed Lord Erectus to Lord Zakar (:wink:), changed his character setup. Now drops the Mad Warrior Set.
 - Renamed Ezekiel to Ezekiel the Duelist.
+- Reduced the absorption of the Lordran Remnants bosses.
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
@@ -90,6 +91,14 @@
 #------------------------------
 # TODO
 #------------------------------
+Add Gravelord FFX, add Gravelord Sword Dance
+
+Curse of Pandemonium - Add stuff
+Add some boss arenas for small boss encounters
+Add humanity sprite enemy
+
+Change Karla position (add new early tutor)
+
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
 31500000 0869 / 1421 Serpentine Chain-axe
@@ -99,13 +108,7 @@
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Curse of Pandemonium - Add stuff
-Add some boss arenas for small boss encounters
-Add humanity sprite enemy
-
-Change Karla position (add new early tutor)
-
-Add Gravelord FFX, add Gravelord Sword Dance
+Fix model mask issues
 
 # 10060000
 9908    Acolyte Set

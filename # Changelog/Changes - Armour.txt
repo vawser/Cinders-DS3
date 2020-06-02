@@ -340,7 +340,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Curse Inflict: [30]
 
 # Aurous Set
-- Max Stamina: 8 [1.016, 1.032, 1.008, 1.024]
+- Max Equip Load: 8 [1.016, 1.032, 1.008, 1.024]
 
 # Armor of the Sun Set
 - HP Estus Restore: [1.03, 1.06, 1.015, 1.045]
