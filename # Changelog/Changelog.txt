@@ -42,6 +42,9 @@
 - Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
 - Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
 
+# Weapons
+- Crystal Ring Shield now custom WA: Unleash Moonlight. A shield strike that emits a moonlight wave that reduces the magic absorption of targets hit by 5% for 8 seconds (stacks).
+
 # Armor
 - Added Gough's Set: sold by the Shrine Handmaid after defeating the Lordran Remnants.
 - Added Crimson Set: found in Profaned Capital.
