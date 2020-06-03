@@ -83,6 +83,7 @@
 - Added new merchant in Irithyll: Marvelous Chester.
 - Added new merchant in Smouldering Lake: Crestfallen Merchant.
 - Merchants will now attack the player if they are hit. They will not remain hostile if you die or reload. If killed they will stay dead.
+- Redesigned Smouldering Lake. The lake part is now occupied by 3 Carthus Sandworms and a few minor enemies near the Old Demon King staircase. You must kill all 3 sandworms before you can enter the demon ruins (and reach the bonfire).
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
@@ -120,5 +121,3 @@ Change Karla position (add new early tutor)
 14230000 - 0870 / 1424 Model Ballista
 
 Add Golem Axe WA: Wind blast
-Restore Sandworm in the lake
-

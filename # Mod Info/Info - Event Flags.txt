@@ -118,4 +118,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25006000 No Hit state
 
+25007000 Sandworm Gate opened
+
 25009000 Random flag range

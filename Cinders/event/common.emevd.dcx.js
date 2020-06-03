@@ -2583,8 +2583,10 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    //SetSpeffect(4100900, 260200070);
-    //SetMapCeremony(30, 0, 20);
+    SetEventFlag(25007000, OFF);
+    SetEventFlag(13800867, OFF);
+    SetEventFlag(13800868, OFF);
+    SetEventFlag(13800869, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });

@@ -107,6 +107,25 @@ Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+// Enemy - Enable AI upon attack trigger - Wake-up animation
+Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    SetCharacterAIState(X0_4, Disabled);
+    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
+    IfConditionGroup(OR_01, PASS, AND_09);
+    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
+    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
+    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
+    IfConditionGroup(AND_01, PASS, OR_01);
+    IfCharacterDamagedBy(OR_02, X0_4, 10000);
+    IfConditionGroup(OR_02, PASS, AND_01);
+    IfConditionGroup(MAIN, PASS, OR_02);
+    ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
+    SetCharacterAIState(X0_4, Enabled);
+});
+
 // Patrol Leader Setup
 Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
