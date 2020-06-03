@@ -106,18 +106,11 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000008 Curse of Frailty
 25000009 Curse of Pandemonium
 
-25004101 Show Curse of Obscurity Info
-25004102 Show Curse of Vitality Info
-25004103 Show Curse of Wrath Info
-25004104 Show Curse of Pride Info
-25004105 Curse of Attraction Info
-25004106 Curse of Fortitude Info
-25004107 Curse of Gluttony Info
-25004108 Curse of Frailty Info
-25004109 Curse of Pandemonium Info
-
+# Game State
 25006000 No Hit state
 
+# Map State
 25007000 Sandworm Gate opened
 
+# Utility
 25009000 Random flag range

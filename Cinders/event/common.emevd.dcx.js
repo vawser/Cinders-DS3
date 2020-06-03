@@ -1665,29 +1665,6 @@ Event(870, Default, function(X0_1, X4_4) {
 // Setup - Host only
 Event(400000, Default, function() {
     InitializeEvent(0, 400016, 0); // NG+ Flags
-    
-    // Curse Info Prompts
-    InitializeEvent(0, 400020, 25004108, 99002100); // Frailty
-    InitializeEvent(1, 400020, 25004101, 99002101); // Obscurity 
-    InitializeEvent(2, 400020, 25004102, 99002102); // Vitality 
-    InitializeEvent(3, 400020, 25004103, 99002103); // Wrath 
-    InitializeEvent(4, 400020, 25004104, 99002104); // Pride
-    InitializeEvent(5, 400020, 25004105, 99002105); // Attraction
-    InitializeEvent(6, 400020, 25004106, 99002106); // Fortitude
-    InitializeEvent(7, 400020, 25004107, 99002107); // Gluttony
-    InitializeEvent(8, 400020, 25004109, 99002108); // Pandemonium
-    
-    InitializeEvent(20, 400020, 25004208, 99002110); // Frailty Broken
-    InitializeEvent(21, 400020, 25004201, 99002111); // Obscurity Broken
-    InitializeEvent(22, 400020, 25004202, 99002112); // Vitality Broken
-    InitializeEvent(23, 400020, 25004203, 99002113); // Wrath Broken
-    InitializeEvent(24, 400020, 25004204, 99002114); // PrideBroken
-    InitializeEvent(25, 400020, 25004205, 99002115); // Attraction Broken
-    InitializeEvent(26, 400020, 25004206, 99002116); // Fortitude Broken
-    InitializeEvent(27, 400020, 25004207, 99002117); // Gluttony Broken
-    InitializeEvent(28, 400020, 25004209, 99002118); // Pandemonium Broken
-    
-    InitializeEvent(50, 400020, 25004300, 99002300); // Primordial Titanite
 });
 
 // Setup - Host and Client
