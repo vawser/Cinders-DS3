@@ -32,6 +32,7 @@
 #------------------------------
 # General
 - Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
+- Added the infusion effects to a talk option on Andre, removed the items that used to hold the infusion effect descriptions.
 
 # Companions
 - You can now only summon one companion at any one time.
