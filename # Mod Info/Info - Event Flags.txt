@@ -109,8 +109,12 @@ xxx5750 Enemies enabled by Curse of Attraction
 # Game State
 25006000 No Hit state
 
-# Map State
-25007000 Sandworm Gate opened
+# Rings
+25007000 
 
 # Utility
+25007000 Fool's Sigil range
 25009000 Random flag range
+
+# Map State
+25009100 Sandworm Gate opened
