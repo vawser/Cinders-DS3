@@ -180,8 +180,8 @@ Then create the python version and recompile it.
 370310 Siegward of Catarina
 370400 Londor Assassin (Church of Yorshka)
 370401 Londor Assassin (Darkmoon Tomb)
-370500 Domhnall of Zena
-370501 Marvelous Chester
+370500 Domhnall of Zena # Talk Flags: 73709100
+370501 Marvelous Chester # Talk Flags: 73709000
 370502 GENERIC UNUSED
 370503 GENERIC UNUSED
 370504 GENERIC UNUSED
@@ -202,7 +202,7 @@ Then create the python version and recompile it.
 380291
 380295
 380296
-380500 Crestfallen Merchant
+380500 Crestfallen Merchant # Talk Flags: 73809000
 380501 GENERIC UNUSED
 380502 GENERIC UNUSED
 380503 GENERIC UNUSED

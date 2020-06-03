@@ -665,12 +665,12 @@ Then create the python version and recompile it.
 
 -- SetDefaultTeamType( <type> )
 
--- OpenGenericDialog( <type>, <text>, <dialog result>, <unk>, <unk> )
+-- OpenGenericDialog( <type>, <text>, <dialog result>, <box style>, <unk> )
 <type>
-    1:
-    2:
-    7:
-    8:
+    1: Full Screen Dim - Center Box
+    2: Full Screen Dim - Center Box
+    7: Lower Screen Box
+    8: Lower Screen Box
 
 <dialog result>
     0: Cancel
@@ -678,6 +678,15 @@ Then create the python version and recompile it.
     2: Right
     3: Leave
 
+<box style>
+    0: Ornate, no options
+    1: Dialog, options
+    2: Ornate, options
+    3: Orante, YES option
+
+<unk>
+    0:
+    
 -- ForceCloseGenericDialog()
 
 -- AddTalkListData( <slot>, <text id>, <unk> )
