@@ -15322,9 +15322,7 @@ function SpeedUpdate()
     elseif env(1116, 100220) == TRUE then
         stick_level = 2
     elseif env(1116, 112009) == TRUE then -- Dashmaster's String
-        if env(1001) >= 25 then -- Stamina is atleast 25
-            stick_level = 2
-        end
+        stick_level = 2
     elseif env(1116, 100020) == TRUE then
         if 1.10000002384186 < stick_level then
             stick_level = 1
@@ -15357,7 +15355,11 @@ function SpeedUpdate()
         dash_dt_sum = dash_dt_sum + dT
         if 0.0649999976158142 < dash_dt_sum then
             dash_dt_sum = 0
-            act(1001, -1)
+            
+            -- NOT Dashmaster's String
+            if env(1116, 112009) == FALSE then 
+                act(1001, -1)
+            end
         end
     end
     return 
