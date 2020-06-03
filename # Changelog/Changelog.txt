@@ -54,6 +54,9 @@
 - Added Channeler Set: purchased from the Vinheim Scholars covenant / dropped by Quintus the Monstrous.
 - Added Astrologist Set: found in Grand Archives (split across two chests).
 - Added Aurous Set: dropped by Gaius the Mighty.
+- Added Dragon Acolyte Set: dropped by mimic in Grand Archives.
+- Added Vengarl's Set: dropped by mimic in Grand Archives.
+- Added Chester's Set: sold by Marvelous Chester.
 
 # Spells
 - Adjusted the FP/damage of a few spells.
@@ -75,6 +78,11 @@
 - Renamed Lord Erectus to Lord Zakar (:wink:), changed his character setup. Now drops the Mad Warrior Set.
 - Renamed Ezekiel to Ezekiel the Duelist.
 - Reduced the absorption of the Lordran Remnants bosses.
+
+# Map
+- Added new merchant in Irithyll: Marvelous Chester.
+- Added new merchant in Smouldering Lake: Crestfallen Merchant.
+- Merchants will now attack the player if they are hit. They will not remain hostile if you die or reload. If killed they will stay dead.
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
@@ -111,40 +119,7 @@ Change Karla position (add new early tutor)
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Fix model mask issues
+Add Golem Axe WA: Wind blast
+Restore Sandworm in the lake
+Test persistent placement via script
 
-# 10060000
-9908    Acolyte Set
-    7097 Dragon Acolyte Mask
-    7098 Dragon Acolyte Robe
-    7099 Dragon Acolyte Gloves
-    7100 Dragon Acolyte Leggings
-    160402010
-    
-# 10070000
-9909    Vengarl Set
-    7101 Vengarl's Helm
-    7102 Vengarl's Armor
-    7103 Vengarl's Gloves
-    7104 Vengarl's Leggings
-    160402020
-    
-# 10080000
-9910    Chester Set
-    7105 Snickering Top Hat
-    7106 Chester's Long Coat
-    7107 Chester's Gloves
-    7108 Chester's Trousers
-    160402030
-    
-a000_27000
- 00
- 02 - Light
- 03
- 10 - Light
- 12
- 13
- 14
- 15
- 16
- 

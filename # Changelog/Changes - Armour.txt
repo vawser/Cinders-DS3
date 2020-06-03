@@ -183,6 +183,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Imperious Set
 - Max HP: [1.016, 1.032, 1.008, 1.024]
 
+# Vengarl's Set
+- Weapon Stamina Consumption: 8 [0.984, 0.968, 0.992, 0.976]
+
 # Mask of Sin
 - Soul absorption: [1.05]
 
@@ -505,6 +508,12 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Worker Set
 - Luck: [2, 4, 1, 3]
 
+# Chester's Set
+- Head: Critical Hit (separate chance with Ring of Punishment)
+- Body: Sound Reduction [0.8]
+- Hands: Luck [1]
+- Legs: Bow Distance [15]
+
 # Binded Set
 - Anti-Hollow: [1.02, 1.04, 1.01, 1.03]
 
@@ -531,6 +540,9 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 #----------------------------
 # Pyromancer Set
 - Pyromancy Cost: [0.96, 0.92, 0.98, 0.94]
+
+# Dragon Acolyte Set
+- Max FP: 10 [1.02, 1.04, 1.01, 1.03]
 
 # Karla's Set
 - Max FP: [1.02, 1.04, 1.01, 1.03]

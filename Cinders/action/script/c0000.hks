@@ -1448,6 +1448,22 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
+    -- Snickering Top Hat - Critical Hit
+    if env(1116, 112080) == TRUE then
+        local rand = math.random(0, 100)
+        -- Lucky Weapon
+        if env(1116, 112010) == TRUE then
+            if rand <= 10 then
+                act(2002, 160402030)
+            end
+        -- Normal Weapon
+        elseif env(1116, 112010) == FALSE then
+            if rand <= 5 then
+                act(2002, 160402030)
+            end
+        end
+    end
+    
     -- Lucky - Damage Variance
     if env(1116, 112010) == TRUE or env(1116, 112021) == TRUE then
         local rand = math.random(0, 100)

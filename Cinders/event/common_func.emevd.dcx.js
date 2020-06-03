@@ -6640,3 +6640,29 @@ Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(X12_4);
 });
+
+//----------------------------------------------
+// Merchant - Idle Pose
+// <disabled flag>, <entity id>, <anim id>
+//----------------------------------------------
+Event(20081200, Default, function(X0_4, X4_4, X8_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
+    EndUnconditionally(EventEndType.End);
+});
+
+//----------------------------------------------
+// Merchant - Hostility
+// <disabled flag>, <entity id>, <anim id>
+//----------------------------------------------
+Event(20081210, Default, function(X0_4, X4_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfCharacterDamagedBy(AND_01, X4_4, 10000);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    SetCharacterTeamType(X4_4, TeamType.StrongEnemy);
+    WaitFixedTimeFrames(1);
+    RequestCharacterAIReplan(X4_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
