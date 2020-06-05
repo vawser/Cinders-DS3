@@ -46,9 +46,6 @@
 - Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
 - Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
 
-# Infusions
-- Enchanted/Clarity now restore 2% FP per second.
-
 # Weapons
 - Crystal Ring Shield now custom WA: Unleash Moonlight. A shield strike that emits a moonlight wave that reduces the magic absorption of targets hit by 5% for 8 seconds (stacks).
 
@@ -73,15 +70,14 @@
 
 # Rings
 - Ring of Momentum now applies quickstep to the roll action, replacing normal rolls.
-- Darkmoon Ring now restores 2% FP per second.
 - Bellowing Dragoncrest Ring now boosts magic spell damage by 20%.
-- Witch's Ring Ring now boosts fire spell damage by 20%.
+- Witch's Ring now boosts fire spell damage by 20%.
 - Ring of the Sun's First Born Ring now boosts physical/lightning spell damage by 20%.
 - Unholy Remains now boosts dark spell damage by 20%.
 - Young Dragon Ring: Reduces FP consumption of sorceries by 20% whilst standing still.
 - Great Swamp Ring: Reduces FP consumption of pyromanices by 20% whilst standing still.
 - Morne's Ring: Reduces FP consumption of miracles by 20% whilst standing still.
-- Deep Ring: Boosts FP regen by 3% whilst standing still.
+- Deep Ring: Boosts FP regen by 1% whilst standing still.
  - There is a 3 second duration on the standing still effects, so you can move a little after standing still and retain the effect (this is to allow you to cast the spell without losing the effect).
 
 # Items
@@ -143,3 +139,6 @@ Add Golem Axe WA: Wind blast
 
 Fix the Undead Settlement warp bug
 
+- Gough's Arrows are now shot in a more rain-like fashion and are much more noticeable. The cooldown between volleys is 10 to 20 seconds.
+- Reverted the recent FP source boost changes.
+- Reduced the FP costs of spells a bit.
