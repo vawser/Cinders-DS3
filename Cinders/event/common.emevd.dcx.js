@@ -1839,9 +1839,9 @@ Event(400800, Default, function(X0_4) {
     SetSpeffect(X0_4, 113105);
     
     // Deep Ring
-    IfCharacterHasSpeffect(AND_06, X0_4, 112099, false, ComparisonType.Equal, 1); // Is Standing Still
-    IfCharacterHasSpeffect(AND_06, X0_4, 112098, false, ComparisonType.Equal, 1); // Ring Equipped
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_06);
+    IfCharacterHasSpeffect(AND_06, X0_4, 112099, true, ComparisonType.Equal, 1); // Is Standing Still
+    IfCharacterHasSpeffect(AND_06, X0_4, 112098, true, ComparisonType.Equal, 1); // Ring Equipped
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_06);
     SetSpeffect(X0_4, 113106);
     
     // Reset
