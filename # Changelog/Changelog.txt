@@ -74,6 +74,25 @@
 # Rings
 - Ring of Momentum now applies quickstep to the roll action, replacing normal rolls.
 - Darkmoon Ring now restores 2% FP per second.
+- Bellowing Dragoncrest Ring now boosts magic spell damage by 20%.
+- Witch's Ring Ring now boosts fire spell damage by 20%.
+- Ring of the Sun's First Born Ring now boosts physical/lightning spell damage by 20%.
+- Unholy Remains now boosts dark spell damage by 20%.
+- Young Dragon Ring: Reduces FP consumption of sorceries by 20% whilst standing still.
+- Great Swamp Ring: Reduces FP consumption of pyromanices by 20% whilst standing still.
+- Morne's Ring: Reduces FP consumption of miracles by 20% whilst standing still.
+- Deep Ring: Boosts FP regen by 3% whilst standing still.
+ - There is a 3 second duration on the standing still effects, so you can move a little after standing still and retain the effect (this is to allow you to cast the spell without losing the effect).
+
+# Items
+- Ragged Mask is now part of the Swordmaster's drop.
+- Swapped the Path of the Dragon gesture treasures in Archdragon Peak: using it at the Dragon Altar now gives you the Dragon Chaser's Ashes.
+- Giant Set, Giant Halberd and Giant Shield are now found in the Darkmoon Tomb.
+- Ring of Betrothal is now found on the Blacksmith Giant's body.
+- Moved Black Metal Hat to a corpse treasure.
+- Estus Flasks now restore more HP (starts at 500, at max is 1000).
+- Ashen Estus Flasks now restore more FP (starts at 1000, at max is 2000).
+- Free Estus Flasks from enemies kills has been disabled.
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
@@ -91,13 +110,6 @@
 - Added new merchant in Smouldering Lake: Crestfallen Merchant.
 - Merchants will now attack the player if they are hit. They will not remain hostile if you die or reload. If killed they will stay dead.
 - Redesigned Smouldering Lake. The lake part is now occupied by 3 Carthus Sandworms and a few minor enemies near the Old Demon King staircase. You must kill all 3 sandworms before you can enter the demon ruins (and reach the bonfire).
-
-# Items
-- Ragged Mask is now part of the Swordmaster's drop.
-- Swapped the Path of the Dragon gesture treasures in Archdragon Peak: using it at the Dragon Altar now gives you the Dragon Chaser's Ashes.
-- Giant Set, Giant Halberd and Giant Shield are now found in the Darkmoon Tomb.
-- Ring of Betrothal is now found on the Blacksmith Giant's body.
-- Moved Black Metal Hat to a corpse treasure.
 
 # Bugfixes
 - Fixed an issue with some curses breaking weapon override effects.

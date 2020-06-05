@@ -4689,6 +4689,23 @@ function IdleCommonFunction()
     act("ロックオン時システム旋回不可角度", 90, 90)
     act(9100)
     local style = c_Style
+    
+    -- Effects whilst Standing Still
+    if GetVariable("MoveSpeedLevel") <= 0 then
+        if env(1116, 112090) == TRUE then -- Young Dragon Ring
+            act(2002, 112095)
+        end
+        if env(1116, 112091) == TRUE then -- Great Swamp Ring
+            act(2002, 112096)
+        end
+        if env(1116, 112092) == TRUE then -- Morne's Ring
+            act(2002, 112097)
+        end
+        if env(1116, 112098) == TRUE then -- Deep Ring
+            act(2002, 112099) -- Is Standing Still
+        end
+    end
+    
     if style == HAND_LEFT_BOTH then
         if GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW, WEAPON_CATEGORY_CROSSBOW) == TRUE then
             act("精密射撃可能か")
@@ -6490,6 +6507,7 @@ end
 function Move_onUpdate()
     act(101, TRUE)
     local move_speed = GetVariable("MoveSpeedIndex")
+
     if move_speed == 2 then
         SetThrowAtkInvalid()
     end
@@ -15347,7 +15365,7 @@ function SpeedUpdate()
     
     local speed = GetMoveSpeed(stick_level)
     SetVariable("MoveSpeedLevelReal", speed)
-    
+
     if env(1001) <= 0 then
         act(2002, 100020)
     end
