@@ -3360,40 +3360,43 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
     if request == ATTACK_REQUEST_ROLLING then
         -- Ring of Momentum
         if env(1116, 112008) == TRUE then
-            local angle = GetVariable("MoveAngle")
-            local front, back, left, right = false
-            if 135 < math.abs(angle) then
-                back = true
-            elseif 45 < angle then
-                right = true
-            elseif angle < -45 then
-                left = true
-            else
-                front = true
-            end
-            SetVariable("EnableTAE_CircleStepFront", front)
-            SetVariable("EnableTAE_CircleStepBack", back)
-            SetVariable("EnableTAE_CircleStepLeft", left)
-            SetVariable("EnableTAE_CircleStepRight", right)
-            if IsNodeActive("CircleStepStart_Blend") == TRUE then
-                if 0 <= angle then
-                    SetVariable("CircleStepDirectionSelftrans", 1)
+            local index = GetWeightIndex(FALSE)
+            if index < EVASION_WEIGHT_INDEX_HEAVY then
+                local angle = GetVariable("MoveAngle")
+                local front, back, left, right = false
+                if 135 < math.abs(angle) then
+                    back = true
+                elseif 45 < angle then
+                    right = true
+                elseif angle < -45 then
+                    left = true
                 else
-                    SetVariable("CircleStepDirectionSelftrans", 0)
+                    front = true
                 end
-                SetVariable("CircleStepAngleSelftrans", angle)
-                ExecEventAllBody("W_CircleStepStartSelftrans")
-            else
-                if 0 <= angle then
-                    SetVariable("CircleStepDirection", 1)
+                SetVariable("EnableTAE_CircleStepFront", front)
+                SetVariable("EnableTAE_CircleStepBack", back)
+                SetVariable("EnableTAE_CircleStepLeft", left)
+                SetVariable("EnableTAE_CircleStepRight", right)
+                if IsNodeActive("CircleStepStart_Blend") == TRUE then
+                    if 0 <= angle then
+                        SetVariable("CircleStepDirectionSelftrans", 1)
+                    else
+                        SetVariable("CircleStepDirectionSelftrans", 0)
+                    end
+                    SetVariable("CircleStepAngleSelftrans", angle)
+                    ExecEventAllBody("W_CircleStepStartSelftrans")
                 else
-                    SetVariable("CircleStepDirection", 0)
+                    if 0 <= angle then
+                        SetVariable("CircleStepDirection", 1)
+                    else
+                        SetVariable("CircleStepDirection", 0)
+                    end
+                    SetVariable("CircleStepAngle", angle)
+                    ExecEventAllBody("W_CircleStepStart")
                 end
-                SetVariable("CircleStepAngle", angle)
-                ExecEventAllBody("W_CircleStepStart")
+                SetAIActionState()
+                return TRUE
             end
-            SetAIActionState()
-            return TRUE
         end
         if is_usechainrecover == TRUE then
             local damagecount = GetVariable("DamageCount")
