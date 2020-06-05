@@ -46,6 +46,9 @@
 - Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
 - Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
 
+# Infusions
+- Enchanted/Clarity now restore 2% FP per second.
+
 # Weapons
 - Crystal Ring Shield now custom WA: Unleash Moonlight. A shield strike that emits a moonlight wave that reduces the magic absorption of targets hit by 5% for 8 seconds (stacks).
 
@@ -70,6 +73,7 @@
 
 # Rings
 - Ring of Momentum now applies quickstep to the roll action, replacing normal rolls.
+- Darkmoon Ring now restores 2% FP per second.
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
