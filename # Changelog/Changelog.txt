@@ -114,6 +114,7 @@
 - Issue with Hawkwood's quest checking for the Twinkling Dragon Torso stone should now fixed (it just checks if the player has received the item from the Path of the Gesture puzzle now).
 - Fixed bugged chest in Profaned Capital.
 - Fixed numerous small bugs.
+- Black Dragon Knights can now be backstabbed.
 
 #------------------------------
 # TODO
@@ -136,9 +137,5 @@ Change Karla position (add new early tutor)
 14230000 - 0870 / 1424 Model Ballista
 
 Add Golem Axe WA: Wind blast
-
 Fix the Undead Settlement warp bug
 
-- Gough's Arrows are now shot in a more rain-like fashion and are much more noticeable. The cooldown between volleys is 10 to 20 seconds.
-- Reverted the recent FP source boost changes.
-- Reduced the FP costs of spells a bit.
