@@ -34,7 +34,7 @@
 - Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
 - Added the infusion effects to a talk option on Andre, removed the items that used to hold the infusion effect descriptions.
 - Reversed recent changes to the enemy sound/listen effectiveness effects that made them less effective.
-- Reduced soul leveling cost (initial amount is slightly higher, but the growth per level is much lower).
+- Reduced soul leveling cost.
 
 # Trial of Perseverance
 - Increased the HP of the waves.
@@ -119,6 +119,10 @@
 - Redesigned Smouldering Lake. The lake part is now occupied by 3 Carthus Sandworms and a few minor enemies near the Old Demon King staircase. You must kill all 3 sandworms before you can enter the demon ruins (and reach the bonfire).
 - Added new merchant in Cemetery of Ash: Grave Warden Lillian, she is an early dark spell tutor
 - Karla is now back in Irithyll Dungeon.
+- Yoel now sells sorceries. (Yuria won't, but all the sorceries he sells can be purchased from Karla/Orbeck anyway).
+- Alva is now a normal NPC enemy at the entrance to Irithyll Dungeon.
+- Longfinger Kirk is now a normal NPC enemy in the Cathedral.
+- Silver Knight Ledo, Moaning Knight and Alva in the Ringed City are now normal NPC enemies.
 
 # Bugfixes
 - Fixed an issue with some curses breaking weapon override effects.
@@ -152,3 +156,4 @@ Change Karla position (add new early tutor)
 Add Golem Axe WA: Wind blast
 Fix the Undead Settlement warp bug
 Black Knight near Tsorig not aggro against all
+

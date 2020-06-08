@@ -2546,6 +2546,13 @@ Event(400400, Default, function(X0_4) {
     SetEventFlag(14500663, OFF); // Disciple of Alsanna
     SetEventFlag(15000601, OFF); // The Prowler
     
+    SetEventFlag(13900192, OFF); // Alva (Irithyll)
+    SetEventFlag(13500194, OFF); // Longfinger Kirk
+    
+    SetEventFlag(15100170, OFF); // Silver Knight Ledo 
+    SetEventFlag(15100172, OFF); // Alva (TRC) 
+    SetEventFlag(15100174, OFF); // Moaning Knight 
+    
     SetPlayerRespawnPoint(4002950);
     SaveRequest(0);
     WaitFixedTimeSeconds(1);
@@ -2560,7 +2567,8 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetSpeffect(4100900, 260200070);
+    SetEventFlag(13900192, OFF);
+    //SetSpeffect(4100900, 260200070);
     
     EndUnconditionally(EventEndType.Restart);
 });
