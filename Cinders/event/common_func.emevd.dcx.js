@@ -6714,9 +6714,9 @@ Event(20090001, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
 //----------------------------------------------
 // Fake Invader - Spawn
-// <entity id>, <disable flag>, <trigger flag>, <active flag>, <msg id>
+// <entity id>, <disable flag>, <trigger flag>, <active flag>, <msg id>, <ffx id>, <anim id>
 //----------------------------------------------
-Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -6724,11 +6724,11 @@ Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     DisplayMessage(X16_4, 1);
     
     // Spawn Invader
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, 30310);
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X20_4);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
-    ForceAnimationPlayback(X0_4, 63010, false, false, false, 0, 1);
+    ForceAnimationPlayback(X0_4, X24_4, false, false, false, 0, 1);
     SetNetworkconnectedEventFlag(X12_4, ON);
 });
 
