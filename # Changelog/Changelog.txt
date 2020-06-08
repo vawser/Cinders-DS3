@@ -152,11 +152,3 @@ Change Karla position (add new early tutor)
 Add Golem Axe WA: Wind blast
 Fix the Undead Settlement warp bug
 Black Knight near Tsorig not aggro against all
-
-Grave Warden Lillian
-
-240000
-
-400503 Grave Warden Lillian
-# talk 74009000
-
