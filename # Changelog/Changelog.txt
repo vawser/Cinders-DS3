@@ -34,6 +34,7 @@
 - Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
 - Added the infusion effects to a talk option on Andre, removed the items that used to hold the infusion effect descriptions.
 - Reversed recent changes to the enemy sound/listen effectiveness effects that made them less effective.
+- Reduced soul leveling cost (initial amount is slightly higher, but the growth per level is much lower).
 
 # Trial of Perseverance
 - Increased the HP of the waves.

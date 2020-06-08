@@ -521,7 +521,7 @@ Divine Pillars of Light
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 350
-- Fire Damage: 750
+- Fire Damage: 500
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
