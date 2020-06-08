@@ -95,6 +95,7 @@
 - Estus Flasks now restore more HP (starts at 500, at max is 1000).
 - Ashen Estus Flasks now restore more FP (starts at 1000, at max is 2000).
 - Free Estus Flasks from enemies kills has been disabled.
+- Removed Accursed Ring (no longer needed for Karla).
 
 # Enemies
 - Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
@@ -116,6 +117,8 @@
 - Added new merchant in Smouldering Lake: Crestfallen Merchant.
 - Merchants will now attack the player if they are hit. They will not remain hostile if you die or reload. If killed they will stay dead.
 - Redesigned Smouldering Lake. The lake part is now occupied by 3 Carthus Sandworms and a few minor enemies near the Old Demon King staircase. You must kill all 3 sandworms before you can enter the demon ruins (and reach the bonfire).
+- Added new merchant in Cemetery of Ash: Grave Warden Lillian, she is an early dark spell tutor
+- Karla is now back in Irithyll Dungeon.
 
 # Bugfixes
 - Fixed an issue with some curses breaking weapon override effects.
@@ -149,4 +152,11 @@ Change Karla position (add new early tutor)
 Add Golem Axe WA: Wind blast
 Fix the Undead Settlement warp bug
 Black Knight near Tsorig not aggro against all
+
+Grave Warden Lillian
+
+240000
+
+400503 Grave Warden Lillian
+# talk 74009000
 
