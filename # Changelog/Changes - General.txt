@@ -178,12 +178,3 @@ All covenant emblem items now enable the dropping of their respective materials 
 # Way of White
 - Rather than covenant materials, equipping the emblem will enable random healing items to be found when killing enemies.
 
-#------------------------
-# Memories
-#------------------------
-Bosses can be respawned through the use of Dreams and Nightmares.
-
-Dreams spawn the boss as normal.
-Nightmares spawn the boss with additional modifiers.
-
-The Shrine Handmaid has the Memories shop option.

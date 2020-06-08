@@ -130,23 +130,23 @@ Divine Pillars of Light
 #--------------------------------
 # Farron Dart
 #--------------------------------
-- FP Cost: 150
-- Magic Damage: 100
+- FP Cost: 120
+- Magic Damage: 80
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Farron Flashsword
 #--------------------------------
-- FP Cost: 120
-- Magic Damage: 150
+- FP Cost: 100
+- Magic Damage: 120
 - INT Req: 10
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Scattered Farron Dart
 #--------------------------------
-- FP Cost: 200
-- Magic Damage: 80
+- FP Cost: 150
+- Magic Damage: 60 {*6, individual}
 - INT Req: 10
 - INT Req: 10
 - Ascended Effect: gains much better tracking.
@@ -154,64 +154,64 @@ Divine Pillars of Light
 #--------------------------------
 # Soul Arrow
 #--------------------------------
-- FP Cost: 350
-- Magic Damage: 250
+- FP Cost: 180
+- Magic Damage: 200
 - INT Req: 15
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Scattered Soul Arrow
 #--------------------------------
-- FP Cost: 400
-- Magic Damage: 150
+- FP Cost: 240
+- Magic Damage: 100 {*4, individual}
 - INT Req: 20
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Soul Spear
 #--------------------------------
-- FP Cost: 550
-- Magic Damage: 400
+- FP Cost: 280
+- Magic Damage: 300
 - INT Req: 30
 - Ascended Effect: gains much better tracking and speed.
 
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 800
-- Magic Damage: 750 
+- FP Cost: 350
+- Magic Damage: 500 
 - INT Req: 40
 - Ascended Effect: gains much better tracking and speed.
 
 #--------------------------------
 # Homing Soulmass
 #--------------------------------
-- FP Cost: 500
-- Magic Damage: 80 (per bullet) 
+- FP Cost: 250
+- Magic Damage: 80 {*5, individual}
 - INT Req: 20
 - Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Homing Crystal Soulmass
 #--------------------------------
-- FP Cost: 800
-- Magic Damage: 150 (per bullet)
+- FP Cost: 400
+- Magic Damage: 140 {*5, individual}
 - INT Req: 40
 - Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Soul Geyser
 #--------------------------------
-- FP Cost: 1000
-- Magic Damage: 300
+- FP Cost: 400
+- Magic Damage: 200 {*3, individual}
 - INT Req: 50
 - Ascended Effect: gains much better tracking and a tighter spread.
 
 #--------------------------------
 # White Dragon Breath
 #--------------------------------
-- FP Cost: 750
-- Magic Damage: 700 [200] 
+- FP Cost: 360
+- Magic Damage: 500 [100] 
 - INT Req: 40
 - Effect: inflicts 30 Curse.
 - Ascended Effect: extends the length of the breath.
@@ -220,55 +220,55 @@ Divine Pillars of Light
 # Crystal Storm
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 500 
+- Magic Damage: 500 {*8, shared}
 - INT Req: 50
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Farron Hail
 #--------------------------------
-- FP Cost: 120
-- Magic Damage: 150 (per bullet)
+- FP Cost: 100
+- Magic Damage: 150 {*20, shared}
 - INT Req: 15
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Crystal Hail
 #--------------------------------
-- FP Cost: 700
-- Magic Damage: 150 (per bullet) 
+- FP Cost: 350
+- Magic Damage: 100 {*40, individual}
 - INT Req: 20
 - Ascended Effect: emits the projectiles in a tighter cone.
 
 #--------------------------------
 # Soul Greatsword
 #--------------------------------
-- FP Cost: 500
-- Magic Damage: 500
+- FP Cost: 200
+- Magic Damage: 300
 - INT Req: 25
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: costs 160 FP.
 
 #--------------------------------
 # Old Moonlight
 #--------------------------------
-- FP Cost: 750
-- Magic Damage: 500 (800 charged) [200]
+- FP Cost: 300
+- Magic Damage: 400 (500 charged) [100]
 - INT Req: 40
 - Ascended Effect: charged cast deals much more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Soul Wave
 #--------------------------------
-- FP Cost: 400
-- Magic Damage: 300
+- FP Cost: 200
+- Magic Damage: 250
 - INT Req: 20
 - Ascended Effect: gains tracking.
 
 #--------------------------------
 # Soul Stream
 #--------------------------------
-- FP Cost: 1000
-- Magic Damage: 300 (per tick)
+- FP Cost: 800
+- Magic Damage: 250 {*10, individual}
 - INT Req: 40
 - Ascended Effect: stream lasts for 3 seconds (normally 1).
 
@@ -276,22 +276,23 @@ Divine Pillars of Light
 # Blizzard
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 400
+- Magic Damage: 500 {*12, shared}
 - INT Req: 30
+- Base Effect: inflicts Frost on hit.
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Orbs of Judgment
 #--------------------------------
-- FP Cost: 600
-- Magic Damage: 150 per bullet
+- FP Cost: 300
+- Magic Damage: 100 {*6, individual}
 - INT Req: 30
 - Ascended Effect: the orbs start and move much quicker.
 
 #--------------------------------
 # Pestilent Mist
 #--------------------------------
-- FP Cost: 400
+- FP Cost: 200
 - INT Req: 25
 - Base Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
 - Ascended Effect: extends duration to 10 seconds.
@@ -299,8 +300,7 @@ Divine Pillars of Light
 #--------------------------------
 # Snap Freeze
 #--------------------------------
-- FP Cost: 400
-- Magic Damage: 150
+- FP Cost: 200
 - INT Req: 20
 - Base Effect: summons patch that deals 20 Frost per tick. Lasts 5 seconds.
 - Ascended Effect: extends duration to 10 seconds.
@@ -327,7 +327,7 @@ Divine Pillars of Light
 #--------------------------------
 # Magic Weapon
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - INT Req: 20
 - Base Effect: Adds 40 Magic damage to main weapon for 90 seconds. Scales with INT.
 - Ascended Effect: adds 20% max FP.
@@ -335,7 +335,7 @@ Divine Pillars of Light
 #--------------------------------
 # Great Magic Weapon
 #--------------------------------
-- FP Cost: 900
+- FP Cost: 600
 - INT Req: 30
 - Base Effect: Adds 60 Magic damage to main weapon for 60 seconds. Scales with INT.
 - Ascended Effect: reduces sorcery FP consumption by 20%, extends duration to 90 seconds.
@@ -343,7 +343,7 @@ Divine Pillars of Light
 #--------------------------------
 # Crystal Magic Weapon
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 40
 - Base Effect: Adds 80 Magic damage to main weapon for 30 seconds. Scales with INT.
 - Ascended Effect: extends duration to 300 seconds.
@@ -351,7 +351,7 @@ Divine Pillars of Light
 #--------------------------------
 # Frozen Weapon
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - INT Req: 20
 - Base Effect: Adds 40 Frost inflict to main weapon for 60 seconds.
 - Ascended Effect: increases Frost inflict to 80.
@@ -359,7 +359,7 @@ Divine Pillars of Light
 #--------------------------------
 # Magic Shield
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - INT Req: 20
 - Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
 - Ascended Effect: extends duration to 180 seconds.
@@ -367,7 +367,7 @@ Divine Pillars of Light
 #--------------------------------
 # Great Magic Shield
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 30
 - Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
 - Ascended Effect: extends duration to 60 seconds.
@@ -375,7 +375,7 @@ Divine Pillars of Light
 #--------------------------------
 # Hidden Weapon
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - INT Req: 10
 - Base Effect: hides main weapon for 120 seconds.
 - Ascended Effect: extends duration to 300 seconds.
@@ -383,18 +383,18 @@ Divine Pillars of Light
 #--------------------------------
 # Hidden Body
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 20
-- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 50%.
-- Ascended Effect: reducing enemy detection via sight by 75%.
+- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 90%.
+- Ascended Effect: reducing enemy detection via sight by 100%.
 
 #--------------------------------
 # Cast Light
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 500
 - INT Req: 10
 - Base Effect: summons a light source that follows you for 120 seconds.
-- Ascended Effect: costs 800 FP.
+- Ascended Effect: costs 0 FP.
 
 #--------------------------------
 # Repair
@@ -407,23 +407,23 @@ Divine Pillars of Light
 #--------------------------------
 # Spook
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 18
-- Base Effect: reduces enemy detection via sound by 50% for 60 seconds.
-- Ascended Effect: reduces enemy detection via sound by 75% for 60 seconds.
+- Base Effect: reduces enemy detection via sound by 90% for 60 seconds.
+- Ascended Effect: reduces enemy detection via sound by 100% for 60 seconds.
 
 #--------------------------------
 # Chameleon
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 20
 - Base Effect: transforms player into object from level.
-- Ascended Effect: costs 800 FP.
+- Ascended Effect: costs 0 FP.
 
 #--------------------------------
 # Aural Decoy
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 200
 - INT Req: 18
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
 - Ascended Effect: lasts 6 seconds.
@@ -431,15 +431,15 @@ Divine Pillars of Light
 #--------------------------------
 # Twisted Wall of Light
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 200
 - INT Req: 15
 - Base Effect: reflect spells away for 2 seconds.
-- Ascended Effect: costs 200 FP.
+- Ascended Effect: costs 100 FP.
 
 #--------------------------------
 # Unleash Magic
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - INT Req: 40
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
 - Ascended Effect: reduces absorption debuff to 25%.
@@ -450,182 +450,182 @@ Divine Pillars of Light
 #--------------------------------
 # Flame Fan
 #--------------------------------
-- FP Cost: 300
-- Fire Damage: 300
-- Ascended Effect: costs 200 FP.
+- FP Cost: 120
+- Fire Damage: 150
+- Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Fireball
 #--------------------------------
-- FP Cost: 350
-- Fire Damage: 350
+- FP Cost: 120
+- Fire Damage: 150
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
-- FP Cost: 550
-- Fire Damage: 550
+- FP Cost: 180
+- Fire Damage: 300
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 750 
+- Fire Damage: 600 {*10, shared}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
-- FP Cost: 150
-- Fire Damage: 200
+- FP Cost: 120
+- Fire Damage: 150
 - Ascended Effect: hits more often.
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
-- FP Cost: 500
-- Fire Damage: 800
+- FP Cost: 200
+- Fire Damage: 500
 - Ascended Effect: deals more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
-- FP Cost: 650
-- Fire Damage: 650 [350] 
+- FP Cost: 280
+- Fire Damage: 450 [350] 
 - Ascended Effect: extends the duration of the lava pool to 8 seocnds.
 
 #--------------------------------
 # Chaos Storm
 #--------------------------------
 - FP Cost: 75
-- Fire Damage: 900 [350] 
+- Fire Damage: 700 [350] {*10, shared}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 100
-- Fire Damage: 100 (per bullet)
-- Ascended Effect: costs 80 FP per tick.
+- Fire Damage: 100 {*20, individual}
+- Ascended Effect: costs 60 FP per tick.
 
 #--------------------------------
 # Profaned Flame
 #--------------------------------
-- FP Cost: 500
+- FP Cost: 320
 - Fire Damage: 500
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
-- FP Cost: 800
-- Fire Damage: 900
+- FP Cost: 350
+- Fire Damage: 750
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Cataclysm
 #--------------------------------
-- FP Cost: 1000
-- Fire Damage: 1000
+- FP Cost: 800
+- Fire Damage: 450 {*25, shared}
 - Ascended Effect: emits more orbs.
 
 #--------------------------------
 # Floating Chaos
 #--------------------------------
-- FP Cost: 700
-- Fire Damage: 300 (per bullet)
-- Ascended Effect: emits more fireballs.
+- FP Cost: 360
+- Fire Damage: 150 {*25, individual}
+- Ascended Effect: emits more fireballs. {*50, individual}
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
-- FP Cost: 400
-- Fire Damage: 100
+- FP Cost: 150
+- Fire Damage: 60 {*12, individual)
 - Ascended Effect: emits an additional fireball.
 
 #--------------------------------
 # Boulder Heave
 #--------------------------------
-- FP Cost: 750
-- Physical Damage: 800
+- FP Cost: 320
+- Physical Damage: 500 [100]
 - Ascended Effect: increases poise damage and shoots further.
 
 #--------------------------------
 # Sacred Flame
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 200
 - Fire Damage: based on spell tool.
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: costs 100 FP.
 
 #--------------------------------
 # Seething Chaos
 #--------------------------------
-- FP Cost: 500
-- Fire Damage: 300 [1200] 
+- FP Cost: 260
+- Fire Damage: 300 [900] 
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Heave Earth
 #--------------------------------
-- FP Cost: 750
-- Physical Damage: 900 
-- Ascended Effect: costs 700 FP.
+- FP Cost: 360
+- Physical Damage: 500 
+- Ascended Effect: costs 320 FP.
 
 #--------------------------------
 # Earthquake
 #--------------------------------
-- FP Cost: 75
-- Physical Damage: 900 
+- FP Cost: 60
+- Physical Damage: 600 {*10, individual}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
-- FP Cost: 400
-- Fire Damage: 200
+- FP Cost: 180
+- Fire Damage: 100 {*8, individual}
 - Ascended Effect: extends duration to 30 seconds.
 
 #--------------------------------
 # Earthfall
 #--------------------------------
-- FP Cost: 1000
-- Physical Damage: 1000
+- FP Cost: 800
+- Physical Damage: 450 {*25, shared}
 - Ascended Effect: emits more boulders.
 
 #--------------------------------
 # Poison Mist
 #--------------------------------
-- FP Cost: 400
+- FP Cost: 200
 - Base Effect: summons patch of poison that deals 25 Poison aux for 6 seconds.
 - Ascended Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Toxic Mist
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 300
 - Base Effect: summons patch of poison that deals 10 Toxic aux for 6 seconds.
 - Ascended Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Acid Surge
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 400
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
 - Ascended Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Immolation
 #--------------------------------
-- FP Cost: 400
+- FP Cost: 200
 - Base Effect: burns oneself for 1% damage, radiating a flame aura that deals 250 damage to enemies every second for 15 seconds.
 - Ascended Effect: burns oneself for 0.25% damage.
 
 #--------------------------------
 # Fecal Explusion
 #--------------------------------
-- FP Cost: 500
+- FP Cost: 300
 - Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 30 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
 - Ascended Effect: expel 12 dung pies.
 
@@ -635,35 +635,35 @@ Divine Pillars of Light
 #--------------------------------
 # Carthus Beacon
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
 - Ascended Effect: lasts for 60 seconds.
 
 #--------------------------------
 # Warmth
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 600
 - Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
 - Ascended Effect: only affects self and allies.
 
 #--------------------------------
 # Profuse Sweat
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
 - Ascended Effect: increases resistances by 400.
 
 #--------------------------------
 # Iron Flesh
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 600
 - Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
 - Ascended Effect: lasts for 30 seconds.
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - Slot Usage: 1
 - Base Effect: Increases Fire absorption by 30% for 30 seconds.
 - Ascended Effect: increases Fire absorption by 50%.
@@ -671,21 +671,21 @@ Divine Pillars of Light
 #--------------------------------
 # Carthus Flame Arc
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Base Effect: adds 80 Fire damage to main weapon for 60 seconds. Scales with INT and FTH.
 - Ascended Effect: increases stamina damage by 100%.
 
 #--------------------------------
 # Rapport
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Base Effect: converts target enemy to player team for 30 seconds.
 - Ascended Effect: lasts for 60 seconds, boosts converted enemy power by 20%.
 
 #--------------------------------
 # Power Within
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 600
 - Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
 - Ascended Effect: lose 0.25% HP per second.
 
@@ -702,9 +702,9 @@ Divine Pillars of Light
 #--------------------------------
 # Way of White Corona
 #--------------------------------
-- FP Cost: 250
-- Physical Damage: 200 [200] [200]
-- Ascended Effect: costs 200 FP.
+- FP Cost: 200
+- Physical Damage: 100 [100] [100]
+- Ascended Effect: costs 180 FP.
 
 #--------------------------------
 # Force
@@ -716,103 +716,103 @@ Divine Pillars of Light
 #--------------------------------
 # Emit Force
 #--------------------------------
-- FP Cost: 400
-- Physical Damage: 300 [100] 
+- FP Cost: 220
+- Physical Damage: 250 [50] 
 - FTH Req: 10
 - Ascended Effect: gains Farron Dart cast animation.
 
 #--------------------------------
 # Wrath of the Gods
 #--------------------------------
-- FP Cost: 700
-- Physical Damage: 750 
+- FP Cost: 350
+- Physical Damage: 500
 - FTH Req: 30
 - Ascended Effect: gains Force cast animation.
 
 #--------------------------------
 # Lightning Spear
 #--------------------------------
-- FP Cost: 350
-- Lightning Damage: 300 [50] [200] 
+- FP Cost: 180
+- Lightning Damage: 200 [50] [200] 
 - FTH Req: 16
 - Ascended Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
-- FP Cost: 550
-- Lightning Damage: 400 [50] [200] 
+- FP Cost: 280
+- Lightning Damage: 300 [50] [300] 
 - FTH Req: 30
 - Ascended Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
-- FP Cost: 800
-- Lightning Damage: 600 [50] [200] 
+- FP Cost: 350
+- Lightning Damage: 500 [50] [500] 
 - FTH Req: 40
 - Ascended Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Lightning Arrow
 #--------------------------------
-- FP Cost: 250
-- Lightning Damage: 200
+- FP Cost: 120
+- Lightning Damage: 100
 - FTH Req: 10
 - Ascended Effect: increases tracking.
 
 #--------------------------------
 # Lightning Storm
 #--------------------------------
-- FP Cost: 800
-- Lightning Damage: 500 
+- FP Cost: 500
+- Lightning Damage: 600 {*6, shared}
 - FTH Req: 25
-- Ascended Effect: costs 700 FP.
+- Ascended Effect: costs 400 FP.
 
 #--------------------------------
 # Lightning Stake
 #--------------------------------
-- FP Cost: 700
-- Lightning Damage: 700 [100] 
+- FP Cost: 380
+- Lightning Damage: 600 [100] 
 - FTH Req: 30
-- Ascended Effect: costs 600 FP.
+- Ascended Effect: costs 350 FP.
 
 #--------------------------------
 # Divine Pillars of Light
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 800
+- Physical Damage: 600 {*12, individual}
 - FTH Req: 30
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
 # Halo
 #--------------------------------
-- FP Cost: 800
-- Physical Damage: 400 [200] per bullet 
+- FP Cost: 600
+- Physical Damage: 250 [250] [250] {*10, shared}
 - FTH Req: 25
 - Ascended Effect: uses Force cast animation
 
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 1000
-- Lightning Damage: 300 (per bullet)
+- FP Cost: 800
+- Lightning Damage: 450 {*10, shared}
 - FTH Req: 60
-- Ascended Effect: emits more bolts.
+- Ascended Effect: emits more bolts. {*20, shared}
 
 #--------------------------------
 # Angelic Barrage
 #--------------------------------
-- FP Cost: 900
-- Physical Damage: 250 (per bullet)
+- FP Cost: 600
+- Physical Damage: 150 {*16, shared}
 - FTH Req: 50
-- Ascended Effect: emits more beams.
+- Ascended Effect: emits more beams. {*25, shared}
 
 #--------------------------------
 # Divine Arrow
 #--------------------------------
-- FP Cost: 350
+- FP Cost: 180
 - Physical Damage: 250
 - FTH Req: 30
 - Ascended Effect: increases poise damage, inflicts stagger animation and improves tracking.
@@ -820,24 +820,24 @@ Divine Pillars of Light
 #--------------------------------
 # Lothric's Holy Spear
 #--------------------------------
-- FP Cost: 800
-- Physical Damage: 750
+- FP Cost: 350
+- Physical Damage: 500
 - FTH Req: 50
 - Ascended Effect: improves tracking.
 
 #--------------------------------
 # Proof of a Pact
 #--------------------------------
-- FP Cost: 800
-- Physical Damage: 1000
+- FP Cost: 400
+- Physical Damage: 600
 - FTH Req: 40
-- Ascended Effect: costs 700 FP.
+- Ascended Effect: costs 350 FP.
 
 #--------------------------------
 # Overwhelming Power
 #--------------------------------
 - FP Cost: 75
-- Physical Damage: 800
+- Lightning Damage: 700 {*6, shared}
 - FTH Req: 40
 - Ascended Effect: an additional pillar is spawned.
 
@@ -847,15 +847,15 @@ Divine Pillars of Light
 #--------------------------------
 # Heal Aid
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 300
 - FTH Req: 10
 - Base Effect: Heals 200 HP. Scales with FTH.
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: costs 200 FP.
 
 #--------------------------------
 # Heal
 #--------------------------------
-- FP Cost: 700
+- FP Cost: 400
 - FTH Req: 15
 - Base Effect: Heals 300 HP. Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -863,7 +863,7 @@ Divine Pillars of Light
 #--------------------------------
 # Med Heal
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - FTH Req: 20
 - Base Effect: Heals 350 HP. Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -871,7 +871,7 @@ Divine Pillars of Light
 #--------------------------------
 # Great Heal
 #--------------------------------
-- FP Cost: 900
+- FP Cost: 600
 - Slot Usage: 2
 - FTH Req: 30
 - Base Effect: Heals 400 HP. Scales with FTH.
@@ -880,7 +880,7 @@ Divine Pillars of Light
 #--------------------------------
 # Soothing Sunlight
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 700
 - FTH Req: 40
 - Base Effect: Heals 500 HP. Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -888,7 +888,7 @@ Divine Pillars of Light
 #--------------------------------
 # Projected Heal
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - FTH Req: 30
 - Base Effect: Heals 300 HP. Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -896,7 +896,7 @@ Divine Pillars of Light
 #--------------------------------
 # Replenishment
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 600
 - FTH Req: 20
 - Base Effect: Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
 - Ascended Effect: costs 40 FP.
@@ -904,7 +904,7 @@ Divine Pillars of Light
 #--------------------------------
 # Bountiful Light
 #--------------------------------
-- FP Cost: 900
+- FP Cost: 700
 - FTH Req: 30
 - Base Effect: Heals 1200 HP over 120 seconds (10 HP/s). Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -912,7 +912,7 @@ Divine Pillars of Light
 #--------------------------------
 # Bountiful Sunlight
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 40
 - Base Effect: Heals 1800 HP over 120 seconds (15 HP/s). Scales with FTH.
 - Ascended Effect: expands area of effect.
@@ -928,15 +928,15 @@ Divine Pillars of Light
 #--------------------------------
 # Tears of Denial
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 40
 - Base Effect: prevents killing blow whilst active. Lasts until death.
-- Ascended Effect: costs 800 FP.
+- Ascended Effect: costs 500 FP.
 
 #--------------------------------
 # Homeward
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 500
 - FTH Req: 10
 - Base Effect: return to bonfire.
 - Ascended Effect: None
@@ -944,7 +944,7 @@ Divine Pillars of Light
 #--------------------------------
 # Blessed Weapon
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - HP Recovery: 5
 - FTH Req: 16
 - Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds. Scales with FTH.
@@ -953,7 +953,7 @@ Divine Pillars of Light
 #--------------------------------
 # Sacred Oath
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 40
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds.
 - Ascended Effect: expands area of effect, lasts for 120 seconds.
@@ -961,7 +961,7 @@ Divine Pillars of Light
 #--------------------------------
 # Lightning Blade
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Lightning Damage: 80
 - FTH Req: 20
 - Base Effect: adds 80 Lightning damage to main weapon for 60 seconds. Scales with FTH.
@@ -970,7 +970,7 @@ Divine Pillars of Light
 #--------------------------------
 # Darkmoon Blade
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Magic Damage: 80
 - FTH Req: 20
 - Base Effect: adds 80 Magic damage to main weapon for 60 seconds. Scales with FTH.
@@ -979,7 +979,7 @@ Divine Pillars of Light
 #--------------------------------
 # Magic Barrier
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 500
 - FTH Req: 20
 - Base Effect: increases Magic absorption by 30% for 60 seconds.
 - Ascended Effect: increases all elemental absorption by 30%.
@@ -987,7 +987,7 @@ Divine Pillars of Light
 #--------------------------------
 # Great Magic Barrier
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 30
 - Base Effect: increases Magic absorption by 50% for 60 seconds.
 - Ascended Effect: increases all elemental absorption by 50%.
@@ -995,7 +995,7 @@ Divine Pillars of Light
 #--------------------------------
 # Heavenly Relief
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 10
 - Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds.
 - Ascended Effect: extends duration to 120 seconds.
@@ -1003,7 +1003,7 @@ Divine Pillars of Light
 #--------------------------------
 # Perseverance
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - FTH Req: 40
 - Base Effect: boosts Poise by 50% for 60 seconds.
 - Ascended Effect: extends duration to 120 seconds.
@@ -1014,24 +1014,24 @@ Divine Pillars of Light
 #--------------------------------
 # Deep Barb
 #--------------------------------
-- FP Cost: 200
-- Dark Damage: 150
+- FP Cost: 140
+- Dark Damage: 100
 - Base Effect: inflicts 10 Curse.
 - Ascended Effect: inflicts 20 Curse.
 
 #--------------------------------
 # Dark Edge
 #--------------------------------
-- FP Cost: 150
-- Dark Damage: 150 
+- FP Cost: 120
+- Dark Damage: 120 
 - INT Req: 10
 - FTH Req: 6
-- Ascended Effect: costs 120 FP.
+- Ascended Effect: costs 100 FP.
 
 #--------------------------------
 # Deep Soul
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 200
 - Dark Damage: 200 
 - INT Req: 12
 - FTH Req: 8
@@ -1041,8 +1041,8 @@ Divine Pillars of Light
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
-- FP Cost: 450
-- Dark Damage: 300 
+- FP Cost: 300
+- Dark Damage: 300
 - INT Req: 16
 - FTH Req: 10
 - Base Effect: inflicts 50 Curse.
@@ -1051,8 +1051,8 @@ Divine Pillars of Light
 #--------------------------------
 # Climax
 #--------------------------------
-- FP Cost: 550
-- Dark Damage: 400 
+- FP Cost: 350
+- Dark Damage: 500 
 - INT Req: 40
 - FTH Req: 10
 - Ascended Effect: speeds up the projectile massively, increases poise damage.
@@ -1060,8 +1060,8 @@ Divine Pillars of Light
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 1000 
+- FP Cost: 400
+- Dark Damage: 600 
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: inflicts 75 Curse.
@@ -1070,8 +1070,8 @@ Divine Pillars of Light
 #--------------------------------
 # Abyssal Edge
 #--------------------------------
-- FP Cost: 600
-- Dark Damage: 600  
+- FP Cost: 200
+- Dark Damage: 300  
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: increases Poise damage to 100, gains Faceplant stagger.
@@ -1079,8 +1079,8 @@ Divine Pillars of Light
 #--------------------------------
 # Affinity
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 150 (per bullet) 
+- FP Cost: 400
+- Dark Damage: 140 {*5, individual}
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: hits reduce Dark absorption by 20% for 10 seconds.
@@ -1088,7 +1088,7 @@ Divine Pillars of Light
 #--------------------------------
 # Whisper of Despair
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 300
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 100 Curse.
@@ -1098,7 +1098,7 @@ Divine Pillars of Light
 # Yearning Dregs
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500
+- Dark Damage: 500 {*10, shared}
 - INT Req: 25
 - FTH Req: 10
 - Base Effect: inflicts 50 Curse per pillar.
@@ -1107,8 +1107,8 @@ Divine Pillars of Light
 #--------------------------------
 # Writhing Deep
 #--------------------------------
-- FP Cost: 500
-- Dark Damage: 300 [600] 
+- FP Cost: 260
+- Dark Damage: 300 [900] 
 - INT Req: 24
 - FTH Req: 8
 - Base Effect: inflicts 75 Curse.
@@ -1117,8 +1117,8 @@ Divine Pillars of Light
 #--------------------------------
 # Dark Bead
 #--------------------------------
-- FP Cost: 500
-- Dark Damage: 150 per bullet 
+- FP Cost: 350
+- Dark Damage: 100 {*7, individual}
 - INT Req: 30
 - FTH Req: 10
 - Ascended Effect: inflicts 10 Curse per bullet.
@@ -1126,18 +1126,18 @@ Divine Pillars of Light
 #--------------------------------
 # Cascading Deep
 #--------------------------------
-- FP Cost: 700
-- Dark Damage: 140 (per bullet)
+- FP Cost: 350
+- Dark Damage: 80 {*50, individual}
 - INT Req: 38
 - FTH Req: 10
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: emit more projectiles.
+- Ascended Effect: emit more projectiles. {*100, individual}
 
 #--------------------------------
 # Surging Deep
 #--------------------------------
-- FP Cost: 150
-- Dark Damage: 100 (per bullet)
+- FP Cost: 120
+- Dark Damage: 150
 - INT Req: 16
 - FTH Req: 8
 - Base Effect: inflicts 10 Curse.
@@ -1146,12 +1146,12 @@ Divine Pillars of Light
 #--------------------------------
 # Dreg Torrent
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 200 (per bullet)
+- FP Cost: 360
+- Dark Damage: 150 {*25, individual}
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: emit more projectiles.
+- Ascended Effect: emit more projectiles. {*50, individual}
 
 #--------------------------------------------------------------------------
 # Dark Sorceries - Effect
@@ -1159,7 +1159,7 @@ Divine Pillars of Light
 #--------------------------------
 # Repel
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 200
 - INT Req: 32
 - FTH Req: 10
 - Base Effect: increases absorption to 100% for 3 seconds
@@ -1168,7 +1168,7 @@ Divine Pillars of Light
 #--------------------------------
 # Numbness
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 40
 - FTH Req: 10
 - Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
@@ -1180,77 +1180,77 @@ Divine Pillars of Light
 #--------------------------------
 # Black Fireball
 #--------------------------------
-- FP Cost: 200
-- Dark Damage: 150
+- FP Cost: 120
+- Dark Damage: 100
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 400
-- Dark Damage: 100
+- Dark Damage: 60 {*12, individual)
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
-- FP Cost: 550
-- Dark Damage: 500
+- FP Cost: 280
+- Dark Damage: 350
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Vestiges
 #--------------------------------
-- FP Cost: 900
-- Magic Damage: 750 [500]
+- FP Cost: 350
+- Magic Damage: 500 [250]
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Black Flame
 #--------------------------------
-- FP Cost: 600
-- Dark Damage: 750 
+- FP Cost: 200
+- Dark Damage: 500 
 - Ascended Effect: increases poise damage and uses push stagger animation.
 
 #--------------------------------
 # Black Serpent
 #--------------------------------
-- FP Cost: 700
-- Dark Damage: 900
+- FP Cost: 360
+- Dark Damage: 500
 - Ascended Effect: expends the length.
 
 #--------------------------------
 # Dark Dance  
 #--------------------------------
-- FP Cost: 600
-- Dark Damage: 250 (per bullet)
+- FP Cost: 320
+- Dark Damage: 200 {*4, individual}
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Recollection  
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 250 (per bullet)
-- Ascended Effect: emits more orbs.
+- FP Cost: 360
+- Dark Damage: 150 {*25, individual}
+- Ascended Effect: emits more orbs. {*50, individual}
 
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 300 [400]
+- FP Cost: 500
+- Dark Damage: 200 [500]
 - Ascended Effect: emits 5 lines.
 
 #--------------------------------
 # Black Flame Arc
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Base Effect: adds 80 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
 - Ascended Effect: increases stamina damage by 100%.
 
 #--------------------------------
 # Pungent Blade
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
 - Ascended Effect: increases Poison inflict to 80.
 
@@ -1260,15 +1260,15 @@ Divine Pillars of Light
 #--------------------------------
 # Nibble
 #--------------------------------
-- FP Cost: 200
-- Dark Damage: 150
+- FP Cost: 120
+- Dark Damage: 80
 - Base Effect: inflicts 20 Bleed
-- Ascended Effect: costs 150 FP.
+- Ascended Effect: costs 100 FP.
 
 #--------------------------------
 # Gnaw
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 180
 - Dark Damage: 200
 - INT Req: 8
 - FTH Req: 12
@@ -1278,7 +1278,7 @@ Divine Pillars of Light
 #--------------------------------
 # Dorhys' Gnawing
 #--------------------------------
-- FP Cost: 450
+- FP Cost: 280
 - Dark Damage: 300
 - INT Req: 10
 - FTH Req: 25
@@ -1288,36 +1288,36 @@ Divine Pillars of Light
 #--------------------------------
 # Lifehunt Scythe
 #--------------------------------
-- FP Cost: 600
-- Dark Damage: 400 
+- FP Cost: 200
+- Dark Damage: 500 
 - INT Req: 10
 - FTH Req: 36
 - Base Effect: absorbs 10% HP on hit.
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: costs 160 FP.
 
 #--------------------------------
 # Devouring Swarm
 #--------------------------------
-- FP Cost: 800
-- Dark Damage: 100 (per bullet)
+- FP Cost: 360
+- Dark Damage: 120 {*25, individual}
 - INT Req: 10
 - FTH Req: 40
 - Base Effect: inflicts 10 Bleed
-- Ascended Effect: emits more projectiles.
+- Ascended Effect: emits more projectiles. {*50, individual}
 
 #--------------------------------
 # Dead Again
 #--------------------------------
-- FP Cost: 600
+- FP Cost: 300
 - INT Req: 10
 - FTH Req: 25
 - Base Effect: causes corpses to explode, dealing damage to foes.
-- Ascended Effect: costs 500 FP.
+- Ascended Effect: costs 200 FP.
 
 #--------------------------------
 # Deep Protection
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 400
 - INT Req: 10
 - FTH Req: 30
 - Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10.
@@ -1326,7 +1326,7 @@ Divine Pillars of Light
 #--------------------------------
 # Dark Blade
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - Dark Damage: 80
 - INT Req: 10
 - FTH Req: 20
@@ -1344,16 +1344,16 @@ Divine Pillars of Light
 #--------------------------------
 # Vow of Silence
 #--------------------------------
-- FP Cost: 750
+- FP Cost: 600
 - INT Req: 10
 - FTH Req: 25
 - Base Effect: silence self and target for 15 seconds.
-- Ascended Effect: costs 600 FP.
+- Ascended Effect: costs 500 FP.
 
 #--------------------------------
 # Vow of Agony
 #--------------------------------
-- FP Cost: 800
+- FP Cost: 300
 - Dark Damage: 100 (per tick)
 - FTH Req: 25
 - Ascended Effect: lasts for 60 seconds.
@@ -1361,7 +1361,7 @@ Divine Pillars of Light
 #--------------------------------
 # Pulsating Blade
 #--------------------------------
-- FP Cost: 1000
+- FP Cost: 800
 - INT Req: 10
 - FTH Req: 30
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.

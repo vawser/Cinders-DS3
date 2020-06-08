@@ -33,6 +33,10 @@
 # General
 - Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
 - Added the infusion effects to a talk option on Andre, removed the items that used to hold the infusion effect descriptions.
+- Reversed recent changes to the enemy sound/listen effectiveness effects that made them less effective.
+
+# Trial of Perseverance
+- Increased the HP of the waves.
 
 # Companions
 - You can now only summon one companion at any one time.
@@ -48,6 +52,7 @@
 
 # Weapons
 - Crystal Ring Shield now custom WA: Unleash Moonlight. A shield strike that emits a moonlight wave that reduces the magic absorption of targets hit by 5% for 8 seconds (stacks).
+- Changed the scaling multipliers from reinforcement back to vanilla levels (i.e. 1 to 2, was 2 to 3).
 
 # Armor
 - Added Gough's Set: sold by the Shrine Handmaid after defeating the Lordran Remnants.
@@ -61,24 +66,24 @@
 
 # Spells
 - Adjusted the FP/damage of spells.
-- Dark Bead now has a more random spread and delayed tracking.
 - Bursting Fireball no longer drops pools of lava, rather additional fireballs are emitted whilst ascended.
 - Cleaned up how damage is dealt by various spells (i.e. removed several secondary hits).
 - Lightning Spear spells now deal big stamina and poise damage with their melee portion.
-- Increased the base damage of Pyromancies/Dark Pyromancies to account for the need to invest in two stats for proper effectiveness.
 - Black Fireball now has gravity.
 
 # Rings
 - Ring of Momentum now applies quickstep to the roll action, replacing normal rolls.
-- Bellowing Dragoncrest Ring now boosts magic spell damage by 20%.
-- Witch's Ring now boosts fire spell damage by 20%.
-- Ring of the Sun's First Born Ring now boosts physical/lightning spell damage by 20%.
-- Unholy Remains now boosts dark spell damage by 20%.
-- Young Dragon Ring: Reduces FP consumption of sorceries by 20% whilst standing still.
-- Great Swamp Ring: Reduces FP consumption of pyromanices by 20% whilst standing still.
-- Morne's Ring: Reduces FP consumption of miracles by 20% whilst standing still.
-- Deep Ring: Boosts FP regen by 1% whilst standing still.
- - There is a 3 second duration on the standing still effects, so you can move a little after standing still and retain the effect (this is to allow you to cast the spell without losing the effect).
+- Bellowing Dragoncrest Ring now boosts magic spell damage by 10%.
+- Witch's Ring now boosts fire spell damage by 10%.
+- Ring of the Sun's First Born Ring now boosts physical/lightning spell damage by 10%.
+- Unholy Remains now boosts dark spell damage by 10%.
+- Young Dragon Ring: Reduces FP consumption of sorceries by 10%.
+- Great Swamp Ring: Reduces FP consumption of pyromanices by 10%.
+- Morne's Ring: Reduces FP consumption of miracles by by 10%.
+- Deep Ring: Reduces FP consumption of sorceries, pyromancies and miracles by by 10%.
+- Dusk Crown Ring: Boosts max FP by 15% but reduces max HP by 25%.
+- Charred Bone: Increases casting speed by 35 but reduces max HP by 25%. 
+- Tome of Sunlight: Increases effectiveness of HP restoration sourcees by 35%.
 
 # Items
 - Ragged Mask is now part of the Swordmaster's drop.
@@ -99,7 +104,11 @@
 - Changed Gaius the Mighty character setup.
 - Renamed Lord Erectus to Lord Zakar (:wink:), changed his character setup. Now drops the Mad Warrior Set.
 - Renamed Ezekiel to Ezekiel the Duelist.
+
+# Bosses
 - Reduced the absorption of the Lordran Remnants bosses.
+- Yhorm now just takes 2% HP damage when hit by the Storm King WA.
+- Reduced the HP of many bosses to account for the new damage output from weapons/spells.
 
 # Map
 - Added new merchant in Irithyll: Marvelous Chester.
@@ -138,4 +147,5 @@ Change Karla position (add new early tutor)
 
 Add Golem Axe WA: Wind blast
 Fix the Undead Settlement warp bug
+Black Knight near Tsorig not aggro against all
 

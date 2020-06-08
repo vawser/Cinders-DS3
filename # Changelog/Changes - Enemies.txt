@@ -106,8 +106,8 @@
 - Considered Undead and Abyssal.
 
 # Old Demon King 
-- NG0 HP: 12000 [18000]  
-- NG+ HP: 24000 [36000]    
+- NG0 HP: 9000 [13500]  
+- NG+ HP: 18000 [27000]    
 - Souls: 15000 [3750] [15000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -121,8 +121,8 @@
 - Considered Demon.
 
 # Pontiff Sulyvahn 
-- NG0 HP: 12000 [18000]
-- NG+ HP: 24000 [36000]
+- NG0 HP: 8000 [12000]
+- NG+ HP: 16000 [24000]
 - Souls: 25000 [6250] [25000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
@@ -148,8 +148,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Aldrich, Devourer of Gods
-- NG0 HP: 16000 [24000]    
-- NG+ HP: 32000 [48000]
+- NG0 HP: 10000 [15000]    
+- NG+ HP: 20000 [30000]
 - Souls: 50000 [12500] [50000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -163,22 +163,22 @@
 - Considered Abyssal.
 
 # Yhorm the Giant 
-- NG0 HP: 16000 [24000]    
-- NG+ HP: 32000 [48000]
+- NG0 HP: 10000 [15000]    
+- NG+ HP: 20000 [30000]
 - Souls: 25000 [6250] [25000]
-- Absorption: Standard:     50%
-- Absorption: Slash:        50%
-- Absorption: Strike:       50%
-- Absorption: Thrust:       50%
-- Absorption: Magic:        50%
-- Absorption: Fire:         30%
-- Absorption: Lightning:    50%
-- Absorption: Dark:         50%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
 # Dancer of the Boreal Valley
-- NG0 HP: 12000 [18000]
-- NG+ HP: 24000 [36000]
+- NG0 HP: 8000 [12000]
+- NG+ HP: 16000 [24000]
 - Souls: 15000 [3750] [15000]
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
@@ -191,8 +191,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Oceiros, the Consumed King
-- NG0 HP: 12000 [18000]
-- NG+ HP: 24000 [36000]
+- NG0 HP: 8000 [12000]
+- NG+ HP: 16000 [24000]
 - Souls: 20000 [5000] [20000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        90%
@@ -205,8 +205,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Dragonslayer Armour 
-- NG0 HP: 14000 [21000]
-- NG+ HP: 28000 [42000]   	
+- NG0 HP: 9000 [13500]
+- NG+ HP: 18000 [27000]   	
 - Souls: 20000 [5000] [20000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -234,8 +234,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # King of the Storm
-- NG0 HP: 8000 [12000]      
-- NG+ HP: 16000 [24000]
+- NG0 HP: 6000 [9000]      
+- NG+ HP: 12000 [18000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       100%
@@ -247,8 +247,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Nameless King 
-- NG0 HP: 16000 [24000]    
-- NG+ HP: 32000 [48000]   
+- NG0 HP: 10000 [15000]    
+- NG+ HP: 20000 [30000]   
 - Souls: 50000 [12500] [50000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -261,8 +261,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Champion Gundyr 
-- NG0 HP: 16000 [24000]    
-- NG+ HP: 32000 [48000]         
+- NG0 HP: 10000 [15000]    
+- NG+ HP: 20000 [30000]         
 - Souls: 20000 [5000] [20000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -275,10 +275,10 @@
 - Affected by: Poison, Bleed, Frost
 
 # Lorian, Elder Prince
-- Phase 1 NG0 HP: 16000 [24000]    
-- Phase 2 NG0 HP: 8000 [12000]  
-- Phase 1 NG+ HP: 32000 [48000]    
-- Phase 2 NG+ HP: 16000 [24000] 
+- Phase 1 NG0 HP: 10000 [15000]    
+- Phase 2 NG0 HP: 6000 [9000]  
+- Phase 1 NG+ HP: 20000 [30000]    
+- Phase 2 NG+ HP: 12000 [18000] 
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
 - Absorption: Strike:       90%
@@ -290,8 +290,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Lothric, Younger Prince 
-- NG0 HP: 12000 [18000]   
-- NG+ HP: 24000 [36000]          
+- NG0 HP: 8000 [12000]   
+- NG+ HP: 16000 [24000]          
 - Souls: 50000 [12500] [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
@@ -304,8 +304,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Soul of Cinder 
-- NG0 HP: 16000 [24000]
-- NG+ HP: 32000 [48000]
+- NG0 HP: 12000 [18000]
+- NG+ HP: 24000 [36000]
 - Souls: 100000 [25000] [100000]
 - Absorption: Standard:     80%
 - Absorption: Slash:        80%
@@ -318,10 +318,10 @@
 - Affected by: Poison, Bleed, Frost
 
 # Sister Friede
-- Phase 1 NG0 HP: 9000 [13500]      
-- Phase 2 NG0 HP: 12000 [18000]     
-- Phase 1 NG+ HP: 18000 [27000]      
-- Phase 2 NG+ HP: 24000 [36000]     
+- Phase 1 NG0 HP: 6000 [9000]      
+- Phase 2 NG0 HP: 9000 [13500]     
+- Phase 1 NG+ HP: 12000 [18000]      
+- Phase 2 NG+ HP: 18000 [27000]     
 - Souls: 50000 [12500] [50000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
@@ -334,8 +334,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # Father Ariandel 
-- NG0 HP: 8000 [12000]
-- NG+ HP: 16000 [24000]
+- NG0 HP: 6000 [9000]
+- NG+ HP: 12000 [18000]
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
 - Absorption: Strike:       120%
@@ -347,15 +347,25 @@
 - Affected by: Poison, Bleed, Frost
 
 # The Lordran Remnants
-- NG0 HP: 8000 [12000]
-- NG+ HP: 16000 [24000]
 - Souls: 30000 [7500] [30000]
 
+# The Lord's Blade (Ciaran)
+- NG0 HP: 5000 [7500]
+- NG+ HP: 10000 [15000]
+
+# The Abyss Walker (Artorias)
+- NG0 HP: 6000 [9000]
+- NG+ HP: 12000 [18000]
+
+# The Dragonslayer (Ornstein)
+- NG0 HP: 7000 [10500]
+- NG+ HP: 14000 [21000]
+
 # Demon Prince
-- Phase 1 NG0 HP: 8000 [12000] 
-- Phase 2 NG0 HP: 8000 [12000]
-- Phase 1 NG+ HP: 16000 [24000] 
-- Phase 2 NG+ HP: 16000 [24000]
+- Phase 1 NG0 HP: 6000 [9000] 
+- Phase 2 NG0 HP: 6000 [9000]
+- Phase 1 NG+ HP: 12000 [18000] 
+- Phase 2 NG+ HP: 12000 [18000]
 - Souls: 100000 [25000] [100000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%
@@ -372,8 +382,8 @@
 - Souls: 25000 [50000]
 
 # Darkeater Midir (5)
-- NG0 HP: 30000 [45000]
-- NG+ HP: 60000 [90000]                  
+- NG0 HP: 20000 [30000]
+- NG+ HP: 40000 [60000]                  
 - Souls: 150000 [37500] [150000]
 - Absorption: Standard:     40%
 - Absorption: Slash:        30%
@@ -387,8 +397,8 @@
 - Considered Abyssal.
 
 # Slave Knight Gael (5)
-- NG0 HP: 20000 [30000]       
-- NG+ HP: 40000 [60000]
+- NG0 HP: 14000 [21000]       
+- NG+ HP: 24000 [36000]
 - Souls: 125000 [31250] [125000]
 - Absorption: Standard:     70%
 - Absorption: Slash:        70%

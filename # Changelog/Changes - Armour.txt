@@ -587,7 +587,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 - Anti-Hollow: [1.02, 1.04, 1.01, 1.03]
 
 # Shadow Set
-- Reduces enemy detection via sight and sound: [10, 20, 5, 15]
+- Reduces enemy detection via sight and sound: [20, 40, 10, 30]
 
 # Maiden Set
 - Miracle Cost: [0.96, 0.92, 0.98, 0.94]

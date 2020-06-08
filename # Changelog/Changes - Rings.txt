@@ -284,50 +284,50 @@
 
 # Young Dragon Ring
 - Weight: 0.5
-- Reduces FP consumption of sorceries by 20% whilst standing still.
+- Reduces FP consumption of sorceries by 10%.
 - Source: Quest - Orbeck
 
 # Bellowing Dragoncrest Ring
 - Weight: 0.5
-- Grants 20% boost to the power of Sorceries.
+- Grants 10% boost to the power of Sorceries.
 - Source: Treasure - Irithyll Dungeon
 
 # Great Swamp Ring
 - Weight: 0.5
-- Reduces FP consumption of pyromanices by 20% whilst standing still.
+- Reduces FP consumption of pyromanices by 10%.
 - Source: Drop - Great Crab - Road of Sacrifices
 
 # Witch's Ring
 - Weight: 0.5
-- Grants 20% boost to the power of Pyromancies.
+- Grants 10% boost to the power of Pyromancies.
 - Source: Treasure - Smouldering Lake
 
 # Morne's Ring
 - Weight: 0.5
-- Reduces FP consumption of miracles by 20% whilst standing still.
+- Reduces FP consumption of miracles by 10%.
 - Source: Treasure - Road of Sacrifices
 
 # Ring of the Sun's First Born
 - Weight: 0.5
-- Grants 20% boost to the power of Miracles.
+- Grants 10% boost to the power of Miracles.
 - Source: Treasure - Irithyll of the Boreal Valley
 
 # Deep Ring
 - Weight: 0.5
-- Boosts FP regen by 3% whilst standing still.
+- Reduces FP consumption of all spells by 5%.
 - Source: Boss - Deacons of the Deep
 
 # Unholy Remains
 - Weight: 1
-- Grants 20% boost to the power of Dark spells.
+- Grants 10% boost to the power of Dark spells.
 - Source: Treasure - Catacombs of Carthus
 
 # Dusk Crown Ring
 - Weight: 0.5
-- [+0] Reduces FP consumption of sorceries by 10%.
-- [+1] Reduces FP consumption of sorceries by 12%.
-- [+2] Reduces FP consumption of sorceries by 14%.
-- [+3] Reduces FP consumption of sorceries by 16%.
+- [+0] Boosts max FP by 15% but reduces max HP by 25%.
+- [+1] Boosts max FP by 20% but reduces max HP by 25%.
+- [+2] Boosts max FP by 25% but reduces max HP by 25%.
+- [+3] Boosts max FP by 30% but reduces max HP by 25%.
 - [+0] Source: Treasure - Irithyll Dungeon
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -335,10 +335,10 @@
 
 # Tome of Sunlight
 - Weight: 1
-- [+0] Reduces FP consumption of miracles by 10%.
-- [+1] Reduces FP consumption of miracles by 12%.
-- [+2] Reduces FP consumption of miracles by 14%.
-- [+3] Reduces FP consumption of miracles by 16%.
+- [+0] Increases effectiveness of HP restoration sourcees by 15%.
+- [+1] Increases effectiveness of HP restoration sourcees by 20%.
+- [+2] Increases effectiveness of HP restoration sourcees by 25%.
+- [+3] Increases effectiveness of HP restoration sourcees by 30%.
 - [+0] Source: Treasure - Lothric Castle
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -346,10 +346,10 @@
 
 # Charred Bone
 - Weight: 1
-- [+0] Reduces FP consumption of pyromancies by 10%.
-- [+1] Reduces FP consumption of pyromancies by 12%.
-- [+2] Reduces FP consumption of pyromancies by 14%.
-- [+3] Reduces FP consumption of pyromancies by 16%.
+- [+0] Increases casting speed by 35 but reduces max HP by 25%. 
+- [+1] Increases casting speed by 40 but reduces max HP by 25%.
+- [+2] Increases casting speed by 45 but reduces max HP by 25%.
+- [+3] Increases casting speed by 50 but reduces max HP by 25%.
 - [+0] Source: Covenant - Chaos Servants
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -379,7 +379,7 @@
 
 # Slumbering Dragoncrest Ring
 - Weight: 0.5
-- Masks the sound of the wearer.
+- Masks the sound of the wearer, reducing enemy detection via hearing by 90%.
 - Source: Quest - Orbeck
 
 # Saint's Ring
@@ -555,7 +555,7 @@
 
 # Obscuring Ring
 - Weight: 0.5
-- Obscures the user and reduces enemy visual detection massively.
+- Obscures the user and reducing enemy detection via sight by 90%.
 - Source: Covenant - Rosaria's Fingers Rank 1
 
 # Ring of the Evil Eye

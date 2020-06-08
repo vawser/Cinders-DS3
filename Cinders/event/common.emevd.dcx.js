@@ -1838,12 +1838,6 @@ Event(400800, Default, function(X0_4) {
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
     SetSpeffect(X0_4, 113105);
     
-    // Deep Ring
-    IfCharacterHasSpeffect(AND_06, X0_4, 112099, true, ComparisonType.Equal, 1); // Is Standing Still
-    IfCharacterHasSpeffect(AND_06, X0_4, 112098, true, ComparisonType.Equal, 1); // Ring Equipped
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_06);
-    SetSpeffect(X0_4, 113106);
-    
     // Reset
     WaitFixedTimeSeconds(0.2);
     EndUnconditionally(EventEndType.Restart);
@@ -2566,10 +2560,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25009100, OFF);
-    SetEventFlag(13800867, OFF);
-    SetEventFlag(13800868, OFF);
-    SetEventFlag(13800869, OFF);
+    SetSpeffect(4100900, 260200070);
     
     EndUnconditionally(EventEndType.Restart);
 });

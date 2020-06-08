@@ -1,4 +1,15 @@
 ﻿#------------------------
+# Scaling Letters
+#------------------------
+The scaling letters shown in-game represent a more general and less accurate scaling of each weapon:
+- E: 0 to 29
+- D: 30 to 59
+- C: 60 to 99
+- B: 100 to 149
+- A: 150 to 199
+- S: 200 and above
+
+#------------------------
 # Infusions
 #------------------------
 Normal:

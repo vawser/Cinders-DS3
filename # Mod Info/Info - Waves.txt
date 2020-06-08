@@ -1,4 +1,37 @@
-﻿# Raw List
+﻿# Waves
+1 High Wall Rabble
+2 The Bone Gang
+3 Peasant Uprising
+4 Dogs Amok
+5 Lycanthrope Menace
+6 Giant's Picnic
+7 Rotten Swarm
+8 Wheelin' Dealin'
+9 Swamp Frights
+10 Demonic Blitz
+11 Graveyard Assault
+12 Crab Jazz
+13 Cathedral Devotees
+14 Gargoyle Frenzy
+15 Priestly Onslaught
+16 Monstrosities of Sin
+17 Jailers of the Damned
+18 Ratatouille
+19 Wretched Flock
+20 Serpentine Swarm
+21 Rock'n'Roll
+22 Lost Souls
+23 Thralls of the Pontiff
+24 Irithyllian Vanguard
+5 Guardians of Anor Londo
+26 Crystalline Chaos
+27 Winged Knight Assault
+28 Mimic Madness
+29 Bestial Brawl
+30 Defenders of Lothric
+
+
+# Raw List
 c1100_0000 Wave HP
 
 c1070_0000 Skeleton (Scimitar)
@@ -285,3 +318,4 @@ c3040_0003 Abyss Watcher #
 c3040_0004 Abyss Watcher #
 
 c3060_0000 Demon #
+
