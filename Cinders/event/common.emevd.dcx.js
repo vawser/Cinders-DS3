@@ -2567,7 +2567,9 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(13900192, OFF);
+    // Silver Knight Ledo
+    SetEventFlag(15100170, OFF); 
+    
     //SetSpeffect(4100900, 260200070);
     
     EndUnconditionally(EventEndType.Restart);

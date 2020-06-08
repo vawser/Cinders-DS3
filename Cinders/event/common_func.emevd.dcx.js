@@ -6685,3 +6685,67 @@ Event(20081210, Default, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+//----------------------------------------------
+// Fake Invader - Setup
+// <entity id>
+//----------------------------------------------
+Event(20090000, Default, function(X0_4, X4_4, X8_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetNetworkconnectedEventFlag(X4_4, OFF); // Trigger flag
+    SetNetworkconnectedEventFlag(X8_4, OFF); // Active flag
+});
+
+//----------------------------------------------
+// Fake Invader - Trigger 
+// <entity id>, <disable flag>, <trigger area id>, <trigger flag>
+//----------------------------------------------
+Event(20090001, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    
+    // Trigger Invader if in region
+    //IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Is Embered
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1); // Is in Region
+    IfConditionGroup(MAIN, PASS, AND_01);
+    //WaitRandomTimeSeconds(1, 8);
+    SetNetworkconnectedEventFlag(X12_4, ON); 
+});
+
+//----------------------------------------------
+// Fake Invader - Spawn
+// <entity id>, <disable flag>, <trigger flag>, <active flag>, <msg id>
+//----------------------------------------------
+Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    DisplayMessage(X16_4, 1);
+    
+    // Spawn Invader
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, 30310);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    ForceAnimationPlayback(X0_4, 63010, false, false, false, 0, 1);
+    SetNetworkconnectedEventFlag(X12_4, ON);
+});
+
+//----------------------------------------------
+// Fake Invader - Reward
+// <entity id>, <disable flag>, <active flag>, <itemlot id>, <msg id>
+//----------------------------------------------
+Event(20090003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
+    
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    DisplayMessage(X16_4, 1);
+    
+    AwardItemLot(X12_4);
+    SetCharacterDefaultBackreadState(X0_4, Disabled);
+    SetEventFlag(X4_4, ON);
+});
