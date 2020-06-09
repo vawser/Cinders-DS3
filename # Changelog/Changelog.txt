@@ -30,108 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Backsteps now follow a proper pattern: < 30 = backflip, 30 to 70 = quick backstep, 70 to 100 = slow backstep, > 100 = stagger. Made this consistent across all the hold positions.
-- Added the infusion effects to a talk option on Andre, removed the items that used to hold the infusion effect descriptions.
-- Reversed recent changes to the enemy sound/listen effectiveness effects that made them less effective.
-- Reduced soul leveling cost.
-
-# Trial of Perseverance
-- Increased the HP of the waves.
-
-# Companions
-- You can now only summon one companion at any one time.
-- Adjusted the strength of the companions so they are more equal, and implemented map-specific scaling for all of them. This means they will hit harder in later levels.
-
-# Catalysts
-- Insanity Catalyst has slightly more scaling, only requires 50 INT/FTH.
-- Fool's Flame now scales with Luck.
-- Jester's Talisman now scales with Luck.
-- Changed the damage affinity system. Rather than reducing the other types, it simply gives the main type an early boost.
-- Changed the spells to take into account any scaling from a catalyst. This means spell buff will remain consistent across different spells.
-- Hybrid catalysts now retain their school casting setup whilst infused (i.e. they don't lose or gain new schools). The change to the correction on spells means it doesn't matter if the catalyst only has INT and casts Miracles, the miracle will use the INT for its damage (before it wouldn't).
-
-# Weapons
-- Crystal Ring Shield now custom WA: Unleash Moonlight. A shield strike that emits a moonlight wave that reduces the magic absorption of targets hit by 5% for 8 seconds (stacks).
-- Changed the scaling multipliers from reinforcement back to vanilla levels (i.e. 1 to 2, was 2 to 3).
-
-# Armor
-- Added Gough's Set: sold by the Shrine Handmaid after defeating the Lordran Remnants.
-- Added Crimson Set: found in Profaned Capital.
-- Added Channeler Set: purchased from the Vinheim Scholars covenant / dropped by Quintus the Monstrous.
-- Added Astrologist Set: found in Grand Archives (split across two chests).
-- Added Aurous Set: dropped by Gaius the Mighty.
-- Added Dragon Acolyte Set: dropped by mimic in Grand Archives.
-- Added Vengarl's Set: dropped by mimic in Grand Archives.
-- Added Chester's Set: sold by Marvelous Chester.
-
-# Spells
-- Adjusted the FP/damage of spells.
-- Bursting Fireball no longer drops pools of lava, rather additional fireballs are emitted whilst ascended.
-- Cleaned up how damage is dealt by various spells (i.e. removed several secondary hits).
-- Lightning Spear spells now deal big stamina and poise damage with their melee portion.
-- Black Fireball now has gravity.
-
-# Rings
-- Ring of Momentum now applies quickstep to the roll action, replacing normal rolls.
-- Bellowing Dragoncrest Ring now boosts magic spell damage by 10%.
-- Witch's Ring now boosts fire spell damage by 10%.
-- Ring of the Sun's First Born Ring now boosts physical/lightning spell damage by 10%.
-- Unholy Remains now boosts dark spell damage by 10%.
-- Young Dragon Ring: Reduces FP consumption of sorceries by 10%.
-- Great Swamp Ring: Reduces FP consumption of pyromanices by 10%.
-- Morne's Ring: Reduces FP consumption of miracles by by 10%.
-- Deep Ring: Reduces FP consumption of sorceries, pyromancies and miracles by by 10%.
-- Dusk Crown Ring: Boosts max FP by 15% but reduces max HP by 25%.
-- Charred Bone: Increases casting speed by 35 but reduces max HP by 25%. 
-- Tome of Sunlight: Increases effectiveness of HP restoration sourcees by 35%.
-
-# Items
-- Ragged Mask is now part of the Swordmaster's drop.
-- Swapped the Path of the Dragon gesture treasures in Archdragon Peak: using it at the Dragon Altar now gives you the Dragon Chaser's Ashes.
-- Giant Set, Giant Halberd and Giant Shield are now found in the Darkmoon Tomb.
-- Ring of Betrothal is now found on the Blacksmith Giant's body.
-- Moved Black Metal Hat to a corpse treasure.
-- Estus Flasks now restore more HP (starts at 500, at max is 1000).
-- Ashen Estus Flasks now restore more FP (starts at 1000, at max is 2000).
-- Free Estus Flasks from enemies kills has been disabled.
-- Removed Accursed Ring (no longer needed for Karla).
-
-# Enemies
-- Reduced the lock-on range increase to 25 (was 100). This will keep the extended range intended but reduce the silly instances of being able to target stuff from absurdly far away.
-- Increased the damage of enemies in early levels.
-- Increased the HP of several enemies to make them more threatening.
-- Increased defence multiplier for enemies in levels.
-- Changed Quintus the Monstrous character setup.
-- Changed Gaius the Mighty character setup.
-- Renamed Lord Erectus to Lord Zakar (:wink:), changed his character setup. Now drops the Mad Warrior Set.
-- Renamed Ezekiel to Ezekiel the Duelist.
-
-# Bosses
-- Reduced the absorption of the Lordran Remnants bosses.
-- Yhorm now just takes 2% HP damage when hit by the Storm King WA.
-- Reduced the HP of many bosses to account for the new damage output from weapons/spells.
-
-# Map
-- Added new merchant in Irithyll: Marvelous Chester.
-- Added new merchant in Smouldering Lake: Crestfallen Merchant.
-- Merchants will now attack the player if they are hit. They will not remain hostile if you die or reload. If killed they will stay dead.
-- Redesigned Smouldering Lake. The lake part is now occupied by 3 Carthus Sandworms and a few minor enemies near the Old Demon King staircase. You must kill all 3 sandworms before you can enter the demon ruins (and reach the bonfire).
-- Added new merchant in Cemetery of Ash: Grave Warden Lillian, she is an early dark spell tutor
-- Karla is now back in Irithyll Dungeon.
-- Yoel now sells sorceries. (Yuria won't, but all the sorceries he sells can be purchased from Karla/Orbeck anyway).
-- Alva is now a normal NPC enemy at the entrance to Irithyll Dungeon.
-- Longfinger Kirk is now a normal NPC enemy in the Cathedral.
-- Silver Knight Ledo, Moaning Knight and Alva in the Ringed City are now normal NPC enemies.
-
-# Bugfixes
-- Fixed an issue with some curses breaking weapon override effects.
-- Fixed issue with script check causing companions to be visible at map transitions.
-- Fixed bug with normal Priest's Candlestick not having the ascension effect.
-- Issue with Hawkwood's quest checking for the Twinkling Dragon Torso stone should now fixed (it just checks if the player has received the item from the Path of the Gesture puzzle now).
-- Fixed bugged chest in Profaned Capital.
-- Fixed numerous small bugs.
-- Black Dragon Knights can now be backstabbed.
 
 #------------------------------
 # TODO
@@ -141,8 +39,6 @@ Add Gravelord FFX, add Gravelord Sword Dance
 Curse of Pandemonium - Add stuff
 Add some boss arenas for small boss encounters
 Add humanity sprite enemy
-
-Change Karla position (add new early tutor)
 
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
