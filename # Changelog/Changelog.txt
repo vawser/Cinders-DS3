@@ -30,6 +30,19 @@
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Increased leveling costs.
+
+# Weapons
+- Reduced the damage of claw and fist category weapons.
+- Reduced the damage of the paired daggers.
+
+# Items
+- Reduced base damage of consumable throwing items.
+- Reduced base damage of the dragon items slightly.
+
+# Bugfixes
+- Reverted several model mask changes made ages ago, should fix some issues like Lapp's helm, etc.
 
 #------------------------------
 # TODO
