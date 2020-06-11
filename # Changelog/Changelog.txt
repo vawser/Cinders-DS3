@@ -31,27 +31,38 @@
 # Changelog
 #------------------------------
 # General
-- Increased leveling costs.
+- The player spawns with an animation during the start sequence.
 
 # Weapons
-- Reduced the damage of claw and fist category weapons.
-- Reduced the damage of the paired daggers.
+- Increased the FP cost of several catalyst WAs.
 
-# Items
-- Reduced base damage of consumable throwing items.
-- Reduced base damage of the dragon items slightly.
+# Merchants
+- Yoel now sells Soul Arrow.
+
+# Enemies
+- Corrupted Gundyr HP: 6000 -> 7000
+- Abyss Watchers: 8000 -> 10000
+- Old Demon King: 9000 -> 10000
+- Pontiff Sulyvahn: 8000 -> 10000
+- Aldrich: 10000 -> 12000
+- Dancer: 8000 -> 9000
+- Oceiros: 8000 -> 11000
+- Dragonslayer Armour: 9000 -> 12000
+- Nameless King: 10000 -> 12000
+- Lorian: 10000 -> 12000, 6000 -> 9000
+- Lothric: 8000 -> 10000
+- Soul of Cinder: 12000 -> 16000
+- Demon Prince: 6000 -> 9000
+- Reduced the HP of Dogs.
+- Reduced the HP of Giant Flies.
 
 # Bugfixes
-- Reverted several model mask changes made ages ago, should fix some issues like Lapp's helm, etc.
+- In-map warps now set your respawn near to the exit point. This will prevent oddities that occur when you die and appear back in the original map.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Gravelord FFX, add Gravelord Sword Dance
-
-Curse of Pandemonium - Add stuff
-Add some boss arenas for small boss encounters
-Add humanity sprite enemy
 
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
@@ -63,5 +74,6 @@ Add humanity sprite enemy
 14230000 - 0870 / 1424 Model Ballista
 
 Add Golem Axe WA: Wind blast
-Fix the Undead Settlement warp bug
 
+Redo Consumed King's Garden so Mirror Knight is in area before Oceiros, reduce Pus of Men, remove the dogs, move Cathedral Knights up into the side area.
+Change most of the new NPCs into fake invaders
