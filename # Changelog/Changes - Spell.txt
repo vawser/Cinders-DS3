@@ -899,7 +899,7 @@ Divine Pillars of Light
 - FP Cost: 600
 - FTH Req: 20
 - Base Effect: Heals 600 HP over 120 seconds (5 HP/s). Scales with FTH.
-- Ascended Effect: costs 40 FP.
+- Ascended Effect: costs 500 FP.
 
 #--------------------------------
 # Bountiful Light

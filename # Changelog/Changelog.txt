@@ -32,6 +32,7 @@
 #------------------------------
 # General
 - The player spawns with an animation during the start sequence.
+- Leveling cost back to vanilla curve.
 
 # Weapons
 - Increased the FP cost of several catalyst WAs.
@@ -53,8 +54,15 @@
 - Lothric: 8000 -> 10000
 - Soul of Cinder: 12000 -> 16000
 - Demon Prince: 6000 -> 9000
-- Reduced the HP of Dogs.
-- Reduced the HP of Giant Flies.
+- Reduced the HP of many normal enemies.
+
+# Maps
+- The majority of the hostile NPC enemies are now invaders, and will only appear when the player is in a certain location (rather than always being present). You do not need to be embered for them to appear.
+- The location of several of the NPC enemies has been moved to account for their new method of appearing.
+- Reworked the layout of the Consumed King's Garden area. 
+- The main part now has 2 Pus of Men near the front, then a mix of slugs and basilisks in the middle. 
+- The Cathedral Knights and Lothric Priests are now in the upper back path area.
+- The Mirror Knight is now at the top of the stairs that lead to the plaza before Oceiros.
 
 # Bugfixes
 - In-map warps now set your respawn near to the exit point. This will prevent oddities that occur when you die and appear back in the original map.
@@ -73,7 +81,23 @@ Add Gravelord FFX, add Gravelord Sword Dance
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Add Golem Axe WA: Wind blast
-
 Redo Consumed King's Garden so Mirror Knight is in area before Oceiros, reduce Pus of Men, remove the dogs, move Cathedral Knights up into the side area.
 Change most of the new NPCs into fake invaders
+
+// Silver Knight Ledo 
+InitializeCommonEvent(20090000, 5100170, 15105170, 15105171); // Setup
+InitializeCommonEvent(20090001, 5100170, 15100170, 5102170, 15105170); // Trigger
+InitializeCommonEvent(20090002, 5100170, 15100170, 15105170, 15105171, 99005100, 30310, 63010); // Spawn
+InitializeCommonEvent(20090003, 5100170, 15100170, 15105171, 59600, 99005101); // Reward
+
+# Morrel
+3000732
+3002732
+
+# Ava
+3000734
+3002734
+
+# The Pursuer
+3000736
+3002736

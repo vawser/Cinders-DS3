@@ -6694,8 +6694,8 @@ Event(20081210, Default, function(X0_4, X4_4) {
 Event(20090000, Default, function(X0_4, X4_4, X8_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    SetNetworkconnectedEventFlag(X4_4, OFF); // Trigger flag
-    SetNetworkconnectedEventFlag(X8_4, OFF); // Active flag
+    SetEventFlag(X4_4, OFF); // Trigger flag
+    SetEventFlag(X8_4, OFF); // Active flag
 });
 
 //----------------------------------------------
@@ -6709,8 +6709,8 @@ Event(20090001, Default, function(X0_4, X4_4, X8_4, X12_4) {
     //IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Is Embered
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1); // Is in Region
     IfConditionGroup(MAIN, PASS, AND_01);
-    //WaitRandomTimeSeconds(1, 8);
-    SetNetworkconnectedEventFlag(X12_4, ON); 
+    WaitRandomTimeSeconds(1, 3);
+    SetEventFlag(X12_4, ON); 
 });
 
 //----------------------------------------------
@@ -6730,7 +6730,7 @@ Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
     ForceAnimationPlayback(X0_4, X24_4, false, false, false, 0, 1);
-    SetNetworkconnectedEventFlag(X12_4, ON);
+    SetEventFlag(X12_4, ON);
 });
 
 //----------------------------------------------
