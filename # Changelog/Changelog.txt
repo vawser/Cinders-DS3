@@ -58,6 +58,8 @@
 
 # Maps
 - The majority of the hostile NPC enemies are now invaders, and will only appear when the player is in a certain location (rather than always being present). You do not need to be embered for them to appear.
+- Knight's Rest bonfire is now unlocked by killing the Pursuer.
+- Lothric Castle bonfire is now unlocked by killing the Pursuer.
 - The location of several of the NPC enemies has been moved to account for their new method of appearing.
 - Reworked the layout of the Consumed King's Garden area. 
 - The main part now has 2 Pus of Men near the front, then a mix of slugs and basilisks in the middle. 
@@ -81,23 +83,31 @@ Add Gravelord FFX, add Gravelord Sword Dance
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Redo Consumed King's Garden so Mirror Knight is in area before Oceiros, reduce Pus of Men, remove the dogs, move Cathedral Knights up into the side area.
-Change most of the new NPCs into fake invaders
+Check Hexer Hood with hexer robe
+Add backstab/parry support for the new chr ids
 
-// Silver Knight Ledo 
-InitializeCommonEvent(20090000, 5100170, 15105170, 15105171); // Setup
-InitializeCommonEvent(20090001, 5100170, 15100170, 5102170, 15105170); // Trigger
-InitializeCommonEvent(20090002, 5100170, 15100170, 15105170, 15105171, 99005100, 30310, 63010); // Spawn
-InitializeCommonEvent(20090003, 5100170, 15100170, 15105171, 59600, 99005101); // Reward
+// Inquisitor Ashford
+    InitializeCommonEvent(20090000, 3000730, 13005730, 13005731); // Setup
+    InitializeCommonEvent(20090001, 3000730, 13000730, 3002730, 13005730); // Trigger
+    InitializeCommonEvent(20090002, 3000730, 13000730, 13005730, 13005731, 99005110, 30310, 63010); // Spawn
+    InitializeCommonEvent(20090003, 3000730, 13000730, 13005731, 11400, 99005111); // Reward
+    InitializeCommonEvent(20009201, 3000730, 81300); // Kill Taunt
+    
+# Luyila of Londor
+3010730
+3012730
 
-# Morrel
-3000732
-3002732
+# Sharron
+3010732
+3012732
 
-# Ava
-3000734
-3002734
+# Pursuer
+3010734
+3012734
 
-# The Pursuer
-3000736
-3002736
+# Tiny
+3010736
+3012736
+
+3011950
+3010950
