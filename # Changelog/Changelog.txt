@@ -37,6 +37,9 @@
 # Weapons
 - Increased the FP cost of several catalyst WAs.
 
+# Armor
+- Drakekeeper Set is now called the Dragon Hunter Set, with lore to fit its new name.
+
 # Merchants
 - Yoel now sells Soul Arrow.
 
@@ -65,6 +68,7 @@
 - The main part now has 2 Pus of Men near the front, then a mix of slugs and basilisks in the middle. 
 - The Cathedral Knights and Lothric Priests are now in the upper back path area.
 - The Mirror Knight is now at the top of the stairs that lead to the plaza before Oceiros.
+- Renamed Sieghardt of Catarina to Lothar of Catarina, so it is more obviously not Siegward.
 
 # Bugfixes
 - In-map warps now set your respawn near to the exit point. This will prevent oddities that occur when you die and appear back in the original map.
@@ -85,18 +89,22 @@ Add Gravelord FFX, add Gravelord Sword Dance
 
 Check Hexer Hood with hexer robe
 Add backstab/parry support for the new chr ids
+Change Burial Knight npc/think/chr ids
 
 // Inquisitor Ashford
     InitializeCommonEvent(20090000, 3000730, 13005730, 13005731); // Setup
     InitializeCommonEvent(20090001, 3000730, 13000730, 3002730, 13005730); // Trigger
     InitializeCommonEvent(20090002, 3000730, 13000730, 13005730, 13005731, 99005110, 30310, 63010); // Spawn
     InitializeCommonEvent(20090003, 3000730, 13000730, 13005731, 11400, 99005111); // Reward
-    InitializeCommonEvent(20009201, 3000730, 81300); // Kill Taunt
     
-// Gaius
-3200730
-3202730
+Lothar
+3300740
+3302740
 
-// Karstark
-3200732
-3202732
+Forlorn
+3300742
+3302742
+
+Locklin
+3300744
+3302744
