@@ -63,6 +63,8 @@
 - The majority of the hostile NPC enemies are now invaders, and will only appear when the player is in a certain location (rather than always being present). You do not need to be embered for them to appear.
 - Knight's Rest bonfire is now unlocked by killing the Pursuer.
 - Lothric Castle bonfire is now unlocked by killing the Pursuer.
+- Grand Archives Rooftop bonfire is now unlocked by killing the Pursuer.
+- Irithyll Commons bonfire is now unlocked by killing the Pursuer.
 - The location of several of the NPC enemies has been moved to account for their new method of appearing.
 - Reworked the layout of the Consumed King's Garden area. 
 - The main part now has 2 Pus of Men near the front, then a mix of slugs and basilisks in the middle. 
@@ -90,6 +92,8 @@ Add Gravelord FFX, add Gravelord Sword Dance
 Check Hexer Hood with hexer robe
 Add backstab/parry support for the new chr ids
 Change Burial Knight npc/think/chr ids
+Buff Lucky infusion slightly
+Add praise the sun anim to solaire summon
 
 // Inquisitor Ashford
     InitializeCommonEvent(20090000, 3000730, 13005730, 13005731); // Setup
@@ -97,14 +101,15 @@ Change Burial Knight npc/think/chr ids
     InitializeCommonEvent(20090002, 3000730, 13000730, 13005730, 13005731, 99005110, 30310, 63010); // Spawn
     InitializeCommonEvent(20090003, 3000730, 13000730, 13005731, 11400, 99005111); // Reward
     
-Lothar
-3300740
-3302740
 
-Forlorn
-3300742
-3302742
+Osvaldo
+3700760
+3702760
 
-Locklin
-3300744
-3302744
+Scarlett
+3700762
+3702762
+
+Pursuer
+3700764
+3702764
