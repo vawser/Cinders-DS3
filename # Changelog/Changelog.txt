@@ -93,21 +93,10 @@ Add backstab/parry support for the new chr ids
     InitializeCommonEvent(20090003, 3000730, 13000730, 13005731, 11400, 99005111); // Reward
     InitializeCommonEvent(20009201, 3000730, 81300); // Kill Taunt
     
-# Luyila of Londor
-3010730
-3012730
+// Gaius
+3200730
+3202730
 
-# Sharron
-3010732
-3012732
-
-# Pursuer
-3010734
-3012734
-
-# Tiny
-3010736
-3012736
-
-3011950
-3010950
+// Karstark
+3200732
+3202732

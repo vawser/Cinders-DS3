@@ -54,7 +54,7 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Cathedral Knight Set
 - Miracle Cost: [0.98, 0.96, 0.99, 0.97]
 
-# Drakekeeper Set
+# Dragon Hunter Set
 - Stamina Damage: [1.06, 1.12, 1.03, 1.09]
 
 # Black Iron Set
