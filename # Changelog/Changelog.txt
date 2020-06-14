@@ -85,13 +85,14 @@
 
 # Bugfixes
 - In-map warps now set your respawn near to the exit point. This will prevent oddities that occur when you die and appear back in the original map.
-- Fixed Hexer Hood/Robe issue.
+- Fixed Hexer Hood being tucked into Robe.
 - Immolation HP drain now stacks with multiple instances.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Gravelord FFX, add Gravelord Sword Dance
+Add praise the sun anim to solaire summon
 
 31700000 0840 / 1419 Hands of Sin
 31600000 0864 / 1420 Frying Pan
@@ -102,5 +103,5 @@ Add Gravelord FFX, add Gravelord Sword Dance
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Add praise the sun anim to solaire summon
+
 
