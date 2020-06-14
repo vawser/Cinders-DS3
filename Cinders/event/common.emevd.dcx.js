@@ -2472,93 +2472,126 @@ Event(400400, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160700030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    // Spawn flags
-    SetEventFlag(13000706, OFF); // Captain Morrel
-    SetEventFlag(13000707, OFF); // Huntmaster Ava
-    SetEventFlag(13000708, OFF); // The Pursuer (High Wall)
-    SetEventFlag(13000709, OFF); // Inquisitor Ashford
+    // m51_1
+    SetEventFlag(15100744, OFF); // Glaive Master Hodir
+    SetEventFlag(15100732, OFF); // Freya the Wretched
+    SetEventFlag(15100734, OFF); // Nahor the Fallen
+    SetEventFlag(15100736, OFF); // Easterner Iazeel
+    SetEventFlag(15100738, OFF); // Seeker of the Spurned
+    SetEventFlag(15100746, OFF); // Moaning Knight
+    SetEventFlag(15100748, OFF); // Silver Knight Ledo 
+    
+    // m50
+    SetEventFlag(15000730, OFF); // Dulfish the Accursed
+    SetEventFlag(15000180, OFF); // Desert Pyromancer Zoey
+    
+    // m45
+    SetEventFlag(14500738, OFF); // Ezekiel the Duelist
+    SetEventFlag(14500742, OFF); // Eija the Shadow
+    SetEventFlag(14500734, OFF); // Frozen Knight Torbjorn
+    SetEventFlag(14500736, OFF); // Disciple of Alsanna
+    
+    // m41
+    SetEventFlag(14100810, OFF); // Lord Zakar
+    
+    // m40
+    SetEventFlag(14000890, OFF); // Blacksmith's Nightmare
+    SetEventFlag(14000892, OFF); // Ashen Keeper Sofija
+    SetEventFlag(9500, OFF); // Sword Master
+    
+    // m39
+    SetEventFlag(13900730, OFF); // Corrupted Knight Lloyd
+    SetEventFlag(13900732, OFF); // Jailer Eileen
+    SetEventFlag(13900734, OFF); // Ollis the Merciless
+    SetEventFlag(13900736, OFF); // Fester the Jester
+    SetEventFlag(13900738, OFF); // Vileblood Annalise
+    SetEventFlag(13900740, OFF); // Bewitched Knight Iwai
+    SetEventFlag(13900742, OFF); // Lord Takatsuji
+    SetEventFlag(13900744, OFF); // Lieutenant Ugali
+    SetEventFlag(13900746, OFF); // Lieutenant Hanji
+    SetEventFlag(13900748, OFF); // Alva, Seeker of the Spurned
+    SetEventFlag(13900760, OFF); // The Pursuer
+    SetEventFlag(13900360, OFF); // Court Sorcerer
+    
+    // m38
+    SetEventFlag(13800790, OFF); // Holy Knight Morton
+    SetEventFlag(13800792, OFF); // Tomb Raider Dyfan
+    SetEventFlag(13800794, OFF); // Chaos Servant Eygor
     SetEventFlag(13800763, OFF); // The Father
     SetEventFlag(13800761, OFF); // The Mother
     SetEventFlag(13800762, OFF); // The Child
-    SetEventFlag(13900100, OFF); // Corrupted Knight Lloyd
-    SetEventFlag(13900101, OFF); // Jailer Eileen
-    SetEventFlag(13900102, OFF); // Ollis the Merciless
-    SetEventFlag(13900103, OFF); // Fester the Jester
-    SetEventFlag(13900104, OFF); // The Pursuer (Irithyll Dungeon)
-    SetEventFlag(13900105, OFF); // Vileblood Annalise
-    SetEventFlag(13800101, OFF); // Holy Knight Morton
-    SetEventFlag(13800102, OFF); // Tomb Raider Dyfan
-    SetEventFlag(13800104, OFF); // Chaos Servant Eygor
-    SetEventFlag(13700172, OFF); // Devotee Scarlett
-    SetEventFlag(13700173, OFF); // The Pursuer (Irithyll)
-    SetEventFlag(13500195, OFF); // Morric, the Fallen Knight
-    SetEventFlag(13410255, OFF); // The Pursuer
-    SetEventFlag(13300600, OFF); // Seighard of Catarina
-    SetEventFlag(13300601, OFF); // The Forlorn
-    SetEventFlag(13300602, OFF); // Forgotten Locklin
-    SetEventFlag(13100612, OFF); // Eccentric Archibald
-    SetEventFlag(13010302, OFF); // Tiny
-    SetEventFlag(13010303, OFF); // Luyila of Londor
-    SetEventFlag(13010304, OFF); // Dominatrix Sharron
-    SetEventFlag(13010305, OFF); // The Pursuer (Lothric Castle)
-    SetEventFlag(13200299, OFF); // Havel the Rock
-    SetEventFlag(13300395, OFF); // Butcher
-    SetEventFlag(13300396, OFF); // Exile Watchdog
-    SetEventFlag(13300397, OFF); // Exile Watchdog
+    SetEventFlag(13800398, OFF); // Knight Slayer Tsorig
+    
+    // m37
+    SetEventFlag(13700733, OFF); // Boreal Outrider Knight
+    SetEventFlag(13700734, OFF); // Boreal Outrider Knight
+    SetEventFlag(13700544, OFF); // Deep Accursed
+    SetEventFlag(13700761, OFF); // Dragonrider
+    SetEventFlag(13700766, OFF); // Wandering Knight Osvaldo
+    SetEventFlag(13700762, OFF); // Devotee Scarlett
+    SetEventFlag(13700764, OFF); // The Pursuer
+    SetEventFlag(13700198, OFF); // Drang Knight (Hammer)
+    SetEventFlag(13700199, OFF); // Drang Knight (Twinspear)
+    
+    // m35
+    SetEventFlag(13500196, OFF); // Ravenous Crystal Lizard
+    SetEventFlag(13500198, OFF); // Morne's Armor
+    SetEventFlag(13500746, OFF); // Morric, the Fallen Knight
+    SetEventFlag(13500742, OFF); // Hallowed Knight Orthell
+    SetEventFlag(13500744, OFF); // Longfinger Kirk
+    SetEventFlag(13500286, OFF); // Thief
+    SetEventFlag(13500285, OFF); // Brigand
+    
+    // m34_1
+    SetEventFlag(13410192, OFF); // Boreal Outrider Knight
+    SetEventFlag(13410256, OFF); // Black Dragon Knight (Greataxe)
+    SetEventFlag(13410257, OFF); // Black Dragon Knight (Greatsword)
+    SetEventFlag(13410258, OFF); // Black Dragon Knight (Sword)
+    SetEventFlag(13410730, OFF); // The Pursuer
+    SetEventFlag(13410732, OFF); // Quintus the Monstrous
     SetEventFlag(13410204, OFF); // Black Hand Gotthard
     SetEventFlag(13410202, OFF); // Lion Knight Albert
     SetEventFlag(13410203, OFF); // Daughter of Crystal Kriemhild
-    SetEventFlag(13500286, OFF); // Thief
-    SetEventFlag(13500285, OFF); // Brigand
-    SetEventFlag(13700198, OFF); // Drang Knight (Hammer)
-    SetEventFlag(13700199, OFF); // Drang Knight (Twinspear)
-    SetEventFlag(13800398, OFF); // Knight Slayer Tsorig
-    SetEventFlag(13900360, OFF); // Court Sorcerer
-    SetEventFlag(9500, OFF); // Sword Master
-    SetEventFlag(15000180, OFF); // Desert Pyromancer Zoey
-    SetEventFlag(14100810, OFF); // Lord Zakar
-    SetEventFlag(14500660, OFF); // Ezekiel the Duelist
-    SetEventFlag(14500661, OFF); // Eija the Shadow
-    SetEventFlag(15000600, OFF); // Dulfisk the Accursed
-    SetEventFlag(15100650, OFF); // Glaive Master Hodir
-    SetEventFlag(15100651, OFF); // Freya the Wretched
-    SetEventFlag(15100652, OFF); // Nahor the Fallen
-    SetEventFlag(15100653, OFF); // Easterner Iazeel
-    SetEventFlag(13200430, OFF); // Dragon Cultist Xeric
-    SetEventFlag(13200431, OFF); // Dragon Cultist Zena
-    SetEventFlag(13200432, OFF); // Dragon Cultist Pon
-    SetEventFlag(13200433, OFF); // Dragon Cultist Kalix
-    SetEventFlag(13200434, OFF); // Dragon Cultist Wex
-    SetEventFlag(13200435, OFF); // Dragon Cultist Solos
-    SetEventFlag(13200436, OFF); // Gaius the Mighty
-    SetEventFlag(13410259, OFF); // Quintus the Monstrous
     
-    SetEventFlag(13300606, OFF); // Wandering Knight Osvaldo
-    SetEventFlag(13900110, OFF); // Bewitched Knight Iwai
-    SetEventFlag(13900111, OFF); // Lord Takatsuji
-    SetEventFlag(13900112, OFF); // Lieutenant Ugali
-    SetEventFlag(13900113, OFF); // Lieutenant Hanji
-    SetEventFlag(14000860, OFF); // Blacksmith's Nightmare
-    SetEventFlag(14000861, OFF); // Ashen Keeper Sofija
+    // m33
+    SetEventFlag(13300603, OFF); // Ravenous Crystal Lizard
+    SetEventFlag(13300742, OFF); // The Forlorn
+    SetEventFlag(13300744, OFF); // Forgotten Locklin
+    SetEventFlag(13300395, OFF); // Butcher
+    SetEventFlag(13300396, OFF); // Exile Watchdog
+    SetEventFlag(13300397, OFF); // Exile Watchdog
     
-    SetEventFlag(13500197, OFF); // Hallowed Knight Orthell
-    SetEventFlag(13200470, OFF); // Dragon Hunter Karstark
-    SetEventFlag(14500663, OFF); // Disciple of Alsanna
-    SetEventFlag(15000601, OFF); // The Prowler
+    // m32
+    SetEventFlag(13200430, OFF); // Dragon Cultist
+    SetEventFlag(13200431, OFF); // Dragon Cultist
+    SetEventFlag(13200432, OFF); // Dragon Cultist
+    SetEventFlag(13200433, OFF); // Dragon Cultist
+    SetEventFlag(13200434, OFF); // Dragon Cultist
+    SetEventFlag(13200435, OFF); // Dragon Cultist
+    SetEventFlag(13200730, OFF); // Gaius the Mighty
+    SetEventFlag(13200732, OFF); // Dragon Hunter Karstark
+    SetEventFlag(13200299, OFF); // Havel the Rock
     
-    SetEventFlag(13900192, OFF); // Alva (Irithyll)
-    SetEventFlag(13500194, OFF); // Longfinger Kirk
+    // m31
+    SetEventFlag(13100613, OFF); // Boreal Outrider Knight
+    SetEventFlag(13100615, OFF); // Boreal Outrider Knight
+    SetEventFlag(13100780, OFF); // Eccentric Archibald
     
-    SetEventFlag(15100170, OFF); // Silver Knight Ledo 
-    SetEventFlag(15100172, OFF); // Alva (TRC) 
-    SetEventFlag(15100174, OFF); // Moaning Knight 
+    // m30_1
+    SetEventFlag(13010730, OFF); // Luyila of Londor
+    SetEventFlag(13010732, OFF); // Dominatrix Sharron
+    SetEventFlag(13010734, OFF); // The Pursuer
+    SetEventFlag(13010736, OFF); // Tiny
     
-    SetPlayerRespawnPoint(4002950);
-    SaveRequest(0);
-    WaitFixedTimeSeconds(1);
-    SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000970);
-    EndUnconditionally(EventEndType.Restart);
+    // m30
+    SetEventFlag(13000720, OFF); // Mirror Knight
+    SetEventFlag(13000622, OFF); // Boreal Outrider Knight
+    SetEventFlag(13000732, OFF); // Captain Morrel
+    SetEventFlag(13000734, OFF); // Huntmaster Ava
+    SetEventFlag(13000736, OFF); // The Pursuer
+    SetEventFlag(13000730, OFF); // Inquisitor Ashford
+    
+    DisplayMessage(99007000, 1);
 });
 
 
