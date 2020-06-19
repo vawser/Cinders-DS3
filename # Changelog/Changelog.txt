@@ -34,7 +34,22 @@
 - The player spawns with an animation during the start sequence.
 - Leveling cost back to vanilla curve.
 
+# Mechanics
+- Changed critical hits into a general mechanic. You can now critical hit with any attack without specific equipment, but the base chance is 1%.
+- Additional sources stack additively, except for innate sources from weapons.
+- Only affects melee damage.
+- Snickering Top Hat and Ring of Punishment increase your critical hit chance by 10%. 
+- Lucky weapons will grant you a random amount of critical hit chance on each swing (between 5% and 10%).
+- Crab Claw increases critical hit chance by 5%.
+- Bone Scythe increases critical hit chance by 5%.
+- Guillotine Axe increases critical hit chance by 5%.
+- Beast Cutter increases critical hit chance by 5%.
+- Beasthunter Saif increases critical hit chance by 5%.
+- Four-Pronged Plow increases critical hit chance by 5%.
+
 # Weapons
+- Hallowed Sword and Hallowed Greatsword are now Luck weapons.
+- Drake Sword is now a STR weapon.
 - Increased the FP cost of several catalyst WAs.
 - Increased the Luck scaling multiplier for the Lucky infusion.
 
@@ -63,11 +78,12 @@
 - Removed the Prowler.
 - The majority of the hostile NPC enemies are now invaders, and will only appear when the player is in a certain location (rather than always being present). You do not need to be embered for them to appear.
 - The location of several of the NPC enemies has been moved to account for their new method of appearing.
-- Increased the base defence of the hostile NPCs so they are less squishy.
+- Reduced the base defence of enemies to make low damage more effective. Should make the early game enemies feel much less tanky.
 
 # Items
 - Captain Morrel now drops the Ring of Momentum.
 - Corrupted Knight Lloyd now drops the Runic Seal.
+- Throwables now have more base damage but less luck scaling (same overall output).
 
 # Maps
 - Knight's Rest bonfire is now unlocked by killing the Pursuer.
@@ -87,6 +103,7 @@
 - In-map warps now set your respawn near to the exit point. This will prevent oddities that occur when you die and appear back in the original map.
 - Fixed Hexer Hood being tucked into Robe.
 - Immolation HP drain now stacks with multiple instances.
+- Fixed ascended hybrid spell tools not granting ascended spell effects.
 
 #------------------------------
 # TODO
@@ -102,6 +119,4 @@ Add praise the sun anim to solaire summon
 
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
-
-
 

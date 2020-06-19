@@ -1432,66 +1432,35 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     
-    -- Ring of Punishment - Critical Hit
-    if env(1116, 112006) == TRUE then
-        local rand = math.random(0, 100)
-        -- Lucky Weapon
-        if env(1116, 112010) == TRUE then
-            if rand <= 10 then
-                act(2002, 160601600)
-            end
-        -- Normal Weapon
-        elseif env(1116, 112010) == FALSE then
-            if rand <= 5 then
-                act(2002, 160601600)
-            end
-        end
+    -- Critical Setup
+    local crit_chance = 1
+    local roll = math.random(0, 100)
+    
+    -- Snickering Top Hat
+    if env(1116, 111000) == TRUE then 
+        crit_chance = crit_chance + 10
     end
     
-    -- Snickering Top Hat - Critical Hit
-    if env(1116, 112080) == TRUE then
-        local rand = math.random(0, 100)
-        -- Lucky Weapon
-        if env(1116, 112010) == TRUE then
-            if rand <= 10 then
-                act(2002, 160402030)
-            end
-        -- Normal Weapon
-        elseif env(1116, 112010) == FALSE then
-            if rand <= 5 then
-                act(2002, 160402030)
-            end
-        end
+    -- Ring of Punishment
+    if env(1116, 111001) == TRUE then 
+        crit_chance = crit_chance + 10
     end
     
-    -- Lucky - Damage Variance
-    if env(1116, 112010) == TRUE or env(1116, 112021) == TRUE then
-        local rand = math.random(0, 100)
-        if rand <= 2 then
-            act(2002, 112011) -- -25%
-        elseif rand > 2 and rand <= 5 then
-            act(2002, 112012) -- -20%
-        elseif rand > 5 and rand <= 10 then
-            act(2002, 112013) -- -15%
-        elseif rand > 10 and rand <= 20 then
-            act(2002, 112014) -- -10%
-        elseif rand > 20 and rand <= 35 then
-            act(2002, 112015) -- -5%
-        elseif rand > 35 and rand <= 65 then
-            -- nothing
-        elseif rand > 65 and rand <= 80 then
-            act(2002, 112016) -- 5%
-        elseif rand > 80 and rand <= 90 then
-            act(2002, 112017) -- 10%
-        elseif rand > 90 and rand <= 95 then
-            act(2002, 112018) -- 15%
-        elseif rand > 95 and rand <= 98 then
-            act(2002, 112019) -- 20%
-        elseif rand > 98 then
-            act(2002, 112020) -- 25%
-        end
+    -- Lucky Weapon
+    if env(1116, 111002) == TRUE then 
+        crit_chance = crit_chance + math.random(5, 10)
     end
     
+    -- Weapon Effect
+    if env(1116, 111003) == TRUE then 
+        crit_chance = crit_chance + 5
+    end
+    
+    -- Critical Hit Check
+    if roll <= crit_chance then
+         act(2002, 112500)
+    end
+
     act(2006, 0)
     if env(271) == TRUE then
         r1 = "W_AttackRightLight1"
@@ -2502,34 +2471,6 @@ function ExecMagic(quick_type, blend_type)
     -- Insanity Catalyst - WA Effect
     if env(1116, 112004) == TRUE then
         act(2002, 112005) -- Apply HP loss on cast
-    end
-    
-    -- Lucky Catalyst - Spell Damage Variance
-    if env(1116, 112030) == TRUE then
-        local rand = math.random(0, 100)
-        if rand <= 2 then
-            act(2002, 112031) -- -25%
-        elseif rand > 2 and rand <= 5 then
-            act(2002, 112032) -- -20%
-        elseif rand > 5 and rand <= 10 then
-            act(2002, 112033) -- -15%
-        elseif rand > 10 and rand <= 20 then
-            act(2002, 112034) -- -10%
-        elseif rand > 20 and rand <= 35 then
-            act(2002, 112035) -- -5%
-        elseif rand > 35 and rand <= 65 then
-            -- nothing
-        elseif rand > 65 and rand <= 80 then
-            act(2002, 112036) -- 5%
-        elseif rand > 80 and rand <= 90 then
-            act(2002, 112037) -- 10%
-        elseif rand > 90 and rand <= 95 then
-            act(2002, 112038) -- 15%
-        elseif rand > 95 and rand <= 98 then
-            act(2002, 112039) -- 20%
-        elseif rand > 98 then
-            act(2002, 112040) -- 25%
-        end
     end
     
     -- Disable FP Regen after Cast
