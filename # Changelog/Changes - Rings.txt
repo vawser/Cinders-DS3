@@ -289,7 +289,7 @@
 
 # Bellowing Dragoncrest Ring
 - Weight: 0.5
-- Grants 10% boost to the power of Sorceries.
+- Grants 20% boost to the power of Sorceries.
 - Source: Treasure - Irithyll Dungeon
 
 # Great Swamp Ring
@@ -299,7 +299,7 @@
 
 # Witch's Ring
 - Weight: 0.5
-- Grants 10% boost to the power of Pyromancies.
+- Grants 20% boost to the power of Pyromancies.
 - Source: Treasure - Smouldering Lake
 
 # Morne's Ring
@@ -309,7 +309,7 @@
 
 # Ring of the Sun's First Born
 - Weight: 0.5
-- Grants 10% boost to the power of Miracles.
+- Grants 20% boost to the power of Miracles.
 - Source: Treasure - Irithyll of the Boreal Valley
 
 # Deep Ring
@@ -319,7 +319,7 @@
 
 # Unholy Remains
 - Weight: 1
-- Grants 10% boost to the power of Dark spells.
+- Grants 20% boost to the power of Dark spells.
 - Source: Treasure - Catacombs of Carthus
 
 # Dusk Crown Ring

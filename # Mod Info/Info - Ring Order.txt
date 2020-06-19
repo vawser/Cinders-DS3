@@ -1,0 +1,147 @@
+﻿# Core Effects
+Life Ring 20000
+Dragonscale Ring 20010
+Symbol of the Penitent 20020
+Ring of Favor 20030
+Ring of Wisdom 20040
+Dusk Crown Ring 20050
+
+# Baseline Effects
+Chloranthy Ring 21000
+Havel's Ring 21010
+Wood Grain Ring 21020
+Sun Princess Ring 21030
+Knight Slayer's Ring 21040
+Obscuring Ring 21050
+Farron Ring 21060
+Horsehoof Ring 21070
+Runic Seal 21080
+Londor Tincture 21090
+Enchanted Quiver 21110
+Old Pygmy Brooch 21120
+Ring of the Evil Eye 21130
+Spirit Amethyst 21140
+Carthus Milkring 21150
+Carthus Bloodring 21160
+Wolf Ring 21170
+Hawk Ring 21180
+Leo Ring 21190
+Hornet Ring 21200
+
+# Situational Effects
+Red Tearstone Ring 22000
+Blue Tearstone Ring 22010
+Green Tearstone Ring 22020
+Violet Tearstone Ring 22030
+Black Tearstone Ring 22040
+Lloyd's Sword Ring 22050
+Lloyd's Shield Ring 22060 
+Aldrich's Ruby 22070
+Aldrich's Sapphire 22080
+Pontiff's Right Eye 22090
+Pontiff's Left Eye 22100
+Flynn's Ring 22110
+Wretched Pendant 22120
+Fool's Sigil 22130
+
+# Spell Effects
+Young Dragon Ring 23000
+Bellowing Dragoncrest Ring 23010
+Lingering Dragoncrest Ring 23020
+Slumbering Dragoncrest Ring 23030
+Great Swamp Ring 23100
+Witch's Ring 23110
+Charred Bone 23120
+Morne's Ring 23200
+Ring of the Sun's First Born 23210
+Saint's Ring 23220
+Tome of Sunlight 23230
+Deep Ring 23300
+Unholy Remains 23310
+Sage Ring 23400
+Darkmoon Ring 23410
+Ring of Londor 23420
+Arcane Trinket 23430
+ 
+# Damage Effects
+Elden Ring 24000
+Bestial Band 24010
+Skull Ring 24020
+Magic Clutch Ring 24030
+Fire Clutch Ring 24040
+Lightning Clutch Ring 24050
+Dark Clutch Ring 24060
+Demonsbane Ring 24070
+Crypt Ring 24080
+Blight Ring 24090
+Hallowed Ring 24100
+Ring of Punishment 24110
+
+# Dragon Rings
+Ring of Calamity 25000
+Ring of Woe 25010
+Ring of Adversity 25020
+Ring of Catastrophe 25030
+
+# Defence Effects
+Greatwood Remnants 26000
+Rare Ring of Humanity 26010
+Band of Stone 26020
+Band of Magic 26030
+Band of Flame 26040
+Band of Sparks 26050
+Band of Darkness 26060
+Ring of Steel Protection 26070 
+Magic Stoneplate Ring 26080
+Flame Stoneplate Ring 26090
+Thunder Stoneplate Ring 26100
+Dark Stoneplate Ring 26110
+Speckled Stoneplate Ring 26120
+
+# Resist Effects
+Bloodbite Ring 27000
+Poisonbite Ring 27010
+Cursebite Ring 27020
+Chillbite Ring 27030
+Fleshbite Ring 27040
+
+# Stat Effects
+Mercenary Ring 28000
+Heretic Ring 28010
+Merchant Ring 28020
+Physician Ring 28030
+Knight's Ring 28040
+Hunter's Ring 28050
+Scholar Ring 28060
+Priestess Ring 28070
+Jester Ring 28080
+Prisoner's Chain 28090
+
+# Misc Effects
+Bulwark Ring 29000
+Covetous Gold Serpent Ring 29010
+Covetous Silver Serpent Ring 29020
+Silvercat Ring 29030
+Estus Ring 29040
+Ashen Estus Ring 29050
+Ring of Momentum 29060
+Ring of Grace 29070
+Dashmaster's String 29080
+
+# Cursed Effects
+Cursed Ring of Evasion 30000
+Cursed Ring of Vengeance 30010
+Cursed Ring of Deflection 30020
+Cursed Ring of Confusion 30030
+
+# Roll Effects
+Ring of Retaliation 31000
+Ring of Reprisal 31010
+Ring of Spite 31020
+Ring of Retribution 31030
+Ring of Vengeance 31040
+
+# Other Effects
+Reversal Ring 32000
+Redeye Ring 32010
+Ring of Sacrifice 32020
