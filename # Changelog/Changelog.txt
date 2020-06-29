@@ -31,8 +31,15 @@
 # Changelog
 #------------------------------
 # Spells
+- Added differing stamina costs to spells again.
 - Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 300.
 - Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
+
+# Bugfixes
+- Serpentine Orbs should now always use 5 orbs.
+- Smouldering Talisman Immolate WA now matchs Immolation (but lasts 6 seconds).
+- Dragonrider can no longer be parried.
+- Fixed some localization bugs.
 
 #------------------------------
 # TODO
