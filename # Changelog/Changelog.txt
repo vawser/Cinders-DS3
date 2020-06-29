@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Spells
+- Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 300.
+- Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
 
 #------------------------------
 # TODO

@@ -528,8 +528,8 @@ Divine Pillars of Light
 # Cataclysm
 #--------------------------------
 - FP Cost: 800
-- Fire Damage: 450 {*25, shared}
-- Ascended Effect: emits more orbs.
+- Fire Damage: 300 {*10, shared}
+- Ascended Effect: emits more orbs. (*20, shared)
 
 #--------------------------------
 # Floating Chaos
@@ -591,8 +591,8 @@ Divine Pillars of Light
 # Earthfall
 #--------------------------------
 - FP Cost: 800
-- Physical Damage: 450 {*25, shared}
-- Ascended Effect: emits more boulders.
+- Physical Damage: 300 {*10, shared}
+- Ascended Effect: emits more boulders. {*20, shared}
 
 #--------------------------------
 # Poison Mist
@@ -619,8 +619,9 @@ Divine Pillars of Light
 # Immolation
 #--------------------------------
 - FP Cost: 200
-- Base Effect: burns oneself for 1% damage, radiating a flame aura that deals 250 damage to enemies every second for 15 seconds.
-- Ascended Effect: burns oneself for 0.25% damage.
+- Fire Damage: 300
+- Base Effect: for 15 seconds, summons fire pillars around the player that harm enemies and the player alike.
+- Ascended Effect: lasts for 30 seconds.
 
 #--------------------------------
 # Fecal Explusion
@@ -797,7 +798,7 @@ Divine Pillars of Light
 # Heavenly Thunder
 #--------------------------------
 - FP Cost: 800
-- Lightning Damage: 450 {*10, shared}
+- Lightning Damage: 300 {*10, shared}
 - FTH Req: 60
 - Ascended Effect: emits more bolts. {*20, shared}
 
