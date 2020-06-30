@@ -1669,27 +1669,27 @@ Event(400000, Default, function() {
 
 // Setup - Host and Client
 Event(400001, Default, function() {
-    // Enable
+    // Curses - Enable
     InitializeEvent(0, 400021, 25000008, 250001200, 250001201); // Curse of Frailty
     InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400021, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400021, 25000005, 250001500, 250001501); // Curse of Attraction
+    InitializeEvent(5, 400021, 25000100, 250001500, 250001501); // Mark of Sanguis
     InitializeEvent(6, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
     InitializeEvent(7, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(8, 400021, 25000009, 250001800, 250001801); // Curse of Pandemonium
+    InitializeEvent(0, 400023, 25000101, 250001800, 250001801, 30, 0); // Mark of Canis
     
-    // Disable
+    // Curses - Disable
     InitializeEvent(0, 400022, 25000008, 250001200, 250001201); // Curse of Frailty
     InitializeEvent(1, 400022, 25000001, 250001300, 250001301); // Curse of Obscurity
     InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400022, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400022, 25000005, 250001500, 250001501); // Curse of Attraction
+    InitializeEvent(5, 400022, 25000100, 250001500, 250001501); // Mark of Sanguis
     InitializeEvent(6, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
     InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(8, 400022, 25000009, 250001800, 250001801); // Curse of Pandemonium
+    InitializeEvent(8, 400022, 25000101, 250001800, 250001801); // Mark of Canis
     
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
@@ -2341,6 +2341,16 @@ Event(400022, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     ClearSpeffect(10000, X4_4);
     ClearSpeffect(10000, X8_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Enable Curse - Map Specific
+Event(400023, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfPlayerInoutMap(MAIN, true, X12_1, X16_1);
+    SetSpeffect(10000, X4_4);
+    SetSpeffect(10000, X8_4);
     
     EndUnconditionally(EventEndType.Restart);
 });

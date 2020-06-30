@@ -100,11 +100,14 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000002 Curse of Vitality
 25000003 Curse of Wrath
 25000004 Curse of Pride
-25000005 Curse of Attraction
+25000005 Curse of Attraction (old)
 25000006 Curse of Fortitude
 25000007 Curse of Gluttony
 25000008 Curse of Frailty
-25000009 Curse of Pandemonium
+25000009 Curse of Canis (old)
+
+25000100 Mark of Sanguis
+25000101 Mark of Canis
 
 # Game State
 25006000 No Hit state
