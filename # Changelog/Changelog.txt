@@ -43,6 +43,7 @@
 - Added differing stamina costs to spells again.
 - Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 300.
 - Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
+- Changed Overwhelming Power: it is now like a walkable firestorm (uses Fire Surge animation). Lasts until you stop or run out of FP. Added lingering hitbox to the lightning ground sparks.
 
 # Bugfixes
 - Serpentine Orbs should now always use 5 orbs.
@@ -66,3 +67,4 @@ Add praise the sun anim to solaire summon
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
+Make Overwhelming Power a Fire Surge animation spell, trigger the electric pillars on the interval
