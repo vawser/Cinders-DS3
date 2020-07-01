@@ -52,6 +52,7 @@
 - Dragonrider can no longer be parried.
 - Fixed some localization bugs.
 - Mimics/Sister Friede/Stray Demon now only have 50% Flick absorption, which means certain types of attacks will now do 50% damage against them (used to be 0%).
+- The invader script should no longer display the invade message outside of the trigger area in odd circumstances.
 
 #------------------------------
 # TODO
@@ -68,4 +69,3 @@ Add praise the sun anim to solaire summon
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Check invader message stuff (triggering outside of area trigger)

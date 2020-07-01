@@ -6750,3 +6750,42 @@ Event(20090003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetCharacterDefaultBackreadState(X0_4, Disabled);
     SetEventFlag(X4_4, ON);
 });
+
+//----------------------------------------------
+// Fake Invader - Setup
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
+//----------------------------------------------
+Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    
+    // End if X has been killed once already
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X28_4);
+    
+    // Trigger Invader if in region
+    //IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Is Embered
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
+    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitRandomTimeSeconds(1, 3);
+    
+    DisplayMessage(X20_4, 1);
+    
+    // Spawn
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
+    
+    // Killed
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    DisplayMessage(X24_4, 1);
+    
+    AwardItemLot(X16_4);
+    SetCharacterDefaultBackreadState(X0_4, Disabled);
+    
+    SetEventFlag(X28_4, ON);
+});
+
