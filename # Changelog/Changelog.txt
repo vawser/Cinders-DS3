@@ -36,6 +36,10 @@
 - Curse of Attraction has been made into a mark: Mark of Sanguis
 - Added Mark of Canis: adds dogs to the High Wall of Lothric.
 
+# Trial
+- Reduced enemy damage to *1.25 (was *2).
+- Made the rocky outcrops in the arena unbreakable whilst the Trial is active, so they can provide cover.
+
 # NPCs
 - Added Magnum Ursus: this NPC hosts the Mark system and is used to toggle them. Found in Firelink Shrine.
 
