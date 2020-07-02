@@ -6539,6 +6539,17 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 });
 
 //----------------------------------------------
+// Curse - Disabled Enemies
+// <entity id>, <trigger flag>
+//----------------------------------------------
+Event(20081001, Restart, function(X0_4, X4_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+});
+
+//----------------------------------------------
 // Curse - Add SpEffect
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
@@ -6788,4 +6799,3 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     
     SetEventFlag(X28_4, ON);
 });
-

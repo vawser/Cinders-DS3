@@ -34,7 +34,7 @@
 - Split the world altering Curses into a separate menu, now called Marks.
 - Marks may be global or unique to specific levels. If they are unique to a specific level, the soul absorption bonus is only active whilst in that level.
 - Curse of Attraction is now called Mark of Sanguis.
-- Added Mark of Canis: adds dogs to the High Wall of Lothric.
+- Added Mark of Canis: adds dogs to the High Wall of Lothric. Disables most of the regular enemies.
 
 # Trial
 - Reduced enemy damage to *1.25 (was *2).
