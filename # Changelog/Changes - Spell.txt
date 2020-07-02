@@ -268,7 +268,7 @@ Divine Pillars of Light
 # Soul Stream
 #--------------------------------
 - FP Cost: 800
-- Magic Damage: 250 {*10, individual}
+- Magic Damage: 200 {*10, individual}
 - INT Req: 40
 - Ascended Effect: stream lasts for 3 seconds (normally 1).
 

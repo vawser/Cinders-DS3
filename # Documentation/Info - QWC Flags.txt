@@ -6,6 +6,9 @@ QWC is another name for Event Flag ID.
 #---------------------
 # Reference
 #---------------------
+6951 DLC1 ownership flag
+6952 DLC2 ownership flag
+
 230 Blood Moon Appears
 
 6330 after entering Undead Settlement

@@ -36,6 +36,9 @@
 - Curse of Attraction is now called Mark of Sanguis.
 - Added Mark of Canis: adds dogs to the High Wall of Lothric. Disables most of the regular enemies.
 
+# FP
+- Reduced the base FP regen to 3% per second (was 5%).
+
 # Trial
 - Reduced enemy damage to *1.25 (was *2).
 - Made the rocky outcrops in the arena unbreakable whilst the Trial is active, so they can provide cover.
@@ -55,6 +58,11 @@
 - Changed Proof of a Pact: now uses the Fire Surge animation, spawns Silver Knight Ledo slightly in front of the player. Lasts until you stop or run out of FP.
 - Increased FP cost of Dark Dance to 650.
 - Added Ghostly Assault: summons a group of 5 ghostly archers that will each fire 3 times until disappearing. Dropped by the Judicator at the start of the Ringed City.
+- Reduced Soul Stream damage to 200 per tick (was 250)
+
+# Map
+- Changed the Titanite Chunks in the Cemetery of Ash area after Corrupted Gundyr into Titanite Shards.
+- Replaced the Titanite Slab treasure in the Cemetery of Ash area with the Company of Champions treasure.
 
 # Bugfixes
 - Serpentine Orbs should now always use 5 orbs.
@@ -63,19 +71,30 @@
 - Fixed some localization bugs.
 - Mimics/Sister Friede/Stray Demon now only have 50% Flick absorption, which means certain types of attacks will now do 50% damage against them (used to be 0%).
 - The invader script should no longer display the invade message outside of the trigger area in odd circumstances.
+- Paladin/Captain no longer have 2 extra levels.
+- Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Gravelord FFX, add Gravelord Sword Dance
 Add praise the sun anim to solaire summon
+Reversal Ring not working
 
-31700000 0840 / 1419 Hands of Sin
-31600000 0864 / 1420 Frying Pan
-31500000 0869 / 1421 Serpentine Chain-axe
+31420000 0840 / 1419 Hands of Sin
+31430000 0864 / 1420 Frying Pan
+31440000 0869 / 1421 Serpentine Chain-axe
 
 16170000 - 0873 / 1422 Imperious Greatshield
 
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
+Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
+
+Fix the spell damage boost WAs on the catalysts (inconsistent based on hand slot)
+
+Add Loretta invader
+ Spawn in the nook by the ledge with the bone
+ Drop/wield the Frying Pan
+ 
