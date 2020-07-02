@@ -829,10 +829,10 @@ Divine Pillars of Light
 #--------------------------------
 # Proof of a Pact
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Physical Damage: 400
 - FTH Req: 40
-- Ascended Effect: costs 150 FP.
+- Ascended Effect: costs 80 FP.
 
 #--------------------------------
 # Overwhelming Power
@@ -1223,7 +1223,7 @@ Divine Pillars of Light
 #--------------------------------
 # Dark Dance  
 #--------------------------------
-- FP Cost: 320
+- FP Cost: 650
 - Dark Damage: 200 {*4, individual}
 - Ascended Effect: increases poise damage.
 
