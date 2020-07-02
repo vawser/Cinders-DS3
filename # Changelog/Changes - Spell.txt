@@ -842,6 +842,14 @@ Divine Pillars of Light
 - FTH Req: 40
 - Ascended Effect: allows the ground sparks to stack.
 
+#--------------------------------
+# Ghostly Assault
+#--------------------------------
+- FP Cost: 750
+- Physical Damage: 100 (*15, individual)
+- FTH Req: 40
+- Ascended Effect: summons an additional archer.
+
 #--------------------------------------------------------------------------
 # Miracles - Effects
 #--------------------------------------------------------------------------
