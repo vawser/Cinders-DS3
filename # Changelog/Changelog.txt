@@ -45,6 +45,7 @@
 
 # Enemies
 - Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
+- Corrupted Gundyr is now an early boss (bit stronger than Vordt).
 
 # Spells
 - Added differing stamina costs to spells again.
