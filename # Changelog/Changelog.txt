@@ -73,6 +73,7 @@
 - The invader script should no longer display the invade message outside of the trigger area in odd circumstances.
 - Paladin/Captain no longer have 2 extra levels.
 - Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
+- Changed a lot of buff WAs to no longer use the right/left hand system. This means they won't be cancelled by other buffs. The VFX will use the latest, but the effects will be present, meaning you can stack them. For example, using Warcry and the Dark Gauntlets will retain both the Curse inflict and the AR boost from Warcry, as they no longer override each other.
 
 #------------------------------
 # TODO
@@ -92,9 +93,8 @@ Reversal Ring not working
 
 Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
 
-Fix the spell damage boost WAs on the catalysts (inconsistent based on hand slot)
-
 Add Loretta invader
  Spawn in the nook by the ledge with the bone
  Drop/wield the Frying Pan
  
+10180
