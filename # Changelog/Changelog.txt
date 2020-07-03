@@ -60,6 +60,9 @@
 - Added Ghostly Assault: summons a group of 5 ghostly archers that will each fire 3 times until disappearing. Dropped by the Judicator at the start of the Ringed City.
 - Reduced Soul Stream damage to 200 per tick (was 250)
 
+# Items
+- The cosmetic stones now apply the VFX to both hands.
+
 # Map
 - Changed the Titanite Chunks in the Cemetery of Ash area after Corrupted Gundyr into Titanite Shards.
 - Replaced the Titanite Slab treasure in the Cemetery of Ash area with the Company of Champions treasure.
@@ -82,6 +85,12 @@ Add Gravelord FFX, add Gravelord Sword Dance
 Add praise the sun anim to solaire summon
 Reversal Ring not working
 
+Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
+
+Add Loretta invader
+ Spawn in the nook by the ledge with the bone
+ Drop/wield the Frying Pan
+ 
 31420000 0840 / 1419 Hands of Sin
 31430000 0864 / 1420 Frying Pan
 31440000 0869 / 1421 Serpentine Chain-axe
@@ -91,10 +100,3 @@ Reversal Ring not working
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
-
-Add Loretta invader
- Spawn in the nook by the ledge with the bone
- Drop/wield the Frying Pan
- 
-10180
