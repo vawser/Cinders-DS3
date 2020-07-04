@@ -4945,43 +4945,43 @@ Event(20020000, Default, function() {
     
     // No Hit
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800200010);
+    AwardItemLot(800200000);
     
     // Curse of Obscurity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200110);
+    AwardItemLot(800200100);
     
     // Curse of Vitality
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200110);
+    AwardItemLot(800200100);
     
     // Curse of Wrath
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200210);
+    AwardItemLot(800200200);
     
     // Curse of Pride
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200110);
+    AwardItemLot(800200100);
     
     // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200310);
+    AwardItemLot(800200300);
     
     // Curse of Fortitude
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200110);
+    AwardItemLot(800200100);
     
     // Curse of Gluttony
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200210);
+    AwardItemLot(800200200);
     
     // Curse of Frailty
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200210);
+    AwardItemLot(800200200);
     
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200110);
+    AwardItemLot(800200100);
 });
 
 //----------------------------------------------

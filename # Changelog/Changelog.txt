@@ -30,6 +30,10 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Classes
+- Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
+- Added Jester class.
+
 # Curses
 - Split the world altering Curses into a separate menu, now called Marks.
 - Marks may be global or unique to specific levels. If they are unique to a specific level, the soul absorption bonus is only active whilst in that level.
@@ -106,3 +110,8 @@ Add Loretta invader
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
+99810000
+
+31341000 Key to the Embedded [Lucky]
+13510000 Fool's Flame
+2720000 Fecal Expulsion
