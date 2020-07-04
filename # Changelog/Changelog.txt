@@ -35,6 +35,7 @@
 - Marks may be global or unique to specific levels. If they are unique to a specific level, the soul absorption bonus is only active whilst in that level.
 - Curse of Attraction is now called Mark of Sanguis.
 - Added Mark of Canis: adds dogs to the High Wall of Lothric. Disables most of the regular enemies.
+- Added Mark of Piscis: adds crabs to Road of Sacrifices/Farron Keep. Disables most of the regular enemies.
 - Added Curse of Simplicity: removes the passive FP regen, boosts soul gain by 5%, primordial titanite chance of 10%.
 - Added Curse of Enfeeblement: reduces max HP/FP/Stamina by 50%, boosts soul gain by 10%, primordial titanite chance of 50%.
 
@@ -79,6 +80,7 @@
 - Paladin/Captain no longer have 2 extra levels.
 - Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
 - Changed a lot of buff WAs to no longer use the right/left hand system. This means they won't be cancelled by other buffs. The VFX will use the latest, but the effects will be present, meaning you can stack them. For example, using Warcry and the Dark Gauntlets will retain both the Curse inflict and the AR boost from Warcry, as they no longer override each other.
+- Alva's set will now spawn when you kill him (was checking for the old event flag).
 
 #------------------------------
 # TODO
@@ -99,7 +101,6 @@ Add Loretta invader
     
 31440000 0869 / 1421 Serpentine Chain-axe
     
-
 16170000 - 0873 / 1422 Imperious Greatshield
 
 14220000 - 0867 / 1423 Giant's Bow

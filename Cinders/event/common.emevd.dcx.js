@@ -1683,6 +1683,7 @@ Event(400001, Default, function() {
     // Marks - Enable
     InitializeEvent(10, 400021, 25000100, 250003000, 250003001); // Mark of Sanguis
     InitializeEvent(11, 400023, 25000101, 250003100, 250003101, 30, 0); // Mark of Canis
+    InitializeEvent(12, 400023, 25000102, 250003200, 250003201, 33, 0); // Mark of Piscis
     
     // Curses - Disable
     InitializeEvent(0, 400022, 25000008, 250001200, 250001201); // Curse of Frailty
@@ -1698,6 +1699,7 @@ Event(400001, Default, function() {
     // Marks - Disable
     InitializeEvent(10, 400022, 25000100, 250003000, 250003001); // Mark of Sanguis
     InitializeEvent(11, 400022, 25000101, 250003100, 250003101); // Mark of Canis
+    InitializeEvent(11, 400022, 25000102, 250003200, 250003201); // Mark of Piscis
     
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
