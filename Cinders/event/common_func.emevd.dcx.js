@@ -4607,7 +4607,7 @@ Event(20008030, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Spawn Control - Curse of Attraction
+// Spawn Control - Curse of Attraction (old)
 //----------------------------------------------
 Event(20008040, Restart, function(X0_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
@@ -4884,12 +4884,16 @@ Event(20009300, Default, function() {
     
     SetEventFlag(25000001, OFF); // Curse of Obscurity
     SetEventFlag(25000002, OFF); // Curse of Vitality
-    SetEventFlag(25000003, OFF); // Curse of Wraht
+    SetEventFlag(25000003, OFF); // Curse of Wrath
     SetEventFlag(25000004, OFF); // Curse of Pride
-    SetEventFlag(25000005, OFF); // Curse of Attraction
+    SetEventFlag(25000005, OFF); // Curse of Simplicity
     SetEventFlag(25000006, OFF); // Curse of Fortitude
     SetEventFlag(25000007, OFF); // Curse of Gluttony
-    SetEventFlag(25000008, OFF); // Curse of Folly
+    SetEventFlag(25000008, OFF); // Curse of Frailty
+    SetEventFlag(25000009, OFF); // Curse of Enfeeblement
+    
+    SetEventFlag(25000100, OFF); // Mark of Sanguis
+    SetEventFlag(25000101, OFF); // Mark of Canis
     
     SetEventFlag(25000010, ON); // Deathless Run
     
@@ -4959,7 +4963,7 @@ Event(20020000, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200110);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200310);
     
@@ -4975,9 +4979,9 @@ Event(20020000, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200310);
+    AwardItemLot(800200110);
 });
 
 //----------------------------------------------
@@ -5007,7 +5011,7 @@ Event(20020001, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200100);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200300);
     
@@ -5023,9 +5027,9 @@ Event(20020001, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200300);
+    AwardItemLot(800200100);
 });
 
 //----------------------------------------------
@@ -5055,7 +5059,7 @@ Event(20020002, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200100);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200300);
     
@@ -5071,9 +5075,9 @@ Event(20020002, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200300);
+    AwardItemLot(800200100);
 });
 
 //----------------------------------------------
@@ -5103,7 +5107,7 @@ Event(20020003, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200110);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200310);
     
@@ -5119,9 +5123,9 @@ Event(20020003, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200310);
+    AwardItemLot(800200110);
 });
 
 //----------------------------------------------
@@ -5151,7 +5155,7 @@ Event(20020004, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200110);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200310);
     
@@ -5167,9 +5171,9 @@ Event(20020004, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200310);
+    AwardItemLot(800200110);
 });
 
 //----------------------------------------------
@@ -5199,7 +5203,7 @@ Event(20020005, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5215,9 +5219,9 @@ Event(20020005, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5247,7 +5251,7 @@ Event(20020006, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200100);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200300);
     
@@ -5263,9 +5267,9 @@ Event(20020006, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200300);
+    AwardItemLot(800200100);
 });
 
 //----------------------------------------------
@@ -5295,7 +5299,7 @@ Event(20020007, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200110);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200310);
     
@@ -5311,9 +5315,9 @@ Event(20020007, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200210);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200310);
+    AwardItemLot(800200110);
 });
 
 //----------------------------------------------
@@ -5343,7 +5347,7 @@ Event(20020008, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5359,9 +5363,9 @@ Event(20020008, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5391,7 +5395,7 @@ Event(20020009, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5407,9 +5411,9 @@ Event(20020009, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -5439,7 +5443,7 @@ Event(20020010, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5455,9 +5459,9 @@ Event(20020010, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -5487,7 +5491,7 @@ Event(20020011, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5503,9 +5507,9 @@ Event(20020011, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5535,7 +5539,7 @@ Event(20020012, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5551,9 +5555,9 @@ Event(20020012, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5583,7 +5587,7 @@ Event(20020013, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5599,9 +5603,9 @@ Event(20020013, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5631,7 +5635,7 @@ Event(20020014, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200100);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200300);
     
@@ -5647,9 +5651,9 @@ Event(20020014, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200200);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200300);
+    AwardItemLot(800200100);
 });
 
 //----------------------------------------------
@@ -5679,7 +5683,7 @@ Event(20020015, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5695,9 +5699,9 @@ Event(20020015, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -5727,7 +5731,7 @@ Event(20020016, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200120);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200320);
     
@@ -5743,9 +5747,9 @@ Event(20020016, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200220);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200320);
+    AwardItemLot(800200120);
 });
 
 //----------------------------------------------
@@ -5775,7 +5779,7 @@ Event(20020017, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5791,9 +5795,9 @@ Event(20020017, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -5823,7 +5827,7 @@ Event(20020018, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200140);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200340);
     
@@ -5839,9 +5843,9 @@ Event(20020018, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200340);
+    AwardItemLot(800200140);
 });
 
 //----------------------------------------------
@@ -5871,7 +5875,7 @@ Event(20020019, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200140);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200340);
     
@@ -5887,9 +5891,9 @@ Event(20020019, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200340);
+    AwardItemLot(800200140);
 });
 
 //----------------------------------------------
@@ -5919,7 +5923,7 @@ Event(20020020, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5935,9 +5939,9 @@ Event(20020020, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -5967,7 +5971,7 @@ Event(20020021, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -5983,9 +5987,9 @@ Event(20020021, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
 });
 
 //----------------------------------------------
@@ -6015,7 +6019,7 @@ Event(20020022, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200140);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200340);
     
@@ -6031,9 +6035,9 @@ Event(20020022, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200340);
+    AwardItemLot(800200140);
 });
 
 //----------------------------------------------
@@ -6063,7 +6067,7 @@ Event(20020023, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200140);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200340);
     
@@ -6079,9 +6083,9 @@ Event(20020023, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200240);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200340);
+    AwardItemLot(800200140);
 });
 
 //----------------------------------------------
@@ -6111,7 +6115,7 @@ Event(20020024, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
     AwardItemLot(800200130);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(800200330);
     
@@ -6127,9 +6131,9 @@ Event(20020024, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(800200230);
     
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200330);
+    AwardItemLot(800200130);
     
 });
 
@@ -6691,11 +6695,11 @@ Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
     AwardItemLot(X8_4);
     
-    // Curse of Attraction
+    // Curse of Simplicity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
     AwardItemLot(X12_4);
 
-    // Curse of Pandemonium
+    // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(X12_4);
 });

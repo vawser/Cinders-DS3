@@ -30,11 +30,13 @@
 #------------------------------
 # Changelog
 #------------------------------
-# General
+# Curses
 - Split the world altering Curses into a separate menu, now called Marks.
 - Marks may be global or unique to specific levels. If they are unique to a specific level, the soul absorption bonus is only active whilst in that level.
 - Curse of Attraction is now called Mark of Sanguis.
 - Added Mark of Canis: adds dogs to the High Wall of Lothric. Disables most of the regular enemies.
+- Added Curse of Simplicity: removes the passive FP regen, boosts soul gain by 5%, primordial titanite chance of 10%.
+- Added Curse of Enfeeblement: reduces max HP/FP/Stamina by 50%, boosts soul gain by 10%, primordial titanite chance of 50%.
 
 # FP
 - Reduced the base FP regen to 3% per second (was 5%).
@@ -92,8 +94,11 @@ Add Loretta invader
  Drop/wield the Frying Pan
  
 31420000 0840 / 1419 Hands of Sin
+    
 31430000 0864 / 1420 Frying Pan
+    
 31440000 0869 / 1421 Serpentine Chain-axe
+    
 
 16170000 - 0873 / 1422 Imperious Greatshield
 

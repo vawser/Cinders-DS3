@@ -1675,10 +1675,14 @@ Event(400001, Default, function() {
     InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400021, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400021, 25000100, 250001500, 250001501); // Mark of Sanguis
-    InitializeEvent(6, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(7, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(0, 400023, 25000101, 250001800, 250001801, 30, 0); // Mark of Canis
+    InitializeEvent(5, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(6, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
+    InitializeEvent(7, 400021, 25000005, 250001500, 250001501); // Curse of Simplicity
+    InitializeEvent(8, 400021, 25000009, 250001800, 250001801); // Curse of Enfeeblement
+    
+    // Marks - Enable
+    InitializeEvent(10, 400021, 25000100, 250003000, 250003001); // Mark of Sanguis
+    InitializeEvent(11, 400023, 25000101, 250003100, 250003101, 30, 0); // Mark of Canis
     
     // Curses - Disable
     InitializeEvent(0, 400022, 25000008, 250001200, 250001201); // Curse of Frailty
@@ -1686,10 +1690,14 @@ Event(400001, Default, function() {
     InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
     InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
     InitializeEvent(4, 400022, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400022, 25000100, 250001500, 250001501); // Mark of Sanguis
-    InitializeEvent(6, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(7, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(8, 400022, 25000101, 250001800, 250001801); // Mark of Canis
+    InitializeEvent(5, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(6, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
+    InitializeEvent(7, 400022, 25000005, 250001500, 250001501); // Curse of Simplicity
+    InitializeEvent(8, 400022, 25000009, 250001800, 250001801); // Curse of Enfeeblement
+    
+    // Marks - Disable
+    InitializeEvent(10, 400022, 25000100, 250003000, 250003001); // Mark of Sanguis
+    InitializeEvent(11, 400022, 25000101, 250003100, 250003101); // Mark of Canis
     
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
@@ -1811,31 +1819,33 @@ Event(400800, Default, function(X0_4) {
     IfCharacterHasSpeffect(MAIN, X0_4, 113005, false, ComparisonType.Equal, 1);
     
     // Add Base FP
+    IfCharacterHasSpeffect(AND_01, X0_4, 250001500, true, ComparisonType.Equal, 1); //  Curse of Simplicity
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
     SetSpeffect(X0_4, 113100);
     
     // Enchanted - 200001100
-    IfCharacterHasSpeffect(AND_01, X0_4, 200001100, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
+    IfCharacterHasSpeffect(AND_02, X0_4, 200001100, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
     SetSpeffect(X0_4, 113101);
     
     // Clarity - 200002000
-    IfCharacterHasSpeffect(AND_02, X0_4, 200002000, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
+    IfCharacterHasSpeffect(AND_03, X0_4, 200002000, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_03);
     SetSpeffect(X0_4, 113102);
     
     // Darkmoon Faithful - 160100240
-    IfCharacterHasSpeffect(AND_03, X0_4, 160100240, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_03);
+    IfCharacterHasSpeffect(AND_04, X0_4, 160100240, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_04);
     SetSpeffect(X0_4, 113103);
     
     // Darkmoon Ring - 160600350
-    IfCharacterHasSpeffect(AND_04, X0_4, 160600350, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_04);
+    IfCharacterHasSpeffect(AND_05, X0_4, 160600350, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
     SetSpeffect(X0_4, 113104);
     
     // Ring of Catastrophe - 160601270
-    IfCharacterHasSpeffect(AND_05, X0_4, 160601270, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
+    IfCharacterHasSpeffect(AND_06, X0_4, 160601270, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_06);
     SetSpeffect(X0_4, 113105);
     
     // Reset
