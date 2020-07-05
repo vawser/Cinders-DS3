@@ -1,0 +1,766 @@
+﻿#---------------------------------------------
+# Behavior Graph Lists
+#---------------------------------------------
+New TAE requires:
+ - hkbClipGenerators for each attack the TAE will support
+ - Clip IDs added to the CustomManualSelectorGenerator for each supported attack
+ 
+TAE
+ - Controls the actual animation + game-related state during animation
+ 
+Behavior Graph (hkx)
+ - Controls when the individual attack entries within a TAE are accessed.
+ 
+Behavior (hks)
+ - Controls the mechanics of attacks within the greater system
+ 
+#---------------------------------------------
+# Weapon TAE
+#---------------------------------------------
+# --- Right Hand ---
+030000 - AttackRightLight1 
+       - AttackCrossbowRightFire
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+030050 - AttackRightWhileGuardNormal
+030051 - AttackRightWhileGuardHeavy
+030052 - AttackRightWhileGuardSmall
+030053 - AttackRightWhileGuardTorch
+030100 - AttackRightLightKick
+030150 - GuardBreakWallRight
+030200 - GuardDamageBreakRight
+030201 - Throw30201 
+       - ThrowErrorHandling
+030202 - Throw30202
+030203 - Throw30203
+030320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030325 - AttackRightHeavyWepBroken1Start
+030330 - AttackRightHeavy1SubStart 
+       - AttackRightHeavy1SubStart00
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+030345 - AttackRightHeavyWepBroken2Start
+030350 - AttackRightHeavySpecial1Start      # Warcry
+030351 - AttackRightHeavySpecial1End        # Warcry
+030360 - AttackRightHeavySpecial1SubStart   # Warcry
+030370 - AttackRightHeavySpecial2Start      # Warcry
+030371 - AttackRightHeavySpecial2End        # Warcry
+030400 - Throw30400
+030401 - Throw30401
+030402 - Throw30402
+030410 - Throw30410
+030420 - Throw30420
+030450 - ThrowBackStab
+030500 - AttackRightLightDash
+030510 - AttackRightLightDashSpecial
+030600 - AttackRightHeavyKick               # Jump Attack
+030800 - FallAttackStart
+030801 - FallAttackLoop
+030802 - FallAttackCancel
+030810 - LandFallAttack
+030860 - Throw30860
+030870 - Throw30870
+030900 - AttackRightLightStep
+030910 - AttackRightLightStepSpecial
+030920 - AttackRightBackstep
+030930 - AttackRightCounter
+
+# --- Crossbow ---
+031500 - AttackCrossbowRightStart
+031510 - AttackCrossbowRightEmpty
+031520 - AttackCrossbowRightReload_Upper
+031530 - AttackCrossbowRightLoop_Upper
+031540 - AttackCrossbowRightMoveLoop_Upper
+
+# --- Left Hand ---
+032000 - AttackLeftLight1 
+       - AttackCrossbowLeftFire 
+       - AttackLeftHeavy1a00
+032030 - AttackLeftHeavy2a00
+032060 - AttackLeftHeavy3a00
+032090 - AttackLeftHeavySp1
+032091 - AttackLeftHeavySp2
+032092 - AttackLeftHeavySp3
+032100 - ParryLeft1
+032110 - ParryLeft2
+032120 - ParryLeft3
+032150 - GuardBreakWallLeft
+032200 - GuardDamageBreakLeft
+
+# --- Both Hand (Left) ---
+033000 - AttackBothLeft1
+033010 - AttackBothLeft2
+033020 - AttackBothLeft3
+033500 - AttackBothLeftDash
+       - AttackCrossbowLeftStart
+       - AttackCrossbowLeftStart_Upper
+033510 - AttackCrossbowLeftEmpty
+033520 - AttackCrossbowLeftReload
+       - AttackCrossbowLeftReload_Upper
+033530 - AttackCrossbowLeftLoop
+       - AttackCrossbowLeftLoop_Upper
+033540 - AttackCrossbowLeftMoveLoop_Upper
+033900 - AttackBothLeftStep
+
+# --- Both Hand (Right) ---
+034000 - AttackBothLight1 
+       - AttackArrowRightFire 
+       - AttackCrossbowBothRightFire
+034001 - AttackCrossbowBothLeftFire
+       - AttackCrossbowBothLeftFire_Upper
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034100 - AttackBothLightKick
+034150 - GuardBreakWallBoth
+034200 - GuardDamageBreakBoth
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034325 - AttackBothHeavyWepBroken1Start
+034330 - AttackBothHeavy1SubStart 
+       - AttackBothHeavyWepBroken1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+034350 - AttackBothHeavySpecial1Start
+034351 - AttackBothHeavySpecial1End
+034360 - AttackBothHeavySpecial1SubStart
+034370 - AttackBothHeavySpecial2Start
+034371 - AttackBothHeavySpecial2End
+034500 - AttackBothDash 
+       - AttackArrowRightFireDash
+034510 - AttackBothDashSpecial
+034600 - AttackBothHeavyKick
+034610 - AttackBothHeavyKickSpecial
+034900 - AttackBothLightStep 
+       - AttackArrowRightFireStep
+034910 - AttackBothLightStepSpecial
+034920 - AttackBothBackstep
+
+# --- Bow/Crossbow ---
+035500 - AttackArrowRightStart
+       - AttackArrowRightStart_Upper
+       - AttackCrossbowBothLeftStart
+       - AttackCrossbowBothLeftStart_Upper
+       - AttackCrossbowBothRightStart
+       - AttackCrossbowBothRightStart_Upper
+035510 - AttackArrowRightLoop
+       - AttackArrowRightLoop_Upper
+       - AttackCrossbowBothLeftEmpty
+       - AttackCrossbowBothLeftEmpty_Upper
+       - AttackCrossbowBothRightEmpty
+       - AttackCrossbowBothRightEmpty_Upper
+035515 - AttackArrowRightLoopMove
+035520 - AttackCrossbowBothRightReload
+       - AttackCrossbowBothRightReload_Upper
+035521 - AttackCrossbowBothLeftReload
+       - AttackCrossbowBothLeftReload_Upper
+035530 - AttackCrossbowBothRightLoop
+       - AttackCrossbowBothRightLoop_Upper
+035531 - AttackCrossbowBothLeftLoop
+       - AttackCrossbowBothLeftLoop_Upper
+035540 - AttackCrossbowBothRightMoveLoop_Upper
+035541 - AttackCrossbowBothLeftMoveLoop_Upper
+036500 - ChainShotRightStart_Upper
+036510 - ChainShotRightLoop_Upper
+036515 - ChainShotRightLoopMove_Upper
+036520 - ChainShotRightFire
+036521 - ChainShotRightFire_NoPoints
+036530 - ChainShotRightFireCont
+036531 - ChainShotRighttFireCont_NoPoints
+036540 - ChainShotRightEnd
+037130 - WideshotRightFire
+
+
+# --- Weapon Arts ---
+# Stomp
+036000 - StepInRightStart_Upper
+036001 - StepInRightStart_NoPoints_Upper
+036050 - StepInRightUppercut
+036051 - StepInRightUppercut_NoPoints
+036060 - StepInRightSlash
+036061 - StepInRightSlash_NoPoints
+036070 - StepInRightDashStart
+
+# 
+036100 - SpinRightSelftransLeft
+036110 - SpinRightTransselfRight
+036120 - SpinRightFrontLeft
+036130 - SpinRightFrontRight
+
+# Stance
+036200 - DrawStanceRightStart
+036210 - DrawStanceRightLoop
+036215 - DrawStanceRightLoopMove_Upper
+036220 - DrawStanceRightEnd_Upper
+036230 - DrawStanceRightAttackLight
+036231 - DrawStanceRightAttackLight_NoPoints
+036240 - DrawStanceRightAttackHeavy
+036241 - DrawStanceRightAttackHeavy_NoPoints
+
+#
+036300 - SpecialAttackRightStart
+036310 - SpecialAttackRightLight
+036320 - SpecialAttackRightHeavy
+
+# Spin Slash
+036400 - AttackSpinStart
+036401 - AttackSpinStart_NoPoints
+036410 - AttackSpinLight
+036411 - AttackSpinLight_NoPoints
+036420 - AttackSpinHeavy
+036421 - AttackSpinHeavy_NoPoints
+
+# Charge
+036700 - Charge
+036701 - Charge_NoPoints
+036710 - ChargeContinue
+036711 - ChargeContinue_NoPoints
+
+# 
+036800 - StrongBashRightStart
+
+#
+036900 - ParryRightStart
+
+#
+037400 - StampedeRightStart
+037410 - StampedeRightAttackLight
+037420 - StampedeRightAttackHeavy
+
+# Warcry
+037670 - Warcry
+037671 - Warcry_NoPoints
+
+# Perseverance
+037700 - Endure
+037701 - Endure_NoPoints
+037710 - EndureRightHeavy
+037711 - EndureRightHeavy_NoPoints
+
+#
+037900 - MagicBuffRight
+037901 - MagicBuffRight_NoPoints
+037910 - MagicBuffLeft
+037911 - MagicBuffLeft_NoPoints
+
+#
+038200 - CrossbowStepInStart
+       - CrossbowStepInRightStart_Upper
+038201 - CrossbowStepInStart_NoPoints
+       - CrossbowStepInRightStart_NoPoints_Upper
+038210 - CrossbowStepInFire
+038211 - CrossbowStepInFire_NoPoints
+038220 - CrossbowStepInReload
+038221 - CrossbowStepInReload_NoPoints
+
+# Sharpen 
+038400 - OneShot
+038401 - OneShot_NoPoints
+038410 - OneShotNoGenTransContinue
+038411 - OneShotNoGenTransContinuet_NoPoint
+
+# 
+038700 - OneShotNoGenTransStart
+038701 - OneShotNoGenTransStart_NoPoint
+
+# Quickstep
+038020 - CircleStepStartRight 
+       - CircleStepStartSelftransRight
+038021 - CircleStepStartRight_NoPoints 
+       - CircleStepStartSelftransRight_NoPoints
+038030 - CircleStepStartLeft 
+       - CircleStepStartSelftransLeft
+038031 - CircleStepStartLeft_NoPoints 
+       - CircleStepStartSelftransLeft_NoPoints
+038040 - CircleStepFrontLeft 
+       - CircleStepSelftransFrontLeft
+038041 - CircleStepFrontLeft_NoPoints 
+       - CircleStepSelftransFrontLeft_NoPoints
+038050 - CircleStepFrontRight 
+       - CircleStepSelftransFrontRight
+038051 - CircleStepFrontRight_NoPoints 
+       - CircleStepSelftransFrontRight_NoPoints
+038060 - CircleStepStartBackRight 
+       - CircleStepStartSelftransBackRight
+038061 - CircleStepStartBackRight_NoPoints 
+       - CircleStepStartSelftransBackRight_NoPoints
+038070 - CircleStepStartBackLeft 
+       - CircleStepStartSelftransBackLeft
+038071 - CircleStepStartBackLeft_NoPoints 
+       - CircleStepStartSelftransBackLeft_NoPoints
+
+#---------------------------------------------
+# Magic TAE
+#---------------------------------------------
+040000 - ENBulletRightLaunch
+       - ENBulletRightLaunch_Upper
+       - ENBulletRightLaunchSA
+       - ENBulletRightLaunchSA_Upper
+       - WeaponEnchantRightLaunchSA
+       - WeaponEnchantRightLaunch_Upper
+       - WeaponEnchantRightLaunchSA_Upper
+       
+#---------------------------------------------
+# Common TAE
+#---------------------------------------------
+# --- Fall ---
+004000 - FallLoop
+004010 - FallStartFaceUp00
+004020 - FallLoopFaceDown
+004050 - FallStart
+004060 - FallStartFaceUp
+004070 - FallStartFaceDown
+004080 - FallJumpStart
+004100 - FallDeath
+004101 - FallDeathLoop
+004110 - FallDeathFaceUp
+004111 - FallDeathFaceDown
+004120 - FallDeathLoopFaceUp
+004121 - FallDeathLoopFaceDown
+
+# --- Landing ---
+004200 - LandDefault
+004210 - LandMiddle
+004220 - LandHeavy
+004230 - LandCatDefault
+004240 - LandCatMiddle
+004250 - LandCatHeavy
+004260 - LandFaceUp
+004270 - LandFaceDown
+004280 - LandJump
+004290 - LandLow
+
+# --- Damage Level ---
+005300 - DamageExLargeLeft
+005301 - DamageExLargeRight
+005302 - DamageExLargeFront
+005303 - DamageExLargeBack 
+005700 - DamageWeakLeft
+005701 - DamageWeakRight
+005702 - DamageWeakFront
+005703 - DamageWeakBack
+005900 - DamageFling
+005600 - DamagePushLeft
+005601 - DamagePushRight
+005602 - DamagePushFront 
+005603 - DamagePushBack
+005500 - DamageSmallBlowLeft
+005501 - DamageSmallBlowRight
+005502 - DamageSmallBlowFront
+005503 - DamageSmallBlowBack
+005910 - DamageUpper
+005800 - DamageBreathLeft
+005801 - DamageBreathRight
+005802 - DamageBreathFront
+005803 - DamageBreathBack
+005300 - DamageExBlastLeft
+005301 - DamageExBlastRight
+005302 - DamageExBlastFront
+005303 - DamageExBlastBack
+
+# --- Parry Damage ---
+006000 - DamageParryRight
+006010 - DamageParryLeft
+
+# --- Death ---
+017002 - DeathCommonFront1
+017003 - DeathCommonBack1
+017012 - DeathCommonFront2
+017013 - DeathCommonBack2
+017022 - DeathCommonFront3
+017023 - DeathCommonBack3
+017032 - DeathCommonFront4
+017033 - DeathCommonBack4
+017050 - DeathSmallBlastLeft
+017051 - DeathSmallBlastRight
+017052 - DeathSmallBlastFront
+017053 - DeathSmallBlastBack
+
+017060 - DeathFling
+017070 - DeathUpper
+017090 - DeathLand
+017102 - DeathLandFaceUp
+017103 - DeathLandFaceDown
+017110 - DeathLandLow
+017130 - DeathWeak
+017140 - DeathPoison
+017160 - DeathStone
+017180 - DeathTaint
+       - DeathTaintIdle
+        
+018002 - DeathCommonFront1Idle 
+       - DeathSmallBlastLeftIdle 
+       - DeathSmallBlastRightIdle 
+       - DeathSmallBlastFrontIdle
+       - DeathSmallBlastBackIdle
+018003 - DeathCommonBack1Idle
+018012 - DeathCommonFront2Idle
+018013 - DeathCommonBack2Idle
+018022 - DeathCommonFront3Idle
+018023 - DeathCommonBack3Idle
+018032 - DeathCommonFront4Idle
+018033 - DeathCommonBack4Idle
+018060 - DeathFlingIdle
+018070 - DeathUpperIdle
+018090 - DeathLandIdle
+018102 - DeathLandFaceUpIdle
+018103 - DeathLandFaceDownIdle
+018110 - DeathLandLowIdle
+018130 - DeathWeakIdle
+018140 - DeathPoisonIdle
+018160 - DeathStoneIdle
+
+
+# --- Guard Damage ---
+019200 - GuardDamageSmallM
+019206 - GuardDamageSmall_GenTrans
+019210 - GuardDamageMiddleM
+019216 - GuardDamageMiddle_GenTrans
+019220 - GuardDamageLargeM 
+       - GuardDamageExLarge
+019226 - GuardDamageLarge_GenTrans
+019250 - GuardDamageSmallTorch
+019260 - GuardDamageMediumTorch
+019270 - GuardDamageLargeTorch
+019300 - GuardDamageSmallL
+019310 - GuardDamageMiddleL 
+019320 - GuardDamageLargeL 
+019400 - GuardDamageSmallS
+019410 - GuardDamageMiddleS
+019420 - GuardDamageLargeS
+
+# --- Guard Break ---
+019500 - GuardBreakM
+019506 - GuardBreak_GenTrans
+019510 - GuardBreakL
+019520 - GuardBreakS
+019530 - GuardBreakMTorch
+
+# --- Other ---
+040021 - Throw40021
+040633 - Throw40633
+042021 - Throw42021
+042633 - Throw42633
+
+# --- Item Use ---
+050050 - NoArrow
+
+# --- Object Interaction ----
+060010 - Event60010
+060020 - Event60020
+060030 - Event60030
+060040 - Event60040
+060070 - Event60070
+060080 - Event60080
+060090 - Event60090
+060100 - Event60100
+060160 - Event60160
+060170 - Event60170
+060180 - Event60180
+060190 - Event60190
+060200 - Event60200
+060202 - Event60202
+060220 - Event60220
+060230 - Event60230
+060231 - Event60231
+060240 - Event60240
+060241 - Event60241
+060250 - Event60250
+060270 - Event60270
+060750 - Event60750
+060760 - Event60760
+060780 - Event60780
+060790 - Event60790
+060800 - Event60800
+
+063010 - Event63010
+063020 - Event63020
+
+065012 - Event65012
+065013 - Event65013
+065030 - Event65030
+065040 - Event65040
+
+069030 - Event69030
+
+# --- Throw ---
+070000 - Throw70000
+070001 - ThrowDeath70000
+070002 - ThrowDeathIdle70000
+070010 - Throw70010
+070011 - ThrowDeath70010
+070012 - ThrowDeathIdle70010
+070020 - Throw70020
+070021 - ThrowDeath70020
+070022 - ThrowDeathIdle70020
+070030 - Throw70030
+070031 - ThrowDeath70030
+070032 - ThrowDeathIdle70030
+070100 - Throw70100
+070101 - ThrowDeath70100
+070102 - ThrowDeathIdle70100
+070300 - Throw70300
+070301 - ThrowDeath70300
+070302 - ThrowDeathIdle70300
+070310 - Throw70310
+070311 - ThrowDeath70310
+070311 - ThrowDeathIdle70310
+070500 - Throw70500
+070501 - ThrowDeath70500
+070502 - ThrowDeathIdle70500
+070510 - Throw70510
+070511 - ThrowDeath70510
+070512 - ThrowDeathIdle70510
+070520 - Throw70520
+070521 - ThrowDeath70520
+070522 - ThrowDeathIdle70520
+070530 - Throw70530
+070531 - ThrowDeath70530
+070532 - ThrowDeathIdle70530
+070540 - Throw70540
+070541 - ThrowDeath70540
+070542 - ThrowDeathIdle70540
+070550 - Throw70550
+070551 - ThrowDeath70550
+070552 - ThrowDeathIdle70550
+070560 - Throw70560
+070561 - ThrowDeath70560
+070562 - ThrowDeathIdle70560
+070570 - Throw70570
+070571 - ThrowDeath70570
+070572 - ThrowDeathIdle70570
+070580 - Throw70580
+070581 - ThrowDeath70580
+070582 - ThrowDeathIdle70580
+070590 - Throw70590
+070591 - ThrowDeath70590
+070592 - ThrowDeathIdle70590
+070600 - Throw70600
+070601 - ThrowDeath70600
+070602 - ThrowDeathIdle70600
+070610 - Throw70610
+070611 - ThrowDeath70610
+070612 - ThrowDeathIdle70610
+070620 - Throw70620
+070621 - ThrowDeath70620
+070622 - ThrowDeathIdle70620
+070630 - Throw70630
+070631 - ThrowDeath70630
+070632 - ThrowDeathIdle70630
+070640 - Throw70640
+070641 - ThrowDeath70640
+070642 - ThrowDeathIdle70640
+070650 - Throw70650
+070651 - ThrowDeath70650
+070652 - ThrowDeathIdle70650
+070660 - Throw70660
+070661 - ThrowDeath70660
+070662 - ThrowDeathIdle70660
+070670 - Throw70670
+070671 - ThrowDeath70670
+070672 - ThrowDeathIdle70670
+070680 - Throw70680
+070681 - ThrowDeath70680
+070682 - ThrowDeathIdle70680
+070690 - Throw70690
+070691 - ThrowDeath70690
+070692 - ThrowDeathIdle70690
+070700 - Throw70700
+070701 - ThrowDeath70700
+070702 - ThrowDeathIdle70700
+070710 - Throw70710
+070711 - ThrowDeath70710
+070712 - ThrowDeathIdle70710
+070720 - Throw70720
+070721 - ThrowDeath70720
+070722 - ThrowDeathIdle70720
+070730 - Throw70730
+070731 - ThrowDeath70730
+070732 - ThrowDeathIdle70730
+070740 - Throw70740
+070741 - ThrowDeath70740
+070742 - ThrowDeathIdle70740
+070750 - Throw70750
+070751 - ThrowDeath70750
+070752 - ThrowDeathIdle70750
+070760 - Throw70760
+070761 - ThrowDeath70760
+070762 - ThrowDeathIdle70760
+070770 - Throw70770
+070771 - ThrowDeath70770
+070772 - ThrowDeathIdle70770
+070780 - Throw70780
+070781 - ThrowDeath70780
+070782 - ThrowDeathIdle70780
+070790 - Throw70790
+070791 - ThrowDeath70790
+070792 - ThrowDeathIdle70790
+070800 - Throw70800
+070801 - ThrowDeath70800
+070802 - ThrowDeathIdle70800
+070810 - Throw70810
+070811 - ThrowDeath70810
+070812 - ThrowDeathIdle70810
+070820 - Throw70820
+070821 - ThrowDeath70820
+070822 - ThrowDeathIdle70820
+070830 - Throw70830
+070831 - ThrowDeath70830
+070832 - ThrowDeathIdle70830
+070840 - Throw70840
+070841 - ThrowDeath70840
+070842 - ThrowDeathIdle70840
+070850 - Throw70850
+070851 - ThrowDeath70850
+070852 - ThrowDeathIdle70850
+070860 - Throw70860
+070861 - ThrowDeath70860
+070862 - ThrowDeathIdle70860
+070870 - Throw70870
+070871 - ThrowDeath70870
+070872 - ThrowDeathIdle70870
+070880 - Throw70880
+070881 - ThrowDeath70880
+070882 - ThrowDeathIdle70880
+070890 - Throw70890
+070891 - ThrowDeath70890
+070892 - ThrowDeathIdle70890
+070900 - Throw70900
+070901 - ThrowDeath70900
+070902 - ThrowDeathIdle70900
+070910 - Throw70910
+070911 - ThrowDeath70910
+070912 - ThrowDeathIdle70910
+070920 - Throw70920
+070921 - ThrowDeath70920
+070922 - ThrowDeathIdle70920
+070930 - Throw70930
+070931 - ThrowDeath70930
+070932 - ThrowDeathIdle70930
+070940 - Throw70940
+070941 - ThrowDeath70940
+070942 - ThrowDeathIdle70940
+070950 - Throw70950
+070951 - ThrowDeath70950
+070952 - ThrowDeathIdle70950
+070960 - Throw70960
+070961 - ThrowDeath70960
+070962 - ThrowDeathIdle70960
+070970 - Throw70970
+070971 - ThrowDeath70970
+070972 - ThrowDeathIdle70970
+070980 - Throw70980
+070981 - ThrowDeath70980
+070982 - ThrowDeathIdle70980
+070990 - Throw70990
+070991 - ThrowDeath70990
+070992 - ThrowDeathIdle70990
+071000 - Throw71000
+071001 - ThrowDeath71000
+071002 - ThrowDeathIdle71000
+071010 - Throw71010
+071011 - ThrowDeath71010
+071012 - ThrowDeathIdle71010
+071020 - Throw71020
+071021 - ThrowDeath71020
+071022 - ThrowDeathIdle71020
+071030 - Throw71030
+071031 - ThrowDeath71030
+071032 - ThrowDeathIdle71030
+071040 - Throw71040
+071041 - ThrowDeath71040
+071042 - ThrowDeathIdle71040
+071050 - Throw71050
+071051 - ThrowDeath71050
+071052 - ThrowDeathIdle71050
+071060 - Throw71060
+071061 - ThrowDeath71060
+071062 - ThrowDeathIdle71060
+071070 - Throw71070
+071071 - ThrowDeath71070
+071072 - ThrowDeathIdle71070
+071080 - Throw71080
+071081 - ThrowDeath71080
+071082 - ThrowDeathIdle71080
+071090 - Throw71090
+071091 - ThrowDeath71090
+071092 - ThrowDeathIdle71090
+071100 - Throw71100
+071101 - ThrowDeath71100
+071102 - ThrowDeathIdle71100
+071110 - Throw71110
+071111 - ThrowDeath71110
+071112 - ThrowDeathIdle71110
+071120 - Throw71120
+071121 - ThrowDeath71120
+071122 - ThrowDeathIdle71120
+071130 - Throw71130
+071131 - ThrowDeath71130
+071132 - ThrowDeathIdle71130
+071140 - Throw71140
+071141 - ThrowDeath71140
+071142 - ThrowDeathIdle71140
+071150 - Throw71150
+071151 - ThrowDeath71150
+071152 - ThrowDeathIdle71150
+071160 - Throw71160
+071161 - ThrowDeath71160
+071162 - ThrowDeathIdle71160
+
+# --- Throw Esape ---
+070303 - ThrowEscape70300
+070304 - ThrowDefHold70300
+070563 - ThrowEscape70560
+070564 - ThrowDefHold70560
+070603 - ThrowEscape70600
+070604 - ThrowDefHold70600
+070613 - ThrowEscape70610
+070614 - ThrowDefHold70610
+070643 - ThrowEscape70640
+070644 - ThrowDefHold70640
+070723 - ThrowEscape70720
+070724 - ThrowDefHold70720
+070763 - ThrowEscape70760
+070764 - ThrowDefHold70760
+070773 - ThrowEscape70770
+070774 - ThrowDefHold70770
+070853 - ThrowEscape70850
+070854 - ThrowDefHold70850
+070863 - ThrowEscape70860
+070864 - ThrowDefHold70860
+070913 - ThrowEscape70910
+070914 - ThrowDefHold70910
+070923 - ThrowEscape70920
+070924 - ThrowDefHold70920
+070943 - ThrowEscape70940
+070944 - ThrowDefHold70940
+070953 - ThrowEscape70950
+070954 - ThrowDefHold70950
+070983 - ThrowEscape70980
+070984 - ThrowDefHold70980
+071053 - ThrowEscape71050
+071054 - ThrowDefHold71050
+071103 - ThrowEscape71100
+071104 - ThrowDefHold71100
+
+# --- Damage State ---
+075000 - SpecialDamageUpper
+075001 - SpecialDamageUpperLoop
+075002 - SpecialDamageUpperLand 
+075003 - DeathSpecialDamageUpper
+075004 - DeathSpecialDamageUpperIdle
+
+# --- Gestures ---
+080000 - Event80000
+
+# --- NPC Poses ---
+091150 - Event91150
+091160 - Event91160
+091170 - Event91170
+091180 - Event91180
+091190 - Event91190
+091200 - Event91200
+091210 - Event91210
+
+099998 - Event99998
+099999 - Event99999
