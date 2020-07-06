@@ -1,0 +1,71 @@
+﻿# a600 - Beast Claw Override
+030000 - AttackRightLight1 #12861
+030010 - AttackRightLight2 #12862
+030020 - AttackRightLight3 #12863
+030100 - AttackRightLightKick #12864
+030320 - AttackRightHeavy1Start #12865
+030321 - AttackRightHeavy1End #12866
+030330 - AttackRightHeavy1SubStart #12867
+030340 - AttackRightHeavy2Start #12868
+030341 - AttackRightHeavy2End #12869
+030350 - AttackRightHeavySpecial1Start #12870
+030351 - AttackRightHeavySpecial1End #12871
+030360 - AttackRightHeavySpecial1SubStart #12872
+030370 - AttackRightHeavySpecial2Start #12873
+030371 - AttackRightHeavySpecial2End #12874
+030450 - ThrowBackStab #12875
+030500 - AttackRightLightDash #12876
+030600 - AttackRightHeavyKick #12877
+030900 - AttackRightLightStep #12878
+030920 - AttackRightBackstep #12879
+
+032000 - AttackLeftLight1 #12880
+032030 - AttackLeftHeavy2a00 #12881
+032060 - AttackLeftHeavy3a00 #12882
+
+033000 - AttackBothLeft1 #12883
+033010 - AttackBothLeft2 #12884
+033020 - AttackBothLeft3 #12885
+
+034000 - AttackBothLight1 #12886
+034010 - AttackBothLight2 #12887
+034020 - AttackBothLight3 #12888
+034100 - AttackBothLightKick #12889
+034320 - AttackBothHeavy1Start #12890
+034321 - AttackBothHeavy1End #12891
+034330 - AttackBothHeavy1SubStart #12892
+034340 - AttackBothHeavy2Start #12893
+034341 - AttackBothHeavy2End #12894
+034350 - AttackBothHeavySpecial1Start #12895
+034351 - AttackBothHeavySpecial1End #12896
+034360 - AttackBothHeavySpecial1SubStart #12897
+034370 - AttackBothHeavySpecial2Start #12898
+034371 - AttackBothHeavySpecial2End #12899
+034500 - AttackBothDash  #12900
+034600 - AttackBothHeavyKick #12901
+034920 - AttackBothBackstep #12902
+
+037670 - Warcry #12903
+037671 - Warcry_NoPoints #12904
+
+# a601 - Gravelord Sword
+030000 - AttackRightLight1 #12905 ## a028_030000
+030010 - AttackRightLight2 #12906 ## a028_030010
+030020 - AttackRightLight3 #12907 ## a028_030020
+
+030320 - AttackRightHeavy1Start #12908 ## a074_030320
+030321 - AttackRightHeavy1End #12909 ## a074_030321
+030330 - AttackRightHeavy1SubStart #12910 ## a074_030330
+030340 - AttackRightHeavy2Start #12911 ## a074_030340
+030341 - AttackRightHeavy2End #12912 ## a074_030341
+
+034000 - AttackBothLight1 #12913 ## a028_034000
+034010 - AttackBothLight2 #12914 ## a028_034010
+034020 - AttackBothLight3 #12915 ## a028_034020
+
+034320 - AttackBothHeavy1Start #12916 ## a074_034320
+034321 - AttackBothHeavy1End #12917 ## a074_034321
+034330 - AttackBothHeavy1SubStart #12918 ## a074_034330
+034340 - AttackBothHeavy2Start #12919 ## a074_034340
+034341 - AttackBothHeavy2End #12920 ## a074_034341
+
