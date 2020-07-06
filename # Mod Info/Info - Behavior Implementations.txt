@@ -49,23 +49,23 @@
 037671 - Warcry_NoPoints #12904
 
 # a601 - Gravelord Sword
-030000 - AttackRightLight1 #12905 ## a028_030000
-030010 - AttackRightLight2 #12906 ## a028_030010
-030020 - AttackRightLight3 #12907 ## a028_030020
+030000 - AttackRightLight1 #12905           ## a028_030000
+030010 - AttackRightLight2 #12906           ## a028_030010
+030020 - AttackRightLight3 #12907           ## a028_030020
 
-030320 - AttackRightHeavy1Start #12908 ## a074_030320
-030321 - AttackRightHeavy1End #12909 ## a074_030321
-030330 - AttackRightHeavy1SubStart #12910 ## a074_030330
-030340 - AttackRightHeavy2Start #12911 ## a074_030340
-030341 - AttackRightHeavy2End #12912 ## a074_030341
+030320 - AttackRightHeavy1Start #12908      ## a074_030320
+030321 - AttackRightHeavy1End #12909        ## a074_030321
+030330 - AttackRightHeavy1SubStart #12910   ## a074_030330
+030340 - AttackRightHeavy2Start #12911      ## a074_030340
+030341 - AttackRightHeavy2End #12912        ## a074_030341
 
-034000 - AttackBothLight1 #12913 ## a028_034000
-034010 - AttackBothLight2 #12914 ## a028_034010
-034020 - AttackBothLight3 #12915 ## a028_034020
+034000 - AttackBothLight1 #12913            ## a028_034000
+034010 - AttackBothLight2 #12914            ## a028_034010
+034020 - AttackBothLight3 #12915            ## a028_034020
 
-034320 - AttackBothHeavy1Start #12916 ## a074_034320
-034321 - AttackBothHeavy1End #12917 ## a074_034321
-034330 - AttackBothHeavy1SubStart #12918 ## a074_034330
-034340 - AttackBothHeavy2Start #12919 ## a074_034340
-034341 - AttackBothHeavy2End #12920 ## a074_034341
+034320 - AttackBothHeavy1Start #12916       ## a074_034320
+034321 - AttackBothHeavy1End #12917         ## a074_034321
+034330 - AttackBothHeavy1SubStart #12918    ## a074_034330
+034340 - AttackBothHeavy2Start #12919       ## a074_034340
+034341 - AttackBothHeavy2End #12920         ## a074_034341
 

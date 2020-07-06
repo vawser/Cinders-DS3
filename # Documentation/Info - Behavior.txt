@@ -83,8 +83,11 @@ Behavior (hks)
 032091 - AttackLeftHeavySp2
 032092 - AttackLeftHeavySp3
 032100 - ParryLeft1
+032101 - ParryLeftStart1_WepBreak
 032110 - ParryLeft2
+032111 - ParryLeftStart2_WepBreak
 032120 - ParryLeft3
+032121 - ParryLeftStart3_WepBreak
 032150 - GuardBreakWallLeft
 032200 - GuardDamageBreakLeft
 
@@ -221,6 +224,7 @@ Behavior (hks)
 
 #
 036900 - ParryRightStart
+036901 - ParryRightStart_WepBreak
 
 #
 037400 - StampedeRightStart
@@ -258,6 +262,18 @@ Behavior (hks)
 038401 - OneShot_NoPoints
 038410 - OneShotNoGenTransContinue
 038411 - OneShotNoGenTransContinuet_NoPoint
+
+# Shield Bash
+038500 - OneShotFullRightStart
+038501 - OneShotFullRightStart_NoPoints
+038510 - OneShotFullBothStart
+038511 - OneShotFullBothStart_NoPoints
+038520 - OneShotFullLeftStarta00
+038521 - OneShotFullLeftStarta00_NoPoints
+038530 - OneShotFullLeftStarta02
+038531 - OneShotFullLeftStarta02_NoPoints
+038540 - OneShotFullLeftStarta03
+038541 - OneShotFullLeftStarta03_NoPoints
 
 # 
 038700 - OneShotNoGenTransStart
