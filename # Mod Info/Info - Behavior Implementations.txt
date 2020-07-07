@@ -1,4 +1,37 @@
-﻿# a600 - Beast Claw Override
+﻿#------------------------------------------------
+# Template
+#------------------------------------------------
+030000 - AttackRightLight1          #12921  ## 
+030010 - AttackRightLight2          #12922  ## 
+030020 - AttackRightLight3          #12923  ## 
+
+030320 - AttackRightHeavy1Start     #12924  ## 
+030321 - AttackRightHeavy1End       #12924  ## 
+030330 - AttackRightHeavy1SubStart  #12926  ## 
+030340 - AttackRightHeavy2Start     #12927  ## 
+030341 - AttackRightHeavy2End       #12928  ## 
+
+030500 - AttackRightLightDash       #12929  ##
+030600 - AttackRightHeavyKick       #12930  ##
+030900 - AttackRightLightStep       #12931  ##
+
+034000 - AttackBothLight1           #12932  ## 
+034010 - AttackBothLight2           #12933  ## 
+034020 - AttackBothLight3           #12934  ## 
+
+034320 - AttackBothHeavy1Start      #12935  ## 
+034321 - AttackBothHeavy1End        #12936  ## 
+034330 - AttackBothHeavy1SubStart   #12937  ## 
+034340 - AttackBothHeavy2Start      #12938  ## 
+034341 - AttackBothHeavy2End        #12939  ## 
+
+034500 - AttackBothDash             #12940  ##
+034600 - AttackBothHeavyKick        #12941  ##
+034900 - AttackBothLightStep        #12942  ##
+
+#------------------------------------------------
+# a600 - Beast Claw Override
+#------------------------------------------------
 030000 - AttackRightLight1 #12861
 030010 - AttackRightLight2 #12862
 030020 - AttackRightLight3 #12863
@@ -48,10 +81,12 @@
 037670 - Warcry #12903
 037671 - Warcry_NoPoints #12904
 
+#------------------------------------------------
 # a601 - Gravelord Sword
-030000 - AttackRightLight1 #12905           ## a028_030000
-030010 - AttackRightLight2 #12906           ## a028_030010
-030020 - AttackRightLight3 #12907           ## a028_030020
+#------------------------------------------------
+030000 - AttackRightLight1 #12905           ## a028_030000 (0.8)
+030010 - AttackRightLight2 #12906           ## a028_030010 (0.8)
+030020 - AttackRightLight3 #12907           ## a028_030020 (0.8)
 
 030320 - AttackRightHeavy1Start #12908      ## a074_030320
 030321 - AttackRightHeavy1End #12909        ## a074_030321
@@ -59,9 +94,9 @@
 030340 - AttackRightHeavy2Start #12911      ## a074_030340
 030341 - AttackRightHeavy2End #12912        ## a074_030341
 
-034000 - AttackBothLight1 #12913            ## a028_034000
-034010 - AttackBothLight2 #12914            ## a028_034010
-034020 - AttackBothLight3 #12915            ## a028_034020
+034000 - AttackBothLight1 #12913            ## a028_034000 (0.8)
+034010 - AttackBothLight2 #12914            ## a028_034010 (0.8)
+034020 - AttackBothLight3 #12915            ## a028_034020 (0.8)
 
 034320 - AttackBothHeavy1Start #12916       ## a074_034320
 034321 - AttackBothHeavy1End #12917         ## a074_034321
@@ -69,3 +104,71 @@
 034340 - AttackBothHeavy2Start #12919       ## a074_034340
 034341 - AttackBothHeavy2End #12920         ## a074_034341
 
+#------------------------------------------------
+# a602 - Penetrating Sword
+#------------------------------------------------
+030000 - AttackRightLight1          #12921  ## a029_030000
+030010 - AttackRightLight2          #12922  ## a028_030010
+030020 - AttackRightLight3          #12923  ## a027_030341
+
+030320 - AttackRightHeavy1Start     #12924  ## a151_030320
+030321 - AttackRightHeavy1End       #12925  ## a151_030321
+030330 - AttackRightHeavy1SubStart  #12926  ## a090_030330
+030340 - AttackRightHeavy2Start     #12927  ## a090_030320
+030341 - AttackRightHeavy2End       #12928  ## a090_030321
+
+030500 - AttackRightLightDash       #12929  ## a020_030900 (TAE)
+
+034000 - AttackBothLight1           #12930  ## a196_034000 (1.2)
+034010 - AttackBothLight2           #12931  ## a196_034010 (1.2)
+034020 - AttackBothLight3           #12932  ## a196_034020 (1.2)
+
+034320 - AttackBothHeavy1Start      #12933  ## a151_034320 (1.1)
+034321 - AttackBothHeavy1End        #12934  ## a151_034321 (1.1)
+034330 - AttackBothHeavy1SubStart   #12935  ## a020_034330
+034340 - AttackBothHeavy2Start      #12936  ## a090_034340 (1.2)
+034341 - AttackBothHeavy2End        #12937  ## a090_034341 (1.2)
+
+034500 - AttackBothDash             #12938  ## a027_034900 (TAE)
+
+038700 - OneShotNoGenTransStart             #12939  ## a205_038700
+038701 - OneShotNoGenTransStart_NoPoint     #12940  ## a205_038701
+038710 - OneShotNoGenTransContinue          #12941  ## a205_038710
+038711 - OneShotNoGenTransContinuet_NoPoint #12942  ## a205_038711
+
+#------------------------------------------------
+# a603 - Pilgrim's Spontoon
+#------------------------------------------------
+SANTIER SPEAR
+a036_030000 (1 HAND LIGHT #1)
+a027_030010 (1 HAND LIGHT #2)
+a050_030020 (1 HAND LIGHT #3)
+a057_030320 (1 HAND HEAVY #1 CHARGED)
+a057_030321 (1 HAND HEAVY #1 UNCHARGED)
+a027_030340 (1 HAND HEAVY #2 CHARGED)
+a027_030341 (1 HAND HEAVY #2 UNCHARGED)
+a029_030500 (1 HAND RUNNING ATTACK)
+a236_033500 (1 HAND JUMP ATTACK)
+a023_030910 (1 HAND ROLL ATTACK)
+a026_036500 (1 HAND KICK) (HKX ONLY)
+
+a101_034300 (2 HAND LIGHT #1)
+a101_034310 (2 HAND LIGHT #2)
+a101_034300 (2 HAND LIGHT #3)
+a030_034370 (2 HAND HEAVY #1 CHARGED)
+a030_034371 (2 HAND HEAVY #1 UNCHARGED)
+a038_034340 (2 HAND HEAVY #2 CHARGED)
+a038_034341 (2 HAND HEAVY #2 UNCHARGED)
+a151_030321 (2 HAND RUNNING ATTACK)
+a236_033500 (2 HAND JUMP ATTACK)
+a026_034900 (2 HAND ROLL ATTACK)
+a026_036500 (2 HAND KICK) (HKX ONLY)
+
+a036_036200 (STANCE START)
+a036_036210 (STANCE HOLD)
+a036_036215 (STANCE WALK)
+a036_036220 (STANCE END)
+a036_036700 (STANCE LIGHT)
+a036_036701 (STANCE LIGHT NO FP)
+a043_038700 (STANCE HEAVY)
+a043_038700 (STANCE HEAVY NO FP)

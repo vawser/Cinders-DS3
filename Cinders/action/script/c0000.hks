@@ -3336,7 +3336,7 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
                     ExecEventAllBody("W_CircleStepStart")
                 end
                 SetAIActionState()
-                AddStamina(c_StaminaCostRolling)
+                AddStamina(-13)
                 return TRUE
             end
         end

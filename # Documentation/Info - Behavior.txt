@@ -52,7 +52,7 @@ Behavior (hks)
 030410 - Throw30410
 030420 - Throw30420
 030450 - ThrowBackStab
-030500 - AttackRightLightDash
+030500 - AttackRightLightDash               # Backstep Attack
 030510 - AttackRightLightDashSpecial
 030600 - AttackRightHeavyKick               # Jump Attack
 030800 - FallAttackStart
@@ -61,7 +61,7 @@ Behavior (hks)
 030810 - LandFallAttack
 030860 - Throw30860
 030870 - Throw30870
-030900 - AttackRightLightStep
+030900 - AttackRightLightStep               # Rolling Attack
 030910 - AttackRightLightStepSpecial
 030920 - AttackRightBackstep
 030930 - AttackRightCounter
@@ -129,12 +129,12 @@ Behavior (hks)
 034360 - AttackBothHeavySpecial1SubStart
 034370 - AttackBothHeavySpecial2Start
 034371 - AttackBothHeavySpecial2End
-034500 - AttackBothDash 
+034500 - AttackBothDash                     # Backstep Attack
        - AttackArrowRightFireDash
 034510 - AttackBothDashSpecial
-034600 - AttackBothHeavyKick
+034600 - AttackBothHeavyKick                # Jump Attack
 034610 - AttackBothHeavyKickSpecial
-034900 - AttackBothLightStep 
+034900 - AttackBothLightStep                # Rolling Attack
        - AttackArrowRightFireStep
 034910 - AttackBothLightStepSpecial
 034920 - AttackBothBackstep
@@ -278,6 +278,8 @@ Behavior (hks)
 # 
 038700 - OneShotNoGenTransStart
 038701 - OneShotNoGenTransStart_NoPoint
+038710 - OneShotNoGenTransContinue
+038711 - OneShotNoGenTransContinuet_NoPoint
 
 # Quickstep
 038020 - CircleStepStartRight 

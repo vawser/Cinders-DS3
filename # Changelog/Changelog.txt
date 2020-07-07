@@ -32,6 +32,7 @@
 #------------------------------
 # Weapons
 - Changed Gravelord Sword moveset: now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
+- Changed Penetrating Sword moveset based on suggestions.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -55,6 +56,7 @@
 
 # NPCs
 - Added Magnum Ursus: this NPC hosts the Mark system and is used to toggle them. Found in Firelink Shrine.
+- Companions now have cycling target priority: 3 seconds on, 7 seconds off. This means enemies won't target them 100% of the time.
 
 # Enemies
 - Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
@@ -69,6 +71,9 @@
 - Increased FP cost of Dark Dance to 650.
 - Added Ghostly Assault: summons a group of 5 ghostly archers that will each fire 3 times until disappearing. Dropped by the Judicator at the start of the Ringed City.
 - Reduced Soul Stream damage to 200 per tick (was 250)
+
+# Rings
+- Ring of Momentum quicksteps now cost 20 stamina.
 
 # Items
 - The cosmetic stones now apply the VFX to both hands.
@@ -88,6 +93,7 @@
 - Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
 - Changed a lot of buff WAs to no longer use the right/left hand system. This means they won't be cancelled by other buffs. The VFX will use the latest, but the effects will be present, meaning you can stack them. For example, using Warcry and the Dark Gauntlets will retain both the Curse inflict and the AR boost from Warcry, as they no longer override each other.
 - Alva's set will now spawn when you kill him (was checking for the old event flag).
+- Fixed companion HP regen being 100% per second rather than 1%.
 
 #------------------------------
 # TODO
