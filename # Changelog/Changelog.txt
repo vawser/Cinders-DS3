@@ -33,6 +33,7 @@
 # Weapons
 - Changed Gravelord Sword moveset: now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
 - Changed Penetrating Sword moveset based on suggestions.
+- Changed Beast Cutter: now uses a new moveset and the segemented model.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -98,18 +99,6 @@
 #------------------------------
 # TODO
 #------------------------------
-Add Gravelord FFX, add Gravelord Sword Dance
-
-Add praise the sun anim to solaire summon
-
-Reversal Ring not working
-
-Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
-
-Add Loretta invader
- Spawn in the nook by the ledge with the bone
- Drop/wield the Frying Pan
- 
 31420000 0840 / 1419 Hands of Sin
 31430000 0864 / 1420 Frying Pan
 31440000 0869 / 1421 Serpentine Chain-axe
@@ -117,3 +106,12 @@ Add Loretta invader
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
+- Add Gravelord FFX, add Gravelord Sword Dance
+- Add praise the sun anim to solaire summon
+- Reversal Ring not working
+- Lava Pool spell, summon laval pool at player's feet, lasts for 15 seconds, Great combustion cast
+- Add Loretta invader
+ - Spawn in the nook by the ledge with the bone
+ - Drop/wield the Frying Pan
+ 
+2815
