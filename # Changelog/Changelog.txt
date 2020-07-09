@@ -33,12 +33,13 @@
 # Weapons
 - Increased the damage of some infused weapons.
 - Increased the duration of Bloodlust/Seppuku to 60 seconds.
+- Weapon Arts that apply buffs that are general (Guiding Light) or very short (Sacred Light and Flame) no longer count as weapon buffs and so won't remove other buffs.
 
 # Movesets
 - Changed Gravelord Sword: moveset now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
 - Changed Penetrating Sword: added new moveset based on suggestions.
 - Changed Beast Cutter: now uses a new moveset and the segemented model.
-- Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 60 seconds.
+- Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 30 seconds.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -99,7 +100,6 @@
 - The invader script should no longer display the invade message outside of the trigger area in odd circumstances.
 - Paladin/Captain no longer have 2 extra levels.
 - Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
-- Changed a lot of buff WAs to no longer use the right/left hand system. This means they won't be cancelled by other buffs. The VFX will use the latest, but the effects will be present, meaning you can stack them. For example, using Warcry and the Dark Gauntlets will retain both the Curse inflict and the AR boost from Warcry, as they no longer override each other.
 - Alva's set will now spawn when you kill him (was checking for the old event flag).
 - Fixed companion HP regen being 100% per second rather than 1%.
 - Murky Warstaff 1H/2H Kick now connects.
@@ -122,12 +122,3 @@
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
 
-0 - Hip
-2 - Shoulder
-3 - Spear
-10 - 2H Front
-12 - 2H Shoulder
-13 - 2H Spear
-14 - 2H Bow
-15 - 2H Shield
-16 - 2H Crossbow
