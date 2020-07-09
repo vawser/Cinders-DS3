@@ -35,9 +35,10 @@
 - Increased the duration of Bloodlust/Seppuku to 60 seconds.
 
 # Movesets
-- Changed Gravelord Sword moveset: now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
-- Changed Penetrating Sword moveset based on suggestions.
+- Changed Gravelord Sword: moveset now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
+- Changed Penetrating Sword: added new moveset based on suggestions.
 - Changed Beast Cutter: now uses a new moveset and the segemented model.
+- Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 60 seconds.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -120,3 +121,13 @@
 - Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
+
+0 - Hip
+2 - Shoulder
+3 - Spear
+10 - 2H Front
+12 - 2H Shoulder
+13 - 2H Spear
+14 - 2H Bow
+15 - 2H Shield
+16 - 2H Crossbow
