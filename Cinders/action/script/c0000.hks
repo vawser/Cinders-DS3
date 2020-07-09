@@ -835,7 +835,7 @@ function SetSwordArtsCancelType()
 end
 
 function SetGender()
-    if env(1116, 160600670) == TRUE then
+    if env(1116, 112074000) == TRUE then
         if env("女性か") == TRUE then
             c_IsFemale = FALSE
         else

@@ -40,6 +40,7 @@
 - Changed Penetrating Sword: added new moveset based on suggestions.
 - Changed Beast Cutter: now uses a new moveset and the segemented model.
 - Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 30 seconds.
+- Changed Phosphorescent Pole: has a new moveset based on suggestions.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -103,10 +104,14 @@
 - Alva's set will now spawn when you kill him (was checking for the old event flag).
 - Fixed companion HP regen being 100% per second rather than 1%.
 - Murky Warstaff 1H/2H Kick now connects.
+- Reversal Ring should be fixed.
 
 #------------------------------
 # TODO
 #------------------------------
+- Add Gravelord FFX, add Gravelord Sword Dance
+- Add praise the sun anim to solaire summon
+
 31420000 0840 / 1419 Hands of Sin
 31430000 0864 / 1420 Frying Pan
 31440000 0869 / 1421 Serpentine Chain-axe
@@ -114,11 +119,6 @@
 14220000 - 0867 / 1423 Giant's Bow
 14230000 - 0870 / 1424 Model Ballista
 
-- Add Gravelord FFX, add Gravelord Sword Dance
-- Add praise the sun anim to solaire summon
-- Reversal Ring not working
-- Lava Pool spell, summon lava pool at player's feet, lasts for 15 seconds, Great combustion cast
 - Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
-
