@@ -241,7 +241,7 @@ Behavior (hks)
 037710 - EndureRightHeavy
 037711 - EndureRightHeavy_NoPoints
 
-#
+# Poison Spores
 037900 - MagicBuffRight
 037901 - MagicBuffRight_NoPoints
 037910 - MagicBuffLeft
@@ -257,7 +257,7 @@ Behavior (hks)
 038220 - CrossbowStepInReload
 038221 - CrossbowStepInReload_NoPoints
 
-# Sharpen 
+# Sharpen / Lothric War Banner
 038400 - OneShot
 038401 - OneShot_NoPoints
 038410 - OneShotNoGenTransContinue
@@ -307,6 +307,36 @@ Behavior (hks)
 038071 - CircleStepStartBackLeft_NoPoints 
        - CircleStepStartSelftransBackLeft_NoPoints
 
+# Mad King's Gambit
+039100 - RandomOneShot1
+039101 - RandomOneShot1_NoPoints
+039110 - RandomOneShotNext1
+039111 - RandomOneShotNext1_NoPoints
+039120 - RandomOneShotNext2
+039121 - RandomOneShotNext2_NoPoints
+039130 - RandomOneShotNext3
+039131 - RandomOneShotNext3_NoPoints
+039140 - RandomOneShotNext4
+039141 - RandomOneShotNext4_NoPoints
+
+# Wind Wheel
+039210 - DrawStanceRightLoopMaxNoSync
+       - DrawStanceRightLoopMaxNoSync_Upper
+039215 - DrawStanceRightLoopMaxNoSync_Upper_NoPoints
+039230 - DrawStanceRightAttackMaxLight
+039231 - DrawStanceRightAttackMaxLight_NoPoints
+039232 - DrawStanceRightAttackMaxLightR90
+039233 - DrawStanceRightAttackMaxLightR90_NoPoints
+039234 - DrawStanceRightAttackMaxLight180
+039235 - DrawStanceRightAttackMaxLight180_NoPoints
+039240 - DrawStanceRightAttackMaxHeavy
+039241 - DrawStanceRightAttackMaxHeavy_NoPoints
+039242 - DrawStanceRightAttackMaxHeavyR90
+039243 - DrawStanceRightAttackMaxHeavyR90_NoPoints
+039244 - DrawStanceRightAttackMaxHeavy180
+039245 - DrawStanceRightAttackMaxHeavy180_NoPoints
+
+
 #---------------------------------------------
 # Magic TAE
 #---------------------------------------------
@@ -321,6 +351,11 @@ Behavior (hks)
 #---------------------------------------------
 # Common TAE
 #---------------------------------------------
+000030 - GuardOnTorch
+000100 - GuardOnIdle
+000110 - GuardOnHeavyIdle
+000120 - GuardOnSmall
+
 # --- Fall ---
 004000 - FallLoop
 004010 - FallStartFaceUp00
@@ -428,7 +463,12 @@ Behavior (hks)
 018140 - DeathPoisonIdle
 018160 - DeathStoneIdle
 
-
+# --- Guard Hold ---
+019030 - GuardStartTorchIdle
+       - GuardStartTorchIdle_Upper
+019130 - GuardEndTorchIdle
+       - GuardEndTocheIdle_Upper
+       
 # --- Guard Damage ---
 019200 - GuardDamageSmallM
 019206 - GuardDamageSmall_GenTrans
@@ -453,6 +493,17 @@ Behavior (hks)
 019510 - GuardBreakL
 019520 - GuardBreakS
 019530 - GuardBreakMTorch
+
+# --- Movement ---
+20000 - WalkFrontLight
+20010 - WalkFrontHeavy
+20020 - WalkFrontOver
+20100 - RunFrontLight
+20110 - RunFrontHeavy
+20120 - RunFrontOver
+20200 - DashFrontLight
+20210 - DashFrontHeavy
+20220 - DashFrontOver
 
 # --- Other ---
 040021 - Throw40021
@@ -780,5 +831,9 @@ Behavior (hks)
 091200 - Event91200
 091210 - Event91210
 
+# --- Female ---
+099050 - FemaleAddBlend
+
+# --- Other ---
 099998 - Event99998
 099999 - Event99999

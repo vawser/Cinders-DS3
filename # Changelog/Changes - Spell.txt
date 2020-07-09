@@ -734,7 +734,7 @@ Divine Pillars of Light
 # Lightning Spear
 #--------------------------------
 - FP Cost: 180
-- Lightning Damage: 200 [50] [200] 
+- Lightning Damage: 200 [50] [100] 
 - FTH Req: 16
 - Ascended Effect: increases poise damage and tracking.
 
@@ -742,7 +742,7 @@ Divine Pillars of Light
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 280
-- Lightning Damage: 300 [50] [300] 
+- Lightning Damage: 300 [50] [150] 
 - FTH Req: 30
 - Ascended Effect: increases poise damage and tracking.
 
@@ -750,7 +750,7 @@ Divine Pillars of Light
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 350
-- Lightning Damage: 500 [50] [500] 
+- Lightning Damage: 500 [50] [250] 
 - FTH Req: 40
 - Ascended Effect: increases poise damage and tracking.
 
@@ -758,7 +758,7 @@ Divine Pillars of Light
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 120
-- Lightning Damage: 100
+- Lightning Damage: 150
 - FTH Req: 10
 - Ascended Effect: increases tracking.
 

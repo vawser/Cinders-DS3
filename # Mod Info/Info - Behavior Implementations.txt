@@ -1,36 +1,51 @@
 ﻿#------------------------------------------------
-# Template
+# a269 - Tonitrus
 #------------------------------------------------
-030000 - AttackRightLight1          #12921  ## 
-030010 - AttackRightLight2          #12922  ## 
-030020 - AttackRightLight3          #12923  ## 
-
-030320 - AttackRightHeavy1Start     #12924  ## 
-030321 - AttackRightHeavy1End       #12924  ## 
-030330 - AttackRightHeavy1SubStart  #12926  ## 
-030340 - AttackRightHeavy2Start     #12927  ## 
-030341 - AttackRightHeavy2End       #12928  ## 
-
-030500 - AttackRightLightDash       #12929  ##
-030600 - AttackRightHeavyKick       #12930  ##
-030900 - AttackRightLightStep       #12931  ##
-
-034000 - AttackBothLight1           #12932  ## 
-034010 - AttackBothLight2           #12933  ## 
-034020 - AttackBothLight3           #12934  ## 
-
-034320 - AttackBothHeavy1Start      #12935  ## 
-034321 - AttackBothHeavy1End        #12936  ## 
-034330 - AttackBothHeavy1SubStart   #12937  ## 
-034340 - AttackBothHeavy2Start      #12938  ## 
-034341 - AttackBothHeavy2End        #12939  ## 
-
-034500 - AttackBothDash             #12940  ##
-034600 - AttackBothHeavyKick        #12941  ##
-034900 - AttackBothLightStep        #12942  ##
+037670 - Warcry            #13001  ## a103_038400
+037671 - Warcry_NoPoints   #13002  ## a103_038400
 
 #------------------------------------------------
-# a600 - Beast Claw Override
+# a270 - Phosphorescent Pole
+#------------------------------------------------
+030000 - AttackRightLight1          #12971  ## a036_030000
+030010 - AttackRightLight2          #12972  ## a027_030010
+030020 - AttackRightLight3          #12973  ## a050_030020
+
+030320 - AttackRightHeavy1Start     #12974  ## a057_030320
+030321 - AttackRightHeavy1End       #12975  ## a057_030321
+030330 - AttackRightHeavy1SubStart  #12976  ## a057_030330
+030340 - AttackRightHeavy2Start     #12977  ## a027_030340
+030341 - AttackRightHeavy2End       #12978  ## a027_030341
+
+030500 - AttackRightLightDash       #12979  ## a029_030500
+030600 - AttackRightHeavyKick       #12980  ## a236_033500
+030900 - AttackRightLightStep       #12981  ## a023_030900
+
+034000 - AttackBothLight1           #12982  ## a101_034300
+034010 - AttackBothLight2           #12983  ## a101_034310
+034020 - AttackBothLight3           #12984  ## a101_034300
+
+034320 - AttackBothHeavy1Start      #12985  ## a030_034370
+034321 - AttackBothHeavy1End        #12986  ## a030_034371
+034330 - AttackBothHeavy1SubStart   #12987  ## a038_034330
+034340 - AttackBothHeavy2Start      #12988  ## a038_034340
+034341 - AttackBothHeavy2End        #12989  ## a038_034341
+
+034500 - AttackBothDash             #12990  ## a151_030321
+034600 - AttackBothHeavyKick        #12991  ## a026_034900
+034900 - AttackBothLightStep        #12992  ## a026_036500
+
+036200 - DrawStanceRightStart                   #12993  ## a036_036200 
+036210 - DrawStanceRightLoop                    #12994  ## a036_036210 
+036215 - DrawStanceRightLoopMove_Upper          #12995  ## a036_036215
+036220 - DrawStanceRightEnd                     #12996  ## a036_036220
+036230 - DrawStanceRightAttackLight             #12997  ## a036_036700 
+036231 - DrawStanceRightAttackLight_NoPoints    #12998  ## a036_036700
+036240 - DrawStanceRightAttackHeavy             #12999  ## a038_036400
+036241 - DrawStanceRightAttackHeavy_NoPoints    #13000  ## a038_036400
+
+#------------------------------------------------
+# a600 - Beast Claw WIP
 #------------------------------------------------
 030000 - AttackRightLight1                  #12861 ## a806_030000
 030010 - AttackRightLight2                  #12862 ## a806_030100
@@ -176,43 +191,7 @@
 036421 - AttackSpinHeavy_NoPoints   #12970  ## a028_036421
 
 #------------------------------------------------
-# Santier Spear
-#------------------------------------------------
-a036_030000 (1 HAND LIGHT #1)
-a027_030010 (1 HAND LIGHT #2)
-a050_030020 (1 HAND LIGHT #3)
-a057_030320 (1 HAND HEAVY #1 CHARGED)
-a057_030321 (1 HAND HEAVY #1 UNCHARGED)
-a027_030340 (1 HAND HEAVY #2 CHARGED)
-a027_030341 (1 HAND HEAVY #2 UNCHARGED)
-a029_030500 (1 HAND RUNNING ATTACK)
-a236_033500 (1 HAND JUMP ATTACK)
-a023_030910 (1 HAND ROLL ATTACK)
-a026_036500 (1 HAND KICK) (HKX ONLY)
-
-a101_034300 (2 HAND LIGHT #1)
-a101_034310 (2 HAND LIGHT #2)
-a101_034300 (2 HAND LIGHT #3)
-a030_034370 (2 HAND HEAVY #1 CHARGED)
-a030_034371 (2 HAND HEAVY #1 UNCHARGED)
-a038_034340 (2 HAND HEAVY #2 CHARGED)
-a038_034341 (2 HAND HEAVY #2 UNCHARGED)
-a151_030321 (2 HAND RUNNING ATTACK)
-a236_033500 (2 HAND JUMP ATTACK)
-a026_034900 (2 HAND ROLL ATTACK)
-a026_036500 (2 HAND KICK) (HKX ONLY)
-
-a036_036200 (STANCE START)
-a036_036210 (STANCE HOLD)
-a036_036215 (STANCE WALK)
-a036_036220 (STANCE END)
-a036_036700 (STANCE LIGHT)
-a036_036701 (STANCE LIGHT NO FP)
-a043_038700 (STANCE HEAVY)
-a043_038700 (STANCE HEAVY NO FP)
-
-#------------------------------------------------
-# Yorgh Spear
+# X - Silver Knight Spear
 #------------------------------------------------
 a177_030000 (1 HAND LIGHT #1)
 a050_030341 (1 HAND LIGHT #2)
