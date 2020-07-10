@@ -34,6 +34,7 @@
 - Increased the damage of some infused weapons.
 - Increased the duration of Bloodlust/Seppuku to 60 seconds.
 - Weapon Arts that apply buffs that are general (Guiding Light) or very short (Sacred Light and Flame) no longer count as weapon buffs and so won't remove other buffs.
+- Fire infusion + innate fire now only apply -1% Fire ABS per stack (was -10%).
 
 # Movesets
 - Changed Gravelord Sword: moveset now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
@@ -69,10 +70,11 @@
 # Enemies
 - Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
 - Corrupted Gundyr is now an early boss (bit stronger than Vordt).
+- Oceiros now inflicts Curse.
 
 # Spells
 - Added differing stamina costs to spells again.
-- Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 300.
+- Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 220.
 - Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
 - Changed Overwhelming Power: it is now like a walkable firestorm (uses Fire Surge animation). Lasts until you stop or run out of FP. Added lingering hitbox to the lightning ground sparks.
 - Changed Proof of a Pact: now uses the Fire Surge animation, spawns Silver Knight Ledo slightly in front of the player. Lasts until you stop or run out of FP.
@@ -122,3 +124,14 @@
 - Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
+
+# Movesets
+Add quick movement to a weapon
+
+Silver Knight Spear
+ - Add lightning buff to WA
+Silver Knight Sword
+ - Add lightning buff to WA
+
+a152
+a271

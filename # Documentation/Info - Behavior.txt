@@ -14,6 +14,8 @@ Behavior Graph (hkx)
 Behavior (hks)
  - Controls the mechanics of attacks within the greater system
  
+Multiple lists to one ID means the an ID must be added to each of these lists for full implementation (in most cases).
+
 #---------------------------------------------
 # Weapon TAE
 #---------------------------------------------
@@ -347,7 +349,15 @@ Behavior (hks)
        - WeaponEnchantRightLaunchSA
        - WeaponEnchantRightLaunch_Upper
        - WeaponEnchantRightLaunchSA_Upper
-       
+   
+#---------------------------------------------
+# Item TAE
+#---------------------------------------------
+   
+#---------------------------------------------
+# Gesture TAE
+#---------------------------------------------
+
 #---------------------------------------------
 # Common TAE
 #---------------------------------------------
@@ -495,16 +505,168 @@ Behavior (hks)
 019530 - GuardBreakMTorch
 
 # --- Movement ---
-20000 - WalkFrontLight
-20010 - WalkFrontHeavy
-20020 - WalkFrontOver
-20100 - RunFrontLight
-20110 - RunFrontHeavy
-20120 - RunFrontOver
-20200 - DashFrontLight
-20210 - DashFrontHeavy
-20220 - DashFrontOver
+020000 - WalkFrontLight
+       - WalkFrontLight_Upper
+       - WalkFrontLight_anime
+020001 - WalkBackLight
+       - WalkBackLight_Upper
+       - WalkBackLight_anime
+020002 - WalkLeftLight
+       - WalkLeftLight_Upper
+       - WalkLeftLight_anime
+020003 - WalkRightLight
+       - WalkRightLight_Upper
+       - WalkRightLight_anime
 
+020010 - WalkFrontHeavy
+       - WalkFrontHeavy_Upper
+       - WalkFrontHeavy_anime
+020011 - WalkBackHeavy
+       - WalkBackHeavy_Upper
+       - WalkBackHeavy_anime
+020012 - WalkLeftHeavy
+       - WalkLeftHeavy_Upper
+       - WalkLeftHeavy_anime
+020013 - WalkRightHeavy
+       - WalkRightHeavy_Upper
+       - WalkRightHeavy_anime
+
+020020 - WalkFrontOver
+       - WalkFrontOver_Upper
+       - WalkFrontOver_anime
+020021 - WalkBackOver
+       - WalkBackOver_Upper
+       - WalkBackOver_anime
+020022 - WalkLeftOver
+       - WalkLeftOver_Upper
+       - WalkLeftOver_anime
+020023 - WalkRightOver
+       - WalkRightOver_Upper
+       - WalkRightOver_anime
+
+020050 - RightStanceMove_Front
+       - RightStanceMove_Front00
+       - RightStanceMove_anime_Front00
+020051 - RightStanceMove_Back
+       - RightStanceMove_Back00
+       - RightStanceMove_anime_Back00
+020052 - RightStanceMove_Left
+       - RightStanceMove_Left00
+       - RightStanceMove_anime_Left00
+020053 - RightStanceMove_Right
+       - RightStanceMove_Right00
+       - RightStanceMove_anime_Right00
+
+020060 - MoveArrow_anime_Front
+       - MoveArrow_anime_Front00
+020061 - MoveArrow_anime_Back 
+       - MoveArrow_anime_Back00
+020062 - MoveArrow_anime_Left
+       - MoveArrow_anime_Left00
+020063 - MoveArrow_anime_Right
+       - MoveArrow_anime_Right00
+
+020070 - Right45StanceMove_Front00
+       - Right45StanceMove_anime_Front00
+020071 - Right45StanceMove_Back00
+       - Right45StanceMove_anime_Back00
+020072 - Right45StanceMove_Left00                 
+       - Right45StanceMove_anime_Left00
+020073 - Right45StanceMove_Right00
+       - Right45StanceMove_anime_Right00
+
+020100 - RunFrontLight
+       - RunFrontLight_Upper
+       - RunFrontLight_anime
+020101 - RunBackLight
+       - RunBackLight_Upper
+       - RunBackLight_anime
+020102 - RunLeftLight
+       - RunLeftLight_Upper
+       - RunLeftLight_anime
+020103 - RunRightLight
+       - RunRightLight_Upper
+       - RunRightLight_anime
+
+020110 - RunFrontHeavy
+       - RunFrontHeavy_Upper
+       - RunFrontHeavy_anime
+020111 - RunBackHeavy
+       - RunBackHeavy_Upper
+       - RunBackHeavy_anime
+020112 - RunLeftHeavy   
+       - RunLeftHeavy_Upper
+       - RunLeftHeavy_anime
+020113 - RunRightHeavy
+       - RunRightHeavy_Upper
+       - RunRightHeavy_anime
+
+020120 - RunFrontOver
+       - RunFrontOver_Upper
+       - RunFrontOver_anime
+020121 - RunBackOver
+       - RunBackOver_Upper
+       - RunBackOver_anime
+020122 - RunLeftOver
+       - RunLeftOver_Upper
+       - RunLeftOver_anime
+020123 - RunRightOver
+       - RunRightOver_Upper
+       - RunRightOver_anime
+
+020200 - DashFrontLight
+       - DashFrontLight_Upper
+       - DashFrontLight_anime
+
+020210 - DashFrontHeavy
+       - DashFrontHeavy_Upper
+       - DashFrontHeavy_anime
+
+020220 - DashFrontOver
+       - DashFrontOver_Upper
+       - DashFrontOver_anime
+
+022000 - WalkStopFront
+       - WalkStopFront_Upper
+022001 - WalkStopBack
+       - WalkStopBack_Upper
+022002 - WalkStopLeft
+       - WalkStopLeft_Upper
+022003 - WalkStopRight
+       - WalkStopRight_Upper
+
+022100 - RunStopFront
+       - RunStopFront_Upper
+022101 - RunStopBack
+       - RunStopBack_Upper
+022102 - RunStopLeft
+       - RunStopLeft_Upper
+022103 - RunStopRight
+       - RunStopRight_Upper
+
+022200 - DashStop
+       - DashStop_Upper
+
+023000 - GuardOnWalk
+023010 - GuardOnHeavyWalk
+023020 - GuardOnSmallWalk
+023030 - GuardOnTorchWalk
+
+023100 - GuardOnRun
+023110 - GuardOnHeavyRun
+023120 - GuardOnSmallRun
+023130 - GuardOnTorchRun
+
+023200 - GuardOnDash
+023210 - GuardOnHeavyDash
+023220 - GuardOnSmallDash
+023230 - GuardOnTorchDash
+
+024000 - MoveCultWalk
+       - MoveCultWalk_Upper
+024100 - MoveCultRun
+       - MoveCultRun_Upper
+       
 # --- Other ---
 040021 - Throw40021
 040633 - Throw40633
