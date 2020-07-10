@@ -80,11 +80,24 @@
 - Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
 - Changed Overwhelming Power: it is now like a walkable firestorm (uses Fire Surge animation). Lasts until you stop or run out of FP. Added lingering hitbox to the lightning ground sparks.
 - Changed Proof of a Pact: now uses the Fire Surge animation, spawns Silver Knight Ledo slightly in front of the player. Lasts until you stop or run out of FP.
-- Increased FP cost of Dark Dance to 650.
 - Added Ghostly Assault: summons a group of 5 ghostly archers that will each fire 3 times until disappearing. Dropped by the Judicator at the start of the Ringed City.
 - Reduced Soul Stream damage to 200 per tick (was 250)
 - Reduced the melee damage portion of the Lightning Spear spells.
 - Increased Lightning Arrow damage to 150.
+- Increased Farron Flashsword damage to 200.
+- Increased Soul Greatsword damage to 400.
+- Increased Old Moonlight damage to 800 charged, 200 on sword.
+- Increased Snap Freeze frost inflict to 50 per tick, removed the additional clouds.
+- Increased Flame Fan damage to 300.
+- Increased Great Combustion damage to 600.
+- Increased Profaned Flame damage to 600.
+- Increased Wrath of the Gods damage to 600.
+- Increased Emit Force damage to 300 [100].
+- Increased Lightning Stake damage to 700.
+- Increased Dark Edge damage to 250.
+- Increased Abyssal Edge damage to 500.
+- Increased Black Flame damage to 600.
+- Increased FP cost of Dark Dance to 650, decreased damage to 180 per bullet.
 
 # Rings
 - Ring of Momentum quicksteps now cost 20 stamina.

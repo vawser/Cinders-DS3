@@ -138,7 +138,7 @@ Divine Pillars of Light
 # Farron Flashsword
 #--------------------------------
 - FP Cost: 100
-- Magic Damage: 120
+- Magic Damage: 200
 - INT Req: 10
 - Ascended Effect: increases poise damage.
 
@@ -244,7 +244,7 @@ Divine Pillars of Light
 # Soul Greatsword
 #--------------------------------
 - FP Cost: 200
-- Magic Damage: 300
+- Magic Damage: 400
 - INT Req: 25
 - Ascended Effect: costs 160 FP.
 
@@ -252,7 +252,7 @@ Divine Pillars of Light
 # Old Moonlight
 #--------------------------------
 - FP Cost: 300
-- Magic Damage: 400 (500 charged) [100]
+- Magic Damage: 400 (800 charged) [200]
 - INT Req: 40
 - Ascended Effect: charged cast deals much more poise damage and causes stagger to floor animation.
 
@@ -302,7 +302,7 @@ Divine Pillars of Light
 #--------------------------------
 - FP Cost: 200
 - INT Req: 20
-- Base Effect: summons patch that deals 20 Frost per tick. Lasts 5 seconds.
+- Base Effect: summons patch that deals 50 Frost per tick. Lasts 5 seconds.
 - Ascended Effect: extends duration to 10 seconds.
 
 #--------------------------------
@@ -458,14 +458,14 @@ Divine Pillars of Light
 # Fireball
 #--------------------------------
 - FP Cost: 120
-- Fire Damage: 150
+- Fire Damage: 150 [50]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 180
-- Fire Damage: 300
+- Fire Damage: 300 [100]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
@@ -486,14 +486,14 @@ Divine Pillars of Light
 # Great Combustion
 #--------------------------------
 - FP Cost: 200
-- Fire Damage: 500
+- Fire Damage: 600 [200]
 - Ascended Effect: deals more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 280
-- Fire Damage: 450 [350] 
+- Fire Damage: 450 [200] [350] 
 - Ascended Effect: extends the duration of the lava pool to 8 seocnds.
 
 #--------------------------------
@@ -514,14 +514,14 @@ Divine Pillars of Light
 # Profaned Flame
 #--------------------------------
 - FP Cost: 320
-- Fire Damage: 500
+- Fire Damage: 600
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 350
-- Fire Damage: 500
+- Fire Damage: 500 [200]
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
@@ -718,7 +718,7 @@ Divine Pillars of Light
 # Emit Force
 #--------------------------------
 - FP Cost: 220
-- Physical Damage: 250 [50] 
+- Physical Damage: 300 [100] 
 - FTH Req: 10
 - Ascended Effect: gains Farron Dart cast animation.
 
@@ -726,7 +726,7 @@ Divine Pillars of Light
 # Wrath of the Gods
 #--------------------------------
 - FP Cost: 350
-- Physical Damage: 500
+- Physical Damage: 600
 - FTH Req: 30
 - Ascended Effect: gains Force cast animation.
 
@@ -742,7 +742,7 @@ Divine Pillars of Light
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 280
-- Lightning Damage: 300 [50] [150] 
+- Lightning Damage: 300 [100] [150] 
 - FTH Req: 30
 - Ascended Effect: increases poise damage and tracking.
 
@@ -750,7 +750,7 @@ Divine Pillars of Light
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 350
-- Lightning Damage: 500 [50] [250] 
+- Lightning Damage: 500 [200] [250] 
 - FTH Req: 40
 - Ascended Effect: increases poise damage and tracking.
 
@@ -774,7 +774,7 @@ Divine Pillars of Light
 # Lightning Stake
 #--------------------------------
 - FP Cost: 380
-- Lightning Damage: 600 [100] 
+- Lightning Damage: 700 [100] 
 - FTH Req: 30
 - Ascended Effect: costs 350 FP.
 
@@ -1032,7 +1032,7 @@ Divine Pillars of Light
 # Dark Edge
 #--------------------------------
 - FP Cost: 120
-- Dark Damage: 120 
+- Dark Damage: 250
 - INT Req: 10
 - FTH Req: 6
 - Ascended Effect: costs 100 FP.
@@ -1080,7 +1080,7 @@ Divine Pillars of Light
 # Abyssal Edge
 #--------------------------------
 - FP Cost: 200
-- Dark Damage: 300  
+- Dark Damage: 500  
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: increases Poise damage to 100, gains Faceplant stagger.
@@ -1218,7 +1218,7 @@ Divine Pillars of Light
 # Black Flame
 #--------------------------------
 - FP Cost: 200
-- Dark Damage: 500 
+- Dark Damage: 600 [200]
 - Ascended Effect: increases poise damage and uses push stagger animation.
 
 #--------------------------------
@@ -1232,7 +1232,7 @@ Divine Pillars of Light
 # Dark Dance  
 #--------------------------------
 - FP Cost: 650
-- Dark Damage: 200 {*4, individual}
+- Dark Damage: 180 {*4, individual}
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
