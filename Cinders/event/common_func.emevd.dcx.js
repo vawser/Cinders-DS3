@@ -4982,6 +4982,10 @@ Event(20020000, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200100);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200300);
 });
 
 //----------------------------------------------
@@ -5030,6 +5034,10 @@ Event(20020001, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200100);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200300);
 });
 
 //----------------------------------------------
@@ -5078,6 +5086,10 @@ Event(20020002, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200100);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200300);
 });
 
 //----------------------------------------------
@@ -5126,6 +5138,10 @@ Event(20020003, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200110);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200310);
 });
 
 //----------------------------------------------
@@ -5174,6 +5190,10 @@ Event(20020004, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200110);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200310);
 });
 
 //----------------------------------------------
@@ -5222,6 +5242,10 @@ Event(20020005, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5270,6 +5294,10 @@ Event(20020006, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200100);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200300);
 });
 
 //----------------------------------------------
@@ -5318,6 +5346,10 @@ Event(20020007, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200110);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200310);
 });
 
 //----------------------------------------------
@@ -5366,6 +5398,10 @@ Event(20020008, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5414,6 +5450,10 @@ Event(20020009, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -5462,6 +5502,10 @@ Event(20020010, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -5510,6 +5554,10 @@ Event(20020011, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5558,6 +5606,10 @@ Event(20020012, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5606,6 +5658,10 @@ Event(20020013, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5654,6 +5710,10 @@ Event(20020014, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200100);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200300);
 });
 
 //----------------------------------------------
@@ -5702,6 +5762,10 @@ Event(20020015, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -5750,6 +5814,10 @@ Event(20020016, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200120);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200320);
 });
 
 //----------------------------------------------
@@ -5798,6 +5866,10 @@ Event(20020017, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -5846,6 +5918,10 @@ Event(20020018, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200140);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200340);
 });
 
 //----------------------------------------------
@@ -5894,6 +5970,10 @@ Event(20020019, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200140);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200340);
 });
 
 //----------------------------------------------
@@ -5942,6 +6022,10 @@ Event(20020020, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -5990,6 +6074,10 @@ Event(20020021, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
 });
 
 //----------------------------------------------
@@ -6038,6 +6126,10 @@ Event(20020022, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200140);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200340);
 });
 
 //----------------------------------------------
@@ -6086,6 +6178,10 @@ Event(20020023, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200140);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200340);
 });
 
 //----------------------------------------------
@@ -6134,6 +6230,10 @@ Event(20020024, Default, function() {
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
     AwardItemLot(800200130);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
+    AwardItemLot(800200330);
     
 });
 
@@ -6701,6 +6801,10 @@ Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
     // Curse of Enfeeblement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
+    AwardItemLot(X4_4);
+    
+    // Curse of Impermanence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
     AwardItemLot(X12_4);
 });
 

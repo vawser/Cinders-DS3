@@ -42,6 +42,7 @@
 - Changed Beast Cutter: now uses a new moveset and the segemented model.
 - Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 30 seconds.
 - Changed Phosphorescent Pole: has a new moveset based on suggestions.
+- Greatsword Heavy #1 changed back to original.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
@@ -55,6 +56,7 @@
 - Added Mark of Piscis: adds crabs to Road of Sacrifices/Farron Keep. Disables most of the regular enemies.
 - Added Curse of Simplicity: removes the passive FP regen, boosts soul gain by 5%, primordial titanite chance of 10%.
 - Added Curse of Enfeeblement: reduces max HP/FP/Stamina by 50%, boosts soul gain by 10%, primordial titanite chance of 50%.
+- Added Curse of Impermanence: reduces weapon durability by 1 randomly (10 to 30 second interval), boosts soul gain by 5%, primordial titanite chance of 10%.
 
 # FP
 - Reduced the base FP regen to 3% per second (was 5%).
@@ -107,6 +109,7 @@
 - Fixed companion HP regen being 100% per second rather than 1%.
 - Murky Warstaff 1H/2H Kick now connects.
 - Reversal Ring should be fixed.
+- Fixed Black Knight weapons doing more anti-demon damage than intended.
 
 #------------------------------
 # TODO
@@ -135,3 +138,4 @@ Silver Knight Sword
 
 a152
 a271
+

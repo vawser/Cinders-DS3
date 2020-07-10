@@ -1679,6 +1679,7 @@ Event(400001, Default, function() {
     InitializeEvent(6, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
     InitializeEvent(7, 400021, 25000005, 250001500, 250001501); // Curse of Simplicity
     InitializeEvent(8, 400021, 25000009, 250001800, 250001801); // Curse of Enfeeblement
+    InitializeEvent(9, 400021, 25000020, 250001900, 250001901); // Curse of Impermanence
     
     // Marks - Enable
     InitializeEvent(10, 400021, 25000100, 250003000, 250003001); // Mark of Sanguis
@@ -1695,11 +1696,15 @@ Event(400001, Default, function() {
     InitializeEvent(6, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
     InitializeEvent(7, 400022, 25000005, 250001500, 250001501); // Curse of Simplicity
     InitializeEvent(8, 400022, 25000009, 250001800, 250001801); // Curse of Enfeeblement
+    InitializeEvent(9, 400022, 25000020, 250001900, 250001901); // Curse of Impermanence
     
     // Marks - Disable
     InitializeEvent(10, 400022, 25000100, 250003000, 250003001); // Mark of Sanguis
     InitializeEvent(11, 400022, 25000101, 250003100, 250003101); // Mark of Canis
     InitializeEvent(11, 400022, 25000102, 250003200, 250003201); // Mark of Piscis
+    
+    // Curse of Impermanence
+    InitializeEvent(0, 400120, 10000, 250001900, 25000190, 250001903);
     
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
@@ -1724,7 +1729,7 @@ Event(400001, Default, function() {
     
     // Weapons
     InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
-    
+
     // Rings
     InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
     InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
@@ -2413,6 +2418,19 @@ Event(400110, Default, function() {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     ClearSpeffect(10000, 130134101);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Curse Effect at Random Interval
+Event(400120, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    SetSpeffect(X0_4, X8_4);
+    SetSpeffect(X0_4, X12_4);
+    
+    WaitRandomTimeSeconds(10, 30);
     
     EndUnconditionally(EventEndType.Restart);
 });
