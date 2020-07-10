@@ -43,6 +43,7 @@
 - Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 30 seconds.
 - Changed Phosphorescent Pole: has a new moveset based on suggestions.
 - Greatsword Heavy #1 changed back to original.
+- Censuring Palm now increases the speed of movement by 20% whilst in the right-hand.
 
 # Classes
 - Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.

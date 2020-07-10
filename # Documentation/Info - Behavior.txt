@@ -17,6 +17,57 @@ Behavior (hks)
 Multiple lists to one ID means the an ID must be added to each of these lists for full implementation (in most cases).
 
 #---------------------------------------------
+# hkbClipGenerator
+#---------------------------------------------
+variableBindingSet          -
+userData                    -
+name                        -
+animationBundleName         -
+animationName               -
+triggers                    -
+userPartitionMask           -
+cropStartAmountLocalTime    -
+cropEndAmountLocalTime      -
+startTime                   -
+playbackSpeed               -
+enforcedDuration            -
+userControlledTimeFraction  -
+animationBindingIndex       -
+mode                        - Mode of the clip:
+                                - MODE_SINGLE_PLAY
+                                - MODE_LOOPING
+                                - MODE_USER_CONTROLLED
+flags                       - Flags for the clip
+
+#---------------------------------------------
+# CustomManualSelectorGenerator
+#---------------------------------------------
+variableBindingSet                  -
+userData                            -
+name                                -
+generators                          - List of hkbClipGenerator IDs
+offsetType                          - Determines how the TAE offset is handled:
+                                        - IdleCategory - Ignore TAE, use base a000 offset only
+                                        - WeaponCategoryRight - Use TAE, only whilst in right hand
+                                        - WeaponCategoryLeft - Use TAE, only whilst in left hand
+                                        - WeaponCategoryHandStyle
+                                        - OffsetNone
+animID                              -
+animeEndEventType                   -
+                                        - None
+                                        - FireNextStateEvent
+                                        - FireIdleEvent
+enableScript                        - Enable script usage.
+enableTae                           - Enable TAE offset usage.
+changeTypeOfSelection               -
+                                        - NONE
+                                        - SELF_TRANSITION
+                                        - UPDATE
+generatorChangedTransitionEffect    -
+checkAnimEndSlotNo                  -
+replanningAI                        -
+
+#---------------------------------------------
 # Weapon TAE
 #---------------------------------------------
 # --- Right Hand ---
