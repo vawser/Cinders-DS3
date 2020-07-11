@@ -1,0 +1,139 @@
+﻿This tutorial is for Dark Souls III specifically, although some aspects may be similar or the same in the other games.
+
+++ Tools
+To complete this tutorial, the following tools are needed:
+- HKXPack
+- DS Anim Studio
+- Yabber
+- Yapped
+- Notepad++ or any other text editor.
+
+++ Glossary
+TAE: Time Action Event, this is what controls the various events during an animation, such as sound, visual effects and the period when an attack is active.
+
+Weapon Moveset Category: a field in a weapon row in the EquipParamWeapon param. Defines the 'base' moveset used by the weapon.
+
+Weapon Override Category: a field in a weapon row in the EquipParamWeapon param. Defines the 'override' moveset used by the weapon. This means it only includes changes that will override the 'base' moveset.
+
+++ Adding a Moveset
+This tutorial will outline the method needed to add a new move. This can be extrapolated to add a new moveset.
+
+Typically it is possible to make use of the existing TAE entries for movesets. However, if differing animation speeds or unique arrangements are what are required, adding a new TAE ID is required.
+
+In this tutorial a new TAE ID will be created that will contain a 1H Greatsword R1 TAE entry. This ID can be used in the "Weapon Override Category" field to override any base moveset, replacing the first R1 animation with the 1H Greatsword R1 animation.
+
+++ Adding a new TAE ID
+To add a new TAE ID, it needs to be added to the c0000.anibnd.dcx. This is the file that contains all the TAE used by the player.
+
+Unpack the c0000.anibnd.dcx by dropping it on the Yabber.exe. This will output a folder called "c0000-anibnd-dcx", which is where the edits are made.
+
+Edit the "_yabber-bnd4.xml" file with the "c0000-anibnd-dcx" folder, adding a new file definition like so:
+
+[[code]]
+<file>
+  <id>5000271</id>
+  <root>N:\FDP\data\INTERROOT_win64\</root>
+  <path>chr\c0000\tae\a271.tae</path>
+  <flags>0x40</flags>
+</file>
+[[/code]]
+
+In this tutorial the new TAE ID will be 271. This is the number to change when adding more TAE IDs, both in the id and path section.
+
+Navigate to the \chr\c0000\tae folder within the "c0000-anibnd-dcx". Duplicate an existing TAE file, such as a157.tae and rename it to a217.tae.
+
+Repack the "c0000.anibnd.dcx" folder by dropping the folder on the Yabber.exe. This will repack the c0000.anibnd.dcx with the new additions.
+
+++ Editing the TAE
+Open the edited c0000.anibnd.dcx with DS Anim Studio. The c0000.anibnd.dcx will need to be placed in the base game chr folder for DS Anim Studio to work correctly.
+
+Once opened, navigate to the a271.tae section in DS Anim Studio. This is the new TAE ID that was just added to the c0000.anibnd.dcx.
+
+In this tutorial, only the a271_030000 sub-ID is needed. If this is missing from the list, edit one of the existing entries by pressing F3 with it selected. Change the Animation Sub-ID to 030000, and make sure the Mini-Header Type is Standard, nothing is in the Import From field and none of the tickboxes are checked.
+
+Outside of this tutorial, if more entries are needed, they can be added by pressing the Insert button on your keyboard.
+
+Delete all the other entries within the a271 section if any are present. This is done by pressing F3 and the Delete Anim... button.
+
+++ Adding the new TAE
+The a271 section is now ready to be edited. In this tutorial the 1H Light R1 move (03000) will be edited to match the 1H Greatsword R1 move.
+
+To do this, select the a271_03000 entry and press F3. In the Import From field, add "a025_030000" and tick the Import Events and Import HKX checkbox. This is referencing the a025_030000 entry and imports its events and animation into the a271_030000 entry.
+
+The extent of how TAE can be edited is wide and too large for this tutorial to cover adequately. This tutorial covers the basics of duplicating an existing entry, but perhaps custom event edits are wanted.
+
+To do this, only tick the Import HKX checkbox. This will result in only the animation being present and nothing in the event graph. The events will need to be copied from the original entry and then edited as suited.
+
+++ Adding the Move
+Initially it may seem only the TAE ID must be added. However, if tested in-game you will discover that the new TAE ID isn't being used. This is because all new TAE IDs must be added to the c0000.behbnd.dcx.
+
+Unpack the c0000.behbnd.dcx by dropping it on the Yabber.exe. This will output a folder called "c0000-anibnd-dcx", which is where the edits are made.
+
+Navigate to the \Action\c0000\Export\Behaviors folder within the "c0000-behbnd-dcx". Unpack the c0000.hkx by dropping it on the hkxpackds3.exe. This will unpack the file and output "c0000.xml", which can be edited.
+
+++ Editing the Behavior Graph
+Opening the c0000.xml can be intimidating, as it contains the entire behavior graph used for the player character.
+
+To add the new move, a new hkbClipGenerator must be added and it's name needs to be added to the relevant CustomManualSelectorGenerator, which is a list of valid clips.
+
+Here is an example of what the new hkbClipGenerator for the TAE entry that was added earlier should look like.
+
+[[code]]
+<hkobject class="hkbClipGenerator" name="#13000" signature="0xd4cc9f6">
+    <hkparam name="variableBindingSet">null</hkparam>
+    <hkparam name="userData">0</hkparam>
+    <hkparam name="name">a271_030000_hkx_AutoSet_00</hkparam>
+    <hkparam name="animationBundleName"/>
+    <hkparam name="animationName">a271_030000</hkparam>
+    <hkparam name="triggers">null</hkparam>
+    <hkparam name="userPartitionMask">0</hkparam>
+    <hkparam name="cropStartAmountLocalTime">0.0</hkparam>
+    <hkparam name="cropEndAmountLocalTime">0.0</hkparam>
+    <hkparam name="startTime">0.0</hkparam>
+    <hkparam name="playbackSpeed">1.0</hkparam>
+    <hkparam name="enforcedDuration">0.0</hkparam>
+    <hkparam name="userControlledTimeFraction">0.0</hkparam>
+    <hkparam name="animationBindingIndex">65535</hkparam>
+    <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+    <hkparam name="flags">0</hkparam>
+</hkobject>
+[[/code]]
+
+The name ID should be sequential, following on from the last name at the bottom of the c0000.xml. 
+
+The name field should contain the animation sub-ID of the TAE entry, which in this case is a271_030000.
+
+The animationName field should match the animation sub-ID of the TAE entry, which in this case is a271_030000.
+
+The playbackSpeed field controls the speed of the animation. 1.0 being 100% of original speed.
+
+++ Adding the new Behavior
+Once the clip has been defined, it must be added to a CustomManualSelectorGenerator list, which is what links the TAE entry to the actual move in-game.
+
+In this tutorial, navigate to the "AttackRightLight1_CMSG" CustomManualSelectorGenerator list in the c0000.xml. This will contain a list of name IDs under the generators field.
+
+Add the name ID of the new clip to this list (#13000). Change the numelements field to match the new number of elements in the list.
+
+++ Final Steps
+Once the c0000.xml has been edited, repack it by dropping it on the hkxpackds3.exe. Then repack the c0000.behbnd.dcx by dropping it on the Yabber.exe.
+
+Copy both the edited c0000.anibnd.dcx and c0000.behbnd.dcx into your mod folder. Ensure that they are in the chr folder within your mod folder.
+
+Edit the Dagger rows in EquipParamWeapon (1000000), changing the Moveset Override Category field to 271.
+
+Load the mod and you will now see that the Dagger uses the 1H Greatsword R1 animation for its first R1.
+
+++ Tips for the Future
+Here are a few tips for future moveset edits:
+
+- Only add new TAE IDs to the a000 to a299 range, or the a600 to a999 range. The female 'state' offsets the current TAE ID by 300, so adding new TAE IDs in the a300 to a599 range will cause issues if the new TAE isn't intended to be a female-only replacement.
+
+- Within the c0000.xml the CustomManualSelectorGenerator have an offsetType. This determines how the game loads TAE for that list. 
+
+If it is set to IdleCategory, the game will only load TAE overrides from the "Weapon Hold Position - 1H" and "Weapon Hold Position - 2H" fields in a EquipParamWeapon row.
+
+However if it is set to WeaponCategoryRight, the game will load from the "Moveset Override Category" field.
+
+This means if you want to edit something like the movement animations, that must be done via a new TAE ID that is used in the Hold fields, and not in the main override TAE.
+
+- The Hold fields have an max TAE ID of 255, so new TAE IDs that are intended for those fields need to be below that.

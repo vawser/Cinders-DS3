@@ -92,16 +92,27 @@
 034900 - AttackBothLightStep        #13032 ## a042_030900
 
 #------------------------------------------------
-# a272 - Silver Knight Spear
+# X - Bewitched Alonne Sword
 #------------------------------------------------
-#13034
+033000 - AttackBothLeft1            #13034 ## a050_030000
+033010 - AttackBothLeft2            #13035 ## a050_030010
+033020 - AttackBothLeft3            #13036 ## a050_030020
+
+034000 - AttackBothLight1           #13037 ## a232_034000
+034010 - AttackBothLight2           #13038 ## a232_034010
+034020 - AttackBothLight3           #13039 ## a232_034020
+        
+#------------------------------------------------
+# X - Silver Knight Spear
+#------------------------------------------------
+
 
 #------------------------------------------------
-# a273 - Silver Knight Sword
+# X - Silver Knight Sword
 #------------------------------------------------
 
 #------------------------------------------------
-# a274 - Ancient Dragon Halberd
+# X - Ancient Dragon Halberd
 #------------------------------------------------
 2H Light Attack: Friede’s Great Scythe 2H Light Attack
 WA: Neck Swipe 
@@ -111,7 +122,7 @@ The IDs:
 WA: ao50_038300
 
 #------------------------------------------------
-# a275 - Scythe of Want
+# X - Scythe of Want
 #------------------------------------------------
 The Suggestions:
 1H Light Attack: Black Knight Greataxe 1H Light Attack (Sped up to ~1.3x Speed)

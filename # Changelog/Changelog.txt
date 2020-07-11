@@ -30,113 +30,13 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Increased the damage of some infused weapons.
-- Increased the duration of Bloodlust/Seppuku to 60 seconds.
-- Weapon Arts that apply buffs that are general (Guiding Light) or very short (Sacred Light and Flame) no longer count as weapon buffs and so won't remove other buffs.
-- Fire infusion + innate fire now only apply -1% Fire ABS per stack (was -10%).
 
-# Movesets
-- Changed Gravelord Sword: moveset now has slower versions of the normal Curved Sword Light attacks, and the forward poke thrust as its heavy attacks.
-- Changed Penetrating Sword: added new moveset based on suggestions.
-- Changed Beast Cutter: now uses a new moveset and the segemented model.
-- Changed Tonitrus: now has the mace moveset and no longer does lightning damage by default. WA is now Spark which adds 100 Lightning damage + vfx and the warcry heavy attacks when used, lasting 30 seconds.
-- Changed Phosphorescent Pole: has a new moveset based on suggestions.
-- Greatsword Heavy #1 changed back to original.
-- Censuring Palm now increases the speed of movement by 20% whilst in the right-hand.
-
-# Classes
-- Reduced some of the stats for the Sentinel, Bandit, Hunter and Paladin. Reduced the weapon requirements for their weapons to fit.
-- Added Jester class.
-
-# Curses
-- Split the world altering Curses into a separate menu, now called Marks.
-- Marks may be global or unique to specific levels. If they are unique to a specific level, the soul absorption bonus is only active whilst in that level.
-- Curse of Attraction is now called Mark of Sanguis.
-- Added Mark of Canis: adds dogs to the High Wall of Lothric. Disables most of the regular enemies.
-- Added Mark of Piscis: adds crabs to Road of Sacrifices/Farron Keep. Disables most of the regular enemies.
-- Added Curse of Simplicity: removes the passive FP regen, boosts soul gain by 5%, primordial titanite chance of 10%.
-- Added Curse of Enfeeblement: reduces max HP/FP/Stamina by 50%, boosts soul gain by 10%, primordial titanite chance of 50%.
-- Added Curse of Impermanence: reduces weapon durability by 1 randomly (10 to 30 second interval), boosts soul gain by 5%, primordial titanite chance of 10%.
-
-# FP
-- Reduced the base FP regen to 3% per second (was 5%).
-
-# Trial
-- Reduced enemy damage to *1.25 (was *2).
-- Made the rocky outcrops in the arena unbreakable whilst the Trial is active, so they can provide cover.
-
-# Spells
-- Added differing stamina costs to spells again.
-- Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 220.
-- Changed Immolation: summons fire pillars around the player that hit enemies and the player alike.
-- Changed Overwhelming Power: it is now like a walkable firestorm (uses Fire Surge animation). Lasts until you stop or run out of FP. Added lingering hitbox to the lightning ground sparks.
-- Changed Proof of a Pact: now uses the Fire Surge animation, spawns Silver Knight Ledo slightly in front of the player. Lasts until you stop or run out of FP.
-- Added Ghostly Assault: summons a group of 5 ghostly archers that will each fire 3 times until disappearing. Dropped by the Judicator at the start of the Ringed City.
-- Reduced Soul Stream damage to 200 per tick (was 250)
-- Reduced the melee damage portion of the Lightning Spear spells.
-- Increased Lightning Arrow damage to 150.
-- Increased Farron Flashsword damage to 200.
-- Increased Soul Greatsword damage to 400.
-- Increased Old Moonlight damage to 800 charged, 200 on sword.
-- Increased Snap Freeze frost inflict to 50 per tick, removed the additional clouds.
-- Increased Flame Fan damage to 300.
-- Increased Great Combustion damage to 600.
-- Increased Profaned Flame damage to 600.
-- Increased Wrath of the Gods damage to 600.
-- Increased Emit Force damage to 300 [100].
-- Increased Lightning Stake damage to 700.
-- Increased Dark Edge damage to 250.
-- Increased Abyssal Edge damage to 500.
-- Increased Black Flame damage to 600.
-- Increased FP cost of Dark Dance to 650, decreased damage to 180 per bullet.
-- Repel now costs 500 FP, lasts 2 seconds, 3 seconds when ascended.
-- Soul Stream ascended effect no longer increases duration, now reduces stamina cost to 40.
-- Reduced Climax damage to 400.
-
-# Rings
-- Ring of Momentum quicksteps now cost 20 stamina.
-
-# Items
-- The cosmetic stones now apply the VFX to both hands.
-
-# NPCs
-- Added Magnum Ursus: this NPC hosts the Mark system and is used to toggle them. Found in Firelink Shrine.
-- Companions now have cycling target priority: 3 seconds on, 7 seconds off. This means enemies won't target them 100% of the time.
-- Made the merchants actually killable.
-
-# Enemies
-- Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
-- Corrupted Gundyr is now an early boss (bit stronger than Vordt).
-- Oceiros now inflicts Curse.
-
-# Map
-- Changed the Titanite Chunks in the Cemetery of Ash area after Corrupted Gundyr into Titanite Shards.
-- Replaced the Titanite Slab treasure in the Cemetery of Ash area with the Company of Champions treasure.
-
-# Bugfixes
-- Serpentine Orbs should now always use 5 orbs.
-- Smouldering Talisman Immolate WA now matchs Immolation (but lasts 6 seconds).
-- Dragonrider can no longer be parried.
-- Fixed some localization bugs.
-- Mimics/Sister Friede/Stray Demon now only have 50% Flick absorption, which means certain types of attacks will now do 50% damage against them (used to be 0%).
-- The invader script should no longer display the invade message outside of the trigger area in odd circumstances.
-- Paladin/Captain no longer have 2 extra levels.
-- Added DLC flag check to the Dreg Heap/Ariandel in-map warps. The prompts will no longer appear if you lack the correct DLC.
-- Alva's set will now spawn when you kill him (was checking for the old event flag).
-- Fixed companion HP regen being 100% per second rather than 1%.
-- Murky Warstaff 1H/2H Kick now connects.
-- Reversal Ring should be fixed.
-- Fixed Black Knight weapons doing more anti-demon damage than intended.
-- Fixed Blue Sentinels effect not staying active.
-- Dragon Cultists are now actually in dragonform.
-- Fixed Abandoned Tomb bonfire missing its spawnpoint.
-- Champion Gundyr now faces the fog wall.
+# Bosses
+- Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
 
 #------------------------------
-# TODO
-#------------------------------
 # Movesets
+#------------------------------
 Silver Knight Spear
  - Add lightning buff to WA
  
@@ -147,6 +47,9 @@ Ancient Dragon Halberd
 
 Scythe of Want
 
+#------------------------------
+# TODO
+#------------------------------
 - Add Gravelord FFX, add Gravelord Sword Dance
 - Add praise the sun anim to solaire summon
 
@@ -161,3 +64,98 @@ Scythe of Want
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
 
+# Movement
+#529
+#530
+#531
+#532
+#533
+#534
+
+#538
+#539
+#540
+#541
+#542
+#543
+
+#547
+#548
+#549
+#550
+#551
+#552
+
+#556
+#557
+#558
+#559
+#560
+#561
+
+#617
+#618
+#619
+#620
+#621
+#622
+
+# Dash Attack
+#773
+#774
+#775
+#776
+#777
+#778
+
+#861
+#862
+#863
+#864
+#865
+#866
+
+#869
+#870
+#871
+#872
+#873
+#874
+
+#877
+#878
+#879
+#880
+#881
+#882
+
+#885
+#886
+#887
+#888
+#889
+#890
+
+# Hand Smash
+#805
+#806
+#807
+#808
+#809
+#810
+
+# Breath
+#893
+#894
+#895
+#896
+#897
+#898
+
+# Side Swipe
+#901
+#902
+#903
+#904
+#905
+#906
