@@ -270,7 +270,7 @@ Divine Pillars of Light
 - FP Cost: 800
 - Magic Damage: 200 {*10, individual}
 - INT Req: 40
-- Ascended Effect: stream lasts for 3 seconds (normally 1).
+- Ascended Effect: reduces stamina cost to 40.
 
 #--------------------------------
 # Blizzard
@@ -1061,7 +1061,7 @@ Divine Pillars of Light
 # Climax
 #--------------------------------
 - FP Cost: 350
-- Dark Damage: 500 
+- Dark Damage: 400 
 - INT Req: 40
 - FTH Req: 10
 - Ascended Effect: speeds up the projectile massively, increases poise damage.
@@ -1168,11 +1168,11 @@ Divine Pillars of Light
 #--------------------------------
 # Repel
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 500
 - INT Req: 32
 - FTH Req: 10
-- Base Effect: increases absorption to 100% for 3 seconds
-- Ascended Effect: lasts for 5 seconds.
+- Base Effect: increases absorption to 100% for 2 seconds
+- Ascended Effect: lasts for 3 seconds.
 
 #--------------------------------
 # Numbness

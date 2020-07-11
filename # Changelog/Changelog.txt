@@ -90,6 +90,9 @@
 - Increased Abyssal Edge damage to 500.
 - Increased Black Flame damage to 600.
 - Increased FP cost of Dark Dance to 650, decreased damage to 180 per bullet.
+- Repel now costs 500 FP, lasts 2 seconds, 3 seconds when ascended.
+- Soul Stream ascended effect no longer increases duration, now reduces stamina cost to 40.
+- Reduced Climax damage to 400.
 
 # Rings
 - Ring of Momentum quicksteps now cost 20 stamina.
@@ -128,6 +131,7 @@
 - Fixed Blue Sentinels effect not staying active.
 - Dragon Cultists are now actually in dragonform.
 - Fixed Abandoned Tomb bonfire missing its spawnpoint.
+- Champion Gundyr now faces the fog wall.
 
 #------------------------------
 # TODO
