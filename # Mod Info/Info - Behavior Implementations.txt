@@ -89,7 +89,43 @@
 034900 - AttackBothLightStep        #13032 ## a042_030900
 
 #------------------------------------------------
-# X - Silver Knight Spear
+# a272 - Silver Knight Spear
+#------------------------------------------------
+#13034
+
+#------------------------------------------------
+# a273 - Silver Knight Sword
+#------------------------------------------------
+
+#------------------------------------------------
+# a274 - Ancient Dragon Halberd
+#------------------------------------------------
+2H Light Attack: Friede’s Great Scythe 2H Light Attack
+WA: Neck Swipe 
+
+The IDs:
+2H Light Attack: a232_034000--> a232_034010--> a232_034020
+WA: ao50_038300
+
+#------------------------------------------------
+# a275 - Scythe of Want
+#------------------------------------------------
+The Suggestions:
+1H Light Attack: Black Knight Greataxe 1H Light Attack (Sped up to ~1.3x Speed)
+1H Strong Attack: Scimitar 1H Strong Attack
+2H Strong Attack: Scimitar 2H Strong Attack (Optional Change)
+WA: Warcry (Greataxe) Including the special 1H and 2H Strong Attacks
+
+The IDs:
+1H Light Attack: a107_030000--> a107_030010--> a107_030020 (at ~1.3x speed)
+1H Strong Attack: a101_030320/ a101_030321-->a101_030340/ a101_030341
+2H Strong Attack: a101_034320/ a101_034321-->a101_034340/ a101_034341
+WA: a032_037670/a032_037671
+WA 1H Special Strong Attack: a032_030350/ a032_030351--> a032_030370/a032_030371
+WA 2H Special Strong Attack: a032_034350/ a032_034351--> a032_034370/a032_034371
+
+#------------------------------------------------
+# X - Spear Moveset
 #------------------------------------------------
 a177_030000 (1 HAND LIGHT #1)
 a050_030341 (1 HAND LIGHT #2)
@@ -119,37 +155,6 @@ a038_036400 (SPIN SWEEP START)
 a038_036401 (SPIN SWEEP START NO FP)
 a243_037710 (SPIN SWEEP FOLLOW UP)
 a243_037711 (SPIN SWEEP FOLLOW UP NO FP)
-
-#------------------------------------------------
-# X - Silver Knight Sword
-#------------------------------------------------
-
-#------------------------------------------------
-# X - Ancient Dragon Halberd
-#------------------------------------------------
-2H Light Attack: Friede’s Great Scythe 2H Light Attack
-WA: Neck Swipe 
-
-The IDs:
-2H Light Attack: a232_034000--> a232_034010--> a232_034020
-WA: ao50_038300
-
-#------------------------------------------------
-# X - Scythe of Want
-#------------------------------------------------
-The Suggestions:
-1H Light Attack: Black Knight Greataxe 1H Light Attack (Sped up to ~1.3x Speed)
-1H Strong Attack: Scimitar 1H Strong Attack
-2H Strong Attack: Scimitar 2H Strong Attack (Optional Change)
-WA: Warcry (Greataxe) Including the special 1H and 2H Strong Attacks
-
-The IDs:
-1H Light Attack: a107_030000--> a107_030010--> a107_030020 (at ~1.3x speed)
-1H Strong Attack: a101_030320/ a101_030321-->a101_030340/ a101_030341
-2H Strong Attack: a101_034320/ a101_034321-->a101_034340/ a101_034341
-WA: a032_037670/a032_037671
-WA 1H Special Strong Attack: a032_030350/ a032_030351--> a032_030370/a032_030371
-WA 2H Special Strong Attack: a032_034350/ a032_034351--> a032_034370/a032_034371
 
 #------------------------------------------------
 # a600 - Beast Claw WIP

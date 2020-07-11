@@ -124,6 +124,7 @@
 - Murky Warstaff 1H/2H Kick now connects.
 - Reversal Ring should be fixed.
 - Fixed Black Knight weapons doing more anti-demon damage than intended.
+- Fixed Blue Sentinels effect not staying active.
 
 #------------------------------
 # TODO
@@ -143,12 +144,12 @@
  - Drop/wield the Frying Pan
 
 # Movesets
-Add quick movement to a weapon
-
 Silver Knight Spear
  - Add lightning buff to WA
+ 
 Silver Knight Sword
  - Add lightning buff to WA
 
-a152
-a271
+Ancient Dragon Halberd
+
+Scythe of Want

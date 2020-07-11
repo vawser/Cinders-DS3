@@ -50,7 +50,7 @@ offsetType                          - Determines how the TAE offset is handled:
                                         - IdleCategory - Ignore TAE, use base a000 offset only
                                         - WeaponCategoryRight - Use TAE, only whilst in right hand
                                         - WeaponCategoryLeft - Use TAE, only whilst in left hand
-                                        - WeaponCategoryHandStyle
+                                        - WeaponCategoryHandStyle - Use TAE
                                         - OffsetNone
 animID                              -
 animeEndEventType                   -
