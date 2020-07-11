@@ -66,15 +66,6 @@
 - Reduced enemy damage to *1.25 (was *2).
 - Made the rocky outcrops in the arena unbreakable whilst the Trial is active, so they can provide cover.
 
-# NPCs
-- Added Magnum Ursus: this NPC hosts the Mark system and is used to toggle them. Found in Firelink Shrine.
-- Companions now have cycling target priority: 3 seconds on, 7 seconds off. This means enemies won't target them 100% of the time.
-
-# Enemies
-- Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
-- Corrupted Gundyr is now an early boss (bit stronger than Vordt).
-- Oceiros now inflicts Curse.
-
 # Spells
 - Added differing stamina costs to spells again.
 - Changed Catalystm/Earthfall/Heavenly Thunder: now similar to Crystal Hail but with fewer but more accurate bullets. Damage per bullet is 220.
@@ -106,6 +97,16 @@
 # Items
 - The cosmetic stones now apply the VFX to both hands.
 
+# NPCs
+- Added Magnum Ursus: this NPC hosts the Mark system and is used to toggle them. Found in Firelink Shrine.
+- Companions now have cycling target priority: 3 seconds on, 7 seconds off. This means enemies won't target them 100% of the time.
+- Made the merchants actually killable.
+
+# Enemies
+- Red Lizzies can now be killed and will drop either 1 Twinkling Titanite or 1 Titanite Scale. However they will emit their explosion on death.
+- Corrupted Gundyr is now an early boss (bit stronger than Vordt).
+- Oceiros now inflicts Curse.
+
 # Map
 - Changed the Titanite Chunks in the Cemetery of Ash area after Corrupted Gundyr into Titanite Shards.
 - Replaced the Titanite Slab treasure in the Cemetery of Ash area with the Company of Champions treasure.
@@ -125,10 +126,23 @@
 - Reversal Ring should be fixed.
 - Fixed Black Knight weapons doing more anti-demon damage than intended.
 - Fixed Blue Sentinels effect not staying active.
+- Dragon Cultists are now actually in dragonform.
+- Fixed Abandoned Tomb bonfire missing its spawnpoint.
 
 #------------------------------
 # TODO
 #------------------------------
+# Movesets
+Silver Knight Spear
+ - Add lightning buff to WA
+ 
+Silver Knight Sword
+ - Add lightning buff to WA
+
+Ancient Dragon Halberd
+
+Scythe of Want
+
 - Add Gravelord FFX, add Gravelord Sword Dance
 - Add praise the sun anim to solaire summon
 
@@ -143,13 +157,3 @@
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
 
-# Movesets
-Silver Knight Spear
- - Add lightning buff to WA
- 
-Silver Knight Sword
- - Add lightning buff to WA
-
-Ancient Dragon Halberd
-
-Scythe of Want
