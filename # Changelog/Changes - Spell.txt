@@ -131,7 +131,7 @@ Divine Pillars of Light
 # Farron Dart
 #--------------------------------
 - FP Cost: 120
-- Magic Damage: 80
+- Magic Damage: 180
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
@@ -146,7 +146,7 @@ Divine Pillars of Light
 # Scattered Farron Dart
 #--------------------------------
 - FP Cost: 150
-- Magic Damage: 60 {*6, individual}
+- Magic Damage: 120 {*6, individual}
 - INT Req: 10
 - INT Req: 10
 - Ascended Effect: gains much better tracking.
@@ -155,7 +155,7 @@ Divine Pillars of Light
 # Soul Arrow
 #--------------------------------
 - FP Cost: 180
-- Magic Damage: 200
+- Magic Damage: 300
 - INT Req: 15
 - Ascended Effect: gains much better tracking.
 
@@ -163,7 +163,7 @@ Divine Pillars of Light
 # Scattered Soul Arrow
 #--------------------------------
 - FP Cost: 240
-- Magic Damage: 100 {*4, individual}
+- Magic Damage: 200 {*4, individual}
 - INT Req: 20
 - Ascended Effect: gains much better tracking.
 
@@ -171,7 +171,7 @@ Divine Pillars of Light
 # Soul Spear
 #--------------------------------
 - FP Cost: 280
-- Magic Damage: 300
+- Magic Damage: 400
 - INT Req: 30
 - Ascended Effect: gains much better tracking and speed.
 
@@ -187,7 +187,7 @@ Divine Pillars of Light
 # Homing Soulmass
 #--------------------------------
 - FP Cost: 250
-- Magic Damage: 80 {*5, individual}
+- Magic Damage: 100 {*5, individual}
 - INT Req: 20
 - Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
 
@@ -195,7 +195,7 @@ Divine Pillars of Light
 # Homing Crystal Soulmass
 #--------------------------------
 - FP Cost: 400
-- Magic Damage: 140 {*5, individual}
+- Magic Damage: 150 {*5, individual}
 - INT Req: 40
 - Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
 
@@ -203,7 +203,7 @@ Divine Pillars of Light
 # Soul Geyser
 #--------------------------------
 - FP Cost: 400
-- Magic Damage: 200 {*3, individual}
+- Magic Damage: 250 {*3, individual}
 - INT Req: 50
 - Ascended Effect: gains much better tracking and a tighter spread.
 
@@ -451,14 +451,14 @@ Divine Pillars of Light
 # Flame Fan
 #--------------------------------
 - FP Cost: 120
-- Fire Damage: 150
+- Fire Damage: 260
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 120
-- Fire Damage: 150 [50]
+- Fire Damage: 200 [50]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
@@ -486,14 +486,14 @@ Divine Pillars of Light
 # Great Combustion
 #--------------------------------
 - FP Cost: 200
-- Fire Damage: 600 [200]
+- Fire Damage: 550 [200]
 - Ascended Effect: deals more poise damage and causes stagger to floor animation.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
 - FP Cost: 280
-- Fire Damage: 450 [200] [350] 
+- Fire Damage: 400 [200] [350] 
 - Ascended Effect: extends the duration of the lava pool to 8 seocnds.
 
 #--------------------------------
@@ -514,7 +514,7 @@ Divine Pillars of Light
 # Profaned Flame
 #--------------------------------
 - FP Cost: 320
-- Fire Damage: 600
+- Fire Damage: 500
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
@@ -542,7 +542,7 @@ Divine Pillars of Light
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 150
-- Fire Damage: 60 {*12, individual)
+- Fire Damage: 90 {*12, individual)
 - Ascended Effect: emits an additional fireball.
 
 #--------------------------------
@@ -584,7 +584,7 @@ Divine Pillars of Light
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 180
-- Fire Damage: 100 {*8, individual}
+- Fire Damage: 160 {*8, individual}
 - Ascended Effect: extends duration to 30 seconds.
 
 #--------------------------------
@@ -704,7 +704,7 @@ Divine Pillars of Light
 # Way of White Corona
 #--------------------------------
 - FP Cost: 200
-- Physical Damage: 100 [100] [100]
+- Physical Damage: 200 [100] [100]
 - Ascended Effect: costs 180 FP.
 
 #--------------------------------
@@ -718,7 +718,7 @@ Divine Pillars of Light
 # Emit Force
 #--------------------------------
 - FP Cost: 220
-- Physical Damage: 300 [100] 
+- Physical Damage: 380 [100] 
 - FTH Req: 10
 - Ascended Effect: gains Farron Dart cast animation.
 
@@ -734,7 +734,7 @@ Divine Pillars of Light
 # Lightning Spear
 #--------------------------------
 - FP Cost: 180
-- Lightning Damage: 200 [50] [100] 
+- Lightning Damage: 300 [50] [100] 
 - FTH Req: 16
 - Ascended Effect: increases poise damage and tracking.
 
@@ -742,7 +742,7 @@ Divine Pillars of Light
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 280
-- Lightning Damage: 300 [100] [150] 
+- Lightning Damage: 400 [100] [150] 
 - FTH Req: 30
 - Ascended Effect: increases poise damage and tracking.
 
@@ -758,7 +758,7 @@ Divine Pillars of Light
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 120
-- Lightning Damage: 150
+- Lightning Damage: 200
 - FTH Req: 10
 - Ascended Effect: increases tracking.
 
@@ -814,7 +814,7 @@ Divine Pillars of Light
 # Divine Arrow
 #--------------------------------
 - FP Cost: 180
-- Physical Damage: 250
+- Physical Damage: 300
 - FTH Req: 30
 - Ascended Effect: increases poise damage, inflicts stagger animation and improves tracking.
 
@@ -1024,7 +1024,7 @@ Divine Pillars of Light
 # Deep Barb
 #--------------------------------
 - FP Cost: 140
-- Dark Damage: 100
+- Dark Damage: 200
 - Base Effect: inflicts 10 Curse.
 - Ascended Effect: inflicts 20 Curse.
 
@@ -1041,7 +1041,7 @@ Divine Pillars of Light
 # Deep Soul
 #--------------------------------
 - FP Cost: 200
-- Dark Damage: 200 
+- Dark Damage: 300 
 - INT Req: 12
 - FTH Req: 8
 - Base Effect: inflicts 30 Curse.
@@ -1051,7 +1051,7 @@ Divine Pillars of Light
 # Great Deep Soul
 #--------------------------------
 - FP Cost: 300
-- Dark Damage: 300
+- Dark Damage: 400
 - INT Req: 16
 - FTH Req: 10
 - Base Effect: inflicts 50 Curse.
@@ -1061,7 +1061,7 @@ Divine Pillars of Light
 # Climax
 #--------------------------------
 - FP Cost: 350
-- Dark Damage: 400 
+- Dark Damage: 450 
 - INT Req: 40
 - FTH Req: 10
 - Ascended Effect: speeds up the projectile massively, increases poise damage.
@@ -1089,7 +1089,7 @@ Divine Pillars of Light
 # Affinity
 #--------------------------------
 - FP Cost: 400
-- Dark Damage: 140 {*5, individual}
+- Dark Damage: 150 {*5, individual}
 - INT Req: 28
 - FTH Req: 10
 - Ascended Effect: hits reduce Dark absorption by 20% for 10 seconds.
@@ -1127,7 +1127,7 @@ Divine Pillars of Light
 # Dark Bead
 #--------------------------------
 - FP Cost: 350
-- Dark Damage: 100 {*7, individual}
+- Dark Damage: 120 {*7, individual}
 - INT Req: 30
 - FTH Req: 10
 - Ascended Effect: inflicts 10 Curse per bullet.
@@ -1190,35 +1190,35 @@ Divine Pillars of Light
 # Black Fireball
 #--------------------------------
 - FP Cost: 120
-- Dark Damage: 100
+- Dark Damage: 200 [50]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
 - FP Cost: 400
-- Dark Damage: 60 {*12, individual)
+- Dark Damage: 90 {*12, individual)
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
 - FP Cost: 280
-- Dark Damage: 350
+- Dark Damage: 400 [150]
 - Ascended Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Vestiges
 #--------------------------------
 - FP Cost: 350
-- Magic Damage: 500 [250]
+- Magic Damage: 500 [200]
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
 # Black Flame
 #--------------------------------
 - FP Cost: 200
-- Dark Damage: 600 [200]
+- Dark Damage: 550 [200]
 - Ascended Effect: increases poise damage and uses push stagger animation.
 
 #--------------------------------
@@ -1270,7 +1270,7 @@ Divine Pillars of Light
 # Nibble
 #--------------------------------
 - FP Cost: 120
-- Dark Damage: 80
+- Dark Damage: 200
 - Base Effect: inflicts 20 Bleed
 - Ascended Effect: costs 100 FP.
 
@@ -1278,7 +1278,7 @@ Divine Pillars of Light
 # Gnaw
 #--------------------------------
 - FP Cost: 180
-- Dark Damage: 200
+- Dark Damage: 300
 - INT Req: 8
 - FTH Req: 12
 - Base Effect: inflicts 60 Bleed
@@ -1288,7 +1288,7 @@ Divine Pillars of Light
 # Dorhys' Gnawing
 #--------------------------------
 - FP Cost: 280
-- Dark Damage: 300
+- Dark Damage: 400
 - INT Req: 10
 - FTH Req: 25
 - Base Effect: inflicts 100 Bleed
@@ -1308,7 +1308,7 @@ Divine Pillars of Light
 # Devouring Swarm
 #--------------------------------
 - FP Cost: 360
-- Dark Damage: 120 {*25, individual}
+- Dark Damage: 160 {*25, individual}
 - INT Req: 10
 - FTH Req: 40
 - Base Effect: inflicts 10 Bleed

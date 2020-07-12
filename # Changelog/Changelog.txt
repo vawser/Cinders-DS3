@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Increased the damage of the Crystal Shower WA.
+
 # Movesets
 - Phosphorescent Pole 2H Roll Attack is now the 2H greatsword thrust (matching the 1H animation).
 - Bewitched Alonne Sword: now has new moveset based on suggestions.
@@ -37,6 +40,9 @@
 
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
+
+# Spells
+- Increased the base damage of a lot of the early game spells to make the early game less punishing for casters.
 
 # Rings
 - Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
@@ -66,8 +72,6 @@
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
  
-Adjust boss anim speeds (where appropriate)
+Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
-speed up r2 follow ups on greatswords and ultra greatswords
-
 
