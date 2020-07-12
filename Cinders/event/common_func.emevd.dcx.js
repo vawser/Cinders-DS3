@@ -4891,6 +4891,7 @@ Event(20009300, Default, function() {
     SetEventFlag(25000007, OFF); // Curse of Gluttony
     SetEventFlag(25000008, OFF); // Curse of Frailty
     SetEventFlag(25000009, OFF); // Curse of Enfeeblement
+    SetEventFlag(25000020, OFF); // Curse of Impermanence
     
     SetEventFlag(25000100, OFF); // Mark of Sanguis
     SetEventFlag(25000101, OFF); // Mark of Canis
