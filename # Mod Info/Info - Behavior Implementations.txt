@@ -116,16 +116,36 @@
 034900 - AttackBothLightStep        #13032 ## a042_030900
 
 #------------------------------------------------
-# X - Bewitched Alonne Sword
+# a272 - Bewitched Alonne Sword
 #------------------------------------------------
-033000 - AttackBothLeft1            #13049 ## a050_030000
-033010 - AttackBothLeft2            #13050 ## a050_030010
-033020 - AttackBothLeft3            #13051 ## a050_030020
+030350 - AttackRightHeavySpecial1Start      #13052 ## a029_030320 (1.2)
+030351 - AttackRightHeavySpecial1End        #13053 ## a029_030321 (1.2)
+030360 - AttackRightHeavySpecial1SubStart   #13054 ## a029_030330 (1.2)
+030370 - AttackRightHeavySpecial2Start      #13055 ## a029_030340 (1.2)
+030371 - AttackRightHeavySpecial2End        #13056 ## a029_030341 (1.2)
 
-034000 - AttackBothLight1           #13052 ## a232_034000
-034010 - AttackBothLight2           #13053 ## a232_034010
-034020 - AttackBothLight3           #13054 ## a232_034020
-        
+034000 - AttackBothLight1                   #13057 ## a232_034000
+034010 - AttackBothLight2                   #13058 ## a232_034010
+034020 - AttackBothLight3                   #13059 ## a232_034020
+
+034320 - AttackBothHeavy1Start              #13060 ## a090_034320
+034321 - AttackBothHeavy1End                #13061 ## a090_034321
+034330 - AttackBothHeavy1SubStart           #13062 ## a090_034330
+034340 - AttackBothHeavy2Start              #13063 ## a193_034320 (1.2)
+034341 - AttackBothHeavy2End                #13064 ## a193_034321 (1.2)
+
+034350 - AttackBothHeavySpecial1Start       #13065 ## a090_034320 (1.2)
+034351 - AttackBothHeavySpecial1End         #13066 ## a090_034321 (1.2)
+034360 - AttackBothHeavySpecial1SubStart    #13067 ## a090_034330 (1.2)
+034370 - AttackBothHeavySpecial2Start       #13068 ## a193_034320 (1.4)
+034371 - AttackBothHeavySpecial2End         #13069 ## a193_034321 (1.4)
+
+034500 - AttackBothDash                     #13070 ## a029_030500
+034900 - AttackBothLightStep                #13071 ## a029_030900
+
+037670 - Warcry                             #13072 ## a198_038400
+037671 - Warcry_NoPoints                    #13073 ## a198_038400
+
 #------------------------------------------------
 # X - Silver Knight Spear
 #------------------------------------------------

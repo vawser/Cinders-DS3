@@ -32,6 +32,7 @@
 #------------------------------
 # Movesets
 - Phosphorescent Pole 2H Roll Attack is now the 2H greatsword thrust (matching the 1H animation).
+- Bewitched Alonne Sword: now has new moveset based on suggestions.
 
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
@@ -68,4 +69,4 @@ Scythe of Want
 - Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
-
+ 
