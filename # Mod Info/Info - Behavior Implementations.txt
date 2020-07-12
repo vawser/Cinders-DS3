@@ -149,7 +149,32 @@
 #------------------------------------------------
 # X - Silver Knight Spear
 #------------------------------------------------
+030350 - AttackRightHeavySpecial1Start      #13052 ## 
+030351 - AttackRightHeavySpecial1End        #13053 ## 
+030360 - AttackRightHeavySpecial1SubStart   #13054 ## 
+030370 - AttackRightHeavySpecial2Start      #13055 ## 
+030371 - AttackRightHeavySpecial2End        #13056 ##
 
+030500 - AttackRightLightDash               #13056 ##
+030900 - AttackRightLightStep               #13056 ##
+
+034320 - AttackBothHeavy1Start              #13060 ## 
+034321 - AttackBothHeavy1End                #13061 ## 
+034330 - AttackBothHeavy1SubStart           #13062 ## 
+034340 - AttackBothHeavy2Start              #13063 ## 
+034341 - AttackBothHeavy2End                #13064 ## 
+
+034350 - AttackBothHeavySpecial1Start       #13065 ##
+034351 - AttackBothHeavySpecial1End         #13066 ## 
+034360 - AttackBothHeavySpecial1SubStart    #13067 ## 
+034370 - AttackBothHeavySpecial2Start       #13068 ## 
+034371 - AttackBothHeavySpecial2End         #13069 ## 
+
+034500 - AttackBothDash                     #13070 ## 
+034900 - AttackBothLightStep                #13071 ## 
+
+037670 - Warcry                             #13072 ## a260_038400
+037671 - Warcry_NoPoints                    #13073 ## a260_038400
 
 #------------------------------------------------
 # X - Silver Knight Sword

@@ -46,19 +46,7 @@
 
 # Bugfixes
 - Added female version of the Censuring Palm animations.
-
-#------------------------------
-# Movesets
-#------------------------------
-Silver Knight Spear
- - Add lightning buff to WA
- 
-Silver Knight Sword
- - Add lightning buff to WA
-
-Ancient Dragon Halberd
-
-Scythe of Want
+- Ledo's Great Hammer WA should clear itself properly when used.
 
 #------------------------------
 # TODO
@@ -77,6 +65,8 @@ Scythe of Want
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
  
+Adjust boss anim speeds (where appropriate)
+Add specific WA descriptions for weapons
 speed up r2 follow ups on greatswords and ultra greatswords
 
-160601060
+
