@@ -42,7 +42,7 @@
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
 
 # Spells
-- Increased the base damage of a lot of the early game spells to make the early game less punishing for casters.
+- Increased the base damage of several spells to make the early game less punishing for casters.
 
 # Rings
 - Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
@@ -51,9 +51,24 @@
 - Ring of Retribution: adds 75 Lightning damage to rolling or kicking.
 - Ring of Vengeance: adds 75 Dark damage to rolling or kicking.
 
+# Items
+- Changed the boss soul item values to be half the amount the boss itself drops (i.e. Midir's soul is worth 75,000, he normally drops 150,000).
+- Added special souls that rarely drop from powerful enemies. They grant powerful but short term buffs:
+ - Soul of a Fallen Paladin: boosts all absorption by 80% for 30 seconds.
+ - Soul of a Fallen Sentinel: boosts poise by 100 for 30 seconds.
+ - Soul of a Fallen Sage: reduces spell and skill FP consumption by 80% for 30 seconds.
+ - Soul of a Fallen Warrior: reduces weapon stamina consumption by 80% for 30 seconds.
+ - Soul of a Fallen Astrologer: grants immunity to status for 30 seconds.
+ - Soul of a Fallen Beserker: grants 100 stamina recovery for 30 seconds.
+ - Soul of a Fallen Champion: grants 99 STR, DEX, INT, FTH and LCK for 30 seconds.
+
+# Treasure
+- Removed all the NG+ soul treasure replacements.
+
 # Bugfixes
 - Added female version of the Censuring Palm animations.
 - Ledo's Great Hammer WA should clear itself properly when used.
+- Glove aux buffs should now only apply to the right-hand.
 
 #------------------------------
 # TODO
@@ -75,3 +90,5 @@
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
+
+ 
