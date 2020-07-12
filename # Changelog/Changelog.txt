@@ -37,6 +37,13 @@
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
 
+# Rings
+- Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
+- Ring of Reprisal: adds 75 Magic damage to rolling or kicking. 
+- Ring of Spite: adds 75 Fire damage to rolling or kicking.
+- Ring of Retribution: adds 75 Lightning damage to rolling or kicking.
+- Ring of Vengeance: adds 75 Dark damage to rolling or kicking.
+
 # Bugfixes
 - Added female version of the Censuring Palm animations.
 
@@ -70,3 +77,6 @@ Scythe of Want
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
  
+speed up r2 follow ups on greatswords and ultra greatswords
+
+160601060
