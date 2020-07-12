@@ -33,6 +33,7 @@
 # Movesets
 - Phosphorescent Pole 2H Roll Attack is now the 2H greatsword thrust (matching the 1H animation).
 - Bewitched Alonne Sword: now has new moveset based on suggestions.
+- Increased the speed of the Greatsword/UGS follow-up R2 attacks by 30%.
 
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
