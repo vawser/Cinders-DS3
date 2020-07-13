@@ -246,7 +246,7 @@ Then create the python version and recompile it.
 400170 Hawkwood the Deserter
 400171 Hawkwood the Deserter
 400172 Hawkwood the Deserter
-400180 Siris of the Sunless Realms
+400180 Sirris of the Sunless Realms
 400190 Ringfinger Leonhard
 400200 Andre
 400210 Shrine Handmaid
@@ -326,8 +326,8 @@ Then create the python version and recompile it.
 450509 GENERIC UNUSED
 450520
 450521
-450530
-450531
+450530 Painter (in village)
+450531 Painter (in Loft)
 450540
 450541
 450550

@@ -1032,7 +1032,7 @@ Divine Pillars of Light
 # Dark Edge
 #--------------------------------
 - FP Cost: 120
-- Dark Damage: 250
+- Dark Damage: 220
 - INT Req: 10
 - FTH Req: 6
 - Ascended Effect: costs 100 FP.

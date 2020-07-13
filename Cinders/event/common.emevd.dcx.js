@@ -1665,6 +1665,7 @@ Event(870, Default, function(X0_1, X4_4) {
 // Setup - Host only
 Event(400000, Default, function() {
     InitializeEvent(0, 400016, 0); // NG+ Flags
+    InitializeEvent(0, 400017, 0); // Relationships
 });
 
 // Setup - Host and Client
@@ -2200,6 +2201,15 @@ Event(400016, Default, function() {
     
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 5);
     SetEventFlag(25000015, ON); // NG+5
+});
+
+// Relationship Flirt Flag
+Event(400017, Restart, function() {
+    SetEventFlag(25008900, OFF); 
+    SetEventFlag(25008901, OFF); 
+    SetEventFlag(25008902, OFF); 
+    
+    RandomlySetEventFlagInRange(25008900, 25008902, ON);
 });
 
 // Show Curse Information
