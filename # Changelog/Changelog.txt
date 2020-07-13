@@ -41,6 +41,7 @@
 
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
+- Increased the toughness of Halflight significantly.
 
 # Spells
 - Increased the base damage of several spells to make the early game less punishing for casters.
@@ -148,4 +149,3 @@ Stop wolnir memory reseting the front door
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
-Flame Fan FP secondary is 300 (need sto be 120)
