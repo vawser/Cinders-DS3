@@ -28,6 +28,7 @@
 25008900 - Good Flirt outcome
 25008901 - Neutral Flirt outcome
 25008902 - Bad Flirt outcome
+25008903 - Special Painter jail flag
 
 #----------------------
 # Talk Options

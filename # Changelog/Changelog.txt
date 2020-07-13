@@ -98,25 +98,24 @@
  - Karla:
  - Fire Keeper:
  - Painter: Ceaseless Dung Pie
- - Rosaria 
- - Archdeacon McDonnell 
- - Company Captain Yorshka 
- - Domhnall of Zena 
- - Marvelous Chester 
- - Crestfallen Merchant 
- - Ludleth 
- - Yuria of Londor 
- - Orbeck of Vinheim
- - Andre 
- - Shrine Handmaid 
- - Cornyx of the Great Swamp 
- - Irina of Carim 
- - Patches 
- - Grave Warden Lillian 
- - Magnum Ursus
- - Greirat
- - Yoel 
-
+ - Rosaria: 
+ - Archdeacon McDonnell: 
+ - Company Captain Yorshka:  
+ - Domhnall of Zena: 
+ - Marvelous Chester: 
+ - Crestfallen Merchant: 
+ - Ludleth: 
+ - Yuria of Londor: 
+ - Orbeck of Vinheim: 
+ - Andre: 
+ - Shrine Handmaid: 
+ - Cornyx of the Great Swamp: 
+ - Irina of Carim:  
+ - Patches: 
+ - Grave Warden Lillian: 
+ - Magnum Ursus: 
+ - Greirat: 
+ - Yoel:  
 
 # Treasure
 - Removed all the NG+ soul treasure replacements.
@@ -149,3 +148,4 @@ Stop wolnir memory reseting the front door
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
+Flame Fan FP secondary is 300 (need sto be 120)
