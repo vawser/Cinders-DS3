@@ -63,6 +63,7 @@
  - Soul of a Fallen Beserker: grants 100 stamina recovery for 30 seconds.
  - Soul of a Fallen Champion: grants 99 STR, DEX, INT, FTH and LCK for 30 seconds.
 - Changed Brightbug effect to: boost damage and absorption by 20% for 15 seconds.
+- Resonating Crystal trade with the Nestling now gives you a random special soul.
 
 # Treasure
 - Removed all the NG+ soul treasure replacements.

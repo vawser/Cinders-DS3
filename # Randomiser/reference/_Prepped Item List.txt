@@ -628,6 +628,64 @@
 11406F40 Firelink Helm 
 11298BE0 Knight Helm 
 1121EAC0 Fallen Knight Helm 
+1098BD90 Gough's Helm 
+1098E4A0 Mask of the Sealer 
+10990BB0 Six-Eyed Helm of the Channelers 
+109932C0 Moon Hat 
+109959D0 Helm of Aurous 
+109980E0 Dragon Acolyte Mask 
+1099A7F0 Vengarl's Helm 
+1099CF00 Snickering Top Hat 
+15ECB940 Alonne's Helm 
+15ECE050 Rampart Golem Helm 
+15ED0760 Smelter Demon Helm 
+15ED2E70 Bone Ash Mask 
+15ED5580 Heide Knight Greathelm 
+15ED7C90 Imperious Head 
+15EDA3A0 Mask of Horror 
+15EDCAB0 Mask of Cruelty 
+15EDF1C0 Mask of Serenity 
+15EE18D0 Mask of War 
+15EE3FE0 Imperial Samurai Helm 
+15EE66F0 Horned Samurai Helm 
+15EE8E00 Ornate Samurai Helm 
+15EEB510 Black Metal Hat 
+15EEDC20 Tan Straw Hat 
+15EF0330 Carthus Blindfold 
+15EF2A40 Crown of Filianore 
+15EF5150 Crown of the Holy King 
+15EF7860 Pygmy Crown 
+15EF9F70 Old Demon King's Crown 
+15EFC680 Mask of Sin 
+15EFED90 Poisonhorn Cap 
+15F014A0 Vagabond Cowl 
+15F03BB0 Hollow Head 
+15F062C0 Basilisk Cap 
+15F089D0 Deserter Helm 
+15F0B0E0 Pot 
+15F0D7F0 Raven Mask 
+15F0FF00 Crown of Illusions 
+15F12610 Hallowed Knight Helm 
+15F14D20 Courtier's Wig
+15F17430 Steel Helm 
+15F19B40 Dragon Hunter Helm 
+15F1C250 Ivory King Helm 
+15F1E960 Mad Warrior Mask 
+15F21070 Mirror Knight Helm 
+15F23780 Syan Knight Helm 
+15F25E90 Helm of the Wise 
+15F285A0 Gold-Hemmed Black Hood 
+15F2ACB0 Charred Loyce Helm 
+15F2D3C0 Hood of the Forlorn 
+15F2FAD0 Jester's Cap 
+15F321E0 Royal Soldier Helm 
+15F348F0 Loyce Helm 
+15F37000 Silver Stag Helm 
+15F39710 Golem Helm 
+15F3BE20 Manikin Mask 
+15F3E530 Crude Manikin Mask 
+15F40C40 Stone Helm 
+15F43350 Guardian Helm 
 
 # Body
 15EB84A8 Quicksilver Armor 
@@ -735,6 +793,39 @@
 15C81E28 Varangian Armor 
 15D76068 Antiquated Dress 
 15E6A2A8 Karla's Coat 
+1098C178 Gough's Armor 
+1098E888 Crimson Robe 
+10990F98 Robe of the Channelers
+109936A8 Astrologist's Robe 
+10995DB8 Armor of Aurous 
+109984C8 Dragon Acolyte Robe 
+1099ABD8 Vengarl's Armor 
+1099D2E8 Chester's Long Coat 
+15ECBD28 Alonne's Armor 
+15ECE438 Rampart Golem Armor 
+15ED0B48 Smelter Demon Armor 
+15ED3258 Bone Ash Armor 
+15ED5968 Heide Knight Chainmail 
+15ED8078 Imperious Armor 
+15F129F8 Hallowed Knight Armor 
+15F15108 Courtier's Garb 
+15F17818 Steel Armor 
+15F19F28 Dragon Hunter Armor 
+15F1C638 Ivory King Armor 
+15F1ED48 Mad Warrior Armor 
+15F21458 Mirror Knight Armor 
+15F23B68 Syan Knight Armor 
+15F26278 Armor of the Glorious 
+15F28988 Gold-Hemmed Black Cloak 
+15F2B098 Charred Loyce Armor 
+15F2D7A8 Armor of the Forlorn 
+15F2FEB8 Jester's Robes 
+15F325C8 Royal Soldier Armor 
+15F34CD8 Loyce Armor 
+15F39AF8 Golem Armor 
+15F3C208 Manikin Top 
+15F41028 Stone Armor 
+15F43738 Guardian Armor 
 
 # Hands
 15EBD6B0 Pontiff's Bracelets 
@@ -834,6 +925,38 @@
 11407710 Firelink Gauntlets 
 112993B0 Knight Gauntlets 
 1121F290 Fallen Knight Gauntlets 
+1098C560 Gough's Gloves 
+1098EC70 Crimson Gloves 
+10991380 Gauntlets of the Channelers 
+109961A0 Gauntlets of Aurous 
+109988B0 Dragon Acolyte Gloves 
+1099AFC0 Vengarl's Gloves 
+1099D6D0 Chester's Gloves
+15ECC110 Alonne's Gauntlets 
+15ECE820 Rampart Golem Gauntlets 
+15ED0F30 Smelter Demon Gauntlets 
+15ED3640 Bone Ash Gauntlets 
+15ED5D50 Heide Knight Gauntlets 
+15ED8460 Imperious Gauntlets 
+15F12DE0 Hallowed Knight Gauntlets 
+15F154F0 Courtier's Gloves 
+15F17C00 Steel Gauntlets 
+15F1A310 Dragon Hunter Gauntlets 
+15F1CA20 Ivory King Gauntlets 
+15F1F130 Mad Warrior Gauntlets 
+15F21840 Mirror Knight Gauntlets 
+15F23F50 Syan Knight Gauntlets 
+15F26660 Gauntlets of the Vanquisher 
+15F28D70 Gold-Hemmed Black Gloves 
+15F2B480 Charred Loyce Gauntlets 
+15F2DB90 Gauntlets of the Forlorn 
+15F302A0 Jester's Gloves 
+15F329B0 Royal Soldier Gauntlets 
+15F350C0 Loyce Gauntlets 
+15F39EE0 Golem Gauntlets 
+15F3C5F0 Manikin Gloves 
+15F41410 Stone Gauntlets 
+15F43B20 Guardian Gauntlets 
 
 # Legs
 15EB8C78 Quicksilver Leggings 
@@ -935,6 +1058,40 @@
 15C825F8 Varangian Leggings 
 15D76838 Antiquated Skirt 
 15E6AA78 Karla's Trousers 
+1098C948 Gough's Leggings 
+1098F058 Crimson Waistcloth 
+10991768 Waistcloth of the Channelers 
+10993A90 Astrologist's Gloves 
+10993E78 Astrologist's Waistcloth 
+10996588 Leggings of Aurous 
+10998C98 Dragon Acolyte Leggings 
+1099B3A8 Vengarl's Leggings 
+1099DAB8 Chester's Trousers 
+15ECC4F8 Alonne's Leggings 
+15ECEC08 Rampart Golem Leggings 
+15ED1318 Smelter Demon Leggings 
+15ED3A28 Bone Ash Leggings 
+15ED6138 Heide Knight Leggings 
+15ED8848 Imperious Leggings 
+15F131C8 Hallowed Knight Leggings 
+15F158D8 Courtier's Trousers 
+15F17FE8 Steel Leggings 
+15F1A6F8 Dragon Hunter Leggings 
+15F1CE08 Ivory King Leggings 
+15F1F518 Mad Warrior Leggings 
+15F21C28 Mirror Knight Leggings 
+15F24338 Syan Knight Leggings 
+15F26A48 Boots of the Explorer 
+15F29158 Gold-Hemmed Black Skirt 
+15F2B868 Charred Loyce Leggings 
+15F2DF78 Leggings of the Forlorn 
+15F30688 Jester's Tights 
+15F32D98 Royal Soldier Leggings 
+15F354A8 Loyce Leggings 
+15F3A2C8 Golem Leggings 
+15F3C9D8 Manikin Boots 
+15F417F8 Stone Leggings 
+15F43F08 Guardian Leggings 
 
 # Covenants
 20002710 Darkmoon Faithful 
@@ -1570,9 +1727,7 @@
 401B7B28 Unleash Magic 
 401B7F10 Soul Wave 
 401B82F8 Blizzard 
-401B86E0 Wave of Judgment 
 401B8AC8 Orbs of Judgment 
-401B8EB0 Soul Focus 
 401B9298 Blinding Light 
 401B9680 Whisper of Despair 
 401B9A68 Repel 
@@ -1585,17 +1740,12 @@
 401BB5C0 Yearning Dregs 
 401BB9A8 Dreg Torrent 
 401BBD90 Writhing Deep 
-401BC178 Pursuing Soul 
-401BC560 Great Pursuing Soul 
-401BC948 Abyssal Burst 
 401BCD30 Climax 
-
 40249F00 Fireball 
 4024A6D0 Fire Orb 
 4024AAB8 Firestorm 
 4024B288 Fire Surge 
 4024BA58 Black Serpent 
-4024C610 Combustion 
 4024C9F8 Great Combustion 
 4024ED20 Poison Mist 
 4024F108 Toxic Mist 
@@ -1613,19 +1763,13 @@
 402579C0 Chaos Bed Vestiges 
 4025B070 Warmth 
 402717D0 Profuse Sweat 
-4027AC40 Dark Orb 
 4027D350 Black Fire Orb 
 4027FA60 Bursting Fireball 
 40282170 Boulder Heave 
 40284880 Sacred Flame 
 40286F90 Carthus Beacon 
-402932E0 Singe 
 402936C8 Lingering Chaos 
 40293AB0 Cataclysm 
-40293E98 Dark Touch  
-40294280 Abyssal Surge 
-40294668 Dark Inferno 
-40294A50 Dark Hail 
 40294E38 Dark Dance 
 40295220 Recollection 
 40295608 Mournful Flames 
@@ -1638,7 +1782,8 @@
 40297160 Black Flame Arc 
 40297548 Black Fireball 
 40297930 Black Fire Scatter 
-
+40297D18 Black Fire Vestiges 
+40298100 Fecal Expulsion 
 403540D0 Heal Aid 
 403567E0 Heal 
 40356BC8 Med Heal 
@@ -1648,7 +1793,6 @@
 40357B68 Bountiful Sunlight 
 40358338 Bountiful Light 
 40358720 Caressing Tears 
-40359AA8 Morbid Temptation 
 4035B600 Tears of Denial 
 4035B9E8 Homeward 
 4035DD10 Force 
@@ -1675,16 +1819,10 @@
 40395F80 Blessed Weapon 
 40398690 Deep Protection 
 4039ADA0 Atonement 
-4039FBC0 Lightning Bolt 
-4039FFA8 Sparks 
 403A0390 Heavenly Thunder 
 403A0778 Halo 
-403A0B60 Divine Upheavel 
 403A0F48 Perseverance 
-403A1330 Inner Fervor 
 403A1718 Nibble 
-403A1B00 Ravenous Gnawing 
-403A1EE8 Voracious Gnawing 
 403A22D0 Devouring Swarm 
 403A26B8 Vow of Agony 
 403A2AA0 Angelic Barrage 
@@ -1693,6 +1831,7 @@
 403A3658 Proof of a Pact 
 403A3A40 Ghostly Assault 
 403A3E28 Pulsating Blade 
+403A4210 Overwhelming Power 
 
 # DLC
 58500000 Follower Set
