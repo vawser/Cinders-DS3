@@ -47,3 +47,8 @@ elif GetTalkListEntryResult() == 31:
 2000902
 
 t400120_x6
+
+293
+240
+500
+452
