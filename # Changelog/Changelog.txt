@@ -65,6 +65,31 @@
 - Changed Brightbug effect to: boost damage and absorption by 20% for 15 seconds.
 - Resonating Crystal trade with the Nestling now gives you a random special soul.
 
+# Oils
+- Removed the old weapon visual stones.
+- Added weapon oils that apply the same effects as the old stones. There are now two versions of each, one for the right-hand and one for the left-hand.
+- Added Cleansing Oil.
+- Added Off-hand Cleansing Oil.
+- Added Magical Oil.
+- Added Off-hand Magical Oil.
+- Added Fiery Oil.
+- Added Off-hand  Fiery Oil.
+- Added Sparking Oil.
+- Added Off-hand Sparking Oil.
+- Added Abyssal Oil.
+- Added Off-hand Abyssal Oil.
+- Added Poisonous Oil.
+- Added Off-hand Poisonous Oil.
+- Added Bloody Oil.
+- Added Off-hand Bloody Oil.
+- Added Frost Oil.
+- Added Off-hand Frost Oil.
+- Added Moonlit Oil.
+- Added Off-hand Moonlit Oil.
+- Added Blessed Oil.
+- Added Off-hand Blessed Oil.
+- Added Black Fire Oil: applies an aura of black fire.
+
 # Treasure
 - Removed all the NG+ soul treasure replacements.
 
@@ -93,5 +118,3 @@
  
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
-Split the cosmetic stones into right/left hand versions
-

@@ -1773,17 +1773,31 @@ Event(400001, Default, function() {
     InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
     InitializeEvent(2, 400541, 160703400, 160703410, 160704000); // Dragon Head Stone
     
-    // Weapon Visual Items
-    InitializeEvent(0, 400600, 160706001, 160706000); // Fire Stone
-    InitializeEvent(0, 400601, 160706011, 160706010); // Magic Stone
-    InitializeEvent(0, 400602, 160706021, 160706020); // Lightning Stone
-    InitializeEvent(0, 400603, 160706031, 160706030); // Dark Stone
-    InitializeEvent(0, 400604, 160706041, 160706040); // Poison Stone
-    InitializeEvent(0, 400605, 160706051, 160706050); // Bleed Stone
-    InitializeEvent(0, 400606, 160706061, 160706060); // Frost Stone
-    InitializeEvent(0, 400607, 160706071, 160706070); // Blessed Stone
-    InitializeEvent(0, 400608, 160706081, 160706080); // Enchanted Stone
-    InitializeEvent(0, 400609, 160706091, 160706090); // Cleansing Stone
+    // Right - Weapon Auras
+    InitializeEvent(0,  400600, 160706001, 160706000); // Cleansing Oil
+    InitializeEvent(1,  400600, 160706011, 160706010); // Magical Oil
+    InitializeEvent(2,  400600, 160706021, 160706020); // Fiery Oil
+    InitializeEvent(3,  400600, 160706031, 160706030); // Sparking Oil
+    InitializeEvent(4,  400600, 160706041, 160706040); // Abyssal Oil
+    InitializeEvent(5,  400600, 160706051, 160706050); // Poisonous Oil
+    InitializeEvent(6,  400600, 160706061, 160706060); // Bloody Oil
+    InitializeEvent(7,  400600, 160706071, 160706070); // Frost Oil
+    InitializeEvent(8,  400600, 160706081, 160706080); // Moonlit Oil
+    InitializeEvent(9,  400600, 160706091, 160706090); // Blessed Oil
+    InitializeEvent(10, 400600, 160706101, 160706100); // Black Fire Oil
+    
+    // Left - Weapon Auras
+    InitializeEvent(0,  400601, 160706006, 160706005); // Cleansing Oil
+    InitializeEvent(1,  400601, 160706016, 160706015); // Magical Oil
+    InitializeEvent(2,  400601, 160706026, 160706025); // Fiery Oil
+    InitializeEvent(3,  400601, 160706036, 160706035); // Sparking Oil
+    InitializeEvent(4,  400601, 160706046, 160706045); // Abyssal Oil
+    InitializeEvent(5,  400601, 160706056, 160706055); // Poisonous Oil
+    InitializeEvent(6,  400601, 160706066, 160706065); // Bloody Oil
+    InitializeEvent(7,  400601, 160706076, 160706075); // Frost Oil
+    InitializeEvent(8,  400601, 160706086, 160706085); // Moonlit Oil
+    InitializeEvent(9,  400601, 160706096, 160706095); // Blessed Oil
+    InitializeEvent(10, 400601, 160706106, 160706105); // Black Fire Oil
     
     // General Scripts
     InitializeEvent(0, 400700, 10000); // No Hit State
@@ -2122,11 +2136,10 @@ Event(400541, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Fire Stone
+// Apply Stone (Right)
 Event(400600, Default, function(X0_4, X4_4) {
     IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
     
-    ClearSpeffect(10000, 160706000);
     ClearSpeffect(10000, 160706010);
     ClearSpeffect(10000, 160706020);
     ClearSpeffect(10000, 160706030);
@@ -2135,178 +2148,31 @@ Event(400600, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160706060);
     ClearSpeffect(10000, 160706070);
     ClearSpeffect(10000, 160706080);
+    ClearSpeffect(10000, 160706090);
+    ClearSpeffect(10000, 160706100);
     
     SetSpeffect(10000, X4_4);
     
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Magic Stone
+// Apply Stone (Left)
 Event(400601, Default, function(X0_4, X4_4) {
     IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
     
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
+    ClearSpeffect(10000, 160706015);
+    ClearSpeffect(10000, 160706025);
+    ClearSpeffect(10000, 160706035);
+    ClearSpeffect(10000, 160706045);
+    ClearSpeffect(10000, 160706055);
+    ClearSpeffect(10000, 160706065);
+    ClearSpeffect(10000, 160706075);
+    ClearSpeffect(10000, 160706085);
+    ClearSpeffect(10000, 160706095);
+    ClearSpeffect(10000, 160706105);
     
     SetSpeffect(10000, X4_4);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Lightning Stone
-Event(400602, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Dark Stone
-Event(400603, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Poison Stone
-Event(400604, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Bleed Stone
-Event(400605, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Frost Stone
-Event(400606, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Blessed Stone
-Event(400607, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Enchanted Stone
-Event(400608, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Cleansing Stone
-Event(400609, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706000);
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-
     EndUnconditionally(EventEndType.Restart);
 });
 
