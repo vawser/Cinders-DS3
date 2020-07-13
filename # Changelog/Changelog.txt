@@ -11,13 +11,13 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002061 Cemetery of Ash / Unturned Graves
+54002063 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502082 Cathedral of the Deep
-53802175 Catacombs of Carthus / Smouldering Lake
-53702146 Irithyll of the Boreal Valley / Anor Londo
+53802176 Catacombs of Carthus / Smouldering Lake
+53702148 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
 53012090 Lothric Castle
 53412134 Grand Archives
@@ -92,7 +92,12 @@
 - Added Black Fire Oil: applies an aura of black fire.
 
 # Relationships
-- Added the following NPCs as proposable:
+- Flirt option now has 3 outcomes (randomised on bonfire rest).
+- Getting a 'good' outcome will reward you will a unique gift, specific to that NPC.
+- The following NPCs as proposable and give the following:
+ - Karla:
+ - Fire Keeper:
+ - Painter: Ceaseless Dung Pie
  - Rosaria 
  - Archdeacon McDonnell 
  - Company Captain Yorshka 
@@ -108,9 +113,10 @@
  - Irina of Carim 
  - Patches 
  - Grave Warden Lillian 
- - Magnum Ursus 
-- Flirt option now has 3 outcomes (randomised on bonfire rest).
-- Getting a 'good' outcome will reward you will a unique gift, specific to that NPC.
+ - Magnum Ursus
+ - Greirat
+ - Yoel 
+
 
 # Treasure
 - Removed all the NG+ soul treasure replacements.
