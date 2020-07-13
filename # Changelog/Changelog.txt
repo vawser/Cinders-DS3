@@ -43,6 +43,7 @@
 
 # Spells
 - Increased the base damage of several spells to make the early game less punishing for casters.
+- Changed the stamina cost for most spells to 10% of the FP cost (i.e. 350 FP = 35 stamina to cast).
 
 # Rings
 - Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
@@ -61,6 +62,7 @@
  - Soul of a Fallen Astrologer: grants immunity to status for 30 seconds.
  - Soul of a Fallen Beserker: grants 100 stamina recovery for 30 seconds.
  - Soul of a Fallen Champion: grants 99 STR, DEX, INT, FTH and LCK for 30 seconds.
+- Changed Brightbug effect to: boost damage and absorption by 20% for 15 seconds.
 
 # Treasure
 - Removed all the NG+ soul treasure replacements.
@@ -69,6 +71,7 @@
 - Added female version of the Censuring Palm animations.
 - Ledo's Great Hammer WA should clear itself properly when used.
 - Glove aux buffs should now only apply to the right-hand.
+- Fixed Bloodust WA not working correctly.
 
 #------------------------------
 # TODO
@@ -89,6 +92,5 @@
  
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
+Split the cosmetic stones into right/left hand versions
 
-
- 
