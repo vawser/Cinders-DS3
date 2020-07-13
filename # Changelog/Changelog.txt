@@ -144,8 +144,11 @@
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
  
-Check wolnir table
-Stop wolnir memory reseting the front door
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
+Check wolnir table
+Stop wolnir memory reseting the front door
+
+Finish relationship dialogues
+Look at Halflight boss fight, adjust difficulty if trivial
