@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002063 Cemetery of Ash / Unturned Graves
+54002068 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
@@ -23,7 +23,7 @@
 53412134 Grand Archives
 54102011 Kiln of the First Flame
 53202075 Archdragon Peak
-54502074 Painted World of Ariandel
+54502075 Painted World of Ariandel
 55002062 Dreg Heap
 55102059 The Ringed City
 
@@ -110,30 +110,32 @@
 - Flirt option now has 3 outcomes (randomised on bonfire rest).
 - Getting a 'good' outcome will reward you will a unique gift, specific to that NPC.
 - The following NPCs as proposable and give the following:
- - Karla:
- - Fire Keeper:
- - Painter: Ceaseless Dung Pie
- - Rosaria: 
- - Archdeacon McDonnell: 
- - Company Captain Yorshka:  
- - Domhnall of Zena: 
- - Marvelous Chester: 
- - Crestfallen Merchant: 
- - Ludleth: 
- - Yuria of Londor: 
- - Orbeck of Vinheim: 
- - Andre: 
- - Shrine Handmaid: 
- - Cornyx of the Great Swamp: 
- - Irina of Carim:  
- - Patches: 
- - Grave Warden Lillian: 
- - Magnum Ursus: 
- - Greirat: 
- - Yoel:  
+ - Karla: Yearning Dregs (one-time)
+ - Fire Keeper: Divine Blessing (repeatable)
+ - Painter: Ceaseless Dung Pie (one-time)
+ - Rosaria: Brightbug (repeatable)
+ - Archdeacon McDonnell: Abyssal Fragment (repeatable)
+ - Company Captain Yorshka: Hidden Blessing (repeatable)
+ - Domhnall of Zena: Awestone (repeatable)
+ - Marvelous Chester: Twinkling Titanite (repeatable)
+ - Crestfallen Merchant: Titanite Scale (repeatable)
+ - Ludleth: an array of exotic souls (repeatable)
+ - Yuria of Londor: Repel (one-time)
+ - Orbeck of Vinheim: Crystal Fragment (repeatable)
+ - Andre: random normal Titanite (repeatable)
+ - Shrine Handmaid: Ember (repeatable)
+ - Cornyx of the Great Swamp: Fire Seed (repeatable)
+ - Irina of Carim: Holy Fragment (repeatable)
+ - Patches: Undead Bone Shard (one-time)
+ - Grave Warden Lillian: Climax (one-time)
+ - Magnum Ursus: Estus Shard (one-time)
+ - Greirat: Coins (repeatable)
+ - Yoel: Dark Sigil (repeatable)
 
 # Treasure
 - Removed all the NG+ soul treasure replacements.
+- Moved the Ring of Betrothal to the Hollow Head location in Cemetery of Ash.
+- Moved the Giant Halberd/Shield to the Giant's corpse location.
 
 # Bugfixes
 - Added female version of the Censuring Palm animations.
@@ -162,5 +164,7 @@
  
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
+Adjust Proof of Pact (bit inconsistent still)
 
 Finish relationship dialogues
+
