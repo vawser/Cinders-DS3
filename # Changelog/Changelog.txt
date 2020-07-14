@@ -113,7 +113,7 @@
 - The following NPCs as proposable and give the following:
  - Karla: Yearning Dregs (one-time)
  - Fire Keeper: Divine Blessing (repeatable)
- - Painter: Ceaseless Dung Pie (one-time)
+ - Painter: Ceaseless Dung Pie (one-time) + special event
  - Rosaria: Brightbug (repeatable)
  - Archdeacon McDonnell: Abyssal Fragment (repeatable)
  - Company Captain Yorshka: Hidden Blessing (repeatable)
@@ -167,3 +167,4 @@ Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
 Finish relationship dialogues
+
