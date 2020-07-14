@@ -29,6 +29,7 @@
 25008901 - Neutral Flirt outcome
 25008902 - Bad Flirt outcome
 25008903 - Special Painter jail flag
+25008904 - Gift Cooldown flag
 
 #----------------------
 # Talk Options

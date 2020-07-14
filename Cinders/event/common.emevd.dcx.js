@@ -2209,6 +2209,7 @@ Event(400017, Restart, function() {
     SetEventFlag(25008900, OFF); 
     SetEventFlag(25008901, OFF); 
     SetEventFlag(25008902, OFF); 
+    SetEventFlag(25008904, OFF);
     
     RandomlySetEventFlagInRange(25008900, 25008902, ON);
 });
@@ -3120,6 +3121,3 @@ Event(4008250, Default, function() {
     
     EndUnconditionally(EventEndType.End);
 });
-
-
-

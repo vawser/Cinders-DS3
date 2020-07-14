@@ -55,6 +55,7 @@
 - Added Wrathful Orbs: a holy version of soulmass.
 - Added Holy Schism: a spell version of the divine spear items, but with multiple lines of spears.
 - Added Wrathful Barrage: a holy version of farron hail.
+- Proof of a Pact is now more generous with it's hit radius.
 
 # Rings
 - Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
@@ -168,3 +169,15 @@ Adjust Proof of Pact (bit inconsistent still)
 
 Finish relationship dialogues
 
+4500706
+4505706
+
+4502716
+
+# Flag to be on
+1675
+1661
+74500153
+
+# End if ON
+74500183
