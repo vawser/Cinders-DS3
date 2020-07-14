@@ -25,7 +25,7 @@
 53202075 Archdragon Peak
 54502074 Painted World of Ariandel
 55002062 Dreg Heap
-55102058 The Ringed City
+55102059 The Ringed City
 
 #------------------------------
 # Changelog
@@ -33,6 +33,7 @@
 # Weapons
 - Increased the damage of the Crystal Shower WA.
 - Reduced the strength of Sharpen WA to 20% (was 50%) and is now consider a weapon buff.
+- Reduced the critical hit bonus to 50% (was 100%).
 
 # Movesets
 - Phosphorescent Pole 2H Roll Attack is now the 2H greatsword thrust (matching the 1H animation).
@@ -41,11 +42,19 @@
 
 # Bosses
 - Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
-- Increased the toughness of Halflight significantly.
+- Increased the toughness of Halflight and the Painting Guardians significantly.
+- Increased the absorption and HP of DLC bosses to make them more of a challenge to lategame builds.
+
+# Memories
+- Changed the icon for Memories.
+- Added Memory of Halflight.
 
 # Spells
 - Increased the base damage of several spells to make the early game less punishing for casters.
 - Changed the stamina cost for most spells to 10% of the FP cost (i.e. 350 FP = 35 stamina to cast).
+- Added Wrathful Orbs: a holy version of soulmass.
+- Added Holy Schism: a spell version of the divine spear items, but with multiple lines of spears.
+- Added Wrathful Barrage: a holy version of farron hail.
 
 # Rings
 - Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
@@ -66,6 +75,11 @@
  - Soul of a Fallen Champion: grants 99 STR, DEX, INT, FTH and LCK for 30 seconds.
 - Changed Brightbug effect to: boost damage and absorption by 20% for 15 seconds.
 - Resonating Crystal trade with the Nestling now gives you a random special soul.
+- Added Soul of Halflight, can be transposed into:
+ - White Birch Bow
+ - Wrathful Orbs
+ - Holy Schism
+ - Wrathful Barrage
 
 # Oils
 - Removed the old weapon visual stones.
@@ -126,6 +140,8 @@
 - Ledo's Great Hammer WA should clear itself properly when used.
 - Glove aux buffs should now only apply to the right-hand.
 - Fixed Bloodust WA not working correctly.
+- Fixed Wolnir's table being missing.
+- Wolnir's front door no longer shuts when you use his Memory.
 
 #------------------------------
 # TODO
@@ -147,8 +163,4 @@
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
-Check wolnir table
-Stop wolnir memory reseting the front door
-
 Finish relationship dialogues
-Look at Halflight boss fight, adjust difficulty if trivial

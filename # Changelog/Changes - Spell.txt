@@ -850,6 +850,30 @@ Divine Pillars of Light
 - FTH Req: 40
 - Ascended Effect: summons an additional archer.
 
+#--------------------------------
+# Wrathful Orbs
+#--------------------------------
+- FP Cost: 400
+- Lightning Damage: 150 {*5, individual}
+- INT Req: 35
+- Ascended Effect: hits reduce target Lightning absorption by 20% for 10 seconds.
+
+#--------------------------------
+# Holy Schism
+#--------------------------------
+- FP Cost: 800
+- Lightning Damage: 400 [300] (*4, shared)
+- FTH Req: 40
+- Ascended Effect: emits 2 more lines.
+
+#--------------------------------
+# Wrathful Barrage
+#--------------------------------
+- FP Cost: 150
+- Lightning Damage: 200 {*20, shared}
+- FTH Req: 30
+- Ascended Effect: gains much better tracking.
+
 #--------------------------------------------------------------------------
 # Miracles - Effects
 #--------------------------------------------------------------------------

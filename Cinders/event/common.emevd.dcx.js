@@ -82,7 +82,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 9005, 9008);
     InitializeEvent(0, 9006, 9009);
     InitializeEvent(0, 9000, 9001, 9007, 9008, 9009);
-    InitializeEvent(0, 9002, 9003);
+    InitializeEvent(0, 9002, 9003); // Halflight reset
     InitializeEvent(0, 9010, 0);
     
     // Boss Defeat - Award Items
@@ -1829,6 +1829,7 @@ Event(400001, Default, function() {
     InitializeEvent(0, 4008220, 0); // Demon Prince
     InitializeEvent(0, 4008230, 0); // Darkeater Midir
     InitializeEvent(0, 4008240, 0); // Slave Knight Gael
+    InitializeEvent(0, 4008250, 0); // Halflight
 });
 
 // FP Regen
@@ -2684,7 +2685,7 @@ Event(4008070, Default, function() {
     SetEventFlag(9315, OFF);
     SetEventFlag(6315, OFF);
     SetEventFlag(13801800, OFF);
-    SetEventFlag(63800561, OFF);
+    SetEventFlag(63800560, OFF);
     
     // Warp Player
     SetPlayerRespawnPoint(3802950);
@@ -3096,3 +3097,29 @@ Event(4008240, Default, function() {
     
     EndUnconditionally(EventEndType.End);
 });
+
+// Halflight - Respawn
+Event(4008250, Default, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Flags
+    SetEventFlag(15100800, OFF);
+    SetEventFlag(6325, OFF);
+    SetEventFlag(9325, OFF);
+    SetEventFlag(9003, ON); // Reset flag
+    
+    // Warp Player
+    SetPlayerRespawnPoint(5102953);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 0, 5100981);
+    
+    EndUnconditionally(EventEndType.End);
+});
+
+
+
