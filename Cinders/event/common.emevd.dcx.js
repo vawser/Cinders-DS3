@@ -2518,10 +2518,10 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    // Silver Knight Ledo
-    SetEventFlag(15100170, OFF); 
-    
-    //SetSpeffect(4100900, 260200070);
+    SetEventFlag(1675, ON); 
+    SetEventFlag(1661, ON); 
+    SetEventFlag(74500153, ON); 
+    SetEventFlag(74500183, OFF); 
     
     EndUnconditionally(EventEndType.Restart);
 });

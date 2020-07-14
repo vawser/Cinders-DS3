@@ -165,19 +165,5 @@
  
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
-Adjust Proof of Pact (bit inconsistent still)
 
 Finish relationship dialogues
-
-4500706
-4505706
-
-4502716
-
-# Flag to be on
-1675
-1661
-74500153
-
-# End if ON
-74500183
