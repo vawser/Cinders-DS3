@@ -145,6 +145,7 @@
 - Fixed Bloodust WA not working correctly.
 - Fixed Wolnir's table being missing.
 - Wolnir's front door no longer shuts when you use his Memory.
+- Gravelord Sword backstab now uses correct motion values.
 
 #------------------------------
 # TODO
@@ -166,5 +167,4 @@
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
-Finish relationship dialogues
-
+Add memories to randomiser key items
