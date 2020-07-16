@@ -49,12 +49,3 @@
  - Drop/wield the Frying Pan
  
 Look into changing the block action for many weapons into left attack
-Add specific WA descriptions for weapons
-
-	UINT_PTR qBaseC = 0x144743AB0;
-	UINT_PTR qBaseD = 0x144743A80;
-	UINT_PTR qParam = 0x144782838;
-	UINT_PTR qBaseE = 0x14473FD08;
-	UINT_PTR qBaseF = 0x14473AD78;
-	UINT_PTR qBaseZ = 0x144768F98;
-	UINT_PTR qLockBonus = 0x1408C06A6;
