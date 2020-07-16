@@ -30,122 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Increased the damage of the Crystal Shower WA.
-- Reduced the strength of Sharpen WA to 20% (was 50%) and is now consider a weapon buff.
-- Reduced the critical hit bonus to 50% (was 100%).
-
-# Movesets
-- Phosphorescent Pole 2H Roll Attack is now the 2H greatsword thrust (matching the 1H animation).
-- Bewitched Alonne Sword: now has new moveset based on suggestions.
-- Increased the speed of the Greatsword/UGS follow-up R2 attacks by 30%.
-
-# Bosses
-- Vordt is now quicker in general. His charge attacks, hand smash and breath attacks are noticeable quicker.
-- Increased the toughness of Halflight and the Painting Guardians significantly.
-- Increased the absorption and HP of DLC bosses to make them more of a challenge to lategame builds.
-
-# Memories
-- Changed the icon for Memories.
-- Added Memory of Halflight.
-
-# Spells
-- Increased the base damage of several spells to make the early game less punishing for casters.
-- Changed the stamina cost for most spells to 10% of the FP cost (i.e. 350 FP = 35 stamina to cast).
-- Added Wrathful Orbs: a holy version of soulmass.
-- Added Holy Schism: a spell version of the divine spear items, but with multiple lines of spears.
-- Added Wrathful Barrage: a holy version of farron hail.
-- Proof of a Pact is now more generous with it's hit radius.
-
-# Rings
-- Ring of Retaliation: adds 75 Physical damage to rolling or kicking.
-- Ring of Reprisal: adds 75 Magic damage to rolling or kicking. 
-- Ring of Spite: adds 75 Fire damage to rolling or kicking.
-- Ring of Retribution: adds 75 Lightning damage to rolling or kicking.
-- Ring of Vengeance: adds 75 Dark damage to rolling or kicking.
-
-# Items
-- Changed the boss soul item values to be half the amount the boss itself drops (i.e. Midir's soul is worth 75,000, he normally drops 150,000).
-- Added special souls that rarely drop from powerful enemies. They grant powerful but short term buffs:
- - Soul of a Fallen Paladin: boosts all absorption by 80% for 30 seconds.
- - Soul of a Fallen Sentinel: boosts poise by 100 for 30 seconds.
- - Soul of a Fallen Sage: reduces spell and skill FP consumption by 80% for 30 seconds.
- - Soul of a Fallen Warrior: reduces weapon stamina consumption by 80% for 30 seconds.
- - Soul of a Fallen Astrologer: grants immunity to status for 30 seconds.
- - Soul of a Fallen Beserker: grants 100 stamina recovery for 30 seconds.
- - Soul of a Fallen Champion: grants 99 STR, DEX, INT, FTH and LCK for 30 seconds.
-- Changed Brightbug effect to: boost damage and absorption by 20% for 15 seconds.
-- Resonating Crystal trade with the Nestling now gives you a random special soul.
-- Added Soul of Halflight, can be transposed into:
- - White Birch Bow
- - Wrathful Orbs
- - Holy Schism
- - Wrathful Barrage
-
-# Oils
-- Removed the old weapon visual stones.
-- Added weapon oils that apply the same effects as the old stones. There are now two versions of each, one for the right-hand and one for the left-hand.
-- Added Cleansing Oil.
-- Added Off-hand Cleansing Oil.
-- Added Magical Oil.
-- Added Off-hand Magical Oil.
-- Added Fiery Oil.
-- Added Off-hand Fiery Oil.
-- Added Sparking Oil.
-- Added Off-hand Sparking Oil.
-- Added Abyssal Oil.
-- Added Off-hand Abyssal Oil.
-- Added Poisonous Oil.
-- Added Off-hand Poisonous Oil.
-- Added Bloody Oil.
-- Added Off-hand Bloody Oil.
-- Added Frost Oil.
-- Added Off-hand Frost Oil.
-- Added Moonlit Oil.
-- Added Off-hand Moonlit Oil.
-- Added Blessed Oil.
-- Added Off-hand Blessed Oil.
-- Added Black Fire Oil: applies an aura of black fire.
-
-# Relationships
-- Flirt option now has 3 outcomes (randomised on bonfire rest).
-- Getting a 'good' outcome will reward you will a unique gift, specific to that NPC.
-- The following NPCs as proposable and give the following:
- - Karla: Yearning Dregs (one-time)
- - Fire Keeper: Divine Blessing (repeatable)
- - Painter: Ceaseless Dung Pie (one-time) + special event
- - Rosaria: Brightbug (repeatable)
- - Archdeacon McDonnell: Abyssal Fragment (repeatable)
- - Company Captain Yorshka: Hidden Blessing (repeatable)
- - Domhnall of Zena: Awestone (repeatable)
- - Marvelous Chester: Twinkling Titanite (repeatable)
- - Crestfallen Merchant: Titanite Scale (repeatable)
- - Ludleth: an array of exotic souls (repeatable)
- - Yuria of Londor: Repel (one-time)
- - Orbeck of Vinheim: Crystal Fragment (repeatable)
- - Andre: random normal Titanite (repeatable)
- - Shrine Handmaid: Ember (repeatable)
- - Cornyx of the Great Swamp: Fire Seed (repeatable)
- - Irina of Carim: Holy Fragment (repeatable)
- - Patches: Undead Bone Shard (one-time)
- - Grave Warden Lillian: Climax (one-time)
- - Magnum Ursus: Estus Shard (one-time)
- - Greirat: Coins (repeatable)
- - Yoel: Dark Sigil (repeatable)
-
-# Treasure
-- Removed all the NG+ soul treasure replacements.
-- Moved the Ring of Betrothal to the Hollow Head location in Cemetery of Ash.
-- Moved the Giant Halberd/Shield to the Giant's corpse location.
-
-# Bugfixes
-- Added female version of the Censuring Palm animations.
-- Ledo's Great Hammer WA should clear itself properly when used.
-- Glove aux buffs should now only apply to the right-hand.
-- Fixed Bloodust WA not working correctly.
-- Fixed Wolnir's table being missing.
-- Wolnir's front door no longer shuts when you use his Memory.
-- Gravelord Sword backstab now uses correct motion values.
 
 #------------------------------
 # TODO
@@ -167,4 +51,10 @@
 Look into changing the block action for many weapons into left attack
 Add specific WA descriptions for weapons
 
-Add memories to randomiser key items
+	UINT_PTR qBaseC = 0x144743AB0;
+	UINT_PTR qBaseD = 0x144743A80;
+	UINT_PTR qParam = 0x144782838;
+	UINT_PTR qBaseE = 0x14473FD08;
+	UINT_PTR qBaseF = 0x14473AD78;
+	UINT_PTR qBaseZ = 0x144768F98;
+	UINT_PTR qLockBonus = 0x1408C06A6;
