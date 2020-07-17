@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002068 Cemetery of Ash / Unturned Graves
+54002069 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
 53102092 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
@@ -31,21 +31,38 @@
 # Changelog
 #------------------------------
 
+# Merchants
+- Added Enchanter Jiji: he sells the weapon oils and a few elixirs. Found on the outer rim of Firelink Tower.
+
 #------------------------------
 # TODO
 #------------------------------
-- Add Gravelord FFX, add Gravelord Sword Dance
-- Add praise the sun anim to solaire summon
-
 31420000 0840 / 1419 Hands of Sin
+    Custom moveset (more slappy, less jabby, WA galvanise base)
+    
 31430000 0864 / 1420 Frying Pan
+    Custom moveset (bonk, WA galvanise base)
+    
 31440000 0869 / 1421 Serpentine Chain-axe
+    Custom WA (spin slash?)
+    
 16170000 - 0873 / 1422 Imperious Greatshield
-14220000 - 0867 / 1423 Giant's Bow
-14230000 - 0870 / 1424 Model Ballista
 
-- Add Loretta invader
+14220000 - 0867 / 1423 Giant's Bow
+    Custom WA (multi millwood?)
+    
+14230000 - 0870 / 1424 Model Ballista
+    Custom WA (powerful staggering shot)
+    
+Look into changing the block action for many weapons into left attack
+Add praise the sun anim to solaire summon
+Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
  
-Look into changing the block action for many weapons into left attack
+Make Dragonrider Halberd match DS2 design (damage wise)
+ 
+Add Gravelord FFX, add Gravelord Sword Dance
+
+721800 / 400505 Enchanter Jiji
+ 250000

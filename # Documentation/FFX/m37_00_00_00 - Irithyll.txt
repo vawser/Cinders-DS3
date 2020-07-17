@@ -103,73 +103,73 @@
 631110
 631120
 631121
-651402
-651403
-651404
-651410
-651411
-651412
-651420
-651421
-651425
-651430
-651431
-651432
-651435
-651450
-651451
-651452
-651453
-651460
-651461
-651462
-651470
-651471
-651472
-651480
-651481
-651482
-651483
-651485
-651486
-651490
-651491
-651492
-651500
-651501
-651502
-651503
-651504
-651510
-651512
-651513
-651515
-651530
-651531
-651532
-651533
-651534
-651541
-651545
-651546
-651551
-651553
-651555
-651556
-651561
-651570
-651571
-651580
-651581
-651582
-651583
-651590
-651591
-651592
-651593
-651594
-651595
-651596
+651402 Pontiff Sulyvahn:
+651403 Pontiff Sulyvahn:
+651404 Pontiff Sulyvahn:
+651410 Pontiff Sulyvahn:
+651411 Pontiff Sulyvahn:
+651412 Pontiff Sulyvahn:
+651420 Pontiff Sulyvahn:
+651421 Pontiff Sulyvahn:
+651425 Pontiff Sulyvahn:
+651430 Pontiff Sulyvahn:
+651431 Pontiff Sulyvahn:
+651432 Pontiff Sulyvahn:
+651435 Pontiff Sulyvahn:
+651450 Pontiff Sulyvahn:
+651451 Pontiff Sulyvahn:
+651452 Pontiff Sulyvahn:
+651453 Pontiff Sulyvahn:
+651460 Pontiff Sulyvahn:
+651461 Pontiff Sulyvahn:
+651462 Pontiff Sulyvahn:
+651470 Pontiff Sulyvahn:
+651471 Pontiff Sulyvahn:
+651472 Pontiff Sulyvahn:
+651480 Pontiff Sulyvahn:
+651481 Pontiff Sulyvahn:
+651482 Pontiff Sulyvahn:
+651483 Pontiff Sulyvahn:
+651485 Pontiff Sulyvahn:
+651486 Pontiff Sulyvahn:
+651490 Pontiff Sulyvahn:
+651491 Pontiff Sulyvahn:
+651492 Pontiff Sulyvahn:
+651500 Aldrich: Big Purple Orb (inward pulse)
+651501 Aldrich: Purple Burst
+651502 Aldrich: Small Purple Orb
+651503 Aldrich: Small Purple Orb (moving)
+651504 Aldrich: Small Purple Burst
+651510 Aldrich: Big Purple Orb (coalescing)
+651512 Aldrich: Purple Soul Spear
+651513 Aldrich: Purple Soul Spear - Burst
+651515 Aldrich: Ground Sludge burst
+651530 Aldrich: Medium Purple Orb
+651531 Aldrich: -
+651532 Aldrich: Gravelord Sword Spike (red)
+651533 Aldrich: Gravelord Sword Spike - Burst
+651534 Aldrich: Gravelord Sword Spike - Aura
+651541 Aldrich: Abyssal Swirling Burst
+651545 Aldrich: Fire
+651546 Aldrich: Fire with Glow/Light
+651551 Aldrich: Gravelord Sword Thrust (purple)
+651553 Aldrich: Gravelord Sword Thrust (orange)
+651555 Aldrich: -
+651556 Aldrich: -
+651561 Aldrich: Dark Sludge spill
+651570 Aldrich: Ground Sludge rise marker
+651571 Aldrich: Ground Sludge rise marker (big)
+651580 Aldrich: -
+651581 Aldrich: -
+651582 Aldrich: Lifehunt Scythe
+651583 Aldrich: Lifehunt Scythe - Healing Orb
+651590 Aldrich: Staff
+651591 Aldrich: Line Burst
+651592 Aldrich: Pulsating Ground Swirl marker
+651593 Aldrich: Staff with Line Burst
+651594 Aldrich: Staff
+651595 Aldrich: Dark Screen Fog
+651596 Aldrich: Aldrich: Pulsating Ground Swirl marker
 652200
 652201
 652202

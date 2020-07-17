@@ -1,67 +1,67 @@
-﻿245001
-430000
-430001
-430002
-430010
-430011
-430012
-430030
-430031
-430032
-430041
-430042
-430051
-430052
-430061
-430062
-610900 Pus of Man: 
-610901 Pus of Man: 
-610905 Pus of Man: 
-610906 Pus of Man: 
-610907 Pus of Man: 
-610910 Pus of Man: 
-610911 Pus of Man: 
-610920 Pus of Man: 
-610921 Pus of Man: 
-610930 Pus of Man: 
-610940 Pus of Man: 
-610941 Pus of Man: 
-610942 Pus of Man: 
-611000 Hollow Soldier: 
-611001 Hollow Soldier: 
-611010 Hollow Soldier: 
-611011 Hollow Soldier: 
-611012 Hollow Soldier: 
-611300 Rotten Slug: 
-611301 Rotten Slug: 
-611302 Rotten Slug: 
-611900 Cathedral Knight: 
-611910 Cathedral Knight: 
-611911 Cathedral Knight: 
-611912 Cathedral Knight: 
-611913 Cathedral Knight: 
-611920 Cathedral Knight: 
-611921 Cathedral Knight: 
-611922 Cathedral Knight: 
-611930 Cathedral Knight: 
-611931 Cathedral Knight: 
-611932 Cathedral Knight: 
-611933 Cathedral Knight: 
-611940 Cathedral Knight: 
-611950 Cathedral Knight: 
-612000 Hollow Slave: 
-612001 Hollow Slave: 
-612002 Hollow Slave: 
-612003 Hollow Slave: 
-612010 Hollow Slave: 
-612011 Hollow Slave: 
-612012 Hollow Slave: 
-612013 Hollow Slave: 
-612800 Lothric Knight:
-612810 Lothric Knight:
-612812 Lothric Knight:
-612813 Lothric Knight:
-612814 Lothric Knight:
+﻿245001 Dark Red Blood Burst
+430000 -
+430001 -
+430002 Chameleon - Gold Fade-in 
+430010 -
+430011 Sitting Knight model
+430012 Chameleon - Gold Fade-in 
+430030 -
+430031 Praying Statue model
+430032 Chameleon - Gold Fade-in 
+430041 Crate model
+430042 Chameleon - Gold Fade-in 
+430051 Fancy chair model
+430052 Chameleon - Gold Fade-in 
+430061 Candleholder model
+430062 Chameleon - Gold Fade-in 
+610900 Pus of Man: faded purple blood burst
+610901 Pus of Man: faded purple blood bust (strong)
+610905 Pus of Man: -
+610906 Pus of Man: -
+610907 Pus of Man: -
+610910 Pus of Man: ground burst
+610911 Pus of Man: ground rock spitter
+610920 Pus of Man: -
+610921 Pus of Man: fire burn
+610930 Pus of Man: black rising fog
+610940 Pus of Man: -
+610941 Pus of Man: faded red blood spill
+610942 Pus of Man: faded black fog burst
+611000 Hollow Soldier: small fire
+611001 Hollow Soldier: small fire
+611010 Hollow Soldier: oilbomb
+611011 Hollow Soldier: oilbomb - moving
+611012 Hollow Soldier: oilbomb - burst (black)
+611300 Rotten Slug: -
+611301 Rotten Slug: faded purple blood spill 
+611302 Rotten Slug: faded purple blood burst 
+611900 Cathedral Knight: red eye
+611910 Cathedral Knight: golden orb
+611911 Cathedral Knight: golden orb burst point
+611912 Cathedral Knight: golden aura
+611913 Cathedral Knight: medium healing circle
+611920 Cathedral Knight: force aura (small)
+611921 Cathedral Knight: force burst
+611922 Cathedral Knight: force burst (small)
+611930 Cathedral Knight: blessed weapon aura
+611931 Cathedral Knight: blessed weapon burst
+611932 Cathedral Knight: force burst (medium)
+611933 Cathedral Knight: white orb (with spill)
+611940 Cathedral Knight: dark blue aura
+611950 Cathedral Knight: golden glow (small)
+612000 Hollow Slave: firebomb
+612001 Hollow Slave: firebomb - moving
+612002 Hollow Slave: firebomb - burst
+612003 Hollow Slave: firebomb - lingering flame
+612010 Hollow Slave: blowpipe dart
+612011 Hollow Slave: blowpipe dart
+612012 Hollow Slave: blowpipe dart
+612013 Hollow Slave: blowpipe dart (flicked)
+612800 Lothric Knight: red eye
+612810 Lothric Knight: holy orb
+612812 Lothric Knight: blessed weapon (sword)
+612813 Lothric Knight: blessed weapon
+612814 Lothric Knight: blessed weapon (spear)
 612905 Winged Knight:
 612906 Winged Knight:
 612908 Winged Knight:
