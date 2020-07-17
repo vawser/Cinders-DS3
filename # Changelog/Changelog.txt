@@ -38,6 +38,9 @@
 # Merchants
 - Added Enchanter Jiji: he sells the weapon oils and a few elixirs. Found on the outer rim of Firelink Tower.
 
+# Bugfixes
+- Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
+
 #------------------------------
 # TODO
 #------------------------------
@@ -65,13 +68,4 @@ Add Loretta invader
  - Drop/wield the Frying Pan
  
 Make Dragonrider Halberd match DS2 design (damage wise)
- 
-Remove unneeded Fire Keeper stuff in the new esd files.
 
-7124 Gravelord Sword Dance
-
-651532 Aldrich: Gravelord Sword Spike (red)
-651533 Aldrich: Gravelord Sword Spike - Burst
-651534 Aldrich: Gravelord Sword Spike - Aura
-
-3822000
