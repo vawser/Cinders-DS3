@@ -31,6 +31,10 @@
 # Changelog
 #------------------------------
 
+# Spells
+- Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
+- Reduced duration of Fecal Expulsion Toxic to 15 seconds (was 60). Made it actually Toxic.
+
 # Merchants
 - Added Enchanter Jiji: he sells the weapon oils and a few elixirs. Found on the outer rim of Firelink Tower.
 
@@ -62,7 +66,12 @@ Add Loretta invader
  
 Make Dragonrider Halberd match DS2 design (damage wise)
  
-Add Gravelord FFX, add Gravelord Sword Dance
+Remove unneeded Fire Keeper stuff in the new esd files.
 
-721800 / 400505 Enchanter Jiji
- 250000
+7124 Gravelord Sword Dance
+
+651532 Aldrich: Gravelord Sword Spike (red)
+651533 Aldrich: Gravelord Sword Spike - Burst
+651534 Aldrich: Gravelord Sword Spike - Aura
+
+3822000

@@ -1399,3 +1399,12 @@ Divine Pillars of Light
 - FTH Req: 30
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
 - Ascended Effect: increases Bleed inflict to 60.
+
+#--------------------------------
+# Gravelord Sword Dance
+#--------------------------------
+- FP Cost: 50
+- Dark Damage: 600 {*10, shared}
+- FTH Req: 30
+- Base Effect: inflicts 50 Toxic.
+- Ascended Effect: expands area of effect.
