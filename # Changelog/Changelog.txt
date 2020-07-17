@@ -40,6 +40,9 @@
 # Merchants
 - Added Enchanter Jiji: he sells the weapon oils and a few elixirs. Found on the outer rim of Firelink Tower.
 
+# Enemies
+- Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
+
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
 
