@@ -30,6 +30,8 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Dragonrider Halberd is now a Physical/Magic weapon.
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -66,6 +68,4 @@ Add praise the sun anim to solaire summon
 Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
- 
-Make Dragonrider Halberd match DS2 design (damage wise)
 
