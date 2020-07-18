@@ -75,7 +75,7 @@ increases evasive movement stamina costs by 50%.
 - Green Tearstone Ring: grants 100 stamina recovery whilst below 25% HP.
 - Violet Tearstone Ring: reduces spell FP costs by 50% whilst below 25% HP.
 - Bulwark Ring: prevents durability loss whilst equipped.
-- Runic Seal: Whilst below 50%, ironskin is applied to the wearer. Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack defelection by 65.
+- Runic Seal: Whilst below 50%, ironskin is applied to the wearer. Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack deflection by 65.
 - Black Tearstone Ring: boosts souls from enemies by 30% whilst below 25% health.
 - Elden Ring: grants 10% boost to physical damage.
 
@@ -108,4 +108,3 @@ Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
 
-Check randomiser keyitem/estus checks
