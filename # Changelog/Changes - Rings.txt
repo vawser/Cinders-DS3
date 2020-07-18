@@ -77,9 +77,9 @@
 # Life Ring
 - Weight: 1
 - [+0] Grants 10% increased Max HP
-- [+1] Grants 12% increased Max HP
-- [+2] Grants 14% increased Max HP
-- [+3] Grants 16% increased Max HP
+- [+1] Grants 15% increased Max HP
+- [+2] Grants 20% increased Max HP
+- [+3] Grants 25% increased Max HP
 - [+0] Source: Purchase - Shrine Handmaid
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -109,10 +109,10 @@
 
 # Ring of Favor
 - Weight: 1.5
-- [+0] Grants 6% increased Max HP, Max Stamina and Max. Equip Load.
-- [+1] Grants 8% increased Max HP, Max Stamina and Max. Equip Load.
-- [+2] Grants 10% increased Max HP, Max Stamina and Max. Equip Load.
-- [+3] Grants 12% increased Max HP, Max Stamina and Max. Equip Load.
+- [+0] Grants 7.5% increased Max HP, Max Stamina and Max. Equip Load.
+- [+1] Grants 10% increased Max HP, Max Stamina and Max. Equip Load.
+- [+2] Grants 12.5% increased Max HP, Max Stamina and Max. Equip Load.
+- [+3] Grants 15% increased Max HP, Max Stamina and Max. Equip Load.
 - [+0] Source: Drop - Sulyvahn's Beast - Irithyll of the Boreal Valley
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -120,10 +120,10 @@
 
 # Ring of Wisdom
 - Weight: 1
-- [+0] Increases max FP by 3%, reduces spell FP consumption by 5% and grants 1 attunement slot.
-- [+1] Increases max FP by 6%, reduces spell FP consumption by 6% and grants 1 attunement slot.
-- [+2] Increases max FP by 9%, reduces spell FP consumption by 7% and grants 1 attunement slot.
-- [+3] Increases max FP by 12%, reduces spell FP consumption by 8% and grants 1 attunement slot.
+- [+0] Increases max FP by 7.5%, reduces spell FP consumption by 5% and grants 1 attunement slot.
+- [+1] Increases max FP by 10%, reduces spell FP consumption by 6% and grants 1 attunement slot.
+- [+2] Increases max FP by 12.5%, reduces spell FP consumption by 7% and grants 1 attunement slot.
+- [+3] Increases max FP by 15%, reduces spell FP consumption by 8% and grants 1 attunement slot.
 - [+0] Source: Drop - Court Sorcerer - Profaned Capital
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -132,9 +132,9 @@
 # Ring of Steel Protection
 - Weight: 1.5
 - [+0] Grants 10% Physical Absorption
-- [+1] Grants 12% Physical Absorption
-- [+2] Grants 14% Physical Absorption
-- [+3] Grants 16% Physical Absorption
+- [+1] Grants 15% Physical Absorption
+- [+2] Grants 20% Physical Absorption
+- [+3] Grants 25% Physical Absorption
 - [+0] Source: Treasure - Archdragon Peak
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -143,9 +143,9 @@
 # Flame Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Fire Absorption
-- [+1] Grants 12% Fire Absorption
-- [+2] Grants 14% Fire Absorption
-- [+3] Grants 16% Fire Absorption
+- [+1] Grants 15% Fire Absorption
+- [+2] Grants 20% Fire Absorption
+- [+3] Grants 25% Fire Absorption
 - [+0] Source: Treasure - Undead Settlement
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -154,9 +154,9 @@
 # Thunder Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Lightning Absorption
-- [+1] Grants 12% Lightning Absorption
-- [+2] Grants 14% Lightning Absorption
-- [+3] Grants 16% Lightning Absorption
+- [+1] Grants 15% Lightning Absorption
+- [+2] Grants 20% Lightning Absorption
+- [+3] Grants 25% Lightning Absorption
 - [+0] Source: Treasure - Archdragon Peak
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -165,9 +165,9 @@
 # Magic Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Magic Absorption
-- [+1] Grants 12% Magic Absorption
-- [+2] Grants 14% Magic Absorption
-- [+3] Grants 16% Magic Absorption
+- [+1] Grants 15% Magic Absorption
+- [+2] Grants 20% Magic Absorption
+- [+3] Grants 25% Magic Absorption
 - [+0] Source: Drop - Cathedral Knight - Consumed King's Garden
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -176,9 +176,9 @@
 # Dark Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Dark Absorption
-- [+1] Grants 12% Dark Absorption
-- [+2] Grants 14% Dark Absorption
-- [+3] Grants 16% Dark Absorption
+- [+1] Grants 15% Dark Absorption
+- [+2] Grants 20% Dark Absorption
+- [+3] Grants 25% Dark Absorption
 - [+0] Source: Treasure - Irithyll of the Boreal Valley
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -187,9 +187,9 @@
 # Speckled Stoneplate Ring
 - Weight: 1
 - [+0] Grants 5% Magic, Fire, Lightning and Dark Absorption
-- [+1] Grants 6% Magic, Fire, Lightning and Dark Absorption
-- [+2] Grants 7% Magic, Fire, Lightning and Dark Absorption
-- [+3] Grants 8% Magic, Fire, Lightning and Dark Absorption
+- [+1] Grants 7.5% Magic, Fire, Lightning and Dark Absorption
+- [+2] Grants 10% Magic, Fire, Lightning and Dark Absorption
+- [+3] Grants 12.5% Magic, Fire, Lightning and Dark Absorption
 - [+0] Source: Treasure - Farron Keep
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -197,30 +197,33 @@
 
 # Bloodbite Ring
 - Weight: 1
-- Increases Bleed resistance by 250
+- Increases Bleed resistance by 100
+- Adds 30 Bleed inflict.
 - Source: Drop - Giant Rat - Undead Settlement
 
 # Poisonbite Ring
 - Weight: 1
-- Increases Poison and Toxic resistance by 250
+- Increases Poison and Toxic resistance by 100
+- Adds 30 Poison inflict.
 - Source: Treasure - Road of Sacrifices
 
 # Cursebite Ring
 - Weight: 1
-- Increases Curse resistance by 250
+- Increases Curse resistance by 100
+- Adds 30 Curse inflict.
 - Source: Treasure - Cathedral of the Deep
 
 # Fleshbite Ring
 - Weight: 1
-- Increases Poison, Toxic, Bleed, Curse and Frost resistance by 100
+- Increases Poison, Toxic, Bleed, Curse and Frost resistance by 250
 - Source: Treasure - Irithyll Dungeon
 
 # Wood Grain Ring
 - Weight: 1
 - [+0] Reduces weapon stamina consumption by 25%.
-- [+1] Reduces weapon stamina consumption by 27.5%.
-- [+2] Reduces weapon stamina consumption by 30%.
-- [+3] Reduces weapon stamina consumption by 32.5%.
+- [+1] Reduces weapon stamina consumption by 30%.
+- [+2] Reduces weapon stamina consumption by 35%.
+- [+3] Reduces weapon stamina consumption by 40%.
 - [+0] Source: Purchase - Easterner's Ashes - Shrine Handmaid
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -260,10 +263,10 @@
 
 # Wolf Ring
 - Weight: 1
-- [+0] Boosts poise by 20%.
-- [+1] Boosts poise by 25%.
-- [+2] Boosts poise by 30%.
-- [+3] Boosts poise by 35%.
+- [+0] Boosts poise by 25%.
+- [+1] Boosts poise by 30%.
+- [+2] Boosts poise by 35%.
+- [+3] Boosts poise by 40%.
 - [+0] Source: Covenant - Watchdogs of Farron
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -324,10 +327,10 @@
 
 # Dusk Crown Ring
 - Weight: 0.5
-- [+0] Boosts max FP by 15% but reduces max HP by 25%.
-- [+1] Boosts max FP by 20% but reduces max HP by 25%.
-- [+2] Boosts max FP by 25% but reduces max HP by 25%.
-- [+3] Boosts max FP by 30% but reduces max HP by 25%.
+- [+0] Boosts max FP by 25% but reduces max HP by 25%.
+- [+1] Boosts max FP by 30% but reduces max HP by 25%.
+- [+2] Boosts max FP by 35% but reduces max HP by 25%.
+- [+3] Boosts max FP by 40% but reduces max HP by 25%.
 - [+0] Source: Treasure - Irithyll Dungeon
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -346,10 +349,10 @@
 
 # Charred Bone
 - Weight: 1
-- [+0] Increases casting speed by 35 but reduces max HP by 25%. 
-- [+1] Increases casting speed by 40 but reduces max HP by 25%.
-- [+2] Increases casting speed by 45 but reduces max HP by 25%.
-- [+3] Increases casting speed by 50 but reduces max HP by 25%.
+- [+0] Increases casting speed by 50 whilst below 25% HP.
+- [+1] Increases casting speed by 60 whilst below 25% HP.
+- [+2] Increases casting speed by 70 whilst below 25% HP.
+- [+3] Increases casting speed by 80 whilst below 25% HP.
 - [+0] Source: Covenant - Chaos Servants
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -458,7 +461,7 @@
 
 # Carthus Milkring
 - Weight: 0.5
-- Reduces the stamina cost of evasion actions by 10% and obscures rolling.
+- Reduces the stamina cost of evasion actions by 25% and obscures rolling.
 - Source: Treasure - Catacombs of Carthus
 
 # Knight's Ring
@@ -566,9 +569,9 @@
 # Farron Ring
 - Weight: 1
 - [+0] Grants 30% reduction to the FP cost of Weapon Arts
-- [+1] Grants 32.5% reduction to the FP cost of Weapon Arts
-- [+2] Grants 35% reduction to the FP cost of Weapon Arts
-- [+3] Grants 37.5% reduction to the FP cost of Weapon Arts
+- [+1] Grants 40% reduction to the FP cost of Weapon Arts
+- [+2] Grants 50% reduction to the FP cost of Weapon Arts
+- [+3] Grants 60% reduction to the FP cost of Weapon Arts
 - [+0] Source: Quest - Hawkwood the Deserter
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -618,7 +621,7 @@
 # Carthus Bloodring
 - Weight: 0.5
 - Shifts evasion class downwards and obscures rolling, but
-increases evasive movement stamina costs by 200%.
+increases evasive movement stamina costs by 50%.
 - Source: Treasure - Catacombs of Carthus
 
 # Reversal Ring
@@ -639,9 +642,9 @@ increases evasive movement stamina costs by 200%.
 # Dragonscale Ring
 - Weight: 1
 - [+0] Grants 10% increased Max FP
-- [+1] Grants 12% increased Max FP
-- [+2] Grants 14% increased Max FP
-- [+3] Grants 16% increased Max FP
+- [+1] Grants 15% increased Max FP
+- [+2] Grants 20% increased Max FP
+- [+3] Grants 25% increased Max FP
 - [+0] Source: Treasure - Consumed King's Garden
 - [+1] Source: Empowered Enemy - NG+1
 - [+2] Source: Empowered Enemy - NG+2
@@ -649,12 +652,13 @@ increases evasive movement stamina costs by 200%.
 
 # Chillbite Ring
 - Weight: 1
-- Increases Frost resistance by 250
+- Increases Frost resistance by 100
+- Adds 30 Frost inflict.
 - Source: Quest - Sister Friede
 
 # Ring of Londor
 - Weight: 0.5
-- Increases casting speed by 40 whilst at 100% HP.
+- Enables FP to regenerate continuously, removing the cooldown after casting.
 - Source: Treasure - Grand Archives
 
 # Spirit Amethyst
@@ -669,27 +673,31 @@ increases evasive movement stamina costs by 200%.
 
 # Symbol of the Penitent
 - Weight: 1
-- Grants 20% increased Max Stamina
-- Source: Treasure - Road of Sacrifices
+- [+0] Grants 25% increased Max Stamina
+- [+1] Grants 30% increased Max Stamina
+- [+2] Grants 35% increased Max Stamina
+- [+3] Grants 40% increased Max Stamina
+- [+0] Source: Treasure - Road of Sacrifices
 
 # Runic Seal
 - Weight: 2
-- Increases attack deflection by 50.
+- Whilst below 50%, ironskin is applied to the wearer. 
+- Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack defelection by 65.
 - Source: Treasure - Farron Keep
 
 # Greatwood Remnants
 - Weight: 3
-- Increases physical defence by 50% but increases evasive stamina consumption by 50%.
+- Increases physical defence by 50% but increases evasive stamina consumption by 20%.
 - Source: Boss - Curse-rotted Greatwood
 
 # Green Tearstone Ring
 - Weight: 1
-- Grants 50 stamina recovery whilst below 25% HP.
+- Grants 100 stamina recovery whilst below 25% HP.
 - Source: Treasure - Farron Keep
 
 # Violet Tearstone Ring
 - Weight: 1
-- Boosts casting speed by 50 whilst below 25% HP.
+- Reduces spell FP costs by 50% whilst below 25% HP.
 - Source: Treasure - Road of Sacrifices
 
 # Demonsbane Ring
@@ -714,32 +722,32 @@ increases evasive movement stamina costs by 200%.
 
 # Ring of Retaliation
 - Weight: 0.5
-- Grants 30 Physical damage on rolling action.
+- Grants 75 Physical damage whilst rolling or kicking.
 - Source: Treasure - Farron Keep
 
 # Ring of Reprisal
 - Weight: 0.5
-- Grants 30 Magic damage on rolling action.
+- Grants 75 Magic damage whilst rolling or kicking.
 - Source: Treasure - Irithyll of the Boreal Valley
 
 # Ring of Spite
 - Weight: 0.5
-- Grants 30 Fire damage on rolling action.
+- Grants 75 Fire damage whilst rolling or kicking.
 - Source: Treasure - Smouldering Lake
 
 # Ring of Retribution
 - Weight: 0.5
-- Grants 30 Lightning damage on rolling action.
+- Grants 75 Lightning damage whilst rolling or kicking.
 - Source: Treasure - Archdragon Peak
 
 # Ring of Vengeance
 - Weight: 0.5
-- Grants 30 Dark damage on rolling action.
+- Grants 75 Dark damage whilst rolling or kicking.
 - Source: Treasure - Irithyll Dungeon
 
 # Bulwark Ring
 - Weight: 1
-- Boosts durability by 20
+- Prevents durability loss.
 - Source: Treasure - Undead Settlement
 
 # Mercenary Ring
@@ -844,7 +852,7 @@ increases evasive movement stamina costs by 200%.
 
 # Black Tearstone Ring
 - Weight: 1
-- Boosts souls from enemies by 25% whilst below 25% health.
+- Boosts souls from enemies by 30% whilst below 25% health.
 - Source: Treasure - Undead Settlement
 
 # Bestial Band
@@ -954,27 +962,31 @@ increases evasive movement stamina costs by 200%.
 
 # Cursed Ring of Evasion
 - Weight: 1
-- Removes the cost of evasive movements by 25%. Applies 10 Curse to the wearer every second.
+- Reduces the cost of evasive movements by 50%.
+- Reduced max HP by 50%.
 - Source: Drop - Eija the Shadow
 
 # Cursed Ring of Vengeance
 - Weight: 1
-- Imbues Curse upon the currently wielded weapon. Applies 20 Curse to the wearer every second.
+- Dead enemies will explode, dealing damage to other enemies.
+- Reduced max HP by 50%.
 - Source: Drop - Freya the Wretched
 
 # Cursed Ring of Deflection
 - Weight: 1
-- Automatically deflect spells. Applies 50 Curse to the wearer every second.
+- Randomly deflect spells.
+- Reduced max HP by 50%.
 - Source: Drop - Nahor the Fallen
 
 # Cursed Ring of Confusion
 - Weight: 1
-- Emits a confusion aura, allowing enemies to harm one another. Applies 30 Curse to the wearer every second.
+- Emits a confusion aura, allowing enemies to harm one another.
+- Reduced max HP by 50%.
 - Source: Drop - Dulfisk the Accursed
 
 # Elden Ring
 - Weight: 1
-- Grants 7.5% boost to physical damage.
+- Grants 10% boost to physical damage.
 - Source: Drop - Glaive Master Hodir
 
 # Rare Ring of Humanity
@@ -982,7 +994,3 @@ increases evasive movement stamina costs by 200%.
 - Boosts defences by 25%.
 - Source: Covenant - Pilgrims of Dark
 
-# Tomb Ring
-- Weight: 1
-- Take on the apperance of a tomb ghost.
-- Source: Treasure - Catacombs of Carthus

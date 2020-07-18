@@ -788,30 +788,30 @@ function SetEvasionStaminaCost()
     
     -- Carthus Bloodring Effect
     if env(1116, 112000) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 3
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 3
-        c_StaminaCostJump = c_StaminaCostJump * 3
-    end
-    
-    -- Greatwood Remnants Effect
-    if env(1116, 112002) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 1.5
         c_StaminaCostBackStep = c_StaminaCostBackStep * 1.5
         c_StaminaCostJump = c_StaminaCostJump * 1.5
     end
     
+    -- Greatwood Remnants Effect
+    if env(1116, 112002) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling * 1.2
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 1.2
+        c_StaminaCostJump = c_StaminaCostJump * 1.2
+    end
+    
     -- Carthus Milkring Effect
     if env(1116, 112001) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.9
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.9
-        c_StaminaCostJump = c_StaminaCostJump * 0.9
+        c_StaminaCostRolling = c_StaminaCostRolling * 0.75
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
+        c_StaminaCostJump = c_StaminaCostJump * 0.75
     end
     
     -- Cursed Ring of Evasion Effect
     if env(1116, 112003) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.75
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
-        c_StaminaCostJump = c_StaminaCostJump * 0.75
+        c_StaminaCostRolling = c_StaminaCostRolling * 0.5
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.5
+        c_StaminaCostJump = c_StaminaCostJump * 0.5
     end
     
     -- Curse of Gluttony
@@ -2475,108 +2475,110 @@ function ExecMagic(quick_type, blend_type)
     end
     
     -- Disable FP Regen after Cast
-    if magic_type == 0 then -- Soul Arrow
-        act(2002, 113001) -- 2 
-    elseif magic_type == 1 then -- Weapon Bufff
-        act(2002, 113004) -- 5
-    elseif magic_type == 2 then -- Body Buff
-        act(2002, 113004) -- 5
-    elseif magic_type == 3 then -- Heal
-        act(2002, 113005) -- 15
-    elseif magic_type == 4 then -- Heal
-        act(2002, 113005) -- 15
-    elseif magic_type == 5 then -- Fireball
-        act(2002, 113001) -- 2
-    elseif magic_type == 6 then -- Body Buff
-        act(2002, 113004) -- 5
-    elseif magic_type == 7 then -- Drain
-        act(2002, 113002) -- 3
-    elseif magic_type == 8 then -- Great Combustion
-        act(2002, 113002) -- 3
-    elseif magic_type == 9 then -- Poison Mist
-        act(2002, 113002) -- 3
-    elseif magic_type == 10 then -- Firestorm
-        act(2002, 113002) -- 3
-    elseif magic_type == 11 then -- Rapport
-        act(2002, 113004) -- 5
-    elseif magic_type == 12 then -- Force
-        act(2002, 113001) -- 2
-    elseif magic_type == 13 then -- Chameleon
-        act(2002, 113002) -- 3
-    elseif magic_type == 14 then -- Transform
-        act(2002, 113002) -- 3
-    elseif magic_type == 15 then -- Weapon Buff
-        act(2002, 113002) -- 3
-    elseif magic_type == 16 then -- Summon
-        act(2002, 113002) -- 3
-    elseif magic_type == 17 then -- Shield Buff
-        act(2002, 113002) -- 3
-    elseif magic_type == 18 then -- Emit Force
-        act(2002, 113001) -- 2
-    elseif magic_type == 19 then -- Lightning Spear
-        act(2002, 113002) -- 3
-    elseif magic_type == 20 then -- Slow Soul Arrow
-        act(2002, 113002) -- 3
-    elseif magic_type == 21 then -- Breath
-        act(2002, 113002) -- 3
-    elseif magic_type == 22 then -- Very Slow Soul Arrow
-        act(2002, 113002) -- 3
-    elseif magic_type == 23 then -- Fire Surge
-        act(2002, 113000) -- 1
-    elseif magic_type == 24 then -- Fire Whip
-        act(2002, 113001) -- 2
-    elseif magic_type == 25 then -- Soul Greatsword
-        act(2002, 113002) -- 3
-    elseif magic_type == 26 then -- Heal
-        act(2002, 113005) -- 15
-    elseif magic_type == 27 then -- Heal Aid
-        act(2002, 113005) -- 15
-    elseif magic_type == 28 then -- Sacred Oath
-        act(2002, 113004) -- 5
-    elseif magic_type == 29 then -- Farron Dart
-        act(2002, 113000) -- 1
-    elseif magic_type == 30 then -- Farron Flashsword
-        act(2002, 113000) -- 1
-    elseif magic_type == 31 then -- Soul Stream
-        act(2002, 113004) -- 5
-    elseif magic_type == 32 then -- Profaned Flame
-        act(2002, 113002) -- 3
-    elseif magic_type == 33 then -- Sacred Flame
-        act(2002, 113002) -- 3
-    elseif magic_type == 34 then -- Lightning Stake
-        act(2002, 113002) -- 3
-    elseif magic_type == 35 then -- Gnaw
-        act(2002, 113001) -- 2
-    elseif magic_type == 36 then -- Lightning Storm
-        act(2002, 113002) -- 3
-    elseif magic_type == 37 then -- Dark Edge
-        act(2002, 113000) -- 1
-    elseif magic_type == 38 then -- Warmth
-        act(2002, 113004) -- 5
-    elseif magic_type == 39 then -- Wrath of the Gods
-        act(2002, 113002) -- 3
-    elseif magic_type == 40 then -- Farron Hail
-        act(2002, 113001) -- 2
-    elseif magic_type == 41 then -- Slow Soul Arrow
-        act(2002, 113002) -- 3
-    elseif magic_type == 42 then -- Black Serpent
-        act(2002, 113002) -- 3
-    elseif magic_type == 43 then -- Chaos Bed Vestiges
-        act(2002, 113002) -- 3
-    elseif magic_type == 44 then -- Lifehunt Scythe
-        act(2002, 113002) -- 3
-    elseif magic_type == 45 then -- Divine Pillars of Light
-        act(2002, 113002) -- 3
-    elseif magic_type == 46 then -- Old Moonlight
-        act(2002, 113002) -- 3
-    elseif magic_type == 47 then -- Floating Chaos
-        act(2002, 113002) -- 3
-    elseif magic_type == 48 then -- Way of White Corona
-        act(2002, 113000) -- 1
-    elseif magic_type == 49 then -- Lightning Arrow
-        act(2002, 113000) -- 1
-    elseif magic_type == 50 then -- Flame Fan
-        act(2002, 113000) -- 1
+    if env(1116, 112080) == FALSE then -- Skip if Ring of Londor is equipped
+        if magic_type == 0 then -- Soul Arrow
+            act(2002, 113001) -- 2 
+        elseif magic_type == 1 then -- Weapon Bufff
+            act(2002, 113004) -- 5
+        elseif magic_type == 2 then -- Body Buff
+            act(2002, 113004) -- 5
+        elseif magic_type == 3 then -- Heal
+            act(2002, 113005) -- 15
+        elseif magic_type == 4 then -- Heal
+            act(2002, 113005) -- 15
+        elseif magic_type == 5 then -- Fireball
+            act(2002, 113001) -- 2
+        elseif magic_type == 6 then -- Body Buff
+            act(2002, 113004) -- 5
+        elseif magic_type == 7 then -- Drain
+            act(2002, 113002) -- 3
+        elseif magic_type == 8 then -- Great Combustion
+            act(2002, 113002) -- 3
+        elseif magic_type == 9 then -- Poison Mist
+            act(2002, 113002) -- 3
+        elseif magic_type == 10 then -- Firestorm
+            act(2002, 113002) -- 3
+        elseif magic_type == 11 then -- Rapport
+            act(2002, 113004) -- 5
+        elseif magic_type == 12 then -- Force
+            act(2002, 113001) -- 2
+        elseif magic_type == 13 then -- Chameleon
+            act(2002, 113002) -- 3
+        elseif magic_type == 14 then -- Transform
+            act(2002, 113002) -- 3
+        elseif magic_type == 15 then -- Weapon Buff
+            act(2002, 113002) -- 3
+        elseif magic_type == 16 then -- Summon
+            act(2002, 113002) -- 3
+        elseif magic_type == 17 then -- Shield Buff
+            act(2002, 113002) -- 3
+        elseif magic_type == 18 then -- Emit Force
+            act(2002, 113001) -- 2
+        elseif magic_type == 19 then -- Lightning Spear
+            act(2002, 113002) -- 3
+        elseif magic_type == 20 then -- Slow Soul Arrow
+            act(2002, 113002) -- 3
+        elseif magic_type == 21 then -- Breath
+            act(2002, 113002) -- 3
+        elseif magic_type == 22 then -- Very Slow Soul Arrow
+            act(2002, 113002) -- 3
+        elseif magic_type == 23 then -- Fire Surge
+            act(2002, 113000) -- 1
+        elseif magic_type == 24 then -- Fire Whip
+            act(2002, 113001) -- 2
+        elseif magic_type == 25 then -- Soul Greatsword
+            act(2002, 113002) -- 3
+        elseif magic_type == 26 then -- Heal
+            act(2002, 113005) -- 15
+        elseif magic_type == 27 then -- Heal Aid
+            act(2002, 113005) -- 15
+        elseif magic_type == 28 then -- Sacred Oath
+            act(2002, 113004) -- 5
+        elseif magic_type == 29 then -- Farron Dart
+            act(2002, 113000) -- 1
+        elseif magic_type == 30 then -- Farron Flashsword
+            act(2002, 113000) -- 1
+        elseif magic_type == 31 then -- Soul Stream
+            act(2002, 113004) -- 5
+        elseif magic_type == 32 then -- Profaned Flame
+            act(2002, 113002) -- 3
+        elseif magic_type == 33 then -- Sacred Flame
+            act(2002, 113002) -- 3
+        elseif magic_type == 34 then -- Lightning Stake
+            act(2002, 113002) -- 3
+        elseif magic_type == 35 then -- Gnaw
+            act(2002, 113001) -- 2
+        elseif magic_type == 36 then -- Lightning Storm
+            act(2002, 113002) -- 3
+        elseif magic_type == 37 then -- Dark Edge
+            act(2002, 113000) -- 1
+        elseif magic_type == 38 then -- Warmth
+            act(2002, 113004) -- 5
+        elseif magic_type == 39 then -- Wrath of the Gods
+            act(2002, 113002) -- 3
+        elseif magic_type == 40 then -- Farron Hail
+            act(2002, 113001) -- 2
+        elseif magic_type == 41 then -- Slow Soul Arrow
+            act(2002, 113002) -- 3
+        elseif magic_type == 42 then -- Black Serpent
+            act(2002, 113002) -- 3
+        elseif magic_type == 43 then -- Chaos Bed Vestiges
+            act(2002, 113002) -- 3
+        elseif magic_type == 44 then -- Lifehunt Scythe
+            act(2002, 113002) -- 3
+        elseif magic_type == 45 then -- Divine Pillars of Light
+            act(2002, 113002) -- 3
+        elseif magic_type == 46 then -- Old Moonlight
+            act(2002, 113002) -- 3
+        elseif magic_type == 47 then -- Floating Chaos
+            act(2002, 113002) -- 3
+        elseif magic_type == 48 then -- Way of White Corona
+            act(2002, 113000) -- 1
+        elseif magic_type == 49 then -- Lightning Arrow
+            act(2002, 113000) -- 1
+        elseif magic_type == 50 then -- Flame Fan
+            act(2002, 113000) -- 1
+        end
     end
     
     if env(116) == TRUE then

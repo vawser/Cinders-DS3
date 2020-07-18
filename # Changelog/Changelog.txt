@@ -42,6 +42,42 @@
 
 # Enemies
 - Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
+- Reduced Painting Guardian HP/absorption.
+
+# Rings
+- Life Ring: changed +1/+2/+3 to 15%, 20% and 25%.
+- Dragonscale Ring: changed +1/+2/+3 to 15%, 20% and 25%.
+- Ring of Favor: changed +0/+1/+2/+3 to 7.5%/10%/12.5%/15%.
+- Ring of Wisdom: changed FP part of +0/+1/+2/+3 to 7.5%/10%/12.5%/15%.
+- Changed the +1/+2/+3 stoneplate rings to 15%/20%/25%.
+- Changed the +1/+2/+3 Speckled Stoneplate Ring to 7.5%/10%/12.5%.
+- Bloodbite Ring: now increases bleed resistance by 100 and imbues right-hand weapon with 30 Bleed.
+- Poisonbite Ring: now increases poison/toxic resistance by 100 and imbues right-hand weapon with 30 Poison.
+- Cursebite Ring: now increases curse resistance by 100 and imbues right-hand weapon with 30 Curse.
+- Chillbite Ring: now increases frost resistance by 100 and imbues right-hand weapon with 30 Frost.
+- Fleshbite Ring: now raises poison, bleed, frost and curse resistance by 250.
+- Carthus Milkring: now reduces the stamina cost of evasion actions by 25%.
+- Cursed Ring of Evasion: now reduces the cost of evasive movements by 50% but reduces max HP by 50%.
+- Cursed Ring of Vengeance: now causes dead enemies to explode, dealing damage to other enemies but reduces max HP by 50%.
+- Cursed Ring of Deflection: now deflects spells randomly (3 seconds ON, 3 seconds OFF cycle) but reduces max HP by 50%.
+- Cursed Ring of Confusion: emits a confusion aura, allowing enemies to harm one another but reduces max HP by 50%.
+- Carthus Bloodring: shifts evasion class downwards and obscures rolling, but
+increases evasive movement stamina costs by 50%.
+- Greatwood Remnants: increases physical defence by 50% but increases evasive stamina consumption by 20%.
+- Wood Grain Ring: changed +1/+2/+3 to 30%/35%/40%.
+- Wolf Ring: changed +0/+1/+2/+3 to 25%/30%/35%/40%.
+- Dusk Crown Ring: changed FP part to +0/+1/+2/+3 to 25%/30%/35%/40%.
+- Tome of Sunlight: changed +0/+1/+2/+3 to 15%/20%/25%/30%.
+- Charred Bone: now ncreases casting speed by 50 whilst below 25% HP. (60/70/80 for +1/+2/+3).
+- Farron Ring: changed +1/+2/+3 to 40%/50%/60%.
+- Ring of Londor: enables FP to regenerate continuously, removing the cooldown after casting.
+- Symbol of the Penitent: changed +0/+1/+2/+3 to 25%/30%/35%/40%.
+- Green Tearstone Ring: grants 100 stamina recovery whilst below 25% HP.
+- Violet Tearstone Ring: reduces spell FP costs by 50% whilst below 25% HP.
+- Bulwark Ring: prevents durability loss whilst equipped.
+- Runic Seal: Whilst below 50%, ironskin is applied to the wearer. Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack defelection by 65.
+- Black Tearstone Ring: boosts souls from enemies by 30% whilst below 25% health.
+- Elden Ring: grants 10% boost to physical damage.
 
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
@@ -72,3 +108,4 @@ Add Loretta invader
  - Spawn in the nook by the ledge with the bone
  - Drop/wield the Frying Pan
 
+Check randomiser keyitem/estus checks
