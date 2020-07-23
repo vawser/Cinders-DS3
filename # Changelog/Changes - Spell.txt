@@ -143,13 +143,12 @@ Divine Pillars of Light
 - Ascended Effect: increases poise damage.
 
 #--------------------------------
-# Scattered Farron Dart
+# Scattering Soul Orb
 #--------------------------------
-- FP Cost: 150
-- Magic Damage: 120 {*6, individual}
+- FP Cost: 250
+- Magic Damage: 60 {*25, individual}
 - INT Req: 10
-- INT Req: 10
-- Ascended Effect: gains much better tracking.
+- Ascended Effect: emits more bullets. {*50, individual}
 
 #--------------------------------
 # Soul Arrow
@@ -160,12 +159,12 @@ Divine Pillars of Light
 - Ascended Effect: gains much better tracking.
 
 #--------------------------------
-# Scattered Soul Arrow
+# Scattering Crystal Orb
 #--------------------------------
-- FP Cost: 240
-- Magic Damage: 200 {*4, individual}
+- FP Cost: 350
+- Magic Damage: 120 {*25, individual}
 - INT Req: 20
-- Ascended Effect: gains much better tracking.
+- Ascended Effect: emits more bullets. {*50, individual}
 
 #--------------------------------
 # Soul Spear

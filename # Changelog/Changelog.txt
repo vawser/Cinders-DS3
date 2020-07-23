@@ -36,6 +36,8 @@
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
 - Reduced duration of Fecal Expulsion Toxic to 15 seconds (was 60). Made it actually Toxic.
+- Changed Scattered Farron Dart into Scattering Soul Orb: emits an orb that fire soul darts sporadically for 5 seconds.
+- Changed Scattered Soul Arrow into Scattering Crystal Orb: emits an orb that fire soul arrows sporadically for 5 seconds.
 
 # Merchants
 - Added Alchemist Jiji: he sells the weapon oils, elixirs and herbs. Found on the outer rim of Firelink Tower.
@@ -43,6 +45,9 @@
 # Enemies
 - Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
 - Reduced Painting Guardian HP/absorption.
+
+# Items
+- Reduced sell value of exotic souls.
 
 # Rings
 - Life Ring: changed +1/+2/+3 to 15%, 20% and 25%.
@@ -104,7 +109,4 @@ increases evasive movement stamina costs by 50%.
     
 Look into changing the block action for many weapons into left attack
 Add praise the sun anim to solaire summon
-Add Loretta invader
- - Spawn in the nook by the ledge with the bone
- - Drop/wield the Frying Pan
 
