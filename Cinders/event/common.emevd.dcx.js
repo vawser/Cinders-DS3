@@ -1664,8 +1664,150 @@ Event(870, Default, function(X0_1, X4_4) {
 //------------------------------------------------------
 // Setup - Host only
 Event(400000, Default, function() {
-    InitializeEvent(0, 400016, 0); // NG+ Flags
-    InitializeEvent(0, 400017, 0); // Relationships
+    InitializeEvent(0, 400010, 0); // Game Flags - Once
+    InitializeEvent(0, 400011, 0); // Game Flags - On Load
+    InitializeEvent(0, 400012, 0); // NG+ Flags
+    InitializeEvent(0, 400013, 0); // Relationships
+});
+
+//------------------------------------------------
+// Game Flags - Once
+//------------------------------------------------
+Event(400010, Default, function(X0_4, X4_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
+    
+    SetEventFlag(25000001, OFF); // Curse of Obscurity
+    SetEventFlag(25000002, OFF); // Curse of Vitality
+    SetEventFlag(25000003, OFF); // Curse of Wrath
+    SetEventFlag(25000004, OFF); // Curse of Pride
+    SetEventFlag(25000005, OFF); // Curse of Simplicity
+    SetEventFlag(25000006, OFF); // Curse of Fortitude
+    SetEventFlag(25000007, OFF); // Curse of Gluttony
+    SetEventFlag(25000008, OFF); // Curse of Frailty
+    SetEventFlag(25000009, OFF); // Curse of Enfeeblement
+    SetEventFlag(25000020, OFF); // Curse of Impermanence
+    
+    SetEventFlag(25000100, OFF); // Mark of Sanguis
+    SetEventFlag(25000101, OFF); // Mark of Canis
+    
+    SetEventFlag(25000010, ON); // Deathless Run
+    
+    // Enable Firelink Shrine bonfire
+    SetBonfireWarpingState(4001950, 60430, Enabled);
+    SetEventFlag(74000010, OFF);
+    SetEventFlag(14000101, ON);
+    SetEventFlag(13100004, ON);
+    SetEventFlag(13000000, ON);
+    
+    SetEventFlag(74000171, 1) // Transposition Enabled
+    
+    // Boss Kill Flags
+    SetEventFlag(25001001, OFF); // Corrupted Gundyr
+    SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
+    SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
+    SetEventFlag(25001004, OFF); // Crystal Sage
+    SetEventFlag(25001005, OFF); // Deacons of the Deep
+    SetEventFlag(25001006, OFF); // Abyss Watchers
+    SetEventFlag(25001007, OFF); // High Lord Wolnir
+    SetEventFlag(25001008, OFF); // Old Demon King
+    SetEventFlag(25001009, OFF); // Pontiff Sulyvahn
+    SetEventFlag(25001010, OFF); // Aldrich, Devourer of Gods
+    SetEventFlag(25001011, OFF); // Yhorm the Giant
+    SetEventFlag(25001012, OFF); // Dancer of the Boreal Valley
+    SetEventFlag(25001013, OFF); // Oceiros, the Consumed King
+    SetEventFlag(25001014, OFF); // Dragonslayer Armour
+    SetEventFlag(25001015, OFF); // Ancient Wyvern
+    SetEventFlag(25001016, OFF); // Nameless King
+    SetEventFlag(25001017, OFF); // Champion Gundyr
+    SetEventFlag(25001018, OFF); // Twin Princes
+    SetEventFlag(25001019, OFF); // Soul of Cinder
+    SetEventFlag(25001020, OFF); // Sister Friede
+    SetEventFlag(25001021, OFF); // Lordran Remnants
+    SetEventFlag(25001022, OFF); // Demon Prince
+    SetEventFlag(25001023, OFF); // Darkeater Midir 
+    SetEventFlag(25001024, OFF); // Slave Knight Gael
+    SetEventFlag(25001025, OFF); // Halflight
+    
+    // Bonfire Option flags
+    SetEventFlag(25000400, OFF); // Travel
+    SetEventFlag(25000401, OFF); // Level Up
+    SetEventFlag(25000402, OFF); // Allot Estus
+    SetEventFlag(25000403, OFF); // Attune Spell
+    SetEventFlag(25000404, OFF); // Reinforce Weapon
+    SetEventFlag(25000405, OFF); // Infuse Weapon
+    SetEventFlag(25000406, OFF); // Repair Equipment
+    SetEventFlag(25000407, OFF); // Purchase Item
+    SetEventFlag(25000408, OFF); // Sell Item
+    SetEventFlag(25000409, OFF); // Organize Storage Box
+    
+    SetEventFlag(25000099, ON); // Execution flag
+});
+
+//------------------------------------------------
+// Game Flags - On Load
+//------------------------------------------------
+Event(400011, Restart, function() {
+    // Defaults
+    SetEventFlag(25000402, ON); // Allot Estus
+    SetEventFlag(25000403, ON); // Attune Spell
+    SetEventFlag(25000409, ON); // Organize Storage Box
+    SetEventFlag(25000400, ON); // Travel
+    SetEventFlag(25000401, OFF); // Level Up
+    SetEventFlag(25000404, OFF); // Reinforce Weapon
+    SetEventFlag(25000405, OFF); // Infuse Weapon
+    SetEventFlag(25000406, OFF); // Repair Equipment
+    SetEventFlag(25000407, OFF); // Purchase Item
+    SetEventFlag(25000408, OFF); // Sell Item
+    
+    // Soul Vessel
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_01);
+    SetEventFlag(25000401, ON); // Level Up
+    
+    // Smithbox
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 2006, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02);
+    SetEventFlag(25000404, ON); // Reinforce Weapon
+    SetEventFlag(25000405, ON); // Infuse Weapon
+    SetEventFlag(25000406, ON); // Repair Equipment
+    
+    // Essence of Avarice
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 2004, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
+    SetEventFlag(25000407, ON); // Purchase Item
+    SetEventFlag(25000408, ON); // Sell Item
+});
+
+//------------------------------------------------
+// NG+ Flags
+//------------------------------------------------
+Event(400012, Default, function() {
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
+    SetEventFlag(25000011, ON); // NG+1
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 2);
+    SetEventFlag(25000012, ON); // NG+2
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 3);
+    SetEventFlag(25000013, ON); // NG+3
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 4);
+    SetEventFlag(25000014, ON); // NG+4
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 5);
+    SetEventFlag(25000015, ON); // NG+5
+});
+
+//------------------------------------------------
+// Relationship Flirt Flag
+//------------------------------------------------
+Event(400013, Restart, function() {
+    SetEventFlag(25008900, OFF); 
+    SetEventFlag(25008901, OFF); 
+    SetEventFlag(25008902, OFF); 
+    SetEventFlag(25008904, OFF);
+    
+    RandomlySetEventFlagInRange(25008900, 25008902, ON);
 });
 
 // Setup - Host and Client
@@ -2175,50 +2317,6 @@ Event(400601, Default, function(X0_4, X4_4) {
     
     SetSpeffect(10000, X4_4);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Add Effect to X
-Event(400010, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, X0_4, X4_4, true, ComparisonType.GreaterOrEqual, 0);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetSpeffect(X0_4, X4_4);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// NG+ Flags
-Event(400016, Default, function() {
-    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
-    SetEventFlag(25000011, ON); // NG+1
-    
-    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 2);
-    SetEventFlag(25000012, ON); // NG+2
-    
-    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 3);
-    SetEventFlag(25000013, ON); // NG+3
-    
-    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 4);
-    SetEventFlag(25000014, ON); // NG+4
-    
-    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 5);
-    SetEventFlag(25000015, ON); // NG+5
-});
-
-// Relationship Flirt Flag
-Event(400017, Restart, function() {
-    SetEventFlag(25008900, OFF); 
-    SetEventFlag(25008901, OFF); 
-    SetEventFlag(25008902, OFF); 
-    SetEventFlag(25008904, OFF);
-    
-    RandomlySetEventFlagInRange(25008900, 25008902, ON);
-});
-
-// Show Curse Information
-Event(400020, Restart, function(X0_4, X4_4) {
-    WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X0_4);
-    DisplayEpitaphMessage(X4_4);
-    SetEventFlag(X0_4, OFF);
     EndUnconditionally(EventEndType.Restart);
 });
 

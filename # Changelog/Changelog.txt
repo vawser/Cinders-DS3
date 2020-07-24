@@ -13,9 +13,9 @@
 # These need to be used for new treasures in each area
 54002069 Cemetery of Ash / Unturned Graves
 53002100 High Wall of Lothric / Consumed King's Garden
-53102092 Undead Settlement
+53102093 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
-53502082 Cathedral of the Deep
+53502083 Cathedral of the Deep
 53802176 Catacombs of Carthus / Smouldering Lake
 53702148 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
@@ -27,11 +27,38 @@
 55002062 Dreg Heap
 55102059 The Ringed City
 
+# Shop Flag Ranges
+74002000 -> 74002080 Yoel
+74003000 -> 74004030 Andre
+74005000 -> 74006370 Shrine Handmaid
+74007000 -> 74007560 Greirat 
+74008000 -> 74008350 Orbeck
+74009000 -> 74009300 Cornyx
+74010000 -> 74010280 Karla
+74011000 -> 74011250 Irina
+74012000 -> 74012130 Patches
+74013000 -> 74013330 Domhnall
+74014000 -> 74014040 Marvelous Chester
+74015000 -> 74015050 Crestfallen Merchant
+74016000 -> 74016090 Grave Warden Lillian
+74017000 -> 74017240 Alchemist Jiji
+74018000 -> 74018000 Stone-humped Hag
+
+# Covenants
+74021150 
+
 #------------------------------
 # Changelog
 #------------------------------
+# Bonfires
+- Restricted a few of the options to now require certain key items before they will appear:
+ - Level Up: requires the Soul Vessel - Dropped by the Deacons of the Deep.
+ - Buy/Sell: requires Essence of Avarice - Dropped but he Curse-rotted Greatwood.
+ - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
+
 # Weapons
 - Dragonrider Halberd is now a Physical/Magic weapon.
+- Weapons will no longer bounce off walls.
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -109,4 +136,9 @@ increases evasive movement stamina costs by 50%.
     
 Look into changing the block action for many weapons into left attack
 Add praise the sun anim to solaire summon
+
+Adjust shield attack anim speed
+Adjust whip attack anim speed
+Adjust bow attack anim speed (equalize short/longbow)
+Check Ledo invader
 

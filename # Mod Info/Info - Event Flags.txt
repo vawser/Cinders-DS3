@@ -16,6 +16,17 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000015 NG+5
 25000099 Game Flags Set
 
+25000400 Travel
+25000401 Level Up
+25000402 Allot Estus
+25000403 Attune Spell
+25000404 Reinforce Weapon
+25000405 Infuse Weapon
+25000406 Repair Equipment
+25000407 Purchase Item
+25000408 Sell Item
+25000409 Organize Storage Box
+
 25000200 Covenant
 25000201 Covenant
 25000202 Covenant

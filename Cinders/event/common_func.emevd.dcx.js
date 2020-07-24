@@ -4876,68 +4876,6 @@ Event(20009201, Default, function(X0_4, X4_4) {
 });
 
 //----------------------------------------------
-// Setup Game Flags
-//----------------------------------------------
-Event(20009300, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
-    
-    SetEventFlag(25000001, OFF); // Curse of Obscurity
-    SetEventFlag(25000002, OFF); // Curse of Vitality
-    SetEventFlag(25000003, OFF); // Curse of Wrath
-    SetEventFlag(25000004, OFF); // Curse of Pride
-    SetEventFlag(25000005, OFF); // Curse of Simplicity
-    SetEventFlag(25000006, OFF); // Curse of Fortitude
-    SetEventFlag(25000007, OFF); // Curse of Gluttony
-    SetEventFlag(25000008, OFF); // Curse of Frailty
-    SetEventFlag(25000009, OFF); // Curse of Enfeeblement
-    SetEventFlag(25000020, OFF); // Curse of Impermanence
-    
-    SetEventFlag(25000100, OFF); // Mark of Sanguis
-    SetEventFlag(25000101, OFF); // Mark of Canis
-    
-    SetEventFlag(25000010, ON); // Deathless Run
-    
-    // Enable Firelink Shrine bonfire
-    SetBonfireWarpingState(4001950, 60430, Enabled);
-    SetEventFlag(74000010, OFF);
-    SetEventFlag(14000101, ON);
-    SetEventFlag(13100004, ON);
-    SetEventFlag(13000000, ON);
-    
-    SetEventFlag(74000171, 1) // Transposition Enabled
-    
-    // Boss Kill Flags
-    SetEventFlag(25001001, OFF); // Corrupted Gundyr
-    SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
-    SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
-    SetEventFlag(25001004, OFF); // Crystal Sage
-    SetEventFlag(25001005, OFF); // Deacons of the Deep
-    SetEventFlag(25001006, OFF); // Abyss Watchers
-    SetEventFlag(25001007, OFF); // High Lord Wolnir
-    SetEventFlag(25001008, OFF); // Old Demon King
-    SetEventFlag(25001009, OFF); // Pontiff Sulyvahn
-    SetEventFlag(25001010, OFF); // Aldrich, Devourer of Gods
-    SetEventFlag(25001011, OFF); // Yhorm the Giant
-    SetEventFlag(25001012, OFF); // Dancer of the Boreal Valley
-    SetEventFlag(25001013, OFF); // Oceiros, the Consumed King
-    SetEventFlag(25001014, OFF); // Dragonslayer Armour
-    SetEventFlag(25001015, OFF); // Ancient Wyvern
-    SetEventFlag(25001016, OFF); // Nameless King
-    SetEventFlag(25001017, OFF); // Champion Gundyr
-    SetEventFlag(25001018, OFF); // Twin Princes
-    SetEventFlag(25001019, OFF); // Soul of Cinder
-    SetEventFlag(25001020, OFF); // Sister Friede
-    SetEventFlag(25001021, OFF); // Lordran Remnants
-    SetEventFlag(25001022, OFF); // Demon Prince
-    SetEventFlag(25001023, OFF); // Darkeater Midir 
-    SetEventFlag(25001024, OFF); // Slave Knight Gael
-    SetEventFlag(25001025, OFF); // Halflight
-    
-    SetEventFlag(25000099, ON); // Execution flag
-});
-
-//----------------------------------------------
 // Corrupted Gundyr - Boss Kill
 //----------------------------------------------
 Event(20020000, Default, function() {
