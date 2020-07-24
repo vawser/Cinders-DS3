@@ -51,11 +51,30 @@
 # Changelog
 #------------------------------
 # Bonfires
-- Restricted a few of the options to now require certain key items before they will appear:
- - Level Up: requires the Soul Vessel - Dropped by the Deacons of the Deep.
- - Buy/Sell: requires Essence of Avarice - Dropped but he Curse-rotted Greatwood.
+- Restricted a few of the options to now require specific key items before they will appear:
+ - Level Up: requires the Soul Vessel - Dropped by the Curse-rotted Greatwood.
+ - Buy/Sell: requires Essence of Avarice - Dropped by mimic in High Wall.
  - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
-
+ 
+# Warps
+- The in-map warps now require specific key items to use. It will tell you if you are missing it.
+- High Wall -> Archdragon Peak
+ - Requires Dragon Talon: found near the Serpent-man in High Wall.
+- Undead Settlement -> Farron Keep
+ - Requires Pilgrim's Soul: found on the roof in the section after the Tower Giant's gauntlet in Undead Settlement.
+- Undead Settlement -> Catacombs
+ - Requires Catacombs Key: found on a lower ledge roof in the Demon section of Undead Settlement.
+- Irithyll Dungeon -> Smouldering Lake
+ - Requires Smouldering Key: found in Irithyll in the alley with 3 dogs guarding a corpse.
+- Cathedral -> Irithyll
+ - Requires Eye of Londor: dropped by the Deacons of the Deep.
+- Irithyll -> Ariandel
+ - Requires Frozen Flower: found in the area before you drop down to the Cathedral Evangelist in Irithyll.
+- Cemetery of Ash -> Dreg Heap
+ - Requires Broken Tablet: found in the area after Vordt in High Wall.
+- Ballista Warp
+ - Requires Giant's Soul: found in the cave part of lower Smouldering Lake.
+ 
 # Weapons
 - Dragonrider Halberd is now a Physical/Magic weapon.
 - Weapons will no longer bounce off walls.
@@ -75,6 +94,7 @@
 
 # Items
 - Reduced sell value of exotic souls.
+- Braille Divine Tome of Carim is now on a corpse in front of the dragon encounter.
 
 # Rings
 - Life Ring: changed +1/+2/+3 to 15%, 20% and 25%.
@@ -141,4 +161,6 @@ Adjust shield attack anim speed
 Adjust whip attack anim speed
 Adjust bow attack anim speed (equalize short/longbow)
 Check Ledo invader
+
+
 

@@ -1739,6 +1739,7 @@ Event(400010, Default, function(X0_4, X4_4) {
     SetEventFlag(25000407, OFF); // Purchase Item
     SetEventFlag(25000408, OFF); // Sell Item
     SetEventFlag(25000409, OFF); // Organize Storage Box
+    SetEventFlag(25000410, OFF); // Undead Match
     
     SetEventFlag(25000099, ON); // Execution flag
 });
@@ -1752,12 +1753,15 @@ Event(400011, Restart, function() {
     SetEventFlag(25000403, ON); // Attune Spell
     SetEventFlag(25000409, ON); // Organize Storage Box
     SetEventFlag(25000400, ON); // Travel
+    SetEventFlag(25000410, ON); // Undead Match
+    
     SetEventFlag(25000401, OFF); // Level Up
     SetEventFlag(25000404, OFF); // Reinforce Weapon
     SetEventFlag(25000405, OFF); // Infuse Weapon
     SetEventFlag(25000406, OFF); // Repair Equipment
     SetEventFlag(25000407, OFF); // Purchase Item
     SetEventFlag(25000408, OFF); // Sell Item
+    
     
     // Soul Vessel
     IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);

@@ -4717,14 +4717,21 @@ Event(20008150, Default, function(X0_4, X4_4) {
 //----------------------------------------------
 // Warp to Location 
 //----------------------------------------------
-Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
+Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    IfActionButtonInArea(AND_01, X4_4, X0_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    DisplayEpitaphMessage(X28_4);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
-    SendAllPhantomsHome(0);
-    WaitFixedTimeSeconds(1);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -4756,29 +4763,43 @@ Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 //----------------------------------------------
 // Warp to Location - DLC1
 //----------------------------------------------
-Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
+Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 6951);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    IfActionButtonInArea(AND_01, X4_4, X0_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    DisplayEpitaphMessage(X28_4);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
-    SendAllPhantomsHome(0);
-    WaitFixedTimeSeconds(1);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
 // Warp to Location - DLC2
 //----------------------------------------------
-Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
+Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 6952);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    IfActionButtonInArea(AND_01, X4_4, X0_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    DisplayEpitaphMessage(X28_4);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
-    SendAllPhantomsHome(0);
-    WaitFixedTimeSeconds(1);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
