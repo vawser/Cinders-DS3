@@ -16,7 +16,7 @@
 53102093 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
-53802176 Catacombs of Carthus / Smouldering Lake
+53802177 Catacombs of Carthus / Smouldering Lake
 53702148 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
 53012090 Lothric Castle
@@ -164,4 +164,5 @@ Check Ledo invader
 
 Make sandworm wall a prompt thing and make the sandworms drop an item that allows it to be exploded
 
-2100
+22000100 Smouldering Rubble
+

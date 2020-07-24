@@ -135,6 +135,5 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009000 Random flag range
 
 # Map State
-25009100 Sandworm Gate opened
-
-
+25009100 Sandworm Item state
+25009101 Sandworm Wall state
