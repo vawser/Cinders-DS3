@@ -131,6 +131,9 @@ increases evasive movement stamina costs by 50%.
 - Black Tearstone Ring: boosts souls from enemies by 30% whilst below 25% health.
 - Elden Ring: grants 10% boost to physical damage.
 
+# Map
+- Changed the Sandworm wall in Smouldering Lake. It now requires the Smouldering Rubble item to be destroyed (rather than automatically disappearing when all 3 worms are dead). The item itself is dropped by one of the worms.
+
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
 
@@ -156,13 +159,10 @@ increases evasive movement stamina costs by 50%.
     
 Look into changing the block action for many weapons into left attack
 Add praise the sun anim to solaire summon
+Check Ledo invader
+
 
 Adjust shield attack anim speed
 Adjust whip attack anim speed
 Adjust bow attack anim speed (equalize short/longbow)
-Check Ledo invader
-
-Make sandworm wall a prompt thing and make the sandworms drop an item that allows it to be exploded
-
-22000100 Smouldering Rubble
-
+Perfect block (parry) mechanic

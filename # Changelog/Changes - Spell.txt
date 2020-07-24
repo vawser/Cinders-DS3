@@ -146,7 +146,7 @@ Divine Pillars of Light
 # Scattering Soul Orb
 #--------------------------------
 - FP Cost: 250
-- Magic Damage: 60 {*25, individual}
+- Magic Damage: 50 {*25, individual}
 - INT Req: 10
 - Ascended Effect: emits more bullets. {*50, individual}
 
@@ -162,7 +162,7 @@ Divine Pillars of Light
 # Scattering Crystal Orb
 #--------------------------------
 - FP Cost: 350
-- Magic Damage: 120 {*25, individual}
+- Magic Damage: 100 {*25, individual}
 - INT Req: 20
 - Ascended Effect: emits more bullets. {*50, individual}
 
