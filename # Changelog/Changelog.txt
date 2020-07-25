@@ -79,6 +79,8 @@
 - Dragonrider Halberd is now a Physical/Magic weapon.
 - Weapons will no longer bounce off walls.
 - Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
+- Increased whip speed (20% faster).
+- Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -161,8 +163,4 @@ increases evasive movement stamina costs by 50%.
 Look into changing the block action for many weapons into left attack
 Add praise the sun anim to solaire summon
 Check Ledo invader
-
-
-Adjust whip attack anim speed
-Adjust bow attack anim speed (equalize short/longbow)
 
