@@ -34,18 +34,30 @@
 74007000 -> 74007560 Greirat 
 74008000 -> 74008350 Orbeck
 74009000 -> 74009300 Cornyx
-74010000 -> 74010280 Karla
-74011000 -> 74011250 Irina
-74012000 -> 74012130 Patches
-74013000 -> 74013330 Domhnall
-74014000 -> 74014040 Marvelous Chester
-74015000 -> 74015050 Crestfallen Merchant
-74016000 -> 74016090 Grave Warden Lillian
-74017000 -> 74017240 Alchemist Jiji
-74018000 -> 74018000 Stone-humped Hag
+
+74500000 Karla
+74501000 Irina
+74502000 Patches
+74503000 Domhnall
+74504000 Marvelous Chester
+74505000 Crestfallen Merchant
+74506000 Grave Warden Lillian
+74507000 Alchemist Jiji
+74508000 Stone-humped Hag
 
 # Covenants
-74021150 
+74101000 Darkmoon Faithful
+74101500 Watchdogs of Farron
+74102000 Aldrich Faithful
+74102500 Warrior of Sunlight
+74103000 Mound-makers
+74103500 Chaos Servants
+74104000 Rosaria's Fingers
+74104500 Spears of the Church
+74105000 Vinheim Scholars
+74105500 Pilgrims of Dark
+74106000 Dragon Remnants
+74106500 Way of White
 
 #------------------------------
 # Changelog

@@ -1890,25 +1890,8 @@ Event(400001, Default, function() {
     InitializeEvent(0, 400400, 10000); // Blood of Might
     InitializeEvent(0, 400402, 10000); // Event Flag Tool
     
-    // Elixirs - Special
-    InitializeEvent(0, 400500, 160701000, 160701010); // Cleansing Elixir
-    InitializeEvent(0, 400501, 160701200, 160701210); // Accursed Elixir
-    InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
-    
-    // Elixirs
-    InitializeEvent(0, 400510, 160701300, 160701310); // Elixir of Ghosts
-    InitializeEvent(1, 400510, 160701400, 160701410); // Darkmoon Elixir
-    InitializeEvent(2, 400510, 160701500, 160701510); // Holy Elixir
-    InitializeEvent(3, 400510, 160701600, 160701610); // Earthen Elixir
-    InitializeEvent(4, 400510, 160701700, 160701710); // Abyssal Elixir
-    InitializeEvent(5, 400510, 160701800, 160701810); // Sunlight Elixir
-    InitializeEvent(6, 400510, 160701900, 160701910); // Maddening Elixir
-    InitializeEvent(7, 400510, 160702000, 160702010); // Bloody Elixir
-    InitializeEvent(8, 400510, 160702100, 160702110); // Demonic Elixir
-    InitializeEvent(9, 400510, 160702200, 160702210); // Elixir of Deceit
-    InitializeEvent(10, 400510, 160702300, 160702310); // Elixir of Cooperation
-    
     // Transformations
+    InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
     InitializeEvent(0, 400530, 160703000); // Rattling Finger
     
     InitializeEvent(0, 400540, 160703100, 160703110, 160703111); // Murky Finger
@@ -1919,32 +1902,6 @@ Event(400001, Default, function() {
     InitializeEvent(0, 400541, 160703200, 160703210, 160704000); // Demonic Skull
     InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
     InitializeEvent(2, 400541, 160703400, 160703410, 160704000); // Dragon Head Stone
-    
-    // Right - Weapon Auras
-    InitializeEvent(0,  400600, 160706001, 160706000); // Cleansing Oil
-    InitializeEvent(1,  400600, 160706011, 160706010); // Magical Oil
-    InitializeEvent(2,  400600, 160706021, 160706020); // Fiery Oil
-    InitializeEvent(3,  400600, 160706031, 160706030); // Sparking Oil
-    InitializeEvent(4,  400600, 160706041, 160706040); // Abyssal Oil
-    InitializeEvent(5,  400600, 160706051, 160706050); // Poisonous Oil
-    InitializeEvent(6,  400600, 160706061, 160706060); // Bloody Oil
-    InitializeEvent(7,  400600, 160706071, 160706070); // Frost Oil
-    InitializeEvent(8,  400600, 160706081, 160706080); // Moonlit Oil
-    InitializeEvent(9,  400600, 160706091, 160706090); // Blessed Oil
-    InitializeEvent(10, 400600, 160706101, 160706100); // Black Fire Oil
-    
-    // Left - Weapon Auras
-    InitializeEvent(0,  400601, 160706006, 160706005); // Cleansing Oil
-    InitializeEvent(1,  400601, 160706016, 160706015); // Magical Oil
-    InitializeEvent(2,  400601, 160706026, 160706025); // Fiery Oil
-    InitializeEvent(3,  400601, 160706036, 160706035); // Sparking Oil
-    InitializeEvent(4,  400601, 160706046, 160706045); // Abyssal Oil
-    InitializeEvent(5,  400601, 160706056, 160706055); // Poisonous Oil
-    InitializeEvent(6,  400601, 160706066, 160706065); // Bloody Oil
-    InitializeEvent(7,  400601, 160706076, 160706075); // Frost Oil
-    InitializeEvent(8,  400601, 160706086, 160706085); // Moonlit Oil
-    InitializeEvent(9,  400601, 160706096, 160706095); // Blessed Oil
-    InitializeEvent(10, 400601, 160706106, 160706105); // Black Fire Oil
     
     // General Scripts
     InitializeEvent(0, 400700, 10000); // No Hit State
