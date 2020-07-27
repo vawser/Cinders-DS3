@@ -98,6 +98,9 @@
 - Increased whip speed (20% faster).
 - Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
 
+# Armor
+- Added the Ledo Set by Wiglow.
+
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
 - Reduced duration of Fecal Expulsion Toxic to 15 seconds (was 60). Made it actually Toxic.
@@ -184,3 +187,9 @@ Look into changing the block action for many weapons into left attack
     Custom WA (powerful staggering shot)
     
 
+9895    Ledo Set
+
+7137 Ledo's Helm
+7138 Ledo's Armor
+7139 Ledo's Gauntlets
+7140 Ledo's Leggings
