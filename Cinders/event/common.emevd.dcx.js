@@ -1987,69 +1987,6 @@ Event(400700, Default, function(X0_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Cleansing Elixir
-Event(400500, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    // Elixirs
-    ClearSpeffect(10000, 160701100); // Psychedelic Elixir
-    ClearSpeffect(10000, 160701110); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701112); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701113); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701114); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701115); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701116); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701117); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701118); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701418); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701210); // Accursed Elixir
-    ClearSpeffect(10000, 160701310); // Elixir of Ghosts
-    ClearSpeffect(10000, 160701410); // Darkmoon Elixir
-    ClearSpeffect(10000, 160701510); // Holy Elixir
-    ClearSpeffect(10000, 160701610); // Earthen Elixir
-    ClearSpeffect(10000, 160701710); // Abyssal Elixir
-    ClearSpeffect(10000, 160701810); // Sunlight Elixir
-    ClearSpeffect(10000, 160701910); // Maddening Elixir 
-    ClearSpeffect(10000, 160702010); // Bloody Elixir
-    ClearSpeffect(10000, 160702110); // Demonic Elixir
-    ClearSpeffect(10000, 160702210); // Elixir of Deceit
-    ClearSpeffect(10000, 160702310); // Elixir of Cooperation
-    
-    // Transformations
-    ClearSpeffect(10000, 160703000); // Rattling Finger
-    ClearSpeffect(10000, 160703010); // Rattling Finger - Type 1 (Head)
-    ClearSpeffect(10000, 160703020); // Rattling Finger - Type 2 (Head)
-    ClearSpeffect(10000, 160703030); // Rattling Finger - Type 3 (Head)
-    ClearSpeffect(10000, 160703040); // Rattling Finger - Type 4 (Head)
-    ClearSpeffect(10000, 160703110); // Murky Finger (Head)
-    ClearSpeffect(10000, 160703210); // Demonic Skull (Head)
-    ClearSpeffect(10000, 160703310); // Forgotten Seal (Head)
-    ClearSpeffect(10000, 160703410); // Dragon Head Stone (Head)
-    
-    ClearSpeffect(10000, 160703011); // Rattling Finger - Type 1 (Body)
-    ClearSpeffect(10000, 160703021); // Rattling Finger - Type 2 (Body)
-    ClearSpeffect(10000, 160703031); // Rattling Finger - Type 3 (Body)
-    ClearSpeffect(10000, 160703041); // Rattling Finger - Type 4 (Body)
-    ClearSpeffect(10000, 160703111); // Murky Finger (Body)
-    ClearSpeffect(10000, 160703211); // Demonic Claw (Body)
-    ClearSpeffect(10000, 160703311); // Forgotten Tablet (Body)
-    ClearSpeffect(10000, 160703411); // Dragon Torso Stone (Body)
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Accursed Elixir
-Event(400501, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160701300); // Accursed Elixir
-    
-    // Elixirs
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Psychedelic Elixir - Triggered
 Event(400502, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
@@ -2108,39 +2045,6 @@ Event(400502, Default, function(X0_4) {
     WaitFixedTimeSeconds(0.1);
     IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
     EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// X Elixir
-Event(400510, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    // Elixirs
-    ClearSpeffect(10000, 160701100); // Psychedelic Elixir
-    ClearSpeffect(10000, 160701110); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701112); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701113); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701114); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701115); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701116); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701117); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701118); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701418); // Psychedelic Elixir - Color
-    ClearSpeffect(10000, 160701210); // Accursed Elixir
-    ClearSpeffect(10000, 160701310); // Elixir of Ghosts
-    ClearSpeffect(10000, 160701410); // Darkmoon Elixir
-    ClearSpeffect(10000, 160701510); // Holy Elixir
-    ClearSpeffect(10000, 160701610); // Earthen Elixir
-    ClearSpeffect(10000, 160701710); // Abyssal Elixir
-    ClearSpeffect(10000, 160701810); // Sunlight Elixir
-    ClearSpeffect(10000, 160701910); // Maddening Elixir 
-    ClearSpeffect(10000, 160702010); // Bloody Elixir
-    ClearSpeffect(10000, 160702110); // Demonic Elixir
-    ClearSpeffect(10000, 160702210); // Elixir of Deceit
-    ClearSpeffect(10000, 160702310); // Elixir of Cooperation
-
-    SetSpeffect(10000, X4_4);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2235,46 +2139,6 @@ Event(400541, Default, function(X0_4, X4_4) {
     ClearSpeffect(10000, 160703210); // Demonic Skull (Head)
     ClearSpeffect(10000, 160703310); // Forgotten Seal (Head)
     ClearSpeffect(10000, 160703410); // Dragon Head Stone (Head)
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Apply Stone (Right)
-Event(400600, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706010);
-    ClearSpeffect(10000, 160706020);
-    ClearSpeffect(10000, 160706030);
-    ClearSpeffect(10000, 160706040);
-    ClearSpeffect(10000, 160706050);
-    ClearSpeffect(10000, 160706060);
-    ClearSpeffect(10000, 160706070);
-    ClearSpeffect(10000, 160706080);
-    ClearSpeffect(10000, 160706090);
-    ClearSpeffect(10000, 160706100);
-    
-    SetSpeffect(10000, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Apply Stone (Left)
-Event(400601, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
-    
-    ClearSpeffect(10000, 160706015);
-    ClearSpeffect(10000, 160706025);
-    ClearSpeffect(10000, 160706035);
-    ClearSpeffect(10000, 160706045);
-    ClearSpeffect(10000, 160706055);
-    ClearSpeffect(10000, 160706065);
-    ClearSpeffect(10000, 160706075);
-    ClearSpeffect(10000, 160706085);
-    ClearSpeffect(10000, 160706095);
-    ClearSpeffect(10000, 160706105);
     
     SetSpeffect(10000, X4_4);
     
