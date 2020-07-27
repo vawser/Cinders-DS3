@@ -12,7 +12,7 @@
 
 # These need to be used for new treasures in each area
 54002069 Cemetery of Ash / Unturned Graves
-53002100 High Wall of Lothric / Consumed King's Garden
+53002101 High Wall of Lothric / Consumed King's Garden
 53102093 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
@@ -28,12 +28,12 @@
 55102059 The Ringed City
 
 # Shop Flag Ranges
-74002000 -> 74002080 Yoel
-74003000 -> 74004030 Andre
-74005000 -> 74006370 Shrine Handmaid
-74007000 -> 74007560 Greirat 
-74008000 -> 74008350 Orbeck
-74009000 -> 74009300 Cornyx
+74002000 Yoel
+74003000 / 74004000 Andre
+74005000 / 74006000 Shrine Handmaid
+74007000 Greirat 
+74008000 Orbeck
+74009000 Cornyx
 
 74500000 Karla
 74501000 Irina
@@ -67,6 +67,10 @@
  - Level Up: requires the Soul Vessel - Dropped by the Curse-rotted Greatwood.
  - Buy/Sell: requires Essence of Avarice - Dropped by mimic in High Wall.
  - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
+ 
+# Companions
+- Now required you to be embered to summon.
+- Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
  
 # Warps
 - The in-map warps now require specific key items to use. It will tell you if you are missing it.
@@ -102,6 +106,7 @@
 
 # Merchants
 - Added Alchemist Jiji: he sells the weapon oils, elixirs and herbs. Found on the outer rim of Firelink Tower.
+- Added Solaire of Astora: offers early access to the Warrior of Sunlight covenant, found after Vordt.
 
 # Enemies
 - Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
@@ -151,10 +156,13 @@ increases evasive movement stamina costs by 50%.
 
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
+- Silver Knight Ledo should appear properly now.
 
 #------------------------------
 # TODO
 #------------------------------
+Look into changing the block action for many weapons into left attack
+
 31420000 0840 / 1419 Hands of Sin
     Custom moveset (more slappy, less jabby, WA galvanise base)
     
@@ -172,7 +180,4 @@ increases evasive movement stamina costs by 50%.
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-Look into changing the block action for many weapons into left attack
-Add praise the sun anim to solaire summon
-Check Ledo invader
 

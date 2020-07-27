@@ -6607,6 +6607,7 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Ember active
     WaitForConditionGroupState(PASS, AND_01);
     
     SetSpeffect(10000, 160761300); // Clear current companions
