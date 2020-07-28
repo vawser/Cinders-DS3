@@ -1692,6 +1692,8 @@ Event(400010, Default, function(X0_4, X4_4) {
     
     SetEventFlag(25000010, ON); // Deathless Run
     
+    SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
+    
     // Enable Firelink Shrine bonfire
     SetBonfireWarpingState(4001950, 60430, Enabled);
     SetEventFlag(74000010, OFF);
@@ -1761,7 +1763,6 @@ Event(400011, Restart, function() {
     SetEventFlag(25000406, OFF); // Repair Equipment
     SetEventFlag(25000407, OFF); // Purchase Item
     SetEventFlag(25000408, OFF); // Sell Item
-    
     
     // Soul Vessel
     IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);

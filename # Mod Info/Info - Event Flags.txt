@@ -138,3 +138,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 # Map State
 25009100 Sandworm Item state
 25009101 Sandworm Wall state
+
+25009512 El Hueso state
+
+25009520 Magnum Ursus - Dark Soul turn-in
