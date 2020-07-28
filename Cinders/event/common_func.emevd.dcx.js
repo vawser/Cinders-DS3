@@ -4924,49 +4924,13 @@ Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001001, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200000);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200100);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200100);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200200);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200100);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200300);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200100);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200200);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200200);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200100);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200300);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010000);
 });
 
 //----------------------------------------------
@@ -4976,49 +4940,13 @@ Event(20020001, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001002, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200000);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200100);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200100);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200200);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200100);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200300);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200100);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200200);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200200);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200100);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200300);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010001);
 });
 
 //----------------------------------------------
@@ -5028,49 +4956,13 @@ Event(20020002, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001003, ON);// Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200000);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200100);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200100);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200200);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200100);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200300);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200100);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200200);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200200);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200100);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200300);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010002);
 });
 
 //----------------------------------------------
@@ -5080,49 +4972,13 @@ Event(20020003, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001004, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200010);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200110);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200110);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200210);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200110);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200310);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200110);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200210);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200210);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200110);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200310);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010003);
 });
 
 //----------------------------------------------
@@ -5132,49 +4988,13 @@ Event(20020004, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001005, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200010);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200110);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200110);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200210);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200110);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200310);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200110);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200210);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200210);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200110);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200310);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010004);
 });
 
 //----------------------------------------------
@@ -5184,49 +5004,13 @@ Event(20020005, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001006, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010005);
 });
 
 //----------------------------------------------
@@ -5236,49 +5020,13 @@ Event(20020006, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001007, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200000);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200100);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200100);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200200);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200100);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200300);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200100);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200200);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200200);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200100);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200300);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010006);
 });
 
 //----------------------------------------------
@@ -5288,49 +5036,13 @@ Event(20020007, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001008, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200010);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200110);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200110);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200210);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200110);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200310);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200110);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200210);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200210);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200110);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200310);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010007);
 });
 
 //----------------------------------------------
@@ -5340,49 +5052,13 @@ Event(20020008, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001009, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010008);
 });
 
 //----------------------------------------------
@@ -5392,49 +5068,13 @@ Event(20020009, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001010, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010009);
 });
 
 //----------------------------------------------
@@ -5444,49 +5084,13 @@ Event(20020010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001011, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010010);
 });
 
 //----------------------------------------------
@@ -5496,49 +5100,13 @@ Event(20020011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001012, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010011);
 });
 
 //----------------------------------------------
@@ -5548,49 +5116,13 @@ Event(20020012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001013, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010012);
 });
 
 //----------------------------------------------
@@ -5600,49 +5132,13 @@ Event(20020013, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001014, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010013);
 });
 
 //----------------------------------------------
@@ -5652,49 +5148,13 @@ Event(20020014, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001015, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200000);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200100);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200100);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200200);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200100);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200300);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200100);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200200);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200200);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200100);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200300);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010014);
 });
 
 //----------------------------------------------
@@ -5704,49 +5164,13 @@ Event(20020015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001016, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010015);
 });
 
 //----------------------------------------------
@@ -5756,49 +5180,13 @@ Event(20020016, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001017, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200020);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200120);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200120);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200220);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200120);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200320);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200120);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200220);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200220);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200120);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200320);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010016);
 });
 
 //----------------------------------------------
@@ -5808,49 +5196,13 @@ Event(20020017, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001018, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010017);
 });
 
 //----------------------------------------------
@@ -5860,49 +5212,13 @@ Event(20020018, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001019, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200040);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200140);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200140);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200240);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200140);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200340);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200140);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200240);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200240);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200140);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200340);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010018);
 });
 
 //----------------------------------------------
@@ -5912,49 +5228,13 @@ Event(20020019, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001020, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200040);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200140);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200140);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200240);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200140);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200340);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200140);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200240);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200240);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200140);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200340);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010019);
 });
 
 //----------------------------------------------
@@ -5964,49 +5244,13 @@ Event(20020020, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001021, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010020);
 });
 
 //----------------------------------------------
@@ -6016,49 +5260,13 @@ Event(20020021, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001022, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010021);
 });
 
 //----------------------------------------------
@@ -6068,49 +5276,13 @@ Event(20020022, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001023, ON); // Boss Killed
     
-    // No Hit
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
+    AwardItemLot(800200030);
+    
+    // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800200040);
-    
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200140);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200140);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200240);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200140);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200340);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200140);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200240);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200240);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200140);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200340);
+    SetSpeffect(10000, 250010022);
 });
 
 //----------------------------------------------
@@ -6120,49 +5292,13 @@ Event(20020023, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001024, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200040);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200140);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200140);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200240);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200140);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200340);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200140);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200240);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200240);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200140);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200340);
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010023);
 });
 
 //----------------------------------------------
@@ -6172,50 +5308,13 @@ Event(20020024, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001025, ON); // Boss Killed
     
-    // No Hit
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    // Mark of Prismatica
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
     AwardItemLot(800200030);
     
-    // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(800200130);
-    
-    // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(800200130);
-    
-    // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(800200230);
-    
-    // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(800200130);
-    
-    // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(800200330);
-    
-    // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(800200130);
-    
-    // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(800200230);
-    
-    // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(800200230);
-    
-    // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(800200130);
-    
-    // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(800200330);
-    
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SetSpeffect(10000, 250010024);
 });
 
 //----------------------------------------------
@@ -6670,6 +5769,7 @@ Event(20081001, Restart, function(X0_4, X4_4) {
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -6679,6 +5779,7 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
 Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------

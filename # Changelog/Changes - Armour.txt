@@ -108,8 +108,8 @@ Pieces that aren't part of a set have stronger effects, due to their 'unique' st
 # Silver Knight Set
 - Stamina Recovery: [1, 2, 1, 2]
 
-# Silver Stag Helm
-- Strength: [2]
+# Tarnished Knight Set
+- Strength: [2, 3, 1, 2]
 
 # Heide Knight Set
 - Skill FP Cost: [0.98, 0.96, 0.99, 0.97]

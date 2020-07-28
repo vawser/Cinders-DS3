@@ -11,4 +11,18 @@ c7520 Ornstein c5010
 c7530 Smelter Demon c5020
 c7540 Big Havel c5260
 
-c7550 Fast Hollow
+c7550 Fume Knight c5280
+
+# Arenas
+m47_00_00_00 - Kiln of Flame
+
+    c7550 Fume Knight c5280
+    Fume Knight
+        Add healing fires that heal FK
+        Add damaging fire to the pillars to stop the player using them
+        
+        SOC base
+        
+753000 Fume Knight
+
+75300

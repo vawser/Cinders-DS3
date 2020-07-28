@@ -68,6 +68,11 @@
  - Buy/Sell: requires Essence of Avarice - Dropped by mimic in High Wall.
  - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
  
+# Mechanics
+- Added Mark of Prismatica: increases boss HP and power by 50%, enables 100% primordial material drop on victory.
+- Curses no longer give random primordial material drop chance. Increased the soul absorption bonus to compensate.
+- No Hit kills now give a set amount of extra souls.
+ 
 # Companions
 - Now required you to be embered to summon.
 - Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
@@ -97,9 +102,10 @@
 - Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
 - Increased whip speed (20% faster).
 - Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
+- Increased Knight Shield Physical Guard ABS to 100%.
 
 # Armor
-- Added the Ledo Set by Wiglow.
+- Added the Silver Knight Ledo Set by Wiglow, called Tarnished Knight in-game.
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -110,6 +116,9 @@
 # Merchants
 - Added Alchemist Jiji: he sells the weapon oils, elixirs and herbs. Found on the outer rim of Firelink Tower.
 - Added Solaire of Astora: offers early access to the Warrior of Sunlight covenant, found after Vordt.
+- Moved Magnum Ursus down to the area near El Hueso.
+- Added El Hueso disable/enable option to Magnum Ursus.
+- Changed Magnum Ursus armor to the Bear set.
 
 # Relationships
 - Solaire can be married: gift is a Sunlight Medal.
@@ -186,10 +195,43 @@ Look into changing the block action for many weapons into left attack
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
+9911    Bear Set
+9912    Vendrick Set
 
-9895    Ledo Set
+Change Trial into four trials: 
+ - use the DLC arenas
+  - each has unique entry point in world (near to bonfire though)
+ - use DLC check
+ - each 5 waves, with 'boss' at end
+ 
+m53_00_00_00 - Dragon Ruins
+ - Found in Archdragon Peak
+  - Titanite Shard
+  - Large Titanite Shard
+  - Titanite Chunk
+  - Dragon Scale
+  - Titanite Slab
+  
+m54_00_00_00 - Round Plaza
+ - Found in Irithyll 
+  - Twinkling Titanite
+  - Titanite Scale
+  - Fire Seed
+  - Twinkling Titanite
+  - Titanite Slab
+ 
+m46_00_00_00 - Grand Roof
+ - Found in Grand Archives
+  - Crystal Fragment
+  - Titanite Scale
+  - Holy Fragment
+  - Abyssal Fragment
+  - Prismatic Slab
 
-7137 Ledo's Helm
-7138 Ledo's Armor
-7139 Ledo's Gauntlets
-7140 Ledo's Leggings
+m47_00_00_00 - Kiln of Flame
+ - Found in Kiln of the First Flame
+  - Primordial Shard
+  - Large Primordial Shard
+  - Primordial Fragment
+  - Primordial Chunk
+  - Primordial Slab

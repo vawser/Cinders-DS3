@@ -123,7 +123,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000100 Mark of Sanguis
 25000101 Mark of Canis
 25000102 Mark of Piscis
-
+25000103 Mark of Prismatica
 
 # Game State
 25006000 No Hit state
