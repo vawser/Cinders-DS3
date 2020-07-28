@@ -11,8 +11,8 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002069 Cemetery of Ash / Unturned Graves
-53002101 High Wall of Lothric / Consumed King's Garden
+54002070 Cemetery of Ash / Unturned Graves
+53002102 High Wall of Lothric / Consumed King's Garden
 53102093 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
@@ -105,7 +105,10 @@
 - Increased Knight Shield Physical Guard ABS to 100%.
 
 # Armor
-- Added the Silver Knight Ledo Set by Wiglow, called Tarnished Knight in-game.
+- Added Tarnished Knight Set (Silver Knight Ledo's cut armor, re-made by Wiglow): dropped by Silver Knight Ledo.
+- Added Bear Set: dropped by Magnum Ursus, or gifted by him.
+- Added King's Set: sold by Domhnall.
+- Added Winged Helm of Ridoh: found in the Ringed City.
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -121,7 +124,8 @@
 - Added unlockable Primordial material shop at Magnum Ursus. You must give him the Blood of the Dark Soul to unlock it.
 
 # Relationships
-- Solaire can be married: gift is a Sunlight Medal.
+- Solaire can be married: gift is an Estus Shard.
+- Magnum Ursus: gift is now the Bear Set.
 
 # Enemies
 - Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
@@ -195,8 +199,6 @@ Look into changing the block action for many weapons into left attack
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-9911    Bear Set
-9912    Vendrick Set
 
 Change Trial into four trials: 
  - use the DLC arenas
