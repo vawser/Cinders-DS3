@@ -62,6 +62,14 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Trial
+- Split the trial into four different, smaller trials. Each has 4 waves, and then 1 boss wave.
+- Each takes place in one of the DLC arena maps.
+ - Trial of Adversity: unlocked after Abyss Watcher kill. Rewards regular titanite.
+ - Trial of Sorrow: unlocked after Yhorm kill. Rewards mix of titanite + fragments.
+ - Trial of Calamity: unlocked after Aldrich kill. Rewards mix of titanite + fragments.
+ - Trial of Devastation: unlocked after Twin Princes kill. Reward primordial titanite.
+
 # Bonfires
 - Restricted a few of the options to now require specific key items before they will appear:
  - Level Up: requires the Soul Vessel - Dropped by the Curse-rotted Greatwood.
@@ -199,41 +207,3 @@ Look into changing the block action for many weapons into left attack
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-
-Change Trial into four trials: 
- - use the DLC arenas
-  - each has unique entry point in world (near to bonfire though)
- - use DLC check
- - each 5 waves, with 'boss' at end
- 
-m53_00_00_00 - Dragon Ruins
- - Found in Archdragon Peak
-  - Titanite Shard
-  - Large Titanite Shard
-  - Titanite Chunk
-  - Dragon Scale
-  - Titanite Slab
-  
-m54_00_00_00 - Round Plaza
- - Found in Irithyll 
-  - Twinkling Titanite
-  - Titanite Scale
-  - Fire Seed
-  - Twinkling Titanite
-  - Titanite Slab
- 
-m46_00_00_00 - Grand Roof
- - Found in Grand Archives
-  - Crystal Fragment
-  - Titanite Scale
-  - Holy Fragment
-  - Abyssal Fragment
-  - Prismatic Slab
-
-m47_00_00_00 - Kiln of Flame
- - Found in Kiln of the First Flame
-  - Primordial Shard
-  - Large Primordial Shard
-  - Primordial Fragment
-  - Primordial Chunk
-  - Primordial Slab

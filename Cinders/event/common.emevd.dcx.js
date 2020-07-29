@@ -2444,7 +2444,8 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25008903, ON); 
+    SetEventFlag(25008103, ON); 
+    WarpPlayer(47, 0, 4700950);
     
     EndUnconditionally(EventEndType.Restart);
 });
