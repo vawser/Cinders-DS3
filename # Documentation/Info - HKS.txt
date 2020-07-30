@@ -363,7 +363,7 @@ Returns TRUE or FALSE.
     <slot>
 2014 Set4DirectionMovementThreshold      # 4方向移動閾値設定
 2015 LockonSystemUnableToTurnAngle       # ロックオン時システム旋回不可角度
-2016 ReserveArtsPointsUse
+2016 ReserveArtsPointsUse                # アーツポイント使用予約
 2017 SetArtsPointFEDisplayState
 2018 LockonFixedAngleCancel              # ロックオン中角度固定解除
 2019 TurnToLockonTargetImmediately       # ロックオン対象へ即座に旋回

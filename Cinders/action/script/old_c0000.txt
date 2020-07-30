@@ -153,7 +153,7 @@ function SetThrowDefBlendWeight()
     if env(1114, GetVariable("ThrowID") + 4) == FALSE then
         return 
     end
-    local regist_num = env("投げ抜け抵抗回数取得") -- GetThrowDefenseCount
+    local regist_num = env("投げ抜け抵抗回数取得")
     local dT = GetDeltaTime()
     local blend_weight = GetVariable("ThrowHoldBlendWeight")
     local is_holding = GetVariable("ThrowHolding")
@@ -251,8 +251,7 @@ function SetArtsGeneratorTransitionIndex(gen_hand, is_from)
         hand = HAND_RIGHT
     end
     local changetype = GetHandChangeType(hand)
-    
-    if offset == 4 and env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 161 then -- GetEquipWeaponSpecialCategoryNumber
+    if offset == 4 and env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 161 then
         offset = 0
         changetype = WEAPON_CHANGE_REQUEST_LEFT_BACK
     end
@@ -391,7 +390,7 @@ function GetBaseCategory()
     if kind_special == 50 then
         basecategoryid = 0
     else
-        basecategoryid = env("待機アニメカテゴリ取得") -- GetStayAnimCategory
+        basecategoryid = env("待機アニメカテゴリ取得")
     end
     local index = 0
     if basecategoryid == 0 then
@@ -427,7 +426,7 @@ end
 
 function GetWeaponChangeType(hand)
     local left_offset = 0
-    local pos = env("武器格納場所タイプ取得", hand) -- GetWeaponStorageSpotType
+    local pos = env("武器格納場所タイプ取得", hand)
     if hand == HAND_LEFT then
         left_offset = 4
     end
@@ -446,7 +445,7 @@ end
 
 function GetHandChangeType(hand)
     local left_offset = 0
-    local pos = env("武器格納場所タイプ取得", hand) -- GetWeaponStorageSpotType
+    local pos = env("武器格納場所タイプ取得", hand)
     if hand == HAND_LEFT then
         left_offset = 4
     end
@@ -471,27 +470,23 @@ function GetSwordArtsInfo()
     end
     local arts_id = 0
     local arts_hand = 0
-    
-    -- Setup weapon skill ID based on hand position of weapon.
     if is_both == TRUE then
         if style == HAND_RIGHT_BOTH then
             arts_hand = HAND_RIGHT
         elseif style == HAND_LEFT_BOTH then
             arts_hand = HAND_LEFT
         end
-        arts_id = env(326, arts_hand) -- GetWeaponID
+        arts_id = env(326, arts_hand)
     else
-        local weaponswordartid = env(326, HAND_LEFT) -- GetWeaponID
+        local weaponswordartid = env(326, HAND_LEFT)
         if weaponswordartid == SWORDARTS_RIGHTARTS then
             arts_hand = HAND_RIGHT
-            arts_id = env(326, HAND_RIGHT) -- GetWeaponID
+            arts_id = env(326, HAND_RIGHT)
         else
             arts_hand = HAND_LEFT
             arts_id = weaponswordartid
         end
-        
-        -- Exception for Fist weapons
-        if env(225, HAND_LEFT) == WEAPON_CATEGORY_FIST then -- GetEquipWeaponCategory
+        if env(225, HAND_LEFT) == WEAPON_CATEGORY_FIST then
             if arts_hand == HAND_LEFT then
                 if arts_id ~= SWORDARTS_ONESHOTFULL then
                     arts_id = SWORDARTS_PARRY
@@ -545,13 +540,13 @@ function GetAttackRequest(is_guard)
     local is_crossbow = GetEquipType(hand, WEAPON_CATEGORY_CROSSBOW)
     local is_staff = GetEquipType(hand, WEAPON_CATEGORY_STAFF)
     
-    if env(1106, ACTION_ARM_R1) == TRUE then -- ActionRequest
+    if env(1106, ACTION_ARM_R1) == TRUE then
         if is_both == TRUE then
             if is_arrow == TRUE then
-                act("弓矢スロット選択", 0) -- ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 0)
                 return ATTACK_REQUEST_ARROW_FIRE_RIGHT
             elseif is_crossbow == TRUE then
-                act("弓矢スロット選択", 0) -- ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 0)
                 if style == HAND_LEFT_BOTH then
                     return ATTACK_REQUEST_BOTHLEFT_CROSSBOW
                 else
@@ -559,7 +554,7 @@ function GetAttackRequest(is_guard)
                 end
             elseif is_staff == TRUE then
                 return ATTACK_REQUEST_INVALID
-            elseif env(1106, ACTION_ARM_LIGHT_KICK) == TRUE then -- ActionRequest
+            elseif env(1106, ACTION_ARM_LIGHT_KICK) == TRUE then
                 return ATTACK_REQUEST_LIGHT_KICK
             else
                 return ATTACK_REQUEST_BOTH_LIGHT
@@ -569,7 +564,7 @@ function GetAttackRequest(is_guard)
             local is_rapier = GetEquipType(HAND_RIGHT, WEAPON_CATEGORY_RAPIER)
             
             if is_spear == TRUE or is_rapier == TRUE then
-                if 0 < env(1108, ACTION_ARM_L1) then -- ActionDuration
+                if 0 < env(1108, ACTION_ARM_L1) then
                     return ATTACK_REQUEST_ATTACK_WHILE_GUARD
                 end
             elseif is_staff == TRUE then
@@ -577,7 +572,7 @@ function GetAttackRequest(is_guard)
             elseif is_arrow == TRUE then
                 return ATTACK_REQUEST_ARROW_BOTH_RIGHT
             elseif is_crossbow == TRUE then
-                act("弓矢スロット選択", 0) -- ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 0)
                 return ATTACK_REQUEST_RIGHT_CROSSBOW
             end
         elseif is_staff == TRUE then
@@ -585,18 +580,18 @@ function GetAttackRequest(is_guard)
         elseif is_arrow == TRUE then
             return ATTACK_REQUEST_ARROW_BOTH_RIGHT
         elseif is_crossbow == TRUE then
-            act("弓矢スロット選択", 0) -- ChooseBowAndArrowSlot
+            act("弓矢スロット選択", 0)
             return ATTACK_REQUEST_RIGHT_CROSSBOW
         end
-        if env(1106, ACTION_ARM_LIGHT_KICK) == TRUE then -- ActionRequest
+        if env(1106, ACTION_ARM_LIGHT_KICK) == TRUE then
             return ATTACK_REQUEST_LIGHT_KICK
         else
             return ATTACK_REQUEST_RIGHT_LIGHT
         end
-    elseif env(1106, ACTION_ARM_R2) == TRUE then -- ActionRequest
+    elseif env(1106, ACTION_ARM_R2) == TRUE then
         if is_arrow == TRUE then
             if is_both == TRUE then
-                act("弓矢スロット選択", 1) -- ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 1)
                 return ATTACK_REQUEST_ARROW_FIRE_RIGHT2
             else
                 return ATTACK_REQUEST_ARROW_BOTH_RIGHT
@@ -604,37 +599,34 @@ function GetAttackRequest(is_guard)
         elseif is_crossbow == TRUE then
             if is_both == TRUE then
                 if style == HAND_LEFT_BOTH then
-                    act("弓矢スロット選択", 1) -- ChooseBowAndArrowSlot
+                    act("弓矢スロット選択", 1)
                     return ATTACK_REQUEST_BOTHLEFT_CROSSBOW2
                 else
-                    act("弓矢スロット選択", 1) -- ChooseBowAndArrowSlot
+                    act("弓矢スロット選択", 1)
                     return ATTACK_REQUEST_BOTHRIGHT_CROSSBOW2
                 end
             else
-                act("弓矢スロット選択", 1) -- ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 1)
                 return ATTACK_REQUEST_RIGHT_CROSSBOW2
             end
-        elseif env(1106, ACTION_ARM_HEAVY_KICK) == TRUE then -- ActionRequest
+        elseif env(1106, ACTION_ARM_HEAVY_KICK) == TRUE then
             local check_weapon = GetEquipType(hand, WEAPON_CATEGORY_STAFF)
-            if check_weapon == FALSE and env(1116, 100260) == FALSE then -- GetSpecialEffectID
+            if check_weapon == FALSE and env(1116, 100260) == FALSE then
                 return ATTACK_REQUEST_HEAVY_KICK
             end
         end
-        local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) -- GetEquipWeaponSpecialCategoryNumber
-        
-        -- Hybrid Spell Tool
+        local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
         if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 then
             return ATTACK_REQUEST_INVALID
-        -- Demon's Scar
-        elseif sp_kind == 257 and env(1116, 100580) == FALSE then -- GetSpecialEffectID
+        elseif sp_kind == 257 and env(1116, 100580) == FALSE then
             return ATTACK_REQUEST_INVALID
         elseif is_both == TRUE then
             return ATTACK_REQUEST_BOTH_HEAVY
         else
             return ATTACK_REQUEST_RIGHT_HEAVY
         end
-    elseif env(1106, ACTION_ARM_L1) == TRUE then -- ActionRequest
-        if env(234) == TRUE then -- IsPrecisionShoot
+    elseif env(1106, ACTION_ARM_L1) == TRUE then
+        if env(234) == TRUE then
             return ATTACK_REQUEST_INVALID
         elseif is_both == TRUE then
             if is_arrow == TRUE or is_crossbow == TRUE then
@@ -643,11 +635,10 @@ function GetAttackRequest(is_guard)
         elseif GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW) == TRUE then
             return ATTACK_REQUEST_ARROW_BOTH_LEFT
         elseif GetEquipType(HAND_LEFT, WEAPON_CATEGORY_CROSSBOW) == TRUE then
-            act("弓矢スロット選択", 0) -- ChooseBowAndArrowSlot
+            act("弓矢スロット選択", 0)
             return ATTACK_REQUEST_LEFT_CROSSBOW
         end
         if is_both == TRUE then
-            -- Valorheart - Lion Stance
             if c_SwordArtsID ~= 32 then
                 if IsDualBlade() == TRUE then
                     return ATTACK_REQUEST_BOTH_LEFT
@@ -657,12 +648,9 @@ function GetAttackRequest(is_guard)
             end
         end
         if is_both == FALSE then
-            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
-            
-            -- Hybrid Spell Tool
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
             if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
                 return ATTACK_REQUEST_LEFT_HEAVY
-            -- Curved Swords/Rapier
             elseif sp_kind == 99 or sp_kind == 101 or sp_kind == 137 or sp_kind == 151 or sp_kind == 164 or sp_kind == 218 then
                 return ATTACK_REQUEST_LEFT_HEAVY_SP
             end
@@ -677,22 +665,20 @@ function GetAttackRequest(is_guard)
             return ATTACK_REQUEST_INVALID
         elseif GetEquipType(HAND_LEFT, WEAPON_CATEGORY_STAFF) == TRUE then
             return ATTACK_REQUEST_INVALID
-        elseif is_both == FALSE and env(225, HAND_LEFT) == 42 then -- GetEquipWeaponCategory
+        elseif is_both == FALSE and env(225, HAND_LEFT) == 42 then
             return ATTACK_REQUEST_LEFT_HEAVY
         else
             return ATTACK_REQUEST_LEFT_LIGHT
         end
-    elseif env(1106, ACTION_ARM_L2) == TRUE then -- ActionRequest
+    elseif env(1106, ACTION_ARM_L2) == TRUE then
         if is_both == FALSE then
             if GetEquipType(HAND_LEFT, WEAPON_CATEGORY_CROSSBOW) == TRUE then
-                act("弓矢スロット選択", 1) - ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 1)
                 return ATTACK_REQUEST_LEFT_CROSSBOW2
             elseif GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW) == TRUE then
                 return ATTACK_REQUEST_ARROW_BOTH_LEFT
             end
-            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
-            
-            -- Hybrid Spell Tool
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
             if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
                 return ATTACK_REQUEST_INVALID
             end
@@ -720,17 +706,17 @@ function GetAttackRequest(is_guard)
 end
 
 function GetEvasionRequest()
-    if env(1001) < STAMINA_MINIMUM then -- GetStamina
+    if env(1001) < STAMINA_MINIMUM then
         return ATTACK_REQUEST_INVALID
-    elseif env(1106, ACTION_ARM_JUMP) == TRUE then -- ActionRequest
+    elseif env(1106, ACTION_ARM_JUMP) == TRUE then
         local speed = GetVariable("MoveSpeedLevelReal")
         if SPEED_ENABLE_JUMP < speed then
             return ATTACK_REQUEST_JUMP
         end
     end
-    if env(1106, ACTION_ARM_ROLLING) == TRUE then -- ActionRequest
+    if env(1106, ACTION_ARM_ROLLING) == TRUE then
         return ATTACK_REQUEST_ROLLING
-    elseif env(1106, ACTION_ARM_BACKSTEP) == TRUE then -- ActionRequest
+    elseif env(1106, ACTION_ARM_BACKSTEP) == TRUE then
         return ATTACK_REQUEST_BACKSTEP
     else
         return ATTACK_REQUEST_INVALID
@@ -738,11 +724,11 @@ function GetEvasionRequest()
 end
 
 function GetLadderEventCommand(is_start)
-    if env(1007) == FALSE then -- IsCOMPlayer
+    if env(1007) == FALSE then
         return env(105, 0)
     end
-    local req_up = env(1106, ACTION_ARM_LADDERUP) -- ActionRequest
-    local req_down = env(1106, ACTION_ARM_LADDERDOWN) -- ActionRequest
+    local req_up = env(1106, ACTION_ARM_LADDERUP)
+    local req_down = env(1106, ACTION_ARM_LADDERDOWN)
     if is_start == TRUE then
         if req_up == TRUE then
             return LADDER_ACTION_START_BOTTOM
@@ -750,13 +736,13 @@ function GetLadderEventCommand(is_start)
             return LADDER_ACTION_START_TOP
         end
     elseif req_up == TRUE then
-        if env(304) == TRUE then -- IsReachTopOfLadder
+        if env(304) == TRUE then
             return LADDER_EVENT_COMMAND_END_TOP
         else
             return LADDER_EVENT_COMMAND_UP
         end
     elseif req_down == TRUE then
-        if env(303) == TRUE then -- IsReachBottomOfLadder
+        if env(303) == TRUE then
             return LADDER_EVENT_COMMAND_END_BOTTOM
         else
             return LADDER_EVENT_COMMAND_DOWN
@@ -766,7 +752,7 @@ function GetLadderEventCommand(is_start)
 end
 
 function SetVariable(name, value)
-    act(148, name, value) -- SetVariable
+    act(148, name, value)
     return 
 end
 
@@ -777,7 +763,7 @@ function SetHandChangeStyle(s, e)
 end
 
 function SetEvasionStaminaCost()
-    local weight = env(257) -- GetMoveAnimParamID
+    local weight = env(257)
     if weight == WEIGHT_LIGHT then
         c_StaminaCostRolling = -20
         c_StaminaCostBackStep = -20
@@ -801,35 +787,35 @@ function SetEvasionStaminaCost()
     end
     
     -- Carthus Bloodring Effect
-    if env(1116, 112000) == TRUE then -- GetSpecialEffectID
+    if env(1116, 112000) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling * 3
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 3
+        c_StaminaCostJump = c_StaminaCostJump * 3
+    end
+    
+    -- Greatwood Remnants Effect
+    if env(1116, 112002) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 1.5
         c_StaminaCostBackStep = c_StaminaCostBackStep * 1.5
         c_StaminaCostJump = c_StaminaCostJump * 1.5
     end
     
-    -- Greatwood Remnants Effect
-    if env(1116, 112002) == TRUE then -- GetSpecialEffectID
-        c_StaminaCostRolling = c_StaminaCostRolling * 1.2
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 1.2
-        c_StaminaCostJump = c_StaminaCostJump * 1.2
+    -- Carthus Milkring Effect
+    if env(1116, 112001) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling * 0.9
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.9
+        c_StaminaCostJump = c_StaminaCostJump * 0.9
     end
     
-    -- Carthus Milkring Effect
-    if env(1116, 112001) == TRUE then -- GetSpecialEffectID
+    -- Cursed Ring of Evasion Effect
+    if env(1116, 112003) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 0.75
         c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
         c_StaminaCostJump = c_StaminaCostJump * 0.75
     end
     
-    -- Cursed Ring of Evasion Effect
-    if env(1116, 112003) == TRUE then -- GetSpecialEffectID
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.5
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.5
-        c_StaminaCostJump = c_StaminaCostJump * 0.5
-    end
-    
     -- Curse of Gluttony
-    if env(1116, 112070) == TRUE then -- GetSpecialEffectID
+    if env(1116, 112070) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 2
         c_StaminaCostBackStep = c_StaminaCostBackStep * 2
         c_StaminaCostJump = c_StaminaCostJump * 2
@@ -839,26 +825,23 @@ function SetEvasionStaminaCost()
 end
 
 function SetSwordArtsCancelType()
-    local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
     if IsEnableSwordArts() == TRUE then
-        -- GetGeneralMSBParameter
-        act(2011, env("剣戟キャンセルタイプを取得", c_SwordArtsHand)) -- GetWeaponCancelType
+        act(2011, env("剣戟キャンセルタイプを取得", c_SwordArtsHand))
     else
-        -- GetGeneralMSBParameter
         act(2011, 0)
     end
     return 
 end
 
 function SetGender()
-    -- Reversal Ring
-    if env(1116, 112074000) == TRUE then -- -- GetSpecialEffectID
-        if env("女性か") == TRUE then -- IsFemale
+    if env(1116, 112074000) == TRUE then
+        if env("女性か") == TRUE then
             c_IsFemale = FALSE
         else
             c_IsFemale = TRUE
         end
-    elseif env("女性か") == TRUE then -- -- IsFemale
+    elseif env("女性か") == TRUE then
         c_IsFemale = TRUE
     else
         c_IsFemale = FALSE
@@ -869,16 +852,16 @@ end
 function SetSwordArtsPointInfo(button, is_point_consume)
     local hand = c_SwordArtsHand
     if is_point_consume == TRUE then
-        act("アーツポイント使用予約", button, hand) -- ReserveArtsPointsUse
+        act("アーツポイント使用予約", button, hand)
     end
     local sel = 0
-    if env("アーツポイント足りるか", button, hand) == FALSE then -- HasEnoughArtsPoints
+    if env("アーツポイント足りるか", button, hand) == FALSE then
         sel = 1
-    elseif env(311, hand) == 0 then -- GetWeaponDurability
+    elseif env(311, hand) == 0 then
         sel = 1
-    elseif env(262, hand) == TRUE then -- IsAbilityInsufficient
+    elseif env(262, hand) == TRUE then
         sel = 1
-    elseif c_SwordArtsID == SWORDARTS_MAGICBUFFPRAY and env(1116, 135000) == FALSE then -- GetSpecialEffectID
+    elseif c_SwordArtsID == SWORDARTS_MAGICBUFFPRAY and env(1116, 135000) == FALSE then
         sel = 1
     end
     local val = "IsEnoughArtPointsL2"
@@ -900,10 +883,10 @@ function SetSwordArtsPointInfo(button, is_point_consume)
         end
     elseif button == ACTION_ARM_L2 then
         if IsNodeActive("MagicBuffRight_Upper_Selector") == TRUE or IsNodeActive("MagicBuffLeft_Upper_Selector") == TRUE then
-            local sp_kind_L = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
-            local sp_kind_R = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind_L = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
+            local sp_kind_R = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)
             local style = c_Style
-            if sp_kind_L == 265 and sp_kind_R == 265 then -- Preacher's Right Arm
+            if sp_kind_L == 265 and sp_kind_R == 265 then
                 DebugPrint(1, style)
                 if style == HAND_BOTH or style == HAND_LEFT_BOTH or style == HAND_RIGHT_BOTH then
                     val = "IsEnoughArtPointsL2_2"
@@ -1200,7 +1183,7 @@ function IsWarcrySpAtk()
     if style == HAND_LEFT_BOTH then
         offset = 50
     end
-    local buff = {1062301, 1062311, 1070101, 1070111, 1070401, 1070411, 1070501, 1070511, 1080001, 1080011, 1080601, 1080611, 1083201, 1092401, 1092411, 1080701, 1080711, 1080801, 1080811}
+    local buff = {1062301, 1062311, 1070101, 1070111, 1070401, 1070411, 1070501, 1070511, 1080001, 1080011, 1080601, 1080611, 1083201, 1092401, 1092411, 1080701, 1080711}
     for local0 = 1, #buff, 1 do
         if env(1116, buff[local0] + offset) == TRUE then
             return TRUE
@@ -2492,110 +2475,108 @@ function ExecMagic(quick_type, blend_type)
     end
     
     -- Disable FP Regen after Cast
-    if env(1116, 112080) == FALSE then -- Skip if Ring of Londor is equipped
-        if magic_type == 0 then -- Soul Arrow
-            act(2002, 113001) -- 2 
-        elseif magic_type == 1 then -- Weapon Bufff
-            act(2002, 113004) -- 5
-        elseif magic_type == 2 then -- Body Buff
-            act(2002, 113004) -- 5
-        elseif magic_type == 3 then -- Heal
-            act(2002, 113005) -- 15
-        elseif magic_type == 4 then -- Heal
-            act(2002, 113005) -- 15
-        elseif magic_type == 5 then -- Fireball
-            act(2002, 113001) -- 2
-        elseif magic_type == 6 then -- Body Buff
-            act(2002, 113004) -- 5
-        elseif magic_type == 7 then -- Drain
-            act(2002, 113002) -- 3
-        elseif magic_type == 8 then -- Great Combustion
-            act(2002, 113002) -- 3
-        elseif magic_type == 9 then -- Poison Mist
-            act(2002, 113002) -- 3
-        elseif magic_type == 10 then -- Firestorm
-            act(2002, 113002) -- 3
-        elseif magic_type == 11 then -- Rapport
-            act(2002, 113004) -- 5
-        elseif magic_type == 12 then -- Force
-            act(2002, 113001) -- 2
-        elseif magic_type == 13 then -- Chameleon
-            act(2002, 113002) -- 3
-        elseif magic_type == 14 then -- Transform
-            act(2002, 113002) -- 3
-        elseif magic_type == 15 then -- Weapon Buff
-            act(2002, 113002) -- 3
-        elseif magic_type == 16 then -- Summon
-            act(2002, 113002) -- 3
-        elseif magic_type == 17 then -- Shield Buff
-            act(2002, 113002) -- 3
-        elseif magic_type == 18 then -- Emit Force
-            act(2002, 113001) -- 2
-        elseif magic_type == 19 then -- Lightning Spear
-            act(2002, 113002) -- 3
-        elseif magic_type == 20 then -- Slow Soul Arrow
-            act(2002, 113002) -- 3
-        elseif magic_type == 21 then -- Breath
-            act(2002, 113002) -- 3
-        elseif magic_type == 22 then -- Very Slow Soul Arrow
-            act(2002, 113002) -- 3
-        elseif magic_type == 23 then -- Fire Surge
-            act(2002, 113000) -- 1
-        elseif magic_type == 24 then -- Fire Whip
-            act(2002, 113001) -- 2
-        elseif magic_type == 25 then -- Soul Greatsword
-            act(2002, 113002) -- 3
-        elseif magic_type == 26 then -- Heal
-            act(2002, 113005) -- 15
-        elseif magic_type == 27 then -- Heal Aid
-            act(2002, 113005) -- 15
-        elseif magic_type == 28 then -- Sacred Oath
-            act(2002, 113004) -- 5
-        elseif magic_type == 29 then -- Farron Dart
-            act(2002, 113000) -- 1
-        elseif magic_type == 30 then -- Farron Flashsword
-            act(2002, 113000) -- 1
-        elseif magic_type == 31 then -- Soul Stream
-            act(2002, 113004) -- 5
-        elseif magic_type == 32 then -- Profaned Flame
-            act(2002, 113002) -- 3
-        elseif magic_type == 33 then -- Sacred Flame
-            act(2002, 113002) -- 3
-        elseif magic_type == 34 then -- Lightning Stake
-            act(2002, 113002) -- 3
-        elseif magic_type == 35 then -- Gnaw
-            act(2002, 113001) -- 2
-        elseif magic_type == 36 then -- Lightning Storm
-            act(2002, 113002) -- 3
-        elseif magic_type == 37 then -- Dark Edge
-            act(2002, 113000) -- 1
-        elseif magic_type == 38 then -- Warmth
-            act(2002, 113004) -- 5
-        elseif magic_type == 39 then -- Wrath of the Gods
-            act(2002, 113002) -- 3
-        elseif magic_type == 40 then -- Farron Hail
-            act(2002, 113001) -- 2
-        elseif magic_type == 41 then -- Slow Soul Arrow
-            act(2002, 113002) -- 3
-        elseif magic_type == 42 then -- Black Serpent
-            act(2002, 113002) -- 3
-        elseif magic_type == 43 then -- Chaos Bed Vestiges
-            act(2002, 113002) -- 3
-        elseif magic_type == 44 then -- Lifehunt Scythe
-            act(2002, 113002) -- 3
-        elseif magic_type == 45 then -- Divine Pillars of Light
-            act(2002, 113002) -- 3
-        elseif magic_type == 46 then -- Old Moonlight
-            act(2002, 113002) -- 3
-        elseif magic_type == 47 then -- Floating Chaos
-            act(2002, 113002) -- 3
-        elseif magic_type == 48 then -- Way of White Corona
-            act(2002, 113000) -- 1
-        elseif magic_type == 49 then -- Lightning Arrow
-            act(2002, 113000) -- 1
-        elseif magic_type == 50 then -- Flame Fan
-            act(2002, 113000) -- 1
-        end
+    if magic_type == 0 then -- Soul Arrow
+        act(2002, 113001) -- 2 
+    elseif magic_type == 1 then -- Weapon Bufff
+        act(2002, 113004) -- 5
+    elseif magic_type == 2 then -- Body Buff
+        act(2002, 113004) -- 5
+    elseif magic_type == 3 then -- Heal
+        act(2002, 113005) -- 15
+    elseif magic_type == 4 then -- Heal
+        act(2002, 113005) -- 15
+    elseif magic_type == 5 then -- Fireball
+        act(2002, 113001) -- 2
+    elseif magic_type == 6 then -- Body Buff
+        act(2002, 113004) -- 5
+    elseif magic_type == 7 then -- Drain
+        act(2002, 113002) -- 3
+    elseif magic_type == 8 then -- Great Combustion
+        act(2002, 113002) -- 3
+    elseif magic_type == 9 then -- Poison Mist
+        act(2002, 113002) -- 3
+    elseif magic_type == 10 then -- Firestorm
+        act(2002, 113002) -- 3
+    elseif magic_type == 11 then -- Rapport
+        act(2002, 113004) -- 5
+    elseif magic_type == 12 then -- Force
+        act(2002, 113001) -- 2
+    elseif magic_type == 13 then -- Chameleon
+        act(2002, 113002) -- 3
+    elseif magic_type == 14 then -- Transform
+        act(2002, 113002) -- 3
+    elseif magic_type == 15 then -- Weapon Buff
+        act(2002, 113002) -- 3
+    elseif magic_type == 16 then -- Summon
+        act(2002, 113002) -- 3
+    elseif magic_type == 17 then -- Shield Buff
+        act(2002, 113002) -- 3
+    elseif magic_type == 18 then -- Emit Force
+        act(2002, 113001) -- 2
+    elseif magic_type == 19 then -- Lightning Spear
+        act(2002, 113002) -- 3
+    elseif magic_type == 20 then -- Slow Soul Arrow
+        act(2002, 113002) -- 3
+    elseif magic_type == 21 then -- Breath
+        act(2002, 113002) -- 3
+    elseif magic_type == 22 then -- Very Slow Soul Arrow
+        act(2002, 113002) -- 3
+    elseif magic_type == 23 then -- Fire Surge
+        act(2002, 113000) -- 1
+    elseif magic_type == 24 then -- Fire Whip
+        act(2002, 113001) -- 2
+    elseif magic_type == 25 then -- Soul Greatsword
+        act(2002, 113002) -- 3
+    elseif magic_type == 26 then -- Heal
+        act(2002, 113005) -- 15
+    elseif magic_type == 27 then -- Heal Aid
+        act(2002, 113005) -- 15
+    elseif magic_type == 28 then -- Sacred Oath
+        act(2002, 113004) -- 5
+    elseif magic_type == 29 then -- Farron Dart
+        act(2002, 113000) -- 1
+    elseif magic_type == 30 then -- Farron Flashsword
+        act(2002, 113000) -- 1
+    elseif magic_type == 31 then -- Soul Stream
+        act(2002, 113004) -- 5
+    elseif magic_type == 32 then -- Profaned Flame
+        act(2002, 113002) -- 3
+    elseif magic_type == 33 then -- Sacred Flame
+        act(2002, 113002) -- 3
+    elseif magic_type == 34 then -- Lightning Stake
+        act(2002, 113002) -- 3
+    elseif magic_type == 35 then -- Gnaw
+        act(2002, 113001) -- 2
+    elseif magic_type == 36 then -- Lightning Storm
+        act(2002, 113002) -- 3
+    elseif magic_type == 37 then -- Dark Edge
+        act(2002, 113000) -- 1
+    elseif magic_type == 38 then -- Warmth
+        act(2002, 113004) -- 5
+    elseif magic_type == 39 then -- Wrath of the Gods
+        act(2002, 113002) -- 3
+    elseif magic_type == 40 then -- Farron Hail
+        act(2002, 113001) -- 2
+    elseif magic_type == 41 then -- Slow Soul Arrow
+        act(2002, 113002) -- 3
+    elseif magic_type == 42 then -- Black Serpent
+        act(2002, 113002) -- 3
+    elseif magic_type == 43 then -- Chaos Bed Vestiges
+        act(2002, 113002) -- 3
+    elseif magic_type == 44 then -- Lifehunt Scythe
+        act(2002, 113002) -- 3
+    elseif magic_type == 45 then -- Divine Pillars of Light
+        act(2002, 113002) -- 3
+    elseif magic_type == 46 then -- Old Moonlight
+        act(2002, 113002) -- 3
+    elseif magic_type == 47 then -- Floating Chaos
+        act(2002, 113002) -- 3
+    elseif magic_type == 48 then -- Way of White Corona
+        act(2002, 113000) -- 1
+    elseif magic_type == 49 then -- Lightning Arrow
+        act(2002, 113000) -- 1
+    elseif magic_type == 50 then -- Flame Fan
+        act(2002, 113000) -- 1
     end
     
     if env(116) == TRUE then
