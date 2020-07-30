@@ -18,7 +18,7 @@ function ExecEvents(...)
 end
 
 function ResetRequest()
-    act(9101)
+    act(9101) -- ResetInputQueue
     act("自動捕捉対象クリア")
     return 
 end
@@ -103,8 +103,8 @@ function Replanning()
 end
 
 function AddStamina(num)
-    act(110)
-    act(1001, num)
+    act(110) -- SetStaminaRecoveryDisabled
+    act(1001, num) -- AddStamina
     return 
 end
 
@@ -120,26 +120,30 @@ end
 
 function SetStyleSpecialEffect()
     if c_Style == HAND_LEFT_BOTH then
-        if env(1116, 139995) == FALSE then
-            act(2002, 139995)
+        if env(1116, 139995) == FALSE then -- GetSpecialEffectID
+            act(2002, 139995) -- AddSpEffect
         end
-    elseif env(1116, 139990) == FALSE then
-        act(2002, 139990)
+    elseif env(1116, 139990) == FALSE then -- GetSpecialEffectID
+        act(2002, 139990) -- AddSpEffect
     end
     return 
 end
 
 function SetMoveType()
-    if env(1116, 100130) == TRUE then
+    if env(1116, 100130) == TRUE then -- GetSpecialEffectID
+        -- Moving Right
         SetVariable("MoveType", 1)
         SetVariable("DrawStanceLoopUpperBlend", 1)
-    elseif env(1116, 100140) == TRUE then
+    elseif env(1116, 100140) == TRUE then -- GetSpecialEffectID
+        -- Moving Right Diagonal
         SetVariable("MoveType", 2)
         SetVariable("DrawStanceLoopUpperBlend", 1)
-    elseif env(1116, 100150) == TRUE then
+    elseif env(1116, 100150) == TRUE then -- GetSpecialEffectID
+        -- Moving Left
         SetVariable("MoveType", 0)
         SetVariable("DrawStanceLoopUpperBlend", 1)
-    elseif env(1116, 100160) == TRUE then
+    elseif env(1116, 100160) == TRUE then -- GetSpecialEffectID
+        -- Moving Left Diagonal
         SetVariable("MoveType", 0)
         SetVariable("DrawStanceLoopUpperBlend", 1)
     else
@@ -150,10 +154,10 @@ function SetMoveType()
 end
 
 function SetThrowDefBlendWeight()
-    if env(1114, GetVariable("ThrowID") + 4) == FALSE then
+    if env(1114, GetVariable("ThrowID") + 4) == FALSE then -- DoesAnimExist
         return 
     end
-    local regist_num = env("投げ抜け抵抗回数取得") -- GetThrowDefenseCount
+    local regist_num = env(342) -- GetThrowDefenseCount
     local dT = GetDeltaTime()
     local blend_weight = GetVariable("ThrowHoldBlendWeight")
     local is_holding = GetVariable("ThrowHolding")
@@ -224,12 +228,12 @@ function SetAIActionState()
 end
 
 function SetAttackHand(hand)
-    act("武器パラメータ参照先", hand)
+    act("武器パラメータ参照先", hand) -- WeaponParameterReferent
     return 
 end
 
 function SetInterruptType(num)
-    act("AI通知攻撃タイプ", num)
+    act("AI通知攻撃タイプ", num) -- AINotifyAttackType
     return 
 end
 
@@ -246,13 +250,16 @@ function SetArtsGeneratorTransitionIndex(gen_hand, is_from)
         hand = HAND_RIGHT
     end
     local offset = 0
-    if is_from == TRUE and env(225, HAND_LEFT) == WEAPON_CATEGORY_FIST then
+    
+    -- Fist weapons
+    if is_from == TRUE and env(225, HAND_LEFT) == WEAPON_CATEGORY_FIST then -- GetEquipWeaponCategory
         offset = 4
         hand = HAND_RIGHT
     end
     local changetype = GetHandChangeType(hand)
     
-    if offset == 4 and env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 161 then -- GetEquipWeaponSpecialCategoryNumber
+    -- Farron Greatsword
+    if offset == 4 and env(345, HAND_RIGHT) == 161 then -- GetEquipWeaponSpecialCategoryNumber
         offset = 0
         changetype = WEAPON_CHANGE_REQUEST_LEFT_BACK
     end
@@ -297,7 +304,7 @@ function GetMoveSpeed(stick_level)
 end
 
 function GetWeightIndex(is_move)
-    local move_id = env(257)
+    local move_id = env(257) -- GetMoveAnimParamID
     local move_weight = MOVE_WEIGHT_NORMAL
     local evasion_weight = EVASION_WEIGHT_INDEX_MEDIUM
     if move_id == WEIGHT_LIGHT or move_id == WEIGHT_LIGHT + 20 or move_id == WEIGHT_LIGHT + 40 or move_id == WEIGHT_LIGHT + 60 then
@@ -313,26 +320,26 @@ function GetWeightIndex(is_move)
         move_weight = MOVE_WEIGHT_LIGHT
         evasion_weight = EVASION_WEIGHT_INDEX_SUPERLIGHT
     end
-    if env(1116, 130110) == TRUE then
+    if env(1116, 130110) == TRUE then -- GetSpecialEffectID
         if move_weight < MOVE_WEIGHT_HEAVY then
             move_weight = MOVE_WEIGHT_HEAVY
         end
         if evasion_weight < EVASION_WEIGHT_INDEX_HEAVY then
             evasion_weight = EVASION_WEIGHT_INDEX_HEAVY
         end
-    elseif env(305, CONDITION_TYPE_GRAVITY_MEDIUM) == TRUE then
+    elseif env(305, CONDITION_TYPE_GRAVITY_MEDIUM) == TRUE then -- GetStateChangeType
         if move_weight < MOVE_WEIGHT_HEAVY then
             move_weight = MOVE_WEIGHT_HEAVY
         end
         if evasion_weight < EVASION_WEIGHT_INDEX_HEAVY then
             evasion_weight = EVASION_WEIGHT_INDEX_HEAVY
         end
-    elseif env(305, CONDITION_TYPE_GRAVITY_WEAK) == TRUE and move_weight < MOVE_WEIGHT_HEAVY then
+    elseif env(305, CONDITION_TYPE_GRAVITY_WEAK) == TRUE and move_weight < MOVE_WEIGHT_HEAVY then -- GetStateChangeType
         move_weight = MOVE_WEIGHT_HEAVY
     end
     
     -- Carthus Bloodring Effect
-    if env(1116, 112000) == TRUE then
+    if env(1116, 112000) == TRUE then -- GetSpecialEffectID
         if evasion_weight == EVASION_WEIGHT_INDEX_OVERWEIGHT then
             evasion_weight = EVASION_WEIGHT_INDEX_HEAVY
             move_weight = MOVE_WEIGHT_NORMAL
@@ -375,11 +382,14 @@ end
 function GetLocomotionState()
     local state = GetVariable("LowerDefaultState00")
     if state == MOVE_DEF0 or state == MOVECEREMONY_DEF0 then
-        if env(1116, 100000) == TRUE then
+        if env(1116, 100000) == TRUE then -- GetSpecialEffectID
+            -- Walking
             return PLAYER_STATE_MOVE
-        elseif env(1116, 100001) == TRUE then
+        elseif env(1116, 100001) == TRUE then -- GetSpecialEffectID
+            -- Running
             return PLAYER_STATE_MOVE
-        elseif env(1116, 100002) == TRUE then
+        elseif env(1116, 100002) == TRUE then -- GetSpecialEffectID
+            -- Sprinting
             return PLAYER_STATE_MOVE
         end
     end
@@ -388,10 +398,12 @@ end
 
 function GetBaseCategory()
     local basecategoryid = 0
+    
+    -- Scythe
     if kind_special == 50 then
         basecategoryid = 0
     else
-        basecategoryid = env("待機アニメカテゴリ取得") -- GetStayAnimCategory
+        basecategoryid = env(358) -- GetStayAnimCategory
     end
     local index = 0
     if basecategoryid == 0 then
@@ -409,11 +421,11 @@ function GetEquipType(hand, ...)
     local kind = {}
     local num = 1
     if hand == HAND_BOTH then
-        kind[1] = env(225, HAND_LEFT)
-        kind[2] = env(225, HAND_RIGHT)
+        kind[1] = env(225, HAND_LEFT) -- GetEquipWeaponCategory
+        kind[2] = env(225, HAND_RIGHT) -- GetEquipWeaponCategory
         num = 2
     else
-        kind[1] = env(225, hand)
+        kind[1] = env(225, hand) -- GetEquipWeaponCategory
     end
     for local0 = 1, num, 1 do
         for local1 = 1, #buff, 1 do
@@ -427,7 +439,7 @@ end
 
 function GetWeaponChangeType(hand)
     local left_offset = 0
-    local pos = env("武器格納場所タイプ取得", hand) -- GetWeaponStorageSpotType
+    local pos = env(357, hand) -- GetWeaponStorageSpotType
     if hand == HAND_LEFT then
         left_offset = 4
     end
@@ -446,7 +458,7 @@ end
 
 function GetHandChangeType(hand)
     local left_offset = 0
-    local pos = env("武器格納場所タイプ取得", hand) -- GetWeaponStorageSpotType
+    local pos = env(357, hand) -- GetWeaponStorageSpotType
     if hand == HAND_LEFT then
         left_offset = 4
     end
@@ -620,7 +632,7 @@ function GetAttackRequest(is_guard)
                 return ATTACK_REQUEST_HEAVY_KICK
             end
         end
-        local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) -- GetEquipWeaponSpecialCategoryNumber
+        local sp_kind = env(345, hand) -- GetEquipWeaponSpecialCategoryNumber
         
         -- Hybrid Spell Tool
         if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 then
@@ -657,7 +669,7 @@ function GetAttackRequest(is_guard)
             end
         end
         if is_both == FALSE then
-            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind = env(345, HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
             
             -- Hybrid Spell Tool
             if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
@@ -685,12 +697,12 @@ function GetAttackRequest(is_guard)
     elseif env(1106, ACTION_ARM_L2) == TRUE then -- ActionRequest
         if is_both == FALSE then
             if GetEquipType(HAND_LEFT, WEAPON_CATEGORY_CROSSBOW) == TRUE then
-                act("弓矢スロット選択", 1) - ChooseBowAndArrowSlot
+                act("弓矢スロット選択", 1) -- ChooseBowAndArrowSlot
                 return ATTACK_REQUEST_LEFT_CROSSBOW2
             elseif GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW) == TRUE then
                 return ATTACK_REQUEST_ARROW_BOTH_LEFT
             end
-            local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind = env(345, HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
             
             -- Hybrid Spell Tool
             if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
@@ -839,10 +851,10 @@ function SetEvasionStaminaCost()
 end
 
 function SetSwordArtsCancelType()
-    local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
+    local sp_kind = env(345, HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
     if IsEnableSwordArts() == TRUE then
         -- GetGeneralMSBParameter
-        act(2011, env("剣戟キャンセルタイプを取得", c_SwordArtsHand)) -- GetWeaponCancelType
+        act(2011, env(121, c_SwordArtsHand)) -- GetWeaponCancelType
     else
         -- GetGeneralMSBParameter
         act(2011, 0)
@@ -853,12 +865,12 @@ end
 function SetGender()
     -- Reversal Ring
     if env(1116, 112074000) == TRUE then -- -- GetSpecialEffectID
-        if env("女性か") == TRUE then -- IsFemale
+        if env(347) == TRUE then -- IsFemale
             c_IsFemale = FALSE
         else
             c_IsFemale = TRUE
         end
-    elseif env("女性か") == TRUE then -- -- IsFemale
+    elseif env(347) == TRUE then -- -- IsFemale
         c_IsFemale = TRUE
     else
         c_IsFemale = FALSE
@@ -872,7 +884,7 @@ function SetSwordArtsPointInfo(button, is_point_consume)
         act("アーツポイント使用予約", button, hand) -- ReserveArtsPointsUse
     end
     local sel = 0
-    if env("アーツポイント足りるか", button, hand) == FALSE then -- HasEnoughArtsPoints
+    if env(344, button, hand) == FALSE then -- HasEnoughArtsPoints
         sel = 1
     elseif env(311, hand) == 0 then -- GetWeaponDurability
         sel = 1
@@ -900,8 +912,8 @@ function SetSwordArtsPointInfo(button, is_point_consume)
         end
     elseif button == ACTION_ARM_L2 then
         if IsNodeActive("MagicBuffRight_Upper_Selector") == TRUE or IsNodeActive("MagicBuffLeft_Upper_Selector") == TRUE then
-            local sp_kind_L = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
-            local sp_kind_R = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind_L = env(345, HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind_R = env(345, HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
             local style = c_Style
             if sp_kind_L == 265 and sp_kind_R == 265 then -- Preacher's Right Arm
                 DebugPrint(1, style)
@@ -944,11 +956,11 @@ function ClearAttackQueue()
 end
 
 function UpdateOldMonkState()
-    if env(1116, 9130) == FALSE then
+    if env(1116, 9130) == FALSE then -- GetSpecialEffectID
         if env(1116, 9139) == FALSE then
             act(2002, 9139)
         end
-    elseif env(1116, 9139) == TRUE then
+    elseif env(1116, 9139) == TRUE then -- GetSpecialEffectID
         act(2002, 9133)
     end
     return 
