@@ -4482,6 +4482,7 @@ Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
+// Area - Flag set if within
 Event(20006031, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -4529,9 +4530,9 @@ Event(20006040, Default, function(X0_4, X4_4, X8_4) {
 });
 
 //----------------------------------------------
-// Spawn Control - NG+
+// NG+ Rings
 //----------------------------------------------
-Event(20008000, Restart, function(X0_4, X4_1) {
+Event(20008000, Restart, function(X0_4, X4_1, X8_4) {
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -4549,6 +4550,60 @@ Event(20008000, Restart, function(X0_4, X4_1) {
     IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
+    
+    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    AwardItemLot(X8_4);
+});
+
+//----------------------------------------------
+// NG+ Enemies
+//----------------------------------------------
+Event(20008001, Restart, function(X0_4, X4_1) {
+    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label0();
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
+});
+
+//----------------------------------------------
+// NG+ Rings - Abyss Watchers
+//----------------------------------------------
+Event(20008002, Restart, function(X0_4, X4_1, X8_4) {
+    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label0();
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
+    GotoUnconditionally(Label.LABEL1)
+    
+    Label1();
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFixedTimeSeconds(0.1);
+    RequestCharacterAIReplan(X0_4);
+    
+    IfCharacterHasSpeffect(OR_01, X0_4, 12243, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 12244, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    AwardItemLot(X8_4);
 });
 
 //----------------------------------------------

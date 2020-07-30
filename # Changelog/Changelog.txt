@@ -184,6 +184,8 @@ increases evasive movement stamina costs by 50%.
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
 - Silver Knight Ledo should appear properly now.
+- Echoes of the Past now award their loot directly to the player.
+- Echo Abyss Watchers now drop the Farron Ring+1/2/3 properly.
 
 #------------------------------
 # TODO
