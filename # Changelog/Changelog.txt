@@ -111,6 +111,7 @@
 - Increased whip speed (20% faster).
 - Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
 - Increased Knight Shield Physical Guard ABS to 100%.
+- Fixed several innate Lucky weapons so the infusions actually improve their output.
 
 # Armor
 - Added Tarnished Knight Set (Silver Knight Ledo's cut armor, re-made by Wiglow): dropped by Silver Knight Ledo.
