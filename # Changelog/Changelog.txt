@@ -22,7 +22,7 @@
 53012090 Lothric Castle
 53412134 Grand Archives
 54102011 Kiln of the First Flame
-53202075 Archdragon Peak
+53202076 Archdragon Peak
 54502075 Painted World of Ariandel
 55002062 Dreg Heap
 55102059 The Ringed City
@@ -111,6 +111,7 @@
 - Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
 - Increased Knight Shield Physical Guard ABS to 100%.
 - Fixed several innate Lucky weapons so the infusions actually improve their output.
+- Lethal infusion now adds 10% crit chance.
 
 # Armor
 - Added Tarnished Knight Set (Silver Knight Ledo's cut armor, re-made by Wiglow): dropped by Silver Knight Ledo.
@@ -180,6 +181,7 @@ increases evasive movement stamina costs by 50%.
 
 # Map
 - Changed the Sandworm wall in Smouldering Lake. It now requires the Smouldering Rubble item to be destroyed (rather than automatically disappearing when all 3 worms are dead). The item itself is dropped by one of the worms.
+- Changed the gauntlet section in Archdragon Peak. There is now only 2 serpent summoners and a respawning Ancient Wyvern. This wyvern drops the Stick item once, and 1 Dragon Scale 100% of the time.
 
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
@@ -209,11 +211,6 @@ Look into changing the block action for many weapons into left attack
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-# Change Gauntlet in ADP to something more inspired
- Secondary summoner, new summoned NPCs?
-
-# Revert Soul Vessel, place Curse of Avarice in Curse-rotted Greatwood.
-
 # Make ammunition more interesting
  - Keep 2 'base' types, weak and regular
  - Make other types very limited, but more interesting types.
@@ -230,5 +227,3 @@ Halberd
 Greatbow
 Crossbow
 
-2003
-2004

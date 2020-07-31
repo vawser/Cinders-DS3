@@ -1504,6 +1504,11 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         crit_chance = crit_chance + 5
     end
     
+    -- Lethal Effect
+    if env(1116, 111003) == TRUE then -- GetSpecialEffectID
+        crit_chance = crit_chance + 10
+    end
+    
     -- Critical Hit Check
     if roll <= crit_chance then
          act(2002, 112500) -- AddSpEffect

@@ -139,6 +139,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 # Map State
 25009100 Sandworm Item state
 25009101 Sandworm Wall state
+25009110 Wyvern flag
 
 25009512 El Hueso state
 
