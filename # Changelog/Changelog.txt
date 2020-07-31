@@ -71,9 +71,8 @@
  - Trial of Devastation: unlocked after Twin Princes kill. Reward primordial titanite.
 
 # Bonfires
-- Restricted a few of the options to now require specific key items before they will appear:
- - Level Up: requires the Soul Vessel - Dropped by the Curse-rotted Greatwood.
- - Buy/Sell: requires Essence of Avarice - Dropped by mimic in High Wall.
+- Restricted some of the bonfire options early on, they now require specific key items before they will appear:
+ - Buy/Sell: requires Essence of Avarice - Dropped by Curse-rotted Greatwood.
  - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
  
 # Mechanics
@@ -210,3 +209,26 @@ Look into changing the block action for many weapons into left attack
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
+# Change Gauntlet in ADP to something more inspired
+ Secondary summoner, new summoned NPCs?
+
+# Revert Soul Vessel, place Curse of Avarice in Curse-rotted Greatwood.
+
+# Make ammunition more interesting
+ - Keep 2 'base' types, weak and regular
+ - Make other types very limited, but more interesting types.
+    
+# Equalize damage between normal and unique/boss  
+# Buff damage
+Axes
+Greataxes
+Hammer
+Great Hammer
+Spear
+Pike
+Halberd
+Greatbow
+Crossbow
+
+2003
+2004

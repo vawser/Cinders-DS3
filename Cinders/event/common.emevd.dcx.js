@@ -1731,8 +1731,8 @@ Event(400011, Restart, function() {
     SetEventFlag(25000409, ON); // Organize Storage Box
     SetEventFlag(25000400, ON); // Travel
     SetEventFlag(25000410, ON); // Undead Match
-    
-    SetEventFlag(25000401, OFF); // Level Up
+    SetEventFlag(25000401, ON); // Level Up
+
     SetEventFlag(25000404, OFF); // Reinforce Weapon
     SetEventFlag(25000405, OFF); // Infuse Weapon
     SetEventFlag(25000406, OFF); // Repair Equipment
@@ -1740,9 +1740,9 @@ Event(400011, Restart, function() {
     SetEventFlag(25000408, OFF); // Sell Item
     
     // Soul Vessel
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_01);
-    SetEventFlag(25000401, ON); // Level Up
+    //IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);
+    //SkipIfConditionGroupStateUncompiled(1, FAIL, AND_01);
+    //SetEventFlag(25000401, ON); // Level Up
     
     // Smithbox
     IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 2006, OwnershipState.Owns);
@@ -2419,8 +2419,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25008103, ON); 
-    WarpPlayer(47, 0, 4700950);
+    SetSpeffect(10000, 130134120);
     
     EndUnconditionally(EventEndType.Restart);
 });

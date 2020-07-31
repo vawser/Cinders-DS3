@@ -64,7 +64,7 @@ Returns TRUE or FALSE.
 222 GetReceivedDamageDirection 			# 食らったダメージ方向を取得
 223 GetMapActionID 			            # マップアクションIDを取得
 224 GetFallHeight 			            # 落下した高さを取得
-225 GetEquipWeaponCategory 			    # 装備武器カテゴリ番号取得
+225 GetEquipWeaponCategory 			    # 装備武器カテゴリ番号取得 (Base TAE ID)
 226 IsHoldingBow 			            # 弓構え中か
 227 GetMagicAnimType 			        # 魔法アニメタイプ取得
 228 WasNotLargeAtk 			            # 大攻撃じゃなかった
@@ -145,6 +145,7 @@ Returns TRUE or FALSE.
 303 IsReachBottomOfLadder 			    # はしご下到着か
 304 IsReachTopOfLadder 			        # はしご上到着か
 305 GetStateChangeType 			        # 状態変化タイプを取得
+    <condition type>
 306 IsOnLastRungOfLadder 			    # はしごの最終段にいるか
 311 GetWeaponDurability 			    # 武器の耐久度を取得
 312 IsWeaponBroken 			            # 耐久度で分岐するか
@@ -170,37 +171,38 @@ Returns TRUE or FALSE.
 332 IsAnimOver 			                # アニメが終了したか
 333 ObtainedDT 			                # DT取得
 334 GetBehaviorID 			            # Behavior用識別値取得
+    <id>
 335 IsTwoHandPossible 			        # 両手持ち可能か
 336 IsPartDamageAdditiveBlendInvalid    # 部位・ダメージ加算ブレンド無効か
 337 IsThrowPosRealign 			        # 投げ位置合わせ中か
 338 GetBoltLoadingState 			    # ボルト装填状態取得
 339 IsAnimEnd 			                # アニメ終了か
 340 IsTwinSwords 			            # 双剣か
-341 GetTurnAngleForDelayedTurn       # 遅延旋回用TurnAngle取得
-342 GetThrowDefenseCount 			# 投げ抜け抵抗回数取得
-343 IsEmergencyEvasionPossible       # 緊急回避可能か
-344 HasEnoughArtsPoints              # アーツポイント足りるか
+341 GetTurnAngleForDelayedTurn          # 遅延旋回用TurnAngle取得
+342 GetThrowDefenseCount 			    # 投げ抜け抵抗回数取得
+343 IsEmergencyEvasionPossible          # 緊急回避可能か
+344 HasEnoughArtsPoints                 # アーツポイント足りるか
     <button index>, <hand index>
-345 GetEquipWeaponSpecialCategoryNumber  # 装備武器特殊カテゴリ番号取得
+345 GetEquipWeaponSpecialCategoryNumber  # 装備武器特殊カテゴリ番号取得 (Override TAE ID)
     <hand index>
-346 CheckForEventAnimPlaybackRequest # イベントアニメ再生要求があるか
-347 IsFemale 			            # 女性か
-348 GetDelayTurnAngleDifference      # 遅延旋回角度差取得
-349 IsDamageMotionOff 			    # ダメージモーション無効か
-350 HasReachedStatsNeededForWeapon   # 武器能力開放ステータス値到達か
+346 CheckForEventAnimPlaybackRequest    # イベントアニメ再生要求があるか
+347 IsFemale 			                # 女性か
+348 GetDelayTurnAngleDifference         # 遅延旋回角度差取得
+349 IsDamageMotionOff 			        # ダメージモーション無効か
+350 HasReachedStatsNeededForWeapon      # 武器能力開放ステータス値到達か
     <hand index>
-351 UpperArmControlOuterAngle        # 上腕制御外側角度
-352 UpperArmControlTopAndBottomAngle # 上腕制御上下角度
+351 UpperArmControlOuterAngle           # 上腕制御外側角度
+352 UpperArmControlTopAndBottomAngle    # 上腕制御上下角度
 353 CompleteLadderSlideDown 		    # はしご滑り降り完了
-354 GetLadderRungCount 			    # はしご段数取得
-355 GetNumberOfRungsBelowOnLadder    # 滑り降り停止先のはしご段数取得
-356 GetBowAndArrowSlot 			    # 弓矢スロット取得
-357 GetWeaponStorageSpotType         # 武器格納場所タイプ取得
+354 GetLadderRungCount 			        # はしご段数取得
+355 GetNumberOfRungsBelowOnLadder       # 滑り降り停止先のはしご段数取得
+356 GetBowAndArrowSlot 			        # 弓矢スロット取得
+357 GetWeaponStorageSpotType            # 武器格納場所タイプ取得
     <hand index>
-358 GetStayAnimCategory 			    # 待機アニメカテゴリ取得
-359 GetWeaponSwitchState 			# 
+358 GetStayAnimCategory 			    # 待機アニメカテゴリ取得 (Hold TAE ID)
+359 GetWeaponSwitchState 			    # 
 360 IsEquipmentMenuOpen 			    # 装備メニュー開いているか
-361 GetRemainingArrowCount 			# 矢の残弾数取得
+361 GetRemainingArrowCount 			    # 矢の残弾数取得
 1000 GetHP 			                    # HP取得
 1001 GetStamina 			            # スタミナ取得
 1002 IsGhost 			                # ゴーストか
@@ -216,42 +218,42 @@ Returns TRUE or FALSE.
 1101 IsInvincibleDebugMode 			    # 無敵デバッグモード有効か
 1102 WasGameLaunchedInPGTestMode        # PGテストモード起動しているか
 1103 IsTiltingStick 			        # スティックを傾けたか
-1104 GetGestureRequestNumber         # ジェスチャーリクエスト番号を取得
-1105 IsStayState 			        # 待機ステートか
-1106 ActionRequest 			        # アクションリクエスト
-1107 ActionCancelRequest 			# アクション解除リクエスト
+1104 GetGestureRequestNumber            # ジェスチャーリクエスト番号を取得
+1105 IsStayState 			            # 待機ステートか
+1106 ActionRequest 			            # アクションリクエスト
+1107 ActionCancelRequest 			    # アクション解除リクエスト
 1108 ActionDuration 			        # アクション継続時間
-1109 HasActionRequest 			    # 何かアクションリクエストがあるか
-1110 MovementRequest 			    # 移動リクエスト
-1111 MovementRequestDuration         # 移動リクエスト継続時間
-1112 HasThrowRequest 			    # 投げ要求か
-1113 IsGuardCancelPossible           # ガードキャンセル可能か
-1114 DoesAnimExist 			        # アニメが存在するか
-1115 GetAIMovementType 			    # AI移動タイプ取得
+1109 HasActionRequest 			        # 何かアクションリクエストがあるか
+1110 MovementRequest 			        # 移動リクエスト
+1111 MovementRequestDuration            # 移動リクエスト継続時間
+1112 HasThrowRequest 			        # 投げ要求か
+1113 IsGuardCancelPossible              # ガードキャンセル可能か
+1114 DoesAnimExist 			            # アニメが存在するか
+1115 GetAIMovementType 			        # AI移動タイプ取得
 1116 GetSpecialEffectID 			    # 特殊効果IDを取得
-1117 IsConversationEnd 			    # 会話が終了したか
-1118 IsLocked 			            # ロック中か
-1119 GetAtkDirection 			    # 攻撃方向取得
-1120 GetPartGroup 			        # 部位グループ取得
-1121 GetKnockbackDistance 			# ノックバック距離取得
-2000 IsMoveCancelPossible 			# 移動キャンセル可能か
+1117 IsConversationEnd 			        # 会話が終了したか
+1118 IsLocked 			                # ロック中か
+1119 GetAtkDirection 			        # 攻撃方向取得
+1120 GetPartGroup 			            # 部位グループ取得
+1121 GetKnockbackDistance 			    # ノックバック距離取得
+2000 IsMoveCancelPossible 			    # 移動キャンセル可能か
 2002 GetSpecialMovementType 			# 特殊移動タイプ取得
-2003 GetGeneralTAEFlag 			    # TAE汎用フラグ取得
-2004 IsSwingHitTarget 			    # 振りが当たっているか
-2005 GetCeremonyState 			    # 儀式状態を取得
-2006 GetSuccessiveGuardCount         # 連続ガード回数を取得
+2003 GetGeneralTAEFlag 			        # TAE汎用フラグ取得
+2004 IsSwingHitTarget 			        # 振りが当たっているか
+2005 GetCeremonyState 			        # 儀式状態を取得
+2006 GetSuccessiveGuardCount            # 連続ガード回数を取得
 2007 GetMinLuck 			            # 最小よろけ値を取得
 2008 GetAccumulatedLuck 			    # 蓄積よろけ値を取得
 2009 GetMaxLuck 			            # 最大よろけ値を取得
-2010 GetMaxStamina 			        # 最大スタミナ取得
+2010 GetMaxStamina 			            # 最大スタミナ取得
 2011 GetGeneralMSBParameter 			# MSB汎用パラメータ取得
-2012 IsHitWall 			            # 壁に当たっているか
+2012 IsHitWall 			                # 壁に当たっているか
 2013 GetSafetyDirection 			    # 安全方向取得
-2014 IsInCeremony 			        # 儀式中か
-2015 IsDoingCorpseCarryKeyframe      # 死体運びキーフレーム化するか
-2016 GetMP 			                # MP取得
+2014 IsInCeremony 			            # 儀式中か
+2015 IsDoingCorpseCarryKeyframe         # 死体運びキーフレーム化するか
+2016 GetMP 			                    # MP取得
 2017 IsCeremonyComplete 			    # 儀式完了か
-2018 IsCeremonyInterrupt             # 儀式中断か
+2018 IsCeremonyInterrupt                # 儀式中断か
 
 #------------------------
 # act( x, y, z )
@@ -294,6 +296,7 @@ Returns TRUE or FALSE.
 116 SetIsWeaponChanging
 117 SetIsItemInUse
 118 SetIsMagicInUse
+    <bool>
 119 SetHoverState
 120 RemoveBinoculars
 121 ChangeToSpecialStay
@@ -363,6 +366,7 @@ Returns TRUE or FALSE.
     <slot>
 2014 Set4DirectionMovementThreshold      # 4方向移動閾値設定
 2015 LockonSystemUnableToTurnAngle       # ロックオン時システム旋回不可角度
+    <angle>, <angle>
 2016 ReserveArtsPointsUse                # アーツポイント使用予約
 2017 SetArtsPointFEDisplayState
 2018 LockonFixedAngleCancel              # ロックオン中角度固定解除
@@ -370,7 +374,7 @@ Returns TRUE or FALSE.
 2020 SetSpecialInterpolation
 2021 LadderSlideDownCancel
 2022 DisableMagicIDSwitching             # 魔法ID切り替え無効
-2023 DisableToolIDSwitching
+2023 DisableToolIDSwitching              # 道具ID切り替え無効
 2024 UseItemDecision
 
 9000 DebugLogOutput                 # デバッグログ出力
@@ -441,6 +445,15 @@ AIが行動中か設定
 
 移動切替
 - Move Switching (y is boolean)
+
+アイテムアニメ中か設定
+- Set item animation in progress
+
+はしご滑り降り解除
+- Ladder slide down
+
+特殊補間設定
+- Special interpolation setting
 
 #------------------------
 # <attack request type>
