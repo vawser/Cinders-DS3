@@ -112,6 +112,10 @@
 - Increased Knight Shield Physical Guard ABS to 100%.
 - Fixed several innate Lucky weapons so the infusions actually improve their output.
 - Lethal infusion now adds 10% crit chance.
+- Thorned Greatsword WA now adds Lightning damage + vfx, rather than firing a sunlight spear.
+- Rayuko effect is now: successive hits boost damage by 10%.
+- Handmaid's Ladle damage/scaling changed. Now has 50 Physical damage, but has 100 scaling with STR, DEX, INT, FTH and LCK.
+- Handmaid's Ladle effect is now: echoes of death from fallen enemies slowly coalesce, eventually granting a modest dose of Estus.
 
 # Armor
 - Added Tarnished Knight Set (Silver Knight Ledo's cut armor, re-made by Wiglow): dropped by Silver Knight Ledo.
@@ -193,7 +197,6 @@ increases evasive movement stamina costs by 50%.
 # TODO
 #------------------------------
 Look into changing the block action for many weapons into left attack
-
 31420000 0840 / 1419 Hands of Sin
     Custom moveset (more slappy, less jabby, WA galvanise base)
     
@@ -214,16 +217,26 @@ Look into changing the block action for many weapons into left attack
 # Make ammunition more interesting
  - Keep 2 'base' types, weak and regular
  - Make other types very limited, but more interesting types.
-    
-# Equalize damage between normal and unique/boss  
-# Buff damage
-Axes
-Greataxes
-Hammer
-Great Hammer
-Spear
-Pike
-Halberd
-Greatbow
-Crossbow
 
+Add buff slot type to descriptions
+Change Quelaag's Sword to Chaos Storm WA
+Add Ringed Knight swoosh WA to Great Lord Greatsword
+Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
+
+
+# Excel
+Daggers - DONE
+Straight Swords - DONE
+Greatswords - DONE
+Ultra Greatsword - DONE
+Curved Swords - DONE
+Curved Greatswords - DONE
+Rapiers - DONE
+Katanas - DONE
+Axes - DONE
+Greataxes - DONE
+
+# Params
+Daggers - DONE
+Straight Swords - DONE
+Greatswords - DONE
