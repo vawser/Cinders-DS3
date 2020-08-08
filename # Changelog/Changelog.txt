@@ -218,7 +218,6 @@ Look into changing the block action for many weapons into left attack
  - Keep 2 'base' types, weak and regular
  - Make other types very limited, but more interesting types.
 
-Add buff slot type to descriptions
 Change Quelaag's Sword to Chaos Storm WA
 Add Ringed Knight swoosh WA to Great Lord Greatsword
 Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
@@ -235,8 +234,10 @@ Rapiers - DONE
 Katanas - DONE
 Axes - DONE
 Greataxes - DONE
+Hammers - DONE
 
 # Params
 Daggers - DONE
 Straight Swords - DONE
 Greatswords - DONE
+
