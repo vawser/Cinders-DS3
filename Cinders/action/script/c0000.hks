@@ -1362,14 +1362,23 @@ function ExecGuard(event, blend_type)
                 blend_type = UPPER
             end
             
-            -- Weapon Effect: jump on guard press
-            local effect_jump = env(1116, 112007) -- GetSpecialEffectID
-
-            if effect_jump == TRUE then
+            -- Jump Action Override
+            if env(1116, 112007) == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_Jump")
             else
-               ExecEventHalfBlend(event, blend_type)
+                ExecEventHalfBlend(event, blend_type)
+            end
+            
+            -- Horsehoof Ring
+            if env(1116, 112090) == TRUE then
+                if style == HAND_RIGHT_BOTH then
+                    ExecEventAllBody("W_AttackBothLightKick")
+                else
+                    ExecEventAllBody("W_AttackRightLightKick")
+                end
+            else
+                ExecEventHalfBlend(event, blend_type)
             end
             
             return TRUE
@@ -1513,7 +1522,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     if roll <= crit_chance then
          act(2002, 112500) -- AddSpEffect
     end
-
+    
     act(2006, 0) -- SetDamageMotionBlendRatio
     if env(271) == TRUE then -- IsSpecialTransitionPossible
         r1 = "W_AttackRightLight1"
@@ -1577,12 +1586,20 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
-        -- Weapom Effect: jump on guard action
-        local effect_jump = env(1116, 112007) -- GetSpecialEffectID
-
-        if effect_jump == TRUE then
+        -- Jump Action Override
+        if env(1116, 112007) == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+            return FALSE
+        end
+        
+        -- Horsehoof Ring
+        if env(1116, 112090) == TRUE then
+            if style == HAND_RIGHT_BOTH then
+                ExecEventAllBody("W_AttackBothLightKick")
+            else
+                ExecEventAllBody("W_AttackRightLightKick")
+            end
             return FALSE
         end
         
@@ -1590,12 +1607,20 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
-        -- Weapom Effect: jump on guard action
-        local effect_jump = env(1116, 112007) -- GetSpecialEffectID
-
-        if effect_jump == TRUE then
+        -- Jump Action Override
+        if env(1116, 112007) == TRUE then
             AddStamina(-10)
             ExecEventAllBody("W_Jump")
+            return FALSE
+        end
+        
+        -- Horsehoof Ring
+        if env(1116, 112090) == TRUE then
+            if style == HAND_RIGHT_BOTH then
+                ExecEventAllBody("W_AttackBothLightKick")
+            else
+                ExecEventAllBody("W_AttackRightLightKick")
+            end
             return FALSE
         end
         
@@ -1630,7 +1655,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         elseif l1 == "W_AttackLeftLight2" then
             l1 = "W_AttackBothLeft2"
         end
-        
+
         ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_BOTH_HEAVY then
         if artsr2 == TRUE then

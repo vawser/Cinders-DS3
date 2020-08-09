@@ -184,6 +184,7 @@ increases evasive movement stamina costs by 50%.
 - Runic Seal: Whilst below 50%, ironskin is applied to the wearer. Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack deflection by 65.
 - Black Tearstone Ring: boosts souls from enemies by 30% whilst below 25% health.
 - Elden Ring: grants 10% boost to physical damage.
+- Horsehoof Ring: now adds easy kick action by overriding left guard/attack.
 
 # Map
 - Changed the Sandworm wall in Smouldering Lake. It now requires the Smouldering Rubble item to be destroyed (rather than automatically disappearing when all 3 worms are dead). The item itself is dropped by one of the worms.
@@ -224,6 +225,7 @@ Look into changing the block action for many weapons into left attack
 Change Quelaag's Sword to Chaos Storm WA
 Add Ringed Knight swoosh WA to Great Lord Greatsword
 Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
+Rune Sword/Shield -> Valorheart style
 
 # Excel
 Daggers - DONE
@@ -238,11 +240,12 @@ Axes - DONE
 Greataxes - DONE
 Hammers - DONE
 Great Hammers - DONE
-Spears -
-Halberds -
-Scythes -
-Whips -
-Fists -
+Spears - DONE
+Halberds - DONE
+Scythes - DONE
+Whips - DONE
+Fists - DONE
+Battlestaves - 
 
 # Params
 Daggers - DONE
