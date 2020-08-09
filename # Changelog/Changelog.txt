@@ -122,6 +122,8 @@
 - Added Bear Set: dropped by Magnum Ursus, or gifted by him.
 - Added King's Set: sold by Domhnall.
 - Added Winged Helm of Ridoh: found in the Ringed City.
+- Increased poise health multipliers for weapon swings.
+- Poise health is now restored when you idle, swing your weapon or are staggered.
 
 # Spells
 - Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
@@ -192,6 +194,7 @@ increases evasive movement stamina costs by 50%.
 - Silver Knight Ledo should appear properly now.
 - Echoes of the Past now award their loot directly to the player.
 - Echo Abyss Watchers now drop the Farron Ring+1/2/3 properly.
+- Fixed poise not working properly for female characters.
 
 #------------------------------
 # TODO
@@ -222,7 +225,6 @@ Change Quelaag's Sword to Chaos Storm WA
 Add Ringed Knight swoosh WA to Great Lord Greatsword
 Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
 
-
 # Excel
 Daggers - DONE
 Straight Swords - DONE
@@ -235,6 +237,7 @@ Katanas - DONE
 Axes - DONE
 Greataxes - DONE
 Hammers - DONE
+Great Hammers - DONE
 
 # Params
 Daggers - DONE
