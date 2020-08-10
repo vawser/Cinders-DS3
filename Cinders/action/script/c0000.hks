@@ -1154,6 +1154,7 @@ function IsWeaponCanGuard()
         kind = env(225, HAND_RIGHT) -- GetEquipWeaponCategory
         pos = 3
     end
+    
     for local0 = 1, #WeaponCategoryID, 1 do
         local local1 = WeaponCategoryID[local0]
         if local1[1] == kind then

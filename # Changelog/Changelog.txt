@@ -200,7 +200,6 @@ increases evasive movement stamina costs by 50%.
 #------------------------------
 # TODO
 #------------------------------
-Look into changing the block action for many weapons into left attack
 31420000 0840 / 1419 Hands of Sin
     Custom moveset (more slappy, less jabby, WA galvanise base)
     
@@ -227,28 +226,26 @@ Add Ringed Knight swoosh WA to Great Lord Greatsword
 Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
 Rune Sword/Shield -> Valorheart style
 
-# Excel
-Daggers - DONE
-Straight Swords - DONE
-Greatswords - DONE
-Ultra Greatsword - DONE
-Curved Swords - DONE
-Curved Greatswords - DONE
-Rapiers - DONE
-Katanas - DONE
-Axes - DONE
-Greataxes - DONE
-Hammers - DONE
-Great Hammers - DONE
-Spears - DONE
-Halberds - DONE
-Scythes - DONE
-Whips - DONE
-Fists - DONE
-Battlestaves - 
-
 # Params
 Daggers - DONE
 Straight Swords - DONE
 Greatswords - DONE
+Ultra Greatsword - DONE 
+Curved Swords - DONE
+Curved Greatswords - 
+Rapiers - 
+Katanas - 
+Axes - 
+Greataxes - 
+Hammers - 
+Great Hammers - 
+Spears - 
+Halberds - 
+Scythes - 
+Whips - 
+Fists - 
+Battlestaves - 
+Bows - 
+Crossbows - 
 
+Fume Ultra Greatsword
