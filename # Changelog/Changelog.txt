@@ -63,6 +63,7 @@
 # Changelog
 #------------------------------
 # Weapons
+- Adjusted damage difference between weapons within the same category to make the variance much less extreme.
 - Dragonrider Halberd is now a Physical/Magic weapon.
 - Weapons will no longer bounce off walls.
 - Increased whip speed (20% faster).
@@ -236,36 +237,18 @@ increases evasive movement stamina costs by 50%.
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-# Make ammunition more interesting
- - Keep 2 'base' types, weak and regular
- - Make other types very limited, but more interesting types.
-
+# Style Changes
 Change Quelaag's Sword to Chaos Storm WA
 Add Ringed Knight swoosh WA to Great Lord Greatsword
-Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
-Rune Sword/Shield -> Valorheart style
 
-Add correction adjustment to Lethal
+Rune Sword/Shield (Valorheart)
+Missionary Axe (Dual Greataxe)
+Thrall Pick (Dual Hammer)
+Irithyll Warpick (Dual Hammer)
+Burial Scythe (Dual Scythe/Blade)
+    9840 Burial Scythe
+    9836 Burial Blade
+Tailbone Club (Dual Hammer)
 
-# Params
-Daggers - DONE
-Straight Swords - DONE
-Greatswords - DONE
-Ultra Greatsword - DONE 
-Curved Swords - DONE
-Curved Greatswords - DONE
-Rapiers - DONE
-Katanas - DONE
-Axes - DONE
-Greataxes - DONE
-Hammers - 
-Great Hammers - 
-Spears - 
-Halberds - 
-Scythes - 
-Whips - 
-Fists - 
-Battlestaves - 
-Bows - 
-Crossbows - 
-
+# Ammunition
+Standard Arrow
