@@ -220,6 +220,44 @@ increases evasive movement stamina costs by 50%.
 #------------------------------
 # TODO
 #------------------------------
+# Ammunition
+Standard Arrow
+Fire Arrow
+Poison Arrow
+Large Arrow
+Feather Arrow
+Moonlight Arrow
+Wood Arrow
+Dark Arrow
+Lightning Arrow
+Lacerating Arrow
+Frost Arrow
+Draconic Arrow
+
+Dragonslayer Greatarrow
+Dragonslayer Lightning Arrow
+Onislayer Greatarrow
+Millwood Greatarrow
+Moonlight Greatarrow
+Demonic Greatarrow
+Corrupted Greatarrow
+Draconic Greatarrow
+Wood Greatarrow
+
+Standard Bolt
+Heavy Bolt
+Sniper Bolt
+Wood Bolt
+Lightning Bolt
+Splintering Bolt
+Exploding Bolt
+Magic Bolt
+Fire Bolt
+Dark Bolt
+Poison Bolt
+Frost Bolt
+Draconic Bolt
+
 31420000 0840 / 1419 Hands of Sin
     Custom moveset (more slappy, less jabby, WA galvanise base)
     
@@ -250,5 +288,3 @@ Burial Scythe (Dual Scythe/Blade)
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
 
-# Ammunition
-Standard Arrow
