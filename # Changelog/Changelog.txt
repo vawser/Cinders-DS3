@@ -79,7 +79,15 @@
 - Added Mark of Prismatica: increases boss HP and power by 50%, enables 100% primordial material drop on victory.
 - Curses no longer give random primordial material drop chance. Increased the soul absorption bonus to compensate.
 - No Hit kills now give a set amount of extra souls.
- 
+- Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
+- Renamed the Critical Hit merchanic to Perfect Hit, so it is clear that it isn't related to Critical.
+- Removed the baseline 1% perfect hit chance.
+- Snickering Top Hat: perfect hit chance reduced to 2%.
+- Ring of Punishment: perfect hit chance reduced to 2%.
+- Lucky Infusion: perfect hit chance randomised between 0% and 5%.
+- Lethal Infusion: perfect hit chance reduced to 3%.
+- Weapon Effect: perfect hit chance reduced to 2%.
+
 # Companions
 - Now required you to be embered to summon.
 - Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
@@ -106,7 +114,6 @@
 # Weapons
 - Dragonrider Halberd is now a Physical/Magic weapon.
 - Weapons will no longer bounce off walls.
-- Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
 - Increased whip speed (20% faster).
 - Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
 - Increased Knight Shield Physical Guard ABS to 100%.
@@ -226,16 +233,19 @@ Add Ringed Knight swoosh WA to Great Lord Greatsword
 Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if it exists)
 Rune Sword/Shield -> Valorheart style
 
+Add correction adjustment to Lethal
+Reduce crit chance additions, change notification to a weapon vfx + icon
+
 # Params
 Daggers - DONE
 Straight Swords - DONE
 Greatswords - DONE
 Ultra Greatsword - DONE 
 Curved Swords - DONE
-Curved Greatswords - 
-Rapiers - 
-Katanas - 
-Axes - 
+Curved Greatswords - DONE
+Rapiers - DONE
+Katanas - DONE
+Axes - DONE
 Greataxes - 
 Hammers - 
 Great Hammers - 
@@ -248,4 +258,3 @@ Battlestaves -
 Bows - 
 Crossbows - 
 
-Fume Ultra Greatsword

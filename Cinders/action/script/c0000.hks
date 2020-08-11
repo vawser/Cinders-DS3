@@ -1490,37 +1490,37 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     
-    -- Critical Setup
-    local crit_chance = 1
+    -- Perfect Hit Setup
+    local perfect_hit_chance = 0
     local roll = math.random(0, 100)
     
     -- Snickering Top Hat
     if env(1116, 111000) == TRUE then -- GetSpecialEffectID
-        crit_chance = crit_chance + 10
+        perfect_hit_chance = perfect_hit_chance + 2
     end
     
     -- Ring of Punishment
     if env(1116, 111001) == TRUE then -- GetSpecialEffectID
-        crit_chance = crit_chance + 10
+        perfect_hit_chance = perfect_hit_chance + 2
     end
     
     -- Lucky Weapon
     if env(1116, 111002) == TRUE then -- GetSpecialEffectID
-        crit_chance = crit_chance + math.random(5, 10)
+        perfect_hit_chance = perfect_hit_chance + math.random(0, 5)
     end
     
     -- Weapon Effect
     if env(1116, 111003) == TRUE then -- GetSpecialEffectID
-        crit_chance = crit_chance + 5
+        perfect_hit_chance = perfect_hit_chance + 2
     end
     
     -- Lethal Effect
     if env(1116, 111003) == TRUE then -- GetSpecialEffectID
-        crit_chance = crit_chance + 10
+        perfect_hit_chance = perfect_hit_chance + 3
     end
     
     -- Critical Hit Check
-    if roll <= crit_chance then
+    if roll < perfect_hit_chance then
          act(2002, 112500) -- AddSpEffect
     end
     
