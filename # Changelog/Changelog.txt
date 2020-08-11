@@ -62,55 +62,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Trial
-- Split the trial into four different, smaller trials. Each has 4 waves, and then 1 boss wave.
-- Each takes place in one of the DLC arena maps.
- - Trial of Adversity: unlocked after Abyss Watcher kill. Rewards regular titanite.
- - Trial of Sorrow: unlocked after Yhorm kill. Rewards mix of titanite + fragments.
- - Trial of Calamity: unlocked after Aldrich kill. Rewards mix of titanite + fragments.
- - Trial of Devastation: unlocked after Twin Princes kill. Reward primordial titanite.
-
-# Bonfires
-- Restricted some of the bonfire options early on, they now require specific key items before they will appear:
- - Buy/Sell: requires Essence of Avarice - Dropped by Curse-rotted Greatwood.
- - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
- 
-# Mechanics
-- Added Mark of Prismatica: increases boss HP and power by 50%, enables 100% primordial material drop on victory.
-- Curses no longer give random primordial material drop chance. Increased the soul absorption bonus to compensate.
-- No Hit kills now give a set amount of extra souls.
-- Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
-- Renamed the Critical Hit merchanic to Perfect Hit, so it is clear that it isn't related to Critical.
-- Removed the baseline 1% perfect hit chance.
-- Snickering Top Hat: perfect hit chance reduced to 2%.
-- Ring of Punishment: perfect hit chance reduced to 2%.
-- Lucky Infusion: perfect hit chance randomised between 0% and 5%.
-- Lethal Infusion: perfect hit chance reduced to 3%.
-- Weapon Effect: perfect hit chance reduced to 2%.
-
-# Companions
-- Now required you to be embered to summon.
-- Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
- 
-# Warps
-- The in-map warps now require specific key items to use. It will tell you if you are missing it.
-- High Wall -> Archdragon Peak
- - Requires Dragon Talon: found near the Serpent-man in High Wall.
-- Undead Settlement -> Farron Keep
- - Requires Pilgrim's Soul: found on the roof in the section after the Tower Giant's gauntlet in Undead Settlement.
-- Undead Settlement -> Catacombs
- - Requires Catacombs Key: found on a lower ledge roof in the Demon section of Undead Settlement.
-- Irithyll Dungeon -> Smouldering Lake
- - Requires Smouldering Key: found in Irithyll in the alley with 3 dogs guarding a corpse.
-- Cathedral -> Irithyll
- - Requires Eye of Londor: dropped by the Deacons of the Deep.
-- Irithyll -> Ariandel
- - Requires Frozen Flower: found in the area before you drop down to the Cathedral Evangelist in Irithyll.
-- Cemetery of Ash -> Dreg Heap
- - Requires Broken Tablet: found in the area after Vordt in High Wall.
-- Ballista Warp
- - Requires Giant's Soul: found in the cave part of lower Smouldering Lake.
- 
 # Weapons
 - Dragonrider Halberd is now a Physical/Magic weapon.
 - Weapons will no longer bounce off walls.
@@ -197,6 +148,67 @@ increases evasive movement stamina costs by 50%.
 - Changed the Sandworm wall in Smouldering Lake. It now requires the Smouldering Rubble item to be destroyed (rather than automatically disappearing when all 3 worms are dead). The item itself is dropped by one of the worms.
 - Changed the gauntlet section in Archdragon Peak. There is now only 2 serpent summoners and a respawning Ancient Wyvern. This wyvern drops the Stick item once, and 1 Dragon Scale 100% of the time.
 
+# Trial
+- Split the trial into four different, smaller trials. Each has 4 waves, and then 1 boss wave.
+- Each takes place in one of the DLC arena maps.
+ - Trial of Adversity: unlocked after Abyss Watcher kill. Rewards regular titanite.
+ - Trial of Sorrow: unlocked after Yhorm kill. Rewards mix of titanite + fragments.
+ - Trial of Calamity: unlocked after Aldrich kill. Rewards mix of titanite + fragments.
+ - Trial of Devastation: unlocked after Twin Princes kill. Reward primordial titanite.
+
+# Bonfires
+- Restricted some of the bonfire options early on, they now require specific key items before they will appear:
+ - Buy/Sell: requires Essence of Avarice - Dropped by Curse-rotted Greatwood.
+ - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
+ 
+# Curses/Marks
+- Added Mark of Prismatica: increases boss HP and power by 50%, enables 100% primordial material drop on victory.
+- Curses no longer give random primordial material drop chance. Increased the soul absorption bonus to compensate.
+
+# No Hit
+- No Hit kills now give a set amount of extra souls.
+
+# Perfect Block
+- Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
+
+# Devastating Blow
+- Increased Devastating Blow boost back to +100%.
+- Renamed the Critical Hit merchanic to Devastating Blow, so it is clear that it isn't related to Critical.
+- Removed the baseline 1% devastating blow chance.
+- Snickering Top Hat: perfect hit chance reduced to 1%.
+- Ring of Punishment: perfect hit chance reduced to 1%.
+- Weapon Effect: perfect hit chance reduced to 1%.
+- Removed the Lucky devastating blow chance.
+- Removed the Lethal devastating blow chance.
+
+# Infusions
+- Lethal: reduces weapon stamina consumption by 15%.
+- Sharp: consecutive attacks boost damage, up to 15%.
+- Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
+
+# Companions
+- Now required you to be embered to summon.
+- Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
+ 
+# Warps
+- The in-map warps now require specific key items to use. It will tell you if you are missing it.
+- High Wall -> Archdragon Peak
+ - Requires Dragon Talon: found near the Serpent-man in High Wall.
+- Undead Settlement -> Farron Keep
+ - Requires Pilgrim's Soul: found on the roof in the section after the Tower Giant's gauntlet in Undead Settlement.
+- Undead Settlement -> Catacombs
+ - Requires Catacombs Key: found on a lower ledge roof in the Demon section of Undead Settlement.
+- Irithyll Dungeon -> Smouldering Lake
+ - Requires Smouldering Key: found in Irithyll in the alley with 3 dogs guarding a corpse.
+- Cathedral -> Irithyll
+ - Requires Eye of Londor: dropped by the Deacons of the Deep.
+- Irithyll -> Ariandel
+ - Requires Frozen Flower: found in the area before you drop down to the Cathedral Evangelist in Irithyll.
+- Cemetery of Ash -> Dreg Heap
+ - Requires Broken Tablet: found in the area after Vordt in High Wall.
+- Ballista Warp
+ - Requires Giant's Soul: found in the cave part of lower Smouldering Lake.
+ 
 # Bugfixes
 - Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
 - Silver Knight Ledo should appear properly now.
@@ -234,7 +246,6 @@ Make Missionary Axe use dual axe moveset (maybe use cut greatxe dual override if
 Rune Sword/Shield -> Valorheart style
 
 Add correction adjustment to Lethal
-Reduce crit chance additions, change notification to a weapon vfx + icon
 
 # Params
 Daggers - DONE
@@ -246,7 +257,7 @@ Curved Greatswords - DONE
 Rapiers - DONE
 Katanas - DONE
 Axes - DONE
-Greataxes - 
+Greataxes - DONE
 Hammers - 
 Great Hammers - 
 Spears - 
