@@ -64,6 +64,7 @@
 #------------------------------
 
 # Weapons
+- Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
 
 # Bugfixes
@@ -89,9 +90,6 @@
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-# Style Changes
-Add Ringed Knight swoosh WA to Great Lord Greatsword
-
 Rune Sword/Shield (Valorheart)
 Missionary Axe (Dual Greataxe)
 Thrall Pick (Dual Hammer)

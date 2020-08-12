@@ -147,23 +147,37 @@
 037671 - Warcry_NoPoints                    #13073 ## a198_038400
 
 #------------------------------------------------
-# a273 - Hands of Sin
+# a273 - TRC Stance (Fire)
+#------------------------------------------------
+036200 - DrawStanceRightStart                   #13074
+036210 - DrawStanceRightLoop_Upper              #13075
+036215 - DrawStanceRightLoopMove_Upper          #13076
+036220 - DrawStanceRightEnd_Upper               #13077
+036230 - DrawStanceRightAttackLight             #13078
+036231 - DrawStanceRightAttackLight_NoPoints    #13079
+036240 - DrawStanceRightAttackHeavy             #13080
+036241 - DrawStanceRightAttackHeavy_NoPoints    #13081
+036250 - DrawStanceRightAttackLight2            #13082
+036251 - DrawStanceRightAttackLight2_NoPoints   #13083
+036260 - DrawStanceRightAttackHeavy2            #13084
+036261 - DrawStanceRightAttackHeavy2_NoPoints   #13085
+036290 - DrawStanceRightAttackLight3            #13086
+036291 - DrawStanceRightAttackLight3_NoPoints   #13087
+
+#------------------------------------------------
+# a274 - 
 #------------------------------------------------
 
 #------------------------------------------------
-# a274 - Frying Pan
+# a275 - 
 #------------------------------------------------
 
 #------------------------------------------------
-# a275 - Serpentine Chain-axe
+# a276 - 
 #------------------------------------------------
 
 #------------------------------------------------
-# a276 - Giant's Bow
-#------------------------------------------------
-
-#------------------------------------------------
-# a277 - Model Ballista
+# a277 - 
 #------------------------------------------------
 
 #------------------------------------------------
