@@ -5301,7 +5301,7 @@ Event(20020020, Default, function() {
     
     // Mark of Prismatica
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
+    AwardItemLot(800200040);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);

@@ -71,6 +71,10 @@
 # Spells
 - Reduced the damage and amount of pillars for the pillar spells.
 
+# Bosses
+- Lordran Remnants now drops Primordal Slabs (with Mark of Prismatica enabled).
+- Increased the souls given by the Lordran Remnants to 150,000, equal to Midir.
+
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
 
