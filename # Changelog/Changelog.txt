@@ -66,6 +66,7 @@
 # Weapons
 - Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
+- Insanity Catalyst now has delayed scaling effectiveness.
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
