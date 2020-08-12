@@ -219,7 +219,7 @@ Divine Pillars of Light
 # Crystal Storm
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 500 {*8, shared}
+- Magic Damage: 400 {*3, shared}
 - INT Req: 50
 - Ascended Effect: expands area of effect.
 
@@ -275,7 +275,7 @@ Divine Pillars of Light
 # Blizzard
 #--------------------------------
 - FP Cost: 50
-- Magic Damage: 500 {*12, shared}
+- Magic Damage: 400 {*3, shared}
 - INT Req: 30
 - Base Effect: inflicts Frost on hit.
 - Ascended Effect: expands area of effect.
@@ -471,7 +471,7 @@ Divine Pillars of Light
 # Firestorm
 #--------------------------------
 - FP Cost: 50
-- Fire Damage: 600 {*10, shared}
+- Fire Damage: 400 {*3, shared}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -499,7 +499,7 @@ Divine Pillars of Light
 # Chaos Storm
 #--------------------------------
 - FP Cost: 75
-- Fire Damage: 700 [350] {*10, shared}
+- Fire Damage: 600 [350] {*3, shared}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -576,7 +576,7 @@ Divine Pillars of Light
 # Earthquake
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 600 {*10, individual}
+- Physical Damage: 500 {*3, individual}
 - Ascended Effect: expands area of effect.
 
 #--------------------------------
@@ -781,7 +781,7 @@ Divine Pillars of Light
 # Divine Pillars of Light
 #--------------------------------
 - FP Cost: 60
-- Physical Damage: 600 {*12, individual}
+- Physical Damage: 500 {*12, individual}
 - FTH Req: 30
 - Ascended Effect: expands area of effect.
 
@@ -1130,7 +1130,7 @@ Divine Pillars of Light
 # Yearning Dregs
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 500 {*10, shared}
+- Dark Damage: 400 {*3, shared}
 - INT Req: 25
 - FTH Req: 10
 - Base Effect: inflicts 50 Curse per pillar.
@@ -1403,7 +1403,7 @@ Divine Pillars of Light
 # Gravelord Sword Dance
 #--------------------------------
 - FP Cost: 50
-- Dark Damage: 600 {*10, shared}
+- Dark Damage: 500 {*1, shared}
 - FTH Req: 30
 - Base Effect: inflicts 50 Toxic.
 - Ascended Effect: expands area of effect.

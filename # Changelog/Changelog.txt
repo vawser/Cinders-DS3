@@ -68,6 +68,9 @@
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
 - Insanity Catalyst now has delayed scaling effectiveness.
 
+# Spells
+- Reduced the damage and amount of pillars for the pillar spells.
+
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
 
