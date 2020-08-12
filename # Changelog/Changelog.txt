@@ -63,6 +63,9 @@
 # Changelog
 #------------------------------
 
+# Weapons
+- Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
+
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
 
@@ -87,7 +90,6 @@
     Custom WA (powerful staggering shot)
     
 # Style Changes
-Change Quelaag's Sword to Chaos Storm WA
 Add Ringed Knight swoosh WA to Great Lord Greatsword
 
 Rune Sword/Shield (Valorheart)
