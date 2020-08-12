@@ -62,164 +62,40 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Adjusted damage difference between weapons within the same category to make the variance much less extreme.
-- Dragonrider Halberd is now a Physical/Magic weapon.
-- Weapons will no longer bounce off walls.
-- Increased whip speed (20% faster).
-- Equalized shortbow/longbow speed (now 20% faster rather than 50%/0% faster).
-- Increased Knight Shield Physical Guard ABS to 100%.
-- Fixed several innate Lucky weapons so the infusions actually improve their output.
-- Lethal infusion now adds 10% crit chance.
-- Thorned Greatsword WA now adds Lightning damage + vfx, rather than firing a sunlight spear.
-- Rayuko effect is now: successive hits boost damage by 10%.
-- Handmaid's Ladle damage/scaling changed. Now has 50 Physical damage, but has 100 scaling with STR, DEX, INT, FTH and LCK.
-- Handmaid's Ladle effect is now: echoes of death from fallen enemies slowly coalesce, eventually granting a modest dose of Estus.
-
-# Armor
-- Added Tarnished Knight Set (Silver Knight Ledo's cut armor, re-made by Wiglow): dropped by Silver Knight Ledo.
-- Added Bear Set: dropped by Magnum Ursus, or gifted by him.
-- Added King's Set: sold by Domhnall.
-- Added Winged Helm of Ridoh: found in the Ringed City.
-- Increased poise health multipliers for weapon swings.
-- Poise health is now restored when you idle, swing your weapon or are staggered.
-
-# Spells
-- Added Gravelord Sword Dance. Dropped by a mimic in Smouldering Lake (was the Fire Seed one).
-- Reduced duration of Fecal Expulsion Toxic to 15 seconds (was 60). Made it actually Toxic.
-- Changed Scattered Farron Dart into Scattering Soul Orb: emits an orb that fire soul darts sporadically for 5 seconds.
-- Changed Scattered Soul Arrow into Scattering Crystal Orb: emits an orb that fire soul arrows sporadically for 5 seconds.
-
-# Merchants
-- Added Alchemist Jiji: he sells the weapon oils, elixirs and herbs. Found on the outer rim of Firelink Tower.
-- Added Solaire of Astora: offers early access to the Warrior of Sunlight covenant, found after Vordt.
-- Moved Magnum Ursus down to the area near El Hueso.
-- Changed Magnum Ursus armor to the Bear set.
-- Added unlockable Primordial material shop at Magnum Ursus. You must give him the Blood of the Dark Soul to unlock it.
-
-# Relationships
-- Solaire can be married: gift is an Estus Shard.
-- Magnum Ursus: gift is now the Bear Set.
-
-# Enemies
-- Reduced the HP of some of the tough normal enemies to make them less tedious to kill.
-- Reduced Painting Guardian HP/absorption.
-
-# Items
-- Reduced sell value of exotic souls.
-- Braille Divine Tome of Carim is now on a corpse in front of the dragon encounter.
-
-# Rings
-- Life Ring: changed +1/+2/+3 to 15%, 20% and 25%.
-- Dragonscale Ring: changed +1/+2/+3 to 15%, 20% and 25%.
-- Ring of Favor: changed +0/+1/+2/+3 to 7.5%/10%/12.5%/15%.
-- Ring of Wisdom: changed FP part of +0/+1/+2/+3 to 7.5%/10%/12.5%/15%.
-- Changed the +1/+2/+3 stoneplate rings to 15%/20%/25%.
-- Changed the +1/+2/+3 Speckled Stoneplate Ring to 7.5%/10%/12.5%.
-- Bloodbite Ring: now increases bleed resistance by 100 and imbues right-hand weapon with 30 Bleed.
-- Poisonbite Ring: now increases poison/toxic resistance by 100 and imbues right-hand weapon with 30 Poison.
-- Cursebite Ring: now increases curse resistance by 100 and imbues right-hand weapon with 30 Curse.
-- Chillbite Ring: now increases frost resistance by 100 and imbues right-hand weapon with 30 Frost.
-- Fleshbite Ring: now raises poison, bleed, frost and curse resistance by 250.
-- Carthus Milkring: now reduces the stamina cost of evasion actions by 25%.
-- Cursed Ring of Evasion: now reduces the cost of evasive movements by 50% but reduces max HP by 50%.
-- Cursed Ring of Vengeance: now causes dead enemies to explode, dealing damage to other enemies but reduces max HP by 50%.
-- Cursed Ring of Deflection: now deflects spells randomly (3 seconds ON, 3 seconds OFF cycle) but reduces max HP by 50%.
-- Cursed Ring of Confusion: emits a confusion aura, allowing enemies to harm one another but reduces max HP by 50%.
-- Carthus Bloodring: shifts evasion class downwards and obscures rolling, but
-increases evasive movement stamina costs by 50%.
-- Greatwood Remnants: increases physical defence by 50% but increases evasive stamina consumption by 20%.
-- Wood Grain Ring: changed +1/+2/+3 to 30%/35%/40%.
-- Wolf Ring: changed +0/+1/+2/+3 to 25%/30%/35%/40%.
-- Dusk Crown Ring: changed FP part to +0/+1/+2/+3 to 25%/30%/35%/40%.
-- Tome of Sunlight: changed +0/+1/+2/+3 to 15%/20%/25%/30%.
-- Charred Bone: now ncreases casting speed by 50 whilst below 25% HP. (60/70/80 for +1/+2/+3).
-- Farron Ring: changed +1/+2/+3 to 40%/50%/60%.
-- Ring of Londor: enables FP to regenerate continuously, removing the cooldown after casting.
-- Symbol of the Penitent: changed +0/+1/+2/+3 to 25%/30%/35%/40%.
-- Green Tearstone Ring: grants 100 stamina recovery whilst below 25% HP.
-- Violet Tearstone Ring: reduces spell FP costs by 50% whilst below 25% HP.
-- Bulwark Ring: prevents durability loss whilst equipped.
-- Runic Seal: Whilst below 50%, ironskin is applied to the wearer. Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack deflection by 65.
-- Black Tearstone Ring: boosts souls from enemies by 30% whilst below 25% health.
-- Elden Ring: grants 10% boost to physical damage.
-- Horsehoof Ring: now adds easy kick action by overriding left guard/attack.
-
-# Map
-- Changed the Sandworm wall in Smouldering Lake. It now requires the Smouldering Rubble item to be destroyed (rather than automatically disappearing when all 3 worms are dead). The item itself is dropped by one of the worms.
-- Changed the gauntlet section in Archdragon Peak. There is now only 2 serpent summoners and a respawning Ancient Wyvern. This wyvern drops the Stick item once, and 1 Dragon Scale 100% of the time.
-
-# Trial
-- Split the trial into four different, smaller trials. Each has 4 waves, and then 1 boss wave.
-- Each takes place in one of the DLC arena maps.
- - Trial of Adversity: unlocked after Abyss Watcher kill. Rewards regular titanite.
- - Trial of Sorrow: unlocked after Yhorm kill. Rewards mix of titanite + fragments.
- - Trial of Calamity: unlocked after Aldrich kill. Rewards mix of titanite + fragments.
- - Trial of Devastation: unlocked after Twin Princes kill. Reward primordial titanite.
-
-# Bonfires
-- Restricted some of the bonfire options early on, they now require specific key items before they will appear:
- - Buy/Sell: requires Essence of Avarice - Dropped by Curse-rotted Greatwood.
- - Reinforce/Infuse/Repair: requires Smithbox - Sold by Andre
- 
-# Curses/Marks
-- Added Mark of Prismatica: increases boss HP and power by 50%, enables 100% primordial material drop on victory.
-- Curses no longer give random primordial material drop chance. Increased the soul absorption bonus to compensate.
-
-# No Hit
-- No Hit kills now give a set amount of extra souls.
-
-# Perfect Block
-- Added Perfect Block mechanic: timing the block apex to the strike will cause the stamina cost for guarding to become 0.
-
-# Devastating Blow
-- Increased Devastating Blow boost back to +100%.
-- Renamed the Critical Hit merchanic to Devastating Blow, so it is clear that it isn't related to Critical.
-- Removed the baseline 1% devastating blow chance.
-- Snickering Top Hat: perfect hit chance reduced to 1%.
-- Ring of Punishment: perfect hit chance reduced to 1%.
-- Weapon Effect: perfect hit chance reduced to 1%.
-- Removed the Lucky devastating blow chance.
-- Removed the Lethal devastating blow chance.
-
-# Infusions
-- Lethal: reduces weapon stamina consumption by 15%.
-- Sharp: consecutive attacks boost damage, up to 15%.
-- Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
-
-# Companions
-- Now required you to be embered to summon.
-- Incense of Cooperation is now part of the offerings from the Warrior of Sunlight covenant, rather than a treasure in front of Ludleth.
- 
-# Warps
-- The in-map warps now require specific key items to use. It will tell you if you are missing it.
-- High Wall -> Archdragon Peak
- - Requires Dragon Talon: found near the Serpent-man in High Wall.
-- Undead Settlement -> Farron Keep
- - Requires Pilgrim's Soul: found on the roof in the section after the Tower Giant's gauntlet in Undead Settlement.
-- Undead Settlement -> Catacombs
- - Requires Catacombs Key: found on a lower ledge roof in the Demon section of Undead Settlement.
-- Irithyll Dungeon -> Smouldering Lake
- - Requires Smouldering Key: found in Irithyll in the alley with 3 dogs guarding a corpse.
-- Cathedral -> Irithyll
- - Requires Eye of Londor: dropped by the Deacons of the Deep.
-- Irithyll -> Ariandel
- - Requires Frozen Flower: found in the area before you drop down to the Cathedral Evangelist in Irithyll.
-- Cemetery of Ash -> Dreg Heap
- - Requires Broken Tablet: found in the area after Vordt in High Wall.
-- Ballista Warp
- - Requires Giant's Soul: found in the cave part of lower Smouldering Lake.
- 
-# Bugfixes
-- Tidied up the menus for new merchants/npcs, fixing the odd dialogue issues.
-- Silver Knight Ledo should appear properly now.
-- Echoes of the Past now award their loot directly to the player.
-- Echo Abyss Watchers now drop the Farron Ring+1/2/3 properly.
-- Fixed poise not working properly for female characters.
 
 #------------------------------
 # TODO
 #------------------------------
+31420000 0840 / 1419 Hands of Sin
+    Custom moveset (more slappy, less jabby, WA galvanise base)
+    
+31430000 0864 / 1420 Frying Pan
+    Custom moveset (bonk, WA galvanise base)
+    
+31440000 0869 / 1421 Serpentine Chain-axe
+    Custom WA (spin slash?)
+    
+16170000 - 0873 / 1422 Imperious Greatshield
+
+14220000 - 0867 / 1423 Giant's Bow
+    Custom WA (multi millwood?)
+    
+14230000 - 0870 / 1424 Model Ballista
+    Custom WA (powerful staggering shot)
+    
+# Style Changes
+Change Quelaag's Sword to Chaos Storm WA
+Add Ringed Knight swoosh WA to Great Lord Greatsword
+
+Rune Sword/Shield (Valorheart)
+Missionary Axe (Dual Greataxe)
+Thrall Pick (Dual Hammer)
+Irithyll Warpick (Dual Hammer)
+Burial Scythe (Dual Scythe/Blade)
+    9840 Burial Scythe
+    9836 Burial Blade
+Tailbone Club (Dual Hammer)
+
 # Ammunition
 Standard Arrow
 Fire Arrow
@@ -257,34 +133,3 @@ Dark Bolt
 Poison Bolt
 Frost Bolt
 Draconic Bolt
-
-31420000 0840 / 1419 Hands of Sin
-    Custom moveset (more slappy, less jabby, WA galvanise base)
-    
-31430000 0864 / 1420 Frying Pan
-    Custom moveset (bonk, WA galvanise base)
-    
-31440000 0869 / 1421 Serpentine Chain-axe
-    Custom WA (spin slash?)
-    
-16170000 - 0873 / 1422 Imperious Greatshield
-
-14220000 - 0867 / 1423 Giant's Bow
-    Custom WA (multi millwood?)
-    
-14230000 - 0870 / 1424 Model Ballista
-    Custom WA (powerful staggering shot)
-    
-# Style Changes
-Change Quelaag's Sword to Chaos Storm WA
-Add Ringed Knight swoosh WA to Great Lord Greatsword
-
-Rune Sword/Shield (Valorheart)
-Missionary Axe (Dual Greataxe)
-Thrall Pick (Dual Hammer)
-Irithyll Warpick (Dual Hammer)
-Burial Scythe (Dual Scythe/Blade)
-    9840 Burial Scythe
-    9836 Burial Blade
-Tailbone Club (Dual Hammer)
-
