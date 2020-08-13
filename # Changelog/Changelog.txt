@@ -68,6 +68,9 @@
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
 - Insanity Catalyst now has delayed scaling effectiveness.
 
+# Armor
+- Crown of Illusion: now boosts soul absorption by 5% and is now reveals X in the Grand Archives.
+
 # Spells
 - Reduced the damage and amount of pillars for the pillar spells.
 
@@ -77,6 +80,7 @@
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
+- Fixed Catacombs of Carthus bonfire not having the flag checks for the menu options.
 
 #------------------------------
 # TODO
