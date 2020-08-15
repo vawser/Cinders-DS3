@@ -62,14 +62,13 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Weapons
 - Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
 - Insanity Catalyst now has delayed scaling effectiveness.
 
 # Armor
-- Crown of Illusion: now boosts soul absorption by 5% and is now reveals X in the Grand Archives.
+- Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
 
 # Spells
 - Reduced the damage and amount of pillars for the pillar spells.
@@ -77,6 +76,9 @@
 # Bosses
 - Lordran Remnants now drops Primordal Slabs (with Mark of Prismatica enabled).
 - Increased the souls given by the Lordran Remnants to 150,000, equal to Midir.
+
+# Merchants
+- Andre now sells basic arrows/bolts.
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
