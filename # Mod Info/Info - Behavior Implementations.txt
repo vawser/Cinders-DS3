@@ -150,57 +150,57 @@
 #------------------------------------------------
 # a273 - Runelock
 #------------------------------------------------
-034000 - AttackBothLight1_CMSG #13074
-034010 - AttackBothLight2_CMSG #13075
-034020 - AttackBothLight3_CMSG #13076
-034500 - AttackBothDash_CMSG #13077
-034900 - AttackBothLightStep_CMSG #13078
-034100 - AttackBothLightKick_CMSG #13079
-034600 - AttackBothHeavyKick_CMSG #13080
-034320 - AttackBothHeavy1Start_CMSG #13081
-034321 - AttackBothHeavy1End_CMSG #13082
-034340 - AttackBothHeavy2Start_CMSG #13083
-034341 - AttackBothHeavy2End_CMSG #13084
-034920 - AttackBothBackstep_CMSG #13085
-033000 - AttackBothLeft1_CMSG #13086
-033010 - AttackBothLeft2_CMSG #13087
-033020 - AttackBothLeft3_CMSG #13088
-034330 - AttackBothHeavy1SubStart_CMSG #13089
-033500 - AttackBothLeftDash_CMSG #13090
-033900 - AttackBothLeftStep_CMSG #13091
-034330 - AttackBothHeavyWepBroken1SubStart_CMSG #13092
-034000 - AttackArrowRightFire_CMSG #13093
-034900 - AttackArrowRightFireStep_CMSG #13094
-034500 - AttackArrowRightFireDash_CMSG #13095 
-034200 - GuardDamageBreakBoth_CMSG #13096
-034150 - GuardBreakWallBoth_CMSG #13097
-036230 - DrawStanceRightAttackLight_CMSG #13098
-036231 - DrawStanceRightAttackLight_NoPoints_CMSG #13099
-036240 - DrawStanceRightAttackHeavy_CMSG #13100
-036241 - DrawStanceRightAttackHeavy_NoPoints_CMSG #13101
+034000 - AttackBothLight1 #13074
+034010 - AttackBothLight2 #13075
+034020 - AttackBothLight3 #13076
+034500 - AttackBothDash #13077
+034900 - AttackBothLightStep #13078
+034100 - AttackBothLightKick #13079
+034600 - AttackBothHeavyKick #13080
+034320 - AttackBothHeavy1Start #13081
+034321 - AttackBothHeavy1End #13082
+034340 - AttackBothHeavy2Start #13083
+034341 - AttackBothHeavy2End #13084
+034920 - AttackBothBackstep #13085
+033000 - AttackBothLeft1 #13086
+033010 - AttackBothLeft2 #13087
+033020 - AttackBothLeft3 #13088
+034330 - AttackBothHeavy1SubStart #13089
+033500 - AttackBothLeftDash #13090
+033900 - AttackBothLeftStep #13091
+034330 - AttackBothHeavyWepBroken1SubStart #13092
+034000 - AttackArrowRightFire #13093
+034900 - AttackArrowRightFireStep #13094
+034500 - AttackArrowRightFireDash #13095 
+034200 - GuardDamageBreakBoth #13096
+034150 - GuardBreakWallBoth #13097
+036230 - DrawStanceRightAttackLight #13098
+036231 - DrawStanceRightAttackLight_NoPoints #13099
+036240 - DrawStanceRightAttackHeavy #13100
+036241 - DrawStanceRightAttackHeavy_NoPoints #13101
 036202 - FourWayDrawStanceRightStartRight #13102
 036203 - FourWayDrawStanceRightStartLeft #13103
-036205 - FourWayDrawStanceRightStartFrontLeft_CMSG #13104
-036204 - FourWayDrawStanceRightStartFrontRight_CMSG #13105
-036207 - FourWayDrawStanceRightStartBackLeft_CMSG #13106
-036206 - FourWayDrawStanceRightStartBackRight_CMSG #13107
-036202 - DrawStanceRightComboStartRight_CMSG #13108
-036203 - DrawStanceRightComboStartRight_NoPoints_CMSG #13109
-036204 - DrawStanceRightComboStartLeft_CMSG #13110
-036205 - DrawStanceRightComboStartLeft_NoPoints_CMSG #13111
-036206 - DrawStanceStartDash_CMSG #13112
-036207 - DrawStanceStartDash_NoPoints_CMSG #13113
-036208 - DrawStanceStartRolling_CMSG #13114
-036200 - DrawStanceRightStart_CMSG / DrawStanceRightStart_Upper_CMSG #13115
-036210 - DrawStanceRightLoop_CMSG / DrawStanceRightLoop_Upper_CMSG#13116
-036220 - DrawStanceRightEnd_CMSG / DrawStanceRightEnd_Upper_CMSG #13117
-033500 - AttackCrossbowLeftStart_CMSG #13118
-034000 - AttackCrossbowBothRightFire_CMSG #13119
-036215 - DrawStanceRightLoopMove_Upper_CMSG #13120
-033500 - AttackCrossbowLeftStart_Upper_CMSG #13121
-034000 - AttackCrossbowBothRightFire_Upper_CMSG #13122
-036210 - DrawStanceRightLoopNoSync_Upper_CMSG / DrawStanceRightLoopNoSync_CMSG #13123
-036215 - DrawStanceRightLoopMoveNoSync_Upper_CMSG #13124
+036205 - FourWayDrawStanceRightStartFrontLeft #13104
+036204 - FourWayDrawStanceRightStartFrontRight #13105
+036207 - FourWayDrawStanceRightStartBackLeft #13106
+036206 - FourWayDrawStanceRightStartBackRight #13107
+036202 - DrawStanceRightComboStartRight #13108
+036203 - DrawStanceRightComboStartRight_NoPoints #13109
+036204 - DrawStanceRightComboStartLeft #13110
+036205 - DrawStanceRightComboStartLeft_NoPoints #13111
+036206 - DrawStanceStartDash #13112
+036207 - DrawStanceStartDash_NoPoints #13113
+036208 - DrawStanceStartRolling #13114
+036200 - DrawStanceRightStart / DrawStanceRightStart_Upper #13115
+036210 - DrawStanceRightLoop / DrawStanceRightLoop_Upper#13116
+036220 - DrawStanceRightEnd / DrawStanceRightEnd_Upper #13117
+033500 - AttackCrossbowLeftStart #13118
+034000 - AttackCrossbowBothRightFire #13119
+036215 - DrawStanceRightLoopMove_Upper #13120
+033500 - AttackCrossbowLeftStart_Upper #13121
+034000 - AttackCrossbowBothRightFire_Upper #13122
+036210 - DrawStanceRightLoopNoSync_Upper / DrawStanceRightLoopNoSync #13123
+036215 - DrawStanceRightLoopMoveNoSync_Upper #13124
 
 #------------------------------------------------
 # a274 - Slap Fist
@@ -233,66 +233,242 @@
 036420 - AttackSpinHeavy #13145
 036421 - AttackSpinHeavy_NoPoints #13146
 
-#------------------------------------------------
-# X - Silver Knight Spear
-#------------------------------------------------
-030350 - AttackRightHeavySpecial1Start      #13052 ## 
-030351 - AttackRightHeavySpecial1End        #13053 ## 
-030360 - AttackRightHeavySpecial1SubStart   #13054 ## 
-030370 - AttackRightHeavySpecial2Start      #13055 ## 
-030371 - AttackRightHeavySpecial2End        #13056 ##
-
-030500 - AttackRightLightDash               #13056 ##
-030900 - AttackRightLightStep               #13056 ##
-
-034320 - AttackBothHeavy1Start              #13060 ## 
-034321 - AttackBothHeavy1End                #13061 ## 
-034330 - AttackBothHeavy1SubStart           #13062 ## 
-034340 - AttackBothHeavy2Start              #13063 ## 
-034341 - AttackBothHeavy2End                #13064 ## 
-
-034350 - AttackBothHeavySpecial1Start       #13065 ##
-034351 - AttackBothHeavySpecial1End         #13066 ## 
-034360 - AttackBothHeavySpecial1SubStart    #13067 ## 
-034370 - AttackBothHeavySpecial2Start       #13068 ## 
-034371 - AttackBothHeavySpecial2End         #13069 ## 
-
-034500 - AttackBothDash                     #13070 ## 
-034900 - AttackBothLightStep                #13071 ## 
-
-037670 - Warcry                             #13072 ## a260_038400
-037671 - Warcry_NoPoints                    #13073 ## a260_038400
+# Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
 
 #------------------------------------------------
-# X - Silver Knight Sword
+# a276 - Dragonslayer Swordspear
 #------------------------------------------------
+030000 - AttackRightLight1 #13147
+030010 - AttackRightLight2 #13148
+030020 - AttackRightLight3 #13149
+030320 - AttackRightHeavy1Start #13150
+030321 - AttackRightHeavy1End #13151
+030330 - AttackRightHeavy1SubStart #13152
+030340 - AttackRightHeavy2Start #13153
+030341 - AttackRightHeavy2End #13154
+034000 - AttackBothLight1 #13155
+034010 - AttackBothLight2 #13156
+034020 - AttackBothLight3 #13157
+034320 - AttackBothHeavy1Start #13158
+034321 - AttackBothHeavy1End #13159
+034330 - AttackBothHeavy1SubStart #13160
+034340 - AttackBothHeavy2Start #13161
+034341 - AttackBothHeavy2End #13162
+
+038400 - OneShot #13163
+038401 - OneShot_NoPoints #13164
 
 #------------------------------------------------
-# X - Ancient Dragon Halberd
+# a277 - Black Dragon Greatsword
 #------------------------------------------------
-2H Light Attack: Friede’s Great Scythe 2H Light Attack
-WA: Neck Swipe 
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+000320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030330 - AttackRightHeavy1SubStart
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+030900 - AttackRightLightStep
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+034900 - AttackBothLightStep
 
-The IDs:
-2H Light Attack: a232_034000--> a232_034010--> a232_034020
-WA: ao50_038300
+038900 - FourWayAttackStartRight
+038901 - FourWayAttackStartRight_NoPoints
+038910 - FourWayAttackStartLeft
+038911 - FourWayAttackStartLeft_NoPoints
+038920 - FourWayAttackStartFrontRight
+038921 - FourWayAttackStartFrontRight_NoPoints
+038930 - FourWayAttackStartFrontLeft_SelfTrans
+038931 - FourWayAttackStartFrontLeft_SelfTrans_NoPoints
+038940 - FourWayAttackStartBackRight00
+038941 - FourWayAttackStartBackRight_NoPoints00
+038950 - FourWayAttackStartBackLeft
+038951 - FourWayAttackStartBackLeft_NoPoints
+038960 - FourWayAttackHeavy
+038961 - FourWayAttackHeavy_NoPoints
+038970 - FourWayAttackLight
+038971 - FourWayAttackLight_NoPoints
 
 #------------------------------------------------
-# X - Scythe of Want
+# a278 - Black Dragon Sword
 #------------------------------------------------
-The Suggestions:
-1H Light Attack: Black Knight Greataxe 1H Light Attack (Sped up to ~1.3x Speed)
-1H Strong Attack: Scimitar 1H Strong Attack
-2H Strong Attack: Scimitar 2H Strong Attack (Optional Change)
-WA: Warcry (Greataxe) Including the special 1H and 2H Strong Attacks
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
 
-The IDs:
-1H Light Attack: a107_030000--> a107_030010--> a107_030020 (at ~1.3x speed)
-1H Strong Attack: a101_030320/ a101_030321-->a101_030340/ a101_030341
-2H Strong Attack: a101_034320/ a101_034321-->a101_034340/ a101_034341
-WA: a032_037670/a032_037671
-WA 1H Special Strong Attack: a032_030350/ a032_030351--> a032_030370/a032_030371
-WA 2H Special Strong Attack: a032_034350/ a032_034351--> a032_034370/a032_034371
+036400 - AttackSpinStart
+036401 - AttackSpinStart_NoPoints
+036420 - AttackSpinHeavy
+036421 - AttackSpinHeavy_NoPoints
+
+#------------------------------------------------
+# a279 - Winged Knight Halberd
+#------------------------------------------------
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+000320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030330 - AttackRightHeavy1SubStart
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+
+038300 - HeadHunt
+038301 - HeadHunt_NoPoints
+
+#------------------------------------------------
+# a280 - Writhing Hammer
+#------------------------------------------------
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+000320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030330 - AttackRightHeavy1SubStart
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+030350 - AttackRightHeavySpecial1Start
+030370 - AttackRightHeavySpecial2Start
+030500 - AttackRightLightDash
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+034350 - AttackBothHeavySpecial1Start
+034370 - AttackBothHeavySpecial2Start
+034500 - AttackBothDash
+034900 - AttackBothLightStep
+
+037670 - Warcry
+037671 - Warcry_NoPoints
+
+#------------------------------------------------
+# a281 - Scythe of Want
+#------------------------------------------------
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+000320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030330 - AttackRightHeavy1SubStart
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+030350 - AttackRightHeavySpecial1Start      
+030351 - AttackRightHeavySpecial1End        
+030360 - AttackRightHeavySpecial1SubStart   
+030370 - AttackRightHeavySpecial2Start      
+030371 - AttackRightHeavySpecial2End        
+030500 - AttackRightLightDash
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+034350 - AttackBothHeavySpecial1Start
+034351 - AttackBothHeavySpecial1End
+034360 - AttackBothHeavySpecial1SubStart
+034370 - AttackBothHeavySpecial2Start
+034371 - AttackBothHeavySpecial2End
+
+037670 - Warcry
+037671 - Warcry_NoPoints
+
+#------------------------------------------------
+# a282 - Vordt's Great Hammer
+#------------------------------------------------
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+030330 - AttackRightHeavy1SubStart
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+
+038400 - OneShot
+038401 - OneShot_NoPoints
+
+#------------------------------------------------
+# a283 - Black Dragon Greataxe
+#------------------------------------------------
+030000 - AttackRightLight1
+030010 - AttackRightLight2
+030020 - AttackRightLight3
+000320 - AttackRightHeavy1Start
+030321 - AttackRightHeavy1End
+030330 - AttackRightHeavy1SubStart
+030340 - AttackRightHeavy2Start
+030341 - AttackRightHeavy2End
+034000 - AttackBothLight1
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+
+036400 - AttackSpinStart
+036401 - AttackSpinStart_NoPoints
+036420 - AttackSpinHeavy
+036421 - AttackSpinHeavy_NoPoints
+
+#------------------------------------------------
+# a284 - Twinspears of the Forlorn
+#------------------------------------------------
+033000 - AttackBothLeft1
+033010 - AttackBothLeft2
+033020 - AttackBothLeft3
+033500 - AttackBothLeftDash
+033900 - AttackBothLeftStep
+034000 - AttackBothLight1 
+034010 - AttackBothLight2
+034020 - AttackBothLight3
+034100 - AttackBothLightKick
+034150 - GuardBreakWallBoth
+034200 - GuardDamageBreakBoth
+034320 - AttackBothHeavy1Start
+034321 - AttackBothHeavy1End
+034330 - AttackBothHeavy1SubStart 
+034340 - AttackBothHeavy2Start
+034341 - AttackBothHeavy2End
+034500 - AttackBothDash
+034600 - AttackBothHeavyKick
+034900 - AttackBothLightStep
+
+036400 - AttackSpinStart
+036401 - AttackSpinStart_NoPoints
+036410 - AttackSpinLight
+036411 - AttackSpinLight_NoPoints
+036420 - AttackSpinHeavy
+036421 - AttackSpinHeavy_NoPoints
 
 #------------------------------------------------
 # X - Spear Moveset

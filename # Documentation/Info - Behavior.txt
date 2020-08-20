@@ -310,6 +310,10 @@ replanningAI                        -
 038220 - CrossbowStepInReload
 038221 - CrossbowStepInReload_NoPoints
 
+# 
+038300 - HeadHunt
+038301 - HeadHunt_NoPoints
+
 # Sharpen / Lothric War Banner
 038400 - OneShot
 038401 - OneShot_NoPoints
@@ -359,6 +363,24 @@ replanningAI                        -
        - CircleStepStartSelftransBackLeft
 038071 - CircleStepStartBackLeft_NoPoints 
        - CircleStepStartSelftransBackLeft_NoPoints
+
+# Multi-Stance
+038900 - FourWayAttackStartRight
+038901 - FourWayAttackStartRight_NoPoints
+038910 - FourWayAttackStartLeft
+038911 - FourWayAttackStartLeft_NoPoints
+038920 - FourWayAttackStartFrontRight
+038921 - FourWayAttackStartFrontRight_NoPoints
+038930 - FourWayAttackStartFrontLeft_SelfTrans
+038931 - FourWayAttackStartFrontLeft_SelfTrans_NoPoints
+038940 - FourWayAttackStartBackRight00
+038941 - FourWayAttackStartBackRight_NoPoints00
+038950 - FourWayAttackStartBackLeft
+038951 - FourWayAttackStartBackLeft_NoPoints
+038960 - FourWayAttackHeavy
+038961 - FourWayAttackHeavy_NoPoints
+038970 - FourWayAttackLight
+038971 - FourWayAttackLight_NoPoints
 
 # Mad King's Gambit
 039100 - RandomOneShot1

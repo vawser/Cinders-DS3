@@ -65,6 +65,9 @@
 # Mechanics
 - Removed the key items required for the bonfire options. Options are now available immediately as before.
 
+# Moveset
+- Added Dragonslayer Swordspear moveset by WhurDaMuffinsAt.
+
 # Weapons
 - Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
@@ -99,8 +102,6 @@
 #------------------------------
 # TODO
 #------------------------------ 
-16170000 - 0873 / 1422 Imperious Greatshield
-
 14220000 - 0867 / 1423 Giant's Bow
     Custom WA (multi millwood?)
     
