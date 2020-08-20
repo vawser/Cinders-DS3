@@ -62,6 +62,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Mechanics
+- Removed the key items required for the bonfire options. Options are now available immediately as before.
+
 # Weapons
 - Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
@@ -79,10 +82,13 @@
 
 # Merchants
 - Andre now sells basic arrows/bolts.
+- Removed the stock limits on a lot of the shop entries.
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
 - Fixed Catacombs of Carthus bonfire not having the flag checks for the menu options.
+- Fixed Trial of Calamity/Sorrow boss req. message being swapped.
+- Fixed several discrepancies between weapons and the excel sheet.
 
 #------------------------------
 # TODO
@@ -113,3 +119,7 @@ Burial Scythe (Dual Scythe/Blade)
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
 
+31450000 Runelock
+
+
+236 TAE
