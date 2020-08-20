@@ -203,6 +203,27 @@
 036215 - DrawStanceRightLoopMoveNoSync_Upper_CMSG #13124
 
 #------------------------------------------------
+# a274 - Slap Fist
+#------------------------------------------------
+033000 - AttackBothLeft1 #13125
+033010 - AttackBothLeft2 #13126
+033020 - AttackBothLeft3 #13127
+033500 - AttackBothLeftDash #13128
+033900 - AttackBothLeftStep #13129
+
+034000 - AttackBothLight1 #13130
+034010 - AttackBothLight2 #13131
+034020 - AttackBothLight3 #13132
+034100 - AttackBothLightKick #13133
+034320 - AttackBothHeavy1Start #13134
+034321 - AttackBothHeavy1End #13135
+034330 - AttackBothHeavy1SubStart #13136
+034340 - AttackBothHeavy2Start #13137
+034341 - AttackBothHeavy2End #13138
+034500 - AttackBothDash #13139
+034900 - AttackBothLightStep #13140
+
+#------------------------------------------------
 # X - Silver Knight Spear
 #------------------------------------------------
 030350 - AttackRightHeavySpecial1Start      #13052 ## 
