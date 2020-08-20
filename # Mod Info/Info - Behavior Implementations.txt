@@ -224,6 +224,16 @@
 034900 - AttackBothLightStep #13140
 
 #------------------------------------------------
+# a275 - Frying Pan
+#------------------------------------------------
+036400 - AttackSpinStart #13141
+036401 - AttackSpinStart_NoPoints #13142
+036410 - AttackSpinLight #13143
+036411 - AttackSpinLight_NoPoints #13144
+036420 - AttackSpinHeavy #13145
+036421 - AttackSpinHeavy_NoPoints #13146
+
+#------------------------------------------------
 # X - Silver Knight Spear
 #------------------------------------------------
 030350 - AttackRightHeavySpecial1Start      #13052 ## 
