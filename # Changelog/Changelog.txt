@@ -71,6 +71,7 @@
 - Insanity Catalyst now has delayed scaling effectiveness.
 - Added Runelock: a valorheart style weapon using the Rune Sword and Shield. Emits a blast of crystal instead of a lion's roar, and is better against elemental whilst guarding. 
 - Removed Rune Sword and Shield as standalone weapons. Runelock replaces Rune Sword's ID.
+- Added Hands of Sin. Found in Profaned Capital.
 
 # Armor
 - Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
@@ -95,9 +96,6 @@
 #------------------------------
 # TODO
 #------------------------------
-31420000 0840 / 1419 Hands of Sin
-    Custom moveset (more slappy, less jabby, WA galvanise base)
-    
 31430000 0864 / 1420 Frying Pan
     Custom moveset (bonk, WA galvanise base)
     
@@ -112,7 +110,6 @@
 14230000 - 0870 / 1424 Model Ballista
     Custom WA (powerful staggering shot)
     
-Rune Sword/Shield (Valorheart)
 Missionary Axe (Dual Greataxe)
 Thrall Pick (Dual Hammer)
 Irithyll Warpick (Dual Hammer)
@@ -120,13 +117,4 @@ Burial Scythe (Dual Scythe/Blade)
     9840 Burial Scythe
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
-
-30850000 Runelock
-
-
-236 TAE a273
-
-<text id="31450000">
-
-Tidy up the trial mix up :P
 
