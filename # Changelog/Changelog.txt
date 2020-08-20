@@ -69,6 +69,8 @@
 - Great Lord Greatsword WA is now like the Ringed Knight Straight Sword WA
 - Quelaag's Fury Sword WA now emits a variant of Chaos Storm, rather than impotent orbs.
 - Insanity Catalyst now has delayed scaling effectiveness.
+- Added Runelock: a valorheart style weapon using the Rune Sword and Shield. Emits a blast of crystal instead of a lion's roar, and is better against elemental whilst guarding. 
+- Removed Rune Sword and Shield as standalone weapons. Runelock replaces Rune Sword's ID.
 
 # Armor
 - Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
@@ -119,7 +121,12 @@ Burial Scythe (Dual Scythe/Blade)
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
 
-31450000 Runelock
+30850000 Runelock
 
 
-236 TAE
+236 TAE a273
+
+<text id="31450000">
+
+Tidy up the trial mix up :P
+

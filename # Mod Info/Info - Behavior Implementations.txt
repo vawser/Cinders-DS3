@@ -146,39 +146,61 @@
 037670 - Warcry                             #13072 ## a198_038400
 037671 - Warcry_NoPoints                    #13073 ## a198_038400
 
-#------------------------------------------------
-# a273 - TRC Stance (Fire)
-#------------------------------------------------
-036200 - DrawStanceRightStart                   #13074
-036210 - DrawStanceRightLoop_Upper              #13075
-036215 - DrawStanceRightLoopMove_Upper          #13076
-036220 - DrawStanceRightEnd_Upper               #13077
-036230 - DrawStanceRightAttackLight             #13078
-036231 - DrawStanceRightAttackLight_NoPoints    #13079
-036240 - DrawStanceRightAttackHeavy             #13080
-036241 - DrawStanceRightAttackHeavy_NoPoints    #13081
-036250 - DrawStanceRightAttackLight2            #13082
-036251 - DrawStanceRightAttackLight2_NoPoints   #13083
-036260 - DrawStanceRightAttackHeavy2            #13084
-036261 - DrawStanceRightAttackHeavy2_NoPoints   #13085
-036290 - DrawStanceRightAttackLight3            #13086
-036291 - DrawStanceRightAttackLight3_NoPoints   #13087
 
 #------------------------------------------------
-# a274 - 
+# a273 - Runelock
 #------------------------------------------------
-
-#------------------------------------------------
-# a275 - 
-#------------------------------------------------
-
-#------------------------------------------------
-# a276 - 
-#------------------------------------------------
-
-#------------------------------------------------
-# a277 - 
-#------------------------------------------------
+034000 - AttackBothLight1_CMSG #13074
+034010 - AttackBothLight2_CMSG #13075
+034020 - AttackBothLight3_CMSG #13076
+034500 - AttackBothDash_CMSG #13077
+034900 - AttackBothLightStep_CMSG #13078
+034100 - AttackBothLightKick_CMSG #13079
+034600 - AttackBothHeavyKick_CMSG #13080
+034320 - AttackBothHeavy1Start_CMSG #13081
+034321 - AttackBothHeavy1End_CMSG #13082
+034340 - AttackBothHeavy2Start_CMSG #13083
+034341 - AttackBothHeavy2End_CMSG #13084
+034920 - AttackBothBackstep_CMSG #13085
+033000 - AttackBothLeft1_CMSG #13086
+033010 - AttackBothLeft2_CMSG #13087
+033020 - AttackBothLeft3_CMSG #13088
+034330 - AttackBothHeavy1SubStart_CMSG #13089
+033500 - AttackBothLeftDash_CMSG #13090
+033900 - AttackBothLeftStep_CMSG #13091
+034330 - AttackBothHeavyWepBroken1SubStart_CMSG #13092
+034000 - AttackArrowRightFire_CMSG #13093
+034900 - AttackArrowRightFireStep_CMSG #13094
+034500 - AttackArrowRightFireDash_CMSG #13095 
+034200 - GuardDamageBreakBoth_CMSG #13096
+034150 - GuardBreakWallBoth_CMSG #13097
+036230 - DrawStanceRightAttackLight_CMSG #13098
+036231 - DrawStanceRightAttackLight_NoPoints_CMSG #13099
+036240 - DrawStanceRightAttackHeavy_CMSG #13100
+036241 - DrawStanceRightAttackHeavy_NoPoints_CMSG #13101
+036202 - FourWayDrawStanceRightStartRight #13102
+036203 - FourWayDrawStanceRightStartLeft #13103
+036205 - FourWayDrawStanceRightStartFrontLeft_CMSG #13104
+036204 - FourWayDrawStanceRightStartFrontRight_CMSG #13105
+036207 - FourWayDrawStanceRightStartBackLeft_CMSG #13106
+036206 - FourWayDrawStanceRightStartBackRight_CMSG #13107
+036202 - DrawStanceRightComboStartRight_CMSG #13108
+036203 - DrawStanceRightComboStartRight_NoPoints_CMSG #13109
+036204 - DrawStanceRightComboStartLeft_CMSG #13110
+036205 - DrawStanceRightComboStartLeft_NoPoints_CMSG #13111
+036206 - DrawStanceStartDash_CMSG #13112
+036207 - DrawStanceStartDash_NoPoints_CMSG #13113
+036208 - DrawStanceStartRolling_CMSG #13114
+036200 - DrawStanceRightStart_CMSG / DrawStanceRightStart_Upper_CMSG #13115
+036210 - DrawStanceRightLoop_CMSG / DrawStanceRightLoop_Upper_CMSG#13116
+036220 - DrawStanceRightEnd_CMSG / DrawStanceRightEnd_Upper_CMSG #13117
+033500 - AttackCrossbowLeftStart_CMSG #13118
+034000 - AttackCrossbowBothRightFire_CMSG #13119
+036215 - DrawStanceRightLoopMove_Upper_CMSG #13120
+033500 - AttackCrossbowLeftStart_Upper_CMSG #13121
+034000 - AttackCrossbowBothRightFire_Upper_CMSG #13122
+036210 - DrawStanceRightLoopNoSync_Upper_CMSG / DrawStanceRightLoopNoSync_CMSG #13123
+036215 - DrawStanceRightLoopMoveNoSync_Upper_CMSG #13124
 
 #------------------------------------------------
 # X - Silver Knight Spear
