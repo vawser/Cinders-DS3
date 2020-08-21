@@ -104,6 +104,7 @@
 # Merchants
 - Andre now sells basic arrows/bolts.
 - Removed the stock limits on a lot of the shop entries.
+- Magnum Ursus is now sleeping on a ledge in the centre area of Firelink Shrine.
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
@@ -114,6 +115,13 @@
 #------------------------------
 # TODO
 #------------------------------ 
+9915    Elite Cleric
+9916    Artifical Helmet
+9917    Giant-horned Helmet
+9918    Heide Lancer Helm
+9919    Overseer's Mask
+9920    Suspicious Gold Mask
+
 14220000 - 0867 / 1423 Giant's Bow
     Custom WA (multi millwood?)
     
@@ -139,6 +147,3 @@ Scythe of Want
 Vordt's Great Hammer
 Black Dragon Greataxe
 Twinspears of the Forlorn
-
-120 Fire Keeper
-121 Vendrick
