@@ -1187,6 +1187,13 @@ function IsEnableGuard()
             return FALSE
         end
     end
+    
+    -- Firearms
+    if sp_kind == 285 then
+        return FALSE
+    end
+    
+    -- Other
     if sp_kind == 229 or sp_kind == 231 or sp_kind == 234 then
         -- Whips
         return TRUE
@@ -1340,6 +1347,8 @@ end
 function ExecGuard(event, blend_type)
     if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
         if env(1001) <= 0 then -- GetStamina
+            return FALSE
+        elseif env(345, HAND_LEFT) == 285 then -- Cannon
             return FALSE
         elseif IsEnableGuard() == TRUE then
             local style = c_Style
@@ -1592,6 +1601,16 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 ExecEventAllBody("W_AttackRightLightKick")
             end
             return FALSE
+        end
+        
+        -- Firearms
+        -- This is to allow for 2 forms of the firearm bullets.
+        -- This is to account for the 15 deg offset for bullets when not locked on.
+        if GetVariable("IsLockon") == true then
+            if env(345, HAND_LEFT) == 285 then -- Cannon
+                ExecEventAllBody("W_AttackLeftHeavy2") -- This is overriden for the firearms to fire the alt. bullet
+                return FALSE
+            end
         end
         
         ExecEventAllBody(l1)

@@ -84,6 +84,11 @@
 - Added Serpentine Chain-axe. Found in Archdragon Peak.
 - Added Imperious Greatshield (dual shield weapon). Found in Profaned Capital.
 
+# Firearms
+- Added a new class of weapons: Firearms. These weapons can only be equipped in the left-hand.
+- They can be reinforced and infused.
+- Added Cannon firearm.
+
 # Armor
 - Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
 
@@ -147,3 +152,6 @@ Scythe of Want
 Vordt's Great Hammer
 Black Dragon Greataxe
 Twinspears of the Forlorn
+
+14400000 Cannon
+

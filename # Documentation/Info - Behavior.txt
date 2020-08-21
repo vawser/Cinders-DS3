@@ -128,7 +128,8 @@ replanningAI                        -
 
 # --- Left Hand ---
 032000 - AttackLeftLight1 
-       - AttackCrossbowLeftFire 
+       - AttackCrossbowLeftFire
+       - AttackCrossbowLeftFire_Upper
        - AttackLeftHeavy1a00
 032030 - AttackLeftHeavy2a00
 032060 - AttackLeftHeavy3a00
