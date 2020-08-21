@@ -174,10 +174,10 @@
 9835    Tailbone Pick
 9836    Burial Blade
 9837    Tailbone Club
-9838    Archdeacon's Bident
+9838    
 9839    Irithyll Mace
 9840    Burial Scythe
-9841    Hammer of Carim
+9841    
 9842    Wooden Mallet
 9843    Chikage (twinned)
 9844    Church Cannon
@@ -323,13 +323,7 @@
 9982    Scythe of Want
 9983    Crab Claws
 9984    Old Moonlight Greatsword
-
-9985    Coiled Stake 
-9986    Deacon's Candle
-9987    Deacon's Candlestick
 9988    Frost Crab Claws
-9989    Gael's Dusty Greatsword
-9990    Wax-covered Candlestick
 
 
 #------------------------
@@ -447,9 +441,41 @@
 9912    Vendrick Set    
 9913    Valykrie Helm
 9914    Old Hunter Set
-9915
-9916
-9917
-9918
-9919
+
+9915    Elite Cleric
+9916    Artifical Helmet
+9917    Giant-horned Helmet
+9918    Heide Lancer Helm
+9919    Overseer's Mask
+9920    Suspicious Gold Mask
+9921
+9922
+9923
+9924
+9925
+9926
+9927
+9928
+9929
+9930
+9931
+9932
+9933
+9934
+9935
+9936
+9937
+9938
+9939
+9940
+9941
+9942
+9943
+9944
+9945
+9946
+9947
+9948
+9949
+9950
 

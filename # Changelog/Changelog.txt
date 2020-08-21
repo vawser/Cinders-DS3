@@ -65,6 +65,11 @@
 # Mechanics
 - Removed the key items required for the bonfire options. Options are now available immediately as before.
 
+# Customisation
+- Added Fire Keeper hair.
+- Added Vendrick hair.
+- Added Vendrick beard.
+
 # Moveset
 - Added Dragonslayer Swordspear moveset by WhurDaMuffinsAt.
 
@@ -135,3 +140,5 @@ Vordt's Great Hammer
 Black Dragon Greataxe
 Twinspears of the Forlorn
 
+120 Fire Keeper
+121 Vendrick
