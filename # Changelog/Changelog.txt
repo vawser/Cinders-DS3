@@ -85,6 +85,13 @@
 # Spells
 - Reduced the damage and amount of pillars for the pillar spells.
 
+# Items
+- Added Hunter's Mark: let's you transform into the Bloodborne Hunter's Set.
+
+# Treasure
+- Insanity Catalyst moved to Grand Archives.
+- Old Insanity Catalyst mimic now drops Hunter's Mark.
+
 # Bosses
 - Lordran Remnants now drops Primordal Slabs (with Mark of Prismatica enabled).
 - Increased the souls given by the Lordran Remnants to 150,000, equal to Midir.
@@ -115,4 +122,16 @@ Burial Scythe (Dual Scythe/Blade)
     9840 Burial Scythe
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
+
+# Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
+
+# Movesets to add:
+Black Dragon Greatsword
+Black Dragon Sword
+Winged Knight Halberd
+Writhing Hammer
+Scythe of Want
+Vordt's Great Hammer
+Black Dragon Greataxe
+Twinspears of the Forlorn
 

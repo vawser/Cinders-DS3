@@ -1876,6 +1876,7 @@ Event(400001, Default, function() {
     InitializeEvent(1, 400540, 160703201, 160703210, 160703211); // Demonic Claw
     InitializeEvent(2, 400540, 160703301, 160703310, 160703311); // Forgotten Tablet
     InitializeEvent(3, 400540, 160703401, 160703410, 160703411); // Dragon Torso Stone
+    InitializeEvent(4, 400540, 160703420, 160703430, 160703431); // Hunter's Mark
     
     InitializeEvent(0, 400541, 160703200, 160703210, 160704000); // Demonic Skull
     InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
