@@ -64,6 +64,7 @@
 #------------------------------
 # Mechanics
 - Removed the key items required for the bonfire options. Options are now available immediately as before.
+- Changed poise health changes back to previous setup, where only staggering restores health.
 
 # Customisation
 - Added Fire Keeper hair.
