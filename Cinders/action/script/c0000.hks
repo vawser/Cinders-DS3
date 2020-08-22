@@ -1614,7 +1614,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
             -- Sprayers
-            elseif IsSprayer() == TRUE and 30 > env(2016) then -- FP Check
+            elseif IsSprayer() == TRUE and 300 > env(2016) then -- FP Check
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
             end
