@@ -127,7 +127,8 @@
 14450000    Hunter's Blunderbuss
 14460000    Rosamarius
 
-
+- Look into making rosamarius use a proper loop
+        
 #------------------------------
 # TODO - Armor
 #------------------------------ 

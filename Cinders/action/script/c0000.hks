@@ -1188,8 +1188,7 @@ function IsEnableGuard()
         end
     end
     
-    -- Firearms
-    if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 then
+    if IsSidearm() == TRUE then
         return FALSE
     end
     
@@ -1348,7 +1347,7 @@ function ExecGuard(event, blend_type)
     if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
         if env(1001) <= 0 then -- GetStamina
             return FALSE
-        elseif env(345, HAND_LEFT) == 285 or env(345, HAND_LEFT) == 286 or env(345, HAND_LEFT) == 287 or env(345, HAND_LEFT) == 288 or env(345, HAND_LEFT) == 289  or env(345, HAND_LEFT) == 290 or env(345, HAND_LEFT) == 291 then -- Firearms
+        elseif IsSidearm() == TRUE then
             return FALSE
         elseif IsEnableGuard() == TRUE then
             local style = c_Style
@@ -1606,6 +1605,11 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
+        
+        if IsSidearm() == TRUE then
+            ExecEventAllBody("W_AttackLeftLight1")
+            return FALSE
+        end
         
         -- Jump Action Override
         if env(1116, 112007) == TRUE then
@@ -15463,6 +15467,17 @@ end
 
 function Master_onGenerate()
     return 
+end
+
+-- Cinders
+function IsSidearm()
+    local sp_kind = env(345, HAND_LEFT)
+    
+    if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 then
+        return TRUE
+    end
+    
+    return FALSE
 end
 
 global = {}
