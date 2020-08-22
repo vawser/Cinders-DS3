@@ -84,10 +84,10 @@
 - Added Serpentine Chain-axe. Found in Archdragon Peak.
 - Added Imperious Greatshield (dual shield weapon). Found in Profaned Capital.
 
-# Firearms
-- Added a new class of weapons: Firearms. These weapons can only be equipped in the left-hand.
+# Sidearms
+- Added a new class of weapons: Sidearms. These weapons can only be equipped in the left-hand.
 - They can be reinforced and infused.
-- Added Cannon firearm. Found in Lothric Castle.
+- Added Cannon sidearm. Found in Lothric Castle.
 
 # Armor
 - Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
@@ -118,7 +118,18 @@
 - Fixed several discrepancies between weapons and the excel sheet.
 
 #------------------------------
-# TODO
+# TODO - Firearms
+#------------------------------
+14410000    Church Cannon
+14420000    Hunter's Pistol
+14430000    Repeating Pistol
+14440000    Evelynn
+14450000    Hunter's Blunderbuss
+14460000    Rosamarius
+
+
+#------------------------------
+# TODO - Armor
 #------------------------------ 
 9915    Elite Cleric
 9916    Artifical Helmet
@@ -127,6 +138,9 @@
 9919    Overseer's Mask
 9920    Suspicious Gold Mask
 
+#------------------------------
+# TODO - Weapon
+#------------------------------
 14220000 - 0867 / 1423 Giant's Bow
     Custom WA (multi millwood?)
     
@@ -141,6 +155,9 @@ Burial Scythe (Dual Scythe/Blade)
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
 
+#------------------------------
+# TODO - Movesets
+#------------------------------
 # Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
 
 # Movesets to add:
