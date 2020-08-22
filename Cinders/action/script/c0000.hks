@@ -1603,13 +1603,53 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             return FALSE
         end
         
+        -- Sidearms
+        if IsSidearm() == TRUE then
+            -- Cannons
+            if IsCannon() == TRUE and 300 > env(2016) then -- FP Check
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            -- Pistols
+            elseif IsPistol() == TRUE and 150 > env(2016) then -- FP Check
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            -- Sprayers
+            elseif IsSprayer() == TRUE and 30 > env(2016) then -- FP Check
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            end
+        end
+        
         ExecEventAllBody(l1)
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
         
-        if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
-            ExecEventAllBody("W_AttackLeftLight1")
-            return FALSE
+        -- Sidearms
+        if IsSidearm() == TRUE then
+            local exec_left_attack = false
+            
+            -- Cannons
+            if IsCannon() == TRUE and 300 > env(2016) then -- FP Check
+                exec_left_attack = true
+            -- Pistols
+            elseif IsPistol() == TRUE and 150 > env(2016) then -- FP Check
+                exec_left_attack = true
+            -- Sprayers
+            elseif IsSprayer() == TRUE and 300 > env(2016) then -- FP Check
+                exec_left_attack = true
+            end
+            
+            -- Handle WA/right-hand left attack invokes that can cause odd behavior
+            if exec_left_attack == TRUE then
+                if style ~= HAND_RIGHT_BOTH then -- Is not stowed on back
+                    ExecEventAllBody("W_AttackLeftLight1")
+                    return FALSE
+                end
+            else
+                if style ~= HAND_RIGHT_BOTH then -- Is not stowed on back
+                    return FALSE
+                end
+            end
         end
         
         -- Jump Action Override
@@ -15475,6 +15515,36 @@ function IsSidearm()
     local sp_kind = env(345, HAND_LEFT)
     
     if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsCannon()
+    local sp_kind = env(345, HAND_LEFT)
+    
+    if sp_kind == 285 or sp_kind == 286 then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsPistol()
+    local sp_kind = env(345, HAND_LEFT)
+    
+    if sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsSprayer()
+    local sp_kind = env(345, HAND_LEFT)
+    
+    if sp_kind == 291 then
         return TRUE
     end
     

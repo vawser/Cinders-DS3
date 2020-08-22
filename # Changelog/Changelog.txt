@@ -13,7 +13,7 @@
 # These need to be used for new treasures in each area
 54002070 Cemetery of Ash / Unturned Graves
 53002102 High Wall of Lothric / Consumed King's Garden
-53102093 Undead Settlement
+53102094 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
 53802177 Catacombs of Carthus / Smouldering Lake
@@ -88,7 +88,18 @@
 # Sidearms
 - Added a new class of weapons: Sidearms. These weapons can only be equipped in the left-hand.
 - They can be reinforced and infused.
-- Added Cannon sidearm. Found in Lothric Castle.
+- Cost stamina and FP to fire. Will not fire if you lack FP.
+ - 300 FP for Cannon-types.
+ - 150 FP for Pistol-types.
+ - 300 FP for Sprayer types.
+- Added Cannon.
+- Added Church Cannon.
+- Added Hunter's Pistol.
+- Added Repeating Pistol.
+- Added Evelynn.
+- Added Hunter's Blunderbuss.
+- Added Rosamarinus. The infusions are unique for this weapon, and serve to change what it emits rather than the usual changes.
+- Added Master Benjin, a firearms merchant. He sells all the firearms. However, you will need to retrieve two items to expand his inventory. Found in Undead Settlement.
 
 # Armor
 - Crown of Illusion: now boosts soul absorption by 5% and reveals X in the Grand Archives.
@@ -98,6 +109,8 @@
 
 # Items
 - Added Hunter's Mark: let's you transform into the Bloodborne Hunter's Set.
+- Added Tortured Soul: found in Cathedral of the Deep.
+- Added Smithbox: found in Lothric Castle.
 
 # Treasure
 - Insanity Catalyst moved to Grand Archives.
@@ -118,18 +131,6 @@
 - Fixed Trial of Calamity/Sorrow boss req. message being swapped.
 - Fixed several discrepancies between weapons and the excel sheet.
 
-#------------------------------
-# TODO - Firearms
-#------------------------------
-14410000    Church Cannon
-14420000    Hunter's Pistol
-14430000    Repeating Pistol
-14440000    Evelynn
-14450000    Hunter's Blunderbuss
-14460000    Rosamarius
-
-- Look into making rosamarius use a proper loop
-        
 #------------------------------
 # TODO - Armor
 #------------------------------ 

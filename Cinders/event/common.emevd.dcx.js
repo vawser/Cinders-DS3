@@ -1725,37 +1725,7 @@ Event(400010, Default, function(X0_4, X4_4) {
 // Game Flags - On Load
 //------------------------------------------------
 Event(400011, Restart, function() {
-    // Defaults
-    SetEventFlag(25000402, ON); // Allot Estus
-    SetEventFlag(25000403, ON); // Attune Spell
-    SetEventFlag(25000409, ON); // Organize Storage Box
-    SetEventFlag(25000400, ON); // Travel
-    SetEventFlag(25000410, ON); // Undead Match
-    SetEventFlag(25000401, ON); // Level Up
-
-    SetEventFlag(25000404, OFF); // Reinforce Weapon
-    SetEventFlag(25000405, OFF); // Infuse Weapon
-    SetEventFlag(25000406, OFF); // Repair Equipment
-    SetEventFlag(25000407, OFF); // Purchase Item
-    SetEventFlag(25000408, OFF); // Sell Item
     
-    // Soul Vessel
-    //IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 2003, OwnershipState.Owns);
-    //SkipIfConditionGroupStateUncompiled(1, FAIL, AND_01);
-    //SetEventFlag(25000401, ON); // Level Up
-    
-    // Smithbox
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 2006, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02);
-    SetEventFlag(25000404, ON); // Reinforce Weapon
-    SetEventFlag(25000405, ON); // Infuse Weapon
-    SetEventFlag(25000406, ON); // Repair Equipment
-    
-    // Essence of Avarice
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 2004, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetEventFlag(25000407, ON); // Purchase Item
-    SetEventFlag(25000408, ON); // Sell Item
 });
 
 //------------------------------------------------
@@ -2420,7 +2390,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetSpeffect(10000, 130134120);
+    SetEventFlag(25009540, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
