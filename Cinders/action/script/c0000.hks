@@ -1499,6 +1499,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     
+    -- Sidearms
+    local sidearm_sp_kind = env(345, HAND_LEFT)
+    local sidearm_can_fire = false
+    
     -- Devastating Blow Setup
     local db_chance = 0
     local roll = math.random(0, 100)
@@ -1605,16 +1609,26 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         
         -- Sidearms
         if IsSidearm() == TRUE then
-            -- Cannons
-            if IsCannon() == TRUE and 300 > env(2016) then -- FP Check
+            -- FP Check
+            if sidearm_sp_kind == 285 and 200 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            -- Pistols
-            elseif IsPistol() == TRUE and 150 > env(2016) then -- FP Check
+            elseif sidearm_sp_kind == 286 and 200 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            -- Sprayers
-            elseif IsSprayer() == TRUE and 300 > env(2016) then -- FP Check
+            elseif sidearm_sp_kind == 287 and 30 > env(2016) then 
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            elseif sidearm_sp_kind == 288 and 40 > env(2016) then 
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            elseif sidearm_sp_kind == 289 and 40 > env(2016) then 
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            elseif sidearm_sp_kind == 290 and 50 > env(2016) then 
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
+            elseif sidearm_sp_kind == 291 and 100 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
             end
@@ -1626,29 +1640,33 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         
         -- Sidearms
         if IsSidearm() == TRUE then
-            local exec_left_attack = false
-            
-            -- Cannons
-            if IsCannon() == TRUE and 300 > env(2016) then -- FP Check
-                exec_left_attack = true
-            -- Pistols
-            elseif IsPistol() == TRUE and 150 > env(2016) then -- FP Check
-                exec_left_attack = true
-            -- Sprayers
-            elseif IsSprayer() == TRUE and 300 > env(2016) then -- FP Check
-                exec_left_attack = true
+            -- FP Check
+            if sidearm_sp_kind == 285 and 200 > env(2016) then 
+                sidearm_can_fire = true  -- Cannon
+            elseif sidearm_sp_kind == 286 and 200 > env(2016) then 
+                sidearm_can_fire = true -- Church Cannon
+            elseif sidearm_sp_kind == 287 and 30 > env(2016) then 
+                sidearm_can_fire = true -- Hunter's Pistol
+            elseif sidearm_sp_kind == 288 and 40 > env(2016) then 
+                sidearm_can_fire = true -- Repeating Pistol
+            elseif sidearm_sp_kind == 289 and 40 > env(2016) then 
+                sidearm_can_fire = true -- Evelynn
+            elseif sidearm_sp_kind == 290 and 50 > env(2016) then 
+                sidearm_can_fire = true -- Hunter's Blunderbuss
+            elseif sidearm_sp_kind == 291 and 100 > env(2016) then 
+                sidearm_can_fire = true -- Rosamarinus
             end
             
             -- Handle WA/right-hand left attack invokes that can cause odd behavior
-            if exec_left_attack == TRUE then
-                if style ~= HAND_RIGHT_BOTH then -- Is not stowed on back
-                    ExecEventAllBody("W_AttackLeftLight1")
-                    return FALSE
-                end
+            if style == HAND_RIGHT_BOTH then 
+                sidearm_can_fire = false
+            end
+              
+            if sidearm_can_fire == TRUE then
+                ExecEventAllBody("W_AttackLeftLight1")
+                return FALSE
             else
-                if style ~= HAND_RIGHT_BOTH then -- Is not stowed on back
-                    return FALSE
-                end
+                return FALSE
             end
         end
         
@@ -15515,36 +15533,6 @@ function IsSidearm()
     local sp_kind = env(345, HAND_LEFT)
     
     if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 then
-        return TRUE
-    end
-    
-    return FALSE
-end
-
-function IsCannon()
-    local sp_kind = env(345, HAND_LEFT)
-    
-    if sp_kind == 285 or sp_kind == 286 then
-        return TRUE
-    end
-    
-    return FALSE
-end
-
-function IsPistol()
-    local sp_kind = env(345, HAND_LEFT)
-    
-    if sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 then
-        return TRUE
-    end
-    
-    return FALSE
-end
-
-function IsSprayer()
-    local sp_kind = env(345, HAND_LEFT)
-    
-    if sp_kind == 291 then
         return TRUE
     end
     

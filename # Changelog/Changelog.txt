@@ -88,10 +88,7 @@
 # Sidearms
 - Added a new class of weapons: Sidearms. These weapons can only be equipped in the left-hand.
 - They can be reinforced and infused.
-- Cost stamina and FP to fire. Will not fire if you lack FP.
- - 300 FP for Cannon-types.
- - 150 FP for Pistol-types.
- - 300 FP for Sprayer types.
+- Cost stamina and FP to fire. Will not fire if you lack FP. Each sidearm has a its own cost.
 - Added Cannon.
 - Added Church Cannon.
 - Added Hunter's Pistol.
