@@ -116,6 +116,7 @@
 # Bosses
 - Lordran Remnants now drops Primordal Slabs (with Mark of Prismatica enabled).
 - Increased the souls given by the Lordran Remnants to 150,000, equal to Midir.
+- Reduced boss absorption in general.
 
 # Merchants
 - Andre now sells basic arrows/bolts.
@@ -124,9 +125,13 @@
 
 # Bugfixes
 - Fixed all the new ammunition that lacked hold position models.
-- Fixed Catacombs of Carthus bonfire not having the flag checks for the menu options.
 - Fixed Trial of Calamity/Sorrow boss req. message being swapped.
 - Fixed several discrepancies between weapons and the excel sheet.
+
+
+#------------------------------
+# TODO - General
+#------------------------------
 
 #------------------------------
 # TODO - Armor
