@@ -2390,7 +2390,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25009540, OFF);
+    SetEventFlag(25009520, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });

@@ -72,6 +72,13 @@
 - Hunter's Blunderbuss FP Cost: 150
 - FP regen is now paused for 2 seconds after shooting.
 
+# Merchants
+- Magnum Ursus now sells the Bear Set in his shop.
+- Magnum Ursus's secret shop is now unlocked by presenting the Lordvessel, not the Blood of the Dark Soul.
+
+# Treasure
+- Lordvessel is found in the Flameless Shrine.
+
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
 
@@ -81,7 +88,6 @@
 Implement gatling gun
     Will require crossbow loop setup
     
-Check poison bug in trials, where the wave HP can be poisoned.
 
 #------------------------------
 # TODO - Armor
