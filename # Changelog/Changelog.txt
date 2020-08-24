@@ -63,6 +63,15 @@
 # Changelog
 #------------------------------
 
+# Sidearms
+- Cannon FP Cost: 500
+- Church Cannon FP Cost: 500
+- Hunter's Pistol FP Cost: 100
+- Repeating Pistol FP Cost: 150
+- Evelynn FP Cost: 200
+- Hunter's Blunderbuss FP Cost: 150
+- FP regen is now paused for 2 seconds after shooting.
+
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
 

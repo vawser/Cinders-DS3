@@ -1610,25 +1610,25 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         -- Sidearms
         if IsSidearm() == TRUE then
             -- FP Check
-            if sidearm_sp_kind == 285 and 200 > env(2016) then 
+            if sidearm_sp_kind == 285 and 500 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 286 and 200 > env(2016) then 
+            elseif sidearm_sp_kind == 286 and 500 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 287 and 30 > env(2016) then 
+            elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 288 and 40 > env(2016) then 
+            elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 289 and 40 > env(2016) then 
+            elseif sidearm_sp_kind == 289 and 200 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 290 and 50 > env(2016) then 
+            elseif sidearm_sp_kind == 290 and 150 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
-            elseif sidearm_sp_kind == 291 and 100 > env(2016) then 
+            elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
             end
@@ -1641,19 +1641,19 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         -- Sidearms
         if IsSidearm() == TRUE then
             -- FP Check
-            if sidearm_sp_kind == 285 and 200 > env(2016) then 
+            if sidearm_sp_kind == 285 and 500 > env(2016) then 
                 sidearm_can_fire = true  -- Cannon
-            elseif sidearm_sp_kind == 286 and 200 > env(2016) then 
+            elseif sidearm_sp_kind == 286 and 500 > env(2016) then 
                 sidearm_can_fire = true -- Church Cannon
-            elseif sidearm_sp_kind == 287 and 30 > env(2016) then 
+            elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
                 sidearm_can_fire = true -- Hunter's Pistol
-            elseif sidearm_sp_kind == 288 and 40 > env(2016) then 
+            elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
                 sidearm_can_fire = true -- Repeating Pistol
-            elseif sidearm_sp_kind == 289 and 40 > env(2016) then 
+            elseif sidearm_sp_kind == 289 and 200 > env(2016) then 
                 sidearm_can_fire = true -- Evelynn
-            elseif sidearm_sp_kind == 290 and 50 > env(2016) then 
+            elseif sidearm_sp_kind == 290 and 150 > env(2016) then 
                 sidearm_can_fire = true -- Hunter's Blunderbuss
-            elseif sidearm_sp_kind == 291 and 100 > env(2016) then 
+            elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
                 sidearm_can_fire = true -- Rosamarinus
             end
             
