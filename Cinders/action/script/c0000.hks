@@ -1,4 +1,6 @@
-﻿function ExecEvent(state)
+﻿-- Welcome :)
+
+function ExecEvent(state)
     ResetRequest()
     hkbFireEvent(state)
     return 

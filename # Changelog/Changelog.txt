@@ -71,6 +71,9 @@
 - Evelynn FP Cost: 200
 - Hunter's Blunderbuss FP Cost: 150
 - FP regen is now paused for 2 seconds after shooting.
+- Fixed the behavior effect so they not behave consistently. Before they were applied multiple times, leading to unintended effectiveness.
+- Reduced the Magic/Dark infusion FP/HP return for Cannons to 2%.
+- Reduced the Magic/Dark infusion FP/HP return for Pistols to 1%.
 
 # Merchants
 - Magnum Ursus now sells the Bear Set in his shop.
@@ -81,6 +84,7 @@
 
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
+- Adjusted Hunter's Blunderbuss bullet start angle to better fit the firing animation.
 
 #------------------------------
 # TODO - General
@@ -88,7 +92,6 @@
 Implement gatling gun
     Will require crossbow loop setup
     
-
 #------------------------------
 # TODO - Armor
 #------------------------------ 
