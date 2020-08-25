@@ -71,7 +71,7 @@
 - Evelynn FP Cost: 200
 - Hunter's Blunderbuss FP Cost: 150
 - FP regen is now paused for 2 seconds after shooting.
-- Fixed the behavior effect so they not behave consistently. Before they were applied multiple times, leading to unintended effectiveness.
+- Fixed the behavior effects so they behave consistently. Previously they were applied multiple times.
 - Reduced the Magic/Dark infusion FP/HP return for Cannons to 2%.
 - Reduced the Magic/Dark infusion FP/HP return for Pistols to 1%.
 
