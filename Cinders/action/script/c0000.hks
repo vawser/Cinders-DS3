@@ -1633,6 +1633,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
                 ExecEventAllBody("W_AttackLeftHeavy2")
                 return FALSE
+            elseif sidearm_sp_kind == 292 and 300 > env(2016) then 
+                ExecEventAllBody("W_AttackLeftHeavy2")
+                return FALSE
             end
         end
         
@@ -1657,6 +1660,8 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 sidearm_can_fire = true -- Hunter's Blunderbuss
             elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
                 sidearm_can_fire = true -- Rosamarinus
+            elseif sidearm_sp_kind == 292 and 300 > env(2016) then 
+                sidearm_can_fire = true -- Fist of Gratia
             end
             
             -- Handle WA/right-hand left attack invokes that can cause odd behavior
@@ -15534,7 +15539,7 @@ end
 function IsSidearm()
     local sp_kind = env(345, HAND_LEFT)
     
-    if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 then
+    if sp_kind == 285 or sp_kind == 286 or sp_kind == 287 or sp_kind == 288 or sp_kind == 289 or sp_kind == 290 or sp_kind == 291 or sp_kind == 292 then
         return TRUE
     end
     

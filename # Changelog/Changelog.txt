@@ -74,6 +74,7 @@
 - Fixed the behavior effects so they behave consistently. Previously they were applied multiple times.
 - Reduced the Magic/Dark infusion FP/HP return for Cannons to 2%.
 - Reduced the Magic/Dark infusion FP/HP return for Pistols to 1%.
+- Added Fist of Gratia: deals heavy poise/stamina damage, but costs FP and stamina as the other sidearms do.
 
 # Merchants
 - Magnum Ursus now sells the Bear Set in his shop.
@@ -90,8 +91,9 @@
 # TODO - General
 #------------------------------
 Implement gatling gun
+    2143 Gatling Gun
     Will require crossbow loop setup
-    
+
 #------------------------------
 # TODO - Armor
 #------------------------------ 
@@ -101,6 +103,9 @@ Implement gatling gun
 9918    Heide Lancer Helm
 9919    Overseer's Mask
 9920    Suspicious Gold Mask
+9921    Raime Set
+9922    Alonne Captain
+9923    Boar Helm
 
 #------------------------------
 # TODO - Weapon

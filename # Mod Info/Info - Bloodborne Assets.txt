@@ -1,4 +1,8 @@
 ﻿# Weapon IDs
+800 Saw Blade
+900 Skull
+
+1000 None
 1001 Beast Claw
 1011 Saw Spear
 1020 Hunter Axe
@@ -13,7 +17,9 @@
 1061 Stake Driver
 1063 Chikage
 1070 Threaded Cane
+
 1501 Plank Shield
+
 1700 Beasthunter Saif
 1701 Amygadalan Arm
 1702 Beast Cutter
@@ -25,11 +31,14 @@
 1708 Moonlight Greatsword
 1709 Simon's Bowblade
 1711 Kos Parasite
+1712 None
+
 1750 Gatling Cannon
 1751 Fist of Gratia
 1752 Church Cannon
 1753 Piercing Rifle
 1755 Loch Shield
+
 1800 Torch
 1900 Shaman Bone Blade
 1901 Damanged Logarius Wheel
