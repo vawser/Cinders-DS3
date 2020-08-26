@@ -83,6 +83,11 @@
 # Treasure
 - Lordvessel is found in the Flameless Shrine.
 
+# Enemies
+- Player-like AI now has an internal cooldown on WA moves (10 seconds), to prevent spam.
+- Player-like AI will no longer hold spells.
+- Player-like AI now has less stamina, which will reduce the length of their attack chains, which can be punishingly long otherwise.
+
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
 - Adjusted Hunter's Blunderbuss bullet start angle to better fit the firing animation.
@@ -90,9 +95,10 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Implement gatling gun
-    2143 Gatling Gun
-    Will require crossbow loop setup
+Add AI adjustment system in hks to manage AI attacks:
+ - limit WA spam
+ - Force 2H attacks for those where it is suitable
+
 
 #------------------------------
 # TODO - Armor
@@ -123,6 +129,10 @@ Burial Scythe (Dual Scythe/Blade)
     9840 Burial Scythe
     9836 Burial Blade
 Tailbone Club (Dual Hammer)
+
+Implement gatling gun
+    2143 Gatling Gun
+    Will require crossbow loop setup
 
 #------------------------------
 # TODO - Movesets
