@@ -95,10 +95,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Add AI adjustment system in hks to manage AI attacks:
- - limit WA spam
- - Force 2H attacks for those where it is suitable
-
 
 #------------------------------
 # TODO - Armor

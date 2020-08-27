@@ -1518,7 +1518,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             elseif ai_roll >= 60 and ai_roll < 80 then
                 ExecEventAllBody("W_AttackBothHeavy1")
             elseif ai_roll >= 80 then
-                ExecEventAllBody("W_AttackRightLightKick")
+                ExecEventAllBody("W_AttackRightLight2")
             end
             
             return FALSE
