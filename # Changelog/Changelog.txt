@@ -86,7 +86,6 @@
 # Enemies
 - Player-like AI now has an internal cooldown on WA moves (10 seconds), to prevent spam.
 - Player-like AI will no longer hold spells.
-- Player-like AI now has less stamina, which will reduce the length of their attack chains, which can be punishingly long otherwise.
 
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
@@ -95,10 +94,15 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Change firearm block/wa workaround to just switch to right-hand attack
 
 #------------------------------
 # TODO - Armor
 #------------------------------ 
+# Existing
+9813    Corvian Knight Set (m/f on body)
+9810    Gargoyle
+
 9915    Elite Cleric
 9916    Artifical Helmet
 9917    Giant-horned Helmet
@@ -108,6 +112,15 @@
 9921    Raime Set
 9922    Alonne Captain
 9923    Boar Helm
+9924    Barrel
+9925    Bucket
+9926    Sack
+9927    Rosaria's Dress
+9929    Gravetender
+9930    Salvador's Hat
+9931    Attendant Set
+9932    Snail Shell (m/f on head)
+9933    Willem's Cap
 
 #------------------------------
 # TODO - Weapon

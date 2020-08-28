@@ -108,7 +108,7 @@
 0968    Flamesprayer
 0969    Rosamarius
 0970    Fist of Gratia
-0971
+0971    
 0972
 0973
 0974
@@ -452,16 +452,16 @@
 9921    Raime Set
 9922    Alonne Captain
 9923    Boar Helm
-9924
-9925
-9926
-9927
-9928
-9929
-9930
-9931
-9932
-9933
+9924    Barrel
+9925    Bucket
+9926    Sack
+9927    Rosaria's Dress
+9928    Gargoyle
+9929    Gravetender
+9930    Salvador's Hat
+9931    Attendant Set
+9932    Snail Shell
+9933    Willem's Cap
 9934
 9935
 9936
