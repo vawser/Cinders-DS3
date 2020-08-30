@@ -62,7 +62,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Sidearms
 - Cannon FP Cost: 500
 - Church Cannon FP Cost: 500
@@ -75,6 +74,27 @@
 - Reduced the Magic/Dark infusion FP/HP return for Cannons to 2%.
 - Reduced the Magic/Dark infusion FP/HP return for Pistols to 1%.
 - Added Fist of Gratia: deals heavy poise/stamina damage, but costs FP and stamina as the other sidearms do.
+
+# Armors
+- Added Corvian Knight Set. Found in Ariandel.
+- Added Gargoyle Set. Found in Profaned Capital.
+- Added Thorolund Set. Found in Cathedral of the Deep.
+- Added Raime's Set. Dropped by Mimic in Catacombs of Carthus.
+- Added Alonne Captain Set. Found in Dreg Heap.
+- Added Gravekeeper Set. Found in Untended Graves.
+- Added Attendant Set. Found in Grand Archives.
+- Added Artificial Helmet. Found in Dreg Heap.
+- Added Giant-horned Helmet. Found in Dreg Heap.
+- Added Snail Shell. Found in Undead Settlement.
+- Added Overseer's Mask. Found in Road of Sacrifices.
+- Added Suspicious Gold Mask. Found in Ariandel.
+- Added Fang Boar Mask. Dropped by Mimic in High Wall.
+- Added Barrel. Found in Undead Settlement.
+- Added Bucket. Found in Road of Sacrifices.
+- Added Sack. Found in Undead Settlement.
+- Added Rosaria's Dress. Found in Cathedral of the Deep.
+- Added Salvador's Hat. Found in Undead Settlement.
+- Added Priestly Cap. Found in Ariandel.
 
 # Merchants
 - Magnum Ursus now sells the Bear Set in his shop.
@@ -97,31 +117,12 @@
 #------------------------------
 Change firearm block/wa workaround to just switch to right-hand attack
 
+Add dummy refs 301 to weapons that lack proper buff points
+
 #------------------------------
 # TODO - Armor
 #------------------------------ 
-# Existing
-9813    Corvian Knight Set (m/f on body)
-9810    Gargoyle
 
-9915    Elite Cleric
-9916    Artifical Helmet
-9917    Giant-horned Helmet
-9918    Heide Lancer Helm
-9919    Overseer's Mask
-9920    Suspicious Gold Mask
-9921    Raime Set
-9922    Alonne Captain
-9923    Boar Helm
-9924    Barrel
-9925    Bucket
-9926    Sack
-9927    Rosaria's Dress
-9929    Gravetender
-9930    Salvador's Hat
-9931    Attendant Set
-9932    Snail Shell (m/f on head)
-9933    Willem's Cap
 
 #------------------------------
 # TODO - Weapon
