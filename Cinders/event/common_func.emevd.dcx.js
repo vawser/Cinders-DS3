@@ -2489,7 +2489,10 @@ Event(20005531, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     CreateDamagingObject(X0_4, X4_4, X12_4, X20_4, DamageTargetType.Character, X24_4, X28_4, 0);
 });
 
+//----------------------------------------------------
 // Burning Object
+// <event flag>, <entity id>, <dummy poly>, <behavior>, <radius>, <lifespan>, <loop count>
+//----------------------------------------------------
 Event(20005540, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     DeleteObjectEvent(X0_4);
     CreateDamagingObject(X0_4, X4_4, X8_4, X12_4, DamageTargetType.Character, X16_4, X20_4, X24_4);
@@ -5622,6 +5625,19 @@ Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, X16_4, X12_4);
     SetCharacterGravity(X0_4, Enabled)
+    
+    EndUnconditionally(EventEndType.Restart)
+});
+
+//----------------------------------------------
+// Region Warp - Trial
+// <entity id>, <warp point id>, <trigger region id>
+//----------------------------------------------
+Event(20021005, Restart, function(X0_4, X4_4, X8_4) {
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
+    IfConditionGroup(MAIN, PASS, OR_01);
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
+    WaitFixedTimeSeconds(0.1);
     
     EndUnconditionally(EventEndType.Restart)
 });

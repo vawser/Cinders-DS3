@@ -90,6 +90,7 @@
 # Bugfixes
 - Fixed the alignment of the Repeating Pistol bullets.
 - Adjusted Hunter's Blunderbuss bullet start angle to better fit the firing animation.
+- Added damaging objects + warps in the Trial of Devastation to prevent exploits on the pillars.
 
 #------------------------------
 # TODO - General
