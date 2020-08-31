@@ -118,11 +118,37 @@
 Change firearm block/wa workaround to just switch to right-hand attack
 
 Add dummy refs 301 to weapons that lack proper buff points
-
-#------------------------------
-# TODO - Armor
-#------------------------------ 
-
+ # More
+ Hands of God 9879
+ Censuring Fist 1
+ Dragon Bone Fist 9909
+ Hands of Sin 840
+ Moonlight Butterfly Horn 9924
+ Rampart Golem Lance 9973
+ Locust Arm 9896
+ King's Ultra Greatsword 9978
+ Crypt Blacksword 9950
+ 
+ # Offset
+ Lothric's Scythe 1011
+ Priscilla's Scythe 9921
+ Scythe of Want 9982
+ Hunter's Axe 9847
+ Smelter Hammer 9819
+ Boom Hammer 9834
+ Frying Pan 864
+ Server 9927
+ Meat Cleaver 9885
+ Man Serpent Greatsword 9922
+ 
+ # Missing
+ Irithyll Warpick 9833
+ Black Dragon Greataxe 9869
+ Chikage 9843
+ Quelaag's Furysword 9926
+ Beast Cutter 9816
+ Runelock 962
+ Phosphorescent Pole 9889
 
 #------------------------------
 # TODO - Weapon
