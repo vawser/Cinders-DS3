@@ -1637,14 +1637,6 @@ Event(870, Default, function(X0_1, X4_4) {
 //------------------------------------------------------
 // Cinders
 //------------------------------------------------------
-// Setup - Host only
-Event(400000, Default, function() {
-    InitializeEvent(0, 400010, 0); // Game Flags - Once
-    InitializeEvent(0, 400011, 0); // Game Flags - On Load
-    InitializeEvent(0, 400012, 0); // NG+ Flags
-    InitializeEvent(0, 400013, 0); // Relationships
-});
-
 //------------------------------------------------
 // Game Flags - Once
 //------------------------------------------------
@@ -1704,20 +1696,7 @@ Event(400010, Default, function(X0_4, X4_4) {
     SetEventFlag(25001023, OFF); // Darkeater Midir 
     SetEventFlag(25001024, OFF); // Slave Knight Gael
     SetEventFlag(25001025, OFF); // Halflight
-    
-    // Bonfire Option flags
-    SetEventFlag(25000400, OFF); // Travel
-    SetEventFlag(25000401, OFF); // Level Up
-    SetEventFlag(25000402, OFF); // Allot Estus
-    SetEventFlag(25000403, OFF); // Attune Spell
-    SetEventFlag(25000404, OFF); // Reinforce Weapon
-    SetEventFlag(25000405, OFF); // Infuse Weapon
-    SetEventFlag(25000406, OFF); // Repair Equipment
-    SetEventFlag(25000407, OFF); // Purchase Item
-    SetEventFlag(25000408, OFF); // Sell Item
-    SetEventFlag(25000409, OFF); // Organize Storage Box
-    SetEventFlag(25000410, OFF); // Undead Match
-    
+
     SetEventFlag(25000099, ON); // Execution flag
 });
 
@@ -1760,8 +1739,15 @@ Event(400013, Restart, function() {
     RandomlySetEventFlagInRange(25008900, 25008902, ON);
 });
 
-// Setup - Host and Client
-Event(400001, Default, function() {
+// Setup - Host only
+Event(400000, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    InitializeEvent(0, 400010, 0); // Game Flags - Once
+    InitializeEvent(0, 400011, 0); // Game Flags - On Load
+    InitializeEvent(0, 400012, 0); // NG+ Flags
+    InitializeEvent(0, 400013, 0); // Relationships
+    
     // Curses - Enable
     InitializeEvent(0, 400021, 25000008, 250001200, 250001201); // Curse of Frailty
     InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
@@ -1804,58 +1790,6 @@ Event(400001, Default, function() {
     // Trades
     InitializeEvent(0, 400099, 0); // Crow Trades
     
-    // Covenant Material Drops
-    //InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
-    //InitializeEvent(1, 400100, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
-    //InitializeEvent(2, 400100, 10000, 160100252, 800010200, 800010220); // Spears of the Church
-    //InitializeEvent(3, 400100, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
-    //InitializeEvent(4, 400100, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
-    //InitializeEvent(5, 400100, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
-    //InitializeEvent(6, 400100, 10000, 160100302, 800010600, 800010620); // Mound-makers
-    //InitializeEvent(7, 400100, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
-    //InitializeEvent(8, 400100, 10000, 160100332, 800010800, 800010820); // Chaos Servant
-    //InitializeEvent(9, 400100, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
-    //InitializeEvent(10, 400100, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
-    //InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
-    //InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
-    //InitializeEvent(13, 400100, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
-    //InitializeEvent(14, 400100, 10000, 160100392, 800011400, 800011420); // Way of Blue
-    //InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
-    
-    // Weapons
-    //InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
-
-    // Rings
-    //InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
-    //InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
-    
-    // Spells
-    //InitializeEvent(0, 400300, 10000, 160500060); // Numbness
-    
-    // Items
-    InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 400400, 10000); // Blood of Might
-    InitializeEvent(0, 400402, 10000); // Event Flag Tool
-    
-    // Transformations
-    //InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
-    //InitializeEvent(0, 400530, 160703000); // Rattling Finger
-    
-    //InitializeEvent(0, 400540, 160703100, 160703110, 160703111); // Murky Finger
-    //InitializeEvent(1, 400540, 160703201, 160703210, 160703211); // Demonic Claw
-    //InitializeEvent(2, 400540, 160703301, 160703310, 160703311); // Forgotten Tablet
-    //InitializeEvent(3, 400540, 160703401, 160703410, 160703411); // Dragon Torso Stone
-    //InitializeEvent(4, 400540, 160703420, 160703430, 160703431); // Hunter's Mark
-    
-    //InitializeEvent(0, 400541, 160703200, 160703210, 160704000); // Demonic Skull
-    //InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
-    //InitializeEvent(2, 400541, 160703400, 160703410, 160704000); // Dragon Head Stone
-    
-    // General Scripts
-    //InitializeEvent(0, 400700, 10000); // No Hit State
-    //InitializeEvent(0, 400800, 10000); // FP Regen
-    
     // Bosses
     InitializeEvent(0, 4008010, 0); // Corrupted Gundyr
     InitializeEvent(0, 4008020, 0); // Vordt of the Boreal Valley
@@ -1882,6 +1816,62 @@ Event(400001, Default, function() {
     InitializeEvent(0, 4008230, 0); // Darkeater Midir
     InitializeEvent(0, 4008240, 0); // Slave Knight Gael
     InitializeEvent(0, 4008250, 0); // Halflight
+    
+    // Covenant Material Drops
+    InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
+    InitializeEvent(1, 400100, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
+    InitializeEvent(2, 400100, 10000, 160100252, 800010200, 800010220); // Spears of the Church
+    InitializeEvent(3, 400100, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
+    InitializeEvent(4, 400100, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
+    InitializeEvent(5, 400100, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
+    InitializeEvent(6, 400100, 10000, 160100302, 800010600, 800010620); // Mound-makers
+    InitializeEvent(7, 400100, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
+    InitializeEvent(8, 400100, 10000, 160100332, 800010800, 800010820); // Chaos Servant
+    InitializeEvent(9, 400100, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
+    InitializeEvent(10, 400100, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
+    InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
+    InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
+    InitializeEvent(13, 400100, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
+    InitializeEvent(14, 400100, 10000, 160100392, 800011400, 800011420); // Way of Blue
+    InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
+    
+    InitializeEvent(0, 400700, 10000); // No Hit State
+});
+
+// Setup - Host and Client
+Event(400001, Default, function() {
+    // Weapons
+    InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
+
+    // Rings
+    InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
+    InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
+    
+    // Spells
+    InitializeEvent(0, 400300, 10000, 160500060); // Numbness
+    
+    // Items
+    InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 400400, 10000); // Blood of Might
+    InitializeEvent(0, 400402, 10000); // Event Flag Tool
+    
+    // Transformations
+    InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
+    InitializeEvent(0, 400530, 160703000); // Rattling Finger
+    
+    InitializeEvent(0, 400540, 160703100, 160703110, 160703111); // Murky Finger
+    InitializeEvent(1, 400540, 160703201, 160703210, 160703211); // Demonic Claw
+    InitializeEvent(2, 400540, 160703301, 160703310, 160703311); // Forgotten Tablet
+    InitializeEvent(3, 400540, 160703401, 160703410, 160703411); // Dragon Torso Stone
+    InitializeEvent(4, 400540, 160703420, 160703430, 160703431); // Hunter's Mark
+    
+    InitializeEvent(0, 400541, 160703200, 160703210, 160704000); // Demonic Skull
+    InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
+    InitializeEvent(2, 400541, 160703400, 160703410, 160704000); // Dragon Head Stone
+    
+    // General Scripts
+    InitializeEvent(0, 400800, 10000); // FP Regen
 });
 
 // FP Regen

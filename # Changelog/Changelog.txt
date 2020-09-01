@@ -62,55 +62,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Sidearms
-- Cannon FP Cost: 500
-- Church Cannon FP Cost: 500
-- Hunter's Pistol FP Cost: 100
-- Repeating Pistol FP Cost: 150
-- Evelynn FP Cost: 200
-- Hunter's Blunderbuss FP Cost: 150
-- FP regen is now paused for 2 seconds after shooting.
-- Fixed the behavior effects so they behave consistently. Previously they were applied multiple times.
-- Reduced the Magic/Dark infusion FP/HP return for Cannons to 2%.
-- Reduced the Magic/Dark infusion FP/HP return for Pistols to 1%.
-- Added Fist of Gratia: deals heavy poise/stamina damage, but costs FP and stamina as the other sidearms do.
 
-# Armors
-- Added Corvian Knight Set. Found in Ariandel.
-- Added Gargoyle Set. Found in Profaned Capital.
-- Added Thorolund Set. Found in Cathedral of the Deep.
-- Added Raime's Set. Dropped by Mimic in Catacombs of Carthus.
-- Added Alonne Captain Set. Found in Dreg Heap.
-- Added Gravekeeper Set. Found in Untended Graves.
-- Added Attendant Set. Found in Grand Archives.
-- Added Artificial Helmet. Found in Dreg Heap.
-- Added Giant-horned Helmet. Found in Dreg Heap.
-- Added Snail Shell. Found in Undead Settlement.
-- Added Overseer's Mask. Found in Road of Sacrifices.
-- Added Suspicious Gold Mask. Found in Ariandel.
-- Added Fang Boar Mask. Dropped by Mimic in High Wall.
-- Added Barrel. Found in Undead Settlement.
-- Added Bucket. Found in Road of Sacrifices.
-- Added Sack. Found in Undead Settlement.
-- Added Rosaria's Dress. Found in Cathedral of the Deep.
-- Added Salvador's Hat. Found in Undead Settlement.
-- Added Priestly Cap. Found in Ariandel.
-
-# Merchants
-- Magnum Ursus now sells the Bear Set in his shop.
-- Magnum Ursus's secret shop is now unlocked by presenting the Lordvessel, not the Blood of the Dark Soul.
-
-# Treasure
-- Lordvessel is found in the Flameless Shrine.
-
-# Enemies
-- Player-like AI now has an internal cooldown on WA moves (10 seconds), to prevent spam.
-- Player-like AI will no longer hold spells.
-
-# Bugfixes
-- Fixed the alignment of the Repeating Pistol bullets.
-- Adjusted Hunter's Blunderbuss bullet start angle to better fit the firing animation.
-- Added damaging objects + warps in the Trial of Devastation to prevent exploits on the pillars.
 
 #------------------------------
 # TODO - General
