@@ -275,7 +275,7 @@ Then create the python version and recompile it.
 400506 GENERIC UNUSED
 400507 GENERIC UNUSED
 400508 GENERIC UNUSED
-400509 GENERIC UNUSED
+400509 Menu Test
 400790
 400791
 400792
@@ -287,7 +287,7 @@ Then create the python version and recompile it.
 400905
 400907
 400908
-400909
+400909 
 
 410000
 410001 Kiln of the First Flame bonfire

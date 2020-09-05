@@ -416,6 +416,7 @@ replanningAI                        -
 #---------------------------------------------
 # Magic TAE
 #---------------------------------------------
+# Right Launch Anim
 040000 - ENBulletRightLaunch
        - ENBulletRightLaunch_Upper
        - ENBulletRightLaunchSA
@@ -423,7 +424,186 @@ replanningAI                        -
        - WeaponEnchantRightLaunchSA
        - WeaponEnchantRightLaunch_Upper
        - WeaponEnchantRightLaunchSA_Upper
-   
+       
+040002 - SelfEnchantRightLaunch
+       - SelfEnchantRightLaunch_Upper
+       - SelfEnchantRightLaunchSA
+       - SelfEnchantRightLaunchSA_Upper
+
+040003 - PrayRightLaunch
+       - PrayRightLaunch_Upper
+       - PrayRightLaunchSA
+       - PrayRightLaunchSA_Upper
+       - PrayHoldRightLaunch
+       - PrayHoldRightLaunch_Upper
+       - PrayHoldRightLaunchSA
+       - PrayHoldRightLaunchSA_Upper
+       
+040004 - FlameRadiationRightLaunch
+       - FlameRadiationRightLaunch_Upper
+       - FlameRadiationRightLaunchSA
+       - FlameRadiationRightLaunchSA_Upper
+
+040005 - SelfEnchantCauseRightLaunch
+       - SelfEnchantCauseRightLaunch_Upper
+       - SelfEnchantCauseRightLaunchSA
+       - SelfEnchantCauseRightLaunchSA_Upper
+
+040006 - DrainRightLaunch
+       - DrainRightLaunch_Upper
+       - DrainRightLaunchSA
+       - DrainRightLaunchSA_Upper
+
+040007 - FireNearRightLaunch
+       - FireNearRightLaunch_Upper
+       - FireNearRightLaunchSA
+       - FireNearRightLaunchSA_Upper
+
+040008 - CloudRightLaunch
+
+040009 - SparkRightLaunch
+
+040010 - CharmRightLaunch
+
+040011 - ChameleonRightLaunch
+
+040012 - TransformRightLaunch
+
+040013 - BreathRightLaunch
+
+040014 - WeaponEnchant2RightLaunch
+
+040015 - SummonRightLaunch
+
+040016 - ShieldEnchantRightLaunch
+
+040017 - ForceRightLaunch
+
+040018 - ThunderRightLaunch
+
+040019 - EnvironmentRightLaunch
+
+040020 - PrayBroRightLaunch
+
+040021 - Throw40021
+
+040022 - ImpactRightLaunch
+
+040024 - ENBullet2RightLaunch
+
+040025 - FlamethrowerRightLaunch
+
+040026 - WhipRightLaunch
+
+040027 - SlashRightLaunch
+
+040028 - PrayStandRightLaunch
+
+040029 - AOEPrayHoldRightLaunch
+
+040030 - QuickENBulletRightLaunch
+
+040031 - QuickSlashRightLaunch
+
+040032 - FlameBackHandRightLaunch
+
+040033 - FlameGrabRightLaunch
+
+040034 - CrushRightLaunch
+
+040035 - MiracleRadiationRightLaunch
+
+040036 - LightningRodRightLaunch
+
+040037 - ChopRightLaunch
+
+040038 - TrapRightLaunch
+
+040039 - WrathRightLaunch
+
+040040 - BeamCannonRightLaunch
+
+040041 - MachineGunRightLaunch
+
+040042 - StrongENBulletRightLaunch
+
+040043 - FastSparkRightLaunch
+
+040044 - FastFlameRadiationRightLaunch
+
+040045 - ScytheRightLaunch
+
+040046 - HolySparkRightLaunch
+       - HolySparkRightLaunch_Upper
+       - HolySparkRightLaunchSA
+       - HolySparkRightLaunchSA_Upper
+
+040047 - SpitRightLaunch
+       - SpitRightLaunch_Upper
+       - SpitRightLaunchSA
+       - SpitRightLaunchSA_Upper
+
+040048 - BitRightLaunch
+       - BitRightLaunch_Upper
+       - BitRightLaunchSA
+       - BitRightLaunchSA_Upper
+
+040049 - ChakramRightLaunch
+       - ChakramRightLaunch_Upper
+       - ChakramRightLaunchSA
+       - ChakramRightLaunchSA_Upper
+
+040050 - BowRightLaunch
+       - BowRightLaunch_Upper
+       - BowRightLaunchSA
+       - BowRightLaunchSA_Upper
+
+040051 - FanRightLaunch
+       - FanRightLaunch_Upper
+       - FanRightLaunchSA
+       - FanRightLaunchSA_Upper
+
+040099 - MagicInvalidRight
+       - MagicInvalidRight_Upper
+
+# Loop Anim
+040103 - PrayHoldRightLoop
+       - PrayHoldRightLoop_Upper
+       - PrayHoldRightLoopSA
+       - PrayHoldRightLoopSA_Upper
+
+040129 - AOEPrayHoldRightLoop
+       - AOEPrayHoldRightLoop_Upper
+       - AOEPrayHoldRightLoopSA
+       - AOEPrayHoldRightLoopSA_Upper
+
+040147 - SpitHoldRightLoop
+       - SpitHoldRightLoop_Upper
+       - SpitHoldRightLoopSA
+       - SpitHoldRightLoopSA_Upper
+
+040150 - BowHoldRightLoop
+       - BowHoldRightLoop_Upper
+       - BowHoldRightLoopSA
+       - BowHoldRightLoopSA_Upper
+
+040247 - MagicLoopRightLvl2
+       - MagicLoopRightLvl2_Upper
+
+# Right Fire Anim
+040300 - ENBulletRightFire
+       - ENBulletRightFire_Upper
+
+# Left Launch Anim
+042000 - ENBulletLeftLaunch
+       - ENBulletLeftLaunch_Upper
+       - ENBulletLeftLaunchSA
+       - ENBulletLeftLaunchSA_Upper
+
+# Left Fire Anim
+042300 - ENBulletLeftFire
+       - ENBulletLeftFire_Upper
+
 #---------------------------------------------
 # Item TAE
 #---------------------------------------------

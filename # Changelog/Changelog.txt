@@ -27,80 +27,20 @@
 55002062 Dreg Heap
 55102059 The Ringed City
 
-# Shop Flag Ranges
-74002000 Yoel
-74003000 / 74004000 Andre
-74005000 / 74006000 Shrine Handmaid
-74007000 Greirat 
-74008000 Orbeck
-74009000 Cornyx
-
-74500000 Karla
-74501000 Irina
-74502000 Patches
-74503000 Domhnall
-74504000 Marvelous Chester
-74505000 Crestfallen Merchant
-74506000 Grave Warden Lillian
-74507000 Alchemist Jiji
-74508000 Stone-humped Hag
-
-# Covenants
-74101000 Darkmoon Faithful
-74101500 Watchdogs of Farron
-74102000 Aldrich Faithful
-74102500 Warrior of Sunlight
-74103000 Mound-makers
-74103500 Chaos Servants
-74104000 Rosaria's Fingers
-74104500 Spears of the Church
-74105000 Vinheim Scholars
-74105500 Pilgrims of Dark
-74106000 Dragon Remnants
-74106500 Way of White
-
 #------------------------------
 # Changelog
 #------------------------------
 
+# Merchants
+- Removed the purchase limits on spells and goods that are fine to purchase more than once.
 
+# Bugfixes
+- You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
+    
 #------------------------------
 # TODO - General
 #------------------------------
-Change firearm block/wa workaround to just switch to right-hand attack
 
-Add dummy refs 301 to weapons that lack proper buff points
- # More
- Hands of God 9879
- Censuring Fist 1
- Dragon Bone Fist 9909
- Hands of Sin 840
- Moonlight Butterfly Horn 9924
- Rampart Golem Lance 9973
- Locust Arm 9896
- King's Ultra Greatsword 9978
- Crypt Blacksword 9950
- 
- # Offset
- Lothric's Scythe 1011
- Priscilla's Scythe 9921
- Scythe of Want 9982
- Hunter's Axe 9847
- Smelter Hammer 9819
- Boom Hammer 9834
- Frying Pan 864
- Server 9927
- Meat Cleaver 9885
- Man Serpent Greatsword 9922
- 
- # Missing
- Irithyll Warpick 9833
- Black Dragon Greataxe 9869
- Chikage 9843
- Quelaag's Furysword 9926
- Beast Cutter 9816
- Runelock 962
- Phosphorescent Pole 9889
 
 #------------------------------
 # TODO - Weapon

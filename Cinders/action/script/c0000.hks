@@ -1192,11 +1192,6 @@ function IsEnableGuard()
         end
     end
     
-    -- HAND_RIGHT_BOTH means main weapon is 2H, so allow block
-    if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
-        return FALSE
-    end
-    
     -- Other
     if sp_kind == 229 or sp_kind == 231 or sp_kind == 234 then
         -- Whips
@@ -1352,8 +1347,6 @@ function ExecGuard(event, blend_type)
     if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
         if env(1001) <= 0 then -- GetStamina
             return FALSE
-        elseif IsSidearm() == TRUE then
-            return FALSE
         elseif IsEnableGuard() == TRUE then
             local style = c_Style
             local hand = HAND_LEFT
@@ -1393,6 +1386,10 @@ function ExecGuard(event, blend_type)
                 end
             else
                 ExecEventHalfBlend(event, blend_type)
+            end
+            
+            if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
+                ExecEventAllBody("W_AttackLeftLight1")
             end
             
             return TRUE
