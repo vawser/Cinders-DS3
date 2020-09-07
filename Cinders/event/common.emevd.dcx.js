@@ -212,73 +212,94 @@ Event(50, Default, function() {
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6400);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 14000100);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, AND_01);
-    RemoveItemFromPlayer(ItemType.Goods, 115, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 384, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 386, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 390, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 490, 8);
-    RemoveItemFromPlayer(ItemType.Goods, 2001, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2005, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2007, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2008, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2009, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2010, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2011, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2012, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2013, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2014, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2015, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2102, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2103, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2104, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2105, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2106, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2107, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2108, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2109, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2110, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2111, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2112, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2113, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2114, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2115, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2116, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2117, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2119, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2120, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2121, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2123, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2124, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2125, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2126, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2127, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2128, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2129, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2130, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2131, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2132, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2133, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2134, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2135, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2137, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2138, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2139, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2140, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2142, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2144, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2145, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2146, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2147, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2148, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2149, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2150, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2151, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2152, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2154, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2155, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2156, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2157, 1);
-    RemoveItemFromPlayer(ItemType.Goods, 2158, 1);
+    RemoveItemFromPlayer(ItemType.Goods, 115, 1); // Black Eye Orb
+    RemoveItemFromPlayer(ItemType.Goods, 384, 1); //
+    RemoveItemFromPlayer(ItemType.Goods, 386, 1); //
+    RemoveItemFromPlayer(ItemType.Goods, 390, 1); // Fire Keeper Soul
+    RemoveItemFromPlayer(ItemType.Goods, 490, 8); // Dark Sigil
+    RemoveItemFromPlayer(ItemType.Goods, 2001, 1); // Lift Chamber Key
+    RemoveItemFromPlayer(ItemType.Goods, 2005, 1); // Small Doll
+    RemoveItemFromPlayer(ItemType.Goods, 2007, 1); // Jailbreaker's Key
+    RemoveItemFromPlayer(ItemType.Goods, 2008, 1); // Jailer's Key Ring
+    RemoveItemFromPlayer(ItemType.Goods, 2009, 1); // Grave Key
+    RemoveItemFromPlayer(ItemType.Goods, 2010, 1); // Cell Key
+    RemoveItemFromPlayer(ItemType.Goods, 2011, 1); // Dungeon Ground Floor Key
+    RemoveItemFromPlayer(ItemType.Goods, 2012, 1); // Old Cell Key
+    RemoveItemFromPlayer(ItemType.Goods, 2013, 1); // Forgotten Key
+    RemoveItemFromPlayer(ItemType.Goods, 2014, 1); // Grand Archives Key
+    RemoveItemFromPlayer(ItemType.Goods, 2015, 1); // Tower Key
+    RemoveItemFromPlayer(ItemType.Goods, 2102, 1); // Small Lothric Banner
+    RemoveItemFromPlayer(ItemType.Goods, 2103, 1); // Farron Coal
+    RemoveItemFromPlayer(ItemType.Goods, 2104, 1); // Sage's Coal
+    RemoveItemFromPlayer(ItemType.Goods, 2105, 1); // Giant's Coal
+    RemoveItemFromPlayer(ItemType.Goods, 2106, 1); // Profaned Coal
+    RemoveItemFromPlayer(ItemType.Goods, 2107, 1); // Mortician's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2108, 1); // Dreamchaser's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2109, 1); // Paladin's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2110, 1); // Grave Warden's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2111, 1); // Greirat's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2112, 1); // Orbeck's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2113, 1); // Cornyx's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2114, 1); // Karla's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2115, 1); // Irina's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2116, 1); // Yuria's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2117, 1); // Basin of Vows
+    RemoveItemFromPlayer(ItemType.Goods, 2119, 1); // Braille Divine Tome of Carim
+    RemoveItemFromPlayer(ItemType.Goods, 2120, 1); // Braille Divine Tome of Lothric
+    RemoveItemFromPlayer(ItemType.Goods, 2121, 1); // Braille Divine Tome of Sunlight
+    RemoveItemFromPlayer(ItemType.Goods, 2123, 1); // Cinders of a Lord
+    RemoveItemFromPlayer(ItemType.Goods, 2124, 1); // Cinders of a Lord
+    RemoveItemFromPlayer(ItemType.Goods, 2125, 1); // Cinders of a Lord
+    RemoveItemFromPlayer(ItemType.Goods, 2126, 1); // Cinders of a Lord
+    RemoveItemFromPlayer(ItemType.Goods, 2127, 1); // Great Swamp Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2128, 1); // Carthus Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2129, 1); // Izalith Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2130, 1); // Quelana Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2131, 1); // Grave Warden Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2132, 1); // Sage's Scroll
+    RemoveItemFromPlayer(ItemType.Goods, 2133, 1); // Logan's Scroll
+    RemoveItemFromPlayer(ItemType.Goods, 2134, 1); // Crystal Scroll
+    RemoveItemFromPlayer(ItemType.Goods, 2135, 1); // Transposing Kiln
+    RemoveItemFromPlayer(ItemType.Goods, 2137, 1); // Coiled Sword
+    RemoveItemFromPlayer(ItemType.Goods, 2138, 1); // Eyes of a Fire Keeper
+    RemoveItemFromPlayer(ItemType.Goods, 2139, 1); // Sword of Avowal
+    RemoveItemFromPlayer(ItemType.Goods, 2140, 1); // Golden Scroll
+    RemoveItemFromPlayer(ItemType.Goods, 2142, 1); // Hawkwood's Swordgrass
+    RemoveItemFromPlayer(ItemType.Goods, 2144, 1); // Deep Braille Divine Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2145, 1); // Londor Braille Divine Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2146, 1); // Excrement-covered Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2147, 1); // Prisoner Chief's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2148, 1); // Xanthous Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2149, 1); // Hollow's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2150, 1); // Patches' Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2151, 1); // Dragon Chaser's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2152, 1); // Easterner's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2154, 1); // Captain's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2155, 1); // Contraption Key
+    RemoveItemFromPlayer(ItemType.Goods, 2156, 1); // Small Envoy Banner
+    RemoveItemFromPlayer(ItemType.Goods, 2157, 1); // Old Woman's Ashes
+    RemoveItemFromPlayer(ItemType.Goods, 2158, 1); // Blood of the Dark Soul
+    
+    // Cinders
+    RemoveItemFromPlayer(ItemType.Goods, 2002, 1); // Lordvessel
+    RemoveItemFromPlayer(ItemType.Goods, 2004, 1); // Tortured Soul
+    RemoveItemFromPlayer(ItemType.Goods, 2006, 1); // Smithbox
+    RemoveItemFromPlayer(ItemType.Goods, 2016, 1); // Dragon Talon
+    RemoveItemFromPlayer(ItemType.Goods, 2017, 1); // Pilgrim's Soul
+    RemoveItemFromPlayer(ItemType.Goods, 2018, 1); // Catacombs Key
+    RemoveItemFromPlayer(ItemType.Goods, 2019, 1); // Smouldering Key
+    RemoveItemFromPlayer(ItemType.Goods, 2020, 1); // Eye of Londor
+    RemoveItemFromPlayer(ItemType.Goods, 2021, 1); // Frozen Flower
+    RemoveItemFromPlayer(ItemType.Goods, 2022, 1); // Broken Tablet
+    RemoveItemFromPlayer(ItemType.Goods, 2023, 1); // Giant's Soul
+    RemoveItemFromPlayer(ItemType.Goods, 2024, 1); // Smouldering Rubble
+    
+    RemoveItemFromPlayer(ItemType.Goods, 2173, 1); // Profaned Pyromancy Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2174, 1); // Accursed Scroll
+    RemoveItemFromPlayer(ItemType.Goods, 2175, 1); // Writhing Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2176, 1); // Abyssal Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2177, 1); // Angelic Braille Divine Tome
+    RemoveItemFromPlayer(ItemType.Goods, 2178, 1); // Heavenly Braille Divine Tome
     
     // Memories
     RemoveItemFromPlayer(ItemType.Goods, 5000, 99);
