@@ -30,6 +30,8 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Reduced the damage of the pistol sidearms.
 
 # Items
 - Transformation/Elixir/Oil items now persist through loading.
@@ -47,7 +49,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-
 
 #------------------------------
 # TODO - Weapon
