@@ -45,6 +45,7 @@
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
 - Moved the Echo Vordt and the corpse treasure in the transition section from Lothric Castle into Grand Archives elsewhere.
+- Added ElFonz0's fixed Burial Knight models.
 
 #------------------------------
 # TODO - General

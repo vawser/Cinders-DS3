@@ -1388,8 +1388,30 @@ function ExecGuard(event, blend_type)
                 ExecEventHalfBlend(event, blend_type)
             end
             
+            -- Sidearms
+            local sidearm_sp_kind = env(345, HAND_LEFT)
+    
             if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
-                ExecEventAllBody("W_AttackLeftLight1")
+                if sidearm_sp_kind == 285 and 500 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 286 and 500 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 287 and 100 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 288 and 150 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 289 and 200 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 290 and 150 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 291 and 250 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                elseif sidearm_sp_kind == 292 and 300 < env(2016) then 
+                    l1 = "W_AttackLeftLight1"
+                else
+                    l1 = "W_AttackLeftHeavy2"
+                end
+                ExecEventAllBody(l1)
             end
             
             return TRUE
@@ -1527,10 +1549,6 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
-    -- Sidearms
-    local sidearm_sp_kind = env(345, HAND_LEFT)
-    local sidearm_can_fire = false
-    
     -- Devastating Blow Setup
     local db_chance = 0
     local roll = math.random(0, 100)
@@ -1554,6 +1572,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     if roll < db_chance then
          act(2002, 112500) -- AddSpEffect
     end
+    
+    -- Sidearms
+    local sidearm_sp_kind = env(345, HAND_LEFT)
+    local sidearm_can_fire = false
     
     act(2006, 0) -- SetDamageMotionBlendRatio
     if env(271) == TRUE then -- IsSpecialTransitionPossible
@@ -1639,29 +1661,21 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsSidearm() == TRUE then
             -- FP Check
             if sidearm_sp_kind == 285 and 500 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 286 and 500 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 289 and 200 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 290 and 150 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 292 and 300 > env(2016) then 
-                ExecEventAllBody("W_AttackLeftHeavy2")
-                return FALSE
+                l1 = "W_AttackLeftHeavy2"
             end
         end
         
@@ -1690,14 +1704,8 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 sidearm_can_fire = true -- Fist of Gratia
             end
             
-            -- Handle WA/right-hand left attack invokes that can cause odd behavior
-            if style == HAND_RIGHT_BOTH then 
-                sidearm_can_fire = false
-            end
-              
             if sidearm_can_fire == TRUE then
-                ExecEventAllBody("W_AttackLeftLight1")
-                return FALSE
+                l2 = "W_AttackLeftLight1"
             else
                 return FALSE
             end
@@ -5658,6 +5666,7 @@ function MoveCommonFunction(blend_type)
     end
 end
 
+-- Applied after Guard request
 function GuardCommonFunction(is_guard_end, blend_type)
     act(9100) -- Wait
     if ExecPassiveAction(FALSE, FALL_TYPE_DEFAULT, FALSE) == TRUE then
@@ -7496,7 +7505,7 @@ function AttackLeft_Deactivate()
 end
 
 function AttackLeftLight1_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
