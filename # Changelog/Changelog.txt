@@ -31,12 +31,19 @@
 # Changelog
 #------------------------------
 
+# Items
+- Transformation/Elixir/Oil items now persist through loading.
+- Added Rattling Skull so the skeleton form uses the two item format.
+- Added Murky Skull so the murkman form uses the two item format.
+- Added Hunter's Emblem so the Hunter form uses the two item format.
+
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
 
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
-    
+- Moved the Echo Vordt and the corpse treasure in the transition section from Lothric Castle into Grand Archives elsewhere.
+
 #------------------------------
 # TODO - General
 #------------------------------

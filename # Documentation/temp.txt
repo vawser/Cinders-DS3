@@ -1,139 +1,397 @@
-﻿This tutorial is for Dark Souls III specifically, although some aspects may be similar or the same in the other games.
-
-++ Tools
-To complete this tutorial, the following tools are needed:
-- HKXPack
-- DS Anim Studio
-- Yabber
-- Yapped
-- Notepad++ or any other text editor.
-
-++ Glossary
-TAE: Time Action Event, this is what controls the various events during an animation, such as sound, visual effects and the period when an attack is active.
-
-Weapon Moveset Category: a field in a weapon row in the EquipParamWeapon param. Defines the 'base' moveset used by the weapon.
-
-Weapon Override Category: a field in a weapon row in the EquipParamWeapon param. Defines the 'override' moveset used by the weapon. This means it only includes changes that will override the 'base' moveset.
-
-++ Adding a Moveset
-This tutorial will outline the method needed to add a new move. This can be extrapolated to add a new moveset.
-
-Typically it is possible to make use of the existing TAE entries for movesets. However, if differing animation speeds or unique arrangements are what are required, adding a new TAE ID is required.
-
-In this tutorial a new TAE ID will be created that will contain a 1H Greatsword R1 TAE entry. This ID can be used in the "Weapon Override Category" field to override any base moveset, replacing the first R1 animation with the 1H Greatsword R1 animation.
-
-++ Adding a new TAE ID
-To add a new TAE ID, it needs to be added to the c0000.anibnd.dcx. This is the file that contains all the TAE used by the player.
-
-Unpack the c0000.anibnd.dcx by dropping it on the Yabber.exe. This will output a folder called "c0000-anibnd-dcx", which is where the edits are made.
-
-Edit the "_yabber-bnd4.xml" file with the "c0000-anibnd-dcx" folder, adding a new file definition like so:
-
-[[code]]
-<file>
-  <id>5000271</id>
-  <root>N:\FDP\data\INTERROOT_win64\</root>
-  <path>chr\c0000\tae\a271.tae</path>
-  <flags>0x40</flags>
-</file>
-[[/code]]
-
-In this tutorial the new TAE ID will be 271. This is the number to change when adding more TAE IDs, both in the id and path section.
-
-Navigate to the \chr\c0000\tae folder within the "c0000-anibnd-dcx". Duplicate an existing TAE file, such as a157.tae and rename it to a217.tae.
-
-Repack the "c0000.anibnd.dcx" folder by dropping the folder on the Yabber.exe. This will repack the c0000.anibnd.dcx with the new additions.
-
-++ Editing the TAE
-Open the edited c0000.anibnd.dcx with DS Anim Studio. The c0000.anibnd.dcx will need to be placed in the base game chr folder for DS Anim Studio to work correctly.
-
-Once opened, navigate to the a271.tae section in DS Anim Studio. This is the new TAE ID that was just added to the c0000.anibnd.dcx.
-
-In this tutorial, only the a271_030000 sub-ID is needed. If this is missing from the list, edit one of the existing entries by pressing F3 with it selected. Change the Animation Sub-ID to 030000, and make sure the Mini-Header Type is Standard, nothing is in the Import From field and none of the tickboxes are checked.
-
-Outside of this tutorial, if more entries are needed, they can be added by pressing the Insert button on your keyboard.
-
-Delete all the other entries within the a271 section if any are present. This is done by pressing F3 and the Delete Anim... button.
-
-++ Adding the new TAE
-The a271 section is now ready to be edited. In this tutorial the 1H Light R1 move (03000) will be edited to match the 1H Greatsword R1 move.
-
-To do this, select the a271_03000 entry and press F3. In the Import From field, add "a025_030000" and tick the Import Events and Import HKX checkbox. This is referencing the a025_030000 entry and imports its events and animation into the a271_030000 entry.
-
-The extent of how TAE can be edited is wide and too large for this tutorial to cover adequately. This tutorial covers the basics of duplicating an existing entry, but perhaps custom event edits are wanted.
-
-To do this, only tick the Import HKX checkbox. This will result in only the animation being present and nothing in the event graph. The events will need to be copied from the original entry and then edited as suited.
-
-++ Adding the Move
-Initially it may seem only the TAE ID must be added. However, if tested in-game you will discover that the new TAE ID isn't being used. This is because all new TAE IDs must be added to the c0000.behbnd.dcx.
-
-Unpack the c0000.behbnd.dcx by dropping it on the Yabber.exe. This will output a folder called "c0000-anibnd-dcx", which is where the edits are made.
-
-Navigate to the \Action\c0000\Export\Behaviors folder within the "c0000-behbnd-dcx". Unpack the c0000.hkx by dropping it on the hkxpackds3.exe. This will unpack the file and output "c0000.xml", which can be edited.
-
-++ Editing the Behavior Graph
-Opening the c0000.xml can be intimidating, as it contains the entire behavior graph used for the player character.
-
-To add the new move, a new hkbClipGenerator must be added and it's name needs to be added to the relevant CustomManualSelectorGenerator, which is a list of valid clips.
-
-Here is an example of what the new hkbClipGenerator for the TAE entry that was added earlier should look like.
-
-[[code]]
-<hkobject class="hkbClipGenerator" name="#13000" signature="0xd4cc9f6">
-    <hkparam name="variableBindingSet">null</hkparam>
-    <hkparam name="userData">0</hkparam>
-    <hkparam name="name">a271_030000_hkx_AutoSet_00</hkparam>
-    <hkparam name="animationBundleName"/>
-    <hkparam name="animationName">a271_030000</hkparam>
-    <hkparam name="triggers">null</hkparam>
-    <hkparam name="userPartitionMask">0</hkparam>
-    <hkparam name="cropStartAmountLocalTime">0.0</hkparam>
-    <hkparam name="cropEndAmountLocalTime">0.0</hkparam>
-    <hkparam name="startTime">0.0</hkparam>
-    <hkparam name="playbackSpeed">1.0</hkparam>
-    <hkparam name="enforcedDuration">0.0</hkparam>
-    <hkparam name="userControlledTimeFraction">0.0</hkparam>
-    <hkparam name="animationBindingIndex">65535</hkparam>
-    <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
-    <hkparam name="flags">0</hkparam>
-</hkobject>
-[[/code]]
-
-The name ID should be sequential, following on from the last name at the bottom of the c0000.xml. 
-
-The name field should contain the animation sub-ID of the TAE entry, which in this case is a271_030000.
-
-The animationName field should match the animation sub-ID of the TAE entry, which in this case is a271_030000.
-
-The playbackSpeed field controls the speed of the animation. 1.0 being 100% of original speed.
-
-++ Adding the new Behavior
-Once the clip has been defined, it must be added to a CustomManualSelectorGenerator list, which is what links the TAE entry to the actual move in-game.
-
-In this tutorial, navigate to the "AttackRightLight1_CMSG" CustomManualSelectorGenerator list in the c0000.xml. This will contain a list of name IDs under the generators field.
-
-Add the name ID of the new clip to this list (#13000). Change the numelements field to match the new number of elements in the list.
-
-++ Final Steps
-Once the c0000.xml has been edited, repack it by dropping it on the hkxpackds3.exe. Then repack the c0000.behbnd.dcx by dropping it on the Yabber.exe.
-
-Copy both the edited c0000.anibnd.dcx and c0000.behbnd.dcx into your mod folder. Ensure that they are in the chr folder within your mod folder.
-
-Edit the Dagger rows in EquipParamWeapon (1000000), changing the Moveset Override Category field to 271.
-
-Load the mod and you will now see that the Dagger uses the 1H Greatsword R1 animation for its first R1.
-
-++ Tips for the Future
-Here are a few tips for future moveset edits:
-
-- Only add new TAE IDs to the a000 to a299 range, or the a600 to a999 range. The female 'state' offsets the current TAE ID by 300, so adding new TAE IDs in the a300 to a599 range will cause issues if the new TAE isn't intended to be a female-only replacement.
-
-- Within the c0000.xml the CustomManualSelectorGenerator have an offsetType. This determines how the game loads TAE for that list. 
-
-If it is set to IdleCategory, the game will only load TAE overrides from the "Weapon Hold Position - 1H" and "Weapon Hold Position - 2H" fields in a EquipParamWeapon row.
-
-However if it is set to WeaponCategoryRight, the game will load from the "Moveset Override Category" field.
-
-This means if you want to edit something like the movement animations, that must be done via a new TAE ID that is used in the Hold fields, and not in the main override TAE.
-
-- The Hold fields have an max TAE ID of 255, so new TAE IDs that are intended for those fields need to be below that.
+﻿
+70000 Goat Dragonform - Head
+70001 Goat Dragonform - Body
+70010 Capra Demon - Head
+70011 Capra Demon - Body
+70020 Titanite Demon - Head
+70021 Titanite Demon - Body
+70030 Murkman - Head
+70031 Murkman - Body
+70040 Skeleton 1 - Head
+70041 Skeleton 1 - Body
+70050 Skeleton 2 - Head
+70051 Skeleton 2 - Body
+70060 Skeleton 3 - Head
+70061 Skeleton 3 - Body
+70070 Skeleton 4 - Head
+70071 Skeleton 4 - Body
+70080 Hunter - Head
+70081 Hunter - Body
+70090 Gough's Set - Head
+70091 Gough's Set - Body
+70100 Crimson Set - Head
+70101 Crimson Set - Body
+70110 Channeler Set - Head
+70111 Channeler Set - Body
+70120 Astrologist Set - Head
+70121 Astrologist Set - Body
+70130 Aurous Set - Head
+70131 Aurous Set - Body
+70140 Dragon Acolyte Set - Head
+70141 Dragon Acolyte Set - Body
+70150 Vengarl's Set - Head
+70151 Vengarl's Set - Body
+70160 Chester's Set - Head
+70161 Chester's Set - Body
+70170 Winged Helm of Ridoh - Head
+70180 King's Set - Head
+70181 King's Set - Body
+70190 Bear's Set - Head
+70191 Bear's Set - Body
+70200 Thorolund Set - Head
+70201 Thorolund Set - Body
+70210 Raime's Set - Head
+70211 Raime's Set - Body
+70220 Alonne Captain Set - Head
+70221 Alonne Captain Set - Body
+70230 Gravekeeper Set - Head
+70231 Gravekeeper Set - Body
+70240 Attendant Set - Head
+70241 Attendant Set - Body
+70250 Artificial Helmet - Head
+70260 Giant-horned Helmet - Head
+70270 Snail Shell - Head
+70280 Overseer's Mask - Head
+70290 Suspicious Gold Mask - Head
+70300 Fang Boar Helm - Head
+70310 Barrel - Head
+70320 Bucket - Head
+70330 Sack - Head
+70341 Rosaria's Dress - Body
+70350 Salvador's Hat - Head
+70360 Priestly Cap - Head
+70370 Fallen Knight Set - Head
+70371 Fallen Knight Set - Body
+70380 Knight Set - Head
+70381 Knight Set - Body
+70390 Vilhelm Set - Head
+70391 Vilhelm Set - Body
+70400 Firelink Set - Head
+70401 Firelink Set - Body
+70410 Sellsword Set - Head
+70411 Sellsword Set - Body
+70420 Herald Set - Head
+70421 Herald Set - Body
+70430 Sunless Set - Head
+70431 Sunless Set - Body
+70440 Black Hand Set - Head
+70441 Black Hand Set - Body
+70450 Assassin Set - Head
+70451 Assassin Set - Body
+70460 Xanthous Set - Head
+70461 Xanthous Set - Body
+70470 Northern Set - Head
+70471 Northern Set - Body
+70480 Morne's Set - Head
+70481 Morne's Set - Body
+70490 Leonhard's Set - Head
+70491 Leonhard's Set - Body
+70500 Pale Shade Set - Head
+70501 Pale Shade Set - Body
+70510 Sunset Set - Head
+70511 Sunset Set - Body
+70520 Cornyx's Set - Head
+70521 Cornyx's Set - Body
+70530 Executioner Set - Head
+70531 Executioner Set - Body
+70540 Yuria's Set - Head
+70541 Yuria's Set - Body
+70550 Pyromancer Set - Head
+70551 Pyromancer Set - Body
+70561 Antiquated Set (DLC) - Body
+70570 Court Sorcerer Set - Head
+70571 Court Sorcerer Set - Body
+70580 Shira's Set - Head
+70581 Shira's Set - Body
+70590 Sorcerer Set - Head
+70591 Sorcerer Set - Body
+70601 Clandestine Set - Body
+70610 Cleric Set - Head
+70611 Cleric Set - Body
+70620 Lapp's Set - Head
+70621 Lapp's Set - Body
+70630 Grotto Set - Head
+70631 Grotto Set - Body
+70640 Deserter Set - Head
+70641 Deserter Set - Body
+70650 Black Leather Set - Head
+70651 Black Leather Set - Body
+70660 Sage's Big Hat - Head
+70670 Jailer Set - Head
+70671 Jailer Set - Body
+70680 Saint's Veil - Head
+70681 Saint's Veil - Body
+70690 Footman Set - Head
+70691 Footman Set - Body
+70700 Grave Warden Set - Head
+70701 Grave Warden Set - Body
+70710 Worker Set - Head
+70711 Worker Set - Body
+70720 Thrall Hood - Head
+70730 Evangelist Set - Head
+70731 Evangelist Set - Body
+70740 Scholar's Set - Head
+70741 Scholar's Set - Body
+70750 Winged Knight Set - Head
+70751 Winged Knight Set - Body
+70760 Cathedral Knight Set - Head
+70761 Cathedral Knight Set - Body
+70770 Lothric Knight Set - Head
+70771 Lothric Knight Set - Body
+70780 Outrider Knight Set - Head
+70781 Outrider Knight Set - Body
+70790 Black Knight Set - Head
+70791 Black Knight Set - Body
+70800 Dark Set - Head
+70801 Dark Set - Body
+70810 Exile Set - Head
+70811 Exile Set - Body
+70820 Slave Knight Set - Head
+70821 Slave Knight Set - Body
+70830 Pontiff Knight Set - Head
+70831 Pontiff Knight Set - Body
+70840 Ordained Set - Head
+70841 Ordained Set - Body
+70850 Nameless King Set - Head
+70851 Nameless King Set - Body
+70860 Wolnir's Crown - Head
+70870 Undead Legion Set - Head
+70871 Undead Legion Set - Body
+70880 Follower Set - Head
+70881 Follower Set - Body
+70890 Serpentine Set - Head
+70891 Serpentine Set - Body
+70900 Fire Witch Set - Head
+70901 Fire Witch Set - Body
+70910 Millwood Knight Set - Head
+70911 Millwood Knight Set - Body
+70920 Lorian's Set - Head
+70921 Lorian's Set - Body
+70930 Prayer Set - Head
+70931 Prayer Set - Body
+70940 Yhorm's Set - Head
+70941 Yhorm's Set - Body
+70950 Dancer Set - Head
+70951 Dancer Set - Body
+70960 Ringed Knight Hood - Head
+70961 Ringed Knight Hood - Body
+70970 Gundyr Set - Head
+70971 Gundyr Set - Body
+70980 Harald Legion Set - Head
+70981 Harald Legion Set - Body
+70990 Archdeacon Set - Head
+70991 Archdeacon Set - Body
+71001 Deacon Set - Body
+71010 Iron Dragonslayer Set - Head
+71011 Iron Dragonslayer Set - Body
+71020 Fire Keeper Set - Head
+71021 Fire Keeper Set - Body
+71030 White Preacher Head - Head
+71040 Chain Set - Head
+71041 Chain Set - Body
+71050 Nameless Knight Set - Head
+71051 Nameless Knight Set - Body
+71060 Elite Knight Set - Head
+71061 Elite Knight Set - Body
+71070 Faraam Set - Head
+71071 Faraam Set - Body
+71080 Catarina Set - Head
+71081 Catarina Set - Body
+71090 Hard Leather Set - Head
+71091 Hard Leather Set - Body
+71100 Havel's Set - Head
+71101 Havel's Set - Body
+71110 Brigand Set - Head
+71111 Brigand Set - Body
+71120 Pharis's Set - Head
+71121 Pharis's Set - Body
+71130 Master's Set - Head
+71131 Master's Set - Body
+71140 Old Sorcerer Set - Head
+71141 Old Sorcerer Set - Body
+71150 Conjurator Set - Head
+71151 Conjurator Set - Body
+71160 Symbol of Avarice - Head
+71170 Mirrah Chain Set - Head
+71171 Mirrah Chain Set - Body
+71180 Maiden Set - Head
+71181 Maiden Set - Body
+71190 Alva Set - Head
+71191 Alva Set - Body
+71200 Ruin Set - Head
+71201 Ruin Set - Body
+71210 Shadow Set - Head
+71211 Shadow Set - Body
+71220 Desert Pyromancer Set - Head
+71221 Desert Pyromancer Set - Body
+71230 Eastern Set - Head
+71231 Eastern Set - Body
+71240 Black Witch Set - Head
+71241 Black Witch Set - Body
+71250 Favor Set - Head
+71251 Favor Set - Body
+71260 Black Witch Veil - Head
+71270 Brass Set - Head
+71271 Brass Set - Body
+71280 Blindfold Mask - Head
+71290 Silver Knight Set - Head
+71291 Silver Knight Set - Body
+71300 Mirrah Set - Head
+71301 Mirrah Set - Body
+71310 Sunlight Set - Head
+71311 Sunlight Set - Body
+71320 Drakeblood Set - Head
+71321 Drakeblood Set - Body
+71331 Drang Set - Body
+71340 Black Iron Set - Head
+71341 Black Iron Set - Body
+71350 Painting Guardian Set - Head
+71351 Painting Guardian Set - Body
+71360 Wolf Knight Set - Head
+71361 Wolf Knight Set - Body
+71370 Dragonslayer Set - Head
+71371 Dragonslayer Set - Body
+71380 Smough Set - Head
+71381 Smough Set - Body
+71390 Hexer's Set - Head
+71391 Hexer's Set - Body
+71400 Thorn Set - Head
+71401 Thorn Set - Body
+71410 Varangian Set - Head
+71411 Varangian Set - Body
+71420 Antiquated Set - Head
+71421 Antiquated Set - Body
+71430 Karla's Set - Head
+71431 Karla's Set - Body
+71440 Burial Knight Set - Head
+71441 Burial Knight Set - Body
+71450 Vileblood Set - Head
+71451 Vileblood Set - Body
+71460 Iron Keeper Helm - Head
+71470 Iron Cage - Head
+71480 Gold Ardeo - Head
+71490 Gargoyle Helm - Head
+71500 Pursuer's Set - Head
+71501 Pursuer's Set - Body
+71510 Ludleth's Crown - Head
+71520 Skull Mask - Head
+71530 Mask of the Father - Head
+71540 Mask of the Mother - Head
+71550 Mask of the Child - Head
+71560 Soldier's Hood - Head
+71570 Frigid Valley Mask - Head
+71580 Giant Set - Head
+71581 Giant Set - Body
+71590 Black Dragon Set - Head
+71591 Black Dragon Set - Body
+71600 Great Lord Set - Head
+71601 Great Lord Set - Body
+71610 Moonlight Set - Head
+71611 Moonlight Set - Body
+71620 Lord's Blade Set - Head
+71621 Lord's Blade Set - Body
+71630 Paladin Set - Head
+71631 Paladin Set - Body
+71640 Black Cleric Set - Head
+71641 Black Cleric Set - Body
+71650 Dragonrider Set - Head
+71651 Dragonrider Set - Body
+71660 Ancient King Set - Head
+71661 Ancient King Set - Body
+71670 Binded Set - Head
+71671 Binded Set - Body
+71680 Brushwood Set - Head
+71681 Brushwood Set - Body
+71690 Venerable Sage's Set - Head
+71691 Venerable Sage's Set - Body
+71700 Gloom Set - Head
+71701 Gloom Set - Body
+71710 Penetrator Set - Head
+71711 Penetrator Set - Body
+71720 Quicksilver Set - Head
+71721 Quicksilver Set - Body
+71730 Heide Mask - Head
+71740 Pontiff's Crown - Head
+71750 Giant Slave Helmet - Head
+71760 Gargoyle Set - Head
+71761 Gargoyle Set - Body
+71770 Demon Cleric Mask - Head
+71780 Crab Helmet - Head
+71790 Corvian Knight Set - Head
+71791 Corvian Knight Set - Body
+71800 Alonne's Set - Head
+71801 Alonne's Set - Body
+71810 Rampart Golem Set - Head
+71811 Rampart Golem Set - Body
+71820 Smelter Demon Set - Head
+71821 Smelter Demon Set - Body
+71830 Bone Ash Set - Head
+71831 Bone Ash Set - Body
+71840 Heide Knight Set - Head
+71841 Heide Knight Set - Body
+71850 Imperious Set - Head
+71851 Imperious Set - Body
+71860 Mask of Horror - Head
+71870 Mask of Cruelty - Head
+71880 Mask of Serenity - Head
+71890 Mask of War - Head
+71900 Imperial Samurai Helm - Head
+71910 Horned Samurai Helm - Head
+71920 Ornate Samurai Helm - Head
+71930 Black Metal Hat - Head
+71940 Tan Straw Hat - Head
+71950 Carthus Blindfold - Head
+71960 Crown of Filianore - Head
+71970 Crown of the Holy King - Head
+71980 Pygmy Crown - Head
+71990 Old Demon King's Crown - Head
+72000 Mask of Sin - Head
+72010 Poisonhorn Cap - Head
+72020 Vagabond Cowl - Head
+72030 Hollow Head - Head
+72040 Basilisk Cap - Head
+72050 Deserter Helm - Head
+72060 Pot - Head
+72070 Raven Mask - Head
+72080 Crown of Illusions - Head
+72090 Hallowed Knight Set - Head
+72091 Hallowed Knight Set - Body
+72100 Courtier Set - Head
+72101 Courtier Set - Body
+72110 Steel Set - Head
+72111 Steel Set - Body
+72120 Dragon Hunter Set - Head
+72121 Dragon Hunter Set - Body
+72130 Ivory King Set - Head
+72131 Ivory King Set - Body
+72140 Mad Warrior Set - Head
+72141 Mad Warrior Set - Body
+72150 Mirror Knight Set - Head
+72151 Mirror Knight Set - Body
+72160 Syan Knight Set - Head
+72161 Syan Knight Set - Body
+72170 Adventurer Set - Head
+72171 Adventurer Set - Body
+72180 Gold-Hemmed Set - Head
+72181 Gold-Hemmed Set - Body
+72190 Charred Loyce Set - Head
+72191 Charred Loyce Set - Body
+72200 Forlorn Set - Head
+72201 Forlorn Set - Body
+72210 Jester Set - Head
+72211 Jester Set - Body
+72220 Royal Soldier Set - Head
+72221 Royal Soldier Set - Body
+72230 Loyce Set - Head
+72231 Loyce Set - Body
+72240 Tarnished Knight Set - Head
+72241 Tarnished Knight Set - Body
+72250 Golem Set - Head
+72251 Golem Set - Body
+72260 Manikin Set - Head
+72261 Manikin Set - Body
+72270 Crude Manikin Mask - Head
+72280 Stone Set - Head
+72281 Stone Set - Body
+72290 Guardian Set - Head
+72291 Guardian Set - Body

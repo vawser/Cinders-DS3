@@ -147,3 +147,28 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009530 Tortured Soul turn-in
 25009540 Smithbox turn-in
+
+# Transformations
+25006010 Trigger Update
+25006011 Clear Head Settings
+25006012 Clear Body Settings
+
+25006100 Goat Dragonform - Head
+25006101 Capra Demon - Head
+25006102 Titanite Demon - Head
+25006103 Murkman - Head
+25006104 Skeleton 1 - Head
+25006105 Skeleton 2 - Head
+25006106 Skeleton 3 - Head
+25006107 Skeleton 4 - Head
+25006108 Hunter - Head
+
+25006500 Goat Dragonform - Body
+25006501 Capra Demon - Body
+25006502 Titanite Demon - Body
+25006503 Murkman - Body
+25006504 Skeleton 1 - Body
+25006505 Skeleton 2 - Body
+25006506 Skeleton 3 - Body
+25006507 Skeleton 4 - Body
+25006508 Hunter - Body

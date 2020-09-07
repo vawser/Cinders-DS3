@@ -1856,20 +1856,13 @@ Event(400001, Default, function() {
     InitializeEvent(0, 400400, 10000); // Blood of Might
     InitializeEvent(0, 400402, 10000); // Event Flag Tool
     
-    // Transformations
+    // Elixirs
     InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
-    InitializeEvent(0, 400530, 160703000); // Rattling Finger
     
-    InitializeEvent(0, 400540, 160703100, 160703110, 160703111); // Murky Finger
-    InitializeEvent(1, 400540, 160703201, 160703210, 160703211); // Demonic Claw
-    InitializeEvent(2, 400540, 160703301, 160703310, 160703311); // Forgotten Tablet
-    InitializeEvent(3, 400540, 160703401, 160703410, 160703411); // Dragon Torso Stone
-    InitializeEvent(4, 400540, 160703420, 160703430, 160703431); // Hunter's Mark
-    
-    InitializeEvent(0, 400541, 160703200, 160703210, 160704000); // Demonic Skull
-    InitializeEvent(1, 400541, 160703300, 160703310, 160704000); // Forgotten Seal
-    InitializeEvent(2, 400541, 160703400, 160703410, 160704000); // Dragon Head Stone
-    
+    // Illusions
+    InitializeEvent(0, 400530, 0); // Skeleton Form - Head
+    InitializeEvent(0, 400531, 0); // Skeleton Form - Body
+      
     // General Scripts
     InitializeEvent(0, 400800, 10000); // FP Regen
 });
@@ -1988,98 +1981,52 @@ Event(400502, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Rattling Finger
-Event(400530, Default, function(X0_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+// Skeleton Illusion - Head
+Event(400530, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
     
-    ClearSpeffect(10000, 160703000); // Rattling Finger
-    ClearSpeffect(10000, 160703010); // Rattling Finger - Type 1 (Head)
-    ClearSpeffect(10000, 160703020); // Rattling Finger - Type 2 (Head)
-    ClearSpeffect(10000, 160703030); // Rattling Finger - Type 3 (Head)
-    ClearSpeffect(10000, 160703040); // Rattling Finger - Type 4 (Head)
-    ClearSpeffect(10000, 160703110); // Murky Finger (Head)
-    ClearSpeffect(10000, 160703210); // Demonic Skull (Head)
-    ClearSpeffect(10000, 160703310); // Forgotten Seal (Head)
-    ClearSpeffect(10000, 160703410); // Dragon Head Stone (Head)
+    SetEventFlag(25007001, OFF);
+    SetEventFlag(25007002, OFF);
+    SetEventFlag(25007003, OFF);
+    SetEventFlag(25007004, OFF);
+    RandomlySetEventFlagInRange(25007001, 25007004, ON);
     
-    ClearSpeffect(10000, 160703011); // Rattling Finger - Type 1 (Body)
-    ClearSpeffect(10000, 160703021); // Rattling Finger - Type 2 (Body)
-    ClearSpeffect(10000, 160703031); // Rattling Finger - Type 3 (Body)
-    ClearSpeffect(10000, 160703041); // Rattling Finger - Type 4 (Body)
-    ClearSpeffect(10000, 160703111); // Murky Finger (Body)
-    ClearSpeffect(10000, 160703211); // Demonic Claw (Body)
-    ClearSpeffect(10000, 160703311); // Forgotten Tablet (Body)
-    ClearSpeffect(10000, 160703411); // Dragon Torso Stone (Body)
-
-    SetEventFlag(25007011, OFF);
-    SetEventFlag(25007012, OFF);
-    SetEventFlag(25007013, OFF);
-    SetEventFlag(25007014, OFF);
-    RandomlySetEventFlagInRange(25007011, 25007014, ON);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
+    SetSpeffect(10000, 160703080);
     
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007011);
-    SetSpeffect(10000, 160703010);
-    SetSpeffect(10000, 160703011);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
+    SetSpeffect(10000, 160703100);
     
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007012);
-    SetSpeffect(10000, 160703020);
-    SetSpeffect(10000, 160703021);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
+    SetSpeffect(10000, 160703120);
     
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007013);
-    SetSpeffect(10000, 160703030);
-    SetSpeffect(10000, 160703031);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007014);
-    SetSpeffect(10000, 160703040);
-    SetSpeffect(10000, 160703041);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
+    SetSpeffect(10000, 160703140);
     
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Transformation - Full
-Event(400540, Default, function(X0_4, X4_4, X8_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+// Skeleton Illusion - Body
+Event(400531, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
     
-    ClearSpeffect(10000, 160703000); // Rattling Finger
-    ClearSpeffect(10000, 160703010); // Rattling Finger - Type 1 (Head)
-    ClearSpeffect(10000, 160703020); // Rattling Finger - Type 2 (Head)
-    ClearSpeffect(10000, 160703030); // Rattling Finger - Type 3 (Head)
-    ClearSpeffect(10000, 160703040); // Rattling Finger - Type 4 (Head)
-    ClearSpeffect(10000, 160703110); // Murky Finger (Head)
-    ClearSpeffect(10000, 160703210); // Demonic Skull (Head)
-    ClearSpeffect(10000, 160703310); // Forgotten Seal (Head)
-    ClearSpeffect(10000, 160703410); // Dragon Head Stone (Head)
+    SetEventFlag(25007001, OFF);
+    SetEventFlag(25007002, OFF);
+    SetEventFlag(25007003, OFF);
+    SetEventFlag(25007004, OFF);
+    RandomlySetEventFlagInRange(25007001, 25007004, ON);
     
-    ClearSpeffect(10000, 160703011); // Rattling Finger - Type 1 (Body)
-    ClearSpeffect(10000, 160703021); // Rattling Finger - Type 2 (Body)
-    ClearSpeffect(10000, 160703031); // Rattling Finger - Type 3 (Body)
-    ClearSpeffect(10000, 160703041); // Rattling Finger - Type 4 (Body)
-    ClearSpeffect(10000, 160703111); // Murky Finger (Body)
-    ClearSpeffect(10000, 160703211); // Demonic Claw (Body)
-    ClearSpeffect(10000, 160703311); // Forgotten Tablet (Body)
-    ClearSpeffect(10000, 160703411); // Dragon Torso Stone (Body)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
+    SetSpeffect(10000, 160703090);
     
-    SetSpeffect(10000, X4_4);
-    SetSpeffect(10000, X8_4);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
+    SetSpeffect(10000, 160703110);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Transformation - Head
-Event(400541, Default, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
+    SetSpeffect(10000, 160703130);
     
-    ClearSpeffect(10000, 160703000); // Rattling Finger
-    ClearSpeffect(10000, 160703010); // Rattling Finger - Type 1 (Head)
-    ClearSpeffect(10000, 160703020); // Rattling Finger - Type 2 (Head)
-    ClearSpeffect(10000, 160703030); // Rattling Finger - Type 3 (Head)
-    ClearSpeffect(10000, 160703040); // Rattling Finger - Type 4 (Head)
-    ClearSpeffect(10000, 160703110); // Murky Finger (Head)
-    ClearSpeffect(10000, 160703210); // Demonic Skull (Head)
-    ClearSpeffect(10000, 160703310); // Forgotten Seal (Head)
-    ClearSpeffect(10000, 160703410); // Dragon Head Stone (Head)
-    
-    SetSpeffect(10000, X4_4);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
+    SetSpeffect(10000, 160703150);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2380,7 +2327,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25006100, ON);
+    SetSpeffect(10000, 160703440);
     
     EndUnconditionally(EventEndType.Restart);
 });
