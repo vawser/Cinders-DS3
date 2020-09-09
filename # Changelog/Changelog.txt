@@ -38,6 +38,7 @@
 # Menus
 - You can now toggle your Pledge of Loyalty to Rosaria.
 - Moved Marks to the Accursed Altar.
+- Added Divorce option for NPCs you have married. Returns the Ring of Betrothal.
 
 # Enemy Revival
 - Removed Memory items.

@@ -46,15 +46,15 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000205 Covenant
 25000206 Covenant
 
-25000300 Gesture
-25000301 Gesture
-25000302 Gesture
-25000303 Gesture
-25000304 Gesture
-25000305 Gesture
-25000306 Gesture
-25000307 Gesture
-25000308 Gesture
+25000300 Unmannered Bow     - Cornyx
+25000301 Shrug              - Shrine Handmaid
+25000302 Path of the Dragon - Dragon Altar/Hawkwood
+25000303 Dismissive Point   - Yuria
+25000304 Look Skyward       - Tower Giant
+25000305 Well! What is it!  - Ringfinger Leonhard
+25000306 Praise the Heavens - Irina of Carim
+25000307 Retch              - Archdeacon McDonnell
+25000308 Confused           - Greirat
 
 25001001 Corrupted Gundyr
 25001002 Vordt
@@ -119,3 +119,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009530 Tortured Soul turn-in
 25009540 Smithbox turn-in
 
+#-------------------------------------
+# Vanilla Event Flags
+#-------------------------------------
