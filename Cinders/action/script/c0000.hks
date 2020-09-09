@@ -15609,6 +15609,11 @@ end
 function Update()
     GetConstVariable()
     SetStyleSpecialEffect()
+    
+    -- Cinders
+    UpdateFP()
+    UpdateSigilEffect()
+    
     UpdateOldMonkState()
     act(101, FALSE)
     act("ロックオン時システム旋回不可角度", 0, 0)
@@ -15652,6 +15657,98 @@ function IsSidearm()
     end
     
     return FALSE
+end
+
+-- FP Regen
+function UpdateFP()
+    local skip = false
+    
+    if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE then
+        skip = true
+    end
+    
+    -- Ring of Londor
+    if env(1116, 112080) == TRUE then
+        skip = false
+    end
+    
+    if skip == false then
+        act(2002, 113100) -- Base
+        
+        if env(1116, 113200) == TRUE then
+            act(2002, 113101) -- Enchanted
+        end
+        
+        if env(1116, 113201) == TRUE then
+            act(2002, 113102) -- Clarity
+        end
+        
+        if env(1116, 113202) == TRUE then
+            act(2002, 113103) -- Darkmoon Faithful
+        end
+        
+        if env(1116, 113203) == TRUE then
+            act(2002, 113104) -- Darkmoon Ring
+        end
+        
+        if env(1116, 113204) == TRUE then
+            act(2002, 113105) -- Ring of Catastrophe
+        end
+    end
+end
+
+-- Fool's Sigil
+function UpdateSigilEffect()
+    local roll = math.random(0, 100)
+    
+    -- Has Fool's Sigil equipped
+    if env(1116, 112120) == TRUE then
+        if env(1116, 112121) ~= TRUE then -- Not applied effect in past 15 seconds
+            act(2002, 112121) -- Cooldown
+            
+            -- Attack
+            if roll >= 0 and roll < 12 then
+                act(2002, 112122)
+            end
+
+            -- Absorption
+            if roll >= 12 and roll < 24 then
+                act(2002, 112123)
+            end
+            
+            -- Stamina Recovery
+            if roll >= 24 and roll < 36 then
+                act(2002, 112124)
+            end
+            
+            -- FP Regen
+            if roll >= 36 and roll < 48 then
+                act(2002, 112125)
+            end
+            
+            -- Stamina/FP Consumption
+            if roll >= 48 and roll < 60 then
+                act(2002, 112126)
+            end
+            
+            -- Immunity to Status
+            if roll >= 60 and roll < 72 then
+                act(2002, 112127)
+            end
+            
+            -- No Estus
+            if roll >= 72 and roll < 84 then
+                act(2002, 112128)
+            end
+            
+            -- Negative Absorption
+            if roll >= 84 and roll < 96 then
+                act(2002, 112129)
+            end
+            
+            -- Nothing
+        end
+    end
 end
 
 global = {}

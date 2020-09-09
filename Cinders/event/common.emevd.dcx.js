@@ -1869,10 +1869,6 @@ Event(400001, Default, function() {
     // Weapons
     InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
 
-    // Rings
-    InitializeEvent(0, 400210, 0); // Fool's Sigil - Active
-    InitializeEvent(0, 400211, 0); // Fool's Sigil - Inactive
-    
     // Spells
     InitializeEvent(0, 400300, 10000, 160500060); // Numbness
     
@@ -1888,53 +1884,6 @@ Event(400001, Default, function() {
     // Illusions
     InitializeEvent(0, 400530, 0); // Skeleton Form - Head
     InitializeEvent(0, 400531, 0); // Skeleton Form - Body
-      
-    // General Scripts
-    InitializeEvent(0, 400800, 10000); // FP Regen
-});
-
-// FP Regen
-Event(400800, Default, function(X0_4) {
-    IfCharacterHasSpeffect(MAIN, X0_4, 113000, false, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(MAIN, X0_4, 113001, false, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(MAIN, X0_4, 113002, false, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(MAIN, X0_4, 113003, false, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(MAIN, X0_4, 113004, false, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(MAIN, X0_4, 113005, false, ComparisonType.Equal, 1);
-    
-    // Add Base FP
-    IfCharacterHasSpeffect(AND_01, X0_4, 250001500, true, ComparisonType.Equal, 1); //  Curse of Simplicity
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
-    SetSpeffect(X0_4, 113100);
-    
-    // Enchanted - 200001100
-    IfCharacterHasSpeffect(AND_02, X0_4, 200001100, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
-    SetSpeffect(X0_4, 113101);
-    
-    // Clarity - 200002000
-    IfCharacterHasSpeffect(AND_03, X0_4, 200002000, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_03);
-    SetSpeffect(X0_4, 113102);
-    
-    // Darkmoon Faithful - 160100240
-    IfCharacterHasSpeffect(AND_04, X0_4, 160100240, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_04);
-    SetSpeffect(X0_4, 113103);
-    
-    // Darkmoon Ring - 160600350
-    IfCharacterHasSpeffect(AND_05, X0_4, 160600350, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_05);
-    SetSpeffect(X0_4, 113104);
-    
-    // Ring of Catastrophe - 160601270
-    IfCharacterHasSpeffect(AND_06, X0_4, 160601270, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_06);
-    SetSpeffect(X0_4, 113105);
-    
-    // Reset
-    WaitFixedTimeSeconds(0.2);
-    EndUnconditionally(EventEndType.Restart);
 });
 
 // No Hit State
@@ -2159,66 +2108,6 @@ Event(400120, Default, function(X0_4, X4_4, X8_4, X12_4) {
     
     WaitRandomTimeSeconds(10, 30);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Fool's Sigil - Setup
-Event(400210, Default, function() {
-    IfCharacterHasSpeffect(MAIN, 10000, 160601570, true, ComparisonType.Equal, 1);
-    SetEventFlag(25007000, ON);
-    SetEventFlag(25007001, OFF);
-    SetEventFlag(25007002, OFF);
-    SetEventFlag(25007003, OFF);
-    SetEventFlag(25007004, OFF);
-    SetEventFlag(25007005, OFF);
-    SetEventFlag(25007006, OFF);
-    SetEventFlag(25007007, OFF);
-    SetEventFlag(25007008, OFF);
-    RandomlySetEventFlagInRange(25007001, 25007008, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
-    SetSpeffect(10000, 160601571);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
-    SetSpeffect(10000, 160601572);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
-    SetSpeffect(10000, 160601573);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
-    SetSpeffect(10000, 160601574);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007005);
-    SetSpeffect(10000, 160601575);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007006);
-    SetSpeffect(10000, 160601576);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007007);
-    SetSpeffect(10000, 160601577);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007008);
-    SetSpeffect(10000, 160601578);
-    
-    WaitFixedTimeSeconds(15);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Fool's Sigil - Clear Effects
-Event(400211, Default, function() {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007000);
-    IfCharacterHasSpeffect(MAIN, 10000, 160601570, false, ComparisonType.Equal, 1);
-    ClearSpeffect(10000, 160601571);
-    ClearSpeffect(10000, 160601572);
-    ClearSpeffect(10000, 160601573);
-    ClearSpeffect(10000, 160601574);
-    ClearSpeffect(10000, 160601575);
-    ClearSpeffect(10000, 160601576);
-    ClearSpeffect(10000, 160601577);
-    ClearSpeffect(10000, 160601578);
-    SetSpeffect(10000, 160601579);
-    SetEventFlag(25007000, OFF);
-    WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
 
