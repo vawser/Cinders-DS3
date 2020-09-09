@@ -4984,6 +4984,13 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
     local height = env(224) / 100 -- GetFallHeight
     local damage_type = env(202) -- GetReceivedDamageType
     if damage_type == DAMAGE_TYPE_DEATH_FALLING then
+        -- Deathless Run Failure
+        if IsDead() == TRUE then
+            if env(1007) == FALSE then -- IsCOMPlayer
+                act(2002, 112100)
+            end
+        end
+                    
         if fall_style == FALL_FACEUP then
             ExecEventAllBody("W_FallDeathFaceUp")
         elseif fall_style == FALL_FACEDOWN then
@@ -4993,6 +5000,13 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
         end
         return TRUE
     elseif 60 <= height and is_enable_falling_death == TRUE and env(305, 266) ~= TRUE then -- GetStateChangeType
+        -- Deathless Run Failure
+        if IsDead() == TRUE then
+            if env(1007) == FALSE then -- IsCOMPlayer
+                act(2002, 112100)
+            end
+        end
+        
         if fall_style == FALL_FACEUP then
             ExecEventAllBody("W_FallDeathFaceUp")
         elseif fall_style == FALL_FACEDOWN then
@@ -5028,6 +5042,13 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
                 return TRUE
             elseif fall_style == FALL_DEFAULT then
                 if IsLandDead(height) == TRUE then
+                    -- Deathless Run Failure
+                    if IsDead() == TRUE then
+                        if env(1007) == FALSE then -- IsCOMPlayer
+                            act(2002, 112100)
+                        end
+                    end
+    
                     if 8 < height then
                         SetVariable("IndexDeath", DEATH_TYPE_LAND)
                     else
