@@ -15619,6 +15619,8 @@ function Update()
     -- Cinders
     UpdateFP()
     UpdateSigilEffect()
+    UpdateImpermanenceCurseEffect()
+    UpdatePsychedelicElixirEffect()
     
     UpdateOldMonkState()
     act(101, FALSE)
@@ -15761,6 +15763,33 @@ function UpdateSigilEffect()
             end
             
             -- Nothing
+        end
+    end
+end
+
+-- Curse of Impermanence
+function UpdateImpermanenceCurseEffect()
+    -- Curse is active
+    if env(1116, 112130) == TRUE then
+        if env(1116, 112131) ~= TRUE then -- Cooldown for roll
+            act(2002, 112131) -- Cooldown
+            
+            local roll = math.random(0, 100)
+            
+            if roll < 10 then
+                act(2002, 112132) -- Right Durability loss
+                act(2002, 112133) -- Left Durability loss
+            end
+        end
+    end
+end
+
+-- Psychedelic Elixir
+function UpdatePsychedelicElixirEffect()
+    if env(1116, 112140) == TRUE then
+        if env(1116, 112150) ~= TRUE then
+            act(2002, 112150) -- Cooldown
+            act(2002, 112152) -- Effect
         end
     end
 end

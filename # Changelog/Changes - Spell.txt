@@ -1203,7 +1203,7 @@ Divine Pillars of Light
 - FP Cost: 800
 - INT Req: 40
 - FTH Req: 10
-- Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20
+- Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20.
 - Ascended Effect: costs 500 FP.
 
 #--------------------------------------------------------------------------

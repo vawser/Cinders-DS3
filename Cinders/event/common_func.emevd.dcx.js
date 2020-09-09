@@ -6167,5 +6167,3 @@ Event(20090302, Restart, function(X0_4, X4_4, X8_4, X12_1) {
     
     WarpPlayer(X12_1, 0, X8_4);
 });
-
-

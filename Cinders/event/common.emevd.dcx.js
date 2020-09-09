@@ -14,7 +14,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 230, 0); // Set Eclipse ceremonies
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
-    InitializeEvent(0, 400001, 0); // Setup Cinders scripts
+    InitializeEvent(0, 9601, 0); // Setup Cinders scripts
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -22,7 +22,7 @@ Event(0, Default, function() {
     //---------------------------------------
     // Host Only
     //---------------------------------------
-    InitializeEvent(0, 400000, 0); // Setup Cinders scripts
+    InitializeEvent(0, 9600, 0); // Setup Cinders scripts
     
     // Achievements - Locations
     InitializeEvent(0, 130, 40, 4004110, 0, -1);
@@ -300,34 +300,6 @@ Event(50, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 2176, 1); // Abyssal Tome
     RemoveItemFromPlayer(ItemType.Goods, 2177, 1); // Angelic Braille Divine Tome
     RemoveItemFromPlayer(ItemType.Goods, 2178, 1); // Heavenly Braille Divine Tome
-    
-    // Memories
-    RemoveItemFromPlayer(ItemType.Goods, 5000, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5001, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5002, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5003, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5004, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5005, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5006, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5007, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5008, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5009, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5010, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5011, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5012, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5013, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5014, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5015, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5016, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5017, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5018, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5019, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5020, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5021, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5022, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 5023, 99);
-    
     SetEventFlag(6400, OFF);
     Label0();
 });
@@ -1658,32 +1630,119 @@ Event(870, Default, function(X0_1, X4_4) {
 //------------------------------------------------------
 // Cinders
 //------------------------------------------------------
+// Setup - Host only
+Event(9600, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    InitializeEvent(0, 9610, 0); // Game Flags - Once
+    InitializeEvent(0, 9611, 0); // Game Flags - On Load
+    
+    InitializeEvent(0, 9620, 10000); // No Hit State
+    InitializeEvent(0, 9621, 10000); // Deathless Run State
+    InitializeEvent(0, 9622, 10000); // Hitless Run State
+    
+    // Crow Trades
+    InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
+    InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
+    InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);
+    
+    // Curses - Enable
+    InitializeEvent(0, 9630, 25000157, 250001200, 250001201); // Curse of Frailty
+    InitializeEvent(1, 9630, 25000150, 250001300, 250001301); // Curse of Obscurity
+    InitializeEvent(2, 9630, 25000151, 250001400, 250001401); // Curse of Vitality
+    InitializeEvent(3, 9630, 25000152, 250001100, 250001101); // Curse of Wrath
+    InitializeEvent(4, 9630, 25000153, 250001000, 250001001); // Curse of Pride
+    InitializeEvent(5, 9630, 25000155, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(6, 9630, 25000156, 250001700, 250001701); // Curse of Gluttony
+    InitializeEvent(7, 9630, 25000154, 250001500, 250001501); // Curse of Simplicity
+    InitializeEvent(8, 9630, 25000158, 250001800, 250001801); // Curse of Enfeeblement
+    InitializeEvent(9, 9630, 25000159, 250001900, 250001901); // Curse of Impermanence
+    
+    // Marks - Enable
+    InitializeEvent(10, 9630, 25000100, 250003000, 250003001); // Mark of Sanguis
+    InitializeEvent(11, 9632, 25000101, 250003100, 250003101, 30, 0); // Mark of Canis
+    InitializeEvent(12, 9632, 25000102, 250003200, 250003201, 33, 0); // Mark of Piscis
+    InitializeEvent(13, 9630, 25000103, 250003300, 250003301); // Mark of Prismatica
+    
+    // Curses - Disable
+    InitializeEvent(0, 9631, 25000157, 250001200, 250001201); // Curse of Frailty
+    InitializeEvent(1, 9631, 25000150, 250001300, 250001301); // Curse of Obscurity
+    InitializeEvent(2, 9631, 25000151, 250001400, 250001401); // Curse of Vitality
+    InitializeEvent(3, 9631, 25000152, 250001100, 250001101); // Curse of Wrath
+    InitializeEvent(4, 9631, 25000153, 250001000, 250001001); // Curse of Pride
+    InitializeEvent(5, 9631, 25000155, 250001600, 250001601); // Curse of Fortitude
+    InitializeEvent(6, 9631, 25000156, 250001700, 250001701); // Curse of Gluttony
+    InitializeEvent(7, 9631, 25000154, 250001500, 250001501); // Curse of Simplicity
+    InitializeEvent(8, 9631, 25000158, 250001800, 250001801); // Curse of Enfeeblement
+    InitializeEvent(9, 9631, 25000159, 250001900, 250001901); // Curse of Impermanence
+    
+    // Marks - Disable
+    InitializeEvent(10, 9631, 25000100, 250003000, 250003001); // Mark of Sanguis
+    InitializeEvent(11, 9631, 25000101, 250003100, 250003101); // Mark of Canis
+    InitializeEvent(12, 9631, 25000102, 250003200, 250003201); // Mark of Piscis
+    InitializeEvent(13, 9631, 25000103, 250003300, 250003301); // Mark of Prismatica
+
+    // Covenant Material Drops
+    InitializeEvent(0, 9640, 10000, 160100232, 800010000, 800010020); // Thieves' Code
+    InitializeEvent(1, 9640, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
+    InitializeEvent(2, 9640, 10000, 160100252, 800010200, 800010220); // Spears of the Church
+    InitializeEvent(3, 9640, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
+    InitializeEvent(4, 9640, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
+    InitializeEvent(5, 9640, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
+    InitializeEvent(6, 9640, 10000, 160100302, 800010600, 800010620); // Mound-makers
+    InitializeEvent(7, 9640, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
+    InitializeEvent(8, 9640, 10000, 160100332, 800010800, 800010820); // Chaos Servant
+    InitializeEvent(9, 9640, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
+    InitializeEvent(10, 9640, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
+    InitializeEvent(12, 9640, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
+    InitializeEvent(11, 9640, 10000, 160100362, 800011200, 800011220); // Way of White
+    InitializeEvent(13, 9640, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
+    InitializeEvent(14, 9640, 10000, 160100392, 800011400, 800011420); // Way of Blue
+    InitializeEvent(15, 9640, 10000, 160100402, 800011500, 800011520); // Company of Champions
+});
+
+// Setup - Host and Client
+Event(9601, Default, function() {
+    InitializeEvent(0, 9650, 0); // Pyromancer's Parting Flame
+    InitializeEvent(0, 9651, 10000, 160500060); // Numbness
+    InitializeEvent(0, 9652, 10000); // Event Flag Tool
+    InitializeEvent(0, 9653, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 9653, 10000, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 9654, 0); // Illusion - Skeleton Form - Head
+    InitializeEvent(0, 9655, 0); // Illusion - Skeleton Form - Body
+});
+
 //------------------------------------------------
 // Game Flags - Once
 //------------------------------------------------
-Event(400010, Default, function(X0_4, X4_4) {
+Event(9610, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
     
-    SetEventFlag(25000001, OFF); // Curse of Obscurity
-    SetEventFlag(25000002, OFF); // Curse of Vitality
-    SetEventFlag(25000003, OFF); // Curse of Wrath
-    SetEventFlag(25000004, OFF); // Curse of Pride
-    SetEventFlag(25000005, OFF); // Curse of Simplicity
-    SetEventFlag(25000006, OFF); // Curse of Fortitude
-    SetEventFlag(25000007, OFF); // Curse of Gluttony
-    SetEventFlag(25000008, OFF); // Curse of Frailty
-    SetEventFlag(25000009, OFF); // Curse of Enfeeblement
-    SetEventFlag(25000020, OFF); // Curse of Impermanence
-    
+    // Curses/Marks
     SetEventFlag(25000100, OFF); // Mark of Sanguis
     SetEventFlag(25000101, OFF); // Mark of Canis
+    SetEventFlag(25000102, OFF); // Mark of Piscis
+    SetEventFlag(25000103, OFF); // Mark of Prismatica
+   
+    SetEventFlag(25000150, OFF); // Curse of Obscurity
+    SetEventFlag(25000151, OFF); // Curse of Vitality
+    SetEventFlag(25000152, OFF); // Curse of Wrath
+    SetEventFlag(25000153, OFF); // Curse of Pride
+    SetEventFlag(25000154, OFF); // Curse of Simplicity
+    SetEventFlag(25000155, OFF); // Curse of Fortitude
+    SetEventFlag(25000156, OFF); // Curse of Gluttony
+    SetEventFlag(25000157, OFF); // Curse of Frailty
+    SetEventFlag(25000158, OFF); // Curse of Enfeeblement
+    SetEventFlag(25000159, OFF); // Curse of Impermanence
     
+    // Game State
     SetEventFlag(25000030, ON); // Deathless Run
     SetEventFlag(25000031, ON); // Hitless Run
+    SetEventFlag(74000171, 1) // Transposition Enabled
     
+    // Menu Options
     SetEventFlag(25000050, OFF); // Claimed Talisman of Power
     SetEventFlag(25000051, OFF); // Claimed Talisman of Insanity
-    
     SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
     
     // Enable Firelink Shrine bonfire
@@ -1692,8 +1751,6 @@ Event(400010, Default, function(X0_4, X4_4) {
     SetEventFlag(14000101, ON);
     SetEventFlag(13100004, ON);
     SetEventFlag(13000000, ON);
-    
-    SetEventFlag(74000171, 1) // Transposition Enabled
     
     // Boss Kill Flags
     SetEventFlag(25001001, OFF); // Corrupted Gundyr
@@ -1728,14 +1785,14 @@ Event(400010, Default, function(X0_4, X4_4) {
 //------------------------------------------------
 // Game Flags - On Load
 //------------------------------------------------
-Event(400011, Restart, function() {
+Event(9611, Restart, function(X0_4, X4_4) {
+    SetEventFlag(25008900, OFF); 
+    SetEventFlag(25008901, OFF); 
+    SetEventFlag(25008902, OFF); 
+    SetEventFlag(25008904, OFF);
     
-});
-
-//------------------------------------------------
-// NG+ Flags
-//------------------------------------------------
-Event(400012, Default, function() {
+    RandomlySetEventFlagInRange(25008900, 25008902, ON);
+    
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
     SetEventFlag(25000011, ON); // NG+1
     
@@ -1752,278 +1809,49 @@ Event(400012, Default, function() {
     SetEventFlag(25000015, ON); // NG+5
 });
 
-//------------------------------------------------
-// Relationship Flirt Flag
-//------------------------------------------------
-Event(400013, Restart, function() {
-    SetEventFlag(25008900, OFF); 
-    SetEventFlag(25008901, OFF); 
-    SetEventFlag(25008902, OFF); 
-    SetEventFlag(25008904, OFF);
-    
-    RandomlySetEventFlagInRange(25008900, 25008902, ON);
-});
-
-// Setup - Host only
-Event(400000, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    InitializeEvent(0, 400010, 0); // Game Flags - Once
-    InitializeEvent(0, 400011, 0); // Game Flags - On Load
-    InitializeEvent(0, 400012, 0); // NG+ Flags
-    InitializeEvent(0, 400013, 0); // Relationships
-    
-    // Curses - Enable
-    InitializeEvent(0, 400021, 25000008, 250001200, 250001201); // Curse of Frailty
-    InitializeEvent(1, 400021, 25000001, 250001300, 250001301); // Curse of Obscurity
-    InitializeEvent(2, 400021, 25000002, 250001400, 250001401); // Curse of Vitality
-    InitializeEvent(3, 400021, 25000003, 250001100, 250001101); // Curse of Wrath
-    InitializeEvent(4, 400021, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400021, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(6, 400021, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(7, 400021, 25000005, 250001500, 250001501); // Curse of Simplicity
-    InitializeEvent(8, 400021, 25000009, 250001800, 250001801); // Curse of Enfeeblement
-    InitializeEvent(9, 400021, 25000020, 250001900, 250001901); // Curse of Impermanence
-    
-    // Marks - Enable
-    InitializeEvent(10, 400021, 25000100, 250003000, 250003001); // Mark of Sanguis
-    InitializeEvent(11, 400023, 25000101, 250003100, 250003101, 30, 0); // Mark of Canis
-    InitializeEvent(12, 400023, 25000102, 250003200, 250003201, 33, 0); // Mark of Piscis
-    InitializeEvent(13, 400021, 25000103, 250003300, 250003301); // Mark of Prismatica
-    
-    // Curses - Disable
-    InitializeEvent(0, 400022, 25000008, 250001200, 250001201); // Curse of Frailty
-    InitializeEvent(1, 400022, 25000001, 250001300, 250001301); // Curse of Obscurity
-    InitializeEvent(2, 400022, 25000002, 250001400, 250001401); // Curse of Vitality
-    InitializeEvent(3, 400022, 25000003, 250001100, 250001101); // Curse of Wrath
-    InitializeEvent(4, 400022, 25000004, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 400022, 25000006, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(6, 400022, 25000007, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(7, 400022, 25000005, 250001500, 250001501); // Curse of Simplicity
-    InitializeEvent(8, 400022, 25000009, 250001800, 250001801); // Curse of Enfeeblement
-    InitializeEvent(9, 400022, 25000020, 250001900, 250001901); // Curse of Impermanence
-    
-    // Marks - Disable
-    InitializeEvent(10, 400022, 25000100, 250003000, 250003001); // Mark of Sanguis
-    InitializeEvent(11, 400022, 25000101, 250003100, 250003101); // Mark of Canis
-    InitializeEvent(12, 400022, 25000102, 250003200, 250003201); // Mark of Piscis
-    InitializeEvent(13, 400022, 25000103, 250003300, 250003301); // Mark of Prismatica
-    
-    // Curse of Impermanence
-    InitializeEvent(0, 400120, 10000, 250001900, 25000190, 250001903);
-    
-    // Trades
-    InitializeEvent(0, 400099, 0); // Crow Trades
-    
-    // Covenant Material Drops
-    InitializeEvent(0, 400100, 10000, 160100232, 800010000, 800010020); // Thieves' Code
-    InitializeEvent(1, 400100, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
-    InitializeEvent(2, 400100, 10000, 160100252, 800010200, 800010220); // Spears of the Church
-    InitializeEvent(3, 400100, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
-    InitializeEvent(4, 400100, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
-    InitializeEvent(5, 400100, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
-    InitializeEvent(6, 400100, 10000, 160100302, 800010600, 800010620); // Mound-makers
-    InitializeEvent(7, 400100, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
-    InitializeEvent(8, 400100, 10000, 160100332, 800010800, 800010820); // Chaos Servant
-    InitializeEvent(9, 400100, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
-    InitializeEvent(10, 400100, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
-    InitializeEvent(12, 400100, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
-    InitializeEvent(11, 400100, 10000, 160100362, 800011200, 800011220); // Way of White
-    InitializeEvent(13, 400100, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
-    InitializeEvent(14, 400100, 10000, 160100392, 800011400, 800011420); // Way of Blue
-    InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
-    
-    InitializeEvent(0, 400700, 10000); // No Hit State
-    InitializeEvent(0, 400701, 10000); // Deathless Run State
-    InitializeEvent(0, 400702, 10000); // Hitless Run State
-});
-
-// Setup - Host and Client
-Event(400001, Default, function() {
-    // Weapons
-    InitializeEvent(0, 400110, 0); // Pyromancer's Parting Flame
-
-    // Spells
-    InitializeEvent(0, 400300, 10000, 160500060); // Numbness
-    
-    // Items
-    InitializeEvent(0, 400410, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 400410, 10000, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 400402, 10000); // Event Flag Tool
-    
-    // Elixirs
-    InitializeEvent(0, 400502, 160701100); // Psychedelic Elixir - Special Case
-    
-    // Illusions
-    InitializeEvent(0, 400530, 0); // Skeleton Form - Head
-    InitializeEvent(0, 400531, 0); // Skeleton Form - Body
-});
-
 // No Hit State
-Event(400700, Default, function(X0_4) {
+Event(9620, Restart, function(X0_4) {
     SetEventFlag(25006000, 0);
     IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
     SetEventFlag(25006000, 1);
-    EndUnconditionally(EventEndType.End);
 });
 
 // Deathless Run State
-Event(400701, Default, function(X0_4) {
+Event(9621, Default, function(X0_4) {
     IfCharacterHasSpeffect(MAIN, X0_4, 112100, true, ComparisonType.Equal, 1);
     SetEventFlag(25000030, OFF);
-    EndUnconditionally(EventEndType.End);
 });
 
 // Hitless Run State
-Event(400702, Default, function(X0_4) {
-    IfCharacterHasSpeffect(MAIN, X0_4, 112101, true, ComparisonType.Equal, 1);
+Event(9622, Default, function(X0_4) {
+    IfCharacterHasSpeffect(MAIN, 1000, 112101, true, ComparisonType.Equal, 1);
     SetEventFlag(25000031, OFF);
-    EndUnconditionally(EventEndType.End);
-});
-
-// Psychedelic Elixir - Triggered
-Event(400502, Default, function(X0_4) {
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701118);
-    SetSpeffect(10000, 160701110);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-        
-    ClearSpeffect(10000, 160701110);
-    SetSpeffect(10000, 160701111);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701111);
-    SetSpeffect(10000, 160701112);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701112);
-    SetSpeffect(10000, 160701113);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701113);
-    SetSpeffect(10000, 160701114);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701114);
-    SetSpeffect(10000, 160701115);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701115);
-    SetSpeffect(10000, 160701116);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701116);
-    SetSpeffect(10000, 160701117);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    ClearSpeffect(10000, 160701117);
-    SetSpeffect(10000, 160701118);
-    WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.Restart, PASS, AND_01);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Skeleton Illusion - Head
-Event(400530, Default, function() {
-    IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
-    
-    SetEventFlag(25007001, OFF);
-    SetEventFlag(25007002, OFF);
-    SetEventFlag(25007003, OFF);
-    SetEventFlag(25007004, OFF);
-    RandomlySetEventFlagInRange(25007001, 25007004, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
-    SetSpeffect(10000, 160703080);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
-    SetSpeffect(10000, 160703100);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
-    SetSpeffect(10000, 160703120);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
-    SetSpeffect(10000, 160703140);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-// Skeleton Illusion - Body
-Event(400531, Default, function() {
-    IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
-    
-    SetEventFlag(25007001, OFF);
-    SetEventFlag(25007002, OFF);
-    SetEventFlag(25007003, OFF);
-    SetEventFlag(25007004, OFF);
-    RandomlySetEventFlagInRange(25007001, 25007004, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007001);
-    SetSpeffect(10000, 160703090);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007002);
-    SetSpeffect(10000, 160703110);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007003);
-    SetSpeffect(10000, 160703130);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007004);
-    SetSpeffect(10000, 160703150);
-    
-    EndUnconditionally(EventEndType.Restart);
 });
 
 // Enable Curse
-Event(400021, Restart, function(X0_4, X4_4, X8_4) {
+Event(9630, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     SetSpeffect(10000, X4_4);
     SetSpeffect(10000, X8_4);
 });
 
 // Disable Curse
-Event(400022, Restart, function(X0_4, X4_4, X8_4) {
+Event(9631, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     ClearSpeffect(10000, X4_4);
     ClearSpeffect(10000, X8_4);
 });
 
 // Enable Curse - Map Specific
-Event(400023, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+Event(9632, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     IfPlayerInoutMap(MAIN, true, X12_1, X16_1);
     SetSpeffect(10000, X4_4);
     SetSpeffect(10000, X8_4);
 });
 
-// Crow Trades
-Event(400099, Default, function() {
-    InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
-    InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
-    InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);
-});
-
 // Covenant - Trigger Covenant Item Drop
-Event(400100, Default, function(X0_4, X4_4, X8_4, X12_4) {
+Event(9640, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2051,7 +1879,7 @@ Event(400100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // Pyromancer's Parting Flame - Ascension
-Event(400110, Default, function() {
+Event(9650, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2065,21 +1893,8 @@ Event(400110, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Curse Effect at Random Interval
-Event(400120, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    SetSpeffect(X0_4, X8_4);
-    SetSpeffect(X0_4, X12_4);
-    
-    WaitRandomTimeSeconds(10, 30);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Numbness - Change Camera
-Event(400300, Default, function(X0_4, X4_4) {
+Event(9651, Default, function(X0_4, X4_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(20000, 20000);
@@ -2091,7 +1906,7 @@ Event(400300, Default, function(X0_4, X4_4) {
 });
 
 // Event Flag Tool
-Event(400402, Default, function(X0_4) {
+Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2102,7 +1917,7 @@ Event(400402, Default, function(X0_4) {
 });
 
 // Item - Camera Override
-Event(400410, Default, function(X0_4, X4_4, X8_4) {
+Event(9653, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(X8_4, X8_4);
@@ -2112,3 +1927,55 @@ Event(400410, Default, function(X0_4, X4_4, X8_4) {
     ChangeCamera(-1, -1);
     EndUnconditionally(EventEndType.Restart);
 });
+
+
+// Skeleton Illusion - Head
+Event(9654, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
+    
+    SetEventFlag(9690, OFF);
+    SetEventFlag(9691, OFF);
+    SetEventFlag(9692, OFF);
+    SetEventFlag(9693, OFF);
+    RandomlySetEventFlagInRange(9690, 9693, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9690);
+    SetSpeffect(10000, 160703080);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9691);
+    SetSpeffect(10000, 160703100);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9692);
+    SetSpeffect(10000, 160703120);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9693);
+    SetSpeffect(10000, 160703140);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Skeleton Illusion - Body
+Event(9655, Default, function() {
+    IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
+    
+    SetEventFlag(9690, OFF);
+    SetEventFlag(9691, OFF);
+    SetEventFlag(9692, OFF);
+    SetEventFlag(9693, OFF);
+    RandomlySetEventFlagInRange(9690, 9693, ON);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9690);
+    SetSpeffect(10000, 160703090);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9691);
+    SetSpeffect(10000, 160703110);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9692);
+    SetSpeffect(10000, 160703130);
+    
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9693);
+    SetSpeffect(10000, 160703150);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
