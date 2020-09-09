@@ -4094,18 +4094,18 @@ function IsLandDead(height)
 end
 
 function ExecDeath()
-    -- Deathless Run Failure
-    if IsDead() == TRUE then
-        if env(1007) == FALSE then -- IsCOMPlayer
-            act(2002, 112100)
-        end
-    end
-
     if IsDead() == TRUE then
         if env(202) ~= DAMAGE_TYPE_DEATH_FALLING and env(1116, 103520000) == TRUE then -- GetReceivedDamageType and GetSpecialEffectID
             -- Tears of Denial
             return FALSE
         end
+        
+        -- Deathless Run Failure
+        if env(1007) == FALSE then -- IsCOMPlayer
+            act(2002, 112100)
+            act(2002, 112101) -- Hitless
+        end
+        
         local damage_angle = env(222) -- GetReceivedDamageDirection
         SetVariable("DamageDirection", damage_angle)
         if env(1121) < 0 then -- GetKnockbackDistance
@@ -4162,6 +4162,13 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_level = env(236) -- GetDamageLevel
     local damage_type = env(202) -- GetReceivedDamageType
     local is_damaged = env(256) -- HasReceivedAnyDamage
+    
+    -- Hitless Run Failure
+    if is_damaged == TRUE then
+        if env(1007) == FALSE then -- IsCOMPlayer
+            act(2002, 112101)
+        end
+    end
     
     if damage_level <= DAMAGE_LEVEL_NONE and is_damaged == FALSE and (damage_type == DAMAGE_TYPE_INVALID or damage_type == DAMAGE_TYPE_WEAK_POINT or damage_type == DAMAGE_LEVEL_MINIMUM) then
         return FALSE
@@ -4988,6 +4995,7 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
         if IsDead() == TRUE then
             if env(1007) == FALSE then -- IsCOMPlayer
                 act(2002, 112100)
+                act(2002, 112101) -- Hitless
             end
         end
                     
@@ -5004,6 +5012,7 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
         if IsDead() == TRUE then
             if env(1007) == FALSE then -- IsCOMPlayer
                 act(2002, 112100)
+                act(2002, 112101) -- Hitless
             end
         end
         
@@ -5046,6 +5055,7 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
                     if IsDead() == TRUE then
                         if env(1007) == FALSE then -- IsCOMPlayer
                             act(2002, 112100)
+                            act(2002, 112101) -- Hitless
                         end
                     end
     
