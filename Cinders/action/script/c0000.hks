@@ -814,6 +814,41 @@ function SetEvasionStaminaCost()
         c_StaminaCostJump = -25
     end
     
+    -- Rolling Stamina Growth
+    if env(1116, 112115) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+    end
+    
+    if env(1116, 112114) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+        act(2002, 112115)
+    end
+    
+    if env(1116, 112113) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+        act(2002, 112114)
+    end
+    
+    if env(1116, 112112) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+        act(2002, 112113)
+    end
+    
+    if env(1116, 112111) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+        act(2002, 112112)
+    end
+    
+    if env(1116, 112110) == TRUE then
+        c_StaminaCostRolling = c_StaminaCostRolling - 5
+        act(2002, 112111)
+    end
+    
+    if env(1116, 112110) ~= TRUE then
+        act(2002, 112110)
+    end
+
+    
     -- Carthus Bloodring Effect
     if env(1116, 112000) == TRUE then -- GetSpecialEffectID
         c_StaminaCostRolling = c_StaminaCostRolling * 1.5
