@@ -817,30 +817,36 @@ function SetEvasionStaminaCost()
     -- Rolling Stamina Growth
     if env(1116, 112115) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
     end
     
     if env(1116, 112114) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
         act(2002, 112115)
     end
     
     if env(1116, 112113) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
         act(2002, 112114)
     end
     
     if env(1116, 112112) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
         act(2002, 112113)
     end
     
     if env(1116, 112111) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
         act(2002, 112112)
     end
     
     if env(1116, 112110) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
+        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
         act(2002, 112111)
     end
     
@@ -15662,6 +15668,7 @@ end
 -- FP Regen
 function UpdateFP()
     local skip = false
+    local skip_base = false
     
     if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE then
         skip = true
@@ -15672,8 +15679,15 @@ function UpdateFP()
         skip = false
     end
     
+    -- Curse of Simplicity
+    if env(1116, 113205) == TRUE then
+        skip_base = true
+    end
+    
     if skip == false then
-        act(2002, 113100) -- Base
+        if skip_base == false then
+            act(2002, 113100) -- Base
+        end
         
         if env(1116, 113200) == TRUE then
             act(2002, 113101) -- Enchanted

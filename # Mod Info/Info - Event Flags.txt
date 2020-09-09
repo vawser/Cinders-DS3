@@ -8,26 +8,36 @@ xxx5760 All Enemies
 xxx5750 Enemies enabled by Curse of Attraction
 
 # General
-25000010 Deathless Run
+25000001 Curse of Obscurity
+25000002 Curse of Vitality
+25000003 Curse of Wrath
+25000004 Curse of Pride
+25000005 Curse of Simplicity
+25000006 Curse of Fortitude
+25000007 Curse of Gluttony
+25000008 Curse of Frailty
+25000009 Curse of Enfeeblement
+
 25000011 NG+1
 25000012 NG+2
 25000013 NG+3
 25000014 NG+4
 25000015 NG+5
-25000020 Claimed Talisman of Power
+
+25000020 Curse of Impermanence
+
+25000030 Deathless Run
+25000031 Hitless Run
+
+25000050 Claimed Relic of Power
+25000051 Claimed Relic of Insanity
+
 25000099 Game Flags Set
 
-25000400 Travel
-25000401 Level Up
-25000402 Allot Estus
-25000403 Attune Spell
-25000404 Reinforce Weapon
-25000405 Infuse Weapon
-25000406 Repair Equipment
-25000407 Purchase Item
-25000408 Sell Item
-25000409 Organize Storage Box
-25000410 Undead Match
+25000100 Mark of Sanguis
+25000101 Mark of Canis
+25000102 Mark of Piscis
+25000103 Mark of Prismatica
 
 25000200 Covenant
 25000201 Covenant
@@ -47,11 +57,21 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000307 Gesture
 25000308 Gesture
 
-25002000 Trial Warp To
+25000400 Travel
+25000401 Level Up
+25000402 Allot Estus
+25000403 Attune Spell
+25000404 Reinforce Weapon
+25000405 Infuse Weapon
+25000406 Repair Equipment
+25000407 Purchase Item
+25000408 Sell Item
+25000409 Organize Storage Box
+25000410 Undead Match
 
 25001001 Corrupted Gundyr
 25001002 Vordt
-25001003 Rotted Greatwood
+25001003 Curse-rotted Greatwood
 25001004 Crystal Sage
 25001005 Deacons
 25001006 Abyss Watchers
@@ -69,27 +89,13 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001018 Twin Princes
 25001019 Cinder
 25001020 Sister Friede
-25001021 Triad
+25001021 Lordran Remnants
 25001022 Demon Prince
 25001023 Darkeater Midir
 25001024 Slave Knight Gael
 25001025 Halflight
 
-25008000
-25008010 Karla
-25008020 Fire Keeper
-25008030 Painter
-25008040 
-25008050 
-25008060 
-25008070 
-25008080 
-25008090 
-
-25008100 Trial of Adversity
-25008101 Trial of Calamity
-25008102 Trial of Sorrow
-25008103 Trial of Devastation
+25002000 Trial Warp To
 
 25003000 Companion 
 25003001 Solaire of Astora
@@ -111,30 +117,24 @@ xxx5750 Enemies enabled by Curse of Attraction
  5110750 m51_01 #
  5300850 m53 #
 
-25000001 Curse of Obscurity
-25000002 Curse of Vitality
-25000003 Curse of Wrath
-25000004 Curse of Pride
-25000005 Curse of Simplicity
-25000006 Curse of Fortitude
-25000007 Curse of Gluttony
-25000008 Curse of Frailty
-25000009 Curse of Enfeeblement
-25000020 Curse of Impermanence
-
-25000100 Mark of Sanguis
-25000101 Mark of Canis
-25000102 Mark of Piscis
-25000103 Mark of Prismatica
-
-# Game State
 25006000 No Hit state
 
-# Rings
-25007000 
+25008000
+25008010 Karla
+25008020 Fire Keeper
+25008030 Painter
+25008040 
+25008050 
+25008060 
+25008070 
+25008080 
+25008090 
 
-# Utility
-25007000 Fool's Sigil range
+25008100 Trial of Adversity
+25008101 Trial of Calamity
+25008102 Trial of Sorrow
+25008103 Trial of Devastation
+
 25009000 Random flag range
 
 # Map State
@@ -149,27 +149,3 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009530 Tortured Soul turn-in
 25009540 Smithbox turn-in
 
-# Transformations
-25006010 Trigger Update
-25006011 Clear Head Settings
-25006012 Clear Body Settings
-
-25006100 Goat Dragonform - Head
-25006101 Capra Demon - Head
-25006102 Titanite Demon - Head
-25006103 Murkman - Head
-25006104 Skeleton 1 - Head
-25006105 Skeleton 2 - Head
-25006106 Skeleton 3 - Head
-25006107 Skeleton 4 - Head
-25006108 Hunter - Head
-
-25006500 Goat Dragonform - Body
-25006501 Capra Demon - Body
-25006502 Titanite Demon - Body
-25006503 Murkman - Body
-25006504 Skeleton 1 - Body
-25006505 Skeleton 2 - Body
-25006506 Skeleton 3 - Body
-25006507 Skeleton 4 - Body
-25006508 Hunter - Body
