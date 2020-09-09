@@ -994,3 +994,13 @@ increases evasive movement stamina costs by 50%.
 - Boosts defences by 25%.
 - Source: Covenant - Pilgrims of Dark
 
+# Talisman of Power
+- Weight: 1
+- Whilst equipped, the wearer gains the following:
+    - Boosts all damage by 5%.
+    - Boosts all absorptions by 5%.
+    - Boosts all defences by 5%.
+    - Boosts all stats by 5.
+    - Reduces FP consumption of spells and skills by 10%.
+    - Reduces weapon stamina consumption by 10%.
+- Source: Deathless run

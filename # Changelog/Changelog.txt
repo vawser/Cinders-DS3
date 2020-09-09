@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002070 Cemetery of Ash / Unturned Graves
+54002071 Cemetery of Ash / Unturned Graves
 53002102 High Wall of Lothric / Consumed King's Garden
 53102094 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
@@ -30,8 +30,21 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Mechanics
+- Re-added the Deathless Run reward. If you kill the Soul of Cinder without having died once from the start of the game, you can visit Magnum Ursus and claim the Talisman of Power.
+- You may reset your Deathless run if you die by paying a hefty amount of souls to Magnum Ursus.
+
 # Weapons
 - Reduced the damage of the pistol sidearms.
+
+# Rings
+- Added Talisman of Power: whilst equipped, the wearer gains the following:
+ - Boosts all damage by 5%.
+ - Boosts all absorptions by 5%.
+ - Boosts all defences by 5%.
+ - Boosts all stats by 5.
+ - Reduces FP consumption of spells and skills by 10%.
+ - Reduces weapon stamina consumption by 10%.
 
 # Items
 - Transformation/Elixir/Oil items now persist through loading.
@@ -50,40 +63,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-
-#------------------------------
-# TODO - Weapon
-#------------------------------
-14220000 - 0867 / 1423 Giant's Bow
-    Custom WA (multi millwood?)
-    
-14230000 - 0870 / 1424 Model Ballista
-    Custom WA (powerful staggering shot)
-    
-Missionary Axe (Dual Greataxe)
-Thrall Pick (Dual Hammer)
-Irithyll Warpick (Dual Hammer)
-Burial Scythe (Dual Scythe/Blade)
-    9840 Burial Scythe
-    9836 Burial Blade
-Tailbone Club (Dual Hammer)
-
-Implement gatling gun
-    2143 Gatling Gun
-    Will require crossbow loop setup
-
-#------------------------------
-# TODO - Movesets
-#------------------------------
-# Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
-
-# Movesets to add:
-Black Dragon Greatsword
-Black Dragon Sword
-Winged Knight Halberd
-Writhing Hammer
-Scythe of Want
-Vordt's Great Hammer
-Black Dragon Greataxe
-Twinspears of the Forlorn
-

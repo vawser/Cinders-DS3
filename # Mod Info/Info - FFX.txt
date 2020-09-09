@@ -1,0 +1,50 @@
+﻿#------------------------
+# Notes
+#------------------------
+f000 is the normal prefix for the fxr filenames.
+
+<RootEffectCall>
+<FFXEffectCallA>
+<EffectAs>
+<EffectBs>
+<Actions>
+
+<FFXActionCall>
+ <Unk02> - Execute another FFX ID (true when call another FFX)
+ <Unk03> - Unknown, (true when not calling another FFX)
+ <Unk04> - 
+ <Properties1>
+    <FFXProperty>
+     <Fields>
+ <Properties2>
+ <Section10s>
+ <Fields1>
+    <FFXField> - Can reference FFX ID
+ <Fields2>
+     
+# FFXProperty 
+TypeEnumA:
+0  - 
+16 - 
+19 - 
+32 - 
+35 - Color Floats - R, G, B, Alpha
+64 - 
+67 - Color Floats (Special)
+
+TypeEnumB:
+0  - With TypeEnumA 0
+8  - With TypeEnumA 32
+11 - With TypeEnumA 35
+
+#------------------------ 
+# New FFX
+#------------------------
+854000 Blue Fire
+854001 Green Fire
+854002 Pink Fire
+854003 Purple Fire
+854004 Yellow Fire
+854005 Grey Fire
+
+

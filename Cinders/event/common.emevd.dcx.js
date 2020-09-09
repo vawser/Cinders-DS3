@@ -1679,6 +1679,7 @@ Event(400010, Default, function(X0_4, X4_4) {
     SetEventFlag(25000101, OFF); // Mark of Canis
     
     SetEventFlag(25000010, ON); // Deathless Run
+    SetEventFlag(25000020, OFF); // Claimed Talisman of Power
     
     SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
     
@@ -1857,6 +1858,7 @@ Event(400000, Default, function() {
     InitializeEvent(15, 400100, 10000, 160100402, 800011500, 800011520); // Company of Champions
     
     InitializeEvent(0, 400700, 10000); // No Hit State
+    InitializeEvent(0, 400701, 10000); // Deathless Run State
 });
 
 // Setup - Host and Client
@@ -1937,6 +1939,13 @@ Event(400700, Default, function(X0_4) {
     SetEventFlag(25006000, 0);
     IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
     SetEventFlag(25006000, 1);
+    EndUnconditionally(EventEndType.End);
+});
+
+// Deathless Run State
+Event(400701, Default, function(X0_4) {
+    IfCharacterHasSpeffect(MAIN, X0_4, 112100, true, ComparisonType.Equal, 1);
+    SetEventFlag(25000010, OFF);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -2348,7 +2357,7 @@ Event(400402, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetSpeffect(10000, 160703440);
+    SetEventFlag(25000010, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });

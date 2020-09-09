@@ -4094,6 +4094,13 @@ function IsLandDead(height)
 end
 
 function ExecDeath()
+    -- Deathless Run Failure
+    if IsDead() == TRUE then
+        if env(1007) == FALSE then -- IsCOMPlayer
+            act(2002, 112100)
+        end
+    end
+
     if IsDead() == TRUE then
         if env(202) ~= DAMAGE_TYPE_DEATH_FALLING and env(1116, 103520000) == TRUE then -- GetReceivedDamageType and GetSpecialEffectID
             -- Tears of Denial
