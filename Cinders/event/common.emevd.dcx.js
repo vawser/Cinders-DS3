@@ -1699,6 +1699,34 @@ Event(9600, Default, function() {
     InitializeEvent(13, 9640, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
     InitializeEvent(14, 9640, 10000, 160100392, 800011400, 800011420); // Way of Blue
     InitializeEvent(15, 9640, 10000, 160100402, 800011500, 800011520); // Company of Champions
+    
+    // Boss Revival
+    InitializeEvent(0, 9660, 0); // Corrupted Gundyr
+    InitializeEvent(0, 9661, 0); // Vordt
+    InitializeEvent(0, 9662, 0); // Curse-rotted Greatwood
+    InitializeEvent(0, 9663, 0); // Crystal Sage
+    InitializeEvent(0, 9664, 0); // Deacons of the Deep
+    InitializeEvent(0, 9665, 0); // Abyss Watchers
+    InitializeEvent(0, 9666, 0); // High Lord Wolnir
+    InitializeEvent(0, 9667, 0); // Old Demon King
+    InitializeEvent(0, 9668, 0); // Pontiff Sulyvahn
+    InitializeEvent(0, 9669, 0); // Aldrich
+    InitializeEvent(0, 9670, 0); // Yhorm the Giant
+    InitializeEvent(0, 9671, 0); // Dancer
+    InitializeEvent(0, 9672, 0); // Oceiros
+    InitializeEvent(0, 9673, 0); // Dragonslayer Armour
+    InitializeEvent(0, 9674, 0); // Ancient Wyvern
+    InitializeEvent(0, 9675, 0); // Nameless King
+    InitializeEvent(0, 9676, 0); // Champion Gundyr
+    InitializeEvent(0, 9677, 0); // Twin Princes
+    InitializeEvent(0, 9678, 0); // Soul of Cinder
+    InitializeEvent(0, 9679, 0); // Sister Friede
+    InitializeEvent(0, 9680, 0); // Lordran Remnants
+    InitializeEvent(0, 9681, 0); // Demon Prince
+    InitializeEvent(0, 9682, 0); // Darkeater Midir
+    InitializeEvent(0, 9683, 0); // Slave Knight Gael
+    InitializeEvent(0, 9684, 0); // Halflight
+    InitializeEvent(0, 9685, 0); // Champions of Yore
 });
 
 // Setup - Host and Client
@@ -1910,8 +1938,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25000030, ON);
-    SetEventFlag(25000020, OFF);
+    SetSpeffect(10000, 260100020);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -1977,4 +2004,724 @@ Event(9655, Default, function() {
     SetSpeffect(10000, 160703150);
     
     EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Corrupted Gundyr
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9660, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(14000800, 0);
+    SetEventFlag(9319, 0);
+    SetEventFlag(6319, 0);
+    SetEventFlag(14000002, 0);
+    SetEventFlag(64000260, 0);
+    SetEventFlag(64000261, 0);                
+    
+    SetPlayerRespawnPoint(4002950);
+    SetMapCeremony(40, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(40, 0, 4000980);
+});
+
+//----------------------------------------------
+// Boss Revival - Vordt
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9661, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13000800, 0);
+    SetEventFlag(9301, 0);
+    SetEventFlag(6301, 0);
+    
+    SetPlayerRespawnPoint(3002958);
+    SetMapCeremony(30, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000982);
+});
+
+//----------------------------------------------
+// Boss Revival - Curse-rotted Greatwood
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9662, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13100800, 0);
+    SetEventFlag(9303, 0);
+    SetEventFlag(6303, 0);
+    SetEventFlag(13100001, 0);
+    
+    SetPlayerRespawnPoint(3102953);
+    SetMapCeremony(31, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(31, 0, 3100980);
+});
+
+//----------------------------------------------
+// Boss Revival - Crystal Sage
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9663, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13300850, 0);
+    SetEventFlag(9306, 0);
+    SetEventFlag(6306, 0);
+    
+    SetPlayerRespawnPoint(3302957);
+    SetMapCeremony(33, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(33, 0, 3300980);
+});
+
+//----------------------------------------------
+// Boss Revival - Deacons of the Deep
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9664, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13500800, 0);
+    SetEventFlag(9311, 0);
+    SetEventFlag(6311, 0);
+    
+    SetPlayerRespawnPoint(3502950);
+    SetMapCeremony(35, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(35, 0, 3500980);
+});
+
+//----------------------------------------------
+// Boss Revival - Abyss Watchers
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9665, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13300800, 0);
+    SetEventFlag(9307, 0);
+    SetEventFlag(6307, 0);
+    SetEventFlag(13300421, 0);
+    
+    SetPlayerRespawnPoint(3302958);
+    SetMapCeremony(33, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(33, 0, 3300981);
+});
+
+//----------------------------------------------
+// Boss Revival - High Lord Wolnir
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9666, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13800800, 0);
+    SetEventFlag(9315, 0);
+    SetEventFlag(6315, 0);
+    SetEventFlag(13801800, 0);
+    SetEventFlag(63800560, 0);
+    
+    SetPlayerRespawnPoint(3802950);
+    SetMapCeremony(38, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(38, 0, 3800980);
+});
+
+//----------------------------------------------
+// Boss Revival - Old Demon King
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9667, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13800830, 0);
+    SetEventFlag(9317, 0);
+    SetEventFlag(6317, 0);
+    
+    SetPlayerRespawnPoint(3802952);
+    SetMapCeremony(38, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(38, 0, 3800981);
+});
+
+//----------------------------------------------
+// Boss Revival - Pontiff Sulyvahn
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9668, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13700850, 0);
+    SetEventFlag(9313, 0);
+    SetEventFlag(6313, 0);
+    SetEventFlag(13700420, 0);
+    SetEventFlag(13700421, 0);
+    SetEventFlag(13700422, 0);
+    
+    SetPlayerRespawnPoint(3702950);
+    SetMapCeremony(37, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(37, 0, 3700980);
+});
+
+//----------------------------------------------
+// Boss Revival - Aldrich
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9669, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13700800, 0);
+    SetEventFlag(9314, 0);
+    SetEventFlag(6314, 0);
+    SetEventFlag(13700002, 0);
+    
+    SetPlayerRespawnPoint(3702953);
+    SetMapCeremony(37, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(37, 0, 3700981);
+});
+
+//----------------------------------------------
+// Boss Revival - Yhorm
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9670, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13900800, 0);
+    SetEventFlag(9318, 0);
+    SetEventFlag(6318, 0);
+    
+    SetPlayerRespawnPoint(3902952);
+    SetMapCeremony(39, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(39, 0, 3900980);
+});
+
+//----------------------------------------------
+// Boss Revival - Dancer
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9671, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13000890, 0);
+    SetEventFlag(9300, 0);
+    SetEventFlag(6300, 0);
+    SetEventFlag(13000885, 0);
+    
+    SetPlayerRespawnPoint(3002955);
+    SetMapCeremony(30, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000981);
+});
+
+//----------------------------------------------
+// Boss Revival - Oceiros
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9672, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13000830, 0);
+    SetEventFlag(9302, 0);
+    SetEventFlag(6302, 0);
+    
+    SetPlayerRespawnPoint(3002951);
+    SetMapCeremony(30, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 0, 3000983);
+});
+
+//----------------------------------------------
+// Boss Warp - Dragonslayer Armour
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9673, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13010800, 0);
+    SetEventFlag(9308, 0);
+    SetEventFlag(6308, 0);
+    
+    SetPlayerRespawnPoint(3012952);
+    SetMapCeremony(30, 1, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(30, 1, 3010980);
+});
+
+//----------------------------------------------
+// Boss Revival - Ancient Wyvern
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9674, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13200800, 0);
+    SetEventFlag(9305, 0);
+    SetEventFlag(6305, 0);
+    
+    SetPlayerRespawnPoint(3202950);
+    SetMapCeremony(32, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(32, 0, 3200980);
+});
+
+//----------------------------------------------
+// Boss Revival - Nameless King
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9675, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13200850, 0);
+    SetEventFlag(9304, 0);
+    SetEventFlag(6304, 0);
+    SetEventFlag(13200440, 0);
+    SetEventFlag(13200445, 0);
+    SetEventFlag(13200855, 0);
+    SetEventFlag(13200856, 0);
+    SetEventFlag(13200862, 0);
+            
+    SetPlayerRespawnPoint(3202952);
+    SetMapCeremony(32, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(32, 0, 3200981);
+});
+
+//----------------------------------------------
+// Boss Warp - Champion Gundyr
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9676, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(14000830, 0);
+    SetEventFlag(9320, 0);
+    SetEventFlag(6320, 0);
+    SetEventFlag(14000004, 0);
+    SetEventFlag(64000260, 0);
+    SetEventFlag(64000261, 0);
+    
+    SetPlayerRespawnPoint(4002953);
+    SetMapCeremony(40, 0, 10);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(40, 0, 4000981);
+});
+
+//----------------------------------------------
+// Boss Warp - Twin Princes
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9677, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(13410830, 0);
+    SetEventFlag(9309, 0);
+    SetEventFlag(6309, 0);
+    SetEventFlag(13410000, 0);
+    
+    SetPlayerRespawnPoint(3412951);
+    SetMapCeremony(34, 1, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(34, 1, 3410980);
+});
+
+//----------------------------------------------
+// Boss Revival - Soul of Cinder
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9678, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(14100800, 0);
+    SetEventFlag(14101100, 0);
+    SetEventFlag(9321, 0);
+    SetEventFlag(6321, 0);
+    SetEventFlag(14100002, 0);
+    
+    SetPlayerRespawnPoint(4102951);
+    SetMapCeremony(41, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(41, 0, 4100980);
+});
+
+//----------------------------------------------
+// Boss Revival - Sister Friede
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9679, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(14500800, 0);
+    SetEventFlag(9322, 0);
+    SetEventFlag(6322, 0);
+    SetEventFlag(14500000, 0);
+    SetEventFlag(14500162, 0);
+    
+    SetPlayerRespawnPoint(4502955);
+    SetMapCeremony(45, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(45, 0, 4500980);
+});
+
+//----------------------------------------------
+// Boss Revival - Lordran Remnants
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9680, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(14500860, 0);
+    SetEventFlag(14500861, 0);
+    SetEventFlag(14500862, 0);
+    SetEventFlag(9323, 0);
+    SetEventFlag(6323, 0);
+    SetEventFlag(14500006, 0);
+    
+    SetPlayerRespawnPoint(4502957);
+    SetMapCeremony(45, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(45, 0, 4500981);
+});
+
+//----------------------------------------------
+// Boss Revival - Demon Prince
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9681, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(15000800, 0);
+    SetEventFlag(9324, 0);
+    SetEventFlag(6324, 0);
+    SetEventFlag(15000000, 0);
+    
+    SetPlayerRespawnPoint(5002953);
+    SetMapCeremony(50, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(50, 0, 5000980);
+});
+
+
+//----------------------------------------------
+// Boss Revival - Darkeater Midir
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9682, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(15100850, 0);
+    SetEventFlag(9326, 0);
+    SetEventFlag(6326, 0);
+    SetEventFlag(15100001, 0);
+    
+    SetPlayerRespawnPoint(5102953);
+    SetMapCeremony(51, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 0, 5100980);
+});
+
+//----------------------------------------------
+// Boss Revival - Slave Knight Gael
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9683, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(15110800, 0);
+    SetEventFlag(9327, 0);
+    SetEventFlag(6327, 0);
+    SetEventFlag(15110000, 0);
+    
+    SetPlayerRespawnPoint(5112951);
+    SetMapCeremony(51, 1, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 0, 5110980);
+});
+
+//----------------------------------------------
+// Boss Revival - Halflight
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9684, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SetEventFlag(15100800, 0);
+    SetEventFlag(6325, 0);
+    SetEventFlag(9325, 0);
+    SetEventFlag(9003, 1);
+    
+    SetPlayerRespawnPoint(5102953);
+    SetMapCeremony(51, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(51, 0, 5100981);
+});
+
+//----------------------------------------------
+// Boss Revival - Champions of Yore
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(9685, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100260, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    // m51_1
+    SetEventFlag(15100744, 0); // Glaive Master Hodir
+    SetEventFlag(15100732, 0); // Freya the Wretched
+    SetEventFlag(15100734, 0); // Nahor the Fallen
+    SetEventFlag(15100736, 0); // Easterner Iazeel
+    SetEventFlag(15100738, 0); // Seeker of the Spurned
+    SetEventFlag(15100746, 0); // Moaning Knight
+    SetEventFlag(15100748, 0); // Silver Knight Ledo 
+
+    // m50
+    SetEventFlag(15000730, 0); // Dulfish the Accursed
+    SetEventFlag(15000180, 0); // Desert Pyromancer Zoey
+
+    // m45
+    SetEventFlag(14500738, 0); // Ezekiel the Duelist
+    SetEventFlag(14500742, 0); // Eija the Shadow
+    SetEventFlag(14500734, 0); // Frozen Knight Torbjorn
+    SetEventFlag(14500736, 0); // Disciple of Alsanna
+
+    // m41
+    SetEventFlag(14100810, 0); // Lord Zakar
+
+    // m40
+    SetEventFlag(14000890, 0); // Blacksmith's Nightmare
+    SetEventFlag(14000892, 0); // Ashen Keeper Sofija
+    SetEventFlag(9500, 0); // Sword Master
+
+    // m39
+    SetEventFlag(13900730, 0); // Corrupted Knight Lloyd
+    SetEventFlag(13900732, 0); // Jailer Eileen
+    SetEventFlag(13900734, 0); // Ollis the Merciless
+    SetEventFlag(13900736, 0); // Fester the Jester
+    SetEventFlag(13900738, 0); // Vileblood Annalise
+    SetEventFlag(13900740, 0); // Bewitched Knight Iwai
+    SetEventFlag(13900742, 0); // Lord Takatsuji
+    SetEventFlag(13900744, 0); // Lieutenant Ugali
+    SetEventFlag(13900746, 0); // Lieutenant Hanji
+    SetEventFlag(13900748, 0); // Alva, Seeker of the Spurned
+    SetEventFlag(13900760, 0); // The Pursuer
+    SetEventFlag(13900360, 0); // Court Sorcerer
+
+    // m38
+    SetEventFlag(13800790, 0); // Holy Knight Morton
+    SetEventFlag(13800792, 0); // Tomb Raider Dyfan
+    SetEventFlag(13800794, 0); // Chaos Servant Eygor
+    SetEventFlag(13800763, 0); // The Father
+    SetEventFlag(13800761, 0); // The Mother
+    SetEventFlag(13800762, 0); // The Child
+    SetEventFlag(13800398, 0); // Knight Slayer Tsorig
+
+    // m37
+    SetEventFlag(13700733, 0); // Boreal Outrider Knight
+    SetEventFlag(13700734, 0); // Boreal Outrider Knight
+    SetEventFlag(13700544, 0); // Deep Accursed
+    SetEventFlag(13700761, 0); // Dragonrider
+    SetEventFlag(13700766, 0); // Wandering Knight Osvaldo
+    SetEventFlag(13700762, 0); // Devotee Scarlett
+    SetEventFlag(13700764, 0); // The Pursuer
+    SetEventFlag(13700198, 0); // Drang Knight (Hammer)
+    SetEventFlag(13700199, 0); // Drang Knight (Twinspear)
+
+    // m35
+    SetEventFlag(13500196, 0); // Ravenous Crystal Lizard
+    SetEventFlag(13500198, 0); // Morne's Armor
+    SetEventFlag(13500746, 0); // Morric, the Fallen Knight
+    SetEventFlag(13500742, 0); // Hallowed Knight Orthell
+    SetEventFlag(13500744, 0); // Longfinger Kirk
+    SetEventFlag(13500286, 0); // Thief
+    SetEventFlag(13500285, 0); // Brigand
+
+    // m34_1
+    SetEventFlag(13410192, 0); // Boreal Outrider Knight
+    SetEventFlag(13410256, 0); // Black Dragon Knight (Greataxe)
+    SetEventFlag(13410257, 0); // Black Dragon Knight (Greatsword)
+    SetEventFlag(13410258, 0); // Black Dragon Knight (Sword)
+    SetEventFlag(13410730, 0); // The Pursuer
+    SetEventFlag(13410732, 0); // Quintus the Monstrous
+    SetEventFlag(13410204, 0); // Black Hand Gotthard
+    SetEventFlag(13410202, 0); // Lion Knight Albert
+    SetEventFlag(13410203, 0); // Daughter of Crystal Kriemhild
+
+    // m33
+    SetEventFlag(13300603, 0); // Ravenous Crystal Lizard
+    SetEventFlag(13300742, 0); // The Forlorn
+    SetEventFlag(13300744, 0); // Forgotten Locklin
+    SetEventFlag(13300395, 0); // Butcher
+    SetEventFlag(13300396, 0); // Exile Watchdog
+    SetEventFlag(13300397, 0); // Exile Watchdog
+
+    // m32
+    SetEventFlag(13200430, 0); // Dragon Cultist
+    SetEventFlag(13200431, 0); // Dragon Cultist
+    SetEventFlag(13200432, 0); // Dragon Cultist
+    SetEventFlag(13200433, 0); // Dragon Cultist
+    SetEventFlag(13200434, 0); // Dragon Cultist
+    SetEventFlag(13200435, 0); // Dragon Cultist
+    SetEventFlag(13200730, 0); // Gaius the Mighty
+    SetEventFlag(13200732, 0); // Dragon Hunter Karstark
+    SetEventFlag(13200299, 0); // Havel the Rock
+
+    // m31
+    SetEventFlag(13100613, 0); // Boreal Outrider Knight
+    SetEventFlag(13100615, 0); // Boreal Outrider Knight
+    SetEventFlag(13100780, 0); // Eccentric Archibald
+
+    // m30_1
+    SetEventFlag(13010730, 0); // Luyila of Londor
+    SetEventFlag(13010732, 0); // Dominatrix Sharron
+    SetEventFlag(13010734, 0); // The Pursuer
+    SetEventFlag(13010736, 0); // Tiny
+
+    // m30
+    SetEventFlag(13000720, 0); // Mirror Knight
+    SetEventFlag(13000622, 0); // Boreal Outrider Knight
+    SetEventFlag(13000732, 0); // Captain Morrel
+    SetEventFlag(13000734, 0); // Huntmaster Ava
+    SetEventFlag(13000736, 0); // The Pursuer
+    SetEventFlag(13000730, 0); // Inquisitor Ashford
+    
+    SetPlayerRespawnPoint(4002950);
+    SetMapCeremony(40, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(40, 0, 4000970);
 });
