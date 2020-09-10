@@ -274,60 +274,74 @@ Handmaid's Ladle
 # Catalysts
 #------------------------
 # All Schools
-Heretic's Staff             - Dark
 Insanity Catalyst           - Any
+
+# Sorcery / Pyromancy / Miracles
 Man-grub's Staff            - Magic
 
-# Sorcery / Miracles
+# Sorcery / Miracles / Hex
 Archdeacon's Great Staff    - Dark
+
+# Sorcery / Miracles
 Golden Ritual Spear         - Magic
 Crystal Chime               - Magic
+
+# Miracles / Pyromancy / Hex
 
 # Miracles / Pyromancy
 White Hair Talisman         - Fire
 Holy Flame                  - Lightning
 Smouldering Talisman        - Fire
 
+# Sorcery / Pyromancy / Hex
+
 # Sorcery / Pyromancy 
 Izalith Staff               - Fire
 Sorcerous Flame             - Magic
 
-# Sorcery
-Sorcerer's Staff            - Magic
+# Sorcery / Hex
+Heretic's Staff             - Dark
 Storyteller's Staff         - Dark
-Sage's Crystal Staff        - Magic
-Court Sorcerer's Staff      - Magic
-Witchtree Branch            - Magic
 Murky Longstaff             - Dark
 Manus Catalyst              - Dark
 Tin Banishment Catalyst     - Dark
-Velka's Talisman            - Magic
 Consumed King's Staff       - Dark
+
+# Pyromancy / Hex
+Black Flame                 - Dark
+Abyssal Flame               - Dark
+
+# Miracle / Hex
+Fallen Priest's Chime       - Dark
+Caitha's Chime              - Dark
+Corrupted Talisman          - Dark
+Talisman of Beasts          - Dark
+
+# Sorcery
+Sorcerer's Staff            - Magic
+Sage's Crystal Staff        - Magic
+Court Sorcerer's Staff      - Magic
+Witchtree Branch            - Magic
+Velka's Talisman            - Magic
 
 # Miracles
 Talisman                    - Lightning
 Cleric's Sacred Chime       - Lightning
-Fallen Priest's Chime       - Dark
 Yorshka's Chime             - Lightning
 Saint-tree Bellvine         - Lightning
-Caitha's Chime              - Dark
 Sunlight Talisman           - Lightning
-Corrupted Talisman          - Dark
 Sunless Talisman            - Magic
 Saint's Talisman            - Lightning
 Sacred Chime of Filianore   - Lightning
 Jester's Talisman           - Lightning
-Talisman of Beasts          - Dark
 Rotten Talisman             - Lightning
 Mendicant's Staff           - Lightning
 
 # Pyromancy
 Pyromancy Flame             - Fire
 Pyromancer's Parting Flame  - Fire
-Black Flame                 - Dark
 Fool's Flame                - Fire
 Chaos Flame                 - Fire
-Abyssal Flame               - Dark
 
 #------------------------
 # Hybrid Tools

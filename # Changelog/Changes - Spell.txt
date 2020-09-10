@@ -1,19 +1,13 @@
 ﻿#--------------------------------------------------------------------------
-# Books
+# Books: Sorceries
 #--------------------------------------------------------------------------
-# Sage's Scroll
+# Sage's Scroll - Early
 Shockwave
 Farron Hail
 Scattered Farron Dart
 Scattered Soul Arrow
 
-# Logan's Scroll
-Soul Spear
-Great Magic Weapon
-Soul Greatsword
-Pestilent Mist
-
-# Golden Scroll
+# Golden Scroll - Mid
 Blinding Light
 Hidden Weapon
 Hidden Body
@@ -21,13 +15,22 @@ Repair
 Cast Light
 Twisted Wall of Light
 
-# Crystal Scroll
+# Logan's Scroll - Mid
+Soul Spear
+Great Magic Weapon
+Soul Greatsword
+Pestilent Mist
+
+# Crystal Scroll - Late
 Soul Stream
 Soul Geyser
 Homing Crystal Soulmass
 Crystal Soul Spear
 Crystal Magic Weapon
 
+#--------------------------------------------------------------------------
+# Books: Pyromancies
+#--------------------------------------------------------------------------
 # Great Swamp
 Fire Surge
 Great Combustion
@@ -59,6 +62,42 @@ Heave Earth
 Earthquake
 Acid Surge
 
+#--------------------------------------------------------------------------
+# Books: Miracles
+#--------------------------------------------------------------------------
+# Carim
+Heal
+Replenishment
+Caressing Tears
+
+# Heavenly
+Lightning Spear
+Magic Barrier
+Lightning Blade
+Emit Force
+
+# Lothric
+Med Heal
+Great Magic Barrier
+Bountiful Light
+Blessed Weapon
+Wrath of the Gods
+
+# Sunlight
+Great Lightning Spear
+Tears of Denial
+Sacred Oath
+Great Heal
+Lightning Stake
+
+# Angelic
+Angelic Barrage
+Vow of Agony
+Divine Pillars of Light
+
+#--------------------------------------------------------------------------
+# Books: Hexes
+#--------------------------------------------------------------------------
 # Accursed Scroll
 Affinity
 Numbness
@@ -93,36 +132,6 @@ Vow of Silence
 Dark Blade
 Dead Again
 Deep Protection
-
-# Carim
-Heal
-Replenishment
-Caressing Tears
-
-# Heavenly
-Lightning Spear
-Magic Barrier
-Lightning Blade
-Emit Force
-
-# Lothric
-Med Heal
-Great Magic Barrier
-Bountiful Light
-Blessed Weapon
-Wrath of the Gods
-
-# Sunlight
-Great Lightning Spear
-Tears of Denial
-Sacred Oath
-Great Heal
-Lightning Stake
-
-# Angelic
-Angelic Barrage
-Vow of Agony
-Divine Pillars of Light
 
 #--------------------------------------------------------------------------
 # Sorceries - Offensive

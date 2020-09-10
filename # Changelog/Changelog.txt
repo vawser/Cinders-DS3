@@ -73,6 +73,52 @@
 - Added Murky Skull so the murkman form uses the two item format.
 - Added Hunter's Emblem so the Hunter form uses the two item format.
 
+# Spells
+- Added a new spell school: Hexes
+- Thwe following spells are now considered Hexes:
+ - Deep Barb           
+ - Deep Soul           
+ - Great Deep Soul     
+ - Great Soul Dregs    
+ - Dark Edge           
+ - Abyssal Edge        
+ - Dark Bead           
+ - Surging Deep        
+ - Cascading Deep      
+ - Yearning Dregs      
+ - Dreg Torrent        
+ - Writhing Deep       
+ - Climax              
+ - Affinity            
+ - Whisper of Despair  
+ - Repel               
+ - Numbness            
+ - Black Fireball      
+ - Black Fire Orb      
+ - Black Fire Vestiges 
+ - Black Fire Scatter  
+ - Black Flame         
+ - Black Serpent       
+ - Dark Dance          
+ - Recollection        
+ - Mournful Flames     
+ - Black Flame Arc     
+ - Nibble              
+ - Gnaw                
+ - Dorhys' Gnawing     
+ - Devouring Swarm     
+ - Deep Protection     
+ - Atonement           
+ - Vow of Agony        
+ - Gravelord Sword Dance   
+ - Vow of Silence      
+ - Dark Blade          
+ - Dead Again          
+ - Lifehunt Scythe     
+ - Pulsating Blade     
+ - Pungent Blade  
+- 'Dark' aligned catalysts are now able to cast Hexes.
+
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
 
@@ -84,3 +130,5 @@
 #------------------------------
 # TODO - General
 #------------------------------
+     
+
