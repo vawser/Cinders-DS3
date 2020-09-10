@@ -8,87 +8,85 @@ xxx5760 All Enemies
 xxx5750 Enemies enabled by Curse of Attraction
 
 # General
-25000011 NG+1
-25000012 NG+2
-25000013 NG+3
-25000014 NG+4
-25000015 NG+5
+25000011 Is in NG+1
+25000012 Is in NG+2
+25000013 Is in NG+3
+25000014 Is in NG+4
+25000015 Is in NG+5
 
-25000030 Deathless Run
-25000031 Hitless Run
+25000030 Valid: Deathless Run
+25000031 Valid: Hitless Run
 
 25000050 Claimed Relic of Power
 25000051 Claimed Relic of Insanity
 
 25000099 Game Flags Set
 
-25000060 Trial of Adversity
-25000061 Trial of Calamity
-25000062 Trial of Sorrow
-25000063 Trial of Devastation
+25000060 Warp To: Trial of Adversity
+25000061 Warp To: Trial of Calamity
+25000062 Warp To: Trial of Sorrow
+25000063 Warp To: Trial of Devastation
 
-25000100 Mark of Sanguis
-25000101 Mark of Canis
-25000102 Mark of Piscis
-25000103 Mark of Prismatica
+25000100 Active: Mark of Sanguis
+25000101 Active: Mark of Canis
+25000102 Active: Mark of Piscis
+25000103 Active: Mark of Prismatica
 
-25000150 Curse of Obscurity 
-25000151 Curse of Vitality 
-25000152 Curse of Wrath 
-25000153 Curse of Pride 
-25000154 Curse of Simplicity 
-25000155 Curse of Fortitude 
-25000156 Curse of Gluttony 
-25000157 Curse of Frailty 
-25000158 Curse of Enfeeblement 
-25000159 Curse of Impermanence 
+25000150 Active: Curse of Obscurity 
+25000151 Active: Curse of Vitality 
+25000152 Active: Curse of Wrath 
+25000153 Active: Curse of Pride 
+25000154 Active: Curse of Simplicity 
+25000155 Active: Curse of Fortitude 
+25000156 Active: Curse of Gluttony 
+25000157 Active: Curse of Frailty 
+25000158 Active: Curse of Enfeeblement 
+25000159 Active: Curse of Impermanence 
 
-25000200 Covenant
-25000201 Covenant
-25000202 Covenant
-25000203 Covenant
-25000204 Covenant
-25000205 Covenant
-25000206 Covenant
+25000200 Covenant Acquired: Thieves Pact           - Greirat
+25000201 Covenant Acquired: Chaos Servant          - Cornyx
+25000202 Covenant Acquired: Vinheim Scholars       - Orbeck
+25000203 Covenant Acquired: Pilgrims of Dark       - Karla
+25000204 Covenant Acquired: Way of White           - Irina
+25000205 Covenant Acquired: Dragon Remnants        - Hawkwood
+25000206 Covenant Acquired: Warrior of Sunlight    - Solaire
+25000207 Covenant Acquired: Covenant of Champions  - Domhnall of Zena
 
-25000300 Unmannered Bow     - Cornyx
-25000301 Shrug              - Shrine Handmaid
-25000302 Path of the Dragon - Dragon Altar/Hawkwood
-25000303 Dismissive Point   - Yuria
-25000304 Look Skyward       - Tower Giant
-25000305 Well! What is it!  - Ringfinger Leonhard
-25000306 Praise the Heavens - Irina of Carim
-25000307 Retch              - Archdeacon McDonnell
-25000308 Confused           - Greirat
+25000300 Gesture Acquired: Unmannered Bow     - Cornyx
+25000301 Gesture Acquired: Shrug              - Shrine Handmaid
+25000302 Gesture Acquired: Path of the Dragon - Dragon Altar/Hawkwood
+25000303 Gesture Acquired: Dismissive Point   - Yuria
+25000304 Gesture Acquired: Look Skyward       - Tower Giant
+25000305 Gesture Acquired: Well! What is it!  - Ringfinger Leonhard
+25000306 Gesture Acquired: Praise the Heavens - Irina of Carim
+25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
+25000308 Gesture Acquired: Confused           - Greirat
 
-25001001 Corrupted Gundyr
-25001002 Vordt
-25001003 Curse-rotted Greatwood
-25001004 Crystal Sage
-25001005 Deacons
-25001006 Abyss Watchers
-25001007 High Lord Wolnir
-25001008 Old Demon King
-25001009 Pontiff Sulyvahn
-25001010 Aldrich
-25001011 Yhorm
-25001012 Dancer
-25001013 Oceiros
-25001014 Dragonslayer Armour
-25001015 Ancient Wyvern
-25001016 Nameless King
-25001017 Champion Gundyr
-25001018 Twin Princes
-25001019 Cinder
-25001020 Sister Friede
-25001021 Lordran Remnants
-25001022 Demon Prince
-25001023 Darkeater Midir
-25001024 Slave Knight Gael
-25001025 Halflight
-
-25003000 Companion 
-25003001 Solaire of Astora
+25001001 Boss Kill: Corrupted Gundyr
+25001002 Boss Kill: Vordt
+25001003 Boss Kill: Curse-rotted Greatwood
+25001004 Boss Kill: Crystal Sage
+25001005 Boss Kill: Deacons
+25001006 Boss Kill: Abyss Watchers
+25001007 Boss Kill: High Lord Wolnir
+25001008 Boss Kill: Old Demon King
+25001009 Boss Kill: Pontiff Sulyvahn
+25001010 Boss Kill: Aldrich
+25001011 Boss Kill: Yhorm
+25001012 Boss Kill: Dancer
+25001013 Boss Kill: Oceiros
+25001014 Boss Kill: Dragonslayer Armour
+25001015 Boss Kill: Ancient Wyvern
+25001016 Boss Kill: Nameless King
+25001017 Boss Kill: Champion Gundyr
+25001018 Boss Kill: Twin Princes
+25001019 Boss Kill: Cinder
+25001020 Boss Kill: Sister Friede
+25001021 Boss Kill: Lordran Remnants
+25001022 Boss Kill: Demon Prince
+25001023 Boss Kill: Darkeater Midir
+25001024 Boss Kill: Slave Knight Gael
+25001025 Boss Kill: Halflight
 
 25006000 No Hit state
 
@@ -129,5 +127,49 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009540 Smithbox turn-in
 
 #-------------------------------------
-# Vanilla Event Flags
+# Orbeck
 #-------------------------------------
+# Road of Sacrifices
+73300100 Orbeck: Passed 10 INT Check
+73300101 Orbeck: Failed 10 INT Check
+73300102 Orbeck: Made no promise to give scrolls
+
+73300120 Orbeck: Made hostile
+73300121 Orbeck: Hostility related
+73300122 Orbeck: Hostility related
+73300123 Orbeck: Been attacked but not hostile
+
+73300131 Orbeck: Promised to give scrolls
+73300132 Orbeck: Have more than 10 INT
+
+73301140
+73301150
+73301160
+73301170
+
+# Firelink
+50006131 Orbeck:
+
+70000200 Orbeck: Returned Scroll
+70000201 Orbeck: Returned Sage's Scroll
+70000202 Orbeck: Returned Logan's Scroll
+70000203 Orbeck: Returned Crystal Scroll
+70000204 Orbeck: Returned Golden Scroll
+
+74000550 Orbeck: first greeting in Firelink
+74000551 Orbeck: Initial greeting
+74000552 Orbeck: Not returned any scroll
+74000555 Orbeck: Purchased Aural Decoy, Farron Flashsword, Pestilent Mist and Spook
+74000556 Orbeck: Talk after using talk option once
+74000557 Orbeck: Crystal scroll talk
+
+74000560 Orbeck: Young Dragon Ring reward
+74000561 Orbeck: Slumbering Dragoncrest Ring reward
+
+74000572 Orbeck:
+
+74000582 Orbeck:
+74000583 Orbeck: Purchased all spells
+
+74000591 Orbeck: 
+
