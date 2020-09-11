@@ -92,7 +92,6 @@ Lightning Stake
 
 # Angelic
 Angelic Barrage
-Vow of Agony
 Divine Pillars of Light
 
 #--------------------------------------------------------------------------
@@ -126,6 +125,7 @@ Black Fire Orb
 # Deep
 Dorhys' Gnawing
 Devouring Swarm
+Vow of Agony
 
 # Londor
 Vow of Silence
@@ -1050,7 +1050,7 @@ Deep Protection
 - Ascended Effect: extends duration to 120 seconds.
 
 #--------------------------------------------------------------------------
-# Dark Sorceries - Offensive
+# Hexes - Offensive
 #--------------------------------------------------------------------------
 #--------------------------------
 # Deep Barb
@@ -1194,30 +1194,6 @@ Deep Protection
 - Base Effect: inflicts 10 Curse per bullet.
 - Ascended Effect: emit more projectiles. {*50, individual}
 
-#--------------------------------------------------------------------------
-# Dark Sorceries - Effect
-#--------------------------------------------------------------------------
-#--------------------------------
-# Repel
-#--------------------------------
-- FP Cost: 500
-- INT Req: 32
-- FTH Req: 10
-- Base Effect: increases absorption to 100% for 2 seconds
-- Ascended Effect: lasts for 3 seconds.
-
-#--------------------------------
-# Numbness
-#--------------------------------
-- FP Cost: 800
-- INT Req: 40
-- FTH Req: 10
-- Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20.
-- Ascended Effect: costs 500 FP.
-
-#--------------------------------------------------------------------------
-# Dark Pyromancies - Offensive
-#--------------------------------------------------------------------------
 #--------------------------------
 # Black Fireball
 #--------------------------------
@@ -1282,23 +1258,6 @@ Deep Protection
 - Ascended Effect: emits 5 lines.
 
 #--------------------------------
-# Black Flame Arc
-#--------------------------------
-- FP Cost: 800
-- Base Effect: adds 80 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
-- Ascended Effect: increases stamina damage by 100%.
-
-#--------------------------------
-# Pungent Blade
-#--------------------------------
-- FP Cost: 800
-- Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Poison inflict to 80.
-
-#--------------------------------------------------------------------------
-# Dark Miracles - Offensive
-#--------------------------------------------------------------------------
-#--------------------------------
 # Nibble
 #--------------------------------
 - FP Cost: 120
@@ -1356,6 +1315,58 @@ Deep Protection
 - Ascended Effect: costs 200 FP.
 
 #--------------------------------
+# Vow of Agony
+#--------------------------------
+- FP Cost: 300
+- Dark Damage: 100 (per tick)
+- FTH Req: 25
+- Ascended Effect: lasts for 60 seconds.
+
+#--------------------------------
+# Gravelord Sword Dance
+#--------------------------------
+- FP Cost: 50
+- Dark Damage: 500 {*1, shared}
+- FTH Req: 30
+- Base Effect: inflicts 50 Toxic.
+- Ascended Effect: expands area of effect.
+
+#--------------------------------------------------------------------------
+# Hexes - Effect
+#--------------------------------------------------------------------------
+#--------------------------------
+# Repel
+#--------------------------------
+- FP Cost: 500
+- INT Req: 32
+- FTH Req: 10
+- Base Effect: increases absorption to 100% for 2 seconds
+- Ascended Effect: lasts for 3 seconds.
+
+#--------------------------------
+# Numbness
+#--------------------------------
+- FP Cost: 800
+- INT Req: 40
+- FTH Req: 10
+- Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20.
+- Ascended Effect: costs 500 FP.
+
+#--------------------------------
+# Black Flame Arc
+#--------------------------------
+- FP Cost: 800
+- Base Effect: adds 80 Dark damage to main weapon for 60 seconds. Scales with INT and FTH.
+- Ascended Effect: increases stamina damage by 100%.
+
+#--------------------------------
+# Pungent Blade
+#--------------------------------
+- FP Cost: 800
+- Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Poison inflict to 80.
+
+#--------------------------------
 # Deep Protection
 #--------------------------------
 - FP Cost: 400
@@ -1392,14 +1403,6 @@ Deep Protection
 - Ascended Effect: costs 500 FP.
 
 #--------------------------------
-# Vow of Agony
-#--------------------------------
-- FP Cost: 300
-- Dark Damage: 100 (per tick)
-- FTH Req: 25
-- Ascended Effect: lasts for 60 seconds.
-
-#--------------------------------
 # Pulsating Blade
 #--------------------------------
 - FP Cost: 800
@@ -1408,11 +1411,3 @@ Deep Protection
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
 - Ascended Effect: increases Bleed inflict to 60.
 
-#--------------------------------
-# Gravelord Sword Dance
-#--------------------------------
-- FP Cost: 50
-- Dark Damage: 500 {*1, shared}
-- FTH Req: 30
-- Base Effect: inflicts 50 Toxic.
-- Ascended Effect: expands area of effect.

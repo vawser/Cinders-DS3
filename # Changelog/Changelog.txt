@@ -130,4 +130,21 @@
 #------------------------------
 # TODO - General
 #------------------------------
-971
+Adjust hexes and pyromancies
+ Bring all hexes into line with the INT/FTH split design
+ Change pyromancies to be flat spell buff increased only via reinforcement
+ 
+#------------------------------
+# TODO - Movesets
+#------------------------------
+# Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
+
+# Movesets to add:
+Black Dragon Greatsword
+Black Dragon Sword
+Winged Knight Halberd
+Writhing Hammer
+Scythe of Want
+Vordt's Great Hammer
+Black Dragon Greataxe
+Twinspears of the Forlorn
