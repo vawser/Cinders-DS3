@@ -122,6 +122,7 @@
 - Increased FP cost of Proof of a Pact.
 - Reduced poise/stamina of Proof of a Pact/Ghostly Assault.
 - Increased the pillar count of the pillar spells.
+- Atonement: now boosts absorption by 20% whilst active. 
 
 # Spell Tools
 - Re-IDed the weapon entries, which means old saves will have broken items.
@@ -146,9 +147,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-140
-141
-142
-143
-
-172

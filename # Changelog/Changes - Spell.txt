@@ -1419,7 +1419,7 @@ Deep Protection
 - FP Cost: 500
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: adds target priority to the player. Lasts 30 seconds.
+- Base Effect: adds target priority to the player. Boosts absorption by 20%. Lasts 30 seconds.
 - Ascended Effect: lasts for 60 seconds.
 
 #--------------------------------
