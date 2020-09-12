@@ -118,6 +118,22 @@
  - Pulsating Blade     
  - Pungent Blade  
 - 'Dark' aligned catalysts are now able to cast Hexes.
+- Adjusted the requirements for spells so the level of investment is now comparable between schools. Sorcery/Miracles have single stat reqs from 10 up to 60, Hexes have reqs from 5 to 30, but for both INT and FTH. Pyromancies have no reqs as normal.
+- Increased FP cost of Proof of a Pact.
+- Reduced poise/stamina of Proof of a Pact/Ghostly Assault.
+- Increased the pillar count of the pillar spells.
+
+# Spell Tools
+- Re-IDed the weapon entries, which means old saves will have broken items.
+- Removed the damage affinity mechanic.
+- Removed Chaos Flame
+- Removed Abyssal Flame
+- Removed Fool's Flame
+- Removed Jester's Talisman
+- Made each catalyst cast only one school.
+- Re-added the softcap curve for spell buff so power growth is more consistent from the start.
+- Hex catalysts have an earlier softcap curve since they need to invest in split stats.
+- Pyromancy catalysts require no stats for their growth, just reinforcement, but overall spell buff for them is lower than the other schools.
 
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
@@ -130,21 +146,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Adjust hexes and pyromancies
- Bring all hexes into line with the INT/FTH split design
- Change pyromancies to be flat spell buff increased only via reinforcement
- 
-#------------------------------
-# TODO - Movesets
-#------------------------------
-# Notes: https://docs.google.com/document/d/1uXieV2LUJUd7dEj4XNXNtcNvJ5Sa9V7oArLh5JjXIDg/edit#heading=h.ai4srm5yus5b
-
-# Movesets to add:
-Black Dragon Greatsword
-Black Dragon Sword
-Winged Knight Halberd
-Writhing Hammer
-Scythe of Want
-Vordt's Great Hammer
-Black Dragon Greataxe
-Twinspears of the Forlorn

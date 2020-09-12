@@ -1,0 +1,74 @@
+﻿#------------------------
+# Catalysts
+#------------------------
+# Remove
+13520000 Chaos Flame
+13570000 Abyssal Flame
+13510000 Fool's Flame
+13530000 Jester's Talisman
+
+# Sorceries
+13060000 Sorcerer's Staff           17000000
+13160000 Sage's Crystal Staff       17010000
+13180000 Court Sorcerer's Staff     17020000
+13190000 Witchtree Branch           17030000
+13620000 Velka's Talisman           17040000
+13280000 Sunless Talisman           17050000
+13080000 Mendicant's Staff          17060000
+13200000 Izalith Staff              17070000
+13100000 Man-grub's Staff           17080000
+13250000 Crystal Chime              17090000
+13500000 Sorcerous Flame            17100000
+
+# Miracles
+13050000 Talisman                   18000000
+13640000 Rotten Talisman            18010000
+13650000 Smouldering Talisman       18020000
+13260000 Sunlight Talisman          18030000
+13290000 Saint's Talisman           18040000
+13300000 White Hair Talisman        18050000
+13210000 Cleric's Sacred Chime      18060000
+13140000 Yorshka's Chime            18070000
+13430000 Sacred Chime of Filianore  18080000
+13230000 Saint-tree Bellvine        18090000
+13460000 Holy Flame                 18100000
+
+# Hexes
+13170000 Heretic's Staff            19000000
+13070000 Storyteller's Staff        19010000
+13420000 Murky Longstaff            19020000
+13110000 Archdeacon's Great Staff   19030000
+13600000 Manus Catalyst             19040000
+13610000 Tin Banishment Catalyst    19050000
+13630000 Consumed King's Staff      19060000
+13220000 Fallen Priest's Chime      19070000
+13240000 Caitha's Chime             19080000
+13270000 Corrupted Talisman         19090000
+13590000 Talisman of Beasts         19100000
+13580000 Insanity Catalyst          19110000
+13450000 Black Flame                19120000
+
+# Pyromancies
+13400000 Pyromancy Flame            19800000
+13410000 Pyromancer's Parting Flame 19810000
+
+#------------------------
+# Hybrid Tools
+#------------------------
+# Sorceries
+13120000 Golden Ritual Spear
+10160000 Immolation Tinder
+8220000 Heysel Pick
+13440000 Preacher's Right Arm 
+31150000 Blue Flame 
+
+# Miracles
+2150000 Priest's Candlestick    
+12070000 Rose of Ariandel
+
+# Pyromancies
+4130000 Demon's Scar
+
+# Hexes
+2160000 Cleric's Candlestick
+31360000 Pilgrim's Spontoon
