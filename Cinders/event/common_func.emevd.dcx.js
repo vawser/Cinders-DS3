@@ -6113,5 +6113,3 @@ Event(20090100, Restart, function(X0_4) {
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
-
-

@@ -1659,10 +1659,10 @@ Event(9600, Default, function() {
     InitializeEvent(9, 9630, 25000159, 250001900, 250001901); // Curse of Impermanence
     
     // Marks - Enable
-    InitializeEvent(10, 9630, 25000100, 250003000, 250003001); // Mark of Sanguis
-    InitializeEvent(11, 9632, 25000101, 250003100, 250003101, 30, 0); // Mark of Canis
-    InitializeEvent(12, 9632, 25000102, 250003200, 250003201, 33, 0); // Mark of Piscis
-    InitializeEvent(13, 9630, 25000103, 250003300, 250003301); // Mark of Prismatica
+    InitializeEvent(10, 9630, 25000100, 250003000, 250003001); // Mark of Attraction
+    InitializeEvent(11, 9632, 25000101, 250003100, 250003101, 30, 0); // Mark of the Dog
+    InitializeEvent(12, 9632, 25000102, 250003200, 250003201, 33, 0); // Mark of the Crab
+    InitializeEvent(13, 9630, 25000103, 250003300, 250003301); // Mark of Valor
     
     // Curses - Disable
     InitializeEvent(0, 9631, 25000157, 250001200, 250001201); // Curse of Frailty
@@ -1677,11 +1677,11 @@ Event(9600, Default, function() {
     InitializeEvent(9, 9631, 25000159, 250001900, 250001901); // Curse of Impermanence
     
     // Marks - Disable
-    InitializeEvent(10, 9631, 25000100, 250003000, 250003001); // Mark of Sanguis
-    InitializeEvent(11, 9631, 25000101, 250003100, 250003101); // Mark of Canis
-    InitializeEvent(12, 9631, 25000102, 250003200, 250003201); // Mark of Piscis
-    InitializeEvent(13, 9631, 25000103, 250003300, 250003301); // Mark of Prismatica
-
+    InitializeEvent(10, 9631, 25000100, 250003000, 250003001); // Mark of Attraction
+    InitializeEvent(11, 9631, 25000101, 250003100, 250003101); // Mark of the Dog
+    InitializeEvent(12, 9631, 25000102, 250003200, 250003201); // Mark of the Crab
+    InitializeEvent(13, 9631, 25000103, 250003300, 250003301); // Mark of Valor
+    
     // Covenant Material Drops
     InitializeEvent(0, 9640, 10000, 160100232, 800010000, 800010020); // Thieves' Code
     InitializeEvent(1, 9640, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
@@ -1938,7 +1938,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetSpeffect(10000, 260100020);
+    SetEventFlag(25000100, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });

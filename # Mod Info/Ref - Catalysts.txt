@@ -56,19 +56,20 @@
 # Hybrid Tools
 #------------------------
 # Sorceries
-13120000 Golden Ritual Spear
-10160000 Immolation Tinder
-8220000 Heysel Pick
-13440000 Preacher's Right Arm 
-31150000 Blue Flame 
+13120000 Golden Ritual Spear    17110000
+8220000 Heysel Pick             17120000
+31150000 Blue Flame             17130000
 
 # Miracles
-2150000 Priest's Candlestick    
-12070000 Rose of Ariandel
-
-# Pyromancies
-4130000 Demon's Scar
+2150000 Priest's Candlestick    18110000
+12070000 Rose of Ariandel       18120000
 
 # Hexes
-2160000 Cleric's Candlestick
-31360000 Pilgrim's Spontoon
+2160000 Cleric's Candlestick    19130000
+31360000 Pilgrim's Spontoon     19140000
+13440000 Preacher's Right Arm   19150000
+
+# Pyromancies
+4130000 Demon's Scar            19820000
+10160000 Immolation Tinder      19830000
+

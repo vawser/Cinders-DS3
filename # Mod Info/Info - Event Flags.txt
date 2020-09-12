@@ -27,10 +27,10 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000062 Warp To: Trial of Sorrow
 25000063 Warp To: Trial of Devastation
 
-25000100 Active: Mark of Sanguis
-25000101 Active: Mark of Canis
-25000102 Active: Mark of Piscis
-25000103 Active: Mark of Prismatica
+25000100 Active: Mark of Replication
+25000101 Active: Mark of the Dog
+25000102 Active: Mark of the Crab
+25000103 Active: Mark of Valor
 
 25000150 Active: Curse of Obscurity 
 25000151 Active: Curse of Vitality 

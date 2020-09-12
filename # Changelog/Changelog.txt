@@ -125,7 +125,7 @@
 - Atonement: now boosts absorption by 20% whilst active. 
 
 # Spell Tools
-- Re-IDed the weapon entries, which means old saves will have broken items.
+- Re-IDed the spell tool entries, which means old saves will have broken items.
 - Removed the damage affinity mechanic.
 - Removed Chaos Flame
 - Removed Abyssal Flame
@@ -135,9 +135,16 @@
 - Re-added the softcap curve for spell buff so power growth is more consistent from the start.
 - Hex catalysts have an earlier softcap curve since they need to invest in split stats.
 - Pyromancy catalysts require no stats for their growth, just reinforcement, but overall spell buff for them is lower than the other schools.
+- Hybrid catalysts are no longer infusable. However they are now stronger than their previous baseline to account for this.
 
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
+
+# Marks
+- Renamed Mark of Sanguis to Mark of Attraction
+- Renamed Mark of Canis to Mark of the Dog
+- Renamed Mark of Piscis to Mark of the Crab
+- Renamed Mark of Prismatica to Mark of Valor
 
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
@@ -147,3 +154,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
+xxx5775 NG+
+
+
