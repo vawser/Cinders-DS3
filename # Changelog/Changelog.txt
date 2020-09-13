@@ -14,10 +14,10 @@
 54002072 Cemetery of Ash / Unturned Graves
 53002102 High Wall of Lothric / Consumed King's Garden
 53102094 Undead Settlement
-53302180 Road of Sacrifices / Farron Keep
+53302181 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
 53802177 Catacombs of Carthus / Smouldering Lake
-53702150 Irithyll of the Boreal Valley / Anor Londo
+53702156 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
 53012090 Lothric Castle
 53412134 Grand Archives
@@ -147,10 +147,23 @@
 - Renamed Mark of Prismatica to Mark of Valor
 
 # Companions
+- No longer fully healed when resummoned.
+- The summon tool(s) will now say if the companion is dead or if you are not embered, explaining why the summon failed.
 - Added Slug Whistle: summons Sluggo. Found in Farron Keep.
 - Added Blessed Tipple: summons Father John. Found in Irithyll.
 - Added Miniature Chest: summons Gimbal. Found in Irithyll.
 - Added Old Bone: summons El Hueso. Dropped by defeating El Hueso.
+
+# Treasures
+- Moved the Merchant Ring to Road of Sacrifices
+- Removed Smough's Great Hammer from the Lordran Remnants transposition (as it is a treasure in Irithyll already).
+- Changed some of Domhnall's Awestone items into treasures in Irithyll.
+ - Wretched Pendant treasure
+ - Ring of the Evil Eye
+ - Gloom Set
+ - Heide Mask
+ - Tarnished Knight Set
+ - Brushwood Set
 
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
@@ -160,11 +173,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Pets:
-c5221 Fat Deacon: Father John
-c2120 Gimbal
-c1070 El Hueso
-
-5304 Blessed Tipple
-5305 Miniature Chest
-5306 Old Bone

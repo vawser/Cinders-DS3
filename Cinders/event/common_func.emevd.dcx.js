@@ -5777,20 +5777,24 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Ember active
     WaitForConditionGroupState(PASS, AND_01);
     
     SetSpeffect(10000, 160761300); // Clear current companions
     
+    IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    
     WaitFixedTimeSeconds(0.1);
     
-    // Enable
+    SkipIfCharacterHasSpeffect(7, 10000, 490, false, ComparisonType.Equal, 1); // Ignore summon if not embered
     SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterBackreadState(X0_4, false);
-    
-    // Move to Player and Set Effects
     SetSpeffect(X0_4, X8_4); // Damage scaling
     SetSpeffect(X0_4, 160760100); // Summon effect
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
