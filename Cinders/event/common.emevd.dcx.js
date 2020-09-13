@@ -1852,7 +1852,7 @@ Event(9621, Default, function(X0_4) {
 
 // Hitless Run State
 Event(9622, Default, function(X0_4) {
-    IfCharacterHasSpeffect(MAIN, 1000, 112101, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
     SetEventFlag(25000031, OFF);
 });
 

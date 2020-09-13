@@ -11,13 +11,13 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002071 Cemetery of Ash / Unturned Graves
+54002072 Cemetery of Ash / Unturned Graves
 53002102 High Wall of Lothric / Consumed King's Garden
 53102094 Undead Settlement
 53302180 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
 53802177 Catacombs of Carthus / Smouldering Lake
-53702148 Irithyll of the Boreal Valley / Anor Londo
+53702150 Irithyll of the Boreal Valley / Anor Londo
 53902120 Irithyll Dungeon / Profaned Capital
 53012090 Lothric Castle
 53412134 Grand Archives
@@ -147,8 +147,10 @@
 - Renamed Mark of Prismatica to Mark of Valor
 
 # Companions
-- Added Sluggo: a friendly slug.
 - Added Slug Whistle: summons Sluggo. Found in Farron Keep.
+- Added Blessed Tipple: summons Father John. Found in Irithyll.
+- Added Miniature Chest: summons Gimbal. Found in Irithyll.
+- Added Old Bone: summons El Hueso. Dropped by defeating El Hueso.
 
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
@@ -159,6 +161,10 @@
 # TODO - General
 #------------------------------
 Pets:
-    Mimic
-    Fat Deacon: Father John
-    Boxer Andre
+c5221 Fat Deacon: Father John
+c2120 Gimbal
+c1070 El Hueso
+
+5304 Blessed Tipple
+5305 Miniature Chest
+5306 Old Bone
