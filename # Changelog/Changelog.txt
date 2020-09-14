@@ -155,14 +155,14 @@
 - Added Old Bone: summons El Hueso. Dropped by defeating El Hueso.
 
 # Treasures
-- Moved the Merchant Ring to Road of Sacrifices
+- Moved the Merchant Ring to Road of Sacrifices.
 - Removed Smough's Great Hammer from the Lordran Remnants transposition (as it is a treasure in Irithyll already).
 - Changed some of Domhnall's Awestone items into treasures in Irithyll.
  - Wretched Pendant treasure
  - Ring of the Evil Eye
  - Gloom Set
  - Heide Mask
- - Tarnished Knight Set
+ - Golem Set
  - Brushwood Set
 
 # Bugfixes
