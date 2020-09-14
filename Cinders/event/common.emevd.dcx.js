@@ -1852,7 +1852,7 @@ Event(9621, Default, function(X0_4) {
 
 // Hitless Run State
 Event(9622, Default, function(X0_4) {
-    IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, X0_4, 112101, true, ComparisonType.Equal, 1);
     SetEventFlag(25000031, OFF);
 });
 
@@ -1938,7 +1938,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25000100, ON);
+    SetEventFlag(25000031, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
