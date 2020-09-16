@@ -300,6 +300,7 @@ Event(50, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 2176, 1); // Abyssal Tome
     RemoveItemFromPlayer(ItemType.Goods, 2177, 1); // Angelic Braille Divine Tome
     RemoveItemFromPlayer(ItemType.Goods, 2178, 1); // Heavenly Braille Divine Tome
+    
     SetEventFlag(6400, OFF);
     Label0();
 });
@@ -1938,7 +1939,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25000031, ON);
+    SetEventFlag(25001001, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2014,6 +2015,8 @@ Event(9660, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001001);
+    
     SetEventFlag(14000800, 0);
     SetEventFlag(9319, 0);
     SetEventFlag(6319, 0);
@@ -2029,6 +2032,12 @@ Event(9660, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(40, 0, 4000980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001001);
+    DisplayEpitaphMessage(99030100);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2039,6 +2048,8 @@ Event(9661, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001002);
+    
     SetEventFlag(13000800, 0);
     SetEventFlag(9301, 0);
     SetEventFlag(6301, 0);
@@ -2051,6 +2062,12 @@ Event(9661, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(30, 0, 3000982);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001002);
+    DisplayEpitaphMessage(99030101);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2061,6 +2078,8 @@ Event(9662, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001003);
+    
     SetEventFlag(13100800, 0);
     SetEventFlag(9303, 0);
     SetEventFlag(6303, 0);
@@ -2074,6 +2093,12 @@ Event(9662, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(31, 0, 3100980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001003);
+    DisplayEpitaphMessage(99030102);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2084,6 +2109,8 @@ Event(9663, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001004);
+    
     SetEventFlag(13300850, 0);
     SetEventFlag(9306, 0);
     SetEventFlag(6306, 0);
@@ -2096,6 +2123,12 @@ Event(9663, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(33, 0, 3300980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001004);
+    DisplayEpitaphMessage(99030103);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2106,6 +2139,8 @@ Event(9664, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001005);
+    
     SetEventFlag(13500800, 0);
     SetEventFlag(9311, 0);
     SetEventFlag(6311, 0);
@@ -2118,6 +2153,12 @@ Event(9664, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(35, 0, 3500980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001005);
+    DisplayEpitaphMessage(99030104);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2128,6 +2169,8 @@ Event(9665, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001006);
+    
     SetEventFlag(13300800, 0);
     SetEventFlag(9307, 0);
     SetEventFlag(6307, 0);
@@ -2141,6 +2184,12 @@ Event(9665, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(33, 0, 3300981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001006);
+    DisplayEpitaphMessage(99030105);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2151,6 +2200,8 @@ Event(9666, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001007);
+    
     SetEventFlag(13800800, 0);
     SetEventFlag(9315, 0);
     SetEventFlag(6315, 0);
@@ -2165,6 +2216,12 @@ Event(9666, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(38, 0, 3800980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001007);
+    DisplayEpitaphMessage(99030106);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2175,6 +2232,8 @@ Event(9667, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001008);
+    
     SetEventFlag(13800830, 0);
     SetEventFlag(9317, 0);
     SetEventFlag(6317, 0);
@@ -2187,6 +2246,12 @@ Event(9667, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(38, 0, 3800981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001008);
+    DisplayEpitaphMessage(99030107);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2197,6 +2262,8 @@ Event(9668, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001009);
+    
     SetEventFlag(13700850, 0);
     SetEventFlag(9313, 0);
     SetEventFlag(6313, 0);
@@ -2212,6 +2279,12 @@ Event(9668, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(37, 0, 3700980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001009);
+    DisplayEpitaphMessage(99030108);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2222,6 +2295,8 @@ Event(9669, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001010);
+    
     SetEventFlag(13700800, 0);
     SetEventFlag(9314, 0);
     SetEventFlag(6314, 0);
@@ -2235,6 +2310,12 @@ Event(9669, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(37, 0, 3700981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001010);
+    DisplayEpitaphMessage(99030109);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2245,6 +2326,8 @@ Event(9670, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001011);
+    
     SetEventFlag(13900800, 0);
     SetEventFlag(9318, 0);
     SetEventFlag(6318, 0);
@@ -2257,6 +2340,12 @@ Event(9670, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(39, 0, 3900980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001011);
+    DisplayEpitaphMessage(99030110);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2267,6 +2356,8 @@ Event(9671, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001012);
+    
     SetEventFlag(13000890, 0);
     SetEventFlag(9300, 0);
     SetEventFlag(6300, 0);
@@ -2280,6 +2371,12 @@ Event(9671, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(30, 0, 3000981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001012);
+    DisplayEpitaphMessage(99030111);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2290,6 +2387,8 @@ Event(9672, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001013);
+    
     SetEventFlag(13000830, 0);
     SetEventFlag(9302, 0);
     SetEventFlag(6302, 0);
@@ -2302,6 +2401,12 @@ Event(9672, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(30, 0, 3000983);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001013);
+    DisplayEpitaphMessage(99030112);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2312,6 +2417,8 @@ Event(9673, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001014);
+    
     SetEventFlag(13010800, 0);
     SetEventFlag(9308, 0);
     SetEventFlag(6308, 0);
@@ -2324,6 +2431,12 @@ Event(9673, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(30, 1, 3010980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001014);
+    DisplayEpitaphMessage(99030113);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2334,6 +2447,8 @@ Event(9674, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001015);
+    
     SetEventFlag(13200800, 0);
     SetEventFlag(9305, 0);
     SetEventFlag(6305, 0);
@@ -2346,6 +2461,12 @@ Event(9674, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(32, 0, 3200980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001015);
+    DisplayEpitaphMessage(99030114);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2356,6 +2477,8 @@ Event(9675, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001016);
+    
     SetEventFlag(13200850, 0);
     SetEventFlag(9304, 0);
     SetEventFlag(6304, 0);
@@ -2373,6 +2496,12 @@ Event(9675, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(32, 0, 3200981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001016);
+    DisplayEpitaphMessage(99030115);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2383,6 +2512,8 @@ Event(9676, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001017);
+    
     SetEventFlag(14000830, 0);
     SetEventFlag(9320, 0);
     SetEventFlag(6320, 0);
@@ -2398,6 +2529,12 @@ Event(9676, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(40, 0, 4000981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001017);
+    DisplayEpitaphMessage(99030116);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2408,6 +2545,8 @@ Event(9677, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001018);
+    
     SetEventFlag(13410830, 0);
     SetEventFlag(9309, 0);
     SetEventFlag(6309, 0);
@@ -2421,6 +2560,12 @@ Event(9677, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(34, 1, 3410980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001018);
+    DisplayEpitaphMessage(99030117);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2431,6 +2576,8 @@ Event(9678, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001019);
+    
     SetEventFlag(14100800, 0);
     SetEventFlag(14101100, 0);
     SetEventFlag(9321, 0);
@@ -2445,6 +2592,12 @@ Event(9678, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(41, 0, 4100980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001019);
+    DisplayEpitaphMessage(99030118);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2455,6 +2608,8 @@ Event(9679, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001020);
+    
     SetEventFlag(14500800, 0);
     SetEventFlag(9322, 0);
     SetEventFlag(6322, 0);
@@ -2469,6 +2624,12 @@ Event(9679, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(45, 0, 4500980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001020);
+    DisplayEpitaphMessage(99030119);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2479,6 +2640,8 @@ Event(9680, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001021);
+    
     SetEventFlag(14500860, 0);
     SetEventFlag(14500861, 0);
     SetEventFlag(14500862, 0);
@@ -2494,6 +2657,12 @@ Event(9680, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(45, 0, 4500981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001021);
+    DisplayEpitaphMessage(99030120);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2504,6 +2673,8 @@ Event(9681, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001022);
+    
     SetEventFlag(15000800, 0);
     SetEventFlag(9324, 0);
     SetEventFlag(6324, 0);
@@ -2517,6 +2688,12 @@ Event(9681, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(50, 0, 5000980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001022);
+    DisplayEpitaphMessage(99030121);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 
@@ -2528,6 +2705,8 @@ Event(9682, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001023);
+    
     SetEventFlag(15100850, 0);
     SetEventFlag(9326, 0);
     SetEventFlag(6326, 0);
@@ -2541,6 +2720,12 @@ Event(9682, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(51, 0, 5100980);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001023);
+    DisplayEpitaphMessage(99030122);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2551,6 +2736,8 @@ Event(9683, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001024);
+    
     SetEventFlag(15110800, 0);
     SetEventFlag(9327, 0);
     SetEventFlag(6327, 0);
@@ -2564,6 +2751,11 @@ Event(9683, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(51, 0, 5110980);
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001024);
+    DisplayEpitaphMessage(99030123);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
@@ -2574,6 +2766,8 @@ Event(9684, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001025);
+    
     SetEventFlag(15100800, 0);
     SetEventFlag(6325, 0);
     SetEventFlag(9325, 0);
@@ -2587,6 +2781,12 @@ Event(9684, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(51, 0, 5100981);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001025);
+    DisplayEpitaphMessage(99030124);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------

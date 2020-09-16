@@ -45,6 +45,7 @@
 - You now purchase the tomes from Magnum Ursus in Firelink Shrine. They are consumable and cost 10% of the bosses base soul reward. You can purchase multiple.
 - Each tome appears once you have defeated its boss for the first time.
 - Blood of Might is now Tome: Champions of Yore.
+- Tomes are no longer removed in NG+, but will only work once the boss has been killed in that journey atleast once.
 
 # Weapons
 - Reduced the damage of the pistol sidearms.
@@ -131,11 +132,11 @@
 - Removed Abyssal Flame
 - Removed Fool's Flame
 - Removed Jester's Talisman
-- Made each catalyst cast only one school.
 - Re-added the softcap curve for spell buff so power growth is more consistent from the start.
 - Hex catalysts have an earlier softcap curve since they need to invest in split stats.
 - Pyromancy catalysts require no stats for their growth, just reinforcement, but overall spell buff for them is lower than the other schools.
 - Hybrid catalysts are no longer infusable. However they are now stronger than their previous baseline to account for this.
+- Only Hex catalysts have the ability to cast multiple schools. And for the non-Hex schools, it is at 50% effectiveness.
 
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
