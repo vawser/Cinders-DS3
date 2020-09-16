@@ -50,6 +50,9 @@
 # Weapons
 - Reduced the damage of the pistol sidearms.
 
+# Infusions
+- Fire infusion is now more of a psuedo-Raw infusion. It removes all scaling, but the base damage for Fire is much higher than normal. This is to bring it into line with the new design for Pyromancies, and to make it distinct from the Dark infusion.
+
 # Rings
 - Added Relic of Power: whilst equipped, the wearer gains the following:
  - Boosts all damage by 5%.
@@ -178,4 +181,7 @@
 #------------------------------
 # TODO - General
 #------------------------------
-972
+Change Orbeck/Greirat/Painter ESD changes back
+ Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
+
+Add spell based on prism stones (make Fester use it)
