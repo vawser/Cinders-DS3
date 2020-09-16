@@ -181,7 +181,8 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Change Orbeck/Greirat/Painter ESD changes back
- Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
+Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
+
+Fix the Painter not moving to the chapel, probably a bad flag check causing it
 
 Add spell based on prism stones (make Fester use it)
