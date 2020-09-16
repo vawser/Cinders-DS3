@@ -137,6 +137,7 @@
 - Pyromancy catalysts require no stats for their growth, just reinforcement, but overall spell buff for them is lower than the other schools.
 - Hybrid catalysts are no longer infusable. However they are now stronger than their previous baseline to account for this.
 - Only Hex catalysts have the ability to cast multiple schools. And for the non-Hex schools, it is at 50% effectiveness.
+- Added Fool's Catalyst: can cast all schools but has a fixed spell buff of 100, although spell damage itself still scales with Luck (250 spell buff equivalent). Uses Rubbish to reinforce. Dropped by Fester the Jester.
 
 # Merchants
 - Removed the purchase limits on spells and goods that are fine to purchase more than once.
@@ -165,6 +166,9 @@
  - Heide Mask
  - Golem Set
  - Brushwood Set
+ 
+# Covenants
+- Thieves' Pact now drops Rubbish occasionlly.
 
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
