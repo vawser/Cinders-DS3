@@ -6117,3 +6117,37 @@ Event(20090100, Restart, function(X0_4) {
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
+
+//----------------------------------------------
+// Status - Frost
+// <entity id>, <speffect trigger>
+//----------------------------------------------
+Event(20090200, Restart, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(MAIN, X0_4, X4_4, true, ComparisonType.Equal, 1);
+    
+    SetSpeffect(X0_4, 180021010); // Disable Frost for 5 seconds
+    SetCharacterAIState(X0_4, Disabled);
+    
+    WaitFixedTimeSeconds(3.0);
+    
+    SetCharacterAIState(X0_4, Enabled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// 
+// 
+//----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

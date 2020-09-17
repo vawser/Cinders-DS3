@@ -53,6 +53,9 @@
 # Infusions
 - Fire infusion is now more of a psuedo-Raw infusion. It removes all scaling, but the base damage for Fire is much higher than normal. This is to bring it into line with the new design for Pyromancies, and to make it distinct from the Dark infusion.
 
+# Status Effects
+- Frost now actually disables enemy AI for 3 seconds when it procs, instead of relying on the stamina removal to prevent attacks. Note that enemies will be immune to frost buildup for 5 seconds after this procs.
+
 # Rings
 - Added Relic of Power: whilst equipped, the wearer gains the following:
  - Boosts all damage by 5%.
@@ -186,3 +189,4 @@ Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, ra
 Fix the Painter not moving to the chapel, probably a bad flag check causing it
 
 Add spell based on prism stones (make Fester use it)
+
