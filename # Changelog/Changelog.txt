@@ -54,7 +54,38 @@
 - Fire infusion is now more of a psuedo-Raw infusion. It removes all scaling, but the base damage for Fire is much higher than normal. This is to bring it into line with the new design for Pyromancies, and to make it distinct from the Dark infusion.
 
 # Status Effects
-- Frost now actually disables enemy AI for 3 seconds when it procs, instead of relying on the stamina removal to prevent attacks. Note that enemies will be immune to frost buildup for 5 seconds after this procs.
+- Frost now actually disables enemy AI for 3 seconds when it procs, instead of relying on the stamina removal to prevent attacks. Note that AI enemies will be immune to frost buildup for 5 seconds after this procs.
+- Adjusted the aux resistances on enemies. Most normal enemies are easier to inflict before killing them normally.
+- Enemies that used to be immune to a status are now just twice as resistant.
+- Adjusted general aux inflict values.
+- Reduced the added aux from the bite rings to 15.
+- Reduced the added aux from armor hand pieces to 15.
+- Frozen Weapon: reduces Frost inflict to 30 (60 ascended).
+- Snap Freeze: reduces Frost inflict to 15.
+- Poison Mist: increased Poison inflict to 30.
+- Toxic Mist: increased Toxic inflict to 15.
+- Nibble: reduced Bleed inflict to 15 (30 ascended).
+- Gnaw: reduced Bleed inflict to 30 (45 ascended).
+- Dorhys' Gnawing: reduced Bleed inflict to 45 (60 ascended).
+- Devouring Swarm: reduced Bleed inflict to 5.
+- Blizzed: reduced Frost inflict to 60.
+- Deep Barb: reduced Curse inflict to 15 (30 ascended).
+- Deep Soul: reduced Curse inflict to 30 (45 ascended).
+- Great Deep Soul: reduced Curse inflict to 45 (60 ascended).
+- Great Soul Dregs: reduced Curse inflict to 60 (75 ascended).
+- Yearning Dregs: increased Curse inflict to 60
+- Writhing Deep: increased Curse inflict to 90 (120 ascended).
+- Cascading Deep: increased Curse inflict to 15
+- Surging Deep: increased Curse inflict to 15 (30 ascended).
+- Dreg Torrent: increased Curse inflict to 15
+- Whisper of Despair: reduced Curse inflict to 90 (120 ascended).
+- Pestilent Mist: increased Curse inflict to 15
+- White Dragon Breath: increased Curse inflict to 60
+- Dark Bead: reduced ascended inflict to 5.
+- Caitha's Chime WA: reduced Bleed inflict to 60.
+- Fecal Expulsion: reduced Toxic inflict to 15.
+- Gravelord Sword Dance: increased Toxic inflict to 60.
+- Gravelord Sword now deals Toxic type poison.
 
 # Rings
 - Added Relic of Power: whilst equipped, the wearer gains the following:
@@ -73,7 +104,7 @@
  - Reduces FP consumption of spells and skills by 20%.
  - Reduces weapon stamina consumption by 20%.
  - Exclusive with the Talisman of Power.
- 
+
 # Items
 - Transformation/Elixir/Oil items now persist through loading.
 - Added Rattling Skull so the skeleton form uses the two item format.
@@ -188,5 +219,10 @@ Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, ra
 
 Fix the Painter not moving to the chapel, probably a bad flag check causing it
 
-Add spell based on prism stones (make Fester use it)
+Document enemy AI and setup workflow
+ Once sufficient understanding is setup, make tweaks
+
+Add back passage from Cemetery to Oceiros
+ Would need to allow for back entrance to Oceiros
+ Would need to rework the UG transition so the player enables it, rather than it happening automagically
 

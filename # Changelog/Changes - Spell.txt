@@ -227,7 +227,7 @@ Deep Protection
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 500 [100] 
-- Effect: inflicts 30 Curse.
+- Effect: inflicts 60 Curse.
 - Ascended Effect: extends the length of the breath.
 
 #--------------------------------
@@ -294,7 +294,7 @@ Deep Protection
 - FP Cost: 50
 - INT Req: 30
 - Magic Damage: 400 {*5, shared}
-- Base Effect: inflicts Frost on hit.
+- Base Effect: inflicts 60 Frost on hit.
 - Ascended Effect: expands area of effect, {*8, shared}
 
 #--------------------------------
@@ -310,7 +310,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 200
 - INT Req: 40
-- Base Effect: inflicts 10 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
+- Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
 - Ascended Effect: extends duration to 10 seconds.
 
 #--------------------------------
@@ -318,7 +318,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 200
 - INT Req: 20
-- Base Effect: summons patch that deals 50 Frost per tick. Lasts 5 seconds.
+- Base Effect: summons patch that deals 15 Frost per tick. Lasts 5 seconds.
 - Ascended Effect: extends duration to 10 seconds.
 
 #--------------------------------
@@ -370,8 +370,8 @@ Deep Protection
 #--------------------------------
 - FP Cost: 500
 - INT Req: 30
-- Base Effect: Adds 40 Frost inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Frost inflict to 80.
+- Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
+- Ascended Effect: increases Frost inflict to 60.
 
 #--------------------------------
 # Magic Shield
@@ -628,7 +628,7 @@ Deep Protection
 # Poison Mist
 #--------------------------------
 - FP Cost: 200
-- Base Effect: summons patch of poison that deals 25 Poison aux for 6 seconds.
+- Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
 - Ascended Effect: lasts for 12 seconds.
 
 #--------------------------------
@@ -636,7 +636,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 300
 - Slot Use: 2
-- Base Effect: summons patch of poison that deals 10 Toxic aux for 6 seconds.
+- Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
 - Ascended Effect: lasts for 12 seconds.
 
 #--------------------------------
@@ -1106,8 +1106,8 @@ Deep Protection
 #--------------------------------
 - FP Cost: 140
 - Dark Damage: 200
-- Base Effect: inflicts 10 Curse.
-- Ascended Effect: inflicts 20 Curse.
+- Base Effect: inflicts 15 Curse.
+- Ascended Effect: inflicts 30 Curse.
 - INT Req: 5
 - FTH Req: 5
 
@@ -1119,7 +1119,7 @@ Deep Protection
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: inflicts 60 Curse.
+- Ascended Effect: inflicts 45 Curse.
 
 #--------------------------------
 # Great Deep Soul
@@ -1128,8 +1128,8 @@ Deep Protection
 - Dark Damage: 400
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: inflicts 50 Curse.
-- Ascended Effect: inflicts 100 Curse.
+- Base Effect: inflicts 45 Curse.
+- Ascended Effect: inflicts 60 Curse.
 
 #--------------------------------
 # Great Soul Dregs
@@ -1139,8 +1139,8 @@ Deep Protection
 - Dark Damage: 600 
 - INT Req: 25
 - FTH Req: 25
-- Base Effect: inflicts 75 Curse.
-- Ascended Effect: inflicts 150 Curse.
+- Base Effect: inflicts 60 Curse.
+- Ascended Effect: inflicts 75 Curse.
 
 #--------------------------------
 # Dark Edge
@@ -1169,7 +1169,7 @@ Deep Protection
 - Dark Damage: 120 {*7, individual}
 - INT Req: 25
 - FTH Req: 25
-- Ascended Effect: inflicts 10 Curse per bullet.
+- Ascended Effect: inflicts 5 Curse per bullet.
 
 #--------------------------------
 # Surging Deep
@@ -1178,8 +1178,8 @@ Deep Protection
 - Dark Damage: 150
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: inflicts 10 Curse.
-- Ascended Effect: inflicts 20 Curse.
+- Base Effect: inflicts 15 Curse.
+- Ascended Effect: inflicts 30 Curse.
 
 #--------------------------------
 # Cascading Deep
@@ -1188,7 +1188,7 @@ Deep Protection
 - Dark Damage: 80 {*50, individual}
 - INT Req: 20
 - FTH Req: 20
-- Base Effect: inflicts 10 Curse per bullet.
+- Base Effect: inflicts 15 Curse per bullet.
 - Ascended Effect: emit more projectiles. {*100, individual}
 
 #--------------------------------
@@ -1198,7 +1198,7 @@ Deep Protection
 - Dark Damage: 400 {*5, shared}
 - INT Req: 20
 - FTH Req: 20
-- Base Effect: inflicts 50 Curse per pillar.
+- Base Effect: inflicts 60 Curse per pillar.
 - Ascended Effect: expand emitter radius, {*8, shared}
 
 #--------------------------------
@@ -1209,7 +1209,7 @@ Deep Protection
 - Dark Damage: 150 {*25, individual}
 - INT Req: 25
 - FTH Req: 25
-- Base Effect: inflicts 10 Curse per bullet.
+- Base Effect: inflicts 15 Curse per bullet.
 - Ascended Effect: emit more projectiles. {*50, individual}
 
 #--------------------------------
@@ -1219,8 +1219,8 @@ Deep Protection
 - Dark Damage: 300 [900] 
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: inflicts 75 Curse.
-- Ascended Effect: inflicts 150 Curse.
+- Base Effect: inflicts 90 Curse.
+- Ascended Effect: inflicts 120 Curse.
 
 #--------------------------------
 # Climax
@@ -1248,8 +1248,8 @@ Deep Protection
 - FP Cost: 300
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: inflicts 100 Curse.
-- Ascended Effect: inflicts 200 Curse.
+- Base Effect: inflicts 90 Curse.
+- Ascended Effect: inflicts 120 Curse.
 
 #--------------------------------
 # Black Fireball
@@ -1344,8 +1344,8 @@ Deep Protection
 - INT Req: 5
 - FTH Req: 5
 - Dark Damage: 200
-- Base Effect: inflicts 20 Bleed
-- Ascended Effect: costs 100 FP.
+- Base Effect: inflicts 15 Bleed
+- Ascended Effect: inflicts 30 Bleed
 
 #--------------------------------
 # Gnaw
@@ -1354,8 +1354,8 @@ Deep Protection
 - INT Req: 10
 - FTH Req: 10
 - Dark Damage: 300
-- Base Effect: inflicts 60 Bleed
-- Ascended Effect: inflicts 120 Bleed
+- Base Effect: inflicts 30 Bleed
+- Ascended Effect: inflicts 45 Bleed
 
 #--------------------------------
 # Dorhys' Gnawing
@@ -1365,8 +1365,8 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Dark Damage: 400
-- Base Effect: inflicts 100 Bleed
-- Ascended Effect: inflicts 200 Bleed
+- Base Effect: inflicts 45 Bleed
+- Ascended Effect: inflicts 60 Bleed
 
 #--------------------------------
 # Lifehunt Scythe
@@ -1387,7 +1387,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Dark Damage: 160 {*25, individual}
-- Base Effect: inflicts 10 Bleed
+- Base Effect: inflicts 5 Bleed
 - Ascended Effect: emits more projectiles. {*50, individual}
 
 #--------------------------------
