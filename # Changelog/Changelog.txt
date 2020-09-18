@@ -226,3 +226,19 @@ Add back passage from Cemetery to Oceiros
  Would need to allow for back entrance to Oceiros
  Would need to rework the UG transition so the player enables it, rather than it happening automagically
 
+Dancer
+ Enable ladder by default once Dancer is dead
+ Remove basin stuff
+ Speak to Emma to start Dancer fight
+  Init scripts as if fogwall has been used
+  Hide emma
+  Hide ladder
+  enable fogwall
+  
+
+3000899 Dancer
+3000705 Emma
+3001087 Ladder
+3001896 Basin Statue
+
+3001890 Dancer front fogwall
