@@ -3482,40 +3482,48 @@ Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 // Boss - Enter Boss Room 
-// Args: <boss_flag_id>, <fogwall_id>, <start_area_id>, <flag_id>, <action_id>, <boss_entity_id>, <flag>, <start_area_id>
+// Args: <boss_defeat_flag_id>, <fogwall_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <boss_entity_id>, 
+// <skip_flag_id>, <entrance_trigger_id>
 Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X24_4, 0);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X24_4);
-    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfConditionGroup(AND_01, PASS, OR_01);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is dead
+    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X24_4, 0); // Goto Label 0 if flag is 0
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X24_4); // Goto Label 0 if flag is 1
+    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0); // Skip if entrance trigger 2 is non-existent
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X28_4, 1); // Check if player is in entrance trigger 2
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4); // Check if flag is ON
+    IfConditionGroup(AND_01, PASS, OR_01); 
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
     IfConditionGroup(MAIN, PASS, AND_01);
     GotoUnconditionally(Label.LABEL1);
+    
+    // Host entrance
     Label0();
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL3, true);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfActionButtonInArea(AND_01, X16_4, X4_4);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss isn't dead
+    IfActionButtonInArea(AND_01, X16_4, X4_4); // If fogwall is used
     IfConditionGroup(MAIN, PASS, AND_01);
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
     RotateCharacter(10000, X8_4, 60060, true);
+    
+    // Client entrance
     Label3();
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X12_4);
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X12_4); // Boss has started
     IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss is alive
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1); // If in entrance trigger 1
     IfElapsedSeconds(OR_03, 3);
     IfConditionGroup(OR_02, PASS, OR_03);
     IfConditionGroup(AND_02, PASS, OR_02);
     IfConditionGroup(MAIN, PASS, AND_02);
     EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_03);
+    
+    // Boss start
     Label1();
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
     IssueBossRoomEntryNotification(0);
     SetNetworkUpdateAuthority(X20_4, AuthorityLevel.Forced);
+    
     Label2();
     ActivateMultiplayerdependantBuffs(X20_4);
     SetNetworkconnectedEventFlag(X12_4, ON);
@@ -3523,46 +3531,32 @@ Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Boss - Enter Fogwall
-Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfActionButtonInArea(AND_01, X12_4, X4_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    RotateCharacter(10000, X8_4, 60060, true);
-    SendAllPhantomsHome(0);
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Boss - Enter Boss Room (Client)
-// Args: <boss_flag_id>, <fogwall_id>, <start_area_id>, <flag_id>, <action_id>, <start_area_id>
+// Args: <boss_flag_id>, <fogwall_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <flag_id>
 Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is dead
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X12_4, OFF);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
+    SetEventFlag(X12_4, OFF); // Boss started flag off
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss isn't dead
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4); // If boss has started
     IfCharacterType(AND_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfActionButtonInArea(AND_01, X16_4, X4_4);
+    IfActionButtonInArea(AND_01, X16_4, X4_4); // If fogwall is used
     IfConditionGroup(MAIN, PASS, AND_01);
     RotateCharacter(10000, X8_4, 60060, true);
     IfCharacterType(AND_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1);
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1); // If client is in entrance trigger
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(AND_02, PASS, OR_02);
     IfConditionGroup(MAIN, PASS, AND_02);
     EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
-    SetEventFlag(X20_4, ON);
+    SetEventFlag(X20_4, ON); 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Boss - Enter Boss Room
+// Unk
 Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
@@ -3580,6 +3574,22 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
     ActivateMultiplayerdependantBuffs(X24_4);
     SetEventFlag(X4_4, ON);
+});
+
+// Boss - Enter Fogwall
+Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    SetNetworkSyncState(Disabled);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
+    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
+    IfConditionGroup(AND_01, PASS, OR_01);
+    IfActionButtonInArea(AND_01, X12_4, X4_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    RotateCharacter(10000, X8_4, 60060, true);
+    SendAllPhantomsHome(0);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Boss - Toggle Fogwall State
@@ -6134,14 +6144,3 @@ Event(20090200, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-
-
-
-
-
-
-
-
-
-
-

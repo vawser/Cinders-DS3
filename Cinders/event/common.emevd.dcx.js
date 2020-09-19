@@ -183,8 +183,9 @@ Event(0, Default, function() {
 });
 
 Event(50, Default, function() {
-    InitializeEvent(0, 231, 0);
-    InitializeEvent(0, 232, 0);
+    //InitializeEvent(0, 231, 0); // UG Ceremony Monitor
+    InitializeEvent(0, 232, 0); // Undead Settlement Ceremony Monitor
+    
     InitializeEvent(0, 701, 0);
     InitializeEvent(0, 700, 0);
     InitializeEvent(0, 9012, 0);

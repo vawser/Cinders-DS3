@@ -212,6 +212,12 @@
 - Moved the Echo Vordt and the corpse treasure in the transition section from Lothric Castle into Grand Archives elsewhere.
 - Added ElFonz0's fixed Burial Knight models.
 
+# Map
+- Moved Grave Warden Lillian to the sidepath at the end of Cemetery of Ash.
+- Grave Warden Lillian now ports you to Untended Graves.
+- Added ladder from Cemetery of Ash into Consumed King's Garden.
+- Oceiros can now be started from the back passage.
+
 #------------------------------
 # TODO - General
 #------------------------------
@@ -222,23 +228,5 @@ Fix the Painter not moving to the chapel, probably a bad flag check causing it
 Document enemy AI and setup workflow
  Once sufficient understanding is setup, make tweaks
 
-Add back passage from Cemetery to Oceiros
- Would need to allow for back entrance to Oceiros
- Would need to rework the UG transition so the player enables it, rather than it happening automagically
+Adjust Dancer boss fight so it is started via the basin
 
-Dancer
- Enable ladder by default once Dancer is dead
- Remove basin stuff
- Speak to Emma to start Dancer fight
-  Init scripts as if fogwall has been used
-  Hide emma
-  Hide ladder
-  enable fogwall
-  
-
-3000899 Dancer
-3000705 Emma
-3001087 Ladder
-3001896 Basin Statue
-
-3001890 Dancer front fogwall
