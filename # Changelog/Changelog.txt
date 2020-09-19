@@ -207,6 +207,9 @@
 # Covenants
 - Thieves' Pact now drops Rubbish occasionlly.
 
+# Classes
+- Priest now starts with Lightning Arrow instead of Lightning Spear.
+
 # Bugfixes
 - You can now block whilst two-handing a weapon in your right-hand whilst a sidearm is stowed on your back on the left.
 - Moved the Echo Vordt and the corpse treasure in the transition section from Lothric Castle into Grand Archives elsewhere.
@@ -218,6 +221,7 @@
 - Added ladder from Cemetery of Ash into Consumed King's Garden.
 - Oceiros can now be started from the back passage.
 - Moved Solaire to the back passage of Oceiros.
+- Changed Soldier's Nook into King's Sanctum, moved to Oceiros back passage.
 
 #------------------------------
 # TODO - General
