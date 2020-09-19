@@ -561,7 +561,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 360
 - Slot Use: 2
-- Fire Damage: 150 {*25, individual}
+- Fire Damage: 50 {*25, individual}
 - Ascended Effect: emits more fireballs. {*50, individual}
 
 #--------------------------------
@@ -853,7 +853,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 600
 - Slot Use: 2
-- Physical Damage: 150 {*16, shared}
+- Physical Damage: 75 {*16, shared}
 - FTH Req: 50
 - Ascended Effect: emits more beams. {*25, shared}
 
@@ -1206,7 +1206,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 360
 - Slot Use: 2
-- Dark Damage: 150 {*25, individual}
+- Dark Damage: 50 {*25, individual}
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 15 Curse per bullet.
@@ -1324,7 +1324,7 @@ Deep Protection
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 150 {*25, individual}
+- Dark Damage: 50 {*25, individual}
 - Ascended Effect: emits more orbs. {*50, individual}
 
 #--------------------------------
@@ -1386,7 +1386,7 @@ Deep Protection
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 160 {*25, individual}
+- Dark Damage: 50 {*25, individual}
 - Base Effect: inflicts 5 Bleed
 - Ascended Effect: emits more projectiles. {*50, individual}
 
