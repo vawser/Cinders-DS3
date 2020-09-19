@@ -217,16 +217,15 @@
 - Grave Warden Lillian now ports you to Untended Graves.
 - Added ladder from Cemetery of Ash into Consumed King's Garden.
 - Oceiros can now be started from the back passage.
+- Moved Solaire to the back passage of Oceiros.
 
 #------------------------------
 # TODO - General
 #------------------------------
-Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
-
-Fix the Painter not moving to the chapel, probably a bad flag check causing it
-
 Document enemy AI and setup workflow
  Once sufficient understanding is setup, make tweaks
+ 
+Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
+Fix the Painter not moving to the chapel, probably a bad flag check causing it
 
-Adjust Dancer boss fight so it is started via the basin
 
