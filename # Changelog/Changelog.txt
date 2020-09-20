@@ -120,6 +120,7 @@
 - Added Tainted Chalice: adds 30 Poison inflict. Transposed from Greatwood soul.
 - Added Accursed Sigil: adds 30 Curse inflict. Transposed from Corrupted Gundyr soul. 
 - Added Frostflower Ring: adds 30 Frost inflict. Transposed from Vordt soul.
+- Saint's Ring: grants 3 additional attunement slots.
 
 # Items
 - Transformation/Elixir/Oil items now persist through loading.
@@ -244,9 +245,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Document enemy AI and setup workflow
- Once sufficient understanding is setup, make tweaks
- 
-Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
-Fix the Painter not moving to the chapel, probably a bad flag check causing it
-
