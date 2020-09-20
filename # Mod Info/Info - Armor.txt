@@ -1,90 +1,198 @@
-﻿# Effects
-1: Super Light
-2: Light
-3: Medium
-4: Medium
-5: Heavy
-6: Ultra Heavy
-
+﻿
+#-----------------------------
+# Cardinal Stats
+#-----------------------------
 - Max HP
-- Max FP
-- Max Stamina
-- Equip load
-- Stability
-- Anti-Demon
-- Anti-Undead
-- Anti-Hollow
-- Anti-Abyssal
-- Weapon Stamina Consumption
- 1: 10 [1.02, 1.04, 1.01, 1.03]
- 2: 10 [1.02, 1.04, 1.01, 1.03]
- 3: 8  [1.016, 1.032, 1.008, 1.024] # [0.984, 0.968, 0.992, 0.976]
- 4: 8  [1.016, 1.032, 1.008, 1.024]
- 5: 6  [1.02, 1.024, 1.006, 1.018]
- 6: 6  [1.02, 1.024, 1.006, 1.018]
+Effect: increases max HP by 5%.
 
-- HP Regen
-- FP Regen
+- Max FP
+Effect: increases max FP by 5%.
+
+- Max Stamina
+Effect: increases max Stamina by 5%.
+    
+- Equip load
+Effect: increases equipment load by 10%.
+
 - Stamina Recovery
+Effect: increases stamina recovery by 10.
+
+#-----------------------------
+# Stats
+#-----------------------------
 - Vigor
+Effect: increases Vigor by 5.
+    
 - Attunement
+Effect: increases Attunement by 5.
+    
 - Endurance
+Effect: increases Endurance by 5.
+    
 - Vitality
+Effect: increases Vitality by 5.
+    
 - Strength
+Effect: increases Strength by 5.
+    
 - Dexterity
+Effect: increases Dexterity by 5.
+    
 - Intelligence
+Effect: increases Intelligence by 5.
+    
 - Faith
+Effect: increases Faith by 5.
+
 - Luck
- 1: 10 [2, 4, 1, 3]
- 2: 10 [2, 4, 1, 3]
- 3: 8  [2, 3, 1, 2]
- 4: 8  [2, 3, 1, 2]
- 5: 6  [1, 2, 1, 2]
- 6: 6  [1, 2, 1, 2]
+Effect: increases Luck by 5.
+
+#-----------------------------
+# Damage
+#-----------------------------
+- Physical Damage
+Effect: increases Physical damage by 5%.
+   
+- Magic Damage
+Effect: increases Magic damage by 5%.
+    
+- Fire Damage
+Effect: increases Fire damage by 5%.
+    
+- Lightning Damage
+Effect: increases Lightning damage by 5%.
+    
+- Dark Damage
+Effect: increases Dark damage by 5%.
+    
+- Anti-Demon
+Effect: boosts damage against Demons by 5%.
+    
+- Anti-Undead
+Effect: boosts damage against Undead by 5%.
+    
+- Anti-Hollow
+Effect: boosts damage against Hollows by 5%.
+
+- Anti-Abyssal
+Effect: boosts damage against Abyssal enemies by 5%.
+
+#-----------------------------
+# Defence
+#-----------------------------
+- Physical Absorption
+Effect: increases Physical absorption by 10%.
+
+- Slash Absorption
+Effect: increases Slash absorption by 10%.
+
+- Strike Absorption
+Effect: increases Strike absorption by 10%.
+
+- Thrust Absorption
+Effect: increases Thrust absorption by 10%.
+
+- Magic Absorption
+Effect: increases Magic absorption by 10%.
+
+- Fire Absorption
+Effect: increases Fire absorption by 10%.
+
+- Lightning Absorption
+Effect: increases Lightning absorption by 10%.
+
+- Dark Absorption
+Effect: increases Dark absorption by 10%.
+
+#-----------------------------
+# Weapon Stats
+#-----------------------------
+- Weapon Stamina Consumption
+Effect: reduces weapon stamina consumption by 10%.
+
+- Stability
+Effect: increases shield stability by 5%.
 
 - Stamina Damage
-- Item Discovery
-- Effect duration
- 1: 50 [1.1, 1.2, 1.05, 1.15]
- 2: 50 [1.1, 1.2, 1.05, 1.15]
- 3: 40 [1.08, 1.16, 1.04, 1.12]
- 4: 40 [1.08, 1.16, 1.04, 1.12]
- 5: 30 [1.06, 1.12, 1.03, 1.09]
- 6: 30 [1.06, 1.12, 1.03, 1.09]
- 
-- Poison aura
-- Bleed aura
-- Frost aura
-- Curse aura
+Effect: increases stamina damage by 25%.
+
 - Bow Distance
-- Deflection
- 1: 50 [10, 20, 5, 15]
- 2: 50 [10, 20, 5, 15]
- 3: 40 [8, 16, 4, 12]
- 4: 40 [8, 16, 4, 12]
- 5: 30 [6, 12, 3, 9]
- 6: 30 [6, 12, 3, 9]
+Effect: increases range of bows, greatbows and crossbows by 50.
+
+- Cast Speed
+Effect: boosts casting speed by 20.
 
 - Skill FP Cost
-- Sorcery Cost
-- Pyromancy Cost
-- Miracle Cost
-- Soul absorption
+Effect: reduces skill FP consumption by 10%.
+
+#-----------------------------
+# Recovery
+#-----------------------------
+- HP Regen
+Effect: restores 2 HP per second.
+    
 - HP Estus Restore
+Effect: boosts the HP restoration of the Estus Flask by 10%.
+
 - FP Estus Restore
- 1: 20 [1.04, 1.08, 1.02, 1.06]
- 2: 20 [1.04, 1.08, 1.02, 1.06]
- 3: 15 [1.03, 1.06, 1.015, 1.045]
- 4: 15 [1.03, 1.06, 1.015, 1.045]
- 5: 10 [1.02, 1.04, 1.01, 1.03]
- 6: 10 [1.02, 1.04, 1.01, 1.03]
+Effect: boosts the FP restoration of the Ashen Estus Flask by 10%.
+
+- HP Effectiveness
+Effect: increases effectiveness of HP recovery by 10%.
 
 - Attack: HP absorb
+Effect: imbues weapon, absorbing 50 HP on kill.
+
 - Attack: FP absorb
- 1: 50 [10, 20, 5, 15]
- 2: 50 [10, 20, 5, 15]
- 3: 40 [8, 16, 4, 12]
- 4: 40 [8, 16, 4, 12]
- 5: 30 [6, 12, 3, 9]
- 6: 30 [6, 12, 3, 9]
- 
+Effect: imbues weapon, absorbing 50 FP on kill.
+
+#-----------------------------
+# Utility
+#-----------------------------
+- Item Discovery
+Effect: increases Item Discovery by 50.
+    
+- Effect Duration
+Effect: boosts effect duration by 25%.
+
+- Soul absorption
+Effect: boosts soul absorption by 10%.
+    
+- Sound Detection
+Effect: reduces detection via sound by 50%.
+
+- Sight Detection
+Effect: reduces detection via sight by 50%.
+
+#-----------------------------
+# Unique
+#-----------------------------
+- Symbol of Avarice
+Effect: increases Item Discovery by 100 and reduces HP by 5 per second.
+
+- Crown of Illusion
+Effect: boosts soul absorption by 10% and reveals the unseen in the Grand Archives.
+
+- Winged Helm of Ridoh
+Effect: successive attacks will restore estus if done for long enough.
+
+- Firelink Set
+Effect: increases Physical, Magic, Fire, Lightning and Dark damage by 3%.
+
+- Black Dragon Set
+Effect: imbues kicks with flame, causing them to inflict 100 Fire damage.
+
+- Wolnir's Crown
+Effect: successive attacks boost Physical damage by 10% for 15 seconds.
+
+- Chester's Set
+Effect: successive attacks boost Luck by 5 for 15 seconds, stacking up to 20.
+
+- Clandestine Coat
+Effect: reduces detection via sound by 50% and prevents falling damage.
+
+- Shadow Set
+Effect: reduces detection via sight by 50% and causes your body to become translucent.
+
+- Iron Keeper Helm
+Effect: increases Strike absorption by 10% and prevents headshot damage.

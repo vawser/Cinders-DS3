@@ -34,6 +34,7 @@
 - Re-added the Deathless Run reward. If you kill the Soul of Cinder without having died once from the start of the game, you can visit Magnum Ursus and claim the Relic of Power.
 - Added a Hitless Run reward. If you kill the Soul of Cinder without having taken damage from enemies once from the start of the game, you can visit Magnum Ursus and claim the Relic of Insanity.
 - Rolling multiple times within a short period now costs more. After the first roll, the cost is +5, capping at +30 after 6 rolls.
+- Removed the Devastating Blow mechanic.
 
 # Menus
 - You can now toggle your Pledge of Loyalty to Rosaria.
@@ -49,6 +50,10 @@
 
 # Weapons
 - Reduced the damage of the pistol sidearms.
+
+# Armor
+- Adjusted the effect design. Now the head pieces are the only pieces with effects. This means the effects will be stronger in most cases, but there is now natural exclusivity.
+- Changed Winged Helm of Ridoh effect: attacking will eventually restore estus.
 
 # Infusions
 - Fire infusion is now more of a psuedo-Raw infusion. It removes all scaling, but the base damage for Fire is much higher than normal. This is to bring it into line with the new design for Pyromancies, and to make it distinct from the Dark infusion.
@@ -104,6 +109,17 @@
  - Reduces FP consumption of spells and skills by 20%.
  - Reduces weapon stamina consumption by 20%.
  - Exclusive with the Talisman of Power.
+
+- Young Dragon Ring: periodically summons homing soulmasses every 15 to 40 seconds.
+- Great Swamp Ring: periodically emit pillars of flame every 15 to 40 seconds.
+- Morne's Ring: periodically emit damaging force wave every 15 to 40 seconds.
+- Deep Ring: periodically become immune to all damage for 3 seconds every 15 to 40 seconds.
+- Spirit Amethyst: grants 5% FP on enemy kills
+- Violet Tearstone Ring: increases max FP by 100% whilst below 25% HP.
+- Ring of Punishment: adds 30 Bleed inflict. Now transposed from Yhorm soul.
+- Added Tainted Chalice: adds 30 Poison inflict. Transposed from Greatwood soul.
+- Added Accursed Sigil: adds 30 Curse inflict. Transposed from Corrupted Gundyr soul. 
+- Added Frostflower Ring: adds 30 Frost inflict. Transposed from Vordt soul.
 
 # Items
 - Transformation/Elixir/Oil items now persist through loading.
@@ -162,6 +178,7 @@
 - Increased the pillar count of the pillar spells.
 - Atonement: now boosts absorption by 20% whilst active.
 - Reduced the damage of the projectiles for the 'Floating Chaos' type spells.
+- Changed all the sources of spell FP reduction into different effects.
 
 # Spell Tools
 - Re-IDed the spell tool entries, which means old saves will have broken items.
@@ -232,5 +249,4 @@ Document enemy AI and setup workflow
  
 Re-structure Orbeck/Greirat so their stage triggers are chosen by the player, rather than progression.
 Fix the Painter not moving to the chapel, probably a bad flag check causing it
-
 
