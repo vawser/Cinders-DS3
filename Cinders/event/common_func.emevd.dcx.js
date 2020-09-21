@@ -5977,19 +5977,20 @@ Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 //----------------------------------------------
-// Friendly NPC - Idle Pose
+// Merchant - Idle Pose
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
-Event(20081200, Restart, function(X0_4, X4_4, X8_4) {
+Event(20081200, Default, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
+    EndUnconditionally(EventEndType.End);
 });
 
 //----------------------------------------------
-// Friendly NPC - Hostility
+// Merchant - Hostility
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
-Event(20081210, Restart, function(X0_4, X4_4) {
+Event(20081210, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     IfCharacterDamagedBy(AND_01, X4_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -5999,208 +6000,6 @@ Event(20081210, Restart, function(X0_4, X4_4) {
     RequestCharacterAIReplan(X4_4);
     
     EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Friendly NPC - Spawn State
-//----------------------------------------------
-Event(20081220, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    SetEventFlag(X0_4, OFF);
-    SetEventFlag(X4_4, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Visibility State
-//----------------------------------------------
-Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X0_4); // Is disabled via death flag
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X8_4); // Trigger flag is enabled
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterBackreadState(X4_4, true);
-});
-
-//----------------------------------------------
-// Friendly NPC - Visibility State with Warp
-//----------------------------------------------
-Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X0_4); // Is disabled via death flag
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X8_4); // Trigger flag is enabled
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterBackreadState(X4_4, true);
-    
-    // Warp to position
-    WarpCharacterAndCopyFloor(X4_4, TargetEntityType.Area, X12_4, -1, X4_4);
-});
-
-//----------------------------------------------
-// Friendly NPC - Visibility State - Untended Graves
-//----------------------------------------------
-Event(20081232, Restart, function(X0_4, X4_4) {
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterBackreadState(X4_4, true);
-});
-
-//----------------------------------------------
-// Friendly NPC - Orbeck
-//----------------------------------------------
-Event(20082000, Restart, function() {
-    // State flags
-    SetEventFlag(70000063, OFF);
-    SetEventFlag(74000551, OFF);
-    SetEventFlag(74000570, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1220, OFF); 
-    SetNetworkconnectedEventFlag(1221, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1222, 1234, OFF);
-    SetNetworkconnectedEventFlag(1235, ON);
-    SetNetworkconnectedEventFlag(1236, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1237, OFF);
-    SetNetworkconnectedEventFlag(1238, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1239, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Karla
-//----------------------------------------------
-Event(20082001, Restart, function() {
-    // State flags
-    SetEventFlag(70000065, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1260, OFF); 
-    SetNetworkconnectedEventFlag(1261, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1262, 1274, OFF);
-    SetNetworkconnectedEventFlag(1275, ON);
-    SetNetworkconnectedEventFlag(1276, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1277, OFF);
-    SetNetworkconnectedEventFlag(1278, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1279, OFF);
-    
-    // Flags once set by purchases, now randomised since they just change dialogue
-    BatchSetNetworkconnectedEventFlags(74000531, 74000532, OFF);
-    RandomlySetEventFlagInRange(74000531, 74000532, ON);
-});
-
-//----------------------------------------------
-// Friendly NPC - Cornyx
-//----------------------------------------------
-Event(20082002, Restart, function() {
-    // State flags
-    SetEventFlag(74000460, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1240, OFF); 
-    SetNetworkconnectedEventFlag(1241, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1242, 1254, OFF);
-    SetNetworkconnectedEventFlag(1255, ON);
-    SetNetworkconnectedEventFlag(1256, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1257, OFF);
-    SetNetworkconnectedEventFlag(1258, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1259, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Irina
-//----------------------------------------------
-Event(20082003, Restart, function() {
-    // State flags
-    //SetEventFlag(74000380, ON); // Purchased item flag
-    SetEventFlag(70000066, OFF);
-    SetEventFlag(74000352, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1280, OFF); 
-    SetNetworkconnectedEventFlag(1281, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1282, 1294, OFF);
-    SetNetworkconnectedEventFlag(1295, ON);
-    SetNetworkconnectedEventFlag(1296, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1297, OFF);
-    SetNetworkconnectedEventFlag(1298, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1299, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Greirat
-//----------------------------------------------
-Event(20082004, Restart, function() {
-    // State flags
-    SetEventFlag(70000062, OFF);
-
-    // NPC flags
-    SetNetworkconnectedEventFlag(1200, OFF); 
-    SetNetworkconnectedEventFlag(1201, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1202, 1214, OFF);
-    SetNetworkconnectedEventFlag(1215, ON);
-    SetNetworkconnectedEventFlag(1216, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1217, OFF);
-    SetNetworkconnectedEventFlag(1218, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1219, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Andre
-//----------------------------------------------
-Event(20082005, Restart, function() {
-    // State flags
-
-    // NPC flags
-    SetNetworkconnectedEventFlag(1160, ON); 
-    SetNetworkconnectedEventFlag(1161, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1162, 1174, OFF);
-    SetNetworkconnectedEventFlag(1175, ON);
-    SetNetworkconnectedEventFlag(1176, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1177, OFF);
-    SetNetworkconnectedEventFlag(1178, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1179, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Yuria
-//----------------------------------------------
-Event(20082006, Restart, function() {
-    // State flags
-    SetEventFlag(70000054, OFF);
-    SetEventFlag(74000619, OFF);
-    SetEventFlag(74000620, OFF);
-    SetEventFlag(74000640, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1040, OFF); 
-    SetNetworkconnectedEventFlag(1041, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1042, 1054, OFF);
-    SetNetworkconnectedEventFlag(1055, ON);
-    SetNetworkconnectedEventFlag(1056, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1057, OFF);
-    SetNetworkconnectedEventFlag(1058, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1059, OFF);
-});
-
-//----------------------------------------------
-// Friendly NPC - Yoel
-//----------------------------------------------
-Event(20082007, Restart, function() {
-    // State flags
-    SetEventFlag(70000055, OFF);
-    BatchSetEventFlags(74000430, 74000433, OFF);
-    
-    // NPC flags
-    SetNetworkconnectedEventFlag(1060, OFF); 
-    SetNetworkconnectedEventFlag(1061, ON); // Alive NPC
-    BatchSetNetworkconnectedEventFlags(1062, 1074, OFF);
-    SetNetworkconnectedEventFlag(1075, ON);
-    SetNetworkconnectedEventFlag(1076, OFF); // Hostile NPC
-    SetNetworkconnectedEventFlag(1077, OFF);
-    SetNetworkconnectedEventFlag(1078, OFF); // Dead NPC
-    SetNetworkconnectedEventFlag(1079, OFF);
-    
-    // Kill Yoel if Yuria is present
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 70000450);
-    EzstateInstructionRequest(4000730, 2160, 1);
-    SetNetworkconnectedEventFlag(1060, ON); 
-    SetNetworkconnectedEventFlag(1061, OFF); // Alive NPC
-    SetNetworkconnectedEventFlag(1078, ON); // Dead NPC
 });
 
 //----------------------------------------------
