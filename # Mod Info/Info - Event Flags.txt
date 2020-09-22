@@ -173,3 +173,30 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 74000591 Orbeck: 
 
+#-------------------------------------
+# NPC
+#-------------------------------------
+Based on Andre's range, should be shifted to match the required NPC if used as reference. 
+
+Each range is 20 flags, i.e. 1160 -> 1179
+
+1160 Dead flag
+1161
+1162
+1163
+1164
+1165
+1166
+1167
+1168
+1169
+1170
+1171
+1172
+1173
+1174
+1175 Hostility flag
+1176 Hostility flag
+1177 Hostility flag
+1178 Killed flag
+1179

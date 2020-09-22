@@ -1940,7 +1940,9 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25001001, ON);
+    SetMapCeremony(40, 0, 10);
+    WarpPlayer(40, 0, 4000973);
+    SetPlayerRespawnPoint(4002953);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2926,5 +2928,3 @@ Event(9685, Restart, function() {
     
     WarpPlayer(40, 0, 4000970);
 });
-
-

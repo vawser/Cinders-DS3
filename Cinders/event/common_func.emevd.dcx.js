@@ -4139,7 +4139,9 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
+    
     SetEventFlag(X12_4, OFF);
+   
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.Greater, 0, ComparisonType.Equal, 1);
@@ -4149,16 +4151,20 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(AND_01, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
+   
     SetCharacterTeamType(X0_4, TeamType.HostileNPC);
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, 1, X28_4);
     BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
     SetNetworkconnectedEventFlag(X4_4, ON);
     GotoUnconditionally(Label.LABEL9);
+    
     Label0();
     BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
     SetNetworkconnectedEventFlag(X8_4, ON);
+    
     Label9();
     SaveRequest(0);
     WaitFixedTimeFrames(1);
@@ -4170,10 +4176,13 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // NPC - Hostility Cooldown
 Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     WaitFixedTimeFrames(1);
+    
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
     IfConditionGroup(MAIN, PASS, AND_01);
+   
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, 9, X16_4);
     GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 8, X16_4);
     GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 7, X16_4);
@@ -4183,41 +4192,51 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     GotoIfComparison(Label.LABEL6, ComparisonType.Equal, 3, X16_4);
     GotoIfComparison(Label.LABEL7, ComparisonType.Equal, 2, X16_4);
     GotoIfComparison(Label.LABEL8, ComparisonType.Equal, 1, X16_4);
+   
     IfDamageType(AND_02, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_02);
     WaitFixedTimeFrames(1);
+    
     Label0();
     IfDamageType(AND_03, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_03);
     WaitFixedTimeFrames(1);
+   
     Label1();
     IfDamageType(AND_04, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_04);
     WaitFixedTimeFrames(1);
+   
     Label2();
     IfDamageType(AND_05, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_05);
     WaitFixedTimeFrames(1);
+    
     Label3();
     IfDamageType(AND_06, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_06);
     WaitFixedTimeFrames(1);
+    
     Label4();
     IfDamageType(AND_07, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_07);
     WaitFixedTimeFrames(1);
+   
     Label5();
     IfDamageType(AND_08, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_08);
     WaitFixedTimeFrames(1);
+    
     Label6();
     IfDamageType(AND_09, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_09);
     WaitFixedTimeFrames(1);
+    
     Label7();
     IfDamageType(AND_10, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_10);
     WaitFixedTimeFrames(1);
+    
     Label8();
     IfDamageType(AND_11, X0_4, 10000, DamageType.Unspecified);
     IfConditionGroup(MAIN, PASS, AND_11);
@@ -4226,13 +4245,15 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 });
 
 // NPC - Set Flags if Dead
+// <entity id>, <killed flag>, <hostility flag>, <unk flag>
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+   
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Not killed
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1); // Is dead
     IfConditionGroup(MAIN, PASS, AND_01);
     BatchSetNetworkconnectedEventFlags(X8_4, X12_4, OFF);
-    SetNetworkconnectedEventFlag(X4_4, ON);
+    SetNetworkconnectedEventFlag(X4_4, ON); // Set hostility flag on
     SaveRequest(0);
 });
 
