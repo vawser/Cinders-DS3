@@ -58,7 +58,6 @@
 - Added Crimson Water: Restores 900 HP and 3000 FP over 30 seconds. Hold limit of 5.
 - These are dropped by various mobs and sold via the bonfire, Lifegem unlocked by default, the rest require ashes.
 
-
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
 
