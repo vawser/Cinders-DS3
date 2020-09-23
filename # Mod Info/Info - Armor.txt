@@ -1,5 +1,4 @@
-﻿
-#-----------------------------
+﻿#-----------------------------
 # Cardinal Stats
 #-----------------------------
 - Max HP
@@ -12,7 +11,7 @@ Effect: increases max FP by 5%.
 Effect: increases max Stamina by 5%.
     
 - Equip load
-Effect: increases equipment load by 10%.
+Effect: increases equipment load by 5%.
 
 - Stamina Recovery
 Effect: increases stamina recovery by 10.
@@ -78,39 +77,12 @@ Effect: boosts damage against Hollows by 5%.
 Effect: boosts damage against Abyssal enemies by 5%.
 
 #-----------------------------
-# Defence
-#-----------------------------
-- Physical Absorption
-Effect: increases Physical absorption by 10%.
-
-- Slash Absorption
-Effect: increases Slash absorption by 10%.
-
-- Strike Absorption
-Effect: increases Strike absorption by 10%.
-
-- Thrust Absorption
-Effect: increases Thrust absorption by 10%.
-
-- Magic Absorption
-Effect: increases Magic absorption by 10%.
-
-- Fire Absorption
-Effect: increases Fire absorption by 10%.
-
-- Lightning Absorption
-Effect: increases Lightning absorption by 10%.
-
-- Dark Absorption
-Effect: increases Dark absorption by 10%.
-
-#-----------------------------
 # Weapon Stats
 #-----------------------------
 - Weapon Stamina Consumption
-Effect: reduces weapon stamina consumption by 10%.
+Effect: reduces weapon stamina consumption by 5%.
 
-- Stability
+- Shield Stability
 Effect: increases shield stability by 5%.
 
 - Stamina Damage
@@ -120,7 +92,7 @@ Effect: increases stamina damage by 25%.
 Effect: increases range of bows, greatbows and crossbows by 50.
 
 - Cast Speed
-Effect: boosts casting speed by 20.
+Effect: boosts casting speed by 15.
 
 - Skill FP Cost
 Effect: reduces skill FP consumption by 10%.
@@ -129,16 +101,13 @@ Effect: reduces skill FP consumption by 10%.
 # Recovery
 #-----------------------------
 - HP Regen
-Effect: restores 2 HP per second.
+Effect: restores 1 HP per second.
     
-- HP Estus Restore
-Effect: boosts the HP restoration of the Estus Flask by 10%.
-
-- FP Estus Restore
-Effect: boosts the FP restoration of the Ashen Estus Flask by 10%.
+- FP Regen
+Effect: restores 1 FP per second.
 
 - HP Effectiveness
-Effect: increases effectiveness of HP recovery by 10%.
+Effect: increases effectiveness of HP recovery by 5%.
 
 - Attack: HP absorb
 Effect: imbues weapon, absorbing 50 HP on kill.
@@ -156,43 +125,19 @@ Effect: increases Item Discovery by 50.
 Effect: boosts effect duration by 25%.
 
 - Soul absorption
-Effect: boosts soul absorption by 10%.
-    
-- Sound Detection
-Effect: reduces detection via sound by 50%.
-
-- Sight Detection
-Effect: reduces detection via sight by 50%.
+Effect: boosts soul absorption by 5%.
 
 #-----------------------------
-# Unique
+# Base
 #-----------------------------
 - Symbol of Avarice
-Effect: increases Item Discovery by 100 and reduces HP by 5 per second.
+Effect: and reduces HP by 5 per second.
 
 - Crown of Illusion
-Effect: boosts soul absorption by 10% and reveals the unseen in the Grand Archives.
-
-- Winged Helm of Ridoh
-Effect: successive attacks will restore estus if done for long enough.
-
-- Firelink Set
-Effect: increases Physical, Magic, Fire, Lightning and Dark damage by 3%.
-
-- Black Dragon Set
-Effect: imbues kicks with flame, causing them to inflict 100 Fire damage.
-
-- Wolnir's Crown
-Effect: successive attacks boost Physical damage by 10% for 15 seconds.
-
-- Chester's Set
-Effect: successive attacks boost Luck by 5 for 15 seconds, stacking up to 20.
-
-- Clandestine Coat
-Effect: reduces detection via sound by 50% and prevents falling damage.
-
-- Shadow Set
-Effect: reduces detection via sight by 50% and causes your body to become translucent.
+Effect: reveals the unseen in the Grand Archives.
 
 - Iron Keeper Helm
 Effect: increases Strike absorption by 10% and prevents headshot damage.
+
+- Thorns Set
+Effect: adds damage on rolling

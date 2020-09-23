@@ -556,3 +556,160 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009550 Irina - Given Humanity
 25009551 Irina - Given Holy Fragments
+
+# Armor Effects
+25000400 Helm Effect: Max HP
+25000401 Helm Effect: Max FP
+25000402 Helm Effect: Max Stamina
+25000403 Helm Effect: Equip Load
+25000404 Helm Effect: Stamina Recovery
+25000405 Helm Effect: Vigor
+25000406 Helm Effect: Attunement
+25000407 Helm Effect: Endurance
+25000408 Helm Effect: Vitality
+25000409 Helm Effect: Strength
+25000410 Helm Effect: Dexterity
+25000411 Helm Effect: Intelligence
+25000412 Helm Effect: Faith
+25000413 Helm Effect: Luck
+25000414 Helm Effect: Physical Damage
+25000415 Helm Effect: Magic Damage
+25000416 Helm Effect: Fire Damage
+25000417 Helm Effect: Lightning Damage
+25000418 Helm Effect: Dark Damage
+25000419 Helm Effect: Anti-Demon
+25000420 Helm Effect: Anti-Undead
+25000421 Helm Effect: Anti-Hollow
+25000422 Helm Effect: Anti-Abyssal
+25000423 Helm Effect: Weapon Stamina Consumption
+25000424 Helm Effect: Stability
+25000425 Helm Effect: Stamina Damage
+25000426 Helm Effect: Bow Distance
+25000427 Helm Effect: Cast Speed
+25000428 Helm Effect: Skill FP Cost
+25000429 Helm Effect: HP Regen
+25000430 Helm Effect: FP Regen
+25000431 Helm Effect: No Fall Damage
+25000432 Helm Effect: HP Absorb
+25000433 Helm Effect: FP Absorb
+25000434 Helm Effect: Item Discovery
+25000435 Helm Effect: Effect Duration
+25000436 Helm Effect: Soul Absorption
+25000437 Helm Effect: HP Effectiveness
+
+25000500 Armor Effect: Max HP
+25000501 Armor Effect: Max FP
+25000502 Armor Effect: Max Stamina
+25000503 Armor Effect: Equip Load
+25000504 Armor Effect: Stamina Recovery
+25000505 Armor Effect: Vigor
+25000506 Armor Effect: Attunement
+25000507 Armor Effect: Endurance
+25000508 Armor Effect: Vitality
+25000509 Armor Effect: Strength
+25000510 Armor Effect: Dexterity
+25000511 Armor Effect: Intelligence
+25000512 Armor Effect: Faith
+25000513 Armor Effect: Luck
+25000514 Armor Effect: Physical Damage
+25000515 Armor Effect: Magic Damage
+25000516 Armor Effect: Fire Damage
+25000517 Armor Effect: Lightning Damage
+25000518 Armor Effect: Dark Damage
+25000519 Armor Effect: Anti-Demon
+25000520 Armor Effect: Anti-Undead
+25000521 Armor Effect: Anti-Hollow
+25000522 Armor Effect: Anti-Abyssal
+25000523 Armor Effect: Weapon Stamina Consumption
+25000524 Armor Effect: Stability
+25000525 Armor Effect: Stamina Damage
+25000526 Armor Effect: Bow Distance
+25000527 Armor Effect: Cast Speed
+25000528 Armor Effect: Skill FP Cost
+25000529 Armor Effect: HP Regen
+25000530 Armor Effect: FP Regen
+25000531 Armor Effect: No Fall Damage
+25000532 Armor Effect: HP Absorb
+25000533 Armor Effect: FP Absorb
+25000534 Armor Effect: Item Discovery
+25000535 Armor Effect: Effect Duration
+25000536 Armor Effect: Soul Absorption
+25000537 Armor Effect: HP Effectiveness
+
+25000600 Gauntlets Effect: Max HP
+25000601 Gauntlets Effect: Max FP
+25000602 Gauntlets Effect: Max Stamina
+25000603 Gauntlets Effect: Equip Load
+25000604 Gauntlets Effect: Stamina Recovery
+25000605 Gauntlets Effect: Vigor
+25000606 Gauntlets Effect: Attunement
+25000607 Gauntlets Effect: Endurance
+25000608 Gauntlets Effect: Vitality
+25000609 Gauntlets Effect: Strength
+25000610 Gauntlets Effect: Dexterity
+25000611 Gauntlets Effect: Intelligence
+25000612 Gauntlets Effect: Faith
+25000613 Gauntlets Effect: Luck
+25000614 Gauntlets Effect: Physical Damage
+25000615 Gauntlets Effect: Magic Damage
+25000616 Gauntlets Effect: Fire Damage
+25000617 Gauntlets Effect: Lightning Damage
+25000618 Gauntlets Effect: Dark Damage
+25000619 Gauntlets Effect: Anti-Demn
+25000620 Gauntlets Effect: Anti-Undead
+25000621 Gauntlets Effect: Anti-Hollow
+25000622 Gauntlets Effect: Anti-Abyssal
+25000623 Gauntlets Effect: Weapon Stamina Consumption
+25000624 Gauntlets Effect: Stability
+25000625 Gauntlets Effect: Stamina Damage
+25000626 Gauntlets Effect: Bow Distance
+25000627 Gauntlets Effect: Cast Speed
+25000628 Gauntlets Effect: Skill FP Cost
+25000629 Gauntlets Effect: HP Regen
+25000630 Gauntlets Effect: FP Regen
+25000631 Gauntlets Effect: No Fall Damage
+25000632 Gauntlets Effect: HP Absorb
+25000633 Gauntlets Effect: FP Absorb
+25000634 Gauntlets Effect: Item Discovery
+25000635 Gauntlets Effect: Effect Duration
+25000636 Gauntlets Effect: Soul Absorption
+25000637 Gauntlets Effect: HP Effectiveness
+
+25000700 Leggings Effect: Max HP
+25000701 Leggings Effect: Max FP
+25000702 Leggings Effect: Max Stamina
+25000703 Leggings Effect: Equip Load
+25000704 Leggings Effect: Stamina Recovery
+25000705 Leggings Effect: Vigor
+25000706 Leggings Effect: Attunement
+25000707 Leggings Effect: Endurance
+25000708 Leggings Effect: Vitality
+25000709 Leggings Effect: Strength
+25000710 Leggings Effect: Dexterity
+25000711 Leggings Effect: Intelligence
+25000712 Leggings Effect: Faith
+25000713 Leggings Effect: Luck
+25000714 Leggings Effect: Physical Damage
+25000715 Leggings Effect: Magic Damage
+25000716 Leggings Effect: Fire Damage
+25000717 Leggings Effect: Lightning Damage
+25000718 Leggings Effect: Dark Damage
+25000719 Leggings Effect: Anti-Demon
+25000720 Leggings Effect: Anti-Undead
+25000721 Leggings Effect: Anti-Hollow
+25000722 Leggings Effect: Anti-Abyssal
+25000723 Leggings Effect: Weapon Stamina Consumption
+25000724 Leggings Effect: Stability
+25000725 Leggings Effect: Stamina Damage
+25000726 Leggings Effect: Bow Distance
+25000727 Leggings Effect: Cast Speed
+25000728 Leggings Effect: Skill FP Cost
+25000729 Leggings Effect: HP Regen
+25000730 Leggings Effect: FP Regen
+25000731 Leggings Effect: No Fall Damage
+25000732 Leggings Effect: HP Absorb
+25000733 Leggings Effect: FP Absorb
+25000734 Leggings Effect: Item Discovery
+25000735 Leggings Effect: Effect Duration
+25000736 Leggings Effect: Soul Absorption
+25000737 Leggings Effect: HP Effectiveness

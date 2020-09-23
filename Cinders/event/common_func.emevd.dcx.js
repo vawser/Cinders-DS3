@@ -6159,7 +6159,7 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // <entity id>, <trigger flag>
 //----------------------------------------------
 Event(20090100, Restart, function(X0_4) {
-    IfCharacterHasSpeffect(OR_01, 10000, 160401740, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160409001, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);

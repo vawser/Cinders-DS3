@@ -31,6 +31,14 @@
 # Changelog
 #------------------------------
 
+# Armor
+- Removed most of the base effects on armor, only Symbol of Avarice, Thorns Set and Crown of Illusions have base effects. >:0
+- Added a new system for armor effects: Enchantment. There is now an enchanting table in Firelink. :D
+- You can assign an effect to each of the four armor slots: helm, armor, gauntlets and leggings.
+- Doing this will imbue the armor slot and grant you the chosen effect until the effect is changed.
+- Enhancement costs Enchantment Ash. This is dropped by bosses.
+- Note this isn't tied to the actual armor piece, so you can wear any armor piece you like, the effect is tied to the slot.
+
 # NPCs
 - Many of the NPCs now respawn when they die.
 - Yoel now dies when you kill Pontiff Sulyvahn, instead of when you step into Catacombs of Carthus.
@@ -67,3 +75,6 @@
 #------------------------------
 Change Greirat pillages
 
+Try disabling the firelink npcs unless on the firelink col
+
+900 Enchantment Ash
