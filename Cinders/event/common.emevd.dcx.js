@@ -77,13 +77,13 @@ Event(0, Default, function() {
     // Achievements - Other
     InitializeEvent(0, 6099, 0);
     
-    // Flag States
-    InitializeEvent(0, 9004, 9007);
-    InitializeEvent(0, 9005, 9008);
-    InitializeEvent(0, 9006, 9009);
-    InitializeEvent(0, 9000, 9001, 9007, 9008, 9009);
-    InitializeEvent(0, 9002, 9003); // Halflight reset
-    InitializeEvent(0, 9010, 0);
+    // Sin
+    InitializeEvent(0, 9004, 9007); // Check Hostility 2 for 70000052 -> 70000066
+    InitializeEvent(0, 9005, 9008); // Check Hostility 2 for 70000067 -> 70000081
+    InitializeEvent(0, 9006, 9009); // Check Hostility 2 for 70001073
+    InitializeEvent(0, 9000, 9001, 9007, 9008, 9009); // NPC Sin monitor
+    InitializeEvent(0, 9002, 9003); // Clear Sin
+    InitializeEvent(0, 9010, 0); // Sin - Shrine Handmaid Price Increase
     
     // Boss Defeat - Award Items
     InitializeEvent(0, 970, 13000800, 2000, 0, 0); // Vordt
@@ -773,6 +773,7 @@ Event(9570, Restart, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Sin System - NPC Sin monitor
 Event(9000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -788,6 +789,7 @@ Event(9000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Sin System - Clear NPC Sin
 Event(9002, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1049,6 +1051,7 @@ Event(9005, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Set when Hostility 2 is ON for 70001073
 Event(9006, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1066,6 +1069,7 @@ Event(9006, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Sin - Shrine Handmaid Price Increase
 Event(9010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 70000061);
@@ -1940,9 +1944,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetMapCeremony(40, 0, 10);
-    WarpPlayer(40, 0, 4000973);
-    SetPlayerRespawnPoint(4002953);
+    SetEventFlag(1078, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });

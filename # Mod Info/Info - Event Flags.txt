@@ -1,5 +1,433 @@
 ﻿#-------------------------------------
-# Event Flags
+# NPC Flags
+#-------------------------------------
+# Reference Range
+1160 Dead
+1161 Custom 1
+1162 Custom 2
+1163 Custom 3
+1164 Custom 4
+1165 Custom 5
+1166 Custom 6
+1167 Custom 7
+1168 Custom 8
+1169 Custom 9
+1170 Custom 10
+1171 Custom 11
+1172 Custom 12
+1173 Custom 13
+1174 Custom 14
+1175 Passive
+1176 Hostile
+1177 Unk (Hostile?)
+1178 Killed
+1179
+
+# NPC Ranges
+1000 -> 1019 Firekeeper
+1020 -> 1039 Ludleth
+1040 -> 1059 Yuria
+1060 -> 1079 Yoel
+    1061 Quest Stage: In Firelink
+    1062 Quest Stage: Yoel Collapse
+    1063 Quest Stage: In Undead Settlement (fail due to Catacombs)
+    1064 Quest Stage: In Firelink (fail due to Catacombs)
+1080 -> 1099
+1100 -> 1119 Hawkwood
+1120 -> 1139 Sirris
+1140 -> 1159 Leonhard
+    1141 Quest Stage: Vordt Killed
+    1142 Quest Stage: Cracked Red Eye Orbs
+    1143 Quest Stage: Greatwood Killed
+    1144 Quest Stage: Find Red Eye Orb
+    1145 Quest Stage: Found Red Eye Orb
+1160 -> 1179 Andre
+1180 -> 1199 Shrine Handmaid
+1200 -> 1219 Greirat
+    1201
+    1202
+    1203
+    1204
+    1206
+1220 -> 1239 Orbeck
+1240 -> 1259 Cornyx
+1260 -> 1279 Karla
+1280 -> 1299 Irina
+    1281 Quest Stage: In Firelink
+    1282 Quest Stage: Dark Path: Boss Progress 1
+    1283 Quest Stage: Dark Path: Boss Progress 2
+    1284 Quest Stage: Dark Path: Eygon fight
+    1285 Quest Stage: Dark Path: Eygon killed
+    1286 Quest Stage: Holy Path: Is Firekeeper
+1300 -> 1319 Eygon
+1320 -> 1339
+1340 -> 1359 Anri
+1360 -> 1379 Patches
+1380 -> 1399 Siegward
+1400 -> 1419
+1420 -> 1439
+1440 -> 1459
+1460 -> 1479 Tower Giant
+1480 -> 1499 Horace
+1500 -> 1519
+1520 -> 1539
+1540 -> 1559
+1560 -> 1579
+1580 -> 1599 Hodrick
+1600 -> 1619
+1620 -> 1639
+1640 -> 1659 Sir Vilhelm
+1660 -> 1679 Painter
+1680 -> 1699 Corvian Villager
+1700 -> 1719
+1720 -> 1739
+1740 -> 1759
+1760 -> 1779
+1780 -> 1799
+1800 -> 1819 Lapp
+1820 -> 1839 Shira
+1840 -> 1859 White-faced Locust
+1860 -> 1879 Stone-humped Hag
+1880 -> 1899 Pygmy King
+1900 -> 1919 Judicator Argo
+1920 -> 1939
+1940 -> 1959 Cage Madman
+1960 -> 1979
+1980 -> 1999
+
+#-------------------------------------
+# Sin
+#-------------------------------------
+9001 NPC Sin
+9003 Cleared NPC Sin
+
+9007 Set when Hostile is ON for 70000050 -> 70000066
+9008 Set when Hostile is ON for 70000067 -> 70000081
+9009 Set when Hostile is ON for 70001073
+
+# ON means NO SIN, OFF means SIN
+70000050 Sin State: 
+70000051 Sin State: 
+70000052 Sin State: Firekeeper
+70000053 Sin State: Ludleth
+70000054 Sin State: Yuria
+70000055 Sin State: Yoel
+70000056 Sin State: 
+70000057 Sin State: Hawkwood
+70000058 Sin State: Sirris
+70000059 Sin State: Leonhard
+70000060 Sin State: Andre
+70000061 Sin State: Shrine Handmaid
+70000062 Sin State: Greirat
+70000063 Sin State: Orbeck
+70000064 Sin State: Cornyx
+70000065 Sin State: Karla
+70000066 Sin State: Irina
+70000067 Sin State: Eygon
+70000068 Sin State: 
+70000069 Sin State: Anri
+70000070 Sin State: Patches
+70000071 Sin State: Siegward
+70000072 Sin State: 
+70000073 Sin State: 
+70000074 Sin State: 
+70000075 Sin State: Tower Giant
+70000076 Sin State: Horace
+70000077 Sin State: 
+70000078 Sin State: 
+70000079 Sin State: 
+70000080 Sin State: 
+70000081 Sin State: Hodrick
+70000082 Sin State: 
+70000083 Sin State: 
+70000084 Sin State: 
+70000085 Sin State: 
+70000086 Sin State: 
+70000087 Sin State: 
+70000088 Sin State: 
+70000089 Sin State: 
+70000090 Sin State: 
+70000091 Sin State: 
+70000092 Sin State: 
+70000093 Sin State: 
+70000094 Sin State: 
+70000095 Sin State: 
+70000096 Sin State: 
+70000097 Sin State: 
+70000098 Sin State: 
+70000099 Sin State: 
+70001073 Sin State: Lapp
+
+#-------------------------------------
+# General
+#-------------------------------------
+130 Loaded High Wall
+131 Loaded Undead Settlement
+132 Loaded Archdragon Peak
+133 Loaded Road of Sacrifices/Farron Keep
+134 Loaded Grand Archives
+135 Loaded Cathedral of the Deep
+137 Loaded Irithyll
+138 Loaded Catacombs of Carthus
+139 Loaded Irithyll Dungeon
+140 Loaded Firelink
+141 Loaded Kiln of the First Flame
+145 Loaded Ariandel
+150 Loaded Dreg Heap
+151 Loaded Ringed City
+230 Eclipse Ceremonies enabled
+
+6312 Killed Leonhard
+6330 Entered Undead Settlement
+6331 Entered Road of Sacrifices
+6951 DLC1 ownership flag
+6952 DLC2 ownership flag
+9210 after placing all Cinders of a Lord on their thrones
+
+# Reset
+6300 Killed Dancer of the Boreal Valley
+6301 Killed Vordt of the Boreal Valley
+6302 Killed Oceiros, the Consumed King
+6303 Killed Curse-Rotted Greatwood
+6304 Killed Nameless King
+6306 Killed Crystal Sage
+6307 Killed Abyss Watchers
+6308 Killed Dragonslayer Armour
+6309 Killed Lothric, Younger Prince
+6311 Killed Deacons of the Deep
+6313 Killed Pontiff Sulyvahn
+6314 Killed Aldrich, Devourer of Gods
+6315 Killed High Lord Wolnir
+6317 Killed Old Demon King
+6318 Killed Yhorm the Giant
+6320 Killed Champion Gundyr
+6321 Killed Soul of Cinder
+6322 Killed Sister Friede
+6324 Killed Demon Prince
+6326 Killed Darkeater Midir
+6327 Killed Slave Knight Gael
+
+# Never Reset
+9300 Killed Dancer of the Boreal Valley
+9301 Killed Vordt of the Boreal Valley
+9302 Killed Oceiros, the Consumed King
+9303 Killed Curse-Rotted Greatwood
+9304 Killed Nameless King
+9306 Killed Crystal Sage
+9307 Killed Abyss Watchers
+9308 Killed Dragonslayer Armour
+9309 Killed Lothric, Younger Prince
+9311 Killed Deacons of the Deep
+9313 Killed Pontiff Sulyvahn
+9314 Killed Aldrich, Devourer of Gods
+9315 Killed High Lord Wolnir
+9317 Killed Old Demon King
+9318 Killed Yhorm the Giant
+9320 Killed Champion Gundyr
+9321 Killed Soul of Cinder
+9322 Killed Sister Friede
+9324 Killed Demon Prince
+9326 Killed Darkeater Midir
+9327 Killed Slave Knight Gael
+
+#-------------------------------------
+# Talk Flags: Shrine Handmaid
+#-------------------------------------
+70000100 Given Mortician's Ashes
+70000101 Given Dreamcatcher's Ashes
+70000102 Given Paladin's Ashes
+70000103 Given Grave Warden's Ashes
+70000104 Given Excrement-covered Ashes
+70000105 Given Prisoner Chief's Ashes
+70000106 Given Xanthous Ashes
+70000107 Given Hollow's Ashes
+70000108 Given Dragon Chaser's Ashes
+70000109 Given Easterner's Ashes
+70000110 Given Greirat's Ashes
+70000111 Given Orbeck's Ashes
+70000112 Given Cornyx's Ashes
+70000113 Given Karla's Ashes
+70000114 Given Irina's Ashes
+70000115 Given Patches' Ashes
+70000116 Given Yuria's Ashes
+70000117 Given Dreamcatcher's Ashes, saying where they were found
+70000120 Given Captain's Ashes
+70000121 Given Old Woman's Ashes
+70000125 Before giving Paladin's Ashes
+70000126 Given Dreamchaser's Ashes, before giving Xanthous Ashes
+70000127 Given Paladin's Ashes, before giving Excrement-covered Ashes
+70000128 Before giving Greirat's Ashes
+70000129 Before giving Greirat's Ashes
+70000130 Given Mortician's Ashes, before giving Patches' Ashes
+70000131 Given Dreamcatcher's Ashes, before giving Grave Warden's Ashes
+70000132 Given Captain's Ashes, before giving Dragon Chaser's Ashes
+70000133 Given Old Woman's Ashes, before giving Patches' Ashes
+
+#-------------------------------------
+# Talk Flags: Greirat
+#-------------------------------------
+73000100 Granted Greirat's request
+73000132 Grant Greirat's request
+
+74000300 Initial meeting in Firelink
+74000301 Delivered Loretta's bone
+74000302 
+74000303 Pillage - Undead Settlement
+
+74000324
+74000325
+
+70000150 Sent Greirat to pillage Undead Settlement
+70000151 Sent Greirat to pillage Irithyll
+70000152 Sent Greirat to Lothric Castle (unused by Greirat)
+70000153 Sent Greirat to pillage Irithyll, before sending Greirat to pillage Lothric Castle
+
+70000175 Shrine Handmaid: Sent Greirat to pillage Undead Settlement
+70000176 Shrine Handmaid: Sent Greirat to pillage Irithyll
+70000177 Shrine Handmaid: Sent Greirat to Lothric Castle (unused by Greirat)
+70000178 Shrine Handmaid: Sent Greirat to pillage Irithyll, before sending Greirat to pillage Lothric Castle
+
+#-------------------------------------
+# Talk Flags: Orbeck
+#-------------------------------------
+50006131 Item flag
+
+# Road of Sacrifices
+73300100 Passed 10 INT Check
+73300101 Failed 10 INT Check
+73300102 Made no promise to give scrolls
+73300120 Made hostile
+73300121 Hostility related
+73300122 Hostility related
+73300123 Been attacked but not hostile
+73300131 Promised to give scrolls
+73300132 Have more than 10 INT
+73301140
+73301150
+73301160
+73301170
+
+70000200 Given Orbeck any scroll
+70000201 Given Orbeck the Sage's Scroll
+70000202 Given Orbeck the Logan's Scroll
+70000203 Given Orbeck the Crystal Scroll
+70000204 Given Orbeck the Golden Scroll
+
+70000225 Shrine Handmaid: Given Orbeck any scroll
+70000226 Shrine Handmaid: Given Orbeck the Sage's Scroll
+70000227 Shrine Handmaid: Given Orbeck the Logan's Scroll
+70000228 Shrine Handmaid: Given Orbeck the Crystal Scroll
+70000229 Shrine Handmaid: Given Orbeck the Golden Scroll
+
+74000550 First greeting in Firelink
+74000551 Initial greeting
+74000552 Not returned any scroll
+74000555 Purchased Aural Decoy, Farron Flashsword, Pestilent Mist and Spook
+74000556 Talk after using talk option once
+74000557 Crystal scroll talk
+74000560 Young Dragon Ring reward
+74000561 Slumbering Dragoncrest Ring reward
+74000572 
+74000582 
+74000583 Purchased all spells
+74000591 
+
+#-------------------------------------
+# Talk Flags: Yoel
+#-------------------------------------
+73100152 Invited to Firelink
+
+74000430 Draw Out True Strength 1
+74000431 Draw Out True Strength 2
+74000432 Draw Out True Strength 3
+74000433 Draw Out True Strength 4
+70000450 After using Draw Out True Strength
+70000475 After using Draw Out True Strength
+
+#-------------------------------------
+# Talk Flags: Cornyx
+#-------------------------------------
+74000460 Made Hostile
+
+70000250 Given Cornyx the Great Swamp Pyromancy Tome
+70000251 Given Cornyx the Carthus Pyromancy Tome
+70000252 Given Cornyx the Izalith Pyromancy Tome
+
+70000275 Shrine Handmaid: Given Cornyx the Great Swamp Pyromancy Tome
+70000276 Shrine Handmaid: Given Cornyx the Carthus Pyromancy Tome
+70000277 Shrine Handmaid: Given Cornyx the Izalith Pyromancy Tome
+
+#-------------------------------------
+# Talk Flags: Leonhard
+#-------------------------------------
+74000850 Given Cracked Red Eye Orbs
+74000851 Seen Red Eye Orb
+74000870 Made Hostile
+
+#-------------------------------------
+# Talk Flags: Irina
+#-------------------------------------
+74000352 Wore Morne's Gauntlets
+74000380 Purchased all Divine miracles
+74000381 Dark Path: 
+74000382 Dark Path: 
+74000383 Dark Path: Touched in Firelink Shrine
+74000384 Dark Path: 
+74000385 Dark Path: 
+74000386 Dark Path: Can touch
+74000387 Dark Path: Touched after purchasing Dark miracle
+74000388 
+74000389 Holy Path:
+74000390 Holy Path:
+74000391 Holy Path:
+74000392 Holy Path:
+74000393 Holy Path: In Belltower
+
+70000350 Given Irina the Braille Divine Tome of Carim
+70000351 Given Irina the Braille Divine Tome of Lothric
+70000352 Given Irina the Deep Braille Divine Tome
+70000353 Given Irina the Londor Braille Divine Tome
+
+70000375 Shrine Handmaid: Given Irina the Braille Divine Tome of Carim
+70000376 Shrine Handmaid: Given Irina the Braille Divine Tome of Lothric
+70000377 Shrine Handmaid: Given Irina the Deep Braille Divine Tome
+70000378 Shrine Handmaid: Given Irina the Londor Braille Divine Tome
+
+14000722 First meeting
+
+#-------------------------------------
+# Talk Flags: Karla
+#-------------------------------------
+70000300 Given Karla the Quelana Pyromancy Tome
+70000301 Given Karla the Grave Warden Pyromancy Tome
+70000302 Given Karla the Deep Braille Divine Tome
+70000303 Given Karla the Londor Braille Divine Tome
+
+70000325 Shrine Handmaid: Given Karla the Quelana Pyromancy Tome
+70000326 Shrine Handmaid: Given Karla the Grave Warden Pyromancy Tome
+70000327 Shrine Handmaid: Given Karla the Deep Braille Divine Tome
+70000328 Shrine Handmaid: Given Karla the Londor Braille Divine Tome
+
+#-------------------------------------
+# Talk Flags: Patches
+#-------------------------------------
+70000400 After Patches moves to Firelink Shrine
+70000401 Sent Greirat to pillage Lothric Castle, telling Patches, and Patches returning
+70000402 While Greirat is in Firelink Shrine
+70000403 While Patches has Siegward's armor
+
+70000425 Shrine Handmaid: After Patches moves to Firelink Shrine
+70000426 Shrine Handmaid: Sent Greirat to pillage Lothric Castle, telling Patches, and Patches returning
+70000427 Shrine Handmaid: While Greirat is in Firelink Shrine
+70000428 Shrine Handmaid: While Patches has Siegward's armor
+
+#-------------------------------------
+# Talk Flags: Sirris
+#-------------------------------------
+70000118 after receiving Silvercat Ring from Sirris and defeating Aldrich
+
+#-------------------------------------
+# Cinders
 #-------------------------------------
 Flags used in the Cinders range:
 
@@ -126,77 +554,5 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009530 Tortured Soul turn-in
 25009540 Smithbox turn-in
 
-#-------------------------------------
-# Orbeck
-#-------------------------------------
-# Road of Sacrifices
-73300100 Orbeck: Passed 10 INT Check
-73300101 Orbeck: Failed 10 INT Check
-73300102 Orbeck: Made no promise to give scrolls
-
-73300120 Orbeck: Made hostile
-73300121 Orbeck: Hostility related
-73300122 Orbeck: Hostility related
-73300123 Orbeck: Been attacked but not hostile
-
-73300131 Orbeck: Promised to give scrolls
-73300132 Orbeck: Have more than 10 INT
-
-73301140
-73301150
-73301160
-73301170
-
-# Firelink
-50006131 Orbeck:
-
-70000200 Orbeck: Returned Scroll
-70000201 Orbeck: Returned Sage's Scroll
-70000202 Orbeck: Returned Logan's Scroll
-70000203 Orbeck: Returned Crystal Scroll
-70000204 Orbeck: Returned Golden Scroll
-
-74000550 Orbeck: first greeting in Firelink
-74000551 Orbeck: Initial greeting
-74000552 Orbeck: Not returned any scroll
-74000555 Orbeck: Purchased Aural Decoy, Farron Flashsword, Pestilent Mist and Spook
-74000556 Orbeck: Talk after using talk option once
-74000557 Orbeck: Crystal scroll talk
-
-74000560 Orbeck: Young Dragon Ring reward
-74000561 Orbeck: Slumbering Dragoncrest Ring reward
-
-74000572 Orbeck:
-
-74000582 Orbeck:
-74000583 Orbeck: Purchased all spells
-
-74000591 Orbeck: 
-
-#-------------------------------------
-# NPC
-#-------------------------------------
-Based on Andre's range, should be shifted to match the required NPC if used as reference. 
-
-Each range is 20 flags, i.e. 1160 -> 1179
-
-1160 Dead flag
-1161
-1162
-1163
-1164
-1165
-1166
-1167
-1168
-1169
-1170
-1171
-1172
-1173
-1174
-1175 Hostility flag
-1176 Hostility flag
-1177 Hostility flag
-1178 Killed flag
-1179
+25009550 Irina - Given Humanity
+25009551 Irina - Given Holy Fragments

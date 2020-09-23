@@ -2107,11 +2107,14 @@ Event(20005490, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Enabled);
+    
     SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkconnectedEventFlag(9031, OFF);
     SetNetworkconnectedEventFlag(X12_4, OFF);
+    
     SetCharacterBackreadState(X0_4, true);
     SetCharacterBackreadState(X4_4, true);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -2126,15 +2129,18 @@ Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkUpdateRate(X4_4, false, CharacterUpdateFrequency.AlwaysUpdate);
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAIReplan(X4_4);
+    
     IfBatchEventFlags(AND_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1460, 1461);
     IfBatchEventFlags(AND_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1475, 1477);
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
     IfConditionGroup(OR_01, PASS, AND_01);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(MAIN, PASS, OR_01);
+    
     SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkconnectedEventFlag(9031, ON);
     SetNetworkconnectedEventFlag(X12_4, ON);
+    
     SetCharacterBackreadState(X0_4, false);
     SetCharacterBackreadState(X4_4, false);
     ChangeCharacterEnableState(X0_4, Enabled);
@@ -2149,9 +2155,12 @@ Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkUpdateRate(X4_4, true, CharacterUpdateFrequency.AlwaysUpdate);
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAIReplan(X4_4);
+    
     WaitFixedTimeSeconds(1);
+    
     SetNetworkSyncState(Disabled);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
+    
     IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 9030);
     IfBatchEventFlags(OR_02, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1460, 1461);
     IfBatchEventFlags(OR_02, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1475, 1477);
@@ -2160,6 +2169,7 @@ Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     IfConditionGroup(OR_03, PASS, AND_02);
     IfEventFlag(OR_03, OFF, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(MAIN, PASS, OR_03);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -4173,7 +4183,7 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
-// NPC - Hostility Cooldown
+// NPC - Hostility Monitor
 Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
@@ -4244,8 +4254,8 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - Set Flags if Dead
-// <entity id>, <killed flag>, <hostility flag>, <unk flag>
+// NPC - Monitor Killed flag
+// <entity id>, <killed flag>, <npc flag range start>, <npc flag range end>
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
    
@@ -4253,36 +4263,48 @@ Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1); // Is dead
     IfConditionGroup(MAIN, PASS, AND_01);
     BatchSetNetworkconnectedEventFlags(X8_4, X12_4, OFF);
-    SetNetworkconnectedEventFlag(X4_4, ON); // Set hostility flag on
+    SetNetworkconnectedEventFlag(X4_4, ON); // Set killed flag on
     SaveRequest(0);
 });
 
-// NPC Toggle in Multiplayer
+// NPC - Setup Appearance in Host/Client world
+// <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <npc flag range start>, <npc flag range end>
 Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetEventFlag(X4_4, OFF);
+    
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
     IfCharacterHPRatio(AND_01, X0_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL10, true);
+    
     SetEventFlag(X4_4, OFF);
     BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
     SetNetworkconnectedEventFlag(X16_4, ON);
     SaveRequest(0);
+    
+    // Disable if world isn't host world
     Label10();
     SetCharacterInvincibility(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Disabled);
+    
     WaitFixedTimeSeconds(0.5);
+    
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetSpeffect(X0_4, 4640);
+    
     WaitFixedTimeSeconds(5);
+    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
 });
 
+// NPC - Setup Appearance in Host/Client world
+// <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <anim id>, <npc flag range start>, <npc flag range end>, <speffect>
 Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X4_4, OFF);
@@ -4301,6 +4323,8 @@ Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterBackreadState(X0_4, true);
 });
 
+// NPC - Animation Handler
+// <entity id>, <flag>, <flag>, <int>, <hex to dec float>, <anim>, <anim>, <speffect>
 Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4365,6 +4389,7 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4391,6 +4416,7 @@ Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4430,6 +4456,7 @@ Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4469,6 +4496,7 @@ Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20006010, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -4478,6 +4506,7 @@ Event(20006010, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// NPC - 
 Event(20006011, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);

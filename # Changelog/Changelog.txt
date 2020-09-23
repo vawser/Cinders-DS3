@@ -32,13 +32,19 @@
 #------------------------------
 
 # NPCs
-- Changed Orbeck's shop stock checks for dialogue into Vordt check.
-- Changed Irina's shop stock checks for spawning into Deacon check.
-- Irina can be taught of humanity after the Curse-rotted Greatwood is killed, proceeding her firekeper questline.
-- Custom merchants now respawn when they die.
+- Many of the NPCs now respawn when they die.
+- Yoel now dies when you kill Pontiff Sulyvahn, instead of when you step into Catacombs of Carthus.
+- Orbeck's "You are no ordinary man." dialogue is now unlocked when you kill the Twin Princes.
+- Irina now has new menu options: Give Abyssal Fragments, which starts the Dark part of her questline, and Give Holy Fragments, which starts the Holy part of her questline. Both options require 10 fragments, and cannot be undone.
 
 # Enemies
 - Boosted the damage of hostile intruders by 20%.
+- Reduced the damage multipliers for the early levels, so the early-game is less punishing if you can't dodge.
+
+# Map
+- Changed the Cemetery -> High Wall ladders so they are less glitchy.
+- Removed the Burial Knights.
+- Moved the Sword Master into the Cemetery of Ash side of the map.
 
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
@@ -46,8 +52,4 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Change the NPC dead states so they don't 'disappear' so easily.
-
-Look into how the game is loading the game between levels, may explain the NPC death issue.
-
-Player respawn point is event, not spawnpoint
+Change Greirat pillages
