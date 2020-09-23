@@ -2395,6 +2395,10 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400382);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000737);
     SetSpeffect(10000, 160400383);
+    
+    // Flame Kick
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000738);
+    SetSpeffect(10000, 160400393);
 });
 
 //----------------------------------------------
