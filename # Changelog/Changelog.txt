@@ -24,7 +24,7 @@
 54102011 Kiln of the First Flame
 53202076 Archdragon Peak
 54502075 Painted World of Ariandel
-55002062 Dreg Heap
+55002065 Dreg Heap
 55102059 The Ringed City
 
 #------------------------------
@@ -49,6 +49,15 @@
 
 # Items
 - Slowed down the Estus Flask animation to 2.2 seconds (was 1.5)
+- Added Lifegem: Restores 500 HP over 10 seconds. Hold limit of 20.
+- Added Radiant Lifegem: Restores 1000 HP over 20 seconds. Hold limit of 15.
+- Added Old Radiant Lifegem: Restores 1500 HP over 30 seconds. Hold limit of 10.
+- Added Elizabeth Mushroom: Restores 2000 HP over 40 seconds. Hold limit of 5.
+- Added Dried Root: Restores 5000 HP over 500 seconds. Hold limit of 20.
+- Added Rouge Water: Restores 600 HP and 2000 FP over 20 seconds. Hold limit of 10.
+- Added Crimson Water: Restores 900 HP and 3000 FP over 30 seconds. Hold limit of 5.
+- These are dropped by various mobs and sold via the bonfire, Lifegem unlocked by default, the rest require ashes.
+
 
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
@@ -65,11 +74,3 @@ Change Greirat pillages
 804 Dried Root
 805 Rouge Water
 806 Crimson Water
-
-4250 Lifegem
-4251 Radiant Lifegem
-4252 Old Radiant Lifegem
-4253 Elizabeth Mushroom
-4254 Dried Root
-4255 Rouge Water
-4256 Crimson Water
