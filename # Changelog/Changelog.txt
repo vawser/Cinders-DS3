@@ -48,7 +48,7 @@
 - Moved the Sword Master into the Cemetery of Ash side of the map.
 
 # Items
-- Slowed down the Estus Flask animation.
+- Slowed down the Estus Flask animation to 2.2 seconds (was 1.5)
 
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
@@ -58,16 +58,18 @@
 #------------------------------
 Change Greirat pillages
 
-# Estus
-050110 
-050111
-050112
-050113
-050114
+800 Lifegem
+801 Radiant Lifegem
+802 Old Radiant Lifegem
+803 Elizabeth Mushroom
+804 Dried Root
+805 Rouge Water
+806 Crimson Water
 
-# Ashen Estus
-050140
-050141
-050142
-050143
-050144
+4250 Lifegem
+4251 Radiant Lifegem
+4252 Old Radiant Lifegem
+4253 Elizabeth Mushroom
+4254 Dried Root
+4255 Rouge Water
+4256 Crimson Water
