@@ -11,8 +11,8 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002072 Cemetery of Ash / Unturned Graves
-53002102 High Wall of Lothric / Consumed King's Garden
+54002075 Cemetery of Ash / Unturned Graves
+53002104 High Wall of Lothric / Consumed King's Garden
 53102094 Undead Settlement
 53302181 Road of Sacrifices / Farron Keep
 53502083 Cathedral of the Deep
@@ -39,21 +39,22 @@
 
 # Enemies
 - Boosted the damage of hostile intruders by 20%.
-- Reduced the damage multipliers for the early levels, so the early-game is less punishing if you can't dodge.
+- Increased the damage multipliers for NG area scaling.
 - Increased the damage/HP multipliers for NG+.
 
 # Map
 - Changed the Cemetery -> High Wall ladders so they are less glitchy.
 - Removed the Burial Knights.
 - Moved the Sword Master into the Cemetery of Ash side of the map.
+- Moved the Fire Keeper set corpse into the section below the bridge in Firelink Shrine.
 
 # Items
 - Slowed down the Estus Flask animation to 2.2 seconds (was 1.5)
-- Added Lifegem: Restores 500 HP over 10 seconds. Hold limit of 20.
-- Added Radiant Lifegem: Restores 1000 HP over 20 seconds. Hold limit of 15.
-- Added Old Radiant Lifegem: Restores 1500 HP over 30 seconds. Hold limit of 10.
-- Added Elizabeth Mushroom: Restores 2000 HP over 40 seconds. Hold limit of 5.
-- Added Dried Root: Restores 5000 HP over 500 seconds. Hold limit of 20.
+- Added Lifegem: Restores 500 HP over 10 seconds. Hold limit of 10.
+- Added Radiant Lifegem: Restores 1000 HP over 20 seconds. Hold limit of 8.
+- Added Old Radiant Lifegem: Restores 1500 HP over 30 seconds. Hold limit of 6.
+- Added Elizabeth Mushroom: Restores 2000 HP over 40 seconds. Hold limit of 3.
+- Added Dried Root: Restores 5000 HP over 500 seconds. Hold limit of 5.
 - Added Rouge Water: Restores 600 HP and 2000 FP over 20 seconds. Hold limit of 10.
 - Added Crimson Water: Restores 900 HP and 3000 FP over 30 seconds. Hold limit of 5.
 - These are dropped by various mobs and sold via the bonfire, Lifegem unlocked by default, the rest require ashes.
@@ -66,10 +67,3 @@
 #------------------------------
 Change Greirat pillages
 
-800 Lifegem
-801 Radiant Lifegem
-802 Old Radiant Lifegem
-803 Elizabeth Mushroom
-804 Dried Root
-805 Rouge Water
-806 Crimson Water
