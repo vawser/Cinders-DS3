@@ -557,7 +557,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009550 Irina - Given Humanity
 25009551 Irina - Given Holy Fragments
 
-# Armor Effects
+# Enchantment Effects
 25000400 Helm Effect: Max HP
 25000401 Helm Effect: Max FP
 25000402 Helm Effect: Max Stamina
@@ -596,7 +596,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000435 Helm Effect: Effect Duration
 25000436 Helm Effect: Soul Absorption
 25000437 Helm Effect: HP Effectiveness
-25000438
+25000438 Helm Effect: Flame Kick
 
 25000500 Armor Effect: Max HP
 25000501 Armor Effect: Max FP
@@ -636,7 +636,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000535 Armor Effect: Effect Duration
 25000536 Armor Effect: Soul Absorption
 25000537 Armor Effect: HP Effectiveness
-25000538
+25000538 Armor Effect: Flame Kick
 
 25000600 Gauntlets Effect: Max HP
 25000601 Gauntlets Effect: Max FP
@@ -676,7 +676,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000635 Gauntlets Effect: Effect Duration
 25000636 Gauntlets Effect: Soul Absorption
 25000637 Gauntlets Effect: HP Effectiveness
-25000638
+25000638 Gauntlets Effect: Flame Kick
 
 25000700 Leggings Effect: Max HP
 25000701 Leggings Effect: Max FP
@@ -716,4 +716,4 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000735 Leggings Effect: Effect Duration
 25000736 Leggings Effect: Soul Absorption
 25000737 Leggings Effect: HP Effectiveness
-25000737 Leggings Effect: Flame Kick
+25000738 Leggings Effect: Flame Kick
