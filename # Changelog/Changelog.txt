@@ -40,11 +40,15 @@
 # Enemies
 - Boosted the damage of hostile intruders by 20%.
 - Reduced the damage multipliers for the early levels, so the early-game is less punishing if you can't dodge.
+- Increased the damage/HP multipliers for NG+.
 
 # Map
 - Changed the Cemetery -> High Wall ladders so they are less glitchy.
 - Removed the Burial Knights.
 - Moved the Sword Master into the Cemetery of Ash side of the map.
+
+# Items
+- Slowed down the Estus Flask animation.
 
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
@@ -53,3 +57,17 @@
 # TODO - General
 #------------------------------
 Change Greirat pillages
+
+# Estus
+050110 
+050111
+050112
+050113
+050114
+
+# Ashen Estus
+050140
+050141
+050142
+050143
+050144
