@@ -30,7 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Armor
 - Removed most of the base effects on armor, only Symbol of Avarice, Thorns Set and Crown of Illusions have base effects. >:0
 - Added a new system for armor effects: Enchantment. There is now an enchanting table in Firelink. :D
@@ -38,6 +37,10 @@
 - Doing this will imbue the armor slot and grant you the chosen effect until the effect is changed.
 - Enhancement costs Enchantment Ash. This is dropped by bosses.
 - Note this isn't tied to the actual armor piece, so you can wear any armor piece you like, the effect is tied to the slot.
+
+# Rings
+- Changed how + versions of the rings are acquired. You now affix rings via the Shrine Handmaid, exchanging the base ring and Time-lost Essence for the + version of the ring.
+- Ring affixes are only available in NG+, and the max affix level corresponds to the NG+ level, up to +3.
 
 # NPCs
 - Many of the NPCs now respawn when they die.
@@ -49,6 +52,9 @@
 - Boosted the damage of hostile intruders by 20%.
 - Increased the damage multipliers for NG area scaling.
 - Increased the damage/HP multipliers for NG+.
+- Echoes of the Past enemies are now referred to as Time-lost Enemies.
+- Changed all the Time-lost enemies to now drop Time-lost Essence instead of the NG+ rings/Primordial materials.
+- Increased the strength of Time-lost enemies.
 
 # Map
 - Changed the Cemetery -> High Wall ladders so they are less glitchy.
@@ -83,13 +89,3 @@ Fix Greirat pillage states
 Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
 Fix Yuria appearance state
 
-Echos of the Past
-- Drop Time-lost Essence
-
-Bosses in NG+ drop Time-lost Essence
-
-Time-lost Essence is used to imbue the original ring and make a +X version. Each +X requires the +X-1 version, and the correct NG+ level to use. 
-
-160740100 Echoes of the Past
-
-809040
