@@ -16,9 +16,6 @@ Effect: increases equipment load by 5%.
 - Stamina Recovery
 Effect: increases stamina recovery by 10.
 
-#-----------------------------
-# Stats
-#-----------------------------
 - Vigor
 Effect: increases Vigor by 5.
     
@@ -46,9 +43,6 @@ Effect: increases Faith by 5.
 - Luck
 Effect: increases Luck by 5.
 
-#-----------------------------
-# Damage
-#-----------------------------
 - Physical Damage
 Effect: increases Physical damage by 5%.
    
@@ -76,9 +70,6 @@ Effect: boosts damage against Hollows by 5%.
 - Anti-Abyssal
 Effect: boosts damage against Abyssal enemies by 5%.
 
-#-----------------------------
-# Weapon Stats
-#-----------------------------
 - Weapon Stamina Consumption
 Effect: reduces weapon stamina consumption by 5%.
 
@@ -97,27 +88,21 @@ Effect: boosts casting speed by 15.
 - Skill FP Cost
 Effect: reduces skill FP consumption by 10%.
 
-#-----------------------------
-# Recovery
-#-----------------------------
 - HP Regen
 Effect: restores 1 HP per second.
     
 - FP Regen
 Effect: restores 1 FP per second.
 
-- HP Effectiveness
-Effect: increases effectiveness of HP recovery by 5%.
+- No Fall Damage
+Effect: nulls fall damage.
 
-- Attack: HP absorb
+- HP absorb
 Effect: imbues weapon, absorbing 50 HP on kill.
 
-- Attack: FP absorb
+- FP absorb
 Effect: imbues weapon, absorbing 50 FP on kill.
 
-#-----------------------------
-# Utility
-#-----------------------------
 - Item Discovery
 Effect: increases Item Discovery by 50.
     
@@ -126,6 +111,42 @@ Effect: boosts effect duration by 25%.
 
 - Soul absorption
 Effect: boosts soul absorption by 5%.
+
+- HP Effectiveness
+Effect: increases effectiveness of HP recovery by 5%.
+
+- Poise
+Effect: boosts poise by 10%.
+
+- Physical Defence 
+Effect: boosts physical defence by 25%.
+
+- Magic Defence 
+Effect: boosts magic defence by 25%.
+
+- Fire Defence 
+Effect: boosts fire defence by 25%.
+
+- Lightning Defence 
+Effect: boosts lightning defence by 25%.
+
+- Dark Defence 
+Effect: boosts dark defence by 25%.
+
+- Deflection
+Effect: boosts deflection by 25.
+
+- Poison Resist
+Effect: boosts poison/toxic resist by 25%.
+
+- Bleed Resist
+Effect: boosts bleed resist by 25%.
+
+- Curse Resist
+Effect: boosts curse resist by 25%.
+
+- Frost Resist
+Effect: boosts frost resist by 25%.
 
 #-----------------------------
 # Base
