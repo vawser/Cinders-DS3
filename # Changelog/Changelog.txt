@@ -78,5 +78,18 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Change Greirat pillages
+
+Fix Greirat pillage states
 Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
+Fix Yuria appearance state
+
+Echos of the Past
+- Drop Time-lost Essence
+
+Bosses in NG+ drop Time-lost Essence
+
+Time-lost Essence is used to imbue the original ring and make a +X version. Each +X requires the +X-1 version, and the correct NG+ level to use. 
+
+160740100 Echoes of the Past
+
+809040
