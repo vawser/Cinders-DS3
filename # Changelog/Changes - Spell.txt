@@ -497,7 +497,7 @@ Deep Protection
 #--------------------------------
 # Fire Surge
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 80
 - Fire Damage: 150
 - Ascended Effect: hits more often.
 
@@ -1174,7 +1174,7 @@ Deep Protection
 #--------------------------------
 # Surging Deep
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 80
 - Dark Damage: 150
 - INT Req: 15
 - FTH Req: 15

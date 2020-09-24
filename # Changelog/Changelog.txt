@@ -67,11 +67,16 @@
 - Added Crimson Water: Restores 900 HP and 3000 FP over 30 seconds. Hold limit of 5.
 - These are dropped by various mobs and sold via the bonfire, Lifegem unlocked by default, the rest require ashes.
 
+# Spells
+- Reduced Fire Surge/Surging Deep FP cost to 80.
+
 # Bugfixes
 - The damage boosts from armor now affect spell damage.
+- Fixed Pungent/Pulsating Blade not being Hexes.
+- Added poison swamp back to Profaned Capital.
 
 #------------------------------
 # TODO - General
 #------------------------------
 Change Greirat pillages
-
+Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
