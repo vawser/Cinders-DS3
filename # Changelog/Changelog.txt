@@ -84,7 +84,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-
 Fix Greirat pillage states
 Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
 Fix Yuria appearance state
