@@ -1,705 +1,191 @@
-﻿#----------------------------
-# Ultra Heavy (60 - 70)
-#----------------------------
-# Havel's Set
-Effect: increases Vigor by 5.
-
-# Giant-horned Helmet
+﻿#-----------------------------
+# Cardinal Stats
+#-----------------------------
+- Max HP
 Effect: increases max HP by 5%.
 
-# Fang Boar Helm
-Effect: increases max Stamina by 5%.
-
-# Golem Set
-Effect: increases max Stamina by 5%.
-
-# Giant's Set
-Effect: increases Strength by 5.
-
-# Pursuer's Set
-Effect: boosts damage against Hollows by 5%.
-
-# Smough's Set
-Effect: imbues weapon, absorbing 50 HP on kill.
-
-# Gundyr Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Brushwood Set
-Effect: increases Strength by 5.
-
-# Winged Knight Set 
-Effect: increases Faith by 5.
-
-# Snail Shell
+- Max FP
 Effect: increases max FP by 5%.
 
-# Millwood Knight Set
-Effect: increases Vigor by 5.
-
-# Mirror Knight Set
-Effect: increases Lightning damage by 5%.
-
-# Dragonrider Set
-Effect: increases Strength by 5.
-
-# Catarina Set
-Effect: increases Vigor by 5.
-
-# Stone Set
-Effect: increases Strength by 5.
-
-# Guardian Set
-Effect: increases Strength by 5.
-
-# Steel Set
-Effect: increases max HP by 5%.
-
-# Cathedral Knight Set
-Effect: restores 2 HP per second.
-
-# Dragon Hunter Set
-Effect: increases Physical damage by 5%.
-
-# Black Iron Set
-Effect: increases Fire absorption by 10%.
-
-# Iron Dragonslayer Set
-Effect: reduces skill FP consumption by 10%.
-
-# Lapp's Set
-Effect: increases Physical damage by 5%.
-
-# Penetrator Set
+- Max Stamina
 Effect: increases max Stamina by 5%.
+    
+- Equip load
+Effect: increases equipment load by 5%.
 
-# Morne's Set
-Effect: restores 2 HP per second.
+- Stamina Recovery
+Effect: increases stamina recovery by 10.
 
-# Paladin Set
-Effect: increases Faith by 5.
-
-# Quicksilver Set
-Effect: increases max FP by 5%.
-
-# Executioner Set
-Effect: imbues weapon, absorbing 50 FP on kill.
-
-# Dragonslayer Set
-Effect: increases Lightning damage by 5%.
-
-# Lothric Knight Armor Set
-Effect: increases max Stamina by 5%.
-
-# Iron Keeper Helm
-Effect: increases Strike absorption by 10% and prevents headshot damage.
-
-# Heide Mask
-Effect: reduces skill FP consumption by 10%.
-
-#----------------------------
-# Heavy (50 - 60)
-#----------------------------
-# Harald Legion Set
-Effect: increases Dark damage by 5%.
-
-# Exile Armor Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Overseer's Mask
+- Vigor
+Effect: increases Vigor by 5.
+    
+- Attunement
+Effect: increases Attunement by 5.
+    
+- Endurance
 Effect: increases Endurance by 5.
-
-# Raime's Set
-Effect: increases Fire damage by 5%.
-
-# Black Knight Set
-Effect: boosts damage against Demons by 5%.
-
-# Silver Knight Set
-Effect: increases Lightning damage by 5%.
-
-# Tarnished Knight Set
+    
+- Vitality
+Effect: increases Vitality by 5.
+    
+- Strength
 Effect: increases Strength by 5.
+    
+- Dexterity
+Effect: increases Dexterity by 5.
+    
+- Intelligence
+Effect: increases Intelligence by 5.
+    
+- Faith
+Effect: increases Faith by 5.
 
-# Heide Knight Set
-Effect: reduces skill FP consumption by 10%.
-
-# Syan Knight Set
-Effect: restores 2 HP per second.
-
-# Alonne Captain Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Gloom Set
-Effect: increases max FP by 5%.
-
-# Ruin Set
-Effect: increases max Stamina by 5%.
-
-# Rampart Golem
-Effect: increases max HP by 5%.
-
-# Gargoyle Helm
-Effect: increases stamina damage by 25%.
-
-# Gargoyle Set
-Effect: increases stamina damage by 25%.
-
-# Crab Helmet
+- Luck
 Effect: increases Luck by 5.
 
-# Imperial Samurai Helm
-Effect: increases Dexterity by 5.
-
-# Horned Samurai Helm
-Effect: increases Strength by 5.
-
-# Ornate Samurai Helm
-Effect: reduces weapon stamina consumption by 10%.
-
-# Lorian's Set
+- Physical Damage
+Effect: increases Physical damage by 5%.
+   
+- Magic Damage
+Effect: increases Magic damage by 5%.
+    
+- Fire Damage
 Effect: increases Fire damage by 5%.
+    
+- Lightning Damage
+Effect: increases Lightning damage by 5%.
+    
+- Dark Damage
+Effect: increases Dark damage by 5%.
+    
+- Anti-Demon
+Effect: boosts damage against Demons by 5%.
+    
+- Anti-Undead
+Effect: boosts damage against Undead by 5%.
+    
+- Anti-Hollow
+Effect: boosts damage against Hollows by 5%.
 
-# Great Lord Set
-Effect: increases Fire damage by 5%.
+- Anti-Abyssal
+Effect: boosts damage against Abyssal enemies by 5%.
 
-# Ludleth's Crown
-Effect: boosts soul absorption by 10%.
+- Weapon Stamina Consumption
+Effect: reduces weapon stamina consumption by 5%.
 
-# Symbol of Avarice
+- Shield Stability
+Effect: increases shield stability by 5%.
+
+- Stamina Damage
+Effect: increases stamina damage by 25%.
+
+- Bow Distance
+Effect: increases range of bows, greatbows and crossbows by 50.
+
+- Cast Speed
+Effect: boosts casting speed by 15.
+
+- Skill FP Cost
+Effect: reduces skill FP consumption by 10%.
+
+- HP Regen
+Effect: restores 1 HP per second.
+    
+- FP Regen
+Effect: restores 1 FP per second.
+
+- No Fall Damage
+Effect: nulls fall damage.
+
+- HP absorb
+Effect: imbues weapon, absorbing 50 HP on kill.
+
+- FP absorb
+Effect: imbues weapon, absorbing 50 FP on kill.
+
+- Item Discovery
+Effect: increases Item Discovery by 50.
+    
+- Effect Duration
+Effect: boosts effect duration by 25%.
+
+- Soul absorption
+Effect: boosts soul absorption by 5%.
+
+- HP Effectiveness
+Effect: increases effectiveness of HP recovery by 5%.
+
+- Poise
+Effect: boosts poise by 10%.
+
+- Physical Defence 
+Effect: boosts physical defence by 25%.
+
+- Magic Defence 
+Effect: boosts magic defence by 25%.
+
+- Fire Defence 
+Effect: boosts fire defence by 25%.
+
+- Lightning Defence 
+Effect: boosts lightning defence by 25%.
+
+- Dark Defence 
+Effect: boosts dark defence by 25%.
+
+- Deflection
+Effect: boosts deflection by 25.
+
+- Poison Resist
+Effect: boosts poison/toxic resist by 25%.
+
+- Bleed Resist
+Effect: boosts bleed resist by 25%.
+
+- Curse Resist
+Effect: boosts curse resist by 25%.
+
+- Frost Resist
+Effect: boosts frost resist by 25%.
+
+#-----------------------------
+# Unique
+#-----------------------------
+- Symbol of Avarice
 Effect: increases Item Discovery by 100 and reduces HP by 5 per second.
 
-# Giant Slave Helmet
-Effect: increases equipment load by 10%.
+- Crown of Illusion
+Effect: reveals the unseen in the Grand Archives.
 
-# Old Demon King's Crown
-Effect: increases Fire damage by 5%.
+- Iron Keeper Helm
+Effect:  prevents headshot damage.
 
-# Pygmy Crown
-Effect: restores 2 HP per second.
-
-#----------------------------
-# Medium 1 (30 - 40)
-#----------------------------
-# Drakeblood Set
-Effect: increases max Stamina by 5%.
-
-# Barrel
-Effect: increases Item Discovery by 50.
-
-# Gough's Set
-Effect: increases range of bows, greatbows and crossbows by 50.
-
-# Mad Warrior Set
-Effect: reduces skill FP consumption by 10%.
-
-# Imperious Set
-Effect: increases Strike absorption by 10%.
-
-# Vengarl's Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Mask of Sin
-Effect: boosts soul absorption by 10%.
-
-# Pot
-Effect: boosts the HP restoration of the Estus Flask by 10%.
-
-# Black Dragon Set
-Effect: imbues kicks with flame, causing them to inflict 100 Fire damage.
-
-# Ringed Knight Set
-Effect: boosts damage against Abyssal enemies by 5%.
-
-# Gravekeeper Set
-Effect: boosts damage against Undead by 5%.
-
-# Ivory King Set
-Effect: boosts damage against Demons by 5%.
-
-# Yhorm's Set
-Effect: increases equipment load by 10%.
-
-# Smelter Demon Set
-Effect: increases Fire damage by 5%.
-
-# Firelink Set
-Effect: increases Physical, Magic, Fire, Lightning and Dark damage by 3%.
-
-# Gold Ardeo
-Effect: imbues weapon, absorbing 50 HP on kill.
-
-# Iron Cage
-Effect: imbues weapon, absorbing 50 FP on kill.
-
-# Corvian Knight Set
-Effect: increases stamina recovery by 10.
-
-# Eastern Armor Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Alonne Set
-Effect: increases Dexterity by 5.
-
-# Brass Set
-Effect: increases Magic damage by 5%.
-
-# Charred Loyce Set
-Effect: increases Fire absorption by 10%.
-
-# Loyce Set
-Effect: increases max FP by 5%.
-
-# Armor of Favor Set
-Effect: boosts soul absorption by 10%.
-
-# King's Set
-Effect: restores 2 HP per second.
-
-# Lord's Blade Set
-Effect: increases Dexterity by 5.
-
-# Sunset Set
-Effect: increases Physical damage by 5%.
-
-# Bloodstained Gauntlets
-
-# Wolf Knight Set
-Effect: increases stamina recovery by 10.
-
-# Winged Helm of Ridoh
-Effect: successive attacks will restore estus.
-
-# Artificial Helmet
-Effect: increases equipment load by 10%.
-
-# Ancient King Set
-Effect: increases Dark damage by 5%.
-
-# Crown of Filianore
-Effect: restores 2 HP per second.
-
-# Crown of the Holy King
-Effect: increases Faith by 5.
-
-#----------------------------
-# Medium 2 (20 - 30)
-#----------------------------
-# Elite Knight Set
-Effect: boosts the HP restoration of the Estus Flask by 10%.
-
-# Bucket
-Effect: reduces skill FP consumption by 10%.
-
-# Burial Knight Set
-Effect: increases Slash absorption by 10%.
-
-# Adventurer's Set
-Effect: increases Item Discovery by 50.
-
-# Knight Set
-Effect: increases Endurance by 5.
-
-# Armor of Thorns Set
+- Helm of Thorns
 Effect: rolling sprouts thorns, dealing 20 Physical damage upon contact.
+
+- Armor of Thorns
 Effect: rolling sprouts thorns, dealing 40 Physical damage upon contact.
+
+- Gauntlets of Thorns
 Effect: rolling sprouts thorns, dealing 10 Physical damage upon contact.
+
+- Leggings of Thorns
 Effect: rolling sprouts thorns, dealing 30 Physical damage upon contact.
 
-# Nameless Knight Set
-Effect: increases Item Discovery by 50.
+- Shadow Garb
+Effect: renders the wearer translucent, reducing detection via sight by 75%.
 
-# Mask of the Father
-Effect: increases equipment load by 10%.
+- Shadow Gauntlets
+Effect: renders the wielded weapons of the wearer invisible.
 
-# Mask of the Mother
-Effect: increases max HP by 5%.
+- Shadow Leggings
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
 
-# Mask of the Child
-Effect: increases stamina recovery by 10.
-
-# Demon Cleric Mask
-Effect: increases cast speed by 20.
-
-# Mask of Horror
-Effect: boosts damage against Undead by 5%.
-
-# Mask of Cruelty
-Effect: increases stamina damage by 25%.
-
-# Mask of Serenity
-Effect: increases max FP by 5%.
-
-# Mask of War
-Effect: increases stamina recovery by 10.
-
-# Faraam Armor Set
-Effect: restores 2 HP per second.
-
-# Alva Set
-Effect: increases Luck by 5.
-
-# Attendant Set
-Effect: increases max FP by 5%.
-
-# Footman Set
-Effect: increases Strength by 5.
-
-# Outrider Knight Armor Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Dark Set
-Effect: increases Dark absorption by 10%.
-
-# Skull Mask
-Effect: increases Dark absorption by 10%.
-
-# Suspicious Gold Mask
-Effect: increases Item Discovery by 50.
-
-# Undead Legion Set
-Effect: boosts damage against Abyssal enemies by 5%.
-
-# Mirrah Chain Set
-Effect: increases max Stamina by 5%.
-
-# Herald Set
-Effect: increases Faith by 5.
-
-# Fallen Knight Set
-Effect: boosts damage against Demons by 5%.
-
-# Hallowed Knight Set
-Effect: boosts damage against Undead by 5%.
-
-# Forlorn Set
-Effect: increases Dark absorption by 10%.
-
-# Aurous Set
-Effect: increases equipment load by 10%.
-
-# Armor of the Sun Set
-Effect: boosts the HP restoration of the Estus Flask by 10%.
-
-# Fire Witch Set
-Effect: increases max FP by 5%.
-
-# Channeler Set
-Effect: boosts effect duration by 25%.
-
-# Chain Armor Set
-Effect: increases Vitality by 5.
-
-# Vilhelm's Set
-Effect: increases Dark damage by 5%.
-
-# Bone Ash Set
-Effect: imbues weapon, absorbing 50 FP on kill.
-
-# Varangian Set
-Effect: increases Dexterity by 5.
-
-# Thorolund Set
-Effect: increases max HP by 5%.
-
-# Bear Set
-Effect: increases Strength by 5.
-
-# Wolnir's Crown
-Effect: successive attacks boost Physical damage by 10% for 15 seconds.
-
-# Crown of Illusions
-Effect: boosts soul absorption by 10% and reveals the unseen in the Grand Archives.
- 
-# Northern Set
-Effect: restores 2 HP per second.
-
-# Slave Knight Set
-Effect: reduces weapon stamina consumption by 10%.
-
-#----------------------------
-# Light (10 - 20)
-#----------------------------
-# Nameless King Set
-Effect: increases Lightning damage by 5%.
-
-# Courtier Set
-Effect: boosts soul absorption by 10%.
-
-# Follower Set
-Effect: increases Endurance by 5.
-
-# Royal Soldier Set
-Effect: increases max Stamina by 5%.
-
-# Pontiff Knight Set
-Effect: reduces skill FP consumption by 10%.
-
-# Pontiff's Set
-Effect: imbues weapon, absorbing 50 FP on kill.
-
-# Dancer Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Frigid Valley Mask
-Effect: increases Physical damage by 5%.
-
-# Evangelist Set
-Effect: increases Faith by 5.
-
-# Mirrah Set
-Effect: increases max Stamina by 5%.
-
-# Hard Leather Set
-Effect: increases Endurance by 5.
-
-# Jailer Set
-Effect: boosts soul absorption by 10%.
-
-# Black Set
-Effect: boosts effect duration by 25%.
-
-# Sellsword Set
-Effect: increases Dexterity by 5.
-
-# Vileblood Set
-Effect: imbues weapon, absorbing 50 HP on kill.
-
-# Sunless Set
-Effect: increases max FP by 5%.
-
-# Leonhard's Set
-Effect: reduces skill FP consumption by 10%.
-
-# Xanthous Set
-Effect: imbues weapon, absorbing 50 FP on kill.
-
-# White Preacher Head
-Effect: increases Intelligence by 5.
-
-# Poisonhorn Cap
-Effect: increases Vigor by 5.
-
-# Hollow Head
-Effect: increases Attunement by 5.
-
-# Basilisk Cap
-Effect: increases Luck by 5.
-
-# Vagabond Cowl
-Effect: increases Item Discovery by 50.
-
-# Raven Mask
-Effect: increases Intelligence by 5.
-
-# Deserter Set
-Effect: increases Item Discovery by 50.
-
-# Deserter Helm
-Effect: increases Vigor by 5.
-
-# Soldier's Hood
-Effect: increases Endurance by 5.
-
-# Black Leather Set
-Effect: boosts soul absorption by 10%.
-
-# Brigand Set
-Effect: reduces weapon stamina consumption by 10%.
-
-# Leather Set
-Effect: increases range of bows, greatbows and crossbows by 50.
-
-# Shira's Set
-Effect: increases Faith by 5.
-
-# Black Hand Set
-Effect: increases Dexterity by 5.
-
-# Conjurator Set
-Effect: increases Attunement by 5.
-
-# Jester's Set
-Effect: increases Luck by 5.
-
-# Grotto Set
-Effect: restores 2 HP per second.
-
-# Black Straw Hat
-Effect: reduces skill FP consumption by 10%.
-
-# Tan Straw Hat
-Effect: reduces skill FP consumption by 10%.
-
-# Cleric Set
-Effect: increases effectiveness of HP recovery by 10%.
-
-# Black Cleric Set
-Effect: increases max FP by 5%.
-
-# Astrologist
-Effect: increases Intelligence by 5.
-
-# Worker Set
-Effect: increases Luck by 5.
-
-# Salvador's Hat
-Effect: boosts soul absorption by 10%.
-
-# Chester's Set
-Effect: successive attacks boost Luck by 5 for 15 seconds, stacking up to 20.
-
-# Binded Set
-Effect: increases stamina recovery by 10.
-
-# Thrall Hood
-Effect: increases Luck by 5.
-
-# Assassin Set
-Effect: reduces detection via sound by 50%.
-
-# Painting Guardian Set
-Effect: increases Magic absorption by 10%.
-
-# Drang Set
-
-# Serpentine Set
-Effect: increases Lightning absorption by 10%.
-
-# Scholar Set
-Effect: increases Magic absorption by 10%.
-
-# Priestly Cap
-Effect: boosts effect duration by 25%.
-
-#----------------------------
-# Ultra Light (0 - 10)
-#----------------------------
-# Pyromancer Set
-Effect: increases Fire damage by 5%.
-
-# Sack
-Effect: increases equipment load by 10%.
-
-# Dragon Acolyte Set
-Effect: increases Magic damage by 5%.
-
-# Karla's Set
-Effect: increases Dark damage by 5%.
-
-# Black Witch Set
-Effect: increases max FP by 5%.
-
-# Black Witch Veil
-Effect: boosts casting speed by 20.
-
-# Rosaria's Dress
-Effect: increases effectiveness of HP recovery by 10%.
-
-# Sorcerer Set
-Effect: increases max FP by 5%.
-
-# Court Sorcerer Set
-Effect: boosts effect duration by 25%.
-
-# Old Sorcerer Set
-Effect: increases Intelligence by 5.
-
-# Venerable Sage's Set
-Effect: imbues weapon, absorbing 50 FP on kill.
+- Footman's Overcoat
+Effect: reduces enemy backstab damage to zero.
 
 # Clandestine Coat
-Effect: reduces detection via sound by 50% and prevents falling damage.
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
 
-# Wanderer's Coat
-
-# Sage's Big Hat
-Effect: increases max FP by 5%.
-
-# Gwyndolin Moonlight Set
-Effect: increases max FP by 5%.
-
-# Gold-hemmed Black Set
-Effect: increases Fire absorption by 10%.
-
-# Crimson Set
-Effect: restores 2 HP per second.
-
-# Pale Shade Set
-Effect: boosts damage against Hollows by 5%.
-
-# Shadow Set
-Effect: reduces detection via sight by 50% and causes your body to become translucent.
-
-# Maiden Set
-Effect: increases Faith by 5.
-
-# Hexer Set
-Effect: increases Dark damage by 5%.
-
-# Cornyx's Set
-Effect: increases max FP by 5%.
-
-# Grave Warden Set
-Effect: increases Dexterity by 5.
-
-# Ordained Set
-Effect: increases Intelligence by 5.
-
-# Desert Pyromancer Set
-Effect: boosts casting speed by 20.
-
-# Manikin Set
-Effect: increases Dexterity by 5.
-
-# Crude Manikin Mask
-Effect: increases Dexterity by 5.
-
-# Archdeacon Set
-Effect: increases Faith by 5.
-
-# Prayer Set
-Effect: restores 2 HP per second.
-
-# Fire Keeper Set
-Effect: boosts soul absorption by 10%.
-
-# Blindfold Mask
-Effect: increases Dark damage by 5%.
-
-# Carthus Blindfold
-Effect: increases Physical damage by 5%.
-
-# Antiquated Set
-Effect: increases Magic damage by 5%.
-
-# Antiquated Plain Set
-
-# Master's Set
-Effect: increases stamina recovery by 10.
-
-# Deacon Set
-
-# Saint Set
-Effect: increases effectiveness of HP recovery by 10%.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Crown of the Great Lord
+Effect: increases Fire damage by 10% whilst embered.

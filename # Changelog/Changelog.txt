@@ -31,8 +31,8 @@
 # Changelog
 #------------------------------
 # Armor
-- Removed most of the base effects on armor, only Symbol of Avarice, Thorns Set and Crown of Illusions have base effects. >:0
-- Added a new system for armor effects: Enchantment. There is now an enchanting table in Firelink. :D
+- Removed most of the passive effects on armor. The only passive effects are now those that are unique (compared to the enchantment effects), i.e. Symbol of Avarice, Thorns Set, etc.
+- Added a new system for armor effects: Enchantment. There is now an enchanting table in Firelink.
 - You can assign an effect to each of the four armor slots: helm, armor, gauntlets and leggings.
 - Doing this will imbue the armor slot and grant you the chosen effect until the effect is changed.
 - Enhancement costs Enchantment Ash. This is dropped by bosses.
@@ -87,4 +87,11 @@
 Fix Greirat pillage states
 Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
 Fix Yuria appearance state
+
+Re-add a few of the unique effects for armors
+ Clandestine Coat
+ 
+Gate enchantments behind Books, each book is a key item that you can find/buy/transpose
+
+Group the enchantments in the menu by type (sub menus)
 

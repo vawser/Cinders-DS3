@@ -1735,6 +1735,7 @@ Event(9600, Default, function() {
     InitializeEvent(0, 9685, 0); // Champions of Yore
     
     InitializeEvent(0, 9700, 0); // Armor Effects
+    InitializeEvent(0, 9701, 0); // Crown of the Great Lord
 });
 
 // Setup - Host and Client
@@ -2719,6 +2720,27 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400502);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000749);
     SetSpeffect(10000, 160400503);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009115);
+    SetEventFlag(25009115, OFF);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Crown of the Great Lord
+Event(9701, Default, function(X0_4, X4_4) {
+    IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    SetSpeffect(10000, 160409013);
+    
+    IfCharacterHasSpeffect(OR_01, 10000, 160409012, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 490, false, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    ClearSpeffect(10000, 160409013);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------

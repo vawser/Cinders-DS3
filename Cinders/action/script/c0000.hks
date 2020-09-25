@@ -1433,9 +1433,7 @@ function ExecGuard(event, blend_type)
             local sidearm_sp_kind = env(345, HAND_LEFT)
     
             if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
-                if sidearm_sp_kind == 285 and 500 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 286 and 500 < env(2016) then 
+                if sidearm_sp_kind == 286 and 500 < env(2016) then 
                     l1 = "W_AttackLeftLight1"
                 elseif sidearm_sp_kind == 287 and 100 < env(2016) then 
                     l1 = "W_AttackLeftLight1"
@@ -1701,9 +1699,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         -- Sidearms
         if IsSidearm() == TRUE then
             -- FP Check
-            if sidearm_sp_kind == 285 and 500 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 286 and 500 > env(2016) then 
+            if sidearm_sp_kind == 286 and 500 > env(2016) then 
                 l1 = "W_AttackLeftHeavy2"
             elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
                 l1 = "W_AttackLeftHeavy2"
@@ -1727,10 +1723,8 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         -- Sidearms
         if IsSidearm() == TRUE then
             -- FP Check
-            if sidearm_sp_kind == 285 and 500 > env(2016) then 
-                sidearm_can_fire = true  -- Cannon
-            elseif sidearm_sp_kind == 286 and 500 > env(2016) then 
-                sidearm_can_fire = true -- Church Cannon
+            if sidearm_sp_kind == 286 and 500 > env(2016) then 
+                sidearm_can_fire = true -- Cannon/Church Cannon
             elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
                 sidearm_can_fire = true -- Hunter's Pistol
             elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
