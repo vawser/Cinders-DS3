@@ -1,0 +1,41 @@
+﻿#-----------------------------
+# Unique
+#-----------------------------
+- Symbol of Avarice
+Effect: increases Item Discovery by 100 and reduces HP by 5 per second.
+
+- Crown of Illusion
+Effect: reveals the unseen in the Grand Archives.
+
+- Iron Keeper Helm
+Effect:  prevents headshot damage.
+
+- Helm of Thorns
+Effect: rolling sprouts thorns, dealing 20 Physical damage upon contact.
+
+- Armor of Thorns
+Effect: rolling sprouts thorns, dealing 40 Physical damage upon contact.
+
+- Gauntlets of Thorns
+Effect: rolling sprouts thorns, dealing 10 Physical damage upon contact.
+
+- Leggings of Thorns
+Effect: rolling sprouts thorns, dealing 30 Physical damage upon contact.
+
+- Shadow Garb
+Effect: renders the wearer translucent, reducing detection via sight by 75%.
+
+- Shadow Gauntlets
+Effect: renders the wielded weapons of the wearer invisible.
+
+- Shadow Leggings
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
+
+- Footman's Overcoat
+Effect: reduces enemy backstab damage to zero.
+
+# Clandestine Coat
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
+
+# Crown of the Great Lord
+Effect: increases Fire damage by 10% whilst embered.

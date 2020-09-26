@@ -1,0 +1,218 @@
+﻿#-----------------------------
+# Fundamental
+#-----------------------------
+- Max HP
+Base Effect: increases max HP by 4%.
+Attuned Effect: increases max HP by 5%.
+
+- Max FP
+Base Effect: increases max FP by 4%.
+Attuned Effect: increases max FP by 5%.
+
+- Max Stamina
+Base Effect: increases max Stamina by 4%.
+Attuned Effect: increases max Stamina by 5%.
+
+- Vigor
+Base Effect: increases Vigor by 4.
+Attuned Effect: increases Vigor by 5.
+    
+- Attunement
+Base Effect: increases Attunement by 4.
+Attuned Effect: increases Attunement by 5.
+    
+- Endurance
+Base Effect: increases Endurance by 4.
+Attuned Effect: increases Endurance by 5.
+    
+- Vitality
+Base Effect: increases Vitality by 4.
+Attuned Effect: increases Vitality by 5.
+    
+- Strength
+Base Effect: increases Strength by 4.
+Attuned Effect: increases Strength by 5.
+    
+- Dexterity
+Base Effect: increases Dexterity by 4.
+Attuned Effect: increases Dexterity by 5.
+    
+- Intelligence
+Base Effect: increases Intelligence by 4.
+Attuned Effect: increases Intelligence by 5.
+   
+- Faith
+Base Effect: increases Faith by 4.
+Attuned Effect: increases Faith by 5.
+
+- Luck
+Base Effect: increases Luck by 4.
+Attuned Effect: increases Luck by 5.
+
+#-----------------------------
+# Offensive
+#-----------------------------
+- Physical Damage
+Base Effect: increases Physical damage by 2%.
+Attuned Effect: increases Physical damage by 2.5%.
+   
+- Magic Damage
+Base Effect: increases Magic damage by 2%.
+Attuned Effect: increases Magic damage by 2.5%.
+    
+- Fire Damage
+Base Effect: increases Fire damage by 2%.
+Attuned Effect: increases Fire damage by 2.5%.
+    
+- Lightning Damage
+Base Effect: increases Lightning damage by 2%.
+Attuned Effect: increases Lightning damage by 2.5%.
+    
+- Dark Damage
+Base Effect: increases Dark damage by 2%.
+Attuned Effect: increases Dark damage by 2.5%.
+   
+- Anti-Demon
+Base Effect: boosts damage against Demons by 4%.
+Attuned Effect: boosts damage against Demons by 5%.
+  
+- Anti-Undead
+Base Effect: boosts damage against Undead by 4%.
+Attuned Effect: boosts damage against Undead by 5%.
+   
+- Anti-Hollow
+Base Effect: boosts damage against Hollows by 4%.
+Attuned Effect: boosts damage against Hollows by 5%.
+
+- Anti-Abyssal
+Base Effect: boosts damage against Abyssal enemies by 4%.
+Attuned Effect: boosts damage against Abyssal enemies by 5%.
+
+#-----------------------------
+# Defensive
+#-----------------------------
+- Physical Defence 
+Base Effect: boosts physical defence by 10%.
+Attuned Effect: boosts physical defence by 15%.
+
+- Magic Defence 
+Base Effect: boosts magic defence by 10%.
+Attuned Effect: boosts magic defence by 15%.
+
+- Fire Defence 
+Base Effect: boosts fire defence by 10%.
+Attuned Effect: boosts fire defence by 15%.
+
+- Lightning Defence 
+Base Effect: boosts lightning defence by 10%.
+Attuned Effect: boosts lightning defence by 15%.
+
+- Dark Defence 
+Base Effect: boosts dark defence by 10%.
+Attuned Effect: boosts dark defence by 15%.
+
+- Deflection
+Base Effect: boosts deflection by 20.
+Attuned Effect: boosts deflection by 25.
+
+- Poison Resist
+Base Effect: boosts poison/toxic resist by 20%.
+Attuned Effect: boosts poison/toxic resist by 25%.
+
+- Bleed Resist
+Base Effect: boosts bleed resist by 20%.
+Attuned Effect: boosts bleed resist by 25%.
+
+- Curse Resist
+Base Effect: boosts curse resist by 20%.
+Attuned Effect: boosts curse resist by 25%.
+
+- Frost Resist
+Base Effect: boosts frost resist by 20%.
+Attuned Effect: boosts frost resist by 25%.
+
+#-----------------------------
+# Combative
+#-----------------------------
+- Weapon Stamina Consumption
+Base Effect: reduces weapon stamina consumption by 4%.
+Attuned Effect: reduces weapon stamina consumption by 5%.
+
+- Shield Stability
+Base Effect: increases shield stability by 4%.
+Attuned Effect: increases shield stability by 5%.
+
+- Stamina Damage
+Base Effect: increases stamina damage by 20%.
+Attuned Effect: increases stamina damage by 25%.
+
+- Bow Distance
+Base Effect: increases range of bows, greatbows and crossbows by 40.
+Attuned Effect: increases range of bows, greatbows and crossbows by 50.
+
+- Skill FP Cost
+Base Effect: reduces skill FP consumption by 8%.
+Attuned Effect: reduces skill FP consumption by 10%.
+
+- Cast Speed
+Base Effect: boosts casting speed by 10.
+Attuned Effect: boosts casting speed by 12.
+
+- Equip load
+Base Effect: increases equipment load by 4%.
+Attuned Effect: increases equipment load by 5%.
+
+- Stamina Recovery
+Base Effect: increases stamina recovery by 8.
+Attuned Effect: increases stamina recovery by 10.
+
+- Poise
+Base Effect: boosts poise by 8%.
+Attuned Effect: boosts poise by 10%.
+
+- HP absorb
+Base Effect: imbues weapon, absorbing 40 HP on kill.
+Attuned Effect: imbues weapon, absorbing 50 HP on kill.
+
+- FP absorb
+Base Effect: imbues weapon, absorbing 40 FP on kill.
+Attuned Effect: imbues weapon, absorbing 50 FP on kill.
+
+#-----------------------------
+# Utility
+#-----------------------------
+- HP Regen
+Base Effect: restores 1 HP per second.
+Attuned Effect: restores 2 HP per second.
+   
+- FP Regen
+Base Effect: restores 1 FP per second.
+Attuned Effect: restores 2 FP per second.
+
+- HP Effectiveness
+Base Effect: increases effectiveness of HP recovery by 4%.
+Attuned Effect: increases effectiveness of HP recovery by 5%.
+
+- No Fall Damage
+Base Effect: nulls fall damage.
+Attuned Effect: nulls fall damage.
+
+- Item Discovery
+Base Effect: increases Item Discovery by 40.
+Attuned Effect: increases Item Discovery by 50.
+
+- Soul absorption
+Base Effect: boosts soul absorption by 4%.
+Attuned Effect: boosts soul absorption by 5%.
+
+- Effect Duration
+Base Effect: boosts effect duration by 20%.
+Attuned Effect: boosts effect duration by 25%.
+
+
+
+
+
+
+
+

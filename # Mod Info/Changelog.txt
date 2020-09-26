@@ -37,6 +37,7 @@
 - Doing this will imbue the armor slot and grant you the chosen effect until the effect is changed.
 - Enhancement costs Enchantment Ash. This is dropped by bosses.
 - Note this isn't tied to the actual armor piece, so you can wear any armor piece you like, the effect is tied to the slot.
+- Each armor set has an attunement associated with it. This means any effects enchanted that belong to that attunement category will be slightly stronger.
 
 # Rings
 - Changed how + versions of the rings are acquired. You now affix rings via the Shrine Handmaid, exchanging the base ring and Time-lost Essence for the + version of the ring.
@@ -87,11 +88,4 @@
 Fix Greirat pillage states
 Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
 Fix Yuria appearance state
-
-Re-add a few of the unique effects for armors
- Clandestine Coat
- 
-Gate enchantments behind Books, each book is a key item that you can find/buy/transpose
-
-Group the enchantments in the menu by type (sub menus)
 

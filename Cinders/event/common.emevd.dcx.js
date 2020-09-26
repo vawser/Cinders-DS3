@@ -2220,8 +2220,215 @@ Event(9700, Restart, function() {
     ClearSpeffect(10000, 160400501);
     ClearSpeffect(10000, 160400502);
     ClearSpeffect(10000, 160400503);
+    ClearSpeffect(10000, 160401010);
+    ClearSpeffect(10000, 160401011);
+    ClearSpeffect(10000, 160401012);
+    ClearSpeffect(10000, 160401013);
+    ClearSpeffect(10000, 160401020);
+    ClearSpeffect(10000, 160401021);
+    ClearSpeffect(10000, 160401022);
+    ClearSpeffect(10000, 160401023);
+    ClearSpeffect(10000, 160401030);
+    ClearSpeffect(10000, 160401031);
+    ClearSpeffect(10000, 160401032);
+    ClearSpeffect(10000, 160401033);
+    ClearSpeffect(10000, 160401040);
+    ClearSpeffect(10000, 160401041);
+    ClearSpeffect(10000, 160401042);
+    ClearSpeffect(10000, 160401043);
+    ClearSpeffect(10000, 160401050);
+    ClearSpeffect(10000, 160401051);
+    ClearSpeffect(10000, 160401052);
+    ClearSpeffect(10000, 160401053);
+    ClearSpeffect(10000, 160401060);
+    ClearSpeffect(10000, 160401061);
+    ClearSpeffect(10000, 160401062);
+    ClearSpeffect(10000, 160401063);
+    ClearSpeffect(10000, 160401070);
+    ClearSpeffect(10000, 160401071);
+    ClearSpeffect(10000, 160401072);
+    ClearSpeffect(10000, 160401073);
+    ClearSpeffect(10000, 160401080);
+    ClearSpeffect(10000, 160401081);
+    ClearSpeffect(10000, 160401082);
+    ClearSpeffect(10000, 160401083);
+    ClearSpeffect(10000, 160401090);
+    ClearSpeffect(10000, 160401091);
+    ClearSpeffect(10000, 160401092);
+    ClearSpeffect(10000, 160401093);
+    ClearSpeffect(10000, 160401100);
+    ClearSpeffect(10000, 160401101);
+    ClearSpeffect(10000, 160401102);
+    ClearSpeffect(10000, 160401103);
+    ClearSpeffect(10000, 160401110);
+    ClearSpeffect(10000, 160401111);
+    ClearSpeffect(10000, 160401112);
+    ClearSpeffect(10000, 160401113);
+    ClearSpeffect(10000, 160401120);
+    ClearSpeffect(10000, 160401121);
+    ClearSpeffect(10000, 160401122);
+    ClearSpeffect(10000, 160401123);
+    ClearSpeffect(10000, 160401130);
+    ClearSpeffect(10000, 160401131);
+    ClearSpeffect(10000, 160401132);
+    ClearSpeffect(10000, 160401133);
+    ClearSpeffect(10000, 160401140);
+    ClearSpeffect(10000, 160401141);
+    ClearSpeffect(10000, 160401142);
+    ClearSpeffect(10000, 160401143);
+    ClearSpeffect(10000, 160401150);
+    ClearSpeffect(10000, 160401151);
+    ClearSpeffect(10000, 160401152);
+    ClearSpeffect(10000, 160401153);
+    ClearSpeffect(10000, 160401160);
+    ClearSpeffect(10000, 160401161);
+    ClearSpeffect(10000, 160401162);
+    ClearSpeffect(10000, 160401163);
+    ClearSpeffect(10000, 160401170);
+    ClearSpeffect(10000, 160401171);
+    ClearSpeffect(10000, 160401172);
+    ClearSpeffect(10000, 160401173);
+    ClearSpeffect(10000, 160401180);
+    ClearSpeffect(10000, 160401181);
+    ClearSpeffect(10000, 160401182);
+    ClearSpeffect(10000, 160401183);
+    ClearSpeffect(10000, 160401190);
+    ClearSpeffect(10000, 160401191);
+    ClearSpeffect(10000, 160401192);
+    ClearSpeffect(10000, 160401193);
+    ClearSpeffect(10000, 160401200);
+    ClearSpeffect(10000, 160401201);
+    ClearSpeffect(10000, 160401202);
+    ClearSpeffect(10000, 160401203);
+    ClearSpeffect(10000, 160401210);
+    ClearSpeffect(10000, 160401211);
+    ClearSpeffect(10000, 160401212);
+    ClearSpeffect(10000, 160401213);
+    ClearSpeffect(10000, 160401220);
+    ClearSpeffect(10000, 160401221);
+    ClearSpeffect(10000, 160401222);
+    ClearSpeffect(10000, 160401223);
+    ClearSpeffect(10000, 160401230);
+    ClearSpeffect(10000, 160401231);
+    ClearSpeffect(10000, 160401232);
+    ClearSpeffect(10000, 160401233);
+    ClearSpeffect(10000, 160401240);
+    ClearSpeffect(10000, 160401241);
+    ClearSpeffect(10000, 160401242);
+    ClearSpeffect(10000, 160401243);
+    ClearSpeffect(10000, 160401250);
+    ClearSpeffect(10000, 160401251);
+    ClearSpeffect(10000, 160401252);
+    ClearSpeffect(10000, 160401253);
+    ClearSpeffect(10000, 160401260);
+    ClearSpeffect(10000, 160401261);
+    ClearSpeffect(10000, 160401262);
+    ClearSpeffect(10000, 160401263);
+    ClearSpeffect(10000, 160401270);
+    ClearSpeffect(10000, 160401271);
+    ClearSpeffect(10000, 160401272);
+    ClearSpeffect(10000, 160401273);
+    ClearSpeffect(10000, 160401280);
+    ClearSpeffect(10000, 160401281);
+    ClearSpeffect(10000, 160401282);
+    ClearSpeffect(10000, 160401283);
+    ClearSpeffect(10000, 160401290);
+    ClearSpeffect(10000, 160401291);
+    ClearSpeffect(10000, 160401292);
+    ClearSpeffect(10000, 160401293);
+    ClearSpeffect(10000, 160401300);
+    ClearSpeffect(10000, 160401301);
+    ClearSpeffect(10000, 160401302);
+    ClearSpeffect(10000, 160401303);
+    ClearSpeffect(10000, 160401310);
+    ClearSpeffect(10000, 160401311);
+    ClearSpeffect(10000, 160401312);
+    ClearSpeffect(10000, 160401313);
+    ClearSpeffect(10000, 160401320);
+    ClearSpeffect(10000, 160401321);
+    ClearSpeffect(10000, 160401322);
+    ClearSpeffect(10000, 160401323);
+    ClearSpeffect(10000, 160401330);
+    ClearSpeffect(10000, 160401331);
+    ClearSpeffect(10000, 160401332);
+    ClearSpeffect(10000, 160401333);
+    ClearSpeffect(10000, 160401340);
+    ClearSpeffect(10000, 160401341);
+    ClearSpeffect(10000, 160401342);
+    ClearSpeffect(10000, 160401343);
+    ClearSpeffect(10000, 160401350);
+    ClearSpeffect(10000, 160401351);
+    ClearSpeffect(10000, 160401352);
+    ClearSpeffect(10000, 160401353);
+    ClearSpeffect(10000, 160401360);
+    ClearSpeffect(10000, 160401361);
+    ClearSpeffect(10000, 160401362);
+    ClearSpeffect(10000, 160401363);
+    ClearSpeffect(10000, 160401370);
+    ClearSpeffect(10000, 160401371);
+    ClearSpeffect(10000, 160401372);
+    ClearSpeffect(10000, 160401373);
+    ClearSpeffect(10000, 160401380);
+    ClearSpeffect(10000, 160401381);
+    ClearSpeffect(10000, 160401382);
+    ClearSpeffect(10000, 160401383);
+    ClearSpeffect(10000, 160401390);
+    ClearSpeffect(10000, 160401391);
+    ClearSpeffect(10000, 160401392);
+    ClearSpeffect(10000, 160401393);
+    ClearSpeffect(10000, 160401400);
+    ClearSpeffect(10000, 160401401);
+    ClearSpeffect(10000, 160401402);
+    ClearSpeffect(10000, 160401403);
+    ClearSpeffect(10000, 160401410);
+    ClearSpeffect(10000, 160401411);
+    ClearSpeffect(10000, 160401412);
+    ClearSpeffect(10000, 160401413);
+    ClearSpeffect(10000, 160401420);
+    ClearSpeffect(10000, 160401421);
+    ClearSpeffect(10000, 160401422);
+    ClearSpeffect(10000, 160401423);
+    ClearSpeffect(10000, 160401430);
+    ClearSpeffect(10000, 160401431);
+    ClearSpeffect(10000, 160401432);
+    ClearSpeffect(10000, 160401433);
+    ClearSpeffect(10000, 160401440);
+    ClearSpeffect(10000, 160401441);
+    ClearSpeffect(10000, 160401442);
+    ClearSpeffect(10000, 160401443);
+    ClearSpeffect(10000, 160401450);
+    ClearSpeffect(10000, 160401451);
+    ClearSpeffect(10000, 160401452);
+    ClearSpeffect(10000, 160401453);
+    ClearSpeffect(10000, 160401460);
+    ClearSpeffect(10000, 160401461);
+    ClearSpeffect(10000, 160401462);
+    ClearSpeffect(10000, 160401463);
+    ClearSpeffect(10000, 160401470);
+    ClearSpeffect(10000, 160401471);
+    ClearSpeffect(10000, 160401472);
+    ClearSpeffect(10000, 160401473);
+    ClearSpeffect(10000, 160401480);
+    ClearSpeffect(10000, 160401481);
+    ClearSpeffect(10000, 160401482);
+    ClearSpeffect(10000, 160401483);
+    ClearSpeffect(10000, 160401490);
+    ClearSpeffect(10000, 160401491);
+    ClearSpeffect(10000, 160401492);
+    ClearSpeffect(10000, 160401493);
+    ClearSpeffect(10000, 160401500);
+    ClearSpeffect(10000, 160401501);
+    ClearSpeffect(10000, 160401502);
+    ClearSpeffect(10000, 160401503);
     
+    //----------------------------------------------------
+    // Base Effect
+    //----------------------------------------------------
+    //------------------------------
+    // Character
+    //------------------------------
     // Max HP
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000400);
     SetSpeffect(10000, 160400010);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000500);
@@ -2232,6 +2439,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400013);
    
     // Max FP
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000401);
     SetSpeffect(10000, 160400020);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000501);
@@ -2242,6 +2450,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400023);
     
     // Max Stamina
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000402);
     SetSpeffect(10000, 160400030);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000502);
@@ -2251,27 +2460,8 @@ Event(9700, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000702);
     SetSpeffect(10000, 160400033);
     
-    // Equip Load
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000403);
-    SetSpeffect(10000, 160400040);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000503);
-    SetSpeffect(10000, 160400041);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000603);
-    SetSpeffect(10000, 160400042);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000703);
-    SetSpeffect(10000, 160400043);
-    
-    // Stamina Recovery
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000404);
-    SetSpeffect(10000, 160400050);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000504);
-    SetSpeffect(10000, 160400051);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000604);
-    SetSpeffect(10000, 160400052);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000704);
-    SetSpeffect(10000, 160400053);
-    
     // Vigor
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000405);
     SetSpeffect(10000, 160400060);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000505);
@@ -2282,6 +2472,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400063);
     
     // Attunement
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000406);
     SetSpeffect(10000, 160400070);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000506);
@@ -2292,6 +2483,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400073);
     
     // Endurance
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000407);
     SetSpeffect(10000, 160400080);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000507);
@@ -2302,6 +2494,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400083);
     
     // Vitality
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000408);
     SetSpeffect(10000, 160400090);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000508);
@@ -2312,6 +2505,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400093);
     
     // Strength
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000409);
     SetSpeffect(10000, 160400100);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000509);
@@ -2322,6 +2516,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400103);
     
     // Dexterity
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000410);
     SetSpeffect(10000, 160400110);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
@@ -2332,6 +2527,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400113);
     
     // Intelligence
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000411);
     SetSpeffect(10000, 160400120);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000511);
@@ -2342,6 +2538,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400123);
     
     // Faith
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000412);
     SetSpeffect(10000, 160400130);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000512);
@@ -2352,6 +2549,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400133);
     
     // Luck
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000413);
     SetSpeffect(10000, 160400140);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000513);
@@ -2361,7 +2559,11 @@ Event(9700, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000713);
     SetSpeffect(10000, 160400143);
     
+    //------------------------------
+    // Offence
+    //------------------------------
     // Physical Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000414);
     SetSpeffect(10000, 160400150);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000514);
@@ -2372,6 +2574,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400153);
     
     // Magic Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000415);
     SetSpeffect(10000, 160400160);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000515);
@@ -2382,6 +2585,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400163);
     
     // Fire Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000416);
     SetSpeffect(10000, 160400170);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000516);
@@ -2392,6 +2596,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400173);
     
     // Lightning Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000417);
     SetSpeffect(10000, 160400180);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000517);
@@ -2402,6 +2607,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400183);
     
     // Dark Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000418);
     SetSpeffect(10000, 160400190);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000518);
@@ -2412,6 +2618,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400163);
     
     // Anti-Demon
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000419);
     SetSpeffect(10000, 160400200);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000519);
@@ -2422,6 +2629,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400203);
     
     // Anti-Undead
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000420);
     SetSpeffect(10000, 160400210);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000520);
@@ -2432,6 +2640,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400213);
     
     // Anti-Hollow
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000421);
     SetSpeffect(10000, 160400220);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000521);
@@ -2442,6 +2651,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400223);
     
     // Anti-Abyssal
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000422);
     SetSpeffect(10000, 160400230);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000522);
@@ -2451,157 +2661,8 @@ Event(9700, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000722);
     SetSpeffect(10000, 160400233);
     
-    // Weapon Stamina Consumption
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000423);
-    SetSpeffect(10000, 160400240);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000523);
-    SetSpeffect(10000, 160400241);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000623);
-    SetSpeffect(10000, 160400242);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000723);
-    SetSpeffect(10000, 160400243);
-    
-    // Stability
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000424);
-    SetSpeffect(10000, 160400250);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000524);
-    SetSpeffect(10000, 160400251);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000624);
-    SetSpeffect(10000, 160400252);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000724);
-    SetSpeffect(10000, 160400253);
-    
-    // Stamina Damage
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000425);
-    SetSpeffect(10000, 160400260);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000525);
-    SetSpeffect(10000, 160400261);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000625);
-    SetSpeffect(10000, 160400262);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000725);
-    SetSpeffect(10000, 160400263);
-    
-    // Bow Distance
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000426);
-    SetSpeffect(10000, 160400270);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000526);
-    SetSpeffect(10000, 160400271);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000626);
-    SetSpeffect(10000, 160400272);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000726);
-    SetSpeffect(10000, 160400273);
-    
-    // Cast Speed
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000427);
-    SetSpeffect(10000, 160400280);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000527);
-    SetSpeffect(10000, 160400281);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000627);
-    SetSpeffect(10000, 160400282);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000727);
-    SetSpeffect(10000, 160400283);
-    
-    // Skill FP Cost
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000428);
-    SetSpeffect(10000, 160400290);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000528);
-    SetSpeffect(10000, 160400291);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000628);
-    SetSpeffect(10000, 160400292);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000728);
-    SetSpeffect(10000, 160400293);
-    
-    // HP Regen
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000429);
-    SetSpeffect(10000, 160400300);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000529);
-    SetSpeffect(10000, 160400301);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000629);
-    SetSpeffect(10000, 160400302);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000729);
-    SetSpeffect(10000, 160400303);
-    
-    // FP Regen
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000430);
-    SetSpeffect(10000, 160400310);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000530);
-    SetSpeffect(10000, 160400311);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000630);
-    SetSpeffect(10000, 160400312);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000730);
-    SetSpeffect(10000, 160400313);
-    
-    // No Fall Damage
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000431);
-    SetSpeffect(10000, 160400320);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000531);
-    SetSpeffect(10000, 160400321);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000631);
-    SetSpeffect(10000, 160400322);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000731);
-    SetSpeffect(10000, 160400323);
-    
-    // HP Absorb
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000432);
-    SetSpeffect(10000, 160400330);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000532);
-    SetSpeffect(10000, 160400331);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000632);
-    SetSpeffect(10000, 160400332);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000732);
-    SetSpeffect(10000, 160400333);
-    
-    // FP Absorb
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000433);
-    SetSpeffect(10000, 160400340);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000533);
-    SetSpeffect(10000, 160400341);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000633);
-    SetSpeffect(10000, 160400342);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000733);
-    SetSpeffect(10000, 160400343);
-    
-    // Item Discovery
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000434);
-    SetSpeffect(10000, 160400350);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000534);
-    SetSpeffect(10000, 160400351);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000634);
-    SetSpeffect(10000, 160400352);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000734);
-    SetSpeffect(10000, 160400353);
-    
-    // Effect Duration
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000435);
-    SetSpeffect(10000, 160400360);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000535);
-    SetSpeffect(10000, 160400361);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000635);
-    SetSpeffect(10000, 160400362);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000735);
-    SetSpeffect(10000, 160400363);
-    
-    // Soul Absorption
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000436);
-    SetSpeffect(10000, 160400370);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000536);
-    SetSpeffect(10000, 160400371);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000636);
-    SetSpeffect(10000, 160400372);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000736);
-    SetSpeffect(10000, 160400373);
-    
-    // HP Effectiveness
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000437);
-    SetSpeffect(10000, 160400380);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000537);
-    SetSpeffect(10000, 160400381);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000637);
-    SetSpeffect(10000, 160400382);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000737);
-    SetSpeffect(10000, 160400383);
-    
     // Flame Kick
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000438);
     SetSpeffect(10000, 160400390);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000538);
@@ -2611,17 +2672,11 @@ Event(9700, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000738);
     SetSpeffect(10000, 160400393);
     
-    // Poise
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000439);
-    SetSpeffect(10000, 160400400);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000539);
-    SetSpeffect(10000, 160400401);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000639);
-    SetSpeffect(10000, 160400402);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000739);
-    SetSpeffect(10000, 160400403);
-    
+    //------------------------------
+    // Defence
+    //------------------------------
     // Physical Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000440);
     SetSpeffect(10000, 160400410);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000540);
@@ -2632,6 +2687,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400413);
     
     // Magic Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000441);
     SetSpeffect(10000, 160400420);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000541);
@@ -2642,6 +2698,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400423);
     
     // Fire Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000442);
     SetSpeffect(10000, 160400430);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000542);
@@ -2652,6 +2709,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400433);
     
     // Lightning Defence
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000443);
     SetSpeffect(10000, 160400440);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000543);
@@ -2662,6 +2720,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400443);
     
     // Dark Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000444);
     SetSpeffect(10000, 160400450);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000544);
@@ -2672,6 +2731,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400453);
     
     // Deflection
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000445);
     SetSpeffect(10000, 160400460);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000545);
@@ -2682,6 +2742,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400463);
     
     // Poison Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000446);
     SetSpeffect(10000, 160400470);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000546);
@@ -2692,6 +2753,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400473);
     
     // Bleed Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000447);
     SetSpeffect(10000, 160400480);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000547);
@@ -2702,6 +2764,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400483);
     
     // Curse Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000448);
     SetSpeffect(10000, 160400490);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000548);
@@ -2712,6 +2775,7 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400493);
     
     // Frost Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, true, ComparisonType.Equal, 1);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000449);
     SetSpeffect(10000, 160400500);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000549);
@@ -2720,6 +2784,778 @@ Event(9700, Restart, function() {
     SetSpeffect(10000, 160400502);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000749);
     SetSpeffect(10000, 160400503);
+    
+    //------------------------------
+    // Combat
+    //------------------------------
+    // Weapon Stamina Consumption
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000423);
+    SetSpeffect(10000, 160400240);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000523);
+    SetSpeffect(10000, 160400241);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000623);
+    SetSpeffect(10000, 160400242);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000723);
+    SetSpeffect(10000, 160400243);
+    
+    // Stability
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000424);
+    SetSpeffect(10000, 160400250);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000524);
+    SetSpeffect(10000, 160400251);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000624);
+    SetSpeffect(10000, 160400252);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000724);
+    SetSpeffect(10000, 160400253);
+    
+    // Stamina Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000425);
+    SetSpeffect(10000, 160400260);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000525);
+    SetSpeffect(10000, 160400261);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000625);
+    SetSpeffect(10000, 160400262);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000725);
+    SetSpeffect(10000, 160400263);
+    
+    // Bow Distance
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000426);
+    SetSpeffect(10000, 160400270);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000526);
+    SetSpeffect(10000, 160400271);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000626);
+    SetSpeffect(10000, 160400272);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000726);
+    SetSpeffect(10000, 160400273);
+    
+    // Cast Speed
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000427);
+    SetSpeffect(10000, 160400280);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000527);
+    SetSpeffect(10000, 160400281);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000627);
+    SetSpeffect(10000, 160400282);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000727);
+    SetSpeffect(10000, 160400283);
+    
+    // Skill FP Cost
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000428);
+    SetSpeffect(10000, 160400290);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000528);
+    SetSpeffect(10000, 160400291);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000628);
+    SetSpeffect(10000, 160400292);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000728);
+    SetSpeffect(10000, 160400293);
+    
+    // Equip Load
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000403);
+    SetSpeffect(10000, 160400040);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000503);
+    SetSpeffect(10000, 160400041);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000603);
+    SetSpeffect(10000, 160400042);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000703);
+    SetSpeffect(10000, 160400043);
+    
+    // Stamina Recovery
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000404);
+    SetSpeffect(10000, 160400050);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000504);
+    SetSpeffect(10000, 160400051);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000604);
+    SetSpeffect(10000, 160400052);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000704);
+    SetSpeffect(10000, 160400053);
+    
+    // Poise
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000439);
+    SetSpeffect(10000, 160400400);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000539);
+    SetSpeffect(10000, 160400401);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000639);
+    SetSpeffect(10000, 160400402);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000739);
+    SetSpeffect(10000, 160400403);
+    
+    // HP Absorb
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000432);
+    SetSpeffect(10000, 160400330);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000532);
+    SetSpeffect(10000, 160400331);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000632);
+    SetSpeffect(10000, 160400332);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000732);
+    SetSpeffect(10000, 160400333);
+    
+    // FP Absorb
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000433);
+    SetSpeffect(10000, 160400340);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000533);
+    SetSpeffect(10000, 160400341);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000633);
+    SetSpeffect(10000, 160400342);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000733);
+    SetSpeffect(10000, 160400343);
+    
+    //------------------------------
+    // Utility
+    //------------------------------
+    // HP Regen
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000429);
+    SetSpeffect(10000, 160400300);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000529);
+    SetSpeffect(10000, 160400301);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000629);
+    SetSpeffect(10000, 160400302);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000729);
+    SetSpeffect(10000, 160400303);
+    
+    // FP Regen
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000430);
+    SetSpeffect(10000, 160400310);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000530);
+    SetSpeffect(10000, 160400311);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000630);
+    SetSpeffect(10000, 160400312);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000730);
+    SetSpeffect(10000, 160400313);
+    
+    // HP Effectiveness
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000437);
+    SetSpeffect(10000, 160400380);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000537);
+    SetSpeffect(10000, 160400381);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000637);
+    SetSpeffect(10000, 160400382);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000737);
+    SetSpeffect(10000, 160400383);
+    
+    // No Fall Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000431);
+    SetSpeffect(10000, 160400320);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000531);
+    SetSpeffect(10000, 160400321);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000631);
+    SetSpeffect(10000, 160400322);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000731);
+    SetSpeffect(10000, 160400323);
+    
+    // Item Discovery
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000434);
+    SetSpeffect(10000, 160400350);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000534);
+    SetSpeffect(10000, 160400351);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000634);
+    SetSpeffect(10000, 160400352);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000734);
+    SetSpeffect(10000, 160400353);
+    
+    // Effect Duration
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000435);
+    SetSpeffect(10000, 160400360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000535);
+    SetSpeffect(10000, 160400361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000635);
+    SetSpeffect(10000, 160400362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000735);
+    SetSpeffect(10000, 160400363);
+    
+    // Soul Absorption
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, true, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000436);
+    SetSpeffect(10000, 160400370);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000536);
+    SetSpeffect(10000, 160400371);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000636);
+    SetSpeffect(10000, 160400372);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000736);
+    SetSpeffect(10000, 160400373);
+    
+    //----------------------------------------------------
+    // Attuned Effect
+    //----------------------------------------------------
+    //------------------------------
+    // Character
+    //------------------------------
+    // Max HP
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000400);
+    SetSpeffect(10000, 160401010);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000500);
+    SetSpeffect(10000, 160401011);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000600);
+    SetSpeffect(10000, 160401012);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000700);
+    SetSpeffect(10000, 160401013);
+   
+    // Max FP
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000401);
+    SetSpeffect(10000, 160401020);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000501);
+    SetSpeffect(10000, 160401021);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000601);
+    SetSpeffect(10000, 160401022);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000701);
+    SetSpeffect(10000, 160401023);
+    
+    // Max Stamina
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000402);
+    SetSpeffect(10000, 160401030);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000502);
+    SetSpeffect(10000, 160401031);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000602);
+    SetSpeffect(10000, 160401032);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000702);
+    SetSpeffect(10000, 160401033);
+    
+    // Vigor
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000405);
+    SetSpeffect(10000, 160401060);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000505);
+    SetSpeffect(10000, 160401061);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000605);
+    SetSpeffect(10000, 160401062);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000705);
+    SetSpeffect(10000, 160401063);
+    
+    // Attunement
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000406);
+    SetSpeffect(10000, 160401070);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000506);
+    SetSpeffect(10000, 160401071);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000606);
+    SetSpeffect(10000, 160401072);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000706);
+    SetSpeffect(10000, 160401073);
+    
+    // Endurance
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000407);
+    SetSpeffect(10000, 160401080);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000507);
+    SetSpeffect(10000, 160401081);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000607);
+    SetSpeffect(10000, 160401082);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000707);
+    SetSpeffect(10000, 160401083);
+    
+    // Vitality
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000408);
+    SetSpeffect(10000, 160401090);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000508);
+    SetSpeffect(10000, 160401091);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000608);
+    SetSpeffect(10000, 160401092);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000708);
+    SetSpeffect(10000, 160401093);
+    
+    // Strength
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000409);
+    SetSpeffect(10000, 160401100);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000509);
+    SetSpeffect(10000, 160401101);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000609);
+    SetSpeffect(10000, 160401102);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000709);
+    SetSpeffect(10000, 160401103);
+    
+    // Dexterity
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000410);
+    SetSpeffect(10000, 160401110);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
+    SetSpeffect(10000, 160401111);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000610);
+    SetSpeffect(10000, 160401112);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000710);
+    SetSpeffect(10000, 160401113);
+    
+    // Intelligence
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000411);
+    SetSpeffect(10000, 160401120);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000511);
+    SetSpeffect(10000, 160401121);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000611);
+    SetSpeffect(10000, 160401122);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000711);
+    SetSpeffect(10000, 160401123);
+    
+    // Faith
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000412);
+    SetSpeffect(10000, 160401130);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000512);
+    SetSpeffect(10000, 160401131);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000612);
+    SetSpeffect(10000, 160401132);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000712);
+    SetSpeffect(10000, 160401133);
+    
+    // Luck
+    SkipIfCharacterHasSpeffect(8, 10000, 160409600, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000413);
+    SetSpeffect(10000, 160401140);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000513);
+    SetSpeffect(10000, 160401141);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000613);
+    SetSpeffect(10000, 160401142);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000713);
+    SetSpeffect(10000, 160401143);
+    
+    //------------------------------
+    // Offence
+    //------------------------------
+    // Physical Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000414);
+    SetSpeffect(10000, 160401150);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000514);
+    SetSpeffect(10000, 160401151);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000614);
+    SetSpeffect(10000, 160401152);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000714);
+    SetSpeffect(10000, 160401153);
+    
+    // Magic Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000415);
+    SetSpeffect(10000, 160401160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000515);
+    SetSpeffect(10000, 160401161);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000615);
+    SetSpeffect(10000, 160401162);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000715);
+    SetSpeffect(10000, 160401163);
+    
+    // Fire Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000416);
+    SetSpeffect(10000, 160401170);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000516);
+    SetSpeffect(10000, 160401171);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000616);
+    SetSpeffect(10000, 160401172);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000716);
+    SetSpeffect(10000, 160401173);
+    
+    // Lightning Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000417);
+    SetSpeffect(10000, 160401180);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000517);
+    SetSpeffect(10000, 160401181);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000617);
+    SetSpeffect(10000, 160401182);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000717);
+    SetSpeffect(10000, 160401183);
+    
+    // Dark Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000418);
+    SetSpeffect(10000, 160401190);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000518);
+    SetSpeffect(10000, 160401191);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000618);
+    SetSpeffect(10000, 160401192);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000718);
+    SetSpeffect(10000, 160401163);
+    
+    // Anti-Demon
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000419);
+    SetSpeffect(10000, 160401200);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000519);
+    SetSpeffect(10000, 160401201);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000619);
+    SetSpeffect(10000, 160401202);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000719);
+    SetSpeffect(10000, 160401203);
+    
+    // Anti-Undead
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000420);
+    SetSpeffect(10000, 160401210);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000520);
+    SetSpeffect(10000, 160401211);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000620);
+    SetSpeffect(10000, 160401212);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000720);
+    SetSpeffect(10000, 160401213);
+    
+    // Anti-Hollow
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000421);
+    SetSpeffect(10000, 160401220);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000521);
+    SetSpeffect(10000, 160401221);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000621);
+    SetSpeffect(10000, 160401222);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000721);
+    SetSpeffect(10000, 160401223);
+    
+    // Anti-Abyssal
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000422);
+    SetSpeffect(10000, 160401230);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000522);
+    SetSpeffect(10000, 160401231);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000622);
+    SetSpeffect(10000, 160401232);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000722);
+    SetSpeffect(10000, 160401233);
+    
+    // Flame Kick
+    SkipIfCharacterHasSpeffect(8, 10000, 160409601, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000438);
+    SetSpeffect(10000, 160401390);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000538);
+    SetSpeffect(10000, 160401391);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000638);
+    SetSpeffect(10000, 160401392);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000738);
+    SetSpeffect(10000, 160401393);
+    
+    //------------------------------
+    // Defence
+    //------------------------------
+    // Physical Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000440);
+    SetSpeffect(10000, 160401410);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000540);
+    SetSpeffect(10000, 160401411);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000640);
+    SetSpeffect(10000, 160401412);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000740);
+    SetSpeffect(10000, 160401413);
+    
+    // Magic Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000441);
+    SetSpeffect(10000, 160401420);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000541);
+    SetSpeffect(10000, 160401421);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000641);
+    SetSpeffect(10000, 160401422);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000741);
+    SetSpeffect(10000, 160401423);
+    
+    // Fire Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000442);
+    SetSpeffect(10000, 160401430);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000542);
+    SetSpeffect(10000, 160401431);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000642);
+    SetSpeffect(10000, 160401432);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000742);
+    SetSpeffect(10000, 160401433);
+    
+    // Lightning Defence
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000443);
+    SetSpeffect(10000, 160401440);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000543);
+    SetSpeffect(10000, 160401441);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000643);
+    SetSpeffect(10000, 160401442);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000743);
+    SetSpeffect(10000, 160401443);
+    
+    // Dark Defence 
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000444);
+    SetSpeffect(10000, 160401450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000544);
+    SetSpeffect(10000, 160401451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000644);
+    SetSpeffect(10000, 160401452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000744);
+    SetSpeffect(10000, 160401453);
+    
+    // Deflection
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000445);
+    SetSpeffect(10000, 160401460);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000545);
+    SetSpeffect(10000, 160401461);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000645);
+    SetSpeffect(10000, 160401462);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000745);
+    SetSpeffect(10000, 160401463);
+    
+    // Poison Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000446);
+    SetSpeffect(10000, 160401470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000546);
+    SetSpeffect(10000, 160401471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000646);
+    SetSpeffect(10000, 160401472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000746);
+    SetSpeffect(10000, 160401473);
+    
+    // Bleed Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000447);
+    SetSpeffect(10000, 160401480);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000547);
+    SetSpeffect(10000, 160401481);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000647);
+    SetSpeffect(10000, 160401482);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000747);
+    SetSpeffect(10000, 160401483);
+    
+    // Curse Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000448);
+    SetSpeffect(10000, 160401490);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000548);
+    SetSpeffect(10000, 160401491);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000648);
+    SetSpeffect(10000, 160401492);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000748);
+    SetSpeffect(10000, 160401493);
+    
+    // Frost Resist
+    SkipIfCharacterHasSpeffect(8, 10000, 160409602, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000449);
+    SetSpeffect(10000, 160401500);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000549);
+    SetSpeffect(10000, 160401501);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000649);
+    SetSpeffect(10000, 160401502);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000749);
+    SetSpeffect(10000, 160401503);
+    
+    //------------------------------
+    // Combat
+    //------------------------------
+    // Weapon Stamina Consumption
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000423);
+    SetSpeffect(10000, 160401240);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000523);
+    SetSpeffect(10000, 160401241);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000623);
+    SetSpeffect(10000, 160401242);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000723);
+    SetSpeffect(10000, 160401243);
+    
+    // Stability
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000424);
+    SetSpeffect(10000, 160401250);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000524);
+    SetSpeffect(10000, 160401251);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000624);
+    SetSpeffect(10000, 160401252);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000724);
+    SetSpeffect(10000, 160401253);
+    
+    // Stamina Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000425);
+    SetSpeffect(10000, 160401260);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000525);
+    SetSpeffect(10000, 160401261);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000625);
+    SetSpeffect(10000, 160401262);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000725);
+    SetSpeffect(10000, 160401263);
+    
+    // Bow Distance
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000426);
+    SetSpeffect(10000, 160401270);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000526);
+    SetSpeffect(10000, 160401271);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000626);
+    SetSpeffect(10000, 160401272);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000726);
+    SetSpeffect(10000, 160401273);
+    
+    // Cast Speed
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000427);
+    SetSpeffect(10000, 160401280);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000527);
+    SetSpeffect(10000, 160401281);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000627);
+    SetSpeffect(10000, 160401282);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000727);
+    SetSpeffect(10000, 160401283);
+    
+    // Skill FP Cost
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000428);
+    SetSpeffect(10000, 160401290);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000528);
+    SetSpeffect(10000, 160401291);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000628);
+    SetSpeffect(10000, 160401292);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000728);
+    SetSpeffect(10000, 160401293);
+    
+    // Equip Load
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000403);
+    SetSpeffect(10000, 160401040);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000503);
+    SetSpeffect(10000, 160401041);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000603);
+    SetSpeffect(10000, 160401042);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000703);
+    SetSpeffect(10000, 160401043);
+    
+    // Stamina Recovery
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000404);
+    SetSpeffect(10000, 160401050);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000504);
+    SetSpeffect(10000, 160401051);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000604);
+    SetSpeffect(10000, 160401052);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000704);
+    SetSpeffect(10000, 160401053);
+    
+    // Poise
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000439);
+    SetSpeffect(10000, 160401400);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000539);
+    SetSpeffect(10000, 160401401);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000639);
+    SetSpeffect(10000, 160401402);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000739);
+    SetSpeffect(10000, 160401403);
+    
+    // HP Absorb
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000432);
+    SetSpeffect(10000, 160401330);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000532);
+    SetSpeffect(10000, 160401331);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000632);
+    SetSpeffect(10000, 160401332);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000732);
+    SetSpeffect(10000, 160401333);
+    
+    // FP Absorb
+    SkipIfCharacterHasSpeffect(8, 10000, 160409603, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000433);
+    SetSpeffect(10000, 160401340);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000533);
+    SetSpeffect(10000, 160401341);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000633);
+    SetSpeffect(10000, 160401342);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000733);
+    SetSpeffect(10000, 160401343);
+    
+    //------------------------------
+    // Utility
+    //------------------------------
+    // HP Regen
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000429);
+    SetSpeffect(10000, 160401300);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000529);
+    SetSpeffect(10000, 160401301);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000629);
+    SetSpeffect(10000, 160401302);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000729);
+    SetSpeffect(10000, 160401303);
+    
+    // FP Regen
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000430);
+    SetSpeffect(10000, 160401310);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000530);
+    SetSpeffect(10000, 160401311);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000630);
+    SetSpeffect(10000, 160401312);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000730);
+    SetSpeffect(10000, 160401313);
+    
+    // HP Effectiveness
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000437);
+    SetSpeffect(10000, 160401380);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000537);
+    SetSpeffect(10000, 160401381);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000637);
+    SetSpeffect(10000, 160401382);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000737);
+    SetSpeffect(10000, 160401383);
+    
+    // No Fall Damage
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000431);
+    SetSpeffect(10000, 160401320);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000531);
+    SetSpeffect(10000, 160401321);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000631);
+    SetSpeffect(10000, 160401322);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000731);
+    SetSpeffect(10000, 160401323);
+    
+    // Item Discovery
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000434);
+    SetSpeffect(10000, 160401350);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000534);
+    SetSpeffect(10000, 160401351);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000634);
+    SetSpeffect(10000, 160401352);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000734);
+    SetSpeffect(10000, 160401353);
+    
+    // Effect Duration
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000435);
+    SetSpeffect(10000, 160401360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000535);
+    SetSpeffect(10000, 160401361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000635);
+    SetSpeffect(10000, 160401362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000735);
+    SetSpeffect(10000, 160401363);
+    
+    // Soul Absorption
+    SkipIfCharacterHasSpeffect(8, 10000, 160409604, false, ComparisonType.Equal, 1);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000436);
+    SetSpeffect(10000, 160401370);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000536);
+    SetSpeffect(10000, 160401371);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000636);
+    SetSpeffect(10000, 160401372);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000736);
+    SetSpeffect(10000, 160401373);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009115);
     SetEventFlag(25009115, OFF);
