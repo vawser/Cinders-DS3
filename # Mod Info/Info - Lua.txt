@@ -30,13 +30,53 @@ Goal.Initialize is (self, ai, goal, num)
 # Goals
 #------------------------
 21010 Solaire of Astora (Companion)
-227110 El Crabbo
-322010 Rocky
+30000 Luyila of Londor
+30010 Forgotten Locklin
+30020 Holy Knight Morton
+30030 Tiny
+30040 Captain Morrel
+30050 Dominatrix Sharron
+30060 Morric, the Fallen Knight
+30070 Tomb Raider Dyfan
+30080 Chaos Servant Eygor
+30090 Devotee Scarlett
+30100 Fester the Jester
+30110 Inquisitor Ashford
+30120 Corrupted Knight Lloyd
+30130 Huntmaster Ava
+30140 The Pursuer
+30150 Eccentric Archibald
+30160 Jailer Eileen
+30170 Ollis the Merciless
+30180 Vileblood Annalise
+30190 The Forlorn
+30200 Lord Zakar
+30210 Glaive Master Hodir
+30220 Ezekiel the Duelist
+30230 Eija the Shadow
+30240 Dulfisk the Accursed
+30250 Freya the Wretched
+30260 Nahor the Fallen
+30270 Easterner Iazeel
+30280 Gaius the Mighty
+30290 Quintus the Monstrous
+30300 Blacksmith's Nightmare
+30310 Frozen Knight Torbjorn
+30320 Bewitched Knight Iwai
+30330 Wandering Knight Osvaldo
+30340 Lord Takatsuji
+30350 Lieutenant Ugali
+30360 Lieutenant Hanji
+30370 Ashen Keeper Sofija
+30380 Hallowed Knight Orthell
+30390 Dragon Hunter Karstark
+30400 Disciple of Alsanna
+
+107020 El Hueso
 113020 Sluggo
 212010 Gimbal
-107020 El Hueso
+227110 El Crabbo
+322010 Rocky
 
-# TODO
-GOAL_NPC_FatherJohn = 522110
-522000 Father John # 522110
+
 
