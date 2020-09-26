@@ -145,30 +145,32 @@ Event(0, Default, function() {
     InitializeEvent(0, 9530, 4420, 18, 9020, 6068); // By my sword
     InitializeEvent(0, 9540, 15, 9017, 6065); // My thanks!
     
-    // Boss Flag States
-    InitializeEvent(0, 9100, 70000007);
-    InitializeEvent(0, 9101, 70000008);
-    InitializeEvent(0, 9102, 70000012);
-    InitializeEvent(0, 9103, 70000013);
-    InitializeEvent(0, 9104, 70000017);
-    InitializeEvent(0, 9105, 70000019, 70000020, 70000021);
-    InitializeEvent(0, 9111, 70000022, 70000023);
-    InitializeEvent(0, 9106, 70000000);
-    InitializeEvent(0, 9107, 70000001);
-    InitializeEvent(0, 9108, 70000002);
-    InitializeEvent(0, 9109, 70000003);
-    InitializeEvent(0, 9110, 70000004);
-    InitializeEvent(0, 9112, 70000005);
-    InitializeEvent(0, 9113, 70000030);
-    InitializeEvent(0, 9114, 70000031);
-    InitializeEvent(0, 9120, 74000756, 74000760, 74000760, 1, 1, 1, 0);
-    InitializeEvent(1, 9120, 74000591, 74000552, 74000592, 3, 3, 3, 0);
-    InitializeEvent(2, 9120, 74000552, 74000553, 74000592, 3, 3, 6, 0);
-    InitializeEvent(3, 9120, 74000303, 74000316, 74000316, 1, 1, 1, 1);
-    InitializeEvent(4, 9120, 74000306, 74000318, 74000318, 1, 1, 1, 1);
-    InitializeEvent(5, 9120, 74000921, 74000925, 74000925, 1, 1, 1, 1);
-    InitializeEvent(6, 9120, 74000916, 74000913, 74000913, 1, 1, 1, 1);
-    InitializeEvent(7, 9120, 73500265, 73500264, 73500264, 1, 1, 1, 0);
+    // NPC Flags
+    InitializeEvent(0, 9100, 70000007); // Hawkwood
+    InitializeEvent(0, 9101, 70000008); // Sirris
+    InitializeEvent(0, 9102, 70000012); // Greirat
+    InitializeEvent(0, 9103, 70000013); // Orbeck
+    InitializeEvent(0, 9104, 70000017); // Irina/Eygon
+    InitializeEvent(0, 9105, 70000019, 70000020, 70000021); // Anri
+    InitializeEvent(0, 9111, 70000022, 70000023); // Anri
+    InitializeEvent(0, 9106, 70000000); // Sirris
+    InitializeEvent(0, 9107, 70000001); // Yuria
+    InitializeEvent(0, 9108, 70000002); // Yuria
+    InitializeEvent(0, 9109, 70000003); // Yuria
+    InitializeEvent(0, 9110, 70000004); // Yuria
+    InitializeEvent(0, 9112, 70000005); //
+    InitializeEvent(0, 9113, 70000030); // Lapp
+    InitializeEvent(0, 9114, 70000031); // Shria
+    
+    // Boss Kill Count Trackers
+    InitializeEvent(0, 9120, 74000756, 74000760, 74000760, 1, 1, 1, 0); // Sirris
+    InitializeEvent(1, 9120, 74000591, 74000552, 74000592, 3, 3, 3, 0); // 
+    InitializeEvent(2, 9120, 74000552, 74000553, 74000592, 3, 3, 6, 0); // Orbeck
+    InitializeEvent(3, 9120, 74000303, 74000316, 74000316, 1, 1, 1, 1); // Greirat - Undead Settlement
+    InitializeEvent(4, 9120, 74000306, 74000318, 74000318, 1, 1, 1, 1); // Greirat - Irithyll
+    InitializeEvent(5, 9120, 74000921, 74000925, 74000925, 1, 1, 1, 1); // 
+    InitializeEvent(6, 9120, 74000916, 74000913, 74000913, 1, 1, 1, 1); // 
+    InitializeEvent(7, 9120, 73500265, 73500264, 73500264, 1, 1, 1, 0); // 
     
     InitializeEvent(0, 9016, 0); // Set Cleric class flag if Cleric
     InitializeEvent(0, 9011, 74000132);
@@ -187,7 +189,7 @@ Event(50, Default, function() {
     InitializeEvent(0, 232, 0); // Undead Settlement Ceremony Monitor
     
     InitializeEvent(0, 701, 0);
-    InitializeEvent(0, 700, 0);
+    InitializeEvent(0, 700, 0); // Initial flag setup
     InitializeEvent(0, 9012, 0);
     InitializeEvent(0, 741, 0);
     InitializeEvent(0, 740, 0);
@@ -394,6 +396,7 @@ Event(6100, Default, function(X0_4, X4_4) {
     SetEventFlag(X0_4, ON);
 });
 
+// Initial flag setup
 Event(700, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -1220,6 +1223,7 @@ Event(9080, Default, function(X0_1, X4_4, X8_4) {
     SetEventFlag(X8_4, OFF);
 });
 
+// Hawkwood - Flag Check
 Event(9100, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1229,6 +1233,7 @@ Event(9100, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Sirris - Flags
 Event(9101, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1279,19 +1284,24 @@ Event(9101, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Greirat - Quest Stage flags
 Event(9102, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
-    IfPlayerInoutMap(OR_01, true, 31, 0);
-    IfPlayerInoutMap(OR_01, true, 37, 0);
+    IfPlayerInoutMap(OR_01, true, 31, 0); // Undead Settlement
+    IfPlayerInoutMap(OR_01, true, 37, 0); // Irithyll
     IfConditionGroup(MAIN, PASS, OR_01);
     GotoIfPlayerInoutMap(Label.LABEL0, true, 31, 0);
     GotoIfPlayerInoutMap(Label.LABEL1, true, 37, 0);
+    
+    // Undead Settlement
     Label0();
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 1202);
     SetEventFlag(X0_4, ON);
     IfPlayerInoutMap(MAIN, false, 31, 0);
     EndUnconditionally(EventEndType.Restart);
+    
+    // Irithyll
     Label1();
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 1204);
     SetEventFlag(X0_4, ON);
@@ -1299,6 +1309,7 @@ Event(9102, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Orbeck - Flags
 Event(9103, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.Restart, true);
     SetEventFlag(X0_4, OFF);
@@ -1308,40 +1319,34 @@ Event(9103, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Irina/Eygon - Flags
 Event(9104, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1301);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1301); 
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1303);
     IfConditionGroup(AND_01, PASS, OR_01);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1295);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101710);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101720);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101730);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101740);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101750);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1295); // "Passive"
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1298); // "Killed"
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(X0_4, ON);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1301);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1303);
     IfConditionGroup(AND_02, PASS, OR_02);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 1295);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101710);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101720);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101730);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101740);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101750);
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 1295); // "Passive"
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1298); // "Killed"
     IfConditionGroup(MAIN, FAIL, AND_02);
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Anri - Flags
 Event(9105, Default, function(X0_4, X4_4, X8_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
     SetEventFlag(X4_4, OFF);
     SetEventFlag(X8_4, OFF);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1341);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 9311);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1341); 
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 9311); // Deacons of the Deep
     IfConditionGroup(MAIN, PASS, AND_01);
     GotoIfEventFlag(Label.LABEL10, OFF, TargetEventFlagType.EventFlag, 9013);
     SetEventFlag(X0_4, ON);
@@ -1357,6 +1362,7 @@ Event(9105, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Sirris - Flags
 Event(9106, Restart, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1370,6 +1376,7 @@ Event(9106, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Yuria - Flags
 Event(9107, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1383,6 +1390,7 @@ Event(9107, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Yuria - Flags
 Event(9108, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1396,6 +1404,7 @@ Event(9108, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Yuria - Flags
 Event(9109, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1409,6 +1418,7 @@ Event(9109, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Yuria - Flags
 Event(9110, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1430,6 +1440,7 @@ Event(9110, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Anri - Flags
 Event(9111, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1452,6 +1463,7 @@ Event(9111, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// 
 Event(9112, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1461,6 +1473,7 @@ Event(9112, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Lapp - Flags
 Event(9113, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1488,6 +1501,7 @@ Event(9113, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Shira - Flags
 Event(9114, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1497,12 +1511,17 @@ Event(9114, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Boss Kill Count Tracker
+// <trigger flag>, <end flag>, <set flag>, <bits>, <bits>, <threshold>, <compare value>
 Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    
     IfMapCeremonyState(AND_01, Disabled, 40, 0, 0);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Check bosses
     IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, X0_4);
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9300);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9300);
@@ -1555,15 +1574,22 @@ Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9327);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9327);
     GotoIfComparison(Label.LABEL0, ComparisonType.NotEqual, X24_4, 1);
+    
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9300, 9309);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9311);
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9313, 9315);
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9317, 9321);
+    
+    // DLC 1
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 6951);
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9322, 9323);
+    
+    // DLC 2
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 6952);
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9324, 9327);
+    
     IfConditionGroup(OR_01, PASS, AND_02);
+    
     Label0();
     IfConditionGroup(MAIN, PASS, OR_01);
     EndIfEventFlag(EventEndType.Restart, OFF, TargetEventFlagType.EventFlag, X0_4);

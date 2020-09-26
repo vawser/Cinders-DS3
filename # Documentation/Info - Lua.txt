@@ -110,3 +110,8 @@ AddSubGoal( <goal>, <value>, <anim id>, <target>, <value>, <dir type>, <value> )
  AI_DIR_TYPE_ToL = 7
  AI_DIR_TYPE_ToR = 8
  AI_DIR_TYPE_Top = 9
+ 
+#---------------------------------
+# Note
+#---------------------------------
+Add new goals to goal_list.lua. This is required for the new AI to function.

@@ -62,7 +62,7 @@ Then create the python version and recompile it.
 310270 Eygon of Carim
 310310 Siegward of Catarina (lift)
 310311 Siegward of Catarina (ledge)
-310380 Talking Cage Hollow
+310380 Cage Madman
 310410 Holy Knight Hodrick
 310500 Master Benjin    # Talk Flags: 73109000
 310501 GENERIC UNUSED
@@ -216,7 +216,7 @@ Then create the python version and recompile it.
 390000
 390001
 390002
-390250
+390250 Karla
 390310
 390311
 390500 GENERIC UNUSED
@@ -293,7 +293,7 @@ Then create the python version and recompile it.
 410001
 410002
 410010
-410120
+410120 Fire Keeper
 410500 GENERIC UNUSED
 410501 GENERIC UNUSED
 410502 GENERIC UNUSED
@@ -324,17 +324,17 @@ Then create the python version and recompile it.
 450507 GENERIC UNUSED
 450508 GENERIC UNUSED
 450509 GENERIC UNUSED
-450520
-450521
+450520 Sir Vilhelm
+450521 Sir Vilhelm
 450530 Painter (in village)
 450531 Painter (in Loft)
-450540
-450541
-450550
-450551
-450560
-450561
-450590
+450540 Corvian Villager
+450541 Corvian Villager
+450550 Sister Friede
+450551 Sister Friede
+450560 Father Ariandel
+450561 Father Ariandel
+450590 Dying Corvian
 
 500000
 500001
@@ -351,10 +351,10 @@ Then create the python version and recompile it.
 500507 GENERIC UNUSED
 500508 GENERIC UNUSED
 500509 GENERIC UNUSED
-500730
-500731
-500732
-500760
+500730 Lapp
+500731 Lapp
+500732 Lapp
+500760 Stone-humped Hag
 
 510000
 510001
@@ -374,15 +374,15 @@ Then create the python version and recompile it.
 510507 GENERIC UNUSED
 510508 GENERIC UNUSED
 510509 GENERIC UNUSED
-510730
-510731
-510732
-510740
-510750
-510751
-510752
-510770
-510780
+510730 Lapp
+510731 Lapp
+510732 Lapp
+510740 Shira
+510750 White-faced Locust
+510751 White-faced Locust
+510752 White-faced Locust
+510770 Pygmy King
+510780 Judicator Argo
 
 511000
 511001

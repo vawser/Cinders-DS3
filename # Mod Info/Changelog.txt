@@ -47,7 +47,9 @@
 - Many of the NPCs now respawn when they die.
 - Yoel now dies when you kill Pontiff Sulyvahn, instead of when you step into Catacombs of Carthus.
 - Orbeck's "You are no ordinary man." dialogue is now unlocked when you kill the Twin Princes.
-- Irina now has new menu options: Give Abyssal Fragments, which starts the Dark part of her questline, and Give Holy Fragments, which starts the Holy part of her questline. Both options require 10 fragments, and cannot be undone.
+- Orbeck will no longer leave if you forget to give him scrolls.
+- Greirat no longer physically leaves when sent on a pillage.
+- Yuria will no longer leave if you kill Anri, Heal Sigils or kill the pilgrim assassin.
 
 # Enemies
 - Boosted the damage of hostile intruders by 20%.
@@ -85,7 +87,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Fix Greirat pillage states
-Fix Irina's holy path state (currently talk esd is blocked, prob lack of a flag set)
-Fix Yuria appearance state
-
