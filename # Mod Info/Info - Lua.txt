@@ -1,0 +1,20 @@
+﻿#------------------------
+# Process
+#------------------------
+Example <goal>: GOAL_NPC_SolaireOfAstora
+
+# In the battle lua:
+RegisterTableGoal(<goal>, "<goal>")
+REGISTER_GOAL_NO_SUB_GOAL(<goal>, true)
+
+# in aiCommon.luagnl
+Add the <goal> and all the function titles 
+(i.e. NPC_SolaireOfAstoraAct01)
+
+# In goal_list.lua
+Add the <goal>
+
+#------------------------
+# New AI
+#------------------------
+21010 Solaire of Astora (Companion)

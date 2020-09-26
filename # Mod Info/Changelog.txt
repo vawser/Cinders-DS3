@@ -30,59 +30,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Armor
-- Removed most of the passive effects on armor. The only passive effects are now those that are unique (compared to the enchantment effects), i.e. Symbol of Avarice, Thorns Set, etc.
-- Added a new system for armor effects: Enchantment. There is now an enchanting table in Firelink.
-- You can assign an effect to each of the four armor slots: helm, armor, gauntlets and leggings.
-- Doing this will imbue the armor slot and grant you the chosen effect until the effect is changed.
-- Enhancement costs Enchantment Ash. This is dropped by bosses.
-- Note this isn't tied to the actual armor piece, so you can wear any armor piece you like, the effect is tied to the slot.
-- Each armor set has an attunement associated with it. This means any effects enchanted that belong to that attunement category will be slightly stronger.
 
-# Rings
-- Changed how + versions of the rings are acquired. You now affix rings via the Shrine Handmaid, exchanging the base ring and Time-lost Essence for the + version of the ring.
-- Ring affixes are only available in NG+, and the max affix level corresponds to the NG+ level, up to +3.
-
-# NPCs
-- Many of the NPCs now respawn when they die.
-- Yoel now dies when you kill Pontiff Sulyvahn, instead of when you step into Catacombs of Carthus.
-- Orbeck's "You are no ordinary man." dialogue is now unlocked when you kill the Twin Princes.
-- Orbeck will no longer leave if you forget to give him scrolls.
-- Greirat no longer physically leaves when sent on a pillage.
-- Yuria will no longer leave if you kill Anri, Heal Sigils or kill the pilgrim assassin.
-
-# Enemies
-- Boosted the damage of hostile intruders by 20%.
-- Increased the damage multipliers for NG area scaling.
-- Increased the damage/HP multipliers for NG+.
-- Echoes of the Past enemies are now referred to as Time-lost Enemies.
-- Changed all the Time-lost enemies to now drop Time-lost Essence instead of the NG+ rings/Primordial materials.
-- Increased the strength of Time-lost enemies.
-
-# Map
-- Changed the Cemetery -> High Wall ladders so they are less glitchy.
-- Removed the Burial Knights.
-- Moved the Sword Master into the Cemetery of Ash side of the map.
-- Moved the Fire Keeper set corpse into the section below the bridge in Firelink Shrine.
-
-# Items
-- Slowed down the Estus Flask animation to 2.2 seconds (was 1.5)
-- Added Lifegem: Restores 500 HP over 10 seconds. Hold limit of 10.
-- Added Radiant Lifegem: Restores 1000 HP over 20 seconds. Hold limit of 8.
-- Added Old Radiant Lifegem: Restores 1500 HP over 30 seconds. Hold limit of 6.
-- Added Elizabeth Mushroom: Restores 2000 HP over 40 seconds. Hold limit of 3.
-- Added Dried Root: Restores 5000 HP over 500 seconds. Hold limit of 5.
-- Added Rouge Water: Restores 600 HP and 2000 FP over 20 seconds. Hold limit of 10.
-- Added Crimson Water: Restores 900 HP and 3000 FP over 30 seconds. Hold limit of 5.
-- These are dropped by various mobs and sold via the bonfire, Lifegem unlocked by default, the rest require ashes.
-
-# Spells
-- Reduced Fire Surge/Surging Deep FP cost to 80.
-
-# Bugfixes
-- The damage boosts from armor now affect spell damage.
-- Fixed Pungent/Pulsating Blade not being Hexes.
-- Added poison swamp back to Profaned Capital.
 
 #------------------------------
 # TODO - General
