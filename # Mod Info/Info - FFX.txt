@@ -37,6 +37,10 @@ TypeEnumB:
 8  - With TypeEnumA 32
 11 - With TypeEnumA 35
 
+ActionID="75"
+    Contains the sound ID
+    Corresponds to s000<id> sample name in DSSI
+    
 #------------------------ 
 # New FFX
 #------------------------
