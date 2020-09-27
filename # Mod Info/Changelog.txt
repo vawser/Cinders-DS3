@@ -49,6 +49,7 @@ Attuned Effect: restores 1% FP per second. Now paused like other FP regen.
 
 # Spells
 - Lingering Chaos now throws one orb. FP cost is now 200, damage is now 250.
+- Bursting Fireball now shares hits between fireballs. This means it is more of an AOE spell, as a single target will only be harmed by 1 of the fireballs.
 
 # Bugfixes
 - Fixed Huntmaster Ava's AI not being loaded.
