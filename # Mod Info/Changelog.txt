@@ -30,8 +30,31 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Enchantments
+- HP Regen
+Base Effect: restores 2 HP per second.
+Attuned Effect: restores 4 HP per second.
+   
+- FP Regen
+Base Effect: restores 0.5% FP per second. Now paused like other FP regen.
+Attuned Effect: restores 1% FP per second. Now paused like other FP regen.
 
+# Mechanics
+- Reduced the duration of the rolling stamina increases so it doesn't linger beyond normal panic rolling.
+
+# Items
+- Reverted the Estus Flask animation slowdown.
+- Estus Flask sip now pauses stamina regen and poise.
+- Estus Flask drink animation now doubles damage taken if you are hit during it.
+
+# Spells
+- Lingering Chaos now throws one orb. FP cost is now 200, damage is now 250.
+
+# Bugfixes
+- Fixed Huntmaster Ava's AI not being loaded.
 
 #------------------------------
 # TODO - General
 #------------------------------
+Re-work NPC quests
+

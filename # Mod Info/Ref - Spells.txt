@@ -612,8 +612,8 @@ Deep Protection
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
-- FP Cost: 180
-- Fire Damage: 160 {*8, individual}
+- FP Cost: 200
+- Fire Damage: 250
 - Ascended Effect: extends duration to 30 seconds.
 
 #--------------------------------

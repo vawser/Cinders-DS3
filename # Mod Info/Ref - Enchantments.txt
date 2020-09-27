@@ -182,12 +182,12 @@ Attuned Effect: imbues weapon, absorbing 50 FP on kill.
 # Utility
 #-----------------------------
 - HP Regen
-Base Effect: restores 1 HP per second.
-Attuned Effect: restores 2 HP per second.
+Base Effect: restores 2 HP per second.
+Attuned Effect: restores 4 HP per second.
    
 - FP Regen
-Base Effect: restores 1 FP per second.
-Attuned Effect: restores 2 FP per second.
+Base Effect: restores 0.5% FP per second.
+Attuned Effect: restores 1% FP per second.
 
 - HP Effectiveness
 Base Effect: increases effectiveness of HP recovery by 4%.

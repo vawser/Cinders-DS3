@@ -815,15 +815,9 @@ function SetEvasionStaminaCost()
     end
     
     -- Rolling Stamina Growth
-    if env(1116, 112115) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling - 5
-        c_StaminaCostBackStep = c_StaminaCostBackStep - 5
-    end
-    
     if env(1116, 112114) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling - 5
         c_StaminaCostBackStep = c_StaminaCostBackStep - 5
-        act(2002, 112115)
     end
     
     if env(1116, 112113) == TRUE then
@@ -15709,6 +15703,38 @@ function UpdateFP()
         
         if env(1116, 113204) == TRUE then
             act(2002, 113105) -- Ring of Catastrophe
+        end
+        
+        if env(1116, 113210) == TRUE then
+            act(2002, 113110) -- Base Helm Enchantment
+        end
+        
+        if env(1116, 113211) == TRUE then
+            act(2002, 113111) -- Base Armor Enchantment
+        end
+        
+        if env(1116, 113212) == TRUE then
+            act(2002, 113112) -- Base Gauntlet Enchantment
+        end
+        
+        if env(1116, 113213) == TRUE then
+            act(2002, 113113) -- Base Legging Enchantment
+        end
+        
+        if env(1116, 113220) == TRUE then
+            act(2002, 113120) -- Attuned Helm Enchantment
+        end
+        
+        if env(1116, 113221) == TRUE then
+            act(2002, 113121) -- Attuned Armor Enchantment
+        end
+        
+        if env(1116, 113222) == TRUE then
+            act(2002, 113122) -- Attuned Gauntlet Enchantment
+        end
+        
+        if env(1116, 113223) == TRUE then
+            act(2002, 113123) -- Attuned Legging Enchantment
         end
     end
 end

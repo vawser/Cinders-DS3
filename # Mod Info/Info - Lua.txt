@@ -17,14 +17,11 @@ the c0000 AI doesn't register above 1000000.
 #------------------------
 # Reference
 #------------------------
-Goal.Whatever its (self, ai goal)
-ThingXXXXXX_ActYY or ActAfterAdjustSpace etc anything using 
-
-REGIST_FUNC its (ai, goal) or  (ai, goal, paramTbl) both are valid
-
-OnIf_XXXXXX its (ai, goal, codeNo)
-
-Goal.Initialize is (self, ai, goal, num)
+Invalid decompile:
+step_safety.lua
+non_battle_act.lua
+move_possible_direction.lua
+move_getwell_space.lua
 
 #------------------------
 # Goals
