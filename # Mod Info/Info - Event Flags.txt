@@ -1335,11 +1335,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000062 Warp To: Trial of Sorrow
 25000063 Warp To: Trial of Devastation
 
-25000100 Active: Mark of Replication
-25000101 Active: Mark of the Dog
-25000102 Active: Mark of the Crab
-25000103 Active: Mark of Valor
 
+25000100 Active: Curse of Attraction
 25000150 Active: Curse of Obscurity 
 25000151 Active: Curse of Vitality 
 25000152 Active: Curse of Wrath 
@@ -1350,6 +1347,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000157 Active: Curse of Frailty 
 25000158 Active: Curse of Enfeeblement 
 25000159 Active: Curse of Impermanence 
+
 
 25000200 Covenant Acquired: Thieves Pact           - Greirat
 25000201 Covenant Acquired: Chaos Servant          - Cornyx

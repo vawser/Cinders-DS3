@@ -1427,23 +1427,12 @@ function ExecGuard(event, blend_type)
             local sidearm_sp_kind = env(345, HAND_LEFT)
     
             if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
-                if sidearm_sp_kind == 286 and 500 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 287 and 100 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 288 and 150 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 289 and 200 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 290 and 150 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 291 and 250 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                elseif sidearm_sp_kind == 292 and 300 < env(2016) then 
-                    l1 = "W_AttackLeftLight1"
-                else
+                l1 = "W_AttackLeftLight1"
+                
+                if env(312, HAND_LEFT) == TRUE then
                     l1 = "W_AttackLeftHeavy2"
                 end
+                
                 ExecEventAllBody(l1)
             end
             
@@ -1692,20 +1681,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         
         -- Sidearms
         if IsSidearm() == TRUE then
-            -- FP Check
-            if sidearm_sp_kind == 286 and 500 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 289 and 200 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 290 and 150 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
-                l1 = "W_AttackLeftHeavy2"
-            elseif sidearm_sp_kind == 292 and 300 > env(2016) then 
+            if env(312, HAND_LEFT) == TRUE then
                 l1 = "W_AttackLeftHeavy2"
             end
         end
@@ -1716,26 +1692,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         
         -- Sidearms
         if IsSidearm() == TRUE then
-            -- FP Check
-            if sidearm_sp_kind == 286 and 500 > env(2016) then 
-                sidearm_can_fire = true -- Cannon/Church Cannon
-            elseif sidearm_sp_kind == 287 and 100 > env(2016) then 
-                sidearm_can_fire = true -- Hunter's Pistol
-            elseif sidearm_sp_kind == 288 and 150 > env(2016) then 
-                sidearm_can_fire = true -- Repeating Pistol
-            elseif sidearm_sp_kind == 289 and 200 > env(2016) then 
-                sidearm_can_fire = true -- Evelynn
-            elseif sidearm_sp_kind == 290 and 150 > env(2016) then 
-                sidearm_can_fire = true -- Hunter's Blunderbuss
-            elseif sidearm_sp_kind == 291 and 250 > env(2016) then 
-                sidearm_can_fire = true -- Rosamarinus
-            elseif sidearm_sp_kind == 292 and 300 > env(2016) then 
-                sidearm_can_fire = true -- Fist of Gratia
-            end
-            
-            if sidearm_can_fire == TRUE then
-                l2 = "W_AttackLeftLight1"
-            else
+            l2 = "W_AttackLeftLight1"
+                
+            if env(312, HAND_LEFT) == TRUE then
                 return FALSE
             end
         end
@@ -15666,7 +15625,7 @@ function UpdateFP()
     local skip = false
     local skip_base = false
     
-    if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE then
+    if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE or env(1116, 113010) == TRUE then
         skip = true
     end
     
@@ -15681,6 +15640,8 @@ function UpdateFP()
     end
     
     if skip == false then
+        act(2002, 113010) -- Base Interval
+        
         if skip_base == false then
             act(2002, 113100) -- Base
         end
@@ -15703,38 +15664,6 @@ function UpdateFP()
         
         if env(1116, 113204) == TRUE then
             act(2002, 113105) -- Ring of Catastrophe
-        end
-        
-        if env(1116, 113210) == TRUE then
-            act(2002, 113110) -- Base Helm Enchantment
-        end
-        
-        if env(1116, 113211) == TRUE then
-            act(2002, 113111) -- Base Armor Enchantment
-        end
-        
-        if env(1116, 113212) == TRUE then
-            act(2002, 113112) -- Base Gauntlet Enchantment
-        end
-        
-        if env(1116, 113213) == TRUE then
-            act(2002, 113113) -- Base Legging Enchantment
-        end
-        
-        if env(1116, 113220) == TRUE then
-            act(2002, 113120) -- Attuned Helm Enchantment
-        end
-        
-        if env(1116, 113221) == TRUE then
-            act(2002, 113121) -- Attuned Armor Enchantment
-        end
-        
-        if env(1116, 113222) == TRUE then
-            act(2002, 113122) -- Attuned Gauntlet Enchantment
-        end
-        
-        if env(1116, 113223) == TRUE then
-            act(2002, 113123) -- Attuned Legging Enchantment
         end
     end
 end

@@ -30,32 +30,63 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Enchantments
-- HP Regen
-Base Effect: restores 2 HP per second.
-Attuned Effect: restores 4 HP per second.
-   
-- FP Regen
-Base Effect: restores 0.5% FP per second. Now paused like other FP regen.
-Attuned Effect: restores 1% FP per second. Now paused like other FP regen.
-
 # Mechanics
+- Changed FP design back to vanilla amounts.
+- FP sources still work the same way, but give 1 FP per second in most cases.
 - Reduced the duration of the rolling stamina increases so it doesn't linger beyond normal panic rolling.
+- Moved the Affix mechanic to enchanting table position. Now available in NG0.
+- Adjusted base enemy scaling and base NG+ scaling to match vanilla. The corrections are still higher.
+- Restored vanilla softcap correction graph.
+- Restored the vanilla stat contribution graphs for resists and defences.
+
+# Curses/Marks
+- Re-added the Curse of Attraction for the additional enemy toggle.
+- Removed Marks.
+
+# Weapons
+- Sidearms cost durability instead of FP.
+- Primordial Reinforcement now only needs Primordial Essence (3/6/9/12/15 cost).
+
+# Armor
+- Increased poise health.
+- Restored the old armor effect design.
+- Removed Enchantment system.
 
 # Items
 - Reverted the Estus Flask animation slowdown.
 - Estus Flask sip now pauses stamina regen and poise.
-- Estus Flask drink animation now doubles damage taken if you are hit during it.
+- Added illusionary insignia/emblems for all armor sets. Sold by Alchemist Jiji. They allow you to override your head/armor apperance with another set's appearance.
+- Renamed Time-list Essence to Primordial Essence.
+- Primordial Essence is dropped by bosses that are considered 'tough'.
 
 # Spells
-- Lingering Chaos now throws one orb. FP cost is now 200, damage is now 250.
+- Adjusted FP to vanilla FP design.
+- Lingering Chaos now throws one orb.
 - Bursting Fireball now shares hits between fireballs. This means it is more of an AOE spell, as a single target will only be harmed by 1 of the fireballs.
+
+# Map
+- Restored the vanilla start sequence.
+- Reduced the strength of Corrupted Gundyr.
+- Moved Lillian to the Firelink Tower access tower.
+- Moved Jiji into Firelink Shrine.
+- Removed the Oceiros shortcut.
+- Moved the New Journey giant to the deadend area at the start.
+- Moved Sword Master to the deadend area at the start.
+- Blocked access between High Wall and Cemetery of Ash.
+- Moved King's Sanctum bonfire to early High Wall, renamed to Abandoned Storeroom.
+- Moved Solaire to the Abandoned Storeroom area.
+- Removed Dragon Barracks bonfire.
+- Moved Royal Library bonfire back to the start of the Grand Archives, renamed it to Grand Archives.
+- Removed Dreg Heap warp tree.
+- Untended Graves is accessed via Ludleth's throne back after Oceiros has been killed.
 
 # Bugfixes
 - Fixed Huntmaster Ava's AI not being loaded.
+- Fixed the crashes due to the AI limit being exceeded.
+- Removed NPC kill flag reverter.
+- Reverted Greirat appearance flag change.
 
 #------------------------------
 # TODO - General
 #------------------------------
-Re-work NPC quests
 
