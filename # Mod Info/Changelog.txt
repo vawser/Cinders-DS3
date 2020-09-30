@@ -80,6 +80,21 @@
 - Removed Dreg Heap warp tree.
 - Untended Graves is accessed via Ludleth's throne back after Oceiros has been killed.
 
+# Gifts
+- Re-did the gift selection to be more balanced:
+ - Master Key
+ - Coiled Sword Fragment
+ - Young White Branch (3)
+ - Soul of a Crestfallen Knight
+ - Black Firebomb (10)
+ - Old Radiant Lifegem (3)
+ - Rouge Water (5)
+ - Titanite Shard (3)
+ - Fire Seed (2)
+ - Crystal Fragment (2)
+ - Abyssal Fragment (2)
+ - Holy Fragment (2)
+
 # Bugfixes
 - Fixed Huntmaster Ava's AI not being loaded.
 - Fixed the crashes due to the AI limit being exceeded.
@@ -96,19 +111,4 @@ Check the NPC flags completely, fix any possible issues:
  Yuria
  
 Change the locked chest to use Master Key + add more locked chests (atleast 1 for each map)
-
-Ro-do gifts
-    Master Key
-    Coiled Sword Fragment
-    Soul of a Crestfallen Knight
-    Black Firebomb (10)
-    Young White Branch (3)
-    Old Radiant Lifegem (3)
-    Rouge Water (5)
-    Titanite Shard (3)
-    Fire Seed (2)
-    Crystal Fragment (2)
-    Abyssal Fragment (2)
-    Holy Fragment (2)
-
 
