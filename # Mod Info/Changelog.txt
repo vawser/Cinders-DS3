@@ -36,7 +36,6 @@
 - Reduced the duration of the rolling stamina increases so it doesn't linger beyond normal panic rolling.
 - Moved the Affix mechanic to enchanting table position. Now available in NG0.
 - Adjusted base enemy scaling and base NG+ scaling to match vanilla. The corrections are still higher.
-- Restored vanilla softcap correction graph.
 - Restored the vanilla stat contribution graphs for resists and defences.
 
 # Curses/Marks
@@ -112,8 +111,10 @@
 # TODO - General
 #------------------------------
 Boss kill perk system?
+    Bosses drop an key item, the perk effect is added when X of the item are owned
 
 Check the NPC flags completely, fix any possible issues:
  Greirat
  Yuria
  
+Implement the new reinforcement multipliers
