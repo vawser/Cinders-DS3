@@ -89,7 +89,26 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Boss kill perk system?
+
 Check the NPC flags completely, fix any possible issues:
  Greirat
  Yuria
  
+Change the locked chest to use Master Key + add more locked chests (atleast 1 for each map)
+
+Ro-do gifts
+    Master Key
+    Coiled Sword Fragment
+    Soul of a Crestfallen Knight
+    Black Firebomb (10)
+    Young White Branch (3)
+    Old Radiant Lifegem (3)
+    Rouge Water (5)
+    Titanite Shard (3)
+    Fire Seed (2)
+    Crystal Fragment (2)
+    Abyssal Fragment (2)
+    Holy Fragment (2)
+
+
