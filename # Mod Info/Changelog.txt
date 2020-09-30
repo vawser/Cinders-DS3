@@ -46,6 +46,7 @@
 # Weapons
 - Sidearms cost durability instead of FP.
 - Primordial Reinforcement now only needs Primordial Essence (3/6/9/12/15 cost).
+- Changed some of the passive effects on weapons.
 
 # Armor
 - Increased poise health.
