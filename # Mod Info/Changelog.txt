@@ -12,20 +12,20 @@
 
 # These need to be used for new treasures in each area
 54002075 Cemetery of Ash / Unturned Graves
-53002104 High Wall of Lothric / Consumed King's Garden
-53102094 Undead Settlement
-53302181 Road of Sacrifices / Farron Keep
-53502083 Cathedral of the Deep
-53802177 Catacombs of Carthus / Smouldering Lake
-53702156 Irithyll of the Boreal Valley / Anor Londo
-53902120 Irithyll Dungeon / Profaned Capital
-53012090 Lothric Castle
-53412134 Grand Archives
+53002106 High Wall of Lothric / Consumed King's Garden
+53102095 Undead Settlement
+53302183 Road of Sacrifices / Farron Keep
+53502084 Cathedral of the Deep
+53802179 Catacombs of Carthus / Smouldering Lake
+53702158 Irithyll of the Boreal Valley / Anor Londo
+53902122 Irithyll Dungeon / Profaned Capital
+53012091 Lothric Castle
+53412135 Grand Archives
 54102011 Kiln of the First Flame
-53202076 Archdragon Peak
-54502075 Painted World of Ariandel
-55002065 Dreg Heap
-55102059 The Ringed City
+53202077 Archdragon Peak
+54502076 Painted World of Ariandel
+55002066 Dreg Heap
+55102060 The Ringed City
 
 #------------------------------
 # Changelog
@@ -77,8 +77,14 @@
 - Moved Solaire to the Abandoned Storeroom area.
 - Removed Dragon Barracks bonfire.
 - Moved Royal Library bonfire back to the start of the Grand Archives, renamed it to Grand Archives.
-- Removed Dreg Heap warp tree.
 - Untended Graves is accessed via Ludleth's throne back after Oceiros has been killed.
+- Changed the Dreg Heap warp to now be from the altar in the old starting room for High Wall.
+- Changed the Archdragon Peak warp to be via a dead serpent-man at the end of Oceiros's passage.
+- Added more locked chests throughout the world. They require the Master Key to open.
+
+# Merchants
+- Moved some of Domhnalls stock into chest locations instead.
+- Moved King's Ultra Greatsword from Andre stock into chest location.
 
 # Gifts
 - Re-did the gift selection to be more balanced:
@@ -110,5 +116,3 @@ Check the NPC flags completely, fix any possible issues:
  Greirat
  Yuria
  
-Change the locked chest to use Master Key + add more locked chests (atleast 1 for each map)
-

@@ -5042,10 +5042,6 @@ Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001001, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200000);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010000);
@@ -5057,10 +5053,6 @@ Event(20020000, Default, function() {
 Event(20020001, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001002, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200000);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5074,10 +5066,6 @@ Event(20020002, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001003, ON);// Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200000);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010002);
@@ -5089,10 +5077,6 @@ Event(20020002, Default, function() {
 Event(20020003, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001004, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200010);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5106,10 +5090,6 @@ Event(20020004, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001005, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200010);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010004);
@@ -5121,10 +5101,6 @@ Event(20020004, Default, function() {
 Event(20020005, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001006, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5138,10 +5114,6 @@ Event(20020006, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001007, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200000);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010006);
@@ -5154,10 +5126,6 @@ Event(20020007, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001008, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200010);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010007);
@@ -5169,11 +5137,7 @@ Event(20020007, Default, function() {
 Event(20020008, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001009, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
-    
+
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010008);
@@ -5185,11 +5149,7 @@ Event(20020008, Default, function() {
 Event(20020009, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001010, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
-    
+
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010009);
@@ -5201,10 +5161,6 @@ Event(20020009, Default, function() {
 Event(20020010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001011, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5218,10 +5174,6 @@ Event(20020011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001012, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010011);
@@ -5234,10 +5186,6 @@ Event(20020012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001013, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010012);
@@ -5249,11 +5197,7 @@ Event(20020012, Default, function() {
 Event(20020013, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001014, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
-    
+
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010013);
@@ -5266,10 +5210,6 @@ Event(20020014, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001015, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200000);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010014);
@@ -5281,11 +5221,7 @@ Event(20020014, Default, function() {
 Event(20020015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001016, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
-    
+
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010015);
@@ -5297,10 +5233,6 @@ Event(20020015, Default, function() {
 Event(20020016, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001017, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200020);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5314,10 +5246,6 @@ Event(20020017, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001018, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010017);
@@ -5329,10 +5257,6 @@ Event(20020017, Default, function() {
 Event(20020018, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001019, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200040);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5346,10 +5270,6 @@ Event(20020019, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001020, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200040);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010019);
@@ -5361,10 +5281,6 @@ Event(20020019, Default, function() {
 Event(20020020, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001021, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200040);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5378,10 +5294,6 @@ Event(20020021, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001022, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010021);
@@ -5393,10 +5305,6 @@ Event(20020021, Default, function() {
 Event(20020022, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001023, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
@@ -5410,10 +5318,6 @@ Event(20020023, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001024, ON); // Boss Killed
     
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200040);
-    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010023);
@@ -5425,10 +5329,6 @@ Event(20020023, Default, function() {
 Event(20020024, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001025, ON); // Boss Killed
-    
-    // Mark of Prismatica
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000103);
-    AwardItemLot(800200030);
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
