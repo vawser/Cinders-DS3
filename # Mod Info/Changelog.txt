@@ -81,6 +81,7 @@
 - Changed the Dreg Heap warp to now be from the altar in the old starting room for High Wall.
 - Changed the Archdragon Peak warp to be via a dead serpent-man at the end of Oceiros's passage.
 - Added more locked chests throughout the world. They require the Master Key to open.
+- Added intermittent chilling winds in Irithyll. These cause Frostbite quickly if the player remains within them.
 
 # Merchants
 - Moved some of Domhnalls stock into chest locations instead.
@@ -117,4 +118,3 @@ Check the NPC flags completely, fix any possible issues:
  Greirat
  Yuria
  
-Implement the new reinforcement multipliers
