@@ -15624,46 +15624,53 @@ end
 function UpdateFP()
     local skip = false
     local skip_base = false
+    local cooldown = false
     
-    if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE or env(1116, 113010) == TRUE then
-        skip = true
+    if env(1116, 113010) == TRUE then
+        cooldown = true
     end
     
-    -- Ring of Londor
-    if env(1116, 112080) == TRUE then
-        skip = false
-    end
-    
-    -- Curse of Simplicity
-    if env(1116, 113205) == TRUE then
-        skip_base = true
-    end
-    
-    if skip == false then
-        act(2002, 113010) -- Base Interval
-        
-        if skip_base == false then
-            act(2002, 113100) -- Base
+    if cooldown == false then
+        if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE then
+            skip = true
         end
         
-        if env(1116, 113200) == TRUE then
-            act(2002, 113101) -- Enchanted
+        -- Ring of Londor
+        if env(1116, 112080) == TRUE then
+            skip = false
         end
         
-        if env(1116, 113201) == TRUE then
-            act(2002, 113102) -- Clarity
+        -- Curse of Simplicity
+        if env(1116, 113205) == TRUE then
+            skip_base = true
         end
         
-        if env(1116, 113202) == TRUE then
-            act(2002, 113103) -- Darkmoon Faithful
-        end
-        
-        if env(1116, 113203) == TRUE then
-            act(2002, 113104) -- Darkmoon Ring
-        end
-        
-        if env(1116, 113204) == TRUE then
-            act(2002, 113105) -- Ring of Catastrophe
+        if skip == false then
+            act(2002, 113010) -- Base Interval
+            
+            if skip_base == false then
+                act(2002, 113100) -- Base
+            end
+            
+            if env(1116, 113200) == TRUE then
+                act(2002, 113101) -- Enchanted
+            end
+            
+            if env(1116, 113201) == TRUE then
+                act(2002, 113102) -- Clarity
+            end
+            
+            if env(1116, 113202) == TRUE then
+                act(2002, 113103) -- Darkmoon Faithful
+            end
+            
+            if env(1116, 113203) == TRUE then
+                act(2002, 113104) -- Darkmoon Ring
+            end
+            
+            if env(1116, 113204) == TRUE then
+                act(2002, 113105) -- Ring of Catastrophe
+            end
         end
     end
 end
