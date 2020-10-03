@@ -31,6 +31,9 @@
 # Changelog
 #------------------------------
 
+# Weapons
+- Reduced Primordial reinforcement costs to 1/2/3/4/5 instead of 3/6/9/12/15 (overall 15 cost instead of 45).
+
 # Items
 - Removed Ashen Estus Flask.
 - Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
@@ -46,6 +49,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Boss kill perk system?
-    Bosses drop an key item, the perk effect is added when X of the item are owned
-
