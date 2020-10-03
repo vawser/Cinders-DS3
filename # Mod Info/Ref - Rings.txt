@@ -426,9 +426,9 @@
 - Weight: 1
 - Grants 50% increase in Estus Recovery
 
-# Ashen Estus Ring
+# Focusing Ring
 - Weight: 1
-- Grants 50% increase in Ashen Estus Recovery
+- Grants 100% increase in FP restoration using the Focus Implement
 
 # Horsehoof Ring
 - Weight: 1

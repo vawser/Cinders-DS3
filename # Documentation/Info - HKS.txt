@@ -533,3 +533,8 @@ hkbSetVariable( <variable>, <value> ) # Found in variablenameid.txt
 hkbGetBoneModelSpace( <bone> ) # 
 hkbIsNodeActive( <node> )
 
+#------------------------
+# Reference
+#------------------------
+hkbStateMachine: #256 Master_SM 
+ 

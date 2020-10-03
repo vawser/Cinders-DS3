@@ -30,83 +30,18 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Mechanics
-- Changed FP design back to vanilla amounts.
-- FP sources still work the same way, but give 1 FP per second in most cases.
-- Reduced the duration of the rolling stamina increases so it doesn't linger beyond normal panic rolling.
-- Moved the Affix mechanic to enchanting table position. Now available in NG0.
-- Adjusted base enemy scaling and base NG+ scaling to match vanilla. The corrections are still higher.
-- Restored the vanilla stat contribution graphs for resists and defences.
-
-# Curses/Marks
-- Re-added the Curse of Attraction for the additional enemy toggle.
-- Removed Marks.
-
-# Weapons
-- Sidearms cost durability instead of FP.
-- Primordial Reinforcement now only needs Primordial Essence (3/6/9/12/15 cost).
-- Changed some of the passive effects on weapons.
-
-# Armor
-- Increased poise health.
-- Restored the old armor effect design.
-- Removed Enchantment system.
 
 # Items
-- Reverted the Estus Flask animation slowdown.
-- Estus Flask sip now pauses stamina regen and poise.
-- Added illusionary insignia/emblems for all armor sets. Sold by Alchemist Jiji. They allow you to override your head/armor apperance with another set's appearance.
-- Renamed Time-list Essence to Primordial Essence.
-- Primordial Essence is dropped by bosses that are considered 'tough'.
+- Removed Ashen Estus Flask.
+- Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
+- Reduced the max Estus Flask count to 10, since they no longer need to be split between Normal and Ashen.
 
-# Spells
-- Adjusted FP to vanilla FP design.
-- Lingering Chaos now throws one orb.
-- Bursting Fireball now shares hits between fireballs. This means it is more of an AOE spell, as a single target will only be harmed by 1 of the fireballs.
+# Rings
+- Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 100% using the Focus Implement.
 
-# Map
-- Restored the vanilla start sequence.
-- Reduced the strength of Corrupted Gundyr.
-- Moved Lillian to the Firelink Tower access tower.
-- Moved Jiji into Firelink Shrine.
-- Removed the Oceiros shortcut.
-- Moved the New Journey giant to the deadend area at the start.
-- Moved Sword Master to the deadend area at the start.
-- Blocked access between High Wall and Cemetery of Ash.
-- Moved King's Sanctum bonfire to early High Wall, renamed to Abandoned Storeroom.
-- Moved Solaire to the Abandoned Storeroom area.
-- Removed Dragon Barracks bonfire.
-- Moved Royal Library bonfire back to the start of the Grand Archives, renamed it to Grand Archives.
-- Untended Graves is accessed via Ludleth's throne back after Oceiros has been killed.
-- Changed the Dreg Heap warp to now be from the altar in the old starting room for High Wall.
-- Changed the Archdragon Peak warp to be via a dead serpent-man at the end of Oceiros's passage.
-- Added more locked chests throughout the world. They require the Master Key to open.
-- Added intermittent chilling winds in Irithyll. These cause Frostbite quickly if the player remains within them.
-
-# Merchants
-- Moved some of Domhnalls stock into chest locations instead.
-- Moved King's Ultra Greatsword from Andre stock into chest location.
-
-# Gifts
-- Re-did the gift selection to be more balanced:
- - Master Key
- - Coiled Sword Fragment
- - Young White Branch (3)
- - Soul of a Crestfallen Knight
- - Black Firebomb (10)
- - Old Radiant Lifegem (3)
- - Rouge Water (5)
- - Titanite Shard (3)
- - Fire Seed (2)
- - Crystal Fragment (2)
- - Abyssal Fragment (2)
- - Holy Fragment (2)
-
-# Bugfixes
-- Fixed Huntmaster Ava's AI not being loaded.
-- Fixed the crashes due to the AI limit being exceeded.
-- Removed NPC kill flag reverter.
-- Reverted Greirat appearance flag change.
+# Menu
+- Removed the Allot Estus menu option (no longer needed).
+- Removed Andre's check on holding the Ashen Estus Flask.
 
 #------------------------------
 # TODO - General
