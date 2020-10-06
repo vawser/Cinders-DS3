@@ -1437,59 +1437,10 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009550 Irina - Given Humanity
 25009551 Irina - Given Holy Fragments
 
-# Enchantment Effects
-# 250004xx Helm
-# 250005xx Armor
-# 250006xx Gauntlets
-# 250007xx Leggings
-
-25000400 Effect: Max HP
-25000401 Effect: Max FP
-25000402 Effect: Max Stamina
-25000403 Effect: Equip Load
-25000404 Effect: Stamina Recovery
-25000405 Effect: Vigor
-25000406 Effect: Attunement
-25000407 Effect: Endurance
-25000408 Effect: Vitality
-25000409 Effect: Strength
-25000410 Effect: Dexterity
-25000411 Effect: Intelligence
-25000412 Effect: Faith
-25000413 Effect: Luck
-25000414 Effect: Physical Damage
-25000415 Effect: Magic Damage
-25000416 Effect: Fire Damage
-25000417 Effect: Lightning Damage
-25000418 Effect: Dark Damage
-25000419 Effect: Anti-Demon
-25000420 Effect: Anti-Undead
-25000421 Effect: Anti-Hollow
-25000422 Effect: Anti-Abyssal
-25000423 Effect: Weapon Stamina Consumption
-25000424 Effect: Stability
-25000425 Effect: Stamina Damage
-25000426 Effect: Bow Distance
-25000427 Effect: Cast Speed
-25000428 Effect: Skill FP Cost
-25000429 Effect: HP Regen
-25000430 Effect: FP Regen
-25000431 Effect: No Fall Damage
-25000432 Effect: HP Absorb
-25000433 Effect: FP Absorb
-25000434 Effect: Item Discovery
-25000435 Effect: Effect Duration
-25000436 Effect: Soul Absorption
-25000437 Effect: HP Effectiveness
-25000438 Effect: Flame Kick
-25000439 Effect: Poise
-25000440 Effect: Physical Defence 
-25000441 Effect: Magic Defence
-25000442 Effect: Fire Defence
-25000443 Effect: Lightning Defence
-25000444 Effect: Dark Defence
-25000445 Effect: Deflection
-25000446 Effect: Poison Resist
-25000447 Effect: Bleed Resist
-25000448 Effect: Curse Resist
-25000449 Effect: Frost Resist
+# Shop Flag
+74003000 Magnum Ursus - Primordial Essence NG0
+74003010 Magnum Ursus - Primordial Essence NG1
+74003020 Magnum Ursus - Primordial Essence NG2
+74003030 Magnum Ursus - Primordial Essence NG3
+74003040 Magnum Ursus - Primordial Essence NG4
+74003050 Magnum Ursus - Primordial Essence NG5
