@@ -6483,7 +6483,9 @@ Event(20090100, Restart, function(X0_4) {
 // <entity id>, <speffect trigger>
 //----------------------------------------------
 Event(20090200, Restart, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(MAIN, X0_4, X4_4, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
+    IfCharacterAIState(AND_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
     
     SetSpeffect(X0_4, 180021010); // Disable Frost for 5 seconds
     SetCharacterAIState(X0_4, Disabled);
