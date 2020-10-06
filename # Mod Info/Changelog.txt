@@ -30,9 +30,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-
-
 # Items
 - Removed Ashen Estus Flask.
 - Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
@@ -62,6 +59,9 @@
 - Bosses now have the chance to drop additional Primordial Essence, with the amount of rolls increasing based on NG+ cycle and the boss itself.
 - Trial of Devastation now has a chance to drop Primordial Essence with the completion of each wave, starting from 20% and ending at 100% for ending the boss wave.
 
+# Curses
+- Added Curse of Valor: empowers bosses but adds an additional Primordial Essence roll.
+
 # Menu
 - Removed the Allot Estus menu option (no longer needed).
 - Removed Andre's check on holding the Ashen Estus Flask.
@@ -72,4 +72,3 @@
 New boss:
  Haunting Image style?
 
-Re-add Curse of Valor: boost boss HP/damage, add 1 primordial essence drop

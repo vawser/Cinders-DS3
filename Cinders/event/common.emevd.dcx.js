@@ -1690,6 +1690,7 @@ Event(9600, Default, function() {
     InitializeEvent(8, 9630, 25000158, 250001800, 250001801); // Curse of Enfeeblement
     InitializeEvent(9, 9630, 25000159, 250001900, 250001901); // Curse of Impermanence
     InitializeEvent(10, 9630, 25000100, 250003000, 250003001); // Curse of Attraction
+    InitializeEvent(11, 9630, 25000160, 250003010, 250003011); // Curse of Valor
     
     // Curses - Disable
     InitializeEvent(0, 9631, 25000157, 250001200, 250001201); // Curse of Frailty
@@ -1703,7 +1704,8 @@ Event(9600, Default, function() {
     InitializeEvent(8, 9631, 25000158, 250001800, 250001801); // Curse of Enfeeblement
     InitializeEvent(9, 9631, 25000159, 250001900, 250001901); // Curse of Impermanence
     InitializeEvent(10, 9631, 25000100, 250003000, 250003001); // Curse of Attraction
-
+    InitializeEvent(11, 9631, 25000160, 250003010, 250003011); // Curse of Valor
+    
     // Covenant Material Drops
     InitializeEvent(0, 9640, 10000, 160100232, 800010000, 800010020); // Thieves' Code
     InitializeEvent(1, 9640, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
@@ -1786,6 +1788,7 @@ Event(9610, Default, function(X0_4, X4_4) {
     SetEventFlag(25000157, OFF); // Curse of Frailty
     SetEventFlag(25000158, OFF); // Curse of Enfeeblement
     SetEventFlag(25000159, OFF); // Curse of Impermanence
+    SetEventFlag(25000160, OFF); // Curse of Valor
     
     // Game State
     SetEventFlag(25000030, ON); // Deathless Run

@@ -5046,6 +5046,10 @@ Event(20020000, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010000);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300050); // 10%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300050); // 10%
@@ -5069,6 +5073,10 @@ Event(20020001, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010001);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300050); // 10%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5094,6 +5102,10 @@ Event(20020002, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010002);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300050); // 10%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300050); // 10%
@@ -5117,6 +5129,10 @@ Event(20020003, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010003);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300040); // 20%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5142,6 +5158,10 @@ Event(20020004, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010004);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300040); // 20%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300040); // 20%
@@ -5165,6 +5185,10 @@ Event(20020005, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010005);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5190,6 +5214,10 @@ Event(20020006, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010006);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300040); // 20%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300040); // 20%
@@ -5213,6 +5241,10 @@ Event(20020007, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010007);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5238,6 +5270,10 @@ Event(20020008, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010008);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300030); // 40%
@@ -5261,6 +5297,10 @@ Event(20020009, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010009);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5286,6 +5326,10 @@ Event(20020010, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010010);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300030); // 40%
@@ -5309,6 +5353,10 @@ Event(20020011, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010011);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5334,6 +5382,10 @@ Event(20020012, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010012);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300030); // 40%
@@ -5357,6 +5409,10 @@ Event(20020013, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010013);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5382,6 +5438,10 @@ Event(20020014, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010014);
 
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300050); // 10%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300050); // 10%
@@ -5405,6 +5465,10 @@ Event(20020015, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010015);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5430,6 +5494,10 @@ Event(20020016, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010016);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300030); // 40%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300030); // 40%
@@ -5453,6 +5521,10 @@ Event(20020017, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010017);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5478,6 +5550,10 @@ Event(20020018, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010018);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300010); // 80%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300010); // 80%
@@ -5501,6 +5577,10 @@ Event(20020019, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010019);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5526,6 +5606,10 @@ Event(20020020, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010020);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300010); // 80%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300010); // 80%
@@ -5549,6 +5633,10 @@ Event(20020021, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010021);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
@@ -5574,6 +5662,10 @@ Event(20020022, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010022);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300020); // 60%
@@ -5598,6 +5690,10 @@ Event(20020023, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010023);
     
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300010); // 80%
+    
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
     AwardItemLot(800300010); // 80%
@@ -5621,6 +5717,10 @@ Event(20020024, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010024);
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    AwardItemLot(800300020); // 60%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
