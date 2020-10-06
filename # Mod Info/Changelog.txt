@@ -30,9 +30,8 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Weapons
-- Reduced Primordial reinforcement costs to 1/2/3/4/5 instead of 3/6/9/12/15 (overall 15 cost instead of 45).
+
 
 # Items
 - Removed Ashen Estus Flask.
@@ -44,7 +43,7 @@
 - Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 50% using the Focus Implement.
 - Added + versions to many more rings.
 - Extended the + versions of rings up to +5.
-- Adjusted the Primordial Essence cost for affixing rings to 2/4/6/8/10.
+
 - Removed the following rings due to redundancy: 
  - Rare Ring of Humanity: overlap with new Londor Tincture effect
  - Violet Tearstone Ring: too niche
@@ -57,9 +56,12 @@
  - Ring of Catastrophe: too niche
  - Charred Bone: overlap with Sage's Ring
  
-# Enemies
-- Bosses now drop additional Primordial Essence based on NG+ cycle. For early bosses, they will drop 1 essence in NG+3, for mid bosses they will drop 1 essence in NG+2 and another in NG+3, and for those that drop it in NG0, they will drop an additional essence in each NG+ cycle up to NG+5.
- 
+# Primordial Essence
+- Reduced Primordial reinforcement costs to 1/2/3/4/5 instead of 3/6/9/12/15 (overall 15 cost instead of 45).
+- Adjusted the Primordial Essence cost for affixing rings to 2/4/6/8/10.
+- Bosses now have the chance to drop additional Primordial Essence, with the amount of rolls increasing based on NG+ cycle and the boss itself.
+- Trial of Devastation now has a chance to drop Primordial Essence with the completion of each wave, starting from 20% and ending at 100% for ending the boss wave.
+
 # Menu
 - Removed the Allot Estus menu option (no longer needed).
 - Removed Andre's check on holding the Ashen Estus Flask.
@@ -70,3 +72,4 @@
 New boss:
  Haunting Image style?
 
+Re-add Curse of Valor: boost boss HP/damage, add 1 primordial essence drop
