@@ -38,10 +38,28 @@
 - Removed Ashen Estus Flask.
 - Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
 - Reduced the max Estus Flask count to 10, since they no longer need to be split between Normal and Ashen.
+- Increased the HP restoration of the lifegem items, and changed the duration to 30 seconds for all but Dried Root (which is 300).
 
 # Rings
-- Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 100% using the Focus Implement.
-
+- Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 50% using the Focus Implement.
+- Added + versions to many more rings.
+- Extended the + versions of rings up to +5.
+- Adjusted the Primordial Essence cost for affixing rings to 2/4/6/8/10.
+- Removed the following rings due to redundancy: 
+ - Rare Ring of Humanity: overlap with new Londor Tincture effect
+ - Violet Tearstone Ring: too niche
+ - Green Tearstone Ring: too niche
+ - Black Tearstone Ring: too niche
+ - Arcane Trinket: overlap with Saint's Ring
+ - Enchanted Quiver: overlap with Hawk Ring
+ - Ring of Woe: too niche
+ - Ring of Adversity: too niche
+ - Ring of Catastrophe: too niche
+ - Charred Bone: overlap with Sage's Ring
+ 
+# Enemies
+- Bosses now drop additional Primordial Essence based on NG+ cycle. For early bosses, they will drop 1 essence in NG+3, for mid bosses they will drop 1 essence in NG+2 and another in NG+3, and for those that drop it in NG0, they will drop an additional essence in each NG+ cycle up to NG+5.
+ 
 # Menu
 - Removed the Allot Estus menu option (no longer needed).
 - Removed Andre's check on holding the Ashen Estus Flask.
@@ -49,3 +67,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
+New boss:
+ Haunting Image style?
+

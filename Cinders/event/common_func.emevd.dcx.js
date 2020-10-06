@@ -5045,6 +5045,10 @@ Event(20020000, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010000);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5057,6 +5061,10 @@ Event(20020001, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010001);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5069,6 +5077,14 @@ Event(20020002, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010002);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5081,6 +5097,14 @@ Event(20020003, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010003);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5093,6 +5117,14 @@ Event(20020004, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010004);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5105,6 +5137,26 @@ Event(20020005, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010005);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5117,6 +5169,14 @@ Event(20020006, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010006);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5129,6 +5189,14 @@ Event(20020007, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010007);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5141,6 +5209,14 @@ Event(20020008, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010008);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5153,6 +5229,26 @@ Event(20020009, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010009);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5165,6 +5261,26 @@ Event(20020010, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010010);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5177,6 +5293,14 @@ Event(20020011, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010011);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5189,6 +5313,14 @@ Event(20020012, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010012);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5201,6 +5333,14 @@ Event(20020013, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010013);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5213,6 +5353,10 @@ Event(20020014, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010014);
+
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5225,6 +5369,26 @@ Event(20020015, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010015);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5237,6 +5401,14 @@ Event(20020016, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010016);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5249,6 +5421,26 @@ Event(20020017, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010017);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5261,6 +5453,26 @@ Event(20020018, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010018);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5273,6 +5485,26 @@ Event(20020019, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010019);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5285,6 +5517,26 @@ Event(20020020, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010020);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5297,6 +5549,14 @@ Event(20020021, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010021);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5309,6 +5569,26 @@ Event(20020022, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010022);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5321,6 +5601,26 @@ Event(20020023, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010023);
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300050);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
+    
+    // NG+5 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000015);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------
@@ -5333,6 +5633,14 @@ Event(20020024, Default, function() {
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
     SetSpeffect(10000, 250010024);
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300050);
+    
+    // NG+4 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000014);
+    AwardItemLot(800300050);
 });
 
 //----------------------------------------------

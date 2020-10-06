@@ -3,59 +3,45 @@
 #------------------------
 # Thieves' Code
 - Boosts Item Discovery by 25
-- Source: Treasure - Cemetery of Ash
 
 # Darkmoon Faithful
 - Grants 1 FP per second.
-- Source: Company Captain Yorshka - Anor Londo
 
 # Spears of the Church
 - Grants 3 HP per second.
-- Source: Boss - Darkeater Midir
 
 # Watchdogs of Farron
 - Reduces weapon stamina consumption by 10%.
-- Source: Old Wolf of Farron - Farron Keep
 
 # Aldrich Faithful
 - Boosts Dark damage by 5%.
-- Source: Archdeacon McDonnell - Irithyll of the Boreal Valley
 
 # Warriors of Sunlight
 - Boosts Lightning damage by 5%.
-- Source: Treasure - Undead Settlement
 
 # Mound-makers
 - Boosts Physical damage by 5%.
-- Source: Holy Knight Hodrick - Undead Settlement
 
 # Rosaria's Fingers
 - Boosts soul gain by 10%
-- Source: Rosaria - Cathedral of the Deep
 
 # Chaos Servant
 - Boosts Fire damage by 5%.
-- Source: Quest - Cornyx
 
 # Vinheim Scholars
 - Boosts Magic damage by 5%.
-- Source: Quest - Orbeck
 
 # Pilgrims of Dark
 - Increases cast speed by 15
-- Source: Quest - Karla
 
 # Way of White
 - Increases HP restored through estus flasks by 10%.
-- Source: Quest - Irina
 
 # Dragon Remnants
 - Boosts stamina damage by 25%
-- Source: Quest - Hawkwood
 
 # Blue Sentinels
 - Increases max FP by 5%.
-- Source: Quest - Horace the Hushed
 
 # Way of Blue
 - Increases max HP by 5%.
@@ -64,12 +50,9 @@
  - Hidden Blessing
  - Green Blossom
  - Siegbräu
-- Source: Quest - High Priestess Emma
 
 # Company of Champions
 - Increases the damage, absorption and soul gain of enemies by 20%.
-- Source: Quest - Domhnall of Zena
-- Source: Treasure - Cemetery of Ash
 
 #------------------------
 # Ring Changes
@@ -77,23 +60,29 @@
 # Life Ring
 - Weight: 1
 - [+0] Grants 10% increased Max HP
-- [+1] Grants 15% increased Max HP
-- [+2] Grants 20% increased Max HP
-- [+3] Grants 25% increased Max HP
+- [+1] Grants 14% increased Max HP
+- [+2] Grants 18% increased Max HP
+- [+3] Grants 22% increased Max HP
+- [+4] Grants 26% increased Max HP
+- [+5] Grants 30% increased Max HP
 
 # Chloranthy Ring
 - Weight: 1
 - [+0] Grants 20 Stamina Recovery
-- [+1] Grants 30 Stamina Recovery
-- [+2] Grants 40 Stamina Recovery
-- [+3] Grants 50 Stamina Recovery
+- [+1] Grants 24 Stamina Recovery
+- [+2] Grants 28 Stamina Recovery
+- [+3] Grants 32 Stamina Recovery
+- [+4] Grants 36 Stamina Recovery
+- [+5] Grants 40 Stamina Recovery
 
 # Havel's Ring
 - Weight: 2
 - [+0] Grants 20% increased Max. Equip Load
-- [+1] Grants 25% increased Max. Equip Load
-- [+2] Grants 30% increased Max. Equip Load
-- [+3] Grants 35% increased Max. Equip Load
+- [+1] Grants 24% increased Max. Equip Load
+- [+2] Grants 28% increased Max. Equip Load
+- [+3] Grants 32% increased Max. Equip Load
+- [+4] Grants 36% increased Max. Equip Load
+- [+5] Grants 40% increased Max. Equip Load
 
 # Ring of Favor
 - Weight: 1.5
@@ -101,78 +90,116 @@
 - [+1] Grants 10% increased Max HP, Max Stamina and Max. Equip Load.
 - [+2] Grants 12.5% increased Max HP, Max Stamina and Max. Equip Load.
 - [+3] Grants 15% increased Max HP, Max Stamina and Max. Equip Load.
+- [+4] Grants 17.5% increased Max HP, Max Stamina and Max. Equip Load.
+- [+5] Grants 20% increased Max HP, Max Stamina and Max. Equip Load.
 
 # Ring of Wisdom
 - Weight: 1
-- [+0] Increases max FP by 7.5% and grants 1 attunement slot.
-- [+1] Increases max FP by 10% and grants 1 attunement slot.
-- [+2] Increases max FP by 12.5% and grants 1 attunement slot.
-- [+3] Increases max FP by 15% and grants 1 attunement slot.
+- [+0] Increases max FP by 7.5% and grants 1 attunement slots.
+- [+1] Increases max FP by 10% and grants 1 attunement slots.
+- [+2] Increases max FP by 12.5% and grants 1 attunement slots.
+- [+3] Increases max FP by 15% and grants 1 attunement slots.
+- [+4] Increases max FP by 17.5% and grants 1 attunement slots.
+- [+5] Increases max FP by 20% and grants 1 attunement slots.
 
 # Ring of Steel Protection
 - Weight: 1.5
 - [+0] Grants 10% Physical Absorption
-- [+1] Grants 15% Physical Absorption
-- [+2] Grants 20% Physical Absorption
-- [+3] Grants 25% Physical Absorption
+- [+1] Grants 14% Physical Absorption
+- [+2] Grants 18% Physical Absorption
+- [+3] Grants 22% Physical Absorption
+- [+4] Grants 26% Physical Absorption
+- [+5] Grants 30% Physical Absorption
 
 # Flame Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Fire Absorption
-- [+1] Grants 15% Fire Absorption
-- [+2] Grants 20% Fire Absorption
-- [+3] Grants 25% Fire Absorption
+- [+1] Grants 14% Fire Absorption
+- [+2] Grants 18% Fire Absorption
+- [+3] Grants 22% Fire Absorption
+- [+4] Grants 26% Fire Absorption
+- [+5] Grants 30% Fire Absorption
 
 # Thunder Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Lightning Absorption
-- [+1] Grants 15% Lightning Absorption
-- [+2] Grants 20% Lightning Absorption
-- [+3] Grants 25% Lightning Absorption
+- [+1] Grants 14% Lightning Absorption
+- [+2] Grants 18% Lightning Absorption
+- [+3] Grants 22% Lightning Absorption
+- [+4] Grants 26% Lightning Absorption
+- [+5] Grants 30% Lightning Absorption
 
 # Magic Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Magic Absorption
-- [+1] Grants 15% Magic Absorption
-- [+2] Grants 20% Magic Absorption
-- [+3] Grants 25% Magic Absorption
+- [+1] Grants 14% Magic Absorption
+- [+2] Grants 18% Magic Absorption
+- [+3] Grants 22% Magic Absorption
+- [+4] Grants 26% Magic Absorption
+- [+5] Grants 30% Magic Absorption
 
 # Dark Stoneplate Ring
 - Weight: 1
 - [+0] Grants 10% Dark Absorption
-- [+1] Grants 15% Dark Absorption
-- [+2] Grants 20% Dark Absorption
-- [+3] Grants 25% Dark Absorption
+- [+1] Grants 14% Dark Absorption
+- [+2] Grants 18% Dark Absorption
+- [+3] Grants 22% Dark Absorption
+- [+4] Grants 26% Dark Absorption
+- [+5] Grants 30% Dark Absorption
 
 # Speckled Stoneplate Ring
 - Weight: 1
-- [+0] Grants 5% Magic, Fire, Lightning and Dark Absorption
-- [+1] Grants 7.5% Magic, Fire, Lightning and Dark Absorption
+- [+0] Grants 6% Magic, Fire, Lightning and Dark Absorption
+- [+1] Grants 8% Magic, Fire, Lightning and Dark Absorption
 - [+2] Grants 10% Magic, Fire, Lightning and Dark Absorption
-- [+3] Grants 12.5% Magic, Fire, Lightning and Dark Absorption
+- [+3] Grants 12% Magic, Fire, Lightning and Dark Absorption
+- [+4] Grants 14% Magic, Fire, Lightning and Dark Absorption
+- [+5] Grants 16% Magic, Fire, Lightning and Dark Absorption
 
 # Bloodbite Ring
 - Weight: 1
-- Increases Bleed resistance by 200
+- [+0] Increases Bleed resistance by 100
+- [+1] Increases Bleed resistance by 120
+- [+2] Increases Bleed resistance by 140
+- [+3] Increases Bleed resistance by 160
+- [+4] Increases Bleed resistance by 180
+- [+5] Increases Bleed resistance by 200
 
 # Poisonbite Ring
 - Weight: 1
-- Increases Poison and Toxic resistance by 200
+- [+0] Increases Poison and Toxic resistance by 100
+- [+1] Increases Poison and Toxic resistance by 120
+- [+2] Increases Poison and Toxic resistance by 140
+- [+3] Increases Poison and Toxic resistance by 160
+- [+4] Increases Poison and Toxic resistance by 180
+- [+5] Increases Poison and Toxic resistance by 200
 
 # Cursebite Ring
 - Weight: 1
-- Increases Curse resistance by 200
+- [+0] Increases Curse resistance by 100
+- [+1] Increases Curse resistance by 120
+- [+2] Increases Curse resistance by 140
+- [+3] Increases Curse resistance by 160
+- [+4] Increases Curse resistance by 180
+- [+5] Increases Curse resistance by 200
 
 # Fleshbite Ring
 - Weight: 1
-- Increases Poison, Toxic, Bleed, Curse and Frost resistance by 150
+- [+0] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50
+- [+1] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 60
+- [+2] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 70
+- [+3] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 80
+- [+4] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 90
+- [+5] Increases Poison, Toxic, Bleed, Curse and Frost resistance by 100
 
 # Wood Grain Ring
 - Weight: 1
-- [+0] Reduces weapon stamina consumption by 25%.
-- [+1] Reduces weapon stamina consumption by 30%.
-- [+2] Reduces weapon stamina consumption by 35%.
-- [+3] Reduces weapon stamina consumption by 40%.
+- [+0] Reduces weapon stamina consumption by 20%.
+- [+1] Reduces weapon stamina consumption by 24%.
+- [+2] Reduces weapon stamina consumption by 28%.
+- [+3] Reduces weapon stamina consumption by 32%.
+- [+4] Reduces weapon stamina consumption by 36%.
+- [+5] Reduces weapon stamina consumption by 40%.
 
 # Scholar Ring
 - Weight: 1
@@ -180,6 +207,8 @@
 - [+1] Increases INT by 10
 - [+2] Increases INT by 15
 - [+3] Increases INT by 20
+- [+4] Increases INT by 25
+- [+5] Increases INT by 30
 
 # Priestess Ring
 - Weight: 1
@@ -187,14 +216,26 @@
 - [+1] Increases FTH by 10
 - [+2] Increases FTH by 15
 - [+3] Increases FTH by 20
+- [+4] Increases FTH by 25
+- [+5] Increases FTH by 30
 
 # Red Tearstone Ring
 - Weight: 1
-- Grants 20% increased damage whilst below 25% HP
+- [+0] Grants 20% increased damage whilst below 25% HP
+- [+1] Grants 20% increased damage whilst below 30% HP
+- [+2] Grants 20% increased damage whilst below 35% HP
+- [+3] Grants 20% increased damage whilst below 40% HP
+- [+4] Grants 20% increased damage whilst below 45% HP
+- [+5] Grants 20% increased damage whilst below 50% HP
 
 # Blue Tearstone Ring
 - Weight: 1
-- Grants 40% absorption whilst below 25% HP
+- [+0] Grants 40% absorption whilst below 25% HP
+- [+1] Grants 40% absorption whilst below 30% HP
+- [+2] Grants 40% absorption whilst below 35% HP
+- [+3] Grants 40% absorption whilst below 40% HP
+- [+4] Grants 40% absorption whilst below 45% HP
+- [+5] Grants 40% absorption whilst below 50% HP
 
 # Wolf Ring
 - Weight: 1
@@ -202,6 +243,8 @@
 - [+1] Boosts poise by 30%.
 - [+2] Boosts poise by 35%.
 - [+3] Boosts poise by 40%.
+- [+4] Boosts poise by 45%.
+- [+5] Boosts poise by 50%.
 
 # Leo Ring
 - Weight: 1
@@ -217,7 +260,12 @@
 
 # Bellowing Dragoncrest Ring
 - Weight: 0.5
-- Grants 20% boost to the power of Sorceries.
+- [+0] Grants 10% boost to the power of Sorceries.
+- [+1] Grants 14% boost to the power of Sorceries.
+- [+2] Grants 18% boost to the power of Sorceries.
+- [+3] Grants 22% boost to the power of Sorceries.
+- [+4] Grants 26% boost to the power of Sorceries.
+- [+5] Grants 30% boost to the power of Sorceries.
 
 # Great Swamp Ring
 - Weight: 0.5
@@ -225,7 +273,12 @@
 
 # Witch's Ring
 - Weight: 0.5
-- Grants 20% boost to the power of Pyromancies.
+- [+0] Grants 10% boost to the power of Pyromancies.
+- [+1] Grants 14% boost to the power of Pyromancies.
+- [+2] Grants 18% boost to the power of Pyromancies.
+- [+3] Grants 22% boost to the power of Pyromancies.
+- [+4] Grants 26% boost to the power of Pyromancies.
+- [+5] Grants 30% boost to the power of Pyromancies.
 
 # Morne's Ring
 - Weight: 0.5
@@ -233,7 +286,12 @@
 
 # Ring of the Sun's First Born
 - Weight: 0.5
-- Grants 20% boost to the power of Miracles.
+- [+0] Grants 10% boost to the power of Miracles.
+- [+1] Grants 14% boost to the power of Miracles.
+- [+2] Grants 18% boost to the power of Miracles.
+- [+3] Grants 22% boost to the power of Miracles.
+- [+4] Grants 26% boost to the power of Miracles.
+- [+5] Grants 30% boost to the power of Miracles.
 
 # Deep Ring
 - Weight: 0.5
@@ -241,42 +299,49 @@
 
 # Unholy Remains
 - Weight: 1
-- Grants 20% boost to the power of Dark spells.
+- [+0] Grants 10% boost to the power of Hexes.
+- [+1] Grants 14% boost to the power of Hexes.
+- [+2] Grants 18% boost to the power of Hexes.
+- [+3] Grants 22% boost to the power of Hexes.
+- [+4] Grants 26% boost to the power of Hexes.
+- [+5] Grants 30% boost to the power of Hexes.
+
 
 # Dusk Crown Ring
 - Weight: 0.5
-- [+0] Boosts max FP by 25% but reduces max HP by 25%.
-- [+1] Boosts max FP by 30% but reduces max HP by 25%.
-- [+2] Boosts max FP by 35% but reduces max HP by 25%.
-- [+3] Boosts max FP by 40% but reduces max HP by 25%.
+- [+0] Boosts max FP by 25% but reduces max HP by 30%.
+- [+1] Boosts max FP by 25% but reduces max HP by 26%.
+- [+2] Boosts max FP by 25% but reduces max HP by 22%.
+- [+3] Boosts max FP by 25% but reduces max HP by 18%.
+- [+4] Boosts max FP by 25% but reduces max HP by 14%.
+- [+5] Boosts max FP by 25% but reduces max HP by 10%.
 
 # Tome of Sunlight
 - Weight: 1
-- [+0] Increases effectiveness of HP restoration sourcees by 15%.
-- [+1] Increases effectiveness of HP restoration sourcees by 20%.
-- [+2] Increases effectiveness of HP restoration sourcees by 25%.
-- [+3] Increases effectiveness of HP restoration sourcees by 30%.
-
-# Charred Bone
-- Weight: 1
-- [+0] Increases casting speed by 50 whilst below 25% HP.
-- [+1] Increases casting speed by 60 whilst below 25% HP.
-- [+2] Increases casting speed by 70 whilst below 25% HP.
-- [+3] Increases casting speed by 80 whilst below 25% HP.
+- [+0] Increases effectiveness of HP restoration sourcees by 10%.
+- [+1] Increases effectiveness of HP restoration sourcees by 14%.
+- [+2] Increases effectiveness of HP restoration sourcees by 18%.
+- [+3] Increases effectiveness of HP restoration sourcees by 22%.
+- [+4] Increases effectiveness of HP restoration sourcees by 26%.
+- [+5] Increases effectiveness of HP restoration sourcees by 30%.
 
 # Lingering Dragoncrest Ring
 - Weight: 0.5
 - [+0] Grants 100% boost to the duration of magical effects.
-- [+1] Grants 150% boost to the duration of magical effects.
-- [+2] Grants 200% boost to the duration of magical effects.
-- [+3] Grants 250% boost to the duration of magical effects.
+- [+1] Grants 120% boost to the duration of magical effects.
+- [+2] Grants 140% boost to the duration of magical effects.
+- [+3] Grants 160% boost to the duration of magical effects.
+- [+4] Grants 180% boost to the duration of magical effects.
+- [+5] Grants 200% boost to the duration of magical effects.
 
 # Sage Ring
 - Weight: 0.5
-- [+0] Grants 25 Casting Speed
-- [+1] Grants 30 Casting Speed
-- [+2] Grants 35 Casting Speed
-- [+3] Grants 40 Casting Speed
+- [+0] Grants 20 Casting Speed
+- [+1] Grants 24 Casting Speed
+- [+2] Grants 28 Casting Speed
+- [+3] Grants 32 Casting Speed
+- [+4] Grants 36 Casting Speed
+- [+5] Grants 40 Casting Speed
 
 # Slumbering Dragoncrest Ring
 - Weight: 0.5
@@ -284,18 +349,25 @@
 
 # Saint's Ring
 - Weight: 0.5
-- Grants 1 Attunement slots
+- Grants 3 Attunement slots
 
 # Darkmoon Ring
 - Weight: 0.5
-- Grants 1 FP every second.
+- [+0] Grants 1 FP every second.
+- [+1] Grants 2 FP every second.
+- [+2] Grants 3 FP every second.
+- [+3] Grants 4 FP every second.
+- [+4] Grants 5 FP every second.
+- [+5] Grants 6 FP every second.
 
 # Hawk Ring
 - Weight: 1
 - [+0] Grants 100 boost to effective bow distance, reducing damage falloff.
-- [+1] Grants 150 boost to effective bow distance, reducing damage falloff.
-- [+2] Grants 200 boost to effective bow distance, reducing damage falloff.
-- [+3] Grants 250 boost to effective bow distance, reducing damage falloff.
+- [+1] Grants 120 boost to effective bow distance, reducing damage falloff.
+- [+2] Grants 140 boost to effective bow distance, reducing damage falloff.
+- [+3] Grants 160 boost to effective bow distance, reducing damage falloff.
+- [+4] Grants 180 boost to effective bow distance, reducing damage falloff.
+- [+5] Grants 200 boost to effective bow distance, reducing damage falloff.
 
 # Hornet Ring
 - Weight: 1
@@ -303,10 +375,12 @@
 
 # Covetous Gold Serpent Ring
 - Weight: 2
-- [+0] Grants 75 item discovery
-- [+1] Grants 100 item discovery
-- [+2] Grants 125 item discovery
-- [+3] Grants 150 item discovery
+- [+0] Grants 100 item discovery
+- [+1] Grants 120 item discovery
+- [+2] Grants 140 item discovery
+- [+3] Grants 160 item discovery
+- [+4] Grants 180 item discovery
+- [+5] Grants 200 item discovery
 
 # Covetous Silver Serpent Ring
 - Weight: 2
@@ -314,10 +388,17 @@
 - [+1] Grants 30% extra souls
 - [+2] Grants 35% extra souls
 - [+3] Grants 40% extra souls
+- [+4] Grants 45% extra souls
+- [+5] Grants 50% extra souls
 
 # Sun Princess Ring
 - Weight: 0.5
-- Grants 5 + 0.1% HP every second.
+- [+0] Grants 7 HP every second.
+- [+1] Grants 8 HP every second.
+- [+2] Grants 9 HP every second.
+- [+3] Grants 10 HP every second.
+- [+4] Grants 11 HP every second.
+- [+5] Grants 12 HP every second.
 
 # Silvercat Ring
 - Weight: 0
@@ -325,10 +406,12 @@
 
 # Skull Ring
 - Weight: 1
-- [+0] Grants 15% boost to physical damage, reduces absorption by 10%.
-- [+1] Grants 20% boost to physical damage, reduces absorption by 15%.
-- [+2] Grants 25% boost to physical damage, reduces absorption by 20%.
-- [+3] Grants 30% boost to physical damage, reduces absorption by 25%.
+- [+0] Grants 20% boost to physical damage, reduces absorption by 10%.
+- [+1] Grants 24% boost to physical damage, reduces absorption by 10%.
+- [+2] Grants 28% boost to physical damage, reduces absorption by 10%.
+- [+3] Grants 32% boost to physical damage, reduces absorption by 10%.
+- [+4] Grants 36% boost to physical damage, reduces absorption by 10%.
+- [+5] Grants 40% boost to physical damage, reduces absorption by 10%.
 
 # Carthus Milkring
 - Weight: 0.5
@@ -340,6 +423,8 @@
 - [+1] Increases STR by 10
 - [+2] Increases STR by 15
 - [+3] Increases STR by 20
+- [+4] Increases STR by 25
+- [+5] Increases STR by 30
 
 # Hunter's Ring
 - Weight: 1
@@ -347,49 +432,71 @@
 - [+1] Increases DEX by 10
 - [+2] Increases DEX by 15
 - [+3] Increases DEX by 20
+- [+4] Increases DEX by 25
+- [+5] Increases DEX by 30
 
 # Knight Slayer's Ring
 - Weight: 2
-- [+0] Increases stamina drain dealt to enemies by 50%.
-- [+1] Increases stamina drain dealt to enemies by 100%.
-- [+2] Increases stamina drain dealt to enemies by 150%.
-- [+3] Increases stamina drain dealt to enemies by 200%.
+- [+0] Increases stamina drain dealt to enemies by 100%.
+- [+1] Increases stamina drain dealt to enemies by 120%.
+- [+2] Increases stamina drain dealt to enemies by 140%.
+- [+3] Increases stamina drain dealt to enemies by 160%.
+- [+4] Increases stamina drain dealt to enemies by 180%.
+- [+5] Increases stamina drain dealt to enemies by 200%.
 
 # Magic Clutch Ring
 - Weight: 1
-- [+0] Grants 15% Magic boost but reduces absorption by 10%
-- [+1] Grants 20% Magic boost but reduces absorption by 15%
-- [+2] Grants 25% Magic boost but reduces absorption by 20%
-- [+3] Grants 30% Magic boost but reduces absorption by 25%
+- [+0] Grants 20% Magic boost but reduces absorption by 10%
+- [+1] Grants 24% Magic boost but reduces absorption by 10%
+- [+2] Grants 28% Magic boost but reduces absorption by 10%
+- [+3] Grants 32% Magic boost but reduces absorption by 10%
+- [+4] Grants 36% Magic boost but reduces absorption by 10%
+- [+5] Grants 40% Magic boost but reduces absorption by 10%
 
 # Lightning Clutch Ring
 - Weight: 1
-- [+0] Grants 15% Lightning boost but reduces absorption by 10%
-- [+1] Grants 20% Lightning boost but reduces absorption by 15%
-- [+2] Grants 25% Lightning boost but reduces absorption by 20%
-- [+3] Grants 30% Lightning boost but reduces absorption by 25%
+- [+0] Grants 20% Lightning boost but reduces absorption by 10%
+- [+1] Grants 24% Lightning boost but reduces absorption by 10%
+- [+2] Grants 28% Lightning boost but reduces absorption by 10%
+- [+3] Grants 32% Lightning boost but reduces absorption by 10%
+- [+4] Grants 36% Lightning boost but reduces absorption by 10%
+- [+5] Grants 40% Lightning boost but reduces absorption by 10%
 
 # Fire Clutch Ring
 - Weight: 1
-- [+0] Grants 15% Fire boost but reduces absorption by 10%
-- [+1] Grants 20% Fire boost but reduces absorption by 15%
-- [+2] Grants 25% Fire boost but reduces absorption by 20%
-- [+3] Grants 30% Fire boost but reduces absorption by 25%
+- [+0] Grants 20% Fire boost but reduces absorption by 10%
+- [+1] Grants 24% Fire boost but reduces absorption by 10%
+- [+2] Grants 28% Fire boost but reduces absorption by 10%
+- [+3] Grants 32% Fire boost but reduces absorption by 10%
+- [+4] Grants 36% Fire boost but reduces absorption by 10%
+- [+5] Grants 40% Fire boost but reduces absorption by 10%
 
 # Dark Clutch Ring
 - Weight: 1
-- [+0] Grants 15% Dark boost but reduces absorption by 10%
-- [+1] Grants 20% Dark boost but reduces absorption by 15%
-- [+2] Grants 25% Dark boost but reduces absorption by 20%
-- [+3] Grants 30% Dark boost but reduces absorption by 25%
+- [+0] Grants 20% Dark boost but reduces absorption by 10%
+- [+1] Grants 24% Dark boost but reduces absorption by 10%
+- [+2] Grants 28% Dark boost but reduces absorption by 10%
+- [+3] Grants 32% Dark boost but reduces absorption by 10%
+- [+4] Grants 36% Dark boost but reduces absorption by 10%
+- [+5] Grants 40% Dark boost but reduces absorption by 10%
 
 # Flynn's Ring
 - Weight: 0
-- Boosts physical weapon damage by 30%, scaling downwards with equip load to 0% at 30 weight.
+- [+0] Boosts physical weapon damage by 30%, scaling downwards with equip load to 0% at 30 weight.
+- [+1] Boosts physical weapon damage by 34%, scaling downwards with equip load to 0% at 30 weight.
+- [+2] Boosts physical weapon damage by 38%, scaling downwards with equip load to 0% at 30 weight.
+- [+3] Boosts physical weapon damage by 42%, scaling downwards with equip load to 0% at 30 weight.
+- [+4] Boosts physical weapon damage by 46%, scaling downwards with equip load to 0% at 30 weight.
+- [+5] Boosts physical weapon damage by 50%, scaling downwards with equip load to 0% at 30 weight.
 
 # Prisoner's Chain
 - Weight: 2
-- Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+0] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+1] Grants 10 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+2] Grants 15 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+3] Grants 20 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+4] Grants 25 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+5] Grants 30 Vigor, Endurance and Vitality but reduces absorption by 10%.
 
 # Obscuring Ring
 - Weight: 0.5
@@ -397,14 +504,21 @@
 
 # Ring of the Evil Eye
 - Weight: 1
-- Grants 5% HP on enemy kills.
+- [+0] Grants 100 HP on enemy kills.
+- [+1] Grants 120 HP on enemy kills.
+- [+2] Grants 140 HP on enemy kills.
+- [+3] Grants 160 HP on enemy kills.
+- [+4] Grants 180 HP on enemy kills.
+- [+5] Grants 200 HP on enemy kills.
 
 # Farron Ring
 - Weight: 1
 - [+0] Grants 30% reduction to the FP cost of Weapon Arts
-- [+1] Grants 40% reduction to the FP cost of Weapon Arts
-- [+2] Grants 50% reduction to the FP cost of Weapon Arts
-- [+3] Grants 60% reduction to the FP cost of Weapon Arts
+- [+1] Grants 34% reduction to the FP cost of Weapon Arts
+- [+2] Grants 38% reduction to the FP cost of Weapon Arts
+- [+3] Grants 42% reduction to the FP cost of Weapon Arts
+- [+4] Grants 46% reduction to the FP cost of Weapon Arts
+- [+5] Grants 50% reduction to the FP cost of Weapon Arts
 
 # Aldrich's Ruby
 - Weight: 1
@@ -416,31 +530,52 @@
 
 # Lloyd's Sword Ring
 - Weight: 1
-- Grants 15% boost to damage when at 100% HP
+- [+0] Grants 15% boost to damage when at 100% HP
+- [+1] Grants 15% boost to damage when at 98% HP
+- [+2] Grants 15% boost to damage when at 96% HP
+- [+3] Grants 15% boost to damage when at 94% HP
+- [+4] Grants 15% boost to damage when at 92% HP
+- [+5] Grants 15% boost to damage when at 90% HP
 
 # Lloyd's Shield Ring
 - Weight: 1
-- Grants 40% absorption when at 100% HP
+- [+0] Grants 40% absorption when at 100% HP
+- [+1] Grants 40% absorption when at 98% HP
+- [+2] Grants 40% absorption when at 96% HP
+- [+3] Grants 40% absorption when at 94% HP
+- [+4] Grants 40% absorption when at 92% HP
+- [+5] Grants 40% absorption when at 90% HP
 
 # Estus Ring
 - Weight: 1
-- Grants 50% increase in Estus Recovery
+- [+0] Grants 50% increase in Estus Recovery
+- [+1] Grants 60% increase in Estus Recovery
+- [+2] Grants 70% increase in Estus Recovery
+- [+3] Grants 80% increase in Estus Recovery
+- [+4] Grants 90% increase in Estus Recovery
+- [+5] Grants 100% increase in Estus Recovery
 
 # Focusing Ring
 - Weight: 1
-- Grants 100% increase in FP restoration using the Focus Implement
+- [+0] Grants 50% increase in FP restoration using the Focus Implement
+- [+1] Grants 60% increase in FP restoration using the Focus Implement
+- [+2] Grants 70% increase in FP restoration using the Focus Implement
+- [+3] Grants 80% increase in FP restoration using the Focus Implement
+- [+4] Grants 90% increase in FP restoration using the Focus Implement
+- [+5] Grants 100% increase in FP restoration using the Focus Implement
 
 # Horsehoof Ring
 - Weight: 1
-- [+0] Grants 50% increase in kick stamina damage
-- [+1] Grants 100% increase in kick stamina damage
-- [+2] Grants 150% increase in kick stamina damage
-- [+3] Grants 200% increase in kick stamina damage
+- [+0] Grants 100% increase in kick stamina damage
+- [+1] Grants 120% increase in kick stamina damage
+- [+2] Grants 140% increase in kick stamina damage
+- [+3] Grants 160% increase in kick stamina damage
+- [+4] Grants 180% increase in kick stamina damage
+- [+5] Grants 200% increase in kick stamina damage
 
 # Carthus Bloodring
 - Weight: 0.5
-- Shifts evasion class downwards and obscures rolling, but
-increases evasive movement stamina costs by 50%.
+- Shifts evasion class downwards and obscures rolling, but increases evasive movement stamina costs by 50%.
 
 # Reversal Ring
 - Weight: 0.5
@@ -448,22 +583,39 @@ increases evasive movement stamina costs by 50%.
 
 # Pontiff's Right Eye
 - Weight: 1
-- Grants 5% HP with successive attacks.
+- [+0] Grants 10 HP with successive attacks.
+- [+1] Grants 20 HP with successive attacks.
+- [+2] Grants 30 HP with successive attacks.
+- [+3] Grants 40 HP with successive attacks.
+- [+4] Grants 50 HP with successive attacks.
+- [+5] Grants 60 HP with successive attacks.
 
 # Pontiff's Left Eye
 - Weight: 1
-- Grants 5% FP with successive attacks.
+- [+0] Grants 5 FP with successive attacks.
+- [+1] Grants 10 FP with successive attacks.
+- [+2] Grants 15 FP with successive attacks.
+- [+3] Grants 20 FP with successive attacks.
+- [+4] Grants 25 FP with successive attacks.
+- [+5] Grants 30 FP with successive attacks.
 
 # Dragonscale Ring
 - Weight: 1
 - [+0] Grants 10% increased Max FP
-- [+1] Grants 15% increased Max FP
-- [+2] Grants 20% increased Max FP
-- [+3] Grants 25% increased Max FP
+- [+1] Grants 14% increased Max FP
+- [+2] Grants 18% increased Max FP
+- [+3] Grants 22% increased Max FP
+- [+4] Grants 26% increased Max FP
+- [+5] Grants 30% increased Max FP
 
 # Chillbite Ring
 - Weight: 1
-- Increases Frost resistance by 200
+- [+0] Increases Frost resistance by 100
+- [+1] Increases Frost resistance by 120
+- [+2] Increases Frost resistance by 140
+- [+3] Increases Frost resistance by 160
+- [+4] Increases Frost resistance by 180
+- [+5] Increases Frost resistance by 200
 
 # Ring of Londor
 - Weight: 0.5
@@ -471,7 +623,12 @@ increases evasive movement stamina costs by 50%.
 
 # Spirit Amethyst
 - Weight: 0.5
-- Grants 50 FP on enemy kills
+- [+0] Grants 15 FP on enemy kills
+- [+1] Grants 20 FP on enemy kills
+- [+2] Grants 25 FP on enemy kills
+- [+3] Grants 30 FP on enemy kills
+- [+4] Grants 35 FP on enemy kills
+- [+5] Grants 40 FP on enemy kills
 
 # Wretched Pendant
 - Weight: 1
@@ -479,10 +636,12 @@ increases evasive movement stamina costs by 50%.
 
 # Symbol of the Penitent
 - Weight: 1
-- [+0] Grants 25% increased Max Stamina
-- [+1] Grants 30% increased Max Stamina
-- [+2] Grants 35% increased Max Stamina
-- [+3] Grants 40% increased Max Stamina
+- [+0] Grants 20% increased Max Stamina
+- [+1] Grants 24% increased Max Stamina
+- [+2] Grants 28% increased Max Stamina
+- [+3] Grants 32% increased Max Stamina
+- [+4] Grants 36% increased Max Stamina
+- [+5] Grants 40% increased Max Stamina
 
 # Runic Seal
 - Weight: 2
@@ -493,49 +652,86 @@ increases evasive movement stamina costs by 50%.
 - Weight: 3
 - Increases physical defence by 50% but increases evasive stamina consumption by 20%.
 
-# Green Tearstone Ring
-- Weight: 1
-- Grants 100 stamina recovery whilst below 25% HP.
-
-# Violet Tearstone Ring
-- Weight: 1
-- Increases max FP by 100% whilst below 25% HP.
-
 # Demonsbane Ring
 - Weight: 2
-- Increase damage against Demon enemies by 20%
+- [+0] Increase damage against Demon enemies by 20%
+- [+1] Increase damage against Demon enemies by 24%
+- [+2] Increase damage against Demon enemies by 28%
+- [+3] Increase damage against Demon enemies by 32%
+- [+4] Increase damage against Demon enemies by 36%
+- [+5] Increase damage against Demon enemies by 40%
 
 # Crypt Ring
 - Weight: 2
-- Increase damage against Undead enemies by 20%
+- [+0] Increase damage against Undead enemies by 20%
+- [+1] Increase damage against Undead enemies by 24%
+- [+2] Increase damage against Undead enemies by 28%
+- [+3] Increase damage against Undead enemies by 32%
+- [+4] Increase damage against Undead enemies by 36%
+- [+5] Increase damage against Undead enemies by 40%
 
 # Blight Ring
 - Weight: 2
-- Increase damage against Hollow enemies by 20%
+- [+0] Increase damage against Hollow enemies by 20%
+- [+1] Increase damage against Hollow enemies by 24%
+- [+2] Increase damage against Hollow enemies by 28%
+- [+3] Increase damage against Hollow enemies by 32%
+- [+4] Increase damage against Hollow enemies by 36%
+- [+5] Increase damage against Hollow enemies by 40%
 
 # Hallowed Ring
 - Weight: 2
-- Increase damage against Abyssal enemies by 20%
+- [+0] Increase damage against Abyssal enemies by 20%
+- [+1] Increase damage against Abyssal enemies by 24%
+- [+2] Increase damage against Abyssal enemies by 28%
+- [+3] Increase damage against Abyssal enemies by 32%
+- [+4] Increase damage against Abyssal enemies by 36%
+- [+5] Increase damage against Abyssal enemies by 40%
 
 # Ring of Retaliation
 - Weight: 0.5
-- Grants 75 Physical damage whilst rolling or kicking.
+- [+0] Grants 50 Physical damage whilst rolling or kicking.
+- [+1] Grants 60 Physical damage whilst rolling or kicking.
+- [+2] Grants 70 Physical damage whilst rolling or kicking.
+- [+3] Grants 80 Physical damage whilst rolling or kicking.
+- [+4] Grants 90 Physical damage whilst rolling or kicking.
+- [+5] Grants 100 Physical damage whilst rolling or kicking.
 
 # Ring of Reprisal
 - Weight: 0.5
-- Grants 75 Magic damage whilst rolling or kicking.
+- [+0] Grants 50 Magic damage whilst rolling or kicking.
+- [+1] Grants 60 Magic damage whilst rolling or kicking.
+- [+2] Grants 70 Magic damage whilst rolling or kicking.
+- [+3] Grants 80 Magic damage whilst rolling or kicking.
+- [+4] Grants 90 Magic damage whilst rolling or kicking.
+- [+5] Grants 100 Magic damage whilst rolling or kicking.
 
 # Ring of Spite
 - Weight: 0.5
-- Grants 75 Fire damage whilst rolling or kicking.
+- [+0] Grants 50 Fire damage whilst rolling or kicking.
+- [+1] Grants 60 Fire damage whilst rolling or kicking.
+- [+2] Grants 70 Fire damage whilst rolling or kicking.
+- [+3] Grants 80 Fire damage whilst rolling or kicking.
+- [+4] Grants 90 Fire damage whilst rolling or kicking.
+- [+5] Grants 100 Fire damage whilst rolling or kicking.
 
 # Ring of Retribution
 - Weight: 0.5
-- Grants 75 Lightning damage whilst rolling or kicking.
+- [+0] Grants 50 Lightning damage whilst rolling or kicking.
+- [+1] Grants 60 Lightning damage whilst rolling or kicking.
+- [+2] Grants 70 Lightning damage whilst rolling or kicking.
+- [+3] Grants 80 Lightning damage whilst rolling or kicking.
+- [+4] Grants 90 Lightning damage whilst rolling or kicking.
+- [+5] Grants 100 Lightning damage whilst rolling or kicking.
 
 # Ring of Vengeance
 - Weight: 0.5
-- Grants 75 Dark damage whilst rolling or kicking.
+- [+0] Grants 50 Dark damage whilst rolling or kicking.
+- [+1] Grants 60 Dark damage whilst rolling or kicking.
+- [+2] Grants 70 Dark damage whilst rolling or kicking.
+- [+3] Grants 80 Dark damage whilst rolling or kicking.
+- [+4] Grants 90 Dark damage whilst rolling or kicking.
+- [+5] Grants 100 Dark damage whilst rolling or kicking.
 
 # Bulwark Ring
 - Weight: 1
@@ -547,6 +743,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Increases VIG by 10
 - [+2] Increases VIG by 15
 - [+3] Increases VIG by 20
+- [+4] Increases VIG by 25
+- [+5] Increases VIG by 30
 
 # Heretic Ring
 - Weight: 1
@@ -554,6 +752,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Increases ATN by 10
 - [+2] Increases ATN by 15
 - [+3] Increases ATN by 20
+- [+4] Increases ATN by 25
+- [+5] Increases ATN by 30
 
 # Merchant Ring
 - Weight: 1
@@ -561,6 +761,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Increases END by 10
 - [+2] Increases END by 15
 - [+3] Increases END by 20
+- [+4] Increases END by 25
+- [+5] Increases END by 30
 
 # Physician Ring
 - Weight: 0
@@ -568,6 +770,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Increases VIT by 10
 - [+2] Increases VIT by 15
 - [+3] Increases VIT by 20
+- [+4] Increases VIT by 25
+- [+5] Increases VIT by 30
 
 # Jester Ring
 - Weight: 1
@@ -575,22 +779,26 @@ increases evasive movement stamina costs by 50%.
 - [+1] Increases LCK by 10
 - [+2] Increases LCK by 15
 - [+3] Increases LCK by 20
-
-# Arcane Trinket
-- Weight: 0.5
-- Adds 1 attunement slot.
+- [+4] Increases LCK by 25
+- [+5] Increases LCK by 30
 
 # Londor Tincture
 - Weight: 1
-- Restores 8 HP per second whilst below 50% HP.
-
-# Enchanted Quiver
-- Weight: 1
-- Extends the range of arrows by 250 whilst at full health.
+- [+0] Boosts all defence by 5%.
+- [+1] Boosts all defence by 10%.
+- [+2] Boosts all defence by 15%.
+- [+3] Boosts all defence by 20%.
+- [+4] Boosts all defence by 25%.
+- [+5] Boosts all defence by 30%.
 
 # Old Pygmy Brooch
 - Weight: 1
-- Boosts weapon/shield stability by 5%.
+- [+0] Boosts stability by 2.5%.
+- [+1] Boosts stability by 3%.
+- [+2] Boosts stability by 3.5%.
+- [+3] Boosts stability by 4%.
+- [+4] Boosts stability by 4.5%.
+- [+5] Boosts stability by 5%.
 
 # Redeye Ring
 - Weight: 1
@@ -598,27 +806,21 @@ increases evasive movement stamina costs by 50%.
 
 # Ring of Calamity
 - Weight: 1
-- Boosts all damage by 10% but reduces HP by 1% of max every second.
-
-# Ring of Woe
-- Weight: 1
-- Boosts soul absorption by 20% but reduces HP by 1% of max every second.
-
-# Ring of Adversity
-- Weight: 1
-- Boosts stamina recovery by 30 but reduces HP by 1% of max every second.
-
-# Ring of Catastrophe
-- Weight: 1
-- Grants 3 FP every second but reduces HP by 1% of max every second.
-
-# Black Tearstone Ring
-- Weight: 1
-- Boosts souls from enemies by 30% whilst below 25% health.
+- [+0] Boosts all damage by 20% but reduces HP by 1% of max every second.
+- [+1] Boosts all damage by 24% but reduces HP by 1% of max every second.
+- [+2] Boosts all damage by 28% but reduces HP by 1% of max every second.
+- [+3] Boosts all damage by 32% but reduces HP by 1% of max every second.
+- [+4] Boosts all damage by 36% but reduces HP by 1% of max every second.
+- [+5] Boosts all damage by 40% but reduces HP by 1% of max every second.
 
 # Bestial Band
 - Weight: 1
-- Boosts damage by 3% (stacking) upon killing enemies. But adds 0.25% HP drain with each stack.
+- [+0] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.25% HP drain with each stack.
+- [+1] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.225% HP drain with each stack.
+- [+2] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.2% HP drain with each stack.
+- [+3] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.175% HP drain with each stack.
+- [+4] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.15% HP drain with each stack.
+- [+5] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.125% HP drain with each stack.
 
 # Band of Stone
 - Weight: 1
@@ -626,6 +828,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Boosts Physical defence by 60.
 - [+2] Boosts Physical defence by 70.
 - [+3] Boosts Physical defence by 80.
+- [+4] Boosts Physical defence by 90.
+- [+5] Boosts Physical defence by 100.
 
 # Band of Magic
 - Weight: 1
@@ -633,6 +837,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Boosts Magic defence by 60.
 - [+2] Boosts Magic defence by 70.
 - [+3] Boosts Magic defence by 80.
+- [+4] Boosts Magic defence by 90.
+- [+5] Boosts Magic defence by 100.
 
 # Band of Flame
 - Weight: 1
@@ -640,6 +846,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Boosts Fire defence by 60.
 - [+2] Boosts Fire defence by 70.
 - [+3] Boosts Fire defence by 80.
+- [+4] Boosts Fire defence by 90.
+- [+5] Boosts Fire defence by 100.
 
 # Band of Sparks
 - Weight: 1
@@ -647,6 +855,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Boosts Lightning defence by 60.
 - [+2] Boosts Lightning defence by 70.
 - [+3] Boosts Lightning defence by 80.
+- [+4] Boosts Lightning defence by 90.
+- [+5] Boosts Lightning defence by 100.
 
 # Band of Darkness
 - Weight: 1
@@ -654,6 +864,8 @@ increases evasive movement stamina costs by 50%.
 - [+1] Boosts Dark defence by 60.
 - [+2] Boosts Dark defence by 70.
 - [+3] Boosts Dark defence by 80.
+- [+4] Boosts Dark defence by 90.
+- [+5] Boosts Dark defence by 100.
 
 # Cursed Ring of Evasion
 - Weight: 1
@@ -677,11 +889,12 @@ increases evasive movement stamina costs by 50%.
 
 # Elden Ring
 - Weight: 1
-- Grants 10% boost to physical damage.
-
-# Rare Ring of Humanity
-- Weight: 10
-- Boosts defences by 25%.
+- [+0] Grants 10% boost to physical damage.
+- [+1] Grants 14% boost to physical damage.
+- [+2] Grants 18% boost to physical damage.
+- [+3] Grants 22% boost to physical damage.
+- [+4] Grants 26% boost to physical damage.
+- [+5] Grants 30% boost to physical damage.
 
 # Fool's Sigil
 - Weight: 1
@@ -710,37 +923,57 @@ increases evasive movement stamina costs by 50%.
 # Relic of Power
 - Weight: 1
 - Whilst equipped, the wearer gains the following:
-    - Boosts all damage by 5%.
-    - Boosts all absorptions by 5%.
-    - Boosts all defences by 5%.
-    - Boosts all stats by 5.
-    - Reduces FP consumption of skills by 10%.
-    - Reduces weapon stamina consumption by 10%.
+    - Boosts all damage by 5/6/7/8/9/10%.
+    - Boosts all absorptions by 5/6/7/8/9/10%.
+    - Boosts all defences by 5/6/7/8/9/10%.
+    - Boosts all stats by 5/6/7/8/9/10.
+    - Reduces FP consumption of skills by 10/12/14/16/18/20%.
+    - Reduces weapon stamina consumption by 10/12/14/16/18/20%.
 - Source: Deathless run
 
 # Relic of Insanity
 - Weight: 1
 - Whilst equipped, the wearer gains the following:
-    - Boosts all damage by 10%.
-    - Boosts all absorptions by 10%.
-    - Boosts all defences by 10%.
-    - Boosts all stats by 10.
-    - Reduces FP consumption of skills by 20%.
-    - Reduces weapon stamina consumption by 20%.
+    - Boosts all damage by 10/12/14/16/18/20%.
+    - Boosts all absorptions by 10/12/14/16/18/20%.
+    - Boosts all defences by 10/12/14/16/18/20%.
+    - Boosts all stats by 10/12/14/16/18/20.
+    - Reduces FP consumption of skills by 20/22/24/26/28/30%.
+    - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
 - Source: Hitless run
 
 # Ring of Punishment
 - Weight: 1
-- Adds 30 Bleed inflict.
+- [+0] Adds 25 Bleed inflict.
+- [+1] Adds 30 Bleed inflict.
+- [+2] Adds 35 Bleed inflict.
+- [+3] Adds 40 Bleed inflict.
+- [+4] Adds 45 Bleed inflict.
+- [+5] Adds 50 Bleed inflict.
 
 # Tainted Chalice
 - Weight: 1
-- Adds 30 Poison inflict.
+- [+0] Adds 25 Poison inflict.
+- [+1] Adds 30 Poison inflict.
+- [+2] Adds 35 Poison inflict.
+- [+3] Adds 40 Poison inflict.
+- [+4] Adds 45 Poison inflict.
+- [+5] Adds 50 Poison inflict.
 
 # Accursed Sigil
 - Weight: 1
-- Adds 30 Curse inflict.
+- [+0] Adds 25 Curse inflict.
+- [+1] Adds 30 Curse inflict.
+- [+2] Adds 35 Curse inflict.
+- [+3] Adds 40 Curse inflict.
+- [+4] Adds 45 Curse inflict.
+- [+5] Adds 50 Curse inflict.
 
 # Frostflower Ring
 - Weight: 1
-- Adds 30 Frost inflict.
+- [+0] Adds 25 Frost inflict.
+- [+1] Adds 30 Frost inflict.
+- [+2] Adds 35 Frost inflict.
+- [+3] Adds 40 Frost inflict.
+- [+4] Adds 45 Frost inflict.
+- [+5] Adds 50 Frost inflict.

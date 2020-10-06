@@ -15664,12 +15664,28 @@ function UpdateFP()
                 act(2002, 113103) -- Darkmoon Faithful
             end
             
-            if env(1116, 113203) == TRUE then
-                act(2002, 113104) -- Darkmoon Ring
+            if env(1116, 113210) == TRUE then
+                act(2002, 113110) -- Darkmoon Ring
             end
             
-            if env(1116, 113204) == TRUE then
-                act(2002, 113105) -- Ring of Catastrophe
+            if env(1116, 113211) == TRUE then
+                act(2002, 113111) -- Darkmoon Ring+1
+            end
+            
+            if env(1116, 113212) == TRUE then
+                act(2002, 113112) -- Darkmoon Ring+2
+            end
+            
+            if env(1116, 113213) == TRUE then
+                act(2002, 113113) -- Darkmoon Ring+3
+            end
+            
+            if env(1116, 113214) == TRUE then
+                act(2002, 113114) -- Darkmoon Ring+4
+            end
+            
+            if env(1116, 113215) == TRUE then
+                act(2002, 113115) -- Darkmoon Ring+5
             end
         end
     end
