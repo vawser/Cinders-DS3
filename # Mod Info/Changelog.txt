@@ -58,6 +58,8 @@
 - Adjusted the Primordial Essence cost for affixing rings to 2/4/6/8/10.
 - Bosses now have the chance to drop additional Primordial Essence, with the amount of rolls increasing based on NG+ cycle and the boss itself.
 - Trial of Devastation now has a chance to drop Primordial Essence with the completion of each wave, starting from 20% and ending at 100% for ending the boss wave.
+- Magnum Ursus now sells 5 Primordial Essence rather than an unlimited quantity. The amount is increased in each NG+, up to NG+5. The price of each set of 5 increases too.
+- The base price of Primordial Essence is now 100,000.
 
 # Curses
 - Added Curse of Valor: empowers bosses but adds an additional Primordial Essence roll.
