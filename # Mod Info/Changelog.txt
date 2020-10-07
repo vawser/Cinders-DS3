@@ -40,9 +40,9 @@
 - Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 50% using the Focus Implement.
 - Added + versions to many more rings.
 - Extended the + versions of rings up to +5.
-
+- Londor Tincture: now boosts defences by 5%.
+- Rare Ring of Humanity: now prevents grab/critical attacks against the player.
 - Removed the following rings due to redundancy: 
- - Rare Ring of Humanity: overlap with new Londor Tincture effect
  - Violet Tearstone Ring: too niche
  - Green Tearstone Ring: too niche
  - Black Tearstone Ring: too niche

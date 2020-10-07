@@ -41,6 +41,8 @@ ActionID="75"
     Contains the sound ID
     Corresponds to s000<id> sample name in DSSI
     
+ActionID="81"
+
 #------------------------ 
 # New FFX
 #------------------------
@@ -52,3 +54,11 @@ ActionID="75"
 854005 Grey Fire
 854006 Silent Prism Stone
 
+854010 Black Fire Vestiges
+854011 Black Fire Vestiges [Hit]
+
+854020 Lothric's Holy Spear
+854021 Lothric's Holy Spear [Hit]
+
+854030 Overwhelming Power
+854031 Overwhelming Power [Hit]
