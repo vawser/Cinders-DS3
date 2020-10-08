@@ -10748,7 +10748,7 @@ function FourWayAttackStart_onUpdate()
     local r2 = "W_FourWayAttackHeavy"
     local b2 = "W_FourWayAttackHeavy"
     local sp_kind = env("装備武器特殊カテゴリ番号取得", c_SwordArtsHand)
-    if sp_kind == 263 then
+    if sp_kind == 263 or sp_kind == 277 then
         r1 = "W_FourWayAttackLight"
         b1 = "W_FourWayAttackLight"
     end
@@ -10796,7 +10796,7 @@ function FourWayAttackStart_SelfTrans_onUpdate()
     local r2 = "W_FourWayAttackHeavy"
     local b2 = "W_FourWayAttackHeavy"
     local sp_kind = env("装備武器特殊カテゴリ番号取得", c_SwordArtsHand)
-    if sp_kind == 263 then
+    if sp_kind == 263 or sp_kind == 277 then
         r1 = "W_FourWayAttackLight"
         b1 = "W_FourWayAttackLight"
     end

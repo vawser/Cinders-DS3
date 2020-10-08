@@ -977,3 +977,7 @@
 - [+3] Adds 40 Frost inflict.
 - [+4] Adds 45 Frost inflict.
 - [+5] Adds 50 Frost inflict.
+
+# Rare Ring of Humanity
+- Weight: 10
+- Prevents grab/critical attacks against the player.

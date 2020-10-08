@@ -258,12 +258,6 @@
 038401 - OneShot_NoPoints #13164
 
 #------------------------------------------------
-# a285 - Cannon
-#------------------------------------------------
-032000 - AttackLeftLight1 #13165
-032030 - AttackLeftHeavy2a00 #13166
-
-#------------------------------------------------
 # a286 - Church Cannon
 #------------------------------------------------
 032000 - AttackLeftLight1 #13167
@@ -311,7 +305,7 @@
 030000 - AttackRightLight1 #13181
 030010 - AttackRightLight2 #13182
 030020 - AttackRightLight3 #13183
-000320 - AttackRightHeavy1Start #13184
+030320 - AttackRightHeavy1Start #13184
 030321 - AttackRightHeavy1End #13185
 030330 - AttackRightHeavy1SubStart #13186
 030340 - AttackRightHeavy2Start #13187

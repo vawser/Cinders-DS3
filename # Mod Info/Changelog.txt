@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Added new moveset to Black Dragon Greatsword.
+
 # Items
 - Removed Ashen Estus Flask.
 - Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
@@ -74,3 +77,4 @@
 New boss:
  Haunting Image style?
 
+2530
