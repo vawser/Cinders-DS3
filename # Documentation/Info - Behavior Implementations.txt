@@ -361,7 +361,7 @@
 036421 - AttackSpinHeavy_NoPoints #13229
 
 #------------------------------------------------
-# a279 - Winged Knight Halberd
+# a279 - Ancient Dragon Halberd
 #------------------------------------------------
 030000 - AttackRightLight1 #13230
 030010 - AttackRightLight2 #13231
