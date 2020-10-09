@@ -1678,33 +1678,113 @@ Event(9600, Default, function() {
     InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
     InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);
     
-    // Curses - Enable
-    InitializeEvent(0, 9630, 25000157, 250001200, 250001201); // Curse of Frailty
-    InitializeEvent(1, 9630, 25000150, 250001300, 250001301); // Curse of Obscurity
-    InitializeEvent(2, 9630, 25000151, 250001400, 250001401); // Curse of Vitality
-    InitializeEvent(3, 9630, 25000152, 250001100, 250001101); // Curse of Wrath
-    InitializeEvent(4, 9630, 25000153, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 9630, 25000155, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(6, 9630, 25000156, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(7, 9630, 25000154, 250001500, 250001501); // Curse of Simplicity
-    InitializeEvent(8, 9630, 25000158, 250001800, 250001801); // Curse of Enfeeblement
-    InitializeEvent(9, 9630, 25000159, 250001900, 250001901); // Curse of Impermanence
-    InitializeEvent(10, 9630, 25000100, 250003000, 250003001); // Curse of Attraction
-    InitializeEvent(11, 9630, 25000160, 250003010, 250003011); // Curse of Valor
+    // Curses - Add Player Effects
+    InitializeEvent(0, 9630, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 9630, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 9630, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 9630, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 9630, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 9630, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 9630, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 9630, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 9630, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 9630, 25000409, 250001000, 250001019); // Curse of Pride - 100%
     
-    // Curses - Disable
-    InitializeEvent(0, 9631, 25000157, 250001200, 250001201); // Curse of Frailty
-    InitializeEvent(1, 9631, 25000150, 250001300, 250001301); // Curse of Obscurity
-    InitializeEvent(2, 9631, 25000151, 250001400, 250001401); // Curse of Vitality
-    InitializeEvent(3, 9631, 25000152, 250001100, 250001101); // Curse of Wrath
-    InitializeEvent(4, 9631, 25000153, 250001000, 250001001); // Curse of Pride
-    InitializeEvent(5, 9631, 25000155, 250001600, 250001601); // Curse of Fortitude
-    InitializeEvent(6, 9631, 25000156, 250001700, 250001701); // Curse of Gluttony
-    InitializeEvent(7, 9631, 25000154, 250001500, 250001501); // Curse of Simplicity
-    InitializeEvent(8, 9631, 25000158, 250001800, 250001801); // Curse of Enfeeblement
-    InitializeEvent(9, 9631, 25000159, 250001900, 250001901); // Curse of Impermanence
-    InitializeEvent(10, 9631, 25000100, 250003000, 250003001); // Curse of Attraction
-    InitializeEvent(11, 9631, 25000160, 250003010, 250003011); // Curse of Valor
+    InitializeEvent(10, 9630, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 9630, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 9630, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 9630, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 9630, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 9630, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 9630, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 9630, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 9630, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 9630, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+   
+    InitializeEvent(20, 9630, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 9630, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 9630, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 9630, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 9630, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 9630, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 9630, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 9630, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 9630, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 9630, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+
+    InitializeEvent(30, 9630, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 9630, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 9630, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 9630, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 9630, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 9630, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 9630, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 9630, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 9630, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 9630, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    
+    InitializeEvent(40, 9630, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 9630, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 9630, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 9630, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 9630, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 9630, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 9630, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 9630, 25000501, 250002200, 250002210); // Curse of Valor
+    
+    // Curses - Remove Player Effects
+    InitializeEvent(0, 9631, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 9631, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 9631, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 9631, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 9631, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 9631, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 9631, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 9631, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 9631, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 9631, 25000409, 250001000, 250001019); // Curse of Pride - 100%
+    
+    InitializeEvent(10, 9631, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 9631, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 9631, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 9631, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 9631, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 9631, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 9631, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 9631, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 9631, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 9631, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+   
+    InitializeEvent(20, 9631, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 9631, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 9631, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 9631, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 9631, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 9631, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 9631, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 9631, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 9631, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 9631, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+
+    InitializeEvent(30, 9631, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 9631, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 9631, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 9631, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 9631, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 9631, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 9631, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 9631, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 9631, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 9631, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    
+    InitializeEvent(40, 9631, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 9631, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 9631, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 9631, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 9631, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 9631, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 9631, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 9631, 25000501, 250002200, 250002210); // Curse of Valor
     
     // Covenant Material Drops
     InitializeEvent(0, 9640, 10000, 160100232, 800010000, 800010020); // Thieves' Code
@@ -1888,23 +1968,33 @@ Event(9622, Default, function(X0_4) {
 // Enable Curse
 Event(9630, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    // Skip if already added
+    SkipIfCharacterHasSpeffect(1, 10000, X4_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X4_4);
+    
+    // Skip if already added
+    SkipIfCharacterHasSpeffect(1, 10000, X8_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X8_4);
+    
+    WaitFixedTimeSeconds(1.0);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Disable Curse
 Event(9631, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
+    
+    // Skip if already removed
+    SkipIfCharacterHasSpeffect(1, 10000, X4_4, false, ComparisonType.Equal, 1);
     ClearSpeffect(10000, X4_4);
+    
+    // Skip if already removed
+    SkipIfCharacterHasSpeffect(1, 10000, X4_4, false, ComparisonType.Equal, 1);
     ClearSpeffect(10000, X8_4);
-});
-
-// Enable Curse - Map Specific
-Event(9632, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfPlayerInoutMap(MAIN, true, X12_1, X16_1);
-    SetSpeffect(10000, X4_4);
-    SetSpeffect(10000, X8_4);
+    
+    WaitFixedTimeSeconds(1.0);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 // Covenant - Trigger Covenant Item Drop

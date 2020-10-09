@@ -6163,7 +6163,7 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
 });
 
 //----------------------------------------------
-// Curse - Spawn Control
+// Curse - Spawn Control (Curse of Attraction)
 // <entity id>, <trigger flag>
 //----------------------------------------------
 Event(20081000, Restart, function(X0_4, X4_4) {
@@ -6204,6 +6204,10 @@ Event(20081001, Restart, function(X0_4, X4_4) {
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
+    
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X8_4);
+    ClearSpeffect(X0_4, X4_4);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 

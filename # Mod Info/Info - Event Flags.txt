@@ -1335,20 +1335,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000062 Warp To: Trial of Sorrow
 25000063 Warp To: Trial of Devastation
 
-
-25000100 Active: Curse of Attraction
-25000150 Active: Curse of Obscurity 
-25000151 Active: Curse of Vitality 
-25000152 Active: Curse of Wrath 
-25000153 Active: Curse of Pride 
-25000154 Active: Curse of Simplicity 
-25000155 Active: Curse of Fortitude 
-25000156 Active: Curse of Gluttony 
-25000157 Active: Curse of Frailty 
-25000158 Active: Curse of Enfeeblement 
-25000159 Active: Curse of Impermanence 
-25000160 Active: Curse of Valor
-
 25000200 Covenant Acquired: Thieves Pact           - Greirat
 25000201 Covenant Acquired: Chaos Servant          - Cornyx
 25000202 Covenant Acquired: Vinheim Scholars       - Orbeck
@@ -1367,6 +1353,59 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000306 Gesture Acquired: Praise the Heavens - Irina of Carim
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
+
+25000400 Curse of Pride: 10%
+25000401 Curse of Pride: 20%
+25000402 Curse of Pride: 30%
+25000403 Curse of Pride: 40%
+25000404 Curse of Pride: 50%
+25000405 Curse of Pride: 60%
+25000406 Curse of Pride: 70%
+25000407 Curse of Pride: 80%
+25000408 Curse of Pride: 90%
+25000409 Curse of Pride: 100%
+
+25000410 Curse of Fortitude: 10%
+25000411 Curse of Fortitude: 20%
+25000412 Curse of Fortitude: 30%
+25000413 Curse of Fortitude: 40%
+25000414 Curse of Fortitude: 50%
+25000415 Curse of Fortitude: 60%
+25000416 Curse of Fortitude: 70%
+25000417 Curse of Fortitude: 80%
+25000418 Curse of Fortitude: 90%
+25000419 Curse of Fortitude: 100%
+
+25000420 Curse of Vitality: 10 + 0.1%
+25000421 Curse of Vitality: 20 + 0.1%
+25000422 Curse of Vitality: 30 + 0.1%
+25000423 Curse of Vitality: 40 + 0.1%
+25000424 Curse of Vitality: 50 + 0.1%
+25000425 Curse of Vitality: 60 + 0.1%
+25000426 Curse of Vitality: 70 + 0.1%
+25000427 Curse of Vitality: 80 + 0.1%
+25000428 Curse of Vitality: 90 + 0.1%
+25000429 Curse of Vitality: 100 + 0.1%
+
+25000430 Curse of Wrath: 10
+25000431 Curse of Wrath: 20
+25000432 Curse of Wrath: 30
+25000433 Curse of Wrath: 40
+25000434 Curse of Wrath: 50
+25000435 Curse of Wrath: 60
+25000436 Curse of Wrath: 70
+25000437 Curse of Wrath: 80
+25000438 Curse of Wrath: 90
+25000439 Curse of Wrath: 100
+
+25000440 Curse of Attraction
+25000450 Curse of Obscurity 
+25000460 Curse of Simplicity 
+25000470 Curse of Gluttony 
+25000480 Curse of Frailty 
+25000490 Curse of Enfeeblement 
+25000500 Curse of Impermanence 
+25000510 Curse of Valor
 
 25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt

@@ -65,6 +65,7 @@
 - The base price of Primordial Essence is now 100,000.
 
 # Curses
+- Changed the Pride/Fortitude/Vitality/Wrath curses to now have a choice out of 10 'tiers', i.e. Pride I is +10% damage and +5% soul absorption, whereas Pride X is +100% damage and +50% soul absorption.
 - Added Curse of Valor: empowers bosses but adds an additional Primordial Essence roll.
 
 # Menu
@@ -74,9 +75,5 @@
 #------------------------------
 # TODO - General
 #------------------------------
-New boss:
- Haunting Image style?
+Add throwing pan
 
-2530
-
-237038920
