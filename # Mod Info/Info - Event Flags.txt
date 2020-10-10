@@ -1354,49 +1354,49 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
 
-25000400 Curse of Pride: 10%
-25000401 Curse of Pride: 20%
-25000402 Curse of Pride: 30%
-25000403 Curse of Pride: 40%
-25000404 Curse of Pride: 50%
-25000405 Curse of Pride: 60%
-25000406 Curse of Pride: 70%
-25000407 Curse of Pride: 80%
-25000408 Curse of Pride: 90%
-25000409 Curse of Pride: 100%
+25000400 Curse of Pride I
+25000401 Curse of Pride II
+25000402 Curse of Pride III
+25000403 Curse of Pride IV
+25000404 Curse of Pride V
+25000405 Curse of Pride VI
+25000406 Curse of Pride VII
+25000407 Curse of Pride VIII
+25000408 Curse of Pride IX
+25000409 Curse of Pride X
 
-25000410 Curse of Fortitude: 10%
-25000411 Curse of Fortitude: 20%
-25000412 Curse of Fortitude: 30%
-25000413 Curse of Fortitude: 40%
-25000414 Curse of Fortitude: 50%
-25000415 Curse of Fortitude: 60%
-25000416 Curse of Fortitude: 70%
-25000417 Curse of Fortitude: 80%
-25000418 Curse of Fortitude: 90%
-25000419 Curse of Fortitude: 100%
+25000410 Curse of Fortitude I
+25000411 Curse of Fortitude II
+25000412 Curse of Fortitude III
+25000413 Curse of Fortitude IV
+25000414 Curse of Fortitude V
+25000415 Curse of Fortitude VI
+25000416 Curse of Fortitude VII
+25000417 Curse of Fortitude VIII
+25000418 Curse of Fortitude IX
+25000419 Curse of Fortitude X
 
-25000420 Curse of Vitality: 10 + 0.1%
-25000421 Curse of Vitality: 20 + 0.1%
-25000422 Curse of Vitality: 30 + 0.1%
-25000423 Curse of Vitality: 40 + 0.1%
-25000424 Curse of Vitality: 50 + 0.1%
-25000425 Curse of Vitality: 60 + 0.1%
-25000426 Curse of Vitality: 70 + 0.1%
-25000427 Curse of Vitality: 80 + 0.1%
-25000428 Curse of Vitality: 90 + 0.1%
-25000429 Curse of Vitality: 100 + 0.1%
+25000420 Curse of Vitality I
+25000421 Curse of Vitality II
+25000422 Curse of Vitality III
+25000423 Curse of Vitality IV
+25000424 Curse of Vitality V
+25000425 Curse of Vitality VI
+25000426 Curse of Vitality VII
+25000427 Curse of Vitality VIII
+25000428 Curse of Vitality IX
+25000429 Curse of Vitality X
 
-25000430 Curse of Wrath: 10
-25000431 Curse of Wrath: 20
-25000432 Curse of Wrath: 30
-25000433 Curse of Wrath: 40
-25000434 Curse of Wrath: 50
-25000435 Curse of Wrath: 60
-25000436 Curse of Wrath: 70
-25000437 Curse of Wrath: 80
-25000438 Curse of Wrath: 90
-25000439 Curse of Wrath: 100
+25000430 Curse of Wrath I
+25000431 Curse of Wrath II
+25000432 Curse of Wrath III
+25000433 Curse of Wrath IV
+25000434 Curse of Wrath V
+25000435 Curse of Wrath VI
+25000436 Curse of Wrath VII
+25000437 Curse of Wrath VIII
+25000438 Curse of Wrath IX
+25000439 Curse of Wrath X
 
 25000440 Curse of Attraction
 25000450 Curse of Obscurity 
@@ -1483,3 +1483,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 74003030 Magnum Ursus - Primordial Essence NG3
 74003040 Magnum Ursus - Primordial Essence NG4
 74003050 Magnum Ursus - Primordial Essence NG5
+
+75003000 Stone-humped Hag 1
+75003010 Stone-humped Hag 1
+75003020 Stone-humped Hag 1
