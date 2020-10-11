@@ -261,11 +261,11 @@
 # Bellowing Dragoncrest Ring
 - Weight: 0.5
 - [+0] Grants 10% boost to the power of Sorceries.
-- [+1] Grants 14% boost to the power of Sorceries.
-- [+2] Grants 18% boost to the power of Sorceries.
-- [+3] Grants 22% boost to the power of Sorceries.
-- [+4] Grants 26% boost to the power of Sorceries.
-- [+5] Grants 30% boost to the power of Sorceries.
+- [+1] Grants 12% boost to the power of Sorceries.
+- [+2] Grants 14% boost to the power of Sorceries.
+- [+3] Grants 16% boost to the power of Sorceries.
+- [+4] Grants 18% boost to the power of Sorceries.
+- [+5] Grants 20% boost to the power of Sorceries.
 
 # Great Swamp Ring
 - Weight: 0.5
@@ -274,11 +274,11 @@
 # Witch's Ring
 - Weight: 0.5
 - [+0] Grants 10% boost to the power of Pyromancies.
-- [+1] Grants 14% boost to the power of Pyromancies.
-- [+2] Grants 18% boost to the power of Pyromancies.
-- [+3] Grants 22% boost to the power of Pyromancies.
-- [+4] Grants 26% boost to the power of Pyromancies.
-- [+5] Grants 30% boost to the power of Pyromancies.
+- [+1] Grants 12% boost to the power of Pyromancies.
+- [+2] Grants 14% boost to the power of Pyromancies.
+- [+3] Grants 16% boost to the power of Pyromancies.
+- [+4] Grants 18% boost to the power of Pyromancies.
+- [+5] Grants 20% boost to the power of Pyromancies.
 
 # Morne's Ring
 - Weight: 0.5
@@ -287,11 +287,11 @@
 # Ring of the Sun's First Born
 - Weight: 0.5
 - [+0] Grants 10% boost to the power of Miracles.
-- [+1] Grants 14% boost to the power of Miracles.
-- [+2] Grants 18% boost to the power of Miracles.
-- [+3] Grants 22% boost to the power of Miracles.
-- [+4] Grants 26% boost to the power of Miracles.
-- [+5] Grants 30% boost to the power of Miracles.
+- [+1] Grants 12% boost to the power of Miracles.
+- [+2] Grants 14% boost to the power of Miracles.
+- [+3] Grants 16% boost to the power of Miracles.
+- [+4] Grants 18% boost to the power of Miracles.
+- [+5] Grants 20% boost to the power of Miracles.
 
 # Deep Ring
 - Weight: 0.5
@@ -300,11 +300,11 @@
 # Unholy Remains
 - Weight: 1
 - [+0] Grants 10% boost to the power of Hexes.
-- [+1] Grants 14% boost to the power of Hexes.
-- [+2] Grants 18% boost to the power of Hexes.
-- [+3] Grants 22% boost to the power of Hexes.
-- [+4] Grants 26% boost to the power of Hexes.
-- [+5] Grants 30% boost to the power of Hexes.
+- [+1] Grants 12% boost to the power of Hexes.
+- [+2] Grants 14% boost to the power of Hexes.
+- [+3] Grants 16% boost to the power of Hexes.
+- [+4] Grants 18% boost to the power of Hexes.
+- [+5] Grants 20% boost to the power of Hexes.
 
 
 # Dusk Crown Ring
@@ -406,12 +406,12 @@
 
 # Skull Ring
 - Weight: 1
-- [+0] Grants 20% boost to physical damage, reduces absorption by 10%.
-- [+1] Grants 24% boost to physical damage, reduces absorption by 10%.
-- [+2] Grants 28% boost to physical damage, reduces absorption by 10%.
-- [+3] Grants 32% boost to physical damage, reduces absorption by 10%.
-- [+4] Grants 36% boost to physical damage, reduces absorption by 10%.
-- [+5] Grants 40% boost to physical damage, reduces absorption by 10%.
+- [+0] Grants 12.5% boost to physical damage, reduces absorption by 10%.
+- [+1] Grants 15% boost to physical damage, reduces absorption by 10%.
+- [+2] Grants 17.5% boost to physical damage, reduces absorption by 10%.
+- [+3] Grants 20% boost to physical damage, reduces absorption by 10%.
+- [+4] Grants 22.5% boost to physical damage, reduces absorption by 10%.
+- [+5] Grants 25% boost to physical damage, reduces absorption by 10%.
 
 # Carthus Milkring
 - Weight: 0.5
@@ -446,48 +446,48 @@
 
 # Magic Clutch Ring
 - Weight: 1
-- [+0] Grants 20% Magic boost but reduces absorption by 10%
-- [+1] Grants 24% Magic boost but reduces absorption by 10%
-- [+2] Grants 28% Magic boost but reduces absorption by 10%
-- [+3] Grants 32% Magic boost but reduces absorption by 10%
-- [+4] Grants 36% Magic boost but reduces absorption by 10%
-- [+5] Grants 40% Magic boost but reduces absorption by 10%
+- [+0] Grants 12.5% Magic boost but reduces absorption by 10%
+- [+1] Grants 15% Magic boost but reduces absorption by 10%
+- [+2] Grants 17.5% Magic boost but reduces absorption by 10%
+- [+3] Grants 20% Magic boost but reduces absorption by 10%
+- [+4] Grants 22.5% Magic boost but reduces absorption by 10%
+- [+5] Grants 25% Magic boost but reduces absorption by 10%
 
 # Lightning Clutch Ring
 - Weight: 1
-- [+0] Grants 20% Lightning boost but reduces absorption by 10%
-- [+1] Grants 24% Lightning boost but reduces absorption by 10%
-- [+2] Grants 28% Lightning boost but reduces absorption by 10%
-- [+3] Grants 32% Lightning boost but reduces absorption by 10%
-- [+4] Grants 36% Lightning boost but reduces absorption by 10%
-- [+5] Grants 40% Lightning boost but reduces absorption by 10%
+- [+0] Grants 12.5% Lightning boost but reduces absorption by 10%
+- [+1] Grants 15% Lightning boost but reduces absorption by 10%
+- [+2] Grants 17.5% Lightning boost but reduces absorption by 10%
+- [+3] Grants 20% Lightning boost but reduces absorption by 10%
+- [+4] Grants 22.5% Lightning boost but reduces absorption by 10%
+- [+5] Grants 25% Lightning boost but reduces absorption by 10%
 
 # Fire Clutch Ring
 - Weight: 1
-- [+0] Grants 20% Fire boost but reduces absorption by 10%
-- [+1] Grants 24% Fire boost but reduces absorption by 10%
-- [+2] Grants 28% Fire boost but reduces absorption by 10%
-- [+3] Grants 32% Fire boost but reduces absorption by 10%
-- [+4] Grants 36% Fire boost but reduces absorption by 10%
-- [+5] Grants 40% Fire boost but reduces absorption by 10%
+- [+0] Grants 12.5% Fire boost but reduces absorption by 10%
+- [+1] Grants 15% Fire boost but reduces absorption by 10%
+- [+2] Grants 17.5% Fire boost but reduces absorption by 10%
+- [+3] Grants 20% Fire boost but reduces absorption by 10%
+- [+4] Grants 22.5% Fire boost but reduces absorption by 10%
+- [+5] Grants 25% Fire boost but reduces absorption by 10%
 
 # Dark Clutch Ring
 - Weight: 1
-- [+0] Grants 20% Dark boost but reduces absorption by 10%
-- [+1] Grants 24% Dark boost but reduces absorption by 10%
-- [+2] Grants 28% Dark boost but reduces absorption by 10%
-- [+3] Grants 32% Dark boost but reduces absorption by 10%
-- [+4] Grants 36% Dark boost but reduces absorption by 10%
-- [+5] Grants 40% Dark boost but reduces absorption by 10%
+- [+0] Grants 12.5% Dark boost but reduces absorption by 10%
+- [+1] Grants 15% Dark boost but reduces absorption by 10%
+- [+2] Grants 17.5% Dark boost but reduces absorption by 10%
+- [+3] Grants 20% Dark boost but reduces absorption by 10%
+- [+4] Grants 22.5% Dark boost but reduces absorption by 10%
+- [+5] Grants 25% Dark boost but reduces absorption by 10%
 
 # Flynn's Ring
 - Weight: 0
 - [+0] Boosts physical weapon damage by 30%, scaling downwards with equip load to 0% at 30 weight.
-- [+1] Boosts physical weapon damage by 34%, scaling downwards with equip load to 0% at 30 weight.
-- [+2] Boosts physical weapon damage by 38%, scaling downwards with equip load to 0% at 30 weight.
-- [+3] Boosts physical weapon damage by 42%, scaling downwards with equip load to 0% at 30 weight.
-- [+4] Boosts physical weapon damage by 46%, scaling downwards with equip load to 0% at 30 weight.
-- [+5] Boosts physical weapon damage by 50%, scaling downwards with equip load to 0% at 30 weight.
+- [+1] Boosts physical weapon damage by 32%, scaling downwards with equip load to 0% at 30 weight.
+- [+2] Boosts physical weapon damage by 34%, scaling downwards with equip load to 0% at 30 weight.
+- [+3] Boosts physical weapon damage by 36%, scaling downwards with equip load to 0% at 30 weight.
+- [+4] Boosts physical weapon damage by 38%, scaling downwards with equip load to 0% at 30 weight.
+- [+5] Boosts physical weapon damage by 40%, scaling downwards with equip load to 0% at 30 weight.
 
 # Prisoner's Chain
 - Weight: 2
@@ -655,38 +655,38 @@
 # Demonsbane Ring
 - Weight: 2
 - [+0] Increase damage against Demon enemies by 20%
-- [+1] Increase damage against Demon enemies by 24%
-- [+2] Increase damage against Demon enemies by 28%
-- [+3] Increase damage against Demon enemies by 32%
-- [+4] Increase damage against Demon enemies by 36%
-- [+5] Increase damage against Demon enemies by 40%
+- [+1] Increase damage against Demon enemies by 22%
+- [+2] Increase damage against Demon enemies by 24%
+- [+3] Increase damage against Demon enemies by 26%
+- [+4] Increase damage against Demon enemies by 28%
+- [+5] Increase damage against Demon enemies by 30%
 
 # Crypt Ring
 - Weight: 2
 - [+0] Increase damage against Undead enemies by 20%
-- [+1] Increase damage against Undead enemies by 24%
-- [+2] Increase damage against Undead enemies by 28%
-- [+3] Increase damage against Undead enemies by 32%
-- [+4] Increase damage against Undead enemies by 36%
-- [+5] Increase damage against Undead enemies by 40%
+- [+1] Increase damage against Undead enemies by 22%
+- [+2] Increase damage against Undead enemies by 24%
+- [+3] Increase damage against Undead enemies by 26%
+- [+4] Increase damage against Undead enemies by 28%
+- [+5] Increase damage against Undead enemies by 30%
 
 # Blight Ring
 - Weight: 2
 - [+0] Increase damage against Hollow enemies by 20%
-- [+1] Increase damage against Hollow enemies by 24%
-- [+2] Increase damage against Hollow enemies by 28%
-- [+3] Increase damage against Hollow enemies by 32%
-- [+4] Increase damage against Hollow enemies by 36%
-- [+5] Increase damage against Hollow enemies by 40%
+- [+1] Increase damage against Hollow enemies by 22%
+- [+2] Increase damage against Hollow enemies by 24%
+- [+3] Increase damage against Hollow enemies by 26%
+- [+4] Increase damage against Hollow enemies by 28%
+- [+5] Increase damage against Hollow enemies by 30%
 
 # Hallowed Ring
 - Weight: 2
 - [+0] Increase damage against Abyssal enemies by 20%
-- [+1] Increase damage against Abyssal enemies by 24%
-- [+2] Increase damage against Abyssal enemies by 28%
-- [+3] Increase damage against Abyssal enemies by 32%
-- [+4] Increase damage against Abyssal enemies by 36%
-- [+5] Increase damage against Abyssal enemies by 40%
+- [+1] Increase damage against Abyssal enemies by 22%
+- [+2] Increase damage against Abyssal enemies by 24%
+- [+3] Increase damage against Abyssal enemies by 26%
+- [+4] Increase damage against Abyssal enemies by 28%
+- [+5] Increase damage against Abyssal enemies by 30%
 
 # Ring of Retaliation
 - Weight: 0.5
@@ -806,21 +806,21 @@
 
 # Ring of Calamity
 - Weight: 1
-- [+0] Boosts all damage by 20% but reduces HP by 1% of max every second.
-- [+1] Boosts all damage by 24% but reduces HP by 1% of max every second.
-- [+2] Boosts all damage by 28% but reduces HP by 1% of max every second.
-- [+3] Boosts all damage by 32% but reduces HP by 1% of max every second.
-- [+4] Boosts all damage by 36% but reduces HP by 1% of max every second.
-- [+5] Boosts all damage by 40% but reduces HP by 1% of max every second.
+- [+0] Boosts all damage by 20% but lose 10 HP every second.
+- [+1] Boosts all damage by 22% but lose 10 HP every second.
+- [+2] Boosts all damage by 24% but lose 10 HP every second.
+- [+3] Boosts all damage by 26% but lose 10 HP every second.
+- [+4] Boosts all damage by 28% but lose 10 HP every second.
+- [+5] Boosts all damage by 30% but lose 10 HP every second.
 
 # Bestial Band
 - Weight: 1
-- [+0] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.25% HP drain with each stack.
-- [+1] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.225% HP drain with each stack.
-- [+2] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.2% HP drain with each stack.
-- [+3] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.175% HP drain with each stack.
-- [+4] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.15% HP drain with each stack.
-- [+5] Boosts damage by 3% (stacking) upon killing enemies. But adds 0.125% HP drain with each stack.
+- [+0] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1% but causes a drain of 1 HP per second.
+- [+1] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1.2% but causes a drain of 1 HP per second.
+- [+2] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1.4% but causes a drain of 1 HP per second.
+- [+3] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1.6% but causes a drain of 1 HP per second.
+- [+4] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1.8% but causes a drain of 1 HP per second.
+- [+5] Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 2% but causes a drain of 1 HP per second.
 
 # Band of Stone
 - Weight: 1
@@ -890,11 +890,11 @@
 # Elden Ring
 - Weight: 1
 - [+0] Grants 10% boost to physical damage.
-- [+1] Grants 14% boost to physical damage.
-- [+2] Grants 18% boost to physical damage.
-- [+3] Grants 22% boost to physical damage.
-- [+4] Grants 26% boost to physical damage.
-- [+5] Grants 30% boost to physical damage.
+- [+1] Grants 12% boost to physical damage.
+- [+2] Grants 14% boost to physical damage.
+- [+3] Grants 16% boost to physical damage.
+- [+4] Grants 18% boost to physical damage.
+- [+5] Grants 20% boost to physical damage.
 
 # Fool's Sigil
 - Weight: 1
