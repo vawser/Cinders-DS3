@@ -48,16 +48,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Fix Painter dialogue, add blood turn-in option
+Painter: add blood turn-in option
 Add Remy the Rat in Firelink (romancable)
-
-Look at the mimic type states (speffect may be setting it to the crawl in too many cases)
-
-Fist TAE:
-    152
-    123 Dark Hand
-    
-Claw TAE:
-    146
-    235
 
