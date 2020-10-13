@@ -1803,6 +1803,7 @@ Event(9600, Default, function() {
     InitializeEvent(13, 9640, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
     InitializeEvent(14, 9640, 10000, 160100392, 800011400, 800011420); // Way of Blue
     InitializeEvent(15, 9640, 10000, 160100402, 800011500, 800011520); // Company of Champions
+    InitializeEvent(16, 9640, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
     
     // Boss Revival
     InitializeEvent(0, 9660, 0); // Corrupted Gundyr

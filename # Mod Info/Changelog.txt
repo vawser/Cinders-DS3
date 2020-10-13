@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002075 Cemetery of Ash / Unturned Graves
+54002076 Cemetery of Ash / Unturned Graves
 53002106 High Wall of Lothric / Consumed King's Garden
 53102095 Undead Settlement
 53302183 Road of Sacrifices / Farron Keep
@@ -30,6 +30,8 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Covenants
+- Added the Servant of the Rat covenant: boosts all defences and resistances by 5%, enables Rat Tails to be dropped.
 
 # Trials
 - Trial of Calamity is now unlocked via Lothric
@@ -41,6 +43,13 @@
  Wave 3: Fire Seed/Crystal Fragment/Holy Fragment/Abyssal Fragment
  Wave 4: Titanite Slab/Prismatic Slab
  Wave 5: Primordial Essence
+ 
+# Item
+- Added Rat Treat: summons Moxie, a rat companion. Offered by Remy the Rat.
+
+# NPC
+- The Painter now has an option to "Give the Blood of the Dark Soul", starting that part of her dialogue.
+- Added Remy the Rat in Firelink Shrine: hosts the Undead Match option, the Servant of the Rat covenant and is romancable.
 
 # Bugfixes
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
@@ -48,5 +57,4 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Add Remy the Rat in Firelink (romancable)
 

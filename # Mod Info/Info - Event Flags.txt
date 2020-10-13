@@ -1343,6 +1343,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000205 Covenant Acquired: Dragon Remnants        - Hawkwood
 25000206 Covenant Acquired: Warrior of Sunlight    - Solaire
 25000207 Covenant Acquired: Covenant of Champions  - Domhnall of Zena
+25000208 Covenant Acquired: Servant of the Rat     - Remy the Rat
 
 25000300 Gesture Acquired: Unmannered Bow     - Cornyx
 25000301 Gesture Acquired: Shrug              - Shrine Handmaid
@@ -1458,6 +1459,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25008200 Married: Greirat
 25008210 Married: Yoel
 25008220 Married: Solaire of Astora
+25008230 Married: Remy the Rat
 
 25009000 Random flag range
 

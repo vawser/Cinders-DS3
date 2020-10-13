@@ -1397,15 +1397,21 @@
       <flags>0x40</flags>
     </file>
     <file>
-      <id>9197</id>
+      <id>9198</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\30010_IntruderB.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
-      <id>9197</id>
+      <id>9199</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\30020_IntruderC.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>9200</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\211010_Moxie.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
