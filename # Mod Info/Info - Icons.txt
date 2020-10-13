@@ -285,7 +285,19 @@
 3574 Boots of the Explorer
 3575 Accursed Emblem
 
-4093 Talisman of Insanity
+4093 Relic of Insanity
+4103 Bare Insignia
+4105 Bare Emblem
+4107
+4109
+4120
+4124
+4133
+4134
+4139
+4140
+4142
+4143
 
 # Block 4
 4150 Shockwave
@@ -396,7 +408,7 @@
 4255 Rouge Water
 4256 Crimson Water
 4257 Enchantment Coal
-4258
+4258 
 4259
 4260
 4261

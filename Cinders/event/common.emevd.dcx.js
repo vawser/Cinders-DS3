@@ -2879,7 +2879,7 @@ Event(9683, Restart, function() {
     SetEventFlag(15110000, 0);
     
     SetPlayerRespawnPoint(5112951);
-    SetMapCeremony(51, 1, 0);
+    SetMapCeremony(51, 10, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);

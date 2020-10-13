@@ -4775,7 +4775,7 @@ function LadderSetActionState(state)
 end
 
 function LadderSendCommand(event_call)
-    act(108, event_call) -- SetLadderActionState
+    act(108, event_call) -- SendMessageIDToEvents
     return 
 end
 
@@ -15564,6 +15564,7 @@ function Update()
     SetStyleSpecialEffect()
     
     -- Cinders
+    TestFunction()
     UpdateFP()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
@@ -15797,6 +15798,14 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
     end
 end
 
+function TestFunction()
+    local test_mode = false
+    
+    if test_mode == true then
+        -- Test stuff here
+        
+    end
+end
 
 global = {}
 function dummy()

@@ -145,7 +145,7 @@ Returns TRUE or FALSE.
 303 IsReachBottomOfLadder 			    # はしご下到着か
 304 IsReachTopOfLadder 			        # はしご上到着か
 305 GetStateChangeType 			        # 状態変化タイプを取得
-    <condition type>
+    <condition type> # Stare Info enum
 306 IsOnLastRungOfLadder 			    # はしごの最終段にいるか
 311 GetWeaponDurability 			    # 武器の耐久度を取得
 312 IsWeaponBroken 			            # 耐久度で分岐するか
@@ -241,6 +241,7 @@ Returns TRUE or FALSE.
 2003 GetGeneralTAEFlag 			        # TAE汎用フラグ取得
 2004 IsSwingHitTarget 			        # 振りが当たっているか
 2005 GetCeremonyState 			        # 儀式状態を取得
+    <enum>
 2006 GetSuccessiveGuardCount            # 連続ガード回数を取得
 2007 GetMinLuck 			            # 最小よろけ値を取得
 2008 GetAccumulatedLuck 			    # 蓄積よろけ値を取得
@@ -279,13 +280,17 @@ Returns TRUE or FALSE.
 13 ChangeUpperAndLowerBodySyncedAnimCategorized
 100 SetActiveActionState
 101 SwitchMotion
+    <bool>
 102 SetAllowedThrowAttackType
+    <enum>
 103 SetAllowedThrowDefenseType
+    <enum>
 104 SwitchEquippedWeapon
 105 SetReadyForAtkFinish
 106 SetEquipmentChangeable
 107 SetUnableToFall
 108 SendMessageIDToEvents
+    <enum>
 109 SetAttackType
 110 SetStaminaRecoveryDisabled
 111 SetAIBusyDoingAction
@@ -295,6 +300,7 @@ Returns TRUE or FALSE.
 115 SetSpecialMovement
 116 SetIsWeaponChanging
 117 SetIsItemInUse
+    <bool>
 118 SetIsMagicInUse
     <bool>
 119 SetHoverState
@@ -305,27 +311,34 @@ Returns TRUE or FALSE.
 124 OpenMenuWhenUsingMagic
 125 BlowDamageTurn
 126 SetDeathStay
+    <bool>
 127 CloseMenuWhenUsingItem
 128 CloseMenuWhenUsingMagic
 129 DisallowAdditiveTurning
+    <bool>
 130 ChangeFlightStatus
 131 ShowFixedYAxisDirectionDisplay
 132 WhiffPossibility
 133 SetLadderActionState
+    <enum>
 134 SetInsufficientStrengthAnimID
 135 ForceCancelThrowAnim
 136 SetThrowState
+    <enum>
 137 StartSlidingDownLadder
 138 SetIsEventActionPossible
+    <bool>
 139 RequestThrowAnimInterrupt
 140 SetHandStateOfLadder
 141 SetDamageAnimType
+    <enum>
 142 DownwardSlideTurn
+    <bool>
 143 InterruptAttack
 144 SkyDeathWarp
 145 ClearSlopeInfo
 146 ReceiveStateInput
-147 SetIsEquipmentChangeableFromMenu
+147 SetIsEquipmentChangeableFromMenu    # Slot swap
 148 SetVariable
 149 AimAtSelfPosition
 150 SetIsItemAnimationPlaying
@@ -343,31 +356,40 @@ Returns TRUE or FALSE.
 162 MarkOfGreedyPersonSlipDamageDisable
 200 StateIdentifier
 1000 AddHP
-    <HPToAdd>
+    <int>
 1001 AddStamina
-    <StaminaToAdd>
-
+    <int>
 1100 SyncAtInit_Active
 1101 SyncAtInit_Passive
-
 2001 SetMovementScaleMult
+    <float>
 2002 AddSpEffect
+    <id>
 2003 SetFastStealthThrowEnabled
 2004 SetTurnSpeed
 2005 SetCeremonyState
 2006 SetDamageMotionBlendRatio
+    <float>
 2007 SetForceTurnTarget
 2008 ForceTurn
 2009 SpecialTurn
 2010 SetInSpecialGuard
 2011 SetWeaponCancelType
+    <enum>
 2012 SetIsPreciseShootingPossible        # 精密射撃可能か
 2013 ChooseBowAndArrowSlot               # 弓矢スロット選択
     <slot>
 2014 Set4DirectionMovementThreshold      # 4方向移動閾値設定
+    <int>
+    <int>
+    <int>
+    <int>
 2015 LockonSystemUnableToTurnAngle       # ロックオン時システム旋回不可角度
-    <angle>, <angle>
+    <angle>
+    <angle>
 2016 ReserveArtsPointsUse                # アーツポイント使用予約
+    <button>
+    <hand>
 2017 SetArtsPointFEDisplayState
 2018 LockonFixedAngleCancel              # ロックオン中角度固定解除
 2019 TurnToLockonTargetImmediately       # ロックオン対象へ即座に旋回
@@ -378,7 +400,7 @@ Returns TRUE or FALSE.
 2024 UseItemDecision
 
 9000 DebugLogOutput                 # デバッグログ出力
-    <String>
+    <string>
 9001 Test_SpEffectDelete
 9002 Test_SpEffectTypeSpecifyDelete
 9003 MarkerStart
@@ -391,6 +413,7 @@ Returns TRUE or FALSE.
     <Action Type>
 9104 SetIsTurnAnimInProgress 
 9105 SetTurnAnimCorrectionRate
+    <int>
 
 自動捕捉対象クリア                   
 - Acquired special category number for clear-equipped clear weapons
@@ -454,6 +477,8 @@ AIが行動中か設定
 
 特殊補間設定
 - Special interpolation setting
+<int>
+<bool>
 
 #------------------------
 # <attack request type>

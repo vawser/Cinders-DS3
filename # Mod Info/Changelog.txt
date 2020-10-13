@@ -30,53 +30,34 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Added new moveset to Black Dragon Greatsword.
 
-# Status
-- Removed the AI disable part of Frostbite.
+# Trials
+- Trial of Calamity is now unlocked via Lothric
+- Trial of Devastation is now unlocked via Yhorm
+- Trials are now equally difficult.
+- Trial rewards are now semi-random but the same across each trial:
+ Wave 1: Titanite Shard/Large Titanite Shard
+ Wave 2: Large Titanite Shard/Titanite Chunk/Dragon Scale/Twinkling Titanite/Titanite Scale
+ Wave 3: Fire Seed/Crystal Fragment/Holy Fragment/Abyssal Fragment
+ Wave 4: Titanite Slab/Prismatic Slab
+ Wave 5: Primordial Essence
 
-# Items
-- Removed Ashen Estus Flask.
-- Added Focus Implement. This is found in the same location as the Ashen Estus Flask. This makes you enter a focusing stance for several seconds, after which you restore FP. This is unlimited and can be used whenever, however you cannot cancel out of it, so it is dangerous to do whilst in active combat.
-- Reduced the max Estus Flask count to 10, since they no longer need to be split between Normal and Ashen.
-- Increased the HP restoration of the lifegem items, and changed the duration to 30 seconds for all but Dried Root (which is 300).
-
-# Rings
-- Ashen Estus Ring is now Focusing Ring: boosts FP restoration by 50% using the Focus Implement.
-- Added + versions to many more rings.
-- Extended the + versions of rings up to +5.
-- Londor Tincture: now boosts defences by 5%.
-- Rare Ring of Humanity: now prevents grab/critical attacks against the player.
-- Removed the following rings due to redundancy: 
- - Violet Tearstone Ring: too niche
- - Green Tearstone Ring: too niche
- - Black Tearstone Ring: too niche
- - Arcane Trinket: overlap with Saint's Ring
- - Enchanted Quiver: overlap with Hawk Ring
- - Ring of Woe: too niche
- - Ring of Adversity: too niche
- - Ring of Catastrophe: too niche
- - Charred Bone: overlap with Sage's Ring
- 
-# Primordial Essence
-- Reduced Primordial reinforcement costs to 1/2/3/4/5 instead of 3/6/9/12/15 (overall 15 cost instead of 45).
-- Adjusted the Primordial Essence cost for affixing rings to 2/4/6/8/10.
-- Bosses now have the chance to drop additional Primordial Essence, with the amount of rolls increasing based on NG+ cycle and the boss itself.
-- Trial of Devastation now has a chance to drop Primordial Essence with the completion of each wave, starting from 20% and ending at 100% for ending the boss wave.
-- Magnum Ursus now sells 5 Primordial Essence rather than an unlimited quantity. The amount is increased in each NG+, up to NG+5. The price of each set of 5 increases too.
-- The base price of Primordial Essence is now 100,000.
-
-# Curses
-- Changed the Pride/Fortitude/Vitality/Wrath curses to now have a choice out of 10 'tiers', i.e. Pride I is +10% damage and +5% soul absorption, whereas Pride X is +100% damage and +50% soul absorption.
-- Added Curse of Valor: empowers bosses but adds an additional Primordial Essence roll.
-
-# Menu
-- Removed the Allot Estus menu option (no longer needed).
-- Removed Andre's check on holding the Ashen Estus Flask.
+# Bugfixes
+- Tome: Slave Knight Gael should no longer incorrectly warp you.
 
 #------------------------------
 # TODO - General
 #------------------------------
-Add throwing pan
+Fix Painter dialogue, add blood turn-in option
+Add Remy the Rat in Firelink (romancable)
+
+Look at the mimic type states (speffect may be setting it to the crawl in too many cases)
+
+Fist TAE:
+    152
+    123 Dark Hand
+    
+Claw TAE:
+    146
+    235
 
