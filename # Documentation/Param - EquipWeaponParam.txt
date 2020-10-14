@@ -407,70 +407,43 @@ Controls the hit sfx of the weapon.
 #---------------------------
 # Infusion Flags
 #---------------------------
+Heavy       1.  T F F F
+Sharp       2.  F T F F
+Refined     3.  T T F F
+Raw         4.  T F T T
+Crystal     5.  F F T F
+Simple      6.  T F T F
+Fire        7.  F T T F
+Chaos       8.  T T T F
+Lightning   9.  F F F T
+Blessed     10. F T T T
+Deep        11. T F F T
+Dark        12. F T F T
+Blood       13. F F T T
+Poison      14. T T F T
+Hollow      15. T T T T
+
 # Unlocked by default
 Raw
- Infusion Flag 1 = TRUE
- Infusion Flag 2 = TRUE
-
 Fire
- Infusion Flag 2 = TRUE
- Infusion Flag 3 = TRUE
- 
 Refined
- Infusion Flag 1 = TRUE
- Infusion Flag 3 = TRUE
- Infusion Flag 4 = TRUE
- 
+
 # Unlock by Farron Coal
 Heavy
- Infusion Flag 1 = TRUE
- 
 Sharp
- Infusion Flag 2 = TRUE
- 
 Poison
- Infusion Flag 1 = TRUE
- Infusion Flag 2 = TRUE
- Infusion Flag 4 = TRUE
- 
+
 # Unlocked by Sage's Coal
 Crystal
- Infusion Flag 3 = TRUE
-
 Blessed
- Infusion Flag 2 = TRUE
- Infusion Flag 3 = TRUE
- Infusion Flag 4 = TRUE
- 
 Deep
- Infusion Flag 1 = TRUE
- Infusion Flag 4 = TRUE
- 
+
 # Unlocked by Giant's Coal
 Lightning
- Infusion Flag 4 = TRUE
- 
 Simple
- Infusion Flag 1 = TRUE
- Infusion Flag 3 = TRUE
- 
 Chaos
- Infusion Flag 1 = TRUE
- Infusion Flag 2 = TRUE
- Infusion Flag 3 = TRUE
- 
+
 # Profaned Coal
 Dark
- Infusion Flag 2 = TRUE
- Infusion Flag 4 = TRUE
-
 Blood
- Infusion Flag 3 = TRUE
- Infusion Flag 4 = TRUE
- 
 Hollow
- Infusion Flag 1 = TRUE
- Infusion Flag 2 = TRUE
- Infusion Flag 3 = TRUE
- Infusion Flag 4 = TRUE
-

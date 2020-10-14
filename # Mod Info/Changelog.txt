@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons
+- Restored the infusion icons that appear in the weapon's icon based on the current infusion.
+
 # Covenants
 - Added the Servant of the Rat covenant: boosts all defences and resistances by 5%, enables Rat Tails to be dropped.
 

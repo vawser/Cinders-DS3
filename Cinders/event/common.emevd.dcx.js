@@ -1922,6 +1922,13 @@ Event(9610, Default, function(X0_4, X4_4) {
 // Game Flags - On Load
 //------------------------------------------------
 Event(9611, Restart, function(X0_4, X4_4) {
+    // Infusion availability flags
+    SetEventFlag(300, ON);
+    SetEventFlag(301, ON);
+    SetEventFlag(302, ON);
+    SetEventFlag(303, ON);
+    
+    // Flirt flags
     SetEventFlag(25008900, OFF); 
     SetEventFlag(25008901, OFF); 
     SetEventFlag(25008902, OFF); 
