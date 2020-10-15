@@ -61,6 +61,7 @@
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
 - Fixed Caitha's Chime effect.
 - Fixed Flynn's Ring effect.
+- Fixed Floating Chaos ascended spell.
 
 #------------------------------
 # TODO - General
