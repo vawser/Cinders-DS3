@@ -54,10 +54,17 @@
 - The Painter now has an option to "Give the Blood of the Dark Soul", starting that part of her dialogue.
 - Added Remy the Rat in Firelink Shrine: hosts the Undead Match option, the Servant of the Rat covenant and is romancable.
 
+# Map
+- Increased the speed of the lifts in Lothric Castle/Grand Archives.
+
 # Bugfixes
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
+- Fixed Caitha's Chime effect.
 
 #------------------------------
 # TODO - General
 #------------------------------
 
+o009009_6000
+o342400_7000
+o302400_6000
