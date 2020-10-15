@@ -60,11 +60,9 @@
 # Bugfixes
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
 - Fixed Caitha's Chime effect.
+- Fixed Flynn's Ring effect.
 
 #------------------------------
 # TODO - General
 #------------------------------
 
-o009009_6000
-o342400_7000
-o302400_6000
