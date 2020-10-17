@@ -49,6 +49,7 @@
  
 # Item
 - Renamed Cleansing Elixir to Cleansing Potion.
+- Removed Accursed Elixir (now a Writ).
 - Added Rat Treat: summons Moxie, a rat companion. Offered by Remy the Rat.
 - Added Writs: similar to elixirs, but for VFXs that are added to your body
  - Writ of Humanity: add humanity head (doesn't remove the current helmet)
@@ -62,6 +63,14 @@
  - Writ of Sparks: add sparking body effect
  - Writ of Stars: add white star body effect
  - Writ of Prismatica: adds prism stone body effect
+ - Writ of Corruption: adds corrupted crystals body effect
+ - Writ of Toxicity: adds dung body effect
+ - Writ of Protection: adds magic barrier body effect
+ - Writ of Poison: adds poison body effect
+ - Writ of Frost: adds frost body effect
+ - Writ of Immolation: adds fire body effect
+ - Writ of Dust: adds dust body effect
+ - Writ of Water: adds water body effect
  
 # Merchant
 - Added the monster transform items to Alchemist Jiji as purchasable items.
@@ -84,10 +93,8 @@
 #------------------------------
 Add muffins stuff: continue from a283 - Black Dragon Greataxe
 
-Stoneform (Good)
-Maggot: 4051 (Good)
-Flaming Red Eye: 524363 (Good)
-White Eye: 610700 (Good)
-Sparks: 525902 (Good)
-White Star: 527602 (Good)
-Prismatic: 854006
+dmy:
+ 15 - all body (total)
+ 198 - all body (fewer)
+ 210 - above head
+ 
