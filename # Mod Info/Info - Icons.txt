@@ -286,8 +286,8 @@
 3575 Accursed Emblem
 
 4093 Relic of Insanity
-4103 Bare Insignia
-4105 Bare Emblem
+4103 Writ
+4105 
 4107
 4109
 4120
@@ -411,7 +411,7 @@
 4258 Servant of the Rat
 4259 Rat Tail
 4260 Rat Treat
-4261
+4261 
 4262
 4263
 4264

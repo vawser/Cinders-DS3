@@ -48,7 +48,23 @@
  Wave 5: Primordial Essence
  
 # Item
+- Renamed Cleansing Elixir to Cleansing Potion.
 - Added Rat Treat: summons Moxie, a rat companion. Offered by Remy the Rat.
+- Added Writs: similar to elixirs, but for VFXs that are added to your body
+ - Writ of Humanity: add humanity head (doesn't remove the current helmet)
+ - Writ of Anger: add red eyes
+ - Writ of Crystallization: adds crystallization body effect
+ - Writ of Invisibility: adds invisibility to the player (no effect on AI detection)
+ - Writ of Stone: adds stoneform body effect
+ - Writ of Maggots: adds maggot body effect
+ - Writ of Burning Anger: adds burning red eye effect
+ - Writ of Silent Anger: adds white eye effect
+ - Writ of Sparks: add sparking body effect
+ - Writ of Stars: add white star body effect
+ - Writ of Prismatica: adds prism stone body effect
+ 
+# Merchant
+- Added the monster transform items to Alchemist Jiji as purchasable items.
 
 # NPC
 - The Painter now has an option to "Give the Blood of the Dark Soul", starting that part of her dialogue.
@@ -66,4 +82,12 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Add muffins stuff: continue from a283 - Black Dragon Greataxe
 
+Stoneform (Good)
+Maggot: 4051 (Good)
+Flaming Red Eye: 524363 (Good)
+White Eye: 610700 (Good)
+Sparks: 525902 (Good)
+White Star: 527602 (Good)
+Prismatic: 854006

@@ -369,7 +369,7 @@
 030000 - AttackRightLight1 #13232
 030010 - AttackRightLight2 #13233
 030020 - AttackRightLight3 #13234
-000320 - AttackRightHeavy1Start #13235
+030320 - AttackRightHeavy1Start #13235
 030321 - AttackRightHeavy1End #13236
 030330 - AttackRightHeavy1SubStart #13237
 030340 - AttackRightHeavy2Start #13238
@@ -389,7 +389,7 @@
 030000 - AttackRightLight1 #13245
 030010 - AttackRightLight2 #13246
 030020 - AttackRightLight3 #13247
-000320 - AttackRightHeavy1Start #13248
+030320 - AttackRightHeavy1Start #13248
 030321 - AttackRightHeavy1End #13249
 030330 - AttackRightHeavy1SubStart #13250
 030340 - AttackRightHeavy2Start #13251
@@ -412,7 +412,7 @@
 034900 - AttackBothLightStep #13268
 
 037670 - Warcry #13269
-037671 - Warcry_NoPoints #13270
+037710 - EndureRightHeavy #13270
 
 #------------------------------------------------
 # a281 - Scythe of Want
@@ -420,7 +420,7 @@
 030000 - AttackRightLight1 #13271
 030010 - AttackRightLight2 #13272
 030020 - AttackRightLight3 #13273
-000320 - AttackRightHeavy1Start #13274
+030320 - AttackRightHeavy1Start #13274
 030321 - AttackRightHeavy1End #13275
 030330 - AttackRightHeavy1SubStart #13276
 030340 - AttackRightHeavy2Start #13277
@@ -436,6 +436,8 @@
 034330 - AttackBothHeavy1SubStart #13287
 034340 - AttackBothHeavy2Start #13288
 034341 - AttackBothHeavy2End #13289
+034500 - AttackBothDash #13385
+034900 - AttackBothLightStep #13386
 
 038400 - OneShot #13290
        - OneShot_Upper
@@ -469,7 +471,7 @@
 030000 - AttackRightLight1 #13305
 030010 - AttackRightLight2 #13306
 030020 - AttackRightLight3 #13307
-000320 - AttackRightHeavy1Start #13308
+030320 - AttackRightHeavy1Start #13308
 030321 - AttackRightHeavy1End #13309
 030330 - AttackRightHeavy1SubStart #13310
 030340 - AttackRightHeavy2Start #13311
