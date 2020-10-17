@@ -75,7 +75,14 @@
  - Writ of Vengeful Anger: adds golden eye effect
  
 # Gifts
-- Added Ancestral Note: lets you start immediately in Firelink Shrine (automatically awards the Focus Implement too).
+- Added new gifts that change your starting position: the Focus Implement is automatically added in these cases.
+- Added Ancestral Note: start in Firelink Shrine.
+- Added Cultist Note: start in Archdragon Peak.
+- Added Waterlogged Note: start in Farron Swamp.
+- Added Dusty Note: start in Catacombs of Carthus.
+- Added Shivering Note: start in Irithyll.
+- Added Corrupted Note: start in Irithyll Dungeon.
+- Added Afflicted Note: start in Consumed King's Garden
  
 # Merchant
 - Added the monster transform items to Alchemist Jiji as purchasable items.
@@ -98,4 +105,3 @@
 #------------------------------
 Add muffins stuff: continue from a283 - Black Dragon Greataxe
 
-2025 Ancestral Note
