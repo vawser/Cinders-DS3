@@ -74,6 +74,9 @@
  - Writ of Chilling Anger: adds frost eye effect
  - Writ of Vengeful Anger: adds golden eye effect
  
+# Gifts
+- Added Ancestral Note: lets you start immediately in Firelink Shrine (automatically awards the Focus Implement too).
+ 
 # Merchant
 - Added the monster transform items to Alchemist Jiji as purchasable items.
 
@@ -95,4 +98,4 @@
 #------------------------------
 Add muffins stuff: continue from a283 - Black Dragon Greataxe
 
-613120
+2025 Ancestral Note
