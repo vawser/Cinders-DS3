@@ -43,6 +43,11 @@ ActionID="75"
     
 ActionID="81"
 
+dmy:
+ 15 - all body (total)
+ 198 - all body (fewer)
+ 210 - above head
+ 
 #------------------------ 
 # New FFX
 #------------------------
