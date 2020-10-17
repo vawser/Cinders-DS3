@@ -71,6 +71,8 @@
  - Writ of Immolation: adds fire body effect
  - Writ of Dust: adds dust body effect
  - Writ of Water: adds water body effect
+ - Writ of Chilling Anger: adds frost eye effect
+ - Writ of Vengeful Anger: adds golden eye effect
  
 # Merchant
 - Added the monster transform items to Alchemist Jiji as purchasable items.
@@ -93,3 +95,4 @@
 #------------------------------
 Add muffins stuff: continue from a283 - Black Dragon Greataxe
 
+613120
