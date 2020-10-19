@@ -50,6 +50,7 @@
 # Item
 - Renamed Cleansing Elixir to Cleansing Potion.
 - Removed Accursed Elixir (now a Writ).
+- Added Elixir of Hollowing: enable the hollow look even whilst human.
 - Added Rat Treat: summons Moxie, a rat companion. Offered by Remy the Rat.
 - Added Writs: similar to elixirs, but for VFXs that are added to your body
  - Writ of Humanity: add humanity head (doesn't remove the current helmet)
@@ -99,6 +100,8 @@
 - Fixed Caitha's Chime effect.
 - Fixed Flynn's Ring effect.
 - Fixed Floating Chaos ascended spell.
+- Fixed various overrides also affecting hollow/human form.
+- Fixed elixirs not working with the armor overrides.
 
 #------------------------------
 # TODO - General

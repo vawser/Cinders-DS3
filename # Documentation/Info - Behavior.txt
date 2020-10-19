@@ -70,1186 +70,2592 @@ replanningAI                        -
 #---------------------------------------------
 # Weapon TAE
 #---------------------------------------------
-# --- Right Hand ---
-030000 - AttackRightLight1 
-       - AttackCrossbowRightFire
-030010 - AttackRightLight2
-030020 - AttackRightLight3
-030050 - AttackRightWhileGuardNormal
-030051 - AttackRightWhileGuardHeavy
-030052 - AttackRightWhileGuardSmall
-030053 - AttackRightWhileGuardTorch
-030100 - AttackRightLightKick
-030150 - GuardBreakWallRight
-030200 - GuardDamageBreakRight
-030201 - Throw30201 
-       - ThrowErrorHandling
-030202 - Throw30202
-030203 - Throw30203
-030320 - AttackRightHeavy1Start
-030321 - AttackRightHeavy1End
-030325 - AttackRightHeavyWepBroken1Start
-030330 - AttackRightHeavy1SubStart 
-       - AttackRightHeavy1SubStart00
-030340 - AttackRightHeavy2Start
-030341 - AttackRightHeavy2End
-030345 - AttackRightHeavyWepBroken2Start
-030350 - AttackRightHeavySpecial1Start      # Warcry
-030351 - AttackRightHeavySpecial1End        # Warcry
-030360 - AttackRightHeavySpecial1SubStart   # Warcry
-030370 - AttackRightHeavySpecial2Start      # Warcry
-030371 - AttackRightHeavySpecial2End        # Warcry
-030400 - Throw30400
-030401 - Throw30401
-030402 - Throw30402
-030410 - Throw30410
-030420 - Throw30420
-030450 - ThrowBackStab
-030500 - AttackRightLightDash               # Backstep Attack
-030510 - AttackRightLightDashSpecial
-030600 - AttackRightHeavyKick               # Jump Attack
-030800 - FallAttackStart
-030801 - FallAttackLoop
-030802 - FallAttackCancel
-030810 - LandFallAttack
-030860 - Throw30860
-030870 - Throw30870
-030900 - AttackRightLightStep               # Rolling Attack
-030910 - AttackRightLightStepSpecial
-030920 - AttackRightBackstep
-030930 - AttackRightCounter
-
-# --- Crossbow ---
-031500 - AttackCrossbowRightStart
-031510 - AttackCrossbowRightEmpty
-031520 - AttackCrossbowRightReload_Upper
-031530 - AttackCrossbowRightLoop_Upper
-031540 - AttackCrossbowRightMoveLoop_Upper
-
-# --- Left Hand ---
-032000 - AttackLeftLight1 
-       - AttackCrossbowLeftFire
-       - AttackCrossbowLeftFire_Upper
-       - AttackLeftHeavy1a00
-032030 - AttackLeftHeavy2a00
-032060 - AttackLeftHeavy3a00
-032090 - AttackLeftHeavySp1
-032091 - AttackLeftHeavySp2
-032092 - AttackLeftHeavySp3
-032100 - ParryLeft1
-032101 - ParryLeftStart1_WepBreak
-032110 - ParryLeft2
-032111 - ParryLeftStart2_WepBreak
-032120 - ParryLeft3
-032121 - ParryLeftStart3_WepBreak
-032150 - GuardBreakWallLeft
-032200 - GuardDamageBreakLeft
-
-# --- Both Hand (Left) ---
-033000 - AttackBothLeft1
-033010 - AttackBothLeft2
-033020 - AttackBothLeft3
-033500 - AttackBothLeftDash
-       - AttackCrossbowLeftStart
-       - AttackCrossbowLeftStart_Upper
-033510 - AttackCrossbowLeftEmpty
-033520 - AttackCrossbowLeftReload
-       - AttackCrossbowLeftReload_Upper
-033530 - AttackCrossbowLeftLoop
-       - AttackCrossbowLeftLoop_Upper
-033540 - AttackCrossbowLeftMoveLoop_Upper
-033900 - AttackBothLeftStep
-
-# --- Both Hand (Right) ---
-034000 - AttackBothLight1 
-       - AttackArrowRightFire 
-       - AttackCrossbowBothRightFire
-034001 - AttackCrossbowBothLeftFire
-       - AttackCrossbowBothLeftFire_Upper
-034010 - AttackBothLight2
-034020 - AttackBothLight3
-034100 - AttackBothLightKick
-034150 - GuardBreakWallBoth
-034200 - GuardDamageBreakBoth
-034320 - AttackBothHeavy1Start
-034321 - AttackBothHeavy1End
-034325 - AttackBothHeavyWepBroken1Start
-034330 - AttackBothHeavy1SubStart 
-       - AttackBothHeavyWepBroken1SubStart
-034340 - AttackBothHeavy2Start
-034341 - AttackBothHeavy2End
-034350 - AttackBothHeavySpecial1Start
-034351 - AttackBothHeavySpecial1End
-034360 - AttackBothHeavySpecial1SubStart
-034370 - AttackBothHeavySpecial2Start
-034371 - AttackBothHeavySpecial2End
-034500 - AttackBothDash                     # Backstep Attack
-       - AttackArrowRightFireDash
-034510 - AttackBothDashSpecial
-034600 - AttackBothHeavyKick                # Jump Attack
-034610 - AttackBothHeavyKickSpecial
-034900 - AttackBothLightStep                # Rolling Attack
-       - AttackArrowRightFireStep
-034910 - AttackBothLightStepSpecial
-034920 - AttackBothBackstep
-
-# --- Bow/Crossbow ---
-035500 - AttackArrowRightStart
-       - AttackArrowRightStart_Upper
-       - AttackCrossbowBothLeftStart
-       - AttackCrossbowBothLeftStart_Upper
-       - AttackCrossbowBothRightStart
-       - AttackCrossbowBothRightStart_Upper
-035510 - AttackArrowRightLoop
-       - AttackArrowRightLoop_Upper
-       - AttackCrossbowBothLeftEmpty
-       - AttackCrossbowBothLeftEmpty_Upper
-       - AttackCrossbowBothRightEmpty
-       - AttackCrossbowBothRightEmpty_Upper
-035515 - AttackArrowRightLoopMove
-035520 - AttackCrossbowBothRightReload
-       - AttackCrossbowBothRightReload_Upper
-035521 - AttackCrossbowBothLeftReload
-       - AttackCrossbowBothLeftReload_Upper
-035530 - AttackCrossbowBothRightLoop
-       - AttackCrossbowBothRightLoop_Upper
-035531 - AttackCrossbowBothLeftLoop
-       - AttackCrossbowBothLeftLoop_Upper
-035540 - AttackCrossbowBothRightMoveLoop_Upper
-035541 - AttackCrossbowBothLeftMoveLoop_Upper
-036500 - ChainShotRightStart_Upper
-036510 - ChainShotRightLoop_Upper
-036515 - ChainShotRightLoopMove_Upper
-036520 - ChainShotRightFire
-036521 - ChainShotRightFire_NoPoints
-036530 - ChainShotRightFireCont
-036531 - ChainShotRighttFireCont_NoPoints
-036540 - ChainShotRightEnd
-037130 - WideshotRightFire
-
-
-# --- Weapon Arts ---
-# Stomp
-036000 - StepInRightStart_Upper
-036001 - StepInRightStart_NoPoints_Upper
-036050 - StepInRightUppercut
-036051 - StepInRightUppercut_NoPoints
-036060 - StepInRightSlash
-036061 - StepInRightSlash_NoPoints
-036070 - StepInRightDashStart
-
-# 
-036100 - SpinRightSelftransLeft
-036110 - SpinRightTransselfRight
-036120 - SpinRightFrontLeft
-036130 - SpinRightFrontRight
-
-# Stance
-036200 - DrawStanceRightStart
-036210 - DrawStanceRightLoop
-036215 - DrawStanceRightLoopMove_Upper
-036220 - DrawStanceRightEnd_Upper
-036230 - DrawStanceRightAttackLight
-036231 - DrawStanceRightAttackLight_NoPoints
-036240 - DrawStanceRightAttackHeavy
-036241 - DrawStanceRightAttackHeavy_NoPoints
-
-#
-036300 - SpecialAttackRightStart
-036310 - SpecialAttackRightLight
-036320 - SpecialAttackRightHeavy
-
-# Spin Slash
-036400 - AttackSpinStart
-036401 - AttackSpinStart_NoPoints
-036410 - AttackSpinLight
-036411 - AttackSpinLight_NoPoints
-036420 - AttackSpinHeavy
-036421 - AttackSpinHeavy_NoPoints
-
-# Charge
-036700 - Charge
-036701 - Charge_NoPoints
-036710 - ChargeContinue
-036711 - ChargeContinue_NoPoints
-
-# 
-036800 - StrongBashRightStart
-
-#
-036900 - ParryRightStart
-036901 - ParryRightStart_WepBreak
-
-#
-037400 - StampedeRightStart
-037410 - StampedeRightAttackLight
-037420 - StampedeRightAttackHeavy
-
-# Warcry
-037670 - Warcry
-037671 - Warcry_NoPoints
-
-# Perseverance
-037700 - Endure
-037701 - Endure_NoPoints
-037710 - EndureRightHeavy
-037711 - EndureRightHeavy_NoPoints
-
-# Poison Spores
-037900 - MagicBuffRight
-037901 - MagicBuffRight_NoPoints
-037910 - MagicBuffLeft
-037911 - MagicBuffLeft_NoPoints
-
-#
-038200 - CrossbowStepInStart
-       - CrossbowStepInRightStart_Upper
-038201 - CrossbowStepInStart_NoPoints
-       - CrossbowStepInRightStart_NoPoints_Upper
-038210 - CrossbowStepInFire
-038211 - CrossbowStepInFire_NoPoints
-038220 - CrossbowStepInReload
-038221 - CrossbowStepInReload_NoPoints
-
-# 
-038300 - HeadHunt
-038301 - HeadHunt_NoPoints
-
-# Sharpen / Lothric War Banner
-038400 - OneShot
-038401 - OneShot_NoPoints
-038410 - OneShotNoGenTransContinue
-038411 - OneShotNoGenTransContinuet_NoPoint
-
-# Shield Bash
-038500 - OneShotFullRightStart
-038501 - OneShotFullRightStart_NoPoints
-038510 - OneShotFullBothStart
-038511 - OneShotFullBothStart_NoPoints
-038520 - OneShotFullLeftStarta00
-038521 - OneShotFullLeftStarta00_NoPoints
-038530 - OneShotFullLeftStarta02
-038531 - OneShotFullLeftStarta02_NoPoints
-038540 - OneShotFullLeftStarta03
-038541 - OneShotFullLeftStarta03_NoPoints
-
-# 
-038700 - OneShotNoGenTransStart
-038701 - OneShotNoGenTransStart_NoPoint
-038710 - OneShotNoGenTransContinue
-038711 - OneShotNoGenTransContinuet_NoPoint
-
-# Quickstep
-038020 - CircleStepStartRight 
-       - CircleStepStartSelftransRight
-038021 - CircleStepStartRight_NoPoints 
-       - CircleStepStartSelftransRight_NoPoints
-038030 - CircleStepStartLeft 
-       - CircleStepStartSelftransLeft
-038031 - CircleStepStartLeft_NoPoints 
-       - CircleStepStartSelftransLeft_NoPoints
-038040 - CircleStepFrontLeft 
-       - CircleStepSelftransFrontLeft
-038041 - CircleStepFrontLeft_NoPoints 
-       - CircleStepSelftransFrontLeft_NoPoints
-038050 - CircleStepFrontRight 
-       - CircleStepSelftransFrontRight
-038051 - CircleStepFrontRight_NoPoints 
-       - CircleStepSelftransFrontRight_NoPoints
-038060 - CircleStepStartBackRight 
-       - CircleStepStartSelftransBackRight
-038061 - CircleStepStartBackRight_NoPoints 
-       - CircleStepStartSelftransBackRight_NoPoints
-038070 - CircleStepStartBackLeft 
-       - CircleStepStartSelftransBackLeft
-038071 - CircleStepStartBackLeft_NoPoints 
-       - CircleStepStartSelftransBackLeft_NoPoints
-
-# Multi-Stance
-038900 - FourWayAttackStartRight
-038901 - FourWayAttackStartRight_NoPoints
-038910 - FourWayAttackStartLeft
-038911 - FourWayAttackStartLeft_NoPoints
-038920 - FourWayAttackStartFrontRight
-038921 - FourWayAttackStartFrontRight_NoPoints
-038930 - FourWayAttackStartFrontLeft_SelfTrans
-038931 - FourWayAttackStartFrontLeft_SelfTrans_NoPoints
-038940 - FourWayAttackStartBackRight00
-038941 - FourWayAttackStartBackRight_NoPoints00
-038950 - FourWayAttackStartBackLeft
-038951 - FourWayAttackStartBackLeft_NoPoints
-038960 - FourWayAttackHeavy
-038961 - FourWayAttackHeavy_NoPoints
-038970 - FourWayAttackLight
-038971 - FourWayAttackLight_NoPoints
-
-# Mad King's Gambit
-039100 - RandomOneShot1
-039101 - RandomOneShot1_NoPoints
-039110 - RandomOneShotNext1
-039111 - RandomOneShotNext1_NoPoints
-039120 - RandomOneShotNext2
-039121 - RandomOneShotNext2_NoPoints
-039130 - RandomOneShotNext3
-039131 - RandomOneShotNext3_NoPoints
-039140 - RandomOneShotNext4
-039141 - RandomOneShotNext4_NoPoints
-
-# Wind Wheel
-039210 - DrawStanceRightLoopMaxNoSync
-       - DrawStanceRightLoopMaxNoSync_Upper
-039215 - DrawStanceRightLoopMaxNoSync_Upper_NoPoints
-039230 - DrawStanceRightAttackMaxLight
-039231 - DrawStanceRightAttackMaxLight_NoPoints
-039232 - DrawStanceRightAttackMaxLightR90
-039233 - DrawStanceRightAttackMaxLightR90_NoPoints
-039234 - DrawStanceRightAttackMaxLight180
-039235 - DrawStanceRightAttackMaxLight180_NoPoints
-039240 - DrawStanceRightAttackMaxHeavy
-039241 - DrawStanceRightAttackMaxHeavy_NoPoints
-039242 - DrawStanceRightAttackMaxHeavyR90
-039243 - DrawStanceRightAttackMaxHeavyR90_NoPoints
-039244 - DrawStanceRightAttackMaxHeavy180
-039245 - DrawStanceRightAttackMaxHeavy180_NoPoints
-
-
-#---------------------------------------------
-# Magic TAE
-#---------------------------------------------
-# Right Launch Anim
-040000 - ENBulletRightLaunch
-       - ENBulletRightLaunch_Upper
-       - ENBulletRightLaunchSA
-       - ENBulletRightLaunchSA_Upper
-       - WeaponEnchantRightLaunchSA
-       - WeaponEnchantRightLaunch_Upper
-       - WeaponEnchantRightLaunchSA_Upper
-       
-040002 - SelfEnchantRightLaunch
-       - SelfEnchantRightLaunch_Upper
-       - SelfEnchantRightLaunchSA
-       - SelfEnchantRightLaunchSA_Upper
-
-040003 - PrayRightLaunch
-       - PrayRightLaunch_Upper
-       - PrayRightLaunchSA
-       - PrayRightLaunchSA_Upper
-       - PrayHoldRightLaunch
-       - PrayHoldRightLaunch_Upper
-       - PrayHoldRightLaunchSA
-       - PrayHoldRightLaunchSA_Upper
-       
-040004 - FlameRadiationRightLaunch
-       - FlameRadiationRightLaunch_Upper
-       - FlameRadiationRightLaunchSA
-       - FlameRadiationRightLaunchSA_Upper
-
-040005 - SelfEnchantCauseRightLaunch
-       - SelfEnchantCauseRightLaunch_Upper
-       - SelfEnchantCauseRightLaunchSA
-       - SelfEnchantCauseRightLaunchSA_Upper
-
-040006 - DrainRightLaunch
-       - DrainRightLaunch_Upper
-       - DrainRightLaunchSA
-       - DrainRightLaunchSA_Upper
-
-040007 - FireNearRightLaunch
-       - FireNearRightLaunch_Upper
-       - FireNearRightLaunchSA
-       - FireNearRightLaunchSA_Upper
-
-040008 - CloudRightLaunch
-
-040009 - SparkRightLaunch
-
-040010 - CharmRightLaunch
-
-040011 - ChameleonRightLaunch
-
-040012 - TransformRightLaunch
-
-040013 - BreathRightLaunch
-
-040014 - WeaponEnchant2RightLaunch
-
-040015 - SummonRightLaunch
-
-040016 - ShieldEnchantRightLaunch
-
-040017 - ForceRightLaunch
-
-040018 - ThunderRightLaunch
-
-040019 - EnvironmentRightLaunch
-
-040020 - PrayBroRightLaunch
-
-040021 - Throw40021
-
-040022 - ImpactRightLaunch
-
-040024 - ENBullet2RightLaunch
-
-040025 - FlamethrowerRightLaunch
-
-040026 - WhipRightLaunch
-
-040027 - SlashRightLaunch
-
-040028 - PrayStandRightLaunch
-
-040029 - AOEPrayHoldRightLaunch
-
-040030 - QuickENBulletRightLaunch
-
-040031 - QuickSlashRightLaunch
-
-040032 - FlameBackHandRightLaunch
-
-040033 - FlameGrabRightLaunch
-
-040034 - CrushRightLaunch
-
-040035 - MiracleRadiationRightLaunch
-
-040036 - LightningRodRightLaunch
-
-040037 - ChopRightLaunch
-
-040038 - TrapRightLaunch
-
-040039 - WrathRightLaunch
-
-040040 - BeamCannonRightLaunch
-
-040041 - MachineGunRightLaunch
-
-040042 - StrongENBulletRightLaunch
-
-040043 - FastSparkRightLaunch
-
-040044 - FastFlameRadiationRightLaunch
-
-040045 - ScytheRightLaunch
-
-040046 - HolySparkRightLaunch
-       - HolySparkRightLaunch_Upper
-       - HolySparkRightLaunchSA
-       - HolySparkRightLaunchSA_Upper
-
-040047 - SpitRightLaunch
-       - SpitRightLaunch_Upper
-       - SpitRightLaunchSA
-       - SpitRightLaunchSA_Upper
-
-040048 - BitRightLaunch
-       - BitRightLaunch_Upper
-       - BitRightLaunchSA
-       - BitRightLaunchSA_Upper
-
-040049 - ChakramRightLaunch
-       - ChakramRightLaunch_Upper
-       - ChakramRightLaunchSA
-       - ChakramRightLaunchSA_Upper
-
-040050 - BowRightLaunch
-       - BowRightLaunch_Upper
-       - BowRightLaunchSA
-       - BowRightLaunchSA_Upper
-
-040051 - FanRightLaunch
-       - FanRightLaunch_Upper
-       - FanRightLaunchSA
-       - FanRightLaunchSA_Upper
-
-040099 - MagicInvalidRight
-       - MagicInvalidRight_Upper
-
-# Loop Anim
-040103 - PrayHoldRightLoop
-       - PrayHoldRightLoop_Upper
-       - PrayHoldRightLoopSA
-       - PrayHoldRightLoopSA_Upper
-
-040129 - AOEPrayHoldRightLoop
-       - AOEPrayHoldRightLoop_Upper
-       - AOEPrayHoldRightLoopSA
-       - AOEPrayHoldRightLoopSA_Upper
-
-040147 - SpitHoldRightLoop
-       - SpitHoldRightLoop_Upper
-       - SpitHoldRightLoopSA
-       - SpitHoldRightLoopSA_Upper
-
-040150 - BowHoldRightLoop
-       - BowHoldRightLoop_Upper
-       - BowHoldRightLoopSA
-       - BowHoldRightLoopSA_Upper
-
-040247 - MagicLoopRightLvl2
-       - MagicLoopRightLvl2_Upper
-
-# Right Fire Anim
-040300 - ENBulletRightFire
-       - ENBulletRightFire_Upper
-
-# Left Launch Anim
-042000 - ENBulletLeftLaunch
-       - ENBulletLeftLaunch_Upper
-       - ENBulletLeftLaunchSA
-       - ENBulletLeftLaunchSA_Upper
-
-# Left Fire Anim
-042300 - ENBulletLeftFire
-       - ENBulletLeftFire_Upper
-
-#---------------------------------------------
-# Item TAE
-#---------------------------------------------
-   
-#---------------------------------------------
-# Gesture TAE
-#---------------------------------------------
-
-#---------------------------------------------
-# Common TAE
-#---------------------------------------------
-000030 - GuardOnTorch
-000100 - GuardOnIdle
-000110 - GuardOnHeavyIdle
-000120 - GuardOnSmall
-
-# --- Fall ---
-004000 - FallLoop
-004010 - FallStartFaceUp00
-004020 - FallLoopFaceDown
-004050 - FallStart
-004060 - FallStartFaceUp
-004070 - FallStartFaceDown
-004080 - FallJumpStart
-004100 - FallDeath
-004101 - FallDeathLoop
-004110 - FallDeathFaceUp
-004111 - FallDeathFaceDown
-004120 - FallDeathLoopFaceUp
-004121 - FallDeathLoopFaceDown
-
-# --- Landing ---
-004200 - LandDefault
-004210 - LandMiddle
-004220 - LandHeavy
-004230 - LandCatDefault
-004240 - LandCatMiddle
-004250 - LandCatHeavy
-004260 - LandFaceUp
-004270 - LandFaceDown
-004280 - LandJump
-004290 - LandLow
-
-# --- Damage Level ---
-005300 - DamageExLargeLeft
-005301 - DamageExLargeRight
-005302 - DamageExLargeFront
-005303 - DamageExLargeBack 
-005700 - DamageWeakLeft
-005701 - DamageWeakRight
-005702 - DamageWeakFront
-005703 - DamageWeakBack
-005900 - DamageFling
-005600 - DamagePushLeft
-005601 - DamagePushRight
-005602 - DamagePushFront 
-005603 - DamagePushBack
-005500 - DamageSmallBlowLeft
-005501 - DamageSmallBlowRight
-005502 - DamageSmallBlowFront
-005503 - DamageSmallBlowBack
-005910 - DamageUpper
-005800 - DamageBreathLeft
-005801 - DamageBreathRight
-005802 - DamageBreathFront
-005803 - DamageBreathBack
-005300 - DamageExBlastLeft
-005301 - DamageExBlastRight
-005302 - DamageExBlastFront
-005303 - DamageExBlastBack
-
-# --- Parry Damage ---
-006000 - DamageParryRight
-006010 - DamageParryLeft
-
-# --- Death ---
-017002 - DeathCommonFront1
-017003 - DeathCommonBack1
-017012 - DeathCommonFront2
-017013 - DeathCommonBack2
-017022 - DeathCommonFront3
-017023 - DeathCommonBack3
-017032 - DeathCommonFront4
-017033 - DeathCommonBack4
-017050 - DeathSmallBlastLeft
-017051 - DeathSmallBlastRight
-017052 - DeathSmallBlastFront
-017053 - DeathSmallBlastBack
-
-017060 - DeathFling
-017070 - DeathUpper
-017090 - DeathLand
-017102 - DeathLandFaceUp
-017103 - DeathLandFaceDown
-017110 - DeathLandLow
-017130 - DeathWeak
-017140 - DeathPoison
-017160 - DeathStone
-017180 - DeathTaint
-       - DeathTaintIdle
-        
-018002 - DeathCommonFront1Idle 
-       - DeathSmallBlastLeftIdle 
-       - DeathSmallBlastRightIdle 
-       - DeathSmallBlastFrontIdle
-       - DeathSmallBlastBackIdle
-018003 - DeathCommonBack1Idle
-018012 - DeathCommonFront2Idle
-018013 - DeathCommonBack2Idle
-018022 - DeathCommonFront3Idle
-018023 - DeathCommonBack3Idle
-018032 - DeathCommonFront4Idle
-018033 - DeathCommonBack4Idle
-018060 - DeathFlingIdle
-018070 - DeathUpperIdle
-018090 - DeathLandIdle
-018102 - DeathLandFaceUpIdle
-018103 - DeathLandFaceDownIdle
-018110 - DeathLandLowIdle
-018130 - DeathWeakIdle
-018140 - DeathPoisonIdle
-018160 - DeathStoneIdle
-
-# --- Guard Hold ---
-019030 - GuardStartTorchIdle
-       - GuardStartTorchIdle_Upper
-019130 - GuardEndTorchIdle
-       - GuardEndTocheIdle_Upper
-       
-# --- Guard Damage ---
-019200 - GuardDamageSmallM
-019206 - GuardDamageSmall_GenTrans
-019210 - GuardDamageMiddleM
-019216 - GuardDamageMiddle_GenTrans
-019220 - GuardDamageLargeM 
-       - GuardDamageExLarge
-019226 - GuardDamageLarge_GenTrans
-019250 - GuardDamageSmallTorch
-019260 - GuardDamageMediumTorch
-019270 - GuardDamageLargeTorch
-019300 - GuardDamageSmallL
-019310 - GuardDamageMiddleL 
-019320 - GuardDamageLargeL 
-019400 - GuardDamageSmallS
-019410 - GuardDamageMiddleS
-019420 - GuardDamageLargeS
-
-# --- Guard Break ---
-019500 - GuardBreakM
-019506 - GuardBreak_GenTrans
-019510 - GuardBreakL
-019520 - GuardBreakS
-019530 - GuardBreakMTorch
-
-# --- Movement ---
-020000 - WalkFrontLight
-       - WalkFrontLight_Upper
-       - WalkFrontLight_anime
-020001 - WalkBackLight
-       - WalkBackLight_Upper
-       - WalkBackLight_anime
-020002 - WalkLeftLight
-       - WalkLeftLight_Upper
-       - WalkLeftLight_anime
-020003 - WalkRightLight
-       - WalkRightLight_Upper
-       - WalkRightLight_anime
-
-020010 - WalkFrontHeavy
-       - WalkFrontHeavy_Upper
-       - WalkFrontHeavy_anime
-020011 - WalkBackHeavy
-       - WalkBackHeavy_Upper
-       - WalkBackHeavy_anime
-020012 - WalkLeftHeavy
-       - WalkLeftHeavy_Upper
-       - WalkLeftHeavy_anime
-020013 - WalkRightHeavy
-       - WalkRightHeavy_Upper
-       - WalkRightHeavy_anime
-
-020020 - WalkFrontOver
-       - WalkFrontOver_Upper
-       - WalkFrontOver_anime
-020021 - WalkBackOver
-       - WalkBackOver_Upper
-       - WalkBackOver_anime
-020022 - WalkLeftOver
-       - WalkLeftOver_Upper
-       - WalkLeftOver_anime
-020023 - WalkRightOver
-       - WalkRightOver_Upper
-       - WalkRightOver_anime
-
-020050 - RightStanceMove_Front
-       - RightStanceMove_Front00
-       - RightStanceMove_anime_Front00
-020051 - RightStanceMove_Back
-       - RightStanceMove_Back00
-       - RightStanceMove_anime_Back00
-020052 - RightStanceMove_Left
-       - RightStanceMove_Left00
-       - RightStanceMove_anime_Left00
-020053 - RightStanceMove_Right
-       - RightStanceMove_Right00
-       - RightStanceMove_anime_Right00
-
-020060 - MoveArrow_anime_Front
-       - MoveArrow_anime_Front00
-020061 - MoveArrow_anime_Back 
-       - MoveArrow_anime_Back00
-020062 - MoveArrow_anime_Left
-       - MoveArrow_anime_Left00
-020063 - MoveArrow_anime_Right
-       - MoveArrow_anime_Right00
-
-020070 - Right45StanceMove_Front00
-       - Right45StanceMove_anime_Front00
-020071 - Right45StanceMove_Back00
-       - Right45StanceMove_anime_Back00
-020072 - Right45StanceMove_Left00                 
-       - Right45StanceMove_anime_Left00
-020073 - Right45StanceMove_Right00
-       - Right45StanceMove_anime_Right00
-
-020100 - RunFrontLight
-       - RunFrontLight_Upper
-       - RunFrontLight_anime
-020101 - RunBackLight
-       - RunBackLight_Upper
-       - RunBackLight_anime
-020102 - RunLeftLight
-       - RunLeftLight_Upper
-       - RunLeftLight_anime
-020103 - RunRightLight
-       - RunRightLight_Upper
-       - RunRightLight_anime
-
-020110 - RunFrontHeavy
-       - RunFrontHeavy_Upper
-       - RunFrontHeavy_anime
-020111 - RunBackHeavy
-       - RunBackHeavy_Upper
-       - RunBackHeavy_anime
-020112 - RunLeftHeavy   
-       - RunLeftHeavy_Upper
-       - RunLeftHeavy_anime
-020113 - RunRightHeavy
-       - RunRightHeavy_Upper
-       - RunRightHeavy_anime
-
-020120 - RunFrontOver
-       - RunFrontOver_Upper
-       - RunFrontOver_anime
-020121 - RunBackOver
-       - RunBackOver_Upper
-       - RunBackOver_anime
-020122 - RunLeftOver
-       - RunLeftOver_Upper
-       - RunLeftOver_anime
-020123 - RunRightOver
-       - RunRightOver_Upper
-       - RunRightOver_anime
-
-020200 - DashFrontLight
-       - DashFrontLight_Upper
-       - DashFrontLight_anime
-
-020210 - DashFrontHeavy
-       - DashFrontHeavy_Upper
-       - DashFrontHeavy_anime
-
-020220 - DashFrontOver
-       - DashFrontOver_Upper
-       - DashFrontOver_anime
-
-022000 - WalkStopFront
-       - WalkStopFront_Upper
-022001 - WalkStopBack
-       - WalkStopBack_Upper
-022002 - WalkStopLeft
-       - WalkStopLeft_Upper
-022003 - WalkStopRight
-       - WalkStopRight_Upper
-
-022100 - RunStopFront
-       - RunStopFront_Upper
-022101 - RunStopBack
-       - RunStopBack_Upper
-022102 - RunStopLeft
-       - RunStopLeft_Upper
-022103 - RunStopRight
-       - RunStopRight_Upper
-
-022200 - DashStop
-       - DashStop_Upper
-
-023000 - GuardOnWalk
-023010 - GuardOnHeavyWalk
-023020 - GuardOnSmallWalk
-023030 - GuardOnTorchWalk
-
-023100 - GuardOnRun
-023110 - GuardOnHeavyRun
-023120 - GuardOnSmallRun
-023130 - GuardOnTorchRun
-
-023200 - GuardOnDash
-023210 - GuardOnHeavyDash
-023220 - GuardOnSmallDash
-023230 - GuardOnTorchDash
-
-024000 - MoveCultWalk
-       - MoveCultWalk_Upper
-024100 - MoveCultRun
-       - MoveCultRun_Upper
-       
-# --- Other ---
-040021 - Throw40021
-040633 - Throw40633
-042021 - Throw42021
-042633 - Throw42633
-
-# --- Item Use ---
-050050 - NoArrow
-
-# --- Object Interaction ----
-060010 - Event60010
-060020 - Event60020
-060030 - Event60030
-060040 - Event60040
-060070 - Event60070
-060080 - Event60080
-060090 - Event60090
-060100 - Event60100
-060160 - Event60160
-060170 - Event60170
-060180 - Event60180
-060190 - Event60190
-060200 - Event60200
-060202 - Event60202
-060220 - Event60220
-060230 - Event60230
-060231 - Event60231
-060240 - Event60240
-060241 - Event60241
-060250 - Event60250
-060270 - Event60270
-060750 - Event60750
-060760 - Event60760
-060780 - Event60780
-060790 - Event60790
-060800 - Event60800
-
-063010 - Event63010
-063020 - Event63020
-
-065012 - Event65012
-065013 - Event65013
-065030 - Event65030
-065040 - Event65040
-
-069030 - Event69030
-
-# --- Throw ---
-070000 - Throw70000
-070001 - ThrowDeath70000
-070002 - ThrowDeathIdle70000
-070010 - Throw70010
-070011 - ThrowDeath70010
-070012 - ThrowDeathIdle70010
-070020 - Throw70020
-070021 - ThrowDeath70020
-070022 - ThrowDeathIdle70020
-070030 - Throw70030
-070031 - ThrowDeath70030
-070032 - ThrowDeathIdle70030
-070100 - Throw70100
-070101 - ThrowDeath70100
-070102 - ThrowDeathIdle70100
-070300 - Throw70300
-070301 - ThrowDeath70300
-070302 - ThrowDeathIdle70300
-070310 - Throw70310
-070311 - ThrowDeath70310
-070311 - ThrowDeathIdle70310
-070500 - Throw70500
-070501 - ThrowDeath70500
-070502 - ThrowDeathIdle70500
-070510 - Throw70510
-070511 - ThrowDeath70510
-070512 - ThrowDeathIdle70510
-070520 - Throw70520
-070521 - ThrowDeath70520
-070522 - ThrowDeathIdle70520
-070530 - Throw70530
-070531 - ThrowDeath70530
-070532 - ThrowDeathIdle70530
-070540 - Throw70540
-070541 - ThrowDeath70540
-070542 - ThrowDeathIdle70540
-070550 - Throw70550
-070551 - ThrowDeath70550
-070552 - ThrowDeathIdle70550
-070560 - Throw70560
-070561 - ThrowDeath70560
-070562 - ThrowDeathIdle70560
-070570 - Throw70570
-070571 - ThrowDeath70570
-070572 - ThrowDeathIdle70570
-070580 - Throw70580
-070581 - ThrowDeath70580
-070582 - ThrowDeathIdle70580
-070590 - Throw70590
-070591 - ThrowDeath70590
-070592 - ThrowDeathIdle70590
-070600 - Throw70600
-070601 - ThrowDeath70600
-070602 - ThrowDeathIdle70600
-070610 - Throw70610
-070611 - ThrowDeath70610
-070612 - ThrowDeathIdle70610
-070620 - Throw70620
-070621 - ThrowDeath70620
-070622 - ThrowDeathIdle70620
-070630 - Throw70630
-070631 - ThrowDeath70630
-070632 - ThrowDeathIdle70630
-070640 - Throw70640
-070641 - ThrowDeath70640
-070642 - ThrowDeathIdle70640
-070650 - Throw70650
-070651 - ThrowDeath70650
-070652 - ThrowDeathIdle70650
-070660 - Throw70660
-070661 - ThrowDeath70660
-070662 - ThrowDeathIdle70660
-070670 - Throw70670
-070671 - ThrowDeath70670
-070672 - ThrowDeathIdle70670
-070680 - Throw70680
-070681 - ThrowDeath70680
-070682 - ThrowDeathIdle70680
-070690 - Throw70690
-070691 - ThrowDeath70690
-070692 - ThrowDeathIdle70690
-070700 - Throw70700
-070701 - ThrowDeath70700
-070702 - ThrowDeathIdle70700
-070710 - Throw70710
-070711 - ThrowDeath70710
-070712 - ThrowDeathIdle70710
-070720 - Throw70720
-070721 - ThrowDeath70720
-070722 - ThrowDeathIdle70720
-070730 - Throw70730
-070731 - ThrowDeath70730
-070732 - ThrowDeathIdle70730
-070740 - Throw70740
-070741 - ThrowDeath70740
-070742 - ThrowDeathIdle70740
-070750 - Throw70750
-070751 - ThrowDeath70750
-070752 - ThrowDeathIdle70750
-070760 - Throw70760
-070761 - ThrowDeath70760
-070762 - ThrowDeathIdle70760
-070770 - Throw70770
-070771 - ThrowDeath70770
-070772 - ThrowDeathIdle70770
-070780 - Throw70780
-070781 - ThrowDeath70780
-070782 - ThrowDeathIdle70780
-070790 - Throw70790
-070791 - ThrowDeath70790
-070792 - ThrowDeathIdle70790
-070800 - Throw70800
-070801 - ThrowDeath70800
-070802 - ThrowDeathIdle70800
-070810 - Throw70810
-070811 - ThrowDeath70810
-070812 - ThrowDeathIdle70810
-070820 - Throw70820
-070821 - ThrowDeath70820
-070822 - ThrowDeathIdle70820
-070830 - Throw70830
-070831 - ThrowDeath70830
-070832 - ThrowDeathIdle70830
-070840 - Throw70840
-070841 - ThrowDeath70840
-070842 - ThrowDeathIdle70840
-070850 - Throw70850
-070851 - ThrowDeath70850
-070852 - ThrowDeathIdle70850
-070860 - Throw70860
-070861 - ThrowDeath70860
-070862 - ThrowDeathIdle70860
-070870 - Throw70870
-070871 - ThrowDeath70870
-070872 - ThrowDeathIdle70870
-070880 - Throw70880
-070881 - ThrowDeath70880
-070882 - ThrowDeathIdle70880
-070890 - Throw70890
-070891 - ThrowDeath70890
-070892 - ThrowDeathIdle70890
-070900 - Throw70900
-070901 - ThrowDeath70900
-070902 - ThrowDeathIdle70900
-070910 - Throw70910
-070911 - ThrowDeath70910
-070912 - ThrowDeathIdle70910
-070920 - Throw70920
-070921 - ThrowDeath70920
-070922 - ThrowDeathIdle70920
-070930 - Throw70930
-070931 - ThrowDeath70930
-070932 - ThrowDeathIdle70930
-070940 - Throw70940
-070941 - ThrowDeath70940
-070942 - ThrowDeathIdle70940
-070950 - Throw70950
-070951 - ThrowDeath70950
-070952 - ThrowDeathIdle70950
-070960 - Throw70960
-070961 - ThrowDeath70960
-070962 - ThrowDeathIdle70960
-070970 - Throw70970
-070971 - ThrowDeath70970
-070972 - ThrowDeathIdle70970
-070980 - Throw70980
-070981 - ThrowDeath70980
-070982 - ThrowDeathIdle70980
-070990 - Throw70990
-070991 - ThrowDeath70990
-070992 - ThrowDeathIdle70990
-071000 - Throw71000
-071001 - ThrowDeath71000
-071002 - ThrowDeathIdle71000
-071010 - Throw71010
-071011 - ThrowDeath71010
-071012 - ThrowDeathIdle71010
-071020 - Throw71020
-071021 - ThrowDeath71020
-071022 - ThrowDeathIdle71020
-071030 - Throw71030
-071031 - ThrowDeath71030
-071032 - ThrowDeathIdle71030
-071040 - Throw71040
-071041 - ThrowDeath71040
-071042 - ThrowDeathIdle71040
-071050 - Throw71050
-071051 - ThrowDeath71050
-071052 - ThrowDeathIdle71050
-071060 - Throw71060
-071061 - ThrowDeath71060
-071062 - ThrowDeathIdle71060
-071070 - Throw71070
-071071 - ThrowDeath71070
-071072 - ThrowDeathIdle71070
-071080 - Throw71080
-071081 - ThrowDeath71080
-071082 - ThrowDeathIdle71080
-071090 - Throw71090
-071091 - ThrowDeath71090
-071092 - ThrowDeathIdle71090
-071100 - Throw71100
-071101 - ThrowDeath71100
-071102 - ThrowDeathIdle71100
-071110 - Throw71110
-071111 - ThrowDeath71110
-071112 - ThrowDeathIdle71110
-071120 - Throw71120
-071121 - ThrowDeath71120
-071122 - ThrowDeathIdle71120
-071130 - Throw71130
-071131 - ThrowDeath71130
-071132 - ThrowDeathIdle71130
-071140 - Throw71140
-071141 - ThrowDeath71140
-071142 - ThrowDeathIdle71140
-071150 - Throw71150
-071151 - ThrowDeath71150
-071152 - ThrowDeathIdle71150
-071160 - Throw71160
-071161 - ThrowDeath71160
-071162 - ThrowDeathIdle71160
-
-# --- Throw Esape ---
-070303 - ThrowEscape70300
-070304 - ThrowDefHold70300
-070563 - ThrowEscape70560
-070564 - ThrowDefHold70560
-070603 - ThrowEscape70600
-070604 - ThrowDefHold70600
-070613 - ThrowEscape70610
-070614 - ThrowDefHold70610
-070643 - ThrowEscape70640
-070644 - ThrowDefHold70640
-070723 - ThrowEscape70720
-070724 - ThrowDefHold70720
-070763 - ThrowEscape70760
-070764 - ThrowDefHold70760
-070773 - ThrowEscape70770
-070774 - ThrowDefHold70770
-070853 - ThrowEscape70850
-070854 - ThrowDefHold70850
-070863 - ThrowEscape70860
-070864 - ThrowDefHold70860
-070913 - ThrowEscape70910
-070914 - ThrowDefHold70910
-070923 - ThrowEscape70920
-070924 - ThrowDefHold70920
-070943 - ThrowEscape70940
-070944 - ThrowDefHold70940
-070953 - ThrowEscape70950
-070954 - ThrowDefHold70950
-070983 - ThrowEscape70980
-070984 - ThrowDefHold70980
-071053 - ThrowEscape71050
-071054 - ThrowDefHold71050
-071103 - ThrowEscape71100
-071104 - ThrowDefHold71100
-
-# --- Damage State ---
-075000 - SpecialDamageUpper
-075001 - SpecialDamageUpperLoop
-075002 - SpecialDamageUpperLand 
-075003 - DeathSpecialDamageUpper
-075004 - DeathSpecialDamageUpperIdle
-
-# --- Gestures ---
-080000 - Event80000
-
-# --- NPC Poses ---
-091150 - Event91150
-091160 - Event91160
-091170 - Event91170
-091180 - Event91180
-091190 - Event91190
-091200 - Event91200
-091210 - Event91210
-
-# --- Female ---
-099050 - FemaleAddBlend
-
-# --- Other ---
-099998 - Event99998
-099999 - Event99999
+AnimIdOffset - aXXX_000000: Init_CMSG
+IdleCategory - aXXX_000000: Idle_CMSG
+IdleCategory - aXXX_000000: AnimeTest_CMSG
+IdleCategory - aXXX_000000: IdleMenuStart_CMSG
+IdleCategory - aXXX_000000: IdleMenuLoop_CMSG
+IdleCategory - aXXX_000000: IdleMenuEnd_CMSG
+IdleCategory - aXXX_000100: GuardOnIdle_CMSG
+IdleCategory - aXXX_000100: GuardOnIdle_Upper_CMSG
+IdleCategory - aXXX_010000: AddDamageGuardStartLeft_CMSG
+IdleCategory - aXXX_010000: AddDamageStartLeft_CMSG
+IdleCategory - aXXX_010000: DirDamageSmallLeft_Add_CMSG
+IdleCategory - aXXX_010001: AddDamageGuardStartRight_CMSG
+IdleCategory - aXXX_010001: AddDamageStartRight_CMSG
+IdleCategory - aXXX_010001: DirDamageSmallRight_Add_CMSG
+IdleCategory - aXXX_010002: AddDamageGuardStartFront_CMSG
+IdleCategory - aXXX_010002: AddDamageStartFront_CMSG
+IdleCategory - aXXX_010002: DirDamageSmallFront_Add_CMSG
+IdleCategory - aXXX_010003: AddDamageGuardStartBack_CMSG
+IdleCategory - aXXX_010003: AddDamageStartBack_CMSG
+IdleCategory - aXXX_010003: DirDamageSmallBack_Add_CMSG
+IdleCategory - aXXX_010004: DirDamageSmallUp_Add_CMSG
+IdleCategory - aXXX_010005: DirDamageSmallDown_Add_CMSG
+IdleCategory - aXXX_010100: DirDamageMediumLeft_Add_CMSG
+IdleCategory - aXXX_010101: DirDamageMediumRight_Add_CMSG
+IdleCategory - aXXX_010102: DirDamageMediumFront_Add_CMSG
+IdleCategory - aXXX_010103: DirDamageMediumBack_Add_CMSG
+IdleCategory - aXXX_010104: DirDamageMediumUp_Add_CMSG
+IdleCategory - aXXX_010105: DirDamageMediumDown_Add_CMSG
+IdleCategory - aXXX_000110: GuardOnHeavyIdle_CMSG
+IdleCategory - aXXX_000110: GuardOnHeavyIdle_Upper_CMSG
+IdleCategory - aXXX_000120: GuardOnSmall_CMSG
+IdleCategory - aXXX_000120: GuardOnSmall_Upper_CMSG
+IdleCategory - aXXX_012000: AddDamageDefaultGuard_CMSG
+IdleCategory - aXXX_012000: AddDamageDefault_CMSG
+IdleCategory - aXXX_012000: DamageDirNoAdd_CMSG
+IdleCategory - aXXX_013000: ChainRecover_CMSG
+IdleCategory - aXXX_013000: ChainRecover_Upper_CMSG
+IdleCategory - aXXX_017002: DeathCommonFront1_CMSG
+IdleCategory - aXXX_017003: DeathCommonBack1_CMSG
+IdleCategory - aXXX_017012: DeathCommonFront2_CMSG
+IdleCategory - aXXX_017013: DeathCommonBack2_CMSG
+IdleCategory - aXXX_017022: DeathCommonFront3_CMSG
+IdleCategory - aXXX_017023: DeathCommonBack3_CMSG
+IdleCategory - aXXX_017032: DeathCommonFront4_CMSG
+IdleCategory - aXXX_017033: DeathCommonBack4_CMSG
+IdleCategory - aXXX_017050: DeathSmallBlastLeft_CMSG
+IdleCategory - aXXX_017051: DeathSmallBlastRight_CMSG
+IdleCategory - aXXX_017052: DeathSmallBlastFront_CMSG
+IdleCategory - aXXX_017053: DeathSmallBlastBack_CMSG
+IdleCategory - aXXX_017060: DeathFling_CMSG
+IdleCategory - aXXX_017070: DeathUpper_CMSG
+IdleCategory - aXXX_017080: LadderDeathStart_CMSG
+IdleCategory - aXXX_017081: LadderDeathLoop_CMSG
+IdleCategory - aXXX_017082: LadderDeathLand_CMSG
+IdleCategory - aXXX_017090: DeathLand_CMSG
+IdleCategory - aXXX_017102: DeathLandFaceUp_CMSG
+IdleCategory - aXXX_017103: DeathLandFaceDown_CMSG
+IdleCategory - aXXX_017110: DeathLandLow_CMSG
+IdleCategory - aXXX_017130: DeathWeak_CMSG
+IdleCategory - aXXX_017140: DeathPoison_CMSG
+IdleCategory - aXXX_017160: DeathStone_CMSG
+IdleCategory - aXXX_017180: DeathTaint_CMSG
+IdleCategory - aXXX_017180: DeathTaintIdle_CMSG
+IdleCategory - aXXX_018002: DeathCommonFront1Idle_CMSG
+IdleCategory - aXXX_018002: DeathSmallBlastLeftIdle_CMSG
+IdleCategory - aXXX_018002: DeathSmallBlastRightIdle_CMSG
+IdleCategory - aXXX_018002: DeathSmallBlastFrontIdle_CMSG
+IdleCategory - aXXX_018002: DeathSmallBlastBackIdle_CMSG
+IdleCategory - aXXX_018003: DeathCommonBack1Idle_CMSG
+IdleCategory - aXXX_018012: DeathCommonFront2Idle_CMSG
+IdleCategory - aXXX_018013: DeathCommonBack2Idle_CMSG
+IdleCategory - aXXX_018022: DeathCommonFront3Idle_CMSG
+IdleCategory - aXXX_018023: DeathCommonBack3Idle_CMSG
+IdleCategory - aXXX_018032: DeathCommonFront4Idle_CMSG
+IdleCategory - aXXX_018033: DeathCommonBack4Idle_CMSG
+IdleCategory - aXXX_018060: DeathFlingIdle_CMSG
+IdleCategory - aXXX_018070: DeathUpperIdle_CMSG
+IdleCategory - aXXX_018080: LadderDeathIdle_CMSG
+IdleCategory - aXXX_018090: DeathLandIdle_CMSG
+IdleCategory - aXXX_018102: DeathLandFaceUpIdle_CMSG
+IdleCategory - aXXX_018103: DeathLandFaceDownIdle_CMSG
+IdleCategory - aXXX_018110: DeathLandLowIdle_CMSG
+IdleCategory - aXXX_018130: DeathWeakIdle_CMSG
+IdleCategory - aXXX_018140: DeathPoisonIdle_CMSG
+IdleCategory - aXXX_018160: DeathStoneIdle_CMSG
+IdleCategory - aXXX_019000: GuardStartIdle_CMSG
+IdleCategory - aXXX_019000: GuardStartIdle_Upper_CMSG
+IdleCategory - aXXX_019001: GuardStartMove_CMSG
+IdleCategory - aXXX_019002: GuardEndMove_CMSG
+IdleCategory - aXXX_019010: GuardStartHeavyIdle_CMSG
+IdleCategory - aXXX_019010: GuardStartHeavyIdle_Upper_CMSG
+IdleCategory - aXXX_019011: GuardStartMoveHeavy_CMSG
+IdleCategory - aXXX_019012: GuardEndHeavyMove_CMSG
+IdleCategory - aXXX_019020: GuardStartSmall_CMSG
+IdleCategory - aXXX_019020: GuardStartSmallIdle_Upper_CMSG
+IdleCategory - aXXX_019021: GuardStartMoveSmall_CMSG
+IdleCategory - aXXX_019022: GuardEndSmallMove_CMSG
+IdleCategory - aXXX_019030: GuardStartTorchIdle_CMSG
+IdleCategory - aXXX_019030: GuardStartTorchIdle_Upper_CMSG
+IdleCategory - aXXX_019031: GuardStartMoveTorch_CMSG
+IdleCategory - aXXX_019032: GuardEndTorchMove_CMSG
+IdleCategory - aXXX_019050: CultGuardStart_CMSG
+IdleCategory - aXXX_019100: GuardEndIdle_CMSG
+IdleCategory - aXXX_019100: GuardEndIdle_Upper_CMSG
+IdleCategory - aXXX_019110: GuardEndHeavyIdle_CMSG
+IdleCategory - aXXX_019110: GuardEndHeavyIdle_Upper_CMSG
+IdleCategory - aXXX_019120: GuardEndSmall_CMSG
+IdleCategory - aXXX_019120: GuardEndSmallIdle_Upper_CMSG
+IdleCategory - aXXX_019130: GuardEndTorchIdle_CMSG
+IdleCategory - aXXX_019130: GuardEndTocheIdle_Upper_CMSG
+IdleCategory - aXXX_019150: CultGuardEnd_CMSG
+IdleCategory - aXXX_019200: GuardDamageSmallM_CMSG
+IdleCategory - aXXX_019206: GuardDamageSmall_GenTrans_CMSG
+IdleCategory - aXXX_019210: GuardDamageMiddleM_CMSG
+IdleCategory - aXXX_019216: GuardDamageMiddle_GenTrans_CMSG
+IdleCategory - aXXX_019220: GuardDamageLargeM_CMSG
+IdleCategory - aXXX_019220: GuardDamageExLarge_CMSG
+IdleCategory - aXXX_019226: GuardDamageLarge_GenTrans_CMSG
+IdleCategory - aXXX_019250: GuardDamageSmallTorch_CMSG
+IdleCategory - aXXX_019260: GuardDamageMediumTorch_CMSG
+IdleCategory - aXXX_019270: GuardDamageLargeTorch_CMSG
+IdleCategory - aXXX_019300: GuardDamageSmallL_CMSG
+IdleCategory - aXXX_019310: GuardDamageMiddleL_CMSG
+IdleCategory - aXXX_019320: GuardDamageLargeL_CMSG
+IdleCategory - aXXX_019400: GuardDamageSmallS_CMSG
+IdleCategory - aXXX_019410: GuardDamageMiddleS_CMSG
+IdleCategory - aXXX_019420: GuardDamageLargeS_CMSG
+IdleCategory - aXXX_019500: GuardBreakM_CMSG
+IdleCategory - aXXX_019506: GuardBreak_GenTrans_CMSG
+IdleCategory - aXXX_019510: GuardBreakL_CMSG
+IdleCategory - aXXX_019520: GuardBreakS_CMSG
+IdleCategory - aXXX_019530: GuardBreakMTorch_CMSG
+IdleCategory - aXXX_000020: CultIdle_CMSG
+IdleCategory - aXXX_000200: CultGuardOn_CMSG
+IdleCategory - aXXX_020000: WalkFrontLight_CMSG
+IdleCategory - aXXX_020000: WalkFrontLight_anime_CMSG
+IdleCategory - aXXX_020000: WalkFrontLight_Upper_CMSG
+IdleCategory - aXXX_020001: WalkBackLight_CMSG
+IdleCategory - aXXX_020001: WalkBackLight_anime_CMSG
+IdleCategory - aXXX_020001: WalkBackLight_Upper_CMSG
+IdleCategory - aXXX_020002: WalkLeftLight_CMSG
+IdleCategory - aXXX_020002: WalkLeftLight_anime_CMSG
+IdleCategory - aXXX_020002: WalkLeftLight_Upper_CMSG
+IdleCategory - aXXX_020003: WalkRightLight_CMSG
+IdleCategory - aXXX_020003: WalkRightLight_anime_CMSG
+IdleCategory - aXXX_020003: WalkRightLight_Upper_CMSG
+IdleCategory - aXXX_020010: WalkFrontHeavy_CMSG
+IdleCategory - aXXX_020010: WalkFrontHeavy_anime_CMSG
+IdleCategory - aXXX_020010: WalkFrontHeavy_Upper_CMSG
+IdleCategory - aXXX_020011: WalkBackHeavy_CMSG
+IdleCategory - aXXX_020011: WalkBackHeavy_anime_CMSG
+IdleCategory - aXXX_020011: WalkBackHeavy_Upper_CMSG
+IdleCategory - aXXX_020012: WalkLeftHeavy_CMSG
+IdleCategory - aXXX_020012: WalkLeftHeavy_anime_CMSG
+IdleCategory - aXXX_020012: WalkLeftHeavy_Upper_CMSG
+IdleCategory - aXXX_020013: WalkRightHeavy_CMSG
+IdleCategory - aXXX_020013: WalkRightHeavy_anime_CMSG
+IdleCategory - aXXX_020013: WalkRightHeavy_Upper_CMSG
+IdleCategory - aXXX_020020: WalkFrontOver_CMSG
+IdleCategory - aXXX_020020: WalkFrontOver_anime_CMSG
+IdleCategory - aXXX_020020: WalkFrontOver_Upper_CMSG
+IdleCategory - aXXX_020021: WalkBackOver_CMSG
+IdleCategory - aXXX_020021: WalkBackOver_anime_CMSG
+IdleCategory - aXXX_020021: WalkBackOver_Upper_CMSG
+IdleCategory - aXXX_020022: WalkLeftOver_CMSG
+IdleCategory - aXXX_020022: WalkLeftOver_anime_CMSG
+IdleCategory - aXXX_020022: WalkLeftOver_Upper_CMSG
+IdleCategory - aXXX_020023: WalkRightOver_CMSG
+IdleCategory - aXXX_020023: WalkRightOver_anime_CMSG
+IdleCategory - aXXX_020023: WalkRightOver_Upper_CMSG
+IdleCategory - aXXX_020050: RightStanceMove_Front
+IdleCategory - aXXX_020050: RightStanceMove_anime_Front
+IdleCategory - aXXX_020050: RightStanceMove_Front00
+IdleCategory - aXXX_020050: RightStanceMove_anime_Front00
+IdleCategory - aXXX_020051: RightStanceMove_Back
+IdleCategory - aXXX_020051: RightStanceMove_anime_Back
+IdleCategory - aXXX_020051: RightStanceMove_Back00
+IdleCategory - aXXX_020051: RightStanceMove_anime_Back00
+IdleCategory - aXXX_020052: RightStanceMove_Left
+IdleCategory - aXXX_020052: RightStanceMove_anime_Left
+IdleCategory - aXXX_020052: RightStanceMove_Left00
+IdleCategory - aXXX_020052: RightStanceMove_anime_Left00
+IdleCategory - aXXX_020053: RightStanceMove_Right
+IdleCategory - aXXX_020053: RightStanceMove_anime_Right
+IdleCategory - aXXX_020053: RightStanceMove_Right00
+IdleCategory - aXXX_020053: RightStanceMove_anime_Right00
+IdleCategory - aXXX_020060: LeftStanceMove_Front
+IdleCategory - aXXX_020060: MoveArrow_anime_Front
+IdleCategory - aXXX_020060: LeftStanceMove_Front00
+IdleCategory - aXXX_020060: MoveArrow_anime_Front00
+IdleCategory - aXXX_020061: LeftStanceMove_Back
+IdleCategory - aXXX_020061: MoveArrow_anime_Back
+IdleCategory - aXXX_020061: LeftStanceMove_Back00
+IdleCategory - aXXX_020061: MoveArrow_anime_Back00
+IdleCategory - aXXX_020062: LeftStanceMove_Left
+IdleCategory - aXXX_020062: MoveArrow_anime_Left
+IdleCategory - aXXX_020062: LeftStanceMove_Left00
+IdleCategory - aXXX_020062: MoveArrow_anime_Left00
+IdleCategory - aXXX_020063: LeftStanceMove_Right
+IdleCategory - aXXX_020063: MoveArrow_anime_Right
+IdleCategory - aXXX_020063: LeftStanceMove_Right00
+IdleCategory - aXXX_020063: MoveArrow_anime_Right00
+IdleCategory - aXXX_020070: Right45StanceMove_Front
+IdleCategory - aXXX_020070: Right45StanceMove_anime_Front
+IdleCategory - aXXX_020070: Right45StanceMove_Front00
+IdleCategory - aXXX_020070: Right45StanceMove_anime_Front00
+IdleCategory - aXXX_020071: Right45StanceMove_Back
+IdleCategory - aXXX_020071: Right45StanceMove_anime_Back
+IdleCategory - aXXX_020071: Right45StanceMove_Back00
+IdleCategory - aXXX_020071: Right45StanceMove_anime_Back00
+IdleCategory - aXXX_020072: Right45StanceMove_Left
+IdleCategory - aXXX_020072: Right45StanceMove_anime_Left
+IdleCategory - aXXX_020072: Right45StanceMove_Left00
+IdleCategory - aXXX_020072: Right45StanceMove_anime_Left00
+IdleCategory - aXXX_020073: Right45StanceMove_Right
+IdleCategory - aXXX_020073: Right45StanceMove_anime_Right
+IdleCategory - aXXX_020073: Right45StanceMove_Right00
+IdleCategory - aXXX_020073: Right45StanceMove_anime_Right00
+IdleCategory - aXXX_020100: RunFrontLight_CMSG
+IdleCategory - aXXX_020100: RunFrontLight_anime_CMSG
+IdleCategory - aXXX_020100: RunFrontLight_Upper_CMSG
+IdleCategory - aXXX_020101: RunBackLight_CMSG
+IdleCategory - aXXX_020101: RunBackLight_anime_CMSG
+IdleCategory - aXXX_020101: RunBackLight_Upper_CMSG
+IdleCategory - aXXX_020102: RunLeftLight_CMSG
+IdleCategory - aXXX_020102: RunLeftLight_anime_CMSG
+IdleCategory - aXXX_020102: RunLeftLight_Upper_CMSG
+IdleCategory - aXXX_020103: RunRightLight_CMSG
+IdleCategory - aXXX_020103: RunRightLight_anime_CMSG
+IdleCategory - aXXX_020103: RunRightLight_Upper_CMSG
+IdleCategory - aXXX_020110: RunFrontHeavy_CMSG
+IdleCategory - aXXX_020110: RunFrontHeavy_anime_CMSG
+IdleCategory - aXXX_020110: RunFrontHeavy_Upper_CMSG
+IdleCategory - aXXX_020111: RunBackHeavy_CMSG
+IdleCategory - aXXX_020111: RunBackHeavy_anime_CMSG
+IdleCategory - aXXX_020111: RunBackHeavy_Upper_CMSG
+IdleCategory - aXXX_020112: RunLeftHeavy_CMSG
+IdleCategory - aXXX_020112: RunLeftHeavy_anime_CMSG
+IdleCategory - aXXX_020112: RunLeftHeavy_Upper_CMSG
+IdleCategory - aXXX_020113: RunRightHeavy_CMSG
+IdleCategory - aXXX_020113: RunRightHeavy_anime_CMSG
+IdleCategory - aXXX_020113: RunRightHeavy_Upper_CMSG
+IdleCategory - aXXX_020120: RunFrontOver_CMSG
+IdleCategory - aXXX_020120: RunFrontOver_anime_CMSG
+IdleCategory - aXXX_020120: RunFrontOver_Upper_CMSG
+IdleCategory - aXXX_020121: RunBackOver_CMSG
+IdleCategory - aXXX_020121: RunBackOver_anime_CMSG
+IdleCategory - aXXX_020121: RunBackOver_Upper_CMSG
+IdleCategory - aXXX_020122: RunLeftOver_CMSG
+IdleCategory - aXXX_020122: RunLeftOver_anime_CMSG
+IdleCategory - aXXX_020122: RunLeftOver_Upper_CMSG
+IdleCategory - aXXX_020123: RunRightOver_CMSG
+IdleCategory - aXXX_020123: RunRightOver_anime_CMSG
+IdleCategory - aXXX_020123: RunRightOver_Upper_CMSG
+IdleCategory - aXXX_020200: DashFrontLight_CMSG
+IdleCategory - aXXX_020200: DashFrontLight_anime_CMSG
+IdleCategory - aXXX_020200: DashFrontLight_Upper_CMSG
+IdleCategory - aXXX_020210: DashFrontHeavy_CMSG
+IdleCategory - aXXX_020210: DashFrontHeavy_anime_CMSG
+IdleCategory - aXXX_020210: DashFrontHeavy_Upper_CMSG
+IdleCategory - aXXX_020220: DashFrontOver_CMSG
+IdleCategory - aXXX_020220: DashFrontOver_anime_CMSG
+IdleCategory - aXXX_020220: DashFrontOver_Upper_CMSG
+IdleCategory - aXXX_022000: WalkStopFront_CMSG
+IdleCategory - aXXX_022000: WalkStopFront_Upper_CMSG
+IdleCategory - aXXX_022001: WalkStopBack_CMSG
+IdleCategory - aXXX_022001: WalkStopBack_Upper_CMSG
+IdleCategory - aXXX_022002: WalkStopLeft_CMSG
+IdleCategory - aXXX_022002: WalkStopLeft_Upper_CMSG
+IdleCategory - aXXX_022003: WalkStopRight_CMSG
+IdleCategory - aXXX_022003: WalkStopRight_Upper_CMSG
+IdleCategory - aXXX_022100: RunStopFront_CMSG
+IdleCategory - aXXX_022100: RunStopFront_Upper_CMSG
+IdleCategory - aXXX_022101: RunStopBack_CMSG
+IdleCategory - aXXX_022101: RunStopBack_Upper_CMSG
+IdleCategory - aXXX_022102: RunStopLeft_CMSG
+IdleCategory - aXXX_022102: RunStopLeft_Upper_CMSG
+IdleCategory - aXXX_022103: RunStopRight_CMSG
+IdleCategory - aXXX_022103: RunStopRight_Upper_CMSG
+IdleCategory - aXXX_022200: DashStop_CMSG
+IdleCategory - aXXX_022200: DashStop_Upper_CMSG
+IdleCategory - aXXX_023000: GuardOnWalk_CMSG
+IdleCategory - aXXX_023010: GuardOnHeavyWalk_CMSG
+IdleCategory - aXXX_023020: GuardOnSmallWalk_CMSG
+IdleCategory - aXXX_023030: GuardOnTorchWalk_CMSG
+IdleCategory - aXXX_023100: GuardOnRun_CMSG
+IdleCategory - aXXX_023110: GuardOnHeavyRun_CMSG
+IdleCategory - aXXX_023120: GuardOnSmallRun_CMSG
+IdleCategory - aXXX_023130: GuardOnTorchRun_CMSG
+IdleCategory - aXXX_023200: GuardOnDash_CMSG
+IdleCategory - aXXX_023210: GuardOnHeavyDash_CMSG
+IdleCategory - aXXX_023220: GuardOnSmallDash_CMSG
+IdleCategory - aXXX_023230: GuardOnTorchDash_CMSG
+IdleCategory - aXXX_024000: MoveCultWalk_CMSG
+IdleCategory - aXXX_024000: MoveCultWalk_Upper_CMSG
+IdleCategory - aXXX_024100: MoveCultRun_CMSG
+IdleCategory - aXXX_024100: MoveCultRun_Upper_CMSG
+IdleCategory - aXXX_026001: Event26001_CMSG
+IdleCategory - aXXX_026011: Event26011_CMSG
+IdleCategory - aXXX_026020: QuickTurnLeft180_Lower_CMSG
+IdleCategory - aXXX_026020: QuickTurnLeft180_Upper_CMSG
+IdleCategory - aXXX_026021: Event26021_CMSG
+IdleCategory - aXXX_026022: QuickTurnStanceRightLeft180_Lower_CMSG
+IdleCategory - aXXX_026024: QuickTurnStanceLeftLeft180_Lower_CMSG
+IdleCategory - aXXX_026030: QuickTurnRight180_Lower_CMSG
+IdleCategory - aXXX_026030: QuickTurnRight180_Upper_CMSG
+IdleCategory - aXXX_026031: Event26031_CMSG
+IdleCategory - aXXX_026032: QuickTurnStanceRightRight180_Lower_CMSG
+IdleCategory - aXXX_026034: QuickTurnStanceLeftRight180_Lower_CMSG
+IdleCategory - aXXX_026250: Dash180_CMSG
+IdleCategory - aXXX_026250: Dash180_Upper_CMSG
+IdleCategory - aXXX_027000: BackStepLight_CMSG
+IdleCategory - aXXX_027010: BackStepNormal_CMSG
+IdleCategory - aXXX_027020: BackStepHeavy_CMSG
+IdleCategory - aXXX_027030: BackStepOverweight_CMSG
+IdleCategory - aXXX_027040: BackStepSuperlight_CMSG
+IdleCategory - aXXX_027102: RollingLightLeftSelftrans_CMSG
+IdleCategory - aXXX_027102: RollingLightLeft_CMSG
+IdleCategory - aXXX_027103: RollingLightRightSelftrans_CMSG
+IdleCategory - aXXX_027103: RollingLightRight_CMSG
+IdleCategory - aXXX_027104: RollingFrontRightSelftrans_CMSG
+IdleCategory - aXXX_027104: RollingFrontRight_CMSG
+IdleCategory - aXXX_027105: RollingFrontLeftSelftrans_CMSG
+IdleCategory - aXXX_027105: RollingFrontLeft_CMSG
+IdleCategory - aXXX_027106: RollingBackRightSelftrans_CMSG
+IdleCategory - aXXX_027106: RollingBackRight_CMSG
+IdleCategory - aXXX_027107: RollingBackLeftSelftrans_CMSG
+IdleCategory - aXXX_027107: RollingBackLeft_CMSG
+IdleCategory - aXXX_027112: RollingMediumLeftSelftrans_CMSG
+IdleCategory - aXXX_027112: RollingMediumLeft_CMSG
+IdleCategory - aXXX_027113: RollingMediumRightSelftrans_CMSG
+IdleCategory - aXXX_027113: RollingMediumRight_CMSG
+IdleCategory - aXXX_027114: RollingMediumFrontRightSelftrans_CMSG
+IdleCategory - aXXX_027114: RollingMediumFrontRight_CMSG
+IdleCategory - aXXX_027115: RollingMediumFrontLeftSelftrans_CMSG
+IdleCategory - aXXX_027115: RollingMediumFrontLeft_CMSG
+IdleCategory - aXXX_027116: RollingMediumBackRightSelftrans_CMSG
+IdleCategory - aXXX_027116: RollingMediumBackRight_CMSG
+IdleCategory - aXXX_027117: RollingMediumBackLeftSelftrans_CMSG
+IdleCategory - aXXX_027117: RollingMediumBackLeft_CMSG
+IdleCategory - aXXX_027122: RollingHeavyLeftSelftrans_CMSG
+IdleCategory - aXXX_027122: RollingHeavyLeft_CMSG
+IdleCategory - aXXX_027123: RollingHeavyRightSelftrans_CMSG
+IdleCategory - aXXX_027123: RollingHeavyRight_CMSG
+IdleCategory - aXXX_027124: RollingHeavyFrontRightSelftrans_CMSG
+IdleCategory - aXXX_027124: RollingHeavyFrontRight_CMSG
+IdleCategory - aXXX_027125: RollingHeavyFrontLeftSelftrans_CMSG
+IdleCategory - aXXX_027125: RollingHeavyFrontLeft_CMSG
+IdleCategory - aXXX_027126: RollingHeavyBackRightSelftrans_CMSG
+IdleCategory - aXXX_027126: RollingHeavyBackRight_CMSG
+IdleCategory - aXXX_027127: RollingHeavyBackLeftSelftrans_CMSG
+IdleCategory - aXXX_027127: RollingHeavyBackLeft_CMSG
+IdleCategory - aXXX_027130: RollingOverweightFront_CMSG
+IdleCategory - aXXX_027131: RollingOverweightBack_CMSG
+IdleCategory - aXXX_027132: RollingOverweightLeft_CMSG
+IdleCategory - aXXX_027133: RollingOverweightRight_CMSG
+IdleCategory - aXXX_027400: JumpLong_CMSG
+IdleCategory - aXXX_027410: Jump_CMSG
+IdleCategory - aXXX_027502: EStepDownLeft_CMSG
+IdleCategory - aXXX_027503: EStepDownRight_CMSG
+IdleCategory - aXXX_027504: EStepDownFrontRight_CMSG
+IdleCategory - aXXX_027505: EStepDownFrontLeft_CMSG
+IdleCategory - aXXX_027506: EStepDownBackRight_CMSG
+IdleCategory - aXXX_027507: EStepDownBackLeft_CMSG
+IdleCategory - aXXX_028000: LadderCoastStart_CMSG
+IdleCategory - aXXX_028001: LadderCoastRight_CMSG
+IdleCategory - aXXX_028001: LadderCoastLeft_CMSG
+IdleCategory - aXXX_028002: LadderCoastLanding_CMSG
+IdleCategory - aXXX_028003: LadderCoastStopLeft_CMSG
+IdleCategory - aXXX_028004: LadderCoastStopRight_CMSG
+IdleCategory - aXXX_028011: LadderUpLeft_CMSG
+IdleCategory - aXXX_028012: LadderUpRight_CMSG
+IdleCategory - aXXX_028013: LadderEndTopLeft_CMSG
+IdleCategory - aXXX_028014: LadderEndTopRight_CMSG
+IdleCategory - aXXX_028020: LadderStartTop_CMSG
+IdleCategory - aXXX_028021: LadderDownLeft_CMSG
+IdleCategory - aXXX_028022: LadderDownRight_CMSG
+IdleCategory - aXXX_028023: LadderEndBottomLeft_CMSG
+IdleCategory - aXXX_028024: LadderEndBottomRight_CMSG
+IdleCategory - aXXX_028030: LadderIdleLeft_CMSG
+IdleCategory - aXXX_028031: LadderDamageSmallLeft_CMSG
+IdleCategory - aXXX_028033: LadderDamageLargeLeft_CMSG
+IdleCategory - aXXX_028035: LadderAttackUpLeft_CMSG
+IdleCategory - aXXX_028036: LadderAttackDownLeft_CMSG
+IdleCategory - aXXX_028040: LadderIdleRight_CMSG
+IdleCategory - aXXX_028041: LadderDamageSmallRight_CMSG
+IdleCategory - aXXX_028043: LadderDamageLargeRight_CMSG
+IdleCategory - aXXX_028045: LadderAttackUpRight_CMSG
+IdleCategory - aXXX_028046: LadderAttackDownRight_CMSG
+IdleCategory - aXXX_028050: LadderDrop_CMSG
+IdleCategory - aXXX_028100: LadderStartBottom_CMSG
+IdleCategory - aXXX_028211: LadderUpLeftFast_CMSG
+IdleCategory - aXXX_028212: LadderUpRightFast_CMSG
+IdleCategory - aXXX_029000: WeaponChangeStart_RightBack_CMSG
+IdleCategory - aXXX_029000: WeaponChangeStart_RightBack_Upper_CMSG
+IdleCategory - aXXX_029001: WeaponChangeStart_RightWeast_CMSG
+IdleCategory - aXXX_029001: WeaponChangeStart_RightWeast_Upper_CMSG
+IdleCategory - aXXX_029002: WeaponChangeStart_RightShoulder_CMSG
+IdleCategory - aXXX_029002: WeaponChangeStart_RightShoulder_Upper_CMSG
+IdleCategory - aXXX_029003: WeaponChangeStart_RightSpear_CMSG
+IdleCategory - aXXX_029003: WeaponChangeStart_RightSpear_Upper_CMSG
+IdleCategory - aXXX_029005: HandChangeRightFromBack_CMSG
+IdleCategory - aXXX_029005: WeaponChangeEnd_RightBack_CMSG
+IdleCategory - aXXX_029005: HandChangeRightFromBack_Upper_CMSG
+IdleCategory - aXXX_029005: WeaponChangeEnd_RightBack_Upper_CMSG
+IdleCategory - aXXX_029006: HandChangeRightFromWaist_CMSG
+IdleCategory - aXXX_029006: WeaponChangeEnd_RightWeast_CMSG
+IdleCategory - aXXX_029006: HandChangeRightFromWaist_Upper_CMSG
+IdleCategory - aXXX_029006: WeaponChangeEnd_RightWeast_Upper_CMSG
+IdleCategory - aXXX_029007: HandChangeRightFromShoulder_CMSG
+IdleCategory - aXXX_029007: WeaponChangeEnd_RightShoulder_CMSG
+IdleCategory - aXXX_029007: HandChangeRightFromShoulder_Upper_CMSG
+IdleCategory - aXXX_029007: WeaponChangeEnd_RightShoulder_Upper_CMSG
+IdleCategory - aXXX_029008: HandChangeRightSpear_CMSG
+IdleCategory - aXXX_029008: WeaponChangeEnd_RightSpear_CMSG
+IdleCategory - aXXX_029008: HandChangeRightSpear_Upper_CMSG
+IdleCategory - aXXX_029008: WeaponChangeEnd_RightSpear_Upper_CMSG
+IdleCategory - aXXX_029010: HandChangeBothToShoulder_CMSG
+IdleCategory - aXXX_029010: HandChangeBothToShoulder_Upper_CMSG
+IdleCategory - aXXX_029011: HandChangeBothToWaist_CMSG
+IdleCategory - aXXX_029011: HandChangeBothToWaist_Upper_CMSG
+IdleCategory - aXXX_029012: HandChangeBothToBack_CMSG
+IdleCategory - aXXX_029012: HandChangeBothToBack_Upper_CMSG
+IdleCategory - aXXX_029013: HandChangeBothRightToShoulder_CMSG
+IdleCategory - aXXX_029013: HandChangeBothRightToShoulder_Upper_CMSG
+IdleCategory - aXXX_029014: HandChangeBothRightToWaist_CMSG
+IdleCategory - aXXX_029014: HandChangeBothRightToWaist_Upper_CMSG
+IdleCategory - aXXX_029015: HandChangeBothRightToBack_CMSG
+IdleCategory - aXXX_029015: HandChangeBothRightToBack_Upper_CMSG
+IdleCategory - aXXX_029020: WeaponChangeStart_LeftBack_CMSG
+IdleCategory - aXXX_029020: WeaponChangeStart_LeftBack_Upper_CMSG
+IdleCategory - aXXX_029020: SwordArtsToBack_CMSG
+IdleCategory - aXXX_029021: WeaponChangeStart_LeftWeast_CMSG
+IdleCategory - aXXX_029021: WeaponChangeStart_LeftWeast_Upper_CMSG
+IdleCategory - aXXX_029021: SwordArtsToWaist_CMSG
+IdleCategory - aXXX_029022: WeaponChangeStart_LeftShoulder_CMSG
+IdleCategory - aXXX_029022: WeaponChangeStart_LeftShoulder_Upper_CMSG
+IdleCategory - aXXX_029022: SwordArtsToShoulder_CMSG
+IdleCategory - aXXX_029023: WeaponChangeStart_LeftSpear_CMSG
+IdleCategory - aXXX_029023: WeaponChangeStart_LeftSpear_Upper_CMSG
+IdleCategory - aXXX_029023: SwordArtsToSpear_CMSG
+IdleCategory - aXXX_029025: HandChangeLeftFromBack_CMSG
+IdleCategory - aXXX_029025: WeaponChangeEnd_LeftBack_CMSG
+IdleCategory - aXXX_029025: HandChangeLeftFromBack_Upper_CMSG
+IdleCategory - aXXX_029025: WeaponChangeEnd_LeftBack_Upper_CMSG
+IdleCategory - aXXX_029025: SwordArtsFromBack_CMSG
+IdleCategory - aXXX_029026: HandChangeLeftFromWaist_CMSG
+IdleCategory - aXXX_029026: WeaponChangeEnd_LeftWeast_CMSG
+IdleCategory - aXXX_029026: HandChangeLeftFromWaist_Upper_CMSG
+IdleCategory - aXXX_029026: WeaponChangeEnd_LeftWeast_Upper_CMSG
+IdleCategory - aXXX_029026: SwordArtsFromWaist_CMSG
+IdleCategory - aXXX_029027: HandChangeLeftFromShoulder_CMSG
+IdleCategory - aXXX_029027: WeaponChangeEnd_LeftShoulder_CMSG
+IdleCategory - aXXX_029027: HandChangeLeftFromShoulder_Upper_CMSG
+IdleCategory - aXXX_029027: WeaponChangeEnd_LeftShoulder_Upper_CMSG
+IdleCategory - aXXX_029027: SwordArtsFromShoulder_CMSG
+IdleCategory - aXXX_029028: HandChangeLeftSpear_CMSG
+IdleCategory - aXXX_029028: WeaponChangeEnd_LeftSpear_CMSG
+IdleCategory - aXXX_029028: HandChangeLeftSpear_Upper_CMSG
+IdleCategory - aXXX_029028: WeaponChangeEnd_LeftSpear_Upper_CMSG
+IdleCategory - aXXX_029028: SwordArtsFromSpear_CMSG
+IdleCategory - aXXX_029030: HandChangeRightToBack_CMSG
+IdleCategory - aXXX_029030: HandChangeRightToBack_Upper_CMSG
+IdleCategory - aXXX_029031: HandChangeRightToWaist_CMSG
+IdleCategory - aXXX_029031: HandChangeRightToWaist_Upper_CMSG
+IdleCategory - aXXX_029032: HandChangeRightToShoulder_CMSG
+IdleCategory - aXXX_029032: HandChangeRightToShoulder_Upper_CMSG
+IdleCategory - aXXX_029033: HandChangeRightToSpear_CMSG
+IdleCategory - aXXX_029033: HandChangeRightToSpear_Upper_CMSG
+IdleCategory - aXXX_029040: HandChangeLeftToBack_CMSG
+IdleCategory - aXXX_029040: HandChangeLeftToBack_Upper_CMSG
+IdleCategory - aXXX_029041: HandChangeLeftToWaist_CMSG
+IdleCategory - aXXX_029041: HandChangeLeftToWaist_Upper_CMSG
+IdleCategory - aXXX_029042: HandChangeLeftToShoulder_CMSG
+IdleCategory - aXXX_029042: HandChangeLeftToShoulder_Upper_CMSG
+IdleCategory - aXXX_029043: HandChangeLeftToSpear_CMSG
+IdleCategory - aXXX_029043: HandChangeLeftToSpear_Upper_CMSG
+IdleCategory - aXXX_029050: HandChangeBoth_CMSG
+IdleCategory - aXXX_029050: HandChangeBoth_Upper_CMSG
+IdleCategory - aXXX_029053: HandChangeBothLeft_CMSG
+IdleCategory - aXXX_029053: HandChangeBothLeft_Upper_CMSG
+IdleCategory - aXXX_029070: HandChangeSingleLeftToBack_CMSG
+IdleCategory - aXXX_029070: HandChangeSingleLeftToBack_Upper_CMSG
+IdleCategory - aXXX_029071: HandChangeSingleLeftToWaist_CMSG
+IdleCategory - aXXX_029071: HandChangeSingleLeftToWaist_Upper_CMSG
+IdleCategory - aXXX_029072: HandChangeSingleLeftToShoulder_CMSG
+IdleCategory - aXXX_029072: HandChangeSingleLeftToShoulder_Upper_CMSG
+IdleCategory - aXXX_029073: HandChangeSingleLeftToSpear_CMSG
+IdleCategory - aXXX_029073: HandChangeSingleLeftToSpear_Upper_CMSG
+IdleCategory - aXXX_029080: SwordArtsWaistOneshot_CMSG
+IdleCategory - aXXX_029081: SwordArtsBackOneshot_CMSG
+IdleCategory - aXXX_029082: SwordArtsShoulderOneshot_CMSG
+IdleCategory - aXXX_029083: SwordArtsSpearOneshot_CMSG
+IdleCategory - aXXX_000030: GuardOnTorch_CMSG
+IdleCategory - aXXX_000030: GuardOnToche_Upper_CMSG
+IdleCategory - aXXX_004000: FallLoop_CMSG
+IdleCategory - aXXX_040012: DragonFullStartBefore_CMSG
+IdleCategory - aXXX_040012: DragonFullStartBefore_Upper_CMSG
+IdleCategory - aXXX_040013: DragonHeadStartAfterLVL2_CMSG
+IdleCategory - aXXX_040013: DragonHeadStartAfterLVL2_Upper_CMSG
+IdleCategory - aXXX_004010: FallStartFaceUp_CMSG00
+IdleCategory - aXXX_004020: FallLoopFaceDown_CMSG
+IdleCategory - aXXX_040312: DragonFullEndBefore_CMSG
+IdleCategory - aXXX_040312: DragonFullEndBefore_Upper_CMSG
+IdleCategory - aXXX_040313: DragonHeadEndAfterLVL2_CMSG
+IdleCategory - aXXX_040313: DragonHeadEndAfterLVL2_Upper_CMSG
+IdleCategory - aXXX_004050: FallStart_CMSG
+IdleCategory - aXXX_004060: FallStartFaceUp_CMSG
+IdleCategory - aXXX_004070: FallStartFaceDown_CMSG
+IdleCategory - aXXX_004080: FallJumpStart_CMSG
+IdleCategory - aXXX_004100: FallDeath_CMSG
+IdleCategory - aXXX_004101: FallDeathLoop_CMSG
+IdleCategory - aXXX_004110: FallDeathFaceUp_CMSG
+IdleCategory - aXXX_004111: FallDeathFaceDown_CMSG
+IdleCategory - aXXX_004120: FallDeathLoopFaceUp_CMSG
+IdleCategory - aXXX_004121: FallDeathLoopFaceDown_CMSG
+IdleCategory - aXXX_004200: LandDefault_CMSG
+IdleCategory - aXXX_042012: DragonHeadStartBefore_CMSG
+IdleCategory - aXXX_042012: DragonHeadStartBefore_Upper_CMSG
+IdleCategory - aXXX_042013: DragonHeadStartAfter_CMSG
+IdleCategory - aXXX_042013: DragonHeadStartAfter_Upper_CMSG
+IdleCategory - aXXX_004210: LandMiddle_CMSG
+IdleCategory - aXXX_004220: LandHeavy_CMSG
+IdleCategory - aXXX_004230: LandCatDefault_CMSG
+IdleCategory - aXXX_042312: DragonHeadEndBefore_CMSG
+IdleCategory - aXXX_042312: DragonHeadEndBefore_Upper_CMSG
+IdleCategory - aXXX_042313: DragonHeadEndAfter_CMSG
+IdleCategory - aXXX_042313: DragonHeadEndAfter_Upper_CMSG
+IdleCategory - aXXX_004240: LandCatMiddle_CMSG
+IdleCategory - aXXX_004250: LandCatHeavy_CMSG
+IdleCategory - aXXX_004260: LandFaceUp_CMSG
+IdleCategory - aXXX_004270: LandFaceDown_CMSG
+IdleCategory - aXXX_004280: LandJump_CMSG
+IdleCategory - aXXX_004290: LandLow_CMSG
+IdleCategory - aXXX_042901: DragonHeadLoopAfter_CMSG
+IdleCategory - aXXX_042901: DragonHeadLoopAfter_Upper_CMSG
+IdleCategory - aXXX_042902: ItemPray_CMSG
+IdleCategory - aXXX_042902: ItemPray_Upper_CMSG
+IdleCategory - aXXX_042903: DragonHeadLoopAfterLVL2_CMSG
+IdleCategory - aXXX_042903: DragonHeadLoopAfterLVL2_Upper_CMSG
+IdleCategory - aXXX_004500: LadderFallStart_CMSG
+IdleCategory - aXXX_004510: LadderFallLoop_CMSG
+IdleCategory - aXXX_004520: LadderFallLanding_CMSG
+IdleCategory - aXXX_004530: SlideStart_CMSG
+IdleCategory - aXXX_004540: SlideForward_CMSG
+IdleCategory - aXXX_004550: SlideEnd_CMSG
+IdleCategory - aXXX_004560: SlideLeft_CMSG
+IdleCategory - aXXX_004570: SlideRight_CMSG
+IdleCategory - aXXX_005000: DamageSmallLeft_CMSG
+IdleCategory - aXXX_050000: ItemRecover_CMSG
+IdleCategory - aXXX_050000: ItemRecover_Upper_CMSG
+IdleCategory - aXXX_005001: DamageSmallRight_CMSG
+IdleCategory - aXXX_050010: ItemSoul_CMSG
+IdleCategory - aXXX_050010: ItemSoul_Upper_CMSG
+IdleCategory - aXXX_005002: DamageSmallFront_CMSG
+IdleCategory - aXXX_050020: ItemWeaponRepair_CMSG
+IdleCategory - aXXX_050020: ItemWeaponRepair_Upper_CMSG
+IdleCategory - aXXX_005003: DamageSmallBack_CMSG
+IdleCategory - aXXX_050030: ItemMessage_CMSG
+IdleCategory - aXXX_050030: ItemMessage_Upper_CMSG
+IdleCategory - aXXX_050040: DragonFullStartAfter_CMSG
+IdleCategory - aXXX_050040: DragonFullStartAfter_Upper_CMSG
+IdleCategory - aXXX_050041: DragonFullStartAfterLVL2_CMSG
+IdleCategory - aXXX_050041: DragonFullStartAfterLVL2_Upper_CMSG
+IdleCategory - aXXX_050050: NoArrow_CMSG
+IdleCategory - aXXX_050050: ItemInvalid_CMSG
+IdleCategory - aXXX_050050: ItemInvalid_Upper_CMSG
+IdleCategory - aXXX_050060: ItemWeaponEnchant_CMSG
+IdleCategory - aXXX_050060: ItemWeaponEnchant_Upper_CMSG
+IdleCategory - aXXX_050070: ItemThrowKnife_CMSG
+IdleCategory - aXXX_050070: ItemThrowKnife_Upper_CMSG
+IdleCategory - aXXX_050080: ItemThrowBottle_CMSG
+IdleCategory - aXXX_050080: ItemThrowBottle_Upper_CMSG
+IdleCategory - aXXX_050090: ItemMeganeStart_CMSG
+IdleCategory - aXXX_050090: ItemMeganeStart_Upper_CMSG
+IdleCategory - aXXX_050091: ItemMeganeLoop_CMSG
+IdleCategory - aXXX_050091: ItemMeganeLoop_Upper_CMSG
+IdleCategory - aXXX_050092: ItemMeganeEnd_CMSG
+IdleCategory - aXXX_050092: ItemMeganeEnd_Upper_CMSG
+IdleCategory - aXXX_050100: ItemTrap_CMSG
+IdleCategory - aXXX_050100: ItemTrap_Upper_CMSG
+IdleCategory - aXXX_050110: ItemDrinkStart_CMSG
+IdleCategory - aXXX_050110: ItemDrinkStart_Upper_CMSG
+IdleCategory - aXXX_050111: ItemDrinking_CMSG
+IdleCategory - aXXX_050111: ItemDrinking_Upper_CMSG
+IdleCategory - aXXX_050112: ItemDrinkEnd_CMSG
+IdleCategory - aXXX_050112: ItemDrinkEnd_Upper_CMSG
+IdleCategory - aXXX_050113: ItemDrinkEmpty_CMSG
+IdleCategory - aXXX_050113: ItemDrinkEmpty_Upper_CMSG
+IdleCategory - aXXX_050114: ItemDrinkNothing_CMSG
+IdleCategory - aXXX_050114: ItemDrinkNothing_Upper_CMSG
+IdleCategory - aXXX_050120: ItemShockWeaveStart_CMSG
+IdleCategory - aXXX_050120: ItemShockWeaveStart_Upper_CMSG
+IdleCategory - aXXX_050121: ItemShockWeaveEnd_CMSG
+IdleCategory - aXXX_050121: ItemShockWeaveEnd_Upper_CMSG
+IdleCategory - aXXX_050130: ItemBackBottle_CMSG
+IdleCategory - aXXX_050130: ItemBackBottle_Upper_CMSG
+IdleCategory - aXXX_050140: ItemDrinkStartMP_CMSG
+IdleCategory - aXXX_050140: ItemDrinkStartMP_Upper_CMSG
+IdleCategory - aXXX_050141: ItemDrinkingMP_CMSG
+IdleCategory - aXXX_050141: ItemDrinkingMP_Upper_CMSG
+IdleCategory - aXXX_050142: ItemDrinkEndMP_CMSG
+IdleCategory - aXXX_050142: ItemDrinkEndMP_Upper_CMSG
+IdleCategory - aXXX_050144: ItemDrinkNothingMP_CMSG
+IdleCategory - aXXX_050144: ItemDrinkNothingMP_Upper_CMSG
+IdleCategory - aXXX_050150: ItemDrinkStartSake_CMSG
+IdleCategory - aXXX_050150: ItemDrinkStartSake_Upper_CMSG
+IdleCategory - aXXX_050151: ItemDrinkingSake_CMSG
+IdleCategory - aXXX_050151: ItemDrinkingSake_Upper_CMSG
+IdleCategory - aXXX_050152: ItemDrinkEndSake_CMSG
+IdleCategory - aXXX_050152: ItemDrinkEndSake_Upper_CMSG
+IdleCategory - aXXX_050160: ItemChameleon_CMSG
+IdleCategory - aXXX_050160: ItemChameleon_Upper_CMSG
+IdleCategory - aXXX_050170: ItemOldMonk_CMSG
+IdleCategory - aXXX_050170: ItemOldMonk_Upper_CMSG
+IdleCategory - aXXX_005100: DamageMiddleLeft_CMSG
+IdleCategory - aXXX_051000: ItemLadderRecoverLeft_CMSG
+IdleCategory - aXXX_005101: DamageMiddleRight_CMSG
+IdleCategory - aXXX_051010: ItemLadderSoulLeft_CMSG
+IdleCategory - aXXX_005102: DamageMiddleFront_CMSG
+IdleCategory - aXXX_005103: DamageMiddleBack_CMSG
+IdleCategory - aXXX_051050: ItemLadderInvalidLeft_CMSG
+IdleCategory - aXXX_051110: ItemLadderDrinkStartLeft_CMSG
+IdleCategory - aXXX_051111: ItemLadderDrinkingLeft_CMSG
+IdleCategory - aXXX_051112: ItemLadderDrinkEndLeft_CMSG
+IdleCategory - aXXX_051113: ItemLadderDrinkEmptyLeft_CMSG
+IdleCategory - aXXX_051114: ItemLadderDrinkNothingLeft_CMSG
+IdleCategory - aXXX_051120: ItemLadderDrinkStartMPLeft_CMSG
+IdleCategory - aXXX_051121: ItemLadderDrinkingMPLeft_CMSG
+IdleCategory - aXXX_051122: ItemLadderDrinkEndMPLeft_CMSG
+IdleCategory - aXXX_051124: ItemLadderDrinkNothingMPLeft_CMSG
+IdleCategory - aXXX_051130: ItemLadderDrinkStartSakeLeft_CMSG
+IdleCategory - aXXX_051131: ItemLadderDrinkingSakeLeft_CMSG
+IdleCategory - aXXX_051132: ItemLadderDrinkEndSakeLeft_CMSG
+IdleCategory - aXXX_005200: DamageLargeLeft_CMSG
+IdleCategory - aXXX_052000: ItemLadderRecoverRight_CMSG
+IdleCategory - aXXX_005201: DamageLargeRight_CMSG
+IdleCategory - aXXX_052010: ItemLadderSoulRight_CMSG
+IdleCategory - aXXX_005202: DamageLargeFront_CMSG
+IdleCategory - aXXX_005203: DamageLargeBack_CMSG
+IdleCategory - aXXX_052050: ItemLadderInvalidRight_CMSG
+IdleCategory - aXXX_052110: ItemLadderDrinkStartRight_CMSG
+IdleCategory - aXXX_052111: ItemLadderDrinkingRight_CMSG
+IdleCategory - aXXX_052112: ItemLadderDrinkEndRight_CMSG
+IdleCategory - aXXX_052113: ItemLadderDrinkEmptyRight_CMSG
+IdleCategory - aXXX_052114: ItemLadderDrinkNothingRight_CMSG
+IdleCategory - aXXX_052120: ItemLadderDrinkStartMPRight_CMSG
+IdleCategory - aXXX_052121: ItemLadderDrinkingMPRight_CMSG
+IdleCategory - aXXX_052122: ItemLadderDrinkEndMPRight_CMSG
+IdleCategory - aXXX_052124: ItemLadderDrinkNothingMPRight_CMSG
+IdleCategory - aXXX_052130: ItemLadderDrinkStartSakeRight_CMSG
+IdleCategory - aXXX_052131: ItemLadderDrinkingSakeRight_CMSG
+IdleCategory - aXXX_052132: ItemLadderDrinkEndSakeRight_CMSG
+IdleCategory - aXXX_005300: DamageExLargeLeft_CMSG
+IdleCategory - aXXX_005300: DamageExBlastLeft_CMSG
+IdleCategory - aXXX_005301: DamageExLargeRight_CMSG
+IdleCategory - aXXX_005301: DamageExBlastRight_CMSG
+IdleCategory - aXXX_005302: DamageExLargeFront_CMSG
+IdleCategory - aXXX_005302: DamageExBlastFront_CMSG
+IdleCategory - aXXX_005303: DamageExLargeBack_CMSG
+IdleCategory - aXXX_005303: DamageExBlastBack_CMSG
+IdleCategory - aXXX_005350: DamageLarge2Left_CMSG
+IdleCategory - aXXX_005351: DamageLarge2Right_CMSG
+IdleCategory - aXXX_005352: DamageLarge2Front_CMSG
+IdleCategory - aXXX_005353: DamageLarge2Back_CMSG
+IdleCategory - aXXX_005400: DamageMinimumA_CMSG
+IdleCategory - aXXX_005401: DamageMinimumB_CMSG
+IdleCategory - aXXX_005402: DamageMinimumC_CMSG
+IdleCategory - aXXX_005500: DamageSmallBlowLeft_CMSG
+IdleCategory - aXXX_055000: QuickItemThrowKnifeNormal_CMSG
+IdleCategory - aXXX_055000: QuickItemThrowKnifeNormal_Upper_CMSG
+IdleCategory - aXXX_005501: DamageSmallBlowRight_CMSG
+IdleCategory - aXXX_055010: QuickItemThrowKnifeDash_CMSG
+IdleCategory - aXXX_055010: QuickItemThrowKnifeDash_Upper_CMSG
+IdleCategory - aXXX_005502: DamageSmallBlowFront_CMSG
+IdleCategory - aXXX_055020: QuickItemThrowKnifeStep_CMSG
+IdleCategory - aXXX_055020: QuickItemThrowKnifeStep_Upper_CMSG
+IdleCategory - aXXX_005503: DamageSmallBlowBack_CMSG
+IdleCategory - aXXX_055030: QuickItemThrowKnifeAttackRight_CMSG
+IdleCategory - aXXX_055030: QuickItemThrowKnifeAttackRight_Upper_CMSG
+IdleCategory - aXXX_055031: QuickItemThrowKnifeAttackRight2_CMSG
+IdleCategory - aXXX_055031: QuickItemThrowKnifeAttackRight2_Upper_CMSG
+IdleCategory - aXXX_055040: QuickItemThrowKnifeAttackLeft_CMSG
+IdleCategory - aXXX_055040: QuickItemThrowKnifeAttackLeft_Upper_CMSG
+IdleCategory - aXXX_055041: QuickItemThrowKnifeAttackLeft2_CMSG
+IdleCategory - aXXX_055041: QuickItemThrowKnifeAttackLeft2_Upper_CMSG
+IdleCategory - aXXX_055200: QuickItemEnchantNormal_CMSG
+IdleCategory - aXXX_055200: QuickItemEnchantNormal_Upper_CMSG
+IdleCategory - aXXX_055210: QuickItemEnchantDash_CMSG
+IdleCategory - aXXX_055210: QuickItemEnchantDash_Upper_CMSG
+IdleCategory - aXXX_055220: QuickItemEnchantStep_CMSG
+IdleCategory - aXXX_055220: QuickItemEnchantStep_Upper_CMSG
+IdleCategory - aXXX_055230: QuickItemEnchantAttackRight_CMSG
+IdleCategory - aXXX_055230: QuickItemEnchantAttackRight_Upper_CMSG
+IdleCategory - aXXX_055240: QuickItemEnchantAttackLeft_CMSG
+IdleCategory - aXXX_055240: QuickItemEnchantAttackLeft_Upper_CMSG
+IdleCategory - aXXX_005600: DamagePushLeft_CMSG
+IdleCategory - aXXX_005601: DamagePushRight_CMSG
+IdleCategory - aXXX_005602: DamagePushFront_CMSG
+IdleCategory - aXXX_005603: DamagePushBack_CMSG
+IdleCategory - aXXX_005700: DamageWeakLeft_CMSG
+IdleCategory - aXXX_005701: DamageWeakRight_CMSG
+IdleCategory - aXXX_005702: DamageWeakFront_CMSG
+IdleCategory - aXXX_005703: DamageWeakBack_CMSG
+IdleCategory - aXXX_005800: DamageBreathLeft_CMSG
+IdleCategory - aXXX_005801: DamageBreathRight_CMSG
+IdleCategory - aXXX_005802: DamageBreathFront_CMSG
+IdleCategory - aXXX_005803: DamageBreathBack_CMSG
+IdleCategory - aXXX_005900: DamageFling_CMSG
+IdleCategory - aXXX_005910: DamageUpper_CMSG
+IdleCategory - aXXX_000060: InGameMenuIdleLoop_CMSG
+IdleCategory - aXXX_006000: DamageParryRight_CMSG
+IdleCategory - aXXX_060000: Event60000_CMSG
+IdleCategory - aXXX_060001: Event60001_CMSG
+IdleCategory - aXXX_060002: Event60002_CMSG
+IdleCategory - aXXX_060003: Event60003_CMSG
+IdleCategory - aXXX_060010: Event60010_CMSG
+IdleCategory - aXXX_060020: Event60020_CMSG
+IdleCategory - aXXX_060030: Event60030_CMSG
+IdleCategory - aXXX_060040: Event60040_CMSG
+IdleCategory - aXXX_060060: Event60060_CMSG
+IdleCategory - aXXX_060070: Event60070_CMSG
+IdleCategory - aXXX_060080: Event60080_CMSG
+IdleCategory - aXXX_060090: Event60090_CMSG
+IdleCategory - aXXX_006010: DamageParryLeft_CMSG
+IdleCategory - aXXX_060100: Event60100_CMSG
+IdleCategory - aXXX_060160: Event60160_CMSG
+IdleCategory - aXXX_060170: Event60170_CMSG
+IdleCategory - aXXX_060180: Event60180_CMSG
+IdleCategory - aXXX_060190: Event60190_CMSG
+IdleCategory - aXXX_060200: Event60200_CMSG
+IdleCategory - aXXX_060202: Event60202_CMSG
+IdleCategory - aXXX_060210: Event60210_CMSG
+IdleCategory - aXXX_060220: Event60220_CMSG
+IdleCategory - aXXX_060230: Event60230_CMSG
+IdleCategory - aXXX_060231: Event60231_CMSG
+IdleCategory - aXXX_060240: Event60240_CMSG
+IdleCategory - aXXX_060241: Event60241_CMSG
+IdleCategory - aXXX_060250: Event60250_CMSG
+IdleCategory - aXXX_060260: BonfireWarpEnd_CMSG
+IdleCategory - aXXX_060270: Event60270_CMSG
+IdleCategory - aXXX_060370: Event60370_CMSG
+IdleCategory - aXXX_060380: Event60380_CMSG
+IdleCategory - aXXX_060390: Event60390_CMSG
+IdleCategory - aXXX_060400: Event60400_CMSG
+IdleCategory - aXXX_060410: Event60410_CMSG
+IdleCategory - aXXX_060420: Event60420_CMSG
+IdleCategory - aXXX_060430: Event60430_CMSG
+IdleCategory - aXXX_060440: Event60440_CMSG
+IdleCategory - aXXX_060750: Event60750_CMSG
+IdleCategory - aXXX_060760: Event60760_CMSG
+IdleCategory - aXXX_060780: Event60780_CMSG
+IdleCategory - aXXX_060790: Event60790_CMSG
+IdleCategory - aXXX_060800: Event60800_CMSG
+IdleCategory - aXXX_060810: Event60810_CMSG
+IdleCategory - aXXX_000061: InGameMenuIdleStart_CMSG
+IdleCategory - aXXX_061000: Event61000_CMSG
+IdleCategory - aXXX_061000: Event61000_Upper_CMSG
+IdleCategory - aXXX_000062: InGameMenuIdleEnd_CMSG
+IdleCategory - aXXX_063000: Event63000_CMSG
+IdleCategory - aXXX_063010: Event63010_CMSG
+IdleCategory - aXXX_063020: Event63020_CMSG
+IdleCategory - aXXX_063060: Event63060_CMSG
+IdleCategory - aXXX_063070: Event63070_CMSG
+IdleCategory - aXXX_065000: CultCatch_CMSG
+IdleCategory - aXXX_065001: CultRelease_CMSG
+IdleCategory - aXXX_065012: Event65012_CMSG
+IdleCategory - aXXX_065013: Event65013_CMSG
+IdleCategory - aXXX_065030: Event65030_CMSG
+IdleCategory - aXXX_065040: Event65040_CMSG
+IdleCategory - aXXX_065100: CultStart1_CMSG
+IdleCategory - aXXX_065110: CultCont1_CMSG
+IdleCategory - aXXX_065120: CultEnd1_CMSG
+IdleCategory - aXXX_065130: CultInterrupt1_CMSG
+IdleCategory - aXXX_065200: CultStart2_CMSG
+IdleCategory - aXXX_065210: CultCont2_CMSG
+IdleCategory - aXXX_065220: CultEnd2_CMSG
+IdleCategory - aXXX_065230: CultInterrupt2_CMSG
+IdleCategory - aXXX_065300: CultStart3_CMSG
+IdleCategory - aXXX_065310: CultCont3_CMSG
+IdleCategory - aXXX_065320: CultEnd3_CMSG
+IdleCategory - aXXX_065330: CultInterrupt3_CMSG
+IdleCategory - aXXX_065400: CultStart4_CMSG
+IdleCategory - aXXX_065410: CultCont4_CMSG
+IdleCategory - aXXX_065420: CultEnd4_CMSG
+IdleCategory - aXXX_065430: CultInterrupt4_CMSG
+IdleCategory - aXXX_065500: CultStart5_CMSG
+IdleCategory - aXXX_065510: CultCont5_CMSG
+IdleCategory - aXXX_065520: CultEnd5_CMSG
+IdleCategory - aXXX_065530: CultInterrupt5_CMSG
+IdleCategory - aXXX_065600: CultStart6_CMSG
+IdleCategory - aXXX_065610: CultCont6_CMSG
+IdleCategory - aXXX_065620: CultEnd6_CMSG
+IdleCategory - aXXX_065630: CultInterrupt6_CMSG
+IdleCategory - aXXX_065700: CultStart7_CMSG
+IdleCategory - aXXX_065710: CultCont7_CMSG
+IdleCategory - aXXX_065720: CultEnd7_CMSG
+IdleCategory - aXXX_065730: CultInterrupt7_CMSG
+IdleCategory - aXXX_068000: BonfireInitialize_CMSG
+IdleCategory - aXXX_068001: BonfireHumanRestore_CMSG
+IdleCategory - aXXX_068002: BonfireGiveHeroPoint_CMSG
+IdleCategory - aXXX_068010: BonfireStart_CMSG
+IdleCategory - aXXX_068011: BonfireLoop_CMSG
+IdleCategory - aXXX_068012: BonfireEnd_CMSG
+IdleCategory - aXXX_068100: BonfireWarp_CMSG
+IdleCategory - aXXX_068101: BonfireWarp2_CMSG
+IdleCategory - aXXX_069000: Event69000_CMSG
+IdleCategory - aXXX_069001: Event69001_CMSG
+IdleCategory - aXXX_069002: Event69002_CMSG
+IdleCategory - aXXX_069003: Event69003_CMSG
+IdleCategory - aXXX_069010: Event69010_CMSG
+IdleCategory - aXXX_069030: Event69030_CMSG
+IdleCategory - aXXX_069040: Event69040_CMSG
+IdleCategory - aXXX_069050: Event69050_CMSG
+IdleCategory - aXXX_069060: Event69060_CMSG
+IdleCategory - aXXX_069070: Event69070_CMSG
+IdleCategory - aXXX_070000: Throw70000_CMSG
+IdleCategory - aXXX_070001: ThrowDeath70000_CMSG
+IdleCategory - aXXX_070002: ThrowDeathIdle70000_CMSG
+IdleCategory - aXXX_070002: ThrowDeathIdle70510_CMSG
+IdleCategory - aXXX_070010: Throw70010_CMSG
+IdleCategory - aXXX_070011: ThrowDeath70010_CMSG
+IdleCategory - aXXX_070011: ThrowDeath70510_CMSG
+IdleCategory - aXXX_070011: ThrowDeath70530_CMSG
+IdleCategory - aXXX_070012: ThrowDeathIdle70010_CMSG
+IdleCategory - aXXX_070020: Throw70020_CMSG
+IdleCategory - aXXX_070021: ThrowDeath70020_CMSG
+IdleCategory - aXXX_070022: ThrowDeathIdle70020_CMSG
+IdleCategory - aXXX_070030: Throw70030_CMSG
+IdleCategory - aXXX_070031: ThrowDeath70030_CMSG
+IdleCategory - aXXX_070032: ThrowDeathIdle70030_CMSG
+IdleCategory - aXXX_070100: Throw70100_CMSG
+IdleCategory - aXXX_070101: ThrowDeath70100_CMSG
+IdleCategory - aXXX_070102: ThrowDeathIdle70100_CMSG
+IdleCategory - aXXX_070300: Throw70300_CMSG
+IdleCategory - aXXX_070301: ThrowDeath70300_CMSG
+IdleCategory - aXXX_070302: ThrowDeathIdle70300_CMSG
+IdleCategory - aXXX_070303: ThrowEscape70300_CMSG
+IdleCategory - aXXX_070304: ThrowDefHold70300_CMSG
+IdleCategory - aXXX_070310: Throw70310_CMSG
+IdleCategory - aXXX_070311: ThrowDeath70310_CMSG
+IdleCategory - aXXX_070312: ThrowDeathIdle70310_CMSG
+IdleCategory - aXXX_070500: Throw70500_CMSG
+IdleCategory - aXXX_070501: ThrowDeath70500_CMSG
+IdleCategory - aXXX_070502: ThrowDeathIdle70500_CMSG
+IdleCategory - aXXX_070510: Throw70510_CMSG
+IdleCategory - aXXX_070520: Throw70520_CMSG
+IdleCategory - aXXX_070521: ThrowDeath70520_CMSG
+IdleCategory - aXXX_070522: ThrowDeathIdle70520_CMSG
+IdleCategory - aXXX_070530: Throw70530_CMSG
+IdleCategory - aXXX_070540: Throw70540_CMSG
+IdleCategory - aXXX_070541: ThrowDeath70540_CMSG
+IdleCategory - aXXX_070542: ThrowDeathIdle70540_CMSG
+IdleCategory - aXXX_070550: Throw70550_CMSG
+IdleCategory - aXXX_070551: ThrowDeath70550_CMSG
+IdleCategory - aXXX_070552: ThrowDeathIdle70550_CMSG
+IdleCategory - aXXX_070560: Throw70560_CMSG
+IdleCategory - aXXX_070561: ThrowDeath70560_CMSG
+IdleCategory - aXXX_070562: ThrowDeathIdle70560_CMSG
+IdleCategory - aXXX_070563: ThrowEscape70560_CMSG
+IdleCategory - aXXX_070564: ThrowDefHold70560_CMSG
+IdleCategory - aXXX_070570: Throw70570_CMSG
+IdleCategory - aXXX_070571: ThrowDeath70570_CMSG
+IdleCategory - aXXX_070572: ThrowDeathIdle70570_CMSG
+IdleCategory - aXXX_070580: Throw70580_CMSG
+IdleCategory - aXXX_070581: ThrowDeath70580_CMSG
+IdleCategory - aXXX_070582: ThrowDeathIdle70580_CMSG
+IdleCategory - aXXX_070590: Throw70590_CMSG
+IdleCategory - aXXX_070591: ThrowDeath70590_CMSG
+IdleCategory - aXXX_070592: ThrowDeathIdle70590_CMSG
+IdleCategory - aXXX_070600: Throw70600_CMSG
+IdleCategory - aXXX_070601: ThrowDeath70600_CMSG
+IdleCategory - aXXX_070602: ThrowDeathIdle70600_CMSG
+IdleCategory - aXXX_070603: ThrowEscape70600_CMSG
+IdleCategory - aXXX_070604: ThrowDefHold70600_CMSG
+IdleCategory - aXXX_070610: Throw70610_CMSG
+IdleCategory - aXXX_070611: ThrowDeath70610_CMSG
+IdleCategory - aXXX_070612: ThrowDeathIdle70610_CMSG
+IdleCategory - aXXX_070613: ThrowEscape70610_CMSG
+IdleCategory - aXXX_070614: ThrowDefHold70610_CMSG
+IdleCategory - aXXX_070620: Throw70620_CMSG
+IdleCategory - aXXX_070621: ThrowDeath70620_CMSG
+IdleCategory - aXXX_070622: ThrowDeathIdle70620_CMSG
+IdleCategory - aXXX_070630: Throw70630_CMSG
+IdleCategory - aXXX_070631: ThrowDeath70630_CMSG
+IdleCategory - aXXX_070632: ThrowDeathIdle70630_CMSG
+IdleCategory - aXXX_070640: Throw70640_CMSG
+IdleCategory - aXXX_070641: ThrowDeath70640_CMSG
+IdleCategory - aXXX_070642: ThrowDeathIdle70640_CMSG
+IdleCategory - aXXX_070643: ThrowEscape70640_CMSG
+IdleCategory - aXXX_070644: ThrowDefHold70640_CMSG
+IdleCategory - aXXX_070650: Throw70650_CMSG
+IdleCategory - aXXX_070651: ThrowDeath70650_CMSG
+IdleCategory - aXXX_070652: ThrowDeathIdle70650_CMSG
+IdleCategory - aXXX_070660: Throw70660_CMSG
+IdleCategory - aXXX_070661: ThrowDeath70660_CMSG
+IdleCategory - aXXX_070662: ThrowDeathIdle70660_CMSG
+IdleCategory - aXXX_070670: Throw70670_CMSG
+IdleCategory - aXXX_070671: ThrowDeath70670_CMSG
+IdleCategory - aXXX_070672: ThrowDeathIdle70670_CMSG
+IdleCategory - aXXX_070680: Throw70680_CMSG
+IdleCategory - aXXX_070681: ThrowDeath70680_CMSG
+IdleCategory - aXXX_070682: ThrowDeathIdle70680_CMSG
+IdleCategory - aXXX_070690: Throw70690_CMSG
+IdleCategory - aXXX_070691: ThrowDeath70690_CMSG
+IdleCategory - aXXX_070692: ThrowDeathIdle70690_CMSG
+IdleCategory - aXXX_070700: Throw70700_CMSG
+IdleCategory - aXXX_070701: ThrowDeath70700_CMSG
+IdleCategory - aXXX_070702: ThrowDeathIdle70700_CMSG
+IdleCategory - aXXX_070710: Throw70710_CMSG
+IdleCategory - aXXX_070711: ThrowDeath70710_CMSG
+IdleCategory - aXXX_070712: ThrowDeathIdle70710_CMSG
+IdleCategory - aXXX_070720: Throw70720_CMSG
+IdleCategory - aXXX_070721: ThrowDeath70720_CMSG
+IdleCategory - aXXX_070722: ThrowDeathIdle70720_CMSG
+IdleCategory - aXXX_070723: ThrowEscape70720_CMSG
+IdleCategory - aXXX_070724: ThrowDefHold70720_CMSG
+IdleCategory - aXXX_070730: Throw70730_CMSG
+IdleCategory - aXXX_070731: ThrowDeath70730_CMSG
+IdleCategory - aXXX_070732: ThrowDeathIdle70730_CMSG
+IdleCategory - aXXX_070740: Throw70740_CMSG
+IdleCategory - aXXX_070741: ThrowDeath70740_CMSG
+IdleCategory - aXXX_070742: ThrowDeathIdle70740_CMSG
+IdleCategory - aXXX_070750: Throw70750_CMSG
+IdleCategory - aXXX_070751: ThrowDeath70750_CMSG
+IdleCategory - aXXX_070752: ThrowDeathIdle70750_CMSG
+IdleCategory - aXXX_070760: Throw70760_CMSG
+IdleCategory - aXXX_070761: ThrowDeath70760_CMSG
+IdleCategory - aXXX_070762: ThrowDeathIdle70760_CMSG
+IdleCategory - aXXX_070763: ThrowEscape70760_CMSG
+IdleCategory - aXXX_070764: ThrowDefHold70760_CMSG
+IdleCategory - aXXX_070770: Throw70770_CMSG
+IdleCategory - aXXX_070771: ThrowDeath70770_CMSG
+IdleCategory - aXXX_070772: ThrowDeathIdle70770_CMSG
+IdleCategory - aXXX_070773: ThrowEscape70770_CMSG
+IdleCategory - aXXX_070774: ThrowDefHold70770_CMSG
+IdleCategory - aXXX_070780: Throw70780_CMSG
+IdleCategory - aXXX_070781: ThrowDeath70780_CMSG
+IdleCategory - aXXX_070782: ThrowDeathIdle70780_CMSG
+IdleCategory - aXXX_070790: Throw70790_CMSG
+IdleCategory - aXXX_070791: ThrowDeath70790_CMSG
+IdleCategory - aXXX_070792: ThrowDeathIdle70790_CMSG
+IdleCategory - aXXX_070800: Throw70800_CMSG
+IdleCategory - aXXX_070801: ThrowDeath70800_CMSG
+IdleCategory - aXXX_070802: ThrowDeathIdle70800_CMSG
+IdleCategory - aXXX_070810: Throw70810_CMSG
+IdleCategory - aXXX_070811: ThrowDeath70810_CMSG
+IdleCategory - aXXX_070812: ThrowDeathIdle70810_CMSG
+IdleCategory - aXXX_070820: Throw70820_CMSG
+IdleCategory - aXXX_070821: ThrowDeath70820_CMSG
+IdleCategory - aXXX_070822: ThrowDeathIdle70820_CMSG
+IdleCategory - aXXX_070830: Throw70830_CMSG
+IdleCategory - aXXX_070831: ThrowDeath70830_CMSG
+IdleCategory - aXXX_070832: ThrowDeathIdle70830_CMSG
+IdleCategory - aXXX_070840: Throw70840_CMSG
+IdleCategory - aXXX_070841: ThrowDeath70840_CMSG
+IdleCategory - aXXX_070842: ThrowDeathIdle70840_CMSG
+IdleCategory - aXXX_070850: Throw70850_CMSG
+IdleCategory - aXXX_070851: ThrowDeath70850_CMSG
+IdleCategory - aXXX_070852: ThrowDeathIdle70850_CMSG
+IdleCategory - aXXX_070853: ThrowEscape70850_CMSG
+IdleCategory - aXXX_070854: ThrowDefHold70850_CMSG
+IdleCategory - aXXX_070860: Throw70860_CMSG
+IdleCategory - aXXX_070861: ThrowDeath70860_CMSG
+IdleCategory - aXXX_070862: ThrowDeathIdle70860_CMSG
+IdleCategory - aXXX_070863: ThrowEscape70860_CMSG
+IdleCategory - aXXX_070864: ThrowDefHold70860_CMSG
+IdleCategory - aXXX_070870: Throw70870_CMSG
+IdleCategory - aXXX_070871: ThrowDeath70870_CMSG
+IdleCategory - aXXX_070872: ThrowDeathIdle70870_CMSG
+IdleCategory - aXXX_070880: Throw70880_CMSG
+IdleCategory - aXXX_070881: ThrowDeath70880_CMSG
+IdleCategory - aXXX_070882: ThrowDeathIdle70880_CMSG
+IdleCategory - aXXX_070890: Throw70890_CMSG
+IdleCategory - aXXX_070891: ThrowDeath70890_CMSG
+IdleCategory - aXXX_070892: ThrowDeathIdle70890_CMSG
+IdleCategory - aXXX_070900: Throw70900_CMSG
+IdleCategory - aXXX_070901: ThrowDeath70900_CMSG
+IdleCategory - aXXX_070902: ThrowDeathIdle70900_CMSG
+IdleCategory - aXXX_070910: Throw70910_CMSG
+IdleCategory - aXXX_070911: ThrowDeath70910_CMSG
+IdleCategory - aXXX_070912: ThrowDeathIdle70910_CMSG
+IdleCategory - aXXX_070913: ThrowEscape70910_CMSG
+IdleCategory - aXXX_070914: ThrowDefHold70910_CMSG
+IdleCategory - aXXX_070920: Throw70920_CMSG
+IdleCategory - aXXX_070921: ThrowDeath70920_CMSG
+IdleCategory - aXXX_070922: ThrowDeathIdle70920_CMSG
+IdleCategory - aXXX_070923: ThrowEscape70920_CMSG
+IdleCategory - aXXX_070924: ThrowDefHold70920_CMSG
+IdleCategory - aXXX_070930: Throw70930_CMSG
+IdleCategory - aXXX_070931: ThrowDeath70930_CMSG
+IdleCategory - aXXX_070932: ThrowDeathIdle70930_CMSG
+IdleCategory - aXXX_070940: Throw70940_CMSG
+IdleCategory - aXXX_070941: ThrowDeath70940_CMSG
+IdleCategory - aXXX_070942: ThrowDeathIdle70940_CMSG
+IdleCategory - aXXX_070943: ThrowEscape70940_CMSG
+IdleCategory - aXXX_070944: ThrowDefHold70940_CMSG
+IdleCategory - aXXX_070950: Throw70950_CMSG
+IdleCategory - aXXX_070951: ThrowDeath70950_CMSG
+IdleCategory - aXXX_070952: ThrowDeathIdle70950_CMSG
+IdleCategory - aXXX_070953: ThrowEscape70950_CMSG
+IdleCategory - aXXX_070954: ThrowDefHold70950_CMSG
+IdleCategory - aXXX_070960: Throw70960_CMSG
+IdleCategory - aXXX_070961: ThrowDeath70960_CMSG
+IdleCategory - aXXX_070962: ThrowDeathIdle70960_CMSG
+IdleCategory - aXXX_070970: Throw70970_CMSG
+IdleCategory - aXXX_070971: ThrowDeath70970_CMSG
+IdleCategory - aXXX_070972: ThrowDeathIdle70970_CMSG
+IdleCategory - aXXX_070980: Throw70980_CMSG
+IdleCategory - aXXX_070981: ThrowDeath70980_CMSG
+IdleCategory - aXXX_070982: ThrowDeathIdle70980_CMSG
+IdleCategory - aXXX_070983: ThrowEscape70980_CMSG
+IdleCategory - aXXX_070984: ThrowDefHold70980_CMSG
+IdleCategory - aXXX_070990: Throw70990_CMSG
+IdleCategory - aXXX_070991: ThrowDeath70990_CMSG
+IdleCategory - aXXX_070992: ThrowDeathIdle70990_CMSG
+IdleCategory - aXXX_071000: Throw71000_CMSG
+IdleCategory - aXXX_071001: ThrowDeath71000_CMSG
+IdleCategory - aXXX_071002: ThrowDeathIdle71000_CMSG
+IdleCategory - aXXX_071010: Throw71010_CMSG
+IdleCategory - aXXX_071011: ThrowDeath71010_CMSG
+IdleCategory - aXXX_071012: ThrowDeathIdle71010_CMSG
+IdleCategory - aXXX_071020: Throw71020_CMSG
+IdleCategory - aXXX_071021: ThrowDeath71020_CMSG
+IdleCategory - aXXX_071022: ThrowDeathIdle71020_CMSG
+IdleCategory - aXXX_071030: Throw71030_CMSG
+IdleCategory - aXXX_071031: ThrowDeath71030_CMSG
+IdleCategory - aXXX_071032: ThrowDeathIdle71030_CMSG
+IdleCategory - aXXX_071040: Throw71040_CMSG
+IdleCategory - aXXX_071041: ThrowDeath71040_CMSG
+IdleCategory - aXXX_071042: ThrowDeathIdle71040_CMSG
+IdleCategory - aXXX_071050: Throw71050_CMSG
+IdleCategory - aXXX_071051: ThrowDeath71050_CMSG
+IdleCategory - aXXX_071052: ThrowDeathIdle71050_CMSG
+IdleCategory - aXXX_071053: ThrowEscape71050_CMSG
+IdleCategory - aXXX_071054: ThrowDefHold71050_CMSG
+IdleCategory - aXXX_071060: Throw71060_CMSG
+IdleCategory - aXXX_071061: ThrowDeath71060_CMSG
+IdleCategory - aXXX_071062: ThrowDeathIdle71060_CMSG
+IdleCategory - aXXX_071070: Throw71070_CMSG
+IdleCategory - aXXX_071071: ThrowDeath71070_CMSG
+IdleCategory - aXXX_071072: ThrowDeathIdle71070_CMSG
+IdleCategory - aXXX_071080: Throw71080_CMSG
+IdleCategory - aXXX_071081: ThrowDeath71080_CMSG
+IdleCategory - aXXX_071082: ThrowDeathIdle71080_CMSG
+IdleCategory - aXXX_071090: Throw71090_CMSG
+IdleCategory - aXXX_071091: ThrowDeath71090_CMSG
+IdleCategory - aXXX_071092: ThrowDeathIdle71090_CMSG
+IdleCategory - aXXX_071100: Throw71100_CMSG
+IdleCategory - aXXX_071101: ThrowDeath71100_CMSG
+IdleCategory - aXXX_071102: ThrowDeathIdle71100_CMSG
+IdleCategory - aXXX_071103: ThrowEscape71100_CMSG
+IdleCategory - aXXX_071104: ThrowDefHold71100_CMSG
+IdleCategory - aXXX_071110: Throw71110_CMSG
+IdleCategory - aXXX_071111: ThrowDeath71110_CMSG
+IdleCategory - aXXX_071112: ThrowDeathIdle71110_CMSG
+IdleCategory - aXXX_071120: Throw71120_CMSG
+IdleCategory - aXXX_071121: ThrowDeath71120_CMSG
+IdleCategory - aXXX_071122: ThrowDeathIdle71120_CMSG
+IdleCategory - aXXX_071130: Throw71130_CMSG
+IdleCategory - aXXX_071131: ThrowDeath71130_CMSG
+IdleCategory - aXXX_071132: ThrowDeathIdle71130_CMSG
+IdleCategory - aXXX_071140: Throw71140_CMSG
+IdleCategory - aXXX_071141: ThrowDeath71140_CMSG
+IdleCategory - aXXX_071142: ThrowDeathIdle71140_CMSG
+IdleCategory - aXXX_071150: Throw71150_CMSG
+IdleCategory - aXXX_071151: ThrowDeath71150_CMSG
+IdleCategory - aXXX_071152: ThrowDeathIdle71150_CMSG
+IdleCategory - aXXX_071160: Throw71160_CMSG
+IdleCategory - aXXX_071161: ThrowDeath71160_CMSG
+IdleCategory - aXXX_071162: ThrowDeathIdle71160_CMSG
+IdleCategory - aXXX_075000: SpecialDamageUpper_CMSG
+IdleCategory - aXXX_075001: SpecialDamageUpperLoop_CMSG
+IdleCategory - aXXX_075002: SpecialDamageUpperLand_CMSG
+IdleCategory - aXXX_075003: DeathSpecialDamageUpper_CMSG
+IdleCategory - aXXX_075004: DeathSpecialDamageUpperIdle_CMSG
+IdleCategory - aXXX_080000: Event80000_CMSG
+IdleCategory - aXXX_080000: Gesture1Start_CMSG
+IdleCategory - aXXX_080000: Gesture1Start_Upper_CMSG
+IdleCategory - aXXX_080100: Event80100_CMSG
+IdleCategory - aXXX_080100: Gesture2Start_CMSG
+IdleCategory - aXXX_080100: Gesture2Start_Upper_CMSG
+IdleCategory - aXXX_080200: Event80200_CMSG
+IdleCategory - aXXX_080200: Gesture3Start_CMSG
+IdleCategory - aXXX_080200: Gesture3Start_Upper_CMSG
+IdleCategory - aXXX_080300: Event80300_CMSG
+IdleCategory - aXXX_080300: Gesture4Start_CMSG
+IdleCategory - aXXX_080300: Gesture4Start_Upper_CMSG
+IdleCategory - aXXX_080400: Event80400_CMSG
+IdleCategory - aXXX_080400: Gesture5Start_CMSG
+IdleCategory - aXXX_080400: Gesture5Start_Upper_CMSG
+IdleCategory - aXXX_080500: Event80500_CMSG
+IdleCategory - aXXX_080500: Gesture6Start_CMSG
+IdleCategory - aXXX_080500: Gesture6Start_Upper_CMSG
+IdleCategory - aXXX_080600: Event80600_CMSG
+IdleCategory - aXXX_080600: Gesture7Start_CMSG
+IdleCategory - aXXX_080600: Gesture7Start_Upper_CMSG
+IdleCategory - aXXX_080700: Event80700_CMSG
+IdleCategory - aXXX_080700: Gesture8Start_CMSG
+IdleCategory - aXXX_080700: Gesture8LoopStart_CMSG
+IdleCategory - aXXX_080700: Gesture8Start_Upper_CMSG
+IdleCategory - aXXX_080700: Gesture8LoopStart_Upper_CMSG
+IdleCategory - aXXX_080701: Event80701_CMSG
+IdleCategory - aXXX_080701: Gesture8Loop_CMSG
+IdleCategory - aXXX_080701: Gesture8Loop_Upper_CMSG
+IdleCategory - aXXX_080702: Gesture8End_CMSG
+IdleCategory - aXXX_080702: Gesture8End_Upper_CMSG
+IdleCategory - aXXX_080800: Event80800_CMSG
+IdleCategory - aXXX_080800: Gesture9Start_CMSG
+IdleCategory - aXXX_080800: Gesture9Start_Upper_CMSG
+IdleCategory - aXXX_080900: Event80900_CMSG
+IdleCategory - aXXX_080900: Gesture10Start_CMSG
+IdleCategory - aXXX_080900: Gesture10LoopStart_CMSG
+IdleCategory - aXXX_080900: Gesture10Start_Upper_CMSG
+IdleCategory - aXXX_080900: Gesture10LoopStart_Upper_CMSG
+IdleCategory - aXXX_080901: Event80901_CMSG
+IdleCategory - aXXX_080901: Gesture10Loop_CMSG
+IdleCategory - aXXX_080901: Gesture10Loop_Upper_CMSG
+IdleCategory - aXXX_080902: Gesture10End_CMSG
+IdleCategory - aXXX_080902: Gesture10End_Upper_CMSG
+IdleCategory - aXXX_081000: Event81000_CMSG
+IdleCategory - aXXX_081000: Gesture11Start_CMSG
+IdleCategory - aXXX_081000: Gesture11Start_Upper_CMSG
+IdleCategory - aXXX_081100: Event81100_CMSG
+IdleCategory - aXXX_081100: Gesture12Start_CMSG
+IdleCategory - aXXX_081100: Gesture12Start_Upper_CMSG
+IdleCategory - aXXX_081200: Event81200_CMSG
+IdleCategory - aXXX_081200: Gesture13Start_CMSG
+IdleCategory - aXXX_081200: Gesture13Start_Upper_CMSG
+IdleCategory - aXXX_081300: Event81300_CMSG
+IdleCategory - aXXX_081300: Gesture14Start_CMSG
+IdleCategory - aXXX_081300: Gesture14Start_Upper_CMSG
+IdleCategory - aXXX_081400: Event81400_CMSG
+IdleCategory - aXXX_081400: Gesture15Start_CMSG
+IdleCategory - aXXX_081400: Gesture15Start_Upper_CMSG
+IdleCategory - aXXX_081500: Event81500_CMSG
+IdleCategory - aXXX_081500: Gesture16Start_CMSG
+IdleCategory - aXXX_081500: Gesture16Start_Upper_CMSG
+IdleCategory - aXXX_081600: Event81600_CMSG
+IdleCategory - aXXX_081600: Gesture17Start_CMSG
+IdleCategory - aXXX_081600: Gesture17Start_Upper_CMSG
+IdleCategory - aXXX_081800: Event81800_CMSG
+IdleCategory - aXXX_081800: Gesture18Start_CMSG
+IdleCategory - aXXX_081800: Gesture18LoopStart_CMSG
+IdleCategory - aXXX_081800: Gesture18Start_Upper_CMSG
+IdleCategory - aXXX_081800: Gesture18LoopStart_Upper_CMSG
+IdleCategory - aXXX_081801: Event81801_CMSG
+IdleCategory - aXXX_081801: Gesture18Loop_CMSG
+IdleCategory - aXXX_081801: Gesture18Loop_Upper_CMSG
+IdleCategory - aXXX_081802: Gesture18End_CMSG
+IdleCategory - aXXX_081802: Gesture18End_Upper_CMSG
+IdleCategory - aXXX_082400: Event82400_CMSG
+IdleCategory - aXXX_082400: Gesture19Start_CMSG
+IdleCategory - aXXX_082400: Gesture19Start_Upper_CMSG
+IdleCategory - aXXX_083300: Event83300_CMSG
+IdleCategory - aXXX_083300: Gesture20Start_CMSG
+IdleCategory - aXXX_083300: Gesture20Start_Upper_CMSG
+IdleCategory - aXXX_083900: Event83900_CMSG
+IdleCategory - aXXX_083900: Gesture21Start_CMSG
+IdleCategory - aXXX_083900: Gesture21Start_Upper_CMSG
+IdleCategory - aXXX_084100: Event84100_CMSG
+IdleCategory - aXXX_084100: Gesture22Start_CMSG
+IdleCategory - aXXX_084100: Gesture22Start_Upper_CMSG
+IdleCategory - aXXX_084200: Event84200_CMSG
+IdleCategory - aXXX_084200: Gesture23Start_CMSG
+IdleCategory - aXXX_084200: Gesture23LoopStart_CMSG
+IdleCategory - aXXX_084200: Gesture23Start_Upper_CMSG
+IdleCategory - aXXX_084200: Gesture23LoopStart_Upper_CMSG
+IdleCategory - aXXX_084201: Event84201_CMSG
+IdleCategory - aXXX_084201: Gesture23Loop_CMSG
+IdleCategory - aXXX_084201: Gesture23Loop_Upper_CMSG
+IdleCategory - aXXX_084202: Gesture23End_CMSG
+IdleCategory - aXXX_084202: Gesture23End_Upper_CMSG
+IdleCategory - aXXX_084300: Event84300_CMSG
+IdleCategory - aXXX_084300: Gesture24Start_CMSG
+IdleCategory - aXXX_084300: Gesture24LoopStart_CMSG
+IdleCategory - aXXX_084300: Gesture24Start_Upper_CMSG
+IdleCategory - aXXX_084300: Gesture24LoopStart_Upper_CMSG
+IdleCategory - aXXX_084301: Event84301_CMSG
+IdleCategory - aXXX_084301: Gesture24Loop_CMSG
+IdleCategory - aXXX_084301: Gesture24Loop_Upper_CMSG
+IdleCategory - aXXX_084302: Gesture24End_CMSG
+IdleCategory - aXXX_084302: Gesture24End_Upper_CMSG
+IdleCategory - aXXX_084400: Event84400_CMSG
+IdleCategory - aXXX_084400: Gesture25Start_CMSG
+IdleCategory - aXXX_084400: Gesture25Start_Upper_CMSG
+IdleCategory - aXXX_084500: Event84500_CMSG
+IdleCategory - aXXX_084500: Gesture26Start_CMSG
+IdleCategory - aXXX_084500: Gesture26LoopStart_CMSG
+IdleCategory - aXXX_084500: Gesture26Start_Upper_CMSG
+IdleCategory - aXXX_084500: Gesture26LoopStart_Upper_CMSG
+IdleCategory - aXXX_084501: Event84501_CMSG
+IdleCategory - aXXX_084501: Gesture26Loop_CMSG
+IdleCategory - aXXX_084501: Gesture26Loop_Upper_CMSG
+IdleCategory - aXXX_084502: Gesture26End_CMSG
+IdleCategory - aXXX_084502: Gesture26End_Upper_CMSG
+IdleCategory - aXXX_084600: Event84600_CMSG
+IdleCategory - aXXX_084600: Gesture27Start_CMSG
+IdleCategory - aXXX_084600: Gesture27Start_Upper_CMSG
+IdleCategory - aXXX_084700: Event84700_CMSG
+IdleCategory - aXXX_084700: Gesture28Start_CMSG
+IdleCategory - aXXX_084700: Gesture28LoopStart_CMSG
+IdleCategory - aXXX_084700: Gesture28Start_Upper_CMSG
+IdleCategory - aXXX_084700: Gesture28LoopStart_Upper_CMSG
+IdleCategory - aXXX_084701: Event84701_CMSG
+IdleCategory - aXXX_084701: Gesture28Loop_CMSG
+IdleCategory - aXXX_084701: Gesture28Loop_Upper_CMSG
+IdleCategory - aXXX_084702: Gesture28End_CMSG
+IdleCategory - aXXX_084702: Gesture28End_Upper_CMSG
+IdleCategory - aXXX_085000: Event85000_CMSG
+IdleCategory - aXXX_085000: Gesture29Start_CMSG
+IdleCategory - aXXX_085000: Gesture29Start_Upper_CMSG
+IdleCategory - aXXX_085100: Event85100_CMSG
+IdleCategory - aXXX_085100: Gesture30Start_CMSG
+IdleCategory - aXXX_085100: Gesture29LoopStart_CMSG
+IdleCategory - aXXX_085100: Gesture30Start_Upper_CMSG
+IdleCategory - aXXX_085100: Gesture29LoopStart_Upper_CMSG
+IdleCategory - aXXX_085101: Event85101_CMSG
+IdleCategory - aXXX_085101: Gesture29Loop_CMSG
+IdleCategory - aXXX_085101: Gesture29Loop_Upper_CMSG
+IdleCategory - aXXX_085102: Gesture29End_CMSG
+IdleCategory - aXXX_085102: Gesture29End_Upper_CMSG
+IdleCategory - aXXX_085200: Event85200_CMSG
+IdleCategory - aXXX_085200: Gesture31Start_CMSG
+IdleCategory - aXXX_085200: Gesture31Start_Upper_CMSG
+IdleCategory - aXXX_085300: Event85300_CMSG
+IdleCategory - aXXX_085300: Gesture32Start_CMSG
+IdleCategory - aXXX_085300: Gesture32LoopStart_CMSG
+IdleCategory - aXXX_085300: Gesture32Start_Upper_CMSG
+IdleCategory - aXXX_085300: Gesture32LoopStart_Upper_CMSG
+IdleCategory - aXXX_085301: Event85301_CMSG
+IdleCategory - aXXX_085301: Gesture32Loop_CMSG
+IdleCategory - aXXX_085301: Gesture32Loop_Upper_CMSG
+IdleCategory - aXXX_085302: Gesture32End_CMSG
+IdleCategory - aXXX_085302: Gesture32End_Upper_CMSG
+IdleCategory - aXXX_085400: Event85400_CMSG
+IdleCategory - aXXX_085400: Gesture33Start_CMSG
+IdleCategory - aXXX_085400: Gesture33LoopStart_CMSG
+IdleCategory - aXXX_085400: Gesture33Start_Upper_CMSG
+IdleCategory - aXXX_085400: Gesture33LoopStart_Upper_CMSG
+IdleCategory - aXXX_085401: Event85401_CMSG
+IdleCategory - aXXX_085401: Gesture33Loop_CMSG
+IdleCategory - aXXX_085401: Gesture33Loop_Upper_CMSG
+IdleCategory - aXXX_085402: Gesture33End_CMSG
+IdleCategory - aXXX_085402: Gesture33End_Upper_CMSG
+IdleCategory - aXXX_085500: Event85500_CMSG
+IdleCategory - aXXX_085500: Gesture34Start_CMSG
+IdleCategory - aXXX_085500: Gesture34LoopStart_CMSG
+IdleCategory - aXXX_085500: Gesture34Start_Upper_CMSG
+IdleCategory - aXXX_085500: Gesture34LoopStart_Upper_CMSG
+IdleCategory - aXXX_085501: Event85501_CMSG
+IdleCategory - aXXX_085501: Gesture34Loop_CMSG
+IdleCategory - aXXX_085501: Gesture34Loop_Upper_CMSG
+IdleCategory - aXXX_085502: Gesture34End_CMSG
+IdleCategory - aXXX_085502: Gesture34End_Upper_CMSG
+IdleCategory - aXXX_085600: Event85600_CMSG
+IdleCategory - aXXX_085600: Gesture35Start_CMSG
+IdleCategory - aXXX_085600: Gesture35LoopStart_CMSG
+IdleCategory - aXXX_085600: Gesture35Start_Upper_CMSG
+IdleCategory - aXXX_085600: Gesture35LoopStart_Upper_CMSG
+IdleCategory - aXXX_085601: Event85601_CMSG
+IdleCategory - aXXX_085601: Gesture35Loop_CMSG
+IdleCategory - aXXX_085601: Gesture35Loop_Upper_CMSG
+IdleCategory - aXXX_085602: Gesture35End_CMSG
+IdleCategory - aXXX_085602: Gesture35End_Upper_CMSG
+IdleCategory - aXXX_085700: Gesture36Start_CMSG
+IdleCategory - aXXX_085700: Gesture36Start_Upper_CMSG
+IdleCategory - aXXX_085800: Gesture37Start_CMSG
+IdleCategory - aXXX_085800: Gesture37Start_Upper_CMSG
+IdleCategory - aXXX_085900: Gesture38Start_CMSG
+IdleCategory - aXXX_085900: Gesture38Start_Upper_CMSG
+IdleCategory - aXXX_086000: Gesture39Start_CMSG
+IdleCategory - aXXX_086000: Gesture39Start_Upper_CMSG
+IdleCategory - aXXX_086100: Gesture40Start_CMSG
+IdleCategory - aXXX_086100: Gesture40Start_Upper_CMSG
+IdleCategory - aXXX_086200: Gesture41Start_CMSG
+IdleCategory - aXXX_086200: Gesture41Start_Upper_CMSG
+IdleCategory - aXXX_086300: Gesture42Start_CMSG
+IdleCategory - aXXX_086300: Gesture42Start_Upper_CMSG
+IdleCategory - aXXX_090250: Event90250_CMSG
+IdleCategory - aXXX_090260: Event90260_CMSG
+IdleCategory - aXXX_090270: Event90270_CMSG
+IdleCategory - aXXX_090280: Event90280_CMSG
+IdleCategory - aXXX_090290: Event90290_CMSG
+IdleCategory - aXXX_090291: Event90291_CMSG
+IdleCategory - aXXX_090300: Event90300_CMSG
+IdleCategory - aXXX_090340: Event90340_CMSG
+IdleCategory - aXXX_090360: Event90360_CMSG
+IdleCategory - aXXX_090361: Event90361_CMSG
+IdleCategory - aXXX_090380: Event90380_CMSG
+IdleCategory - aXXX_090390: Event90390_CMSG
+IdleCategory - aXXX_090400: Event90400_CMSG
+IdleCategory - aXXX_090410: Event90410_CMSG
+IdleCategory - aXXX_090420: Event90420_CMSG
+IdleCategory - aXXX_090430: Event90430_CMSG
+IdleCategory - aXXX_090450: Event90450_CMSG
+IdleCategory - aXXX_090460: Event90460_CMSG
+IdleCategory - aXXX_090470: Event90470_CMSG
+IdleCategory - aXXX_090480: Event90480_CMSG
+IdleCategory - aXXX_090490: Event90490_CMSG
+IdleCategory - aXXX_090500: Event90500_CMSG
+IdleCategory - aXXX_090510: Event90510_CMSG
+IdleCategory - aXXX_090511: Event90511_CMSG
+IdleCategory - aXXX_090550: Event90550_CMSG
+IdleCategory - aXXX_090560: Event90560_CMSG
+IdleCategory - aXXX_090570: Event90570_CMSG
+IdleCategory - aXXX_090580: Event90580_CMSG
+IdleCategory - aXXX_090590: Event90590_CMSG
+IdleCategory - aXXX_090600: Event90600_CMSG
+IdleCategory - aXXX_090601: Event90601_CMSG
+IdleCategory - aXXX_090610: Event90610_CMSG
+IdleCategory - aXXX_090620: Event90620_CMSG
+IdleCategory - aXXX_090630: Event90630_CMSG
+IdleCategory - aXXX_090640: Event90640_CMSG
+IdleCategory - aXXX_090641: Event90641_CMSG
+IdleCategory - aXXX_090650: Event90650_CMSG
+IdleCategory - aXXX_090660: Event90660_CMSG
+IdleCategory - aXXX_090670: Event90670_CMSG
+IdleCategory - aXXX_090671: Event90671_CMSG
+IdleCategory - aXXX_090680: Event90680_CMSG
+IdleCategory - aXXX_090690: Event90690_CMSG
+IdleCategory - aXXX_090691: Event90691_CMSG
+IdleCategory - aXXX_090700: Event90700_CMSG
+IdleCategory - aXXX_090710: Event90710_CMSG
+IdleCategory - aXXX_090720: Event90720_CMSG
+IdleCategory - aXXX_090721: Event90721_CMSG
+IdleCategory - aXXX_090730: Event90730_CMSG
+IdleCategory - aXXX_090740: Event90740_CMSG
+IdleCategory - aXXX_090750: Event90750_CMSG
+IdleCategory - aXXX_090760: Event90760_CMSG
+IdleCategory - aXXX_090770: Event90770_CMSG
+IdleCategory - aXXX_090780: Event90780_CMSG
+IdleCategory - aXXX_090790: Event90790_CMSG
+IdleCategory - aXXX_090800: Event90800_CMSG
+IdleCategory - aXXX_090801: Event90801_CMSG
+IdleCategory - aXXX_090810: Event90810_CMSG
+IdleCategory - aXXX_090820: Event90820_CMSG
+IdleCategory - aXXX_090830: Event90830_CMSG
+IdleCategory - aXXX_090831: Event90831_CMSG
+IdleCategory - aXXX_090840: Event90840_CMSG
+IdleCategory - aXXX_090841: Event90841_CMSG
+IdleCategory - aXXX_090850: Event90850_CMSG
+IdleCategory - aXXX_090851: Event90851_CMSG
+IdleCategory - aXXX_090860: Event90860_CMSG
+IdleCategory - aXXX_090861: Event90861_CMSG
+IdleCategory - aXXX_090870: Event90870_CMSG
+IdleCategory - aXXX_090890: Event90890_CMSG
+IdleCategory - aXXX_090900: Event90900_CMSG
+IdleCategory - aXXX_090930: Event90930_CMSG
+IdleCategory - aXXX_090940: Event90940_CMSG
+IdleCategory - aXXX_090950: Event90950_CMSG
+IdleCategory - aXXX_090951: Event90951_CMSG
+IdleCategory - aXXX_090960: Event90960_CMSG
+IdleCategory - aXXX_090970: Event90970_CMSG
+IdleCategory - aXXX_090980: Event90980_CMSG
+IdleCategory - aXXX_090990: Event90990_CMSG
+IdleCategory - aXXX_090991: Event90991_CMSG
+IdleCategory - aXXX_091000: Event91000_CMSG
+IdleCategory - aXXX_091010: Event91010_CMSG
+IdleCategory - aXXX_091011: Event91011_CMSG
+IdleCategory - aXXX_091012: Event91012_CMSG
+IdleCategory - aXXX_091013: Event91013_CMSG
+IdleCategory - aXXX_091020: Event91020_CMSG
+IdleCategory - aXXX_091030: Event91030_CMSG
+IdleCategory - aXXX_091040: Event91040_CMSG
+IdleCategory - aXXX_091050: Event91050_CMSG
+IdleCategory - aXXX_091051: Event91051_CMSG
+IdleCategory - aXXX_091052: Event91052_CMSG
+IdleCategory - aXXX_091060: Event91060_CMSG
+IdleCategory - aXXX_091061: Event91061_CMSG
+IdleCategory - aXXX_091062: Event91062_CMSG
+IdleCategory - aXXX_091070: Event91070_CMSG
+IdleCategory - aXXX_091080: Event91080_CMSG
+IdleCategory - aXXX_091090: Event91090_CMSG
+IdleCategory - aXXX_091100: Event91100_CMSG
+IdleCategory - aXXX_091110: Event91110_CMSG
+IdleCategory - aXXX_091120: Event91120_CMSG
+IdleCategory - aXXX_091130: Event91130_CMSG
+IdleCategory - aXXX_091140: Event91140_CMSG
+IdleCategory - aXXX_091150: Event91150_CMSG
+IdleCategory - aXXX_091160: Event91160_CMSG
+IdleCategory - aXXX_091170: Event91170_CMSG
+IdleCategory - aXXX_091180: Event91180_CMSG
+IdleCategory - aXXX_091190: Event91190_CMSG
+IdleCategory - aXXX_091200: Event91200_CMSG
+IdleCategory - aXXX_091210: Event91210_CMSG
+IdleCategory - aXXX_091220: Event91220_CMSG
+IdleCategory - aXXX_091230: Event91230_CMSG
+IdleCategory - aXXX_099050: FemaleAddBlend_CMSG
+IdleCategory - aXXX_099998: Event99998_CMSG
+IdleCategory - aXXX_099999: Event99999_CMSG
+OffsetNone - aXXX_000000: SpinRightSelftrans_CMSG
+OffsetNone - aXXX_000000: SpinRightStart_CMSG
+OffsetNone - aXXX_000000: FourWayDrawStanceRightStart Selector
+OffsetNone - aXXX_000000: CircleStepStartSelftrans_CMSG
+OffsetNone - aXXX_000000: CircleStepStart_CMSG
+OffsetNone - aXXX_000000: FourWayAttackStart_CMSG
+OffsetNone - aXXX_000000: FourWayAttackStart_SelfTrans_CMSG
+OffsetNone - aXXX_000000: Move Selector
+OffsetNone - aXXX_000000: MoveCult Selector
+OffsetNone - aXXX_000000: Move_Upper Selector
+OffsetNone - aXXX_000000: MoveCult_Upper Selector
+OffsetNone - aXXX_000000: RollingSelftrans_CMSG
+OffsetNone - aXXX_000000: Rolling_CMSG
+OffsetNone - aXXX_000000: BackStep_CMSG
+OffsetNone - aXXX_000000: EStepDown_CMSG
+OffsetNone - aXXX_000000: MoveNoSync Selector
+OffsetNone - aXXX_012000: SAMagic_Default_CMSG
+OffsetNone - aXXX_028999: LadderAttachBottom_CMSG
+OffsetNone - aXXX_028999: LadderAttachTop_CMSG
+OffsetNone - aXXX_099060: SAMagicStart_CMSG
+OffsetNone - aXXX_099110: RightArmAddIdle_a02_CMSG
+OffsetNone - aXXX_099120: RightArmAddIdle_a03_CMSG
+OffsetNone - aXXX_099160: RightArmAddActive_a02_CMSG
+OffsetNone - aXXX_099170: RightArmAddActive_a03_CMSG
+WeaponCategoryHandStyle - aXXX_000000: PrayBroFireRight_CMSG
+WeaponCategoryHandStyle - aXXX_000000: PrayBroFireRight_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_030201: Throw30201_CMSG
+WeaponCategoryHandStyle - aXXX_030201: ThrowErrorHandling_CMSG
+WeaponCategoryHandStyle - aXXX_030202: Throw30202_CMSG
+WeaponCategoryHandStyle - aXXX_030203: Throw30203_CMSG
+WeaponCategoryHandStyle - aXXX_030400: Throw30400_CMSG
+WeaponCategoryHandStyle - aXXX_030401: Throw30401_CMSG
+WeaponCategoryHandStyle - aXXX_030402: Throw30402_CMSG
+WeaponCategoryHandStyle - aXXX_030410: Throw30410_CMSG
+WeaponCategoryHandStyle - aXXX_030420: Throw30420_CMSG
+WeaponCategoryHandStyle - aXXX_030450: ThrowBackStab_CMSG
+WeaponCategoryHandStyle - aXXX_030800: FallAttackStart_CMSG
+WeaponCategoryHandStyle - aXXX_030801: FallAttackLoop_CMSG
+WeaponCategoryHandStyle - aXXX_030802: FallAttackCancel_CMSG
+WeaponCategoryHandStyle - aXXX_030810: LandFallAttack_CMSG
+WeaponCategoryHandStyle - aXXX_030860: Throw30860_CMSG
+WeaponCategoryHandStyle - aXXX_030870: Throw30870_CMSG
+WeaponCategoryHandStyle - aXXX_033000: AttackBothLeft1_CMSG
+WeaponCategoryHandStyle - aXXX_033010: AttackBothLeft2_CMSG
+WeaponCategoryHandStyle - aXXX_033020: AttackBothLeft3_CMSG
+WeaponCategoryHandStyle - aXXX_033500: AttackBothLeftDash_CMSG
+WeaponCategoryHandStyle - aXXX_033900: AttackBothLeftStep_CMSG
+WeaponCategoryHandStyle - aXXX_034000: AttackBothLight1_CMSG
+WeaponCategoryHandStyle - aXXX_034000: AttackArrowRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_034010: AttackBothLight2_CMSG
+WeaponCategoryHandStyle - aXXX_034020: AttackBothLight3_CMSG
+WeaponCategoryHandStyle - aXXX_034100: AttackBothLightKick_CMSG
+WeaponCategoryHandStyle - aXXX_034150: GuardBreakWallBoth_CMSG
+WeaponCategoryHandStyle - aXXX_034200: GuardDamageBreakBoth_CMSG
+WeaponCategoryHandStyle - aXXX_034320: AttackBothHeavy1Start_CMSG
+WeaponCategoryHandStyle - aXXX_034321: AttackBothHeavy1End_CMSG
+WeaponCategoryHandStyle - aXXX_034325: AttackBothHeavyWepBroken1Start_CMSG
+WeaponCategoryHandStyle - aXXX_034330: AttackBothHeavy1SubStart_CMSG
+WeaponCategoryHandStyle - aXXX_034330: AttackBothHeavyWepBroken1SubStart_CMSG
+WeaponCategoryHandStyle - aXXX_034340: AttackBothHeavy2Start_CMSG
+WeaponCategoryHandStyle - aXXX_034341: AttackBothHeavy2End_CMSG
+WeaponCategoryHandStyle - aXXX_034345: AttackBothHeavyWepBroken2Start_CMSG
+WeaponCategoryHandStyle - aXXX_034350: AttackBothHeavySpecial1Start_CMSG
+WeaponCategoryHandStyle - aXXX_034351: AttackBothHeavySpecial1End_CMSG
+WeaponCategoryHandStyle - aXXX_034360: AttackBothHeavySpecial1SubStart_CMSG
+WeaponCategoryHandStyle - aXXX_034370: AttackBothHeavySpecial2Start_CMSG
+WeaponCategoryHandStyle - aXXX_034371: AttackBothHeavySpecial2End_CMSG
+WeaponCategoryHandStyle - aXXX_034500: AttackBothDash_CMSG
+WeaponCategoryHandStyle - aXXX_034500: AttackArrowRightFireDash_CMSG
+WeaponCategoryHandStyle - aXXX_034510: AttackBothDashSpecial_CMSG
+WeaponCategoryHandStyle - aXXX_034600: AttackBothHeavyKick_CMSG
+WeaponCategoryHandStyle - aXXX_034610: AttackBothHeavyKickSpecial_CMSG
+WeaponCategoryHandStyle - aXXX_034900: AttackBothLightStep_CMSG
+WeaponCategoryHandStyle - aXXX_034900: AttackArrowRightFireStep_CMSG
+WeaponCategoryHandStyle - aXXX_034910: AttackBothLightStepSpecial_CMSG
+WeaponCategoryHandStyle - aXXX_034920: AttackBothBackstep_CMSG
+WeaponCategoryHandStyle - aXXX_035500: AttackArrowRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_035500: AttackArrowRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_035510: AttackArrowRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_035510: AttackArrowRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_035515: AttackArrowRightLoopMove_CMSG
+WeaponCategoryHandStyle - aXXX_036000: StepInRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036000: StepInRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036001: StepInRightStart_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036001: StepInRightStart_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036050: StepInRightUppercut_CMSG
+WeaponCategoryHandStyle - aXXX_036051: StepInRightUppercut_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036060: StepInRightSlash_CMSG
+WeaponCategoryHandStyle - aXXX_036061: StepInRightSlash_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036070: StepInRightDashStart_CMSG
+WeaponCategoryHandStyle - aXXX_036100: SpinRightSelftransLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036100: SpinRightLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036110: SpinRightTransselfRight_CMSG
+WeaponCategoryHandStyle - aXXX_036110: SpinRightRight_CMSG
+WeaponCategoryHandStyle - aXXX_036120: SpinRightSelftransFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036120: SpinRightFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036130: SpinRightSelftransFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_036130: SpinRightFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_036200: DrawStanceRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036200: DrawStanceRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036202: FourWayDrawStanceRightStartRight
+WeaponCategoryHandStyle - aXXX_036202: DrawStanceRightComboStartRight_CMSG
+WeaponCategoryHandStyle - aXXX_036203: FourWayDrawStanceRightStartLeft
+WeaponCategoryHandStyle - aXXX_036203: DrawStanceRightComboStartRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036204: FourWayDrawStanceRightStartFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_036204: DrawStanceRightComboStartLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036205: FourWayDrawStanceRightStartFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036205: DrawStanceRightComboStartLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036206: FourWayDrawStanceRightStartBackRight_CMSG
+WeaponCategoryHandStyle - aXXX_036206: DrawStanceStartDash_CMSG
+WeaponCategoryHandStyle - aXXX_036207: FourWayDrawStanceRightStartBackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_036207: DrawStanceStartDash_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036208: DrawStanceStartRolling_CMSG
+WeaponCategoryHandStyle - aXXX_036209: DrawStanceStartRolling_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036210: DrawStanceRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_036210: DrawStanceRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036210: DrawStanceRightLoopNoSync_CMSG
+WeaponCategoryHandStyle - aXXX_036210: DrawStanceRightLoopNoSync_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036215: DrawStanceRightLoopMove_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036215: DrawStanceRightLoopMoveNoSync_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036220: DrawStanceRightEnd_CMSG
+WeaponCategoryHandStyle - aXXX_036220: DrawStanceRightEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036230: DrawStanceRightAttackLight_CMSG
+WeaponCategoryHandStyle - aXXX_036231: DrawStanceRightAttackLight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036232: DrawStanceRightAttackLightR90_CMSG
+WeaponCategoryHandStyle - aXXX_036233: DrawStanceRightAttackLightR90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036234: DrawStanceRightAttackLight180_CMSG
+WeaponCategoryHandStyle - aXXX_036235: DrawStanceRightAttackLight180_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036236: DrawStanceRightAttackLightL90_CMSG
+WeaponCategoryHandStyle - aXXX_036237: DrawStanceRightAttackLightL90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036240: DrawStanceRightAttackHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_036241: DrawStanceRightAttackHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036242: DrawStanceRightAttackHeavyR90_CMSG
+WeaponCategoryHandStyle - aXXX_036243: DrawStanceRightAttackHeavyR90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036244: DrawStanceRightAttackHeavy180_CMSG
+WeaponCategoryHandStyle - aXXX_036245: DrawStanceRightAttackHeavy180_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036246: DrawStanceRightAttackHeavyL90_CMSG
+WeaponCategoryHandStyle - aXXX_036247: DrawStanceRightAttackHeavyL90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036250: DrawStanceRightAttackLight2_CMSG
+WeaponCategoryHandStyle - aXXX_036251: DrawStanceRightAttackLight2_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036260: DrawStanceRightAttackHeavy2_CMSG
+WeaponCategoryHandStyle - aXXX_036261: DrawStanceRightAttackHeavy2_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036270: DrawStanceRightAttackHeavyLoop_CMSG
+WeaponCategoryHandStyle - aXXX_036271: DrawStanceRightAttackHeavyLoop_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036280: DrawStanceRightAttackHeavyLoopEnd_CMSG
+WeaponCategoryHandStyle - aXXX_036285: DrawStanceRightHeavyLoopGuard_CMSG00
+WeaponCategoryHandStyle - aXXX_036285: DrawStanceRightHeavyLoopGuard_CMSG
+WeaponCategoryHandStyle - aXXX_036290: DrawStanceRightAttackLight3_CMSG
+WeaponCategoryHandStyle - aXXX_036291: DrawStanceRightAttackLight3_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036300: SpecialAttackRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036310: SpecialAttackRightLight_CMSG
+WeaponCategoryHandStyle - aXXX_036320: SpecialAttackRightHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_036400: AttackSpinStart_CMSG
+WeaponCategoryHandStyle - aXXX_036400: AttackSpinStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036401: AttackSpinStart_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036401: AttackSpinStart_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036410: AttackSpinLight_CMSG
+WeaponCategoryHandStyle - aXXX_036411: AttackSpinLight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036420: AttackSpinHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_036421: AttackSpinHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036422: AttackSpinHeavyL_CMSG
+WeaponCategoryHandStyle - aXXX_036423: AttackSpinHeavyL_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036430: AttackSpinLoop_CMSG
+WeaponCategoryHandStyle - aXXX_036431: AttackSpinLoop_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036440: AttackSpinLoopEnd_CMSG
+WeaponCategoryHandStyle - aXXX_036441: AttackSpinLoopEnd_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036500: ChainShotRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036500: ChainShotRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036510: ChainShotRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_036510: ChainShotRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036515: ChainShotRightLoopMove_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036520: ChainShotRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_036521: ChainShotRightFire_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036530: ChainShotRightFireCont_CMSG
+WeaponCategoryHandStyle - aXXX_036531: ChainShotRighttFireCont_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036540: ChainShotRightEnd_CMSG
+WeaponCategoryHandStyle - aXXX_036540: ChainShotRightEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036700: Charge_CMSG
+WeaponCategoryHandStyle - aXXX_036700: Charge_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036701: Charge_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036701: Charge_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_036710: ChargeContinue_CMSG
+WeaponCategoryHandStyle - aXXX_036711: ChargeContinue_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036720: ChargeContinue2_CMSG
+WeaponCategoryHandStyle - aXXX_036721: ChargeContinue2_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_036800: StrongBashRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036900: ParryRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_036901: ParryRightStart_WepBreak_CMSG
+WeaponCategoryHandStyle - aXXX_037130: WideshotRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_037400: StampedeRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_037410: StampedeRightAttackLight_CMSG
+WeaponCategoryHandStyle - aXXX_037420: StampedeRightAttackHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_037670: Warcry_CMSG
+WeaponCategoryHandStyle - aXXX_037671: Warcry_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037680: WarcryCancel_CMSG
+WeaponCategoryHandStyle - aXXX_037681: WarcryCancel_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037700: Endure_CMSG
+WeaponCategoryHandStyle - aXXX_037700: Endure_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_037701: Endure_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037701: Endure_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_037710: EndureRightHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_037711: EndureRightHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037900: MagicBuffRight_CMSG
+WeaponCategoryHandStyle - aXXX_037900: MagicBuffRight_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_037901: MagicBuffRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037901: MagicBuffRight_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_037920: MagicBuffRight2_CMSG
+WeaponCategoryHandStyle - aXXX_037921: MagicBuffRight2_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_037940: MagicBuffRight3_CMSG
+WeaponCategoryHandStyle - aXXX_037941: MagicBuffRight3_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038020: CircleStepStartSelftransRight_CMSG
+WeaponCategoryHandStyle - aXXX_038020: CircleStepStartRight_CMSG
+WeaponCategoryHandStyle - aXXX_038021: CircleStepStartSelftransRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038021: CircleStepStartRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038030: CircleStepStartSelftransLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038030: CircleStepStartLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038031: CircleStepStartSelftransLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038031: CircleStepStartLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038040: CircleStepSelftransFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038040: CircleStepFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038041: CircleStepSelftransFrontLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038041: CircleStepFrontLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038050: CircleStepSelftransFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_038050: CircleStepFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_038051: CircleStepSelftransFrontRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038051: CircleStepFrontRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038060: CircleStepStartSelftransBackRight_CMSG
+WeaponCategoryHandStyle - aXXX_038060: CircleStepStartBackRight_CMSG
+WeaponCategoryHandStyle - aXXX_038061: CircleStepStartSelftransBackRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038061: CircleStepStartBackRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038070: CircleStepStartSelftransBackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038070: CircleStepStartBackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038071: CircleStepStartSelftransBackLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038071: CircleStepStartBackLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038100: ChargeShotRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_038100: ChargeShotRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038110: ChargeShotRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_038110: ChargeShotRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038120: ChargeShotRightEnd_CMSG
+WeaponCategoryHandStyle - aXXX_038120: ChargeShotRightEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038130: ChargeShotRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_038131: ChargeShotRightFire_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038140: ChargeShotRightHoldStart_CMSG
+WeaponCategoryHandStyle - aXXX_038140: ChargeShotRightHoldStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038150: ChargeShotRightHoldLoop_CMSG
+WeaponCategoryHandStyle - aXXX_038150: ChargeShotRightHoldLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038200: CrossbowStepInStart_CMSG
+WeaponCategoryHandStyle - aXXX_038200: CrossbowStepInRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038201: CrossbowStepInStart_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038201: CrossbowStepInRightStart_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038210: CrossbowStepInFire_CMSG
+WeaponCategoryHandStyle - aXXX_038211: CrossbowStepInFire_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038220: CrossbowStepInReload_CMSG
+WeaponCategoryHandStyle - aXXX_038221: CrossbowStepInReload_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038300: HeadHunt_CMSG
+WeaponCategoryHandStyle - aXXX_038300: HeadHunt_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038301: HeadHunt_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038301: HeadHunt_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038400: OneShot_CMSG
+WeaponCategoryHandStyle - aXXX_038400: OneShot_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038401: OneShot_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038401: OneShot_NoPoints_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038510: OneShotFullBothStart_CMSG
+WeaponCategoryHandStyle - aXXX_038511: OneShotFullBothStart_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038700: OneShotNoGenTransStart_CMSG
+WeaponCategoryHandStyle - aXXX_038701: OneShotNoGenTransStart_NoPoint_CMSG
+WeaponCategoryHandStyle - aXXX_038710: OneShotNoGenTransContinue_CMSG
+WeaponCategoryHandStyle - aXXX_038711: OneShotNoGenTransContinuet_NoPoint_CMSG
+WeaponCategoryHandStyle - aXXX_038800: StormStanceStart_CMSG
+WeaponCategoryHandStyle - aXXX_038800: StormStanceStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038805: StormStanceFullStart_CMSG
+WeaponCategoryHandStyle - aXXX_038805: StormStanceFullStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038810: StormStanceLoop_CMSG
+WeaponCategoryHandStyle - aXXX_038810: StormStanceLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038815: StormStanceFullLoop_CMSG
+WeaponCategoryHandStyle - aXXX_038815: StormStanceFullLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038820: StormStanceLoopMove_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038825: StormStanceFullLoopMove_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038830: StormStanceEnd_CMSG
+WeaponCategoryHandStyle - aXXX_038830: StormStanceEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038835: StormStanceFullEnd_CMSG
+WeaponCategoryHandStyle - aXXX_038835: StormStanceFullEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038840: StormStanceLight_CMSG
+WeaponCategoryHandStyle - aXXX_038841: StormStanceLight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038845: StormStanceFullLight_CMSG
+WeaponCategoryHandStyle - aXXX_038850: StormStanceHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_038851: StormStanceHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038855: StormStanceFullHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_038860: StormStanceChange_CMSG
+WeaponCategoryHandStyle - aXXX_038860: StormStanceChange_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_038870: StormStanceFullLight_NonBoss_CMSG
+WeaponCategoryHandStyle - aXXX_038871: StormStanceFullLight_NonBoss_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038880: StormStanceFullHeavy_NonBoss_CMSG
+WeaponCategoryHandStyle - aXXX_038881: StormStanceFullHeavy_NonBoss_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038900: FourWayAttackStartRight_CMSG
+WeaponCategoryHandStyle - aXXX_038900: FourWayAttackStartRight_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038901: FourWayAttackStartRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038901: FourWayAttackStartRight_NoPoints_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038910: FourWayAttackStartLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038910: FourWayAttackStartLeft_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038911: FourWayAttackStartLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038911: FourWayAttackStartLeft_NoPoints_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038920: FourWayAttackStartFrontRight_CMSG
+WeaponCategoryHandStyle - aXXX_038920: FourWayAttackStartFrontRight_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038921: FourWayAttackStartFrontRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038921: FourWayAttackStartFrontRight_NoPoints_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038930: FourWayAttackStartFrontLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038930: FourWayAttackStartFrontLeft_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038931: FourWayAttackStartFrontLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038931: FourWayAttackStartFrontLeft_NoPoints_SelfTrans_CMSG
+WeaponCategoryHandStyle - aXXX_038940: FourWayAttackStartBackRight_CMSG
+WeaponCategoryHandStyle - aXXX_038940: FourWayAttackStartBackRight_CMSG00
+WeaponCategoryHandStyle - aXXX_038941: FourWayAttackStartBackRight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038941: FourWayAttackStartBackRight_NoPoints_CMSG00
+WeaponCategoryHandStyle - aXXX_038950: FourWayAttackStartBackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_038950: FourWayAttackStartBackLeft_CMSG00
+WeaponCategoryHandStyle - aXXX_038951: FourWayAttackStartBackLeft_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038951: FourWayAttackStartBackLeft_NoPoints_CMSG00
+WeaponCategoryHandStyle - aXXX_038960: FourWayAttackHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_038961: FourWayAttackHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_038970: FourWayAttackLight_CMSG
+WeaponCategoryHandStyle - aXXX_038971: FourWayAttackLight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039000: GatlingStanceRightStart_CMSG
+WeaponCategoryHandStyle - aXXX_039000: GatlingStanceRightStart_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_039010: GatlingStanceRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_039010: GatlingStanceRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_039020: GatlingStanceRightLoopRun_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_039040: GatlingStanceRightEnd_CMSG
+WeaponCategoryHandStyle - aXXX_039040: GatlingStanceRightEnd_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_039100: RandomOneShot1_CMSG
+WeaponCategoryHandStyle - aXXX_039101: RandomOneShot1_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039110: RandomOneShotNext1_CMSG
+WeaponCategoryHandStyle - aXXX_039111: RandomOneShotNext1_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039120: RandomOneShotNext2_CMSG
+WeaponCategoryHandStyle - aXXX_039121: RandomOneShotNext2_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039130: RandomOneShotNext3_CMSG
+WeaponCategoryHandStyle - aXXX_039131: RandomOneShotNext3_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039140: RandomOneShotNext4_CMSG
+WeaponCategoryHandStyle - aXXX_039141: RandomOneShotNext4_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039210: DrawStanceRightLoopMaxNoSync_CMSG
+WeaponCategoryHandStyle - aXXX_039210: DrawStanceRightLoopMaxNoSync_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_039215: DrawStanceRightLoopMaxNoSync_Upper_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039230: DrawStanceRightAttackMaxLight_CMSG
+WeaponCategoryHandStyle - aXXX_039231: DrawStanceRightAttackMaxLight_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039232: DrawStanceRightAttackMaxLightR90_CMSG
+WeaponCategoryHandStyle - aXXX_039233: DrawStanceRightAttackMaxLightR90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039234: DrawStanceRightAttackMaxLight180_CMSG
+WeaponCategoryHandStyle - aXXX_039235: DrawStanceRightAttackMaxLight180_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039240: DrawStanceRightAttackMaxHeavy_CMSG
+WeaponCategoryHandStyle - aXXX_039241: DrawStanceRightAttackMaxHeavy_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039242: DrawStanceRightAttackMaxHeavyR90_CMSG
+WeaponCategoryHandStyle - aXXX_039243: DrawStanceRightAttackMaxHeavyR90_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_039244: DrawStanceRightAttackMaxHeavy180_CMSG
+WeaponCategoryHandStyle - aXXX_039245: DrawStanceRightAttackMaxHeavy180_NoPoints_CMSG
+WeaponCategoryHandStyle - aXXX_040000: ENBulletRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040000: WeaponEnchantRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040000: ENBulletRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040000: WeaponEnchantRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040000: ENBulletRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040000: WeaponEnchantRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040000: ENBulletRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040000: WeaponEnchantRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040002: SelfEnchantRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040002: SelfEnchantRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040002: SelfEnchantRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040002: SelfEnchantRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayHoldRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayHoldRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayHoldRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040003: PrayHoldRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040004: FlameRadiationRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040004: FlameRadiationRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040004: FlameRadiationRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040004: FlameRadiationRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040005: SelfEnchantCauseRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040005: SelfEnchantCauseRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040005: SelfEnchantCauseRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040005: SelfEnchantCauseRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040006: DrainRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040006: DrainRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040006: DrainRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040006: DrainRightLaunch_UpperSA_CMSG
+WeaponCategoryHandStyle - aXXX_040007: FireNearRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040007: FireNearRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040007: FireNearRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040007: FireNearRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040008: CloudRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040008: CloudRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040008: CloudRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040008: CloudRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040009: SparkRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040009: SparkRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040009: SparkRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040009: SparkRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040010: CharmRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040010: CharmRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040010: CharmRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040010: CharmRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040011: ChameleonRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040011: ChameleonRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040011: ChameleonRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040011: ChameleonRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040012: TransformRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040012: TransformRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040012: TransformRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040012: TransformRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040013: BreathRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040013: BreathRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040013: BreathRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040013: BreathRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040014: WeaponEnchant2RightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040014: WeaponEnchant2RightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040014: WeaponEnchant2RightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040014: WeaponEnchant2RightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040015: SummonRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040015: SummonRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040015: SummonRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040015: SummonRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040016: ShieldEnchantRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040016: ShieldEnchantRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040016: ShieldEnchantRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040016: ShieldEnchantRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040018: ThunderRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040018: ThunderRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040018: ThunderRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040018: ThunderRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040019: EnvironmentRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040019: EnvironmentRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040019: EnvironmentRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040019: EnvironmentRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040020: PrayBroRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040020: PrayBroRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040020: PrayBroRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040020: PrayBroRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040021: Throw40021_CMSG
+WeaponCategoryHandStyle - aXXX_040022: ImpactRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040022: ImpactRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040022: ImpactRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040022: ImpactRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040024: ENBullet2RightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040024: ENBullet2RightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040024: ENBullet2RightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040024: ENBullet2RightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040025: FlamethrowerRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040025: FlamethrowerRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040025: FlamethrowerRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040025: FlamethrowerRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040026: WhipRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040026: WhipRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040026: WhipRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040026: WhipRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040027: SlashRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040027: SlashRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040027: SlashRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040027: SlashRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040028: PrayStandRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040028: PrayStandRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040028: PrayStandRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040028: PrayStandRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040029: AOEPrayHoldRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040029: AOEPrayHoldRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040029: AOEPrayHoldRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040029: AOEPrayHoldRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040030: QuickENBulletRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040030: QuickENBulletRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040030: QuickENBulletRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040030: QuickENBulletRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040031: QuickSlashRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040031: QuickSlashRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040031: QuickSlashRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040031: QuickSlashRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040032: FlameBackHandRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040032: FlameBackHandRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040032: FlameBackHandRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040032: FlameBackHandRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040033: FlameGrabRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040033: FlameGrabRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040033: FlameGrabRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040033: FlameGrabRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040034: CrushRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040034: CrushRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040034: CrushRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040034: CrushRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040035: MiracleRadiationRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040035: MiracleRadiationRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040035: MiracleRadiationRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040035: MiracleRadiationRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040036: LightningRodRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040036: LightningRodRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040036: LightningRodRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040036: LightningRodRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040037: ChopRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040037: ChopRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040037: ChopRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040037: ChopRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040038: TrapRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040038: TrapRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040038: TrapRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040038: TrapRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040039: WrathRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040039: WrathRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040039: WrathRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040039: WrathRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040040: BeamCannonRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040040: BeamCannonRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040040: BeamCannonRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040040: BeamCannonRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040041: MachineGunRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040041: MachineGunRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040041: MachineGunRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040041: MachineGunRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040042: StrongENBulletRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040042: StrongENBulletRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040042: StrongENBulletRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040042: StrongENBulletRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040043: FastSparkRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040043: FastSparkRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040043: FastSparkRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040043: FastSparkRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040044: FastFlameRadiationRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040044: FastFlameRadiationRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040044: FastFlameRadiationRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040044: FastFlameRadiationRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040045: ScytheRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040045: ScytheRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040045: ScytheRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040045: ScytheRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040046: HolySparkRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040046: HolySparkRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040046: HolySparkRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040046: HolySparkRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040047: SpitRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_040047: SpitRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_040047: SpitRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040047: SpitRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040099: MagicInvalidRight_CMSG
+WeaponCategoryHandStyle - aXXX_040099: MagicInvalidRight_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040103: PrayHoldRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_040103: PrayHoldRightLoopSA_CMSG
+WeaponCategoryHandStyle - aXXX_040103: PrayHoldRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040103: PrayHoldRightLoopSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040129: AOEPrayHoldRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_040129: AOEPrayHoldRightLoopSA_CMSG
+WeaponCategoryHandStyle - aXXX_040129: AOEPrayHoldRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040129: AOEPrayHoldRightLoopSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040147: SpitHoldRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_040147: SpitHoldRightLoopSA_CMSG
+WeaponCategoryHandStyle - aXXX_040147: SpitHoldRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040147: SpitHoldRightLoopSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040150: BowHoldRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_040150: BowHoldRightLoopSA_CMSG
+WeaponCategoryHandStyle - aXXX_040150: BowHoldRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040150: BowHoldRightLoopSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040247: MagicLoopRightLvl2_CMSG
+WeaponCategoryHandStyle - aXXX_040247: MagicLoopRightLvl2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040300: ENBulletRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040300: WeaponEnchantRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040300: ENBulletRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040300: WeaponEnchantRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040302: SelfEnchantRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040302: SelfEnchantRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040303: PrayRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040303: PrayHoldRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040303: PrayRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040303: PrayHoldRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040304: FlameRadiationRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040304: FlameRadiationRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040305: SelfEnchantFlameRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040305: SelfEnchantFlameRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040306: DrainRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040306: DrainRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040307: FireNearRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040307: FireNearRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040308: CloudRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040308: CloudRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040309: SparkRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040309: SparkRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040310: CharmRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040310: CharmRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040311: ChameleonRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040311: ChameleonRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040312: TransformRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040312: TransformRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040314: WeaponEnchant2RightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040314: WeaponEnchant2RightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040315: SummonRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040315: SummonRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040316: ShieldEnchantRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040316: ShieldEnchantRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040317: ForceRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040317: ForceRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040318: ThunderRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040318: ThunderRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040319: EnvironmentRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040319: EnvironmentRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040320: BreathRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040320: BreathRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040322: ImpactRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040322: ImpactRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040324: ENBullet2RightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040324: ENBullet2RightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040325: FlamethrowerRightLoop_CMSG
+WeaponCategoryHandStyle - aXXX_040325: FlamethrowerHoldRightLoopSA_CMSG
+WeaponCategoryHandStyle - aXXX_040325: FlamethrowerHoldRightLoop_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040325: FlamethrowerRightLoopSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040326: WhipRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040326: WhipRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040327: SlashRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040327: SlashRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040328: PrayStandRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040328: PrayStandRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040329: AOEPrayHoldRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040329: AOEPrayHoldRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040330: QuickENBulletFireRightNormal_CMSG
+WeaponCategoryHandStyle - aXXX_040330: QuickENBulletRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040330: QuickENBulletFireRightNormal_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040330: QuickENBulletRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040331: QuickSlashFireRightNormal_CMSG
+WeaponCategoryHandStyle - aXXX_040331: QuickSlashRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040331: QuickSlashFireRightNormal_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040331: QuickSlashRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040332: FlameBackHandRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040332: FlameBackHandRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040333: FlameGrabRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040333: FlameGrabRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040334: CrushRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040334: CrushRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040335: MiracleRadiationRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040335: MiracleRadiationRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040336: LightningRodRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040336: LightningRodRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040337: ChopRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040337: ChopRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040338: TrapRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040338: TrapRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040339: WrathRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040339: WrathRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040340: BeamCannonRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040340: BeamCannonRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040341: MachineGunRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040341: MachineGunRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040342: StrongENBulletRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040342: StrongENBulletRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040343: FastSparkRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040343: FastSparkRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040344: FastFlameRadiationRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040344: FastFlameRadiationRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040345: ScytheRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040345: ScytheRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040346: HolySparkRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040346: HolySparkRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040347: SpitRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040347: SpitRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040447: MagicFireRightLvl2_CMSG
+WeaponCategoryHandStyle - aXXX_040447: MagicFireRightLvl2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040625: FlamethrowerRightFire_CMSG
+WeaponCategoryHandStyle - aXXX_040625: FlamethrowerRightFire_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_040633: Throw40633_CMSG
+WeaponCategoryHandStyle - aXXX_042017: ForceRightLaunch_CMSG
+WeaponCategoryHandStyle - aXXX_042017: ForceRightLaunchSA_CMSG
+WeaponCategoryHandStyle - aXXX_042017: ForceRightLaunch_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_042017: ForceRightLaunchSA_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045000: QuickENBulletFireRightAttackRight_CMSG
+WeaponCategoryHandStyle - aXXX_045000: QuickENBulletFireRightAttackRight_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045010: QuickENBulletFireRightAttackRight2_CMSG
+WeaponCategoryHandStyle - aXXX_045010: QuickENBulletFireRightAttackRight2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045020: QuickENBulletFireRightAttackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_045020: QuickENBulletFireRightAttackLeft_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045030: QuickENBulletFireRightAttackLeft2_CMSG
+WeaponCategoryHandStyle - aXXX_045030: QuickENBulletFireRightAttackLeft2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045040: QuickENBulletFireRightStep_CMSG
+WeaponCategoryHandStyle - aXXX_045040: QuickENBulletFireRightStep_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045050: QuickENBulletFireRightDash_CMSG
+WeaponCategoryHandStyle - aXXX_045050: QuickENBulletFireRightDash_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045100: QuickSlashFireRightAttackRight_CMSG
+WeaponCategoryHandStyle - aXXX_045100: QuickSlashFireRightAttackRight_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045110: QuickSlashFireRightAttackRight2_CMSG
+WeaponCategoryHandStyle - aXXX_045110: QuickSlashFireRightAttackRight2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045120: QuickSlashFireRightAttackLeft_CMSG
+WeaponCategoryHandStyle - aXXX_045120: QuickSlashFireRightAttackLeft_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045130: QuickSlashFireRightAttackLeft2_CMSG
+WeaponCategoryHandStyle - aXXX_045130: QuickSlashFireRightAttackLeft2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045140: QuickSlashFireRightStep_CMSG
+WeaponCategoryHandStyle - aXXX_045140: QuickSlashFireRightStep_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_045150: QuickSlashFireRightDash_CMSG
+WeaponCategoryHandStyle - aXXX_045150: QuickSlashFireRightDash_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_048200: MagicFireRight3_CMSG
+WeaponCategoryHandStyle - aXXX_048200: MagicFireRight3_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_049100: MagicFireLeft2_CMSG
+WeaponCategoryHandStyle - aXXX_049100: MagicFireLeft2_Upper_CMSG
+WeaponCategoryHandStyle - aXXX_049200: MagicFireLeft3_CMSG
+WeaponCategoryHandStyle - aXXX_049200: MagicFireLeft3_Upper_CMSG
+WeaponCategoryLeft - aXXX_000000: PrayBroLeftFire_CMSG
+WeaponCategoryLeft - aXXX_000000: PrayBroLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_032000: AttackCrossbowLeftFire_CMSG
+WeaponCategoryLeft - aXXX_032000: AttackCrossbowLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_032000: AttackLeftLight1_CMSG
+WeaponCategoryLeft - aXXX_032000: AttackLeftHeavy1a00_CMSG
+WeaponCategoryLeft - aXXX_032030: AttackLeftHeavy2a00_CMSG
+WeaponCategoryLeft - aXXX_032060: AttackLeftHeavy3a00_CMSG
+WeaponCategoryLeft - aXXX_032090: AttackLeftHeavySp1_CMSG
+WeaponCategoryLeft - aXXX_032091: AttackLeftHeavySp2_CMSG
+WeaponCategoryLeft - aXXX_032092: AttackLeftHeavySp3_CMSG
+WeaponCategoryLeft - aXXX_032100: ParryLeft1_CMSG
+WeaponCategoryLeft - aXXX_032101: ParryLeftStart1_WepBreak_CMSG
+WeaponCategoryLeft - aXXX_032110: ParryLeft2_CMSG
+WeaponCategoryLeft - aXXX_032111: ParryLeftStart2_WepBreak_CMSG
+WeaponCategoryLeft - aXXX_032120: ParryLeft3_CMSG
+WeaponCategoryLeft - aXXX_032121: ParryLeftStart3_WepBreak_CMSG
+WeaponCategoryLeft - aXXX_032150: GuardBreakWallLeft_CMSG
+WeaponCategoryLeft - aXXX_032200: GuardDamageBreakLeft_CMSG
+WeaponCategoryLeft - aXXX_033500: AttackCrossbowLeftStart_CMSG
+WeaponCategoryLeft - aXXX_033500: AttackCrossbowLeftStart_Upper_CMSG
+WeaponCategoryLeft - aXXX_033510: AttackCrossbowLeftEmpty_CMSG
+WeaponCategoryLeft - aXXX_033510: AttackCrossbowLeftEmpty_Upper_CMSG
+WeaponCategoryLeft - aXXX_033520: AttackCrossbowLeftReload_CMSG
+WeaponCategoryLeft - aXXX_033520: AttackCrossbowLeftReload_Upper_CMSG
+WeaponCategoryLeft - aXXX_033530: AttackCrossbowLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_033530: AttackCrossbowLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_033540: AttackCrossbowLeftMoveLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_034001: AttackCrossbowBothLeftFire_CMSG
+WeaponCategoryLeft - aXXX_034001: AttackCrossbowBothLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_035500: AttackCrossbowBothLeftStart_CMSG
+WeaponCategoryLeft - aXXX_035500: AttackCrossbowBothLeftStart_Upper_CMSG
+WeaponCategoryLeft - aXXX_035510: AttackCrossbowBothLeftEmpty_CMSG
+WeaponCategoryLeft - aXXX_035510: AttackCrossbowBothLeftEmpty_Upper_CMSG
+WeaponCategoryLeft - aXXX_035521: AttackCrossbowBothLeftReload_CMSG
+WeaponCategoryLeft - aXXX_035521: AttackCrossbowBothLeftReload_Upper_CMSG
+WeaponCategoryLeft - aXXX_035531: AttackCrossbowBothLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_035531: AttackCrossbowBothLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_035541: AttackCrossbowBothLeftMoveLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_037910: MagicBuffLeft_CMSG
+WeaponCategoryLeft - aXXX_037910: MagicBuffLeft_Upper_CMSG
+WeaponCategoryLeft - aXXX_037911: MagicBuffLeft_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_037911: MagicBuffLeft_NoPoints_Upper_CMSG
+WeaponCategoryLeft - aXXX_037930: MagicBuffLeft2_CMSG
+WeaponCategoryLeft - aXXX_037931: MagicBuffLeft2_NoPointsCMSG
+WeaponCategoryLeft - aXXX_037950: MagicBuffLeft3_CMSG
+WeaponCategoryLeft - aXXX_037951: MagicBuffLeft3_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_038520: OneShotFullLeftStarta00_CMSG
+WeaponCategoryLeft - aXXX_038521: OneShotFullLeftStarta00_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_038530: OneShotFullLeftStarta02_CMSG
+WeaponCategoryLeft - aXXX_038531: OneShotFullLeftStarta02_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_038540: OneShotFullLeftStarta03_CMSG
+WeaponCategoryLeft - aXXX_038541: OneShotFullLeftStarta03_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_039055: GatlingStanceRightFireStartLeft_CMSG
+WeaponCategoryLeft - aXXX_039055: GatlingStanceRightFireStartLeft_Upper_CMSG
+WeaponCategoryLeft - aXXX_039056: GatlingStanceRightFireStartLeft_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_039056: GatlingStanceRightFireStartLeft_Upper_NoPoints_CMSG
+WeaponCategoryLeft - aXXX_042000: ENBulletLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042000: ENBulletLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042000: ENBulletLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042000: ENBulletLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042001: WeaponEnchantLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042001: WeaponEnchantLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042001: WeaponEnchantLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042001: WeaponEnchantLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042002: SelfEnchantLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042002: SelfEnchantLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042002: SelfEnchantLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042002: SelfEnchantLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayHoldLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayHoldLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayHoldLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042003: PrayHoldLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042004: FlameRadiationLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042004: FlameRadiationLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042004: FlameRadiationLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042004: FlameRadiationLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042005: SelfEnchantCauseLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042005: SelfEnchantCauseLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042005: SelfEnchantCauseLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042005: SelfEnchantCauseLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042006: DrainLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042006: DrainLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042006: DrainLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042006: DrainLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042007: FireNearLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042007: FireNearLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042007: FireNearLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042007: FireNearLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042008: CloudLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042008: CloudLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042008: CloudLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042008: CloudLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042009: SparkLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042009: SparkLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042009: SparkLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042009: SparkLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042010: CharmLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042010: CharmLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042010: CharmLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042010: CharmLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042011: ChameleonLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042011: ChameleonLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042011: ChameleonLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042011: ChameleonLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042012: TransformLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042012: TransformLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042012: TransformLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042012: TransformLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042013: BreathLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042013: BreathLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042013: BreathLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042013: BreathLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042014: WeaponEnchant2LeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042014: WeaponEnchant2LeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042014: WeaponEnchant2LeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042014: WeaponEnchant2LeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042015: SummonLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042015: SummonLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042015: SummonLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042015: SummonLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042016: ShieldEnchantLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042016: ShieldEnchantLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042016: ShieldEnchantLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042016: ShieldEnchantLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042017: ForceLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042017: ForceLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042017: ForceLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042017: ForceLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042018: ThunderLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042018: ThunderLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042018: ThunderLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042018: ThunderLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042019: EnvironmentLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042019: EnvironmentLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042019: EnvironmentLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042019: EnvironmentLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042020: PrayBroLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042020: PrayBroLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042020: PrayBroLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042020: PrayBroLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042021: Throw42021_CMSG
+WeaponCategoryLeft - aXXX_042022: ImpactLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042022: ImpactLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042022: ImpactLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042022: ImpactLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042024: ENBullet2LeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042024: ENBullet2LeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042024: ENBullet2LeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042024: ENBullet2LeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042025: FlamethrowerLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042025: FlamethrowerLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042025: FlamethrowerLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042025: FlamethrowerLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042026: WhipLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042026: WhipLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042026: WhipLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042026: WhipLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042027: SlashLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042027: SlashLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042027: SlashLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042027: SlashLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042028: PrayStandLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042028: PrayStandLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042028: PrayStandLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042028: PrayStandLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042029: AOEPrayHoldLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042029: AOEPrayHoldLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042029: AOEPrayHoldLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042029: AOEPrayHoldLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042030: QuickENBulletLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042030: QuickENBulletLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042030: QuickENBulletLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042030: QuickENBulletLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042031: QuickSlashLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042031: QuickSlashLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042031: QuickSlashLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042031: QuickSlashLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042032: FlameBackHandLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042032: FlameBackHandLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042032: FlameBackHandLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042032: FlameBackHandLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042033: FlameGrabLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042033: FlameGrabLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042033: FlameGrabLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042033: FlameGrabLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042034: CrushLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042034: CrushLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042034: CrushLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042034: CrushLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042035: MiracleRadiationLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042035: MiracleRadiationLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042035: MiracleRadiationLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042035: MiracleRadiationLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042036: LightningRodLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042036: LightningRodLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042036: LightningRodLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042036: LightningRodLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042037: ChopLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042037: ChopLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042037: ChopLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042037: ChopLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042038: TrapLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042038: TrapLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042038: TrapLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042038: TrapLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042039: WrathLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042039: WrathLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042039: WrathLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042039: WrathLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042040: BeamCannonLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042040: BeamCannonLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042040: BeamCannonLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042040: BeamCannonLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042041: MachineGunLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042041: MachineGunLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042041: MachineGunLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042041: MachineGunLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042042: StrongENBulletLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042042: StrongENBulletLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042042: StrongENBulletLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042042: StrongENBulletLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042043: FastSparkLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042043: FastSparkLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042043: FastSparkLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042043: FastSparkLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042044: FastFlameRadiationLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042044: FastFlameRadiationLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042044: FastFlameRadiationLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042044: FastFlameRadiationLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042045: ScytheLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042045: ScytheLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042045: ScytheLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042045: ScytheLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042046: HolySparkLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042046: HolySparkLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042046: HolySparkLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042046: HolySparkLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042047: SpitLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042047: SpitLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042047: SpitLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042047: SpitLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042048: BitLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042048: BitLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042048: BitLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042048: BitLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042049: ChakramLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042049: ChakramLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042049: ChakramLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042049: ChakramLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042050: BowLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042050: BowLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042050: BowLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042050: BowLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042051: FanLeftLaunch_CMSG
+WeaponCategoryLeft - aXXX_042051: FanLeftLaunchSA_CMSG
+WeaponCategoryLeft - aXXX_042051: FanLeftLaunch_Upper_CMSG
+WeaponCategoryLeft - aXXX_042051: FanLeftLaunchSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042099: MagicInvalidLeft_CMSG
+WeaponCategoryLeft - aXXX_042099: MagicInvalidLeft_Upper_CMSG
+WeaponCategoryLeft - aXXX_042103: PrayHoldLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_042103: PrayHoldLeftLoopSA_CMSG
+WeaponCategoryLeft - aXXX_042103: PrayHoldLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_042103: PrayHoldLeftLoopSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042129: AOEPrayHoldLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_042129: AOEPrayHoldLeftLoopSA_CMSG
+WeaponCategoryLeft - aXXX_042129: AOEPrayHoldLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_042129: AOEPrayHoldLeftLoopSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042147: SpitHoldLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_042147: SpitHoldLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_042147: SpitHoldLeftLoopSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042150: BowHoldLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_042150: BowHoldLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_042150: BowHoldLeftLoopSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042247: MagicLoopLeftLvl2_CMSG
+WeaponCategoryLeft - aXXX_042247: MagicLoopLeftLvl2_Upper_CMSG
+WeaponCategoryLeft - aXXX_042300: ENBulletLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042300: ENBulletLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042301: WeaponEnchantLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042301: WeaponEnchantLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042302: SelfEnchantLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042302: SelfEnchantLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042303: PrayLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042303: PrayHoldFire_CMSG
+WeaponCategoryLeft - aXXX_042303: PrayLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042303: PrayHoldFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042304: FlameRadiationLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042304: FlameRadiationLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042305: SelfFlameEnchantLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042305: SelfFlameEnchantLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042306: DrainLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042306: DrainLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042307: FireNearLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042307: FireNearLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042308: CloudLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042308: CloudLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042309: SparkLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042309: SparkLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042310: CharmLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042310: CharmLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042311: ChameleonLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042311: ChameleonLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042313: TransformLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042313: TransformLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042314: WeaponEnchant2LeftFire_CMSG
+WeaponCategoryLeft - aXXX_042314: WeaponEnchant2LeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042315: SummonLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042315: SummonLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042316: ShieldEnchantLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042316: ShieldEnchantLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042317: ForceLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042317: ForceLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042318: ThunderLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042318: ThunderLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042319: EnvironmentLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042319: EnvironmentLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042320: BreathLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042320: BreathLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042322: ImpactLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042322: ImpactLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042324: ENBullet2LeftFire_CMSG
+WeaponCategoryLeft - aXXX_042324: ENBullet2LeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042325: FlamethrowerLeftLoop_CMSG
+WeaponCategoryLeft - aXXX_042325: FlamethrowerLeftLoopSA_CMSG
+WeaponCategoryLeft - aXXX_042325: FlamethrowerLeftLoop_Upper_CMSG
+WeaponCategoryLeft - aXXX_042325: FlamethrowerLeftLoopSA_Upper_CMSG
+WeaponCategoryLeft - aXXX_042326: WhipLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042326: WhipLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042327: SlashLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042327: SlashLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042328: PrayStandFire_CMSG
+WeaponCategoryLeft - aXXX_042328: PrayStandFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042329: AOEPrayHoldFire_CMSG
+WeaponCategoryLeft - aXXX_042329: AOEPrayHoldFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042330: QuickENBulletFireLeftNormal_CMSG
+WeaponCategoryLeft - aXXX_042330: QuickENBulletLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042330: QuickENBulletFireLeftNormal_Upper_CMSG
+WeaponCategoryLeft - aXXX_042330: QuickENBulletLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042331: QuickSlashFireLeftFireLeftNormal_CMSG
+WeaponCategoryLeft - aXXX_042331: QuickSlashLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042331: QuickSlashFireLeftFireLeftNormal_Upper_CMSG
+WeaponCategoryLeft - aXXX_042331: QuickSlashLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042332: FlameBackHandLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042332: FlameBackHandLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042333: FlameGrabLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042333: FlameGrabLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042334: CrushLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042334: CrushLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042335: MiracleRadiationLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042335: MiracleRadiationLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042336: LightningRodLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042336: LightningRodLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042337: ChopLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042337: ChopLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042338: TrapLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042338: TrapLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042339: WrathLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042339: WrathLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042340: BeamCannonLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042340: BeamCannonLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042341: MachineGunLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042341: MachineGunLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042342: StrongENBulletLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042342: StrongENBulletLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042343: FastSparkLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042343: FastSparkLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042344: FastFlameRadiationLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042344: FastFlameRadiationLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042345: ScytheLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042345: ScytheLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042346: HolySparkLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042346: HolySparkLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042347: SpitLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042347: SpitLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042348: BitLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042348: BitLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042349: ChakramLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042349: ChakramLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042350: BowLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042350: BowLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042351: FanLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042351: FanLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042447: MagicFireLeftLvl2_CMSG
+WeaponCategoryLeft - aXXX_042447: MagicFireLeftLvl2_Upper_CMSG
+WeaponCategoryLeft - aXXX_042625: FlamethrowerLeftFire_CMSG
+WeaponCategoryLeft - aXXX_042625: FlamethrowerLeftFire_Upper_CMSG
+WeaponCategoryLeft - aXXX_042633: Throw42633_CMSG
+WeaponCategoryLeft - aXXX_047000: QuickENBulletFireLeftAttackRight_CMSG
+WeaponCategoryLeft - aXXX_047000: QuickENBulletFireLeftAttackRight_Upper_CMSG
+WeaponCategoryLeft - aXXX_047010: QuickENBulletFireLeftAttackRight2_CMSG
+WeaponCategoryLeft - aXXX_047010: QuickENBulletFireLeftAttackRight2_Upper_CMSG
+WeaponCategoryLeft - aXXX_047020: QuickMagicENBulletFireLeftAttackLeft_CMSG
+WeaponCategoryLeft - aXXX_047020: QuickMagicENBulletFireLeftAttackLeft_Upper_CMSG
+WeaponCategoryLeft - aXXX_047030: QuickENBulletFireLeftAttackLeft2_CMSG
+WeaponCategoryLeft - aXXX_047030: QuickENBulletFireLeftAttackLeft2_Upper_CMSG
+WeaponCategoryLeft - aXXX_047040: QuickENBulletFireLeftStep_CMSG
+WeaponCategoryLeft - aXXX_047040: QuickENBulletFireLeftStep_Upper_CMSG
+WeaponCategoryLeft - aXXX_047050: QuickENBulletFireLeftDash_CMSG
+WeaponCategoryLeft - aXXX_047050: QuickENBulletFireLeftDash_Upper_CMSG
+WeaponCategoryLeft - aXXX_047100: QuickSlashFireLeftAttackRight_CMSG
+WeaponCategoryLeft - aXXX_047100: QuickSlashFireLeftAttackRight_Upper_CMSG
+WeaponCategoryLeft - aXXX_047110: QuickSlashFireLeftAttackRight2_CMSG
+WeaponCategoryLeft - aXXX_047110: QuickSlashFireLeftAttackRight2_Upper_CMSG
+WeaponCategoryLeft - aXXX_047120: QuickSlashFireLeftAttackLeft_CMSG
+WeaponCategoryLeft - aXXX_047120: QuickSlashFireLeftAttackLeft_Upper_CMSG
+WeaponCategoryLeft - aXXX_047130: QuickSlashFireLeftAttackLeft2_CMSG
+WeaponCategoryLeft - aXXX_047130: QuickSlashFireLeftAttackLeft2_Upper_CMSG
+WeaponCategoryLeft - aXXX_047140: QuickSlashFireLeftStep_CMSG
+WeaponCategoryLeft - aXXX_047140: QuickSlashFireLeftStep_Upper_CMSG
+WeaponCategoryLeft - aXXX_047150: QuickSlashFireLeftDash_CMSG
+WeaponCategoryLeft - aXXX_047150: QuickSlashFireLeftDash_Upper_CMSG
+WeaponCategoryRight - aXXX_030000: AttackRightLight1_CMSG
+WeaponCategoryRight - aXXX_030000: AttackCrossbowRightFire_CMSG
+WeaponCategoryRight - aXXX_030000: AttackCrossbowRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_030010: AttackRightLight2_CMSG
+WeaponCategoryRight - aXXX_030020: AttackRightLight3_CMSG
+WeaponCategoryRight - aXXX_030050: AttackRightWhileGuardNormal_CMSG
+WeaponCategoryRight - aXXX_030051: AttackRightWhileGuardHeavy_CMSG
+WeaponCategoryRight - aXXX_030052: AttackRightWhileGuardSmall_CMSG
+WeaponCategoryRight - aXXX_030053: AttackRightWhileGuardTorch_CMSG
+WeaponCategoryRight - aXXX_030100: AttackRightLightKick_CMSG
+WeaponCategoryRight - aXXX_030150: GuardBreakWallRight_CMSG
+WeaponCategoryRight - aXXX_030200: GuardDamageBreakRight_CMSG
+WeaponCategoryRight - aXXX_030320: AttackRightHeavy1Start_CMSG
+WeaponCategoryRight - aXXX_030321: AttackRightHeavy1End_CMSG
+WeaponCategoryRight - aXXX_030325: AttackRightHeavyWepBroken1Start_CMSG
+WeaponCategoryRight - aXXX_030330: AttackRightHeavy1SubStart_CMSG
+WeaponCategoryRight - aXXX_030330: AttackRightHeavy1SubStart_CMSG00
+WeaponCategoryRight - aXXX_030340: AttackRightHeavy2Start_CMSG
+WeaponCategoryRight - aXXX_030341: AttackRightHeavy2End_CMSG
+WeaponCategoryRight - aXXX_030345: AttackRightHeavyWepBroken2Start_CMSG
+WeaponCategoryRight - aXXX_030350: AttackRightHeavySpecial1Start_CMSG
+WeaponCategoryRight - aXXX_030351: AttackRightHeavySpecial1End_CMSG
+WeaponCategoryRight - aXXX_030360: AttackRightHeavySpecial1SubStart_CMSG
+WeaponCategoryRight - aXXX_030370: AttackRightHeavySpecial2Start_CMSG
+WeaponCategoryRight - aXXX_030371: AttackRightHeavySpecial2End_CMSG
+WeaponCategoryRight - aXXX_030500: AttackRightLightDash_CMSG
+WeaponCategoryRight - aXXX_030510: AttackRightLightDashSpecial_CMSG
+WeaponCategoryRight - aXXX_030600: AttackRightHeavyKick_CMSG
+WeaponCategoryRight - aXXX_030610: AttackRightHeavyKickSpecial_CMSG
+WeaponCategoryRight - aXXX_030900: AttackRightLightStep_CMSG
+WeaponCategoryRight - aXXX_030910: AttackRightLightStepSpecial_CMSG
+WeaponCategoryRight - aXXX_030920: AttackRightBackstep_CMSG
+WeaponCategoryRight - aXXX_030930: AttackRightCounter_CMSG
+WeaponCategoryRight - aXXX_031500: AttackCrossbowRightStart_CMSG
+WeaponCategoryRight - aXXX_031500: AttackCrossbowRightStart_Upper_CMSG
+WeaponCategoryRight - aXXX_031510: AttackCrossbowRightEmpty_CMSG
+WeaponCategoryRight - aXXX_031510: AttackCrossbowRightEmpty_Upper_CMSG
+WeaponCategoryRight - aXXX_031520: AttackCrossbowRightReload_CMSG
+WeaponCategoryRight - aXXX_031520: AttackCrossbowRightReload_Upper_CMSG
+WeaponCategoryRight - aXXX_031530: AttackCrossbowRightLoop_CMSG
+WeaponCategoryRight - aXXX_031530: AttackCrossbowRightLoop_Upper_CMSG
+WeaponCategoryRight - aXXX_031540: AttackCrossbowRightMoveLoop_Upper_CMSG
+WeaponCategoryRight - aXXX_034000: AttackCrossbowBothRightFire_CMSG
+WeaponCategoryRight - aXXX_034000: AttackCrossbowBothRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_035500: AttackCrossbowBothRightStart_CMSG
+WeaponCategoryRight - aXXX_035500: AttackCrossbowBothRightStart_Upper_CMSG
+WeaponCategoryRight - aXXX_035510: AttackCrossbowBothRightEmpty_CMSG
+WeaponCategoryRight - aXXX_035510: AttackCrossbowBothRightEmpty_Upper_CMSG
+WeaponCategoryRight - aXXX_035520: AttackCrossbowBothRightReload_CMSG
+WeaponCategoryRight - aXXX_035520: AttackCrossbowBothRightReload_Upper_CMSG
+WeaponCategoryRight - aXXX_035530: AttackCrossbowBothRightLoop_CMSG
+WeaponCategoryRight - aXXX_035530: AttackCrossbowBothRightLoop_Upper_CMSG
+WeaponCategoryRight - aXXX_035540: AttackCrossbowBothRightMoveLoop_Upper_CMSG
+WeaponCategoryRight - aXXX_038500: OneShotFullRightStart_CMSG
+WeaponCategoryRight - aXXX_038501: OneShotFullRightStart_NoPoints_CMSG
+WeaponCategoryRight - aXXX_039050: GatlingStanceRightFireStart_CMSG
+WeaponCategoryRight - aXXX_039050: GatlingStanceRightFireStart_Upper_CMSG
+WeaponCategoryRight - aXXX_039051: GatlingStanceRightFireStart_NoPoints_CMSG
+WeaponCategoryRight - aXXX_039051: GatlingStanceRightFireStart_Upper_NoPoints_CMSG
+WeaponCategoryRight - aXXX_040048: BitRightLaunch_CMSG
+WeaponCategoryRight - aXXX_040048: BitRightLaunchSA_CMSG
+WeaponCategoryRight - aXXX_040048: BitRightLaunch_Upper_CMSG
+WeaponCategoryRight - aXXX_040048: BitRightLaunchSA_Upper_CMSG
+WeaponCategoryRight - aXXX_040049: ChakramRightLaunch_CMSG
+WeaponCategoryRight - aXXX_040049: ChakramRightLaunchSA_CMSG
+WeaponCategoryRight - aXXX_040049: ChakramRightLaunch_Upper_CMSG
+WeaponCategoryRight - aXXX_040049: ChakramRightLaunchSA_Upper_CMSG
+WeaponCategoryRight - aXXX_040050: BowRightLaunch_CMSG
+WeaponCategoryRight - aXXX_040050: BowRightLaunchSA_CMSG
+WeaponCategoryRight - aXXX_040050: BowRightLaunch_Upper_CMSG
+WeaponCategoryRight - aXXX_040050: BowRightLaunchSA_Upper_CMSG
+WeaponCategoryRight - aXXX_040051: FanRightLaunch_CMSG
+WeaponCategoryRight - aXXX_040051: FanRightLaunchSA_CMSG
+WeaponCategoryRight - aXXX_040051: FanRightLaunch_Upper_CMSG
+WeaponCategoryRight - aXXX_040051: FanRightLaunchSA_Upper_CMSG
+WeaponCategoryRight - aXXX_040348: BitRightFire_CMSG
+WeaponCategoryRight - aXXX_040348: BitRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_040349: ChakramRightFire_CMSG
+WeaponCategoryRight - aXXX_040349: ChakramRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_040350: BowRightFire_CMSG
+WeaponCategoryRight - aXXX_040350: BowRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_040351: FanRightFire_CMSG
+WeaponCategoryRight - aXXX_040351: FanRightFire_Upper_CMSG
+WeaponCategoryRight - aXXX_042147: SpitHoldLeftLoopSA_CMSG
+WeaponCategoryRight - aXXX_042150: BowHoldLeftLoopSA_CMSG
+WeaponCategoryRight - aXXX_048100: MagicFireRight2_CMSG
+WeaponCategoryRight - aXXX_048100: MagicFireRight2_Upper_CMSG
