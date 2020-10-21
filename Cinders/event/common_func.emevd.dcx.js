@@ -5042,25 +5042,28 @@ Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001001, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300000); // 25%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010000);
+    AwardItemLot(800300010); // 50%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
 });
 
 //----------------------------------------------
@@ -5070,25 +5073,28 @@ Event(20020001, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001002, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300000); // 25%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010001);
+    AwardItemLot(800300010); // 50%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
 });
 
 //----------------------------------------------
@@ -5098,25 +5104,28 @@ Event(20020002, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001003, ON);// Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300000); // 25%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010002);
+    AwardItemLot(800300010); // 50%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
 });
 
 //----------------------------------------------
@@ -5126,25 +5135,28 @@ Event(20020003, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001004, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300010); // 50%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010003);
+    AwardItemLot(800300020); // 75%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
 });
 
 //----------------------------------------------
@@ -5154,25 +5166,28 @@ Event(20020004, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001005, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300010); // 50%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010004);
+    AwardItemLot(800300020); // 75%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
 });
 
 //----------------------------------------------
@@ -5182,25 +5197,28 @@ Event(20020005, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001006, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010005);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5210,25 +5228,28 @@ Event(20020006, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001007, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300010); // 50%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010006);
+    AwardItemLot(800300020); // 75%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300040); // 20%
+    AwardItemLot(800300010); // 50%
 });
 
 //----------------------------------------------
@@ -5238,25 +5259,28 @@ Event(20020007, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001008, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010007);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5266,25 +5290,28 @@ Event(20020008, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001009, ON); // Boss Killed
 
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010008);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5294,25 +5321,28 @@ Event(20020009, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001010, ON); // Boss Killed
 
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010009);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5322,25 +5352,28 @@ Event(20020010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001011, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010010);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5350,25 +5383,28 @@ Event(20020011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001012, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010011);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5378,25 +5414,28 @@ Event(20020012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001013, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010012);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5406,25 +5445,28 @@ Event(20020013, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001014, ON); // Boss Killed
 
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010013);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5434,25 +5476,28 @@ Event(20020014, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001015, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300000); // 25%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010014);
-
+    AwardItemLot(800300010); // 50%
+    
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300050); // 10%
+    AwardItemLot(800300000); // 25%
 });
 
 //----------------------------------------------
@@ -5462,25 +5507,28 @@ Event(20020015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001016, ON); // Boss Killed
 
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010015);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5490,25 +5538,28 @@ Event(20020016, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001017, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300020); // 75%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010016);
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300030); // 40%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -5518,25 +5569,28 @@ Event(20020017, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001018, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010017);
+    AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5546,25 +5600,28 @@ Event(20020018, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001019, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010018);
+    AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5574,25 +5631,28 @@ Event(20020019, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001020, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010019);
+    AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5602,25 +5662,28 @@ Event(20020020, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001021, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010020);
+    AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5630,25 +5693,28 @@ Event(20020021, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001022, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010021);
+    AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5658,25 +5724,28 @@ Event(20020022, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001023, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010022);
+    AwardItemLot(800300030); // 100% 
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100% 
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5686,25 +5755,28 @@ Event(20020023, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001024, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010023);
+    AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300010); // 80%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------
@@ -5714,25 +5786,28 @@ Event(20020024, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001025, ON); // Boss Killed
     
+    // Default Primordial Essence
+    AwardItemLot(800300030); // 100%
+    
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    SetSpeffect(10000, 250010024);
+    AwardItemLot(800300030); // 100% 
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100% 
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300020); // 60%
+    AwardItemLot(800300030); // 100%
 });
 
 //----------------------------------------------

@@ -2065,7 +2065,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(1078, ON);
+    ForceAnimationPlayback(10000, 5002, false, false, true, 0, 1);
     
     EndUnconditionally(EventEndType.Restart);
 });

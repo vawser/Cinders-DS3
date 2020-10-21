@@ -5391,6 +5391,7 @@ end
 
 function DamageCommonFunction(guardcondition, estep, fall_type)
     act(147)
+    
     local style = c_Style
     if style == HAND_LEFT_BOTH then
         if GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW, WEAPON_CATEGORY_CROSSBOW) == TRUE then
@@ -7427,7 +7428,10 @@ function AttackRightHeavy1Start_onUpdate()
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
         ExecEventAllBody("W_AttackRightHeavy1End")
-        return 
+        return
+    elseif env(1116, 100720) == TRUE then
+        ExecEventAllBody("W_AttackRightHeavySpecial1Start")
+        return
     else
         return 
     end
@@ -7446,7 +7450,10 @@ function AttackRightHeavy2Start_onUpdate()
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
         ExecEventAllBody("W_AttackRightHeavy2End")
-        return 
+        return
+    elseif env(1116, 100720) == TRUE then
+        ExecEventAllBody("W_AttackRightHeavySpecial2Start")
+        return
     else
         return 
     end
@@ -7550,7 +7557,16 @@ function AttackRightHeavyKickSpecial_onUpdate()
 end
 
 function AttackRightBackstep_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    local r1 = "W_AttackRightLight1"
+    local hand = HAND_RIGHT
+    
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    
+    if sp_kind == 282 then
+        r1 = "W_AttackRightLight2"
+    end
+    
+    if AttackCommonFunction( r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7771,6 +7787,9 @@ function AttackBothHeavy1Start_onUpdate()
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
         ExecEventAllBody("W_AttackBothHeavy1End")
         return 
+    elseif env(1116, 100720) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavySpecial1Start")
+        return
     else
         return 
     end
@@ -7789,7 +7808,10 @@ function AttackBothHeavy2Start_onUpdate()
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
         ExecEventAllBody("W_AttackBothHeavy2End")
-        return 
+        return
+    elseif env(1116, 100720) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavySpecial2Start")
+        return
     else
         return 
     end
@@ -15863,12 +15885,7 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
 end
 
 function TestFunction()
-    local test_mode = false
-    
-    if test_mode == true then
-        -- Test stuff here
-        
-    end
+    -- Test stuff here
 end
 
 global = {}

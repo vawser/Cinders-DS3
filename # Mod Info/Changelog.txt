@@ -92,6 +92,15 @@
 - Added Shivering Note: start in Irithyll.
 - Added Corrupted Note: start in Irithyll Dungeon.
 - Added Afflicted Note: start in Consumed King's Garden
+
+# Primordial Essence
+- Increased Primordial Essence drop rate from bosses.
+- No Hit now adds a Primordial Essence roll.
+ - Curse of Valor/No Hit added roll is now one tier above the baseline rate for the boss, i.e. baseline drop rate is 75%, those two will be 100%.
+- Changed Magnum Ursus's Primordial Essence back to unlimited.
+ 
+# Poise
+- Adjusted poise health. Poise health is restored with weapon swings. The overall poise health is the same across all animations (40). This value has been chosen to allow poise to consistently block small to mid strength enemy attacks if you swing after being hit, but allow for more powerful attacks to stagger unless you have a very optimised poise % setup.
  
 # Merchant
 - Added the monster transform items to Alchemist Jiji as purchasable items.
@@ -110,9 +119,10 @@
 - Fixed Floating Chaos ascended spell.
 - Fixed various overrides also affecting hollow/human form.
 - Fixed elixirs not working with the armor overrides.
+- Fixed poise not actually working whilst a lot of weapons were equipped.
 
 #------------------------------
 # TODO - General
 #------------------------------
-Add muffins stuff: continue from a283 - Black Dragon Greataxe
+Look at Forlorn Twinspears stamina issue
 
