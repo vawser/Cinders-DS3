@@ -7684,12 +7684,14 @@ function AttackBothLight3_onUpdate()
 
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 232 or sp_kind == 278 or sp_kind == 279 or sp_kind == 281 then 
+    if sp_kind == 232 or sp_kind == 278 or sp_kind == 279 or sp_kind == 281 or sp_kind == 283 then 
         b1 = "W_AttackBothLight1"
     end
+    
     if env(1116, 100440) == TRUE then -- GetSpecialEffectID
         act(2001, 0.699999988079071) -- SetMovementScaleMult
     end
+    
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1SubStart", FALSE, TRUE) == TRUE then
         return 
     else

@@ -32,6 +32,14 @@
 #------------------------------
 # Weapons
 - Restored the infusion icons that appear in the weapon's icon based on the current infusion.
+- Added movesets by WhurDaMuffins:
+ - Black Dragon Sword
+ - Ancient Dragon Halberd
+ - Writhing Hammer
+ - Scythe of Want
+ - Vordt’s Great Hammer
+ - Black Dragon Greataxe
+ - Twinspears of the Forlorn
 
 # Covenants
 - Added the Servant of the Rat covenant: boosts all defences and resistances by 5%, enables Rat Tails to be dropped.
