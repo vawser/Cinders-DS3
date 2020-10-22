@@ -116,7 +116,7 @@
 - Added a puzzle in the Lothric Castle bonfire room: awards Gwynevere's Urn.
 
 # Rings
-- Added Gwynevere's Urn: standing still restores 1% HP per second.
+- Added Gwynevere's Urn: standing still grants Tears of Denial effect (60 second internal cooldown).
 
 # Bugfixes
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
@@ -132,3 +132,4 @@
 #------------------------------
 Look at Forlorn Twinspears stamina issue
 
+ 
