@@ -4857,6 +4857,14 @@ function IdleCommonFunction()
     act(9100) -- Wait
     local style = c_Style
 
+    -- Gwynevere's Urn
+    if env(1116, 112190) == TRUE then
+        if env(1116, 112191) ~= TRUE then
+            act(2002, 112191) -- Cooldown
+            act(2002, 112192) -- Effect
+        end
+    end
+    
     if style == HAND_LEFT_BOTH then
         if GetEquipType(HAND_LEFT, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW, WEAPON_CATEGORY_CROSSBOW) == TRUE then
             act("精密射撃可能か") -- SetIsPreciseShootingPossible

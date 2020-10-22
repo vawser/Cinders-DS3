@@ -12,7 +12,7 @@
 
 # These need to be used for new treasures in each area
 54002076 Cemetery of Ash / Unturned Graves
-53002106 High Wall of Lothric / Consumed King's Garden
+53002107 High Wall of Lothric / Consumed King's Garden
 53102095 Undead Settlement
 53302183 Road of Sacrifices / Farron Keep
 53502084 Cathedral of the Deep
@@ -111,6 +111,12 @@
 
 # Map
 - Increased the speed of the lifts in Lothric Castle/Grand Archives.
+- Moved the Lothric Castle bonfire into the initial mausoleum room. Moved the enemies into the old room.
+- The Pursuer in Lothric Castle now intrudes in the chest room and no longer unlocks the Lothric Castle bonfire.
+- Added a puzzle in the Lothric Castle bonfire room: awards Gwynevere's Urn.
+
+# Rings
+- Added Gwynevere's Urn: standing still restores 1% HP per second.
 
 # Bugfixes
 - Tome: Slave Knight Gael should no longer incorrectly warp you.
