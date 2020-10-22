@@ -91,7 +91,8 @@
 - Added Dusty Note: start in Catacombs of Carthus.
 - Added Shivering Note: start in Irithyll.
 - Added Corrupted Note: start in Irithyll Dungeon.
-- Added Afflicted Note: start in Consumed King's Garden
+- Added Afflicted Note: start in Consumed King's Garden.
+- Added Princely Note: start in Lothric Castle.
 
 # Primordial Essence
 - Increased Primordial Essence drop rate from bosses.
@@ -130,6 +131,5 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Look at Forlorn Twinspears stamina issue
 
  

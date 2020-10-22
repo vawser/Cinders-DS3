@@ -1898,7 +1898,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
 
         -- Low FP Switch
-        if env(345, HAND_RIGHT) == 280 and 100 > env(2016) then 
+        if env(345, HAND_RIGHT) == 280 and 50 > env(2016) then 
             ExecEventAllBody("W_EndureRightHeavy")
             return FALSE
         else
