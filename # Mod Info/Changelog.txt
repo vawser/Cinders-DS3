@@ -30,103 +30,10 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Restored the infusion icons that appear in the weapon's icon based on the current infusion.
-- Added movesets by WhurDaMuffins:
- - Black Dragon Sword
- - Ancient Dragon Halberd
- - Writhing Hammer
- - Scythe of Want
- - Vordt’s Great Hammer
- - Black Dragon Greataxe
- - Twinspears of the Forlorn
-
-# Covenants
-- Added the Servant of the Rat covenant: boosts all defences and resistances by 5%, enables Rat Tails to be dropped.
-
-# Trials
-- Trial of Calamity is now unlocked via Lothric
-- Trial of Devastation is now unlocked via Yhorm
-- Trials are now equally difficult.
-- Trial rewards are now semi-random but the same across each trial:
- Wave 1: Titanite Shard/Large Titanite Shard
- Wave 2: Large Titanite Shard/Titanite Chunk/Dragon Scale/Twinkling Titanite/Titanite Scale
- Wave 3: Fire Seed/Crystal Fragment/Holy Fragment/Abyssal Fragment
- Wave 4: Titanite Slab/Prismatic Slab
- Wave 5: Primordial Essence
- 
-# Item
-- Renamed Cleansing Elixir to Cleansing Potion.
-- Removed Accursed Elixir (now a Writ).
-- Added Elixir of Hollowing: enable the hollow look even whilst human.
-- Added Rat Treat: summons Moxie, a rat companion. Offered by Remy the Rat.
-- Added Writs: similar to elixirs, but for VFXs that are added to your body
- - Writ of Humanity: add humanity head (doesn't remove the current helmet)
- - Writ of Anger: add red eyes
- - Writ of Crystallization: adds crystallization body effect
- - Writ of Invisibility: adds invisibility to the player (no effect on AI detection)
- - Writ of Stone: adds stoneform body effect
- - Writ of Maggots: adds maggot body effect
- - Writ of Burning Anger: adds burning red eye effect
- - Writ of Silent Anger: adds white eye effect
- - Writ of Sparks: add sparking body effect
- - Writ of Stars: add white star body effect
- - Writ of Prismatica: adds prism stone body effect
- - Writ of Corruption: adds corrupted crystals body effect
- - Writ of Toxicity: adds dung body effect
- - Writ of Protection: adds magic barrier body effect
- - Writ of Poison: adds poison body effect
- - Writ of Frost: adds frost body effect
- - Writ of Immolation: adds fire body effect
- - Writ of Dust: adds dust body effect
- - Writ of Water: adds water body effect
- - Writ of Chilling Anger: adds frost eye effect
- - Writ of Vengeful Anger: adds golden eye effect
- 
-# Gifts
-- Added new gifts that change your starting position: the Focus Implement is automatically added in these cases.
-- Added Ancestral Note: start in Firelink Shrine.
-- Added Cultist Note: start in Archdragon Peak.
-- Added Waterlogged Note: start in Farron Swamp.
-- Added Dusty Note: start in Catacombs of Carthus.
-- Added Shivering Note: start in Irithyll.
-- Added Corrupted Note: start in Irithyll Dungeon.
-- Added Afflicted Note: start in Consumed King's Garden.
-- Added Princely Note: start in Lothric Castle.
-
-# Primordial Essence
-- Increased Primordial Essence drop rate from bosses.
-- No Hit now adds a Primordial Essence roll.
- - Curse of Valor/No Hit added roll is now one tier above the baseline rate for the boss, i.e. baseline drop rate is 75%, those two will be 100%.
-- Changed Magnum Ursus's Primordial Essence back to unlimited.
- 
-# Poise
-- Adjusted poise health. Poise health is restored with weapon swings. The overall poise health is the same across all animations (40). This value has been chosen to allow poise to consistently block small to mid strength enemy attacks if you swing after being hit, but allow for more powerful attacks to stagger unless you have a very optimised poise % setup.
- 
-# Merchant
-- Added the monster transform items to Alchemist Jiji as purchasable items.
-
-# NPC
-- The Painter now has an option to "Give the Blood of the Dark Soul", starting that part of her dialogue.
-- Added Remy the Rat in Firelink Shrine: hosts the Undead Match option, the Servant of the Rat covenant and is romancable.
-
-# Map
-- Increased the speed of the lifts in Lothric Castle/Grand Archives.
-- Moved the Lothric Castle bonfire into the initial mausoleum room. Moved the enemies into the old room.
-- The Pursuer in Lothric Castle now intrudes in the chest room and no longer unlocks the Lothric Castle bonfire.
-- Added a puzzle in the Lothric Castle bonfire room: awards Gwynevere's Urn.
-
-# Rings
-- Added Gwynevere's Urn: standing still grants Tears of Denial effect (60 second internal cooldown).
 
 # Bugfixes
-- Tome: Slave Knight Gael should no longer incorrectly warp you.
-- Fixed Caitha's Chime effect.
-- Fixed Flynn's Ring effect.
-- Fixed Floating Chaos ascended spell.
-- Fixed various overrides also affecting hollow/human form.
-- Fixed elixirs not working with the armor overrides.
-- Fixed poise not actually working whilst a lot of weapons were equipped.
+- Fixed Writ items requiring a weapon to be wielded to work.
+- Fixed some of the new movesets adding 3 attunement slots randomly.
 
 #------------------------------
 # TODO - General
