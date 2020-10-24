@@ -37,6 +37,9 @@
 # Map
 - Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
 
+# Merchants
+- Reduced the cost of the cosmetic items from Alchemist Jiji.
+
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
 - Fixed some of the new movesets adding 3 attunement slots randomly.
@@ -48,9 +51,9 @@
 31450000 - 0841 - 4262 - Aldia Hammer                    - Hammer
 31460000 - 0842 - 4263 - Black Scorpion Stinger          - Rapier
 31470000 - 0843 - 4264 - Dragonrider Twinblade           - Splitleaf Greatsword
-31480000 - 0844 - 4265 - Drakekeeeper's Great Hammer     - Great Hammer 
-31490000 - 0845 - 4266 - Drakekeeper's Greataxe          - Greataxe
-31500000 - 0846 - 4267 - Drakekeeper's Warpick           - Great Hammer 
+31480000 - 0844 - 4265 - Dragon Hunter's Great Hammer    - Great Hammer 
+31490000 - 0845 - 4266 - Dragon Hunter's Greataxe        - Greataxe
+31500000 - 0846 - 4267 - Dragon Hunter's Warpick         - Great Hammer 
 31510000 - 0847 - 4268 - Drakewing Ultra Greatsword      - UGS
     Shoot Wind projectile with charged heavy
     Wind Wall WA
@@ -83,5 +86,5 @@
     Beam of light whilst 2H
 31680000 - 0939 - 4285 - Stone Greataxe                  - Greataxe
 31690000 - 0945 - 4286 - Gargoyle Halberd                - Halberd
-31700000 - 0946 - 4287 - Gargoyle Tail Axe                    - Axe
+31700000 - 0946 - 4287 - Gargoyle Tail Axe              - Axe
 
