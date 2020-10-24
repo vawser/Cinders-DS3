@@ -44,6 +44,7 @@
 - Fixed Writ items requiring a weapon to be wielded to work.
 - Fixed some of the new movesets adding 3 attunement slots randomly.
 - Fixed Remy giving out endless Dried Root.
+- Fixed Remy setting DLC event flags accidently, causing a DLC license issue for those that did not own the DLC.
 
 #------------------------------
 # TODO - General
