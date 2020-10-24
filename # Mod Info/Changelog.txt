@@ -31,6 +31,9 @@
 # Changelog
 #------------------------------
 
+# Mechanics
+- Reduced base poise health to 25 from 40.
+
 # Map
 - Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
 
@@ -49,23 +52,36 @@
 31490000 - 0845 - 4266 - Drakekeeper's Greataxe          - Greataxe
 31500000 - 0846 - 4267 - Drakekeeper's Warpick           - Great Hammer 
 31510000 - 0847 - 4268 - Drakewing Ultra Greatsword      - UGS
+    Shoot Wind projectile with charged heavy
+    Wind Wall WA
 31520000 - 0848 - 4269 - Gargoyle Bident                 - Spear
 31530000 - 0849 - 4270 - Giant Warrior Club              - Great Hammer
 31540000 - 0850 - 4271 - Helix Halberd                   - Halberd
+    Staggering Dart WA
 31550000 - 0851 - 4272 - Malformed Skull                 - Great Hammer
+    Dragon Roar WA
 31560000 - 0852 - 4273 - Melu Scimitar                   - Curved Sword
 31570000 - 0853 - 4274 - Old Knight Halberd              - Halberd
+    +100 overall category damage, but low durability
 31580000 - 0854 - 4275 - Old Knight Hammer               - Great Hammer
+    +100 overall category damage, but low durability
 31590000 - 0855 - 4276 - Old Knight Pike                 - Pike
+    +100 overall category damage, but low durability
 31600000 - 0856 - 4277 - Red Rust Scimitar               - Curved Sword
 31610000 - 0857 - 4278 - Roaring Halberd                 - Halberd
+    Dark Roar WA
 31620000 - 0858 - 4279 - Sanctum Mace                    - Great Hammer
+    Poison burst WA
 31630000 - 0859 - 4280 - Spider's Silk                   - Rapier
+    Guard bypass
 31640000 - 0860 - 4281 - Spitfire Spear                  - Spear
+    Heavy Attack: shoot fireball
+    WA: shoot multiple fireballs
 31650000 - 0861 - 4282 - Syan's Halberd                  - Halberd
 31660000 - 0862 - 4283 - Warped Sword                    - Curved Sword
 31670000 - 0955 - 4284 - Ivory King Ultra Greatsword     - UGS
+    Beam of light whilst 2H
 31680000 - 0939 - 4285 - Stone Greataxe                  - Greataxe
 31690000 - 0945 - 4286 - Gargoyle Halberd                - Halberd
-31700000 - 0946 - 4287 - Gargoyle Axe                    - Axe
+31700000 - 0946 - 4287 - Gargoyle Tail Axe                    - Axe
 
