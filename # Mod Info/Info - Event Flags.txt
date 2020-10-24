@@ -1321,6 +1321,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000013 Is in NG+3
 25000014 Is in NG+4
 25000015 Is in NG+5
+25000016 Is in NG+6
+25000017 Is in NG+7
 
 25000030 Valid: Deathless Run
 25000031 Valid: Hitless Run

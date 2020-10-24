@@ -31,9 +31,13 @@
 # Changelog
 #------------------------------
 
+# Map
+- Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
+
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
 - Fixed some of the new movesets adding 3 attunement slots randomly.
+- Fixed Remy giving out endless Dried Root.
 
 #------------------------------
 # TODO - General
@@ -64,3 +68,4 @@
 31680000 - 0939 - 4285 - Stone Greataxe                  - Greataxe
 31690000 - 0945 - 4286 - Gargoyle Halberd                - Halberd
 31700000 - 0946 - 4287 - Gargoyle Axe                    - Axe
+

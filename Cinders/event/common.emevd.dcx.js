@@ -1936,7 +1936,7 @@ Event(9611, Restart, function(X0_4, X4_4) {
     
     RandomlySetEventFlagInRange(25008900, 25008902, ON);
     
-    BatchSetEventFlags(25000011, 25000015, OFF); // Reset NG+ flags
+    BatchSetEventFlags(25000011, 25000017, OFF); // Reset NG+ flags
     
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
     SetEventFlag(25000011, ON); // NG+1
@@ -1952,6 +1952,12 @@ Event(9611, Restart, function(X0_4, X4_4) {
     
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 5);
     SetEventFlag(25000015, ON); // NG+5
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 6);
+    SetEventFlag(25000016, ON); // NG+6
+    
+    IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 7);
+    SetEventFlag(25000017, ON); // NG+7
 });
 
 // No Hit State
