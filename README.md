@@ -12,6 +12,8 @@ You don't need the following files/folders:
 - "README.md"
 - "# Changelog"
 - "# Documentation"
+- "# Movesets"
+- "# Muffin"
 
 ## Links
 The main mod can be found [here](https://www.nexusmods.com/darksouls3/mods/310).
