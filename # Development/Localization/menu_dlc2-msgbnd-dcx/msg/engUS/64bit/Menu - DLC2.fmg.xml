@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="2301314">You are being summoned to another world...</text>
+<text id="2311314">Invading another world as a Spear of the Church...</text>
+<text id="2351413">Please wait until all combatants have joined.
+Total players: &lt;?matchTotalCount?&gt;
+Remaining: &lt;?matchRemainingMyCount?&gt; allies / &lt;?matchRemainingEnemyCount?&gt; foes</text>
+<text id="2411314">Could not invade.
+Unable to join session.</text>
+<text id="2461314">Invasion aborted due to
+time out</text>
+<text id="2491314">Unable to invade</text>
+<text id="2521314">Could not invade.
+Failed to join session.</text>
+<text id="2600314">Invaded by Spear of the Church &lt;?joinName?&gt;!</text>
+<text id="2601314">Invaded the world of &lt;?hostName?&gt;, disturber of sleep</text>
+<text id="2601514">Invaded the world of &lt;?hostName?&gt;, disturber of sleep</text>
+<text id="2602314">Invaded by Spear of the Church &lt;?joinName?&gt;!</text>
+<text id="2602364">Spear of the Church &lt;?joinName?&gt; invaded</text>
+<text id="2611314">Disturber of sleep defeated.
+Returning to your world.</text>
+<text id="2611514">Disturber of sleep defeated.
+Returning to your world.</text>
+<text id="2620314">Spear of the Church &lt;?deadName?&gt; has died</text>
+<text id="2621314">You died. Returning to your world.</text>
+<text id="2622314">Spear of the Church &lt;?deadName?&gt; has died</text>
+<text id="2630314">Spear of the Church &lt;?leaveName?&gt; has returned home</text>
+<text id="2631314">Returning to your world...</text>
+<text id="2632314">Spear of the Church &lt;?leaveName?&gt; has returned home</text>
+<text id="2701314">A connection error occurred.
+Returning to your world.</text>
+<text id="2741314">Disturber of sleep has left the area. Returning to your world.</text>
+<text id="2741514">Disturber of sleep has left the area. Returning to your world.</text>
+<text id="10010202">Give Blood of the Dark Soul</text>
+<text id="10010227">Pray to the Divine Spear Monument</text>
+<text id="10010228">Pray to the Purging Monument</text>
+<text id="10010570">Travel to the Dreg Heap</text>
+<text id="10010571">Display Small Envoy Banner</text>
+<text id="10010572">Touch the embraced shell</text>
+<text id="10010573">Touch the scrap of a painting</text>
+<text id="10010845">Use &lt;?gdsparam@745?&gt;?</text>
+<text id="10010846">Use &lt;?gdsparam@746?&gt;?</text>
+<text id="10010847">Use &lt;?gdsparam@747?&gt;?</text>
+<text id="10012800">Small Envoy Banner
+not in inventory</text>
+<text id="10012801">%null%</text>
+<text id="10012802">%null%</text>
+<text id="10012803">%null%</text>
+<text id="10012804">%null%</text>
+<text id="10012805">%null%</text>
+<text id="10012806">%null%</text>
+<text id="10012807">%null%</text>
+<text id="10012808">%null%</text>
+<text id="10012809">%null%</text>
+<text id="10012810">Show your humanity</text>
+<text id="12000007">Select quantity to offer:</text>
+<text id="12000120">For &lt;?evntAcquittalPrice?&gt; souls, revive Judicator Argo,
+who will summon Spears of the Church to face trespassers.
+Do you wish to reinstate the King's decree?</text>
+<text id="12000121">Once Judicator Argo is revived, one will again face
+Spears of the Church upon entry to the Church of Filianore.
+Are you sure you wish to reinstate the decree?</text>
+<text id="12072000">Give &lt;?gdsparam@2158?&gt;?</text>
+<text id="13000007">Covenant allegiance deepened</text>
+<text id="13000008">%null%</text>
+<text id="13000009">%null%</text>
+<text id="13000010">%null%</text>
+<text id="13000011">%null%</text>
+<text id="13000012">%null%</text>
+<text id="13000013">%null%</text>
+<text id="13000014">%null%</text>
+<text id="13000015">%null%</text>
+<text id="13000016">%null%</text>
+<text id="13000017">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000018">%null%</text>
+<text id="13000019">%null%</text>
+<text id="13000020">%null%</text>
+<text id="13000021">%null%</text>
+<text id="13000022">%null%</text>
+<text id="13000023">%null%</text>
+<text id="13000024">%null%</text>
+<text id="13000025">%null%</text>
+<text id="13000026">%null%</text>
+<text id="13000027">Cannot offer more. Well done.</text>
+<text id="13000028">%null%</text>
+<text id="13000029">%null%</text>
+<text id="13000030">%null%</text>
+<text id="13000031">%null%</text>
+<text id="13000032">%null%</text>
+<text id="13000033">%null%</text>
+<text id="13000034">%null%</text>
+<text id="13000035">%null%</text>
+<text id="13000036">%null%</text>
+<text id="13000037">No &lt;?gdsparam@379?&gt; in inventory</text>
+<text id="13000121">Judicator Argo was revived,
+and will summon Spears of the Church to face trespassers</text>
+<text id="14072000">Share your name</text>
+<text id="14072001">I have no name</text>
+<text id="14073000">Speak of the Purging Monument</text>
+<text id="14073001">I do not know</text>
+<text id="14073002">Say nothing</text>
+<text id="14074000">Gwyn</text>
+<text id="14074001">I do not know</text>
+<text id="14074002">%null%</text>
+<text id="14074003">%null%</text>
+<text id="14074004">%null%</text>
+<text id="14074005">%null%</text>
+<text id="14074006">%null%</text>
+<text id="14074007">%null%</text>
+<text id="14074008">%null%</text>
+<text id="14074009">%null%</text>
+<text id="14074010">Accept the request</text>
+<text id="14074011">Refuse</text>
+<text id="14074012">No, it's nothing</text>
+<text id="14076000">I have business with you</text>
+<text id="14076001">No business in particular</text>
+<text id="14077000">I serve the gods</text>
+<text id="14077001">Just pretending</text>
+<text id="15000417">Offer &lt;?gdsparam@379?&gt;</text>
+<text id="15000520">Reinstate the King's decree</text>
+<text id="15011019">Give &lt;?gdsparam@2157?&gt; </text>
+<text id="15076000">Purchase Item</text>
+<text id="15076001">Sell Item</text>
+<text id="15076002">Inquire of the Ringed City</text>
+</entries>
+</fmg>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1313000">Frozen Weapon</text>
+<text id="1741000">Snap Freeze</text>
+<text id="2457000">Floating Chaos</text>
+<text id="3556000">Way of White Corona</text>
+</entries>
+</fmg>

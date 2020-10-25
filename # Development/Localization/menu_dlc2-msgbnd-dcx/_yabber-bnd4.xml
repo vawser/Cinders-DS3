@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bnd4>
+  <filename>menu_dlc2.msgbnd.dcx</filename>
+  <compression>DarkSouls3</compression>
+  <timestamp>07D7R6</timestamp>
+  <format>0x74</format>
+  <bigendian>False</bigendian>
+  <flag1>False</flag1>
+  <flag2>False</flag2>
+  <unicode>True</unicode>
+  <extended>0x04</extended>
+  <files>
+    <file>
+      <id>1</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Dialogue.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>2</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Messages.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>3</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Subtitles.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>30</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Menu.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>70</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Titles.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>76</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Unk 3.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>77</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Unk 2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>78</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Alerts.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>79</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Prompts.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>80</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Unk 4.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>81</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Unk 5.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>90</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Unk 1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>200</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>201</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 3.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>202</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>203</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - PC.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>204</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Menu.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>205</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - PS4.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>206</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - XB1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>230</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Dialogue - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>231</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Menu - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>232</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 2 - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>233</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 3 - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>235</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC1 - PC.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>236</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Menu - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>237</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC1 - PS4.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>238</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC1 - XB1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>239</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Messages - DLC1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>270</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Dialogue - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>271</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Menu - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>272</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 2 - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>273</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text 3 - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>275</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC2 - PC.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>276</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Menu - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>277</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC2 - PS4.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>278</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\FDP - Text - DLC2 - XB1.fmg</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>279</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>msg\engUS\64bit\Messages - DLC2.fmg</path>
+      <flags>0x40</flags>
+    </file>
+  </files>
+</bnd4>

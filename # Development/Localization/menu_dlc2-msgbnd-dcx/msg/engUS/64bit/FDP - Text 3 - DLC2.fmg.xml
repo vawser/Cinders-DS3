@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="506005">In Co-op Match, use this to select a team. Can be selected when the password applies to "All."</text>
+<text id="506006">In Co-op Match, use this to select whether to match both teams or only one with the same password. Can be selected when a password is in use.</text>
+</entries>
+</fmg>

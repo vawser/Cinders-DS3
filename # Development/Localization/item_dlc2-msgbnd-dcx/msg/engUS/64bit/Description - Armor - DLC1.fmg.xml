@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="20000000">The black helm of Vilhelm, Knight of Londor, and a nice fit for any lean Hollow.
+
+This hollow knight, who served the three sisters who founded the Sable Church, was particularly loyal to the eldest, and was known as a cold-blooded hangman.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="20001000">The black armor of Vilhelm, Knight of Londor, and a nice fit for any lean Hollow.
+
+This hollow knight, who served the three sisters who founded the Sable Church, was particularly loyal to the eldest, and was known as a cold-blooded hangman.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="20002000">The black gauntlets of Vilhelm, Knight of Londor, and a nice fit for any lean Hollow.
+
+This hollow knight, who served the three sisters who founded the Sable Church, was particularly loyal to the eldest, and was known as a cold-blooded hangman.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="20003000">The black leggings of Vilhelm, Knight of Londor, and a nice fit for any lean Hollow.
+
+This hollow knight, who served the three sisters who founded the Sable Church, was particularly loyal to the eldest, and was known as a cold-blooded hangman.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="55500000">A cloth hood issued to slave knights, colored red to vibrantly signify their stature.
+
+Long ago, only the Undead served as slave knights, warriors used as fodder in the bleakest of battles.
+
+They grew decrepit, their skin charred black and their bones twisted. Eventually they went outright mad, but were never relieved from duty.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="55501000">Armor issued to slave knights. The fine craftsmanship made this a symbol of honor.
+
+Long ago, only the Undead served as slave knights, warriors used as fodder in the bleakest of battles.
+
+They grew decrepit, their skin charred black and their bones twisted. Eventually they went outright mad, but were never relieved from duty.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="55502000">Gauntlets issued to slave knights. The fine craftsmanship made this a symbol of honor.
+
+Long ago, only the Undead served as slave knights, warriors used as fodder in the bleakest of battles.
+
+They grew decrepit, their skin charred black and their bones twisted. Eventually they went outright mad, but were never relieved from duty.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="55503000">Leggings issued to slave knights. The fine craftsmanship made this a symbol of honor.
+
+Long ago, only the Undead served as slave knights, warriors used as fodder in the bleakest of battles.
+
+They grew decrepit, their skin charred black and their bones twisted. Eventually they went outright mad, but were never relieved from duty.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="56500000">Garb of Friede, Sister of the Painted World.
+A common black hood.
+
+After renouncing everything, Friede discovered a people that she wished to protect, and assumed the precise form that they yearned for.
+
+Effect: boosts magic defence by 5%.</text>
+<text id="56501000">Garb of Friede, Sister of the Painted World.
+A light blue dress sewn with thick fabric.
+
+After renouncing everything, Friede discovered a people that she wished to protect, and assumed the precise form that they yearned for.
+
+Effect: boosts magic defence by 5%.</text>
+<text id="56502000">%null%</text>
+<text id="56503000">Garb of Friede, Sister of the Painted World.
+Hidden beneath her light blue dress are the trousers of a swordsman.
+
+An offer of protection implies the eventual wielding of a blade and spilling of blood, as Friede learned during the establishment of the Sable Church.
+
+Effect: boosts magic defence by 5%.</text>
+<text id="58500000">Helm worn by the Farron Followers.
+
+When a warrior of Farron fell to the Abyss, the tall, lean Followers, with their hollowed eyes, quietly appeared in groups to hunt them down.
+
+Farron and its Watchers fell to ruin, but the Followers survived as a wandering pack of Hollows.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="58501000">Armor worn by the Farron Followers.
+
+When a warrior of Farron fell to the Abyss, the tall, lean Followers, with their hollowed eyes, quietly appeared in groups to hunt them down.
+
+Farron and its Watchers fell to ruin, but the Followers survived as a wandering pack of Hollows.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="58502000">Gloves worn by the Farron Followers.
+
+When a warrior of Farron fell to the Abyss, the tall, lean Followers, with their hollowed eyes, quietly appeared in groups to hunt them down.
+
+Farron and its Watchers fell to ruin, but the Followers survived as a wandering pack of Hollows.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="58503000">Boots worn by the Farron Followers.
+
+When a warrior of Farron fell to the Abyss, the tall, lean Followers, with their hollowed eyes, quietly appeared in groups to hunt them down.
+
+Farron and its Watchers fell to ruin, but the Followers survived as a wandering pack of Hollows.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="60500000">Helm worn by knights of Millwood. Adorned with antlers believed to grow from the blessed beast of the Ethereal Oak.
+
+When the fabled Millwood forest was discovered it was a vacant ruin. The only thing left was the Ethereal Oak, stood rotting. No corpses were discovered, yet their belongings lay neatly on the ground.
+
+Effect: increases Strength by 2.</text>
+<text id="60501000">Armor worn by knights of Millwood. The charbronze breastplate and the thick black cape are adorned with the symbol of the Ethereal Oak.
+
+When the fabled Millwood forest was discovered it was a vacant ruin. The only thing left was the Ethereal Oak, stood rotting. No corpses were discovered, yet their belongings lay neatly on the ground.
+
+Effect: increases Strength by 2.</text>
+<text id="60502000">Charbronze gauntlets worn by knights of Millwood.
+
+When the fabled Millwood forest was discovered it was a vacant ruin. The only thing left was the Ethereal Oak, stood rotting. No corpses were discovered, yet their belongings lay neatly on the ground.
+
+Effect: increases Strength by 2.</text>
+<text id="60503000">Charbronze leggings worn by knights of Millwood.
+
+When the fabled Millwood forest was discovered it was a vacant ruin. The only thing left was the Ethereal Oak, stood rotting. No corpses were discovered, yet their belongings lay neatly on the ground.
+
+Effect: increases Strength by 2.</text>
+</entries>
+</fmg>

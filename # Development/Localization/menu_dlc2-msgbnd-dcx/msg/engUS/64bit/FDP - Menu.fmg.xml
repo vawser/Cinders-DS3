@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1">OK</text>
+<text id="2">CANCEL</text>
+<text id="3">YES</text>
+<text id="4">NO</text>
+<text id="5">Accept</text>
+<text id="6">Decline</text>
+<text id="7">%null%</text>
+<text id="8">%null%</text>
+<text id="9">%null%</text>
+<text id="10">%null%</text>
+<text id="11">%null%</text>
+<text id="12">%null%</text>
+<text id="13">%null%</text>
+<text id="14">%null%</text>
+<text id="15">RETRY</text>
+<text id="16">CONTINUE</text>
+<text id="17">RETURN TO TITLE</text>
+<text id="40200">Insufficient souls</text>
+<text id="40201">Additional items required</text>
+<text id="40202">Additional items/souls required</text>
+<text id="40300">Reset to default settings.
+Okay?</text>
+<text id="40500">Restore all default settings.
+Okay?</text>
+<text id="102000">Leave &lt;?itemName?&gt;.
+Okay?</text>
+<text id="102001">Discard &lt;?itemName?&gt;.
+Okay?</text>
+<text id="102002">Leave all selected items.
+Okay?</text>
+<text id="102003">Discard all selected items.
+Okay?</text>
+<text id="102004">%null%</text>
+<text id="102005">%null%</text>
+<text id="102006">%null%</text>
+<text id="102007">%null%</text>
+<text id="102008">%null%</text>
+<text id="102009">%null%</text>
+<text id="102010">This action will exceed maximum souls.
+Souls exceeding maximum will be lost.
+Use regardless?</text>
+<text id="103000">Unable to use this item effectively with present attributes.</text>
+<text id="103001">Unable to use this item effectively with present attributes,
+unless wielded with both hands.</text>
+<text id="103110">Cannot equip accessory as an incompatible accessory is currently equipped.</text>
+<text id="103111">%null%</text>
+<text id="103112">%null%</text>
+<text id="103113">%null%</text>
+<text id="103114">%null%</text>
+<text id="103115">%null%</text>
+<text id="103116">%null%</text>
+<text id="103117">%null%</text>
+<text id="103118">%null%</text>
+<text id="103119">%null%</text>
+<text id="103120">Cannot remove accessory at this time.</text>
+<text id="103121">%null%</text>
+<text id="103122">%null%</text>
+<text id="103123">%null%</text>
+<text id="103124">%null%</text>
+<text id="103125">%null%</text>
+<text id="103126">%null%</text>
+<text id="103127">%null%</text>
+<text id="103128">%null%</text>
+<text id="103129">%null%</text>
+<text id="103130">Cannot change equipment at this time.</text>
+<text id="103131">%null%</text>
+<text id="103132">%null%</text>
+<text id="103133">%null%</text>
+<text id="103134">%null%</text>
+<text id="103135">%null%</text>
+<text id="103136">%null%</text>
+<text id="103137">%null%</text>
+<text id="103138">%null%</text>
+<text id="103139">%null%</text>
+<text id="103140">Loss of attunement slots will
+result in removal of any excess spells.
+Okay?</text>
+<text id="103141">Spells removed.</text>
+<text id="103142">%null%</text>
+<text id="103143">%null%</text>
+<text id="103144">%null%</text>
+<text id="103145">%null%</text>
+<text id="103146">%null%</text>
+<text id="103147">%null%</text>
+<text id="103148">%null%</text>
+<text id="103149">%null%</text>
+<text id="103150">Accessory will break once removed.
+Remove accessory?</text>
+<text id="103151">Equipment will break once removed.
+Remove equipment?</text>
+<text id="110000">Save the game and return to title menu?</text>
+<text id="211000">No bonfires available for warping</text>
+<text id="212000">Spend &lt;?demandSoul?&gt; souls
+and level up?</text>
+<text id="212001">Cancel level up.
+Okay?</text>
+<text id="212002">Select at least one attribute to level up.</text>
+<text id="212003">%null%</text>
+<text id="212004">%null%</text>
+<text id="212005">%null%</text>
+<text id="212006">%null%</text>
+<text id="212007">%null%</text>
+<text id="212008">%null%</text>
+<text id="212009">%null%</text>
+<text id="212010">Level at maximum.
+Cannot raise level any further.</text>
+<text id="212250">Level up?</text>
+<text id="212251">Cancel level up.
+Okay?</text>
+<text id="212500">Level up?</text>
+<text id="212501">Cancel level up.
+Okay?</text>
+<text id="212502">%null%</text>
+<text id="212503">&lt;?itemNum?&gt; &lt;?gdsparam@490?&gt;(s) gained.</text>
+<text id="212750">Initiate rebirth?</text>
+<text id="212751">Canceling rebirth.
+Okay?</text>
+<text id="212752">Reallocate attributes until they reach the original level.</text>
+<text id="212753">%null%</text>
+<text id="212754">%null%</text>
+<text id="212755">%null%</text>
+<text id="212756">%null%</text>
+<text id="212757">%null%</text>
+<text id="212758">%null%</text>
+<text id="212759">%null%</text>
+<text id="212760">Magic will be removed as attunement slots have been lost.
+Proceed with rebirth?</text>
+<text id="212761">Magic that couldn't be attuned was removed.</text>
+<text id="221000">Reinforce &lt;?itemNameBeforeForge?&gt;
+to make &lt;?itemNameAfterForge?&gt;?</text>
+<text id="222000">Infuse &lt;?itemNameBeforeForge?&gt;
+to make &lt;?itemNameAfterForge?&gt;</text>
+<text id="223000">Repair &lt;?itemName?&gt;
+for &lt;?demandSoul?&gt; souls.</text>
+<text id="231000">Buy &lt;?itemName?&gt;
+for &lt;?demandSoul?&gt; souls?</text>
+<text id="231001">%null%</text>
+<text id="231002">%null%</text>
+<text id="231003">%null%</text>
+<text id="231004">%null%</text>
+<text id="231005">%null%</text>
+<text id="231006">%null%</text>
+<text id="231007">%null%</text>
+<text id="231008">%null%</text>
+<text id="231009">%null%</text>
+<text id="231010">Items exceeding maximum placed in storage.</text>
+<text id="231011">%null%</text>
+<text id="231012">%null%</text>
+<text id="231013">%null%</text>
+<text id="231014">%null%</text>
+<text id="231015">%null%</text>
+<text id="231016">%null%</text>
+<text id="231017">%null%</text>
+<text id="231018">%null%</text>
+<text id="231019">%null%</text>
+<text id="231020">Cannot buy.
+The number you wish to buy will exceed the maximum
+able to be held in inventory and storage.</text>
+<text id="231100">Stock fully depleted.
+Cannot buy anymore.</text>
+<text id="232000">Sell &lt;?itemName?&gt;
+for &lt;?sellSouls?&gt; souls?</text>
+<text id="232001">%null%</text>
+<text id="232002">Cannot sell currently equipped items.</text>
+<text id="232003">Cannot sell this item.</text>
+<text id="234001">Failed to acquire roster of knights information.</text>
+<text id="234002">%null%</text>
+<text id="234003">Acquiring roster of knights information...</text>
+<text id="234004">%null%</text>
+<text id="234005">%null%</text>
+<text id="234006">%null%</text>
+<text id="234007">%null%</text>
+<text id="234008">%null%</text>
+<text id="234009">%null%</text>
+<text id="234010">Acquiring knight's information...</text>
+<text id="234011">Failed to acquire knight's information.</text>
+<text id="235000">Commence Estus allotment?</text>
+<text id="235001">Canceling allotment.
+Okay?</text>
+<text id="236000">Transpose &lt;?itemName?&gt;
+for &lt;?demandSoul?&gt; souls?</text>
+<text id="236001">%null%</text>
+<text id="236002">%null%</text>
+<text id="236003">%null%</text>
+<text id="236004">%null%</text>
+<text id="236005">%null%</text>
+<text id="236006">%null%</text>
+<text id="236007">%null%</text>
+<text id="236008">%null%</text>
+<text id="236009">%null%</text>
+<text id="236010">Transposed items exceeding maximum placed in storage.</text>
+<text id="236011">Cannot transpose.
+The number produced will exceed the
+maximum able to be held in inventory and storage.</text>
+<text id="251020">Cannot store currently equipped items.</text>
+<text id="251021">Selected item cannot be placed in storage.</text>
+<text id="251022">%null%</text>
+<text id="251023">%null%</text>
+<text id="251024">%null%</text>
+<text id="251025">%null%</text>
+<text id="251026">%null%</text>
+<text id="251027">%null%</text>
+<text id="251028">%null%</text>
+<text id="251029">%null%</text>
+<text id="251030">Cannot store the item.
+Storage is full.</text>
+<text id="251031">Cannot retrieve item.
+Inventory is full.</text>
+<text id="261000">Insufficient attunement slots.</text>
+<text id="261001">Insufficient free slots.</text>
+<text id="261002">Insufficient attunement slots.</text>
+<text id="261003">Cannot attune duplicate spells.</text>
+<text id="261004">Insufficient attributes to use this spell.</text>
+<text id="261005">Cannot use this spell while allied to current covenant.</text>
+<text id="311000">Deleting this message.
+Okay?</text>
+<text id="311001">Applaud this message?</text>
+<text id="311002">Disparage this message?</text>
+<text id="321000">Message will be written with current content.</text>
+<text id="321001">This will delete message in progress.
+Okay?</text>
+<text id="322000">Delete this message from list?</text>
+<text id="334510">Unable to acquire &lt;?itemName?&gt;
+due to inventory or storage max.</text>
+<text id="334511">Unable to acquire every &lt;?itemName?&gt;
+due to inventory or storage max.</text>
+<text id="334512">%null%</text>
+<text id="334513">%null%</text>
+<text id="334514">%null%</text>
+<text id="334515">%null%</text>
+<text id="334516">%null%</text>
+<text id="334517">%null%</text>
+<text id="334518">%null%</text>
+<text id="334519">%null%</text>
+<text id="334520">Some items could not be acquired as they would
+exceed max for inventory or storage.</text>
+<text id="401701">&lt;?sysmsg@401701?&gt;</text>
+<text id="402001">Cancel character creation and return to title menu?</text>
+<text id="402002">OK to start game with this character?</text>
+<text id="402003">A name is required.
+
+Enter a name to finalize editing.</text>
+<text id="402004">Failed to save character information.</text>
+<text id="402005">%null%</text>
+<text id="402006">%null%</text>
+<text id="402007">%null%</text>
+<text id="402008">%null%</text>
+<text id="402009">%null%</text>
+<text id="402010">Return all changes to appearance to default?</text>
+<text id="402011">Changes will be discarded.
+Is this OK?</text>
+<text id="402012">%null%</text>
+<text id="402013">%null%</text>
+<text id="402014">%null%</text>
+<text id="402015">%null%</text>
+<text id="402016">%null%</text>
+<text id="402017">%null%</text>
+<text id="402018">%null%</text>
+<text id="402019">%null%</text>
+<text id="402020">Selected spelling contained inappropriate language
+and could not be used as a character name.
+
+Enter another name.</text>
+<text id="402021">%null%</text>
+<text id="402022">%null%</text>
+<text id="402023">%null%</text>
+<text id="402024">%null%</text>
+<text id="402025">%null%</text>
+<text id="402026">%null%</text>
+<text id="402027">%null%</text>
+<text id="402028">%null%</text>
+<text id="402029">%null%</text>
+<text id="402030">Changing gender will reset certain changes.
+
+Is this OK?</text>
+<text id="402101">Cancel alterations to appearance and rebirth?</text>
+<text id="402102">Finalize alterations to appearance and proceed with rebirth?</text>
+<text id="402103">%null%</text>
+<text id="402104">%null%</text>
+<text id="402105">%null%</text>
+<text id="402106">%null%</text>
+<text id="402107">%null%</text>
+<text id="402108">%null%</text>
+<text id="402109">%null%</text>
+<text id="402110">Discard alterations to appearance and return to former state?</text>
+<text id="404010">Discard present changes and return to previous page?</text>
+<text id="406011">Start with selected profile?</text>
+<text id="406012">Delete selected profile and begin a new game?</text>
+<text id="406013">OK to delete selected profile?</text>
+<text id="420000">Save present settings as a favorite?</text>
+<text id="420001">Overwrite favorite slot and save present settings?</text>
+<text id="420002">Discard present changes and load favorite?</text>
+<text id="420003">Cannot load physical appearances of the opposite gender.</text>
+<text id="420004">OK to delete selected favorite?</text>
+<text id="420005">%null%</text>
+<text id="420006">%null%</text>
+<text id="420007">%null%</text>
+<text id="420008">%null%</text>
+<text id="420009">%null%</text>
+<text id="420010">No favorites saved.</text>
+<text id="450000">Begin journey &lt;?nextLoopCount?&gt; in current state?
+Journey &lt;?nextLoopCount?&gt; can be initiated from
+the shrine bonfire if you do not wish to begin now.</text>
+<text id="450001">If you begin journey &lt;?nextLoopCount?&gt;,
+you will not be able to return to journey &lt;?loopCount?&gt;.
+Are you sure you wish to begin journey &lt;?nextLoopCount?&gt;?</text>
+<text id="502000">Return this phantom to their world?</text>
+<text id="502001">There is no phantom to send home.</text>
+<text id="550000">As multiplayer sessions have repeatedly ended in an improper manner,
+the connection between worlds has been severed.
+Connection can only be restored with a Way of White Circlet.</text>
+<text id="550100">No input detected for a set time.
+Returned to your world.</text>
+<text id="620000">Begin game with selected character.
+Okay?</text>
+<text id="620001">Return to title menu?</text>
+</entries>
+</fmg>

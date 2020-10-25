@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1313000">Imbues right-hand weapon with frost</text>
+<text id="1741000">Creates cloud of near-freezing mist</text>
+<text id="2457000">Summons fire-spitting chaos orb</text>
+<text id="3556000">White discus slices into foes and returns to conjurer</text>
+</entries>
+</fmg>

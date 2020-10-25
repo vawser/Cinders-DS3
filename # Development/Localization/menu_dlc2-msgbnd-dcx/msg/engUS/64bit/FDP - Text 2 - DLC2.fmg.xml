@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="31361">Amount of FP consumed with each usage</text>
+<text id="41004">Spears of the Church</text>
+<text id="60027">Ultra Greatsword (Paired)</text>
+<text id="60151">Greatshield (Paired)</text>
+<text id="70200">Crystal Blade</text>
+<text id="70201">Quickstep</text>
+<text id="70202">Ember</text>
+<text id="70203">Blade of Peril</text>
+<text id="70204">Spin Slash</text>
+<text id="70205">Sever</text>
+<text id="70206">Hold</text>
+<text id="70207">Call to Stone</text>
+<text id="70208">Ember</text>
+<text id="70209">Lothric War Banner</text>
+<text id="70210">Wind Wheel</text>
+<text id="70211">Mad King's Folly</text>
+<text id="70212">Lockout</text>
+<text id="70213">Ember</text>
+<text id="70214">Wrathful Arrow</text>
+<text id="70215">Repeat Fire</text>
+<text id="70216">Chant from the Depths</text>
+<text id="70217">Feasting Branch</text>
+<text id="70218">Pray for Favor</text>
+<text id="70219">Dragon Breath</text>
+<text id="70220">Dragon Roar</text>
+<text id="211112">The Dreg Heap</text>
+<text id="211113">The Ringed City</text>
+<text id="211500">The Demon Prince</text>
+<text id="211501">The Dreg Heap</text>
+<text id="211502">Earthen Peak Ruins</text>
+<text id="211503">Within the Earthen Peak Ruins</text>
+<text id="211504">Lothric Ruins</text>
+<text id="211505">%null%</text>
+<text id="211506">%null%</text>
+<text id="211507">%null%</text>
+<text id="211508">%null%</text>
+<text id="211509">%null%</text>
+<text id="211510">Church of Filianore</text>
+<text id="211511">Darkeater Midir</text>
+<text id="211512">Mausoleum Lookout</text>
+<text id="211513">Ringed Inner Wall</text>
+<text id="211514">Ringed City Streets</text>
+<text id="211515">Shared Grave</text>
+<text id="211516">%null%</text>
+<text id="211517">%null%</text>
+<text id="211518">%null%</text>
+<text id="211519">%null%</text>
+<text id="211520">Slave Knight Gael</text>
+<text id="211521">Filianore's Rest</text>
+<text id="331142">Spear of the Church</text>
+<text id="331143">%null%</text>
+<text id="331144">%null%</text>
+<text id="331145">%null%</text>
+<text id="331146">%null%</text>
+<text id="331147">%null%</text>
+<text id="331148">Disturber of Sleep</text>
+<text id="401002">Dark Souls™Ⅲ: The Fire Fades™ Edition &amp; ©2017 BANDAI NAMCO Entertainment Inc. / ©2011-2017 FromSoftware, Inc.</text>
+<text id="401331">THE RINGED CITY</text>
+<text id="401501">Dark Souls™ Ⅲ: The Fire Fades™ Edition Online Service user agreement</text>
+<text id="506105">Preferred team</text>
+<text id="506106">Password applies to</text>
+<text id="506304">Round Plaza</text>
+<text id="506600">Any</text>
+<text id="506601">Team A</text>
+<text id="506602">Team B</text>
+<text id="506800">All</text>
+<text id="506801">Friendly team only</text>
+<text id="506900">Friendly team and enemy team are matched
+using the same pre-selected password</text>
+<text id="506901">Friendly team is matched with own password,
+and enemy team is matched with another</text>
+</entries>
+</fmg>

@@ -1,0 +1,1 @@
+esdtool.exe -ds3 -i "%~1"

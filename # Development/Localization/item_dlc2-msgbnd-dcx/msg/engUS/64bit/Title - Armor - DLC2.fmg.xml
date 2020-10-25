@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="28501000">Antiquated Plain Garb</text>
+<text id="28502000">Violet Wrappings</text>
+<text id="28503000">Antiquated Loincloth</text>
+<text id="29500000">Shira's Crown</text>
+<text id="29501000">Shira's Armor</text>
+<text id="29502000">Shira's Gloves</text>
+<text id="29503000">Shira's Trousers</text>
+<text id="32000000">Lapp's Helm</text>
+<text id="32001000">Lapp's Armor</text>
+<text id="32002000">Lapp's Gauntlets</text>
+<text id="32003000">Lapp's Leggings</text>
+<text id="63500000">Ringed Knight Hood</text>
+<text id="63501000">Ringed Knight Armor</text>
+<text id="63502000">Ringed Knight Gauntlets</text>
+<text id="63503000">Ringed Knight Leggings</text>
+<text id="64500000">Mass of Humanity</text>
+<text id="64501000">Harald Legion Armor</text>
+<text id="64502000">Harald Legion Gauntlets</text>
+<text id="64503000">Harald Legion Leggings</text>
+<text id="67500000">Iron Dragonslayer Helm</text>
+<text id="67501000">Iron Dragonslayer Armor</text>
+<text id="67502000">Iron Dragonslayer Gauntlets</text>
+<text id="67503000">Iron Dragonslayer Leggings</text>
+<text id="68500000">White Preacher Head</text>
+<text id="80500000">Ruin Helm</text>
+<text id="80501000">Ruin Armor</text>
+<text id="80502000">Ruin Gauntlets</text>
+<text id="80503000">Ruin Leggings</text>
+<text id="81500000">Desert Pyromancer Hood</text>
+<text id="81501000">Desert Pyromancer Garb</text>
+<text id="81502000">Desert Pyromancer Gloves</text>
+<text id="81503000">Desert Pyromancer Skirt</text>
+<text id="82500000">Black Witch Hat</text>
+<text id="82501000">Black Witch Garb</text>
+<text id="82502000">Black Witch Wrappings</text>
+<text id="82503000">Black Witch Trousers</text>
+<text id="83500000">Black Witch Veil</text>
+<text id="84500000">Blindfold Mask</text>
+</entries>
+</fmg>

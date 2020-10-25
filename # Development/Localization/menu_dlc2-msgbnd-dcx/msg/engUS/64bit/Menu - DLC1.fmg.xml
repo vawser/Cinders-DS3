@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="2311413">All combatants present.
+Moving to arena.</text>
+<text id="2341413">Please wait until all combatants have joined.
+Total players: &lt;?matchTotalCount?&gt;
+Remaining: &lt;?matchRemainingCount?&gt;</text>
+<text id="2620413">Combatant &lt;?deadName?&gt; felled</text>
+<text id="2621413">You have fallen.
+Resurrect, and enter the fray once more.</text>
+<text id="2630413">Combatant &lt;?leaveName?&gt; has fled the Match</text>
+<text id="2631413">Match fled</text>
+<text id="2640413">Match abandoned</text>
+<text id="2641413">Combatant &lt;?leaveName?&gt; has abandoned the Match</text>
+<text id="2650413">You have fallen.
+Resurrect, and enter the fray once more.</text>
+<text id="2651413">&lt;?roleName?&gt; &lt;?deadName?&gt; felled</text>
+<text id="2670413">Abandon this Match?</text>
+<text id="2671413">Flee this Match?</text>
+<text id="2680413">Match ended, all combatants fled.</text>
+<text id="2681413">Match ended through abandonment</text>
+<text id="2700413">&lt;?roleName?&gt; &lt;?leaveName?&gt; has returned home</text>
+<text id="2701313">A connection error has occurred.
+Returning to own world.</text>
+<text id="2702413">&lt;?roleName?&gt; &lt;?leaveName?&gt; has returned home</text>
+<text id="2731413">You defeated &lt;?roleName?&gt; &lt;?deadName?&gt;</text>
+<text id="2741000">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741001">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741002">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741100">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741101">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741102">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741200">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741201">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741202">Host of Embers has left the area. Returning to your world.</text>
+<text id="2741304">Way of Blue Adherent has left the area. Returning to your world.</text>
+<text id="2741305">%null%</text>
+<text id="2741306">Forest Trespasser has left the area. Returning to your world.</text>
+<text id="2741307">Cathedral Trespasser has left the area. Returning to your world.</text>
+<text id="2741308">Way of Blue Adherent has left the area. Returning to your world.</text>
+<text id="2741500">Summoner has left the area. Returning to your world.</text>
+<text id="2741501">Summoner has left the area. Returning to your world.</text>
+<text id="2741502">Summoner has left the area. Returning to your world.</text>
+<text id="2751413">Unable to start match. Returning to your world.</text>
+<text id="2760413">All combatants have returned home.
+Returning to your world.</text>
+<text id="10010201">Talk</text>
+<text id="10010550">Fell tree</text>
+<text id="10010551">Turn handle</text>
+<text id="10010844">Use &lt;?gdsparam@744?&gt;?</text>
+<text id="10010884">Used &lt;?gdsparam@2155?&gt;</text>
+<text id="10012500">This phantom will be summoned later at a separate location.
+Summon Slave Knight Gael?</text>
+<text id="10012520">The phantom Slave Knight Gael will be summoned later at a separate location.</text>
+<text id="10012600">Phantom Slave Knight Gael summoned</text>
+<text id="10012601">%null%</text>
+<text id="10012602">Phantom Slave Knight Gael has died</text>
+<text id="10012603">%null%</text>
+<text id="10012604">%null%</text>
+<text id="10012605">%null%</text>
+<text id="10012606">%null%</text>
+<text id="10012607">%null%</text>
+<text id="10012608">%null%</text>
+<text id="10012609">%null%</text>
+<text id="10012610">Phantom Slave Knight Gael summoned</text>
+<text id="10012611">%null%</text>
+<text id="10012612">Phantom Slave Knight Gael has died</text>
+<text id="10012700">Invaded by mad dark spirit Livid Pyromancer Dunnel!</text>
+<text id="10012701">Mad dark spirit Livid Pyromancer Dunnel has died</text>
+<text id="10012702">Mad dark spirit Livid Pyromancer Dunnel has returned home</text>
+<text id="10020000">Starting Match
+Time Limit: &lt;?matchDuel_TotalTime?&gt; seconds</text>
+<text id="10020001">Starting Match
+Time Limit: &lt;?matchDM2_TotalTime?&gt; seconds</text>
+<text id="10020002">Starting Match
+Time Limit: &lt;?matchDM4_TotalTime?&gt; seconds</text>
+<text id="10020003">Starting Match
+Time Limit: &lt;?matchDM6_TotalTime?&gt; seconds</text>
+<text id="10020004">Starting Match
+Time Limit: &lt;?matchTM2vs2_TotalTime?&gt; seconds</text>
+<text id="10020005">Starting Match
+Time Limit: &lt;?matchTM3vs3_TotalTime?&gt; seconds</text>
+<text id="10020006">%null%</text>
+<text id="10020007">%null%</text>
+<text id="10020008">%null%</text>
+<text id="10020009">%null%</text>
+<text id="10020010">Time remaining: &lt;?matchDuel_SecondHalfTime?&gt;s</text>
+<text id="10020011">Time remaining: &lt;?matchDM2_SecondHalfTime?&gt;s</text>
+<text id="10020012">Time remaining: &lt;?matchDM4_SecondHalfTime?&gt;s</text>
+<text id="10020013">Time remaining: &lt;?matchDM6_SecondHalfTime?&gt;s</text>
+<text id="10020014">Time remaining: &lt;?matchTM2vs2_SecondHalfTime?&gt;s</text>
+<text id="10020015">Time remaining: &lt;?matchTM3vs3_SecondHalfTime?&gt;s</text>
+<text id="10020016">%null%</text>
+<text id="10020017">%null%</text>
+<text id="10020018">%null%</text>
+<text id="10020019">%null%</text>
+<text id="10020020">Match Over</text>
+<text id="10020021">%null%</text>
+<text id="10020022">%null%</text>
+<text id="10020023">%null%</text>
+<text id="10020024">%null%</text>
+<text id="10020025">%null%</text>
+<text id="10020026">%null%</text>
+<text id="10020027">%null%</text>
+<text id="10020028">%null%</text>
+<text id="10020029">%null%</text>
+<text id="10020030">Undead Match Won.
+Returning to own world.</text>
+<text id="10020031">Draw.
+Returning to own world.</text>
+<text id="10020032">Undead Match Lost.
+Returning to own world.</text>
+<text id="13000060">Undead Matches can only be played online</text>
+<text id="13000061">Repeated unjust multiplayer disconnects have severed the
+connection to other worlds.
+Only a Way of White Circlet can restore the connection.</text>
+<text id="13000062">%null%</text>
+<text id="13000063">%null%</text>
+<text id="13000064">%null%</text>
+<text id="13000065">%null%</text>
+<text id="13000066">%null%</text>
+<text id="13000067">%null%</text>
+<text id="13000068">%null%</text>
+<text id="13000069">%null%</text>
+<text id="13000070">Cannot select during match</text>
+<text id="13000071">Cannot select during match</text>
+<text id="13000072">Cannot select during match</text>
+<text id="13002040">Cannot select during match</text>
+<text id="13005000">Cannot select during match</text>
+<text id="13010000">Cannot select during match</text>
+<text id="13014000">Cannot select during match</text>
+<text id="13016000">Cannot select during match</text>
+<text id="14051000">Accept</text>
+<text id="14051001">Refuse</text>
+<text id="14054000">I am Ash</text>
+<text id="14054001">I am not Ash</text>
+<text id="14054002">I am Ash</text>
+<text id="14054003">Say nothing</text>
+<text id="15000340">Burn &lt;?gdsparam@2153?&gt;</text>
+<text id="15000341">%null%</text>
+<text id="15000342">%null%</text>
+<text id="15000343">%null%</text>
+<text id="15000344">%null%</text>
+<text id="15000345">%null%</text>
+<text id="15000346">%null%</text>
+<text id="15000347">%null%</text>
+<text id="15000348">%null%</text>
+<text id="15000349">%null%</text>
+<text id="15000350">Undead Match</text>
+<text id="15011018">Give &lt;?gdsparam@2154?&gt; </text>
+</entries>
+</fmg>

@@ -1,0 +1,1495 @@
+ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Type,Value (SAN),Price Rate
+0,,1220,-1,-1,-1,70000101,-1,0,3,-1,1
+1,,240,100,-1,-1,-1,-1,0,3,-1,1
+2000,,7000000,0,-1,72101000,-1,1,0,0,-1,1
+2001,,5000000,0,-1,72101001,-1,1,0,0,-1,1
+2002,,22000000,0,-1,72101002,-1,1,0,0,-1,1
+2010,,14000000,0,-1,72101011,-1,1,0,0,-1,1
+2011,,6000000,0,-1,72101010,-1,1,0,0,-1,1
+21000,[Darkmoon Faithful] Darkmoon Ring,20330,-1,200300,-1,-1,-1,0,2,-1,0.5
+21001,[Darkmoon Faithful] Darkmoon Blade,3591000,-1,200301,-1,-1,-1,0,3,-1,0.5
+21002,[Darkmoon Faithful] Magic Gem,4005,-1,200302,-1,70000101,1,0,3,-1,0.5
+21003,[Darkmoon Faithful] Enchanted Gem,4010,-1,200302,-1,70000101,1,0,3,-1,0.5
+21004,[Darkmoon Faithful] Twinkling Titanite,1030,-1,200302,-1,70000106,1,0,3,-1,0.5
+21005,[Darkmoon Faithful] Yorshka's Chime,18070000,-1,200300,-1,-1,-1,0,0,-1,0.5
+21006,[Darkmoon Faithful] Saint's Veil,44500000,-1,200302,-1,-1,-1,0,1,-1,0.5
+21007,[Darkmoon Faithful] Saint's Dress,44501000,-1,200303,-1,-1,-1,0,1,-1,0.5
+21008,[Darkmoon Faithful] Sunless Veil,22500000,-1,200303,-1,-1,-1,0,1,-1,0.5
+21009,[Darkmoon Faithful] Sunless Armor,22501000,-1,200303,-1,-1,-1,0,1,-1,0.5
+21010,[Darkmoon Faithful] Sunless Gauntlets,22502000,-1,200303,-1,-1,-1,0,1,-1,0.5
+21011,[Darkmoon Faithful] Sunless Leggings,22503000,-1,200303,-1,-1,-1,0,1,-1,0.5
+21012,[Darkmoon Faithful] Darkmoon Elixir,3031,-1,200301,-1,-1,-1,0,3,-1,0.5
+21013,[Darkmoon Faithful] Priscilla's Scythe,30970000,-1,200300,-1,-1,-1,0,0,-1,0.5
+21014,[Darkmoon Faithful] Crown of the Dark Sun,99210000,-1,200302,-1,-1,-1,0,1,-1,0.5
+21015,[Darkmoon Faithful] Moonlight Robe,99211000,-1,200302,-1,-1,-1,0,1,-1,0.5
+21016,[Darkmoon Faithful] Moonlight Gloves,99212000,-1,200302,-1,-1,-1,0,1,-1,0.5
+21017,[Darkmoon Faithful] Moonlight Waistcloth,99213000,-1,200302,-1,-1,-1,0,1,-1,0.5
+21018,[Darkmoon Faithful] Yorshka's Spear,9190000,-1,200300,-1,-1,-1,0,0,-1,0.5
+21200,[Watchdogs of Farron] Old Wolf Curved Sword,6360000,-1,200600,-1,-1,-1,0,0,-1,0.5
+21201,[Watchdogs of Farron] Wolf Knight's Greatshield,22090000,-1,200600,-1,-1,-1,0,0,-1,0.5
+21202,[Watchdogs of Farron] Wolf Ring,20190,-1,200601,-1,-1,-1,0,2,-1,0.5
+21203,[Watchdogs of Farron] Blunt Gem,4013,-1,200602,-1,70000101,1,0,3,-1,0.5
+21204,[Watchdogs of Farron] Titanite Shard,1000,-1,200604,-1,70000101,1,0,3,-1,0.5
+21205,[Watchdogs of Farron] Large Titanite Shard,1001,-1,200603,-1,70000103,1,0,3,-1,0.5
+21206,[Watchdogs of Farron] Titanite Chunk,1002,-1,200602,-1,70000109,1,0,3,-1,0.5
+21209,[Watchdogs of Farron] Wolf Knight Helm,92000000,-1,200603,-1,-1,-1,0,1,-1,0.5
+21210,[Watchdogs of Farron] Wolf Knight Armor,92001000,-1,200603,-1,-1,-1,0,1,-1,0.5
+21211,[Watchdogs of Farron] Wolf Knight Gauntlets,92002000,-1,200603,-1,-1,-1,0,1,-1,0.5
+21212,[Watchdogs of Farron] Wolf Knight Leggings,92003000,-1,200603,-1,-1,-1,0,1,-1,0.5
+21213,[Watchdogs of Farron] Earthen Elixir,3033,-1,200601,-1,-1,-1,0,3,-1,0.5
+21400,[Aldrich Faithful] Archdeacon's Great Staff,19030000,-1,200700,-1,-1,-1,0,0,-1,0.5
+21401,[Aldrich Faithful] Archdeacon's Longstaff,12170000,-1,200701,-1,-1,-1,0,0,-1,0.5
+21402,[Aldrich Faithful] Dark Gem,4008,-1,200702,-1,70000101,1,0,3,-1,0.5
+21403,[Aldrich Faithful] Twinkling Titanite,1030,-1,200702,-1,70000106,1,0,3,-1,0.5
+21406,[Aldrich Faithful] Archdeacon White Crown,66000000,-1,200703,-1,-1,-1,0,1,-1,0.5
+21407,[Aldrich Faithful] Archdeacon Holy Garb,66001000,-1,200703,-1,-1,-1,0,1,-1,0.5
+21408,[Aldrich Faithful] Archdeacon Skirt,66003000,-1,200703,-1,-1,-1,0,1,-1,0.5
+21409,[Aldrich Faithful] Dark Bead,4106000,-1,200701,-1,-1,-1,0,3,-1,0.5
+21410,[Aldrich Faithful] Abyssal Elixir,3034,-1,200701,-1,-1,-1,0,3,-1,0.5
+21412,[Aldrich Faithful] Abyssal Fragment,1080,-1,200702,-1,9315,1,0,3,-1,0.5
+21600,[Warrior of Sunlight] Sunlight Shield,21160000,-1,200401,-1,-1,-1,0,0,-1,0.5
+21601,[Warrior of Sunlight] Sunlight Straight Sword,2110000,-1,200401,-1,-1,-1,0,0,-1,0.5
+21602,[Warrior of Sunlight] Lightning Gem,4007,-1,200402,-1,70000101,1,0,3,-1,0.5
+21603,[Warrior of Sunlight] Titanite Scale,1020,-1,200402,-1,70000105,1,0,3,-1,0.5
+21605,[Warrior of Sunlight] Heavenly Thunder,3802000,-1,200400,-1,-1,-1,0,3,-1,0.5
+21606,[Warrior of Sunlight] Iron Helm,87000000,-1,200403,-1,-1,-1,0,1,-1,0.5
+21607,[Warrior of Sunlight] Armor of the Sun,87001000,-1,200403,-1,-1,-1,0,1,-1,0.5
+21608,[Warrior of Sunlight] Iron Bracelets,87002000,-1,200403,-1,-1,-1,0,1,-1,0.5
+21609,[Warrior of Sunlight] Iron Leggings,87003000,-1,200403,-1,-1,-1,0,1,-1,0.5
+21610,[Warrior of Sunlight] Sunlight Elixir,3035,-1,200401,-1,-1,-1,0,3,-1,0.5
+21611,[Warrior of Sunlight] Holy Fragment,1090,-1,200402,-1,9311,1,0,3,-1,0.5
+21612,[Warrior of Sunlight] Incense of Cooperation,5300,-1,200400,-1,-1,-1,0,3,-1,0.5
+21800,[Mound-makers] Bloodlust,5040000,-1,200501,-1,-1,-1,0,0,-1,0.5
+21801,[Mound-makers] Warmth,2470000,-1,200500,-1,-1,-1,0,3,-1,0.5
+21802,[Mound-makers] Sharp Gem,4012,-1,200502,-1,70000101,1,0,3,-1,0.5
+21803,[Mound-makers] Titanite Shard,1000,-1,200504,-1,70000101,1,0,3,-1,0.5
+21804,[Mound-makers] Large Titanite Shard,1001,-1,200503,-1,70000103,1,0,3,-1,0.5
+21805,[Mound-makers] Titanite Chunk,1002,-1,200502,-1,70000109,1,0,3,-1,0.5
+21806,[Mound-makers] Hollowslayer Greatsword,6310000,-1,200500,-1,-1,-1,0,0,-1,0.5
+21807,[Mound-makers] Flynn's Bow,14200000,-1,200501,-1,-1,-1,0,0,-1,0.5
+21808,[Mound-makers] Sunset Helm,26000000,-1,200503,-1,-1,-1,0,1,-1,0.5
+21809,[Mound-makers] Sunset Armor,26001000,-1,200503,-1,-1,-1,0,1,-1,0.5
+21810,[Mound-makers] Sunset Gauntlets,26002000,-1,200503,-1,-1,-1,0,1,-1,0.5
+21811,[Mound-makers] Sunset Leggings,26003000,-1,200503,-1,-1,-1,0,1,-1,0.5
+21812,[Mound-makers] Maddening Elixir,3036,-1,200501,-1,-1,-1,0,3,-1,0.5
+22000,[Chaos Servants] Lingering Chaos,2701000,-1,201001,-1,-1,-1,0,3,-1,0.5
+22003,[Chaos Servants] Fire Gem,4006,-1,201002,-1,70000101,1,0,3,-1,0.5
+22007,[Chaos Servants] Old Sage's Blindfold,26500000,-1,201003,-1,-1,-1,0,1,-1,0.5
+22008,[Chaos Servants] Cornyx's Garb,26501000,-1,201003,-1,-1,-1,0,1,-1,0.5
+22009,[Chaos Servants] Cornyx's Wrap,26502000,-1,201003,-1,-1,-1,0,1,-1,0.5
+22010,[Chaos Servants] Cornyx's Skirt,26503000,-1,201003,-1,-1,-1,0,1,-1,0.5
+22011,[Chaos Servants] Demonic Elixir,3038,-1,201001,-1,-1,-1,0,3,-1,0.5
+22013,[Chaos Servants] Soul of a Demon,739,-1,201000,-1,-1,1,0,3,-1,0.5
+22014,[Chaos Servants] Soul of a Stray Demon,743,-1,201000,-1,-1,1,0,3,-1,0.5
+22015,[Chaos Servants] Demonic Claw,3042,-1,201001,-1,-1,-1,0,3,-1,0.5
+22016,[Chaos Servants] Demonic Skull,3047,-1,201001,-1,-1,-1,0,3,-1,0.5
+22200,[Rosaria's Fingers] Obscuring Ring,20580,-1,200800,-1,-1,-1,0,2,-1,0.5
+22201,[Rosaria's Fingers] Man-grub's Staff,17080000,-1,200801,-1,-1,-1,0,0,-1,0.5
+22203,[Rosaria's Fingers] Lucky Gem,4009,-1,200802,-1,70000101,1,0,3,-1,0.5
+22204,[Rosaria's Fingers] Twinkling Titanite,1030,-1,200802,-1,70000106,1,0,3,-1,0.5
+22207,[Rosaria's Fingers] Helm of Thorns,96000000,-1,200803,-1,-1,-1,0,1,-1,0.5
+22208,[Rosaria's Fingers] Armor of Thorns,96001000,-1,200803,-1,-1,-1,0,1,-1,0.5
+22209,[Rosaria's Fingers] Gauntlets of Thorns,96002000,-1,200803,-1,-1,-1,0,1,-1,0.5
+22210,[Rosaria's Fingers] Leggings of Thorns,96003000,-1,200803,-1,-1,-1,0,1,-1,0.5
+22211,[Rosaria's Fingers] Bloody Elixir,3037,-1,200801,-1,-1,-1,0,3,-1,0.5
+22212,[Rosaria's Fingers] Rosaria's Soul,728,-1,200801,-1,-1,1,0,3,-1,0.5
+22400,[Spears of the Church] Young Grass Dew,2159,-1,200900,-1,-1,-1,0,3,-1,0.5
+22401,[Spears of the Church] Divine Spear Fragment,651,-1,200900,-1,-1,-1,0,3,-1,0.5
+22402,[Spears of the Church] Lethal Gem,4000,-1,200902,-1,70000101,1,0,3,-1,0.5
+22403,[Spears of the Church] Dragon Scale,1010,-1,200902,-1,70000108,1,0,3,-1,0.5
+22404,[Spears of the Church] Ritual Spear Fragment,650,-1,200902,-1,-1,-1,0,3,-1,0.5
+22406,[Spears of the Church] Sacred Chime of Filianore,18080000,-1,200901,-1,-1,-1,0,0,-1,0.5
+22407,[Spears of the Church] Shira's Crown,29500000,-1,200903,-1,-1,-1,0,1,-1,0.5
+22408,[Spears of the Church] Shira's Armor,29501000,-1,200903,-1,-1,-1,0,1,-1,0.5
+22409,[Spears of the Church] Shira's Gloves,29502000,-1,200903,-1,-1,-1,0,1,-1,0.5
+22410,[Spears of the Church] Shira's Trousers,29503000,-1,200903,-1,-1,-1,0,1,-1,0.5
+22411,[Spears of the Church] Holy Elixir,3032,-1,200901,-1,-1,-1,0,3,-1,0.5
+22500,[Vinheim Scholars] Young Dragon Ring,20230,-1,201101,-1,-1,-1,0,2,-1,0.5
+22501,[Vinheim Scholars] Slumbering Dragoncrest Ring,20290,-1,201101,-1,-1,-1,0,2,-1,0.5
+22502,[Vinheim Scholars] Lingering Dragoncrest Ring,20270,-1,201101,-1,-1,-1,0,2,-1,0.5
+22505,[Vinheim Scholars] Court Sorcerer's Staff,17020000,-1,201100,-1,-1,-1,0,0,-1,0.5
+22509,[Vinheim Scholars] Magic Gem,4005,-1,201102,-1,70000101,1,0,3,-1,0.5
+22510,[Vinheim Scholars] Enchanted Gem,4010,-1,201102,-1,70000101,1,0,3,-1,0.5
+22511,[Vinheim Scholars] Twinkling Titanite,1030,-1,201102,-1,70000106,1,0,3,-1,0.5
+22512,[Vinheim Scholars] Clandestine Coat,30101000,-1,201100,-1,-1,-1,0,1,-1,0.5
+22513,[Vinheim Scholars] Blue Flame,17130000,-1,201100,-1,-1,-1,0,0,-1,0.5
+22514,[Vinheim Scholars] Chameleon,1355000,-1,201100,-1,-1,-1,0,3,-1,0.5
+22515,[Vinheim Scholars] Crystal Ring Shield,22280000,-1,201100,-1,-1,-1,0,0,-1,0.5
+22516,[Vinheim Scholars] Six-Eyed Helm of the Channelers,10030000,-1,201103,-1,-1,-1,0,1,-1,0.5
+22517,[Vinheim Scholars] Robe of the Channelers,10031000,-1,201103,-1,-1,-1,0,1,-1,0.5
+22518,[Vinheim Scholars] Gauntlets of the Channelers,10032000,-1,201103,-1,-1,-1,0,1,-1,0.5
+22519,[Vinheim Scholars] Waistcloth of the Channelers,10033000,-1,201103,-1,-1,-1,0,1,-1,0.5
+22600,[Pilgrims of Dark] Karla's Pointed Hat,99000000,-1,201203,-1,-1,-1,0,1,-1,0.5
+22601,[Pilgrims of Dark] Karla's Coat,99001000,-1,201203,-1,-1,-1,0,1,-1,0.5
+22602,[Pilgrims of Dark] Karla's Gloves,99002000,-1,201203,-1,-1,-1,0,1,-1,0.5
+22603,[Pilgrims of Dark] Karla's Trosuers,99003000,-1,201203,-1,-1,-1,0,1,-1,0.5
+22606,[Pilgrims of Dark] Dark Clutch Ring,20520,-1,201200,-1,-1,-1,0,2,-1,0.5
+22607,[Pilgrims of Dark] Needle of Eternal Agony,31030000,-1,201202,-1,-1,-1,0,0,-1,0.5
+22611,[Pilgrims of Dark] Heretic's Staff,19000000,-1,201202,-1,-1,-1,0,0,-1,0.5
+22612,[Pilgrims of Dark] Heretic's Warstaff,12180000,-1,201202,-1,-1,-1,0,0,-1,0.5
+22615,[Pilgrims of Dark] Whisper of Despair,4114000,-1,201201,-1,-1,-1,0,3,-1,0.5
+22616,[Pilgrims of Dark] Titanite Scale,1020,-1,201202,-1,70000105,1,0,3,-1,0.5
+22617,[Pilgrims of Dark] Dark Gem,4008,-1,201202,-1,70000101,1,0,3,-1,0.5
+22700,[Dragon Remnants] Farron Ring,20610,-1,201300,-1,-1,-1,0,2,-1,0.5
+22701,[Dragon Remnants] Hawkwood's Shield,20070000,-1,201300,-1,-1,-1,0,0,-1,0.5
+22702,[Dragon Remnants] Dragon Bone Smasher,30680000,-1,201300,-1,-1,-1,0,0,-1,0.5
+22703,[Dragon Remnants] Tailbone Club,30200000,-1,201302,-1,-1,-1,0,0,-1,0.5
+22704,[Dragon Remnants] Drake Fist,30170000,-1,201301,-1,-1,-1,0,0,-1,0.5
+22705,[Dragon Remnants] Dragonkin Shield,22230000,-1,201301,-1,-1,-1,0,0,-1,0.5
+22706,[Dragon Remnants] Stone of Draconic Fire,4100,-1,201300,-1,-1,-1,0,3,-1,0.5
+22707,[Dragon Remnants] Stone of Draconic Might,4101,-1,201300,-1,-1,-1,0,3,-1,0.5
+22708,[Dragon Remnants] Dragon Head Stone,3044,-1,201300,-1,-1,-1,0,3,-1,0.5
+22709,[Dragon Remnants] Dragon Torso Stone,3045,-1,201300,-1,-1,-1,0,3,-1,0.5
+22710,[Dragon Remnants] Lethal Gem,4000,-1,201302,-1,70000101,1,0,3,-1,0.5
+22711,[Dragon Remnants] Sharp Gem,4012,-1,201302,-1,70000101,1,0,3,-1,0.5
+22712,[Dragon Remnants] Blunt Gem,4013,-1,201302,-1,70000101,1,0,3,-1,0.5
+22713,[Dragon Remnants] Dragon Scale,1010,-1,201302,-1,70000108,1,0,3,-1,0.5
+22715,[Dragon Remnants] Black Dragon Helm,99190000,-1,201301,-1,-1,-1,0,1,-1,1
+22716,[Dragon Remnants] Black Dragon Armor,99191000,-1,201301,-1,-1,-1,0,1,-1,1
+22717,[Dragon Remnants] Black Dragon Gauntlets,99192000,-1,201301,-1,-1,-1,0,1,-1,1
+22718,[Dragon Remnants] Black Dragon Leggings,99193000,-1,201301,-1,-1,-1,0,1,-1,1
+22800,[Way of White] Quicksilver Helm,99320000,-1,201401,-1,-1,-1,0,1,-1,1
+22801,[Way of White] Quicksilver Armor,99321000,-1,201401,-1,-1,-1,0,1,-1,1
+22802,[Way of White] Quicksilver Gauntlets,99322000,-1,201401,-1,-1,-1,0,1,-1,1
+22803,[Way of White] Quicksilver Leggings,99323000,-1,201401,-1,-1,-1,0,1,-1,1
+22804,[Way of White] Holy Gem,4011,-1,201402,-1,70000101,1,0,3,-1,0.5
+22805,[Way of White] Twinkling Titanite,1030,-1,201402,-1,70000106,1,0,3,-1,0.5
+22806,[Way of White] Divine Blessing,240,-1,201404,-1,-1,-1,0,3,-1,0.5
+22807,[Way of White] Hidden Blessing,241,-1,201404,-1,-1,-1,0,3,-1,0.5
+22808,[Way of White] Projected Heal,3557000,-1,201400,-1,-1,-1,0,3,-1,0.5
+22809,[Way of White] Heavenly Relief,3540000,-1,201400,-1,-1,-1,0,3,-1,0.5
+22900,[Servant of the Rat] Blue Bug Pellet,458,100,201504,-1,-1,1,0,3,-1,1
+22901,[Servant of the Rat] Red Bug Pellet,459,100,201504,-1,-1,1,0,3,-1,1
+22902,[Servant of the Rat] Yellow Bug Pellet,460,100,201504,-1,-1,1,0,3,-1,1
+22903,[Servant of the Rat] Black Bug Pellet,461,100,201504,-1,-1,1,0,3,-1,1
+22904,[Servant of the Rat] Mossfruit,452,100,201504,-1,-1,1,0,3,-1,1
+22905,[Servant of the Rat] Rat Treat,5307,-1,201500,-1,-1,1,0,3,-1,1
+30000,[Ludleth - Corrupted Gundyr] Writhing Hammer,8210000,7500,100028,-1,-1,-1,0,0,-1,1
+30001,[Ludleth - Corrupted Gundyr] Cursed Ring of Evasion,30510,7500,100028,-1,-1,-1,0,2,-1,1
+30002,[Ludleth - Corrupted Gundyr] Cursed Ring of Vengeance,30520,7500,100028,-1,-1,-1,0,2,-1,1
+30003,[Ludleth - Corrupted Gundyr] Cursed Ring of Deflection,30530,7500,100028,-1,-1,-1,0,2,-1,1
+30004,[Ludleth - Corrupted Gundyr] Cursed Ring of Confusion,30540,7500,100028,-1,-1,-1,0,2,-1,1
+30005,[Ludleth - Corrupted Gundyr] Atonement,4306000,7500,100028,-1,-1,-1,0,3,-1,1
+30006,[Ludleth - Corrupted Gundyr] Accursed Sigil,30940,7500,100028,-1,-1,-1,0,2,-1,1
+30010,[Ludleth - Vordt] Vordt's Great Hammer,8180000,5000,100006,-1,-1,-1,0,0,-1,1
+30011,[Ludleth - Vordt] Pontiff's Left Eye,20790,5000,100006,-1,-1,-1,0,2,-1,1
+30012,[Ludleth - Vordt] Snap Freeze,1741000,5000,100006,-1,-1,-1,0,3,-1,1
+30013,[Ludleth - Vordt] Frozen Weapon,1313000,5000,100006,-1,-1,-1,0,3,-1,1
+30014,[Ludleth - Vordt] Frostflower Ring,30950,5000,100006,-1,-1,-1,0,2,-1,1
+30020,[Ludleth - Greatwood] Arstor's Spear,9170000,5000,100014,-1,-1,-1,0,0,-1,1
+30021,[Ludleth - Greatwood] Hammer of the Great Tree,8230000,5000,100014,-1,-1,-1,0,0,-1,1
+30022,[Ludleth - Greatwood] Greatwood Remnants,30090,5000,100014,-1,-1,-1,0,2,-1,1
+30023,[Ludleth - Greatwood] Greatwood Club,30050000,5000,100014,-1,-1,-1,0,0,-1,1
+30024,[Ludleth - Greatwood] Pungent Blade,4314000,5000,100014,-1,-1,-1,0,3,-1,1
+30025,[Ludleth - Greatwood] Tainted Chalice,30930,5000,100014,-1,-1,-1,0,2,-1,1
+30030,[Ludleth - Crystal Sage] Crystal Sage's Rapier,3040000,5000,100003,-1,-1,-1,0,0,-1,1
+30031,[Ludleth - Crystal Sage] Crystal Hail,1373000,5000,100003,-1,-1,-1,0,3,-1,1
+30032,[Ludleth - Crystal Sage] Sage's Stiletto,30740000,5000,100003,-1,-1,-1,0,0,-1,1
+30033,[Ludleth - Crystal Sage] Scholar's Bow,14210000,5000,100003,-1,-1,-1,0,0,-1,1
+30040,[Ludleth - Deacons] Cleric's Candlestick,19130000,7500,100015,-1,-1,-1,0,0,-1,1
+30041,[Ludleth - Deacons] Deep Ring,20320,7500,100015,-1,-1,-1,0,2,-1,1
+30042,[Ludleth - Deacons] Whisper of Despair,4114000,7500,100015,-1,-1,-1,0,3,-1,1
+30043,[Ludleth - Deacons] Dreg Torrent,4110000,7500,100015,-1,-1,-1,0,3,-1,1
+30044,[Ludleth - Deacons] Pulsating Blade,4313000,7500,100015,-1,-1,-1,0,3,-1,1
+30050,[Ludleth - Abyss Watcher] Farron Greatsword,6200000,10000,100004,-1,-1,-1,0,0,-1,1
+30051,[Ludleth - Abyss Watcher] Wolf Knight's Greatsword,6300000,10000,100004,-1,-1,-1,0,0,-1,1
+30052,[Ludleth - Abyss Watcher] Hornet Ring,20380,10000,100004,-1,-1,-1,0,2,-1,1
+30060,[Ludleth - High Lord Wolnir] Wolnir's Holy Sword,6290000,5000,100013,-1,-1,-1,0,0,-1,1
+30061,[Ludleth - High Lord Wolnir] Black Serpent,4206000,5000,100013,-1,-1,-1,0,3,-1,1
+30062,[Ludleth - High Lord Wolnir] Mournful Flames,4209000,5000,100013,-1,-1,-1,0,3,-1,1
+30063,[Ludleth - High Lord Wolnir] Gravelord Sword,30790000,5000,100013,-1,-1,-1,0,0,-1,1
+30064,[Ludleth - High Lord Wolnir] Crypt Blacksword,31130000,5000,100013,-1,-1,-1,0,0,-1,1
+30065,[Ludleth - High Lord Wolnir] Black Fire Vestiges,4203000,5000,100013,-1,-1,-1,0,3,-1,1
+30070,[Ludleth - Old Demon King] Old King's Great Hammer,8190000,7500,100007,-1,-1,-1,0,0,-1,1
+30071,[Ludleth - Old Demon King] Demon King's Greataxe,7120000,7500,100007,-1,-1,-1,0,0,-1,1
+30072,[Ludleth - Old Demon King] Quelaag's Fury Sword,31070000,7500,100007,-1,-1,-1,0,0,-1,1
+30073,[Ludleth - Old Demon King] Rockflesh,2713000,7500,100007,-1,-1,-1,0,3,-1,1
+30074,[Ludleth - Old Demon King] Immolation,2714000,7500,100007,-1,-1,-1,0,3,-1,1
+30080,[Ludleth - Ponitff Sulyvahn] Greatsword of Judgment,6170000,7500,100011,-1,-1,-1,0,0,-1,1
+30081,[Ludleth - Ponitff Sulyvahn] Profaned Greatsword,6180000,7500,100011,-1,-1,-1,0,0,-1,1
+30082,[Ludleth - Ponitff Sulyvahn] Orbs of Judgment,1805000,7500,100011,-1,-1,-1,0,3,-1,1
+30083,[Ludleth - Ponitff Sulyvahn] Soul Wave,1802000,7500,100011,-1,-1,-1,0,3,-1,1
+30090,[Ludleth - Aldrich] Darkmoon Longbow,14130000,10000,100012,-1,-1,-1,0,0,-1,1
+30091,[Ludleth - Aldrich] Lifehunt Scythe,4312000,10000,100012,-1,-1,-1,0,3,-1,1
+30092,[Ludleth - Aldrich] Sword of Avowal,2270000,5000,100012,-1,-1,-1,0,0,-1,1
+30093,[Ludleth - Aldrich] Golden Ritual Spear,17110000,5000,100012,-1,-1,-1,0,0,-1,1
+30100,[Ludleth - Yhorm the Giant] Yhorm's Great Machete,6230000,10000,100017,-1,-1,-1,0,0,-1,1
+30101,[Ludleth - Yhorm the Giant] Yhorm's Greatshield,22070000,10000,100017,-1,-1,-1,0,0,-1,1
+30102,[Ludleth - Yhorm the Giant] Ring of Punishment,30890,10000,100017,-1,-1,-1,0,2,-1,1
+30110,[Ludleth - Dancer] Dancer's Enchanted Swords,16040000,7500,100002,-1,-1,-1,0,0,-1,1
+30111,[Ludleth - Dancer] Soothing Sunlight,3503000,7500,100002,-1,-1,-1,0,3,-1,1
+30120,[Ludleth - Oceiros] Moonlight Greatsword,6320000,7500,100005,-1,-1,-1,0,0,-1,1
+30121,[Ludleth - Oceiros] White Dragon Breath,1370000,7500,100005,-1,-1,-1,0,3,-1,1
+30122,[Ludleth - Oceiros] Crystal Storm,1800000,7500,100005,-1,-1,-1,0,3,-1,1
+30123,[Ludleth - Oceiros] Moonlight Butterfly Horn,31010000,7500,100005,-1,-1,-1,0,0,-1,1
+30124,[Ludleth - Oceiros] Consumed King's Staff,19060000,7500,100005,-1,-1,-1,0,0,-1,1
+30130,[Ludleth - Dragonslayer Armour] Dragonslayer Greataxe,7110000,7500,100008,-1,-1,-1,0,0,-1,1
+30131,[Ludleth - Dragonslayer Armour] Dragonslayer Greatshield,22040000,7500,100008,-1,-1,-1,0,0,-1,1
+30132,[Ludleth - Dragonslayer Armour] Perseverance,3805000,7500,100008,-1,-1,-1,0,3,-1,1
+30140,[Ludleth - Ancient Wyvern] Dragon King Greataxe,30700000,7500,100029,-1,-1,-1,0,0,-1,1
+30141,[Ludleth - Ancient Wyvern] Dragon Greatsword,30690000,7500,100029,-1,-1,-1,0,0,-1,1
+30143,[Ludleth - Ancient Wyvern] Ancient Dragon Halberd,10120000,7500,100029,-1,-1,-1,0,0,-1,1
+30144,[Ludleth - Ancient Wyvern] Dragon Bone Fist,30670000,7500,100029,-1,-1,-1,0,0,-1,1
+30150,[Ludleth - Nameless King] Dragonslayer Swordspear,9160000,7500,100009,-1,-1,-1,0,0,-1,1
+30151,[Ludleth - Nameless King] Storm Curved Sword,4080000,7500,100009,-1,-1,-1,0,0,-1,1
+30152,[Ludleth - Nameless King] Sunlight Spear,3552000,7500,100009,-1,-1,-1,0,3,-1,1
+30153,[Ludleth - Nameless King] Lightning Storm,3553000,7500,100009,-1,-1,-1,0,3,-1,1
+30160,[Ludleth - Champion Gundyr] Gundyr's Halberd,10100000,7500,100000,-1,-1,-1,0,0,-1,1
+30161,[Ludleth - Champion Gundyr] Prisoner's Chain,20550,7500,100000,-1,-1,-1,0,2,-1,1
+30170,[Ludleth - Twin Princes] Lorian's Greatsword,6260000,10000,100016,-1,-1,-1,0,0,-1,1
+30171,[Ludleth - Twin Princes] Lothric's Holy Sword,6280000,10000,100016,-1,-1,-1,0,0,-1,1
+30172,[Ludleth - Twin Princes] Lothric's Scythe,10110000,10000,100016,-1,-1,-1,0,0,-1,1
+30173,[Ludleth - Twin Princes] Prince's Shield,21110000,10000,100016,-1,-1,-1,0,0,-1,1
+30174,[Ludleth - Twin Princes] Lothric's Holy Spear,3814000,10000,100016,-1,-1,-1,0,3,-1,1
+30180,[Ludleth - Soul of Cinder] Firelink Greatsword,6340000,10000,100018,-1,-1,-1,0,0,-1,1
+30181,[Ludleth - Soul of Cinder] Firelink Dagger,30010000,10000,100018,-1,-1,-1,0,0,-1,1
+30182,[Ludleth - Soul of Cinder] Firelink Spear,30020000,10000,100018,-1,-1,-1,0,0,-1,1
+30183,[Ludleth - Soul of Cinder] Firelink Sword,30030000,10000,100018,-1,-1,-1,0,0,-1,1
+30184,[Ludleth - Soul of Cinder] Firelink Rapier,30040000,10000,100018,-1,-1,-1,0,0,-1,1
+30185,[Ludleth - Soul of Cinder] Great Lord Greatsword,30800000,10000,100018,-1,-1,-1,0,0,-1,1
+30190,[Ludleth - Sister Freide] Friede's Great Scythe,10180000,10000,100023,-1,-1,-1,0,0,-1,1
+30191,[Ludleth - Sister Freide] Rose of Ariandel,18120000,10000,100023,-1,-1,-1,0,0,-1,1
+30192,[Ludleth - Sister Freide] Black Flame Arc,4210000,10000,100023,-1,-1,-1,0,3,-1,1
+30193,[Ludleth - Sister Freide] Blizzard,1803000,10000,100023,-1,-1,-1,0,3,-1,1
+30200,[Ludleth - Lordran Remnants] Dragonslayer Spear,9220000,7500,100030,-1,-1,-1,0,0,-1,1
+30201,[Ludleth - Lordran Remnants] Ciaran's Tracers,16080000,7500,100030,-1,-1,-1,0,0,-1,1
+30203,[Ludleth - Lordran Remnants] Leo Ring,20200,7500,100030,-1,-1,-1,0,2,-1,1
+30204,[Ludleth - Lordran Remnants] Greatshield of Artorias,22210000,7500,100030,-1,-1,-1,0,0,-1,1
+30205,[Ludleth - Lordran Remnants] Greatsword of Artorias,30820000,7500,100030,-1,-1,-1,0,0,-1,1
+30210,[Ludleth - Demon Prince] Demon's Scar,19820000,10000,100025,-1,-1,-1,0,0,-1,1
+30212,[Ludleth - Demon Prince] Chaos Bed Vestiges,2456000,10000,100025,-1,-1,-1,0,3,-1,1
+30213,[Ludleth - Demon Prince] Cataclysm,2702000,10000,100025,-1,-1,-1,0,3,-1,1
+30220,[Ludleth - Darkeater Midir] Frayed Blade,5060000,10000,100026,-1,-1,-1,0,0,-1,1
+30221,[Ludleth - Darkeater Midir] Old Moonlight,1376000,10000,100026,-1,-1,-1,0,3,-1,1
+30223,[Ludleth - Darkeater Midir] Obsidian Greatsword,31040000,10000,100026,-1,-1,-1,0,0,-1,1
+30224,[Ludleth - Darkeater Midir] Unleash Magic,1801000,10000,100026,-1,-1,-1,0,3,-1,1
+30230,[Ludleth - Slave Knight Gael] Gael's Greatsword,2260000,10000,100024,-1,-1,-1,0,0,-1,1
+30231,[Ludleth - Slave Knight Gael] Repeating Crossbow,14190000,10000,100024,-1,-1,-1,0,0,-1,1
+30232,[Ludleth - Slave Knight Gael] Halo,3803000,10000,100024,-1,-1,-1,0,3,-1,1
+30233,[Ludleth - Slave Knight Gael] Overwhelming Power,3818000,10000,100024,-1,-1,-1,0,3,-1,1
+30300,[Ludleth - Rosaria] Bountiful Sunlight,3505000,7500,100021,-1,-1,-1,0,3,-1,1
+30301,[Ludleth - Rosaria] Longstaff of Rosaria,12150000,7500,100021,-1,-1,-1,0,0,-1,1
+30302,[Ludleth - Rosaria] Divine Arrow,3813000,7500,100021,-1,-1,-1,0,3,-1,1
+30310,[Ludleth - Demon] Demon's Great Hammer,30630000,5000,100019,-1,-1,-1,0,0,-1,1
+30311,[Ludleth - Demon] Demon's Fist,11030000,5000,100019,-1,-1,-1,0,0,-1,1
+30312,[Ludleth - Demon] Demon's Machete,30640000,5000,100019,-1,-1,-1,0,0,-1,1
+30320,[Ludleth - Stray Demon] Boulder Heave,2630000,5000,100022,-1,-1,-1,0,3,-1,1
+30321,[Ludleth - Stray Demon] Demon's Great Axe,30620000,5000,100022,-1,-1,-1,0,0,-1,1
+30330,[Ludleth - Halflight] White Birch Bow,14120000,10000,100031,-1,-1,-1,0,0,-1,1
+30331,[Ludleth - Halflight] Wrathful Orbs,3819000,10000,100031,-1,-1,-1,0,3,-1,1
+30332,[Ludleth - Halflight] Holy Schism,3820000,10000,100031,-1,-1,-1,0,3,-1,1
+30333,[Ludleth - Halflight] Wrathful Barrage,3821000,10000,100031,-1,-1,-1,0,3,-1,1
+36000,[Bonfire - Dreamcatcher's Ashes] Titanite Shard,1000,-1,-1,-1,70000101,-1,0,3,-1,1
+36001,[Bonfire - Grave Warden's Ashes] Large Titanite Shard,1001,-1,-1,-1,70000103,-1,0,3,-1,1
+36002,[Bonfire - Easterner's Ashes] Titanite Chunk,1002,-1,-1,-1,70000109,-1,0,3,-1,1
+36003,[Bonfire - Lothric] Titanite Slab,1003,-1,-1,-1,25001018,-1,0,3,-1,1
+36004,[Bonfire - Xanthous Ashes] Twinkling Titanite,1030,-1,-1,-1,70000106,-1,0,3,-1,1
+36005,[Bonfire - Prisoner Chief's Ashes] Titanite Scale,1020,-1,-1,-1,70000105,-1,0,3,-1,1
+36006,[Bonfire - Dragon Chaser's Ashes] Dragon Scale,1010,-1,-1,-1,70000108,-1,0,3,-1,1
+36007,[Bonfire - Old Demon King] Fire Seed,1060,-1,-1,-1,25001008,-1,0,3,-1,1
+36008,[Bonfire - Dreamcatcher's Ashes] Shriving Stone,1250,-1,-1,-1,70000101,-1,0,3,-1,1
+36009,[Bonfire - Dreamcatcher's Ashes] Lethal Gem,4000,-1,-1,-1,70000101,-1,0,3,-1,1
+36010,[Bonfire - Dreamcatcher's Ashes] Curse Gem,4001,-1,-1,-1,70000101,-1,0,3,-1,1
+36011,[Bonfire - Dreamcatcher's Ashes] Poison Gem,4002,-1,-1,-1,70000101,-1,0,3,-1,1
+36012,[Bonfire - Dreamcatcher's Ashes] Blood Gem,4003,-1,-1,-1,70000101,-1,0,3,-1,1
+36013,[Bonfire - Dreamcatcher's Ashes] Frost Gem,4004,-1,-1,-1,70000101,-1,0,3,-1,1
+36014,[Bonfire - Dreamcatcher's Ashes] Magic Gem,4005,-1,-1,-1,70000101,-1,0,3,-1,1
+36015,[Bonfire - Dreamcatcher's Ashes] Fire Gem,4006,-1,-1,-1,70000101,-1,0,3,-1,1
+36016,[Bonfire - Dreamcatcher's Ashes] Lightning Gem,4007,-1,-1,-1,70000101,-1,0,3,-1,1
+36017,[Bonfire - Dreamcatcher's Ashes] Dark Gem,4008,-1,-1,-1,70000101,-1,0,3,-1,1
+36018,[Bonfire - Dreamcatcher's Ashes] Lucky Gem,4009,-1,-1,-1,70000101,-1,0,3,-1,1
+36019,[Bonfire - Dreamcatcher's Ashes] Enchanted Gem,4010,-1,-1,-1,70000101,-1,0,3,-1,1
+36020,[Bonfire - Dreamcatcher's Ashes] Holy Gem,4011,-1,-1,-1,70000101,-1,0,3,-1,1
+36021,[Bonfire - Dreamcatcher's Ashes] Sharp Gem,4012,-1,-1,-1,70000101,-1,0,3,-1,1
+36022,[Bonfire - Dreamcatcher's Ashes] Blunt Gem,4013,-1,-1,-1,70000101,-1,0,3,-1,1
+36024,[Bonfire - Lothric] Divine Blessing,240,-1,-1,-1,25001018,-1,0,3,-1,1
+36025,[Bonfire - Lothric] Hidden Blessing,241,-1,-1,-1,25001018,-1,0,3,-1,1
+36028,[Bonfire - Dreamcatcher's Ashes] Infusing Essence,2200,-1,-1,-1,70000101,-1,0,3,-1,1
+36029,[Bonfire - Dreamcatcher's Ashes] Degrading Essence,2201,-1,-1,-1,70000101,-1,0,3,-1,1
+36030,[Bonfire - Mortician's Ashes] Brightbug,2160,-1,-1,-1,70000100,-1,0,3,-1,1
+36038,[Bonfire - Mortician's Ashes] Repair Powder,280,-1,-1,-1,70000100,-1,0,3,-1,1
+36039,[Bonfire - Default] Green Blossom,260,-1,-1,-1,-1,-1,0,3,-1,1
+36040,[Bonfire - Default] Bloodred Moss Clump,270,-1,-1,-1,-1,-1,0,3,-1,1
+36041,[Bonfire - Default] Purple Moss Clump,271,-1,-1,-1,-1,-1,0,3,-1,1
+36042,[Bonfire - Mortician's Ashes] Blooming Purple Moss Clump,272,-1,-1,-1,70000100,-1,0,3,-1,1
+36043,[Bonfire - Paladin's Ashes] Purging Stone,274,-1,-1,-1,70000102,-1,0,3,-1,1
+36044,[Bonfire - Excrement-covered Ashes] Rime-blue Moss Clump,276,-1,-1,-1,70000104,-1,0,3,-1,1
+36045,[Bonfire - Grave Warden's Ashes] Kukri,290,-1,-1,-1,70000103,-1,0,3,-1,1
+36046,[Bonfire - Default] Firebomb,292,-1,-1,-1,-1,-1,0,3,-1,1
+36047,[Bonfire - Default] Dung Pie,293,-1,-1,-1,-1,-1,0,3,-1,1
+36048,[Bonfire - Mortician's Ashes] Alluring Skull,294,-1,-1,-1,70000100,-1,0,3,-1,1
+36049,[Bonfire - Paladin's Ashes] Undead Hunter Charm,296,-1,-1,-1,70000102,-1,0,3,-1,1
+36050,[Bonfire - Mortician's Ashes] Black Firebomb,297,-1,-1,-1,70000100,-1,0,3,-1,1
+36051,[Bonfire - Default] Rope Firebomb,299,-1,-1,-1,-1,-1,0,3,-1,1
+36052,[Bonfire - Xanthous Ashes] Lightning Urn,300,-1,-1,-1,70000106,-1,0,3,-1,1
+36053,[Bonfire - Mortician's Ashes] Rope Black Firebomb,302,-1,-1,-1,70000100,-1,0,3,-1,1
+36054,[Bonfire - Default] Stalk Dung Pie,303,-1,-1,-1,-1,-1,0,3,-1,1
+36055,[Bonfire - Paladin's Ashes] Duel Charm,304,-1,-1,-1,70000102,-1,0,3,-1,1
+36056,[Bonfire - Default] Throwing Knife,310,-1,-1,-1,-1,-1,0,3,-1,1
+36057,[Bonfire - Dreamcatcher's Ashes] Poison Throwing Knife,311,-1,-1,-1,70000101,-1,0,3,-1,1
+36058,[Bonfire - Mortician's Ashes] Charcoal Pine Resin,330,-1,-1,-1,70000100,-1,0,3,-1,1
+36059,[Bonfire - Xanthous Ashes] Gold Pine Resin,331,-1,-1,-1,70000106,-1,0,3,-1,1
+36060,[Bonfire - Paladin's Ashes] Human Pine Resin,334,-1,-1,-1,70000102,-1,0,3,-1,1
+36061,[Bonfire - Grave Warden's Ashes] Carthus Rouge,335,-1,-1,-1,70000103,-1,0,3,-1,1
+36062,[Bonfire - Prisoner Chief's Ashes] Pale Pine Resin,336,-1,-1,-1,70000105,-1,0,3,-1,1
+36063,[Bonfire - Mortician's Ashes] Charcoal Pine Bundle,340,-1,-1,-1,70000100,-1,0,3,-1,1
+36064,[Bonfire - Xanthous Ashes] Gold Pine Bundle,341,-1,-1,-1,70000106,-1,0,3,-1,1
+36065,[Bonfire - Dreamcatcher's Ashes] Rotten Pine Resin,343,-1,-1,-1,70000101,-1,0,3,-1,1
+36066,[Bonfire - Default] Homeward Bone,350,-1,-1,-1,-1,-1,0,3,-1,1
+36067,[Bonfire - Default] Prism Stone,370,-1,-1,-1,-1,-1,0,3,-1,1
+36068,[Bonfire - Dreamcatcher's Ashes] Mossfruit,452,-1,-1,-1,70000101,-1,0,3,-1,1
+36069,[Bonfire - Mortician's Ashes] Young White Branch,454,-1,-1,-1,70000100,-1,0,3,-1,1
+36070,[Bonfire - Grave Warden's Ashes] Rusted Coin,455,-1,-1,-1,70000103,-1,0,3,-1,1
+36071,[Bonfire - Prisoner Chief's Ashes] Siegbräu,456,-1,-1,-1,70000105,-1,0,3,-1,1
+36072,[Bonfire - Prisoner Chief's Ashes] Rusted Gold Coin,457,-1,-1,-1,70000105,-1,0,3,-1,1
+36073,[Bonfire - Paladin's Ashes] Blue Bug Pellet,458,-1,-1,-1,70000102,-1,0,3,-1,1
+36074,[Bonfire - Paladin's Ashes] Red Bug Pellet,459,-1,-1,-1,70000102,-1,0,3,-1,1
+36075,[Bonfire - Paladin's Ashes] Yellow Bug Pellet,460,-1,-1,-1,70000102,-1,0,3,-1,1
+36076,[Bonfire - Paladin's Ashes] Black Bug Pellet,461,-1,-1,-1,70000102,-1,0,3,-1,1
+36077,[Bonfire - Default] Ember,500,-1,-1,-1,-1,-1,0,3,-1,5
+36080,[Bonfire - Grave Warden's Ashes] Tarnished Coin,3004,-1,-1,-1,70000103,-1,0,3,-1,1
+36081,[Bonfire - Prisoner Chief's Ashes] Tarnished Silver Coin,3005,-1,-1,-1,70000105,-1,0,3,-1,1
+36082,[Bonfire - Grave Warden's Ashes] Hexing Urn,3018,-1,-1,-1,70000103,-1,0,3,-1,1
+36083,[Bonfire - Paladin's Ashes] Witching Urn,3020,-1,-1,-1,70000102,-1,0,3,-1,1
+36084,[Bonfire - Excrement-covered Ashes] Old Growth Balm,3021,-1,-1,-1,70000104,-1,0,3,-1,1
+36085,[Bonfire - Excrement-covered Ashes] Vine Balm,3022,-1,-1,-1,70000104,-1,0,3,-1,1
+36086,[Bonfire - Excrement-covered Ashes] Blackweed Balm,3023,-1,-1,-1,70000104,-1,0,3,-1,1
+36087,[Bonfire - Excrement-covered Ashes] Goldenfruit Balm,3024,-1,-1,-1,70000104,-1,0,3,-1,1
+36088,[Bonfire - Default] Seed of a Giant Tree,440,-1,-1,-1,-1,-1,0,3,-1,1
+36089,[Bonfire - Paladin's Ashes] Cleansing Pendant,275,-1,-1,-1,70000102,-1,0,3,-1,1
+36100,[Bonfire - Default] Standard Arrow,400000,-1,-1,-1,-1,-1,0,0,-1,1
+36101,[Bonfire - Grave Warden's Ashes] Fire Arrow,400100,-1,-1,-1,70000103,-1,0,0,-1,1
+36102,[Bonfire - Excrement-covered Ashes] Poison Arrow,400200,-1,-1,-1,70000104,-1,0,0,-1,1
+36103,[Bonfire - Paladin's Ashes] Large Arrow,400300,-1,-1,-1,70000102,-1,0,0,-1,1
+36104,[Bonfire - Mortician's Ashes] Feather Arrow,400400,-1,-1,-1,70000100,-1,0,0,-1,1
+36105,[Bonfire - Aldrich] Moonlight Arrow,400500,-1,-1,-1,25001010,-1,0,0,-1,1
+36106,[Bonfire - Default] Wood Arrow,400600,-1,-1,-1,-1,-1,0,0,-1,1
+36107,[Bonfire - Prisoner Chief's Ashes] Dark Arrow,400700,-1,-1,-1,70000105,-1,0,0,-1,1
+36108,[Bonfire - Xanthous Ashes] Lightning Arrow,410000,-1,-1,-1,70000106,-1,0,0,-1,1
+36109,[Bonfire - Grave Warden's Ashes] Lacerating Arrow,410600,-1,-1,-1,70000103,-1,0,0,-1,1
+36110,[Bonfire - Excrement-covered Ashes] Frost Arrow,410400,-1,-1,-1,70000104,-1,0,0,-1,1
+36111,[Bonfire - Dragon Chaser's Ashes] Draconic Arrow,410300,-1,-1,-1,70000108,-1,0,0,-1,1
+36112,[Bonfire - Easterner's Ashes] Dragonslayer Greatarrow,402000,-1,-1,-1,70000109,-1,0,0,-1,1
+36113,[Bonfire - Easterner's Ashes] Dragonslayer Lightning Arrow,402200,-1,-1,-1,70000109,-1,0,0,-1,1
+36114,[Bonfire - Easterner's Ashes] Onislayer Greatarrow,402300,-1,-1,-1,70000109,-1,0,0,-1,1
+36115,[Bonfire - Captain's Ashes] Millwood Greatarrow,402400,-1,-1,-1,70000120,-1,0,0,-1,1
+36116,[Bonfire - Aldrich] Moonlight Greatarrow,412000,-1,-1,-1,25001010,-1,0,0,-1,1
+36117,[Bonfire - Old Demon King] Demonic Greatarrow,422000,-1,-1,-1,25001008,-1,0,0,-1,1
+36118,[Bonfire - Darkeater Midir] Corrupted Greatarrow,432000,-1,-1,-1,25001023,-1,0,0,-1,1
+36119,[Bonfire - Dragon Chaser's Ashes] Draconic Greatarrow,442000,-1,-1,-1,70000108,-1,0,0,-1,1
+36120,[Bonfire - Default] Wood Greatarrow,412300,-1,-1,-1,-1,-1,0,0,-1,1
+36121,[Bonfire - Default] Standard Bolt,404000,-1,-1,-1,-1,-1,0,0,-1,1
+36122,[Bonfire - Paladin's Ashes] Heavy Bolt,404100,-1,-1,-1,70000102,-1,0,0,-1,1
+36123,[Bonfire - Grave Warden's Ashes] Sniper Bolt,404200,-1,-1,-1,70000103,-1,0,0,-1,1
+36124,[Bonfire - Default] Wood Bolt,404300,-1,-1,-1,-1,-1,0,0,-1,1
+36125,[Bonfire - Xanthous Ashes] Lightning Bolt,404400,-1,-1,-1,70000106,-1,0,0,-1,1
+36126,[Bonfire - Easterner's Ashes] Splintering Bolt,404500,-1,-1,-1,70000109,-1,0,0,-1,1
+36127,[Bonfire - Grave Warden's Ashes] Exploding Bolt,404600,-1,-1,-1,70000103,-1,0,0,-1,1
+36128,[Bonfire - Prisoner Chief's Ashes] Magic Bolt,414000,-1,-1,-1,70000105,-1,0,0,-1,1
+36129,[Bonfire - Grave Warden's Ashes] Fire Bolt,424000,-1,-1,-1,70000103,-1,0,0,-1,1
+36130,[Bonfire - Prisoner Chief's Ashes] Dark Bolt,434000,-1,-1,-1,70000105,-1,0,0,-1,1
+36131,[Bonfire - Excrement-covered Ashes] Poison Bolt,444000,-1,-1,-1,70000104,-1,0,0,-1,1
+36132,[Bonfire - Excrement-covered Ashes] Frost Bolt,454000,-1,-1,-1,70000104,-1,0,0,-1,1
+36133,[Bonfire - Dragon Chaser's Ashes] Draconic Bolt,414100,-1,-1,-1,70000108,-1,0,0,-1,1
+36134,[Bonfire - Excrement-covered Ashes] Frozen Pine Resin,344,-1,-1,-1,70000104,-1,0,3,-1,1
+36135,[Bonfire - Lothric] Prismatic Slab,1050,-1,-1,-1,25001018,-1,0,3,-1,1
+36136,[Bonfire - Crystal Sage] Crystal Fragment,1070,-1,-1,-1,25001004,-1,0,3,-1,1
+36137,[Bonfire - Wolnir] Abyssal Fragment,1080,-1,-1,-1,25001007,-1,0,3,-1,1
+36138,[Bonfire - Deacons] Holy Fragment,1090,-1,-1,-1,25001005,-1,0,3,-1,1
+36140,[Bonfire - Default] Lifegem,800,-1,-1,-1,-1,-1,0,3,-1,1
+36141,[Bonfire - Mortician's Ashes] Radiant Lifegem,801,-1,-1,-1,70000100,-1,0,3,-1,1
+36142,[Bonfire - Grave Warden's Ashes] Old Radiant Lifegem,802,-1,-1,-1,70000103,-1,0,3,-1,1
+36143,[Bonfire - Xanthous Ashes] Elizabeth Mushroom,803,-1,-1,-1,70000106,-1,0,3,-1,1
+36144,[Bonfire - Excrement-covered Ashes] Dried Root,804,-1,-1,-1,70000104,-1,0,3,-1,1
+36145,[Bonfire - Dreamcatcher's Ashes] Rouge Water,805,-1,-1,-1,70000101,-1,0,3,-1,1
+36146,[Bonfire - Easterner's Ashes] Crimson Water,806,-1,-1,-1,70000109,-1,0,3,-1,1
+40000,[Yoel] Deep Barb,4100000,-1,-1,-1,-1,-1,0,3,-1,1
+40001,[Yoel] Whisper of Despair,4114000,-1,-1,-1,-1,-1,0,3,-1,1
+40002,[Yoel] Farron Dart,1200000,-1,-1,-1,-1,-1,0,3,-1,1
+40003,[Yoel] Shockwave,1302000,-1,-1,-1,-1,-1,0,3,-1,1
+40004,[Yoel] Magic Shield,1330000,-1,-1,-1,-1,-1,0,3,-1,1
+40005,[Yoel] Purging Stone,274,-1,-1,-1,-1,-1,0,3,-1,2
+40006,[Yoel] Soul Arrow,1300000,-1,-1,-1,-1,-1,0,3,-1,1
+40007,[Yoel] Rouge Water,805,-1,-1,-1,-1,-1,0,3,-1,2
+41000,[Yuria] Purging Stone,274,-1,-1,-1,-1,-1,0,3,-1,1.5
+41001,[Yuria] Poison Throwing Knife,311,100,-1,-1,-1,-1,0,3,-1,1
+41002,[Yuria] Morion Blade,2180000,-1,-1,-1,-1,-1,0,0,-1,1
+41003,[Yuria] Ring of Sacrifice,20210,-1,-1,-1,-1,-1,0,2,-1,1
+41004,[Yuria] Dark Hand,11040000,-1,-1,-1,-1,-1,0,0,-1,1
+41005,[Yuria] Crimson Water,806,-1,-1,-1,-1,-1,0,3,-1,2
+100000,[Andre] Dagger,1000000,-1,-1,-1,-1,-1,0,0,-1,1
+100001,[Andre] Bandit's Knife,1010000,-1,-1,-1,-1,-1,0,0,-1,1
+100010,[Andre] Parrying Dagger,1020000,-1,-1,-1,-1,-1,0,0,-1,1
+100011,[Andre] Shortsword,2000000,-1,-1,-1,-1,-1,0,0,-1,1
+100012,[Andre] Longsword,2010000,-1,-1,-1,-1,-1,0,0,-1,1
+100013,[Andre] Broadsword,2020000,-1,-1,-1,-1,-1,0,0,-1,1
+100014,[Andre] Estoc,3000000,-1,-1,-1,-1,-1,0,0,-1,1
+100015,[Andre] Mail Breaker,3010000,-1,-1,-1,-1,-1,0,0,-1,1
+100016,[Andre] Rapier,3020000,-1,-1,-1,-1,-1,0,0,-1,1
+100017,[Andre] Shotel,4010000,-1,-1,-1,-1,-1,0,0,-1,1
+100018,[Andre] Scimitar,4030000,-1,-1,-1,-1,-1,0,0,-1,1
+100019,[Andre] Falchion,4040000,-1,-1,-1,-1,-1,0,0,-1,1
+100020,[Andre] Uchigatana,5000000,-1,-1,-1,-1,-1,0,0,-1,1
+100021,[Andre] Bastard Sword,6000000,-1,-1,-1,-1,-1,0,0,-1,1
+100022,[Andre] Claymore,6020000,-1,-1,-1,-1,-1,0,0,-1,1
+100023,[Andre] Zweihander,6040000,-1,-1,-1,-1,-1,0,0,-1,1
+100024,[Andre] Greatsword,6050000,-1,-1,-1,-1,-1,0,0,-1,1
+100025,[Andre] Hand Axe,7000000,-1,-1,-1,-1,-1,0,0,-1,1
+100026,[Andre] Battle Axe,7010000,-1,-1,-1,-1,-1,0,0,-1,1
+100027,[Andre] Greataxe,7050000,-1,-1,-1,-1,-1,0,0,-1,1
+100028,[Andre] Club,8000000,-1,-1,-1,-1,-1,0,0,-1,1
+100029,[Andre] Mace,8010000,-1,-1,-1,-1,-1,0,0,-1,1
+100030,[Andre] Warpick,8240000,-1,-1,-1,-1,-1,0,0,-1,1
+100031,[Andre] Pickaxe,8250000,-1,-1,-1,-1,-1,0,0,-1,1
+100032,[Andre] Spear,9000000,-1,-1,-1,-1,-1,0,0,-1,1
+100033,[Andre] Winged Spear,9010000,-1,-1,-1,-1,-1,0,0,-1,1
+100034,[Andre] Partizan,9030000,-1,-1,-1,-1,-1,0,0,-1,1
+100035,[Andre] Pike,9200000,-1,-1,-1,-1,-1,0,0,-1,1
+100036,[Andre] Great Scythe,10000000,-1,-1,-1,-1,-1,0,0,-1,1
+100037,[Andre] Lucerne,10010000,-1,-1,-1,-1,-1,0,0,-1,1
+100038,[Andre] Glaive,10020000,-1,-1,-1,-1,-1,0,0,-1,1
+100039,[Andre] Halberd,10030000,-1,-1,-1,-1,-1,0,0,-1,1
+100040,[Andre] Claw,11000000,-1,-1,-1,-1,-1,0,0,-1,1
+100041,[Andre] Caestus,11010000,-1,-1,-1,-1,-1,0,0,-1,1
+100042,[Andre] Whip,12000000,-1,-1,-1,-1,-1,0,0,-1,1
+100043,[Andre] Quarterstaff,12110000,-1,-1,-1,-1,-1,0,0,-1,1
+100044,[Andre] Short Bow,14010000,-1,-1,-1,-1,-1,0,0,-1,1
+100045,[Andre] Birch Crossbow,14040000,-1,-1,-1,-1,-1,0,0,-1,1
+100046,[Andre] Longbow,14060000,-1,-1,-1,-1,-1,0,0,-1,1
+100047,[Andre] Oak Crossbow,14110000,-1,-1,-1,-1,-1,0,0,-1,1
+100048,[Andre] Buckler,20000000,-1,-1,-1,-1,-1,0,0,-1,1
+100049,[Andre] Small Leather Shield,20010000,-1,-1,-1,-1,-1,0,0,-1,1
+100050,[Andre] Round Shield,20030000,-1,-1,-1,-1,-1,0,0,-1,1
+100051,[Andre] Large Leather Shield,20040000,-1,-1,-1,-1,-1,0,0,-1,1
+100052,[Andre] Leather Shield,20220000,-1,-1,-1,-1,-1,0,0,-1,1
+100060,[Andre] Blacksmith Hammer,8280000,-1,-1,-1,-1,-1,0,0,-1,1
+100061,[Andre] Torch,23000000,-1,-1,-1,-1,-1,0,0,-1,1
+100062,[Andre] Warrior's Round Shield,20180000,-1,-1,-1,-1,-1,0,0,-1,1
+100100,[Andre - Mortician's Ashes] Harpe,1060000,-1,-1,-1,70000100,-1,0,0,-1,1
+100101,[Andre - Mortician's Ashes] Flamberge,6140000,-1,-1,-1,70000100,-1,0,0,-1,1
+100102,[Andre - Mortician's Ashes] Brigand Axe,7020000,-1,-1,-1,70000100,-1,0,0,-1,1
+100103,[Andre - Mortician's Ashes] Missionary Axe,7090000,-1,-1,-1,70000100,-1,0,0,-1,1
+100104,[Andre - Mortician's Ashes] Thrall Axe,7100000,-1,-1,-1,70000100,-1,0,0,-1,1
+100105,[Andre - Mortician's Ashes] Wooden Mallet,30240000,-1,-1,-1,70000100,-1,0,0,-1,1
+100106,[Andre - Mortician's Ashes] Reinforced Club,8030000,-1,-1,-1,70000100,-1,0,0,-1,1
+100107,[Andre - Mortician's Ashes] Large Club,8060000,-1,-1,-1,70000100,-1,0,0,-1,1
+100108,[Andre - Mortician's Ashes] Great Club,8080000,-1,-1,-1,70000100,-1,0,0,-1,1
+100109,[Andre - Mortician's Ashes] Great Wooden Hammer,8160000,-1,-1,-1,70000100,-1,0,0,-1,1
+100110,[Andre - Mortician's Ashes] Spiked Mace,8300000,-1,-1,-1,70000100,-1,0,0,-1,1
+100111,[Andre - Mortician's Ashes] Four-Pronged Plow,9100000,-1,-1,-1,70000100,-1,0,0,-1,1
+100112,[Andre - Mortician's Ashes] Wooden Shield,20110000,-1,-1,-1,70000100,-1,0,0,-1,1
+100113,[Andre - Mortician's Ashes] Crimson Parma,20230000,-1,-1,-1,70000100,-1,0,0,-1,1
+100114,[Andre - Mortician's Ashes] Cleric's Parma,20260000,-1,-1,-1,70000100,-1,0,0,-1,1
+100115,[Andre - Mortician's Ashes] Blue Wooden Shield,21230000,-1,-1,-1,70000100,-1,0,0,-1,1
+100116,[Andre - Mortician's Ashes] Machete,30080000,-1,-1,-1,70000100,-1,0,0,-1,1
+100150,[Andre - Dreamchaser Ashes] Rotten Ghru Dagger,1040000,-1,-1,-1,70000101,-1,0,0,-1,1
+100151,[Andre - Dreamchaser Ashes] Corvian Greatknife,1090000,-1,-1,-1,70000101,-1,0,0,-1,1
+100152,[Andre - Dreamchaser Ashes] Rotten Ghru Curved Sword,2120000,-1,-1,-1,70000101,-1,0,0,-1,1
+100153,[Andre - Dreamchaser Ashes] Rotten Ghru Spear,9120000,-1,-1,-1,70000101,-1,0,0,-1,1
+100154,[Andre - Dreamchaser Ashes] Great Corvian Scythe,10080000,-1,-1,-1,70000101,-1,0,0,-1,1
+100155,[Andre - Dreamchaser Ashes] Corvian Longstaff,12120000,-1,-1,-1,70000101,-1,0,0,-1,1
+100156,[Andre - Dreamchaser Ashes] Heretic's Warstaff,12180000,-1,-1,-1,70000101,-1,0,0,-1,1
+100157,[Andre - Dreamchaser Ashes] Sniper Crossbow,14170000,-1,-1,-1,70000101,-1,0,0,-1,1
+100158,[Andre - Dreamchaser Ashes] Ghru Rotshield,20130000,-1,-1,-1,70000101,-1,0,0,-1,1
+100159,[Andre - Dreamchaser Ashes] Kite Shield,20120000,-1,-1,-1,70000101,-1,0,0,-1,1
+100160,[Andre - Dreamchaser Ashes] Target Shield,20160000,-1,-1,-1,70000101,-1,0,0,-1,1
+100161,[Andre - Dreamchaser Ashes] Composite Bow,14020000,-1,-1,-1,70000101,-1,0,0,-1,1
+100200,[Andre - Paladin's Ashes] Morning Star,8020000,-1,-1,-1,70000102,-1,0,0,-1,1
+100201,[Andre - Paladin's Ashes] Crescent Axe,7040000,-1,-1,-1,70000102,-1,0,0,-1,1
+100202,[Andre - Paladin's Ashes] Astora Straight Sword,2200000,-1,-1,-1,70000102,-1,0,0,-1,1
+100203,[Andre - Paladin's Ashes] Barbed Straight Sword,2210000,-1,-1,-1,70000102,-1,0,0,-1,1
+100204,[Andre - Paladin's Ashes] Astora Greatsword,6070000,-1,-1,-1,70000102,-1,0,0,-1,1
+100205,[Andre - Paladin's Ashes] Cathedral Knight Greatsword,6190000,-1,-1,-1,70000102,-1,0,0,-1,1
+100206,[Andre - Paladin's Ashes] Great Mace,8110000,-1,-1,-1,70000102,-1,0,0,-1,1
+100207,[Andre - Paladin's Ashes] Knight Shield,21040000,-1,-1,-1,70000102,-1,0,0,-1,1
+100208,[Andre - Paladin's Ashes] Spiked Shield,21130000,-1,-1,-1,70000102,-1,0,0,-1,1
+100209,[Andre - Paladin's Ashes] Pierce Shield,21140000,-1,-1,-1,70000102,-1,0,0,-1,1
+100210,[Andre - Paladin's Ashes] Cathedral Knight Greatshield,22020000,-1,-1,-1,70000102,-1,0,0,-1,1
+100250,[Andre - Grave Warden's Ashes] Carthus Shield,21070000,-1,-1,-1,70000103,-1,0,0,-1,1
+100251,[Andre - Grave Warden's Ashes] Carthus Shotel,4110000,-1,-1,-1,70000103,-1,0,0,-1,1
+100252,[Andre - Grave Warden's Ashes] Carthus Curved Sword,4050000,-1,-1,-1,70000103,-1,0,0,-1,1
+100253,[Andre - Grave Warden's Ashes] Carthus Curved Greatsword,4060000,-1,-1,-1,70000103,-1,0,0,-1,1
+100350,[Andre - Prisoner Chief's Ashes] Murakumo,6080000,-1,-1,-1,70000105,-1,0,0,-1,1
+100400,[Andre - Xanthous Ashes] Heysel Pick,17120000,-1,-1,-1,70000106,-1,0,0,-1,1
+100450,[Andre - Easterner's Ashes] Washing Pole,5010000,-1,-1,-1,70000109,-1,0,0,-1,1
+100451,[Andre - Easterner's Ashes] Eastern Iron Shield,20240000,-1,-1,-1,70000109,-1,0,0,-1,1
+100452,[Andre - Easterner's Ashes] Bewitched Alonne Sword,31310000,-1,-1,-1,70000109,-1,0,0,-1,1
+100500,[Andre - Dragon Chaser's Ashes] Drake Sword,30710000,-1,-1,-1,70000108,-1,0,0,-1,1
+100504,[Andre - Dragon Chaser's Ashes] Man Serpent Hatchet,7150000,-1,-1,-1,70000108,-1,0,0,-1,1
+100505,[Andre - Dragon Chaser's Ashes] Tailbone Short Sword,1080000,-1,-1,-1,70000108,-1,0,0,-1,1
+100506,[Andre - Dragon Chaser's Ashes] Tailbone Spear,9130000,-1,-1,-1,70000108,-1,0,0,-1,1
+100507,[Andre - Dragon Chaser's Ashes] Tailbone Club,30200000,-1,-1,-1,70000108,-1,0,0,-1,1
+100508,[Andre - Dragon Chaser's Ashes] Ancient Dragon Greatshield,20290000,-1,-1,-1,70000108,-1,0,0,-1,1
+100550,[Andre - Captain's Ashes] Follower Sabre,4120000,-1,-1,-1,70000120,-1,0,0,-1,1
+100551,[Andre - Captain's Ashes] Follower Javelin,9230000,-1,-1,-1,70000120,-1,0,0,-1,1
+100552,[Andre - Captain's Ashes] Follower Shield,20300000,-1,-1,-1,70000120,-1,0,0,-1,1
+100570,[Andre] Wood Arrow,400600,-1,-1,-1,-1,1,0,0,-1,0.5
+100571,[Andre] Wood Bolt,404300,-1,-1,-1,-1,-1,0,0,-1,0.5
+100572,[Andre] Wood Greatarrow,412300,-1,-1,-1,-1,-1,0,0,-1,0.5
+110000,[Shrine Handmaid] Chain Helm,70000000,-1,-1,-1,-1,-1,0,1,-1,1
+110001,[Shrine Handmaid] Chain Armor,70001000,-1,-1,-1,-1,-1,0,1,-1,1
+110002,[Shrine Handmaid] Leather Gauntlets,70002000,-1,-1,-1,-1,-1,0,1,-1,1
+110003,[Shrine Handmaid] Chain Leggings,70003000,-1,-1,-1,-1,-1,0,1,-1,1
+110008,[Shrine Handmaid] White Sign Soapstone,100,-1,-1,6800,-1,1,0,3,-1,1
+110009,[Shrine Handmaid] Dried Finger,385,-1,-1,6820,-1,1,0,3,-1,1
+110040,[Shrine Handmaid] Sorcerer's Staff,17000000,-1,-1,-1,-1,-1,0,0,-1,1
+110041,[Shrine Handmaid] Talisman,18000000,-1,-1,-1,-1,-1,0,0,-1,1
+110042,[Shrine Handmaid] Pyromancy Flame,19800000,-1,-1,-1,-1,-1,0,0,-1,1
+110043,[Shrine Handmaid] Heretic's Staff,19000000,-1,-1,-1,-1,-1,0,0,-1,1
+110044,[Shrine Handmaid] Corrupted Talisman,19090000,-1,-1,-1,-1,-1,0,0,-1,1
+110045,[Shrine Handmaid] Black Flame,19120000,-1,-1,-1,-1,-1,0,0,-1,1
+110056,[Shrine Handmaid - Mortician's Ashes] Grave Key,2009,-1,-1,74001090,70000100,1,0,3,-1,1
+110100,[Shrine Handmaid - Dreamchaser Ashes] Leather Armor,76001000,-1,-1,-1,70000101,-1,0,1,-1,1
+110101,[Shrine Handmaid - Dreamchaser Ashes] Leather Gloves,76002000,-1,-1,-1,70000101,-1,0,1,-1,1
+110102,[Shrine Handmaid - Dreamchaser Ashes] Leather Boots,76003000,-1,-1,-1,70000101,-1,0,1,-1,1
+110103,[Shrine Handmaid - Dreamchaser Ashes] Life Ring,20000,-1,-1,-1,70000101,-1,0,2,-1,1
+110150,[Shrine Handmaid - Paladin's Ashes] Lloyd's Shield Ring,20670,-1,-1,-1,70000102,-1,0,2,-1,1
+110200,[Shrine Handmaid - Grave Warden's Ashes] Hello Carving,520,-1,-1,-1,70000103,-1,0,3,-1,1
+110250,[Shrine Handmaid - Excrement-covered Ashes] Help me! Carving,524,-1,-1,-1,70000104,-1,0,3,-1,1
+110302,[Shrine Handmaid - Prisoner Chief's Ashes] Karla's Pointed Hat,99000000,-1,-1,-1,70000105,-1,0,1,-1,1
+110303,[Shrine Handmaid - Prisoner Chief's Ashes] Karla's Coat,99001000,-1,-1,-1,70000105,-1,0,1,-1,1
+110304,[Shrine Handmaid - Prisoner Chief's Ashes] Karla's Gloves,99002000,-1,-1,-1,70000105,-1,0,1,-1,1
+110305,[Shrine Handmaid - Prisoner Chief's Ashes] Karla's Trousers,99003000,-1,-1,-1,70000105,-1,0,1,-1,1
+110306,[Shrine Handmaid - Prisoner Chief's Ashes] Thank you Carving,521,-1,-1,-1,70000105,-1,0,3,-1,1
+110308,[Shrine Handmaid - Prisoner Chief's Ashes] I'm Sorry Carving,523,-1,-1,-1,70000105,-1,0,3,-1,1
+110353,[Shrine Handmaid - Xanthous Ashes] Xanthous Overcoat,23501000,-1,-1,-1,70000106,-1,0,1,-1,1
+110354,[Shrine Handmaid - Xanthous Ashes] Xanthous Gloves,23502000,-1,-1,-1,70000106,-1,0,1,-1,1
+110355,[Shrine Handmaid - Xanthous Ashes] Xanthous Trousers,23503000,-1,-1,-1,70000106,-1,0,1,-1,1
+110357,[Shrine Handmaid - Xanthous Ashes] Xanthous Crown,23500000,-1,-1,-1,70000106,-1,0,1,-1,1
+110402,[Shrine Handmaid - Hollow's Ashes] Ring of Sacrifice,20210,-1,-1,-1,70000107,-1,0,2,-1,1
+110450,[Shrine Handmaid - Dragon Chaser's Ashes] Very good! Carving,522,-1,-1,-1,70000108,-1,0,3,-1,1
+110500,[Shrine Handmaid - Easterner's Ashes] Wood Grain Ring,20140,-1,-1,-1,70000109,-1,0,2,-1,1
+110501,[Shrine Handmaid - Easterner's Ashes] Eastern Helm,82000000,-1,-1,-1,70000109,-1,0,1,-1,1
+110502,[Shrine Handmaid - Easterner's Ashes] Eastern Armor,82001000,-1,-1,-1,70000109,-1,0,1,-1,1
+110503,[Shrine Handmaid - Easterner's Ashes] Eastern Gauntlets,82002000,-1,-1,-1,70000109,-1,0,1,-1,1
+110504,[Shrine Handmaid - Easterner's Ashes] Eastern Leggings,82003000,-1,-1,-1,70000109,-1,0,1,-1,1
+110550,[Shrine Handmaid - Soul of Cinder] Firelink Helm,21000000,-1,-1,-1,25001019,-1,0,1,-1,1
+110551,[Shrine Handmaid - Soul of Cinder] Firelink Armor,21001000,-1,-1,-1,25001019,-1,0,1,-1,1
+110552,[Shrine Handmaid - Soul of Cinder] Firelink Gauntlets,21002000,-1,-1,-1,25001019,-1,0,1,-1,1
+110553,[Shrine Handmaid - Soul of Cinder] Firelink Leggings,21003000,-1,-1,-1,25001019,-1,0,1,-1,1
+110560,[Shrine Handmaid - Soul of Cinder] Crown of the Great Lord,99200000,-1,-1,-1,25001019,-1,0,1,-1,1
+110561,[Shrine Handmaid - Soul of Cinder] Robe of the Great Lord,99201000,-1,-1,-1,25001019,-1,0,1,-1,1
+110562,[Shrine Handmaid - Soul of Cinder] Bracelet of the Great Lord,99202000,-1,-1,-1,25001019,-1,0,1,-1,1
+110563,[Shrine Handmaid - Soul of Cinder] Anklet of the Great Lord,99203000,-1,-1,-1,25001019,-1,0,1,-1,1
+110564,[Shrine Handmaid - Pontiff Sulyvahn] Pontiff's Crown,99340000,-1,-1,-1,25001009,-1,0,1,-1,1
+110565,[Shrine Handmaid - Pontiff Sulyvahn] Pontiff's Bracelets,99342000,-1,-1,-1,25001009,-1,0,1,-1,1
+110570,[Shrine Handmaid - Old Demon King] Old Demon King's Crown,99590000,-1,-1,-1,25001008,-1,0,1,-1,1
+110600,[Shrine Handmaid - Nameless King] Golden Crown,57000000,-1,-1,-1,25001016,-1,0,1,-1,1
+110601,[Shrine Handmaid - Nameless King] Dragonscale Armor,57001000,-1,-1,-1,25001016,-1,0,1,-1,1
+110602,[Shrine Handmaid - Nameless King] Golden Bracelets,57002000,-1,-1,-1,25001016,-1,0,1,-1,1
+110603,[Shrine Handmaid - Nameless King] Dragonscale Waistcloth,57003000,-1,-1,-1,25001016,-1,0,1,-1,1
+110650,[Shrine Handmaid - Abyss Watchers] Undead Legion Helm,58000000,-1,-1,-1,25001006,-1,0,1,-1,1
+110651,[Shrine Handmaid - Abyss Watchers] Undead Legion Armor,58001000,-1,-1,-1,25001006,-1,0,1,-1,1
+110652,[Shrine Handmaid - Abyss Watchers] Undead Legion Gauntlet,58002000,-1,-1,-1,25001006,-1,0,1,-1,1
+110653,[Shrine Handmaid - Abyss Watchers] Undead Legion Leggings,58003000,-1,-1,-1,25001006,-1,0,1,-1,1
+110700,[Shrine Handmaid - Aldrich] Smough's Helm,94000000,-1,-1,-1,25001010,-1,0,1,-1,1
+110701,[Shrine Handmaid - Aldrich] Smough's Armor,94001000,-1,-1,-1,25001010,-1,0,1,-1,1
+110702,[Shrine Handmaid - Aldrich] Smough's Gauntlets,94002000,-1,-1,-1,25001010,-1,0,1,-1,1
+110703,[Shrine Handmaid - Aldrich] Smough's Leggings,94003000,-1,-1,-1,25001010,-1,0,1,-1,1
+110750,[Shrine Handmaid - Twin Princes] Lorian's Helm,61000000,-1,-1,-1,25001018,-1,0,1,-1,1
+110751,[Shrine Handmaid - Twin Princes] Lorian's Armor,61001000,-1,-1,-1,25001018,-1,0,1,-1,1
+110752,[Shrine Handmaid - Twin Princes] Lorian's Gauntlets,61002000,-1,-1,-1,25001018,-1,0,1,-1,1
+110753,[Shrine Handmaid - Twin Princes] Lorian's Leggings,61003000,-1,-1,-1,25001018,-1,0,1,-1,1
+110754,[Shrine Handmaid - Twin Princes] Crown of the Holy King,99570000,-1,-1,-1,25001018,-1,0,1,-1,1
+110760,[Shrine Handmaid - Yhorm the Giant] Imperious Helm,99450000,-1,-1,-1,25001011,-1,0,1,-1,1
+110761,[Shrine Handmaid - Yhorm the Giant] Imperious Armor,99451000,-1,-1,-1,25001011,-1,0,1,-1,1
+110762,[Shrine Handmaid - Yhorm the Giant] Imperious Gauntlets,99452000,-1,-1,-1,25001011,-1,0,1,-1,1
+110763,[Shrine Handmaid - Yhorm the Giant] Imperious Leggings,99453000,-1,-1,-1,25001011,-1,0,1,-1,1
+110800,[Shrine Handmaid - Champion Gundyr] Gundyr's Helm,64000000,-1,-1,-1,25001017,-1,0,1,-1,1
+110801,[Shrine Handmaid - Champion Gundyr] Gundyr's Armor,64001000,-1,-1,-1,25001017,-1,0,1,-1,1
+110802,[Shrine Handmaid - Champion Gundyr] Gundyr's Gauntlets,64002000,-1,-1,-1,25001017,-1,0,1,-1,1
+110803,[Shrine Handmaid - Champion Gundyr] Gundyr's Leggings,64003000,-1,-1,-1,25001017,-1,0,1,-1,1
+110850,[Shrine Handmaid - Dancer] Dancer's Crown,63000000,-1,-1,-1,25001012,-1,0,1,-1,1
+110851,[Shrine Handmaid - Dancer] Dancer's Armor,63001000,-1,-1,-1,25001012,-1,0,1,-1,1
+110852,[Shrine Handmaid - Dancer] Dancer's Gauntlets,63002000,-1,-1,-1,25001012,-1,0,1,-1,1
+110853,[Shrine Handmaid - Dancer] Dancer's Leggings,63003000,-1,-1,-1,25001012,-1,0,1,-1,1
+110900,[Shrine Handmaid - Wolnir] Wolnir's Crown,57500000,-1,-1,-1,25001007,-1,0,1,-1,1
+110950,[Shrine Handmaid - Crystal Sage] Sage's Big Hat,43000000,-1,-1,-1,25001004,-1,0,1,-1,1
+111000,[Shrine Handmaid - Yuria's Ashes] Billed Mask,27500000,-1,-1,-1,1058,-1,0,1,-1,1
+111001,[Shrine Handmaid - Yuria's Ashes] Black Dress,27501000,-1,-1,-1,1058,-1,0,1,-1,1
+111002,[Shrine Handmaid - Yuria's Ashes] Black Gauntlets,27502000,-1,-1,-1,1058,-1,0,1,-1,1
+111003,[Shrine Handmaid - Yuria's Ashes] Black Leggings,27503000,-1,-1,-1,1058,-1,0,1,-1,1
+111050,[Shrine Handmaid - Sirris] Sunless Veil,22500000,-1,-1,-1,1138,-1,0,1,-1,1
+111051,[Shrine Handmaid - Sirris] Sunless Armor,22501000,-1,-1,-1,1138,-1,0,1,-1,1
+111052,[Shrine Handmaid - Sirris] Sunless Gauntlets,22502000,-1,-1,-1,1138,-1,0,1,-1,1
+111053,[Shrine Handmaid - Sirris] Sunless Leggings,22503000,-1,-1,-1,1138,-1,0,1,-1,1
+111100,[Shrine Handmaid - Anri] Elite Knight Helm,72000000,-1,-1,-1,1358,-1,0,1,-1,1
+111101,[Shrine Handmaid - Anri] Elite Knight Armor,72001000,-1,-1,-1,1358,-1,0,1,-1,1
+111102,[Shrine Handmaid - Anri] Elite Knight Gauntlets,72002000,-1,-1,-1,1358,-1,0,1,-1,1
+111103,[Shrine Handmaid - Anri] Elite Knight Leggings,72003000,-1,-1,-1,1358,-1,0,1,-1,1
+111150,[Shrine Handmaid - Lion Knight Albert] Faraam Helm,73000000,-1,-1,-1,13410202,-1,0,1,-1,1
+111151,[Shrine Handmaid - Lion Knight Albert] Faraam Armor,73001000,-1,-1,-1,13410202,-1,0,1,-1,1
+111152,[Shrine Handmaid - Lion Knight Albert] Faraam Gauntlets,73002000,-1,-1,-1,13410202,-1,0,1,-1,1
+111153,[Shrine Handmaid - Lion Knight Albert] Faraam Boots,73003000,-1,-1,-1,13410202,-1,0,1,-1,1
+111200,[Shrine Handmaid - Black Hand Kamui] Black Hand Hat,23000000,-1,-1,-1,13410204,-1,0,1,-1,1
+111201,[Shrine Handmaid - Black Hand Kamui] Black Hand Armor,23001000,-1,-1,-1,13410204,-1,0,1,-1,1
+111250,[Shrine Handmaid - Eygon] Morne's Helm,24500000,-1,-1,-1,1318,-1,0,1,-1,1
+111251,[Shrine Handmaid - Eygon] Morne's Armor,24501000,-1,-1,-1,1318,-1,0,1,-1,1
+111252,[Shrine Handmaid - Eygon] Morne's Gauntlets,24502000,-1,-1,-1,1318,-1,0,1,-1,1
+111253,[Shrine Handmaid - Eygon] Morne's Leggings,24503000,-1,-1,-1,1318,-1,0,1,-1,1
+111301,[Shrine Handmaid - Leonhard] Leonhard's Garb,25001000,-1,-1,-1,1158,-1,0,1,-1,1
+111302,[Shrine Handmaid - Leonhard] Leonhard's Gauntlets,25002000,-1,-1,-1,1158,-1,0,1,-1,1
+111303,[Shrine Handmaid - Leonhard] Leonhard's Trousers,25003000,-1,-1,-1,1158,-1,0,1,-1,1
+111350,[Shrine Handmaid - Horace] Executioner Helm,27000000,-1,-1,-1,1498,-1,0,1,-1,1
+111351,[Shrine Handmaid - Horace] Executioner Armor,27001000,-1,-1,-1,1498,-1,0,1,-1,1
+111352,[Shrine Handmaid - Horace] Executioner Gauntlets,27002000,-1,-1,-1,1498,-1,0,1,-1,1
+111353,[Shrine Handmaid - Horace] Executioner Leggings,27003000,-1,-1,-1,1498,-1,0,1,-1,1
+111400,[Shrine Handmaid - Watchdog] Exile Mask,55000000,-1,-1,-1,70000119,-1,0,1,-1,1
+111401,[Shrine Handmaid - Watchdog] Exile Armor,55001000,-1,-1,-1,70000119,-1,0,1,-1,1
+111402,[Shrine Handmaid - Watchdog] Exile Gauntlets,55002000,-1,-1,-1,70000119,-1,0,1,-1,1
+111403,[Shrine Handmaid - Watchdog] Exile Leggings,55003000,-1,-1,-1,70000119,-1,0,1,-1,1
+111450,[Shrine Handmaid - Knight Slayer Tsorig] Black Iron Helm,90000000,-1,-1,-1,13800398,-1,0,1,-1,1
+111451,[Shrine Handmaid - Knight Slayer Tsorig] Black Iron Armor,90001000,-1,-1,-1,13800398,-1,0,1,-1,1
+111452,[Shrine Handmaid - Knight Slayer Tsorig] Black Iron Gauntlets,90002000,-1,-1,-1,13800398,-1,0,1,-1,1
+111453,[Shrine Handmaid - Knight Slayer Tsorig] Black Iron Leggings,90003000,-1,-1,-1,13800398,-1,0,1,-1,1
+111550,[Shrine Handmaid - Sulyvahn's Beasts] Helm of Favor,83000000,-1,-1,-1,53700990,-1,0,1,-1,1
+111551,[Shrine Handmaid - Sulyvahn's Beasts] Embraced Armor of Favor,83001000,-1,-1,-1,53700990,-1,0,1,-1,1
+111552,[Shrine Handmaid - Sulyvahn's Beasts] Gauntlets of Favor,83002000,-1,-1,-1,53700990,-1,0,1,-1,1
+111553,[Shrine Handmaid - Sulyvahn's Beasts] Leggings of Favor,83003000,-1,-1,-1,53700990,-1,0,1,-1,1
+111560,[Shrine Handmaid - Lapp] Lapp's Helm,32000000,-1,-1,-1,1818,-1,0,1,-1,1
+111561,[Shrine Handmaid - Lapp] Lapp's Armor,32001000,-1,-1,-1,1818,-1,0,1,-1,1
+111562,[Shrine Handmaid - Lapp] Lapp's Gauntlets,32002000,-1,-1,-1,1818,-1,0,1,-1,1
+111563,[Shrine Handmaid - Lapp] Lapp's Leggings,32003000,-1,-1,-1,1818,-1,0,1,-1,1
+111570,[Shrine Handmaid - Lordran Remnants] Porcelain Mask,99220000,-1,-1,-1,25001021,-1,0,1,-1,1
+111571,[Shrine Handmaid - Lordran Remnants] Lord's Blade Robe,99221000,-1,-1,-1,25001021,-1,0,1,-1,1
+111572,[Shrine Handmaid - Lordran Remnants] Lord's Blade Gloves,99222000,-1,-1,-1,25001021,-1,0,1,-1,1
+111573,[Shrine Handmaid - Lordran Remnants] Lord's Blade Waistcloth,99223000,-1,-1,-1,25001021,-1,0,1,-1,1
+111574,[Shrine Handmaid - Lordran Remnants] Gough's Helm,10010000,-1,-1,-1,25001021,-1,0,1,-1,1
+111575,[Shrine Handmaid - Lordran Remnants] Gough's Armor,10011000,-1,-1,-1,25001021,-1,0,1,-1,1
+111576,[Shrine Handmaid - Lordran Remnants] Gough's Gloves,10012000,-1,-1,-1,25001021,-1,0,1,-1,1
+111577,[Shrine Handmaid - Lordran Remnants] Gough's Leggings,10013000,-1,-1,-1,25001021,-1,0,1,-1,1
+111600,[Shrine Handmaid - Sister Friede] Ordained Hood,56500000,-1,-1,-1,25001020,-1,0,1,-1,1
+111601,[Shrine Handmaid - Sister Friede] Ordained Dress,56501000,-1,-1,-1,25001020,-1,0,1,-1,1
+111602,[Shrine Handmaid - Sister Friede] Ordained Trousers,56503000,-1,-1,-1,25001020,-1,0,1,-1,1
+111610,[Shrine Handmaid - Slave Knight Gael] Pygmy Crown,99580000,-1,-1,-1,25001024,-1,0,1,-1,1
+111651,[Shrine Handmaid - Captain's Ashes] Millwood Knight Helm,60500000,-1,-1,-1,70000120,-1,0,1,-1,1
+111652,[Shrine Handmaid - Captain's Ashes] Millwood Knight Armor,60501000,-1,-1,-1,70000120,-1,0,1,-1,1
+111653,[Shrine Handmaid - Captain's Ashes] Millwood Knight Gauntlets,60502000,-1,-1,-1,70000120,-1,0,1,-1,1
+111654,[Shrine Handmaid - Captain's Ashes] Millwood Knight Leggings,60503000,-1,-1,-1,70000120,-1,0,1,-1,1
+119904,[Shrine Handmaid - Untended Graves] White Sign Soapstone,100,-1,-1,6800,-1,1,0,3,-1,1
+119905,[Shrine Handmaid - Untended Graves] Dried Finger,385,-1,-1,6820,-1,1,0,3,-1,1
+119907,[Shrine Handmaid - Untended Graves] Priestess Ring,20160,-1,-1,-1,-1,-1,0,2,-1,1
+120000,[Greirat] Bandit's Knife,1010000,-1,-1,-1,-1,-1,0,0,-1,1
+120001,[Greirat] Long Sword,2010000,-1,-1,-1,-1,-1,0,0,-1,1
+120002,[Greirat] Bastard Sword,6000000,-1,-1,-1,-1,-1,0,0,-1,1
+120003,[Greirat] Mace,8010000,-1,-1,-1,-1,-1,0,0,-1,1
+120004,[Greirat] Spear,9000000,-1,-1,-1,-1,-1,0,0,-1,1
+120005,[Greirat] Light Crossbow,14040000,-1,-1,-1,-1,-1,0,0,-1,1
+120006,[Greirat] Buckler,20000000,-1,-1,-1,-1,-1,0,0,-1,1
+120007,[Greirat] Round Shield,20030000,-1,-1,-1,-1,-1,0,0,-1,1
+120008,[Greirat] Kite Shield,20120000,-1,-1,-1,-1,-1,0,0,-1,1
+120009,[Greirat] Elkhorn Round Shield,20170000,-1,-1,-1,-1,-1,0,0,-1,1
+120010,[Greirat] Standard Helm,74500000,-1,-1,-1,-1,-1,0,1,-1,1
+120011,[Greirat] Hard Leather Armor,74501000,-1,-1,-1,-1,-1,0,1,-1,1
+120012,[Greirat] Hard Leather Gauntlets,74502000,-1,-1,-1,-1,-1,0,1,-1,1
+120013,[Greirat] Hard Leather Boots,74503000,-1,-1,-1,-1,-1,0,1,-1,1
+120014,[Greirat] Thief Mask,40200000,-1,-1,-1,-1,-1,0,1,-1,1
+120015,[Greirat] Bloodred Moss Clump,270,-1,-1,-1,-1,-1,0,3,-1,1
+120016,[Greirat] Firebomb,292,-1,-1,-1,-1,-1,0,3,-1,1
+120017,[Greirat] Rope Firebomb,299,-1,-1,-1,-1,-1,0,3,-1,1
+120018,[Greirat] Throwing Knife,310,-1,-1,-1,-1,-1,0,3,-1,1
+120019,[Greirat] Ember,500,-1,-1,74007190,-1,10,0,3,-1,0.5
+120100,[Greirat - Curse-rotted Greatwood] Estoc,3000000,-1,-1,-1,25001003,-1,0,0,-1,1
+120101,[Greirat - Curse-rotted Greatwood] Zweihander,6040000,-1,-1,-1,25001003,-1,0,0,-1,1
+120102,[Greirat - Curse-rotted Greatwood] Warpick,8240000,-1,-1,-1,25001003,-1,0,0,-1,1
+120103,[Greirat - Curse-rotted Greatwood] Glaive,10020000,-1,-1,-1,25001003,-1,0,0,-1,1
+120104,[Greirat - Curse-rotted Greatwood] Fallen Priest's Chime,19070000,-1,-1,-1,25001003,-1,0,0,-1,1
+120105,[Greirat - Curse-rotted Greatwood] Short Bow,14010000,-1,-1,-1,25001003,-1,0,0,-1,1
+120106,[Greirat - Curse-rotted Greatwood] Target Shield,20160000,-1,-1,-1,25001003,-1,0,0,-1,1
+120107,[Greirat - Curse-rotted Greatwood] Knight Shield,21040000,-1,-1,-1,25001003,-1,0,0,-1,1
+120108,[Greirat - Curse-rotted Greatwood] Knight Helm,19500000,-1,-1,-1,25001003,-1,0,1,-1,1
+120109,[Greirat - Curse-rotted Greatwood] Knight Armor,19501000,-1,-1,-1,25001003,-1,0,1,-1,1
+120110,[Greirat - Curse-rotted Greatwood] Knight Gauntlets,19502000,-1,-1,-1,25001003,-1,0,1,-1,1
+120111,[Greirat - Curse-rotted Greatwood] Knight Leggings,19503000,-1,-1,-1,25001003,-1,0,1,-1,1
+120112,[Greirat - Curse-rotted Greatwood] Assassin Gloves,23002000,-1,-1,-1,25001003,-1,0,1,-1,1
+120113,[Greirat - Curse-rotted Greatwood] Assassin Trousers,23003000,-1,-1,-1,25001003,-1,0,1,-1,1
+120114,[Greirat - Curse-rotted Greatwood] Assassin Armor,23101000,-1,-1,-1,25001003,-1,0,1,-1,1
+120115,[Greirat - Curse-rotted Greatwood] Assassin Hood,23100000,-1,-1,-1,25001003,-1,0,1,-1,1
+120116,[Greirat - Curse-rotted Greatwood] Repair Powder,280,-1,-1,-1,25001003,-1,0,3,-1,1
+120117,[Greirat - Curse-rotted Greatwood] Lightning Urn,300,-1,-1,74007370,25001003,50,0,3,-1,0.5
+120118,[Greirat - Curse-rotted Greatwood] Ember,500,-1,-1,74007380,25001003,10,0,3,-1,0.5
+120119,[Greirat - Curse-rotted Greatwood] Divine Blessing,240,-1,-1,74007390,25001003,10,0,3,-1,0.5
+120120,[Greirat - Curse-rotted Greatwood] Pontiff Knight Curved Sword,4070000,-1,-1,-1,25001003,-1,0,0,-1,1
+120121,[Greirat - Curse-rotted Greatwood] Pontiff Knight Shield,21060000,-1,-1,-1,25001003,-1,0,0,-1,1
+120123,[Greirat - Curse-rotted Greatwood] Binded Hood,99270000,-1,-1,-1,25001003,-1,0,1,-1,1
+120124,[Greirat - Curse-rotted Greatwood] Binded Cross,99271000,-1,-1,-1,25001003,-1,0,1,-1,1
+120125,[Greirat - Curse-rotted Greatwood] Binded Gloves,99272000,-1,-1,-1,25001003,-1,0,1,-1,1
+120126,[Greirat - Curse-rotted Greatwood] Binded Boots,99273000,-1,-1,-1,25001003,-1,0,1,-1,1
+120200,[Greirat - Pontiff Sulyvahn] Divine Blessing,240,-1,-1,74007460,25001009,10,0,3,-1,0.5
+120201,[Greirat - Pontiff Sulyvahn] Hidden Blessing,241,-1,-1,74007470,25001009,10,0,3,-1,0.5
+120202,[Greirat - Pontiff Sulyvahn] Titanite Scale,1020,-1,-1,74007480,25001009,25,0,3,-1,0.5
+120203,[Greirat - Pontiff Sulyvahn] Twinkling Titanite,1030,-1,-1,74007490,25001009,25,0,3,-1,0.5
+120204,[Greirat - Pontiff Sulyvahn] Scholar's Candlestick,1070000,-1,-1,-1,25001009,-1,0,0,-1,1
+120205,[Greirat - Pontiff Sulyvahn] Lothric Knight Sword,2060000,-1,-1,-1,25001009,-1,0,0,-1,1
+120206,[Greirat - Pontiff Sulyvahn] Lothric Knight Greatsword,6100000,-1,-1,-1,25001009,-1,0,0,-1,1
+120207,[Greirat - Pontiff Sulyvahn] Lothric Knight Long Spear,9090000,-1,-1,-1,25001009,-1,0,0,-1,1
+120208,[Greirat - Pontiff Sulyvahn] Knight's Crossbow,14100000,-1,-1,-1,25001009,-1,0,0,-1,1
+120209,[Greirat - Pontiff Sulyvahn] Lothric Knight Shield,21010000,-1,-1,-1,25001009,-1,0,0,-1,1
+120210,[Greirat - Pontiff Sulyvahn] Lothric Knight Greatshield,22010000,-1,-1,-1,25001009,-1,0,0,-1,1
+120300,[Greirat - Pontiff Sulyvahn] Lightning Urn,300,-1,-1,-1,25001009,-1,0,3,-1,0.5
+130000,[Orbeck - Shop] Sorcerer Hood,30000000,-1,-1,-1,-1,-1,0,1,-1,1
+130001,[Orbeck - Shop] Sorcerer Robe,30001000,-1,-1,-1,-1,-1,0,1,-1,1
+130002,[Orbeck - Shop] Sorcerer Gloves,30002000,-1,-1,-1,-1,-1,0,1,-1,1
+130003,[Orbeck - Shop] Sorcerer Trousers,30003000,-1,-1,-1,-1,-1,0,1,-1,1
+130005,[Orbeck - Shop] Venerable Sage's Hood,99290000,-1,-1,-1,-1,-1,0,1,-1,1
+130006,[Orbeck - Shop] Venerable Sage's Robe,99291000,-1,-1,-1,-1,-1,0,1,-1,1
+130007,[Orbeck - Shop] Venerable Sage's Gloves,99292000,-1,-1,-1,-1,-1,0,1,-1,1
+130008,[Orbeck - Shop] Venerable Sage's Boots,99293000,-1,-1,-1,-1,-1,0,1,-1,1
+130009,[Orbeck - Shop] Rouge Water,805,-1,-1,-1,-1,-1,0,3,-1,1
+130100,[Orbeck - Spells] Farron Dart,1200000,-1,-1,-1,-1,-1,0,3,-1,1
+130101,[Orbeck - Spells] Soul Arrow,1300000,-1,-1,-1,-1,-1,0,3,-1,1
+130102,[Orbeck - Spells] Homing Soulmass,1304000,-1,-1,-1,-1,-1,0,3,-1,1
+130103,[Orbeck - Spells] Magic Weapon,1310000,-1,-1,-1,-1,-1,0,3,-1,1
+130104,[Orbeck - Spells] Magic Shield,1330000,-1,-1,-1,-1,-1,0,3,-1,1
+130105,[Orbeck - Spells] Farron Flashsword,1375000,-1,-1,-1,-1,-1,0,3,-1,1
+130106,[Orbeck - Spells] Spook,1354000,-1,-1,-1,-1,-1,0,3,-1,1
+130107,[Orbeck - Spells] Aural Decoy,1356000,-1,-1,-1,-1,-1,0,3,-1,1
+130120,[Orbeck - Spells - Sage's Scroll] Shockwave,1302000,-1,-1,-1,70000201,-1,0,3,-1,1
+130121,[Orbeck - Spells - Sage's Scroll] Farron Hail,1372000,-1,-1,-1,70000201,-1,0,3,-1,1
+130122,[Orbeck - Spells - Sage's Scroll] Scattering Soul Orb,1210000,-1,-1,-1,70000201,-1,0,3,-1,1
+130123,[Orbeck - Spells - Sage's Scroll] Scattering Crystal Orb,1301000,-1,-1,-1,70000201,-1,0,3,-1,1
+130140,[Orbeck - Spells - Logan's Scroll] Soul Spear,1306000,-1,-1,-1,70000202,-1,0,3,-1,1
+130141,[Orbeck - Spells - Logan's Scroll] Great Magic Weapon,1311000,-1,-1,-1,70000202,-1,0,3,-1,1
+130142,[Orbeck - Spells - Logan's Scroll] Soul Greatsword,1374000,-1,-1,-1,70000202,-1,0,3,-1,1
+130143,[Orbeck - Spells - Logan's Scroll] Pestilent Mist,1740000,-1,-1,-1,70000202,-1,0,3,-1,1
+130144,[Orbeck - Spells - Logan's Scroll] Great Magic Shield,1331000,-1,-1,-1,70000202,-1,0,3,-1,1
+130160,[Orbeck - Spells - Golden Scroll] Blinding Light,1807000,-1,-1,-1,70000204,-1,0,3,-1,1
+130161,[Orbeck - Spells - Golden Scroll] Hidden Weapon,1340000,-1,-1,-1,70000204,-1,0,3,-1,1
+130162,[Orbeck - Spells - Golden Scroll] Hidden Body,1341000,-1,-1,-1,70000204,-1,0,3,-1,1
+130163,[Orbeck - Spells - Golden Scroll] Repair,1353000,-1,-1,-1,70000204,-1,0,3,-1,1
+130164,[Orbeck - Spells - Golden Scroll] Cast Light,1350000,-1,-1,-1,70000204,-1,0,3,-1,1
+130165,[Orbeck - Spells - Golden Scroll] Twisted Wall of Light,1651000,-1,-1,-1,70000204,-1,0,3,-1,1
+130180,[Orbeck - Spells - Crystal Scroll] Soul Stream,1620000,-1,-1,-1,70000203,-1,0,3,-1,1
+130181,[Orbeck - Spells - Crystal Scroll] Soul Geyser,1303000,-1,-1,-1,70000203,-1,0,3,-1,1
+130183,[Orbeck - Spells - Crystal Scroll] Homing Crystal Soulmass,1305000,-1,-1,-1,70000203,-1,0,3,-1,1
+130184,[Orbeck - Spells - Crystal Scroll] Crystal Soul Spear,1307000,-1,-1,-1,70000203,-1,0,3,-1,1
+130185,[Orbeck - Spells - Crystal Scroll] Crystal Magic Weapon,1312000,-1,-1,-1,70000203,-1,0,3,-1,1
+140000,[Cornyx - Shop] Pyromancer Crown,28000000,-1,-1,-1,-1,-1,0,1,-1,1
+140001,[Cornyx - Shop] Pyromancer Garb,28001000,-1,-1,-1,-1,-1,0,1,-1,1
+140002,[Cornyx - Shop] Pyromancer Wrap,28002000,-1,-1,-1,-1,-1,0,1,-1,1
+140003,[Cornyx - Shop] Pyromancer Trousers,28003000,-1,-1,-1,-1,-1,0,1,-1,1
+140004,[Cornyx - Shop] Rouge Water,805,-1,-1,-1,-1,-1,0,3,-1,1
+140100,[Cornyx - Spells] Fireball,2400000,-1,-1,-1,-1,-1,0,3,-1,1
+140101,[Cornyx - Spells] Fire Orb,2402000,-1,-1,-1,-1,-1,0,3,-1,1
+140102,[Cornyx - Spells] Flame Fan,2458000,-1,-1,-1,-1,-1,0,3,-1,1
+140103,[Cornyx - Spells] Firestorm,2403000,-1,-1,-1,-1,-1,0,3,-1,1
+140104,[Cornyx - Spells] Profuse Sweat,2562000,-1,-1,-1,-1,-1,0,3,-1,1
+140120,[Cornyx - Spells - Great Swamp] Fire Surge,2405000,-1,-1,-1,70000250,-1,0,3,-1,1
+140121,[Cornyx - Spells - Great Swamp] Great Combustion,2411000,-1,-1,-1,70000250,-1,0,3,-1,1
+140122,[Cornyx - Spells - Great Swamp] Flash Sweat,2431000,-1,-1,-1,70000250,-1,0,3,-1,1
+140123,[Cornyx - Spells - Great Swamp] Poison Mist,2420000,-1,-1,-1,70000250,-1,0,3,-1,1
+140140,[Cornyx - Spells - Carthus] Toxic Mist,2421000,-1,-1,-1,70000251,-1,0,3,-1,1
+140141,[Cornyx - Spells - Carthus] Iron Flesh,2430000,-1,-1,-1,70000251,-1,0,3,-1,1
+140142,[Cornyx - Spells - Carthus] Carthus Flame Arc,2435000,-1,-1,-1,70000251,-1,0,3,-1,1
+140143,[Cornyx - Spells - Carthus] Carthus Beacon,2650000,-1,-1,-1,70000251,-1,0,3,-1,1
+140160,[Cornyx - Spells - Izalith] Floating Chaos,2457000,-1,-1,-1,70000252,-1,0,3,-1,1
+140161,[Cornyx - Spells - Izalith] Bursting Fireball,2620000,-1,-1,-1,70000252,-1,0,3,-1,1
+140162,[Cornyx - Spells - Izalith] Great Chaos Fire Orb,2450000,-1,-1,-1,70000252,-1,0,3,-1,1
+140163,[Cornyx - Spells - Izalith] Chaos Storm,2451000,-1,-1,-1,70000252,-1,0,3,-1,1
+140180,[Cornyx - Spells - Quelana] Power Within,2440000,-1,-1,-1,70000300,-1,0,3,-1,1
+140181,[Cornyx - Spells - Quelana] Seething Chaos,2660000,-1,-1,-1,70000300,-1,0,3,-1,1
+140182,[Cornyx - Spells - Quelana] Fire Whip,2452000,-1,-1,-1,70000300,-1,0,3,-1,1
+140183,[Cornyx - Spells - Quelana] Rapport,2436000,-1,-1,-1,70000300,-1,0,3,-1,1
+140184,[Cornyx - Spells - Quelana] Sacred Flame,2640000,-1,-1,-1,70000300,-1,0,3,-1,1
+140200,[Cornyx - Spells - Profaned] Profaned Flame,2455000,-1,-1,-1,70000253,-1,0,3,-1,1
+140201,[Cornyx - Spells - Profaned] Earthfall,2710000,-1,-1,-1,70000253,-1,0,3,-1,1
+140202,[Cornyx - Spells - Profaned] Heave Earth,2711000,-1,-1,-1,70000253,-1,0,3,-1,1
+140203,[Cornyx - Spells - Profaned] Earthquake,2712000,-1,-1,-1,70000253,-1,0,3,-1,1
+140204,[Cornyx - Spells - Profaned] Acid Surge,2422000,-1,-1,-1,70000253,-1,0,3,-1,1
+150100,[Karla - Spells] Deep Barb,4100000,-1,-1,-1,-1,-1,0,3,-1,1
+150101,[Karla - Spells] Dark Edge,4104000,-1,-1,-1,-1,-1,0,3,-1,1
+150102,[Karla - Spells] Deep Soul,4101000,-1,-1,-1,-1,-1,0,3,-1,1
+150103,[Karla - Spells] Black Fireball,4201000,-1,-1,-1,-1,-1,0,3,-1,1
+150104,[Karla - Spells] Nibble,4301000,-1,-1,-1,-1,-1,0,3,-1,1
+150105,[Karla - Spells] Gnaw,4302000,-1,-1,-1,-1,-1,0,3,-1,1
+150120,[Karla - Spells - Accursed Scoll] Affinity,4113000,-1,-1,-1,70000305,-1,0,3,-1,1
+150121,[Karla - Spells - Accursed Scoll] Numbness,4116000,-1,-1,-1,70000305,-1,0,3,-1,1
+150122,[Karla - Spells - Accursed Scoll] Surging Deep,4107000,-1,-1,-1,70000305,-1,0,3,-1,1
+150123,[Karla - Spells - Accursed Scoll] Whisper of Despair,4114000,-1,-1,-1,70000305,-1,0,3,-1,1
+150140,[Karla - Spells - Writhing Tome] Great Deep Soul,4102000,-1,-1,-1,70000306,-1,0,3,-1,1
+150141,[Karla - Spells - Writhing Tome] Yearning Dregs,4109000,-1,-1,-1,70000306,-1,0,3,-1,1
+150142,[Karla - Spells - Writhing Tome] Writhing Deep,4111000,-1,-1,-1,70000306,-1,0,3,-1,1
+150144,[Karla - Spells - Writhing Tome] Abyssal Edge,4105000,-1,-1,-1,70000306,-1,0,3,-1,1
+150160,[Karla - Spells - Abyssal Tome] Repel,4115000,-1,-1,-1,70000307,-1,0,3,-1,1
+150161,[Karla - Spells - Abyssal Tome] Climax,4112000,-1,-1,-1,70000307,-1,0,3,-1,1
+150162,[Karla - Spells - Abyssal Tome] Cascading Deep,4108000,-1,-1,-1,70000307,-1,0,3,-1,1
+150163,[Karla - Spells - Abyssal Tome] Great Soul Dregs,4103000,-1,-1,-1,70000307,-1,0,3,-1,1
+150180,[Karla - Spells - Grave Warden] Black Flame,4205000,-1,-1,-1,70000301,-1,0,3,-1,1
+150181,[Karla - Spells - Grave Warden] Dark Dance,4207000,-1,-1,-1,70000301,-1,0,3,-1,1
+150182,[Karla - Spells - Grave Warden] Recollection,4208000,-1,-1,-1,70000301,-1,0,3,-1,1
+150183,[Karla - Spells - Grave Warden] Black Fire Scatter,4204000,-1,-1,-1,70000301,-1,0,3,-1,1
+150184,[Karla - Spells - Grave Warden] Black Fire Orb,4202000,-1,-1,-1,70000301,-1,0,3,-1,1
+150201,[Karla - Spells - Deep] Dorhys' Gnawing,4303000,-1,-1,-1,70000302,-1,0,3,-1,1
+150202,[Karla - Spells - Deep] Devouring Swarm,4304000,-1,-1,-1,70000302,-1,0,3,-1,1
+150203,[Karla - Spells - Deep] Vow of Agony,4307000,-1,-1,-1,70000302,-1,0,3,-1,1
+150220,[Karla - Spells - Londor] Vow of Silence,4309000,-1,-1,-1,70000303,-1,0,3,-1,1
+150221,[Karla - Spells - Londor] Dark Blade,4310000,-1,-1,-1,70000303,-1,0,3,-1,1
+150222,[Karla - Spells - Londor] Dead Again,4311000,-1,-1,-1,70000303,-1,0,3,-1,1
+150223,[Karla - Spells - Londor] Deep Protection,4305000,-1,-1,-1,70000303,-1,0,3,-1,1
+160000,[Irina - Shop] Saint's Ring,20310,-1,-1,-1,-1,-1,0,2,-1,1
+160001,[Irina - Shop] Lifegem,800,-1,-1,-1,-1,-1,0,3,-1,1
+160002,[Irina - Shop] Radiant Lifegem,801,-1,-1,-1,-1,-1,0,3,-1,1
+160100,[Irina - Spells] Homeward,3521000,-1,-1,-1,-1,-1,0,3,-1,1
+160101,[Irina - Spells] Heal Aid,3490000,-1,-1,-1,-1,-1,0,3,-1,1
+160102,[Irina - Spells] Lightning Arrow,3509000,-1,-1,-1,-1,-1,0,3,-1,1
+160103,[Irina - Spells] Way of White Corona,3556000,-1,-1,-1,-1,-1,0,3,-1,1
+160104,[Irina - Spells] Force,3530000,-1,-1,-1,-1,-1,0,3,-1,1
+160120,[Irina - Spells - Carim] Heal,3500000,-1,-1,-1,70000350,-1,0,3,-1,1
+160121,[Irina - Spells - Carim] Replenishment,3504000,-1,-1,-1,70000350,-1,0,3,-1,1
+160122,[Irina - Spells - Carim] Caressing Tears,3508000,-1,-1,-1,70000350,-1,0,3,-1,1
+160140,[Irina - Spells - Heavenly] Lightning Spear,3550000,-1,-1,-1,70000357,-1,0,3,-1,1
+160141,[Irina - Spells - Heavenly] Magic Barrier,3560000,-1,-1,-1,70000357,-1,0,3,-1,1
+160142,[Irina - Spells - Heavenly] Lightning Blade,3590000,-1,-1,-1,70000357,-1,0,3,-1,1
+160143,[Irina - Spells - Heavenly] Emit Force,3532000,-1,-1,-1,70000357,-1,0,3,-1,1
+160160,[Irina - Spells - Lothric] Med Heal,3501000,-1,-1,-1,70000351,-1,0,3,-1,1
+160161,[Irina - Spells - Lothric] Great Magic Barrier,3561000,-1,-1,-1,70000351,-1,0,3,-1,1
+160162,[Irina - Spells - Lothric] Bountiful Light,3507000,-1,-1,-1,70000351,-1,0,3,-1,1
+160163,[Irina - Spells - Lothric] Blessed Weapon,3760000,-1,-1,-1,70000351,-1,0,3,-1,1
+160164,[Irina - Spells - Lothric] Wrath of the Gods,3531000,-1,-1,-1,70000351,-1,0,3,-1,1
+160181,[Irina - Spells - Sunlight] Great Lightning Spear,3551000,-1,-1,-1,70000356,-1,0,3,-1,1
+160182,[Irina - Spells - Sunlight] Tears of Denial,3520000,-1,-1,-1,70000356,-1,0,3,-1,1
+160184,[Irina - Spells - Sunlight] Sacred Oath,3563000,-1,-1,-1,70000356,-1,0,3,-1,1
+160185,[Irina - Spells - Sunlight] Great Heal,3502000,-1,-1,-1,70000356,-1,0,3,-1,1
+160186,[Irina - Spells - Sunlight] Lightning Stake,3710000,-1,-1,-1,70000356,-1,0,3,-1,1
+160200,[Irina - Spells - Angelic] Angelic Barrage,3812000,-1,-1,-1,70000358,-1,0,3,-1,1
+160203,[Irina - Spells - Angelic] Divine Pillars of Light,3720000,-1,-1,-1,70000358,-1,0,3,-1,1
+200000,[Patches] Parrying Dagger,1020000,-1,-1,-1,-1,-1,0,0,-1,1
+200001,[Patches] Shotel,4010000,-1,-1,-1,-1,-1,0,0,-1,1
+200002,[Patches] Winged Spear,9010000,-1,-1,-1,-1,-1,0,0,-1,1
+200003,[Patches] Black Leather Armor,78001000,-1,-1,-1,-1,-1,0,1,-1,1
+200004,[Patches] Black Leather Gloves,78002000,-1,-1,-1,-1,-1,0,1,-1,1
+200005,[Patches] Black Leather Boots,78003000,-1,-1,-1,-1,-1,0,1,-1,1
+200006,[Patches - Siegward] Catarina Helm,74000000,-1,-1,-1,70000403,-1,0,1,-1,1
+200007,[Patches - Siegward] Catarina Armor,74001000,-1,-1,-1,70000403,-1,0,1,-1,1
+200008,[Patches - Siegward] Catarina Gauntlets,74002000,-1,-1,-1,70000403,-1,0,1,-1,1
+200009,[Patches - Siegward] Catarina Leggings,74003000,-1,-1,-1,70000403,-1,0,1,-1,1
+200010,[Patches - Siegward] Pierce Shield,21140000,-1,-1,-1,70000403,-1,0,0,-1,1
+200011,[Patches] Alluring Skull,294,-1,-1,-1,-1,-1,0,3,-1,1.6
+200012,[Patches] Black Firebomb,297,-1,-1,-1,-1,-1,0,3,-1,1
+200013,[Patches] Rope Black Firebomb,302,-1,-1,-1,-1,-1,0,3,-1,1
+200014,[Patches] Human Pine Resin,334,-1,-1,-1,-1,-1,0,3,-1,1
+200015,[Patches] Rubbish,380,-1,-1,-1,-1,-1,0,3,-1,20
+200016,[Patches] Rusted Coin,455,-1,-1,-1,-1,-1,0,3,-1,1
+200017,[Patches] Red Bug Pellet,459,-1,-1,-1,-1,-1,0,3,-1,1
+200018,[Patches] Poison Arrow,400200,-1,-1,-1,-1,-1,0,0,-1,1
+200019,[Patches] Elizabeth Mushroom,803,-1,-1,-1,-1,-1,0,3,-1,2
+200100,[Patches] Ember,500,-1,-1,74502110,70000400,15,0,3,-1,0.3
+200200,[Patches - Lothric Castle] Hidden Blessing,241,-1,-1,74502120,70000401,10,0,3,-1,0.5
+200300,[Patches] Horsehoof Ring,20720,-1,-1,-1,-1,-1,0,2,-1,1
+210000,[Domhnall of Zena] Estus Shard,2141,-1,200012,-1,-1,-1,0,3,-1,1
+210001,[Domhnall of Zena] Undead Bone Shard,2143,-1,200012,-1,-1,-1,0,3,-1,1
+210002,[Domhnall of Zena] Master Key,2100,-1,200010,74503000,-1,1,0,3,-1,1
+210003,[Domhnall of Zena] Gold Pine Resin,331,-1,200001,-1,-1,-1,0,3,-1,0.1
+210004,[Domhnall of Zena] Divine Blessing,240,-1,200002,-1,-1,1,0,3,-1,0.1
+210005,[Domhnall of Zena] Hidden Blessing,241,-1,200002,-1,-1,-1,0,3,-1,0.1
+210101,[Domhnall of Zena] Crystal Straight Sword,30610000,-1,200006,-1,-1,-1,0,0,-1,0.25
+210102,[Domhnall of Zena] Crystalline Shield,22180000,-1,200006,-1,-1,-1,0,0,-1,0.25
+210308,[Domhnall of Zena] Helm of the Wise,99770000,-1,200004,-1,-1,-1,0,1,-1,0.25
+210309,[Domhnall of Zena] Armor of the Glorious,99771000,-1,200008,-1,-1,-1,0,1,-1,0.25
+210310,[Domhnall of Zena] Gauntlets of the Vanquisher,99772000,-1,200002,-1,-1,-1,0,1,-1,0.25
+210311,[Domhnall of Zena] Boots of the Explorer,99773000,-1,200006,-1,-1,-1,0,1,-1,0.25
+220000,[Marvelous Chester] Snickering Top Hat,10080000,-1,-1,-1,-1,-1,0,1,-1,1
+220001,[Marvelous Chester] Chester's Long Coat,10081000,-1,-1,-1,-1,-1,0,1,-1,1
+220002,[Marvelous Chester] Chester's Gloves,10082000,-1,-1,-1,-1,-1,0,1,-1,1
+220003,[Marvelous Chester] Chester's Trousers,10083000,-1,-1,-1,-1,-1,0,1,-1,1
+220004,[Marvelous Chester] Marvelous Zweihander,30580000,-1,-1,-1,-1,-1,0,0,-1,1
+220005,[Marvelous Chester] Green Blossom,260,-1,-1,-1,-1,1,0,3,-1,0.5
+220006,[Marvelous Chester] Bloodred Moss Clump,270,-1,-1,-1,-1,1,0,3,-1,0.5
+220007,[Marvelous Chester] Purple Moss Clump,271,-1,-1,-1,-1,1,0,3,-1,0.5
+220008,[Marvelous Chester] Blooming Purple Moss Clump,272,-1,-1,-1,-1,1,0,3,-1,0.5
+220009,[Marvelous Chester] Purging Stone,274,-1,-1,-1,-1,1,0,3,-1,0.5
+220010,[Marvelous Chester] Cleansing Pendant,275,-1,-1,-1,-1,1,0,3,-1,0.5
+220017,[Marvelous Chester] Undead Hunter Charm,296,-1,-1,-1,-1,1,0,3,-1,0.5
+220018,[Marvelous Chester] Alluring Skull,294,-1,-1,-1,-1,1,0,3,-1,0.5
+220022,[Marvelous Chester] Standard Arrow,400000,-1,-1,-1,-1,1,0,0,-1,0.5
+220023,[Marvelous Chester] Large Arrow,400300,-1,-1,-1,-1,1,0,0,-1,0.5
+220024,[Marvelous Chester] Feather Arrow,400400,-1,-1,-1,-1,1,0,0,-1,0.5
+220025,[Marvelous Chester] Wood Arrow,400600,-1,-1,-1,-1,1,0,0,-1,0.5
+220026,[Marvelous Chester] Draconic Arrow,410300,-1,-1,-1,-1,1,0,0,-1,0.5
+220027,[Marvelous Chester] Standard Bolt,404000,-1,-1,-1,-1,1,0,0,-1,0.5
+220028,[Marvelous Chester] Heavy Bolt,404100,-1,-1,-1,-1,1,0,0,-1,0.5
+220029,[Marvelous Chester] Sniper Bolt,404200,-1,-1,-1,-1,1,0,0,-1,0.5
+220030,[Marvelous Chester] Draconic Bolt,414100,-1,-1,-1,-1,1,0,0,-1,0.5
+230000,[Crestfallen Merchant] Steel Helm,99710000,-1,-1,-1,-1,-1,0,1,-1,1
+230001,[Crestfallen Merchant] Steel Armor,99711000,-1,-1,-1,-1,-1,0,1,-1,1
+230002,[Crestfallen Merchant] Steel Gauntlets,99712000,-1,-1,-1,-1,-1,0,1,-1,1
+230003,[Crestfallen Merchant] Steel Leggings,99713000,-1,-1,-1,-1,-1,0,1,-1,1
+230004,[Crestfallen Merchant] Greatsword,6050000,-1,-1,-1,-1,-1,0,0,-1,1
+230005,[Crestfallen Merchant] Greataxe,7050000,-1,-1,-1,-1,-1,0,0,-1,1
+230006,[Crestfallen Merchant] Black Firebomb,297,-1,-1,-1,-1,1,0,3,-1,0.5
+230007,[Crestfallen Merchant] Green Blossom,260,-1,-1,-1,-1,1,0,3,-1,0.5
+230008,[Crestfallen Merchant] Charcoal Pine Bundle,340,-1,-1,-1,-1,1,0,3,-1,0.5
+230009,[Crestfallen Merchant] Charcoal Pine Resin,330,-1,-1,-1,-1,1,0,3,-1,0.5
+230010,[Crestfallen Merchant] Titanite Shard,1000,-1,-1,-1,-1,1,0,3,-1,0.5
+230011,[Crestfallen Merchant] Large Titanite Shard,1001,-1,-1,-1,-1,1,0,3,-1,0.5
+230012,[Crestfallen Merchant] Titanite Scale,1020,-1,-1,-1,-1,1,0,3,-1,0.5
+240000,[Grave Warden Lillian] Deep Barb,4100000,-1,-1,-1,-1,-1,0,3,-1,1
+240001,[Grave Warden Lillian] Dark Edge,4104000,-1,-1,-1,-1,-1,0,3,-1,1
+240002,[Grave Warden Lillian] Deep Soul,4101000,-1,-1,-1,-1,-1,0,3,-1,1
+240003,[Grave Warden Lillian] Black Fireball,4201000,-1,-1,-1,-1,-1,0,3,-1,1
+240004,[Grave Warden Lillian] Nibble,4301000,-1,-1,-1,-1,-1,0,3,-1,1
+240005,[Grave Warden Lillian] Gnaw,4302000,-1,-1,-1,-1,-1,0,3,-1,1
+240006,[Grave Warden Lillian] Great Deep Soul,4102000,-1,-1,-1,-1,-1,0,3,-1,2
+240007,[Grave Warden Lillian] Cascading Deep,4108000,-1,-1,-1,-1,-1,0,3,-1,2
+240008,[Grave Warden Lillian] Black Fire Scatter,4204000,-1,-1,-1,-1,-1,0,3,-1,2
+240009,[Grave Warden Lillian] Dead Again,4311000,-1,-1,-1,-1,-1,0,3,-1,2
+250000,[Alchemist Jiji - Odds and Ends] Cleansing Potion,3041,100,-1,-1,-1,-1,0,3,-1,1
+250001,[Alchemist Jiji - Odds and Ends] Devil's Trumpet,4017,-1,-1,-1,-1,-1,0,3,-1,1
+250002,[Alchemist Jiji - Odds and Ends] Moonflower,4018,-1,-1,-1,-1,-1,0,3,-1,1
+250003,[Alchemist Jiji - Odds and Ends] Henbane,4019,-1,-1,-1,-1,-1,0,3,-1,1
+250004,[Alchemist Jiji - Odds and Ends] Rattling Skull,3050,2000,-1,-1,-1,-1,0,3,-1,1
+250005,[Alchemist Jiji - Odds and Ends] Rattling Finger,3026,2000,-1,-1,-1,-1,0,3,-1,1
+250006,[Alchemist Jiji - Odds and Ends] Murky Skull,3051,2000,-1,-1,-1,-1,0,3,-1,1
+250007,[Alchemist Jiji - Odds and Ends] Murky Finger,3027,2000,-1,-1,-1,-1,0,3,-1,1
+250008,[Alchemist Jiji - Odds and Ends] Demonic Skull,3047,2000,-1,-1,-1,-1,0,3,-1,1
+250009,[Alchemist Jiji - Odds and Ends] Demonic Claw,3042,2000,-1,-1,-1,-1,0,3,-1,1
+250010,[Alchemist Jiji - Odds and Ends] Forgotten Seal,3046,2000,-1,-1,-1,-1,0,3,-1,1
+250011,[Alchemist Jiji - Odds and Ends] Forgotten Tablet,3043,2000,-1,-1,-1,-1,0,3,-1,1
+250012,[Alchemist Jiji - Odds and Ends] Hunter's Mark,3048,2000,-1,-1,-1,-1,0,3,-1,1
+250013,[Alchemist Jiji - Odds and Ends] Hunter's Emblem,3049,2000,-1,-1,-1,-1,0,3,-1,1
+250100,[Alchemist Jiji - Elixirs] Elixir of Deceit,3040,1000,-1,-1,-1,-1,0,3,-1,1
+250101,[Alchemist Jiji - Elixirs] Elixir of Cooperation,3039,1000,-1,-1,-1,-1,0,3,-1,1
+250103,[Alchemist Jiji - Elixirs] Psychedelic Elixir,3030,1000,-1,-1,-1,-1,0,3,-1,1
+250104,[Alchemist Jiji - Elixirs] Darkmoon Elixir,3031,1000,-1,-1,-1,-1,0,3,-1,1
+250105,[Alchemist Jiji - Elixirs] Holy Elixir,3032,1000,-1,-1,-1,-1,0,3,-1,1
+250106,[Alchemist Jiji - Elixirs] Earthen Elixir,3033,1000,-1,-1,-1,-1,0,3,-1,1
+250107,[Alchemist Jiji - Elixirs] Abyssal Elixir,3034,1000,-1,-1,-1,-1,0,3,-1,1
+250108,[Alchemist Jiji - Elixirs] Sunlight Elixir,3035,1000,-1,-1,-1,-1,0,3,-1,1
+250109,[Alchemist Jiji - Elixirs] Maddening Elixir,3036,1000,-1,-1,-1,-1,0,3,-1,1
+250110,[Alchemist Jiji - Elixirs] Bloody Elixir,3037,1000,-1,-1,-1,-1,0,3,-1,1
+250111,[Alchemist Jiji - Elixirs] Demonic Elixir,3038,1000,-1,-1,-1,-1,0,3,-1,1
+250112,[Alchemist Jiji - Elixirs] Elixir of Ghosts,3028,1000,-1,-1,-1,-1,0,3,-1,1
+250113,[Alchemist Jiji - Elixirs] Elixir of Hollowing,3029,1000,-1,-1,-1,-1,0,3,-1,1
+250200,[Alchemist Jiji] Havel's Emblem,10000,250,-1,-1,-1,1,0,3,-1,1
+250201,[Alchemist Jiji] Havel's Emblem,10001,250,-1,-1,-1,1,0,3,-1,1
+250202,[Alchemist Jiji] Giant-horn Insignia,10010,250,-1,-1,-1,1,0,3,-1,1
+250203,[Alchemist Jiji] Fang Boar Insignia,10020,250,-1,-1,-1,1,0,3,-1,1
+250204,[Alchemist Jiji] Golem Insignia,10030,250,-1,-1,-1,1,0,3,-1,1
+250205,[Alchemist Jiji] Golem Emblem,10031,250,-1,-1,-1,1,0,3,-1,1
+250206,[Alchemist Jiji] Giant Insignia,10040,250,-1,-1,-1,1,0,3,-1,1
+250207,[Alchemist Jiji] Giant Emblem,10041,250,-1,-1,-1,1,0,3,-1,1
+250208,[Alchemist Jiji] Pursuer's Insignia,10050,250,-1,-1,-1,1,0,3,-1,1
+250209,[Alchemist Jiji] Pursuer's Emblem,10051,250,-1,-1,-1,1,0,3,-1,1
+250210,[Alchemist Jiji] Smough's Insignia,10060,250,-1,-1,-1,1,0,3,-1,1
+250211,[Alchemist Jiji] Smough's Emblem,10061,250,-1,-1,-1,1,0,3,-1,1
+250212,[Alchemist Jiji] Gundyr's Insignia,10070,250,-1,-1,-1,1,0,3,-1,1
+250213,[Alchemist Jiji] Gundyr's Emblem,10071,250,-1,-1,-1,1,0,3,-1,1
+250214,[Alchemist Jiji] Brushwood Insignia,10080,250,-1,-1,-1,1,0,3,-1,1
+250215,[Alchemist Jiji] Brushwood Emblem,10081,250,-1,-1,-1,1,0,3,-1,1
+250216,[Alchemist Jiji] Winged Knight Insignia,10090,250,-1,-1,-1,1,0,3,-1,1
+250217,[Alchemist Jiji] Winged Knight Emblem,10091,250,-1,-1,-1,1,0,3,-1,1
+250218,[Alchemist Jiji] Snail Shell Insignia,10100,250,-1,-1,-1,1,0,3,-1,1
+250219,[Alchemist Jiji] Millwood Knight Insignia,10110,250,-1,-1,-1,1,0,3,-1,1
+250220,[Alchemist Jiji] Millwood Knight Emblem,10111,250,-1,-1,-1,1,0,3,-1,1
+250221,[Alchemist Jiji] Mirror Knight Insignia,10120,250,-1,-1,-1,1,0,3,-1,1
+250222,[Alchemist Jiji] Mirror Knight Emblem,10121,250,-1,-1,-1,1,0,3,-1,1
+250223,[Alchemist Jiji] Dragonrider Insignia,10130,250,-1,-1,-1,1,0,3,-1,1
+250224,[Alchemist Jiji] Dragonrider Emblem,10131,250,-1,-1,-1,1,0,3,-1,1
+250225,[Alchemist Jiji] Catarina Insignia,10140,250,-1,-1,-1,1,0,3,-1,1
+250226,[Alchemist Jiji] Catarina Emblem,10141,250,-1,-1,-1,1,0,3,-1,1
+250227,[Alchemist Jiji] Stone Insignia,10150,250,-1,-1,-1,1,0,3,-1,1
+250228,[Alchemist Jiji] Stone Emblem,10151,250,-1,-1,-1,1,0,3,-1,1
+250229,[Alchemist Jiji] Guardian Insignia,10160,250,-1,-1,-1,1,0,3,-1,1
+250230,[Alchemist Jiji] Guardian Emblem,10161,250,-1,-1,-1,1,0,3,-1,1
+250231,[Alchemist Jiji] Steel Insignia,10170,250,-1,-1,-1,1,0,3,-1,1
+250232,[Alchemist Jiji] Steel Emblem,10171,250,-1,-1,-1,1,0,3,-1,1
+250233,[Alchemist Jiji] Cathedral Knight Insignia,10180,250,-1,-1,-1,1,0,3,-1,1
+250234,[Alchemist Jiji] Cathedral Knight Emblem,10181,250,-1,-1,-1,1,0,3,-1,1
+250235,[Alchemist Jiji] Dragon Hunter Insignia,10190,250,-1,-1,-1,1,0,3,-1,1
+250236,[Alchemist Jiji] Dragon Hunter Emblem,10191,250,-1,-1,-1,1,0,3,-1,1
+250237,[Alchemist Jiji] Black Iron Insignia,10200,250,-1,-1,-1,1,0,3,-1,1
+250238,[Alchemist Jiji] Black Iron Emblem,10201,250,-1,-1,-1,1,0,3,-1,1
+250239,[Alchemist Jiji] Iron Dragonslayer Insignia,10210,250,-1,-1,-1,1,0,3,-1,1
+250240,[Alchemist Jiji] Iron Dragonslayer Emblem,10211,250,-1,-1,-1,1,0,3,-1,1
+250241,[Alchemist Jiji] Lapp Insignia,10220,250,-1,-1,-1,1,0,3,-1,1
+250242,[Alchemist Jiji] Lapp Emblem,10221,250,-1,-1,-1,1,0,3,-1,1
+250243,[Alchemist Jiji] Penetrator Insignia,10230,250,-1,-1,-1,1,0,3,-1,1
+250244,[Alchemist Jiji] Penetrator Emblem,10231,250,-1,-1,-1,1,0,3,-1,1
+250245,[Alchemist Jiji] Morne's Insignia,10240,250,-1,-1,-1,1,0,3,-1,1
+250246,[Alchemist Jiji] Morne's Emblem,10241,250,-1,-1,-1,1,0,3,-1,1
+250247,[Alchemist Jiji] Paladin Insignia,10250,250,-1,-1,-1,1,0,3,-1,1
+250248,[Alchemist Jiji] Paladin Emblem,10251,250,-1,-1,-1,1,0,3,-1,1
+250249,[Alchemist Jiji] Quicksilver Insignia,10260,250,-1,-1,-1,1,0,3,-1,1
+250250,[Alchemist Jiji] Quicksilver Emblem,10261,250,-1,-1,-1,1,0,3,-1,1
+250251,[Alchemist Jiji] Executioner Insignia,10270,250,-1,-1,-1,1,0,3,-1,1
+250252,[Alchemist Jiji] Executioner Emblem,10271,250,-1,-1,-1,1,0,3,-1,1
+250253,[Alchemist Jiji] Dragonslayer Insignia,10280,250,-1,-1,-1,1,0,3,-1,1
+250254,[Alchemist Jiji] Dragonslayer Emblem,10281,250,-1,-1,-1,1,0,3,-1,1
+250255,[Alchemist Jiji] Lothric Knight Insignia,10290,250,-1,-1,-1,1,0,3,-1,1
+250256,[Alchemist Jiji] Lothric Knight Emblem,10291,250,-1,-1,-1,1,0,3,-1,1
+250257,[Alchemist Jiji] Iron Keeper Insignia,10300,250,-1,-1,-1,1,0,3,-1,1
+250258,[Alchemist Jiji] Lost Heide Insignia,10310,250,-1,-1,-1,1,0,3,-1,1
+250259,[Alchemist Jiji] Harald Legion Insignia,10320,250,-1,-1,-1,1,0,3,-1,1
+250260,[Alchemist Jiji] Harald Legion Emblem,10321,250,-1,-1,-1,1,0,3,-1,1
+250261,[Alchemist Jiji] Exile Insignia,10330,250,-1,-1,-1,1,0,3,-1,1
+250262,[Alchemist Jiji] Exile Emblem,10331,250,-1,-1,-1,1,0,3,-1,1
+250263,[Alchemist Jiji] Overseer's Insignia,10340,250,-1,-1,-1,1,0,3,-1,1
+250264,[Alchemist Jiji] Raime's Insignia,10350,250,-1,-1,-1,1,0,3,-1,1
+250265,[Alchemist Jiji] Black Knight Insignia,10360,250,-1,-1,-1,1,0,3,-1,1
+250266,[Alchemist Jiji] Black Knight Emblem,10361,250,-1,-1,-1,1,0,3,-1,1
+250267,[Alchemist Jiji] Silver Knight Insignia,10370,250,-1,-1,-1,1,0,3,-1,1
+250268,[Alchemist Jiji] Silver Knight Emblem,10371,250,-1,-1,-1,1,0,3,-1,1
+250269,[Alchemist Jiji] Tarnished Knight Insignia,10380,250,-1,-1,-1,1,0,3,-1,1
+250270,[Alchemist Jiji] Tarnished Knight Emblem,10381,250,-1,-1,-1,1,0,3,-1,1
+250271,[Alchemist Jiji] Heide Knight Insignia,10390,250,-1,-1,-1,1,0,3,-1,1
+250272,[Alchemist Jiji] Heide Knight Emblem,10391,250,-1,-1,-1,1,0,3,-1,1
+250273,[Alchemist Jiji] Syan Knight Insignia,10400,250,-1,-1,-1,1,0,3,-1,1
+250274,[Alchemist Jiji] Syan Knight Emblem,10401,250,-1,-1,-1,1,0,3,-1,1
+250275,[Alchemist Jiji] Alonne Captain Insignia,10410,250,-1,-1,-1,1,0,3,-1,1
+250276,[Alchemist Jiji] Alonne Captain Emblem,10411,250,-1,-1,-1,1,0,3,-1,1
+250277,[Alchemist Jiji] Gloom Insignia,10420,250,-1,-1,-1,1,0,3,-1,1
+250278,[Alchemist Jiji] Gloom Emblem,10421,250,-1,-1,-1,1,0,3,-1,1
+250279,[Alchemist Jiji] Ruin Insignia,10430,250,-1,-1,-1,1,0,3,-1,1
+250280,[Alchemist Jiji] Ruin Emblem,10431,250,-1,-1,-1,1,0,3,-1,1
+250281,[Alchemist Jiji] Rampart Golem Insignia,10440,250,-1,-1,-1,1,0,3,-1,1
+250282,[Alchemist Jiji] Rampart Golem Emblem,10441,250,-1,-1,-1,1,0,3,-1,1
+250283,[Alchemist Jiji] Lost Gargoyle Insignia,10450,250,-1,-1,-1,1,0,3,-1,1
+250284,[Alchemist Jiji] Gargoyle Insignia,10460,250,-1,-1,-1,1,0,3,-1,1
+250285,[Alchemist Jiji] Gargoyle Emblem,10461,250,-1,-1,-1,1,0,3,-1,1
+250286,[Alchemist Jiji] Crab Insignia,10470,250,-1,-1,-1,1,0,3,-1,1
+250287,[Alchemist Jiji] Imperial Samurai Insignia,10480,250,-1,-1,-1,1,0,3,-1,1
+250288,[Alchemist Jiji] Horned Samurai Insignia,10490,250,-1,-1,-1,1,0,3,-1,1
+250289,[Alchemist Jiji] Ornate Samurai Insignia,10500,250,-1,-1,-1,1,0,3,-1,1
+250290,[Alchemist Jiji] Lorian's Insignia,10510,250,-1,-1,-1,1,0,3,-1,1
+250291,[Alchemist Jiji] Lorian's Emblem,10511,250,-1,-1,-1,1,0,3,-1,1
+250292,[Alchemist Jiji] Great Lord Insignia,10520,250,-1,-1,-1,1,0,3,-1,1
+250293,[Alchemist Jiji] Great Lord Emblem,10521,250,-1,-1,-1,1,0,3,-1,1
+250294,[Alchemist Jiji] Ludleth's Insignia,10530,250,-1,-1,-1,1,0,3,-1,1
+250295,[Alchemist Jiji] Avaricious Insignia,10540,250,-1,-1,-1,1,0,3,-1,1
+250296,[Alchemist Jiji] Giant Slave Insignia,10550,250,-1,-1,-1,1,0,3,-1,1
+250297,[Alchemist Jiji] Old Demon King's Insignia,10560,250,-1,-1,-1,1,0,3,-1,1
+250298,[Alchemist Jiji] Pygmy King's Insignia,10570,250,-1,-1,-1,1,0,3,-1,1
+250299,[Alchemist Jiji] Drakeblood Insignia,10580,250,-1,-1,-1,1,0,3,-1,1
+250300,[Alchemist Jiji] Drakeblood Emblem,10581,250,-1,-1,-1,1,0,3,-1,1
+250301,[Alchemist Jiji] Barrel Insignia,10590,250,-1,-1,-1,1,0,3,-1,1
+250302,[Alchemist Jiji] Gough's Insignia,10600,250,-1,-1,-1,1,0,3,-1,1
+250303,[Alchemist Jiji] Gough's Emblem,10601,250,-1,-1,-1,1,0,3,-1,1
+250304,[Alchemist Jiji] Mad Warrior Insignia,10610,250,-1,-1,-1,1,0,3,-1,1
+250305,[Alchemist Jiji] Mad Warrior Emblem,10611,250,-1,-1,-1,1,0,3,-1,1
+250306,[Alchemist Jiji] Imperious Insignia,10620,250,-1,-1,-1,1,0,3,-1,1
+250307,[Alchemist Jiji] Imperious Emblem,10621,250,-1,-1,-1,1,0,3,-1,1
+250308,[Alchemist Jiji] Vengarl's Insignia,10630,250,-1,-1,-1,1,0,3,-1,1
+250309,[Alchemist Jiji] Vengarl's Emblem,10631,250,-1,-1,-1,1,0,3,-1,1
+250310,[Alchemist Jiji] Sinner's Insignia,10640,250,-1,-1,-1,1,0,3,-1,1
+250311,[Alchemist Jiji] Pot Insignia,10650,250,-1,-1,-1,1,0,3,-1,1
+250312,[Alchemist Jiji] Black Dragon Insignia,10660,250,-1,-1,-1,1,0,3,-1,1
+250313,[Alchemist Jiji] Black Dragon Emblem,10661,250,-1,-1,-1,1,0,3,-1,1
+250314,[Alchemist Jiji] Ringed Knight Insignia,10670,250,-1,-1,-1,1,0,3,-1,1
+250315,[Alchemist Jiji] Ringed Knight Emblem,10671,250,-1,-1,-1,1,0,3,-1,1
+250316,[Alchemist Jiji] Gravekeeper Insignia,10680,250,-1,-1,-1,1,0,3,-1,1
+250317,[Alchemist Jiji] Gravekeeper Emblem,10681,250,-1,-1,-1,1,0,3,-1,1
+250318,[Alchemist Jiji] Ivory King's Insignia,10690,250,-1,-1,-1,1,0,3,-1,1
+250319,[Alchemist Jiji] Ivory King's Emblem,10691,250,-1,-1,-1,1,0,3,-1,1
+250320,[Alchemist Jiji] Yhorm's Insignia,10700,250,-1,-1,-1,1,0,3,-1,1
+250321,[Alchemist Jiji] Yhorm's Emblem,10701,250,-1,-1,-1,1,0,3,-1,1
+250322,[Alchemist Jiji] Smelter Demon Insignia,10710,250,-1,-1,-1,1,0,3,-1,1
+250323,[Alchemist Jiji] Smelter Demon Emblem,10711,250,-1,-1,-1,1,0,3,-1,1
+250324,[Alchemist Jiji] Firelink Insignia,10720,250,-1,-1,-1,1,0,3,-1,1
+250325,[Alchemist Jiji] Firelink Emblem,10721,250,-1,-1,-1,1,0,3,-1,1
+250326,[Alchemist Jiji] Gold Ardeo Insignia,10730,250,-1,-1,-1,1,0,3,-1,1
+250327,[Alchemist Jiji] Iron Cage Insignia,10740,250,-1,-1,-1,1,0,3,-1,1
+250328,[Alchemist Jiji] Corvian Knight Insignia,10750,250,-1,-1,-1,1,0,3,-1,1
+250329,[Alchemist Jiji] Corvian Knight Emblem,10751,250,-1,-1,-1,1,0,3,-1,1
+250330,[Alchemist Jiji] Eastern Insignia,10760,250,-1,-1,-1,1,0,3,-1,1
+250331,[Alchemist Jiji] Eastern Emblem,10761,250,-1,-1,-1,1,0,3,-1,1
+250332,[Alchemist Jiji] Alonne Insignia,10770,250,-1,-1,-1,1,0,3,-1,1
+250333,[Alchemist Jiji] Alonne Emblem,10771,250,-1,-1,-1,1,0,3,-1,1
+250334,[Alchemist Jiji] Brass Insignia,10780,250,-1,-1,-1,1,0,3,-1,1
+250335,[Alchemist Jiji] Brass Emblem,10781,250,-1,-1,-1,1,0,3,-1,1
+250336,[Alchemist Jiji] Charred Loyce Insignia,10790,250,-1,-1,-1,1,0,3,-1,1
+250337,[Alchemist Jiji] Charred Louce Emblem,10791,250,-1,-1,-1,1,0,3,-1,1
+250338,[Alchemist Jiji] Loyce Insignia,10800,250,-1,-1,-1,1,0,3,-1,1
+250339,[Alchemist Jiji] Loyce Emblem,10801,250,-1,-1,-1,1,0,3,-1,1
+250340,[Alchemist Jiji] Favored Insignia,10810,250,-1,-1,-1,1,0,3,-1,1
+250341,[Alchemist Jiji] Favored Emblem,10811,250,-1,-1,-1,1,0,3,-1,1
+250342,[Alchemist Jiji] King's Insignia,10820,250,-1,-1,-1,1,0,3,-1,1
+250343,[Alchemist Jiji] King's Emblem,10821,250,-1,-1,-1,1,0,3,-1,1
+250344,[Alchemist Jiji] Lord's Blade Insignia,10830,250,-1,-1,-1,1,0,3,-1,1
+250345,[Alchemist Jiji] Lord's Blade Emblem,10831,250,-1,-1,-1,1,0,3,-1,1
+250346,[Alchemist Jiji] Sunset Insignia,10840,250,-1,-1,-1,1,0,3,-1,1
+250347,[Alchemist Jiji] Sunset Emblem,10841,250,-1,-1,-1,1,0,3,-1,1
+250348,[Alchemist Jiji] Wolf Knight Insignia,10850,250,-1,-1,-1,1,0,3,-1,1
+250349,[Alchemist Jiji] Wolf Knight Emblem,10851,250,-1,-1,-1,1,0,3,-1,1
+250350,[Alchemist Jiji] Ridoh's Insignia,10860,250,-1,-1,-1,1,0,3,-1,1
+250351,[Alchemist Jiji] Artificial Insignia,10870,250,-1,-1,-1,1,0,3,-1,1
+250352,[Alchemist Jiji] Ancient King Insignia,10880,250,-1,-1,-1,1,0,3,-1,1
+250353,[Alchemist Jiji] Ancient King Emblem,10881,250,-1,-1,-1,1,0,3,-1,1
+250354,[Alchemist Jiji] Filianore's Insignia,10890,250,-1,-1,-1,1,0,3,-1,1
+250355,[Alchemist Jiji] Holy King's Insignia,10900,250,-1,-1,-1,1,0,3,-1,1
+250356,[Alchemist Jiji] Elite Knight Insignia,10910,250,-1,-1,-1,1,0,3,-1,1
+250357,[Alchemist Jiji] Elite Knight Emblem,10911,250,-1,-1,-1,1,0,3,-1,1
+250358,[Alchemist Jiji] Bucket Insignia,10920,250,-1,-1,-1,1,0,3,-1,1
+250359,[Alchemist Jiji] Burial Knight Insignia,10930,250,-1,-1,-1,1,0,3,-1,1
+250360,[Alchemist Jiji] Burial Knight Emblem,10931,250,-1,-1,-1,1,0,3,-1,1
+250361,[Alchemist Jiji] Adventurer's Insignia,10940,250,-1,-1,-1,1,0,3,-1,1
+250362,[Alchemist Jiji] Adventurer's Emblem,10941,250,-1,-1,-1,1,0,3,-1,1
+250363,[Alchemist Jiji] Knight Insignia,10950,250,-1,-1,-1,1,0,3,-1,1
+250364,[Alchemist Jiji] Knight Emblem,10951,250,-1,-1,-1,1,0,3,-1,1
+250365,[Alchemist Jiji] Thorn Insignia,10960,250,-1,-1,-1,1,0,3,-1,1
+250366,[Alchemist Jiji] Thorn Emblem,10961,250,-1,-1,-1,1,0,3,-1,1
+250367,[Alchemist Jiji] Nameless Knight Insignia,10970,250,-1,-1,-1,1,0,3,-1,1
+250368,[Alchemist Jiji] Nameless Knight Emblem,10971,250,-1,-1,-1,1,0,3,-1,1
+250369,[Alchemist Jiji] Father's Insignia,10980,250,-1,-1,-1,1,0,3,-1,1
+250370,[Alchemist Jiji] Mother's Insignia,10990,250,-1,-1,-1,1,0,3,-1,1
+250371,[Alchemist Jiji] Child's Insignia,11000,250,-1,-1,-1,1,0,3,-1,1
+250372,[Alchemist Jiji] Demon Cleric Insignia,11010,250,-1,-1,-1,1,0,3,-1,1
+250373,[Alchemist Jiji] Horror Insignia,11020,250,-1,-1,-1,1,0,3,-1,1
+250374,[Alchemist Jiji] Cruelty Insignia,11030,250,-1,-1,-1,1,0,3,-1,1
+250375,[Alchemist Jiji] Serenity Insignia,11040,250,-1,-1,-1,1,0,3,-1,1
+250376,[Alchemist Jiji] War Insignia,11050,250,-1,-1,-1,1,0,3,-1,1
+250377,[Alchemist Jiji] Faraam Insignia,11060,250,-1,-1,-1,1,0,3,-1,1
+250378,[Alchemist Jiji] Faraam Emblem,11061,250,-1,-1,-1,1,0,3,-1,1
+250379,[Alchemist Jiji] Alva Insignia,11070,250,-1,-1,-1,1,0,3,-1,1
+250380,[Alchemist Jiji] Alva Emblem,11071,250,-1,-1,-1,1,0,3,-1,1
+250381,[Alchemist Jiji] Attendant Insignia,11080,250,-1,-1,-1,1,0,3,-1,1
+250382,[Alchemist Jiji] Attendant Emblem,11081,250,-1,-1,-1,1,0,3,-1,1
+250383,[Alchemist Jiji] Footman Insignia,11090,250,-1,-1,-1,1,0,3,-1,1
+250384,[Alchemist Jiji] Footman Emblem,11091,250,-1,-1,-1,1,0,3,-1,1
+250385,[Alchemist Jiji] Outrider Insignia,11100,250,-1,-1,-1,1,0,3,-1,1
+250386,[Alchemist Jiji] Outrider Emblem,11101,250,-1,-1,-1,1,0,3,-1,1
+250387,[Alchemist Jiji] Dark Insignia,11110,250,-1,-1,-1,1,0,3,-1,1
+250388,[Alchemist Jiji] Dark Emblem,11111,250,-1,-1,-1,1,0,3,-1,1
+250389,[Alchemist Jiji] Skull Insignia,11120,250,-1,-1,-1,1,0,3,-1,1
+250390,[Alchemist Jiji] Suspicious Insignia,11130,250,-1,-1,-1,1,0,3,-1,1
+250391,[Alchemist Jiji] Undead Legion Insignia,11140,250,-1,-1,-1,1,0,3,-1,1
+250392,[Alchemist Jiji] Undead Legion Emblem,11141,250,-1,-1,-1,1,0,3,-1,1
+250393,[Alchemist Jiji] Fallen Mirrah Insignia,11150,250,-1,-1,-1,1,0,3,-1,1
+250394,[Alchemist Jiji] Fallen Mirrah Emblem,11151,250,-1,-1,-1,1,0,3,-1,1
+250395,[Alchemist Jiji] Herald Insignia,11160,250,-1,-1,-1,1,0,3,-1,1
+250396,[Alchemist Jiji] Herald Emblem,11161,250,-1,-1,-1,1,0,3,-1,1
+250397,[Alchemist Jiji] Fallen Knight Insignia,11170,250,-1,-1,-1,1,0,3,-1,1
+250398,[Alchemist Jiji] Fallen Knight Emblem,11171,250,-1,-1,-1,1,0,3,-1,1
+250399,[Alchemist Jiji] Hallowed Knight Insignia,11180,250,-1,-1,-1,1,0,3,-1,1
+250400,[Alchemist Jiji] Hallowed Knight Emblem,11181,250,-1,-1,-1,1,0,3,-1,1
+250401,[Alchemist Jiji] Forlorn Insignia,11190,250,-1,-1,-1,1,0,3,-1,1
+250402,[Alchemist Jiji] Forlorn Emblem,11191,250,-1,-1,-1,1,0,3,-1,1
+250403,[Alchemist Jiji] Aurous Insignia,11200,250,-1,-1,-1,1,0,3,-1,1
+250404,[Alchemist Jiji] Aurous Emblem,11201,250,-1,-1,-1,1,0,3,-1,1
+250405,[Alchemist Jiji] Sun Insignia,11210,250,-1,-1,-1,1,0,3,-1,1
+250406,[Alchemist Jiji] Sun Emblem,11211,250,-1,-1,-1,1,0,3,-1,1
+250407,[Alchemist Jiji] Fire Witch Insignia,11220,250,-1,-1,-1,1,0,3,-1,1
+250408,[Alchemist Jiji] Fire Witch Emblem,11221,250,-1,-1,-1,1,0,3,-1,1
+250409,[Alchemist Jiji] Channeler Insignia,11230,250,-1,-1,-1,1,0,3,-1,1
+250410,[Alchemist Jiji] Channeler Emblem,11231,250,-1,-1,-1,1,0,3,-1,1
+250411,[Alchemist Jiji] Chain Insignia,11240,250,-1,-1,-1,1,0,3,-1,1
+250412,[Alchemist Jiji] Chain Emblem,11241,250,-1,-1,-1,1,0,3,-1,1
+250413,[Alchemist Jiji] Vilhelm Insignia,11250,250,-1,-1,-1,1,0,3,-1,1
+250414,[Alchemist Jiji] Vilhelm Emblem,11251,250,-1,-1,-1,1,0,3,-1,1
+250415,[Alchemist Jiji] Bone Ash Insignia,11260,250,-1,-1,-1,1,0,3,-1,1
+250416,[Alchemist Jiji] Bone Ash Emblem,11261,250,-1,-1,-1,1,0,3,-1,1
+250417,[Alchemist Jiji] Varangian Insignia,11270,250,-1,-1,-1,1,0,3,-1,1
+250418,[Alchemist Jiji] Varangian Emblem,11271,250,-1,-1,-1,1,0,3,-1,1
+250419,[Alchemist Jiji] Thorolund Insignia,11280,250,-1,-1,-1,1,0,3,-1,1
+250420,[Alchemist Jiji] Thorolund Emblem,11281,250,-1,-1,-1,1,0,3,-1,1
+250421,[Alchemist Jiji] Bear Insignia,11290,250,-1,-1,-1,1,0,3,-1,1
+250422,[Alchemist Jiji] Bear Emblem,11291,250,-1,-1,-1,1,0,3,-1,1
+250423,[Alchemist Jiji] Wolnir's Insignia,11300,250,-1,-1,-1,1,0,3,-1,1
+250424,[Alchemist Jiji] Illusionary Insignia,11310,250,-1,-1,-1,1,0,3,-1,1
+250425,[Alchemist Jiji] Northern Insignia,11320,250,-1,-1,-1,1,0,3,-1,1
+250426,[Alchemist Jiji] Northern Emblem,11321,250,-1,-1,-1,1,0,3,-1,1
+250427,[Alchemist Jiji] Slave Knight Insignia,11330,250,-1,-1,-1,1,0,3,-1,1
+250428,[Alchemist Jiji] Slave Knight Emblem,11331,250,-1,-1,-1,1,0,3,-1,1
+250429,[Alchemist Jiji] Nameless King Insignia,11340,250,-1,-1,-1,1,0,3,-1,1
+250430,[Alchemist Jiji] Nameless King Emblem,11341,250,-1,-1,-1,1,0,3,-1,1
+250431,[Alchemist Jiji] Courtier Insignia,11350,250,-1,-1,-1,1,0,3,-1,1
+250432,[Alchemist Jiji] Courtier Emblem,11351,250,-1,-1,-1,1,0,3,-1,1
+250433,[Alchemist Jiji] Follower Insignia,11360,250,-1,-1,-1,1,0,3,-1,1
+250434,[Alchemist Jiji] Follower Emblem,11361,250,-1,-1,-1,1,0,3,-1,1
+250435,[Alchemist Jiji] Royal Soldier Insignia,11370,250,-1,-1,-1,1,0,3,-1,1
+250436,[Alchemist Jiji] Royal Soldier Emblem,11371,250,-1,-1,-1,1,0,3,-1,1
+250437,[Alchemist Jiji] Pontiff Knight Insignia,11380,250,-1,-1,-1,1,0,3,-1,1
+250438,[Alchemist Jiji] Pontiff Knight Emblem,11381,250,-1,-1,-1,1,0,3,-1,1
+250439,[Alchemist Jiji] Dancer Insignia,11390,250,-1,-1,-1,1,0,3,-1,1
+250440,[Alchemist Jiji] Dancer Emblem,11391,250,-1,-1,-1,1,0,3,-1,1
+250441,[Alchemist Jiji] Vordt's Insignia,11400,250,-1,-1,-1,1,0,3,-1,1
+250442,[Alchemist Jiji] Evangelist Insignia,11410,250,-1,-1,-1,1,0,3,-1,1
+250443,[Alchemist Jiji] Evangelist Emblem,11411,250,-1,-1,-1,1,0,3,-1,1
+250444,[Alchemist Jiji] Mirrah Insignia,11420,250,-1,-1,-1,1,0,3,-1,1
+250445,[Alchemist Jiji] Mirrah Emblem,11421,250,-1,-1,-1,1,0,3,-1,1
+250446,[Alchemist Jiji] Hard Leather Insignia,11430,250,-1,-1,-1,1,0,3,-1,1
+250447,[Alchemist Jiji] Hard Leather Emblem,11431,250,-1,-1,-1,1,0,3,-1,1
+250448,[Alchemist Jiji] Jailer Insignia,11440,250,-1,-1,-1,1,0,3,-1,1
+250449,[Alchemist Jiji] Jailer Emblem,11441,250,-1,-1,-1,1,0,3,-1,1
+250450,[Alchemist Jiji] Black Insignia,11450,250,-1,-1,-1,1,0,3,-1,1
+250451,[Alchemist Jiji] Black Emblem,11451,250,-1,-1,-1,1,0,3,-1,1
+250452,[Alchemist Jiji] Sellsword Insignia,11460,250,-1,-1,-1,1,0,3,-1,1
+250453,[Alchemist Jiji] Sellsword Emblem,11461,250,-1,-1,-1,1,0,3,-1,1
+250454,[Alchemist Jiji] Vileblood Insignia,11470,250,-1,-1,-1,1,0,3,-1,1
+250455,[Alchemist Jiji] Vileblood Emblem,11471,250,-1,-1,-1,1,0,3,-1,1
+250456,[Alchemist Jiji] Sunless Insignia,11480,250,-1,-1,-1,1,0,3,-1,1
+250457,[Alchemist Jiji] Sunless Emblem,11481,250,-1,-1,-1,1,0,3,-1,1
+250458,[Alchemist Jiji] Leonhard's Insignia,11490,250,-1,-1,-1,1,0,3,-1,1
+250459,[Alchemist Jiji] Leonhard's Emblem,11491,250,-1,-1,-1,1,0,3,-1,1
+250460,[Alchemist Jiji] Xanthous Insignia,11500,250,-1,-1,-1,1,0,3,-1,1
+250461,[Alchemist Jiji] Xanthous Emblem,11501,250,-1,-1,-1,1,0,3,-1,1
+250462,[Alchemist Jiji] White Preacher's Insignia,11510,250,-1,-1,-1,1,0,3,-1,1
+250463,[Alchemist Jiji] Poisonhorn Insignia,11520,250,-1,-1,-1,1,0,3,-1,1
+250464,[Alchemist Jiji] Hollow's Insignia,11530,250,-1,-1,-1,1,0,3,-1,1
+250465,[Alchemist Jiji] Basilisk Insignia,11540,250,-1,-1,-1,1,0,3,-1,1
+250466,[Alchemist Jiji] Vagabond Insignia,11550,250,-1,-1,-1,1,0,3,-1,1
+250467,[Alchemist Jiji] Raven Insignia,11560,250,-1,-1,-1,1,0,3,-1,1
+250468,[Alchemist Jiji] Deserter's Insignia,11570,250,-1,-1,-1,1,0,3,-1,1
+250469,[Alchemist Jiji] Deserter's Emblem,11571,250,-1,-1,-1,1,0,3,-1,1
+250470,[Alchemist Jiji] Defender's Insignia,11580,250,-1,-1,-1,1,0,3,-1,1
+250471,[Alchemist Jiji] Soldier's Insignia,11590,250,-1,-1,-1,1,0,3,-1,1
+250472,[Alchemist Jiji] Black Leather Insignia,11600,250,-1,-1,-1,1,0,3,-1,1
+250473,[Alchemist Jiji] Black Leather Emblem,11601,250,-1,-1,-1,1,0,3,-1,1
+250474,[Alchemist Jiji] Brigand Insignia,11610,250,-1,-1,-1,1,0,3,-1,1
+250475,[Alchemist Jiji] Brigand Emblem,11611,250,-1,-1,-1,1,0,3,-1,1
+250476,[Alchemist Jiji] Pharis's Insignia,11620,250,-1,-1,-1,1,0,3,-1,1
+250477,[Alchemist Jiji] Pharis's Emblem,11621,250,-1,-1,-1,1,0,3,-1,1
+250478,[Alchemist Jiji] Shira's Insignia,11630,250,-1,-1,-1,1,0,3,-1,1
+250479,[Alchemist Jiji] Shira's Emblem,11631,250,-1,-1,-1,1,0,3,-1,1
+250480,[Alchemist Jiji] Black Hand Insignia,11640,250,-1,-1,-1,1,0,3,-1,1
+250481,[Alchemist Jiji] Black Hand Emblem,11641,250,-1,-1,-1,1,0,3,-1,1
+250482,[Alchemist Jiji] Conjurator Insignia,11650,250,-1,-1,-1,1,0,3,-1,1
+250483,[Alchemist Jiji] Conjurator Emblem,11651,250,-1,-1,-1,1,0,3,-1,1
+250484,[Alchemist Jiji] Jester Insignia,11660,250,-1,-1,-1,1,0,3,-1,1
+250485,[Alchemist Jiji] Jester Emblem,11661,250,-1,-1,-1,1,0,3,-1,1
+250486,[Alchemist Jiji] Grotto Insignia,11670,250,-1,-1,-1,1,0,3,-1,1
+250487,[Alchemist Jiji] Grotto Emblem,11671,250,-1,-1,-1,1,0,3,-1,1
+250488,[Alchemist Jiji] Black Metal Insignia,11680,250,-1,-1,-1,1,0,3,-1,1
+250489,[Alchemist Jiji] Tan Straw Insignia,11690,250,-1,-1,-1,1,0,3,-1,1
+250490,[Alchemist Jiji] Cleric's Insignia,11700,250,-1,-1,-1,1,0,3,-1,1
+250491,[Alchemist Jiji] Cleric's Emblem,11701,250,-1,-1,-1,1,0,3,-1,1
+250492,[Alchemist Jiji] Black Cleric's Insignia,11710,250,-1,-1,-1,1,0,3,-1,1
+250493,[Alchemist Jiji] Black Cleric's Emblem,11711,250,-1,-1,-1,1,0,3,-1,1
+250494,[Alchemist Jiji] Astrologist Insignia,11720,250,-1,-1,-1,1,0,3,-1,1
+250495,[Alchemist Jiji] Astrologist Emblem,11721,250,-1,-1,-1,1,0,3,-1,1
+250496,[Alchemist Jiji] Worker Insignia,11730,250,-1,-1,-1,1,0,3,-1,1
+250497,[Alchemist Jiji] Worker Emblem,11731,250,-1,-1,-1,1,0,3,-1,1
+250498,[Alchemist Jiji] Salvador's Insignia,11740,250,-1,-1,-1,1,0,3,-1,1
+250499,[Alchemist Jiji] Chester's Insignia,11750,250,-1,-1,-1,1,0,3,-1,1
+250500,[Alchemist Jiji] Chester's Emblem,11751,250,-1,-1,-1,1,0,3,-1,1
+250501,[Alchemist Jiji] Binded Insignia,11760,250,-1,-1,-1,1,0,3,-1,1
+250502,[Alchemist Jiji] Binded Emblem,11761,250,-1,-1,-1,1,0,3,-1,1
+250503,[Alchemist Jiji] Thrall Insignia,11770,250,-1,-1,-1,1,0,3,-1,1
+250504,[Alchemist Jiji] Assassin Insignia,11780,250,-1,-1,-1,1,0,3,-1,1
+250505,[Alchemist Jiji] Assassin Emblem,11781,250,-1,-1,-1,1,0,3,-1,1
+250506,[Alchemist Jiji] Painting Guardian Insignia,11790,250,-1,-1,-1,1,0,3,-1,1
+250507,[Alchemist Jiji] Painting Guardian Emblem,11791,250,-1,-1,-1,1,0,3,-1,1
+250508,[Alchemist Jiji] Drang Emblem,11801,250,-1,-1,-1,1,0,3,-1,1
+250509,[Alchemist Jiji] Serpentine Insignia,11810,250,-1,-1,-1,1,0,3,-1,1
+250510,[Alchemist Jiji] Serpentine Emblem,11811,250,-1,-1,-1,1,0,3,-1,1
+250511,[Alchemist Jiji] Scholar Insignia,11820,250,-1,-1,-1,1,0,3,-1,1
+250512,[Alchemist Jiji] Scholar Emblem,11821,250,-1,-1,-1,1,0,3,-1,1
+250513,[Alchemist Jiji] Priestly Insignia,11830,250,-1,-1,-1,1,0,3,-1,1
+250514,[Alchemist Jiji] Pyromancer Insignia,11840,250,-1,-1,-1,1,0,3,-1,1
+250515,[Alchemist Jiji] Pyromancer Emblem,11841,250,-1,-1,-1,1,0,3,-1,1
+250516,[Alchemist Jiji] Sack Insignia,11850,250,-1,-1,-1,1,0,3,-1,1
+250517,[Alchemist Jiji] Dragon Acolyte Insignia,11860,250,-1,-1,-1,1,0,3,-1,1
+250518,[Alchemist Jiji] Dragon Acolyte Emblem,11861,250,-1,-1,-1,1,0,3,-1,1
+250519,[Alchemist Jiji] Karla's Insignia,11870,250,-1,-1,-1,1,0,3,-1,1
+250520,[Alchemist Jiji] Karla's Emblem,11871,250,-1,-1,-1,1,0,3,-1,1
+250521,[Alchemist Jiji] Black Witch Insignia,11880,250,-1,-1,-1,1,0,3,-1,1
+250522,[Alchemist Jiji] Black Witch Emblem,11881,250,-1,-1,-1,1,0,3,-1,1
+250523,[Alchemist Jiji] Veiled Witch Insignia,11890,250,-1,-1,-1,1,0,3,-1,1
+250525,[Alchemist Jiji] Rosaria's Emblem,11901,250,-1,-1,-1,1,0,3,-1,1
+250526,[Alchemist Jiji] Sorcerer Insignia,11910,250,-1,-1,-1,1,0,3,-1,1
+250527,[Alchemist Jiji] Sorcerer Emblem,11911,250,-1,-1,-1,1,0,3,-1,1
+250528,[Alchemist Jiji] Court Sorcerer Insignia,11920,250,-1,-1,-1,1,0,3,-1,1
+250529,[Alchemist Jiji] Court Sorcerer Emblem,11921,250,-1,-1,-1,1,0,3,-1,1
+250530,[Alchemist Jiji] Old Sorcerer Insignia,11930,250,-1,-1,-1,1,0,3,-1,1
+250531,[Alchemist Jiji] Old Sorcerer Emblem,11931,250,-1,-1,-1,1,0,3,-1,1
+250532,[Alchemist Jiji] Venerable Sage's Insignia,11940,250,-1,-1,-1,1,0,3,-1,1
+250533,[Alchemist Jiji] Venerable Sage's Emblem,11941,250,-1,-1,-1,1,0,3,-1,1
+250534,[Alchemist Jiji] Clandestine Emblem,11951,250,-1,-1,-1,1,0,3,-1,1
+250535,[Alchemist Jiji] Wanderer's Emblem,11961,250,-1,-1,-1,1,0,3,-1,1
+250536,[Alchemist Jiji] Sage's Insignia,11970,250,-1,-1,-1,1,0,3,-1,1
+250537,[Alchemist Jiji] Moonlight Insignia,11980,250,-1,-1,-1,1,0,3,-1,1
+250538,[Alchemist Jiji] Moonlight Emblem,11981,250,-1,-1,-1,1,0,3,-1,1
+250539,[Alchemist Jiji] Gold-hemmed Insignia,11990,250,-1,-1,-1,1,0,3,-1,1
+250540,[Alchemist Jiji] Gold-hemmed Emblem,11991,250,-1,-1,-1,1,0,3,-1,1
+250541,[Alchemist Jiji] Crimson Insignia,12000,250,-1,-1,-1,1,0,3,-1,1
+250542,[Alchemist Jiji] Crimson Emblem,12001,250,-1,-1,-1,1,0,3,-1,1
+250543,[Alchemist Jiji] Pale Shade Insignia,12010,250,-1,-1,-1,1,0,3,-1,1
+250544,[Alchemist Jiji] Pale Shade Emblem,12011,250,-1,-1,-1,1,0,3,-1,1
+250545,[Alchemist Jiji] Shadow Insignia,12020,250,-1,-1,-1,1,0,3,-1,1
+250546,[Alchemist Jiji] Shadow Emblem,12021,250,-1,-1,-1,1,0,3,-1,1
+250547,[Alchemist Jiji] Maiden Insignia,12030,250,-1,-1,-1,1,0,3,-1,1
+250548,[Alchemist Jiji] Maiden Emblem,12031,250,-1,-1,-1,1,0,3,-1,1
+250549,[Alchemist Jiji] Hexer Insignia,12040,250,-1,-1,-1,1,0,3,-1,1
+250550,[Alchemist Jiji] Hexer Emblem,12041,250,-1,-1,-1,1,0,3,-1,1
+250551,[Alchemist Jiji] Cornyx's Insignia,12050,250,-1,-1,-1,1,0,3,-1,1
+250552,[Alchemist Jiji] Cornyx's Emblem,12051,250,-1,-1,-1,1,0,3,-1,1
+250553,[Alchemist Jiji] Grave Warden Insignia,12060,250,-1,-1,-1,1,0,3,-1,1
+250554,[Alchemist Jiji] Grave Warden Emblem,12061,250,-1,-1,-1,1,0,3,-1,1
+250555,[Alchemist Jiji] Ordained Insignia,12070,250,-1,-1,-1,1,0,3,-1,1
+250556,[Alchemist Jiji] Ordained Emblem,12071,250,-1,-1,-1,1,0,3,-1,1
+250557,[Alchemist Jiji] Desert Pyromancer Insignia,12080,250,-1,-1,-1,1,0,3,-1,1
+250558,[Alchemist Jiji] Desert Pyromancer Emblem,12081,250,-1,-1,-1,1,0,3,-1,1
+250559,[Alchemist Jiji] Manikin Insignia,12090,250,-1,-1,-1,1,0,3,-1,1
+250560,[Alchemist Jiji] Manikin Emblem,12091,250,-1,-1,-1,1,0,3,-1,1
+250561,[Alchemist Jiji] Crude Manikin Insignia,12100,250,-1,-1,-1,1,0,3,-1,1
+250562,[Alchemist Jiji] Archdeacon Insignia,12110,250,-1,-1,-1,1,0,3,-1,1
+250563,[Alchemist Jiji] Archdeacon Emblem,12111,250,-1,-1,-1,1,0,3,-1,1
+250564,[Alchemist Jiji] Prayer Insignia,12120,250,-1,-1,-1,1,0,3,-1,1
+250565,[Alchemist Jiji] Prayer Emblem,12121,250,-1,-1,-1,1,0,3,-1,1
+250566,[Alchemist Jiji] Fire Keeper Insignia,12130,250,-1,-1,-1,1,0,3,-1,1
+250567,[Alchemist Jiji] Fire Keeper Emblem,12131,250,-1,-1,-1,1,0,3,-1,1
+250568,[Alchemist Jiji] Blindfold Insignia,12140,250,-1,-1,-1,1,0,3,-1,1
+250569,[Alchemist Jiji] Carthus Insignia,12150,250,-1,-1,-1,1,0,3,-1,1
+250570,[Alchemist Jiji] Antiquated Insignia,12160,250,-1,-1,-1,1,0,3,-1,1
+250571,[Alchemist Jiji] Antiquated Emblem,12161,250,-1,-1,-1,1,0,3,-1,1
+250572,[Alchemist Jiji] Plain Emblem,12171,250,-1,-1,-1,1,0,3,-1,1
+250573,[Alchemist Jiji] Master's Insignia,12180,250,-1,-1,-1,1,0,3,-1,1
+250574,[Alchemist Jiji] Master's Emblem,12181,250,-1,-1,-1,1,0,3,-1,1
+250575,[Alchemist Jiji] Deacon Emblem,12191,250,-1,-1,-1,1,0,3,-1,1
+250576,[Alchemist Jiji] Saint Insignia,12200,250,-1,-1,-1,1,0,3,-1,1
+250577,[Alchemist Jiji] Saint Emblem,12201,250,-1,-1,-1,1,0,3,-1,1
+250578,[Alchemist Jiji] Raime's Emblem,10351,250,-1,-1,-1,1,0,3,-1,1
+250700,[Alchemist Jiji] Cleansing Oil,4300,100,-1,-1,-1,-1,0,3,-1,1
+250701,[Alchemist Jiji] Cleansing Oil (Left),4301,100,-1,-1,-1,-1,0,3,-1,1
+250702,[Alchemist Jiji] Magical Oil,4310,500,-1,-1,-1,-1,0,3,-1,1
+250703,[Alchemist Jiji] Magical Oil (Left),4311,500,-1,-1,-1,-1,0,3,-1,1
+250704,[Alchemist Jiji] Fiery Oil,4320,500,-1,-1,-1,-1,0,3,-1,1
+250705,[Alchemist Jiji] Fiery Oil (Left),4321,500,-1,-1,-1,-1,0,3,-1,1
+250706,[Alchemist Jiji] Sparking Oil,4330,500,-1,-1,-1,-1,0,3,-1,1
+250707,[Alchemist Jiji] Sparking Oil (Left),4331,500,-1,-1,-1,-1,0,3,-1,1
+250708,[Alchemist Jiji] Abyssal Oil,4340,500,-1,-1,-1,-1,0,3,-1,1
+250709,[Alchemist Jiji] Abyssal Oil (Left),4341,500,-1,-1,-1,-1,0,3,-1,1
+250710,[Alchemist Jiji] Poisonous Oil,4350,500,-1,-1,-1,-1,0,3,-1,1
+250711,[Alchemist Jiji] Poisonous Oil (Left),4351,500,-1,-1,-1,-1,0,3,-1,1
+250712,[Alchemist Jiji] Bloody Oil,4360,500,-1,-1,-1,-1,0,3,-1,1
+250713,[Alchemist Jiji] Bloody Oil (Left),4361,500,-1,-1,-1,-1,0,3,-1,1
+250714,[Alchemist Jiji] Frost Oil,4370,500,-1,-1,-1,-1,0,3,-1,1
+250715,[Alchemist Jiji] Frost Oil (Left),4371,500,-1,-1,-1,-1,0,3,-1,1
+250716,[Alchemist Jiji] Moonlit Oil,4380,500,-1,-1,-1,-1,0,3,-1,1
+250717,[Alchemist Jiji] Moonlit Oil (Left),4381,500,-1,-1,-1,-1,0,3,-1,1
+250718,[Alchemist Jiji] Blessed Oil,4390,500,-1,-1,-1,-1,0,3,-1,1
+250719,[Alchemist Jiji] Blessed Oil (Left),4391,500,-1,-1,-1,-1,0,3,-1,1
+250720,[Alchemist Jiji] Black Fire Oil,4400,500,-1,-1,-1,-1,0,3,-1,1
+250721,[Alchemist Jiji] Black Fire Oil (Left),4401,500,-1,-1,-1,-1,0,3,-1,1
+250800,[Alchemist Jiji - Writs] Writ of Humanity,4500,750,-1,-1,-1,-1,0,3,-1,1
+250801,[Alchemist Jiji - Writs] Writ of Anger,4501,750,-1,-1,-1,-1,0,3,-1,1
+250802,[Alchemist Jiji - Writs] Writ of Crystallization,4502,750,-1,-1,-1,-1,0,3,-1,1
+250803,[Alchemist Jiji - Writs] Writ of Invisibility,4503,750,-1,-1,-1,-1,0,3,-1,1
+250804,[Alchemist Jiji - Writs] Writ of Stone,4504,750,-1,-1,-1,-1,0,3,-1,1
+250805,[Alchemist Jiji - Writs] Writ of Maggots,4505,750,-1,-1,-1,-1,0,3,-1,1
+250806,[Alchemist Jiji - Writs] Writ of Burning Anger,4506,750,-1,-1,-1,-1,0,3,-1,1
+250807,[Alchemist Jiji - Writs] Writ of Silent Anger,4507,750,-1,-1,-1,-1,0,3,-1,1
+250808,[Alchemist Jiji - Writs] Writ of Sparks,4508,750,-1,-1,-1,-1,0,3,-1,1
+250809,[Alchemist Jiji - Writs] Writ of Stars,4509,750,-1,-1,-1,-1,0,3,-1,1
+250810,[Alchemist Jiji - Writs] Writ of Prismatica,4510,750,-1,-1,-1,-1,0,3,-1,1
+250811,[Alchemist Jiji - Writs] Writ of Corruption,4511,750,-1,-1,-1,-1,0,3,-1,1
+250812,[Alchemist Jiji - Writs] Writ of Toxicity,4512,750,-1,-1,-1,-1,0,3,-1,1
+250813,[Alchemist Jiji - Writs] Writ of Protection,4513,750,-1,-1,-1,-1,0,3,-1,1
+250814,[Alchemist Jiji - Writs] Writ of Poison,4514,750,-1,-1,-1,-1,0,3,-1,1
+250815,[Alchemist Jiji - Writs] Writ of Frost,4515,750,-1,-1,-1,-1,0,3,-1,1
+250816,[Alchemist Jiji - Writs] Writ of Immolation,4516,750,-1,-1,-1,-1,0,3,-1,1
+250817,[Alchemist Jiji - Writs] Writ of Dust,4517,750,-1,-1,-1,-1,0,3,-1,1
+250818,[Alchemist Jiji - Writs] Writ of Water,4518,750,-1,-1,-1,-1,0,3,-1,1
+250819,[Alchemist Jiji - Writs] Writ of Chilling Anger,4519,750,-1,-1,-1,-1,0,3,-1,1
+250820,[Alchemist Jiji - Writs] Writ of Vengeful Anger,4520,750,-1,-1,-1,-1,0,3,-1,1
+260000,[Magnum Ursus] Primordial Essence,901,-1,-1,-1,-1,-1,0,3,-1,1
+260010,[Magnum Ursus] Cowl of the Bear,10110000,-1,-1,-1,-1,1,0,1,-1,1
+260011,[Magnum Ursus] Armor of the Bear,10111000,-1,-1,-1,-1,1,0,1,-1,1
+260012,[Magnum Ursus] Gauntlets of the Bear,10112000,-1,-1,-1,-1,1,0,1,-1,1
+260013,[Magnum Ursus] Leggings of the Bear,10113000,-1,-1,-1,-1,1,0,1,-1,1
+260900,[Magnum Ursus - Tome] Tome: Corrupted Gundyr,5000,-1,-1,-1,25001001,1,0,3,-1,1
+260901,[Magnum Ursus - Tome] Tome: Vordt,5001,-1,-1,-1,25001002,1,0,3,-1,1
+260902,[Magnum Ursus - Tome] Tome: Curse-rotted Greatwood,5002,-1,-1,-1,25001003,1,0,3,-1,1
+260903,[Magnum Ursus - Tome] Tome: Crystal Sage,5003,-1,-1,-1,25001004,1,0,3,-1,1
+260904,[Magnum Ursus - Tome] Tome: Deacons of the Deep,5004,-1,-1,-1,25001005,1,0,3,-1,1
+260905,[Magnum Ursus - Tome] Tome: Abyss Watchers,5005,-1,-1,-1,25001006,1,0,3,-1,1
+260906,[Magnum Ursus - Tome] Tome: High Lord Wolnir,5006,-1,-1,-1,25001007,1,0,3,-1,1
+260907,[Magnum Ursus - Tome] Tome: Old Demon King,5007,-1,-1,-1,25001008,1,0,3,-1,1
+260908,[Magnum Ursus - Tome] Tome: Pontiff Sulyvahn,5008,-1,-1,-1,25001009,1,0,3,-1,1
+260909,[Magnum Ursus - Tome] Tome: Aldrich,5009,-1,-1,-1,25001010,1,0,3,-1,1
+260910,[Magnum Ursus - Tome] Tome: Yhorm the Giant,5010,-1,-1,-1,25001011,1,0,3,-1,1
+260911,[Magnum Ursus - Tome] Tome: Dancer,5011,-1,-1,-1,25001012,1,0,3,-1,1
+260912,[Magnum Ursus - Tome] Tome: Oceiros,5012,-1,-1,-1,25001013,1,0,3,-1,1
+260913,[Magnum Ursus - Tome] Tome: Dragonslayer Armour,5013,-1,-1,-1,25001014,1,0,3,-1,1
+260914,[Magnum Ursus - Tome] Tome: Ancient Wyvern,5014,-1,-1,-1,25001015,1,0,3,-1,1
+260915,[Magnum Ursus - Tome] Tome: Nameless King,5015,-1,-1,-1,25001016,1,0,3,-1,1
+260916,[Magnum Ursus - Tome] Tome: Champion Gundyr,5016,-1,-1,-1,25001017,1,0,3,-1,1
+260917,[Magnum Ursus - Tome] Tome: Twin Princes,5017,-1,-1,-1,25001018,1,0,3,-1,1
+260918,[Magnum Ursus - Tome] Tome: Soul of Cinder,5018,-1,-1,-1,25001019,1,0,3,-1,1
+260919,[Magnum Ursus - Tome] Tome: Sister Friede,5019,-1,-1,-1,25001020,1,0,3,-1,1
+260920,[Magnum Ursus - Tome] Tome: Lordran Remnants,5020,-1,-1,-1,25001021,1,0,3,-1,1
+260921,[Magnum Ursus - Tome] Tome: Demon Prince,5021,-1,-1,-1,25001022,1,0,3,-1,1
+260922,[Magnum Ursus - Tome] Tome: Darkeater Midir,5022,-1,-1,-1,25001023,1,0,3,-1,1
+260923,[Magnum Ursus - Tome] Tome: Slave Knight Gael,5023,-1,-1,-1,25001024,1,0,3,-1,1
+260924,[Magnum Ursus - Tome] Tome: Halflight,5024,-1,-1,-1,25001025,1,0,3,-1,1
+260925,[Magnum Ursus - Tome] Tome: Champions of Yore,5025,-1,-1,-1,-1,1,0,3,-1,1
+270000,[Master Benjin] Hunter's Pistol,14420000,-1,-1,-1,-1,1,0,0,-1,1
+270001,[Master Benjin] Hunter's Blunderbuss,14450000,-1,-1,-1,-1,1,0,0,-1,1
+270002,[Master Benjin] Repeating Pistol,14430000,-1,-1,-1,-1,1,0,0,-1,1
+270003,[Master Benjin] Fist of Gratia,14470000,-1,-1,-1,-1,1,0,0,-1,1
+270020,[Master Benjin - Tortured Soul] Church Cannon,14410000,-1,-1,-1,25009530,1,0,0,-1,1
+270021,[Master Benjin - Tortured Soul] Rosamarius,14460000,-1,-1,-1,25009530,1,0,0,-1,1
+270040,[Master Benjin - Smithbox] Cannon,14400000,-1,-1,-1,25009540,1,0,0,-1,1
+270041,[Master Benjin - Smithbox] Evelynn,14440000,-1,-1,-1,25009540,1,0,0,-1,1
+760000,[Stone-humped Hag] Splitleaf Greatsword,10170000,-1,-1,-1,-1,-1,0,0,-1,1
+760001,[Stone-humped Hag] Devil's Trumpet,4017,-1,-1,-1,-1,-1,0,3,-1,1
+760002,[Stone-humped Hag] Moonflower,4018,-1,-1,-1,-1,-1,0,3,-1,1
+760003,[Stone-humped Hag] Henbane,4019,-1,-1,-1,-1,-1,0,3,-1,1
+760004,[Stone-humped Hag] Old Radiant Lifegem,802,-1,-1,75003000,-1,20,0,3,-1,0.5
+760005,[Stone-humped Hag] Dried Root,804,-1,-1,75003010,-1,20,0,3,-1,0.5
+760006,[Stone-humped Hag] Crimson Water,806,-1,-1,75003020,-1,10,0,3,-1,0.5
+900000,,1000000,1,-1,19905700,-1,1,0,0,-1,1
+900001,,1000100,12,-1,-1,-1,-1,0,0,-1,1
+900002,,1000200,123,-1,19905710,-1,12,0,0,-1,1
+900003,,1000300,1234,-1,-1,-1,-1,0,0,-1,1
+900004,,1000400,12345,-1,19905720,-1,123,0,0,-1,1
+900005,,1000500,123456,-1,-1,-1,-1,0,0,-1,1
+900006,,1000600,1234567,-1,19905730,-1,1234,0,0,-1,1
+900007,,1000700,12345678,-1,-1,-1,-1,0,0,-1,1
+900008,,1000800,123456789,-1,19905740,-1,5,0,0,-1,1
+900009,,1000900,12345678,-1,-1,-1,-1,0,0,-1,1
+900010,,1001000,1234567,-1,19905750,-1,56,0,0,-1,1
+900011,,1001100,123456,-1,-1,-1,-1,0,0,-1,1
+900012,,1001200,12345,-1,19905760,-1,567,0,0,-1,1
+900013,,1001300,1234,-1,-1,-1,-1,0,0,-1,1
+900014,,1001400,123,-1,19905770,-1,5678,0,0,-1,1
+900015,,1001500,12,-1,-1,-1,-1,0,0,-1,1
+900016,,1010000,987654321,-1,19905780,-1,9,0,0,-1,1
+900017,,1010100,87654321,-1,-1,-1,-1,0,0,-1,1
+900018,,1010200,7654321,-1,19905790,-1,89,0,0,-1,1
+900019,,1010300,654321,-1,-1,-1,-1,0,0,-1,1
+900020,,1010400,54321,-1,19905800,-1,789,0,0,-1,1
+900021,,1010500,4321,-1,-1,-1,-1,0,0,-1,1
+900022,,1010600,321,-1,19905810,-1,6789,0,0,-1,1
+900023,,1010700,21,-1,-1,-1,-1,0,0,-1,1
+900024,,1010800,1,-1,19905820,-1,5,0,0,-1,1
+900025,,1010900,21,-1,-1,-1,-1,0,0,-1,1
+900026,,1011000,321,-1,19905830,-1,45,0,0,-1,1
+900027,,1011100,4321,-1,-1,-1,-1,0,0,-1,1
+900028,,1011200,54321,-1,19905840,-1,345,0,0,-1,1
+900029,,1011300,654321,-1,-1,-1,-1,0,0,-1,1
+900030,,1011400,7654321,-1,19905850,-1,2345,0,0,-1,1
+900031,,1011500,87654321,-1,-1,-1,-1,0,0,-1,1
+900032,,1000,1,-1,-1,-1,-1,0,3,-1,1
+900033,,2001,1,-1,-1,-1,-1,0,3,-1,1
+900034,,1200000,1,-1,-1,-1,-1,0,3,-1,1
+900035,,23500000,1,-1,-1,-1,-1,0,1,-1,1
+900036,,400000,1,-1,-1,-1,-1,0,0,-1,1
+900037,,20000,1,-1,-1,-1,-1,0,2,-1,1
+900038,,270,1,-1,19905860,-1,1,0,3,-1,1
+900039,,271,12,-1,-1,-1,-1,0,3,-1,1
+900040,,272,123,-1,19905870,-1,63,0,3,-1,1
+900041,,276,1234,-1,-1,-1,-1,0,3,-1,1
+900042,,280,12345,-1,19905880,-1,255,0,3,-1,1
+900043,,290,123456,-1,-1,-1,-1,0,3,-1,1
+900044,,292,1234567,-1,19905890,-1,9999,0,3,-1,1
+900045,,400,12345678,-1,-1,-1,-1,0,3,-1,1
+900046,,401,123456789,-1,19905900,-1,1,0,3,-1,1
+900047,,402,9,-1,-1,-1,-1,0,3,-1,1
+900048,,403,98,-1,19905900,-1,12,0,3,-1,1
+900049,,404,987,-1,-1,-1,-1,0,3,-1,1
+900050,,405,9876,-1,19905900,-1,123,0,3,-1,1
+900051,,406,98765,-1,-1,-1,-1,0,3,-1,1
+900052,,407,987654,-1,19905900,-1,1234,0,3,-1,1
+900053,,408,9876543,-1,-1,-1,-1,0,3,-1,1
+900054,,409,98765432,-1,19905900,-1,5,0,3,-1,1
+900055,,410,987654321,-1,-1,-1,-1,0,3,-1,1
+900056,,411,1,-1,19905900,-1,56,0,3,-1,1
+900057,,412,21,-1,-1,-1,-1,0,3,-1,1
+900058,,413,321,-1,19905900,-1,567,0,3,-1,1
+900059,,414,4321,-1,-1,-1,-1,0,3,-1,1
+900060,,415,54321,-1,19905900,-1,5678,0,3,-1,1
+900061,,416,654321,-1,-1,-1,-1,0,3,-1,1
+900062,,417,7654321,-1,19905900,-1,9,0,3,-1,1
+900063,,418,87654321,-1,-1,-1,-1,0,3,-1,1
+900064,,419,987654321,-1,19905900,-1,9999,0,3,-1,1
+900065,,420,999999999,-1,-1,-1,-1,0,3,-1,1

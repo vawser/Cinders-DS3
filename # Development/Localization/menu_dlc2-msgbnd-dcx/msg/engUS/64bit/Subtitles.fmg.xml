@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1000000">Yes, indeed.</text>
+<text id="1000001">It is called Lothric,</text>
+<text id="1000002">where the transitory lands of the Lords of Cinder converge.</text>
+<text id="1000100">In venturing north,</text>
+<text id="1000101">the pilgrims discover the truth of the old words.</text>
+<text id="1000200">"The fire fades,</text>
+<text id="1000201">and the lords go without thrones."</text>
+<text id="1000300">When the link of fire is threatened, the bell tolls,</text>
+<text id="1000301">unearthing the old Lords of Cinder from their graves.</text>
+<text id="1000400">Aldrich, Saint of the Deep.</text>
+<text id="1000401">Farron's Undead Legion, the Abyss Watchers.</text>
+<text id="1000402">And the reclusive lord of the Profaned Capital,</text>
+<text id="1000403">Yhorm the Giant.</text>
+<text id="1000500">Only, in truth...</text>
+<text id="1000501">The Lords will abandon their thrones,</text>
+<text id="1000502">and the Unkindled will rise.</text>
+<text id="1000600">Nameless, accursed Undead, unfit even to be cinder.</text>
+<text id="1000601">And so it is.</text>
+<text id="1000602">That ash seeketh embers.</text>
+</entries>
+</fmg>

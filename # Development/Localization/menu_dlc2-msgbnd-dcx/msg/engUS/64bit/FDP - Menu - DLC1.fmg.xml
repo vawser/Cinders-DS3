@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="506000">Join Undead Match with present settings?</text>
+<text id="506001">Please wait until all combatants have joined.
+Total players: &lt;?matchTotalCount?&gt;
+Remaining: &lt;?matchRemainingCount?&gt;</text>
+<text id="506002">All combatants present.
+Moving to arena.</text>
+<text id="506003">%null%</text>
+<text id="506004">%null%</text>
+<text id="506005">%null%</text>
+<text id="506006">%null%</text>
+<text id="506007">%null%</text>
+<text id="506008">%null%</text>
+<text id="506009">%null%</text>
+<text id="506010">Canceled matchmaking</text>
+<text id="506011">Matchmaking canceled</text>
+<text id="506012">Cancel matchmaking?</text>
+<text id="506013">%null%</text>
+<text id="506014">%null%</text>
+<text id="506015">%null%</text>
+<text id="506016">%null%</text>
+<text id="506017">%null%</text>
+<text id="506018">%null%</text>
+<text id="506019">%null%</text>
+<text id="506020">Matchmaking failed</text>
+<text id="506021">Matchmaking failed.
+Failed to create session.</text>
+<text id="506022">Matchmaking failed.
+Failed to join session.</text>
+<text id="506023">Failed to record match result.
+
+To try again, select YES.
+
+To continue without recording match result, select NO.</text>
+</entries>
+</fmg>

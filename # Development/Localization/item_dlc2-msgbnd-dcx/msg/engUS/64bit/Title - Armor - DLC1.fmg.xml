@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="20000000">Vilhelm's Helm</text>
+<text id="20001000">Vilhelm's Armor</text>
+<text id="20002000">Vilhelm's Gauntlets</text>
+<text id="20003000">Vilhelm's Leggings</text>
+<text id="55500000">Slave Knight Hood</text>
+<text id="55501000">Slave Knight Armor</text>
+<text id="55502000">Slave Knight Gauntlets</text>
+<text id="55503000">Slave Knight Leggings</text>
+<text id="56500000">Ordained Hood</text>
+<text id="56501000">Ordained Dress</text>
+<text id="56503000">Ordained Trousers</text>
+<text id="58500000">Follower Helm</text>
+<text id="58501000">Follower Armor</text>
+<text id="58502000">Follower Gloves</text>
+<text id="58503000">Follower Boots</text>
+<text id="60500000">Millwood Knight Helm</text>
+<text id="60501000">Millwood Knight Armor</text>
+<text id="60502000">Millwood Knight Gauntlets</text>
+<text id="60503000">Millwood Knight Leggings</text>
+</entries>
+</fmg>

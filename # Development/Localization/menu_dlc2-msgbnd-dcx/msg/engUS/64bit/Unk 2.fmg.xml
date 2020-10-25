@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="100000">DARK　SOULS</text>
+<text id="100001">%null%</text>
+<text id="100002">セーブデータ</text>
+<text id="100003">セーブデータ</text>
+<text id="120000">レベルアップ</text>
+<text id="120001">魔法記憶</text>
+<text id="120002">%null%</text>
+<text id="120003">%null%</text>
+<text id="120004">%null%</text>
+<text id="120005">%null%</text>
+<text id="120006">%null%</text>
+<text id="120007">%null%</text>
+<text id="120008">%null%</text>
+<text id="120009">%null%</text>
+<text id="120010">購入</text>
+<text id="120011">修理</text>
+<text id="120012">武器強化</text>
+<text id="120013">%null%</text>
+<text id="120014">%null%</text>
+<text id="120015">%null%</text>
+<text id="120016">食べさせる</text>
+<text id="120017">一覧</text>
+<text id="120018">底なしの箱</text>
+<text id="120019">人間性回復</text>
+<text id="120020">防具強化</text>
+<text id="120021">武器進化</text>
+<text id="120022">&lt;?goodsNameId@108?&gt;</text>
+<text id="120023">&lt;?goodsNameId@112?&gt;</text>
+<text id="122000">必要ソウル</text>
+<text id="122050">得られるソウル</text>
+<text id="130000">PRESS START BUTTON</text>
+<text id="130001">NEW GAME</text>
+<text id="130002">LOAD GAME</text>
+<text id="130003">⑬2011 NBGI ⑬2011 FromSoftware, Inc.</text>
+<text id="130004">⑬2011 NAMCO BANDAI Games Inc.</text>
+<text id="130020">データリスト</text>
+<text id="130021">キャラクター作成</text>
+<text id="132010">男性</text>
+<text id="132011">女性</text>
+<text id="132012">%null%</text>
+<text id="132013">%null%</text>
+<text id="132014">%null%</text>
+<text id="132015">%null%</text>
+<text id="132016">%null%</text>
+<text id="132017">%null%</text>
+<text id="132018">%null%</text>
+<text id="132019">%null%</text>
+<text id="132020">戦士</text>
+<text id="132021">騎士</text>
+<text id="132022">放浪者</text>
+<text id="132023">盗人</text>
+<text id="132024">山賊</text>
+<text id="132025">狩人</text>
+<text id="132026">魔術師</text>
+<text id="132027">呪術師</text>
+<text id="132028">聖職者</text>
+<text id="132029">持たざるもの</text>
+<text id="132050">なし</text>
+<text id="132051">女神の祝福</text>
+<text id="132052">黒い火炎壺</text>
+<text id="132053">人間性の双子</text>
+<text id="132054">遠眼鏡</text>
+<text id="132055">ペンダント</text>
+<text id="132056">万能鍵</text>
+<text id="132057">小さな生命の指輪</text>
+<text id="132058">老魔女の指輪</text>
+<text id="132080">外見の編集</text>
+<text id="132100">キャラクターの名前を入力してください</text>
+<text id="132200">キャラクターの名前を入力してください</text>
+<text id="132201">---</text>
+<text id="132310">男性のキャラクター
+性別と能力は無関係</text>
+<text id="132311">女性のキャラクター
+性別と能力は無関係</text>
+<text id="132312">%null%</text>
+<text id="132313">%null%</text>
+<text id="132314">%null%</text>
+<text id="132315">%null%</text>
+<text id="132316">%null%</text>
+<text id="132317">%null%</text>
+<text id="132318">%null%</text>
+<text id="132319">%null%</text>
+<text id="132320">戦を生業とする戦士
+筋力、技量共に高い
+武器の専門家</text>
+<text id="132321">下級の騎士
+体力が高く鎧も硬く
+打たれ強い</text>
+<text id="132322">あてのない放浪者
+曲刀を武器とする
+技量の高い剣士</text>
+<text id="132323">うしろめたい盗人
+致命の一撃を狙う
+万能鍵を持っている</text>
+<text id="132324">野蛮な山の盗賊
+高い筋力で
+重い戦斧を振るう</text>
+<text id="132325">弓を使う狩人
+接近戦もこなすが
+魔法全般は苦手</text>
+<text id="132326">ヴィンハイムの
+竜の学院の魔術師
+ソウルの魔術を操る</text>
+<text id="132327">大沼の呪術師
+炎を操る呪術の他
+手斧も使いこなす</text>
+<text id="132328">旅の聖職者
+メイスを振るい
+回復の奇跡を使う</text>
+<text id="132329">素性も知れぬ裸の人
+棍棒と板きれの盾が
+装備品のすべて</text>
+<text id="132350">贈り物など
+なにもなかった</text>
+<text id="132351">祝福の聖水
+ＨＰを全回復し
+異常を癒す</text>
+<text id="132352">投げつけると
+爆発する黒い火炎壷
+通常のものより強力</text>
+<text id="132353">稀に死体に見られる
+小さな黒い精霊
+人間性と呼ばれる</text>
+<text id="132354">双眼の遠眼鏡
+遠くの景色が
+大きく見える</text>
+<text id="132355">何の効果もない品
+だが辛い旅には
+思い出が必要なのだ</text>
+<text id="132356">簡単な鍵であれば
+開けてしまう万能鍵
+素性盗人の初期装備</text>
+<text id="132357">古くから伝わる指輪
+装備することで
+ＨＰが少し増える</text>
+<text id="132358">魔女からの贈り物
+特に効果のない
+古い指輪のようだが</text>
+<text id="132380">ごく普通の体型</text>
+<text id="132381">痩せた体型</text>
+<text id="132382">とても痩せた体型
+ガリガリ</text>
+<text id="132383">太った体型</text>
+<text id="132384">とても太った体型
+貫禄がある</text>
+<text id="132385">特に上半身が
+がっちりとした体型</text>
+<text id="132386">特に下半身が
+でっぷりとした体型</text>
+<text id="132387">頭が大きな体型
+賢いのかもしれない</text>
+<text id="132388">頭が小さな体型</text>
+<text id="132400">ごくありふれた
+平民の顔</text>
+<text id="132401">五指河流域に暮らす
+農民によくある顔</text>
+<text id="132402">美形の貴族顔
+アストラに多い</text>
+<text id="132403">知的で線の細い顔
+ただし書生顔とは
+多くは揶揄である</text>
+<text id="132404">頑なさで知られる
+聖職者の国
+ソルロンドの面相</text>
+<text id="132405">陽気そうな顔
+酒と謳歌の国
+カタリナのイメージ</text>
+<text id="132406">陰気そうな顔
+主にカリム伯の
+よからぬ風評から</text>
+<text id="132407">歴史あるゼナに多い
+古めかしい面相
+思慮深いイメージ</text>
+<text id="132408">他と違う異形の顔
+偏見は異端を生み
+異端は大沼に至る</text>
+<text id="132409">はるか東の地の面相
+切れ長の細い目と
+薄い唇に特徴がある</text>
+<text id="132410">ごくありふれた
+平民の顔</text>
+<text id="132411">五指河流域に暮らす
+農民によくある顔</text>
+<text id="132412">美形の貴族顔
+アストラに多い</text>
+<text id="132413">知的で線の細い顔
+ただし書生顔とは
+多くは揶揄である</text>
+<text id="132414">頑なさで知られる
+聖職者の国
+ソルロンドの面相</text>
+<text id="132415">陽気そうな顔
+酒と謳歌の国
+カタリナのイメージ</text>
+<text id="132416">陰気そうな顔
+主にカリム伯の
+よからぬ風評から</text>
+<text id="132417">歴史あるゼナに多い
+古めかしい面相
+思慮深いイメージ</text>
+<text id="132418">他と違う異形の顔
+偏見は異端を生み
+異端は大沼に至る</text>
+<text id="132419">はるか東の地の面相
+切れ長の細い目と
+薄い唇に特徴がある</text>
+<text id="132420">綺麗に剃り上げた
+スキンヘッド</text>
+<text id="132421">無造作な戦士の髪型
+年齢を感じる</text>
+<text id="132422">短く刈り込んだ髪型
+緩くウェーブあり</text>
+<text id="132423">長髪をそのまま
+後ろに流した髪型</text>
+<text id="132424">長髪を後ろに流し
+まとめて縛った髪型</text>
+<text id="132425">自然な長髪
+汗に濡れ乱れている</text>
+<text id="132426">手入れされた髪型
+若者に多い</text>
+<text id="132427">手入れされた髪型
+少し長め</text>
+<text id="132428">癖の強い巻き毛を
+短めに切った髪型</text>
+<text id="132429">丁寧に形作られた
+古い貴族の髪型</text>
+<text id="132430">綺麗に剃り上げた
+スキンヘッド</text>
+<text id="132431">まるで男性のように
+短く刈り込んだ髪型</text>
+<text id="132432">癖の強い巻き毛を
+短めに切った髪型</text>
+<text id="132433">ばさりと切り揃えた
+ストレートヘア
+前髪は残している</text>
+<text id="132434">ばさりと切り揃えた
+ストレートヘア
+前髪は分けている</text>
+<text id="132435">長い髪をまとめ
+後ろで縛った髪型
+前髪は残している</text>
+<text id="132436">前髪まで含め
+長い髪をまとめ
+後ろで縛った髪型</text>
+<text id="132437">長い髪をまとめ
+左右で縛った髪型</text>
+<text id="132438">長い髪をまとめ
+緩く結った髪型</text>
+<text id="132439">長い髪を編み込んだ
+古い貴族の髪型</text>
+<text id="132440">黒色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132441">暗い茶色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132442">明るい茶色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132443">暗い赤色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132444">暗い青色の髪と瞳
+カリムに多い色味</text>
+<text id="132445">灰色の瞳と髪
+北方カタリナに多い</text>
+<text id="132446">金色の髪と瞳
+一部の貴族たちが
+求めて止まぬ色味</text>
+<text id="132447">銀色の髪と瞳
+古めかしく
+もうあまり見ない</text>
+<text id="132448">暗い紫色の髪と瞳
+今は滅んだ種族の
+珍しい色味</text>
+<text id="132449">燃える赤色の髪と瞳
+とても珍しい色味</text>
+<text id="132450">黒色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132451">暗い茶色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132452">明るい茶色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132453">暗い赤色の髪と瞳
+一般的な色味の１つ</text>
+<text id="132454">暗い青色の髪と瞳
+カリムに多い色味</text>
+<text id="132455">灰色の瞳と髪
+北方カタリナに多い</text>
+<text id="132456">金色の髪と瞳
+一部の貴族たちが
+求めて止まぬ色味</text>
+<text id="132457">銀色の髪と瞳
+古めかしく
+もうあまり見ない</text>
+<text id="132458">暗い紫色の髪と瞳
+今は滅んだ種族の
+珍しい色味</text>
+<text id="132459">燃える赤色の髪と瞳
+とても珍しい色味</text>
+<text id="133000">Brightness</text>
+<text id="133001">炎だけが見えて、竜は見えないように</text>
+<text id="133002">輝度を調整してください</text>
+<text id="133100">体型</text>
+<text id="133101">顔</text>
+<text id="133102">髪型</text>
+<text id="133103">髪と瞳の色</text>
+<text id="133104">外見の編集</text>
+<text id="133200">普通</text>
+<text id="133201">痩せ型</text>
+<text id="133202">とても痩せ型</text>
+<text id="133203">太め</text>
+<text id="133204">とても太め</text>
+<text id="133205">上半身太り</text>
+<text id="133206">下半身太り</text>
+<text id="133207">頭でっかち</text>
+<text id="133208">頭ちっちゃい</text>
+<text id="133250">普通</text>
+<text id="133251">痩せ型</text>
+<text id="133252">とても痩せ型</text>
+<text id="133253">太め</text>
+<text id="133254">とても太め</text>
+<text id="133255">上半身太り</text>
+<text id="133256">下半身太り</text>
+<text id="133257">頭でっかち</text>
+<text id="133258">頭ちっちゃい</text>
+<text id="133300">平民顔</text>
+<text id="133301">五指河の農民顔</text>
+<text id="133302">アストラの貴族顔</text>
+<text id="133303">竜学院の書生顔</text>
+<text id="133304">ソルロンドの聖者顔</text>
+<text id="133305">カタリナの陽気顔</text>
+<text id="133306">カリムの陰気顔</text>
+<text id="133307">ゼナの古顔</text>
+<text id="133308">大沼の異相</text>
+<text id="133309">東の異人顔</text>
+<text id="133350">平民顔</text>
+<text id="133351">五指河の農民顔</text>
+<text id="133352">アストラの貴族顔</text>
+<text id="133353">竜学院の書生顔</text>
+<text id="133354">ソルロンドの聖者顔</text>
+<text id="133355">カタリナの陽気顔</text>
+<text id="133356">カリムの陰気顔</text>
+<text id="133357">ゼナの古顔</text>
+<text id="133358">大沼の異相</text>
+<text id="133359">東の異人顔</text>
+<text id="133700">ベースタイプ</text>
+<text id="133701">ランダム</text>
+<text id="133702">似た顔生成</text>
+<text id="133703">初期化</text>
+<text id="133704">詳細編集</text>
+<text id="133705">%null%</text>
+<text id="133706">%null%</text>
+<text id="133707">%null%</text>
+<text id="133708">%null%</text>
+<text id="133709">%null%</text>
+<text id="133710">%null%</text>
+<text id="133711">似ている</text>
+<text id="133712">似ていない</text>
+<text id="133713">%null%</text>
+<text id="133714">%null%</text>
+<text id="133715">%null%</text>
+<text id="133716">%null%</text>
+<text id="133717">%null%</text>
+<text id="133718">%null%</text>
+<text id="133719">%null%</text>
+<text id="133720">年齢イメージ</text>
+<text id="133721">若い</text>
+<text id="133722">老いている</text>
+<text id="133723">%null%</text>
+<text id="133724">%null%</text>
+<text id="133725">%null%</text>
+<text id="133726">%null%</text>
+<text id="133727">%null%</text>
+<text id="133728">%null%</text>
+<text id="133729">%null%</text>
+<text id="133730">性イメージ</text>
+<text id="133731">男らしい</text>
+<text id="133732">女らしい</text>
+<text id="133733">%null%</text>
+<text id="133734">%null%</text>
+<text id="133735">%null%</text>
+<text id="133736">%null%</text>
+<text id="133737">%null%</text>
+<text id="133738">%null%</text>
+<text id="133739">%null%</text>
+<text id="133740">特徴の強調</text>
+<text id="133741">弱い</text>
+<text id="133742">強い</text>
+<text id="133800">髪型</text>
+<text id="133801">髪色</text>
+<text id="133802">赤</text>
+<text id="133803">緑</text>
+<text id="133804">青</text>
+<text id="135030">中央系</text>
+<text id="135031">アストラ系</text>
+<text id="135032">カタリナ系</text>
+<text id="135033">カリム系</text>
+<text id="135070">ブラック</text>
+<text id="135071">ダークブラウン</text>
+<text id="135072">ライトブラウン</text>
+<text id="135073">ダークレッド</text>
+<text id="135074">ダークブルー</text>
+<text id="135075">グレイ</text>
+<text id="135076">ゴールド</text>
+<text id="135077">シルバー</text>
+<text id="135078">ダークパープル</text>
+<text id="135079">レッド</text>
+<text id="135200">全体バランス/色調</text>
+<text id="135201">額/眉間</text>
+<text id="135202">眉骨/眉毛</text>
+<text id="135203">瞳/目元</text>
+<text id="135204">鼻筋/小鼻</text>
+<text id="135205">頬</text>
+<text id="135206">唇/口/口紅</text>
+<text id="135207">上顎/下顎/髯</text>
+<text id="135208">髪色</text>
+<text id="135209">%null%</text>
+<text id="135210">全体バランス</text>
+<text id="135211">色調</text>
+<text id="135230">額/眉間</text>
+<text id="135250">眉骨</text>
+<text id="135251">眉毛</text>
+<text id="135270">瞳</text>
+<text id="135271">目元</text>
+<text id="135290">鼻筋</text>
+<text id="135291">小鼻</text>
+<text id="135310">頬</text>
+<text id="135330">唇</text>
+<text id="135331">口</text>
+<text id="135332">口紅</text>
+<text id="135350">下顎</text>
+<text id="135351">上顎</text>
+<text id="135352">髭</text>
+<text id="136000">鼻の占める比率</text>
+<text id="136001">広</text>
+<text id="136002">狭</text>
+<text id="136003">%null%</text>
+<text id="136004">%null%</text>
+<text id="136005">%null%</text>
+<text id="136006">%null%</text>
+<text id="136007">%null%</text>
+<text id="136008">%null%</text>
+<text id="136009">%null%</text>
+<text id="136010">鼻と額の比率</text>
+<text id="136011">鼻</text>
+<text id="136012">額</text>
+<text id="136013">%null%</text>
+<text id="136014">%null%</text>
+<text id="136015">%null%</text>
+<text id="136016">%null%</text>
+<text id="136017">%null%</text>
+<text id="136018">%null%</text>
+<text id="136019">%null%</text>
+<text id="136020">顔の縦横比</text>
+<text id="136021">横</text>
+<text id="136022">縦</text>
+<text id="136023">%null%</text>
+<text id="136024">%null%</text>
+<text id="136025">%null%</text>
+<text id="136026">%null%</text>
+<text id="136027">%null%</text>
+<text id="136028">%null%</text>
+<text id="136029">%null%</text>
+<text id="136030">顔の凹凸</text>
+<text id="136031">凹</text>
+<text id="136032">凸</text>
+<text id="136033">%null%</text>
+<text id="136034">%null%</text>
+<text id="136035">%null%</text>
+<text id="136036">%null%</text>
+<text id="136037">%null%</text>
+<text id="136038">%null%</text>
+<text id="136039">%null%</text>
+<text id="136040">顔パーツの上下の間隔</text>
+<text id="136041">広</text>
+<text id="136042">狭</text>
+<text id="136043">%null%</text>
+<text id="136044">%null%</text>
+<text id="136045">%null%</text>
+<text id="136046">%null%</text>
+<text id="136047">%null%</text>
+<text id="136048">%null%</text>
+<text id="136049">%null%</text>
+<text id="136050">顔パーツの傾き</text>
+<text id="136051">上</text>
+<text id="136052">下</text>
+<text id="136053">%null%</text>
+<text id="136054">%null%</text>
+<text id="136055">%null%</text>
+<text id="136056">%null%</text>
+<text id="136057">%null%</text>
+<text id="136058">%null%</text>
+<text id="136059">%null%</text>
+<text id="136060">顔パーツの左右の間隔</text>
+<text id="136061">広</text>
+<text id="136062">狭</text>
+<text id="136100">肌の色</text>
+<text id="136101">紅潮</text>
+<text id="136102">蒼白</text>
+<text id="136103">%null%</text>
+<text id="136104">%null%</text>
+<text id="136105">%null%</text>
+<text id="136106">%null%</text>
+<text id="136107">%null%</text>
+<text id="136108">%null%</text>
+<text id="136109">%null%</text>
+<text id="136110">肌の色</text>
+<text id="136111">暗</text>
+<text id="136112">明</text>
+<text id="136113">%null%</text>
+<text id="136114">%null%</text>
+<text id="136115">%null%</text>
+<text id="136116">%null%</text>
+<text id="136117">%null%</text>
+<text id="136118">%null%</text>
+<text id="136119">%null%</text>
+<text id="136120">肌の色</text>
+<text id="136121">橙</text>
+<text id="136122">青</text>
+<text id="136123">%null%</text>
+<text id="136124">%null%</text>
+<text id="136125">%null%</text>
+<text id="136126">%null%</text>
+<text id="136127">%null%</text>
+<text id="136128">%null%</text>
+<text id="136129">%null%</text>
+<text id="136130">肌の色</text>
+<text id="136131">紫</text>
+<text id="136132">黄</text>
+<text id="136133">%null%</text>
+<text id="136134">%null%</text>
+<text id="136135">%null%</text>
+<text id="136136">%null%</text>
+<text id="136137">%null%</text>
+<text id="136138">%null%</text>
+<text id="136139">%null%</text>
+<text id="136140">肌の色</text>
+<text id="136141">赤</text>
+<text id="136142">緑</text>
+<text id="136143">%null%</text>
+<text id="136144">%null%</text>
+<text id="136145">%null%</text>
+<text id="136146">%null%</text>
+<text id="136147">%null%</text>
+<text id="136148">%null%</text>
+<text id="136149">%null%</text>
+<text id="136150">鼻梁の色</text>
+<text id="136151">蒼白</text>
+<text id="136152">赤</text>
+<text id="136153">%null%</text>
+<text id="136154">%null%</text>
+<text id="136155">%null%</text>
+<text id="136156">%null%</text>
+<text id="136157">%null%</text>
+<text id="136158">%null%</text>
+<text id="136159">%null%</text>
+<text id="136160">頬の色</text>
+<text id="136161">白</text>
+<text id="136162">赤</text>
+<text id="136200">額の幅</text>
+<text id="136201">狭</text>
+<text id="136202">広</text>
+<text id="136203">%null%</text>
+<text id="136204">%null%</text>
+<text id="136205">%null%</text>
+<text id="136206">%null%</text>
+<text id="136207">%null%</text>
+<text id="136208">%null%</text>
+<text id="136209">%null%</text>
+<text id="136210">額の深さ</text>
+<text id="136211">浅</text>
+<text id="136212">深</text>
+<text id="136213">%null%</text>
+<text id="136214">%null%</text>
+<text id="136215">%null%</text>
+<text id="136216">%null%</text>
+<text id="136217">%null%</text>
+<text id="136218">%null%</text>
+<text id="136219">%null%</text>
+<text id="136220">額の凹凸</text>
+<text id="136221">凸</text>
+<text id="136222">凹</text>
+<text id="136223">%null%</text>
+<text id="136224">%null%</text>
+<text id="136225">%null%</text>
+<text id="136226">%null%</text>
+<text id="136227">%null%</text>
+<text id="136228">%null%</text>
+<text id="136229">%null%</text>
+<text id="136230">鼻梁上部の高さ</text>
+<text id="136231">低</text>
+<text id="136232">高</text>
+<text id="136233">%null%</text>
+<text id="136234">%null%</text>
+<text id="136235">%null%</text>
+<text id="136236">%null%</text>
+<text id="136237">%null%</text>
+<text id="136238">%null%</text>
+<text id="136239">%null%</text>
+<text id="136240">鼻梁上部の凹凸1</text>
+<text id="136241">凹</text>
+<text id="136242">凸</text>
+<text id="136243">%null%</text>
+<text id="136244">%null%</text>
+<text id="136245">%null%</text>
+<text id="136246">%null%</text>
+<text id="136247">%null%</text>
+<text id="136248">%null%</text>
+<text id="136249">%null%</text>
+<text id="136250">鼻梁上部の凹凸2</text>
+<text id="136251">凹</text>
+<text id="136252">凸</text>
+<text id="136253">%null%</text>
+<text id="136254">%null%</text>
+<text id="136255">%null%</text>
+<text id="136256">%null%</text>
+<text id="136257">%null%</text>
+<text id="136258">%null%</text>
+<text id="136259">%null%</text>
+<text id="136260">鼻梁上部の幅</text>
+<text id="136261">狭</text>
+<text id="136262">広</text>
+<text id="136300">眉骨の高さ</text>
+<text id="136301">高</text>
+<text id="136302">低</text>
+<text id="136303">%null%</text>
+<text id="136304">%null%</text>
+<text id="136305">%null%</text>
+<text id="136306">%null%</text>
+<text id="136307">%null%</text>
+<text id="136308">%null%</text>
+<text id="136309">%null%</text>
+<text id="136310">眉骨の内端</text>
+<text id="136311">低</text>
+<text id="136312">高</text>
+<text id="136313">%null%</text>
+<text id="136314">%null%</text>
+<text id="136315">%null%</text>
+<text id="136316">%null%</text>
+<text id="136317">%null%</text>
+<text id="136318">%null%</text>
+<text id="136319">%null%</text>
+<text id="136320">眉骨の外端</text>
+<text id="136321">高</text>
+<text id="136322">低</text>
+<text id="136400">眉毛の濃さ</text>
+<text id="136401">濃</text>
+<text id="136402">薄</text>
+<text id="136403">%null%</text>
+<text id="136404">%null%</text>
+<text id="136405">%null%</text>
+<text id="136406">%null%</text>
+<text id="136407">%null%</text>
+<text id="136408">%null%</text>
+<text id="136409">%null%</text>
+<text id="136410">眉毛の位置</text>
+<text id="136411">低</text>
+<text id="136412">高</text>
+<text id="136413">%null%</text>
+<text id="136414">%null%</text>
+<text id="136415">%null%</text>
+<text id="136416">%null%</text>
+<text id="136417">%null%</text>
+<text id="136418">%null%</text>
+<text id="136419">%null%</text>
+<text id="136420">眉毛の太さ 1</text>
+<text id="136421">太</text>
+<text id="136422">細</text>
+<text id="136423">%null%</text>
+<text id="136424">%null%</text>
+<text id="136425">%null%</text>
+<text id="136426">%null%</text>
+<text id="136427">%null%</text>
+<text id="136428">%null%</text>
+<text id="136429">%null%</text>
+<text id="136430">眉毛の太さ 2</text>
+<text id="136431">極細</text>
+<text id="136432">極太</text>
+<text id="136433">%null%</text>
+<text id="136434">%null%</text>
+<text id="136435">%null%</text>
+<text id="136436">%null%</text>
+<text id="136437">%null%</text>
+<text id="136438">%null%</text>
+<text id="136439">%null%</text>
+<text id="136440">眉の下側</text>
+<text id="136441">薄</text>
+<text id="136442">濃</text>
+<text id="136443">%null%</text>
+<text id="136444">%null%</text>
+<text id="136445">%null%</text>
+<text id="136446">%null%</text>
+<text id="136447">%null%</text>
+<text id="136448">%null%</text>
+<text id="136449">%null%</text>
+<text id="136450">眉の外側</text>
+<text id="136451">薄</text>
+<text id="136452">濃</text>
+<text id="136453">%null%</text>
+<text id="136454">%null%</text>
+<text id="136455">%null%</text>
+<text id="136456">%null%</text>
+<text id="136457">%null%</text>
+<text id="136458">%null%</text>
+<text id="136459">%null%</text>
+<text id="136460">眉の上側</text>
+<text id="136461">濃</text>
+<text id="136462">薄</text>
+<text id="136500">眼の位置</text>
+<text id="136501">下</text>
+<text id="136502">上</text>
+<text id="136503">%null%</text>
+<text id="136504">%null%</text>
+<text id="136505">%null%</text>
+<text id="136506">%null%</text>
+<text id="136507">%null%</text>
+<text id="136508">%null%</text>
+<text id="136509">%null%</text>
+<text id="136510">眼の大きさ</text>
+<text id="136511">小</text>
+<text id="136512">大</text>
+<text id="136513">%null%</text>
+<text id="136514">%null%</text>
+<text id="136515">%null%</text>
+<text id="136516">%null%</text>
+<text id="136517">%null%</text>
+<text id="136518">%null%</text>
+<text id="136519">%null%</text>
+<text id="136520">眼の傾き</text>
+<text id="136521">内</text>
+<text id="136522">外</text>
+<text id="136523">%null%</text>
+<text id="136524">%null%</text>
+<text id="136525">%null%</text>
+<text id="136526">%null%</text>
+<text id="136527">%null%</text>
+<text id="136528">%null%</text>
+<text id="136529">%null%</text>
+<text id="136530">眼の間隔</text>
+<text id="136531">広</text>
+<text id="136532">狭</text>
+<text id="136533">%null%</text>
+<text id="136534">%null%</text>
+<text id="136535">%null%</text>
+<text id="136536">%null%</text>
+<text id="136537">%null%</text>
+<text id="136538">%null%</text>
+<text id="136539">%null%</text>
+<text id="136540">瞳の色　赤</text>
+<text id="136541">%null%</text>
+<text id="136542">%null%</text>
+<text id="136543">%null%</text>
+<text id="136544">%null%</text>
+<text id="136545">%null%</text>
+<text id="136546">%null%</text>
+<text id="136547">%null%</text>
+<text id="136548">%null%</text>
+<text id="136549">%null%</text>
+<text id="136550">瞳の色　緑</text>
+<text id="136551">%null%</text>
+<text id="136552">%null%</text>
+<text id="136553">%null%</text>
+<text id="136554">%null%</text>
+<text id="136555">%null%</text>
+<text id="136556">%null%</text>
+<text id="136557">%null%</text>
+<text id="136558">%null%</text>
+<text id="136559">%null%</text>
+<text id="136560">瞳の色　青</text>
+<text id="136600">眼窩の色</text>
+<text id="136601">暗</text>
+<text id="136602">明</text>
+<text id="136603">%null%</text>
+<text id="136604">%null%</text>
+<text id="136605">%null%</text>
+<text id="136606">%null%</text>
+<text id="136607">%null%</text>
+<text id="136608">%null%</text>
+<text id="136609">%null%</text>
+<text id="136610">眼窩の明るさ</text>
+<text id="136611">暗</text>
+<text id="136612">明</text>
+<text id="136613">%null%</text>
+<text id="136614">%null%</text>
+<text id="136615">%null%</text>
+<text id="136616">%null%</text>
+<text id="136617">%null%</text>
+<text id="136618">%null%</text>
+<text id="136619">%null%</text>
+<text id="136620">まぶたの明るさ</text>
+<text id="136621">明</text>
+<text id="136622">暗</text>
+<text id="136623">%null%</text>
+<text id="136624">%null%</text>
+<text id="136625">%null%</text>
+<text id="136626">%null%</text>
+<text id="136627">%null%</text>
+<text id="136628">%null%</text>
+<text id="136629">%null%</text>
+<text id="136630">まぶたの色</text>
+<text id="136631">蒼白</text>
+<text id="136632">赤</text>
+<text id="136633">%null%</text>
+<text id="136634">%null%</text>
+<text id="136635">%null%</text>
+<text id="136636">%null%</text>
+<text id="136637">%null%</text>
+<text id="136638">%null%</text>
+<text id="136639">%null%</text>
+<text id="136640">アイライナー</text>
+<text id="136641">明</text>
+<text id="136642">暗</text>
+<text id="136643">%null%</text>
+<text id="136644">%null%</text>
+<text id="136645">%null%</text>
+<text id="136646">%null%</text>
+<text id="136647">%null%</text>
+<text id="136648">%null%</text>
+<text id="136649">%null%</text>
+<text id="136650">アイシャドー</text>
+<text id="136651">明</text>
+<text id="136652">暗</text>
+<text id="136700">鼻筋の深さ</text>
+<text id="136701">短</text>
+<text id="136702">長</text>
+<text id="136703">%null%</text>
+<text id="136704">%null%</text>
+<text id="136705">%null%</text>
+<text id="136706">%null%</text>
+<text id="136707">%null%</text>
+<text id="136708">%null%</text>
+<text id="136709">%null%</text>
+<text id="136710">鼻筋の長さ</text>
+<text id="136711">短</text>
+<text id="136712">長</text>
+<text id="136713">%null%</text>
+<text id="136714">%null%</text>
+<text id="136715">%null%</text>
+<text id="136716">%null%</text>
+<text id="136717">%null%</text>
+<text id="136718">%null%</text>
+<text id="136719">%null%</text>
+<text id="136720">鼻の位置</text>
+<text id="136721">下</text>
+<text id="136722">上</text>
+<text id="136723">%null%</text>
+<text id="136724">%null%</text>
+<text id="136725">%null%</text>
+<text id="136726">%null%</text>
+<text id="136727">%null%</text>
+<text id="136728">%null%</text>
+<text id="136729">%null%</text>
+<text id="136730">鼻先の高さ</text>
+<text id="136731">低</text>
+<text id="136732">高</text>
+<text id="136733">%null%</text>
+<text id="136734">%null%</text>
+<text id="136735">%null%</text>
+<text id="136736">%null%</text>
+<text id="136737">%null%</text>
+<text id="136738">%null%</text>
+<text id="136739">%null%</text>
+<text id="136740">鼻の凹凸</text>
+<text id="136741">凹</text>
+<text id="136742">凸</text>
+<text id="136743">%null%</text>
+<text id="136744">%null%</text>
+<text id="136745">%null%</text>
+<text id="136746">%null%</text>
+<text id="136747">%null%</text>
+<text id="136748">%null%</text>
+<text id="136749">%null%</text>
+<text id="136750">鼻の高さ</text>
+<text id="136751">低</text>
+<text id="136752">高</text>
+<text id="136753">%null%</text>
+<text id="136754">%null%</text>
+<text id="136755">%null%</text>
+<text id="136756">%null%</text>
+<text id="136757">%null%</text>
+<text id="136758">%null%</text>
+<text id="136759">%null%</text>
+<text id="136760">鼻の傾斜</text>
+<text id="136761">下</text>
+<text id="136762">上</text>
+<text id="136800">小鼻の傾斜</text>
+<text id="136801">下</text>
+<text id="136802">上</text>
+<text id="136803">%null%</text>
+<text id="136804">%null%</text>
+<text id="136805">%null%</text>
+<text id="136806">%null%</text>
+<text id="136807">%null%</text>
+<text id="136808">%null%</text>
+<text id="136809">%null%</text>
+<text id="136810">小鼻の大きさ</text>
+<text id="136811">小</text>
+<text id="136812">大</text>
+<text id="136813">%null%</text>
+<text id="136814">%null%</text>
+<text id="136815">%null%</text>
+<text id="136816">%null%</text>
+<text id="136817">%null%</text>
+<text id="136818">%null%</text>
+<text id="136819">%null%</text>
+<text id="136820">小鼻の幅</text>
+<text id="136821">広</text>
+<text id="136822">狭</text>
+<text id="136823">%null%</text>
+<text id="136824">%null%</text>
+<text id="136825">%null%</text>
+<text id="136826">%null%</text>
+<text id="136827">%null%</text>
+<text id="136828">%null%</text>
+<text id="136829">%null%</text>
+<text id="136830">鼻孔の大きさ</text>
+<text id="136831">小</text>
+<text id="136832">大</text>
+<text id="136900">頬骨の高さ</text>
+<text id="136901">低</text>
+<text id="136902">高</text>
+<text id="136903">%null%</text>
+<text id="136904">%null%</text>
+<text id="136905">%null%</text>
+<text id="136906">%null%</text>
+<text id="136907">%null%</text>
+<text id="136908">%null%</text>
+<text id="136909">%null%</text>
+<text id="136910">頬骨の深さ</text>
+<text id="136911">低</text>
+<text id="136912">高</text>
+<text id="136913">%null%</text>
+<text id="136914">%null%</text>
+<text id="136915">%null%</text>
+<text id="136916">%null%</text>
+<text id="136917">%null%</text>
+<text id="136918">%null%</text>
+<text id="136919">%null%</text>
+<text id="136920">頬骨の広さ</text>
+<text id="136921">低</text>
+<text id="136922">高</text>
+<text id="136923">%null%</text>
+<text id="136924">%null%</text>
+<text id="136925">%null%</text>
+<text id="136926">%null%</text>
+<text id="136927">%null%</text>
+<text id="136928">%null%</text>
+<text id="136929">%null%</text>
+<text id="136930">頬の凹凸</text>
+<text id="136931">凹</text>
+<text id="136932">凸</text>
+<text id="136933">%null%</text>
+<text id="136934">%null%</text>
+<text id="136935">%null%</text>
+<text id="136936">%null%</text>
+<text id="136937">%null%</text>
+<text id="136938">%null%</text>
+<text id="136939">%null%</text>
+<text id="136940">頬</text>
+<text id="136941">肥</text>
+<text id="136942">痩</text>
+<text id="136943">%null%</text>
+<text id="136944">%null%</text>
+<text id="136945">%null%</text>
+<text id="136946">%null%</text>
+<text id="136947">%null%</text>
+<text id="136948">%null%</text>
+<text id="136949">%null%</text>
+<text id="136950">法令線</text>
+<text id="136951">明</text>
+<text id="136952">暗</text>
+<text id="137000">唇の形</text>
+<text id="137001">開く</text>
+<text id="137002">すぼめる</text>
+<text id="137003">%null%</text>
+<text id="137004">%null%</text>
+<text id="137005">%null%</text>
+<text id="137006">%null%</text>
+<text id="137007">%null%</text>
+<text id="137008">%null%</text>
+<text id="137009">%null%</text>
+<text id="137010">口元の表情</text>
+<text id="137011">喜</text>
+<text id="137012">悲</text>
+<text id="137013">%null%</text>
+<text id="137014">%null%</text>
+<text id="137015">%null%</text>
+<text id="137016">%null%</text>
+<text id="137017">%null%</text>
+<text id="137018">%null%</text>
+<text id="137019">%null%</text>
+<text id="137020">唇の膨らみ</text>
+<text id="137021">小</text>
+<text id="137022">大</text>
+<text id="137023">%null%</text>
+<text id="137024">%null%</text>
+<text id="137025">%null%</text>
+<text id="137026">%null%</text>
+<text id="137027">%null%</text>
+<text id="137028">%null%</text>
+<text id="137029">%null%</text>
+<text id="137030">唇の大きさ</text>
+<text id="137031">大</text>
+<text id="137032">小</text>
+<text id="137033">%null%</text>
+<text id="137034">%null%</text>
+<text id="137035">%null%</text>
+<text id="137036">%null%</text>
+<text id="137037">%null%</text>
+<text id="137038">%null%</text>
+<text id="137039">%null%</text>
+<text id="137040">唇の凹凸</text>
+<text id="137041">凸</text>
+<text id="137042">凹</text>
+<text id="137043">%null%</text>
+<text id="137044">%null%</text>
+<text id="137045">%null%</text>
+<text id="137046">%null%</text>
+<text id="137047">%null%</text>
+<text id="137048">%null%</text>
+<text id="137049">%null%</text>
+<text id="137050">唇の厚さ</text>
+<text id="137051">薄</text>
+<text id="137052">厚</text>
+<text id="137100">口の凹凸</text>
+<text id="137101">凸</text>
+<text id="137102">凹</text>
+<text id="137103">%null%</text>
+<text id="137104">%null%</text>
+<text id="137105">%null%</text>
+<text id="137106">%null%</text>
+<text id="137107">%null%</text>
+<text id="137108">%null%</text>
+<text id="137109">%null%</text>
+<text id="137110">口の傾き</text>
+<text id="137111">上</text>
+<text id="137112">下</text>
+<text id="137113">%null%</text>
+<text id="137114">%null%</text>
+<text id="137115">%null%</text>
+<text id="137116">%null%</text>
+<text id="137117">%null%</text>
+<text id="137118">%null%</text>
+<text id="137119">%null%</text>
+<text id="137120">かみ合わせ</text>
+<text id="137121">下</text>
+<text id="137122">上</text>
+<text id="137123">%null%</text>
+<text id="137124">%null%</text>
+<text id="137125">%null%</text>
+<text id="137126">%null%</text>
+<text id="137127">%null%</text>
+<text id="137128">%null%</text>
+<text id="137129">%null%</text>
+<text id="137130">口の位置</text>
+<text id="137131">上</text>
+<text id="137132">下</text>
+<text id="137133">%null%</text>
+<text id="137134">%null%</text>
+<text id="137135">%null%</text>
+<text id="137136">%null%</text>
+<text id="137137">%null%</text>
+<text id="137138">%null%</text>
+<text id="137139">%null%</text>
+<text id="137140">口の幅</text>
+<text id="137141">広</text>
+<text id="137142">狭</text>
+<text id="137143">%null%</text>
+<text id="137144">%null%</text>
+<text id="137145">%null%</text>
+<text id="137146">%null%</text>
+<text id="137147">%null%</text>
+<text id="137148">%null%</text>
+<text id="137149">%null%</text>
+<text id="137150">口から顎先の距離</text>
+<text id="137151">短</text>
+<text id="137152">長</text>
+<text id="137200">唇の色</text>
+<text id="137201">紅潮</text>
+<text id="137202">蒼白</text>
+<text id="137203">%null%</text>
+<text id="137204">%null%</text>
+<text id="137205">%null%</text>
+<text id="137206">%null%</text>
+<text id="137207">%null%</text>
+<text id="137208">%null%</text>
+<text id="137209">%null%</text>
+<text id="137210">口紅</text>
+<text id="137211">暗赤</text>
+<text id="137212">薄青</text>
+<text id="137213">%null%</text>
+<text id="137214">%null%</text>
+<text id="137215">%null%</text>
+<text id="137216">%null%</text>
+<text id="137217">%null%</text>
+<text id="137218">%null%</text>
+<text id="137219">%null%</text>
+<text id="137220">口紅</text>
+<text id="137221">濃青</text>
+<text id="137222">明赤</text>
+<text id="137300">顎先端の前後</text>
+<text id="137301">前</text>
+<text id="137302">後</text>
+<text id="137303">%null%</text>
+<text id="137304">%null%</text>
+<text id="137305">%null%</text>
+<text id="137306">%null%</text>
+<text id="137307">%null%</text>
+<text id="137308">%null%</text>
+<text id="137309">%null%</text>
+<text id="137310">顎先の長さ</text>
+<text id="137311">長</text>
+<text id="137312">短</text>
+<text id="137313">%null%</text>
+<text id="137314">%null%</text>
+<text id="137315">%null%</text>
+<text id="137316">%null%</text>
+<text id="137317">%null%</text>
+<text id="137318">%null%</text>
+<text id="137319">%null%</text>
+<text id="137320">顎先の突き出し</text>
+<text id="137321">小</text>
+<text id="137322">大</text>
+<text id="137323">%null%</text>
+<text id="137324">%null%</text>
+<text id="137325">%null%</text>
+<text id="137326">%null%</text>
+<text id="137327">%null%</text>
+<text id="137328">%null%</text>
+<text id="137329">%null%</text>
+<text id="137330">顎先の深さ</text>
+<text id="137331">浅</text>
+<text id="137332">深</text>
+<text id="137333">%null%</text>
+<text id="137334">%null%</text>
+<text id="137335">%null%</text>
+<text id="137336">%null%</text>
+<text id="137337">%null%</text>
+<text id="137338">%null%</text>
+<text id="137339">%null%</text>
+<text id="137340">顎先の大きさ</text>
+<text id="137341">小</text>
+<text id="137342">大</text>
+<text id="137343">%null%</text>
+<text id="137344">%null%</text>
+<text id="137345">%null%</text>
+<text id="137346">%null%</text>
+<text id="137347">%null%</text>
+<text id="137348">%null%</text>
+<text id="137349">%null%</text>
+<text id="137350">顎先の高さ</text>
+<text id="137351">低</text>
+<text id="137352">高</text>
+<text id="137353">%null%</text>
+<text id="137354">%null%</text>
+<text id="137355">%null%</text>
+<text id="137356">%null%</text>
+<text id="137357">%null%</text>
+<text id="137358">%null%</text>
+<text id="137359">%null%</text>
+<text id="137360">顎先の広さ</text>
+<text id="137361">広</text>
+<text id="137362">狭</text>
+<text id="137400">顎の突き出し</text>
+<text id="137401">小</text>
+<text id="137402">大</text>
+<text id="137403">%null%</text>
+<text id="137404">%null%</text>
+<text id="137405">%null%</text>
+<text id="137406">%null%</text>
+<text id="137407">%null%</text>
+<text id="137408">%null%</text>
+<text id="137409">%null%</text>
+<text id="137410">顎の幅</text>
+<text id="137411">広</text>
+<text id="137412">狭</text>
+<text id="137413">%null%</text>
+<text id="137414">%null%</text>
+<text id="137415">%null%</text>
+<text id="137416">%null%</text>
+<text id="137417">%null%</text>
+<text id="137418">%null%</text>
+<text id="137419">%null%</text>
+<text id="137420">顎下部</text>
+<text id="137421">高</text>
+<text id="137422">低</text>
+<text id="137423">%null%</text>
+<text id="137424">%null%</text>
+<text id="137425">%null%</text>
+<text id="137426">%null%</text>
+<text id="137427">%null%</text>
+<text id="137428">%null%</text>
+<text id="137429">%null%</text>
+<text id="137430">顎の輪郭</text>
+<text id="137431">細</text>
+<text id="137432">太</text>
+<text id="137500">髭全体の色</text>
+<text id="137501">赤み</text>
+<text id="137502">青み</text>
+<text id="137503">%null%</text>
+<text id="137504">%null%</text>
+<text id="137505">%null%</text>
+<text id="137506">%null%</text>
+<text id="137507">%null%</text>
+<text id="137508">%null%</text>
+<text id="137509">%null%</text>
+<text id="137510">髭全体</text>
+<text id="137511">薄</text>
+<text id="137512">濃</text>
+<text id="137513">%null%</text>
+<text id="137514">%null%</text>
+<text id="137515">%null%</text>
+<text id="137516">%null%</text>
+<text id="137517">%null%</text>
+<text id="137518">%null%</text>
+<text id="137519">%null%</text>
+<text id="137520">頬髭</text>
+<text id="137521">薄</text>
+<text id="137522">濃</text>
+<text id="137523">%null%</text>
+<text id="137524">%null%</text>
+<text id="137525">%null%</text>
+<text id="137526">%null%</text>
+<text id="137527">%null%</text>
+<text id="137528">%null%</text>
+<text id="137529">%null%</text>
+<text id="137530">口周りの髭</text>
+<text id="137531">薄</text>
+<text id="137532">濃</text>
+<text id="137533">%null%</text>
+<text id="137534">%null%</text>
+<text id="137535">%null%</text>
+<text id="137536">%null%</text>
+<text id="137537">%null%</text>
+<text id="137538">%null%</text>
+<text id="137539">%null%</text>
+<text id="137540">山羊髭</text>
+<text id="137541">薄</text>
+<text id="137542">濃</text>
+<text id="137543">%null%</text>
+<text id="137544">%null%</text>
+<text id="137545">%null%</text>
+<text id="137546">%null%</text>
+<text id="137547">%null%</text>
+<text id="137548">%null%</text>
+<text id="137549">%null%</text>
+<text id="137550">口髭</text>
+<text id="137551">薄</text>
+<text id="137552">濃</text>
+<text id="137600">赤</text>
+<text id="137601">緑</text>
+<text id="137602">青</text>
+<text id="140000">協力マルチプレイ成功数</text>
+<text id="141000">侵入者を告罪しますか？</text>
+<text id="141001">残り時間</text>
+<text id="141002">秒</text>
+<text id="141003">告罪符</text>
+<text id="141004">%null%</text>
+<text id="143010">メッセージ入力</text>
+<text id="143011">＋評価</text>
+<text id="143012">－評価</text>
+<text id="143013">キャンセル</text>
+<text id="143014">このメッセージを評価する</text>
+<text id="143015">評価</text>
+<text id="143016">%null%</text>
+<text id="143017">%null%</text>
+<text id="143018">%null%</text>
+<text id="143019">%null%</text>
+<text id="143020">メッセージを評価する</text>
+<text id="143021">自分の書いたメッセージを確認する</text>
+<text id="143022">メッセージを書く</text>
+<text id="144000">メッセージ確認</text>
+<text id="145000">順位</text>
+<text id="145001">プレイヤー</text>
+<text id="145002">---</text>
+<text id="145003">データ取得中</text>
+<text id="145004">%null%</text>
+<text id="145005">%null%</text>
+<text id="145006">%null%</text>
+<text id="145007">%null%</text>
+<text id="145008">%null%</text>
+<text id="145009">%null%</text>
+<text id="145010">カテゴリ名1</text>
+<text id="145011">カテゴリ名2</text>
+<text id="145012">カテゴリ名3</text>
+<text id="145013">カテゴリ名4</text>
+<text id="145014">カテゴリ名5</text>
+<text id="145015">カテゴリ名6</text>
+<text id="145016">カテゴリ名7</text>
+<text id="145017">カテゴリ名8</text>
+<text id="145018">カテゴリ名9</text>
+<text id="145019">カテゴリ名10</text>
+<text id="145100">罪の重さ</text>
+<text id="145101">貢献度</text>
+<text id="150000">所持数</text>
+<text id="150001">格納数</text>
+<text id="150100">&lt;?categoryChangeL?&gt;</text>
+<text id="150101">&lt;?categoryChangeR?&gt;</text>
+</entries>
+</fmg>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1">&lt;?sysmsg@1?&gt;</text>
+<text id="2">&lt;?sysmsg@2?&gt;</text>
+<text id="3">&lt;?sysmsg@3?&gt;</text>
+<text id="4">&lt;?sysmsg@4?&gt;</text>
+<text id="5">Accept</text>
+<text id="6">Do Not Accept</text>
+<text id="11000">Drop item.
+Specify quantity.</text>
+<text id="11001">%null%</text>
+<text id="11002">Reset item order?</text>
+<text id="11003">Drop item</text>
+<text id="12010">Cannot equip duplicate accessories</text>
+<text id="12021">Loss of attunement slots will cause &lt;?removeMagic?&gt; to be removed</text>
+<text id="12022">%null%</text>
+<text id="12023">%null%</text>
+<text id="12024">%null%</text>
+<text id="12025">%null%</text>
+<text id="12026">%null%</text>
+<text id="12027">%null%</text>
+<text id="12028">%null%</text>
+<text id="12029">%null%</text>
+<text id="12030">Insufficient strength to wield this weapon with one hand.
+Hold with both hands to use effectively.</text>
+<text id="12031">Unable to wield this weapon effectively with present stats</text>
+<text id="12032">%null%</text>
+<text id="12033">%null%</text>
+<text id="12034">%null%</text>
+<text id="12035">%null%</text>
+<text id="12036">%null%</text>
+<text id="12037">%null%</text>
+<text id="12038">%null%</text>
+<text id="12039">%null%</text>
+<text id="12040">This accessory breaks when removed.
+OK to equip this accessory?</text>
+<text id="12041">This accessory breaks when removed.
+OK to unequip this accessory?</text>
+<text id="16000">Restore all settings to default values</text>
+<text id="16001">Cancel changes and exit</text>
+<text id="16100">Delete the message.</text>
+<text id="16500">Are you sure you want to quit the game?</text>
+<text id="16600">Reset gesture order</text>
+<text id="17800">Some players have not been evaluated</text>
+<text id="17801">%null%</text>
+<text id="17802">%null%</text>
+<text id="17803">%null%</text>
+<text id="17804">You've obtained &lt;?getSoulNum?&gt; Souls</text>
+<text id="18000">Warp to selected bonfire</text>
+<text id="18001">No bonfires available for warping</text>
+<text id="18050">You are bound by the &lt;?pcOath?&gt; Covenant</text>
+<text id="18051">Abandon and join the &lt;?pcOath?&gt; Covenant?</text>
+<text id="18052">%null%</text>
+<text id="18053">%null%</text>
+<text id="18054">%null%</text>
+<text id="18055">%null%</text>
+<text id="18056">%null%</text>
+<text id="18057">%null%</text>
+<text id="18058">%null%</text>
+<text id="18059">%null%</text>
+<text id="18060">Restore your humanity?</text>
+<text id="18061">Offer your humanity?</text>
+<text id="18100">Send this phantom home?</text>
+<text id="18101">No phantom to send home</text>
+<text id="18200">Cannot use indictment</text>
+<text id="18201">Cannot use indictment</text>
+<text id="18400">Rate this message?</text>
+<text id="20020">Confirm reinforcement</text>
+<text id="20021">This will cancel reinforcement.
+Is this OK?</text>
+<text id="20022">Reset reinforcement.
+Is this OK?</text>
+<text id="20120">Trade for humanity</text>
+<text id="20121">This will cancel trade.
+Is this OK?</text>
+<text id="20122">Parameters will be reset.
+Is this OK?</text>
+<text id="22001">Already attuned</text>
+<text id="22002">Insufficient attunement slots</text>
+<text id="22003">No magic to attune</text>
+<text id="22004">Insufficient stats to use this magic</text>
+<text id="22005">Wrong covenant for this magic</text>
+<text id="23006">Cannot deposit additional items</text>
+<text id="23007">Cannot hold additional items</text>
+<text id="30000">Purchase for &lt;?demandSoul?&gt; souls?</text>
+<text id="30001">Purchase for &lt;?demandSoul?&gt; souls?</text>
+<text id="30002">Insufficient souls</text>
+<text id="30003">Your stock of this
+item is at maximum</text>
+<text id="30004">%null%</text>
+<text id="30005">%null%</text>
+<text id="30006">No items to purchase</text>
+<text id="30007">Cannot hold additional items</text>
+<text id="30100">Specify quantity to feed.
+Souls gained: &lt;?sellSouls?&gt;</text>
+<text id="30101">Cannot feed this item</text>
+<text id="30102">No items to feed</text>
+<text id="30103">Feed this item?</text>
+<text id="31000">Repair for &lt;?demandSoul?&gt; souls?</text>
+<text id="31001">Insufficient souls</text>
+<text id="31002">No equipment requires repair</text>
+<text id="31003">Cannot repair crystal weapon</text>
+<text id="32000">Reinforce &lt;?itemNameBeforeForge?&gt;
+into &lt;?itemNameAfterForge?&gt;?</text>
+<text id="32001">Insufficient souls</text>
+<text id="32002">Insufficient materials</text>
+<text id="32003">No weapons for reinforcement</text>
+<text id="32004">%null%</text>
+<text id="32005">%null%</text>
+<text id="32006">Undo ascension?
+Materials used for ascension will be lost.</text>
+<text id="32007">Cannot reinforce this weapon.
+Reinforcement would result in exceeding inventory limit.</text>
+<text id="32008">%null%</text>
+<text id="32009">Cannot restore crystal weapons</text>
+<text id="32010">No armor for reinforcing</text>
+<text id="32011">No weapons for ascension</text>
+<text id="32012">Reinforce &lt;?itemNameBeforeForge?&gt;
+into &lt;?itemNameAfterForge?&gt;?</text>
+<text id="32013">Ascend &lt;?itemNameBeforeForge?&gt;
+to &lt;?itemNameAfterForge?&gt;?</text>
+<text id="32014">Cannot reinforce this armor.
+Reinforcement would result in exceeding inventory limit.</text>
+<text id="32015">Cannot ascend this armor.
+Ascension would result in exceeding inventory limit.</text>
+<text id="32016">%null%</text>
+<text id="32017">%null%</text>
+<text id="32018">%null%</text>
+<text id="32019">%null%</text>
+<text id="32020">&lt;?itemNameBeforeForge?&gt;
+reinforced into &lt;?itemNameAfterForge?&gt;.</text>
+<text id="32021">Restored &lt;?itemNameBeforeForge?&gt;
+to &lt;?itemNameAfterForge?&gt;.</text>
+<text id="32022">&lt;?itemNameBeforeForge?&gt;
+ascended to &lt;?itemNameAfterForge?&gt;.</text>
+<text id="32023">&lt;?itemNameBeforeForge?&gt;
+reinforced into &lt;?itemNameAfterForge?&gt;.</text>
+<text id="41000">&lt;?sysmsg@41000?&gt;</text>
+<text id="42000">Cancel character creation and return to title screen?</text>
+<text id="42001">Character name required</text>
+<text id="42002">Enter character name</text>
+<text id="42003">OK to start game with this character?</text>
+<text id="42500">Cancel character creation and return to
+title screen?</text>
+<text id="43001">Changing gender will cause
+edited face data to be lost.
+Change gender?</text>
+<text id="44000">Leave this message?</text>
+<text id="44001">%null%</text>
+<text id="44002">%null%</text>
+<text id="44003">%null%</text>
+<text id="44004">%null%</text>
+<text id="44005">%null%</text>
+<text id="44006">%null%</text>
+<text id="44007">%null%</text>
+<text id="44008">%null%</text>
+<text id="44009">%null%</text>
+<text id="44010">Leave a message?</text>
+<text id="44500">Erase this message?</text>
+<text id="45000">&lt;?sysmsg@45000?&gt;</text>
+<text id="45001">&lt;?sysmsg@45001?&gt;</text>
+<text id="45100">&lt;?sysmsg@45100?&gt;</text>
+<text id="45101">%null%</text>
+<text id="45102">%null%</text>
+<text id="45103">&lt;?sysmsg@45103?&gt;</text>
+<text id="45104">%null%</text>
+<text id="45105">%null%</text>
+<text id="45106">%null%</text>
+<text id="45107">%null%</text>
+<text id="45108">%null%</text>
+<text id="45109">%null%</text>
+<text id="45110">&lt;?sysmsg@45110?&gt;</text>
+<text id="45111">&lt;?sysmsg@45111?&gt;</text>
+<text id="45112">%null%</text>
+<text id="45113">%null%</text>
+<text id="45114">%null%</text>
+<text id="45115">%null%</text>
+<text id="45116">%null%</text>
+<text id="45117">%null%</text>
+<text id="45118">%null%</text>
+<text id="45119">%null%</text>
+<text id="45120">&lt;?sysmsg@45120?&gt;</text>
+<text id="45121">&lt;?sysmsg@45121?&gt;</text>
+<text id="45122">&lt;?sysmsg@45122?&gt;</text>
+<text id="45200">&lt;?sysmsg@45200?&gt;</text>
+<text id="45201">&lt;?sysmsg@45201?&gt;</text>
+<text id="45250">&lt;?sysmsg@45250?&gt;</text>
+<text id="45400">&lt;?sysmsg@45400?&gt;</text>
+<text id="45500">&lt;?sysmsg@45500?&gt;</text>
+<text id="47000">&lt;?sysmsg@47000?&gt;</text>
+<text id="47100">&lt;?sysmsg@47100?&gt;</text>
+<text id="47101">&lt;?sysmsg@47101?&gt;</text>
+<text id="47102">&lt;?sysmsg@47102?&gt;</text>
+<text id="47103">%null%</text>
+<text id="47104">%null%</text>
+<text id="47105">%null%</text>
+<text id="47106">%null%</text>
+<text id="47107">%null%</text>
+<text id="47108">%null%</text>
+<text id="47109">%null%</text>
+<text id="47110">&lt;?sysmsg@47110?&gt;</text>
+<text id="47111">&lt;?sysmsg@47111?&gt;</text>
+<text id="47112">&lt;?sysmsg@47112?&gt;</text>
+<text id="47113">&lt;?sysmsg@47113?&gt;</text>
+<text id="47114">%null%</text>
+<text id="47115">%null%</text>
+<text id="47116">%null%</text>
+<text id="47117">%null%</text>
+<text id="47118">%null%</text>
+<text id="47119">%null%</text>
+<text id="47120">&lt;?sysmsg@47120?&gt;</text>
+<text id="47121">&lt;?sysmsg@47121?&gt;</text>
+<text id="48000">&lt;?sysmsg@48000?&gt;</text>
+<text id="50000">&lt;?sysmsg@50000?&gt;</text>
+<text id="50001">&lt;?sysmsg@50001?&gt;</text>
+<text id="50002">&lt;?sysmsg@50002?&gt;</text>
+<text id="50501">&lt;?sysmsg@50501?&gt;</text>
+<text id="50502">&lt;?sysmsg@50502?&gt;</text>
+<text id="50503">&lt;?sysmsg@50503?&gt;</text>
+<text id="50504">&lt;?sysmsg@50504?&gt;</text>
+<text id="50505">&lt;?sysmsg@50505?&gt;</text>
+<text id="50506">&lt;?sysmsg@50506?&gt;</text>
+<text id="50507">&lt;?sysmsg@50507?&gt;</text>
+<text id="51100">&lt;?sysmsg@51100?&gt;</text>
+<text id="65000">&lt;?sysmsg@65000?&gt;</text>
+<text id="65001">&lt;?sysmsg@65001?&gt;</text>
+<text id="65002">&lt;?sysmsg@65002?&gt;</text>
+<text id="65003">&lt;?sysmsg@65003?&gt;</text>
+<text id="65004">&lt;?sysmsg@65004?&gt;</text>
+<text id="65005">&lt;?sysmsg@65005?&gt;</text>
+<text id="65100">&lt;?sysmsg@65100?&gt;</text>
+<text id="65101">&lt;?sysmsg@65101?&gt;</text>
+<text id="65200">&lt;?sysmsg@65200?&gt;</text>
+<text id="65201">&lt;?sysmsg@65201?&gt;</text>
+<text id="65202">&lt;?sysmsg@65202?&gt;</text>
+<text id="65203">&lt;?sysmsg@65203?&gt;</text>
+<text id="65204">&lt;?sysmsg@65204?&gt;</text>
+<text id="65205">&lt;?sysmsg@65205?&gt;</text>
+<text id="65206">&lt;?sysmsg@65206?&gt;</text>
+<text id="65207">&lt;?sysmsg@65207?&gt;</text>
+<text id="65208">&lt;?sysmsg@65208?&gt;</text>
+<text id="65209">&lt;?sysmsg@65209?&gt;</text>
+<text id="65210">&lt;?sysmsg@65210?&gt;</text>
+<text id="65211">&lt;?sysmsg@65211?&gt;</text>
+<text id="65212">&lt;?sysmsg@65212?&gt;</text>
+<text id="65213">&lt;?sysmsg@65213?&gt;</text>
+<text id="65214">&lt;?sysmsg@65214?&gt;</text>
+<text id="65215">&lt;?sysmsg@65215?&gt;</text>
+<text id="65216">&lt;?sysmsg@65216?&gt;</text>
+<text id="65217">&lt;?sysmsg@65217?&gt;</text>
+<text id="65218">&lt;?sysmsg@65218?&gt;</text>
+<text id="65219">&lt;?sysmsg@65219?&gt;</text>
+<text id="65220">&lt;?sysmsg@65220?&gt;</text>
+<text id="65300">&lt;?sysmsg@65300?&gt;</text>
+<text id="65301">&lt;?sysmsg@65301?&gt;</text>
+<text id="65400">&lt;?sysmsg@65400?&gt;</text>
+<text id="65401">&lt;?sysmsg@65401?&gt;</text>
+<text id="65402">%null%</text>
+<text id="65403">%null%</text>
+<text id="65404">%null%</text>
+<text id="65405">%null%</text>
+<text id="65406">%null%</text>
+<text id="65407">%null%</text>
+<text id="65408">%null%</text>
+<text id="65409">%null%</text>
+<text id="65410">&lt;?sysmsg@65410?&gt;</text>
+<text id="65411">&lt;?sysmsg@65411?&gt;</text>
+<text id="65412">&lt;?sysmsg@65412?&gt;</text>
+<text id="65413">&lt;?sysmsg@65413?&gt;</text>
+<text id="70000">&lt;?sysmsg@70000?&gt;</text>
+</entries>
+</fmg>

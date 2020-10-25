@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="4600">Trial of Calamity</text>
+<text id="5000">The Dreg Heap</text>
+<text id="5100">The Ringed City</text>
+<text id="5101">%null%</text>
+<text id="5102">%null%</text>
+<text id="5103">%null%</text>
+<text id="5104">%null%</text>
+<text id="5105">%null%</text>
+<text id="5106">%null%</text>
+<text id="5107">%null%</text>
+<text id="5108">%null%</text>
+<text id="5109">%null%</text>
+<text id="5110">The Ringed City</text>
+<text id="5300">Trial of Adversity</text>
+<text id="5400">Trial of Sorrow</text>
+</entries>
+</fmg>

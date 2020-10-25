@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="102004">After 30 items, each additionally placed item replaces the oldest item. Place item anyway?</text>
+<text id="506013">Combatants on friendly team did not show up in time, and matching was cancelled</text>
+<text id="506014">Can be selected in co-op matches with the password applies to "All"</text>
+<text id="506015">Can be selected for co-op matches with a password in use</text>
+</entries>
+</fmg>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="506000">Choose a type of Match</text>
+<text id="506001">Choose a Match location</text>
+<text id="506002">Edit Undead Match password. Match only with others using the same password.</text>
+<text id="506003">Enter an Undead Match and begin searching for opponents</text>
+<text id="506004">Cancel matchmaking</text>
+</entries>
+</fmg>

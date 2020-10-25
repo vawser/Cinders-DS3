@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="0">%null%</text>
+<text id="27000">Slave Knight Gael</text>
+<text id="37000">Amnesiac Lapp</text>
+<text id="38000">Shira, Knight of Filianore</text>
+<text id="39000">%null%</text>
+<text id="40000">Stone-humped Hag</text>
+<text id="45000">Halflight, Spear of the Church</text>
+<text id="46000">Desert Pyromancer Zoey</text>
+<text id="47000">Silver Knight Ledo</text>
+<text id="48000">Seeker of the Spurned</text>
+<text id="49000">Moaning Knight</text>
+<text id="890600">Divine Spear Monument</text>
+<text id="890700">Purging Monument</text>
+<text id="900218">Spear of the Church</text>
+<text id="905020">Demon from Below</text>
+<text id="905021">Demon in Pain</text>
+<text id="905022">Demon Prince</text>
+<text id="905023">Demon Prince</text>
+<text id="906200">Slave Knight Gael</text>
+<text id="906201">%null%</text>
+<text id="906202">%null%</text>
+<text id="906203">%null%</text>
+<text id="906204">%null%</text>
+<text id="906205">%null%</text>
+<text id="906206">%null%</text>
+<text id="906207">%null%</text>
+<text id="906208">%null%</text>
+<text id="906209">%null%</text>
+<text id="906210">Darkeater Midir</text>
+</entries>
+</fmg>

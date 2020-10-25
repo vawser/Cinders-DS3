@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="4201">You lack the license for this DLC.
+Returning to title menu.</text>
+<text id="401116">Unable to locate required DLC:
+
+&lt;?requiredDlcList?&gt;
+
+This profile cannot be loaded until the DLC is installed again.</text>
+<text id="401117">ASHES OF ARIANDEL</text>
+<text id="401300">%null%</text>
+<text id="401301">%null%</text>
+<text id="401302">DLC could not be loaded correctly.
+It cannot be used in the game.</text>
+<text id="401303">%null%</text>
+<text id="401304">%null%</text>
+<text id="401305">%null%</text>
+<text id="401306">%null%</text>
+<text id="401307">%null%</text>
+<text id="401308">%null%</text>
+<text id="401309">%null%</text>
+<text id="401310">New DLC was installed.
+Return to the title menu in order to use.
+Select "OK" to return to the title menu.</text>
+</entries>
+</fmg>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="28501000">Ordinary garb from an ancient land of sorcery.
+The gold embellishments betray a faint residue of magic, but this clothing was never intended for battle.
+
+Effect: increases max FP by 5%.</text>
+<text id="28502000">These arm wrappings, sewn with violet cloth and  everyday use.
+
+Yet they served well enough in many a battle, enwreathing the arms of one who would go on to embrace the sword.
+
+Effect: increases max FP by 5%.</text>
+<text id="28503000">Undergarments combined with an overlayer, the former never intended for public display.
+
+Indeed, all manner of things are bound to accrue at world's end.
+
+Effect: increases max FP by 5%.</text>
+<text id="29500000">Crown of Shira, knight in service to Filianore.
+Finely crafted with silver and fashioned with a pearl from a Man Eater Shell.
+
+Shira delivered the crucified mad king to a darkroom, where she stayed, in her formal wear, even though none would see her.
+
+Effect: boosts effect duration by 25%.</text>
+<text id="29501000">Armor of Shira, knight in service to Filianore.
+A rare women's piece from ancient times.
+
+With a spun gold shawl draped over the silver breastplate and a green woven skirt, this armor offers a subdued yet refined elegance, apropos to both a handmaiden of the Princess and one whose veins coarse with royal blood.
+
+Effect: boosts effect duration by 25%.</text>
+<text id="29502000">Gloves of Shira, knight in service to Filianore.
+Crafted with carthamin leather and graced with brass buttons.
+
+One article of Shira's knight garb.
+
+Effect: boosts effect duration by 25%.</text>
+<text id="29503000">Trousers of Shira, knight in service to Filianore.
+Made of carthamin leather boots over a silk underlayer.
+
+One article of Shira's knight garb.
+
+Effect: boosts effect duration by 25%.</text>
+<text id="32000000">Steel helm of the amnesiac Lapp.
+
+This plate-armor helm, that covers the head cleanly without even slight gaps, provides heavy defense.
+
+Quite fit to conceal a hollowed body, and indeed, one's very identity.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="32001000">Steel armor of the amnesiac Lapp.
+
+This plate-armor body, that covers the torso cleanly without even slight gaps, provides heavy defense.
+
+Quite fit to conceal a hollowed body, and indeed, one's very identity.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="32002000">Steel gauntlets of the amnesiac Lapp.
+
+These plate-armor gauntlets, that cover the arms cleanly without even a slight gap, provide heavy defense.
+
+Quite fit to conceal a hollowed body, and indeed, one's very identity.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="32003000">Steel leggings of the amnesiac Lapp.
+
+These plate-armor leggings, that cover the legs cleanly without even a slight gap, provide heavy defense.
+
+Quite fit to conceal a hollowed body, and indeed, one's very identity.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="63500000">The hood of the Ringed Knights.
+
+These knights don Abyss-tainted black cloth, with layer upon layer hiding their eyes.
+
+This was nothing less than an attempt to reveal that which the seal of fire has occluded, a subtle defiance of the gods' wishes. 
+
+Effect: boosts damage against Abyssal enemies by 5%.</text>
+<text id="63501000">Malformed black armor of the Ringed Knights.
+The armor of early men was forged in the Abyss, and betrays a smidgen of life.
+
+For this reason the gods cast a seal of fire upon such armor, and those who possessed them.
+
+Effect: boosts damage against Abyssal enemies by 5%.</text>
+<text id="63502000">Malformed black gauntlets of the Ringed Knights.
+The armor of early men was forged in the Abyss, and betrays a smidgen of life.
+
+For this reason the gods cast a seal of fire upon such armor, and those who possessed them.
+
+Effect: boosts damage against Abyssal enemies by 5%.</text>
+<text id="63503000">Malformed black leggings of the Ringed Knights.
+The armor of early men was forged in the Abyss, and betrays a smidgen of life.
+
+For this reason the gods cast a seal of fire upon such armor, and those who possessed them.
+
+Effect: boosts damage against Abyssal enemies by 5%.</text>
+<text id="64500000">Shadowy mass that covers the head of those who sought the dark soul.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="64501000">Armor worn by the Harald Legion, who sought the dark soul.
+
+The armor sank into the dark with the legion, where their cavities bloated in grotesque displays,　never again to fit any ordinarily-shaped body.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="64502000">Gauntlets worn by the Harald Legion, who sought the dark soul.
+
+The gauntlets sank into the dark with the legion, the leather partly melted and the metal pieces showing signs of an unsightly bloating.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="64503000">Leggings worn by the Harald Legion, who sought the dark soul.
+
+The leggings sank into the dark with the legion, the leather partly melted and the metal pieces showing signs of an unsightly bloating.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="67500000">Stark melted iron helm of the ancient Dragonslayer Armour.
+
+The Armour, defeated by the Champion of Ash in Lothric, was left ages to rust, until it slipped into an abyssal swamp, where it was possessed once again by the memory of the hunt.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="67501000">Stark melted iron body armor of the ancient Dragonslayer Armour.
+
+The Armour, defeated by the Champion of Ash in Lothric, was left ages to rust, until it slipped into an abyssal swamp, where it was possessed once again by the memory of the hunt.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="67502000">Stark melted iron gauntlets of the ancient Dragonslayer Armour.
+
+The Armour, defeated by the Champion of Ash in Lothric, was left ages to rust, until it slipped into an abyssal swamp, where it was possessed once again by the memory of the hunt.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="67503000">Stark melted iron leggings of the ancient Dragonslayer Armour.
+
+The Armour, defeated by the Champion of Ash in Lothric, was left ages to rust, until it slipped into an abyssal swamp, where it was possessed once again by the memory of the hunt.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="68500000">An empty head of a white-faced locust that rose from an abyssal swamp.
+
+The white-faced locusts were meant to beckon men to the dark with sermons, but most of them are unable to think past their own stomachs. Someone must rise to the occasion, and restore the path of righteousness.
+
+Effect: increases max FP by 5%.</text>
+<text id="80500000">Helm of the company of knights who were sent to the Ringed City on an old king's orders.
+
+The knights sought the dark soul, but were so soundly crushed, they had little choice but to swear themselves to the Judicator Giant.
+
+Effect: increases max HP by 5%.</text>
+<text id="80501000">Armor of the company of knights who were sent to the Ringed City on an old king's orders.
+
+The knights sought the dark soul, but were so soundly crushed, they had little choice but to swear themselves to the Judicator Giant.
+
+Effect: increases max HP by 5%.</text>
+<text id="80502000">Gauntlets of the company of knights who were sent to the Ringed City on an old king's orders.
+
+The knights sought the dark soul, but were so soundly crushed, they had little choice but to swear themselves to the Judicator Giant.
+
+Effect: increases max HP by 5%.</text>
+<text id="80503000">Leggings of the company of knights who were sent to the Ringed City on an old king's orders.
+
+The knights sought the dark soul, but were so soundly crushed, they had little choice but to swear themselves to the Judicator Giant.
+
+Effect: increases max HP by 5%.</text>
+<text id="81500000">Hood of the desert pyromancers, who once walked the halls of the Earthen Peak. It is said that the thin burgundy cloth breathes with magic.
+
+Desert pyromancers, most of them female, were known for their great fans of flame, and enchanting looks.
+
+Effect: increases Fire damage by 2.5%.</text>
+<text id="81501000">Garb of the desert pyromancers, who once walked the halls of the Earthen Peak. It is said that the thin burgundy cloth breathes with magic.
+
+Desert pyromancers, most of them female, were known for their great fans of flame, and enchanting looks.
+
+Effect: increases Fire damage by 2.5%.</text>
+<text id="81502000">Gloves of the desert pyromancers, who once walked the halls of the Earthen Peak. It is said that the thin burgundy cloth breathes with magic.
+
+Desert pyromancers, most of them female, were known for their great fans of flame, and enchanting looks.
+
+Effect: increases Fire damage by 2.5%.</text>
+<text id="81503000">Skirt of the desert pyromancers, who once walked the halls of the Earthen Peak. It is said that the thin burgundy cloth breathes with magic.
+
+Desert pyromancers, most of them female, were known for their great fans of flame, and enchanting looks.
+
+Effect: increases Fire damage by 2.5%.</text>
+<text id="82500000">The purple hat of the witch Zullie, who intended to seduce Alva the Wayfarer, but eventually became his closest supporter, spending her entire life with him.
+
+The pointed hat is a symbol of heretical magical crafts, and Zullie wore hers with an unspoken, but deep sense of pride.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="82501000">The purple garb of the witch Zullie, who intended to seduce Alva the Wayfarer, but eventually became his closest supporter, spending her entire life with him.
+
+It is said that Zullie the witch, who was never loved, nor loved another, experienced all manner of misfortune, and yet in the end, found her purpose in life.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="82502000">The purple wrappings of the witch Zullie, who intended to seduce Alva the Wayfarer, but eventually became his closest supporter, spending her entire life with him.
+
+It is said that Zullie the witch, who was never loved, nor loved another, experienced all manner of misfortune, and yet in the end, found her purpose in life.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="82503000">The purple trousers of the witch Zullie, who intended to seduce Alva the Wayfarer, but eventually became his closest supporter, spending her entire life with him.
+
+It is said that Zullie the witch, who was never loved, nor loved another, experienced all manner of misfortune, and yet in the end, found her purpose in life.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="83500000">The purple veil of the witch Zullie, who intended to seduce Alva the Wayfarer, but eventually became his closest supporter, spending her entire life with him.
+
+Zullie's veil was for travel, and to hide her affiliation with the misunderstood craft of witches.
+
+Effect: boosts effect duration by 25%.</text>
+<text id="84500000">An eye-occluding mask of unknown origin.
+Small cracks allow the wearer to see.
+
+This purple steel creation has a certain resemblance to the Fire Keeper's crown, but the similarity is purely cosmetic.
+
+Effect: boosts soul absorption by 2.5%.</text>
+</entries>
+</fmg>

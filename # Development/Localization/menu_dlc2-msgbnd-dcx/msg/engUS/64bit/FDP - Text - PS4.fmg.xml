@@ -1,0 +1,1039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1">%null%</text>
+<text id="2">%null%</text>
+<text id="3">%null%</text>
+<text id="4">%null%</text>
+<text id="5">%null%</text>
+<text id="6">%null%</text>
+<text id="7">%null%</text>
+<text id="8">%null%</text>
+<text id="1000">SAVE DATA</text>
+<text id="2001">KG_PS4_OK</text>
+<text id="2002">KG_PS4_Cancel</text>
+<text id="2003">KG_PS4_L_U</text>
+<text id="2004">KG_PS4_L_D</text>
+<text id="2005">KG_PS4_L_L</text>
+<text id="2006">KG_PS4_L_R</text>
+<text id="2007">KG_PS4_L_UD</text>
+<text id="2008">KG_PS4_L_LR</text>
+<text id="2009">KG_PS4_L_UDLR</text>
+<text id="2010">KG_PS4_R_U</text>
+<text id="2011">KG_PS4_R_L</text>
+<text id="2012">KG_PS4_L1</text>
+<text id="2013">KG_PS4_R1</text>
+<text id="2014">KG_PS4_L2</text>
+<text id="2015">KG_PS4_R2</text>
+<text id="2016">KG_PS4_L3</text>
+<text id="2017">KG_PS4_R3</text>
+<text id="2018">KG_PS4_LS</text>
+<text id="2019">KG_PS4_RS</text>
+<text id="2020">KG_PS4_TP_L</text>
+<text id="2021">KG_PS4_TP_R</text>
+<text id="2022">KG_PS4_Start</text>
+<text id="2100">Profile</text>
+<text id="2201">CN_TEX_Copyright</text>
+<text id="2202">CN_TEX_R_mark</text>
+<text id="2203">CN_TEX_TradeMark</text>
+<text id="2204">CN_TEX_Dash</text>
+<text id="3000">Set DUALSHOCK®4 wireless controller vibration strength.</text>
+<text id="4101">Cannot connect to network.
+Returning to Title Menu.</text>
+<text id="4102">The connection to the DARK SOULS Ⅲ game server was lost.
+Returning to title menu.</text>
+<text id="4103">You have signed out of PlayStation™Network.
+Returning to title menu.</text>
+<text id="4104">A network error occurred.
+Returning to title menu.</text>
+<text id="4105">%null%</text>
+<text id="4106">Your PlayStation®Plus membership has expired.
+Returning to title menu.</text>
+<text id="4190">A network error occurred.
+Returning to title menu.</text>
+<text id="4191">Failed to save game.
+Save data is corrupted.
+
+Select "Yes" to try again.
+
+Select "No" to return to the
+title screen without saving.</text>
+<text id="4192">Failed to save game.
+Save data is corrupted.
+
+Returning to title screen.</text>
+<text id="4193">Failed to save game.
+Save data is corrupted.</text>
+<text id="100000">R1</text>
+<text id="100001">L1</text>
+<text id="100002">%null%</text>
+<text id="100003">%null%</text>
+<text id="100004">%null%</text>
+<text id="100005">%null%</text>
+<text id="100006">%null%</text>
+<text id="100007">%null%</text>
+<text id="100008">%null%</text>
+<text id="100009">%null%</text>
+<text id="100010">Online ID</text>
+<text id="100011">Character name</text>
+<text id="100012">%null%</text>
+<text id="100013">%null%</text>
+<text id="100014">%null%</text>
+<text id="100015">%null%</text>
+<text id="100016">%null%</text>
+<text id="100017">%null%</text>
+<text id="100018">%null%</text>
+<text id="100019">%null%</text>
+<text id="100020">Some functionality has been restricted as per parental control settings.</text>
+<text id="100021">%null%</text>
+<text id="100022">%null%</text>
+<text id="100023">%null%</text>
+<text id="100024">%null%</text>
+<text id="100025">%null%</text>
+<text id="100026">%null%</text>
+<text id="100027">%null%</text>
+<text id="100028">%null%</text>
+<text id="100029">%null%</text>
+<text id="100030">DUALSHOCK®4 wireless controller</text>
+<text id="100100">Installation progress</text>
+<text id="101000">PRESS ANY BUTTON</text>
+<text id="102000">Purchase Add-ons</text>
+<text id="200100">Text includes unsupported characters.
+Unsupported characters will be replaced with asterisks (*).</text>
+<text id="400003">At the end of the previous session, Quit Game
+might not have been selected from the system menu.
+Please use Quit Game from the system menu
+when you wish to end your play session.
+
+Failure to end session with Quit Game may result
+in loss of progress.</text>
+<text id="401102">Failed to create save data.
+Press "OK" to try again.</text>
+<text id="401103">Failed to load save data.
+Press "OK" to try again.</text>
+<text id="401104">%null%</text>
+<text id="401105">%null%</text>
+<text id="401106">Failed to save game.
+Save data is corrupted.
+
+Select "OK" to try again.</text>
+<text id="401107">The save data is corrupted.
+Delete corrupted data and create a new save?</text>
+<text id="401108">%null%</text>
+<text id="401109">%null%</text>
+<text id="401110">Checking save data...</text>
+<text id="401111">Creating save data...</text>
+<text id="401112">Updating save data...</text>
+<text id="401113">The game version and save data version are different.
+Quit the game and sign in to PlayStation™Network to
+update DARK SOULS Ⅲ to the latest version.</text>
+<text id="401114">Cannot load this profile as it is from
+a later version of the currently installed game.
+Quit the game and sign in to PlayStation™Network to
+update DARK SOULS Ⅲ to the latest version.</text>
+<text id="401115">Game installation incomplete.
+Cannot load profile.</text>
+<text id="401116">%null%</text>
+<text id="401117">%null%</text>
+<text id="401118">%null%</text>
+<text id="401119">%null%</text>
+<text id="401120">Checking network connection status...</text>
+<text id="401150">Logging in to the DARK SOULS Ⅲ game server...</text>
+<text id="401151">%null%</text>
+<text id="401152">%null%</text>
+<text id="401153">%null%</text>
+<text id="401154">%null%</text>
+<text id="401155">%null%</text>
+<text id="401156">%null%</text>
+<text id="401157">%null%</text>
+<text id="401158">%null%</text>
+<text id="401159">%null%</text>
+<text id="401160">Retrieving data from the DARK SOULS III game server...</text>
+<text id="401161">%null%</text>
+<text id="401162">%null%</text>
+<text id="401163">%null%</text>
+<text id="401164">%null%</text>
+<text id="401165">Saving data to the DARK SOULS III game server...</text>
+<text id="401166">%null%</text>
+<text id="401167">%null%</text>
+<text id="401168">%null%</text>
+<text id="401169">%null%</text>
+<text id="401170">Starting game in offline mode. 
+
+To use online features, check to see 
+if your connection is set up properly, 
+and select "Log In" from title menu.</text>
+<text id="401171">Returning to title menu.</text>
+<text id="401201">Unable to connect to the network.
+Please check your network settings.</text>
+<text id="401202">Network status check failed.</text>
+<text id="401203">You are not currently signed into PlayStation™Network.
+Please sign in to start in online mode.</text>
+<text id="401204">Sign in status check failed.</text>
+<text id="401205">Unable to start in online mode due to age restrictions.</text>
+<text id="401206">A new version of the system software is available.
+To start in online mode, please update the system software.</text>
+<text id="401207">An update to the game is available.
+To start in online mode, 
+quit the game and sign in to PlayStation™Network to
+update DARK SOULS Ⅲ to the latest version.</text>
+<text id="401208">Network features check failed.</text>
+<text id="401209">Failed to acquire parental control information.</text>
+<text id="401210">%null%</text>
+<text id="401211">%null%</text>
+<text id="401212">%null%</text>
+<text id="401213">You are currently offline.</text>
+<text id="401214">Online status check failed.</text>
+<text id="401501">A network error occurred.
+Select "OK" to try again.</text>
+<text id="401502">Your Sony Entertainment Network account is currently blocked from
+accessing the DARK SOULS Ⅲ game server services.</text>
+<text id="401503">Failed to log in to the DARK SOULS Ⅲ game server.
+Select "OK" to attempt to log in again.</text>
+<text id="401504">An update to the game is available.
+To start in online mode, 
+quit the game and sign in to PlayStation™Network to
+update DARK SOULS Ⅲ to the latest version.</text>
+<text id="401505">Cannot log in to the DARK SOULS Ⅲ game server
+because it has been stopped or is undergoing maintenance.</text>
+<text id="401601">Failed to acquire information.
+Select "OK" to try again.</text>
+<text id="401602">%null%</text>
+<text id="401603">Could not verify PlayStation®Plus on your account.</text>
+<text id="401604">%null%</text>
+<text id="401605">Failed to verify your PlayStation®Plus membership.
+
+Press "OK" to try PlayStation®Plus verification again.
+
+Press "Cancel" to continue without PlayStation®Plus.
+
+Please note the game will start in offline mode without PlayStation®Plus membership.</text>
+<text id="401606">Failed to verify your PlayStation®Plus membership.
+
+Press "OK" to try PlayStation®Plus verification again.
+
+Press "Cancel" to continue without PlayStation®Plus.
+
+Please note the game will start in offline mode without PlayStation®Plus membership.</text>
+<text id="401607">Not yet able to verify PlayStation®Plus on your account.
+Staring game in offline mode.</text>
+<text id="401701">Cannot create any more profiles.
+Delete an existing profile and create a new one?
+
+Note: You may create up to 10 profiles.</text>
+<text id="401721">Failed to load save data.
+Save data is corrupted.</text>
+<text id="401722">%null%</text>
+<text id="401723">%null%</text>
+<text id="401724">%null%</text>
+<text id="401725">%null%</text>
+<text id="401726">%null%</text>
+<text id="401727">%null%</text>
+<text id="401728">%null%</text>
+<text id="401729">%null%</text>
+<text id="401730">%null%</text>
+<text id="401731">Failed to initialize character info for online mode.
+
+Select "OK" to try again.</text>
+<text id="401751">Retrieving latest calibrations...</text>
+<text id="401752">Failed to retrieve latest calibrations.
+Select "OK" to try again.
+
+Select "Cancel" to start game in offline mode.</text>
+<text id="401753">Retrieving latest calibrations...
+Press "Cancel" to continue without latest.</text>
+<text id="401801">Updating trophy info...</text>
+<text id="401991">An error has occurred.
+Returning to title menu.</text>
+<text id="600000">DARK SOULS Ⅲ 日本リージョン向け利用規約ダミーテキスト：PS4：日本リージョン：英語
+
+第１条
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+</text>
+<text id="600001">第２条
+
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと</text>
+<text id="600002">%null%</text>
+<text id="600003">%null%</text>
+<text id="600004">%null%</text>
+<text id="600005">%null%</text>
+<text id="600006">%null%</text>
+<text id="600007">%null%</text>
+<text id="600008">%null%</text>
+<text id="600009">%null%</text>
+<text id="600010">%null%</text>
+<text id="600011">%null%</text>
+<text id="600012">%null%</text>
+<text id="600013">%null%</text>
+<text id="600014">%null%</text>
+<text id="600015">%null%</text>
+<text id="600016">%null%</text>
+<text id="601000">Terms and Conditions</text>
+<text id="601001">
+
+BANDAI NAMCO ENTERTAINMENT AMERICA INC.
+DARK SOULS™ III
+END USER LICENSE AGREEMENT
+
+IMPORTANT - READ CAREFULLY:
+
+Last Updated: December 17, 2015
+
+This End User License Agreement (this “EULA”) may be updated from time to time. Your continued use of the Game (as defined below) after a revised version has been communicated to you constitutes acceptance by you of its terms.
+
+THE GAME IS LICENSED TO YOU ON THE TERMS SET FORTH IN THIS EULA, WHICH CONSTITUTES A LEGAL AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT AMERICA INC. (“BNEA”).  BY ACCESSING, PLAYING, INSTALLING, OR OTHERWISE USING THE GAME IN ANY WAY, YOU AGREE TO BE LEGALLY BOUND BY THE TERMS OF THIS EULA WITH BNEA.
+
+PURCHASE AND USE OF ITEMS ARE SUBJECT TO THE NETWORK TERMS OF SERVICE AND USER AGREEMENT. THIS ONLINE SERVICE HAS BEEN SUBLICENSED TO YOU BY SONY COMPUTER ENTERTAINMENT AMERICA. YOUR USE OF THE GAME IS ALSO SUBJECT TO THE TERMS AND CONDITIONS SET FORTH IN SONY COMPUTER ENTERTAINMENT AMERICA’S NETWORK TERMS OF SERVICE AND SONY COMPUTER ENTERTAINMENT INC.’S PLAYSTATION®4 SYSTEM SOFTWARE LICENSE AGREEMENT AND/OR ANY OTHER TERMS AND AGREEMENTS APPLICABLE TO THE HARDWARE, AS DEFINED BELOW.
+
+THIS EULA CONTAINS, AMONG OTHER THINGS, AN ARBITRATION PROVISION CONTAINING A CLASS ACTION WAIVER. IF YOU LIVE OUTSIDE THE UNITED STATES OF AMERICA, SOME OR ALL OF THE ARBITRATION PROVISION MAY NOT APPLY TO YOU.
+
+The DARK SOULS™ III video game, including, without limitation, any multi-player, online, or downloadable portions thereof and any related written or electronic documentation or content (the “Game”), is protected by domestic and foreign copyright laws as well as international copyright treaties and conventions and other laws.  The Game is licensed, and not sold, and this EULA confers no title or ownership to the Game or any copy thereof.  In addition to the terms and conditions hereof, when accessing and using particular portions of the Game, including, without limitation, any multi-player, online, or downloadable content, you may be subject to additional guidelines of third-party service providers.</text>
+<text id="601002">
+
+1. PRECONDITIONS OF THE LICENSES.  The licenses granted in this EULA are specifically conditioned upon the following and your full compliance with all other terms and conditions set forth in this EULA:
+• You have reached the age of majority in your jurisdiction. If you are under the age of majority in your jurisdiction, your legal representative (e.g., a parent or a person who has parental authority) must agree on your behalf to comply, and take full responsibility for your compliance, with this EULA prior to your use of the Game; 
+• You agree to and comply with all of the terms in this EULA, and any additional terms as may be applicable to the Game, which acceptance is evidenced by your access to and use of the Game;
+• You have accepted all of the terms stipulated in Sony Computer Entertainment America’s Network Terms of Service and Sony Computer Entertainment Inc.’s PlayStation®4 System Software License Agreement and/or any other terms and agreements applicable to the Hardware, as defined below, which is evidenced by your use of the Game;
+• You access and use the Game only on local machines running validly-licensed copies of operating systems on which the Game is designed to operate and which meet the minimum requirements set by BNEA (collectively, the “Hardware”); 
+• You do not use any hacks, cracks, bots, or third-party software, third-party games that may modify or copy, temporarily or permanently, the code or the user experience of the Game, whether on your local machine or on servers that enable use of any features of the Game.</text>
+<text id="601003">
+
+2. LIMITED USE LICENSE.  Subject to the terms of this EULA, BNEA grants you the non-exclusive, non-transferable, revocable, limited right and license to access and use one copy of the Game solely for your personal use with the Hardware.  Commercial use of the Game is prohibited.  To access and use the Game, you must have legally obtained the Game from BNEA and all Hardware and/or third-party products and services required to operate the Game and/or access any online, multi-player, or downloadable portion of the Game that BNEA does not provide.  You are responsible for paying all fees, taxes, and other costs you may incur to access and use the Game, including, but not limited to, costs for any Hardware, Internet service, or other third-party products and services required to access any multi-player, online, or downloadable portions of the Game.  Neither this EULA nor your access to or use of the Game entitles you to any future releases of the Game or any expansions, sequels, or similar or ancillary products. You have no interest, monetary or otherwise, in any feature or content contained in or related to the Game.</text>
+<text id="601004">
+
+3. VIRTUAL ITEMS.
+3.1. BNEA may offer you the ability to earn a limited license to virtual goods and services made available by BNEA in the Game (collectively, “Virtual Items”).  If BNEA offers the ability to earn such licenses, BNEA hereby grants you a non-exclusive, non-transferable, revocable, limited right and license to such Virtual Items, as applicable, for your personal, non-commercial use exclusively in the Game, subject to the terms of this EULA and your compliance therewith.
+3.2. You may only use Virtual Items in the Game and are not redeemable for money or monetary value from BNEA or any other person or entity, except as otherwise required by applicable law.  Virtual Items do not have an equivalent value in real currency and do not act as a substitute for real currency.  Neither BNEA nor any other person or entity has any obligation to exchange Virtual Items for anything of value, including, but not limited to, real currency.  You acknowledge and agree that BNEA may engage in actions that may impact the perceived value of Virtual Items at any time, except as prohibited by applicable law. 
+3.3. Except as otherwise prohibited by applicable law, BNEA, in its sole discretion, has the absolute right to manage, modify, suspend, and/or eliminate Virtual Items without notice or liability to you.
+3.4. You may not transfer, sell, gift, exchange, trade, lease, sublicense, or rent Virtual Items except in the Game and as expressly permitted by BNEA.  Except as otherwise prohibited by applicable law, BNEA reserves and retains all rights, title, and interest in and to the Virtual Items.
+3.5. The licenses granted hereunder to Virtual Items will terminate upon termination of this EULA and as otherwise provided herein; provided, however, that, in BNEA’s sole discretion, BNEA may make your Virtual Items available to you in your account solely for use in the commercial version of the Game.</text>
+<text id="601005">
+
+4. OWNERSHIP.  All intellectual property rights in and to the Game (including, but not limited to, video, audio, and other content incorporated therein or later downloaded) and title to any and all copies thereof are owned by BNEA or its licensors, and you receive no right or interest therein, except for the limited licenses expressly provided herein.
+4.1. You may not do any of the following:
+• Copy the Game except for a single backup copy;
+• Sell, rent, lease, license, distribute, or otherwise transfer or make the Game available to any other person, in whole or in part, or use the Game or any part thereof in any commercial context, including, but not limited to, on a commercial website or in a service bureau, “cyber café,” computer gaming center, or any other commercial location in which a user may access, view, or use the Game or the Game’s elements who has not purchased or been authorized by BNEA;
+• Reverse engineer, derive source code, modify, decompile, disassemble, or create derivative works of the Game or any online portion thereof, in whole or in part;
+• Remove, disable, or circumvent any proprietary notices or labels contained on or in the Game or any online portion thereof; or
+• Export or re-export the Game or any copy or adaptation, directly or indirectly, in violation of any U.S. laws, in violation of any applicable export restrictions or other laws or regulations.</text>
+<text id="601006">
+
+5. SECURITY MEASURES/PROTECTIONS. Certain security measures may be required in order for you to make full use of the Game, including, without limitation, the requirement to register the Game with a serial code, the requirement to have continuous access to the Internet, and/or the acceptance of security/digital rights management features.  Failure to accept the security measures may partially or completely impair your use of the Game.</text>
+<text id="601007">
+
+6. USER-GENERATED CONTENT. In exchange for access to and use of the Game and to the extent that you create content through access to and use of the Game (“User-Generated Content”), you hereby grant BNEA an exclusive, perpetual, irrevocable, royalty-free, fully transferable, and sub-licensable worldwide right and license to use User-Generated Content in any way and for any purpose in connection with the Game and related goods and services, including the rights to reproduce, copy, adapt, modify, perform, create derivative works from, display, publish, broadcast, transmit, or otherwise use, distribute, exploit, and communicate to the public by any and all means and media whether now known or hereafter devised without any further notice or compensation of any kind to you for the whole duration of protection granted to intellectual property rights by applicable laws and international conventions.  To the extent permitted by applicable law, you hereby waive any moral rights of paternity, publication, reputation, or attribution with respect to BNEA’s and other players’ use and enjoyment of such assets in connection with the Game and related goods and services under applicable law.  The license granted to BNEA, and the above waiver of any applicable moral rights, shall survive any termination of this EULA.</text>
+<text id="601008">
+
+7. ONLINE CONDUCT.
+7.1. BNEA does not pre-screen content of postings or online chats in the Game and does not assume any responsibility or liability for User-Generated Content.  BNEA does not assume any liability for any failure to remove, or any delay in removing, User-Generated Content.  Without limiting any of its other rights and remedies under this EULA or applicable law, if BNEA objects to any User-Generated Content for any reason, BNEA, in its sole discretion may (either itself or, if applicable, by request to a third-party service provider): (a) remove the User-Generated Content; (b) give warnings to applicable persons; and/or (c) restrict, suspend, or terminate access to and use of the Game without any notice or liability.  
+7.2. You agree that you will be personally responsible for your access to and use of the Game, and for all of your communication and activity in connection with the Game, including any User-Generated Content.  
+7.3. In connection your communication and activity with the Game, you agree not to:
+• Harass, threaten, embarrass, or do anything else to another user of the Game that is unwanted, as determined by BNEA in its sole discretion. 
+• Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights, or objectionable, as determined by BNEA in its sole discretion. Hate speech is not tolerated. 
+• Violate any terms or policies communicated by BNEA from time to time.
+• Promote or encourage any illegal activity, including hacking. 
+• Disclose your own or other users’ personal information to third parties.
+• Impersonate any person or entity, including any BNEA officials, forum leaders, guides, hosts, employees, or agents, or falsely state or otherwise misrepresent your affiliation with a person or entity.
+• Impede or disrupt the Game or the normal flow of Game play or dialogue or use vulgar language, abusiveness, excessive shouting (e.g., ALL CAPS), “spamming,” or any other disruptive or detrimental methods in an attempt to disturb other users of the Game.
+• Cheat or utilize unauthorized exploits in connection with the Game.
+• Use or exploit any bugs, errors, or design flaws to obtain unauthorized access to or use of the Game or to gain an unfair advantage over other players of the Game.
+• Violate any applicable laws including, but not limited to, by posting, transmitting, promoting, or distributing content that violates any applicable law or regulation. 
+• Violate any rules for use of third-party technology and content, rules of interactive service providers, and federal, state, local, and foreign laws where applicable.  Ignorance of the law is no excuse. 
+• Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules or that materially increases the expense or difficulty of BNEA or the third-party service provider (if applicable) in maintaining the Game for the enjoyment of all its users.
+• Intentionally disconnect from the network during online play or allow yourself to be defeated by a given player repeatedly to help boost their rankings or win counts in the Game.</text>
+<text id="601009">
+
+8. LIMITATION ON DAMAGES.  
+8.1. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNEA, ITS SUPPLIERS, ITS LICENSORS, OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, OR AGENTS, BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE POSSESSION OF, ACCESS TO, USE OF, OR INABILITY TO USE THE GAME, OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCTS LIABILITY, INTELLECTUAL PROPERTY INFRINGEMENT, OR ANY OTHER THEORY.  IN ANY CASE AND EXCEPT AS OTHERWISE REQUIRED BY APPLICABLE LAW, BNEA'S, ITS LICENSORS’, AND SUPPLIERS’ ENTIRE LIABILITY FOR ANY AND ALL DAMAGES UNDER THIS EULA SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE GAME.   
+8.2. BNEA AND ITS SUPPLIERS AND LICENSORS MAKE NO PROMISE OR WARRANTY THAT THE GAME WILL WORK PROPERLY.  YOU ACKNOWLEDGE AND AGREE THAT BNEA AND ITS LICENSORS AND SUPPLIERS ARE NOT RESPONSIBLE OR LIABLE FOR (A) ANY VIRUSES OR OTHER DISABLING FEATURES THAT AFFECT YOUR ACCESS TO OR USE OF THE GAME, (B) ANY INCOMPATIBILITY AMONG THE GAME, OTHER SERVICES, AND HARDWARE, OR (C) ANY DELAYS OR FAILURES YOU MAY EXPERIENCE IN INITIATING, CONDUCTING, OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER.  THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.”  EXCEPT AS MIGHT BE DESCRIBED HEREIN, BNEA AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.  BNEA does not ensure continuous, error-free, secure, or virus-free operation of any online, multi-player, or downloadable portions of the Game or continued operation or availability of any given server.  Some countries/regions do not allow limitations as to how long an implied warranty lasts and/or exclusions or limitations of consequential damages, so the above limitations and/or exclusions of liability may not apply to you.  This warranty gives you specific legal rights and you may also have other legal rights that vary from country/region to country/region.
+8.3. BNEA is not liable for any delay or failure to perform resulting from any causes beyond its reasonable control.  Further, BNEA cannot and does not promise or ensure that you will be able to access the online, multi-player, or downloadable portions of the Game whenever you want, and there may be extended periods of time when you cannot access such portions of the Game.</text>
+<text id="601010">
+
+9. TERMINATION/SUSPENSION.
+9.1. This EULA is effective upon your agreement to be bound by its terms and remains in effect until terminated by you or BNEA. You may terminate this EULA at any time by deleting and destroying any and all copies of the Game in your possession, custody, or control. 
+9.2. Except as otherwise prohibited by applicable law, BNEA may limit, suspend, or terminate the licenses granted hereunder and your access to and use of the Game, including, but not limited to Virtual Items and any related services and products, at any time and for any reason without notice or liability to you.
+9.3. Without limiting any other rights of BNEA, if you fail to comply with the terms and conditions of this EULA, BNEA retains the right, in its sole discretion, to immediately limit, suspend, or terminate your access to and/or use of the Game.
+9.4. Upon termination of this EULA, your rights to access and use the Game, including any licenses and access to Virtual Items, user data, points, character progress, and any other information of any kind related to the Game, will terminate immediately, and you must cease all use of the Game.  In the event the Game is terminated, you must destroy all copies of the Game and all of its component parts.
+9.5. The termination of this EULA will not affect BNEA’s rights or your obligations arising under this EULA.  Those terms that by their nature are intended to survive this EULA shall survive this EULA.</text>
+<text id="601011">
+
+10. PRIVACY.  BNEA respects your privacy rights.  Any personal information supplied by you to BNEA online or via any BNEA-controlled website will be subject to the privacy policy posted at: http://www.bandainamcoent.com/company/privacy.html.  Notwithstanding what is stated in the applicable privacy policy, if you use any online services, such as online play or the downloading and uploading of content, BNEA may also collect, use, store, transmit and publicly display statistical data regarding game play (including ID, play log, play data (level, item), specifications of local machines, and residence regions), or identify content that is created and shared by you with other players.</text>
+<text id="601012">
+
+11. U.S. GOVERNMENT RESTRICTED RIGHTS.  The Game has been developed entirely at private expense and is provided as a “Commercial Computer Game” or “restricted computer Game.” Use, duplication, or disclosure by the U.S. Government or a U.S. Government subcontractor is subject to the restrictions set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Game clauses in DFARS 252.227-7013 or as set forth in subparagraphs (c)(1) and (2) of the Commercial Computer Game Restricted Rights clauses at FAR 52.227-19, as applicable.  The Contractor/Manufacturer is BANDAI NAMCO Entertainment Inc., 4-5-15 Higashi Shinagawa, Shinagawa-ku, Tokyo 140-8590.  The Developer is FromSoftware, Inc., G-PLACE Sasazuka 2-26-2 Sasazuka Shibuya-ku, Tokyo 151-0073.</text>
+<text id="601013">
+
+12. INJUNCTION.  Because BNEA would be irreparably damaged if the terms of this EULA were not specifically enforced, you agree that BNEA and/or its licensors and suppliers shall be entitled, without bond, other security or proof of damages, to appropriate equitable remedies with respect to breaches of this EULA, in addition to such other remedies as BNEA may otherwise have under applicable law.</text>
+<text id="601014">
+
+13. INDEMNITY.  You agree to indemnify, defend, and hold harmless BNEA, its licensors, its suppliers, and each of their respective officers, directors, employees, and agents from all damages, losses, and expenses, including reasonable attorneys’ fees, arising, directly or indirectly, from any violation of this EULA by you or from your acts and omissions to act in using the Game.  BNEA reserves the right to assume the exclusive defense and control of any matter subject to indemnification by you.</text>
+<text id="601015">
+
+14. DISPUTE RESOLUTION/BINDING ARBITRATION/CLASS ACTION WAIVER.
+14.1. YOU AND BNEA AGREE TO RESOLVE ALL DISPUTES AND CLAIMS BETWEEN YOU AND BNEA IN INDIVIDUAL BINDING ARBITRATION.  THAT INCLUDES, BUT IS NOT LIMITED TO, ANY CLAIMS ARISING OUT OF OR RELATING TO: (A) ANY ASPECT OF THE RELATIONSHIP BETWEEN YOU AND BNEA; (B) THIS EULA; OR (C) YOUR ACCESS TO AND USE OF THE GAME.  IT APPLIES REGARDLESS OF WHETHER SUCH CLAIMS ARE BASED IN CONTRACT, TORT, STATUTE, FRAUD, UNFAIR COMPETITION, MISREPRESENTATION, OR ANY OTHER LEGAL THEORY.
+14.2. However, this Section does not apply to the following types of claims or disputes, which you or BNEA may bring in any court with jurisdiction: (i) claims of infringement or other misuse of intellectual property rights, including such claims seeking injunctive relief; and (ii) claims related to or arising from any alleged unauthorized use, piracy, or theft.
+14.3. This Section does not prevent you from bringing your dispute to the attention of any federal, state, or local government agencies that can, if the law allows, seek relief from BNEA for you.
+14.4. An arbitration is a proceeding before a neutral arbitrator, instead of before a judge or jury. Arbitration is less formal than a lawsuit in court and provides more limited discovery.  It follows different rules than court proceedings and is subject to very limited review by courts.  The arbitrator will issue a written decision and provide a statement of reasons if requested by either party.  YOU UNDERSTAND THAT YOU AND BNEA ARE GIVING UP THE RIGHT TO SUE IN COURT AND TO HAVE A TRIAL BEFORE A JUDGE OR JURY.
+14.5. You and BNEA agree to make reasonable, good faith efforts to informally resolve any dispute before initiating arbitration.  A party who intends to seek arbitration must first send the other a written notice that describes the nature and basis of the claim or dispute and sets forth the relief sought.  If you and BNEA do not reach an agreement to resolve that claim or dispute within 30 days after the notice is received, you or BNEA may commence an arbitration.  Written notice to BNEA must be sent via postal mail to: ATTN: Legal &amp; Business Affairs Department, BANDAI NAMCO Entertainment America Inc., 2051 Mission College Boulevard, Santa Clara, California 95054, USA. 
+14.6. The Federal Arbitration Act applies to this Section.  The arbitration will be governed by the Commercial Arbitration Rules of the American Arbitration Association (“AAA”) and, where applicable, the AAA’s Supplementary Procedures for Consumer Related Disputes, both of which are available at http://www.adr.org.  The arbitrator is bound by the terms of this EULA. 
+14.7. The AAA will administer the arbitration.  It may be conducted through the submission of documents, by phone, or in person in the country/region where you live or at another mutually agreed location. 
+14.8. If you seek $10,000 or less, BNEA agrees to reimburse your filing fee and your share of the arbitration costs, including your share of arbitrator compensation, at the conclusion of the proceeding, unless the arbitrator determines your claims are frivolous or costs are unreasonable as determined by the arbitrator.  BNEA agrees not to seek its attorneys’ fees or costs in arbitration unless the arbitrator determines your claims are frivolous or costs are unreasonable as determined by the arbitrator.  If you seek more than $10,000, the arbitration costs, including arbitrator compensation, will be split between you and BNEA according to the AAA Commercial Arbitration Rules and the AAA’s Supplementary Procedures for Consumer Related Disputes, if applicable. 
+14.9. YOU AND BNEA AGREE NOT TO BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ACTION, PRIVATE ATTORNEY GENERAL ACTION, OR COLLECTIVE ARBITRATION, EVEN IF AAA’s PROCEDURES OR RULES WOULD OTHERWISE ALLOW ONE.  THE ARBITRATOR MAY AWARD RELIEF ONLY IN FAVOR OF THE INDIVIDUAL PARTY SEEKING RELIEF AND ONLY TO THE EXTENT OF THAT PARTY’S INDIVIDUAL CLAIM.  You and BNEA also agree not to seek to combine any action or arbitration with any other action or arbitration without the consent of all parties to this EULA and all other actions or arbitrations.
+14.10. If the agreement in this Section not to bring or participate in a class or representative action, private attorney general action, or collective arbitration should be found illegal or unenforceable, you and BNEA agree that it shall not be severable, that this entire Section shall be unenforceable, and any claim or dispute would be resolved in court and not in collective arbitration. 
+14.11. Notwithstanding this Section, you have the right to litigate any dispute in small claims court, if all the requirements of the small claims court, including any limitations on jurisdiction and the amount at issue in the dispute, are satisfied. 
+14.12. This Section shall apply to the maximum extent permitted by applicable law.  If the laws of your jurisdiction prohibit the application of some or all of the provisions of this Section, notwithstanding Section 16 (Governing Law), such provisions will not apply to you.</text>
+<text id="601016">
+
+15. GOVERNING LAW.  Any dispute not subject to arbitration, or where no election to arbitrate has been made, will be decided by the state or federal court located in Santa Clara County, California, and you and BNEA agree to submit to the personal jurisdiction of that court.  Except as otherwise set forth herein, this EULA shall be governed by, and will be construed under, the laws of California and the United States of America, without regard to choice of law or conflict of law principles. The UN Convention on Contracts for the International Sale of Goods is expressly disclaimed.</text>
+<text id="601017">
+
+16. MISCELLANEOUS. If any provision of this EULA is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions will remain in effect and be enforced as if the invalid or unenforceable provision were not contained in the EULA.  BNEA’s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches.  You may not assign or transfer this EULA or your rights, and any attempt to the contrary is void.  This EULA sets forth the entire understanding and agreement between BNEA and you with respect to the subject matter.</text>
+<text id="601018">
+
+If you have any questions concerning this EULA, you may contact BANDAI NAMCO Entertainment America Inc.’s customer service at http://www.bandainamcoent.com/company/support.html or at BANDAI NAMCO Entertainment America Inc., 2051 Mission College Boulevard, Santa Clara, California 95054, USA.</text>
+<text id="601019">%null%</text>
+<text id="601020">%null%</text>
+<text id="601021">%null%</text>
+<text id="601022">%null%</text>
+<text id="601023">%null%</text>
+<text id="602000">
+
+BANDAI NAMCO ENTERTAINMENT EUROPE DARK SOULS™ Ⅲ
+END USER LICENSE AGREEMENT (“EULA”)
+
+IMPORTANT - READ CAREFULLY:  
+
+This End User License Agreement (“EULA”) may be updated from time to time. Your continued use of this software after a revised version has been posted or communicated to you constitutes acceptance by you of its terms.
+
+THE BANDAI NAMCO ENTERTAINMENT VIDEO GAME YOU ARE USING (WHICH INCLUDES COMPUTER GAME, MEDIA, AND RELATED DOCUMENTATION IN PRINTED OR ELECTRONIC FORM) IS LICENSED TO YOU ON THE TERMS SET FORTH BELOW, WHICH CONSTITUTES A LEGAL AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT EUROPE ("BNEE").  BY PLAYING THE VIDEO GAME (EITHER ON YOUR HOME CONSOLE OR ONLINE), AND/OR INSTALLING OR OTHERWISE USING THE GAME PROGRAM, YOU AGREE TO BE LEGALLY BOUND BY THE TERMS OF THIS AGREEMENT WITH BNEE.
+
+The Dark Souls Ⅲ Version, including without limitation any multi-player, online or downloadable portions thereof (the “Game”) is protected by the copyright laws of France, international copyright treaties and conventions and other laws.  The Game is licensed, and not sold, and this agreement confers no title or ownership to the Game program or any copy thereof.  In addition to the terms and conditions hereof, when using particular portions of the Game, including without limitation any multi-player, online, or downloadable content, you may be subject to additional guidelines of third party service providers.</text>
+<text id="602001">
+
+1. PRECONDITIONS OF THE LICENSE.  The grant of license as set forth in Section 2 below is specifically conditioned upon the following:
+a. You have accepted all of the terms in this EULA, and any additional terms as may be applicable to the Game you are playing, which is evidenced by your use of the Game;
+b. You have accepted all of the terms stipulated by PlayStation™Network which is evidenced by your use of the Game; Any content purchased in an in-game store will be purchased from Sony Network Entertainment Europe Limited (“SNEE”) and be subject to Sony Entertainment Network Terms of Service and User Agreement which is available on the PlayStation®Store. Please check usage rights for each purchase as they may differ from item to item. Unless otherwise shown, content available in any in-game store as the same age rating as the game.
+c. You will comply with all of the terms in this EULA until such time as you have completed and permanently terminated your use of the Game by deleting all aspects of the Game from your machine (e.g., account deletion, deletion of Game-related files, destruction of the physical media on which the copy of the Game in your possession exists, etc.);
+d. You will use the Game only on a single home video game entertainment system, running validly licensed copies of operating systems on which the Game was designed to operate (the “Hardware”); and
+e. You will refrain from using any hacks, cracks, bots, or third party Game which may modify, temporarily or permanently, the code or the user experience of the Game, whether on your local machine or on servers which enable use of any features of the Game.</text>
+<text id="602002">
+
+2. LIMITED USE LICENSE.  BNEE grants you the non-exclusive, non-transferable, revocable, limited right and license to use one copy of the Game solely for your personal use with the Hardware.  Commercial use of the Game is prohibited.  To play the Game and/or access any online content related to the Game, you must have legally obtained the Game from BNEE, and all applicable or required Hardware and/or third party game to operate the Game and/or access any online, multi-player or download portion of the Game (which we do not provide).  You are responsible for paying all fees and taxes for any Hardware and other costs you may incur to access the Game, including internet service or other third party charges required to access any multi-player, online or downloadable portions of the Game (if applicable).  Neither this agreement nor use of the Game entitles you to any future releases of the Game, or to any expansions, sequels, or similar or ancillary products. BNEE may, in its sole discretion, change, modify, suspend, or discontinue the Game or any aspect of the Game at any time. BNEE may also impose limits on certain features or restrict your access to parts or all of the Game without notice or liability. You have no interest, monetary or otherwise, in any feature or content contained in the Game. You understand that the Game is provided by BNEE at its discretion and may be terminated or otherwise discontinued by BNEE at any time without notice.   </text>
+<text id="602003">
+
+3. OWNERSHIP.  All intellectual property rights in and to the Game (including but not limited to video, audio and other content incorporated therein or later downloaded) and title to any and all copies thereof are owned by BNEE or its licensors, and you receive no right or interest therein other than the limited license in Section 2 hereof.
+
+You may not do any of the following:
+• Copy the Game except a single backup copy;
+• Sell, rent, lease, license, distribute or otherwise transfer or make the Game available to any other person, in whole or in part, or use the Game or any part thereof in any commercial context, including but not limited to use on a commercial website, or in a service bureau, "cyber cafe", computer gaming center or any other commercial location in which multiple users who have not each separately purchased the Game may access the Game program.  BNEE may offer a separate site license agreement to permit you to make the Game available for commercial use; see the contact information below;
+• Reverse engineer, derive source code, modify, decompile, disassemble, or create derivative works of the Game or any online portion thereof, in whole or in part;
+• Remove, disable or circumvent any proprietary notices or labels contained on or within the Game or any online portion thereof; or
+• Export or re-export the Game or any copy or adaptation in violation of any applicable E.U. export restrictions or other laws or regulations. 
+</text>
+<text id="602004">
+
+4. SECURITY MEASURES/PROTECTIONS.
+Certain security measures may be required in order for you to make full use of the Game, including without limitation the requirement to register the Game with a serial code, the requirement to have continual access to the Internet; and/or the acceptance of security/digital rights management features.  Failure to accept the security measures may partially or completely impair your use of the Game.
+
+</text>
+<text id="602005">
+
+5.  ONLINE CONDUCT.  
+5.1 BNEE does not pre-screen content that may be posted or online chats and does not assume any responsibility or liability for content that is generated by users in connection with the Game.  BNEE does not assume any liability for any failure to remove, or any delay in removing, content. However, we reserve the right to remove or request that the third party service provider remove content that is objectionable to us for any reason. This determination is in our sole discretion and is final.  If BNEE objects to content that you created, BNEE may in its sole discretion (either itself or if applicable by request to the third party service provider): (i) remove content; (ii) give warnings; (iii) restrict your access when you break the rules; or (iv) suspend or terminate your use without any notice to you.  In addition, BNEE , may, in its sole discretion, terminate this agreement, in part, immediately and without notice if your online conduct breaches this agreement or infringes any third party intellectual property rights, or if we are unable to verify or authenticate any information you provide to us.  If we terminate this agreement under these circumstances, you will lose access to any online portions of the Game.  
+
+5.2 You agree that you will be personally responsible for your use of the Game, and for all of your communication and activity in connection with Game, including any content you contribute, and that you will indemnify and hold harmless BNEE, its licensors and each of their respective parents, affiliates, and subsidiary companies and the employees, officers, and directors of each from any liability or damages arising from your conduct in the connection with the Game.  
+
+5.3 BNEE retains the right to suspend your access to the Game without previous notification if you violate the terms of this EULA. You will violate this EULA if you (or others using your online account) do any of the following: 
+• You are not sixteen (16) years or older.
+• Post, transmit, promote, or distribute content that violates any law or regulation. 
+• Harass, threaten, embarrass, or do anything else to another user that is unwanted. 
+• Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights, or in a reasonable person's view, objectionable. Hate speech is not tolerated. 
+• Violate any rules communicated by BNEE from time to time.
+• Promote or encourage any illegal activity including hacking. 
+• Disclose your own or other users’ personal information.
+• Impersonate any person or entity, including any BNEE officials, forum leaders, guides, hosts, employees or agents, or falsely state or otherwise misrepresent your affiliation with a person or entity.
+• Impede or disrupt the Game or the normal flow of game play or dialogue, or use vulgar language, abusiveness, use of excessive shouting (ALL CAPS) "spamming" or any other disruptive or detrimental methods in an attempt to disturb other users.
+• Cheat or utilize unauthorized exploits in connection with the Game.
+• Use or exploit any bugs, errors, or design flaws to obtain unauthorized access to the Game or to gain an unfair advantage over other players.
+• Trade, sell, auction or otherwise transfer any virtual items or goods of any nature outside the Game.
+• Violate any applicable laws including but not limited to copyrights and trademarks, regulations and rules wherever you are using the Game. This includes rules for use of third-party technology and content, rules of interactive service providers, and federal, state, local and foreign laws where applicable.  Ignorance of the law is no excuse. 
+• Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules, or that materially increases the expense or difficulty of BNEE , or the third party service provider (if applicable), in maintaining the Game for the enjoyment of all its users.
+• Intentionally disconnecting from the network during online play, or allowing yourself to be defeated by a given player repeatedly to help boost their rankings or win counts.</text>
+<text id="602006">
+
+
+6. LIMITATION ON DAMAGES.  
+6.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNEE, ITS PARENT, SUBSIDIARIES, SUPPLIERS OR LICENSORS OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, OR AGENTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE POSSESSION, USE OF OR INABILITY TO USE THE GAME OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCTS LIABILITY, INTELLECTUAL PROPERTY INFRINGEMENT, OR ANY OTHER THEORY.  IN ANY CASE, BNEE'S AND ITS LICENSORS’ ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE GAME.   
+
+6.2 BNEE AND ITS LICENSORS MAKE NO PROMISE OR WARRANTY THAT THE GAME WILL WORK PROPERLY.  YOU ACKNOWLEDGE AND AGREE THAT BNEE AND ITS LICENSORS ARE NOT RESPONSIBLE OR LIABLE FOR (1) ANY VIRUSES OR OTHER DISABLING FEATURES THAT AFFECT YOUR ACCESS TO OR USE OF THE GAME, (2) ANY INCOMPATIBILITY BETWEEN THE GAME, AND OTHER SERVICES, GAME AND HARDWARE, OR (3) ANY DELAYS OR FAILURES YOU MAY EXPERIENCE IN INITIATING, CONDUCTING OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER.  THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.”  EXCEPT AS DESCRIBED HEREIN OR IN OUR LIMITED WARRANTY ACCOMPANYING THE GAME, BNEE AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF  TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  BNEE does not ensure continuous, error free, secure or virus-free operation of any online, multi-player or downloadable portions of the Game or continued operation or availability of any given server.  
+
+6.3 BNEE is not liable for any delay or failure to perform resulting from any causes beyond our reasonable control.  Further, BNEE cannot and does not promise or ensure that you will be able to access the online, multi-player or downloadable portions of the Game whenever you want, and there may be extended periods of time when you cannot access such portions of the Game.</text>
+<text id="602007">
+
+7. TERMINATION/SUPSENSION OF SERVICE.  BNEE retains the right, at its sole discretion, to either terminate or suspend immediately your access to the Game. If BNEE terminates or suspends your access to the Game, you will: (i) lose access to the Game upon termination and/or for the duration of the suspension and/or (ii) lose the balance of any items, points, or character progress in the Game.  In the event the Game is terminated, you must destroy all copies of the Game and all of its component parts.</text>
+<text id="602008">
+
+
+8.  PRIVACY. BNEE respects your privacy rights and is committed to protecting your personal information.  Any personal information supplied by you to BNEE online or via any BNEE controlled website will be subject to the privacy policy posted at http://www.bandainamcoent.eu/pivacy-policy. Notwithstanding what is stated in the privacy policy, if you use any online services, such as online play or the downloading and uploading of content, BNEE and its affiliates may also collect, use, store, transmit and publicly display statistical data regarding game play (including scores, rankings and achievements), or identify content that is created and shared by you with other players.  
+</text>
+<text id="602009">
+
+9. INJUNCTION.  Because BNEE would be irreparably damaged if the terms of this agreement were not specifically enforced, you agree that BNEE and/or its licensors shall be entitled, without bond, other security or proof of damages, to appropriate equitable remedies with respect to breaches of this agreement, in addition to such other remedies as BNEE may otherwise have under applicable laws.</text>
+<text id="602010">
+
+10. INDEMNITY.  You agree to indemnify, defend and hold BNEE, its licensors and each of their respective partners, affiliates, contractors, officers, directors, employees and agents harmless from all damages, losses and expenses arising directly or indirectly from your acts and omissions to act in using the Game pursuant to the terms of this agreement. </text>
+<text id="602011">
+
+
+11. APPLICABLE LAW AND JURISDICTION. This Agreement shall be interpreted in accordance with and governed by the laws of France. Any dispute arising in connection with this Agreement, which cannot be settled amicably after reasonable efforts, shall be submitted to the jurisdiction of the Commercial Court of Lyon.</text>
+<text id="602012">
+
+12. MISCELLANEOUS. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced.  BNEE’s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches.  You may not assign or transfer this Agreement or your rights hereunder, and any attempt to the contrary is void. This Agreement sets forth the entire understanding and agreement between BNEE and you with respect to the subject matter hereof. </text>
+<text id="602013">
+
+13. RELATIONSHIP TO OTHER TERMS OF USE.  This EULA applies to all online service, content, Games, and products, and may be incorporated in to additional Game-specific terms of use.  In the event of a conflict between this EULA and a Game-specific terms of use document, this EULA shall control (unless specifically stated otherwise in the Game-specific terms of use).</text>
+<text id="602014">
+
+
+If you have any questions concerning this license, you may contact BNEE through BNEE customer service at www.bandainamcoent.eu or BANDAI NAMCO Entertainment Europe, 49-51, rue des Docks – CS 90618 – 69258 Lyon Cedex 09 – France. </text>
+<text id="602015">%null%</text>
+<text id="602016">%null%</text>
+<text id="602017">%null%</text>
+<text id="602018">%null%</text>
+<text id="602019">%null%</text>
+<text id="602020">%null%</text>
+<text id="602021">%null%</text>
+<text id="602022">%null%</text>
+<text id="602023">%null%</text>
+<text id="603000">Terms and Conditions</text>
+<text id="603001">
+
+BANDAI NAMCO ENTERTAINMENT ASIA PTE LTD
+
+DARK SOULS™ III
+
+END USER LICENSE AGREEMENT (“EULA”)
+
+IMPORTANT - READ CAREFULLY:  
+
+This End User License Agreement (“EULA”) may be updated from time to time. Your continued use of this software after a revised version has been posted or communicated to you constitutes acceptance by you of its terms.
+
+THE BANDAI NAMCO ENTERTAINMENT’S VIDEO GAME YOU ARE USING (WHICH INCLUDES COMPUTER GAME, MEDIA, AND RELATED DOCUMENTATION IN PRINTED OR ELECTRONIC FORM) IS LICENSED TO YOU ON THE TERMS SET FORTH BELOW, WHICH CONSTITUTE A LEGAL AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT ASIA PTE LTD ("BNE ASIA").  BY PLAYING THE VIDEO GAME (EITHER ON YOUR HOME CONSOLE OR ONLINE), AND/OR INSTALLING OR OTHERWISE USING THE GAME PROGRAM, YOU AGREE TO BE LEGALLY BOUND BY THE TERMS OF THIS AGREEMENT WITH BNE ASIA.   
+
+The Dark Souls III game, including without limitation any multi-player, online, or downloadable portions thereof (the “Game”) is protected by the copyright laws of Singapore, international copyright treaties and conventions and other laws.  The Game is licensed, and not sold, and this agreement confers no title or ownership of the Game program or any copy thereof.  In addition to the terms and conditions hereof, when using particular portions of the Game, including without limitation any multi-player, online or downloadable content, you may be subject to additional guidelines of third party service providers.</text>
+<text id="603002">
+
+1. PRECONDITIONS OF THE LICENSE.  The grant of license as set forth in Section 2 below is specifically conditioned upon the following:
+
+a. You have accepted all of the terms in this EULA, and any additional terms as may be applicable to the Game you are playing, which is evidenced by your use of the Game;
+
+b. You will comply with all of the terms in this EULA until such time as you have completed and permanently terminated your use of the Game by deleting all aspects of the Game from your machine (e.g., account deletion, deletion of Game-related files, destruction of the physical media on which the copy of the Game in your possession exists, etc.);
+
+c. You will use the Game only on a single home videogame entertainment system running validly licensed copies of operating systems on which the Game was designed to operate (the “Hardware”); and
+
+d. You will refrain from using any hacks, cracks, bots, or third party Game which may modify, temporarily or permanently, the code or the user experience of the Game, whether on your local machine or on servers which enable use of any features of the Game.
+</text>
+<text id="603003">
+
+2. LIMITED USE LICENSE.  BNE ASIA grants you the non-exclusive, non-transferable, revocable, limited right and license to use one copy of the Game solely for your personal use with the Hardware.  Commercial use of the Game is prohibited. To play the Game and/or access any online content related to the Game, you must have legally obtained the Game from BNE ASIA, and all applicable or required Hardware and/or third party game to operate the Game and/or access any online, multi-player or download portion of the Game (which we do not provide).  You are responsible for paying all fees and taxes for any Hardware and other costs you may incur to access the Game, including internet service or other third party charges required to access any multi-player, online or downloadable portions of the Game (if applicable).  Neither this agreement nor use of the Game entitles you to any future releases of the Game, nor to any expansions, sequels or similar or ancillary products. BNE ASIA may, on its sole discretion, change, modify, suspend or discontinue the Game or any aspect of the Game at any time. BNE ASIA may also impose limits on certain features or restrict your access to parts or all of the Game without notice or liability. You have no interest, monetary or otherwise, in any feature or content contained in the Game. You understand that the Game is provided by BNE ASIA at its discretion and may be terminated or otherwise discontinued by BNE ASIA at any time without notice.   </text>
+<text id="603004">
+
+3. OWNERSHIP.  All intellectual property rights in and to the Game (including but not limited to video, audio and other content incorporated therein or later downloaded) and title to any and all copies thereof are owned by BNG ASIA or its licensors, and you receive no right or interest therein other than the limited license in Section 2 hereof.
+
+You may not do any of the following:
+･Copy the Game except a single backup copy;
+･Sell, rent, lease, license, distribute or otherwise transfer or make the Game available to any other person, in whole or in part, or use the Game or any part thereof in any commercial context, including but not limited to use on a commercial website or in a service bureau, "cyber cafe", computer gaming center or any other commercial location in which multiple users who have not each separately purchased the Game may access the Game program. BNG ASIA may offer a separate site license agreement to permit you to make the Game 
+available for commercial use; see the contact information below;
+･Reverse engineer, derive source code, modify, decompile, disassemble or create derivative works of the Game or any online portion thereof, in whole or in part;
+･Remove, disable or circumvent any proprietary notices or labels contained on or within the Game or any online portion thereof; or
+･Export or re-export the Game or any copy or adaptation in violation of any applicable Singapore export restrictions or other laws or regulations. 
+
+</text>
+<text id="603005">
+
+4.    SECURITY MEASURES/PROTECTIONS.
+Certain security measures may be required in order for you to make full use of the Game, including without limitation the requirement to register the Game with a serial code, the requirement to have continual access to the Internet, and/or the acceptance of security/digital rights management features.  Failure to accept the security measures may partially or completely impair your use of the Game.
+
+</text>
+<text id="603006">
+
+5.  ONLINE CONDUCT.  
+5.1 BNE ASIA does not pre-screen content that may be posted and does not assume any responsibility or liability for content that is generated by users in connection with the Game. BNE ASIA does not assume any liability for any failure to remove, or any delay in removing, content. However, we reserve the right to remove or request that the third party service provider remove content that is objectionable to us for any reason. This determination is in our sole discretion and is final. If BNE ASIA objects to content that you created, BNE ASIA may in its sole discretion (either itself or if applicable by request to the third party service provider): (i) remove content; (ii) give warnings; (iii) restrict your access when you break the rules; or (iv) suspend or terminate your use without any notice to you. In addition, BNE ASIA, may, on its sole discretion, terminate this agreement, in part, immediately and without notice if your online conduct breaches this agreement or infringes any third party intellectual property rights, or if we are unable to verify or authenticate any information you provide to us.  If we terminate this agreement under these circumstances, you will lose access to any online portions of the Game.  
+
+5.2 You agree that you will be personally responsible for your use of the Game, and for all of your communication and activity in connection with Game, including any content you contribute, and that you will indemnify and hold harmless BNE ASIA, its licensors and each of their respective parents, affiliates, and subsidiary companies and the employees, officers, and directors from any liability or damages arising from your conduct in connection with the Game.  
+
+5.3 BNE ASIA retains the right to suspend your access to the Game without previous notification if you violate the terms of this EULA. You will violate this EULA if you (or others using your online account) do any of the following: 
+• You are not eighteen (18) years or older.
+• Post, transmit, promote or distribute content that violates any law or regulation. 
+• Harass, threaten, embarrass, or do anything else to another user. 
+• Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights or in a reasonable person's view  Hate speech is not tolerated. 
+• Violate any rules communicated by BNE ASIA from time to time.
+• Promote or encourage any illegal activity including hacking. 
+• Disclose your own or other users’ personal information.
+• Impersonate any person or entity, including any BNE ASIA officials, forum leaders, guides, hosts, employees or agents, or falsely state or otherwise misrepresent your affiliation with a person or entity.
+• Impede or disrupt the Game or the normal flow of game play or dialogue, or use vulgar language, abusiveness, use of excessive shouting (ALL CAPS) "spamming" or any other disruptive or detrimental methods in an attempt to disturb other users.
+• Cheat or utilize unauthorized exploits in connection with the Game.
+• Use or exploit any bugs, errors or design flaws to obtain unauthorized access to the Game or to gain an unfair advantage over other players.
+• Trade, sell, auction or otherwise transfer any virtual items or goods of any nature outside the Game.
+• Violate any applicable laws including but not limited to copyrights and trademarks, regulations and rules wherever you are using the Game. This includes rules for use of third-party technology and content, rules of interactive service providers, and state, local and foreign laws where applicable.  Ignorance of the law is no excuse. 
+• Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules, or that materially increases the expense or difficulty of BNE ASIA, or the third party service provider (if applicable) of maintaining the Game for the enjoyment of all its users.
+• Intentionally disconnecting from the network during online play, or allowing yourself to be defeated by a given player repeatedly to help boost their rankings or win counts.
+
+</text>
+<text id="603007">
+
+6. USER-GENERATED CONTENT.
+ In exchange for use of the Game, and to the extent that your contributions through use of the Game give rise to any copyright interest, you hereby grant BNE ASIA an exclusive, perpetual, irrevocable, royalty-free, fully transferable and sub-licensable worldwide right and license to use your contributions in any way and for any purpose in connection with the Game and related goods and services including the rights to reproduce, copy, adapt, modify, perform, create derivative works from, display, publish, broadcast, transmit, or otherwise use, distribute, exploit and communicate to the public by any and all means and media whether now known or hereafter devised without any further notice or compensation of any kind to you for the whole duration of protection granted to intellectual property rights by applicable laws and international conventions. To the extent permitted by applicable law, you hereby waive any moral rights of paternity, publication, reputation, or attribution with respect to BNE ASIA and other players’ use and enjoyment of such assets in connection with the Game and related goods and services under applicable law.  The license grant to BNE ASIA, and the above waiver of any applicable moral rights, survives any termination or revocation of this EULA.
+</text>
+<text id="603008">
+
+7. LIMITATION ON DAMAGES.  
+7.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNE ASIA, ITS PARENT, SUBSIDIARIES, SUPPLIERS OR LICENSORS OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTOR OR AGENTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE POSSESSION, USE OF OR INABILITY TO USE THE GAME OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCTS LIABILITY, INTELLECTUAL PROPERTY INFRINGEMENT OR ANY OTHER THEORY.  IN ANY CASE, BNE ASIA'S AND ITS LICENSORS’ ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE GAME.   
+
+7.2 BNE ASIA AND ITS LICENSORS MAKE NO PROMISE OR GUARANTEE THAT THE GAME WILL WORK PROPERLY.  YOU ACKNOWLEDGE AND AGREE THAT BNE ASIA AND ITS LICENSORS ARE NOT RESPONSIBLE OR LIABLE FOR (1) ANY VIRUSES OR OTHER DISABLING FEATURES THAT AFFECT YOUR ACCESS TO OR USE OF THE GAME, (2) ANY INCOMPATIBILITY BETWEEN THE GAME, AND OTHER SERVICES, GAME AND HARDWARE, OR (3) ANY DELAYS OR FAILURES YOU MAY EXPERIENCE IN INITIATING, CONDUCTING OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER.  THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.”  EXCEPT AS DESCRIBED HEREIN OR IN OUR LIMITED WARRANTY ACCOMPANYING THE GAME, BNE ASIA AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  BNE ASIA does not ensure continuous, error free, secure or virus-free operation of any online, multi-player or downloadable portion of the Game or continued operation or availability of any given server.
+
+7.3 BNE ASIA is not liable for any delay or failure to perform resulting from any causes beyond our reasonable control.  Further, BNE ASIA cannot and does not promise or ensure that you will be able to access the online, multi-player or downloadable portions of the Game whenever you want, and there may be extended periods of time when you cannot access such portions of the Game.
+</text>
+<text id="603009">
+
+8. TERMINATION/SUPSENSION OF SERVICE.  BNE ASIA retains the right, at its sole discretion, to either terminate or suspend your access to the Game. If BANDAI NAMCO terminates or suspends your access to the Game, you will: (i) lose access to the Game upon termination and/or for the duration of the suspension and/or (ii) lose the balance of any items, points or character progress in the Game.  In the event the Game is terminated, you must destroy all copies of the Game and all of its component parts.</text>
+<text id="603010">
+
+9.  PRIVACY. BNE ASIA respects your privacy rights and is committed to protecting your personal information.  Any personal information supplied by you to BNE ASIA online or via any BNE ASIA controlled website will be subject to the privacy policy posted at https://www.bandainamcoent.com.au/. Notwithstanding what is stated in the privacy policy, if you use any online services, such as online play or the downloading and uploading of content, BNE ASIA and its affiliates may also collect, use, store, transmit and publicly display statistical data regarding game play (including scores, rankings and achievements), or identify content that is created and shared by you with other players.  </text>
+<text id="603011">
+
+10. INJUNCTION.  Because BNE ASIA would be irreparably damaged if the terms of this agreement were not specifically enforced, you agree that BNE ASIA and/or its licensors shall be, without bond, other security or proof of damages, to appropriate equitable remedies with respect to breaches of this agreement, in addition to such other remedies as BNE ASIA may otherwise have under applicable laws.
+</text>
+<text id="603012">
+
+11. INDEMNITY.  You agree to indemnify, defend and hold BNE ASIA, its licensors and each of their respective partners, affiliates, contractors, officers, directors, employees and agents harmless from all damages, losses and expenses arising directly or indirectly from your acts and omissions to act in using the Game pursuant to the terms of this agreement. 
+</text>
+<text id="603013">
+
+12.  APPLICABLE LAW AND JURISDICTION. This Agreement shall be interpreted in accordance with and governed by the laws of Singapore. </text>
+<text id="603014">
+
+13. MISCELLANEOUS. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced.  BNE ASIA’s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches.  You may not assign or transfer this Agreement or your rights hereunder, and any attempt to the contrary is void. This Agreement sets forth the entire understanding and agreement between BNE ASIA and you with respect to the subject matter hereof. 
+</text>
+<text id="603015">
+
+14. RELATIONSHIP TO OTHER TERMS OF USE.  This EULA applies to all online service, content, Games and products, and may be incorporated into additional Game-specific terms of use.  In the event of a conflict between this EULA and Game-specific terms of use document, this EULA shall control (unless specifically stated otherwise in the Game-specific terms of use).</text>
+<text id="603016">
+
+If you have any questions concerning this license, you may contact BNE ASIA through BNE ASIA customer service at support@bandainamcoent.asia or BNE ASIA, 298 Tiong Bahru Road, Central Plaza ##11-01/02 Singapore 168730. 
+
+</text>
+<text id="603017">%null%</text>
+<text id="603018">%null%</text>
+<text id="603019">%null%</text>
+<text id="603020">%null%</text>
+<text id="603021">%null%</text>
+<text id="603022">%null%</text>
+<text id="603023">%null%</text>
+<text id="610000">DARK SOULS Ⅲ 日本リージョン向け利用規約ダミーテキスト：PS4：日本リージョン：英語
+
+第１条
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+</text>
+<text id="610001">第２条
+
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと
+あいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてとあいうえおかきくけこさしすせそたちつてと</text>
+<text id="610002">%null%</text>
+<text id="610003">%null%</text>
+<text id="610004">%null%</text>
+<text id="610005">%null%</text>
+<text id="610006">%null%</text>
+<text id="610007">%null%</text>
+<text id="610008">%null%</text>
+<text id="610009">%null%</text>
+<text id="610010">%null%</text>
+<text id="610011">%null%</text>
+<text id="610012">%null%</text>
+<text id="610013">%null%</text>
+<text id="610014">%null%</text>
+<text id="610015">%null%</text>
+<text id="610016">%null%</text>
+<text id="611000">Terms and Conditions</text>
+<text id="611001">
+
+BANDAI NAMCO ENTERTAINMENT AMERICA INC.
+END USER LICENSE AGREEMENT (or “EULA”) FOR
+GAME TITLE: DARK SOULS™ III: THE FIRE FADES™ EDITION
+EFFECTIVE DATE: APRIL 21, 2017
+ 
+  
+IMPORTANT: YOUR ACCEPTANCE OF THE TERMS SET FORTH IN THIS EULA FORMS A LEGALLY BINDING AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT AMERICA INC. (“BNEA”) RELATING TO A PARTICULAR GAME. IN ADDITION TO GRANTING CERTAIN RIGHTS AND IMPOSING CERTAIN OBLIGATIONS, THE TERMS OF THAT AGREEMENT MAY REQUIRE YOU AND BNEA TO RESOLVE CERTAIN DISPUTES THROUGH MANDATORY, BINDING ARBITRATION (SEE SUBSECTION 16.a) AND TO WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS ACTION RELATING TO SUCH DISPUTES (SEE SUBSECTION 16.b). WHILE THE ARBITRATION AND CLASS ACTION WAIVER PROVISIONS WILL ONLY APPLY TO RESIDENTS OF THE UNITED STATES OF AMERICA, BNEA STRONGLY ADVISES YOU TO READ THE FOLLOWING TERMS CAREFULLY BEFORE ACCEPTING. 
+
+PURCHASE AND USE OF ITEMS ARE SUBJECT TO THE NETWORK TERMS OF SERVICE AND USER AGREEMENT. THIS ONLINE SERVICE HAS BEEN SUBLICENSED TO YOU BY SONY INTERACTIVE ENTERTAINMENT AMERICA (THE “PLATFORM OPERATOR”). YOUR USE OF THE GAME IS ALSO SUBJECT TO THE TERMS AND CONDITIONS SET FORTH IN SONY INTERACTIVE ENTERTAINMENT AMERICA’S NETWORK TERMS OF SERVICE AND SONY INTERACTIVE ENTERTAINMENT LLC’s PLAYSTATION®4 SYSTEM SOFTWARE LICENSE AGREEMENT AND/OR ANY OTHER TERMS AND AGREEMENTS APPLICABLE TO THE HARDWARE, AS DEFINED BELOW.
+
+  
+IF THIS DOCUMENT HAS BEEN PRESENTED TO YOU IN A LANGUAGE OTHER THAN ENGLISH, PLEASE NOTE THAT ANY DISAGREEMENT OR INCONSISTENCY BETWEEN THE TERMS OF THE ENGLISH LANGUAGE VERSION AND THE VERSION PRESENTED TO YOU SHALL BE RESOLVED IN FAVOR OF THE ENGLISH LANGUAGE VERSION, TO THE EXTENT PERMITTED BY APPLICABLE LAW.</text>
+<text id="611002">
+
+PLEASE READ THE FOLLOWING CAREFULLY:
+  
+1. DEFINITIONS. Throughout this EULA, certain capitalized words and phrases have been given specific definitions, which can be identified wherever those words or phrases first appear in quotes. For example, for the purposes of this EULA, “You” refers to any individual, natural person that has lawfully obtained a copy of the Game (including by downloading any updates or patches for the Game) and subsequently installed, accessed, played, or otherwise used that copy of the Game, in any way. </text>
+<text id="611003">
+
+2. EFFECTIVE DATE. If, at any time, on or after the Effective Date first set forth above (the “Effective Date”), You first obtained a copy of the Game, were presented with these terms (including as a hyperlink to an online copy of this EULA, or as packaged with, or embedded in a copy of the Game), and then subsequently installed, accessed, played, or otherwise used a copy of the Game, in any way, You and BNEA are legally bound by the terms of this EULA until either: (i) this EULA is terminated by You or by BNEA, as permitted by its terms; or (ii) this EULA is superseded by the terms of an updated end user license agreement for the Game that was presented to, and accepted by You after the Effective Date.</text>
+<text id="611004">
+
+3. INTELLECTUAL PROPERTY RIGHTS IN THE GAME. The Game is licensed, not sold, to You for use only under the terms of this EULA, unless superseded by a separate written license agreement, executed by an authorized representative of BNEA, in which case the terms of that separate BNEA license agreement will control over any terms of this EULA. Except for the rights granted under the limited License expressly set forth below, all intellectual property rights in and to the Game Title first referenced above (which includes the software stored on any tangible recording media purchased by You and any Virtual Items, Game Currency, and any video, audio, and other content incorporated therein or later downloaded (collectively, the “Game”) and all title and interest therein, are owned exclusively by BNEA and/or its licensors and are protected by domestic and foreign copyright laws and international treaties. Except as required by applicable law, the License granted to You by BNEA does not convey to You, nor authorize you to earn or acquire any interest, monetary or otherwise, in any element, feature, or content contained in or relating to the Game. As between You and BNEA, BNEA reserves all rights in and to the Game that are not expressly granted to You through this EULA.</text>
+<text id="611005">
+
+4. PRECONDITIONS OF THE LICENSE. The License granted in this EULA is specifically conditioned upon the following and Your full compliance with all other terms and conditions set forth in this EULA:
+-You have reached the age of majority in Your jurisdiction. If You are under the age of majority in Your jurisdiction, Your legal representative (e.g., a parent or a person who has legal parental authority over You) must agree on Your behalf to comply, and take full responsibility for Your compliance, with this EULA prior to Your use of the Game; 
+-You agree to and comply with all of the terms in this EULA, and any additional terms as may be applicable to the Game, which acceptance is evidenced by Your access to and use of the Game;
+-You agree not to download, install, access, play, or otherwise use the Game in any way except on devices owned or controlled exclusively by You, running validly-licensed copies of operating systems on which the Game is designed to operate and which meet the minimum requirements set by BNEA (collectively, the “Hardware”);
+-You do not use any hacks, cracks, bots, or third-party software that may modify or copy, temporarily or permanently, the code or the user experience of the Game, whether on Your Hardware or on servers that enable use of any features of the Game;
+-You have accepted and are in compliance with all terms and conditions of the Platform Operator from which Your Hardware will download, install, or access any copy of the Game, any updates to the Game, or through which any monetary transactions conducted in connection with the Game may be performed; and
+-You have fully complied with all security measures necessary for You to make full use of the Game, which may include the requirement to register the Game with a serial code, the requirement to have continuous access to the Internet, and/or the acceptance of certain security/digital rights management features. Your failure or inability to fully comply with such security measures may impair or prevent You from accessing or making use of the Game, its Online Features, Virtual Items, Game Currency, or Purchased Game Currency.</text>
+<text id="611006">
+
+5. LIMITED USE LICENSE. Subject to your strict compliance with the terms of this EULA, BNEA grants You a non-exclusive, non-transferable, revocable, limited right and license to access and use one copy of the Game solely for Your personal use, on Your Hardware (the “License”). Any commercial use of the Game by You is strictly prohibited. To access and use the Game, You must have legally obtained the Game from BNEA and all Hardware and/or third-party products and services required to operate the Game and/or access any Online Feature of the Game that BNEA does not provide. You are responsible for paying all fees, taxes, and other costs You may incur to access and use the Game, including, but not limited to, costs for purchasing or maintaining Your Hardware, Your Internet service, and any other third-party products or services required to access any Online Feature of the Game. Neither this EULA nor Your access to or use of the Game entitles You to any future releases of the Game or any expansions, sequels, or similar or ancillary products. You have no interest, monetary or otherwise, in any feature or content contained in or relating to the Game.</text>
+<text id="611007">
+
+6. OWNERSHIP. All intellectual property rights in and to the Game (including, but not limited to such rights in any video, audio, and other content incorporated therein or subsequently downloaded) and all title and interest to any and all copies thereof are owned exclusively by BNEA and/or its licensors and You receive no right or interest therein, except for the limited License expressly provided herein. Without limiting the foregoing, You are expressly prohibited from:
+-Copying the Game (except for making a single backup copy);
+-Selling, renting, leasing, licensing, sublicensing, distributing, or otherwise transferring or making the Game available to any other person, in whole or in part;
+-Using the Game or any part thereof in any commercial context, including, but not limited to, on a commercial website or in a service bureau, “cyber café,” computer gaming center, or any other commercial location in which a user may access or use the Game or the Game’s elements who has not purchased or been authorized by BNEA;
+-Reverse engineering, deriving source code, modifying, decompiling, disassembling, or creating derivative works of the Game or any portion thereof, in whole or in part;
+-Removing, disabling, or circumventing any proprietary notices or labels contained on or in the Game or any Online Feature thereof; or
+-Exporting or re-exporting the Game or any copy or adaptation thereof, directly or indirectly, in violation of any U.S. laws, including without limitation any applicable export restrictions. </text>
+<text id="611008">
+
+7. ONLINE FEATURES, VIRTUAL ITEMS, &amp; GAME CURRENCY.
+a. Online Features. Through the Game, You may also be permitted to access certain online or downloadable features or functionality which may include online multi-player functionality, “multiplayer-only” in-Game content, downloadable “patches” and other software updates for the Game, the Online Store (as defined below), and additional content, such as Virtual Items or Game Currency (as defined below) that were not fully-included or made accessible in the copy of the Game initially obtained by You (collectively, “Online Features”). Notwithstanding any License granted by BNEA under this EULA, You may not be able to access Online Features of the Game unless you have satisfied, and have continued to satisfy certain requirements, such as Your location, the location of Your residence, Your age, Your ability to obtain lawful access to the internet, and the ability of Your Hardware to establish and maintain a secure internet connection. Please refer to Your agreements with the Platform Operator for more information about any requirements that must be satisfied to access any Online Features of the Game. Except as required by applicable law, BNEA cannot and will not guarantee Your access to any Online Feature of the Game, and hereby expressly disclaims any liability arising from Your inability to access any Online Feature of the Game, for any reason.
+b. Virtual Items &amp; Game Currency. Through the Game, BNEA may offer You the opportunity to obtain a limited License for certain virtual goods or services within the Game (collectively, “Virtual Items”) by completing certain in-Game tasks or activities, as specified therein. Certain Virtual Items may be redeemed, by You, within the Game (collectively, “Game Currency”) to obtain a limited License for other Virtual Items or other forms of Game Currency. Notwithstanding the foregoing, except as prohibited by applicable law or as expressly set forth in this EULA, all Virtual Items and Game Currency: (i) are subject to the License terms set forth in Section 5, above, regardless of how obtained; (ii) do not have any equivalent value, may not be used as a substitute for, and may not be redeemed or exchanged for real currency; (iii) may not be redeemed, transferred, sold, exchanged, traded, leased, sublicensed, or rented, except as may be expressly permitted by BNEA, solely within the Game; (iv) may be subject to actions, undertaken by BNEA in its sole discretion, that may impact the perceived value of such Virtual Items or Game Currency, including by managing, modifying, suspending, and/or removing such Virtual Items or Game Currency from the Game without prior notice to You; and (v) will be subject to the same age rating as the Game. 
+c. Termination of License to Virtual Items &amp; Game Currency. Except as otherwise required by applicable law or expressly set forth in this EULA, Your License to any Virtual Items or Game Currency will terminate upon the earlier occurrence of either: (i) Your consumption or loss of such Virtual Items through normal play or usage of the Game (including the Game’s Online Features); (ii) Your redemption or exchange of such Game Currency for any other Virtual Item or other form of Game Currency; or (iii) termination of this EULA, as expressly permitted herein. Except as otherwise prohibited by applicable law, BNEA reserves and retains all rights, title, and interest in and to all Virtual Items and Game Currency.
+d. Online Store, Purchased Virtual Items, &amp; Purchased Game Currency. The Game’s Online Features may also include or enable You to access an online marketplace, administered by the Game’s Platform Operator (the “Online Store”), through which You may be permitted to create an account, maintain an account balance, and/or purchase a limited License to certain Virtual Items (collectively, “Purchased Virtual Items”) and/or Game Currency (collectively, “Purchased Game Currency”). Once the Platform Operator has processed any payment required from You, Your license to any corresponding Purchased Virtual Items or Purchased Game Currency will be activated or made accessible in or through the copy of the Game on Your Hardware, automatically, or by following and completing any necessary instructions provided to You at the time of Your purchase. In the event Your payment has been processed, but the License to the corresponding Purchased Virtual Items or Purchased Game Currency has not been activated or made accessible as described above, please contact the Platform Operator’s customer support line, which may be found in Your agreement(s) with, or on the official website of such Platform Operator. Except for the purchase price applicable to any Purchased Virtual Items or Purchased Game Currency, BNEA will not charge You any additional fees to access, use, or to refrain from using any Purchased Virtual Items or Purchased Game Currency. Except as otherwise required by applicable law or expressly set forth in this EULA, all purchases of Purchased Virtual Items and Purchased Game Currency are final and are not refundable, transferable, or exchangeable and will be deemed delivered to and accepted by You once the corresponding License is activated or made accessible in or through the copy of the Game on Your Hardware. Without limiting the foregoing, Purchased Game Currency will be redeemed upon the earlier occurrence of either: (i) Your election to exchange such Purchased Game Currency for a limited License to any other Virtual Item, including any other form of Game Currency, within the Game; or (ii) issuance of a refund to You of the amount paid to purchase the limited License for such Purchased Game Currency, if required by applicable law. Except as otherwise prohibited by applicable law, any monetary value paid for a limited License to any Purchased Game Currency will be nullified by Your redemption of such Purchased Game Currency and will not carry over or persist in any other Virtual Items or other forms of Game Currency obtained through such redemption.</text>
+<text id="611009">
+
+8. PRIVACY. BNEA respects Your privacy rights. Any personal information supplied by You to BNEA through the Game’s Online Features will be subject to the privacy policy accessible through the Game and available prior to downloading any copy of the Game from the Platform Operator. By accessing and using this Game, You acknowledge and agree that, subject to the applicable privacy policy and applicable law, the Game may use tracking technologies, including pixel tags, logs files, and other technologies native to Your Hardware and may periodically collect technical data and related information from your Hardware, including but not limited to information about Your Hardware’s operating system, peripheral devices, and other software applications running in connection with the Game, which may be used to facilitate the provision of software updates, product support, and other related services to You, in connection with Your access to and use of the Game. You further acknowledge and agree that BNEA may use such information, in a form that does not personally identify You, including for the purpose of improving its products and providing its services or technologies to You.</text>
+<text id="611010">
+
+9. THIRD PARTY SERVICES. You further acknowledge that, subject to the applicable BNEA privacy policy and applicable law, the Game may enable integration with and access to certain third party services for Your convenience, which may require accessing the Internet, purchasing access to such third party services, and/or entering into a separate agreement with the third party provider of such services. Notwithstanding the foregoing, BNEA reserves the right to change, suspend, remove, or disable access or integration between the Game and any such third party services at any time, without prior notice. Accordingly, to the fullest extent of applicable law, Your use of the Game constitutes your acknowledgement and acceptance that: (i) BNEA is not affiliated with, does not endorse, and has no authority to exercise direct control over the third party providers of such services; (ii) BNEA is not responsible for examining or evaluating the accuracy, completeness, timeliness, validity, legality, decency, quality, or any other aspect of such third party services, or the privacy practices of such third parties, which may differ from those of BNEA; and (iii) Your access to and use of any such third party services shall be at Your sole initiative and risk; (iv) any costs incurred in connection with accessing or using such third party services, including ensuring your access to and use of such third party services is in compliance with all applicable laws, shall be borne by You; (v) You are solely responsible for compliance with any terms, conditions or laws applicable to your access to and use of such third party services; and (vi) except as otherwise expressly set forth in this EULA, BNEA will not be liable for any failure or loss of access to or use of such third party services, even if caused by BNEA’s termination of access to such third party services through or in connection with the Game. </text>
+<text id="611011">
+
+10. USER-GENERATED CONTENT. In exchange for access to and use of the Game and to the extent that You create content through access to and use of the Game (“User-Generated Content”), You hereby grant BNEA an exclusive, perpetual, irrevocable, royalty-free, fully transferable, and sub-licensable worldwide right and license to use User-Generated Content in any way and for any purpose in connection with the Game and related goods and services, including the rights to reproduce, copy, adapt, modify, perform, create derivative works from, display, publish, broadcast, transmit, or otherwise use, distribute, exploit, and communicate to the public by any and all means and media whether now known or hereafter devised without any further notice or compensation of any kind to You for the whole duration of protection granted to intellectual property rights by applicable laws and international conventions. To the extent permitted by applicable law, You hereby waive any moral rights of paternity, publication, reputation, or attribution with respect to BNEA’s and other players’ use and enjoyment of such assets in connection with the Game and related goods and services under applicable law. The license granted to BNEA, and the above waiver of any applicable moral rights, shall survive any termination of this EULA.</text>
+<text id="611012">
+
+11. ONLINE CONDUCT.
+a. BNEA does not screen content of postings or online chats through the Game’s Online Features, before such content is shown to You and does not assume any responsibility or liability for User-Generated Content, including for any failure to remove, or any delay in removing, User-Generated Content. However, BNEA expressly disclaims any expectation of privacy with respect to any User-Generated Content You may create or contribute through the Game, including through any forum posting or online chats, and reserves the right to review all such User-Generated Content whenever BNEA reasonably suspects a violation of this Section, or any other provision of this EULA may have occurred. BNEA may, but is not obligated to store all such User-Generated Content for a period of no fewer than ninety (90) days. Without limiting any of its other rights and remedies under this EULA or applicable law, if BNEA objects to any User-Generated Content for any reason, BNEA, in its sole discretion may (either itself or, if applicable, by request to the Platform Operator): (a) remove the User-Generated Content; (b) give warnings to applicable persons; and/or (c) restrict, suspend, or terminate access to and use of the Game’s Online Features without prior notice.
+b. You agree that You will be personally responsible for Your access to and use of the Game’s Online Features, and for all of Your communication and activity in connection with the Game, including any User-Generated Content.
+c. In connection with any activity performed through the Game’s Online Features, You agree not to:
+-Harass, threaten, embarrass, or do anything else to another user of the Game that is unwanted, as determined by BNEA in its sole discretion. 
+-Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights, or objectionable, as determined by BNEA in its sole discretion. Hate speech is not tolerated. 
+-Violate any terms or policies communicated by BNEA from time to time.
+-Promote or encourage any illegal activity, including hacking. 
+-Disclose Your own or other users’ personal information to third parties.
+-Impersonate any person or entity, including any BNEA officials, forum leaders, guides, hosts, employees, or agents, or falsely state or otherwise misrepresent Your affiliation with a person or entity.
+-Impede or disrupt the Game or the normal flow of Game play or dialogue or use vulgar language, abusiveness, excessive shouting (e.g., ALL CAPS), “spamming,” or any other disruptive or detrimental methods in an attempt to disturb other users of the Game.
+-Cheat or utilize unauthorized exploits in connection with the Game.
+-Use or exploit any bugs, errors, or design flaws to obtain unauthorized access to or use of the Game or to gain an unfair advantage over other players of the Game.
+-Violate any applicable laws including, but not limited to, by posting, transmitting, promoting, or distributing content that violates any applicable law or regulation. 
+-Violate any rules for use of third-party technology and content, rules of interactive service providers, and federal, state, local, and foreign laws where applicable.
+-Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules or that materially increases the expense or difficulty of BNEA or the third-party service provider (if applicable) in maintaining the Game for the enjoyment of all its users.
+-Intentionally disconnect from the network during online play or allow Yourself to be defeated by a given player repeatedly to help boost their rankings or win counts in the Game.</text>
+<text id="611013">
+
+12. LIMITATION OF LIABILITY AND DAMAGES &amp; DISCLAIMER OF WARRANTIES.
+a. Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNEA, ITS SUPPLIERS, ITS LICENSORS, OR ANY RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, OR AGENTS THEREOF, BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES FOR ANY CLAIM FOR ARISING FROM OR RELATING TO YOUR POSSESSION OF, ACCESS TO, USE OF, OR INABILITY TO USE THE GAME, OR THE FAILURE TO PROVIDE SUPPORT SERVICES. THE FOREGOING LIMITATION OF LIABILITY WILL APPLY TO ANY CLAIM ARISING FROM BREACH OF CONTRACT, NEGLIGENCE (OTHER THAN GROSS NEGLIGENCE), INTELLECTUAL PROPERTY INFRINGEMENT, OR PRODUCT LIABILITY. 
+b. Limitation of Damages. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE MAXIMUM AGGREGATE LIABILITY AVAILABLE TO YOU FROM BNEA, ITS SUPPLIERS, ITS LICENSORS, AND ANY RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, OR AGENTS THEREOF, FOR ANY AND ALL DAMAGES ARISING FROM OR RELATING TO THE GAME OR THIS EULA SHALL BE LIMITED TO THE LESSER OF EITHER: (i) THE TOTAL AMOUNT PAID BY YOU TO PURCHASE A LICENSE TO A SINGLE COPY OF THE GAME, TOGETHER WITH ANY AMOUNT SUBSEQUENTLY COLLECTED FROM YOU BY BNEA (AND NOT REFUNDED OR CHARGED BACK) FOR LICENSES TO ANY PURCHASED VIRTUAL ITEMS OR PURCHASED VIRTUAL CURRENCY; OR (ii) FIVE HUNDRED U.S. DOLLARS AND ZERO CENTS (US$500.00).
+c. Disclaimer of Warranties. BNEA AND ITS SUPPLIERS AND LICENSORS MAKE NO PROMISE OR WARRANTY THAT THE GAME WILL WORK PROPERLY. YOU ACKNOWLEDGE AND AGREE THAT BNEA AND ITS LICENSORS AND SUPPLIERS ARE NOT RESPONSIBLE OR LIABLE FOR ANY: (i) VIRUSES OR OTHER DISABLING FEATURES THAT MAY AFFECT YOUR ACCESS TO OR USE OF THE GAME; (ii) INCOMPATIBILITY BETWEEN THE GAME, OTHER SERVICES, AND HARDWARE; (iii) DELAYS OR FAILURES IN INITIATING, CONDUCTING, OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER; OR (iv) OTHER DISRUPTIONS OF YOUR ENJOYMENT AND USE OF THE GAME BEYOND BNEA’S REASONABLE CONTROL. THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.” EXCEPT AS MIGHT BE DESCRIBED HEREIN, BNEA AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. 
+d. Jurisdictional Restrictions on Limitations of Liability and Damages. NOTWITHSTANDING THE FOREGOING, IF YOU ARE A RESIDENT OF A JURISDICTION WHERE LOCAL LAW RESTRICTS OF PROHIBITS LIMITATIONS OF LIABILITY OR DAMAGES IN ANY MANNER THAT IS INCONSISTENT WITH SUBSECTION 12.a or 12.b (INCLUDING FOR DEATH OR PERSONAL INJURY CAUSED BY BNEA’S NEGLIGENCE, ANY LOSS SUFFERED BY YOU AS A RESULT OF YOUR RELIANCE ON ANY FRAUDULENT MISREPRESENTATION MADE BY BNEA TO YOU, AND ANY OTHER LIABILITY THAT CANNOT BY LAW BE EXCLUDED OR LIMITED), THE LIMITATIONS SET FORTH IN SUBSECTION 12.a or 12.b ABOVE SHALL BE DEEMED MODIFIED AS NECESSARY TO COMPLY WITH SUCH LOCAL LAWS.</text>
+<text id="611014">
+
+13. TERMINATION/SUSPENSION.
+a. This EULA is effective upon Your agreement to be bound by its terms and remains in effect until terminated by You or BNEA. You may terminate this EULA at any time by deleting and destroying any and all copies of the Game in Your possession, custody, and control. 
+b. Except as otherwise prohibited by applicable law, BNEA may limit, suspend, or terminate the License granted hereunder and Your access to and use of the Game, including the Game’s Online Features, if You fail to comply with the terms and conditions of this EULA.
+c. Upon termination of this EULA, Your rights to access and use the Game, including any License to Virtual Items, user data, points, character progress, and any other information of any kind related to the Game, will terminate immediately, and You must cease all use of the Game.</text>
+<text id="611015">
+
+14. U.S. GOVERNMENT RESTRICTED RIGHTS. The Game has been developed entirely at private expense and is provided as a “Commercial Computer Game” or “restricted computer Game.” Use, duplication, or disclosure by the U.S. Government or a U.S. Government subcontractor is subject to the restrictions set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Game clauses in DFARS 252.227-7013 or as set forth in subparagraphs (c)(1) and (2) of the Commercial Computer Game Restricted Rights clauses at FAR 52.227-19, as applicable. The Contractor/Manufacturer is BANDAI NAMCO Entertainment Inc., 5-37-8, Shiba, Minato-ku, Tokyo 108-0014, Japan.</text>
+<text id="611016">
+
+15. DISPUTE RESOLUTION (NON-U.S. RESIDENTS ONLY). If You are a resident of any nation other than the United States of America, either You or BNEA may refer any dispute relating to or arising from this EULA or the Game to alternative dispute resolution (such as conciliation or arbitration) with the prior written consent of the other party. Notwithstanding the foregoing, the terms of this EULA will not prevent You from bringing any dispute or claim that may be subject to this Section 15: (i) to the attention of any federal, state, or local government agencies that can, if the law allows, seek relief from BNEA on Your behalf; (ii) bringing against BNEA, in any court of competent jurisdiction, any claim that is not arbitrable or for which arbitration is prohibited or restricted by applicable law; or (iii) from bringing any claim before a small claims court, subject to the jurisdictional limitations and requirements of such small claims court.</text>
+<text id="611017">
+
+16. DISPUTE RESOLUTION (U.S. RESIDENTS ONLY). If You are a resident of the United States of America, by accepting the terms of this EULA, You and BNEA: (i) agree to resolve certain disputes through mandatory binding arbitration, as set forth in Subsection 16.a, and each subpart thereof (collectively, the “Arbitration Agreement”); and (ii) expressly waive the right to a trial by jury or to participate in any class action brought against the other party, pursuant to Subsection 16.b (the “Class Action Waiver”); unless (iii) You exercise Your right to opt out of the Arbitration Agreement and/or the Class Action Waiver, as set forth in Subsection 16.c.
+a. MANDATORY, BINDING ARBITRATION. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, YOU AND BNEA: (i) ACKNOWLEDGE AND AGREE TO RESOLVE ALL DISPUTES AND CLAIMS BETWEEN YOU AND BNEA THROUGH BINDING ARBITRATION, PURSUANT TO THE FEDERAL ARBITRATION ACT, INCLUDING WITHOUT LIMITATION (EXCEPT AS EXPRESSLY SET FORTH IN SUBPART 16.a.iii) ANY DISPUTES OR CLAIMS BASED ON LEGAL THEORIES OF BREACH OF CONTRACT, TORTIOUS INJURY, STATUTORY VIOLATIONS, FRAUD, UNFAIR COMPETITION, RIGHTS OF PRIVACY, MISREPRESENTATION, OR ANY OTHER LEGAL THEORY, THAT MAY ARISE OUT OF OR RELATE TO ANY ASPECT OF THE RELATIONSHIP BETWEEN YOU AND BNEA, ANY TERM OR PROVISION OF THIS EULA, OR YOUR ACCESS TO OR USE OF THE GAME (EACH, A “CLAIM”); (ii) EXPRESSLY AND IRREVOCABLY WAIVE ANY RIGHT TO PURSUE ANY CLAIMS IN COURT OR TO HAVE ANY CLAIMS HEARD OR TRIED BEFORE A JUDGE OR JURY; (iii) SHALL NOT BRING OR PARTICIPATE IN A CLASS OR REPRESENTATIVE ARBITRATION AGAINST THE OTHER PARTY, EVEN IF OTHERWISE PERMITTED BY THE FEDERAL ARBITRATION ACT; AND (iii) SHALL NOT SEEK TO CONSOLIDATE OR COMBINE ANY ARBITRATION OF ANY CLAIM BY YOU OR BNEA WITH ANY ACTION OR ARBITRATION BROUGHT BY OR AGAINST ANY THIRD PARTY, WITHOUT THE EXPRESS WRITTEN CONSENT OF EACH SUCH THIRD PARTY AND BOTH PARTIES TO THIS EULA. UNLESS YOU SUBMIT A PROPER OPT OUT NOTICE (IN STRICT COMPLIANCE WITH SUBSECTION 16.c), YOU AND BNEA AGREE THAT ANY CLAIMS AGAINST THE OTHER PARTY WILL ONLY BE CONDUCTED THROUGH MANDATORY, BINDING ARBITRATION. 
+i. Pre-Arbitration Informal Dispute Resolution. Prior to initiating arbitration of any Claim subject to this Arbitration Agreement, You and BNEA agree to make reasonable, good faith efforts to informally resolve any dispute or Claim between You and BNEA. The party seeking to raise such dispute or Claim shall send to the other party a written notice describing the nature and basis of such dispute or Claim and identifying the relief sought. All such written notices to BNEA must be sent via first class mail to: BANDAI NAMCO Entertainment America Inc., Attn: Legal &amp; Business Affairs Department, 2051 Mission College Blvd., Santa Clara, CA 95054, USA. If You and BNEA do not agree to resolve such dispute or Claim within 30 days after such written notice is received, the party seeking to raise such dispute or Claim may initiate an arbitration action against the other, as permitted by the Arbitration Agreement, above.
+ii. Arbitration Procedure. Arbitration is a legally-binding process, through which a party may seek legal remedies from or against another party, similar to a legal action brought before a court, but that generally imposes fewer strict procedural formalities, is held before a third party, neutral arbitrator (instead of before a judge or jury), provides for more limited discovery and potentially reduced legal fees for each party, and is subject to limited review by courts. The procedure for arbitration of any Claim under this Arbitration Agreement will be governed by the Commercial Arbitration Rules of the American Arbitration Association (“AAA”) and, where applicable, the AAA’s Supplementary Procedures for Consumer Related Disputes, both of which are available at: http://www.adr.org. Notwithstanding the foregoing, You and BNEA agree that any such arbitration will be conducted in English, and permit the electronic submission of documents and allow participation by phone or by teleconference, or in person, at a mutually agreed location. 
+iii. Excluded Claims. Notwithstanding the foregoing, the terms of this Arbitration Agreement will not prevent You or BNEA from bringing any Claim: (i) to the attention of any federal, state, or local government agencies with the governmental authority and competent jurisdiction to seek relief on Your or BNEA’s behalf, from the other party; or (ii) before a small claims court, subject to the jurisdictional limitations and requirements of such small claims court.
+iv. Severability of Arbitration Agreement. You and BNEA agree that, no provision of this Arbitration Agreement shall be enforceable against You or BNEA and all Claims shall be governed by Section 17, below, in the event either: (i) a court of competent jurisdiction conclusively determines that any term or provision of this Arbitration Agreement is unenforceable, prohibited by applicable law, or inapplicable to any Claim; or (ii) You submit a proper Opt Out Notice (in compliance with Subsection 16.c), wherein You have expressed Your election to opt out of this Arbitration Agreement.
+b. CLASS ACTION WAIVER. YOU AND BNEA HEREBY AGREE: (i) THAT EACH CLAIM IS PERSONAL TO YOU AND BNEA, AND SHALL ONLY BE CONDUCTED AS AN INDIVIDUAL ARBITRATION (OR AN INDIVIDUAL COURT PROCEEDING, WITH RESPECT TO CLAIMS EXCLUDED FROM THE ARBITRATION AGREEMENT, PURSUANT TO SUBPART 16.a.iii) AND NOT AS A CLASS ACTION OR OTHER FORM OF REPRESENTATIVE ACTION; (ii) EXPRESSLY WAIVE ANY RIGHT TO FILE OR PARTICIPATE IN A CLASS ACTION OR SEEK RELIEF ON A CLASS OR REPRESENTATIVE BASIS; AND (iii) THE ARBITRATOR (OR COURT, WITH RESPECT TO CLAIMS EXCLUDED FROM THE ARBITRATION AGREEMENT, PURSUANT TO SUBPART 16.a.iii) MAY ONLY CONDUCT AN INDIVIDUAL ARBITRATION (OR COURT ACTION, WITH RESPECT TO CLAIMS EXCLUDED FROM THE ARBITRATION AGREEMENT, PURSUANT TO SUBPART 16.a.iii), MAY NOT CONSOLIDATE MORE THAN ONE INDIVIDUAL’S CLAIMS, AND MAY NOT PRESIDE OVER ANY FORM OF REPRESENTATIVE OR CLASS PROCEEDING RELATING TO SUCH CLAIMS. UNLESS YOU SUBMIT A PROPER OPT OUT NOTICE (AS DESCRIBED IN SUBSECTION 16.c), YOU AND BNEA AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.
+i. Severability of Class Action Waiver. You and BNEA agree that, no provision of this Class Action Waiver shall be enforceable against You or BNEA and all Claims shall be governed by Section 17, below, in the event either: (i) a court of competent jurisdiction conclusively determines that any term or provision of this Class Action Waiver is unenforceable, prohibited by applicable law, or inapplicable to any Claim; or (ii) You submit a proper Opt Out Notice (in compliance with Subsection 16.c), wherein You have elected to opt out of this Class Action Waiver. In no event may the severance of the Class Action Waiver be interpreted or deemed to constitute consent by You or BNEA to participate in a class action or class arbitration.
+c. OPT OUT PROCEDURE. You have the right to opt out and not be bound by the foregoing Arbitration Agreement and Class Action Waiver, by sending a written notice of your election to opt out from such Arbitration Agreement and/or Class Action Waiver (the “Opt Out Notice”), in strict compliance with the following requirements of Subparts 16.c.i – 16.c.iii:
+i. Form &amp; Address. Your Opt Out Notice must be sent to the following address: BANDAI NAMCO Entertainment America Inc., ATTN: Legal &amp; Business Affairs, 2051 Mission College Blvd., Santa Clara, CA 95054, USA, and either by: (i) first class mail, postage prepaid, certified and return receipt requested; or (ii) overnight courier service (such as Federal Express).
+ii. Time Limitations. Unless a longer period is required by applicable law, Your Opt Our Notice must be postmarked (if sent by first class mail) or deposited (if sent by overnight courier service) within: (i) 30 days of Your purchase of Your copy of the Game; or (ii) if no purchase was made, then within 30 days of the date on which you first accessed or used Your copy of the Game. 
+iii. Required Information. Your Opt Our Notice must include: (i) the title of the specific Game to which Your Opt Out Notice is intended to apply; (ii) Your first and last name; (iii) Your address; (iv) Your phone number; (v) Your email address; (vi) if You are a registered user of the Game or any other BNEA product or service, each of Your usernames for the Game and such other BNEA products and services; and (vii) a statement that you do not agree to the Arbitration Agreement and/or to the Class Action Waiver. BNEA may use the foregoing information included in the Opt Out Notice to record, process, maintain, and administer your opting out of the Arbitration Agreement and/or Class Action Waiver, as applicable, but not for marketing purposes.
+iv. Effects of Proper Opt Out Notice. If Your Opt Out Notice meets all of the above requirements, You and BNEA will be deemed to have opted out of the Arbitration Agreement and/or Class Action Waiver, subject to Your statement in such Opt Out Notice, with respect to this EULA. Submission of a valid Opt Out Notice applies only to Claims arising from or relating to the Game and EULA identified therein, as between BNEA and the individual identified in such Opt Out Notice.
+v. Effects of Improper Opt Out Notice. If You submit an Opt Out Notice that fails to meet any of the requirements set forth in Subparts 16.c.i – 16.c.iii, You and BNEA will be bound by the Arbitration Agreement and Class Action Waiver set forth in this EULA.</text>
+<text id="611018">
+
+17. GOVERNING LAW &amp; VENUE. 
+a. To the extent required by applicable law, all terms and provisions of this EULA shall be governed and construed in accordance with all applicable mandatory laws, even if inconsistent with the governing law set forth in the following subparts of this Subsection 17.a:
+i. For all users: (i) the laws of the State of California, excluding its conflicts-of-law rules, govern this EULA and/or your use of the Game; and (ii) you expressly agree that for claims and disputes not subject to the Arbitration Agreement in Section 16.a, above, exclusive jurisdiction for any claim or action arising out of or relating to this EULA and/or your use of the Game shall be the federal or state courts that govern Santa Clara County, California, and you expressly consent to the exercise of personal jurisdiction of such courts. Please note that your conduct may also be subject to other local, state, national, and international laws. The parties agree that the UN Convention on Contracts for the International Sale of Goods (Vienna, 1980) shall not apply to this License or to any dispute or transaction arising out of this EULA.
+b. In no event shall the application, interpretation, or enforcement of the terms of this EULA, under any jurisdictional law contemplated by any subpart of Subsection 17.a exclude, limit, or otherwise restrict any rights vested with You, as a consumer, under any applicable consumer protection law(s).</text>
+<text id="611019">
+
+18. MISCELLANEOUS. If a court of competent jurisdiction conclusively determines that any term or provision of this EULA is unenforceable, prohibited by applicable law, or inapplicable, such provision shall be struck and the remaining provisions will remain in effect and be enforced as if such unenforceable, prohibited, or invalid provision were not contained in this EULA. BNEA’s failure to act with respect to a breach by You or others does not waive its right to act with respect to subsequent or similar breaches. To the extent permitted by applicable law, you may not assign or transfer this EULA or Your rights granted to You under this EULA and, unless otherwise prohibited, any attempt to the contrary is void ab initio. This EULA sets forth the entire understanding and agreement between BNEA and You with respect to Your possession, installation, access, play, or other use of the Game, in any way.</text>
+<text id="611020">
+
+If You have any questions concerning this EULA, You may contact BNEA’s customer support line at https://www.bandainamcoent.com/support or by writing to us at: BANDAI NAMCO Entertainment America Inc., 2051 Mission College Blvd., Santa Clara, CA 95054, USA.</text>
+<text id="611021">%null%</text>
+<text id="611022">%null%</text>
+<text id="611023">%null%</text>
+<text id="612000">Terms and Conditions</text>
+<text id="612001">
+
+BANDAI NAMCO ENTERTAINMENT EUROPE DARK SOULS™ Ⅲ: THE FIRE FADES™ EDITION
+END USER LICENSE AGREEMENT (“EULA”)
+
+IMPORTANT - READ CAREFULLY:  
+
+This End User License Agreement (“EULA”) may be updated from time to time. Your continued use of this software after a revised version has been posted or communicated to you constitutes acceptance by you of its terms.
+
+THE BANDAI NAMCO ENTERTAINMENT EUROPE VIDEO GAME YOU ARE USING (WHICH INCLUDES COMPUTER GAME, MEDIA, AND RELATED DOCUMENTATION IN PRINTED OR ELECTRONIC FORM) IS LICENSED TO YOU ON THE TERMS SET FORTH BELOW, WHICH CONSTITUTES A LEGAL AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT EUROPE ("BNEE"). BY PLAYING THE VIDEO GAME (EITHER ON YOUR HOME CONSOLE OR ONLINE), AND/OR INSTALLING OR OTHERWISE USING THE GAME PROGRAM, YOU AGREE TO BE LEGALLY BOUND BY THE TERMS OF THIS AGREEMENT WITH BNEE.
+
+The Dark Souls™ Ⅲ: The Fire Fades™ Edition Version, including without limitation any multi-player, online or downloadable portions thereof (the “Game”) is protected by the copyright laws of France, international copyright treaties and conventions and other laws. The Game is licensed, and not sold, and this agreement confers no title or ownership to the Game program or any copy thereof. In addition to the terms and conditions hereof, when using particular portions of the Game, including without limitation any multi-player, online, or downloadable content, you may be subject to additional guidelines of third party service providers.</text>
+<text id="612002">
+
+1. PRECONDITIONS OF THE LICENSE. The grant of license as set forth in Section 2 below is specifically conditioned upon the following:
+a. You have accepted all of the terms in this EULA, and any additional terms as may be applicable to the Game you are playing, which is evidenced by your use of the Game;
+b. You have accepted all of the terms stipulated by PlayStation™Network which is evidenced by your use of the Game; Any content purchased in an in-game store will be purchased from Sony Network Entertainment Europe Limited (“SNEE”) and be subject to Sony Entertainment Network Terms of Service and User Agreement which is available on the PlayStation®Store. Please check usage rights for each purchase as they may differ from item to item. Unless otherwise shown, content available in any in-game store as the same age rating as the game.
+c. You will comply with all of the terms in this EULA until such time as you have completed and permanently terminated your use of the Game by deleting all aspects of the Game from your system (e.g., account deletion, deletion of Game-related files, destruction of the physical media on which the copy of the Game in your possession exists, etc.);
+d. You will use the Game only on a single home video game entertainment system, running validly licensed copies of operating systems on which the Game was designed to operate (the “Hardware”); and
+e. You will refrain from using any hacks, cracks, bots, or third party Game which may modify, temporarily or permanently, the code or the user experience of the Game, whether on your local system or on servers which enable use of any features of the Game.</text>
+<text id="612003">
+
+2. LIMITED USE LICENSE. BNEE grants you the non-exclusive, non-transferable, revocable, limited right and license to use one copy of the Game solely for your personal use with the Hardware. Commercial use of the Game is prohibited. To play the Game and/or access any online content related to the Game, you must have legally obtained the Game from BNEE, and all applicable or required Hardware and/or third party game to operate the Game and/or access any online, multi-player or download portion of the Game (which we do not provide). You are responsible for paying all fees and taxes for any Hardware and other costs you may incur to access the Game, including internet service or other third party charges required to access any multi-player, online or downloadable portions of the Game (if applicable). Neither this agreement nor use of the Game entitles you to any future releases of the Game, or to any expansions, sequels, or similar or ancillary products. BNEE may, in its sole discretion, change, modify, suspend, or discontinue the Game or any aspect of the Game at any time. BNEE may also impose limits on certain features or restrict your access to parts or all of the Game without notice or liability. You have no interest, monetary or otherwise, in any feature or content contained in the Game. You understand that the Game is provided by BNEE at its discretion and may be terminated or otherwise discontinued by BNEE at any time without notice.</text>
+<text id="612004">
+
+3. OWNERSHIP. All intellectual property rights in and to the Game (including but not limited to video, audio and other content incorporated therein or later downloaded) and title to any and all copies thereof are owned by BNEE or its licensors, and you receive no right or interest therein other than the limited license in Section 2 hereof.
+
+You may not do any of the following:
+• Copy the Game except a single backup copy;
+• Sell, rent, lease, license, distribute or otherwise transfer or make the Game available to any other person, in whole or in part, or use the Game or any part thereof in any commercial context, including but not limited to use on a commercial website, or in a service bureau, "cyber cafe", computer gaming center or any other commercial location in which multiple users who have not each separately purchased the Game may access the Game program.  BNEE may offer a separate site license agreement to permit you to make the Game available for commercial use; see the contact information below;
+• Reverse engineer, derive source code, modify, decompile, disassemble, or create derivative works of the Game or any online portion thereof, in whole or in part;
+• Remove, disable or circumvent any proprietary notices or labels contained on or within the Game or any online portion thereof; or
+• Export or re-export the Game or any copy or adaptation in violation of any applicable E.U. export restrictions or other laws or regulations.
+</text>
+<text id="612005">
+
+4. SECURITY MEASURES/PROTECTIONS.
+Certain security measures may be required in order for you to make full use of the Game, including without limitation the requirement to register the Game with a serial code, the requirement to have continual access to the Internet; and/or the acceptance of security/digital rights management features. Failure to accept the security measures may partially or completely impair your use of the Game.
+
+</text>
+<text id="612006">
+
+5. ONLINE CONDUCT.
+5.1 BNEE does not pre-screen content that may be posted or online chats and does not assume any responsibility or liability for content that is generated by users in connection with the Game. BNEE does not assume any liability for any failure to remove, or any delay in removing, content. However, we reserve the right to remove or request that the third party service provider remove content that is objectionable to us for any reason. This determination is in our sole discretion and is final. If BNEE objects to content that you created, BNEE may in its sole discretion (either itself or if applicable by request to the third party service provider): (i) remove content; (ii) give warnings; (iii) restrict your access when you break the rules; or (iv) suspend or terminate your use without any notice to you. In addition, BNEE, may, in its sole discretion, terminate this agreement, in part, immediately and without notice if your online conduct breaches this agreement or infringes any third party intellectual property rights, or if we are unable to verify or authenticate any information you provide to us. If we terminate this agreement under these circumstances, you will lose access to any online portions of the Game.
+
+5.2 You agree that you will be personally responsible for your use of the Game, and for all of your communication and activity in connection with Game, including any content you contribute, and that you will indemnify and hold harmless BNEE, its licensors and each of their respective parents, affiliates, and subsidiary companies and the employees, officers, and directors of each from any liability or damages arising from your conduct in the connection with the Game.
+
+5.3 BNEE retains the right to suspend your access to the Game without previous notification if you violate the terms of this EULA. You will violate this EULA if you (or others using your online account) do any of the following:
+• You are not sixteen (16) years or older.
+• Post, transmit, promote, or distribute content that violates any law or regulation.
+• Harass, threaten, embarrass, or do anything else to another user that is unwanted.
+• Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights, or in a reasonable person's view, objectionable. Hate speech is not tolerated.
+• Violate any rules communicated by BNEE from time to time.
+• Promote or encourage any illegal activity including hacking.
+• Disclose your own or other users’ personal information.
+• Impersonate any person or entity, including any BNEE officials, forum leaders, guides, hosts, employees or agents, or falsely state or otherwise misrepresent your affiliation with a person or entity.
+• Impede or disrupt the Game or the normal flow of game play or dialogue, or use vulgar language, abusiveness, use of excessive shouting (ALL CAPS) "spamming" or any other disruptive or detrimental methods in an attempt to disturb other users.
+• Cheat or utilize unauthorized exploits in connection with the Game.
+• Use or exploit any bugs, errors, or design flaws to obtain unauthorized access to the Game or to gain an unfair advantage over other players.
+• Trade, sell, auction or otherwise transfer any virtual items or goods of any nature outside the Game.
+• Violate any applicable laws including but not limited to copyrights and trademarks, regulations and rules wherever you are using the Game. This includes rules for use of third-party technology and content, rules of interactive service providers, and federal, state, local and foreign laws where applicable. Ignorance of the law is no excuse.
+• Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules, or that materially increases the expense or difficulty of BNEE, or the third party service provider (if applicable), in maintaining the Game for the enjoyment of all its users.
+• Intentionally disconnecting from the network during online play, or allowing yourself to be defeated by a given player repeatedly to help boost their rankings or win counts.</text>
+<text id="612007">
+
+
+6. LIMITATION ON DAMAGES.
+6.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNEE, ITS PARENT, SUBSIDIARIES, SUPPLIERS OR LICENSORS OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, OR AGENTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE POSSESSION, USE OF OR INABILITY TO USE THE GAME OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCTS LIABILITY, INTELLECTUAL PROPERTY INFRINGEMENT, OR ANY OTHER THEORY. IN ANY CASE, BNEE'S AND ITS LICENSORS’ ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE GAME.
+
+6.2 BNEE AND ITS LICENSORS MAKE NO PROMISE OR WARRANTY THAT THE GAME WILL WORK PROPERLY. YOU ACKNOWLEDGE AND AGREE THAT BNEE AND ITS LICENSORS ARE NOT RESPONSIBLE OR LIABLE FOR (1) ANY VIRUSES OR OTHER DISABLING FEATURES THAT AFFECT YOUR ACCESS TO OR USE OF THE GAME, (2) ANY INCOMPATIBILITY BETWEEN THE GAME, AND OTHER SERVICES, GAME AND HARDWARE, OR (3) ANY DELAYS OR FAILURES YOU MAY EXPERIENCE IN INITIATING, CONDUCTING OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER. THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.” EXCEPT AS DESCRIBED HEREIN OR IN OUR LIMITED WARRANTY ACCOMPANYING THE GAME, BNEE AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. BNEE does not ensure continuous, error free, secure or virus-free operation of any online, multi-player or downloadable portions of the Game or continued operation or availability of any given server.
+
+6.3 BNEE is not liable for any delay or failure to perform resulting from any causes beyond our reasonable control. Further, BNEE cannot and does not promise or ensure that you will be able to access the online, multi-player or downloadable portions of the Game whenever you want, and there may be extended periods of time when you cannot access such portions of the Game.</text>
+<text id="612008">
+
+7. TERMINATION/SUPSENSION OF SERVICE. BNEE retains the right, at its sole discretion, to either terminate or suspend immediately your access to the Game. If BNEE terminates or suspends your access to the Game, you will: (i) lose access to the Game upon termination and/or for the duration of the suspension and/or (ii) lose the balance of any items, points, or character progress in the Game. In the event the Game is terminated, you must destroy all copies of the Game and all of its component parts.</text>
+<text id="612009">
+
+
+8. PRIVACY. BNEE respects your privacy rights and is committed to protecting your personal information. Any personal information supplied by you to BNEE online or via any BNEE controlled website will be subject to the privacy policy posted at http://www.bandainamcoent.eu/privacy-policy. Notwithstanding what is stated in the privacy policy, if you use any online services, such as online play or the downloading and uploading of content, BNEE and its affiliates may also collect, use, store, transmit and publicly display statistical data regarding game play (including scores, rankings and achievements), or identify content that is created and shared by you with other players.</text>
+<text id="612010">
+
+9. INJUNCTION. Because BNEE would be irreparably damaged if the terms of this agreement were not specifically enforced, you agree that BNEE and/or its licensors shall be entitled, without bond, other security or proof of damages, to appropriate equitable remedies with respect to breaches of this agreement, in addition to such other remedies as BNEE may otherwise have under applicable laws.</text>
+<text id="612011">
+
+10. INDEMNITY. You agree to indemnify, defend and hold BNEE, its licensors and each of their respective partners, affiliates, contractors, officers, directors, employees and agents harmless from all damages, losses and expenses arising directly or indirectly from your acts and omissions to act in using the Game pursuant to the terms of this agreement.</text>
+<text id="612012">
+
+
+11. APPLICABLE LAW AND JURISDICTION. This Agreement shall be interpreted in accordance with and governed by the laws of France. Any dispute arising in connection with this Agreement, which cannot be settled amicably after reasonable efforts, shall be submitted to the jurisdiction of the Commercial Court of Lyon.</text>
+<text id="612013">
+
+12. MISCELLANEOUS. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced. BNEE’s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches. You may not assign or transfer this Agreement or your rights hereunder, and any attempt to the contrary is void. This Agreement sets forth the entire understanding and agreement between BNEE and you with respect to the subject matter hereof.</text>
+<text id="612014">
+
+13. RELATIONSHIP TO OTHER TERMS OF USE. This EULA applies to all online service, content, Games, and products, and may be incorporated in to additional Game-specific terms of use. In the event of a conflict between this EULA and a Game-specific terms of use document, this EULA shall control (unless specifically stated otherwise in the Game-specific terms of use).</text>
+<text id="612015">
+
+
+If you have any questions concerning this license, you may contact BNEE through BNEE customer service at www.bandainamcoent.eu or BANDAI NAMCO Entertainment Europe, 49-51, rue des Docks – CS 90618 – 69258 Lyon Cedex 09 – France.</text>
+<text id="612016">%null%</text>
+<text id="612017">%null%</text>
+<text id="612018">%null%</text>
+<text id="612019">%null%</text>
+<text id="612020">%null%</text>
+<text id="612021">%null%</text>
+<text id="612022">%null%</text>
+<text id="612023">%null%</text>
+<text id="613000">Terms and Conditions</text>
+<text id="613001">
+
+BANDAI NAMCO Entertainment Asia Pte Ltd
+
+Dark Souls™ III: The Fire Fades™ Edition
+
+END USER LICENSE AGREEMENT (“EULA”)
+
+IMPORTANT - READ CAREFULLY:  
+
+This End User License Agreement (“EULA”) may be updated from time to time. Your continued use of this software after a revised version has been posted or communicated to you constitutes acceptance by you of its terms.
+
+THE BANDAI NAMCO ENTERTAINMENT’S VIDEO GAME YOU ARE USING (WHICH INCLUDES COMPUTER GAME, MEDIA, AND RELATED DOCUMENTATION IN PRINTED OR ELECTRONIC FORM) IS LICENSED TO YOU ON THE TERMS SET FORTH BELOW, WHICH CONSTITUTE A LEGAL AGREEMENT BETWEEN YOU AND BANDAI NAMCO ENTERTAINMENT ASIA PTE LTD ("BNE ASIA").  BY PLAYING THE VIDEO GAME (EITHER ON YOUR HOME CONSOLE OR ONLINE), AND/OR INSTALLING OR OTHERWISE USING THE GAME PROGRAM, YOU AGREE TO BE LEGALLY BOUND BY THE TERMS OF THIS AGREEMENT WITH BNE ASIA.   
+
+The Dark Souls™ III: The Fire Fades™ Edition game, including without limitation any multi-player, online, or downloadable portions thereof (the “Game”) is protected by the copyright laws of Singapore, international copyright treaties and conventions and other laws.  The Game is licensed, and not sold, and this agreement confers no title or ownership of the Game program or any copy thereof.  In addition to the terms and conditions hereof, when using particular portions of the Game, including without limitation any multi-player, online or downloadable content, you may be subject to additional guidelines of third party service providers.</text>
+<text id="613002">
+
+1. PRECONDITIONS OF THE LICENSE.  The grant of license as set forth in Section 2 below is specifically conditioned upon the following:
+
+a. You have accepted all of the terms in this EULA, and any additional terms as may be applicable to the Game you are playing, which is evidenced by your use of the Game;
+
+b. You will comply with all of the terms in this EULA until such time as you have completed and permanently terminated your use of the Game by deleting all aspects of the Game from your machine (e.g., account deletion, deletion of Game-related files, destruction of the physical media on which the copy of the Game in your possession exists, etc.);
+
+c. You will use the Game only on a single home videogame entertainment system running validly licensed copies of operating systems on which the Game was designed to operate (the “Hardware”); and
+
+d. You will refrain from using any hacks, cracks, bots, or third party Game which may modify, temporarily or permanently, the code or the user experience of the Game, whether on your local machine or on servers which enable use of any features of the Game.
+</text>
+<text id="613003">
+
+2. LIMITED USE LICENSE.  BNE ASIA grants you the non-exclusive, non-transferable, revocable, limited right and license to use one copy of the Game solely for your personal use with the Hardware.  Commercial use of the Game is prohibited. To play the Game and/or access any online content related to the Game, you must have legally obtained the Game from BNE ASIA, and all applicable or required Hardware and/or third party game to operate the Game and/or access any online, multi-player or download portion of the Game (which we do not provide).  You are responsible for paying all fees and taxes for any Hardware and other costs you may incur to access the Game, including internet service or other third party charges required to access any multi-player, online or downloadable portions of the Game (if applicable).  Neither this agreement nor use of the Game entitles you to any future releases of the Game, nor to any expansions, sequels or similar or ancillary products. BNE ASIA may, on its sole discretion, change, modify, suspend or discontinue the Game or any aspect of the Game at any time. BNE ASIA may also impose limits on certain features or restrict your access to parts or all of the Game without notice or liability. You have no interest, monetary or otherwise, in any feature or content contained in the Game. You understand that the Game is provided by BNE ASIA at its discretion and may be terminated or otherwise discontinued by BNE ASIA at any time without notice.   </text>
+<text id="613004">
+
+3. OWNERSHIP.  All intellectual property rights in and to the Game (including but not limited to video, audio and other content incorporated therein or later downloaded) and title to any and all copies thereof are owned by BNG ASIA or its licensors, and you receive no right or interest therein other than the limited license in Section 2 hereof.
+
+You may not do any of the following:
+･Copy the Game except a single backup copy;
+･Sell, rent, lease, license, distribute or otherwise transfer or make the Game available to any other person, in whole or in part, or use the Game or any part thereof in any commercial context, including but not limited to use on a commercial website or in a service bureau, "cyber cafe", computer gaming center or any other commercial location in which multiple users who have not each separately purchased the Game may access the Game program. BNG ASIA may offer a separate site license agreement to permit you to make the Game 
+available for commercial use; see the contact information below;
+･Reverse engineer, derive source code, modify, decompile, disassemble or create derivative works of the Game or any online portion thereof, in whole or in part;
+･Remove, disable or circumvent any proprietary notices or labels contained on or within the Game or any online portion thereof; or
+･Export or re-export the Game or any copy or adaptation in violation of any applicable Singapore export restrictions or other laws or regulations. 
+
+</text>
+<text id="613005">
+
+4.    SECURITY MEASURES/PROTECTIONS.
+Certain security measures may be required in order for you to make full use of the Game, including without limitation the requirement to register the Game with a serial code, the requirement to have continual access to the Internet, and/or the acceptance of security/digital rights management features.  Failure to accept the security measures may partially or completely impair your use of the Game.
+
+</text>
+<text id="613006">
+
+5.  ONLINE CONDUCT.  
+5.1 BNE ASIA does not pre-screen content that may be posted and does not assume any responsibility or liability for content that is generated by users in connection with the Game. BNE ASIA does not assume any liability for any failure to remove, or any delay in removing, content. However, we reserve the right to remove or request that the third party service provider remove content that is objectionable to us for any reason. This determination is in our sole discretion and is final. If BNE ASIA objects to content that you created, BNE ASIA may in its sole discretion (either itself or if applicable by request to the third party service provider): (i) remove content; (ii) give warnings; (iii) restrict your access when you break the rules; or (iv) suspend or terminate your use without any notice to you. In addition, BNE ASIA, may, on its sole discretion, terminate this agreement, in part, immediately and without notice if your online conduct breaches this agreement or infringes any third party intellectual property rights, or if we are unable to verify or authenticate any information you provide to us.  If we terminate this agreement under these circumstances, you will lose access to any online portions of the Game.  
+
+5.2 You agree that you will be personally responsible for your use of the Game, and for all of your communication and activity in connection with Game, including any content you contribute, and that you will indemnify and hold harmless BNE ASIA, its licensors and each of their respective parents, affiliates, and subsidiary companies and the employees, officers, and directors from any liability or damages arising from your conduct in connection with the Game.  
+
+5.3 BNE ASIA retains the right to suspend your access to the Game without previous notification if you violate the terms of this EULA. You will violate this EULA if you (or others using your online account) do any of the following: 
+• You are not eighteen (18) years or older.
+• Post, transmit, promote or distribute content that violates any law or regulation. 
+• Harass, threaten, embarrass, or do anything else to another user. 
+• Transmit or facilitate distribution of content that is harmful, abusive, racially or ethnically offensive, vulgar, sexually explicit, defamatory, infringing, invasive of personal privacy or publicity rights or in a reasonable person's view  Hate speech is not tolerated. 
+• Violate any rules communicated by BNE ASIA from time to time.
+• Promote or encourage any illegal activity including hacking. 
+• Disclose your own or other users’ personal information.
+• Impersonate any person or entity, including any BNE ASIA officials, forum leaders, guides, hosts, employees or agents, or falsely state or otherwise misrepresent your affiliation with a person or entity.
+• Impede or disrupt the Game or the normal flow of game play or dialogue, or use vulgar language, abusiveness, use of excessive shouting (ALL CAPS) "spamming" or any other disruptive or detrimental methods in an attempt to disturb other users.
+• Cheat or utilize unauthorized exploits in connection with the Game.
+• Use or exploit any bugs, errors or design flaws to obtain unauthorized access to the Game or to gain an unfair advantage over other players.
+• Trade, sell, auction or otherwise transfer any virtual items or goods of any nature outside the Game.
+• Violate any applicable laws including but not limited to copyrights and trademarks, regulations and rules wherever you are using the Game. This includes rules for use of third-party technology and content, rules of interactive service providers, and state, local and foreign laws where applicable.  Ignorance of the law is no excuse. 
+• Do anything that interferes with the ability of other users to enjoy playing the Game in accordance with its rules, or that materially increases the expense or difficulty of BNE ASIA, or the third party service provider (if applicable) of maintaining the Game for the enjoyment of all its users.
+• Intentionally disconnecting from the network during online play, or allowing yourself to be defeated by a given player repeatedly to help boost their rankings or win counts.
+
+</text>
+<text id="613007">
+
+6. USER-GENERATED CONTENT.
+ In exchange for use of the Game, and to the extent that your contributions through use of the Game give rise to any copyright interest, you hereby grant BNE ASIA an exclusive, perpetual, irrevocable, royalty-free, fully transferable and sub-licensable worldwide right and license to use your contributions in any way and for any purpose in connection with the Game and related goods and services including the rights to reproduce, copy, adapt, modify, perform, create derivative works from, display, publish, broadcast, transmit, or otherwise use, distribute, exploit and communicate to the public by any and all means and media whether now known or hereafter devised without any further notice or compensation of any kind to you for the whole duration of protection granted to intellectual property rights by applicable laws and international conventions. To the extent permitted by applicable law, you hereby waive any moral rights of paternity, publication, reputation, or attribution with respect to BNE ASIA and other players’ use and enjoyment of such assets in connection with the Game and related goods and services under applicable law.  The license grant to BNE ASIA, and the above waiver of any applicable moral rights, survives any termination or revocation of this EULA.
+</text>
+<text id="613008">
+
+7. LIMITATION ON DAMAGES.  
+7.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BNE ASIA, ITS PARENT, SUBSIDIARIES, SUPPLIERS OR LICENSORS OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTOR OR AGENTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE POSSESSION, USE OF OR INABILITY TO USE THE GAME OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCTS LIABILITY, INTELLECTUAL PROPERTY INFRINGEMENT OR ANY OTHER THEORY.  IN ANY CASE, BNE ASIA'S AND ITS LICENSORS’ ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE GAME.   
+
+7.2 BNE ASIA AND ITS LICENSORS MAKE NO PROMISE OR GUARANTEE THAT THE GAME WILL WORK PROPERLY.  YOU ACKNOWLEDGE AND AGREE THAT BNE ASIA AND ITS LICENSORS ARE NOT RESPONSIBLE OR LIABLE FOR (1) ANY VIRUSES OR OTHER DISABLING FEATURES THAT AFFECT YOUR ACCESS TO OR USE OF THE GAME, (2) ANY INCOMPATIBILITY BETWEEN THE GAME, AND OTHER SERVICES, GAME AND HARDWARE, OR (3) ANY DELAYS OR FAILURES YOU MAY EXPERIENCE IN INITIATING, CONDUCTING OR COMPLETING ANY TRANSMISSIONS OR TRANSACTIONS IN CONNECTION WITH THE GAME IN AN ACCURATE OR TIMELY MANNER.  THE GAME AND ALL OTHER SERVICES ARE PROVIDED “AS IS.”  EXCEPT AS DESCRIBED HEREIN OR IN OUR LIMITED WARRANTY ACCOMPANYING THE GAME, BNE ASIA AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ALL WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  BNE ASIA does not ensure continuous, error free, secure or virus-free operation of any online, multi-player or downloadable portion of the Game or continued operation or availability of any given server.
+
+7.3 BNE ASIA is not liable for any delay or failure to perform resulting from any causes beyond our reasonable control.  Further, BNE ASIA cannot and does not promise or ensure that you will be able to access the online, multi-player or downloadable portions of the Game whenever you want, and there may be extended periods of time when you cannot access such portions of the Game.
+</text>
+<text id="613009">
+
+8. TERMINATION/SUPSENSION OF SERVICE.  BNE ASIA retains the right, at its sole discretion, to either terminate or suspend your access to the Game. If BANDAI NAMCO terminates or suspends your access to the Game, you will: (i) lose access to the Game upon termination and/or for the duration of the suspension and/or (ii) lose the balance of any items, points or character progress in the Game.  In the event the Game is terminated, you must destroy all copies of the Game and all of its component parts.</text>
+<text id="613010">
+
+9.  PRIVACY. BNE ASIA respects your privacy rights and is committed to protecting your personal information.  Any personal information supplied by you to BNE ASIA online or via any BNE ASIA controlled website will be subject to the privacy policy posted at https://www.bandainamcoent.com.au/. Notwithstanding what is stated in the privacy policy, if you use any online services, such as online play or the downloading and uploading of content, BNE ASIA and its affiliates may also collect, use, store, transmit and publicly display statistical data regarding game play (including scores, rankings and achievements), or identify content that is created and shared by you with other players.  </text>
+<text id="613011">
+
+10. INJUNCTION.  Because BNE ASIA would be irreparably damaged if the terms of this agreement were not specifically enforced, you agree that BNE ASIA and/or its licensors shall be, without bond, other security or proof of damages, to appropriate equitable remedies with respect to breaches of this agreement, in addition to such other remedies as BNE ASIA may otherwise have under applicable laws.
+</text>
+<text id="613012">
+
+11. INDEMNITY.  You agree to indemnify, defend and hold BNE ASIA, its licensors and each of their respective partners, affiliates, contractors, officers, directors, employees and agents harmless from all damages, losses and expenses arising directly or indirectly from your acts and omissions to act in using the Game pursuant to the terms of this agreement. 
+</text>
+<text id="613013">
+
+12.  APPLICABLE LAW AND JURISDICTION. This Agreement shall be interpreted in accordance with and governed by the laws of Singapore. </text>
+<text id="613014">
+
+13. MISCELLANEOUS. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced.  BNE ASIA’s failure to act with respect to a breach by you or others does not waive its right to act with respect to subsequent or similar breaches.  You may not assign or transfer this Agreement or your rights hereunder, and any attempt to the contrary is void. This Agreement sets forth the entire understanding and agreement between BNE ASIA and you with respect to the subject matter hereof. 
+</text>
+<text id="613015">
+
+14. RELATIONSHIP TO OTHER TERMS OF USE.  This EULA applies to all online service, content, Games and products, and may be incorporated into additional Game-specific terms of use.  In the event of a conflict between this EULA and Game-specific terms of use document, this EULA shall control (unless specifically stated otherwise in the Game-specific terms of use).</text>
+<text id="613016">
+
+If you have any questions concerning this license, you may contact BNE ASIA through BNE ASIA customer service at support@bandainamcoent.asia or BNE ASIA, 298 Tiong Bahru Road, Central Plaza ##11-01/02 Singapore 168730. 
+
+</text>
+<text id="613017">%null%</text>
+<text id="613018">%null%</text>
+<text id="613019">%null%</text>
+<text id="613020">%null%</text>
+<text id="613021">%null%</text>
+<text id="613022">%null%</text>
+<text id="613023">%null%</text>
+</entries>
+</fmg>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="1376000">Old Moonlight</text>
+<text id="1604000">Great Soul Dregs</text>
+<text id="2458000">Flame Fan</text>
+<text id="2660000">Seething Chaos</text>
+<text id="3509000">Lightning Arrow</text>
+<text id="3557000">Projected Heal</text>
+</entries>
+</fmg>
