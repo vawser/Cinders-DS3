@@ -1,0 +1,18 @@
+﻿<hkobject class="hkbClipGenerator" name="#13350" signature="0xd4cc9f6">
+    <hkparam name="variableBindingSet">null</hkparam>
+    <hkparam name="userData">0</hkparam>
+    <hkparam name="name">a285_030000_hkx_AutoSet_04</hkparam>
+    <hkparam name="animationBundleName"/>
+    <hkparam name="animationName">a285_030000</hkparam>
+    <hkparam name="triggers">null</hkparam>
+    <hkparam name="userPartitionMask">0</hkparam>
+    <hkparam name="cropStartAmountLocalTime">0.0</hkparam>
+    <hkparam name="cropEndAmountLocalTime">0.0</hkparam>
+    <hkparam name="startTime">0.0</hkparam>
+    <hkparam name="playbackSpeed">1.0</hkparam>
+    <hkparam name="enforcedDuration">0.0</hkparam>
+    <hkparam name="userControlledTimeFraction">0.0</hkparam>
+    <hkparam name="animationBindingIndex">65535</hkparam>
+    <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+    <hkparam name="flags">0</hkparam>
+</hkobject>

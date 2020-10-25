@@ -1,0 +1,190 @@
+﻿#-----------------------------------------
+# a278 Black Dragon Sword – Tae 612
+#-----------------------------------------
+
+#-----------------------------------------
+# a279 Ancient Dragon Halberd – Tae 613
+#-----------------------------------------
+
+#-----------------------------------------
+# a280 Writhing Hammer - TAE 614
+#-----------------------------------------
+
+#-----------------------------------------
+# a281 Scythe of Want - Tae 615
+#-----------------------------------------
+
+#-----------------------------------------
+# a282 Vordt’s Great Hammer – Tae 616
+#-----------------------------------------
+
+#-----------------------------------------
+ # a283 Black Dragon Greataxe – Tae 617
+#-----------------------------------------
+
+#-----------------------------------------
+# a284 Twinspears of the Forlorn – Tae 618
+#-----------------------------------------
+
+#-----------------------------------------
+# a285 Quarterstaff – Tae 620
+#-----------------------------------------
+
+-World Placement: I recommend the Quarterstaff replace the Dragon Scale in Archdragon Peak behind the Giant Serpent Men on the path to the covenant table. Another option is the scaffolding you drop onto just above the Ancient Wyvern’s arena entrance.
+
+-Scaling and Requirements: I recommend the base scaling be set to 15 Strength and 65 Dexterity. I recommend the stat requirements be 32 Dexterity, 10 Strength, and 18 Faith.
+
+-Dummypolies: Download the parts file found here. I added 310 and 311 for full staff vfx and moved 110, 120, and 130 to fit Halberds AtkParam model points.
+
+-Add 1 new SwordArtsParam entry by duplicating row 900 into row 2215. Name it [Staff] Elemental Flow. Change the FP Cost Weapon Skill to 100. Change the Text ID to 75006. Afterwards, in EquipParamWeapon under the 15 Quarterstaff entries (12110000-12111400), change Effect 2 to 160201250, Effect 3 to 160201260, Weapon Art ID to 2215, and check Gai Item Menu/Is Dual Weapon.
+
+-Navigate to Game>Cinders>msg>engus then unpack menu_dlc2.msgbnd.dcx. Then msg>engUS>64bit then unpack FDP - Text 2 - DLC1.fmg.xml. Open the new xml file. Create a new entry with text ID 75006 with name Elemental Flow. Place in proper numerical Text ID order. Save, close, repack the xml, then repack the item_dlc2.msgbnd.dcx folder.
+
+-Add 2 new SpEffectParam entries by duplicating rows 160600700 and 160600701 into 160201250 and 160201251. Name them Quarterstaff - Successive Hits FP and Quarterstaff - Successive Hits FP [State]. In 160201250, change State Effect 1 – SpEffect to 160201251 and State Effect 1 – Condition to 25. In 160201251 change Icon ID to Absorb FP, Duration to 1.3, Change FP % to -10 and Effect VFX 0 to 95005300.
+
+-Create 1 new SpEffectVFXParam entry by duplicating row 92079000 into 95005300. Name it Quarterstaff - FP Restoration Effect. Change the Ongoing Visual FX ID to -1, the Ongoing Sound FX ID to 524703, and the Ongoing Model Point ID to -1.
+
+-Add 1 new SpEffectParam entry by creating a new row at 160201260. Name it Quarterstaff - Nullify FP Regen. Change Trigger Interval to .5 and the Cycle Occurance Effect ID to 113000.
+
+-Add 4 new SpEffectParam entries by duplicating rows 130080000, 130080010, 130080050, and 130080060 into 130081000, 130081010, 130081050, and 130081060. Name them [Quarterstaff] Elemental Flow – Right, [Quarterstaff] Elemental Flow – Right – Low FP, [Quarterstaff] Elemental Flow – Left, and [Quarterstaff] Elemental Flow – Left – Low FP. Find Cycle Occurrence Effect ID on all 4 new rows and increase those numbers by 1000: 1081001, 1081011, 1081051, and 1081061.
+
+-Add 4 new SpEffectParam entries by duplicating rows 1080001, 1080011, 1080051, and 1080061 into 1081001, 1081011, 1081051, and 1081061. Name them [Weapon Art] Elemental Flow – Right Hand, [Weapon Art] Elemental Flow – Right Hand – Low FP, [Weapon Art] Elemental Flow – Left Hand, and [Weapon Art] Elemental Flow – Left Hand – Low FP. In 1081011 and 1081061 set the duration to 0. In 1081001 and 1081051, change the Power % Physical to 1, change SP Damage % Physical to 0, and change PVP Damage % Physical to 1. In all 4 rows change Effect Category to Body Buff 1, change State Info to 200 – Power Within VFX, and change Effect VFX 0 to 95005000.
+
+-Create 1 new SpEffectVFXParam entry by duplicating row 90024400 into 95005000. Name it Weapon Art – Elemental Flow.
+
+-Open Cinders>action>script>c0000.hks. Control F WarcrySpAtk. Where it says “local buff =” add 1081001 and 1081011 to the list in numerical order.
+
+-Add 4 new SpEffectParam entries by duplicating rows 130022400, 130022401, 130022450, and 130022451 into 130081100, 130081101, 130081150, and 130081151. Name them [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Right, [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Right [CycleOccurance], [Quarterstaff] Elemental Flow - Weapon Buff Lightining – Left, [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Left [CycleOccurance]. In 130081100 and 130081150 change the Cycle Occurance Effect Ids to 130081101 and 130081151 respectively and change the Effect Attribute to Lightning. In 130081101 and 130081151 change the Duration to 20, Damage + Lightning to 145, the Effect Attribute to Lightning, the Effect VFX 0 to 95005100, and Damage + Dark to 0.
+
+-Create 1 new SpEffectVFXParam entry by duplicating row 90035900 into 95005100. Name it Weapon Art – Elemental Flow – Lightning Weapon.
+-Add 4 new SpEffectParam entries by duplicating rows 130081100, 130081101, 130081150, and 130081151 into 130081200, 130081201, 130081250, and 130081251. Name them [Quarterstaff] Elemental Flow - Weapon Buff Wind- Right, [Quarterstaff] Elemental Flow - Weapon Buff Wind- Right [CycleOccurance], [Quarterstaff] Elemental Flow - Weapon Buff Wind – Left, [Quarterstaff] Elemental Flow - Weapon Buff Wind - Left [CycleOccurance]. In 130081200 and 130081250 change the Cycle Occurance Effect Ids to 130081201 and 130081251 respectively. In 130081201 and 130081251 change Damage + Physical to 145, Damage + Lightning to 0, and Effect VFX 0 to 95005200. In all 4 rows change Effect Attribute to Physical.
+
+-Create 1 new SpEffectVFXParam entry by duplicating row 95005100 into 95005200. Name it Weapon Art – Elemental Flow – Wind Weapon. Change Ongoing Visual FX ID to 440382 and the Ongoing Sound FX ID to -1.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 900/reference type bullet/reference Id 210009000/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow Activation. Add 1 new Bullet Param entry by duplicating row 210001800 into 210009000. Name it the same. Change the Attack Param ID to 3813900, the Projectile FX ID to -1, the Impact FX ID to 652834, the Final Hit Radius to 5.5, and the Effect Attribute to lightning. In AttackParam_PC duplicate row 3216710 into 3813900. Name it the same. Change the Damage Level to stagger backwards and the Effect Attribute to lightning.
+
+-Create 2 new BehaviorParam_Pc entries under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Ids 910, 920/reference type bullet/reference Ids 210009100, 210009200/stamina cost 0/category 0. Name them Quarterstaff - Elemental Overflow – 1H Wind Gust #1 and #2. Add 2 new Bullet Param entries by duplicating row 5010700 into 210009100 and 210009200. Name them the same. In both entries change the Attack Param IDs to 3813910 and 3813920, the Duration to 1.2, the initial velocity to 25, Initial Hit Radius to 1, the Radius Spread Time to 0.25, the Bullet Count to 2, and the Shoot Angle - Horizontal Interval to -6.  In 210009100 change Horizontal Shoot Angle to 3. In 210009200 change Horizontal Shoot Angle to -1. In AttackParam_PC duplicate row 2030707 into 3813910 and 3813920. Name them the same. In both entries, change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 70 and change Damage Level to Long Stagger.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 930/reference type bullet/reference Id 210009300/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow – 1H Wind Gust #3. Add 1 new Bullet Param entry by duplicating row 5010720 into 210009300. Name it the same. Change the Attack Param ID to 3813930, the Duration to 1, the Initial Hit Radius to 1.75, the Radius Spread Time to .3, the Bullet Count to 2, the Horizontal Shoot Angle to 5, the Shoot Angle - Horizontal Interval to -10, and the Sp Homing Y Angle to 0. In AttackParam_PC duplicate row 2030707 into 3813930. Name it the same. Change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 90.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 940/reference type bullet/reference Id 210009400/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow – 2H Lightning Rain. Add 3 new Bullet Param entries by duplicating rows 109555000, 109555020, and 109555030 into 210009400, 210009401, 210009402. Name them Quarterstaff - Elemental Overflow – 2H Lightning Rain, Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit] #1, and Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit] #2. In 210009400 change the Attack Param ID to 3813940, the Hit Bullet ID to 210009401, the Bullet count to 12, and the Effect Attribute to Lightning. In 210009401 change the Attack Param ID to 3813941, the Impact FX ID to 650173, the Hit Bullet ID to 210009402, and the Effect Attribute to Lightning. In 210009402 change the Attack Param Id to 3813942, the Impact FX ID to 650173, the Initial Hit Radius to 1.5, and the Effect Attribute to Lightning. In AttackParam_PC duplicate rows 19555000, 19555020, and 19555030 into 3813940, 3813941, and 3813942. In 3813942, change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 200 and change Damage Lightning to 0.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 950/reference type bullet/reference Id 210009500/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow – 2H Lightning Pulse. Add 1 new Bullet Param entry by duplicating row 5010532 into 210009500. Name it the same. Change the Attack Param ID to 3813950, the Bullet Count to 1, and the Shoot Angle - Horizontal Interval to 0. In AttackParam_PC duplicate 3813910 into 3813950. Name it the same. Change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 100.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 960/reference type bullet/reference Id 210009600/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow – 2H Lightning Star. Add 1 new Bullet Param entry by duplicating row 5010532 into 210009600. Name it the same. Change the Attack Param ID to 3813960, the Bullet Count to 9, and the Shoot Angle - Horizontal Interval to 40. In AttackParam_PC duplicate 3813930 into 3813960. Name it the same. Change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 140.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 970/reference type bullet/reference Id 210009700/stamina cost 150/FP Cost 12/category 0. Name it Quarterstaff - Elemental Overflow Low FP Burst. Add 1 new Bullet Param entry by duplicating row 100092642 into 210009700. Name it the same. Change the Attack Param ID to 3813970, the Projectile FX ID to -1, the Impact FX ID to 652834, the Duration to .3, the Initial Hit Radius to 2, the Final Hit Radius to 5.5, the Radius Spread Time to .25, and the Effect Attribute to lightning. In AttackParam_PC duplicate row 3814741 into 3813970. Name it the same. Change Target Effect 3 to 0 and the Effect Attribute to lightning.
+
+-Create 12 new BehaviorParam_Pc entries by duplicating 103800030, 103800100, 103800105, 103800110, 103800115, 103800230, 103800300, 103800303, 103800305, 103800308, 103800310, and 103800315 into 103813xxx (where xxx is same last three digits as copied). Name them the same as the row copied but replace Halberd with Quarterstaff. Add Hit 1 to the names of 103813300 and 103813310. Add 2H Heavy #1 Hit 2 and 2H Heavy #1 Max Hit 2 to the names of 103813303 and 103813308. In each new row, change the Behavior Variation ID to 3813 and the Reference ID to 3813xxx (where xxx is the behavior judge id). Change the stamina cost to 50 in 103813310 and 60 in 103813315.
+
+-Create 10 new AtkParam_Pc entries by duplicating 3800030, 3800100, 3800105, 3800110, 3800115, 3800230, 3800300, 3800303, 3800305, 3800308, into 3800xxx (where xxx is same last three digits as copied). Name them the same as the row copied but replace Halberd with Quarterstaff. In all 12 entries change Hitbox Start Model Point: 1 to 100.
+
+-Create 2 new AtkParam_Pc entries by duplicating 3813110 and 3813115 into 3813310 and 3813315. Name them Quarterstaff - 2H Heavy #2 and Quarterstaff - 2H Heavy #2 Max. In 3813310, change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 150 and change Attack Correction: Guard Attack Rate to 400. In 3813315, change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 200 and change Attack Correction: Guard Attack Rate to 500.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 800/reference Id 3813800/stamina cost 50/category 0. Name it Quarterstaff - Elemental Overflow - Activation Thrust. Add 1 new AtkParam_PC entry by duplicating row 3611700 into 3813800. Name it the same.
+
+-Create 2 new BehaviorParam_Pc entries under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Ids 810, 811/reference Ids 3813810, 3813811/stamina cost 18/category 1. Name them Quarterstaff - Elemental Overflow - 1H Heavy #1 Hit 1 and 2. Add 2 new AtkParam_PC entries by duplicating rows 2812700 and 2812701 into 3813810 and 3813811. Name them the same. In both entries, change Hit 1 Radius to .45, Target Effect to 6904, Attack Correction: Guard Attack Rate to 500 and Attack Attribute to Standard.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 820/reference Id 3813820/stamina cost 40/category 1. Name it Quarterstaff - Elemental Overflow - 1H Heavy #2. Add 1 new AtkParam_PC entry by duplicating row 2812710 into 3813820. Name it the same. Change Hit 1 Radius to .45, Target Effect to 6904, Attack Correction: Guard Attack Rate to 500 and Attack Attribute to Standard.
+
+-Create 2 new BehaviorParam_Pc entries under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Ids 830, 831/reference Ids 3813830, 3813831/stamina cost 10, 40/category 11. Name them Quarterstaff - Elemental Overflow - 2H Heavy #1 Hit 1 and 2. Add 2 new AtkParam_PC entries by duplicating rows 3813810 and 3813820 into 3813830 and 3813831. Name them the same. In both entries change Knockback Distance to 1.5. In 3813830, Change Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 80 and Attack Correction Stamina to 100.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 840/reference Id 3813840/stamina cost 60/category 11. Name it Quarterstaff - Elemental Overflow - 2H Heavy #2. Add 1 new AtkParam_PC entry by duplicating row 3813831 into 3813840. Name it the same. Change Hit Stop Time to .11 and Attack Corrections Physical, Magic, Fire, Lightning, and Dark to 200.
+
+-Create 1 new BehaviorParam_Pc entry under the Splitleaf Greatsword (Behavior Variation ID 3813) with behavior judge Id 841/reference Id 3813841/stamina cost 0/category 0. Name it Quarterstaff - Elemental Overflow - 2H Heavy #2 - Backstep. Add 1 new AtkParam_PC entry by duplicating row 2519720 into 3813841. Name it the same.
+-Navigate to Game>Cinders>msg>engus then unpack item_dlc2.msgbnd.dcx. Then continue to msg>engUS>64bit then unpack Description – Weapons.fmg. Open the new xml file. Control F 12110000. This takes you to the Quarterstaff’s description page. Change the weapon’s description to:
+ “Quarterstaff hewn from a sacred Lindelt greatwood by a passing nameless lord.
+When two-handed, the wielder can vary their blows with unique left-handed attacks.
+Effect: Nullifies FP regeneration but grants 10% FP with successive attacks.”
+Change the name of the WA to Elemental Flow. Change the description to “Raise staff into the air to call upon the wrath of the weapon’s crafter, enabling special strong attacks.” Do the same for all 15 variants of the Quarterstaff (12110000-12111400). Save, close, repack the xml, then repack the item_dlc2.msgbnd.dcx folder.
+
+-Navigate to Cinders>action>script>c0000.hks. Control F ExecEventAllBody("W_Warcry"). Replace that line with the following.
+if env(345, HAND_RIGHT) == 620 and 100 > env(2016) then
+                        ExecEventAllBody("W_EndureRightHeavy")
+                        return FALSE
+            else
+                        ExecEventAllBody("W_Warcry")
+            end
+If you already did this for the Writhing Hammer, edit the first line to:
+if (env(345, HAND_RIGHT) == 620 or env(345, HAND_RIGHT) == 614) and 100 > env(2016) then
+-Still in the HKS: Control F if isDualBladeSpecific. For all 10 entries, add the following between TRUE and then: “and sp_kind ~= 620” without quotes. After the first of the ten entries, copy the next line which reads “local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)” without quotes. Paste it one line above that first if isDualBladeSpecific line so that it looks like this:
+if pos == WEAPON_CHANGE_REQUEST_LEFT_WAIST then
+local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)
+if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 620 then
+local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)
+After the sixth of the ten entries, copy the next line which reads “local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)” without quotes. Paste it one line above that sixth is DualBladeSpecific line exactly as done with the first.
+
+-Still in the HKS. Control F function AttackBothLight3_onUpdate(). If you haven’t already done so for another weapon, enter down one line after
+        hand = HAND_LEFT
+end
+and add local sp_kind = env("装備武器特殊カテゴリ番号取得", hand). In the following line delete env("装備武器特殊カテゴリ番号取得", hand) and replace it with sp_kind. Next, between 232 and then, add or sp_kind == 620.
+-Still in the HKS: Control F function AttackBothLeft3_onUpdate(). Add the following script to a new line after the function’s opening line:
+            local l1 = "W_AttackBothLeft2"
+            local hand = HAND_RIGHT
+            local style = c_Style
+            if style == HAND_LEFT_BOTH then
+                     hand = HAND_LEFT
+    end
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+            if sp_kind == 620 then
+                        l1 = "W_AttackBothLeft1"
+            end
+Next, in the line starting with if AttackCommonFunction, replace "W_AttackBothLeft2” (including the quotes) with l1.
+
+-Still in the HKS: Control F function AttackBothDash_onUpdate(). Add the following script to a new line after the function’s opening line:
+            local l1 = "W_AttackBothLeft1"
+            local b1 = "W_AttackBothLight1"
+            local b2 = "W_AttackBothHeavy1Start"
+            local hand = HAND_RIGHT
+            local style = c_Style
+            if style == HAND_LEFT_BOTH then
+          hand = HAND_LEFT
+end
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+            if sp_kind == 620 then
+                        l1 = "W_AttackBothLeft3"
+                        b1 = "W_AttackBothLight3"
+                        b2 = "W_AttackBothHeavy2Start"
+            end
+Next, in the line starting with if AttackCommonFunction, replace "W_AttackBothLeft1” with l1, "W_AttackBothLight1" with b1, and "W_AttackBothHeavy1Start" with b2.
+Do the exact same for both function AttackBothLightStep_onUpdate() and function AttackBothLeftStep_onUpdate().
+
+-Still in the HKS: Control F function AttackBothLeftDash_onUpdate(). Add a new line below     local b1 = "W_AttackBothLight1" with the following:
+local b2 = "W_AttackBothHeavy1Start"
+Replace env("装備武器特殊カテゴリ番号取得", hand) with sp_kind. Add a new line preceding this one with:
+local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+Next, in the line starting with if AttackCommonFunction, replace "W_AttackBothHeavy1Start" with b2. Add a new line preceding this one with:
+            if sp_kind == 620 then
+                        l1 = "W_AttackBothLeft3"
+                        b1 = "W_AttackBothLight3"
+                        b2 = "W_AttackBothHeavy2Start"
+            end
+
+-Still in the HkS: Control F function AttackBothHeavyKick_onUpdate(). Add the following script to a new line after the function’s opening line:
+local l1 = "W_AttackBothLeft1"
+            local b1 = "W_AttackBothLight1"
+            local hand = HAND_RIGHT
+            local style = c_Style
+            if style == HAND_LEFT_BOTH then
+          hand = HAND_LEFT
+end
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+            if sp_kind == 620 then
+                        l1 = "W_AttackBothLeft2"
+                        b1 = "W_AttackBothLight2"
+            end
+Next, in the line starting with if AttackCommonFunction, replace "W_AttackBothLeft1” with l1 and "W_AttackBothLight1" with b1.
+
+-Still in the HkS: Control F function AttackRightLightStep _onUpdate(). Add the following script to a new line after the function’s opening line:
+            local r2 = "W_AttackRightHeavy1Start"
+            local hand = HAND_RIGHT
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+            if sp_kind == 620 then
+                        r2 = "W_AttackRightHeavy2Start"
+            end
+Next, in the line starting with if AttackCommonFunction, replace "W_AttackRightHeavy1Start" with r2.
+Save and close the HKS.
+Video of Moveset: https://www.youtube.com/watch?v=meAUaLA0yE0&t=4s&ab_channel=MuffinofLove 
+Video of Gameplay: https://www.youtube.com/watch?v=HB6YUyPT5Y0&t=6s&ab_channel=MuffinofLove 
+Original Post with Reasoning: https://discordapp.com/channels/634519927331749898/634520008965357570/754851595602100244 
+
