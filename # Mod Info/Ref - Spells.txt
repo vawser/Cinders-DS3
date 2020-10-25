@@ -801,7 +801,7 @@ Deep Protection
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 10
-- Lightning Damage: 100
+- Lightning Damage: 150
 - FTH Req: 20
 - Ascended Effect: increases tracking.
 

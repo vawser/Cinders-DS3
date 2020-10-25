@@ -41,10 +41,10 @@
 - Reduced the cost of the cosmetic items from Alchemist Jiji.
 
 # Items
-- Writhing Hammer is now a Midir transposition.
+- Writhing Hammer is now a Deacons of the Deep transposition.
 
 # Spells
-- Reduced Lightning Arrow damage to 100.
+- Reduced Lightning Arrow damage to 150.
 
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
