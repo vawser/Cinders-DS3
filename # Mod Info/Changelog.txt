@@ -30,6 +30,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Weapons 
+- Added new Black Dragon Shield WA (thanks to Muffin)
+- Claw weapons now use the Lone Shadow kick - deals damage and additional stamina damage compared the normal kick.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
@@ -52,12 +55,20 @@
 - Fixed Remy giving out endless Dried Root.
 - Fixed Remy setting DLC event flags accidently, causing a DLC license issue for those that did not own the DLC.
 - Fixed Vordt's Great Hammer 2H heavy attacks not knocking the enemy upwards
+- Removed the speed increase for the Lothric Castle elevators due to glitchiness.
 
 #------------------------------
 # TODO - General
-#------------------------------
-31450000 - 0841 - 4262 - Aldia Hammer                    - Hammer
-31460000 - 0842 - 4263 - Black Scorpion Stinger          - Rapier
+#------------------------------ 
+Gundyr Kick: a026_036500
+Shoulder Bash: a046_038400
+Delayed Side Kick: a860_003008
+
+
+# Weapons
+31450000 - 0841 - 4262 - Aldia Hammer                    - Club
+    Custom Warcry
+31460000 - 0842 - 4263 - Black Scorpion Stinger          - Estoc
 31470000 - 0843 - 4264 - Dragonrider Twinblade           - Splitleaf Greatsword
 31480000 - 0844 - 4265 - Dragon Hunter's Great Hammer    - Great Hammer 
 31490000 - 0845 - 4266 - Dragon Hunter's Greataxe        - Greataxe

@@ -1623,7 +1623,6 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventAllBody("W_AttackRightLightKick")
         end
-        
     elseif request == ATTACK_REQUEST_RIGHT_HEAVY then
         if artsr2 == TRUE then
             SetSwordArtsPointInfo(ACTION_ARM_R2, TRUE)
