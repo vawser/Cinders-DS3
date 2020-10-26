@@ -1,1 +1,5 @@
-﻿
+﻿Hi Vaws, I implemented the Black Dragon Shield. I used tae 317.
+
+-In Params I edited EquipParamWeapon, SwordArtsParam, BehaviorParam_Pc, and SpEffectParam
+-In item_dlc2.msgbnd.dcx I edited Description - Weapons.fmg
+-In menu_dlc2.msgbnd.dcx I edited FDP - Text 2.fmg
