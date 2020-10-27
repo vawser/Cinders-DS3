@@ -39,6 +39,7 @@
 
 # Map
 - Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
+- Removed the shortcut key items, the warps are now automatically accessible.
 
 # Merchants
 - Reduced the cost of the cosmetic items from Alchemist Jiji.

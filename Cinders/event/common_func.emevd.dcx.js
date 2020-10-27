@@ -4841,10 +4841,10 @@ Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     IfActionButtonInArea(AND_01, X4_4, X0_4);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
-    DisplayEpitaphMessage(X28_4);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
+    //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    //DisplayEpitaphMessage(X28_4);
+    //SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
@@ -4862,10 +4862,10 @@ Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     IfActionButtonInArea(AND_01, X4_4, X0_4);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
-    DisplayEpitaphMessage(X28_4);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
+    //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    //DisplayEpitaphMessage(X28_4);
+    //SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
@@ -4883,10 +4883,10 @@ Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     IfActionButtonInArea(AND_01, X4_4, X0_4);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
-    DisplayEpitaphMessage(X28_4);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
+    //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
+    //DisplayEpitaphMessage(X28_4);
+    //SkipIfConditionGroupStateUncompiled(3, FAIL, AND_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
@@ -4903,11 +4903,11 @@ Event(20008206, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     IfActionButtonInArea(AND_01, X4_4, X0_4);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, X24_4, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, 2100, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, PASS, OR_02); // If they have the item, skip
-    DisplayEpitaphMessage(X28_4);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, OR_02); // If they don't have the item, skip
+    //IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, X24_4, OwnershipState.Owns);
+    //IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, 2100, OwnershipState.Owns);
+    //SkipIfConditionGroupStateUncompiled(1, PASS, OR_02); // If they have the item, skip
+    //DisplayEpitaphMessage(X28_4);
+    //SkipIfConditionGroupStateUncompiled(3, FAIL, OR_02); // If they don't have the item, skip
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
