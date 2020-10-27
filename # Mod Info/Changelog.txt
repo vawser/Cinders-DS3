@@ -56,6 +56,7 @@
 - Fixed Remy setting DLC event flags accidently, causing a DLC license issue for those that did not own the DLC.
 - Fixed Vordt's Great Hammer 2H heavy attacks not knocking the enemy upwards
 - Removed the speed increase for the Lothric Castle elevators due to glitchiness.
+- Fixed Rosaria's Dress emblem.
 
 #------------------------------
 # TODO - General
