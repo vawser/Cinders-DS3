@@ -5050,7 +5050,7 @@ Event(20020000, Default, function() {
     AwardItemLot(800300010); // 50%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
@@ -5081,7 +5081,7 @@ Event(20020001, Default, function() {
     AwardItemLot(800300010); // 50%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
@@ -5112,7 +5112,7 @@ Event(20020002, Default, function() {
     AwardItemLot(800300010); // 50%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
@@ -5143,7 +5143,7 @@ Event(20020003, Default, function() {
     AwardItemLot(800300020); // 75%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
@@ -5174,7 +5174,7 @@ Event(20020004, Default, function() {
     AwardItemLot(800300020); // 75%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
@@ -5205,7 +5205,7 @@ Event(20020005, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5236,7 +5236,7 @@ Event(20020006, Default, function() {
     AwardItemLot(800300020); // 75%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300020); // 75%
     
     // NG+1 Drop
@@ -5267,7 +5267,7 @@ Event(20020007, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5298,7 +5298,7 @@ Event(20020008, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5329,7 +5329,7 @@ Event(20020009, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5360,7 +5360,7 @@ Event(20020010, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5391,7 +5391,7 @@ Event(20020011, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5422,7 +5422,7 @@ Event(20020012, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5453,7 +5453,7 @@ Event(20020013, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5484,7 +5484,7 @@ Event(20020014, Default, function() {
     AwardItemLot(800300010); // 50%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300010); // 50%
     
     // NG+1 Drop
@@ -5515,7 +5515,7 @@ Event(20020015, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5546,7 +5546,7 @@ Event(20020016, Default, function() {
     AwardItemLot(800300030); // 100%
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
@@ -5577,7 +5577,7 @@ Event(20020017, Default, function() {
     AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
@@ -5608,7 +5608,7 @@ Event(20020018, Default, function() {
     AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
@@ -5639,7 +5639,7 @@ Event(20020019, Default, function() {
     AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
@@ -5670,7 +5670,7 @@ Event(20020020, Default, function() {
     AwardItemLot(800300050); // 100% (3)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300050); // 100% (3)
     
     // NG+1 Drop
@@ -5701,7 +5701,7 @@ Event(20020021, Default, function() {
     AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
@@ -5732,7 +5732,7 @@ Event(20020022, Default, function() {
     AwardItemLot(800300030); // 100% 
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100% 
     
     // NG+1 Drop
@@ -5763,7 +5763,7 @@ Event(20020023, Default, function() {
     AwardItemLot(800300040); // 100% (2)
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300040); // 100% (2)
     
     // NG+1 Drop
@@ -5794,7 +5794,7 @@ Event(20020024, Default, function() {
     AwardItemLot(800300030); // 100% 
     
     // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000160);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
     AwardItemLot(800300030); // 100% 
     
     // NG+1 Drop

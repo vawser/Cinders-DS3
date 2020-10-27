@@ -57,6 +57,7 @@
 - Fixed Vordt's Great Hammer 2H heavy attacks not knocking the enemy upwards
 - Removed the speed increase for the Lothric Castle elevators due to glitchiness.
 - Fixed Rosaria's Dress emblem.
+- Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
 
 #------------------------------
 # TODO - General
