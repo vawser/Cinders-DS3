@@ -32,7 +32,7 @@
 #------------------------------
 # Weapons 
 - Added new Black Dragon Shield WA (thanks to Muffin)
-- Claw weapons now use the Lone Shadow kick - deals damage and additional stamina damage compared the normal kick.
+- Some of the claw weapons now use the Lone Shadow kick - deals damage and additional stamina damage compared the normal kick.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
@@ -60,10 +60,6 @@
 #------------------------------
 # TODO - General
 #------------------------------ 
-Gundyr Kick: a026_036500
-Shoulder Bash: a046_038400
-Delayed Side Kick: a860_003008
-
 
 # Weapons
 31450000 - 0841 - 4262 - Aldia Hammer                    - Club

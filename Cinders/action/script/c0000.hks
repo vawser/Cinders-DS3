@@ -7338,7 +7338,7 @@ function AttackRightLight3_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 282 then
+    if sp_kind == 276 or sp_kind == 282 then
         r1 = "W_AttackRightBackstep"
     end
     
