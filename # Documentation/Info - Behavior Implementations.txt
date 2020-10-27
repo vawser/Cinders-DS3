@@ -254,6 +254,7 @@
 030330 - AttackRightHeavy1SubStart #13152
 030340 - AttackRightHeavy2Start #13153
 030341 - AttackRightHeavy2End #13154
+030920 - AttackRightBackstep #13399
 034000 - AttackBothLight1 #13155
 034010 - AttackBothLight2 #13156
 034020 - AttackBothLight3 #13157
