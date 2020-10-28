@@ -596,8 +596,30 @@
 037710 - EndureRightHeavy #13384
 
 #------------------------------------------------
-# a295 - 
+# a295 - Manus Catalyst
 #------------------------------------------------
+030320 - AttackRightHeavy1Start #13400
+030321 - AttackRightHeavy1End #13401
+030330 - AttackRightHeavy1SubStart #13402
+030340 - AttackRightHeavy2Start #13403
+030341 - AttackRightHeavy2End #13404
+
+034320 - AttackBothHeavy1Start #13405
+034321 - AttackBothHeavy1End #13406
+034330 - AttackBothHeavy1SubStart #13407
+034340 - AttackBothHeavy2Start #13408
+034341 - AttackBothHeavy2End #13409
+
+037900 - MagicBuffRight #13410
+       - MagicBuffRight_Upper
+037901 - MagicBuffRight_NoPoints #13410
+       - MagicBuffRight_NoPoints_Upper
+037910 - MagicBuffLeft #13412
+       - MagicBuffLeft_Upper
+037911 - MagicBuffLeft_NoPoints #13413
+       - MagicBuffLeft_NoPoints_Upper
+
+
 
 #------------------------------------------------
 # a296 - 
