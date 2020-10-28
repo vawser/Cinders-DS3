@@ -3,46 +3,6 @@
 #------------------------
 f000 is the normal prefix for the fxr filenames.
 
-<RootEffectCall>
-<FFXEffectCallA>
-<EffectAs>
-<EffectBs>
-<Actions>
-
-<FFXActionCall>
- <Unk02> - Execute another FFX ID (true when call another FFX)
- <Unk03> - Unknown, (true when not calling another FFX)
- <Unk04> - 
- <Properties1>
-    <FFXProperty>
-     <Fields>
- <Properties2>
- <Section10s>
- <Fields1>
-    <FFXField> - Can reference FFX ID
- <Fields2>
-     
-# FFXProperty 
-TypeEnumA:
-0  - 
-16 - 
-19 - 
-32 - 
-35 - Color Floats - R, G, B, Alpha
-64 - 
-67 - Color Floats (Special)
-
-TypeEnumB:
-0  - With TypeEnumA 0
-8  - With TypeEnumA 32
-11 - With TypeEnumA 35
-
-ActionID="75"
-    Contains the sound ID
-    Corresponds to s000<id> sample name in DSSI
-    
-ActionID="81"
-
 dmy:
  15 - all body (total)
  198 - all body (fewer)
@@ -74,3 +34,53 @@ dmy:
 854050 Dung Aura
 
 854060 Silent Fire Orb
+
+#------------------------
+# Reference
+#------------------------
+EffectID
+ 1004       - Effect
+ 1005       - 
+ 2000       -
+ 2001       - Chain Effect?
+ 2002       - 
+ 2200       - Effect Group
+ 
+ActionID
+ 0          -
+ 1          - 
+ 34         - Movement related
+ 35         -
+ 55         - 
+ 75         - Sound related
+ 81         - Sound related
+ 105        - Movement related
+ 128        -
+ 129        -
+ 130        -
+ 131        - Color related
+ 132        - ID Link
+ 199        -
+ 300        - 
+ 399        -
+ 400        -
+ 404        - 
+ 500        -
+ 501        - 
+ 603        - Color/Sound related
+ 605        - Color/Sound related
+ 609        - Color related
+ 10100      -
+ 10400      -
+ 10500      -
+
+TypeEnumA
+0   - 
+16  - 
+19  - 
+32  - 
+35  - Color Floats - R, G, B, Alpha
+64  - 
+67  - Color Floats (Special)
+96  - 
+

@@ -2212,41 +2212,41 @@
 6231700 [Murkman] Spirit Rush
 6231701 [Murkman] Spirit Rush
 6240700 [Pilgrim Pulpa] ?
-6250100 [Pilgrim Angel] 3000 - Holy Barrage
-6250101 [Pilgrim Angel] 3000 - Holy Barrage
-6250102 [Pilgrim Angel] 3000 - Holy Barrage
-6250103 [Pilgrim Angel] 3000 - Holy Barrage
-6250110 [Pilgrim Angel] 3000 - Holy Barrage
-6250111 [Pilgrim Angel] 3000 - Holy Barrage
-6250112 [Pilgrim Angel] 3000 - Holy Barrage
-6250113 [Pilgrim Angel] 3000 - Holy Barrage
-6250200 [Pilgrim Angel] 3001 - Holy Barrage
-6250201 [Pilgrim Angel] 3001 - Holy Barrage
-6250202 [Pilgrim Angel] 3001 - Holy Barrage
-6250203 [Pilgrim Angel] 3001 - Holy Barrage
-6250210 [Pilgrim Angel] 3001 - Holy Barrage
-6250211 [Pilgrim Angel] 3001 - Holy Barrage
-6250212 [Pilgrim Angel] 3001 - Holy Barrage
-6250213 [Pilgrim Angel] 3001 - Holy Barrage
-6250300 [Pilgrim Angel] 3002 - Holy Barrage
-6250301 [Pilgrim Angel] 3002 - Holy Barrage
-6250302 [Pilgrim Angel] 3002 - Holy Barrage
-6250303 [Pilgrim Angel] 3002 - Holy Barrage
-6250310 [Pilgrim Angel] 3002 - Holy Barrage
-6250311 [Pilgrim Angel] 3002 - Holy Barrage
-6250312 [Pilgrim Angel] 3002 - Holy Barrage
-6250313 [Pilgrim Angel] 3002 - Holy Barrage
+6250100 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250101 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250102 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250103 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250110 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250111 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250112 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250113 [Pilgrim Angel] 3000 - Holy Barrage 1
+6250200 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250201 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250202 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250203 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250210 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250211 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250212 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250213 [Pilgrim Angel] 3000 - Holy Barrage 2
+6250300 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250301 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250302 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250303 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250310 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250311 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250312 [Pilgrim Angel] 3000 - Holy Barrage 3
+6250313 [Pilgrim Angel] 3000 - Holy Barrage 3
 6250740 [Pilgrim Angel]
 6250741 [Pilgrim Angel] Curse Mist
 6250742 [Pilgrim Angel] Curse Mist [Fog]
-6250750 [Pilgrim Angel] Holy Burst
-6250751 [Pilgrim Angel] Holy Burst
-6250752 [Pilgrim Angel] Holy Burst
-6250755 [Pilgrim Angel] Holy Burst
-6250756 [Pilgrim Angel] Holy Burst
-6250757 [Pilgrim Angel] Holy Burst
+6250750 [Pilgrim Angel] Swoop Down - Holy Burst
+6250751 [Pilgrim Angel] Swoop Down - Holy Burst
+6250752 [Pilgrim Angel] Swoop Down - Holy Burst
+6250755 [Pilgrim Angel] Swoop Down - Holy Burst
+6250756 [Pilgrim Angel] Swoop Down - Holy Burst
+6250757 [Pilgrim Angel] Swoop Down - Holy Burst
 6250759 [Pilgrim Angel] Holy Barrage [Hit]
-6250800 [Pilgrim Angel]
+6250800 [Pilgrim Angel] Curse Mist
 6260700 [Ringed Knight] ?
 6260701 [Ringed Knight] ?
 6260705 [Ringed Knight] ?

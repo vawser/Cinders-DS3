@@ -74,6 +74,14 @@
 1291000 Drang Set - Body (Transform)
 1292000 Drang Set - Hands (Transform)
 1293000 Drang Set - Legs (Transform)
+1300000 Black Hand Set - Head (Transform)
+1301000 Black Hand Set - Body (Transform)
+1302000 Black Hand Set - Hands (Transform)
+1303000 Black Hand Set - Legs (Transform)
+1310000 Rosaria's Set - Head (Transform)
+1311000 Rosaria's Set - Body (Transform)
+1312000 Rosaria's Set - Hands (Transform)
+1313000 Rosaria's Set - Legs (Transform)
 10000001 ### Armor ###
 10010000 Gough's Helm
 10011000 Gough's Armor

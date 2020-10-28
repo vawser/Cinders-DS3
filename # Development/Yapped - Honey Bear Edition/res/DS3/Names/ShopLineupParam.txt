@@ -156,13 +156,12 @@
 22903 [Servant of the Rat] Black Bug Pellet
 22904 [Servant of the Rat] Mossfruit
 22905 [Servant of the Rat] Rat Treat
-30000 [Ludleth - Corrupted Gundyr] Writhing Hammer
+30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
 30001 [Ludleth - Corrupted Gundyr] Cursed Ring of Evasion
 30002 [Ludleth - Corrupted Gundyr] Cursed Ring of Vengeance
 30003 [Ludleth - Corrupted Gundyr] Cursed Ring of Deflection
 30004 [Ludleth - Corrupted Gundyr] Cursed Ring of Confusion
 30005 [Ludleth - Corrupted Gundyr] Atonement
-30006 [Ludleth - Corrupted Gundyr] Accursed Sigil
 30010 [Ludleth - Vordt] Vordt's Great Hammer
 30011 [Ludleth - Vordt] Pontiff's Left Eye
 30012 [Ludleth - Vordt] Snap Freeze
@@ -183,6 +182,7 @@
 30042 [Ludleth - Deacons] Whisper of Despair
 30043 [Ludleth - Deacons] Dreg Torrent
 30044 [Ludleth - Deacons] Pulsating Blade
+30045 [Ludleth - Deacons] Writhing Hammer
 30050 [Ludleth - Abyss Watcher] Farron Greatsword
 30051 [Ludleth - Abyss Watcher] Wolf Knight's Greatsword
 30052 [Ludleth - Abyss Watcher] Hornet Ring

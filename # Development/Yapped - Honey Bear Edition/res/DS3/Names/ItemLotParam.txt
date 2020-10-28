@@ -1,61 +1,35 @@
 2000 [Boss - Vordt] Soul of Boreal Valley Vordt
-2001 [Boss - Vordt] Primordial Essence
 2010 [Boss - Dancer] Soul of the Dancer
-2011 [Boss - Dancer] Primordial Essence
 2020 [Boss - Oceiros] Soul of Consumed Oceiros
-2021 [Boss - Oceiros] Primordial Essence
 2030 [Boss - Dragonslayer Armour] Soul of Dragonslayer Armour
-2031 [Boss - Dragonslayer Armour] Primordial Essence
 2040 [Boss - Prince Lothric] Cinders of a Lord
 2041 [Boss - Prince Lothric] Soul of the Twin Princes
-2042 [Boss - Prince Lothric] Primordial Essence
 2060 [Boss - Curse-rotted Greatwood] Soul of the Rotted Greatwood
-2061 [Boss - Curse-rotted Greatwood] Primordial Essence
 2070 [Boss - Ancient Wyvern] Soul of the Ancient Wyvern
-2071 [Boss - Ancient Wyvern] Primordial Essence
 2080 [Boss - Nameless King] Soul of the Nameless King
-2081 [Boss - Nameless King] Primordial Essence
 2090 [Boss - Crystal Sage] Soul of a Crystal Sage
-2091 [Boss - Crystal Sage] Primordial Essence
 2100 [Boss - Abyss Watchers] Cinders of a Lord
 2101 [Boss - Abyss Watchers] Soul of the Blood of the Wolf
-2102 [Boss - Abyss Watchers] Primordial Essence
 2110 [Boss - Deacons of the Deep] Soul of the Deacons of the Deep
-2111 [Boss - Deacons of the Deep] Eye of Londor
-2112 [Boss - Deacons of the Deep] Primordial Essence
 2120 [Boss - Pontiff Sulyvahn] Soul of Pontiff Sulyvahn
-2121 [Boss - Pontiff Sulyvahn] Primordial Essence
 2130 [Boss - Aldrich] Cinders of a Lord
 2131 [Boss - Aldrich] Soul of Aldrich
-2132 [Boss - Aldrich] Primordial Essence
 2140 [Boss - Wolnir] Soul of High Lord Wolnir
-2141 [Boss - Wolnir] Primordial Essence
 2150 [Boss - Old Demon King] Soul of the Old Demon King
-2151 [Boss - Old Demon King] Primordial Essence
 2170 [Boss - Yhorm] Cinders of a Lord
 2171 [Boss - Yhorm] Soul of Yhorm the Giant
-2172 [Boss - Yhorm] Primordial Essence
 2180 [Boss - Corrupted Gundyr] Soul of Corrupted Gundyr
-2181 [Boss - Corrupted Gundyr] Primordial Essence
 2190 [Boss - Champion Gundyr] Soul of Champion Gundyr
-2191 [Boss - Champion Gundyr] Primordial Essence
 2200 [Boss - Soul of Cinder] Soul of the Lords
-2201 [Boss - Soul of Cinder] Primordial Essence
 2300 [Boss - Sister Friede] Soul of Sister Friede
-2301 [Boss - Sister Friede] Primordial Essence
 2310 [Boss - Lordran Remnants] Soul of the Lordran Remnants
-2311 [Boss - Lordran Remnants] Primordial Essence
 2330 [Boss - Demon Prince] Soul of the Demon Prince
-2331 [Boss - Demon Prince] Primordial Essence
 2340 [Boss - Halflight] Soul of Halflight
 2341 [Boss - Halflight] Filianore's Spear Ornament
-2342 [Boss - Halflight] Primordial Essence
 2350 [Boss - Midir] Soul of Darkeater Midir
 2351 [Boss - Midir] Spears of the Church
-2352 [Boss - Midir] Primordial Essence
 2360 [Boss - Slave Knight Gael] Soul of Slave Knight Gael
 2361 [Boss - Slave Knight Gael] Blood of the Dark Soul
-2362 [Boss - Slave Knight Gael] Primordial Essence
 2500 Coiled Sword
 2520 None
 4000 [Giant Tree] Seed of a Giant Tree
@@ -1035,7 +1009,7 @@
 3700100 [Irithyll] Budding Green Blossom
 3700110 [Irithyll] Crystal Fragment
 3700120 [Irithyll] Soul of a Crestfallen Knight
-3700130 [Irithyll] Frozen Flower
+3700130 [Irithyll] Crystal Fragment
 3700140 [Irithyll] Ring of the Sun's First Born
 3700150 [Irithyll] Large Soul of a Nameless Soldier
 3700160 [Irithyll] Large Titanite Shard
@@ -1048,7 +1022,7 @@
 3700230 [Irithyll] Homeward Bone
 3700240 [Irithyll] Undead Bone Shard
 3700250 [Irithyll] Crystal Fragment
-3700260 [Irithyll] Smouldering Key
+3700260 [Irithyll] Large Titanite Shard
 3700270 [Irithyll] Brass Helm
 3700271 [Irithyll] Brass Armor
 3700272 [Irithyll] Brass Gauntlets
@@ -1146,7 +1120,7 @@
 3800300 [Smouldering Lake] Twinkling Titanite
 3800310 [Smouldering Lake] Firebomb
 3800330 [Smouldering Lake] Ember
-3800340 [Smouldering Lake] Giant's Soul
+3800340 [Smouldering Lake] Titanite Chunk
 3800350 [Smouldering Lake] Charcoal Pine Bundle
 3800360 [Smouldering Lake] Izalith Pyromancy Tome
 3800370 [Smouldering Lake] Black Knight Sword
@@ -2317,7 +2291,7 @@
 72190000 [Solaire of Astora] Timeless Soul
 72200000 [Master Benjin] Timeless Soul
 209999999 ### Cinders - Treasures ###
-210000000 [High Wall of Lothric] Dragon Talon
+210000000 [High Wall of Lothric] Dragon Scale
 210000010 [High Wall of Lothric] Cleric's Sacred Chime
 210000011 [High Wall of Lothric] Cleric's Parma
 210000020 [High Wall of Lothric] Braille Divine Tome of Carim
@@ -2582,8 +2556,8 @@
 210002530 [Undead Settlement] Chest - Sage's Scroll
 210002540 [Undead Settlement] Chest - Accursed Scroll
 210002550 [Undead Settlement] Chest - Great Swamp Pyromancy Tome
-210002560 [Undead Settlement] Catacombs Key
-210002570 [Undead Settlement] Pilgrim's Soul
+210002560 [Undead Settlement] Titanite Shard
+210002570 [Undead Settlement] Abyssal Fragment
 210002580 [Firelink Shrine] Chest - Dashmaster's String
 210002590 [Ariandel] Elizabeth Mushroom
 210002600 [Ariandel] Titanite Chunk
@@ -2647,7 +2621,7 @@
 210003021 [High Wall of Lothric] Deserter Armor
 210003022 [High Wall of Lothric] Deserter Trousers
 210003030 [High Wall of Lothric] Iron Round Shield
-210003040 [High Wall of Lothric] Broken Tablet
+210003040 [High Wall of Lothric] Titanite Shard
 210003050 [High Wall of Lothric] Ember
 210003060 [High Wall of Lothric] Broken Straight Sword
 210003070 [High Wall of Lothric] Halberd
@@ -2805,6 +2779,7 @@
 800001200 [Script] Crown of Filianore
 800001210 [Script] Pot
 800001300 [Script] Ring of Betrothal
+800001310 [Script] Gwynevere's Urn
 800009999 ### Covenant Drops ###
 800010000 [Thieves' Pact] Reinforcement Materials
 800010020 [Thieves' Pact] Reinforcement Materials - Low

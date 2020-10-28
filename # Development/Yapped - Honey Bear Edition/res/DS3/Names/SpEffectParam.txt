@@ -2041,6 +2041,9 @@
 112174 [Behavior] Bullet Ring Cooldown - 35
 112175 [Behavior] Bullet Ring Cooldown - 40
 112180 [Behavior] Focus Implement Vulnerability
+112190 [Behavior] Gwynevere's Urn - Trigger
+112191 [Behavior] Gwynevere's Urn - Cooldown
+112192 [Behavior] Gwynevere's Urn - Effect
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -2989,6 +2992,7 @@
 130201500 [Havel's Greatshield] Stone Flesh
 130201510 [Havel's Greatshield] Stone Flesh [CycleOccurance]
 130201520 [Havel's Greatshield] Stone Flesh [CycleOccurance]
+130210500 [Black Dragon Shield] Black Dragon's Ire
 130220500 [Moaning Shield] Moaning Shield
 143021900 [Friede's Great Scythe] Elfriede's Stance - Right
 143021905 [Friede's Great Scythe] Elfriede's Stance - Right
@@ -4183,6 +4187,7 @@
 160603424 Frostflower Ring+4 [AttackOccurance]
 160603425 Frostflower Ring+5 [AttackOccurance]
 160603500 Rare Ring of Humanity
+160603600 Gwynevere's Urn
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction

@@ -2480,6 +2480,12 @@
 3515715 Giant Crab Arm - Bubblebeam
 3516700 Elder Ghru Tree - Vengeful Spirits
 3516705 Elder Ghru Tree - Vengeful Spirits
+3517300 Vordt's Great Hammer - 2H Heavy #1
+3517305 Vordt's Great Hammer - 2H Heavy #1 Max
+3517306 Vordt's Great Hammer - 2H Heavy #1 - Addition
+3517307 Vordt's Great Hammer - 2H Heavy #1 - Addition
+3517310 Vordt's Great Hammer - 2H Heavy #2
+3517315 Vordt's Great Hammer - 2H Heavy #1 Max
 3520000 Pickaxe
 3520001 Pickaxe
 3520010 Pickaxe
@@ -3367,6 +3373,8 @@
 4202400 Claw - Left Hand
 4202402 Claw
 4202404 Claw
+4202410 Claw - 1H Kick
+4202420 Claw - 2H Kick
 4202490 Claw - Falling Throw
 4202500 Claw - Backstab
 4202501 Claw - Backstab

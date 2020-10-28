@@ -234,14 +234,14 @@
 2013 Forgotten Key
 2014 Grand Archives Key
 2015 Tower Key
-2016 Dragon Talon
-2017 Pilgrim's Soul
-2018 Catacombs Key
-2019 Smouldering Key
-2020 Eye of Londor
-2021 Frozen Flower
-2022 Broken Tablet
-2023 Giant's Soul
+2016 Dragon Talon UNUSED
+2017 Pilgrim's Soul UNUSED
+2018 Catacombs Key UNUSED
+2019 Smouldering Key UNUSED
+2020 Eye of Londor UNUSED
+2021 Frozen Flower UNUSED
+2022 Broken Tablet UNUSED
+2023 Giant's Soul UNUSED
 2024 Smouldering Rubble
 2025 Ancestral Note
 2026 Cultist Note
@@ -250,6 +250,7 @@
 2029 Shivering Note
 2030 Corrupted Note
 2031 Afflicted Note
+2032 Princely Note
 2100 Master Key
 2102 Small Lothric Banner
 2103 Farron Coal

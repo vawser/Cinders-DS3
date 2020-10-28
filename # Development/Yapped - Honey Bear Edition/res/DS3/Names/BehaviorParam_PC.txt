@@ -2498,8 +2498,14 @@
 103515715 Giant Crab Arm - Bubblebeam
 103516700 Elder Ghru Tree - Vengeful Spirits
 103516705 Elder Ghru Tree - Vengeful Spirits
-103517308 Vordt's Great Hammer
-103517309 Vordt's Great Hammer
+103517300 Vordt's Great Hammer - 2H Heavy #1
+103517305 Vordt's Great Hammer - 2H Heavy #1 Max
+103517306 Vordt's Great Hammer - 2H Heavy #1 - Addition
+103517307 Vordt's Great Hammer - 2H Heavy #1 - Addition
+103517308 Vordt's Great Hammer - 2H Heavy #1 - Addition
+103517309 Vordt's Great Hammer - 2H Heavy #1 - Addition
+103517310 Vordt's Great Hammer - 2H Heavy #2
+103517315 Vordt's Great Hammer - 2H Heavy #2 Max
 103517850 Vordt's Great Hammer - WA
 103517851 Vordt's Great Hammer - WA
 103517852 Vordt's Great Hammer - WA
@@ -3486,6 +3492,7 @@
 104202402 Claw - Left Hand
 104202404 Claw - Left Hand
 104202410 Claw - 1H Kick
+104202420 Claw - 2H Kick
 104202430 Claw - 1H Guard
 104202450 Claw - Parry
 104202490 Claw - Falling Throw
@@ -3999,6 +4006,7 @@
 104806700 Dragonhead Shield
 104806701 Dragonhead Shield
 104807720 Crystal Ring Shield - Unleash Moonlight
+104808800 Black Dragon Shield – Black Dragon’s Ire
 104900000 Torch
 104900010 Torch
 104900020 Torch

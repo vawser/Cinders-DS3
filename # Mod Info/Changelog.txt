@@ -63,46 +63,45 @@
 #------------------------------
 # TODO - General
 #------------------------------ 
-
 # Weapons
-31450000 - 0841 - 4262 - Aldia Hammer                    - Club
+31450000 Aldia Hammer                    - Club
     Custom Warcry
-31460000 - 0842 - 4263 - Black Scorpion Stinger          - Estoc
-31470000 - 0843 - 4264 - Dragonrider Twinblade           - Splitleaf Greatsword
-31480000 - 0844 - 4265 - Dragon Hunter's Great Hammer    - Great Hammer 
-31490000 - 0845 - 4266 - Dragon Hunter's Greataxe        - Greataxe
-31500000 - 0846 - 4267 - Dragon Hunter's Warpick         - Great Hammer 
-31510000 - 0847 - 4268 - Drakewing Ultra Greatsword      - UGS
+31460000 Black Scorpion Stinger          - Estoc
+31470000 Dragonrider Twinblade           - Splitleaf Greatsword
+31480000 Dragon Hunter's Great Hammer    - Great Club 
+31490000 Dragon Hunter's Greataxe        - Demon's Great Axe 
+31500000 Dragon Hunter's Warpick         - Pickaxe
+31510000 Drakewing Ultra Greatsword      - Greatsword
     Shoot Wind projectile with charged heavy
     Wind Wall WA
-31520000 - 0848 - 4269 - Gargoyle Bident                 - Spear
-31530000 - 0849 - 4270 - Giant Warrior Club              - Great Hammer
-31540000 - 0850 - 4271 - Helix Halberd                   - Halberd
+31520000 Gargoyle Bident                 - Saint Bident 
+31530000 Giant Warrior Club              - Great Club 
+31540000 Helix Halberd                   - Halberd
     Staggering Dart WA
-31550000 - 0851 - 4272 - Malformed Skull                 - Great Hammer
+31550000 Malformed Skull                 - Great Club
     Dragon Roar WA
-31560000 - 0852 - 4273 - Melu Scimitar                   - Curved Sword
-31570000 - 0853 - 4274 - Old Knight Halberd              - Halberd
+31560000 Melu Scimitar                   - Falchion
+31570000 Old Knight Halberd              - Halberd
     +100 overall category damage, but low durability
-31580000 - 0854 - 4275 - Old Knight Hammer               - Great Hammer
+31580000 Old Knight Hammer               - Great Mace
     +100 overall category damage, but low durability
-31590000 - 0855 - 4276 - Old Knight Pike                 - Pike
+31590000 Old Knight Pike                 - Pike
     +100 overall category damage, but low durability
-31600000 - 0856 - 4277 - Red Rust Scimitar               - Curved Sword
-31610000 - 0857 - 4278 - Roaring Halberd                 - Halberd
+31600000 Red Rust Scimitar               - Scimitar
+31610000 Roaring Halberd                 - Halberd
     Dark Roar WA
-31620000 - 0858 - 4279 - Sanctum Mace                    - Great Hammer
+31620000 Sanctum Mace                    - Great Mace
     Poison burst WA
-31630000 - 0859 - 4280 - Spider's Silk                   - Rapier
+31630000 Spider's Silk                   - Rapier
     Guard bypass
-31640000 - 0860 - 4281 - Spitfire Spear                  - Spear
+31640000 Spitfire Spear                  - Spear
     Heavy Attack: shoot fireball
     WA: shoot multiple fireballs
-31650000 - 0861 - 4282 - Syan's Halberd                  - Halberd
-31660000 - 0862 - 4283 - Warped Sword                    - Curved Sword
-31670000 - 0955 - 4284 - Ivory King Ultra Greatsword     - UGS
+31650000 Syan's Halberd                  - Halberd
+31660000 Warped Sword                    - Falchion
+31670000 Ivory King Ultra Greatsword     - Greatsword
     Beam of light whilst 2H
-31680000 - 0939 - 4285 - Stone Greataxe                  - Greataxe
-31690000 - 0945 - 4286 - Gargoyle Halberd                - Halberd
-31700000 - 0946 - 4287 - Gargoyle Tail Axe              - Axe
+31680000 Stone Greataxe                  - Demon's Great Axe 
+31690000 Gargoyle Halberd                - Halberd
+31700000 Gargoyle Tail Axe               - Battle Axe
 

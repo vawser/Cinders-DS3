@@ -483,7 +483,7 @@ def t450531_x20():
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2158, 2, 0, 0) == 1, 2, 99003600, -1)
         
         # Leave
-        # AddTalkListData(99, 15000005, -1)
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         
