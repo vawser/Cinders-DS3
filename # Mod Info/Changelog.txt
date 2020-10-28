@@ -33,6 +33,10 @@
 # Weapons 
 - Added new Black Dragon Shield WA (thanks to Muffin)
 - Some of the claw weapons now use the Lone Shadow kick - deals damage and additional stamina damage compared the normal kick.
+- Made the Repeating Pistol 20% faster than the Hunter's Pistol.
+- Made Evelynn 5% faster than the Hunter's Pistol.
+- Changed the Hunter's Blunderbuss animation to the Cannon animation, but 30% faster. Now shoots 10 bullets in a cone spread.
+- Made the Church Cannon 10% faster than the Cannon.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
