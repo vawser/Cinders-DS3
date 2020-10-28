@@ -4163,6 +4163,20 @@ in this journey yet.</text>
 <text id="99030306">You are currently in Journey 7.</text>
 <text id="99030307">You are currently in Journey 8 or beyond.</text>
 
+<text id="99030400">It's locked, requires Forgotten Key</text>
+<text id="99030401">It's locked, requires Soldier's Key</text>
+<text id="99030402">It's locked, requires Knight's Key</text>
+<text id="99030403">It's locked, requires Buried Key</text>
+<text id="99030404">It's locked, requires Dragon Talon</text>
+<text id="99030405">It's locked, requires Plagued Key</text>
+<text id="99030406">It's locked, requires Scholar's Key</text>
+<text id="99030407">It's locked, requires Afflicted Key</text>
+<text id="99030408">It's locked, requires Smouldering Key</text>
+<text id="99030409">It's locked, requires Shivering Key</text>
+<text id="99030410">It's locked, requires Profaned Key</text>
+<text id="99030411">It's locked, requires Frozen Flower</text>
+<text id="99030412">It's locked, requires Dreg Key</text>
+<text id="99030413">It's locked, requires Burning Key</text>
 
 </entries>
 </fmg>

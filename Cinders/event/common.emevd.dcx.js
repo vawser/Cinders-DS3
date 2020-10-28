@@ -2071,7 +2071,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    ForceAnimationPlayback(10000, 5002, false, false, true, 0, 1);
+    ForceAnimationPlayback(10000, 60081, false, false, true, 0, 1);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2140,7 +2140,7 @@ Event(9655, Default, function() {
 });
 
 // Crown of the Great Lord
-Event(9700, Default, function(X0_4, X4_4) {
+Event(9700, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);

@@ -24,8 +24,8 @@
 54102011 Kiln of the First Flame
 53202077 Archdragon Peak
 54502076 Painted World of Ariandel
-55002066 Dreg Heap
-55102060 The Ringed City
+55002070 Dreg Heap
+55102065 The Ringed City
 
 #------------------------------
 # Changelog
@@ -40,12 +40,28 @@
 # Map
 - Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
 - Removed the shortcut key items, the warps are now automatically accessible.
+- Added new chests to Dreg Heap and Ringed City.
 
 # Merchants
 - Reduced the cost of the cosmetic items from Alchemist Jiji.
 
 # Items
 - Writhing Hammer is now a Deacons of the Deep transposition.
+- Added area keys for the locked chests, instead of them all using the Master Key. The keys themselves are found in the area they are for.
+ - Forgotten Key: Cemetery of Ash
+ - Soldier's Key: High Wall of Lothric
+ - Knight's Key: Lothric Castle
+ - Buried Key: Undead Settlement
+ - Dragon Talon: Archdragon Peak
+ - Plagued Key: Road of Sacrifices/Farron Keep
+ - Scholar's Key: Grand Archives
+ - Afflicted Key: Cathedral of the Deep
+ - Smouldering Key: Catacombs of Carthus/Smouldering Lake
+ - Shivering Key: Irithyll
+ - Profaned Key: Irithyll Dungeon/Profaned Capital
+ - Frozen Flower: Ariandel
+ - Dreg Key: Dreg Heap
+ - Burning Key: Ringed City
 
 # Spells
 - Reduced Lightning Arrow damage to 150.
@@ -63,6 +79,7 @@
 #------------------------------
 # TODO - General
 #------------------------------ 
+
 # Weapons
 31450000 Aldia Hammer                    - Club
     Custom Warcry
