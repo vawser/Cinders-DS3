@@ -38,6 +38,7 @@
 - Changed the Hunter's Blunderbuss animation to the Cannon animation, but 30% faster. Now shoots 10 bullets in a cone spread.
 - Made the Church Cannon 10% faster than the Cannon.
 - Added Greataxe Heavy attacks to the Manus Catalyst, changed its WA animation to a roar-like animation.
+- Changed Golem Axe WA to Wind Rush, which is an attack much like the original special attack in DS1.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
