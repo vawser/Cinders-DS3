@@ -83,13 +83,11 @@
 - Fixed Rosaria's Dress emblem.
 - Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
 - Added sound to the FP restore from the Focus Implement.
+- Fixed Black Dragon Greataxe hitboxes.
 
 #------------------------------
 # TODO - General
 #------------------------------ 
-3615
-
-
 # Weapons
 31450000 Aldia Hammer                    - Club
     Custom Warcry
