@@ -39,6 +39,7 @@
 - Made the Church Cannon 10% faster than the Cannon.
 - Added Greataxe Heavy attacks to the Manus Catalyst, changed its WA animation to a roar-like animation.
 - Changed Golem Axe WA to Wind Rush, which is an attack much like the original special attack in DS1.
+- Changed Rampart Golem Lance WA to Chilling Wind, which emits frost winds like those in Irithyll.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
@@ -81,10 +82,13 @@
 - Removed the speed increase for the Lothric Castle elevators due to glitchiness.
 - Fixed Rosaria's Dress emblem.
 - Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
+- Added sound to the FP restore from the Focus Implement.
 
 #------------------------------
 # TODO - General
 #------------------------------ 
+3615
+
 
 # Weapons
 31450000 Aldia Hammer                    - Club
