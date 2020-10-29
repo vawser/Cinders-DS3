@@ -418,7 +418,7 @@ Deep Protection
 # Repair
 #--------------------------------
 - FP Cost: 50
-- INT Req: 40
+- INT Req: 20
 - Base Effect: repairs main weapon by 50 durability.
 - Ascended Effect: increases restored durability to 100.
 
@@ -801,7 +801,7 @@ Deep Protection
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 10
-- Lightning Damage: 150
+- Lightning Damage: 200
 - FTH Req: 20
 - Ascended Effect: increases tracking.
 

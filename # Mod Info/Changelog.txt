@@ -48,6 +48,8 @@
 - Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
 - Removed the shortcut key items, the warps are now automatically accessible.
 - Added new chests to Dreg Heap and Ringed City.
+- Removed the one-way door from Undead Settlement to Road of Sacrifices.
+- Crystal Sage can now be triggered via the Cathedral side fogwall.
 
 # Merchants
 - Reduced the cost of the cosmetic items from Alchemist Jiji.
@@ -71,7 +73,7 @@
  - Burning Key: Ringed City
 
 # Spells
-- Reduced Lightning Arrow damage to 150.
+- Reduced Repair INT requirement to 20.
 
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
@@ -88,6 +90,11 @@
 #------------------------------
 # TODO - General
 #------------------------------ 
+Add back fogwall support for Crystal Mage
+
+3301850 Main
+3301851 Back
+
 # Weapons
 31450000 Aldia Hammer                    - Club
     Custom Warcry
