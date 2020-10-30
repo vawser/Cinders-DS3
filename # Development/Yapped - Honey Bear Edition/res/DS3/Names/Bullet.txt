@@ -3545,6 +3545,11 @@
 210009400 Black Dragon Greataxe - Black Dragon's Gale
 210009410 Black Dragon Greataxe - Black Dragon's Gale
 210009420 Black Dragon Greataxe - Black Dragon's Gale
+210009500 Golem Axe - Wind Rush
+210009510 Golem Axe - Wind Rush - Low FP
+210009600 Rampart Golem Lance - Chilling Wind [Emitter]
+210009610 Rampart Golem Lance - Chilling Wind - Line
+210009620 Rampart Golem Lance - Chilling Wind - Initial Point
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

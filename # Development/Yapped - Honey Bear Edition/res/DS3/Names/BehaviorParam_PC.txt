@@ -2227,6 +2227,9 @@
 103218908 Black Dragon Greataxe
 103218910 Black Dragon Greataxe
 103218915 Black Dragon Greataxe
+103219700 Golem Axe - Wind Rush
+103219701 Golem Axe - Wind Rush - No FP
+103219710 Golem Axe - Wind Rush - Melee
 103300000 Hammer - 1H Light #1
 103300001 Hammer
 103300010 Hammer - 1H Light #2
@@ -2763,6 +2766,7 @@
 103613701 Golden Ritual Spear - Darkmoon Volley
 103614700 Pilgrim's Spontoon - Chant for the Depths - Right
 103614701 Pilgrim's Spontoon - Chant for the Depths - Left
+103615700 Rampart Golem Lance - Chilling Wind
 103620700 Spear
 103620800 Spear
 103620810 Spear
@@ -3250,13 +3254,17 @@
 103815726 Ancient Dragon Halberd
 103815800 Ancient Dragon Halberd
 104100000 Spell Tool
+104100001 Spell Tool - Addition
 104100030 Spell Tool
-104100100 Spell Tool
-104100105 Spell Tool
-104100110 Spell Tool
-104100115 Spell Tool
+104100100 Spell Tool - 1H Heavy #1
+104100105 Spell Tool - 1H Heavy #1 Max
+104100110 Spell Tool - 1H Heavy #2
+104100115 Spell Tool - 1H Heavy #2 Max
 104100200 Spell Tool
-104100300 Spell Tool
+104100300 Spell Tool - 2H Heavy #1
+104100305 Spell Tool - 2H Heavy #1 Max
+104100310 Spell Tool - 2H Heavy #2
+104100315 Spell Tool - 2H Heavy #2 Max
 104100400 Spell Tool
 104100430 Spell Tool
 104100440 Spell Tool

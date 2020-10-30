@@ -1,7 +1,20 @@
 0 Need
 110 Treasure Chest
 200 Treasure Chest - Default
-201 Treasure Chest - Master Key
+201 Locked Chest - Cemetery of Ash
+202 Locked Chest - High Wall of Lothric
+203 Locked Chest - Lothric Castle
+204 Locked Chest - Undead Settlement
+205 Locked Chest - Archdragon Peak
+206 Locked Chest - Road of Sacrifices/Farron Keep
+207 Locked Chest - Grand Archives
+208 Locked Chest - Cathedral of the Deep
+209 Locked Chest - Catacombs of Carthus/Smouldering Lake
+210 Locked Chest - Irithyll
+211 Locked Chest - Irithyll Dungeon/Profaned Capital
+213 Locked Chest - Ariandel
+214 Locked Chest - Dreg Heap
+215 Locked Chest - The Ringed City
 350 M93_01_ Door _ Candle Room
 351 M93_01_ Door _ Candle Room
 360 M96_00 Door Concept Map _ Entrance

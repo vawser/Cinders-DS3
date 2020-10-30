@@ -117,6 +117,7 @@
 1008 [Greataxe] Unleash Dragon
 1009 [Greataxe] Undead Wrath
 1010 [Greataxe] Black Dragon's Gale
+1011 [Greataxe] Wind Rush
 1100 [Hammer] Perseverance
 1101 [Hammer] Warcry
 1102 [Hammer] Steady Chant
@@ -166,6 +167,7 @@
 1320 [Spear] Coronal Cascade
 1321 [Spear] Demonic Stance
 1322 [Spear] Stance
+1323 [Spear] Chilling Wind
 1400 [Halberd] Spin Sweep
 1401 [Halberd] Chain Spin
 1402 [Halberd] Champion's Charge

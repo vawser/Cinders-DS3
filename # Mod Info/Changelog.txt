@@ -75,6 +75,10 @@
 # Spells
 - Reduced Repair INT requirement to 20.
 
+# Primordial Essence
+- Reduced the drop chance for some of the bosses.
+- Removed Item Discovery affected drop chance fro sub 100% drops.
+
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
 - Fixed some of the new movesets adding 3 attunement slots randomly.
@@ -86,14 +90,26 @@
 - Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
 - Added sound to the FP restore from the Focus Implement.
 - Fixed Black Dragon Greataxe hitboxes.
+- Fixed companions having 100% absorption.
 
 #------------------------------
 # TODO - General
 #------------------------------ 
-Add back fogwall support for Crystal Mage
-
-3301850 Main
-3301851 Back
+El Crabbo                       40010 - 227100
+Rocky                           40020 - 322000
+Sluggo                          40030 - 113000
+Gimbal                          40050 - 212000
+El Hueso                        40060 - 107000
+Moxie                           40070 - 211000
+Cathedral Knight (Greatsword)   40080 - 119001 # Erekris
+Cathedral Evangelist            40090 - 123099 # Metora
+Lothric Knight                  40100 - 128000 # Farold
+Black Knight (Axe)              40110 - 130020 # Zarloth
+Silver Knight (Bow)             40120 - 141020 # Praxos
+Undead Dog                      40130 - 202000 # Woof
+Pontiff Knight (Scythe)         40140 - 203010 # Alfreda
+Ravenous Crystal Lizard         40150 - 310000 # Tazshi
+Demon                           40160 - 306000 # Bazdulk
 
 # Weapons
 31450000 Aldia Hammer                    - Club

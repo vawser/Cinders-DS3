@@ -10,7 +10,12 @@ end
 Goal.Activate = function (self, ai, goal)
     Init_Pseudo_Global(ai, goal)
     
-    goal:AddSubGoal(GOAL_NPC_BlackGhost_Battle, 2)
+    -- Follow Player if Player Companion
+    if arg1:HasSpecialEffectId(TARGET_SELF, 160761400) == true then
+        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
+    else
+        goal:AddSubGoal(GOAL_NPC_BlackGhost_Battle, 2)
+    end
     
     ai:SetStringIndexedNumber("Dist_Rolling", 4.4)
     ai:SetStringIndexedNumber("Dist_BackStep", 2.6)

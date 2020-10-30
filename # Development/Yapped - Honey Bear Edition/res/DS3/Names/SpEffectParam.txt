@@ -2044,6 +2044,7 @@
 112190 [Behavior] Gwynevere's Urn - Trigger
 112191 [Behavior] Gwynevere's Urn - Cooldown
 112192 [Behavior] Gwynevere's Urn - Effect
+112200 [Behavior] Locked Chest Opened
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -4200,7 +4201,6 @@
 160690035 Cursed Ring of Confusion - Change Team Type
 160700001 ### Items ###
 160700020 Brightbug
-160700030 Blood of Might
 160700040 Young Grass Dew
 160700050 Tarnished Coin
 160700060 Tarnished Silver Coin
@@ -4797,6 +4797,7 @@
 160760216 Level Scaling: Trial
 160761000 Level Scaling: NG+
 160761300 Companion Clear
+160761400 Companion - Enable White Phantom AI
 160800000 ### NPC Modifiers ###
 160800001 Base - Hostile NPC
 160800002 Base - Enemy
@@ -4805,7 +4806,6 @@
 160800005 Base - Boss
 160800007 Base - Merchant NPC
 160800008 Base - Companion NPC
-160800009 Companion - Target Priority
 160800010 NPC - Slave Knight Gael
 160800020 NPC - Sir Vilhelm
 160800030 NPC - Livid Pyromancer Dunnel
@@ -4970,6 +4970,7 @@
 170000480 Toxic - Recollection
 170000490 Toxic - Mournful Flames
 170000500 Curse - Nashandra’s Avarice
+170000510 Frost - Chilling Wind
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)

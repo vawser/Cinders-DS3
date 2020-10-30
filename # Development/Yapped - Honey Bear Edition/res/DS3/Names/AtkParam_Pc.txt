@@ -2197,6 +2197,9 @@
 3218908 Black Dragon Greataxe
 3218910 Black Dragon Greataxe
 3218915 Black Dragon Greataxe
+3219700 Golem Axe - Wind Rush
+3219701 Golem Axe - Wind Rush - Low FP
+3219710 Golem Axe - Wind Rush - Melee
 3300000 Hammer - 1H Light #1
 3300001 Hammer
 3300010 Hammer - 1H Light #2
@@ -2752,6 +2755,7 @@
 3611707 Dragonslayer Swordspear
 3611708 Dragonslayer Swordspear
 3612700 Spear
+3615700 Rampart Golem Lance - Chilling Wind
 3620700 Spear
 3620800 Spear
 3620810 Spear
@@ -3212,11 +3216,15 @@
 3815725 Ancient Dragon Halberd
 3815726 Ancient Dragon Halberd
 3815800 Ancient Dragon Halberd - WA
-4100100 Spell Tool
-4100105 Spell Tool
-4100110 Spell Tool
-4100115 Spell Tool
-4100300 Spell Tool
+4100001 Spell Tool - Addition
+4100100 Spell Tool - 1H Heavy #1
+4100105 Spell Tool - 1H Heavy #1 Max
+4100110 Spell Tool - 1H Heavy #2
+4100115 Spell Tool - 1H Heavy #2 Max
+4100300 Spell Tool - 2H Heavy #1
+4100305 Spell Tool - 2H Heavy #1 Max
+4100310 Spell Tool - 2H Heavy #2
+4100315 Spell Tool - 2H Heavy #2 Max
 4100400 Spell Tool
 4100430 Spell Tool
 4100440 Spell Tool

@@ -1357,61 +1357,25 @@
     <file>
       <id>9191</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\21010_Solaire.lua</path>
+      <path>script\ai\out\bin\021010_Solaire.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
       <id>9192</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\227110_El_Crabbo.lua</path>
+      <path>script\ai\out\bin\30000_IntruderA.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
       <id>9193</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\322010_Rocky.lua</path>
+      <path>script\ai\out\bin\30010_IntruderB.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
       <id>9194</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\113020_Sluggo.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9195</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\212010_Gimbal.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9196</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\107020_El_Hueso.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9197</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\30000_IntruderA.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9198</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\30010_IntruderB.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9199</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\30020_IntruderC.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9200</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\211010_Moxie.lua</path>
       <flags>0x40</flags>
     </file>
     <file>

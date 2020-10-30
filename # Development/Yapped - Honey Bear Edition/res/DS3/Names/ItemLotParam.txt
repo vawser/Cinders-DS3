@@ -568,7 +568,7 @@
 3010070 [Lothric Castle] Soul of a Weary Warrior
 3010080 [Lothric Castle] Titanite Chunk
 3010090 [Lothric Castle] Grand Archives Key
-3010100 [Lothric Castle] Twinkling Titanite
+3010100 [Lothric Castle] Knight's Key
 3010110 [Lothric Castle] Lightning Urn
 3010120 [Lothric Castle] Holy Gem
 3010130 [Lothric Castle] Titanite Chunk
@@ -678,7 +678,7 @@
 3100620 [Undead Settlement] Lucky Gem
 3100630 [Undead Settlement] Young White Branch
 3100640 [Undead Settlement] Mossfruit
-3100650 [Undead Settlement] Large Soul of a Deserted Corpse
+3100650 [Undead Settlement] Buried Key
 3100660 [Undead Settlement] Young White Branch
 3100670 [Undead Settlement] Reinforced Club
 3100680 [Undead Settlement] Soul of a Nameless Soldier
@@ -729,7 +729,7 @@
 3200270 [Archdragon Peak] Dragon Scale
 3200290 [Archdragon Peak] Ember
 3200300 [Archdragon Peak] Twinkling Titanite
-3200330 [Archdragon Peak] Twinkling Titanite
+3200330 [Archdragon Peak] Dragon Talon
 3200340 [Archdragon Peak] Gold Pine Resin
 3200350 [Archdragon Peak - Dragon Spot] Havel's Helm
 3200351 [Archdragon Peak - Dragon Spot] Havel's Armor
@@ -782,7 +782,7 @@
 3300222 [Road of Sacrifices] Sorcerer Gloves
 3300223 [Road of Sacrifices] Sorcerer Trousers
 3300230 [Road of Sacrifices] Sage Ring
-3300240 [Farron Keep] Purple Moss Clump
+3300240 [Farron Keep] Plagued Key
 3300270 [Farron Keep] Guardian Helm
 3300271 [Farron Keep] Guardian Armor
 3300272 [Farron Keep] Guardian Gauntlets
@@ -898,7 +898,7 @@
 3410260 [Grand Archives] Soul of a Weary Warrior
 3410280 [Grand Archives] Titanite Chunk
 3410290 [Grand Archives] Ember
-3410300 [Grand Archives] Twinkling Titanite
+3410300 [Grand Archives] Scholar's Key
 3410320 [Grand Archives] Crystal Fragment
 3410330 [Grand Archives] Large Soul of a Crestfallen Knight
 3410350 [Grand Archives] Avelyn
@@ -941,7 +941,7 @@
 3500213 [Cathedral of the Deep] Maiden Skirt
 3500220 [Cathedral of the Deep] Cursebite Ring
 3500230 [Cathedral of the Deep] Fire Gem
-3500240 [Cathedral of the Deep] Holy Fragment
+3500240 [Cathedral of the Deep] Afflicted Key
 3500260 [Cathedral of the Deep] Abyssal Fragment
 3500270 [Cathedral of the Deep] Soul of a Nameless Soldier
 3500280 [Cathedral of the Deep] Blue Bug Pellet
@@ -1007,7 +1007,7 @@
 3700080 [Irithyll] Witchtree Limb
 3700090 [Anor Londo] Titanite Chunk
 3700100 [Irithyll] Budding Green Blossom
-3700110 [Irithyll] Crystal Fragment
+3700110 [Irithyll] Shivering Key
 3700120 [Irithyll] Soul of a Crestfallen Knight
 3700130 [Irithyll] Crystal Fragment
 3700140 [Irithyll] Ring of the Sun's First Born
@@ -1120,7 +1120,7 @@
 3800300 [Smouldering Lake] Twinkling Titanite
 3800310 [Smouldering Lake] Firebomb
 3800330 [Smouldering Lake] Ember
-3800340 [Smouldering Lake] Titanite Chunk
+3800340 [Smouldering Lake] Smouldering Key
 3800350 [Smouldering Lake] Charcoal Pine Bundle
 3800360 [Smouldering Lake] Izalith Pyromancy Tome
 3800370 [Smouldering Lake] Black Knight Sword
@@ -1195,7 +1195,7 @@
 3900331 [Profaned Capital] Grotto Robe
 3900332 [Profaned Capital] Grotto Wrap
 3900333 [Profaned Capital] Grotto Trousers
-3900340 [Profaned Capital] Poison Arrow
+3900340 [Profaned Capital] Profaned Key
 3900350 [Profaned Capital] Undead Bone Shard
 3900360 [Profaned Capital] Onislayer Greatarrow
 3900370 [Profaned Capital] Large Titanite Shard
@@ -1250,6 +1250,7 @@
 4000171 [Cemetery of Ash - Shrine] Ring of Betrothal
 4000180 [Cemetery of Ash - Shrine] Estus Ring
 4000190 [Cemetery of Ash - Shrine] Fire Keeper Soul
+4000191 [Cemetery of Ash - Shrine] Forgotten Key
 4000200 [Untended Graves] Titanite Chunk
 4000220 [Untended Graves] Londor Braille Divine Tome
 4000230 [Untended Graves] Soul of a Crestfallen Knight
@@ -1286,7 +1287,7 @@
 4000595 [Cemetery of Ash - Script] Focus Implement
 4000605 [Cemetery of Ash - Script] Focus Implement
 4000615 [Cemetery of Ash - Script] Focus Implement
-4000700 [Cemetery of Ash - Chest] Estus Shard
+4000700 [Cemetery of Ash - Locked Chest] Estus Shard
 4500000 [Ariandel] Rime-blue Moss Clump
 4500010 [Ariandel] Large Titanite Shard
 4500020 [Ariandel] Large Soul of an Unknown Traveler
@@ -1301,7 +1302,7 @@
 4500101 [Ariandel] Millwood Greatarrow
 4500110 [Ariandel] Large Soul of an Unknown Traveler
 4500120 [Ariandel] Rusted Coin
-4500130 [Ariandel] Large Titanite Shard
+4500130 [Ariandel] Frozen Flower
 4500140 [Ariandel] Large Soul of an Unknown Traveler
 4500150 [Ariandel] Crow Quills
 4500160 [Ariandel] Large Titanite Shard
@@ -1400,7 +1401,7 @@
 5000310 [Dreg Heap] Titanite Chunk
 5000320 [Dreg Heap] Twinkling Titanite
 5000330 [Dreg Heap] Desert Pyromancer Garb
-5000340 [Dreg Heap] Abyssal Fragment
+5000340 [Dreg Heap] Royal Soldier Helm
 5000341 [Dreg Heap] Royal Soldier Armor
 5000342 [Dreg Heap] Royal Soldier Gauntlets
 5000343 [Dreg Heap] Royal Soldier Leggings
@@ -1414,16 +1415,13 @@
 5000390 [Dreg Heap] Desert Pyromancer Skirt
 5000400 [Dreg Heap] Titanite Scale
 5000410 [Dreg Heap] Purple Moss Clump
-5000420 [Dreg Heap] Lucky Gem
+5000420 [Dreg Heap] Titanite Chunk
 5000430 [Dreg Heap] Titanite Chunk
-5000440 [Dreg Heap] Alonne Captain Helm
-5000441 [Dreg Heap] Alonne Captain Armor
-5000442 [Dreg Heap] Alonne Captain Gauntlets
-5000443 [Dreg Heap] Alonne Captain Leggings
+5000440 [Dreg Heap] Titanite Scale
 5000450 [Dreg Heap] Titanite Chunk
 5000460 [Dreg Heap] Abyssal Fragment
 5000470 [Dreg Heap] Loincloth
-5000480 [Dreg Heap] Giant-horned Helmet
+5000480 [Dreg Heap] Fire Seed
 5000490 [Dreg Heap] Large Soul of an Unknown Traveler
 5000500 [Dreg Heap] Harald Curved Greatsword
 5000510 [Dreg Heap] Homeward Bone
@@ -1501,7 +1499,7 @@
 5100540 [Ringed City] Titanite Scale
 5100550 [Ringed City] Abyssal Fragment
 5100560 [Ringed City] Dragonhead Greatshield
-5100570 [Ringed City] Titanite Scale
+5100570 [Ringed City] Burning Key
 5100580 [Ringed City] Rubbish
 5100590 [Ringed City] Large Soul of a Weary Warrior
 5100600 [Ringed City] Titanite Scale
@@ -2291,7 +2289,7 @@
 72190000 [Solaire of Astora] Timeless Soul
 72200000 [Master Benjin] Timeless Soul
 209999999 ### Cinders - Treasures ###
-210000000 [High Wall of Lothric] Dragon Scale
+210000000 [High Wall of Lothric] Soldier's Key
 210000010 [High Wall of Lothric] Cleric's Sacred Chime
 210000011 [High Wall of Lothric] Cleric's Parma
 210000020 [High Wall of Lothric] Braille Divine Tome of Carim
@@ -2508,7 +2506,7 @@
 210002120 [Profaned Capital] Chest - Hallowed Ring
 210002130 [Profaned Capital] Chest - Gargoyle Helm
 210002140 [Profaned Capital] Chest - Bramd
-210002150 [Profaned Capital] Chest - Imperious Greatshield
+210002150 [Profaned Capital] Locked Chest - Imperious Greatshield
 210002160 [Lothric Castle] Large Soul of a Weary Warrior
 210002170 [Lothric Castle] Sunlight Medal
 210002180 [Lothric Castle] Radiant Lifegem
@@ -2576,7 +2574,7 @@
 210002730 [Ariandel] Twinkling Titanite
 210002740 [Ariandel] Divine Blessing
 210002750 [Ariandel] Soul of a Weary Warrior
-210002760 [Ariandel - Chest] Sorcerous Flame
+210002760 [Ariandel - Locked Chest] Sorcerous Flame
 210002770 [Ariandel - Chest] Ethereal Oak Shield
 210002780 [Ariandel - Chest] Suspicious Gold Mask
 210002790 [Ariandel - Chest] Follower Torch
@@ -2758,6 +2756,19 @@
 210004132 [Grand Archives - Locked Chest] King's Gauntlets
 210004133 [Grand Archives - Locked Chest] King's Leggings
 210004140 [Archdragon Peak - Locked Chest] King's Ultra Greatsword
+210004150 [Dreg Heap - Chest] Soul of a Fallen Champion
+210004160 [Dreg Heap - Chest] Titanite Scale
+210004170 [Dreg Heap - Locked Chest] Titanite Slab
+210004180 [Dreg Heap] Dreg Key
+210004190 [Ringed City - Chest] Twinkling Titanite
+210004200 [Ringed City - Locked Chest] Titanite Slab
+210004210 [Ringed City - Chest] Alonne Captain Helm
+210004211 [Ringed City - Chest] Alonne Captain Armor
+210004212 [Ringed City - Chest] Alonne Captain Gauntlets
+210004213 [Ringed City - Chest] Alonne Captain Leggings
+210004220 [Ringed City - Locked Chest] Prismatic Slab
+210004230 [Ringed City - Chest] Abyssal Fragment
+210004240 [Ringed City - Chest] Giant-horned Helmet
 210899999 ### Unused ###
 210900000 Throwing Knife
 263300001 Soul of an Intrepid Hero

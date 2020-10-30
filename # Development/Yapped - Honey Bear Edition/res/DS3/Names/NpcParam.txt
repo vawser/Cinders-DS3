@@ -216,13 +216,25 @@
 35200 Invader - Disciple of Alsanna [Ariandel]
 39999 ### Companions ###
 40000 Solaire of Astora
-40010 El Crabbo
-40020 Rocky
-40030 Sluggo
-40040 Father John
-40050 Gimbal
-40060 El Hueso
-40070 Moxie
+40010 Lesser Crab - El Crabbo
+40020 Rock Lizard - Rocky
+40030 Rotten Slug - Sluggo
+40040 Fat Deacon - Father John
+40050 Mimic - Gimbal
+40060 Skeleton (Scimitar) - El Hueso
+40070 Hound-rat - Moxie
+40080 Cathedral Knight (Greatsword) - TODO
+40090 Cathedral Evangelist - TODO
+40100 Lothric Knight (Sword and Shield) - TODO
+40110 Black Knight (Greataxe) - TODO
+40120 Silver Knight (Greatbow) - TODO
+40130 Undead Dog - TODO
+40140 Pontiff Knight (Scythe) - TODO
+40150 Ravenous Crystal Lizard - TODO
+40160 Demon - TODO
+40170 Pontiff Spirit - TODO
+40180 Dancer - TODO
+40190 Vordt - TODO
 49999 ### Hostile NPCs ###
 50000 Dragon Cultist Xeric [Archdragon Peak]
 50010 Dragon Cultist Zena [Archdragon Peak]
