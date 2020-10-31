@@ -117,7 +117,27 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Add companion progression table (or object)
 
+227100 El Crabbo
+322000 Rocky
+113000 Sluggo
+212000 Gimbal
+107000 El Hueso
+211000 Moxie
+119001 Erekris
+123099 Metora
+128000 Farold
+130020 Zarloth
+141020 Praxos
+202000 Woof
+203010 Alfreda
+310000 Tazshi
+306000 Bazdulk
+
+    
+    
+    
 #------------------------------
 # Weapons
 #------------------------------

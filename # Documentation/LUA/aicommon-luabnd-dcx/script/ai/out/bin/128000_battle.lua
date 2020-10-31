@@ -5,11 +5,6 @@ Goal.Initialize = function (arg0, arg1, arg2, arg3)
 end
 
 Goal.Activate = function (arg0, arg1, arg2)
-    -- Follow Player if Player Companion
-    if arg1:HasSpecialEffectId(TARGET_SELF, 160761400) == true then
-        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2) 
-    end
-    
     if arg1:HasSpecialEffectId(TARGET_SELF, 5406) then
         arg2:AddSubGoal(GOAL_KingCastleKight_bow_Battle, -1)
     elseif arg1:HasSpecialEffectId(TARGET_SELF, 5405) then

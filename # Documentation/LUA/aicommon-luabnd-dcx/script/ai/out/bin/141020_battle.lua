@@ -7,11 +7,6 @@ end
 Goal.Activate = function (arg0, arg1, arg2)
     local local0 = arg1:GetDist(TARGET_ENE_0)
     
-    -- Follow Player if Player Companion
-    if arg1:HasSpecialEffectId(TARGET_SELF, 160761400) == true then
-        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2) 
-    end
-    
     if arg1:HasSpecialEffectId(TARGET_SELF, 5405) then
         if 7 > local0 and 4 <= arg1:GetAttackPassedTime(1300) then
             arg2:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 1500, TARGET_ENE_0, 999, 0, 0)

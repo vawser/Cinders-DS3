@@ -9,11 +9,6 @@ Goal.Activate = function (arg0, arg1, arg2)
     arg1:SetStringIndexedNumber("Dist_SideStep", 5)
     arg1:SetStringIndexedNumber("Dist_BackStep", 5)
     
-    -- Follow Player if Player Companion
-    if arg1:HasSpecialEffectId(TARGET_SELF, 160761400) == true then
-        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2) 
-    end
-    
     local local0 = {}
     local local1 = {}
     local local2 = {}

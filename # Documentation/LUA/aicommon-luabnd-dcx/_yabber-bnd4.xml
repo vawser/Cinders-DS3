@@ -977,9 +977,21 @@
       <flags>0x40</flags>
     </file>
     <file>
+      <id>3061</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\306010_Bazdulk.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>3100</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\310000_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>3101</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\310020_Tazshi.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
@@ -1358,24 +1370,6 @@
       <id>9191</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\021010_Solaire.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9192</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\30000_IntruderA.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9193</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\30010_IntruderB.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>9194</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\30020_IntruderC.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
@@ -4234,6 +4228,95 @@
       <path>script\ai\out\bin\626000_battle.lua</path>
       <flags>0x40</flags>
     </file>
-    
+    <file>
+      <id>20500</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\227110_ElCrabbo.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20501</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\322010_Rocky.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20502</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\113020_Sluggo.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20503</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\212030_Gimbal.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20504</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\107020_ElHueso.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20505</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\211010_Moxie.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20506</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\119020_Erekris.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20507</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\123020_Metora.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20508</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\128050_Farold.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20509</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\130060_Zarloth.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20510</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\141050_Praxos.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20511</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\202010_Woof.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20512</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\203020_Alfreda.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20513</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\310020_Tazshi.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>20514</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\306010_Bazdulk.lua</path>
+      <flags>0x40</flags>
+    </file>
   </files>
 </bnd4>
