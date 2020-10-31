@@ -6616,53 +6616,9 @@ Event(20090100, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Effect Monitor
+// Lothric's Scythe WA Monitor
 // <entity id>
 //----------------------------------------------
 Event(20090200, Restart, function(X0_4) {
-    //IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    //IfCharacterAIState(AND_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    //IfConditionGroup(MAIN, PASS, AND_01);
     
-    //SetSpeffect(X0_4, 180021010); // Disable Frost for 5 seconds
-    //SetCharacterAIState(X0_4, Disabled);
-    
-    //WaitFixedTimeSeconds(3.0);
-    
-    //SetCharacterAIState(X0_4, Enabled);
-    
-    //EndUnconditionally(EventEndType.Restart);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

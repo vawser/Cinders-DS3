@@ -40,6 +40,7 @@
 - Added Greataxe Heavy attacks to the Manus Catalyst, changed its WA animation to a roar-like animation.
 - Changed Golem Axe WA to Wind Rush, which is an attack much like the original special attack in DS1.
 - Changed Rampart Golem Lance WA to Chilling Wind, which emits frost winds like those in Irithyll.
+- Changed Lothric's Scythe WA to Divine Punishment, emits holy orbs like in the boss fight.
 
 # Mechanics
 - Reduced base poise health to 25 from 40.
@@ -116,7 +117,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Change Lothric's Scythe WA to an actual short warp, do it via enemy check like the Curses.
 
 #------------------------------
 # Weapons
