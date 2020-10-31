@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Boss Revival: Champion Gundyr
+#-- Ritualist Ellie
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -168,8 +168,23 @@ def t400508_x9():
     while True:
         ClearTalkListData()
         
-        # Revive
-        AddTalkListDataIf(GetEventStatus(25001017) == 1 and GetEventStatus(14000830) == 1, 1, 99002850, -1) 
+        # Training
+        AddTalkListData(1, 99030500, -1)
+        
+        # Form Covenant
+        AddTalkListDataIf(GetEventStatus(25000209) == 0, 2, 15003019, -1)
+        
+        # Form Betrothal
+        AddTalkListDataIf(GetEventStatus(25008240) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        
+        # Flirt
+        AddTalkListDataIf(GetEventStatus(25008240) == 1, 11, 15015041, -1)
+        
+        # Divorce
+        AddTalkListDataIf(GetEventStatus(25008240) == 1, 12, 15015042, -1)
+        
+        # Talk
+        AddTalkListData(3, 10010200, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -178,65 +193,45 @@ def t400508_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Revive 
+        # Training
         if GetTalkListEntryResult() == 1:
-            assert t400508_x52(99002617, 200, 1)
+            c1111(280000, 280999)
+            continue
+        # Form Betrothal
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25008240, 1)
+            PlayerEquipmentQuantityChange(3, 2000, -1)
+            OpenGenericDialog(1, 99030513, 0, 0, 0)
             return 0
+        # Flirt
+        elif GetTalkListEntryResult() == 11:
+            # Good
+            if GetEventStatus(25008900):
+                OpenGenericDialog(1, 99030510, 0, 0, 0)
+                GetItemFromItemLot(90230)
+            # Neutral
+            elif GetEventStatus(25008901):
+                OpenGenericDialog(1, 99030511, 0, 0, 0)
+            # Bad
+            elif GetEventStatus(25008902):
+                OpenGenericDialog(1, 99030512, 0, 0, 0)
+            continue
+        # Divorce
+        elif GetTalkListEntryResult() == 12:
+            SetEventState(25008240, 0)
+            GetItemFromItemLot(800001300)
+            OpenGenericDialog(1, 99030512, 0, 0, 0)
+            return 0
+        # Covenant
+        elif GetTalkListEntryResult() == 2:
+            """ State 32,33 """
+            SetEventState(25000209, 1)
+            GetItemFromItemLot(800001140)
+            return 0
+        # Talk
+        elif GetTalkListEntryResult() == 3:
+            OpenGenericDialog(1, 99030501, 0, 0, 0)
+            return 0
+        # Covenant
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-def t400508_x50(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-def t400508_x51(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 0, 3, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-        
-# Revive
-def t400508_x52(text1=_, base_cost=_, derived_stat=_):
-    """ State 0,1 """
-    SetAquittalCostMessageTag(base_cost, derived_stat)
-    """ State 14 """
-    call = t400508_x50(action1=text1)
-    
-    if call.Get() == 0:
-        """ State 7 """
-        if ComparePlayerAcquittalPrice(base_cost, derived_stat, 2) == 1:
-            """ State 4,13 """
-            assert t400508_x50(action1=13000050) # Lack souls
-        else:
-            """ State 5 """
-            SubtractAcquittalCostFromPlayerSouls(base_cost, derived_stat)
-            """ State 6 """
-            SetEventState(14000830, 0);
-            SetEventState(9320, 0);
-            SetEventState(6320, 0);
-            SetEventState(14000004, 0);
-            SetEventState(64000260, 0);
-            SetEventState(64000261, 0);
-            GiveSpEffectToPlayer(260100170)
-    elif call.Get() == 1:
-        """ State 8 """
-        pass
-
-    return 0

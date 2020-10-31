@@ -1346,6 +1346,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000206 Covenant Acquired: Warrior of Sunlight    - Solaire
 25000207 Covenant Acquired: Covenant of Champions  - Domhnall of Zena
 25000208 Covenant Acquired: Servant of the Rat     - Remy the Rat
+25000209 Covenant Acquired: Ritualist Pact         - Ritualist Ellie
 
 25000300 Gesture Acquired: Unmannered Bow     - Cornyx
 25000301 Gesture Acquired: Shrug              - Shrine Handmaid
@@ -1410,6 +1411,14 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000500 Curse of Impermanence 
 25000510 Curse of Valor
 
+25000600 Tablet of Health
+25000601 Tablet of Power
+25000602 Tablet of Toughness
+25000603 Tablet of Restoration
+25000604 Tablet of Poise 
+25000605 Tablet of Mass Summoning
+25000606 Tablet of Hollow Summoning
+
 25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt
 25001003 Boss Kill: Curse-rotted Greatwood
@@ -1462,6 +1471,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25008210 Married: Yoel
 25008220 Married: Solaire of Astora
 25008230 Married: Remy the Rat
+25008240 Married: Ritualist Ellie
 
 25009000 Random flag range
 
@@ -1497,3 +1507,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 75003000 Stone-humped Hag 1
 75003010 Stone-humped Hag 1
 75003020 Stone-humped Hag 1
+
+
+26000149 Companion - Poise X

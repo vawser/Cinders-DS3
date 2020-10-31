@@ -6195,7 +6195,7 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
-    
+
     // Clear companions when one is summoned
     IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
     WaitForConditionGroupState(PASS, AND_01);
@@ -6211,21 +6211,31 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Beckoning Incense used
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
     WaitForConditionGroupState(PASS, AND_01);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000605); // Multiple Allowed
     SetSpeffect(10000, 160761300); // Clear current companions
     
     IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
     DisplayEpitaphMessage(99030020);
     
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25000606); // Allow Unembered
     SkipIfCharacterHasSpeffect(1, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
     DisplayEpitaphMessage(99030010);
     
     WaitFixedTimeSeconds(0.1);
     
+    // Normal
     SkipIfCharacterHasSpeffect(7, 10000, 490, false, ComparisonType.Equal, 1); // Ignore summon if not embered
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    // Allow Unembered
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25000606); 
     SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
@@ -6233,64 +6243,33 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     SetSpeffect(X0_4, X8_4); // Damage scaling
     SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(10000, 160761500); // Companion is active
+    
+    // Ritualist Pact Effect
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761400);
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
-    // Progression for Companions
-    // Check if X0_4 is a specific companion, if not skip that section
-    // Section contains flag checks set by the progression menu, adding the resultant speffect if ON
+    // Health
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000600);
+    SetSpeffect(X0_4, 160762000);
     
-    // Solaire
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760050, true, ComparisonType.Equal, 1);
+    // Power
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000601);
+    SetSpeffect(X0_4, 160762010);
     
-    // El Crabbo
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760051, true, ComparisonType.Equal, 1);
+    // Toughness
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000602);
+    SetSpeffect(X0_4, 160762020);
     
-    // Rocky
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760052, true, ComparisonType.Equal, 1);
+    // Restoration
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000603);
+    SetSpeffect(X0_4, 160762030);
     
-    // Sluggo
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760053, true, ComparisonType.Equal, 1);
-    
-    // Father John
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760054, true, ComparisonType.Equal, 1);
-    
-    // Gimbal
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760055, true, ComparisonType.Equal, 1);
-    
-    // El Hueso
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760056, true, ComparisonType.Equal, 1);
-    
-    // Hound-rat
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760057, true, ComparisonType.Equal, 1);
-    
-    // Erekris
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760058, true, ComparisonType.Equal, 1);
-    
-    // Metora
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760059, true, ComparisonType.Equal, 1);
-    
-    // Farold
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760060, true, ComparisonType.Equal, 1);
-    
-    // Zarloth
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760061, true, ComparisonType.Equal, 1);
-    
-    // Praxos
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760062, true, ComparisonType.Equal, 1);
-    
-    // Woof
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760063, true, ComparisonType.Equal, 1);
-    
-    // Alfreda
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760064, true, ComparisonType.Equal, 1);
-    
-    // Tazshi
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760065, true, ComparisonType.Equal, 1);
-    
-    // Bazdulk
-    // SkipIfCharacterHasSpeffect(1, X0_4, 160760066, true, ComparisonType.Equal, 1);
-    
+    // Poise
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000604);
+    SetSpeffect(X0_4, 160762040);
     
     EndUnconditionally(EventEndType.Restart);
 });

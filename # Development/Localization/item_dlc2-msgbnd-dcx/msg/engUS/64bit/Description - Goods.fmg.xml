@@ -690,7 +690,9 @@ Demonstrate fidelity by offering it to Remy the Rat, and strengthen the bond wit
 
 The Rat King is proud and merciful, as any king true to his stature should be.
 The Rat King looks favorably upon those who follow the path of right, even disgraceful humans.</text>
-<text id="382">%null%</text>
+<text id="382">Ritual incense used in cryptic rituals.
+
+Demonstrate fidelity by offering it to Ritualist Ellie, and strengthen the bond with your covenant.</text>
 <text id="383">%null%</text>
 <text id="384">%null%</text>
 <text id="385">Online play item.
@@ -2465,89 +2467,89 @@ Read to revive the champions of yore and warp to Firelink Shrine.
 
 Those who cannot remember the past are condemned to repeat it...</text>
 
-<text id="5300">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5300">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Solaire of Astora to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
 
-<text id="5301">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5301">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon El Crabbo, the Lesser Crab, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
 
-<text id="5302">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5302">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Rocky, the Rock Lizard, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5303">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5303">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Sluggo, the Rotten Slug, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5304">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5304">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Father John, the Fat Deacon, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5305">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5305">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Gimbal, the Mimic, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5306">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5306">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon El Hueso, the Skeleton, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5307">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5307">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Moxie, the Hound-rat, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5308">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5308">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Erekris, the Cathedral Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5309">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5309">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Metora, the Cathedral Evangelist, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5310">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5310">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Farold, the Lothric Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5311">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5311">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Zarloth, the Black Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5312">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5312">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Praxos, the Silver Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5313">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5313">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Woof, the Undead Dog, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5314">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5314">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Alfreda, the Pontiff Knight, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5315">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5315">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Tazshi, the Ravenous Crystal Lizard, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5316">Enchanted tablet enscribed with a cryptic ritual.
+<text id="5316">Enchanted tablet inscribed with a cryptic ritual.
 
 Whilst embered, beckon Bazdulk, the Demon, to the player. Once present, he will defend the player until dead.
 
@@ -3697,6 +3699,28 @@ Applies illusionary helmet based on the Saint Set.</text>
 <text id="12201">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary armor based on the Saint Set.</text>
+
+<text id="20000">Training tome inscribed by Ritualist Ellie.
+
+Boosts the HP of companions by 100%.</text>
+<text id="20001">Training tome inscribed by Ritualist Ellie.
+
+Boosts the damage of companions by 100%.</text>
+<text id="20002">Training tome inscribed by Ritualist Ellie.
+
+Boosts the absorption of companions by 30%.</text>
+<text id="20003">Training tome inscribed by Ritualist Ellie.
+
+Companions now restore 10 HP per second.</text>
+<text id="20004">Training tome inscribed by Ritualist Ellie.
+
+Boosts the poise of companions by 200.</text>
+<text id="20005">Training tome inscribed by Ritualist Ellie.
+
+Enables multiple companions simultaneously.</text>
+<text id="20006">Training tome inscribed by Ritualist Ellie.
+
+Enables companion summoning whilst hollow.</text>
 
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.

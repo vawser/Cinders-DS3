@@ -166,7 +166,7 @@
 <text id="379">%null%</text>
 <text id="380">Rubbish of no value, and certainly no avail</text>
 <text id="381">Offer to Remy the Rat</text>
-<text id="382">%null%</text>
+<text id="382">Offer to Ritualist Ellie</text>
 <text id="383">%null%</text>
 <text id="384">%null%</text>
 <text id="385">Should only be used with the greatest of caution</text>
@@ -1070,6 +1070,13 @@
 <text id="12200">Applies a helmet illusion</text>
 <text id="12201">Applies an armor illusion</text>
 
+<text id="20000">Improves companion HP</text>
+<text id="20001">Improves companion damage</text>
+<text id="20002">Improves companion absorption</text>
+<text id="20003">Improves companion HP restoration</text>
+<text id="20004">Improves companion poise</text>
+<text id="20005">Enables multiple companions simultaneously</text>
+<text id="20006">Enables companion summoning whilst hollow</text>
 
 <text id="1200000">Fire soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>

@@ -52,8 +52,12 @@
 - Removed the one-way door from Undead Settlement to Road of Sacrifices.
 - Crystal Sage can now be triggered via the Cathedral side fogwall.
 
-# Merchants
+# NPCs
 - Reduced the cost of the cosmetic items from Alchemist Jiji.
+- Added Ritualist Ellie: hosts the Ritualist Pact covenant and the companion progression item shop.
+
+# Covenants
+- Added Ritualist Pact: companion related covenant that enables a full heal for companions when re-summoned using their tablet. Enables Ritual Incense to be dropped whilst a companion is out. Ritual Incense is used to purchase the companion progression items.
 
 # Items
 - Writhing Hammer is now a Deacons of the Deep transposition.
@@ -101,6 +105,14 @@
 - Added Wrathful Tablet: summon Alfreda, the Pontiff Knight - Transposed from Pontiff Sulyvahn soul
 - Added Crystalline Tablet: summon Tazshi, the Ravenous Crystal Lizard - Transposed from Oceiros soul
 - Added Demonic Tablet: summon Bazdulk, the Demon - Transposed from Demon Prince soul
+- Added companion progression items to Ritualist Ellie:
+ - Tome of Health: boosts companion HP by 100%.
+ - Tome of Power: boosts companion damage by 100%.
+ - Tome of Toughness: boosts companion absorption by 30%.
+ - Tome of Restoration: gives companions 10 HP regen.
+ - Tome of Tenacity: boosts companion poise by 200.
+ - Tome of Mass Summoning: enables multiple companions simultaneously
+ - Tome of Hollow Summoning: enables companion summoning whilst hollow
 
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
@@ -117,27 +129,8 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Add companion progression table (or object)
 
-227100 El Crabbo
-322000 Rocky
-113000 Sluggo
-212000 Gimbal
-107000 El Hueso
-211000 Moxie
-119001 Erekris
-123099 Metora
-128000 Farold
-130020 Zarloth
-141020 Praxos
-202000 Woof
-203010 Alfreda
-310000 Tazshi
-306000 Bazdulk
 
-    
-    
-    
 #------------------------------
 # Weapons
 #------------------------------

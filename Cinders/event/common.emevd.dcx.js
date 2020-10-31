@@ -1804,6 +1804,7 @@ Event(9600, Default, function() {
     InitializeEvent(14, 9640, 10000, 160100392, 800011400, 800011420); // Way of Blue
     InitializeEvent(15, 9640, 10000, 160100402, 800011500, 800011520); // Company of Champions
     InitializeEvent(16, 9640, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
+    InitializeEvent(0, 9641, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
     
     // Boss Revival
     InitializeEvent(0, 9660, 0); // Corrupted Gundyr
@@ -1834,6 +1835,14 @@ Event(9600, Default, function() {
     InitializeEvent(0, 9685, 0); // Champions of Yore
     
     InitializeEvent(0, 9700, 0); // Crown of the Great Lord
+    
+    InitializeEvent(0, 9710, 20000, 25000600); // Health
+    InitializeEvent(1, 9710, 20001, 25000601); // Power
+    InitializeEvent(2, 9710, 20002, 25000602); // Toughness
+    InitializeEvent(3, 9710, 20003, 25000603); // Restoration
+    InitializeEvent(4, 9710, 20004, 25000604); // Poise
+    InitializeEvent(5, 9710, 20005, 25000605); // Mass Summoning
+    InitializeEvent(6, 9710, 20006, 25000606); // Hollow Summoning
 });
 
 // Setup - Host and Client
@@ -1852,7 +1861,7 @@ Event(9601, Default, function() {
 //------------------------------------------------
 Event(9610, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
-    
+
     // Curses/Marks
     SetEventFlag(25000100, OFF); // Mark of Sanguis
     SetEventFlag(25000101, OFF); // Mark of Canis
@@ -1933,6 +1942,9 @@ Event(9611, Restart, function(X0_4, X4_4) {
     SetEventFlag(25008901, OFF); 
     SetEventFlag(25008902, OFF); 
     SetEventFlag(25008904, OFF);
+    
+    // Companion Flags
+    BatchSetEventFlags(25000600, 25000699, OFF);
     
     RandomlySetEventFlagInRange(25008900, 25008902, ON);
     
@@ -2039,6 +2051,35 @@ Event(9640, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Covenant - Trigger Covenant Item Drop - Ritualist Pact
+Event(9641, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761500, true, ComparisonType.Equal, 1); // Companion is out
+    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Normal Rate
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502930, 1); // Area: Graveyard 1
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502931, 1); // Area: Graveyard 2
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502932, 1); // Area: Deacons
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3102930, 1); // Area: Rats
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902930, 1); // Area: Giant + Rats
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 5002930, 1); // Area: Murkmen
+    SkipIfConditionGroupStateUncompiled(1, PASS, OR_01);
+    AwardItemsIncludingClients(X8_4);
+    
+    // Reduced Rate
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502930, 1); // Area: Graveyard 1
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502931, 1); // Area: Graveyard 2
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502932, 1); // Area: Deacons
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3102930, 1); // Area: Rats
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3902930, 1); // Area: Giant + Rats
+    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 5002930, 1); // Area: Murkmen
+    SkipIfConditionGroupStateUncompiled(1, PASS, OR_02);
+    AwardItemsIncludingClients(X12_4);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 // Pyromancer's Parting Flame - Ascension
 Event(9650, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
@@ -2071,7 +2112,7 @@ Event(9652, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    ForceAnimationPlayback(10000, 60081, false, false, true, 0, 1);
+    BatchSetEventFlags(25000600, 25000609, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3073,4 +3114,17 @@ Event(9685, Restart, function() {
     WaitFixedTimeFrames(1);
     
     WarpPlayer(40, 0, 4000970);
+});
+
+// Companion - Item
+Event(9710, Restart, function(X0_4, X4_4) {
+    IfPlayerHasdoesntHaveItem(AND_01, ItemType.Goods, X0_4, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
+    SetEventFlag(X4_4, OFF); // Disable if not owned
+    
+    IfPlayerHasdoesntHaveItem(AND_02, ItemType.Goods, X0_4, OwnershipState.Owns);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
+    SetEventFlag(X4_4, ON); // Enable if owned
+    
+    EndUnconditionally(EventEndType.Restart);
 });

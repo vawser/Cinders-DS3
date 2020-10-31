@@ -182,7 +182,7 @@
 <text id="379">%null%</text>
 <text id="380">Rubbish</text>
 <text id="381">Rat Tail</text>
-<text id="382">%null%</text>
+<text id="382">Ritual Incense</text>
 <text id="383">%null%</text>
 <text id="384">%null%</text>
 <text id="385">Dried Finger</text>
@@ -1106,6 +1106,14 @@
 <text id="12191">Deacon Emblem</text>
 <text id="12200">Saint Insignia</text>
 <text id="12201">Saint Emblem</text>
+
+<text id="20000">Tome of Health</text>
+<text id="20001">Tome of Power</text>
+<text id="20002">Tome of Toughness</text>
+<text id="20003">Tome of Restoration</text>
+<text id="20004">Tome of Tenacity</text>
+<text id="20005">Tome of Mass Summoning</text>
+<text id="20006">Tome of Hollow Summoning</text>
 
 <text id="100000">%null%</text>
 <text id="1200000">Farron Dart</text>
