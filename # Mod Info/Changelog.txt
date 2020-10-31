@@ -21,7 +21,7 @@
 53902122 Irithyll Dungeon / Profaned Capital
 53012091 Lothric Castle
 53412135 Grand Archives
-54102011 Kiln of the First Flame
+54102012 Kiln of the First Flame
 53202077 Archdragon Peak
 54502076 Painted World of Ariandel
 55002070 Dreg Heap
@@ -79,6 +79,28 @@
 - Reduced the drop chance for some of the bosses.
 - Removed Item Discovery affected drop chance fro sub 100% drops.
 
+# Companions
+- Fixed companions having 100% absorption, meaning they can actually die now.
+- Companions now have varying HP based on their size, e.g. bigger equals more HP.
+- Companions now have varying FP costs to summon, based on their size.
+- Changed the companion summon items into 'Tablets', to allow for a more generalized icon. Needed as icon space is low, and unique icons aren't required for these items, unlike weapons and armor.
+ - Incense of Cooperation -> Sunlight Tablet
+ - Crab Bait -> Crab Tablet
+ - Rocky's Stick -> Craggy Tablet
+ - Slug Whistle -> Slimy Tablet
+ - Blessed Tipple -> Blessed Tablet
+ - Old Bone -> Dusty Tablet
+ - Rat Treat -> Rat Tablet
+- Added Hallowed Tablet: summon Erekris, the Cathedral Knight - Found in Cathedral of the Deep
+- Added Holy Tablet: summon Metora, the Cathedral Evangelist - Found in Cathedral of the Deep
+- Added Royal Tablet: summon Farold, the Lothric Knight - Found in High Wall of Lothric
+- Added Scorched Tablet: summon Zarloth, the Black Knight - Found in Kiln of the First Flame
+- Added Etched Tablet: summon Praxos, the Silver Knight - Found in Anor Londo
+- Added Bloodied Tablet: summon Woof, the Undead Dog - Found in Undead Settlement
+- Added Wrathful Tablet: summon Alfreda, the Pontiff Knight - Transposed from Pontiff Sulyvahn soul
+- Added Crystalline Tablet: summon Tazshi, the Ravenous Crystal Lizard - Transposed from Oceiros soul
+- Added Demonic Tablet: summon Bazdulk, the Demon - Transposed from Demon Prince soul
+
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
 - Fixed some of the new movesets adding 3 attunement slots randomly.
@@ -90,28 +112,15 @@
 - Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
 - Added sound to the FP restore from the Focus Implement.
 - Fixed Black Dragon Greataxe hitboxes.
-- Fixed companions having 100% absorption.
 
 #------------------------------
 # TODO - General
-#------------------------------ 
-El Crabbo                       40010 - 227100
-Rocky                           40020 - 322000
-Sluggo                          40030 - 113000
-Gimbal                          40050 - 212000
-El Hueso                        40060 - 107000
-Moxie                           40070 - 211000
-Cathedral Knight (Greatsword)   40080 - 119001 # Erekris
-Cathedral Evangelist            40090 - 123099 # Metora
-Lothric Knight                  40100 - 128000 # Farold
-Black Knight (Axe)              40110 - 130020 # Zarloth
-Silver Knight (Bow)             40120 - 141020 # Praxos
-Undead Dog                      40130 - 202000 # Woof
-Pontiff Knight (Scythe)         40140 - 203010 # Alfreda
-Ravenous Crystal Lizard         40150 - 310000 # Tazshi
-Demon                           40160 - 306000 # Bazdulk
+#------------------------------
+Change Lothric's Scythe WA to an actual short warp, do it via enemy check like the Curses.
 
+#------------------------------
 # Weapons
+#------------------------------
 31450000 Aldia Hammer                    - Club
     Custom Warcry
 31460000 Black Scorpion Stinger          - Estoc

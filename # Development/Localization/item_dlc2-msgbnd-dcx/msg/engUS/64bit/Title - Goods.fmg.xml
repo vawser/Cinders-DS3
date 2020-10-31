@@ -655,14 +655,23 @@
 <text id="5024">Tome: Halflight</text>
 <text id="5025">Tome: Champions of Yore</text>
 
-<text id="5300">Incense of Cooperation</text>
-<text id="5301">Crab Bait</text>
-<text id="5302">Rocky's Stick</text>
-<text id="5303">Slug Whistle</text>
-<text id="5304">Blessed Tipple</text>
-<text id="5305">Miniature Chest</text>
-<text id="5306">Old Bone</text>
-<text id="5307">Rat Treat</text>
+<text id="5300">Sunlight Tablet</text>
+<text id="5301">Crab Tablet</text>
+<text id="5302">Craggy Tablet</text>
+<text id="5303">Slimy Tablet</text>
+<text id="5304">Blessed Tablet</text>
+<text id="5305">Avaricious Tablet</text>
+<text id="5306">Dusty Tablet</text>
+<text id="5307">Rat Tablet</text>
+<text id="5308">Hallowed Tablet</text>
+<text id="5309">Holy Tablet</text>
+<text id="5310">Royal Tablet</text>
+<text id="5311">Scorched Tablet</text>
+<text id="5312">Etched Tablet</text>
+<text id="5313">Bloodied Tablet</text>
+<text id="5314">Wrathful Tablet</text>
+<text id="5315">Crystalline Tablet</text>
+<text id="5316">Demonic Tablet</text>
 
 <text id="8000">Event Flag Tool</text>
 <text id="8001">God Tool</text>

@@ -2947,13 +2947,13 @@ Event(9685, Restart, function() {
     IfConditionGroup(MAIN, PASS, AND_01);
 
     // m51_1
-    SetEventFlag(15100744, 0); // Glaive Master Hodir
+    SetEventFlag(15100782, 0); // Glaive Master Hodir
     SetEventFlag(15100732, 0); // Freya the Wretched
     SetEventFlag(15100734, 0); // Nahor the Fallen
     SetEventFlag(15100736, 0); // Easterner Iazeel
     SetEventFlag(15100738, 0); // Seeker of the Spurned
-    SetEventFlag(15100746, 0); // Moaning Knight
-    SetEventFlag(15100748, 0); // Silver Knight Ledo 
+    SetEventFlag(15100781, 0); // Moaning Knight
+    SetEventFlag(15100780, 0); // Silver Knight Ledo 
 
     // m50
     SetEventFlag(15000730, 0); // Dulfish the Accursed
@@ -3000,19 +3000,19 @@ Event(9685, Restart, function() {
     SetEventFlag(13700733, 0); // Boreal Outrider Knight
     SetEventFlag(13700734, 0); // Boreal Outrider Knight
     SetEventFlag(13700544, 0); // Deep Accursed
-    SetEventFlag(13700761, 0); // Dragonrider
-    SetEventFlag(13700766, 0); // Wandering Knight Osvaldo
-    SetEventFlag(13700762, 0); // Devotee Scarlett
-    SetEventFlag(13700764, 0); // The Pursuer
+    SetEventFlag(13700780, 0); // Dragonrider
+    SetEventFlag(13700781, 0); // Wandering Knight Osvaldo
+    SetEventFlag(13700782, 0); // Devotee Scarlett
+    SetEventFlag(13700783, 0); // The Pursuer
     SetEventFlag(13700198, 0); // Drang Knight (Hammer)
     SetEventFlag(13700199, 0); // Drang Knight (Twinspear)
 
     // m35
     SetEventFlag(13500196, 0); // Ravenous Crystal Lizard
     SetEventFlag(13500198, 0); // Morne's Armor
-    SetEventFlag(13500746, 0); // Morric, the Fallen Knight
-    SetEventFlag(13500742, 0); // Hallowed Knight Orthell
-    SetEventFlag(13500744, 0); // Longfinger Kirk
+    SetEventFlag(13500780, 0); // Morric, the Fallen Knight
+    SetEventFlag(13500781, 0); // Hallowed Knight Orthell
+    SetEventFlag(13500782, 0); // Longfinger Kirk
     SetEventFlag(13500286, 0); // Thief
     SetEventFlag(13500285, 0); // Brigand
 
@@ -3029,8 +3029,8 @@ Event(9685, Restart, function() {
 
     // m33
     SetEventFlag(13300603, 0); // Ravenous Crystal Lizard
-    SetEventFlag(13300742, 0); // The Forlorn
-    SetEventFlag(13300744, 0); // Forgotten Locklin
+    SetEventFlag(13300780, 0); // The Forlorn
+    SetEventFlag(13300781, 0); // Forgotten Locklin
     SetEventFlag(13300395, 0); // Butcher
     SetEventFlag(13300396, 0); // Exile Watchdog
     SetEventFlag(13300397, 0); // Exile Watchdog
@@ -3058,7 +3058,7 @@ Event(9685, Restart, function() {
     SetEventFlag(13010736, 0); // Tiny
 
     // m30
-    SetEventFlag(13000720, 0); // Mirror Knight
+    SetEventFlag(13000740, 0); // Mirror Knight
     SetEventFlag(13000622, 0); // Boreal Outrider Knight
     SetEventFlag(13000732, 0); // Captain Morrel
     SetEventFlag(13000734, 0); // Huntmaster Ava

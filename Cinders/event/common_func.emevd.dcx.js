@@ -6234,10 +6234,63 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, X8_4); // Damage scaling
     SetSpeffect(X0_4, 160760100); // Summon effect
     
-    // RPG Effects
-    
-    
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Progression for Companions
+    // Check if X0_4 is a specific companion, if not skip that section
+    // Section contains flag checks set by the progression menu, adding the resultant speffect if ON
+    
+    // Solaire
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760050, true, ComparisonType.Equal, 1);
+    
+    // El Crabbo
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760051, true, ComparisonType.Equal, 1);
+    
+    // Rocky
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760052, true, ComparisonType.Equal, 1);
+    
+    // Sluggo
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760053, true, ComparisonType.Equal, 1);
+    
+    // Father John
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760054, true, ComparisonType.Equal, 1);
+    
+    // Gimbal
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760055, true, ComparisonType.Equal, 1);
+    
+    // El Hueso
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760056, true, ComparisonType.Equal, 1);
+    
+    // Hound-rat
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760057, true, ComparisonType.Equal, 1);
+    
+    // Erekris
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760058, true, ComparisonType.Equal, 1);
+    
+    // Metora
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760059, true, ComparisonType.Equal, 1);
+    
+    // Farold
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760060, true, ComparisonType.Equal, 1);
+    
+    // Zarloth
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760061, true, ComparisonType.Equal, 1);
+    
+    // Praxos
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760062, true, ComparisonType.Equal, 1);
+    
+    // Woof
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760063, true, ComparisonType.Equal, 1);
+    
+    // Alfreda
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760064, true, ComparisonType.Equal, 1);
+    
+    // Tazshi
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760065, true, ComparisonType.Equal, 1);
+    
+    // Bazdulk
+    // SkipIfCharacterHasSpeffect(1, X0_4, 160760066, true, ComparisonType.Equal, 1);
+    
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -6563,10 +6616,10 @@ Event(20090100, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Status - Frost
-// <entity id>, <speffect trigger>
+// Effect Monitor
+// <entity id>
 //----------------------------------------------
-Event(20090200, Restart, function(X0_4, X4_4) {
+Event(20090200, Restart, function(X0_4) {
     //IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     //IfCharacterAIState(AND_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
     //IfConditionGroup(MAIN, PASS, AND_01);
@@ -6580,3 +6633,36 @@ Event(20090200, Restart, function(X0_4, X4_4) {
     
     //EndUnconditionally(EventEndType.Restart);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
