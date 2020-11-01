@@ -3795,8 +3795,7 @@ According to the Crystal Sages, old Big Hat achieved enlightenment within the Re
 <text id="1310000">Sorcery for casters who wield swords.
 Reinforces right weapon with magic. 
 
-Increases Magic damage by 40 for 90 seconds.
-Damage scales based on catalyst.
+Increases Magic damage by 50 for 90 seconds.
 
 The power of the sorcerer-swordsmen of Vinheim
 is predicated upon this and Magic Shield.
@@ -3804,8 +3803,7 @@ Many warriors learn sorcery just for this enchantment.</text>
 <text id="1311000">Sorcery which improves upon Magic Weapon.
 Greatly reinforces right weapon with magic.
 
-Increases Magic damage by 50 for 60 seconds.
-Damage scales based on catalyst.
+Increases Magic damage by 80 for 60 seconds.
 
 Only sorcerer-swordsmen with special duties
 are permitted the use of this spell. The azure blade
@@ -3813,8 +3811,7 @@ is said to cut down heavily armored knights with ease.</text>
 <text id="1312000">Further sharpens Magic Weapon via crystallization.
 Reinforces right weapon with crystal.
 
-Increases Magic damage by 80 for 30 seconds.
-Damage scales based on catalyst.
+Increases Magic damage by 120 for 30 seconds.
 
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
@@ -4105,8 +4102,7 @@ likely forming the foundation for many subsequent spells.</text>
 <text id="2435000">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 80 for 60 seconds.
-Damage scales based on catalyst.
+Increases Fire damage by 100 for 60 seconds.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2436000">Advanced pyromancy of Quelana,
@@ -4311,27 +4307,23 @@ As in life, the common peasant has little to say on matters of worth.</text>
 A show of tolerance from the Way of White.
 
 Restores 200 HP.
-HP restored scales based on catalyst.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
 <text id="3500000">Elementary miracle cast by clerics.
 
 Restores 300 HP for self and those in the vicinity.
-HP restored scales based on catalyst.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
 <text id="3501000">Miracle superior to Heal.
 
 Restores 350 HP for self and those in the vicinity.
-HP restored scales based on catalyst.
 
 Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
 <text id="3502000">Glorious miracle used by high-ranking clerics.
 
 Restores 400 HP for self and those in the vicinity.
-HP restored scales based on catalyst.
 
 Only a select few have learned to recite this
 epic tale in its entirety, but those who do
@@ -4340,7 +4332,6 @@ are amply rewarded. </text>
 of the Princess of Sunlight.
 
 Restores a 500 HP for self and those in the general area.
-HP restored scales based on catalyst.
 
 The miracles of Gwynevere, the princess
 cherished by all, bestow their blessing on
@@ -4478,8 +4469,7 @@ This is the tale of the Sun's firstborn, his faithful first knight, and the brav
 dragonslayer knight in the Age of Gods.
 Reinforces right weapon with lightning.
 
-Increases Lightning damage by 80 for 60 seconds.
-Damage scales based on catalyst.
+Increases Lightning damage by 120 for 60 seconds.
 
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
@@ -4487,8 +4477,7 @@ only in fragments and whispers in remote regions.</text>
 to the Darkmoon covenant.
 Reinforces right weapon with Darkmoon light.
 
-Increases Magic damage by 80 for 60 seconds.
-Damage scales based on catalyst.
+Increases Magic damage by 120 for 60 seconds.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -4515,9 +4504,7 @@ The insects bore completely through the body
 before continuing to erode everything in the vicinity.</text>
 <text id="3760000">Miracle taught to Lothric Knights.
 
-Increases Physical damage by 60 and restores 5 HP 
-every second for 60 seconds.
-Damage scales based on catalyst.
+Increases Physical damage by 80 and restores 5 HP every second for 60 seconds.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -4748,9 +4735,8 @@ Hurl balls of black fire, upon impact black flames seek foes, inflicting 40 Toxi
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4210000">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
-Imbue right weapon with black flame, adding 80 Dark damage.
-Lasts 60 seconds.
-Damage scales based on catalyst.</text>
+Imbue right weapon with black flame, adding 120 Dark damage.
+Lasts 60 seconds.</text>
 
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
@@ -4805,8 +4791,7 @@ as they bear the leaden silence of Londor.</text>
 <text id="4310000">Hex of the Sable Church of Londor.
 Reinforces right weapon with dark.
 
-Increases Dark damage by 80 for 60 seconds.
-Damage scales based on catalyst.
+Increases Dark damage by 80 and restores 0.25% HP per second for 60 seconds.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that

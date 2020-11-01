@@ -297,6 +297,7 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
                 CombineMenuFlagAndEventFlag(6001, 232)
                 CombineMenuFlagAndEventFlag(6001, 233)
                 CombineMenuFlagAndEventFlag(6001, 234)
+                CombineMenuFlagAndEventFlag(6001, 235)
                 """ State 9 """
                 OpenEnhanceShop(0)
                 assert not (CheckSpecificPersonMenuIsOpen(9, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))

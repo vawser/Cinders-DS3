@@ -30,113 +30,25 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons 
-- Added new Black Dragon Shield WA (thanks to Muffin)
-- Some of the claw weapons now use the Lone Shadow kick - deals damage and additional stamina damage compared the normal kick.
-- Made the Repeating Pistol 20% faster than the Hunter's Pistol.
-- Made Evelynn 5% faster than the Hunter's Pistol.
-- Changed the Hunter's Blunderbuss animation to the Cannon animation, but 30% faster. Now shoots 10 bullets in a cone spread.
-- Made the Church Cannon 10% faster than the Cannon.
-- Added Greataxe Heavy attacks to the Manus Catalyst, changed its WA animation to a roar-like animation.
-- Changed Golem Axe WA to Wind Rush, which is an attack much like the original special attack in DS1.
-- Changed Rampart Golem Lance WA to Chilling Wind, which emits frost winds like those in Irithyll.
-- Changed Lothric's Scythe WA to Divine Punishment, emits holy orbs like in the boss fight. Changed passive effect to: increases effectiveness of HP recovery by 20%.
 
 # Mechanics
-- Reduced base poise health to 25 from 40.
+- Andre will now reinforce Pyromancy Flame type weapons.
 
-# Map
-- Added interactable blade in Firelink Shrine that tells you your current journey (New Game) value up to Journey 8.
-- Removed the shortcut key items, the warps are now automatically accessible.
-- Added new chests to Dreg Heap and Ringed City.
-- Removed the one-way door from Undead Settlement to Road of Sacrifices.
-- Crystal Sage can now be triggered via the Cathedral side fogwall.
-
-# NPCs
-- Reduced the cost of the cosmetic items from Alchemist Jiji.
-- Added Ritualist Ellie: hosts the Ritualist Pact covenant and the companion progression item shop.
-
-# Covenants
-- Added Ritualist Pact: companion related covenant that enables a full heal for companions when re-summoned using their tablet. Enables Ritual Incense to be dropped whilst a companion is out. Ritual Incense is used to purchase the companion progression items.
-
-# Items
-- Writhing Hammer is now a Deacons of the Deep transposition.
-- Added area keys for the locked chests, instead of them all using the Master Key. The keys themselves are found in the area they are for.
- - Forgotten Key: Cemetery of Ash
- - Soldier's Key: High Wall of Lothric
- - Knight's Key: Lothric Castle
- - Buried Key: Undead Settlement
- - Dragon Talon: Archdragon Peak
- - Plagued Key: Road of Sacrifices/Farron Keep
- - Scholar's Key: Grand Archives
- - Afflicted Key: Cathedral of the Deep
- - Smouldering Key: Catacombs of Carthus/Smouldering Lake
- - Shivering Key: Irithyll
- - Profaned Key: Irithyll Dungeon/Profaned Capital
- - Frozen Flower: Ariandel
- - Dreg Key: Dreg Heap
- - Burning Key: Ringed City
-- Added Restorative Brew: heals active companions for 100 HP, but harms the player for the same amount.
-- Added Banishing Coin: removes active companions.
-- Added Inciting Bone: turns active companions hostile to you and each other.
+# Spell Tools
+- Increased catalyst reinforcement multipliers. Topped at *2, now tops at *4.
+- Pyromancy catalysts now gain have base 50% free scaling instead of 100%. Overall scaling cap has been increased though.
 
 # Spells
-- Reduced Repair INT requirement to 20.
+- Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but stronger in the endgame.
+- SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
 
-# Primordial Essence
-- Reduced the drop chance for some of the bosses.
-- Removed Item Discovery affected drop chance fro sub 100% drops.
-
-# Companions
-- Fixed companions having 100% absorption, meaning they can actually die now.
-- Companions now have varying HP based on their size, e.g. bigger equals more HP.
-- Companions now have varying FP costs to summon, based on their size.
-- Changed the companion summon items into 'Tablets', to allow for a more generalized icon. Needed as icon space is low, and unique icons aren't required for these items, unlike weapons and armor.
- - Incense of Cooperation -> Sunlight Tablet
- - Crab Bait -> Crab Tablet
- - Rocky's Stick -> Craggy Tablet
- - Slug Whistle -> Slimy Tablet
- - Blessed Tipple -> Blessed Tablet
- - Old Bone -> Dusty Tablet
- - Rat Treat -> Rat Tablet
-- Added Hallowed Tablet: summon Erekris, the Cathedral Knight - Found in Cathedral of the Deep
-- Added Holy Tablet: summon Metora, the Cathedral Evangelist - Found in Cathedral of the Deep
-- Added Royal Tablet: summon Farold, the Lothric Knight - Found in High Wall of Lothric
-- Added Scorched Tablet: summon Zarloth, the Black Knight - Found in Kiln of the First Flame
-- Added Etched Tablet: summon Praxos, the Silver Knight - Found in Anor Londo
-- Added Bloodied Tablet: summon Woof, the Undead Dog - Found in Undead Settlement
-- Added Wrathful Tablet: summon Alfreda, the Pontiff Knight - Transposed from Pontiff Sulyvahn soul
-- Added Crystalline Tablet: summon Tazshi, the Ravenous Crystal Lizard - Transposed from Oceiros soul
-- Added Demonic Tablet: summon Bazdulk, the Demon - Transposed from Demon Prince soul
-- Added companion progression items to Ritualist Ellie:
- - Tome of Health: boosts companion HP by 100%.
- - Tome of Power: boosts companion damage by 100%.
- - Tome of Toughness: boosts companion absorption by 30%.
- - Tome of Restoration: gives companions 10 HP regen.
- - Tome of Tenacity: boosts companion poise by 200.
- - Tome of Mass Summoning: enables multiple companions simultaneously
- - Tome of Hollow Summoning: enables companion summoning whilst hollow
-- Since the effects are tied to the item, these effects persist into NG+.
-
-# Bugfixes
-- Fixed Writ items requiring a weapon to be wielded to work.
-- Fixed some of the new movesets adding 3 attunement slots randomly.
-- Fixed Remy giving out endless Dried Root.
-- Fixed Remy setting DLC event flags accidently, causing a DLC license issue for those that did not own the DLC.
-- Fixed Vordt's Great Hammer 2H heavy attacks not knocking the enemy upwards
-- Removed the speed increase for the Lothric Castle elevators due to glitchiness.
-- Fixed Rosaria's Dress emblem.
-- Fixed Curse of Valor event flag check being wrong, causing it not to trigger the additional drop.
-- Added sound to the FP restore from the Focus Implement.
-- Fixed Black Dragon Greataxe hitboxes.
+# Bugfix
+- Corrected some spell tool reinforcement types so they match their current category.
+- Hex catalysts should deal consistent damage with spells.
 
 #------------------------------
 # TODO - General
 #------------------------------
-
-6093 Sorcerer's Coin
-6089 Miniature Chest
-6090 Old Bone
 
 #------------------------------
 # Weapons
