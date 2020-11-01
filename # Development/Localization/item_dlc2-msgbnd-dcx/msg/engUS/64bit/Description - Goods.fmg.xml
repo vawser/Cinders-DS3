@@ -3724,10 +3724,14 @@ Enables companion summoning whilst hollow.</text>
 
 <text id="20050">A foul brew concocted by Ritualist Ellie.
 
-Scoff down the brew to restore vitality to nearby companions, albeit at the cost of one's own health.</text>
+Scoff down the brew to restore vitality to nearby active companions, albeit at the cost of one's own health.</text>
 <text id="20051">An unique coin enchanted by Ritualist Ellie.
 
-Banishes current companions from your world.</text>
+Banishes active companions from your world.</text>
+<text id="20052">An unique bone enchanted by Ritualist Ellie.
+Possesses the essence of anger within.
+
+Incite your active companions, turning them hostile against you and each other.</text>
 
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.

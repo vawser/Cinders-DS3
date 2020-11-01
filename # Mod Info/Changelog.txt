@@ -76,8 +76,9 @@
  - Frozen Flower: Ariandel
  - Dreg Key: Dreg Heap
  - Burning Key: Ringed City
-- Added Restorative Brew: heals companions for 100 HP, but harms the player for the same amount.
-- Added Banishing Coin: removes currently summoned companions.
+- Added Restorative Brew: heals active companions for 100 HP, but harms the player for the same amount.
+- Added Banishing Coin: removes active companions.
+- Added Inciting Bone: turns active companions hostile to you and each other.
 
 # Spells
 - Reduced Repair INT requirement to 20.

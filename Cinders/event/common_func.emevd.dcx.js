@@ -6289,6 +6289,12 @@ Event(20080002, Restart, function(X0_4) {
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
     SetSpeffect(10000, 160761300); // Clear current companions
     
+    // Inciting Bone
+    IfCharacterHasSpeffect(AND_03, 10000, 160763200, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_03, X0_4, 160761501, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_03);
+    SetCharacterTeamType(X0_4, TeamType.StrongEnemy);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
