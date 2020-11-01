@@ -6191,6 +6191,7 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <entity id>
 //----------------------------------------------
 Event(20080000, Restart, function(X0_4) {
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
@@ -6214,28 +6215,21 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
     WaitForConditionGroupState(PASS, AND_01);
     
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000605); // Multiple Allowed
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000605); // Skip this if Tome of Mass Summoning owned
     SetSpeffect(10000, 160761300); // Clear current companions
     
     IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
     DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
     
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25000606); // Allow Unembered
-    SkipIfCharacterHasSpeffect(1, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25000606); // Skip this check if Tome of Hollow Summoning owned
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
     DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
     
     WaitFixedTimeSeconds(0.1);
     
-    // Normal
-    SkipIfCharacterHasSpeffect(7, 10000, 490, false, ComparisonType.Equal, 1); // Ignore summon if not embered
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    // Allow Unembered
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25000606); 
     SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
@@ -6243,7 +6237,8 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     SetSpeffect(X0_4, X8_4); // Damage scaling
     SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(10000, 160761500); // Companion is active
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
     
     // Ritualist Pact Effect
     SkipIfCharacterHasSpeffect(1, 10000, 160100420, false, ComparisonType.Equal, 1);
@@ -6270,6 +6265,29 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     // Poise
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000604);
     SetSpeffect(X0_4, 160762040);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion - Tools
+// <entity id>
+//----------------------------------------------
+Event(20080002, Restart, function(X0_4) {
+    // Restorative Brew
+    IfCharacterHasSpeffect(AND_01, 10000, 160763000, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761501, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_01);
+    SetSpeffect(X0_4, 160763001);
+    SetSpeffect(10000, 160763002);
+    WaitFixedTimeSeconds(1);
+    
+    // Banishing Coin
+    IfCharacterHasSpeffect(AND_02, 10000, 160763100, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761501, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
+    SetSpeffect(10000, 160761300); // Clear current companions
     
     EndUnconditionally(EventEndType.Restart);
 });

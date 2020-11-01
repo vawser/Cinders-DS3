@@ -76,6 +76,8 @@
  - Frozen Flower: Ariandel
  - Dreg Key: Dreg Heap
  - Burning Key: Ringed City
+- Added Restorative Brew: heals companions for 100 HP, but harms the player for the same amount.
+- Added Banishing Coin: removes currently summoned companions.
 
 # Spells
 - Reduced Repair INT requirement to 20.
@@ -113,6 +115,7 @@
  - Tome of Tenacity: boosts companion poise by 200.
  - Tome of Mass Summoning: enables multiple companions simultaneously
  - Tome of Hollow Summoning: enables companion summoning whilst hollow
+- Since the effects are tied to the item, these effects persist into NG+.
 
 # Bugfixes
 - Fixed Writ items requiring a weapon to be wielded to work.
@@ -130,6 +133,9 @@
 # TODO - General
 #------------------------------
 
+6093 Sorcerer's Coin
+6089 Miniature Chest
+6090 Old Bone
 
 #------------------------------
 # Weapons
