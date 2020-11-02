@@ -37,9 +37,14 @@
 # Spell Tools
 - Increased catalyst reinforcement multipliers. Topped at *2, now tops at *4.
 - Pyromancy catalysts now gain have base 50% free scaling instead of 100%. Overall scaling cap has been increased though.
+- Manus Catalyst: WA nows boosts Dark damage by 20% and inflicts 20 Curse per tick.
+- Insanity Catalyst: WA now boosts damage by 25% and inflicts 1% HP per cast.
+- Chant from the Depths WA now boosts Dark damage by 15%.
+- Steady Chant WA now boosts Magic damage by 15%.
+- Crystallization WA now boosts Magic damage by 25% and increases sorcery FP costs by 25%.
 
 # Spells
-- Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but stronger in the endgame.
+- Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
 - SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
 
 # Bugfix
@@ -49,6 +54,9 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Move Remy
+Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
+Add more romanceable npcs
 
 #------------------------------
 # Weapons

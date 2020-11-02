@@ -17778,7 +17778,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Steady Chant
-Boosts Magic spell damage by 20% for 15 seconds.</text>
+Boosts Magic spell damage by 15% for 15 seconds.</text>
 <text id="17010000">Crystal catalyst presented as a gift by the Crystal Sages to their favorite pupil, Kriemhild. 
 Crystal spheres devour the will of the user.
 
@@ -17786,7 +17786,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Crystallization
-Boosts Magic spell damage by 30% for 15 seconds, but also increases sorcery FP consumption by 10% too.</text>
+Boosts Magic spell damage by 25% for 15 seconds, but also increases sorcery FP consumption by 25% too.</text>
 <text id="17020000">Catalyst used by the court sorcerers of the Profaned Capital. Very powerful when wielded by an exceptionally intelligent sorcerer.
 
 The court sorcerers laid claim to the legacy of the renowned Big Hat Logan, going so far as to emulate him with copies of the staff he used.
@@ -17795,7 +17795,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Steady Chant
-Boosts Magic spell damage by 20% for 15 seconds.</text>
+Boosts Magic spell damage by 15% for 15 seconds.</text>
 <text id="17030000">The branch of a large, well-tended witchtree, used as a sorcery catalyst. Witchtree staves are customary in the far north, and allow for faster casting than ordinary catalysts.
 
 Can cast Sorceries.
@@ -17852,7 +17852,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Crystallization
-Boosts Magic spell damage by 30% for 15 seconds, but also increases spell FP consumption by 10% too.</text>
+Boosts Magic spell damage by 25% for 15 seconds, but also increases spell FP consumption by 25% too.</text>
 <text id="17100000">Sorcerous catalyst used by a talented pyromancer that once attempted to combine sorcery and pyromancy.
 
 Can cast Sorceries.
@@ -17875,7 +17875,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Steady Chant
-Boosts Magic spell damage by 20% for 15 seconds. </text>
+Boosts Magic spell damage by 15% for 15 seconds. </text>
 <text id="17130000">Straight sword wielded by Leydia apostles.
 The Leydia apostles, adept at magic, wielded unique weapons but were hunted down as traitors. 
 
@@ -17883,7 +17883,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Steady Chant
-Boosts Magic spell damage by 20% for 15 seconds.</text>
+Boosts Magic spell damage by 15% for 15 seconds.</text>
 <text id="18000000">Talisman for casting miracles of the Gods. Once a very common item among the ranks of the old Way of White.
 
 Can cast Miracles.
@@ -18002,14 +18002,14 @@ Skill: Awakening
 Violently flail oneself to trigger an awakening, just as the good Father used the rose himself. Boosts Physical and Lightning spell damage by 20% for 15 seconds.</text>
 <text id="19000000">Catalyst used by generations of heretic sorcerers. The heretic sorcerers cared not for rigidity of regular sorcery, and this staff reflects this.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 20% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 15 seconds.</text>
 <text id="19010000">Staff of a heretic storyteller who shares tales of the Painted World to forlorn souls. The storytellers, too, are wretched beings with no place to go. Their bodies, souls, and even their staves are all tainted through and through.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Effect: increases Poison and Toxic resistance by 200.
@@ -18018,36 +18018,36 @@ Skill: Poison Spores
 Expel noxious spores from the formless, parasitical things that inhabit the staff.</text>
 <text id="19020000">The long-handled staff wielded by the murkmen who rise from the depths.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Effect: boosts casting speed by 10.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 20% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 15 seconds.</text>
 <text id="19030000">Large staff bestowed upon Archdeacons of the Cathedral of the Deep.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Effect: increases Dark absorption by 10%.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 20% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 15 seconds.</text>
 <text id="19040000">A sorcery catalyst born from the soul of
 Manus, Father of the Abyss.
 
 A rough, old wooden catalyst large enough
 to be used as a strike weapon.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Fury of Manus
-Boosts Dark spell damage by 30% for 15 seconds, but applies 10 Curse per second whilst active too.</text>
+Boosts Dark spell damage by 20% for 15 seconds, but applies 20 Curse per second whilst active too.</text>
 <text id="19050000">Catalyst of the banishment sorcerers who flooded New Londo to seal off away the Darkwraiths and the Kings who fell to Dark.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Banish
@@ -18058,7 +18058,7 @@ his studies into the origins of dragons.
 What madness caused Oceiros to appropriate the frightful power
 of the ancient dragons into such a staff?
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Pestilent Mist
@@ -18101,7 +18101,7 @@ Can cast Hexes, Sorceries, Pyromancies and Miracles, but Sorceries, Pyromancies 
 Spell Buff is determined by INT and FTH.
 
 Skill: Insanity
-Boosts damage by 30% for 15 seconds but each cast causes 5% damage to the caster.</text>
+Boosts damage by 25% for 15 seconds but each cast causes 1% damage to the caster.</text>
 <text id="19120000">Dark flame catalyst used by corrupted pyromancers. 
 
 Can cast Hexes and Pyromancies.
@@ -18121,14 +18121,14 @@ and boosts all spell damage by 10% for 60 seconds.</text>
 Rather worn from the long journey it has doubtless seen.
 An ideal choice for light-footed pilgrims. 
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 20% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 15 seconds.</text>
 <text id="19150000">The desiccated right hand of a white-faced locust that rose from an abyssal swamp.
 
-Can cast Hexes and Sorceries, but Sorceries are only 50% as strong as normal.
+Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Effect: increases equipment load by 10%.
