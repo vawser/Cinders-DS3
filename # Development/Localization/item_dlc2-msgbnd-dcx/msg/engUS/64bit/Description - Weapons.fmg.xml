@@ -17772,21 +17772,22 @@ The engraving depicts two messengers from the hereafter who welcome the recently
 
 Skill: Lockout
 Shut the great doors tightly for stalwart defense, and use normal attack to transition into shield bash, or strong attack for a heave that holds shields to block nearly all damage.</text>
+
 <text id="17000000">Staff used to cast sorceries. A common catalyst given to sorcerers of the Vinheim Dragon School.
 
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Steady Chant
-Boosts Magic spell damage by 15% for 15 seconds.</text>
+Skill: Arcane Ward
+Coat oneself in magical energies, boosting Magic absorption by 30% for 60 seconds.</text>
 <text id="17010000">Crystal catalyst presented as a gift by the Crystal Sages to their favorite pupil, Kriemhild. 
 Crystal spheres devour the will of the user.
 
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Crystallization
-Boosts Magic spell damage by 25% for 15 seconds, but also increases sorcery FP consumption by 25% too.</text>
+Skill: Homing Crystal Soulmass
+Releases a homing crystal soulmass, drawn from the crystal properties of the staff.</text>
 <text id="17020000">Catalyst used by the court sorcerers of the Profaned Capital. Very powerful when wielded by an exceptionally intelligent sorcerer.
 
 The court sorcerers laid claim to the legacy of the renowned Big Hat Logan, going so far as to emulate him with copies of the staff he used.
@@ -17794,8 +17795,8 @@ The court sorcerers laid claim to the legacy of the renowned Big Hat Logan, goin
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Steady Chant
-Boosts Magic spell damage by 15% for 15 seconds.</text>
+Skill: Homing Soulmass
+Releases a homing soulmass, drawn from the magical properties of the staff.</text>
 <text id="17030000">The branch of a large, well-tended witchtree, used as a sorcery catalyst. Witchtree staves are customary in the far north, and allow for faster casting than ordinary catalysts.
 
 Can cast Sorceries.
@@ -17811,7 +17812,7 @@ Can cast Sorceries.
 Spell Buff is determined by INT.
 
 Skill: Velka's Grace
-Raise the talisman up to imbue oneself with a sense of haste, increasing the cast speed by 50 for 15 seconds.</text>
+Raise the talisman up to imbue oneself with a sense of haste, increasing the cast speed by 50 for 30 seconds.</text>
 <text id="17050000">Talisman given to the knights of the Sunless Realms, who serve the nameless moon.
 
 Can cast Sorceries.
@@ -17851,8 +17852,8 @@ Shoot forth a holy arrow, blessed by Rosaria herself.</text>
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Crystallization
-Boosts Magic spell damage by 25% for 15 seconds, but also increases spell FP consumption by 25% too.</text>
+Skill: Crystal Soul Spear
+Emits crystal soul spear towards foe. It has piercing qualities.</text>
 <text id="17100000">Sorcerous catalyst used by a talented pyromancer that once attempted to combine sorcery and pyromancy.
 
 Can cast Sorceries.
@@ -17874,16 +17875,16 @@ Summon a volley of Darkmoon arrows that rain down in front of the wielder.</text
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Steady Chant
-Boosts Magic spell damage by 15% for 15 seconds. </text>
+Skill: Twist Light 
+Distorts light in order to deflect magic.</text>
 <text id="17130000">Straight sword wielded by Leydia apostles.
 The Leydia apostles, adept at magic, wielded unique weapons but were hunted down as traitors. 
 
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Steady Chant
-Boosts Magic spell damage by 15% for 15 seconds.</text>
+Skill: Leydia Enchantment
+Coat blade in magical energies, boosting Magic damage by 100 for 60 seconds.</text>
 <text id="18000000">Talisman for casting miracles of the Gods. Once a very common item among the ranks of the old Way of White.
 
 Can cast Miracles.
@@ -18006,7 +18007,7 @@ Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 30 seconds.</text>
 <text id="19010000">Staff of a heretic storyteller who shares tales of the Painted World to forlorn souls. The storytellers, too, are wretched beings with no place to go. Their bodies, souls, and even their staves are all tainted through and through.
 
 Can cast Hexes and Sorceries.
@@ -18024,7 +18025,7 @@ Spell Buff is determined by INT and FTH.
 Effect: boosts casting speed by 10.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 30 seconds.</text>
 <text id="19030000">Large staff bestowed upon Archdeacons of the Cathedral of the Deep.
 
 Can cast Hexes and Sorceries.
@@ -18033,7 +18034,7 @@ Spell Buff is determined by INT and FTH.
 Effect: increases Dark absorption by 10%.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 30 seconds.</text>
 <text id="19040000">A sorcery catalyst born from the soul of
 Manus, Father of the Abyss.
 
@@ -18044,7 +18045,7 @@ Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Fury of Manus
-Boosts Dark spell damage by 20% for 15 seconds, but applies 20 Curse per second whilst active too.</text>
+Boosts Dark spell damage by 20% for 30 seconds, but applies 20 Curse per second whilst active too.</text>
 <text id="19050000">Catalyst of the banishment sorcerers who flooded New Londo to seal off away the Darkwraiths and the Kings who fell to Dark.
 
 Can cast Hexes and Sorceries.
@@ -18093,7 +18094,7 @@ Spell Buff is determined by INT and FTH.
 
 Skill: Bestial Wrath
 Raise the talisman up to imbue oneself with a sense of haste,
-increasing the cast speed by 50 for 15 seconds.</text>
+increasing the cast speed by 50 for 30 seconds.</text>
 <text id="19110000">A catalyst wrapped in golden cloth.
 Empowered by corrupted magic nestled deep within its bosom.
 
@@ -18101,7 +18102,7 @@ Can cast Hexes, Sorceries, Pyromancies and Miracles, but Sorceries, Pyromancies 
 Spell Buff is determined by INT and FTH.
 
 Skill: Insanity
-Boosts damage by 25% for 15 seconds but each cast causes 1% damage to the caster.</text>
+Boosts damage by 25% for 30 seconds but each cast causes 1% damage to the caster.</text>
 <text id="19120000">Dark flame catalyst used by corrupted pyromancers. 
 
 Can cast Hexes and Pyromancies.
@@ -18115,8 +18116,7 @@ Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
 Spell Buff is determined by INT and FTH.
 
 Skill: Guiding Light
-A candle provides a temporary source of light which reveals additional guidance
-and boosts all spell damage by 10% for 60 seconds.</text>
+A candle provides a temporary source of light which reveals additional guidance and boosts all spell damage by 10% for 60 seconds.</text>
 <text id="19140000">Spontoon used by warriors on pilgrimage.
 Rather worn from the long journey it has doubtless seen.
 An ideal choice for light-footed pilgrims. 
@@ -18125,7 +18125,7 @@ Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
 Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 15 seconds.</text>
+Boosts Dark spell damage by 15% for 30 seconds.</text>
 <text id="19150000">The desiccated right hand of a white-faced locust that rose from an abyssal swamp.
 
 Can cast Hexes and Sorceries.

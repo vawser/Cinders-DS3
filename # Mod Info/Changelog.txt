@@ -37,11 +37,12 @@
 # Spell Tools
 - Increased catalyst reinforcement multipliers. Topped at *2, now tops at *4.
 - Pyromancy catalysts now gain have base 50% free scaling instead of 100%. Overall scaling cap has been increased though.
-- Manus Catalyst: WA nows boosts Dark damage by 20% and inflicts 20 Curse per tick.
-- Insanity Catalyst: WA now boosts damage by 25% and inflicts 1% HP per cast.
-- Chant from the Depths WA now boosts Dark damage by 15%.
-- Steady Chant WA now boosts Magic damage by 15%.
-- Crystallization WA now boosts Magic damage by 25% and increases sorcery FP costs by 25%.
+- Sorcerer's Staff WA: now Arcane Ward, boosts Magic absorption by 30% for 60 seconds.
+- Sage's Crystal Staff WA: now Homing Crystal Soulmass.
+- Court Sorcerer's Staff WA: now Homing Soulmass.
+- Crystal Chime WA: now Crystal Soul Spear.
+- Heysel Pick WA: now Twist Light (Twisted Wall of Light).
+- Blue Flame WA: now Leydia Enchantment, adds 100 Magic damage to blade for 30 seconds.
 
 # Spells
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
@@ -58,6 +59,8 @@ Move Remy
 Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
 Add more romanceable npcs
 
+
+210010000
 #------------------------------
 # Weapons
 #------------------------------

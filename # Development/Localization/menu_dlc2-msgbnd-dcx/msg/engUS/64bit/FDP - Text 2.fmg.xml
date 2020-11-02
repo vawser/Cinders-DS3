@@ -1015,7 +1015,7 @@ it will be consumed with use.</text>
 <text id="70004">Shield Bash</text>
 <text id="70005">Spin Slash</text>
 <text id="70006">Weapon Skill</text>
-<text id="70007">Steady Chant</text>
+<text id="70007">Arcane Ward</text>
 <text id="70008">Charge</text>
 <text id="70009">Perseverance</text>
 <text id="70010">Stomp</text>
@@ -1114,7 +1114,7 @@ it will be consumed with use.</text>
 <text id="70304">Primordial Flame</text>
 <text id="70305">Darkmoon Volley</text>
 <text id="70306">Holy Arrow</text>
-<text id="70307">Crystallization</text>
+<text id="70307">Homing Crystal Soulmass</text>
 <text id="70308">Fury of Manus</text>
 <text id="70309">Velka's Grace</text>
 <text id="70310">Pestilent Mist</text>
@@ -1155,6 +1155,10 @@ it will be consumed with use.</text>
 <text id="70354">Black Dragon's Ire</text>
 <text id="70355">Wind Rush</text>
 <text id="70356">Chilling Wind</text>
+<text id="70357">Homing Soulmass</text>
+<text id="70358">Crystal Soul Spear</text>
+<text id="70359">Twist Light</text>
+<text id="70360">Leydia Enchantment</text>
 
 <text id="101000">Equipment</text>
 <text id="101001">Inventory</text>
