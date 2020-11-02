@@ -642,14 +642,16 @@
 034340 - AttackBothHeavy2Start #13408
 034341 - AttackBothHeavy2End #13409
 
-037900 - MagicBuffRight #13410
-       - MagicBuffRight_Upper
-037901 - MagicBuffRight_NoPoints #13410
-       - MagicBuffRight_NoPoints_Upper
-037910 - MagicBuffLeft #13412
-       - MagicBuffLeft_Upper
-037911 - MagicBuffLeft_NoPoints #13413
-       - MagicBuffLeft_NoPoints_Upper
+039100 - RandomOneShot1 #13410
+039101 - RandomOneShot1_NoPoints #13411
+039110 - RandomOneShotNext1 #13412
+039111 - RandomOneShotNext1_NoPoints #13413
+039120 - RandomOneShotNext2 #13428
+039121 - RandomOneShotNext2_NoPoints #13429
+039130 - RandomOneShotNext3 #13430
+039131 - RandomOneShotNext3_NoPoints #13431
+039140 - RandomOneShotNext4 #13432
+039141 - RandomOneShotNext4_NoPoints #13433
 
 #------------------------------------------------
 # a296 - Golem Axe

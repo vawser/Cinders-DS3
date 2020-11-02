@@ -10404,49 +10404,67 @@ function RandomOneShot1_onUpdate()
     local r2 = "W_RandomOneShotNext1"
     local b2 = "W_RandomOneShotNext1"
     local rand = math.random(0, 100)
-    local next3active = env(1116, 130092600)
-    local next4active = env(1116, 130092632)
-    local ignorenext4 = env(1116, 18000)
-    if next3active == TRUE and next4active == TRUE then
-        r2 = "W_RandomOneShotNext1"
-        b2 = "W_RandomOneShotNext1"
-    elseif next3active == TRUE then
-        if ignorenext4 == TRUE then
+    
+    local sp_kind_right = env(345, HAND_RIGHT)
+    local sp_kind_left = env(345, HAND_LEFT)
+    
+    -- Crucifix of the Mad King
+    if sp_kind_right == 261 or sp_kind_left == 261 then
+        local next3active = env(1116, 130092600)
+        local next4active = env(1116, 130092632)
+        local ignorenext4 = env(1116, 18000)
+        if next3active == TRUE and next4active == TRUE then
             r2 = "W_RandomOneShotNext1"
             b2 = "W_RandomOneShotNext1"
-        elseif 50 < rand then
-            r2 = "W_RandomOneShotNext1"
-            b2 = "W_RandomOneShotNext1"
-        else
+        elseif next3active == TRUE then
+            if ignorenext4 == TRUE then
+                r2 = "W_RandomOneShotNext1"
+                b2 = "W_RandomOneShotNext1"
+            elseif 50 < rand then
+                r2 = "W_RandomOneShotNext1"
+                b2 = "W_RandomOneShotNext1"
+            else
+                r2 = "W_RandomOneShotNext4"
+                b2 = "W_RandomOneShotNext4"
+            end
+        elseif next4active == TRUE then
+            if 50 < rand then
+                r2 = "W_RandomOneShotNext1"
+                b2 = "W_RandomOneShotNext1"
+            else
+                r2 = "W_RandomOneShotNext3"
+                b2 = "W_RandomOneShotNext3"
+            end
+        elseif ignorenext4 == TRUE then
+            if 50 < rand then
+                r2 = "W_RandomOneShotNext1"
+                b2 = "W_RandomOneShotNext1"
+            else
+                r2 = "W_RandomOneShotNext3"
+                b2 = "W_RandomOneShotNext3"
+            end
+        elseif 66 < rand then
             r2 = "W_RandomOneShotNext4"
             b2 = "W_RandomOneShotNext4"
-        end
-    elseif next4active == TRUE then
-        if 50 < rand then
-            r2 = "W_RandomOneShotNext1"
-            b2 = "W_RandomOneShotNext1"
-        else
+        elseif 33 < rand then
             r2 = "W_RandomOneShotNext3"
             b2 = "W_RandomOneShotNext3"
-        end
-    elseif ignorenext4 == TRUE then
-        if 50 < rand then
+        else
             r2 = "W_RandomOneShotNext1"
             b2 = "W_RandomOneShotNext1"
-        else
-            r2 = "W_RandomOneShotNext3"
-            b2 = "W_RandomOneShotNext3"
         end
-    elseif 66 < rand then
-        r2 = "W_RandomOneShotNext4"
-        b2 = "W_RandomOneShotNext4"
-    elseif 33 < rand then
-        r2 = "W_RandomOneShotNext3"
-        b2 = "W_RandomOneShotNext3"
-    else
-        r2 = "W_RandomOneShotNext1"
-        b2 = "W_RandomOneShotNext1"
+    elseif sp_kind_right == 295 or sp_kind_left == 295 then -- Manus Catalyst
+        if rand <= 25 then
+            ExecEventAllBody("W_RandomOneShotNext1")
+        elseif rand > 25 and rand <= 50 then
+            ExecEventAllBody("W_RandomOneShotNext2")
+        elseif rand > 50 and rand <= 75 then
+            ExecEventAllBody("W_RandomOneShotNext3")
+        else
+            ExecEventAllBody("W_RandomOneShotNext4")
+        end
     end
+    
     if SwordArtsCommonFunction("W_AttackRightLight1", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", b2, FALSE, TRUE, TRUE, FALSE) == TRUE then
         return 
     elseif env("アニメ終了か", 1) == TRUE then
