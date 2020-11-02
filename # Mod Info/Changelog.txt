@@ -43,6 +43,7 @@
 - Crystal Chime WA: now Crystal Soul Spear.
 - Heysel Pick WA: now Twist Light (Twisted Wall of Light).
 - Blue Flame WA: now Leydia Enchantment, adds 100 Magic damage to blade for 30 seconds.
+- Sunless Talisman WA: now Moonlight Wave (Soul Wave).
 
 # Spells
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
@@ -59,8 +60,8 @@ Move Remy
 Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
 Add more romanceable npcs
 
+Change miracle/hex/pyromancy catalyst WAs
 
-210010000
 #------------------------------
 # Weapons
 #------------------------------
