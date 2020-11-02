@@ -17852,8 +17852,8 @@ Shoot forth a holy arrow, blessed by Rosaria herself.</text>
 Can cast Sorceries.
 Spell Buff is determined by INT.
 
-Skill: Crystal Soul Spear
-Emits crystal soul spear towards foe. It has piercing qualities.</text>
+Skill: Crystalline Storm
+Emits crystal explosions around the caster.</text>
 <text id="17100000">Sorcerous catalyst used by a talented pyromancer that once attempted to combine sorcery and pyromancy.
 
 Can cast Sorceries.
@@ -17890,8 +17890,8 @@ Coat blade in magical energies, boosting Magic damage by 100 for 60 seconds.</te
 Can cast Miracles.
 Spell Buff is determined by FTH.
 
-Skill: Unfaltering Prayer
-Temporarily boosts Poise by 100 while casting miracles, preventing enemy attacks from interrupting prayer.</text>
+Skill: Force
+Creates a shockwave. While it inflicts little direct damage, this skill propels foes back, staggering them.</text>
 <text id="18010000">A rotten talisman, used by the rotten ghru that inhabit the swamps of Farron.
 
 Imbued with the putrid swamp waters, this talisman inflicts a potent poison when used in close quarters.
@@ -17928,8 +17928,8 @@ Spell Buff is determined by FTH.
 
 Effect: increases effectiveness of HP recovery by 10%.
 
-Skill: Unfaltering Prayer
-Temporarily boosts Poise by 100 while casting miracles, preventing enemy attacks from interrupting prayer.</text>
+Skill: Wrath of the Gods
+This primal skill of profound fury emits a shockwave that also inflicts damage.</text>
 <text id="18050000">Talisman made from a lock of white hair.
 This lock of hair belonged to a deformed member of the chaos witches, mothers of the art of pyromancy.
 
@@ -18000,14 +18000,14 @@ Can cast Miracles.
 Spell Buff is determined by FTH.
 
 Skill: Awakening
-Violently flail oneself to trigger an awakening, just as the good Father used the rose himself. Boosts Physical and Lightning spell damage by 20% for 15 seconds.</text>
+Violently flail oneself to trigger an awakening, just as the good Father used the rose himself. Harms flailer but grants immunity to damage for 15 seconds.</text>
 <text id="19000000">Catalyst used by generations of heretic sorcerers. The heretic sorcerers cared not for rigidity of regular sorcery, and this staff reflects this.
 
 Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
-Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 30 seconds.</text>
+Skill: Silence
+Emit a silencing aura that prevents enemies from casting for 15 seconds.</text>
 <text id="19010000">Staff of a heretic storyteller who shares tales of the Painted World to forlorn souls. The storytellers, too, are wretched beings with no place to go. Their bodies, souls, and even their staves are all tainted through and through.
 
 Can cast Hexes and Sorceries.
@@ -18024,8 +18024,8 @@ Spell Buff is determined by INT and FTH.
 
 Effect: boosts casting speed by 10.
 
-Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 30 seconds.</text>
+Skill: Despairing Whisper
+Emit forward a potent whisper of despair, inflicting Curse.</text>
 <text id="19030000">Large staff bestowed upon Archdeacons of the Cathedral of the Deep.
 
 Can cast Hexes and Sorceries.
@@ -18033,8 +18033,8 @@ Spell Buff is determined by INT and FTH.
 
 Effect: increases Dark absorption by 10%.
 
-Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 30 seconds.</text>
+Skill: Punish the Dead
+Cause nearby dead to explode and harm enemies.</text>
 <text id="19040000">A sorcery catalyst born from the soul of
 Manus, Father of the Abyss.
 
@@ -18085,8 +18085,8 @@ Emit a ravenous swarm of insects, inflicting 60 Bleed and heavy damage.</text>
 Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
 Spell Buff is determined by INT and FTH.
 
-Skill: Unfaltering Prayer
-Temporarily boosts Poise by 100 while casting miracles, preventing enemy attacks from interrupting prayer.</text>
+Skill: Yearning
+Summon multiple darkened soul sediment spots in vicinity, inflicting Curse.</text>
 <text id="19100000">An old wooden amulet resembling a depraved beast, once said to be a cleric.
 
 Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
@@ -18102,7 +18102,7 @@ Can cast Hexes, Sorceries, Pyromancies and Miracles, but Sorceries, Pyromancies 
 Spell Buff is determined by INT and FTH.
 
 Skill: Insanity
-Boosts damage by 25% for 30 seconds but each cast causes 1% damage to the caster.</text>
+Go insane! Each stack increases Dark damage by 5%, but cuts HP by 25% and causes 1 HP to be lost per second.</text>
 <text id="19120000">Dark flame catalyst used by corrupted pyromancers. 
 
 Can cast Hexes and Pyromancies.
@@ -18124,8 +18124,8 @@ An ideal choice for light-footed pilgrims.
 Can cast Hexes and Sorceries.
 Spell Buff is determined by INT and FTH.
 
-Skill: Chant from the Depths
-Boosts Dark spell damage by 15% for 30 seconds.</text>
+Skill: Pilgrim's Enchantment
+Coat blade in magical energies, boosting Dark damage by 100 for 60 seconds.</text>
 <text id="19150000">The desiccated right hand of a white-faced locust that rose from an abyssal swamp.
 
 Can cast Hexes and Sorceries.

@@ -488,6 +488,7 @@
 90200 [Gift - Yoel] Dark Sigil
 90210 [Gift - Solaire] Estus Shard
 90220 [Gift - Remy] Dried Root
+90230 [Gift - Ritualist Ellie] Ritual Incense
 3000000 [High Wall of Lothric] Titanite Shard
 3000010 [High Wall of Lothric] Green Blossom
 3000020 [High Wall of Lothric] Radiant Lifegem
@@ -616,7 +617,7 @@
 3010720 [Lothric Castle] Ember
 3100000 [Undead Settlement] Undead Bone Shard
 3100010 [Undead Settlement] Flynn's Ring
-3100020 [Undead Settlement] Bone Fragment
+3100020 [Undead Settlement] Bloodied Tablet
 3100030 [Undead Settlement] Mortician's Ashes
 3100040 [Undead Settlement] Rusted Gold Coin
 3100050 [Undead Settlement] Caduceus Round Shield
@@ -815,7 +816,7 @@
 3300500 [Farron Keep] Estus Shard
 3300510 [Farron Keep] Large Soul of an Unknown Traveler
 3300520 [Farron Keep] Undead Bone Shard
-3300525 [Farron Keep] Slug Whistle
+3300525 [Farron Keep] Slimy Tablet
 3300530 [Farron Keep] Large Titanite Shard
 3300535 [Farron Keep] Siegbräu
 3300540 [Farron Keep] Large Titanite Shard
@@ -950,7 +951,7 @@
 3500320 [Cathedral of the Deep] Repair Powder
 3500330 [Cathedral of the Deep] Ember
 3500340 [Cathedral of the Deep] Large Soul of an Unknown Traveler
-3500370 [Cathedral of the Deep] Human Dregs
+3500370 [Cathedral of the Deep] Holy Tablet
 3500380 [Cathedral of the Deep] Lethal Gem
 3500390 [Cathedral of the Deep] Large Titanite Shard
 3500400 [Cathedral of the Deep] Large Soul of an Unknown Traveler
@@ -1607,7 +1608,7 @@
 10703101 [Skeleton - Ringed City] Dark Gem
 10703102 [Skeleton - Ringed City] Old Radiant Lifegem
 10740000 [Skeleton - El Hueso] Bone Fragment
-10740001 [Skeleton - El Hueso] Old Bone
+10740001 [Skeleton - El Hueso] Dusty Tablet
 10900000 [Pus of Man - High Wall of Lothric] Dark Gem
 10900001 [Pus of Man - High Wall of Lothric] Brightbug
 10900002 [Pus of Man - High Wall of Lothric] Ember
@@ -2148,7 +2149,7 @@
 31411100 [Ancient Wyvern - Script] Dragon Scale
 31412000 [Ancient Wyvern - Script] Dragon Scale
 31413000 [Ancient Wyvern - Script] Dragon Scale
-31414000 [Ancient Wyvern - Script] Stick
+31414000 [Ancient Wyvern - Script] Craggy Tablet
 31414010 [Ancient Wyvern] Dragon Scale
 31414011 [Ancient Wyvern] Old Radiant Lifegem
 31600000 [Dragonslayer Armour] Iron Dragonslayer Helm
@@ -2339,7 +2340,7 @@
 210000470 [Archdragon Peak] Drake Fist
 210000480 [Cathedral of the Deep] Poison Gem
 210000490 [Cathedral of the Deep] Divine Blessing
-210000500 [Cathedral of the Deep] Black Firebomb
+210000500 [Cathedral of the Deep] Hallowed Tablet
 210000510 [Cathedral of the Deep] Dark Gem
 210000520 [Cathedral of the Deep] Rosaria's Dress
 210000530 [Lothric Castle] Titanite Chunk
@@ -2712,10 +2713,10 @@
 210003611 [Smouldering Lake] Charred Loyce Armor
 210003612 [Smouldering Lake] Charred Loyce Gauntlets
 210003613 [Smouldering Lake] Charred Loyce Leggings
-210003620 [Farron Keep] Crab Bait
+210003620 [Farron Keep] Crab Tablet
 210003630 [Ariandel] Ember
-210003640 [Irithyll  - Chest] Miniature Chest
-210003650 [Irithyll  - Chest] Blessed Tipple
+210003640 [Irithyll  - Chest] Avaricious Tablet
+210003650 [Irithyll  - Chest] Blessed Tablet
 210003660 [Road of Sacrifices - Chest] Merchant Ring
 210003670 [Irithyll - Chest] Golem Helm
 210003671 [Irithyll - Chest] Golem Armor
@@ -2737,7 +2738,7 @@
 210003750 [Cemetery of Ash] Censuring Palm
 210003760 [High Wall of Lothric] Lifegem
 210003770 [High Wall of Lothric] Lifegem
-210004000 [High Wall of Lothric - Locked Chest] Twinkling Titanite
+210004000 [High Wall of Lothric - Locked Chest] Royal Tablet
 210004010 [Consumed King's Garden - Locked Chest] Talisman of Beasts
 210004020 [Undead Settlement - Locked Chest] Mask of Cruelty
 210004030 [Road of Sacrifices - Locked Chest] Mask of Serenity
@@ -2749,7 +2750,7 @@
 210004060 [Catacombs of Carthus - Locked Chest] Fire Seed
 210004070 [Smouldering Lake - Locked Chest] Smelter Hammer
 210004080 [Irithyll - Locked Chest] Rampart Golem Lance
-210004090 [Anor Londo - Locked Chest] Divine Blessing
+210004090 [Anor Londo - Locked Chest] Etched Tablet
 210004120 [Lothric Castle - Locked Chest] Mask of War
 210004130 [Grand Archives - Locked Chest] King's Crown
 210004131 [Grand Archives - Locked Chest] King's Armor
@@ -2769,6 +2770,7 @@
 210004220 [Ringed City - Locked Chest] Prismatic Slab
 210004230 [Ringed City - Chest] Abyssal Fragment
 210004240 [Ringed City - Chest] Giant-horned Helmet
+210004250 [Kiln of the First Flame] Scorched Tablet
 210899999 ### Unused ###
 210900000 Throwing Knife
 263300001 Soul of an Intrepid Hero
@@ -2787,6 +2789,7 @@
 800001110 [Covenant] Company of Champions
 800001120 [Covenant] Warrior of Sunlight
 800001130 [Covenant] Servant of the Rat
+800001140 [Covenant] Ritualist Pact
 800001200 [Script] Crown of Filianore
 800001210 [Script] Pot
 800001300 [Script] Ring of Betrothal
@@ -2825,7 +2828,9 @@
 800011500 [Company of Champions] Awestone
 800011520 [Company of Champions] Awestone - Low
 800011600 [Servant of the Rat] Rat Tail
-800011610 [Servant of the Rat] Rat Tail - Low
+800011620 [Servant of the Rat] Rat Tail - Low
+800011700 [Ritualist Pact] Ritual Incense
+800011720 [Ritualist Pact] Ritual Incense - Low
 800299999 ### Primordial Essence ###
 800300000 Primordial Essence - 25%
 800300010 Primordial Essence - 50%
@@ -2833,6 +2838,7 @@
 800300030 Primordial Essence - 100%
 800300040 Primordial Essence - 100% (2)
 800300050 Primordial Essence - 100% (3)
+800300060 Primordial Essence - 10%
 800499999 ### Trials ###
 800500000 Trial of Adversity - Wave 1
 800500010 Trial of Adversity - Wave 2

@@ -50,7 +50,7 @@
 21609 [Warrior of Sunlight] Iron Leggings
 21610 [Warrior of Sunlight] Sunlight Elixir
 21611 [Warrior of Sunlight] Holy Fragment
-21612 [Warrior of Sunlight] Incense of Cooperation
+21612 [Warrior of Sunlight] Sunlight Tablet
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
@@ -155,7 +155,7 @@
 22902 [Servant of the Rat] Yellow Bug Pellet
 22903 [Servant of the Rat] Black Bug Pellet
 22904 [Servant of the Rat] Mossfruit
-22905 [Servant of the Rat] Rat Treat
+22905 [Servant of the Rat] Rat Tablet
 30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
 30001 [Ludleth - Corrupted Gundyr] Cursed Ring of Evasion
 30002 [Ludleth - Corrupted Gundyr] Cursed Ring of Vengeance
@@ -201,6 +201,7 @@
 30081 [Ludleth - Ponitff Sulyvahn] Profaned Greatsword
 30082 [Ludleth - Ponitff Sulyvahn] Orbs of Judgment
 30083 [Ludleth - Ponitff Sulyvahn] Soul Wave
+30084 [Ludleth - Ponitff Sulyvahn] Wrathful Tablet
 30090 [Ludleth - Aldrich] Darkmoon Longbow
 30091 [Ludleth - Aldrich] Lifehunt Scythe
 30092 [Ludleth - Aldrich] Sword of Avowal
@@ -215,6 +216,7 @@
 30122 [Ludleth - Oceiros] Crystal Storm
 30123 [Ludleth - Oceiros] Moonlight Butterfly Horn
 30124 [Ludleth - Oceiros] Consumed King's Staff
+30125 [Ludleth - Oceiros] Crystalline Tablet
 30130 [Ludleth - Dragonslayer Armour] Dragonslayer Greataxe
 30131 [Ludleth - Dragonslayer Armour] Dragonslayer Greatshield
 30132 [Ludleth - Dragonslayer Armour] Perseverance
@@ -251,6 +253,7 @@
 30210 [Ludleth - Demon Prince] Demon's Scar
 30212 [Ludleth - Demon Prince] Chaos Bed Vestiges
 30213 [Ludleth - Demon Prince] Cataclysm
+30214 [Ludleth - Demon Prince] Demonic Tablet
 30220 [Ludleth - Darkeater Midir] Frayed Blade
 30221 [Ludleth - Darkeater Midir] Old Moonlight
 30223 [Ludleth - Darkeater Midir] Obsidian Greatsword
@@ -1412,6 +1415,16 @@
 270021 [Master Benjin - Tortured Soul] Rosamarius
 270040 [Master Benjin - Smithbox] Cannon
 270041 [Master Benjin - Smithbox] Evelynn
+280000 [Ritualist Ellie] Tome of Health
+280001 [Ritualist Ellie] Tome of Power
+280002 [Ritualist Ellie] Tome of Toughness
+280003 [Ritualist Ellie] Tome of Restoration
+280004 [Ritualist Ellie] Tome of Poise
+280005 [Ritualist Ellie] Tome of Mass Summoning
+280006 [Ritualist Ellie] Tome of Hollow Summoning
+280050 [Ritualist Ellie] Restorative Brew
+280051 [Ritualist Ellie] Banishing Coin
+280052 [Ritualist Ellie] Inciting Bone
 760000 [Stone-humped Hag] Splitleaf Greatsword
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower

@@ -631,11 +631,15 @@
 2352700 Blueblood Sword - Crystal Shower
 2352701 Blueblood Sword - Crystal Shower
 2353100 Balder Side Sword - 1H Heavy #1
+2353101 Balder Side Sword - 1H Heavy #1 Addition
 2353105 Balder Side Sword - 1H Heavy #1 Max
+2353106 Balder Side Sword - 1H Heavy #1 Max Addition
 2353110 Balder Side Sword - 1H Heavy #2
 2353115 Balder Side Sword - 1H Heavy #2 Max
 2353300 Balder Side Sword - 2H Heavy #1
+2353301 Balder Side Sword - 2H Heavy #1 Addition
 2353305 Balder Side Sword - 2H Heavy #1 Max
+2353306 Balder Side Sword - 2H Heavy #1 Max Addition
 2353310 Balder Side Sword - 2H Heavy #2
 2353315 Balder Side Sword - 2H Heavy #2 Max
 2353700 Balder Side Sword - Shield Splitter
@@ -2304,6 +2308,7 @@
 3301530 Warpick - 2H Backstep
 3301540 Warpick - 1H Roll
 3301580 Warpick - 2H Roll
+3301700 Heysel Pick - Twist Light
 3302000 Club - 1H Light #1
 3302010 Club - 1H Light #2
 3302020 Club - 1H Light #3
@@ -2755,6 +2760,7 @@
 3611707 Dragonslayer Swordspear
 3611708 Dragonslayer Swordspear
 3612700 Spear
+3613700 Golden Ritual Spear - Darkmoon Volley [Hit]
 3615700 Rampart Golem Lance - Chilling Wind
 3620700 Spear
 3620800 Spear
@@ -3261,57 +3267,47 @@
 4106700 Pyromancer's Parting Flame
 4106701 Pyromancer's Parting Flame
 4106800 Pyromancer's Parting Flame
-4107700 Sacred Chime of Filianore [Bullet]
+4107700 Sacred Chime of Filianore - Pray for Favor
 4108700 Preacher's Right Arm
 4108710 Preacher's Right Arm
 4108720 Preacher's Right Arm
 4108730 Preacher's Right Arm
 4108740 Preacher's Right Arm
 4108750 Preacher's Right Arm
-4109100 Black Flame - 1H Heavy #1
-4109105 Black Flame - 1H Heavy #1 Max
-4109110 Black Flame - 1H Heavy #2
-4109115 Black Flame - 1H Heavy #2 Max
-4109700 Black Flame - Weapon Art
-4109705 Black Flame - Weapon Art
-4109710 Black Flame - Weapon Art
-4109715 Black Flame - Weapon Art
-4109720 Black Flame - Weapon Art
-4109725 Black Flame - Weapon Art
-4109800 Black Flame - Weapon Art
-4110100 Chaos Flame - 1H Heavy #1
-4110105 Chaos Flame - 1H Heavy #1 Max
-4110110 Chaos Flame - 1H Heavy #2
-4110115 Chaos Flame - 1H Heavy #2 Max
-4110700 Chaos Flame - Weapon Art
-4110705 Chaos Flame - Weapon Art
-4110710 Chaos Flame - Weapon Art
-4110715 Chaos Flame - Weapon Art
-4110720 Chaos Flame - Weapon Art
-4110725 Chaos Flame - Weapon Art
-4110800 Chaos Flame - Weapon Art
-4111100 Holy Flame - 1H Heavy #1
-4111105 Holy Flame - 1H Heavy #1 Max
-4111110 Holy Flame - 1H Heavy #2
-4111115 Holy Flame - 1H Heavy #2 Max
-4111700 Holy Flame - Weapon Art
-4111705 Holy Flame - Weapon Art
-4111710 Holy Flame - Weapon Art
-4111715 Holy Flame - Weapon Art
-4111720 Holy Flame - Weapon Art
-4111725 Holy Flame - Weapon Art
-4111800 Holy Flame - Weapon Art
-4112100 Sorcerous Flame - 1H Heavy #1
-4112105 Sorcerous Flame - 1H Heavy #1 Max
-4112110 Sorcerous Flame - 1H Heavy #2
-4112115 Sorcerous Flame - 1H Heavy #2 Max
-4112700 Sorcerous Flame - Weapon Art
-4112705 Sorcerous Flame - Weapon Art
-4112710 Sorcerous Flame - Weapon Art
-4112715 Sorcerous Flame - Weapon Art
-4112720 Sorcerous Flame - Weapon Art
-4112725 Sorcerous Flame - Weapon Art
-4112800 Sorcerous Flame - Weapon Art
+4114700 Mendicant's Staff - Serpentine Orbs
+4114710 Mendicant's Staff - Serpentine Orbs [Hit]
+4115700 Izalith Staff - Primordial Flame
+4115710 Izalith Staff - Primordial Flame [Hit]
+4115720 Izalith Staff - Primordial Flame [Hit]
+4117700 Man-grub's Staff - Holy Arrow
+4118700 Sage's Crystal Staff - Crystallization
+4118710 Sage's Crystal Staff - Crystallization [Hit]
+4121700 Consumed King's Staff - Pestilent Mist
+4121710 Consumed King's Staff - Pestilent Mist
+4122700 Tin Banishment Catalyst - Banish
+4123700 Sunlight Talisman - Heavenly Thunder
+4123710 Sunlight Talisman - Heavenly Thunder [Hit]
+4125700 Caitha's Chime - Caitha's Affliction
+4126700 Crystal Chime - Crystalline Storm
+4126710 Crystal Chime - Crystalline Storm [Hit]
+4126720 Crystal Chime - Crystalline Storm [Hit]
+4126730 Crystal Chime - Crystalline Storm [Hit]
+4129700 Rotten Talisman - Poison Spores
+4130700 Smouldering Talisman - Immolate
+4130710 Smouldering Talisman - Immolate [Hit]
+4130720 Smouldering Talisman - Immolate [Hit]
+4130730 Smouldering Talisman - Immolate [Hit]
+4133700 Court Sorcerer's Staff - Soulmass
+4133710 Court Sorcerer's Staff - Soulmass [Hit]
+4134700 Sunless Talisman - Moonlight Wave
+4135700 Talisman - Force
+4136700 Saint's Talisman - Wrath of the Gods
+4137720 Black Flame - Abyssal Grasp - Attack
+4137725 Black Flame - Abyssal Grasp - Bullet
+4138720 Holy Flame - Divine Retribution - Attack
+4138725 Holy Flame - Divine Retribution - Bullet
+4139720 Sorcerous Flame - Beckon Soul - Attack
+4139725 Sorcerous Flame - Beckon Soul - Bullet
 4200000 Caestus - 1H Light #1
 4200010 Caestus - 1H Light #2
 4200020 Caestus - 1H Light #3
@@ -4010,8 +4006,8 @@
 5011530 Pontiff Knight Great Scythe (shaft) - 2H Backstep
 5011540 Pontiff Knight Great Scythe (shaft) - 1H Roll
 5011580 Pontiff Knight Great Scythe (shaft) - 2H Roll
-5011700 Lothric's Scythe - Weapon Art
-5011705 Lothric's Scythe - Weapon Art
+5011700 Lothric's Scythe - Divine Punishment
+5011710 Lothric's Scythe - Divine Punishment [Hit]
 5030000 Friede's Great Scythe
 5030001 Friede's Great Scythe
 5030010 Friede's Great Scythe
@@ -4646,20 +4642,6 @@
 19000000 Cursed Ring of Confusion - Rapport
 19100000 Ring of Londor - Abyssal Burst
 19200000 Wretched Pendant - Aura
-19502000 Mendicant's Staff - Serpentine Orbs
-19502001 Mendicant's Staff - Serpentine Orbs [HitBullet]
-19503000 Izalith Staff - Primordial Flame
-19503001 Izalith Staff - Primordial Flame [HitBullet]
-19503002 Izalith Staff - Primordial Flame [HitBullet]
-19504003 Golden Ritual Spear - Darkmoon Volley
-19505000 Man-grub's Staff - Holy Arrow
-19509000 Consumed King's Staff - Pestilent Mist
-19509100 Consumed King's Staff - Pestilent Mist
-19511000 Sunlight Talisman - Shower of Sunlight
-19512000 Lord's Chime - Lord's Bellow
-19513000 Caitha's Chime - Caitha's Affliction
-19517000 Rotten Talisman - Poison Spores
-19518000 Smouldering Talisman - Immolate
 19530000 Frigid Valley Mask - Frost Aura
 19540000 [Pyromancy] Immolation
 19540010 [Pyromancy] Immolation [Hit]

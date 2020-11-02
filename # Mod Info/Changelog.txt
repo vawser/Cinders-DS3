@@ -40,10 +40,20 @@
 - Sorcerer's Staff WA: now Arcane Ward, boosts Magic absorption by 30% for 60 seconds.
 - Sage's Crystal Staff WA: now Homing Crystal Soulmass.
 - Court Sorcerer's Staff WA: now Homing Soulmass.
-- Crystal Chime WA: now Crystal Soul Spear.
+- Crystal Chime WA: now Crystalline Storm.
 - Heysel Pick WA: now Twist Light (Twisted Wall of Light).
-- Blue Flame WA: now Leydia Enchantment, adds 100 Magic damage to blade for 30 seconds.
+- Blue Flame WA: now Leydia Enchantment, adds 100 Magic damage to blade for 60 seconds.
 - Sunless Talisman WA: now Moonlight Wave (Soul Wave).
+- Talisman WA: now Force.
+- Sunlight Talisman WA: now Heavenly Thunder.
+- Saint's Talisman WA: now Wrath of the Gods.
+- Rose of Ariandel WA: now grants immunity to damage for 15 seconds.
+- Heretic's Staff WA: now Silence: an enemy-only silence.
+- Murky Longstaff WA: now Despairing Whisper.
+- Archdeacon's Great Staff WA: now Punish the Dead (Dead Again)
+- Corrupted Talisman WA: Yearning (Yearning Dregs)
+- Pilgrim's Spontoon WA: now Pilgrim's Enchantment, adds 100 Dark damage to blade for 60 seconds.
+- Insanity Catalyst WA: nows operates differently: each WA use adds a stack, each stack adds +5% Dark spell damage, but reduces max HP by 25% and adds 1 HP loss. The stacks do not expire until death.
 
 # Spells
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
@@ -60,8 +70,13 @@ Move Remy
 Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
 Add more romanceable npcs
 
-Change miracle/hex/pyromancy catalyst WAs
-
+Manus Catalyst: 
+    Cascading Deep
+    Dark Bead
+    Climax
+    
+    
+    
 #------------------------------
 # Weapons
 #------------------------------

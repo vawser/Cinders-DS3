@@ -2892,6 +2892,7 @@
 130080610 [Great Hammer] Warcry - Right
 130080650 [Great Hammer] Warcry - Left
 130080660 [Great Hammer] Warcry - Left
+130081800 Frost
 130081900 [Old King's Great Hammer] Molten Perseverance
 130082400 [Warpick] Galvanise - Right
 130082401 [Warpick] Galvanise - Right [CycleOccurance]
@@ -2942,6 +2943,7 @@
 130100760 [Pontiff Knight Great Scythe] Frost - Left [CycleOccurance]
 130100761 [Pontiff Knight Great Scythe] Frost - Left [AttackOccurance]
 130100780 [Pontiff Knight Great Scythe] Frost
+130100790 Bleed
 130110400 [Magic] Anim 40021
 130110410 [Magic] Anim 40021
 130110450 [Magic] Anim 40021
@@ -2995,6 +2997,39 @@
 130201520 [Havel's Greatshield] Stone Flesh [CycleOccurance]
 130210500 [Black Dragon Shield] Black Dragon's Ire
 130220500 [Moaning Shield] Moaning Shield
+140010400 Poison
+140021200 Poison
+140091200 Poison
+140091700 Poison
+140120600 Poison
+140201300 Poison
+142010100 Bleed
+142021800 Bleed
+142022100 Bleed
+142040500 Bleed
+142040600 Bleed
+142040900 Bleed
+142041100 Bleed
+142050000 Bleed
+142050100 Bleed
+142050200 Bleed
+142050300 Bleed
+142050400 Bleed
+142050500 Bleed
+142061400 Bleed
+142080200 Bleed
+142080300 Bleed
+142082100 Bleed
+142083000 Bleed
+142100000 Bleed
+142100800 Bleed
+142100810 Bleed
+142110000 Bleed
+142110200 Bleed
+142120500 Bleed
+142160200 Bleed
+142160900 Bleed
+142211300 Bleed
 143021900 [Friede's Great Scythe] Elfriede's Stance - Right
 143021905 [Friede's Great Scythe] Elfriede's Stance - Right
 143021910 [Friede's Great Scythe] Elfriede's Stance - Left
@@ -3003,10 +3038,10 @@
 150001001 [Chime] Gentle Prayer - Right [CycleOccurance]
 150001050 [Chime] Gentle Prayer - Left
 150001051 [Chime] Gentle Prayer - Left [CycleOccurance]
-150003000 [Staff] Steady Chant - Right
-150003001 [Staff] Steady Chant - Right [CycleOccurance]
-150003050 [Staff] Steady Chant - Left
-150003051 [Staff] Steady Chant - Left [CycleOccurance]
+150003000 [Staff] Arcane Ward - Right
+150003050 [Staff] Arcane Ward  - Left
+150003100 [Blue Flame] Leydia Enchantment - Right
+150003150 [Blue Flame] Leydia Enchantment - Left
 150004000 [Sacred Chime of Filianore] Pray for Favor - Right
 150004001 [Sacred Chime of Filianore] Pray for Favor - Right [CycleOccurance]
 150004050 [Sacred Chime of Filianore] Pray for Favor - Left
@@ -3066,6 +3101,9 @@
 160100410 [Covenant] Servant of the Rat
 160100411 [Covenant] Servant of the Rat
 160100412 [Covenant] Servant of the Rat [DeathOccurance]
+160100420 [Covenant] Ritualist Pact
+160100421 [Covenant] Ritualist Pact
+160100422 [Covenant] Ritualist Pact [DeathOccurance]
 160105000 [Weapon] Bow
 160106000 [Weapon] Greatbow
 160107000 [Weapon] Crossbow
@@ -3186,6 +3224,7 @@
 160220999 ### Weapon State ###
 160221000 No Ascension
 160221001 Ascension
+160221100 Spell Tool
 160250001 ### Weapon Attacks ###
 160250040 Bloodletter
 160250050 Tranquil Walk of Peace - Enemy
@@ -4762,21 +4801,39 @@
 160750300 Freezing Wind
 160759999 ### Companions ###
 160760000 Trigger - Solaire
-160760001 Trigger - El Crabbo
-160760002 Trigger - Rocky
-160760003 Trigger - Sluggo
-160760004 Trigger - Father John
-160760005 Trigger - Gimbal
-160760006 Trigger - El Hueso
-160760007 Trigger - Moxie
+160760001 Trigger - Lesser Crab - El Crabbo
+160760002 Trigger - Rock Lizard - Rocky
+160760003 Trigger - Rotten Slug - Sluggo
+160760004 Trigger - Fat Deacon - Father John
+160760005 Trigger - Mimic - Gimbal
+160760006 Trigger - Skeleton - El Hueso
+160760007 Trigger - Hound-rat - Moxie
+160760008 Trigger - Cathedral Knight - Erekris
+160760009 Trigger - Cathedral Evangelist - Metora
+160760010 Trigger - Lothric Knight - Farold
+160760011 Trigger - Black Knight - Zarloth
+160760012 Trigger - Silver Knight - Praxos
+160760013 Trigger - Undead Dog - Woof
+160760014 Trigger - Pontiff Knight - Alfreda
+160760015 Trigger - Ravenous Crystal Lizard - Tazshi
+160760016 Trigger - Demon - Bazdulk
 160760050 Baseline - Solaire
-160760051 Baseline - El Crabbo
-160760052 Baseline - Rocky
-160760053 Baseline - Sluggo
-160760054 Baseline - Father John
-160760055 Baseline - Gimbal
-160760056 Baseline - El Hueso
-160760057 Baseline - Moxie
+160760051 Baseline - Lesser Crab - El Crabbo
+160760052 Baseline - Rock Lizard - Rocky
+160760053 Baseline - Rotten Slug - Sluggo
+160760054 Baseline - Fat Deacon - Father John
+160760055 Baseline - Mimic - Gimbal
+160760056 Baseline - Skeleton - El Hueso
+160760057 Baseline - Hound-rat - Moxie
+160760058 Baseline - Cathedral Knight - Erekris
+160760059 Baseline - Cathedral Evangelist - Metora
+160760060 Baseline - Lothric Knight - Farold
+160760061 Baseline - Black Knight - Zarloth
+160760062 Baseline - Silver Knight - Praxos
+160760063 Baseline - Undead Dog - Woof
+160760064 Baseline - Pontiff Knight - Alfreda
+160760065 Baseline - Ravenous Crystal Lizard - Tazshi
+160760066 Baseline - Demon - Bazdulk
 160760100 Summon Effect
 160760200 Level Scaling: Cemetery of Ash
 160760201 Level Scaling: High Wall of Lothric
@@ -4797,7 +4854,19 @@
 160760216 Level Scaling: Trial
 160761000 Level Scaling: NG+
 160761300 Companion Clear
-160761400 Companion - Enable White Phantom AI
+160761400 Ritualist Pact - Restore HP
+160761500 Player - Companion is out
+160761501 Companion - Is Active
+160762000 Companion - Health
+160762010 Companion - Power
+160762020 Companion - Toughness
+160762030 Companion - Restoration
+160762040 Companion - Poise
+160763000 Restorative Brew - Trigger
+160763001 Restorative Brew - Companion
+160763002 Restorative Brew - Player
+160763100 Banishing Coin - Trigger
+160763200 Inciting Bone - Trigger
 160800000 ### NPC Modifiers ###
 160800001 Base - Hostile NPC
 160800002 Base - Enemy

@@ -35,6 +35,7 @@
 212 [Straight Sword] Shield Splitter
 213 [Straight Sword] Rune Stance
 214 [Straight Sword] Black Dragon's Talon
+215 [Straight Sword] Leydia Enchantment
 300 [Greatsword] Stance
 301 [Greatsword] Wrath of the Gods
 302 [Greatsword] Ember (Firelink Greatsword)
@@ -120,7 +121,7 @@
 1011 [Greataxe] Wind Rush
 1100 [Hammer] Perseverance
 1101 [Hammer] Warcry
-1102 [Hammer] Steady Chant
+1102 [Hammer] Twist Light
 1103 [Hammer] Galvanize
 1104 [Hammer] Breathe Fire
 1105 [Hammer] Ignite
@@ -186,7 +187,7 @@
 1502 [Scythe] Frost
 1503 [Scythe] ?
 1504 [Scythe] Elfriede's Stance
-1505 [Scythe] Divine Warp
+1505 [Scythe] Divine Punishment
 1506 [Scythe] Nashandra’s Avarice
 1600 [Whip] Impact
 1601 [Whip] Flame Whip
@@ -215,20 +216,21 @@
 2102 [Crossbow] Quickstep
 2103 [Crossbow] Repeat Fire
 2104 [Crossbow] Concussive Barrage
-2200 [Staff] Steady Chant
-2201 [Staff] Steady Chant (Sage's Crystal Staff)
+2200 [Staff] Arcane Ward
 2202 [Staff] Poison Spores
-2203 [Staff] Steady Chant (Court Sorcerer's Staff)
+2203 [Staff] Homing Soulmass
 2204 [Staff] Chant from the Depths
 2205 [Staff] Feasting Branch
 2207 [Staff] Serpentine Orbs
 2208 [Staff] Primordial Flame
 2209 [Staff] Darkmoon Volley
 2210 [Staff] Holy Arrow
-2211 [Staff] Crystallization
+2211 [Staff] Homing Crystal Soulmass
 2212 [Staff] Fury of Manus
 2213 [Staff] Pestilent Mist
 2214 [Staff] Banish
+2215 [Staff] Crystalline Storm
+2216 [Staff] Moonlight Wave
 2300 [Talisman] Unfaltering Prayer
 2301 [Talisman] Gentle Prayer
 2302 [Talisman] Combustion (White Hair Talisman)
@@ -244,10 +246,11 @@
 2313 [Talisman] Bestial Wrath
 2314 [Talisman] Poison Spores
 2315 [Talisman] Immolate
+2316 [Talisman] Force
+2317 [Talisman] Wrath of the Gods
 2400 [Pyromancy Flame] Combustion
 2401 [Pyromancy Flame] Parting Flame
 2402 [Pyromancy Flame] Abyssal Grasp
-2403 [Pyromancy Flame] Roar of Chaos
 2404 [Pyromancy Flame] Divine Retribution
 2405 [Pyromancy Flame] Beckon Soul
 2500 [Paired Dagger] Quickstep

@@ -561,20 +561,24 @@
 102340700 Cleric's Candlestick - Guiding Light
 102340701 Cleric's Candlestick - Guiding Light - Right
 102340702 Cleric's Candlestick - Guiding Light - Left
-102341700 Blue Flame - Steady Chant
-102341701 Blue Flame - Steady Chant - Right
-102341702 Blue Flame - Steady Chant - Left
+102341700 Blue Flame - Leydia Enchantment - Attack
+102341701 Blue Flame - Leydia Enchantment - Right
+102341702 Blue Flame - Leydia Enchantment - Left
 102350730 Lothric Candlestick - Holy Wrath
 102350735 Lothric Candlestick - Holy Wrath
 102351700 Drake Sword - Unleash Dragon
 102351705 Drake Sword - Unleash Dragon
 102352700 Blueblood Sword - Crystal Shower
 102353100 Balder Side Sword - 1H Heavy #1
-102353105 Penetrating Sword - 1H Heavy #1 Max
+102353101 Balder Side Sword - 1H Heavy #1 Addition
+102353105 Balder Side Sword - 1H Heavy #1 Max
+102353106 Balder Side Sword - 1H Heavy #1 Max Addition
 102353110 Balder Side Sword - 1H Heavy #2
 102353115 Balder Side Sword - 1H Heavy #2 Max
 102353300 Balder Side Sword - 2H Heavy #1
+102353301 Balder Side Sword - 2H Heavy #1 Addition
 102353305 Balder Side Sword - 2H Heavy #1 Max
+102353306 Balder Side Sword - 2H Heavy #1 Max Addition
 102353310 Balder Side Sword - 2H Heavy #2
 102353315 Balder Side Sword - 2H Heavy #2 Max
 102353700 Balder Side Sword - Shield Splitter
@@ -2335,8 +2339,8 @@
 103301530 Warpick - 2H Backstep
 103301540 Warpick - 1H Roll
 103301580 Warpick - 2H Roll
-103301700 Warpick - Steady Chant - Right
-103301701 Warpick - Steady Chant - Left
+103301700 Heysel Pick - Twist Light - Right
+103301701 Heysel Pick - Twist Light - Left
 103302000 Club - 1H Light #1
 103302010 Club - 1H Light #2
 103302020 Club - 1H Light #3
@@ -3272,8 +3276,8 @@
 104100501 Spell Tool - Sacred Flame - Tick
 104100502 Spell Tool - Sacred Flame - Burst
 104100610 Spell Tool
-104100700 Spell Tool - Steady Chant - Right
-104100701 Spell Tool - Steady Chant - Left
+104100700 Spell Tool - Arcane Ward - Right
+104100701 Spell Tool - Arcane Ward - Left
 104100920 Spell Tool
 104100921 Spell Tool
 104100990 Spell Tool - Quickstep
@@ -3286,8 +3290,8 @@
 104101400 Staff - Left Hand
 104101430 Staff - 1H Guard
 104101440 Staff - 2H Guard
-104101700 Staff - Steady Chant - Right
-104101701 Staff - Steady Chant - Left
+104101700 Staff - Arcane Ward - Right
+104101701 Staff - Arcane Ward - Left
 104102000 Talisman - 1H Light
 104102030 Talisman
 104102100 Talisman - 1H Heavy
@@ -3325,51 +3329,6 @@
 104108730 Preacher's Right Arm - Weapon Art
 104108740 Preacher's Right Arm - Weapon Art
 104108750 Preacher's Right Arm - Weapon Art
-104109100 Black Flame
-104109105 Black Flame
-104109110 Black Flame
-104109115 Black Flame
-104109700 Black Flame - Weapon Art
-104109705 Black Flame - Weapon Art
-104109710 Black Flame - Weapon Art
-104109715 Black Flame - Weapon Art
-104109720 Black Flame - Weapon Art
-104109725 Black Flame - Weapon Art
-104109800 Black Flame - Weapon Art
-104110100 Chaos Flame
-104110105 Chaos Flame
-104110110 Chaos Flame
-104110115 Chaos Flame
-104110700 Chaos Flame - Weapon Art
-104110705 Chaos Flame - Weapon Art
-104110710 Chaos Flame - Weapon Art
-104110715 Chaos Flame - Weapon Art
-104110720 Chaos Flame - Weapon Art
-104110725 Chaos Flame - Weapon Art
-104110800 Chaos Flame - Weapon Art
-104111100 Holy Flame
-104111105 Holy Flame
-104111110 Holy Flame
-104111115 Holy Flame
-104111700 Holy Flame - Weapon Art
-104111705 Holy Flame - Weapon Art
-104111710 Holy Flame - Weapon Art
-104111715 Holy Flame - Weapon Art
-104111720 Holy Flame - Weapon Art
-104111725 Holy Flame - Weapon Art
-104111800 Holy Flame - Weapon Art
-104112100 Sorcerous Flame
-104112105 Sorcerous Flame
-104112110 Sorcerous Flame
-104112115 Sorcerous Flame
-104112700 Sorcerous Flame - Weapon Art
-104112705 Sorcerous Flame - Weapon Art
-104112710 Sorcerous Flame - Weapon Art
-104112715 Sorcerous Flame - Weapon Art
-104112720 Sorcerous Flame - Weapon Art
-104112725 Sorcerous Flame - Weapon Art
-104112800 Sorcerous Flame - Weapon Art
-104113700 Logan's Staff - Logan's Focus
 104114700 Mendicant's Staff - Serpentine Orbs
 104115700 Izalith Staff - Primordial Flame
 104116700 Darkmoon Ritual Staff - Darkmoon Volley
@@ -3381,7 +3340,7 @@
 104122700 Tin Banishment Catalyst - Banish
 104123700 Sunlight Talisman - Shower of Sunlight
 104125700 Caitha's Chime - Caitha's Affliction
-104126700 Crystal Chime - Crystallization
+104126700 Crystal Chime - Crystal Soul Spear
 104127700 Insanity Catalyst - Insanity
 104128700 Talisman of Beasts - Bestial Wrath
 104129700 Rotten Talisman - Poison Spores
@@ -3389,6 +3348,34 @@
 104131700 Storyteller's Staff - Poison Spores
 104132700 Catalyst - Chant from the Depths - Right
 104132701 Catalyst - Chant from the Depths - Left
+104133700 Court Sorcerer's Staff - Soulmass
+104134700 Sunless Talisman - Moonlight Wave
+104135700 Talisman - Force
+104136700 Saint's Talisman - Wrath of the Gods
+104137700 Black Flame - Abyssal Grasp - Attack
+104137705 Black Flame - Abyssal Grasp - Bullet
+104137710 Black Flame - Abyssal Grasp - Attack
+104137715 Black Flame - Abyssal Grasp - Bullet
+104137720 Black Flame - Abyssal Grasp - Attack
+104137725 Black Flame - Abyssal Grasp - Bullet
+104138700 Holy Flame - Divine Retribution - Attack
+104138705 Holy Flame - Divine Retribution - Bullet
+104138710 Holy Flame - Divine Retribution - Attack
+104138715 Holy Flame - Divine Retribution - Bullet
+104138720 Holy Flame - Divine Retribution - Attack
+104138725 Holy Flame - Divine Retribution - Bullet
+104139700 Sorcerous Flame - Beckon Soul - Attack
+104139705 Sorcerous Flame - Beckon Soul - Bullet
+104139710 Sorcerous Flame - Beckon Soul - Attack
+104139715 Sorcerous Flame - Beckon Soul - Bullet
+104139720 Sorcerous Flame - Beckon Soul - Attack
+104139725 Sorcerous Flame - Beckon Soul - Bullet
+104140700 Heretic's Staff - Silence
+104141700 Murky Longstaff - Despairing Whisper
+104142700 Archdeacon's Great Staff - Punish the Dead
+104143700 Corrupted Talisman - Vow of Agony
+104144700 Insanity Catalyst - Insanity
+104145700 Pilgrim's Spontoon - Pilgrim's Enchantment
 104200000 Caestus - 1H Light #1
 104200010 Caestus - 1H Light #2
 104200020 Caestus - 1H Light #3
@@ -4203,8 +4190,7 @@
 105010581 Pontiff Knight Great Scythe
 105010615 Pontiff Knight Great Scythe
 105010700 Pontiff Knight Great Scythe
-105011700 Lothric's Scythe - Weapon Art
-105011705 Lothric's Scythe - Weapon Art
+105011700 Lothric's Scythe - Warp Bullet
 105030000 Friede's Great Scythe
 105030001 Friede's Great Scythe
 105030010 Friede's Great Scythe

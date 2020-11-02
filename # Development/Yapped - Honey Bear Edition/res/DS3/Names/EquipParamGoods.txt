@@ -117,6 +117,7 @@
 379 Filianore's Spear Ornament
 380 Rubbish
 381 Rat Tail
+382 Ritual Incense
 385 Dried Finger
 387 Twinkling Dragon Head Stone
 388 Twinkling Dragon Torso Stone
@@ -469,14 +470,23 @@
 5024 Tome: Halflight
 5025 Tome: Champions of Yore
 5199 ### Companions ###
-5300 Incense of Cooperation
-5301 Crab Bait
-5302 Rocky's Stick
-5303 Slug Whistle
-5304 Blessed Tipple
-5305 Miniature Chest
-5306 Old Bone
-5307 Rat Treat
+5300 Sunlight Tablet
+5301 Crab Tablet
+5302 Craggy Tablet
+5303 Slimy Tablet
+5304 Blessed Tablet
+5305 Avaricious Tablet
+5306 Dusty Tablet
+5307 Rat Tablet
+5308 Hallowed Tablet
+5309 Holy Tablet
+5310 Royal Tablet
+5311 Scorched Tablet
+5312 Etched Tablet
+5313 Bloodied Tablet
+5314 Wrathful Tablet
+5315 Crystalline Tablet
+5316 Demonic Tablet
 7999 ### Developer Tools ###
 8000 Event Flag Tool
 8001 God Tool
@@ -908,6 +918,16 @@
 12191 Deacon Emblem
 12200 Saint Insignia
 12201 Saint Emblem
+20000 Tome of Health
+20001 Tome of Power
+20002 Tome of Toughness
+20003 Tome of Restoration
+20004 Tome of Tenacity
+20005 Tome of Mass Summoning
+20006 Tome of Hollow Summoning
+20050 Restorative Brew
+20051 Banishing Coin
+20052 Inciting Bone
 1199999 ### Sorcery ###
 1200000 Farron Dart
 1210000 Great Farron Dart

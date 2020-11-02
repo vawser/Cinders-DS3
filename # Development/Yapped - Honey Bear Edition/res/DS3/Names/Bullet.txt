@@ -2818,8 +2818,8 @@
 13730300 [Miracle] Lifehunt Scythe
 13730400 [Miracle] Lifehunt Scythe
 100000001 ### Weapon Arts ###
-100010000 [Catalyst] Steady Chant - Right
-100010001 [Catalyst] Steady Chant - Left
+100010000 [Catalyst] Arcane Ward - Right
+100010001 [Catalyst] Arcane Ward - Left
 100010100 [Catalyst] Chant from the Depths - Right
 100010101 [Catalyst] Chant from the Depths - Left
 100010800 [Tailbone Short Sword] Unleash Dragon
@@ -3478,7 +3478,8 @@
 109559003 [Miracle] Gravelord Sword Dance [Hit]
 109559100 [Miracle] Gravelord Sword Dance - Ascended
 209999999 ### Weapons ###
-210000000 Logan's Staff - Logan's Focus
+210000000 Court Sorcerer's Staff - Soulmass
+210000010 Court Sorcerer's Staff - Soulmass [Hit]
 210000100 Mendicant's Staff - Serpentine Orbs
 210000101 Mendicant's Staff - Serpentine Orbs [Hit]
 210000200 Izalith Staff - Primordial Flame
@@ -3491,6 +3492,7 @@
 210000304 Golden Ritual Spear - Darkmoon Volley [Hit]
 210000400 Man-grub's Staff - Holy Arrow
 210000500 Sage's Crystal Staff - Crystallization
+210000510 Sage's Crystal Staff - Crystallization [Hit]
 210000600 Manus Catalyst - Fury of Manus
 210000700 Velka's Talisman - Velka's Grace
 210000800 Consumed King's Staff - Pestilent Mist
@@ -3498,11 +3500,14 @@
 210000802 Consumed King's Staff - Pestilent Mist
 210000803 Consumed King's Staff - Pestilent Mist
 210000900 Tin Banishment Catalyst - Banish
-210001000 Sunlight Talisman - Show of Sunlight
-210001001 Sunlight Talisman - Show of Sunlight [Hit]
-210001002 Sunlight Talisman - Show of Sunlight [Hit]
+210001000 Sunlight Talisman - Heavenly Thunder
+210001010 Sunlight Talisman - Heavenly Thunder [Emitter]
+210001020 Sunlight Talisman - Heavenly Thunder [Hit]
 210001100 Caitha's Chime - Caitha's Affliction
-210001200 Crystal Chime - Crystallization
+210001200 Crystal Chime - Crystalline Storm
+210001201 Crystal Chime - Crystalline Storm [Hit]
+210001202 Crystal Chime - Crystalline Storm [Hit]
+210001203 Crystal Chime - Crystalline Storm [Hit]
 210001300 Insanity Catalyst - Insanity
 210001400 Talisman of Beasts - Bestial Wrath
 210001500 Rotten Talisman - Poison Spores
@@ -3519,7 +3524,6 @@
 210001705 Smelter Sword - Smelter's Fury [Hit]
 210001706 Smelter Sword - Smelter's Fury [Hit]
 210001800 Crypt Blacksword - Undead Wrath
-210001900 Lothric's Scythe - Divine Warp
 210002000 Demon's Fist - Fireball
 210002001 Demon's Fist - Fireball [Hit]
 210002100 Hands of God - Emit Force
@@ -3550,6 +3554,17 @@
 210009600 Rampart Golem Lance - Chilling Wind [Emitter]
 210009610 Rampart Golem Lance - Chilling Wind - Line
 210009620 Rampart Golem Lance - Chilling Wind - Initial Point
+210009700 Lothric's Scythe - Divine Punishment
+210009710 Lothric's Scythe - Divine Punishment [Hit]
+210010000 Heysel Pick - Twist Light
+210010100 Blue Flame - Leydia Enchantment - Right
+210010101 Blue Flame - Leydia Enchantment - Left
+210010200 Sunless Talisman - Moonlight Wave
+210010300 Talisman - Force
+210010400 Saint's Talisman - Wrath of the Gods
+210010500 Black Flame - Abyssal Grasp
+210010600 Holy Flame - Divine Retribution
+210010700 Sorcerous Flame - Beckon Soul
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

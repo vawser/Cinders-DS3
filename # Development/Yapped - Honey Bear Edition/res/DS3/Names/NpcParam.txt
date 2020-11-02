@@ -223,18 +223,15 @@
 40050 Mimic - Gimbal
 40060 Skeleton (Scimitar) - El Hueso
 40070 Hound-rat - Moxie
-40080 Cathedral Knight (Greatsword) - TODO
-40090 Cathedral Evangelist - TODO
-40100 Lothric Knight (Sword and Shield) - TODO
-40110 Black Knight (Greataxe) - TODO
-40120 Silver Knight (Greatbow) - TODO
-40130 Undead Dog - TODO
-40140 Pontiff Knight (Scythe) - TODO
-40150 Ravenous Crystal Lizard - TODO
-40160 Demon - TODO
-40170 Pontiff Spirit - TODO
-40180 Dancer - TODO
-40190 Vordt - TODO
+40080 Cathedral Knight (Greatsword) - Erekris
+40090 Cathedral Evangelist - Metora
+40100 Lothric Knight (Sword and Shield) - Farold
+40110 Black Knight (Greataxe) - Zarloth
+40120 Silver Knight (Greatbow) - Praxos
+40130 Undead Dog - Woof
+40140 Pontiff Knight (Scythe) - Alfreda
+40150 Ravenous Crystal Lizard - Tazshi
+40160 Demon - Bazdulk
 49999 ### Hostile NPCs ###
 50000 Dragon Cultist Xeric [Archdragon Peak]
 50010 Dragon Cultist Zena [Archdragon Peak]
@@ -774,6 +771,7 @@
 215960 Crystal Lizard
 215970 Crystal Lizard
 215980 Crystal Lizard
+215990 Crystal Lizard - Friendly
 216000 Yoel of Londor
 216010 Londor Pilgrim
 216020 Stone-humped Hag
@@ -1188,7 +1186,8 @@
 721700 Magnum Ursus
 721800 Alchemist Jiji
 721900 Solaire of Astora
-722000 Maste Benjin
+722000 Master Benjin
+722100 Ritualist Ellie
 750000 The Lord's Blade (Ciaran)
 751000 The Abyss Walker (Artorias)
 752000 The Dragonslayer (Ornstein)
