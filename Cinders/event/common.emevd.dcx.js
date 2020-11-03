@@ -6,6 +6,14 @@
 // @linked    []
 // ==/EMEVD==
 
+// ==EMEVD==
+// @docs    ds3-common.emedf.json
+// @compress    DarkSouls3
+// @game    DarkSouls3
+// @string    
+// @linked    []
+// ==/EMEVD==
+
 Event(0, Default, function() {
     //---------------------------------------
     // Host and Client
@@ -14,7 +22,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 230, 0); // Set Eclipse ceremonies
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
-    InitializeEvent(0, 9601, 0); // Setup Cinders scripts
+    InitializeEvent(0, 21000, 0); // Setup Cinders scripts
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -22,7 +30,7 @@ Event(0, Default, function() {
     //---------------------------------------
     // Host Only
     //---------------------------------------
-    InitializeEvent(0, 9600, 0); // Setup Cinders scripts
+    InitializeEvent(0, 20000, 0); // Setup Cinders scripts
     
     // Achievements - Locations
     InitializeEvent(0, 130, 40, 4004110, 0, -1);
@@ -1663,15 +1671,15 @@ Event(870, Default, function(X0_1, X4_4) {
 // Cinders
 //------------------------------------------------------
 // Setup - Host only
-Event(9600, Default, function() {
+Event(20000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    InitializeEvent(0, 9610, 0); // Game Flags - Once
-    InitializeEvent(0, 9611, 0); // Game Flags - On Load
+    InitializeEvent(0, 20001, 0); // Game Flags - Once
+    InitializeEvent(0, 20002, 0); // Game Flags - On Load
     
-    InitializeEvent(0, 9620, 10000); // No Hit State
-    InitializeEvent(0, 9621, 10000); // Deathless Run State
-    InitializeEvent(0, 9622, 10000); // Hitless Run State
+    InitializeEvent(0, 20003, 10000); // No Hit State
+    InitializeEvent(0, 20004, 10000); // Deathless Run State
+    InitializeEvent(0, 20005, 10000); // Hitless Run State
     
     // Crow Trades
     InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
@@ -1679,187 +1687,186 @@ Event(9600, Default, function() {
     InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);
     
     // Curses - Add Player Effects
-    InitializeEvent(0, 9630, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 9630, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 9630, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 9630, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 9630, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 9630, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 9630, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 9630, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 9630, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 9630, 25000409, 250001000, 250001019); // Curse of Pride - 100%
+    InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 20010, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 20010, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 20010, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 20010, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 20010, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 20010, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 20010, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 20010, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 20010, 25000409, 250001000, 250001019); // Curse of Pride - 100%
     
-    InitializeEvent(10, 9630, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 9630, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 9630, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 9630, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 9630, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 9630, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 9630, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 9630, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 9630, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 9630, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+    InitializeEvent(10, 20010, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 20010, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 20010, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 20010, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 20010, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 20010, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 20010, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 20010, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 20010, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 20010, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
    
-    InitializeEvent(20, 9630, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 9630, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 9630, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 9630, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 9630, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 9630, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 9630, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 9630, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 9630, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 9630, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+    InitializeEvent(20, 20010, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 20010, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 20010, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 20010, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 20010, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 20010, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 20010, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 20010, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 20010, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 20010, 25000429, 250001300, 250001319); // Curse of Vitality - 100
 
-    InitializeEvent(30, 9630, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 9630, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 9630, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 9630, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 9630, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 9630, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 9630, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 9630, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 9630, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 9630, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    InitializeEvent(30, 20010, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 20010, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 20010, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 20010, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 20010, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 20010, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 20010, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 20010, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 20010, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 20010, 25000439, 250001400, 250001419); // Curse of Wrath - 100
     
-    InitializeEvent(40, 9630, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 9630, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 9630, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 9630, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 9630, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 9630, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 9630, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 9630, 25000501, 250002200, 250002210); // Curse of Valor
+    InitializeEvent(40, 20010, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 20010, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 20010, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 20010, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 20010, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 20010, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 20010, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 20010, 25000501, 250002200, 250002210); // Curse of Valor
     
     // Curses - Remove Player Effects
-    InitializeEvent(0, 9631, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 9631, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 9631, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 9631, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 9631, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 9631, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 9631, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 9631, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 9631, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 9631, 25000409, 250001000, 250001019); // Curse of Pride - 100%
+    InitializeEvent(0, 20020, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 20020, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 20020, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 20020, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 20020, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 20020, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 20020, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 20020, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 20020, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 20020, 25000409, 250001000, 250001019); // Curse of Pride - 100%
     
-    InitializeEvent(10, 9631, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 9631, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 9631, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 9631, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 9631, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 9631, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 9631, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 9631, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 9631, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 9631, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+    InitializeEvent(10, 20020, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 20020, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 20020, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 20020, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 20020, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 20020, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 20020, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 20020, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 20020, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 20020, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
    
-    InitializeEvent(20, 9631, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 9631, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 9631, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 9631, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 9631, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 9631, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 9631, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 9631, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 9631, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 9631, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+    InitializeEvent(20, 20020, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 20020, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 20020, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 20020, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 20020, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 20020, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 20020, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 20020, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 20020, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 20020, 25000429, 250001300, 250001319); // Curse of Vitality - 100
 
-    InitializeEvent(30, 9631, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 9631, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 9631, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 9631, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 9631, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 9631, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 9631, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 9631, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 9631, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 9631, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    InitializeEvent(30, 20020, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 20020, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 20020, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 20020, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 20020, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 20020, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 20020, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 20020, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 20020, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 20020, 25000439, 250001400, 250001419); // Curse of Wrath - 100
     
-    InitializeEvent(40, 9631, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 9631, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 9631, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 9631, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 9631, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 9631, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 9631, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 9631, 25000501, 250002200, 250002210); // Curse of Valor
+    InitializeEvent(40, 20020, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 20020, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 20020, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 20020, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 20020, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 20020, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
     
     // Covenant Material Drops
-    InitializeEvent(0, 9640, 10000, 160100232, 800010000, 800010020); // Thieves' Code
-    InitializeEvent(1, 9640, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
-    InitializeEvent(2, 9640, 10000, 160100252, 800010200, 800010220); // Spears of the Church
-    InitializeEvent(3, 9640, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
-    InitializeEvent(4, 9640, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
-    InitializeEvent(5, 9640, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
-    InitializeEvent(6, 9640, 10000, 160100302, 800010600, 800010620); // Mound-makers
-    InitializeEvent(7, 9640, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
-    InitializeEvent(8, 9640, 10000, 160100332, 800010800, 800010820); // Chaos Servant
-    InitializeEvent(9, 9640, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
-    InitializeEvent(10, 9640, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
-    InitializeEvent(12, 9640, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
-    InitializeEvent(11, 9640, 10000, 160100362, 800011200, 800011220); // Way of White
-    InitializeEvent(13, 9640, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
-    InitializeEvent(14, 9640, 10000, 160100392, 800011400, 800011420); // Way of Blue
-    InitializeEvent(15, 9640, 10000, 160100402, 800011500, 800011520); // Company of Champions
-    InitializeEvent(16, 9640, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
-    InitializeEvent(0, 9641, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
+    InitializeEvent(0, 20030, 10000, 160100232, 800010000, 800010020); // Thieves' Code
+    InitializeEvent(1, 20030, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
+    InitializeEvent(2, 20030, 10000, 160100252, 800010200, 800010220); // Spears of the Church
+    InitializeEvent(3, 20030, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
+    InitializeEvent(4, 20030, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
+    InitializeEvent(5, 20030, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
+    InitializeEvent(6, 20030, 10000, 160100302, 800010600, 800010620); // Mound-makers
+    InitializeEvent(7, 20030, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
+    InitializeEvent(8, 20030, 10000, 160100332, 800010800, 800010820); // Chaos Servant
+    InitializeEvent(9, 20030, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
+    InitializeEvent(10, 20030, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
+    InitializeEvent(12, 20030, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
+    InitializeEvent(11, 20030, 10000, 160100362, 800011200, 800011220); // Way of White
+    InitializeEvent(13, 20030, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
+    InitializeEvent(14, 20030, 10000, 160100392, 800011400, 800011420); // Way of Blue
+    InitializeEvent(15, 20030, 10000, 160100402, 800011500, 800011520); // Company of Champions
+    InitializeEvent(16, 20030, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
+    InitializeEvent(0, 20031, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
     
     // Boss Revival
-    InitializeEvent(0, 9660, 0); // Corrupted Gundyr
-    InitializeEvent(0, 9661, 0); // Vordt
-    InitializeEvent(0, 9662, 0); // Curse-rotted Greatwood
-    InitializeEvent(0, 9663, 0); // Crystal Sage
-    InitializeEvent(0, 9664, 0); // Deacons of the Deep
-    InitializeEvent(0, 9665, 0); // Abyss Watchers
-    InitializeEvent(0, 9666, 0); // High Lord Wolnir
-    InitializeEvent(0, 9667, 0); // Old Demon King
-    InitializeEvent(0, 9668, 0); // Pontiff Sulyvahn
-    InitializeEvent(0, 9669, 0); // Aldrich
-    InitializeEvent(0, 9670, 0); // Yhorm the Giant
-    InitializeEvent(0, 9671, 0); // Dancer
-    InitializeEvent(0, 9672, 0); // Oceiros
-    InitializeEvent(0, 9673, 0); // Dragonslayer Armour
-    InitializeEvent(0, 9674, 0); // Ancient Wyvern
-    InitializeEvent(0, 9675, 0); // Nameless King
-    InitializeEvent(0, 9676, 0); // Champion Gundyr
-    InitializeEvent(0, 9677, 0); // Twin Princes
-    InitializeEvent(0, 9678, 0); // Soul of Cinder
-    InitializeEvent(0, 9679, 0); // Sister Friede
-    InitializeEvent(0, 9680, 0); // Lordran Remnants
-    InitializeEvent(0, 9681, 0); // Demon Prince
-    InitializeEvent(0, 9682, 0); // Darkeater Midir
-    InitializeEvent(0, 9683, 0); // Slave Knight Gael
-    InitializeEvent(0, 9684, 0); // Halflight
-    InitializeEvent(0, 9685, 0); // Champions of Yore
+    InitializeEvent(0, 20100, 0); // Corrupted Gundyr
+    InitializeEvent(0, 20101, 0); // Vordt
+    InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
+    InitializeEvent(0, 20103, 0); // Crystal Sage
+    InitializeEvent(0, 20104, 0); // Deacons of the Deep
+    InitializeEvent(0, 20105, 0); // Abyss Watchers
+    InitializeEvent(0, 20106, 0); // High Lord Wolnir
+    InitializeEvent(0, 20107, 0); // Old Demon King
+    InitializeEvent(0, 20108, 0); // Pontiff Sulyvahn
+    InitializeEvent(0, 20109, 0); // Aldrich
+    InitializeEvent(0, 20110, 0); // Yhorm the Giant
+    InitializeEvent(0, 20111, 0); // Dancer
+    InitializeEvent(0, 20112, 0); // Oceiros
+    InitializeEvent(0, 20113, 0); // Dragonslayer Armour
+    InitializeEvent(0, 20114, 0); // Ancient Wyvern
+    InitializeEvent(0, 20115, 0); // Nameless King
+    InitializeEvent(0, 20116, 0); // Champion Gundyr
+    InitializeEvent(0, 20117, 0); // Twin Princes
+    InitializeEvent(0, 20118, 0); // Soul of Cinder
+    InitializeEvent(0, 20119, 0); // Sister Friede
+    InitializeEvent(0, 20120, 0); // Lordran Remnants
+    InitializeEvent(0, 20121, 0); // Demon Prince
+    InitializeEvent(0, 20122, 0); // Darkeater Midir
+    InitializeEvent(0, 20123, 0); // Slave Knight Gael
+    InitializeEvent(0, 20124, 0); // Halflight
+    InitializeEvent(0, 20125, 0); // Champions of Yore
     
-    InitializeEvent(0, 9700, 0); // Crown of the Great Lord
-    
-    InitializeEvent(0, 9710, 20000, 25000600); // Health
-    InitializeEvent(1, 9710, 20001, 25000601); // Power
-    InitializeEvent(2, 9710, 20002, 25000602); // Toughness
-    InitializeEvent(3, 9710, 20003, 25000603); // Restoration
-    InitializeEvent(4, 9710, 20004, 25000604); // Poise
-    InitializeEvent(5, 9710, 20005, 25000605); // Mass Summoning
-    InitializeEvent(6, 9710, 20006, 25000606); // Hollow Summoning
+    InitializeEvent(0, 20040, 0); // Crown of the Great Lord
+    InitializeEvent(0, 20041, 20000, 25000600); // Health
+    InitializeEvent(1, 20041, 20001, 25000601); // Power
+    InitializeEvent(2, 20041, 20002, 25000602); // Toughness
+    InitializeEvent(3, 20041, 20003, 25000603); // Restoration
+    InitializeEvent(4, 20041, 20004, 25000604); // Poise
+    InitializeEvent(5, 20041, 20005, 25000605); // Mass Summoning
+    InitializeEvent(6, 20041, 20006, 25000606); // Hollow Summoning
 });
 
 // Setup - Host and Client
-Event(9601, Default, function() {
-    InitializeEvent(0, 9650, 0); // Pyromancer's Parting Flame
-    InitializeEvent(0, 9651, 10000, 160500060); // Numbness
-    InitializeEvent(0, 9652, 10000); // Event Flag Tool
-    InitializeEvent(0, 9653, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 9653, 10000, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 9654, 0); // Illusion - Skeleton Form - Head
-    InitializeEvent(0, 9655, 0); // Illusion - Skeleton Form - Body
+Event(21000, Default, function() {
+    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
+    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
+    InitializeEvent(0, 20044, 10000); // Event Flag Tool
+    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
+    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body
 });
 
 //------------------------------------------------
 // Game Flags - Once
 //------------------------------------------------
-Event(9610, Default, function(X0_4, X4_4) {
+Event(20001, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
 
     // Curses/Marks
@@ -1930,7 +1937,7 @@ Event(9610, Default, function(X0_4, X4_4) {
 //------------------------------------------------
 // Game Flags - On Load
 //------------------------------------------------
-Event(9611, Restart, function(X0_4, X4_4) {
+Event(20002, Restart, function(X0_4, X4_4) {
     // Infusion availability flags
     SetEventFlag(300, ON);
     SetEventFlag(301, ON);
@@ -1973,26 +1980,26 @@ Event(9611, Restart, function(X0_4, X4_4) {
 });
 
 // No Hit State
-Event(9620, Restart, function(X0_4) {
+Event(20003, Restart, function(X0_4) {
     SetEventFlag(25006000, 0);
     IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
     SetEventFlag(25006000, 1);
 });
 
 // Deathless Run State
-Event(9621, Default, function(X0_4) {
+Event(20004, Default, function(X0_4) {
     IfCharacterHasSpeffect(MAIN, X0_4, 112100, true, ComparisonType.Equal, 1);
     SetEventFlag(25000030, OFF);
 });
 
 // Hitless Run State
-Event(9622, Default, function(X0_4) {
+Event(20005, Default, function(X0_4) {
     IfCharacterHasSpeffect(MAIN, X0_4, 112101, true, ComparisonType.Equal, 1);
     SetEventFlag(25000031, OFF);
 });
 
 // Enable Curse
-Event(9630, Restart, function(X0_4, X4_4, X8_4) {
+Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     
     // Skip if already added
@@ -2008,7 +2015,7 @@ Event(9630, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 // Disable Curse
-Event(9631, Restart, function(X0_4, X4_4, X8_4) {
+Event(20020, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     
     // Skip if already removed
@@ -2024,7 +2031,7 @@ Event(9631, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 // Covenant - Trigger Covenant Item Drop
-Event(9640, Default, function(X0_4, X4_4, X8_4, X12_4) {
+Event(20030, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2052,7 +2059,7 @@ Event(9640, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // Covenant - Trigger Covenant Item Drop - Ritualist Pact
-Event(9641, Default, function(X0_4, X4_4, X8_4, X12_4) {
+Event(20031, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160761500, true, ComparisonType.Equal, 1); // Companion is out
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2081,7 +2088,7 @@ Event(9641, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // Pyromancer's Parting Flame - Ascension
-Event(9650, Default, function() {
+Event(20042, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2096,7 +2103,7 @@ Event(9650, Default, function() {
 });
 
 // Numbness - Change Camera
-Event(9651, Default, function(X0_4, X4_4) {
+Event(20043, Default, function(X0_4, X4_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(20000, 20000);
@@ -2108,7 +2115,7 @@ Event(9651, Default, function(X0_4, X4_4) {
 });
 
 // Event Flag Tool
-Event(9652, Default, function(X0_4) {
+Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2118,7 +2125,7 @@ Event(9652, Default, function(X0_4) {
 });
 
 // Item - Camera Override
-Event(9653, Default, function(X0_4, X4_4, X8_4) {
+Event(20045, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(X8_4, X8_4);
@@ -2131,7 +2138,7 @@ Event(9653, Default, function(X0_4, X4_4, X8_4) {
 
 
 // Skeleton Illusion - Head
-Event(9654, Default, function() {
+Event(20046, Default, function() {
     IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
     
     SetEventFlag(9690, OFF);
@@ -2156,7 +2163,7 @@ Event(9654, Default, function() {
 });
 
 // Skeleton Illusion - Body
-Event(9655, Default, function() {
+Event(20047, Default, function() {
     IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
     
     SetEventFlag(9690, OFF);
@@ -2181,7 +2188,7 @@ Event(9655, Default, function() {
 });
 
 // Crown of the Great Lord
-Event(9700, Default, function() {
+Event(20040, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2201,7 +2208,7 @@ Event(9700, Default, function() {
 // Boss Revival - Corrupted Gundyr
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9660, Restart, function() {
+Event(20100, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2234,7 +2241,7 @@ Event(9660, Restart, function() {
 // Boss Revival - Vordt
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9661, Restart, function() {
+Event(20101, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2264,7 +2271,7 @@ Event(9661, Restart, function() {
 // Boss Revival - Curse-rotted Greatwood
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9662, Restart, function() {
+Event(20102, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2295,7 +2302,7 @@ Event(9662, Restart, function() {
 // Boss Revival - Crystal Sage
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9663, Restart, function() {
+Event(20103, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2325,7 +2332,7 @@ Event(9663, Restart, function() {
 // Boss Revival - Deacons of the Deep
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9664, Restart, function() {
+Event(20104, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2355,7 +2362,7 @@ Event(9664, Restart, function() {
 // Boss Revival - Abyss Watchers
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9665, Restart, function() {
+Event(20105, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2386,7 +2393,7 @@ Event(9665, Restart, function() {
 // Boss Revival - High Lord Wolnir
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9666, Restart, function() {
+Event(20106, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2418,7 +2425,7 @@ Event(9666, Restart, function() {
 // Boss Revival - Old Demon King
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9667, Restart, function() {
+Event(20107, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2448,7 +2455,7 @@ Event(9667, Restart, function() {
 // Boss Revival - Pontiff Sulyvahn
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9668, Restart, function() {
+Event(20108, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2481,7 +2488,7 @@ Event(9668, Restart, function() {
 // Boss Revival - Aldrich
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9669, Restart, function() {
+Event(20109, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2512,7 +2519,7 @@ Event(9669, Restart, function() {
 // Boss Revival - Yhorm
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9670, Restart, function() {
+Event(20110, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2542,7 +2549,7 @@ Event(9670, Restart, function() {
 // Boss Revival - Dancer
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9671, Restart, function() {
+Event(20111, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2573,7 +2580,7 @@ Event(9671, Restart, function() {
 // Boss Revival - Oceiros
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9672, Restart, function() {
+Event(20112, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2603,7 +2610,7 @@ Event(9672, Restart, function() {
 // Boss Warp - Dragonslayer Armour
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9673, Restart, function() {
+Event(20113, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2633,7 +2640,7 @@ Event(9673, Restart, function() {
 // Boss Revival - Ancient Wyvern
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9674, Restart, function() {
+Event(20114, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2663,7 +2670,7 @@ Event(9674, Restart, function() {
 // Boss Revival - Nameless King
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9675, Restart, function() {
+Event(20115, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2698,7 +2705,7 @@ Event(9675, Restart, function() {
 // Boss Warp - Champion Gundyr
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9676, Restart, function() {
+Event(20116, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2731,7 +2738,7 @@ Event(9676, Restart, function() {
 // Boss Warp - Twin Princes
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9677, Restart, function() {
+Event(20117, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2762,7 +2769,7 @@ Event(9677, Restart, function() {
 // Boss Revival - Soul of Cinder
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9678, Restart, function() {
+Event(20118, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2794,7 +2801,7 @@ Event(9678, Restart, function() {
 // Boss Revival - Sister Friede
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9679, Restart, function() {
+Event(20119, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2826,7 +2833,7 @@ Event(9679, Restart, function() {
 // Boss Revival - Lordran Remnants
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9680, Restart, function() {
+Event(20120, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2859,7 +2866,7 @@ Event(9680, Restart, function() {
 // Boss Revival - Demon Prince
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9681, Restart, function() {
+Event(20121, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2891,7 +2898,7 @@ Event(9681, Restart, function() {
 // Boss Revival - Darkeater Midir
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9682, Restart, function() {
+Event(20122, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2922,7 +2929,7 @@ Event(9682, Restart, function() {
 // Boss Revival - Slave Knight Gael
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9683, Restart, function() {
+Event(20123, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2952,7 +2959,7 @@ Event(9683, Restart, function() {
 // Boss Revival - Halflight
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9684, Restart, function() {
+Event(20124, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
@@ -2983,18 +2990,18 @@ Event(9684, Restart, function() {
 // Boss Revival - Champions of Yore
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
-Event(9685, Restart, function() {
+Event(20125, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100260, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
     // m51_1
-    SetEventFlag(15100782, 0); // Glaive Master Hodir
-    SetEventFlag(15100732, 0); // Freya the Wretched
-    SetEventFlag(15100734, 0); // Nahor the Fallen
-    SetEventFlag(15100736, 0); // Easterner Iazeel
-    SetEventFlag(15100738, 0); // Seeker of the Spurned
-    SetEventFlag(15100781, 0); // Moaning Knight
-    SetEventFlag(15100780, 0); // Silver Knight Ledo 
+    SetEventFlag(15100730, 0); // Glaive Master Hodir
+    SetEventFlag(15100731, 0); // Freya the Wretched
+    SetEventFlag(15100732, 0); // Nahor the Fallen
+    SetEventFlag(15100733, 0); // Easterner Iazeel
+    SetEventFlag(15100734, 0); // Seeker of the Spurned
+    SetEventFlag(15100735, 0); // Moaning Knight
+    SetEventFlag(15100736, 0); // Silver Knight Ledo 
 
     // m50
     SetEventFlag(15000730, 0); // Dulfish the Accursed
@@ -3117,7 +3124,7 @@ Event(9685, Restart, function() {
 });
 
 // Companion - Item
-Event(9710, Restart, function(X0_4, X4_4) {
+Event(20041, Restart, function(X0_4, X4_4) {
     IfPlayerHasdoesntHaveItem(AND_01, ItemType.Goods, X0_4, OwnershipState.Owns);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
     SetEventFlag(X4_4, OFF); // Disable if not owned
@@ -3128,3 +3135,4 @@ Event(9710, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+

@@ -60,9 +60,15 @@
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
 - SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
 
-# Bugfix
+# Map
+- Moved Remy the Rat.
+
+# Bugfixes
 - Corrected some spell tool reinforcement types so they match their current category.
 - Hex catalysts should deal consistent damage with spells.
+- Ritualist Ellie no longer gives out endless Ritual Incense.
+- The Ringed City intruders should be fixed.
+- Halflight will no longer respawn without the use of the tome.
 
 #------------------------------
 # TODO - General
@@ -70,8 +76,9 @@
 Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
 Add more romanceable npcs
 
-Look at foot IK issue
-Move Remy
+Look at foot IK issue 
+ Due to the behbnd
+  Try removing recent additions, see effect
     
 #------------------------------
 # Weapons

@@ -49,27 +49,27 @@ EffectID
 ActionID
  0          -
  1          - 
- 34         - Movement related
- 35         -
+ 34         - Movement
+ 35         - Angle
  55         - 
- 75         - Sound related
- 81         - Sound related
- 105        - Movement related
+ 75         - Sound 
+ 81         - Sound 
+ 105        - Movement 
  128        -
  129        -
  130        -
- 131        - Color related
+ 131        - Color 
  132        - ID Link
  199        -
  300        - 
  399        -
  400        -
- 404        - 
+ 404        - Distance from Dummy
  500        -
  501        - 
- 603        - Color/Sound related
- 605        - Color/Sound related
- 609        - Color related
+ 603        - Color/Sound 
+ 605        - Color/Sound 
+ 609        - Color 
  10100      -
  10400      -
  10500      -
@@ -80,7 +80,7 @@ TypeEnumA
 19  - 
 32  - 
 35  - Color Floats - R, G, B, Alpha
-64  - 
+64  - Stretch
 67  - Color Floats (Special)
 96  - 
 4160 - 
