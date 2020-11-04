@@ -86,7 +86,7 @@ TypeEnumA
 0   - 
 16  - 
 19  - 
-32  - 
+32  - Angle
 35  - Color Floats - R, G, B, Alpha
 64  - Stretch
 67  - Color Floats (Special)

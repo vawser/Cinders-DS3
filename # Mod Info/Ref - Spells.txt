@@ -887,7 +887,7 @@ Deep Protection
 # Overwhelming Power
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 200 {shared}
+- Lightning Damage: 100 {shared}
 - FTH Req: 40
 - Ascended Effect: Lasts for 8 seconds.
 
