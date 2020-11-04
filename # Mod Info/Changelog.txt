@@ -111,8 +111,16 @@
 # Items
 - Renamed Primordial Essence to Primordial Fragment and changed it icon to that.
 
+# Gifts
+- The Note gifts are no longer removed, which means they'll apply in NG+ too.
+- Added Priestly Note: start in the Cathedral of the Deep.
+- Added Frozen Note: start in Ariandel
+- Added Dreg Note: start in the Dreg Heap
+- Added Burning Note: start in the Ringed City.
+
 # Enemies
 - Boosted enemy area damage multiplier for the early/mid areas.
+- Removed Vordt's speed increase.
 
 # Map
 - Moved Remy the Rat.

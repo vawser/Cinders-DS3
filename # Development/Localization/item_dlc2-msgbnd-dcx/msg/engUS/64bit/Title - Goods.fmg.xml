@@ -416,6 +416,7 @@
 <text id="2022">Broken Tablet</text>
 <text id="2023">Giant's Soul</text>
 <text id="2024">Smouldering Rubble</text>
+
 <text id="2025">Ancestral Note</text>
 <text id="2026">Cultist Note</text>
 <text id="2027">Waterlogged Note</text>
@@ -424,6 +425,10 @@
 <text id="2030">Corrupted Note</text>
 <text id="2031">Afflicted Note</text>
 <text id="2032">Princely Note</text>
+<text id="2033">Priestly Note</text>
+<text id="2034">Frozen Note</text>
+<text id="2035">Dreg Note</text>
+<text id="2036">Burning Note</text>
 
 <text id="2050">Forgotten Key</text>
 <text id="2051">Soldier's Key</text>
