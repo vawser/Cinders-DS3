@@ -886,10 +886,10 @@ Deep Protection
 #--------------------------------
 # Overwhelming Power
 #--------------------------------
-- FP Cost: 10
-- Lightning Damage: 100 [20] {shared}
+- FP Cost: 30
+- Lightning Damage: 200 {shared}
 - FTH Req: 40
-- Ascended Effect: allows the ground sparks to stack.
+- Ascended Effect: Lasts for 8 seconds.
 
 #--------------------------------
 # Ghostly Assault

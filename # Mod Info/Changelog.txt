@@ -59,6 +59,7 @@
 # Spells
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
 - SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
+- Overwhelming Power is now acts more like Gael's lightning. It is fired and then lightning is shot down in a continious fashion from multiple blue lightning orbs for 5 seconds. FP cost is now 30 and single shot. Damage dealt per lightning spear is 200.
 
 # Map
 - Moved Remy the Rat.
@@ -76,10 +77,10 @@
 Add notes that are found that allow NPCs that normally disappear to appear in the Firelink area
 Add more romanceable npcs
 
-Look at foot IK issue 
- Due to the behbnd
-  Try removing recent additions, see effect
-    
+525501 # 854110
+525502 # 854111
+525503 # 854112
+                      
 #------------------------------
 # Weapons
 #------------------------------

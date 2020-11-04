@@ -35,6 +35,14 @@ dmy:
 
 854060 Silent Fire Orb
 
+854100 Lightning Orb (Blue)
+854101 Lightning STrike (not working)
+854102 Lightning Burst (Blue) 
+
+854110 Lightning Spear Launch Burst (Blue)
+854111 Lightning Spear (Blue)
+854112 Lightning Spear Impact (Blue)
+
 #------------------------
 # Reference
 #------------------------
