@@ -1113,9 +1113,9 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk34</name>
+    <name>Buff VFX Scale</name>
     <type>s16</type>
-    <default>1280</default>
+    <default>0</default>
   </entry>
   <entry>
     <name>Display Type ID</name>
