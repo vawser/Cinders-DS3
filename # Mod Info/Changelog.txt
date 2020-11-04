@@ -110,6 +110,8 @@
 
 # Items
 - Renamed Primordial Essence to Primordial Fragment and changed it icon to that.
+- Added Writ of Divinity: adds a divine light to the body
+- Added Writ of Fury: adds smouldering red aura to the body
 
 # Gifts
 - The Note gifts are no longer removed, which means they'll apply in NG+ too.
