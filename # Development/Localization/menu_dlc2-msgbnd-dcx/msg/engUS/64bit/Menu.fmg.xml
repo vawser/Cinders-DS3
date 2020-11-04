@@ -3309,7 +3309,7 @@ Empowers bosses, increasing the following:
 - Poise by 100.
 - Resistances by 50%.
 
-Enables an additional chance for Primordial Essence.</text>
+Enables an additional chance for a Primordial Fragment.</text>
 
 <text id="99003500">Bestow Lordvessel</text>
 <text id="99003501">Relics</text>
@@ -3976,20 +3976,20 @@ Attuned Effect: boosts frost resist by 25%.</text>
 
 <text id="99015010">Affix this ring?</text>
 <text id="99015011">You do not possess this ring</text>
-<text id="99015012">Insufficient Primordial Essence</text>
+<text id="99015012">Insufficient Primordial Fragments</text>
 <text id="99015013">Ring affixed</text>
 
 <text id="99015020">Affixes are used to empower accessories, 
 increasing the strength of their effects.
 
-This process requires Primordial Essence, with each level of
+This process requires Primordial Fragments, with each level of
 affixing requiring more.
 
-Basic: 2 Primordial Essence
-Fine: 4 Primordial Essence
-Superior: 6 Primordial Essence
-Exquisite: 8 Primordial Essence
-Legendary: 10 Primordial Essence</text>
+Basic: 2 Primordial Fragments
+Fine: 4 Primordial Fragments
+Superior: 6 Primordial Fragments
+Exquisite: 8 Primordial Fragments
+Legendary: 10 Primordial Fragments</text>
 
 <text id="99015100">Life Ring</text>
 <text id="99015101">Chloranthy Ring</text>
@@ -4095,13 +4095,13 @@ Legendary: 10 Primordial Essence</text>
 <text id="99030100">Corrupted Gundyr has not been killed 
 in this journey yet.</text>
 <text id="99030101">Vordt of the Boreal Valley has not 
-been killed  in this journey yet.</text>
+been killed in this journey yet.</text>
 <text id="99030102">Curse-rotted Greatwood has not been 
-killed  in this journey yet.</text>
+killed in this journey yet.</text>
 <text id="99030103">Crystal Sage has not been killed 
 in this journey yet.</text>
 <text id="99030104">Deacons of the Deep has not been 
-killed  in this journey yet.</text>
+killed in this journey yet.</text>
 <text id="99030105">Abyss Watchers has not been killed 
 in this journey yet.</text>
 <text id="99030106">High Lord Wolnir has not been killed 

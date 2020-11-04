@@ -1273,10 +1273,7 @@ Restores 600 HP and 600 FP over 30 seconds.
 
 Those who have experienced the powerful effect of this dimly lucent red water care not that its very origins are completely unknown.</text>
 
-<text id="900">Primordial remnants of a great foe imbued within cindered ash.
-
-Use at the Enchanting Table to enchant an armor slot.</text>
-<text id="901">Primordial essence of a great fore now lost to the sands of time.
+<text id="901">Primordial fragment lost to the sands of time.
 
 Used to reinforce weapons beyond their normal limits, or used at Affixing Table to affix accessories, enhancing their strength.</text>
 
@@ -3724,7 +3721,7 @@ Enables companion summoning whilst hollow.</text>
 
 <text id="20050">A foul brew concocted by Ritualist Ellie.
 
-Scoff down the brew to restore vitality to nearby active companions, albeit at the cost of one's own health.</text>
+Scoff down the brew to restore 20% HP to nearby active companions, albeit at the cost of 5% of your own HP.</text>
 <text id="20051">An unique coin enchanted by Ritualist Ellie.
 
 Banishes active companions from your world.</text>

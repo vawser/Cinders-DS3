@@ -2820,8 +2820,6 @@
 100000001 ### Weapon Arts ###
 100010000 [Catalyst] Arcane Ward - Right
 100010001 [Catalyst] Arcane Ward - Left
-100010100 [Catalyst] Chant from the Depths - Right
-100010101 [Catalyst] Chant from the Depths - Left
 100010800 [Tailbone Short Sword] Unleash Dragon
 100010810 [Tailbone Short Sword] Unleash Dragon [Emitter]
 100010820 [Tailbone Short Sword] Unleash Dragon [Hit]
@@ -3447,15 +3445,11 @@
 109554100 [Pyromancy] Fecal Expulsion - Ascended
 109554110 [Pyromancy] Fecal Expulsion - Ascended [Hit]
 109555000 [Miracle] Overwhelming Power
-109555010 [Miracle] Overwhelming Power [Hit]
-109555020 [Miracle] Overwhelming Power [Hit]
-109555030 [Miracle] Overwhelming Power [Hit]
-109555040 [Miracle] Overwhelming Power - Ground [Hit]
+109555001 [Miracle] Overwhelming Power [Emitter]
+109555002 [Miracle] Overwhelming Power [Hit]
 109555100 [Miracle] Overwhelming Power - Ascended
-109555110 [Miracle] Overwhelming Power [Hit] - Ascended
-109555120 [Miracle] Overwhelming Power [Hit] - Ascended
-109555130 [Miracle] Overwhelming Power [Hit] - Ascended
-109555140 [Miracle] Overwhelming Power - Ground [Hit] - Ascended
+109555101 [Miracle] Overwhelming Power [Emitter] - Ascended
+109555102 [Miracle] Overwhelming Power [Hit] - Ascended
 109556000 [Miracle] Wrathful Orbs
 109556001 [Miracle] Wrathful Orbs [Hit]
 109556010 [Miracle] Wrathful Orbs - Ascended
@@ -3565,6 +3559,22 @@
 210010500 Black Flame - Abyssal Grasp
 210010600 Holy Flame - Divine Retribution
 210010700 Sorcerous Flame - Beckon Soul
+210010800 Heretic's Staff - Silence
+210010900 Murky Longstaff - Despairing Whisper
+210011000 Corrupted Talisman - Yearning
+210011001 Corrupted Talisman - Yearning [Hit]
+210011002 Corrupted Talisman - Yearning [Hit]
+210011003 Corrupted Talisman - Yearning [Hit]
+210011100 Insanity Catalyst - Insanity
+210011200 Pilgrim's Spontoon - Pilgrim's Enchantment - Right
+210011201 Pilgrim's Spontoon - Pilgrim's Enchantment - Left
+210012000 Manus Catalyst - Affinity
+210012001 Manus Catalyst - Affinity [Hit]
+210012100 Manus Catalyst - Cascading Deep
+210012101 Manus Catalyst - Cascading Deep [Emitter]
+210012102 Manus Catalyst - Cascading Deep [Hit]
+210012200 Manus Catalyst - Dark Bead
+210012300 Manus Catalyst - Climax
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

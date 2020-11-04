@@ -18064,14 +18064,14 @@ Skill: Pestilent Mist
 Expel pestilent mist from the tip of the staff, harming those that step within it, and cursing them slowly.</text>
 <text id="19070000">Once a sacred chime for casting miracles of the Gods, of the type given to Lothric priests. This one appears to have been corrupted by the abyssal beings that inhabit the King's gardens.
 
-Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
+Can cast Hexes and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Skill: Gentle Prayer
 Restores 20 HP per second for 5 seconds.</text>
 <text id="19080000">Sacred chime blessed by Caitha, goddess of tears. Rare even amongst Carim clerics.
 
-Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
+Can cast Hexes and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Effect: boosts effect duration by 100%.
@@ -18080,14 +18080,14 @@ Skill: Caitha's Affliction
 Emit a ravenous swarm of insects, inflicting 60 Bleed and heavy damage.</text>
 <text id="19090000">Once a medium for casting miracles of the Gods. Canvas talismans are austere items carried by heralds. This one appears to have been corrupted by an unholy wielder.
 
-Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
+Can cast Hexes and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Skill: Yearning
 Summon multiple darkened soul sediment spots in vicinity, inflicting Curse.</text>
 <text id="19100000">An old wooden amulet resembling a depraved beast, once said to be a cleric.
 
-Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
+Can cast Hexes and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Skill: Bestial Wrath
@@ -18096,7 +18096,7 @@ increasing the cast speed by 50 for 30 seconds.</text>
 <text id="19110000">A catalyst wrapped in golden cloth.
 Empowered by corrupted magic nestled deep within its bosom.
 
-Can cast Hexes, Sorceries, Pyromancies and Miracles, but Sorceries, Pyromancies and Miracles are only 50% as strong as normal.
+Can cast Hexes, Sorceries, Pyromancies and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Skill: Insanity
@@ -18110,7 +18110,7 @@ Skill: Abyssal Grasp
 Creates a powerful black flame in the wielder's hand.</text>
 <text id="19130000">Candle stick used as both sword and catalyst. Used for worship by the Deacons of the Deep. The deacons, under the guidance of Archdeacon McDonnell, became both clergymen and sorcerers.
 
-Can cast Hexes and Miracles, but Miracles are only 50% as strong as normal.
+Can cast Hexes and Miracles.
 Spell Buff is determined by INT and FTH.
 
 Skill: Guiding Light

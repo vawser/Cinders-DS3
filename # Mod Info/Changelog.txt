@@ -74,6 +74,9 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Companions
+- Boosted base HP for the weaker companions.
+- Restorative Brew now restores 20% in exchange for 5%.
 
 # Mechanics
 - Andre will now reinforce Pyromancy Flame type weapons.
@@ -103,7 +106,13 @@
 # Spells
 - Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
 - SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
-- Overwhelming Power is now acts more like Gael's lightning. It is fired and then lightning is shot down in a continious fashion from multiple blue lightning orbs for 5 seconds. FP cost is now 30 and single shot. Damage dealt per lightning spear is 150.
+- Overwhelming Power now acts more like Gael's lightning. It is fired and then lightning is shot down in a continious fashion from multiple blue lightning orbs for 5 seconds. FP cost is now 30 and single shot. Damage dealt per lightning spear is 150.
+
+# Items
+- Renamed Primordial Essence to Primordial Fragment and changed it icon to that.
+
+# Enemies
+- Boosted enemy area damage multiplier for the early/mid areas.
 
 # Map
 - Moved Remy the Rat.
@@ -118,8 +127,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-528400 Judicator - Ledo Ghost
-528401 Judicator - Ledo Ghost
-528402 Judicator - Ledo Ghost
-528403 Judicator - Ledo Ghost
-528404 Judicator - Ledo Ghost

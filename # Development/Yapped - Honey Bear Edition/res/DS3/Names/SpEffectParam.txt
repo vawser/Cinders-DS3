@@ -3042,6 +3042,8 @@
 150003050 [Staff] Arcane Ward  - Left
 150003100 [Blue Flame] Leydia Enchantment - Right
 150003150 [Blue Flame] Leydia Enchantment - Left
+150003200 [Pilgrim's Spontoon] Pilgrim's Enchantment - Right
+150003250 [Pilgrim's Spontoon] Pilgrim's Enchantment - Left
 150004000 [Sacred Chime of Filianore] Pray for Favor - Right
 150004001 [Sacred Chime of Filianore] Pray for Favor - Right [CycleOccurance]
 150004050 [Sacred Chime of Filianore] Pray for Favor - Left
@@ -3262,6 +3264,7 @@
 160250860 Bewitched Alonne Sword - Seppuku - Left - No FP
 160250870 Bewitched Alonne Sword - Seppuku - HP Loss
 160250880 Thorned Greatsword - Lightning Stomp
+160250890 Insanity Catalyst - Insanity
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
@@ -4747,8 +4750,6 @@
 160710104 Effect - FP Tool
 160710105 Effect - HP Tool
 160710106 Effect - Souls Tool
-160710107 Effect - FP Consumption Tool
-160710108 Effect - Cripple Tool
 160719999 ### Boss Souls ###
 160720000 Soul of Rosaria
 160720010 Soul of Boreal Valley Vordt

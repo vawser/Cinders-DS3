@@ -169,6 +169,7 @@
 1321 [Spear] Demonic Stance
 1322 [Spear] Stance
 1323 [Spear] Chilling Wind
+1324 [Spear] Pilgrim's Enchantment
 1400 [Halberd] Spin Sweep
 1401 [Halberd] Chain Spin
 1402 [Halberd] Champion's Charge
@@ -231,6 +232,11 @@
 2214 [Staff] Banish
 2215 [Staff] Crystalline Storm
 2216 [Staff] Moonlight Wave
+2217 [Staff] Silence
+2218 [Staff] Despairing Whisper
+2219 [Staff] Punish the Dead
+2220 [Staff] Yearning
+2221 [Staff] Insanity
 2300 [Talisman] Unfaltering Prayer
 2301 [Talisman] Gentle Prayer
 2302 [Talisman] Combustion (White Hair Talisman)
@@ -242,7 +248,6 @@
 2308 [Talisman] Shower of Sunlight
 2310 [Talisman] Caitha's Affliction
 2311 [Talisman] Crystallization
-2312 [Talisman] Insanity
 2313 [Talisman] Bestial Wrath
 2314 [Talisman] Poison Spores
 2315 [Talisman] Immolate

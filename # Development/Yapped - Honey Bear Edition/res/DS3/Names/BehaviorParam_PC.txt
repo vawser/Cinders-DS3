@@ -2768,8 +2768,8 @@
 103612700 Channeler's Trident - Channeler's Boon
 103613700 Golden Ritual Spear - Darkmoon Volley
 103613701 Golden Ritual Spear - Darkmoon Volley
-103614700 Pilgrim's Spontoon - Chant for the Depths - Right
-103614701 Pilgrim's Spontoon - Chant for the Depths - Left
+103614700 Pilgrim's Spontoon - Pilgrim's Enchantment - Right
+103614701 Pilgrim's Spontoon - Pilgrim's Enchantment - Left
 103615700 Rampart Golem Lance - Chilling Wind
 103620700 Spear
 103620800 Spear
@@ -3334,7 +3334,11 @@
 104116700 Darkmoon Ritual Staff - Darkmoon Volley
 104117700 Man-grub's Staff - Holy Arrow
 104118700 Sage's Crystal Staff - Crystallization
-104119700 Manus Catalyst - Fury of Manus
+104119700 Manus Catalyst - Fury of Manus - Attack
+104119710 Manus Catalyst - Fury of Manus - Affinity
+104119720 Manus Catalyst - Fury of Manus - Cascading Deep
+104119730 Manus Catalyst - Fury of Manus - Dark Bead
+104119740 Manus Catalyst - Fury of Manus - Climax
 104120700 Velka's Talisman - Velka's Grace
 104121700 Consumed King's Staff - Pestilent Mist
 104122700 Tin Banishment Catalyst - Banish
@@ -3375,7 +3379,6 @@
 104142700 Archdeacon's Great Staff - Punish the Dead
 104143700 Corrupted Talisman - Vow of Agony
 104144700 Insanity Catalyst - Insanity
-104145700 Pilgrim's Spontoon - Pilgrim's Enchantment
 104200000 Caestus - 1H Light #1
 104200010 Caestus - 1H Light #2
 104200020 Caestus - 1H Light #3

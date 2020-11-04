@@ -3280,8 +3280,15 @@
 4115710 Izalith Staff - Primordial Flame [Hit]
 4115720 Izalith Staff - Primordial Flame [Hit]
 4117700 Man-grub's Staff - Holy Arrow
-4118700 Sage's Crystal Staff - Crystallization
-4118710 Sage's Crystal Staff - Crystallization [Hit]
+4118700 Sage's Crystal Staff - Homing Crystal Soulmass
+4118710 Sage's Crystal Staff - Homing Crystal Soulmass [Hit]
+4119700 Manus Catalyst - Affinity
+4119701 Manus Catalyst - Affinity [Hit]
+4119710 Manus Catalyst - Cascading Deep
+4119711 Manus Catalyst - Cascading Deep [Emitter]
+4119712 Manus Catalyst - Cascading Deep [Hit]
+4119720 Manus Catalyst - Dark Bead
+4119730 Manus Catalyst - Climax
 4121700 Consumed King's Staff - Pestilent Mist
 4121710 Consumed King's Staff - Pestilent Mist
 4122700 Tin Banishment Catalyst - Banish
@@ -3308,6 +3315,12 @@
 4138725 Holy Flame - Divine Retribution - Bullet
 4139720 Sorcerous Flame - Beckon Soul - Attack
 4139725 Sorcerous Flame - Beckon Soul - Bullet
+4140700 Heretic's Staff - Silence
+4141700 Murky Longstaff - Despairing Whisper
+4143700 Corrupted Talisman - Yearning
+4143701 Corrupted Talisman - Yearning [Hit]
+4143702 Corrupted Talisman - Yearning [Hit]
+4143703 Corrupted Talisman - Yearning [Hit]
 4200000 Caestus - 1H Light #1
 4200010 Caestus - 1H Light #2
 4200020 Caestus - 1H Light #3
@@ -4669,10 +4682,8 @@
 19554000 [Pyromancy] Fecal Explusion
 19554010 [Pyromancy] Fecal Explusion [Hit]
 19555000 [Miracle] Overwhelming Power
-19555010 [Miracle] Overwhelming Power [Hit]
-19555020 [Miracle] Overwhelming Power [Hit]
-19555030 [Miracle] Overwhelming Power [Hit]
-19555040 [Miracle] Overwhelming Power - Ground [Hit]
+19555001 [Miracle] Overwhelming Power [Emitter]
+19555002 [Miracle] Overwhelming Power [Hit]
 19555100 [Miracle] Wrathful Orbs
 19555110 [Miracle] Wrathful Orbs [Hit]
 19556000 [Miracle] Holy Schism

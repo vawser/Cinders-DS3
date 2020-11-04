@@ -1656,9 +1656,9 @@
 11700007 [Carthus Swordsman - Catacombs of Carthus] Titanite Shard
 11700008 [Carthus Swordsman - Catacombs of Carthus] Large Titanite Shard
 11700009 [Carthus Swordsman - Catacombs of Carthus] Old Radiant Lifegem
-11700010 [Carthus Swordsman - Script] Carthus Curved Sword
 11700020 [Carthus Swordsman - Script] Carthus Curved Greatsword
 11700030 [Carthus Swordsman - Script] Carthus Shotel
+11700040 [Carthus Swordsman - Script] Carthus Curved Sword
 11900000 [Cathedral Knight - Cathedral of the Deep] Holy Gem
 11900001 [Cathedral Knight - Cathedral of the Deep] Ember
 11900002 [Cathedral Knight - Cathedral of the Deep] Titanite Shard
@@ -2831,14 +2831,14 @@
 800011620 [Servant of the Rat] Rat Tail - Low
 800011700 [Ritualist Pact] Ritual Incense
 800011720 [Ritualist Pact] Ritual Incense - Low
-800299999 ### Primordial Essence ###
-800300000 Primordial Essence - 25%
-800300010 Primordial Essence - 50%
-800300020 Primordial Essence - 75%
-800300030 Primordial Essence - 100%
-800300040 Primordial Essence - 100% (2)
-800300050 Primordial Essence - 100% (3)
-800300060 Primordial Essence - 10%
+800299999 ### Primordial Fragment ###
+800300000 Primordial Fragment - 25%
+800300010 Primordial Fragment - 50%
+800300020 Primordial Fragment - 75%
+800300030 Primordial Fragment - 100%
+800300040 Primordial Fragment - 100% (2)
+800300050 Primordial Fragment - 100% (3)
+800300060 Primordial Fragment - 10%
 800499999 ### Trials ###
 800500000 Trial of Adversity - Wave 1
 800500010 Trial of Adversity - Wave 2
