@@ -1569,7 +1569,7 @@ Unlocks locked chests in the Dreg Heap.</text>
 
 Unlocks locked chests in the Ringed City.</text>
 
-<text id="2100">This skeleton key opens any basic lock.
+<text id="2100">This skeleton key opens any basic door lock.
 
 Tool of the trade for thieves.
 But in the cursed land of the Undead, most doors are better left unopened</text>
@@ -2343,6 +2343,12 @@ Applies a divine aura to the body.</text>
 <text id="4522">A writ containing latent magic, used to apply magical effects to one's person.
 
 Applies a smouldering aura to the body.</text>
+<text id="4523">A writ containing latent magic, used to apply magical effects to one's person.
+
+Applies a green aura to the eyes.</text>
+<text id="4524">A writ containing latent magic, used to apply magical effects to one's person.
+
+Applies a purple aura to the eyes.</text>
 
 <text id="5000">A worn tome that contains an account of a past heir of fire and its downfall.
 

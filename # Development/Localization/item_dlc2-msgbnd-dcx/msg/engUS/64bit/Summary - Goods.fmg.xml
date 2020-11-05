@@ -428,7 +428,7 @@
 <text id="2062">Unlocks locked chests in the Dreg Heap</text>
 <text id="2063">Unlocks locked chests in the Ringed City</text>
 
-<text id="2100">Changes form to fit any lock</text>
+<text id="2100">Changes form to fit any door lock</text>
 <text id="2101">Sinister vessel made from the skull of a noble king</text>
 <text id="2102">Hold up outside the main castle gate to be taken</text>
 <text id="2103">Enable heavy, sharp, and poison infusion</text>
@@ -641,6 +641,8 @@
 <text id="4520">Applies a golden aura to the eyes</text>
 <text id="4521">Applies a divine aura to the body</text>
 <text id="4522">Applies a smouldering aura to the body</text>
+<text id="4523">Applies a green aura to the eyes</text>
+<text id="4524">Applies a purple aura to the eyes</text>
 
 <text id="5000">Revive Corrupted Gundyr</text>
 <text id="5001">Revive Vordt</text>
