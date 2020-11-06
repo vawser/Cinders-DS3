@@ -472,12 +472,14 @@ def t450531_x20():
         ClearTalkListData()
         """ State 2 """
         
-        # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008030) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
-        # Flirt
-        AddTalkListDataIf(GetEventStatus(25008030) == 1, 11, 15015041, -1)
-        # Divorce
-        AddTalkListDataIf(GetEventStatus(25008030) == 1, 12, 15015042, -1)
+        # Form Friendship
+        AddTalkListDataIf(GetEventStatus(25008030) == 0, 10, 15016001, -1)
+        
+        # Joke
+        AddTalkListDataIf(GetEventStatus(25008030) == 1, 11, 15016003, -1)
+        
+        # End Friendship
+        AddTalkListDataIf(GetEventStatus(25008030) == 1, 12, 15016002, -1)
         
         # Give the Blood of the Dark Soul
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2158, 2, 0, 0) == 1, 2, 99003600, -1)
@@ -496,14 +498,13 @@ def t450531_x20():
             PlayerEquipmentQuantityChange(3, 2158, -1)
             assert t450531_x30()
             continue
-        # Form Betrothal
+        # Form Friendship
         elif GetTalkListEntryResult() == 10:
             """ State 5 """
             SetEventState(25008030, 1)
-            PlayerEquipmentQuantityChange(3, 2000, -1)
             OpenGenericDialog(1, 99012025, 0, 0, 0)
             return 0
-        # Flirt
+        # Joke
         elif GetTalkListEntryResult() == 11:
             """ State 6 """
             # Good
@@ -518,10 +519,9 @@ def t450531_x20():
                 SetEventState(25008903, 1)
                 OpenGenericDialog(1, 99012022, 0, 0, 0)
             continue
-        # Divorce
+        # End Friendship
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008030, 0)
-            GetItemFromItemLot(800001300)
             OpenGenericDialog(1, 99012022, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

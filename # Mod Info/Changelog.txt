@@ -129,6 +129,9 @@
 # Map
 - Moved Remy the Rat.
 
+# NPCs
+- Changed the Painter 'relationship' stuff so it is a friendship and removed the suggestive undertone.
+
 # Bugfixes
 - Corrected some spell tool reinforcement types so they match their current category.
 - Hex catalysts should deal consistent damage with spells.
@@ -139,10 +142,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-610700 Red Effect
-
-854200 Blue Eyes
-854201 Green Eyes
-854203 Purple Eyes
-
-75024

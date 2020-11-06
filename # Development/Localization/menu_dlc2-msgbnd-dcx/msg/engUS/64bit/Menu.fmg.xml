@@ -2162,9 +2162,9 @@ Persisting will transform you into a grub.</text>
 <text id="15015050">Give Dark Tome</text>
 <text id="15015060">Give Accursed Signet</text>
 <text id="15016000">Learn Miracles</text>
-<text id="15016001">%null%</text>
-<text id="15016002">%null%</text>
-<text id="15016003">%null%</text>
+<text id="15016001">Form Friendship</text>
+<text id="15016002">End Friendship</text>
+<text id="15016003">Joke</text>
 <text id="15016004">%null%</text>
 <text id="15016005">%null%</text>
 <text id="15016006">%null%</text>
@@ -3551,14 +3551,13 @@ Without me, they will be extinguished.</text>
 <text id="99012015">Ashen One, I am unworthy of your love.
 But I accept your offer.</text>
 
-<text id="99012020">Oh hello. Uncle Gael has warned me about your kind.
+<text id="99012020">Uncle Gael has warned me about your bad jokes.
 He told me to give you this.</text>
-<text id="99012021">Oh, that is nice. But I'd rather focus on my
+<text id="99012021">Oh, that is funny. But I'd rather focus on my
 painting for now.</text>
-<text id="99012022">Get away from me!
-I banish you from this painted world.</text>
-<text id="99012025">What do you mean? I need ink for the painting,
-not this tiny ring.</text>
+<text id="99012022">What an awful joke.
+I banish you!.</text>
+<text id="99012025">This world is awfully lonely. A friend would be welcome.</text>
 
 <text id="99012030">The shriveled body of Rosaria appears to squirm 
 in a joyous manner. A gift pops out from beneath her quivering mass.</text>
