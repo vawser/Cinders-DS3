@@ -6,14 +6,6 @@
 // @linked    []
 // ==/EMEVD==
 
-// ==EMEVD==
-// @docs    ds3-common.emedf.json
-// @compress    DarkSouls3
-// @game    DarkSouls3
-// @string    
-// @linked    []
-// ==/EMEVD==
-
 Event(0, Default, function() {
     //---------------------------------------
     // Host and Client
@@ -1684,7 +1676,6 @@ Event(20000, Default, function() {
     // Crow Trades
     InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
     InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
-    InitializeCrowTrade(ItemType.Goods, 2164, 80200, -1, 74000996);
     
     // Curses - Add Player Effects
     InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
@@ -3135,4 +3126,3 @@ Event(20041, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-

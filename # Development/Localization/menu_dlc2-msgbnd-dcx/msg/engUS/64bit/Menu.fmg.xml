@@ -3769,201 +3769,6 @@ I believe I saw the rapscallion running off
 towards the castle.</text>
 <text id="99013116">Thank you.</text>
 
-<text id="99014000">Apply Enchantment</text>
-<text id="99014001">Helm Enchantment</text>
-<text id="99014002">Armor Enchantment</text>
-<text id="99014003">Gauntlet Enchantment</text>
-<text id="99014004">Legging Enchantment</text>
-<text id="99014005">Enchantment Guide</text>
-<text id="99014006">Enchantment Overview</text>
-
-<text id="99014009">Insufficient Primordial Ash</text>
-
-<text id="99014010">You possess 4 armor slots:
-Helm, Armor, Gauntlets and Leggings.
-
-Each slot can be given a permanent effect via this table.
-Armor worn will attune with enchantments of a particular category,
-increasing the strength of the enchantment.
-
-Changing enchantments will remove the old enchantment.
-Enchantments in different slots will stack.</text>
-
-<text id="99014011">Current Helm Enchantment</text>
-<text id="99014012">Current Armor Enchantment</text>
-<text id="99014013">Current Gauntlet Enchantment</text>
-<text id="99014014">Current Legging Enchantment</text>
-
-<text id="99014020">Enchant this slot for 1 Primordial Ash?</text>
-<text id="99014021">Enchant this slot for 2 Primordial Ash?</text>
-<text id="99014022">Enchant this slot for 3 Primordial Ash?</text>
-
-<text id="99014030">Helm slot enchanted</text>
-<text id="99014031">Armor slot enchanted</text>
-<text id="99014032">Gauntlets slot enchanted</text>
-<text id="99014033">Leggings slot enchanted</text>
-
-<text id="99014040">Fundamental</text>
-<text id="99014041">Offensive</text>
-<text id="99014042">Defensive</text>
-<text id="99014043">Combative</text>
-<text id="99014044">Utility</text>
-
-<text id="99014097">Remove Enchantment</text>
-<text id="99014098">Removed enchantment</text>
-<text id="99014099">None</text>
-
-<text id="99014100">Max HP</text>
-<text id="99014101">Max FP</text>
-<text id="99014102">Max Stamina</text>
-<text id="99014103">Equip Load</text>
-<text id="99014104">Stamina Recovery</text>
-<text id="99014105">Vigor</text>
-<text id="99014106">Attunement</text>
-<text id="99014107">Endurance</text>
-<text id="99014108">Vitality</text>
-<text id="99014109">Strength</text>
-<text id="99014110">Dexterity</text>
-<text id="99014111">Intelligence</text>
-<text id="99014112">Faith</text>
-<text id="99014113">Luck</text>
-<text id="99014114">Physical Damage</text>
-<text id="99014115">Magic Damage</text>
-<text id="99014116">Fire Damage</text>
-<text id="99014117">Lightning Damage</text>
-<text id="99014118">Dark Damage</text>
-<text id="99014119">Anti-Demon</text>
-<text id="99014120">Anti-Undead</text>
-<text id="99014121">Anti-Hollow</text>
-<text id="99014122">Anti-Abyssal</text>
-<text id="99014123">Weapon Stamina Consumption</text>
-<text id="99014124">Stability</text>
-<text id="99014125">Stamina Damage</text>
-<text id="99014126">Bow Distance</text>
-<text id="99014127">Cast Speed</text>
-<text id="99014128">Skill FP Cost</text>
-<text id="99014129">HP Regen</text>
-<text id="99014130">FP Regen</text>
-<text id="99014131">No Fall Damage</text>
-<text id="99014132">HP Absorb</text>
-<text id="99014133">FP Absorb</text>
-<text id="99014134">Item Discovery</text>
-<text id="99014135">Effect Duration</text>
-<text id="99014136">Soul Absorption</text>
-<text id="99014137">HP Effectiveness</text>
-<text id="99014138">%null%</text>
-<text id="99014139">Poise</text>
-<text id="99014140">Physical Defence</text>
-<text id="99014141">Magic Defence</text>
-<text id="99014142">Fire Defence</text>
-<text id="99014143">Lightning Defence</text>
-<text id="99014144">Dark Defence</text>
-<text id="99014145">Deflection</text>
-<text id="99014146">Poison Resist</text>
-<text id="99014147">Bleed Resist</text>
-<text id="99014148">Curse Resist</text>
-<text id="99014149">Frost Resist</text>
-
-<text id="99014200">Base Effect: increases max HP by 4%.
-Attuned Effect: increases max HP by 5%.</text>
-<text id="99014201">Base Effect: increases max FP by 4%.
-Attuned Effect: increases max FP by 5%.</text>
-<text id="99014202">Base Effect: increases max Stamina by 4%.
-Attuned Effect: increases max Stamina by 5%.</text>
-<text id="99014203">Base Effect: increases equipment load by 4%.
-Attuned Effect: increases equipment load by 5%.</text>
-<text id="99014204">Base Effect: increases stamina recovery by 8.
-Attuned Effect: increases stamina recovery by 10.</text>
-<text id="99014205">Base Effect: increases Vigor by 4.
-Attuned Effect: increases Vigor by 5.</text>
-<text id="99014206">Base Effect: increases Attunement by 4.
-Attuned Effect: increases Attunement by 5.</text>
-<text id="99014207">Base Effect: increases Endurance by 4.
-Attuned Effect: increases Endurance by 5.</text>
-<text id="99014208">Base Effect: increases Vitality by 4.
-Attuned Effect: increases Vitality by 5.</text>
-<text id="99014209">Base Effect: increases Strength by 4.
-Attuned Effect: increases Strength by 5.</text>
-<text id="99014210">Base Effect: increases Dexterity by 4.
-Attuned Effect: increases Dexterity by 5.</text>
-<text id="99014211">Base Effect: increases Intelligence by 4.
-Attuned Effect: increases Intelligence by 5.</text>
-<text id="99014212">Base Effect: increases Faith by 4.
-Attuned Effect: increases Faith by 5.</text>
-<text id="99014213">Base Effect: increases Luck by 4.
-Attuned Effect: increases Luck by 5.</text>
-<text id="99014214">Base Effect: increases Physical damage by 2%.
-Attuned Effect: increases Physical damage by 2.5%.</text>
-<text id="99014215">Base Effect: increases Magic damage by 2%.
-Attuned Effect: increases Magic damage by 2.5%.</text>
-<text id="99014216">Base Effect: increases Fire damage by 2%.
-Attuned Effect: increases Fire damage by 2.5%.</text>
-<text id="99014217">Base Effect: increases Lightning damage by 2%.
-Attuned Effect: increases Lightning damage by 2.5%.</text>
-<text id="99014218">Base Effect: increases Dark damage by 2%.
-Attuned Effect: increases Dark damage by 2.5%.</text>
-<text id="99014219">Base Effect: boosts damage against Demons by 4%.
-Attuned Effect: boosts damage against Demons by 5%.</text>
-<text id="99014220">Base Effect: boosts damage against Undead by 4%.
-Attuned Effect: boosts damage against Undead by 5%.</text>
-<text id="99014221">Base Effect: boosts damage against Hollows by 4%.
-Attuned Effect: boosts damage against Hollows by 5%.</text>
-<text id="99014222">Base Effect: boosts damage against Abyssal enemies by 4%.
-Attuned Effect: boosts damage against Abyssal enemies by 5%.</text>
-<text id="99014223">Base Effect: reduces weapon stamina consumption by 4%.
-Attuned Effect: reduces weapon stamina consumption by 5%.</text>
-<text id="99014224">Base Effect: increases shield stability by 4%.
-Attuned Effect: increases shield stability by 5%.</text>
-<text id="99014225">Base Effect: increases stamina damage by 20%.
-Attuned Effect: increases stamina damage by 25%.</text>
-<text id="99014226">Base Effect: increases range of bows, greatbows  and crossbows by 40.
-Attuned Effect: increases range of bows, greatbows and crossbows by 50.</text>
-<text id="99014227">Base Effect: boosts casting speed by 10.
-Attuned Effect: boosts casting speed by 12.</text>
-<text id="99014228">Base Effect: reduces skill FP consumption by 8%.
-Attuned Effect: reduces skill FP consumption by 10%.</text>
-<text id="99014229">Base Effect: restores 2 HP per second.
-Attuned Effect: restores 4 HP per second.</text>
-<text id="99014230">Base Effect: restores 1% FP per second.
-Attuned Effect: restores 2 FP per second.</text>
-<text id="99014231">Base Effect: prevents damage from non-fatal falls.
-Attuned Effect: prevents damage from non-fatal falls.</text>
-<text id="99014232">Base Effect: imbues weapon, absorbing 40 HP on kill.
-Attuned Effect: imbues weapon, absorbing 50 HP on kill.</text>
-<text id="99014233">Base Effect: imbues weapon, absorbing 40 FP on kill.
-Attuned Effect: imbues weapon, absorbing 50 FP on kill.</text>
-<text id="99014234">Base Effect: increases Item Discovery by 40.
-Attuned Effect: increases Item Discovery by 50.</text>
-<text id="99014235">Base Effect: boosts Base Effect duration by 20%.
-Attuned Effect: boosts Base Effect duration by 25%.</text>
-<text id="99014236">Base Effect: boosts soul absorption by 4%.
-Attuned Effect: boosts soul absorption by 5%.</text>
-<text id="99014237">Base Effect: increases Base Effectiveness of HP recovery by 4%.
-Attuned Effect: increases Base Effectiveness of HP recovery by 5%.</text>
-<text id="99014238">%null%</text>
-<text id="99014239">Base Effect: boosts poise by 8%.
-Attuned Effect: boosts poise by 10%.</text>
-<text id="99014240">Base Effect: boosts physical defence by 10%.
-Attuned Effect: boosts physical defence by 15%.</text>
-<text id="99014241">Base Effect: boosts magic defence by 10%.
-Attuned Effect: boosts magic defence by 15%.</text>
-<text id="99014242">Base Effect: boosts fire defence by 10%.
-Attuned Effect: boosts fire defence by 15%.</text>
-<text id="99014243">Base Effect: boosts lightning defence by 10%.
-Attuned Effect: boosts lightning defence by 15%.</text>
-<text id="99014244">Base Effect: boosts dark defence by 10%.
-Attuned Effect: boosts dark defence by 15%.</text>
-<text id="99014245">Base Effect: boosts deflection by 20.
-Attuned Effect: boosts deflection by 25.</text>
-<text id="99014246">Base Effect: boosts poison and toxic resist by 20%.
-Attuned Effect: boosts poison and toxic resist by 25%.</text>
-<text id="99014247">Base Effect: boosts bleed resist by 20%.
-Attuned Effect: boosts bleed resist by 25%.</text>
-<text id="99014248">Base Effect: boosts curse resist by 20%.
-Attuned Effect: boosts curse resist by 25%.</text>
-<text id="99014249">Base Effect: boosts frost resist by 20%.
-Attuned Effect: boosts frost resist by 25%.</text>
-
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
 
@@ -4193,5 +3998,27 @@ You don't have any? Get out of here then.</text>
 Well, well, well, you are a looker, so yes,
 I accept your offer.</text>
 
+<text id="99030600">Empower Focus Implement</text>
+<text id="99030601">Empower implement?</text>
+<text id="99030602">You do not possess an implement</text>
+<text id="99030603">No Resonating Crystal</text>
+<text id="99030604">Focus Implement empowered</text>
+
+<text id="99030610">Very good, very good indeed.
+Here, take this token of my appreciation.</text>
+<text id="99030611">Cursed one, you lack charm.
+Heh heh heh...</text>
+<text id="99030612">Crystals! I need crystals! You cursed fool!
+Bigger, stronger crystals! Heh heh...</text>
+<text id="99030613">Well! This is a most peculiar proposal.
+Prepare to peer straight into the heart of magic.
+Heh heh heh...</text>
+
+<text id="99030615">Still a bit stiff, I'm afraid.
+I am Grudore. A wandering sorcerer of sorts.
+Bring me resonating crystals and I can provide
+services that may be of use to you.</text>
+
 </entries>
 </fmg>
+

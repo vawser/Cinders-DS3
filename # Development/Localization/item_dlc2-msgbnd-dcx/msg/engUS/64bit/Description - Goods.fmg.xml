@@ -306,11 +306,61 @@ Fill with Estus at bonfires, and drink to restore FP.
 
 Quite befitting of an Unkindled, an Ashen Estus Flask turns a bonfire's heat cold.</text>
 
-<text id="220">Undead treasure this focus implement.
+<text id="220">Undead treasure this focusing crystal.
 
-Restores FP but renders the holder vulnerable for a short period.
+Restores 100 FP but renders the holder vulnerable for a short period.
 
-Quite befitting of an Unkindled, a Focus Implement quiets the mind, allowing the restoration of focus.</text>
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="221">Undead treasure this focusing crystal.
+
+Restores 150 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="222">Undead treasure this focusing crystal.
+
+Restores 200 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="223">Undead treasure this focusing crystal.
+
+Restores 250 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="224">Undead treasure this focusing crystal.
+
+Restores 300 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="225">Undead treasure this focusing crystal.
+
+Restores 350 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="226">Undead treasure this focusing crystal.
+
+Restores 400 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="227">Undead treasure this focusing crystal.
+
+Restores 450 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="228">Undead treasure this focusing crystal.
+
+Restores 500 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="229">Undead treasure this focusing crystal.
+
+Restores 550 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
+<text id="230">Undead treasure this focusing crystal.
+
+Restores 600 FP but renders the holder vulnerable for a short period.
+
+Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
 
 <text id="240">Holy water blessed by the Queen of Lothric.
 
@@ -1838,7 +1888,7 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2164">A crystal that constantly emits a pleasant tune.
 
-The nestling atop Firelink Shrine may be interested in this item.</text>
+Exchange this crystal with Acolyte Grudore to empower the focusing crystal.</text>
 
 <text id="2168">Crush to consume the blood of a 
 once mighty enemy.

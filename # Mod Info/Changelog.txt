@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002076 Cemetery of Ash / Unturned Graves
+54002077 Cemetery of Ash / Unturned Graves
 53002107 High Wall of Lothric / Consumed King's Garden
 53102095 Undead Settlement
 53302183 Road of Sacrifices / Farron Keep
@@ -76,10 +76,12 @@
 #------------------------------
 # Companions
 - Boosted base HP for the weaker companions.
+- Boosted their scaling in NG+.
 - Restorative Brew now restores 20% in exchange for 5%.
 
 # Mechanics
 - Andre will now reinforce Pyromancy Flame type weapons.
+- Removed Resonating Crystal crow trade.
 
 # Weapons
 - Moonlight Greatsword Fire/Lightning/Dark infusion now changes the model to the ethereal model, and changes its color to Red/Yellow/Purple.
@@ -117,6 +119,9 @@
 - Added Writ of Fury: adds smouldering red aura to the body
 - Added Writ of Envy: adds green eyes.
 - Added Writ of Desire: adds purple eyes.
+- Renamed Focus Implement to Focusing Crystal.
+- Focusing Crystal can now be empowered by Acolyte Grudore, increasing its restoration value from 100 up to 600.
+- Resonating Crystals are now a material used by Acolyte Grudore to empower the Focusing Crystal. Old sources have been removed, and now 9 are found throughout the world (the tenth is Grudore's flirt reward).
 
 # Gifts
 - The Note gifts are no longer removed, which means they'll apply in NG+ too.
@@ -134,6 +139,7 @@
 
 # NPCs
 - Changed the Painter 'relationship' stuff so it is a friendship and removed the suggestive undertone.
+- Added Acolyte Grudore: appears in Firelink Shrine opposite the Shrine Handmaid. Romancable, and offers the ability to empower the Focusing Crystal in exchange for Resonating Crystals.
 
 # Bugfixes
 - Corrected some spell tool reinforcement types so they match their current category.
@@ -145,3 +151,15 @@
 #------------------------------
 # TODO - General
 #------------------------------
+400509 Acolyte Grudore
+
+2164 Resonating Crystal
+ - CKG
+ - High Wall
+ - Lothric Castle
+ - Road of Sacrifices
+ - Grand Archives
+ - Cathedral of the Deep
+ - Anor Londo
+ - Catacombs
+ - Irithyll Dungeon

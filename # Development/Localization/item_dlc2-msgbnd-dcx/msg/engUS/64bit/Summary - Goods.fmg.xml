@@ -70,7 +70,17 @@
 <text id="210">Fill with Estus at bonfire. Restores FP.</text>
 <text id="211">Fill with Estus at bonfire. Restores FP.</text>
 
-<text id="220">Restores FP but renders the holder vulnerable</text>
+<text id="220">Restores 100 FP but renders the holder vulnerable</text>
+<text id="221">Restores 150 FP but renders the holder vulnerable</text>
+<text id="222">Restores 200 FP but renders the holder vulnerable</text>
+<text id="223">Restores 250 FP but renders the holder vulnerable</text>
+<text id="224">Restores 300 FP but renders the holder vulnerable</text>
+<text id="225">Restores 350 FP but renders the holder vulnerable</text>
+<text id="226">Restores 400 FP but renders the holder vulnerable</text>
+<text id="227">Restores 450 FP but renders the holder vulnerable</text>
+<text id="228">Restores 500 FP but renders the holder vulnerable</text>
+<text id="229">Restores 550 FP but renders the holder vulnerable</text>
+<text id="230">Restores 600 FP but renders the holder vulnerable</text>
 
 <text id="240">Fully restores HP and cures ailments</text>
 <text id="241">Fully restores FP</text>
@@ -485,7 +495,8 @@
 <text id="2161">Large temporary boost to FP recovery speed</text>
 <text id="2162">Exchange with the nestling atop Firelink Shrine</text>
 <text id="2163">Exchange with the nestling atop Firelink Shrine</text>
-<text id="2164">Exchange with the nestling atop Firelink Shrine</text>
+
+<text id="2164">Empowers the Focus Implement</text>
 
 <text id="2168">Crush to revive champions of yore</text>
 
