@@ -458,7 +458,6 @@
 66311 [Shira, Knight of Filianore] Sacred Chime of Filianore
 80000 [Crow] Bone Fragment
 80100 [Crow] Lizard Hide
-80200 [Crow] Resonating Crystal
 80300 [Beast of Lust] Brightbug
 80400 [Deathless Run Reward] Relic of Power
 80410 [Hitless Run Reward] Relic of Insanity
@@ -489,6 +488,7 @@
 90210 [Gift - Solaire] Estus Shard
 90220 [Gift - Remy] Dried Root
 90230 [Gift - Ritualist Ellie] Ritual Incense
+90240 [Gift - Acolyte Grudore] Resonating Crystal
 3000000 [High Wall of Lothric] Titanite Shard
 3000010 [High Wall of Lothric] Green Blossom
 3000020 [High Wall of Lothric] Radiant Lifegem
@@ -529,7 +529,7 @@
 3000433 [Consumed King's Garden] Shadow Leggings
 3000440 [High Wall of Lothric] Broadsword
 3000450 [High Wall of Lothric] Soul of a Deserted Corpse
-3000470 [High Wall of Lothric] Lethal Gem
+3000470 [Consumed King's Garden] Resonating Crystal
 3000480 [Consumed King's Garden] Claw
 3000490 [Consumed King's Garden] Large Titanite Shard
 3000500 [Consumed King's Garden] Dragonscale Ring
@@ -546,14 +546,14 @@
 3000630 [Consumed King's Garden] Titanite Chunk
 3000640 [Consumed King's Garden] Ring of Sacrifice
 3000650 [High Wall of Lothric] Estus Shard
-3000700 [High Wall of Lothric] Ember
+3000700 [High Wall of Lothric] Resonating Crystal
 3000710 [Consumed King's Garden] Ember
 3000720 [High Wall of Lothric] Ember
 3000730 [Consumed King's Garden] Ember
-3000800 [Consumed King's Garden] Raven Mask
+3000800 [Consumed King's Garden - Chest] Raven Mask
 3000820 [High Wall of Lothric] Silver Eagle Kite Shield
 3000830 [High Wall of Lothric] Astora Straight Sword
-3000840 [Consumed King's Garden] Spirit Amethyst
+3000840 [Consumed King's Garden - Chest] Spirit Amethyst
 3000950 [Consumed King's Garden] Drakeblood Helm
 3000951 [Consumed King's Garden] Drakeblood Armor
 3000952 [Consumed King's Garden] Drakeblood Gauntlets
@@ -577,7 +577,7 @@
 3010150 [Lothric Castle] Caitha's Chime
 3010160 [Lothric Castle] Lightning Urn
 3010170 [Lothric Castle] Ember
-3010180 [Lothric Castle] Resonating Crystal
+3010180 [Lothric Castle] Titanite Chunk
 3010190 [Lothric Castle] Black Firebomb
 3010200 [Lothric Castle] Pale Pine Resin
 3010210 [Lothric Castle] Large Soul of a Weary Warrior
@@ -604,7 +604,7 @@
 3010400 [Lothric Castle] Twinkling Titanite
 3010420 [Lothric Castle] Large Soul of a Nameless Soldier
 3010500 [Lothric Castle] Sunlight Talisman
-3010520 [Lothric Castle] Titanite Scale
+3010520 [Lothric Castle - Chest] Resonating Crystal
 3010530 [Lothric Castle] Hood of Prayer
 3010531 [Lothric Castle] Robe of Prayer
 3010532 [Lothric Castle] Skirt of Prayer
@@ -853,7 +853,7 @@
 3300781 [Farron Keep] Sellsword Armor
 3300782 [Farron Keep] Sellsword Gauntlet
 3300783 [Farron Keep] Sellsword Trousers
-3300790 [Farron Keep] Twinkling Titanite
+3300790 [Farron Keep] Resonating Crystal
 3300800 [Farron Keep - Bridge] Fire Seed
 3300810 [Farron Keep - Bridge] Ash Demon Hammer
 3300820 [Farron Keep - Bridge] Speckled Stoneplate Ring
@@ -911,7 +911,7 @@
 3410450 [Grand Archives] Ember
 3410470 [Grand Archives] Ember
 3410500 [Grand Archives - Chest] Clandestine Coat
-3410510 [Grand Archives - Chest] Twinkling Titanite
+3410510 [Grand Archives - Chest] Resonating Crystal
 3410520 [Grand Archives] Loch Shield
 3410530 [Grand Archives] Titanite Scale
 3410540 [Grand Archives] Titanite Scale
@@ -1006,7 +1006,7 @@
 3700060 [Irithyll] Rime-blue Moss Clump
 3700070 [Irithyll] Witchtree Branch
 3700080 [Irithyll] Witchtree Limb
-3700090 [Anor Londo] Titanite Chunk
+3700090 [Anor Londo - Chest] Resonating Crystal
 3700100 [Irithyll] Budding Green Blossom
 3700110 [Irithyll] Shivering Key
 3700120 [Irithyll] Soul of a Crestfallen Knight
@@ -1276,18 +1276,18 @@
 4000410 [Untended Graves - NG+] Soul of a Great Champion
 4000420 [Untended Graves - NG+] Soul of a Great Champion
 4000430 [Untended Graves - NG+] Soul of a Great Champion
-4000505 [Cemetery of Ash - Script] Focus Implement
-4000515 [Cemetery of Ash - Script] Focus Implement
-4000525 [Cemetery of Ash - Script] Focus Implement
-4000535 [Cemetery of Ash - Script] Focus Implement
-4000545 [Cemetery of Ash - Script] Focus Implement
-4000555 [Cemetery of Ash - Script] Focus Implement
-4000565 [Cemetery of Ash - Script] Focus Implement
-4000575 [Cemetery of Ash - Script] Focus Implement
-4000585 [Cemetery of Ash - Script] Focus Implement
-4000595 [Cemetery of Ash - Script] Focus Implement
-4000605 [Cemetery of Ash - Script] Focus Implement
-4000615 [Cemetery of Ash - Script] Focus Implement
+4000505 [Cemetery of Ash - Script] Focusing Crystal
+4000515 [Cemetery of Ash - Script] Focusing Crystal
+4000525 [Cemetery of Ash - Script] Focusing Crystal
+4000535 [Cemetery of Ash - Script] Focusing Crystal
+4000545 [Cemetery of Ash - Script] Focusing Crystal
+4000555 [Cemetery of Ash - Script] Focusing Crystal
+4000565 [Cemetery of Ash - Script] Focusing Crystal
+4000575 [Cemetery of Ash - Script] Focusing Crystal
+4000585 [Cemetery of Ash - Script] Focusing Crystal
+4000595 [Cemetery of Ash - Script] Focusing Crystal
+4000605 [Cemetery of Ash - Script] Focusing Crystal
+4000615 [Cemetery of Ash - Script] Focusing Crystal
 4000700 [Cemetery of Ash - Locked Chest] Estus Shard
 4500000 [Ariandel] Rime-blue Moss Clump
 4500010 [Ariandel] Large Titanite Shard
@@ -1701,10 +1701,9 @@
 12300002 [Cathedral Evangelist - Undead Settlement] Vine Balm
 12300003 [Cathedral Evangelist - Undead Settlement] Blackweed Balm
 12300004 [Cathedral Evangelist - Undead Settlement] Goldenfruit Balm
-12300005 [Cathedral Evangelist - Undead Settlement] Resonating Crystal
+12300005 [Cathedral Evangelist - Undead Settlement] Rouge Water
 12300006 [Cathedral Evangelist - Undead Settlement] Twinkling Titanite
 12300007 [Cathedral Evangelist - Undead Settlement] Holy Fragment
-12300008 [Cathedral Evangelist - Undead Settlement] Rouge Water
 12301000 [Cathedral Evangelist - Script] Twinkling Titanite
 12400000 [Peasant Hollow - Undead Settlement] Firebomb
 12400001 [Peasant Hollow - Undead Settlement] Charcoal Pine Resin
@@ -1794,12 +1793,11 @@
 13200004 [Crystal Sage] Exotic Souls
 13200005 [Crystal Sage] Crimson Water
 13210000 [Crystal Sage - Script] Crystal Scroll
-13400000 [Archive Scholar - Grand Archives] Resonating Crystal
+13400000 [Archive Scholar - Grand Archives] Rouge Water
 13400001 [Archive Scholar - Grand Archives] Magic Gem
 13400002 [Archive Scholar - Grand Archives] Enchanted Gem
 13400003 [Archive Scholar - Grand Archives] Twinkling Titanite
 13400004 [Archive Scholar - Grand Archives] Crystal Fragment
-13400005 [Archive Scholar - Grand Archives] Rouge Water
 13400010 [Archive Scholar - Script] Scholar's Candlestick
 13500000 [Irithyllian Slave - Irithyll] Dark Gem
 13500001 [Irithyllian Slave - Irithyll] Blue Bug Pellet
@@ -1850,37 +1848,33 @@
 14300001 [Undead Cleric - Cemetery of Ash] Lifegem
 14301000 [Undead Cleric - Untended Graves] Large Soul of a Deserted Corpse
 14301001 [Undead Cleric - Untended Graves] Old Radiant Lifegem
-14400000 [Sage Apprentice - Road of Sacrifices] Resonating Crystal
+14400000 [Sage Apprentice - Road of Sacrifices] Rouge Water
 14400001 [Sage Apprentice - Road of Sacrifices] Firebomb
 14400002 [Sage Apprentice - Road of Sacrifices] Magic Gem
 14400003 [Sage Apprentice - Road of Sacrifices] Enchanted Gem
 14400004 [Sage Apprentice - Road of Sacrifices] Twinkling Titanite
 14400005 [Sage Apprentice - Road of Sacrifices] Crystal Fragment
-14400006 [Sage Apprentice - Road of Sacrifices] Rouge Water
-14401000 [Devout of the Deep] Resonating Crystal
+14401000 [Devout of the Deep] Rouge Water
 14401001 [Devout of the Deep] Firebomb
 14401002 [Devout of the Deep] Curse Gem
 14401003 [Devout of the Deep] Fading Soul
 14401004 [Devout of the Deep] Holy Fragment
 14401005 [Devout of the Deep] Abyssal Fragment
-14401006 [Devout of the Deep] Rouge Water
-14402000 [Lothric Priest] Resonating Crystal
+14402000 [Lothric Priest] Rouge Water
 14402001 [Lothric Priest] Twinkling Titanite
 14402002 [Lothric Priest] Holy Fragment
 14402003 [Lothric Priest] Abyssal Fragment
-14402004 [Lothric Priest] Rouge Water
 14450000 [Large Devout of the Deep] Dark Gem
 14450001 [Large Devout of the Deep] Titanite Shard
 14450002 [Large Devout of the Deep] Large Titanite Shard
 14450003 [Large Devout of the Deep] Holy Fragment
 14450004 [Large Devout of the Deep] Abyssal Fragment
 14450005 [Large Devout of the Deep] Radiant Lifegem
-14460000 [Sage's Devout - Road of Sacrifices] Resonating Crystal
+14460000 [Sage's Devout - Road of Sacrifices] Crimson Water
 14460001 [Sage's Devout - Road of Sacrifices] Magic Gem
 14460002 [Sage's Devout - Road of Sacrifices] Enchanted Gem
 14460003 [Sage's Devout - Road of Sacrifices] Twinkling Titanite
 14460004 [Sage's Devout - Road of Sacrifices] Crystal Fragment
-14460005 [Sage's Devout - Road of Sacrifices] Crimson Water
 14700000 [Bonewheel Skeleton - Catacombs of Carthus] Bone Fragment
 14700001 [Bonewheel Skeleton - Catacombs of Carthus] Blood Gem
 14700002 [Bonewheel Skeleton - Catacombs of Carthus] Titanite Shard
@@ -2186,12 +2180,11 @@
 52210002 [Deacon] Holy Fragment
 52210003 [Deacon] Rouge Water
 52230310 [Deacon - Script] Estus Shard
-52400000 [Irithyll Fire Witch] Resonating Crystal
+52400000 [Irithyll Fire Witch] Crimson Water
 52400001 [Irithyll Fire Witch] Magic Gem
 52400002 [Irithyll Fire Witch] Fire Gem
 52400003 [Irithyll Fire Witch] Twinkling Titanite
 52400004 [Irithyll Fire Witch] Crystal Fragment
-52400005 [Irithyll Fire Witch] Crimson Water
 52700000 [Boreal Outrider Assassin] Titanite Chunk
 52700001 [Boreal Outrider Assassin] Titanite Slab
 52700002 [Boreal Outrider Assassin] Exotic Souls
@@ -2315,7 +2308,7 @@
 210000210 [Catacombs of Carthus] Dozer Axe
 210000220 [Smouldering Lake] Golem Axe
 210000230 [Catacombs of Carthus] Ember
-210000240 [Cathedral of the Deep] Human Dregs
+210000240 [Cathedral of the Deep] Resonating Crystal
 210000250 [Irithyll] Kris Blade
 210000260 [Smouldering Lake] Charcoal Pine Resin
 210000270 [Archdragon Peak] Holy Flame
@@ -2458,7 +2451,7 @@
 210001763 [Catacombs of Carthus] Chest - Paladin Leggings
 210001764 [Catacombs of Carthus] Chest - Sanctus
 210001770 [Catacombs of Carthus] Chest - Grant
-210001780 [Catacombs of Carthus] Chest - Elixir of Ghosts
+210001780 [Catacombs of Carthus] Chest - Resonating Crystal
 210001790 [Catacombs of Carthus] Chest - Titanite Catch Pole
 210001800 [Catacombs of Carthus] Chest - Abyssal Blade
 210001801 [Catacombs of Carthus] Chest - Grave Warden Pyromancy Tome
@@ -2701,7 +2694,7 @@
 210003533 [Grand Archives - Chest] Courtier's Leggings
 210003540 [Grand Archives - Chest] Titanite Slab
 210003550 [Grand Archives - Chest] Crown of Illusions
-210003560 [Irithyll Dungeon - Chest] Abyssal Fragment
+210003560 [Irithyll Dungeon - Chest] Resonating Crystal
 210003570 [Profaned Capital - Chest] Syan Knight Helm
 210003571 [Profaned Capital - Chest] Syan Knight Armor
 210003572 [Profaned Capital - Chest] Syan Knight Gauntlets

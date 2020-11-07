@@ -168,7 +168,7 @@ def t400509_x9():
     while True:
         ClearTalkListData()
         
-        # Empower Focus Implement
+        # Empower Focusing Crystal
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 220, 0, 1, 0) == 1, 20, 99030600, -1)
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 221, 0, 1, 0) == 1, 21, 99030600, -1)
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 222, 0, 1, 0) == 1, 22, 99030600, -1)
@@ -179,6 +179,21 @@ def t400509_x9():
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 227, 0, 1, 0) == 1, 27, 99030600, -1)
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 228, 0, 1, 0) == 1, 28, 99030600, -1)
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 229, 0, 1, 0) == 1, 29, 99030600, -1)
+        
+        # Purchase Item
+        AddTalkListData(1, 15000010, -1)
+        
+        # Give Farron Coal
+        AddTalkListDataIf(GetEventStatus(25009580) == 0 and ComparePlayerInventoryNumber(3, 2103, 2, 0, 0) == 1, 30, 99030620, -1)
+        
+        # Give Sage's Coal
+        AddTalkListDataIf(GetEventStatus(25009581) == 0 and ComparePlayerInventoryNumber(3, 2104, 2, 0, 0) == 1, 31, 99030621, -1)
+        
+        # Give Giant's Coal
+        AddTalkListDataIf(GetEventStatus(25009582) == 0 and ComparePlayerInventoryNumber(3, 2105, 2, 0, 0) == 1, 32, 99030622, -1)
+        
+        # Give Profaned Coal
+        AddTalkListDataIf(GetEventStatus(25009583) == 0 and ComparePlayerInventoryNumber(3, 2106, 2, 0, 0) == 1, 33, 99030623, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008250) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
@@ -264,17 +279,37 @@ def t400509_x9():
             GetItemFromItemLot(800001300)
             OpenGenericDialog(1, 99030612, 0, 0, 0)
             return 0
-        # Covenant
-        elif GetTalkListEntryResult() == 2:
-            """ State 32,33 """
-            SetEventState(25000209, 1)
-            GetItemFromItemLot(800001140)
-            return 0
         # Talk
         elif GetTalkListEntryResult() == 3:
             OpenGenericDialog(1, 99030615, 0, 0, 0)
             return 0
-        # Covenant
+        # Purchase Items
+        elif GetTalkListEntryResult() == 1:
+            OpenRegularShop(290000, 290999)
+        # Give Farron Coal
+        elif GetTalkListEntryResult() == 30:
+            SetEventState(25009580, 1)
+            PlayerEquipmentQuantityChange(3, 2103, -1)
+            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            return 0
+        # Give Sage's Coal
+        elif GetTalkListEntryResult() == 31:
+            SetEventState(25009581, 1)
+            PlayerEquipmentQuantityChange(3, 2104, -1)
+            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            return 0
+        # Give Giant's Coal
+        elif GetTalkListEntryResult() == 32:
+            SetEventState(25009582, 1)
+            PlayerEquipmentQuantityChange(3, 2105, -1)
+            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            return 0
+        # Give Profaned Coal
+        elif GetTalkListEntryResult() == 33:
+            SetEventState(25009583, 1)
+            PlayerEquipmentQuantityChange(3, 2106, -1)
+            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
@@ -287,7 +322,7 @@ def t400509_x50(old_item=_, new_item=_):
     call = t400509_x51(action2=99030601)
     
     if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 2164, 3, 1, 0) == 1:
+        if ComparePlayerInventoryNumber(3, 2164, 3, 0, 0) == 1:
             # No Resonating Crystal
             assert t400509_x52(action1=99030603)
         else:

@@ -62,7 +62,17 @@
 209 Ashen Estus Flask+9
 210 Drained Ashen Estus Flask+10
 211 Ashen Estus Flask+10
-220 Focus Implement
+220 Focusing Crystal +0
+221 Focusing Crystal +1
+222 Focusing Crystal +2
+223 Focusing Crystal +3
+224 Focusing Crystal +4
+225 Focusing Crystal +5
+226 Focusing Crystal +6
+227 Focusing Crystal +7
+228 Focusing Crystal +8
+229 Focusing Crystal +9
+230 Focusing Crystal +10
 240 Divine Blessing
 241 Hidden Blessing
 260 Green Blossom
@@ -252,6 +262,10 @@
 2030 Corrupted Note
 2031 Afflicted Note
 2032 Princely Note
+2033 Priestly Note
+2034 Frozen Note
+2035 Dreg Note
+2036 Burning Note
 2050 Forgotten Key
 2051 Soldier's Key
 2052 Knight's Key
@@ -339,7 +353,6 @@
 3004 Tarnished Coin
 3005 Tarnished Silver Coin
 3018 Hexing Urn
-3019 Holy Water Urn
 3020 Witching Urn
 3021 Old Growth Balm
 3022 Vine Balm
@@ -443,6 +456,10 @@
 4518 Writ of Water
 4519 Writ of Chilling Anger
 4520 Writ of Vengeful Anger
+4521 Writ of Divinity
+4522 Writ of Fury
+4523 Writ of Envy
+4524 Writ of Desire
 5000 Tome: Corrupted Gundyr
 5001 Tome: Vordt
 5002 Tome: Curse-rotted Greatwood
@@ -487,6 +504,24 @@
 5314 Wrathful Tablet
 5315 Crystalline Tablet
 5316 Demonic Tablet
+5399 ### Tools ###
+5400 Ceaseless Firebomb
+5420 Ceaseless Black Firebomb
+5440 Ceaseless Lightning Urn
+5460 Ceaseless Throwing Knife
+5480 Ceaseless Poison Throwing Knife
+5500 Ceaseless Kukri
+5520 Ceaseless Dung Pie
+5540 Ceaseless Alluring Skull
+5560 Enduring Pale Resin
+5580 Enduring Charcoal Resin
+5600 Enduring Gold Resin
+5620 Enduring Human Resin
+5640 Enduring Rotten Resin
+5660 Enduring Carthus Rouge
+5680 Enduring Frozen Resin
+5700 Ceaseless Witching Urn
+5720 Ceaseless Hexing Urn
 7999 ### Developer Tools ###
 8000 Event Flag Tool
 8001 God Tool

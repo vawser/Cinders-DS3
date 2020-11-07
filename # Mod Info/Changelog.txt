@@ -136,11 +136,25 @@
 
 # Map
 - Moved Remy the Rat.
+- Placed Farron Coal/Sage's Coal in Farron Keep.
+- Placed Giant's Coal in Anor Londo.
+- Placed Profaned Coal in Profaned Capital.
 
 # NPCs
 - Changed the Painter 'relationship' stuff so it is a friendship and removed the suggestive undertone.
-- Added Acolyte Grudore: appears in Firelink Shrine opposite the Shrine Handmaid. Romancable, and offers the ability to empower the Focusing Crystal in exchange for Resonating Crystals.
-
+- Added Acolyte Grudore: appears in Firelink Shrine opposite the Shrine Handmaid. 
+ - Romancable
+ - Offers the ability to reinforce the Focusing Crystal in exchange for Resonating Crystals.
+ - Offers the ability to purchase unlimited versions of various consumable items. Certain items are locked behind returning the 4 coals to him, Farron, Sage's, etc.
+  - Added Spellbound Bomb.
+  - Added Spellbound Urn.
+  - Added Spellbound Throwing Knife.
+  - Added Spellbound Kukri.
+  - Added Spellbound Dung.
+  - Added Spellbound Skull.
+  - Added Spellbound Blossom.
+  - Added Spellbound Powder.
+    
 # Bugfixes
 - Corrected some spell tool reinforcement types so they match their current category.
 - Hex catalysts should deal consistent damage with spells.
@@ -151,15 +165,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-400509 Acolyte Grudore
-
-2164 Resonating Crystal
- - CKG
- - High Wall
- - Lothric Castle
- - Road of Sacrifices
- - Grand Archives
- - Cathedral of the Deep
- - Anor Londo
- - Catacombs
- - Irithyll Dungeon

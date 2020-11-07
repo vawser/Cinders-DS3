@@ -3490,6 +3490,8 @@ Dark: increases Dark absorption by 5%.</text>
 <text id="99010002">O turpi viridi egredere de beatus praetorium,
 et deficient et in studiorum omnium satietas.</text>
 
+<text id="99010003">Ego misera, da mihi potestatem, phialam argenteam.</text>
+
 <text id="99010100">Mark of Attraction</text>
 <text id="99010101">Mark of the Dog</text>
 <text id="99010102">Mark of the Crab</text>
@@ -3998,11 +4000,10 @@ You don't have any? Get out of here then.</text>
 Well, well, well, you are a looker, so yes,
 I accept your offer.</text>
 
-<text id="99030600">Empower Focus Implement</text>
-<text id="99030601">Empower implement?</text>
-<text id="99030602">You do not possess an implement</text>
+<text id="99030600">Reinforce Focusing Crystal</text>
+<text id="99030601">Reinforce crystal?</text>
 <text id="99030603">No Resonating Crystal</text>
-<text id="99030604">Focus Implement empowered</text>
+<text id="99030604">Focusing Crystal reinforced</text>
 
 <text id="99030610">Very good, very good indeed.
 Here, take this token of my appreciation.</text>
@@ -4017,7 +4018,15 @@ Heh heh heh...</text>
 <text id="99030615">Still a bit stiff, I'm afraid.
 I am Grudore. A wandering sorcerer of sorts.
 Bring me resonating crystals and I can provide
-services that may be of use to you.</text>
+goods and services that may be of use to you.</text>
+
+<text id="99030620">Give Farron Coal</text>
+<text id="99030621">Give Sage's Coal</text>
+<text id="99030622">Give Giant's Coal</text>
+<text id="99030623">Give Profaned Coal</text>
+
+<text id="99030625">Thank you. This coal will help me greatly.
+Heh heh heh...</text>
 
 </entries>
 </fmg>

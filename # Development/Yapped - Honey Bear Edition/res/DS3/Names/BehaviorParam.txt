@@ -5037,7 +5037,8 @@
 275300991 [Fume Knight]
 280000000 [Script] Gough's Arrow Rain
 280000100 [Script] Lordran Remnant Entry
-280001000 [Script] Freezing Wind
+280001000 [Script] Freezing Wind - Irithyll
+280001100 [Script] Freezing Wind - Vordt
 299900100 Vanguards of c9990_ caries: Attack 1
 299900110 Vanguards of c9990_ caries: a throwing attack
 299900700 Vanguards of c9990_ caries: Paris.

@@ -1887,6 +1887,11 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(25000050, OFF); // Claimed Talisman of Power
     SetEventFlag(25000051, OFF); // Claimed Talisman of Insanity
     SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
+    SetEventFlag(25009580, OFF); // Grudore - Farron Coal
+    SetEventFlag(25009581, OFF); // Grudore - Sage's Coal
+    SetEventFlag(25009582, OFF); // Grudore - Giant's Coal
+    SetEventFlag(25009583, OFF); // Grudore - Profaned Coal
+    
     
     // Enable Firelink Shrine bonfire
     SetBonfireWarpingState(4001950, 60430, Enabled);
@@ -2110,7 +2115,7 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    BatchSetEventFlags(25000600, 25000609, OFF);
+    SetEventFlag(14000757, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });

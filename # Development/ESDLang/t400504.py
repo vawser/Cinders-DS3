@@ -240,6 +240,7 @@ def t400504_x9():
         elif GetTalkListEntryResult() == 5:
             SetEventState(25009520, 1)
             PlayerEquipmentQuantityChange(3, 2002, -1)
+            OpenGenericDialog(1, 99010003, 0, 0, 0)
             continue
         # Relics
         elif GetTalkListEntryResult() == 7:

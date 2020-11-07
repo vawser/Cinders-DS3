@@ -14,7 +14,6 @@
 2300 Ceaseless Dung Pie
 3000 Witching Urn
 3100 Hexing Urn
-3200 Holy Water Urn
 9999 ### NPC Weapons ###
 10000 Bloodlust
 11000 Bewitched Alonne Sword
@@ -26,6 +25,20 @@
 17000 Greatsword of Artorias
 18000 Morne's Great Hammer (Drakekeeeper's Great Hammer)
 19000 Sunlight Straight Sword
+19999 ### Tools ###
+20000 Firebomb
+20100 Black Firebomb
+20200 Lightning Urn
+20300 Throwing Knife
+20400 Poison Throwing Knife
+20500 Kukri
+20600 Church Guardian Shiv
+20700 Dung Pie
+20800 Witching Urn
+20900 Hexing Urn
+21000 Ritual Spear Fragment
+21100 Divine Spear Fragment
+21200 Dragon Stone Tool
 90999 ### Test Data ###
 91000 [Load Check] memory Check 1
 91100 [Load Check] memory Check 1

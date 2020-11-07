@@ -1636,27 +1636,24 @@ Hold up outside the main castle gate to be
 greeted by an escort.
 
 When the High Wall appeared, the path to the Undead Settlement was blocked, and messengers came bearing this banner. They were sent out with a duty, but had no way of returning.</text>
-<text id="2103">Coal used for weapon infusion.
 
-Long ago, used to forge the greatswords of the Undead Legion of Farron.
+<text id="2103">Coal used for tool creation.
+Long ago, used to forge the tools and weaponry of the Undead Legion of Farron.
 
-Give to the blacksmith in the shrine to allow the use of the Farron infusion.</text>
-<text id="2104">Coal used for weapon infusion.
-
+Give to Acolyte Grudore to expand his inventory.</text>
+<text id="2104">Coal used for tool creation.
 The white magic flame produced by this coal was given to the Undead Legion long ago by one of the Crystal Sage twins.
 
-Give to the blacksmith in the shrine to allow the use of the Sage infusion.</text>
-<text id="2105">Coal used for weapon infusion.
-
+Give to Acolyte Grudore to expand his inventory.</text>
+<text id="2105">Coal used for tool creation.
 It is said that the giant blacksmith of Anor Londo was once the blacksmith of the gods.
 
-Give to the blacksmith in the shrine to allow the use of the following infusions:
-Ascended, Crystal, Chaos, Voltaic and Abyssal.</text>
-<text id="2106">Coal used for weapon infusion.
-
+Give to Acolyte Grudore to expand his inventory.</text>
+<text id="2106">Coal used for tool creation.
 Remnants of the fire that burned down the Profaned Capital, preserved in an icy skull.
 
-Give to the blacksmith in the shrine to allow the use of the Profaned infusion.</text>
+Give to Acolyte Grudore to expand his inventory.</text>
+
 <text id="2107">Umbral ash of a resident of the Undead Settlement
 who made a living burying corpses.
 
@@ -2618,6 +2615,47 @@ Once defeated, cannot be summoned again until area reload.</text>
 Whilst embered, beckon Bazdulk, the Demon, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
+
+<text id="5400">Bisque urn filled with black powder.
+Explodes, inflicting fire damage.
+Scales with Luck.
+
+Uniquely crafted by Acolyte Grudore, this firebomb draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5410">Explosive lightning urn.
+Explodes upon contact, inflicting lightning damage.
+Scales with Luck.
+
+Uniquely crafted by Acolyte Grudore, this urn draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5420">Small throwing knife.
+Throw at enemies to inflict damage.
+Scales with Luck.
+
+Uniquely crafted by Acolyte Grudore, this throwing knife draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5430">Small throwing machete.
+Throw at enemies to cause bleeding damage.
+Scales with Luck.
+
+Uniquely crafted by Acolyte Grudore, this kukri draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5440">Dried fecal waste material, moist on the inside.
+
+Throw at enemy to inflict 60 Poison against them and yourself.
+Scales with Luck.
+
+Uniquely crafted by Acolyte Grudore, this dung pie draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5450">A skull resplendent in the scent of souls.
+
+Throw to shatter, spreading souls which attract enemies. Not effective for all foes.
+
+Uniquely crafted by Acolyte Grudore, this skull draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5460">Green weed, shaped like a flower.
+Temporary boost to stamina recovery speed.
+
+Uniquely cultivated by Acolyte Grudore, this blossom draws upon its wielder's focus, allowing for endless usage.</text>
+<text id="5470">Lightly enchanted golden powder.
+
+Repairs equipped weapons and armor, as long as they haven't already broken.
+
+Uniquely crafted by Acolyte Grudore, this powder draws upon its wielder's focus, allowing for endless usage.</text>
 
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>

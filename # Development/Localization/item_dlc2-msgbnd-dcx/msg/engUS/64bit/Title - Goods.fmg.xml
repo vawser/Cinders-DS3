@@ -87,16 +87,16 @@
 <text id="211">Ashen Estus Flask+10</text>
 
 <text id="220">Focusing Crystal</text>
-<text id="221">Focusing Crystal</text>
-<text id="222">Focusing Crystal</text>
-<text id="223">Focusing Crystal</text>
-<text id="224">Focusing Crystal</text>
-<text id="225">Focusing Crystal</text>
-<text id="226">Focusing Crystal</text>
-<text id="227">Focusing Crystal</text>
-<text id="228">Focusing Crystal</text>
-<text id="229">Focusing Crystal</text>
-<text id="230">Focusing Crystal</text>
+<text id="221">Focusing Crystal+1</text>
+<text id="222">Focusing Crystal+2</text>
+<text id="223">Focusing Crystal+3</text>
+<text id="224">Focusing Crystal+4</text>
+<text id="225">Focusing Crystal+5</text>
+<text id="226">Focusing Crystal+6</text>
+<text id="227">Focusing Crystal+7</text>
+<text id="228">Focusing Crystal+8</text>
+<text id="229">Focusing Crystal+9</text>
+<text id="230">Focusing Crystal+10</text>
 
 <text id="240">Divine Blessing</text>
 <text id="241">Hidden Blessing</text>
@@ -458,10 +458,12 @@
 <text id="2100">Master Key</text>
 <text id="2101">%null%</text>
 <text id="2102">Small Lothric Banner</text>
+
 <text id="2103">Farron Coal</text>
 <text id="2104">Sage's Coal</text>
 <text id="2105">Giant's Coal</text>
 <text id="2106">Profaned Coal</text>
+
 <text id="2107">Mortician's Ashes</text>
 <text id="2108">Dreamchaser's Ashes</text>
 <text id="2109">Paladin's Ashes</text>
@@ -690,6 +692,15 @@
 <text id="5314">Wrathful Tablet</text>
 <text id="5315">Crystalline Tablet</text>
 <text id="5316">Demonic Tablet</text>
+
+<text id="5400">Spellbound Bomb</text>
+<text id="5410">Spellbound Urn</text>
+<text id="5420">Spellbound Throwing Knife</text>
+<text id="5430">Spellbound Kukri</text>
+<text id="5440">Spellbound Dung</text>
+<text id="5450">Spellbound Skull</text>
+<text id="5460">Spellbound Blossom</text>
+<text id="5470">Spellbound Powder</text>
 
 <text id="8000">Event Flag Tool</text>
 <text id="8001">God Tool</text>

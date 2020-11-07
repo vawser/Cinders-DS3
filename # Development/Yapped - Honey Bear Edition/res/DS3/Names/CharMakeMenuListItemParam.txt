@@ -256,6 +256,10 @@
 100318 Gift - Corrupted Note
 100319 Gift - Afflicted Note
 100320 Gift - Princely Note
+100321 Gift - Priestly Note
+100322 Gift - Frozen Note
+100323 Gift - Dreg Note
+100324 Gift - Burning Note
 100400 Voice - Young
 100401 Voice - Mature
 100402 Voice - Aged

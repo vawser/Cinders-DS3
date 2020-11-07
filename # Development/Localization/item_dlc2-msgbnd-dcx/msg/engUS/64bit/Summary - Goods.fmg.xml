@@ -441,10 +441,12 @@
 <text id="2100">Changes form to fit any door lock</text>
 <text id="2101">Sinister vessel made from the skull of a noble king</text>
 <text id="2102">Hold up outside the main castle gate to be taken</text>
-<text id="2103">Enable heavy, sharp, and poison infusion</text>
-<text id="2104">Enable crystal, blessed, and deep infusion</text>
-<text id="2105">Enable ascended, crystal, chaos, voltaic and abyssal infusion</text>
-<text id="2106">Enable dark, lacerating, and Hollow infusion</text>
+
+<text id="2103">Give to Acolyte Grudore to expand his inventory</text>
+<text id="2104">Give to Acolyte Grudore to expand his inventory</text>
+<text id="2105">Give to Acolyte Grudore to expand his inventory</text>
+<text id="2106">Give to Acolyte Grudore to expand his inventory</text>
+
 <text id="2107">Shrine handmaid will prepare new items</text>
 <text id="2108">Shrine handmaid will prepare new items</text>
 <text id="2109">Shrine handmaid will prepare new items</text>
@@ -699,6 +701,15 @@
 <text id="5314">Beckon Alfreda to the player</text>
 <text id="5315">Beckon Tazshi to the player</text>
 <text id="5316">Beckon Bazdulk to the player</text>
+
+<text id="5400">Explodes, inflicting fire damage</text>
+<text id="5410">Explodes, inflicting lightning damage</text>
+<text id="5420">Throw at foes to inflict damage</text>
+<text id="5430">Throwing knife. Causes bleed damage.</text>
+<text id="5440">Turns enemy toxic, but also affects user</text>
+<text id="5450">Attracts certain types of enemies</text>
+<text id="5460">Temporary boost to stamina recovery speed</text>
+<text id="5470">Repairs equipped weapons and armor</text>
 
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>

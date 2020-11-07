@@ -227,7 +227,17 @@
 2028 [Item] Ashen Estus Flask +8
 2029 [Item] Ashen Estus Flask +9
 2030 [Item] Ashen Estus Flask +10
-2040 [Item] Focus Implement
+2040 [Item] Focusing Crystal +0
+2041 [Item] Focusing Crystal +1
+2042 [Item] Focusing Crystal +2
+2043 [Item] Focusing Crystal +3
+2044 [Item] Focusing Crystal +4
+2045 [Item] Focusing Crystal +5
+2046 [Item] Focusing Crystal +6
+2047 [Item] Focusing Crystal +7
+2048 [Item] Focusing Crystal +8
+2049 [Item] Focusing Crystal +9
+2050 [Item] Focusing Crystal +10
 2100 [Item] Charcoal Pine Resin - Right Hand
 2110 [Item] Charcoal Pine Bundle - Right Hand
 2120 [Item] Gold Pine Resin - Right Hand
@@ -4742,6 +4752,10 @@
 160709518 Writ of Water
 160709519 Writ of Chilling Anger
 160709520 Writ of Vengeful Anger
+160709521 Writ of Divinity
+160709522 Writ of Fury
+160709523 Writ of Envy
+160709524 Writ of Desire
 160709999 ### Developer Items ###
 160710000 Detection - Event Flag Tool
 160710101 Effect - God Tool
@@ -4800,6 +4814,7 @@
 160750140 Swamp - Inflict Toxic
 160750200 Warp - Untended Graves
 160750300 Freezing Wind
+160750400 Bonfire Fade
 160759999 ### Companions ###
 160760000 Trigger - Solaire
 160760001 Trigger - Lesser Crab - El Crabbo

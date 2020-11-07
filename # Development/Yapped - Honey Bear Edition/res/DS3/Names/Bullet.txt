@@ -3636,6 +3636,9 @@
 230010020 Remnants of Lordran - Gough's Arrow [Hit]
 230011000 Remnants of Lordran - Boss Entry
 230012000 Remnants of Lordran - Ciaran's Soul Dreg
-230020000 Freezing Wind [Emitter]
-230020020 Freezing Wind - Line [Hit]
-230020030 Freezing Wind - Initial Point [Hit]
+230020000 Irithyll - Freezing Wind [Emitter]
+230020020 Irithyll - Freezing Wind - Line [Hit]
+230020030 Irithyll - Freezing Wind - Initial Point [Hit]
+230021000 Vordt - Freezing Wind [Emitter]
+230021010 Vordt - Freezing Wind - Line [Hit]
+230021020 Vordt - Freezing Wind - Initial Point [Hit]
