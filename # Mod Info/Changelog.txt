@@ -81,6 +81,9 @@
 # Mechanics
 - Andre will now reinforce Pyromancy Flame type weapons.
 
+# Weapons
+- Moonlight Greatsword Fire/Lightning/Dark infusion now changes the model to the ethereal model, and changes its color to Red/Yellow/Purple.
+
 # Spell Tools
 - Increased catalyst reinforcement multipliers. Topped at *2, now tops at *4.
 - Pyromancy catalysts now gain have base 50% free scaling instead of 100%. Overall scaling cap has been increased though.
