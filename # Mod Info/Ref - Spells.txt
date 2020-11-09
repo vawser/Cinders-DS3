@@ -842,7 +842,7 @@ Deep Protection
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 30
 - Slot Use: 2
 - Lightning Damage: 100 {*10, shared}
 - FTH Req: 60

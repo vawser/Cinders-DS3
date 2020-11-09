@@ -74,93 +74,19 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Companions
-- Boosted base HP for the weaker companions.
-- Boosted their scaling in NG+.
-- Restorative Brew now restores 20% in exchange for 5%.
 
-# Mechanics
-- Andre will now reinforce Pyromancy Flame type weapons.
-- Removed Resonating Crystal crow trade.
-
-# Weapons
-- Moonlight Greatsword Fire/Lightning/Dark infusion now changes the model to the ethereal model, and changes its color to Red/Yellow/Purple.
-
-# Spell Tools
-- Increased catalyst reinforcement multipliers. Topped at *2, now tops at *4.
-- Pyromancy catalysts now gain have base 50% free scaling instead of 100%. Overall scaling cap has been increased though.
-- Sorcerer's Staff WA: now Arcane Ward, boosts Magic absorption by 30% for 60 seconds.
-- Sage's Crystal Staff WA: now Homing Crystal Soulmass.
-- Court Sorcerer's Staff WA: now Homing Soulmass.
-- Crystal Chime WA: now Crystalline Storm.
-- Heysel Pick WA: now Twist Light (Twisted Wall of Light).
-- Blue Flame WA: now Leydia Enchantment, adds 100 Magic damage to blade for 60 seconds.
-- Sunless Talisman WA: now Moonlight Wave (Soul Wave).
-- Talisman WA: now Force.
-- Sunlight Talisman WA: now Heavenly Thunder.
-- Saint's Talisman WA: now Wrath of the Gods.
-- Rose of Ariandel WA: now grants immunity to damage for 15 seconds.
-- Heretic's Staff WA: now Silence: an enemy-only silence.
-- Murky Longstaff WA: now Despairing Whisper.
-- Archdeacon's Great Staff WA: now Punish the Dead (Dead Again)
-- Corrupted Talisman WA: Yearning (Yearning Dregs)
-- Pilgrim's Spontoon WA: now Pilgrim's Enchantment, adds 100 Dark damage to blade for 60 seconds.
-- Insanity Catalyst WA: nows operates differently: each WA use adds a stack, each stack adds +5% Dark spell damage, but reduces max HP by 25% and adds 1 HP loss. The stacks do not expire until death.
-- Manus Catalyst WA: now randomly triggers one of 4 spells: Affinity, Cascading Deep, Dark Bead, Climax
+# Merchants
+- Moved Soul Greatsword unlock to the Sage's Scroll.
 
 # Spells
-- Reduced the base damage of spells to account for the new catalyst reinforcement multipliers. This means spells should be weaker at the start, but as strong as before in the endgame.
-- SpEffects that scaled with Spell Buff no longer do so. The base value has been increased in these cases to compensate some what.
-- Overwhelming Power now acts more like Gael's lightning. It is fired and then lightning is shot down in a continious fashion from multiple blue lightning orbs for 5 seconds. FP cost is now 30 and single shot. Damage dealt per lightning spear is 150.
+- Carthus Flame Arc is now 2 slots.
+- Floating Chaos/Dreg Torrent/Recollection emitted bullets now last longer.
+- Floating Chaos now emits at the correct rate.
+- Heavenly Thunder is now more accurate with its emitted bullets.
 
-# Items
-- Renamed Primordial Essence to Primordial Fragment and changed it icon to that.
-- Added Writ of Divinity: adds a divine light to the body
-- Added Writ of Fury: adds smouldering red aura to the body
-- Added Writ of Envy: adds green eyes.
-- Added Writ of Desire: adds purple eyes.
-- Renamed Focus Implement to Focusing Crystal.
-- Focusing Crystal can now be empowered by Acolyte Grudore, increasing its restoration value from 100 up to 600.
-- Resonating Crystals are now a material used by Acolyte Grudore to empower the Focusing Crystal. Old sources have been removed, and now 9 are found throughout the world (the tenth is Grudore's flirt reward).
-
-# Gifts
-- The Note gifts are no longer removed, which means they'll apply in NG+ too.
-- Added Priestly Note: start in the Cathedral of the Deep.
-- Added Frozen Note: start in Ariandel
-- Added Dreg Note: start in the Dreg Heap
-- Added Burning Note: start in the Ringed City.
-
-# Enemies
-- Boosted enemy area damage multiplier for the early/mid areas.
-- Removed Vordt's speed increase.
-
-# Map
-- Moved Remy the Rat.
-- Placed Farron Coal/Sage's Coal in Farron Keep.
-- Placed Giant's Coal in Anor Londo.
-- Placed Profaned Coal in Profaned Capital.
-
-# NPCs
-- Changed the Painter 'relationship' stuff so it is a friendship and removed the suggestive undertone.
-- Added Acolyte Grudore: appears in Firelink Shrine opposite the Shrine Handmaid. 
- - Romancable
- - Offers the ability to reinforce the Focusing Crystal in exchange for Resonating Crystals.
- - Offers the ability to purchase unlimited versions of various consumable items. Certain items are locked behind returning the 4 coals to him, Farron, Sage's, etc.
-  - Added Spellbound Bomb.
-  - Added Spellbound Urn.
-  - Added Spellbound Throwing Knife.
-  - Added Spellbound Kukri.
-  - Added Spellbound Dung.
-  - Added Spellbound Skull.
-  - Added Spellbound Blossom.
-  - Added Spellbound Powder.
-    
 # Bugfixes
-- Corrected some spell tool reinforcement types so they match their current category.
-- Hex catalysts should deal consistent damage with spells.
-- Ritualist Ellie no longer gives out endless Ritual Incense.
-- The Ringed City intruders should be fixed.
-- Halflight will no longer respawn without the use of the tome.
+- Londor Pale Shade can wield her chime now.
+- Companions are now dismissed when a boss starts, to prevent exploits.
 
 #------------------------------
 # TODO - General
