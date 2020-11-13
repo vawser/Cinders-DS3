@@ -353,7 +353,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 40
 - INT Req: 40
-- Base Effect: Adds 80 Magic damage to main weapon for 60 seconds.
+- Base Effect: Adds 60 Magic damage to main weapon for 60 seconds.
 - Ascended Effect: reduces sorcery FP consumption by 20%, extends duration to 90 seconds.
 
 #--------------------------------
@@ -362,7 +362,7 @@ Deep Protection
 - FP Cost: 50
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Adds 120 Magic damage to main weapon for 30 seconds.
+- Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
 - Ascended Effect: extends duration to 300 seconds.
 
 #--------------------------------
@@ -710,7 +710,7 @@ Deep Protection
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 3
-- Base Effect: adds 100 Fire damage to main weapon for 60 seconds.
+- Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
 - Ascended Effect: increases stamina damage by 100%.
 
 #--------------------------------
@@ -1032,8 +1032,8 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 2
 - FTH Req: 40
-- Base Effect: increases Physical damage by 80 and restores 5 HP per second for 60 seconds.
-- Ascended Effect: increases Physical damage by 100.
+- Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds.
+- Ascended Effect: increases Physical damage by 75.
 
 #--------------------------------
 # Sacred Oath
@@ -1051,7 +1051,7 @@ Deep Protection
 - Slot Use: 2
 - Lightning Damage: 80
 - FTH Req: 40
-- Base Effect: adds 120 Lightning damage to main weapon for 60 seconds.
+- Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
 - Ascended Effect: attacks reduces enemy poise by 50% for 5 seconds on hit.
 
 #--------------------------------
@@ -1061,7 +1061,7 @@ Deep Protection
 - Slot Use: 2
 - Magic Damage: 80
 - FTH Req: 40
-- Base Effect: adds 120 Magic damage to main weapon for 60 seconds.
+- Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
 - Ascended Effect: grants 1 FP per second.
 
 #--------------------------------
@@ -1490,7 +1490,7 @@ Deep Protection
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Base Effect: adds 80 Dark damage to main weapon and restores 0.25% HP per second for 60 seconds.
+- Base Effect: adds 75 Dark damage to main weapon and restores 0.25% HP per second for 60 seconds.
 - Ascended Effect: restores 0.5% HP per second (scales with spell buff).
 
 #--------------------------------

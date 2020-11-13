@@ -74,7 +74,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
@@ -83,6 +82,11 @@
 - Floating Chaos/Dreg Torrent/Recollection emitted bullets now last longer.
 - Floating Chaos now emits at the correct rate.
 - Heavenly Thunder is now more accurate with its emitted bullets.
+- The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *5 multiplier at max spell buff.
+- The heal spells now scale with spell buff again.
+
+# Map
+- Moved the Company of Champions covenant pickup to the old Ashen Estus Flask location.
 
 # Bugfixes
 - Londor Pale Shade can wield her chime now.
