@@ -245,6 +245,9 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         # Shield Infusions
         AddTalkListData(12, 15003022, -1)
         
+        # Catalyst Infusions
+        AddTalkListData(13, 15003029, -1)
+        
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008130) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         # Flirt
@@ -283,6 +286,7 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
             CombineMenuFlagAndEventFlag(6001, 232)
             CombineMenuFlagAndEventFlag(6001, 233)
             CombineMenuFlagAndEventFlag(6001, 234)
+            CombineMenuFlagAndEventFlag(6001, 235)
                 
             """ State 6 """
             OpenEquipmentChangeOfPurposeShop()
@@ -332,6 +336,9 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
             continue
         elif GetTalkListEntryResult() == 12:
             OpenGenericDialog(1, 99004001, 0, 0, 0)
+            continue
+        elif GetTalkListEntryResult() == 13:
+            OpenGenericDialog(1, 99004002, 0, 0, 0)
             continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 30:

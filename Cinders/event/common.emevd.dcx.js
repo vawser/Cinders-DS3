@@ -2089,11 +2089,13 @@ Event(20042, Default, function() {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     SetSpeffect(10000, 130134101);
+    SetSpeffect(10000, 130134110);
     
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, false, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
     ClearSpeffect(10000, 130134101);
+    ClearSpeffect(10000, 130134110);
     
     EndUnconditionally(EventEndType.Restart);
 });

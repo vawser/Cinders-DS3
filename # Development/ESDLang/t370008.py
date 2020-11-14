@@ -264,6 +264,7 @@ def t370008_x9():
             CombineMenuFlagAndEventFlag(6001, 232)
             CombineMenuFlagAndEventFlag(6001, 233)
             CombineMenuFlagAndEventFlag(6001, 234)
+            CombineMenuFlagAndEventFlag(6001, 235)
                 
             """ State 86 """
             OpenEquipmentChangeOfPurposeShop()
@@ -275,6 +276,7 @@ def t370008_x9():
             CombineMenuFlagAndEventFlag(6001, 232)
             CombineMenuFlagAndEventFlag(6001, 233)
             CombineMenuFlagAndEventFlag(6001, 234)
+            CombineMenuFlagAndEventFlag(6001, 235)
             
             """ State 89 """
             OpenEnhanceShop(0)

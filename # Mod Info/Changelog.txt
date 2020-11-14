@@ -77,6 +77,19 @@
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
+# Infusions
+- Enchanted/Clarity infusions now add 2 FP per second (was 1).
+- Catalysts now have 4 infusions:
+ - Pulsating: adds 2 FP regen, costs 20 Crystal Fragments
+ - Vibrating: adds 3 HP regen, costs 20 Holy Fragments
+ - Throbbing: adds the ascended effects for spells, costs 20 Fire Seeds
+ - Quivering: adds 25 cast speed, costs 20 Abyssal Fragments
+ - The infusions reduce scaling slightly.
+
+# Spell Tools
+- Restored the multi-school abilities for various catalysts.
+- Ascended effects are now added via the Throbbing infusion.
+
 # Spells
 - Carthus Flame Arc is now 2 slots.
 - Floating Chaos/Dreg Torrent/Recollection emitted bullets now last longer.

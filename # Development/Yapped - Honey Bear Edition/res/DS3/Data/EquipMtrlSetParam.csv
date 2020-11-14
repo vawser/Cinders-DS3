@@ -1,0 +1,993 @@
+ID,Name,Material ID 1,Material ID 2,Material ID 3,Material ID 4,Material ID 5,Item Amount 1,Item Amount 2,Item Amount 3,Item Amount 4,Item Amount 5,Is Disable Display Number 1,Is Disable Display Number 2,Is Disable Display Number 3,Is Disable Display Number 4,Is Disable Display Number 5
+0,Titanite - Stock +0,1250,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1,Titanite - Stock +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2,Titanite - Stock +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3,Titanite - Stock +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+4,Titanite - Stock +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5,Titanite - Stock +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6,Titanite - Stock +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+7,Titanite - Stock +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+8,Titanite - Stock +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+9,Titanite - Stock +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+10,Titanite - Stock +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+11,Titanite - Stock +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+12,Titanite - Stock +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+13,Titanite - Stock +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+14,Titanite - Stock +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+15,Titanite - Stock +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+100,Titanite - Lethal +0,4000,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+101,Titanite - Lethal +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+102,Titanite - Lethal +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+103,Titanite - Lethal +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+104,Titanite - Lethal +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+105,Titanite - Lethal +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+106,Titanite - Lethal +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+107,Titanite - Lethal +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+108,Titanite - Lethal +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+109,Titanite - Lethal +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+110,Titanite - Lethal +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+111,Titanite - Lethal +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+112,Titanite - Lethal +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+113,Titanite - Lethal +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+114,Titanite - Lethal +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+115,Titanite - Lethal +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200,Titanite - Curse +0,4001,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201,Titanite - Curse +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+202,Titanite - Curse +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+203,Titanite - Curse +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+204,Titanite - Curse +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+205,Titanite - Curse +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+206,Titanite - Curse +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+207,Titanite - Curse +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+208,Titanite - Curse +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+209,Titanite - Curse +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+210,Titanite - Curse +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+211,Titanite - Curse +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+212,Titanite - Curse +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+213,Titanite - Curse +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+214,Titanite - Curse +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+215,Titanite - Curse +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+300,Titanite - Poison +0,4002,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+301,Titanite - Poison +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+302,Titanite - Poison +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+303,Titanite - Poison +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+304,Titanite - Poison +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+305,Titanite - Poison +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+306,Titanite - Poison +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+307,Titanite - Poison +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+308,Titanite - Poison +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+309,Titanite - Poison +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+310,Titanite - Poison +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+311,Titanite - Poison +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+312,Titanite - Poison +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+313,Titanite - Poison +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+314,Titanite - Poison +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+315,Titanite - Poison +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+400,Titanite - Blood +0,4003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+401,Titanite - Blood +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+402,Titanite - Blood +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+403,Titanite - Blood +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+404,Titanite - Blood +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+405,Titanite - Blood +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+406,Titanite - Blood +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+407,Titanite - Blood +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+408,Titanite - Blood +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+409,Titanite - Blood +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+410,Titanite - Blood +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+411,Titanite - Blood +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+412,Titanite - Blood +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+413,Titanite - Blood +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+414,Titanite - Blood +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+415,Titanite - Blood +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+500,Titanite - Frost +0,4004,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+501,Titanite - Frost +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+502,Titanite - Frost +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+503,Titanite - Frost +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+504,Titanite - Frost +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+505,Titanite - Frost +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+506,Titanite - Frost +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+507,Titanite - Frost +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+508,Titanite - Frost +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+509,Titanite - Frost +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+510,Titanite - Frost +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+511,Titanite - Frost +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+512,Titanite - Frost +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+513,Titanite - Frost +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+514,Titanite - Frost +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+515,Titanite - Frost +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+600,Titanite - Magic +0,4005,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+601,Titanite - Magic +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+602,Titanite - Magic +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+603,Titanite - Magic +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+604,Titanite - Magic +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+605,Titanite - Magic +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+606,Titanite - Magic +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+607,Titanite - Magic +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+608,Titanite - Magic +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+609,Titanite - Magic +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+610,Titanite - Magic +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+611,Titanite - Magic +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+612,Titanite - Magic +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+613,Titanite - Magic +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+614,Titanite - Magic +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+615,Titanite - Magic +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+700,Titanite - Fire +0,4006,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+701,Titanite - Fire +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+702,Titanite - Fire +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+703,Titanite - Fire +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+704,Titanite - Fire +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+705,Titanite - Fire +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+706,Titanite - Fire +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+707,Titanite - Fire +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+708,Titanite - Fire +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+709,Titanite - Fire +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+710,Titanite - Fire +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+711,Titanite - Fire +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+712,Titanite - Fire +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+713,Titanite - Fire +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+714,Titanite - Fire +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+715,Titanite - Fire +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+800,Titanite - Lightning +0,4007,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+801,Titanite - Lightning +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+802,Titanite - Lightning +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+803,Titanite - Lightning +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+804,Titanite - Lightning +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+805,Titanite - Lightning +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+806,Titanite - Lightning +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+807,Titanite - Lightning +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+808,Titanite - Lightning +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+809,Titanite - Lightning +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+810,Titanite - Lightning +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+811,Titanite - Lightning +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+812,Titanite - Lightning +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+813,Titanite - Lightning +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+814,Titanite - Lightning +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+815,Titanite - Lightning +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+900,Titanite - Dark +0,4008,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+901,Titanite - Dark +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+902,Titanite - Dark +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+903,Titanite - Dark +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+904,Titanite - Dark +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+905,Titanite - Dark +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+906,Titanite - Dark +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+907,Titanite - Dark +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+908,Titanite - Dark +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+909,Titanite - Dark +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+910,Titanite - Dark +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+911,Titanite - Dark +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+912,Titanite - Dark +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+913,Titanite - Dark +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+914,Titanite - Dark +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+915,Titanite - Dark +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+1000,Titanite - Lucky +0,4009,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1001,Titanite - Lucky +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1002,Titanite - Lucky +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1003,Titanite - Lucky +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1004,Titanite - Lucky +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1005,Titanite - Lucky +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1006,Titanite - Lucky +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1007,Titanite - Lucky +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1008,Titanite - Lucky +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1009,Titanite - Lucky +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1010,Titanite - Lucky +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1011,Titanite - Lucky +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1012,Titanite - Lucky +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1013,Titanite - Lucky +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+1014,Titanite - Lucky +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1015,Titanite - Lucky +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+1100,Titanite - Enchanted +0,4010,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1101,Titanite - Enchanted +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1102,Titanite - Enchanted +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1103,Titanite - Enchanted +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1104,Titanite - Enchanted +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1105,Titanite - Enchanted +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1106,Titanite - Enchanted +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1107,Titanite - Enchanted +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1108,Titanite - Enchanted +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1109,Titanite - Enchanted +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1110,Titanite - Enchanted +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1111,Titanite - Enchanted +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1112,Titanite - Enchanted +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1113,Titanite - Enchanted +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+1114,Titanite - Enchanted +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1115,Titanite - Enchanted +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+1200,Titanite - Holy +0,4011,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1201,Titanite - Holy +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1202,Titanite - Holy +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1203,Titanite - Holy +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1204,Titanite - Holy +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1205,Titanite - Holy +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1206,Titanite - Holy +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1207,Titanite - Holy +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1208,Titanite - Holy +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1209,Titanite - Holy +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1210,Titanite - Holy +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1211,Titanite - Holy +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1212,Titanite - Holy +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1213,Titanite - Holy +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+1214,Titanite - Holy +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1215,Titanite - Holy +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+1300,Titanite - Sharp +0,4012,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1301,Titanite - Sharp +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1302,Titanite - Sharp +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1303,Titanite - Sharp +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1304,Titanite - Sharp +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1305,Titanite - Sharp +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1306,Titanite - Sharp +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1307,Titanite - Sharp +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1308,Titanite - Sharp +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1309,Titanite - Sharp +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1310,Titanite - Sharp +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1311,Titanite - Sharp +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1312,Titanite - Sharp +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1313,Titanite - Sharp +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+1314,Titanite - Sharp +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1315,Titanite - Sharp +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+1400,Titanite - Blunt +0,4013,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1401,Titanite - Blunt +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1402,Titanite - Blunt +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1403,Titanite - Blunt +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1404,Titanite - Blunt +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1405,Titanite - Blunt +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1406,Titanite - Blunt +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1407,Titanite - Blunt +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1408,Titanite - Blunt +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1409,Titanite - Blunt +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+1410,Titanite - Blunt +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1411,Titanite - Blunt +11,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+1412,Titanite - Blunt +12,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+1413,Titanite - Blunt +13,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+1414,Titanite - Blunt +14,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+1415,Titanite - Blunt +15,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2000,Twinkling Titanite - Stock +0,1250,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2001,Twinkling Titanite - Stock +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2002,Twinkling Titanite - Stock +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2003,Twinkling Titanite - Stock +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2004,Twinkling Titanite - Stock +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2005,Twinkling Titanite - Stock +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2006,Twinkling Titanite - Stock +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2007,Twinkling Titanite - Stock +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2008,Twinkling Titanite - Stock +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2009,Twinkling Titanite - Stock +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2010,Twinkling Titanite - Stock +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2100,Twinkling Titanite - Lethal +0,4000,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2101,Twinkling Titanite - Lethal +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2102,Twinkling Titanite - Lethal +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2103,Twinkling Titanite - Lethal +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2104,Twinkling Titanite - Lethal +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2105,Twinkling Titanite - Lethal +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2106,Twinkling Titanite - Lethal +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2107,Twinkling Titanite - Lethal +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2108,Twinkling Titanite - Lethal +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2109,Twinkling Titanite - Lethal +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2110,Twinkling Titanite - Lethal +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2200,Twinkling Titanite - Curse +0,4001,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2201,Twinkling Titanite - Curse +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2202,Twinkling Titanite - Curse +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2203,Twinkling Titanite - Curse +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2204,Twinkling Titanite - Curse +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2205,Twinkling Titanite - Curse +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2206,Twinkling Titanite - Curse +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2207,Twinkling Titanite - Curse +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2208,Twinkling Titanite - Curse +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2209,Twinkling Titanite - Curse +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2210,Twinkling Titanite - Curse +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2300,Twinkling Titanite - Poison +0,4002,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2301,Twinkling Titanite - Poison +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2302,Twinkling Titanite - Poison +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2303,Twinkling Titanite - Poison +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2304,Twinkling Titanite - Poison +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2305,Twinkling Titanite - Poison +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2306,Twinkling Titanite - Poison +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2307,Twinkling Titanite - Poison +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2308,Twinkling Titanite - Poison +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2309,Twinkling Titanite - Poison +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2310,Twinkling Titanite - Poison +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2400,Twinkling Titanite - Blood +0,4003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2401,Twinkling Titanite - Blood +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2402,Twinkling Titanite - Blood +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2403,Twinkling Titanite - Blood +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2404,Twinkling Titanite - Blood +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2405,Twinkling Titanite - Blood +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2406,Twinkling Titanite - Blood +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2407,Twinkling Titanite - Blood +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2408,Twinkling Titanite - Blood +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2409,Twinkling Titanite - Blood +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2410,Twinkling Titanite - Blood +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2500,Twinkling Titanite - Frost +0,4004,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2501,Twinkling Titanite - Frost +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2502,Twinkling Titanite - Frost +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2503,Twinkling Titanite - Frost +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2504,Twinkling Titanite - Frost +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2505,Twinkling Titanite - Frost +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2506,Twinkling Titanite - Frost +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2507,Twinkling Titanite - Frost +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2508,Twinkling Titanite - Frost +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2509,Twinkling Titanite - Frost +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2510,Twinkling Titanite - Frost +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2600,Twinkling Titanite - Magic +0,4005,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2601,Twinkling Titanite - Magic +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2602,Twinkling Titanite - Magic +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2603,Twinkling Titanite - Magic +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2604,Twinkling Titanite - Magic +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2605,Twinkling Titanite - Magic +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2606,Twinkling Titanite - Magic +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2607,Twinkling Titanite - Magic +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2608,Twinkling Titanite - Magic +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2609,Twinkling Titanite - Magic +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2610,Twinkling Titanite - Magic +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2700,Twinkling Titanite - Fire +0,4006,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2701,Twinkling Titanite - Fire +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2702,Twinkling Titanite - Fire +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2703,Twinkling Titanite - Fire +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2704,Twinkling Titanite - Fire +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2705,Twinkling Titanite - Fire +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2706,Twinkling Titanite - Fire +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2707,Twinkling Titanite - Fire +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2708,Twinkling Titanite - Fire +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2709,Twinkling Titanite - Fire +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2710,Twinkling Titanite - Fire +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2800,Twinkling Titanite - Lightning +0,4007,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2801,Twinkling Titanite - Lightning +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2802,Twinkling Titanite - Lightning +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2803,Twinkling Titanite - Lightning +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2804,Twinkling Titanite - Lightning +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2805,Twinkling Titanite - Lightning +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2806,Twinkling Titanite - Lightning +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2807,Twinkling Titanite - Lightning +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2808,Twinkling Titanite - Lightning +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2809,Twinkling Titanite - Lightning +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2810,Twinkling Titanite - Lightning +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2900,Twinkling Titanite - Dark +0,4008,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2901,Twinkling Titanite - Dark +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2902,Twinkling Titanite - Dark +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2903,Twinkling Titanite - Dark +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2904,Twinkling Titanite - Dark +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+2905,Twinkling Titanite - Dark +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2906,Twinkling Titanite - Dark +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+2907,Twinkling Titanite - Dark +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+2908,Twinkling Titanite - Dark +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+2909,Twinkling Titanite - Dark +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+2910,Twinkling Titanite - Dark +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3000,Twinkling Titanite - Lucky +0,4009,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3001,Twinkling Titanite - Lucky +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3002,Twinkling Titanite - Lucky +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3003,Twinkling Titanite - Lucky +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3004,Twinkling Titanite - Lucky +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3005,Twinkling Titanite - Lucky +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3006,Twinkling Titanite - Lucky +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3007,Twinkling Titanite - Lucky +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3008,Twinkling Titanite - Lucky +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3009,Twinkling Titanite - Lucky +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3010,Twinkling Titanite - Lucky +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3100,Twinkling Titanite - Enchanted +0,4010,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3101,Twinkling Titanite - Enchanted +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3102,Twinkling Titanite - Enchanted +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3103,Twinkling Titanite - Enchanted +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3104,Twinkling Titanite - Enchanted +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3105,Twinkling Titanite - Enchanted +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3106,Twinkling Titanite - Enchanted +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3107,Twinkling Titanite - Enchanted +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3108,Twinkling Titanite - Enchanted +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3109,Twinkling Titanite - Enchanted +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3110,Twinkling Titanite - Enchanted +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3200,Twinkling Titanite - Holy +0,4011,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3201,Twinkling Titanite - Holy +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3202,Twinkling Titanite - Holy +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3203,Twinkling Titanite - Holy +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3204,Twinkling Titanite - Holy +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3205,Twinkling Titanite - Holy +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3206,Twinkling Titanite - Holy +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3207,Twinkling Titanite - Holy +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3208,Twinkling Titanite - Holy +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3209,Twinkling Titanite - Holy +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3210,Twinkling Titanite - Holy +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3300,Twinkling Titanite - Sharp +0,4012,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3301,Twinkling Titanite - Sharp +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3302,Twinkling Titanite - Sharp +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3303,Twinkling Titanite - Sharp +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3304,Twinkling Titanite - Sharp +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3305,Twinkling Titanite - Sharp +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3306,Twinkling Titanite - Sharp +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3307,Twinkling Titanite - Sharp +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3308,Twinkling Titanite - Sharp +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3309,Twinkling Titanite - Sharp +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3310,Twinkling Titanite - Sharp +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3400,Twinkling Titanite - Blunt +0,4013,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3401,Twinkling Titanite - Blunt +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3402,Twinkling Titanite - Blunt +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3403,Twinkling Titanite - Blunt +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3404,Twinkling Titanite - Blunt +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+3405,Twinkling Titanite - Blunt +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3406,Twinkling Titanite - Blunt +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+3407,Twinkling Titanite - Blunt +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+3408,Twinkling Titanite - Blunt +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+3409,Twinkling Titanite - Blunt +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+3410,Twinkling Titanite - Blunt +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4000,Titanite Scale - Stock +0,1250,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4001,Titanite Scale - Stock +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4002,Titanite Scale - Stock +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4003,Titanite Scale - Stock +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4004,Titanite Scale - Stock +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4005,Titanite Scale - Stock +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4006,Titanite Scale - Stock +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4007,Titanite Scale - Stock +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4008,Titanite Scale - Stock +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4009,Titanite Scale - Stock +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4010,Titanite Scale - Stock +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4100,Titanite Scale - Lethal +0,4000,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4101,Titanite Scale - Lethal +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4102,Titanite Scale - Lethal +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4103,Titanite Scale - Lethal +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4104,Titanite Scale - Lethal +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4105,Titanite Scale - Lethal +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4106,Titanite Scale - Lethal +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4107,Titanite Scale - Lethal +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4108,Titanite Scale - Lethal +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4109,Titanite Scale - Lethal +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4110,Titanite Scale - Lethal +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4200,Titanite Scale - Curse +0,4001,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4201,Titanite Scale - Curse +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4202,Titanite Scale - Curse +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4203,Titanite Scale - Curse +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4204,Titanite Scale - Curse +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4205,Titanite Scale - Curse +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4206,Titanite Scale - Curse +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4207,Titanite Scale - Curse +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4208,Titanite Scale - Curse +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4209,Titanite Scale - Curse +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4210,Titanite Scale - Curse +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4300,Titanite Scale - Poison +0,4002,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4301,Titanite Scale - Poison +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4302,Titanite Scale - Poison +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4303,Titanite Scale - Poison +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4304,Titanite Scale - Poison +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4305,Titanite Scale - Poison +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4306,Titanite Scale - Poison +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4307,Titanite Scale - Poison +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4308,Titanite Scale - Poison +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4309,Titanite Scale - Poison +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4310,Titanite Scale - Poison +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4400,Titanite Scale - Blood +0,4003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4401,Titanite Scale - Blood +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4402,Titanite Scale - Blood +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4403,Titanite Scale - Blood +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4404,Titanite Scale - Blood +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4405,Titanite Scale - Blood +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4406,Titanite Scale - Blood +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4407,Titanite Scale - Blood +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4408,Titanite Scale - Blood +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4409,Titanite Scale - Blood +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4410,Titanite Scale - Blood +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4500,Titanite Scale - Frost +0,4004,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4501,Titanite Scale - Frost +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4502,Titanite Scale - Frost +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4503,Titanite Scale - Frost +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4504,Titanite Scale - Frost +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4505,Titanite Scale - Frost +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4506,Titanite Scale - Frost +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4507,Titanite Scale - Frost +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4508,Titanite Scale - Frost +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4509,Titanite Scale - Frost +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4510,Titanite Scale - Frost +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4600,Titanite Scale - Magic +0,4005,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4601,Titanite Scale - Magic +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4602,Titanite Scale - Magic +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4603,Titanite Scale - Magic +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4604,Titanite Scale - Magic +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4605,Titanite Scale - Magic +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4606,Titanite Scale - Magic +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4607,Titanite Scale - Magic +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4608,Titanite Scale - Magic +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4609,Titanite Scale - Magic +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4610,Titanite Scale - Magic +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4700,Titanite Scale - Fire +0,4006,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4701,Titanite Scale - Fire +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4702,Titanite Scale - Fire +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4703,Titanite Scale - Fire +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4704,Titanite Scale - Fire +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4705,Titanite Scale - Fire +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4706,Titanite Scale - Fire +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4707,Titanite Scale - Fire +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4708,Titanite Scale - Fire +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4709,Titanite Scale - Fire +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4710,Titanite Scale - Fire +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4800,Titanite Scale - Lightning +0,4007,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4801,Titanite Scale - Lightning +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4802,Titanite Scale - Lightning +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4803,Titanite Scale - Lightning +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4804,Titanite Scale - Lightning +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4805,Titanite Scale - Lightning +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4806,Titanite Scale - Lightning +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4807,Titanite Scale - Lightning +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4808,Titanite Scale - Lightning +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4809,Titanite Scale - Lightning +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4810,Titanite Scale - Lightning +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4900,Titanite Scale - Dark +0,4008,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4901,Titanite Scale - Dark +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4902,Titanite Scale - Dark +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4903,Titanite Scale - Dark +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4904,Titanite Scale - Dark +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+4905,Titanite Scale - Dark +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4906,Titanite Scale - Dark +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+4907,Titanite Scale - Dark +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+4908,Titanite Scale - Dark +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+4909,Titanite Scale - Dark +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+4910,Titanite Scale - Dark +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5000,Titanite Scale - Lucky +0,4009,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5001,Titanite Scale - Lucky +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5002,Titanite Scale - Lucky +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5003,Titanite Scale - Lucky +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5004,Titanite Scale - Lucky +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5005,Titanite Scale - Lucky +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5006,Titanite Scale - Lucky +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5007,Titanite Scale - Lucky +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5008,Titanite Scale - Lucky +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5009,Titanite Scale - Lucky +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5010,Titanite Scale - Lucky +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5100,Titanite Scale - Enchanted +0,4010,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5101,Titanite Scale - Enchanted +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5102,Titanite Scale - Enchanted +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5103,Titanite Scale - Enchanted +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5104,Titanite Scale - Enchanted +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5105,Titanite Scale - Enchanted +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5106,Titanite Scale - Enchanted +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5107,Titanite Scale - Enchanted +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5108,Titanite Scale - Enchanted +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5109,Titanite Scale - Enchanted +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5110,Titanite Scale - Enchanted +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5200,Titanite Scale - Holy +0,4011,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5201,Titanite Scale - Holy +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5202,Titanite Scale - Holy +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5203,Titanite Scale - Holy +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5204,Titanite Scale - Holy +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5205,Titanite Scale - Holy +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5206,Titanite Scale - Holy +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5207,Titanite Scale - Holy +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5208,Titanite Scale - Holy +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5209,Titanite Scale - Holy +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5210,Titanite Scale - Holy +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5300,Titanite Scale - Sharp +0,4012,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5301,Titanite Scale - Sharp +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5302,Titanite Scale - Sharp +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5303,Titanite Scale - Sharp +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5304,Titanite Scale - Sharp +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5305,Titanite Scale - Sharp +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5306,Titanite Scale - Sharp +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5307,Titanite Scale - Sharp +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5308,Titanite Scale - Sharp +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5309,Titanite Scale - Sharp +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5310,Titanite Scale - Sharp +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5400,Titanite Scale - Blunt +0,4013,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5401,Titanite Scale - Blunt +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5402,Titanite Scale - Blunt +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5403,Titanite Scale - Blunt +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5404,Titanite Scale - Blunt +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+5405,Titanite Scale - Blunt +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5406,Titanite Scale - Blunt +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+5407,Titanite Scale - Blunt +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+5408,Titanite Scale - Blunt +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+5409,Titanite Scale - Blunt +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+5410,Titanite Scale - Blunt +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6000,Dragon Scale - Stock +0,1250,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6001,Dragon Scale - Stock +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6002,Dragon Scale - Stock +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6003,Dragon Scale - Stock +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6004,Dragon Scale - Stock +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6005,Dragon Scale - Stock +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6006,Dragon Scale - Stock +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6007,Dragon Scale - Stock +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6008,Dragon Scale - Stock +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6009,Dragon Scale - Stock +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6010,Dragon Scale - Stock +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6100,Dragon Scale - Lethal +0,4000,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6101,Dragon Scale - Lethal +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6102,Dragon Scale - Lethal +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6103,Dragon Scale - Lethal +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6104,Dragon Scale - Lethal +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6105,Dragon Scale - Lethal +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6106,Dragon Scale - Lethal +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6107,Dragon Scale - Lethal +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6108,Dragon Scale - Lethal +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6109,Dragon Scale - Lethal +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6110,Dragon Scale - Lethal +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6200,Dragon Scale - Curse +0,4001,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6201,Dragon Scale - Curse +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6202,Dragon Scale - Curse +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6203,Dragon Scale - Curse +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6204,Dragon Scale - Curse +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6205,Dragon Scale - Curse +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6206,Dragon Scale - Curse +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6207,Dragon Scale - Curse +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6208,Dragon Scale - Curse +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6209,Dragon Scale - Curse +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6210,Dragon Scale - Curse +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6300,Dragon Scale - Poison +0,4002,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6301,Dragon Scale - Poison +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6302,Dragon Scale - Poison +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6303,Dragon Scale - Poison +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6304,Dragon Scale - Poison +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6305,Dragon Scale - Poison +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6306,Dragon Scale - Poison +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6307,Dragon Scale - Poison +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6308,Dragon Scale - Poison +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6309,Dragon Scale - Poison +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6310,Dragon Scale - Poison +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6400,Dragon Scale - Blood +0,4003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6401,Dragon Scale - Blood +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6402,Dragon Scale - Blood +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6403,Dragon Scale - Blood +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6404,Dragon Scale - Blood +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6405,Dragon Scale - Blood +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6406,Dragon Scale - Blood +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6407,Dragon Scale - Blood +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6408,Dragon Scale - Blood +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6409,Dragon Scale - Blood +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6410,Dragon Scale - Blood +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6500,Dragon Scale - Frost +0,4004,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6501,Dragon Scale - Frost +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6502,Dragon Scale - Frost +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6503,Dragon Scale - Frost +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6504,Dragon Scale - Frost +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6505,Dragon Scale - Frost +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6506,Dragon Scale - Frost +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6507,Dragon Scale - Frost +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6508,Dragon Scale - Frost +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6509,Dragon Scale - Frost +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6510,Dragon Scale - Frost +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6600,Dragon Scale - Magic +0,4005,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6601,Dragon Scale - Magic +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6602,Dragon Scale - Magic +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6603,Dragon Scale - Magic +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6604,Dragon Scale - Magic +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6605,Dragon Scale - Magic +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6606,Dragon Scale - Magic +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6607,Dragon Scale - Magic +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6608,Dragon Scale - Magic +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6609,Dragon Scale - Magic +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6610,Dragon Scale - Magic +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6700,Dragon Scale - Fire +0,4006,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6701,Dragon Scale - Fire +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6702,Dragon Scale - Fire +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6703,Dragon Scale - Fire +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6704,Dragon Scale - Fire +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6705,Dragon Scale - Fire +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6706,Dragon Scale - Fire +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6707,Dragon Scale - Fire +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6708,Dragon Scale - Fire +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6709,Dragon Scale - Fire +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6710,Dragon Scale - Fire +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6800,Dragon Scale - Lightning +0,4007,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6801,Dragon Scale - Lightning +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6802,Dragon Scale - Lightning +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6803,Dragon Scale - Lightning +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6804,Dragon Scale - Lightning +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6805,Dragon Scale - Lightning +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6806,Dragon Scale - Lightning +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6807,Dragon Scale - Lightning +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6808,Dragon Scale - Lightning +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6809,Dragon Scale - Lightning +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6810,Dragon Scale - Lightning +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6900,Dragon Scale - Dark +0,4008,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6901,Dragon Scale - Dark +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6902,Dragon Scale - Dark +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6903,Dragon Scale - Dark +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6904,Dragon Scale - Dark +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+6905,Dragon Scale - Dark +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6906,Dragon Scale - Dark +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+6907,Dragon Scale - Dark +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+6908,Dragon Scale - Dark +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+6909,Dragon Scale - Dark +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+6910,Dragon Scale - Dark +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7000,Dragon Scale - Lucky +0,4009,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7001,Dragon Scale - Lucky +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7002,Dragon Scale - Lucky +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7003,Dragon Scale - Lucky +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7004,Dragon Scale - Lucky +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7005,Dragon Scale - Lucky +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7006,Dragon Scale - Lucky +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7007,Dragon Scale - Lucky +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7008,Dragon Scale - Lucky +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7009,Dragon Scale - Lucky +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7010,Dragon Scale - Lucky +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7100,Dragon Scale - Enchanted +0,4010,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7101,Dragon Scale - Enchanted +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7102,Dragon Scale - Enchanted +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7103,Dragon Scale - Enchanted +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7104,Dragon Scale - Enchanted +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7105,Dragon Scale - Enchanted +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7106,Dragon Scale - Enchanted +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7107,Dragon Scale - Enchanted +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7108,Dragon Scale - Enchanted +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7109,Dragon Scale - Enchanted +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7110,Dragon Scale - Enchanted +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7200,Dragon Scale - Holy +0,4011,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7201,Dragon Scale - Holy +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7202,Dragon Scale - Holy +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7203,Dragon Scale - Holy +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7204,Dragon Scale - Holy +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7205,Dragon Scale - Holy +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7206,Dragon Scale - Holy +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7207,Dragon Scale - Holy +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7208,Dragon Scale - Holy +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7209,Dragon Scale - Holy +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7210,Dragon Scale - Holy +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7300,Dragon Scale - Sharp +0,4012,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7301,Dragon Scale - Sharp +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7302,Dragon Scale - Sharp +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7303,Dragon Scale - Sharp +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7304,Dragon Scale - Sharp +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7305,Dragon Scale - Sharp +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7306,Dragon Scale - Sharp +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7307,Dragon Scale - Sharp +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7308,Dragon Scale - Sharp +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7309,Dragon Scale - Sharp +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7310,Dragon Scale - Sharp +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7400,Dragon Scale - Blunt +0,4013,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7401,Dragon Scale - Blunt +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7402,Dragon Scale - Blunt +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7403,Dragon Scale - Blunt +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7404,Dragon Scale - Blunt +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+7405,Dragon Scale - Blunt +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7406,Dragon Scale - Blunt +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+7407,Dragon Scale - Blunt +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+7408,Dragon Scale - Blunt +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+7409,Dragon Scale - Blunt +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+7410,Dragon Scale - Blunt +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+10000,Fire Seed +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+10001,Fire Seed +1,1060,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+10002,Fire Seed +2,1060,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+10003,Fire Seed +3,1060,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+10004,Fire Seed +4,1060,-1,-1,-1,-1,20,-1,-1,-1,-1,False,False,True,False,False
+10005,Fire Seed +5,1050,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+10006,Fire Seed +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+10007,Fire Seed +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+10008,Fire Seed +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+10009,Fire Seed +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+10010,Fire Seed +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+11000,Crystal Fragment +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+11001,Crystal Fragment +1,1070,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+11002,Crystal Fragment +2,1070,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+11003,Crystal Fragment +3,1070,-1,-1,-1,-1,9,-1,-1,-1,-1,False,False,True,False,False
+11004,Crystal Fragment +4,1070,-1,-1,-1,-1,12,-1,-1,-1,-1,False,False,True,False,False
+11005,Crystal Fragment +5,1050,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+11006,Crystal Fragment +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+11007,Crystal Fragment +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+11008,Crystal Fragment +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+11009,Crystal Fragment +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+11010,Crystal Fragment +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+12000,Holy Fragment +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+12001,Holy Fragment +1,1090,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+12002,Holy Fragment +2,1090,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+12003,Holy Fragment +3,1090,-1,-1,-1,-1,9,-1,-1,-1,-1,False,False,True,False,False
+12004,Holy Fragment +4,1090,-1,-1,-1,-1,12,-1,-1,-1,-1,False,False,True,False,False
+12005,Holy Fragment +5,1050,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+12006,Holy Fragment +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+12007,Holy Fragment +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+12008,Holy Fragment +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+12009,Holy Fragment +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+12010,Holy Fragment +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+13000,Abyssal Fragment +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+13001,Abyssal Fragment +1,1080,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+13002,Abyssal Fragment +2,1080,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+13003,Abyssal Fragment +3,1080,-1,-1,-1,-1,9,-1,-1,-1,-1,False,False,True,False,False
+13004,Abyssal Fragment +4,1080,-1,-1,-1,-1,12,-1,-1,-1,-1,False,False,True,False,False
+13005,Abyssal Fragment +5,1050,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+13006,Abyssal Fragment +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+13007,Abyssal Fragment +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+13008,Abyssal Fragment +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+13009,Abyssal Fragment +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+13010,Abyssal Fragment +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+14000,Rubbish +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+14001,Rubbish +1,380,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+14002,Rubbish +2,380,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+14003,Rubbish +3,380,-1,-1,-1,-1,9,-1,-1,-1,-1,False,False,True,False,False
+14004,Rubbish +4,380,-1,-1,-1,-1,12,-1,-1,-1,-1,False,False,True,False,False
+14005,Rubbish +5,1050,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+14006,Rubbish +6,901,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+14007,Rubbish +7,901,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+14008,Rubbish +8,901,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+14009,Rubbish +9,901,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+14010,Rubbish +10,901,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+20000,Shield - Titanite +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+20001,Shield - Titanite +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20002,Shield - Titanite +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20003,Shield - Titanite +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20004,Shield - Titanite +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20005,Shield - Titanite +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20006,Shield - Titanite +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20007,Shield - Titanite +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20008,Shield - Titanite +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20009,Shield - Titanite +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20010,Shield - Titanite +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+20100,Shield - Infused - Titanite +0,2200,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+20101,Shield - Infused - Titanite +1,1000,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20102,Shield - Infused - Titanite +2,1000,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20103,Shield - Infused - Titanite +3,1000,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20104,Shield - Infused - Titanite +4,1001,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20105,Shield - Infused - Titanite +5,1001,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20106,Shield - Infused - Titanite +6,1001,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20107,Shield - Infused - Titanite +7,1002,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+20108,Shield - Infused - Titanite +8,1002,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+20109,Shield - Infused - Titanite +9,1002,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+20110,Shield - Infused - Titanite +10,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+21000,Shield - Twinkling Titanite +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+21001,Shield - Twinkling Titanite +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+21002,Shield - Twinkling Titanite +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+21003,Shield - Twinkling Titanite +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+21004,Shield - Twinkling Titanite +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+21005,Shield - Twinkling Titanite +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+21100,Shield - Infused - Twinkling Titanite +0,2200,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+21101,Shield - Infused - Twinkling Titanite +1,1030,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+21102,Shield - Infused - Twinkling Titanite +2,1030,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+21103,Shield - Infused - Twinkling Titanite +3,1030,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+21104,Shield - Infused - Twinkling Titanite +4,1030,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+21105,Shield - Infused - Twinkling Titanite +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+22000,Shield - Titanite Scale +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+22001,Shield - Titanite Scale +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+22002,Shield - Titanite Scale +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+22003,Shield - Titanite Scale +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+22004,Shield - Titanite Scale +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+22005,Shield - Titanite Scale +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+22100,Shield - Infused - Titanite Scale +0,2200,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+22101,Shield - Infused - Titanite Scale +1,1020,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+22102,Shield - Infused - Titanite Scale +2,1020,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+22103,Shield - Infused - Titanite Scale +3,1020,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+22104,Shield - Infused - Titanite Scale +4,1020,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+22105,Shield - Infused - Titanite Scale +5,1003,1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+23000,Shield - Dragon Scale +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+23001,Shield - Dragon Scale +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+23002,Shield - Dragon Scale +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+23003,Shield - Dragon Scale +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+23004,Shield - Dragon Scale +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+23005,Shield - Dragon Scale +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+23100,Shield - Infused - Dragon Scale +0,2200,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+23101,Shield - Infused - Dragon Scale +1,1010,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+23102,Shield - Infused - Dragon Scale +2,1010,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+23103,Shield - Infused - Dragon Scale +3,1010,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+23104,Shield - Infused - Dragon Scale +4,1010,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+23105,Shield - Infused - Dragon Scale +5,1003,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30000,Handmaid's Ladle +0,2201,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30001,Handmaid's Ladle +1,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30002,Handmaid's Ladle +2,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30003,Handmaid's Ladle +3,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30004,Handmaid's Ladle +4,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30005,Handmaid's Ladle +5,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30006,Handmaid's Ladle +6,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30007,Handmaid's Ladle +7,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30008,Handmaid's Ladle +8,2141,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+30009,Handmaid's Ladle +9,2141,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+30010,Handmaid's Ladle +10,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+30011,Handmaid's Ladle +11,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+30012,Handmaid's Ladle +12,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+30013,Handmaid's Ladle +13,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+30014,Handmaid's Ladle +14,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+30015,Handmaid's Ladle +15,2141,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+100000,Soul of Champion Gundyr,712,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100001,,713,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100002,Soul of the Dancer,714,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100003,Soul of a Crystal Sage,715,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100004,Soul of the Blood of the Wolf,717,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100005,Soul of Consumed Oceiros,718,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100006,Soul of Boreal Valley Vordt,719,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100007,Soul of the Old Demon King,720,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100008,Soul of Dragonslayer Armour,721,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100009,Soul of the Nameless King,722,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100010,,723,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100011,Soul of Pontiff Sulyvahn,724,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100012,Soul of Aldrich,725,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100013,Soul of High Lord Wolnir,726,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100014,Soul of the Rotted Greatwood,727,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100015,Soul of the Deacons of the Deep,729,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100016,Soul of the Twin Princes,731,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100017,Soul of Yhorm the Giant,732,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100018,Soul of the Lords,733,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100019,Soul of a Demon,739,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100020,,742,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100021,Soul of Rosaria,728,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100022,Soul of a Stray Demon,743,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100023,Soul of Sister Friede,744,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100024,Soul of Slave Knight Gael,745,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100025,Soul of the Demon Prince,746,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100026,Soul of Darkeater Midir,747,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100027,Soul of the Dark Sun,748,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100028,Soul of Corrupted Gundyr,700,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100029,Soul of the Ancient Wyvern,701,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100030,Soul of the Lordran Remnants,702,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+100031,Soul of Halflight,748,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200001,Awestone - 1,365,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200002,Awestone - 2,365,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+200003,Awestone - 3,365,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200004,Awestone - 4,365,-1,-1,-1,-1,4,-1,-1,-1,-1,False,False,True,False,False
+200005,Awestone - 5,365,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200006,Awestone - 6,365,-1,-1,-1,-1,6,-1,-1,-1,-1,False,False,True,False,False
+200007,Awestone - 7,365,-1,-1,-1,-1,7,-1,-1,-1,-1,False,False,True,False,False
+200008,Awestone - 8,365,-1,-1,-1,-1,8,-1,-1,-1,-1,False,False,True,False,False
+200009,Awestone - 9,365,-1,-1,-1,-1,9,-1,-1,-1,-1,False,False,True,False,False
+200010,Awestone - 10,365,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200011,Awestone - 11,365,-1,-1,-1,-1,11,-1,-1,-1,-1,False,False,True,False,False
+200012,Awestone - 12,365,-1,-1,-1,-1,12,-1,-1,-1,-1,False,False,True,False,False
+200013,Awestone - 13,365,-1,-1,-1,-1,13,-1,-1,-1,-1,False,False,True,False,False
+200014,Awestone - 14,365,-1,-1,-1,-1,14,-1,-1,-1,-1,False,False,True,False,False
+200015,Awestone - 15,365,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200016,Awestone - 16,365,-1,-1,-1,-1,16,-1,-1,-1,-1,False,False,True,False,False
+200017,Awestone - 17,365,-1,-1,-1,-1,17,-1,-1,-1,-1,False,False,True,False,False
+200018,Awestone - 18,365,-1,-1,-1,-1,18,-1,-1,-1,-1,False,False,True,False,False
+200019,Awestone - 19,365,-1,-1,-1,-1,19,-1,-1,-1,-1,False,False,True,False,False
+200020,Awestone - 20,365,-1,-1,-1,-1,20,-1,-1,-1,-1,False,False,True,False,False
+200025,Awestone - 25,365,-1,-1,-1,-1,25,-1,-1,-1,-1,False,False,True,False,False
+200030,Awestone - 30,365,-1,-1,-1,-1,30,-1,-1,-1,-1,False,False,True,False,False
+200100,Awestone - 50,365,-1,-1,-1,-1,50,-1,-1,-1,-1,False,False,True,False,False
+200300,Darkmoon Faithful - 15,372,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200301,Darkmoon Faithful - 10,372,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200302,Darkmoon Faithful - 5,372,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200303,Darkmoon Faithful - 3,372,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200304,Darkmoon Faithful - 1,372,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200400,Warriors of Sunlight - 15,375,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200401,Warriors of Sunlight - 10,375,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200402,Warriors of Sunlight - 5,375,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200403,Warriors of Sunlight - 3,375,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200404,Warriors of Sunlight - 1,375,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200500,Mound-makers - 15,374,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200501,Mound-makers - 10,374,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200502,Mound-makers - 5,374,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200503,Mound-makers - 3,374,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200504,Mound-makers - 1,374,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200600,Watchdogs of Farron - 15,366,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200601,Watchdogs of Farron - 10,366,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200602,Watchdogs of Farron - 5,366,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200603,Watchdogs of Farron - 3,366,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200604,Watchdogs of Farron - 1,366,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200700,Aldrich Faithful - 15,367,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200701,Aldrich Faithful - 10,367,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200702,Aldrich Faithful - 5,367,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200703,Aldrich Faithful - 3,367,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200704,Aldrich Faithful - 1,367,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200800,Rosaria's Fingers - 15,373,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200801,Rosaria's Fingers - 10,373,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200802,Rosaria's Fingers - 5,373,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200803,Rosaria's Fingers - 3,373,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200804,Rosaria's Fingers - 1,373,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+200900,Spears of the Church - 15,379,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+200901,Spears of the Church - 10,379,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+200902,Spears of the Church - 5,379,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+200903,Spears of the Church - 3,379,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+200904,Spears of the Church - 1,379,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201000,Chaos Servant - 10,1060,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201001,Chaos Servant - 5,1060,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201002,Chaos Servant - 3,1060,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201003,Chaos Servant - 2,1060,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+201004,Chaos Servant - 1,3000,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201100,Vinheim Scholars - 10,1070,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201101,Vinheim Scholars - 5,1070,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201102,Vinheim Scholars - 3,1070,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201103,Vinheim Scholars - 2,1070,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+201104,Vinheim Scholars - 1,1070,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201200,Pilgrims of Dark - 10,1080,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201201,Pilgrims of Dark - 5,1080,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201202,Pilgrims of Dark - 3,1080,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201203,Pilgrims of Dark - 2,1080,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+201204,Pilgrims of Dark - 1,1080,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201300,Dragon Remnants - 15,4015,-1,-1,-1,-1,15,-1,-1,-1,-1,False,False,True,False,False
+201301,Dragon Remnants - 10,4015,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201302,Dragon Remnants - 5,4015,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201303,Dragon Remnants - 3,4015,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201304,Dragon Remnants - 1,4015,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201400,Way of White - 10,1090,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201401,Way of White - 5,1090,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201402,Way of White - 3,1090,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201403,Way of White - 2,1090,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+201404,Way of White - 1,1090,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201500,Servant of the Rat - 30,381,-1,-1,-1,-1,30,-1,-1,-1,-1,False,False,True,False,False
+201501,Servant of the Rat - 5,381,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201502,Servant of the Rat - 3,381,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False
+201503,Servant of the Rat - 2,381,-1,-1,-1,-1,2,-1,-1,-1,-1,False,False,True,False,False
+201504,Servant of the Rat - 1,381,-1,-1,-1,-1,1,-1,-1,-1,-1,False,False,True,False,False
+201600,Ritualist Pact - 50,382,-1,-1,-1,-1,50,-1,-1,-1,-1,False,False,True,False,False
+201601,Ritualist Pact - 40,382,-1,-1,-1,-1,40,-1,-1,-1,-1,False,False,True,False,False
+201602,Ritualist Pact - 30,382,-1,-1,-1,-1,30,-1,-1,-1,-1,False,False,True,False,False
+201603,Ritualist Pact - 20,382,-1,-1,-1,-1,20,-1,-1,-1,-1,False,False,True,False,False
+201604,Ritualist Pact - 10,382,-1,-1,-1,-1,10,-1,-1,-1,-1,False,False,True,False,False
+201605,Ritualist Pact - 5,382,-1,-1,-1,-1,5,-1,-1,-1,-1,False,False,True,False,False
+201606,Ritualist Pact - 99,382,-1,-1,-1,-1,99,-1,-1,-1,-1,False,False,True,False,False
+201607,Ritualist Pact - 3,382,-1,-1,-1,-1,3,-1,-1,-1,-1,False,False,True,False,False

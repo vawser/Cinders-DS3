@@ -557,8 +557,7 @@ function GetAttackRequest(is_guard)
     
     local is_arrow = GetEquipType(hand, WEAPON_CATEGORY_SMALL_ARROW, WEAPON_CATEGORY_LARGE_ARROW)
     local is_crossbow = GetEquipType(hand, WEAPON_CATEGORY_CROSSBOW)
-    local is_staff = GetEquipType(hand, WEAPON_CATEGORY_STAFF)
-    
+
     if env(1106, ACTION_ARM_R1) == TRUE then -- ActionRequest
         if is_both == TRUE then
             if is_arrow == TRUE then
@@ -571,8 +570,6 @@ function GetAttackRequest(is_guard)
                 else
                     return ATTACK_REQUEST_BOTHRIGHT_CROSSBOW
                 end
-            elseif is_staff == TRUE then
-                return ATTACK_REQUEST_INVALID
             elseif env(1106, ACTION_ARM_LIGHT_KICK) == TRUE then -- ActionRequest
                 return ATTACK_REQUEST_LIGHT_KICK
             else
@@ -586,8 +583,6 @@ function GetAttackRequest(is_guard)
                 if 0 < env(1108, ACTION_ARM_L1) then -- ActionDuration
                     return ATTACK_REQUEST_ATTACK_WHILE_GUARD
                 end
-            elseif is_staff == TRUE then
-                return ATTACK_REQUEST_INVALID
             elseif is_arrow == TRUE then
                 return ATTACK_REQUEST_ARROW_BOTH_RIGHT
             elseif is_crossbow == TRUE then
@@ -629,8 +624,7 @@ function GetAttackRequest(is_guard)
                 return ATTACK_REQUEST_RIGHT_CROSSBOW2
             end
         elseif env(1106, ACTION_ARM_HEAVY_KICK) == TRUE then -- ActionRequest
-            local check_weapon = GetEquipType(hand, WEAPON_CATEGORY_STAFF)
-            if check_weapon == FALSE and env(1116, 100260) == FALSE then -- GetSpecialEffectID
+            if IsCatalyst() == FALSE and env(1116, 100260) == FALSE then -- GetSpecialEffectID
                 return ATTACK_REQUEST_HEAVY_KICK
             end
         end
@@ -1213,9 +1207,7 @@ function IsEnableGuard()
     end
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) -- GetEquipWeaponSpecialCategoryNumber
     if style == HAND_RIGHT then
-        if GetEquipType(hand, WEAPON_CATEGORY_STAFF) == TRUE then
-            return FALSE
-        elseif sp_kind == 123 then
+        if sp_kind == 123 then
             -- Dark Hand
             return TRUE
         elseif sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
@@ -1323,7 +1315,7 @@ function IsEnableJumpAtk()
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
-    if env(225, hand) == WEAPON_CATEGORY_STAFF then -- GetEquipWeaponCategory
+    if IsCatalyst() == TRUE then -- GetEquipWeaponCategory
         return FALSE
     else
         return TRUE
@@ -15732,6 +15724,38 @@ function IsSidearm()
     return FALSE
 end
 
+function IsCatalyst()
+    if env(1116, 112300) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsBow()
+    if env(1116, 112310) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsGreatbow()
+    if env(1116, 112320) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function IsCrossbow()
+    if env(1116, 112330) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
 -- FP Regen
 function UpdateFP()
     local skip = false
@@ -15774,6 +15798,10 @@ function UpdateFP()
             
             if env(1116, 113202) == TRUE then
                 act(2002, 113103) -- Darkmoon Faithful
+            end
+            
+            if env(1116, 113203) == TRUE then
+                act(2002, 113104) -- Pulsating
             end
             
             if env(1116, 113210) == TRUE then

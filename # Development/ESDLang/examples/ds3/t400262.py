@@ -147,6 +147,7 @@ def t400262_x6(z1=2119, z2=2120, z3=2121):
         elif GetTalkListEntryResult() == 3:
             """ State 5,9 """
             CombineMenuFlagAndEventFlag(6001, 234)
+            CombineMenuFlagAndEventFlag(6001, 235)
             """ State 8 """
             OpenEnhanceShop(0)
             assert not (CheckSpecificPersonMenuIsOpen(9, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
