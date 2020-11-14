@@ -77,6 +77,9 @@
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
+# Weapons
+- Added Bleed to the Scraping Spear.
+
 # Infusions
 - Enchanted/Clarity infusions now add 2 FP per second (was 1).
 - Catalysts now have 4 infusions:
@@ -108,3 +111,4 @@
 #------------------------------
 # TODO - General
 #------------------------------
+WEAPON_CATEGORY_RAPIER

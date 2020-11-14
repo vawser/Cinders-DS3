@@ -142,7 +142,7 @@ Deep Protection
 - FP Cost: 5
 - INT Req: 10
 - Magic Damage: 60
-- Ascended Effect: gains much better tracking.
+- Additional Effect: increases projectile homing to 50°.
 
 #--------------------------------
 # Farron Flashsword
@@ -150,7 +150,7 @@ Deep Protection
 - FP Cost: 5
 - INT Req: 10
 - Magic Damage: 75
-- Ascended Effect: increases poise damage.
+- Additional Effect: increases poise damage to 25.
 
 #--------------------------------
 # Scattering Soul Orb
@@ -158,7 +158,7 @@ Deep Protection
 - FP Cost: 5
 - INT Req: 20
 - Magic Damage: 25 {*25, individual}
-- Ascended Effect: emits more bullets. {*50, individual}
+- Additional Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Arrow
@@ -166,7 +166,7 @@ Deep Protection
 - FP Cost: 15
 - INT Req: 20
 - Magic Damage: 120
-- Ascended Effect: gains much better tracking.
+- Additional Effect: increases projectile homing to 70°.
 
 #--------------------------------
 # Scattering Crystal Orb
@@ -174,7 +174,7 @@ Deep Protection
 - FP Cost: 15
 - INT Req: 30
 - Magic Damage: 60 {*25, individual}
-- Ascended Effect: emits more bullets. {*50, individual}
+- Additional Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Spear
@@ -183,7 +183,7 @@ Deep Protection
 - INT Req: 40
 - Slot Use: 1
 - Magic Damage: 200
-- Ascended Effect: gains much better tracking and speed.
+- Additional Effect: increases projectile homing to 50°.
 
 #--------------------------------
 # Crystal Soul Spear
@@ -192,7 +192,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 260 
-- Ascended Effect: gains much better tracking and speed.
+- Additional Effect: increases projectile speed to 40 m/s.
 
 #--------------------------------
 # Homing Soulmass
@@ -200,7 +200,7 @@ Deep Protection
 - FP Cost: 25
 - INT Req: 30
 - Magic Damage: 50 {*5, individual}
-- Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
+- Additional Effect: impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
 # Homing Crystal Soulmass
@@ -209,7 +209,7 @@ Deep Protection
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 80 {*5, individual}
-- Ascended Effect: hits reduce target Magic absorption by 20% for 10 seconds.
+- Additional Effect: impact reduces the Magic absorption of the target by 10% for 10 seconds.
 
 #--------------------------------
 # Soul Geyser
@@ -218,7 +218,7 @@ Deep Protection
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 140 {*3, individual}
-- Ascended Effect: gains much better tracking and a tighter spread.
+- Additional Effect: reduces the spread of the geyser.
 
 #--------------------------------
 # White Dragon Breath
@@ -228,7 +228,7 @@ Deep Protection
 - Slot Use: 2
 - Magic Damage: 250 [100] 
 - Effect: inflicts 60 Curse.
-- Ascended Effect: extends the length of the breath.
+- Additional Effect: extends the length of the breath.
 
 #--------------------------------
 # Crystal Storm
@@ -236,7 +236,7 @@ Deep Protection
 - FP Cost: 5 (10)
 - INT Req: 40
 - Magic Damage: 400 (60) {*5, shared}
-- Ascended Effect: expands area of effect, {*8, shared}
+- Additional Effect: increases emitter radius to 20 metres.
 
 #--------------------------------
 # Farron Hail
@@ -244,7 +244,7 @@ Deep Protection
 - FP Cost: 5 (5)
 - INT Req: 20
 - Magic Damage: 80 {*20, shared}
-- Ascended Effect: gains much better tracking.
+- Additional Effect: increases projectile homing to 30°.
 
 #--------------------------------
 # Crystal Hail
@@ -252,7 +252,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 40
 - Magic Damage: 50 {*40, individual}
-- Ascended Effect: emits the projectiles in a tighter cone.
+- Additional Effect: reduces the spread of the crystal hail.
 
 #--------------------------------
 # Soul Greatsword
@@ -260,7 +260,7 @@ Deep Protection
 - FP Cost: 20
 - INT Req: 30
 - Magic Damage: 200
-- Ascended Effect: costs 15 FP.
+- Additional Effect: increases poise damage to 80.
 
 #--------------------------------
 # Old Moonlight
@@ -269,7 +269,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 200 (400 charged) [100]
-- Ascended Effect: charged cast deals much more poise damage and causes stagger to floor animation.
+- Additional Effect: increases poise damage to 100.
 
 #--------------------------------
 # Soul Wave
@@ -277,7 +277,7 @@ Deep Protection
 - FP Cost: 10
 - INT Req: 30
 - Magic Damage: 140
-- Ascended Effect: gains tracking.
+- Additional Effect: increases projectile speed to 60 m/s.
 
 #--------------------------------
 # Soul Stream
@@ -286,7 +286,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 100 {*10, individual}
-- Ascended Effect: reduces stamina cost to 40.
+- Additional Effect: increases duration of stream to 1.2 seconds.
 
 #--------------------------------
 # Blizzard
@@ -295,7 +295,7 @@ Deep Protection
 - INT Req: 30
 - Magic Damage: 200 {*5, shared}
 - Base Effect: inflicts 60 Frost on hit.
-- Ascended Effect: expands area of effect, {*8, shared}
+- Additional Effect: increases Frost inflict to 90.
 
 #--------------------------------
 # Orbs of Judgment
@@ -303,7 +303,7 @@ Deep Protection
 - FP Cost: 20
 - INT Req: 40
 - Magic Damage: 75 {*6, individual}
-- Ascended Effect: the orbs start and move much quicker.
+- Additional Effect: reduces orb starup time to 1 second.
 
 #--------------------------------
 # Pestilent Mist
@@ -311,7 +311,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 40
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
-- Ascended Effect: extends duration to 10 seconds.
+- Additional Effect: increases duration to 8 seconds.
 
 #--------------------------------
 # Snap Freeze
@@ -319,7 +319,7 @@ Deep Protection
 - FP Cost: 20
 - INT Req: 20
 - Base Effect: summons patch that deals 15 Frost per tick. Lasts 5 seconds.
-- Ascended Effect: extends duration to 10 seconds.
+- Additional Effect: increases duration to 8 seconds.
 
 #--------------------------------
 # Blinding Light
@@ -327,7 +327,7 @@ Deep Protection
 - FP Cost: 10
 - INT Req: 20
 - Base Effect: knocks enemies back.
-- Ascended Effect: costs 100 FP.
+- Additional Effect: None
 
 #--------------------------------
 # Shockwave
@@ -335,7 +335,7 @@ Deep Protection
 - FP Cost: 10
 - INT Req: 20
 - Base Effect: Knocks down enemies.
-- Ascended Effect: gains much better tracking.
+- Additional Effect: increases projectile speed to 80 m/s.
 
 #--------------------------------------------------------------------------
 # Sorceries - Effects
@@ -346,7 +346,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: Adds 50 Magic damage to main weapon for 90 seconds.
-- Ascended Effect: adds 20% max FP.
+- Additional Effect: restores 1 FP per second whilst active.
 
 #--------------------------------
 # Great Magic Weapon
@@ -354,7 +354,7 @@ Deep Protection
 - FP Cost: 40
 - INT Req: 40
 - Base Effect: Adds 60 Magic damage to main weapon for 60 seconds.
-- Ascended Effect: reduces sorcery FP consumption by 20%, extends duration to 90 seconds.
+- Additional Effect: reduces sorcery FP consumption by 10% whilst active.
 
 #--------------------------------
 # Crystal Magic Weapon
@@ -363,7 +363,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
-- Ascended Effect: extends duration to 300 seconds.
+- Additional Effect: increases duration to 90 seconds.
 
 #--------------------------------
 # Frozen Weapon
@@ -371,7 +371,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 30
 - Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Frost inflict to 60.
+- Additional Effect: increases Frost inflict to 60.
 
 #--------------------------------
 # Magic Shield
@@ -379,7 +379,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 30
 - Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
-- Ascended Effect: extends duration to 180 seconds.
+- Additional Effect: increases duration to 90 seconds.
 
 #--------------------------------
 # Great Magic Shield
@@ -388,7 +388,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
-- Ascended Effect: extends duration to 60 seconds.
+- Additional Effect: increases duration to 60 seconds.
 
 #--------------------------------
 # Hidden Weapon
@@ -396,7 +396,7 @@ Deep Protection
 - FP Cost: 25
 - INT Req: 20
 - Base Effect: hides main weapon for 120 seconds.
-- Ascended Effect: extends duration to 300 seconds.
+- Additional Effect: increases duration to 300 seconds.
 
 #--------------------------------
 # Hidden Body
@@ -404,7 +404,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 40
 - Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 90%.
-- Ascended Effect: reducing enemy detection via sight by 100%.
+- Additional Effect: reduces enemy sight detection by 100%.
 
 #--------------------------------
 # Cast Light
@@ -412,15 +412,15 @@ Deep Protection
 - FP Cost: 20
 - INT Req: 10
 - Base Effect: summons a light source that follows you for 120 seconds.
-- Ascended Effect: costs 0 FP.
+- Additional Effect: None
 
 #--------------------------------
 # Repair
 #--------------------------------
 - FP Cost: 50
 - INT Req: 20
-- Base Effect: repairs main weapon by 50 durability.
-- Ascended Effect: increases restored durability to 100.
+- Base Effect: restores 50 durability.
+- Additional Effect: restores 100 durability.
 
 #--------------------------------
 # Spook
@@ -428,7 +428,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: reduces enemy detection via sound by 90% for 60 seconds.
-- Ascended Effect: reduces enemy detection via sound by 100% for 60 seconds.
+- Additional Effect: reduces enemy sound detection by 100%.
 
 #--------------------------------
 # Chameleon
@@ -436,7 +436,7 @@ Deep Protection
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: transforms player into object from level.
-- Ascended Effect: costs 0 FP.
+- Additional Effect: None
 
 #--------------------------------
 # Aural Decoy
@@ -444,7 +444,7 @@ Deep Protection
 - FP Cost: 15
 - INT Req: 20
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
-- Ascended Effect: lasts 6 seconds.
+- Additional Effect: increases decoy duration to 5 seconds.
 
 #--------------------------------
 # Twisted Wall of Light
@@ -452,7 +452,7 @@ Deep Protection
 - FP Cost: 10
 - INT Req: 30
 - Base Effect: reflect spells away for 2 seconds.
-- Ascended Effect: costs 100 FP.
+- Additional Effect: None
 
 #--------------------------------
 # Unleash Magic
@@ -461,7 +461,7 @@ Deep Protection
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
-- Ascended Effect: reduces absorption debuff to 25%.
+- Additional Effect: increases duration to 45 seconds.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive
@@ -471,35 +471,35 @@ Deep Protection
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 75
-- Ascended Effect: increases poise damage.
+- Additional Effect: increases poise damage to 20.
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 80 [40]
-- Ascended Effect: gains improved tracking.
+- Additional Effect: increases projectile speed to 30 m/s.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: 140 [50]
-- Ascended Effect: gains improved tracking.
+- Additional Effect: increases projectile homing to 40°.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 5 (10)
 - Fire Damage: 200 {*5, shared}
-- Ascended Effect: expands area of effect, {*8, shared}
+- Additional Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 40
-- Ascended Effect: hits more often.
+- Additional Effect: reduces hit cooldown to 0.3 seconds.
 
 #--------------------------------
 # Great Combustion
@@ -507,7 +507,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Fire Damage: 200 [100]
-- Ascended Effect: deals more poise damage and causes stagger to floor animation.
+- Additional Effect: increases poise damage to 50.
 
 #--------------------------------
 # Great Chaos Fire Orb
@@ -515,7 +515,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Fire Damage: 200 [100] [150] 
-- Ascended Effect: extends the duration of the lava pool to 8 seocnds.
+- Additional Effect: reduces lava pool hit cooldown to 0.5 seconds.
 
 #--------------------------------
 # Chaos Storm
@@ -523,14 +523,14 @@ Deep Protection
 - FP Cost: 10 (10)
 - Slot Use: 2
 - Fire Damage: 300 [150] {*5, shared}
-- Ascended Effect: expands area of effect, {*8, shared}
+- Additional Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 4
 - Fire Damage: 50 {*20, individual}
-- Ascended Effect: costs 60 FP per tick.
+- Additional Effect: reduces hit cooldown to 0.05 seconds.
 
 #--------------------------------
 # Profaned Flame
@@ -538,7 +538,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Fire Damage: 220
-- Ascended Effect: emits a secondary flame.
+- Additional Effect: emits a secondary flame.
 
 #--------------------------------
 # Chaos Bed Vestiges
@@ -546,7 +546,7 @@ Deep Protection
 - FP Cost: 30
 - Slot Use: 3
 - Fire Damage: 300 [100] [150]
-- Ascended Effect: increases poise damage.
+- Additional Effect: increases projectile speed to 38 m/s.
 
 #--------------------------------
 # Cataclysm
@@ -554,7 +554,7 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 3
 - Fire Damage: 100 {*10, shared}
-- Ascended Effect: emits more orbs. (*20, shared)
+- Additional Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
 # Floating Chaos
@@ -562,14 +562,14 @@ Deep Protection
 - FP Cost: 30
 - Slot Use: 2
 - Fire Damage: 50 {*25, individual}
-- Ascended Effect: emits more fireballs. {*50, individual}
+- Additional Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: 80 {*12, individual)
-- Ascended Effect: emits an additional fireball.
+- Additional Effect: emits an additional fireball.
 
 #--------------------------------
 # Boulder Heave
@@ -577,21 +577,21 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Physical Damage: 250 [80]
-- Ascended Effect: increases poise damage and shoots further.
+- Additional Effect: increases poise damage and shoots further.
 
 #--------------------------------
 # Sacred Flame
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: based on spell tool.
-- Ascended Effect: costs 10 FP.
+- Additional Effect: costs 10 FP.
 
 #--------------------------------
 # Seething Chaos
 #--------------------------------
 - FP Cost: 25
 - Fire Damage: 150 [250] 
-- Ascended Effect: increases poise damage.
+- Additional Effect: increases poise damage.
 
 #--------------------------------
 # Heave Earth
@@ -599,7 +599,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Physical Damage: 250 
-- Ascended Effect: costs 20 FP.
+- Additional Effect: costs 20 FP.
 
 #--------------------------------
 # Earthquake
@@ -607,14 +607,14 @@ Deep Protection
 - FP Cost: 5 (10)
 - Slot Use: 2
 - Physical Damage: 250 {*5, individual}
-- Ascended Effect: expands area of effect, {*8, individual}
+- Additional Effect: expands area of effect, {*8, individual}
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: 100
-- Ascended Effect: extends duration to 30 seconds.
+- Additional Effect: extends duration to 30 seconds.
 
 #--------------------------------
 # Earthfall
@@ -622,14 +622,14 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 3
 - Physical Damage: 100 {*10, shared}
-- Ascended Effect: emits more boulders. {*20, shared}
+- Additional Effect: emits more boulders. {*20, shared}
 
 #--------------------------------
 # Poison Mist
 #--------------------------------
 - FP Cost: 20
 - Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
-- Ascended Effect: lasts for 12 seconds.
+- Additional Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Toxic Mist
@@ -637,7 +637,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
-- Ascended Effect: lasts for 12 seconds.
+- Additional Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Acid Surge
@@ -645,7 +645,7 @@ Deep Protection
 - FP Cost: 30
 - Slot Use: 3
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
-- Ascended Effect: lasts for 12 seconds.
+- Additional Effect: lasts for 12 seconds.
 
 #--------------------------------
 # Immolation
@@ -653,7 +653,7 @@ Deep Protection
 - FP Cost: 10
 - Fire Damage: 300
 - Base Effect: for 15 seconds, summons fire pillars around the player that harm enemies and the player alike.
-- Ascended Effect: lasts for 30 seconds.
+- Additional Effect: lasts for 30 seconds.
 
 #--------------------------------
 # Fecal Explusion
@@ -661,7 +661,7 @@ Deep Protection
 - FP Cost: 15
 - Slot Use: 2
 - Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 30 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
-- Ascended Effect: expel 12 dung pies.
+- Additional Effect: expel 12 dung pies.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
@@ -672,7 +672,7 @@ Deep Protection
 - FP Cost: 40
 - Slot Use: 3
 - Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
-- Ascended Effect: lasts for 60 seconds.
+- Additional Effect: lasts for 60 seconds.
 
 #--------------------------------
 # Warmth
@@ -680,7 +680,7 @@ Deep Protection
 - FP Cost: 100
 - Slot Use: 3
 - Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
-- Ascended Effect: only affects self and allies.
+- Additional Effect: only affects self and allies.
 
 #--------------------------------
 # Profuse Sweat
@@ -688,7 +688,7 @@ Deep Protection
 - FP Cost: 25
 - Slot Use: 2
 - Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
-- Ascended Effect: increases resistances by 400.
+- Additional Effect: increases resistances by 400.
 
 #--------------------------------
 # Iron Flesh
@@ -696,14 +696,14 @@ Deep Protection
 - FP Cost: 30
 - Slot Use: 2
 - Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
-- Ascended Effect: lasts for 30 seconds.
+- Additional Effect: lasts for 30 seconds.
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
 - FP Cost: 30
 - Base Effect: Increases Fire absorption by 30% for 30 seconds.
-- Ascended Effect: increases Fire absorption by 50%.
+- Additional Effect: increases Fire absorption by 50%.
 
 #--------------------------------
 # Carthus Flame Arc
@@ -711,7 +711,7 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 3
 - Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
-- Ascended Effect: increases stamina damage by 100%.
+- Additional Effect: increases stamina damage by 100%.
 
 #--------------------------------
 # Rapport
@@ -719,7 +719,7 @@ Deep Protection
 - FP Cost: 100
 - Slot Use: 3
 - Base Effect: converts target enemy to player team for 30 seconds.
-- Ascended Effect: lasts for 60 seconds, boosts converted enemy power by 20%.
+- Additional Effect: lasts for 60 seconds, boosts converted enemy power by 20%.
 
 #--------------------------------
 # Power Within
@@ -727,7 +727,7 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 3
 - Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
-- Ascended Effect: lose 0.25% HP per second.
+- Additional Effect: lose 0.25% HP per second.
 
 #--------------------------------
 # Rockflesh
@@ -735,7 +735,7 @@ Deep Protection
 - FP Cost: 50
 - Slot Use: 2
 - Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 30 seconds.
-- Ascended Effect: lasts for 60 seconds.
+- Additional Effect: lasts for 60 seconds.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
@@ -746,14 +746,14 @@ Deep Protection
 - FP Cost: 10
 - FTH Req: 10
 - Physical Damage: 50 [50] [50]
-- Ascended Effect: costs 5 FP.
+- Additional Effect: costs 5 FP.
 
 #--------------------------------
 # Force
 #--------------------------------
 - FP Cost: 10
 - FTH Req: 10
-- Ascended Effect: costs 5 FP.
+- Additional Effect: costs 5 FP.
 
 #--------------------------------
 # Emit Force
@@ -761,7 +761,7 @@ Deep Protection
 - FP Cost: 15
 - Physical Damage: 200 [100] 
 - FTH Req: 30
-- Ascended Effect: gains Farron Dart cast animation.
+- Additional Effect: gains Farron Dart cast animation.
 
 #--------------------------------
 # Wrath of the Gods
@@ -770,7 +770,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 300
 - FTH Req: 50
-- Ascended Effect: gains Force cast animation.
+- Additional Effect: gains Force cast animation.
 
 #--------------------------------
 # Lightning Spear
@@ -778,7 +778,7 @@ Deep Protection
 - FP Cost: 15
 - Lightning Damage: 125 [30] [50] 
 - FTH Req: 20
-- Ascended Effect: increases poise damage and tracking.
+- Additional Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Great Lightning Spear
@@ -786,7 +786,7 @@ Deep Protection
 - FP Cost: 25
 - Lightning Damage: 200 [50] [75] 
 - FTH Req: 40
-- Ascended Effect: increases poise damage and tracking.
+- Additional Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Sunlight Spear
@@ -795,7 +795,7 @@ Deep Protection
 - Slot Use: 2
 - Lightning Damage: 250 [100] [125] 
 - FTH Req: 60
-- Ascended Effect: increases poise damage and tracking.
+- Additional Effect: increases poise damage and tracking.
 
 #--------------------------------
 # Lightning Arrow
@@ -803,7 +803,7 @@ Deep Protection
 - FP Cost: 10
 - Lightning Damage: 100
 - FTH Req: 20
-- Ascended Effect: increases tracking.
+- Additional Effect: increases tracking.
 
 #--------------------------------
 # Lightning Storm
@@ -811,7 +811,7 @@ Deep Protection
 - FP Cost: 30
 - Lightning Damage: 200 {*6, shared}
 - FTH Req: 40
-- Ascended Effect: costs 25 FP.
+- Additional Effect: costs 25 FP.
 
 #--------------------------------
 # Lightning Stake
@@ -819,7 +819,7 @@ Deep Protection
 - FP Cost: 30
 - Lightning Damage: 300 [100] 
 - FTH Req: 40
-- Ascended Effect: costs 25 FP.
+- Additional Effect: costs 25 FP.
 
 #--------------------------------
 # Divine Pillars of Light
@@ -828,7 +828,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 250 {*10, individual}
 - FTH Req: 50
-- Ascended Effect: expands area of effect, {*15, individual}
+- Additional Effect: expands area of effect, {*15, individual}
 
 #--------------------------------
 # Halo
@@ -837,7 +837,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 100 [100] [100] {*10, shared}
 - FTH Req: 50
-- Ascended Effect: uses Force cast animation
+- Additional Effect: uses Force cast animation
 
 #--------------------------------
 # Heavenly Thunder
@@ -846,7 +846,7 @@ Deep Protection
 - Slot Use: 2
 - Lightning Damage: 100 {*10, shared}
 - FTH Req: 60
-- Ascended Effect: emits more bolts. {*20, shared}
+- Additional Effect: emits more bolts. {*20, shared}
 
 #--------------------------------
 # Angelic Barrage
@@ -855,7 +855,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 50 {*16, shared}
 - FTH Req: 50
-- Ascended Effect: emits more beams. {*25, shared}
+- Additional Effect: emits more beams. {*25, shared}
 
 #--------------------------------
 # Divine Arrow
@@ -863,7 +863,7 @@ Deep Protection
 - FP Cost: 15
 - Physical Damage: 150
 - FTH Req: 30
-- Ascended Effect: increases poise damage, inflicts stagger animation and improves tracking.
+- Additional Effect: increases poise damage, inflicts stagger animation and improves tracking.
 
 #--------------------------------
 # Lothric's Holy Spear
@@ -872,7 +872,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 260
 - FTH Req: 50
-- Ascended Effect: improves tracking.
+- Additional Effect: improves tracking.
 
 #--------------------------------
 # Proof of a Pact
@@ -881,7 +881,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 150
 - FTH Req: 40
-- Ascended Effect: costs 5 FP.
+- Additional Effect: costs 5 FP.
 
 #--------------------------------
 # Overwhelming Power
@@ -889,7 +889,7 @@ Deep Protection
 - FP Cost: 30
 - Lightning Damage: 100 {shared}
 - FTH Req: 40
-- Ascended Effect: Lasts for 8 seconds.
+- Additional Effect: Lasts for 8 seconds.
 
 #--------------------------------
 # Ghostly Assault
@@ -898,7 +898,7 @@ Deep Protection
 - Slot Use: 2
 - Physical Damage: 50 (*15, individual)
 - FTH Req: 50
-- Ascended Effect: summons an additional archer.
+- Additional Effect: summons an additional archer.
 
 #--------------------------------
 # Wrathful Orbs
@@ -906,7 +906,7 @@ Deep Protection
 - FP Cost: 30
 - Lightning Damage: 80 {*5, individual}
 - INT Req: 40
-- Ascended Effect: hits reduce target Lightning absorption by 20% for 10 seconds.
+- Additional Effect: hits reduce target Lightning absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Holy Schism
@@ -914,7 +914,7 @@ Deep Protection
 - FP Cost: 25
 - Lightning Damage: 200 [100] (*4, shared)
 - FTH Req: 40
-- Ascended Effect: emits 2 more lines.
+- Additional Effect: emits 2 more lines.
 
 #--------------------------------
 # Wrathful Barrage
@@ -922,7 +922,7 @@ Deep Protection
 - FP Cost: 5 (5)
 - Lightning Damage: 80 {*20, shared}
 - FTH Req: 30
-- Ascended Effect: gains much better tracking.
+- Additional Effect: gains much better tracking.
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
@@ -933,7 +933,7 @@ Deep Protection
 - FP Cost: 50
 - FTH Req: 10
 - Base Effect: Heals 200 HP.
-- Ascended Effect: costs 200 FP.
+- Additional Effect: costs 200 FP.
 
 #--------------------------------
 # Heal
@@ -941,7 +941,7 @@ Deep Protection
 - FP Cost: 60
 - FTH Req: 20
 - Base Effect: Heals 300 HP.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Med Heal
@@ -949,7 +949,7 @@ Deep Protection
 - FP Cost: 70
 - FTH Req: 30
 - Base Effect: Heals 350 HP.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Great Heal
@@ -957,7 +957,7 @@ Deep Protection
 - FP Cost: 80
 - FTH Req: 40
 - Base Effect: Heals 400 HP.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Soothing Sunlight
@@ -966,7 +966,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 50
 - Base Effect: Heals 500 HP.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Projected Heal
@@ -974,7 +974,7 @@ Deep Protection
 - FP Cost: 80
 - FTH Req: 30
 - Base Effect: Heals 300 HP.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Replenishment
@@ -982,7 +982,7 @@ Deep Protection
 - FP Cost: 50
 - FTH Req: 30
 - Base Effect: Heals 600 HP over 120 seconds (5 HP/s).
-- Ascended Effect: costs 500 FP.
+- Additional Effect: costs 500 FP.
 
 #--------------------------------
 # Bountiful Light
@@ -990,7 +990,7 @@ Deep Protection
 - FP Cost: 75
 - FTH Req: 40
 - Base Effect: Heals 1200 HP over 120 seconds (10 HP/s).
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Bountiful Sunlight
@@ -999,7 +999,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 50
 - Base Effect: Heals 1800 HP over 120 seconds (15 HP/s).
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Caressing Tears
@@ -1007,7 +1007,7 @@ Deep Protection
 - FP Cost: 30
 - FTH Req: 20
 - Base Effect: Cures all status aux for caster and allies in range.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------
 # Tears of Denial
@@ -1016,7 +1016,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: prevents killing blow whilst active. Lasts until death.
-- Ascended Effect: costs 500 FP.
+- Additional Effect: costs 500 FP.
 
 #--------------------------------
 # Homeward
@@ -1024,7 +1024,7 @@ Deep Protection
 - FP Cost: 25
 - FTH Req: 10
 - Base Effect: return to bonfire.
-- Ascended Effect: None
+- Additional Effect: None
 
 #--------------------------------
 # Blessed Weapon
@@ -1033,7 +1033,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds.
-- Ascended Effect: increases Physical damage by 75.
+- Additional Effect: increases Physical damage by 75.
 
 #--------------------------------
 # Sacred Oath
@@ -1042,7 +1042,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 60
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds.
-- Ascended Effect: expands area of effect, lasts for 120 seconds.
+- Additional Effect: expands area of effect, lasts for 120 seconds.
 
 #--------------------------------
 # Lightning Blade
@@ -1052,7 +1052,7 @@ Deep Protection
 - Lightning Damage: 80
 - FTH Req: 40
 - Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
-- Ascended Effect: attacks reduces enemy poise by 50% for 5 seconds on hit.
+- Additional Effect: attacks reduces enemy poise by 50% for 5 seconds on hit.
 
 #--------------------------------
 # Darkmoon Blade
@@ -1062,7 +1062,7 @@ Deep Protection
 - Magic Damage: 80
 - FTH Req: 40
 - Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
-- Ascended Effect: grants 1 FP per second.
+- Additional Effect: grants 1 FP per second.
 
 #--------------------------------
 # Magic Barrier
@@ -1070,7 +1070,7 @@ Deep Protection
 - FP Cost: 30
 - FTH Req: 30
 - Base Effect: increases Magic absorption by 30% for 60 seconds.
-- Ascended Effect: increases all elemental absorption by 30%.
+- Additional Effect: increases all elemental absorption by 30%.
 
 #--------------------------------
 # Great Magic Barrier
@@ -1079,7 +1079,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 60
 - Base Effect: increases Magic absorption by 50% for 60 seconds.
-- Ascended Effect: increases all elemental absorption by 50%.
+- Additional Effect: increases all elemental absorption by 50%.
 
 #--------------------------------
 # Heavenly Relief
@@ -1087,7 +1087,7 @@ Deep Protection
 - FP Cost: 50
 - FTH Req: 30
 - Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds.
-- Ascended Effect: extends duration to 120 seconds.
+- Additional Effect: extends duration to 120 seconds.
 
 #--------------------------------
 # Perseverance
@@ -1096,7 +1096,7 @@ Deep Protection
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: boosts Poise by 50% for 60 seconds.
-- Ascended Effect: extends duration to 120 seconds.
+- Additional Effect: extends duration to 120 seconds.
 
 #--------------------------------------------------------------------------
 # Hexes - Offensive
@@ -1107,7 +1107,7 @@ Deep Protection
 - FP Cost: 5
 - Dark Damage: 60
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: inflicts 20 Curse.
+- Additional Effect: inflicts 20 Curse.
 - INT Req: 5
 - FTH Req: 5
 
@@ -1119,7 +1119,7 @@ Deep Protection
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: inflicts 20 Curse.
-- Ascended Effect: inflicts 30 Curse.
+- Additional Effect: inflicts 30 Curse.
 
 #--------------------------------
 # Great Deep Soul
@@ -1129,7 +1129,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: inflicts 40 Curse.
+- Additional Effect: inflicts 40 Curse.
 
 #--------------------------------
 # Great Soul Dregs
@@ -1140,7 +1140,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 40 Curse.
-- Ascended Effect: inflicts 50 Curse.
+- Additional Effect: inflicts 50 Curse.
 
 #--------------------------------
 # Dark Edge
@@ -1150,7 +1150,7 @@ Deep Protection
 - INT Req: 5
 - FTH Req: 5
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: costs less stamina.
+- Additional Effect: costs less stamina.
 
 #--------------------------------
 # Abyssal Edge
@@ -1161,7 +1161,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: increases Poise damage to 100, gains Faceplant stagger.
+- Additional Effect: increases Poise damage to 100, gains Faceplant stagger.
 
 #--------------------------------
 # Dark Bead
@@ -1171,7 +1171,7 @@ Deep Protection
 - Dark Damage: 80 {*7, individual}
 - INT Req: 25
 - FTH Req: 25
-- Ascended Effect: inflicts 10 Curse per bullet.
+- Additional Effect: inflicts 10 Curse per bullet.
 
 #--------------------------------
 # Surging Deep
@@ -1181,7 +1181,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 8 Curse.
-- Ascended Effect: inflicts 16 Curse.
+- Additional Effect: inflicts 16 Curse.
 
 #--------------------------------
 # Cascading Deep
@@ -1191,7 +1191,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: emit more projectiles. {*100, individual}
+- Additional Effect: emit more projectiles. {*100, individual}
 
 #--------------------------------
 # Yearning Dregs
@@ -1201,7 +1201,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 60 Curse per pillar.
-- Ascended Effect: expand emitter radius, {*8, shared}
+- Additional Effect: expand emitter radius, {*8, shared}
 
 #--------------------------------
 # Dreg Torrent
@@ -1212,7 +1212,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: emit more projectiles. {*50, individual}
+- Additional Effect: emit more projectiles. {*50, individual}
 
 #--------------------------------
 # Writhing Deep
@@ -1222,7 +1222,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: inflicts 50 Curse.
+- Additional Effect: inflicts 50 Curse.
 
 #--------------------------------
 # Climax
@@ -1233,7 +1233,7 @@ Deep Protection
 - INT Req: 30
 - FTH Req: 30
 - Base Effect: inflicts 20 Curse.
-- Ascended Effect: speeds up the projectile massively, increases poise damage.
+- Additional Effect: speeds up the projectile massively, increases poise damage.
 
 #--------------------------------
 # Affinity
@@ -1244,7 +1244,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: hits reduce Dark absorption by 20% for 10 seconds.
+- Additional Effect: hits reduce Dark absorption by 20% for 10 seconds.
 
 #--------------------------------
 # Whisper of Despair
@@ -1253,7 +1253,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 50 Curse.
-- Ascended Effect: inflicts 100 Curse.
+- Additional Effect: inflicts 100 Curse.
 
 #--------------------------------
 # Black Fireball
@@ -1263,7 +1263,7 @@ Deep Protection
 - FTH Req: 5
 - Dark Damage: 80 [40]
 - Base Effect: inflicts 20 Toxic.
-- Ascended Effect: gains improved tracking.
+- Additional Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Orb
@@ -1273,7 +1273,7 @@ Deep Protection
 - FTH Req: 15
 - Dark Damage: 150 [75]
 - Base Effect: inflicts 30 Toxic.
-- Ascended Effect: gains improved tracking.
+- Additional Effect: gains improved tracking.
 
 #--------------------------------
 # Black Fire Vestiges
@@ -1284,7 +1284,7 @@ Deep Protection
 - FTH Req: 30
 - Magic Damage: 250 [100]
 - Base Effect: inflicts 40 Toxic.
-- Ascended Effect: gains much better tracking.
+- Additional Effect: gains much better tracking.
 
 #--------------------------------
 # Black Fire Scatter
@@ -1294,7 +1294,7 @@ Deep Protection
 - FTH Req: 10
 - Dark Damage: 50 {*12, individual)
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: gains improved tracking.
+- Additional Effect: gains improved tracking.
 
 #--------------------------------
 # Black Flame
@@ -1304,7 +1304,7 @@ Deep Protection
 - FTH Req: 15
 - Dark Damage: 250 [100]
 - Base Effect: inflicts 20 Toxic.
-- Ascended Effect: increases poise damage and uses push stagger animation.
+- Additional Effect: increases poise damage and uses push stagger animation.
 
 #--------------------------------
 # Black Serpent
@@ -1315,7 +1315,7 @@ Deep Protection
 - FTH Req: 20
 - Dark Damage: 250
 - Base Effect: inflicts 30 Toxic.
-- Ascended Effect: expends the length.
+- Additional Effect: expends the length.
 
 #--------------------------------
 # Dark Dance  
@@ -1326,7 +1326,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 100 {*4, individual}
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: increases poise damage.
+- Additional Effect: increases poise damage.
 
 #--------------------------------
 # Recollection  
@@ -1337,7 +1337,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 50 {*25, individual}
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: emits more orbs. {*50, individual}
+- Additional Effect: emits more orbs. {*50, individual}
 
 #--------------------------------
 # Mournful Flames 
@@ -1348,7 +1348,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 100 [250]
 - Base Effect: inflicts 40 Toxic.
-- Ascended Effect: emits 5 lines.
+- Additional Effect: emits 5 lines.
 
 #--------------------------------
 # Nibble
@@ -1358,7 +1358,7 @@ Deep Protection
 - FTH Req: 5
 - Dark Damage: 60
 - Base Effect: inflicts 10 Bleed
-- Ascended Effect: inflicts 20 Bleed
+- Additional Effect: inflicts 20 Bleed
 
 #--------------------------------
 # Gnaw
@@ -1368,7 +1368,7 @@ Deep Protection
 - FTH Req: 10
 - Dark Damage: 125
 - Base Effect: inflicts 20 Bleed
-- Ascended Effect: inflicts 30 Bleed
+- Additional Effect: inflicts 30 Bleed
 
 #--------------------------------
 # Dorhys' Gnawing
@@ -1379,7 +1379,7 @@ Deep Protection
 - FTH Req: 20
 - Dark Damage: 200
 - Base Effect: inflicts 30 Bleed
-- Ascended Effect: inflicts 40 Bleed
+- Additional Effect: inflicts 40 Bleed
 
 #--------------------------------
 # Lifehunt Scythe
@@ -1390,7 +1390,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 200 
 - Base Effect: absorbs 10% HP on hit.
-- Ascended Effect: costs 20 FP.
+- Additional Effect: costs 20 FP.
 
 #--------------------------------
 # Devouring Swarm
@@ -1401,7 +1401,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 50 {*25, individual}
 - Base Effect: inflicts 10 Bleed
-- Ascended Effect: emits more projectiles. {*50, individual}
+- Additional Effect: emits more projectiles. {*50, individual}
 
 #--------------------------------
 # Dead Again
@@ -1410,7 +1410,7 @@ Deep Protection
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: causes corpses to explode, dealing damage to foes.
-- Ascended Effect: costs 10 FP.
+- Additional Effect: costs 10 FP.
 
 #--------------------------------
 # Vow of Agony
@@ -1419,7 +1419,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Dark Damage: 100 (per tick)
-- Ascended Effect: lasts for 60 seconds.
+- Additional Effect: lasts for 60 seconds.
 
 #--------------------------------
 # Gravelord Sword Dance
@@ -1430,7 +1430,7 @@ Deep Protection
 - FTH Req: 25
 - Dark Damage: 200 {*1, shared}
 - Base Effect: inflicts 60 Toxic.
-- Ascended Effect: expands area of effect.
+- Additional Effect: expands area of effect.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect
@@ -1442,7 +1442,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: increases absorption to 100% for 2 seconds
-- Ascended Effect: lasts for 3 seconds.
+- Additional Effect: lasts for 3 seconds.
 
 #--------------------------------
 # Numbness
@@ -1452,7 +1452,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: increases absorption by 35% for 120 seconds but reduces camera FOV to 20.
-- Ascended Effect: costs 30 FP.
+- Additional Effect: costs 30 FP.
 
 #--------------------------------
 # Black Flame Arc
@@ -1462,7 +1462,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: adds 120 Dark damage to main weapon for 60 seconds.
-- Ascended Effect: increases stamina damage by 100%.
+- Additional Effect: increases stamina damage by 100%.
 
 #--------------------------------
 # Pungent Blade
@@ -1472,7 +1472,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Poison inflict to 80.
+- Additional Effect: increases Poison inflict to 80.
 
 #--------------------------------
 # Deep Protection
@@ -1481,7 +1481,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10.
-- Ascended Effect: increases damage and absorption by 10%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 100.
+- Additional Effect: increases damage and absorption by 10%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 100.
 
 #--------------------------------
 # Dark Blade
@@ -1491,7 +1491,7 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: adds 75 Dark damage to main weapon and restores 0.25% HP per second for 60 seconds.
-- Ascended Effect: restores 0.5% HP per second (scales with spell buff).
+- Additional Effect: restores 0.5% HP per second (scales with spell buff).
 
 #--------------------------------
 # Atonement
@@ -1500,7 +1500,7 @@ Deep Protection
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: adds target priority to the player. Boosts absorption by 20%. Lasts 30 seconds.
-- Ascended Effect: lasts for 60 seconds.
+- Additional Effect: lasts for 60 seconds.
 
 #--------------------------------
 # Vow of Silence
@@ -1509,7 +1509,7 @@ Deep Protection
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: silence self and target for 15 seconds.
-- Ascended Effect: costs 20 FP.
+- Additional Effect: costs 20 FP.
 
 #--------------------------------
 # Pulsating Blade
@@ -1519,5 +1519,5 @@ Deep Protection
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Bleed inflict to 60.
+- Additional Effect: increases Bleed inflict to 60.
 

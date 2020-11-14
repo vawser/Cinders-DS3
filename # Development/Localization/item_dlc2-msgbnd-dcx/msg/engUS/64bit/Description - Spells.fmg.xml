@@ -4,12 +4,7 @@
 <version>DarkSouls3</version>
 <bigendian>False</bigendian>
 <entries>
-<text id="3000">Elementary sorcery.
-Fire soul arrow.
-
-Soul arrows inflict magic damage, making them
-effective against iron armor, tough scales,
-and other physically resilient materials.</text>
+<text id="3000">%null%</text>
 <text id="3001">%null%</text>
 <text id="3002">%null%</text>
 <text id="3003">%null%</text>
@@ -19,13 +14,7 @@ and other physically resilient materials.</text>
 <text id="3007">%null%</text>
 <text id="3008">%null%</text>
 <text id="3009">%null%</text>
-<text id="3010">Sorcery which improves upon Soul Arrow.
-Fire strong soul arrow.
-
-At the Vinheim Dragon School,
-the acquisition of this spell marks an
-apprentice's coronation as a sorcerer.
-</text>
+<text id="3010">%null%</text>
 <text id="3011">%null%</text>
 <text id="3012">%null%</text>
 <text id="3013">%null%</text>
@@ -35,12 +24,7 @@ apprentice's coronation as a sorcerer.
 <text id="3017">%null%</text>
 <text id="3018">%null%</text>
 <text id="3019">%null%</text>
-<text id="3020">Soul sorcery emphasizing power.
-Fire heavy soul arrow.
-
-A more powerful, but also slower sorcery.
-Difficult to use due to a long cool down and
-a limitation on the number of castings.</text>
+<text id="3020">%null%</text>
 <text id="3021">%null%</text>
 <text id="3022">%null%</text>
 <text id="3023">%null%</text>
@@ -50,12 +34,7 @@ a limitation on the number of castings.</text>
 <text id="3027">%null%</text>
 <text id="3028">%null%</text>
 <text id="3029">%null%</text>
-<text id="3030">Sorcery which improves upon Heavy Soul Arrow.
-Fire strong heavy soul arrow.
-
-As difficult to use as Heavy Soul Arrow,
-but powerful enough to make it well worth it.
-Adored by certain sorcerers.</text>
+<text id="3030">%null%</text>
 <text id="3031">%null%</text>
 <text id="3032">%null%</text>
 <text id="3033">%null%</text>
@@ -65,12 +44,7 @@ Adored by certain sorcerers.</text>
 <text id="3037">%null%</text>
 <text id="3038">%null%</text>
 <text id="3039">%null%</text>
-<text id="3040">Sorcery developed by Big Hat Logan.
-Fire homing soulmass.
-
-Life originates in the soul; no wonder the
-soulmass draws toward it. This sorcery is a
-window into seeker Logan's methods.</text>
+<text id="3040">%null%</text>
 <text id="3041">%null%</text>
 <text id="3042">%null%</text>
 <text id="3043">%null%</text>
@@ -80,12 +54,7 @@ window into seeker Logan's methods.</text>
 <text id="3047">%null%</text>
 <text id="3048">%null%</text>
 <text id="3049">%null%</text>
-<text id="3050">Sorcery boosted by the knowledge.
-Logan acquired at the Regal Archives.
-Fire homing crystal soulmass.
-
-The mysteries of souls, crystals, and the
-sorceries are deeply intertwined.</text>
+<text id="3050">%null%</text>
 <text id="3051">%null%</text>
 <text id="3052">%null%</text>
 <text id="3053">%null%</text>
@@ -95,12 +64,7 @@ sorceries are deeply intertwined.</text>
 <text id="3057">%null%</text>
 <text id="3058">%null%</text>
 <text id="3059">%null%</text>
-<text id="3060">Sorcery developed by Big Hat Logan.
-Fire piercing soul spear.
-
-A symbol of Logan's strength, the soul spear
-is referenced repeatedly in the legends, and
-is said to be on par with Lord Gwyn's lightning.</text>
+<text id="3060">%null%</text>
 <text id="3061">%null%</text>
 <text id="3062">%null%</text>
 <text id="3063">%null%</text>
@@ -110,21 +74,8 @@ is said to be on par with Lord Gwyn's lightning.</text>
 <text id="3067">%null%</text>
 <text id="3068">%null%</text>
 <text id="3069">%null%</text>
-<text id="3070">Sorcery boosted by the knowledge.
-Logan acquired at the Regal Archives.
-Fire piercing crystal soul spear.
-
-These pale magic spears, sharpened
-through crystallization, are on par with
-the armaments of the ancient lords.</text>
-<text id="3100">Sorcery for casters who wield swords.
-Magic augmentation: right weapon.
-
-Increases Magic damage by 40 for 90 seconds. 
-
-The power of the magic swordsmen of Vinheim
-is predicated upon this and Magic Shield.
-Many warriors learn sorcery just for this.</text>
+<text id="3070">%null%</text>
+<text id="3100">%null%</text>
 <text id="3101">%null%</text>
 <text id="3102">%null%</text>
 <text id="3103">%null%</text>
@@ -134,15 +85,7 @@ Many warriors learn sorcery just for this.</text>
 <text id="3107">%null%</text>
 <text id="3108">%null%</text>
 <text id="3109">%null%</text>
-<text id="3110">Sorcery which improves upon Magic Weapon.
-High magic augmentation: right weapon.
-
-Increases Magic damage by 60 for 60 seconds.
-
-At Vinheim Dragon School, only magic
-swordsmen on special orders are allowed
-to learn this spell which grants powerful
-augmentation to various weapons.</text>
+<text id="3110">%null%</text>
 <text id="3111">%null%</text>
 <text id="3112">%null%</text>
 <text id="3113">%null%</text>
@@ -152,25 +95,8 @@ augmentation to various weapons.</text>
 <text id="3117">%null%</text>
 <text id="3118">%null%</text>
 <text id="3119">%null%</text>
-<text id="3120">Sorcery boosted by the knowledge.
-Logan acquired at the Regal Archive.
-High magic + crystallization: right weapon
-
-Increases Magic damage by 80 for 30 seconds.
-
-Logan's trials were successful, and the
-crystal medium facilitated a stronger bond
-between weapon and soul.</text>
-<text id="3300">Sorcery for casters who wield swords.
-Magic augmentation: left shield.
-
-Boosts shield absorption by 30% and 
-stability by 10% for 60 seconds.
-
-Shields augmented by magic are resistant to
-magic attacks and have higher stability.
-This spell makes it possible to challenge
-powerful foes with a small shield.</text>
+<text id="3120">%null%</text>
+<text id="3300">%null%</text>
 <text id="3301">%null%</text>
 <text id="3302">%null%</text>
 <text id="3303">%null%</text>
@@ -180,24 +106,8 @@ powerful foes with a small shield.</text>
 <text id="3307">%null%</text>
 <text id="3308">%null%</text>
 <text id="3309">%null%</text>
-<text id="3310">Sorcery which improves upon Magic Shield.
-High magic augmentation: left shield.
-
-Boosts shield absorption by 100% and 
-stability by 20% for 30 seconds.
-
-At Vinheim Dragon School, only magic
-swordsmen on special orders are allowed
-to learn this spell which grants temporary
-strength to greatshields.</text>
-<text id="3400">Ancient sorcery of the lost land of Oolacile.
-
-Turns right weapon invisible for 120 seconds.
-
-Not a simple augmentation, making it
-dependent on the skill of its caster. 
-An example of the capacity of Oolacile
-sorceries to control light.</text>
+<text id="3310">%null%</text>
+<text id="3400">%null%</text>
 <text id="3401">%null%</text>
 <text id="3402">%null%</text>
 <text id="3403">%null%</text>
@@ -207,26 +117,8 @@ sorceries to control light.</text>
 <text id="3407">%null%</text>
 <text id="3408">%null%</text>
 <text id="3409">%null%</text>
-<text id="3410">Ancient sorcery of the lost land of Oolacile.
-
-Turns body nearly invisible for 30 seconds.
-
-Although perfect invisibility is unachievable
-due to the risk of dissipation, the caster
-need only stand still for a moment to blend
-in to environs with astounding camouflage.
-
-
-
-</text>
-<text id="3500">Ancient sorcery of the lost land of Oolacile.
-
-Cast a bright light upon surroundings for 120 seconds.
-
-This light-producing sorcery is elementary
-but nonetheless demonstrates the achievements
-in mysticism of Oolacile. Such magic has
-not been developed even in Vinheim.</text>
+<text id="3410">%null%</text>
+<text id="3500">%null%</text>
 <text id="3501">%null%</text>
 <text id="3502">%null%</text>
 <text id="3503">%null%</text>
@@ -236,14 +128,7 @@ not been developed even in Vinheim.</text>
 <text id="3507">%null%</text>
 <text id="3508">%null%</text>
 <text id="3509">%null%</text>
-<text id="3510">Sorcery developed by a certain surreptitious
-sorcerer at Vinheim Dragon School.
-
-Masks all noises of caster for 20 seconds.
-
-Effectively, Vinheim is controlled by the
-Dragon School, and it is no wonder that the
-town has its share of dark secrets.</text>
+<text id="3510">%null%</text>
 <text id="3511">%null%</text>
 <text id="3512">%null%</text>
 <text id="3513">%null%</text>
@@ -253,17 +138,7 @@ town has its share of dark secrets.</text>
 <text id="3517">%null%</text>
 <text id="3518">%null%</text>
 <text id="3519">%null%</text>
-<text id="3520">Sorcery used by playful sorcerers.
-Lure enemies away by creating a
-sound originating in the distance.
-
-Lasts for 5 seconds.
-
-This spell is not the first choice for
-serious sorcerers, but it has a surprising
-amount of applications, some of them
-extremely effective.
-</text>
+<text id="3520">%null%</text>
 <text id="3521">%null%</text>
 <text id="3522">%null%</text>
 <text id="3523">%null%</text>
@@ -273,14 +148,7 @@ extremely effective.
 <text id="3527">%null%</text>
 <text id="3528">%null%</text>
 <text id="3529">%null%</text>
-<text id="3530">Ancient sorcery of the lost land of Oolacile.
-Repair equipped weapons and armor.
-
-This sorcery was a part of everyday life in
-Oolacile. Its effects resemble Repair Powder,
-which must have found its way into the
-culture of this lost land.
-</text>
+<text id="3530">%null%</text>
 <text id="3531">%null%</text>
 <text id="3532">%null%</text>
 <text id="3533">%null%</text>
@@ -290,15 +158,7 @@ culture of this lost land.
 <text id="3537">%null%</text>
 <text id="3538">%null%</text>
 <text id="3539">%null%</text>
-<text id="3540">Sorcery developed by a certain surreptitious
-sorcerer at Vinheim Dragon School.
-Reduce damage and noise from fall.
-
-This sorcery, along with Hush, explains the
-extravagant cost of hiring Vinheim spooks.
-
-
-</text>
+<text id="3540">%null%</text>
 <text id="3541">%null%</text>
 <text id="3542">%null%</text>
 <text id="3543">%null%</text>
@@ -308,21 +168,8 @@ extravagant cost of hiring Vinheim spooks.
 <text id="3547">%null%</text>
 <text id="3548">%null%</text>
 <text id="3549">%null%</text>
-<text id="3550">Ancient sorcery of the lost land of Oolacile.
-Transform into something inconspicuous.
-
-A separate stealth spell from Hidden Body.
-A skilled stealth sorcerer must be aware of
-his or her surroundings and of which
-objects are prime candidates for imitation.
-</text>
-<text id="3600">Sorcery of the red-robed remedician.
-Ingward, guardian of the seal in New Londo
-Sacrifice humanity to undo curse.
-
-Abhorrent curses eat away at the core of
-one's very existence, and cleansing oneself
-of curses is no easy task indeed.</text>
+<text id="3550">%null%</text>
+<text id="3600">%null%</text>
 <text id="3601">%null%</text>
 <text id="3602">%null%</text>
 <text id="3603">%null%</text>
@@ -332,27 +179,9 @@ of curses is no easy task indeed.</text>
 <text id="3607">%null%</text>
 <text id="3608">%null%</text>
 <text id="3609">%null%</text>
-<text id="3610">Sorcery of the red-robed Yulva,
-one of the Sealers of New Londo.
-Reduce bleeding and poison build-up,
-and undo various poisonous effects.
-
-One of New Londo's unique healing sorceries.
-Perhaps she abandoned her Sealer duty to
-take her healing arts back to Blighttown.</text>
-<text id="3700">Sorcery developed by Logan during his
-infatuation with Seath the Scaleless.
-Emit crystal breath of Seath the Scaleless.
-
-Although it no longer causes curses, what
-madness caused old Big Hat to appropriate
-this frightful power of the ancient dragons?</text>
-<text id="4000">Standard pyromancy of the Great Swamp.
-Hurl fireball.
-
-The fire damage caused by fireballs makes
-them effective against corporeal beasts and
-Undead, who by nature fear flame.</text>
+<text id="3610">%null%</text>
+<text id="3700">%null%</text>
+<text id="4000">%null%</text>
 <text id="4001">%null%</text>
 <text id="4002">%null%</text>
 <text id="4003">%null%</text>
@@ -362,13 +191,7 @@ Undead, who by nature fear flame.</text>
 <text id="4007">%null%</text>
 <text id="4008">%null%</text>
 <text id="4009">%null%</text>
-<text id="4010">Pyromancy which improves upon Fireball.
-Hurl fire orb.
-
-The flaming fire orb explodes upon impact,
-causing fire splash damage in a spectacle
-which seems to symbolize the strength of
-the fire-manipulating pyromancers.</text>
+<text id="4010">%null%</text>
 <text id="4011">%null%</text>
 <text id="4012">%null%</text>
 <text id="4013">%null%</text>
@@ -378,15 +201,7 @@ the fire-manipulating pyromancers.</text>
 <text id="4017">%null%</text>
 <text id="4018">%null%</text>
 <text id="4019">%null%</text>
-<text id="4020">Ultimate fireball pyromancy.
-Hurl giant fireball.
-
-Salaman the Master Pyromancer, also called
-the Great Fireball after this spell, believed
-pyromancy was rooted in an adoration of fire.
-Those who acquire this spell usually agree.
-
-</text>
+<text id="4020">%null%</text>
 <text id="4021">%null%</text>
 <text id="4022">%null%</text>
 <text id="4023">%null%</text>
@@ -396,11 +211,7 @@ Those who acquire this spell usually agree.
 <text id="4027">%null%</text>
 <text id="4028">%null%</text>
 <text id="4029">%null%</text>
-<text id="4030">Primal pyromancy taught by Quelana of Izalith.
-Erect fire pillars in vicinity.
-
-The storm of flame is indiscriminate,
-and incinerates all nearby life.</text>
+<text id="4030">%null%</text>
 <text id="4031">%null%</text>
 <text id="4032">%null%</text>
 <text id="4033">%null%</text>
@@ -410,13 +221,7 @@ and incinerates all nearby life.</text>
 <text id="4037">%null%</text>
 <text id="4038">%null%</text>
 <text id="4039">%null%</text>
-<text id="4040">Primal pyromancy of Quelana of Izalith.
-Erect giant fire pillars in vicinity.
-
-The tempestuous raging flames resemble those
-summoned by the Daughters of Chaos when they
-challenged the ancient dragons and scorched
-the very earth.</text>
+<text id="4040">%null%</text>
 <text id="4041">%null%</text>
 <text id="4042">%null%</text>
 <text id="4043">%null%</text>
@@ -426,13 +231,7 @@ the very earth.</text>
 <text id="4047">%null%</text>
 <text id="4048">%null%</text>
 <text id="4049">%null%</text>
-<text id="4050">Pyromancy foreign to the Great Swamp.
-Create a surge of flame from palm of hand.
-
-Not all pyromancy originates in the Great
-Swamp. One hears rumors of unknown
-pyromancers inhabiting various lands, and
-this spell is the work of one such outlander.</text>
+<text id="4050">%null%</text>
 <text id="4051">%null%</text>
 <text id="4052">%null%</text>
 <text id="4053">%null%</text>
@@ -442,17 +241,8 @@ this spell is the work of one such outlander.</text>
 <text id="4057">%null%</text>
 <text id="4058">%null%</text>
 <text id="4059">%null%</text>
-<text id="4060">Primal pyromancy taught by Quelana of Izalith.
-Sweep foes with fire whip.
-
-The root pyromancy of Combustion,
-but much more difficult to wield.</text>
-<text id="4100">Elementary pyromancy.
-Create powerful flame in hand.
-
-One of the most basic pyromancies.
-For this very reason, the flame thus
-created is fierce.</text>
+<text id="4060">%null%</text>
+<text id="4100">%null%</text>
 <text id="4101">%null%</text>
 <text id="4102">%null%</text>
 <text id="4103">%null%</text>
@@ -462,21 +252,8 @@ created is fierce.</text>
 <text id="4107">%null%</text>
 <text id="4108">%null%</text>
 <text id="4109">%null%</text>
-<text id="4110">Pyromancy which improves upon Combustion.
-Create powerful, giant flame in hand.
-
-Great Combustion creates a powerful flame,
-but many sorcerers mock the simplicity of
-this spell.</text>
-<text id="4200">Unique pyromancy crafted by Eingyi,
-considered a heretic even at the Great Swamp
-
-Create poison mist, inflicting 30 Poison per tick.
-Lasts 60 seconds.
-
-Eingyi became an egg-bearing Undead who
-serves a deformed young girl who speaks
-an unintelligible tongue.</text>
+<text id="4110">%null%</text>
+<text id="4200">%null%</text>
 <text id="4201">%null%</text>
 <text id="4202">%null%</text>
 <text id="4203">%null%</text>
@@ -486,15 +263,7 @@ an unintelligible tongue.</text>
 <text id="4207">%null%</text>
 <text id="4208">%null%</text>
 <text id="4209">%null%</text>
-<text id="4210">Unique pyromancy crafted by Eingyi,
-considered a heretic even at the Great Swamp
-
-Create intense poison mist, inflicting 15 Toxic per tick.
-Lasts 60 seconds.
-
-Why was Eingyi driven from the Great Swamp?
-One only need cast this pyromancy, a perverse
-diversion from the art of fire, to find out.</text>
+<text id="4210">%null%</text>
 <text id="4211">%null%</text>
 <text id="4212">%null%</text>
 <text id="4213">%null%</text>
@@ -504,27 +273,8 @@ diversion from the art of fire, to find out.</text>
 <text id="4217">%null%</text>
 <text id="4218">%null%</text>
 <text id="4219">%null%</text>
-<text id="4220">Pyromancy foreign to the Great Swamp.
-
-Emit acid which corrodes weapons and armor,
-draining 1 durability per tick.
-
-Not all pyromancy originates in the Great
-Swamp. One hears rumors of unknown
-pyromancers inhabiting various lands, and
-this spell is the work of one such outlander.</text>
-<text id="4300">Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-
-Iron flesh boosts physical absorptions by 40%, 
-but reduces Lightning absorption by 60%.
-
-Slows movement, but grants 65 attack deflection 
-and prevents stagger from most attacks.
-
-Use of this pyromancy requires caution,
-as the caster becomes exceedingly heavy
-and unable to move freely.</text>
+<text id="4220">%null%</text>
+<text id="4300">%null%</text>
 <text id="4301">%null%</text>
 <text id="4302">%null%</text>
 <text id="4303">%null%</text>
@@ -534,15 +284,7 @@ and unable to move freely.</text>
 <text id="4307">%null%</text>
 <text id="4308">%null%</text>
 <text id="4309">%null%</text>
-<text id="4310">Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-
-Intense sweating reduces flame damage,
-boosting Fire absorption by 30%.
-
-Carmina, the most accomplished pupil of
-Salaman the Master Pyromancer, pioneered
-new directions for the art of pyromancy.</text>
+<text id="4310">%null%</text>
 <text id="4311">%null%</text>
 <text id="4312">%null%</text>
 <text id="4313">%null%</text>
@@ -553,31 +295,9 @@ new directions for the art of pyromancy.</text>
 <text id="4318">%null%</text>
 <text id="4319">%null%</text>
 <text id="4320">%null%</text>
-<text id="4360">Advanced pyromancy of Quelana of Izalith.
-
-Charm Undead and gain temporary allies.
-Lasts for 30 seconds.
-
-The living are lured by flame, and this
-relationship is part and parcel to the art of
-pyromancy. Can be used by either gender.</text>
-<text id="4400">Pyromancy of Carmina, who harnessed the power
-of flame to actualize the inner-self.
-
-Boosts damage by 20% and stamina recovery by 30, but 
-deals 1% of max health in damage every second.
-Lasts 30 seconds.
-
-Excessive power eats away the life-force of
-its caster, and like all dangerous spells,
-Power Within was kept secret for eons.</text>
-<text id="4500">Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Hurl giant chaos fireball, which changes
-strength depending on humanity.
-
-The Flame of Chaos can melt stone,
-producing a short-lived lava glob.</text>
+<text id="4360">%null%</text>
+<text id="4400">%null%</text>
+<text id="4500">%null%</text>
 <text id="4501">%null%</text>
 <text id="4502">%null%</text>
 <text id="4503">%null%</text>
@@ -587,14 +307,7 @@ producing a short-lived lava glob.</text>
 <text id="4507">%null%</text>
 <text id="4508">%null%</text>
 <text id="4509">%null%</text>
-<text id="4510">Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Erect localized chaos fire pillars which
-change strength depending on humanity.
-
-The Witch of Izalith, in an ambitious attempt
-to copy the First Flame, created instead the
-Flame of Chaos, a twisted bed of life.</text>
+<text id="4510">%null%</text>
 <text id="4511">%null%</text>
 <text id="4512">%null%</text>
 <text id="4513">%null%</text>
@@ -604,20 +317,8 @@ Flame of Chaos, a twisted bed of life.</text>
 <text id="4517">%null%</text>
 <text id="4518">%null%</text>
 <text id="4519">%null%</text>
-<text id="4520">Art of the Flame of Chaos, which engulfed
-the Witch of Izalith and her daughters.
-Sweep foes with chaos fire whip which
-changes strength depending on humanity.
-
-The fire whip was wielded by the
-eldest of the Daughters of Chaos.</text>
-<text id="5000">Elementary miracle cast by clerics.
-Restores HP.
-
-To cast a miracle, the caster learns a tale
-of the Gods, and says a prayer to be blessed
-by its revelations. Heal is the shortest
-of such miraculous tales.</text>
+<text id="4520">%null%</text>
+<text id="5000">%null%</text>
 <text id="5001">%null%</text>
 <text id="5002">%null%</text>
 <text id="5003">%null%</text>
@@ -627,12 +328,7 @@ of such miraculous tales.</text>
 <text id="5007">%null%</text>
 <text id="5008">%null%</text>
 <text id="5009">%null%</text>
-<text id="5010">Great miracle cast by advanced clerics.
-Restores high HP.
-
-Great Heal is a long tale, only learned by a
-select few. No caster will be disappointed
-by the bountiful life that it yields.</text>
+<text id="5010">%null%</text>
 <text id="5011">%null%</text>
 <text id="5012">%null%</text>
 <text id="5013">%null%</text>
@@ -642,12 +338,7 @@ by the bountiful life that it yields.</text>
 <text id="5017">%null%</text>
 <text id="5018">%null%</text>
 <text id="5019">%null%</text>
-<text id="5020">Great miracle cast by advanced clerics.
-Restores high HP.
-
-Great Heal Excerpt borrows from only
-several verses of Great Heal. As a result,
-it can only be cast a stark few times.</text>
+<text id="5020">%null%</text>
 <text id="5021">%null%</text>
 <text id="5022">%null%</text>
 <text id="5023">%null%</text>
@@ -657,13 +348,7 @@ it can only be cast a stark few times.</text>
 <text id="5027">%null%</text>
 <text id="5028">%null%</text>
 <text id="5029">%null%</text>
-<text id="5030">Special miracle granted to the maidens
-of Gwynevere, Princess of the Sun.
-Restores high HP for self and vicinity.
-
-The miracles of Gwynevere, the princess 
-cherished by all, grant their blessing to
-a great many warriors.</text>
+<text id="5030">%null%</text>
 <text id="5031">%null%</text>
 <text id="5032">%null%</text>
 <text id="5033">%null%</text>
@@ -673,11 +358,7 @@ a great many warriors.</text>
 <text id="5037">%null%</text>
 <text id="5038">%null%</text>
 <text id="5039">%null%</text>
-<text id="5040">Common miracle amongst cleric knights.
-Gradual HP restoration.
-
-Beware of the cleric knight blessed by
-Replenishment, for he shall not fall easily.</text>
+<text id="5040">%null%</text>
 <text id="5041">%null%</text>
 <text id="5042">%null%</text>
 <text id="5043">%null%</text>
@@ -687,20 +368,8 @@ Replenishment, for he shall not fall easily.</text>
 <text id="5047">%null%</text>
 <text id="5048">%null%</text>
 <text id="5049">%null%</text>
-<text id="5050">Special miracle granted to the maidens
-of Gwynevere, Princess of the Sun.
-Gradual HP restoration for self and vicinity.
-
-The miracles of Gwynevere, the princess 
-cherished by all, grant their blessing to
-a great many warriors.</text>
-<text id="5100">Miracle known only by the servants of
-the first dead, Gravelord Nito.
-Giant Gravelord swords jut out in vicinity.
-
-Nito sleeps deep within the Giant Catacombs,
-quietly overseeing all death, and waiting for
-his servants to usher in the Eye of Death.</text>
+<text id="5050">%null%</text>
+<text id="5100">%null%</text>
 <text id="5101">%null%</text>
 <text id="5102">%null%</text>
 <text id="5103">%null%</text>
@@ -710,19 +379,8 @@ his servants to usher in the Eye of Death.</text>
 <text id="5107">%null%</text>
 <text id="5108">%null%</text>
 <text id="5109">%null%</text>
-<text id="5110">Miracle known only by the servants of
-the first dead, Gravelord Nito.
-Giant Gravelord swords jut out in vicinity.
-
-Many have died, and many eyes were claimed to
-realize the Greatsword Dance, a Gravelord
-ritual known only by his closest servants.</text>
-<text id="5200">Lost miracle, foreign to the Way of White
-While active, no losses incurred upon death
-
-The Way of White recognizes death itself,
-but admonishes the Undead. It is for this
-very reason that this miracle was lost.</text>
+<text id="5110">%null%</text>
+<text id="5200">%null%</text>
 <text id="5201">%null%</text>
 <text id="5202">%null%</text>
 <text id="5203">%null%</text>
@@ -732,25 +390,8 @@ very reason that this miracle was lost.</text>
 <text id="5207">%null%</text>
 <text id="5208">%null%</text>
 <text id="5209">%null%</text>
-<text id="5210">Great miracle cast by advanced clerics.
-Return to last bonfire rested at.
-
-Would normally link to one's homeland,
-only the curse of the Undead has distorted
-its power, redirecting casters to a bonfire.
-Or perhaps for Undead, this serves as home?
-</text>
-<text id="5300">Common miracle amongst cleric knights.
-Create shockwave.
-
-This quickly-acting miracle inflicts no
-damage, but propels foes back and defends
-against arrows. Cleric knights use this
-miracle when charging into enemy mobs.
-
-
-
-</text>
+<text id="5210">%null%</text>
+<text id="5300">%null%</text>
 <text id="5301">%null%</text>
 <text id="5302">%null%</text>
 <text id="5303">%null%</text>
@@ -760,13 +401,7 @@ miracle when charging into enemy mobs.
 <text id="5307">%null%</text>
 <text id="5308">%null%</text>
 <text id="5309">%null%</text>
-<text id="5310">Primal form of Force.
-Create powerful shockwave.
-
-Wrath of the Gods was an epic tale that
-tattered over time and devolved into the
-modern Force. This primal form of Force
-emits a shockwave that also inflicts damage.</text>
+<text id="5310">%null%</text>
 <text id="5311">%null%</text>
 <text id="5312">%null%</text>
 <text id="5313">%null%</text>
@@ -776,24 +411,9 @@ emits a shockwave that also inflicts damage.</text>
 <text id="5317">%null%</text>
 <text id="5318">%null%</text>
 <text id="5319">%null%</text>
-<text id="5320">Outland miracle, foreign to the Way of White.
-Emit shockwave.
-
-Considered an alternate branching of Force.
-Emits an expanding shockwave orb.</text>
-<text id="5400">Miracle of clerics on an Undead mission.
-Display more guidance from other worlds.
-
-Guidance facilitates communication between
-Undead, but their value varies greatly.
-A balance of faith and wisdom is required.</text>
-<text id="5500">Miracle passed down to those bound by
-the Warrior of Sunlight covenant.
-Hurl lightning spear.
-
-Lightning spears inflict rare lightning
-damage, and are very effective against
-magic, fire, and most of all, dragons.</text>
+<text id="5320">%null%</text>
+<text id="5400">%null%</text>
+<text id="5500">%null%</text>
 <text id="5501">%null%</text>
 <text id="5502">%null%</text>
 <text id="5503">%null%</text>
@@ -803,13 +423,7 @@ magic, fire, and most of all, dragons.</text>
 <text id="5507">%null%</text>
 <text id="5508">%null%</text>
 <text id="5509">%null%</text>
-<text id="5510">Miracle passed down to those bound by
-the Warrior of Sunlight covenant.
-Hurl giant lightning spear.
-
-The weapon of the God of War, who inherited
-the sunlight of Lord Gwyn, but had
-respect only for arms, and nothing else.</text>
+<text id="5510">%null%</text>
 <text id="5511">%null%</text>
 <text id="5512">%null%</text>
 <text id="5513">%null%</text>
@@ -819,18 +433,8 @@ respect only for arms, and nothing else.</text>
 <text id="5517">%null%</text>
 <text id="5518">%null%</text>
 <text id="5519">%null%</text>
-<text id="5520">Miracle born from the fading soul of Gwyn.
-Hurl sunlight spear.
-
-In the war that marked the dawn of the Age
-of Fire, Gwyn wielded these rays of sunlight,
-which remain fierce even as they fade.</text>
-<text id="5600">Miracle of Bishop Havel the Rock.
-Cover body in defensive magic coating.
-
-This coating greatly boosts magic defense,
-assisting warriors who must face the magic
-which Bishop Havel countered so proficiently.</text>
+<text id="5520">%null%</text>
+<text id="5600">%null%</text>
 <text id="5601">%null%</text>
 <text id="5602">%null%</text>
 <text id="5603">%null%</text>
@@ -840,19 +444,8 @@ which Bishop Havel countered so proficiently.</text>
 <text id="5607">%null%</text>
 <text id="5608">%null%</text>
 <text id="5609">%null%</text>
-<text id="5610">Miracle of Bishop Havel the Rock.
-Cover body in powerful def. magic coating.
-
-Havel the Rock, an old battlefield compatriot
-of Lord Gwyn, was the sworn enemy of Seath
-the Scaleless. He despised magic, and made
-certain to devise means of counteraction.</text>
-<text id="5700">Miracle of the black-haired witch Velka.
-Temporary auto counter vs. heavy damage.
-
-For each sin there is a punishment, and
-it is the task of Goddess Velka to define
-the sin, and mete out the punishment.</text>
+<text id="5610">%null%</text>
+<text id="5700">%null%</text>
 <text id="5701">%null%</text>
 <text id="5702">%null%</text>
 <text id="5703">%null%</text>
@@ -863,12 +456,7 @@ the sin, and mete out the punishment.</text>
 <text id="5708">%null%</text>
 <text id="5709">%null%</text>
 <text id="5710">%null%</text>
-<text id="5800">Outland miracle, foreign to the Way of White.
-Slows all walking within effect area.
-
-This miracle is normally used to flee, as
-it slows walking but does not affect attacks,
-but nevertheless defines peace perfectly.</text>
+<text id="5800">%null%</text>
 <text id="5801">%null%</text>
 <text id="5802">%null%</text>
 <text id="5803">%null%</text>
@@ -878,21 +466,8 @@ but nevertheless defines peace perfectly.</text>
 <text id="5807">%null%</text>
 <text id="5808">%null%</text>
 <text id="5809">%null%</text>
-<text id="5810">Secret rite of the black-haired witch Velka.
-Prevents casting of magic within effect area.
-
-Velka, the Goddess of Sin, is a rogue deity,
-but she is versed in arts both new and old,
-and is considered to have a great range of
-influence even as gods are concerned.</text>
-<text id="5900">Miracle wielded by Lord Gwyn's firstborn.
-Boost right weapon with rays of Sun.
-
-The power of sunlight, manifested as
-lightning, is very effective against dragons.
-When the eldest son was stripped of his
-deific status, he left this on his father's
-coffin, perhaps as a final farewell.</text>
+<text id="5810">%null%</text>
+<text id="5900">%null%</text>
 <text id="5901">%null%</text>
 <text id="5902">%null%</text>
 <text id="5903">%null%</text>
@@ -902,13 +477,7 @@ coffin, perhaps as a final farewell.</text>
 <text id="5907">%null%</text>
 <text id="5908">%null%</text>
 <text id="5909">%null%</text>
-<text id="5910">Miracle granted to those bound by covenant
-to Gwyndolin, Lord Gwyn's lastborn.
-Boost right weapon with rays of Darkmoon.
-
-The power of the rays of the Darkmoon are
-manifested in vengeance, and the deeper the
-animus, the more devastating the attack.</text>
+<text id="5910">%null%</text>
 
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
