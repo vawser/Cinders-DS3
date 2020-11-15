@@ -675,23 +675,23 @@
 <text id="5024">Tome: Halflight</text>
 <text id="5025">Tome: Champions of Yore</text>
 
-<text id="5300">Sunlight Tablet</text>
-<text id="5301">Crab Tablet</text>
-<text id="5302">Craggy Tablet</text>
-<text id="5303">Slimy Tablet</text>
-<text id="5304">Blessed Tablet</text>
-<text id="5305">Avaricious Tablet</text>
-<text id="5306">Dusty Tablet</text>
-<text id="5307">Rat Tablet</text>
-<text id="5308">Hallowed Tablet</text>
-<text id="5309">Holy Tablet</text>
-<text id="5310">Royal Tablet</text>
-<text id="5311">Scorched Tablet</text>
-<text id="5312">Etched Tablet</text>
-<text id="5313">Bloodied Tablet</text>
-<text id="5314">Wrathful Tablet</text>
-<text id="5315">Crystalline Tablet</text>
-<text id="5316">Demonic Tablet</text>
+<text id="5300">Opus of Sunlight</text>
+<text id="5301">Opus of the Crab</text>
+<text id="5302">Opus of the Rock</text>
+<text id="5303">Opus of the Slug</text>
+<text id="5304">Opus of the Deep</text>
+<text id="5305">Opus of Avarice</text>
+<text id="5306">Opus of the Tomb</text>
+<text id="5307">Opus of the Rat</text>
+<text id="5308">Opus of the Congregation</text>
+<text id="5309">Opus of Divinity</text>
+<text id="5310">Opus of Royalty</text>
+<text id="5311">Opus of Loyalty</text>
+<text id="5312">Opus of Allegiance</text>
+<text id="5313">Opus of the Dog</text>
+<text id="5314">Opus of Foresight</text>
+<text id="5315">Opus of Crystals</text>
+<text id="5316">Opus of Demons</text>
 
 <text id="5400">Spellbound Bomb</text>
 <text id="5410">Spellbound Urn</text>
@@ -1136,13 +1136,13 @@
 <text id="12200">Saint Insignia</text>
 <text id="12201">Saint Emblem</text>
 
-<text id="20000">Tome of Health</text>
-<text id="20001">Tome of Power</text>
-<text id="20002">Tome of Toughness</text>
-<text id="20003">Tome of Restoration</text>
-<text id="20004">Tome of Tenacity</text>
-<text id="20005">Tome of Mass Summoning</text>
-<text id="20006">Tome of Hollow Summoning</text>
+<text id="20000">Sign of Health</text>
+<text id="20001">Sign of Power</text>
+<text id="20002">Sign of Toughness</text>
+<text id="20003">Sign of Restoration</text>
+<text id="20004">Sign of Tenacity</text>
+<text id="20005">Sign of Mass Summoning</text>
+<text id="20006">Sign of Hollow Summoning</text>
 
 <text id="20050">Rejuvenating Phial</text>
 <text id="20051">Banishing Coin</text>

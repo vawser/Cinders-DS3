@@ -110,6 +110,9 @@
 - Rejuvenating Phial (Restorative Brew) now costs FP and just heals companions for 20%.
 - Added Invigorating Phial: boost companion damage by 20% for 30 seconds, costs 50 FP.
 - Added Regenerating Phial: revives dead companions, allowing them to be summoned again. Costs 100 FP and reduces soul absorption by 50% with each use.
+- Renamed the companion Tablets to Opus of <x>.
+- Renamed the training tomes to Sign of <x>
+- Changed the icons for the Opus items and the Signs.
 
 # Map
 - Moved the Company of Champions covenant pickup to the old Ashen Estus Flask location.
@@ -123,6 +126,3 @@
 #------------------------------
 Adjust ascended effects for spells: Bursting Fireball
 
-6087 Invigorating Brew
-6088 Restorative Brew
-6089 Revival Brew

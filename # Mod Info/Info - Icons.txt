@@ -507,9 +507,9 @@
 6084 Pink Crystal
 6085 Cinder
 6086 Frost Crystal
-6087 Invigorating Brew
-6088 Restorative Brew
-6089 Revival Brew
+6087 Invigorating Phial
+6088 Rejuvenating Phial
+6089 Regenerating Phial
 6090 Old Bone
 6091 Pygmy Brooch
 6092 Arcane Trinket
@@ -523,7 +523,7 @@
 6100 Abyssal Edge
 6101 Nibble
 6102 Halo 1
-6103 Halo 2
+6103 Fancy Book
 6104 Soul Barrage
 6105 Soul Wave
 6106 Unleash Magic

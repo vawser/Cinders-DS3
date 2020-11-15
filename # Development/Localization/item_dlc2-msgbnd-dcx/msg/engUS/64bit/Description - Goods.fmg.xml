@@ -2528,89 +2528,89 @@ Read to revive the champions of yore and warp to Firelink Shrine.
 
 Those who cannot remember the past are condemned to repeat it...</text>
 
-<text id="5300">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5300">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Solaire of Astora to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
 
-<text id="5301">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5301">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon El Crabbo, the Lesser Crab, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
 
-<text id="5302">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5302">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Rocky, the Rock Lizard, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5303">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5303">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Sluggo, the Rotten Slug, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5304">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5304">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Father John, the Fat Deacon, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5305">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5305">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Gimbal, the Mimic, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5306">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5306">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon El Hueso, the Skeleton, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5307">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5307">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Moxie, the Hound-rat, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5308">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5308">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Erekris, the Cathedral Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5309">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5309">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Metora, the Cathedral Evangelist, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5310">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5310">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Farold, the Lothric Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5311">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5311">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Zarloth, the Black Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5312">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5312">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Praxos, the Silver Knight, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5313">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5313">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Woof, the Undead Dog, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5314">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5314">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Alfreda, the Pontiff Knight, to the player. Once present, she will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5315">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5315">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Tazshi, the Ravenous Crystal Lizard, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-<text id="5316">Enchanted tablet inscribed with a cryptic ritual.
+<text id="5316">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Bazdulk, the Demon, to the player. Once present, he will defend the player until dead.
 
@@ -3802,25 +3802,32 @@ Applies illusionary helmet based on the Saint Set.</text>
 
 Applies illusionary armor based on the Saint Set.</text>
 
-<text id="20000">Training tome inscribed by Ritualist Ellie.
+<text id="20000">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Boosts the HP of companions by 100%.</text>
-<text id="20001">Training tome inscribed by Ritualist Ellie.
+<text id="20001">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Boosts the damage of companions by 100%.</text>
-<text id="20002">Training tome inscribed by Ritualist Ellie.
+<text id="20002">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Boosts the absorption of companions by 30%.</text>
-<text id="20003">Training tome inscribed by Ritualist Ellie.
+<text id="20003">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Companions now restore 10 HP per second.</text>
-<text id="20004">Training tome inscribed by Ritualist Ellie.
+<text id="20004">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Boosts the poise of companions by 200.</text>
-<text id="20005">Training tome inscribed by Ritualist Ellie.
+<text id="20005">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Enables multiple companions simultaneously.</text>
-<text id="20006">Training tome inscribed by Ritualist Ellie.
+<text id="20006">Ragged note scribbled on by Ritualist Ellie.
+Imbued with magical knowledge.
 
 Enables companion summoning whilst hollow.</text>
 
