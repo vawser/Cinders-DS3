@@ -74,11 +74,16 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Classes
+- Added a Summoner class: focuses on Attunement, starts with several companion related items, including Woof and Metora.
+- Paladin now started with a normal Cathedral Knight Greatsword.
+
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
 # Weapons
 - Added Bleed to the Scraping Spear.
+- Added Muffin's Bewitched Alonne Sword edits.
 
 # Infusions
 - Enchanted/Clarity infusions now add 2 FP per second (was 1).
@@ -101,6 +106,9 @@
 - The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *5 multiplier at max spell buff.
 - The heal spells now scale with spell buff again.
 
+# Items
+- Restorative Brew now costs FP and just heals companions for 20%.
+
 # Map
 - Moved the Company of Champions covenant pickup to the old Ashen Estus Flask location.
 
@@ -111,4 +119,5 @@
 #------------------------------
 # TODO - General
 #------------------------------
-WEAPON_CATEGORY_RAPIER
+Adjust ascended effects for spells: Bursting Fireball
+
