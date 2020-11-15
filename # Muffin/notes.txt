@@ -1,7 +1,1 @@
-﻿Bewitched Alonne Sword
-
--In Params I edited AtkParam_PC, BehaviorParam_PC, Bullet Param, EquipParamWeapon, SpEffectParam, SpEffectVfxParam, SwordArtsParam, WepAbsorpPosParam
-
--The c0000.hks file is just my addition of a single dummy (96) to the player skeleton
-
--f000440155 is Green Moonlight Wave, f000440156 is Green Mo0nlight Wave Impact, f000440462 is Blackflame Trail Green, f000440463 is Blackflame Buff Green
+﻿
