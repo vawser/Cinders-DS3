@@ -6327,24 +6327,11 @@ Event(20080002, Restart, function(X0_4) {
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_04);
     SetSpeffect(X0_4, 160763301);
     
-    // Re-enable if Regenerating Phial is used
-    IfCharacterHasSpeffect(AND_05, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    // Energizing Phial
     IfCharacterHasSpeffect(AND_05, 10000, 160763400, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(4, FAIL, AND_05);
+    IfCharacterHasSpeffect(AND_05, X0_4, 160761501, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_05);
     SetSpeffect(X0_4, 160763401);
-    SetSpeffect(10000, 160763402);
-    ClearSpeffect(X0_4, 160761502);
-    DisplayEpitaphMessage(99030030);
-    
-    // Disable at 0% HP
-    IfCharacterHPRatio(AND_10, X0_4, ComparisonType.LessOrEqual, 0.01, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_10, X0_4, 160761502, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(5, FAIL, AND_10);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    SetSpeffect(X0_4, 160761502);
     
     EndUnconditionally(EventEndType.Restart);
 });

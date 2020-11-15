@@ -109,7 +109,7 @@
 # Items
 - Rejuvenating Phial (Restorative Brew) now costs FP and just heals companions for 20%.
 - Added Invigorating Phial: boost companion damage by 20% for 30 seconds, costs 50 FP.
-- Added Regenerating Phial: revives dead companions, allowing them to be summoned again. Costs 100 FP and reduces soul absorption by 50% with each use.
+- Added Energizing Phial: boost companion stamina for 30 seconds, costs 30 FP.
 - Renamed the companion Tablets to Opus of <x>.
 - Renamed the training tomes to Sign of <x>
 - Changed the icons for the Opus items and the Signs.
@@ -120,6 +120,7 @@
 # Bugfixes
 - Londor Pale Shade can wield her chime now.
 - Companions are now dismissed when a boss starts, to prevent exploits.
+- Fixed NG+ scaling applying in Journey 1 in some cases.
 
 #------------------------------
 # TODO - General
