@@ -6221,6 +6221,7 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
+    SetCharacterImmortality(X0_4, Enabled); // Prevent death
 
     // Clear companions when one is summoned
     IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
@@ -6243,7 +6244,8 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000605); // Skip this if Tome of Mass Summoning owned
     SetSpeffect(10000, 160761300); // Clear current companions
     
-    IfCharacterDeadalive(AND_02, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
     DisplayEpitaphMessage(99030020);
     GotoUnconditionally(Label.LABEL1); // Skip setup if dead
@@ -6300,12 +6302,11 @@ Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
 // <entity id>
 //----------------------------------------------
 Event(20080002, Restart, function(X0_4) {
-    // Restorative Brew
+    // Rejuvenating Phial
     IfCharacterHasSpeffect(AND_01, 10000, 160763000, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, X0_4, 160761501, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_01);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
     SetSpeffect(X0_4, 160763001);
-    SetSpeffect(10000, 160763002);
     WaitFixedTimeSeconds(1);
     
     // Banishing Coin
@@ -6319,6 +6320,31 @@ Event(20080002, Restart, function(X0_4) {
     IfCharacterHasSpeffect(AND_03, X0_4, 160761501, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_03);
     SetCharacterTeamType(X0_4, TeamType.StrongEnemy);
+    
+    // Invigorating Phial
+    IfCharacterHasSpeffect(AND_04, 10000, 160763300, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_04, X0_4, 160761501, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_04);
+    SetSpeffect(X0_4, 160763301);
+    
+    // Re-enable if Regenerating Phial is used
+    IfCharacterHasSpeffect(AND_05, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_05, 10000, 160763400, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(4, FAIL, AND_05);
+    SetSpeffect(X0_4, 160763401);
+    SetSpeffect(10000, 160763402);
+    ClearSpeffect(X0_4, 160761502);
+    DisplayEpitaphMessage(99030030);
+    
+    // Disable at 0% HP
+    IfCharacterHPRatio(AND_10, X0_4, ComparisonType.LessOrEqual, 0.01, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_10, X0_4, 160761502, false, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(5, FAIL, AND_10);
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    SetSpeffect(X0_4, 160761502);
     
     EndUnconditionally(EventEndType.Restart);
 });

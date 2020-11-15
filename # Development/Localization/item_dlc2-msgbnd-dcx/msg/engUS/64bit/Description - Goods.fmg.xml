@@ -3824,9 +3824,9 @@ Enables multiple companions simultaneously.</text>
 
 Enables companion summoning whilst hollow.</text>
 
-<text id="20050">A foul brew concocted by Ritualist Ellie.
+<text id="20050">A blue phial concocted by Ritualist Ellie.
 
-Scoff down the brew to restore 20% HP to nearby active companions.</text>
+Scoff down the phial to restore 20% HP to nearby active companions.</text>
 <text id="20051">An unique coin enchanted by Ritualist Ellie.
 
 Banishes active companions from your world.</text>
@@ -3834,6 +3834,13 @@ Banishes active companions from your world.</text>
 Possesses the essence of anger within.
 
 Incite your active companions, turning them hostile against you and each other.</text>
+<text id="20053">A yellow phial concocted by Ritualist Ellie.
+
+Scoff down the phial to restore boost the damage of nearby active companions by 20% for 30 seconds.</text>
+<text id="20054">A purple phial concocted by Ritualist Ellie.
+
+Scoff down the phial to revive dead companions, allowing them to be summoned again.
+However, soul absorption is reduced by 50%, stacking with each use.</text>
 
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.

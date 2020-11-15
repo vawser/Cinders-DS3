@@ -3902,7 +3902,8 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99030008">You must possess Smouldering Rubble to activate this object.</text>
 
 <text id="99030010">You must be embered to summon a companion.</text>
-<text id="99030020">This companion has died.</text>
+<text id="99030020">This companion is dead.</text>
+<text id="99030030">Dead companions may be summoned again.</text>
 
 <text id="99030100">Corrupted Gundyr has not been killed 
 in this journey yet.</text>

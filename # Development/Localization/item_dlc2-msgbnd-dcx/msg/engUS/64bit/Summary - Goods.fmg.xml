@@ -1108,9 +1108,11 @@
 <text id="20005">Enables multiple companions simultaneously</text>
 <text id="20006">Enables companion summoning whilst hollow</text>
 
-<text id="20050">Restores vitality to nearby active companions</text>
+<text id="20050">Restores health to active companions</text>
 <text id="20051">Banish active companions from your world</text>
 <text id="20052">Incite active companions</text>
+<text id="20053">Boosts the damage of active companions</text>
+<text id="20054">Revives dead companions, but reduces soul absorption</text>
 
 <text id="1200000">Fire soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
