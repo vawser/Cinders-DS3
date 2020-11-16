@@ -6221,7 +6221,7 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
-    SetCharacterImmortality(X0_4, Enabled); // Prevent death
+    //SetCharacterImmortality(X0_4, Enabled); // Prevent death
 
     // Clear companions when one is summoned
     IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
