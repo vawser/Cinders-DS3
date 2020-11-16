@@ -250,23 +250,19 @@ Attacks are coupled with lightwaves,
 and sustaining the stance before attacking
 increases their speed and potency.
 
+Ascended Effect: increases poise damage to 100.
+
 The sword is named after moonlight, but it is
 slightly different than the one fashioned of the
 paledrake Seath. Perhaps it is rooted in an
 older memory, from not long after the Beginning.</text>
-<text id="1604000">A sorcery that fires great dark soul dregs
-that have stewed for ages, far within the deep.
-
-This sorcery is the highest form of Deep Soul, inflicting 75 Curse.
-
-Some of the murkmen who rise from the depths
-are possessed by soul dregs, which have a
-grave likeness to the human form.</text>
 <text id="2458000">Pyromancy of Zoey, descendant of the desert
 pyromancers.
 
 Use repeatedly to brush the fan of flame left
 and right.
+
+Ascended Effect: increases poise damage to 20.
 
 Zoey possessed true beauty, as did all the
 desert pyromancers, but hers did not poison,
@@ -275,14 +271,17 @@ of the feeble ones. </text>
 <text id="2660000">The last flame lit by the demon prince.
 This pyromancy hurls a clump of chaos.
 
-Upon impact, this clump of chaos seethes wildly,
-condenses briefly, then explodes violently.
+Upon impact, this clump of chaos seethes wildly, condenses briefly, then explodes violently.
+
+Ascended Effect: increases poise damage to 100.
 
 To the demons, these clumps are shreds of life.</text>
 <text id="3509000">The few female knights who served in the age of
 the gods used this miracle for dragonslaying.
 
 Draw lightning bow to fire a lightning arrow.
+
+Ascended Effect: increases projectile homing to 40 degrees.
 
 The lightning arrows offer a great improvement
 to the range of spears, and were said to have been used to pierce the eyes of dragons from afar.
@@ -293,6 +292,8 @@ marked by embellishment.
 
 Toss a light that heals 300 HP for those near the point of impact.
 Scales with Spell Buff.
+
+Ascended Effect: increases heal radius to 5 metres.
 
 Even those who had forgotten the caress and bounty of the Princess of Sunlight did their best to recall her image. The stories spun about her were most certainly childish, and yet gravely sincere.</text>
 </entries>

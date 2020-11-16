@@ -1139,15 +1139,12 @@
 <text id="1802000">Soul Wave</text>
 <text id="1803000">Blizzard</text>
 <text id="1805000">Orbs of Judgment</text>
-<text id="1806000">Soul Focus</text>
 <text id="1807000">Blinding Light</text>
 
 <text id="2400000">Fireball</text>
 <text id="2402000">Fire Orb</text>
 <text id="2403000">Firestorm</text>
 <text id="2405000">Fire Surge</text>
-
-<text id="2410000">Combustion</text>
 <text id="2411000">Great Combustion</text>
 <text id="2420000">Poison Mist</text>
 <text id="2421000">Toxic Mist</text>
@@ -1168,7 +1165,6 @@
 <text id="2630000">Boulder Heave</text>
 <text id="2640000">Sacred Flame</text>
 <text id="2650000">Carthus Beacon</text>
-<text id="2700000">Singe</text>
 <text id="2701000">Lingering Chaos</text>
 <text id="2702000">Cataclysm</text>
 <text id="2710000">Earthfall</text>

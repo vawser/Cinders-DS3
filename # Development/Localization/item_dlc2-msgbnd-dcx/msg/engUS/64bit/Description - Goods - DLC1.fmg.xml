@@ -19,10 +19,13 @@ Long ago, when the Millwood Knights lost the forest they called home, they began
 <text id="2155">The key to the contraption leading to the attic of the archive found on the edge of the Corvian Settlement.
 
 After Sir Vilhelm led a white-haired woman to the attic of the library, he kept this key as if it were his life.</text>
+
 <text id="1313000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
 
 Imbues right-hand weapon with 30 Frost.
 Lasts for 60 seconds.
+
+Ascended Effect: increases Frost inflict to 60.
 
 Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
 <text id="1741000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
@@ -30,13 +33,19 @@ Sulyvahn was born and raised inside the painting, yet had little use for his fri
 Creates a cloud of near-freezing mist, inflicting 15 Frost per tick.
 Lasts for 5 seconds.
 
+Ascended Effect: increases duration to 8 seconds.
+
 Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
 <text id="2457000">Pyromancer Dunnel was fascinated by this ceremonial art employed by the clerics of the Smouldering Lake.
 
 Summons a fire-spitting chaos orb.
 
+Ascended Effect: increases emitted projectile rate to 10 per second.
+
 Chaos burns away in the blink of an eye, but was the primordial life born in the Bed of Chaos, and a grievous symbol of Izalith's sin.</text>
 <text id="3556000">A lost Way of White miracle. Launches a white discus which slices into foes and returns to its conjurer.
+
+Ascended Effect: none.
 
 Long ago, when the imprints left by the gods were still deep, miracles of the Way of White existed alongside aureoles.
 

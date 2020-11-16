@@ -78,6 +78,14 @@
 - Added a Summoner class: focuses on Attunement, starts with several companion related items, including Woof and Metora.
 - Paladin now started with a normal Cathedral Knight Greatsword.
 
+# Companions
+- Rejuvenating Phial (Restorative Brew) now costs FP and just heals companions for 20%.
+- Added Invigorating Phial: boost companion damage by 20% for 30 seconds, costs 50 FP.
+- Added Energizing Phial: boost companion stamina for 30 seconds, costs 30 FP.
+- Renamed the companion Tablets to Opus of <x>.
+- Renamed the training tomes to Sign of <x>
+- Changed the icons for the Opus items and the Signs.
+
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
@@ -106,14 +114,6 @@
 - The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *5 multiplier at max spell buff.
 - The heal spells now scale with spell buff again.
 
-# Items
-- Rejuvenating Phial (Restorative Brew) now costs FP and just heals companions for 20%.
-- Added Invigorating Phial: boost companion damage by 20% for 30 seconds, costs 50 FP.
-- Added Energizing Phial: boost companion stamina for 30 seconds, costs 30 FP.
-- Renamed the companion Tablets to Opus of <x>.
-- Renamed the training tomes to Sign of <x>
-- Changed the icons for the Opus items and the Signs.
-
 # Map
 - Moved the Company of Champions covenant pickup to the old Ashen Estus Flask location.
 
@@ -128,3 +128,4 @@
 #------------------------------
 Adjust ascended effects for spells: Bursting Fireball
 
+ 662121 Midir Laser

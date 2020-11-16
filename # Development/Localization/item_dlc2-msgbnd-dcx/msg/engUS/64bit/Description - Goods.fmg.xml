@@ -3853,15 +3853,21 @@ by sorcerers of the Undead Legion of Farron.
 
 Fire a soul dart.
 
+Ascended Effect: increases projectile homing to 50 degrees.
+
 Well known among the Farron sorceries,
 it is learned far and wide due to its ease of use.</text>
 <text id="1210000">Sorcery which builds upon Farron Dart.
 
 Fires a soul orb that emits soul darts.
 
+Ascended Effect: increases emitted projectile rate to 10 per second.
+
 Entrusted to the leader of the Legion's acolytes, and apparently a sorcery of his daughter, Heysel, that was refined by a Crystal Sage.</text>
 <text id="1300000">Elementary sorcery.
 Fires a soul arrow.
+
+Ascended Effect: increases projectile homing to 70 degrees.
 
 To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
@@ -3869,15 +3875,21 @@ and attune a sorcery at a bonfire.</text>
 
 Fires a crystal orb that emits soul arrows.
 
+Ascended Effect: increases emitted projectile rate to 10 per second.
+
 Many sorceries inflict magic damage, making them effective against iron armor, tough scales, and other physically resilient materials.</text>
 <text id="1302000">Elementary, yet practical sorcery from long ago.
 
 Fire shockwave, knocking down foe.
 
+Ascended Effect: increases projectile speed to 80 m/s.
+
 A fallen foe is easy prey for the skilled sorcerer.</text>
 <text id="1303000">Sorcery which improves upon Soul Spear.
 
 Fire soul spears that pierce their target, then hit repeatedly for additional damage.
+
+Ascended Effect: reduces the spread of the geyser.
 
 Sorceries are a logical discipline; their strength
 influenced by the caster's intelligence.</text>
@@ -3885,6 +3897,8 @@ influenced by the caster's intelligence.</text>
 the great sorcerer who left the Dragon School in an age long past.
 
 Releases a homing soulmass.
+
+Ascended Effect: impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 This sorcery may offer a clue as to what Logan sought,
 but further investigation suggests its attraction to
@@ -3894,16 +3908,22 @@ living things mirrors the nature of the dark.</text>
 Releases a homing crystal soulmass.
 Crystal soulmass has piercing qualities.
 
+Ascended Effect: impact reduces the Magic absorption of the target by 10% for 10 seconds.
+
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
 <text id="1306000">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past.
 
 Fires a soul spear.
+
+Ascended Effect: increases projectile homing to 50 degrees.
 
 The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
 <text id="1307000">Further sharpens Soul Spear via crystallization.
 
 Fires a piercing crystal soul spear.
+
+Ascended Effect: increases projectile speed to 40 m/s.
 
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
 
@@ -3912,6 +3932,8 @@ Reinforces right weapon with magic.
 
 Increases Magic damage by 50 for 90 seconds.
 Scales with Spell Buff.
+
+Ascended Effect: restores 1 FP per second whilst active.
 
 The power of the sorcerer-swordsmen of Vinheim
 is predicated upon this and Magic Shield.
@@ -3922,6 +3944,8 @@ Greatly reinforces right weapon with magic.
 Increases Magic damage by 60 for 60 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: reduces sorcery FP consumption by 10% whilst active.
+ 
 Only sorcerer-swordsmen with special duties
 are permitted the use of this spell. The azure blade
 is said to cut down heavily armored knights with ease.</text>
@@ -3931,22 +3955,26 @@ Reinforces right weapon with crystal.
 Increases Magic damage by 75 for 30 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: increases duration to 90 seconds.
+
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
 between weapon and soul.</text>
 <text id="1330000">Sorcery for casters who wield swords.
 Reinforces left shield with magic.
 
-Boosts shield absorption by 30% and 
-stability by 5% for 60 seconds.
+Boosts shield absorption by 30% and stability by 5% for 60 seconds.
+
+Ascended Effect: increases duration to 90 seconds.
 
 Even the smallest of shields can be toughened
 considerably with the use of this spell.</text>
 <text id="1331000">Sorcery which improves upon Magic Shield.
 Greatly reinforces left shield with magic.
 
-Boosts shield absorption by 100% and 
-stability by 10% for 30 seconds.
+Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+
+Ascended Effect: increases duration to 60 seconds.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,
@@ -3954,6 +3982,8 @@ land of ancient golden sorceries.
 
 Turns right weapon invisible.
 Lasts 120 seconds.
+
+Ascended Effect: increases duration to 300 seconds.
 
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
@@ -3964,6 +3994,8 @@ land of ancient golden sorceries.
 Turns body nigh on invisible, reducing enemy detection via sight by 90%.
 Lasts 60 seconds.
 
+Ascended Effect: increases sight reduction to 100%.
+
 Although perfect invisibility is unachievable
 due to the risk of dissipation, the caster
 need only stand still for a moment to blend
@@ -3973,6 +4005,8 @@ land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings.
 Lasts 120 seconds.
+
+Ascended Effect: none.
 
 This light-producing magic is elementary
 but nonetheless demonstrates the pure
@@ -3990,6 +4024,8 @@ land of ancient golden sorceries.
 Repairs equipped weapons and armor.
 Includes weapons with exhausted durability.
 
+Ascended Effect: restores 100 durability.
+
 While the effects of this spell are rather subtle,
 its foundations are a well-guarded secret.
 Light is time, and the reversal of its effects
@@ -4001,6 +4037,8 @@ Masks noises of the caster and prevents fall damage.
 Reduces enemy detection via sound by 90%.
 Lasts 60 seconds.
 
+Ascended Effect: increases sound reduction to 100%.
+
 Their mastery of this sorcery alone allows
 Vinheim spooks to demand handsome payment
 for their services. </text>
@@ -4009,6 +4047,8 @@ land of ancient golden sorceries.
 
 Transforms into something inconspicuous.
 
+Ascended Effect: none.
+
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
 sought relief from the solitude of the woods at dusk.</text>
@@ -4016,7 +4056,9 @@ sought relief from the solitude of the woods at dusk.</text>
 sorcerer at Vinheim Dragon School.
 
 Distracts foes with a distant sound.
-Lasts 5 seconds.
+Lasts 3 seconds.
+
+Ascended Effect: increases decoy duration to 5 seconds.
 
 The sound carries with it a strangely infectious
 resonance that may cause one to stray from their
@@ -4026,12 +4068,16 @@ post and expose their back.</text>
 Emits crystal breath of Seath the Scaleless, inflicting 60 Curse.
 Crystal breath has piercing qualities.
 
+Ascended Effect: extends the length of the breath.
+
 Seath's research seemed to strike a chord with
 old Big Hat who, in his mad, disrobed state,
 made divine works such as this, his own.
 Oceiros was no doubt edified by this.</text>
 <text id="1372000">Sorcery which improves upon Farron Dart.
 Fires a cascade of soul darts.
+
+Ascended Effect: increases projectile homing to 30 degrees.
 
 Entrusted to the leader of the Legion's acolytes,
 and apparently a sorcery of his daughter, Heysel,
@@ -4041,11 +4087,15 @@ preacher twins known as the Crystal Sages.
 
 Casts a cascade of small crystal soulmasses from above. Crystal soulmasses have piercing qualities.
 
+Ascended Effect: reduces the spread of the crystal hail.
+
 In a pact said to have been formed long ago,
 one of the Sages allied with the Undead Legion
 in order to train the sorcerers of Farron.</text>
 <text id="1374000">Sorcery developed primarily for sorcerer-swordsmen.
 Attacks with a greatsword formed from souls.
+
+Ascended Effect: increases poise damage to 80.
 
 The ephemeral blade only exists as an extension
 of the caster, but its power is said to rival
@@ -4055,6 +4105,8 @@ may resort to this spell in times of crisis.</text>
 <text id="1375000">Alteration of Soul Greatsword developed
 by sorcerers of the Undead Legion of Farron.
 
+Ascended Effect: increases poise damage to 25.
+
 The Legion has a tendency to emphasize speed
 over power, and this practical alteration of
 an existing sorcery is no exception.</text>
@@ -4063,12 +4115,16 @@ when Lothric and the Grand Archives were but young.
 
 Fires a torrential volley of souls.
 
+Ascended Effect: increases duration of stream to 1.2 seconds.
+
 The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince.</text>
 <text id="1651000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
 Distorts light in order to deflect magic.
 Lasts 2 seconds.
+
+Ascended Effect: none.
 
 A closely-guarded light manipulation spell
 that contorts the very fabric of fundamental laws,
@@ -4081,12 +4137,16 @@ Releases dense mist that inflicts 15 Curse and  removes 0.2% HP per tick.
 Beware, as the caster is not immune to its effect.
 Lasts for 5 seconds.
 
+Ascended Effect: increases duration to 8 seconds.
+
 A body caught in the silent mist cloud lies still,
 while the face twists in a tortured scream.
 The names of these learned sorcerers became feared for this gruesome spectacle.</text>
 <text id="1800000">Sorcery of the long forgotten paledrake.
 
 Summon forth a storm of crystals.
+
+Ascended Effect: increases emitter radius to 20 metres.
 
 The curiosity of the paledrake knew no bounds, and even great souls succumb to madness on the frontiers of knowledge.</text>
 <text id="1801000">Sorcery belonging to a sorcerer of 
@@ -4095,43 +4155,47 @@ Vinheim.
 Boosts the damage of Sorceries by 20%, but reduces absorption by 100%.
 Lasts 30 seconds.
 
+Ascended Effect: increases duration to 45 seconds.
+
 In Vinheim, potent spells often requires a great deal of concentration, as epitomised by this spell.</text>
 <text id="1802000">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
 
-Fires soul wave that pierces enemies.</text>
+Fires soul wave that pierces enemies.
+
+Ascended Effect: increases projectile speed to 60 m/s.</text>
 <text id="1803000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
 
 Summon multiple spots of frost in vicinity, inflicting 60 Frost.
 
+Ascended Effect: increases Frost inflict to 90.
+
 Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
-<text id="1804000">One of the spells used by the sorcerer Sulyvahn after his ascension to Pontiff.
-
-Fire wave of judgment towards foe.
-
-The might of the Pontiff is swift and without mercy.</text>
 <text id="1805000">One of the spells used by the sorcerer Sulyvahn after his ascension to Pontiff.
 
 Fire multiple orbs of judgment that seek foe.
 
+Ascended Effect: reduces orb starup time to 1 second.
+
 The meek shall face judgment for their cowardice.</text>
-<text id="1806000">Sorcery of the Crystal Sage, used in times of extreme peril. 
-
-Exchange 1% HP to gain 1% FP immediately.
-
-At death's door all one needs to do is focus.</text>
 <text id="1807000">One of the ancient Oolacile sorceries favoured by those that preferred more aggressive solutions.
 
 Creates a flash of golden light.
+
+Ascended Effect: none.
 
 The sorcerers of Oolacile were not fond of violence, but nevertheless they forged spells that would defend them so.
 </text>
 <text id="2400000">Elementary pyromancy that is often the first learned.
 Hurls a fireball.
 
+Ascended Effect: increases projectile speed to 30 m/s.
+
 To use pyromancies, equip a pyromancy flame
 and attune a pyromancy at a bonfire.</text>
 <text id="2402000">The signature flame-manipulating spell common to
 pyromancers. Hurls a giant fire orb.
+
+Ascended Effect: increases projectile homing to 40 degrees.
 
 The blazing fire orb explodes on impact,
 dealing fire damage to the surrounding area.
@@ -4144,27 +4208,22 @@ a daughter of the Witch of Izalith.
 
 Surrounds the caster with multiple pillars of flame.
 
+Ascended Effect: increases emitter radius to 30 metres.
+
 The raging storm is indiscriminate;
 such is the intrinsic horror of the flame.</text>
 <text id="2404000">%null%</text>
 <text id="2405000">Pyromancy of Cornyx of the Great Swamp.
 Emits a constant stream of fire.
 
+Ascended Effect: reduces hit cooldown to 0.3 seconds.
+
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
-<text id="2406000">An ancient, primal pyromancy.
-Sweep foes with a whip-like flame.
 
-One of the original pyromancies.
-Effective use of it demands agile footwork,
-making it a difficult spell for most.</text>
-
-<text id="2410000">An elementary spell for new pyromancers.
-Releases flame in front of the caster.
-
-The simplest pyromancy of all,
-but surprisingly effective.</text>
 <text id="2411000">Pyromancy which improves upon Combustion.
 Creates a powerful, giant flame in hand.
+
+Ascended Effect: increases poise damage to 50.
 
 A very powerful, yet simple spell to use.
 
@@ -4179,6 +4238,8 @@ the Great Swamp long ago.
 Creates a poison mist, inflicting 25 Poison per tick.
 Lasts 6 seconds.
 
+Ascended Effect: increases duration to 12 seconds.
+
 Eingyi was driven from the Great Swamp,
 however his pyromancy continues to succeed him.
 
@@ -4190,6 +4251,8 @@ gained currency in the Great Swamp.
 Creates an intense poison mist, inflicting 10 Toxic per tick.
 Lasts 6 seconds.
 
+Ascended Effect: increases duration to 12 seconds.
+
 Driven from the Great Swamp, they say that at the
 end of his journey, Eingyi happened upon a
 virulent poison and a young lady.</text>
@@ -4197,6 +4260,8 @@ virulent poison and a young lady.</text>
 
 Emits an acid which corrodes enemies, draining 1 durability per tick.
 Lasts 6 seconds.
+
+Ascended Effect: increases duration to 12 seconds.
 
 Carthus' swordsmen attached great value to victory,
 and would not shun the use of such pyromancies.
@@ -4207,13 +4272,18 @@ but reduces elemental absorption by 100%.
 
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
+Lasts 17 seconds.
+
+Ascended Effect: increases duration to 30 seconds.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
 <text id="2431000">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
-Intense sweating increases Fire absorption by 30%.
+Intense sweating increases Fire absorption by 30% for 30 seconds.
+
+Ascended Effect: increases Fire absorption boost to 50%.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
@@ -4223,6 +4293,8 @@ Reinforces right weapon with flame.
 Increases Fire damage by 75 for 60 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: boosts stamina damage by 100%.
+
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2436000">Advanced pyromancy of Quelana,
 a daughter of the Witch of Izalith.
@@ -4230,13 +4302,16 @@ a daughter of the Witch of Izalith.
 Charms the enemy, making them a temporary ally.
 Lasts 30 seconds.
 
+Ascended Effect: increases duration to 60 seconds and boosts allied enemy damage by 20%.
+
 The living are lured by flame, and this tendency is
 elemental to the art of pyromancy.</text>
 <text id="2440000">Forbidden pyromancy amongst those who internalize flame.
 
-Boosts damage by 20% and stamina recovery by 30, but 
-deals 1% of max health in damage every second.
+Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 30 seconds.
+
+Ascended Effect: reduces the HP loss to 0.5% HP per second.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -4244,8 +4319,9 @@ accepted as a substitute for strength.</text>
 <text id="2450000">Art of the Flame of Chaos, from Ancient Izalith.
 Hurls a great chaos fire orb.
 
-Chaotic flame melts even great boulders,
-and creates a brief surge of molten lava on impact. 
+Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact. 
+
+Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
 
 The Witch of Izalith and her daughters birthed
 the Flame of Chaos, but it devoured them
@@ -4253,8 +4329,9 @@ along with their home.</text>
 <text id="2451000">Art of the Flame of Chaos, from Ancient Izalith.
 Erects multiple chaos fire pillars in vicinity.
 
-Chaotic flame melts even great boulders,
-and creates a brief surge of molten lava on impact. 
+Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact. 
+
+Ascended Effect: increases emitter radius to 30 metres.
 
 The all-engulfing Chaos Flame eventually formed
 a tumultuous seedbed, which birthed the twisted things
@@ -4263,15 +4340,18 @@ known as Demons.</text>
 daughter of the Witch of Izalith.
 Sweeps foes with a fire whip.
 
+Ascended Effect: reduces hit cooldown to 0.05 seconds.
+
 The caster manipulates the flames at will,
 making this an extremely difficult spell to use.
 
 Pyromancy is at once the knowledge of controlling
 flame, and the knowledge that control is impossible.</text>
-
 <text id="2455000">Pyromancy deriving from the Profaned Flame.
 
 Engulfs foes at range and burns them to ashes.
+
+Ascended Effect: emits a secondary flame.
 
 The Profaned Capital was consumed by fire
 after Yhorm the Giant became a Lord of Cinder.
@@ -4282,11 +4362,15 @@ the beings known as Demons.
 
 Hurls chaos flame that scorches vicinity.
 
+Ascended Effect: increases projectile speed to 38 m/s.
+
 Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day.</text>
 <text id="2470000">Peculiar pyromancy of the Mound-makers.
 
-Creates a gentle flame that restores 30 HP on touch.
+Creates a gentle flame that restores 30 HP on touch, friendly or not.
 Lasts 60 seconds.
+
+Ascended Effect: will now only affect the caster and allies.
 
 They feared separation from the gods
 and sought a familial bond, perhaps leading to
@@ -4295,25 +4379,18 @@ the creation of this flame of harmony.</text>
 <text id="2562000">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
-Profuse sweating temporarily boosts resistance
-to bleeding, poison, frost and curses by 200.
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
 
+Ascended Effect: increases resistance boost to 400.
+
 The yellowish sweat cures all kinds of ailments.</text>
-<text id="2600000">A hex modified from an old sorcery by
-Gilleah, the father of Hexing.
-Fires a heavy orb of darkness.
-
-To use hexes, equip a sacred chime or staff,
-and attune a hex at a bonfire.
-Required equipment depends on hex.
-
-Catalyst: staff</text>
-
 <text id="2620000">Pyromancy of old restored by Cornyx.
 One of the Great Swamp's more advanced spells.
 
 Hurls an exploding fireball.
+
+Ascended Effect: emits an additional fireball.
 
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
@@ -4322,12 +4399,15 @@ renowned for its difficulty.</text>
 
 Spews a boulder from one's mouth.
 
+Ascended Effect: increases projectile speed to 16 m/s.
+
 The boulder is heavy, but shatters easily.</text>
 <text id="2640000">Pyromancy taught amongst savages.
 Flame burrows inside foes and ignites.
 
-Originally used in a ceremony for cleansing
-sacrificial impurities, thereby lending the spell its name.
+Originally used in a ceremony for cleansing sacrificial impurities, thereby lending the spell its name.
+
+Ascended Effect: none.
 
 As barbaric as it seems, this may in fact be
 quite fitting for the savage pyromancers
@@ -4338,95 +4418,78 @@ in Carthus of the Sands.
 Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 30 seconds.
 
+Ascended Effect: increases duration to 60 seconds.
+
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
 its beacon has been used as a signal for war.</text>
-<text id="2700000">Pyromancy used by newcomers of the Great Swamp.
-
-Hurl ball of fire towards foes.
-
-Pyromancy is often practiced by the simple. What they conjure is neither powerful or complex, but it is enduring.
-</text>
 <text id="2701000">Pyromancy once used by the witches of Izalith.
 
 Throw a lingering chaos orb that explodes on contact.
+
+Ascended Effect: increases duration to 30 seconds.
 
 The flame of chaos cares not for what it burns.</text>
 <text id="2702000">Pyromancy belonging to Salaman.
 
 Release flaming chaos orbs from sky towards foes.
 
+Ascended Effect: increases emitted projectile rate to 4 per second.
+
 One of the first human pyromancers, Salaman is said to have created this pyromancy during the final years of his life.
 </text>
-<text id="2703000">Pyromancy discovered by grave wardens
-after High Lord Wolnir fell to the Abyss.
-
-Hurl ball of black fire.
-
-Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
-</text>
-<text id="2704000">Pyromancy discovered by grave wardens
-after High Lord Wolnir fell to the Abyss.
-
-Emit a constant stream of black fire.
-
-Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
-</text>
-<text id="2705000">Pyromancy discovered by grave wardens
-after High Lord Wolnir fell to the Abyss.
-
-Cast cascade of small black fireballs from sky.
-
-Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
-</text>
-<text id="2706000">Pyromancy discovered by grave wardens
-after High Lord Wolnir fell to the Abyss.
-
-Fires a cascade of black fireballs.
-
-Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
-</text>
-
-
 <text id="2710000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call down boulders from the sky to rain down upon foes.
+
+Ascended Effect: increases emitted projectile rate to 4 per second.
 
 Look up.</text>
 <text id="2711000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Heave earth from the ground to harm foes.
 
+Ascended Effect: emits two additional lines.
+
 The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2712000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Heave earth in multiple locations in vicinity to harm foes.
 
+Ascended Effect: increases emitter radius to 25 metres.
+
 The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2713000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call forth rock, boosting absorption by 30%.
+Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
+Lasts 30 seconds.
 
-Slows movement, but grants 80 attack deflection 
-and prevents stagger from all attacks.
+Ascended Effect: increases duration to 60 seconds.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2714000">A pyromancy that creates imbues the caster with flame, allowing it to jump out towards foes. Needless to say, this is a perilous spell can burn the caster while active.
 
 Immolate oneself, causing fire pillars to appear nearby for 15 seconds, harming both friend and foe.
 
+Ascended Effect: increases duration to 30 seconds.
+
 If a person is truly desirous of something, perhaps being set on fire does not seem so bad.</text>
 <text id="2720000">Art of the common hollow.
 
 Spew fecal matter from one's mouth, inflicting 30 Toxic per hit.
+
+Ascended Effect: emit an additional four projectiles.
 
 As in life, the common peasant has little to say on matters of worth.</text>
 
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 
-Restores 200 HP.
+Restores 200 HP for self and those in the vicinity.
 Scales with Spell Buff.
+
+Ascended Effect: increases heal radius to 2 metres.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
@@ -4435,6 +4498,8 @@ and attune a miracle at a bonfire.</text>
 Restores 300 HP for self and those in the vicinity.
 Scales with Spell Buff.
 
+Ascended Effect: increases heal radius to 8 metres.
+
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
 <text id="3501000">Miracle superior to Heal.
@@ -4442,11 +4507,15 @@ and attune a miracle at a bonfire.</text>
 Restores 350 HP for self and those in the vicinity.
 Scales with Spell Buff.
 
+Ascended Effect: increases heal radius to 8 metres.
+
 Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
 <text id="3502000">Glorious miracle used by high-ranking clerics.
 
 Restores 400 HP for self and those in the vicinity.
 Scales with Spell Buff.
+
+Ascended Effect: increases heal radius to 8 metres.
 
 Only a select few have learned to recite this
 epic tale in its entirety, but those who do
@@ -4457,6 +4526,8 @@ of the Princess of Sunlight.
 Restores a 500 HP for self and those in the general area.
 Scales with Spell Buff.
 
+Ascended Effect: increases heal radius to 7 metres.
+
 The miracles of Gwynevere, the princess
 cherished by all, bestow their blessing on
 a great many warriors.</text>
@@ -4464,11 +4535,15 @@ a great many warriors.</text>
 
 Restores 5 HP for self every second. Lasts 120 seconds.
 
+Ascended Effect: increases buff radius to 12 metres.
+
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
+
+Ascended Effect: increases buff radius to 15 metres.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -4478,21 +4553,24 @@ holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
 
+Ascended Effect: increases buff radius to 16 metres.
+
 The Heavenly Daughter is said to be
 the Queen's child.</text>
 <text id="3508000">Miracle taught by Morne, the Archbishop's apostle.
 
 Cures bleeding, poison and frost for self and those in the vicinity.
 
+Ascended Effect: increases buff radius to 18 metres.
+
 Caressing Tears is a tale of the many deaths
 surrounding the goddess Caitha, of whom
 Morne was a known follower.</text>
-<text id="3513000">A miracle that causes distress only to those that have turned hollow.
-
-To hollows, there is no greater affliction than the temptation of death. To them, this agony transcends imagination.</text>
 <text id="3520000">Miracle taught by Morne, the Archbishop's apostle.
 
 Grants one chance to endure when HP reaches 0.
+
+Ascended Effect: none.
 
 Intended to grant the dying a few moments
 for a final farewell. Tears are shed for the sake
@@ -4502,12 +4580,16 @@ of the living, more so than the deceased.</text>
 Returns caster to the last bonfire used for resting, 
 or to the bonfire in the shrine.
 
+Ascended Effect: none.
+
 It would normally link to one's homeland,
 only the curse of the Undead has twisted
 its power, redirecting casters to a bonfire.
 Perhaps for Undead, the bonfire serves as home.</text>
 <text id="3530000">Elementary miracle among clerics.
 Creates a shockwave.
+
+Ascended Effect: none.
 
 While it inflicts little direct damage,
 this miracle propels foes back, staggering them.
@@ -4517,10 +4599,14 @@ Creates a powerful shockwave.
 
 Wrath of the Gods is an epic tale, while Force is but a woefully incomplete version of that yarn.
 
+Ascended Effect: now cast in a quick fashion.
+
 This primal account of profound fury
 emits a shockwave that also inflicts damage.</text>
 <text id="3532000">Traditional miracle of Catarina.
 Releases a shockwave in front.
+
+Ascended Effect: now cast in a quick fashion.
 
 The people of lands known for festivity and drink
 are typically outspoken. One can be sure that they
@@ -4529,9 +4615,10 @@ anger and the like with confidence.</text>
 <text id="3533000">%null%</text>
 <text id="3540000">Miracle of stray souls.
 
-Boosts equipment load by 25% and reveals summon signs 
-without using an ember.
+Boosts equipment load by 25% and reveals summon signs without using an ember.
 Lasts 60 seconds.
+
+Ascended Effect: increases equipment load boost to 40%.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -4539,6 +4626,8 @@ of hope for the lost.</text>
 <text id="3550000">Miracle allegedly used by Warriors of Sunlight.
 
 Hurls a lightning spear.
+
+Ascended Effect: increases projectile homing to 60 degrees.
 
 The spears inflict lightning damage, providing an
 effective counter to magic or fire.
@@ -4548,11 +4637,15 @@ which tells of an ancestral dragonslayer.
 
 Hurls a giant lightning spear.
 
+Ascended Effect: increases projectile homing to 120 degrees.
+
 Gwyn, the First Lord, slew dragons with his sunlight spear, a tradition upheld by his firstborn and the greatspear he wielded.
 
 Much of this resplendent tale of father and son, while epic, remains tragically untold. </text>
 <text id="3552000">Miracle of Gwyn, the First Lord.
 Hurls a sunlight spear.
+
+Ascended Effect: increases projectile homing to 180 degrees.
 
 The tales of Gwyn's Archdragon hunts describe
 the inception of the Age of Fire.</text>
@@ -4560,6 +4653,8 @@ the inception of the Age of Fire.</text>
 ally to the ancient dragons.
 
 Calls forth furious bolts of lightning.
+
+Ascended Effect: emits an additional projectile.
 
 Once a slayer of dragons, the former king
 and wargod tamed a Stormdrake,
@@ -4570,6 +4665,8 @@ This miracle is likely a tale of their bond.</text>
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. Lasts 60 seconds.
 
+Ascended Effect: increases Magic, Fire, Lightning and Dark absorption by 30%.
+
 There was a short period in history where
 clerics and sorcerers opposed one another.
 Thus it became necessary for even simple clerics
@@ -4579,6 +4676,8 @@ to have some means of opposing magic.</text>
 Boosts Magic absorption by 50% by covering the body in a strong white protective coating.
 Lasts 60 seconds.
 
+Ascended Effect: increases Magic, Fire, Lightning and Dark absorption by 50%.
+
 Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
 Havel despised magic, and was never complacent
@@ -4586,6 +4685,8 @@ in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
 Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+
+Ascended Effect: increases buff radius to 8 metres.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 
@@ -4596,6 +4697,8 @@ Reinforces right weapon with lightning.
 Increases Lightning damage by 75 for 60 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: grants Electrify, which causes attacks to reduce enemy poise by 50% for 5 seconds.
+
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
 <text id="3591000">Miracle of those who devoted themselves
@@ -4605,6 +4708,8 @@ Reinforces right weapon with Darkmoon light.
 Increases Magic damage by 75 for 60 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: restores 1 FP per second whilst active.
+
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
 Perhaps this is better, as revenge is better left to the Blades.</text>
@@ -4612,44 +4717,33 @@ Perhaps this is better, as revenge is better left to the Blades.</text>
 
 Strikes with a stake of lightning.
 
+Ascended Effect: increases poise damage to 60.
+
 This tale describes the lost practices of ancient dragonslayers, who found that in order to pierce dragonscale, lightning should not be hurled as a bolt, but rather be thrust as a stake directly into the dragon's hide, to be truly effective.</text>
 <text id="3720000">Miracle of Gertrude, the Heavenly Daughter.
 
 Brings down multiple pillars of light in vicinity.
 
+Ascended Effect: increases emitter radius to 40 metres.
+
 The Queen's holy maiden Gertrude was visited by an angel, who revealed this tale to her.
 
 Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</text>
-<text id="3740000">%null%</text>
-<text id="3750000">Dark miracle taught at the Cathedral of the Deep;
-imparted by the mentor Dorris before she lost her mind.
 
-Summon a swarm of insects that nestles within foes.
-
-The insects bore completely through the body
-before continuing to erode everything in the vicinity.</text>
 <text id="3760000">Miracle taught to Lothric Knights.
 
-Increases Physical damage by 80 and restores 5 HP every second for 60 seconds.
+Increases Physical damage by 60 and restores 5 HP every second for 60 seconds.
+
+Ascended Effect: increases Physical damage by 75.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
 after the Scholars acquired the Grand Archives.</text>
-<text id="3800000">Miracle once used by aspiring clerics, unlearnt in the way of miracles.
-
-Fire lightning bolt towards foes.
-
-A simple miracle, often used by those vexed by more advanced miracles.
-</text>
-<text id="3801000">Miracle used by clerics to protect themselves during journeys of great import.
-
-Release sparks of lightning around the caster.
-
-Travelling clerics are prime targets for would-be robbers. Without their sparks, they are unlikely to survive such an ambush.
-</text>
 <text id="3802000">Miracle once used in the great wars of the forgotten sun god.
 
 Summon heavenly thunder that rains down sunlight spears towards foes.
+
+Ascended Effect: increases emitted projectile rate to 4 per second.
 
 The power of the sun has never been forgotten, and its power burns bright.
 </text>
@@ -4657,12 +4751,7 @@ The power of the sun has never been forgotten, and its power burns bright.
 
 Long ago, when the imprints left by the gods were still deep, miracles of the Way of White existed alongside aureoles.
 
-Those who yearned for the long-lost aureoles fully believed that they would return, one day.</text>
-<text id="3804000">A lost Way of White miracle. 
-
-Summons bursting white discuses around the conjurer.
-
-Long ago, when the imprints left by the gods were still deep, miracles of the Way of White existed alongside aureoles.
+Ascended Effect: now cast in a quick fashion.
 
 Those who yearned for the long-lost aureoles fully believed that they would return, one day.</text>
 <text id="3805000">Enwreathes its caster with a pure veil,
@@ -4670,52 +4759,67 @@ deflecting blows that would otherwise hit.
 
 Boosts poise by 50%. Lasts 60 seconds.
 
+Ascended Effect: increases duration to 120 seconds.
+
 Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
 </text>
-<text id="3806000">Sorcery of the a devout cleric that sought to sacrifice everything to the gods.
-
-Exchange 1% HP to gain 1% FP immediately.
-
-True devotion has no limits. To serve the gods is to serve them completely.</text>
 <text id="3812000">Miracle inspired by the Pilgrim Angels of the Dreg Heap.
 
 Call forth a barrage of holy spears down upon foes.
+
+Ascended Effect: increases emitted projectile rate to 5 per second.
 
 As the lands coalesced, the pilgrims began to change, becoming angelic in form.</text>
 <text id="3813000">Miracle used by the grubs found in Rosaria's Chamber.
 
 Fire a divine arrow.
 
+Ascended Effect: increases projectile homing to 90 degrees.
+
 Although their form is grotesque, their devotion is a sight to behold.</text>
 <text id="3814000">Miracle used by the sickly Prince Lothric.
 
 Fire piercing holy soul spear.
 
+Ascended Effect: increases projectile speed to 40 m/s.
+
 Prince Lothric's mastery over matters of the divine, and his lessons with the Crystal Sage have resulted in a scholarly union, producing this very miracle.</text>
 <text id="3815000">Miracle written as a proof of a pact between the beguiled knight and the desperate clerics.
 
-Summon forth a ghostly knight to crush nearby foes.</text>
+Summon forth a ghostly knight to crush nearby foes.
+
+Ascended Effect: none.</text>
 <text id="3816000">Miracle written as a proof of a pact between the ruined knights and the desperate clerics.
 
-Summon forth a legion of archers.</text>
+Summon forth a legion of archers.
+
+Ascended Effect: summons an additional archer.</text>
 <text id="3818000">Miracle of Slave Knight Gael.
 
-Brings down multiple pillars of blue lightning in vicinity.
+Brings down multiple pillars of blue lightning in vicinity for 5 seconds.
+
+Ascended Effect: increases duration to 8 seconds.
 
 Towards the end, Slave Knight Gael brimmed with untapped energy. Made manifest, this energy became punishing blue lightning that struck nearby foes.</text>
 <text id="3819000">Miracle of Halflight, Spear of the Church.
 
 Release homing holy orbs that transform into piercing spears as they travel towards their target.
 
+Ascended Effect: hits reduce target Lightning absorption by 10% for 10 seconds.
+
 When Spears of the Church face unduly treacherous foes, this miracle allows them to even the odds.</text>
 <text id="3820000">Miracle of Halflight, Spear of the Church.
 
 Summon rows of upwardly thrusting ritual spears.
 
+Ascended Effect: emits two additional lines.
+
 When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
 <text id="3821000">Miracle of Halflight, Spear of the Church.
 
 Fire cascade of divine spears towards foes.
+
+Ascended Effect: increases projectile homing to 50 degrees.
 
 When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
 
@@ -4724,74 +4828,104 @@ said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Hurl homing soul sediment, inflicting 10 Curse.
 
+Ascended Effect: increases Curse inflict to 20.
+
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4101000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Fires dark soul dregs, inflicting 20 Curse.
 
+Ascended Effect: increases Curse inflict to 30.
+
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4102000">Hex which improves upon Deep Soul.
 
 Fires powerful darkened soul dregs, inflicting 30 Curse.
+
+Ascended Effect: increases Curse inflict to 40.
 
 Archdeacon McDonnell, a sorcerer himself, delighted in the cathedral's stagnating souls. For him, they represented the glorious bedrock of this world.</text>
 <text id="4103000">A hex that fires great dark soul dregs that have stewed for ages, far within the deep.
 
 This sorcery is the highest form of Deep Soul, inflicting 40 Curse.
 
+Ascended Effect: increases Curse inflict to 50.
+
 Some of the murkmen who rise from the depths are possessed by soul dregs, which have a grave likeness to the human form.</text>
 <text id="4104000">A forbidden hex, borne from a corrupted sorcery.
 
 Strikes with blade formed of humanity's darkness, inflicting 10 Curse.
+
+Ascended Effect: reduces stamina cost.
 
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4105000">A forbidden hex, borne from a corrupted sorcery.
 
 Strikes with blade formed of humanity's darkness, inflicting 30 Curse.
 
+Ascended Effect: increases poise damage to 100.
+
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4106000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Fires multiple soul dregs in an arc forward, inflicting 10 Curse each.
 
+Ascended Effect: adds 10 Curse inflict to projectiles.
+
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4107000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
-Emit a constant stream of homing soul sediment, inflicting 8 Curse.</text>
+Emit a constant stream of homing soul sediment, inflicting 8 Curse.
+
+Ascended Effect: increases Curse inflict to 16.</text>
 <text id="4108000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Cast cascade of homing soul sediment from sky, inflicting 10 Curse with each hit.
+
+Ascended Effect: increases emitted projectile rate to 20 per second.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4109000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Summon multiple darkened soul sediment spots in vicinity, inflicting 60 Curse on hit.
 
+Ascended Effect: increases emitter radius to 30 metres.
+
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4110000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Summon darkened soul sediment-spitting orb, inflicting 10 Curse with each hit.
+
+Ascended Effect: increases emitted projectile rate to 10 per second.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4111000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Hurl homing soul sediment clump that writhes and explodes, inflicting 30 Curse.
 
+Ascended Effect: increases Curse inflict to 50.
+
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4112000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Fire powerful soul dreg, inflicting 20 Curse.
+
+Ascended Effect: increases projectile speed to 80 m/s.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4113000">A forbidden hex, borne from a corrupted sorcery.
 
 Casts a dark manifestation of humanity, inflicting 10 Curse.
 
+Ascended Effect: hits reduce Dark absorption by 10% for 10 seconds.
+
 It appears to be an expression of envy, or perhaps love towards another, that will tenaciously pursue its target. Even if, like so many human desires, it amounts to nothing but misfortune.</text>
 <text id="4114000">A hex that releases verbose darkness.
 
 The darkness echoes words of despair, inflicting 50 Curse.
+
+Ascended Effect: increases Curse inflict to 100.
 
 The Dark blankets the world in black. A thing of tranquillity, a thing serene.
 </text>
@@ -4800,12 +4934,16 @@ The Dark blankets the world in black. A thing of tranquillity, a thing serene.
 For a brief moment, no damage can be inflicted.
 Lasts 2 seconds.
 
+Ascended Effect: increases duration to 3 seconds.
+
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
 <text id="4116000">A hex that transforms its caster's flesh. 
 
 Boosts absorption by 35%, but narrows vision.
 Lasts 120 seconds.
+
+Ascended Effect: increases duration to 90 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
@@ -4814,10 +4952,14 @@ The sorcerer Gilleah took no apprentice, and it is unclear how his spells were p
 
 Fire ball of black fire, inflicting 20 Toxic.
 
+Ascended Effect: now cast in a quick fashion.
+
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4202000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Hurls a black fireball, inflicting 30 Toxic.
+
+Ascended Effect: increases projectile homing to 50 degrees.
 
 The black flame inflicts dark damage,
 striking targets with weighty force.</text>
@@ -4826,25 +4968,35 @@ the black flame.
 
 Hurls black flame that scorches vicinity, inflicting 40 Toxic.
 
+Ascended Effect: increases projectile homing to 40 degrees.
+
 The black flame born from fire bore its smoldering essence and perished in the abyss soon after.</text>
 <text id="4204000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Hurls an exploding black fireball, inflicting 10 Toxic each.
+
+Ascended Effect: emits an additional projectile.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4205000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Creates a giant, black flame in hand, inflicting 20 Toxic.
 
+Ascended Effect: increases poise damage to 60.
+
 Black flames born from the Abyss bear no shadow. They are said to be the impenetrable fires of humanity.</text>
 <text id="4206000">Hex discovered from the Abyss by High Lord Wolnir that inspired the black arts of the grave wardens.
 
 Releases undulating black flames that trace the ground, inflicting 30 Toxic.
 
+Ascended Effect: extends the length of the serpent.
+
 Be it sorcery or pyromancy, all techniques that infringe on humanity lead to the same place. That is to say, they all seek a will of their own.</text>
 <text id="4207000">Hex that unleashes a large mass of Dark. 
 
 This momentous mass of Dark dances to signal the joy of its own release, or perhaps merely to taunt foes as it veers towards them, inflicting 10 Toxic each.
+
+Ascended Effect: increases projectile speed to 9 m/s.
 
 Hexes are an expression of human depravity, of which this dance is a perfect example.
 </text>
@@ -4852,37 +5004,51 @@ Hexes are an expression of human depravity, of which this dance is a perfect exa
 
 Summons black fire-spitting orb, inflicting 10 Toxic per hit.
 
+Ascended Effect: increases emitted projectile rate to 5 per second.
+
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
 </text>
 <text id="4209000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Hurl balls of black fire, upon impact black flames seek foes, inflicting 40 Toxic.
 
+Ascended Effect: emits five additional lines.
+
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4210000">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
+
+Ascended Effect: increases stamina damage by 100%.
 </text>
 
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
 Summons an insect swarm to feast on foes, inflicting 10 Bleed.
 
+Ascended Effect: increases Bleed inflict to 20.
+
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
 <text id="4302000">Hex taught in the Cathedral of the Deep.
 
 Summons insect swarm to feast on foes, inflicting 20 Bleed.
+
+Ascended Effect: increases Bleed inflict to 30.
 
 These insects which lurk in the Deep have tiny jaws lined with fangs to tear open the skin and burrow into the flesh in the blink of an eye, causing intense bleeding.</text>
 <text id="4303000">Hex of Dorhys the deranged evangelist.
 
 Summons great insect swarm to feast on foes, inflicting 30 Bleed.
 
+Ascended Effect: increases Bleed inflict to 40.
+
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
 <text id="4304000">Hex belonging to Dorhys the deranged evangelist.
 
 Summon massive insect swarm, shooting forth insect swarms to feast on foes, inflicting 10 Bleed each.
+
+Ascended Effect: increases emitted projectile rate to 10 per second.
 
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.
 </text>
@@ -4890,27 +5056,37 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
 
+Ascended Effect: increases damage and absorption boost to 10%, increases Poison, Toxic, Bleed, Curse and Frost resistance boost to 100.
+
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
 
-Boosts Physical, Magic, Fire, Lightning and Dark absorption by 20%, whilst drawing enemies to the caster, encouraging them to attack more readily. 
+Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. 
 Lasts 30 seconds.
+
+Ascended Effect: increases duration to 60 seconds.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4307000">Hex used by the hollow clerics of the Ringed City. 
 
-Summon circle of agony that harms nearby foes.
+Summon circle of agony that harms nearby foes. Lasts 10 seconds.
+
+Ascended Effect: increases duration to 20 seconds.
 
 As the days drew to an end, the clerics turned towards the dark, channelling their faith into sermons of agony.</text>
 <text id="4308000">Hex known only by the servants of the first dead, Gravelord Nito.
 
 Causes gravelord swords to jut out in vicinity, inflicting 60 Toxic on hit.
 
+Ascended Effect: increases emitter radius to 30 metres.
+
 Nito sleeps deep within the Giant Catacombs, quietly overseeing all death, and waiting for his servants to usher in the Eye of Death.</text>
 <text id="4309000">Hex of the Sable Church of Londor.
 
 Prevents spells in vicinity, including one's own.
 Lasts 15 seconds.
+
+Ascended Effect: now only silences target enemy.
 
 Members of the Sable Church are all trained
 swordsmen, each sworn only to their weapons
@@ -4921,12 +5097,16 @@ Reinforces right weapon with dark.
 Increases Dark damage by 60 and restores 0.25% HP per second for 60 seconds.
 Scales with Spell Buff.
 
+Ascended Effect: increses HP Restoration to 0.5% per second.
+
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
 portray the suffering and conflict of Hollows.</text>
 <text id="4311000">Sacrilegious hex of the Sable Church of Londor.
 
 Bless corpses, transforming them into traps.
+
+Ascended Effect: none.
 
 Londor, the Hollow Realm, is a society of undead,
 comprised of the corpses and shades of those
@@ -4936,16 +5116,22 @@ Is such blessing really something one must ponder?</text>
 
 Attack foes using an illusory scythe, restoring 10% HP upon hitting them.
 
+Ascended Effect: increases HP absorb to 20%.
+
 Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he perceived the form of a young, pale girl in hiding.</text>
 <text id="4313000">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+
+Ascended Effect: increases Bleed inflict to 60.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+
+Ascended Effect: increases Poison inflict to 80.</text>
 
 </entries>
 </fmg>
