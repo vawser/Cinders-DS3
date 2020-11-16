@@ -1978,6 +1978,7 @@
 100690 [Behavior] Guard
 100700 [Behavior] Guard
 100720 [Behavior] Alternate Charging Mechanic
+100721 [Behavior] Alternate Charging Mechanic (Secondary Switch)
 100900 [Behavior]
 100901 [Behavior]
 100910 [Behavior] Storm King
@@ -2055,6 +2056,10 @@
 112191 [Behavior] Gwynevere's Urn - Cooldown
 112192 [Behavior] Gwynevere's Urn - Effect
 112200 [Behavior] Locked Chest Opened
+112300 [Behavior] Is Catalyst
+112310 [Behavior] Is Bow
+112320 [Behavior] Is Greatbow
+112330 [Behavior] Is Crossbow
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -2067,9 +2072,10 @@
 113005 [Behavior] Disable FP Regen - 10 Seconds
 113010 [Behavior] Disable FP Regen - 1 Second
 113100 [Behavior] Restore FP - Base - 1 per second
-113101 [Behavior] Restore FP - Enchanted - 1 per second
-113102 [Behavior] Restore FP - Clarity - 1 per second
+113101 [Behavior] Restore FP - Enchanted - 2 per second
+113102 [Behavior] Restore FP - Clarity - 2 per second
 113103 [Behavior] Restore FP - Darkmoon Faithful - 1 per second
+113104 [Behavior] Restore FP - Pulsating - 2 per second
 113110 [Behavior] Restore FP - Darkmoon Ring - 1 per second
 113111 [Behavior] Restore FP - Darkmoon Ring+1 - 2 per second
 113112 [Behavior] Restore FP - Darkmoon Ring+2 - 3 per second
@@ -2079,6 +2085,7 @@
 113200 [Behavior] Effect - Enchanted
 113201 [Behavior] Effect - Clarity
 113202 [Behavior] Effect - Darkmoon Faithful
+113203 [Behavior] Effect - Pulsating
 113205 [Behavior] Effect - Curse of Simplicity
 113210 [Behavior] Effect - Darkmoon Ring
 113211 [Behavior] Effect - Darkmoon Ring+1
@@ -3116,9 +3123,6 @@
 160100420 [Covenant] Ritualist Pact
 160100421 [Covenant] Ritualist Pact
 160100422 [Covenant] Ritualist Pact [DeathOccurance]
-160105000 [Weapon] Bow
-160106000 [Weapon] Greatbow
-160107000 [Weapon] Crossbow
 160109999 ### Poise ###
 160110000 Damage Level - Default
 160200000 ### Weapons ###
@@ -3273,6 +3277,8 @@
 160250850 Bewitched Alonne Sword - Seppuku - Left
 160250860 Bewitched Alonne Sword - Seppuku - Left - No FP
 160250870 Bewitched Alonne Sword - Seppuku - HP Loss
+160250871 Bewitched Alonne Sword - Seppuku - Self-bleed
+160250872 Bewitched Alonne Sword - Seppuku - Self-bleed [CycleOccurance]
 160250880 Thorned Greatsword - Lightning Stomp
 160250890 Insanity Catalyst - Insanity
 160300001 ### Shields ###
@@ -4873,16 +4879,20 @@
 160761400 Ritualist Pact - Restore HP
 160761500 Player - Companion is out
 160761501 Companion - Is Active
+160761502 Companion - Is at 0% HP
 160762000 Companion - Health
 160762010 Companion - Power
 160762020 Companion - Toughness
 160762030 Companion - Restoration
 160762040 Companion - Poise
-160763000 Restorative Brew - Trigger
-160763001 Restorative Brew - Companion
-160763002 Restorative Brew - Player
+160763000 Rejuvenating Phial - Trigger
+160763001 Rejuvenating Phial - Companion
 160763100 Banishing Coin - Trigger
 160763200 Inciting Bone - Trigger
+160763300 Invigorating Phial - Trigger
+160763301 Invigorating Phial - Companion
+160763400 Energizing Phial - Trigger
+160763401 Energizing Phial - Companion
 160800000 ### NPC Modifiers ###
 160800001 Base - Hostile NPC
 160800002 Base - Enemy
@@ -5191,6 +5201,8 @@
 180010520 Bleed - Pistol Sidearm
 180010530 Bleed - Sprayer Sidearm
 180010540 Bleed - Fist Sidearm
+180010550 Bleed - Scraping Spear
+180010551 Bleed - Scraping Spear (Infusion)
 180019999 ### Frost ##
 180020000 Frost - Normal (Infusion)
 180020001 Frost - Quick (Infusion)
@@ -5307,6 +5319,11 @@
 200002700 Fire
 200002800 Lightning
 200002900 Dark
+200002999 ### Infusions - Spell Tools ###
+200003000 Pulsating
+200003100 Vibrating
+200003200 Throbbing
+200003300 Quivering
 200004999 ### Infusions - Behavior ###
 200005000 Magic - Dagger
 200005020 Magic - Straight Sword

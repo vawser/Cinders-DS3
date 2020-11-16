@@ -341,7 +341,6 @@
 2162 Bone Fragment
 2163 Lizard Hide
 2164 Resonating Crystal
-2170 Ceaseless Dung Pie
 2173 Profaned Pyromancy Tome
 2174 Accursed Scroll
 2175 Writhing Tome
@@ -487,41 +486,32 @@
 5024 Tome: Halflight
 5025 Tome: Champions of Yore
 5199 ### Companions ###
-5300 Sunlight Tablet
-5301 Crab Tablet
-5302 Craggy Tablet
-5303 Slimy Tablet
-5304 Blessed Tablet
-5305 Avaricious Tablet
-5306 Dusty Tablet
-5307 Rat Tablet
-5308 Hallowed Tablet
-5309 Holy Tablet
-5310 Royal Tablet
-5311 Scorched Tablet
-5312 Etched Tablet
-5313 Bloodied Tablet
-5314 Wrathful Tablet
-5315 Crystalline Tablet
-5316 Demonic Tablet
+5300 Opus of Sunlight
+5301 Opus of the Crab
+5302 Opus of the Rock
+5303 Opus of the Slug
+5304 Opus of the Deep
+5305 Opus of Avarice
+5306 Opus of the Tomb
+5307 Opus of the Rat
+5308 Opus of the Congregation
+5309 Opus of Divinity
+5310 Opus of Royalty
+5311 Opus of Loyalty
+5312 Opus of Allegiance
+5313 Opus of the Dog
+5314 Opus of Foresight
+5315 Opus of Crystals
+5316 Opus of Demons
 5399 ### Tools ###
-5400 Ceaseless Firebomb
-5420 Ceaseless Black Firebomb
-5440 Ceaseless Lightning Urn
-5460 Ceaseless Throwing Knife
-5480 Ceaseless Poison Throwing Knife
-5500 Ceaseless Kukri
-5520 Ceaseless Dung Pie
-5540 Ceaseless Alluring Skull
-5560 Enduring Pale Resin
-5580 Enduring Charcoal Resin
-5600 Enduring Gold Resin
-5620 Enduring Human Resin
-5640 Enduring Rotten Resin
-5660 Enduring Carthus Rouge
-5680 Enduring Frozen Resin
-5700 Ceaseless Witching Urn
-5720 Ceaseless Hexing Urn
+5400 Spellbound Bomb
+5410 Spellbound Urn
+5420 Spellbound Throwing Knife
+5430 Spellbound Kukri
+5440 Spellbound Dung
+5450 Spellbound Skull
+5460 Spellbound Blossom
+5470 Spellbound Powder
 7999 ### Developer Tools ###
 8000 Event Flag Tool
 8001 God Tool
@@ -953,16 +943,18 @@
 12191 Deacon Emblem
 12200 Saint Insignia
 12201 Saint Emblem
-20000 Tome of Health
-20001 Tome of Power
-20002 Tome of Toughness
-20003 Tome of Restoration
-20004 Tome of Tenacity
-20005 Tome of Mass Summoning
-20006 Tome of Hollow Summoning
-20050 Restorative Brew
+20000 Sign of Health
+20001 Sign of Power
+20002 Sign of Toughness
+20003 Sign of Restoration
+20004 Sign of Tenacity
+20005 Sign of Mass Summoning
+20006 Sign of Hollow Summoning
+20050 Rejuvenating Phial
 20051 Banishing Coin
 20052 Inciting Bone
+20053 Invigorating Phial
+20054 Energizing Phial
 1199999 ### Sorcery ###
 1200000 Farron Dart
 1210000 Great Farron Dart

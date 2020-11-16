@@ -743,9 +743,9 @@
 130121 [Orbeck - Spells - Sage's Scroll] Farron Hail
 130122 [Orbeck - Spells - Sage's Scroll] Scattering Soul Orb
 130123 [Orbeck - Spells - Sage's Scroll] Scattering Crystal Orb
+130124 [Orbeck - Spells - Sage's Scroll] Soul Greatsword
 130140 [Orbeck - Spells - Logan's Scroll] Soul Spear
 130141 [Orbeck - Spells - Logan's Scroll] Great Magic Weapon
-130142 [Orbeck - Spells - Logan's Scroll] Soul Greatsword
 130143 [Orbeck - Spells - Logan's Scroll] Pestilent Mist
 130144 [Orbeck - Spells - Logan's Scroll] Great Magic Shield
 130160 [Orbeck - Spells - Golden Scroll] Blinding Light
@@ -1426,9 +1426,19 @@
 280004 [Ritualist Ellie] Tome of Poise
 280005 [Ritualist Ellie] Tome of Mass Summoning
 280006 [Ritualist Ellie] Tome of Hollow Summoning
-280050 [Ritualist Ellie] Restorative Brew
+280050 [Ritualist Ellie] Rejuvenating Phial
 280051 [Ritualist Ellie] Banishing Coin
 280052 [Ritualist Ellie] Inciting Bone
+280053 [Ritualist Ellie] Invigorating Phial
+280054 [Ritualist Ellie] Regenerating Phial
+290000 [Acolyte Grudore] Spellbound Bomb
+290001 [Acolyte Grudore] Spellbound Throwing Knife
+290020 [Acolyte Grudore - Farron Coal] Spellbound Blossom
+290040 [Acolyte Grudore - Sage's Coal] Spellbound Powder
+290041 [Acolyte Grudore - Sage's Coal] Spellbound Skull
+290060 [Acolyte Grudore - Giant's Coal] Spellbound Urn
+290080 [Acolyte Grudore - Profaned Coal] Spellbound Kukri
+290081 [Acolyte Grudore - Profaned Coal] Spellbound Dung
 760000 [Stone-humped Hag] Splitleaf Greatsword
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower

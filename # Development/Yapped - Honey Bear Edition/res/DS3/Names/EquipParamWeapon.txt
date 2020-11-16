@@ -1,19 +1,4 @@
 1000 No Correction
-1100 Throwing Knife
-1101 Kukri
-1200 Church Guardian Shiv
-1300 Poison Throwing Knife
-1400 Firebomb
-1500 Lightning Urn
-1700 Black Firebomb
-1800 Dung Pie
-1900 Dragon Head Stone / Twinkling Dragon Head Stone
-2000 Twinkling Dragon Torso Stone
-2100 Ritual Spear Fragment
-2200 Divine Spear Fragment
-2300 Ceaseless Dung Pie
-3000 Witching Urn
-3100 Hexing Urn
 9999 ### NPC Weapons ###
 10000 Bloodlust
 11000 Bewitched Alonne Sword
@@ -3192,58 +3177,250 @@
 16171300 Imperious Greatshield [Sharp]
 16171400 Imperious Greatshield [Blunt]
 16999999 ### Spell Tool: Sorcery ###
-17000000 Sorcerer's Staff
+17000000 Sorcerer's Staff [Stock]
+17000100 Sorcerer's Staff [Pulsating]
+17000200 Sorcerer's Staff [Vibrating]
+17000300 Sorcerer's Staff [Throbbing]
+17000400 Sorcerer's Staff [Quivering]
 17010000 Sage's Crystal Staff
+17010100 Sage's Crystal Staff [Pulsating]
+17010200 Sage's Crystal Staff [Vibrating]
+17010300 Sage's Crystal Staff [Throbbing]
+17010400 Sage's Crystal Staff [Quivering]
 17020000 Court Sorcerer's Staff
+17020100 Court Sorcerer's Staff [Pulsating]
+17020200 Court Sorcerer's Staff [Vibrating]
+17020300 Court Sorcerer's Staff [Throbbing]
+17020400 Court Sorcerer's Staff [Quivering]
 17030000 Witchtree Branch
+17030100 Witchtree Branch [Pulsating]
+17030200 Witchtree Branch [Vibrating]
+17030300 Witchtree Branch [Throbbing]
+17030400 Witchtree Branch [Quivering]
 17040000 Velka's Talisman
+17040100 Velka's Talisman [Pulsating]
+17040200 Velka's Talisman [Vibrating]
+17040300 Velka's Talisman [Throbbing]
+17040400 Velka's Talisman [Quivering]
 17050000 Sunless Talisman
+17050100 Sunless Talisman [Pulsating]
+17050200 Sunless Talisman [Vibrating]
+17050300 Sunless Talisman [Throbbing]
+17050400 Sunless Talisman [Quivering]
 17060000 Mendicant's Staff
+17060100 Mendicant's Staff [Pulsating]
+17060200 Mendicant's Staff [Vibrating]
+17060300 Mendicant's Staff [Throbbing]
+17060400 Mendicant's Staff [Quivering]
 17070000 Izalith Staff
+17070100 Izalith Staff [Pulsating]
+17070200 Izalith Staff [Vibrating]
+17070300 Izalith Staff [Throbbing]
+17070400 Izalith Staff [Quivering]
 17080000 Man-grub's Staff
+17080100 Man-grub's Staff [Pulsating]
+17080200 Man-grub's Staff [Vibrating]
+17080300 Man-grub's Staff [Throbbing]
+17080400 Man-grub's Staff [Quivering]
 17090000 Crystal Chime
+17090100 Crystal Chime [Pulsating]
+17090200 Crystal Chime [Vibrating]
+17090300 Crystal Chime [Throbbing]
+17090400 Crystal Chime [Quivering]
 17100000 Sorcerous Flame
+17100100 Sorcerous Flame [Pulsating]
+17100200 Sorcerous Flame [Vibrating]
+17100300 Sorcerous Flame [Throbbing]
+17100400 Sorcerous Flame [Quivering]
 17110000 Golden Ritual Spear
+17110100 Golden Ritual Spear [Pulsating]
+17110200 Golden Ritual Spear [Vibrating]
+17110300 Golden Ritual Spear [Throbbing]
+17110400 Golden Ritual Spear [Quivering]
 17120000 Heysel Pick
+17120100 Heysel Pick [Pulsating]
+17120200 Heysel Pick [Vibrating]
+17120300 Heysel Pick [Throbbing]
+17120400 Heysel Pick [Quivering]
 17130000 Blue Flame
+17130100 Blue Flame [Pulsating]
+17130200 Blue Flame [Vibrating]
+17130300 Blue Flame [Throbbing]
+17130400 Blue Flame [Quivering]
 17999999 ### Spell Tool: Miracles ###
 18000000 Talisman
+18000100 Talisman [Pulsating]
+18000200 Talisman [Vibrating]
+18000300 Talisman [Throbbing]
+18000400 Talisman [Quivering]
 18010000 Rotten Talisman
+18010100 Rotten Talisman [Pulsating]
+18010200 Rotten Talisman [Vibrating]
+18010300 Rotten Talisman [Throbbing]
+18010400 Rotten Talisman [Quivering]
 18020000 Smouldering Talisman
+18020100 Smouldering Talisman [Pulsating]
+18020200 Smouldering Talisman [Vibrating]
+18020300 Smouldering Talisman [Throbbing]
+18020400 Smouldering Talisman [Quivering]
 18030000 Sunlight Talisman
+18030100 Sunlight Talisman [Pulsating]
+18030200 Sunlight Talisman [Vibrating]
+18030300 Sunlight Talisman [Throbbing]
+18030400 Sunlight Talisman [Quivering]
 18040000 Saint's Talisman
+18040100 Saint's Talisman [Pulsating]
+18040200 Saint's Talisman [Vibrating]
+18040300 Saint's Talisman [Throbbing]
+18040400 Saint's Talisman [Quivering]
 18050000 White Hair Talisman
+18050100 White Hair Talisman [Pulsating]
+18050200 White Hair Talisman [Vibrating]
+18050300 White Hair Talisman [Throbbing]
+18050400 White Hair Talisman [Quivering]
 18060000 Cleric's Sacred Chime
+18060100 Cleric's Sacred Chime [Pulsating]
+18060200 Cleric's Sacred Chime [Vibrating]
+18060300 Cleric's Sacred Chime [Throbbing]
+18060400 Cleric's Sacred Chime [Quivering]
 18070000 Yorshka's Chime
+18070100 Yorshka's Chime [Pulsating]
+18070200 Yorshka's Chime [Vibrating]
+18070300 Yorshka's Chime [Throbbing]
+18070400 Yorshka's Chime [Quivering]
 18080000 Sacred Chime of Filianore
+18080100 Sacred Chime of Filianore [Pulsating]
+18080200 Sacred Chime of Filianore [Vibrating]
+18080300 Sacred Chime of Filianore [Throbbing]
+18080400 Sacred Chime of Filianore [Quivering]
 18090000 Saint-tree Bellvine
+18090100 Saint-tree Bellvine [Pulsating]
+18090200 Saint-tree Bellvine [Vibrating]
+18090300 Saint-tree Bellvine [Throbbing]
+18090400 Saint-tree Bellvine [Quivering]
 18100000 Holy Flame
+18100100 Holy Flame [Pulsating]
+18100200 Holy Flame [Vibrating]
+18100300 Holy Flame [Throbbing]
+18100400 Holy Flame [Quivering]
 18110000 Priest's Candlestick
+18110100 Priest's Candlestick [Pulsating]
+18110200 Priest's Candlestick [Vibrating]
+18110300 Priest's Candlestick [Throbbing]
+18110400 Priest's Candlestick [Quivering]
 18120000 Rose of Ariandel
+18120100 Rose of Ariandel [Pulsating]
+18120200 Rose of Ariandel [Vibrating]
+18120300 Rose of Ariandel [Throbbing]
+18120400 Rose of Ariandel [Quivering]
 18999999 ### Spell Tool: Hex ###
 19000000 Heretic's Staff
+19000100 Heretic's Staff [Pulsating]
+19000200 Heretic's Staff [Vibrating]
+19000300 Heretic's Staff [Throbbing]
+19000400 Heretic's Staff [Quivering]
 19010000 Storyteller's Staff
+19010100 Storyteller's Staff [Pulsating]
+19010200 Storyteller's Staff [Vibrating]
+19010300 Storyteller's Staff [Throbbing]
+19010400 Storyteller's Staff [Quivering]
 19020000 Murky Longstaff
+19020100 Murky Longstaff [Pulsating]
+19020200 Murky Longstaff [Vibrating]
+19020300 Murky Longstaff [Throbbing]
+19020400 Murky Longstaff [Quivering]
 19030000 Archdeacon's Great Staff
+19030100 Archdeacon's Great Staff [Pulsating]
+19030200 Archdeacon's Great Staff [Vibrating]
+19030300 Archdeacon's Great Staff [Throbbing]
+19030400 Archdeacon's Great Staff [Quivering]
 19040000 Manus Catalyst
+19040100 Manus Catalyst [Pulsating]
+19040200 Manus Catalyst [Vibrating]
+19040300 Manus Catalyst [Throbbing]
+19040400 Manus Catalyst [Quivering]
 19050000 Tin Banishment Catalyst
+19050100 Tin Banishment Catalyst [Pulsating]
+19050200 Tin Banishment Catalyst [Vibrating]
+19050300 Tin Banishment Catalyst [Throbbing]
+19050400 Tin Banishment Catalyst [Quivering]
 19060000 Consumed King's Staff
+19060100 Consumed King's Staff [Pulsating]
+19060200 Consumed King's Staff [Vibrating]
+19060300 Consumed King's Staff [Throbbing]
+19060400 Consumed King's Staff [Quivering]
 19070000 Fallen Priest's Chime
+19070100 Fallen Priest's Chime [Pulsating]
+19070200 Fallen Priest's Chime [Vibrating]
+19070300 Fallen Priest's Chime [Throbbing]
+19070400 Fallen Priest's Chime [Quivering]
 19080000 Caitha's Chime
+19080100 Caitha's Chime [Pulsating]
+19080200 Caitha's Chime [Vibrating]
+19080300 Caitha's Chime [Throbbing]
+19080400 Caitha's Chime [Quivering]
 19090000 Corrupted Talisman
+19090100 Corrupted Talisman [Pulsating]
+19090200 Corrupted Talisman [Vibrating]
+19090300 Corrupted Talisman [Throbbing]
+19090400 Corrupted Talisman [Quivering]
 19100000 Talisman of Beasts
+19100100 Talisman of Beasts [Pulsating]
+19100200 Talisman of Beasts [Vibrating]
+19100300 Talisman of Beasts [Throbbing]
+19100400 Talisman of Beasts [Quivering]
 19110000 Insanity Catalyst
+19110100 Insanity Catalyst [Pulsating]
+19110200 Insanity Catalyst [Vibrating]
+19110300 Insanity Catalyst [Throbbing]
+19110400 Insanity Catalyst [Quivering]
 19120000 Black Flame
+19120100 Black Flame [Pulsating]
+19120200 Black Flame [Vibrating]
+19120300 Black Flame [Throbbing]
+19120400 Black Flame [Quivering]
 19130000 Cleric's Candlestick
+19130100 Cleric's Candlestick [Pulsating]
+19130200 Cleric's Candlestick [Vibrating]
+19130300 Cleric's Candlestick [Throbbing]
+19130400 Cleric's Candlestick [Quivering]
 19140000 Pilgrim's Spontoon
+19140100 Pilgrim's Spontoon [Pulsating]
+19140200 Pilgrim's Spontoon [Vibrating]
+19140300 Pilgrim's Spontoon [Throbbing]
+19140400 Pilgrim's Spontoon [Quivering]
 19150000 Preacher's Right Arm
+19150100 Preacher's Right Arm [Pulsating]
+19150200 Preacher's Right Arm [Vibrating]
+19150300 Preacher's Right Arm [Throbbing]
+19150400 Preacher's Right Arm [Quivering]
 19799999 ### Spell Tool: Pyromancy ###
 19800000 Pyromancy Flame
+19800100 Pyromancy Flame [Pulsating]
+19800200 Pyromancy Flame [Vibrating]
+19800300 Pyromancy Flame [Throbbing]
+19800400 Pyromancy Flame [Quivering]
 19810000 Pyromancer's Parting Flame
+19810100 Pyromancer's Parting Flame [Pulsating]
+19810200 Pyromancer's Parting Flame [Vibrating]
+19810300 Pyromancer's Parting Flame [Throbbing]
+19810400 Pyromancer's Parting Flame [Quivering]
 19820000 Demon's Scar
+19820100 Demon's Scar [Pulsating]
+19820200 Demon's Scar [Vibrating]
+19820300 Demon's Scar [Throbbing]
+19820400 Demon's Scar [Quivering]
 19830000 Immolation Tinder
+19830100 Immolation Tinder [Pulsating]
+19830200 Immolation Tinder [Vibrating]
+19830300 Immolation Tinder [Throbbing]
+19830400 Immolation Tinder [Quivering]
 19899999 ### Spell Tool: Luck ##
 19900000 Fool's Catalyst
+19900100 Fool's Catalyst [Pulsating]
+19900200 Fool's Catalyst [Vibrating]
+19900300 Fool's Catalyst [Throbbing]
+19900400 Fool's Catalyst [Quivering]
 19999999 ### Shields ###
 20000000 Buckler [Normal]
 20000100 Buckler [Clarity]

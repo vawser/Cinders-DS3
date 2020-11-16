@@ -403,17 +403,28 @@
 3408 [Unique] Blunt +8
 3409 [Unique] Blunt +9
 3410 [Unique] Blunt +10
-5000 [Unique] Spell Tool +0
-5001 [Unique] Spell Tool +1
-5002 [Unique] Spell Tool +2
-5003 [Unique] Spell Tool +3
-5004 [Unique] Spell Tool +4
-5005 [Unique] Spell Tool +5
-5006 [Unique] Spell Tool +6
-5007 [Unique] Spell Tool +7
-5008 [Unique] Spell Tool +8
-5009 [Unique] Spell Tool +9
-5010 [Unique] Spell Tool +10
+5000 [Spell Tool] Stock +0
+5001 [Spell Tool] Stock +1
+5002 [Spell Tool] Stock +2
+5003 [Spell Tool] Stock +3
+5004 [Spell Tool] Stock +4
+5005 [Spell Tool] Stock +5
+5006 [Spell Tool] Stock +6
+5007 [Spell Tool] Stock +7
+5008 [Spell Tool] Stock +8
+5009 [Spell Tool] Stock +9
+5010 [Spell Tool] Stock +10
+5100 [Spell Tool] Infused +0
+5101 [Spell Tool] Infused +1
+5102 [Spell Tool] Infused +2
+5103 [Spell Tool] Infused +3
+5104 [Spell Tool] Infused +4
+5105 [Spell Tool] Infused +5
+5106 [Spell Tool] Infused +6
+5107 [Spell Tool] Infused +7
+5108 [Spell Tool] Infused +8
+5109 [Spell Tool] Infused +9
+5110 [Spell Tool] Infused +10
 8000 [Shield] Normal +0
 8001 [Shield] Normal +1
 8002 [Shield] Normal +2

@@ -463,7 +463,7 @@
 80410 [Hitless Run Reward] Relic of Insanity
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
-90020 [Gift - Painter] Ceaseless Dung Pie
+90020 [Gift - Painter] Spellbound Dung
 90030 [Gift - Rosaria] Brightbug
 90040 [Gift - Archdeacon McDonnell] Abyssal Fragment
 90050 [Gift - Company Captain Yorshka] Hidden Blessing
@@ -824,12 +824,12 @@
 3300550 [Farron Keep] Large Soul of a Nameless Soldier
 3300555 [Farron Keep] Rusted Gold Coin
 3300560 [Road of Sacrifices] Corvian Longstaff
-3300570 [Farron Keep] Ring of Retaliation
+3300570 [Farron Keep] Sage's Coal
 3300580 [Farron Keep - Bridge] Large Titanite Shard
 3300590 [Road of Sacrifices] Crystal Fragment
 3300600 [Road of Sacrifices] Soul of an Unknown Traveler
 3300610 [Road of Sacrifices] Brightbug
-3300620 [Road of Sacrifices] Titanite Shard
+3300620 [Road of Sacrifices] Ring of Retaliation
 3300630 [Road of Sacrifices] Brigand Twindaggers
 3300640 [Road of Sacrifices] Holy Fragment
 3300650 [Road of Sacrifices] Twinkling Titanite
@@ -854,7 +854,7 @@
 3300782 [Farron Keep] Sellsword Gauntlet
 3300783 [Farron Keep] Sellsword Trousers
 3300790 [Farron Keep] Resonating Crystal
-3300800 [Farron Keep - Bridge] Fire Seed
+3300800 [Farron Keep - Bridge] Farron Coal
 3300810 [Farron Keep - Bridge] Ash Demon Hammer
 3300820 [Farron Keep - Bridge] Speckled Stoneplate Ring
 3300830 [Farron Keep - Bridge] Titanite Scale
@@ -1076,6 +1076,7 @@
 3700770 [Anor Londo] Abyssal Fragment
 3700800 [Anor Londo] Giant Halberd
 3700801 [Anor Londo] Giant Shield
+3700802 [Anor Londo] Giant's Coal
 3700810 [Irithyll] Soul of a Great Champion
 3700820 [Irithyll] Soul of a Great Champion
 3700830 [Irithyll] Soul of a Great Champion
@@ -1176,8 +1177,7 @@
 3900180 [Irithyll Dungeon] Large Titanite Shard
 3900190 [Irithyll Dungeon] Titanite Chunk
 3900200 [Irithyll Dungeon] Murky Warstaff
-3900210 [Irithyll Dungeon] Notched Whip
-3900211 [Irithyll Dungeon] Mask of Sin
+3900210 [Irithyll Dungeon] Profaned Coal
 3900220 [Irithyll Dungeon] Dark Gem
 3900230 [Irithyll Dungeon] Ember
 3900240 [Irithyll Dungeon] Quicksilver Shield
@@ -1213,7 +1213,7 @@
 3900480 [Irithyll Dungeon] Xanthous Ashes
 3900490 [Irithyll Dungeon] Onislayer Greatbow
 3900500 [Irithyll Dungeon] Rusted Gold Coin
-3900510 [Irithyll Dungeon] Large Titanite Shard
+3900510 [Irithyll Dungeon] Notched Whip
 3900520 [Irithyll Dungeon] Old Cell Key
 3900590 [Irithyll Dungeon - Chest] Mask of the Sealer
 3900591 [Irithyll Dungeon - Chest] Crimson Robe
@@ -1232,7 +1232,7 @@
 3900820 [Irithyll Dungeon] Prisoner Chief's Ashes
 3900900 [Profaned Capital] Soul of a Weary Warrior
 4000010 [Cemetery of Ash - Shrine] Soul of an Unknown Traveler
-4000020 [Cemetery of Ash - Cemetery] Company of Champions
+4000020 [Cemetery of Ash - Cemetery] Ember
 4000030 [Cemetery of Ash - Cemetery] Lifegem
 4000050 [Cemetery of Ash - Cemetery] Titanite Shard
 4000060 [Cemetery of Ash - Shrine] East-West Shield
@@ -1276,18 +1276,18 @@
 4000410 [Untended Graves - NG+] Soul of a Great Champion
 4000420 [Untended Graves - NG+] Soul of a Great Champion
 4000430 [Untended Graves - NG+] Soul of a Great Champion
-4000505 [Cemetery of Ash - Script] Focusing Crystal
-4000515 [Cemetery of Ash - Script] Focusing Crystal
-4000525 [Cemetery of Ash - Script] Focusing Crystal
-4000535 [Cemetery of Ash - Script] Focusing Crystal
-4000545 [Cemetery of Ash - Script] Focusing Crystal
-4000555 [Cemetery of Ash - Script] Focusing Crystal
-4000565 [Cemetery of Ash - Script] Focusing Crystal
-4000575 [Cemetery of Ash - Script] Focusing Crystal
-4000585 [Cemetery of Ash - Script] Focusing Crystal
-4000595 [Cemetery of Ash - Script] Focusing Crystal
-4000605 [Cemetery of Ash - Script] Focusing Crystal
-4000615 [Cemetery of Ash - Script] Focusing Crystal
+4000505 [Cemetery of Ash - Script] Company of Champions
+4000515 [Cemetery of Ash - Script] Company of Champions
+4000525 [Cemetery of Ash - Script] Company of Champions
+4000535 [Cemetery of Ash - Script] Company of Champions
+4000545 [Cemetery of Ash - Script] Company of Champions
+4000555 [Cemetery of Ash - Script] Company of Champions
+4000565 [Cemetery of Ash - Script] Company of Champions
+4000575 [Cemetery of Ash - Script] Company of Champions
+4000585 [Cemetery of Ash - Script] Company of Champions
+4000595 [Cemetery of Ash - Script] Company of Champions
+4000605 [Cemetery of Ash - Script] Company of Champions
+4000615 [Cemetery of Ash - Script] Company of Champions
 4000700 [Cemetery of Ash - Locked Chest] Estus Shard
 4500000 [Ariandel] Rime-blue Moss Clump
 4500010 [Ariandel] Large Titanite Shard
@@ -2330,6 +2330,7 @@
 210000420 [Consumed King's Garden] Iron Keeper Helm
 210000430 [Irithyll Dungeon] Black Metal Hat
 210000440 [Profaned Capital] Hands of Sin
+210000441 [Profaned Capital] Mask of Sin
 210000470 [Archdragon Peak] Drake Fist
 210000480 [Cathedral of the Deep] Poison Gem
 210000490 [Cathedral of the Deep] Divine Blessing

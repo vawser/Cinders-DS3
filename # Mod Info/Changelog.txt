@@ -121,6 +121,7 @@
 - Londor Pale Shade can wield her chime now.
 - Companions are now dismissed when a boss starts, to prevent exploits.
 - Fixed NG+ scaling applying in Journey 1 in some cases.
+- Companions are no longer affected by the Curses.
 
 #------------------------------
 # TODO - General
