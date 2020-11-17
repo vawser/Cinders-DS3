@@ -583,21 +583,21 @@
 
 # Pontiff's Right Eye
 - Weight: 1
-- [+0] Grants 10 HP with successive attacks.
-- [+1] Grants 20 HP with successive attacks.
-- [+2] Grants 30 HP with successive attacks.
-- [+3] Grants 40 HP with successive attacks.
-- [+4] Grants 50 HP with successive attacks.
-- [+5] Grants 60 HP with successive attacks.
+- [+0] Grants 5% HP with successive attacks.
+- [+1] Grants 6% HP with successive attacks.
+- [+2] Grants 7% HP with successive attacks.
+- [+3] Grants 8% HP with successive attacks.
+- [+4] Grants 9% HP with successive attacks.
+- [+5] Grants 10% HP with successive attacks.
 
 # Pontiff's Left Eye
 - Weight: 1
-- [+0] Grants 5 FP with successive attacks.
-- [+1] Grants 10 FP with successive attacks.
-- [+2] Grants 15 FP with successive attacks.
-- [+3] Grants 20 FP with successive attacks.
-- [+4] Grants 25 FP with successive attacks.
-- [+5] Grants 30 FP with successive attacks.
+- [+0] Grants 5% FP with successive attacks.
+- [+1] Grants 6% FP with successive attacks.
+- [+2] Grants 7% FP with successive attacks.
+- [+3] Grants 8% FP with successive attacks.
+- [+4] Grants 9% FP with successive attacks.
+- [+5] Grants 10% FP with successive attacks.
 
 # Dragonscale Ring
 - Weight: 1
