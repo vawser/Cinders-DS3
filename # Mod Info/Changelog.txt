@@ -138,15 +138,74 @@
 #------------------------------
 # TODO - General
 #------------------------------
-9934    DeS Chain Mail
-9935    DeS Chained Priest
-9936    DeS Dull Gold
-9937    DeS Fluted # F support on head
-9938    DeS Hunter
-9939    DeS Mirdan # F support on all
-9940    DeS Plate
-9941    DeS Ragged
-9942    DeS Rogue
-9943    DeS Saint
-9944    DeS Thief
-9945    DeS Wizard
+9934    DeS Chain Mail  
+    # Gallant Set
+    # - Gallant Helm
+    # - Gallant Armor
+    # - Gallant Gloves
+    # - Gallant Leggings
+9935    DeS Chained Priest 
+    # Warden Set
+    # - Warden Coif
+    # - Warden Chainmail
+    # - Warden Gloves
+    # - Warden Leggings
+9936    DeS Dull Gold 
+    # Dull Gold Set
+    # - Dull Gold Helmet
+    # - Dull Gold Armor
+    # - Dull Gold Gauntlets
+    # - Dull Gold Leggings
+9937    DeS Fluted # F support on head 
+    # Fluted Set
+    # - Fluted Helmet
+    # - Fluted Armor
+    # - Fluted Gauntlets
+    # - Fluted Leggings
+9938    DeS Hunter 
+    # Huntsman Set
+    # - Huntsman's Cap
+    # - Huntsman's Armor
+    # - Huntsman's Gloves
+    # - Huntsman's Leggings
+9939    DeS Mirdan # F support on all 
+    # Mirdan Set
+    # - Mirdan Helmet
+    # - Mirdan Scale Mail
+    # - Mirdan Gauntlets
+    # - Mirdan Leggings
+9940    DeS Plate 
+    # Sentinel Set
+    # - Sentinel Helmet
+    # - Sentinel Armor
+    # - Sentinel Gauntlets
+    # - Sentinel Leggings
+9941    DeS Ragged 
+    # Raggedy Set
+    # - Three-cornered Hat
+    # - Old Raggedy Robes
+    # - Old Raggedy Gloves
+    # - Old Raggedy Leggings
+9942    DeS Rogue  
+    # Charlatan Set
+    # - Gold Mask
+    # - Charlatan's Clothes
+    # - Charlatan's Gloves
+    # - Charlatan's Leggings
+9943    DeS Saint   
+    # Martyr Set
+    # - Martyr Robes
+    # - Martyr Gloves
+    # - Martyr Leggings
+9944    DeS Thief   
+    # Pickpocket Set
+    # - Pickpocket Mask
+    # - Pickpocket Clothes
+    # - Pickpocket Gloves
+    # - Pickpocket Leggings
+9945    DeS Wizard  
+    # Magician Set
+    # - Magician Clothes
+    # - Magician Gloves
+    # - Magician Leggings
+
