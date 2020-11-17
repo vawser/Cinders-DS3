@@ -91,6 +91,7 @@
 - Changed the icons for the Opus items and the Signs.
 - Gimbal now uses the standing mimic moves, and no longer uses the grab.
 - Metora no longer uses her grab.
+- The leash for companions is larger, allowing them to stay in combat for longer if you move away from them.
 
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
@@ -98,6 +99,7 @@
 # Weapons
 - Added Bleed to the Scraping Spear.
 - Added Muffin's Bewitched Alonne Sword edits.
+- Extended Bewitched Alonne Sword WA duration to 40 seconds.
 
 # Infusions
 - Enchanted/Clarity infusions now add 2 FP per second (was 1).
@@ -138,74 +140,97 @@
 #------------------------------
 # TODO - General
 #------------------------------
-9934    DeS Chain Mail  
+# 10290000
+9934    DeS Chain Mail      # Light Medium
     # Gallant Set
-    # - Gallant Helm
-    # - Gallant Armor
-    # - Gallant Gloves
-    # - Gallant Leggings
-9935    DeS Chained Priest 
+    # 3094 - Gallant Helm
+    # 3097 - Gallant Armor
+    # 3098 - Gallant Gloves
+    # 3099 - Gallant Leggings
+    
+# 10300000
+9935    DeS Chained Priest  # Light Medium
     # Warden Set
-    # - Warden Coif
-    # - Warden Chainmail
-    # - Warden Gloves
-    # - Warden Leggings
-9936    DeS Dull Gold 
+    # 3101 - Warden Coif
+    # 3102 - Warden Chainmail
+    # 3103 - Warden Gloves
+    # 3110 - Warden Leggings
+        
+# 10310000
+9936    DeS Dull Gold       # Heavy Medium
     # Dull Gold Set
-    # - Dull Gold Helmet
-    # - Dull Gold Armor
-    # - Dull Gold Gauntlets
-    # - Dull Gold Leggings
-9937    DeS Fluted # F support on head 
+    # 3111 - Dull Gold Helmet
+    # 3125 - Dull Gold Armor
+    # 3126 - Dull Gold Gauntlets
+    # 3127 - Dull Gold Leggings
+        
+# 10320000
+9937    DeS Fluted # F support on head - Heavy Medium
     # Fluted Set
-    # - Fluted Helmet
-    # - Fluted Armor
-    # - Fluted Gauntlets
-    # - Fluted Leggings
-9938    DeS Hunter 
+    # 3134 - Fluted Helmet
+    # 3135 - Fluted Armor
+    # 3140 - Fluted Gauntlets
+    # 3141 - Fluted Leggings
+        
+# 10330000
+9938    DeS Hunter # Very Light
     # Huntsman Set
-    # - Huntsman's Cap
-    # - Huntsman's Armor
-    # - Huntsman's Gloves
-    # - Huntsman's Leggings
-9939    DeS Mirdan # F support on all 
+    # 3142 - Huntsman's Cap
+    # 3143 - Huntsman's Armor
+    # 3148 - Huntsman's Gloves
+    # 3149 - Huntsman's Leggings
+        
+# 10340000
+9939    DeS Mirdan # F support on all - Heavy Medium
     # Mirdan Set
-    # - Mirdan Helmet
-    # - Mirdan Scale Mail
-    # - Mirdan Gauntlets
-    # - Mirdan Leggings
-9940    DeS Plate 
+    # 3150 - Mirdan Helmet
+    # 3151 - Mirdan Scale Mail
+    # 3181 - Mirdan Gauntlets
+    # 3182 - Mirdan Leggings
+        
+# 10350000
+9940    DeS Plate # Light Medium
     # Sentinel Set
-    # - Sentinel Helmet
-    # - Sentinel Armor
-    # - Sentinel Gauntlets
-    # - Sentinel Leggings
-9941    DeS Ragged 
+    # 3183 - Sentinel Helmet
+    # 3188 - Sentinel Armor
+    # 3189 - Sentinel Gauntlets
+    # 3190 - Sentinel Leggings
+        
+# 10360000
+9941    DeS Ragged # Very Light
     # Raggedy Set
-    # - Three-cornered Hat
-    # - Old Raggedy Robes
-    # - Old Raggedy Gloves
-    # - Old Raggedy Leggings
-9942    DeS Rogue  
+    # 3191 - Three-cornered Hat
+    # 3194 - Old Raggedy Robes
+    # 3195 - Old Raggedy Gloves
+    # 3206 - Old Raggedy Leggings
+        
+# 10370000
+9942    DeS Rogue  # Very Light
     # Charlatan Set
-    # - Gold Mask
-    # - Charlatan's Clothes
-    # - Charlatan's Gloves
-    # - Charlatan's Leggings
-9943    DeS Saint   
+    # 3220 - Gold Mask
+    # 3221 - Charlatan's Clothes
+    # 3222 - Charlatan's Gloves
+    # 3223 - Charlatan's Leggings
+        
+# 10380000
+9943    DeS Saint # Light
     # Martyr Set
-    # - Martyr Robes
-    # - Martyr Gloves
-    # - Martyr Leggings
-9944    DeS Thief   
+    # 3226 - Martyr Robes
+    # 3228 - Martyr Gloves
+    # 3230 - Martyr Leggings
+        
+# 10390000
+9944    DeS Thief # Very Light
     # Pickpocket Set
-    # - Pickpocket Mask
-    # - Pickpocket Clothes
-    # - Pickpocket Gloves
-    # - Pickpocket Leggings
-9945    DeS Wizard  
+    # 3233 - Pickpocket Mask
+    # 3234 - Pickpocket Clothes
+    # 3235 - Pickpocket Gloves
+    # 3240 - Pickpocket Leggings
+        
+# 10400000
+9945    DeS Wizard  # Very Light
     # Magician Set
-    # - Magician Clothes
-    # - Magician Gloves
-    # - Magician Leggings
+    # 3241 - Magician Clothes
+    # 3242 - Magician Gloves
+    # 3243 - Magician Leggings
 

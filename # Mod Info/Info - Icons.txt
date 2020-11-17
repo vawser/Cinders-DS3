@@ -851,52 +851,52 @@
 # BLOCK 3
 <vanilla used icons not mapped for this block>
 
-3094 DUMMY
-3097 DUMMY
-3098 DUMMY
-3099 DUMMY
-3101 DUMMY
-3102 DUMMY
-3103 DUMMY
-3110 DUMMY
-3111 DUMMY
-3125 DUMMY
-3126 DUMMY
-3127 DUMMY
-3134 DUMMY
-3135 DUMMY
-3140 DUMMY
-3141 DUMMY
-3142 DUMMY
-3143 DUMMY
-3148 DUMMY
-3149 DUMMY
-3150 DUMMY
-3151 DUMMY
-3181 DUMMY
-3182 DUMMY
-3183 DUMMY
-3188 DUMMY
-3189 DUMMY
-3190 DUMMY
-3191 DUMMY
-3194 DUMMY
-3195 DUMMY
-3206 DUMMY
-3220 DUMMY
-3221 DUMMY
-3222 DUMMY
-3223 DUMMY
-3226 DUMMY
-3228 DUMMY
-3230 DUMMY
-3233 DUMMY
-3234 DUMMY
-3235 DUMMY
-3240 DUMMY
-3241 DUMMY
-3242 DUMMY
-3243 DUMMY
+3094 Gallant Helm
+3097 Gallant Armor
+3098 Gallant Gloves
+3099 Gallant Leggings
+3101 Warden Coif
+3102 Warden Chainmail
+3103 Warden Gloves
+3110 Warden Leggings
+3111 Dull Gold Helmet
+3125 Dull Gold Armor
+3126 Dull Gold Gauntlets
+3127 Dull Gold Leggings
+3134 Fluted Helmet
+3135 Fluted Armor
+3140 Fluted Gauntlets
+3141 Fluted Leggings
+3142 Huntsman's Cap
+3143 Huntsman's Armor 
+3148 Huntsman's Gloves
+3149 Huntsman's Leggings
+3150 Mirdan Helmet
+3151 Mirdan Scale Mail
+3181 Mirdan Gauntlets
+3182 Mirdan Leggings
+3183 Sentinel Helmet
+3188 Sentinel Armor
+3189 Sentinel Gauntlets
+3190 Sentinel Leggings
+3191 Three-cornered Hat
+3194 Old Raggedy Robes
+3195 Old Raggedy Gloves
+3206 Old Raggedy Leggings
+3220 Gold Mask
+3221 Charlatan's Clothes
+3222 Charlatan's Gloves
+3223 Charlatan's Leggings
+3226 Martyr Robes
+3228 Martyr Gloves
+3230 Martyr Leggings
+3233 Pickpocket Mask
+3234 Pickpocket Clothes
+3235 Pickpocket Gloves
+3240 Pickpocket Leggings
+3241 Magician Clothes
+3242 Magician Gloves
+3243 Magician Leggings
 3312 DUMMY
 3365 DUMMY
 3366 DUMMY
