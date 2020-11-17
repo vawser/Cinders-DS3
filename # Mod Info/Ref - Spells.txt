@@ -6,7 +6,7 @@
 #--------------------------------
 - FP Cost: 5
 - INT Req: 10
-- Magic Damage: 60
+- Magic Damage: 100 {400}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -14,7 +14,7 @@
 #--------------------------------
 - FP Cost: 5
 - INT Req: 10
-- Magic Damage: 75
+- Magic Damage: 120 {480}
 - Ascended Effect: increases poise damage to 25.
 
 #--------------------------------
@@ -22,7 +22,7 @@
 #--------------------------------
 - FP Cost: 5
 - INT Req: 20
-- Magic Damage: 25 {*25, individual}
+- Magic Damage: 50 {200} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
@@ -30,7 +30,7 @@
 #--------------------------------
 - FP Cost: 15
 - INT Req: 20
-- Magic Damage: 120
+- Magic Damage: 200 {800}
 - Ascended Effect: increases projectile homing to 70 degrees.
 
 #--------------------------------
@@ -38,7 +38,7 @@
 #--------------------------------
 - FP Cost: 15
 - INT Req: 30
-- Magic Damage: 60 {*25, individual}
+- Magic Damage: 100 {400} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
@@ -47,7 +47,7 @@
 - FP Cost: 20
 - INT Req: 40
 - Slot Use: 1
-- Magic Damage: 200
+- Magic Damage: 300 {1200}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -56,7 +56,7 @@
 - FP Cost: 25
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 260 
+- Magic Damage: 400 {1600}
 - Ascended Effect: increases projectile speed to 40 m/s.
 
 #--------------------------------
@@ -64,7 +64,7 @@
 #--------------------------------
 - FP Cost: 25
 - INT Req: 30
-- Magic Damage: 50 {*5, individual}
+- Magic Damage: 80 {320} {*5, individual}
 - Ascended Effect: impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
@@ -73,7 +73,7 @@
 - FP Cost: 35
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 80 {*5, individual}
+- Magic Damage: 120 {480} {*5, individual}
 - Ascended Effect: impact reduces the Magic absorption of the target by 10% for 10 seconds.
 
 #--------------------------------
@@ -82,7 +82,7 @@
 - FP Cost: 40
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 140 {*3, individual}
+- Magic Damage: 200 {800} {*3, individual}
 - Ascended Effect: reduces the spread of the geyser.
 
 #--------------------------------
@@ -91,7 +91,7 @@
 - FP Cost: 25
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 250 [100] 
+- Magic Damage: 300 {1200} [100 {400}] 
 - Effect: inflicts 60 Curse.
 - Ascended Effect: extends the length of the breath.
 
@@ -100,7 +100,7 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - INT Req: 40
-- Magic Damage: 400 (60) {*5, shared}
+- Magic Damage: 400 {1600} {*5, shared}
 - Ascended Effect: increases emitter radius to 20 metres.
 
 #--------------------------------
@@ -108,7 +108,7 @@
 #--------------------------------
 - FP Cost: 5 (5)
 - INT Req: 20
-- Magic Damage: 80 {*20, shared}
+- Magic Damage: 150 {600} {*20, shared}
 - Ascended Effect: increases projectile homing to 30 degrees.
 
 #--------------------------------
@@ -116,7 +116,7 @@
 #--------------------------------
 - FP Cost: 30
 - INT Req: 40
-- Magic Damage: 50 {*40, individual}
+- Magic Damage: 100 {400} {*40, individual}
 - Ascended Effect: reduces the spread of the crystal hail.
 
 #--------------------------------
@@ -124,7 +124,7 @@
 #--------------------------------
 - FP Cost: 20
 - INT Req: 30
-- Magic Damage: 200
+- Magic Damage: 300 {1200}
 - Ascended Effect: increases poise damage to 80.
 
 #--------------------------------
@@ -133,7 +133,7 @@
 - FP Cost: 25
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 200 (400 charged) [100]
+- Magic Damage: 350 {1400} (400 {1600} charged) [100 {400}]
 - Ascended Effect: increases poise damage to 100.
 
 #--------------------------------
@@ -141,7 +141,7 @@
 #--------------------------------
 - FP Cost: 10
 - INT Req: 30
-- Magic Damage: 140
+- Magic Damage: 220 {880}
 - Ascended Effect: increases projectile speed to 60 m/s.
 
 #--------------------------------
@@ -150,7 +150,7 @@
 - FP Cost: 40
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 100 {*10, individual}
+- Magic Damage: 150 {600} {*10, individual}
 - Ascended Effect: increases duration of stream to 1.2 seconds.
 
 #--------------------------------
@@ -158,7 +158,7 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - INT Req: 30
-- Magic Damage: 200 {*5, shared}
+- Magic Damage: 300 {1200} {*5, shared}
 - Base Effect: inflicts 60 Frost on hit.
 - Ascended Effect: increases Frost inflict to 90.
 
@@ -167,7 +167,7 @@
 #--------------------------------
 - FP Cost: 20
 - INT Req: 40
-- Magic Damage: 75 {*6, individual}
+- Magic Damage: 120 {480} {*6, individual}
 - Ascended Effect: reduces orb starup time to 1 second.
 
 #--------------------------------
@@ -335,35 +335,35 @@
 # Flame Fan
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 75
+- Fire Damage: 150 {600}
 - Ascended Effect: increases poise damage to 20.
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 80 [40]
+- Fire Damage: 200 {800} [50 {200}]
 - Ascended Effect: increases projectile speed to 30 m/s.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 15
-- Fire Damage: 140 [50]
+- Fire Damage: 300 {1200} [100 {400}]
 - Ascended Effect: increases projectile homing to 40 degrees.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 5 (10)
-- Fire Damage: 200 {*5, shared}
+- Fire Damage: 300 {1200} {*5, shared}
 - Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
-- Fire Damage: 40
+- Fire Damage: 80 {320}
 - Ascended Effect: reduces hit cooldown to 0.3 seconds.
 
 #--------------------------------
@@ -371,7 +371,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Fire Damage: 200 [100]
+- Fire Damage: 350 {1400} [100 {400}]
 - Ascended Effect: increases poise damage to 50.
 
 #--------------------------------
@@ -379,7 +379,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Fire Damage: 200 [100] [150] 
+- Fire Damage: 400 {1600} [100 {400}] [150 {600}] 
 - Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
 
 #--------------------------------
@@ -387,14 +387,14 @@
 #--------------------------------
 - FP Cost: 10 (10)
 - Slot Use: 2
-- Fire Damage: 300 [150] {*5, shared}
+- Fire Damage: 400 {1600} [150 {600}] {*5, shared}
 - Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 4
-- Fire Damage: 50 {*20, individual}
+- Fire Damage: 100 {400} {*20, individual}
 - Ascended Effect: reduces hit cooldown to 0.05 seconds.
 
 #--------------------------------
@@ -402,7 +402,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Fire Damage: 220
+- Fire Damage: 350 {1400}
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
@@ -410,7 +410,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 3
-- Fire Damage: 300 [100] [150]
+- Fire Damage: 400 {1600} [100 {400}] [150 {600}]
 - Ascended Effect: increases projectile speed to 38 m/s.
 
 #--------------------------------
@@ -418,7 +418,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 3
-- Fire Damage: 100 {*10, shared}
+- Fire Damage: 200 {800} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
@@ -426,14 +426,14 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Fire Damage: 50 {*25, individual}
+- Fire Damage: 80 {320} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 15
-- Fire Damage: 80 {*12, individual)
+- Fire Damage: 200 {800} {*12, individual)
 - Ascended Effect: emits an additional fireball.
 
 #--------------------------------
@@ -441,7 +441,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Physical Damage: 250 [80]
+- Physical Damage: 300 {1200} [100 {400}]
 - Ascended Effect: increases projectile speed to 16 m/s.
 
 #--------------------------------
@@ -455,7 +455,7 @@
 # Seething Chaos
 #--------------------------------
 - FP Cost: 25
-- Fire Damage: 150 [250] 
+- Fire Damage: 200 {800} [400 {1600}] 
 - Ascended Effect: increases poise damage to 100.
 
 #--------------------------------
@@ -463,7 +463,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Physical Damage: 250 
+- Physical Damage: 350 {1400}
 - Ascended Effect: emits two additional lines.
 
 #--------------------------------
@@ -471,14 +471,14 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - Slot Use: 2
-- Physical Damage: 250 {*5, individual}
+- Physical Damage: 300 {1200} {*5, individual}
 - Ascended Effect: increases emitter radius to 25 metres.
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 15
-- Fire Damage: 100
+- Fire Damage: 200 {800}
 - Ascended Effect: increases duration to 30 seconds.
 
 #--------------------------------
@@ -486,7 +486,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 3
-- Physical Damage: 100 {*10, shared}
+- Physical Damage: 200 {800} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
@@ -516,7 +516,7 @@
 # Immolation
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 300
+- Fire Damage: 200 {800}
 - Base Effect: for 15 seconds, summons fire pillars around the player that harm enemies and the player alike.
 - Ascended Effect: increases duration to 30 seconds.
 
@@ -610,7 +610,7 @@
 #--------------------------------
 - FP Cost: 10
 - FTH Req: 10
-- Physical Damage: 50 [50] [50]
+- Physical Damage: 100 {400} [100 {400}] [100 {400}]
 - Ascended Effect: None
 
 #--------------------------------
@@ -624,7 +624,7 @@
 # Emit Force
 #--------------------------------
 - FP Cost: 15
-- Physical Damage: 200 [100] 
+- Physical Damage: 350 {1400} [100 {400}] 
 - FTH Req: 30
 - Ascended Effect: now cast in a quick fashion.
 
@@ -633,7 +633,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Physical Damage: 300
+- Physical Damage: 400 {1600}
 - FTH Req: 50
 - Ascended Effect: now cast in a quick fashion.
 
@@ -641,7 +641,7 @@
 # Lightning Spear
 #--------------------------------
 - FP Cost: 15
-- Lightning Damage: 125 [30] [50] 
+- Lightning Damage: 200 {800} [50 {200}] [100 {400}] 
 - FTH Req: 20
 - Ascended Effect: increases projectile homing to 60 degrees.
 
@@ -649,7 +649,7 @@
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 25
-- Lightning Damage: 200 [50] [75] 
+- Lightning Damage: 300 {1200} [80 {320}] [150 {600}] 
 - FTH Req: 40
 - Ascended Effect: increases projectile homing to 120 degrees.
 
@@ -658,7 +658,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Lightning Damage: 250 [100] [125] 
+- Lightning Damage: 400 {1600} [100 {400}] [200 {800}]
 - FTH Req: 60
 - Ascended Effect: increases projectile homing to 180 degrees.
 
@@ -666,7 +666,7 @@
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 10
-- Lightning Damage: 100
+- Lightning Damage: 150 {600}
 - FTH Req: 20
 - Ascended Effect: increases projectile homing to 40 degrees.
 
@@ -674,7 +674,7 @@
 # Lightning Storm
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 200 {*6, shared}
+- Lightning Damage: 250 {1000} {*6, shared}
 - FTH Req: 40
 - Ascended Effect: emits an additional projectile.
 
@@ -682,7 +682,7 @@
 # Lightning Stake
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 300 [100] 
+- Lightning Damage: 500 {2000} [100 {400}] 
 - FTH Req: 40
 - Ascended Effect: increases poise damage to 60.
 
@@ -691,7 +691,7 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - Slot Use: 2
-- Physical Damage: 250 {*10, individual}
+- Physical Damage: 300 {1200} {*10, individual}
 - FTH Req: 50
 - Ascended Effect: increases emitter radius to 40 metres.
 
@@ -700,7 +700,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Physical Damage: 100 [100] [100] {*10, shared}
+- Physical Damage: 200 {800} [200 {800}] [200 {800}] {*10, shared}
 - FTH Req: 50
 - Ascended Effect: now cast in a quick fashion.
 
@@ -709,7 +709,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Lightning Damage: 100 {*10, shared}
+- Lightning Damage: 200 {800} {*10, shared}
 - FTH Req: 60
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
@@ -718,7 +718,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Physical Damage: 50 {*16, shared}
+- Physical Damage: 100 {400} {*16, shared}
 - FTH Req: 50
 - Ascended Effect: increases emitted projectile rate to 5 per second.
 
@@ -726,7 +726,7 @@
 # Divine Arrow
 #--------------------------------
 - FP Cost: 15
-- Physical Damage: 150
+- Physical Damage: 225 {900}
 - FTH Req: 30
 - Ascended Effect: increases projectile homing to 90 degrees.
 
@@ -735,7 +735,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Physical Damage: 260
+- Physical Damage: 400 {1600}
 - FTH Req: 50
 - Ascended Effect: increases projectile speed to 40 m/s.
 
@@ -744,7 +744,7 @@
 #--------------------------------
 - FP Cost: 10
 - Slot Use: 2
-- Physical Damage: 150
+- Physical Damage: 250 {1000}
 - FTH Req: 40
 - Ascended Effect: None
 
@@ -752,7 +752,7 @@
 # Overwhelming Power
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 100 {shared}
+- Lightning Damage: 200 {800} {shared}
 - FTH Req: 40
 - Ascended Effect: increases duration to 8 seconds.
 
@@ -761,7 +761,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Physical Damage: 50 (*15, individual)
+- Physical Damage: 100 {400} (*15, individual)
 - FTH Req: 50
 - Ascended Effect: summons an additional archer.
 
@@ -769,7 +769,7 @@
 # Wrathful Orbs
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 80 {*5, individual}
+- Lightning Damage: 150 {600} {*5, individual}
 - INT Req: 40
 - Ascended Effect: hits reduce target Lightning absorption by 10% for 10 seconds.
 
@@ -777,7 +777,7 @@
 # Holy Schism
 #--------------------------------
 - FP Cost: 25
-- Lightning Damage: 200 [100] (*4, shared)
+- Lightning Damage: 300 {1200} [150 {600}] (*4, shared)
 - FTH Req: 40
 - Ascended Effect: emits two additional lines.
 
@@ -785,7 +785,7 @@
 # Wrathful Barrage
 #--------------------------------
 - FP Cost: 5 (5)
-- Lightning Damage: 80 {*20, shared}
+- Lightning Damage: 150 {600} {*20, shared}
 - FTH Req: 30
 - Ascended Effect: increases projectile homing to 50 degrees.
 
@@ -970,7 +970,7 @@
 # Deep Barb
 #--------------------------------
 - FP Cost: 5
-- Dark Damage: 60
+- Dark Damage: 100 {400}
 - Base Effect: inflicts 10 Curse.
 - Ascended Effect: increases Curse inflict to 20.
 - INT Req: 5
@@ -980,7 +980,7 @@
 # Deep Soul
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 120 
+- Dark Damage: 150 {600}
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: inflicts 20 Curse.
@@ -990,7 +990,7 @@
 # Great Deep Soul
 #--------------------------------
 - FP Cost: 20
-- Dark Damage: 200
+- Dark Damage: 250 {1000}
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
@@ -1001,7 +1001,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 300 
+- Dark Damage: 400 {1600} 
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 40 Curse.
@@ -1011,7 +1011,7 @@
 # Dark Edge
 #--------------------------------
 - FP Cost: 5
-- Dark Damage: 75
+- Dark Damage: 120
 - INT Req: 5
 - FTH Req: 5
 - Base Effect: inflicts 10 Curse.
@@ -1022,7 +1022,7 @@
 #--------------------------------
 - FP Cost: 25
 - Slot Use: 2
-- Dark Damage: 200  
+- Dark Damage: 350 {1400}  
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 30 Curse.
@@ -1033,7 +1033,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 80 {*7, individual}
+- Dark Damage: 120 {480} {*7, individual}
 - INT Req: 25
 - FTH Req: 25
 - Ascended Effect: adds 10 Curse inflict to projectiles.
@@ -1042,8 +1042,8 @@
 # Surging Deep
 #--------------------------------
 - FP Cost: 5
-- Dark Damage: 50
-- INT Req: 15
+- Dark Damage: 100 {400}
+- INT Req: 15 
 - FTH Req: 15
 - Base Effect: inflicts 8 Curse.
 - Ascended Effect: increases Curse inflict to 16.
@@ -1052,7 +1052,7 @@
 # Cascading Deep
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 50 {*50, individual}
+- Dark Damage: 100 {400} {*50, individual}
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse per bullet.
@@ -1062,7 +1062,7 @@
 # Yearning Dregs
 #--------------------------------
 - FP Cost: 5 (10)
-- Dark Damage: 200 {*5, shared}
+- Dark Damage: 300 {1200} {*5, shared}
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 60 Curse per pillar.
@@ -1073,7 +1073,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 50 {*25, individual}
+- Dark Damage: 80 {320} {*25, individual}
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 10 Curse per bullet.
@@ -1083,7 +1083,7 @@
 # Writhing Deep
 #--------------------------------
 - FP Cost: 25
-- Dark Damage: 150 [250] 
+- Dark Damage: 200 {800} [400 {1600}] 
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
@@ -1094,7 +1094,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 250 
+- Dark Damage: 350 {1400} 
 - INT Req: 30
 - FTH Req: 30
 - Base Effect: inflicts 20 Curse.
@@ -1105,7 +1105,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Dark Damage: 80 {*5, individual}
+- Dark Damage: 120 {480} {*5, individual}
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse.
@@ -1126,7 +1126,7 @@
 - FP Cost: 10
 - INT Req: 5
 - FTH Req: 5
-- Dark Damage: 80 [40]
+- Dark Damage: 150 {600} [50 {200}]
 - Base Effect: inflicts 20 Toxic.
 - Ascended Effect: now cast in a quick fashion.
 
@@ -1136,7 +1136,7 @@
 - FP Cost: 20
 - INT Req: 15
 - FTH Req: 15
-- Dark Damage: 150 [75]
+- Dark Damage: 250 {100} [100 {400}]
 - Base Effect: inflicts 30 Toxic.
 - Ascended Effect: increases projectile homing to 50 degrees.
 
@@ -1147,7 +1147,7 @@
 - Slot Use: 2
 - INT Req: 30
 - FTH Req: 30
-- Magic Damage: 250 [100]
+- Magic Damage: 300 {1200} [200 {800}]
 - Base Effect: inflicts 40 Toxic.
 - Ascended Effect: increases projectile homing to 40 degrees.
 
@@ -1157,7 +1157,7 @@
 - FP Cost: 15
 - INT Req: 10
 - FTH Req: 10
-- Dark Damage: 50 {*12, individual)
+- Dark Damage: 200 {800} {*12, individual)
 - Base Effect: inflicts 10 Toxic.
 - Ascended Effect: emits an additional projectile.
 
@@ -1167,7 +1167,7 @@
 - FP Cost: 30
 - INT Req: 15
 - FTH Req: 15
-- Dark Damage: 250 [100]
+- Dark Damage: 400 {1600} [100 {400}]
 - Base Effect: inflicts 20 Toxic.
 - Ascended Effect: increases poise damage to 60.
 
@@ -1178,7 +1178,7 @@
 - Slot Use: 2
 - INT Req: 20
 - FTH Req: 20
-- Dark Damage: 250
+- Dark Damage: 400 {1600}
 - Base Effect: inflicts 30 Toxic.
 - Ascended Effect: extends the length of the serpent.
 
@@ -1189,7 +1189,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 100 {*4, individual}
+- Dark Damage: 150 {600} {*4, individual}
 - Base Effect: inflicts 10 Toxic.
 - Ascended Effect: increases projectile speed to 9 m/s.
 
@@ -1200,7 +1200,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 50 {*25, individual}
+- Dark Damage: 80 {320} {*25, individual}
 - Base Effect: inflicts 10 Toxic.
 - Ascended Effect: increases emitted projectile rate to 5 per second.
 
@@ -1211,7 +1211,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 100 [250]
+- Dark Damage: 200 {800} [400 {1600}]
 - Base Effect: inflicts 40 Toxic.
 - Ascended Effect: emits five additional lines.
 
@@ -1221,7 +1221,7 @@
 - FP Cost: 5
 - INT Req: 5
 - FTH Req: 5
-- Dark Damage: 60
+- Dark Damage: 100 {400}
 - Base Effect: inflicts 10 Bleed
 - Ascended Effect: increases Bleed inflict to 20.
 
@@ -1231,7 +1231,7 @@
 - FP Cost: 15
 - INT Req: 10
 - FTH Req: 10
-- Dark Damage: 125
+- Dark Damage: 180 {720}
 - Base Effect: inflicts 20 Bleed
 - Ascended Effect: increases Bleed inflict to 30.
 
@@ -1242,7 +1242,7 @@
 - Slot Use: 2
 - INT Req: 20
 - FTH Req: 20
-- Dark Damage: 200
+- Dark Damage: 260 {1040}
 - Base Effect: inflicts 30 Bleed
 - Ascended Effect: increases Bleed inflict to 40.
 
@@ -1253,7 +1253,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 200 
+- Dark Damage: 300 {1200}
 - Base Effect: absorbs 10% HP on hit.
 - Ascended Effect: increases HP absorb to 20%.
 
@@ -1264,7 +1264,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 50 {*25, individual}
+- Dark Damage: 80 {320} {*25, individual}
 - Base Effect: inflicts 10 Bleed
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
@@ -1283,7 +1283,7 @@
 - FP Cost: 30
 - INT Req: 20
 - FTH Req: 20
-- Dark Damage: 100 (per tick)
+- Dark Damage: 100 {400} (per tick)
 - Ascended Effect: increases duration to 20 seconds.
 
 #--------------------------------
@@ -1293,7 +1293,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 200 {*1, shared}
+- Dark Damage: 300 {1200} {*1, shared}
 - Base Effect: inflicts 60 Toxic.
 - Ascended Effect: increases emitter radius to 30 metres.
 

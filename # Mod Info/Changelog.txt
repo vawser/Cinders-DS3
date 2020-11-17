@@ -109,13 +109,15 @@
 # Spell Tools
 - Restored the multi-school abilities for various catalysts.
 - Ascended effects are now added via the Throbbing infusion.
+- Reduced max multiplier to *4.
 
 # Spells
+- Increased base damage.
 - Carthus Flame Arc is now 2 slots.
 - Floating Chaos/Dreg Torrent/Recollection emitted bullets now last longer.
 - Floating Chaos now emits at the correct rate.
 - Heavenly Thunder is now more accurate with its emitted bullets.
-- The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *5 multiplier at max spell buff.
+- The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *4 multiplier at max spell buff.
 - The heal spells now scale with spell buff again.
 
 # Rings
