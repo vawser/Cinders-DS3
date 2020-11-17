@@ -24,45 +24,45 @@ Goal.Activate = function (arg0, arg1, arg2)
         arg1:AddObserveSpecialEffectAttribute(TARGET_SELF, 3152)
         arg2:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_NONE, 0, 0, 0)
     elseif local5 == 1 and arg1:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Kankyaku then
-        local0[10] = 50
-        local0[11] = 50
+        local0[10] = 50 -- Approach
+        local0[11] = 50 -- Sideways Move
     elseif local5 == 1 and arg1:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Torimaki then
-        local0[1] = 10
-        local0[2] = 10
-        local0[10] = 40
-        local0[11] = 40
+        local0[1] = 10 -- Swipe
+        local0[2] = 10 -- Forward Kick
+        local0[10] = 40 -- Approach
+        local0[11] = 40 -- Sideways Move
     elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 210) then
-        local0[20] = 10
+        local0[20] = 10 -- Turn
     elseif 6 <= local3 then
-        local0[1] = 10
-        local0[2] = 10
-        local0[3] = 30
-        local0[4] = 0
-        local0[20] = 1
+        local0[1] = 10 -- Swipe
+        local0[2] = 10 -- Forward Kick
+        local0[3] = 30 -- Spin Kick
+        local0[4] = 0 -- Grab
+        local0[20] = 1 -- Turn
     elseif 2 <= local3 then
-        local0[1] = 10
-        local0[2] = 10
-        local0[3] = 0
-        local0[4] = 20
-        local0[20] = 1
+        local0[1] = 10 -- Swipe
+        local0[2] = 10 -- Forward Kick
+        local0[3] = 10 -- Spin Kick
+        local0[4] = 0 -- Grab
+        local0[20] = 1 -- Turn
     else
-        local0[1] = 20
-        local0[2] = 0
-        local0[3] = 0
-        local0[4] = 30
-        local0[20] = 1
+        local0[1] = 20 -- Swipe
+        local0[2] = 10 -- Forward Kick
+        local0[3] = 10 -- Spin Kick
+        local0[4] = 0 -- Grab
+        local0[20] = 1 -- Turn
     end
     local0[1] = SetCoolTime(arg1, arg2, 3000, 12, local0[1], 1)
     local0[2] = SetCoolTime(arg1, arg2, 3002, 12, local0[2], 1)
     local0[3] = SetCoolTime(arg1, arg2, 3003, 12, local0[3], 1)
     local0[4] = SetCoolTime(arg1, arg2, 3004, 18, local0[4], 1)
-    local1[1] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act03)
-    local1[4] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act04)
-    local1[10] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act10)
-    local1[11] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act11)
-    local1[20] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act20)
+    local1[1] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act01) -- Swipe
+    local1[2] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act02) -- Forward Kick
+    local1[3] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act03) -- Spin Kick
+    local1[4] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act04) -- Grab
+    local1[10] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act10) -- Approach
+    local1[11] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act11) -- Sideways Move
+    local1[20] = REGIST_FUNC(arg1, arg2, Mimic_212000_Act20) -- Turn
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, Mimic_212000_ActAfter_AdjustSpace), local2)
     return 
 end

@@ -23,30 +23,30 @@ Goal.Activate = function (arg0, arg1, arg2)
     end
     local local7 = arg1:GetEventRequest()
     if arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 240) then
-        local0[10] = 100
+        local0[10] = 100 -- Turn
     elseif not arg1:HasSpecialEffectId(TARGET_SELF, 5020) and arg1:GetNpcThinkParamID() == 322001 then
-        local0[3] = 100
+        local0[3] = 100 -- Roll
     elseif 6 <= local3 then
-        local0[1] = 30
-        local0[2] = 10
-        local0[3] = 60 * local6
+        local0[1] = 30 -- Shove
+        local0[2] = 10 -- Fire Breath
+        local0[3] = 60 * local6 -- Roll
     elseif 2 <= local3 then
-        local0[1] = 20
-        local0[2] = 45
-        local0[3] = 35 * local6
+        local0[1] = 20 -- Shove
+        local0[2] = 45 -- Fire Breath
+        local0[3] = 35 * local6 -- Roll
     else
-        local0[1] = 60
-        local0[2] = 30
-        local0[3] = 10 * local6
+        local0[1] = 60 -- Shove
+        local0[2] = 30 -- Fire Breath
+        local0[3] = 10 * local6 -- Roll
     end
     if arg1:GetNpcThinkParamID() == 322002 then
         local0[3] = 0
     end
-    local1[1] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act03)
-    local1[9] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act9)
-    local1[10] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act10)
+    local1[1] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act01) -- Shove
+    local1[2] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act02) -- Fire Breath
+    local1[3] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act03) -- Roll
+    local1[9] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act9) -- Stop
+    local1[10] = REGIST_FUNC(arg1, arg2, RockLizard322000_Act10) -- Turn
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, RockLizard322000_ActAfter_AdjustSpace), local2)
     return 
 end

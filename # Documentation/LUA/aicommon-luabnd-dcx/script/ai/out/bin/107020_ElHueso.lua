@@ -79,24 +79,24 @@ Goal.Activate = function (arg0, arg1, arg2)
     if local6 == 6 and 0 < local0[6] then
         local0[6] = 1
     end
-    local1[1] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act03)
-    local1[4] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act04)
+    local1[1] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act01) -- Swipe Combo
+    local1[2] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act02) -- Slow Right Swipe
+    local1[3] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act03) -- Twirl Swipe
+    local1[4] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act04) -- Quick Swipe and Backstep
     local1[5] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act05)
-    local1[6] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act06)
-    local1[10] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act10)
-    local1[11] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act11)
-    local1[20] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act20)
+    local1[6] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act06) -- Leap Swipe
+    local1[10] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act10) -- Stop
+    local1[11] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act11) -- Sideways Move
+    local1[20] = REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_Act20) -- Turn
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, ProtoSkeleton_107000_ActAfter_AdjustSpace), local2)
     return 
 end
 
 function ProtoSkeleton_107000_Act01(arg0, arg1, arg2)
     Approach_Act_Flex(arg0, arg1, 3.3 - arg0:GetMapHitRadius(TARGET_SELF), 3.3 - arg0:GetMapHitRadius(TARGET_SELF) + 0.9, 3.3 - arg0:GetMapHitRadius(TARGET_SELF) + 4, 50, 0, 4, 8)
-    local local0 = 3000
-    local local1 = 3001
-    local local2 = 3002
+    local local0 = 3000 -- Swipe Right
+    local local1 = 3001 -- Swipe Left
+    local local2 = 3002 -- Swipe Right 2
     local local3 = 2.3 - arg0:GetMapHitRadius(TARGET_SELF) + 1
     local local4 = 1.6 - arg0:GetMapHitRadius(TARGET_SELF) + 1
     local local5 = 2 - arg0:GetMapHitRadius(TARGET_SELF)

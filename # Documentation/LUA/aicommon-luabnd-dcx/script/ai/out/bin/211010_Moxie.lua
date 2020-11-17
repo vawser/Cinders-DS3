@@ -21,38 +21,38 @@ Goal.Activate = function (arg0, arg1, arg2)
     local local6 = arg1:GetEventRequest()
     if (local5 ~= 1 or arg1:GetTeamOrder(ORDER_TYPE_Role) ~= ROLE_TYPE_Kankyaku) and (local5 ~= 1 or arg1:GetTeamOrder(ORDER_TYPE_Role) ~= ROLE_TYPE_Torimaki) then
         if arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 90) then
-            local0[20] = 60
-            local0[22] = 20
-            local0[23] = 20
+            local0[20] = 60 -- Turn
+            local0[22] = 20 -- Right
+            local0[23] = 20 -- Left
         elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 90) then
-            local0[20] = 30
-            local0[23] = 70
+            local0[20] = 30 -- Turn
+            local0[23] = 70 -- Left
         elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 90) then
-            local0[20] = 30
-            local0[22] = 70
+            local0[20] = 30 -- Turn
+            local0[22] = 70 -- Right
         elseif 5 <= local3 then
-            local0[1] = 10
-            local0[2] = 10
-            local0[3] = 15
-            local0[4] = 10
-            local0[5] = 10
-            local0[6] = 45
+            local0[1] = 10 -- Right Swipe
+            local0[2] = 10 -- Headbutt
+            local0[3] = 15 -- Shove
+            local0[4] = 10 -- Left Swipe
+            local0[5] = 10 -- Bite
+            local0[6] = 45 -- Leap Swipe
         elseif 3 <= local3 then
-            local0[1] = 15
-            local0[2] = 15
-            local0[3] = 30
-            local0[4] = 15
-            local0[5] = 15
-            local0[6] = 10
+            local0[1] = 15 -- Right Swipe
+            local0[2] = 15 -- Headbutt
+            local0[3] = 30 -- Shove
+            local0[4] = 15 -- Left Swipe
+            local0[5] = 15 -- Bite
+            local0[6] = 10 -- Leap Swipe
         else
-            local0[1] = 20
-            local0[2] = 20
-            local0[3] = 0
-            local0[4] = 25
-            local0[5] = 25
-            local0[6] = 0
-            local0[22] = 5
-            local0[23] = 5
+            local0[1] = 20 -- Right Swipe
+            local0[2] = 20 -- Headbutt
+            local0[3] = 0 -- Shove
+            local0[4] = 25 -- Left Swipe
+            local0[5] = 25 -- Bite
+            local0[6] = 0 -- Leap Swipe
+            local0[22] = 5 -- Right
+            local0[23] = 5 -- Left
         end
     end
     local0[1] = SetCoolTime(arg1, arg2, 3000, 7, local0[1], 1)
@@ -62,16 +62,16 @@ Goal.Activate = function (arg0, arg1, arg2)
     local0[5] = SetCoolTime(arg1, arg2, 3005, 7, local0[5], 1)
     local0[6] = SetCoolTime(arg1, arg2, 3006, 7, local0[6], 1)
     local0[21] = SetCoolTime(arg1, arg2, 6001, 7, local0[21], 1)
-    local1[1] = REGIST_FUNC(arg1, arg2, DogRat211098_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, DogRat211098_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, DogRat211098_Act03)
-    local1[4] = REGIST_FUNC(arg1, arg2, DogRat211098_Act04)
-    local1[5] = REGIST_FUNC(arg1, arg2, DogRat211098_Act05)
-    local1[6] = REGIST_FUNC(arg1, arg2, DogRat211098_Act06)
-    local1[20] = REGIST_FUNC(arg1, arg2, DogRat211098_Act20)
-    local1[21] = REGIST_FUNC(arg1, arg2, DogRat211098_Act21)
-    local1[22] = REGIST_FUNC(arg1, arg2, DogRat211098_Act22)
-    local1[23] = REGIST_FUNC(arg1, arg2, DogRat211098_Act23)
+    local1[1] = REGIST_FUNC(arg1, arg2, DogRat211098_Act01) -- Right Swipe
+    local1[2] = REGIST_FUNC(arg1, arg2, DogRat211098_Act02) -- Headbutt
+    local1[3] = REGIST_FUNC(arg1, arg2, DogRat211098_Act03) -- Shove
+    local1[4] = REGIST_FUNC(arg1, arg2, DogRat211098_Act04) -- Left Swipe
+    local1[5] = REGIST_FUNC(arg1, arg2, DogRat211098_Act05) -- Bite
+    local1[6] = REGIST_FUNC(arg1, arg2, DogRat211098_Act06) -- Leap Swipe
+    local1[20] = REGIST_FUNC(arg1, arg2, DogRat211098_Act20) -- Turn
+    local1[21] = REGIST_FUNC(arg1, arg2, DogRat211098_Act21) -- Back
+    local1[22] = REGIST_FUNC(arg1, arg2, DogRat211098_Act22) -- Right
+    local1[23] = REGIST_FUNC(arg1, arg2, DogRat211098_Act23) -- Left
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, DogRat211098_ActAfter_AdjustSpace), local2)
     return 
 end

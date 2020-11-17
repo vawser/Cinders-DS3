@@ -111,23 +111,23 @@ Goal.Activate = function (arg0, arg1, arg2)
         local0[14] = SpaceCheckBeforeAct(arg1, arg2, 5, 10, local0[14])
         local0[14] = SpaceCheckBeforeAct(arg1, arg2, -5, 10, local0[14])
     end
-    local1[1] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act03)
-    local1[4] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act04)
-    local1[5] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act05)
-    local1[6] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act06)
-    local1[7] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act07)
-    local1[8] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act08)
-    local1[9] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act09)
-    local1[10] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act10)
-    local1[11] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act11)
-    local1[12] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act12)
-    local1[13] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act13)
-    local1[14] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act14)
-    local1[20] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act20)
-    local1[21] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act21)
-    local1[22] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act22)
+    local1[1] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act01) -- Slash Right
+    local1[2] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act02) -- Slash Left
+    local1[3] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act03) -- Slash Up -> Slash Down
+    local1[4] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act04) -- Slash Down
+    local1[5] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act05) -- Slash Down Combo
+    local1[6] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act06) -- Dash and Slash Down
+    local1[7] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act07) -- Thrust
+    local1[8] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act08) -- Slash Behind
+    local1[9] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act09) -- Buff Self
+    local1[10] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act10) -- Slash Down OR Slash Across
+    local1[11] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act11) -- Kick -> Dash and Slash Down
+    local1[12] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act12) -- Slash Left -> Slash Right 2
+    local1[13] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act13) -- Slash Down OR Heavy Slash Down
+    local1[14] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act14) -- Stomp
+    local1[20] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act20) -- Turn
+    local1[21] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act21) -- Leave
+    local1[22] = REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_Act22) -- Move
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, PriestlyKnight_119001_ActAfter_AdjustSpace), local2)
     return 
 end

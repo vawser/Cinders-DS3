@@ -89,6 +89,8 @@
 - Renamed the companion Tablets to Opus of <x>.
 - Renamed the training tomes to Sign of <x>
 - Changed the icons for the Opus items and the Signs.
+- Gimbal now uses the standing mimic moves, and no longer uses the grab.
+- Metora no longer uses her grab.
 
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.

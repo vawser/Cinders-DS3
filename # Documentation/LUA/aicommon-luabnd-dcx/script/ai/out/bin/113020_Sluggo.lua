@@ -20,21 +20,21 @@ Goal.Activate = function (arg0, arg1, arg2)
     local local5 = arg1:GetExcelParam(AI_EXCEL_THINK_PARAM_TYPE__thinkAttr_doAdmirer)
     local local6 = arg1:GetEventRequest()
     if 4 <= local3 then
-        local0[1] = 40
-        local0[2] = 20
-        local0[3] = 40
+        local0[1] = 80 -- Spit
+        local0[2] = 10 -- Shove
+        local0[3] = 10 -- Leap
     elseif 2.5 <= local3 then
-        local0[1] = 40
-        local0[2] = 20
-        local0[3] = 40
+        local0[1] = 60 -- Spit
+        local0[2] = 20 -- Shove
+        local0[3] = 20 -- Leap
     else
-        local0[1] = 30
-        local0[2] = 50
-        local0[3] = 20
+        local0[1] = 60 -- Spit
+        local0[2] = 20 -- Shove
+        local0[3] = 20 -- Leap
     end
-    local1[1] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act03)
+    local1[1] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act01) -- Spit
+    local1[2] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act02) -- Shove
+    local1[3] = REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_Act03) -- Leap
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, DarkBloodSlug_113000_ActAfter_AdjustSpace), local2)
     return 
 end

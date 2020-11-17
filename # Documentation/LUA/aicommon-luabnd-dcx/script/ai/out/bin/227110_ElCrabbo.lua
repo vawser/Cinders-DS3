@@ -20,37 +20,37 @@ Goal.Activate = function (arg0, arg1, arg2)
     local local5 = arg1:GetExcelParam(AI_EXCEL_THINK_PARAM_TYPE__thinkAttr_doAdmirer)
     local local6 = arg1:GetEventRequest()
     if arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 90) then
-        local0[20] = 100
+        local0[20] = 100 -- Turn
     elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 90) and local3 < 2 then
-        local0[4] = 100
+        local0[4] = 100 -- Side Swipe Right
     elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 90) and local3 < 2 then
-        local0[5] = 100
+        local0[5] = 100 -- Side Swipe Left
     elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 90) and 2 <= local3 then
-        local0[21] = 90
-        local0[1] = 10
+        local0[21] = 90 -- Step Right
+        local0[1] = 10 -- Swipe Right
     elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 90) and 2 <= local3 then
-        local0[22] = 90
-        local0[2] = 10
+        local0[22] = 90 -- Step Right
+        local0[2] = 10 -- Swipe Left
     elseif 3 <= local3 then
-        local0[1] = 1
-        local0[2] = 1
-        local0[3] = 1
+        local0[1] = 1 -- Swipe Right
+        local0[2] = 1 -- Swipe Left
+        local0[3] = 1 -- Swipe Both
     else
-        local0[1] = 1
-        local0[2] = 1
-        local0[3] = 1
+        local0[1] = 1 -- Swipe Right
+        local0[2] = 1 -- Swipe Left
+        local0[3] = 1 -- Swipe Both
     end
     local0[1] = SetCoolTime(arg1, arg2, 3000, 10, local0[1], 1)
     local0[2] = SetCoolTime(arg1, arg2, 3001, 10, local0[2], 1)
     local0[3] = SetCoolTime(arg1, arg2, 3002, 10, local0[3], 1)
-    local1[1] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act01)
-    local1[2] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act02)
-    local1[3] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act03)
-    local1[4] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act04)
-    local1[5] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act05)
-    local1[20] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act20)
-    local1[21] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act21)
-    local1[22] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act22)
+    local1[1] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act01) -- Swipe Right
+    local1[2] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act02) -- Swipe Left
+    local1[3] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act03) -- Swipe Both
+    local1[4] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act04) -- Side Swipe Right
+    local1[5] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act05) -- Side Swipe Left
+    local1[20] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act20) -- Turn
+    local1[21] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act21) -- Step Right
+    local1[22] = REGIST_FUNC(arg1, arg2, DeathCrabMini227100_Act22) -- Step Right
     Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, DeathCrabMini227100_ActAfter_AdjustSpace), local2)
     return 
 end
