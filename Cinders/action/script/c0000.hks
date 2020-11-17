@@ -4362,6 +4362,22 @@ function ExecDamage(is_parry, is_attackwhileguard)
             damage_angle = DAMAGE_DIR_FRONT
         end
     end
+    
+    -- Damage Level Shift: Heavy Armor
+    if env(1116, 112302) == TRUE then 
+        -- Skip
+    -- Damage Level Shift: Medium Armor
+    elseif env(1116, 112301) == TRUE then 
+        if damage_level == DAMAGE_LEVEL_NONE then
+            damage_level = DAMAGE_LEVEL_SMALL
+        end
+    -- Damage Level Shift: Light Armor
+    elseif env(1116, 112300) == TRUE then 
+        if damage_level == DAMAGE_LEVEL_NONE then
+            damage_level = DAMAGE_LEVEL_MIDDLE
+        end
+    end
+
     if env(265) == TRUE then -- GetIsWeakPoint
         CalcDamageCount()
         SetVariable("DamageDirection", damage_angle)
