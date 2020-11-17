@@ -1,1 +1,5 @@
-﻿
+﻿Player Character Flver is for new Dummy (97) for Black Dragon Greataxe
+
+In Params I edited EquipParamWeapon and WepAbsorpPosParam. 
+
+Also please note I edited the behbnd.
