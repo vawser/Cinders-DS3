@@ -74,10 +74,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Mechanics
-- Adjusted the damage levels for Poise. This changes the animations used for stagger depending on the sources. By default Poise affects the damage levels known as Small Impact, Medium Impact, Large Impact and Minimal. Heavy Armor makes these sources No Stagger, Medium Armor makes these sources Short Stagger, and Light Armor makes these sources Long Stagger.
-- In gameplay terms, this means Heavy Armor stops stagger until poise is broken, whereas Medium Armor makes the stagger animations the short one, and Light Armor makes the stagger animation the long one. However for damage level sources not covered by Poise, such as the air juggle, this will happen no matter your poise.
-
 # Classes
 - Added a Summoner class: focuses on Attunement, starts with several companion related items, including Woof and Metora.
 - Paladin now started with a normal Cathedral Knight Greatsword.
@@ -95,6 +91,9 @@
 
 # Merchants
 - Moved Soul Greatsword unlock to the Sage's Scroll.
+
+# NPCs
+- Lightly armored intruders will now be easily staggerable.
 
 # Weapons
 - Added Bleed to the Scraping Spear.
@@ -140,6 +139,8 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Move poison in Cathedral down a little bit
+
 # 10290000
 9934    DeS Chain Mail      # Light Medium
     # Gallant Set
