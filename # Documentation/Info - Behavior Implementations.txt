@@ -423,6 +423,7 @@
 034900 - AttackBothLightStep #13268
 
 037670 - Warcry #13269
+037671 - Warcry_NoPoints #13444
 037710 - EndureRightHeavy #13270
 
 #------------------------------------------------
@@ -636,6 +637,7 @@
 034600 - AttackBothHeavyKick #13381
 034900 - AttackBothLightStep #13382
 037670 - Warcry #13383
+037671 - Warcry_NoPoints #13443
 037710 - EndureRightHeavy #13384
 
 #------------------------------------------------
