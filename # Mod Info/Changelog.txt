@@ -139,10 +139,8 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Move poison in Cathedral down a little bit
-
 # 10290000
-9934    DeS Chain Mail      # Light Medium
+9934    DeS Chain Mail      # Undead Legion
     # Gallant Set
     # 3094 - Gallant Helm
     # 3097 - Gallant Armor
@@ -150,7 +148,7 @@ Move poison in Cathedral down a little bit
     # 3099 - Gallant Leggings
     
 # 10300000
-9935    DeS Chained Priest  # Light Medium
+9935    DeS Chained Priest  # Mirrah Chain
     # Warden Set
     # 3101 - Warden Coif
     # 3102 - Warden Chainmail
@@ -158,7 +156,7 @@ Move poison in Cathedral down a little bit
     # 3110 - Warden Leggings
         
 # 10310000
-9936    DeS Dull Gold       # Heavy Medium
+9936    DeS Dull Gold       # Armor of Favor
     # Dull Gold Set
     # 3111 - Dull Gold Helmet
     # 3125 - Dull Gold Armor
@@ -166,7 +164,7 @@ Move poison in Cathedral down a little bit
     # 3127 - Dull Gold Leggings
         
 # 10320000
-9937    DeS Fluted # F support on head - Heavy Medium
+9937    DeS Fluted # F support on head - Elite Knight
     # Fluted Set
     # 3134 - Fluted Helmet
     # 3135 - Fluted Armor
