@@ -1265,7 +1265,7 @@ function IsWarcrySpAtk()
     if style == HAND_LEFT_BOTH then
         offset = 50
     end
-    local buff = {1062301, 1062311, 1070101, 1070111, 1070401, 1070411, 1070501, 1070511, 1080001, 1080011, 1080601, 1080611, 1083201, 1092401, 1092411, 1080701, 1080711, 1080801, 1080811, 1080101, 1080111}
+    local buff = {1062301, 1062311, 1070101, 1070111, 1070401, 1070411, 1070501, 1070511, 1080001, 1080011, 1080601, 1080611, 1081001, 1081011, 1083201, 1092401, 1092411, 1080701, 1080711, 1080801, 1080811, 1080101, 1080111}
     for local0 = 1, #buff, 1 do
         if env(1116, buff[local0] + offset) == TRUE then
             return TRUE
@@ -1900,7 +1900,10 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if env(345, HAND_RIGHT) == 280 and 50 > env(2016) then 
             ExecEventAllBody("W_EndureRightHeavy")
             return FALSE
-        else
+        elseif env(345, HAND_RIGHT) == 294 and 85 > env(2016) then 
+            ExecEventAllBody("W_EndureRightHeavy")
+            return FALSE
+		else
             ExecEventAllBody("W_Warcry")
         end
     elseif request == SWORDARTS_REQUEST_RIGHT_CHARGE or request == SWORDARTS_REQUEST_LEFT_CHARGE then
@@ -3350,7 +3353,8 @@ function ExecHandChange(hand, is_force, blend_type)
             end
             pos = GetHandChangeType(HAND_LEFT)
             if pos == WEAPON_CHANGE_REQUEST_LEFT_WAIST then
-                if IsDualBladeSpecific(HAND_RIGHT) == TRUE then
+				local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)
+                if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
                     local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
                     if sp_kind == 144 and kind == WEAPON_CATEGORY_FIST then
@@ -3364,7 +3368,7 @@ function ExecHandChange(hand, is_force, blend_type)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_BACK then
                 local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
-                if IsDualBladeSpecific(HAND_RIGHT) == TRUE then
+                if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_BACK, LEFT_FROM_BACK)
                 elseif kind == WEAPON_CATEGORY_KATANA then
                     SetHandChangeStyle(LEFT_TO_WAIST, BOTH_FROM_ALL)
@@ -3372,18 +3376,18 @@ function ExecHandChange(hand, is_force, blend_type)
                     SetHandChangeStyle(LEFT_TO_BACK, BOTH_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_SHOULDER then
-                if IsDualBladeSpecific(HAND_RIGHT) == TRUE then
+                if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_SHOULDER, LEFT_FROM_SHOULDER)
                 else
                     SetHandChangeStyle(LEFT_TO_SHOULDER, BOTH_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_SPEAR then
-                if IsDualBladeSpecific(HAND_RIGHT) == TRUE then
+                if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_SPEAR, LEFT_FROM_SPEAR)
                 else
                     SetHandChangeStyle(LEFT_TO_SPEAR, BOTH_FROM_ALL)
                 end
-            elseif IsDualBladeSpecific(HAND_RIGHT) == TRUE then
+            elseif IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                 SetHandChangeStyle(LEFT_TO_SPEAR, LEFT_FROM_SPEAR)
             else
                 SetHandChangeStyle(LEFT_TO_SPEAR, BOTH_FROM_ALL)
@@ -3395,7 +3399,8 @@ function ExecHandChange(hand, is_force, blend_type)
             end
             pos = GetHandChangeType(HAND_RIGHT)
             if pos == WEAPON_CHANGE_REQUEST_RIGHT_WAIST then
-                if IsDualBladeSpecific(HAND_LEFT) == TRUE then
+				local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
+                if IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
                     local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
                     local kind = env(225, HAND_RIGHT) -- GetEquipWeaponCategory
                     if sp_kind == 144 and kind == WEAPON_CATEGORY_FIST then
@@ -3409,7 +3414,7 @@ function ExecHandChange(hand, is_force, blend_type)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_RIGHT_BACK then
                 local kind = env(225, HAND_RIGHT) -- GetEquipWeaponCategory
-                if IsDualBladeSpecific(HAND_LEFT) == TRUE then
+                if IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
                     if kind == WEAPON_CATEGORY_KATANA then
                         SetHandChangeStyle(RIGHT_TO_WAIST, BOTHLEFT_FROM_ALL)
                     else
@@ -3421,18 +3426,18 @@ function ExecHandChange(hand, is_force, blend_type)
                     SetHandChangeStyle(RIGHT_TO_BACK, BOTHLEFT_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_RIGHT_SHOULDER then
-                if IsDualBladeSpecific(HAND_LEFT) == TRUE then
+                if IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(RIGHT_TO_SHOULDER, RIGHT_FROM_SHOULDER)
                 else
                     SetHandChangeStyle(RIGHT_TO_SHOULDER, BOTHLEFT_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_RIGHT_SPEAR then
-                if IsDualBladeSpecific(HAND_LEFT) == TRUE then
+                if IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(RIGHT_TO_SPEAR, RIGHT_FROM_SPEAR)
                 else
                     SetHandChangeStyle(RIGHT_TO_SPEAR, BOTHLEFT_FROM_ALL)
                 end
-            elseif IsDualBladeSpecific(HAND_LEFT) == TRUE then
+            elseif IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
                 SetHandChangeStyle(RIGHT_TO_BACK, RIGHT_FROM_BACK)
             else
                 SetHandChangeStyle(RIGHT_TO_BACK, BOTHLEFT_FROM_ALL)
@@ -7377,6 +7382,7 @@ end
 
 function AttackRightLightStep_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
@@ -7384,7 +7390,11 @@ function AttackRightLightStep_onUpdate()
         r1 = "W_AttackRightLight2"
     end
     
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	if sp_kind == 294 then
+		r2 = "W_AttackRightHeavy2Start"
+	end
+    
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7733,7 +7743,7 @@ function AttackBothLight3_onUpdate()
 
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 232 or sp_kind == 272 or sp_kind == 278 or sp_kind == 279 or sp_kind == 281 or sp_kind == 283 then 
+    if sp_kind == 232 or sp_kind == 272 or sp_kind == 278 or sp_kind == 279 or sp_kind == 281 or sp_kind == 283 or sp_kind == 294 then 
         b1 = "W_AttackBothLight1"
     end
     
@@ -7765,7 +7775,17 @@ function AttackBothLeft2_onUpdate()
 end
 
 function AttackBothLeft3_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local l1 = "W_AttackBothLeft2"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft1"
+	end
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7776,17 +7796,24 @@ function AttackBothLeftDash_onUpdate()
     local r1 = "W_AttackRightLight1"
     local l1 = "W_AttackBothLeft1"
     local b1 = "W_AttackBothLight1"
+	local b2 = "W_AttackBothHeavy1Start"
     local hand = HAND_RIGHT
     local style = c_Style
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
-    if env("装備武器特殊カテゴリ番号取得", hand) == 161 then
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    if sp_kind == 161 then
         r1 = "W_AttackRightLight2"
         l1 = "W_AttackBothLeft2"
         b1 = "W_AttackBothLight2"
     end
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft3"
+		b1 = "W_AttackBothLight3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7794,7 +7821,21 @@ function AttackBothLeftDash_onUpdate()
 end
 
 function AttackBothLeftStep_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1"
+	local b2 = "W_AttackBothHeavy1Start"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft3"
+		b1 = "W_AttackBothLight3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7935,6 +7976,8 @@ function AttackBothHeavyWepBroken1SubStart_onUpdate()
 end
 
 function AttackBothDash_onUpdate()
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1"
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
@@ -7945,7 +7988,12 @@ function AttackBothDash_onUpdate()
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", b2, FALSE, TRUE) == TRUE then
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft3"
+		b1 = "W_AttackBothLight3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7961,6 +8009,8 @@ function AttackBothDashSpecial_onUpdate()
 end
 
 function AttackBothLightStep_onUpdate()
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1"
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
@@ -7971,7 +8021,12 @@ function AttackBothLightStep_onUpdate()
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", b2, FALSE, TRUE) == TRUE then
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft3"
+		b1 = "W_AttackBothLight3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7995,7 +8050,19 @@ function AttackBothLightKick_onUpdate()
 end
 
 function AttackBothHeavyKick_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 294 then
+		l1 = "W_AttackBothLeft2"
+		b1 = "W_AttackBothLight2"
+	end
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 

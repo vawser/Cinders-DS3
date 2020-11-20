@@ -217,6 +217,9 @@ Effect: boosts damage against Abyssal enemies by 5%.
 # Gravekeeper Set
 Effect: boosts damage against Undead by 5%.
 
+# Mirdan Set
+TODO
+
 # Ivory King Set
 Effect: boosts damage against Demons by 5%.
 
@@ -256,6 +259,9 @@ Effect: boosts frost resist by 25%.
 # Armor of Favor Set
 Effect: increases max HP, max FP and max Stamina by 2.5%.
 
+# Dull Gold Set
+TODO
+
 # King's Set
 Effect: boosts soul absorption by 2.5%.
 
@@ -264,6 +270,9 @@ Effect: increases Physical damage by 2.5%.
 
 # Sunset Set
 Effect: increases stamina damage by 25%.
+
+# Sentinel Set
+TODO
 
 # Bloodstained Gauntlets
 Effect: imbues weapon, absorbing 10 HP on kill.
@@ -291,6 +300,9 @@ Effect: increases max HP by 5%.
 #----------------------------
 # Elite Knight Set
 Effect: reduces skill FP consumption by 5%.
+
+# Fluted Set
+TODO
 
 # Bucket
 Effect: increases Item Discovery by 25.
@@ -365,8 +377,14 @@ Effect: increases Item Discovery by 25.
 # Undead Legion Set
 Effect: boosts dark defence by 5%.
 
+# Gallant Set
+TODO
+
 # Mirrah Chain Set
 Effect: reduces skill FP consumption by 5%.
+
+# Warden Set
+TODO
 
 # Herald Set
 Effect: increases max Stamina by 5%.
@@ -516,6 +534,9 @@ Effect: increases Strength by 2.
 # Leather Set
 Effect: increases range of projectiles by 25.
 
+# Huntsman's Set
+TODO
+
 # Shira's Set
 Effect: boosts effect duration by 25%.
 
@@ -571,6 +592,9 @@ Effect: reduces weapon stamina consumption by 5%.
 # Drang Set
 Effect: reduces skill FP consumption by 5%.
 
+# Martyr Set
+TODO
+
 # Serpentine Set
 Effect: increases Magic damage by 2.5%.
 
@@ -600,6 +624,9 @@ Effect: increases Dark damage by 2.5%.
 
 # Black Witch Veil
 Effect: boosts effect duration by 25%.
+
+# Raggedy Set
+TODO
 
 # Rosaria's Dress
 Effect: increases effectiveness of HP recovery by 2.5%.
@@ -637,6 +664,9 @@ Effect: boosts dark defence by 5%.
 # Pale Shade Set
 Effect: boosts damage against Hollows by 5%.
 
+# Charlatan Set
+TODO
+
 # Shadow Set
 Effect: increases stamina recovery by 5.
 Effect: renders the wearer translucent, reducing detection via sight by 75%.
@@ -664,6 +694,9 @@ Effect: increases Fire damage by 2.5%.
 # Manikin Set
 Effect: reduces weapon stamina consumption by 5%.
 
+# Pickpocket Set
+TODO
+
 # Crude Manikin Mask
 Effect: increases stamina recovery by 5.
 
@@ -687,6 +720,9 @@ Effect: increases max FP by 5%.
 
 # Antiquated Plain Set
 Effect: increases max FP by 5%.
+
+# Magician Set
+TODO
 
 # Master's Set
 Effect: increases Dexterity by 2.

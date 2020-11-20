@@ -1,9 +1,1 @@
-﻿Quarterstaff
-
-World Placement: I recommend the quarterstaff be placed into The Nameless King's lootpool.
-
-Scaling: I recommend the base scaling be set to 15 Strength and 65 Dexterity.
-
-There are behbnd changes.
-
-In params I changed Atk, behavior, bullet, equipparam, speffect, speffectvfx, swordarts
+﻿

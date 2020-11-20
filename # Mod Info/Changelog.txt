@@ -99,6 +99,8 @@
 - Added Bleed to the Scraping Spear.
 - Added Muffin's Bewitched Alonne Sword edits.
 - Extended Bewitched Alonne Sword WA duration to 40 seconds.
+- Added Muffin's Quarterstaff moveset.
+- Renamed Quarterstaff to King's Quarterstaff. It is now a transposition of the Nameless King soul.
 
 # Infusions
 - Enchanted/Clarity infusions now add 2 FP per second (was 1).
@@ -172,7 +174,7 @@
     # 3141 - Fluted Leggings
         
 # 10330000
-9938    DeS Hunter # Very Light
+9938    DeS Hunter # Leather
     # Huntsman Set
     # 3142 - Huntsman's Cap
     # 3143 - Huntsman's Armor
@@ -180,7 +182,7 @@
     # 3149 - Huntsman's Leggings
         
 # 10340000
-9939    DeS Mirdan # F support on all - Heavy Medium
+9939    DeS Mirdan # F support on all - Gravekeeper
     # Mirdan Set
     # 3150 - Mirdan Helmet
     # 3151 - Mirdan Scale Mail
@@ -188,7 +190,7 @@
     # 3182 - Mirdan Leggings
         
 # 10350000
-9940    DeS Plate # Light Medium
+9940    DeS Plate # Sunset
     # Sentinel Set
     # 3183 - Sentinel Helmet
     # 3188 - Sentinel Armor
@@ -196,7 +198,7 @@
     # 3190 - Sentinel Leggings
         
 # 10360000
-9941    DeS Ragged # Very Light
+9941    DeS Ragged # Black Witch
     # Raggedy Set
     # 3191 - Three-cornered Hat
     # 3194 - Old Raggedy Robes
@@ -204,7 +206,7 @@
     # 3206 - Old Raggedy Leggings
         
 # 10370000
-9942    DeS Rogue  # Very Light
+9942    DeS Rogue  # Pale Shade
     # Charlatan Set
     # 3220 - Gold Mask
     # 3221 - Charlatan's Clothes
@@ -212,14 +214,14 @@
     # 3223 - Charlatan's Leggings
         
 # 10380000
-9943    DeS Saint # Light
+9943    DeS Saint # Drang
     # Martyr Set
     # 3226 - Martyr Robes
     # 3228 - Martyr Gloves
     # 3230 - Martyr Leggings
         
 # 10390000
-9944    DeS Thief # Very Light
+9944    DeS Thief # Manikin
     # Pickpocket Set
     # 3233 - Pickpocket Mask
     # 3234 - Pickpocket Clothes
@@ -227,7 +229,7 @@
     # 3240 - Pickpocket Leggings
         
 # 10400000
-9945    DeS Wizard  # Very Light
+9945    DeS Wizard  # Antiquated Plain
     # Magician Set
     # 3241 - Magician Clothes
     # 3242 - Magician Gloves

@@ -231,7 +231,6 @@
 <text id="11198">%null%</text>
 <text id="11199">%null%</text>
 <text id="11200">Poise</text>
-
 <text id="11320">-</text>
 <text id="11321">S</text>
 <text id="11322">A</text>
@@ -239,7 +238,6 @@
 <text id="11324">C</text>
 <text id="11325">D</text>
 <text id="11326">E</text>
-
 <text id="11327">%null%</text>
 <text id="11328">%null%</text>
 <text id="11329">%null%</text>
@@ -1007,7 +1005,6 @@ it will be consumed with use.</text>
 <text id="61001">Pyromancy</text>
 <text id="61002">Miracle</text>
 <text id="61003">Hex</text>
-<text id="105100">Hex</text>
 <text id="70000">None</text>
 <text id="70001">Parry</text>
 <text id="70002">Stance</text>
@@ -1168,7 +1165,7 @@ it will be consumed with use.</text>
 <text id="70367">Yearning</text>
 <text id="70368">Insanity</text>
 <text id="70369">Pilgrim's Enchantment</text>
-
+<text id="70370">Elemental Flow</text>
 <text id="101000">Equipment</text>
 <text id="101001">Inventory</text>
 <text id="101002">Status</text>
@@ -1241,6 +1238,7 @@ it will be consumed with use.</text>
 <text id="103063">Toolbelt 4</text>
 <text id="103064">Toolbelt 5</text>
 <text id="103090">Covenant</text>
+<text id="105100">Hex</text>
 <text id="110000">Game Options</text>
 <text id="110001">Camera Options</text>
 <text id="110002">%null%</text>
@@ -1494,7 +1492,6 @@ it will be consumed with use.</text>
 <text id="251000">Organize storage box</text>
 <text id="251001">Inventory</text>
 <text id="251002">Storage box</text>
-
 <text id="301000">Gestures</text>
 <text id="301001">Beckon</text>
 <text id="301002">Point forward</text>
@@ -1541,7 +1538,6 @@ it will be consumed with use.</text>
 <text id="301143">Praise the Heavens</text>
 <text id="301144">Retch</text>
 <text id="301145">Confused</text>
-
 <text id="310000">Create message</text>
 <text id="310001">Written History</text>
 <text id="310002">Read History</text>
@@ -1606,7 +1602,6 @@ it will be consumed with use.</text>
 <text id="331145">Company of Champions</text>
 <text id="331146">Rosaria's Fingers</text>
 <text id="331147">Summoner</text>
-
 <text id="331150">Darkmoon Faithful</text>
 <text id="331151">Watchdogs of Farron</text>
 <text id="331152">Aldrich Faithful</text>
@@ -1623,7 +1618,6 @@ it will be consumed with use.</text>
 <text id="331163">Blue Sentinels</text>
 <text id="331164">Way of Blue</text>
 <text id="331165">Company of Champions</text>
-
 <text id="400000">DARK SOULS™ Ⅲ NETWORK STRESS TEST VER. uses Havok™
 ©Copyright 1999-2015. Havok.com Inc. (or its licensors). All Rights Reserved. See www.havok.com for details.</text>
 <text id="401000">PRESS ANY BUTTON</text>
@@ -1700,13 +1694,11 @@ it will be consumed with use.</text>
 <text id="402017">Finalize creation</text>
 <text id="402018">Rebirth</text>
 <text id="402201">Male</text>
-
 <text id="402202">Female</text>
 <text id="402301">Young</text>
 <text id="402302">Mature</text>
 <text id="402303">Aged</text>
 <text id="402304">Ancient</text>
-
 <text id="402350">Commoner</text>
 <text id="402351">Northern Warrior</text>
 <text id="402352">Astora Noble</text>
@@ -1717,7 +1709,6 @@ it will be consumed with use.</text>
 <text id="402357">Great Swamp Outcast</text>
 <text id="402358">Londor Shadow of Death</text>
 <text id="402359">Irithyllian</text>
-
 <text id="402360">Commoner</text>
 <text id="402361">Northern Warrior</text>
 <text id="402362">Astora Noble</text>
@@ -1728,7 +1719,6 @@ it will be consumed with use.</text>
 <text id="402367">Great Swamp Outcast</text>
 <text id="402368">Londor Shadow of Death</text>
 <text id="402369">Irithyllian</text>
-
 <text id="402401">Deprived</text>
 <text id="402402">Knight</text>
 <text id="402403">Thief</text>
@@ -1758,7 +1748,6 @@ it will be consumed with use.</text>
 <text id="402427">Jester</text>
 <text id="402428">Summoner</text>
 <text id="402499">Accursed</text>
-
 <text id="402501">None</text>
 <text id="402502">Master Key</text>
 <text id="402503">Coiled Sword Fragment</text>
@@ -1784,7 +1773,6 @@ it will be consumed with use.</text>
 <text id="402523">Frozen Note</text>
 <text id="402524">Dreg Note</text>
 <text id="402525">Burning Note</text>
-
 <text id="402600">Please Enter Name</text>
 <text id="406000">LOAD GAME</text>
 <text id="406001">NEW GAME</text>
