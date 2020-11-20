@@ -31,6 +31,11 @@ If you want to play Online look for:
 Be aware that this action will surely get you flaged and banned.
 That means you'll only be able to play with other banned people.
 
+For Linux:
+1 - Make sure you are running the game with Steam Play enabled
+2 - Install the mod as per the instructions
+3 - Add the following launch option to the game by going to Properties --> Set Launch Options: WINEDLLOVERRIDES="dinput8.dll=n,b" %command%
+
 #----------------------------------------
 # Updating
 #----------------------------------------

@@ -218,7 +218,7 @@ Effect: boosts damage against Abyssal enemies by 5%.
 Effect: boosts damage against Undead by 5%.
 
 # Mirdan Set
-TODO
+Effect: increases max HP by 5%.
 
 # Ivory King Set
 Effect: boosts damage against Demons by 5%.
@@ -260,7 +260,7 @@ Effect: boosts frost resist by 25%.
 Effect: increases max HP, max FP and max Stamina by 2.5%.
 
 # Dull Gold Set
-TODO
+Effect: increases effectiveness of HP recovery by 2.5%.
 
 # King's Set
 Effect: boosts soul absorption by 2.5%.
@@ -272,7 +272,7 @@ Effect: increases Physical damage by 2.5%.
 Effect: increases stamina damage by 25%.
 
 # Sentinel Set
-TODO
+Effect: increases equipment load by 5%.
 
 # Bloodstained Gauntlets
 Effect: imbues weapon, absorbing 10 HP on kill.
@@ -302,7 +302,7 @@ Effect: increases max HP by 5%.
 Effect: reduces skill FP consumption by 5%.
 
 # Fluted Set
-TODO
+Effect: reduces weapon stamina consumption by 5%.
 
 # Bucket
 Effect: increases Item Discovery by 25.
@@ -378,13 +378,13 @@ Effect: increases Item Discovery by 25.
 Effect: boosts dark defence by 5%.
 
 # Gallant Set
-TODO
+Effect: boosts physical defence by 5%.
 
 # Mirrah Chain Set
 Effect: reduces skill FP consumption by 5%.
 
 # Warden Set
-TODO
+Effect: increases stamina recovery by 5.
 
 # Herald Set
 Effect: increases max Stamina by 5%.
@@ -535,7 +535,7 @@ Effect: increases Strength by 2.
 Effect: increases range of projectiles by 25.
 
 # Huntsman's Set
-TODO
+Effect: increases range of projectiles by 25.
 
 # Shira's Set
 Effect: boosts effect duration by 25%.
@@ -593,7 +593,7 @@ Effect: reduces weapon stamina consumption by 5%.
 Effect: reduces skill FP consumption by 5%.
 
 # Martyr Set
-TODO
+Effect: increases Faith by 2.
 
 # Serpentine Set
 Effect: increases Magic damage by 2.5%.
@@ -626,7 +626,7 @@ Effect: increases Dark damage by 2.5%.
 Effect: boosts effect duration by 25%.
 
 # Raggedy Set
-TODO
+Effect: increases Intelligence by 2.
 
 # Rosaria's Dress
 Effect: increases effectiveness of HP recovery by 2.5%.
@@ -665,7 +665,7 @@ Effect: boosts dark defence by 5%.
 Effect: boosts damage against Hollows by 5%.
 
 # Charlatan Set
-TODO
+Effect: boosts soul absorption by 2.5%.
 
 # Shadow Set
 Effect: increases stamina recovery by 5.
@@ -695,7 +695,7 @@ Effect: increases Fire damage by 2.5%.
 Effect: reduces weapon stamina consumption by 5%.
 
 # Pickpocket Set
-TODO
+Effect: increases Item Discovery by 25.
 
 # Crude Manikin Mask
 Effect: increases stamina recovery by 5.
@@ -722,7 +722,7 @@ Effect: increases max FP by 5%.
 Effect: increases max FP by 5%.
 
 # Magician Set
-TODO
+Effect: increases Magic damage by 2.5%.
 
 # Master's Set
 Effect: increases Dexterity by 2.

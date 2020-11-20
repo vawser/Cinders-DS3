@@ -2093,6 +2093,197 @@ Effect: increases Item Discovery by 25.</text>
 
 Effect: increases Attunement by 2.</text>
 
+<text id="10290000">Helm worn by a gallant soldier.
+Strong against slash attacks, it is often worn by soldiers.
+
+Effect: boosts physical defence by 5%.</text>
+<text id="10291000">Armor worn by a gallant soldier.
+Strong against slash attacks, it is often worn by soldiers.
+
+Effect: boosts physical defence by 5%.</text>
+<text id="10292000">Gauntlets worn by a gallant soldier.
+Strong against slash attacks, it is often worn by soldiers.
+
+Effect: boosts physical defence by 5%.</text>
+<text id="10293000">Leggings worn by a gallant soldier.
+Strong against slash attacks, it is often worn by soldiers.
+
+Effect: boosts physical defence by 5%.</text>
+
+<text id="10300000">Helm worn by a local warden.
+The roads of the settlement are treacherous without the eyes of a warden over them. 
+
+Effect: increases stamina recovery by 5.</text>
+<text id="10301000">Chainmail worn by a local warden.
+The roads of the settlement are treacherous without the eyes of a warden over them.
+
+Effect: increases stamina recovery by 5.</text>
+<text id="10302000">Gloves worn by a local warden.
+The roads of the settlement are treacherous without the eyes of a warden over them.
+
+Effect: increases stamina recovery by 5.</text>
+<text id="10303000">Leggings worn by a local warden.
+The roads of the settlement are treacherous without the eyes of a warden over them.
+
+Effect: increases stamina recovery by 5.</text>
+
+<text id="10310000">A dull gold helmet. 
+Worn as the war gear of high-ranking women in the highlands of a distant kingdom.
+
+Effect: increases effectiveness of HP recovery by 2.5%.</text>
+<text id="10311000">Dull gold armor that serves as the war gear of high-ranking women in the highlands of a distant kingdom.
+
+Effect: increases effectiveness of HP recovery by 2.5%.</text>
+<text id="10312000">Dull gold gauntlets that serve as the war gear of high-ranking women in the highlands of a distant kingdom.
+
+Effect: increases effectiveness of HP recovery by 2.5%.</text>
+<text id="10313000">Dull gold greaves that serve as the war gear of high-ranking women in the highlands of a distant kingdom.
+
+Effect: increases effectiveness of HP recovery by 2.5%.</text>
+
+<text id="10320000">An iron helmet with finely cut grooves, it is used by the knights of the prosperous region of a distant kingdom.
+The fine grooves are designed to enhance the protective effect of the thin iron sheet.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="10321000">An iron chestpiece with finely cut grooves, it is used by the knights of the prosperous region of a distant kingdom.
+The fine grooves are designed to enhance the protective effect of the thin iron sheet.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="10322000">Iron gauntlets with finely cut grooves. They are used by the knights of the prosperous region of a distant kingdom.
+The fine grooves are designed to enhance the protective effect of the thin iron sheet.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+<text id="10323000">Iron greaves with finely cut grooves. They are used by the knights of the prosperous region of a distant kingdom.
+The fine grooves are designed to enhance the protective effect of the thin iron sheet.
+
+Effect: reduces weapon stamina consumption by 5%.</text>
+
+<text id="10330000">A leather hat suitable for field activity. 
+Widely used by royal huntsmen.
+
+Effect: increases range of projectiles by 25.</text>
+<text id="10331000">Leather armor suitable for field activity.
+Widely used by royal huntsmen.
+
+Effect: increases range of projectiles by 25.</text>
+<text id="10332000">Leather gloves suited for field activity.
+Widely used by royal huntsmen.
+
+Effect: increases range of projectiles by 25.</text>
+<text id="10333000">Leather shoes suited for field activity.
+Widely used by royal huntsmen.
+
+Effect: increases range of projectiles by 25.</text>
+
+<text id="10340000">A helmet crafted from white metal, given to knights who protect sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
+
+Effect: increases max HP by 5%.</text>
+<text id="10341000">Scale armor crafted from white metal and given to knights who protect sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
+
+Effect: increases max HP by 5%.</text>
+<text id="10342000">Gauntlets crafted from white metal and given to knights charged with protecting sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
+
+Effect: increases max HP by 5%.</text>
+<text id="10343000">Greaves crafted from white metal and given to knights charged with protecting sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
+
+Effect: increases max HP by 5%.</text>
+
+<text id="10350000">An iron helmet, commonly found on sentinels.
+It's simple, but reasonably tough.
+
+Effect: increases equipment load by 5%.</text>
+<text id="10351000">An iron chestpiece commonly used by sentinels.
+It is simply made, but reasonably tough.
+
+Effect: increases equipment load by 5%.</text>
+<text id="10352000">Iron gauntlets, commonly used by sentinels.
+They are simply made, but reasonably tough.
+
+Effect: increases equipment load by 5%.</text>
+<text id="10353000">Iron greaves, commonly used by sentinels.
+They are simply made, but reasonably tough.
+
+Effect: increases equipment load by 5%.</text>
+
+<text id="10360000">A stiff and dirty three-cornered cap.
+The witches hat painted through tradition actually seems to be worn by witches...
+
+Effect: increases Intelligence by 2.</text>
+<text id="10361000">Robe made of layers of ragged fabric. 
+It's covered with tears, unsightly open seams, and numerous unsightly insects wriggling within it. No sane person would dare wear something like this...
+
+Effect: increases Intelligence by 2.</text>
+<text id="10362000">Coarse hand wrappings made of layers of ragged fabric. 
+They are covered with tears, unsightly open seams, and numerous unsightly insects wriggling within it. No sane person would dare wear something like this...
+
+Effect: increases Intelligence by 2.</text>
+<text id="10363000">Coarse shoes made of layers of ragged fabric. 
+They are covered with tears, unsightly open seams, and numerous unsightly insects wriggling within it. No sane person would dare wear something like this...
+
+Effect: increases Intelligence by 2.</text>
+
+<text id="10370000">A gold mask inlaid with a delicate design. 
+Even among the charlatans that are confined in a sealed chamber who embrace the tradition, only those of a particularly high rank are allowed to wear it.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="10371000">A luxurious vest of smooth black cloth, woven with gold thread. 
+Equipment of a masked society who meet in secret to discuss nefarious deeds. 
+Their clandestine affairs are largely unknown.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="10372000">Luxurious gloves of smooth black cloth, woven with gold thread. 
+Equipment of a masked society who meet in secret to discuss nefarious deeds. 
+Their clandestine affairs are largely unknown.
+
+Effect: boosts soul absorption by 2.5%.</text>
+<text id="10373000">Luxurious boots of smooth black cloth, woven with gold thread.
+Equipment of a masked society who meet in secret to discuss nefarious deeds. 
+Their clandestine affairs are largely unknown.
+
+Effect: boosts soul absorption by 2.5%.</text>
+
+<text id="10381000">The robe of a martyr.
+White clothes of especially devouted martyrs worn when making appearances to teach or perform holy works while traveling. The strong fabric is made from many layers of cloth, bundled together.
+
+Effect: increases Faith by 2.</text>
+<text id="10382000">The gloves of a martyr.
+White clothes of especially devouted martyrs worn when making appearances to teach or perform holy works while traveling. The strong fabric is made from many layers of cloth, bundled together.
+
+Effect: increases Faith by 2.</text>
+<text id="10383000">The leggings of a martyr.
+White clothes of especially devouted martyrs worn when making appearances to teach or perform holy works while traveling. The strong fabric is made from many layers of cloth, bundled together.
+
+Effect: increases Faith by 2.</text>
+
+<text id="10390000">A thin cloth mask which covers the nose and mouth.
+For pickpockets who need to mask their breath. 
+Either way, it isn't used for good.
+
+Effect: increases Item Discovery by 25.</text>
+<text id="10391000">Glossy black leather clothes.
+They function as thick skin, and offer protection without hindering the wearer's movement.
+
+Effect: increases Item Discovery by 25.</text>
+<text id="10392000">Black leather gloves.
+They are impermeable to water, allowing one to perform dangerous work.
+
+Effect: increases Item Discovery by 25.</text>
+<text id="10393000">Black leather shoes that muffle footsteps.
+Used by pickpockets who need to stay hidden in the shadows. 
+Either way, they are not used for good.
+
+Effect: muffles footsteps and prevents fall damage.</text>
+
+<text id="10401000">Well-made cloth vest, worn by wandering magicians.
+
+Effect: increases Magic damage by 2.5%.</text>
+<text id="10402000">Thick gloves with a finely crafted metal design, worn by wandering magicians.
+
+Effect: increases Magic damage by 2.5%.</text>
+<text id="10403000">Functional shoes suited for stone floors. They are worn by wandering magicians.
+
+Effect: increases Magic damage by 2.5%.</text>
+
 <text id="19000000">Helm of an order of fallen knights who disbanded and fled, but met untimely deaths.
 
 The drab, tattered hood conceals tough, black metal which provides dependable protection from fire.

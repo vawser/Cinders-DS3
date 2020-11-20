@@ -3772,10 +3772,12 @@ function ExecAddDamage(damage_dir, attack_dir, damage_level, is_guard, is_damage
     elseif is_guard == TRUE then
         SetVariable("AddDamageGuardBlend", 1)
     elseif damage_level == DAMAGE_LEVEL_NONE or damage_level == DAMAGE_LEVEL_MINIMUM then
-        SetVariable("AddDamageBlend", 1)
+        SetVariable("AddDamageBlend", 1) 
     else
         SetVariable("DamageDirBlendRate", 1)
     end
+    
+    -- Add the additive damage animations based on damage direction and attack direction
     if damage_dir == DAMAGE_DIR_LEFT then
         if attack_dir == ATTACK_DIR_FRONT then
             if damage_level == DAMAGE_LEVEL_SMALL then

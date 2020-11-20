@@ -141,97 +141,72 @@
 #------------------------------
 # TODO - General
 #------------------------------
-# 10290000
-9934    DeS Chain Mail      # Undead Legion
-    # Gallant Set
+# 10290000 Gallant Set
     # 3094 - Gallant Helm
     # 3097 - Gallant Armor
     # 3098 - Gallant Gloves
     # 3099 - Gallant Leggings
     
-# 10300000
-9935    DeS Chained Priest  # Mirrah Chain
-    # Warden Set
+# 10300000 Warden Set
     # 3101 - Warden Coif
     # 3102 - Warden Chainmail
     # 3103 - Warden Gloves
     # 3110 - Warden Leggings
-        
-# 10310000
-9936    DeS Dull Gold       # Armor of Favor
-    # Dull Gold Set
+
+# 10310000 Dull Gold Set
     # 3111 - Dull Gold Helmet
     # 3125 - Dull Gold Armor
     # 3126 - Dull Gold Gauntlets
     # 3127 - Dull Gold Leggings
-        
-# 10320000
-9937    DeS Fluted # F support on head - Elite Knight
-    # Fluted Set
+
+# 10320000 Fluted Set
     # 3134 - Fluted Helmet
     # 3135 - Fluted Armor
     # 3140 - Fluted Gauntlets
     # 3141 - Fluted Leggings
-        
-# 10330000
-9938    DeS Hunter # Leather
-    # Huntsman Set
+
+# 10330000 Huntsman Set
     # 3142 - Huntsman's Cap
     # 3143 - Huntsman's Armor
     # 3148 - Huntsman's Gloves
     # 3149 - Huntsman's Leggings
-        
-# 10340000
-9939    DeS Mirdan # F support on all - Gravekeeper
-    # Mirdan Set
+
+# 10340000 Mirdan Set
     # 3150 - Mirdan Helmet
     # 3151 - Mirdan Scale Mail
     # 3181 - Mirdan Gauntlets
     # 3182 - Mirdan Leggings
-        
-# 10350000
-9940    DeS Plate # Sunset
-    # Sentinel Set
+    
+# 10350000 Sentinel Set
     # 3183 - Sentinel Helmet
     # 3188 - Sentinel Armor
     # 3189 - Sentinel Gauntlets
     # 3190 - Sentinel Leggings
-        
-# 10360000
-9941    DeS Ragged # Black Witch
-    # Raggedy Set
+
+# 10360000 Raggedy Set
     # 3191 - Three-cornered Hat
     # 3194 - Old Raggedy Robes
     # 3195 - Old Raggedy Gloves
     # 3206 - Old Raggedy Leggings
-        
-# 10370000
-9942    DeS Rogue  # Pale Shade
-    # Charlatan Set
+
+# 10370000 Charlatan Set
     # 3220 - Gold Mask
     # 3221 - Charlatan's Clothes
     # 3222 - Charlatan's Gloves
     # 3223 - Charlatan's Leggings
-        
-# 10380000
-9943    DeS Saint # Drang
-    # Martyr Set
+    
+# 10380000 Martyr Set
     # 3226 - Martyr Robes
     # 3228 - Martyr Gloves
     # 3230 - Martyr Leggings
-        
-# 10390000
-9944    DeS Thief # Manikin
-    # Pickpocket Set
+
+# 10390000 Pickpocket Set
     # 3233 - Pickpocket Mask
     # 3234 - Pickpocket Clothes
     # 3235 - Pickpocket Gloves
     # 3240 - Pickpocket Leggings
-        
-# 10400000
-9945    DeS Wizard  # Antiquated Plain
-    # Magician Set
+    
+# 10400000 Magician Set
     # 3241 - Magician Clothes
     # 3242 - Magician Gloves
     # 3243 - Magician Leggings
-
