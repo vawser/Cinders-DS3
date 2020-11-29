@@ -28,25 +28,21 @@
 <text id="404400">Lightning Bolt</text>
 <text id="404500">Splintering Bolt</text>
 <text id="404600">Exploding Bolt</text>
-
 <text id="410000">Lightning Arrow</text>
-<text id="410600">Lacerating Arrow</text>
-<text id="410400">Frost Arrow</text>
 <text id="410300">Draconic Arrow</text>
-
+<text id="410400">Frost Arrow</text>
+<text id="410600">Lacerating Arrow</text>
 <text id="412000">Moonlight Greatarrow</text>
-<text id="422000">Demonic Greatarrow</text>
-<text id="432000">Corrupted Greatarrow</text>
-<text id="442000">Draconic Greatarrow</text>
 <text id="412300">Wood Greatarrow</text>
-
 <text id="414000">Magic Bolt</text>
+<text id="414100">Draconic Bolt</text>
+<text id="422000">Demonic Greatarrow</text>
 <text id="424000">Fire Bolt</text>
+<text id="432000">Corrupted Greatarrow</text>
 <text id="434000">Dark Bolt</text>
+<text id="442000">Draconic Greatarrow</text>
 <text id="444000">Poison Bolt</text>
 <text id="454000">Frost Bolt</text>
-<text id="414100">Draconic Bolt</text>
-
 <text id="930000">%null%</text>
 <text id="930100">%null%</text>
 <text id="930200">%null%</text>
@@ -117,7 +113,6 @@
 <text id="933710">%null%</text>
 <text id="933800">%null%</text>
 <text id="933900">%null%</text>
-
 <text id="1000000">Dagger</text>
 <text id="1000100">Lethal Dagger</text>
 <text id="1000200">Cursed Dagger</text>
@@ -133,7 +128,6 @@
 <text id="1001200">Holy Dagger</text>
 <text id="1001300">Sharp Dagger</text>
 <text id="1001400">Blunt Dagger</text>
-
 <text id="1010000">Bandit's Knife</text>
 <text id="1010100">Lethal Bandit's Knife</text>
 <text id="1010200">Cursed Bandit's Knife</text>
@@ -149,7 +143,6 @@
 <text id="1011200">Holy Bandit's Knife</text>
 <text id="1011300">Sharp Bandit's Knife</text>
 <text id="1011400">Blunt Bandit's Knife</text>
-
 <text id="1020000">Parrying Dagger</text>
 <text id="1020100">Lethal Parrying Dagger</text>
 <text id="1020200">Cursed Parrying Dagger</text>
@@ -165,7 +158,6 @@
 <text id="1021200">Holy Parrying Dagger</text>
 <text id="1021300">Sharp Parrying Dagger</text>
 <text id="1021400">Blunt Parrying Dagger</text>
-
 <text id="1030000">Engraved Dagger</text>
 <text id="1030100">Lethal Engraved Dagger</text>
 <text id="1030200">Cursed Engraved Dagger</text>
@@ -181,7 +173,6 @@
 <text id="1031200">Holy Engraved Dagger</text>
 <text id="1031300">Sharp Engraved Dagger</text>
 <text id="1031400">Blunt Engraved Dagger</text>
-
 <text id="1040000">Rotten Ghru Dagger</text>
 <text id="1040100">Lethal Rotten Ghru Dagger</text>
 <text id="1040200">Cursed Rotten Ghru Dagger</text>
@@ -197,7 +188,6 @@
 <text id="1041200">Holy Rotten Ghru Dagger</text>
 <text id="1041300">Sharp Rotten Ghru Dagger</text>
 <text id="1041400">Blunt Rotten Ghru Dagger</text>
-
 <text id="1060000">Harpe</text>
 <text id="1060100">Lethal Harpe</text>
 <text id="1060200">Cursed Harpe</text>
@@ -213,7 +203,6 @@
 <text id="1061200">Holy Harpe</text>
 <text id="1061300">Sharp Harpe</text>
 <text id="1061400">Blunt Harpe</text>
-
 <text id="1070000">Scholar's Candlestick</text>
 <text id="1070100">Lethal Scholar's Candlestick</text>
 <text id="1070200">Cursed Scholar's Candlestick</text>
@@ -229,7 +218,6 @@
 <text id="1071200">Holy Scholar's Candlestick</text>
 <text id="1071300">Sharp Scholar's Candlestick</text>
 <text id="1071400">Blunt Scholar's Candlestick</text>
-
 <text id="1080000">Tailbone Short Sword</text>
 <text id="1080100">Lethal Tailbone Short Sword</text>
 <text id="1080200">Cursed Tailbone Short Sword</text>
@@ -245,7 +233,6 @@
 <text id="1081200">Holy Tailbone Short Sword</text>
 <text id="1081300">Sharp Tailbone Short Sword</text>
 <text id="1081400">Blunt Tailbone Short Sword</text>
-
 <text id="1090000">Corvian Greatknife</text>
 <text id="1090100">Lethal Corvian Greatknife</text>
 <text id="1090200">Cursed Corvian Greatknife</text>
@@ -261,7 +248,6 @@
 <text id="1091200">Holy Corvian Greatknife</text>
 <text id="1091300">Sharp Corvian Greatknife</text>
 <text id="1091400">Blunt Corvian Greatknife</text>
-
 <text id="1120000">Handmaid's Dagger</text>
 <text id="1120100">Lethal Handmaid's Dagger</text>
 <text id="1120200">Cursed Handmaid's Dagger</text>
@@ -277,7 +263,21 @@
 <text id="1121200">Holy Handmaid's Dagger</text>
 <text id="1121300">Sharp Handmaid's Dagger</text>
 <text id="1121400">Blunt Handmaid's Dagger</text>
-
+<text id="1160000">Frostfall</text>
+<text id="1160100">Lethal Frostfall</text>
+<text id="1160200">Cursed Frostfall</text>
+<text id="1160300">Poison Frostfall</text>
+<text id="1160400">Blood Frostfall</text>
+<text id="1160500">Frost Frostfall</text>
+<text id="1160600">Magic Frostfall</text>
+<text id="1160700">Fire Frostfall</text>
+<text id="1160800">Lightning Frostfall</text>
+<text id="1160900">Dark Frostfall</text>
+<text id="1161000">Lucky Frostfall</text>
+<text id="1161100">Enchanted Frostfall</text>
+<text id="1161200">Holy Frostfall</text>
+<text id="1161300">Sharp Frostfall</text>
+<text id="1161400">Blunt Frostfall</text>
 <text id="2000000">Shortsword</text>
 <text id="2000100">Lethal Shortsword</text>
 <text id="2000200">Cursed Shortsword</text>
@@ -293,7 +293,6 @@
 <text id="2001200">Holy Shortsword</text>
 <text id="2001300">Sharp Shortsword</text>
 <text id="2001400">Blunt Shortsword</text>
-
 <text id="2010000">Long Sword</text>
 <text id="2010100">Lethal Long Sword</text>
 <text id="2010200">Cursed Long Sword</text>
@@ -309,7 +308,6 @@
 <text id="2011200">Holy Long Sword</text>
 <text id="2011300">Sharp Long Sword</text>
 <text id="2011400">Blunt Long Sword</text>
-
 <text id="2020000">Broadsword</text>
 <text id="2020100">Lethal Broadsword</text>
 <text id="2020200">Cursed Broadsword</text>
@@ -325,7 +323,6 @@
 <text id="2021200">Holy Broadsword</text>
 <text id="2021300">Sharp Broadsword</text>
 <text id="2021400">Blunt Broadsword</text>
-
 <text id="2030000">Broken Straight Sword</text>
 <text id="2030100">Lethal Broken Straight Sword</text>
 <text id="2030200">Cursed Broken Straight Sword</text>
@@ -341,7 +338,6 @@
 <text id="2031200">Holy Broken Straight Sword</text>
 <text id="2031300">Sharp Broken Straight Sword</text>
 <text id="2031400">Blunt Broken Straight Sword</text>
-
 <text id="2060000">Lothric Knight Sword</text>
 <text id="2060100">Lethal Lothric Knight Sword</text>
 <text id="2060200">Cursed Lothric Knight Sword</text>
@@ -357,7 +353,6 @@
 <text id="2061200">Holy Lothric Knight Sword</text>
 <text id="2061300">Sharp Lothric Knight Sword</text>
 <text id="2061400">Blunt Lothric Knight Sword</text>
-
 <text id="2110000">Sunlight Straight Sword</text>
 <text id="2110100">Lethal Sunlight Straight Sword</text>
 <text id="2110200">Cursed Sunlight Straight Sword</text>
@@ -373,7 +368,6 @@
 <text id="2111200">Holy Sunlight Straight Sword</text>
 <text id="2111300">Sharp Sunlight Straight Sword</text>
 <text id="2111400">Blunt Sunlight Straight Sword</text>
-
 <text id="2120000">Rotten Ghru Curved Sword</text>
 <text id="2120100">Lethal Rotten Ghru Curved Sword</text>
 <text id="2120200">Cursed Rotten Ghru Curved Sword</text>
@@ -389,7 +383,6 @@
 <text id="2121200">Holy Rotten Ghru Curved Sword</text>
 <text id="2121300">Sharp Rotten Ghru Curved Sword</text>
 <text id="2121400">Blunt Rotten Ghru Curved Sword</text>
-
 <text id="2140000">Irithyll Straight Sword</text>
 <text id="2140100">Lethal Irithyll Straight Sword</text>
 <text id="2140200">Cursed Irithyll Straight Sword</text>
@@ -405,7 +398,6 @@
 <text id="2141200">Holy Irithyll Straight Sword</text>
 <text id="2141300">Sharp Irithyll Straight Sword</text>
 <text id="2141400">Blunt Irithyll Straight Sword</text>
-
 <text id="2150000">Priest's Candlestick</text>
 <text id="2150100">Priest's Lethal Candlestick</text>
 <text id="2150200">Priest's Cursed Candlestick</text>
@@ -421,7 +413,6 @@
 <text id="2151200">Priest's Holy Candlestick</text>
 <text id="2151300">Priest's Sharp Candlestick</text>
 <text id="2151400">Priest's Blunt Candlestick</text>
-
 <text id="2160000">Cleric's Candlestick</text>
 <text id="2160100">Lethal Cleric's Candlestick</text>
 <text id="2160200">Cursed Cleric's Candlestick</text>
@@ -437,7 +428,6 @@
 <text id="2161200">Holy Cleric's Candlestick</text>
 <text id="2161300">Sharp Cleric's Candlestick</text>
 <text id="2161400">Blunt Cleric's Candlestick</text>
-
 <text id="2180000">Morion Blade</text>
 <text id="2180100">Lethal Morion Blade</text>
 <text id="2180200">Cursed Morion Blade</text>
@@ -453,7 +443,6 @@
 <text id="2181200">Holy Morion Blade</text>
 <text id="2181300">Sharp Morion Blade</text>
 <text id="2181400">Blunt Morion Blade</text>
-
 <text id="2200000">Astora Straight Sword</text>
 <text id="2200100">Lethal Astora Straight Sword</text>
 <text id="2200200">Cursed Astora Straight Sword</text>
@@ -469,7 +458,6 @@
 <text id="2201200">Holy Astora Straight Sword</text>
 <text id="2201300">Sharp Astora Straight Sword</text>
 <text id="2201400">Blunt Astora Straight Sword</text>
-
 <text id="2210000">Barbed Straight Sword</text>
 <text id="2210100">Lethal Barbed Straight Sword</text>
 <text id="2210200">Cursed Barbed Straight Sword</text>
@@ -485,7 +473,6 @@
 <text id="2211200">Holy Barbed Straight Sword</text>
 <text id="2211300">Sharp Barbed Straight Sword</text>
 <text id="2211400">Blunt Barbed Straight Sword</text>
-
 <text id="2220000">Executioner's Greatsword</text>
 <text id="2220100">Lethal Executioner's Greatsword</text>
 <text id="2220200">Cursed Executioner's Greatsword</text>
@@ -501,7 +488,6 @@
 <text id="2221200">Holy Executioner's Greatsword</text>
 <text id="2221300">Sharp Executioner's Greatsword</text>
 <text id="2221400">Blunt Executioner's Greatsword</text>
-
 <text id="2230000">Anri's Straight Sword</text>
 <text id="2230100">Anri's Lethal Straight Sword</text>
 <text id="2230200">Anri's Cursed Straight Sword</text>
@@ -517,7 +503,6 @@
 <text id="2231200">Anri's Holy Straight Sword</text>
 <text id="2231300">Anri's Sharp Straight Sword</text>
 <text id="2231400">Anri's Blunt Straight Sword</text>
-
 <text id="2270000">Sword of Avowal</text>
 <text id="2270100">Lethal Sword of Avowal</text>
 <text id="2270200">Cursed Sword of Avowal</text>
@@ -533,7 +518,6 @@
 <text id="2271200">Holy Sword of Avowal</text>
 <text id="2271300">Sharp Sword of Avowal</text>
 <text id="2271400">Blunt Sword of Avowal</text>
-
 <text id="3000000">Estoc</text>
 <text id="3000100">Lethal Estoc</text>
 <text id="3000200">Cursed Estoc</text>
@@ -549,7 +533,6 @@
 <text id="3001200">Holy Estoc</text>
 <text id="3001300">Sharp Estoc</text>
 <text id="3001400">Blunt Estoc</text>
-
 <text id="3010000">Mail Breaker</text>
 <text id="3010100">Lethal Mail Breaker</text>
 <text id="3010200">Cursed Mail Breaker</text>
@@ -565,7 +548,6 @@
 <text id="3011200">Holy Mail Breaker</text>
 <text id="3011300">Sharp Mail Breaker</text>
 <text id="3011400">Blunt Mail Breaker</text>
-
 <text id="3020000">Rapier</text>
 <text id="3020100">Lethal Rapier</text>
 <text id="3020200">Cursed Rapier</text>
@@ -581,7 +563,6 @@
 <text id="3021200">Holy Rapier</text>
 <text id="3021300">Sharp Rapier</text>
 <text id="3021400">Blunt Rapier</text>
-
 <text id="3030000">Ricard's Rapier</text>
 <text id="3030100">Ricard's Lethal Rapier</text>
 <text id="3030200">Ricard's Cursed Rapier</text>
@@ -597,7 +578,6 @@
 <text id="3031200">Ricard's Holy Rapier</text>
 <text id="3031300">Ricard's Sharp Rapier</text>
 <text id="3031400">Ricard's Blunt Rapier</text>
-
 <text id="3040000">Crystal Sage's Rapier</text>
 <text id="3040100">Crystal Sage's Lethal Rapier</text>
 <text id="3040200">Crystal Sage's Cursed Rapier</text>
@@ -613,7 +593,6 @@
 <text id="3041200">Crystal Sage's Holy Rapier</text>
 <text id="3041300">Crystal Sage's Sharp Rapier</text>
 <text id="3041400">Crystal Sage's Blunt Rapier</text>
-
 <text id="3050000">Irithyll Rapier</text>
 <text id="3050100">Lethal Irithyll Rapier</text>
 <text id="3050200">Cursed Irithyll Rapier</text>
@@ -629,7 +608,6 @@
 <text id="3051200">Holy Irithyll Rapier</text>
 <text id="3051300">Sharp Irithyll Rapier</text>
 <text id="3051400">Blunt Irithyll Rapier</text>
-
 <text id="3060000">Bone Rapier</text>
 <text id="3060100">Lethal Bone Rapier</text>
 <text id="3060200">Cursed Bone Rapier</text>
@@ -645,7 +623,6 @@
 <text id="3061200">Holy Bone Rapier</text>
 <text id="3061300">Sharp Bone Rapier</text>
 <text id="3061400">Blunt Bone Rapier</text>
-
 <text id="4010000">Shotel</text>
 <text id="4010100">Lethal Shotel</text>
 <text id="4010200">Cursed Shotel</text>
@@ -661,7 +638,6 @@
 <text id="4011200">Holy Shotel</text>
 <text id="4011300">Sharp Shotel</text>
 <text id="4011400">Blunt Shotel</text>
-
 <text id="4030000">Scimitar</text>
 <text id="4030100">Lethal Scimitar</text>
 <text id="4030200">Cursed Scimitar</text>
@@ -677,7 +653,6 @@
 <text id="4031200">Holy Scimitar</text>
 <text id="4031300">Sharp Scimitar</text>
 <text id="4031400">Blunt Scimitar</text>
-
 <text id="4040000">Falchion</text>
 <text id="4040100">Lethal Falchion</text>
 <text id="4040200">Cursed Falchion</text>
@@ -693,7 +668,6 @@
 <text id="4041200">Holy Falchion</text>
 <text id="4041300">Sharp Falchion</text>
 <text id="4041400">Blunt Falchion</text>
-
 <text id="4050000">Carthus Curved Sword</text>
 <text id="4050100">Lethal Carthus Curved Sword</text>
 <text id="4050200">Cursed Carthus Curved Sword</text>
@@ -709,7 +683,6 @@
 <text id="4051200">Holy Carthus Curved Sword</text>
 <text id="4051300">Sharp Carthus Curved Sword</text>
 <text id="4051400">Blunt Carthus Curved Sword</text>
-
 <text id="4060000">Carthus Curved Greatsword</text>
 <text id="4060100">Lethal Carthus Curved Greatsword</text>
 <text id="4060200">Cursed Carthus Curved Greatsword</text>
@@ -725,7 +698,6 @@
 <text id="4061200">Holy Carthus Curved Greatsword</text>
 <text id="4061300">Sharp Carthus Curved Greatsword</text>
 <text id="4061400">Blunt Carthus Curved Greatsword</text>
-
 <text id="4070000">Pontiff Knight Curved Sword</text>
 <text id="4070100">Lethal Pontiff Knight Curved Sword</text>
 <text id="4070200">Cursed Pontiff Knight Curved Sword</text>
@@ -741,7 +713,6 @@
 <text id="4071200">Holy Pontiff Knight Curved Sword</text>
 <text id="4071300">Sharp Pontiff Knight Curved Sword</text>
 <text id="4071400">Blunt Pontiff Knight Curved Sword</text>
-
 <text id="4080000">Storm Curved Sword</text>
 <text id="4080100">Lethal Storm Curved Sword</text>
 <text id="4080200">Cursed Storm Curved Sword</text>
@@ -757,7 +728,6 @@
 <text id="4081200">Holy Storm Curved Sword</text>
 <text id="4081300">Sharp Storm Curved Sword</text>
 <text id="4081400">Blunt Storm Curved Sword</text>
-
 <text id="4090000">Painting Guardian's Curved Sword</text>
 <text id="4090100">Lethal Painting Guardian's Curved Sword</text>
 <text id="4090200">Cursed Painting Guardian's Curved Sword</text>
@@ -773,7 +743,6 @@
 <text id="4091200">Holy Painting Guardian's Curved Sword</text>
 <text id="4091300">Sharp Painting Guardian's Curved Sword</text>
 <text id="4091400">Blunt Painting Guardian's Curved Sword</text>
-
 <text id="4100000">Crescent Moon Sword</text>
 <text id="4100100">Lethal Crescent Moon Sword</text>
 <text id="4100200">Cursed Crescent Moon Sword</text>
@@ -789,7 +758,6 @@
 <text id="4101200">Holy Crescent Moon Sword</text>
 <text id="4101300">Sharp Crescent Moon Sword</text>
 <text id="4101400">Blunt Crescent Moon Sword</text>
-
 <text id="4110000">Carthus Shotel</text>
 <text id="4110100">Lethal Carthus Shotel</text>
 <text id="4110200">Cursed Carthus Shotel</text>
@@ -805,7 +773,6 @@
 <text id="4111200">Holy Carthus Shotel</text>
 <text id="4111300">Sharp Carthus Shotel</text>
 <text id="4111400">Blunt Carthus Shotel</text>
-
 <text id="5000000">Uchigatana</text>
 <text id="5000100">Lethal Uchigatana</text>
 <text id="5000200">Cursed Uchigatana</text>
@@ -821,7 +788,6 @@
 <text id="5001200">Holy Uchigatana</text>
 <text id="5001300">Sharp Uchigatana</text>
 <text id="5001400">Blunt Uchigatana</text>
-
 <text id="5010000">Washing Pole</text>
 <text id="5010100">Lethal Washing Pole</text>
 <text id="5010200">Cursed Washing Pole</text>
@@ -837,7 +803,6 @@
 <text id="5011200">Holy Washing Pole</text>
 <text id="5011300">Sharp Washing Pole</text>
 <text id="5011400">Blunt Washing Pole</text>
-
 <text id="5020000">Chaos Blade</text>
 <text id="5020100">Lethal Chaos Blade</text>
 <text id="5020200">Cursed Chaos Blade</text>
@@ -853,7 +818,6 @@
 <text id="5021200">Holy Chaos Blade</text>
 <text id="5021300">Sharp Chaos Blade</text>
 <text id="5021400">Blunt Chaos Blade</text>
-
 <text id="5030000">Black Blade</text>
 <text id="5030100">Lethal Black Blade</text>
 <text id="5030200">Cursed Black Blade</text>
@@ -869,7 +833,6 @@
 <text id="5031200">Holy Black Blade</text>
 <text id="5031300">Sharp Black Blade</text>
 <text id="5031400">Blunt Black Blade</text>
-
 <text id="5040000">Bloodlust</text>
 <text id="5040100">Lethal Bloodlust</text>
 <text id="5040200">Cursed Bloodlust</text>
@@ -885,7 +848,6 @@
 <text id="5041200">Holy Bloodlust</text>
 <text id="5041300">Sharp Bloodlust</text>
 <text id="5041400">Blunt Bloodlust</text>
-
 <text id="5050000">Darkdrift</text>
 <text id="5050100">Lethal Darkdrift</text>
 <text id="5050200">Cursed Darkdrift</text>
@@ -901,7 +863,6 @@
 <text id="5051200">Holy Darkdrift</text>
 <text id="5051300">Sharp Darkdrift</text>
 <text id="5051400">Blunt Darkdrift</text>
-
 <text id="6000000">Bastard Sword</text>
 <text id="6000100">Lethal Bastard Sword</text>
 <text id="6000200">Cursed Bastard Sword</text>
@@ -917,7 +878,6 @@
 <text id="6001200">Holy Bastard Sword</text>
 <text id="6001300">Sharp Bastard Sword</text>
 <text id="6001400">Blunt Bastard Sword</text>
-
 <text id="6010000">Smouldering Blade</text>
 <text id="6010100">Lethal Smouldering Blade</text>
 <text id="6010200">Cursed Smouldering Blade</text>
@@ -933,7 +893,6 @@
 <text id="6011200">Holy Smouldering Blade</text>
 <text id="6011300">Sharp Smouldering Blade</text>
 <text id="6011400">Blunt Smouldering Blade</text>
-
 <text id="6020000">Claymore</text>
 <text id="6020100">Lethal Claymore</text>
 <text id="6020200">Cursed Claymore</text>
@@ -949,7 +908,6 @@
 <text id="6021200">Holy Claymore</text>
 <text id="6021300">Sharp Claymore</text>
 <text id="6021400">Blunt Claymore</text>
-
 <text id="6040000">Zweihander</text>
 <text id="6040100">Lethal Zweihander</text>
 <text id="6040200">Cursed Zweihander</text>
@@ -965,7 +923,6 @@
 <text id="6041200">Holy Zweihander</text>
 <text id="6041300">Sharp Zweihander</text>
 <text id="6041400">Blunt Zweihander</text>
-
 <text id="6050000">Greatsword</text>
 <text id="6050100">Lethal Greatsword</text>
 <text id="6050200">Cursed Greatsword</text>
@@ -981,7 +938,6 @@
 <text id="6051200">Holy Greatsword</text>
 <text id="6051300">Sharp Greatsword</text>
 <text id="6051400">Blunt Greatsword</text>
-
 <text id="6060000">Irithyll Greatsword</text>
 <text id="6060100">Lethal Irithyll Greatsword</text>
 <text id="6060200">Cursed Irithyll Greatsword</text>
@@ -997,7 +953,6 @@
 <text id="6061200">Holy Irithyll Greatsword</text>
 <text id="6061300">Sharp Irithyll Greatsword</text>
 <text id="6061400">Blunt Irithyll Greatsword</text>
-
 <text id="6070000">Astora Greatsword</text>
 <text id="6070100">Lethal Astora Greatsword</text>
 <text id="6070200">Cursed Astora Greatsword</text>
@@ -1013,7 +968,6 @@
 <text id="6071200">Holy Astora Greatsword</text>
 <text id="6071300">Sharp Astora Greatsword</text>
 <text id="6071400">Blunt Astora Greatsword</text>
-
 <text id="6080000">Murakumo</text>
 <text id="6080100">Lethal Murakumo</text>
 <text id="6080200">Cursed Murakumo</text>
@@ -1029,7 +983,6 @@
 <text id="6081200">Holy Murakumo</text>
 <text id="6081300">Sharp Murakumo</text>
 <text id="6081400">Blunt Murakumo</text>
-
 <text id="6100000">Lothric Knight Greatsword</text>
 <text id="6100100">Lethal Lothric Knight Greatsword</text>
 <text id="6100200">Cursed Lothric Knight Greatsword</text>
@@ -1045,7 +998,6 @@
 <text id="6101200">Holy Lothric Knight Greatsword</text>
 <text id="6101300">Sharp Lothric Knight Greatsword</text>
 <text id="6101400">Blunt Lothric Knight Greatsword</text>
-
 <text id="6130000">Black Knight Greatsword</text>
 <text id="6130100">Lethal Black Knight Greatsword</text>
 <text id="6130200">Cursed Black Knight Greatsword</text>
@@ -1061,7 +1013,6 @@
 <text id="6131200">Holy Black Knight Greatsword</text>
 <text id="6131300">Sharp Black Knight Greatsword</text>
 <text id="6131400">Blunt Black Knight Greatsword</text>
-
 <text id="6140000">Flamberge</text>
 <text id="6140100">Lethal Flamberge</text>
 <text id="6140200">Cursed Flamberge</text>
@@ -1077,7 +1028,6 @@
 <text id="6141200">Holy Flamberge</text>
 <text id="6141300">Sharp Flamberge</text>
 <text id="6141400">Blunt Flamberge</text>
-
 <text id="6150000">Exile Greatsword</text>
 <text id="6150100">Lethal Exile Greatsword</text>
 <text id="6150200">Cursed Exile Greatsword</text>
@@ -1093,7 +1043,6 @@
 <text id="6151200">Holy Exile Greatsword</text>
 <text id="6151300">Sharp Exile Greatsword</text>
 <text id="6151400">Blunt Exile Greatsword</text>
-
 <text id="6170000">Greatsword of Judgment</text>
 <text id="6170100">Lethal Greatsword of Judgment</text>
 <text id="6170200">Cursed Greatsword of Judgment</text>
@@ -1109,7 +1058,6 @@
 <text id="6171200">Holy Greatsword of Judgment</text>
 <text id="6171300">Sharp Greatsword of Judgment</text>
 <text id="6171400">Blunt Greatsword of Judgment</text>
-
 <text id="6180000">Profaned Greatsword</text>
 <text id="6180100">Lethal Profaned Greatsword</text>
 <text id="6180200">Cursed Profaned Greatsword</text>
@@ -1125,7 +1073,6 @@
 <text id="6181200">Holy Profaned Greatsword</text>
 <text id="6181300">Sharp Profaned Greatsword</text>
 <text id="6181400">Blunt Profaned Greatsword</text>
-
 <text id="6190000">Cathedral Knight Greatsword</text>
 <text id="6190100">Lethal Cathedral Knight Greatsword</text>
 <text id="6190200">Cursed Cathedral Knight Greatsword</text>
@@ -1141,7 +1088,6 @@
 <text id="6191200">Holy Cathedral Knight Greatsword</text>
 <text id="6191300">Sharp Cathedral Knight Greatsword</text>
 <text id="6191400">Blunt Cathedral Knight Greatsword</text>
-
 <text id="6200000">Farron Greatsword</text>
 <text id="6200100">Lethal Farron Greatsword</text>
 <text id="6200200">Cursed Farron Greatsword</text>
@@ -1157,7 +1103,6 @@
 <text id="6201200">Holy Farron Greatsword</text>
 <text id="6201300">Sharp Farron Greatsword</text>
 <text id="6201400">Blunt Farron Greatsword</text>
-
 <text id="6230000">Yhorm's Great Machete</text>
 <text id="6230100">Yhorm's Lethal Great Machete</text>
 <text id="6230200">Yhorm's Cursed Great Machete</text>
@@ -1173,7 +1118,6 @@
 <text id="6231200">Yhorm's Holy Great Machete</text>
 <text id="6231300">Yhorm's Sharp Great Machete</text>
 <text id="6231400">Yhorm's Blunt Great Machete</text>
-
 <text id="6240000">Dark Sword</text>
 <text id="6240100">Lethal Dark Sword</text>
 <text id="6240200">Cursed Dark Sword</text>
@@ -1189,7 +1133,6 @@
 <text id="6241200">Holy Dark Sword</text>
 <text id="6241300">Sharp Dark Sword</text>
 <text id="6241400">Blunt Dark Sword</text>
-
 <text id="6250000">Black Knight Sword</text>
 <text id="6250100">Lethal Black Knight Sword</text>
 <text id="6250200">Cursed Black Knight Sword</text>
@@ -1205,7 +1148,6 @@
 <text id="6251200">Holy Black Knight Sword</text>
 <text id="6251300">Sharp Black Knight Sword</text>
 <text id="6251400">Blunt Black Knight Sword</text>
-
 <text id="6260000">Lorian's Greatsword</text>
 <text id="6260100">Lorian's Lethal Greatsword</text>
 <text id="6260200">Lorian's Cursed Greatsword</text>
@@ -1221,7 +1163,6 @@
 <text id="6261200">Lorian's Holy Greatsword</text>
 <text id="6261300">Lorian's Sharp Greatsword</text>
 <text id="6261400">Lorian's Blunt Greatsword</text>
-
 <text id="6270000">Twin Princes' Greatsword</text>
 <text id="6270100">Twin Princes' Lethal Greatsword</text>
 <text id="6270200">Twin Princes' Cursed Greatsword</text>
@@ -1237,7 +1178,6 @@
 <text id="6271200">Twin Princes' Holy Greatsword</text>
 <text id="6271300">Twin Princes' Sharp Greatsword</text>
 <text id="6271400">Twin Princes' Blunt Greatsword</text>
-
 <text id="6280000">Lothric's Holy Sword</text>
 <text id="6280100">Lothric's Lethal Sword</text>
 <text id="6280200">Lothric's Cursed Sword</text>
@@ -1253,7 +1193,6 @@
 <text id="6281200">Lothric's Holy Sword</text>
 <text id="6281300">Lothric's Sharp Sword</text>
 <text id="6281400">Lothric's Blunt Sword</text>
-
 <text id="6290000">Wolnir's Holy Sword</text>
 <text id="6290100">Wolnir's Lethal Sword</text>
 <text id="6290200">Wolnir's Cursed Sword</text>
@@ -1269,7 +1208,6 @@
 <text id="6291200">Wolnir's Holy Sword</text>
 <text id="6291300">Wolnir's Sharp Sword</text>
 <text id="6291400">Wolnir's Blunt Sword</text>
-
 <text id="6300000">Wolf Knight's Greatsword</text>
 <text id="6300100">Wolf Knight's Lethal Greatsword</text>
 <text id="6300200">Wolf Knight's Cursed Greatsword</text>
@@ -1285,7 +1223,6 @@
 <text id="6301200">Wolf Knight's Holy Greatsword</text>
 <text id="6301300">Wolf Knight's Sharp Greatsword</text>
 <text id="6301400">Wolf Knight's Blunt Greatsword</text>
-
 <text id="6310000">Hollowslayer Greatsword</text>
 <text id="6310100">Lethal Hollowslayer Greatsword</text>
 <text id="6310200">Cursed Hollowslayer Greatsword</text>
@@ -1301,7 +1238,6 @@
 <text id="6311200">Holy Hollowslayer Greatsword</text>
 <text id="6311300">Sharp Hollowslayer Greatsword</text>
 <text id="6311400">Blunt Hollowslayer Greatsword</text>
-
 <text id="6320000">Moonlight Greatsword</text>
 <text id="6320100">Lethal Moonlight Greatsword</text>
 <text id="6320200">Cursed Moonlight Greatsword</text>
@@ -1317,7 +1253,6 @@
 <text id="6321200">Holy Moonlight Greatsword</text>
 <text id="6321300">Sharp Moonlight Greatsword</text>
 <text id="6321400">Blunt Moonlight Greatsword</text>
-
 <text id="6330000">Drakeblood Greatsword</text>
 <text id="6330100">Lethal Drakeblood Greatsword</text>
 <text id="6330200">Cursed Drakeblood Greatsword</text>
@@ -1333,7 +1268,6 @@
 <text id="6331200">Holy Drakeblood Greatsword</text>
 <text id="6331300">Sharp Drakeblood Greatsword</text>
 <text id="6331400">Blunt Drakeblood Greatsword</text>
-
 <text id="6340000">Firelink Greatsword</text>
 <text id="6340100">Lethal Firelink Greatsword</text>
 <text id="6340200">Cursed Firelink Greatsword</text>
@@ -1349,7 +1283,6 @@
 <text id="6341200">Holy Firelink Greatsword</text>
 <text id="6341300">Sharp Firelink Greatsword</text>
 <text id="6341400">Blunt Firelink Greatsword</text>
-
 <text id="6350000">Fume Ultra Greatsword</text>
 <text id="6350100">Lethal Fume Ultra Greatsword</text>
 <text id="6350200">Cursed Fume Ultra Greatsword</text>
@@ -1365,7 +1298,6 @@
 <text id="6351200">Holy Fume Ultra Greatsword</text>
 <text id="6351300">Sharp Fume Ultra Greatsword</text>
 <text id="6351400">Blunt Fume Ultra Greatsword</text>
-
 <text id="6360000">Old Wolf Curved Sword</text>
 <text id="6360100">Lethal Old Wolf Curved Sword</text>
 <text id="6360200">Cursed Old Wolf Curved Sword</text>
@@ -1381,7 +1313,6 @@
 <text id="6361200">Holy Old Wolf Curved Sword</text>
 <text id="6361300">Sharp Old Wolf Curved Sword</text>
 <text id="6361400">Blunt Old Wolf Curved Sword</text>
-
 <text id="6370000">Storm Ruler</text>
 <text id="6370100">Lethal Storm Ruler</text>
 <text id="6370200">Cursed Storm Ruler</text>
@@ -1397,7 +1328,6 @@
 <text id="6371200">Holy Storm Ruler</text>
 <text id="6371300">Sharp Storm Ruler</text>
 <text id="6371400">Blunt Storm Ruler</text>
-
 <text id="7000000">Hand Axe</text>
 <text id="7000100">Lethal Hand Axe</text>
 <text id="7000200">Cursed Hand Axe</text>
@@ -1413,7 +1343,6 @@
 <text id="7001200">Holy Hand Axe</text>
 <text id="7001300">Sharp Hand Axe</text>
 <text id="7001400">Blunt Hand Axe</text>
-
 <text id="7010000">Battle Axe</text>
 <text id="7010100">Lethal Battle Axe</text>
 <text id="7010200">Cursed Battle Axe</text>
@@ -1429,7 +1358,6 @@
 <text id="7011200">Holy Battle Axe</text>
 <text id="7011300">Sharp Battle Axe</text>
 <text id="7011400">Blunt Battle Axe</text>
-
 <text id="7020000">Brigand Axe</text>
 <text id="7020100">Lethal Brigand Axe</text>
 <text id="7020200">Cursed Brigand Axe</text>
@@ -1445,7 +1373,6 @@
 <text id="7021200">Holy Brigand Axe</text>
 <text id="7021300">Sharp Brigand Axe</text>
 <text id="7021400">Blunt Brigand Axe</text>
-
 <text id="7040000">Crescent Axe</text>
 <text id="7040100">Lethal Crescent Axe</text>
 <text id="7040200">Cursed Crescent Axe</text>
@@ -1461,7 +1388,6 @@
 <text id="7041200">Holy Crescent Axe</text>
 <text id="7041300">Sharp Crescent Axe</text>
 <text id="7041400">Blunt Crescent Axe</text>
-
 <text id="7050000">Greataxe</text>
 <text id="7050100">Lethal Greataxe</text>
 <text id="7050200">Cursed Greataxe</text>
@@ -1477,7 +1403,6 @@
 <text id="7051200">Holy Greataxe</text>
 <text id="7051300">Sharp Greataxe</text>
 <text id="7051400">Blunt Greataxe</text>
-
 <text id="7070000">Butcher Knife</text>
 <text id="7070100">Lethal Butcher Knife</text>
 <text id="7070200">Cursed Butcher Knife</text>
@@ -1493,7 +1418,6 @@
 <text id="7071200">Holy Butcher Knife</text>
 <text id="7071300">Sharp Butcher Knife</text>
 <text id="7071400">Blunt Butcher Knife</text>
-
 <text id="7080000">Dragonslayer's Axe</text>
 <text id="7080100">Lethal Dragonslayer's Axe</text>
 <text id="7080200">Cursed Dragonslayer's Axe</text>
@@ -1509,7 +1433,6 @@
 <text id="7081200">Holy Dragonslayer's Axe</text>
 <text id="7081300">Sharp Dragonslayer's Axe</text>
 <text id="7081400">Blunt Dragonslayer's Axe</text>
-
 <text id="7090000">Missionary Axe</text>
 <text id="7090100">Lethal Missionary Axe</text>
 <text id="7090200">Cursed Missionary Axe</text>
@@ -1525,7 +1448,6 @@
 <text id="7091200">Holy Missionary Axe</text>
 <text id="7091300">Sharp Missionary Axe</text>
 <text id="7091400">Blunt Missionary Axe</text>
-
 <text id="7100000">Thrall Axe</text>
 <text id="7100100">Lethal Thrall Axe</text>
 <text id="7100200">Cursed Thrall Axe</text>
@@ -1541,7 +1463,6 @@
 <text id="7101200">Holy Thrall Axe</text>
 <text id="7101300">Sharp Thrall Axe</text>
 <text id="7101400">Blunt Thrall Axe</text>
-
 <text id="7110000">Dragonslayer Greataxe</text>
 <text id="7110100">Lethal Dragonslayer Greataxe</text>
 <text id="7110200">Cursed Dragonslayer Greataxe</text>
@@ -1557,7 +1478,6 @@
 <text id="7111200">Holy Dragonslayer Greataxe</text>
 <text id="7111300">Sharp Dragonslayer Greataxe</text>
 <text id="7111400">Blunt Dragonslayer Greataxe</text>
-
 <text id="7120000">Demon King's Greataxe</text>
 <text id="7120100">Lethal Demon King's Greataxe</text>
 <text id="7120200">Cursed Demon King's Greataxe</text>
@@ -1573,7 +1493,6 @@
 <text id="7121200">Holy Demon King's Greataxe</text>
 <text id="7121300">Sharp Demon King's Greataxe</text>
 <text id="7121400">Blunt Demon King's Greataxe</text>
-
 <text id="7130000">Eleonora</text>
 <text id="7130100">Lethal Eleonora</text>
 <text id="7130200">Cursed Eleonora</text>
@@ -1589,7 +1508,6 @@
 <text id="7131200">Holy Eleonora</text>
 <text id="7131300">Sharp Eleonora</text>
 <text id="7131400">Blunt Eleonora</text>
-
 <text id="7150000">Serpentine Hatchet</text>
 <text id="7150100">Lethal Serpentine Hatchet</text>
 <text id="7150200">Cursed Serpentine Hatchet</text>
@@ -1605,7 +1523,6 @@
 <text id="7151200">Holy Serpentine Hatchet</text>
 <text id="7151300">Sharp Serpentine Hatchet</text>
 <text id="7151400">Blunt Serpentine Hatchet</text>
-
 <text id="8000000">Club</text>
 <text id="8000100">Lethal Club</text>
 <text id="8000200">Cursed Club</text>
@@ -1621,7 +1538,6 @@
 <text id="8001200">Holy Club</text>
 <text id="8001300">Sharp Club</text>
 <text id="8001400">Blunt Club</text>
-
 <text id="8010000">Mace</text>
 <text id="8010100">Lethal Mace</text>
 <text id="8010200">Cursed Mace</text>
@@ -1637,7 +1553,6 @@
 <text id="8011200">Holy Mace</text>
 <text id="8011300">Sharp Mace</text>
 <text id="8011400">Blunt Mace</text>
-
 <text id="8020000">Morning Star</text>
 <text id="8020100">Lethal Morning Star</text>
 <text id="8020200">Cursed Morning Star</text>
@@ -1653,7 +1568,6 @@
 <text id="8021200">Holy Morning Star</text>
 <text id="8021300">Sharp Morning Star</text>
 <text id="8021400">Blunt Morning Star</text>
-
 <text id="8030000">Reinforced Club</text>
 <text id="8030100">Lethal Reinforced Club</text>
 <text id="8030200">Cursed Reinforced Club</text>
@@ -1669,7 +1583,6 @@
 <text id="8031200">Holy Reinforced Club</text>
 <text id="8031300">Sharp Reinforced Club</text>
 <text id="8031400">Blunt Reinforced Club</text>
-
 <text id="8060000">Large Club</text>
 <text id="8060100">Lethal Large Club</text>
 <text id="8060200">Cursed Large Club</text>
@@ -1685,7 +1598,6 @@
 <text id="8061200">Holy Large Club</text>
 <text id="8061300">Sharp Large Club</text>
 <text id="8061400">Blunt Large Club</text>
-
 <text id="8080000">Great Club</text>
 <text id="8080100">Lethal Great Club</text>
 <text id="8080200">Cursed Great Club</text>
@@ -1701,7 +1613,6 @@
 <text id="8081200">Holy Great Club</text>
 <text id="8081300">Sharp Great Club</text>
 <text id="8081400">Blunt Great Club</text>
-
 <text id="8110000">Great Mace</text>
 <text id="8110100">Lethal Great Mace</text>
 <text id="8110200">Cursed Great Mace</text>
@@ -1717,7 +1628,6 @@
 <text id="8111200">Holy Great Mace</text>
 <text id="8111300">Sharp Great Mace</text>
 <text id="8111400">Blunt Great Mace</text>
-
 <text id="8160000">Great Wooden Hammer</text>
 <text id="8160100">Lethal Great Wooden Hammer</text>
 <text id="8160200">Cursed Great Wooden Hammer</text>
@@ -1733,7 +1643,6 @@
 <text id="8161200">Holy Great Wooden Hammer</text>
 <text id="8161300">Sharp Great Wooden Hammer</text>
 <text id="8161400">Blunt Great Wooden Hammer</text>
-
 <text id="8170000">Gargoyle Flame Hammer</text>
 <text id="8170100">Lethal Gargoyle Flame Hammer</text>
 <text id="8170200">Cursed Gargoyle Flame Hammer</text>
@@ -1749,7 +1658,6 @@
 <text id="8171200">Holy Gargoyle Flame Hammer</text>
 <text id="8171300">Sharp Gargoyle Flame Hammer</text>
 <text id="8171400">Blunt Gargoyle Flame Hammer</text>
-
 <text id="8180000">Vordt's Great Hammer</text>
 <text id="8180100">Vordt's Lethal Great Hammer</text>
 <text id="8180200">Vordt's Cursed Great Hammer</text>
@@ -1765,7 +1673,6 @@
 <text id="8181200">Vordt's Holy Great Hammer</text>
 <text id="8181300">Vordt's Sharp Great Hammer</text>
 <text id="8181400">Vordt's Blunt Great Hammer</text>
-
 <text id="8190000">Old King's Great Hammer</text>
 <text id="8190100">Old King's Lethal Great Hammer</text>
 <text id="8190200">Old King's Cursed Great Hammer</text>
@@ -1781,7 +1688,6 @@
 <text id="8191200">Old King's Holy Great Hammer</text>
 <text id="8191300">Old King's Sharp Great Hammer</text>
 <text id="8191400">Old King's Blunt Great Hammer</text>
-
 <text id="8210000">Writhing Hammer</text>
 <text id="8210100">Lethal Writhing Hammer</text>
 <text id="8210200">Cursed Writhing Hammer</text>
@@ -1797,7 +1703,6 @@
 <text id="8211200">Holy Writhing Hammer</text>
 <text id="8211300">Sharp Writhing Hammer</text>
 <text id="8211400">Blunt Writhing Hammer</text>
-
 <text id="8220000">Heysel Pick</text>
 <text id="8220100">Lethal Heysel Pick</text>
 <text id="8220200">Cursed Heysel Pick</text>
@@ -1813,7 +1718,6 @@
 <text id="8221200">Holy Heysel Pick</text>
 <text id="8221300">Sharp Heysel Pick</text>
 <text id="8221400">Blunt Heysel Pick</text>
-
 <text id="8230000">Hammer of the Great Tree</text>
 <text id="8230100">Lethal Hammer of the Great Tree</text>
 <text id="8230200">Cursed Hammer of the Great Tree</text>
@@ -1829,7 +1733,6 @@
 <text id="8231200">Holy Hammer of the Great Tree</text>
 <text id="8231300">Sharp Hammer of the Great Tree</text>
 <text id="8231400">Blunt Hammer of the Great Tree</text>
-
 <text id="8240000">Warpick</text>
 <text id="8240100">Lethal Warpick</text>
 <text id="8240200">Cursed Warpick</text>
@@ -1845,7 +1748,6 @@
 <text id="8241200">Holy Warpick</text>
 <text id="8241300">Sharp Warpick</text>
 <text id="8241400">Blunt Warpick</text>
-
 <text id="8250000">Pickaxe</text>
 <text id="8250100">Lethal Pickaxe</text>
 <text id="8250200">Cursed Pickaxe</text>
@@ -1861,7 +1763,6 @@
 <text id="8251200">Holy Pickaxe</text>
 <text id="8251300">Sharp Pickaxe</text>
 <text id="8251400">Blunt Pickaxe</text>
-
 <text id="8260000">Dragon Tooth</text>
 <text id="8260100">Lethal Dragon Tooth</text>
 <text id="8260200">Cursed Dragon Tooth</text>
@@ -1877,7 +1778,6 @@
 <text id="8261200">Holy Dragon Tooth</text>
 <text id="8261300">Sharp Dragon Tooth</text>
 <text id="8261400">Blunt Dragon Tooth</text>
-
 <text id="8270000">Smough's Great Hammer</text>
 <text id="8270100">Smough's Lethal Great Hammer</text>
 <text id="8270200">Smough's Cursed Great Hammer</text>
@@ -1893,7 +1793,6 @@
 <text id="8271200">Smough's Holy Great Hammer</text>
 <text id="8271300">Smough's Sharp Great Hammer</text>
 <text id="8271400">Smough's Blunt Great Hammer</text>
-
 <text id="8280000">Blacksmith Hammer</text>
 <text id="8280100">Lethal Blacksmith Hammer</text>
 <text id="8280200">Cursed Blacksmith Hammer</text>
@@ -1909,7 +1808,6 @@
 <text id="8281200">Holy Blacksmith Hammer</text>
 <text id="8281300">Sharp Blacksmith Hammer</text>
 <text id="8281400">Blunt Blacksmith Hammer</text>
-
 <text id="8290000">Morne's Great Hammer</text>
 <text id="8290100">Morne's Lethal Great Hammer</text>
 <text id="8290200">Morne's Cursed Great Hammer</text>
@@ -1925,7 +1823,6 @@
 <text id="8291200">Morne's Holy Great Hammer</text>
 <text id="8291300">Morne's Sharp Great Hammer</text>
 <text id="8291400">Morne's Blunt Great Hammer</text>
-
 <text id="8300000">Spiked Mace</text>
 <text id="8300100">Lethal Spiked Mace</text>
 <text id="8300200">Cursed Spiked Mace</text>
@@ -1941,7 +1838,6 @@
 <text id="8301200">Holy Spiked Mace</text>
 <text id="8301300">Sharp Spiked Mace</text>
 <text id="8301400">Blunt Spiked Mace</text>
-
 <text id="9000000">Spear</text>
 <text id="9000100">Lethal Spear</text>
 <text id="9000200">Cursed Spear</text>
@@ -1957,7 +1853,6 @@
 <text id="9001200">Holy Spear</text>
 <text id="9001300">Sharp Spear</text>
 <text id="9001400">Blunt Spear</text>
-
 <text id="9010000">Winged Spear</text>
 <text id="9010100">Lethal Winged Spear</text>
 <text id="9010200">Cursed Winged Spear</text>
@@ -1973,7 +1868,6 @@
 <text id="9011200">Holy Winged Spear</text>
 <text id="9011300">Sharp Winged Spear</text>
 <text id="9011400">Blunt Winged Spear</text>
-
 <text id="9030000">Partizan</text>
 <text id="9030100">Lethal Partizan</text>
 <text id="9030200">Cursed Partizan</text>
@@ -1989,7 +1883,6 @@
 <text id="9031200">Holy Partizan</text>
 <text id="9031300">Sharp Partizan</text>
 <text id="9031400">Blunt Partizan</text>
-
 <text id="9080000">Greatlance</text>
 <text id="9080100">Lethal Greatlance</text>
 <text id="9080200">Cursed Greatlance</text>
@@ -2005,7 +1898,6 @@
 <text id="9081200">Holy Greatlance</text>
 <text id="9081300">Sharp Greatlance</text>
 <text id="9081400">Blunt Greatlance</text>
-
 <text id="9090000">Lothric Knight Long Spear</text>
 <text id="9090100">Lethal Lothric Knight Long Spear</text>
 <text id="9090200">Cursed Lothric Knight Long Spear</text>
@@ -2021,7 +1913,6 @@
 <text id="9091200">Holy Lothric Knight Long Spear</text>
 <text id="9091300">Sharp Lothric Knight Long Spear</text>
 <text id="9091400">Blunt Lothric Knight Long Spear</text>
-
 <text id="9100000">Four-Pronged Plow</text>
 <text id="9100100">Lethal Four-Pronged Plow</text>
 <text id="9100200">Cursed Four-Pronged Plow</text>
@@ -2037,7 +1928,6 @@
 <text id="9101200">Holy Four-Pronged Plow</text>
 <text id="9101300">Sharp Four-Pronged Plow</text>
 <text id="9101400">Blunt Four-Pronged Plow</text>
-
 <text id="9110000">Gargoyle Flame Spear</text>
 <text id="9110100">Lethal Gargoyle Flame Spear</text>
 <text id="9110200">Cursed Gargoyle Flame Spear</text>
@@ -2053,7 +1943,6 @@
 <text id="9111200">Holy Gargoyle Flame Spear</text>
 <text id="9111300">Sharp Gargoyle Flame Spear</text>
 <text id="9111400">Blunt Gargoyle Flame Spear</text>
-
 <text id="9120000">Rotten Ghru Spear</text>
 <text id="9120100">Lethal Rotten Ghru Spear</text>
 <text id="9120200">Cursed Rotten Ghru Spear</text>
@@ -2069,7 +1958,6 @@
 <text id="9121200">Holy Rotten Ghru Spear</text>
 <text id="9121300">Sharp Rotten Ghru Spear</text>
 <text id="9121400">Blunt Rotten Ghru Spear</text>
-
 <text id="9130000">Tailbone Spear</text>
 <text id="9130100">Lethal Tailbone Spear</text>
 <text id="9130200">Cursed Tailbone Spear</text>
@@ -2085,7 +1973,6 @@
 <text id="9131200">Holy Tailbone Spear</text>
 <text id="9131300">Sharp Tailbone Spear</text>
 <text id="9131400">Blunt Tailbone Spear</text>
-
 <text id="9140000">Branding Iron</text>
 <text id="9140100">Lethal Branding Iron</text>
 <text id="9140200">Cursed Branding Iron</text>
@@ -2101,7 +1988,6 @@
 <text id="9141200">Holy Branding Iron</text>
 <text id="9141300">Sharp Branding Iron</text>
 <text id="9141400">Blunt Branding Iron</text>
-
 <text id="9160000">Dragonslayer Swordspear</text>
 <text id="9160100">Lethal Dragonslayer Swordspear</text>
 <text id="9160200">Cursed Dragonslayer Swordspear</text>
@@ -2117,7 +2003,6 @@
 <text id="9161200">Holy Dragonslayer Swordspear</text>
 <text id="9161300">Sharp Dragonslayer Swordspear</text>
 <text id="9161400">Blunt Dragonslayer Swordspear</text>
-
 <text id="9170000">Arstor's Spear</text>
 <text id="9170100">Arstor's Lethal Spear</text>
 <text id="9170200">Arstor's Cursed Spear</text>
@@ -2133,7 +2018,6 @@
 <text id="9171200">Arstor's Holy Spear</text>
 <text id="9171300">Arstor's Sharp Spear</text>
 <text id="9171400">Arstor's Blunt Spear</text>
-
 <text id="9180000">Saint Bident</text>
 <text id="9180100">Lethal Saint Bident</text>
 <text id="9180200">Cursed Saint Bident</text>
@@ -2149,7 +2033,6 @@
 <text id="9181200">Holy Saint Bident</text>
 <text id="9181300">Sharp Saint Bident</text>
 <text id="9181400">Blunt Saint Bident</text>
-
 <text id="9190000">Yorshka's Spear</text>
 <text id="9190100">Yorshka's Lethal Spear</text>
 <text id="9190200">Yorshka's Cursed Spear</text>
@@ -2165,7 +2048,6 @@
 <text id="9191200">Yorshka's Holy Spear</text>
 <text id="9191300">Yorshka's Sharp Spear</text>
 <text id="9191400">Yorshka's Blunt Spear</text>
-
 <text id="9200000">Pike</text>
 <text id="9200100">Lethal Pike</text>
 <text id="9200200">Cursed Pike</text>
@@ -2181,7 +2063,6 @@
 <text id="9201200">Holy Pike</text>
 <text id="9201300">Sharp Pike</text>
 <text id="9201400">Blunt Pike</text>
-
 <text id="9220000">Dragonslayer Spear</text>
 <text id="9220100">Lethal Dragonslayer Spear</text>
 <text id="9220200">Cursed Dragonslayer Spear</text>
@@ -2197,7 +2078,6 @@
 <text id="9221200">Holy Dragonslayer Spear</text>
 <text id="9221300">Sharp Dragonslayer Spear</text>
 <text id="9221400">Blunt Dragonslayer Spear</text>
-
 <text id="10000000">Great Scythe</text>
 <text id="10000100">Lethal Great Scythe</text>
 <text id="10000200">Cursed Great Scythe</text>
@@ -2213,7 +2093,6 @@
 <text id="10001200">Holy Great Scythe</text>
 <text id="10001300">Sharp Great Scythe</text>
 <text id="10001400">Blunt Great Scythe</text>
-
 <text id="10010000">Lucerne</text>
 <text id="10010100">Lethal Lucerne</text>
 <text id="10010200">Cursed Lucerne</text>
@@ -2229,7 +2108,6 @@
 <text id="10011200">Holy Lucerne</text>
 <text id="10011300">Sharp Lucerne</text>
 <text id="10011400">Blunt Lucerne</text>
-
 <text id="10020000">Bardiche</text>
 <text id="10020100">Lethal Bardiche</text>
 <text id="10020200">Cursed Bardiche</text>
@@ -2245,7 +2123,6 @@
 <text id="10021200">Holy Bardiche</text>
 <text id="10021300">Sharp Bardiche</text>
 <text id="10021400">Blunt Bardiche</text>
-
 <text id="10030000">Halberd</text>
 <text id="10030100">Lethal Halberd</text>
 <text id="10030200">Cursed Halberd</text>
@@ -2261,7 +2138,6 @@
 <text id="10031200">Holy Halberd</text>
 <text id="10031300">Sharp Halberd</text>
 <text id="10031400">Blunt Halberd</text>
-
 <text id="10050000">Black Knight Greataxe</text>
 <text id="10050100">Lethal Black Knight Greataxe</text>
 <text id="10050200">Cursed Black Knight Greataxe</text>
@@ -2277,7 +2153,6 @@
 <text id="10051200">Holy Black Knight Greataxe</text>
 <text id="10051300">Sharp Black Knight Greataxe</text>
 <text id="10051400">Blunt Black Knight Greataxe</text>
-
 <text id="10070000">Pontiff Knight Great Scythe</text>
 <text id="10070100">Lethal Pontiff Knight Great Scythe</text>
 <text id="10070200">Cursed Pontiff Knight Great Scythe</text>
@@ -2293,7 +2168,6 @@
 <text id="10071200">Holy Pontiff Knight Great Scythe</text>
 <text id="10071300">Sharp Pontiff Knight Great Scythe</text>
 <text id="10071400">Blunt Pontiff Knight Great Scythe</text>
-
 <text id="10080000">Great Corvian Scythe</text>
 <text id="10080100">Lethal Great Corvian Scythe</text>
 <text id="10080200">Cursed Great Corvian Scythe</text>
@@ -2309,7 +2183,6 @@
 <text id="10081200">Holy Great Corvian Scythe</text>
 <text id="10081300">Sharp Great Corvian Scythe</text>
 <text id="10081400">Blunt Great Corvian Scythe</text>
-
 <text id="10090000">Winged Knight Halberd</text>
 <text id="10090100">Lethal Winged Knight Halberd</text>
 <text id="10090200">Cursed Winged Knight Halberd</text>
@@ -2325,7 +2198,6 @@
 <text id="10091200">Holy Winged Knight Halberd</text>
 <text id="10091300">Sharp Winged Knight Halberd</text>
 <text id="10091400">Blunt Winged Knight Halberd</text>
-
 <text id="10100000">Gundyr's Halberd</text>
 <text id="10100100">Gundyr's Lethal Halberd</text>
 <text id="10100200">Gundyr's Cursed Halberd</text>
@@ -2341,7 +2213,6 @@
 <text id="10101200">Gundyr's Holy Halberd</text>
 <text id="10101300">Gundyr's Sharp Halberd</text>
 <text id="10101400">Gundyr's Blunt Halberd</text>
-
 <text id="10110000">Lothric's Scythe</text>
 <text id="10110100">Lothric's Lethal Scythe</text>
 <text id="10110200">Lothric's Cursed Scythe</text>
@@ -2357,7 +2228,6 @@
 <text id="10111200">Lothric's Holy Scythe</text>
 <text id="10111300">Lothric's Sharp Scythe</text>
 <text id="10111400">Lothric's Blunt Scythe</text>
-
 <text id="10120000">Ancient Dragon Halberd</text>
 <text id="10120100">Lethal Ancient Dragon Halberd</text>
 <text id="10120200">Cursed Ancient Dragon Halberd</text>
@@ -2373,7 +2243,6 @@
 <text id="10121200">Holy Ancient Dragon Halberd</text>
 <text id="10121300">Sharp Ancient Dragon Halberd</text>
 <text id="10121400">Blunt Ancient Dragon Halberd</text>
-
 <text id="10140000">Red Hilted Halberd</text>
 <text id="10140100">Lethal Red Hilted Halberd</text>
 <text id="10140200">Cursed Red Hilted Halberd</text>
@@ -2389,7 +2258,6 @@
 <text id="10141200">Holy Red Hilted Halberd</text>
 <text id="10141300">Sharp Red Hilted Halberd</text>
 <text id="10141400">Blunt Red Hilted Halberd</text>
-
 <text id="10150000">Black Knight Glaive</text>
 <text id="10150100">Lethal Black Knight Glaive</text>
 <text id="10150200">Cursed Black Knight Glaive</text>
@@ -2405,7 +2273,6 @@
 <text id="10151200">Holy Black Knight Glaive</text>
 <text id="10151300">Sharp Black Knight Glaive</text>
 <text id="10151400">Blunt Black Knight Glaive</text>
-
 <text id="10160000">Immolation Tinder</text>
 <text id="10160100">Lethal Immolation Tinder</text>
 <text id="10160200">Cursed Immolation Tinder</text>
@@ -2421,7 +2288,6 @@
 <text id="10161200">Holy Immolation Tinder</text>
 <text id="10161300">Sharp Immolation Tinder</text>
 <text id="10161400">Blunt Immolation Tinder</text>
-
 <text id="11000000">Claw</text>
 <text id="11000100">Lethal Claw</text>
 <text id="11000200">Cursed Claw</text>
@@ -2437,7 +2303,6 @@
 <text id="11001200">Holy Claw</text>
 <text id="11001300">Sharp Claw</text>
 <text id="11001400">Blunt Claw</text>
-
 <text id="11010000">Caestus</text>
 <text id="11010100">Lethal Caestus</text>
 <text id="11010200">Cursed Caestus</text>
@@ -2453,7 +2318,6 @@
 <text id="11011200">Holy Caestus</text>
 <text id="11011300">Sharp Caestus</text>
 <text id="11011400">Blunt Caestus</text>
-
 <text id="11020000">Manikin Claws</text>
 <text id="11020100">Lethal Manikin Claws</text>
 <text id="11020200">Cursed Manikin Claws</text>
@@ -2469,7 +2333,6 @@
 <text id="11021200">Holy Manikin Claws</text>
 <text id="11021300">Sharp Manikin Claws</text>
 <text id="11021400">Blunt Manikin Claws</text>
-
 <text id="11030000">Demon's Fist</text>
 <text id="11030100">Lethal Demon's Fist</text>
 <text id="11030200">Cursed Demon's Fist</text>
@@ -2485,7 +2348,6 @@
 <text id="11031200">Holy Demon's Fist</text>
 <text id="11031300">Sharp Demon's Fist</text>
 <text id="11031400">Blunt Demon's Fist</text>
-
 <text id="11040000">Dark Hand</text>
 <text id="11040100">Lethal Dark Hand</text>
 <text id="11040200">Cursed Dark Hand</text>
@@ -2501,7 +2363,6 @@
 <text id="11041200">Holy Dark Hand</text>
 <text id="11041300">Sharp Dark Hand</text>
 <text id="11041400">Blunt Dark Hand</text>
-
 <text id="11070000">Censuring Palm</text>
 <text id="11070100">Lethal Censuring Palm</text>
 <text id="11070200">Cursed Censuring Palm</text>
@@ -2517,7 +2378,6 @@
 <text id="11071200">Holy Censuring Palm</text>
 <text id="11071300">Sharp Censuring Palm</text>
 <text id="11071400">Blunt Censuring Palm</text>
-
 <text id="12000000">Whip</text>
 <text id="12000100">Lethal Whip</text>
 <text id="12000200">Cursed Whip</text>
@@ -2533,7 +2393,6 @@
 <text id="12001200">Holy Whip</text>
 <text id="12001300">Sharp Whip</text>
 <text id="12001400">Blunt Whip</text>
-
 <text id="12040000">Witch's Locks</text>
 <text id="12040100">Lethal Witch's Locks</text>
 <text id="12040200">Cursed Witch's Locks</text>
@@ -2549,7 +2408,6 @@
 <text id="12041200">Holy Witch's Locks</text>
 <text id="12041300">Sharp Witch's Locks</text>
 <text id="12041400">Blunt Witch's Locks</text>
-
 <text id="12050000">Notched Whip</text>
 <text id="12050100">Lethal Notched Whip</text>
 <text id="12050200">Cursed Notched Whip</text>
@@ -2565,7 +2423,6 @@
 <text id="12051200">Holy Notched Whip</text>
 <text id="12051300">Sharp Notched Whip</text>
 <text id="12051400">Blunt Notched Whip</text>
-
 <text id="12060000">Spotted Whip</text>
 <text id="12060100">Lethal Spotted Whip</text>
 <text id="12060200">Cursed Spotted Whip</text>
@@ -2581,7 +2438,6 @@
 <text id="12061200">Holy Spotted Whip</text>
 <text id="12061300">Sharp Spotted Whip</text>
 <text id="12061400">Blunt Spotted Whip</text>
-
 <text id="12110000">King's Quarterstaff</text>
 <text id="12110100">Lethal King's Quarterstaff</text>
 <text id="12110200">Cursed King's Quarterstaff</text>
@@ -2597,7 +2453,6 @@
 <text id="12111200">Holy King's Quarterstaff</text>
 <text id="12111300">Sharp King's Quarterstaff</text>
 <text id="12111400">Blunt King's Quarterstaff</text>
-
 <text id="12120000">Corvian Longstaff</text>
 <text id="12120100">Lethal Corvian Longstaff</text>
 <text id="12120200">Cursed Corvian Longstaff</text>
@@ -2613,7 +2468,6 @@
 <text id="12121200">Holy Corvian Longstaff</text>
 <text id="12121300">Sharp Corvian Longstaff</text>
 <text id="12121400">Blunt Corvian Longstaff</text>
-
 <text id="12130000">Witchtree Limb</text>
 <text id="12130100">Lethal Witchtree Limb</text>
 <text id="12130200">Cursed Witchtree Limb</text>
@@ -2629,7 +2483,6 @@
 <text id="12131200">Holy Witchtree Limb</text>
 <text id="12131300">Sharp Witchtree Limb</text>
 <text id="12131400">Blunt Witchtree Limb</text>
-
 <text id="12140000">Murky Warstaff</text>
 <text id="12140100">Lethal Murky Warstaff</text>
 <text id="12140200">Cursed Murky Warstaff</text>
@@ -2645,7 +2498,6 @@
 <text id="12141200">Holy Murky Warstaff</text>
 <text id="12141300">Sharp Murky Warstaff</text>
 <text id="12141400">Blunt Murky Warstaff</text>
-
 <text id="12150000">Longstaff of Rosaria</text>
 <text id="12150100">Lethal Longstaff of Rosaria</text>
 <text id="12150200">Cursed Longstaff of Rosaria</text>
@@ -2661,7 +2513,6 @@
 <text id="12151200">Holy Longstaff of Rosaria</text>
 <text id="12151300">Sharp Longstaff of Rosaria</text>
 <text id="12151400">Blunt Longstaff of Rosaria</text>
-
 <text id="12160000">Staff of Serpents</text>
 <text id="12160100">Lethal Staff of Serpents</text>
 <text id="12160200">Cursed Staff of Serpents</text>
@@ -2677,7 +2528,6 @@
 <text id="12161200">Holy Staff of Serpents</text>
 <text id="12161300">Sharp Staff of Serpents</text>
 <text id="12161400">Blunt Staff of Serpents</text>
-
 <text id="12170000">Archdeacon's Longstaff</text>
 <text id="12170100">Lethal Archdeacon's Longstaff</text>
 <text id="12170200">Cursed Archdeacon's Longstaff</text>
@@ -2693,7 +2543,6 @@
 <text id="12171200">Holy Archdeacon's Longstaff</text>
 <text id="12171300">Sharp Archdeacon's Longstaff</text>
 <text id="12171400">Blunt Archdeacon's Longstaff</text>
-
 <text id="12180000">Heretic's Warstaff</text>
 <text id="12180100">Lethal Heretic's Warstaff</text>
 <text id="12180200">Cursed Heretic's Warstaff</text>
@@ -2709,7 +2558,6 @@
 <text id="12181200">Holy Heretic's Warstaff</text>
 <text id="12181300">Sharp Heretic's Warstaff</text>
 <text id="12181400">Blunt Heretic's Warstaff</text>
-
 <text id="12190000">Witch's Staff</text>
 <text id="12190100">Lethal Witch's Staff</text>
 <text id="12190200">Cursed Witch's Staff</text>
@@ -2725,7 +2573,6 @@
 <text id="12191200">Holy Witch's Staff</text>
 <text id="12191300">Sharp Witch's Staff</text>
 <text id="12191400">Blunt Witch's Staff</text>
-
 <text id="13120000">Golden Ritual Spear</text>
 <text id="13120100">Lethal Golden Ritual Spear</text>
 <text id="13120200">Cursed Golden Ritual Spear</text>
@@ -2741,43 +2588,24 @@
 <text id="13121200">Holy Golden Ritual Spear</text>
 <text id="13121300">Sharp Golden Ritual Spear</text>
 <text id="13121400">Blunt Golden Ritual Spear</text>
-
 <text id="14010000">Short Bow</text>
-
 <text id="14020000">Composite Bow</text>
-
 <text id="14030000">Dragonslayer Greatbow</text>
-
 <text id="14040000">Birch Crossbow</text>
-
 <text id="14050000">Arbalest</text>
-
 <text id="14060000">Longbow</text>
-
 <text id="14070000">Dragonrider Bow</text>
-
 <text id="14090000">Avelyn</text>
-
 <text id="14100000">Knight's Crossbow</text>
-
 <text id="14110000">Oak Crossbow</text>
-
 <text id="14130000">Darkmoon Longbow</text>
-
 <text id="14140000">Onislayer Greatbow</text>
-
 <text id="14150000">Black Bow of Pharis</text>
-
 <text id="14170000">Sniper Crossbow</text>
-
 <text id="14200000">Flynn's Bow</text>
-
 <text id="14210000">Scholar's Bow</text>
-
 <text id="14220000">Giant's Bow</text>
-
 <text id="14230000">Model Ballista</text>
-
 <text id="14400000">Cannon</text>
 <text id="14400100">Lethal Cannon</text>
 <text id="14400200">Cursed Cannon</text>
@@ -2793,7 +2621,6 @@
 <text id="14401200">Holy Cannon</text>
 <text id="14401300">Sharp Cannon</text>
 <text id="14401400">Blunt Cannon</text>
-
 <text id="14410000">Church Cannon</text>
 <text id="14410100">Lethal Church Cannon</text>
 <text id="14410200">Cursed Church Cannon</text>
@@ -2809,7 +2636,6 @@
 <text id="14411200">Holy Church Cannon</text>
 <text id="14411300">Sharp Church Cannon</text>
 <text id="14411400">Blunt Church Cannon</text>
-
 <text id="14420000">Hunter's Pistol</text>
 <text id="14420100">Lethal Hunter's Pistol</text>
 <text id="14420200">Cursed Hunter's Pistol</text>
@@ -2825,7 +2651,6 @@
 <text id="14421200">Holy Hunter's Pistol</text>
 <text id="14421300">Sharp Hunter's Pistol</text>
 <text id="14421400">Blunt Hunter's Pistol</text>
-
 <text id="14430000">Repeating Pistol</text>
 <text id="14430100">Lethal Repeating Pistol</text>
 <text id="14430200">Cursed Repeating Pistol</text>
@@ -2841,7 +2666,6 @@
 <text id="14431200">Holy Repeating Pistol</text>
 <text id="14431300">Sharp Repeating Pistol</text>
 <text id="14431400">Blunt Repeating Pistol</text>
-
 <text id="14440000">Evelynn</text>
 <text id="14440100">Lethal Evelynn</text>
 <text id="14440200">Cursed Evelynn</text>
@@ -2857,7 +2681,6 @@
 <text id="14441200">Holy Evelynn</text>
 <text id="14441300">Sharp Evelynn</text>
 <text id="14441400">Blunt Evelynn</text>
-
 <text id="14450000">Hunter's Blunderbuss</text>
 <text id="14450100">Lethal Hunter's Blunderbuss</text>
 <text id="14450200">Cursed Hunter's Blunderbuss</text>
@@ -2873,7 +2696,6 @@
 <text id="14451200">Holy Hunter's Blunderbuss</text>
 <text id="14451300">Sharp Hunter's Blunderbuss</text>
 <text id="14451400">Blunt Hunter's Blunderbuss</text>
-
 <text id="14460000">Rosamarinus</text>
 <text id="14460100">Maledicinus</text>
 <text id="14460200">Venenus</text>
@@ -2882,7 +2704,6 @@
 <text id="14460500">Ignius</text>
 <text id="14460600">Fulgurius</text>
 <text id="14460700">Vitainus</text>
-
 <text id="14470000">Fist of Gratia</text>
 <text id="14470100">Lethal Fist of Gratia</text>
 <text id="14470200">Cursed Fist of Gratia</text>
@@ -2898,7 +2719,6 @@
 <text id="14471200">Holy Fist of Gratia</text>
 <text id="14471300">Sharp Fist of Gratia</text>
 <text id="14471400">Blunt Fist of Gratia</text>
-
 <text id="16000000">Sellsword Twinblades</text>
 <text id="16000100">Lethal Sellsword Twinblades</text>
 <text id="16000200">Cursed Sellsword Twinblades</text>
@@ -2914,7 +2734,6 @@
 <text id="16001200">Holy Sellsword Twinblades</text>
 <text id="16001300">Sharp Sellsword Twinblades</text>
 <text id="16001400">Blunt Sellsword Twinblades</text>
-
 <text id="16020000">Warden Twinblades</text>
 <text id="16020100">Lethal Warden Twinblades</text>
 <text id="16020200">Cursed Warden Twinblades</text>
@@ -2930,7 +2749,6 @@
 <text id="16021200">Holy Warden Twinblades</text>
 <text id="16021300">Sharp Warden Twinblades</text>
 <text id="16021400">Blunt Warden Twinblades</text>
-
 <text id="16030000">Winged Knight Twinaxes</text>
 <text id="16030100">Lethal Winged Knight Twinaxes</text>
 <text id="16030200">Cursed Winged Knight Twinaxes</text>
@@ -2946,7 +2764,6 @@
 <text id="16031200">Holy Winged Knight Twinaxes</text>
 <text id="16031300">Sharp Winged Knight Twinaxes</text>
 <text id="16031400">Blunt Winged Knight Twinaxes</text>
-
 <text id="16040000">Dancer's Paired Swords</text>
 <text id="16040100">Dancer's Lethal Swords</text>
 <text id="16040200">Dancer's Cursed Swords</text>
@@ -2962,7 +2779,6 @@
 <text id="16041200">Dancer's Holy Swords</text>
 <text id="16041300">Dancer's Sharp Swords</text>
 <text id="16041400">Dancer's Blunt Swords</text>
-
 <text id="16050000">Great Machete</text>
 <text id="16050100">Lethal Great Machete</text>
 <text id="16050200">Cursed Great Machete</text>
@@ -2978,7 +2794,6 @@
 <text id="16051200">Holy Great Machete</text>
 <text id="16051300">Sharp Great Machete</text>
 <text id="16051400">Blunt Great Machete</text>
-
 <text id="16060000">Brigand Twindaggers</text>
 <text id="16060100">Lethal Brigand Twindaggers</text>
 <text id="16060200">Cursed Brigand Twindaggers</text>
@@ -2994,7 +2809,6 @@
 <text id="16061200">Holy Brigand Twindaggers</text>
 <text id="16061300">Sharp Brigand Twindaggers</text>
 <text id="16061400">Blunt Brigand Twindaggers</text>
-
 <text id="16070000">Gotthard Twinswords</text>
 <text id="16070100">Lethal Gotthard Twinswords</text>
 <text id="16070200">Cursed Gotthard Twinswords</text>
@@ -3010,7 +2824,6 @@
 <text id="16071200">Holy Gotthard Twinswords</text>
 <text id="16071300">Sharp Gotthard Twinswords</text>
 <text id="16071400">Blunt Gotthard Twinswords</text>
-
 <text id="16080000">Ciaran's Tracers</text>
 <text id="16080100">Ciaran's Lethal Tracers</text>
 <text id="16080200">Ciaran's Cursed Tracers</text>
@@ -3026,7 +2839,6 @@
 <text id="16081200">Ciaran's Holy Tracers</text>
 <text id="16081300">Ciaran's Sharp Tracers</text>
 <text id="16081400">Ciaran's Blunt Tracers</text>
-
 <text id="16090000">Onikiri and Ubadachi</text>
 <text id="16090100">Lethal Onikiri and Ubadachi</text>
 <text id="16090200">Cursed Onikiri and Ubadachi</text>
@@ -3042,7 +2854,6 @@
 <text id="16091200">Holy Onikiri and Ubadachi</text>
 <text id="16091300">Sharp Onikiri and Ubadachi</text>
 <text id="16091400">Blunt Onikiri and Ubadachi</text>
-
 <text id="16100000">Drang Twinspears</text>
 <text id="16100100">Lethal Drang Twinspears</text>
 <text id="16100200">Cursed Drang Twinspears</text>
@@ -3058,7 +2869,6 @@
 <text id="16101200">Holy Drang Twinspears</text>
 <text id="16101300">Sharp Drang Twinspears</text>
 <text id="16101400">Blunt Drang Twinspears</text>
-
 <text id="16130000">Drang Hammers</text>
 <text id="16130100">Lethal Drang Hammers</text>
 <text id="16130200">Cursed Drang Hammers</text>
@@ -3074,7 +2884,6 @@
 <text id="16131200">Holy Drang Hammers</text>
 <text id="16131300">Sharp Drang Hammers</text>
 <text id="16131400">Blunt Drang Hammers</text>
-
 <text id="16170000">Imperious Greatshield</text>
 <text id="16170100">Lethal Imperious Greatshield</text>
 <text id="16170200">Cursed Imperious Greatshield</text>
@@ -3090,295 +2899,246 @@
 <text id="16171200">Holy Imperious Greatshield</text>
 <text id="16171300">Sharp Imperious Greatshield</text>
 <text id="16171400">Blunt Imperious Greatshield</text>
-
 <text id="17000000">Sorcerer's Staff</text>
 <text id="17000100">Sorcerer's Pulsating Staff</text>
 <text id="17000200">Sorcerer's Vibrating Staff</text>
 <text id="17000300">Sorcerer's Throbbing Staff</text>
 <text id="17000400">Sorcerer's Quivering Staff</text>
-
 <text id="17010000">Sage's Crystal Staff</text>
 <text id="17010100">Sage's Pulsating Staff</text>
 <text id="17010200">Sage's Vibrating Staff</text>
 <text id="17010300">Sage's Throbbing Staff</text>
 <text id="17010400">Sage's Quivering Staff</text>
-
 <text id="17020000">Court Sorcerer's Staff</text>
 <text id="17020100">Court Sorcerer's Pulsating Staff</text>
 <text id="17020200">Court Sorcerer's Vibrating Staff</text>
 <text id="17020300">Court Sorcerer's Throbbing Staff</text>
 <text id="17020400">Court Sorcerer's Quivering Staff</text>
-
 <text id="17030000">Witchtree Branch</text>
 <text id="17030100">Pulsating Witchtree Branch</text>
 <text id="17030200">Vibrating Witchtree Branch</text>
 <text id="17030300">Throbbing Witchtree Branch</text>
 <text id="17030400">Quivering Witchtree Branch</text>
-
 <text id="17040000">Velka's Talisman</text>
 <text id="17040100">Velka's Pulsating Talisman</text>
 <text id="17040200">Velka's Vibrating Talisman</text>
 <text id="17040300">Velka's Throbbing Talisman</text>
 <text id="17040400">Velka's Quivering Talisman</text>
-
 <text id="17050000">Sunless Talisman</text>
 <text id="17050100">Pulsating Sunless Talisman</text>
 <text id="17050200">Vibrating Sunless Talisman</text>
 <text id="17050300">Throbbing Sunless Talisman</text>
 <text id="17050400">Quivering Sunless Talisman</text>
-
 <text id="17060000">Mendicant's Staff</text>
 <text id="17060100">Mendicant's Pulsating Staff</text>
 <text id="17060200">Mendicant's Vibrating Staff</text>
 <text id="17060300">Mendicant's Throbbing Staff</text>
 <text id="17060400">Mendicant's Quivering Staff</text>
-
 <text id="17070000">Izalith Staff</text>
 <text id="17070100">Pulsating Izalith Staff</text>
 <text id="17070200">Vibrating Izalith Staff</text>
 <text id="17070300">Throbbing Izalith Staff</text>
 <text id="17070400">Quivering Izalith Staff</text>
-
 <text id="17080000">Man-grub's Staff</text>
 <text id="17080100">Man-grub's Pulsating Staff</text>
 <text id="17080200">Man-grub's Vibrating Staff</text>
 <text id="17080300">Man-grub's Throbbing Staff</text>
 <text id="17080400">Man-grub's Quivering Staff</text>
-
 <text id="17090000">Crystal Chime</text>
 <text id="17090100">Pulsating Crystal Chime</text>
 <text id="17090200">Vibrating Crystal Chime</text>
 <text id="17090300">Throbbing Crystal Chime</text>
 <text id="17090400">Quivering Crystal Chime</text>
-
 <text id="17100000">Sorcerous Flame</text>
 <text id="17100100">Pulsating Sorcerous Flame</text>
 <text id="17100200">Vibrating Sorcerous Flame</text>
 <text id="17100300">Throbbing Sorcerous Flame</text>
 <text id="17100400">Quivering Sorcerous Flame</text>
-
 <text id="17110000">Golden Ritual Spear</text>
 <text id="17110100">Pulsating Golden Ritual Spear</text>
 <text id="17110200">Vibrating Golden Ritual Spear</text>
 <text id="17110300">Throbbing Golden Ritual Spear</text>
 <text id="17110400">Quivering Golden Ritual Spear</text>
-
 <text id="17120000">Heysel Pick</text>
 <text id="17120100">Pulsating Heysel Pick</text>
 <text id="17120200">Vibrating Heysel Pick</text>
 <text id="17120300">Throbbing Heysel Pick</text>
 <text id="17120400">Quivering Heysel Pick</text>
-
 <text id="17130000">Blue Flame</text>
 <text id="17130100">Pulsating Blue Flame</text>
 <text id="17130200">Vibrating Blue Flame</text>
 <text id="17130300">Throbbing Blue Flame</text>
 <text id="17130400">Quivering Blue Flame</text>
-
 <text id="18000000">Talisman</text>
 <text id="18000100">Pulsating Talisman</text>
 <text id="18000200">Vibrating Talisman</text>
 <text id="18000300">Throbbing Talisman</text>
 <text id="18000400">Quivering Talisman</text>
-
 <text id="18010000">Rotten Talisman</text>
 <text id="18010100">Pulsating Rotten Talisman</text>
 <text id="18010200">Vibrating Rotten Talisman</text>
 <text id="18010300">Throbbing Rotten Talisman</text>
 <text id="18010400">Quivering Rotten Talisman</text>
-
 <text id="18020000">Smouldering Talisman</text>
 <text id="18020100">Pulsating Smouldering Talisman</text>
 <text id="18020200">Vibrating Smouldering Talisman</text>
 <text id="18020300">Throbbing Smouldering Talisman</text>
 <text id="18020400">Quivering Smouldering Talisman</text>
-
 <text id="18030000">Sunlight Talisman</text>
 <text id="18030100">Pulsating Sunlight Talisman</text>
 <text id="18030200">Vibrating Sunlight Talisman</text>
 <text id="18030300">Throbbing Sunlight Talisman</text>
 <text id="18030400">Quivering Sunlight Talisman</text>
-
 <text id="18040000">Saint's Talisman</text>
 <text id="18040100">Saint's Pulsating Talisman</text>
 <text id="18040200">Saint's Vibrating Talisman</text>
 <text id="18040300">Saint's Throbbing Talisman</text>
 <text id="18040400">Saint's Quivering Talisman</text>
-
 <text id="18050000">White Hair Talisman</text>
 <text id="18050100">Pulsating White Hair Talisman</text>
 <text id="18050200">Vibrating White Hair Talisman</text>
 <text id="18050300">Throbbing White Hair Talisman</text>
 <text id="18050400">Quivering White Hair Talisman</text>
-
 <text id="18060000">Cleric's Sacred Chime</text>
 <text id="18060100">Cleric's Pulsating Sacred Chime</text>
 <text id="18060200">Cleric's Vibrating Sacred Chime</text>
 <text id="18060300">Cleric's Throbbing Sacred Chime</text>
 <text id="18060400">Cleric's Quivering Sacred Chime</text>
-
 <text id="18070000">Yorshka's Chime</text>
 <text id="18070100">Yorshka's Pulsating Chime</text>
 <text id="18070200">Yorshka's Vibrating Chime</text>
 <text id="18070300">Yorshka's Throbbing Chime</text>
 <text id="18070400">Yorshka's Quivering Chime</text>
-
 <text id="18080000">Sacred Chime of Filianore</text>
 <text id="18080100">Pulsating Sacred Chime of Filianore</text>
 <text id="18080200">Vibrating Sacred Chime of Filianore</text>
 <text id="18080300">Throbbing Sacred Chime of Filianore</text>
 <text id="18080400">Quivering Sacred Chime of Filianore</text>
-
 <text id="18090000">Saint-tree Bellvine</text>
 <text id="18090100">Pulsating Saint-tree Bellvine</text>
 <text id="18090200">Vibrating Saint-tree Bellvine</text>
 <text id="18090300">Throbbing Saint-tree Bellvine</text>
 <text id="18090400">Quivering Saint-tree Bellvine</text>
-
 <text id="18100000">Holy Flame</text>
 <text id="18100100">Pulsating Holy Flame</text>
 <text id="18100200">Vibrating Holy Flame</text>
 <text id="18100300">Throbbing Holy Flame</text>
 <text id="18100400">Quivering Holy Flame</text>
-
 <text id="18110000">Priest's Candlestick</text>
 <text id="18110100">Priest's Pulsating Candlestick</text>
 <text id="18110200">Priest's Vibrating Candlestick</text>
 <text id="18110300">Priest's Throbbing Candlestick</text>
 <text id="18110400">Priest's Quivering Candlestick</text>
-
 <text id="18120000">Rose of Ariandel</text>
 <text id="18120100">Pulsating Rose of Ariandel</text>
 <text id="18120200">Vibrating Rose of Ariandel</text>
 <text id="18120300">Throbbing Rose of Ariandel</text>
 <text id="18120400">Quivering Rose of Ariandel</text>
-
 <text id="19000000">Heretic's Staff</text>
 <text id="19000100">Heretic's Pulsating Staff</text>
 <text id="19000200">Heretic's Vibrating Staff</text>
 <text id="19000300">Heretic's Throbbing Staff</text>
 <text id="19000400">Heretic's Quivering Staff</text>
-
 <text id="19010000">Storyteller's Staff</text>
 <text id="19010100">Storyteller's Pulsating Staff</text>
 <text id="19010200">Storyteller's Vibrating Staff</text>
 <text id="19010300">Storyteller's Throbbing Staff</text>
 <text id="19010400">Storyteller's Quivering Staff</text>
-
 <text id="19020000">Murky Longstaff</text>
 <text id="19020100">Pulsating Murky Longstaff</text>
 <text id="19020200">Vibrating Murky Longstaff</text>
 <text id="19020300">Throbbing Murky Longstaff</text>
 <text id="19020400">Quivering Murky Longstaff</text>
-
 <text id="19030000">Archdeacon's Great Staff</text>
 <text id="19030100">Archdeacon's Pulsating Great Staff</text>
 <text id="19030200">Archdeacon's Vibrating Great Staff</text>
 <text id="19030300">Archdeacon's Throbbing Great Staff</text>
 <text id="19030400">Archdeacon's Quivering Great Staff</text>
-
 <text id="19040000">Manus Catalyst</text>
 <text id="19040100">Pulsating Manus Catalyst</text>
 <text id="19040200">Vibrating Manus Catalyst</text>
 <text id="19040300">Throbbing Manus Catalyst</text>
 <text id="19040400">Quivering Manus Catalyst</text>
-
 <text id="19050000">Tin Banishment Catalyst</text>
 <text id="19050100">Pulsating Tin Banishment Catalyst</text>
 <text id="19050200">Vibrating Tin Banishment Catalyst</text>
 <text id="19050300">Throbbing Tin Banishment Catalyst</text>
 <text id="19050400">Quivering Tin Banishment Catalyst</text>
-
 <text id="19060000">Consumed King's Staff</text>
 <text id="19060100">Consumed King's Pulsating Staff</text>
 <text id="19060200">Consumed King's Vibrating Staff</text>
 <text id="19060300">Consumed King's Throbbing Staff</text>
 <text id="19060400">Consumed King's Quivering Staff</text>
-
 <text id="19070000">Fallen Priest's Chime</text>
 <text id="19070100">Fallen Priest's Pulsating Chime</text>
 <text id="19070200">Fallen Priest's Vibrating Chime</text>
 <text id="19070300">Fallen Priest's Throbbing Chime</text>
 <text id="19070400">Fallen Priest's Quivering Chime</text>
-
 <text id="19080000">Caitha's Chime</text>
 <text id="19080100">Caitha's Pulsating Chime</text>
 <text id="19080200">Caitha's Vibrating Chime</text>
 <text id="19080300">Caitha's Throbbing Chime</text>
 <text id="19080400">Caitha's Quivering Chime</text>
-
 <text id="19090000">Corrupted Talisman</text>
 <text id="19090100">Pulsating Corrupted Talisman</text>
 <text id="19090200">Vibrating Corrupted Talisman</text>
 <text id="19090300">Throbbing Corrupted Talisman</text>
 <text id="19090400">Quivering Corrupted Talisman</text>
-
 <text id="19100000">Talisman of Beasts</text>
 <text id="19100100">Pulsating Talisman of Beasts</text>
 <text id="19100200">Vibrating Talisman of Beasts</text>
 <text id="19100300">Throbbing Talisman of Beasts</text>
 <text id="19100400">Quivering Talisman of Beasts</text>
-
 <text id="19110000">Insanity Catalyst</text>
 <text id="19110100">Pulsating Insanity Catalyst</text>
 <text id="19110200">Vibrating Insanity Catalyst</text>
 <text id="19110300">Throbbing Insanity Catalyst</text>
 <text id="19110400">Quivering Insanity Catalyst</text>
-
 <text id="19120000">Black Flame</text>
 <text id="19120100">Pulsating Black Flame</text>
 <text id="19120200">Vibrating Black Flame</text>
 <text id="19120300">Throbbing Black Flame</text>
 <text id="19120400">Quivering Black Flame</text>
-
 <text id="19130000">Cleric's Candlestick</text>
 <text id="19130100">Cleric's Pulsating Candlestick</text>
 <text id="19130200">Cleric's Vibrating Candlestick</text>
 <text id="19130300">Cleric's Throbbing Candlestick</text>
 <text id="19130400">Cleric's Quivering Candlestick</text>
-
 <text id="19140000">Pilgrim's Spontoon</text>
 <text id="19140100">Pilgrim's Pulsating Spontoon</text>
 <text id="19140200">Pilgrim's Vibrating Spontoon</text>
 <text id="19140300">Pilgrim's Throbbing Spontoon</text>
 <text id="19140400">Pilgrim's Quivering Spontoon</text>
-
 <text id="19150000">Preacher's Right Arm</text>
 <text id="19150100">Preacher's Pulsating Right Arm</text>
 <text id="19150200">Preacher's Vibrating Right Arm</text>
 <text id="19150300">Preacher's Throbbing Right Arm</text>
 <text id="19150400">Preacher's Quivering Right Arm</text>
-
 <text id="19800000">Pyromancy Flame</text>
 <text id="19800100">Pulsating Pyromancy Flame</text>
 <text id="19800200">Vibrating Pyromancy Flame</text>
 <text id="19800300">Throbbing Pyromancy Flame</text>
 <text id="19800400">Quivering Pyromancy Flame</text>
-
 <text id="19810000">Pyromancer's Parting Flame</text>
 <text id="19810100">Pyromancer's Pulsating Parting Flame</text>
 <text id="19810200">Pyromancer's Vibrating Parting Flame</text>
 <text id="19810300">Pyromancer's Throbbing Parting Flame</text>
 <text id="19810400">Pyromancer's Quivering Parting Flame</text>
-
 <text id="19820000">Demon's Scar</text>
 <text id="19820100">Demon's Pulsating Scar</text>
 <text id="19820200">Demon's Vibrating Scar</text>
 <text id="19820300">Demon's Throbbing Scar</text>
 <text id="19820400">Demon's Quivering Scar</text>
-
 <text id="19830000">Immolation Tinder</text>
 <text id="19830100">Pulsating Immolation Tinder</text>
 <text id="19830200">Vibrating Immolation Tinder</text>
 <text id="19830300">Throbbing Immolation Tinder</text>
 <text id="19830400">Quivering Immolation Tinder</text>
-
 <text id="19900000">Fool's Catalyst</text>
 <text id="19900100">Fool's Pulsating Catalyst</text>
 <text id="19900200">Fool's Vibrating Catalyst</text>
 <text id="19900300">Fool's Throbbing Catalyst</text>
 <text id="19900400">Fool's Quivering Catalyst</text>
-
 <text id="20000000">Buckler</text>
 <text id="20000100">Buckler of Clarity</text>
 <text id="20000200">Buckler of Rejuvenation</text>
@@ -3390,7 +3150,6 @@
 <text id="20000800">Fire Buckler</text>
 <text id="20000900">Lightning Buckler</text>
 <text id="20001000">Dark Buckler</text>
-
 <text id="20010000">Small Leather Shield</text>
 <text id="20010100">Small Leather Shield of Clarity</text>
 <text id="20010200">Small Leather Shield of Rejuvenation</text>
@@ -3402,7 +3161,6 @@
 <text id="20010800">Fire Small Leather Shield</text>
 <text id="20010900">Lightning Small Leather Shield</text>
 <text id="20011000">Dark Small Leather Shield</text>
-
 <text id="20030000">Round Shield</text>
 <text id="20030100">Round Shield of Clarity</text>
 <text id="20030200">Round Shield of Rejuvenation</text>
@@ -3414,7 +3172,6 @@
 <text id="20030800">Fire Round Shield</text>
 <text id="20030900">Lightning Round Shield</text>
 <text id="20031000">Dark Round Shield</text>
-
 <text id="20040000">Large Leather Shield</text>
 <text id="20040100">Large Leather Shield of Clarity</text>
 <text id="20040200">Large Leather Shield of Rejuvenation</text>
@@ -3426,7 +3183,6 @@
 <text id="20040800">Fire Large Leather Shield</text>
 <text id="20040900">Lightning Large Leather Shield</text>
 <text id="20041000">Dark Large Leather Shield</text>
-
 <text id="20070000">Hawkwood's Shield</text>
 <text id="20070100">Hawkwood's Shield of Clarity</text>
 <text id="20070200">Hawkwood's Shield of Rejuvenation</text>
@@ -3438,7 +3194,6 @@
 <text id="20070800">Fire Hawkwood's Shield</text>
 <text id="20070900">Lightning Hawkwood's Shield</text>
 <text id="20071000">Dark Hawkwood's Shield</text>
-
 <text id="20080000">Iron Round Shield</text>
 <text id="20080100">Iron Round Shield of Clarity</text>
 <text id="20080200">Iron Round Shield of Rejuvenation</text>
@@ -3450,7 +3205,6 @@
 <text id="20080800">Fire Iron Round Shield</text>
 <text id="20080900">Lightning Iron Round Shield</text>
 <text id="20081000">Dark Iron Round Shield</text>
-
 <text id="20110000">Wooden Shield</text>
 <text id="20110100">Wooden Shield of Clarity</text>
 <text id="20110200">Wooden Shield of Rejuvenation</text>
@@ -3462,7 +3216,6 @@
 <text id="20110800">Fire Wooden Shield</text>
 <text id="20110900">Lightning Wooden Shield</text>
 <text id="20111000">Dark Wooden Shield</text>
-
 <text id="20120000">Kite Shield</text>
 <text id="20120100">Kite Shield of Clarity</text>
 <text id="20120200">Kite Shield of Rejuvenation</text>
@@ -3474,7 +3227,6 @@
 <text id="20120800">Fire Kite Shield</text>
 <text id="20120900">Lightning Kite Shield</text>
 <text id="20121000">Dark Kite Shield</text>
-
 <text id="20130000">Ghru Rotshield</text>
 <text id="20130100">Ghru Rotshield of Clarity</text>
 <text id="20130200">Ghru Rotshield of Rejuvenation</text>
@@ -3486,7 +3238,6 @@
 <text id="20130800">Fire Ghru Rotshield</text>
 <text id="20130900">Lightning Ghru Rotshield</text>
 <text id="20131000">Dark Ghru Rotshield</text>
-
 <text id="20150000">Havel's Greatshield</text>
 <text id="20150100">Havel's Greatshield of Clarity</text>
 <text id="20150200">Havel's Greatshield of Rejuvenation</text>
@@ -3498,7 +3249,6 @@
 <text id="20150800">Fire Havel's Greatshield</text>
 <text id="20150900">Lightning Havel's Greatshield</text>
 <text id="20151000">Dark Havel's Greatshield</text>
-
 <text id="20160000">Target Shield</text>
 <text id="20160100">Target Shield of Clarity</text>
 <text id="20160200">Target Shield of Rejuvenation</text>
@@ -3510,7 +3260,6 @@
 <text id="20160800">Fire Target Shield</text>
 <text id="20160900">Lightning Target Shield</text>
 <text id="20161000">Dark Target Shield</text>
-
 <text id="20170000">Elkhorn Round Shield</text>
 <text id="20170100">Elkhorn Round Shield of Clarity</text>
 <text id="20170200">Elkhorn Round Shield of Rejuvenation</text>
@@ -3522,7 +3271,6 @@
 <text id="20170800">Fire Elkhorn Round Shield</text>
 <text id="20170900">Lightning Elkhorn Round Shield</text>
 <text id="20171000">Dark Elkhorn Round Shield</text>
-
 <text id="20180000">Warrior's Round Shield</text>
 <text id="20180100">Warrior's Round Shield of Clarity</text>
 <text id="20180200">Warrior's Round Shield of Rejuvenation</text>
@@ -3534,7 +3282,6 @@
 <text id="20180800">Fire Warrior's Round Shield</text>
 <text id="20180900">Lightning Warrior's Round Shield</text>
 <text id="20181000">Dark Warrior's Round Shield</text>
-
 <text id="20190000">Caduceus Round Shield</text>
 <text id="20190100">Caduceus Round Shield of Clarity</text>
 <text id="20190200">Caduceus Round Shield of Rejuvenation</text>
@@ -3546,7 +3293,6 @@
 <text id="20190800">Fire Caduceus Round Shield</text>
 <text id="20190900">Lightning Caduceus Round Shield</text>
 <text id="20191000">Dark Caduceus Round Shield</text>
-
 <text id="20200000">Red and White Round Shield</text>
 <text id="20200100">Red and White Round Shield of Clarity</text>
 <text id="20200200">Red and White Round Shield of Rejuvenation</text>
@@ -3558,7 +3304,6 @@
 <text id="20200800">Fire Red and White Round Shield</text>
 <text id="20200900">Lightning Red and White Round Shield</text>
 <text id="20201000">Dark Red and White Round Shield</text>
-
 <text id="20210000">Plank Shield</text>
 <text id="20210100">Plank Shield of Clarity</text>
 <text id="20210200">Plank Shield of Rejuvenation</text>
@@ -3570,7 +3315,6 @@
 <text id="20210800">Fire Plank Shield</text>
 <text id="20210900">Lightning Plank Shield</text>
 <text id="20211000">Dark Plank Shield</text>
-
 <text id="20220000">Leather Shield</text>
 <text id="20220100">Leather Shield of Clarity</text>
 <text id="20220200">Leather Shield of Rejuvenation</text>
@@ -3582,7 +3326,6 @@
 <text id="20220800">Fire Leather Shield</text>
 <text id="20220900">Lightning Leather Shield</text>
 <text id="20221000">Dark Leather Shield</text>
-
 <text id="20230000">Crimson Parma</text>
 <text id="20230100">Crimson Parma of Clarity</text>
 <text id="20230200">Crimson Parma of Rejuvenation</text>
@@ -3594,7 +3337,6 @@
 <text id="20230800">Fire Crimson Parma</text>
 <text id="20230900">Lightning Crimson Parma</text>
 <text id="20231000">Dark Crimson Parma</text>
-
 <text id="20240000">Eastern Iron Shield</text>
 <text id="20240100">Eastern Iron Shield of Clarity</text>
 <text id="20240200">Eastern Iron Shield of Rejuvenation</text>
@@ -3606,7 +3348,6 @@
 <text id="20240800">Fire Eastern Iron Shield</text>
 <text id="20240900">Lightning Eastern Iron Shield</text>
 <text id="20241000">Dark Eastern Iron Shield</text>
-
 <text id="20250000">Llewellyn Shield</text>
 <text id="20250100">Llewellyn Shield of Clarity</text>
 <text id="20250200">Llewellyn Shield of Rejuvenation</text>
@@ -3618,7 +3359,6 @@
 <text id="20250800">Fire Llewellyn Shield</text>
 <text id="20250900">Lightning Llewellyn Shield</text>
 <text id="20251000">Dark Llewellyn Shield</text>
-
 <text id="20260000">Cleric's Parma</text>
 <text id="20260100">Cleric's Parma of Clarity</text>
 <text id="20260200">Cleric's Parma of Rejuvenation</text>
@@ -3630,7 +3370,6 @@
 <text id="20260800">Fire Cleric's Parma</text>
 <text id="20260900">Lightning Cleric's Parma</text>
 <text id="20261000">Dark Cleric's Parma</text>
-
 <text id="20270000">Golden Falcon Shield</text>
 <text id="20270100">Golden Falcon Shield of Clarity</text>
 <text id="20270200">Golden Falcon Shield of Rejuvenation</text>
@@ -3642,7 +3381,6 @@
 <text id="20270800">Fire Golden Falcon Shield</text>
 <text id="20270900">Lightning Golden Falcon Shield</text>
 <text id="20271000">Dark Golden Falcon Shield</text>
-
 <text id="20280000">Sacred Bloom Shield</text>
 <text id="20280100">Sacred Bloom Shield of Clarity</text>
 <text id="20280200">Sacred Bloom Shield of Rejuvenation</text>
@@ -3654,7 +3392,6 @@
 <text id="20280800">Fire Sacred Bloom Shield</text>
 <text id="20280900">Lightning Sacred Bloom Shield</text>
 <text id="20281000">Dark Sacred Bloom Shield</text>
-
 <text id="20290000">Ancient Dragon Greatshield</text>
 <text id="20290100">Ancient Dragon Greatshield of Clarity</text>
 <text id="20290200">Ancient Dragon Greatshield of Rejuvenation</text>
@@ -3666,7 +3403,6 @@
 <text id="20290800">Fire Ancient Dragon Greatshield</text>
 <text id="20290900">Lightning Ancient Dragon Greatshield</text>
 <text id="20291000">Dark Ancient Dragon Greatshield</text>
-
 <text id="21010000">Lothric Knight Shield</text>
 <text id="21010100">Lothric Knight Shield of Clarity</text>
 <text id="21010200">Lothric Knight Shield of Rejuvenation</text>
@@ -3678,7 +3414,6 @@
 <text id="21010800">Fire Lothric Knight Shield</text>
 <text id="21010900">Lightning Lothric Knight Shield</text>
 <text id="21011000">Dark Lothric Knight Shield</text>
-
 <text id="21040000">Knight Shield</text>
 <text id="21040100">Knight Shield of Clarity</text>
 <text id="21040200">Knight Shield of Rejuvenation</text>
@@ -3690,7 +3425,6 @@
 <text id="21040800">Fire Knight Shield</text>
 <text id="21040900">Lightning Knight Shield</text>
 <text id="21041000">Dark Knight Shield</text>
-
 <text id="21060000">Pontiff Knight Shield</text>
 <text id="21060100">Pontiff Knight Shield of Clarity</text>
 <text id="21060200">Pontiff Knight Shield of Rejuvenation</text>
@@ -3702,7 +3436,6 @@
 <text id="21060800">Fire Pontiff Knight Shield</text>
 <text id="21060900">Lightning Pontiff Knight Shield</text>
 <text id="21061000">Dark Pontiff Knight Shield</text>
-
 <text id="21070000">Carthus Shield</text>
 <text id="21070100">Carthus Shield of Clarity</text>
 <text id="21070200">Carthus Shield of Rejuvenation</text>
@@ -3714,7 +3447,6 @@
 <text id="21070800">Fire Carthus Shield</text>
 <text id="21070900">Lightning Carthus Shield</text>
 <text id="21071000">Dark Carthus Shield</text>
-
 <text id="21100000">Black Knight Shield</text>
 <text id="21100100">Black Knight Shield of Clarity</text>
 <text id="21100200">Black Knight Shield of Rejuvenation</text>
@@ -3726,7 +3458,6 @@
 <text id="21100800">Fire Black Knight Shield</text>
 <text id="21100900">Lightning Black Knight Shield</text>
 <text id="21101000">Dark Black Knight Shield</text>
-
 <text id="21110000">Prince's Shield</text>
 <text id="21110100">Prince's Shield of Clarity</text>
 <text id="21110200">Prince's Shield of Rejuvenation</text>
@@ -3738,7 +3469,6 @@
 <text id="21110800">Fire Prince's Shield</text>
 <text id="21110900">Lightning Prince's Shield</text>
 <text id="21111000">Dark Prince's Shield</text>
-
 <text id="21120000">Silver Knight Shield</text>
 <text id="21120100">Silver Knight Shield of Clarity</text>
 <text id="21120200">Silver Knight Shield of Rejuvenation</text>
@@ -3750,7 +3480,6 @@
 <text id="21120800">Fire Silver Knight Shield</text>
 <text id="21120900">Lightning Silver Knight Shield</text>
 <text id="21121000">Dark Silver Knight Shield</text>
-
 <text id="21130000">Spiked Shield</text>
 <text id="21130100">Spiked Shield of Clarity</text>
 <text id="21130200">Spiked Shield of Rejuvenation</text>
@@ -3762,7 +3491,6 @@
 <text id="21130800">Fire Spiked Shield</text>
 <text id="21130900">Lightning Spiked Shield</text>
 <text id="21131000">Dark Spiked Shield</text>
-
 <text id="21140000">Pierce Shield</text>
 <text id="21140100">Pierce Shield of Clarity</text>
 <text id="21140200">Pierce Shield of Rejuvenation</text>
@@ -3774,7 +3502,6 @@
 <text id="21140800">Fire Pierce Shield</text>
 <text id="21140900">Lightning Pierce Shield</text>
 <text id="21141000">Dark Pierce Shield</text>
-
 <text id="21150000">East-West Shield</text>
 <text id="21150100">East-West Shield of Clarity</text>
 <text id="21150200">East-West Shield of Rejuvenation</text>
@@ -3786,7 +3513,6 @@
 <text id="21150800">Fire East-West Shield</text>
 <text id="21150900">Lightning East-West Shield</text>
 <text id="21151000">Dark East-West Shield</text>
-
 <text id="21160000">Sunlight Shield</text>
 <text id="21160100">Sunlight Shield of Clarity</text>
 <text id="21160200">Sunlight Shield of Rejuvenation</text>
@@ -3798,7 +3524,6 @@
 <text id="21160800">Fire Sunlight Shield</text>
 <text id="21160900">Lightning Sunlight Shield</text>
 <text id="21161000">Dark Sunlight Shield</text>
-
 <text id="21170000">Crest Shield</text>
 <text id="21170100">Crest Shield of Clarity</text>
 <text id="21170200">Crest Shield of Rejuvenation</text>
@@ -3810,7 +3535,6 @@
 <text id="21170800">Fire Crest Shield</text>
 <text id="21170900">Lightning Crest Shield</text>
 <text id="21171000">Dark Crest Shield</text>
-
 <text id="21180000">Dragon Crest Shield</text>
 <text id="21180100">Dragon Crest Shield of Clarity</text>
 <text id="21180200">Dragon Crest Shield of Rejuvenation</text>
@@ -3822,7 +3546,6 @@
 <text id="21180800">Fire Dragon Crest Shield</text>
 <text id="21180900">Lightning Dragon Crest Shield</text>
 <text id="21181000">Dark Dragon Crest Shield</text>
-
 <text id="21190000">Spider Shield</text>
 <text id="21190100">Spider Shield of Clarity</text>
 <text id="21190200">Spider Shield of Rejuvenation</text>
@@ -3834,7 +3557,6 @@
 <text id="21190800">Fire Spider Shield</text>
 <text id="21190900">Lightning Spider Shield</text>
 <text id="21191000">Dark Spider Shield</text>
-
 <text id="21200000">Grass Crest Shield</text>
 <text id="21200100">Grass Crest Shield of Clarity</text>
 <text id="21200200">Grass Crest Shield of Rejuvenation</text>
@@ -3846,7 +3568,6 @@
 <text id="21200800">Fire Grass Crest Shield</text>
 <text id="21200900">Lightning Grass Crest Shield</text>
 <text id="21201000">Dark Grass Crest Shield</text>
-
 <text id="21210000">Sunset Shield</text>
 <text id="21210100">Sunset Shield of Clarity</text>
 <text id="21210200">Sunset Shield of Rejuvenation</text>
@@ -3858,7 +3579,6 @@
 <text id="21210800">Fire Sunset Shield</text>
 <text id="21210900">Lightning Sunset Shield</text>
 <text id="21211000">Dark Sunset Shield</text>
-
 <text id="21220000">Golden Wing Crest Shield</text>
 <text id="21220100">Golden Wing Crest Shield of Clarity</text>
 <text id="21220200">Golden Wing Crest Shield of Rejuvenation</text>
@@ -3870,7 +3590,6 @@
 <text id="21220800">Fire Golden Wing Crest Shield</text>
 <text id="21220900">Lightning Golden Wing Crest Shield</text>
 <text id="21221000">Dark Golden Wing Crest Shield</text>
-
 <text id="21230000">Blue Wooden Shield</text>
 <text id="21230100">Blue Wooden Shield of Clarity</text>
 <text id="21230200">Blue Wooden Shield of Rejuvenation</text>
@@ -3882,7 +3601,6 @@
 <text id="21230800">Fire Blue Wooden Shield</text>
 <text id="21230900">Lightning Blue Wooden Shield</text>
 <text id="21231000">Dark Blue Wooden Shield</text>
-
 <text id="21240000">Silver Eagle Kite Shield</text>
 <text id="21240100">Silver Eagle Kite Shield of Clarity</text>
 <text id="21240200">Silver Eagle Kite Shield of Rejuvenation</text>
@@ -3894,7 +3612,6 @@
 <text id="21240800">Fire Silver Eagle Kite Shield</text>
 <text id="21240900">Lightning Silver Eagle Kite Shield</text>
 <text id="21241000">Dark Silver Eagle Kite Shield</text>
-
 <text id="21250000">Stone Parma</text>
 <text id="21250100">Stone Parma of Clarity</text>
 <text id="21250200">Stone Parma of Rejuvenation</text>
@@ -3906,7 +3623,6 @@
 <text id="21250800">Fire Stone Parma</text>
 <text id="21250900">Lightning Stone Parma</text>
 <text id="21251000">Dark Stone Parma</text>
-
 <text id="21260000">Spirit Tree Crest Shield</text>
 <text id="21260100">Spirit Tree Crest Shield of Clarity</text>
 <text id="21260200">Spirit Tree Crest Shield of Rejuvenation</text>
@@ -3918,7 +3634,6 @@
 <text id="21260800">Fire Spirit Tree Crest Shield</text>
 <text id="21260900">Lightning Spirit Tree Crest Shield</text>
 <text id="21261000">Dark Spirit Tree Crest Shield</text>
-
 <text id="21270000">Porcine Shield</text>
 <text id="21270100">Porcine Shield of Clarity</text>
 <text id="21270200">Porcine Shield of Rejuvenation</text>
@@ -3930,7 +3645,6 @@
 <text id="21270800">Fire Porcine Shield</text>
 <text id="21270900">Lightning Porcine Shield</text>
 <text id="21271000">Dark Porcine Shield</text>
-
 <text id="21280000">Shield of Want</text>
 <text id="21280100">Shield of Wanting Clarity</text>
 <text id="21280200">Shield of Wanting Rejuvenation</text>
@@ -3942,7 +3656,6 @@
 <text id="21280800">Fire Shield of Want</text>
 <text id="21280900">Lightning Shield of Want</text>
 <text id="21281000">Dark Shield of Want</text>
-
 <text id="21290000">Wargod Wooden Shield</text>
 <text id="21290100">Wargod Wooden Shield of Clarity</text>
 <text id="21290200">Wargod Wooden Shield of Rejuvenation</text>
@@ -3954,7 +3667,6 @@
 <text id="21290800">Fire Wargod Wooden Shield</text>
 <text id="21290900">Lightning Wargod Wooden Shield</text>
 <text id="21291000">Dark Wargod Wooden Shield</text>
-
 <text id="22010000">Lothric Knight Greatshield</text>
 <text id="22010100">Lothric Knight Greatshield of Clarity</text>
 <text id="22010200">Lothric Knight Greatshield of Rejuvenation</text>
@@ -3966,7 +3678,6 @@
 <text id="22010800">Fire Lothric Knight Greatshield</text>
 <text id="22010900">Lightning Lothric Knight Greatshield</text>
 <text id="22011000">Dark Lothric Knight Greatshield</text>
-
 <text id="22020000">Cathedral Knight Greatshield</text>
 <text id="22020100">Cathedral Knight Greatshield of Clarity</text>
 <text id="22020200">Cathedral Knight Greatshield of Rejuvenation</text>
@@ -3978,7 +3689,6 @@
 <text id="22020800">Fire Cathedral Knight Greatshield</text>
 <text id="22020900">Lightning Cathedral Knight Greatshield</text>
 <text id="22021000">Dark Cathedral Knight Greatshield</text>
-
 <text id="22040000">Dragonslayer Greatshield</text>
 <text id="22040100">Dragonslayer Greatshield of Clarity</text>
 <text id="22040200">Dragonslayer Greatshield of Rejuvenation</text>
@@ -3990,7 +3700,6 @@
 <text id="22040800">Fire Dragonslayer Greatshield</text>
 <text id="22040900">Lightning Dragonslayer Greatshield</text>
 <text id="22041000">Dark Dragonslayer Greatshield</text>
-
 <text id="22050000">Moaning Shield</text>
 <text id="22050100">Moaning Shield of Clarity</text>
 <text id="22050200">Moaning Shield of Rejuvenation</text>
@@ -4002,7 +3711,6 @@
 <text id="22050800">Fire Moaning Shield</text>
 <text id="22050900">Lightning Moaning Shield</text>
 <text id="22051000">Dark Moaning Shield</text>
-
 <text id="22060000">Immortal Dragon Greatshield</text>
 <text id="22060100">Immortal Dragon Greatshield of Clarity</text>
 <text id="22060200">Immortal Dragon Greatshield of Rejuvenation</text>
@@ -4014,7 +3722,6 @@
 <text id="22060800">Fire Immortal Dragon Greatshield</text>
 <text id="22060900">Lightning Immortal Dragon Greatshield</text>
 <text id="22061000">Dark Immortal Dragon Greatshield</text>
-
 <text id="22070000">Yhorm's Greatshield</text>
 <text id="22070100">Yhorm's Greatshield of Clarity</text>
 <text id="22070200">Yhorm's Greatshield of Rejuvenation</text>
@@ -4026,7 +3733,6 @@
 <text id="22070800">Fire Yhorm's Greatshield</text>
 <text id="22070900">Lightning Yhorm's Greatshield</text>
 <text id="22071000">Dark Yhorm's Greatshield</text>
-
 <text id="22080000">Black Iron Greatshield</text>
 <text id="22080100">Black Iron Greatshield of Clarity</text>
 <text id="22080200">Black Iron Greatshield of Rejuvenation</text>
@@ -4038,7 +3744,6 @@
 <text id="22080800">Fire Black Iron Greatshield</text>
 <text id="22080900">Lightning Black Iron Greatshield</text>
 <text id="22081000">Dark Black Iron Greatshield</text>
-
 <text id="22090000">Wolf Knight's Greatshield</text>
 <text id="22090100">Wolf Knight's Greatshield of Clarity</text>
 <text id="22090200">Wolf Knight's Greatshield of Rejuvenation</text>
@@ -4050,7 +3755,6 @@
 <text id="22090800">Fire Wolf Knight's Greatshield</text>
 <text id="22090900">Lightning Wolf Knight's Greatshield</text>
 <text id="22091000">Dark Wolf Knight's Greatshield</text>
-
 <text id="22100000">Twin Dragon Greatshield</text>
 <text id="22100100">Twin Dragon Greatshield of Clarity</text>
 <text id="22100200">Twin Dragon Greatshield of Rejuvenation</text>
@@ -4062,7 +3766,6 @@
 <text id="22100800">Fire Twin Dragon Greatshield</text>
 <text id="22100900">Lightning Twin Dragon Greatshield</text>
 <text id="22101000">Dark Twin Dragon Greatshield</text>
-
 <text id="22110000">Greatshield of Glory</text>
 <text id="22110100">Greatshield of Glorious Clarity</text>
 <text id="22110200">Greatshield of Glorious Rejuvenation</text>
@@ -4074,7 +3777,6 @@
 <text id="22110800">Fire Greatshield of Glory</text>
 <text id="22110900">Lightning Greatshield of Glory</text>
 <text id="22111000">Dark Greatshield of Glory</text>
-
 <text id="22120000">Curse Ward Greatshield</text>
 <text id="22120100">Curse Ward Greatshield of Clarity</text>
 <text id="22120200">Curse Ward Greatshield of Rejuvenation</text>
@@ -4086,7 +3788,6 @@
 <text id="22120800">Fire Curse Ward Greatshield</text>
 <text id="22120900">Lightning Curse Ward Greatshield</text>
 <text id="22121000">Dark Curse Ward Greatshield</text>
-
 <text id="22130000">Bonewheel Shield</text>
 <text id="22130100">Bonewheel Shield of Clarity</text>
 <text id="22130200">Bonewheel Shield of Rejuvenation</text>
@@ -4098,7 +3799,6 @@
 <text id="22130800">Fire Bonewheel Shield</text>
 <text id="22130900">Lightning Bonewheel Shield</text>
 <text id="22131000">Dark Bonewheel Shield</text>
-
 <text id="22140000">Stone Greatshield</text>
 <text id="22140100">Stone Greatshield of Clarity</text>
 <text id="22140200">Stone Greatshield of Rejuvenation</text>
@@ -4110,7 +3810,6 @@
 <text id="22140800">Fire Stone Greatshield</text>
 <text id="22140900">Lightning Stone Greatshield</text>
 <text id="22141000">Dark Stone Greatshield</text>
-
 <text id="22150000">Loch Shield</text>
 <text id="22150100">Loch Shield of Clarity</text>
 <text id="22150200">Loch Shield of Rejuvenation</text>
@@ -4122,7 +3821,6 @@
 <text id="22150800">Fire Loch Shield</text>
 <text id="22150900">Lightning Loch Shield</text>
 <text id="22151000">Dark Loch Shield</text>
-
 <text id="22160000">Breaking Wheel</text>
 <text id="22160100">Breaking Wheel of Clarity</text>
 <text id="22160200">Breaking Wheel of Rejuvenation</text>
@@ -4134,7 +3832,6 @@
 <text id="22160800">Fire Breaking Wheel</text>
 <text id="22160900">Lightning Breaking Wheel</text>
 <text id="22161000">Dark Breaking Wheel</text>
-
 <text id="22170000">Black Dragon Shield</text>
 <text id="22170100">Black Dragon Shield of Clarity</text>
 <text id="22170200">Black Dragon Shield of Rejuvenation</text>
@@ -4146,7 +3843,6 @@
 <text id="22170800">Fire Black Dragon Shield</text>
 <text id="22170900">Lightning Black Dragon Shield</text>
 <text id="22171000">Dark Black Dragon Shield</text>
-
 <text id="22180000">Crystalline Shield</text>
 <text id="22180100">Crystalline Shield of Clarity</text>
 <text id="22180200">Crystalline Shield of Rejuvenation</text>
@@ -4158,7 +3854,6 @@
 <text id="22180800">Fire Crystalline Shield</text>
 <text id="22180900">Lightning Crystalline Shield</text>
 <text id="22181000">Dark Crystalline Shield</text>
-
 <text id="22190000">Gargoyle Shield</text>
 <text id="22190100">Gargoyle Shield of Clarity</text>
 <text id="22190200">Gargoyle Shield of Rejuvenation</text>
@@ -4170,7 +3865,6 @@
 <text id="22190800">Fire Gargoyle Shield</text>
 <text id="22190900">Lightning Gargoyle Shield</text>
 <text id="22191000">Dark Gargoyle Shield</text>
-
 <text id="22200000">Giant Shield</text>
 <text id="22200100">Giant Shield of Clarity</text>
 <text id="22200200">Giant Shield of Rejuvenation</text>
@@ -4182,7 +3876,6 @@
 <text id="22200800">Fire Giant Shield</text>
 <text id="22200900">Lightning Giant Shield</text>
 <text id="22201000">Dark Giant Shield</text>
-
 <text id="22210000">Greatshield of Artorias</text>
 <text id="22210100">Greatshield of Artorias of Clarity</text>
 <text id="22210200">Greatshield of Artorias of Rejuvenation</text>
@@ -4194,7 +3887,6 @@
 <text id="22210800">Fire Greatshield of Artorias</text>
 <text id="22210900">Lightning Greatshield of Artorias</text>
 <text id="22211000">Dark Greatshield of Artorias</text>
-
 <text id="22220000">Bulwark Shield</text>
 <text id="22220100">Bulwark Shield of Clarity</text>
 <text id="22220200">Bulwark Shield of Rejuvenation</text>
@@ -4206,7 +3898,6 @@
 <text id="22220800">Fire Bulwark Shield</text>
 <text id="22220900">Lightning Bulwark Shield</text>
 <text id="22221000">Dark Bulwark Shield</text>
-
 <text id="22230000">Dragonkin Shield</text>
 <text id="22230100">Dragonkin Shield of Clarity</text>
 <text id="22230200">Dragonkin Shield of Rejuvenation</text>
@@ -4218,7 +3909,6 @@
 <text id="22230800">Fire Dragonkin Shield</text>
 <text id="22230900">Lightning Dragonkin Shield</text>
 <text id="22231000">Dark Dragonkin Shield</text>
-
 <text id="22240000">Twinfang Greatshield</text>
 <text id="22240100">Twinfang Greatshield of Clarity</text>
 <text id="22240200">Twinfang Greatshield of Rejuvenation</text>
@@ -4230,7 +3920,6 @@
 <text id="22240800">Fire Twinfang Greatshield</text>
 <text id="22240900">Lightning Twinfang Greatshield</text>
 <text id="22241000">Dark Twinfang Greatshield</text>
-
 <text id="22250000">Quicksilver Shield</text>
 <text id="22250100">Quicksilver Shield of Clarity</text>
 <text id="22250200">Quicksilver Shield of Rejuvenation</text>
@@ -4242,7 +3931,6 @@
 <text id="22250800">Fire Quicksilver Shield</text>
 <text id="22250900">Lightning Quicksilver Shield</text>
 <text id="22251000">Dark Quicksilver Shield</text>
-
 <text id="22270000">Adjudicator's Shield</text>
 <text id="22270100">Adjudicator's Shield of Clarity</text>
 <text id="22270200">Adjudicator's Shield of Rejuvenation</text>
@@ -4254,7 +3942,6 @@
 <text id="22270800">Fire Adjudicator's Shield</text>
 <text id="22270900">Lightning Adjudicator's Shield</text>
 <text id="22271000">Dark Adjudicator's Shield</text>
-
 <text id="22280000">Crystal Ring Shield</text>
 <text id="22280100">Crystal Ring Shield of Clarity</text>
 <text id="22280200">Crystal Ring Shield of Rejuvenation</text>
@@ -4266,7 +3953,6 @@
 <text id="22280800">Fire Crystal Ring Shield</text>
 <text id="22280900">Lightning Crystal Ring Shield</text>
 <text id="22281000">Dark Crystal Ring Shield</text>
-
 <text id="22290000">Sanctus</text>
 <text id="22290100">Sanctus of Clarity</text>
 <text id="22290200">Sanctus of Rejuvenation</text>
@@ -4278,7 +3964,6 @@
 <text id="22290800">Fire Sanctus</text>
 <text id="22290900">Lightning Sanctus</text>
 <text id="22291000">Dark Sanctus</text>
-
 <text id="22300000">Shield of the Hunted</text>
 <text id="22300100">Shield of the Hunted Clarity</text>
 <text id="22300200">Shield of the Hunted Rejuvenation</text>
@@ -4290,7 +3975,6 @@
 <text id="22300800">Fire Shield of the Hunted</text>
 <text id="22300900">Lightning Shield of the Hunted</text>
 <text id="22301000">Dark Shield of the Hunted</text>
-
 <text id="22310000">Smouldering Shield</text>
 <text id="22310100">Smouldering Shield of Clarity</text>
 <text id="22310200">Smouldering Shield of Rejuvenation</text>
@@ -4302,7 +3986,6 @@
 <text id="22310800">Fire Smouldering Shield</text>
 <text id="22310900">Lightning Smouldering Shield</text>
 <text id="22311000">Dark Smouldering Shield</text>
-
 <text id="22320000">King's Mirror</text>
 <text id="22320100">King's Mirror of Clarity</text>
 <text id="22320200">King's Mirror of Rejuvenation</text>
@@ -4314,7 +3997,6 @@
 <text id="22320800">King's Fire Mirror</text>
 <text id="22320900">King's Lightning Mirror</text>
 <text id="22321000">King's Dark Mirror</text>
-
 <text id="23000000">Torch</text>
 <text id="23000100">Lethal Torch</text>
 <text id="23000200">Cursed Torch</text>
@@ -4330,7 +4012,6 @@
 <text id="23001200">Holy Torch</text>
 <text id="23001300">Sharp Torch</text>
 <text id="23001400">Blunt Torch</text>
-
 <text id="23010000">Follower Torch</text>
 <text id="23010100">Lethal Follower Torch</text>
 <text id="23010200">Cursed Follower Torch</text>
@@ -4346,7 +4027,6 @@
 <text id="23011200">Holy Follower Torch</text>
 <text id="23011300">Sharp Follower Torch</text>
 <text id="23011400">Blunt Follower Torch</text>
-
 <text id="30010000">Firelink Dagger</text>
 <text id="30010100">Lethal Firelink Dagger</text>
 <text id="30010200">Cursed Firelink Dagger</text>
@@ -4362,7 +4042,6 @@
 <text id="30011200">Holy Firelink Dagger</text>
 <text id="30011300">Sharp Firelink Dagger</text>
 <text id="30011400">Blunt Firelink Dagger</text>
-
 <text id="30020000">Firelink Spear</text>
 <text id="30020100">Lethal Firelink Spear</text>
 <text id="30020200">Cursed Firelink Spear</text>
@@ -4378,7 +4057,6 @@
 <text id="30021200">Holy Firelink Spear</text>
 <text id="30021300">Sharp Firelink Spear</text>
 <text id="30021400">Blunt Firelink Spear</text>
-
 <text id="30030000">Firelink Sword</text>
 <text id="30030100">Lethal Firelink Sword</text>
 <text id="30030200">Cursed Firelink Sword</text>
@@ -4394,7 +4072,6 @@
 <text id="30031200">Holy Firelink Sword</text>
 <text id="30031300">Sharp Firelink Sword</text>
 <text id="30031400">Blunt Firelink Sword</text>
-
 <text id="30040000">Firelink Rapier</text>
 <text id="30040100">Lethal Firelink Rapier</text>
 <text id="30040200">Cursed Firelink Rapier</text>
@@ -4410,7 +4087,6 @@
 <text id="30041200">Holy Firelink Rapier</text>
 <text id="30041300">Sharp Firelink Rapier</text>
 <text id="30041400">Blunt Firelink Rapier</text>
-
 <text id="30050000">Greatwood Club</text>
 <text id="30050100">Lethal Greatwood Club</text>
 <text id="30050200">Cursed Greatwood Club</text>
@@ -4426,7 +4102,6 @@
 <text id="30051200">Holy Greatwood Club</text>
 <text id="30051300">Sharp Greatwood Club</text>
 <text id="30051400">Blunt Greatwood Club</text>
-
 <text id="30060000">Irithyll Lance</text>
 <text id="30060100">Lethal Irithyll Lance</text>
 <text id="30060200">Cursed Irithyll Lance</text>
@@ -4442,7 +4117,6 @@
 <text id="30061200">Holy Irithyll Lance</text>
 <text id="30061300">Sharp Irithyll Lance</text>
 <text id="30061400">Blunt Irithyll Lance</text>
-
 <text id="30070000">Fume Sword</text>
 <text id="30070100">Lethal Fume Sword</text>
 <text id="30070200">Cursed Fume Sword</text>
@@ -4458,7 +4132,6 @@
 <text id="30071200">Holy Fume Sword</text>
 <text id="30071300">Sharp Fume Sword</text>
 <text id="30071400">Blunt Fume Sword</text>
-
 <text id="30080000">Machete</text>
 <text id="30080100">Lethal Machete</text>
 <text id="30080200">Cursed Machete</text>
@@ -4474,7 +4147,6 @@
 <text id="30081200">Holy Machete</text>
 <text id="30081300">Sharp Machete</text>
 <text id="30081400">Blunt Machete</text>
-
 <text id="30090000">Demon's Axe</text>
 <text id="30090100">Lethal Demon's Axe</text>
 <text id="30090200">Cursed Demon's Axe</text>
@@ -4490,7 +4162,6 @@
 <text id="30091200">Holy Demon's Axe</text>
 <text id="30091300">Sharp Demon's Axe</text>
 <text id="30091400">Blunt Demon's Axe</text>
-
 <text id="30100000">Abyssal Greatsword</text>
 <text id="30100100">Lethal Abyssal Greatsword</text>
 <text id="30100200">Cursed Abyssal Greatsword</text>
@@ -4506,7 +4177,6 @@
 <text id="30101200">Holy Abyssal Greatsword</text>
 <text id="30101300">Sharp Abyssal Greatsword</text>
 <text id="30101400">Blunt Abyssal Greatsword</text>
-
 <text id="30110000">Moonlight Sword</text>
 <text id="30110100">Lethal Moonlight Sword</text>
 <text id="30110200">Cursed Moonlight Sword</text>
@@ -4522,7 +4192,6 @@
 <text id="30111200">Holy Moonlight Sword</text>
 <text id="30111300">Sharp Moonlight Sword</text>
 <text id="30111400">Blunt Moonlight Sword</text>
-
 <text id="30130000">Pontiff Knight Greatsword</text>
 <text id="30130100">Lethal Pontiff Knight Greatsword</text>
 <text id="30130200">Cursed Pontiff Knight Greatsword</text>
@@ -4538,7 +4207,6 @@
 <text id="30131200">Holy Pontiff Knight Greatsword</text>
 <text id="30131300">Sharp Pontiff Knight Greatsword</text>
 <text id="30131400">Blunt Pontiff Knight Greatsword</text>
-
 <text id="30140000">Smelter Hammer</text>
 <text id="30140100">Lethal Smelter Hammer</text>
 <text id="30140200">Cursed Smelter Hammer</text>
@@ -4554,7 +4222,6 @@
 <text id="30141200">Holy Smelter Hammer</text>
 <text id="30141300">Sharp Smelter Hammer</text>
 <text id="30141400">Blunt Smelter Hammer</text>
-
 <text id="30170000">Drake Fist</text>
 <text id="30170100">Lethal Drake Fist</text>
 <text id="30170200">Cursed Drake Fist</text>
@@ -4570,7 +4237,6 @@
 <text id="30171200">Holy Drake Fist</text>
 <text id="30171300">Sharp Drake Fist</text>
 <text id="30171400">Blunt Drake Fist</text>
-
 <text id="30180000">Irithyll Warpick</text>
 <text id="30180100">Lethal Irithyll Warpick</text>
 <text id="30180200">Cursed Irithyll Warpick</text>
@@ -4586,7 +4252,6 @@
 <text id="30181200">Holy Irithyll Warpick</text>
 <text id="30181300">Sharp Irithyll Warpick</text>
 <text id="30181400">Blunt Irithyll Warpick</text>
-
 <text id="30200000">Tailbone Club</text>
 <text id="30200100">Lethal Tailbone Club</text>
 <text id="30200200">Cursed Tailbone Club</text>
@@ -4602,7 +4267,6 @@
 <text id="30201200">Holy Tailbone Club</text>
 <text id="30201300">Sharp Tailbone Club</text>
 <text id="30201400">Blunt Tailbone Club</text>
-
 <text id="30220000">Irithyll Mace</text>
 <text id="30220100">Lethal Irithyll Mace</text>
 <text id="30220200">Cursed Irithyll Mace</text>
@@ -4618,7 +4282,6 @@
 <text id="30221200">Holy Irithyll Mace</text>
 <text id="30221300">Sharp Irithyll Mace</text>
 <text id="30221400">Blunt Irithyll Mace</text>
-
 <text id="30240000">Wooden Mallet</text>
 <text id="30240100">Lethal Wooden Mallet</text>
 <text id="30240200">Cursed Wooden Mallet</text>
@@ -4634,7 +4297,6 @@
 <text id="30241200">Holy Wooden Mallet</text>
 <text id="30241300">Sharp Wooden Mallet</text>
 <text id="30241400">Blunt Wooden Mallet</text>
-
 <text id="30250000">Hallowed Sword</text>
 <text id="30250100">Lethal Hallowed Sword</text>
 <text id="30250200">Cursed Hallowed Sword</text>
@@ -4650,7 +4312,6 @@
 <text id="30251200">Holy Hallowed Sword</text>
 <text id="30251300">Sharp Hallowed Sword</text>
 <text id="30251400">Blunt Hallowed Sword</text>
-
 <text id="30260000">Sunlight Greatsword</text>
 <text id="30260100">Lethal Sunlight Greatsword</text>
 <text id="30260200">Cursed Sunlight Greatsword</text>
@@ -4666,7 +4327,6 @@
 <text id="30261200">Holy Sunlight Greatsword</text>
 <text id="30261300">Sharp Sunlight Greatsword</text>
 <text id="30261400">Blunt Sunlight Greatsword</text>
-
 <text id="30270000">Hallowed Greatsword</text>
 <text id="30270100">Lethal Hallowed Greatsword</text>
 <text id="30270200">Cursed Hallowed Greatsword</text>
@@ -4682,7 +4342,6 @@
 <text id="30271200">Holy Hallowed Greatsword</text>
 <text id="30271300">Sharp Hallowed Greatsword</text>
 <text id="30271400">Blunt Hallowed Greatsword</text>
-
 <text id="30300000">Velka's Rapier</text>
 <text id="30300100">Lethal Velka's Rapier</text>
 <text id="30300200">Cursed Velka's Rapier</text>
@@ -4698,7 +4357,6 @@
 <text id="30301200">Holy Velka's Rapier</text>
 <text id="30301300">Sharp Velka's Rapier</text>
 <text id="30301400">Blunt Velka's Rapier</text>
-
 <text id="30310000">Pursuer's Ultra Greatsword</text>
 <text id="30310100">Pursuer's Lethal Ultra Greatsword</text>
 <text id="30310200">Pursuer's Cursed Ultra Greatsword</text>
@@ -4714,7 +4372,6 @@
 <text id="30311200">Pursuer's Holy Ultra Greatsword</text>
 <text id="30311300">Pursuer's Sharp Ultra Greatsword</text>
 <text id="30311400">Pursuer's Blunt Ultra Greatsword</text>
-
 <text id="30320000">Bloodletter</text>
 <text id="30320100">Lethal Bloodletter</text>
 <text id="30320200">Cursed Bloodletter</text>
@@ -4730,7 +4387,6 @@
 <text id="30321200">Holy Bloodletter</text>
 <text id="30321300">Sharp Bloodletter</text>
 <text id="30321400">Blunt Bloodletter</text>
-
 <text id="30330000">Locust Arm</text>
 <text id="30330100">Lethal Locust Arm</text>
 <text id="30330200">Cursed Locust Arm</text>
@@ -4746,7 +4402,6 @@
 <text id="30331200">Holy Locust Arm</text>
 <text id="30331300">Sharp Locust Arm</text>
 <text id="30331400">Blunt Locust Arm</text>
-
 <text id="30340000">Beast Cutter</text>
 <text id="30340100">Lethal Beast Cutter</text>
 <text id="30340200">Cursed Beast Cutter</text>
@@ -4762,7 +4417,6 @@
 <text id="30341200">Holy Beast Cutter</text>
 <text id="30341300">Sharp Beast Cutter</text>
 <text id="30341400">Blunt Beast Cutter</text>
-
 <text id="30350000">Beasthunter Saif</text>
 <text id="30350100">Lethal Beasthunter Saif</text>
 <text id="30350200">Cursed Beasthunter Saif</text>
@@ -4778,7 +4432,6 @@
 <text id="30351200">Holy Beasthunter Saif</text>
 <text id="30351300">Sharp Beasthunter Saif</text>
 <text id="30351400">Blunt Beasthunter Saif</text>
-
 <text id="30360000">Boom Hammer</text>
 <text id="30360100">Lethal Boom Hammer</text>
 <text id="30360200">Cursed Boom Hammer</text>
@@ -4794,7 +4447,6 @@
 <text id="30361200">Holy Boom Hammer</text>
 <text id="30361300">Sharp Boom Hammer</text>
 <text id="30361400">Blunt Boom Hammer</text>
-
 <text id="30370000">Burial Blade</text>
 <text id="30370100">Lethal Burial Blade</text>
 <text id="30370200">Cursed Burial Blade</text>
@@ -4810,7 +4462,6 @@
 <text id="30371200">Holy Burial Blade</text>
 <text id="30371300">Sharp Burial Blade</text>
 <text id="30371400">Blunt Burial Blade</text>
-
 <text id="30380000">Burial Scythe</text>
 <text id="30380100">Lethal Burial Scythe</text>
 <text id="30380200">Cursed Burial Scythe</text>
@@ -4826,7 +4477,6 @@
 <text id="30381200">Holy Burial Scythe</text>
 <text id="30381300">Sharp Burial Scythe</text>
 <text id="30381400">Blunt Burial Scythe</text>
-
 <text id="30390000">Chikage</text>
 <text id="30390100">Lethal Chikage</text>
 <text id="30390200">Cursed Chikage</text>
@@ -4842,7 +4492,6 @@
 <text id="30391200">Holy Chikage</text>
 <text id="30391300">Sharp Chikage</text>
 <text id="30391400">Blunt Chikage</text>
-
 <text id="30400000">Church Pick</text>
 <text id="30400100">Lethal Church Pick</text>
 <text id="30400200">Cursed Church Pick</text>
@@ -4858,7 +4507,6 @@
 <text id="30401200">Holy Church Pick</text>
 <text id="30401300">Sharp Church Pick</text>
 <text id="30401400">Blunt Church Pick</text>
-
 <text id="30410000">Hunter Axe</text>
 <text id="30410100">Lethal Hunter Axe</text>
 <text id="30410200">Cursed Hunter Axe</text>
@@ -4874,7 +4522,6 @@
 <text id="30411200">Holy Hunter Axe</text>
 <text id="30411300">Sharp Hunter Axe</text>
 <text id="30411400">Blunt Hunter Axe</text>
-
 <text id="30420000">Kirkhammer</text>
 <text id="30420100">Lethal Kirkhammer</text>
 <text id="30420200">Cursed Kirkhammer</text>
@@ -4890,7 +4537,6 @@
 <text id="30421200">Holy Kirkhammer</text>
 <text id="30421300">Sharp Kirkhammer</text>
 <text id="30421400">Blunt Kirkhammer</text>
-
 <text id="30430000">Twinspears of the Forlorn</text>
 <text id="30430100">Lethal Twinspears of the Forlorn</text>
 <text id="30430200">Cursed Twinspears of the Forlorn</text>
@@ -4906,7 +4552,6 @@
 <text id="30431200">Holy Twinspears of the Forlorn</text>
 <text id="30431300">Sharp Twinspears of the Forlorn</text>
 <text id="30431400">Blunt Twinspears of the Forlorn</text>
-
 <text id="30440000">Nil Blade</text>
 <text id="30440100">Lethal Nil Blade</text>
 <text id="30440200">Cursed Nil Blade</text>
@@ -4922,7 +4567,6 @@
 <text id="30441200">Holy Nil Blade</text>
 <text id="30441300">Sharp Nil Blade</text>
 <text id="30441400">Blunt Nil Blade</text>
-
 <text id="30450000">Sanguinus</text>
 <text id="30450100">Lethal Sanguinus</text>
 <text id="30450200">Cursed Sanguinus</text>
@@ -4938,7 +4582,6 @@
 <text id="30451200">Holy Sanguinus</text>
 <text id="30451300">Sharp Sanguinus</text>
 <text id="30451400">Blunt Sanguinus</text>
-
 <text id="30460000">Tonitrus</text>
 <text id="30460100">Lethal Tonitrus</text>
 <text id="30460200">Cursed Tonitrus</text>
@@ -4954,7 +4597,6 @@
 <text id="30461200">Holy Tonitrus</text>
 <text id="30461300">Sharp Tonitrus</text>
 <text id="30461400">Blunt Tonitrus</text>
-
 <text id="30470000">Blades of Mercy</text>
 <text id="30470100">Lethal Blades of Mercy</text>
 <text id="30470200">Cursed Blades of Mercy</text>
@@ -4970,7 +4612,6 @@
 <text id="30471200">Holy Blades of Mercy</text>
 <text id="30471300">Sharp Blades of Mercy</text>
 <text id="30471400">Blunt Blades of Mercy</text>
-
 <text id="30490000">Balder Side Sword</text>
 <text id="30490100">Lethal Balder Side Sword</text>
 <text id="30490200">Cursed Balder Side Sword</text>
@@ -4986,7 +4627,6 @@
 <text id="30491200">Holy Balder Side Sword</text>
 <text id="30491300">Sharp Balder Side Sword</text>
 <text id="30491400">Blunt Balder Side Sword</text>
-
 <text id="30500000">Black Dragon Greataxe</text>
 <text id="30500100">Lethal Black Dragon Greataxe</text>
 <text id="30500200">Cursed Black Dragon Greataxe</text>
@@ -5002,7 +4642,6 @@
 <text id="30501200">Holy Black Dragon Greataxe</text>
 <text id="30501300">Sharp Black Dragon Greataxe</text>
 <text id="30501400">Blunt Black Dragon Greataxe</text>
-
 <text id="30510000">Black Dragon Greatsword</text>
 <text id="30510100">Lethal Black Dragon Greatsword</text>
 <text id="30510200">Cursed Black Dragon Greatsword</text>
@@ -5018,7 +4657,6 @@
 <text id="30511200">Holy Black Dragon Greatsword</text>
 <text id="30511300">Sharp Black Dragon Greatsword</text>
 <text id="30511400">Blunt Black Dragon Greatsword</text>
-
 <text id="30520000">Black Dragon Sword</text>
 <text id="30520100">Lethal Black Dragon Sword</text>
 <text id="30520200">Cursed Black Dragon Sword</text>
@@ -5034,7 +4672,6 @@
 <text id="30521200">Holy Black Dragon Sword</text>
 <text id="30521300">Sharp Black Dragon Sword</text>
 <text id="30521400">Blunt Black Dragon Sword</text>
-
 <text id="30540000">Blind</text>
 <text id="30540100">Lethal Blind</text>
 <text id="30540200">Cursed Blind</text>
@@ -5050,7 +4687,6 @@
 <text id="30541200">Holy Blind</text>
 <text id="30541300">Sharp Blind</text>
 <text id="30541400">Blunt Blind</text>
-
 <text id="30550000">Blueblood Sword</text>
 <text id="30550100">Lethal Blueblood Sword</text>
 <text id="30550200">Cursed Blueblood Sword</text>
@@ -5066,7 +4702,6 @@
 <text id="30551200">Holy Blueblood Sword</text>
 <text id="30551300">Sharp Blueblood Sword</text>
 <text id="30551400">Blunt Blueblood Sword</text>
-
 <text id="30560000">Bramd</text>
 <text id="30560100">Lethal Bramd</text>
 <text id="30560200">Cursed Bramd</text>
@@ -5082,7 +4717,6 @@
 <text id="30561200">Holy Bramd</text>
 <text id="30561300">Sharp Bramd</text>
 <text id="30561400">Blunt Bramd</text>
-
 <text id="30570000">Channeler's Trident</text>
 <text id="30570100">Lethal Channeler's Trident</text>
 <text id="30570200">Cursed Channeler's Trident</text>
@@ -5098,7 +4732,6 @@
 <text id="30571200">Holy Channeler's Trident</text>
 <text id="30571300">Sharp Channeler's Trident</text>
 <text id="30571400">Blunt Channeler's Trident</text>
-
 <text id="30580000">Marvelous Zweihander</text>
 <text id="30580100">Lethal Marvelous Zweihander</text>
 <text id="30580200">Cursed Marvelous Zweihander</text>
@@ -5114,7 +4747,6 @@
 <text id="30581200">Holy Marvelous Zweihander</text>
 <text id="30581300">Sharp Marvelous Zweihander</text>
 <text id="30581400">Blunt Marvelous Zweihander</text>
-
 <text id="30590000">Abyss Greatsword</text>
 <text id="30590100">Lethal Abyss Greatsword</text>
 <text id="30590200">Cursed Abyss Greatsword</text>
@@ -5130,7 +4762,6 @@
 <text id="30591200">Holy Abyss Greatsword</text>
 <text id="30591300">Sharp Abyss Greatsword</text>
 <text id="30591400">Blunt Abyss Greatsword</text>
-
 <text id="30610000">Crystal Straight Sword</text>
 <text id="30610100">Lethal Crystal Straight Sword</text>
 <text id="30610200">Cursed Crystal Straight Sword</text>
@@ -5146,7 +4777,6 @@
 <text id="30611200">Holy Crystal Straight Sword</text>
 <text id="30611300">Sharp Crystal Straight Sword</text>
 <text id="30611400">Blunt Crystal Straight Sword</text>
-
 <text id="30620000">Demon's Great Axe</text>
 <text id="30620100">Lethal Demon's Great Axe</text>
 <text id="30620200">Cursed Demon's Great Axe</text>
@@ -5162,7 +4792,6 @@
 <text id="30621200">Holy Demon's Great Axe</text>
 <text id="30621300">Sharp Demon's Great Axe</text>
 <text id="30621400">Blunt Demon's Great Axe</text>
-
 <text id="30630000">Demon's Great Hammer</text>
 <text id="30630100">Lethal Demon's Great Hammer</text>
 <text id="30630200">Cursed Demon's Great Hammer</text>
@@ -5178,7 +4807,6 @@
 <text id="30631200">Holy Demon's Great Hammer</text>
 <text id="30631300">Sharp Demon's Great Hammer</text>
 <text id="30631400">Blunt Demon's Great Hammer</text>
-
 <text id="30640000">Demon's Machete</text>
 <text id="30640100">Lethal Demon's Machete</text>
 <text id="30640200">Cursed Demon's Machete</text>
@@ -5194,7 +4822,6 @@
 <text id="30641200">Holy Demon's Machete</text>
 <text id="30641300">Sharp Demon's Machete</text>
 <text id="30641400">Blunt Demon's Machete</text>
-
 <text id="30650000">Demon's Spear</text>
 <text id="30650100">Lethal Demon's Spear</text>
 <text id="30650200">Cursed Demon's Spear</text>
@@ -5210,7 +4837,6 @@
 <text id="30651200">Holy Demon's Spear</text>
 <text id="30651300">Sharp Demon's Spear</text>
 <text id="30651400">Blunt Demon's Spear</text>
-
 <text id="30660000">Dozer Axe</text>
 <text id="30660100">Lethal Dozer Axe</text>
 <text id="30660200">Cursed Dozer Axe</text>
@@ -5226,7 +4852,6 @@
 <text id="30661200">Holy Dozer Axe</text>
 <text id="30661300">Sharp Dozer Axe</text>
 <text id="30661400">Blunt Dozer Axe</text>
-
 <text id="30670000">Dragon Bone Fist</text>
 <text id="30670100">Lethal Dragon Bone Fist</text>
 <text id="30670200">Cursed Dragon Bone Fist</text>
@@ -5242,7 +4867,6 @@
 <text id="30671200">Holy Dragon Bone Fist</text>
 <text id="30671300">Sharp Dragon Bone Fist</text>
 <text id="30671400">Blunt Dragon Bone Fist</text>
-
 <text id="30680000">Dragon Bone Smasher</text>
 <text id="30680100">Lethal Dragon Bone Smasher</text>
 <text id="30680200">Cursed Dragon Bone Smasher</text>
@@ -5258,7 +4882,6 @@
 <text id="30681200">Holy Dragon Bone Smasher</text>
 <text id="30681300">Sharp Dragon Bone Smasher</text>
 <text id="30681400">Blunt Dragon Bone Smasher</text>
-
 <text id="30690000">Dragon Greatsword</text>
 <text id="30690100">Lethal Dragon Greatsword</text>
 <text id="30690200">Cursed Dragon Greatsword</text>
@@ -5274,7 +4897,6 @@
 <text id="30691200">Holy Dragon Greatsword</text>
 <text id="30691300">Sharp Dragon Greatsword</text>
 <text id="30691400">Blunt Dragon Greatsword</text>
-
 <text id="30700000">Dragon King Greataxe</text>
 <text id="30700100">Lethal Dragon King Greataxe</text>
 <text id="30700200">Cursed Dragon King Greataxe</text>
@@ -5290,7 +4912,6 @@
 <text id="30701200">Holy Dragon King Greataxe</text>
 <text id="30701300">Sharp Dragon King Greataxe</text>
 <text id="30701400">Blunt Dragon King Greataxe</text>
-
 <text id="30710000">Drake Sword</text>
 <text id="30710100">Lethal Drake Sword</text>
 <text id="30710200">Cursed Drake Sword</text>
@@ -5306,7 +4927,6 @@
 <text id="30711200">Holy Drake Sword</text>
 <text id="30711300">Sharp Drake Sword</text>
 <text id="30711400">Blunt Drake Sword</text>
-
 <text id="30720000">Abyssal Blade</text>
 <text id="30720100">Lethal Abyssal Blade</text>
 <text id="30720200">Cursed Abyssal Blade</text>
@@ -5322,7 +4942,6 @@
 <text id="30721200">Holy Abyssal Blade</text>
 <text id="30721300">Sharp Abyssal Blade</text>
 <text id="30721400">Blunt Abyssal Blade</text>
-
 <text id="30740000">Sage's Stiletto</text>
 <text id="30740100">Lethal Sage's Stiletto</text>
 <text id="30740200">Cursed Sage's Stiletto</text>
@@ -5338,7 +4957,6 @@
 <text id="30741200">Holy Sage's Stiletto</text>
 <text id="30741300">Sharp Sage's Stiletto</text>
 <text id="30741400">Blunt Sage's Stiletto</text>
-
 <text id="30760000">Giant's Halberd</text>
 <text id="30760100">Lethal Giant's Halberd</text>
 <text id="30760200">Cursed Giant's Halberd</text>
@@ -5354,7 +4972,6 @@
 <text id="30761200">Holy Giant's Halberd</text>
 <text id="30761300">Sharp Giant's Halberd</text>
 <text id="30761400">Blunt Giant's Halberd</text>
-
 <text id="30770000">Golem Axe</text>
 <text id="30770100">Lethal Golem Axe</text>
 <text id="30770200">Cursed Golem Axe</text>
@@ -5370,7 +4987,6 @@
 <text id="30771200">Holy Golem Axe</text>
 <text id="30771300">Sharp Golem Axe</text>
 <text id="30771400">Blunt Golem Axe</text>
-
 <text id="30780000">Grant</text>
 <text id="30780100">Lethal Grant</text>
 <text id="30780200">Cursed Grant</text>
@@ -5386,7 +5002,6 @@
 <text id="30781200">Holy Grant</text>
 <text id="30781300">Sharp Grant</text>
 <text id="30781400">Blunt Grant</text>
-
 <text id="30790000">Gravelord Sword</text>
 <text id="30790100">Lethal Gravelord Sword</text>
 <text id="30790200">Cursed Gravelord Sword</text>
@@ -5402,7 +5017,6 @@
 <text id="30791200">Holy Gravelord Sword</text>
 <text id="30791300">Sharp Gravelord Sword</text>
 <text id="30791400">Blunt Gravelord Sword</text>
-
 <text id="30800000">Great Lord Greatsword</text>
 <text id="30800100">Lethal Great Lord Greatsword</text>
 <text id="30800200">Cursed Great Lord Greatsword</text>
@@ -5418,7 +5032,6 @@
 <text id="30801200">Holy Great Lord Greatsword</text>
 <text id="30801300">Sharp Great Lord Greatsword</text>
 <text id="30801400">Blunt Great Lord Greatsword</text>
-
 <text id="30820000">Greatsword of Artorias</text>
 <text id="30820100">Lethal Greatsword of Artorias</text>
 <text id="30820200">Cursed Greatsword of Artorias</text>
@@ -5434,7 +5047,6 @@
 <text id="30821200">Holy Greatsword of Artorias</text>
 <text id="30821300">Sharp Greatsword of Artorias</text>
 <text id="30821400">Blunt Greatsword of Artorias</text>
-
 <text id="30830000">Guillotine Axe</text>
 <text id="30830100">Lethal Guillotine Axe</text>
 <text id="30830200">Cursed Guillotine Axe</text>
@@ -5450,7 +5062,6 @@
 <text id="30831200">Holy Guillotine Axe</text>
 <text id="30831300">Sharp Guillotine Axe</text>
 <text id="30831400">Blunt Guillotine Axe</text>
-
 <text id="30840000">Hands of God</text>
 <text id="30840100">Lethal Hands of God</text>
 <text id="30840200">Cursed Hands of God</text>
@@ -5466,7 +5077,6 @@
 <text id="30841200">Holy Hands of God</text>
 <text id="30841300">Sharp Hands of God</text>
 <text id="30841400">Blunt Hands of God</text>
-
 <text id="30850000">Runelock</text>
 <text id="30850100">Lethal Runelock</text>
 <text id="30850200">Cursed Runelock</text>
@@ -5482,7 +5092,6 @@
 <text id="30851200">Holy Runelock</text>
 <text id="30851300">Sharp Runelock</text>
 <text id="30851400">Blunt Runelock</text>
-
 <text id="30860000">Scraping Spear</text>
 <text id="30860100">Lethal Scraping Spear</text>
 <text id="30860200">Cursed Scraping Spear</text>
@@ -5498,7 +5107,6 @@
 <text id="30861200">Holy Scraping Spear</text>
 <text id="30861300">Sharp Scraping Spear</text>
 <text id="30861400">Blunt Scraping Spear</text>
-
 <text id="30870000">Server</text>
 <text id="30870100">Lethal Server</text>
 <text id="30870200">Cursed Server</text>
@@ -5514,7 +5122,6 @@
 <text id="30871200">Holy Server</text>
 <text id="30871300">Sharp Server</text>
 <text id="30871400">Blunt Server</text>
-
 <text id="30880000">Silver Knight Spear</text>
 <text id="30880100">Lethal Silver Knight Spear</text>
 <text id="30880200">Cursed Silver Knight Spear</text>
@@ -5530,7 +5137,6 @@
 <text id="30881200">Holy Silver Knight Spear</text>
 <text id="30881300">Sharp Silver Knight Spear</text>
 <text id="30881400">Blunt Silver Knight Spear</text>
-
 <text id="30890000">Silver Knight Straight Sword</text>
 <text id="30890100">Lethal Silver Knight Straight Sword</text>
 <text id="30890200">Cursed Silver Knight Straight Sword</text>
@@ -5546,7 +5152,6 @@
 <text id="30891200">Holy Silver Knight Straight Sword</text>
 <text id="30891300">Sharp Silver Knight Straight Sword</text>
 <text id="30891400">Blunt Silver Knight Straight Sword</text>
-
 <text id="30900000">Stone Greatsword</text>
 <text id="30900100">Lethal Stone Greatsword</text>
 <text id="30900200">Cursed Stone Greatsword</text>
@@ -5562,7 +5167,6 @@
 <text id="30901200">Holy Stone Greatsword</text>
 <text id="30901300">Sharp Stone Greatsword</text>
 <text id="30901400">Blunt Stone Greatsword</text>
-
 <text id="30930000">Titanite Catch Pole</text>
 <text id="30930100">Lethal Titanite Catch Pole</text>
 <text id="30930200">Cursed Titanite Catch Pole</text>
@@ -5578,7 +5182,6 @@
 <text id="30931200">Holy Titanite Catch Pole</text>
 <text id="30931300">Sharp Titanite Catch Pole</text>
 <text id="30931400">Blunt Titanite Catch Pole</text>
-
 <text id="30950000">Istarelle</text>
 <text id="30950100">Lethal Istarelle</text>
 <text id="30950200">Cursed Istarelle</text>
@@ -5594,7 +5197,6 @@
 <text id="30951200">Holy Istarelle</text>
 <text id="30951300">Sharp Istarelle</text>
 <text id="30951400">Blunt Istarelle</text>
-
 <text id="30960000">Kris Blade</text>
 <text id="30960100">Lethal Kris Blade</text>
 <text id="30960200">Cursed Kris Blade</text>
@@ -5610,7 +5212,6 @@
 <text id="30961200">Holy Kris Blade</text>
 <text id="30961300">Sharp Kris Blade</text>
 <text id="30961400">Blunt Kris Blade</text>
-
 <text id="30970000">Priscilla's Scythe</text>
 <text id="30970100">Priscilla's Lethal Scythe</text>
 <text id="30970200">Priscilla's Cursed Scythe</text>
@@ -5626,7 +5227,6 @@
 <text id="30971200">Priscilla's Holy Scythe</text>
 <text id="30971300">Priscilla's Sharp Scythe</text>
 <text id="30971400">Priscilla's Blunt Scythe</text>
-
 <text id="30980000">Makoto</text>
 <text id="30980100">Lethal Makoto</text>
 <text id="30980200">Cursed Makoto</text>
@@ -5642,7 +5242,6 @@
 <text id="30981200">Holy Makoto</text>
 <text id="30981300">Sharp Makoto</text>
 <text id="30981400">Blunt Makoto</text>
-
 <text id="30990000">Man Serpent Greatsword</text>
 <text id="30990100">Lethal Man Serpent Greatsword</text>
 <text id="30990200">Cursed Man Serpent Greatsword</text>
@@ -5658,7 +5257,6 @@
 <text id="30991200">Holy Man Serpent Greatsword</text>
 <text id="30991300">Sharp Man Serpent Greatsword</text>
 <text id="30991400">Blunt Man Serpent Greatsword</text>
-
 <text id="31010000">Moonlight Butterfly Horn</text>
 <text id="31010100">Lethal Moonlight Butterfly Horn</text>
 <text id="31010200">Cursed Moonlight Butterfly Horn</text>
@@ -5674,7 +5272,6 @@
 <text id="31011200">Holy Moonlight Butterfly Horn</text>
 <text id="31011300">Sharp Moonlight Butterfly Horn</text>
 <text id="31011400">Blunt Moonlight Butterfly Horn</text>
-
 <text id="31020000">Morion Great Blade</text>
 <text id="31020100">Lethal Morion Great Blade</text>
 <text id="31020200">Cursed Morion Great Blade</text>
@@ -5690,7 +5287,6 @@
 <text id="31021200">Holy Morion Great Blade</text>
 <text id="31021300">Sharp Morion Great Blade</text>
 <text id="31021400">Blunt Morion Great Blade</text>
-
 <text id="31030000">Needle of Eternal Agony</text>
 <text id="31030100">Lethal Needle of Eternal Agony</text>
 <text id="31030200">Cursed Needle of Eternal Agony</text>
@@ -5706,7 +5302,6 @@
 <text id="31031200">Holy Needle of Eternal Agony</text>
 <text id="31031300">Sharp Needle of Eternal Agony</text>
 <text id="31031400">Blunt Needle of Eternal Agony</text>
-
 <text id="31040000">Obsidian Greatsword</text>
 <text id="31040100">Lethal Obsidian Greatsword</text>
 <text id="31040200">Cursed Obsidian Greatsword</text>
@@ -5722,7 +5317,6 @@
 <text id="31041200">Holy Obsidian Greatsword</text>
 <text id="31041300">Sharp Obsidian Greatsword</text>
 <text id="31041400">Blunt Obsidian Greatsword</text>
-
 <text id="31050000">Penetrating Sword</text>
 <text id="31050100">Lethal Penetrating Sword</text>
 <text id="31050200">Cursed Penetrating Sword</text>
@@ -5738,7 +5332,6 @@
 <text id="31051200">Holy Penetrating Sword</text>
 <text id="31051300">Sharp Penetrating Sword</text>
 <text id="31051400">Blunt Penetrating Sword</text>
-
 <text id="31060000">Phosphorescent Pole</text>
 <text id="31060100">Lethal Phosphorescent Pole</text>
 <text id="31060200">Cursed Phosphorescent Pole</text>
@@ -5754,7 +5347,6 @@
 <text id="31061200">Holy Phosphorescent Pole</text>
 <text id="31061300">Sharp Phosphorescent Pole</text>
 <text id="31061400">Blunt Phosphorescent Pole</text>
-
 <text id="31070000">Quelaag's Fury Sword</text>
 <text id="31070100">Quelaag's Lethal Fury Sword</text>
 <text id="31070200">Quelaag's Cursed Fury Sword</text>
@@ -5770,7 +5362,6 @@
 <text id="31071200">Quelaag's Holy Fury Sword</text>
 <text id="31071300">Quelaag's Sharp Fury Sword</text>
 <text id="31071400">Quelaag's Blunt Fury Sword</text>
-
 <text id="31080000">Meat Cleaver</text>
 <text id="31080100">Lethal Meat Cleaver</text>
 <text id="31080200">Cursed Meat Cleaver</text>
@@ -5786,7 +5377,6 @@
 <text id="31081200">Holy Meat Cleaver</text>
 <text id="31081300">Sharp Meat Cleaver</text>
 <text id="31081400">Blunt Meat Cleaver</text>
-
 <text id="31090000">Spiral Greatsword</text>
 <text id="31090100">Lethal Spiral Greatsword</text>
 <text id="31090200">Cursed Spiral Greatsword</text>
@@ -5802,7 +5392,6 @@
 <text id="31091200">Holy Spiral Greatsword</text>
 <text id="31091300">Sharp Spiral Greatsword</text>
 <text id="31091400">Blunt Spiral Greatsword</text>
-
 <text id="31100000">Beast Claw</text>
 <text id="31100100">Lethal Beast Claw</text>
 <text id="31100200">Cursed Beast Claw</text>
@@ -5818,7 +5407,6 @@
 <text id="31101200">Holy Beast Claw</text>
 <text id="31101300">Sharp Beast Claw</text>
 <text id="31101400">Blunt Beast Claw</text>
-
 <text id="31110000">Rakuyo</text>
 <text id="31110100">Lethal Rakuyo</text>
 <text id="31110200">Cursed Rakuyo</text>
@@ -5834,7 +5422,6 @@
 <text id="31111200">Holy Rakuyo</text>
 <text id="31111300">Sharp Rakuyo</text>
 <text id="31111400">Blunt Rakuyo</text>
-
 <text id="31120000">Handmaid's Ladle</text>
 <text id="31120100">Lethal Handmaid's Ladle</text>
 <text id="31120200">Cursed Handmaid's Ladle</text>
@@ -5850,7 +5437,6 @@
 <text id="31121200">Holy Handmaid's Ladle</text>
 <text id="31121300">Sharp Handmaid's Ladle</text>
 <text id="31121400">Blunt Handmaid's Ladle</text>
-
 <text id="31130000">Crypt Blacksword</text>
 <text id="31130100">Lethal Crypt Blacksword</text>
 <text id="31130200">Cursed Crypt Blacksword</text>
@@ -5866,7 +5452,6 @@
 <text id="31131200">Holy Crypt Blacksword</text>
 <text id="31131300">Sharp Crypt Blacksword</text>
 <text id="31131400">Blunt Crypt Blacksword</text>
-
 <text id="31140000">Smelter Sword</text>
 <text id="31140100">Lethal Smelter Sword</text>
 <text id="31140200">Cursed Smelter Sword</text>
@@ -5882,7 +5467,6 @@
 <text id="31141200">Holy Smelter Sword</text>
 <text id="31141300">Sharp Smelter Sword</text>
 <text id="31141400">Blunt Smelter Sword</text>
-
 <text id="31150000">Blue Flame</text>
 <text id="31150100">Lethal Blue Flame</text>
 <text id="31150200">Cursed Blue Flame</text>
@@ -5898,7 +5482,6 @@
 <text id="31151200">Holy Blue Flame</text>
 <text id="31151300">Sharp Blue Flame</text>
 <text id="31151400">Blunt Blue Flame</text>
-
 <text id="31160000">Ash Demon Hammer</text>
 <text id="31160100">Lethal Ash Demon Hammer</text>
 <text id="31160200">Cursed Ash Demon Hammer</text>
@@ -5914,7 +5497,6 @@
 <text id="31161200">Holy Ash Demon Hammer</text>
 <text id="31161300">Sharp Ash Demon Hammer</text>
 <text id="31161400">Blunt Ash Demon Hammer</text>
-
 <text id="31170000">Elder Ghru Tree</text>
 <text id="31170100">Lethal Elder Ghru Tree</text>
 <text id="31170200">Cursed Elder Ghru Tree</text>
@@ -5930,7 +5512,6 @@
 <text id="31171200">Holy Elder Ghru Tree</text>
 <text id="31171300">Sharp Elder Ghru Tree</text>
 <text id="31171400">Blunt Elder Ghru Tree</text>
-
 <text id="31180000">Giant Crab Arm</text>
 <text id="31180100">Lethal Giant Crab Arm</text>
 <text id="31180200">Cursed Giant Crab Arm</text>
@@ -5946,7 +5527,6 @@
 <text id="31181200">Holy Giant Crab Arm</text>
 <text id="31181300">Sharp Giant Crab Arm</text>
 <text id="31181400">Blunt Giant Crab Arm</text>
-
 <text id="31190000">Hunter's Log</text>
 <text id="31190100">Lethal Hunter's Log</text>
 <text id="31190200">Cursed Hunter's Log</text>
@@ -5962,7 +5542,6 @@
 <text id="31191200">Holy Hunter's Log</text>
 <text id="31191300">Sharp Hunter's Log</text>
 <text id="31191400">Blunt Hunter's Log</text>
-
 <text id="31200000">Serpentine Twindaggers</text>
 <text id="31200100">Lethal Serpentine Twindaggers</text>
 <text id="31200200">Cursed Serpentine Twindaggers</text>
@@ -5978,7 +5557,6 @@
 <text id="31201200">Holy Serpentine Twindaggers</text>
 <text id="31201300">Sharp Serpentine Twindaggers</text>
 <text id="31201400">Blunt Serpentine Twindaggers</text>
-
 <text id="31210000">Shiv</text>
 <text id="31210100">Lethal Shiv</text>
 <text id="31210200">Cursed Shiv</text>
@@ -5994,7 +5572,6 @@
 <text id="31211200">Holy Shiv</text>
 <text id="31211300">Sharp Shiv</text>
 <text id="31211400">Blunt Shiv</text>
-
 <text id="31220000">Serpentine Battle Axe</text>
 <text id="31220100">Lethal Serpentine Battle Axe</text>
 <text id="31220200">Cursed Serpentine Battle Axe</text>
@@ -6010,7 +5587,6 @@
 <text id="31221200">Holy Serpentine Battle Axe</text>
 <text id="31221300">Sharp Serpentine Battle Axe</text>
 <text id="31221400">Blunt Serpentine Battle Axe</text>
-
 <text id="31230000">Serpentine Axe</text>
 <text id="31230100">Lethal Serpentine Axe</text>
 <text id="31230200">Cursed Serpentine Axe</text>
@@ -6026,7 +5602,6 @@
 <text id="31231200">Holy Serpentine Axe</text>
 <text id="31231300">Sharp Serpentine Axe</text>
 <text id="31231400">Blunt Serpentine Axe</text>
-
 <text id="31240000">Thrall Harpe</text>
 <text id="31240100">Lethal Thrall Harpe</text>
 <text id="31240200">Cursed Thrall Harpe</text>
@@ -6042,7 +5617,6 @@
 <text id="31241200">Holy Thrall Harpe</text>
 <text id="31241300">Sharp Thrall Harpe</text>
 <text id="31241400">Blunt Thrall Harpe</text>
-
 <text id="31250000">Smouldering Curved Sword</text>
 <text id="31250100">Lethal Smouldering Curved Sword</text>
 <text id="31250200">Cursed Smouldering Curved Sword</text>
@@ -6058,7 +5632,6 @@
 <text id="31251200">Holy Smouldering Curved Sword</text>
 <text id="31251300">Sharp Smouldering Curved Sword</text>
 <text id="31251400">Blunt Smouldering Curved Sword</text>
-
 <text id="31260000">Smouldering Dagger</text>
 <text id="31260100">Lethal Smouldering Dagger</text>
 <text id="31260200">Cursed Smouldering Dagger</text>
@@ -6074,7 +5647,6 @@
 <text id="31261200">Holy Smouldering Dagger</text>
 <text id="31261300">Sharp Smouldering Dagger</text>
 <text id="31261400">Blunt Smouldering Dagger</text>
-
 <text id="31270000">Smouldering Spear</text>
 <text id="31270100">Lethal Smouldering Spear</text>
 <text id="31270200">Cursed Smouldering Spear</text>
@@ -6090,7 +5662,6 @@
 <text id="31271200">Holy Smouldering Spear</text>
 <text id="31271300">Sharp Smouldering Spear</text>
 <text id="31271400">Blunt Smouldering Spear</text>
-
 <text id="31280000">Thrall Pick</text>
 <text id="31280100">Lethal Thrall Pick</text>
 <text id="31280200">Cursed Thrall Pick</text>
@@ -6106,7 +5677,6 @@
 <text id="31281200">Holy Thrall Pick</text>
 <text id="31281300">Sharp Thrall Pick</text>
 <text id="31281400">Blunt Thrall Pick</text>
-
 <text id="31290000">Worker Machete</text>
 <text id="31290100">Lethal Worker Machete</text>
 <text id="31290200">Cursed Worker Machete</text>
@@ -6122,7 +5692,6 @@
 <text id="31291200">Holy Worker Machete</text>
 <text id="31291300">Sharp Worker Machete</text>
 <text id="31291400">Blunt Worker Machete</text>
-
 <text id="31300000">Rampart Golem Lance</text>
 <text id="31300100">Lethal Rampart Golem Lance</text>
 <text id="31300200">Cursed Rampart Golem Lance</text>
@@ -6138,7 +5707,6 @@
 <text id="31301200">Holy Rampart Golem Lance</text>
 <text id="31301300">Sharp Rampart Golem Lance</text>
 <text id="31301400">Blunt Rampart Golem Lance</text>
-
 <text id="31310000">Bewitched Alonne Sword</text>
 <text id="31310100">Lethal Bewitched Alonne Sword</text>
 <text id="31310200">Cursed Bewitched Alonne Sword</text>
@@ -6154,7 +5722,6 @@
 <text id="31311200">Holy Bewitched Alonne Sword</text>
 <text id="31311300">Sharp Bewitched Alonne Sword</text>
 <text id="31311400">Blunt Bewitched Alonne Sword</text>
-
 <text id="31320000">Bone Scythe</text>
 <text id="31320100">Lethal Bone Scythe</text>
 <text id="31320200">Cursed Bone Scythe</text>
@@ -6170,7 +5737,6 @@
 <text id="31321200">Holy Bone Scythe</text>
 <text id="31321300">Sharp Bone Scythe</text>
 <text id="31321400">Blunt Bone Scythe</text>
-
 <text id="31330000">Dragonrider Halberd</text>
 <text id="31330100">Lethal Dragonrider Halberd</text>
 <text id="31330200">Cursed Dragonrider Halberd</text>
@@ -6186,7 +5752,6 @@
 <text id="31331300">Holy Dragonrider Halberd</text>
 <text id="31331300">Sharp Dragonrider Halberd</text>
 <text id="31331400">Blunt Dragonrider Halberd</text>
-
 <text id="31340000">Key to the Embedded</text>
 <text id="31340100">Lethal Key to the Embedded</text>
 <text id="31340200">Cursed Key to the Embedded</text>
@@ -6202,7 +5767,6 @@
 <text id="31341200">Holy Key to the Embedded</text>
 <text id="31341300">Sharp Key to the Embedded</text>
 <text id="31341400">Blunt Key to the Embedded</text>
-
 <text id="31350000">King's Ultra Greatsword</text>
 <text id="31350100">Lethal King's Ultra Greatsword</text>
 <text id="31350200">Cursed King's Ultra Greatsword</text>
@@ -6218,7 +5782,6 @@
 <text id="31351200">Holy King's Ultra Greatsword</text>
 <text id="31351300">Sharp King's Ultra Greatsword</text>
 <text id="31351400">Blunt King's Ultra Greatsword</text>
-
 <text id="31360000">Pilgrim's Spontoon</text>
 <text id="31360100">Lethal Pilgrim's Spontoon</text>
 <text id="31360200">Cursed Pilgrim's Spontoon</text>
@@ -6234,7 +5797,6 @@
 <text id="31361200">Holy Pilgrim's Spontoon</text>
 <text id="31361300">Sharp Pilgrim's Spontoon</text>
 <text id="31361400">Blunt Pilgrim's Spontoon</text>
-
 <text id="31370000">Sacred Chime Hammer</text>
 <text id="31370100">Lethal Sacred Chime Hammer</text>
 <text id="31370200">Cursed Sacred Chime Hammer</text>
@@ -6250,7 +5812,6 @@
 <text id="31371200">Holy Sacred Chime Hammer</text>
 <text id="31371300">Sharp Sacred Chime Hammer</text>
 <text id="31371400">Blunt Sacred Chime Hammer</text>
-
 <text id="31380000">Scythe of Nahr Alma</text>
 <text id="31380100">Lethal Scythe of Nahr Alma</text>
 <text id="31380200">Cursed Scythe of Nahr Alma</text>
@@ -6266,7 +5827,6 @@
 <text id="31381200">Holy Scythe of Nahr Alma</text>
 <text id="31381300">Sharp Scythe of Nahr Alma</text>
 <text id="31381400">Blunt Scythe of Nahr Alma</text>
-
 <text id="31390000">Scythe of Want</text>
 <text id="31390100">Lethal Scythe of Want</text>
 <text id="31390200">Cursed Scythe of Want</text>
@@ -6282,7 +5842,6 @@
 <text id="31391200">Holy Scythe of Want</text>
 <text id="31391300">Sharp Scythe of Want</text>
 <text id="31391400">Blunt Scythe of Want</text>
-
 <text id="31400000">Crab Claw</text>
 <text id="31400100">Lethal Crab Claw</text>
 <text id="31400200">Cursed Crab Claw</text>
@@ -6298,7 +5857,6 @@
 <text id="31401200">Holy Crab Claw</text>
 <text id="31401300">Sharp Crab Claw</text>
 <text id="31401400">Blunt Crab Claw</text>
-
 <text id="31410000">Thorned Greatsword</text>
 <text id="31410100">Lethal Thorned Greatsword</text>
 <text id="31410200">Cursed Thorned Greatsword</text>
@@ -6314,7 +5872,6 @@
 <text id="31411200">Holy Thorned Greatsword</text>
 <text id="31411300">Sharp Thorned Greatsword</text>
 <text id="31411400">Blunt Thorned Greatsword</text>
-
 <text id="31420000">Hands of Sin</text>
 <text id="31420100">Lethal Hands of Sin</text>
 <text id="31420200">Cursed Hands of Sin</text>
@@ -6330,7 +5887,6 @@
 <text id="31421200">Holy Hands of Sin</text>
 <text id="31421300">Sharp Hands of Sin</text>
 <text id="31421400">Blunt Hands of Sin</text>
-
 <text id="31430000">Frying Pan</text>
 <text id="31430100">Lethal Frying Pan</text>
 <text id="31430200">Cursed Frying Pan</text>
@@ -6346,7 +5902,6 @@
 <text id="31431200">Holy Frying Pan</text>
 <text id="31431300">Sharp Frying Pan</text>
 <text id="31431400">Blunt Frying Pan</text>
-
 <text id="31440000">Serpentine Chain-axe</text>
 <text id="31440100">Lethal Serpentine Chain-axe</text>
 <text id="31440200">Cursed Serpentine Chain-axe</text>
@@ -6362,7 +5917,6 @@
 <text id="31441200">Holy Serpentine Chain-axe</text>
 <text id="31441300">Sharp Serpentine Chain-axe</text>
 <text id="31441400">Blunt Serpentine Chain-axe</text>
-
 <text id="31450000">Aldia Hammer</text>
 <text id="31450100">Lethal Aldia Hammer</text>
 <text id="31450200">Cursed Aldia Hammer</text>
@@ -6378,7 +5932,6 @@
 <text id="31451200">Holy Aldia Hammer</text>
 <text id="31451300">Sharp Aldia Hammer</text>
 <text id="31451400">Blunt Aldia Hammer</text>
-
 <text id="31460000">Black Scorpion Stinger</text>
 <text id="31460100">Lethal Black Scorpion Stinger</text>
 <text id="31460200">Cursed Black Scorpion Stinger</text>
@@ -6394,7 +5947,6 @@
 <text id="31461200">Holy Black Scorpion Stinger</text>
 <text id="31461300">Sharp Black Scorpion Stinger</text>
 <text id="31461400">Blunt Black Scorpion Stinger</text>
-
 <text id="31470000">Dragonrider Twinblade</text>
 <text id="31470100">Lethal Dragonrider Twinblade</text>
 <text id="31470200">Cursed Dragonrider Twinblade</text>
@@ -6410,7 +5962,6 @@
 <text id="31471200">Holy Dragonrider Twinblade</text>
 <text id="31471300">Sharp Dragonrider Twinblade</text>
 <text id="31471400">Blunt Dragonrider Twinblade</text>
-
 <text id="31480000">Dragon Hunter's Great Hammer</text>
 <text id="31480100">Lethal Dragon Hunter's Great Hammer</text>
 <text id="31480200">Cursed Dragon Hunter's Great Hammer</text>
@@ -6426,7 +5977,6 @@
 <text id="31481200">Holy Dragon Hunter's Great Hammer</text>
 <text id="31481300">Sharp Dragon Hunter's Great Hammer</text>
 <text id="31481400">Blunt Dragon Hunter's Great Hammer</text>
-
 <text id="31490000">Dragon Hunter's Greataxe</text>
 <text id="31490100">Lethal Dragon Hunter's Greataxe</text>
 <text id="31490200">Cursed Dragon Hunter's Greataxe</text>
@@ -6442,7 +5992,6 @@
 <text id="31491200">Holy Dragon Hunter's Greataxe</text>
 <text id="31491300">Sharp Dragon Hunter's Greataxe</text>
 <text id="31491400">Blunt Dragon Hunter's Greataxe</text>
-
 <text id="31500000">Dragon Hunter's Warpick</text>
 <text id="31500100">Lethal Dragon Hunter's Warpick</text>
 <text id="31500200">Cursed Dragon Hunter's Warpick</text>
@@ -6458,7 +6007,6 @@
 <text id="31501200">Holy Dragon Hunter's Warpick</text>
 <text id="31501300">Sharp Dragon Hunter's Warpick</text>
 <text id="31501400">Blunt Dragon Hunter's Warpick</text>
-
 <text id="31510000">Drakewing Ultra Greatsword</text>
 <text id="31510100">Lethal Drakewing Ultra Greatsword</text>
 <text id="31510200">Cursed Drakewing Ultra Greatsword</text>
@@ -6474,7 +6022,6 @@
 <text id="31511200">Holy Drakewing Ultra Greatsword</text>
 <text id="31511300">Sharp Drakewing Ultra Greatsword</text>
 <text id="31511400">Blunt Drakewing Ultra Greatsword</text>
-
 <text id="31520000">Gargoyle Bident</text>
 <text id="31520100">Lethal Gargoyle Bident</text>
 <text id="31520200">Cursed Gargoyle Bident</text>
@@ -6490,7 +6037,6 @@
 <text id="31521200">Holy Gargoyle Bident</text>
 <text id="31521300">Sharp Gargoyle Bident</text>
 <text id="31521400">Blunt Gargoyle Bident</text>
-
 <text id="31530000">Giant Warrior Club</text>
 <text id="31530100">Lethal Giant Warrior Club</text>
 <text id="31530200">Cursed Giant Warrior Club</text>
@@ -6506,7 +6052,6 @@
 <text id="31531200">Holy Giant Warrior Club</text>
 <text id="31531300">Sharp Giant Warrior Club</text>
 <text id="31531400">Blunt Giant Warrior Club</text>
-
 <text id="31540000">Helix Halberd</text>
 <text id="31540100">Lethal Helix Halberd</text>
 <text id="31540200">Cursed Helix Halberd</text>
@@ -6522,7 +6067,6 @@
 <text id="31541200">Holy Helix Halberd</text>
 <text id="31541300">Sharp Helix Halberd</text>
 <text id="31541400">Blunt Helix Halberd</text>
-
 <text id="31550000">Malformed Skull</text>
 <text id="31550100">Lethal Malformed Skull</text>
 <text id="31550200">Cursed Malformed Skull</text>
@@ -6538,7 +6082,6 @@
 <text id="31551200">Holy Malformed Skull</text>
 <text id="31551300">Sharp Malformed Skull</text>
 <text id="31551400">Blunt Malformed Skull</text>
-
 <text id="31560000">Melu Scimitar</text>
 <text id="31560100">Lethal Melu Scimitar</text>
 <text id="31560200">Cursed Melu Scimitar</text>
@@ -6554,7 +6097,6 @@
 <text id="31561200">Holy Melu Scimitar</text>
 <text id="31561300">Sharp Melu Scimitar</text>
 <text id="31561400">Blunt Melu Scimitar</text>
-
 <text id="31570000">Old Knight Halberd</text>
 <text id="31570100">Lethal Old Knight Halberd</text>
 <text id="31570200">Cursed Old Knight Halberd</text>
@@ -6570,7 +6112,6 @@
 <text id="31571200">Holy Old Knight Halberd</text>
 <text id="31571300">Sharp Old Knight Halberd</text>
 <text id="31571400">Blunt Old Knight Halberd</text>
-
 <text id="31580000">Old Knight Hammer</text>
 <text id="31580100">Lethal Old Knight Hammer</text>
 <text id="31580200">Cursed Old Knight Hammer</text>
@@ -6586,7 +6127,6 @@
 <text id="31581200">Holy Old Knight Hammer</text>
 <text id="31581300">Sharp Old Knight Hammer</text>
 <text id="31581400">Blunt Old Knight Hammer</text>
-
 <text id="31590000">Old Knight Pike</text>
 <text id="31590100">Lethal Old Knight Pike</text>
 <text id="31590200">Cursed Old Knight Pike</text>
@@ -6602,7 +6142,6 @@
 <text id="31591200">Holy Old Knight Pike</text>
 <text id="31591300">Sharp Old Knight Pike</text>
 <text id="31591400">Blunt Old Knight Pike</text>
-
 <text id="31600000">Red Rust Scimitar</text>
 <text id="31600100">Lethal Red Rust Scimitar</text>
 <text id="31600200">Cursed Red Rust Scimitar</text>
@@ -6618,7 +6157,6 @@
 <text id="31601200">Holy Red Rust Scimitar</text>
 <text id="31601300">Sharp Red Rust Scimitar</text>
 <text id="31601400">Blunt Red Rust Scimitar</text>
-
 <text id="31610000">Roaring Halberd</text>
 <text id="31610100">Lethal Roaring Halberd</text>
 <text id="31610200">Cursed Roaring Halberd</text>
@@ -6634,7 +6172,6 @@
 <text id="31611200">Holy Roaring Halberd</text>
 <text id="31611300">Sharp Roaring Halberd</text>
 <text id="31611400">Blunt Roaring Halberd</text>
-
 <text id="31620000">Sanctum Mace</text>
 <text id="31620100">Lethal Sanctum Mace</text>
 <text id="31620200">Cursed Sanctum Mace</text>
@@ -6650,7 +6187,6 @@
 <text id="31621200">Holy Sanctum Mace</text>
 <text id="31621300">Sharp Sanctum Mace</text>
 <text id="31621400">Blunt Sanctum Mace</text>
-
 <text id="31630000">Spider's Silk</text>
 <text id="31630100">Lethal Spider's Silk</text>
 <text id="31630200">Cursed Spider's Silk</text>
@@ -6666,7 +6202,6 @@
 <text id="31631200">Holy Spider's Silk</text>
 <text id="31631300">Sharp Spider's Silk</text>
 <text id="31631400">Blunt Spider's Silk</text>
-
 <text id="31640000">Spitfire Spear</text>
 <text id="31640100">Lethal Spitfire Spear</text>
 <text id="31640200">Cursed Spitfire Spear</text>
@@ -6682,7 +6217,6 @@
 <text id="31641200">Holy Spitfire Spear</text>
 <text id="31641300">Sharp Spitfire Spear</text>
 <text id="31641400">Blunt Spitfire Spear</text>
-
 <text id="31650000">Syan's Halberd</text>
 <text id="31650100">Lethal Syan's Halberd</text>
 <text id="31650200">Cursed Syan's Halberd</text>
@@ -6698,7 +6232,6 @@
 <text id="31651200">Holy Syan's Halberd</text>
 <text id="31651300">Sharp Syan's Halberd</text>
 <text id="31651400">Blunt Syan's Halberd</text>
-
 <text id="31660000">Warped Sword</text>
 <text id="31660100">Lethal Warped Sword</text>
 <text id="31660200">Cursed Warped Sword</text>
@@ -6714,7 +6247,6 @@
 <text id="31661200">Holy Warped Sword</text>
 <text id="31661300">Sharp Warped Sword</text>
 <text id="31661400">Blunt Warped Sword</text>
-
 <text id="31670000">Ivory King Ultra Greatsword</text>
 <text id="31670100">Lethal Ivory King Ultra Greatsword</text>
 <text id="31670200">Cursed Ivory King Ultra Greatsword</text>
@@ -6730,7 +6262,6 @@
 <text id="31671200">Holy Ivory King Ultra Greatsword</text>
 <text id="31671300">Sharp Ivory King Ultra Greatsword</text>
 <text id="31671400">Blunt Ivory King Ultra Greatsword</text>
-
 <text id="31680000">Stone Greataxe</text>
 <text id="31680100">Lethal Stone Greataxe</text>
 <text id="31680200">Cursed Stone Greataxe</text>
@@ -6746,7 +6277,6 @@
 <text id="31681200">Holy Stone Greataxe</text>
 <text id="31681300">Sharp Stone Greataxe</text>
 <text id="31681400">Blunt Stone Greataxe</text>
-
 <text id="31690000">Gargoyle Halberd</text>
 <text id="31690100">Lethal Gargoyle Halberd</text>
 <text id="31690200">Cursed Gargoyle Halberd</text>
@@ -6762,7 +6292,6 @@
 <text id="31691200">Holy Gargoyle Halberd</text>
 <text id="31691300">Sharp Gargoyle Halberd</text>
 <text id="31691400">Blunt Gargoyle Halberd</text>
-
 <text id="31700000">Gargoyle Tail Axe</text>
 <text id="31700100">Lethal Gargoyle Tail Axe</text>
 <text id="31700200">Cursed Gargoyle Tail Axe</text>
@@ -6778,7 +6307,6 @@
 <text id="31701200">Holy Gargoyle Tail Axe</text>
 <text id="31701300">Sharp Gargoyle Tail Axe</text>
 <text id="31701400">Blunt Gargoyle Tail Axe</text>
-
 <text id="90040000">%null%</text>
 </entries>
 </fmg>
