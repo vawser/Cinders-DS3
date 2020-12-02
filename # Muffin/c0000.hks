@@ -3354,12 +3354,16 @@ function ExecHandChange(hand, is_force, blend_type)
 			local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
             pos = GetHandChangeType(HAND_LEFT)
             if pos == WEAPON_CHANGE_REQUEST_LEFT_WAIST then
+				local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
+				if sp_kind == 604 and env(1116, 100732) == TRUE then -- Frostfall 1H to 2H with empty offhand
+					ExecEventHalfBlend(Event_AttackCrossbowRightEmpty, blend_type)
+					return FALSE
+				end
 				if sp_kind == 604 then -- Frostfall 1H to 2H
 					ExecEventHalfBlend(Event_AttackCrossbowRightStart, blend_type)
 					return FALSE
 				end
                 if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
-                    local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
                     if sp_kind == 144 and kind == WEAPON_CATEGORY_FIST then
                         -- Onikiri and Ubadachi
                         SetHandChangeStyle(LEFT_TO_BACK, LEFT_FROM_BACK)
