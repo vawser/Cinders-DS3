@@ -3351,12 +3351,19 @@ function ExecHandChange(hand, is_force, blend_type)
             if env(335, HAND_RIGHT) == FALSE then -- IsTwoHandPossible
                 return FALSE
             end
+			local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
             pos = GetHandChangeType(HAND_LEFT)
             if pos == WEAPON_CHANGE_REQUEST_LEFT_WAIST then
-				local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT)
+				local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
+				if sp_kind == 604 and env(1116, 100732) == TRUE then -- Frostfall 1H to 2H with empty offhand
+					ExecEventHalfBlend(Event_AttackCrossbowRightEmpty, blend_type)
+					return FALSE
+				end
+				if sp_kind == 604 then -- Frostfall 1H to 2H
+					ExecEventHalfBlend(Event_AttackCrossbowRightStart, blend_type)
+					return FALSE
+				end
                 if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
-                    local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) -- GetEquipWeaponSpecialCategoryNumber
-                    local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
                     if sp_kind == 144 and kind == WEAPON_CATEGORY_FIST then
                         -- Onikiri and Ubadachi
                         SetHandChangeStyle(LEFT_TO_BACK, LEFT_FROM_BACK)
@@ -3367,6 +3374,10 @@ function ExecHandChange(hand, is_force, blend_type)
                     SetHandChangeStyle(LEFT_TO_WAIST, BOTH_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_BACK then
+				if sp_kind == 604 then -- Frostfall 1H to 2H
+					ExecEventHalfBlend(Event_AttackCrossbowRightReload, blend_type)
+					return FALSE
+				end
                 local kind = env(225, HAND_LEFT) -- GetEquipWeaponCategory
                 if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_BACK, LEFT_FROM_BACK)
@@ -3376,12 +3387,20 @@ function ExecHandChange(hand, is_force, blend_type)
                     SetHandChangeStyle(LEFT_TO_BACK, BOTH_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_SHOULDER then
+				if sp_kind == 604 then -- Frostfall 1H to 2H
+					ExecEventHalfBlend(Event_AttackCrossbowRightEmpty, blend_type)
+					return FALSE
+				end
                 if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_SHOULDER, LEFT_FROM_SHOULDER)
                 else
                     SetHandChangeStyle(LEFT_TO_SHOULDER, BOTH_FROM_ALL)
                 end
             elseif pos == WEAPON_CHANGE_REQUEST_LEFT_SPEAR then
+				if sp_kind == 604 then -- Frostfall 1H to 2H
+					ExecEventHalfBlend(Event_AttackCrossbowRightReload, blend_type)
+					return FALSE
+				end
                 if IsDualBladeSpecific(HAND_RIGHT) == TRUE and sp_kind ~= 294 then
                     SetHandChangeStyle(LEFT_TO_SPEAR, LEFT_FROM_SPEAR)
                 else
@@ -3398,10 +3417,9 @@ function ExecHandChange(hand, is_force, blend_type)
                 return FALSE
             end
             pos = GetHandChangeType(HAND_RIGHT)
+			local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
             if pos == WEAPON_CHANGE_REQUEST_RIGHT_WAIST then
-				local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT)
                 if IsDualBladeSpecific(HAND_LEFT) == TRUE and sp_kind ~= 294 then
-                    local sp_kind = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
                     local kind = env(225, HAND_RIGHT) -- GetEquipWeaponCategory
                     if sp_kind == 144 and kind == WEAPON_CATEGORY_FIST then
                         -- Onikiri and Ubadachi
@@ -8235,6 +8253,9 @@ function AttackCrossbowFire_Activate()
 end
 
 function AttackCrossbowRightStart_Upper_onUpdate()
+	if env(1116, 100730) == TRUE then
+		ExecEventHalfBlend(Event_AttackCrossbowBothRightStart, UPPER)
+	end
     local blend_type, lower_state = GetHalfBlendInfo()
     if lower_state == LOWER_IDLE then
         act("ロックオン時システム旋回不可角度", 90, 90)
@@ -8301,6 +8322,10 @@ function AttackCrossbowRightFire_Upper_onUpdate()
 end
 
 function AttackCrossbowRightReload_Upper_onUpdate()
+	if env(1116, 100730) == TRUE then
+		ExecEventHalfBlend(Event_AttackCrossbowBothRightStart, UPPER)
+		return FALSE
+	end
     act("4方向移動閾値設定", 60, 80, 60, 60)
     local blend_type, lower_state = GetHalfBlendInfo()
     if CrossbowCommonFunction(blend_type) == TRUE then
@@ -8315,6 +8340,9 @@ function AttackCrossbowRightReload_Upper_onUpdate()
 end
 
 function AttackCrossbowRightEmpty_Upper_onUpdate()
+	if env(1116, 100730) == TRUE then
+		ExecEventHalfBlend(Event_AttackCrossbowBothRightStart, UPPER)
+	end
     local blend_type, lower_state = GetHalfBlendInfo()
     if CrossbowCommonFunction(blend_type) == TRUE then
         return 
@@ -8519,6 +8547,10 @@ function AttackCrossbowBothLeftEmpty_Upper_onUpdate()
 end
 
 function AttackCrossbowBothRightStart_Upper_onUpdate()
+	if env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 604 and env(1116, 100731) == TRUE then
+		ExecEventAllBody("W_Idle")
+		return FALSE
+	end
     act("精密射撃可能か")
     local blend_type, lower_state = GetHalfBlendInfo()
     if lower_state == LOWER_IDLE then

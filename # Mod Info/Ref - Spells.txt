@@ -370,7 +370,6 @@
 # Great Combustion
 #--------------------------------
 - FP Cost: 25
-- Slot Use: 2
 - Fire Damage: 350 {1400} [100 {400}]
 - Ascended Effect: increases poise damage to 50.
 
@@ -401,7 +400,6 @@
 # Profaned Flame
 #--------------------------------
 - FP Cost: 25
-- Slot Use: 2
 - Fire Damage: 350 {1400}
 - Ascended Effect: emits a secondary flame.
 
@@ -409,7 +407,7 @@
 # Chaos Bed Vestiges
 #--------------------------------
 - FP Cost: 30
-- Slot Use: 3
+- Slot Use: 2
 - Fire Damage: 400 {1600} [100 {400}] [150 {600}]
 - Ascended Effect: increases projectile speed to 38 m/s.
 
@@ -417,7 +415,7 @@
 # Cataclysm
 #--------------------------------
 - FP Cost: 50
-- Slot Use: 3
+- Slot Use: 2
 - Fire Damage: 200 {800} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
@@ -462,7 +460,7 @@
 # Heave Earth
 #--------------------------------
 - FP Cost: 25
-- Slot Use: 2
+- Slot Use: 1
 - Physical Damage: 350 {1400}
 - Ascended Effect: emits two additional lines.
 
@@ -485,7 +483,7 @@
 # Earthfall
 #--------------------------------
 - FP Cost: 50
-- Slot Use: 3
+- Slot Use: 2
 - Physical Damage: 200 {800} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
@@ -500,7 +498,6 @@
 # Toxic Mist
 #--------------------------------
 - FP Cost: 25
-- Slot Use: 2
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
 - Ascended Effect: increases duration to 12 seconds.
 
@@ -508,7 +505,6 @@
 # Acid Surge
 #--------------------------------
 - FP Cost: 30
-- Slot Use: 3
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
 - Ascended Effect: increases duration to 12 seconds.
 
@@ -524,7 +520,7 @@
 # Fecal Explusion
 #--------------------------------
 - FP Cost: 15
-- Slot Use: 2
+- Slot Use: 1
 - Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 30 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
 - Ascended Effect: emit an additional four projectiles.
 
@@ -535,7 +531,6 @@
 # Carthus Beacon
 #--------------------------------
 - FP Cost: 40
-- Slot Use: 3
 - Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
 - Ascended Effect: increases duration to 60 seconds.
 
@@ -543,7 +538,7 @@
 # Warmth
 #--------------------------------
 - FP Cost: 100
-- Slot Use: 3
+- Slot Use: 2
 - Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
 - Ascended Effect: will now only affect the caster and allies.
 
@@ -551,7 +546,6 @@
 # Profuse Sweat
 #--------------------------------
 - FP Cost: 25
-- Slot Use: 2
 - Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
 - Ascended Effect: increases resistance boost to 400.
 
@@ -582,7 +576,7 @@
 # Rapport
 #--------------------------------
 - FP Cost: 100
-- Slot Use: 3
+- Slot Use: 2
 - Base Effect: converts target enemy to player team for 30 seconds.
 - Ascended Effect: increases duration to 60 seconds and boosts allied enemy damage by 20%.
 
@@ -590,7 +584,7 @@
 # Power Within
 #--------------------------------
 - FP Cost: 50
-- Slot Use: 3
+- Slot Use: 2
 - Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
 - Ascended Effect: reduces the HP loss to 0.5% HP per second.
 
