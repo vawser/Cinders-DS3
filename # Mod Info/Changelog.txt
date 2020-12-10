@@ -143,6 +143,10 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Check: Eleonora WA
+Check: 2h kick from the crow talons is broken
+Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
+
 Idea: change the companion progression items:
  Notes are dropped that enable the purchase of companions from the Ritualist
  The summon items are all purchased via the Ritualist
