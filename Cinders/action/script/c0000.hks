@@ -1890,7 +1890,12 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsNodeActive("AttackSpinStart_CMSG", "AttackSpinLight_CMSG", "AttackSpinHeavy_CMSG") ~= TRUE then
             SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         end
-        ExecEventHalfBlend(Event_AttackSpinStart, ALLBODY)
+		if env(345, HAND_RIGHT) == 604 then
+			ExecEventHalfBlend(Event_AttackSpinStart, UPPER)
+			return FALSE
+		else
+			ExecEventHalfBlend(Event_AttackSpinStart, ALLBODY)
+		end
     elseif request == SWORDARTS_REQUEST_RIGHT_WARCRY or request == SWORDARTS_REQUEST_LEFT_WARCRY then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -9846,6 +9851,19 @@ function AttackSpinStart_Upper_onUpdate()
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 604 then
+		if env(1116, 100733) == TRUE and env(1116, 100734) == TRUE then
+			ExecEventAllBody("W_AttackBothLightStepSpecial")
+			return
+		elseif env(1116, 100733) == TRUE and env(1116, 100735) == TRUE then
+			ExecEventAllBody("W_AttackBothBackstep")
+			return
+		elseif env(1116, 100733) == TRUE then
+			ExecEventAllBody("W_AttackSpinLight")
+			return
+		end
+	end
     local kind = env(225, hand)
     if kind == WEAPON_CATEGORY_CURVEDSWORD then
         local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)

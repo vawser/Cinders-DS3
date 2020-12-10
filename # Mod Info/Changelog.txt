@@ -93,7 +93,7 @@
 - Moved Soul Greatsword unlock to the Sage's Scroll.
 
 # NPCs
-- Lightly armored intruders will now be easily staggerable.
+- All intruders no longer mimic player poise, and will stagger from any hit as normal enemies tend to do.
 
 # Weapons
 - Added Bleed to the Scraping Spear.
@@ -143,6 +143,11 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Idea: change the companion progression items:
+ Notes are dropped that enable the purchase of companions from the Ritualist
+ The summon items are all purchased via the Ritualist
+ The upgrades are now per companions, where you improve the companion in various aspects
+
 Do icons
 Check model masks
 Place items

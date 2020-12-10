@@ -1,3 +1,1 @@
-﻿SpEffectParam, SpEffectVFXParam, Bullet, EquipParamWeapon, SwordArtsParam, BehaviorParam_Pc, AtkParam_Pc
-
-The FXR files 855000 and 855010 are simply copies of 440462 and 440463 respectively. 440462 and 440463 should be deleted.
+﻿
