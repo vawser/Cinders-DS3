@@ -1,2 +1,1 @@
-﻿-The HKS is not out of sync as I added my changes to your latest file.
--The params are out of sync but I don't think you've changed the 4 I've edited: AtkParam_Pc, BehaviorParam_PC, Bullet param, and SpEffectParam 
+﻿

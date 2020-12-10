@@ -9854,7 +9854,7 @@ function AttackSpinStart_Upper_onUpdate()
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
 	if sp_kind == 604 then
 		if env(1116, 100733) == TRUE and env(1116, 100734) == TRUE then
-			ExecEventAllBody("W_AttackBothLightStepSpecial")
+			ExecEventAllBody("W_AttackSpinHeavy")
 			return
 		elseif env(1116, 100733) == TRUE and env(1116, 100735) == TRUE then
 			ExecEventAllBody("W_AttackBothBackstep")
@@ -9935,6 +9935,10 @@ function AttackSpinHeavy_onUpdate()
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
+	if env(1116, 100737) == TRUE then
+		ExecEventAllBody("W_AttackBothLightStepSpecial")
+		return
+	end
     local kind = env(225, hand)
     if kind == WEAPON_CATEGORY_CURVEDSWORD then
         local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
