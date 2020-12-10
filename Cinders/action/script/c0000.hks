@@ -15944,6 +15944,10 @@ function UpdateFP()
                 act(2002, 113103) -- Darkmoon Faithful
             end
             
+            if env(1116, 113203) == TRUE then
+                act(2002, 113103) -- Pulsating
+            end
+            
             if env(1116, 113210) == TRUE then
                 act(2002, 113110) -- Darkmoon Ring
             end
