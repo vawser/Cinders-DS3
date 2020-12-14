@@ -6663,3 +6663,13 @@ Event(20090100, Restart, function(X0_4) {
 Event(20090200, Restart, function(X0_4) {
     
 });
+
+//----------------------------------------------
+// NPC - Talk Toggle
+//----------------------------------------------
+Event(20090300, Default, function(X0_4, X4_4) {
+    IfCharacterDamagedBy(AND_01, X0_4, 10000);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    ChangeCharacterEnableState(X4_4, Disabled);
+});

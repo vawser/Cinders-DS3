@@ -1878,7 +1878,7 @@ Persisting will transform you into a grub.</text>
 <text id="15000008">%null%</text>
 <text id="15000009">%null%</text>
 <text id="15000010">Purchase Item</text>
-<text id="15000011">%null%</text>
+<text id="15000011">Peruse Collection</text>
 <text id="15000012">Sell Item</text>
 <text id="15000100">Level Up</text>
 <text id="15000130">Attune Spell</text>
@@ -4034,6 +4034,20 @@ goods and services that may be of use to you.</text>
 
 <text id="99030625">Thank you. This coal will help me greatly.
 Heh heh heh...</text>
+
+<text id="99030710">Incredible. You are certainly persuasive.
+Here, take this token of appreciation.</text>
+<text id="99030711">An apt query, but it is not the time for such questions.</text>
+<text id="99030712">You are a guest of our castle. 
+But do not bother me further.</text>
+<text id="99030713">Is this... some sort of a dream?
+Of course, I accept your proposal.</text>
+
+<text id="99030715">I am a collector of sorts.
+Feel free to peruse my collection. 
+For the right amount of souls, I may be willing 
+to part with some items of interest.</text>
+
 
 </entries>
 </fmg>
