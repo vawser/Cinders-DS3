@@ -95,6 +95,7 @@
 
 # NPCs
 - All intruders no longer mimic player poise, and will stagger from any hit as normal enemies tend to do.
+- Tomb Raider Dyfan is now a skeleton.
 
 # Weapons
 - Added Bleed to the Scraping Spear.
@@ -144,9 +145,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-
-Make Tomb Raider NPC a skeleton boi
-
 Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
