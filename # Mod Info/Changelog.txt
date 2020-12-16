@@ -74,73 +74,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Classes
-- Added a Summoner class: focuses on Attunement, starts with several companion related items, including Woof and Metora.
-- Paladin now started with a normal Cathedral Knight Greatsword.
-
-# Companions
-- Rejuvenating Phial (Restorative Brew) now costs FP and just heals companions for 20%.
-- Added Invigorating Phial: boost companion damage by 20% for 30 seconds, costs 50 FP.
-- Added Energizing Phial: boost companion stamina for 30 seconds, costs 30 FP.
-- Renamed the companion Tablets to Opus of <x>.
-- Renamed the training tomes to Sign of <x>
-- Changed the icons for the Opus items and the Signs.
-- Gimbal now uses the standing mimic moves, and no longer uses the grab.
-- Metora no longer uses her grab.
-- The leash for companions is larger, allowing them to stay in combat for longer if you move away from them.
-
-# Merchants
-- Moved Soul Greatsword unlock to the Sage's Scroll.
-- Added Erstwhile George, a friendly Archive Scholar. Sells the DeS armor sets and the armor/weapons dropped by the intruders. Located in the Grand Archives.
-
-# NPCs
-- All intruders no longer mimic player poise, and will stagger from any hit as normal enemies tend to do.
-- Tomb Raider Dyfan is now a skeleton.
-
-# Weapons
-- Added Bleed to the Scraping Spear.
-- Added Muffin's Bewitched Alonne Sword edits.
-- Extended Bewitched Alonne Sword WA duration to 40 seconds.
-- Added Muffin's Quarterstaff moveset.
-- Renamed Quarterstaff to King's Quarterstaff. It is now a transposition of the Nameless King soul.
-
-# Infusions
-- Enchanted/Clarity infusions now add 2 FP per second (was 1).
-- Catalysts now have 4 infusions:
- - Pulsating: adds 2 FP regen, costs 20 Crystal Fragments
- - Vibrating: adds 3 HP regen, costs 20 Holy Fragments
- - Throbbing: adds the ascended effects for spells, costs 20 Fire Seeds
- - Quivering: adds 25 cast speed, costs 20 Abyssal Fragments
- - The infusions reduce scaling slightly.
-
-# Spell Tools
-- Restored the multi-school abilities for various catalysts.
-- Ascended effects are now added via the Throbbing infusion.
-- Reduced max multiplier to *4.
-- Increased Fool's Catalyst spell buff.
-- Increased the spell buff of the Pyromancy tools, they now cap at 90% of the other schools.
-
-# Spells
-- Increased base damage.
-- Floating Chaos/Dreg Torrent/Recollection emitted bullets now last longer.
-- Floating Chaos now emits at the correct rate.
-- Heavenly Thunder is now more accurate with its emitted bullets.
-- The weapon buff spells now scale with spell buff again. The damage added for some was reduced to account for the *4 multiplier at max spell buff.
-- The heal spells now scale with spell buff again.
-- Reduced the slot usage of several spells.
-
-# Rings
-- Changed Pontiff's Right Eye: Grants 5/6/7/8/9/10% HP with successive attacks.
-- Changed Pontiff's Left Eye: Grants 5/6/7/8/9/10% FP with successive attacks.
-
-# Map
-- Moved the Company of Champions covenant pickup to the old Ashen Estus Flask location.
-
-# Bugfixes
-- Londor Pale Shade can wield her chime now.
-- Companions are now dismissed when a boss starts, to prevent exploits.
-- Fixed NG+ scaling applying in Journey 1 in some cases.
-- Companions are no longer affected by the Curses.
 
 #------------------------------
 # TODO - General
@@ -148,11 +81,6 @@
 Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
-
-Idea: change the companion progression items:
- Notes are dropped that enable the purchase of companions from the Ritualist
- The summon items are all purchased via the Ritualist
- The upgrades are now per companions, where you improve the companion in various aspects
 
 # zalaryan edits
 Ringed Knight Spear
