@@ -1,1 +1,9 @@
-﻿
+﻿All in sync: 
+
+-Params: Atk, Speffect, SpeffectVFX, Bullet
+
+-Parts file is just an update on the existing Frostfall parts file.
+
+-Each .fxr needs yabber.bnd registry. 
+
+-The .flver is a new vfx model and goes in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx model folder with new yabber.bnd register.
