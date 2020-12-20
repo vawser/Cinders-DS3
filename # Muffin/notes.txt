@@ -1,6 +1,6 @@
 ﻿All in sync: 
 
--Params: Atk, Speffect, SpeffectVFX, Bullet
+-Params: Atk, Behavior, Speffect, SpeffectVFX, Bullet
 
 -Parts file is just an update on the existing Frostfall parts file.
 

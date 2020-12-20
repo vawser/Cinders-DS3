@@ -7789,6 +7789,15 @@ function AttackBothLight3_onUpdate()
 end
 
 function AttackBothLeft1_onUpdate()
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 604 and env(1116, 100739) == TRUE then -- Frostfall L1 Transition for Frost Surge
+		ExecEventHalfBlend(Event_AttackCrossbowBothRightEmpty, ALLBODY)
+	end
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
@@ -8645,6 +8654,11 @@ function AttackCrossbowBothRightReload_Upper_onUpdate()
 end
 
 function AttackCrossbowBothRightEmpty_Upper_onUpdate()
+    if env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 604 then -- Frostfall Frost Surge return to idle
+		if (env(1108, ACTION_ARM_L1) <= 0 or env(1001) <= 0) and env(1116, 100740) == TRUE then -- Not holding L1 or stamina depleted
+			ExecEventAllBody("W_Idle")
+		end
+	end
     local blend_type, lower_state = GetHalfBlendInfo()
     if CrossbowCommonFunction(blend_type) == TRUE then
         return 
