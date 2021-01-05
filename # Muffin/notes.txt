@@ -8,4 +8,4 @@
 
 -The .flvers are new vfx models and go in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx model folder with new yabber.bnd registers
 
--The .tpf files are the textures for the new 8450 .flver and go in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx tex folder with new yabber.bnd registers.
+-The .tpf files are the textures mostly for the new 8450 .flver and 8460 .flver and go in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx tex folder with new yabber.bnd registers.
