@@ -7375,7 +7375,16 @@ function AttackRight_Activate()
 end
 
 function AttackRightLight1_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1SubStart", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    local r2 = "W_AttackRightHeavy1SubStart"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    
+    if sp_kind == 604 then
+        r2 = "W_AttackRightHeavy2Start"
+    end
+	
+    if AttackCommonFunction("W_AttackRightLight2", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7390,6 +7399,10 @@ function AttackRightLight2_onUpdate()
     
     if sp_kind == 279 then
         r2 = "W_AttackRightHeavy1SubStart"
+    end
+	
+	if sp_kind == 604 then
+        r2 = "W_AttackRightHeavy2Start"
     end
     
     if AttackCommonFunction("W_AttackRightLight3", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight3", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
@@ -7415,6 +7428,7 @@ function AttackRightLight3_onUpdate()
 	
 	if sp_kind == 604 then
         r1 = "W_AttackRightLightStepSpecial"
+		r2 = "W_AttackRightHeavy2Start"
     end
     
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
@@ -7438,13 +7452,18 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 604 then
+    if sp_kind == 281 then
         r1 = "W_AttackRightLight2"
     end
     
 	if sp_kind == 294 then
 		r2 = "W_AttackRightHeavy2Start"
 	end
+	
+    if sp_kind == 604 then
+        r1 = "W_AttackRightLight2"
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
@@ -7455,15 +7474,17 @@ end
 
 function AttackRightLightStepSpecial_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
 	
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
 
 	if sp_kind == 604 then
         r1 = "W_AttackRightBackstep"
+		r2 = "W_AttackRightHeavy2Start"
     end
     
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7472,14 +7493,20 @@ end
 
 function AttackRightLightDash_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 604 then
+    if sp_kind == 281 then
         r1 = "W_AttackRightLight2"
     end
+	
+    if sp_kind == 604 then
+        r1 = "W_AttackRightLight2"
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7552,7 +7579,16 @@ function AttackRightHeavy2Start_onUpdate()
 end
 
 function AttackRightHeavy2End_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local r1 = "W_AttackRightLight1"
+    local hand = HAND_RIGHT
+	
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+
+	if sp_kind == 604 then
+        r1 = "W_AttackRightLight2"
+    end
+	
+    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7594,10 +7630,13 @@ end
 function AttackRightHeavySpecial2Start_onUpdate()
 	local r1 = "W_AttackRightLight1"
    	local hand = HAND_RIGHT
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-	if sp_kind == 272 then
+	
+	if sp_kind == 272 or sp_kind == 604 then
 		r1 = "W_AttackRightLight2"
 	end
+	
     if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
@@ -7639,13 +7678,21 @@ function AttackRightHeavyWepBroken1SubStart_onUpdate()
 end
 
 function AttackRightHeavyKick_onUpdate()
+    local r1 = "W_AttackRightLightStep"
 	local r2 = "W_AttackRightHeavy2Start"
    	local hand = HAND_RIGHT
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		r2 = "W_AttackRightHeavy1Start"
 	end
-    if AttackCommonFunction("W_AttackRightLightStep", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	
+	if sp_kind == 604 then
+		r1 = "W_AttackRightLight2"
+    end
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7662,15 +7709,20 @@ end
 
 function AttackRightBackstep_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
     
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 282 or sp_kind == 604 then
+    if sp_kind == 282 then
         r1 = "W_AttackRightLight2"
     end
+	
+	if sp_kind == 604 then
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
