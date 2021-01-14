@@ -82,21 +82,33 @@ Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
 
-# zalaryan edits
-Ringed Knight Spear
-Ringed Knight Paired Greatswords
-Katanas
-Ciaran's Tracers
-Gotthard Twinswords
-Ultra Greatswords and Greatswords' base moveset
-Halberd's base moveset (Updated!)
-Spear's 2H Moveset (Updated!)
-Vertical Slashing Ultra Greatswords
-Lothric Knight Greatsword
-Dragonslayer Swordspear (Updated!)
-Farron Greatsword
-Friede Great Scythe Complete Rework : Blackflame Edition
-Straight Swords
-Dragonslayer Spear
-Moonlight Greatsword
-Custom Weapon: Sulyvahn's Wrath: Paired Greatswords used by Pontiff Sulyvahn
+Change the heretic's starting set
+
+Wanderer's Emblem also makes you naked
+
+Numbness description is messed up, says duration is 120 seconds and ascending it increases it to 90, I think it should say 60 seconds
+Also maybe not a bug, but if you cast it with an ascended spelltool you get the effect, but your FOV isn't affected.
+
+This is most likely already known but the King's Quarterstaff is still sold by Andre
+
+Bad chest location in Profaned Capital, near broken arch
+
+When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
+
+The Painter doesn't have a name in her menu.
+
+Empty locked chest in Ringed City (platform at swamp start)
+
+kindling bonfire animation at game start spawn
+
+uninfused porcine shield and it turns into ¿GoodsName?
+
+Relic of Insanity not boosting spell damage
+
+Move The Forlorn location
+
+Fix jump from Shiv/Ring of Grace not working when left-hand is not free
+
+Black Flame Arc applies the green Alonne Flame
+
+Kris Blade applies the absorption debuff twice on dark

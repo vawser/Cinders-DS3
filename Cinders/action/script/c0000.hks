@@ -1890,7 +1890,12 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsNodeActive("AttackSpinStart_CMSG", "AttackSpinLight_CMSG", "AttackSpinHeavy_CMSG") ~= TRUE then
             SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         end
-		if env(345, HAND_RIGHT) == 604 then
+		local hand = HAND_RIGHT
+        local style = c_Style
+        if style == HAND_LEFT_BOTH then
+            hand = HAND_LEFT
+        end
+		if env(345, hand) == 604 then
 			ExecEventHalfBlend(Event_AttackSpinStart, UPPER)
 			return
 		else
@@ -6576,6 +6581,7 @@ end
 
 function Rolling_onUpdate()
 	local r2 = "W_AttackRightHeavy2Start"
+	local b2 = "W_AttackBothHeavy2Start"
    	local hand = HAND_RIGHT
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     SetThrowAtkInvalid() -- GetSpecialEffectID
@@ -6597,7 +6603,10 @@ function Rolling_onUpdate()
 	if sp_kind == 272 then
 		r2 = "W_AttackRightHeavy1Start"
 	end
-    if EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightLightStep", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLightStep", "W_AttackBothHeavy2Start") == TRUE then
+	if sp_kind == 604 then
+		b2 = "W_AttackBothHeavy1Start"
+	end
+    if EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightLightStep", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLightStep", b2) == TRUE then
         return 
     elseif env("アニメ終了か", 1) == TRUE then -- IsAnimEnd
         ExecEventAllBody("W_Idle")
@@ -6644,7 +6653,21 @@ function BackStep_onActivate()
 end
 
 function BackStep_onUpdate()
-    if EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightLightDash", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothDash", "W_AttackBothHeavy1Start") == TRUE then
+    local b2 = "W_AttackBothHeavy1Start"
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    
+	if sp_kind == 604 then
+		b2 = "W_AttackBothHeavy2Start"
+	end
+    
+    if EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightLightDash", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothDash", b2) == TRUE then
         return 
     else
         return 
@@ -7352,7 +7375,16 @@ function AttackRight_Activate()
 end
 
 function AttackRightLight1_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1SubStart", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    local r2 = "W_AttackRightHeavy1SubStart"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    
+    if sp_kind == 604 then
+        r2 = "W_AttackRightHeavy2Start"
+    end
+	
+    if AttackCommonFunction("W_AttackRightLight2", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7367,6 +7399,10 @@ function AttackRightLight2_onUpdate()
     
     if sp_kind == 279 then
         r2 = "W_AttackRightHeavy1SubStart"
+    end
+	
+	if sp_kind == 604 then
+        r2 = "W_AttackRightHeavy2Start"
     end
     
     if AttackCommonFunction("W_AttackRightLight3", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight3", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
@@ -7388,6 +7424,11 @@ function AttackRightLight3_onUpdate()
     
     if sp_kind == 282 then
         r2 = "W_AttackRightHeavy1Start"
+    end
+	
+	if sp_kind == 604 then
+        r1 = "W_AttackRightLightStepSpecial"
+		r2 = "W_AttackRightHeavy2Start"
     end
     
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
@@ -7418,6 +7459,10 @@ function AttackRightLightStep_onUpdate()
 	if sp_kind == 294 then
 		r2 = "W_AttackRightHeavy2Start"
 	end
+	
+    if sp_kind == 604 then
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
@@ -7427,7 +7472,18 @@ function AttackRightLightStep_onUpdate()
 end
 
 function AttackRightLightStepSpecial_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
+    local hand = HAND_RIGHT
+	
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+
+	if sp_kind == 604 then
+        r1 = "W_AttackRightBackstep"
+		r2 = "W_AttackRightHeavy2Start"
+    end
+    
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7436,14 +7492,20 @@ end
 
 function AttackRightLightDash_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
     if sp_kind == 281 then
         r1 = "W_AttackRightLight2"
     end
+	
+    if sp_kind == 604 then
+        r1 = "W_AttackRightLight2"
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
-    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7516,7 +7578,16 @@ function AttackRightHeavy2Start_onUpdate()
 end
 
 function AttackRightHeavy2End_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local r1 = "W_AttackRightLight1"
+    local hand = HAND_RIGHT
+	
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+
+	if sp_kind == 604 then
+        r1 = "W_AttackRightLight2"
+    end
+	
+    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7558,10 +7629,13 @@ end
 function AttackRightHeavySpecial2Start_onUpdate()
 	local r1 = "W_AttackRightLight1"
    	local hand = HAND_RIGHT
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-	if sp_kind == 272 then
+	
+	if sp_kind == 272 or sp_kind == 604 then
 		r1 = "W_AttackRightLight2"
 	end
+	
     if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
@@ -7603,13 +7677,21 @@ function AttackRightHeavyWepBroken1SubStart_onUpdate()
 end
 
 function AttackRightHeavyKick_onUpdate()
+    local r1 = "W_AttackRightLightStep"
 	local r2 = "W_AttackRightHeavy2Start"
    	local hand = HAND_RIGHT
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		r2 = "W_AttackRightHeavy1Start"
 	end
-    if AttackCommonFunction("W_AttackRightLightStep", r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	
+	if sp_kind == 604 then
+		r1 = "W_AttackRightLight2"
+    end
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7626,6 +7708,7 @@ end
 
 function AttackRightBackstep_onUpdate()
     local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
     local hand = HAND_RIGHT
     
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
@@ -7633,8 +7716,12 @@ function AttackRightBackstep_onUpdate()
     if sp_kind == 282 then
         r1 = "W_AttackRightLight2"
     end
+	
+	if sp_kind == 604 then
+		r2 = "W_AttackRightHeavy2Start"
+    end
     
-    if AttackCommonFunction( r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7759,6 +7846,7 @@ end
 
 function AttackBothLight3_onUpdate()
     local b1 = "W_AttackBothLight2"
+	local l1 = "W_AttackBothLeft2"
     local hand = HAND_RIGHT
     local style = c_Style
     
@@ -7771,12 +7859,17 @@ function AttackBothLight3_onUpdate()
     if sp_kind == 232 or sp_kind == 272 or sp_kind == 278 or sp_kind == 279 or sp_kind == 281 or sp_kind == 283 or sp_kind == 294 then 
         b1 = "W_AttackBothLight1"
     end
+	
+	if sp_kind == 604 then
+		b1 = "W_AttackBothHeavySpecial1Start"
+		l1 = "W_AttackBothHeavySpecial2Start"
+	end
     
     if env(1116, 100440) == TRUE then -- GetSpecialEffectID
         act(2001, 0.699999988079071) -- SetMovementScaleMult
     end
     
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1SubStart", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1SubStart", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7784,6 +7877,15 @@ function AttackBothLight3_onUpdate()
 end
 
 function AttackBothLeft1_onUpdate()
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 604 and env(1116, 100739) == TRUE then -- Frostfall L1 Transition for Frost Surge
+		ExecEventHalfBlend(Event_AttackCrossbowBothRightEmpty, ALLBODY)
+	end
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
@@ -7800,6 +7902,7 @@ function AttackBothLeft2_onUpdate()
 end
 
 function AttackBothLeft3_onUpdate()
+	local b1 = "W_AttackBothLight2"
 	local l1 = "W_AttackBothLeft2"
    	local hand = HAND_RIGHT
    	local style = c_Style
@@ -7810,7 +7913,11 @@ function AttackBothLeft3_onUpdate()
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft1"
 	end
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	if sp_kind == 604 then
+		b1 = "W_AttackBothHeavySpecial1Start"
+		l1 = "W_AttackBothHeavySpecial2Start"
+	end
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7838,6 +7945,9 @@ function AttackBothLeftDash_onUpdate()
 		b1 = "W_AttackBothLight3"
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	if sp_kind == 604 then
+		b2 = "W_AttackBothHeavy2Start"
+	end
     if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -7858,6 +7968,9 @@ function AttackBothLeftStep_onUpdate()
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft3"
 		b1 = "W_AttackBothLight3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+	if sp_kind == 604 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
@@ -7940,8 +8053,25 @@ function AttackBothHeavySpecial1SubStart_onUpdate()
 end
 
 function AttackBothHeavySpecial1Start_onUpdate()
+    local b1 = "W_AttackBothLight1"
+	local l1 = "W_AttackBothLeft1"
+	
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 604 then
+		b1 = "W_AttackBothHeavySpecial1End"
+		l1 = "W_AttackBothHeavySpecial2End"
+	end
+	
     act("特殊補間設定", 0, FALSE)
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
         ExecEventAllBody("W_AttackBothHeavySpecial1End")
@@ -7952,7 +8082,26 @@ function AttackBothHeavySpecial1Start_onUpdate()
 end
 
 function AttackBothHeavySpecial1End_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+	local b1 = "W_AttackBothLight1"
+	local l1 = "W_AttackBothLeft1"
+	local b2 = "W_AttackBothHeavy2Start"
+	
+	local hand = HAND_RIGHT
+	local style = c_Style
+    
+	if style == HAND_LEFT_BOTH then
+		hand = HAND_LEFT
+	end
+
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 604 then
+		b1 = "W_AttackBothLight3"
+		l1 = "W_AttackBothLeft3"
+		b2 = "W_AttackBothHeavy1Start"
+	end
+
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -7960,7 +8109,26 @@ function AttackBothHeavySpecial1End_onUpdate()
 end
 
 function AttackBothHeavySpecial2Start_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local b1 = "W_AttackBothLight1"
+	local l1 = "W_AttackBothLeft1"
+	local b2 = "W_AttackBothHeavy1Start"
+	
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 604 then
+		b1 = "W_AttackBothHeavySpecial1End"
+		l1 = "W_AttackBothHeavySpecial2End"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+	
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
         ExecEventAllBody("W_AttackBothHeavySpecial2End")
@@ -7971,7 +8139,26 @@ function AttackBothHeavySpecial2Start_onUpdate()
 end
 
 function AttackBothHeavySpecial2End_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local b1 = "W_AttackBothLight1"
+	local l1 = "W_AttackBothLeft1"
+	local b2 = "W_AttackBothHeavy1Start"
+	
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 604 then
+		b1 = "W_AttackBothLight3"
+		l1 = "W_AttackBothLeft3"
+		b2 = "W_AttackBothHeavy2Start"
+	end
+	
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -8006,18 +8193,28 @@ function AttackBothDash_onUpdate()
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft3"
 		b1 = "W_AttackBothLight3"
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
+	if sp_kind == 604 then
+		l1 = "W_AttackBothLeft2"
+		b1 = "W_AttackBothLight2"
+	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8039,18 +8236,28 @@ function AttackBothLightStep_onUpdate()
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft3"
 		b1 = "W_AttackBothLight3"
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
+	if sp_kind == 604 then
+		l1 = "W_AttackBothLeft2"
+		b1 = "W_AttackBothLight2"
+	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8079,14 +8286,18 @@ function AttackBothHeavyKick_onUpdate()
 	local b1 = "W_AttackBothLight1"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-	if sp_kind == 294 then
+	
+	if sp_kind == 294 or sp_kind == 604 then
 		l1 = "W_AttackBothLeft2"
 		b1 = "W_AttackBothLight2"
 	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
@@ -8640,6 +8851,11 @@ function AttackCrossbowBothRightReload_Upper_onUpdate()
 end
 
 function AttackCrossbowBothRightEmpty_Upper_onUpdate()
+    if env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 604 then -- Frostfall Frost Surge return to idle
+		if (env(1108, ACTION_ARM_L1) <= 0 or env(1001) <= 0) and env(1116, 100740) == TRUE then -- Not holding L1 or stamina depleted
+			ExecEventAllBody("W_Idle")
+		end
+	end
     local blend_type, lower_state = GetHalfBlendInfo()
     if CrossbowCommonFunction(blend_type) == TRUE then
         return 

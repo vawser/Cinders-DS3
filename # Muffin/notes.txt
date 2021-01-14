@@ -1,11 +1,1 @@
-﻿All in sync: 
-
--Params: Atk, Behavior, Speffect, SpeffectVFX, Bullet
-
--Parts file is just an update on the existing Frostfall parts file.
-
--Each .fxr needs yabber.bnd registry. 
-
--The .flvers are new vfx models and go in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx model folder with new yabber.bnd registers
-
--The .tpf files are the textures mostly for the new 8450 .flver and 8460 .flver and go in the Cinders frpg_sfxbnd_commoneffects_resource-ffxbnd-dcx tex folder with new yabber.bnd registers.
+﻿
