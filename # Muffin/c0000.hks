@@ -7461,7 +7461,6 @@ function AttackRightLightStep_onUpdate()
 	end
 	
     if sp_kind == 604 then
-        r1 = "W_AttackRightLight2"
 		r2 = "W_AttackRightHeavy2Start"
     end
     
@@ -8194,18 +8193,28 @@ function AttackBothDash_onUpdate()
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft3"
 		b1 = "W_AttackBothLight3"
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
+	if sp_kind == 604 then
+		l1 = "W_AttackBothLeft2"
+		b1 = "W_AttackBothLight2"
+	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8227,18 +8236,28 @@ function AttackBothLightStep_onUpdate()
 	local b2 = "W_AttackBothHeavy1Start"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
 	if sp_kind == 272 then
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
 	if sp_kind == 294 then
 		l1 = "W_AttackBothLeft3"
 		b1 = "W_AttackBothLight3"
 		b2 = "W_AttackBothHeavy2Start"
 	end
+	
+	if sp_kind == 604 then
+		l1 = "W_AttackBothLeft2"
+		b1 = "W_AttackBothLight2"
+	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8267,14 +8286,18 @@ function AttackBothHeavyKick_onUpdate()
 	local b1 = "W_AttackBothLight1"
    	local hand = HAND_RIGHT
    	local style = c_Style
+	
    	if style == HAND_LEFT_BOTH then
       	hand = HAND_LEFT
     end
+	
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-	if sp_kind == 294 then
+	
+	if sp_kind == 294 or sp_kind == 604 then
 		l1 = "W_AttackBothLeft2"
 		b1 = "W_AttackBothLight2"
 	end
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
