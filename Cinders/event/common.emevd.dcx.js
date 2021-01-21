@@ -1847,7 +1847,7 @@ Event(20000, Default, function() {
 Event(21000, Default, function() {
     InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
     InitializeEvent(0, 20043, 10000, 160500060); // Numbness
-    InitializeEvent(0, 20043, 10000, 160500061); // Numbness - Ascended
+    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
     InitializeEvent(0, 20044, 10000); // Event Flag Tool
     InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
     InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower

@@ -74,6 +74,18 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Classes
+- Changed the starting armor set of the Heretic (end of an era).
+
+# Bugfixes
+- Fixed chest glitch in Profaned Capital.
+- Fixed Forlorn's location in Road of Sacrifices.
+- Fixed Kris Blade having Dark ABS reduction applied twice.
+- Fixed Ring of Power/Insanity damage application, now applies to spells.
+- Fixed Numbness description.
+- Fixed Ascended Numbness not applying the camera change.
+- Fixed Ascended Abyssal Edge not using the ascended attack.
+- Wanderer's Set should no longer make you invisible.
 
 #------------------------------
 # TODO - General
@@ -84,13 +96,6 @@ Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
 
 Change the heretic's starting set
 
-Wanderer's Emblem also makes you naked
-
-Numbness description is messed up, says duration is 120 seconds and ascending it increases it to 90, I think it should say 60 seconds
-Also maybe not a bug, but if you cast it with an ascended spelltool you get the effect, but your FOV isn't affected.
-
-Bad chest location in Profaned Capital, near broken arch
-
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
 
 The Painter doesn't have a name in her menu.
@@ -99,9 +104,5 @@ kindling bonfire animation at game start spawn
 
 uninfused porcine shield and it turns into ¿GoodsName?
 
-Relic of Insanity not boosting spell damage
-
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free
-
-Kris Blade applies the absorption debuff twice on dark
 
