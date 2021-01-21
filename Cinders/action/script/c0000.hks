@@ -661,8 +661,8 @@ function GetAttackRequest(is_guard)
             return ATTACK_REQUEST_LEFT_CROSSBOW
         end
         if is_both == TRUE then
-            -- Valorheart - Lion Stance
-            if c_SwordArtsID ~= 32 then
+			local sp_kind = env(345, hand)
+            if c_SwordArtsID ~= 32 or sp_kind == 604 then -- Valorheart - Lion Stance
                 if IsDualBlade() == TRUE then
                     return ATTACK_REQUEST_BOTH_LEFT
                 end
@@ -1233,7 +1233,7 @@ function IsEnableGuard()
         return TRUE
     elseif IsWeaponCanGuard() == FALSE then
         return FALSE
-    elseif c_SwordArtsID ~= 32 and HAND_LEFT_BOTH <= style and IsDualBlade() == TRUE then
+    elseif (c_SwordArtsID ~= 32 or sp_kind == 604) and HAND_LEFT_BOTH <= style and IsDualBlade() == TRUE then
         -- Valorheart
         return FALSE
     else
@@ -7883,8 +7883,12 @@ function AttackBothLeft1_onUpdate()
         hand = HAND_LEFT
     end
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-	if sp_kind == 604 and env(1116, 100739) == TRUE then -- Frostfall L1 Transition for Frost Surge
+	if env("装備武器特殊カテゴリ番号取得", HAND_RIGHT) == 604 and env(1116, 100739) == TRUE then -- Frostfall L1 Transition for Frost Surge
 		ExecEventHalfBlend(Event_AttackCrossbowBothRightEmpty, ALLBODY)
+		return
+	elseif env("装備武器特殊カテゴリ番号取得", HAND_LEFT) == 604 and env(1116, 100739) == TRUE then -- Frostfall L1 Transition for Frost Surge
+		ExecEventHalfBlend(Event_AttackCrossbowBothLeftEmpty, ALLBODY)
+		return
 	end
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
@@ -8750,6 +8754,11 @@ function AttackCrossbowBothLeftReload_Upper_onUpdate()
 end
 
 function AttackCrossbowBothLeftEmpty_Upper_onUpdate()
+    if env("装備武器特殊カテゴリ番号取得", HAND_LEFT) == 604 then -- Frostfall Frost Surge return to idle
+		if (env(1108, ACTION_ARM_L1) <= 0 or env(1001) <= 0) and env(1116, 100740) == TRUE then -- Not holding L1 or stamina depleted
+			ExecEventAllBody("W_Idle")
+		end
+	end
     local blend_type, lower_state = GetHalfBlendInfo()
     if CrossbowCommonFunction(blend_type) == TRUE then
         return 
@@ -9049,6 +9058,11 @@ function DrawStanceRightLoop_Upper_onUpdate()
         r2 = "W_DrawStanceRightAttackHeavyL90"
         b1 = "W_DrawStanceRightAttackLightL90"
         b2 = "W_DrawStanceRightAttackHeavyL90"
+    elseif env(1116, 100744) == TRUE and 25 > env(2016) then -- Endless Winter Stance Low FP Switch
+        r1 = "W_DrawStanceRightAttackLight2"
+        r2 = "W_DrawStanceRightAttackLight2"
+        b1 = "W_DrawStanceRightAttackLight2"
+        b2 = "W_DrawStanceRightAttackLight2"
     end
     if SwordArtsStanceCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, blend_type, TRUE, TRUE, FALSE) == TRUE then
         return 
@@ -9060,6 +9074,23 @@ function DrawStanceRightLoop_Upper_onUpdate()
         if sp_kind == 248 and env(1001) <= 0 then
             ExecEventHalfBlend(Event_DrawStanceRightEnd, blend_type)
             return 
+		elseif sp_kind == 604 and env(1116, 100741) == TRUE then -- Endless Winter Loop Repeats
+			ExecEventHalfBlendNoReset(Event_DrawStanceRightLoop, blend_type)
+			return 
+		elseif sp_kind == 604 and 0 < env(1108, ACTION_ARM_L1) then -- Endless Winter Stance to L1
+			local hand = HAND_RIGHT
+			local style = c_Style
+			if style == HAND_LEFT_BOTH then
+				hand = HAND_LEFT
+			end
+			if 25 > env(2016) or env(311, hand) == 0 or env(262, hand) == TRUE then -- Lacks FP, Weapon Broken, or IsAbilityInsufficient
+				ExecEventAllBody("W_DrawStanceRightAttackLight2")
+				return
+			else
+				ExecEventAllBody("W_DrawStanceRightAttackLight3")
+				return
+			end
+			return
         elseif HalfBlendLowerCommonFunction(Event_DrawStanceRightLoop, lower_state, FALSE, TRUE) == TRUE then
             return 
         else
@@ -9211,13 +9242,16 @@ function DrawStanceRightAttackLight_onUpdate()
         b2 = "W_AttackBothHeavy2Start"
         is_artsr1 = TRUE
     end
-    if sp_kind ~= 248 and 0 < env(1108, ACTION_ARM_L2) then
+    if (sp_kind ~= 248 and sp_kind ~= 604) and 0 < env(1108, ACTION_ARM_L2) then
         r2 = "W_DrawStanceRightAttackHeavy"
         b2 = "W_DrawStanceRightAttackHeavy"
         is_artsr2 = TRUE
     end
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, is_artsr2, GEN_TRANS_LEFT) == TRUE then
         return 
+	elseif env(1116, 100743) == TRUE then
+		ExecEventAllBody("W_DrawStanceRightAttackHeavy2")
+		return
     elseif env("アニメ終了か", 1) == TRUE then
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, TRUE)
         ExecEventAllBody("W_Idle")
@@ -9411,6 +9445,9 @@ function DrawStanceRightAttackLight2_onUpdate()
     end
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, is_artsr2, GEN_TRANS_LEFT) == TRUE then
         return 
+	elseif env(1116, 100743) == TRUE then
+		ExecEventAllBody("W_DrawStanceRightAttackHeavy2")
+		return
     elseif env("アニメ終了か", 1) == TRUE then
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, TRUE)
         ExecEventAllBody("W_Idle")
@@ -9429,10 +9466,10 @@ function DrawStanceRightAttackLight3_onUpdate()
     local style = c_Style
     local is_artsr1 = TRUE
     local is_artsr2 = FALSE
-    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     if env(225, hand) == WEAPON_CATEGORY_STRAIGHT_SWORD then
         r2 = "W_AttackRightHeavy2Start"
         b2 = "W_AttackBothHeavy2Start"
@@ -9441,13 +9478,20 @@ function DrawStanceRightAttackLight3_onUpdate()
         r1 = "W_DrawStanceRightAttackLight"
         b1 = "W_DrawStanceRightAttackLight"
     end
-    if 0 < env(1108, ACTION_ARM_L2) then
+    if sp_kind ~= 604 and 0 < env(1108, ACTION_ARM_L2) then
         r2 = "W_DrawStanceRightAttackHeavy"
         b2 = "W_DrawStanceRightAttackHeavy"
         is_artsr2 = TRUE
     end
+    if sp_kind == 604 then
+        r1 = "W_AttackRightLight1"
+        b1 = "W_AttackBothLight1"
+    end
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, is_artsr2, GEN_TRANS_LEFT) == TRUE then
         return 
+	elseif env(1116, 100743) == TRUE then
+		ExecEventAllBody("W_DrawStanceRightAttackHeavy2")
+		return
     elseif env("アニメ終了か", 1) == TRUE then
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, TRUE)
         ExecEventAllBody("W_Idle")
@@ -9511,6 +9555,12 @@ function DrawStanceRightAttackHeavy_onUpdate()
         ExecEventAllBody("W_DrawStanceRightAttackHeavyLoop")
         SetSwordArtsPointInfo(ACTION_ARM_R2, TRUE)
         return 
+	elseif env(1116, 100742) == TRUE then
+		ExecEventAllBody("W_AttackBothLightStepSpecial")
+		return
+	elseif env(1116, 100743) == TRUE then
+		ExecEventAllBody("W_DrawStanceRightAttackHeavy2")
+		return
     elseif env("アニメ終了か", 1) == TRUE then
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, TRUE)
         ExecEventAllBody("W_Idle")

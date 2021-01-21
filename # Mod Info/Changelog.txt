@@ -89,15 +89,11 @@ Wanderer's Emblem also makes you naked
 Numbness description is messed up, says duration is 120 seconds and ascending it increases it to 90, I think it should say 60 seconds
 Also maybe not a bug, but if you cast it with an ascended spelltool you get the effect, but your FOV isn't affected.
 
-This is most likely already known but the King's Quarterstaff is still sold by Andre
-
 Bad chest location in Profaned Capital, near broken arch
 
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
 
 The Painter doesn't have a name in her menu.
-
-Empty locked chest in Ringed City (platform at swamp start)
 
 kindling bonfire animation at game start spawn
 
@@ -105,10 +101,7 @@ uninfused porcine shield and it turns into ¿GoodsName?
 
 Relic of Insanity not boosting spell damage
 
-Move The Forlorn location
-
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free
 
-Black Flame Arc applies the green Alonne Flame
-
 Kris Blade applies the absorption debuff twice on dark
+
