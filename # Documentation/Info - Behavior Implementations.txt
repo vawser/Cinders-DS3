@@ -804,4 +804,75 @@
 036420 - AttackSpinHeavy            #12969  ## a028_036420
 036421 - AttackSpinHeavy_NoPoints   #12970  ## a028_036421
 
+#------------------------------------------------
+# a604 - Frostfall
+#------------------------------------------------
+030000 - AttackRightLight1 #13447
+030010 - AttackRightLight2 #13458
+030020 - AttackRightLight3 #13459
+030320 - AttackRightHeavy1Start #13486
+030321 - AttackRightHeavy1End #13487
+030330 - AttackRightHeavy1SubStart #13488
+030340 - AttackRightHeavy2Start #13489
+030341 - AttackRightHeavy2End #13490
+030350 - AttackRightHeavySpecial1Start #13491
+030370 - AttackRightHeavySpecial2Start #13492
+030500 - AttackRightLightDash #13484
+030600 - AttackRightHeavyKick #13493
+030900 - AttackRightLightStep #13485
+030910 - AttackRightLightStepSpecial #13482
+030920 - AttackRightBackstep #13483
 
+031500 - AttackCrossbowRightStart #13448
+031510 - AttackCrossbowRightEmpty #13446
+031520 - AttackCrossbowRightReload #13445
+
+033000 - AttackBothLeft1 #13460
+033010 - AttackBothLeft2 #13468
+033020 - AttackBothLeft3 #13469
+033500 - AttackBothLeftDash #13450
+033900 - AttackBothLeftStep #13462
+
+034000 - AttackBothLight1 #13451
+034010 - AttackBothLight2 #13470
+034020 - AttackBothLight3 #13471
+034100 - AttackBothLightKick #13479
+034150 - GuardBreakWallBoth #13480
+034200 - GuardDamageBreakBoth #13481
+034320 - AttackBothHeavy1Start #13463
+034321 - AttackBothHeavy1End #13464
+034330 - AttackBothHeavy1SubStart #13465
+034340 - AttackBothHeavy2Start #13466
+034341 - AttackBothHeavy2End #13467
+034350 - AttackBothHeavySpecial1Start #13472
+034351 - AttackBothHeavySpecial1End #13474
+034370 - AttackBothHeavySpecial2Start #13473
+034371 - AttackBothHeavySpecial2End #13475
+034500 - AttackBothDash #13476
+034600 - AttackBothHeavyKick #13477
+034900 - AttackBothLightStep #13478
+034910 - AttackBothLightStepSpecial #13454
+034920 - AttackBothBackstep #13455
+
+035500 - AttackCrossbowBothRightStart #13449
+035510 - AttackCrossbowBothLeftEmpty / AttackCrossbowBothRightEmpty #13461
+
+036200 - DrawStanceRightStart #13494
+036210 - DrawStanceRightLoop #13495
+036215 - DrawStanceRightLoopMove_Upper #13497
+036220 - DrawStanceRightEnd #13496
+036230 - DrawStanceRightAttackLight #13498
+036231 - DrawStanceRightAttackLight_NoPoints #13501
+036240 - DrawStanceRightAttackHeavy #13499
+036241 - DrawStanceRightAttackHeavy_NoPoints #13502
+036250 - DrawStanceRightAttackLight2 #13506
+036251 - DrawStanceRightAttackLight2_NoPoints #13507
+036260 - DrawStanceRightAttackHeavy2 #13504
+036261 - DrawStanceRightAttackHeavy2_NoPoints #13505
+036290 - DrawStanceRightAttackLight3 #13500
+036291 - DrawStanceRightAttackLight3_NoPoints #13503
+
+036400 - AttackSpinStart #13452
+036401 - AttackSpinStart_NoPoints #13457
+036410 - AttackSpinLight #13453
+036420 - AttackSpinHeavy #13456

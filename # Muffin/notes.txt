@@ -1,1 +1,7 @@
-﻿Just an update to the one vfx, but the params is all up to date.
+﻿-Behbnd entries
+-An update to the one vfx
+-HKS
+-Params up to date: atk, behavior, bullet, equipparamweapon, speffect, swordarts
+-Weapon description in xml format
+-Parts file _l in case frostfall is ever given to an npc
+
