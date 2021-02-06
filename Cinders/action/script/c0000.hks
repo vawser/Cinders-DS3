@@ -16333,7 +16333,7 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
     if env(1116, trigger_effect) == TRUE then
         if env(1116, 112170) ~= TRUE and env(1116, 112171) ~= TRUE and env(1116, 112172) ~= TRUE and env(1116, 112173) ~= TRUE and env(1116, 112174) ~= TRUE and env(1116, 112175) ~= TRUE then
             
-            -- Randomise cooldownd duration
+            -- Randomise cooldown duration
             local roll = math.random(0, 100)
             if roll >= 0 and roll < 10 then
                 act(2002, 112170)

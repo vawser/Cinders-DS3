@@ -1933,7 +1933,6 @@ Persisting will transform you into a grub.</text>
 <text id="15002004">Heal the Dark Sigil</text>
 <text id="15002005">Give &lt;?gdsparam@390?&gt;</text>
 <text id="15002006">Return the Lordvessel</text>
-
 <text id="15003000">Transpose</text>
 <text id="15003001">Give &lt;?gdsparam@2135?&gt;</text>
 <text id="15003002">Transpose brothers' blades</text>
@@ -1946,7 +1945,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003009">Offerings</text>
 <text id="15003010">Offerings</text>
 <text id="15003011">Offerings</text>
-
 <text id="15003012">Forge Weapons</text>
 <text id="15003013">Forge Spells</text>
 <text id="15003014">Forge Rings</text>
@@ -1965,26 +1963,21 @@ Persisting will transform you into a grub.</text>
 <text id="15003027">Members of the Darkmoon will appreciate this action.</text>
 <text id="15003028">Enter the Darkness</text>
 <text id="15003029">Catalyst Infusions</text>
-
 <text id="15003030">Form Champion's Pact</text>
 <text id="15003031">The Champion's Pact has been enabled.</text>
 <text id="15003032">Break Champion's Pact</text>
 <text id="15003033">The Champion's Pact has been disabled.</text>
-
 <text id="15003040">Trial of Perseverance</text>
 <text id="15003041">Trial of Glory</text>
-
 <text id="15003050">You must defeat the Abyss Watchers to enter this trial.</text>
 <text id="15003051">You must defeat Aldrich to enter this trial.</text>
 <text id="15003052">You must defeat Yhorm the Giant to enter this trial.</text>
 <text id="15003053">You must defeat the Twin Princes to enter this trial.</text>
-
 <text id="15003060">Insignias and Emblems</text>
 <text id="15003061">Elixirs</text>
 <text id="15003062">Writs</text>
 <text id="15003063">Oils</text>
 <text id="15003064">Odds and Ends</text>
-
 <text id="15004000">Learn Sorceries</text>
 <text id="15004001">%null%</text>
 <text id="15004002">%null%</text>
@@ -2191,13 +2184,11 @@ Persisting will transform you into a grub.</text>
 <text id="15016026">Give &lt;?gdsparam@2177?&gt;</text>
 <text id="15016027">Give &lt;?gdsparam@2178?&gt;</text>
 <text id="15016028">Give &lt;?gdsparam@2121?&gt;</text>
-
 <text id="15016029">Give Abyssal Fragments</text>
 <text id="15016030">Irina begins to squirm...</text>
 <text id="15016031">Give Holy Fragments</text>
 <text id="15016032">Irina begins to glow...</text>
 <text id="15016033">You lack a sufficient amount of fragments.</text>
-
 <text id="15020000">Purchase Item</text>
 <text id="15027000">%null%</text>
 <text id="15027001">%null%</text>
@@ -2212,13 +2203,11 @@ Persisting will transform you into a grub.</text>
 <text id="15027010">Reallocate attributes</text>
 <text id="15027011">Alter appearance</text>
 <text id="15027012">Restore &lt;?gdsparam@728?&gt;</text>
-
 <text id="15028000">Advance Journey</text>
 <text id="15028001">Are you sure?</text>
 <text id="15028002">Are you really sure?</text>
 <text id="15028010">You will enter the next NG+ cycle if you continue.
 This will reset all progress and increase the difficulty of the world.</text>
-
 <text id="20000000">Your summon sign disappeared</text>
 <text id="20000001">Your summon sign disappeared</text>
 <text id="20000002">Invasion canceled</text>
@@ -2890,11 +2879,9 @@ and haunted by a black sun.</text>
 <text id="70012021">%null%</text>
 <text id="70012022">%null%</text>
 <text id="70012023">%null%</text>
-
 <text id="80000000">Aye, siwmae. And good day to you.</text>
 <text id="80000001">I'm Domhnall of Zena. I'm just, well, a peddler, of sorts.</text>
 <text id="80000002">I adore trinkets and oddities, so I trade for them.</text>
-
 <text id="80000100">Hm... Oh, let me guess...
 Looking for baubles and trinkets in this strange land?</text>
 <text id="80000101">Yes, of course. We are both strangers in this strange land.
@@ -2902,7 +2889,6 @@ But, at least now there are two of us.</text>
 <text id="80000102">Believe it or not... Irithyll brought the Deep upon itself.
 Fooled by that slimy beast, he upturned the grave of gods 
 and consumed the lot.</text>
-
 <text id="80000200">Ah, what? What? Who are you?
 Ahh, another Undead, eh? Those blasted wurms...</text>
 <text id="80000201">The lake is swarming with them.
@@ -2910,7 +2896,6 @@ They must be killed before the ruins below can be entered.</text>
 <text id="80000202">Ahh, you think you're different? That you can handle it?
 Yes, I remember that feeling. For I was the same.</text>
 <text id="80000203">... So, let me help you out. With your soul-searching.</text>
-
 <text id="80000300">Well, you are a rare visitor.
 Welcome to the Cemetery of Ash, ashen one.</text>
 <text id="80000301">If you seek the power of the dark arts,
@@ -2918,7 +2903,6 @@ I may be able to help with that.</text>
 <text id="80000302">Hmm. Watch your back out there.</text>
 <text id="80000303">Don't underestimate those hollows. 
 They may be mindless, but their blades still cut deep.</text>
-
 <text id="90000000">%null%</text>
 <text id="90000001">%null%</text>
 <text id="90000002">%null%</text>
@@ -2980,13 +2964,11 @@ They may be mindless, but their blades still cut deep.</text>
 <text id="99000700">Commune</text>
 <text id="99000701">Enter</text>
 <text id="99000702">Destroy</text>
-
 <text id="99000710">Trial of Adversity</text>
 <text id="99000711">Trial of Calamity</text>
 <text id="99000712">Trial of Sorrow</text>
 <text id="99000713">Trial of Devastation</text>
 <text id="99000714">Peer into the Past</text>
-
 <text id="99000800">Enter</text>
 <text id="99000900">Begin next journey?</text>
 <text id="99000901">Are you sure?</text>
@@ -3005,7 +2987,6 @@ They may be mindless, but their blades still cut deep.</text>
 <text id="99001009">Warp to Irithyll</text>
 <text id="99001010">Warp to the Dreg Heap</text>
 <text id="99001011">Warp to Untended Graves</text>
-
 <text id="99002000">Curses</text>
 <text id="99002001">Inspect</text>
 <text id="99002002">Curses are modifiers that you may apply to 
@@ -3013,10 +2994,8 @@ yourself in exchange for a bonus.
 
 Once enabled, a curse is applied after you rest at a bonfire, 
 and will remain active until you disabled it at the Accursed Altar.</text>
-
 <text id="99002005">Enable</text>
 <text id="99002006">Disable</text>
-
 <text id="99002010">Enable at Strength I</text>
 <text id="99002011">Enable at Strength II</text>
 <text id="99002012">Enable at Strength III</text>
@@ -3027,7 +3006,6 @@ and will remain active until you disabled it at the Accursed Altar.</text>
 <text id="99002017">Enable at Strength VIII</text>
 <text id="99002018">Enable at Strength IX</text>
 <text id="99002019">Enable at Strength X</text>
-
 <text id="99002100">Curse of Pride</text>
 <text id="99002101">Curse of Fortitude</text>
 <text id="99002102">Curse of Vitality</text>
@@ -3040,7 +3018,6 @@ and will remain active until you disabled it at the Accursed Altar.</text>
 <text id="99002109">Curse of Enfeeblement</text>
 <text id="99002110">Curse of Impermanence</text>
 <text id="99002111">Curse of Valor</text>
-
 <text id="99002300">Curse of Pride broken.</text>
 <text id="99002301">Curse of Fortitude broken.</text>
 <text id="99002302">Curse of Vitality broken.</text>
@@ -3053,7 +3030,6 @@ and will remain active until you disabled it at the Accursed Altar.</text>
 <text id="99002309">Curse of Enfeeblement broken.</text>
 <text id="99002310">Curse of Impermanence broken.</text>
 <text id="99002311">Curse of Valor broken.</text>
-
 <text id="99002400">Pride cometh before the fall. 
 
 Enemies deal 10% more damage in all forms.
@@ -3104,7 +3080,6 @@ Boosts soul absorption by 45%.</text>
 Enemies deal 100% more damage in all forms.
 
 Boosts soul absorption by 50%.</text>
-
 <text id="99002410">Enemies possess unholy fortitude. 
 
 Increases enemy absorption by 5% and defence by 10%.
@@ -3155,7 +3130,6 @@ Boosts soul absorption by 45%.</text>
 Increases enemy absorption 50% and defence by 100%.
 
 Boosts soul absorption by 50%.</text>
-
 <text id="99002420">Enemies brim with unholy vitality.
 
 Enemies recover 10 + 0.1% HP every second. 
@@ -3206,7 +3180,6 @@ Boosts soul absorption by 22.5%.</text>
 Enemies recover 100 + 0.1% HP every second. 
 
 Boosts soul absorption by 25%.</text>
-
 <text id="99002430">Enemies strike with unbridled wrath.
 
 Enemies recover 10 stamina per second.
@@ -3257,49 +3230,41 @@ Boosts soul absorption by 9%.</text>
 Enemies recover 100 stamina per second.
  
 Boosts soul absorption by 10%.</text>
-
 <text id="99002440">Enemies are attracted to your scent.
 
 Additional enemies appear throughout the world.
 
 Boosts soul absorption by 5%.</text>
-
 <text id="99002450">You are blind to danger. Literally.
  
 You are now shrouded by darkness.
 
 Boosts soul absorption by 15%.</text>
-
 <text id="99002460">Your mind is fogged with confusion. 
 
 You no longer regenerate FP passively.
 
 Boosts soul absorption by 10%.</text>
-
 <text id="99002470">Your gluttony has slowed your senses.
 
 Doubles swing and evasive stamina consumption. 
 
 Boosts soul absorption by 10%.</text>
-
 <text id="99002480">Your strikes are pitiful and frail.
 
 Enemies are virtually impossible to stagger.
 
 Boosts soul absorption by 10%.</text>
-
 <text id="99002490">Your body is enfeebled by unholy magic.
 
 Your max HP, FP and Stamina is reduced by 50%.
 
 Boosts soul absorption by 15%.</text>
-
 <text id="99002500">Your weapons easily crumble.
 
 The durability of your weapons will gradually degrade over time.
 
 Boosts soul absorption by 10%.</text>
-
 <text id="99002510">The glorious kneel before no hollow.
 
 Empowers bosses, increasing the following:
@@ -3311,14 +3276,15 @@ Empowers bosses, increasing the following:
 - Resistances by 50%.
 
 Enables an additional chance for a Primordial Fragment.</text>
-
+<text id="99002530">Commune</text>
+<text id="99002531">Inspect</text>
+<text id="99002532">Tomes</text>
 <text id="99003500">Bestow Lordvessel</text>
 <text id="99003501">Relics</text>
 <text id="99003502">Claim Relic of Power</text>
 <text id="99003503">Claim Relic of Insanity</text>
 <text id="99003504">Relic of Power</text>
 <text id="99003505">Relic of Insanity</text>
-
 <text id="99003510">To claim the Relic of Power you must:
 - Kill the Soul of Cinder.
 - Refrain from dying at any point during your journey.
@@ -3334,7 +3300,6 @@ You can claim the relic.</text>
 - Refrain from dying at any point during your journey.
 
 You have failed.</text>
-
 <text id="99003520">To claim the Relic of Insanity you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
@@ -3353,15 +3318,7 @@ You can claim the relic.</text>
 during your journey.
 
 You have failed.</text>
-
 <text id="99003600">Give the Blood of the Dark Soul</text>
-
-<text id="99002530">Commune</text>
-<text id="99002531">Inspect</text>
-<text id="99002532">Tomes</text>
-
-<text id="99005000">Does not work here.</text>
-
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
 Magic: absorb 2/4/6 FP on hit, differs based on weapon type.
 Fire: apply stacking 1% Fire absorption debuff for 5 seconds.
@@ -3372,7 +3329,6 @@ Enchanted: restores an additional 2 FP per second.
 Holy: restores an additional 3 HP per second.
 Sharp: consecutive attacks boost damage, up to 15%.
 Blunt: increases max equipment load by 10%.</text>
-
 <text id="99004001">Clarity: restores an additional 2 FP per second.
 Rejuvenation: grants an additional 15 stamina recovery.
 Restoration: restores an additional 3 HP per second.
@@ -3383,12 +3339,11 @@ Magic: increases Magic absorption by 5%.
 Fire: increases Fire absorption by 5%.
 Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
-
 <text id="99004002">Pulsating: restores an additional 2 FP per second.
 Vibrating: restores an additional 3 HP per second.
 Throbbing: unlocks ascended effects for spells.
 Quivering: boosts cast speed by 25.</text>
-
+<text id="99005000">Does not work here.</text>
 <text id="99005100">Silver Knight Ledo intrudes...</text>
 <text id="99005101">Silver Knight Ledo has been vanquished</text>
 <text id="99005110">Luyila of Londor intrudes...</text>
@@ -3487,32 +3442,20 @@ Quivering: boosts cast speed by 25.</text>
 <text id="99005641">Seeker of the Spurned has been vanquished</text>
 <text id="99005650">Moaning Knight intrudes...</text>
 <text id="99005651">Moaning Knight has been vanquished</text>
-
 <text id="99007000">Enemies of yore restored</text>
-
 <text id="99010000">Marks</text>
 <text id="99010001">Talk</text>
-
 <text id="99010002">O turpi viridi egredere de beatus praetorium,
 et deficient et in studiorum omnium satietas.</text>
-
 <text id="99010003">Ego misera, da mihi potestatem, phialam argenteam.</text>
-
 <text id="99010100">Mark of Attraction</text>
 <text id="99010101">Mark of the Dog</text>
 <text id="99010102">Mark of the Crab</text>
 <text id="99010103">Mark of Valor</text>
-
 <text id="99010200">Disable Mark of Attraction</text>
 <text id="99010201">Disable Mark of the Dog</text>
 <text id="99010202">Disable Mark of the Crab</text>
 <text id="99010203">Disable Mark of Valor</text>
-
-<text id="99011200">Mark of Attraction broken.</text>
-<text id="99011201">Mark of the Dog broken.</text>
-<text id="99011202">Mark of the Crab broken.</text>
-<text id="99011203">Mark of Valor broken.</text>
-
 <text id="99011100">You are marked, drawing creatures 
 towards your location.
 
@@ -3537,7 +3480,10 @@ the Road of Sacrifices or Farron Keep.</text>
 Boosts the power of bosses by 50% and increases their HP by 50%.
 
 Enables Primordial material to drop from bosses.</text>
-
+<text id="99011200">Mark of Attraction broken.</text>
+<text id="99011201">Mark of the Dog broken.</text>
+<text id="99011202">Mark of the Crab broken.</text>
+<text id="99011203">Mark of Valor broken.</text>
 <text id="99012000">Oh, there you are.
 I thought you'd all but forgotten me. How sweet.
 Good to know that a skinny little heretic can still turn heads.
@@ -3548,7 +3494,6 @@ One can become quite attached, even to a bumbling apprentice.</text>
 <text id="99012005">You're here to propose to me?
 But I am guilty. A wretched child of the Abyss.
 Is that something you can forgive?</text>
-
 <text id="99012010">Ashen One, this is...
 Very much how I feel towards you. Forgive me.
 But I created this gift for you, I hope you enjoy it.</text>
@@ -3558,7 +3503,6 @@ Do you feel as I do? With the fury of the flames?</text>
 Without me, they will be extinguished.</text>
 <text id="99012015">Ashen One, I am unworthy of your love.
 But I accept your offer.</text>
-
 <text id="99012020">Uncle Gael has warned me about your bad jokes.
 He told me to give you this.</text>
 <text id="99012021">Oh, that is funny. But I'd rather focus on my
@@ -3566,7 +3510,6 @@ painting for now.</text>
 <text id="99012022">What an awful joke.
 I banish you!.</text>
 <text id="99012025">This world is awfully lonely. A friend would be welcome.</text>
-
 <text id="99012030">The shriveled body of Rosaria appears to squirm 
 in a joyous manner. A gift pops out from beneath her quivering mass.</text>
 <text id="99012031">The shriveled body of Rosaria appears to squirm 
@@ -3575,7 +3518,6 @@ in a dull manner.</text>
 in a anxious manner.</text>
 <text id="99012035">The shriveled body of Rosaria appears to squirm 
 in a sensual manner.</text>
-
 <text id="99012040">The decayed corpse of Archdeacon McDonnell appears 
 to pulsate in a rhymathic fashion. 
 A gift pops out from beneath his decaying mass.</text>
@@ -3585,7 +3527,6 @@ to pulsate in a dull fashion.</text>
 absolutely still.</text>
 <text id="99012045">The decayed corpse of Archdeacon McDonnell emits 
 a loud gaseous expulsion.</text>
-
 <text id="99012050">I, Yorshka, love thine heart as thou'st love 
 the moon and sky. 
 Here, take this token of appreciation, thou'rt most deserving of it.</text>
@@ -3595,7 +3536,6 @@ Set forth and accomplish such deeds in thine name.</text>
 Begone!</text>
 <text id="99012055">Oh, my! Thou'st love is sweet. If thou'st speak'th
 with true intent.</text>
-
 <text id="99012060">I never thought you'd confess such beautiful words 
 to me. Hmm... What can I say? Take this trinket as a sign of my love.</text>
 <text id="99012061">Those are truly wonderful thoughts.
@@ -3604,14 +3544,12 @@ Do they come with new trinkets too?</text>
 I can't say I've thought much about you I'm afraid.</text>
 <text id="99012065">What a wonderful notion. 
 Let us arrange an ceremony in this here cathedral.</text>
-
 <text id="99012070">Mwah hah hah! A splendid display of affection.
 Here, take this gift, you deserve it.</text>
 <text id="99012071">Believe it or not... But I to feel that
 way about you. That'll put some spring into your step.</text>
 <text id="99012072">You have quite some nerve. Or are you just thick?</text>
 <text id="99012075">A grand notion. Yes, magnificently so!</text>
-
 <text id="99012080">Yes, I remember that feeling. 
 For I was once the same. Here, take this trinket.</text>
 <text id="99012081">Hm... Oh, yes, it's you.
@@ -3620,7 +3558,6 @@ A kind notion, but little use in these tombs.</text>
 Don't even consider talking to me again.</text>
 <text id="99012085">Ah, what? What? Marriage?
 Ahh, I guess so.</text>
-
 <text id="99012090">Ahh, most illustrious Lordseeker.
 Your words have touched me so. Take this memento as
 a sign of our connection.</text>
@@ -3630,7 +3567,6 @@ What's to fear in a little tenderness, now?</text>
 Begone and preserve the fading Flame.</text>
 <text id="99012095">Oh, thou'rt a kind Unkindled.
 And I a Lord of Cinder, in want of tenderness.</text>
-
 <text id="99012100">Thy desire is matched.
 Bearer of the dark sigil, and our Lord of Hollows.
 I present you this gift of my affection.</text>
@@ -3640,7 +3576,6 @@ I too feel this way, but alas your lordship must come first.</text>
 Such notions will imperil thy rule.</text>
 <text id="99012105">Thou'rt a Lord, art thou not?
 Alas, your kindness is welcome.</text>
-
 <text id="99012110">Oh, my... You are stupendous.
 Here, I was saving this for later, but you should have it now.</text>
 <text id="99012111">Oh, how gracious. Do promise to stay safe
@@ -3649,7 +3584,6 @@ out there, this land isn't fit for such noble hearts.</text>
 at courtship, wouldn't you say?</text>
 <text id="99012115">Well, this is unexpected, but I echo the sentiment.
 Very well, let us form a union.</text>
-
 <text id="99012120">Ah, I'm but a weary old smith.
 Nevertheless, take this here token as a sign of my appreciation.</text>
 <text id="99012121">Ahh, well met.
@@ -3658,7 +3592,6 @@ Tis good to see you in good health.</text>
 I am in no mood for such trifling notions.</text>
 <text id="99012125">Well, this is a surpise.
 Tis good to find nobility in these trying times.</text>
-
 <text id="99012130">Gracious. Fine compliment thou'st given.
 Thou'rt has warmed thine cockles. Here, take thine token of desire.</text>
 <text id="99012131">Oh, knowest thou of that soppy gossip?
@@ -3666,7 +3599,6 @@ Me? Thy suppeth too much on airy notions.</text>
 <text id="99012132">Ashen One, thy layeth nary a soul upon my feet?</text>
 <text id="99012135">Ashen One, to desire such soppy seconds.
 Thy pockets must o'erflow with good will.</text>
-
 <text id="99012140">Ahh, there you, Unkindled One. I wish to express my gratitude.
 For trusting a lowly pyromancer, and allowing me to gaze upon your majestic flame.
 Here, take this.</text>
@@ -3674,7 +3606,6 @@ Here, take this.</text>
 <text id="99012142">Unkindled one, leave me be.</text>
 <text id="99012145">Ah-ha, marry me? Never have I been the object of desire.
 This has truly renewed my flame.</text>
-
 <text id="99012150">Sweet champion, you are truly a blessing.
 You have touched me so, take this.</text>
 <text id="99012151">Oh, thank you sweet champion.
@@ -3683,7 +3614,6 @@ I shall remember these words.</text>
 Don't tease me like this.</text>
 <text id="99012155">Oh, sweet champion. You wish to marry me?
 I am but a humble maiden, but I accept.</text>
-
 <text id="99012160">Well, look at me. I am truly the luckiest man in the world.
 Here, I obtained some truly fine treasure recently, take it.</text>
 <text id="99012161">Ah, oh, yes, of course...
@@ -3692,7 +3622,6 @@ A lovely compliment, thank you sweetie.</text>
 Now is not the time for such crude remarks.</text>
 <text id="99012165">Ooh la la, you are a true romantic.
 To sweep the Unbreakable Patches off his feet is a feat indeed!</text>
-
 <text id="99012170">Thank you for such beautiful words.
 You know, I was working on something for you, 
 perhaps you can have it now?</text>
@@ -3702,12 +3631,10 @@ dark cover you in its encompassing embrace.</text>
 whilst I'm focusing on such important matters?</text>
 <text id="99012175">Oh, what a kind offer.
 I hereby accept your proposal.</text>
-
 <text id="99012180">Magnae dilectionis testimonium temporibus.</text>
 <text id="99012181">Felix est dicta magnum ursus.</text>
 <text id="99012182">Non magnum molestum ursus.</text>
 <text id="99012185">Nubet ursa raptis catulis paruis magna.</text>
-
 <text id="99012190">I humbly accept your compliment.
 Here, I found this trinket whilst scavenging,
 I thought you might like it.</text>
@@ -3716,7 +3643,6 @@ Those are kind words, especially for a  petty thief such as me.</text>
 <text id="99012192">I-I'm not asking for flattery, leave me be.</text>
 <text id="99012195">Ahh, you love a crook like me?
 I must be the luckiest thief in the world.</text>
-
 <text id="99012200">Champion of ash.
 I will do anything for my master, just say the word.
 Here, take this token of my affection.</text>
@@ -3726,7 +3652,6 @@ To receive such affection from a champion such as you.</text>
 Now is not the time.</text>
 <text id="99012205">Ohh… Ohh, what a honour.
 To marry a champion of ash is a privilege indeed.</text>
-
 <text id="99012210">You are truly fond of me!
 You've a strong arm, strong faith, and most importantly, a strong heart.
 I am in awe, really. Here, take this as a token of my love.</text>
@@ -3738,7 +3663,6 @@ Hah hah hah!</text>
 You've been quiet these days.</text>
 <text id="99012215">Oh, ah hah! A proposition?
 The way I see it, our fates appear to be intertwined.</text>
-
 <text id="99012220">My servant, well met indeed.
 Thou'st permitted me to dream. One day, rats and humans may 
 yet live and die together, in peace.
@@ -3750,14 +3674,11 @@ and pledge thyself to me for eternity?</text>
 Thy duplicity will not go unpunished.</text>
 <text id="99012225">Thy welcome.
 Rejoice, for the right to worship me is now thine.</text>
-
 <text id="99013000">Welcome, ashen one.
 I've been resting here for quite some time.
 Say, how would you like to try one of my enchanted oils?</text>
-
 <text id="99013001">Ah, hello! You don't look Hollow, far from it!
 I am Solaire of Astora, an adherent of the Lord of Sunlight.</text>
-
 <text id="99013100">Tortured Soul</text>
 <text id="99013101">Give Tortured Soul</text>
 <text id="99013105">Interested in a little quest are we?
@@ -3767,7 +3688,6 @@ but I lack a crucial ingredient.
 If you would be so kind, please fetch me a tortured soul 
 from the decrepit cathedral.</text>
 <text id="99013106">Thank you.</text>
-
 <text id="99013110">Smithbox</text>
 <text id="99013111">Give Smithbox</text>
 <text id="99013115">Blasted thieves!
@@ -3776,21 +3696,17 @@ Would you mind retrieving it for me?
 I believe I saw the rapscallion running off 
 towards the castle.</text>
 <text id="99013116">Thank you.</text>
-
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
-
 <text id="99015005">Basic Affix</text>
 <text id="99015006">Fine Affix</text>
 <text id="99015007">Superior Affix</text>
 <text id="99015008">Exquisite Affix</text>
 <text id="99015009">Legendary Affix</text>
-
 <text id="99015010">Affix this ring?</text>
 <text id="99015011">You do not possess this ring</text>
 <text id="99015012">Insufficient Primordial Fragments</text>
 <text id="99015013">Ring affixed</text>
-
 <text id="99015020">Affixes are used to empower accessories, 
 increasing the strength of their effects.
 
@@ -3802,7 +3718,6 @@ Fine: 4 Primordial Fragments
 Superior: 6 Primordial Fragments
 Exquisite: 8 Primordial Fragments
 Legendary: 10 Primordial Fragments</text>
-
 <text id="99015100">Life Ring</text>
 <text id="99015101">Chloranthy Ring</text>
 <text id="99015102">Havel's Ring</text>
@@ -3890,7 +3805,6 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99015184">Tainted Chalice</text>
 <text id="99015185">Accursed Sigil</text>
 <text id="99015186">Frostflower Ring</text>
-
 <text id="99030000">You must possess the Dragon Talon to activate this object.</text>
 <text id="99030001">You must possess the Pilgrim's Soul to activate this object.</text>
 <text id="99030002">You must possess the Smouldering Key to activate this object.</text>
@@ -3900,11 +3814,9 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99030006">You must possess the Catacombs Key to activate this object.</text>
 <text id="99030007">You must possess the Giant's Soul to activate this object.</text>
 <text id="99030008">You must possess Smouldering Rubble to activate this object.</text>
-
 <text id="99030010">You must be embered to summon a companion.</text>
 <text id="99030020">This companion is dead.</text>
 <text id="99030030">Dead companions may be summoned again.</text>
-
 <text id="99030100">Corrupted Gundyr has not been killed 
 in this journey yet.</text>
 <text id="99030101">Vordt of the Boreal Valley has not 
@@ -3955,7 +3867,8 @@ in this journey yet.</text>
 in this journey yet.</text>
 <text id="99030124">Halflight has not been killed 
 in this journey yet.</text>
-
+<text id="99030125">Frostfire Colossus has not been killed 
+in this journey yet.</text>
 <text id="99030200">Salve, Regina, Mater misericordiae...</text>
 <text id="99030201">...vita, dulcedo, et spes nostra, salve.</text>
 <text id="99030202">Ad te clamamus exsules filii Hevae...</text>
@@ -3966,7 +3879,6 @@ in this journey yet.</text>
 <text id="99030207">Et Gwyn, benedictum fructum ventris tui...</text>
 <text id="99030208">...nobis post hoc exsilium ostende.</text>
 <text id="99030209">O clemens, O pia, O dulcis Gwynevere.</text>
-
 <text id="99030300">You are currently in Journey 1.</text>
 <text id="99030301">You are currently in Journey 2.</text>
 <text id="99030302">You are currently in Journey 3.</text>
@@ -3975,7 +3887,6 @@ in this journey yet.</text>
 <text id="99030305">You are currently in Journey 6.</text>
 <text id="99030306">You are currently in Journey 7.</text>
 <text id="99030307">You are currently in Journey 8 or beyond.</text>
-
 <text id="99030400">It's locked, requires Forgotten Key</text>
 <text id="99030401">It's locked, requires Soldier's Key</text>
 <text id="99030402">It's locked, requires Knight's Key</text>
@@ -3990,12 +3901,10 @@ in this journey yet.</text>
 <text id="99030411">It's locked, requires Frozen Flower</text>
 <text id="99030412">It's locked, requires Dreg Key</text>
 <text id="99030413">It's locked, requires Burning Key</text>
-
 <text id="99030500">Training</text>
 <text id="99030501">Bring me any ritual incense you find.
 In exchange I can offer training for your companions.
 Don't tarry now, on you go.</text>
-
 <text id="99030510">Good gracious!
 You are a most ferverous lover, my dear.
 Take this token of my love.</text>
@@ -4006,12 +3915,10 @@ You don't have any? Get out of here then.</text>
 <text id="99030513">A marriage proposal?
 Well, well, well, you are a looker, so yes,
 I accept your offer.</text>
-
 <text id="99030600">Reinforce Focusing Crystal</text>
 <text id="99030601">Reinforce crystal?</text>
 <text id="99030603">No Resonating Crystal</text>
 <text id="99030604">Focusing Crystal reinforced</text>
-
 <text id="99030610">Very good, very good indeed.
 Here, take this token of my appreciation.</text>
 <text id="99030611">Cursed one, you lack charm.
@@ -4021,20 +3928,16 @@ Bigger, stronger crystals! Heh heh...</text>
 <text id="99030613">Well! This is a most peculiar proposal.
 Prepare to peer straight into the heart of magic.
 Heh heh heh...</text>
-
 <text id="99030615">Still a bit stiff, I'm afraid.
 I am Grudore. A wandering sorcerer of sorts.
 Bring me resonating crystals and I can provide
 goods and services that may be of use to you.</text>
-
 <text id="99030620">Give Farron Coal</text>
 <text id="99030621">Give Sage's Coal</text>
 <text id="99030622">Give Giant's Coal</text>
 <text id="99030623">Give Profaned Coal</text>
-
 <text id="99030625">Thank you. This coal will help me greatly.
 Heh heh heh...</text>
-
 <text id="99030710">Incredible. You are certainly persuasive.
 Here, take this token of appreciation.</text>
 <text id="99030711">An apt query, but it is not the time for such questions.</text>
@@ -4042,13 +3945,9 @@ Here, take this token of appreciation.</text>
 But do not bother me further.</text>
 <text id="99030713">Is this... some sort of a dream?
 Of course, I accept your proposal.</text>
-
 <text id="99030715">I am a collector of sorts.
 Feel free to peruse my collection. 
 For the right amount of souls, I may be willing 
 to part with some items of interest.</text>
-
-
 </entries>
 </fmg>
-

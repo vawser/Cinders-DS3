@@ -1003,7 +1003,7 @@ def t400507_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30361, 4, 1, 0) == 1, 66, 99015165, -1)
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30371, 4, 1, 0) == 1, 67, 99015166, -1)
-        
+ 
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1558,7 +1558,7 @@ def t400507_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30362, 4, 1, 0) == 1, 66, 99015165, -1)
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30372, 4, 1, 0) == 1, 67, 99015166, -1)
-        
+
         # Quit
         AddTalkListData(99, 15000180, -1)
         

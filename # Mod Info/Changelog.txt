@@ -86,22 +86,9 @@
 - Changed Whisper of Despair bullet vfx to the blue skull.
 
 # Rings
-- Changed Prisoner's Chain to:
- - [+0] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
- - [+1] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 9%.
- - [+2] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 8%.
- - [+3] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 7%.
- - [+4] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 6%.
- - [+5] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 5%.
- 
-- Changed the +stat rings to:
- - [+0] Increases <stat> by 6
- - [+1] Increases <stat> by 8
- - [+2] Increases <stat> by 10
- - [+3] Increases <stat> by 12
- - [+4] Increases <stat> by 14
- - [+5] Increases <stat> by 16
- 
+- Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
+- Changed the +stat rings to: Increases <stat> by 6/8/10/12/14/16
+
 # Map
 - Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
 
@@ -121,7 +108,6 @@
 Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
-
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
 The Painter doesn't have a name in her menu.
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free

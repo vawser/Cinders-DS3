@@ -305,7 +305,6 @@ Quite befitting of an Unkindled, an Ashen Estus Flask turns a bonfire's heat col
 Fill with Estus at bonfires, and drink to restore FP.
 
 Quite befitting of an Unkindled, an Ashen Estus Flask turns a bonfire's heat cold.</text>
-
 <text id="220">Undead treasure this focusing crystal.
 
 Restores 100 FP but renders the holder vulnerable for a short period.
@@ -361,7 +360,6 @@ Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing th
 Restores 600 FP but renders the holder vulnerable for a short period.
 
 Quite befitting of an Unkindled, a focusing crystal quiets the mind, allowing the restoration of focus.</text>
-
 <text id="240">Holy water blessed by the Queen of Lothric.
 
 Fully restores HP and cures ailments.
@@ -1107,7 +1105,6 @@ Can you hear the desperation of its plea?</text>
 <text id="538">%null%</text>
 <text id="539">%null%</text>
 <text id="540">%null%</text>
-
 <text id="700">Soul of the corrupted champion Gundyr.
 One of the twisted souls, steeped in strength.
 
@@ -1122,20 +1119,21 @@ The power of the dragons seduced many, who subsequently fell to the Ancient Wyve
 One of the twisted souls, steeped in strength.
 
 Their duty was never forgotten, even when all else had.</text>
+<text id="703">Soul of Odessa, the Frostfire Colossus.
+One of the twisted souls, steeped in strength. 
 
+Chaos Flame, progenitor of demons, corrupted all those who opposed its usurpation of Eleum Loyce. Even the lion-hearted frostweaver was distorted by its roiling hunger.</text>
 <text id="712">Soul of the champion Gundyr.
 One of the twisted souls, steeped in strength.
 
 Once, a champion came late to the festivities,
 and was greeted by a shrine without fire,
 and a bell that would not toll.</text>
-
 <text id="713">Soul of a malevolent god
 that possessed a heroic king.
 
 Use to acquire a huge amount of souls,
 or to make an offering at the training kiln…</text>
-
 <text id="714">Soul of the dancer.
 One of the twisted souls, steeped in strength.
 
@@ -1144,66 +1142,55 @@ slashing sword upon a distant daughter of
 the formal royal family, ordering her to serve
 first as a dancer, and then as an outrider knight,
 the equivalent to exile.</text>
-
 <text id="715">Soul of a Crystal Sage.
 One of the twisted souls, steeped in strength.
 
 The twin Crystal Sages once served as spiritual
 guides to the scholars of the Grand Archives,
 and one went on to ally with the Undead Legion.</text>
-
 <text id="716">%null%</text>
-
 <text id="717">Soul of the Blood of the Wolf.
 One of the twisted souls, steeped in strength.
 
 The blood was spread amongst the Abyss Watchers, and their souls are one with the soul of the wolf blood master.</text>
-
 <text id="718">Soul of Oceiros, the Consumed King.
 One of the twisted souls, steeped in strength.
 
 Oceiros went mad trying to harness his royal blood for a greater purpose, leading him to the heretics of the Grand Archives, where he discovered the twisted worship of Seath the paledrake.</text>
-
 <text id="719">Soul of Vordt of the Boreal Valley.
 One of the twisted souls, steeped in strength.
 
 Vordt served as an outrider knight,
 never far from the fleeting dancer.</text>
-
 <text id="720">Soul of the Old Demon King.
 One of the twisted souls, steeped in strength.
 
 The shriveled Old Demon King is now like
 a clump of burnt ash, but he is the last living
 witness of the Chaos of Izalith.</text>
-
 <text id="721">Soul of the Dragonslayer Armour.
 One of the twisted souls, steeped in strength.
 
 The Dragonslayer Armour, controlled by
 the Pilgrim Butterfly, lost its master long ago,
 but still remembers their sporting hunts.</text>
-
 <text id="722">Soul of the Nameless King.
 One of the twisted souls, steeped in strength.
 
 The Nameless King was once a dragon-slaying
 god of war, before he sacrificed everything
 to ally himself with the ancient dragons.</text>
-
 <text id="723">Soul of the Great Bat, sealed away
 deep beneath the earth.
 
 Use to acquire a huge amount of souls,
 or to make an offering at the training kiln…</text>
-
 <text id="724">Soul of Pontiff Sulyvahn.
 One of the twisted souls, steeped in strength.
 
 Pontiff Sulyvahn of Irithyll imprisoned a god
 of the old royalty in the abandoned cathedral,
 to be fed to the devourer. </text>
-
 <text id="725">Soul of Aldrich.
 One of the twisted souls, steeped in strength.
 
@@ -1211,24 +1198,20 @@ When Aldrich ruminated on the fading of the fire,
 it inspired visions of a coming age of the deep sea.
 He knew the path would be arduous, but
 he had no fear. He would devour the gods himself.</text>
-
 <text id="726">Soul of the High Lord Wolnir.
 One of the twisted souls, steeped in strength.
 
 Lord Wolnir of Carthus sentenced countless souls
 to gruesome deaths, keen to outlive them all.</text>
-
 <text id="727">Soul of the Curse-rotted Greatwood.
 One of the twisted souls, steeped in strength.
 
 Ever since its establishment, all manner of curses have managed to seep into the Undead Settlement. The worst of them were sealed away inside a spirit tree, but eventually the curses took their toll.</text>
-
 <text id="728">The soul of Rosaria, Mother of Rebirth, stolen by Ringfinger Leonhard.
 
 Return this to her extant corpse, and mother Rosaria will spring back to life.
 
 As if nothing had ever happened.</text>
-
 <text id="729">Soul of the Deacons of the Deep.
 One of the twisted souls, steeped in strength.
 
@@ -1236,19 +1219,15 @@ After Aldrich left for the Boreal valley,
 Archdeacon Royce remained in the cathedral with
 the high priests, to keep eternal watch over
 their master's coffin.</text>
-
 <text id="730">%null%</text>
-
 <text id="731">Soul of the Twin Princes.
 One of the twisted souls, steeped in strength.
 
 The two princes rejected their duty to become Lords of Cinder, and settled down far, far away to watch the fire fade from a distance. A curse makes their souls nearly inseparable.</text>
-
 <text id="732">Soul of Yhorm the Giant.
 One of the twisted souls, steeped in strength.
 
 Yhorm is the descendant of an ancient conqueror, but was asked by the very people once subjugated to lead them, serving as both a weighty blade and a stone-hard shield.</text>
-
 <text id="733">Soul of the Lords.
 One of the twisted souls, steeped in strength.
 
@@ -1256,7 +1235,6 @@ Since Lord Gwyn, the first Lord of Cinder,
 many exalted lords have linked the First Flame,
 and it is their very souls that have manifested
 themselves as defender of the flame.</text>
-
 <text id="734">%null%</text>
 <text id="735">%null%</text>
 <text id="736">%null%</text>
@@ -1268,7 +1246,6 @@ One of the twisted souls, steeped in strength.
 Demons were born of the Chaos Flame,
 but the flame has not survived, and the demons
 are a dying race.</text>
-
 <text id="740">%null%</text>
 <text id="741">%null%</text>
 <text id="742">Soul of the Twin Princes, rulers of Lothric.
@@ -1284,7 +1261,6 @@ was once the gatekeeper of Lothric.</text>
 One of the twisted souls, steeped in strength.
 
 The ardent defender of the church, Halflight will defend Filianore until the end of the time itself.</text>
-
 <text id="800">Small stone made up of crystallized souls. 
 
 Restores 300 HP over 30 seconds.
@@ -1322,11 +1298,9 @@ Though known to some as red holy water, not everyone acknowledges its holy statu
 Restores 600 HP and 600 FP over 30 seconds.
 
 Those who have experienced the powerful effect of this dimly lucent red water care not that its very origins are completely unknown.</text>
-
 <text id="901">Primordial fragment lost to the sands of time.
 
 Used to reinforce weapons beyond their normal limits, or used at Affixing Table to affix accessories, enhancing their strength.</text>
-
 <text id="1000">Titanite shard for weapon reinforcement.
 Reinforces weapons to +3.
 
@@ -1398,7 +1372,6 @@ these great scales.</text>
 Reinforce weapons steeped in strength to +4.
 
 Unless one uses this twinkling titanite, which reinforces these weapons without unraveling their inherent strength.</text>
-
 <text id="1050">Primsatic slab for weapon reinforcement.
 Reinforce spell catalysts to +10/+5.
 
@@ -1454,7 +1427,6 @@ Used to reinforce weapons into an ascended form to +15/+10.
 Primordial titanite is a primordial smithing material, 
 and weapons reinforced with it will be admired
 as the legendary weapons they are.</text>
-
 <text id="1250">A gem of infused titanite.
 Also known as stark stone.
 
@@ -1462,7 +1434,6 @@ Reverses weapon infusion.
 
 Has the benefit of undoing the effects of infusion
 without reducing the reinforcement level.</text>
-
 <text id="2000">A ring of betrothal, given to another to signal undying love for one another.
 
 Give to your chosen betrothed.
@@ -1562,7 +1533,6 @@ Present to the petrified giant in lower Smouldering Lake to travel up to the top
 <text id="2024">The remnants of a smouldering wall. It appears to crackle with unreleased demonic energy.
 
 Lob at the catacomb wall in lower Smouldering Lake to destroy it and gain access to the lower catacombs.</text>
-
 <text id="2025">Firelink Shrine</text>
 <text id="2026">Archdragon Peak</text>
 <text id="2027">Farron Keep</text>
@@ -1575,7 +1545,6 @@ Lob at the catacomb wall in lower Smouldering Lake to destroy it and gain access
 <text id="2034">Ariandel</text>
 <text id="2035">The Dreg Heap</text>
 <text id="2036">The Ringed City</text>
-
 <text id="2050">A key lost by an unfortunate soul.
 
 Unlocks locked chests in the Cemetery of Ash.</text>
@@ -1618,7 +1587,6 @@ Unlocks locked chests in the Dreg Heap.</text>
 <text id="2063">A key lost by an unfortunate soul.
 
 Unlocks locked chests in the Ringed City.</text>
-
 <text id="2100">This skeleton key opens any basic door lock.
 
 Tool of the trade for thieves.
@@ -1636,7 +1604,6 @@ Hold up outside the main castle gate to be
 greeted by an escort.
 
 When the High Wall appeared, the path to the Undead Settlement was blocked, and messengers came bearing this banner. They were sent out with a duty, but had no way of returning.</text>
-
 <text id="2103">Coal used for tool creation.
 Long ago, used to forge the tools and weaponry of the Undead Legion of Farron.
 
@@ -1653,7 +1620,6 @@ Give to Acolyte Grudore to expand his inventory.</text>
 Remnants of the fire that burned down the Profaned Capital, preserved in an icy skull.
 
 Give to Acolyte Grudore to expand his inventory.</text>
-
 <text id="2107">Umbral ash of a resident of the Undead Settlement
 who made a living burying corpses.
 
@@ -1886,21 +1852,18 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2164">A crystal that constantly emits a pleasant tune.
 
 Exchange this crystal with Acolyte Grudore to empower the focusing crystal.</text>
-
 <text id="2168">Crush to consume the blood of a 
 once mighty enemy.
 
 Consuming this blood will revive enemies of yore, 
 allowing them to be fought once more.
 </text>
-
 <text id="2170">Dried fecal waste material, moist on the inside.
 
 Throw at enemy to inflict toxin build-up,
 but also ups your own toxicity.
 
 Though the stench makes it difficult to carry on one's person, inflicting toxins on an enemy yields high damage over time. Perhaps some Undead have fond memories of waste. Or, perhaps not.</text>
-
 <text id="2173">A pyromancy tome of the profaned flame, from the Profaned Capital.
 
 Give to the pyromancer master to learn profaned pyromancies.
@@ -1932,7 +1895,6 @@ basic miracles.
 Give to a storyteller to learn basic miracles.
 
 Knights of the sunlight covenant are brilliantly beaming co-operators who volley lightning, and hand out medals before disappearing into the sunset.</text>
-
 <text id="2200">A infusing essence used to transform 
 ordinary shields into the extraordinary.
 
@@ -1956,7 +1918,6 @@ Once used, boosts the power of imbued dark, greatly increasing Dark attack tempo
 <text id="2304">Ember once used to forge the stone weaponry of giants.
 
 Once used, boosts the inherent physicality of a weapon, greatly increasing Physical attack temporarily.</text>
-
 <text id="3004">A rusty old coin that surely has no currency.
 
 Crushing the coin gives a temporary boost to soul gain.
@@ -1967,7 +1928,6 @@ A rich man lost his fortune, but it returned to him twofold. He was swift to squ
 Crushing the coin gives a large, if temporary, boost to soul gain.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
-
 <text id="3018">Powerful bisque urn filled with dark energies. 
 
 Explodes, inflicting great dark damage.</text>
@@ -1997,7 +1957,6 @@ This special fragrant oil affects the mind, granting a fleeting sense of empower
 Temporarily increases faith.
 
 This special fragrant oil affects the mind, granting a fleeting sense of empowerment.</text>
-
 <text id="3026">Consume to unleash the latent magic within.
 
 Take the appearance of a spooky skeleton.</text>
@@ -2076,7 +2035,6 @@ Take on the upper appearance of a skeleton.</text>
 <text id="3051">Consume to unleash the latent magic within.
 
 Take on the upper appearance of a murkman.</text>
-
 <text id="4000">A gem of infused titanite.
 Forged many common weapons.
 
@@ -2174,7 +2132,6 @@ Used in infusion to create blunt weapons.
 
 A brutish swordsman can appreciate a blunt weapon,
 for they scale effectively with strength.</text>
-
 <text id="4014">A crystal shard, brimming with arcane energies.
 
 Given to Orbeck in exchange for various items.
@@ -2187,7 +2144,6 @@ Given to Hawkwood in exchange for various items.</text>
 <text id="4016">A effigy of humanity, shaped like you.
 
 Given to Karla in exchange for various items.</text>
-
 <text id="4017">A potent deliriant, this herb has stark effects
 upon the mind anybody whom dare eat it.
 
@@ -2203,7 +2159,6 @@ upon the mind anybody whom dare eat it.
 
 Consume this herb to almost die.
 Lasts until death.</text>
-
 <text id="4100">Stone imbued with the power of the everlasting dragons, the second of its kind, offered to a towering dragon.
 
 Emit dragon breath alongside an archdragon mirage.
@@ -2216,7 +2171,6 @@ The road to the old dragons is long and arduous, and only one can complete the j
 Emit a dragon roar alongside an archdragon mirage.
 Only usable whilst barenaked.
 Scales with Luck.</text>
-
 <text id="4200">The fading soul of a fallen paladin.
 
 Use to absorb its latent power, boosting absorption by 80% for 30 seconds.
@@ -2252,8 +2206,6 @@ Many a champion have fallen to the beasts that roam the lands of Lothric. Their 
 Use to absorb its latent power, increase STR, DEX, INT, FTH and LCK by 99 for 30 seconds.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
-
-
 <text id="4300">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
 Removes all right-hand weapon appearance effects.</text>
@@ -2320,7 +2272,6 @@ Applies an aura of black fire to the right-hand.</text>
 <text id="4401">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
 Applies an aura of black fire to the left-hand.</text>
-
 <text id="4500">A writ containing latent magic, used to apply magical effects to one's person.
 
 Applies a mass of humanity to the head.</text>
@@ -2396,7 +2347,6 @@ Applies a green aura to the eyes.</text>
 <text id="4524">A writ containing latent magic, used to apply magical effects to one's person.
 
 Applies a purple aura to the eyes.</text>
-
 <text id="5000">A worn tome that contains an account of a past heir of fire and its downfall.
 
 Read to revive Corrupted Gundyr and warp to the entrance of the boss arena.
@@ -2527,19 +2477,21 @@ Those who cannot remember the past are condemned to repeat it...</text>
 Read to revive the champions of yore and warp to Firelink Shrine.
 
 Those who cannot remember the past are condemned to repeat it...</text>
+<text id="5026">A worn tome that contains an account of a past heir of fire and its downfall.
 
+Read to revive the Frostfire Colossus and warp to the entrance of the boss arena.
+
+Those who cannot remember the past are condemned to repeat it...</text>
 <text id="5300">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Solaire of Astora to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-
 <text id="5301">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon El Crabbo, the Lesser Crab, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-
 <text id="5302">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Rocky, the Rock Lizard, to the player. Once present, he will defend the player until dead.
@@ -2615,7 +2567,6 @@ Once defeated, cannot be summoned again until area reload.</text>
 Whilst embered, beckon Bazdulk, the Demon, to the player. Once present, he will defend the player until dead.
 
 Once defeated, cannot be summoned again until area reload.</text>
-
 <text id="5400">Bisque urn filled with black powder.
 Explodes, inflicting fire damage.
 Scales with Luck.
@@ -2656,7 +2607,6 @@ Uniquely cultivated by Acolyte Grudore, this blossom draws upon its wielder's fo
 Repairs equipped weapons and armor, as long as they haven't already broken.
 
 Uniquely crafted by Acolyte Grudore, this powder draws upon its wielder's focus, allowing for endless usage.</text>
-
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>
 <text id="8002">Enable kill mode</text>
@@ -2666,7 +2616,6 @@ Uniquely crafted by Acolyte Grudore, this powder draws upon its wielder's focus,
 <text id="8006">Gain souls</text>
 <text id="8007">No FP consumption</text>
 <text id="8008">Reduce damage dealt to 0.01%</text>
-
 <text id="10000">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary helmet based on the Havel's Set.</text>
@@ -3867,7 +3816,6 @@ Applies illusionary armor based on the Pickpocket Set.</text>
 <text id="12321">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary armor based on the Magician Set.</text>
-
 <text id="20000">Ragged note scribbled on by Ritualist Ellie.
 Imbued with magical knowledge.
 
@@ -3896,7 +3844,6 @@ Enables multiple companions simultaneously.</text>
 Imbued with magical knowledge.
 
 Enables companion summoning whilst hollow.</text>
-
 <text id="20050">A blue phial concocted by Ritualist Ellie.
 
 Scoff down the phial to restore 20% HP to nearby active companions.</text>
@@ -3913,7 +3860,6 @@ Scoff down the phial to boost the damage of nearby active companions by 20% for 
 <text id="20054">A purple phial concocted by Ritualist Ellie.
 
 Scoff down the phial to boost the stamina of nearby active companions, allowing them to attack for longer. Lasts 30 seconds.</text>
-
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
@@ -3992,7 +3938,6 @@ Fires a piercing crystal soul spear.
 Ascended Effect: increases projectile speed to 40 m/s.
 
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
-
 <text id="1310000">Sorcery for casters who wield swords.
 Reinforces right weapon with magic. 
 
@@ -4285,7 +4230,6 @@ Emits a constant stream of fire.
 Ascended Effect: reduces hit cooldown to 0.3 seconds.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
-
 <text id="2411000">Pyromancy which improves upon Combustion.
 Creates a powerful, giant flame in hand.
 
@@ -4548,7 +4492,6 @@ Spew fecal matter from one's mouth, inflicting 30 Toxic per hit.
 Ascended Effect: emit an additional four projectiles.
 
 As in life, the common peasant has little to say on matters of worth.</text>
-
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 
@@ -4726,7 +4669,6 @@ Once a slayer of dragons, the former king
 and wargod tamed a Stormdrake,
 on which he led a lifetime of battle.
 This miracle is likely a tale of their bond.</text>
-
 <text id="3560000">Miracle of clerics who wield weapons.
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. Lasts 60 seconds.
@@ -4755,7 +4697,6 @@ Boosts Physical and Lightning attack by 20% and all absorption by 20% for self a
 Ascended Effect: increases buff radius to 8 metres.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
-
 <text id="3590000">Miracle allegedly wielded by a certain 
 dragonslayer knight in the Age of Gods.
 Reinforces right weapon with lightning.
@@ -4795,7 +4736,6 @@ Ascended Effect: increases emitter radius to 40 metres.
 The Queen's holy maiden Gertrude was visited by an angel, who revealed this tale to her.
 
 Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</text>
-
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60 and restores 5 HP every second for 60 seconds.
@@ -4888,7 +4828,6 @@ Fire cascade of divine spears towards foes.
 Ascended Effect: increases projectile homing to 50 degrees.
 
 When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
-
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
@@ -5013,7 +4952,6 @@ Ascended Effect: increases duration to 90 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
-
 <text id="4201000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Fire ball of black fire, inflicting 20 Toxic.
@@ -5088,7 +5026,6 @@ Scales with Spell Buff.
 
 Ascended Effect: increases stamina damage by 100%.
 </text>
-
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
 Summons an insect swarm to feast on foes, inflicting 10 Bleed.
@@ -5198,6 +5135,5 @@ Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.
 
 Ascended Effect: increases Poison inflict to 80.</text>
-
 </entries>
 </fmg>

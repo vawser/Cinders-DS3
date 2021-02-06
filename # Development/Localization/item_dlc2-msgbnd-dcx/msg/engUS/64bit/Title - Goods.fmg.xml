@@ -85,7 +85,6 @@
 <text id="209">Ashen Estus Flask+9</text>
 <text id="210">Ashen Estus Flask+10</text>
 <text id="211">Ashen Estus Flask+10</text>
-
 <text id="220">Focusing Crystal</text>
 <text id="221">Focusing Crystal+1</text>
 <text id="222">Focusing Crystal+2</text>
@@ -97,7 +96,6 @@
 <text id="228">Focusing Crystal+8</text>
 <text id="229">Focusing Crystal+9</text>
 <text id="230">Focusing Crystal+10</text>
-
 <text id="240">Divine Blessing</text>
 <text id="241">Hidden Blessing</text>
 <text id="242">Silver Pendant</text>
@@ -307,10 +305,10 @@
 <text id="538">%null%</text>
 <text id="539">%null%</text>
 <text id="540">%null%</text>
-
 <text id="700">Soul of Corrupted Gundyr</text>
 <text id="701">Soul of the Ancient Wyvern</text>
 <text id="702">Soul of the Lordran Remnants</text>
+<text id="703">Soul of the Frostfire Colossus</text>
 <text id="712">Soul of Champion Gundyr</text>
 <text id="713">%null%</text>
 <text id="714">Soul of the Dancer</text>
@@ -344,7 +342,6 @@
 <text id="742">Soul of the Twin Princes</text>
 <text id="743">Soul of a Stray Demon</text>
 <text id="748">Soul of Halflight</text>
-
 <text id="800">Lifegem</text>
 <text id="801">Radiant Lifegem</text>
 <text id="802">Old Radiant Lifegem</text>
@@ -352,9 +349,7 @@
 <text id="804">Dried Root</text>
 <text id="805">Rouge Water</text>
 <text id="806">Crimson Water</text>
-
 <text id="901">Primordial Fragment</text>
-
 <text id="1000">Titanite Shard</text>
 <text id="1001">Large Titanite Shard</text>
 <text id="1002">Titanite Chunk</text>
@@ -397,9 +392,7 @@
 <text id="1120">Primordial Fragment</text>
 <text id="1130">Primordial Chunk</text>
 <text id="1140">Primordial Slab</text>
-
 <text id="1250">Shriving Stone</text>
-
 <text id="2000">Ring of Betrothal</text>
 <text id="2001">Lift Chamber Key</text>
 <text id="2002">Lordvessel</text>
@@ -416,7 +409,6 @@
 <text id="2013">Forgotten Key</text>
 <text id="2014">Grand Archives Key</text>
 <text id="2015">Tower Key</text>
-
 <text id="2016">Dragon Talon</text>
 <text id="2017">Pilgrim's Soul</text>
 <text id="2018">Catacombs Key</text>
@@ -426,7 +418,6 @@
 <text id="2022">Broken Tablet</text>
 <text id="2023">Giant's Soul</text>
 <text id="2024">Smouldering Rubble</text>
-
 <text id="2025">Ancestral Note</text>
 <text id="2026">Cultist Note</text>
 <text id="2027">Waterlogged Note</text>
@@ -439,7 +430,6 @@
 <text id="2034">Frozen Note</text>
 <text id="2035">Dreg Note</text>
 <text id="2036">Burning Note</text>
-
 <text id="2050">Forgotten Key</text>
 <text id="2051">Soldier's Key</text>
 <text id="2052">Knight's Key</text>
@@ -454,16 +444,13 @@
 <text id="2061">Frozen Flower</text>
 <text id="2062">Dreg Key</text>
 <text id="2063">Burning Key</text>
-
 <text id="2100">Master Key</text>
 <text id="2101">%null%</text>
 <text id="2102">Small Lothric Banner</text>
-
 <text id="2103">Farron Coal</text>
 <text id="2104">Sage's Coal</text>
 <text id="2105">Giant's Coal</text>
 <text id="2106">Profaned Coal</text>
-
 <text id="2107">Mortician's Ashes</text>
 <text id="2108">Dreamchaser's Ashes</text>
 <text id="2109">Paladin's Ashes</text>
@@ -515,23 +502,18 @@
 <text id="2162">Bone Fragment</text>
 <text id="2163">Lizard Hide</text>
 <text id="2164">Resonating Crystal</text>
-
 <text id="2168">Blood of Might</text>
-
 <text id="2170">Ceaseless Dung Pie</text>
-
 <text id="2173">Profaned Pyromancy Tome</text>
 <text id="2174">Accursed Scroll</text>
 <text id="2175">Writhing Tome</text>
 <text id="2176">Abyssal Tome</text>
 <text id="2177">Angelic Braille Divine Tome</text>
 <text id="2178">Heavenly Braille Divine Tome</text>
-
 <text id="2200">Infusing Essence</text>
 <text id="2201">Degrading Essence</text>
 <text id="3004">Tarnished Coin</text>
 <text id="3005">Tarnished Silver Coin</text>
-
 <text id="3018">Hexing Urn</text>
 <text id="3019">Holy Water Urn</text>
 <text id="3020">Witching Urn</text>
@@ -539,7 +521,6 @@
 <text id="3022">Vine Balm</text>
 <text id="3023">Blackweed Balm</text>
 <text id="3024">Goldenfruit Balm</text>
-
 <text id="3026">Rattling Finger</text>
 <text id="3027">Murky Finger</text>
 <text id="3028">Elixir of Ghosts</text>
@@ -566,7 +547,6 @@
 <text id="3049">Hunter's Emblem</text>
 <text id="3050">Rattling Skull</text>
 <text id="3051">Murky Skull</text>
-
 <text id="4000">Lethal Gem</text>
 <text id="4001">Curse Gem</text>
 <text id="4002">Poison Gem</text>
@@ -587,10 +567,8 @@
 <text id="4017">Devil's Trumpet</text>
 <text id="4018">Moonflower</text>
 <text id="4019">Henbane</text>
-
 <text id="4100">Stone of Draconic Fire</text>
 <text id="4101">Stone of Draconic Might</text>
-
 <text id="4200">Soul of a Fallen Paladin</text>
 <text id="4201">Soul of a Fallen Sentinel</text>
 <text id="4202">Soul of a Fallen Sage</text>
@@ -598,7 +576,6 @@
 <text id="4204">Soul of a Fallen Astrologer</text>
 <text id="4205">Soul of a Fallen Beserker</text>
 <text id="4206">Soul of a Fallen Champion</text>
-
 <text id="4300">Cleansing Oil</text>
 <text id="4301">Off-hand Cleansing Oil</text>
 <text id="4310">Magical Oil</text>
@@ -621,7 +598,6 @@
 <text id="4391">Off-hand Blessed Oil</text>
 <text id="4400">Black Fire Oil</text>
 <text id="4401">Off-hand Black Fire Oil</text>
-
 <text id="4500">Writ of Humanity</text>
 <text id="4501">Writ of Anger</text>
 <text id="4502">Writ of Crystallization</text>
@@ -647,7 +623,6 @@
 <text id="4522">Writ of Fury</text>
 <text id="4523">Writ of Envy</text>
 <text id="4524">Writ of Desire</text>
-
 <text id="5000">Tome: Corrupted Gundyr</text>
 <text id="5001">Tome: Vordt</text>
 <text id="5002">Tome: Curse-rotted Greatwood</text>
@@ -674,7 +649,7 @@
 <text id="5023">Tome: Slave Knight Gael</text>
 <text id="5024">Tome: Halflight</text>
 <text id="5025">Tome: Champions of Yore</text>
-
+<text id="5026">Tome: Frostfire Colossus</text>
 <text id="5300">Opus of Sunlight</text>
 <text id="5301">Opus of the Crab</text>
 <text id="5302">Opus of the Rock</text>
@@ -692,7 +667,6 @@
 <text id="5314">Opus of Foresight</text>
 <text id="5315">Opus of Crystals</text>
 <text id="5316">Opus of Demons</text>
-
 <text id="5400">Spellbound Bomb</text>
 <text id="5410">Spellbound Urn</text>
 <text id="5420">Spellbound Throwing Knife</text>
@@ -701,7 +675,6 @@
 <text id="5450">Spellbound Skull</text>
 <text id="5460">Spellbound Blossom</text>
 <text id="5470">Spellbound Powder</text>
-
 <text id="8000">Event Flag Tool</text>
 <text id="8001">God Tool</text>
 <text id="8002">Kill Tool</text>
@@ -711,7 +684,6 @@
 <text id="8006">Souls Tool</text>
 <text id="8007">FP Consumption Tool</text>
 <text id="8008">Cripple Tool</text>
-
 <text id="9000">Beckon</text>
 <text id="9001">Point forward</text>
 <text id="9002">Hurrah!</text>
@@ -756,7 +728,6 @@
 <text id="9041">Praise the Heavens</text>
 <text id="9042">Retch</text>
 <text id="9043">Confused</text>
-
 <text id="10000">Havel's Insignia</text>
 <text id="10001">Havel's Emblem</text>
 <text id="10010">Giant-horn Insignia</text>
@@ -1135,7 +1106,6 @@
 <text id="12191">Deacon Emblem</text>
 <text id="12200">Saint Insignia</text>
 <text id="12201">Saint Emblem</text>
-
 <text id="12210">Gallant Insignia</text>
 <text id="12211">Gallant Emblem</text>
 <text id="12220">Warden Insignia</text>
@@ -1158,7 +1128,6 @@
 <text id="12310">Pickpocket Insignia</text>
 <text id="12311">Pickpocket Emblem</text>
 <text id="12321">Magician Emblem</text>
-
 <text id="20000">Sign of Health</text>
 <text id="20001">Sign of Power</text>
 <text id="20002">Sign of Toughness</text>
@@ -1166,13 +1135,11 @@
 <text id="20004">Sign of Tenacity</text>
 <text id="20005">Sign of Mass Summoning</text>
 <text id="20006">Sign of Hollow Summoning</text>
-
 <text id="20050">Rejuvenating Phial</text>
 <text id="20051">Banishing Coin</text>
 <text id="20052">Inciting Bone</text>
 <text id="20053">Invigorating Phial</text>
 <text id="20054">Energizing Phial</text>
-
 <text id="100000">%null%</text>
 <text id="1200000">Farron Dart</text>
 <text id="1210000">Scattering Soul Orb</text>
@@ -1211,12 +1178,10 @@
 <text id="1805000">Orbs of Judgment</text>
 <text id="1806000">Soul Focus</text>
 <text id="1807000">Blinding Light</text>
-
 <text id="2400000">Fireball</text>
 <text id="2402000">Fire Orb</text>
 <text id="2403000">Firestorm</text>
 <text id="2405000">Fire Surge</text>
-
 <text id="2410000">Combustion</text>
 <text id="2411000">Great Combustion</text>
 <text id="2420000">Poison Mist</text>
@@ -1247,7 +1212,6 @@
 <text id="2713000">Rockflesh</text>
 <text id="2714000">Immolation</text>
 <text id="2720000">Fecal Expulsion</text>
-
 <text id="3490000">Heal Aid</text>
 <text id="3500000">Heal</text>
 <text id="3501000">Med Heal</text>
@@ -1287,7 +1251,6 @@
 <text id="3819000">Wrathful Orbs</text>
 <text id="3820000">Holy Schism</text>
 <text id="3821000">Wrathful Barrage</text>
-
 <text id="4100000">Deep Barb</text>
 <text id="4101000">Deep Soul</text>
 <text id="4102000">Great Deep Soul</text>
@@ -1305,7 +1268,6 @@
 <text id="4114000">Whisper of Despair</text>
 <text id="4115000">Repel</text>
 <text id="4116000">Numbness</text>
-
 <text id="4201000">Black Fireball</text>
 <text id="4202000">Black Fire Orb</text>
 <text id="4203000">Black Fire Vestiges</text>
@@ -1316,7 +1278,6 @@
 <text id="4208000">Recollection</text>
 <text id="4209000">Mournful Flames</text>
 <text id="4210000">Black Flame Arc</text>
-
 <text id="4301000">Nibble</text>
 <text id="4302000">Gnaw</text>
 <text id="4303000">Dorhys' Gnawing</text>
@@ -1331,6 +1292,5 @@
 <text id="4312000">Lifehunt Scythe</text>
 <text id="4313000">Pulsating Blade</text>
 <text id="4314000">Pungent Blade</text>
-
 </entries>
 </fmg>
