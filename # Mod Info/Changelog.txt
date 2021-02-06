@@ -78,6 +78,10 @@
 - Changed the starting armor set of the Heretic (end of an era).
 - Changed the starting armor set of the Summoner.
 
+# Weapons
+- Changed Fire infusion back to regular elemental scaling (not psudo-raw).
+- Increased the INT/FTH multipliers for Fire and Dark so the triple stat investment is worth slightly more.
+
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
 
