@@ -203,21 +203,21 @@
 
 # Scholar Ring
 - Weight: 1
-- [+0] Increases INT by 5
-- [+1] Increases INT by 10
-- [+2] Increases INT by 15
-- [+3] Increases INT by 20
-- [+4] Increases INT by 25
-- [+5] Increases INT by 30
+- [+0] Increases INT by 6
+- [+1] Increases INT by 8
+- [+2] Increases INT by 10
+- [+3] Increases INT by 12
+- [+4] Increases INT by 14
+- [+5] Increases INT by 16
 
 # Priestess Ring
 - Weight: 1
-- [+0] Increases FTH by 5
-- [+1] Increases FTH by 10
-- [+2] Increases FTH by 15
-- [+3] Increases FTH by 20
-- [+4] Increases FTH by 25
-- [+5] Increases FTH by 30
+- [+0] Increases FTH by 6
+- [+1] Increases FTH by 8
+- [+2] Increases FTH by 10
+- [+3] Increases FTH by 12
+- [+4] Increases FTH by 14
+- [+5] Increases FTH by 16
 
 # Red Tearstone Ring
 - Weight: 1
@@ -419,21 +419,21 @@
 
 # Knight's Ring
 - Weight: 1
-- [+0] Increases STR by 5
-- [+1] Increases STR by 10
-- [+2] Increases STR by 15
-- [+3] Increases STR by 20
-- [+4] Increases STR by 25
-- [+5] Increases STR by 30
+- [+0] Increases STR by 6
+- [+1] Increases STR by 8
+- [+2] Increases STR by 10
+- [+3] Increases STR by 12
+- [+4] Increases STR by 14
+- [+5] Increases STR by 16
 
 # Hunter's Ring
 - Weight: 1
-- [+0] Increases DEX by 5
-- [+1] Increases DEX by 10
-- [+2] Increases DEX by 15
-- [+3] Increases DEX by 20
-- [+4] Increases DEX by 25
-- [+5] Increases DEX by 30
+- [+0] Increases DEX by 6
+- [+1] Increases DEX by 8
+- [+2] Increases DEX by 10
+- [+3] Increases DEX by 12
+- [+4] Increases DEX by 14
+- [+5] Increases DEX by 16
 
 # Knight Slayer's Ring
 - Weight: 2
@@ -739,48 +739,48 @@
 
 # Mercenary Ring
 - Weight: 1
-- [+0] Increases VIG by 5
-- [+1] Increases VIG by 10
-- [+2] Increases VIG by 15
-- [+3] Increases VIG by 20
-- [+4] Increases VIG by 25
-- [+5] Increases VIG by 30
+- [+0] Increases VIG by 6
+- [+1] Increases VIG by 8
+- [+2] Increases VIG by 10
+- [+3] Increases VIG by 12
+- [+4] Increases VIG by 14
+- [+5] Increases VIG by 16
 
 # Heretic Ring
 - Weight: 1
-- [+0] Increases ATN by 5
-- [+1] Increases ATN by 10
-- [+2] Increases ATN by 15
-- [+3] Increases ATN by 20
-- [+4] Increases ATN by 25
-- [+5] Increases ATN by 30
+- [+0] Increases ATN by 6
+- [+1] Increases ATN by 8
+- [+2] Increases ATN by 10
+- [+3] Increases ATN by 12
+- [+4] Increases ATN by 14
+- [+5] Increases ATN by 16
 
 # Merchant Ring
 - Weight: 1
-- [+0] Increases END by 5
-- [+1] Increases END by 10
-- [+2] Increases END by 15
-- [+3] Increases END by 20
-- [+4] Increases END by 25
-- [+5] Increases END by 30
+- [+0] Increases END by 6
+- [+1] Increases END by 8
+- [+2] Increases END by 10
+- [+3] Increases END by 12
+- [+4] Increases END by 14
+- [+5] Increases END by 16
 
 # Physician Ring
 - Weight: 0
-- [+0] Increases VIT by 5
-- [+1] Increases VIT by 10
-- [+2] Increases VIT by 15
-- [+3] Increases VIT by 20
-- [+4] Increases VIT by 25
-- [+5] Increases VIT by 30
+- [+0] Increases VIT by 6
+- [+1] Increases VIT by 8
+- [+2] Increases VIT by 10
+- [+3] Increases VIT by 12
+- [+4] Increases VIT by 14
+- [+5] Increases VIT by 16
 
 # Jester Ring
 - Weight: 1
-- [+0] Increases LCK by 5
-- [+1] Increases LCK by 10
-- [+2] Increases LCK by 15
-- [+3] Increases LCK by 20
-- [+4] Increases LCK by 25
-- [+5] Increases LCK by 30
+- [+0] Increases LCK by 6
+- [+1] Increases LCK by 8
+- [+2] Increases LCK by 10
+- [+3] Increases LCK by 12
+- [+4] Increases LCK by 14
+- [+5] Increases LCK by 16
 
 # Londor Tincture
 - Weight: 1

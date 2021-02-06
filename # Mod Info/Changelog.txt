@@ -85,6 +85,14 @@
  - [+3] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 7%.
  - [+4] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 6%.
  - [+5] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 5%.
+ 
+- Changed the +stat rings to:
+ - [+0] Increases <stat> by 6
+ - [+1] Increases <stat> by 8
+ - [+2] Increases <stat> by 10
+ - [+3] Increases <stat> by 12
+ - [+4] Increases <stat> by 14
+ - [+5] Increases <stat> by 16
 
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
