@@ -1,0 +1,3953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fmg>
+<compression>None</compression>
+<version>DarkSouls3</version>
+<bigendian>False</bigendian>
+<entries>
+<text id="9500">Area boss can now be challenged</text>
+<text id="9600">%null%</text>
+<text id="9601">Obtained Dragon Scale. Returning to your world.</text>
+<text id="9602">Dragon Scale found</text>
+<text id="9603">Dragon Scale found</text>
+<text id="50520">&lt;?sysmsg@50520?&gt;</text>
+<text id="50521">&lt;?sysmsg@50521?&gt;</text>
+<text id="50522">&lt;?sysmsg@50522?&gt;</text>
+<text id="50523">&lt;?sysmsg@50523?&gt;</text>
+<text id="50524">&lt;?sysmsg@50524?&gt;</text>
+<text id="50525">&lt;?sysmsg@50525?&gt;</text>
+<text id="70000">&lt;?sysmsg@70000?&gt;</text>
+<text id="100100">You were indicted</text>
+<text id="140000">Phantom Sign</text>
+<text id="140001">Summon this Avatar?</text>
+<text id="140002">Summon this dark spirit?</text>
+<text id="140003">Cancel summon sign?</text>
+<text id="140004">Cancel summon sign?</text>
+<text id="140005">Searching for world to invade...</text>
+<text id="140006">Searching for world of a Gravelord Servant to invade...</text>
+<text id="140007">Invade world of Gravelord Servant?</text>
+<text id="140008">Cancel scale-searching Dragon Eye?</text>
+<text id="140009">Touch dragon remnants?</text>
+<text id="140010">Summoning Avatar...</text>
+<text id="140011">Summoning dark spirit...</text>
+<text id="140012">Dragon spirit invading through remnants...</text>
+<text id="140013">You are being summoned...</text>
+<text id="140014">You are being summoned...</text>
+<text id="140015">Invading another world...</text>
+<text id="140016">You are being summoned...</text>
+<text id="140017">Invading a world of a Gravelord Servant...</text>
+<text id="140018">Owner of Dragon Scale located. Invading world...</text>
+<text id="140019">Invading world of the guilty...</text>
+<text id="140020">%null%</text>
+<text id="140021">%null%</text>
+<text id="140022">%null%</text>
+<text id="140023">Being summoned to another world as phantom</text>
+<text id="140024">Being summoned to another world as dark spirit</text>
+<text id="140025">Invading another world as dark spirit</text>
+<text id="140026">Become an evil spirit and invade another world</text>
+<text id="140027">Invading world of a Gravelord Servant as spirit of vengeance</text>
+<text id="140028">Invading world of an owner of a Dragon Scale as dragon spirit</text>
+<text id="140029">Invading world of the guilty as spirit of vengeance</text>
+<text id="140030">Avatar &lt;?joinName?&gt; summoned</text>
+<text id="140031">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="140032">Dark spirit &lt;?joinName?&gt; intrudes...!</text>
+<text id="140033">Summoned to the world of &lt;?hostName?&gt;</text>
+<text id="140034">Summoned to the world of &lt;?hostName?&gt;</text>
+<text id="140035">Invaded the world of &lt;?hostName?&gt;</text>
+<text id="140036">Invaded the world of &lt;?hostName?&gt;</text>
+<text id="140037">Invaded the world of Gravelord Servant &lt;?hostName?&gt;</text>
+<text id="140038">Invaded the world of Dragon Scale owner &lt;?hostName?&gt;</text>
+<text id="140039">Invaded the world of &lt;?hostName?&gt; the guilty</text>
+<text id="140040">%null%</text>
+<text id="140041">%null%</text>
+<text id="140042">%null%</text>
+<text id="140043">Avatar &lt;?joinName?&gt; summoned</text>
+<text id="140044">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="140045">Dark spirit &lt;?joinName?&gt; intrudes...!</text>
+<text id="140046">Evil spirit &lt;?joinName?&gt; intrudes...!</text>
+<text id="140047">Spirit of vengeance &lt;?joinName?&gt; intrudes...!</text>
+<text id="140048">Dragon spirit &lt;?joinName?&gt; intrudes...!</text>
+<text id="140049">Spirit of vengeance &lt;?joinName?&gt; intrudes...!</text>
+<text id="140050">Summoning failed</text>
+<text id="140051">%null%</text>
+<text id="140052">%null%</text>
+<text id="140053">%null%</text>
+<text id="140054">%null%</text>
+<text id="140055">Failed to invade</text>
+<text id="140056">%null%</text>
+<text id="140057">%null%</text>
+<text id="140058">Dragon spirit disappeared</text>
+<text id="140070">You were not summoned</text>
+<text id="140071">%null%</text>
+<text id="140072">%null%</text>
+<text id="140073">%null%</text>
+<text id="140074">%null%</text>
+<text id="140075">%null%</text>
+<text id="140076">%null%</text>
+<text id="140077">%null%</text>
+<text id="140078">Lost sight of owner of Dragon Scale</text>
+<text id="140130">%null%</text>
+<text id="140131">%null%</text>
+<text id="140132">%null%</text>
+<text id="140133">Area boss defeated! Returning with newfound humanity.</text>
+<text id="140134">Summoner defeated! Returning with newfound humanity.</text>
+<text id="140135">Master of world defeated! Returning with newfound humanity.</text>
+<text id="140136">Area boss vanquished! Returning with newfound humanity.</text>
+<text id="140137">Gravelord Servant defeated! Returning with newfound humanity.</text>
+<text id="140138">Master of world defeated! Returning with Dragon Scale.</text>
+<text id="140139">The guilty pay the price. Returning with Souvenir of Reprisal.</text>
+<text id="140140">%null%</text>
+<text id="140141">%null%</text>
+<text id="140142">%null%</text>
+<text id="140143">Summoner has died. Returning to your world.</text>
+<text id="140144">Summoner has challenged area boss. Returning to your world.</text>
+<text id="140145">Master of world has challenged area boss. Returning to your world.</text>
+<text id="140146">You have been vanquished. Returning to your world.</text>
+<text id="140147">Gravelord Servant has challenged area boss. Returning to your world.</text>
+<text id="140148">Master of world has challenged area boss. Returning to your world.</text>
+<text id="140149">The guilty have challenged area boss. Returning to your world.</text>
+<text id="140150">%null%</text>
+<text id="140151">%null%</text>
+<text id="140152">%null%</text>
+<text id="140153">Your phantom was vanquished. Returning to your world.</text>
+<text id="140154">Your phantom was vanquished. Returning to your world.</text>
+<text id="140155">Your phantom was vanquished. Returning to your world.</text>
+<text id="140156">You have been vanquished. Returning to your world.</text>
+<text id="140157">Your phantom was vanquished. Returning to your world.</text>
+<text id="140158">Your phantom was vanquished. Returning to your world.</text>
+<text id="140159">Your phantom was vanquished. Returning to your world.</text>
+<text id="140170">%null%</text>
+<text id="140171">%null%</text>
+<text id="140172">%null%</text>
+<text id="140173">%null%</text>
+<text id="140174">%null%</text>
+<text id="140175">%null%</text>
+<text id="140176">%null%</text>
+<text id="140177">%null%</text>
+<text id="140178">%null%</text>
+<text id="140179">%null%</text>
+<text id="140180">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140181">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140182">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140183">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140184">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140185">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140186">Avatar &lt;?deadName?&gt; was vanquished</text>
+<text id="140187">Spirit of Vengeance &lt;?deadName?&gt; was vanquished</text>
+<text id="140188">%null%</text>
+<text id="140189">%null%</text>
+<text id="140190">Evil spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140191">Evil spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140192">Dark spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140193">Dark spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140194">Evil spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140195">Evil spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140196">Evil spirit &lt;?deadName?&gt; was vanquished</text>
+<text id="140197">Spirit of vengeance &lt;?deadName?&gt; was vanquished</text>
+<text id="140198">Dragon spirit &lt;?deadName?&gt; was vanquished. Dragon Scale claimed.</text>
+<text id="140199">Spirit of ｖengeance &lt;?deadName?&gt; was vanquished</text>
+<text id="141005">Searching for world of the guilty</text>
+<text id="141130">Forest invader vanquished. Returning with pillaged item.</text>
+<text id="2100000">%null%</text>
+<text id="2100001">%null%</text>
+<text id="2100002">%null%</text>
+<text id="2100003">%null%</text>
+<text id="2100100">%null%</text>
+<text id="2100101">%null%</text>
+<text id="2100102">%null%</text>
+<text id="2110000">Touch summon sign</text>
+<text id="2110001">Touch summon sign</text>
+<text id="2110002">Touch summon sign</text>
+<text id="2110003">Touch summon sign</text>
+<text id="2110100">Touch summon sign</text>
+<text id="2110101">Touch summon sign</text>
+<text id="2110102">Touch summon sign</text>
+<text id="2110103">%null%</text>
+<text id="2110104">%null%</text>
+<text id="2110105">Touch summon sign</text>
+<text id="2111000">Check your summon sign</text>
+<text id="2111001">Check your summon sign</text>
+<text id="2111002">Check your summon sign</text>
+<text id="2111003">Check your summon sign</text>
+<text id="2111100">Check your summon sign</text>
+<text id="2111101">Check your summon sign</text>
+<text id="2111102">Check your summon sign</text>
+<text id="2111103">%null%</text>
+<text id="2111104">%null%</text>
+<text id="2111105">Check your summon sign</text>
+<text id="2120000">Summon this phantom?</text>
+<text id="2120001">Summon this phantom?</text>
+<text id="2120002">This is a mad phantom, will you still summon it?</text>
+<text id="2120003">Summon this phantom?</text>
+<text id="2120100">Summon this dark spirit?</text>
+<text id="2120101">Summon this dark spirit?</text>
+<text id="2120102">This is a mad dark spirit, will you still summon it?</text>
+<text id="2120103">%null%</text>
+<text id="2120104">%null%</text>
+<text id="2120105">Summon this dark spirit?</text>
+<text id="2121000">Cancel summon sign?</text>
+<text id="2121001">Cancel summon sign?</text>
+<text id="2121002">Cancel summon sign?</text>
+<text id="2121003">Cancel summon sign?</text>
+<text id="2121100">Cancel summon sign?</text>
+<text id="2121101">Cancel summon sign?</text>
+<text id="2121102">Cancel summon sign?</text>
+<text id="2121103">%null%</text>
+<text id="2121104">%null%</text>
+<text id="2121105">Cancel summon sign?</text>
+<text id="2130000">Invade another world?</text>
+<text id="2140000">Cancel invasion?</text>
+<text id="2200000">Your summon sign disappeared</text>
+<text id="2200001">Your summon sign disappeared</text>
+<text id="2200002">Your summon sign disappeared</text>
+<text id="2200003">Your summon sign disappeared</text>
+<text id="2200100">Your summon sign disappeared</text>
+<text id="2200101">Your summon sign disappeared</text>
+<text id="2200102">Your summon sign disappeared</text>
+<text id="2200103">%null%</text>
+<text id="2200104">%null%</text>
+<text id="2200105">Your summon sign disappeared</text>
+<text id="2200200">Invasion canceled</text>
+<text id="2200201">Invasion canceled</text>
+<text id="2200202">Invasion canceled</text>
+<text id="2200203">%null%</text>
+<text id="2200204">%null%</text>
+<text id="2200205">Invasion canceled</text>
+<text id="2210000">Failed to create summon sign</text>
+<text id="2210001">Failed to create summon sign</text>
+<text id="2210002">Failed to create summon sign</text>
+<text id="2210003">Failed to create summon sign</text>
+<text id="2210100">Failed to create summon sign</text>
+<text id="2210101">Failed to create summon sign</text>
+<text id="2210102">Failed to create summon sign</text>
+<text id="2210103">%null%</text>
+<text id="2210104">%null%</text>
+<text id="2210105">Failed to create summon sign</text>
+<text id="2210200">Unable to invade</text>
+<text id="2210201">Unable to invade</text>
+<text id="2210202">Unable to invade</text>
+<text id="2210203">%null%</text>
+<text id="2210204">%null%</text>
+<text id="2210205">Unable to invade</text>
+<text id="2300000">Summoning phantom...</text>
+<text id="2300001">Summoning phantom...</text>
+<text id="2300002">Summoning mad phantom...</text>
+<text id="2300003">Summoning phantom...</text>
+<text id="2300100">Summoning dark spirit...</text>
+<text id="2300101">Summoning dark spirit...</text>
+<text id="2300102">Summoning mad dark spirit...</text>
+<text id="2300103">%null%</text>
+<text id="2300104">%null%</text>
+<text id="2300105">Summoning dark spirit...</text>
+<text id="2301000">You are being summoned to another world...</text>
+<text id="2301001">You are being summoned to another world...</text>
+<text id="2301002">You are being summoned to another world...</text>
+<text id="2301003">You are being summoned to another world...</text>
+<text id="2301100">You are being summoned to another world...</text>
+<text id="2301101">You are being summoned to another world...</text>
+<text id="2301102">You are being summoned to another world...</text>
+<text id="2301103">%null%</text>
+<text id="2301104">%null%</text>
+<text id="2301105">You are being summoned to another world...</text>
+<text id="2301200">Invading another world...</text>
+<text id="2301201">Invading another world...</text>
+<text id="2301202">Invading another world...</text>
+<text id="2301203">%null%</text>
+<text id="2301204">%null%</text>
+<text id="2301205">Invading another world...</text>
+<text id="2301303">Invading another world...</text>
+<text id="2301304">You are being summoned to another world...</text>
+<text id="2301305">%null%</text>
+<text id="2301306">Invading another world...</text>
+<text id="2301307">Invading another world...</text>
+<text id="2301308">You are being summoned to another world...</text>
+<text id="2302000">Summoning another phantom...</text>
+<text id="2302001">Summoning another phantom...</text>
+<text id="2302002">Summoning mad phantom...</text>
+<text id="2302003">Summoning another phantom...</text>
+<text id="2302100">Summoning another dark spirit...</text>
+<text id="2302101">Summoning another dark spirit...</text>
+<text id="2302102">Summoning mad dark spirit...</text>
+<text id="2302103">%null%</text>
+<text id="2302104">%null%</text>
+<text id="2302105">Summoning another dark spirit...</text>
+<text id="2311000">Being summoned to another world as phantom...</text>
+<text id="2311001">Being summoned to another world as phantom...</text>
+<text id="2311002">Being summoned to another world as mad phantom...</text>
+<text id="2311003">Being summoned to another world as phantom...</text>
+<text id="2311100">Being summoned to another world as dark spirit...</text>
+<text id="2311101">Being summoned to another world as dark spirit...</text>
+<text id="2311102">Being summoned to another world as mad dark spirit...</text>
+<text id="2311103">%null%</text>
+<text id="2311104">%null%</text>
+<text id="2311105">Being summoned to another world as dark spirit...</text>
+<text id="2311200">Invading another world as dark spirit...</text>
+<text id="2311201">Invading another world as dark spirit...</text>
+<text id="2311202">Invading another world as mad dark spirit...</text>
+<text id="2311203">%null%</text>
+<text id="2311204">%null%</text>
+<text id="2311205">Invading another world as dark spirit...</text>
+<text id="2311303">Invading another world as hunter of sinners...</text>
+<text id="2311304">Being summoned to another world as Blade of the Darkmoon...</text>
+<text id="2311305">%null%</text>
+<text id="2311306">Invading another world as Watchdog of Farron...</text>
+<text id="2311307">Invading another world as Aldrich Faithful...</text>
+<text id="2311308">Being summoned to another world as blue spirit...</text>
+<text id="2311409">Being summoned to another world as phantom...</text>
+<text id="2311410">Being summoned to another world as phantom...</text>
+<text id="2311411">Invading another world as dark spirit...</text>
+<text id="2311412">Being summoned to another world as phantom...</text>
+<text id="2321200">Unable to find world to invade.</text>
+<text id="2321201">%null%</text>
+<text id="2321202">%null%</text>
+<text id="2331200">Searching for another world to invade...</text>
+<text id="2400000">Unable to summon phantom due to
+a connection status problem.</text>
+<text id="2400001">%null%</text>
+<text id="2400002">%null%</text>
+<text id="2400003">%null%</text>
+<text id="2400100">%null%</text>
+<text id="2400101">%null%</text>
+<text id="2400102">%null%</text>
+<text id="2401000">Unable to be summoned due to
+a connection status problem.</text>
+<text id="2401001">%null%</text>
+<text id="2401002">%null%</text>
+<text id="2401003">%null%</text>
+<text id="2401100">%null%</text>
+<text id="2401101">%null%</text>
+<text id="2401102">%null%</text>
+<text id="2401200">Unable to invade due to
+a connection status problem.</text>
+<text id="2401201">%null%</text>
+<text id="2401202">%null%</text>
+<text id="2401303">%null%</text>
+<text id="2401304">%null%</text>
+<text id="2401305">%null%</text>
+<text id="2401306">%null%</text>
+<text id="2410000">Could not summon phantom.
+Guest is unable to join session.</text>
+<text id="2410001">Could not summon phantom.
+Guest is unable to join session.</text>
+<text id="2410002">Could not summon mad phantom.
+Guest is unable to join session.</text>
+<text id="2410003">Could not summon phantom.
+Guest is unable to join session.</text>
+<text id="2410100">Could not summon dark spirit.
+Guest is unable to join session.</text>
+<text id="2410101">Could not summon dark spirit.
+Guest is unable to join session.</text>
+<text id="2410102">Could not summon mad dark spirit.
+Guest is unable to join session.</text>
+<text id="2410103">%null%</text>
+<text id="2410104">%null%</text>
+<text id="2410105">Could not summon dark spirit.
+Guest is unable to join session.</text>
+<text id="2411000">Summoning aborted.
+Unable to join session.</text>
+<text id="2411001">Summoning aborted.
+Unable to join session.</text>
+<text id="2411002">Summoning aborted.
+Unable to join session.</text>
+<text id="2411003">Summoning aborted.
+Unable to join session.</text>
+<text id="2411100">Summoning aborted.
+Unable to join session.</text>
+<text id="2411101">Summoning aborted.
+Unable to join session.</text>
+<text id="2411102">Summoning aborted.
+Unable to join session.</text>
+<text id="2411103">%null%</text>
+<text id="2411104">%null%</text>
+<text id="2411105">Summoning aborted.
+Unable to join session.</text>
+<text id="2411200">Could not invade.
+Unable to join session.</text>
+<text id="2411201">Could not invade.
+Unable to join session.</text>
+<text id="2411202">Could not invade.
+Unable to join session.</text>
+<text id="2411203">%null%</text>
+<text id="2411204">%null%</text>
+<text id="2411205">Could not invade.
+Unable to join session.</text>
+<text id="2411303">Could not invade.
+Unable to join session.</text>
+<text id="2411304">Summoning aborted.
+Unable to join session.</text>
+<text id="2411305">%null%</text>
+<text id="2411306">Could not invade.
+Unable to join session.</text>
+<text id="2411307">Could not invade.
+Unable to join session.</text>
+<text id="2411308">Summoning aborted.
+Unable to join session.</text>
+<text id="2412000">Summoning aborted.
+Unable to join session.</text>
+<text id="2421000">Summoning aborted.
+Host of Embers has died.</text>
+<text id="2421001">%null%</text>
+<text id="2421002">%null%</text>
+<text id="2421003">%null%</text>
+<text id="2421100">%null%</text>
+<text id="2421101">%null%</text>
+<text id="2421102">%null%</text>
+<text id="2421200">Invasion aborted.
+Host of Embers has died.</text>
+<text id="2421201">%null%</text>
+<text id="2421202">%null%</text>
+<text id="2421303">%null%</text>
+<text id="2421304">%null%</text>
+<text id="2421305">%null%</text>
+<text id="2421306">%null%</text>
+<text id="2430100">%null%</text>
+<text id="2430101">%null%</text>
+<text id="2430102">%null%</text>
+<text id="2431100">%null%</text>
+<text id="2431101">%null%</text>
+<text id="2431102">%null%</text>
+<text id="2431200">Invasion aborted.
+Host of Embers has begun a critical battle.</text>
+<text id="2431201">%null%</text>
+<text id="2431202">%null%</text>
+<text id="2431303">%null%</text>
+<text id="2431304">%null%</text>
+<text id="2431305">%null%</text>
+<text id="2431306">%null%</text>
+<text id="2441000">Summoning aborted.
+Host of Embers has completed critical battle.</text>
+<text id="2441001">%null%</text>
+<text id="2441002">%null%</text>
+<text id="2441003">%null%</text>
+<text id="2450000">Summoning of phantom aborted.
+Phantom died in their world.</text>
+<text id="2450001">Summoning of phantom aborted.
+Phantom died in their world.</text>
+<text id="2450002">Summoning of mad phantom aborted.
+Phantom died in their world.</text>
+<text id="2450003">Summoning of phantom aborted.
+Phantom died in their world.</text>
+<text id="2450100">Summoning of dark spirit aborted.
+Dark spirit died in their world.</text>
+<text id="2450101">Summoning of dark spirit aborted.
+Dark spirit died in their world.</text>
+<text id="2450102">Summoning of mad dark spirit aborted.
+Mad dark spirit died in their world.</text>
+<text id="2450103">%null%</text>
+<text id="2450104">%null%</text>
+<text id="2450105">Summoning of dark spirit aborted.
+Dark spirit died in their world.</text>
+<text id="2460000">Unable to summon phantom due to
+time out</text>
+<text id="2460001">Unable to summon phantom due to
+time out</text>
+<text id="2460002">Unable to summon mad phantom due to
+time out</text>
+<text id="2460003">Unable to summon phantom due to
+time out</text>
+<text id="2460100">Unable to summon dark spirit due to
+time out</text>
+<text id="2460101">Unable to summon dark spirit due to
+time out</text>
+<text id="2460102">Unable to summon mad dark spirit due to
+time out</text>
+<text id="2460103">%null%</text>
+<text id="2460104">%null%</text>
+<text id="2460105">Unable to summon dark spirit due to
+time out</text>
+<text id="2461000">Summoning aborted due to
+time out</text>
+<text id="2461001">Summoning aborted due to
+time out</text>
+<text id="2461002">Summoning aborted due to
+time out</text>
+<text id="2461003">Summoning aborted due to
+time out</text>
+<text id="2461100">Summoning aborted due to
+time out</text>
+<text id="2461101">Summoning aborted due to
+time out</text>
+<text id="2461102">Summoning aborted due to
+time out</text>
+<text id="2461103">%null%</text>
+<text id="2461104">%null%</text>
+<text id="2461105">Summoning aborted due to
+time out</text>
+<text id="2461200">Invasion aborted due to
+time out</text>
+<text id="2461201">Invasion aborted due to
+time out</text>
+<text id="2461202">Invasion aborted due to
+time out</text>
+<text id="2461203">%null%</text>
+<text id="2461204">%null%</text>
+<text id="2461205">Invasion aborted due to
+time out</text>
+<text id="2461303">Invasion aborted due to
+time out</text>
+<text id="2461304">Summoning aborted due to
+time out</text>
+<text id="2461305">%null%</text>
+<text id="2461306">Invasion aborted due to
+time out</text>
+<text id="2461307">Invasion aborted due to
+time out</text>
+<text id="2461308">Summoning aborted due to
+time out</text>
+<text id="2462000">%null%</text>
+<text id="2471304">%null%</text>
+<text id="2481304">%null%</text>
+<text id="2490000">Unable to summon phantom</text>
+<text id="2490001">Unable to summon phantom</text>
+<text id="2490002">Unable to summon mad phantom</text>
+<text id="2490003">Unable to summon phantom</text>
+<text id="2490100">Unable to summon dark spirit</text>
+<text id="2490101">Unable to summon dark spirit</text>
+<text id="2490102">Unable to summon mad dark spirit</text>
+<text id="2490103">%null%</text>
+<text id="2490104">%null%</text>
+<text id="2490105">Unable to summon dark spirit</text>
+<text id="2491000">Unable to be summoned</text>
+<text id="2491001">Unable to be summoned</text>
+<text id="2491002">Unable to be summoned</text>
+<text id="2491003">Unable to be summoned</text>
+<text id="2491100">Unable to be summoned</text>
+<text id="2491101">Unable to be summoned</text>
+<text id="2491102">Unable to be summoned</text>
+<text id="2491103">%null%</text>
+<text id="2491104">%null%</text>
+<text id="2491105">Unable to be summoned</text>
+<text id="2491200">Unable to invade</text>
+<text id="2491201">Unable to invade</text>
+<text id="2491202">Unable to invade</text>
+<text id="2491203">%null%</text>
+<text id="2491204">%null%</text>
+<text id="2491205">Unable to invade</text>
+<text id="2491303">Unable to invade</text>
+<text id="2491304">Unable to be summoned</text>
+<text id="2491305">%null%</text>
+<text id="2491306">Unable to invade</text>
+<text id="2491307">Unable to invade</text>
+<text id="2491308">Unable to be summoned</text>
+<text id="2492000">Unable to summon phantom.</text>
+<text id="2492001">Unable to summon phantom.</text>
+<text id="2492002">Unable to summon phantom.</text>
+<text id="2492003">Unable to summon phantom.</text>
+<text id="2492100">Unable to summon dark spirit.</text>
+<text id="2492101">Unable to summon dark spirit.</text>
+<text id="2492102">Unable to summon dark spirit.</text>
+<text id="2501000">Returning to your world...</text>
+<text id="2501001">%null%</text>
+<text id="2501002">%null%</text>
+<text id="2501003">%null%</text>
+<text id="2501100">%null%</text>
+<text id="2501101">%null%</text>
+<text id="2501102">%null%</text>
+<text id="2501200">Returning to your world...</text>
+<text id="2501201">%null%</text>
+<text id="2501202">%null%</text>
+<text id="2501303">%null%</text>
+<text id="2501304">%null%</text>
+<text id="2501305">%null%</text>
+<text id="2501306">%null%</text>
+<text id="2510000">Could not summon phantom.
+Failed to create session.</text>
+<text id="2510001">Could not summon phantom.
+Failed to create session.</text>
+<text id="2510002">Could not summon mad phantom.
+Failed to create session.</text>
+<text id="2510003">Could not summon phantom.
+Failed to join session.</text>
+<text id="2510100">Could not summon dark spirit.
+Failed to create session.</text>
+<text id="2510101">Could not summon dark spirit.
+Failed to create session.</text>
+<text id="2510102">Could not summon mad dark spirit.
+Failed to create session.</text>
+<text id="2510103">%null%</text>
+<text id="2510104">%null%</text>
+<text id="2510105">Could not summon dark spirit.
+Failed to create session.</text>
+<text id="2521000">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521001">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521002">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521003">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521100">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521101">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521102">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521103">%null%</text>
+<text id="2521104">%null%</text>
+<text id="2521105">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521200">Could not invade.
+Failed to join session.</text>
+<text id="2521201">Could not invade.
+Failed to join session.</text>
+<text id="2521202">Could not invade.
+Failed to join session.</text>
+<text id="2521203">%null%</text>
+<text id="2521204">%null%</text>
+<text id="2521205">Could not invade.
+Failed to join session.</text>
+<text id="2521303">Could not invade.
+Failed to join session.</text>
+<text id="2521304">Unable to be summoned.
+Failed to join session.</text>
+<text id="2521305">%null%</text>
+<text id="2521306">Could not invade.
+Failed to join session.</text>
+<text id="2521307">Could not invade.
+Failed to join session.</text>
+<text id="2521308">Unable to be summoned.
+Failed to join session.</text>
+<text id="2600000">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2600001">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2600002">Mad phantom &lt;?joinName?&gt; summoned</text>
+<text id="2600003">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2600100">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2600101">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2600102">Mad dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2600103">%null%</text>
+<text id="2600104">%null%</text>
+<text id="2600105">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2600200">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2600201">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2600202">Invaded by mad dark spirit &lt;?joinName?&gt;!</text>
+<text id="2600203">%null%</text>
+<text id="2600204">%null%</text>
+<text id="2600205">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2600303">Invaded by hunter of sinners &lt;?joinName?&gt;!</text>
+<text id="2600304">Blade of the Darkmoon &lt;?joinName?&gt; summoned through concord</text>
+<text id="2600305">%null%</text>
+<text id="2600306">Invaded by Watchdog of Farron &lt;?joinName?&gt;!</text>
+<text id="2600307">Invaded by Aldrich Faithful &lt;?joinName?&gt;!</text>
+<text id="2600308">Blue spirit &lt;?joinName?&gt; summoned through concord</text>
+<text id="2601000">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601001">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601002">Summoned to the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host or &lt;?bskKillCount?&gt; phantoms.</text>
+<text id="2601003">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601100">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601101">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601102">Summoned to the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host or &lt;?bskKillCount?&gt; phantoms.</text>
+<text id="2601103">%null%</text>
+<text id="2601104">%null%</text>
+<text id="2601105">Summoned to the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601200">Invaded the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601201">Invaded the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601202">Invaded the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host or &lt;?bskKillCount?&gt; phantoms.</text>
+<text id="2601203">%null%</text>
+<text id="2601204">%null%</text>
+<text id="2601205">Invaded the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601303">Invaded the world of Host of Embers &lt;?hostName?&gt;</text>
+<text id="2601304">Summoned to Way of Blue adherent &lt;?hostName?&gt;'s world</text>
+<text id="2601305">%null%</text>
+<text id="2601306">Invaded the world of forest trespasser &lt;?hostName?&gt;</text>
+<text id="2601307">Invaded the world of cathedral trespasser &lt;?hostName?&gt;</text>
+<text id="2601308">Summoned to Way of Blue adherent &lt;?hostName?&gt;'s world</text>
+<text id="2601409">Summoned to the world of Sirris of the Sunless Realms</text>
+<text id="2601410">Summoned to the world of Sirris of the Sunless Realms</text>
+<text id="2601411">Invaded the world of Ringfinger Leonhard</text>
+<text id="2601412">Summoned to the world of Anri of Astora</text>
+<text id="2601500">Summoned to &lt;?hostName?&gt;'s world</text>
+<text id="2601501">Summoned to &lt;?hostName?&gt;'s world</text>
+<text id="2601502">Summoned to &lt;?hostName?&gt;'s world.
+Kill the summoner or &lt;?bskKillCount?&gt; phantoms.</text>
+<text id="2601503">%null%</text>
+<text id="2601504">%null%</text>
+<text id="2601505">Summoned to &lt;?hostName?&gt;'s world</text>
+<text id="2602000">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2602001">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2602002">Mad phantom &lt;?joinName?&gt; summoned</text>
+<text id="2602003">Phantom &lt;?joinName?&gt; summoned</text>
+<text id="2602100">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2602101">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2602102">Mad dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2602103">%null%</text>
+<text id="2602104">%null%</text>
+<text id="2602105">Dark spirit &lt;?joinName?&gt; summoned</text>
+<text id="2602200">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2602201">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2602202">Invaded by mad dark spirit &lt;?joinName?&gt;!</text>
+<text id="2602203">%null%</text>
+<text id="2602204">%null%</text>
+<text id="2602205">Invaded by dark spirit &lt;?joinName?&gt;!</text>
+<text id="2602250">Dark spirit &lt;?joinName?&gt; invaded</text>
+<text id="2602251">Dark spirit &lt;?joinName?&gt; invaded</text>
+<text id="2602252">Mad dark spirit &lt;?joinName?&gt; invaded</text>
+<text id="2602253">%null%</text>
+<text id="2602254">%null%</text>
+<text id="2602255">Dark spirit &lt;?joinName?&gt; invaded</text>
+<text id="2602303">Hunter of sinners &lt;?joinName?&gt; invaded!</text>
+<text id="2602304">Blade of the Darkmoon &lt;?joinName?&gt; summoned through concord</text>
+<text id="2602305">%null%</text>
+<text id="2602306">Invaded by Watchdog of Farron &lt;?joinName?&gt;!</text>
+<text id="2602307">Invaded by Aldrich Faithful &lt;?joinName?&gt;!</text>
+<text id="2602308">Blue spirit &lt;?joinName?&gt; summoned through concord</text>
+<text id="2602353">Hunter of sinners &lt;?joinName?&gt; invaded</text>
+<text id="2602354">Blade of the Darkmoon &lt;?joinName?&gt; summoned through concord!</text>
+<text id="2602355">%null%</text>
+<text id="2602356">Watchdog of Farron &lt;?joinName?&gt; invaded</text>
+<text id="2602357">Aldrich Faithful&lt;?joinName?&gt; invaded</text>
+<text id="2602358">Blue spirit &lt;?joinName?&gt; summoned through concord!</text>
+<text id="2610304">Task completed. Blade of the Darkmoon &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2610305">%null%</text>
+<text id="2610306">%null%</text>
+<text id="2610307">%null%</text>
+<text id="2610308">Task completed. Blue spirit &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2611000">Critical battle over.
+Returning to your world.</text>
+<text id="2611001">Critical battle over.
+Returning to your world.</text>
+<text id="2611002">Vertebra shackle found. Returning to your world.</text>
+<text id="2611003">Critical battle completed.
+Returning to your world.</text>
+<text id="2611100">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611101">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611102">Vertebra shackle found. Returning to your world.</text>
+<text id="2611103">%null%</text>
+<text id="2611104">%null%</text>
+<text id="2611105">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611200">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611201">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611202">Vertebra shackle found. Returning to your world.</text>
+<text id="2611203">%null%</text>
+<text id="2611204">%null%</text>
+<text id="2611205">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611303">Host of Embers defeated.
+Returning to your world.</text>
+<text id="2611304">Dark spirit defeated. Task completed.
+Returning to your world.</text>
+<text id="2611305">%null%</text>
+<text id="2611306">Trespasser of the forest defeated.
+Returning to your world.</text>
+<text id="2611307">Trespasser of the ruined cathedral defeated.
+Returning to your world.</text>
+<text id="2611308">Dark spirit defeated. Task completed.
+Returning to your world.</text>
+<text id="2611409">Creighton the Wanderer defeated.
+Returning to your world.</text>
+<text id="2611410">Holy Knight Hodrick defeated.
+Returning to your world.</text>
+<text id="2611411">Ringfinger Leonhard defeated.
+Returning to your world.</text>
+<text id="2611412">Aldrich, Devourer of Gods defeated.
+Returning to your world.</text>
+<text id="2611500">Summoner defeated.
+Returning to your world.</text>
+<text id="2611501">Summoner defeated.
+Returning to your world.</text>
+<text id="2611502">Vertebra shackle found. Returning to your world.</text>
+<text id="2611503">%null%</text>
+<text id="2611504">%null%</text>
+<text id="2611505">Summoner defeated.
+Returning to your world.</text>
+<text id="2612304">Task completed. Blade of the Darkmoon &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2612305">%null%</text>
+<text id="2612306">%null%</text>
+<text id="2612307">%null%</text>
+<text id="2612308">Task completed. Blue spirit &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2614002">Mad phantom &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2614102">Mad dark spirit &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2614202">Mad dark spirit &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2615002">Vertebra shackle found. Returning to your world.</text>
+<text id="2615102">Vertebra shackle found. Returning to your world.</text>
+<text id="2615202">Vertebra shackle found. Returning to your world.</text>
+<text id="2616002">Mad phantom &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2616102">Mad dark spirit &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2616202">Mad dark spirit &lt;?leaveName?&gt; found something and returned to their world</text>
+<text id="2620000">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2620001">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2620002">Mad phantom &lt;?deadName?&gt; has died</text>
+<text id="2620003">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2620100">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620101">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620102">Mad dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620103">%null%</text>
+<text id="2620104">%null%</text>
+<text id="2620105">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620200">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620201">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620202">Mad dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620203">%null%</text>
+<text id="2620204">%null%</text>
+<text id="2620205">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2620303">Hunter of sinners &lt;?deadName?&gt; has died</text>
+<text id="2620304">Blade of the Darkmoon &lt;?deadName?&gt; has died</text>
+<text id="2620305">%null%</text>
+<text id="2620306">Loyal spirit, Watchdog of Farron &lt;?deadName?&gt; has died</text>
+<text id="2620307">Loyal spirit, Aldrich Faithful &lt;?deadName?&gt; has died</text>
+<text id="2620308">Blue spirit &lt;?deadName?&gt; has died</text>
+<text id="2621000">You died. Returning to your world.</text>
+<text id="2621001">You died. Returning to your world.</text>
+<text id="2621002">You died. Returning to your world.</text>
+<text id="2621003">You died. Returning to your world.</text>
+<text id="2621100">You died. Returning to your world.</text>
+<text id="2621101">You died. Returning to your world.</text>
+<text id="2621102">You died. Returning to your world.</text>
+<text id="2621103">%null%</text>
+<text id="2621104">%null%</text>
+<text id="2621105">You died. Returning to your world.</text>
+<text id="2621200">You died. Returning to your world.</text>
+<text id="2621201">You died. Returning to your world.</text>
+<text id="2621202">You died. Returning to your world.</text>
+<text id="2621203">%null%</text>
+<text id="2621204">%null%</text>
+<text id="2621205">You died. Returning to your world.</text>
+<text id="2621303">You died. Returning to your world.</text>
+<text id="2621304">You died. Returning to your world.</text>
+<text id="2621305">%null%</text>
+<text id="2621306">You died. Returning to your world.</text>
+<text id="2621307">You died. Returning to your world.</text>
+<text id="2621308">You died. Returning to your world.</text>
+<text id="2621409">You died. Returning to your world.</text>
+<text id="2621410">You died. Returning to your world.</text>
+<text id="2621411">You died. Returning to your world.</text>
+<text id="2621412">You died. Returning to your world.</text>
+<text id="2622000">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2622001">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2622002">Mad phantom &lt;?deadName?&gt; has died</text>
+<text id="2622003">Phantom &lt;?deadName?&gt; has died</text>
+<text id="2622100">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622101">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622102">Mad dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622103">%null%</text>
+<text id="2622104">%null%</text>
+<text id="2622105">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622200">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622201">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622202">Mad dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622203">%null%</text>
+<text id="2622204">%null%</text>
+<text id="2622205">Dark spirit &lt;?deadName?&gt; has died</text>
+<text id="2622303">Hunter of sinners &lt;?deadName?&gt; has died.</text>
+<text id="2622304">Blade of the Darkmoon &lt;?deadName?&gt; has died</text>
+<text id="2622305">%null%</text>
+<text id="2622306">Loyal spirit, Watchdog of Farron &lt;?deadName?&gt; has died</text>
+<text id="2622307">Loyal spirit, Aldrich Faithful &lt;?deadName?&gt; has died</text>
+<text id="2622308">Blue spirit &lt;?deadName?&gt; has died</text>
+<text id="2630000">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2630001">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2630002">Mad phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2630003">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2630100">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630101">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630102">Mad dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630103">%null%</text>
+<text id="2630104">%null%</text>
+<text id="2630105">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630200">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630201">Dark spirit &lt;?leaveName?&gt; has returned home.</text>
+<text id="2630202">Mad dark spirit &lt;?leaveName?&gt; has returned home.</text>
+<text id="2630203">%null%</text>
+<text id="2630204">%null%</text>
+<text id="2630205">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2630303">Hunter of sinners &lt;?leaveName?&gt; has returned home</text>
+<text id="2630304">Blade of the Darkmoon &lt;?leaveName?&gt; has returned home</text>
+<text id="2630305">%null%</text>
+<text id="2630306">Loyal spirit, Watchdog of Farron &lt;?leaveName?&gt; has returned home</text>
+<text id="2630307">Loyal spirit, Aldrich Faithful &lt;?leaveName?&gt; has returned home</text>
+<text id="2630308">Blue spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2631000">Returning to your world...</text>
+<text id="2631001">Returning to your world...</text>
+<text id="2631002">Returning to your world...</text>
+<text id="2631003">Returning to your world...</text>
+<text id="2631100">Returning to your world...</text>
+<text id="2631101">Returning to your world...</text>
+<text id="2631102">Returning to your world...</text>
+<text id="2631103">%null%</text>
+<text id="2631104">%null%</text>
+<text id="2631105">Returning to your world...</text>
+<text id="2631200">Returning to your world...</text>
+<text id="2631201">Returning to your world...</text>
+<text id="2631202">Returning to your world...</text>
+<text id="2631203">%null%</text>
+<text id="2631204">%null%</text>
+<text id="2631205">Returning to your world...</text>
+<text id="2631303">Returning to your world...</text>
+<text id="2631304">Returning to your world...</text>
+<text id="2631305">%null%</text>
+<text id="2631306">Returning to your world...</text>
+<text id="2631307">Returning to your world...</text>
+<text id="2631308">Returning to your world...</text>
+<text id="2631409">Returning to your world...</text>
+<text id="2631410">Returning to your world...</text>
+<text id="2631411">Returning to your world...</text>
+<text id="2631412">Returning to your world...</text>
+<text id="2632000">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2632001">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2632002">Mad phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2632003">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="2632100">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632101">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632102">Mad dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632103">%null%</text>
+<text id="2632104">%null%</text>
+<text id="2632105">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632200">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632201">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632202">Mad dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632203">%null%</text>
+<text id="2632204">%null%</text>
+<text id="2632205">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2632303">Hunter of sinners &lt;?leaveName?&gt; has returned home.</text>
+<text id="2632304">Blade of the Darkmoon &lt;?leaveName?&gt; has returned home</text>
+<text id="2632305">%null%</text>
+<text id="2632306">Loyal spirit, Watchdog of Farron &lt;?leaveName?&gt; has returned home</text>
+<text id="2632307">Loyal spirit, Aldrich Faithful &lt;?leaveName?&gt; has returned home</text>
+<text id="2632308">Blue spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="2640000">Phantom &lt;?leaveName?&gt; was sent home</text>
+<text id="2640001">Phantom &lt;?leaveName?&gt; was sent home</text>
+<text id="2640002">%null%</text>
+<text id="2640003">Phantom &lt;?leaveName?&gt; was sent home</text>
+<text id="2640304">Blade of the Darkmoon &lt;?leaveName?&gt; was sent home</text>
+<text id="2640305">%null%</text>
+<text id="2640306">%null%</text>
+<text id="2640307">%null%</text>
+<text id="2640308">Blue spirit &lt;?leaveName?&gt; was sent home</text>
+<text id="2641000">Sent home by the Host of Embers.
+Returning to your world.</text>
+<text id="2641001">Sent home by the Host of Embers.
+Returning to your world.</text>
+<text id="2641002">%null%</text>
+<text id="2641003">Sent home by the Host of Embers.
+Returning to your world.</text>
+<text id="2641304">Sent home by Way of Blue adherent.
+Returning to your world.</text>
+<text id="2641305">%null%</text>
+<text id="2641306">%null%</text>
+<text id="2641307">%null%</text>
+<text id="2641308">Sent home by Way of Blue adherent.
+Returning to your world.</text>
+<text id="2642000">Phantom &lt;?leaveName?&gt; has been sent home</text>
+<text id="2642001">Phantom &lt;?leaveName?&gt; has been sent home</text>
+<text id="2642002">%null%</text>
+<text id="2642003">Phantom &lt;?leaveName?&gt; has returned home.</text>
+<text id="2642304">Blade of the Darkmoon &lt;?leaveName?&gt; has been sent home</text>
+<text id="2642305">%null%</text>
+<text id="2642306">%null%</text>
+<text id="2642307">%null%</text>
+<text id="2642308">Blue spirit &lt;?leaveName?&gt; has been sent home</text>
+<text id="2651000">Host of Embers has died. Returning to your world.</text>
+<text id="2651001">Host of Embers has died. Returning to your world.</text>
+<text id="2651002">Host of Embers has died. Returning to your world.</text>
+<text id="2651003">Host of Embers has died. Returning to your world.</text>
+<text id="2651304">Way of Blue adherent has died. Returning to your world.</text>
+<text id="2651305">%null%</text>
+<text id="2651306">%null%</text>
+<text id="2651307">%null%</text>
+<text id="2651308">Way of Blue adherent has died. Returning to your world.</text>
+<text id="2651409">Sirris of the Sunless Realms has died.
+Returning to your world.</text>
+<text id="2651410">Sirris of the Sunless Realms has died.
+Returning to your world.</text>
+<text id="2651411">%null%</text>
+<text id="2651412">Anri of Astora has died.
+Returning to your world.</text>
+<text id="2661000">Critical battle can now be accessed</text>
+<text id="2661001">Critical battle can now be accessed</text>
+<text id="2661002">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661003">Critical battle can now be accessed.</text>
+<text id="2661100">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661101">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661102">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661103">%null%</text>
+<text id="2661104">%null%</text>
+<text id="2661105">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661200">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661201">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661202">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661203">%null%</text>
+<text id="2661204">%null%</text>
+<text id="2661205">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661303">Host of Embers has begun critical battle. Returning to your world.</text>
+<text id="2661304">Way of Blue adherent has begun critical battle.
+Task completed. Returning to your world.</text>
+<text id="2661305">%null%</text>
+<text id="2661306">Forest trespasser has begun critical battle. Returning to your world.</text>
+<text id="2661307">Ruined cathedral trespasser has begun critical battle. Returning to your world.</text>
+<text id="2661308">Way of Blue adherent has begun critical battle.
+Task completed. Returning to your world.</text>
+<text id="2661500">Summoner has begun critical battle. Returning to your world.</text>
+<text id="2661501">Summoner has begun critical battle. Returning to your world.</text>
+<text id="2661502">Summoner has begun critical battle. Returning to your world.</text>
+<text id="2661503">%null%</text>
+<text id="2661504">%null%</text>
+<text id="2661505">Summoner has begun critical battle. Returning to your world.</text>
+<text id="2670000">Return to your world?</text>
+<text id="2670304">Task completed.
+Blade of the Darkmoon &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2670305">%null%</text>
+<text id="2670306">%null%</text>
+<text id="2670307">%null%</text>
+<text id="2670308">Task completed.
+Blue spirit &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2671304">Dark spirit &lt;?leaveName?&gt; has returned home.
+Your task is complete. Returning to your world.</text>
+<text id="2671305">%null%</text>
+<text id="2671306">%null%</text>
+<text id="2671307">%null%</text>
+<text id="2671308">Dark spirit &lt;?leaveName?&gt; has returned home.
+Your task is complete. Returning to your world.</text>
+<text id="2672304">Task completed.
+Blade of the Darkmoon &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2672305">%null%</text>
+<text id="2672306">%null%</text>
+<text id="2672307">%null%</text>
+<text id="2672308">Task completed.
+Blue spirit &lt;?leaveName?&gt; has returned to their world.</text>
+<text id="2681100">Host of Embers has left the area. Returning to your world.</text>
+<text id="2681101">Host of Embers has left the area. Returning to your world.</text>
+<text id="2681102">Host of Embers has left the area. Returning to your world.</text>
+<text id="2681500">Summoner has left the area. Returning to your world.</text>
+<text id="2681501">Summoner has left the area. Returning to your world.</text>
+<text id="2681502">Summoner has left the area. Returning to your world.</text>
+<text id="2691002">Kill &lt;?bskKillCountRemain?&gt; more phantoms</text>
+<text id="2691102">Kill &lt;?bskKillCountRemain?&gt; more phantoms</text>
+<text id="2691202">Kill &lt;?bskKillCountRemain?&gt; more phantoms</text>
+<text id="2692000">Phantom &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692001">Phantom &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692002">Mad phantom &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692100">Dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692101">Dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692102">Mad dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692200">Dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692201">Dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692202">Mad dark spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692304">Blade of the Darkmoon &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692305">%null%</text>
+<text id="2692306">Watchdog of Farron &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692307">Aldrich Faithful &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2692308">Blue spirit &lt;?deadName?&gt; killed.
+Kill &lt;?bskKillCountRemain?&gt; more phantoms.</text>
+<text id="2701000">A connection error occurred.
+Returning to your world.</text>
+<text id="2701001">A connection error occurred.
+Returning to your world.</text>
+<text id="2701002">A connection error occurred.
+Returning to your world.</text>
+<text id="2701003">A connection error occurred.
+Returning to your world.</text>
+<text id="2701100">A connection error occurred.
+Returning to your world.</text>
+<text id="2701101">A connection error occurred.
+Returning to your world.</text>
+<text id="2701102">A connection error occurred.
+Returning to your world.</text>
+<text id="2701103">%null%</text>
+<text id="2701104">%null%</text>
+<text id="2701105">A connection error occurred.
+Returning to your world.</text>
+<text id="2701200">A connection error occurred.
+Returning to your world.</text>
+<text id="2701201">A connection error occurred.
+Returning to your world.</text>
+<text id="2701202">A connection error occurred.
+Returning to your world.</text>
+<text id="2701203">%null%</text>
+<text id="2701204">%null%</text>
+<text id="2701205">A connection error occurred.
+Returning to your world.</text>
+<text id="2701303">A connection error occurred.
+Returning to your world.</text>
+<text id="2701304">A connection error occurred.
+Returning to your world.</text>
+<text id="2701305">%null%</text>
+<text id="2701306">A connection error occurred.
+Returning to your world.</text>
+<text id="2701307">A connection error occurred.
+Returning to your world.</text>
+<text id="2701308">A connection error occurred.
+Returning to your world.</text>
+<text id="2712200">Dark spirit &lt;?deadName?&gt; defeated. Task completed.
+Returning to your world.</text>
+<text id="2712201">Dark spirit &lt;?deadName?&gt; defeated. Task completed.
+Returning to your world.</text>
+<text id="2712202">Mad dark spirit &lt;?deadName?&gt; defeated. Task completed.
+Returning to your world.</text>
+<text id="2722200">Dark spirit &lt;?leaveName?&gt; has returned home.
+Your task is complete. Returning to your world.</text>
+<text id="2722201">Dark spirit &lt;?leaveName?&gt; has returned home.
+Your task is complete. Returning to your world.</text>
+<text id="2722202">Mad dark spirit &lt;?leaveName?&gt; has returned home.
+Your task is complete. Returning to your world.</text>
+<text id="2800000">Session lost</text>
+<text id="2801000">Session lost</text>
+<text id="2901002">Summoned to the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host.</text>
+<text id="2901102">Summoned to the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host.</text>
+<text id="2901202">Invaded the world of Host of Embers &lt;?hostName?&gt;.
+Kill the host.</text>
+<text id="2901502">Summoned to &lt;?hostName?&gt;'s world.
+Kill the summoner.</text>
+<text id="3000000">One of your messages was rated</text>
+<text id="10010100">Examine</text>
+<text id="10010101">Pillage remains</text>
+<text id="10010102">Pillage corpse</text>
+<text id="10010103">Pick up item</text>
+<text id="10010104">Pick up item</text>
+<text id="10010105">Place Lordvessel</text>
+<text id="10010106">Rest at Lordvessel</text>
+<text id="10010107">Pillage chest</text>
+<text id="10010108">Link the First Flame</text>
+<text id="10010109">Summon Fire Keeper</text>
+<text id="10010110">OK</text>
+<text id="10010111">Seize corpse</text>
+<text id="10010112">Perform ritual</text>
+<text id="10010113">Drink Estus Soup</text>
+<text id="10010114">%null%</text>
+<text id="10010115">%null%</text>
+<text id="10010116">%null%</text>
+<text id="10010117">%null%</text>
+<text id="10010118">%null%</text>
+<text id="10010119">%null%</text>
+<text id="10010120">Examine ring of light</text>
+<text id="10010121">%null%</text>
+<text id="10010122">%null%</text>
+<text id="10010123">%null%</text>
+<text id="10010124">%null%</text>
+<text id="10010125">%null%</text>
+<text id="10010126">%null%</text>
+<text id="10010127">%null%</text>
+<text id="10010128">%null%</text>
+<text id="10010129">%null%</text>
+<text id="10010130">Extinguish flame</text>
+<text id="10010131">Raise banner</text>
+<text id="10010132">Place basin</text>
+<text id="10010133">Make sound</text>
+<text id="10010134">Touch goblet</text>
+<text id="10010135">Dunk head in wax</text>
+<text id="10010136">Touch door</text>
+<text id="10010137">Read letter</text>
+<text id="10010138">Rite of Avowal</text>
+<text id="10010139">Traverse the fog</text>
+<text id="10010140">Offer Cinders of a Lord</text>
+<text id="10010141">Embed the coiled sword</text>
+<text id="10010142">Cross barrier</text>
+<text id="10010143">Read engraving</text>
+<text id="10010144">%null%</text>
+<text id="10010145">%null%</text>
+<text id="10010146">%null%</text>
+<text id="10010147">%null%</text>
+<text id="10010148">%null%</text>
+<text id="10010149">%null%</text>
+<text id="10010150">Touch sign requesting cooperation</text>
+<text id="10010151">%null%</text>
+<text id="10010152">%null%</text>
+<text id="10010153">%null%</text>
+<text id="10010154">%null%</text>
+<text id="10010155">%null%</text>
+<text id="10010156">%null%</text>
+<text id="10010157">%null%</text>
+<text id="10010158">%null%</text>
+<text id="10010159">%null%</text>
+<text id="10010160">Locked by some contraption</text>
+<text id="10010161">Does not open from this side</text>
+<text id="10010162">Unlocked</text>
+<text id="10010163">It's locked</text>
+<text id="10010164">%null%</text>
+<text id="10010165">%null%</text>
+<text id="10010166">%null%</text>
+<text id="10010167">%null%</text>
+<text id="10010168">%null%</text>
+<text id="10010169">%null%</text>
+<text id="10010170">Contraption does not move</text>
+<text id="10010171">No Lord Souls to offer</text>
+<text id="10010172">She is as still as a corpse</text>
+<text id="10010173">Sealed by the Great Lord</text>
+<text id="10010174">No Lordvessel</text>
+<text id="10010175">%null%</text>
+<text id="10010176">%null%</text>
+<text id="10010177">%null%</text>
+<text id="10010178">%null%</text>
+<text id="10010179">%null%</text>
+<text id="10010180">%null%</text>
+<text id="10010181">Kindle</text>
+<text id="10010182">Light bonfire</text>
+<text id="10010183">Rest at bonfire</text>
+<text id="10010184">Fire Keeper is absent. Cannot light bonfire.</text>
+<text id="10010185">%null%</text>
+<text id="10010186">%null%</text>
+<text id="10010187">%null%</text>
+<text id="10010188">%null%</text>
+<text id="10010189">%null%</text>
+<text id="10010190">Dead</text>
+<text id="10010191">No response. She cannot speak.</text>
+<text id="10010192">%null%</text>
+<text id="10010193">%null%</text>
+<text id="10010194">%null%</text>
+<text id="10010195">Remove sword</text>
+<text id="10010196">%null%</text>
+<text id="10010197">%null%</text>
+<text id="10010198">%null%</text>
+<text id="10010199">%null%</text>
+<text id="10010200">Talk</text>
+<text id="10010201">%null%</text>
+<text id="10010202">%null%</text>
+<text id="10010203">%null%</text>
+<text id="10010204">%null%</text>
+<text id="10010205">%null%</text>
+<text id="10010206">%null%</text>
+<text id="10010207">%null%</text>
+<text id="10010208">%null%</text>
+<text id="10010209">%null%</text>
+<text id="10010210">Kneel</text>
+<text id="10010211">%null%</text>
+<text id="10010212">%null%</text>
+<text id="10010213">%null%</text>
+<text id="10010214">%null%</text>
+<text id="10010215">%null%</text>
+<text id="10010216">%null%</text>
+<text id="10010217">%null%</text>
+<text id="10010218">%null%</text>
+<text id="10010219">%null%</text>
+<text id="10010220">Pray at Altar of Sunlight</text>
+<text id="10010221">Pray at Sacrificial Altar</text>
+<text id="10010222">Pray to Old Wolf of Farron</text>
+<text id="10010223">Pray to Archdeacon McDonnell</text>
+<text id="10010224">%null%</text>
+<text id="10010225">%null%</text>
+<text id="10010226">Talk</text>
+<text id="10010240">Pray to statue of Velka</text>
+<text id="10010300">Climb</text>
+<text id="10010301">Descend</text>
+<text id="10010400">Open</text>
+<text id="10010401">Close</text>
+<text id="10010402">%null%</text>
+<text id="10010403">Traverse the fog</text>
+<text id="10010404">Leave through the white light</text>
+<text id="10010405">%null%</text>
+<text id="10010406">%null%</text>
+<text id="10010407">Enter through the white light</text>
+<text id="10010408">%null%</text>
+<text id="10010409">%null%</text>
+<text id="10010410">Examine brilliant light</text>
+<text id="10010500">Kick ladder</text>
+<text id="10010501">Pull lever</text>
+<text id="10010502">Push lever</text>
+<text id="10010503">Turn handle</text>
+<text id="10010504">Nestle in coffin</text>
+<text id="10010505">Exit coffin</text>
+<text id="10010506">Curl up like a ball</text>
+<text id="10010507">Stand up</text>
+<text id="10010508">Extinguish fire</text>
+<text id="10010509">Offer Humanity</text>
+<text id="10010510">Touch door</text>
+<text id="10010600">In Lordran, level up and kindle at bonfires</text>
+<text id="10010601">%null%</text>
+<text id="10010602">%null%</text>
+<text id="10010603">%null%</text>
+<text id="10010604">%null%</text>
+<text id="10010605">%null%</text>
+<text id="10010606">%null%</text>
+<text id="10010607">%null%</text>
+<text id="10010608">%null%</text>
+<text id="10010609">%null%</text>
+<text id="10010610">By the Rite of Kindling, you may now kindle beyond the normal limit</text>
+<text id="10010611">%null%</text>
+<text id="10010612">%null%</text>
+<text id="10010613">%null%</text>
+<text id="10010614">%null%</text>
+<text id="10010615">%null%</text>
+<text id="10010616">%null%</text>
+<text id="10010617">%null%</text>
+<text id="10010618">%null%</text>
+<text id="10010619">%null%</text>
+<text id="10010620">By the power of the Lordvessel, you may now warp between bonfires</text>
+<text id="10010621">%null%</text>
+<text id="10010622">%null%</text>
+<text id="10010623">%null%</text>
+<text id="10010624">%null%</text>
+<text id="10010625">%null%</text>
+<text id="10010626">%null%</text>
+<text id="10010627">%null%</text>
+<text id="10010628">%null%</text>
+<text id="10010629">%null%</text>
+<text id="10010630">Sealed by the Great Lord's power</text>
+<text id="10010631">%null%</text>
+<text id="10010632">%null%</text>
+<text id="10010633">%null%</text>
+<text id="10010634">%null%</text>
+<text id="10010635">%null%</text>
+<text id="10010636">%null%</text>
+<text id="10010637">%null%</text>
+<text id="10010638">%null%</text>
+<text id="10010639">%null%</text>
+<text id="10010640">Seal of the Great Lord was broken</text>
+<text id="10010641">%null%</text>
+<text id="10010642">%null%</text>
+<text id="10010643">%null%</text>
+<text id="10010644">%null%</text>
+<text id="10010645">%null%</text>
+<text id="10010646">%null%</text>
+<text id="10010647">%null%</text>
+<text id="10010648">%null%</text>
+<text id="10010649">%null%</text>
+<text id="10010650">You were taken by the abyss</text>
+<text id="10010651">%null%</text>
+<text id="10010652">%null%</text>
+<text id="10010653">%null%</text>
+<text id="10010654">%null%</text>
+<text id="10010655">%null%</text>
+<text id="10010656">%null%</text>
+<text id="10010657">%null%</text>
+<text id="10010658">%null%</text>
+<text id="10010659">%null%</text>
+<text id="10010660">While cursed, your HP is halved. Lifting the curse requires
+a Purging Stone or the aid of the healer in New Londo.</text>
+<text id="10010661">%null%</text>
+<text id="10010662">%null%</text>
+<text id="10010663">%null%</text>
+<text id="10010664">%null%</text>
+<text id="10010665">%null%</text>
+<text id="10010666">%null%</text>
+<text id="10010667">%null%</text>
+<text id="10010668">%null%</text>
+<text id="10010669">%null%</text>
+<text id="10010670">Through sacrifice, no souls were lost.
+Ring of Sacrifice shattered.</text>
+<text id="10010671">%null%</text>
+<text id="10010672">%null%</text>
+<text id="10010673">%null%</text>
+<text id="10010674">%null%</text>
+<text id="10010675">%null%</text>
+<text id="10010676">%null%</text>
+<text id="10010677">%null%</text>
+<text id="10010678">%null%</text>
+<text id="10010679">%null%</text>
+<text id="10010680">%null%</text>
+<text id="10010681">%null%</text>
+<text id="10010682">%null%</text>
+<text id="10010683">%null%</text>
+<text id="10010684">%null%</text>
+<text id="10010685">%null%</text>
+<text id="10010686">%null%</text>
+<text id="10010687">%null%</text>
+<text id="10010688">%null%</text>
+<text id="10010689">%null%</text>
+<text id="10010690">You feel the Black Eye Orb quivering</text>
+<text id="10010710">Return to the last bonfire rested at?</text>
+<text id="10010711">Lose all souls and return to selected location?</text>
+<text id="10010712">This bonfire is cut off from the others. Cannot warp.</text>
+<text id="10010713">Game installation incomplete.
+Cannot travel between bonfires.</text>
+<text id="10010714">%null%</text>
+<text id="10010715">%null%</text>
+<text id="10010716">%null%</text>
+<text id="10010717">%null%</text>
+<text id="10010718">%null%</text>
+<text id="10010719">%null%</text>
+<text id="10010720">%null%</text>
+<text id="10010721">Cannot use bonfire while phantom is present</text>
+<text id="10010722">No humanity</text>
+<text id="10010723">Cannot kindle any further</text>
+<text id="10010724">Cannot kindle further without the secret rite</text>
+<text id="10010725">Cannot kindle while Hollowed</text>
+<text id="10010726">Already belong to this Covenant</text>
+<text id="10010727">No Covenants to abandon</text>
+<text id="10010728">%null%</text>
+<text id="10010729">%null%</text>
+<text id="10010730">%null%</text>
+<text id="10010731">No humanity</text>
+<text id="10010732">Offer humanity and reverse Hollowing?</text>
+<text id="10010733">You are not cursed</text>
+<text id="10010734">%null%</text>
+<text id="10010735">%null%</text>
+<text id="10010736">Cannot reverse Hollowing while cursed</text>
+<text id="10010737">%null%</text>
+<text id="10010738">%null%</text>
+<text id="10010739">%null%</text>
+<text id="10010740">%null%</text>
+<text id="10010741">Offer humanity and kindle flame?</text>
+<text id="10010742">%null%</text>
+<text id="10010743">%null%</text>
+<text id="10010744">%null%</text>
+<text id="10010745">%null%</text>
+<text id="10010746">%null%</text>
+<text id="10010747">%null%</text>
+<text id="10010748">%null%</text>
+<text id="10010749">%null%</text>
+<text id="10010750">Special ember required for blacksmiths to ascend weapons</text>
+<text id="10010751">%null%</text>
+<text id="10010752">Insufficient dedication</text>
+<text id="10010753">Insufficient &lt;?gdsparam@271?&gt;</text>
+<text id="10010754">Insufficient souls</text>
+<text id="10010755">Gesture learned</text>
+<text id="10010756">%null%</text>
+<text id="10010757">%null%</text>
+<text id="10010758">%null%</text>
+<text id="10010759">%null%</text>
+<text id="10010760">Fire Keeper Soul required to reinforce Estus Flask</text>
+<text id="10010761">No humanity</text>
+<text id="10010762">%null%</text>
+<text id="10010763">%null%</text>
+<text id="10010764">%null%</text>
+<text id="10010765">%null%</text>
+<text id="10010766">%null%</text>
+<text id="10010767">%null%</text>
+<text id="10010768">! FROSTBITTEN !</text>
+<text id="10010769">! OIL-SOAKED !</text>
+<text id="10010770">! BLOOD LOSS !</text>
+<text id="10010771">! POISONED !</text>
+<text id="10010772">! TOXIC !</text>
+<text id="10010773">! WEAPON AT RISK !</text>
+<text id="10010774">! HUMANITY STOLEN !</text>
+<text id="10010775">! ARMOR AT RISK !</text>
+<text id="10010776">! CURSED !</text>
+<text id="10010777">! WEAPON BROKEN !</text>
+<text id="10010778">! ARMOR BROKEN !</text>
+<text id="10010800">Use &lt;?gdsparam@390?&gt;?</text>
+<text id="10010801">Use &lt;?gdsparam@700?&gt;?</text>
+<text id="10010802">Use &lt;?gdsparam@701?&gt;?</text>
+<text id="10010803">Use &lt;?gdsparam@702?&gt;?</text>
+<text id="10010804">Use &lt;?gdsparam@703?&gt;?</text>
+<text id="10010805">Use &lt;?gdsparam@704?&gt;?</text>
+<text id="10010806">Use &lt;?gdsparam@705?&gt;?</text>
+<text id="10010807">Use &lt;?gdsparam@706?&gt;?</text>
+<text id="10010808">Use &lt;?gdsparam@707?&gt;?</text>
+<text id="10010809">Use &lt;?gdsparam@708?&gt;?</text>
+<text id="10010810">%null%</text>
+<text id="10010811">%null%</text>
+<text id="10010812">Use &lt;?gdsparam@712?&gt;?</text>
+<text id="10010813">Use &lt;?gdsparam@713?&gt;?</text>
+<text id="10010814">Use &lt;?gdsparam@714?&gt;?</text>
+<text id="10010815">Use &lt;?gdsparam@715?&gt;?</text>
+<text id="10010816">Use &lt;?gdsparam@716?&gt;?</text>
+<text id="10010817">Use &lt;?gdsparam@717?&gt;?</text>
+<text id="10010818">Use &lt;?gdsparam@718?&gt;?</text>
+<text id="10010819">Use &lt;?gdsparam@719?&gt;?</text>
+<text id="10010820">Use &lt;?gdsparam@720?&gt;?</text>
+<text id="10010821">Use &lt;?gdsparam@721?&gt;?</text>
+<text id="10010822">Use &lt;?gdsparam@722?&gt;?</text>
+<text id="10010823">Use &lt;?gdsparam@723?&gt;?</text>
+<text id="10010824">Use &lt;?gdsparam@724?&gt;?</text>
+<text id="10010825">Use &lt;?gdsparam@725?&gt;?</text>
+<text id="10010826">Use &lt;?gdsparam@726?&gt;?</text>
+<text id="10010827">Use &lt;?gdsparam@727?&gt;?</text>
+<text id="10010828">Use &lt;?gdsparam@728?&gt;?</text>
+<text id="10010829">Use &lt;?gdsparam@729?&gt;?</text>
+<text id="10010830">Use &lt;?gdsparam@730?&gt;?</text>
+<text id="10010831">Use &lt;?gdsparam@731?&gt;?</text>
+<text id="10010832">Use &lt;?gdsparam@732?&gt;?</text>
+<text id="10010833">Use &lt;?gdsparam@733?&gt;?</text>
+<text id="10010834">Use &lt;?gdsparam@734?&gt;?</text>
+<text id="10010835">Use &lt;?gdsparam@735?&gt;?</text>
+<text id="10010836">Use &lt;?gdsparam@736?&gt;?</text>
+<text id="10010837">Use &lt;?gdsparam@737?&gt;?</text>
+<text id="10010838">Use &lt;?gdsparam@738?&gt;?</text>
+<text id="10010839">Use &lt;?gdsparam@739?&gt;?</text>
+<text id="10010840">Use &lt;?gdsparam@740?&gt;?</text>
+<text id="10010841">Use &lt;?gdsparam@741?&gt;?</text>
+<text id="10010842">Use &lt;?gdsparam@742?&gt;?</text>
+<text id="10010843">Use &lt;?gdsparam@743?&gt;?</text>
+<text id="10010860">Used &lt;?gdsparam@2000?&gt;</text>
+<text id="10010861">Used &lt;?gdsparam@2001?&gt;</text>
+<text id="10010862">Used &lt;?gdsparam@2002?&gt;</text>
+<text id="10010863">Used &lt;?gdsparam@2003?&gt;</text>
+<text id="10010864">Used &lt;?gdsparam@2004?&gt;</text>
+<text id="10010865">Used &lt;?gdsparam@2005?&gt;</text>
+<text id="10010866">Used &lt;?gdsparam@2006?&gt;</text>
+<text id="10010867">Used &lt;?gdsparam@2007?&gt;</text>
+<text id="10010868">Used &lt;?gdsparam@2008?&gt;</text>
+<text id="10010869">Used &lt;?gdsparam@2009?&gt;</text>
+<text id="10010870">Used &lt;?gdsparam@2010?&gt;</text>
+<text id="10010871">Used &lt;?gdsparam@2011?&gt;</text>
+<text id="10010872">Used &lt;?gdsparam@2012?&gt;</text>
+<text id="10010873">Used &lt;?gdsparam@2013?&gt;</text>
+<text id="10010874">Used &lt;?gdsparam@2014?&gt;</text>
+<text id="10010875">Used &lt;?gdsparam@2015?&gt;</text>
+<text id="10010876">Used &lt;?gdsparam@2016?&gt;</text>
+<text id="10010877">Used &lt;?gdsparam@2017?&gt;</text>
+<text id="10010878">Used &lt;?gdsparam@2018?&gt;</text>
+<text id="10010879">Used &lt;?gdsparam@2019?&gt;</text>
+<text id="10010880">%null%</text>
+<text id="10010881">Used &lt;?gdsparam@2021?&gt;</text>
+<text id="10010882">Used &lt;?gdsparam@2022?&gt;</text>
+<text id="10010883">Used &lt;?gdsparam@2100?&gt;</text>
+<text id="10010884">%null%</text>
+<text id="10010885">%null%</text>
+<text id="10010886">%null%</text>
+<text id="10010887">%null%</text>
+<text id="10010888">%null%</text>
+<text id="10010889">Used &lt;?gdsparam@2100?&gt;</text>
+<text id="10010890">Use Fire Keeper Soul to reinforce Estus Flask?</text>
+<text id="10010891">Estus Flask reinforced</text>
+<text id="10010892">%null%</text>
+<text id="10010893">%null%</text>
+<text id="10010894">%null%</text>
+<text id="10010895">%null%</text>
+<text id="10010896">%null%</text>
+<text id="10010897">%null%</text>
+<text id="10010898">%null%</text>
+<text id="10010899">%null%</text>
+<text id="10010900">&lt;?gdsparam@1010?&gt; shattered, becoming &lt;?gdsparam@1000?&gt;</text>
+<text id="10010901">&lt;?gdsparam@1020?&gt; shattered, becoming &lt;?gdsparam@1000?&gt;</text>
+<text id="10010902">&lt;?gdsparam@1030?&gt; shattered, becoming &lt;?gdsparam@1010?&gt;</text>
+<text id="10010903">&lt;?gdsparam@1040?&gt; shattered, becoming &lt;?gdsparam@1020?&gt;</text>
+<text id="10010904">&lt;?gdsparam@1050?&gt; shattered, becoming &lt;?gdsparam@1020?&gt;</text>
+<text id="10010905">&lt;?gdsparam@1060?&gt; shattered, becoming &lt;?gdsparam@1020?&gt;</text>
+<text id="10010906">&lt;?gdsparam@1070?&gt; shattered, becoming &lt;?gdsparam@1030?&gt;</text>
+<text id="10010907">&lt;?gdsparam@1080?&gt; shattered, becoming &lt;?gdsparam@1040?&gt;</text>
+<text id="10010908">&lt;?gdsparam@1090?&gt; shattered, becoming &lt;?gdsparam@1050?&gt;</text>
+<text id="10010909">&lt;?gdsparam@1100?&gt; shattered, becoming &lt;?gdsparam@1060?&gt;</text>
+<text id="10010910">%null%</text>
+<text id="10010911">%null%</text>
+<text id="10010912">%null%</text>
+<text id="10010950">Acquired &lt;?gdsparam@5520?&gt;</text>
+<text id="10011950">Select destination</text>
+<text id="10011951">Shrine Bonfire</text>
+<text id="10011952">Bonfire last rested at</text>
+<text id="10011953">Close</text>
+<text id="10011954">Select destination. All souls will be lost.</text>
+<text id="10012000">Flame extinguished</text>
+<text id="10012001">Banner not in inventory</text>
+<text id="10012002">Firmly shut.</text>
+<text id="10012003">No sacred remains in inventory.</text>
+<text id="10012004">Shut by a strange power</text>
+<text id="10012005">Those who do not hold the doll cannot pass</text>
+<text id="10012006">Basin not in inventory</text>
+<text id="10012007">%null%</text>
+<text id="10012008">%null%</text>
+<text id="10012009">%null%</text>
+<text id="10012010">A seed of a Giant Tree is yet to fall</text>
+<text id="10012011">%null%</text>
+<text id="10012012">%null%</text>
+<text id="10012013">%null%</text>
+<text id="10012014">%null%</text>
+<text id="10012015">%null%</text>
+<text id="10012016">%null%</text>
+<text id="10012017">%null%</text>
+<text id="10012018">%null%</text>
+<text id="10012019">%null%</text>
+<text id="10012020">Summon Fire Keeper?</text>
+<text id="10012021">Link the First Flame?</text>
+<text id="10012022">%null%</text>
+<text id="10012023">%null%</text>
+<text id="10012024">%null%</text>
+<text id="10012025">%null%</text>
+<text id="10012026">%null%</text>
+<text id="10012027">%null%</text>
+<text id="10012028">%null%</text>
+<text id="10012029">%null%</text>
+<text id="10012030">Answer Sirris of the Sunless Realms' call for cooperation
+and be summoned as a phantom?</text>
+<text id="10012031">Answer Anri of Astora's call for cooperation
+and be summoned as a phantom?</text>
+<text id="10012032">Invade the world of Rosaria's killer?</text>
+<text id="10012051">Holy King Lothric,
+Last hope of his Line</text>
+<text id="10012052">Saint Aldrich of the Deep</text>
+<text id="10012053">Watchers of the Abyss</text>
+<text id="10012054">Yhorm the Giant,
+of the Profaned Capital</text>
+<text id="10012055">Ludleth the Exiled</text>
+<text id="10012100">Mad phantom Holy Knight Hodrick summoned</text>
+<text id="10012101">Mad phantom Holy Knight Hodrick found something and returned to their world</text>
+<text id="10012102">Mad phantom Holy Knight Hodrick has died</text>
+<text id="10012103">Mad phantom Holy Knight Hodrick has returned home</text>
+<text id="10012120">Mad phantom Holy Knight Hodrick summoned</text>
+<text id="10012121">Mad phantom Holy Knight Hodrick found something and returned to their world</text>
+<text id="10012122">Mad phantom Holy Knight Hodrick has died</text>
+<text id="10012123">Mad phantom Holy Knight Hodrick has returned home</text>
+<text id="10012200">Invaded by mad dark spirit Holy Knight Hodrick!</text>
+<text id="10012201">Mad dark spirit Holy Knight Hodrick found something and returned to their world</text>
+<text id="10012202">Mad dark spirit Holy Knight Hodrick has died</text>
+<text id="10012203">Mad dark spirit Holy Knight Hodrick has returned home</text>
+<text id="10012220">Invaded by mad dark spirit Holy Knight Hodrick!</text>
+<text id="10012221">Mad dark spirit Holy Knight Hodrick found something and returned to their world</text>
+<text id="10012222">Mad dark spirit Holy Knight Hodrick has died</text>
+<text id="10012223">Mad dark spirit Holy Knight Hodrick has returned home</text>
+<text id="10012224">%null%</text>
+<text id="10012225">%null%</text>
+<text id="10012226">%null%</text>
+<text id="10012227">%null%</text>
+<text id="10012228">%null%</text>
+<text id="10012229">%null%</text>
+<text id="10012230">Mad dark spirit Holy Knight Hodrick invaded</text>
+<text id="10012231">Mad dark spirit Holy Knight Hodrick found something and returned to their world</text>
+<text id="10012232">Mad dark spirit Holy Knight Hodrick has died</text>
+<text id="10012233">Mad dark spirit Holy Knight Hodrick has returned home</text>
+<text id="12000000">Select quantity to offer:</text>
+<text id="12000001">Select quantity to offer:</text>
+<text id="12000002">Select quantity to offer:</text>
+<text id="12000003">Select quantity to offer:</text>
+<text id="12000004">Select quantity to offer:</text>
+<text id="12000005">Select quantity to offer:</text>
+<text id="12000006">Select quantity to offer:</text>
+<text id="12000020">Join Covenant?</text>
+<text id="12000021">Join Covenant?</text>
+<text id="12000022">Join Covenant?</text>
+<text id="12000023">Join Covenant?</text>
+<text id="12000024">Join Covenant?</text>
+<text id="12000025">Join Covenant?</text>
+<text id="12000026">Join Covenant?</text>
+<text id="12000100">Your sins can be forgiven for &lt;?evntAcquittalPrice?&gt; souls. 
+Will you request to be pardoned? </text>
+<text id="12000101">%null%</text>
+<text id="12000102">%null%</text>
+<text id="12000103">%null%</text>
+<text id="12000104">%null%</text>
+<text id="12000105">%null%</text>
+<text id="12000106">%null%</text>
+<text id="12000107">%null%</text>
+<text id="12000108">%null%</text>
+<text id="12000109">%null%</text>
+<text id="12000110">Your curse can be lifted for &lt;?evntAcquittalPrice?&gt; souls.
+Will you request to reverse hollowing?</text>
+<text id="12000200">Burn &lt;?gdsparam@2143?&gt;?</text>
+<text id="12000201">Select quantity to burn</text>
+<text id="12000300">If you begin journey &lt;?nextLoopCount?&gt;,
+you will not be able to return to journey &lt;?loopCount?&gt;.
+Are you sure you wish to begin journey &lt;?nextLoopCount?&gt;?</text>
+<text id="12002000">Give &lt;?gdsparam@2138?&gt;?</text>
+<text id="12002001">Give &lt;?gdsparam@390?&gt;?</text>
+<text id="12002002">Requires &lt;?evntAcquittalPrice?&gt; souls. 
+Will you choose to heal the dark sigil?</text>
+<text id="12002003">Use &lt;?gdsparam@2141?&gt; to reinforce Estus Flask?</text>
+<text id="12003000">Give &lt;?gdsparam@2135?&gt;?</text>
+<text id="12003001">Transpose &lt;?weaponNameId@6260000?&gt; 
+and &lt;?weaponNameId@6280000?&gt; into a single weapon?</text>
+<text id="12004000">Give &lt;?gdsparam@2112?&gt;?</text>
+<text id="12006000">Offer &lt;?gdsparam@372?&gt;?</text>
+<text id="12006001">Give &lt;?gdsparam@2136?&gt;?</text>
+<text id="12012000">Give &lt;?gdsparam@2118?&gt;?</text>
+<text id="12021000">Throw in a complete set of Catarina armor?</text>
+<text id="12027000">This is an abhorrent covenant.
+Are you sure you wish to establish a bond?</text>
+<text id="12027001">Offer &lt;?gdsparam@373?&gt; and be reborn?</text>
+<text id="12027002">Offer &lt;?gdsparam@373?&gt; and be reborn?</text>
+<text id="12027003">%null%</text>
+<text id="12027004">%null%</text>
+<text id="12027005">%null%</text>
+<text id="12027006">%null%</text>
+<text id="12027007">%null%</text>
+<text id="12027008">%null%</text>
+<text id="12027009">%null%</text>
+<text id="12027010">Offer Pale Tongue x&lt;?evntAcquittalPrice?&gt; and be reborn?</text>
+<text id="12027011">Offer Pale Tongue x&lt;?evntAcquittalPrice?&gt; and be reborn?</text>
+<text id="12027012">%null%</text>
+<text id="12027013">%null%</text>
+<text id="12027014">%null%</text>
+<text id="12027015">%null%</text>
+<text id="12027016">%null%</text>
+<text id="12027017">%null%</text>
+<text id="12027018">%null%</text>
+<text id="12027019">%null%</text>
+<text id="12027020">The price of rebirth is paid in Pale Tongues. 
+Do you wish to be reborn?</text>
+<text id="12027021">The price of rebirth is paid in Pale Tongues.
+Do you wish to be reborn?</text>
+<text id="12027022">%null%</text>
+<text id="12027023">%null%</text>
+<text id="12027024">%null%</text>
+<text id="12027025">%null%</text>
+<text id="12027026">%null%</text>
+<text id="12027027">%null%</text>
+<text id="12027028">%null%</text>
+<text id="12027029">%null%</text>
+<text id="12027030">Restore &lt;?gdsparam@728?&gt; back to her body?</text>
+<text id="13000000">Covenant allegiance deepened</text>
+<text id="13000001">Covenant allegiance deepened</text>
+<text id="13000002">Covenant allegiance deepened</text>
+<text id="13000003">Covenant allegiance deepened</text>
+<text id="13000004">Covenant allegiance deepened</text>
+<text id="13000005">Covenant allegiance deepened</text>
+<text id="13000006">Covenant allegiance deepened</text>
+<text id="13000007">%null%</text>
+<text id="13000008">%null%</text>
+<text id="13000009">%null%</text>
+<text id="13000010">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000011">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000012">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000013">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000014">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000015">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000016">Covenant allegiance deepened. Rank gained.</text>
+<text id="13000017">%null%</text>
+<text id="13000018">%null%</text>
+<text id="13000019">%null%</text>
+<text id="13000020">Cannot offer more. Well done.</text>
+<text id="13000021">Cannot offer more. Well done.</text>
+<text id="13000022">Cannot offer more. Well done.</text>
+<text id="13000023">Cannot offer more. Well done.</text>
+<text id="13000024">Cannot offer more. Well done.</text>
+<text id="13000025">Cannot offer more. Well done.</text>
+<text id="13000026">Cannot offer more. Well done.</text>
+<text id="13000027">%null%</text>
+<text id="13000028">%null%</text>
+<text id="13000029">%null%</text>
+<text id="13000030">No &lt;?gdsparam@375?&gt; in inventory</text>
+<text id="13000031">No &lt;?gdsparam@374?&gt; in inventory</text>
+<text id="13000032">No &lt;?gdsparam@366?&gt; in inventory</text>
+<text id="13000033">No &lt;?gdsparam@367?&gt; in inventory</text>
+<text id="13000034">No &lt;?gdsparam@372?&gt; in inventory</text>
+<text id="13000035">No &lt;?gdsparam@372?&gt; in inventory</text>
+<text id="13000036">No &lt;?gdsparam@373?&gt; in inventory</text>
+<text id="13000037">%null%</text>
+<text id="13000038">%null%</text>
+<text id="13000039">%null%</text>
+<text id="13000040">Covenant established.</text>
+<text id="13000041">Covenant established.</text>
+<text id="13000042">Covenant established.</text>
+<text id="13000043">Covenant established.</text>
+<text id="13000044">Covenant established.</text>
+<text id="13000045">Covenant established.</text>
+<text id="13000046">You have obtained proof of the covenant</text>
+<text id="13000047">%null%</text>
+<text id="13000048">%null%</text>
+<text id="13000049">%null%</text>
+<text id="13000050">Insufficient souls</text>
+<text id="13000100">You have not sinned</text>
+<text id="13000101">You were cleansed of sin</text>
+<text id="13000102">%null%</text>
+<text id="13000103">%null%</text>
+<text id="13000104">%null%</text>
+<text id="13000105">%null%</text>
+<text id="13000106">%null%</text>
+<text id="13000107">%null%</text>
+<text id="13000108">%null%</text>
+<text id="13000109">%null%</text>
+<text id="13000110">You are not cursed</text>
+<text id="13000111">Your curse has been lifted</text>
+<text id="13000200">Cannot kindle any further</text>
+<text id="13000201">No &lt;?gdsparam@2143?&gt; in inventory</text>
+<text id="13000202">%null%</text>
+<text id="13002010">Reinforced Estus Flask, increasing number of uses
+</text>
+<text id="13002011">No &lt;?gdsparam@2141?&gt; in inventory</text>
+<text id="13002012">Cannot reinforce further</text>
+<text id="13002013">No &lt;?gdsparam@150?&gt; in inventory</text>
+<text id="13002014">No &lt;?gdsparam@190?&gt; in inventory</text>
+<text id="13002015">%null%</text>
+<text id="13002016">%null%</text>
+<text id="13002017">%null%</text>
+<text id="13002018">%null%</text>
+<text id="13002019">%null%</text>
+<text id="13002020">Dark sigil has been healed</text>
+<text id="13002021">You have no dark sigil</text>
+<text id="13002022">%null%</text>
+<text id="13002023">%null%</text>
+<text id="13002024">%null%</text>
+<text id="13002025">%null%</text>
+<text id="13002026">%null%</text>
+<text id="13002027">%null%</text>
+<text id="13002028">%null%</text>
+<text id="13002029">%null%</text>
+<text id="13002030">The Fire Keeper is now able to heal the dark sigil</text>
+<text id="13003000">The brothers' blades were made one</text>
+<text id="13006000">No &lt;?gdsparam@372?&gt; in inventory</text>
+<text id="13007000">&lt;?gdsparam@388?&gt; now belongs to the champion</text>
+<text id="13009000">I'll be waiting at the pastors' grave.
+Come and die with honor, you bloody swine.</text>
+<text id="13027000">No &lt;?gdsparam@373?&gt; in inventory</text>
+<text id="13027001">No &lt;?gdsparam@373?&gt; in inventory</text>
+<text id="13027002">%null%</text>
+<text id="13027003">%null%</text>
+<text id="13027004">%null%</text>
+<text id="13027005">You do not have &lt;?evntAcquittalPrice?&gt; Pale Tongues in your inventory.</text>
+<text id="13027006">You do not have &lt;?evntAcquittalPrice?&gt; Pale Tongues in your inventory.</text>
+<text id="13027007">%null%</text>
+<text id="13027008">%null%</text>
+<text id="13027009">%null%</text>
+<text id="13027010">Restored &lt;?gdsparam@728?&gt; back to her body</text>
+<text id="13027011">%null%</text>
+<text id="13027012">%null%</text>
+<text id="13027013">%null%</text>
+<text id="13027014">%null%</text>
+<text id="13027015">%null%</text>
+<text id="13027016">%null%</text>
+<text id="13027017">%null%</text>
+<text id="13027018">%null%</text>
+<text id="13027019">%null%</text>
+<text id="13027020">Further rebirth is not possible during this lifetime.
+Persisting will transform you into a grub.</text>
+<text id="13027021">Further rebirth is not possible during this lifetime.
+Persisting will transform you into a grub.</text>
+<text id="14002000">Wish for a world without flame</text>
+<text id="14002001">Decline</text>
+<text id="14005000">Accept his service</text>
+<text id="14005001">Decline</text>
+<text id="14006000">Perform Darkmoon Loyalty</text>
+<text id="14006001">Do nothing</text>
+<text id="14006002">Do nothing</text>
+<text id="14006003">%null%</text>
+<text id="14006004">%null%</text>
+<text id="14006005">%null%</text>
+<text id="14006006">%null%</text>
+<text id="14006007">%null%</text>
+<text id="14006008">%null%</text>
+<text id="14006009">%null%</text>
+<text id="14006010">Yes, I can fly</text>
+<text id="14006011">No, I can't fly</text>
+<text id="14008000">Accept her knightly vow</text>
+<text id="14008001">Refuse</text>
+<text id="14011000">Tell her where you found the ash</text>
+<text id="14011001">Say nothing</text>
+<text id="14012000">Grant request</text>
+<text id="14012001">Refuse</text>
+<text id="14012002">Send him to pillage</text>
+<text id="14012003">Refuse</text>
+<text id="14012004">Send him to pillage</text>
+<text id="14012005">Refuse</text>
+<text id="14012006">Send him to pillage</text>
+<text id="14012007">Refuse</text>
+<text id="14013000">Ask to learn sorceries</text>
+<text id="14013001">Nothing</text>
+<text id="14013002">Make a promise</text>
+<text id="14013003">Make no promise</text>
+<text id="14014000">Ask to learn pyromancy</text>
+<text id="14014001">Decline</text>
+<text id="14015000">Offer help</text>
+<text id="14015001">Do not help her</text>
+<text id="14015002">Ask to learn dark magic</text>
+<text id="14015003">Decline</text>
+<text id="14015004">Save her nonetheless</text>
+<text id="14015005">Do not save her</text>
+<text id="14016000">Touch</text>
+<text id="14016001">Ignore</text>
+<text id="14016002">Accept her service</text>
+<text id="14016003">Decline</text>
+<text id="14019000">No</text>
+<text id="14019001">No</text>
+<text id="14019002">Tell of the Smouldering Lake</text>
+<text id="14019003">Say nothing</text>
+<text id="14020000">You know who I am.</text>
+<text id="14020001">No</text>
+<text id="14020002">%null%</text>
+<text id="14020003">%null%</text>
+<text id="14020004">%null%</text>
+<text id="14020005">%null%</text>
+<text id="14020006">%null%</text>
+<text id="14020007">%null%</text>
+<text id="14020008">%null%</text>
+<text id="14020009">%null%</text>
+<text id="14020010">Forgive him</text>
+<text id="14020011">Do not forgive him</text>
+<text id="14020012">%null%</text>
+<text id="14020013">%null%</text>
+<text id="14020014">%null%</text>
+<text id="14020015">%null%</text>
+<text id="14020016">%null%</text>
+<text id="14020017">%null%</text>
+<text id="14020018">%null%</text>
+<text id="14020019">%null%</text>
+<text id="14020020">Tell him</text>
+<text id="14020021">Don't tell him</text>
+<text id="14021000">Throw armor</text>
+<text id="14021001">Haven't seen it</text>
+<text id="14021002">Haven't seen it</text>
+<text id="14025000">Make peace</text>
+<text id="14025001">Leave</text>
+<text id="14031000">Indeed</text>
+<text id="14031001">No</text>
+<text id="15000000">Talk</text>
+<text id="15000001">%null%</text>
+<text id="15000002">%null%</text>
+<text id="15000003">%null%</text>
+<text id="15000004">%null%</text>
+<text id="15000005">Leave</text>
+<text id="15000006">%null%</text>
+<text id="15000007">%null%</text>
+<text id="15000008">%null%</text>
+<text id="15000009">%null%</text>
+<text id="15000010">Purchase Item</text>
+<text id="15000011">Peruse Collection</text>
+<text id="15000012">Sell Item</text>
+<text id="15000100">Level Up</text>
+<text id="15000130">Attune Spell</text>
+<text id="15000150">Travel</text>
+<text id="15000151">%null%</text>
+<text id="15000152">%null%</text>
+<text id="15000153">%null%</text>
+<text id="15000154">%null%</text>
+<text id="15000155">%null%</text>
+<text id="15000156">%null%</text>
+<text id="15000157">%null%</text>
+<text id="15000158">%null%</text>
+<text id="15000159">%null%</text>
+<text id="15000160">Burn &lt;?gdsparam@2143?&gt;</text>
+<text id="15000180">Quit</text>
+<text id="15000190">Return</text>
+<text id="15000220">Organize Storage Box</text>
+<text id="15000330">Proceed to the First Flame</text>
+<text id="15000331">Begin journey &lt;?nextLoopCount?&gt;</text>
+<text id="15000400">Establish Covenant</text>
+<text id="15000401">Establish Covenant</text>
+<text id="15000402">Establish Covenant</text>
+<text id="15000403">Establish Covenant</text>
+<text id="15000404">Establish Covenant</text>
+<text id="15000405">Establish Covenant</text>
+<text id="15000406">Ask to Join Covenant</text>
+<text id="15000407">%null%</text>
+<text id="15000408">%null%</text>
+<text id="15000409">%null%</text>
+<text id="15000410">Offer &lt;?gdsparam@375?&gt;</text>
+<text id="15000411">Offer &lt;?gdsparam@374?&gt;</text>
+<text id="15000412">Offer &lt;?gdsparam@366?&gt;</text>
+<text id="15000413">Offer &lt;?gdsparam@367?&gt;</text>
+<text id="15000414">Offer &lt;?gdsparam@372?&gt;</text>
+<text id="15000415">Offer &lt;?gdsparam@372?&gt;</text>
+<text id="15000416">Offer &lt;?gdsparam@373?&gt;</text>
+<text id="15000500">Request Absolution</text>
+<text id="15000501">%null%</text>
+<text id="15000502">%null%</text>
+<text id="15000503">%null%</text>
+<text id="15000504">%null%</text>
+<text id="15000505">%null%</text>
+<text id="15000506">%null%</text>
+<text id="15000507">%null%</text>
+<text id="15000508">%null%</text>
+<text id="15000509">%null%</text>
+<text id="15000510">Request Dissolution</text>
+<text id="15002000">Level Up</text>
+<text id="15002001">Give &lt;?gdsparam@2138?&gt;</text>
+<text id="15002002">Allot Estus</text>
+<text id="15002003">Reinforce Estus Flask</text>
+<text id="15002004">Heal the Dark Sigil</text>
+<text id="15002005">Give &lt;?gdsparam@390?&gt;</text>
+<text id="15002006">Return the Lordvessel</text>
+<text id="15003000">Transpose</text>
+<text id="15003001">Give &lt;?gdsparam@2135?&gt;</text>
+<text id="15003002">Transpose brothers' blades</text>
+<text id="15003003">Offerings</text>
+<text id="15003004">Offerings</text>
+<text id="15003005">Offerings</text>
+<text id="15003006">Offerings</text>
+<text id="15003007">Offerings</text>
+<text id="15003008">Offerings</text>
+<text id="15003009">Offerings</text>
+<text id="15003010">Offerings</text>
+<text id="15003011">Offerings</text>
+<text id="15003012">Forge Weapons</text>
+<text id="15003013">Forge Spells</text>
+<text id="15003014">Forge Rings</text>
+<text id="15003015">Forge Armour</text>
+<text id="15003016">Give Primordial Coal</text>
+<text id="15003017">Memories</text>
+<text id="15003018">Purchase Item</text>
+<text id="15003019">Form Covenant</text>
+<text id="15003020">Pledge Loyalty</text>
+<text id="15003021">Weapon Infusions</text>
+<text id="15003022">Shield Infusions</text>
+<text id="15003023">Learn the Dark Arts</text>
+<text id="15003024">Purchase Sidearms</text>
+<text id="15003025">Revoke Loyalty</text>
+<text id="15003026">Members of the Darkmoon will respond badly to this action.</text>
+<text id="15003027">Members of the Darkmoon will appreciate this action.</text>
+<text id="15003028">Enter the Darkness</text>
+<text id="15003029">Catalyst Infusions</text>
+<text id="15003030">Form Champion's Pact</text>
+<text id="15003031">The Champion's Pact has been enabled.</text>
+<text id="15003032">Break Champion's Pact</text>
+<text id="15003033">The Champion's Pact has been disabled.</text>
+<text id="15003040">Trial of Perseverance</text>
+<text id="15003041">Trial of Glory</text>
+<text id="15003050">You must defeat the Abyss Watchers to enter this trial.</text>
+<text id="15003051">You must defeat Aldrich to enter this trial.</text>
+<text id="15003052">You must defeat Yhorm the Giant to enter this trial.</text>
+<text id="15003053">You must defeat the Twin Princes to enter this trial.</text>
+<text id="15003060">Insignias and Emblems</text>
+<text id="15003061">Elixirs</text>
+<text id="15003062">Writs</text>
+<text id="15003063">Oils</text>
+<text id="15003064">Odds and Ends</text>
+<text id="15004000">Learn Sorceries</text>
+<text id="15004001">%null%</text>
+<text id="15004002">%null%</text>
+<text id="15004003">%null%</text>
+<text id="15004004">%null%</text>
+<text id="15004005">%null%</text>
+<text id="15004006">%null%</text>
+<text id="15004007">%null%</text>
+<text id="15004008">%null%</text>
+<text id="15004009">%null%</text>
+<text id="15004010">Reinforce Staff</text>
+<text id="15004011">%null%</text>
+<text id="15004012">%null%</text>
+<text id="15004013">%null%</text>
+<text id="15004014">%null%</text>
+<text id="15004015">%null%</text>
+<text id="15004016">%null%</text>
+<text id="15004017">%null%</text>
+<text id="15004018">%null%</text>
+<text id="15004019">%null%</text>
+<text id="15004020">Tell of Orbeck's death</text>
+<text id="15004021">%null%</text>
+<text id="15004022">%null%</text>
+<text id="15004023">%null%</text>
+<text id="15004024">%null%</text>
+<text id="15004025">%null%</text>
+<text id="15004026">%null%</text>
+<text id="15004027">%null%</text>
+<text id="15004028">%null%</text>
+<text id="15004029">%null%</text>
+<text id="15004030">Speak of Anri's death</text>
+<text id="15005000">Learn Sorceries</text>
+<text id="15005001">%null%</text>
+<text id="15005002">%null%</text>
+<text id="15005003">%null%</text>
+<text id="15005004">%null%</text>
+<text id="15005005">%null%</text>
+<text id="15005006">%null%</text>
+<text id="15005007">%null%</text>
+<text id="15005008">%null%</text>
+<text id="15005009">%null%</text>
+<text id="15005010">Reinforce Staff</text>
+<text id="15005011">%null%</text>
+<text id="15005012">%null%</text>
+<text id="15005013">%null%</text>
+<text id="15005014">%null%</text>
+<text id="15005015">%null%</text>
+<text id="15005016">%null%</text>
+<text id="15005017">%null%</text>
+<text id="15005018">%null%</text>
+<text id="15005019">%null%</text>
+<text id="15005020">Draw Out True Strength</text>
+<text id="15006020">Give &lt;?gdsparam@2138?&gt;</text>
+<text id="15006021">%null%</text>
+<text id="15006022">%null%</text>
+<text id="15006023">%null%</text>
+<text id="15006024">%null%</text>
+<text id="15006025">%null%</text>
+<text id="15006026">%null%</text>
+<text id="15006027">%null%</text>
+<text id="15006028">%null%</text>
+<text id="15006029">%null%</text>
+<text id="15006030">Give &lt;?gdsparam@372?&gt;</text>
+<text id="15010000">Give Coal</text>
+<text id="15010001">Infuse Weapon</text>
+<text id="15010002">Reinforce Weapon</text>
+<text id="15010003">Repair Equipment</text>
+<text id="15010004">Purchase Item</text>
+<text id="15010005">Forge Item</text>
+<text id="15010006">Sacrifice Item</text>
+<text id="15010007">%null%</text>
+<text id="15010008">%null%</text>
+<text id="15010009">%null%</text>
+<text id="15010010">Give &lt;?gdsparam@2103?&gt;</text>
+<text id="15010011">Give &lt;?gdsparam@2104?&gt;</text>
+<text id="15010012">Give &lt;?gdsparam@2105?&gt;</text>
+<text id="15010013">Give &lt;?gdsparam@2106?&gt;</text>
+<text id="15011000">Give umbral ash</text>
+<text id="15011001">Give &lt;?gdsparam@2107?&gt;</text>
+<text id="15011002">Give &lt;?gdsparam@2108?&gt;</text>
+<text id="15011003">Give &lt;?gdsparam@2109?&gt;</text>
+<text id="15011004">Give &lt;?gdsparam@2110?&gt;</text>
+<text id="15011005">Give &lt;?gdsparam@2111?&gt;</text>
+<text id="15011006">Give &lt;?gdsparam@2112?&gt;</text>
+<text id="15011007">Give &lt;?gdsparam@2113?&gt;</text>
+<text id="15011008">Give &lt;?gdsparam@2114?&gt;</text>
+<text id="15011009">Give &lt;?gdsparam@2115?&gt; </text>
+<text id="15011010">Give &lt;?gdsparam@2116?&gt;</text>
+<text id="15011011">Give &lt;?gdsparam@2146?&gt;</text>
+<text id="15011012">Give &lt;?gdsparam@2147?&gt;</text>
+<text id="15011013">Give &lt;?gdsparam@2148?&gt;</text>
+<text id="15011014">Give &lt;?gdsparam@2149?&gt;</text>
+<text id="15011015">Give &lt;?gdsparam@2150?&gt;</text>
+<text id="15011016">Give &lt;?gdsparam@2151?&gt;</text>
+<text id="15011017">Give &lt;?gdsparam@2152?&gt; </text>
+<text id="15011018">%null%</text>
+<text id="15011019">%null%</text>
+<text id="15011020">Purchase Item</text>
+<text id="15012000">Give &lt;?gdsparam@2118?&gt; </text>
+<text id="15012001">Purchase Item</text>
+<text id="15013000">Learn Sorceries</text>
+<text id="15013001">%null%</text>
+<text id="15013002">%null%</text>
+<text id="15013003">%null%</text>
+<text id="15013004">%null%</text>
+<text id="15013005">%null%</text>
+<text id="15013006">%null%</text>
+<text id="15013007">%null%</text>
+<text id="15013008">%null%</text>
+<text id="15013009">%null%</text>
+<text id="15013010">Reinforce Staff</text>
+<text id="15013011">%null%</text>
+<text id="15013012">%null%</text>
+<text id="15013013">%null%</text>
+<text id="15013014">%null%</text>
+<text id="15013015">%null%</text>
+<text id="15013016">%null%</text>
+<text id="15013017">%null%</text>
+<text id="15013018">%null%</text>
+<text id="15013019">%null%</text>
+<text id="15013020">Give Sorcery Scroll</text>
+<text id="15013021">Give &lt;?gdsparam@2132?&gt;</text>
+<text id="15013022">Give &lt;?gdsparam@2133?&gt; </text>
+<text id="15013023">Give &lt;?gdsparam@2134?&gt; </text>
+<text id="15013024">Give &lt;?gdsparam@2140?&gt; </text>
+<text id="15014000">Learn Pyromancies</text>
+<text id="15014001">Reinforce Pyromancy Flame</text>
+<text id="15014002">Give Pyromancy Tome</text>
+<text id="15014003">%null%</text>
+<text id="15014004">%null%</text>
+<text id="15014005">%null%</text>
+<text id="15014006">%null%</text>
+<text id="15014007">%null%</text>
+<text id="15014008">%null%</text>
+<text id="15014009">%null%</text>
+<text id="15014010">Give &lt;?gdsparam@2127?&gt;</text>
+<text id="15014011">Give &lt;?gdsparam@2128?&gt;</text>
+<text id="15014012">Give &lt;?gdsparam@2129?&gt; </text>
+<text id="15014013">Give &lt;?gdsparam@2130?&gt;</text>
+<text id="15014014">Give &lt;?gdsparam@2131?&gt;</text>
+<text id="15014015">Give &lt;?gdsparam@2173?&gt;</text>
+<text id="15015000">Learn Dark Arts</text>
+<text id="15015001">%null%</text>
+<text id="15015002">%null%</text>
+<text id="15015003">%null%</text>
+<text id="15015004">%null%</text>
+<text id="15015005">%null%</text>
+<text id="15015006">%null%</text>
+<text id="15015007">%null%</text>
+<text id="15015008">%null%</text>
+<text id="15015009">%null%</text>
+<text id="15015010">Reinforce Catalyst</text>
+<text id="15015011">%null%</text>
+<text id="15015012">%null%</text>
+<text id="15015013">%null%</text>
+<text id="15015014">%null%</text>
+<text id="15015015">%null%</text>
+<text id="15015016">%null%</text>
+<text id="15015017">%null%</text>
+<text id="15015018">%null%</text>
+<text id="15015019">%null%</text>
+<text id="15015020">Give Pyromancy Tome</text>
+<text id="15015021">Give &lt;?gdsparam@2130?&gt; </text>
+<text id="15015022">Give &lt;?gdsparam@2131?&gt;</text>
+<text id="15015023">Give &lt;?gdsparam@2144?&gt;</text>
+<text id="15015024">Give &lt;?gdsparam@2145?&gt;</text>
+<text id="15015025">Give &lt;?gdsparam@2174?&gt;</text>
+<text id="15015026">Give &lt;?gdsparam@2175?&gt;</text>
+<text id="15015027">Give &lt;?gdsparam@2176?&gt;</text>
+<text id="15015028">%null%</text>
+<text id="15015029">%null%</text>
+<text id="15015030">Give Divine Tome</text>
+<text id="15015040">Propose Marriage</text>
+<text id="15015041">Flirt</text>
+<text id="15015042">Divorce</text>
+<text id="15015050">Give Dark Tome</text>
+<text id="15015060">Give Accursed Signet</text>
+<text id="15016000">Learn Miracles</text>
+<text id="15016001">Form Friendship</text>
+<text id="15016002">End Friendship</text>
+<text id="15016003">Joke</text>
+<text id="15016004">%null%</text>
+<text id="15016005">%null%</text>
+<text id="15016006">%null%</text>
+<text id="15016007">%null%</text>
+<text id="15016008">%null%</text>
+<text id="15016009">%null%</text>
+<text id="15016010">Reinforce Talisman</text>
+<text id="15016011">%null%</text>
+<text id="15016012">%null%</text>
+<text id="15016013">%null%</text>
+<text id="15016014">%null%</text>
+<text id="15016015">%null%</text>
+<text id="15016016">%null%</text>
+<text id="15016017">%null%</text>
+<text id="15016018">%null%</text>
+<text id="15016019">%null%</text>
+<text id="15016020">Give Divine Tome</text>
+<text id="15016021">Give &lt;?gdsparam@2119?&gt;</text>
+<text id="15016022">Give &lt;?gdsparam@2120?&gt; </text>
+<text id="15016023">Give &lt;?gdsparam@2121?&gt;</text>
+<text id="15016024">Give &lt;?gdsparam@2144?&gt;</text>
+<text id="15016025">Give &lt;?gdsparam@2145?&gt;</text>
+<text id="15016026">Give &lt;?gdsparam@2177?&gt;</text>
+<text id="15016027">Give &lt;?gdsparam@2178?&gt;</text>
+<text id="15016028">Give &lt;?gdsparam@2121?&gt;</text>
+<text id="15016029">Give Abyssal Fragments</text>
+<text id="15016030">Irina begins to squirm...</text>
+<text id="15016031">Give Holy Fragments</text>
+<text id="15016032">Irina begins to glow...</text>
+<text id="15016033">You lack a sufficient amount of fragments.</text>
+<text id="15020000">Purchase Item</text>
+<text id="15027000">%null%</text>
+<text id="15027001">%null%</text>
+<text id="15027002">%null%</text>
+<text id="15027003">%null%</text>
+<text id="15027004">%null%</text>
+<text id="15027005">%null%</text>
+<text id="15027006">%null%</text>
+<text id="15027007">%null%</text>
+<text id="15027008">%null%</text>
+<text id="15027009">%null%</text>
+<text id="15027010">Reallocate attributes</text>
+<text id="15027011">Alter appearance</text>
+<text id="15027012">Restore &lt;?gdsparam@728?&gt;</text>
+<text id="15028000">Advance Journey</text>
+<text id="15028001">Are you sure?</text>
+<text id="15028002">Are you really sure?</text>
+<text id="15028010">You will enter the next NG+ cycle if you continue.
+This will reset all progress and increase the difficulty of the world.</text>
+<text id="20000000">Your summon sign disappeared</text>
+<text id="20000001">Your summon sign disappeared</text>
+<text id="20000002">Invasion canceled</text>
+<text id="20000105">Summoning failed</text>
+<text id="20000415">Avatar returned to world of origin</text>
+<text id="20000416">Avatar returned to world of origin</text>
+<text id="20000417">%null%</text>
+<text id="20000418">%null%</text>
+<text id="20000419">%null%</text>
+<text id="20000420">Sent home by summoner. Returning to your world.</text>
+<text id="20000421">Sent home by summoner. Returning to your world.</text>
+<text id="20000422">%null%</text>
+<text id="20000423">%null%</text>
+<text id="20000424">%null%</text>
+<text id="20000425">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="20000426">%null%</text>
+<text id="20000427">%null%</text>
+<text id="20000428">%null%</text>
+<text id="20000429">%null%</text>
+<text id="20000430">Returning to your world...</text>
+<text id="20000431">Return to your world?</text>
+<text id="20000432">Return to your world?</text>
+<text id="20000433">%null%</text>
+<text id="20000434">%null%</text>
+<text id="20000435">Phantom &lt;?leaveName?&gt; has returned home</text>
+<text id="20000436">%null%</text>
+<text id="20000437">%null%</text>
+<text id="20000438">%null%</text>
+<text id="20000439">%null%</text>
+<text id="20000440">Try invading another world?</text>
+<text id="20000441">Spread misery to lure phantoms?</text>
+<text id="20000442">Try invading world of the guilty?</text>
+<text id="20000443">Try searching for the owner of a Dragon Scale?</text>
+<text id="20000444">%null%</text>
+<text id="20000445">You have acquired humanity and are no longer Hollow</text>
+<text id="20000446">Humanity acquired</text>
+<text id="20000447">%null%</text>
+<text id="20000448">%null%</text>
+<text id="20000449">%null%</text>
+<text id="20000450">You were sent home</text>
+<text id="20000500">Try invading world of the Fire Keeper's killer?</text>
+<text id="20000501">Try invading world of the traitor Shiva?</text>
+<text id="20001000">&lt;?sysmsg@20001000?&gt;</text>
+<text id="20001001">&lt;?sysmsg@20001001?&gt;</text>
+<text id="20001002">&lt;?sysmsg@20001002?&gt;</text>
+<text id="20001003">&lt;?sysmsg@20001003?&gt;</text>
+<text id="20001004">&lt;?sysmsg@20001004?&gt;</text>
+<text id="20001005">&lt;?sysmsg@20001005?&gt;</text>
+<text id="20001006">%null%</text>
+<text id="20001007">%null%</text>
+<text id="20001008">%null%</text>
+<text id="20001009">%null%</text>
+<text id="20001010">&lt;?sysmsg@20001010?&gt;</text>
+<text id="20001011">&lt;?sysmsg@20001011?&gt;</text>
+<text id="20001012">%null%</text>
+<text id="20001013">%null%</text>
+<text id="20001014">%null%</text>
+<text id="20001015">&lt;?sysmsg@20001015?&gt;</text>
+<text id="20001016">%null%</text>
+<text id="20001017">%null%</text>
+<text id="20001018">%null%</text>
+<text id="20001019">%null%</text>
+<text id="20001020">Dark spirit &lt;?leaveName?&gt; has returned home</text>
+<text id="20001021">%null%</text>
+<text id="20001022">%null%</text>
+<text id="20001023">%null%</text>
+<text id="20001024">%null%</text>
+<text id="20001025">Disconnected from master of world.
+Returning to your world.</text>
+<text id="50000000">Touch Summon Sign</text>
+<text id="50000001">(invoking sign)</text>
+<text id="50000002">Touch the sign of the Gravelord Servant</text>
+<text id="50000003">(invoking sign)</text>
+<text id="50000100">Touch Bloodstain</text>
+<text id="50000101">(Invoking Bloodstain)</text>
+<text id="50000200">Recover lost souls</text>
+<text id="50000201">%null%</text>
+<text id="50000202">%null%</text>
+<text id="50000203">%null%</text>
+<text id="50000204">%null%</text>
+<text id="50000205">Retrieve remaining power of dark spirit</text>
+<text id="50000206">%null%</text>
+<text id="50000207">%null%</text>
+<text id="50000208">%null%</text>
+<text id="50000209">%null%</text>
+<text id="50000210">Read message</text>
+<text id="50000300">Touch Summon Sign</text>
+<text id="50000301">(invoking sign)</text>
+<text id="50000320">Touch dragon remnants</text>
+<text id="50000321">(checking)</text>
+<text id="50000400">Check your Summon Sign</text>
+<text id="50000401">Check your Summon Sign</text>
+<text id="50000402">Check scale-searching Dragon Eye</text>
+<text id="50000500">Check your message</text>
+<text id="50000600">Gravelord Servant</text>
+<text id="51000000">%null%</text>
+<text id="51000001">%null%</text>
+<text id="51000002">%null%</text>
+<text id="51000003">%null%</text>
+<text id="51000004">%null%</text>
+<text id="51000005">%null%</text>
+<text id="51000006">%null%</text>
+<text id="51000007">%null%</text>
+<text id="51000008">%null%</text>
+<text id="51000009">%null%</text>
+<text id="51000010">%null%</text>
+<text id="51000011">%null%</text>
+<text id="51000012">%null%</text>
+<text id="51000013">%null%</text>
+<text id="51000014">%null%</text>
+<text id="51000015">%null%</text>
+<text id="51000016">%null%</text>
+<text id="51000017">%null%</text>
+<text id="51000018">%null%</text>
+<text id="51000019">%null%</text>
+<text id="51000020">%null%</text>
+<text id="51000021">%null%</text>
+<text id="51000022">%null%</text>
+<text id="51000023">%null%</text>
+<text id="51000024">%null%</text>
+<text id="51000025">%null%</text>
+<text id="51000026">%null%</text>
+<text id="51000027">%null%</text>
+<text id="51000028">%null%</text>
+<text id="51000029">%null%</text>
+<text id="51000030">%null%</text>
+<text id="51000031">%null%</text>
+<text id="51000032">%null%</text>
+<text id="51000033">%null%</text>
+<text id="51000034">%null%</text>
+<text id="51000035">%null%</text>
+<text id="51000036">%null%</text>
+<text id="51000037">%null%</text>
+<text id="51000038">%null%</text>
+<text id="51000039">%null%</text>
+<text id="51000040">%null%</text>
+<text id="51000041">%null%</text>
+<text id="51000042">%null%</text>
+<text id="51000043">%null%</text>
+<text id="51000044">%null%</text>
+<text id="51000045">%null%</text>
+<text id="51000046">%null%</text>
+<text id="51000047">%null%</text>
+<text id="51000048">%null%</text>
+<text id="51000049">%null%</text>
+<text id="51000050">%null%</text>
+<text id="51000051">%null%</text>
+<text id="51000052">%null%</text>
+<text id="51000053">%null%</text>
+<text id="51000054">%null%</text>
+<text id="51000055">%null%</text>
+<text id="51000056">%null%</text>
+<text id="51000057">%null%</text>
+<text id="51000058">%null%</text>
+<text id="51000059">%null%</text>
+<text id="51000060">%null%</text>
+<text id="51000061">%null%</text>
+<text id="51000062">%null%</text>
+<text id="51000063">%null%</text>
+<text id="51000064">%null%</text>
+<text id="51000065">%null%</text>
+<text id="51000066">%null%</text>
+<text id="51000067">%null%</text>
+<text id="51000068">%null%</text>
+<text id="51000069">%null%</text>
+<text id="51000070">%null%</text>
+<text id="51010010">%null%</text>
+<text id="51010030">%null%</text>
+<text id="51010031">%null%</text>
+<text id="51010032">%null%</text>
+<text id="51010033">%null%</text>
+<text id="51010034">%null%</text>
+<text id="51010035">%null%</text>
+<text id="51010036">%null%</text>
+<text id="51010037">%null%</text>
+<text id="51010038">%null%</text>
+<text id="51010039">%null%</text>
+<text id="51010040">%null%</text>
+<text id="51010041">%null%</text>
+<text id="51010042">%null%</text>
+<text id="51010043">%null%</text>
+<text id="51010044">%null%</text>
+<text id="51010045">%null%</text>
+<text id="51010046">%null%</text>
+<text id="51010047">%null%</text>
+<text id="51010048">%null%</text>
+<text id="51010049">%null%</text>
+<text id="51010050">%null%</text>
+<text id="51010070">%null%</text>
+<text id="61000000">Offer flame</text>
+<text id="61000001">%null%</text>
+<text id="61000002">%null%</text>
+<text id="61000003">%null%</text>
+<text id="61000004">%null%</text>
+<text id="61000005">%null%</text>
+<text id="61000006">%null%</text>
+<text id="61000007">%null%</text>
+<text id="61000008">%null%</text>
+<text id="61000009">%null%</text>
+<text id="61000010">Read epitaph</text>
+<text id="61000011">%null%</text>
+<text id="61000012">%null%</text>
+<text id="61000013">%null%</text>
+<text id="61000014">%null%</text>
+<text id="61000015">%null%</text>
+<text id="61000016">%null%</text>
+<text id="61000017">%null%</text>
+<text id="61000018">%null%</text>
+<text id="61000019">%null%</text>
+<text id="61000020">Grave of a nameless retainer.
+Raised his sword for the Lord of Cinder.</text>
+<text id="61000021">%null%</text>
+<text id="61000022">%null%</text>
+<text id="61000023">%null%</text>
+<text id="61000024">%null%</text>
+<text id="61000025">Died in solitude.
+May his soul find its way back to the Frigid Valley.</text>
+<text id="61000026">%null%</text>
+<text id="61000027">%null%</text>
+<text id="61000028">%null%</text>
+<text id="61000029">%null%</text>
+<text id="61000030">To honour and shadowy retreats.
+Fear the sun's temptations, and the winged executioner.</text>
+<text id="61000031">%null%</text>
+<text id="61000032">%null%</text>
+<text id="61000033">%null%</text>
+<text id="61000034">%null%</text>
+<text id="61000035">This exile was chased from his homeland,
+and haunted by a black sun.</text>
+<text id="61300000">Grave of a nameless retainer.
+Raised his sword for the Lord of Cinder.</text>
+<text id="61300001">%null%</text>
+<text id="61300002">%null%</text>
+<text id="61300003">%null%</text>
+<text id="61300004">%null%</text>
+<text id="61300005">%null%</text>
+<text id="61300006">%null%</text>
+<text id="61300007">%null%</text>
+<text id="61300008">%null%</text>
+<text id="61300009">%null%</text>
+<text id="61300010">Died in solitude.
+May his soul find its way back to the Frigid Valley.</text>
+<text id="61300011">%null%</text>
+<text id="61300012">%null%</text>
+<text id="61300013">%null%</text>
+<text id="61300014">%null%</text>
+<text id="61300015">%null%</text>
+<text id="61300016">%null%</text>
+<text id="61300017">%null%</text>
+<text id="61300018">%null%</text>
+<text id="61300019">%null%</text>
+<text id="61300020">To honour and shadowy retreats.
+Fear the sun's temptations, and the winged executioner.</text>
+<text id="61300021">%null%</text>
+<text id="61300022">%null%</text>
+<text id="61300023">%null%</text>
+<text id="61300024">%null%</text>
+<text id="61300025">%null%</text>
+<text id="61300026">%null%</text>
+<text id="61300027">%null%</text>
+<text id="61300028">%null%</text>
+<text id="61300029">%null%</text>
+<text id="61300030">This exile was chased from his homeland,
+and haunted by a black sun.</text>
+<text id="61310000">%null%</text>
+<text id="61310001">%null%</text>
+<text id="61310002">%null%</text>
+<text id="61310003">%null%</text>
+<text id="61310004">%null%</text>
+<text id="61310005">%null%</text>
+<text id="61310006">%null%</text>
+<text id="61310007">%null%</text>
+<text id="61310008">%null%</text>
+<text id="61310009">%null%</text>
+<text id="61310010">%null%</text>
+<text id="61330000">%null%</text>
+<text id="61330001">%null%</text>
+<text id="61330002">%null%</text>
+<text id="61330003">%null%</text>
+<text id="61330004">%null%</text>
+<text id="61330005">%null%</text>
+<text id="61330006">%null%</text>
+<text id="61330007">%null%</text>
+<text id="61330008">%null%</text>
+<text id="61330009">%null%</text>
+<text id="61330010">%null%</text>
+<text id="61330011">%null%</text>
+<text id="61330012">%null%</text>
+<text id="61330013">%null%</text>
+<text id="61330014">%null%</text>
+<text id="61330015">%null%</text>
+<text id="61330016">%null%</text>
+<text id="61330017">%null%</text>
+<text id="61330018">%null%</text>
+<text id="61330019">%null%</text>
+<text id="61330020">%null%</text>
+<text id="61330021">%null%</text>
+<text id="61330022">%null%</text>
+<text id="61330023">%null%</text>
+<text id="61330024">%null%</text>
+<text id="61330025">%null%</text>
+<text id="61330026">%null%</text>
+<text id="61330027">%null%</text>
+<text id="61330028">%null%</text>
+<text id="61330029">%null%</text>
+<text id="61330030">%null%</text>
+<text id="61330031">%null%</text>
+<text id="61330032">%null%</text>
+<text id="61330033">%null%</text>
+<text id="61330034">%null%</text>
+<text id="61330035">%null%</text>
+<text id="61330036">%null%</text>
+<text id="61330037">%null%</text>
+<text id="61330038">%null%</text>
+<text id="61330039">%null%</text>
+<text id="61330040">%null%</text>
+<text id="61330041">%null%</text>
+<text id="61330042">%null%</text>
+<text id="61330043">%null%</text>
+<text id="61330044">%null%</text>
+<text id="61330045">%null%</text>
+<text id="61330046">%null%</text>
+<text id="61330047">%null%</text>
+<text id="61330048">%null%</text>
+<text id="61330049">%null%</text>
+<text id="61330050">%null%</text>
+<text id="61330051">%null%</text>
+<text id="61330052">%null%</text>
+<text id="61330053">%null%</text>
+<text id="61330054">%null%</text>
+<text id="61330055">%null%</text>
+<text id="61330056">%null%</text>
+<text id="61330057">%null%</text>
+<text id="61330058">%null%</text>
+<text id="61330059">%null%</text>
+<text id="61330060">%null%</text>
+<text id="61340000">%null%</text>
+<text id="61340001">%null%</text>
+<text id="61340002">%null%</text>
+<text id="61340003">%null%</text>
+<text id="61340004">%null%</text>
+<text id="61340005">%null%</text>
+<text id="61340006">%null%</text>
+<text id="61340007">%null%</text>
+<text id="61340008">%null%</text>
+<text id="61340009">%null%</text>
+<text id="61340010">%null%</text>
+<text id="61340011">%null%</text>
+<text id="61340012">%null%</text>
+<text id="61340013">%null%</text>
+<text id="61340014">%null%</text>
+<text id="61340015">%null%</text>
+<text id="61340016">%null%</text>
+<text id="61340017">%null%</text>
+<text id="61340018">%null%</text>
+<text id="61340019">%null%</text>
+<text id="61340020">%null%</text>
+<text id="61340021">%null%</text>
+<text id="61340022">%null%</text>
+<text id="61340023">%null%</text>
+<text id="61340024">%null%</text>
+<text id="61340025">%null%</text>
+<text id="61340026">%null%</text>
+<text id="61340027">%null%</text>
+<text id="61340028">%null%</text>
+<text id="61340029">%null%</text>
+<text id="61340030">%null%</text>
+<text id="61350000">%null%</text>
+<text id="61350001">%null%</text>
+<text id="61350002">%null%</text>
+<text id="61350003">%null%</text>
+<text id="61350004">%null%</text>
+<text id="61350005">%null%</text>
+<text id="61350006">%null%</text>
+<text id="61350007">%null%</text>
+<text id="61350008">%null%</text>
+<text id="61350009">%null%</text>
+<text id="61350010">%null%</text>
+<text id="61350011">%null%</text>
+<text id="61350012">%null%</text>
+<text id="61350013">%null%</text>
+<text id="61350014">%null%</text>
+<text id="61350015">%null%</text>
+<text id="61350016">%null%</text>
+<text id="61350017">%null%</text>
+<text id="61350018">%null%</text>
+<text id="61350019">%null%</text>
+<text id="61350020">%null%</text>
+<text id="61370000">%null%</text>
+<text id="61370001">%null%</text>
+<text id="61370002">%null%</text>
+<text id="61370003">%null%</text>
+<text id="61370004">%null%</text>
+<text id="61370005">%null%</text>
+<text id="61370006">%null%</text>
+<text id="61370007">%null%</text>
+<text id="61370008">%null%</text>
+<text id="61370009">%null%</text>
+<text id="61370010">%null%</text>
+<text id="61370011">%null%</text>
+<text id="61370012">%null%</text>
+<text id="61370013">%null%</text>
+<text id="61370014">%null%</text>
+<text id="61370015">%null%</text>
+<text id="61370016">%null%</text>
+<text id="61370017">%null%</text>
+<text id="61370018">%null%</text>
+<text id="61370019">%null%</text>
+<text id="61370020">%null%</text>
+<text id="61370021">%null%</text>
+<text id="61370022">%null%</text>
+<text id="61370023">%null%</text>
+<text id="61370024">%null%</text>
+<text id="61370025">%null%</text>
+<text id="61370026">%null%</text>
+<text id="61370027">%null%</text>
+<text id="61370028">%null%</text>
+<text id="61370029">%null%</text>
+<text id="61370030">%null%</text>
+<text id="61370031">%null%</text>
+<text id="61370032">%null%</text>
+<text id="61370033">%null%</text>
+<text id="61370034">%null%</text>
+<text id="61370035">%null%</text>
+<text id="61370036">%null%</text>
+<text id="61370037">%null%</text>
+<text id="61370038">%null%</text>
+<text id="61370039">%null%</text>
+<text id="61370040">%null%</text>
+<text id="61370041">%null%</text>
+<text id="61370042">%null%</text>
+<text id="61370043">%null%</text>
+<text id="61370044">%null%</text>
+<text id="61370045">%null%</text>
+<text id="61370046">%null%</text>
+<text id="61370047">%null%</text>
+<text id="61370048">%null%</text>
+<text id="61370049">%null%</text>
+<text id="61370050">%null%</text>
+<text id="61370051">%null%</text>
+<text id="61370052">%null%</text>
+<text id="61370053">%null%</text>
+<text id="61370054">%null%</text>
+<text id="61370055">%null%</text>
+<text id="61370056">%null%</text>
+<text id="61370057">%null%</text>
+<text id="61370058">%null%</text>
+<text id="61370059">%null%</text>
+<text id="61370060">%null%</text>
+<text id="61380000">%null%</text>
+<text id="61380001">%null%</text>
+<text id="61380002">%null%</text>
+<text id="61380003">%null%</text>
+<text id="61380004">%null%</text>
+<text id="61380005">%null%</text>
+<text id="61380006">%null%</text>
+<text id="61380007">%null%</text>
+<text id="61380008">%null%</text>
+<text id="61380009">%null%</text>
+<text id="61380010">%null%</text>
+<text id="61380011">%null%</text>
+<text id="61380012">%null%</text>
+<text id="61380013">%null%</text>
+<text id="61380014">%null%</text>
+<text id="61380015">%null%</text>
+<text id="61380016">%null%</text>
+<text id="61380017">%null%</text>
+<text id="61380018">%null%</text>
+<text id="61380019">%null%</text>
+<text id="61380020">%null%</text>
+<text id="61380021">%null%</text>
+<text id="61380022">%null%</text>
+<text id="61380023">%null%</text>
+<text id="61380024">%null%</text>
+<text id="61380025">%null%</text>
+<text id="61380026">%null%</text>
+<text id="61380027">%null%</text>
+<text id="61380028">%null%</text>
+<text id="61380029">%null%</text>
+<text id="61380030">%null%</text>
+<text id="61380031">%null%</text>
+<text id="61380032">%null%</text>
+<text id="61380033">%null%</text>
+<text id="61380034">%null%</text>
+<text id="61380035">%null%</text>
+<text id="61380036">%null%</text>
+<text id="61380037">%null%</text>
+<text id="61380038">%null%</text>
+<text id="61380039">%null%</text>
+<text id="61380040">%null%</text>
+<text id="61390000">%null%</text>
+<text id="61390001">%null%</text>
+<text id="61390002">%null%</text>
+<text id="61390003">%null%</text>
+<text id="61390004">%null%</text>
+<text id="61390005">%null%</text>
+<text id="61390006">%null%</text>
+<text id="61390007">%null%</text>
+<text id="61390008">%null%</text>
+<text id="61390009">%null%</text>
+<text id="61390010">%null%</text>
+<text id="61390011">%null%</text>
+<text id="61390012">%null%</text>
+<text id="61390013">%null%</text>
+<text id="61390014">%null%</text>
+<text id="61390015">%null%</text>
+<text id="61390016">%null%</text>
+<text id="61390017">%null%</text>
+<text id="61390018">%null%</text>
+<text id="61390019">%null%</text>
+<text id="61390020">%null%</text>
+<text id="61390021">%null%</text>
+<text id="61390022">%null%</text>
+<text id="61390023">%null%</text>
+<text id="61390024">%null%</text>
+<text id="61390025">%null%</text>
+<text id="61390026">%null%</text>
+<text id="61390027">%null%</text>
+<text id="61390028">%null%</text>
+<text id="61390029">%null%</text>
+<text id="61390030">%null%</text>
+<text id="61390031">%null%</text>
+<text id="61390032">%null%</text>
+<text id="61390033">%null%</text>
+<text id="61390034">%null%</text>
+<text id="61390035">%null%</text>
+<text id="61390036">%null%</text>
+<text id="61390037">%null%</text>
+<text id="61390038">%null%</text>
+<text id="61390039">%null%</text>
+<text id="61390040">%null%</text>
+<text id="70000000">%null%</text>
+<text id="70000001">%null%</text>
+<text id="70000002">%null%</text>
+<text id="70000003">%null%</text>
+<text id="70000004">%null%</text>
+<text id="70000005">%null%</text>
+<text id="70000006">%null%</text>
+<text id="70000007">%null%</text>
+<text id="70000008">%null%</text>
+<text id="70000009">%null%</text>
+<text id="70000010">%null%</text>
+<text id="70000011">%null%</text>
+<text id="70000012">%null%</text>
+<text id="70000013">%null%</text>
+<text id="70000014">%null%</text>
+<text id="70000015">%null%</text>
+<text id="70000016">%null%</text>
+<text id="70000017">%null%</text>
+<text id="70000018">%null%</text>
+<text id="70000019">%null%</text>
+<text id="70000020">%null%</text>
+<text id="70000021">%null%</text>
+<text id="70000022">%null%</text>
+<text id="70000023">%null%</text>
+<text id="70000024">%null%</text>
+<text id="70000025">%null%</text>
+<text id="70000026">%null%</text>
+<text id="70000027">%null%</text>
+<text id="70000028">%null%</text>
+<text id="70000029">%null%</text>
+<text id="70000030">%null%</text>
+<text id="70000031">%null%</text>
+<text id="70000032">%null%</text>
+<text id="70000033">%null%</text>
+<text id="70000034">%null%</text>
+<text id="70000035">%null%</text>
+<text id="70000036">%null%</text>
+<text id="70000037">%null%</text>
+<text id="70000038">%null%</text>
+<text id="70000039">%null%</text>
+<text id="70000040">%null%</text>
+<text id="70000041">%null%</text>
+<text id="70000042">%null%</text>
+<text id="70000043">%null%</text>
+<text id="70000044">%null%</text>
+<text id="70000045">%null%</text>
+<text id="70000046">%null%</text>
+<text id="70000047">%null%</text>
+<text id="70000048">%null%</text>
+<text id="70000049">%null%</text>
+<text id="70000050">%null%</text>
+<text id="70000051">%null%</text>
+<text id="70000052">%null%</text>
+<text id="70000053">%null%</text>
+<text id="70000054">%null%</text>
+<text id="70000055">%null%</text>
+<text id="70000056">%null%</text>
+<text id="70000057">%null%</text>
+<text id="70000058">%null%</text>
+<text id="70000059">%null%</text>
+<text id="70000060">%null%</text>
+<text id="70000061">%null%</text>
+<text id="70000062">%null%</text>
+<text id="70000063">%null%</text>
+<text id="70000064">%null%</text>
+<text id="70000065">%null%</text>
+<text id="70000066">%null%</text>
+<text id="70000067">%null%</text>
+<text id="70000068">%null%</text>
+<text id="70000069">%null%</text>
+<text id="70000070">%null%</text>
+<text id="70000071">%null%</text>
+<text id="70000072">%null%</text>
+<text id="70000073">%null%</text>
+<text id="70000074">%null%</text>
+<text id="70000075">%null%</text>
+<text id="70000076">%null%</text>
+<text id="70000077">%null%</text>
+<text id="70000078">%null%</text>
+<text id="70000079">%null%</text>
+<text id="70000080">%null%</text>
+<text id="70000081">%null%</text>
+<text id="70000082">%null%</text>
+<text id="70000083">%null%</text>
+<text id="70000084">%null%</text>
+<text id="70000085">%null%</text>
+<text id="70000086">%null%</text>
+<text id="70000087">%null%</text>
+<text id="70000088">%null%</text>
+<text id="70000089">%null%</text>
+<text id="70000090">%null%</text>
+<text id="70000091">%null%</text>
+<text id="70000092">%null%</text>
+<text id="70000093">%null%</text>
+<text id="70000094">%null%</text>
+<text id="70000095">%null%</text>
+<text id="70000096">%null%</text>
+<text id="70000097">%null%</text>
+<text id="70000098">%null%</text>
+<text id="70000099">%null%</text>
+<text id="70000100">%null%</text>
+<text id="70001000">%null%</text>
+<text id="70001001">%null%</text>
+<text id="70001002">%null%</text>
+<text id="70001003">%null%</text>
+<text id="70001004">%null%</text>
+<text id="70001005">%null%</text>
+<text id="70001006">%null%</text>
+<text id="70001007">%null%</text>
+<text id="70001008">%null%</text>
+<text id="70001009">%null%</text>
+<text id="70001010">%null%</text>
+<text id="70001011">%null%</text>
+<text id="70001012">%null%</text>
+<text id="70001013">%null%</text>
+<text id="70001014">%null%</text>
+<text id="70012000">%null%</text>
+<text id="70012001">%null%</text>
+<text id="70012002">%null%</text>
+<text id="70012003">%null%</text>
+<text id="70012004">%null%</text>
+<text id="70012005">%null%</text>
+<text id="70012006">%null%</text>
+<text id="70012007">%null%</text>
+<text id="70012008">%null%</text>
+<text id="70012009">%null%</text>
+<text id="70012010">%null%</text>
+<text id="70012011">%null%</text>
+<text id="70012012">%null%</text>
+<text id="70012013">%null%</text>
+<text id="70012014">%null%</text>
+<text id="70012015">%null%</text>
+<text id="70012016">%null%</text>
+<text id="70012017">%null%</text>
+<text id="70012018">%null%</text>
+<text id="70012019">%null%</text>
+<text id="70012020">%null%</text>
+<text id="70012021">%null%</text>
+<text id="70012022">%null%</text>
+<text id="70012023">%null%</text>
+<text id="80000000">Aye, siwmae. And good day to you.</text>
+<text id="80000001">I'm Domhnall of Zena. I'm just, well, a peddler, of sorts.</text>
+<text id="80000002">I adore trinkets and oddities, so I trade for them.</text>
+<text id="80000100">Hm... Oh, let me guess...
+Looking for baubles and trinkets in this strange land?</text>
+<text id="80000101">Yes, of course. We are both strangers in this strange land.
+But, at least now there are two of us.</text>
+<text id="80000102">Believe it or not... Irithyll brought the Deep upon itself.
+Fooled by that slimy beast, he upturned the grave of gods 
+and consumed the lot.</text>
+<text id="80000200">Ah, what? What? Who are you?
+Ahh, another Undead, eh? Those blasted wurms...</text>
+<text id="80000201">The lake is swarming with them.
+They must be killed before the ruins below can be entered.</text>
+<text id="80000202">Ahh, you think you're different? That you can handle it?
+Yes, I remember that feeling. For I was the same.</text>
+<text id="80000203">... So, let me help you out. With your soul-searching.</text>
+<text id="80000300">Well, you are a rare visitor.
+Welcome to the Cemetery of Ash, ashen one.</text>
+<text id="80000301">If you seek the power of the dark arts,
+I may be able to help with that.</text>
+<text id="80000302">Hmm. Watch your back out there.</text>
+<text id="80000303">Don't underestimate those hollows. 
+They may be mindless, but their blades still cut deep.</text>
+<text id="90000000">%null%</text>
+<text id="90000001">%null%</text>
+<text id="90000002">%null%</text>
+<text id="90000003">%null%</text>
+<text id="90000004">%null%</text>
+<text id="90000005">%null%</text>
+<text id="90000006">%null%</text>
+<text id="90000007">%null%</text>
+<text id="90000008">%null%</text>
+<text id="90000009">%null%</text>
+<text id="90000010">%null%</text>
+<text id="90000011">%null%</text>
+<text id="90000012">%null%</text>
+<text id="90000013">%null%</text>
+<text id="90000014">%null%</text>
+<text id="90000015">%null%</text>
+<text id="90000016">%null%</text>
+<text id="90000017">%null%</text>
+<text id="90000018">%null%</text>
+<text id="90000019">%null%</text>
+<text id="90000020">%null%</text>
+<text id="90000021">%null%</text>
+<text id="90000022">%null%</text>
+<text id="90000023">%null%</text>
+<text id="90000024">%null%</text>
+<text id="90000025">%null%</text>
+<text id="90000026">%null%</text>
+<text id="90000027">%null%</text>
+<text id="90000028">%null%</text>
+<text id="90000029">%null%</text>
+<text id="90000030">%null%</text>
+<text id="90000031">%null%</text>
+<text id="90000032">%null%</text>
+<text id="90000033">%null%</text>
+<text id="90000034">%null%</text>
+<text id="90000035">%null%</text>
+<text id="99000000">Debug 0</text>
+<text id="99000001">Debug 1</text>
+<text id="99000002">Debug 2</text>
+<text id="99000003">Debug 3</text>
+<text id="99000004">Debug 4</text>
+<text id="99000005">Debug 5</text>
+<text id="99000006">Debug 6</text>
+<text id="99000007">Debug 7</text>
+<text id="99000008">Debug 8</text>
+<text id="99000009">Debug 9</text>
+<text id="99000010">Debug 10</text>
+<text id="99000011">You are now on journey &lt;?nextLoopCount?&gt;</text>
+<text id="99000012">%null%</text>
+<text id="99000013">%null%</text>
+<text id="99000014">%null%</text>
+<text id="99000100">Begin journey &lt;?nextLoopCount?&gt; ?</text>
+<text id="99000101">%null%</text>
+<text id="99000200">Use &lt;?gdsparam@748?&gt;?</text>
+<text id="99000300">Begin journey &lt;?nextLoopCount?&gt;?</text>
+<text id="99000400">Sign the scorched contract?</text>
+<text id="99000500">Nullify the scorched contract?</text>
+<text id="99000600">Touch</text>
+<text id="99000700">Commune</text>
+<text id="99000701">Enter</text>
+<text id="99000702">Destroy</text>
+<text id="99000710">Trial of Adversity</text>
+<text id="99000711">Trial of Calamity</text>
+<text id="99000712">Trial of Sorrow</text>
+<text id="99000713">Trial of Devastation</text>
+<text id="99000714">Peer into the Past</text>
+<text id="99000800">Enter</text>
+<text id="99000900">Begin next journey?</text>
+<text id="99000901">Are you sure?</text>
+<text id="99000910">You will advance to journey &lt;?nextLoopCount?&gt;...</text>
+<text id="99000920">You have Cinders</text>
+<text id="99000930">You receive nothing.</text>
+<text id="99000960">Learn Gesture</text>
+<text id="99001001">Onslaught enemies will now appear. Soul gain and Item Discovery increased.</text>
+<text id="99001002">Onslaught enemies will no longer appear.</text>
+<text id="99001003">Challenge modifiers will now be applied. Soul gain and Item Discovery increased.</text>
+<text id="99001004">Challenge modifiers will no longer be reduced.</text>
+<text id="99001005">Warp to Archdragon Peak</text>
+<text id="99001006">Warp to Catacombs of Carthus</text>
+<text id="99001007">Warp to Farron Keep</text>
+<text id="99001008">Warp to Irithyll Dungeon</text>
+<text id="99001009">Warp to Irithyll</text>
+<text id="99001010">Warp to the Dreg Heap</text>
+<text id="99001011">Warp to Untended Graves</text>
+<text id="99002000">Curses</text>
+<text id="99002001">Inspect</text>
+<text id="99002002">Curses are modifiers that you may apply to 
+yourself in exchange for a bonus.
+
+Once enabled, a curse is applied after you rest at a bonfire, 
+and will remain active until you disabled it at the Accursed Altar.</text>
+<text id="99002005">Enable</text>
+<text id="99002006">Disable</text>
+<text id="99002010">Enable at Strength I</text>
+<text id="99002011">Enable at Strength II</text>
+<text id="99002012">Enable at Strength III</text>
+<text id="99002013">Enable at Strength IV</text>
+<text id="99002014">Enable at Strength V</text>
+<text id="99002015">Enable at Strength VI</text>
+<text id="99002016">Enable at Strength VII</text>
+<text id="99002017">Enable at Strength VIII</text>
+<text id="99002018">Enable at Strength IX</text>
+<text id="99002019">Enable at Strength X</text>
+<text id="99002100">Curse of Pride</text>
+<text id="99002101">Curse of Fortitude</text>
+<text id="99002102">Curse of Vitality</text>
+<text id="99002103">Curse of Wrath</text>
+<text id="99002104">Curse of Attraction</text>
+<text id="99002105">Curse of Obscurity</text>
+<text id="99002106">Curse of Simplicity</text>
+<text id="99002107">Curse of Gluttony</text>
+<text id="99002108">Curse of Frailty</text>
+<text id="99002109">Curse of Enfeeblement</text>
+<text id="99002110">Curse of Impermanence</text>
+<text id="99002111">Curse of Valor</text>
+<text id="99002300">Curse of Pride broken.</text>
+<text id="99002301">Curse of Fortitude broken.</text>
+<text id="99002302">Curse of Vitality broken.</text>
+<text id="99002303">Curse of Wrath broken.</text>
+<text id="99002304">Curse of Attraction broken.</text>
+<text id="99002305">Curse of Obscurity broken.</text>
+<text id="99002306">Curse of Simplicity broken.</text>
+<text id="99002307">Curse of Gluttony broken.</text>
+<text id="99002308">Curse of Frailty broken.</text>
+<text id="99002309">Curse of Enfeeblement broken.</text>
+<text id="99002310">Curse of Impermanence broken.</text>
+<text id="99002311">Curse of Valor broken.</text>
+<text id="99002400">Pride cometh before the fall. 
+
+Enemies deal 10% more damage in all forms.
+
+Boosts soul absorption by 5%.</text>
+<text id="99002401">Pride cometh before the fall. 
+
+Enemies deal 20% more damage in all forms.
+
+Boosts soul absorption by 10%.</text>
+<text id="99002402">Pride cometh before the fall. 
+
+Enemies deal 30% more damage in all forms.
+
+Boosts soul absorption by 15%.</text>
+<text id="99002403">Pride cometh before the fall. 
+
+Enemies deal 40% more damage in all forms.
+
+Boosts soul absorption by 20%.</text>
+<text id="99002404">Pride cometh before the fall. 
+
+Enemies deal 50% more damage in all forms.
+
+Boosts soul absorption by 25%.</text>
+<text id="99002405">Pride cometh before the fall. 
+
+Enemies deal 60% more damage in all forms.
+
+Boosts soul absorption by 30%.</text>
+<text id="99002406">Pride cometh before the fall. 
+
+Enemies deal 70% more damage in all forms.
+
+Boosts soul absorption by 35%.</text>
+<text id="99002407">Pride cometh before the fall. 
+
+Enemies deal 80% more damage in all forms.
+
+Boosts soul absorption by 40%.</text>
+<text id="99002408">Pride cometh before the fall. 
+
+Enemies deal 90% more damage in all forms.
+
+Boosts soul absorption by 45%.</text>
+<text id="99002409">Pride cometh before the fall. 
+
+Enemies deal 100% more damage in all forms.
+
+Boosts soul absorption by 50%.</text>
+<text id="99002410">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 5% and defence by 10%.
+
+Boosts soul absorption by 5%.</text>
+<text id="99002411">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 10% and defence by 20%.
+
+Boosts soul absorption by 10%.</text>
+<text id="99002412">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 15% and defence by 30%.
+
+Boosts soul absorption by 15%.</text>
+<text id="99002413">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 20% and defence by 40%.
+
+Boosts soul absorption by 20%.</text>
+<text id="99002414">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 25% and defence by 50%.
+
+Boosts soul absorption by 25%.</text>
+<text id="99002415">Enemies possess unholy fortitude. 
+
+Increases enemy absorption by 30% and defence by 60%.
+
+Boosts soul absorption by 30%.</text>
+<text id="99002416">Enemies possess unholy fortitude. 
+
+Increases enemy absorption 35% and defence by 70%.
+
+Boosts soul absorption by 35%.</text>
+<text id="99002417">Enemies possess unholy fortitude. 
+
+Increases enemy absorption 40% and defence by 80%.
+
+Boosts soul absorption by 40%.</text>
+<text id="99002418">Enemies possess unholy fortitude. 
+
+Increases enemy absorption 45% and defence by 90%.
+
+Boosts soul absorption by 45%.</text>
+<text id="99002419">Enemies possess unholy fortitude. 
+
+Increases enemy absorption 50% and defence by 100%.
+
+Boosts soul absorption by 50%.</text>
+<text id="99002420">Enemies brim with unholy vitality.
+
+Enemies recover 10 + 0.1% HP every second. 
+
+Boosts soul absorption by 2.5%.</text>
+<text id="99002421">Enemies brim with unholy vitality.
+
+Enemies recover 20 + 0.1% HP every second. 
+
+Boosts soul absorption by 5%.</text>
+<text id="99002422">Enemies brim with unholy vitality.
+
+Enemies recover 30 + 0.1% HP every second. 
+
+Boosts soul absorption by 7.5%.</text>
+<text id="99002423">Enemies brim with unholy vitality.
+
+Enemies recover 40 + 0.1% HP every second. 
+
+Boosts soul absorption by 10%.</text>
+<text id="99002424">Enemies brim with unholy vitality.
+
+Enemies recover 50 + 0.1% HP every second. 
+
+Boosts soul absorption by 12.5%.</text>
+<text id="99002425">Enemies brim with unholy vitality.
+
+Enemies recover 60 + 0.1% HP every second. 
+
+Boosts soul absorption by 15%.</text>
+<text id="99002426">Enemies brim with unholy vitality.
+
+Enemies recover 70 + 0.1% HP every second. 
+
+Boosts soul absorption by 17.5%.</text>
+<text id="99002427">Enemies brim with unholy vitality.
+
+Enemies recover 80 + 0.1% HP every second. 
+
+Boosts soul absorption by 20%.</text>
+<text id="99002428">Enemies brim with unholy vitality.
+
+Enemies recover 90 + 0.1% HP every second. 
+
+Boosts soul absorption by 22.5%.</text>
+<text id="99002429">Enemies brim with unholy vitality.
+
+Enemies recover 100 + 0.1% HP every second. 
+
+Boosts soul absorption by 25%.</text>
+<text id="99002430">Enemies strike with unbridled wrath.
+
+Enemies recover 10 stamina per second.
+ 
+Boosts soul absorption by 1%.</text>
+<text id="99002431">Enemies strike with unbridled wrath.
+
+Enemies recover 20 stamina per second.
+ 
+Boosts soul absorption by 2%.</text>
+<text id="99002432">Enemies strike with unbridled wrath.
+
+Enemies recover 30 stamina per second.
+ 
+Boosts soul absorption by 3%.</text>
+<text id="99002433">Enemies strike with unbridled wrath.
+
+Enemies recover 40 stamina per second.
+ 
+Boosts soul absorption by 4%.</text>
+<text id="99002434">Enemies strike with unbridled wrath.
+
+Enemies recover 50 stamina per second.
+ 
+Boosts soul absorption by 5%.</text>
+<text id="99002435">Enemies strike with unbridled wrath.
+
+Enemies recover 60 stamina per second.
+ 
+Boosts soul absorption by 6%.</text>
+<text id="99002436">Enemies strike with unbridled wrath.
+
+Enemies recover 70 stamina per second.
+ 
+Boosts soul absorption by 7%.</text>
+<text id="99002437">Enemies strike with unbridled wrath.
+
+Enemies recover 80 stamina per second.
+ 
+Boosts soul absorption by 8%.</text>
+<text id="99002438">Enemies strike with unbridled wrath.
+
+Enemies recover 90 stamina per second.
+ 
+Boosts soul absorption by 9%.</text>
+<text id="99002439">Enemies strike with unbridled wrath.
+
+Enemies recover 100 stamina per second.
+ 
+Boosts soul absorption by 10%.</text>
+<text id="99002440">Enemies are attracted to your scent.
+
+Additional enemies appear throughout the world.
+
+Boosts soul absorption by 5%.</text>
+<text id="99002450">You are blind to danger. Literally.
+ 
+You are now shrouded by darkness.
+
+Boosts soul absorption by 15%.</text>
+<text id="99002460">Your mind is fogged with confusion. 
+
+You no longer regenerate FP passively.
+
+Boosts soul absorption by 10%.</text>
+<text id="99002470">Your gluttony has slowed your senses.
+
+Doubles swing and evasive stamina consumption. 
+
+Boosts soul absorption by 10%.</text>
+<text id="99002480">Your strikes are pitiful and frail.
+
+Enemies are virtually impossible to stagger.
+
+Boosts soul absorption by 10%.</text>
+<text id="99002490">Your body is enfeebled by unholy magic.
+
+Your max HP, FP and Stamina is reduced by 50%.
+
+Boosts soul absorption by 15%.</text>
+<text id="99002500">Your weapons easily crumble.
+
+The durability of your weapons will gradually degrade over time.
+
+Boosts soul absorption by 10%.</text>
+<text id="99002510">The glorious kneel before no hollow.
+
+Empowers bosses, increasing the following:
+- Damage by 50%.
+- HP by 30%.
+- Stamina by 30%.
+- Stamina recovery by 30.
+- Poise by 100.
+- Resistances by 50%.
+
+Enables an additional chance for a Primordial Fragment.</text>
+<text id="99002530">Commune</text>
+<text id="99002531">Inspect</text>
+<text id="99002532">Tomes</text>
+<text id="99003500">Bestow Lordvessel</text>
+<text id="99003501">Relics</text>
+<text id="99003502">Claim Relic of Power</text>
+<text id="99003503">Claim Relic of Insanity</text>
+<text id="99003504">Relic of Power</text>
+<text id="99003505">Relic of Insanity</text>
+<text id="99003510">To claim the Relic of Power you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You are still eligible.</text>
+<text id="99003511">To claim the Relic of Power you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You can claim the relic.</text>
+<text id="99003512">To claim the Relic of Power you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You have failed.</text>
+<text id="99003520">To claim the Relic of Insanity you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You are still eligible.</text>
+<text id="99003521">To claim the Relic of Insanity you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You can claim the relic.</text>
+<text id="99003522">To claim the Relic of Insanity you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You have failed.</text>
+<text id="99003600">Give the Blood of the Dark Soul</text>
+<text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
+Magic: absorb 2/4/6 FP on hit, differs based on weapon type.
+Fire: apply stacking 1% Fire absorption debuff for 5 seconds.
+Lightning: apply 50% Poise debuff to target for 5 seconds.
+Dark: absorb 5/10/15 HP on hit, differs based on weapon type.
+Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
+Enchanted: restores an additional 2 FP per second.
+Holy: restores an additional 3 HP per second.
+Sharp: consecutive attacks boost damage, up to 15%.
+Blunt: increases max equipment load by 10%.</text>
+<text id="99004001">Clarity: restores an additional 2 FP per second.
+Rejuvenation: grants an additional 15 stamina recovery.
+Restoration: restores an additional 3 HP per second.
+Respite: increases max equipment load by 10%.
+Lucidity: reduces spell FP consumption by 5%.
+Greed: increases soul absorption by 10%.
+Magic: increases Magic absorption by 5%.
+Fire: increases Fire absorption by 5%.
+Lightning: increases Lightning absorption by 5%.
+Dark: increases Dark absorption by 5%.</text>
+<text id="99004002">Pulsating: restores an additional 2 FP per second.
+Vibrating: restores an additional 3 HP per second.
+Throbbing: unlocks ascended effects for spells.
+Quivering: boosts cast speed by 25.</text>
+<text id="99005000">Does not work here.</text>
+<text id="99005100">Silver Knight Ledo intrudes...</text>
+<text id="99005101">Silver Knight Ledo has been vanquished</text>
+<text id="99005110">Luyila of Londor intrudes...</text>
+<text id="99005111">Luyila of Londor has been vanquished</text>
+<text id="99005120">Forgotten Locklin intrudes...</text>
+<text id="99005121">Forgotten Locklin has been vanquished</text>
+<text id="99005130">Holy Knight Morton intrudes...</text>
+<text id="99005131">Holy Knight Morton has been vanquished</text>
+<text id="99005140">Tiny intrudes...</text>
+<text id="99005141">Tiny has been vanquished</text>
+<text id="99005150">Captain Morrel intrudes...</text>
+<text id="99005151">Captain Morrel has been vanquished</text>
+<text id="99005160">Dominatrix Sharron intrudes...</text>
+<text id="99005161">Dominatrix Sharron has been vanquished</text>
+<text id="99005170">Morric, the Fallen Knight intrudes...</text>
+<text id="99005171">Morric, the Fallen Knight has been vanquished</text>
+<text id="99005180">Tomb Raider Dyfan intrudes...</text>
+<text id="99005181">Tomb Raider Dyfan has been vanquished</text>
+<text id="99005190">Chaos Servant Eygor intrudes...</text>
+<text id="99005191">Chaos Servant Eygor has been vanquished</text>
+<text id="99005200">Devotee Scarlett intrudes...</text>
+<text id="99005201">Devotee Scarlett has been vanquished</text>
+<text id="99005210">Fester the Jester intrudes...</text>
+<text id="99005211">Fester the Jester has been vanquished</text>
+<text id="99005220">Inquisitor Ashford intrudes...</text>
+<text id="99005221">Inquisitor Ashford has been vanquished</text>
+<text id="99005290">Corrupted Knight Lloyd intrudes...</text>
+<text id="99005291">Corrupted Knight Lloyd has been vanquished</text>
+<text id="99005300">Huntmaster Ava intrudes...</text>
+<text id="99005301">Huntmaster Ava has been vanquished</text>
+<text id="99005310">The Pursuer intrudes...</text>
+<text id="99005311">The Pursuer has been vanquished</text>
+<text id="99005320">Eccentric Archibald intrudes...</text>
+<text id="99005321">Eccentric Archibald has been vanquished</text>
+<text id="99005330">Jailer Eileen intrudes...</text>
+<text id="99005331">Jailer Eileen has been vanquished</text>
+<text id="99005340">Ollis the Merciless intrudes...</text>
+<text id="99005341">Ollis the Merciless has been vanquished</text>
+<text id="99005350">Vileblood Annalise intrudes...</text>
+<text id="99005351">Vileblood Annalise has been vanquished</text>
+<text id="99005360">The Forlorn intrudes...</text>
+<text id="99005361">The Forlorn has been vanquished</text>
+<text id="99005370">The Father intrudes...</text>
+<text id="99005371">The Father has been vanquished</text>
+<text id="99005380">The Mother intrudes...</text>
+<text id="99005381">The Mother has been vanquished</text>
+<text id="99005390">The Child intrudes...</text>
+<text id="99005391">The Child has been vanquished</text>
+<text id="99005400">Lord Zakar intrudes...</text>
+<text id="99005401">Lord Zakar has been vanquished</text>
+<text id="99005410">Glaive Master Hodir intrudes...</text>
+<text id="99005411">Glaive Master Hodir has been vanquished</text>
+<text id="99005420">Ezekiel the Duelist intrudes...</text>
+<text id="99005421">Ezekiel the Duelist has been vanquished</text>
+<text id="99005430">Eija the Shadow intrudes...</text>
+<text id="99005431">Eija the Shadow has been vanquished</text>
+<text id="99005440">Dulfisk the Accursed intrudes...</text>
+<text id="99005441">Dulfisk the Accursed has been vanquished</text>
+<text id="99005450">Freya the Wretched intrudes...</text>
+<text id="99005451">Freya the Wretched has been vanquished</text>
+<text id="99005460">Nahor the Fallen intrudes...</text>
+<text id="99005461">Nahor the Fallen has been vanquished</text>
+<text id="99005470">Easterner Iazeel intrudes...</text>
+<text id="99005471">Easterner Iazeel has been vanquished</text>
+<text id="99005480">Gaius the Mighty intrudes...</text>
+<text id="99005481">Gaius the Mighty has been vanquished</text>
+<text id="99005490">Quintus the Monstrous intrudes...</text>
+<text id="99005491">Quintus the Monstrous has been vanquished</text>
+<text id="99005500">Blacksmith's Nightmare intrudes...</text>
+<text id="99005501">Blacksmith's Nightmare has been vanquished</text>
+<text id="99005510">Frozen Knight Torbjorn intrudes...</text>
+<text id="99005511">Frozen Knight Torbjorn has been vanquished</text>
+<text id="99005520">Bewitched Knight Iwai intrudes...</text>
+<text id="99005521">Bewitched Knight Iwai has been vanquished</text>
+<text id="99005530">Wandering Knight Osvaldo intrudes...</text>
+<text id="99005531">Wandering Knight Osvaldo has been vanquished</text>
+<text id="99005540">Lord Takatsuji intrudes...</text>
+<text id="99005541">Lord Takatsuji has been vanquished</text>
+<text id="99005550">Lieutenant Ugali intrudes...</text>
+<text id="99005551">Lieutenant Ugali has been vanquished</text>
+<text id="99005560">Lieutenant Hanji intrudes...</text>
+<text id="99005561">Lieutenant Hanji has been vanquished</text>
+<text id="99005570">Ashen Keeper Sofija intrudes...</text>
+<text id="99005571">Ashen Keeper Sofija has been vanquished</text>
+<text id="99005580">Hallowed Knight Orthell intrudes...</text>
+<text id="99005581">Hallowed Knight Orthell has been vanquished</text>
+<text id="99005590">Dragon Hunter Karstark intrudes...</text>
+<text id="99005591">Dragon Hunter Karstark has been vanquished</text>
+<text id="99005600">Disciple of Alsanna intrudes...</text>
+<text id="99005601">Disciple of Alsanna has been vanquished</text>
+<text id="99005620">Longfinger Kirk intrudes...</text>
+<text id="99005621">Longfinger Kirk has been vanquished</text>
+<text id="99005630">Alva, Seeker of the Spurned intrudes...</text>
+<text id="99005631">Alva, Seeker of the Spurned has been vanquished</text>
+<text id="99005640">Seeker of the Spurned intrudes...</text>
+<text id="99005641">Seeker of the Spurned has been vanquished</text>
+<text id="99005650">Moaning Knight intrudes...</text>
+<text id="99005651">Moaning Knight has been vanquished</text>
+<text id="99007000">Enemies of yore restored</text>
+<text id="99010000">Marks</text>
+<text id="99010001">Talk</text>
+<text id="99010002">O turpi viridi egredere de beatus praetorium,
+et deficient et in studiorum omnium satietas.</text>
+<text id="99010003">Ego misera, da mihi potestatem, phialam argenteam.</text>
+<text id="99010100">Mark of Attraction</text>
+<text id="99010101">Mark of the Dog</text>
+<text id="99010102">Mark of the Crab</text>
+<text id="99010103">Mark of Valor</text>
+<text id="99010200">Disable Mark of Attraction</text>
+<text id="99010201">Disable Mark of the Dog</text>
+<text id="99010202">Disable Mark of the Crab</text>
+<text id="99010203">Disable Mark of Valor</text>
+<text id="99011100">You are marked, drawing creatures 
+towards your location.
+
+Adds additional enemies throughout the world.
+
+Boosts soul absorption by 5%.</text>
+<text id="99011101">Canines are drawn to your sweet flesh.
+
+High Wall of Lothric is now occupied by numerous canine enemies.
+
+Boosts soul absorption by 10% whilst in 
+the High Wall of Lothric.</text>
+<text id="99011102">Crabs are drawn to your unique musk.
+
+Road of Sacrifices and Farron Keep are now occupied 
+by numerous crab enemies.
+
+Boosts soul absorption by 10% whilst in 
+the Road of Sacrifices or Farron Keep.</text>
+<text id="99011103">You are ready to face true might.
+
+Boosts the power of bosses by 50% and increases their HP by 50%.
+
+Enables Primordial material to drop from bosses.</text>
+<text id="99011200">Mark of Attraction broken.</text>
+<text id="99011201">Mark of the Dog broken.</text>
+<text id="99011202">Mark of the Crab broken.</text>
+<text id="99011203">Mark of Valor broken.</text>
+<text id="99012000">Oh, there you are.
+I thought you'd all but forgotten me. How sweet.
+Good to know that a skinny little heretic can still turn heads.
+Here, take this memento of our sordid affair.</text>
+<text id="99012001">Ahh, hello again. Thank goodness.
+One can become quite attached, even to a bumbling apprentice.</text>
+<text id="99012002">Oh bother. Leave me be so that I may study.</text>
+<text id="99012005">You're here to propose to me?
+But I am guilty. A wretched child of the Abyss.
+Is that something you can forgive?</text>
+<text id="99012010">Ashen One, this is...
+Very much how I feel towards you. Forgive me.
+But I created this gift for you, I hope you enjoy it.</text>
+<text id="99012011">Ashen one, may I pose thee a question?
+Do you feel as I do? With the fury of the flames?</text>
+<text id="99012012">Ashen One, the fires must be tended to.
+Without me, they will be extinguished.</text>
+<text id="99012015">Ashen One, I am unworthy of your love.
+But I accept your offer.</text>
+<text id="99012020">Uncle Gael has warned me about your bad jokes.
+He told me to give you this.</text>
+<text id="99012021">Oh, that is funny. But I'd rather focus on my
+painting for now.</text>
+<text id="99012022">What an awful joke.
+I banish you!.</text>
+<text id="99012025">This world is awfully lonely. A friend would be welcome.</text>
+<text id="99012030">The shriveled body of Rosaria appears to squirm 
+in a joyous manner. A gift pops out from beneath her quivering mass.</text>
+<text id="99012031">The shriveled body of Rosaria appears to squirm 
+in a dull manner.</text>
+<text id="99012032">The shriveled body of Rosaria appears to squirm 
+in a anxious manner.</text>
+<text id="99012035">The shriveled body of Rosaria appears to squirm 
+in a sensual manner.</text>
+<text id="99012040">The decayed corpse of Archdeacon McDonnell appears 
+to pulsate in a rhymathic fashion. 
+A gift pops out from beneath his decaying mass.</text>
+<text id="99012041">The decayed corpse of Archdeacon McDonnell appears 
+to pulsate in a dull fashion.</text>
+<text id="99012042">The decayed corpse of Archdeacon McDonnell remains 
+absolutely still.</text>
+<text id="99012045">The decayed corpse of Archdeacon McDonnell emits 
+a loud gaseous expulsion.</text>
+<text id="99012050">I, Yorshka, love thine heart as thou'st love 
+the moon and sky. 
+Here, take this token of appreciation, thou'rt most deserving of it.</text>
+<text id="99012051">My dear, thy love merit great deeds.
+Set forth and accomplish such deeds in thine name.</text>
+<text id="99012052">Art thou a creature of lust?
+Begone!</text>
+<text id="99012055">Oh, my! Thou'st love is sweet. If thou'st speak'th
+with true intent.</text>
+<text id="99012060">I never thought you'd confess such beautiful words 
+to me. Hmm... What can I say? Take this trinket as a sign of my love.</text>
+<text id="99012061">Those are truly wonderful thoughts.
+Do they come with new trinkets too?</text>
+<text id="99012062">Aye, siwmae. Oh, you feel that way?
+I can't say I've thought much about you I'm afraid.</text>
+<text id="99012065">What a wonderful notion. 
+Let us arrange an ceremony in this here cathedral.</text>
+<text id="99012070">Mwah hah hah! A splendid display of affection.
+Here, take this gift, you deserve it.</text>
+<text id="99012071">Believe it or not... But I to feel that
+way about you. That'll put some spring into your step.</text>
+<text id="99012072">You have quite some nerve. Or are you just thick?</text>
+<text id="99012075">A grand notion. Yes, magnificently so!</text>
+<text id="99012080">Yes, I remember that feeling. 
+For I was once the same. Here, take this trinket.</text>
+<text id="99012081">Hm... Oh, yes, it's you.
+A kind notion, but little use in these tombs.</text>
+<text id="99012082">Let me give you a nibble of advice.
+Don't even consider talking to me again.</text>
+<text id="99012085">Ah, what? What? Marriage?
+Ahh, I guess so.</text>
+<text id="99012090">Ahh, most illustrious Lordseeker.
+Your words have touched me so. Take this memento as
+a sign of our connection.</text>
+<text id="99012091">Ah-hah, thou'rt returned.
+What's to fear in a little tenderness, now?</text>
+<text id="99012092">Knowest thou of your purpose?
+Begone and preserve the fading Flame.</text>
+<text id="99012095">Oh, thou'rt a kind Unkindled.
+And I a Lord of Cinder, in want of tenderness.</text>
+<text id="99012100">Thy desire is matched.
+Bearer of the dark sigil, and our Lord of Hollows.
+I present you this gift of my affection.</text>
+<text id="99012101">Our Lord and Liege.
+I too feel this way, but alas your lordship must come first.</text>
+<text id="99012102">Oh, good Hollow. I'm afraid I must say...
+Such notions will imperil thy rule.</text>
+<text id="99012105">Thou'rt a Lord, art thou not?
+Alas, your kindness is welcome.</text>
+<text id="99012110">Oh, my... You are stupendous.
+Here, I was saving this for later, but you should have it now.</text>
+<text id="99012111">Oh, how gracious. Do promise to stay safe
+out there, this land isn't fit for such noble hearts.</text>
+<text id="99012112">How intriguing. A rather pathetic attempt
+at courtship, wouldn't you say?</text>
+<text id="99012115">Well, this is unexpected, but I echo the sentiment.
+Very well, let us form a union.</text>
+<text id="99012120">Ah, I'm but a weary old smith.
+Nevertheless, take this here token as a sign of my appreciation.</text>
+<text id="99012121">Ahh, well met.
+Tis good to see you in good health.</text>
+<text id="99012122">I warn you, back off.
+I am in no mood for such trifling notions.</text>
+<text id="99012125">Well, this is a surpise.
+Tis good to find nobility in these trying times.</text>
+<text id="99012130">Gracious. Fine compliment thou'st given.
+Thou'rt has warmed thine cockles. Here, take thine token of desire.</text>
+<text id="99012131">Oh, knowest thou of that soppy gossip?
+Me? Thy suppeth too much on airy notions.</text>
+<text id="99012132">Ashen One, thy layeth nary a soul upon my feet?</text>
+<text id="99012135">Ashen One, to desire such soppy seconds.
+Thy pockets must o'erflow with good will.</text>
+<text id="99012140">Ahh, there you, Unkindled One. I wish to express my gratitude.
+For trusting a lowly pyromancer, and allowing me to gaze upon your majestic flame.
+Here, take this.</text>
+<text id="99012141">Most wise words from my beloved Unkindled.</text>
+<text id="99012142">Unkindled one, leave me be.</text>
+<text id="99012145">Ah-ha, marry me? Never have I been the object of desire.
+This has truly renewed my flame.</text>
+<text id="99012150">Sweet champion, you are truly a blessing.
+You have touched me so, take this.</text>
+<text id="99012151">Oh, thank you sweet champion.
+I shall remember these words.</text>
+<text id="99012152">Is someone there, anyone?
+Don't tease me like this.</text>
+<text id="99012155">Oh, sweet champion. You wish to marry me?
+I am but a humble maiden, but I accept.</text>
+<text id="99012160">Well, look at me. I am truly the luckiest man in the world.
+Here, I obtained some truly fine treasure recently, take it.</text>
+<text id="99012161">Ah, oh, yes, of course...
+A lovely compliment, thank you sweetie.</text>
+<text id="99012162">Shame on you, you insatiable beast.
+Now is not the time for such crude remarks.</text>
+<text id="99012165">Ooh la la, you are a true romantic.
+To sweep the Unbreakable Patches off his feet is a feat indeed!</text>
+<text id="99012170">Thank you for such beautiful words.
+You know, I was working on something for you, 
+perhaps you can have it now?</text>
+<text id="99012171">Ah, how very kind of you. May the
+dark cover you in its encompassing embrace.</text>
+<text id="99012172">Hello again. Could you not bother me
+whilst I'm focusing on such important matters?</text>
+<text id="99012175">Oh, what a kind offer.
+I hereby accept your proposal.</text>
+<text id="99012180">Magnae dilectionis testimonium temporibus.</text>
+<text id="99012181">Felix est dicta magnum ursus.</text>
+<text id="99012182">Non magnum molestum ursus.</text>
+<text id="99012185">Nubet ursa raptis catulis paruis magna.</text>
+<text id="99012190">I humbly accept your compliment.
+Here, I found this trinket whilst scavenging,
+I thought you might like it.</text>
+<text id="99012191">Oh, what did you say?
+Those are kind words, especially for a  petty thief such as me.</text>
+<text id="99012192">I-I'm not asking for flattery, leave me be.</text>
+<text id="99012195">Ahh, you love a crook like me?
+I must be the luckiest thief in the world.</text>
+<text id="99012200">Champion of ash.
+I will do anything for my master, just say the word.
+Here, take this token of my affection.</text>
+<text id="99012201">Ohh, I am honoured, truly.
+To receive such affection from a champion such as you.</text>
+<text id="99012202">Oh, my champion of ash.
+Now is not the time.</text>
+<text id="99012205">Ohh… Ohh, what a honour.
+To marry a champion of ash is a privilege indeed.</text>
+<text id="99012210">You are truly fond of me!
+You've a strong arm, strong faith, and most importantly, a strong heart.
+I am in awe, really. Here, take this as a token of my love.</text>
+<text id="99012211">You really are fond of chatting with me, aren't you?
+If I didn't know better, I'd think you had feelings for me!
+Oh, no, dear me. Pretend you didn't hear that!
+Hah hah hah!</text>
+<text id="99012212">Oh, there you are.
+You've been quiet these days.</text>
+<text id="99012215">Oh, ah hah! A proposition?
+The way I see it, our fates appear to be intertwined.</text>
+<text id="99012220">My servant, well met indeed.
+Thou'st permitted me to dream. One day, rats and humans may 
+yet live and die together, in peace.
+Here, take this token of devotion.</text>
+<text id="99012221">Thou return'st? Permit me ask. 
+Wilt thou thy human soul surrender, 
+and pledge thyself to me for eternity?</text>
+<text id="99012222">Why comest thou here, human?
+Thy duplicity will not go unpunished.</text>
+<text id="99012225">Thy welcome.
+Rejoice, for the right to worship me is now thine.</text>
+<text id="99013000">Welcome, ashen one.
+I've been resting here for quite some time.
+Say, how would you like to try one of my enchanted oils?</text>
+<text id="99013001">Ah, hello! You don't look Hollow, far from it!
+I am Solaire of Astora, an adherent of the Lord of Sunlight.</text>
+<text id="99013100">Tortured Soul</text>
+<text id="99013101">Give Tortured Soul</text>
+<text id="99013105">Interested in a little quest are we?
+I've been aching to work on something truly extraordinary, 
+but I lack a crucial ingredient.
+
+If you would be so kind, please fetch me a tortured soul 
+from the decrepit cathedral.</text>
+<text id="99013106">Thank you.</text>
+<text id="99013110">Smithbox</text>
+<text id="99013111">Give Smithbox</text>
+<text id="99013115">Blasted thieves!
+It seems that a ne'er-do-well has swiped my toolbox.
+Would you mind retrieving it for me?
+I believe I saw the rapscallion running off 
+towards the castle.</text>
+<text id="99013116">Thank you.</text>
+<text id="99015000">Apply Affix</text>
+<text id="99015001">Affix Overview</text>
+<text id="99015005">Basic Affix</text>
+<text id="99015006">Fine Affix</text>
+<text id="99015007">Superior Affix</text>
+<text id="99015008">Exquisite Affix</text>
+<text id="99015009">Legendary Affix</text>
+<text id="99015010">Affix this ring?</text>
+<text id="99015011">You do not possess this ring</text>
+<text id="99015012">Insufficient Primordial Fragments</text>
+<text id="99015013">Ring affixed</text>
+<text id="99015020">Affixes are used to empower accessories, 
+increasing the strength of their effects.
+
+This process requires Primordial Fragments, with each level of
+affixing requiring more.
+
+Basic: 2 Primordial Fragments
+Fine: 4 Primordial Fragments
+Superior: 6 Primordial Fragments
+Exquisite: 8 Primordial Fragments
+Legendary: 10 Primordial Fragments</text>
+<text id="99015100">Life Ring</text>
+<text id="99015101">Chloranthy Ring</text>
+<text id="99015102">Havel's Ring</text>
+<text id="99015103">Ring of Favor</text>
+<text id="99015104">Ring of Steel Protection</text>
+<text id="99015105">Flame Stoneplate Ring</text>
+<text id="99015106">Thunder Stoneplate Ring</text>
+<text id="99015107">Magic Stoneplate Ring</text>
+<text id="99015108">Dark Stoneplate Ring</text>
+<text id="99015109">Speckled Stoneplate Ring</text>
+<text id="99015110">Bloodbite Ring</text>
+<text id="99015111">Poisonbite Ring</text>
+<text id="99015112">Cursebite Ring</text>
+<text id="99015113">Fleshbite Ring</text>
+<text id="99015114">Wood Grain Ring</text>
+<text id="99015115">Scholar Ring</text>
+<text id="99015116">Priestess Ring</text>
+<text id="99015117">Red Tearstone Ring</text>
+<text id="99015118">Blue Tearstone Ring</text>
+<text id="99015119">Wolf Ring</text>
+<text id="99015120">Lingering Dragoncrest Ring</text>
+<text id="99015121">Sage Ring</text>
+<text id="99015122">Dusk Crown Ring</text>
+<text id="99015123">Darkmoon Ring</text>
+<text id="99015124">Bellowing Dragoncrest Ring</text>
+<text id="99015125">Witch's Ring</text>
+<text id="99015126">Ring of the Sun's First Born</text>
+<text id="99015127">Hawk Ring</text>
+<text id="99015128">Covetous Gold Serpent Ring</text>
+<text id="99015129">Covetous Silver Serpent Ring</text>
+<text id="99015130">Sun Princess Ring</text>
+<text id="99015131">Skull Ring</text>
+<text id="99015132">Knight's Ring</text>
+<text id="99015133">Hunter's Ring</text>
+<text id="99015134">Knight Slayer's Ring</text>
+<text id="99015135">Magic Clutch Ring</text>
+<text id="99015136">Lightning Clutch Ring</text>
+<text id="99015137">Fire Clutch Ring</text>
+<text id="99015138">Dark Clutch Ring</text>
+<text id="99015139">Flynn's Ring</text>
+<text id="99015140">Prisoner's Chain</text>
+<text id="99015141">Ring of the Evil Eye</text>
+<text id="99015142">Ring of Calamity</text>
+<text id="99015143">Farron Ring</text>
+<text id="99015144">Lloyd's Sword Ring</text>
+<text id="99015145">Lloyd's Shield Ring</text>
+<text id="99015146">Estus Ring</text>
+<text id="99015147">Focusing Ring</text>
+<text id="99015148">Horsehoof Ring</text>
+<text id="99015149">Pontiff's Right Eye</text>
+<text id="99015150">Pontiff's Left Eye</text>
+<text id="99015151">Dragonscale Ring</text>
+<text id="99015152">Chillbite Ring</text>
+<text id="99015153">Spirit Amethyst</text>
+<text id="99015154">Unholy Remains</text>
+<text id="99015155">Symbol of the Penitent</text>
+<text id="99015156">Tome of Sunlight</text>
+<text id="99015157">Demonsbane Ring</text>
+<text id="99015158">Crypt Ring</text>
+<text id="99015159">Blight Ring</text>
+<text id="99015160">Hallowed Ring</text>
+<text id="99015161">Ring of Wisdom</text>
+<text id="99015162">Ring of Retaliation</text>
+<text id="99015163">Ring of Reprisal</text>
+<text id="99015164">Ring of Spite</text>
+<text id="99015165">Ring of Retribution</text>
+<text id="99015166">Ring of Vengeance</text>
+<text id="99015167">Mercenary Ring</text>
+<text id="99015168">Heretic Ring</text>
+<text id="99015169">Merchant Ring</text>
+<text id="99015170">Physician Ring</text>
+<text id="99015171">Jester Ring</text>
+<text id="99015172">Londor Tincture</text>
+<text id="99015173">Old Pygmy Brooch</text>
+<text id="99015174">Bestial Band</text>
+<text id="99015175">Band of Stone</text>
+<text id="99015176">Band of Magic</text>
+<text id="99015177">Band of Flame</text>
+<text id="99015178">Band of Sparks</text>
+<text id="99015179">Band of Darkness</text>
+<text id="99015180">Elden Ring</text>
+<text id="99015181">Ring of Punishment</text>
+<text id="99015182">Relic of Power</text>
+<text id="99015183">Relic of Insanity</text>
+<text id="99015184">Tainted Chalice</text>
+<text id="99015185">Accursed Sigil</text>
+<text id="99015186">Frostflower Ring</text>
+<text id="99030000">You must possess the Dragon Talon to activate this object.</text>
+<text id="99030001">You must possess the Pilgrim's Soul to activate this object.</text>
+<text id="99030002">You must possess the Smouldering Key to activate this object.</text>
+<text id="99030003">You must possess the Eye of Londor to activate this object.</text>
+<text id="99030004">You must possess the Frozen Flower to activate this object.</text>
+<text id="99030005">You must possess the Broken Tablet to activate this object.</text>
+<text id="99030006">You must possess the Catacombs Key to activate this object.</text>
+<text id="99030007">You must possess the Giant's Soul to activate this object.</text>
+<text id="99030008">You must possess Smouldering Rubble to activate this object.</text>
+<text id="99030010">You must be embered to summon a companion.</text>
+<text id="99030020">This companion is dead.</text>
+<text id="99030030">Dead companions may be summoned again.</text>
+<text id="99030100">Corrupted Gundyr has not been killed 
+in this journey yet.</text>
+<text id="99030101">Vordt of the Boreal Valley has not 
+been killed in this journey yet.</text>
+<text id="99030102">Curse-rotted Greatwood has not been 
+killed in this journey yet.</text>
+<text id="99030103">Crystal Sage has not been killed 
+in this journey yet.</text>
+<text id="99030104">Deacons of the Deep has not been 
+killed in this journey yet.</text>
+<text id="99030105">Abyss Watchers has not been killed 
+in this journey yet.</text>
+<text id="99030106">High Lord Wolnir has not been killed 
+in this journey yet.</text>
+<text id="99030107">Old Demon King has not been killed 
+in this journey yet.</text>
+<text id="99030108">Pontiff Sulyvahn has not been killed 
+in this journey yet.</text>
+<text id="99030109">Aldrich has not been killed 
+in this journey yet.</text>
+<text id="99030110">Yhorm the Giant has not been killed 
+in this journey yet.</text>
+<text id="99030111">Dancer of the Boreal Valley has not 
+been killed in this journey yet.</text>
+<text id="99030112">Oceiros, the Consumed King has not 
+been killed in this journey yet.</text>
+<text id="99030113">Dragonslayer Armour has not been killed 
+in this journey yet.</text>
+<text id="99030114">Ancient Wyvern has not been killed 
+in this journey yet.</text>
+<text id="99030115">Nameless King has not been killed 
+in this journey yet.</text>
+<text id="99030116">Champion Gundyr has not been killed 
+in this journey yet.</text>
+<text id="99030117">Twin Princes has not been killed 
+in this journey yet.</text>
+<text id="99030118">Soul of Cinder has not been killed 
+in this journey yet.</text>
+<text id="99030119">Sister Friede has not been killed 
+in this journey yet.</text>
+<text id="99030120">Lordran Remnants has not been killed 
+in this journey yet.</text>
+<text id="99030121">Demon Prince has not been killed 
+in this journey yet.</text>
+<text id="99030122">Darkeater Midir has not been killed 
+in this journey yet.</text>
+<text id="99030123">Slave Knight Gael has not been killed 
+in this journey yet.</text>
+<text id="99030124">Halflight has not been killed 
+in this journey yet.</text>
+<text id="99030125">Frostfire Colossus has not been killed 
+in this journey yet.</text>
+<text id="99030200">Salve, Regina, Mater misericordiae...</text>
+<text id="99030201">...vita, dulcedo, et spes nostra, salve.</text>
+<text id="99030202">Ad te clamamus exsules filii Hevae...</text>
+<text id="99030203">Ad te suspiramus, gementes et flentes...</text>
+<text id="99030204">...in hac lacrimarum valle.</text>
+<text id="99030205">Eia, ergo, advocata nostra, illos tuos...</text>
+<text id="99030206">...misericordes oculos ad nos converte.</text>
+<text id="99030207">Et Gwyn, benedictum fructum ventris tui...</text>
+<text id="99030208">...nobis post hoc exsilium ostende.</text>
+<text id="99030209">O clemens, O pia, O dulcis Gwynevere.</text>
+<text id="99030300">You are currently in Journey 1.</text>
+<text id="99030301">You are currently in Journey 2.</text>
+<text id="99030302">You are currently in Journey 3.</text>
+<text id="99030303">You are currently in Journey 4.</text>
+<text id="99030304">You are currently in Journey 5.</text>
+<text id="99030305">You are currently in Journey 6.</text>
+<text id="99030306">You are currently in Journey 7.</text>
+<text id="99030307">You are currently in Journey 8 or beyond.</text>
+<text id="99030400">It's locked, requires Forgotten Key</text>
+<text id="99030401">It's locked, requires Soldier's Key</text>
+<text id="99030402">It's locked, requires Knight's Key</text>
+<text id="99030403">It's locked, requires Buried Key</text>
+<text id="99030404">It's locked, requires Dragon Talon</text>
+<text id="99030405">It's locked, requires Plagued Key</text>
+<text id="99030406">It's locked, requires Scholar's Key</text>
+<text id="99030407">It's locked, requires Afflicted Key</text>
+<text id="99030408">It's locked, requires Smouldering Key</text>
+<text id="99030409">It's locked, requires Shivering Key</text>
+<text id="99030410">It's locked, requires Profaned Key</text>
+<text id="99030411">It's locked, requires Frozen Flower</text>
+<text id="99030412">It's locked, requires Dreg Key</text>
+<text id="99030413">It's locked, requires Burning Key</text>
+<text id="99030500">Training</text>
+<text id="99030501">Bring me any ritual incense you find.
+In exchange I can offer training for your companions.
+Don't tarry now, on you go.</text>
+<text id="99030510">Good gracious!
+You are a most ferverous lover, my dear.
+Take this token of my love.</text>
+<text id="99030511">You have returned to dear Ellie?
+All thanks to my ritual you see.</text>
+<text id="99030512">Where is my ritual incense?
+You don't have any? Get out of here then.</text>
+<text id="99030513">A marriage proposal?
+Well, well, well, you are a looker, so yes,
+I accept your offer.</text>
+<text id="99030600">Reinforce Focusing Crystal</text>
+<text id="99030601">Reinforce crystal?</text>
+<text id="99030603">No Resonating Crystal</text>
+<text id="99030604">Focusing Crystal reinforced</text>
+<text id="99030610">Very good, very good indeed.
+Here, take this token of my appreciation.</text>
+<text id="99030611">Cursed one, you lack charm.
+Heh heh heh...</text>
+<text id="99030612">Crystals! I need crystals! You cursed fool!
+Bigger, stronger crystals! Heh heh...</text>
+<text id="99030613">Well! This is a most peculiar proposal.
+Prepare to peer straight into the heart of magic.
+Heh heh heh...</text>
+<text id="99030615">Still a bit stiff, I'm afraid.
+I am Grudore. A wandering sorcerer of sorts.
+Bring me resonating crystals and I can provide
+goods and services that may be of use to you.</text>
+<text id="99030620">Give Farron Coal</text>
+<text id="99030621">Give Sage's Coal</text>
+<text id="99030622">Give Giant's Coal</text>
+<text id="99030623">Give Profaned Coal</text>
+<text id="99030625">Thank you. This coal will help me greatly.
+Heh heh heh...</text>
+<text id="99030710">Incredible. You are certainly persuasive.
+Here, take this token of appreciation.</text>
+<text id="99030711">An apt query, but it is not the time for such questions.</text>
+<text id="99030712">You are a guest of our castle. 
+But do not bother me further.</text>
+<text id="99030713">Is this... some sort of a dream?
+Of course, I accept your proposal.</text>
+<text id="99030715">I am a collector of sorts.
+Feel free to peruse my collection. 
+For the right amount of souls, I may be willing 
+to part with some items of interest.</text>
+</entries>
+</fmg>
