@@ -76,6 +76,10 @@
 #------------------------------
 # Classes
 - Changed the starting armor set of the Heretic (end of an era).
+- Changed the starting armor set of the Summoner.
+
+# Spells
+- Changed Whisper of Despair bullet vfx to the blue skull.
 
 # Rings
 - Changed Prisoner's Chain to:
@@ -93,6 +97,9 @@
  - [+3] Increases <stat> by 12
  - [+4] Increases <stat> by 14
  - [+5] Increases <stat> by 16
+ 
+# Map
+- Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
 
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
