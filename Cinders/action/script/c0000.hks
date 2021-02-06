@@ -9058,7 +9058,7 @@ function DrawStanceRightLoop_Upper_onUpdate()
         r2 = "W_DrawStanceRightAttackHeavyL90"
         b1 = "W_DrawStanceRightAttackLightL90"
         b2 = "W_DrawStanceRightAttackHeavyL90"
-    elseif env(1116, 100744) == TRUE and 25 > env(2016) then -- Endless Winter Stance Low FP Switch
+    elseif env(1116, 100744) == TRUE and 75 > env(2016) then -- Endless Winter Stance Low FP Switch
         r1 = "W_DrawStanceRightAttackLight2"
         r2 = "W_DrawStanceRightAttackLight2"
         b1 = "W_DrawStanceRightAttackLight2"
@@ -9083,7 +9083,7 @@ function DrawStanceRightLoop_Upper_onUpdate()
 			if style == HAND_LEFT_BOTH then
 				hand = HAND_LEFT
 			end
-			if 25 > env(2016) or env(311, hand) == 0 or env(262, hand) == TRUE then -- Lacks FP, Weapon Broken, or IsAbilityInsufficient
+			if 75 > env(2016) or env(311, hand) == 0 or env(262, hand) == TRUE then -- Lacks FP, Weapon Broken, or IsAbilityInsufficient
 				ExecEventAllBody("W_DrawStanceRightAttackLight2")
 				return
 			else

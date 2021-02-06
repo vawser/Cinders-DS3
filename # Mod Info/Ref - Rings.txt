@@ -492,11 +492,11 @@
 # Prisoner's Chain
 - Weight: 2
 - [+0] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
-- [+1] Grants 10 Vigor, Endurance and Vitality but reduces absorption by 10%.
-- [+2] Grants 15 Vigor, Endurance and Vitality but reduces absorption by 10%.
-- [+3] Grants 20 Vigor, Endurance and Vitality but reduces absorption by 10%.
-- [+4] Grants 25 Vigor, Endurance and Vitality but reduces absorption by 10%.
-- [+5] Grants 30 Vigor, Endurance and Vitality but reduces absorption by 10%.
+- [+1] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 9%.
+- [+2] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 8%.
+- [+3] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 7%.
+- [+4] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 6%.
+- [+5] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 5%.
 
 # Obscuring Ring
 - Weight: 0.5

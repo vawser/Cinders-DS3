@@ -77,6 +77,15 @@
 # Classes
 - Changed the starting armor set of the Heretic (end of an era).
 
+# Rings
+- Changed Prisoner's Chain to:
+ - [+0] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
+ - [+1] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 9%.
+ - [+2] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 8%.
+ - [+3] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 7%.
+ - [+4] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 6%.
+ - [+5] Grants 5 Vigor, Endurance and Vitality but reduces absorption by 5%.
+
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
 - Fixed Forlorn's location in Road of Sacrifices.
@@ -94,15 +103,7 @@ Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
 
-Change the heretic's starting set
-
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
-
 The Painter doesn't have a name in her menu.
-
-kindling bonfire animation at game start spawn
-
-uninfused porcine shield and it turns into ¿GoodsName?
-
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free
 
