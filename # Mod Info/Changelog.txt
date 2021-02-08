@@ -81,6 +81,7 @@
 # Weapons
 - Changed Fire infusion back to regular elemental scaling (not psudo-raw).
 - Increased the INT/FTH multipliers for Fire and Dark so the triple stat investment is worth slightly more.
+- Increased the FP cost of Combustion, Abyssal Grasp, Divine Retribution, Beckon Soul WAs.
 
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
@@ -88,6 +89,10 @@
 # Rings
 - Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
 - Changed the +stat rings to: Increases <stat> by 6/8/10/12/14/16
+
+# Items
+- Increased the FP cost of the spellbound items.
+- Increased FP cost of Opus of Divinity to 100.
 
 # Map
 - Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
@@ -113,7 +118,5 @@ Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
 Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
-The Painter doesn't have a name in her menu.
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free
-
 

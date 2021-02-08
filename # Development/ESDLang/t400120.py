@@ -234,8 +234,9 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
             return 0
         # Seduce
         elif GetTalkListEntryResult() == 33:
-            SetEventState(25008903, 1)
-            OpenGenericDialog(1, 99030720, 0, 0, 0)
+            # BONK!
+            assert t400120_x29(text1=12003600)
+            #OpenGenericDialog(1, 99030720, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 6,14 """
@@ -719,3 +720,15 @@ def t400120_x28(action2=_):
         """ State 4 """
         return 1
 
+# BONK!
+def t400120_x29(text1=_):
+    """ State 0,4 """
+    assert t400120_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, 0)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    ReportConversationEndToHavokBehavior()
+    SetEventState(25008903, 1)
+    """ State 5 """
+    return 0
