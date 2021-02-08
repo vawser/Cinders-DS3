@@ -2153,6 +2153,7 @@ Persisting will transform you into a grub.</text>
 <text id="15015040">Propose Marriage</text>
 <text id="15015041">Flirt</text>
 <text id="15015042">Divorce</text>
+<text id="15015043">Seduce</text>
 <text id="15015050">Give Dark Tome</text>
 <text id="15015060">Give Accursed Signet</text>
 <text id="15016000">Learn Miracles</text>
@@ -3949,5 +3950,7 @@ Of course, I accept your proposal.</text>
 Feel free to peruse my collection. 
 For the right amount of souls, I may be willing 
 to part with some items of interest.</text>
+
+<text id="99030720">BONK!</text>
 </entries>
 </fmg>

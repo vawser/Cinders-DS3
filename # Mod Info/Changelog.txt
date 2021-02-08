@@ -92,6 +92,10 @@
 # Map
 - Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
 
+# NPCs
+- Reverted the Painter esd back to the original, removed the relationship stuff.
+- Added a new option to the Fire Keeper: Seduce, which will send you to horny jail.
+
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
 - Fixed Forlorn's location in Road of Sacrifices.
@@ -111,4 +115,5 @@ Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
 When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
 The Painter doesn't have a name in her menu.
 Fix jump from Shiv/Ring of Grace not working when left-hand is not free
+
 

@@ -162,6 +162,8 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         AddTalkListDataIf(GetEventStatus(25008020) == 1, 31, 15015041, -1)
         # Divorce
         AddTalkListDataIf(GetEventStatus(25008020) == 1, 32, 15015042, -1)
+        # Seduce
+        AddTalkListDataIf(GetEventStatus(25008020) == 1, 33, 15015043, -1)
         
         # Talk
         AddTalkListData(20, 15000000, -1)
@@ -229,6 +231,11 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
             SetEventState(25008020, 0)
             GetItemFromItemLot(800001300)
             OpenGenericDialog(1, 99012012, 0, 0, 0)
+            return 0
+        # Seduce
+        elif GetTalkListEntryResult() == 33:
+            SetEventState(25008903, 1)
+            OpenGenericDialog(1, 99030720, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 6,14 """
