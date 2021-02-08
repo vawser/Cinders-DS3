@@ -77,14 +77,18 @@
 # Classes
 - Changed the starting armor set of the Heretic (end of an era).
 - Changed the starting armor set of the Summoner.
+- Assassin now starts with the Ring of Grace instead of the Silvercat Ring.
 
 # Weapons
 - Changed Fire infusion back to regular elemental scaling (not psudo-raw).
 - Increased the INT/FTH multipliers for Fire and Dark so the triple stat investment is worth slightly more.
 - Increased the FP cost of Combustion, Abyssal Grasp, Divine Retribution, Beckon Soul WAs.
+- Changed the Black Flame VFX to one that matches the dark sorceries VFX (no longer the Dark Hand VFX).
+- Increased the FP cost of Wrath of the Gods WA for the Saint's Talisman to 40.
 
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
+- Dark Blade secondary effect is now boosts all absorptions by 10% (25% when ascended).
 
 # Rings
 - Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
@@ -117,7 +121,4 @@
 #------------------------------
 Check: Eleonora WA
 Check: 2h kick from the crow talons is broken
-Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack
-When using Abbysal Edge with the Throbbing enchantment (ascended), it makes the can't use animation
-Fix jump from Shiv/Ring of Grace not working when left-hand is not free
-
+Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack (missing dmy polys?)
