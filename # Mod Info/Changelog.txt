@@ -99,7 +99,7 @@
 
 # NPCs
 - Reverted the Painter esd back to the original, removed the relationship stuff.
-- Added a new option to the Fire Keeper: Seduce, which will send you to horny jail.
+- Added a new option to the Fire Keeper: Seduce (BONK!).
 
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
@@ -110,6 +110,7 @@
 - Fixed Ascended Numbness not applying the camera change.
 - Fixed Ascended Abyssal Edge not using the ascended attack.
 - Wanderer's Set should no longer make you invisible.
+- Easy Jump/Kick effects now work properly if the left-hand has an item equipped.
 
 #------------------------------
 # TODO - General

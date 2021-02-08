@@ -1380,6 +1380,23 @@ end
 
 function ExecGuard(event, blend_type)
     if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
+        -- Jump Action Override
+        if env(1116, 112007) == TRUE then
+            AddStamina(-10)
+            ExecEventAllBody("W_Jump")
+            return TRUE
+        end
+        
+        -- Horsehoof Ring
+        if env(1116, 112090) == TRUE then
+            if style == HAND_RIGHT_BOTH then
+                ExecEventAllBody("W_AttackBothLightKick")
+            else
+                ExecEventAllBody("W_AttackRightLightKick")
+            end
+            return TRUE
+        end
+            
         if env(1001) <= 0 then -- GetStamina
             return FALSE
         elseif IsEnableGuard() == TRUE then
@@ -1402,25 +1419,6 @@ function ExecGuard(event, blend_type)
             SetVariable("IndexGuardStyle", guardindex)
             if blend_type == ALLBODY and MoveStart(LOWER, Event_MoveLong, FALSE) == TRUE then
                 blend_type = UPPER
-            end
-            
-            -- Jump Action Override
-            if env(1116, 112007) == TRUE then
-                AddStamina(-10)
-                ExecEventAllBody("W_Jump")
-            else
-                ExecEventHalfBlend(event, blend_type)
-            end
-            
-            -- Horsehoof Ring
-            if env(1116, 112090) == TRUE then
-                if style == HAND_RIGHT_BOTH then
-                    ExecEventAllBody("W_AttackBothLightKick")
-                else
-                    ExecEventAllBody("W_AttackRightLightKick")
-                end
-            else
-                ExecEventHalfBlend(event, blend_type)
             end
             
             -- Sidearms

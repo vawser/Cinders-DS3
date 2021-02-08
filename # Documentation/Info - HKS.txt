@@ -145,7 +145,7 @@ Returns TRUE or FALSE.
 303 IsReachBottomOfLadder 			    # はしご下到着か
 304 IsReachTopOfLadder 			        # はしご上到着か
 305 GetStateChangeType 			        # 状態変化タイプを取得
-    <condition type> # Stare Info enum
+    <condition type> # State Info enum
 306 IsOnLastRungOfLadder 			    # はしごの最終段にいるか
 311 GetWeaponDurability 			    # 武器の耐久度を取得
 312 IsWeaponBroken 			            # 耐久度で分岐するか
