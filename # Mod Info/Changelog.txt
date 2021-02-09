@@ -85,6 +85,7 @@
 - Increased the FP cost of Combustion, Abyssal Grasp, Divine Retribution, Beckon Soul WAs.
 - Changed the Black Flame VFX to one that matches the dark sorceries VFX (no longer the Dark Hand VFX).
 - Increased the FP cost of Wrath of the Gods WA for the Saint's Talisman to 40.
+- Bulwark Shield now has the following effect: increases Dark absorption by 10%.
 
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
@@ -119,6 +120,4 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Check: Eleonora WA
-Check: 2h kick from the crow talons is broken
-Check: Bone Rapier in the off hand has a broken hitbox on the L1 attack (missing dmy polys?)
+
