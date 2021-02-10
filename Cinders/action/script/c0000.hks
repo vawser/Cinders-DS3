@@ -1380,23 +1380,6 @@ end
 
 function ExecGuard(event, blend_type)
     if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
-        -- Jump Action Override
-        if env(1116, 112007) == TRUE then
-            AddStamina(-10)
-            ExecEventAllBody("W_Jump")
-            return TRUE
-        end
-        
-        -- Horsehoof Ring
-        if env(1116, 112090) == TRUE then
-            if style == HAND_RIGHT_BOTH then
-                ExecEventAllBody("W_AttackBothLightKick")
-            else
-                ExecEventAllBody("W_AttackRightLightKick")
-            end
-            return TRUE
-        end
-            
         if env(1001) <= 0 then -- GetStamina
             return FALSE
         elseif IsEnableGuard() == TRUE then
@@ -1419,6 +1402,25 @@ function ExecGuard(event, blend_type)
             SetVariable("IndexGuardStyle", guardindex)
             if blend_type == ALLBODY and MoveStart(LOWER, Event_MoveLong, FALSE) == TRUE then
                 blend_type = UPPER
+            end
+            
+            -- Jump Action Override
+            if env(1116, 112007) == TRUE then
+                AddStamina(-10)
+                ExecEventAllBody("W_Jump")
+            else
+                ExecEventHalfBlend(event, blend_type)
+            end
+            
+            -- Horsehoof Ring
+            if env(1116, 112090) == TRUE then
+                if style == HAND_RIGHT_BOTH then
+                    ExecEventAllBody("W_AttackBothLightKick")
+                else
+                    ExecEventAllBody("W_AttackRightLightKick")
+                end
+            else
+                ExecEventHalfBlend(event, blend_type)
             end
             
             -- Sidearms
@@ -9056,7 +9058,7 @@ function DrawStanceRightLoop_Upper_onUpdate()
         r2 = "W_DrawStanceRightAttackHeavyL90"
         b1 = "W_DrawStanceRightAttackLightL90"
         b2 = "W_DrawStanceRightAttackHeavyL90"
-    elseif env(1116, 100744) == TRUE and 75 > env(2016) then -- Endless Winter Stance Low FP Switch
+    elseif env(1116, 100744) == TRUE and 25 > env(2016) then -- Endless Winter Stance Low FP Switch
         r1 = "W_DrawStanceRightAttackLight2"
         r2 = "W_DrawStanceRightAttackLight2"
         b1 = "W_DrawStanceRightAttackLight2"
@@ -9081,7 +9083,7 @@ function DrawStanceRightLoop_Upper_onUpdate()
 			if style == HAND_LEFT_BOTH then
 				hand = HAND_LEFT
 			end
-			if 75 > env(2016) or env(311, hand) == 0 or env(262, hand) == TRUE then -- Lacks FP, Weapon Broken, or IsAbilityInsufficient
+			if 25 > env(2016) or env(311, hand) == 0 or env(262, hand) == TRUE then -- Lacks FP, Weapon Broken, or IsAbilityInsufficient
 				ExecEventAllBody("W_DrawStanceRightAttackLight2")
 				return
 			else
@@ -16331,7 +16333,7 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
     if env(1116, trigger_effect) == TRUE then
         if env(1116, 112170) ~= TRUE and env(1116, 112171) ~= TRUE and env(1116, 112172) ~= TRUE and env(1116, 112173) ~= TRUE and env(1116, 112174) ~= TRUE and env(1116, 112175) ~= TRUE then
             
-            -- Randomise cooldown duration
+            -- Randomise cooldownd duration
             local roll = math.random(0, 100)
             if roll >= 0 and roll < 10 then
                 act(2002, 112170)

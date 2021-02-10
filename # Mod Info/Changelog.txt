@@ -115,9 +115,8 @@
 - Fixed Ascended Numbness not applying the camera change.
 - Fixed Ascended Abyssal Edge not using the ascended attack.
 - Wanderer's Set should no longer make you invisible.
-- Easy Jump/Kick effects now work properly if the left-hand has an item equipped.
+- Changed VFX for Writ of Immolation/Divinity.
 
 #------------------------------
 # TODO - General
 #------------------------------
-
