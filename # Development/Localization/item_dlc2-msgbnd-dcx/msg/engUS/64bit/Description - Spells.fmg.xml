@@ -1099,9 +1099,10 @@ Lasts 30 seconds.
 Ascended Effect: increases duration to 60 seconds.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
-<text id="2714000">A pyromancy that creates imbues the caster with flame, allowing it to jump out towards foes. Needless to say, this is a perilous spell can burn the caster while active.
+<text id="2714000">A pyromancy that creates imbues the caster with flame.
+Needless to say, this is a perilous spell that burns the caster.
 
-Immolate oneself, causing fire pillars to appear nearby for 15 seconds, harming both friend and foe.
+Immolate oneself for 25% HP, leaving a trail of fire in your wake for 15 seconds.
 
 Ascended Effect: increases duration to 30 seconds.
 

@@ -511,10 +511,10 @@
 #--------------------------------
 # Immolation
 #--------------------------------
-- FP Cost: 10
-- Fire Damage: 200 {800}
-- Base Effect: for 15 seconds, summons fire pillars around the player that harm enemies and the player alike.
-- Ascended Effect: increases duration to 30 seconds.
+- FP Cost: 30
+- Fire Damage: 50 per tick
+- Base Effect: consumes 5% of player's HP, causes a fire trail to appear in their wake for 8 seconds, dealing Fire damage to any enemy that touches it.
+- Ascended Effect: increases duration to 12 seconds.
 
 #--------------------------------
 # Fecal Explusion

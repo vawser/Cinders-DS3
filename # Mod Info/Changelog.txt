@@ -100,6 +100,7 @@
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
 - Dark Blade secondary effect is now boosts all absorptions by 10% (25% when ascended).
+- Immolation spell is now: Immolate oneself for 25% HP, leaving a trail of fire in your wake for 15 seconds. The fire deals 50 Fire damage per tick. Lasts for 30 seconds when ascended.
 
 # Rings
 - Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
