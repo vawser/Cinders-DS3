@@ -106,6 +106,7 @@
 # Rings
 - Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
 - Changed the +stat rings to: Increases <stat> by 6/8/10/12/14/16
+- Deep Ring effect is now: Periodically leave a wake of abyssal explosions behind you.
 
 # Items
 - Increased the FP cost of the spellbound items.
@@ -132,6 +133,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
-19540200
+220003300
 
-4130700
+442333
