@@ -1349,8 +1349,8 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Base Effect: adds 60 Dark damage to main weapon and restores 0.25% HP per second for 60 seconds.
-- Ascended Effect: increses HP Restoration to 0.5% per second.
+- Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10%.
+- Ascended Effect: increases Dark absorption by 25%.
 
 #--------------------------------
 # Atonement
