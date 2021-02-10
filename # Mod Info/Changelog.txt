@@ -32,20 +32,41 @@
 #------------------------------
 31450000 Aldia Hammer                    - Club
     Custom Warcry
+
+31510000 Drakewing Ultra Greatsword      - Greatsword
+    Shoot Wind projectile with charged heavy
+    Wind Wall WA
+
+31540000 Helix Halberd                   - Halberd
+    Staggering Dart WA
+    
+31550000 Malformed Skull                 - Great Club
+    Dragon Roar WA
+    
+31610000 Roaring Halberd                 - Halberd
+    Dark Roar WA
+    
+31620000 Sanctum Mace                    - Great Mace
+    Poison burst WA
+    
+31630000 Spider's Silk                   - Rapier
+    Guard bypass
+    
+31640000 Spitfire Spear                  - Spear
+    Heavy Attack: shoot fireball
+    WA: shoot multiple fireballs
+
+31670000 Ivory King Ultra Greatsword     - Greatsword
+    Beam of light whilst 2H
+
+
 31460000 Black Scorpion Stinger          - Estoc
 31470000 Dragonrider Twinblade           - Splitleaf Greatsword
 31480000 Dragon Hunter's Great Hammer    - Great Club 
 31490000 Dragon Hunter's Greataxe        - Demon's Great Axe 
 31500000 Dragon Hunter's Warpick         - Pickaxe
-31510000 Drakewing Ultra Greatsword      - Greatsword
-    Shoot Wind projectile with charged heavy
-    Wind Wall WA
 31520000 Gargoyle Bident                 - Saint Bident 
 31530000 Giant Warrior Club              - Great Club 
-31540000 Helix Halberd                   - Halberd
-    Staggering Dart WA
-31550000 Malformed Skull                 - Great Club
-    Dragon Roar WA
 31560000 Melu Scimitar                   - Falchion
 31570000 Old Knight Halberd              - Halberd
     +100 overall category damage, but low durability
@@ -53,20 +74,9 @@
     +100 overall category damage, but low durability
 31590000 Old Knight Pike                 - Pike
     +100 overall category damage, but low durability
-31600000 Red Rust Scimitar               - Scimitar
-31610000 Roaring Halberd                 - Halberd
-    Dark Roar WA
-31620000 Sanctum Mace                    - Great Mace
-    Poison burst WA
-31630000 Spider's Silk                   - Rapier
-    Guard bypass
-31640000 Spitfire Spear                  - Spear
-    Heavy Attack: shoot fireball
-    WA: shoot multiple fireballs
+31600000 Red Rust Sword                  - Scimitar
 31650000 Syan's Halberd                  - Halberd
 31660000 Warped Sword                    - Falchion
-31670000 Ivory King Ultra Greatsword     - Greatsword
-    Beam of light whilst 2H
 31680000 Stone Greataxe                  - Demon's Great Axe 
 31690000 Gargoyle Halberd                - Halberd
 31700000 Gargoyle Tail Axe               - Battle Axe
@@ -120,4 +130,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-DebugAnimSpeed
