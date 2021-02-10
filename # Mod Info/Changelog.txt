@@ -96,6 +96,7 @@
 - Changed the Black Flame VFX to one that matches the dark sorceries VFX (no longer the Dark Hand VFX).
 - Increased the FP cost of Wrath of the Gods WA for the Saint's Talisman to 40.
 - Bulwark Shield now has the following effect: increases Dark absorption by 10%.
+- Smouldering Talisman WA is now like the new Immolation.
 
 # Spells
 - Changed Whisper of Despair bullet vfx to the blue skull.
@@ -131,3 +132,6 @@
 #------------------------------
 # TODO - General
 #------------------------------
+19540200
+
+4130700
