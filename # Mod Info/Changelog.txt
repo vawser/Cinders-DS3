@@ -11,21 +11,21 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002077 Cemetery of Ash / Unturned Graves
-53002107 High Wall of Lothric / Consumed King's Garden
-53102095 Undead Settlement
-53302183 Road of Sacrifices / Farron Keep
-53502084 Cathedral of the Deep
-53802179 Catacombs of Carthus / Smouldering Lake
-53702158 Irithyll of the Boreal Valley / Anor Londo
-53902122 Irithyll Dungeon / Profaned Capital
-53012091 Lothric Castle
-53412135 Grand Archives
-54102012 Kiln of the First Flame
-53202077 Archdragon Peak
-54502076 Painted World of Ariandel
-55002070 Dreg Heap
-55102065 The Ringed City
+54002079 Cemetery of Ash / Unturned Graves
+53002110 High Wall of Lothric / Consumed King's Garden
+53102096 Undead Settlement
+53302185 Road of Sacrifices / Farron Keep
+53502085 Cathedral of the Deep
+53802181 Catacombs of Carthus / Smouldering Lake
+53702160 Irithyll of the Boreal Valley / Anor Londo
+53902123 Irithyll Dungeon / Profaned Capital
+53012092 Lothric Castle
+53412136 Grand Archives
+54102014 Kiln of the First Flame
+53202079 Archdragon Peak
+54502079 Painted World of Ariandel
+55002071 Dreg Heap
+55102068 The Ringed City
 
 #------------------------------
 # Weapons
@@ -111,6 +111,8 @@
 # Items
 - Increased the FP cost of the spellbound items.
 - Increased FP cost of Opus of Divinity to 100.
+- The boss respawn tomes are now dropped by the bosses once again, and act like tools, rather than consumables.
+- Tome: Champions of Yore is dropped by Lord Zakar.
 
 # Map
 - Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
