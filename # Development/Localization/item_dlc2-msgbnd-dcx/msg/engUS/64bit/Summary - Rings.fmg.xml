@@ -1184,5 +1184,19 @@
 
 <text id="30970">Standing still to gain Gwynevere's Blessing</text>
 
+<text id="30980">Increases the duration of a companion summon</text>
+
+<text id="30990">Boosts the damage of companions</text>
+
+<text id="31000">Boosts the absorption of companions</text>
+
+<text id="31010">Boosts the poise of companions</text>
+
+<text id="31020">Boosts the HP of companions</text>
+
+<text id="31030">Companions now restore HP per second</text>
+
+<text id="31040">Companions now gain additional stamina recovery</text>
+
 </entries>
 </fmg>

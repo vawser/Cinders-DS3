@@ -110,7 +110,6 @@
 
 # Items
 - Increased the FP cost of the spellbound items.
-- Increased FP cost of Opus of Divinity to 100.
 - The boss respawn tomes are now dropped by the bosses once again, and act like tools, rather than consumables.
 - Tome: Champions of Yore is dropped by Lord Zakar.
 
@@ -120,6 +119,19 @@
 # NPCs
 - Reverted the Painter esd back to the original, removed the relationship stuff.
 - Added a new option to the Fire Keeper: Seduce (BONK!).
+
+# Companions
+- Increased FP cost of the Opus items.
+- Ritualist Pact now enables hollow summoning of companions and for multiple to summoned concurrently.
+- Companions are now summoned for 30 seconds, and disappear after 30 seconds. They can be re-summoned after this period, but cannot be whilst active.
+- Added the following rings:
+ - Dial of Obedience: increases duration of a companion to 60 seconds.
+ - Offering of Might: Boosts the damage of companions by 50% whilst worn.
+ - Offering of Tenacity: Boosts the absorption of companions by 20% whilst worn.
+ - Offering of Fortitude: Boosts the poise of companions by 100 whilst worn.
+ - Offering of Vitality: Boosts the HP of companions by 100% whilst worn.
+ - Offering of Companions now restore 1% HP per second whilst worn.
+ - Offering of Fervor: Companions now gain an additional 30 stamina recovery whilst worn.
 
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
@@ -135,3 +147,14 @@
 #------------------------------
 # TODO - General
 #------------------------------
+Beacon of Friendship: 
+ Ring that extends companion duration by 30 seconds.
+
+7013 Offering of Might      # Damage %      201600
+7019 Offering of Tenacity   # Absorption    201602
+7020 Offering of Fortitude  # Poise         201603
+7021 Offering of Vitality   # Max HP        201601
+7022 Offering of Devotion   # HP regen      201601
+7023 Offering of Fervor     # Stamina recovery  201603
+
+30980   # 201606

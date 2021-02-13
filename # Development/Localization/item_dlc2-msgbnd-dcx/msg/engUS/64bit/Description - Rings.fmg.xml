@@ -175,7 +175,7 @@ Enables the collection of Rat Tails from enemies.</text>
 <text id="10180">Sigil of the ritualists.
 Humans that utilise rituals must wear this crest at all times to signify their allegiance to cause.
 
-Summoning a companion will restore 20% of their HP.
+Allows the summoning of a companion whilst hollow and for multiple companions to be summoned simultaneously.
 
 Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
 
@@ -3681,6 +3681,41 @@ Stand still in contemplation to gain Gwynevere's Blessing, granting one the chan
 Can only be triggered every 60 seconds.
 
 Through daily discipline and concerted effort, all shall find peace in the Sun Princess.</text>
+
+<text id="30980">Metal dial crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Increases the duration of a companion summon to 60 seconds whilst worn.</text>
+
+<text id="30990">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Boosts the damage of companions by 50% whilst worn.</text>
+
+<text id="31000">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Boosts the absorption of companions by 20% whilst worn.</text>
+
+<text id="31010">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Boosts the poise of companions by 100 whilst worn.</text>
+
+<text id="31020">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Boosts the HP of companions by 100% whilst worn.</text>
+
+<text id="31030">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Companions now restore 1% HP per second whilst worn.</text>
+
+<text id="31040">Ritual offering crafted by Ritualist Ellie.
+Imbued with occult power.
+
+Companions now gain an additional 30 stamina recovery whilst worn.</text>
 
 </entries>
 </fmg>

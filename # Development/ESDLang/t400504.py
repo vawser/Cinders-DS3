@@ -175,7 +175,7 @@ def t400504_x9():
         AddTalkListDataIf(GetEventStatus(25009520) == 1, 1, 15010004, -1)
         
         # Tomes
-        AddTalkListData(3, 99002532, -1)
+        # AddTalkListData(3, 99002532, -1)
         
         # Relics
         AddTalkListData(7, 99003501, -1)
@@ -204,9 +204,6 @@ def t400504_x9():
         # Offerings
         if GetTalkListEntryResult() == 1:
             OpenRegularShop(260000, 260899)
-            continue
-        elif GetTalkListEntryResult() == 3:
-            OpenRegularShop(260900, 260999)
             continue
         elif GetTalkListEntryResult() == 2:
             OpenGenericDialog(1, 99010002, 0, 0, 0)

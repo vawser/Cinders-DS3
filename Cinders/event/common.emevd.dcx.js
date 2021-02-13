@@ -108,6 +108,7 @@ Event(0, Default, function() {
     InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
     InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
     InitializeEvent(22, 970, 14500860, 2310, 0, 0); // Lordran Remnants
+    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
     InitializeEvent(23, 970, 15000800, 2330, 0, 0); // Demon Prince
     InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
@@ -1573,6 +1574,8 @@ Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9326);
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9327);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9327);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9328); // Frostfire Colossus
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9328);
     GotoIfComparison(Label.LABEL0, ComparisonType.NotEqual, X24_4, 1);
     
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9300, 9309);
@@ -1832,15 +1835,9 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20123, 0); // Slave Knight Gael
     InitializeEvent(0, 20124, 0); // Halflight
     InitializeEvent(0, 20125, 0); // Champions of Yore
+    InitializeEvent(0, 20126, 0); // Frostfire Colossus
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
-    InitializeEvent(0, 20041, 20000, 25000600); // Health
-    InitializeEvent(1, 20041, 20001, 25000601); // Power
-    InitializeEvent(2, 20041, 20002, 25000602); // Toughness
-    InitializeEvent(3, 20041, 20003, 25000603); // Restoration
-    InitializeEvent(4, 20041, 20004, 25000604); // Poise
-    InitializeEvent(5, 20041, 20005, 25000605); // Mass Summoning
-    InitializeEvent(6, 20041, 20006, 25000606); // Hollow Summoning
 });
 
 // Setup - Host and Client
@@ -1927,6 +1924,7 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(25001023, OFF); // Darkeater Midir 
     SetEventFlag(25001024, OFF); // Slave Knight Gael
     SetEventFlag(25001025, OFF); // Halflight
+    SetEventFlag(25001026, OFF); // Frostfire Colossus
 
     SetEventFlag(25000099, ON); // Execution flag
 });
@@ -3122,15 +3120,35 @@ Event(20125, Restart, function() {
     WarpPlayer(40, 0, 4000970);
 });
 
-// Companion - Item
-Event(20041, Restart, function(X0_4, X4_4) {
-    IfPlayerHasdoesntHaveItem(AND_01, ItemType.Goods, X0_4, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_01);
-    SetEventFlag(X4_4, OFF); // Disable if not owned
+//----------------------------------------------
+// Boss Revival - Frostfire Colossus
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20126, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100270, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001026);
     
-    IfPlayerHasdoesntHaveItem(AND_02, ItemType.Goods, X0_4, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
-    SetEventFlag(X4_4, ON); // Enable if owned
+    SetEventFlag(14500950, 0);
+    SetEventFlag(14500951, 0);
+    SetEventFlag(9328, 0);
+    SetEventFlag(6328, 0);
+    
+    SetPlayerRespawnPoint(4502959);
+    SetMapCeremony(45, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(45, 0, 4500982);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001026);
+    DisplayEpitaphMessage(99030125);
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+

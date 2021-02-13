@@ -1090,13 +1090,7 @@
 <text id="12310">Applies a helmet illusion</text>
 <text id="12311">Applies an armor illusion</text>
 <text id="12321">Applies an armor illusion</text>
-<text id="20000">Improves companion HP</text>
-<text id="20001">Improves companion damage</text>
-<text id="20002">Improves companion absorption</text>
-<text id="20003">Improves companion HP restoration</text>
-<text id="20004">Improves companion poise</text>
-<text id="20005">Enables multiple companions simultaneously</text>
-<text id="20006">Enables companion summoning whilst hollow</text>
+
 <text id="20050">Restores health to active companions</text>
 <text id="20051">Banish active companions from your world</text>
 <text id="20052">Incite active companions</text>
