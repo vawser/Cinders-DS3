@@ -6611,70 +6611,6 @@ Event(20080000, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Companion - Warp to Player
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080001, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
 // Companion - Tools
 // <entity id>
 // This handles the interaction tools have with a companion
@@ -7767,4 +7703,1282 @@ Event(20080029, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Companion 1: Solaire - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
 
+//----------------------------------------------
+// Companion 2: El Crabbo - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080101, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(299.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(599.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 3: Rocky - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080102, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(239.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 4: Sluggo - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080103, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(299.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(599.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 5: Father John - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080104, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(239.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 6: Gimbal - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080105, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 7: El Hueso - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080106, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(239.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 8: Moxie - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080107, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(179.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(359.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 9: Erekris - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080108, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 10: Metora - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080109, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(119.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 11: Farold - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080110, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 12: Zarloth - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080111, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 13: Praxos - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080112, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 14: Woof - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080113, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(179.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(359.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 15: Alfreda - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080114, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(19.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 16: Tazshi - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080115, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 17: Bazdulk - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080116, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 18: UNUSED - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080117, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 19: UNUSED - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080118, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Companion 20: UNUSED - Setup
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080119, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
+    WaitForConditionGroupState(PASS, AND_01);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SetSpeffect(10000, 160761300); // Clear current companions
+    
+    // Disabled at 0% HP
+    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
+    
+    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
+    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
+    DisplayEpitaphMessage(99030010);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4); // Damage scaling
+    SetSpeffect(X0_4, 160760100); // Summon effect
+    SetSpeffect(X0_4, 160761501); // Add "Active" effect
+    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    // Duration - Normal
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(29.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(59.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Desummon
+    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    SetCharacterBackreadState(X0_4, true);
+    
+    Label1();
+    EndUnconditionally(EventEndType.Restart);
+});

@@ -123,7 +123,7 @@
 # Companions
 - Increased FP cost of the Opus items.
 - Ritualist Pact now enables hollow summoning of companions and for multiple to summoned concurrently.
-- Companions are now summoned for 30 seconds, and disappear after 30 seconds. They can be re-summoned after this period, but cannot be whilst active.
+- Companions now appear for limited number of seconds at a time. They can be re-summoned after this period, but cannot be whilst active.
 - Added the following rings:
  - Dial of Obedience: increases duration of a companion to 60 seconds.
  - Offering of Might: Boosts the damage of companions by 50% whilst worn.
@@ -147,14 +147,22 @@
 #------------------------------
 # TODO - General
 #------------------------------
-Beacon of Friendship: 
- Ring that extends companion duration by 30 seconds.
+Add special ring for each companion
 
-7013 Offering of Might      # Damage %      201600
-7019 Offering of Tenacity   # Absorption    201602
-7020 Offering of Fortitude  # Poise         201603
-7021 Offering of Vitality   # Max HP        201601
-7022 Offering of Devotion   # HP regen      201601
-7023 Offering of Fervor     # Stamina recovery  201603
-
-30980   # 201606
+Solaire: 60         # 1 min
+El Crabbo: 300      # 5 min
+Rocky: 120          # 2 min
+Sluggo: 300         # 5 min
+Father John: 120    # 2 min
+Gimbal: 60          # 1 min
+El Hueso: 120       # 2 min      
+Moxie: 180          # 3 min
+Erekris: 30         # 30 sec
+Metora: 60          # 1 min
+Farold: 30          # 30 sec
+Zarloth: 30         # 30 sec
+Praxos: 30          # 30 sec
+Woof: 180           # 3 min
+Alfreda: 60         # 1 min
+Tashi: 30           # 30 sec
+Bazdulk: 30         # 30 sec
