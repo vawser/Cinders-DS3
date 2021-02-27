@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002079 Cemetery of Ash / Unturned Graves
+54002080 Cemetery of Ash / Unturned Graves
 53002110 High Wall of Lothric / Consumed King's Garden
 53102096 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
@@ -143,7 +143,7 @@
 - Fixed Ascended Abyssal Edge not using the ascended attack.
 - Wanderer's Set should no longer make you invisible.
 - Changed VFX for Writ of Immolation/Divinity.
-- Adjusted Lordran Remannts emevd, should allow the second and third bosses to appear for clients.
+- Adjusted Lordran Remnants emevd, should allow the second and third bosses to appear for clients.
 
 #------------------------------
 # TODO - General
