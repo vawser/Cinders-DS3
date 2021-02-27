@@ -112,6 +112,7 @@
 - Increased the FP cost of the spellbound items.
 - The boss respawn tomes are now dropped by the bosses once again, and act like tools, rather than consumables.
 - Tome: Champions of Yore is dropped by Lord Zakar.
+- Changed Inciting Bone to Beckoning Bone: allows you to recall active companions to your position.
 
 # Map
 - Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
@@ -124,6 +125,23 @@
 - Increased FP cost of the Opus items.
 - Ritualist Pact now enables hollow summoning of companions and for multiple to summoned concurrently.
 - Companions now appear for limited number of seconds at a time. They can be re-summoned after this period, but cannot be whilst active.
+ - Solaire: 60         # 1 min
+ - El Crabbo: 300      # 5 min
+ - Rocky: 120          # 2 min
+ - Sluggo: 300         # 5 min
+ - Father John: 120    # 2 min
+ - Gimbal: 60          # 1 min
+ - El Hueso: 120       # 2 min      
+ - Moxie: 180          # 3 min
+ - Erekris: 30         # 30 sec
+ - Metora: 60          # 1 min
+ - Farold: 30          # 30 sec
+ - Zarloth: 30         # 30 sec
+ - Praxos: 30          # 30 sec
+ - Woof: 180           # 3 min
+ - Alfreda: 60         # 1 min
+ - Tashi: 30           # 30 sec
+ - Bazdulk: 30         # 30 sec
 - Added the following rings:
  - Dial of Obedience: increases duration of a companion to 60 seconds.
  - Offering of Might: Boosts the damage of companions by 50% whilst worn.
@@ -144,27 +162,11 @@
 - Wanderer's Set should no longer make you invisible.
 - Changed VFX for Writ of Immolation/Divinity.
 - Adjusted Lordran Remnants emevd, should allow the second and third bosses to appear for clients.
+- Remy that Rat should no longer appear in Dark Firelink Shrine.
+- Fixed Hammer moveset Warcry charged attacks using less added damage and less aux than the non-charged versions (it is now equal).
+- Brightbug now boosts absorption as the description states.
+- Stone Greatsword WA (Tranquil Walk of Peace) description now states that is slows and drains stamina, which is its actual effect.
 
 #------------------------------
 # TODO - General
 #------------------------------
-Add special ring for each companion
-
-Solaire: 60         # 1 min
-El Crabbo: 300      # 5 min
-Rocky: 120          # 2 min
-Sluggo: 300         # 5 min
-Father John: 120    # 2 min
-Gimbal: 60          # 1 min
-El Hueso: 120       # 2 min      
-Moxie: 180          # 3 min
-Erekris: 30         # 30 sec
-Metora: 60          # 1 min
-Farold: 30          # 30 sec
-Zarloth: 30         # 30 sec
-Praxos: 30          # 30 sec
-Woof: 180           # 3 min
-Alfreda: 60         # 1 min
-Tashi: 30           # 30 sec
-Bazdulk: 30         # 30 sec
-
