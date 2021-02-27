@@ -5848,7 +5848,7 @@ Event(20020025, Default, function() {
 Event(20020100, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
 
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5857,7 +5857,7 @@ Event(20020100, Default, function() {
 Event(20020101, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5866,7 +5866,7 @@ Event(20020101, Default, function() {
 Event(20020102, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5875,7 +5875,7 @@ Event(20020102, Default, function() {
 Event(20020103, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+           
 });
 
 //----------------------------------------------
@@ -5884,7 +5884,7 @@ Event(20020103, Default, function() {
 Event(20020104, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5893,7 +5893,7 @@ Event(20020104, Default, function() {
 Event(20020105, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5902,7 +5902,7 @@ Event(20020105, Default, function() {
 Event(20020106, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5911,7 +5911,7 @@ Event(20020106, Default, function() {
 Event(20020107, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5920,7 +5920,7 @@ Event(20020107, Default, function() {
 Event(20020108, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5929,7 +5929,7 @@ Event(20020108, Default, function() {
 Event(20020109, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5938,7 +5938,7 @@ Event(20020109, Default, function() {
 Event(20020110, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
    
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5947,7 +5947,7 @@ Event(20020110, Default, function() {
 Event(20020111, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5956,7 +5956,7 @@ Event(20020111, Default, function() {
 Event(20020112, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5965,7 +5965,7 @@ Event(20020112, Default, function() {
 Event(20020113, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5974,7 +5974,7 @@ Event(20020113, Default, function() {
 Event(20020114, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5983,7 +5983,7 @@ Event(20020114, Default, function() {
 Event(20020115, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -5992,7 +5992,7 @@ Event(20020115, Default, function() {
 Event(20020116, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6001,7 +6001,7 @@ Event(20020116, Default, function() {
 Event(20020117, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6010,7 +6010,7 @@ Event(20020117, Default, function() {
 Event(20020118, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6019,7 +6019,7 @@ Event(20020118, Default, function() {
 Event(20020119, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6028,7 +6028,7 @@ Event(20020119, Default, function() {
 Event(20020120, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6037,7 +6037,7 @@ Event(20020120, Default, function() {
 Event(20020121, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6046,7 +6046,7 @@ Event(20020121, Default, function() {
 Event(20020122, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6055,7 +6055,7 @@ Event(20020122, Default, function() {
 Event(20020123, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6064,7 +6064,7 @@ Event(20020123, Default, function() {
 Event(20020124, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------
@@ -6073,7 +6073,7 @@ Event(20020124, Default, function() {
 Event(20020125, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    SetSpeffect(10000, 160761300); // Clear companions
+    
 });
 
 //----------------------------------------------

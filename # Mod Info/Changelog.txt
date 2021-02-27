@@ -150,6 +150,7 @@
  - Offering of Vitality: Boosts the HP of companions by 100% whilst worn.
  - Offering of Companions now restore 1% HP per second whilst worn.
  - Offering of Fervor: Companions now gain an additional 30 stamina recovery whilst worn.
+- Removed the forced desummoning when you enter a boss fight.
 
 # Bugfixes
 - Fixed chest glitch in Profaned Capital.
