@@ -143,6 +143,7 @@
 - Fixed Ascended Abyssal Edge not using the ascended attack.
 - Wanderer's Set should no longer make you invisible.
 - Changed VFX for Writ of Immolation/Divinity.
+- Adjusted Lordran Remannts emevd, should allow the second and third bosses to appear for clients.
 
 #------------------------------
 # TODO - General
@@ -167,4 +168,3 @@ Alfreda: 60         # 1 min
 Tashi: 30           # 30 sec
 Bazdulk: 30         # 30 sec
 
-DebugAnimSpeed
