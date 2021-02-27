@@ -166,3 +166,5 @@ Woof: 180           # 3 min
 Alfreda: 60         # 1 min
 Tashi: 30           # 30 sec
 Bazdulk: 30         # 30 sec
+
+DebugAnimSpeed
