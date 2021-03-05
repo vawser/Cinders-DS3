@@ -12,7 +12,7 @@
 
 # These need to be used for new treasures in each area
 54002080 Cemetery of Ash / Unturned Graves
-53002110 High Wall of Lothric / Consumed King's Garden
+53002111 High Wall of Lothric / Consumed King's Garden
 53102096 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
 53502085 Cathedral of the Deep
@@ -85,9 +85,19 @@
 # Changelog
 #------------------------------
 
+# Map
+- Moved the Outrider Knight in High Wall to the side area just before Vordt.
+- Removed some of the Lothric Knights in the normal enemy layout.
+- Added a red-eyed Lothric Knight in the old position of the Outrider Knight.
+
+# Rings
+- Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
+
 #------------------------------
 # TODO - General
 #------------------------------
 XP multiplier, lost on rest or death
 Moving with shield up will damage enemy stamina/poise whilst they touch it, causing them to stagger once their poise breaks 
+
+31050 Ravenous Chalice
 

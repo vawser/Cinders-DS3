@@ -981,3 +981,7 @@
 # Rare Ring of Humanity
 - Weight: 10
 - Prevents grab/critical attacks against the player.
+
+# Ravenous Chalice
+- Weight: 1
+- Boosts soul absorption by 100% for 8 seconds after killing an enemy.

@@ -1417,7 +1417,7 @@ Event(20005265, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Enemy - Reassess AI when attacked - Entity ID, Anim ID 1, Anim ID 2
+// Enemy - Play Animation, Wakeup when attacked
 Event(20005290, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
