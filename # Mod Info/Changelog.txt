@@ -84,90 +84,9 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Classes
-- Changed the starting armor set of the Heretic (end of an era).
-- Changed the starting armor set of the Summoner.
-- Assassin now starts with the Ring of Grace instead of the Silvercat Ring.
-
-# Weapons
-- Changed Fire infusion back to regular elemental scaling (not psudo-raw).
-- Increased the INT/FTH multipliers for Fire and Dark so the triple stat investment is worth slightly more.
-- Increased the FP cost of Combustion, Abyssal Grasp, Divine Retribution, Beckon Soul WAs.
-- Changed the Black Flame VFX to one that matches the dark sorceries VFX (no longer the Dark Hand VFX).
-- Increased the FP cost of Wrath of the Gods WA for the Saint's Talisman to 40.
-- Bulwark Shield now has the following effect: increases Dark absorption by 10%.
-- Smouldering Talisman WA is now like the new Immolation.
-
-# Spells
-- Changed Whisper of Despair bullet vfx to the blue skull.
-- Dark Blade secondary effect is now boosts all absorptions by 10% (25% when ascended).
-- Immolation spell is now: Immolate oneself for 25% HP, leaving a trail of fire in your wake for 15 seconds. The fire deals 50 Fire damage per tick. Lasts for 30 seconds when ascended.
-
-# Rings
-- Changed Prisoner's Chain to: Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10/9/8/7/6/5%.
-- Changed the +stat rings to: Increases <stat> by 6/8/10/12/14/16
-- Deep Ring effect is now: Periodically leave a wake of abyssal explosions behind you.
-
-# Items
-- Increased the FP cost of the spellbound items.
-- The boss respawn tomes are now dropped by the bosses once again, and act like tools, rather than consumables.
-- Tome: Champions of Yore is dropped by Lord Zakar.
-- Changed Inciting Bone to Beckoning Bone: allows you to recall active companions to your position.
-
-# Map
-- Removed the concept of locked chests. Those chests are now just normal chests. The key items have been replaced with suitable titanite drops.
-
-# NPCs
-- Reverted the Painter esd back to the original, removed the relationship stuff.
-- Added a new option to the Fire Keeper: Seduce (BONK!).
-
-# Companions
-- Increased FP cost of the Opus items.
-- Ritualist Pact now enables hollow summoning of companions and for multiple to summoned concurrently.
-- Companions now appear for limited number of seconds at a time. They can be re-summoned after this period, but cannot be whilst active.
- - Solaire: 60         # 1 min
- - El Crabbo: 300      # 5 min
- - Rocky: 120          # 2 min
- - Sluggo: 300         # 5 min
- - Father John: 120    # 2 min
- - Gimbal: 60          # 1 min
- - El Hueso: 120       # 2 min      
- - Moxie: 180          # 3 min
- - Erekris: 30         # 30 sec
- - Metora: 60          # 1 min
- - Farold: 30          # 30 sec
- - Zarloth: 30         # 30 sec
- - Praxos: 30          # 30 sec
- - Woof: 180           # 3 min
- - Alfreda: 60         # 1 min
- - Tashi: 30           # 30 sec
- - Bazdulk: 30         # 30 sec
-- Added the following rings:
- - Dial of Obedience: increases duration of a companion to 60 seconds.
- - Offering of Might: Boosts the damage of companions by 50% whilst worn.
- - Offering of Tenacity: Boosts the absorption of companions by 20% whilst worn.
- - Offering of Fortitude: Boosts the poise of companions by 100 whilst worn.
- - Offering of Vitality: Boosts the HP of companions by 100% whilst worn.
- - Offering of Companions now restore 1% HP per second whilst worn.
- - Offering of Fervor: Companions now gain an additional 30 stamina recovery whilst worn.
-- Removed the forced desummoning when you enter a boss fight.
-
-# Bugfixes
-- Fixed chest glitch in Profaned Capital.
-- Fixed Forlorn's location in Road of Sacrifices.
-- Fixed Kris Blade having Dark ABS reduction applied twice.
-- Fixed Ring of Power/Insanity damage application, now applies to spells.
-- Fixed Numbness description.
-- Fixed Ascended Numbness not applying the camera change.
-- Fixed Ascended Abyssal Edge not using the ascended attack.
-- Wanderer's Set should no longer make you invisible.
-- Changed VFX for Writ of Immolation/Divinity.
-- Adjusted Lordran Remnants emevd, should allow the second and third bosses to appear for clients.
-- Remy that Rat should no longer appear in Dark Firelink Shrine.
-- Fixed Hammer moveset Warcry charged attacks using less added damage and less aux than the non-charged versions (it is now equal).
-- Brightbug now boosts absorption as the description states.
-- Stone Greatsword WA (Tranquil Walk of Peace) description now states that is slows and drains stamina, which is its actual effect.
 
 #------------------------------
 # TODO - General
 #------------------------------
+XP multiplier, lost on rest or death
+Moving with shield up will damage enemy stamina/poise whilst they touch it, causing them to stagger once their poise breaks 
