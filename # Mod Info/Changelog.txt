@@ -90,6 +90,9 @@
 - Removed some of the Lothric Knights in the normal enemy layout.
 - Added a red-eyed Lothric Knight in the old position of the Outrider Knight.
 
+# Items
+- Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
+
 # Rings
 - Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
 
