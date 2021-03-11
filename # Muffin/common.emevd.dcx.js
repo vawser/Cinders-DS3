@@ -2189,6 +2189,7 @@ Event(20047, Default, function() {
 Event(20048, Restart, function() {
     IfCharacterHasSpEffect(OR_01, 10000, 3092, true, ComparisonType.Equal, 1); // If Player uses Rime-blue Moss Clump
     IfCharacterHasSpEffect(OR_01, 10000, 3080, true, ComparisonType.Equal, 1); // If Player uses Divine Blessing
+    IfCharacterHasSpEffect(OR_01, 10000, 103508000, true, ComparisonType.Equal, 1); // If Player uses Caressing Tears
     IfConditionGroup(MAIN, PASS, OR_01);
     ClearSpEffect(10000, 180021000); // Clear Frostbite Effects
     WaitFixedTimeSeconds(0.5);
