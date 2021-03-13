@@ -3144,6 +3144,7 @@ Event(20126, Restart, function() {
     
     SetEventFlag(14500950, 0);
     SetEventFlag(14500951, 0);
+    SetEventFlag(14500986, 0);
     SetEventFlag(9328, 0);
     SetEventFlag(6328, 0);
     
