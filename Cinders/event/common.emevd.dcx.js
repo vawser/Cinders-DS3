@@ -2211,6 +2211,7 @@ Event(20049, Restart, function() {
     SetSpEffect(10000, 250000104);
     SetSpEffect(10000, 250000105);
     SetEventFlag(25000055, ON);
+    SetEventFlag(25000440, ON);
     WaitFixedTimeSeconds(1.0);
     EndUnconditionally(EventEndType.Restart);
 });

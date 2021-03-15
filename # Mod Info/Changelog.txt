@@ -113,29 +113,27 @@
 - Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
 - Added two new relics for completing deathless and hitless runs with Hard mode enabled:
 
- - Relic of Legends: 
-  - Whilst equipped, the wearer gains the following:
-    - Boosts all damage by 15/16/17/18/19/20%.
-    - Boosts all absorptions by 15/16/17/18/19/20%.
-    - Boosts all defences by 15/16/17/18/19/20%.
-    - Boosts all stats by 15/16/17/18/19/20.
-    - Reduces FP consumption of skills by 20/22/24/26/28/30%.
-    - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
-   - Rewarded for deathless run in Hard mode.
+- Relic of Legends: 
+ - Whilst equipped, the wearer gains the following:
+   - Boosts all damage by 15/16/17/18/19/20%.
+   - Boosts all absorptions by 15/16/17/18/19/20%.
+   - Boosts all defences by 15/16/17/18/19/20%.
+   - Boosts all stats by 15/16/17/18/19/20.
+   - Reduces FP consumption of skills by 20/22/24/26/28/30%.
+   - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
+  - Rewarded for deathless run in Hard mode.
    
- - Relic of Myths
-  - Whilst equipped, the wearer gains the following:
-    - Boosts all damage by 20/22/24/26/28/30%.
-    - Boosts all absorptions by 20/22/24/26/28/30%.
-    - Boosts all defences by 20/22/24/26/28/30%.
-    - Boosts all stats by 20/22/24/26/28/30.
-    - Reduces FP consumption of skills by 30/32/34/36/38/40%.
-    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
-   - Rewarded for hitless run in Hard mode.
+- Relic of Myths
+ - Whilst equipped, the wearer gains the following:
+   - Boosts all damage by 20/22/24/26/28/30%.
+   - Boosts all absorptions by 20/22/24/26/28/30%.
+   - Boosts all defences by 20/22/24/26/28/30%.
+   - Boosts all stats by 20/22/24/26/28/30.
+   - Reduces FP consumption of skills by 30/32/34/36/38/40%.
+   - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
+  - Rewarded for hitless run in Hard mode.
    
 #------------------------------
 # TODO - General
 #------------------------------
-25000055
 
-7135

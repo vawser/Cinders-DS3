@@ -173,7 +173,7 @@ def t400006_x9():
         AddTalkListData(2, 99002101, -1) # Curse of Fortitude
         AddTalkListData(3, 99002102, -1) # Curse of Vitality
         AddTalkListData(4, 99002103, -1) # Curse of Wrath
-        AddTalkListData(5, 99002104, -1) # Curse of Attraction
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 5, 99002104, -1) # Curse of Attraction
         AddTalkListData(6, 99002105, -1) # Curse of Obscurity
         AddTalkListData(7, 99002106, -1) # Curse of Simplicity
         AddTalkListData(8, 99002107, -1) # Curse of Gluttony

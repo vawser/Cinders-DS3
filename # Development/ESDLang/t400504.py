@@ -265,10 +265,10 @@ def t400504_x11():
         AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000051) == 0, 11, 99003503, -1)
         
         # Claim Relic of Legends
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000032) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000052) == 0, 12, 99003504, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000052) == 0, 12, 99003504, -1)
         
         # Claim Relic of Myths
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000033) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000053) == 0, 13, 99003505, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000053) == 0, 13, 99003505, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -304,25 +304,25 @@ def t400504_x11():
         # Relic of Legends
         elif GetTalkListEntryResult() == 3:
             # Succeeded
-            if GetEventStatus(25000032) == 1 and GetEventStatus(25001019) == 1:
+            if GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1:
                 OpenGenericDialog(1, 99003531, 0, 0, 0)
             # Eligible
-            elif GetEventStatus(25000032) == 1:
+            elif GetEventStatus(25000030) == 1:
                 OpenGenericDialog(1, 99003530, 0, 0, 0)
             # Failed
-            elif GetEventStatus(25000032) == 0:
+            elif GetEventStatus(25000030) == 0:
                 OpenGenericDialog(1, 99003532, 0, 0, 0)
             return 0
         # Relic of Myths
         elif GetTalkListEntryResult() == 4:
             # Succeeded
-            if GetEventStatus(25000033) == 1 and GetEventStatus(25001019) == 1:
+            if GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1:
                 OpenGenericDialog(1, 99003541, 0, 0, 0)
             # Eligible
-            elif GetEventStatus(25000033) == 1:
+            elif GetEventStatus(25000031) == 1:
                 OpenGenericDialog(1, 99003540, 0, 0, 0)
             # Failed
-            elif GetEventStatus(25000033) == 0:
+            elif GetEventStatus(25000031) == 0:
                 OpenGenericDialog(1, 99003542, 0, 0, 0)
             return 0
         # Claim Relic of Power
