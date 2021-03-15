@@ -20,6 +20,8 @@
 107 [Dagger] Crystal Blade
 108 [Dagger] Quickstep (Murky Hand Scythe)
 109 [Dagger] Shield Splitter (Penetrating Sword)
+110 [Dagger] Endless Winter (Rotational - Unused)
+111 [Dagger] Endless Winter
 200 [Straight Sword] Stance
 201 [Straight Sword] Stomp
 202 [Straight Sword] Guiding Light
@@ -237,6 +239,7 @@
 2219 [Staff] Punish the Dead
 2220 [Staff] Yearning
 2221 [Staff] Insanity
+2222 [Staff] Elemental Flow
 2300 [Talisman] Unfaltering Prayer
 2301 [Talisman] Gentle Prayer
 2302 [Talisman] Combustion (White Hair Talisman)

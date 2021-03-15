@@ -85,6 +85,9 @@
 # Changelog
 #------------------------------
 
+# Weapons
+- Frayed Blade is now uses Dragon reinforcement materials.
+
 # Map
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.
 - Removed some of the Lothric Knights in the normal enemy layout.
@@ -92,10 +95,47 @@
 
 # Items
 - Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
+- Ancestral Note now places you in Untended Graves.
+
+# Gifts
+- Added Broken Tablet gift: this enables Hard mode. Cannot be changed once picked.
+ Effects:
+ - Reduces melee and spell damage by 25%.
+ - Reduces absorptions by 25%.
+ - Reduces soul absorption by 75%.
+ - Reduces stamina recovery by 10.
+ - Reduces aux resistances by 50%.
+ - Removes the ability to sell items.
+ - Removes the soul absorption bonus from Curses.
+- Removed Coiled Sword Fragment gift.
 
 # Rings
 - Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
+- Added two new relics for completing deathless and hitless runs with Hard mode enabled:
 
+ - Relic of Legends: 
+  - Whilst equipped, the wearer gains the following:
+    - Boosts all damage by 15/16/17/18/19/20%.
+    - Boosts all absorptions by 15/16/17/18/19/20%.
+    - Boosts all defences by 15/16/17/18/19/20%.
+    - Boosts all stats by 15/16/17/18/19/20.
+    - Reduces FP consumption of skills by 20/22/24/26/28/30%.
+    - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
+   - Rewarded for deathless run in Hard mode.
+   
+ - Relic of Myths
+  - Whilst equipped, the wearer gains the following:
+    - Boosts all damage by 20/22/24/26/28/30%.
+    - Boosts all absorptions by 20/22/24/26/28/30%.
+    - Boosts all defences by 20/22/24/26/28/30%.
+    - Boosts all stats by 20/22/24/26/28/30.
+    - Reduces FP consumption of skills by 30/32/34/36/38/40%.
+    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
+   - Rewarded for hitless run in Hard mode.
+   
 #------------------------------
 # TODO - General
 #------------------------------
+25000055
+
+7135

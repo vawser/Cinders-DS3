@@ -377,6 +377,16 @@
 50124 Hollow Soldier - Pus of Man State
 50125 Hollow Soldier - Pus of Man State
 50130 Hollow Soldier - Lantern
+50140 Frostfire Colossus - Emissive Start
+50141 Frostfire Colossus - Emissive Intensify
+50142 Frostfire Colossus - Flame Body (Head)
+50143 Frostfire Colossus - Flame Body (All Over)
+50144 Frostfire Colossus - Flame Core
+50145 Frostfire Colossus - Flame Weapon
+50146 Frostfire Colossus - Flame Eye
+50147 Frostfire Colossus - Weapon Light
+50148 Frostfire Colossus - Body Particles
+50149 Frostfire Colossus - Frost Aura
 50150 Lothric Knight - Red Eyes
 50151 Lothric Knight -
 50152 Lothric Knight -
@@ -461,6 +471,15 @@
 50492 Nameless Knight -
 50500 Giant Crab - Bubble Spit
 50501 Giant Crab -
+50580 [Frostfire Cleric] Orb VFX
+50581 [Frostfire Colossus] Orb VFX
+50582 [Frostfire Colossus] Sapping Orb Green Vow
+50583 [Frostfire Colossus] Enrage Aura
+50584 [Frostfire Colossus] Enhance Emissive
+50585 [Frostfire Cleric] Held Orb - Small
+50586 [Frostfire Cleric] Held Orb - Medium
+50587 [Frostfire Cleric] Held Orb - Large
+50588 [Frostfire Cleric] Weapon Frost VFX
 60100 Sister Friede -
 60110 Sister Friede -
 62000 Slave Knight Gael -
@@ -885,6 +904,30 @@
 72290 Guardian Set - Head
 72291 Guardian Set - Body
 72301 Wanderer's Set - Body
+72310 Gallant Set - Head
+72311 Gallant Set - Body
+72320 Warden Set - Head
+72321 Warden Set - Body
+72330 Dull Gold Set - Head
+72331 Dull Gold Set - Body
+72340 Fluted Set - Head
+72341 Fluted Set - Body
+72350 Huntsman Set - Head
+72351 Huntsman Set - Body
+72360 Mirdan Set - Head
+72361 Mirdan Set - Body
+72370 Sentinel Set - Head
+72371 Sentinel Set - Body
+72380 Raggedy Set - Head
+72381 Raggedy Set - Body
+72390 Charlatan Set - Head
+72391 Charlatan Set - Body
+72401 Martyr Set - Body
+72410 Pickpocket Set - Head
+72411 Pickpocket Set - Body
+72421 Magician Set - Body
+72430 Nullus Set - Head
+72431 Nullus Set - Body
 75000 Writ of Humanity
 75001 Writ of Anger
 75002 Writ of Crystallization
@@ -953,6 +996,7 @@
 76217 Off-hand Moonlit Oil
 76218 Black Fire Oil
 76219 Off-hand Black Fire Oil
+77000 Repel
 100000 Wax Head
 100020 Wind Ground Force
 100100 Total Invisibility
@@ -1076,6 +1120,16 @@
 94056000 No Phantom
 95001000 Weapon Art - Gentle Prayer
 95004000 Weapon Art - Sacred Chime of Filianore
+95005000 Weapon Art – Elemental Flow
+95005100 Weapon Art – Elemental Flow – Lightning Weapon Right
+95005150 Weapon Art – Elemental Flow – Lightning Weapon Left
+95005200 Weapon Art – Elemental Flow – Wind Weapon Right
+95005250 Weapon Art – Elemental Flow – Wind Weapon Left
+95006000 Weapon Art - Vestiges of Aldia - Blackflame Right
+95006050 Weapon Art - Vestiges of Aldia - Blackflame Left
+95007000 Weapon Art - Endless Winter - Frostfire Buff Right
+95007050 Weapon Art - Endless Winter - Frostfire Buff Left
+95007100 [Frostfall] Stability Aura
 99910110 Pacify VFX - Right
 99910111 Pacify VFX - Left
 99911000 Script: Proximity Invisibility - Enemies

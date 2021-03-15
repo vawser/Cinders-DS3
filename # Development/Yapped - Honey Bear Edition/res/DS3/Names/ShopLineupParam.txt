@@ -228,6 +228,7 @@
 30151 [Ludleth - Nameless King] Storm Curved Sword
 30152 [Ludleth - Nameless King] Sunlight Spear
 30153 [Ludleth - Nameless King] Lightning Storm
+30154 [Ludleth - Nameless King] King's Quarterstaff
 30160 [Ludleth - Champion Gundyr] Gundyr's Halberd
 30161 [Ludleth - Champion Gundyr] Prisoner's Chain
 30170 [Ludleth - Twin Princes] Lorian's Greatsword
@@ -1333,6 +1334,8 @@
 250576 [Alchemist Jiji] Saint Insignia
 250577 [Alchemist Jiji] Saint Emblem
 250578 [Alchemist Jiji] Raime's Emblem
+250579 [Alchemist Jiji] Nullus Insignia
+250580 [Alchemist Jiji] Nullus Emblem
 250700 [Alchemist Jiji] Cleansing Oil
 250701 [Alchemist Jiji] Cleansing Oil (Left)
 250702 [Alchemist Jiji] Magical Oil
@@ -1385,32 +1388,6 @@
 260011 [Magnum Ursus] Armor of the Bear
 260012 [Magnum Ursus] Gauntlets of the Bear
 260013 [Magnum Ursus] Leggings of the Bear
-260900 [Magnum Ursus - Tome] Tome: Corrupted Gundyr
-260901 [Magnum Ursus - Tome] Tome: Vordt
-260902 [Magnum Ursus - Tome] Tome: Curse-rotted Greatwood
-260903 [Magnum Ursus - Tome] Tome: Crystal Sage
-260904 [Magnum Ursus - Tome] Tome: Deacons of the Deep
-260905 [Magnum Ursus - Tome] Tome: Abyss Watchers
-260906 [Magnum Ursus - Tome] Tome: High Lord Wolnir
-260907 [Magnum Ursus - Tome] Tome: Old Demon King
-260908 [Magnum Ursus - Tome] Tome: Pontiff Sulyvahn
-260909 [Magnum Ursus - Tome] Tome: Aldrich
-260910 [Magnum Ursus - Tome] Tome: Yhorm the Giant
-260911 [Magnum Ursus - Tome] Tome: Dancer
-260912 [Magnum Ursus - Tome] Tome: Oceiros
-260913 [Magnum Ursus - Tome] Tome: Dragonslayer Armour
-260914 [Magnum Ursus - Tome] Tome: Ancient Wyvern
-260915 [Magnum Ursus - Tome] Tome: Nameless King
-260916 [Magnum Ursus - Tome] Tome: Champion Gundyr
-260917 [Magnum Ursus - Tome] Tome: Twin Princes
-260918 [Magnum Ursus - Tome] Tome: Soul of Cinder
-260919 [Magnum Ursus - Tome] Tome: Sister Friede
-260920 [Magnum Ursus - Tome] Tome: Lordran Remnants
-260921 [Magnum Ursus - Tome] Tome: Demon Prince
-260922 [Magnum Ursus - Tome] Tome: Darkeater Midir
-260923 [Magnum Ursus - Tome] Tome: Slave Knight Gael
-260924 [Magnum Ursus - Tome] Tome: Halflight
-260925 [Magnum Ursus - Tome] Tome: Champions of Yore
 270000 [Master Benjin] Hunter's Pistol
 270001 [Master Benjin] Hunter's Blunderbuss
 270002 [Master Benjin] Repeating Pistol
@@ -1419,18 +1396,18 @@
 270021 [Master Benjin - Tortured Soul] Rosamarius
 270040 [Master Benjin - Smithbox] Cannon
 270041 [Master Benjin - Smithbox] Evelynn
-280000 [Ritualist Ellie] Tome of Health
-280001 [Ritualist Ellie] Tome of Power
-280002 [Ritualist Ellie] Tome of Toughness
-280003 [Ritualist Ellie] Tome of Restoration
-280004 [Ritualist Ellie] Tome of Poise
-280005 [Ritualist Ellie] Tome of Mass Summoning
-280006 [Ritualist Ellie] Tome of Hollow Summoning
-280050 [Ritualist Ellie] Rejuvenating Phial
-280051 [Ritualist Ellie] Banishing Coin
-280052 [Ritualist Ellie] Inciting Bone
-280053 [Ritualist Ellie] Invigorating Phial
-280054 [Ritualist Ellie] Regenerating Phial
+280000 [Ritualist Ellie] Rejuvenating Phial
+280001 [Ritualist Ellie] Banishing Coin
+280002 [Ritualist Ellie] Inciting Bone
+280003 [Ritualist Ellie] Invigorating Phial
+280004 [Ritualist Ellie] Regenerating Phial
+280010 [Ritualist Ellie] Dial of Obedience
+280011 [Ritualist Ellie] Offering of Might
+280012 [Ritualist Ellie] Offering of Tenacity
+280013 [Ritualist Ellie] Offering of Fortitude
+280014 [Ritualist Ellie] Offering of Vitality
+280015 [Ritualist Ellie] Offering of Devotion
+280016 [Ritualist Ellie] Offering of Fervor
 290000 [Acolyte Grudore] Spellbound Bomb
 290001 [Acolyte Grudore] Spellbound Throwing Knife
 290020 [Acolyte Grudore - Farron Coal] Spellbound Blossom
@@ -1439,6 +1416,139 @@
 290060 [Acolyte Grudore - Giant's Coal] Spellbound Urn
 290080 [Acolyte Grudore - Profaned Coal] Spellbound Kukri
 290081 [Acolyte Grudore - Profaned Coal] Spellbound Dung
+300000 [Erstwhile George] Gallant Helm
+300001 [Erstwhile George] Gallant Armor
+300002 [Erstwhile George] Gallant Gloves
+300003 [Erstwhile George] Gallant Leggings
+300004 [Erstwhile George] Warden Coif
+300005 [Erstwhile George] Warden Chainmail
+300006 [Erstwhile George] Warden Gloves
+300007 [Erstwhile George] Warden Leggings
+300008 [Erstwhile George] Dull Gold Helmet
+300009 [Erstwhile George] Dull Gold Armor
+300010 [Erstwhile George] Dull Gold Gauntlets
+300011 [Erstwhile George] Dull Gold Leggings
+300012 [Erstwhile George] Fluted Helmet
+300013 [Erstwhile George] Fluted Armor
+300014 [Erstwhile George] Fluted Gauntlets
+300015 [Erstwhile George] Fluted Leggings
+300016 [Erstwhile George] Huntsman's Cap
+300017 [Erstwhile George] Huntsman's Armor
+300018 [Erstwhile George] Huntsman's Gloves
+300019 [Erstwhile George] Huntsman's Leggings
+300020 [Erstwhile George] Mirdan Helmet
+300021 [Erstwhile George] Mirdan Scale Mail
+300022 [Erstwhile George] Mirdan Gauntlets
+300023 [Erstwhile George] Mirdan Leggings
+300024 [Erstwhile George] Sentinel Helmet
+300025 [Erstwhile George] Sentinel Armor
+300026 [Erstwhile George] Sentinel Gauntlets
+300027 [Erstwhile George] Sentinel Leggings
+300028 [Erstwhile George] Three-cornered Hat
+300029 [Erstwhile George] Old Raggedy Robes
+300030 [Erstwhile George] Old Raggedy Gloves
+300031 [Erstwhile George] Old Raggedy Leggings
+300032 [Erstwhile George] Gold Mask
+300033 [Erstwhile George] Charlatan's Clothes
+300034 [Erstwhile George] Charlatan's Gloves
+300035 [Erstwhile George] Charlatan's Leggings
+300036 [Erstwhile George] Martyr Robes
+300037 [Erstwhile George] Martyr Gloves
+300038 [Erstwhile George] Martyr Leggings
+300039 [Erstwhile George] Pickpocket Mask
+300040 [Erstwhile George] Pickpocket Clothes
+300041 [Erstwhile George] Pickpocket Gloves
+300042 [Erstwhile George] Pickpocket Leggings
+300043 [Erstwhile George] Magician Clothes
+300044 [Erstwhile George] Magician Gloves
+300045 [Erstwhile George] Magician Leggings
+300046 [Erstwhile George] Darkdrift
+300047 [Erstwhile George] Gargoyle Shield
+300048 [Erstwhile George] Bestial Band
+300049 [Erstwhile George] Ring of Momentum
+300050 [Erstwhile George] Witch's Locks
+300051 [Erstwhile George] Morne's Great Hammer
+300052 [Erstwhile George] Bone Rapier
+300053 [Erstwhile George] Demon's Axe
+300054 [Erstwhile George] Runic Seal
+300055 [Erstwhile George] Jester's Cap
+300056 [Erstwhile George] Jester's Robes
+300057 [Erstwhile George] Jester's Gloves
+300058 [Erstwhile George] Jester's Tights
+300059 [Erstwhile George] Fool's Catalyst
+300060 [Erstwhile George] Moonlight Sword
+300061 [Erstwhile George] Staff of Serpents
+300062 [Erstwhile George] Pursuer's Ultra Greatsword
+300063 [Erstwhile George] Pursuer's Helm
+300064 [Erstwhile George] Pursuer's Armor
+300065 [Erstwhile George] Pursuer's Gauntlets
+300066 [Erstwhile George] Pursuer's Leggings
+300067 [Erstwhile George] Bloodletter
+300068 [Erstwhile George] Chikage
+300069 [Erstwhile George] Twinspears of the Forlorn
+300070 [Erstwhile George] Hood of the Forlorn
+300071 [Erstwhile George] Armor of the Forlorn
+300072 [Erstwhile George] Gauntlets of the Forlorn
+300073 [Erstwhile George] Leggings of the Forlorn
+300074 [Erstwhile George] Tonitrus
+300075 [Erstwhile George] Blades of Mercy
+300076 [Erstwhile George] Mask of the Father
+300077 [Erstwhile George] Mask of the Mother
+300078 [Erstwhile George] Mask of the Child
+300079 [Erstwhile George] Mad Warrior Helm
+300080 [Erstwhile George] Mad Warrior Armor
+300081 [Erstwhile George] Mad Warrior Gauntlets
+300082 [Erstwhile George] Mad Warrior Leggings
+300083 [Erstwhile George] Elden Ring
+300084 [Erstwhile George] Penetrator Helm
+300085 [Erstwhile George] Penetrator Armor
+300086 [Erstwhile George] Penetrator Gauntlets
+300087 [Erstwhile George] Penetrator Leggings
+300088 [Erstwhile George] Scraping Spear
+300089 [Erstwhile George] Makoto
+300090 [Erstwhile George] Helm of Aurous
+300091 [Erstwhile George] Armor of Aurous
+300092 [Erstwhile George] Gauntlets of Aurous
+300093 [Erstwhile George] Leggings of Aurous
+300094 [Erstwhile George] Six-Eyed Helm of the Channelers
+300095 [Erstwhile George] Robe of the Channelers
+300096 [Erstwhile George] Gauntlets of the Channelers
+300097 [Erstwhile George] Waistcloth of the Channelers
+300098 [Erstwhile George] Smelter Demon Helm
+300099 [Erstwhile George] Smelter Demon Armor
+300100 [Erstwhile George] Smelter Demon Gauntlets
+300101 [Erstwhile George] Smelter Demon Leggings
+300102 [Erstwhile George] Rampart Golem Helm
+300103 [Erstwhile George] Rampart Golem Armor
+300104 [Erstwhile George] Rampart Golem Gauntlets
+300105 [Erstwhile George] Rampart Golem Leggings
+300106 [Erstwhile George] Alonne's Helm
+300107 [Erstwhile George] Alonne's Armor
+300108 [Erstwhile George] Alonne's Gauntlets
+300109 [Erstwhile George] Alonne's Leggings
+300110 [Erstwhile George] Heide Knight Greathelm
+300111 [Erstwhile George] Heide Knight Chainmail
+300112 [Erstwhile George] Heide Knight Gauntlets
+300113 [Erstwhile George] Heide Knight Leggings
+300114 [Erstwhile George] Imperial Samurai Helm
+300115 [Erstwhile George] Horned Samurai Helm
+300116 [Erstwhile George] Ornate Samurai Helm
+300117 [Erstwhile George] Bone Ash Mask
+300118 [Erstwhile George] Bone Ash Armor
+300119 [Erstwhile George] Bone Ash Gauntlets
+300120 [Erstwhile George] Bone Ash Leggings
+300121 [Erstwhile George] Hallowed Knight Helm
+300122 [Erstwhile George] Hallowed Knight Armor
+300123 [Erstwhile George] Hallowed Knight Gauntlets
+300124 [Erstwhile George] Hallowed Knight Leggings
+300125 [Erstwhile George] Dragon Hunter Helm
+300126 [Erstwhile George] Dragon Hunter Armor
+300127 [Erstwhile George] Dragon Hunter Gauntlets
+300128 [Erstwhile George] Dragon Hunter Leggings
+300129 [Erstwhile George] Ivory King Mask
+300130 [Erstwhile George] Ivory King Armor
+300131 [Erstwhile George] Ivory King Gauntlets
+300132 [Erstwhile George] Ivory King Leggings
 760000 [Stone-humped Hag] Splitleaf Greatsword
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower

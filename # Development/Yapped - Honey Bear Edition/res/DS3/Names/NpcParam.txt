@@ -473,6 +473,7 @@
 128004 Lothric Knight - Sword - Exposed Face [High Wall of Lothric] - Red-eyed
 128010 Lothric Knight - Spear [High Wall of Lothric]
 128013 Lothric Knight - Spear - Exposed Face [High Wall of Lothric] - Red-eyed
+128014 Lothric Knight - Spear - Exposed Face [High Wall of Lothric] - Red-eyed
 128100 Lothric Knight - Sword [Lothric Castle]
 128101 Lothric Knight - Sword [Lothric Castle] - Red-eyed
 128110 Lothric Knight - Spear [Lothric Castle]
@@ -524,6 +525,7 @@
 131000 Boreal Outrider Knight [Undead Settlement]
 131100 Boreal Outrider Knight [Grand Archives]
 131200 Boreal Outrider Knight [Lothric Castle]
+131300 Boreal Outrider Knight [Ariandel]
 132000 [Boss] Crystal Sage
 132010 Crystal Sage [Road of Sacrifices]
 132100 Crystal Sage [Grand Archives]
@@ -1189,9 +1191,16 @@
 722000 Master Benjin
 722100 Ritualist Ellie
 722200 Acolyte Grudore
+722300 Erstwhile George
 750000 The Lord's Blade (Ciaran)
 751000 The Abyss Walker (Artorias)
 752000 The Dragonslayer (Ornstein)
+756000 Frostfire Colossus
+756100 Frostfire Colossus Orb
+756200 Frostfire Colossus Sapping Orb
+757000 Frostfire Cleric (Boss Room)
+757010 Frostfire Cleric
+757100 Frostfire Cleric Orb
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight

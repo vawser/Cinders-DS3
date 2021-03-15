@@ -178,6 +178,7 @@
 700 Soul of Corrupted Gundyr
 701 Soul of the Ancient Wyvern
 702 Soul of the Lordran Remnants
+703 Soul of the Frostfire Colossus
 712 Soul of Champion Gundyr
 714 Soul of the Dancer
 715 Soul of a Crystal Sage
@@ -485,6 +486,7 @@
 5023 Tome: Slave Knight Gael
 5024 Tome: Halflight
 5025 Tome: Champions of Yore
+5026 Tome: Frostfire Colossus
 5199 ### Companions ###
 5300 Opus of Sunlight
 5301 Opus of the Crab
@@ -943,16 +945,33 @@
 12191 Deacon Emblem
 12200 Saint Insignia
 12201 Saint Emblem
-20000 Sign of Health
-20001 Sign of Power
-20002 Sign of Toughness
-20003 Sign of Restoration
-20004 Sign of Tenacity
-20005 Sign of Mass Summoning
-20006 Sign of Hollow Summoning
+12210 Gallant Insignia
+12211 Gallant Emblem
+12220 Warden Insignia
+12221 Warden Emblem
+12230 Dull Gold Insignia
+12231 Dull Gold Emblem
+12240 Fluted Insignia
+12241 Fluted Emblem
+12250 Huntsman Insignia
+12251 Huntsman Emblem
+12260 Mirdan Insignia
+12261 Mirdan Emblem
+12270 Sentinel Insignia
+12271 Sentinel Emblem
+12280 Raggedy Insignia
+12281 Raggedy Emblem
+12290 Charlatan Insignia
+12291 Charlatan Emblem
+12301 Martyr Emblem
+12310 Pickpocket Insignia
+12311 Pickpocket Emblem
+12321 Magician Emblem
+12330 Nullus Insignia
+12331 Nullus Emblem
 20050 Rejuvenating Phial
 20051 Banishing Coin
-20052 Inciting Bone
+20052 Beckoning Bone
 20053 Invigorating Phial
 20054 Energizing Phial
 1199999 ### Sorcery ###

@@ -985,3 +985,25 @@
 # Ravenous Chalice
 - Weight: 1
 - Boosts soul absorption by 100% for 8 seconds after killing an enemy.
+
+# Relic of Legends
+- Weight: 1
+- Whilst equipped, the wearer gains the following:
+    - Boosts all damage by 15/16/17/18/19/20%.
+    - Boosts all absorptions by 15/16/17/18/19/20%.
+    - Boosts all defences by 15/16/17/18/19/20%.
+    - Boosts all stats by 15/16/17/18/19/20.
+    - Reduces FP consumption of skills by 20/22/24/26/28/30%.
+    - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
+- Source: Deathless run - Hard mode
+
+# Relic of Myths
+- Weight: 1
+- Whilst equipped, the wearer gains the following:
+    - Boosts all damage by 20/22/24/26/28/30%.
+    - Boosts all absorptions by 20/22/24/26/28/30%.
+    - Boosts all defences by 20/22/24/26/28/30%.
+    - Boosts all stats by 20/22/24/26/28/30.
+    - Reduces FP consumption of skills by 30/32/34/36/38/40%.
+    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
+- Source: Hitless run - Hard mode

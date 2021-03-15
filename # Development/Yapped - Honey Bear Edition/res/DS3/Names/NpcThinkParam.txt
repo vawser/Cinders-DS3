@@ -971,11 +971,17 @@
 722000 Maste Benjin
 722100 Ritualist Ellie
 722200 Acolyte Grudore
+722300 Erstwhile George
 750000 The Lord's Blade
 751000 The Abyss Walker
 752000 The Dragonslayer
 753000 Fume Knight
 753100 Fume Knight (Heatup)
+756000 Frostfire Colossus
+756100 Frostfire Colossus Orb
+756200 Frostfire Colossus Sapping Orb
+757000 Frostfire Cleric
+757100 Frostfire Cleric Orb
 809999 ### Trial ###
 810000 Skeleton (Scimitar)
 810001 Skeleton (Falchion)

@@ -1329,6 +1329,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25000050 Claimed Relic of Power
 25000051 Claimed Relic of Insanity
+25000052 Claimed Relic of Legends
+25000053 Claimed Relic of Myths
+25000055 Hard Mode active
 
 25000099 Game Flags Set
 

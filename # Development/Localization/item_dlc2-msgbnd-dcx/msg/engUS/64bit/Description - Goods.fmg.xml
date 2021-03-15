@@ -1524,9 +1524,18 @@ Present to the statue in the Cathedral of the Deep to travel to Yorshka's church
 <text id="2021">A frozen flower. Yet its beauty still remains.
 
 Present to the statue in Irithyll to travel to the Painted World of Ariandel, or vice versa.</text>
-<text id="2022">A broken tablet, the remnants of a once mighty kingdom.
+<text id="2022">A broken tablet, enscribed with myths of old.
 
-Present to the altar in High Wall to travel to the Dreg Heap.</text>
+Enables Hard mode. Irreversible.
+
+Effects:
+- Reduces melee and spell damage by 25%.
+- Reduces absorptions by 25%.
+- Reduces soul absorption by 75%.
+- Reduces stamina recovery by 10.
+- Reduces aux resistances by 50%.
+- Removes the ability to sell items.
+- Removes the soul absorption bonus from Curses.</text>
 <text id="2023">The soul of a giant who perished in the Smouldering Lake.
 
 Present to the petrified giant in lower Smouldering Lake to travel up to the top of the lake.</text>

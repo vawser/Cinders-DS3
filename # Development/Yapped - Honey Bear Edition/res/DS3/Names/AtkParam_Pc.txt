@@ -503,6 +503,72 @@
 2050760 Aquamarine Dagger
 2050770 Aquamarine Dagger
 2050780 Aquamarine Dagger
+2060000 Frostfall - 1H Light #1
+2060010 Frostfall - 1H Light #2
+2060020 Frostfall - 1H Light #3
+2060030 Frostfall - 1H Jumping
+2060060 Frostfall - 1H Light #4
+2060070 Frostfall - 1H Light #5
+2060100 Frostfall - 1H Heavy #1
+2060105 Frostfall - 1H Heavy #1 Max
+2060110 Frostfall - 1H Heavy #2
+2060115 Frostfall - 1H Heavy #2 Max
+2060200 Frostfall - 2H Light #1 - Right
+2060201 Frostfall - 2H Light #1 - Left
+2060210 Frostfall - 2H Light #2 - Right
+2060211 Frostfall - 2H Light #2 - Left - Frostfire Burst
+2060212 Frostfall - 2H Light #2 - Left - Frostfire Burst [Hit]
+2060220 Frostfall - 2H Light #3 - Right
+2060221 Frostfall - 2H Light #3 - Left - Disc Toss
+2060230 Frostfall - 2H Jumping - Right
+2060231 Frostfall - 2H Jumping - Left
+2060232 Frostfall - 2H Jumping - Ice Pillar
+2060233 Frostfall - 2H Jumping - Ice Pillar [Hit]
+2060260 Frostfall - 2H Light #4 - Right
+2060261 Frostfall - 2H Light #4 - Left
+2060270 Frostfall - 2H Light #5 - Disc Volley
+2060300 Frostfall - 2H Heavy #1
+2060305 Frostfall - 2H Heavy #1 Max
+2060310 Frostfall - 2H Heavy #2
+2060315 Frostfall - 2H Heavy #2 Max
+2060520 Frostfall - 1H Dash
+2060530 Frostfall - 2H Dash
+2060540 Frostfall - 1H Rolling
+2060580 Frostfall - 2H Rolling
+2060581 Frostfall - 2H Rolling - Frost Blast
+2060582 Frostfall - 2H Rolling - Frost Blast [Hit}
+2060620 Frostfall - 2H L1 - Frost Surge
+2060621 Frostfall - 2H L1 - Frost Surge [Hit]
+2060630 Frostfall - 2H L1 #2 - Left 2
+2060631 Frostfall - 2H L1 #2 - Left 1
+2060640 Frostfall - 2H L1 #3 - Right - Frostfire Slam
+2060641 Frostfall - 2H L1 #3 - Left - Frost Throw
+2060642 Frostfall - 2H L1 #3 - Left - Frost Throw [Hit]
+2060650 Frostfall - 2H L1 #4 - Right
+2060651 Frostfall - 2H L1 #4 - Left
+2060660 Frostfall - 2H L1 #5 - Right
+2060661 Frostfall - 2H L1 #5 - Left 2
+2060662 Frostfall - 2H L1 #5 - Left 1
+2060750 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion
+2060751 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion [Hit]
+2060752 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion [Hit]
+2060760 Frostfall - 2H L1 Rolling - Ice Daggers
+2060761 Frostfall - 2H L1 Rolling - Ice Daggers Trail
+2060800 Frostfall - Endless Winter - Frostfire Blade Weapon Swing
+2060801 Frostfall - Frostfire Blade Slam Shockwave
+2060900 Frostfall - Endless Winter - Blizzard
+2060901 Frostfall - Endless Winter - Blizzard [Hit]
+2060910 Frostfall - Endless Winter - Frostfire Blade
+2060911 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+2060920 Frostfall - Endless Winter - Crystal Crescendo
+2060921 Frostfall - Endless Winter - Crystal Crescendo [Hit]
+2060922 Frostfall - Endless Winter - Crystal Crescendo - Summoning Ring
+2060923 Frostfall - Endless Winter - Crystal Crescendo - Freezing Mists
+2060924 Frostfall - Endless Winter - Crystal Crescendo - Finale
+2060925 Frostfall - Endless Winter - Crystal Crescendo - Finale [Hit]
+2060930 Frostfall - Endless Winter - Low FP Freezing Gust
+2060940 [Frostfall] Crystal Rain Effect
+2060941 [Frostfall] Crystal Rain Effect [Hit]
 2090620 Brigand Twindaggers
 2090621 Brigand Twindaggers
 2090630 Brigand Twindaggers
@@ -1262,9 +1328,9 @@
 2700305 Rapier - 2H Heavy #1 Max
 2700310 Rapier - 2H Heavy #2
 2700315 Rapier - 2H Heavy #2 Max
-2700400 Rapier - Left Hand
-2700402 Rapier
-2700404 Rapier
+2700400 Rapier - Left Hand #1
+2700402 Rapier - Left Hand #2
+2700404 Rapier - Left Hand #3
 2700410 Rapier - 1H Kick
 2700420 Rapier - 2H Kick
 2700430 Rapier - 1H Guard
@@ -3229,6 +3295,39 @@
 3815725 Ancient Dragon Halberd
 3815726 Ancient Dragon Halberd
 3815800 Ancient Dragon Halberd - WA
+3816030 Quarterstaff - 1H Jump
+3816100 Quarterstaff - 1H Heavy #1
+3816105 Quarterstaff - 1H Heavy #1 Max
+3816110 Quarterstaff - 1H Heavy #2
+3816115 Quarterstaff - 1H Heavy #2 Max
+3816230 Quarterstaff - 2H Jump
+3816300 Quarterstaff - 2H Heavy #1 - Hit 1
+3816303 Quarterstaff - 2H Heavy #1 - Hit 2
+3816305 Quarterstaff - 2H Heavy #1 Max - Hit 1
+3816308 Quarterstaff - 2H Heavy #1 Max - Hit 2
+3816310 Quarterstaff - 2H Heavy #2
+3816315 Quarterstaff - 2H Heavy #2 Max
+3816800 Quarterstaff - Elemental Overflow - Activation Thrust
+3816810 Quarterstaff - Elemental Overflow - 1H Heavy #1 Hit 1
+3816811 Quarterstaff - Elemental Overflow - 1H Heavy #1 Hit 2
+3816820 Quarterstaff - Elemental Overflow - 1H Heavy #2
+3816830 Quarterstaff - Elemental Overflow - 2H Heavy #1 Hit 1
+3816831 Quarterstaff - Elemental Overflow - 2H Heavy #1 Hit 2
+3816840 Quarterstaff - Elemental Overflow - 2H Heavy #2
+3816841 Quarterstaff - Elemental Overflow - 2H Heavy #2 - Backstep
+3816900 Quarterstaff - Elemental Flow Activation
+3816910 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
+3816920 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
+3816930 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+3816940 Quarterstaff - Elemental Overflow – 2H Lightning Rain
+3816941 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
+3816942 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
+3816950 Quarterstaff - Elemental Overflow – 2H Lightning Pulse
+3816960 Quarterstaff - Elemental Overflow – 2H Lightning Star
+3816970 Quarterstaff - Elemental Overflow Low FP Burst
+3816980 Quarterstaff - Successive Hits Burst
+3816981 Quarterstaff - Successive Hits Burst [Hit]
+3816982 Quarterstaff - Successive Hits Burst [Hit]
 4100001 Spell Tool - Addition
 4100100 Spell Tool - 1H Heavy #1
 4100105 Spell Tool - 1H Heavy #1 Max
@@ -3307,10 +3406,9 @@
 4126720 Crystal Chime - Crystalline Storm [Hit]
 4126730 Crystal Chime - Crystalline Storm [Hit]
 4129700 Rotten Talisman - Poison Spores
-4130700 Smouldering Talisman - Immolate
-4130710 Smouldering Talisman - Immolate [Hit]
-4130720 Smouldering Talisman - Immolate [Hit]
-4130730 Smouldering Talisman - Immolate [Hit]
+4130700 Smouldering Talisman - Immolate - Trail Spawner
+4130702 Smouldering Talisman - Immolate - Lava Spawner
+4130703 Smouldering Talisman - Immolate - Lava
 4133700 Court Sorcerer's Staff - Soulmass
 4133710 Court Sorcerer's Staff - Soulmass [Hit]
 4134700 Sunless Talisman - Moonlight Wave
@@ -4492,6 +4590,7 @@
 12660030 [Pyromancy] Seething Chaos [HitBullet]
 12660104 [Pyromancy] Seething Chaos [HitBullet] - Ascended
 13490000 [Miracle] Heal Aid
+13490100 [Miracle] Heal Aid [Hit]
 13500000 [Miracle] Heal
 13500100 [Miracle] Heal [HitBullet]
 13501000 [Miracle] Med Heal
@@ -4549,8 +4648,11 @@
 13700270 [Dead Again] Tier 8
 13700280 [Dead Again] Tier 9
 13710000 [Miracle] Lightning Stake
-13710100 [Miracle] Lightning Stake [HitBullet]
-13710200 [Miracle] Lightning Stake [HitBullet]
+13710001 [Miracle] Lightning Stake [HitBullet]
+13710002 [Miracle] Lightning Stake [HitBullet]
+13710100 [Miracle] Lightning Stake - Ascended
+13710101 [Miracle] Lightning Stake [HitBullet] - Ascended
+13710102 [Miracle] Lightning Stake [HitBullet] - Ascended
 13710310 [Miracle] Lightning Stake [HitBullet]
 13710320 [Miracle] Lightning Stake [HitBullet]
 13720000 [Miracle] Divine Pillars of Light
@@ -4561,12 +4663,8 @@
 13720500 [Miracle] Divine Pillars of Light
 13730000 [Miracle] Lifehunt Scythe
 13730005 [Miracle] Lifehunt Scythe
-13730200 [Miracle] Lifehunt Scythe - 3
-13730205 [Miracle] Lifehunt Scythe - 3
-13730300 [Miracle] Lifehunt Scythe - 4
-13730305 [Miracle] Lifehunt Scythe - 4
-13730400 [Miracle] Lifehunt Scythe - 5
-13730405 [Miracle] Lifehunt Scythe - 5
+13730100 [Miracle] Lifehunt Scythe - Ascended
+13730105 [Miracle] Lifehunt Scythe - Ascended
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria
 14000001 Blessing of Rosaria
@@ -4653,8 +4751,6 @@
 18406300 [Pyromancy] Earthquake [HitBullet]
 18406500 [Pyromancy] Earthquake
 18406600 [Pyromancy] Earthquake [HitBullet]
-18600000 [Sorcery] Soul Focus
-18700000 [Miracle] Inner Fervor
 18800000 [Sorcery] Orbs of Judgment
 18800100 [Sorcery] Orbs of Judgment [HitBullet]
 18900000 Cursed Ring of Deflection - Spell Deflection
@@ -4667,6 +4763,9 @@
 19540010 [Pyromancy] Immolation [Hit]
 19540020 [Pyromancy] Immolation [Hit]
 19540030 [Pyromancy] Immolation [Hit]
+19540200 [Pyromancy] Immolation - Trail Spawner
+19540202 [Pyromancy] Immolation - Lava Spawner
+19540203 [Pyromancy] Immolation - Lava
 19544010 [Miracle] Vow of Agony
 19545000 [Miracle] Angelic Barrage
 19545100 [Miracle] Angelic Barrage [Hit]
@@ -4714,3 +4813,6 @@
 220003102 Great Swamp Ring - Immolation [Hit]
 220003103 Great Swamp Ring - Immolation [Hit]
 220003200 Morne's Ring - Wrath of the Gods
+220003300 Deep Ring - Abyssal Wake
+220003301 Deep Ring - Abyssal Wake
+220003302 Deep Ring - Abyssal Wake

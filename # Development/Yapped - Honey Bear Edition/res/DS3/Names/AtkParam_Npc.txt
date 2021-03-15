@@ -4564,3 +4564,80 @@
 7530904 [Fume Knight]
 7530990 [Fume Knight]
 7530991 [Fume Knight]
+7560060 [Frostfire Colossus] Club Shockwave
+7560070 [Frostfire Colossus] Right Foot Light Stomp
+7560071 [Frostfire Colossus] Left Foot Light Stomp
+7560080 [Frostfire Colossus] Right Foot Stomp
+7560081 [Frostfire Colossus] Left Foot Stomp
+7560090 [Frostfire Colossus] Left Hand
+7560100 [Frostfire Colossus] Wide Sweep
+7560101 [Frostfire Colossus] Follow-up Long Windup Slam
+7560102 [Frostfire Colossus] Follow-up Long Windup Slam Handle
+7560103 [Frostfire Colossus] Follow-up Long Windup Slam Left Elbow
+7560104 [Frostfire Colossus] Wide Sweep Left Knee
+7560110 [Frostfire Colossus] Follow-up Swipe Slam
+7560111 [Frostfire Colossus] Follow-up Swipe Slam Left Elbow
+7560112 [Frostfire Colossus] Follow-up Swipe Slam Right Elbow
+7560120 [Frostfire Colossus] Quick Frontal Plunge/Slamsplosion Slam
+7560121 [Frostfire Colossus]
+7560130 [Frostfire Colossus] Stab to the Left
+7560131 [Frostfire Colossus] Stab to the Left Left Elbow
+7560140 [Frostfire Colossus] Stab to the Right
+7560141 [Frostfire Colossus] Stab to the Right Handle
+7560142 [Frostfire Colossus] Stab to the Right Left Elbow
+7560150 [Frostfire Colossus] Stab in Front
+7560151 [Frostfire Colossus] Stab in Front Handle
+7560160 [Frostfire Colossus] Wind-up Slam
+7560161 [Frostfire Colossus] Wind-up Slam Handle
+7560162 [Frostfire Colossus] Wind-up Slam Left Arm
+7560170 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 1
+7560171 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 2
+7560172 [Frostfire Colossus] Follow-up 3 Hit Combo Slam
+7560173 [Frostfire Colossus] Follow-up 3 Hit Combo Slam Handle
+7560180 [Frostfire Colossus] Toppled Hammer Drop (Unused)
+7560181 [Frostfire Colossus] Toppled Arm Swipe (Unused)
+7560190 [Frostfire Colossus] 2/3 Slam Attacks Slams
+7560200 [Frostfire Colossus] Roar Buff Hammer Slam
+7560210 [Frostfire Colossus] Summoning Hammer Swipe
+7560220 [Frostfire Colossus] Sweeping Breath Handle
+7560230 [Frostfire Colossus] Hand Blast Club Drop
+7560700 [Frostfire Colossus] Sweeping Breath
+7560710 [Frostfire Colossus] Frostfire Breath Downward
+7560730 [Frostfire Colossus] Homing Projectiles
+7560731 [Frostfire Colossus] Homing Projectiles (Ground Impact)
+7560732 [Frostfire Colossus] Homing Projectiles  (Vanilla Unused)
+7560740 [Frostfire Colossus] Lava Ring
+7560760 [Frostfire Colossus] Unleash Frostfire Flame Explosion
+7560761 [Frostfire Colossus] Unleash Frostfire Flame Explosion - Hammer Drop
+7560770 [Frostfire Colossus] Hand Blast
+7560771 [Frostfire Colossus] Hand Blast Mines
+7560790 [Frostfire Colossus] Emitted Breath Bullet
+7560800 [Frostfire Colossus] Slamsplosion
+7560830 [Frostfire Colossus] Tracking Frostfire Pillar
+7560831 [Frostfire Colossus] Tracking Frostfire Pillar [Hazard]
+7560840 [Frostfire Colossus] Frostfire Pillars
+7560841 [Frostfire Colossus] Frostfire Pillars [Hazard]
+7560860 [Frostfire Colossus] Frostfire Pillars - Central Explosion
+7560870 [Frostfire Colossus] Blizzard
+7560871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
+7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles
+7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Ground Impact)
+7560890 [Frostfire Colossus] Frost Explosion after Hammer Slams
+7560900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
+7560901 [Frostfire Colossus] Frost Force Blast after Hammer Slams (Farthest Away)
+7560910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
+7560920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion
+7560930 [Frostfire Colossus] Fiery Floor
+7560940 [Frostfire Colossus] Summoning Ring (Unused)
+7561700 [Colossus Orb] Tri-Fireball
+7561710 [Colossus Orb] Frost Aura
+7562710 [Colossus Sapping Orb] Frostfire-ball
+7570010 [Frostfire Cleric] Saw Slam
+7570020 [Frostfire Cleric] Follow-up Saw Slam
+7570030 [Frostfire Cleric] Saw Swipe
+7570040 [Frostfire Cleric] 2-handed Saw Slam
+7570700 [Frostfire Cleric] Frostfire-ball
+7570710 [Frostfire Cleric] Frostfire Flames
+7570720 [Frostfire Cleric] Frostfire Combustion
+7570900 [Frostfire Cleric] Spawn Explosion
+7571700 [Frostfire Cleric Orb] Frostfire-ball

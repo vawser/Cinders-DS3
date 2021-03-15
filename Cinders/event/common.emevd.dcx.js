@@ -1851,6 +1851,7 @@ Event(21000, Default, function() {
     InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
     InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
     InitializeEvent(0, 20048, 0); // Frostbite Removal
+    InitializeEvent(0, 20049, 0); // Broken Tablet - Hard Mode
 });
 
 //------------------------------------------------
@@ -1883,8 +1884,10 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(74000171, 1) // Transposition Enabled
     
     // Menu Options
-    SetEventFlag(25000050, OFF); // Claimed Talisman of Power
-    SetEventFlag(25000051, OFF); // Claimed Talisman of Insanity
+    SetEventFlag(25000050, OFF); // Claimed Relic of Power
+    SetEventFlag(25000051, OFF); // Claimed Relic of Insanity
+    SetEventFlag(25000052, OFF); // Claimed Relic of Legends
+    SetEventFlag(25000053, OFF); // Claimed Relic of Myths
     SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
     SetEventFlag(25009580, OFF); // Grudore - Farron Coal
     SetEventFlag(25009581, OFF); // Grudore - Sage's Coal
@@ -2003,6 +2006,7 @@ Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     SetSpeffect(10000, X4_4);
     
     // Skip if already added
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25000055); // Skip soul boost if Hard mode is enabled
     SkipIfCharacterHasSpeffect(1, 10000, X8_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X8_4);
     
@@ -2117,7 +2121,7 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(14000757, OFF);
+    SetEventFlag(25000055, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2193,6 +2197,21 @@ Event(20048, Restart, function() {
     IfConditionGroup(MAIN, PASS, OR_01);
     ClearSpEffect(10000, 180021000); // Clear Frostbite Effects
     WaitFixedTimeSeconds(0.5);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Broken Tablet - Hard Mode
+Event(20049, Restart, function() {
+    IfPlayerHasdoesntHaveItem(AND_01, ItemType.Goods, 2022, OwnershipState.Owns);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    SetSpEffect(10000, 250000100);
+    SetSpEffect(10000, 250000101);
+    SetSpEffect(10000, 250000102);
+    SetSpEffect(10000, 250000103);
+    SetSpEffect(10000, 250000104);
+    SetSpEffect(10000, 250000105);
+    SetEventFlag(25000055, ON);
+    WaitFixedTimeSeconds(1.0);
     EndUnconditionally(EventEndType.Restart);
 });
 

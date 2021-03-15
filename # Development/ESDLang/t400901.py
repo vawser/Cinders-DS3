@@ -249,7 +249,7 @@ def t400901_x12():
         # action:15000010:Purchase Item
         AddTalkListData(1, 15000010, -1)
         # action:15000012:Sell Item
-        AddTalkListData(2, 15000012, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)
         # action:15000005:Leave
         AddTalkListData(99, 15000005, -1)
         """ State 3 """

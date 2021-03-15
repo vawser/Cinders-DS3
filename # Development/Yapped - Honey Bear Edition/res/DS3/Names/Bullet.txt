@@ -2401,6 +2401,119 @@
 7530903 [Fume Knight]
 7530904 [Fume Knight]
 7530910 [Fume Knight]
+7560050 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560051 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560052 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560053 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560054 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560055 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560056 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560700 [Frostfire Colossus] Sweeping Breath
+7560701 [Frostfire Colossus] Sweeping Breath
+7560710 [Frostfire Colossus] Frostfire Breath Downward
+7560711 [Frostfire Colossus] Frostfire Breath Downward
+7560715 [Frostfire Colossus] Frostfire Breath Downward
+7560720 [Frostfire Colossus]
+7560721 [Frostfire Colossus]
+7560730 [Frostfire Colossus] Homing Projectiles
+7560731 [Frostfire Colossus] Homing Projectiles
+7560732 [Frostfire Colossus] Homing Projectiles
+7560733 [Frostfire Colossus] Homing Projectiles
+7560734 [Frostfire Colossus] Homing Projectiles
+7560735 [Frostfire Colossus] Homing Projectiles
+7560736 [Frostfire Colossus] Homing Projectiles [Hazard]
+7560737 [Frostfire Colossus] Homing Projectiles Alternative? (Vanilla Unused)
+7560740 [Frostfire Colossus] Lava Ring Out-to-In
+7560741 [Frostfire Colossus] Lava Ring Out-to-In
+7560742 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560743 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560744 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560745 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560746 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560747 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560748 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560749 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560750 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560751 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560752 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560753 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560754 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560755 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560756 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560757 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560758 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560759 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560760 [Frostfire Colossus] Unleash Frostfire Flame Explosion
+7560770 [Frostfire Colossus] Hand Blast
+7560771 [Frostfire Colossus] Hand Blast Mines
+7560772 [Frostfire Colossus] Hand Blast Mines
+7560773 [Frostfire Colossus] Hand Blast Mines
+7560774 [Frostfire Colossus] Hand Blast Mines [Hit]
+7560780 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560781 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560782 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560783 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560784 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560785 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560786 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
+7560787 [Frostfire Colossus] Lava Ring Out-to-In VFX
+7560790 [Frostfire Colossus] Emitted Breath Bullet
+7560800 [Frostfire Colossus] Slamsplosion
+7560810 [Frostfire Colossus] Lava Ring In-to-Out
+7560811 [Frostfire Colossus] Lava Ring In-to-Out
+7560812 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560813 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560814 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560815 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560816 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560817 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560818 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560819 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560820 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560821 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560822 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
+7560823 [Frostfire Colossus] Lava Ring In-to-Out VFX
+7560830 [Frostfire Colossus] Tracking Frostfire Pillar
+7560831 [Frostfire Colossus] Tracking Frostfire Pillar [Hit]
+7560832 [Frostfire Colossus] Tracking Frostfire Pillar [Hazard]
+7560840 [Frostfire Colossus] Frostfire Pillars - A
+7560841 [Frostfire Colossus] Frostfire Pillars [Emitter] - A
+7560842 [Frostfire Colossus] Frostfire Pillars - A
+7560843 [Frostfire Colossus] Frostfire Pillars - A
+7560844 [Frostfire Colossus] Frostfire Pillars [Hit] - A
+7560845 [Frostfire Colossus] Frostfire Pillars [Hazard] - A
+7560850 [Frostfire Colossus] Frostfire Pillars - B
+7560851 [Frostfire Colossus] Frostfire Pillars [Emitter] - B
+7560852 [Frostfire Colossus] Frostfire Pillars - B
+7560853 [Frostfire Colossus] Frostfire Pillars - B
+7560854 [Frostfire Colossus] Frostfire Pillars [Hit] - B
+7560855 [Frostfire Colossus] Frostfire Pillars [Hazard] - B
+7560860 [Frostfire Colossus] Frostfire Pillars - Central Explosion
+7560870 [Frostfire Colossus] Blizzard
+7560871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
+7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles
+7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles
+7560882 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit]
+7560883 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit]
+7560884 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hazard]
+7560890 [Frostfire Colossus] Frost Explosion after Hammer Slams
+7560900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
+7560901 [Frostfire Colossus] Frost Force Blast after Hammer Slams
+7560902 [Frostfire Colossus] Frost Force Blast after Hammer Slams
+7560910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
+7560920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion
+7560921 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion [Hit]
+7560930 [Frostfire Colossus] Fiery Floor
+7560940 [Frostfire Colossus] Summoning Ring (Unused)
+7561700 [Colossus Orb] Tri-Frostfire Ball
+7561710 [Colossus Orb] Frost Aura
+7562700 [Colossus Sapping Orb] Blanks
+7562710 [Colossus Sapping Orb] Frostfire-ball
+7570700 [Frostfire Cleric] Frostfire-ball
+7570710 [Frostfire Cleric] Frostfire Flames
+7570720 [Frostfire Cleric] Frostfire Combustion
+7570900 [Frostfire Cleric] Spawn Explosion
+7571700 [Frostfire Cleric Orb] Frostfire-ball
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
 11200010 [Sorcery] Farron Dart - Ascended
@@ -2712,28 +2825,37 @@
 12660103 [Pyromancy] Seething Chaos [Hit] - Ascended
 12660104 [Pyromancy] Seething Chaos [Hit] - Ascended
 13490000 [Miracle] Heal Aid
+13490006 [Miracle] Heal Aid - Ascended
+13490010 [Miracle] Heal Aid [Hit]
+13490016 [Miracle] Heal Aid [Hit] - Ascended
 13500000 [Miracle] Heal
-13500006 [Miracle] Heal [MP]
+13500006 [Miracle] Heal - Ascended
 13500100 [Miracle] Heal [Hit]
-13500106 [Miracle] Heal [MP] [Hit]
+13500106 [Miracle] Heal [Hit] - Ascended
 13501000 [Miracle] Med Heal
-13501006 [Miracle] Med Heal [MP]
+13501006 [Miracle] Med Heal - Ascended
 13501100 [Miracle] Med Heal [Hit]
-13501106 [Miracle] Med Heal [MP] [Hit]
+13501106 [Miracle] Med Heal [Hit] - Ascended
 13502000 [Miracle] Great Heal
-13502006 [Miracle] Great Heal [MP]
+13502006 [Miracle] Great Heal - Ascended
 13502100 [Miracle] Great Heal [Hit]
-13502106 [Miracle] Great Heal [MP] [Hit]
+13502106 [Miracle] Great Heal [Hit] - Ascended
 13503000 [Miracle] Soothing Sunlight
-13503006 [Miracle] Soothing Sunlight [MP]
+13503006 [Miracle] Soothing Sunlight - Ascended
 13503100 [Miracle] Soothing Sunlight [Hit]
-13503106 [Miracle] Soothing Sunlight [MP] [Hit]
+13503106 [Miracle] Soothing Sunlight [Hit] - Ascended
 13505000 [Miracle] Bountiful Sunlight
-13505006 [Miracle] Bountiful Sunlight [MP]
+13505006 [Miracle] Bountiful Sunlight - Ascended
 13505100 [Miracle] Bountiful Sunlight [Hit]
-13505106 [Miracle] Bountiful Sunlight [MP] [Hit]
-13507006 [Miracle] Bountiful Light
-13507106 [Miracle] Bountiful Light - Ascended
+13505106 [Miracle] Bountiful Sunlight [Hit] - Ascended
+13506000 [Miracle] Replenishment
+13506001 [Miracle] Replenishment [Hit]
+13506010 [Miracle] Replenishment - Ascended
+13506011 [Miracle] Replenishment [Hit] - Ascended
+13507000 [Miracle] Bountiful Light
+13507001 [Miracle] Bountiful Light [Hit]
+13507010 [Miracle] Bountiful Light - Ascended
+13507011 [Miracle] Bountiful Light [Hit] - Ascended
 13508000 [Miracle] Caressing Tears
 13508006 [Miracle] Caressing Tears [MP]
 13509000 [Miracle] Lightning Arrow
@@ -2762,6 +2884,7 @@
 13553300 [Miracle] Lightning Storm
 13553400 [Miracle] Lightning Storm
 13553500 [Miracle] Lightning Storm
+13553501 [Miracle] Lightning Storm - Ascended
 13553600 [Miracle] Lightning Storm [Hit]
 13553700 [Miracle] Lightning Storm
 13553800 [Miracle] Lightning Storm
@@ -2774,13 +2897,13 @@
 13556020 [Miracle] Way of White Corona [Hit]
 13556021 [Miracle] Way of White Corona [Hit]
 13557000 [Miracle] Projected Heal
-13557006 [Miracle] Projected Heal [MP]
+13557006 [Miracle] Projected Heal - Ascended
 13557010 [Miracle] Projected Heal [Hit]
-13557016 [Miracle] Projected Heal [MP] [Hit]
+13557016 [Miracle] Projected Heal [Hit] - Ascended
 13563000 [Miracle] Sacred Oath
-13563006 [Miracle] Sacred Oath [MP]
+13563006 [Miracle] Sacred Oath - Ascended
 13581000 [Miracle] Vow of Silence
-13581006 [Miracle] Vow of Silence [MP]
+13581006 [Miracle] Vow of Silence - Ascended
 13700000 [Dead Again] Source Bullet (unused)
 13700100 [Dead Again] Finder Bullet - Tier 1
 13700110 [Dead Again] Finder Bullet - Tier 2
@@ -2801,8 +2924,11 @@
 13700270 [Dead Again] Finder Bullet [Hit] - Tier 8
 13700280 [Dead Again] Finder Bullet [Hit] - Tier 9
 13710000 [Miracle] Lightning Stake
-13710100 [Miracle] Lightning Stake [Hit]
-13710200 [Miracle] Lightning Stake [Hit]
+13710001 [Miracle] Lightning Stake [Hit]
+13710002 [Miracle] Lightning Stake [Hit]
+13710100 [Miracle] Lightning Stake - Ascended
+13710101 [Miracle] Lightning Stake [Hit] - Ascended
+13710102 [Miracle] Lightning Stake [Hit] - Ascended
 13720000 [Miracle] Divine Pillars of Light
 13720001 [Miracle] Divine Pillars of Light [Hit]
 13720002 [Miracle] Divine Pillars of Light [Hit]
@@ -2814,9 +2940,7 @@
 13720103 [Miracle] Divine Pillars of Light [Hit] - Ascended
 13720105 [Miracle] Divine Pillars of Light - Ascended
 13730000 [Miracle] Lifehunt Scythe
-13730200 [Miracle] Lifehunt Scythe
-13730300 [Miracle] Lifehunt Scythe
-13730400 [Miracle] Lifehunt Scythe
+13730100 [Miracle] Lifehunt Scythe - Ascended
 100000001 ### Weapon Arts ###
 100010000 [Catalyst] Arcane Ward - Right
 100010001 [Catalyst] Arcane Ward - Left
@@ -3200,7 +3324,7 @@
 108160001 [Miracle] Nibble - Ascended
 108210000 [Pyromancy] Dark Hail
 108220000 [Pyromancy] Dark Dance
-108220100 [Pyromancy] Dark Dance [Hit]
+108220100 [Pyromancy] Dark Dance - Ascended
 108230000 [Pyromancy] Recollection
 108230010 [Pyromancy] Recollection
 108230100 [Pyromancy] Recollection [Emitter]
@@ -3314,6 +3438,7 @@
 108405150 [Pyromancy] Heave Earth [Hit]
 108405160 [Pyromancy] Heave Earth [Hit]
 108405170 [Pyromancy] Heave Earth [Hit]
+108405200 [Pyromancy] Heave Earth - Ascended
 108406000 [Pyromancy] Earthquake
 108406100 [Pyromancy] Earthquake [Hit]
 108406200 [Pyromancy] Earthquake [Hit]
@@ -3332,16 +3457,10 @@
 108800010 [Sorcery] Orbs of Judgment [Hit]
 108801000 [Sorcery] Orbs of Judgment - Ascended
 108801010 [Sorcery] Orbs of Judgment [Hit] - Ascended
-108802000 [Pyromancy] Immolation
-108802010 [Pyromancy] Immolation - Firestorm
-108802020 [Pyromancy] Immolation - Firestorm
-108802030 [Pyromancy] Immolation - Firestorm [Hit]
-108802040 [Pyromancy] Immolation - Firestorm [Hit]
-108802100 [Pyromancy] Immolation - Ascended
-108802110 [Pyromancy] Immolation - Firestorm - Ascended
-108802120 [Pyromancy] Immolation - Firestorm - Ascended
-108802130 [Pyromancy] Immolation - Firestorm [Hit] - Ascended
-108802140 [Pyromancy] Immolation - Firestorm [Hit] - Ascended
+108802200 [Pyromancy] Immolation - Trail Spawner
+108802210 [Pyromancy] Immolation - Lava Spawner
+108802211 [Pyromancy] Immolation - Lava
+108802220 [Pyromancy] Immolation - Trail Spawner - Ascended
 109541000 [Miracle] Heavenly Thunder - Random
 109541010 [Miracle] Heavenly Thunder - Random [Emitter]
 109541020 [Miracle] Heavenly Thunder - Random [Hit]
@@ -3506,11 +3625,9 @@
 210001300 Insanity Catalyst - Insanity
 210001400 Talisman of Beasts - Bestial Wrath
 210001500 Rotten Talisman - Poison Spores
-210001600 Smouldering Talisman - Immolate
-210001610 Smouldering Talisman - Immolate - Firestorm
-210001620 Smouldering Talisman - Immolate - Firestorm
-210001630 Smouldering Talisman - Immolate - Firestorm [Hit]
-210001640 Smouldering Talisman - Immolate - Firestorm [Hit]
+210001600 Smouldering Talisman - Immolate - Trail Spawner
+210001610 Smouldering Talisman - Immolate - Lava Spawner
+210001611 Smouldering Talisman - Immolate - Lava
 210001700 Smelter Sword - Smelter's Fury
 210001701 Smelter Sword - Smelter's Fury [Hit]
 210001702 Smelter Sword - Smelter's Fury [Hit]
@@ -3576,19 +3693,191 @@
 210012102 Manus Catalyst - Cascading Deep [Hit]
 210012200 Manus Catalyst - Dark Bead
 210012300 Manus Catalyst - Climax
+210013000 Quarterstaff - Elemental Flow Activation
+210013100 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
+210013200 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
+210013300 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+210013400 Quarterstaff - Elemental Overflow – 2H Lightning Rain
+210013401 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
+210013402 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
+210013500 Quarterstaff - Elemental Overflow – 2H Lightning Pulse
+210013600 Quarterstaff - Elemental Overflow – 2H Lightning Star
+210013700 Quarterstaff - Elemental Overflow Low FP Burst
+210013800 Quarterstaff - Successive Hits Burst
+210013801 Quarterstaff - Successive Hits Burst [Hit]
+210013802 Quarterstaff - Successive Hits Burst [Hit]
+210014000 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion
+210014001 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion [Hit]
+210014002 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion [Hit]
+210014100 Frostfall - Endless Winter - Blizzard - Single Huge Hitbox (Unused)
+210014101 Frostfall - Endless Winter - Blizzard (Unused)
+210014102 Frostfall - Endless Winter - Blizzard (Unused)
+210014103 Frostfall - Endless Winter - Blizzard (Unused)
+210014104 Frostfall - Endless Winter - Blizzard (Unused)
+210014105 Frostfall - Endless Winter - Blizzard (Unused)
+210014106 Frostfall - Endless Winter - Blizzard (Unused)
+210014107 Frostfall - Endless Winter - Blizzard (Unused)
+210014108 Frostfall - Endless Winter - Blizzard (Unused)
+210014109 Frostfall - Endless Winter - Blizzard Damage (Unused)
+210014110 Frostfall - Endless Winter - Blizzard Damage [Hit] (Unused)
+210014111 Frostfall - Endless Winter - Blizzard - Frost and HP Loss (Unused)
+210014112 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Hit] (Unused)
+210014120 Frostfall - Endless Winter - Blizzard - 1 Feet Away - Frost and HP Loss
+210014121 Frostfall - Endless Winter - Blizzard - 3 Feet Away - Frost and HP Loss
+210014122 Frostfall - Endless Winter - Blizzard - 6 Feet Away - Frost and HP Loss
+210014123 Frostfall - Endless Winter - Blizzard - 9 Feet Away - Frost and HP Loss
+210014124 Frostfall - Endless Winter - Blizzard - 12 Feet Away - Frost and HP Loss
+210014125 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014126 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014127 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Hit]
+210014128 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Hit]
+210014130 Frostfall - Endless Winter - Blizzard - 1 Foot Away - Damage
+210014131 Frostfall - Endless Winter - Blizzard - 3 Feet Away - Damage
+210014132 Frostfall - Endless Winter - Blizzard - 6 Feet Away - Damage
+210014133 Frostfall - Endless Winter - Blizzard - 9 Feet Away - Damage
+210014134 Frostfall - Endless Winter - Blizzard - 12 Feet Away - Damage
+210014135 Frostfall - Endless Winter - Blizzard - Damage
+210014136 Frostfall - Endless Winter - Blizzard - Damage
+210014137 Frostfall - Endless Winter - Blizzard  - Damage [Hit]
+210014138 Frostfall - Endless Winter - Blizzard  - Damage [Hit]
+210014140 Frostfall - Endless Winter - Blizzard - Frost and HP Loss Start [Emitter]
+210014141 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Emitter]
+210014142 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Emitter]
+210014143 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Emitter]
+210014144 Frostfall - Endless Winter - Blizzard - Frost and HP Loss [Emitter]
+210014145 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014146 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014147 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014148 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014149 Frostfall - Endless Winter - Blizzard - Frost and HP Loss
+210014150 Frostfall - Endless Winter - Blizzard - Damage Start [Emitter]
+210014151 Frostfall - Endless Winter - Blizzard - Damage [Emitter]
+210014152 Frostfall - Endless Winter - Blizzard - Damage [Emitter]
+210014153 Frostfall - Endless Winter - Blizzard - Damage [Emitter]
+210014154 Frostfall - Endless Winter - Blizzard - Damage [Emitter]
+210014155 Frostfall - Endless Winter - Blizzard - Damage
+210014156 Frostfall - Endless Winter - Blizzard - Damage
+210014157 Frostfall - Endless Winter - Blizzard - Damage
+210014158 Frostfall - Endless Winter - Blizzard - Damage
+210014159 Frostfall - Endless Winter - Blizzard - Damage
+210014200 Frostfall - Endless Winter - Frostfire Blade
+210014201 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014202 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014203 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014204 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014205 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014206 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014207 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014208 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014209 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014210 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014211 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014212 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014213 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014214 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014215 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014216 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014217 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014218 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014219 Frostfall - Endless Winter - Frostfire Blade [Hit]
+210014220 Frostfall - Endless Winter - Frostfire Blade [Emitted Hit]
+210014250 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014251 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014252 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014253 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014254 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014255 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014256 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014257 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014258 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014259 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014260 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014261 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014262 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014263 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014264 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014265 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014266 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014267 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014268 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014269 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+210014270 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist [Emitted Hit]
+210014300 Frostfall - Endless Winter - Crystal Crescendo
+210014301 Frostfall - Endless Winter - Crystal Crescendo [Emitter]
+210014302 Frostfall - Endless Winter - Crystal Crescendo [Emitter]
+210014303 Frostfall - Endless Winter - Crystal Crescendo
+210014304 Frostfall - Endless Winter - Crystal Crescendo [Hit]
+210014310 Frostfall - Endless Winter - Crystal Crescendo - Summoning Ring
+210014311 Frostfall - Endless Winter - Crystal Crescendo - Summoning Ring [Hit]
+210014320 Frostfall - Endless Winter - Crystal Crescendo - Freezing Mists
+210014321 Frostfall - Endless Winter - Crystal Crescendo - Freezing Mists [Hit]
+210014330 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014331 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014332 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014333 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014334 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014335 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014336 Frostfall - Endless Winter - Crystal Crescendo - Finale Right UNUSED
+210014337 Frostfall - Endless Winter - Crystal Crescendo - Finale Right [Hit] UNUSED
+210014340 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014341 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014342 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014343 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014344 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014345 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014346 Frostfall - Endless Winter - Crystal Crescendo - Finale Left UNUSED
+210014347 Frostfall - Endless Winter - Crystal Crescendo - Finale Left [Hit] UNUSED
+210014350 Frostfall - Endless Winter - Crystal Crescendo - Finale
+210014351 Frostfall - Endless Winter - Crystal Crescendo - Finale
+210014352 Frostfall - Endless Winter - Crystal Crescendo - Finale [Emitter]
+210014353 Frostfall - Endless Winter - Crystal Crescendo - Finale
+210014354 Frostfall - Endless Winter - Crystal Crescendo - Finale
+210014355 Frostfall - Endless Winter - Crystal Crescendo - Finale [Hit]
+210014400 Frostfall - Endless Winter - Low FP Freezing Mist
+210014401 Frostfall - Endless Winter - Low FP Freezing Mist [Hit]
+210014500 Frostfall - 2H L1 - Frost Surge
+210014501 Frostfall - 2H L1 - Frost Surge [Hit]
+210014502 Frostfall - 2H L1 - Frost Surge [Hit]
+210014503 Frostfall - 2H L1 - Frost Surge [Hit]
+210014600 Frostfall - 2H L1 Rolling - Ice Daggers
+210014601 Frostfall - 2H L1 Rolling - Ice Daggers Trail
+210014602 Frostfall - 2H L1 Rolling - Ice Daggers Trail
+210014700 Frostfall - 2H L1 #3 - Frost Throw
+210014701 Frostfall - 2H L1 #3 - Frost Throw [Hit]
+210014702 Frostfall - 2H L1 #3 - Frost Throw [Hit]
+210014703 Frostfall - 2H L1 #3 - Frost Throw [Hit]
+210014800 Frostfall - 2H Light #3 - Disc Toss
+210014900 Frostfall - 2H Light #2 - Frostfire Burst
+210014901 Frostfall - 2H Light #2 - Frostfire Burst [Hit]
+210015000 Frostfall - 2H Light #5 - Disc Volley
+210015100 Frostfall - 2H Jumping - Ice Patch
+210015101 Frostfall - 2H Jumping - Ice Pillar
+210015102 Frostfall - 2H Jumping - Ice Pillar [Hit]
+210015200 Frostfall - 2H Rolling - Frost Blast
+210015201 Frostfall - 2H Rolling - Frost Blast [Hit]
+210015202 Frostfall - 2H Rolling - Frost Blast [Hit]
+210015203 Frostfall - 2H Rolling - Frost Blast [Hit]
+210015300 [Frostfall] Crystal Rain Effect
+210015301 [Frostfall] Crystal Rain Effect
+210015302 [Frostfall] Crystal Rain Effect
+210015303 [Frostfall] Crystal Rain Effect
+210015304 [Frostfall] Crystal Rain Effect [Hit]
+210016000 [Black Dragon Shield] Black Dragon's Ire
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport
 220002000 Wretched Pendant - Aura
 220003000 Young Dragon Ring - Homing Soulmass
 220003001 Young Dragon Ring - Homing Soulmass [Hit]
-220003100 Great Swamp Ring - Immolation
-220003101 Great Swamp Ring - Immolation [Hit]
-220003102 Great Swamp Ring - Immolation [Hit]
-220003103 Great Swamp Ring - Immolation [Hit]
-220003104 Great Swamp Ring - Immolation [Hit]
+220003100 Great Swamp Ring - Firestorm
+220003101 Great Swamp Ring - Firestorm [Hit]
+220003102 Great Swamp Ring - Firestorm [Hit]
+220003103 Great Swamp Ring - Firestorm [Hit]
+220003104 Great Swamp Ring - Firestorm [Hit]
 220003200 Morne's Ring - Wrath of the Gods
-220003300 Deep Ring - Repel
+220003300 Deep Ring - Abyssal Wake - Trail Spawner
+220003301 Deep Ring - Abyssal Wake - Explosion Spawner
+220003302 Deep Ring - Abyssal Wake - Explosion
 220999999 ### Weapons ###
 221000000 Cannon - Bullet
 221000001 Cannon - Bullet [Hit]

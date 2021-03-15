@@ -16,9 +16,8 @@
 10000703 Now I'll be equipped to infuse special gems.
 10000704 Praise the gods, eh. Time to put this brawn to use!
 10000800 My, my... The coal of that peaceable giant.
-12004000 Fire Keeper - Form Betrothal
-12004010 Fire Keeper - Flirt
-12004020 Fire Keeper - Accursed Signet
+12003600 Fire Keeper - Bonk Prelude
+12003601 Fire Keeper - Bonk
 22000000 It's a blade of God. -- 神の姿に刃するものよ
 22000001 My name is Gwindlin. -- 我が名はグウィンドリン
 22000002 Thy profane shall never be forgiven. -- 汝の不敬は、決して許されるものではない

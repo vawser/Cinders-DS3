@@ -198,7 +198,7 @@ def t380001_x9():
         AddTalkListData(20, 15010005, -1)
         
         # Sell Item
-        AddTalkListData(21, 15010006, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 21, 15010006, -1)
         
         # Organize Storage Box
         AddTalkListData(3, 15000220, -1)

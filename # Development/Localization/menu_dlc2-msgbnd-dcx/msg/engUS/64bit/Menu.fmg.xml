@@ -3282,10 +3282,17 @@ Enables an additional chance for a Primordial Fragment.</text>
 <text id="99002532">Tomes</text>
 <text id="99003500">Bestow Lordvessel</text>
 <text id="99003501">Relics</text>
+
 <text id="99003502">Claim Relic of Power</text>
 <text id="99003503">Claim Relic of Insanity</text>
-<text id="99003504">Relic of Power</text>
-<text id="99003505">Relic of Insanity</text>
+<text id="99003504">Claim Relic of Legends</text>
+<text id="99003505">Claim Relic of Myths</text>
+
+<text id="99003506">Relic of Power</text>
+<text id="99003507">Relic of Insanity</text>
+<text id="99003508">Relic of Legends</text>
+<text id="99003509">Relic of Myths</text>
+
 <text id="99003510">To claim the Relic of Power you must:
 - Kill the Soul of Cinder.
 - Refrain from dying at any point during your journey.
@@ -3301,6 +3308,7 @@ You can claim the relic.</text>
 - Refrain from dying at any point during your journey.
 
 You have failed.</text>
+
 <text id="99003520">To claim the Relic of Insanity you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
@@ -3319,6 +3327,42 @@ You can claim the relic.</text>
 during your journey.
 
 You have failed.</text>
+
+<text id="99003530">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You are still eligible.</text>
+<text id="99003531">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You can claim the relic.</text>
+<text id="99003532">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from dying at any point during your journey.
+
+You have failed.</text>
+
+<text id="99003540">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You are still eligible.</text>
+<text id="99003541">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You can claim the relic.</text>
+<text id="99003542">To claim the Relic of Legends you must:
+- Kill the Soul of Cinder.
+- Refrain from taking any damage from any enemy at any point 
+during your journey.
+
+You have failed.</text>
+
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
 Magic: absorb 2/4/6 FP on hit, differs based on weapon type.
@@ -3806,6 +3850,9 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99015184">Tainted Chalice</text>
 <text id="99015185">Accursed Sigil</text>
 <text id="99015186">Frostflower Ring</text>
+<text id="99015187">Relic of Legends</text>
+<text id="99015188">Relic of Myths</text>
+
 <text id="99030000">You must possess the Dragon Talon to activate this object.</text>
 <text id="99030001">You must possess the Pilgrim's Soul to activate this object.</text>
 <text id="99030002">You must possess the Smouldering Key to activate this object.</text>

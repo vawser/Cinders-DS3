@@ -451,7 +451,7 @@ def t400301_x21():
         # action:15010004:Purchase Item
         AddTalkListData(1, 15010004, -1)
         # action:15000012:Sell Item
-        AddTalkListData(2, 15000012, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008170) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

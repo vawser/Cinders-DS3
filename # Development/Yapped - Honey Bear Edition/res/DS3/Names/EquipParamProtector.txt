@@ -82,6 +82,21 @@
 1311000 Rosaria's Set - Body (Transform)
 1312000 Rosaria's Set - Hands (Transform)
 1313000 Rosaria's Set - Legs (Transform)
+1320000 Martyr's Set - Head (Transform)
+1321000 Martyr's Set - Body (Transform)
+1322000 Martyr's Set - Hands (Transform)
+1323000 Martyr's Set - Legs (Transform)
+1330000 Magician Set - Head (Transform)
+1331000 Magician Set - Body (Transform)
+1332000 Magician Set - Hands (Transform)
+1333000 Magician Set - Legs (Transform)
+1341000 Wanderer's Set - Body (Transform)
+1342000 Wanderer's Set - Hands (Transform)
+1343000 Wanderer's Set - Legs (Transform)
+1350000 Empty - Head (Transform)
+1351000 Empty - Body (Transform)
+1352000 Empty - Hands (Transform)
+1353000 Empty - Legs (Transform)
 10000001 ### Armor ###
 10010000 Gough's Helm
 10011000 Gough's Armor
@@ -154,6 +169,52 @@
 10260000 Rosaria's Dress
 10270000 Salvador's Hat
 10280000 Priestly Cap
+10290000 Gallant Helm
+10291000 Gallant Armor
+10292000 Gallant Gloves
+10293000 Gallant Leggings
+10300000 Warden Coif
+10301000 Warden Chainmail
+10302000 Warden Gloves
+10303000 Warden Leggings
+10310000 Dull Gold Helmet
+10311000 Dull Gold Armor
+10312000 Dull Gold Gauntlets
+10313000 Dull Gold Leggings
+10320000 Fluted Helmet
+10321000 Fluted Armor
+10322000 Fluted Gauntlets
+10323000 Fluted Leggings
+10330000 Huntsman's Cap
+10331000 Huntsman's Armor
+10332000 Huntsman's Gloves
+10333000 Huntsman's Leggings
+10340000 Mirdan Helmet
+10341000 Mirdan Scale Mail
+10342000 Mirdan Gauntlets
+10343000 Mirdan Leggings
+10350000 Sentinel Helmet
+10351000 Sentinel Armor
+10352000 Sentinel Gauntlets
+10353000 Sentinel Leggings
+10360000 Three-cornered Hat
+10361000 Old Raggedy Robes
+10362000 Old Raggedy Gloves
+10363000 Old Raggedy Leggings
+10370000 Gold Mask
+10371000 Charlatan's Clothes
+10372000 Charlatan's Gloves
+10373000 Charlatan's Leggings
+10381000 Martyr Robes
+10382000 Martyr Gloves
+10383000 Martyr Leggings
+10390000 Pickpocket Mask
+10391000 Pickpocket Clothes
+10392000 Pickpocket Gloves
+10393000 Pickpocket Leggings
+10401000 Magician Clothes
+10402000 Magician Gloves
+10403000 Magician Leggings
 19000000 Fallen Knight Helm
 19001000 Fallen Knight Armor
 19002000 Fallen Knight Gauntlets

@@ -53,9 +53,9 @@
 200000 Darkness
 299999 ### Spells ###
 300000 Young Dragon Ring - Homing Soulmass
-300010 Great Swamp Ring - Immolation
-300020 Morne's Ring - Wrathful Orbs
-300030 Deep Ring - Abyssal Burst
+300010 Great Swamp Ring - Firestorm
+300020 Morne's Ring - Wrath of the Gods
+300030 Deep Ring - Abyssal Wake
 399999 ### Rings ###
 400000 Cursed Ring of Deflection
 400001 Cursed Ring of Confusion
@@ -65,17 +65,8 @@
 13730005 [Miracle] Lifehunt Scythe
 13730100 [Miracle] Lifehunt Scythe - Ascended
 13730105 [Miracle] Lifehunt Scythe - Ascended
-13730200 [Miracle] Lifehunt Scythe
-13730205 [Miracle] Lifehunt Scythe
-13730300 [Miracle] Lifehunt Scythe
-13730305 [Miracle] Lifehunt Scythe
-13730400 [Miracle] Lifehunt Scythe
-13730405 [Miracle] Lifehunt Scythe
-13731000 [Miracle] Lifehunt Scythe
-13731100 [Miracle] Lifehunt Scythe - Ascended
-13731200 [Miracle] Lifehunt Scythe
-13731300 [Miracle] Lifehunt Scythe
-13731400 [Miracle] Lifehunt Scythe
+13731000 [Miracle] Lifehunt Scythe - SpEffect
+13731100 [Miracle] Lifehunt Scythe - SpEffect - Ascended
 13814750 Crucifix of the Mad King
 101000300 Standard Arrow
 101000310 Standard Arrow
@@ -414,6 +405,70 @@
 102050760 Aquamarine Dagger - Weapon Art
 102050770 Aquamarine Dagger - Weapon Art
 102050780 Aquamarine Dagger - Weapon Art
+102060000 Frostfall - 1H Light #1
+102060010 Frostfall - 1H Light #2
+102060020 Frostfall - 1H Light #3
+102060030 Frostfall - 1H Jumping
+102060060 Frostfall - 1H Light #4
+102060070 Frostfall - 1H Light #5
+102060100 Frostfall - 1H Heavy #1
+102060105 Frostfall - 1H Heavy #1 Max
+102060110 Frostfall - 1H Heavy #2
+102060115 Frostfall - 1H Heavy #2 Max
+102060200 Frostfall - 2H Light #1 - Right
+102060201 Frostfall - 2H Light #1 - Left
+102060210 Frostfall - 2H Light #2 - Right
+102060211 Frostfall - 2H Light #2 - Left - Frostfire Burst
+102060220 Frostfall - 2H Light #3 - Right
+102060221 Frostfall - 2H Light #3 - Left - Disc Toss
+102060230 Frostfall - 2H Jumping - Right
+102060231 Frostfall - 2H Jumping - Left
+102060232 Frostfall - 2H Jumping - Ice Patch
+102060233 Frostfall - 2H Jumping - Ice Pillar
+102060260 Frostfall - 2H Light #4 - Right
+102060261 Frostfall - 2H Light #4 - Left
+102060270 Frostfall - 2H Light #5 - Disc Volley
+102060300 Frostfall - 2H Heavy #1
+102060305 Frostfall - 2H Heavy #1 Max
+102060310 Frostfall - 2H Heavy #2
+102060315 Frostfall - 2H Heavy #2 Max
+102060520 Frostfall - 1H Dash
+102060530 Frostfall - 2H Dash
+102060540 Frostfall - 1H Rolling
+102060580 Frostfall - 2H Rolling
+102060581 Frostfall - 2H Rolling - Frost Blast
+102060582 Frostfall - 2H Rolling - Frost Blast [Hit]
+102060620 Frostfall - 2H L1 #1 - Frost Surge
+102060621 Frostfall - 2H L1 #1 - Frost Surge [Hit]
+102060630 Frostfall - 2H L1 #2 - Left 2
+102060631 Frostfall - 2H L1 #2 - Left 1
+102060640 Frostfall - 2H L1 #3 - Right - Frostfire Slam
+102060641 Frostfall - 2H L1 #3 - Left - Frost Throw
+102060642 Frostfall - 2H L1 #3 - Left - Frost Throw [Hit]
+102060650 Frostfall - 2H L1 #4 - Right
+102060651 Frostfall - 2H L1 #4 - Left
+102060660 Frostfall - 2H L1 #5 - Right
+102060661 Frostfall - 2H L1 #5 - Left 2
+102060662 Frostfall - 2H L1 #5 - Left 1
+102060750 Frostfall - 2H L1 Running/Backstep - Frostfire Combustion
+102060760 Frostfall - 2H L1 Rolling - Ice Daggers
+102060761 Frostfall - 2H L1 Rolling - Ice Daggers Trail
+102060762 Frostfall - 2H L1 Rolling - Ice Daggers Trail
+102060800 Frostfall - Endless Winter - Frostfire Blade Weapon Swing
+102060801 Frostfall - Frostfire Blade Slam Shockwave
+102060900 Frostfall - Endless Winter - Blizzard
+102060901 Frostfall - Endless Winter - Blizzard [Hit]
+102060910 Frostfall - Endless Winter - Frostfire Blade
+102060911 Frostfall - Endless Winter - Frostfire Blade - Freezing Mist
+102060920 Frostfall - Endless Winter - Crystal Crescendo
+102060921 Frostfall - Endless Winter - Crystal Crescendo - Summoning Ring
+102060922 Frostfall - Endless Winter - Crystal Crescendo - Freezing Mists
+102060923 Frostfall - Endless Winter - Crystal Crescendo - Finale Right
+102060924 Frostfall - Endless Winter - Crystal Crescendo - Finale Left
+102060925 Frostfall - Endless Winter - Crystal Crescendo - Finale
+102060930 Frostfall - Endless Winter - Low FP Freezing Mist
+102060931 Frostfall - Endless Winter - Low FP Freezing Mist [Hit]
+102060940 [Frostfall] Crystal Rain Effect
 102090620 Brigand Twindaggers
 102090621 Brigand Twindaggers
 102090630 Brigand Twindaggers
@@ -1204,9 +1259,9 @@
 102700305 Rapier - 2H Heavy #1 Max
 102700310 Rapier - 2H Heavy #2
 102700315 Rapier - 2H Heavy #2 Max
-102700400 Rapier - Left Hand
-102700402 Rapier
-102700404 Rapier
+102700400 Rapier - Left Hand #1
+102700402 Rapier - Left Hand #2
+102700404 Rapier - Left Hand #3
 102700410 Rapier - 1H Kick
 102700420 Rapier - 2H Kick
 102700430 Rapier - 1H Guard
@@ -3264,6 +3319,35 @@
 103815725 Ancient Dragon Halberd
 103815726 Ancient Dragon Halberd
 103815800 Ancient Dragon Halberd
+103816030 Quarterstaff - 1H Jump
+103816100 Quarterstaff - 1H Heavy #1
+103816105 Quarterstaff - 1H Heavy #1 Max
+103816110 Quarterstaff - 1H Heavy #2
+103816115 Quarterstaff - 1H Heavy #2 Max
+103816230 Quarterstaff - 2H Jump
+103816300 Quarterstaff - 2H Heavy #1 Hit 1
+103816303 Quarterstaff - 2H Heavy #1 Hit 2
+103816305 Quarterstaff - 2H Heavy #1 Max Hit 1
+103816308 Quarterstaff - 2H Heavy #1 Max Hit 2
+103816310 Quarterstaff - 2H Heavy #2
+103816315 Quarterstaff - 2H Heavy #2 Max
+103816800 Quarterstaff - Elemental Overflow - Activation Thrust
+103816810 Quarterstaff - Elemental Overflow - 1H Heavy #1 Hit 1
+103816811 Quarterstaff - Elemental Overflow - 1H Heavy #1 Hit 2
+103816820 Quarterstaff - Elemental Overflow - 1H Heavy #2
+103816830 Quarterstaff - Elemental Overflow - 2H Heavy #1 Hit 1
+103816831 Quarterstaff - Elemental Overflow - 2H Heavy #1 Hit 2
+103816840 Quarterstaff - Elemental Overflow - 2H Heavy #2
+103816841 Quarterstaff - Elemental Overflow - 2H Heavy #2 - Backstep
+103816900 Quarterstaff - Elemental Flow Activation
+103816910 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
+103816920 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
+103816930 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+103816940 Quarterstaff - Elemental Overflow – 2H Lightning Rain
+103816950 Quarterstaff - Elemental Overflow – 2H Lightning Pulse
+103816960 Quarterstaff - Elemental Overflow – 2H Lightning Star
+103816970 Quarterstaff - Elemental Overflow Low FP Burst
+103816980 Quarterstaff - Successive Hits Burst
 104100000 Spell Tool
 104100001 Spell Tool - Addition
 104100030 Spell Tool

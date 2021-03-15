@@ -253,14 +253,22 @@ def t400504_x11():
     while True:
         ClearTalkListData()
         
-        AddTalkListDataIf(GetEventStatus(25000050) == 0, 1, 99003504, -1) # Relic of Power
-        AddTalkListDataIf(GetEventStatus(25000051) == 0, 2, 99003505, -1) # Relic of Insanity
+        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000050) == 0, 1, 99003506, -1) # Relic of Power
+        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000051) == 0, 2, 99003507, -1) # Relic of Insanity
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000052) == 0, 3, 99003508, -1) # Relic of Legends
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000053) == 0, 4, 99003509, -1) # Relic of Myths
         
         # Claim Relic of Power
-        AddTalkListDataIf(GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000050) == 0, 10, 99003502, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000050) == 0, 10, 99003502, -1)
         
         # Claim Relic of Insanity
-        AddTalkListDataIf(GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000051) == 0, 11, 99003503, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000051) == 0, 11, 99003503, -1)
+        
+        # Claim Relic of Legends
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000032) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000052) == 0, 12, 99003504, -1)
+        
+        # Claim Relic of Myths
+        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000033) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000053) == 0, 13, 99003505, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -293,6 +301,30 @@ def t400504_x11():
             elif GetEventStatus(25000031) == 0:
                 OpenGenericDialog(1, 99003522, 0, 0, 0)
             return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 3:
+            # Succeeded
+            if GetEventStatus(25000032) == 1 and GetEventStatus(25001019) == 1:
+                OpenGenericDialog(1, 99003531, 0, 0, 0)
+            # Eligible
+            elif GetEventStatus(25000032) == 1:
+                OpenGenericDialog(1, 99003530, 0, 0, 0)
+            # Failed
+            elif GetEventStatus(25000032) == 0:
+                OpenGenericDialog(1, 99003532, 0, 0, 0)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 4:
+            # Succeeded
+            if GetEventStatus(25000033) == 1 and GetEventStatus(25001019) == 1:
+                OpenGenericDialog(1, 99003541, 0, 0, 0)
+            # Eligible
+            elif GetEventStatus(25000033) == 1:
+                OpenGenericDialog(1, 99003540, 0, 0, 0)
+            # Failed
+            elif GetEventStatus(25000033) == 0:
+                OpenGenericDialog(1, 99003542, 0, 0, 0)
+            return 0
         # Claim Relic of Power
         elif GetTalkListEntryResult() == 10:
             GetItemFromItemLot(80400)
@@ -302,6 +334,16 @@ def t400504_x11():
         elif GetTalkListEntryResult() == 11:
             GetItemFromItemLot(80410)
             SetEventState(25000051, 1)
+            return 0
+        # Claim Relic of Legends
+        elif GetTalkListEntryResult() == 12:
+            GetItemFromItemLot(80420)
+            SetEventState(25000052, 1)
+            return 0
+        # Claim Relic of Myths
+        elif GetTalkListEntryResult() == 13:
+            GetItemFromItemLot(80430)
+            SetEventState(25000053, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

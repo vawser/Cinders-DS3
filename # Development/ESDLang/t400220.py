@@ -416,7 +416,7 @@ def t400220_x15(goods1=2118):
         AddTalkListData(1, 15010004, -1)
         
         # Sell Item
-        AddTalkListData(2, 15000012, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)
         
         # Give Loretta's Bone
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 and not GetEventStatus(74000301), 3, 15012000, -1)

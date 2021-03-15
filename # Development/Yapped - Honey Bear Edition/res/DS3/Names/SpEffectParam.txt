@@ -733,6 +733,7 @@
 8220 NG Scaling - Darkeater Midir
 8230 NG Scaling - Slave Knight Gael
 8240 NG Scaling - Halflight
+8250 NG Scaling - Frostfire Colossus
 9000 Watchdogs of Farron - Allow Invasion
 9010 Aldrich Faithful - Allow Invasion
 9020 Unknown - Allow Invasion
@@ -1075,6 +1076,50 @@
 10653 [Sulyvahn's Beast]
 10654 [Sulyvahn's Beast]
 10700 [Pilgrim Angel] VFX
+10752 [Frostfire Colossus] Emissive Start
+10753 [Frostfire Colossus] Emissive Intensify + Flame Eye
+10754 [Frostfire Colossus] Flame Body
+10755 [Frostfire Colossus] Flame Weapon
+10756 [Frostfire Colossus] Weapon Light and Body Particles
+10757 [Frostfire Colossus] Frostfire Pillars Trigger
+10758 [Frostfire Colossus] Tracking Frostfire Pillar Trigger
+10759 [Frostfire Colossus] Lava Ring Trigger
+10760 [Frostfire Colossus] Blizzard Bullet Call [Called from EMEVD]
+10761 [Frostfire Colossus] Blizzard Frost Buildup on Player
+10762 [Frostfire Colossus] Frostfire Pillars Central Explosion Trigger
+10763 [Frostfire Colossus] Blizzard Trigger
+10765 [Frostfire Colossus] Blizzard Frost Aura VFX and Bullet Call
+10766 [Frostfire Colossus] Lava Ring Out-to-In Trigger
+10767 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
+10768 [Frostfire Colossus] Orb VFX
+10769 [Frostfire Colossus] Orb Set Full Health
+10770 [Frostfire Colossus] Orb Frost Aura
+10771 [Frostfire Colossus] Orb Frost Aura HP Drain
+10772 [Frostfire Colossus] Orb Frost Aura Frost Buildup
+10773 [Frostfire Colossus] Blizzard Frost Buildup on Colossus
+10774 [Frostfire Colossus] Nullify Frostbite from Player
+10775 [Frostfire Colossus] Phase Change Effect (Empty)
+10776 [Frostfire Colossus] First Phase Change HP Regeneration
+10777 [Frostfire Colossus] Animation 3026 Trigger
+10778 [Frostfire Colossus] Animation 3027 Trigger
+10779 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion Trigger
+10780 [Frostfire Colossus] Fiery Floor Bullet Call
+10781 [Frostfire Colossus] Animation 3028 Trigger
+10782 [Frostfire Colossus] Animation 3029 Trigger
+10783 [Frostfire Colossus] Deflection
+10784 [Frostfire Colossus] Enrage
+10785 [Frostfire Colossus] Sapping Orb Green Vow VFX
+10786 [Frostfire Colossus] Sapping Orb Frostfire-ball loop trigger
+10787 [Frostfire Colossus] Sapping Orb First Aura
+10788 [Frostfire Colossus] Sapping Orb Second Aura
+10789 [Frostfire Colossus] Sapping Orb Third Aura
+10790 [Frostfire Colossus] Sapping Orb Fourth Aura
+10791 [Frostfire Colossus] Sapping Orb Fifth Aura
+10792 [Frostfire Colossus] Animation 3032 Trigger
+10793 [Frostfire Colossus] Final Stage Enhancement
+10794 [Frostfire Colossus] Final Stage Emissive
+10795 [Frostfire Colossus] Curse of Valor Frostbite Offset
+10796 [Frostfire Colossus] Animation-specific Absorption Boost
 10800 [Lothric Knight] Red eye
 10801 [Lothric Knight]
 10802 [Lothric Knight]
@@ -1083,6 +1128,12 @@
 10805 [Lothric Knight]
 10806 [Lothric Knight]
 10807 [Lothric Knight]
+10810 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Small
+10811 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Medium
+10812 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Large
+10813 [Frostfire Cleric] Condition Occurrence Reset
+10814 [Frostfire Cleric] Condition Occurrence End
+10815 [Frostfire Cleric] Weapon Frost VFX
 10830 [Silver Knight]
 10831 [Silver Knight]
 10850 [Cathedral Knight]
@@ -1356,6 +1407,7 @@
 12257 [Wolnir]
 12258 [Wolnir] Crawl Forward Trigger
 12259 [Wolnir]
+12280 [Frostfire Cleric] Orb VFX
 12300 [Iudex Gundyr] Iudex Gundyr - Heat Up
 12301 [Iudex Gundyr]
 12302 [Iudex Gundyr]
@@ -1979,6 +2031,21 @@
 100700 [Behavior] Guard
 100720 [Behavior] Alternate Charging Mechanic
 100721 [Behavior] Alternate Charging Mechanic (Secondary Switch)
+100730 [Behavior] Custom Weapon Swap (Frostfall)
+100731 [Behavior] Additional Custom Weapon Swap (Frostfall)
+100732 [Behavior] Additional Custom Weapon Swap for Bare Fists (Frostfall)
+100733 [Behavior] Endless Winter Transition Trigger (Frostfall)
+100734 [Behavior] Endless Winter Trigger for Animation 2 (Frostfall)
+100735 [Behavior] Endless Winter Trigger for Animation 3 (Frostfall)
+100736 [Behavior] Endless Winter Trigger for Animation 1 (Frostfall)
+100737 [Behavior] Endless Winter Transition Trigger for Animation 2 (Frostfall)
+100738 [Behavior] Endless Winter Low FP Transition (Frostfall)
+100739 [Behavior] L1 Frost Surge Transition to Loop (Frostfall)
+100740 [Behavior] L1 Frost Surge Transition to Idle (Frostfall)
+100741 [Behavior] Endless Winter Stance Looping Trigger (Frostfall)
+100742 [Behavior] Endless Winter Stance Transition Trigger for R2 (Frostfall)
+100743 [Behavior] Endless Winter Stance Low FP Transition (Frostfall)
+100744 [Behavior] Endless Winter Stance Low FP Switch (Frostfall)
 100900 [Behavior]
 100901 [Behavior]
 100910 [Behavior] Storm King
@@ -2055,11 +2122,7 @@
 112190 [Behavior] Gwynevere's Urn - Trigger
 112191 [Behavior] Gwynevere's Urn - Cooldown
 112192 [Behavior] Gwynevere's Urn - Effect
-112200 [Behavior] Locked Chest Opened
-112300 [Behavior] Is Catalyst
-112310 [Behavior] Is Bow
-112320 [Behavior] Is Greatbow
-112330 [Behavior] Is Crossbow
+112300 [Behavior] Easy Stagger
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -2246,6 +2309,9 @@
 140461 NPC Correction - Slave Knight Gael - 2nd Stage - 1 Player
 140462 NPC Correction - Slave Knight Gael - 2nd Stage - 2 Player
 140463 NPC Correction - Slave Knight Gael - 2nd Stage - 3 Player
+140471 NPC Correction - Frostfire Colossus - 1 Player
+140472 NPC Correction - Frostfire Colossus - 2 Player
+140473 NPC Correction - Frostfire Colossus - 3 Player
 141000 Multiplayer Success
 220999 ### NPC Boosts ###
 221000 Slave Knight Gael - White Phantom [Ariandel]
@@ -2434,6 +2500,10 @@
 1080811 [Weapon Art] Bewitched Alonne Sword - Seppuku - Right - No FP
 1080851 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left
 1080861 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left - No FP
+1081001 [Weapon Art] Elemental Flow – Right Hand
+1081011 [Weapon Art] Elemental Flow – Right Hand – Low FP
+1081051 [Weapon Art] Elemental Flow – Left Hand
+1081061 [Weapon Art] Elemental Flow – Left Hand – Low FP
 1083201 [Weapon Art] Ledo's Great Hammer - Right
 1083251 [Weapon Art] Ledo's Great Hammer - Left
 1092401 [Weapon Art] Ringed Knight Spear - Ember - Right
@@ -2527,9 +2597,9 @@
 103561000 [Miracle] Great Magic Barrier
 103561001 [Miracle] Great Magic Barrier - Ascended
 103563000 [Miracle] Sacred Oath
-103563001 [Miracle] Sacred Oath - Ascended
 103563100 [Miracle] Sacred Oath
 103581000 [Miracle] Vow of Silence
+103581001 [Miracle] Vow of Silence - Ascended
 103590000 [Miracle] Lightning Blade
 103590001 [Miracle] Lightning Blade - Ascended
 103590002 [Miracle] Lightning Blade [CycleOccurance] - Ascended
@@ -2537,17 +2607,15 @@
 103591000 [Miracle] Darkmoon Blade
 103591001 [Miracle] Darkmoon Blade - Ascended
 103640000 [Miracle] Dark Blade
-103640001 [Miracle] Dark Blade - Ascended
+103640001 [Miracle] Dark Blade - Absorption
+103640005 [Miracle] Dark Blade - Ascended
+103640006 [Miracle] Dark Blade - Ascended - Absorption
 103700000 [Miracle] Dead Again
 103700100 GameSystemParam - DeadChrFinder - SpEffect
 103730000 [Miracle] Lifehunt Scythe
-103730200 [Miracle] Lifehunt Scythe
-103730300 [Miracle] Lifehunt Scythe
-103730400 [Miracle] Lifehunt Scythe
+103730001 [Miracle] Lifehunt Scythe - Ascended
 103731000 [Miracle] Lifehunt Scythe - HP Gain
-103731200 [Miracle] Lifehunt Scythe - HP Gain
-103731300 [Miracle] Lifehunt Scythe - HP Gain
-103731400 [Miracle] Lifehunt Scythe - HP Gain
+103731001 [Miracle] Lifehunt Scythe - HP Gain - Ascended
 103760000 [Miracle] Blessed Weapon
 103760001 [Miracle] Blessed Weapon - Ascended
 103770000 [Miracle] Deep Protection
@@ -2909,6 +2977,18 @@
 130080610 [Great Hammer] Warcry - Right
 130080650 [Great Hammer] Warcry - Left
 130080660 [Great Hammer] Warcry - Left
+130081000 [Quarterstaff] Elemental Flow – Right
+130081010 [Quarterstaff] Elemental Flow – Right – Low FP
+130081050 [Quarterstaff] Elemental Flow – Left
+130081060 [Quarterstaff] Elemental Flow – Left – Low FP
+130081100 [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Right
+130081101 [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Right [CycleOccurance]
+130081150 [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Left
+130081151 [Quarterstaff] Elemental Flow - Weapon Buff Lightning - Left [CycleOccurance]
+130081200 [Quarterstaff] Elemental Flow - Weapon Buff Wind - Right
+130081201 [Quarterstaff] Elemental Flow - Weapon Buff Wind - Right [CycleOccurance]
+130081250 [Quarterstaff] Elemental Flow - Weapon Buff Wind – Left
+130081251 [Quarterstaff] Elemental Flow - Weapon Buff Wind - Left [CycleOccurance]
 130081800 Frost
 130081900 [Old King's Great Hammer] Molten Perseverance
 130082400 [Warpick] Galvanise - Right
@@ -2953,6 +3033,21 @@
 130092600 [Crucifix of the Mad King] Mad King's Folly - Effect 1
 130092630 [Crucifix of the Mad King] Mad King's Folly - Effect 2
 130092650 [Crucifix of the Mad King] Mad King's Folly - Effect 3
+130093000 [Frostfall] Endless Winter - Freezing Mists - Frost
+130093001 [Frostfall] Endless Winter - Freezing Mists - Hp Loss
+130093050 [Frostfall] Endless Winter - Crystal Crescendo FP Cost
+130093100 [Frostfall] Endless Winter - Low FP Freezing Mists
+130093200 [Frostfall] Endless Winter - Frostfire Blade Buff - Right
+130093201 [Frostfall] Endless Winter - Frostfire Blade Buff - Right [CycleOccurance]
+130093250 [Frostfall] Endless Winter - Frostfire Blade Buff - Left
+130093251 [Frostfall] Endless Winter - Frostfire Blade Buff - Left [CycleOccurance]
+130093300 [Frostfall] Endless Winter Loop - Stability
+130093350 [Frostfall] 2H Dash - Stability
+130093351 [Frostfall] 2H L1 #5 - Stability
+130093400 [Frostfall] Crystal Rain Effect
+130093401 [Frostfall] Crystal Rain Effect [ConditionOccurrence]
+130093402 [Frostfall] Crystal Rain Effect [Bullet Call]
+130093410 [Frostfall] Crystal Rain Effect - Frost
 130100700 [Pontiff Knight Great Scythe] Frost - Right
 130100710 [Pontiff Knight Great Scythe] Frost - Right [CycleOccurance]
 130100711 [Pontiff Knight Great Scythe] Frost - Right [AttackOccurance]
@@ -3124,7 +3219,7 @@
 160100421 [Covenant] Ritualist Pact
 160100422 [Covenant] Ritualist Pact [DeathOccurance]
 160109999 ### Poise ###
-160110000 Damage Level - Default
+160110000 Poise - Damage Level
 160200000 ### Weapons ###
 160200001 Weapon Art - Disable Aux
 160200002 Perfect Block - Stability Boost
@@ -3213,6 +3308,9 @@
 160201272 Frying Pan - Stamina Boost [Condition]
 160201280 Ancient Dragon Halberd
 160201281 Ancient Dragon Halberd [DeathOccurance]
+160201290 Quarterstaff - Successive Hits Burst
+160201291 Quarterstaff - Successive Hits Burst [ConditionOccurrence]
+160201922 Quarterstaff - Successive Hits Burst [Bullet Call]
 160208999 ### Catalysts ###
 160209000 Storyteller's Staff
 160209001 Sunlight Talisman
@@ -3281,6 +3379,7 @@
 160250872 Bewitched Alonne Sword - Seppuku - Self-bleed [CycleOccurance]
 160250880 Thorned Greatsword - Lightning Stomp
 160250890 Insanity Catalyst - Insanity
+160250900 Smouldering Talisman - Immolate - Self-harm
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
@@ -3314,6 +3413,7 @@
 160300560 Sanctus
 160300570 Smouldering Shield
 160300580 Shield of the Hunted
+160300590 Bulwark Shield
 160401000 ### Armor Effects ###
 160401010 Max HP: Helm
 160401011 Max HP: Armor
@@ -3507,6 +3607,8 @@
 160401511 Max HP/FP/Stamina: Armor
 160401512 Max HP/FP/Stamina: Gauntlets
 160401513 Max HP/FP/Stamina: Leggings
+160401520 Muffle / No Fall Damage - Armor
+160401521 Muffle / No Fall Damage - Armor [CycleOccurance]
 160408999 ### Armor - Passive Effects ###
 160409000 Symbol of Avarice
 160409001 Crown of Illusions
@@ -3535,6 +3637,7 @@
 160500050 [Sorcery] Repel
 160500051 [Sorcery] Repel - Ascended
 160500060 [Sorcery] Numbness
+160500061 [Sorcery] Numbness - Ascended
 160500070 [Miracle] Perseverance
 160500071 [Miracle] Perseverance - Ascended
 160500080 [Sorcery] Blizzard
@@ -3561,6 +3664,7 @@
 160500311 [Pyromancy] Black Flame Arc - Ascended
 160500320 [Pyromancy] Dark Dance - Ascended
 160500330 [Miracle] Wrathful Orbs - Ascended
+160500340 [Pyromancy] Immolation - Self-harm
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4247,6 +4351,15 @@
 160603425 Frostflower Ring+5 [AttackOccurance]
 160603500 Rare Ring of Humanity
 160603600 Gwynevere's Urn
+160603700 Dial of Obedience
+160603710 Offering of Might
+160603720 Offering of Tenacity
+160603730 Offering of Fortitude
+160603740 Offering of Vitality
+160603750 Offering of Devotion
+160603760 Offering of Fervor
+160603770 Ravenous Chalice
+160603771 Ravenous Chalice [DeathOccurance]
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction
@@ -4712,6 +4825,30 @@
 160706191 Deacon Emblem
 160706200 Saint Insignia
 160706201 Saint Emblem
+160706210 Gallant Insignia
+160706211 Gallant Emblem
+160706220 Warden Insignia
+160706221 Warden Emblem
+160706230 Dull Gold Insignia
+160706231 Dull Gold Emblem
+160706240 Fluted Insignia
+160706241 Fluted Emblem
+160706250 Huntsman's Insignia
+160706251 Huntsman's Emblem
+160706260 Mirdan Insignia
+160706261 Mirdan Emblem
+160706270 Sentinel Insignia
+160706271 Sentinel Emblem
+160706280 Raggedy Insignia
+160706281 Raggedy Emblem
+160706290 Charlatan Insignia
+160706291 Charlatan Emblem
+160706301 Martyr Emblem
+160706310 Pickpocket Insignia
+160706311 Pickpocket Emblem
+160706321 Magician Emblem
+160706330 Nullus Insignia
+160706331 Nullus Emblem
 160708999 ### Weapon Visual Items ###
 160709000 Cleansing Oil - Right - Clear 153
 160709001 Cleansing Oil - Right - Clear 155
@@ -4799,6 +4936,7 @@
 160720250 Soul of the Ancient Dragon
 160720260 Soul of the Lordran Remnants
 160720270 Soul of Halflight
+160720280 Soul of the Frostfire Colossus
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -4857,6 +4995,7 @@
 160760065 Baseline - Ravenous Crystal Lizard - Tazshi
 160760066 Baseline - Demon - Bazdulk
 160760100 Summon Effect
+160760101 Desummon Effect
 160760200 Level Scaling: Cemetery of Ash
 160760201 Level Scaling: High Wall of Lothric
 160760202 Level Scaling: Undead Settlement
@@ -4880,19 +5019,20 @@
 160761500 Player - Companion is out
 160761501 Companion - Is Active
 160761502 Companion - Is at 0% HP
-160762000 Companion - Health
-160762010 Companion - Power
-160762020 Companion - Toughness
-160762030 Companion - Restoration
-160762040 Companion - Poise
 160763000 Rejuvenating Phial - Trigger
 160763001 Rejuvenating Phial - Companion
 160763100 Banishing Coin - Trigger
-160763200 Inciting Bone - Trigger
+160763200 Beckoning Bone - Trigger
 160763300 Invigorating Phial - Trigger
 160763301 Invigorating Phial - Companion
 160763400 Energizing Phial - Trigger
 160763401 Energizing Phial - Companion
+160764000 Companion: Offering of Might
+160764001 Companion: Offering of Tenacity
+160764002 Companion: Offering of Fortitude
+160764003 Companion: Offering of Vitality
+160764004 Companion: Offering of Devotion
+160764005 Companion: Offering of Fervor
 160800000 ### NPC Modifiers ###
 160800001 Base - Hostile NPC
 160800002 Base - Enemy
@@ -5010,6 +5150,7 @@
 160801050 Enemy - El Hueso
 160801060 Enemy - Red Lizard - Hide from AI
 160801070 Enemy - Magnum Ursus - Strong Punch
+160802000 Poise Override - Easy Stagger
 170000000 ### Status Effect - Spells ###
 170000010 Frost - Frozen Weapon [AttackOccurance]
 170000011 Frost - Frozen Weapon [AttackOccurance] - Ascended
@@ -5237,7 +5378,10 @@
 180020160 Frost - Pistol Sidearm
 180020170 Frost - Sprayer Sidearm
 180020180 Frost - Fist Sidearm
-180021000 Frost - Stamina Reduction
+180020190 Frost - Frostfall
+180020191 Frost - Frostfall (Infusion)
+180021000 Frost - Stamina and Resistance Penalties
+180021001 Frost - Stamina Reduction (Old)
 180021010 Frost - Disable Frost Inflict for Enemy
 180029999 ### Curse ###
 180030000 Curse - Normal (Infusion)
@@ -5549,6 +5693,7 @@
 260000026 Darkeater Midir
 260000027 Slave Knight Gael
 260000028 Twin Gyrms
+260000029 Frostfire Colossus
 260100000 ### Boss Revival ###
 260100010 Corrupted Gundyr
 260100020 Vordt of the Boreal Valley
@@ -5576,6 +5721,7 @@
 260100240 Slave Knight Gael
 260100250 Halflight, Spear of the Church
 260100260 Champions of Yore
+260100270 Frostfire Colossus
 260199999 ### Trials ###
 260200002 Wave - Enemy Kill
 260200010 Enemy - Is Setup

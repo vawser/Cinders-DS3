@@ -266,6 +266,10 @@ def t400507_x41():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30910, 4, 1, 0) == 1, 83, 99015182, -1)
         # Relic of Insanity
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30920, 4, 1, 0) == 1, 84, 99015183, -1)
+        # Relic of Legends
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31060, 4, 1, 0) == 1, 88, 99015187, -1)
+        # Relic of Myths
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31070, 4, 1, 0) == 1, 89, 99015188, -1)
         
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20000, 4, 1, 0) == 1, 1, 99015100, -1)
@@ -804,6 +808,14 @@ def t400507_x41():
         elif GetTalkListEntryResult() == 87:
             assert t400507_x50(30950, 30951, 1, -2)
             return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 88:
+            assert t400507_x50(31060, 31061, 1, -2)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 89:
+            assert t400507_x50(31070, 31071, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -821,6 +833,10 @@ def t400507_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30911, 4, 1, 0) == 1, 83, 99015182, -1)
         # Relic of Insanity
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30921, 4, 1, 0) == 1, 84, 99015183, -1)
+        # Relic of Legends
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31061, 4, 1, 0) == 1, 88, 99015187, -1)
+        # Relic of Myths
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31071, 4, 1, 0) == 1, 89, 99015188, -1)
         
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20001, 4, 1, 0) == 1, 1, 99015100, -1)
@@ -1359,6 +1375,14 @@ def t400507_x42():
         elif GetTalkListEntryResult() == 87:
             assert t400507_x50(30951, 30952, 3, -4)
             return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 88:
+            assert t400507_x50(31061, 31062, 3, -4)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 89:
+            assert t400507_x50(31071, 31072, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1376,6 +1400,10 @@ def t400507_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30912, 4, 1, 0) == 1, 83, 99015182, -1)
         # Relic of Insanity
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30922, 4, 1, 0) == 1, 84, 99015183, -1)
+        # Relic of Legends
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31062, 4, 1, 0) == 1, 88, 99015187, -1)
+        # Relic of Myths
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31072, 4, 1, 0) == 1, 89, 99015188, -1)
         
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20002, 4, 1, 0) == 1, 1, 99015100, -1)
@@ -1914,6 +1942,14 @@ def t400507_x43():
         elif GetTalkListEntryResult() == 87:
             assert t400507_x50(30952, 30953, 5, -6)
             return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 88:
+            assert t400507_x50(31062, 31063, 5, -6)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 89:
+            assert t400507_x50(31072, 31073, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1931,6 +1967,10 @@ def t400507_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30913, 4, 1, 0) == 1, 83, 99015182, -1)
         # Relic of Insanity
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30923, 4, 1, 0) == 1, 84, 99015183, -1)
+        # Relic of Legends
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31063, 4, 1, 0) == 1, 88, 99015187, -1)
+        # Relic of Myths
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31073, 4, 1, 0) == 1, 89, 99015188, -1)
         
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20003, 4, 1, 0) == 1, 1, 99015100, -1)
@@ -2469,6 +2509,14 @@ def t400507_x44():
         elif GetTalkListEntryResult() == 87:
             assert t400507_x50(30953, 30954, 7, -8)
             return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 88:
+            assert t400507_x50(31063, 31064, 7, -8)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 89:
+            assert t400507_x50(31073, 31074, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2486,6 +2534,11 @@ def t400507_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30914, 4, 1, 0) == 1, 83, 99015182, -1)
         # Relic of Insanity
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30924, 4, 1, 0) == 1, 84, 99015183, -1)
+        # Relic of Legends
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31064, 4, 1, 0) == 1, 88, 99015187, -1)
+        # Relic of Myths
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31074, 4, 1, 0) == 1, 89, 99015188, -1)
+        
         
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20004, 4, 1, 0) == 1, 1, 99015100, -1)
@@ -3023,6 +3076,14 @@ def t400507_x45():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400507_x50(30954, 30955, 9, -10)
+            return 0
+        # Relic of Legends
+        elif GetTalkListEntryResult() == 88:
+            assert t400507_x50(31064, 31065, 9, -10)
+            return 0
+        # Relic of Myths
+        elif GetTalkListEntryResult() == 89:
+            assert t400507_x50(31074, 31075, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
