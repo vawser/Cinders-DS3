@@ -108,11 +108,12 @@ Event(0, Default, function() {
     InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
     InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
     InitializeEvent(22, 970, 14500860, 2310, 0, 0); // Lordran Remnants
-    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
     InitializeEvent(23, 970, 15000800, 2330, 0, 0); // Demon Prince
     InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
     InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
+    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
+    InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1836,6 +1837,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20124, 0); // Halflight
     InitializeEvent(0, 20125, 0); // Champions of Yore
     InitializeEvent(0, 20126, 0); // Frostfire Colossus
+    InitializeEvent(0, 20127, 0); // Cathedral Guardian
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -2121,7 +2123,7 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25000055, OFF);
+    SetEventFlag(13500810, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3180,6 +3182,36 @@ Event(20126, Restart, function() {
     Label1();
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001026);
     DisplayEpitaphMessage(99030125);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Cathedral Guardian
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20127, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100280, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001027);
+    
+    SetEventFlag(13500810, 0);
+    SetEventFlag(9340, 0);
+    SetEventFlag(6340, 0);
+    
+    SetPlayerRespawnPoint(3502956);
+    SetMapCeremony(35, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(35, 0, 3504020);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001027);
+    DisplayEpitaphMessage(99030126);
     
     EndUnconditionally(EventEndType.Restart);
 });

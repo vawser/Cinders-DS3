@@ -15,7 +15,7 @@
 53002111 High Wall of Lothric / Consumed King's Garden
 53102096 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
-53502085 Cathedral of the Deep
+53502086 Cathedral of the Deep
 53802181 Catacombs of Carthus / Smouldering Lake
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53902123 Irithyll Dungeon / Profaned Capital
@@ -23,7 +23,7 @@
 53412136 Grand Archives
 54102014 Kiln of the First Flame
 53202079 Archdragon Peak
-54502079 Painted World of Ariandel
+54502080 Painted World of Ariandel
 55002071 Dreg Heap
 55102068 The Ringed City
 
@@ -84,6 +84,13 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Bosses
+- Changed the Morne's Armor enemy into a proper boss: the Cathedral Guardian.
+ - It is found in the plaza area before you enter the Cathedral of the Deep proper. You have to defeat it to progress forward.
+ - Drops Soul of the Cathedral Guardian, which can be transposed into:
+  - Morne's Great Hammer
+  - Morne's ring
+  - Med Heal
 
 # Weapons
 - Frayed Blade is now uses Dragon reinforcement materials.
@@ -133,7 +140,9 @@
    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
   - Rewarded for hitless run in Hard mode.
    
+# NPCs
+- Morric, the Fallen Knight now drops 3 Large Titanite Shards
+
 #------------------------------
 # TODO - General
 #------------------------------
-Cathedral Guardian

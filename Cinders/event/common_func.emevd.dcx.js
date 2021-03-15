@@ -3491,37 +3491,55 @@ Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
 // Boss - Enter Boss Room 
 // Args: <boss_defeat_flag_id>, <fogwall_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <boss_entity_id>, 
 // <skip_flag_id>, <entrance_trigger_id>
+// ----------------------------------------
 Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is dead
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X24_4, 0); // Goto Label 0 if flag is 0
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X24_4); // Goto Label 0 if flag is 1
-    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0); // Skip if entrance trigger 2 is non-existent
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X28_4, 1); // Check if player is in entrance trigger 2
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4); // Check if flag is ON
+    var flag_Boss_Defeated   = X0_4;
+    var flag_Boss_InBattle   = X12_4;
+    var flag_Boss_Skip       = X24_4;
+    
+    var obj_Fogwall          = X4_4;
+    
+    var trigger_FogwallZone  = X8_4;
+    var trigger_EntranceZone = X28_4;
+    
+    var param_ActionButton   = X16_4;
+    var entity_Boss          = X20_4;
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    
+    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, flag_Boss_Skip, 0);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
+    
+    SkipIfComparison(1, ComparisonType.Equal, trigger_EntranceZone, 0);
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, trigger_EntranceZone, 1);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
     IfConditionGroup(AND_01, PASS, OR_01); 
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     GotoUnconditionally(Label.LABEL1);
     
     // Host entrance
     Label0();
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL3, true);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss isn't dead
-    IfActionButtonInArea(AND_01, X16_4, X4_4); // If fogwall is used
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
     IfConditionGroup(MAIN, PASS, AND_01);
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
-    RotateCharacter(10000, X8_4, 60060, true);
+    RotateCharacter(10000, trigger_FogwallZone, 60060, true);
     
     // Client entrance
     Label3();
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X12_4); // Boss has started
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss is alive
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1); // If in entrance trigger 1
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
     IfElapsedSeconds(OR_03, 3);
     IfConditionGroup(OR_02, PASS, OR_03);
     IfConditionGroup(AND_02, PASS, OR_02);
@@ -3532,41 +3550,59 @@ Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     Label1();
     GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
     IssueBossRoomEntryNotification(0);
-    SetNetworkUpdateAuthority(X20_4, AuthorityLevel.Forced);
+    SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
     
     Label2();
-    ActivateMultiplayerdependantBuffs(X20_4);
-    SetNetworkconnectedEventFlag(X12_4, ON);
+    ActivateMultiplayerdependantBuffs(entity_Boss);
+    SetNetworkconnectedEventFlag(flag_Boss_InBattle, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Boss - Enter Boss Room (Client)
-// Args: <boss_flag_id>, <fogwall_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <flag_id>
+// ----------------------------------------
+// Client - Enter Boss Room
+// ----------------------------------------
 Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    var flag_Boss_Defeated = X0_4;
+    var flag_Boss_InBattle = X12_4;
+    var flag_ClientEnter   = X20_4;
+    
+    var obj_Fogwall          = X4_4;
+    
+    var trigger_FogwallZone = X8_4;
+    
+    var param_ActionButton = X16_4;
+    
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is dead
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X12_4, OFF); // Boss started flag off
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4); // If boss isn't dead
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4); // If boss has started
+    SetEventFlag(flag_Boss_InBattle, OFF);
+    
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
     IfCharacterType(AND_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfActionButtonInArea(AND_01, X16_4, X4_4); // If fogwall is used
+    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
     IfConditionGroup(MAIN, PASS, AND_01);
-    RotateCharacter(10000, X8_4, 60060, true);
+    
+    RotateCharacter(10000, trigger_FogwallZone, 60060, true);
+    
     IfCharacterType(AND_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1); // If client is in entrance trigger
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(AND_02, PASS, OR_02);
     IfConditionGroup(MAIN, PASS, AND_02);
+    
     EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
-    SetEventFlag(X20_4, ON); 
+    
+    SetEventFlag(flag_ClientEnter, ON);
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Boss - Enter Boss Room
-// Unk
+// ----------------------------------------
+// ???
+// ----------------------------------------
 Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
@@ -3586,28 +3622,41 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SetEventFlag(X4_4, ON);
 });
 
+// ----------------------------------------
 // Boss - Enter Fogwall
+// ----------------------------------------
 Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    var flag_Boss_Defeated  = X0_4;
+    
+    var obj_Fogwall         = X4_4;
+    
+    var trigger_FogwallZone = X8_4;
+    
+    var param_ActionButton = X12_4;
+    
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
     IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
     IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
     IfConditionGroup(AND_01, PASS, OR_01);
-    IfActionButtonInArea(AND_01, X12_4, X4_4);
+    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
     IfConditionGroup(MAIN, PASS, AND_01);
-    RotateCharacter(10000, X8_4, 60060, true);
+    RotateCharacter(10000, trigger_FogwallZone, 60060, true);
     SendAllPhantomsHome(0);
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
 // Boss - Toggle Fogwall State
 // Args: <boss_flag_id>, <fogwall_id>, <ffx_id>, <flag_id>
+// ----------------------------------------
 Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
     DeleteObjectfollowingSFX(X4_4, true);
+    
     IfPlayerIsNotInOwnWorldExcludesArena(OR_01, true);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X12_4);
     IfParameterComparison(OR_02, ComparisonType.Equal, X12_4, 0);
@@ -3621,9 +3670,11 @@ Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     IfConditionGroup(OR_04, PASS, AND_01);
     IfConditionGroup(OR_04, PASS, AND_02);
     IfConditionGroup(MAIN, PASS, OR_04);
+    
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, 101, X8_4);
+    
     IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
     IfEventFlag(OR_06, ON, TargetEventFlagType.EventFlag, X12_4);
     IfParameterComparison(OR_06, ComparisonType.Equal, X12_4, 0);
@@ -3637,9 +3688,65 @@ Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     IfConditionGroup(AND_05, FAIL, AND_03);
     IfConditionGroup(AND_05, FAIL, AND_04);
     IfConditionGroup(MAIN, PASS, AND_05);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
+// ???
+// ----------------------------------------
+Event(20005821, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    ChangeCharacterEnableState(X8_4, Disabled);
+    DeactivateObject(X12_4, Disabled);
+    WaitFixedTimeSeconds(1);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    ChangeCharacterEnableState(X8_4, Enabled);
+    DeactivateObject(X12_4, Enabled);
+    RegisterBonfire(X4_4, X12_4, 5, 180, 0);
+});
+
+// ----------------------------------------
+// Boss - Toggle Fogwall State
+// Args: <boss_flag_id>, <fogwall_id>, <ffx_id>
+// ----------------------------------------
+Event(20005822, Restart, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    DeactivateObject(X4_4, Disabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(OR_01, true);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
+    IfMultiplayerState(OR_03, MultiplayerState.TryingtoCreateSession);
+    IfMultiplayerState(OR_03, MultiplayerState.TryingtoJoinSession);
+    IfConditionGroup(AND_02, PASS, OR_03);
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(OR_04, PASS, OR_01);
+    IfConditionGroup(OR_04, PASS, AND_01);
+    IfConditionGroup(OR_04, PASS, AND_02);
+    IfConditionGroup(MAIN, PASS, OR_04);
+    
+    DeactivateObject(X4_4, Enabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+    CreateObjectfollowingSFX(X4_4, 101, X8_4);
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
+    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
+    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
+    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
+    IfConditionGroup(AND_04, PASS, OR_07);
+    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(AND_05, FAIL, OR_05);
+    IfConditionGroup(AND_05, FAIL, AND_03);
+    IfConditionGroup(AND_05, FAIL, AND_04);
+    IfConditionGroup(MAIN, PASS, AND_05);
+
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// ----------------------------------------
+// ???
+// ----------------------------------------
 Event(20005825, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
@@ -3676,17 +3783,9 @@ Event(20005825, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-Event(20005821, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X8_4, Disabled);
-    DeactivateObject(X12_4, Disabled);
-    WaitFixedTimeSeconds(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X8_4, Enabled);
-    DeactivateObject(X12_4, Enabled);
-    RegisterBonfire(X4_4, X12_4, 5, 180, 0);
-});
-
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3701,8 +3800,10 @@ Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
 // Boss - Boss Sound State
 // Args: <boss_flag_id>, <fogwall_id>, <flag_id>, <start_area_id>, <bgm_id>, <bgm_flag_id>, <flag>
+// ----------------------------------------
 Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3725,6 +3826,9 @@ Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20005832, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3747,6 +3851,9 @@ Event(20005832, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3779,6 +3886,9 @@ Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3793,8 +3903,9 @@ Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EnableBossMapSound(-1, Disabled);
 });
 
-// Boss - Boss Sound State
-// Args: <boss_flag_id>, <fogwall_id>, <flag_id>, <flag_id>, <bgm_id>, <bgm_flag_id>, <flag>
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3817,6 +3928,9 @@ Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20001837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3839,6 +3953,9 @@ Event(20001837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
 Event(20001838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
@@ -3871,6 +3988,9 @@ Event(20001838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EnableBossMapSound(-1, Disabled);
 });
 
+// ----------------------------------------
+// ???
+// ----------------------------------------
 Event(20005837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3894,6 +4014,9 @@ Event(20005837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
+// ???
+// ----------------------------------------
 Event(20005838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3917,6 +4040,9 @@ Event(20005838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
+// ???
+// ----------------------------------------
 Event(20005839, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -5852,6 +5978,37 @@ Event(20020025, Default, function() {
     AwardItemLot(800300030); // 100%
 });
 
+//----------------------------------------------
+// Cathedral Guardian - Boss Kill
+//----------------------------------------------
+Event(20020026, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    SetEventFlag(25001027, ON); // Boss Killed
+    
+    // Default Primordial Essence
+    AwardItemLot(800300010); // 50%
+    
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800300020); // 75%
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
+    AwardItemLot(800300020); // 75%
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300010); // 50%
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300010); // 50%
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300010); // 50%
+});
+
 
 //----------------------------------------------
 // Corrupted Gundyr - Boss Start
@@ -6082,6 +6239,15 @@ Event(20020124, Default, function() {
 // Frostfire Colossus - Boss Start
 //----------------------------------------------
 Event(20020125, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    
+});
+
+//----------------------------------------------
+// Cathedral Guardian - Boss Start
+//----------------------------------------------
+Event(20020126, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     

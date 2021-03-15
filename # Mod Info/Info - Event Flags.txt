@@ -1190,6 +1190,8 @@
 6326 Killed Darkeater Midir
 6327 Killed Slave Knight Gael
 
+6340 Killed Cathedral Guardian
+
 # Never Reset
 9300 Killed Dancer of the Boreal Valley
 9301 Killed Vordt of the Boreal Valley
@@ -1212,6 +1214,8 @@
 9324 Killed Demon Prince
 9326 Killed Darkeater Midir
 9327 Killed Slave Knight Gael
+
+9340 Killed Cathedral Guardian
 
 # Misc
 74000587 Is Sorcerer class
