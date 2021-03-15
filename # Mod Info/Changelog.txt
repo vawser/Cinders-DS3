@@ -20,7 +20,7 @@
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53902123 Irithyll Dungeon / Profaned Capital
 53012092 Lothric Castle
-53412136 Grand Archives
+53412137 Grand Archives
 54102014 Kiln of the First Flame
 53202079 Archdragon Peak
 54502080 Painted World of Ariandel
@@ -89,9 +89,16 @@
  - It is found in the plaza area before you enter the Cathedral of the Deep proper. You have to defeat it to progress forward.
  - Drops Soul of the Cathedral Guardian, which can be transposed into:
   - Morne's Great Hammer
-  - Morne's ring
+  - Morne's Ring
   - Med Heal
 
+- Changed the Mirror Knight enemy into a proper boss: the Mirror Knight.
+ - It is found in the upper archives area in the Grand Archives.
+ - Drops Soul of the Mirror, which can be transposed into:
+  - Thorned Greatsword
+  - King's Mirror
+  - Lightning Stake
+  
 # Weapons
 - Frayed Blade is now uses Dragon reinforcement materials.
 
@@ -140,9 +147,15 @@
    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
   - Rewarded for hitless run in Hard mode.
    
-# NPCs
-- Morric, the Fallen Knight now drops 3 Large Titanite Shards
+# Treasure
+- Morric, the Fallen Knight now drops 3 Large Titanite Shards.
+- Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.
 
 #------------------------------
 # TODO - General
 #------------------------------
+3410860
+3411860
+
+Ladder: reverse for revival: 3411436
+

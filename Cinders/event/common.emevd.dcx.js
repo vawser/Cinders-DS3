@@ -114,6 +114,7 @@ Event(0, Default, function() {
     InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
     InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
+    InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1838,6 +1839,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20125, 0); // Champions of Yore
     InitializeEvent(0, 20126, 0); // Frostfire Colossus
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
+    InitializeEvent(0, 20128, 0); // Mirror Knight
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -3212,6 +3214,37 @@ Event(20127, Restart, function() {
     Label1();
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001027);
     DisplayEpitaphMessage(99030126);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Mirror Knight
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20128, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100290, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001028);
+    
+    SetEventFlag(13410870, 0);
+    SetEventFlag(9341, 0);
+    SetEventFlag(6341, 0);
+    SetEventFlag(13410521, 0); // Reset kick ladder
+    
+    SetPlayerRespawnPoint(3412960);
+    SetMapCeremony(34, 1, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(34, 1, 3410960);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001028);
+    DisplayEpitaphMessage(99030127);
     
     EndUnconditionally(EventEndType.Restart);
 });
