@@ -1849,7 +1849,8 @@ Event(21000, Default, function() {
     InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
     InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
     InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
-    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body
+    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
+    InitializeEvent(0, 20048, 0); // Frostbite Removal
 });
 
 //------------------------------------------------
@@ -2181,6 +2182,17 @@ Event(20047, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9693);
     SetSpeffect(10000, 160703150);
     
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// Frostbite Removal
+Event(20048, Restart, function() {
+    IfCharacterHasSpEffect(OR_01, 10000, 3092, true, ComparisonType.Equal, 1); // If Player uses Rime-blue Moss Clump
+    IfCharacterHasSpEffect(OR_01, 10000, 3080, true, ComparisonType.Equal, 1); // If Player uses Divine Blessing
+    IfCharacterHasSpEffect(OR_01, 10000, 103508000, true, ComparisonType.Equal, 1); // If Player uses Caressing Tears
+    IfConditionGroup(MAIN, PASS, OR_01);
+    ClearSpEffect(10000, 180021000); // Clear Frostbite Effects
+    WaitFixedTimeSeconds(0.5);
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -3132,6 +3144,7 @@ Event(20126, Restart, function() {
     
     SetEventFlag(14500950, 0);
     SetEventFlag(14500951, 0);
+    SetEventFlag(14500986, 0);
     SetEventFlag(9328, 0);
     SetEventFlag(6328, 0);
     
@@ -3150,5 +3163,3 @@ Event(20126, Restart, function() {
     
     EndUnconditionally(EventEndType.Restart);
 });
-
-
