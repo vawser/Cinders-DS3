@@ -3261,7 +3261,7 @@ Event(20129, Restart, function() {
 
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001029);
     
-    SetEventFlag(13100850, 0);
+    SetEventFlag(13100870, 0);
     SetEventFlag(9342, 0);
     SetEventFlag(6342, 0);
     
