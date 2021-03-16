@@ -4524,6 +4524,7 @@ A show of tolerance from the Way of White.
 
 Restores 200 HP for self and those in the vicinity.
 Scales with Spell Buff.
+Negates FP restoration for 30 seconds.
 
 Ascended Effect: increases heal radius to 2 metres.
 
@@ -4533,6 +4534,7 @@ and attune a miracle at a bonfire.</text>
 
 Restores 300 HP for self and those in the vicinity.
 Scales with Spell Buff.
+Negates FP restoration for 30 seconds.
 
 Ascended Effect: increases heal radius to 8 metres.
 
@@ -4542,6 +4544,7 @@ and attune a miracle at a bonfire.</text>
 
 Restores 350 HP for self and those in the vicinity.
 Scales with Spell Buff.
+Negates FP restoration for 30 seconds.
 
 Ascended Effect: increases heal radius to 8 metres.
 
@@ -4550,6 +4553,7 @@ Miracles are fruit of the study of divine tales, a blessing received from the go
 
 Restores 400 HP for self and those in the vicinity.
 Scales with Spell Buff.
+Negates FP restoration for 30 seconds.
 
 Ascended Effect: increases heal radius to 8 metres.
 
@@ -4561,6 +4565,7 @@ of the Princess of Sunlight.
 
 Restores a 500 HP for self and those in the general area.
 Scales with Spell Buff.
+Negates FP restoration for 30 seconds.
 
 Ascended Effect: increases heal radius to 7 metres.
 
@@ -4570,6 +4575,7 @@ a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 120 seconds.
+Negates FP restoration for 60 seconds.
 
 Ascended Effect: increases buff radius to 12 metres.
 
@@ -4578,6 +4584,7 @@ whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
+Negates FP restoration for 60 seconds.
 
 Ascended Effect: increases buff radius to 15 metres.
 
@@ -4588,6 +4595,7 @@ a great many warriors.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
+Negates FP restoration for 60 seconds.
 
 Ascended Effect: increases buff radius to 16 metres.
 

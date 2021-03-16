@@ -156,6 +156,18 @@
 - Morric, the Fallen Knight now drops 3 Large Titanite Shards.
 - Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.
 
+# Spells
+- Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
+- Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
+- Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
+
+# Mechanics
+- Counter damage is now only boosted for thrust.
+
+# NPCs
+- Removed instant staggering against for NPCs other than the Painting Guardians.
+
 #------------------------------
 # TODO - General
 #------------------------------
+Fix the npc talk bug
