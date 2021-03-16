@@ -1435,6 +1435,14 @@ Used to reinforce weapons into an ascended form to +15/+10.
 Primordial titanite is a primordial smithing material, 
 and weapons reinforced with it will be admired
 as the legendary weapons they are.</text>
+<text id="1150">Essence of the Old Chaos, touched by powerful frost magic.
+
+Reinforces the frostweaver's dagger into an ascended form up to +9.
+
+Only that which tamed the Chaos may be imbued with this mythical essence.</text>
+<text id="1160">Northwarders may only become oracles of the war gods upon completing a journey of great hardship. Odessa chose to travel north, beyond where any life had traveled before. From the world's farthest reaches she returned with this crystal, emanating a frozen brilliance.
+
+Reinforces the frostweaver's dagger into the highest ascended form.</text>																		  																  
 <text id="1250">A gem of infused titanite.
 Also known as stark stone.
 
@@ -1604,6 +1612,14 @@ Unlocks locked chests in the Dreg Heap.</text>
 <text id="2063">A key lost by an unfortunate soul.
 
 Unlocks locked chests in the Ringed City.</text>
+<text id="2064">My king, 
+I have done as you asked. The pontiff allowed us entry into this forlorn place, our prison, and already the knights have begun to turn. Their minds become twisted and their features unrecognizable. I too can feel it gnawing.
+
+The pontiff lent us his knights that they may be our jailers. I fear though that they may be less human than us. If they can't protect the world from what we will become, the crystal may be our last hope. 
+
+I know not how this letter may reach you, or if yet you still live, but know that I did all I could. Please, my king, don't let our city crumble. Give my love to Aava.
+
+-Odessa</text>						 																																																				
 <text id="2100">This skeleton key opens any basic door lock.
 
 Tool of the trade for thieves.
@@ -2514,7 +2530,6 @@ Those who cannot remember the past are condemned to repeat it...</text>
 Read to revive the Twin Gyrms and warp to the entrance of the boss arena.
 
 Those who cannot remember the past are condemned to repeat it...</text>
-
 <text id="5300">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon Solaire of Astora to the player. Once present, he will defend the player for 60 seconds.
@@ -3855,7 +3870,6 @@ Applies illusionary helmet based on not wearing armor.</text>
 <text id="12331">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary armor based on not wearing armor.</text>
-
 <text id="20050">A blue phial concocted by Ritualist Ellie.
 
 Scoff down the phial to restore 20% HP to nearby active companions.</text>

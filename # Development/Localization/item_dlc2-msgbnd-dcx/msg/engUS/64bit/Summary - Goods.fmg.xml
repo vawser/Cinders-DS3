@@ -378,6 +378,8 @@
 <text id="1120">Used for ascended reinforcement to +13/+8</text>
 <text id="1130">Used for ascended reinforcement to +14/+9</text>
 <text id="1140">Used for ascended reinforcement to +15/+10</text>
+<text id="1150">Reinforce the frostweaver's dagger up to +9</text>
+<text id="1160">Reinforce the frostweaver's dagger to +10</text>
 <text id="1250">Undo weapon infusion</text>
 <text id="2000">Give to your chosen betrothed</text>
 <text id="2001">Key to the underground lift</text>
@@ -430,6 +432,7 @@
 <text id="2061">Unlocks locked chests in the Painted World of Ariandel</text>
 <text id="2062">Unlocks locked chests in the Dreg Heap</text>
 <text id="2063">Unlocks locked chests in the Ringed City</text>
+<text id="2064">Frostworn letter from the ward of Eleum Loyce</text>
 <text id="2100">Changes form to fit any door lock</text>
 <text id="2101">Sinister vessel made from the skull of a noble king</text>
 <text id="2102">Hold up outside the main castle gate to be taken</text>
@@ -1097,7 +1100,6 @@
 <text id="12321">Applies an armor illusion</text>
 <text id="12330">Applies a helmet illusion</text>
 <text id="12331">Applies an armor illusion</text>
-
 <text id="20050">Restores health to active companions</text>
 <text id="20051">Banish active companions from your world</text>
 <text id="20052">Recall active companions</text>

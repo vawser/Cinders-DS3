@@ -394,6 +394,8 @@
 <text id="1120">Primordial Fragment</text>
 <text id="1130">Primordial Chunk</text>
 <text id="1140">Primordial Slab</text>
+<text id="1150">Frozen Chaos Essence</text>
+<text id="1160">Odessa's Crystal</text>
 <text id="1250">Shriving Stone</text>
 <text id="2000">Ring of Betrothal</text>
 <text id="2001">Lift Chamber Key</text>
@@ -446,6 +448,7 @@
 <text id="2061">Frozen Flower</text>
 <text id="2062">Dreg Key</text>
 <text id="2063">Burning Key</text>
+<text id="2064">Odessa's Note</text>
 <text id="2100">Master Key</text>
 <text id="2101">%null%</text>
 <text id="2102">Small Lothric Banner</text>
@@ -1135,7 +1138,6 @@
 <text id="12321">Magician Emblem</text>
 <text id="12330">Nullus Insignia</text>
 <text id="12331">Nullus Emblem</text>
-
 <text id="20050">Rejuvenating Phial</text>
 <text id="20051">Banishing Coin</text>
 <text id="20052">Beckoning Bone</text>
