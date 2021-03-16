@@ -6041,7 +6041,7 @@ Event(20020027, Default, function() {
 });
 
 //----------------------------------------------
-// Twin Gyrms - Boss Kill
+// Aborr - Boss Kill
 //----------------------------------------------
 Event(20020028, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -6324,7 +6324,7 @@ Event(20020127, Default, function() {
 });
 
 //----------------------------------------------
-// Twin Gyrms - Boss Start
+// Aborr - Boss Start
 //----------------------------------------------
 Event(20020128, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);

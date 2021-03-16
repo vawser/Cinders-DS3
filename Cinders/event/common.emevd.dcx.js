@@ -115,7 +115,7 @@ Event(0, Default, function() {
     InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
-    InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Twin Gyrms
+    InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1841,7 +1841,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20126, 0); // Frostfire Colossus
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
-    InitializeEvent(0, 20129, 0); // Twin Gyrms
+    InitializeEvent(0, 20129, 0); // Aborr
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -3252,7 +3252,7 @@ Event(20128, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Twin Gyrms
+// Boss Revival - Aborr
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20129, Restart, function() {

@@ -13,16 +13,10 @@ c7540 Big Havel c5260
 
 c7550 Fume Knight c5280
 
-# Arenas
-m47_00_00_00 - Kiln of Flame
+c7560
+c7561
+c7562
 
-    c7550 Fume Knight c5280
-    Fume Knight
-        Add healing fires that heal FK
-        Add damaging fire to the pillars to stop the player using them
-        
-        SOC base
-        
-753000 Fume Knight
+c7570
+c7571
 
-75300
