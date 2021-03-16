@@ -57,6 +57,12 @@
 2360 [Boss - Slave Knight Gael] Soul of Slave Knight Gael
 2361 [Boss - Slave Knight Gael] Blood of the Dark Soul
 2362 [Boss - Slave Knight Gael] Tome: Slave Knight Gael
+2370 [Boss - Cathedral Guardian] Soul of the Cathedral Guardian
+2371 [Boss - Cathedral Guardian] Tome: Cathedral Guardian
+2380 [Boss - Mirror Knight] Soul of the Mirror Knight
+2381 [Boss - Mirror Knight] Tome: Mirror Knight
+2390 [Boss - Aborr] Reinforcement Materials
+2391 [Boss - Aborr] Tome: Aborr
 2500 Coiled Sword
 2520 None
 4000 [Giant Tree] Seed of a Giant Tree
@@ -163,7 +169,7 @@
 10500 [Tiny] Bestial Band
 10600 [Captain Morrel] Ring of Momentum
 10700 [Dominatrix Sharron] Witch's Locks
-10800 [Morric, the Fallen Knight] Morne's Great Hammer
+10800 [Morric, the Fallen Knight] Large Titanite Shard
 10900 [Tomb Raider Dyfan] Bone Rapier
 11000 [Chaos Servant Eygor] Demon's Axe
 11100 [Devotee Scarlett] Twinkling Titanite
@@ -263,37 +269,27 @@
 15703 [Disciple of Alsanna] Ivory King Leggings
 50391 ### NPC Drops ###
 50400 [Yuria of Londor] Darkdrift
-50401 [Yuria of Londor] Timeless Soul
 50600 [Company Captain Yorshka] Blade of the Darkmoon
 50610 [Company Captain Yorshka] Yorshka's Chime
-50611 [Company Captain Yorshka] Timeless Soul
-50700 [Hawkwood the Deserter] Timeless Soul
+50700 [Hawkwood the Deserter] None
 50800 [Sirris of the Sunless Realms] Sunless Talisman
-50801 [Sirris of the Sunless Realms] Timeless Soul
 50900 [Ringfinger Leonhard] Cracked Red Eye Orb
 50901 [Ringfinger Leonhard] Silver Mask
 50902 [Ringfinger Leonhard] Lift Chamber Key
-50903 [Ringfinger Leonhard] Timeless Soul
 51100 [Shrine Handmaid] Priestess Ring
 51200 [Greirat of the Undead Settlement] Blue Tearstone Ring
-51201 [Greirat of the Undead Settlement] Timeless Soul
 51300 [Orbeck of Vinheim] Orbeck's Ashes
-51301 [Orbeck of Vinheim] Timeless Soul
 51400 [Cornyx of the Great Swamp] Pyromancy Flame
 51401 [Cornyx of the Great Swamp] Old Sage's Blindfold
 51402 [Cornyx of the Great Swamp] Cornyx's Garb
 51403 [Cornyx of the Great Swamp] Cornyx's Wrap
 51404 [Cornyx of the Great Swamp] Cornyx's Skirt
-51405 [Cornyx of the Great Swamp] Timeless Soul
 51500 [Karla] Karla's Pointed Hat
 51501 [Karla] Karla's Coat
 51502 [Karla] Karla's Gloves
 51503 [Karla] Karla's Trousers
-51504 [Karla] Timeless Soul
-51600 [Irina of Carim] Timeless Soul
-51700 [Eygon of Carim] Morne's Great Hammer
-51701 [Eygon of Carim] Moaning Shield
-51702 [Eygon of Carim] Timeless Soul
+51600 [Irina of Carim] None
+51700 [Eygon of Carim] Moaning Shield
 51900 [Anri of Astora #1] Anri's Straight Sword
 51910 [Anri of Astora #2] Anri's Straight Sword
 51911 [Anri of Astora #2] Ring of the Evil Eye
@@ -486,8 +482,10 @@
 66311 [Shira, Knight of Filianore] Sacred Chime of Filianore
 80000 [Crow] Bone Fragment
 80100 [Crow] Lizard Hide
-80400 [Deathless Run Reward] Relic of Power
-80410 [Hitless Run Reward] Relic of Insanity
+80400 [Deathless Reward] Relic of Power
+80410 [Hitless Reward] Relic of Insanity
+80420 [Hard Mode - Deathless Reward] Relic of Legends
+80430 [Hard Mode - Hitless Reward] Relic of Myths
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
 90020 [Gift - Bonk Jail] Spellbound Dung
@@ -563,8 +561,8 @@
 3000490 [Consumed King's Garden] Large Titanite Shard
 3000500 [Consumed King's Garden] Dragonscale Ring
 3000510 [Consumed King's Garden] Abyssal Fragment
-3000520 [Consumed King's Garden] King's Mirror
-3000521 [Consumed King's Garden] Thorned Greatsword
+3000520 [Consumed King's Garden] Twinkling Titanite
+3000521 [Consumed King's Garden] Titanite Scale
 3000530 [Consumed King's Garden] Titanite Chunk
 3000540 [Consumed King's Garden] Soul of a Weary Warrior
 3000550 [Consumed King's Garden] Titanite Chunk
@@ -943,7 +941,10 @@
 3410510 [Grand Archives - Chest] Resonating Crystal
 3410520 [Grand Archives] Loch Shield
 3410530 [Grand Archives] Titanite Scale
-3410540 [Grand Archives] Titanite Scale
+3410540 [Grand Archives] Mirror Knight Helm
+3410541 [Grand Archives] Mirror Knight Armor
+3410542 [Grand Archives] Mirror Knight Gauntlets
+3410543 [Grand Archives] Mirror Knight Leggings
 3410600 [Grand Archives] Insanity Catalyst
 3410610 [Grand Archives] Titanite Slab
 3410620 [Grand Archives] Estus Shard
@@ -1573,11 +1574,6 @@
 10100002 [Gyrm] Titanite Chunk
 10100003 [Gyrm] Exotic Souls
 10100004 [Gyrm] Radiant Lifegem
-10200000 [Morne's Armor] Morne's Ring
-10300000 [Mirror Knight] Mirror Knight Helm
-10300001 [Mirror Knight] Mirror Knight Armor
-10300002 [Mirror Knight] Mirror Knight Gauntlets
-10300003 [Mirror Knight] Mirror Knight Leggings
 10400000 [Ruin Sentinel] Titanite Shard
 10400001 [Ruin Sentinel] Large Titanite Shard
 10400002 [Ruin Sentinel] Titanite Chunk
@@ -1816,6 +1812,11 @@
 13100040 [Boreal Outrider Knight - Script] Irithyll Greatsword
 13100050 [Boreal Outrider Knight - Script] Irithyll Lance
 13100060 [Boreal Outrider Knight - Script] Irithyll Mace
+13100100 [Boreal Outrider Knight] (Mini-Boss) Exotic Souls
+13100101 [Boreal Outrider Knight] (Mini-Boss) Frost Gem
+13100102 [Boreal Outrider Knight] (Mini-Boss) Slab
+13100103 [Boreal Outrider Knight] (Mini-Boss) Exotic Souls
+13100110 [Boreal Outrider Knight - Script] (Mini-Boss) Frozen Chaos Essence
 13200000 [Crystal Sage] Magic Gem
 13200001 [Crystal Sage] Enchanted Gem
 13200002 [Crystal Sage] Crystal Fragment
@@ -2316,6 +2317,13 @@
 75700001 [Frostfire Cleric] Elizabeth Mushroom
 75700002 [Frostfire Cleric] Frost Gem
 75700003 [Frostfire Cleric] Rime-blue Moss Clump
+75700010 [Frostfire Cleric - Script] (Mini-Boss) Frozen Chaos Essence
+75700020 [Frostfire Cleric - Script] (Mini-Boss) Frozen Chaos Essence
+75700030 [Frostfire Cleric - Script] (Mini-Boss) Frozen Chaos Essence
+75700100 [Frostfire Cleric] (Mini-Boss) Twinkling Titanite or Titanite Scale
+75700101 [Frostfire Cleric] (Mini-Boss) Elizabeth Mushroom
+75700102 [Frostfire Cleric] (Mini-Boss) Frost Gem
+75700103 [Frostfire Cleric] (Mini-Boss) Rime-blue Moss Clump
 209999999 ### Cinders - Treasures ###
 210000000 [High Wall of Lothric] Titanite Shard
 210000010 [High Wall of Lothric] Cleric's Sacred Chime
@@ -2800,6 +2808,11 @@
 210004240 [Ringed City - Chest] Giant-horned Helmet
 210004250 [Kiln of the First Flame] Scorched Tablet
 210004260 [Ariandel] Rime-blue Moss Clump
+210004270 [Ariandel] Odessa's Crystal
+210004271 [Ariandel] Odessa's Note
+210004280 [Ariandel] Soul of a Fallen Beserker
+210004290 [Ariandel] Siegbräu
+210004300 [Ariandel] Prism Stones
 210899999 ### Unused ###
 210900000 Throwing Knife
 263300001 Soul of an Intrepid Hero

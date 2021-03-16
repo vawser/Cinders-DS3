@@ -275,6 +275,12 @@
 30331 [Ludleth - Halflight] Wrathful Orbs
 30332 [Ludleth - Halflight] Holy Schism
 30333 [Ludleth - Halflight] Wrathful Barrage
+30340 [Ludleth - Cathedral Guardian] Morne's Great Hammer
+30341 [Ludleth - Cathedral Guardian] Morne's Ring
+30342 [Ludleth - Cathedral Guardian] Med Heal
+30350 [Ludleth - Mirror Knight] Thorned Greatsword
+30351 [Ludleth - Mirror Knight] King's Mirror
+30352 [Ludleth - Mirror Knight] Lightning Stake
 36000 [Bonfire - Dreamcatcher's Ashes] Titanite Shard
 36001 [Bonfire - Grave Warden's Ashes] Large Titanite Shard
 36002 [Bonfire - Easterner's Ashes] Titanite Chunk
@@ -837,16 +843,14 @@
 160141 [Irina - Spells - Heavenly] Magic Barrier
 160142 [Irina - Spells - Heavenly] Lightning Blade
 160143 [Irina - Spells - Heavenly] Emit Force
-160160 [Irina - Spells - Lothric] Med Heal
+160160 [Irina - Spells - Lothric] Wrath of the Gods
 160161 [Irina - Spells - Lothric] Great Magic Barrier
 160162 [Irina - Spells - Lothric] Bountiful Light
 160163 [Irina - Spells - Lothric] Blessed Weapon
-160164 [Irina - Spells - Lothric] Wrath of the Gods
 160181 [Irina - Spells - Sunlight] Great Lightning Spear
 160182 [Irina - Spells - Sunlight] Tears of Denial
 160184 [Irina - Spells - Sunlight] Sacred Oath
 160185 [Irina - Spells - Sunlight] Great Heal
-160186 [Irina - Spells - Sunlight] Lightning Stake
 160200 [Irina - Spells - Angelic] Angelic Barrage
 160203 [Irina - Spells - Angelic] Divine Pillars of Light
 200000 [Patches] Parrying Dagger

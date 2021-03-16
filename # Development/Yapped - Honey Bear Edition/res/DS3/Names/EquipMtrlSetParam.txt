@@ -1082,6 +1082,41 @@
 30013 Handmaid's Ladle +13
 30014 Handmaid's Ladle +14
 30015 Handmaid's Ladle +15
+32000 Twinkling Titanite (Frostfall) - Stock +0
+32001 Twinkling Titanite (Frostfall) - Stock +1
+32002 Twinkling Titanite (Frostfall) - Stock +2
+32003 Twinkling Titanite (Frostfall) - Stock +3
+32004 Twinkling Titanite (Frostfall) - Stock +4
+32005 Titanite Slab (Frostfall) - Stock +5
+32006 Frozen Chaos Essence (Frostfall) - Stock +6
+32007 Frozen Chaos Essence (Frostfall) - Stock +7
+32008 Frozen Chaos Essence (Frostfall) - Stock +8
+32009 Frozen Chaos Essence (Frostfall) - Stock +9
+32010 Odessa's Crystal (Frostfall) - Stock +10
+32100 Twinkling Titanite (Frostfall) - Lethal +0
+32101 Twinkling Titanite (Frostfall) - Lethal +1
+32102 Twinkling Titanite (Frostfall) - Lethal +2
+32103 Twinkling Titanite (Frostfall) - Lethal +3
+32104 Twinkling Titanite (Frostfall) - Lethal +4
+32105 Titanite Slab (Frostfall) - Lethal +5
+32106 Frozen Chaos Essence (Frostfall) - Lethal +6
+32107 Frozen Chaos Essence (Frostfall) - Lethal +7
+32108 Frozen Chaos Essence (Frostfall) - Lethal +8
+32109 Frozen Chaos Essence (Frostfall) - Lethal +9
+32110 Odessa's Crystal (Frostfall) - Lethal +10
+32200 Twinkling Titanite (Frostfall) - Curse +0
+32300 Twinkling Titanite (Frostfall) - Poison +0
+32400 Twinkling Titanite (Frostfall) - Blood +0
+32500 Twinkling Titanite (Frostfall) - Frost +0
+32600 Twinkling Titanite (Frostfall) - Magic +0
+32700 Twinkling Titanite (Frostfall) - Fire +0
+32800 Twinkling Titanite (Frostfall) - Lightning +0
+32900 Twinkling Titanite (Frostfall) - Dark +0
+33000 Twinkling Titanite (Frostfall) - Lucky +0
+33100 Twinkling Titanite (Frostfall) - Enchanted +0
+33200 Twinkling Titanite (Frostfall) - Holy +0
+33300 Twinkling Titanite (Frostfall) - Sharp +0
+33400 Twinkling Titanite (Frostfall) - Blunt +0
 100000 Soul of Champion Gundyr
 100002 Soul of the Dancer
 100003 Soul of a Crystal Sage
@@ -1111,6 +1146,8 @@
 100029 Soul of the Ancient Wyvern
 100030 Soul of the Lordran Remnants
 100031 Soul of Halflight
+100032 Soul of the Cathedral Guardian
+100033 Soul of the Mirror Knight
 200001 Awestone - 1
 200002 Awestone - 2
 200003 Awestone - 3

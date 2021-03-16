@@ -123,7 +123,7 @@ def t511000_x5():
         AddTalkListData(2, 15000130, -1)
         
         # Reinforce Weapon
-        AddTalkListData(18, 15010002, -1)
+        #AddTalkListData(18, 15010002, -1)
         
         # Infuse Weapon
         AddTalkListData(17, 15010001, -1)

@@ -2558,43 +2558,44 @@
 231600300 [Dragonslayer Armour] arts _ Jump Guillotine
 231600700 [Dragonslayer Armour] Shockwave
 231600900 [Dragonslayer Armour] Guard
-231610010 [Morne's Armor]
-231610020 [Morne's Armor]
-231610021 [Morne's Armor]
-231610030 [Morne's Armor] Shield Bash
-231610031 [Morne's Armor] Axe Swing
-231610040 [Morne's Armor] Axe Turning Attack
-231610041 [Morne's Armor]
-231610050 [Morne's Armor] Shield Turning Attack
-231610060 [Morne's Armor]
-231610061 [Morne's Armor]
-231610070 [Morne's Armor]
-231610080 [Morne's Armor]
-231610090 [Morne's Armor]
-231610100 [Morne's Armor]
-231610110 [Morne's Armor]
-231610120 [Morne's Armor]
-231610130 [Morne's Armor]
-231610131 [Morne's Armor]
-231610140 [Morne's Armor]
-231610150 [Morne's Armor]
-231610160 [Morne's Armor]
-231610170 [Morne's Armor]
-231610180 [Morne's Armor]
-231610190 [Morne's Armor]
-231610200 [Morne's Armor] HU: Jump Shield Bash
-231610210 [Morne's Armor] HU: Sword
-231610220 [Morne's Armor] HU: Shield Bash
-231610230 [Morne's Armor] HU: Shield Bash
-231610240 [Morne's Armor] HU: Shield Combo
-231610250 [Morne's Armor] HU: Shield Guillotine
-231610260 [Morne's Armor] HU: Guard Bash
-231610270 [Morne's Armor] WA: Assault
-231610280 [Morne's Armor] WA: Whack
-231610290 [Morne's Armor] WA: Axe Shockwave
-231610300 [Morne's Armor] WA: Jump Slash
-231610700 [Morne's Armor] Shockwave
-231610900 [Morne's Armor] Guard
+231610010 [Cathedral Guardian]
+231610020 [Cathedral Guardian]
+231610021 [Cathedral Guardian]
+231610030 [Cathedral Guardian] Shield Bash
+231610031 [Cathedral Guardian] Axe Swing
+231610040 [Cathedral Guardian] Axe Turning Attack
+231610041 [Cathedral Guardian]
+231610050 [Cathedral Guardian] Shield Turning Attack
+231610060 [Cathedral Guardian]
+231610061 [Cathedral Guardian]
+231610070 [Cathedral Guardian]
+231610080 [Cathedral Guardian] Hold Hammer and Smash
+231610081 [Cathedral Guardian] Hold Hammer and Smash - Bullet
+231610090 [Cathedral Guardian]
+231610100 [Cathedral Guardian]
+231610110 [Cathedral Guardian]
+231610120 [Cathedral Guardian]
+231610130 [Cathedral Guardian]
+231610131 [Cathedral Guardian]
+231610140 [Cathedral Guardian]
+231610150 [Cathedral Guardian]
+231610160 [Cathedral Guardian]
+231610170 [Cathedral Guardian]
+231610180 [Cathedral Guardian]
+231610190 [Cathedral Guardian]
+231610200 [Cathedral Guardian] HU: Jump Shield Bash
+231610210 [Cathedral Guardian] HU: Sword
+231610220 [Cathedral Guardian] HU: Shield Bash
+231610230 [Cathedral Guardian] HU: Shield Bash
+231610240 [Cathedral Guardian] HU: Shield Combo
+231610250 [Cathedral Guardian] HU: Shield Guillotine
+231610260 [Cathedral Guardian] HU: Guard Bash
+231610270 [Cathedral Guardian] WA: Assault
+231610280 [Cathedral Guardian] WA: Whack
+231610290 [Cathedral Guardian] WA: Axe Shockwave
+231610300 [Cathedral Guardian] WA: Jump Slash
+231610700 [Cathedral Guardian] Shockwave
+231610900 [Cathedral Guardian] Guard
 231700010 [Darkwraith] Slashing 1
 231700011 [Darkwraith] Slashing 2
 231700012 [Darkwraith] Slashing 3
@@ -5095,13 +5096,15 @@
 275600860 [Frostfire Colossus] Frostfire Pillars - Central Explosion [Called from EMEVD]
 275600870 [Frostfire Colossus] Blizzard
 275600871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-275600880 [Frostfire Colossus] Three Tracking Frostfire Projectiles
+275600880 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
 275600890 [Frostfire Colossus] Frost Explosion after Hammer Slams
 275600900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
 275600910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
 275600920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion [Called from EMEVD]
 275600930 [Frostfire Colossus] Fiery Floor
 275600940 [Frostfire Colossus] Summoning Ring (Unused)
+275600950 [Frostfire Colossus] Wind-up Slam Frostfire Star
+275600960 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
 275610700 [Colossus Orb] Tri-Fireball
 275610710 [Colossus Orb] Frost Aura
 275620700 [Colossus Sapping Orb] Blanks

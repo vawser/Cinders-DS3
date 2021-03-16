@@ -240,7 +240,7 @@ def t400902_x12():
         ClearTalkListData()
         """ State 2 """
         AddTalkListData(1, 15000120, -1)
-        AddTalkListData(2, 15000111, -1)
+        #AddTalkListData(2, 15000111, -1)
         AddTalkListData(3, 15000190, -1)
         # action:15000005:Leave
         AddTalkListData(99, 15000005, -1)

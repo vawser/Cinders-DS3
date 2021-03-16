@@ -1306,23 +1306,26 @@ Though known to some as red holy water, not everyone acknowledges its holy statu
 Restores 600 HP and 600 FP over 30 seconds.
 
 Those who have experienced the powerful effect of this dimly lucent red water care not that its very origins are completely unknown.</text>
-<text id="901">Primordial fragment lost to the sands of time.
+<text id="901">
 
-Used to reinforce weapons beyond their normal limits, or used at Affixing Table to affix accessories, enhancing their strength.</text>
+Primordial fragment lost to the sands of time.
+
+Used at Affixing Table to affix accessories, enhancing their strength.
+</text>
 <text id="1000">Titanite shard for weapon reinforcement.
-Reinforces weapons to +3.
+Remnant of the past.
 
 Titanite shards are fragments of
 the Legendary Slabs. Titanite is
 etched into weapons to reinforce.</text>
 <text id="1001">Titanite shard for weapon reinforcement.
-A larger shard that reinforces weapons to +6.
+Remnant of the past.
 
 Titanite shards are fragments of
 the Legendary Slabs. Titanite is
 etched into weapons to reinforce.</text>
 <text id="1002">Titanite chunk for weapon reinforcement.
-Reinforces weapons to +9.
+Remnant of the past.
 
 Few records of chunks exist, and once one was
 discovered in Lothric, the race to locate
@@ -1330,7 +1333,7 @@ Legendary Slabs began, but there have been
 no reports of success.</text>
 <text id="1003">Titanite slab for weapon reinforcement,
 said to once belong to the gods.
-Reinforces weapons to their highest level.
+Remnant of the past.
 
 Titanite slabs are smithing materials of the gods,
 and weapons reinforced with slabs will be admired
@@ -1342,7 +1345,7 @@ no less than their precious legendary weapons.</text>
 <text id="1008">%null%</text>
 <text id="1009">%null%</text>
 <text id="1010">Peeled from an ancient dragon.
-Reinforces dragon weapons to +4.
+Remnant of the past.
 
 A dragon is inseparable from its scales,
 and the transcendent apostles, who seek
@@ -1359,7 +1362,7 @@ to seek this invaluable treasure.</text>
 <text id="1018">%null%</text>
 <text id="1019">%null%</text>
 <text id="1020">Titanite altered by a soul.
-Reinforces soul-transposed weapons to +4.
+Remnant of the past.
 
 Weapons forged by soul transposition can only
 be reinforced by titanite of the same kind.
@@ -1376,65 +1379,25 @@ these great scales.</text>
 <text id="1027">%null%</text>
 <text id="1028">%null%</text>
 <text id="1029">%null%</text>
-<text id="1030">Twinkling titanite for weapon reinforcement.
-Reinforce weapons steeped in strength to +4.
+<text id="1030">Remnant of the past.</text>
+<text id="1050">Remnant of the past.</text>
+<text id="1060">Fire seed coveted by the Chaos Servants.
 
-Unless one uses this twinkling titanite, which reinforces these weapons without unraveling their inherent strength.</text>
-<text id="1050">Primsatic slab for weapon reinforcement.
-Reinforce spell catalysts to +10/+5.
+Offer to Cornyx of the Great Swamp, or use to infuse a spell tool.</text>
+<text id="1070">Crystal fragment coveted by the Vinheim Scholars.
 
-In weapon ascension, a primstatic slab is used to maximise the potency of a spell tool.</text>
-<text id="1060">Fire seed for weapon reinforcement.
-Reinforce pyromancy flames to +4.
+Offer to Orbeck of Vinheim, or use to infuse a spell tool.</text>
+<text id="1080">Abyssal fragment coveted by the Pilgrims of Dark.
 
-In weapon ascension, a fire seed is used to imbue a pyromancy flame with additional potency.</text>
-<text id="1070">Crystal fragment for weapon reinforcement.
-Reinforce staves to +4.
+Offer to Karla, or use to infuse a spell tool.</text>
+<text id="1090">Holy fragment coveted by the Way of White.
 
-In weapon ascension, a crystal fragment is used to imbue a spell tool with additional potency.</text>
-<text id="1080">Abyssal fragment for weapon reinforcement.
-Reinforce dark staves, chimes, talismans and flames to +4.
-
-In weapon ascension, an abyssal fragment is used to imbue a spell tool with additional potency.</text>
-<text id="1090">Holy fragment for weapon reinforcement.
-Reinforce chimes and talismans to +4.
-
-In weapon ascension, a holy fragment is used to imbue a spell tool with additional potency.</text>
-<text id="1100">An ancient form of titanite, associated with the Primordial Serpents.
-
-Used to reinforce weapons into an ascended form to +11/+6.
-
-Primordial titanite is a primordial smithing material, 
-and weapons reinforced with it will be admired
-as the legendary weapons they are.</text>
-<text id="1110">An ancient form of titanite, associated with the Primordial Serpents.
-
-Used to reinforce weapons into an ascended form to +12/+7.
-
-Primordial titanite is a primordial smithing material, 
-and weapons reinforced with it will be admired
-as the legendary weapons they are.</text>
-<text id="1120">An ancient form of titanite, associated with the Primordial Serpents.
-
-Used to reinforce weapons into an ascended form to +13/+8.
-
-Primordial titanite is a primordial smithing material, 
-and weapons reinforced with it will be admired
-as the legendary weapons they are.</text>
-<text id="1130">An ancient form of titanite, associated with the Primordial Serpents.
-
-Used to reinforce weapons into an ascended form to +14/+9.
-
-Primordial titanite is a primordial smithing material, 
-and weapons reinforced with it will be admired
-as the legendary weapons they are.</text>
-<text id="1140">An ancient form of titanite, associated with the Primordial Serpents.
-
-Used to reinforce weapons into an ascended form to +15/+10.
-
-Primordial titanite is a primordial smithing material, 
-and weapons reinforced with it will be admired
-as the legendary weapons they are.</text>
+Offer to Irina of Carim, or use to infuse a spell tool.</text>
+<text id="1100">Remnant of the past.</text>
+<text id="1110">Remnant of the past.</text>
+<text id="1120">Remnant of the past.</text>
+<text id="1130">Remnant of the past.</text>
+<text id="1140">Remnant of the past.</text>
 <text id="1150">Essence of the Old Chaos, touched by powerful frost magic.
 
 Reinforces the frostweaver's dagger into an ascended form up to +9.
@@ -1442,7 +1405,7 @@ Reinforces the frostweaver's dagger into an ascended form up to +9.
 Only that which tamed the Chaos may be imbued with this mythical essence.</text>
 <text id="1160">Northwarders may only become oracles of the war gods upon completing a journey of great hardship. Odessa chose to travel north, beyond where any life had traveled before. From the world's farthest reaches she returned with this crystal, emanating a frozen brilliance.
 
-Reinforces the frostweaver's dagger into the highest ascended form.</text>																		  																  
+Reinforces the frostweaver's dagger into the highest ascended form.</text>		  
 <text id="1250">A gem of infused titanite.
 Also known as stark stone.
 

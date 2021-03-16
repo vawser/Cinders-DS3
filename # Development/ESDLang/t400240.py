@@ -313,7 +313,7 @@ def t400240_x16(goods1=2127, goods2=2128, goods3=2129, goods4=2130, goods5=2131,
         AddTalkListData(5, 15011020, -1)
         
         # Reinforce Pyromancy Flame
-        AddTalkListData(2, 15014001, -1)
+        #AddTalkListData(2, 15014001, -1)
         
         # Give Pyromancy Tome
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1,

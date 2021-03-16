@@ -2491,11 +2491,11 @@
 7560860 [Frostfire Colossus] Frostfire Pillars - Central Explosion
 7560870 [Frostfire Colossus] Blizzard
 7560871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles
-7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles
-7560882 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit]
-7560883 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit]
-7560884 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hazard]
+7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
+7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
+7560882 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit] (Unused)
+7560883 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit] (Unused)
+7560884 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hazard] (Unused)
 7560890 [Frostfire Colossus] Frost Explosion after Hammer Slams
 7560900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
 7560901 [Frostfire Colossus] Frost Force Blast after Hammer Slams
@@ -2505,6 +2505,12 @@
 7560921 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion [Hit]
 7560930 [Frostfire Colossus] Fiery Floor
 7560940 [Frostfire Colossus] Summoning Ring (Unused)
+7560950 [Frostfire Colossus] Wind-up Slam Frostfire Star
+7560960 [Frostfire Colossus] Single-slam Projectile Droplets
+7560961 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
+7560962 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
+7560963 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
+7560964 [Frostfire Colossus] Single-slam Projectile Droplets [Hazard]
 7561700 [Colossus Orb] Tri-Frostfire Ball
 7561710 [Colossus Orb] Frost Aura
 7562700 [Colossus Sapping Orb] Blanks

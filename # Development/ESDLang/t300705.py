@@ -49,8 +49,8 @@ def t300705_1():
                     AddTalkListData(9, 15000005, -1)
                     # action:15000100:Level Up
                     AddTalkListData(1, 15000100, -1)
-                    AddTalkListData(2, 15000111, -1)
-                    AddTalkListData(3, 15000112, -1)
+                    #AddTalkListData(2, 15000111, -1)
+                    #AddTalkListData(3, 15000112, -1)
                     AddTalkListData(4, 15000120, -1)
                     # action:15000130:Attune Spell
                     AddTalkListData(5, 15000130, -1)

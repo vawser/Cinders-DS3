@@ -253,8 +253,9 @@
 101000 Gyrm [Irithyll of the Boreal Valley]
 101100 Gyrm - Halberd
 101110 Gyrm - Twinaxes
-102000 Morne's Armor [Cathedral of the Deep]
-103000 Mirror Knight [Consumed King's Garden]
+101200 [Boss] Aborr
+102000 [Boss] Cathedral Guardian
+103000 [Boss] Mirror Knight
 104000 Ruin Sentinel [The Ringed City]
 105000 Dragonrider [Irithyll of the Boreal Valley] - Gundyr
 106000 Black Dragon Knight [Grand Archives]
@@ -526,6 +527,7 @@
 131100 Boreal Outrider Knight [Grand Archives]
 131200 Boreal Outrider Knight [Lothric Castle]
 131300 Boreal Outrider Knight [Ariandel]
+131310 Boreal Outrider Knight [Ariandel] (Mini-Boss)
 132000 [Boss] Crystal Sage
 132010 Crystal Sage [Road of Sacrifices]
 132100 Crystal Sage [Grand Archives]
@@ -1200,7 +1202,9 @@
 756200 Frostfire Colossus Sapping Orb
 757000 Frostfire Cleric (Boss Room)
 757010 Frostfire Cleric
+757020 Frostfire Cleric (Mini-Boss)
 757100 Frostfire Cleric Orb
+757110 Frostfire Cleric Orb (Mini-Boss)
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight

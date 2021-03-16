@@ -474,12 +474,17 @@
 50580 [Frostfire Cleric] Orb VFX
 50581 [Frostfire Colossus] Orb VFX
 50582 [Frostfire Colossus] Sapping Orb Green Vow
-50583 [Frostfire Colossus] Enrage Aura
-50584 [Frostfire Colossus] Enhance Emissive
+50583 [Frostfire Colossus] Healing Aura Full
+50584 [Frostfire Colossus] Enhance Aura
 50585 [Frostfire Cleric] Held Orb - Small
 50586 [Frostfire Cleric] Held Orb - Medium
 50587 [Frostfire Cleric] Held Orb - Large
 50588 [Frostfire Cleric] Weapon Frost VFX
+50589 [Frostfire Colossus] Healing Aura Fade
+50590 [Frostfire Colossus] Enhance Aura Full
+50591 [Frostfire Colossus] Blizzard Sound
+50592 [Frostfire Colossus] Blizzard Sound
+50593 [Frostfire Colossus] Mini-Boss Trio Enhance
 60100 Sister Friede -
 60110 Sister Friede -
 62000 Slave Knight Gael -

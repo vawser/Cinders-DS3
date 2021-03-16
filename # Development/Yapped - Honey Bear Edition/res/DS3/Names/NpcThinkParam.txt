@@ -980,7 +980,9 @@
 756000 Frostfire Colossus
 756100 Frostfire Colossus Orb
 756200 Frostfire Colossus Sapping Orb
-757000 Frostfire Cleric
+757000 Frostfire Cleric (Boss Room)
+757010 Frostfire Cleric
+757020 Frostfire Cleric (Mini-Boss)
 757100 Frostfire Cleric Orb
 809999 ### Trial ###
 810000 Skeleton (Scimitar)

@@ -54,6 +54,7 @@
 9411 Messenger Tombstone (already ignited) * Text difference
 9997 Find out (Ojo 1 saloon)
 9999 Inspect (for City/bridge warp obj)
+10000 Traverse the fog
 30000 Enter - Door
 30001 Commune - Big Object
 30002 Commune - Small Object
@@ -69,6 +70,7 @@
 3001890 Entering the wall of Light (Ojo 1 E3 version Tracker)
 3011800 Entering the wall of Light (Ojo 2 Dragon's Guardian Knight)
 3100000 Should probably rely to servant
+3100870 Fogwall - Aborr
 3101800 Entering the wall of Light (city)
 3201800 Entering the wall of Light (bridge _ The nest of a flying dragon)
 3201850 Entering the wall of Light (bridge _ on the bridge)
@@ -76,8 +78,10 @@
 3301850 Entering the wall of light (elders of the Forest of poisonous swamp crystals)
 3411830 Entering the wall of Light (Ojo 2)
 3411860 Entering the wall of Light (Ojo 2)
+3411870 Fogwall - Mirror Knight
 3501800 Entering the wall of Light (Basilica Church _ Cardinal)
-3501850 Entering the wall of Light (Basilica Church _ Rosalia)
+3501850 Fogwall - Cathedral Guardian
+3501860 Entering the wall of Light (Basilica Church _ Rosalia)
 3601800 Entering the wall of the light (God's Tomb _ the Angel of the Dragon)
 3701800 Entering the wall of light (Anole _ Saliva)
 3701850 Entering the wall of Light (anole _ landmark Church)

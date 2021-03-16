@@ -219,7 +219,16 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 12 """
         # Reinforce Weapon
-        AddTalkListData(2, 15010002, -1)
+        #AddTalkListData(2, 15010002, -1)
+        
+        # Weapon Infusions
+        AddTalkListData(11, 15003021, -1)
+        
+        # Shield Infusions
+        AddTalkListData(12, 15003022, -1)
+        
+        # Catalyst Infusions
+        AddTalkListData(13, 15003029, -1)
         
         # Infuse Weapon
         AddTalkListData(1, 15010001, -1)
@@ -238,15 +247,6 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         
         # Learn Gesture
         AddTalkListDataIf(GetEventStatus(6074) == 0, 9, 99000960, -1)
-        
-        # Weapon Infusions
-        AddTalkListData(11, 15003021, -1)
-        
-        # Shield Infusions
-        AddTalkListData(12, 15003022, -1)
-        
-        # Catalyst Infusions
-        AddTalkListData(13, 15003029, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008130) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)

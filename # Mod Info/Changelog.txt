@@ -153,7 +153,7 @@
   - Rewarded for hitless run in Hard mode.
    
 # Treasure
-- Morric, the Fallen Knight now drops 3 Large Titanite Shards.
+- Morric, the Fallen Knight now drops 1 Holy Gem.
 - Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.
 
 # Spells
@@ -163,8 +163,12 @@
 
 # Mechanics
 - Counter damage is now only boosted for thrust.
-- Reduced scaling multipliers for spell tools.
-- Reduced base damage multipliers for weapons and spell tools.
+- Removed the concept of Reinforcement. All weapons are now improved indirectly by leveling the suitable stats needed to boost scaling.
+ - Old saves will still have the reinforced weapons present, they will have the stats of +0.
+ - All reinforcement material sources have now been changed to gems or other suitable items.
+ - Primordial Fragments still exist, they are only for Affixing now.
+ - The stat effectiveness curve has been made more extreme, so later levels in a stat are more valuable.
+- Adjusted enemy health to account for the new weapon damage.
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
@@ -173,3 +177,4 @@
 # TODO - General
 #------------------------------
 Fix the npc talk bug
+
