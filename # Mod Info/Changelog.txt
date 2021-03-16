@@ -163,6 +163,8 @@
 
 # Mechanics
 - Counter damage is now only boosted for thrust.
+- Reduced scaling multipliers for spell tools.
+- Reduced base damage multipliers for weapons and spell tools.
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
