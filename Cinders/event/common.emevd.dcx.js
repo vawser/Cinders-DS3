@@ -115,6 +115,7 @@ Event(0, Default, function() {
     InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
+    InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Twin Gyrms
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1840,6 +1841,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20126, 0); // Frostfire Colossus
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
+    InitializeEvent(0, 20129, 0); // Twin Gyrms
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -3245,6 +3247,36 @@ Event(20128, Restart, function() {
     Label1();
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001028);
     DisplayEpitaphMessage(99030127);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Twin Gyrms
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20129, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100300, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001029);
+    
+    SetEventFlag(13100850, 0);
+    SetEventFlag(9342, 0);
+    SetEventFlag(6342, 0);
+    
+    SetPlayerRespawnPoint(3102960);
+    SetMapCeremony(31, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(31, 0, 3100960);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001029);
+    DisplayEpitaphMessage(99030128);
     
     EndUnconditionally(EventEndType.Restart);
 });

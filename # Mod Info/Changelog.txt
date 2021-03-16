@@ -13,7 +13,7 @@
 # These need to be used for new treasures in each area
 54002080 Cemetery of Ash / Unturned Graves
 53002111 High Wall of Lothric / Consumed King's Garden
-53102096 Undead Settlement
+53102097 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
 53502086 Cathedral of the Deep
 53802181 Catacombs of Carthus / Smouldering Lake
@@ -154,8 +154,7 @@
 #------------------------------
 # TODO - General
 #------------------------------
-3410860
-3411860
+Rosencrantz and Guildenstern
+3100850
 
-Ladder: reverse for revival: 3411436
-
+c1010 Gyrm c1290

@@ -6010,7 +6010,7 @@ Event(20020026, Default, function() {
 });
 
 //----------------------------------------------
-// Champion Gundyr - Boss Kill
+// Mirror Knight - Boss Kill
 //----------------------------------------------
 Event(20020027, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -6038,6 +6038,37 @@ Event(20020027, Default, function() {
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
     AwardItemLot(800300020); // 75%
+});
+
+//----------------------------------------------
+// Twin Gyrms - Boss Kill
+//----------------------------------------------
+Event(20020028, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    SetEventFlag(25001029, ON); // Boss Killed
+    
+    // Default Primordial Essence
+    AwardItemLot(800300060); // 10%
+    
+    // No Hit Reward
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    AwardItemLot(800300000); // 25%
+    
+    // Curse of Valor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
+    AwardItemLot(800300000); // 25%
+    
+    // NG+1 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
+    AwardItemLot(800300060); // 10%
+    
+    // NG+2 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
+    AwardItemLot(800300060); // 10%
+    
+    // NG+3 Drop
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
+    AwardItemLot(800300060); // 10%
 });
 
 //----------------------------------------------
@@ -6287,6 +6318,15 @@ Event(20020126, Default, function() {
 // Mirror Knight - Boss Start
 //----------------------------------------------
 Event(20020127, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    
+});
+
+//----------------------------------------------
+// Twin Gyrms - Boss Start
+//----------------------------------------------
+Event(20020128, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     
@@ -9199,5 +9239,3 @@ Event(20080119, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     Label1();
     EndUnconditionally(EventEndType.Restart);
 });
-
-
