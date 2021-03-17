@@ -96,6 +96,7 @@
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
+- Intruders are now triggered earlier and are more aggressive about hunting down the player.
 
 # Bosses
 - Changed the Morne's Armor enemy into a proper boss: the Cathedral Guardian.
@@ -114,7 +115,7 @@
   
 - Added Aborr boss (Gyrm enemy):
  - Found in the Undead Settlement.
- - Drops random reinforcement material: 3 Titanite Shard, 1 Large Titanite Shard, 1 Twinkling Titanite or 1 Titanite Scale
+ - Drops random gems.
  - Is meant to be a Capra Demon style fight.
  
 # Spells
@@ -126,6 +127,9 @@
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.
 - Removed some of the Lothric Knights in the normal enemy layout.
 - Added a red-eyed Lothric Knight in the old position of the Outrider Knight.
+- Moved Gaius the Mighty into the passage that precedes his old location in Archdragon Peak.
+- Removed 2 of the Giant Serpent-men in the gauntlet section to the dragon altar in Archdragon Peak.
+- Moved the Forlorn to the empty hill in Road of Sacrifices.
 
 # Items
 - Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
