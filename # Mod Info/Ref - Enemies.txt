@@ -440,6 +440,21 @@
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
+# Aborr
+- NG0 HP: 2000
+- NG+ HP: 2400
+- Souls: 10000
+
+# Cathedral Guardian
+- NG0 HP: 5000
+- NG+ HP: 6000
+- Souls: 10000
+
+# Mirror Knight
+- NG0 HP: 8000
+- NG+ HP: 9600
+- Souls: 40000
+
 #------------------------
 # Enemy Types
 #------------------------
