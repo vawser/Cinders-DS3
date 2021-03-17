@@ -92,6 +92,7 @@
  - Primordial Fragments still exist, they are only for Affixing now.
  - The stat effectiveness curve has been made more extreme, so later levels in a stat are more valuable.
 - Adjusted enemy health to account for the new weapon damage.
+- Adjusted boss HP to account for the new weapon damage.
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
