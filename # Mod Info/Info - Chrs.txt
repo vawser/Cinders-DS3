@@ -1,4 +1,38 @@
-﻿c1010 Gyrm c1290
+﻿#--------------------------------------
+# Overview
+#--------------------------------------
+Duplicate the following from the original enemy:
+ cXXXX.anibnd.dcx
+ cXXXX.behbnd.dcx
+ cXXXX.chrbnd.dcx
+ cXXXX.texbnd.dcx
+ 
+# action folder
+Copy the original cXXXX.hks and rename it to the new ID
+
+# chr folder
+Rename the original cXXXX to the new ID in the filenames.
+ 
+Edit anibnd, changing the cXXXX to the new ID.
+ - Hex edit the cXXXX.tae file for ID changes
+ 
+Edit behbnd, changing the cXXXX to the new ID.
+ - Hex edit the cXXXX.hkx and cXXXX.hkt files for ID changes
+ 
+Edit chrbnd, changing the cXXXX to the new ID.
+
+# sound folder
+Copy the original cXXXX files and rename to the new ID.
+ fdp_cXXXX.fev
+ fdp_cXXXX.fsb
+ fdp_cXXXX.itl
+ 
+Hex edit the fdp_cXXXX.fev, replacing fdp_cXXXX with the new ID.
+
+#--------------------------------------
+# Additions
+#--------------------------------------
+c1010 Gyrm c1290
 c1020 Morne's Armor c3160
 c1030 Mirror Knight c3160
 c1040 Ruin Sentinel c2030
@@ -7,12 +41,21 @@ c1060 Black Dragon Knight c1300
 c7500 Ciaran c1250
 c7510 Artorias c5280
 c7520 Ornstein c5010
-
 c7530 Smelter Demon c5020
 c7540 Big Havel c5260
-
 c7550 Fume Knight c5280
 
+c7580 Velstadt c6100    
+c7590 Smough c1290      
+c7600 Sir Yorgh c5110   
+c7610 Big Crystal Lizard c3220
+c7620 Lautrec c1180
+c7630 The Rock c3160
+c7640 Giant Sentinel c3160
+c7650 Berenike Knight c1190
+c7660 Old Giant c3020
+
+# Muffins
 c7560
 c7561
 c7562
@@ -20,3 +63,4 @@ c7562
 c7570
 c7571
 
+760000
