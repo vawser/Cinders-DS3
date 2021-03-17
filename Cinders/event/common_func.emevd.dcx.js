@@ -3887,6 +3887,22 @@ Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 });
 
 // ----------------------------------------
+// Boss - Sound - Basic
+// ----------------------------------------
+Event(20001834, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    SetNetworkSyncState(Disabled);
+    SetMapSoundState(X12_4, Disabled);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    EnableBossMapSound(X12_4, Enabled);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    EnableBossMapSound(-1, Disabled);
+});
+
+// ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
 Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {

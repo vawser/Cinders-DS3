@@ -12,3 +12,6 @@ fdp_smXX
  
 fdp_vmXX
  Dialogue
+ 
+# Notes
+Use ConnectCollision to load the mapID needed if using a sound file from a different map
