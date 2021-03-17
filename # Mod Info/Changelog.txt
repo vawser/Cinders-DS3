@@ -84,6 +84,18 @@
 #------------------------------
 # Changelog
 #------------------------------
+# Mechanics
+- Counter damage is now only boosted for thrust.
+- Removed the concept of Reinforcement. All weapons are now improved indirectly by leveling the suitable stats needed to boost scaling.
+ - Old saves will still have the reinforced weapons present, they will have the stats of +0.
+ - All reinforcement material sources have now been changed to gems or other suitable items.
+ - Primordial Fragments still exist, they are only for Affixing now.
+ - The stat effectiveness curve has been made more extreme, so later levels in a stat are more valuable.
+- Adjusted enemy health to account for the new weapon damage.
+
+# NPCs
+- Removed instant staggering against for NPCs other than the Painting Guardians.
+
 # Bosses
 - Changed the Morne's Armor enemy into a proper boss: the Cathedral Guardian.
  - It is found in the plaza area before you enter the Cathedral of the Deep proper. You have to defeat it to progress forward.
@@ -104,8 +116,10 @@
  - Drops random reinforcement material: 3 Titanite Shard, 1 Large Titanite Shard, 1 Twinkling Titanite or 1 Titanite Scale
  - Is meant to be a Capra Demon style fight.
  
-# Weapons
-- Frayed Blade is now uses Dragon reinforcement materials.
+# Spells
+- Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
+- Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
+- Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
 
 # Map
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.
@@ -155,23 +169,6 @@
 # Treasure
 - Morric, the Fallen Knight now drops 1 Holy Gem.
 - Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.
-
-# Spells
-- Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
-- Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
-- Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
-
-# Mechanics
-- Counter damage is now only boosted for thrust.
-- Removed the concept of Reinforcement. All weapons are now improved indirectly by leveling the suitable stats needed to boost scaling.
- - Old saves will still have the reinforced weapons present, they will have the stats of +0.
- - All reinforcement material sources have now been changed to gems or other suitable items.
- - Primordial Fragments still exist, they are only for Affixing now.
- - The stat effectiveness curve has been made more extreme, so later levels in a stat are more valuable.
-- Adjusted enemy health to account for the new weapon damage.
-
-# NPCs
-- Removed instant staggering against for NPCs other than the Painting Guardians.
 
 #------------------------------
 # TODO - General
