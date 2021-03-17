@@ -134,7 +134,6 @@
 # Gifts
 - Added Broken Tablet gift: this enables Hard mode. Cannot be changed once picked.
  Effects:
- - Reduces melee and spell damage by 25%.
  - Reduces absorptions by 25%.
  - Reduces soul absorption by 75%.
  - Reduces stamina recovery by 10.

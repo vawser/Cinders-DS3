@@ -107,7 +107,7 @@
 
 # Old Demon King 
 - NG0 HP: 8000 
-- NG+ HP: 96000
+- NG+ HP: 9600
 - Souls: 40000
 - Absorption: Standard:     90%
 - Absorption: Slash:        90%
@@ -122,7 +122,7 @@
 
 # Pontiff Sulyvahn
 - NG0 HP: 8000 
-- NG+ HP: 96000 
+- NG+ HP: 9600
 - Souls: 50000 
 - Absorption: Standard:     100%
 - Absorption: Slash:        100%
@@ -429,14 +429,14 @@
 - NG0 HP: 12000
 - NG+ HP: 14400  
 - Souls: 125000
-- Absorption: Standard:     60%
-- Absorption: Slash:        60%
-- Absorption: Strike:       60%
-- Absorption: Thrust:       60%
-- Absorption: Magic:        80%
-- Absorption: Fire:         80%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        90%
+- Absorption: Fire:         90%
 - Absorption: Lightning:    100%
-- Absorption: Dark:         50%
+- Absorption: Dark:         75%
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
