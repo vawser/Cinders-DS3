@@ -22,7 +22,7 @@
 53012092 Lothric Castle
 53412137 Grand Archives
 54102014 Kiln of the First Flame
-53202079 Archdragon Peak
+53202080 Archdragon Peak
 54502088 Painted World of Ariandel
 55002071 Dreg Heap
 55102068 The Ringed City
@@ -113,19 +113,26 @@
   - King's Mirror
   - Lightning Stake
   
-- Added Aborr boss (Gyrm enemy):
+- Added Aborr boss:
  - Found in the Undead Settlement.
  - Drops Soul of Aborr, which can be transposed into:
   - Runic Seal
   - Symbol of the Penitent
   - Dozer Axe
  
-- Added Furious Lizards boss (Big red crystal lizard enemy):
+- Added Furious Lizards boss:
  - Found in Irithyll Dungeon.
  - Drops Exquisite Lizard Hide, which can be transposed into:
   - Bestial Band
   - Ring of Calamity
   - Hands of God
+  
+- Added The Rock boss:
+ - Replaces the npc Havel you find near the dragon in Archdragon Peak.
+ - Drops Soul of the Rock, which can be transposed into:
+  - Havel's Ring
+  - Dragon Tooth
+  - Havel's Greatshield
  
 # Weapons
 - Shields now all have 100% Physical guard absorption by default.
@@ -194,3 +201,8 @@
 #------------------------------
 Fix the npc talk bug
 
+c7630 The Rock c3160
+
+8260000 Dragon Tooth
+20150000 Havel's Greatshield
+20020 Havel's Ring

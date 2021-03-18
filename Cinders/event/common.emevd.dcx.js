@@ -117,6 +117,7 @@ Event(0, Default, function() {
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
     InitializeEvent(31, 970, 13900850, 2400, 0, 0); // Furious Lizards
+    InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1844,6 +1845,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
     InitializeEvent(0, 20130, 0); // Furious Lizards
+    InitializeEvent(0, 20131, 0); // The Rock
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -2129,7 +2131,7 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(13500810, OFF);
+    SetEventFlag(25001031, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3208,9 +3210,9 @@ Event(20127, Restart, function() {
     var entity_SpawnPoint  = 3502956;
     var entity_PlayerPoint = 3504020;
     
-    var mapID   = 35;
-    var blockID = 0;
-    var ceremonyID = 0
+    var mapID      = 35;
+    var blockID    = 0;
+    var ceremonyID = 0;
     
     var text_BossNotKilled = 99030126;
     
@@ -3256,9 +3258,9 @@ Event(20128, Restart, function() {
     var entity_SpawnPoint  = 3412960;
     var entity_PlayerPoint = 3410960;
     
-    var mapID   = 34;
-    var blockID = 1;
-    var ceremonyID = 0
+    var mapID      = 34;
+    var blockID    = 1;
+    var ceremonyID = 0;
     
     var text_BossNotKilled = 99030127;
     
@@ -3304,9 +3306,9 @@ Event(20129, Restart, function() {
     var entity_SpawnPoint  = 3102960;
     var entity_PlayerPoint = 3100960;
     
-    var mapID   = 31;
-    var blockID = 0;
-    var ceremonyID = 0
+    var mapID      = 31;
+    var blockID    = 0;
+    var ceremonyID = 0;
     
     var text_BossNotKilled = 99030128;
     
@@ -3352,11 +3354,59 @@ Event(20130, Restart, function() {
     var entity_SpawnPoint  = 3902960;
     var entity_PlayerPoint = 3900960;
     
-    var mapID   = 39;
-    var blockID = 0;
-    var ceremonyID = 0
+    var mapID      = 39;
+    var blockID    = 0;
+    var ceremonyID = 0;
     
     var text_BossNotKilled = 99030129;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
+    
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - The Rock
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20131, Restart, function() {
+    var param_SpEffect_Trigger = 260100320;
+    
+    var flag_BossKilled     = 25001031;
+    var flag_BossDefeated   = 13200870;
+    var flag_BossInProgress = 13200871;
+    var flag_BossState1     = 9344;
+    var flag_BossState2     = 6344;
+    
+    var entity_SpawnPoint  = 3202960;
+    var entity_PlayerPoint = 3200960;
+    
+    var mapID      = 32;
+    var blockID    = 0;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030130;
     
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
