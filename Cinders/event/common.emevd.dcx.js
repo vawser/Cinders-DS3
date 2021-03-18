@@ -3197,27 +3197,45 @@ Event(20126, Restart, function() {
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20127, Restart, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100280, true, ComparisonType.Equal, 1);
+    var param_SpEffect_Trigger = 260100280;
+    
+    var flag_BossKilled     = 25001027;
+    var flag_BossDefeated   = 13500810;
+    var flag_BossInProgress = 13500811;
+    var flag_BossState1     = 9340;
+    var flag_BossState2     = 6340;
+    
+    var entity_SpawnPoint  = 3502956;
+    var entity_PlayerPoint = 3504020;
+    
+    var mapID   = 35;
+    var blockID = 0;
+    var ceremonyID = 0
+    
+    var text_BossNotKilled = 99030126;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001027);
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
-    SetEventFlag(13500810, 0);
-    SetEventFlag(9340, 0);
-    SetEventFlag(6340, 0);
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(3502956);
-    SetMapCeremony(35, 0, 0);
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(35, 0, 3504020);
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001027);
-    DisplayEpitaphMessage(99030126);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3227,28 +3245,45 @@ Event(20127, Restart, function() {
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20128, Restart, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100290, true, ComparisonType.Equal, 1);
+    var param_SpEffect_Trigger = 260100290;
+    
+    var flag_BossKilled     = 25001028;
+    var flag_BossDefeated   = 13410870;
+    var flag_BossInProgress = 13410871;
+    var flag_BossState1     = 9341;
+    var flag_BossState2     = 6341;
+    
+    var entity_SpawnPoint  = 3412960;
+    var entity_PlayerPoint = 3410960;
+    
+    var mapID   = 34;
+    var blockID = 1;
+    var ceremonyID = 0
+    
+    var text_BossNotKilled = 99030127;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001028);
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
-    SetEventFlag(13410870, 0);
-    SetEventFlag(9341, 0);
-    SetEventFlag(6341, 0);
-    SetEventFlag(13410521, 0); // Reset kick ladder
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(3412960);
-    SetMapCeremony(34, 1, 0);
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(34, 1, 3410960);
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001028);
-    DisplayEpitaphMessage(99030127);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3258,27 +3293,45 @@ Event(20128, Restart, function() {
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20129, Restart, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100300, true, ComparisonType.Equal, 1);
+    var param_SpEffect_Trigger = 260100300;
+    
+    var flag_BossKilled     = 25001029;
+    var flag_BossDefeated   = 13100870;
+    var flag_BossInProgress = 13100871;
+    var flag_BossState1     = 9342;
+    var flag_BossState2     = 6342;
+    
+    var entity_SpawnPoint  = 3102960;
+    var entity_PlayerPoint = 3100960;
+    
+    var mapID   = 31;
+    var blockID = 0;
+    var ceremonyID = 0
+    
+    var text_BossNotKilled = 99030128;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001029);
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
-    SetEventFlag(13100870, 0);
-    SetEventFlag(9342, 0);
-    SetEventFlag(6342, 0);
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(3102960);
-    SetMapCeremony(31, 0, 0);
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(31, 0, 3100960);
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001029);
-    DisplayEpitaphMessage(99030128);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3288,27 +3341,45 @@ Event(20129, Restart, function() {
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20130, Restart, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100310, true, ComparisonType.Equal, 1);
+    var param_SpEffect_Trigger = 260100310;
+    
+    var flag_BossKilled     = 25001030;
+    var flag_BossDefeated   = 13900850;
+    var flag_BossInProgress = 13900851;
+    var flag_BossState1     = 9343;
+    var flag_BossState2     = 6343;
+    
+    var entity_SpawnPoint  = 3902960;
+    var entity_PlayerPoint = 3900960;
+    
+    var mapID   = 39;
+    var blockID = 0;
+    var ceremonyID = 0
+    
+    var text_BossNotKilled = 99030129;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001030);
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
-    SetEventFlag(13900850, 0);
-    SetEventFlag(9343, 0);
-    SetEventFlag(6343, 0);
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(3902960);
-    SetMapCeremony(39, 0, 0);
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(39, 0, 3900960);
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001030);
-    DisplayEpitaphMessage(99030129);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
     
     EndUnconditionally(EventEndType.Restart);
 });
