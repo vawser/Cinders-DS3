@@ -136,6 +136,12 @@
  
 # Weapons
 - Shields now all have 100% Physical guard absorption by default.
+
+# Status
+- Reduced Frost % damage to 2 (was 5).
+- Reduced Bleed % damage to 2 (was 5.
+- Reduced Curse % damage to 2 (was 2.5).
+- Reduced Toxic flat damage to 50 (was 90).
  
 # Spells
 - Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
@@ -143,30 +149,7 @@
 - Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
 - Reduced the base damage of Pyromancies, Miracles and Hexes. The school tier list is now: Sorcery -> Pyromancies/Hexes -> Miracles in terms of base damage output, with Sorcery being the highest.
 - Reduced the max spell buff to 200.
-
-# Map
-- Moved the Outrider Knight in High Wall to the side area just before Vordt.
-- Removed some of the Lothric Knights in the normal enemy layout.
-- Added a red-eyed Lothric Knight in the old position of the Outrider Knight.
-- Moved Gaius the Mighty into the passage that precedes his old location in Archdragon Peak.
-- Removed 2 of the Giant Serpent-men in the gauntlet section to the dragon altar in Archdragon Peak.
-- Moved the Forlorn to the empty hill in Road of Sacrifices.
-- Moved Bewitched Knight Iwai into the chapel area in Profaned Capital.
-
-# Items
-- Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
-- Ancestral Note now places you in Untended Graves.
-
-# Gifts
-- Added Broken Tablet gift: this enables Hard mode. Cannot be changed once picked.
- Effects:
- - Reduces absorptions by 25%.
- - Reduces soul absorption by 75%.
- - Reduces stamina recovery by 10.
- - Reduces aux resistances by 50%.
- - Removes the ability to sell items.
- - Removes the soul absorption bonus from Curses.
-- Removed Coiled Sword Fragment gift.
+- Reduced the emit rate of Devouring Swarm.
 
 # Rings
 - Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
@@ -192,6 +175,32 @@
    - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
   - Rewarded for hitless run in Hard mode.
    
+- Sun Princess Ring: Grants 3/4/5/6/7/8 HP every second.
+
+# Map
+- Moved the Outrider Knight in High Wall to the side area just before Vordt.
+- Removed some of the Lothric Knights in the normal enemy layout.
+- Added a red-eyed Lothric Knight in the old position of the Outrider Knight.
+- Moved Gaius the Mighty into the passage that precedes his old location in Archdragon Peak.
+- Removed 2 of the Giant Serpent-men in the gauntlet section to the dragon altar in Archdragon Peak.
+- Moved the Forlorn to the empty hill in Road of Sacrifices.
+- Moved Bewitched Knight Iwai into the chapel area in Profaned Capital.
+
+# Items
+- Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
+- Ancestral Note now places you in Untended Graves.
+
+# Gifts
+- Added Broken Tablet gift: this enables Hard mode. Cannot be changed once picked.
+ Effects:
+ - Reduces absorptions by 25%.
+ - Reduces soul absorption by 75%.
+ - Reduces stamina recovery by 10.
+ - Reduces aux resistances by 50%.
+ - Removes the ability to sell items.
+ - Removes the soul absorption bonus from Curses.
+- Removed Coiled Sword Fragment gift.
+
 # Treasure
 - Morric, the Fallen Knight now drops 1 Holy Gem.
 - Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.

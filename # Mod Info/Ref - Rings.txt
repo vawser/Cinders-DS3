@@ -393,12 +393,12 @@
 
 # Sun Princess Ring
 - Weight: 0.5
-- [+0] Grants 7 HP every second.
-- [+1] Grants 8 HP every second.
-- [+2] Grants 9 HP every second.
-- [+3] Grants 10 HP every second.
-- [+4] Grants 11 HP every second.
-- [+5] Grants 12 HP every second.
+- [+0] Grants 3 HP every second.
+- [+1] Grants 4 HP every second.
+- [+2] Grants 5 HP every second.
+- [+3] Grants 6 HP every second.
+- [+4] Grants 7 HP every second.
+- [+5] Grants 8 HP every second.
 
 # Silvercat Ring
 - Weight: 0
