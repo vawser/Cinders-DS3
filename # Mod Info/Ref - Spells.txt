@@ -4,7 +4,7 @@
 #--------------------------------
 # Farron Dart
 #--------------------------------
-- FP Cost: 5
+- FP Cost: 10
 - INT Req: 10
 - Magic Damage: 100 {200}
 - Ascended Effect: increases projectile homing to 50 degrees.
@@ -20,15 +20,15 @@
 #--------------------------------
 # Scattering Soul Orb
 #--------------------------------
-- FP Cost: 5
+- FP Cost: 10
 - INT Req: 20
-- Magic Damage: 50 {100} {*25, individual}
+- Magic Damage: 30 {60} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Arrow
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 20
 - INT Req: 20
 - Magic Damage: 200 {400}
 - Ascended Effect: increases projectile homing to 70 degrees.
@@ -36,15 +36,15 @@
 #--------------------------------
 # Scattering Crystal Orb
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 25
 - INT Req: 30
-- Magic Damage: 100 {200} {*25, individual}
+- Magic Damage: 60 {120} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Spear
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 30
 - INT Req: 40
 - Slot Use: 1
 - Magic Damage: 300 {600}
@@ -53,7 +53,7 @@
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 40
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 400 {800}
@@ -79,7 +79,7 @@
 #--------------------------------
 # Soul Geyser
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 50
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 200 {400} {*3, individual}
@@ -108,7 +108,7 @@
 #--------------------------------
 - FP Cost: 5 (5)
 - INT Req: 20
-- Magic Damage: 150 {300} {*20, shared}
+- Magic Damage: 100 {200} {*20, shared}
 - Ascended Effect: increases projectile homing to 30 degrees.
 
 #--------------------------------
@@ -116,7 +116,7 @@
 #--------------------------------
 - FP Cost: 30
 - INT Req: 40
-- Magic Damage: 100 {200} {*40, individual}
+- Magic Damage: 50 {100} {*40, individual}
 - Ascended Effect: reduces the spread of the crystal hail.
 
 #--------------------------------
@@ -130,7 +130,7 @@
 #--------------------------------
 # Old Moonlight
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 30
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 350 {700} (400 {800} charged) [100 {200}]
@@ -141,7 +141,7 @@
 #--------------------------------
 - FP Cost: 10
 - INT Req: 30
-- Magic Damage: 220 {440}
+- Magic Damage: 240 {480}
 - Ascended Effect: increases projectile speed to 60 m/s.
 
 #--------------------------------
@@ -167,7 +167,7 @@
 #--------------------------------
 - FP Cost: 20
 - INT Req: 40
-- Magic Damage: 120 {240} {*6, individual}
+- Magic Damage: 50 {100} {*6, individual}
 - Ascended Effect: reduces orb starup time to 1 second.
 
 #--------------------------------
@@ -341,14 +341,14 @@
 #--------------------------------
 # Fireball
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 20
 - Fire Damage: 160 {320} [50 {100}]
 - Ascended Effect: increases projectile speed to 30 m/s.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 30
 - Fire Damage: 240 {480} [100 {200}]
 - Ascended Effect: increases projectile homing to 40 degrees.
 
@@ -369,14 +369,14 @@
 #--------------------------------
 # Great Combustion
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 30
 - Fire Damage: 300 {600} [100 {200}]
 - Ascended Effect: increases poise damage to 50.
 
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 40
 - Slot Use: 2
 - Fire Damage: 320 {640} [100 {200}] [150 {300}] 
 - Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
@@ -393,20 +393,20 @@
 # Fire Whip
 #--------------------------------
 - FP Cost: 4
-- Fire Damage: 80 {160} {*20, individual}
+- Fire Damage: 60 {120} {*20, individual}
 - Ascended Effect: reduces hit cooldown to 0.05 seconds.
 
 #--------------------------------
 # Profaned Flame
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 35
 - Fire Damage: 300 {600}
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 50
 - Slot Use: 2
 - Fire Damage: 360 {720} [100 {200}] [150 {300}]
 - Ascended Effect: increases projectile speed to 38 m/s.
@@ -416,7 +416,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 2
-- Fire Damage: 200 {400} {*10, shared}
+- Fire Damage: 100 {200} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
@@ -424,20 +424,20 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Fire Damage: 80 {160} {*25, individual}
+- Fire Damage: 50 {100} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
-- FP Cost: 15
-- Fire Damage: 150 {300} {*12, individual)
+- FP Cost: 10
+- Fire Damage: 70 {140} {*12, individual)
 - Ascended Effect: emits an additional fireball.
 
 #--------------------------------
 # Boulder Heave
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 30
 - Slot Use: 2
 - Physical Damage: 300 {600} [100 {200}]
 - Ascended Effect: increases projectile speed to 16 m/s.
@@ -476,7 +476,7 @@
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 15
-- Fire Damage: 180 {360}
+- Fire Damage: 150 {300}
 - Ascended Effect: increases duration to 30 seconds.
 
 #--------------------------------
@@ -484,7 +484,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 2
-- Physical Damage: 200 {400} {*10, shared}
+- Physical Damage: 100 {200} {*10, shared}
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
@@ -604,7 +604,7 @@
 #--------------------------------
 - FP Cost: 10
 - FTH Req: 10
-- Physical Damage: 70 {140} [70 {140}] [70 {140}]
+- Physical Damage: 50 {100} [50 {100}] [50 {100}]
 - Ascended Effect: None
 
 #--------------------------------
@@ -617,7 +617,7 @@
 #--------------------------------
 # Emit Force
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 25
 - Physical Damage: 200 {400} [100 {200}] 
 - FTH Req: 30
 - Ascended Effect: now cast in a quick fashion.
@@ -625,7 +625,7 @@
 #--------------------------------
 # Wrath of the Gods
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 35
 - Slot Use: 2
 - Physical Damage: 350 {700}
 - FTH Req: 50
@@ -642,7 +642,7 @@
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 30
 - Lightning Damage: 230 {460} [80 {160}] [150 {300}] 
 - FTH Req: 40
 - Ascended Effect: increases projectile homing to 120 degrees.
@@ -650,7 +650,7 @@
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 50
 - Slot Use: 2
 - Lightning Damage: 300 {1600} [100 {200}] [200 {400}]
 - FTH Req: 60
@@ -668,7 +668,7 @@
 # Lightning Storm
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 250 {500} {*6, shared}
+- Lightning Damage: 100 {200} {*6, shared}
 - FTH Req: 40
 - Ascended Effect: emits an additional projectile.
 
@@ -701,9 +701,9 @@
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 50
 - Slot Use: 2
-- Lightning Damage: 120 {240} {*10, shared}
+- Lightning Damage: 100 {200} {*10, shared}
 - FTH Req: 60
 - Ascended Effect: increases emitted projectile rate to 4 per second.
 
@@ -727,7 +727,7 @@
 #--------------------------------
 # Lothric's Holy Spear
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 40
 - Slot Use: 2
 - Physical Damage: 280 {560}
 - FTH Req: 50
@@ -753,9 +753,9 @@
 #--------------------------------
 # Ghostly Assault
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 50
 - Slot Use: 2
-- Physical Damage: 60 {120} (*15, individual)
+- Physical Damage: 40 {80} (*15, individual)
 - FTH Req: 50
 - Ascended Effect: summons an additional archer.
 
@@ -963,7 +963,7 @@
 #--------------------------------
 # Deep Barb
 #--------------------------------
-- FP Cost: 5
+- FP Cost: 10
 - Dark Damage: 80 {160}
 - Base Effect: inflicts 10 Curse.
 - Ascended Effect: increases Curse inflict to 20.
@@ -973,7 +973,7 @@
 #--------------------------------
 # Deep Soul
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 20
 - Dark Damage: 130 {260}
 - INT Req: 10
 - FTH Req: 10
@@ -983,7 +983,7 @@
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 30
 - Dark Damage: 200 {400}
 - INT Req: 15
 - FTH Req: 15
@@ -993,7 +993,7 @@
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 40
 - Slot Use: 2
 - Dark Damage: 300 {600} 
 - INT Req: 25
@@ -1027,7 +1027,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 100 {200} {*7, individual}
+- Dark Damage: 80 {160} {*7, individual}
 - INT Req: 25
 - FTH Req: 25
 - Ascended Effect: adds 10 Curse inflict to projectiles.
@@ -1046,7 +1046,7 @@
 # Cascading Deep
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 80 {160} {*50, individual}
+- Dark Damage: 50 {100} {*50, individual}
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse per bullet.
@@ -1067,7 +1067,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Dark Damage: 80 {160} {*25, individual}
+- Dark Damage: 50 {100} {*25, individual}
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 10 Curse per bullet.
@@ -1117,7 +1117,7 @@
 #--------------------------------
 # Black Fireball
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 20
 - INT Req: 5
 - FTH Req: 5
 - Dark Damage: 125 {250} [50 {100}]
@@ -1127,7 +1127,7 @@
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 30
 - INT Req: 15
 - FTH Req: 15
 - Dark Damage: 220 {440} [100 {200}]
@@ -1137,7 +1137,7 @@
 #--------------------------------
 # Black Fire Vestiges
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 40
 - Slot Use: 2
 - INT Req: 30
 - FTH Req: 30
@@ -1194,7 +1194,7 @@
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
-- Dark Damage: 80 {160} {*25, individual}
+- Dark Damage: 50 {100} {*25, individual}
 - Base Effect: inflicts 10 Toxic.
 - Ascended Effect: increases emitted projectile rate to 5 per second.
 
@@ -1212,7 +1212,7 @@
 #--------------------------------
 # Nibble
 #--------------------------------
-- FP Cost: 5
+- FP Cost: 10
 - INT Req: 5
 - FTH Req: 5
 - Dark Damage: 80 {160}
@@ -1222,7 +1222,7 @@
 #--------------------------------
 # Gnaw
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 20
 - INT Req: 10
 - FTH Req: 10
 - Dark Damage: 150 {300}
@@ -1232,7 +1232,7 @@
 #--------------------------------
 # Dorhys' Gnawing
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 30
 - Slot Use: 2
 - INT Req: 20
 - FTH Req: 20
@@ -1254,7 +1254,7 @@
 #--------------------------------
 # Devouring Swarm
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 50
 - Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
