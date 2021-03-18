@@ -115,12 +115,17 @@
   
 - Added Aborr boss (Gyrm enemy):
  - Found in the Undead Settlement.
- - Drops random gems.
- - Is meant to be a Capra Demon style fight.
+ - Drops Soul of Aborr, which can be transposed into:
+  - Runic Seal
+  - Symbol of the Penitent
+  - Dozer Axe
  
 - Added Furious Lizards boss (Big red crystal lizard enemy):
  - Found in Irithyll Dungeon.
- - Drops 2 Lizard Hide.
+ - Drops Exquisite Lizard Hide, which can be transposed into:
+  - Bestial Band
+  - Ring of Calamity
+  - Hands of God
  
 # Weapons
 - Shields now all have 100% Physical guard absorption by default.
