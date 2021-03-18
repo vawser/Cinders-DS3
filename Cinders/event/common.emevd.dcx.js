@@ -116,6 +116,7 @@ Event(0, Default, function() {
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
+    InitializeEvent(31, 970, 13900850, 2400, 0, 0); // Furious Lizards
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1842,6 +1843,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
+    InitializeEvent(0, 20130, 0); // Furious Lizards
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -3277,6 +3279,36 @@ Event(20129, Restart, function() {
     Label1();
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001029);
     DisplayEpitaphMessage(99030128);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Furious Lizards
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20130, Restart, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 260100310, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001030);
+    
+    SetEventFlag(13900850, 0);
+    SetEventFlag(9343, 0);
+    SetEventFlag(6343, 0);
+    
+    SetPlayerRespawnPoint(3902960);
+    SetMapCeremony(39, 0, 0);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(39, 0, 3900960);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001030);
+    DisplayEpitaphMessage(99030129);
     
     EndUnconditionally(EventEndType.Restart);
 });

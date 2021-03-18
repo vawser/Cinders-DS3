@@ -18,7 +18,7 @@
 53502086 Cathedral of the Deep
 53802181 Catacombs of Carthus / Smouldering Lake
 53702160 Irithyll of the Boreal Valley / Anor Londo
-53902123 Irithyll Dungeon / Profaned Capital
+53902124 Irithyll Dungeon / Profaned Capital
 53012092 Lothric Castle
 53412137 Grand Archives
 54102014 Kiln of the First Flame
@@ -118,6 +118,10 @@
  - Drops random gems.
  - Is meant to be a Capra Demon style fight.
  
+- Added Furious Lizards boss (Big red crystal lizard enemy):
+ - Found in Irithyll Dungeon.
+ - Drops 2 Lizard Hide.
+ 
 # Spells
 - Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
 - Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
@@ -131,6 +135,7 @@
 - Moved Gaius the Mighty into the passage that precedes his old location in Archdragon Peak.
 - Removed 2 of the Giant Serpent-men in the gauntlet section to the dragon altar in Archdragon Peak.
 - Moved the Forlorn to the empty hill in Road of Sacrifices.
+- Moved Bewitched Knight Iwai into the chapel area in Profaned Capital.
 
 # Items
 - Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
