@@ -122,11 +122,15 @@
  - Found in Irithyll Dungeon.
  - Drops 2 Lizard Hide.
  
+# Weapons
+- Shields now all have 100% Physical guard absorption by default.
+ 
 # Spells
 - Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
 - Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
 - Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
 - Reduced the base damage of Pyromancies, Miracles and Hexes. The school tier list is now: Sorcery -> Pyromancies/Hexes -> Miracles in terms of base damage output, with Sorcery being the highest.
+- Reduced the max spell buff to 200.
 
 # Map
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.
