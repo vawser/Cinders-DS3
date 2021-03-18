@@ -380,7 +380,7 @@ def t500760_x21():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 3 """
         AddTalkListData(1, 15076000, -1)
-        AddTalkListData(2, 15076001, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15076001, -1)
         # action:15000000:Talk
         AddTalkListData(3, 15000000, -1)
         AddTalkListDataIf(GetEventStatus(75000101) == 1 and not GetEventStatus(75000154), 4, 15076002,
