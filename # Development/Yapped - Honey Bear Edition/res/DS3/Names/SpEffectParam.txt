@@ -734,6 +734,10 @@
 8230 NG Scaling - Slave Knight Gael
 8240 NG Scaling - Halflight
 8250 NG Scaling - Frostfire Colossus
+8260 NG Scaling - Furious Lizards
+8270 NG Scaling - Aborr
+8280 NG Scaling - Cathedral Guardian
+8290 NG Scaling - Mirror Knight
 9000 Watchdogs of Farron - Allow Invasion
 9010 Aldrich Faithful - Allow Invasion
 9020 Unknown - Allow Invasion
@@ -4970,6 +4974,7 @@
 160740101 Primordial Phantom - NG Scaling
 160741100 Spirit Apperance
 160741110 Mimic Invisibility
+160741120 Mirror Knight - Intruder Trigger
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5725,6 +5730,7 @@
 260000029 Frostfire Colossus
 260000030 Cathedral Guardian
 260000031 Mirror Knight
+260000032 Furious Lizards
 260100000 ### Boss Revival ###
 260100010 Corrupted Gundyr
 260100020 Vordt of the Boreal Valley
@@ -5756,6 +5762,7 @@
 260100280 Cathedral Guardian
 260100290 Mirror Knight
 260100300 Aborr
+260100310 Furious Lizards
 260199999 ### Trials ###
 260200002 Wave - Enemy Kill
 260200010 Enemy - Is Setup

@@ -5120,6 +5120,10 @@
 275700720 [Frostfire Cleric] Frostfire Combustion
 275700900 [Frostfire Cleric] Spawn Explosion [Called from EMEVD]
 275710700 [Frostfire Cleric Orb] Frostfire-ball
+276300030 [Furious Lizard] Leap Forward
+276300040 [Furious Lizard] Sorcerous Breath
+276300050 [Furious Lizard] Roll
+276300060 [Furious Lizard] Death Explosion
 280000000 [Script] Gough's Arrow Rain
 280000100 [Script] Lordran Remnant Entry
 280001000 [Script] Freezing Wind - Irithyll

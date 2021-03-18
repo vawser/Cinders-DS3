@@ -2520,6 +2520,8 @@
 7570720 [Frostfire Cleric] Frostfire Combustion
 7570900 [Frostfire Cleric] Spawn Explosion
 7571700 [Frostfire Cleric Orb] Frostfire-ball
+7630040 [Furious Lizard] Deathly Breath
+7630060 [Furious Lizard] Death Explosion
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
 11200010 [Sorcery] Farron Dart - Ascended
@@ -3701,8 +3703,13 @@
 210012300 Manus Catalyst - Climax
 210013000 Quarterstaff - Elemental Flow Activation
 210013100 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
+210013101 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
 210013200 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
+210013201 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
+210013250 Quarterstaff - Elemental Overflow – 1H Wind Gusts [Hit]
 210013300 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+210013301 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+210013350 Quarterstaff - Elemental Overflow – 1H Wind Gust #3 [Hit]
 210013400 Quarterstaff - Elemental Overflow – 2H Lightning Rain
 210013401 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
 210013402 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]

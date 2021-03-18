@@ -2,7 +2,6 @@
 21001 [Darkmoon Faithful] Darkmoon Blade
 21002 [Darkmoon Faithful] Magic Gem
 21003 [Darkmoon Faithful] Enchanted Gem
-21004 [Darkmoon Faithful] Twinkling Titanite
 21005 [Darkmoon Faithful] Yorshka's Chime
 21006 [Darkmoon Faithful] Saint's Veil
 21007 [Darkmoon Faithful] Saint's Dress
@@ -21,9 +20,6 @@
 21201 [Watchdogs of Farron] Wolf Knight's Greatshield
 21202 [Watchdogs of Farron] Wolf Ring
 21203 [Watchdogs of Farron] Blunt Gem
-21204 [Watchdogs of Farron] Titanite Shard
-21205 [Watchdogs of Farron] Large Titanite Shard
-21206 [Watchdogs of Farron] Titanite Chunk
 21209 [Watchdogs of Farron] Wolf Knight Helm
 21210 [Watchdogs of Farron] Wolf Knight Armor
 21211 [Watchdogs of Farron] Wolf Knight Gauntlets
@@ -32,31 +28,24 @@
 21400 [Aldrich Faithful] Archdeacon's Great Staff
 21401 [Aldrich Faithful] Archdeacon's Longstaff
 21402 [Aldrich Faithful] Dark Gem
-21403 [Aldrich Faithful] Twinkling Titanite
 21406 [Aldrich Faithful] Archdeacon White Crown
 21407 [Aldrich Faithful] Archdeacon Holy Garb
 21408 [Aldrich Faithful] Archdeacon Skirt
 21409 [Aldrich Faithful] Dark Bead
 21410 [Aldrich Faithful] Abyssal Elixir
-21412 [Aldrich Faithful] Abyssal Fragment
 21600 [Warrior of Sunlight] Sunlight Shield
 21601 [Warrior of Sunlight] Sunlight Straight Sword
 21602 [Warrior of Sunlight] Lightning Gem
-21603 [Warrior of Sunlight] Titanite Scale
 21605 [Warrior of Sunlight] Heavenly Thunder
 21606 [Warrior of Sunlight] Iron Helm
 21607 [Warrior of Sunlight] Armor of the Sun
 21608 [Warrior of Sunlight] Iron Bracelets
 21609 [Warrior of Sunlight] Iron Leggings
 21610 [Warrior of Sunlight] Sunlight Elixir
-21611 [Warrior of Sunlight] Holy Fragment
 21612 [Warrior of Sunlight] Sunlight Tablet
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
-21803 [Mound-makers] Titanite Shard
-21804 [Mound-makers] Large Titanite Shard
-21805 [Mound-makers] Titanite Chunk
 21806 [Mound-makers] Hollowslayer Greatsword
 21807 [Mound-makers] Flynn's Bow
 21808 [Mound-makers] Sunset Helm
@@ -78,7 +67,6 @@
 22200 [Rosaria's Fingers] Obscuring Ring
 22201 [Rosaria's Fingers] Man-grub's Staff
 22203 [Rosaria's Fingers] Lucky Gem
-22204 [Rosaria's Fingers] Twinkling Titanite
 22207 [Rosaria's Fingers] Helm of Thorns
 22208 [Rosaria's Fingers] Armor of Thorns
 22209 [Rosaria's Fingers] Gauntlets of Thorns
@@ -88,7 +76,6 @@
 22400 [Spears of the Church] Young Grass Dew
 22401 [Spears of the Church] Divine Spear Fragment
 22402 [Spears of the Church] Lethal Gem
-22403 [Spears of the Church] Dragon Scale
 22404 [Spears of the Church] Ritual Spear Fragment
 22406 [Spears of the Church] Sacred Chime of Filianore
 22407 [Spears of the Church] Shira's Crown
@@ -102,7 +89,6 @@
 22505 [Vinheim Scholars] Court Sorcerer's Staff
 22509 [Vinheim Scholars] Magic Gem
 22510 [Vinheim Scholars] Enchanted Gem
-22511 [Vinheim Scholars] Twinkling Titanite
 22512 [Vinheim Scholars] Clandestine Coat
 22513 [Vinheim Scholars] Blue Flame
 22514 [Vinheim Scholars] Chameleon
@@ -120,7 +106,6 @@
 22611 [Pilgrims of Dark] Heretic's Staff
 22612 [Pilgrims of Dark] Heretic's Warstaff
 22615 [Pilgrims of Dark] Whisper of Despair
-22616 [Pilgrims of Dark] Titanite Scale
 22617 [Pilgrims of Dark] Dark Gem
 22700 [Dragon Remnants] Farron Ring
 22701 [Dragon Remnants] Hawkwood's Shield
@@ -135,7 +120,6 @@
 22710 [Dragon Remnants] Lethal Gem
 22711 [Dragon Remnants] Sharp Gem
 22712 [Dragon Remnants] Blunt Gem
-22713 [Dragon Remnants] Dragon Scale
 22715 [Dragon Remnants] Black Dragon Helm
 22716 [Dragon Remnants] Black Dragon Armor
 22717 [Dragon Remnants] Black Dragon Gauntlets
@@ -145,7 +129,6 @@
 22802 [Way of White] Quicksilver Gauntlets
 22803 [Way of White] Quicksilver Leggings
 22804 [Way of White] Holy Gem
-22805 [Way of White] Twinkling Titanite
 22806 [Way of White] Divine Blessing
 22807 [Way of White] Hidden Blessing
 22808 [Way of White] Projected Heal
@@ -281,29 +264,21 @@
 30350 [Ludleth - Mirror Knight] Thorned Greatsword
 30351 [Ludleth - Mirror Knight] King's Mirror
 30352 [Ludleth - Mirror Knight] Lightning Stake
-36000 [Bonfire - Dreamcatcher's Ashes] Titanite Shard
-36001 [Bonfire - Grave Warden's Ashes] Large Titanite Shard
-36002 [Bonfire - Easterner's Ashes] Titanite Chunk
-36003 [Bonfire - Lothric] Titanite Slab
-36004 [Bonfire - Xanthous Ashes] Twinkling Titanite
-36005 [Bonfire - Prisoner Chief's Ashes] Titanite Scale
-36006 [Bonfire - Dragon Chaser's Ashes] Dragon Scale
-36007 [Bonfire - Old Demon King] Fire Seed
-36008 [Bonfire - Dreamcatcher's Ashes] Shriving Stone
-36009 [Bonfire - Dreamcatcher's Ashes] Lethal Gem
-36010 [Bonfire - Dreamcatcher's Ashes] Curse Gem
-36011 [Bonfire - Dreamcatcher's Ashes] Poison Gem
-36012 [Bonfire - Dreamcatcher's Ashes] Blood Gem
-36013 [Bonfire - Dreamcatcher's Ashes] Frost Gem
-36014 [Bonfire - Dreamcatcher's Ashes] Magic Gem
-36015 [Bonfire - Dreamcatcher's Ashes] Fire Gem
-36016 [Bonfire - Dreamcatcher's Ashes] Lightning Gem
-36017 [Bonfire - Dreamcatcher's Ashes] Dark Gem
-36018 [Bonfire - Dreamcatcher's Ashes] Lucky Gem
-36019 [Bonfire - Dreamcatcher's Ashes] Enchanted Gem
-36020 [Bonfire - Dreamcatcher's Ashes] Holy Gem
-36021 [Bonfire - Dreamcatcher's Ashes] Sharp Gem
-36022 [Bonfire - Dreamcatcher's Ashes] Blunt Gem
+36000 [Bonfire - Dreamcatcher's Ashes] Shriving Stone
+36001 [Bonfire - Dreamcatcher's Ashes] Lethal Gem
+36002 [Bonfire - Dreamcatcher's Ashes] Curse Gem
+36003 [Bonfire - Dreamcatcher's Ashes] Poison Gem
+36004 [Bonfire - Dreamcatcher's Ashes] Blood Gem
+36005 [Bonfire - Dreamcatcher's Ashes] Frost Gem
+36006 [Bonfire - Dreamcatcher's Ashes] Magic Gem
+36007 [Bonfire - Dreamcatcher's Ashes] Fire Gem
+36008 [Bonfire - Dreamcatcher's Ashes] Lightning Gem
+36009 [Bonfire - Dreamcatcher's Ashes] Dark Gem
+36010 [Bonfire - Dreamcatcher's Ashes] Lucky Gem
+36011 [Bonfire - Dreamcatcher's Ashes] Enchanted Gem
+36012 [Bonfire - Dreamcatcher's Ashes] Holy Gem
+36013 [Bonfire - Dreamcatcher's Ashes] Sharp Gem
+36014 [Bonfire - Dreamcatcher's Ashes] Blunt Gem
 36024 [Bonfire - Lothric] Divine Blessing
 36025 [Bonfire - Lothric] Hidden Blessing
 36028 [Bonfire - Dreamcatcher's Ashes] Infusing Essence
@@ -394,10 +369,6 @@
 36132 [Bonfire - Excrement-covered Ashes] Frost Bolt
 36133 [Bonfire - Dragon Chaser's Ashes] Draconic Bolt
 36134 [Bonfire - Excrement-covered Ashes] Frozen Pine Resin
-36135 [Bonfire - Lothric] Prismatic Slab
-36136 [Bonfire - Crystal Sage] Crystal Fragment
-36137 [Bonfire - Wolnir] Abyssal Fragment
-36138 [Bonfire - Deacons] Holy Fragment
 36140 [Bonfire - Default] Lifegem
 36141 [Bonfire - Mortician's Ashes] Radiant Lifegem
 36142 [Bonfire - Grave Warden's Ashes] Old Radiant Lifegem
@@ -454,7 +425,6 @@
 100040 [Andre] Claw
 100041 [Andre] Caestus
 100042 [Andre] Whip
-100043 [Andre] Quarterstaff
 100044 [Andre] Short Bow
 100045 [Andre] Birch Crossbow
 100046 [Andre] Longbow
@@ -719,8 +689,6 @@
 120126 [Greirat - Curse-rotted Greatwood] Binded Boots
 120200 [Greirat - Pontiff Sulyvahn] Divine Blessing
 120201 [Greirat - Pontiff Sulyvahn] Hidden Blessing
-120202 [Greirat - Pontiff Sulyvahn] Titanite Scale
-120203 [Greirat - Pontiff Sulyvahn] Twinkling Titanite
 120204 [Greirat - Pontiff Sulyvahn] Scholar's Candlestick
 120205 [Greirat - Pontiff Sulyvahn] Lothric Knight Sword
 120206 [Greirat - Pontiff Sulyvahn] Lothric Knight Greatsword
@@ -920,9 +888,6 @@
 230007 [Crestfallen Merchant] Green Blossom
 230008 [Crestfallen Merchant] Charcoal Pine Bundle
 230009 [Crestfallen Merchant] Charcoal Pine Resin
-230010 [Crestfallen Merchant] Titanite Shard
-230011 [Crestfallen Merchant] Large Titanite Shard
-230012 [Crestfallen Merchant] Titanite Scale
 240000 [Grave Warden Lillian] Deep Barb
 240001 [Grave Warden Lillian] Dark Edge
 240002 [Grave Warden Lillian] Deep Soul

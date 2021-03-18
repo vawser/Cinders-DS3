@@ -3316,9 +3316,8 @@
 3816840 Quarterstaff - Elemental Overflow - 2H Heavy #2
 3816841 Quarterstaff - Elemental Overflow - 2H Heavy #2 - Backstep
 3816900 Quarterstaff - Elemental Flow Activation
-3816910 Quarterstaff - Elemental Overflow – 1H Wind Gust #1
-3816920 Quarterstaff - Elemental Overflow – 1H Wind Gust #2
-3816930 Quarterstaff - Elemental Overflow – 1H Wind Gust #3
+3816910 Quarterstaff - Elemental Overflow – 1H Wind Gusts Small
+3816930 Quarterstaff - Elemental Overflow – 1H Wind Gust Big
 3816940 Quarterstaff - Elemental Overflow – 2H Lightning Rain
 3816941 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]
 3816942 Quarterstaff - Elemental Overflow – 2H Lightning Rain [Hit]

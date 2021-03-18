@@ -23,7 +23,7 @@
 53412137 Grand Archives
 54102014 Kiln of the First Flame
 53202079 Archdragon Peak
-54502080 Painted World of Ariandel
+54502088 Painted World of Ariandel
 55002071 Dreg Heap
 55102068 The Ringed City
 
@@ -185,4 +185,3 @@
 #------------------------------
 Fix the npc talk bug
 
-3902851

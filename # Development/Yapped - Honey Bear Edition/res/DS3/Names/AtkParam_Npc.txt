@@ -4644,3 +4644,7 @@
 7570720 [Frostfire Cleric] Frostfire Combustion
 7570900 [Frostfire Cleric] Spawn Explosion
 7571700 [Frostfire Cleric Orb] Frostfire-ball
+7630030 [Furious Lizard] Leap Forward
+7630040 [Furious Lizard] Deathly Breath
+7630050 [Furious Lizard] Roll
+7630060 [Furious Lizard] Death Explosion

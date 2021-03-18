@@ -1194,9 +1194,9 @@
 722100 Ritualist Ellie
 722200 Acolyte Grudore
 722300 Erstwhile George
-750000 The Lord's Blade (Ciaran)
-751000 The Abyss Walker (Artorias)
-752000 The Dragonslayer (Ornstein)
+750000 [Boss] The Lord's Blade (Ciaran)
+751000 [Boss] The Abyss Walker (Artorias)
+752000 [Boss] The Dragonslayer (Ornstein)
 756000 Frostfire Colossus
 756100 Frostfire Colossus Orb
 756200 Frostfire Colossus Sapping Orb
@@ -1205,6 +1205,15 @@
 757020 Frostfire Cleric (Mini-Boss)
 757100 Frostfire Cleric Orb
 757110 Frostfire Cleric Orb (Mini-Boss)
+760000 Velstadt (Millwood)
+761000 Smough (Winged Knight)
+762000 Yorgh (Gundyr)
+763000 [Boss] Furious Lizard
+764000 Lautrec (Carthus Swordsman - Shotel)
+765000 The Rock (DSA)
+766000 Giant Sentinel (DSA)
+767000 Berenike Knight (Cathedral Knight)
+768000 Old Giant (Giant Slave)
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight
