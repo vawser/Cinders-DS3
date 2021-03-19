@@ -210,3 +210,9 @@
 #------------------------------
 Fix the npc talk bug
 
+Cathedral Guardian:
+ Add WOG to slam attack
+ 
+Havel:
+ Add earth split to slam attack
+ 
