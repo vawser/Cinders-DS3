@@ -152,7 +152,7 @@
 - Reduced the emit rate of Devouring Swarm.
 
 # Rings
-- Added Ravenous Chalice: boosts soul absorption by 100% for 8 seconds after killing an enemy.
+- Added Ravenous Chalice: boosts soul absorption by 30% for 8 seconds after killing an enemy.
 - Added two new relics for completing deathless and hitless runs with Hard mode enabled:
 
 - Relic of Legends: 
