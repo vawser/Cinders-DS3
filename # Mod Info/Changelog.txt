@@ -135,7 +135,7 @@
   - Havel's Greatshield
  
 # Weapons
-- Shields now all have 100% Physical guard absorption by default.
+- Squished the range of physical absorption on shields to 90% -> 100%, meaning more shields have a higher physical guard absorption than before.
 
 # Status
 - Reduced Frost % damage to 2 (was 5).
