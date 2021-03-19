@@ -47,7 +47,7 @@
 - FP Cost: 30
 - INT Req: 40
 - Slot Use: 1
-- Magic Damage: 150 {300}
+- Magic Damage: 175 {350}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -56,7 +56,7 @@
 - FP Cost: 40
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 200 {400}
+- Magic Damage: 250 {500}
 - Ascended Effect: increases projectile speed to 40 m/s.
 
 #--------------------------------
@@ -167,7 +167,7 @@
 #--------------------------------
 - FP Cost: 20
 - INT Req: 40
-- Magic Damage: 30 {60} {*6, individual}
+- Magic Damage: 50 {100} {*6, individual}
 - Ascended Effect: reduces orb starup time to 1 second.
 
 #--------------------------------
