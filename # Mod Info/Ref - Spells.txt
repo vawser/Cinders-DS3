@@ -12,7 +12,7 @@
 #--------------------------------
 # Farron Flashsword
 #--------------------------------
-- FP Cost: 5
+- FP Cost: 10
 - INT Req: 10
 - Magic Damage: 100 {200}
 - Ascended Effect: increases poise damage to 25.
@@ -106,7 +106,7 @@
 #--------------------------------
 # Farron Hail
 #--------------------------------
-- FP Cost: 5 (5)
+- FP Cost: 10 (10)
 - INT Req: 20
 - Magic Damage: 50 {100} {*20, shared}
 - Ascended Effect: increases projectile homing to 30 degrees.
@@ -778,7 +778,7 @@
 #--------------------------------
 # Wrathful Barrage
 #--------------------------------
-- FP Cost: 5 (5)
+- FP Cost: 10 (10)
 - Lightning Damage: 50 {100} {*20, shared}
 - FTH Req: 30
 - Ascended Effect: increases projectile homing to 50 degrees.

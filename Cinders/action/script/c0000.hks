@@ -2818,6 +2818,11 @@ function ExecMagic(quick_type, blend_type)
         act(2002, 113003)
     end
     
+    -- Lifehunt Scythe
+    if magic_type == 44 then
+        act(2002, 113003)
+    end
+    
     -- Old Moonlight
     if magic_type == 46 then 
         act(2002, 113008)
