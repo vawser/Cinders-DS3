@@ -3370,11 +3370,11 @@ Fire: apply stacking 1% Fire absorption debuff for 5 seconds.
 Lightning: apply 50% Poise debuff to target for 5 seconds.
 Dark: absorb 5/10/15 HP on hit, differs based on weapon type.
 Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
-Enchanted: restores an additional 2 FP per second.
+Enchanted: restores an additional 5 FP per second.
 Holy: restores an additional 3 HP per second.
 Sharp: consecutive attacks boost damage, up to 15%.
 Blunt: increases max equipment load by 10%.</text>
-<text id="99004001">Clarity: restores an additional 2 FP per second.
+<text id="99004001">Clarity: restores an additional 5 FP per second.
 Rejuvenation: grants an additional 15 stamina recovery.
 Restoration: restores an additional 3 HP per second.
 Respite: increases max equipment load by 10%.
@@ -3384,7 +3384,7 @@ Magic: increases Magic absorption by 5%.
 Fire: increases Fire absorption by 5%.
 Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
-<text id="99004002">Pulsating: restores an additional 2 FP per second.
+<text id="99004002">Pulsating: restores an additional 5 FP per second.
 Vibrating: restores an additional 3 HP per second.
 Throbbing: unlocks ascended effects for spells.
 Quivering: boosts cast speed by 25.</text>

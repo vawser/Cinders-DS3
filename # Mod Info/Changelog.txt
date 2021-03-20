@@ -84,7 +84,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Mechanics
+# Reinforcement
 - Counter damage is now only boosted for thrust.
 - Removed the concept of Reinforcement. All weapons are now improved indirectly by leveling the suitable stats needed to boost scaling.
  - Old saves will still have the reinforced weapons present, they will have the stats of +0.
@@ -93,6 +93,12 @@
  - The stat effectiveness curve has been made more extreme, so later levels in a stat are more valuable.
 - Adjusted enemy health to account for the new weapon damage.
 - Adjusted boss HP to account for the new weapon damage.
+
+# FP
+- FP regen is now more plentiful, making it act like a slower form of stamina.
+- Focusing Crystal has been removed.
+- Spell FP pause is now varied across the different spells, between 1 to 10 seconds for normal spells, 15 for most utility, and 30 for heals and very good utility spells.
+- Weapon usage pauses FP regen for 1 second, and WA usage for 3 seconds.
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
@@ -145,8 +151,7 @@
  
 # Spells
 - Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
-- Heal Aid, Heal, Med Heal, Great Heal and Soothing Sunlight now negate FP restoration for 30 seconds.
-- Bountiful Light, Replenishment and Bountiful Sunlight now negate FP restoration for 60 seconds.
+- Heal Aid, Heal, Med Heal, Great Heal, Soothing Sunlight, Bountiful Light, Replenishment and Bountiful Sunlight now stop FP regen for 30 seconds.
 - Reduced the base damage of Pyromancies, Miracles and Hexes. The school tier list is now: Sorcery -> Pyromancies/Hexes -> Miracles in terms of base damage output, with Sorcery being the highest.
 - Reduced the max spell buff to 200.
 - Reduced the emit rate of Devouring Swarm.
@@ -216,3 +221,6 @@ Cathedral Guardian:
 Havel:
  Add earth split to slam attack
  
+2164 Resonating Crystal
+
+4005 Magic Gem

@@ -169,16 +169,16 @@ def t400509_x9():
         ClearTalkListData()
         
         # Empower Focusing Crystal
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 220, 0, 1, 0) == 1, 20, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 221, 0, 1, 0) == 1, 21, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 222, 0, 1, 0) == 1, 22, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 223, 0, 1, 0) == 1, 23, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 224, 0, 1, 0) == 1, 24, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 225, 0, 1, 0) == 1, 25, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 226, 0, 1, 0) == 1, 26, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 227, 0, 1, 0) == 1, 27, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 228, 0, 1, 0) == 1, 28, 99030600, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 229, 0, 1, 0) == 1, 29, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 220, 0, 1, 0) == 1, 20, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 221, 0, 1, 0) == 1, 21, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 222, 0, 1, 0) == 1, 22, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 223, 0, 1, 0) == 1, 23, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 224, 0, 1, 0) == 1, 24, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 225, 0, 1, 0) == 1, 25, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 226, 0, 1, 0) == 1, 26, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 227, 0, 1, 0) == 1, 27, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 228, 0, 1, 0) == 1, 28, 99030600, -1)
+        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 229, 0, 1, 0) == 1, 29, 99030600, -1)
         
         # Purchase Item
         AddTalkListData(1, 15000010, -1)

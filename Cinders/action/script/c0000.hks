@@ -1571,6 +1571,13 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
+    -- FP Pause for normal attacks
+    if request == SWORDARTS_REQUEST_LEFT_PARRY or request == SWORDARTS_REQUEST_LEFT_MAGICBUFF or request == SWORDARTS_REQUEST_LEFT_CROSSBOWSTEPIN or request == SWORDARTS_REQUEST_LEFT_ONESHOTFULL or request == SWORDARTS_REQUEST_LEFT_MAGICBUFFPRAY or request == SWORDARTS_REQUEST_LEFT_MAGICBUFFATTACK or request == SWORDARTS_REQUEST_RIGHT_STEPIN or request == SWORDARTS_REQUEST_LEFT_STEPIN or request == SWORDARTS_REQUEST_RIGHT_PARRY or request == SWORDARTS_REQUEST_RIGHT_SPIN or request == SWORDARTS_REQUEST_LEFT_SPIN or request == SWORDARTS_REQUEST_RIGHT_STRONGBASH or request == SWORDARTS_REQUEST_LEFT_STRONGBASH or request == SWORDARTS_REQUEST_RIGHT_DOUBLEATTACK or request == SWORDARTS_REQUEST_LEFT_DOUBLEATTACK or request == SWORDARTS_REQUEST_RIGHT_STAMPEDE or request == SWORDARTS_REQUEST_LEFT_STAMPEDE or request == SWORDARTS_REQUEST_RIGHT_SPECIALATTACK or request == SWORDARTS_REQUEST_LEFT_SPECIALATTACK or request == SWORDARTS_REQUEST_RIGHT_ATTACKSPIN or request == SWORDARTS_REQUEST_LEFT_ATTACKSPIN or request == SWORDARTS_REQUEST_RIGHT_WARCRY or request == SWORDARTS_REQUEST_LEFT_WARCRY or request == SWORDARTS_REQUEST_RIGHT_CHARGE or request == SWORDARTS_REQUEST_LEFT_CHARGE or request == SWORDARTS_REQUEST_LEFT_ENDURE or request == SWORDARTS_REQUEST_RIGHT_MAGICBUFF or request == SWORDARTS_REQUEST_RIGHT_MAGICBUFFATTACK or request == SWORDARTS_REQUEST_LEFT_DAGGERSTANCE or request == SWORDARTS_REQUEST_RIGHT_DAGGERSTANCE or request == SWORDARTS_REQUEST_RIGHT_SAMAGIC or request == SWORDARTS_REQUEST_LEFT_SAMAGIC or request == SWORDARTS_REQUEST_LEFT_DRAWSTANCE or request == SWORDARTS_REQUEST_RIGHT_DRAWSTANCE or request == SWORDARTS_REQUEST_LEFT_CHAINSHOT or request == SWORDARTS_REQUEST_RIGHT_CHAINSHOT or request == SWORDARTS_REQUEST_LEFT_WIDESHOT or request == SWORDARTS_REQUEST_RIGHT_WIDESHOT or request == SWORDARTS_REQUEST_LEFT_STRONGSHOT or request == SWORDARTS_REQUEST_RIGHT_STRONGSHOT or request == SWORDARTS_REQUEST_RIGHT_SAMAGICMEDIUM or request == SWORDARTS_REQUEST_LEFT_SAMAGICMEDIUM or request == SWORDARTS_REQUEST_RIGHT_SAMAGICSTRONG or request == SWORDARTS_REQUEST_LEFT_SAMAGICSTRONG or request == SWORDARTS_REQUEST_RIGHT_CIRCLESTEP or request == SWORDARTS_REQUEST_LEFT_CIRCLESTEP or request == SWORDARTS_REQUEST_RIGHT_CHARGESHOT or request == SWORDARTS_REQUEST_LEFT_CHARGESHOT or request == SWORDARTS_REQUEST_RIGHT_CROSSBOWSTEPIN or request == SWORDARTS_REQUEST_RIGHT_HEADHUNT or request == SWORDARTS_REQUEST_LEFT_HEADHUNT or request == SWORDARTS_REQUEST_RIGHT_ONESHOT or request == SWORDARTS_REQUEST_LEFT_ONESHOT or request == SWORDARTS_REQUEST_RIGHT_ONESHOTFULL or request == SWORDARTS_REQUEST_RIGHT_ONESHOT_NOGENTRANS or request == SWORDARTS_REQUEST_LEFT_ONESHOT_NOGENTRANS or request == SWORDARTS_REQUEST_RIGHT_STORMSTANCE or request == SWORDARTS_REQUEST_LEFT_STORMSTANCE or request == SWORDARTS_REQUEST_RIGHT_MAGICBUFFPRAY or request == SWORDARTS_REQUEST_RIGHT_FOURWAYATTACK or request == SWORDARTS_REQUEST_LEFT_FOURWAYATTACK or request == SWORDARTS_REQUEST_RIGHT_FOURWAYDRAWSTANCE or request == SWORDARTS_REQUEST_LEFT_FOURWAYDRAWSTANCE or request == SWORDARTS_REQUEST_LEFT_GATLINGSTANCE or request == SWORDARTS_REQUEST_RIGHT_GATLINGSTANCE or request == SWORDARTS_REQUEST_LEFT_RANDOMONESHOT or request == SWORDARTS_REQUEST_RIGHT_RANDOMONESHOT then
+        act(2002, 113003) 
+    else
+        act(2002, 113001)
+    end
+        
     -- Devastating Blow Setup
     -- local db_chance = 0
     -- local roll = math.random(0, 100)
@@ -2676,114 +2683,124 @@ function ExecMagic(quick_type, blend_type)
 
     -- Insanity Catalyst - WA Effect
     if env(1116, 112004) == TRUE then -- GetSpecialEffectID
-        act(2002, 112005) -- AddSpEffect # Apply HP loss on cast
+        act(2002, 112005) -- Apply HP loss on cast
     end
     
-    -- Disable FP Regen after Cast
-    if env(1116, 112080) == FALSE then -- GetSpecialEffectID # Skip if Ring of Londor is equipped
-        if magic_type == 0 then -- Soul Arrow
-            act(2002, 113001) -- AddSpEffect # 2 
-        elseif magic_type == 1 then -- Weapon Buff
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 2 then -- Body Buff
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 3 then -- Heal
-            act(2002, 113005) -- AddSpEffect # 15
-        elseif magic_type == 4 then -- Heal
-            act(2002, 113005) -- AddSpEffect # 15
-        elseif magic_type == 5 then -- Fireball
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 6 then -- Body Buff
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 7 then -- Drain
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 8 then -- Great Combustion
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 9 then -- Poison Mist
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 10 then -- Firestorm
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 11 then -- Rapport
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 12 then -- Force
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 13 then -- Chameleon
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 14 then -- Transform
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 15 then -- Weapon Buff
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 16 then -- Summon
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 17 then -- Shield Buff
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 18 then -- Emit Force
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 19 then -- Lightning Spear
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 20 then -- Slow Soul Arrow
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 21 then -- Breath
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 22 then -- Very Slow Soul Arrow
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 23 then -- Fire Surge
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 24 then -- Fire Whip
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 25 then -- Soul Greatsword
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 26 then -- Heal
-            act(2002, 113005) -- AddSpEffect # 15
-        elseif magic_type == 27 then -- Heal Aid
-            act(2002, 113005) -- AddSpEffect # 15
-        elseif magic_type == 28 then -- Sacred Oath
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 29 then -- Farron Dart
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 30 then -- Farron Flashsword
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 31 then -- Soul Stream
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 32 then -- Profaned Flame
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 33 then -- Sacred Flame
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 34 then -- Lightning Stake
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 35 then -- Gnaw
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 36 then -- Lightning Storm
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 37 then -- Dark Edge
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 38 then -- Warmth
-            act(2002, 113004) -- AddSpEffect # 5
-        elseif magic_type == 39 then -- Wrath of the Gods
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 40 then -- Farron Hail
-            act(2002, 113001) -- AddSpEffect # 2
-        elseif magic_type == 41 then -- Slow Soul Arrow
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 42 then -- Black Serpent
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 43 then -- Chaos Bed Vestiges
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 44 then -- Lifehunt Scythe
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 45 then -- Divine Pillars of Light
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 46 then -- Old Moonlight
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 47 then -- Floating Chaos
-            act(2002, 113002) -- AddSpEffect # 3
-        elseif magic_type == 48 then -- Way of White Corona
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 49 then -- Lightning Arrow
-            act(2002, 113000) -- AddSpEffect # 1
-        elseif magic_type == 50 then -- Flame Fan
-            act(2002, 113000) -- AddSpEffect # 1
-        end
+    -- -- Disable FP Regen after Cast
+    -- if env(1116, 112080) == FALSE then -- GetSpecialEffectID # Skip if Ring of Londor is equipped
+        -- if magic_type == 0 then -- Soul Arrow
+            -- act(2002, 113003) -- 2 
+        -- elseif magic_type == 1 then -- Weapon Buff
+            -- act(2002, 113015) -- 5
+        -- elseif magic_type == 2 then -- Body Buff
+            -- act(2002, 113015) -- 5
+        -- elseif magic_type == 3 then -- Heal
+            -- act(2002, 113030) -- 15
+        -- elseif magic_type == 4 then -- Heal
+            -- act(2002, 113030) -- 15
+        -- elseif magic_type == 5 then -- Fireball
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 6 then -- Body Buff
+            -- act(2002, 113004) -- 5
+        -- elseif magic_type == 7 then -- Drain
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 8 then -- Great Combustion
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 9 then -- Poison Mist
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 10 then -- Firestorm
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 11 then -- Rapport
+            -- act(2002, 113004) -- 5
+        -- elseif magic_type == 12 then -- Force
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 13 then -- Chameleon
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 14 then -- Transform
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 15 then -- Weapon Buff
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 16 then -- Summon
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 17 then -- Shield Buff
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 18 then -- Emit Force
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 19 then -- Lightning Spear
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 20 then -- Slow Soul Arrow
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 21 then -- Breath
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 22 then -- Very Slow Soul Arrow
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 23 then -- Fire Surge
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 24 then -- Fire Whip
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 25 then -- Soul Greatsword
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 26 then -- Heal
+            -- act(2002, 113005) -- 15
+        -- elseif magic_type == 27 then -- Heal Aid
+            -- act(2002, 113005) -- 15
+        -- elseif magic_type == 28 then -- Sacred Oath
+            -- act(2002, 113004) -- 5
+        -- elseif magic_type == 29 then -- Farron Dart
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 30 then -- Farron Flashsword
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 31 then -- Soul Stream
+            -- act(2002, 113004) -- 5
+        -- elseif magic_type == 32 then -- Profaned Flame
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 33 then -- Sacred Flame
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 34 then -- Lightning Stake
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 35 then -- Gnaw
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 36 then -- Lightning Storm
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 37 then -- Dark Edge
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 38 then -- Warmth
+            -- act(2002, 113004) -- 5
+        -- elseif magic_type == 39 then -- Wrath of the Gods
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 40 then -- Farron Hail
+            -- act(2002, 113001) -- 2
+        -- elseif magic_type == 41 then -- Slow Soul Arrow
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 42 then -- Black Serpent
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 43 then -- Chaos Bed Vestiges
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 44 then -- Lifehunt Scythe
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 45 then -- Divine Pillars of Light
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 46 then -- Old Moonlight
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 47 then -- Floating Chaos
+            -- act(2002, 113002) -- 3
+        -- elseif magic_type == 48 then -- Way of White Corona
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 49 then -- Lightning Arrow
+            -- act(2002, 113000) -- 1
+        -- elseif magic_type == 50 then -- Flame Fan
+            -- act(2002, 113000) -- 1
+        -- end
+    -- end
+    
+    -- Old Moonlight
+    if magic_type == 46 then 
+        act(2002, 113005)
+    end
+    
+    -- Flame Fan
+    if magic_type == 50 then 
+        act(2002, 113003)
     end
     
     if env(116) == TRUE then -- IsMagicUseMenuOpened
@@ -16179,12 +16196,12 @@ function UpdateFP()
     local skip_base = false
     local cooldown = false
     
-    if env(1116, 113010) == TRUE then
+    if env(1116, 113000) == TRUE then
         cooldown = true
     end
     
     if cooldown == false then
-        if env(1116, 113000) == TRUE or env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE then
+        if env(1116, 113001) == TRUE or env(1116, 113002) == TRUE or env(1116, 113003) == TRUE or env(1116, 113004) == TRUE or env(1116, 113005) == TRUE or env(1116, 113006) == TRUE   or env(1116, 113007) == TRUE or env(1116, 113008) == TRUE or env(1116, 113009) == TRUE or env(1116, 113010) == TRUE or env(1116, 113011) == TRUE or env(1116, 113012) == TRUE or env(1116, 113013) == TRUE or env(1116, 113014) == TRUE or env(1116, 113015) == TRUE or env(1116, 113020) == TRUE or env(1116, 113025) == TRUE or env(1116, 113030) == TRUE or env(1116, 113035) == TRUE or env(1116, 113040) == TRUE or env(1116, 113045) == TRUE or env(1116, 113050) == TRUE or env(1116, 113055) == TRUE or env(1116, 113060) == TRUE then
             skip = true
         end
         
@@ -16199,7 +16216,7 @@ function UpdateFP()
         end
         
         if skip == false then
-            act(2002, 113010) -- Base Interval
+            act(2002, 113000) -- Base Interval
             
             if skip_base == false then
                 act(2002, 113100) -- Base

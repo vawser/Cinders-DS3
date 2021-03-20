@@ -6,7 +6,7 @@
 #--------------------------------
 - FP Cost: 10
 - INT Req: 10
-- Magic Damage: 50 {100}
+- Magic Damage: 60 {100}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -22,7 +22,7 @@
 #--------------------------------
 - FP Cost: 10
 - INT Req: 20
-- Magic Damage: 25 {50} {*25, individual}
+- Magic Damage: 30 {60} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
@@ -30,7 +30,7 @@
 #--------------------------------
 - FP Cost: 20
 - INT Req: 20
-- Magic Damage: 100 {200}
+- Magic Damage: 125 {250}
 - Ascended Effect: increases projectile homing to 70 degrees.
 
 #--------------------------------
@@ -38,7 +38,7 @@
 #--------------------------------
 - FP Cost: 25
 - INT Req: 30
-- Magic Damage: 50 {100} {*25, individual}
+- Magic Damage: 60 {120} {*25, individual}
 - Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
@@ -47,7 +47,7 @@
 - FP Cost: 30
 - INT Req: 40
 - Slot Use: 1
-- Magic Damage: 175 {350}
+- Magic Damage: 200 {400}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -56,7 +56,7 @@
 - FP Cost: 40
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 250 {500}
+- Magic Damage: 300 {600}
 - Ascended Effect: increases projectile speed to 40 m/s.
 
 #--------------------------------
@@ -82,7 +82,7 @@
 - FP Cost: 50
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 150 {300} {*3, individual}
+- Magic Damage: 200 {400} {*3, individual}
 - Ascended Effect: reduces the spread of the geyser.
 
 #--------------------------------
@@ -342,14 +342,14 @@
 # Fireball
 #--------------------------------
 - FP Cost: 20
-- Fire Damage: 80 {160} [50 {100}]
+- Fire Damage: 100 {200} [50 {100}]
 - Ascended Effect: increases projectile speed to 30 m/s.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 30
-- Fire Damage: 120 {240} [50 {100}]
+- Fire Damage: 160 {320} [50 {100}]
 - Ascended Effect: increases projectile homing to 40 degrees.
 
 #--------------------------------
@@ -378,7 +378,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Fire Damage: 180 {360} [100 {200}] [100 {100}] 
+- Fire Damage: 240 {480} [100 {200}] [100 {100}] 
 - Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
 
 #--------------------------------
@@ -400,7 +400,7 @@
 # Profaned Flame
 #--------------------------------
 - FP Cost: 35
-- Fire Damage: 200 {400}
+- Fire Damage: 220 {440}
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
@@ -408,7 +408,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 2
-- Fire Damage: 230 {460} [100 {200}] [100 {200}]
+- Fire Damage: 300 {600} [100 {200}] [100 {200}]
 - Ascended Effect: increases projectile speed to 38 m/s.
 
 #--------------------------------
@@ -627,7 +627,7 @@
 #--------------------------------
 - FP Cost: 35
 - Slot Use: 2
-- Physical Damage: 250 {500}
+- Physical Damage: 300 {600}
 - FTH Req: 50
 - Ascended Effect: now cast in a quick fashion.
 
@@ -635,7 +635,7 @@
 # Lightning Spear
 #--------------------------------
 - FP Cost: 15
-- Lightning Damage: 100 {200} [50 {100}] [50 {100}] 
+- Lightning Damage: 120 {200} [50 {100}] [50 {100}] 
 - FTH Req: 20
 - Ascended Effect: increases projectile homing to 60 degrees.
 
@@ -643,7 +643,7 @@
 # Great Lightning Spear
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 150 {300} [80 {160}] [80 {160}] 
+- Lightning Damage: 200 {400} [80 {160}] [80 {160}] 
 - FTH Req: 40
 - Ascended Effect: increases projectile homing to 120 degrees.
 
@@ -652,7 +652,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 2
-- Lightning Damage: 200 {400} [100 {200}] [100 {200}]
+- Lightning Damage: 300 {600} [100 {200}] [100 {200}]
 - FTH Req: 60
 - Ascended Effect: increases projectile homing to 180 degrees.
 
@@ -660,7 +660,7 @@
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 10
-- Lightning Damage: 50 {100}
+- Lightning Damage: 75 {150}
 - FTH Req: 20
 - Ascended Effect: increases projectile homing to 40 degrees.
 
@@ -668,7 +668,7 @@
 # Lightning Storm
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 50 {100} {*6, shared}
+- Lightning Damage: 80 {160} {*6, shared}
 - FTH Req: 40
 - Ascended Effect: emits an additional projectile.
 
@@ -712,7 +712,7 @@
 #--------------------------------
 - FP Cost: 30
 - Slot Use: 2
-- Physical Damage: 50 {100} {*16, shared}
+- Physical Damage: 80 {160} {*16, shared}
 - FTH Req: 50
 - Ascended Effect: increases emitted projectile rate to 5 per second.
 
@@ -729,7 +729,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Physical Damage: 200 {400}
+- Physical Damage: 250 {500}
 - FTH Req: 50
 - Ascended Effect: increases projectile speed to 40 m/s.
 
@@ -974,7 +974,7 @@
 # Deep Soul
 #--------------------------------
 - FP Cost: 20
-- Dark Damage: 90 {180}
+- Dark Damage: 120 {240}
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: inflicts 20 Curse.
@@ -984,7 +984,7 @@
 # Great Deep Soul
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 160 {320}
+- Dark Damage: 200 {400}
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
@@ -995,7 +995,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Dark Damage: 200 {400} 
+- Dark Damage: 300 {600} 
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 40 Curse.
@@ -1088,7 +1088,7 @@
 #--------------------------------
 - FP Cost: 50
 - Slot Use: 2
-- Dark Damage: 200 {400} 
+- Dark Damage: 250 {500} 
 - INT Req: 30
 - FTH Req: 30
 - Base Effect: inflicts 20 Curse.
@@ -1120,7 +1120,7 @@
 - FP Cost: 20
 - INT Req: 5
 - FTH Req: 5
-- Dark Damage: 80 {160} [50 {100}]
+- Dark Damage: 100 {200} [50 {100}]
 - Base Effect: inflicts 20 Toxic.
 - Ascended Effect: now cast in a quick fashion.
 
@@ -1130,7 +1130,7 @@
 - FP Cost: 30
 - INT Req: 15
 - FTH Req: 15
-- Dark Damage: 150 {300} [100 {200}]
+- Dark Damage: 180 {260} [100 {200}]
 - Base Effect: inflicts 30 Toxic.
 - Ascended Effect: increases projectile homing to 50 degrees.
 
@@ -1141,7 +1141,7 @@
 - Slot Use: 2
 - INT Req: 30
 - FTH Req: 30
-- Magic Damage: 200 {400} [150 {300}]
+- Magic Damage: 250 {500} [150 {300}]
 - Base Effect: inflicts 40 Toxic.
 - Ascended Effect: increases projectile homing to 40 degrees.
 
