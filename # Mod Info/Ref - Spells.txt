@@ -6,7 +6,7 @@
 #--------------------------------
 - FP Cost: 10
 - INT Req: 10
-- Magic Damage: 60 {100}
+- Magic Damage: 80 {160}
 - Ascended Effect: increases projectile homing to 50 degrees.
 
 #--------------------------------
@@ -964,7 +964,7 @@
 # Deep Barb
 #--------------------------------
 - FP Cost: 10
-- Dark Damage: 50 {100}
+- Dark Damage: 75 {150}
 - Base Effect: inflicts 10 Curse.
 - Ascended Effect: increases Curse inflict to 20.
 - INT Req: 5
