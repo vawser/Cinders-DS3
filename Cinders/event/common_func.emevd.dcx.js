@@ -8106,6 +8106,7 @@ Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8170,6 +8171,7 @@ Event(20080101, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8234,6 +8236,7 @@ Event(20080102, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8298,6 +8301,7 @@ Event(20080103, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8362,6 +8366,7 @@ Event(20080104, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8426,6 +8431,7 @@ Event(20080105, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8490,6 +8496,7 @@ Event(20080106, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8554,6 +8561,7 @@ Event(20080107, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8618,6 +8626,7 @@ Event(20080108, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8682,6 +8691,7 @@ Event(20080109, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8746,6 +8756,7 @@ Event(20080110, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8810,6 +8821,7 @@ Event(20080111, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8874,6 +8886,7 @@ Event(20080112, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -8938,6 +8951,7 @@ Event(20080113, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9002,6 +9016,7 @@ Event(20080114, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9066,6 +9081,7 @@ Event(20080115, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9130,6 +9146,7 @@ Event(20080116, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9194,6 +9211,7 @@ Event(20080117, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9258,6 +9276,7 @@ Event(20080118, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
@@ -9322,6 +9341,7 @@ Event(20080119, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetSpeffect(X0_4, 160760100); // Summon effect
     SetSpeffect(X0_4, 160761501); // Add "Active" effect
     SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
+    SetSpeffect(10000, 113060); // FP Pause
     
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
