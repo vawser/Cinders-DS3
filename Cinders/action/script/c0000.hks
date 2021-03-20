@@ -2688,6 +2688,9 @@ function ExecMagic(quick_type, blend_type)
         act(2002, 112005) -- Apply HP loss on cast
     end
     
+    --------------------------
+    -- FP Pause
+    --------------------------
     -- -- Disable FP Regen after Cast
     -- if env(1116, 112080) == FALSE then -- GetSpecialEffectID # Skip if Ring of Londor is equipped
         -- if magic_type == 0 then -- Soul Arrow
@@ -2795,9 +2798,29 @@ function ExecMagic(quick_type, blend_type)
         -- end
     -- end
     
+    -- Soul Greatsword
+    if magic_type == 25 then 
+        act(2002, 113005)
+    end
+    
+    -- Farron Dart
+    if magic_type == 29 then 
+        act(2002, 113003)
+    end
+    
+    -- Farron Flashsword
+    if magic_type == 30 then 
+        act(2002, 113003)
+    end
+    
+    -- Dark Edge
+    if magic_type == 37 then
+        act(2002, 113003)
+    end
+    
     -- Old Moonlight
     if magic_type == 46 then 
-        act(2002, 113005)
+        act(2002, 113008)
     end
     
     -- Flame Fan
