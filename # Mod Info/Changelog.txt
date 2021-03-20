@@ -143,7 +143,7 @@
 - Reworked the Lordran Remnants boss:
  - Now appears in Aldrich's arena
  - Starts after communing with a statue in the upper chamber.
- - Contains all four of the knights now. They appear as apparations within the arena, becoming normal as it is their turn to fight.
+ - Contains all four of the knights now. They appear as apparitions within the arena, becoming normal as it is their turn to fight.
  - You must defeat all four in a row to win the boss fight.
  
 # Weapons
