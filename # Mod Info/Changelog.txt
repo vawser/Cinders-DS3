@@ -139,6 +139,12 @@
   - Havel's Ring
   - Dragon Tooth
   - Havel's Greatshield
+  
+- Reworked the Lordran Remnants boss:
+ - Now appears in Aldrich's arena
+ - Starts after communing with a statue in the upper chamber.
+ - Contains all four of the knights now. They appear as apparations within the arena, becoming normal as it is their turn to fight.
+ - You must defeat all four in a row to win the boss fight.
  
 # Weapons
 - Squished the range of physical absorption on shields to 90% -> 100%, meaning more shields have a higher physical guard absorption than before.

@@ -107,7 +107,7 @@ Event(0, Default, function() {
     InitializeEvent(19, 970, 14000830, 2190, 0, 0); // Champion Gundyr
     InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
     InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
-    InitializeEvent(22, 970, 14500860, 2310, 0, 0); // Lordran Remnants
+    InitializeEvent(22, 970, 13700870, 2310, 0, 0); // Lordran Remnants
     InitializeEvent(23, 970, 15000800, 2330, 0, 0); // Demon Prince
     InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
@@ -2873,30 +2873,46 @@ Event(20119, Restart, function() {
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20120, Restart, function() {
-    IfCharacterHasSpeffect(AND_01, 10000, 260100210, true, ComparisonType.Equal, 1);
+    var param_SpEffect_Trigger = 260100210;
+    
+    var flag_BossKilled     = 25001021;
+    var flag_BossDefeated   = 13700870;
+    var flag_BossInProgress = 13700871;
+    var flag_BossState1     = 9323;
+    var flag_BossState2     = 6323;
+    
+    var entity_SpawnPoint  = 3702990;
+    var entity_PlayerPoint = 3700982;
+    
+    var mapID      = 37;
+    var blockID    = 0;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030120;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001021);
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
-    SetEventFlag(14500860, 0);
-    SetEventFlag(14500861, 0);
-    SetEventFlag(14500862, 0);
-    SetEventFlag(9323, 0);
-    SetEventFlag(6323, 0);
-    SetEventFlag(14500006, 0);
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    SetEventFlag(13700890, OFF); // flag_LordranRemnants_IsActivated
     
-    SetPlayerRespawnPoint(4502957);
-    SetMapCeremony(45, 0, 0);
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(45, 0, 4500981);
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001021);
-    DisplayEpitaphMessage(99030120);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
     
     EndUnconditionally(EventEndType.Restart);
 });
