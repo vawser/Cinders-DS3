@@ -98,7 +98,7 @@
 - FP regen is now more plentiful, making it act like a slower form of stamina.
 - Focusing Crystal has been removed.
 - Spell FP pause is now varied across the different spells, between 1 to 10 seconds for normal spells, 15 for most utility, and 30 for heals and very good utility spells.
-- Weapon usage pauses FP regen for 1 second, and WA usage for 3 seconds.
+- Weapon usage pauses FP regen for 1 second, and WA usage for 10 seconds.
 
 # NPCs
 - Removed instant staggering against for NPCs other than the Painting Guardians.
@@ -181,6 +181,7 @@
   - Rewarded for hitless run in Hard mode.
    
 - Sun Princess Ring: Grants 3/4/5/6/7/8 HP every second.
+- Ring of Londor: restores between 1 and 10 FP per second, the amount varies.
 
 # Map
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.

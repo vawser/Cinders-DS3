@@ -165,7 +165,7 @@
 #--------------------------------
 # Orbs of Judgment
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 40
 - INT Req: 40
 - Magic Damage: 50 {100} {*6, individual}
 - Ascended Effect: reduces orb starup time to 1 second.
