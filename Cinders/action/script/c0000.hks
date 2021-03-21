@@ -3049,6 +3049,10 @@ function ExecItem(quick_type, blend_type)
         return TRUE
     end
     local item_type = env(231) -- GetItemAnimType
+    
+    -- FP Pause
+    act(2002, 113005) 
+    
     if IsNodeActive("ItemDrinking_Upper_CMSG") == TRUE then
         if item_type ~= ITEM_DRINK then
             return FALSE
@@ -3303,6 +3307,10 @@ function ExecLadderItem(hand)
         return TRUE
     end
     local item_type = env(231) -- GetItemAnimType
+    
+    -- FP Pause
+    act(2002, 113005)
+    
     local event = "W_ItemLadderInvalid"
     local event_hand = "Left"
     if hand == HAND_STATE_RIGHT then
