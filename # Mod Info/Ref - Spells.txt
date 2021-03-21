@@ -335,42 +335,42 @@
 # Flame Fan
 #--------------------------------
 - FP Cost: 10
-- Fire Damage: 100 {200}
+- Fire Damage: 100 {300}
 - Ascended Effect: increases poise damage to 20.
 
 #--------------------------------
 # Fireball
 #--------------------------------
 - FP Cost: 20
-- Fire Damage: 100 {200} [50 {100}]
+- Fire Damage: 100 {300} [50 {150}]
 - Ascended Effect: increases projectile speed to 30 m/s.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 30
-- Fire Damage: 160 {320} [50 {100}]
+- Fire Damage: 160 {480} [50 {150}]
 - Ascended Effect: increases projectile homing to 40 degrees.
 
 #--------------------------------
 # Firestorm
 #--------------------------------
 - FP Cost: 5 (10)
-- Fire Damage: 180 {360} {*5, shared}
+- Fire Damage: 180 {520} {*5, shared}
 - Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Surge
 #--------------------------------
 - FP Cost: 5
-- Fire Damage: 40 {80}
+- Fire Damage: 40 {120}
 - Ascended Effect: reduces hit cooldown to 0.3 seconds.
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
 - FP Cost: 30
-- Fire Damage: 150 {300} [50 {100}]
+- Fire Damage: 150 {450} [50 {150}]
 - Ascended Effect: increases poise damage to 50.
 
 #--------------------------------
@@ -378,7 +378,7 @@
 #--------------------------------
 - FP Cost: 40
 - Slot Use: 2
-- Fire Damage: 240 {480} [100 {200}] [100 {100}] 
+- Fire Damage: 240 {720} [100 {300}] [100 {300}] 
 - Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
 
 #--------------------------------
@@ -386,21 +386,21 @@
 #--------------------------------
 - FP Cost: 10 (10)
 - Slot Use: 2
-- Fire Damage: 200 {400} [100 {200}] {*5, shared}
+- Fire Damage: 200 {600} [100 {300}] {*5, shared} 
 - Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Whip
 #--------------------------------
 - FP Cost: 4
-- Fire Damage: 30 {60} {*20, individual}
+- Fire Damage: 30 {90} {*20, individual}
 - Ascended Effect: reduces hit cooldown to 0.05 seconds.
 
 #--------------------------------
 # Profaned Flame
 #--------------------------------
 - FP Cost: 35
-- Fire Damage: 220 {440}
+- Fire Damage: 220 {660}
 - Ascended Effect: emits a secondary flame.
 
 #--------------------------------
