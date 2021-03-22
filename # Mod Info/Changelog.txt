@@ -222,3 +222,4 @@
 #------------------------------
 Fix the npc talk bug
 
+Change Ashen Estus Ring/Ring of Londor to affect the pause system (i.e. remove standard attack pause, etc)
