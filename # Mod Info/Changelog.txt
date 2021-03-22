@@ -154,6 +154,9 @@
 - Reduced Bleed % damage to 2 (was 5.
 - Reduced Curse % damage to 2 (was 2.5).
 - Reduced Toxic flat damage to 50 (was 90).
+
+# Armor
+- Changed all the Absorb FP effects to Max FP effects instead.
  
 # Spells
 - Reduced the duration of Bountiful Light, Replenishment and Bountiful Sunlight to 60 seconds.
@@ -187,7 +190,8 @@
   - Rewarded for hitless run in Hard mode.
    
 - Sun Princess Ring: Grants 3/4/5/6/7/8 HP every second.
-- Ring of Londor: restores between 1 and 10 FP per second, the amount varies.
+- Ring of Londor: FP regeneration is no longer paused by normal attacks.
+- Focusing Ring: Restores 5/6/7/8/9/10 FP while standing still.
 
 # Map
 - Moved the Outrider Knight in High Wall to the side area just before Vordt.
@@ -223,3 +227,9 @@
 Fix the npc talk bug
 
 Change Ashen Estus Ring/Ring of Londor to affect the pause system (i.e. remove standard attack pause, etc)
+
+Effect: increases max FP by 5%.
+
+Effect: imbues weapon, absorbing 10 FP on kill.
+
+160401020

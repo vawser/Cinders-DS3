@@ -2005,32 +2005,32 @@ This ring was entrusted to a certain Fire Keeper, but in the end she never met h
 <text id="20709">%null%</text>
 <text id="20710">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 50%.
+Restores 5 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20711">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 60%.
+Restores 6 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20712">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 70%.
+Restores 7 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20713">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 80%.
+Restores 8 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20714">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 90%.
+Restores 9 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20715">Gray crystalline ring crafted from shards.
 
-Increases FP restored by the Focus Implement by 100%.
+Restores 10 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20716">%null%</text>
@@ -2283,7 +2283,7 @@ The Consumed King ascribed his resilience to the divine protection of the dragon
 
 <text id="30000">Ring of an eminent figure residing in Londor. Known for their unnatural intelligence.
 
-Restores between 1 and 10 FP per second, the amount varies.
+FP regeneration is no longer paused by normal attacks.
 
 A healthy body is imperative for a healthy mind.</text>
 <text id="30001">%null%</text>

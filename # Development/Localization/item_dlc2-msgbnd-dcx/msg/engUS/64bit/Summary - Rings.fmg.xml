@@ -788,12 +788,12 @@
 <text id="20707">%null%</text>
 <text id="20708">%null%</text>
 <text id="20709">%null%</text>
-<text id="20710">Increases FP restored with the Focus Implement</text>
-<text id="20711">Increases FP restored with the Focus Implement</text>
-<text id="20712">Increases FP restored with the Focus Implement</text>
-<text id="20713">Increases FP restored with the Focus Implement</text>
-<text id="20714">Increases FP restored with the Focus Implement</text>
-<text id="20715">Increases FP restored with the Focus Implement</text>
+<text id="20710">Restores FP while standing still</text>
+<text id="20711">Restores FP while standing still</text>
+<text id="20712">Restores FP while standing still</text>
+<text id="20713">Restores FP while standing still</text>
+<text id="20714">Restores FP while standing still</text>
+<text id="20715">Restores FP while standing still</text>
 <text id="20716">%null%</text>
 <text id="20717">%null%</text>
 <text id="20718">%null%</text>
@@ -915,7 +915,7 @@
 <text id="20834">Raises maximum FP</text>
 <text id="20835">Raises maximum FP</text>
 
-<text id="30000">Restores random amounts of FP</text>
+<text id="30000">FP regeneration is no longer paused by normal attacks</text>
 
 <text id="30010">Fallen enemies grant additional FP on death</text>
 <text id="30011">Fallen enemies grant additional FP on death</text>

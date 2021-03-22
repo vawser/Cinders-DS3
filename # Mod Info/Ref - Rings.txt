@@ -353,12 +353,12 @@
 
 # Darkmoon Ring
 - Weight: 0.5
-- [+0] Grants 1 FP every second.
-- [+1] Grants 2 FP every second.
-- [+2] Grants 3 FP every second.
-- [+3] Grants 4 FP every second.
-- [+4] Grants 5 FP every second.
-- [+5] Grants 6 FP every second.
+- [+0] Grants 5 FP every second.
+- [+1] Grants 6 FP every second.
+- [+2] Grants 7 FP every second.
+- [+3] Grants 8 FP every second.
+- [+4] Grants 9 FP every second.
+- [+5] Grants 10 FP every second.
 
 # Hawk Ring
 - Weight: 1
@@ -557,12 +557,12 @@
 
 # Focusing Ring
 - Weight: 1
-- [+0] Grants 50% increase in FP restoration using the Focus Implement
-- [+1] Grants 60% increase in FP restoration using the Focus Implement
-- [+2] Grants 70% increase in FP restoration using the Focus Implement
-- [+3] Grants 80% increase in FP restoration using the Focus Implement
-- [+4] Grants 90% increase in FP restoration using the Focus Implement
-- [+5] Grants 100% increase in FP restoration using the Focus Implement
+- [+0] Restores 5 FP while standing still.
+- [+1] Restores 6 FP while standing still.
+- [+2] Restores 7 FP while standing still.
+- [+3] Restores 8 FP while standing still.
+- [+4] Restores 9 FP while standing still.
+- [+5] Restores 10 FP while standing still.
 
 # Horsehoof Ring
 - Weight: 1
@@ -619,7 +619,7 @@
 
 # Ring of Londor
 - Weight: 0.5
-- Enables FP to regenerate continuously, removing the cooldown after casting.
+- FP regeneration is no longer paused by normal attacks.
 
 # Spirit Amethyst
 - Weight: 0.5

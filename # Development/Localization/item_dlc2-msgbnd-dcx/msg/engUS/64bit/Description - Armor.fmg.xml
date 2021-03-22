@@ -2046,7 +2046,7 @@ Effect: increases Physical damage by 2.5%.</text>
 
 The snails of the Undead Settlement are noted for their connection to the arcane and mystical.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 
 <text id="10200000">A mask worn by the overseer of a noxious valley.
 
@@ -2459,22 +2459,22 @@ Effect: increases stamina recovery by 5.</text>
 Xanthous clothing is the mark of a researcher of lost sorceries, and the oversized crown is emblematic of their work.
 Such a curious pursuit is surely nothing to be ashamed of.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="23501000">Yellowish overcoat covering a band of brass medallions.
 
 Xanthous clothing is the mark of a researcher of lost sorceries, and the number of medallions denotes their success. A point of pride for the researchers, even if its significance is lost on others.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="23502000">Yellowish gloves.
 
 Xanthous clothing is the mark of a researcher of lost sorceries, and it is said that with golden sorceries, one could manipulate light.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="23503000">Yellowish trousers.
 
 Xanthous clothing is the mark of a researcher of lost sorceries, and it is said that with golden sorceries, one could manipulate light.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="24000000">Iron helm of a stalwart northern warrior. Engraved with an ornate pattern.
 
 Iron defensive wear grants superior stability. Being from the north, it should also offer resistance to the cold.
@@ -2621,7 +2621,7 @@ The original owner was said to be a corrupt executioner, who was killed and stri
 
 Horace is one of only two children to escape Aldrich's clutches.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="27001000">Steel armor of Horace the Hushed,
 who took a liking to its cold, bulky insides.
 
@@ -2629,7 +2629,7 @@ The original owner was said to be a corrupt executioner, who was killed and stri
 
 Horace is one of only two children to escape Aldrich's clutches.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="27002000">Steel gauntlets of Horace the Hushed,
 who took a liking to their cold, bulky insides.
 
@@ -2637,7 +2637,7 @@ The original owner was said to be a corrupt executioner, who was killed and stri
 
 Horace is one of only two children to escape Aldrich's clutches.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="27003000">Steel leggings of Horace the Hushed,
 who took a liking to their cold, bulky insides.
 
@@ -2645,7 +2645,7 @@ The original owner was said to be a corrupt executioner, who was killed and stri
 
 Horace is one of only two children to escape Aldrich's clutches.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="27500000">Attire of the three mentors of the Sable Church of Londor, this billed mask belongs to Yuria, the second eldest.
 
 These maidens of a Primordial Serpent were renowned as founders of the Sable Church, which offered salvation for Hollows.
@@ -4270,7 +4270,7 @@ Effect: increases Vigor by 2 and prevents headshot damage.</text>
 
 This hexagonal iron cage suggests their strange ways. The cage is a device that restrains the will of the self, allowing one to see the profane world for what it is.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99060000">The odd helmet worn by executioners from a land plagued with blood. 
 
 The conical gold helmet, symbol of the executioners, represents luminosity, ambition, and an unflagging resolve to face impurity, staring it down with stern golden spirit.
@@ -4474,22 +4474,22 @@ Effect: increases max HP by 5%.</text>
 
 The pardoners listen to the confessions of sinners, urging reflection and salvation. Their masks symbolize separation from worldly desires.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99241000">Robe worn by pardoners serving Velka, the Goddess of Sin. 
 
 The pardoners' attire is uniformly black in color and said to be imbued with Velka's mystical power, which provides resistance against all manner of magic.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99242000">Manchettes worn by pardoners serving Velka, the Goddess of Sin. 
 
 The pardoners' attire is uniformly black in color and said to be imbued with Velka's mystical power, which provides resistance against all manner of magic.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99243000">Tights worn by pardoners serving Velka, the Goddess of Sin. 
 
 The pardoners' attire is uniformly black in color and said to be imbued with Velka's mystical power, which provides resistance against all manner of magic.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99250000">Helm worn by the Dragonriders, King Vendrick's royal guard.
 
 According to legend, the Dragonriders straddled not horses, but wyrms.
@@ -4594,22 +4594,22 @@ Effect: boosts fire defence by 5%.</text>
 
 A plain traveling suit which makes long marches possible, however it is the travel wear of a dirty sage. This shows the visionary's origins quite well.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99291000">Robe of the forgotten visionary.
 
 A plain traveling suit which makes long marches possible, however it is the travel wear of a dirty sage. This shows the visionary's origins quite well.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99292000">Gloves of the forgotten visionary.
 
 A plain traveling suit which makes long marches possible, however it is the travel wear of a dirty sage. This shows the visionary's origins quite well.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99293000">Boots of the forgotten visionary.
 
 A plain traveling suit which makes long marches possible, however it is the travel wear of a dirty sage. This shows the visionary's origins quite well.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99300000">A black iron helmet once worn by the Silent Chief. 
 The two horns on the headpiece are its chief characteristic.
 
@@ -4680,11 +4680,11 @@ Effect: increases stamina recovery by 5.</text>
 <text id="99340000">Crown of Pontiff Sulyvahn, the true
 power behind Irithyll.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99342000">Bracelets of Pontiff Sulyvahn, the true
 power behind Irithyll.
 
-Effect: imbues weapon, absorbing 10 FP on kill.</text>
+Effect: increases max FP by 5%.</text>
 <text id="99350000">The iron helmet worn by enslaved giants.
 
 The enslaved have little love for their captors, and require 

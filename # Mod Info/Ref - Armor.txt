@@ -32,7 +32,7 @@ Effect: boosts fire defence by 5%.
 Effect: increases effectiveness of HP recovery by 2.5%.
 
 # Snail Shell
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Millwood Knight Set
 Effect: increases Strength by 2.
@@ -83,7 +83,7 @@ Effect: increases max HP by 5%.
 Effect: boosts damage against Abyssal enemies by 5%.
 
 # Executioner Set
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Dragonslayer Set
 Effect: increases Lightning damage by 2.5%.
@@ -236,7 +236,7 @@ Effect: increases max HP, max FP and max Stamina by 2.5%.
 Effect: imbues weapon, absorbing 10 HP on kill.
 
 # Iron Cage
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Corvian Knight Set
 Effect: boosts bleed resist by 25%.
@@ -460,7 +460,7 @@ Effect: reduces weapon stamina consumption by 5%.
 Effect: increases Magic damage by 2.5%.
 
 # Pontiff's Set
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Dancer Set
 Effect: increases Dexterity by 2.
@@ -496,7 +496,7 @@ Effect: increases Magic damage by 2.5%.
 Effect: reduces weapon stamina consumption by 5%.
 
 # Xanthous Set
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # White Preacher Head
 Effect: increases max FP by 5%.
@@ -563,7 +563,7 @@ Effect: increases Dexterity by 2.
 Effect: increases max HP by 5%.
 
 # Black Cleric Set
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Astrologist Set
 Effect: increases max FP by 5%.
@@ -641,7 +641,7 @@ Effect: boosts casting speed by 5.
 Effect: increases max FP by 5%.
 
 # Venerable Sage's Set
-Effect: imbues weapon, absorbing 10 FP on kill.
+Effect: increases max FP by 5%.
 
 # Clandestine Coat
 Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
