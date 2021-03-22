@@ -623,12 +623,12 @@
 
 # Spirit Amethyst
 - Weight: 0.5
-- [+0] Grants 15 FP on enemy kills
-- [+1] Grants 20 FP on enemy kills
-- [+2] Grants 25 FP on enemy kills
-- [+3] Grants 30 FP on enemy kills
-- [+4] Grants 35 FP on enemy kills
-- [+5] Grants 40 FP on enemy kills
+- [+0] Grants 50 FP on enemy kills
+- [+1] Grants 60 FP on enemy kills
+- [+2] Grants 70 FP on enemy kills
+- [+3] Grants 80 FP on enemy kills
+- [+4] Grants 90 FP on enemy kills
+- [+5] Grants 100 FP on enemy kills
 
 # Wretched Pendant
 - Weight: 1
