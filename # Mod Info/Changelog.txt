@@ -206,9 +206,11 @@
 # Items
 - Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
 - Ancestral Note now places you in Untended Graves.
+- Rouge Water: now restores 50 FP instantly.
+- Crimson Water: now restores 100 FP instantly.
 
 # Gifts
-- Added Broken Tablet gift: this enables Hard mode. Cannot be changed once picked.
+- Added Tablet of Legends gift: this enables Hard mode. Cannot be changed once picked.
  Effects:
  - Reduces absorptions by 25%.
  - Reduces soul absorption by 75%.
@@ -227,10 +229,3 @@
 #------------------------------
 Fix the npc talk bug
 
-Change Ashen Estus Ring/Ring of Londor to affect the pause system (i.e. remove standard attack pause, etc)
-
-Effect: increases max FP by 5%.
-
-Effect: imbues weapon, absorbing 10 FP on kill.
-
-160401020

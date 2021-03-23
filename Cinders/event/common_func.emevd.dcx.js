@@ -3623,6 +3623,114 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 });
 
 // ----------------------------------------
+// Boss - Enter Boss Zone
+// Args: <boss_defeat_flag_id>, <zone_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <boss_entity_id>, 
+// <skip_flag_id>, <entrance_trigger_id>
+// ----------------------------------------
+Event(20005805, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    var flag_Boss_Defeated   = X0_4;
+    var flag_Boss_InBattle   = X12_4;
+    var flag_Boss_Skip       = X24_4;
+    
+    var trigger_StartZone = X4_4;
+    
+    var trigger_FogwallZone  = X8_4;
+    var trigger_EntranceZone = X28_4;
+    
+    var param_ActionButton   = X16_4;
+    var entity_Boss          = X20_4;
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    
+    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, flag_Boss_Skip, 0);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
+    
+    SkipIfComparison(1, ComparisonType.Equal, trigger_EntranceZone, 0);
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, trigger_EntranceZone, 1);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
+    IfConditionGroup(AND_01, PASS, OR_01); 
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    GotoUnconditionally(Label.LABEL1);
+    
+    // Host entrance
+    Label0();
+    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL3, true);
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, trigger_StartZone, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
+    
+    // Client entrance
+    Label3();
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
+    IfElapsedSeconds(OR_03, 3);
+    IfConditionGroup(OR_02, PASS, OR_03);
+    IfConditionGroup(AND_02, PASS, OR_02);
+    IfConditionGroup(MAIN, PASS, AND_02);
+    EndIfConditionGroupStateCompiled(EventEndType.End, PASS, OR_03);
+    
+    // Boss start
+    Label1();
+    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
+    IssueBossRoomEntryNotification(0);
+    SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
+    
+    Label2();
+    ActivateMultiplayerdependantBuffs(entity_Boss);
+    SetNetworkconnectedEventFlag(flag_Boss_InBattle, ON);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndUnconditionally(EventEndType.End);
+});
+
+// ----------------------------------------
+// Client - Enter Boss Zone
+// ----------------------------------------
+Event(20005806, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    var flag_Boss_Defeated = X0_4;
+    var flag_Boss_InBattle = X12_4;
+    var flag_ClientEnter   = X20_4;
+    
+    var trigger_StartZone = X4_4;
+    
+    var trigger_FogwallZone = X8_4;
+    
+    var param_ActionButton = X16_4;
+    
+    SetNetworkSyncState(Disabled);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    
+    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
+    SetEventFlag(flag_Boss_InBattle, OFF);
+    
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
+    IfCharacterType(AND_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, trigger_StartZone, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    RotateCharacter(10000, trigger_FogwallZone, 60060, true);
+    
+    IfCharacterType(AND_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
+    IfElapsedSeconds(OR_01, 3);
+    IfConditionGroup(OR_02, PASS, OR_01);
+    IfConditionGroup(AND_02, PASS, OR_02);
+    IfConditionGroup(MAIN, PASS, AND_02);
+    
+    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
+    
+    SetEventFlag(flag_ClientEnter, ON);
+    EndUnconditionally(EventEndType.End);
+});
+
+// ----------------------------------------
 // Boss - Enter Fogwall
 // ----------------------------------------
 Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
@@ -3725,6 +3833,37 @@ Event(20005822, Restart, function(X0_4, X4_4, X8_4) {
     IfConditionGroup(OR_04, PASS, AND_01);
     IfConditionGroup(OR_04, PASS, AND_02);
     IfConditionGroup(MAIN, PASS, OR_04);
+    
+    DeactivateObject(X4_4, Enabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+    CreateObjectfollowingSFX(X4_4, 101, X8_4);
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
+    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
+    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
+    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
+    IfConditionGroup(AND_04, PASS, OR_07);
+    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfConditionGroup(AND_05, FAIL, OR_05);
+    IfConditionGroup(AND_05, FAIL, AND_03);
+    IfConditionGroup(AND_05, FAIL, AND_04);
+    IfConditionGroup(MAIN, PASS, AND_05);
+
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// ----------------------------------------
+// Boss - Toggle Fogwall State - zone
+// Args: <boss_flag_id>, <fogwall_id>, <ffx_id>
+// ----------------------------------------
+Event(20005823, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    SetNetworkSyncState(Disabled);
+    DeactivateObject(X4_4, Disabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
     
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
@@ -5189,7 +5328,7 @@ Event(20009201, Default, function(X0_4, X4_4) {
 });
 
 //----------------------------------------------
-// Corrupted Gundyr - Boss Kill
+// Dismal Knight - Boss Kill
 //----------------------------------------------
 Event(20020000, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -6150,7 +6289,7 @@ Event(20020030, Default, function() {
 });
 
 //----------------------------------------------
-// Corrupted Gundyr - Boss Start
+// Dismal Knight - Boss Start
 //----------------------------------------------
 Event(20020100, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);

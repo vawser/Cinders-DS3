@@ -103,7 +103,7 @@ Event(0, Default, function() {
     InitializeEvent(14, 970, 13800800, 2140, 0, 0); // High Lord Wolnir
     InitializeEvent(15, 970, 13800830, 2150, 0, 0); // Old Demon King
     InitializeEvent(17, 970, 13900800, 2170, 0, 0); // Yhorm
-    InitializeEvent(18, 970, 14000800, 2180, 0, 0); // Corrupted Gundyr
+    InitializeEvent(18, 970, 14000800, 2180, 0, 0); // Dismal Knight
     InitializeEvent(19, 970, 14000830, 2190, 0, 0); // Champion Gundyr
     InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
     InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
@@ -1814,7 +1814,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20031, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
     
     // Boss Revival
-    InitializeEvent(0, 20100, 0); // Corrupted Gundyr
+    InitializeEvent(0, 20100, 0); // Dismal Knight
     InitializeEvent(0, 20101, 0); // Vordt
     InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
     InitializeEvent(0, 20103, 0); // Crystal Sage
@@ -1913,7 +1913,7 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(13000000, ON);
     
     // Boss Kill Flags
-    SetEventFlag(25001001, OFF); // Corrupted Gundyr
+    SetEventFlag(25001001, OFF); // Dismal Knight
     SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
     SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
     SetEventFlag(25001004, OFF); // Crystal Sage
@@ -2244,7 +2244,7 @@ Event(20040, Default, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Corrupted Gundyr
+// Boss Revival - Dismal Knight
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20100, Restart, function() {
@@ -2255,12 +2255,9 @@ Event(20100, Restart, function() {
     
     SetEventFlag(14000800, 0);
     SetEventFlag(9319, 0);
-    SetEventFlag(6319, 0);
-    SetEventFlag(14000002, 0);
-    SetEventFlag(64000260, 0);
-    SetEventFlag(64000261, 0);                
+    SetEventFlag(6319, 0);               
     
-    SetPlayerRespawnPoint(4002950);
+    SetPlayerRespawnPoint(4002970);
     SetMapCeremony(40, 0, 0);
     
     WaitFixedTimeFrames(1);
