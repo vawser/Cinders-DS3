@@ -252,9 +252,17 @@
 # Treasure
 - Morric, the Fallen Knight now drops 1 Holy Gem.
 - Mirror Knight Set is now found in the chest in the area just after the Mirror Knight arena.
+- Odessa's Crystal now found in the back area of the Depths of the Painting.
+- Frozen Chaos Essence now found at the top of the Millwood Tower.
+
+# Bugfixes
+- Yuria will now allow you to talk to her if you've failed her quest.
 
 #------------------------------
 # TODO - General
 #------------------------------
 Fix the npc talk bug
+
+1160 Odessa's Crystal
+1150 Frozen Chaos Essence
 

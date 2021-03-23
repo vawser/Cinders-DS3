@@ -333,6 +333,7 @@ def t400140_x10():
         """ State 4,21 """
         # talk:14001600:Thou'st forsworn the Lord's Mark.
         assert t400140_x5(text2=14001600, z3=74000619, flag3=0, mode2=1)
+        Goto('L1')
     """ State 34 """
     return 0
 
@@ -441,10 +442,6 @@ def t400140_x15():
     """ State 0,1 """
     while True:
         call = t400140_x18()
-        assert not GetEventStatus(1041) and not GetEventStatus(1042) and not GetEventStatus(1043)
-        """ State 2 """
-        call = t400140_x19()
-        assert GetEventStatus(1041) == 1 or GetEventStatus(1042) == 1 or GetEventStatus(1043) == 1
 
 def t400140_x16():
     """ State 0,1 """
