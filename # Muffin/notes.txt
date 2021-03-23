@@ -1,9 +1,1 @@
-﻿-Latest Ariandel Flag Used was 54502087
-
--The yabber-bnd file goes to aicommon.luabnd.dcx and was included because the placement of my new entries needed to be in a specific spot
--Many of the vfx are frostfall vfx that I already included in the past, but many were changed as I learned new editing techniques. I just included all of them since I wasn't sure which were changed
-
--I also included within the VFX folder the yabber-bnd for that although I believe you have made a change there, but you can still copy paste all my entries, so you don't have to write them yourself.
-
--I included the project file but wasn't sure if I needed to
--All is up to sync with your work.
+﻿
