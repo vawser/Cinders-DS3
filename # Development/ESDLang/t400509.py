@@ -168,18 +168,6 @@ def t400509_x9():
     while True:
         ClearTalkListData()
         
-        # Empower Focusing Crystal
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 220, 0, 1, 0) == 1, 20, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 221, 0, 1, 0) == 1, 21, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 222, 0, 1, 0) == 1, 22, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 223, 0, 1, 0) == 1, 23, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 224, 0, 1, 0) == 1, 24, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 225, 0, 1, 0) == 1, 25, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 226, 0, 1, 0) == 1, 26, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 227, 0, 1, 0) == 1, 27, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 228, 0, 1, 0) == 1, 28, 99030600, -1)
-        #AddTalkListDataIf(ComparePlayerInventoryNumber(3, 229, 0, 1, 0) == 1, 29, 99030600, -1)
-        
         # Purchase Item
         AddTalkListData(1, 15000010, -1)
         
@@ -198,6 +186,9 @@ def t400509_x9():
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008250) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
+        # Curses
+        AddTalkListData(20, 99002000, -1)
+        
         # Flirt
         AddTalkListDataIf(GetEventStatus(25008250) == 1, 11, 15015041, -1)
         
@@ -214,48 +205,8 @@ def t400509_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Empower Focus Implement 1
-        if GetTalkListEntryResult() == 20:
-            assert t400509_x50(220, 221)
-            return 0
-        # Empower Focus Implement 2
-        elif GetTalkListEntryResult() == 21:
-            assert t400509_x50(221, 222)
-            return 0
-        # Empower Focus Implement 3
-        elif GetTalkListEntryResult() == 22:
-            assert t400509_x50(222, 223)
-            return 0
-        # Empower Focus Implement 4
-        elif GetTalkListEntryResult() == 23:
-            assert t400509_x50(223, 224)
-            return 0
-        # Empower Focus Implement 5
-        elif GetTalkListEntryResult() == 24:
-            assert t400509_x50(224, 225)
-            return 0
-        # Empower Focus Implement 6
-        elif GetTalkListEntryResult() == 25:
-            assert t400509_x50(225, 226)
-            return 0
-        # Empower Focus Implement 7
-        elif GetTalkListEntryResult() == 26:
-            assert t400509_x50(226, 227)
-            return 0
-        # Empower Focus Implement 8
-        elif GetTalkListEntryResult() == 27:
-            assert t400509_x50(227, 228)
-            return 0
-        # Empower Focus Implement 9
-        elif GetTalkListEntryResult() == 28:
-            assert t400509_x50(228, 229)
-            return 0
-        # Empower Focus Implement 10
-        elif GetTalkListEntryResult() == 29:
-            assert t400509_x50(229, 230)
-            return 0
         # Form Betrothal
-        elif GetTalkListEntryResult() == 10:
+        if GetTalkListEntryResult() == 10:
             SetEventState(25008250, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             OpenGenericDialog(1, 99030613, 0, 0, 0)
@@ -282,6 +233,10 @@ def t400509_x9():
         # Talk
         elif GetTalkListEntryResult() == 3:
             OpenGenericDialog(1, 99030615, 0, 0, 0)
+            return 0
+        # Curses
+        elif GetTalkListEntryResult() == 20:
+            assert t400509_x15()
             return 0
         # Purchase Items
         elif GetTalkListEntryResult() == 1:
@@ -313,43 +268,649 @@ def t400509_x9():
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
-#----------------------------------------------------------
-# Utility
-#----------------------------------------------------------     
-# Affix
-def t400509_x50(old_item=_, new_item=_):
-    # Empower implement?
-    call = t400509_x51(action2=99030601)
+# Menu Loop
+def t400509_x15():
+    c1110()
     
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 2164, 3, 0, 0) == 1:
-            # No Resonating Crystal
-            assert t400509_x52(action1=99030603)
-        else:
-            PlayerEquipmentQuantityChange(3, 2164, -1)
-            ReplaceTool(old_item, new_item, 1)
-            
-            # Focus Implement empowered
-            assert t400509_x52(action1=99030604)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-def t400509_x51(action2=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action2, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
+    while True:
+        ClearTalkListData()
         
-def t400509_x52(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(7, action1, 1, 0, 1)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    return 0
+        AddTalkListData(1, 99002100, -1) # Curse of Pride
+        AddTalkListData(2, 99002101, -1) # Curse of Fortitude
+        AddTalkListData(3, 99002102, -1) # Curse of Vitality
+        AddTalkListData(4, 99002103, -1) # Curse of Wrath
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 5, 99002104, -1) # Curse of Attraction
+        AddTalkListData(6, 99002105, -1) # Curse of Obscurity
+        AddTalkListData(7, 99002106, -1) # Curse of Simplicity
+        AddTalkListData(8, 99002107, -1) # Curse of Gluttony
+        AddTalkListData(9, 99002108, -1) # Curse of Frailty
+        AddTalkListData(10, 99002109, -1) # Curse of Enfeeblement
+        AddTalkListData(11, 99002110, -1) # Curse of Impermanence
+        AddTalkListData(12, 99002111, -1) # Curse of Valor
+        
+        # Quit
+        AddTalkListData(99, 15000180, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable - Curse of Pride
+        if GetTalkListEntryResult() == 1:
+            assert t400509_x20()
+            continue
+        # Enable - Curse of Fortitude
+        elif GetTalkListEntryResult() == 2:
+            assert t400509_x21()
+            continue
+        # Enable - Curse of Vitality
+        elif GetTalkListEntryResult() == 3:
+            assert t400509_x22()
+            continue
+        # Enable - Curse of Wrath
+        elif GetTalkListEntryResult() == 4:
+            assert t400509_x23()
+            continue
+        # Enable - Curse of Attraction
+        elif GetTalkListEntryResult() == 5:
+            assert t400509_x24()
+            continue
+        # Enable - Curse of Obscurity
+        elif GetTalkListEntryResult() == 6:
+            assert t400509_x25()
+            continue
+         # Enable - Curse of Simplicity
+        elif GetTalkListEntryResult() == 7:
+            assert t400509_x26()
+            continue
+        # Enable - Curse of Gluttony
+        elif GetTalkListEntryResult() == 8:
+            assert t400509_x27()
+            continue
+        # Enable - Curse of Frailty
+        elif GetTalkListEntryResult() == 9:
+            assert t400509_x28()
+            continue
+        # Enable - Curse of Enfeeblement
+        elif GetTalkListEntryResult() == 10:
+            assert t400509_x29()
+            continue
+        # Enable - Curse of Impermanence
+        elif GetTalkListEntryResult() == 11:
+            assert t400509_x30()
+            continue
+        # Enable - Curse of Valor
+        elif GetTalkListEntryResult() == 12:
+            assert t400509_x31()
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+    
+#--------------------------------------------
+# Curse of Pride
+#--------------------------------------------
+def t400509_x20():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 1, 99002010, -1) # Enable 1
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 2, 99002011, -1) # Enable 2
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 3, 99002012, -1) # Enable 3
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 4, 99002013, -1) # Enable 4
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 5, 99002014, -1) # Enable 5
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 6, 99002015, -1) # Enable 6
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 7, 99002016, -1) # Enable 7
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 8, 99002017, -1) # Enable 8
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 9, 99002018, -1) # Enable 9
+        AddTalkListDataIf(GetEventStatus(25000400) == 0 and GetEventStatus(25000401) == 0 and GetEventStatus(25000402) == 0 and GetEventStatus(25000403) == 0 and GetEventStatus(25000404) == 0 and GetEventStatus(25000405) == 0 and GetEventStatus(25000406) == 0 and GetEventStatus(25000407) == 0 and GetEventStatus(25000408) == 0 and GetEventStatus(25000409) == 0, 10, 99002019, -1) # Enable 10
+        
+        AddTalkListDataIf(GetEventStatus(25000400) == 1 or GetEventStatus(25000401) == 1 or GetEventStatus(25000402) == 1 or GetEventStatus(25000403) == 1 or GetEventStatus(25000404) == 1 or GetEventStatus(25000405) == 1 or GetEventStatus(25000406) == 1 or GetEventStatus(25000407) == 1 or GetEventStatus(25000408) == 1 or GetEventStatus(25000409) == 1, 90, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # 10
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000400, 1)
+            OpenGenericDialog(1, 99002400, 0, 0, 0)
+        # 20
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000401, 1)
+            OpenGenericDialog(1, 99002401, 0, 0, 0)
+        # 30
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25000402, 1)
+            OpenGenericDialog(1, 99002402, 0, 0, 0)
+        # 40
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25000403, 1)
+            OpenGenericDialog(1, 99002403, 0, 0, 0)
+        # 50
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25000404, 1)
+            OpenGenericDialog(1, 99002404, 0, 0, 0)
+        # 60
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(25000405, 1)
+            OpenGenericDialog(1, 99002405, 0, 0, 0)
+        # 70
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(25000406, 1)
+            OpenGenericDialog(1, 99002406, 0, 0, 0)
+        # 80
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(25000407, 1)
+            OpenGenericDialog(1, 99002407, 0, 0, 0)
+        # 90
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(25000408, 1)
+            OpenGenericDialog(1, 99002408, 0, 0, 0)
+        # 100
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25000409, 1)
+            OpenGenericDialog(1, 99002409, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 90:
+            SetEventState(25000400, 0)
+            SetEventState(25000401, 0)
+            SetEventState(25000402, 0)
+            SetEventState(25000403, 0)
+            SetEventState(25000404, 0)
+            SetEventState(25000405, 0)
+            SetEventState(25000406, 0)
+            SetEventState(25000407, 0)
+            SetEventState(25000408, 0)
+            SetEventState(25000409, 0)
+            OpenGenericDialog(1, 99002300, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Fortitude
+#--------------------------------------------
+def t400509_x21():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 1, 99002010, -1) # Enable 1
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 2, 99002011, -1) # Enable 2
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 3, 99002012, -1) # Enable 3
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 4, 99002013, -1) # Enable 4
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 5, 99002014, -1) # Enable 5
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 6, 99002015, -1) # Enable 6
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 7, 99002016, -1) # Enable 7
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 8, 99002017, -1) # Enable 8
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 9, 99002018, -1) # Enable 9
+        AddTalkListDataIf(GetEventStatus(25000410) == 0 and GetEventStatus(25000411) == 0 and GetEventStatus(25000412) == 0 and GetEventStatus(25000413) == 0 and GetEventStatus(25000414) == 0 and GetEventStatus(25000415) == 0 and GetEventStatus(25000416) == 0 and GetEventStatus(25000417) == 0 and GetEventStatus(25000418) == 0 and GetEventStatus(25000419) == 0, 10, 99002019, -1) # Enable 10
+        
+        AddTalkListDataIf(GetEventStatus(25000410) == 1 or GetEventStatus(25000411) == 1 or GetEventStatus(25000412) == 1 or GetEventStatus(25000413) == 1 or GetEventStatus(25000414) == 1 or GetEventStatus(25000415) == 1 or GetEventStatus(25000416) == 1 or GetEventStatus(25000417) == 1 or GetEventStatus(25000418) == 1 or GetEventStatus(25000419) == 1, 90, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # 10
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000410, 1)
+            OpenGenericDialog(1, 99002410, 0, 0, 0)
+        # 20
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000411, 1)
+            OpenGenericDialog(1, 99002411, 0, 0, 0)
+        # 30
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25000412, 1)
+            OpenGenericDialog(1, 99002412, 0, 0, 0)
+        # 40
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25000413, 1)
+            OpenGenericDialog(1, 99002413, 0, 0, 0)
+        # 50
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25000414, 1)
+            OpenGenericDialog(1, 99002414, 0, 0, 0)
+        # 60
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(25000415, 1)
+            OpenGenericDialog(1, 99002415, 0, 0, 0)
+        # 70
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(25000416, 1)
+            OpenGenericDialog(1, 99002416, 0, 0, 0)
+        # 80
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(25000417, 1)
+            OpenGenericDialog(1, 99002417, 0, 0, 0)
+        # 90
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(25000418, 1)
+            OpenGenericDialog(1, 99002418, 0, 0, 0)
+        # 100
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25000419, 1)
+            OpenGenericDialog(1, 99002419, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 90:
+            SetEventState(25000410, 0)
+            SetEventState(25000411, 0)
+            SetEventState(25000412, 0)
+            SetEventState(25000413, 0)
+            SetEventState(25000414, 0)
+            SetEventState(25000415, 0)
+            SetEventState(25000416, 0)
+            SetEventState(25000417, 0)
+            SetEventState(25000418, 0)
+            SetEventState(25000419, 0)
+            OpenGenericDialog(1, 99002301, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+        
+#--------------------------------------------
+# Curse of Vitality
+#--------------------------------------------
+def t400509_x22():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 1, 99002010, -1) # Enable 1
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 2, 99002011, -1) # Enable 2
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 3, 99002012, -1) # Enable 3
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 4, 99002013, -1) # Enable 4
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 5, 99002014, -1) # Enable 5
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 6, 99002015, -1) # Enable 6
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 7, 99002016, -1) # Enable 7
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 8, 99002017, -1) # Enable 8
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 9, 99002018, -1) # Enable 9
+        AddTalkListDataIf(GetEventStatus(25000420) == 0 and GetEventStatus(25000421) == 0 and GetEventStatus(25000422) == 0 and GetEventStatus(25000423) == 0 and GetEventStatus(25000424) == 0 and GetEventStatus(25000425) == 0 and GetEventStatus(25000426) == 0 and GetEventStatus(25000427) == 0 and GetEventStatus(25000428) == 0 and GetEventStatus(25000429) == 0, 10, 99002019, -1) # Enable 10
+        
+        AddTalkListDataIf(GetEventStatus(25000420) == 1 or GetEventStatus(25000421) == 1 or GetEventStatus(25000422) == 1 or GetEventStatus(25000423) == 1 or GetEventStatus(25000424) == 1 or GetEventStatus(25000425) == 1 or GetEventStatus(25000426) == 1 or GetEventStatus(25000427) == 1 or GetEventStatus(25000428) == 1 or GetEventStatus(25000429) == 1, 90, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # 10
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000420, 1)
+            OpenGenericDialog(1, 99002420, 0, 0, 0)
+        # 20
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000421, 1)
+            OpenGenericDialog(1, 99002421, 0, 0, 0)
+        # 30
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25000422, 1)
+            OpenGenericDialog(1, 99002422, 0, 0, 0)
+        # 40
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25000423, 1)
+            OpenGenericDialog(1, 99002423, 0, 0, 0)
+        # 50
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25000424, 1)
+            OpenGenericDialog(1, 99002424, 0, 0, 0)
+        # 60
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(25000425, 1)
+            OpenGenericDialog(1, 99002425, 0, 0, 0)
+        # 70
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(25000426, 1)
+            OpenGenericDialog(1, 99002426, 0, 0, 0)
+        # 80
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(25000427, 1)
+            OpenGenericDialog(1, 99002427, 0, 0, 0)
+        # 90
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(25000428, 1)
+            OpenGenericDialog(1, 99002428, 0, 0, 0)
+        # 100
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25000429, 1)
+            OpenGenericDialog(1, 99002429, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 90:
+            SetEventState(25000420, 0)
+            SetEventState(25000421, 0)
+            SetEventState(25000422, 0)
+            SetEventState(25000423, 0)
+            SetEventState(25000424, 0)
+            SetEventState(25000425, 0)
+            SetEventState(25000426, 0)
+            SetEventState(25000427, 0)
+            SetEventState(25000428, 0)
+            SetEventState(25000429, 0)
+            OpenGenericDialog(1, 99002302, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+        
+#--------------------------------------------
+# Curse of Wrath
+#--------------------------------------------
+def t400509_x23():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 1, 99002010, -1) # Enable 1
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 2, 99002011, -1) # Enable 2
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 3, 99002012, -1) # Enable 3
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 4, 99002013, -1) # Enable 4
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 5, 99002014, -1) # Enable 5
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 6, 99002015, -1) # Enable 6
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 7, 99002016, -1) # Enable 7
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 8, 99002017, -1) # Enable 8
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 9, 99002018, -1) # Enable 9
+        AddTalkListDataIf(GetEventStatus(25000430) == 0 and GetEventStatus(25000431) == 0 and GetEventStatus(25000432) == 0 and GetEventStatus(25000433) == 0 and GetEventStatus(25000434) == 0 and GetEventStatus(25000435) == 0 and GetEventStatus(25000436) == 0 and GetEventStatus(25000437) == 0 and GetEventStatus(25000438) == 0 and GetEventStatus(25000439) == 0, 10, 99002019, -1) # Enable 10
+        
+        AddTalkListDataIf(GetEventStatus(25000430) == 1 or GetEventStatus(25000431) == 1 or GetEventStatus(25000432) == 1 or GetEventStatus(25000433) == 1 or GetEventStatus(25000434) == 1 or GetEventStatus(25000435) == 1 or GetEventStatus(25000436) == 1 or GetEventStatus(25000437) == 1 or GetEventStatus(25000438) == 1 or GetEventStatus(25000439) == 1, 90, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # 10
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000430, 1)
+            OpenGenericDialog(1, 99002430, 0, 0, 0)
+        # 20
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000431, 1)
+            OpenGenericDialog(1, 99002431, 0, 0, 0)
+        # 30
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25000432, 1)
+            OpenGenericDialog(1, 99002432, 0, 0, 0)
+        # 40
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25000433, 1)
+            OpenGenericDialog(1, 99002433, 0, 0, 0)
+        # 50
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25000434, 1)
+            OpenGenericDialog(1, 99002434, 0, 0, 0)
+        # 60
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(25000435, 1)
+            OpenGenericDialog(1, 99002435, 0, 0, 0)
+        # 70
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(25000436, 1)
+            OpenGenericDialog(1, 99002436, 0, 0, 0)
+        # 80
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(25000437, 1)
+            OpenGenericDialog(1, 99002437, 0, 0, 0)
+        # 90
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(25000438, 1)
+            OpenGenericDialog(1, 99002438, 0, 0, 0)
+        # 100
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25000439, 1)
+            OpenGenericDialog(1, 99002439, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 90:
+            SetEventState(25000430, 0)
+            SetEventState(25000431, 0)
+            SetEventState(25000432, 0)
+            SetEventState(25000433, 0)
+            SetEventState(25000434, 0)
+            SetEventState(25000435, 0)
+            SetEventState(25000436, 0)
+            SetEventState(25000437, 0)
+            SetEventState(25000438, 0)
+            SetEventState(25000439, 0)
+            OpenGenericDialog(1, 99002303, 0, 0, 0)
+            
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+#--------------------------------------------
+# Curse of Attraction
+#--------------------------------------------
+def t400509_x24():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000440) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000440) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000440, 1)
+            OpenGenericDialog(1, 99002440, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000440, 0)
+            OpenGenericDialog(1, 99002304, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+#--------------------------------------------
+# Curse of Obscurity
+#--------------------------------------------
+def t400509_x25():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000450) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000450) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000450, 1)
+            OpenGenericDialog(1, 99002450, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000450, 0)
+            OpenGenericDialog(1, 99002305, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Simplicity
+#--------------------------------------------
+def t400509_x26():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000460) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000460) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000460, 1)
+            OpenGenericDialog(1, 99002460, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000460, 0)
+            OpenGenericDialog(1, 99002306, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Gluttony
+#--------------------------------------------
+def t400509_x27():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000470) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000470) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000470, 1)
+            OpenGenericDialog(1, 99002470, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000470, 0)
+            OpenGenericDialog(1, 99002307, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Frailty
+#--------------------------------------------
+def t400509_x28():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000480) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000480) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000480, 1)
+            OpenGenericDialog(1, 99002480, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000480, 0)
+            OpenGenericDialog(1, 99002308, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Enfeeblement
+#--------------------------------------------
+def t400509_x29():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000490) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000490) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000490, 1)
+            OpenGenericDialog(1, 99002490, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000490, 0)
+            OpenGenericDialog(1, 99002309, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Impermanence
+#--------------------------------------------
+def t400509_x30():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000500) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000500) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000500, 1)
+            OpenGenericDialog(1, 99002500, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000500, 0)
+            OpenGenericDialog(1, 99002310, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#--------------------------------------------
+# Curse of Valor
+#--------------------------------------------
+def t400509_x31():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListDataIf(GetEventStatus(25000510) == 0, 1, 99002005, -1) # Enable
+        AddTalkListDataIf(GetEventStatus(25000510) == 1, 2, 99002006, -1) # Disable
+        
+        # Quit
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000510, 1)
+            OpenGenericDialog(1, 99002510, 0, 0, 0)
+        # Disable
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000510, 0)
+            OpenGenericDialog(1, 99002311, 0, 0, 0)
+        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0

@@ -1956,7 +1956,7 @@ Persisting will transform you into a grub.</text>
 <text id="15003020">Pledge Loyalty</text>
 <text id="15003021">Weapon Infusions</text>
 <text id="15003022">Shield Infusions</text>
-<text id="15003023">Learn the Dark Arts</text>
+<text id="15003023">Learn the Magical Arts</text>
 <text id="15003024">Purchase Sidearms</text>
 <text id="15003025">Revoke Loyalty</text>
 <text id="15003026">Members of the Darkmoon will respond badly to this action.</text>
@@ -2897,13 +2897,16 @@ They must be killed before the ruins below can be entered.</text>
 <text id="80000202">Ahh, you think you're different? That you can handle it?
 Yes, I remember that feeling. For I was the same.</text>
 <text id="80000203">... So, let me help you out. With your soul-searching.</text>
+
 <text id="80000300">Well, you are a rare visitor.
-Welcome to the Cemetery of Ash, ashen one.</text>
-<text id="80000301">If you seek the power of the dark arts,
-I may be able to help with that.</text>
-<text id="80000302">Hmm. Watch your back out there.</text>
-<text id="80000303">Don't underestimate those hollows. 
+Welcome to the sanctum, ashen one.</text>
+<text id="80000301">If you seek the power of the magical arts,
+I may be able to help with that. I dabble in all kinds.</text>
+<text id="80000302">Watch your back out there. 
+Mindless hollows wander the grounds surrounding the shrine.</text>
+<text id="80000303">Don't underestimate the hollows. 
 They may be mindless, but their blades still cut deep.</text>
+
 <text id="90000000">%null%</text>
 <text id="90000001">%null%</text>
 <text id="90000002">%null%</text>
@@ -2970,6 +2973,7 @@ They may be mindless, but their blades still cut deep.</text>
 <text id="99000712">Trial of Sorrow</text>
 <text id="99000713">Trial of Devastation</text>
 <text id="99000714">Peer into the Past</text>
+<text id="99000715">Revive</text>
 <text id="99000720">Face the Remnants of Lordran</text>
 <text id="99000730">Face the Guardians of Anor Londo</text>
 <text id="99000731">The memory is not yet present...</text>
@@ -3282,7 +3286,7 @@ Empowers bosses, increasing the following:
 Enables an additional chance for a Primordial Fragment.</text>
 <text id="99002530">Commune</text>
 <text id="99002531">Inspect</text>
-<text id="99002532">Tomes</text>
+<text id="99002532">Affixes</text>
 <text id="99003500">Bestow Lordvessel</text>
 <text id="99003501">Relics</text>
 
@@ -3976,22 +3980,19 @@ You don't have any? Get out of here then.</text>
 <text id="99030513">A marriage proposal?
 Well, well, well, you are a looker, so yes,
 I accept your offer.</text>
-<text id="99030600">Reinforce Focusing Crystal</text>
-<text id="99030601">Reinforce crystal?</text>
-<text id="99030603">No Resonating Crystal</text>
-<text id="99030604">Focusing Crystal reinforced</text>
+
 <text id="99030610">Very good, very good indeed.
 Here, take this token of my appreciation.</text>
 <text id="99030611">Cursed one, you lack charm.
 Heh heh heh...</text>
-<text id="99030612">Crystals! I need crystals! You cursed fool!
-Bigger, stronger crystals! Heh heh...</text>
+<text id="99030612">Souls! I need souls! You cursed fool!
+Bigger, stronger souls! Heh heh...</text>
 <text id="99030613">Well! This is a most peculiar proposal.
-Prepare to peer straight into the heart of magic.
+Prepare to peer straight into the heart of souls.
 Heh heh heh...</text>
 <text id="99030615">Still a bit stiff, I'm afraid.
-I am Grudore. A wandering sorcerer of sorts.
-Bring me resonating crystals and I can provide
+I am Grudore. A wandering occultist of sorts.
+Bring me souls and I can provide
 goods and services that may be of use to you.</text>
 <text id="99030620">Give Farron Coal</text>
 <text id="99030621">Give Sage's Coal</text>
@@ -4012,5 +4013,7 @@ For the right amount of souls, I may be willing
 to part with some items of interest.</text>
 
 <text id="99030720">BONK!</text>
+<text id="99030730">You must possess the Seal of Judgment to peer into the past.</text>
+
 </entries>
 </fmg>

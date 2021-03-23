@@ -146,6 +146,16 @@
  - Contains all four of the knights now. They appear as apparitions within the arena, becoming normal as it is their turn to fight.
  - You must defeat all four in a row to win the boss fight.
  
+- Added the Dismal Knight:
+ - Appears in the courtyard near the Lonely Hollow.
+ - Drops Soul of the Dismal Knight, which can be transposed into:
+  - Accursed Sigil
+  - Cursed Ring of Evasion
+  - Cursed Ring of Vengeance
+  - Cursed Ring of Deflection
+  - Cursed Ring of Confusion
+  - Atonement
+
 # Weapons
 - Squished the range of physical absorption on shields to 90% -> 100%, meaning more shields have a higher physical guard absorption than before.
 
@@ -202,7 +212,25 @@
 - Removed 2 of the Giant Serpent-men in the gauntlet section to the dragon altar in Archdragon Peak.
 - Moved the Forlorn to the empty hill in Road of Sacrifices.
 - Moved Bewitched Knight Iwai into the chapel area in Profaned Capital.
+- Reworked the initial area in Cemetery of Ash.
+- Removed Corrupted Gundyr.
+- Removed old Lordran Remnants.
+- Changed the Untended Graves warp: it is now the big coffin in the Overgrown Sanctum arena. Requires the Seal of Judgment key item to use.
+- Moved Astrologer Lillian (was Grave Warden Lillian) to the Overgrown Sanctum.
+- Moved Magnum Ursus to the Overgrown Sanctum.
+- Moved Alchemist Jiji to the Overgrown Sanctum.
+- Moved Ritualist Ellie to the to the Overgrown Sanctum.
+- Moved Occultist Grudore (was Acolyte Grudore) to the Overgrown Sanctum.
+- Moved Remy the Rat to the Overgrown Sanctum.
+- Moved El Hueso to the Lonely Hollow area.
 
+# Menu
+- Moved the Affix mechanic to Magnum Ursus (removed the old table).
+- Moved the Curse mechanic to Occultist Grudore (removed the old table).
+ 
+# Shops
+- Astrologer Lillian now sells various low tier spells for all schools.
+ 
 # Items
 - Added Nullus Insignia/Emblem, that reveal the normal naked form whilst wearing armor when used.
 - Ancestral Note now places you in Untended Graves.
