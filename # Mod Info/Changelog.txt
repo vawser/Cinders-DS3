@@ -247,6 +247,7 @@
  - Removes the ability to sell items.
  - Removes the soul absorption bonus from Curses.
 - Removed Coiled Sword Fragment gift.
+- The new area notes now just unlock the bonfire warp, they don't immediately warp you there.
 
 # Treasure
 - Morric, the Fallen Knight now drops 1 Holy Gem.
