@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Acolyte Grudore
+#-- Occultist Grudore
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -22,7 +22,6 @@ def t400509_x0():
     """ State 0,1 """
     while True:
         call = t400509_x3()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
 
 # Client Player
 def t400509_x1():
@@ -68,7 +67,7 @@ def t400509_x3():
 def t400509_x4():
     """ State 0,5 """
     while True:
-        call = t400509_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000) # Interaction State
+        call = t400509_x5()
         if call.Done():
             """ State 3 """
             call = t400509_x8() # Menu Pre-loop
@@ -86,10 +85,10 @@ def t400509_x4():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 2 or GetPlayerYDistance() > 0.25:
                 """ State 4 """
                 call = t400509_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 1.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -101,22 +100,16 @@ def t400509_x4():
     t400509_x2() # Clear Talk State
     
 # Interaction State
-def t400509_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
+def t400509_x5():
     """ State 0,1 """
     while True:
         assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
                 and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
         """ State 2 """
         if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
             and not IsPlayerDead() and not IsCharacterDisabled())):
             pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
+        elif CheckActionButtonArea(6120):
             break
     """ State 4 """
     return 0
@@ -127,10 +120,8 @@ def t400509_x6():
     assert t400509_x2() # Clear Talk State
     """ State 3 """
     assert GetCurrentStateElapsedFrames() > 1
-    """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
     """ State 2 """
-    if GetDistanceToPlayer() > 12:
+    if GetDistanceToPlayer() > 3:
         """ State 7 """
         assert t400509_x2() # Clear Talk State
     else:
@@ -142,10 +133,10 @@ def t400509_x6():
 # Distance Check
 def t400509_x7():
     """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not 
         CheckSpecificPersonGenericDialogIsOpen(0)):
         """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
+        if GetDistanceToPlayer() > 3:
             """ State 4 """
             Label('L0')
             assert t400509_x2() # Clear Talk State
@@ -201,8 +192,7 @@ def t400509_x9():
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Form Betrothal
@@ -265,7 +255,7 @@ def t400509_x9():
             PlayerEquipmentQuantityChange(3, 2106, -1)
             OpenGenericDialog(1, 99030625, 0, 0, 0)
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
 # Menu Loop
@@ -343,7 +333,7 @@ def t400509_x15():
         elif GetTalkListEntryResult() == 12:
             assert t400509_x31()
             continue
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
     
 #--------------------------------------------
@@ -427,7 +417,7 @@ def t400509_x20():
             SetEventState(25000408, 0)
             SetEventState(25000409, 0)
             OpenGenericDialog(1, 99002300, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -511,7 +501,7 @@ def t400509_x21():
             SetEventState(25000418, 0)
             SetEventState(25000419, 0)
             OpenGenericDialog(1, 99002301, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
         
 #--------------------------------------------
@@ -595,7 +585,7 @@ def t400509_x22():
             SetEventState(25000428, 0)
             SetEventState(25000429, 0)
             OpenGenericDialog(1, 99002302, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
         
 #--------------------------------------------
@@ -680,7 +670,7 @@ def t400509_x23():
             SetEventState(25000439, 0)
             OpenGenericDialog(1, 99002303, 0, 0, 0)
             
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
 #--------------------------------------------
@@ -709,7 +699,7 @@ def t400509_x24():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000440, 0)
             OpenGenericDialog(1, 99002304, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
 #--------------------------------------------
@@ -738,7 +728,7 @@ def t400509_x25():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000450, 0)
             OpenGenericDialog(1, 99002305, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -767,7 +757,7 @@ def t400509_x26():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000460, 0)
             OpenGenericDialog(1, 99002306, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -796,7 +786,7 @@ def t400509_x27():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000470, 0)
             OpenGenericDialog(1, 99002307, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -825,7 +815,7 @@ def t400509_x28():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000480, 0)
             OpenGenericDialog(1, 99002308, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -854,7 +844,7 @@ def t400509_x29():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000490, 0)
             OpenGenericDialog(1, 99002309, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -883,7 +873,7 @@ def t400509_x30():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000500, 0)
             OpenGenericDialog(1, 99002310, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #--------------------------------------------
@@ -912,5 +902,5 @@ def t400509_x31():
         elif GetTalkListEntryResult() == 2:
             SetEventState(25000510, 0)
             OpenGenericDialog(1, 99002311, 0, 0, 0)
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

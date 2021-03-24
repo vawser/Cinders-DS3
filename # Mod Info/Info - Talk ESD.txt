@@ -236,7 +236,7 @@ Then create the python version and recompile it.
 400003
 400004
 400005 New Journey Giant
-400006 Altar of Afflition
+400006 UNUSED
 400010
 400120 Firekeeper
 400130 Ludleth #1
@@ -269,13 +269,13 @@ Then create the python version and recompile it.
 400500 Nestling
 400501 Skeleton Banter
 400502 Blade of Champions
-400503 Grave Warden Lillian # Talk Flags: 74009000
+400503 Astrologer Lillian # Talk Flags: 74009000
 400504 Magnum Ursus
 400505 Enchanter Jiji
 400506 Remy the Rat
-400507 Affixing Table
+400507 UNUSED
 400508 Ritualist Ellie
-400509 Acolyte Grudore
+400509 Occultist Grudore
 400790
 400791
 400792

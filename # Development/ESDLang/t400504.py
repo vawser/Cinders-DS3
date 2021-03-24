@@ -22,7 +22,6 @@ def t400504_x0():
     """ State 0,1 """
     while True:
         call = t400504_x3()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
 
 # Client Player
 def t400504_x1():
@@ -68,7 +67,7 @@ def t400504_x3():
 def t400504_x4():
     """ State 0,5 """
     while True:
-        call = t400504_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000) # Interaction State
+        call = t400504_x5() # Interaction State
         if call.Done():
             """ State 3 """
             call = t400504_x8() # Menu Pre-loop
@@ -86,10 +85,10 @@ def t400504_x4():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 2 or GetPlayerYDistance() > 0.25:
                 """ State 4 """
                 call = t400504_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 1.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -101,22 +100,16 @@ def t400504_x4():
     t400504_x2() # Clear Talk State
     
 # Interaction State
-def t400504_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
+def t400504_x5():
     """ State 0,1 """
     while True:
         assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
                 and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
         """ State 2 """
         if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
             and not IsPlayerDead() and not IsCharacterDisabled())):
             pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
+        elif CheckActionButtonArea(6120):
             break
     """ State 4 """
     return 0
@@ -127,10 +120,8 @@ def t400504_x6():
     assert t400504_x2() # Clear Talk State
     """ State 3 """
     assert GetCurrentStateElapsedFrames() > 1
-    """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
     """ State 2 """
-    if GetDistanceToPlayer() > 12:
+    if GetDistanceToPlayer() > 3:
         """ State 7 """
         assert t400504_x2() # Clear Talk State
     else:
@@ -142,10 +133,10 @@ def t400504_x6():
 # Distance Check
 def t400504_x7():
     """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not
         CheckSpecificPersonGenericDialogIsOpen(0)):
         """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
+        if GetDistanceToPlayer() > 3:
             """ State 4 """
             Label('L0')
             assert t400504_x2() # Clear Talk State
@@ -247,7 +238,7 @@ def t400504_x9():
         elif GetTalkListEntryResult() == 3:
             assert t400504_x20()
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 # Relics
@@ -277,8 +268,7 @@ def t400504_x11():
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Relic of Power
@@ -349,7 +339,7 @@ def t400504_x11():
             GetItemFromItemLot(80430)
             SetEventState(25000053, 1)
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 # Menu Loop
@@ -367,8 +357,7 @@ def t400504_x20():
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Apply Affix
@@ -384,7 +373,7 @@ def t400504_x20():
             ReportConversationEndToHavokBehavior()
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------
@@ -414,8 +403,7 @@ def t400504_x40():
         # Quit
         AddTalkListData(99, 15000180, -1)
 
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Basic Affix 
@@ -439,7 +427,7 @@ def t400504_x40():
             assert t400504_x45()
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------
@@ -645,8 +633,7 @@ def t400504_x41():
         # Quit
         AddTalkListData(99, 15000180, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Life Ring
@@ -1006,7 +993,7 @@ def t400504_x41():
             assert t400504_x50(31070, 31071, 1, -2)
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------
@@ -1212,8 +1199,7 @@ def t400504_x42():
         # Quit
         AddTalkListData(99, 15000180, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Life Ring
@@ -1573,7 +1559,7 @@ def t400504_x42():
             assert t400504_x50(31071, 31072, 3, -4)
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------
@@ -1779,8 +1765,7 @@ def t400504_x43():
         # Quit
         AddTalkListData(99, 15000180, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Life Ring
@@ -2140,7 +2125,7 @@ def t400504_x43():
             assert t400504_x50(31072, 31073, 5, -6)
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------
@@ -2346,8 +2331,7 @@ def t400504_x44():
         # Quit
         AddTalkListData(99, 15000180, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Life Ring
@@ -2707,7 +2691,7 @@ def t400504_x44():
             assert t400504_x50(31073, 31074, 7, -8)
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------
@@ -2914,8 +2898,7 @@ def t400504_x45():
         # Quit
         AddTalkListData(99, 15000180, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # Life Ring
@@ -3275,7 +3258,7 @@ def t400504_x45():
             assert t400504_x50(31074, 31075, 9, -10)
             return 0
         # Leave
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
 #----------------------------------------------------------

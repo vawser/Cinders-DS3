@@ -256,6 +256,7 @@
 - Frozen Chaos Essence now found at the top of the Millwood Tower.
 
 # Bugfixes
+- All the new NPC talk esds now correctly exit conversation, which should fix the NPC talk bug in every instance.
 - Yuria will now allow you to talk to her if you've failed her quest.
 
 #------------------------------
