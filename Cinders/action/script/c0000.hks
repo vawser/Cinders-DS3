@@ -2702,32 +2702,32 @@ function ExecMagic(quick_type, blend_type)
     
     -- Farron Dart
     if magic_type == 29 then 
-        act(2002, 113001)
+        act(2002, 113003)
     end
     
     -- Farron Flashsword
     if magic_type == 30 then 
-        act(2002, 113001)
+        act(2002, 113003)
     end
     
     -- Dark Edge
     if magic_type == 37 then
-        act(2002, 113001)
+        act(2002, 113003)
     end
     
     -- Lifehunt Scythe
     if magic_type == 44 then
-        act(2002, 113003)
+        act(2002, 113005)
     end
     
     -- Old Moonlight
     if magic_type == 46 then 
-        act(2002, 113003)
+        act(2002, 113005)
     end
     
     -- Flame Fan
     if magic_type == 50 then 
-        act(2002, 113001)
+        act(2002, 113003)
     end
     
     ----------------------
