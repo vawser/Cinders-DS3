@@ -6929,10 +6929,13 @@ Event(20081210, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     IfCharacterDamagedBy(AND_01, X4_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
-    
-    SetCharacterTeamType(X4_4, TeamType.StrongEnemy);
-    WaitFixedTimeFrames(1);
-    RequestCharacterAIReplan(X4_4);
+
+    SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
+
+    // Disable
+    SetCharacterAIState(X4_4, Disabled);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
