@@ -6941,6 +6941,38 @@ Event(20081210, Default, function(X0_4, X4_4) {
 });
 
 //----------------------------------------------
+// Merchant - Disable based on flag
+// <sent flag>, <entity id>
+//----------------------------------------------
+Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
+    
+    SetCharacterAIState(X4_4, Disabled);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+});
+
+//----------------------------------------------
+// Merchant - Enable based on flag
+// <sent flag>, <entity id>
+//----------------------------------------------
+Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    SetCharacterAIState(X4_4, Disabled);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
+    
+    SetCharacterAIState(X4_4, Enabled);
+    ChangeCharacterEnableState(X4_4, Enabled);
+    SetCharacterAnimationState(X4_4, Enabled);
+});
+
+//----------------------------------------------
 // Intruder - Setup
 // <entity id>
 //----------------------------------------------

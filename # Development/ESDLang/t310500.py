@@ -175,6 +175,15 @@ def t310500_x9():
         # Give Smithbox
         AddTalkListDataIf(GetEventStatus(25009540) == 0 and ComparePlayerInventoryNumber(3, 2006, 2, 0, 0) == 1, 5, 99013111, -1)
         
+        # Smithbox
+        AddTalkListDataIf(GetEventStatus(25009540) == 0, 4, 99013110, -1)
+        
+        # Send to Overgrown Sanctum
+        AddTalkListDataIf(GetEventStatus(25009541) == 0, 10, 99013120, -1)
+        
+        # Talk
+        #AddTalkListData(3, 10010200, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -205,6 +214,10 @@ def t310500_x9():
             PlayerEquipmentQuantityChange(3, 2006, -1)
             OpenGenericDialog(1, 99013116, 0, 0, 0)
             continue  
+        # Send to Overgrown Sanctum
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25009541, 1)
+            return 0 
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
