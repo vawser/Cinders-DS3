@@ -6949,6 +6949,8 @@ Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     
+    SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
+    
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
