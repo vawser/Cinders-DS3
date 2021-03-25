@@ -89,7 +89,7 @@
 - The Dismal Knight is now parriable.
 
 # Spells
-- Reduced projectile count of Fecal Expulsion to 5 (6), increased FP Pause to 5, and the Toxic inflict to 10.
+- Reduced projectile count of Fecal Expulsion to 5 (6), reduced the spread, increased FP Pause to 5, and reduced the Toxic inflict to 25. But added 20 physical damage to the projectiles.
 
 # Bugfixes
 - Aborr now correctly uses the Winged Knight Twinaxes AI.
