@@ -1,0 +1,12 @@
+﻿#--------------------------------------
+# Overview
+#--------------------------------------
+If a map is loaded with that contains an AI file found in the common file, it will override that file and disable its usage outside of that map.
+ i.e. 
+  - Aborr uses 129010 - the Winged Knight AI found in the common file
+  - The Foot of the High Wall bonfire had a collision that loaded m30
+  - m30 has a map-specific version of 129010, which caused the 129010 present in the common file to be disabled, and broke Aborr's AI.
+
+#--------------------------------------
+# Additions
+#--------------------------------------

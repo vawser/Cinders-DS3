@@ -85,12 +85,15 @@
 # Changelog
 #------------------------------
 # Bosses
-- Aborr now enrages if you kill his dog, boost physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
-- The Dismal Knight is now properly parriable.
+- Aborr now enrages if you kill his dog, boosting physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
+- The Dismal Knight is now parriable.
+
+# Spells
+- Reduced projectile count of Fecal Expulsion to 5 (6), increased FP Pause to 5, and the Toxic inflict to 10.
 
 # Bugfixes
 - Aborr now correctly uses the Winged Knight Twinaxes AI.
-- Aborr's AI is no longer if you touch from the Foot of the High Wall bonfire collision.
+- Aborr's AI is no longer broken if you touch from the Foot of the High Wall bonfire collision.
 
 #------------------------------
 # TODO - General
