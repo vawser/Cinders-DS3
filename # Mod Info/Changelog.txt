@@ -86,6 +86,7 @@
 #------------------------------
 # Bosses
 - Aborr now enrages if you kill his dog, boost physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
+- The Dismal Knight is now properly parriable.
 
 # Bugfixes
 - Aborr now correctly uses the Winged Knight Twinaxes AI.
