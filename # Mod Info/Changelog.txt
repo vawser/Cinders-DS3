@@ -91,6 +91,11 @@
 
 # Mechanics
 - Changed Base FP regen to 5.
+- Stat effectiveness curve altered so initial 20 levels are slightly more powerful, but the range from 20 to 60 is more of a plateau.
+
+# Map
+- Knight's Rest bonfire is now available by default.
+- Moved the Pursuer to small courtyard before the Winged Knight courtyard in High Wall.
 
 # Bugfixes
 - Fixed incorrect shield stability multipliers.
@@ -98,4 +103,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-a828_051000
