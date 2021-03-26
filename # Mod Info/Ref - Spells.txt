@@ -519,9 +519,10 @@
 #--------------------------------
 # Fecal Explusion
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 40
 - Slot Use: 1
-- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 30 Toxic, which deals 90 + 0.1% HP per second for 60 seconds.
+- Physical Damage: 20 {60}
+- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
 - Ascended Effect: emit an additional four projectiles.
 
 #--------------------------------------------------------------------------

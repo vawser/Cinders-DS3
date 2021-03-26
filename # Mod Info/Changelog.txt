@@ -88,6 +88,18 @@
 - Aborr now enrages if you kill his dog, boosting physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
 - The Dismal Knight is now parriable.
 
+# Weapons
+- Boosted base damage of all weapons by 6%.
+- Boosted base damage of the Paired Dagger category.
+- Boosted base damage of the Greatsword category.
+- Boosted base damage of the Curved Greatsword category.
+- Boosted base damage of the Ultra Greatsword category.
+- Boosted base damage of the Greataxe category.
+- Boosted base damage of the Great Hammer category.
+- Reduced base damage of the Crossbow category.
+- Reduced base damage of the Bow category.
+- Changed several Dragon weapons into psuedo-raw weapons, where they have high base damage but no scaling.
+
 # Spells
 - Reduced projectile count of Fecal Expulsion to 5 (6), reduced the spread, increased FP Pause to 5, and reduced the Toxic inflict to 25. But added 20 physical damage to the projectiles.
 
