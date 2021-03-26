@@ -84,64 +84,18 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Bosses
-- Aborr now enrages if you kill his dog, boosting physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
-- The Dismal Knight is now parriable.
-- Added the Twisted Knight:
- - Found in Lothric Castle.
- - Has a unique mechanic, where you need to use a specific damage type to deal normal damage against him. Which it is switches every 20 seconds.
- - Drops the Twisted Soul, which transposes into the following:
-  - Cursed Ring of Evasion
-  - Cursed Ring of Vengeance
-  - Cursed Ring of Deflection
-  - Cursed Ring of Confusion
-  
 # Weapons
-- Boosted base damage of all weapons by 6%.
-- Boosted base damage of the Paired Dagger category.
-- Boosted base damage of the Greatsword category.
-- Boosted base damage of the Curved Greatsword category.
-- Boosted base damage of the Ultra Greatsword category.
-- Boosted base damage of the Greataxe category.
-- Boosted base damage of the Great Hammer category.
-- Reduced base damage of the Crossbow category.
-- Reduced base damage of the Bow category.
-- Changed several Dragon weapons into psuedo-raw weapons, where they have high base damage but no scaling.
-- Increased the FP cost of several Weapon Arts.
-
-# Spells
-- Reduced projectile count of Fecal Expulsion to 5 (6), reduced the spread, increased FP Pause to 5, and reduced the Toxic inflict to 25. But added 20 physical damage to the projectiles.
-
-# Items
-- Spellbound Bomb: FP cost is now 25
-- Spellbound Urn: FP cost is now 30
-- Spellbound Throwing Knife: FP cost is now 25
-- Spellbound Kukri: FP cost is now 30
-- Spellbound Dung: FP Cost is now 25
-- Spellbound Skull: FP cost is now 30
-- Throwing item animations now pause FP regen for 5 seconds.
-
-# Map
-- Added Pus of Man in the courtyard before Oceiros.
-- Added El Colmillo to the Lonely Hollow.
-- Added El Hueso to the Overgrown Sanctum.
-- Added El Acero to Firelink Shrine.
-- Red Lizzie Revenge is now triggered by the Furious Lizards being defeated.
+- Sidearms now use FP instead of durability.
+- Sidearms now pause FP regen.
+- Increased the damage of Cannon and Church Cannon.
 
 # Mechanics
-- Changed the FP regen rates to:
- - Base: 3 per second
- - Enchanted: 3 per second
- - Clarity: 3 per second
- - Darkmoon Faithful: 3 per second
- - Pulsating: 3 per second
- - Darkmoon Ring: 3/4/5/6/7/8 per second
- - Focusing Ring: 3/4/5/6/7/8 per second
- 
+- Changed Base FP regen to 5.
+
 # Bugfixes
-- Aborr now correctly uses the Winged Knight Twinaxes AI.
-- Aborr's AI is no longer broken if you touch from the Foot of the High Wall bonfire collision.
+- Fixed incorrect shield stability multipliers.
 
 #------------------------------
 # TODO - General
 #------------------------------
+a828_051000
