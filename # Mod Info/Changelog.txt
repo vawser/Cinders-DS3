@@ -11,7 +11,7 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002080 Cemetery of Ash / Unturned Graves
+54002081 Cemetery of Ash / Unturned Graves
 53002111 High Wall of Lothric / Consumed King's Garden
 53102097 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
@@ -115,6 +115,9 @@
 
 # Map
 - Added Pus of Man in the courtyard before Oceiros.
+- Added El Colmillo to the Lonely Hollow.
+- Added El Hueso to the Overgrown Sanctum.
+- Added El Acero to Firelink Shrine.
 
 # Mechanics
 - Changed the FP regen rates to:
@@ -133,3 +136,4 @@
 #------------------------------
 # TODO - General
 #------------------------------
+2143 
