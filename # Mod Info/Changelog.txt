@@ -12,7 +12,7 @@
 
 # These need to be used for new treasures in each area
 54002081 Cemetery of Ash / Unturned Graves
-53002111 High Wall of Lothric / Consumed King's Garden
+53002112 High Wall of Lothric / Consumed King's Garden
 53102097 Undead Settlement
 53302185 Road of Sacrifices / Farron Keep
 53502086 Cathedral of the Deep
@@ -87,7 +87,15 @@
 # Bosses
 - Aborr now enrages if you kill his dog, boosting physical absorptions by 50% and stamina recovery by 100 (plus red eyes).
 - The Dismal Knight is now parriable.
-
+- Added the Twisted Knight:
+ - Found in Lothric Castle.
+ - Has a unique mechanic, where you need to use a specific damage type to deal normal damage against him. Which it is switches every 20 seconds.
+ - Drops the Twisted Soul, which transposes into the following:
+  - Cursed Ring of Evasion
+  - Cursed Ring of Vengeance
+  - Cursed Ring of Deflection
+  - Cursed Ring of Confusion
+  
 # Weapons
 - Boosted base damage of all weapons by 6%.
 - Boosted base damage of the Paired Dagger category.
@@ -118,6 +126,7 @@
 - Added El Colmillo to the Lonely Hollow.
 - Added El Hueso to the Overgrown Sanctum.
 - Added El Acero to Firelink Shrine.
+- Red Lizzie Revenge is now triggered by the Furious Lizards being defeated.
 
 # Mechanics
 - Changed the FP regen rates to:
@@ -136,4 +145,3 @@
 #------------------------------
 # TODO - General
 #------------------------------
-

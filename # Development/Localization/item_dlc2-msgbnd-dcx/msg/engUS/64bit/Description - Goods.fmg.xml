@@ -1281,6 +1281,11 @@ Considered playthings of Yhorm the Giant, the twin Crystal Lizards were subject 
 One of the twisted souls, steeped in strength.
 
 Once an apostle of the Way of White, the Rock was induced into Gwyn's army as a knight during the Age of Fire. As time and land has shifted, the Rock has endured, although little of what he once was remains.</text>
+<text id="754">A twisted soul, writhed in occult energies and steeped in strength.
+
+Once an Embraced Knight, the Twisted Knight was the result of Occultist Grudore's necromantic fancies. 
+In an attempt to revive the once famed Embraced Knight, the ritual went askew, and the resulting creature turned upon its master.</text>
+
 <text id="800">Small stone made up of crystallized souls. 
 
 Restores 300 HP over 30 seconds.
@@ -1866,18 +1871,17 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2164">A crystal that constantly emits a pleasant tune.
 
 Exchange this crystal with Acolyte Grudore to empower the focusing crystal.</text>
-<text id="2168">Crush to consume the blood of a 
-once mighty enemy.
+<text id="2170">A torn page from the journel of Occultist Grudore.
 
-Consuming this blood will revive enemies of yore, 
-allowing them to be fought once more.
-</text>
-<text id="2170">Dried fecal waste material, moist on the inside.
+'Alas, the experiment has gone awry. Nevertheless, the Twisted Knight as I now call him exhibits an unique trait: his visage shifts in hue and color. Attempts to harm him always resulted in failure, until I made the connection between his visage and my attacks. From my observations, it is as follows:
+- White: vulnerable to Physical attacks.
+- Red: vulnerable to Fire attacks.
+- Blue: vulnerable to Magic attacks.
+- Orange: vulnerable to Lightning attacks.
+- Purple: vulnerable to Purple attacks.
 
-Throw at enemy to inflict toxin build-up,
-but also ups your own toxicity.
+Having discovered this, I have lured the creature into a vacant room within the castle and departed for the cemetary.'</text>
 
-Though the stench makes it difficult to carry on one's person, inflicting toxins on an enemy yields high damage over time. Perhaps some Undead have fond memories of waste. Or, perhaps not.</text>
 <text id="2173">A pyromancy tome of the profaned flame, from the Profaned Capital.
 
 Give to the pyromancer master to learn profaned pyromancies.
@@ -2519,6 +2523,11 @@ Those who cannot remember the past are condemned to repeat it...</text>
 <text id="5031">A worn tome that contains an account of a past heir of fire and its downfall.
 
 Read to revive the Rock and warp to the entrance of the boss arena.
+
+Those who cannot remember the past are condemned to repeat it...</text>
+<text id="5032">A worn tome that contains an account of a past heir of fire and its downfall.
+
+Read to revive the Twisted Knight and warp to the entrance of the boss arena.
 
 Those who cannot remember the past are condemned to repeat it...</text>
 <text id="5300">Enchanted book inscribed with a cryptic ritual.

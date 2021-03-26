@@ -118,6 +118,7 @@ Event(0, Default, function() {
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
     InitializeEvent(31, 970, 13900850, 2400, 0, 0); // Furious Lizards
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
+    InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1846,6 +1847,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20129, 0); // Aborr
     InitializeEvent(0, 20130, 0); // Furious Lizards
     InitializeEvent(0, 20131, 0); // The Rock
+    InitializeEvent(0, 20132, 0); // Twisted Knight
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -3436,6 +3438,54 @@ Event(20131, Restart, function() {
     var ceremonyID = 0;
     
     var text_BossNotKilled = 99030130;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
+    
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Twisted Knight
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20132, Restart, function() {
+    var param_SpEffect_Trigger = 260100330;
+    
+    var flag_BossKilled     = 25001032;
+    var flag_BossDefeated   = 13010850;
+    var flag_BossInProgress = 13010851;
+    var flag_BossState1     = 9345;
+    var flag_BossState2     = 6345;
+    
+    var entity_SpawnPoint  = 3012981;
+    var entity_PlayerPoint = 3010981;
+    
+    var mapID      = 30;
+    var blockID    = 1;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030131;
     
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);

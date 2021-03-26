@@ -347,6 +347,7 @@
 <text id="751">Soul of Aborr</text>
 <text id="752">Exquisite Lizard Hide</text>
 <text id="753">Soul of the Rock</text>
+<text id="754">Twisted Soul</text>
 <text id="800">Lifegem</text>
 <text id="801">Radiant Lifegem</text>
 <text id="802">Old Radiant Lifegem</text>
@@ -511,8 +512,7 @@
 <text id="2162">Bone Fragment</text>
 <text id="2163">Lizard Hide</text>
 <text id="2164">Resonating Crystal</text>
-<text id="2168">Blood of Might</text>
-<text id="2170">Ceaseless Dung Pie</text>
+<text id="2170">Torn Excerpt</text>
 <text id="2173">Profaned Pyromancy Tome</text>
 <text id="2174">Accursed Scroll</text>
 <text id="2175">Writhing Tome</text>
@@ -664,6 +664,7 @@
 <text id="5029">Tome: Aborr</text>
 <text id="5030">Tome: Furious Lizards</text>
 <text id="5031">Tome: The Rock</text>
+<text id="5032">Tome: Twisted Knight</text>
 <text id="5300">Opus of Sunlight</text>
 <text id="5301">Opus of the Crab</text>
 <text id="5302">Opus of the Rock</text>

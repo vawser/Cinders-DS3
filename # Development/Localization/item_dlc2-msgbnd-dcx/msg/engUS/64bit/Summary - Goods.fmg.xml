@@ -331,6 +331,7 @@
 <text id="751">One of the twisted souls, steeped in strength</text>
 <text id="752">An exquisite lizard hide, steeped in strength</text>
 <text id="753">One of the twisted souls, steeped in strength</text>
+<text id="754">One of the twisted souls, steeped in strength</text>
 <text id="800">Restore small amount of HP over time</text>
 <text id="801">Restore medium amount of HP over time</text>
 <text id="802">Restore large amount of HP over time</text>
@@ -495,8 +496,7 @@
 <text id="2162">Exchange with the nestling atop Firelink Shrine</text>
 <text id="2163">Exchange with the nestling atop Firelink Shrine</text>
 <text id="2164">Empowers the Focus Implement</text>
-<text id="2168">Crush to revive champions of yore</text>
-<text id="2170">Turns enemy toxic, but also affects user</text>
+<text id="2170">Notes on the Twisted Knight</text>
 <text id="2173">Learn pyromancies of the Profaned Capital</text>
 <text id="2174">Learn sorceries from the Cathedral of the Deep</text>
 <text id="2175">Learn sorceries from the Cathedral of the Deep</text>
@@ -670,6 +670,7 @@
 <text id="5029">Revive Aborr</text>
 <text id="5030">Revive Furious Lizards</text>
 <text id="5031">Revive the Rock</text>
+<text id="5032">Revive the Twisted Knight</text>
 <text id="5300">Beckon Solaire of Astora to the player</text>
 <text id="5301">Beckon El Crabbo to the player</text>
 <text id="5302">Beckon Rocky to the player</text>
