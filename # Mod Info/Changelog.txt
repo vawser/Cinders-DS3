@@ -94,6 +94,10 @@
 - Changed Base FP regen to 5.
 - Stat effectiveness curve altered so initial 20 levels are slightly more powerful, but the range from 20 to 60 is more of a plateau.
 - Reduced the cost of leveling.
+- Increased the initial HP to 500 (was 100) at 1 Vigor.
+
+# Bosses
+- Changed Aborr's Enrage to +20% absorption and +20% damage (was +50% absorption).
 
 # Map
 - Knight's Rest bonfire is now available by default.
