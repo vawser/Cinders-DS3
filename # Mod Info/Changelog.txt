@@ -88,11 +88,12 @@
 - Sidearms now use FP instead of durability.
 - Sidearms now pause FP regen.
 - Increased the damage of Cannon and Church Cannon.
-- Increased the base damage of Stock and the Aux infusions, so the output damage gap between them and the other infusions isn't as massive (was 30%, now ~15%).
+- Increased the base damage of Stock and the Aux infusions, so the damage output gap between them and the other infusions isn't as massive (was 30%, now ~15%).
 
 # Mechanics
 - Changed Base FP regen to 5.
 - Stat effectiveness curve altered so initial 20 levels are slightly more powerful, but the range from 20 to 60 is more of a plateau.
+- Reduced the cost of leveling.
 
 # Map
 - Knight's Rest bonfire is now available by default.
