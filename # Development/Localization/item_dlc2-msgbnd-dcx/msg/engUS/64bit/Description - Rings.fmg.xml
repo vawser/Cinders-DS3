@@ -59,7 +59,7 @@
 
 <text id="10000">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 5 FP every second whilst worn.
+Restores 3 FP every second whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
@@ -1025,32 +1025,32 @@ In the Cathedral slumber things most terrible, and as such, the deacons require 
 <text id="20329">%null%</text>
 <text id="20330">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 5 FP every second.
+Restores 3 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20331">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 6 FP every second.
+Restores 4 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20332">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 7 FP every second.
+Restores 5 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20333">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 8 FP every second.
+Restores 6 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20334">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 9 FP every second.
+Restores 7 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20335">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 10 FP every second.
+Restores 8 FP every second.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20336">%null%</text>
@@ -2005,32 +2005,32 @@ This ring was entrusted to a certain Fire Keeper, but in the end she never met h
 <text id="20709">%null%</text>
 <text id="20710">Gray crystalline ring crafted from shards.
 
-Restores 5 FP while standing still.
+Restores 3 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20711">Gray crystalline ring crafted from shards.
 
-Restores 6 FP while standing still.
+Restores 4 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20712">Gray crystalline ring crafted from shards.
 
-Restores 7 FP while standing still.
+Restores 5 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20713">Gray crystalline ring crafted from shards.
 
-Restores 8 FP while standing still.
+Restores 6 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20714">Gray crystalline ring crafted from shards.
 
-Restores 9 FP while standing still.
+Restores 7 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20715">Gray crystalline ring crafted from shards.
 
-Restores 10 FP while standing still.
+Restores 8 FP while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20716">%null%</text>

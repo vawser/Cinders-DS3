@@ -99,10 +99,33 @@
 - Reduced base damage of the Crossbow category.
 - Reduced base damage of the Bow category.
 - Changed several Dragon weapons into psuedo-raw weapons, where they have high base damage but no scaling.
+- Increased the FP cost of several Weapon Arts.
 
 # Spells
 - Reduced projectile count of Fecal Expulsion to 5 (6), reduced the spread, increased FP Pause to 5, and reduced the Toxic inflict to 25. But added 20 physical damage to the projectiles.
 
+# Items
+- Spellbound Bomb: FP cost is now 25
+- Spellbound Urn: FP cost is now 30
+- Spellbound Throwing Knife: FP cost is now 25
+- Spellbound Kukri: FP cost is now 30
+- Spellbound Dung: FP Cost is now 25
+- Spellbound Skull: FP cost is now 30
+- Throwing item animations now pause FP regen for 5 seconds.
+
+# Map
+- Added Pus of Man in the courtyard before Oceiros.
+
+# Mechanics
+- Changed the FP regen rates to:
+ - Base: 3 per second
+ - Enchanted: 3 per second
+ - Clarity: 3 per second
+ - Darkmoon Faithful: 3 per second
+ - Pulsating: 3 per second
+ - Darkmoon Ring: 3/4/5/6/7/8 per second
+ - Focusing Ring: 3/4/5/6/7/8 per second
+ 
 # Bugfixes
 - Aborr now correctly uses the Winged Knight Twinaxes AI.
 - Aborr's AI is no longer broken if you touch from the Foot of the High Wall bonfire collision.

@@ -2131,7 +2131,23 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25001031, ON);
+    // Treasure flags
+    BatchSetEventFlags(53000000, 53009999, OFF);
+    BatchSetEventFlags(53100000, 53109999, OFF);
+    BatchSetEventFlags(53200000, 53209999, OFF);
+    BatchSetEventFlags(53300000, 53309999, OFF);
+    BatchSetEventFlags(53410000, 53409999, OFF);
+    BatchSetEventFlags(53500000, 53509999, OFF);
+    BatchSetEventFlags(53700000, 53709999, OFF);
+    BatchSetEventFlags(53800000, 53809999, OFF);
+    BatchSetEventFlags(53900000, 53909999, OFF);
+    BatchSetEventFlags(54000000, 54009999, OFF);
+    BatchSetEventFlags(54100000, 54109999, OFF);
+    BatchSetEventFlags(54500000, 54509999, OFF);
+    BatchSetEventFlags(55000000, 55009999, OFF);
+    BatchSetEventFlags(55100000, 55109999, OFF);
+    
+    //SetEventFlag(25001031, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
