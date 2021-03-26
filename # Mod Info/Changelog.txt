@@ -102,7 +102,9 @@
 # Map
 - Knight's Rest bonfire is now available by default.
 - Moved the Pursuer to small courtyard before the Winged Knight courtyard in High Wall.
-
+- Grand Archives Rooftop bonfire is now available by default, and has been moved to the start of the stairs on the route to the Twin Princes.
+- Added a new bonfire called the Secluded Cloister to the Cathedral of the Deep, near to the Cathedral Guardian area.
+ 
 # Bugfixes
 - Fixed incorrect shield stability multipliers.
 
