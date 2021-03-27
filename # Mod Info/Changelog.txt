@@ -92,8 +92,7 @@
 
 # Mechanics
 - Changed Base FP regen to 8.
-- Stat effectiveness curve altered so initial 20 levels are slightly more powerful, but the range from 20 to 60 is more of a plateau.
-- Reduced the cost of leveling.
+- Stat effectiveness curve changed to {1:0%, 20:40%, 40:60%, 60:80%, 99:100%}
 - Increased the initial HP to 500 (was 100) at 1 Vigor.
 
 # Bosses
