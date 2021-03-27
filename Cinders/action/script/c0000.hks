@@ -16355,7 +16355,7 @@ function UpdateFP()
             ---------------------
             local stop_speed = GetVariable("MoveSpeedLevelReal")
             
-            if stop_speed < 1 then
+            if stop_speed < 0.1 then
                 if env(1116, 113220) == TRUE then
                     act(2002, 113120) -- Focusing Ring
                 end

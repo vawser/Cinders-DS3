@@ -16,7 +16,7 @@ don't want to lose your unmoded saves.
 #----------------------------------------
 Decompress your .zip file.
 
-Drop in your Dark Souls III Game directory the Cinders folder, modengine.ini and Dinput8.dll:
+Drop in your Dark Souls III Game directory the Cinders folder, modengine.ini, Dinput8.dll, HoodiePatcher.ini and HoodiePatcher.dll:
 ~\steamapps\common\DARK SOULS III\Game\
 
 After you did all the above go to modengine.ini and look for:

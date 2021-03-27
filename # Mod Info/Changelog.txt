@@ -91,7 +91,7 @@
 - Increased the base damage of Stock and the Aux infusions, so the damage output gap between them and the other infusions isn't as massive (was 30%, now ~15%).
 
 # Mechanics
-- Changed Base FP regen to 5.
+- Changed Base FP regen to 8.
 - Stat effectiveness curve altered so initial 20 levels are slightly more powerful, but the range from 20 to 60 is more of a plateau.
 - Reduced the cost of leveling.
 - Increased the initial HP to 500 (was 100) at 1 Vigor.
