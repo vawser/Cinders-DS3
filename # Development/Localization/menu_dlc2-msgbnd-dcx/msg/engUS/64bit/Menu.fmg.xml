@@ -3395,6 +3395,11 @@ Dark: increases Dark absorption by 5%.</text>
 Vibrating: restores an additional 3 HP per second.
 Throbbing: unlocks ascended effects for spells.
 Quivering: boosts cast speed by 25.</text>
+<text id="99004003">Reinforcement is no longer present.
+All weapons are inherently more powerful. 
+A weapon's power is released by increasing STR, DEX, INT or FTH.</text>
+<text id="99004004">Reinforcement</text>
+
 <text id="99005000">Does not work here.</text>
 <text id="99005100">Silver Knight Ledo intrudes...</text>
 <text id="99005101">Silver Knight Ledo has been vanquished</text>

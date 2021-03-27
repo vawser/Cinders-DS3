@@ -99,7 +99,12 @@
 - Stat effectiveness curve for Dark damage via Hex catalysts changed to {1:0%, 40:60%, 60:80%, 90:100%, 99:120%}
 
 # Bosses
+- Changed Aborr's arena: it is now the raised area on the side of the path to the Giant's Tower.
+ - He is now triggered when you open his personal chest, causing him to appear and his arena to block your exit, starting the fight.
 - Changed Aborr's Enrage to +20% absorption and +20% damage (was +50% absorption).
+
+# Enemies
+- Reduced the HP of several fodder enemies.
 
 # Map
 - Knight's Rest bonfire is now available by default.

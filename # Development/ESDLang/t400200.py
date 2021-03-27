@@ -219,7 +219,10 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 12 """
         # Reinforce Weapon
-        #AddTalkListData(2, 15010002, -1)
+        #AddTalkListData(13, 15010002, -1)
+        
+        # Reinforcement
+        AddTalkListData(14, 99004004, -1)
         
         # Weapon Infusions
         AddTalkListData(11, 15003021, -1)
@@ -339,6 +342,9 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
             continue
         elif GetTalkListEntryResult() == 13:
             OpenGenericDialog(1, 99004002, 0, 0, 0)
+            continue
+        elif GetTalkListEntryResult() == 14:
+            OpenGenericDialog(1, 99004003, 0, 0, 0)
             continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 30:
