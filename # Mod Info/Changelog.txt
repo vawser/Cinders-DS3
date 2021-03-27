@@ -113,6 +113,9 @@
 - Added a new bonfire called the Secluded Cloister to the Cathedral of the Deep, near to the Cathedral Guardian area.
 - Changed the warp from Irithyll -> Ariandel to use one of the paintings in the Silver Knight room in Irithyll.
 - Added a one-way warp from lower Irithyll to Anor Londo, accessed by the Gwynervere painting in the Silver Knight room in Irithyll.
+
+# Menus
+- Added Reinforcement option to Andre, telling players of its absence.
  
 # Bugfixes
 - Fixed incorrect shield stability multipliers.

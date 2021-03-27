@@ -3397,7 +3397,8 @@ Throbbing: unlocks ascended effects for spells.
 Quivering: boosts cast speed by 25.</text>
 <text id="99004003">Reinforcement is no longer present.
 All weapons are inherently more powerful. 
-A weapon's power is released by increasing STR, DEX, INT or FTH.</text>
+A weapon's power is released by increasing 
+STR, DEX, INT, FTH or LCK.</text>
 <text id="99004004">Reinforcement</text>
 
 <text id="99005000">Does not work here.</text>
