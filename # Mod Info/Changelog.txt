@@ -89,6 +89,7 @@
 - Sidearms now pause FP regen.
 - Increased the damage of Cannon and Church Cannon.
 - Increased the base damage of Stock and the Aux infusions, so the damage output gap between them and the other infusions isn't as massive (was 30%, now ~15%).
+- Changed Dragon Greatsword, Dragon Bone Smasher, Dragon King Greataxe and King's Ultra Greatsword back to normal scaling weapons.
 
 # Mechanics
 - Changed Base FP regen to 8.
