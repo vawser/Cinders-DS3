@@ -92,8 +92,10 @@
 
 # Mechanics
 - Changed Base FP regen to 8.
-- Stat effectiveness curve changed to {1:0%, 20:40%, 40:60%, 60:80%, 99:100%}
+- Stat effectiveness curve changed to {1:0%, 40:60%, 60:80%, 90:90%, 99:100%}
 - Increased the initial HP to 500 (was 100) at 1 Vigor.
+- Stat effectiveness curve for Magic damage via Sorcery catalysts changed to {1:0%, 40:60%, 60:80%, 90:100%, 99:120%}
+- Stat effectiveness curve for Dark damage via Hex catalysts changed to {1:0%, 40:60%, 60:80%, 90:100%, 99:120%}
 
 # Bosses
 - Changed Aborr's Enrage to +20% absorption and +20% damage (was +50% absorption).
