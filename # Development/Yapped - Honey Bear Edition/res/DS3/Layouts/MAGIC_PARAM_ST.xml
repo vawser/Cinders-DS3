@@ -70,6 +70,11 @@
 	<item value="2" name="Faith" />
     <item value="3" name="Intelligence" />
   </enum>
+  <enum name="EffectCategory" type="u8">
+    <item value="3" name="Sorcery" />
+	<item value="4" name="Miracle" />
+	<item value="10" name="Pyromancy" />
+  </enum>
   <entry>
     <name>Message ID</name>
     <type>s32</type>
@@ -181,6 +186,8 @@
     <name>Effect Category</name>
     <type>u8</type>
     <default>4</default>
+    <enum>EffectCategory</enum>
+    <description>Affects the derivation of spell buff.</description>
   </entry>
   <entry>
     <name>Animation Category</name>
