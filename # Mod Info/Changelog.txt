@@ -106,6 +106,7 @@
 # Bosses
 - Increased Dismal Knight HP to 2000.
 - Increased Vordt's absorptions.
+- Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
 
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
@@ -113,6 +114,9 @@
 
 # Weapons
 - Hex catalysts now cast all schools. This should prevent the left-hand spell buff issue.
+- Changed Repeating Pistol so it is now a faster version of the Hunter's Pistol, but slightly weaker per shot.
+- Reduced the stamina and poise damage of the pistols heavily.
+- Increased the FP cost of sidearms slightly.
 
 # Infusions
 - Increased the on-hit effect of the Magic/Dark infusions.
