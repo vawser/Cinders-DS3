@@ -7181,7 +7181,6 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
-    //SetCharacterImmortality(X0_4, Enabled); // Prevent death
 
     // Clear companions when one is summoned
     IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
@@ -7227,6 +7226,19 @@ Event(20080002, Restart, function(X0_4) {
     IfCharacterHasSpeffect(AND_05, X0_4, 160761501, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_05);
     SetSpeffect(X0_4, 160763401);
+
+    // Falling
+    IfCharacterHasSpeffect(AND_06, X0_4, 32, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(7, FAIL, AND_06);
+    // Wait to see if the fall is significant
+    WaitFixedTimeSeconds(0.5);
+    IfCharacterHasSpeffect(AND_07, X0_4, 32, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(4, FAIL, AND_07);
+    // Warp companion to player position
+    SetCharacterGravity(X0_4, Disabled);
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 232, 10000);
+    WaitFixedTimeSeconds(0.5);
+    SetCharacterGravity(X0_4, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -7243,7 +7255,7 @@ Event(20080003, Restart, function(X0_4, X4_4) {
     
     SkipIfCharacterHasSpeffect(1, X0_4, 160761501, false, ComparisonType.Equal, 1); // Skip if not active
     DisplayEpitaphMessage(99030030); // Tell player the companion is already active
-    
+
     EndUnconditionally(EventEndType.Restart);
 });
 

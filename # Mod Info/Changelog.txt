@@ -97,6 +97,10 @@
 - Reduced the price of the offerings and tools.
 - Removed ember requirement for summoning.
 - All companions now stay for 60 seconds by default.
+- Companions now have fall protection, they will warp to the player if they experience falling for longer than 0.5 seconds.
+
+# Enemies
+- Reduced the drop rate of gems from Red Crystal Lizards.
 
 #------------------------------
 # TODO - General
