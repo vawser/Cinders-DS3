@@ -84,7 +84,6 @@
 #------------------------------
 # Changelog
 #------------------------------
-
 # Companions
 - Added Imbuement system for the companion accessories. You now upgrade them with Ritual Incense.
  - Dial of Obedience: increase companion duration to 90/120/150/180/210/250.
