@@ -4,33 +4,32 @@
 - HP in first [] is for Nightmare form
 - Absorption percentages are damage taken.
 
-# Corrupted Gundyr 
+# Dismal Knight
 - NG0 HP: 2000  
 - NG+ HP: 2400 
 - Souls: 3000
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       90%
-- Absorption: Thrust:       90%
+- Absorption: Standard:     75%
+- Absorption: Slash:        75%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       75%
 - Absorption: Magic:        90%
-- Absorption: Fire:         130%
+- Absorption: Fire:         80%
 - Absorption: Lightning:    110%
 - Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
-- Considered Abyssal.
 
 # Vordt of the Boreal Valley 
 - NG0 HP: 3000 
 - NG+ HP: 3600 
 - Souls: 10000 
-- Absorption: Standard:     110%
-- Absorption: Slash:        110%
-- Absorption: Strike:       120%
-- Absorption: Thrust:       110%
-- Absorption: Magic:        90%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    110%
-- Absorption: Dark:         90%
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        80%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
 # Curse-rotted Greatwood 
