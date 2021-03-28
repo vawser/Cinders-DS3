@@ -7248,1044 +7248,264 @@ Event(20080003, Restart, function(X0_4, X4_4) {
 });
 
 //----------------------------------------------
-// Companion 1: Solaire - Effects
+// Companion - Effects
 // <entity id>
 // This handles the ring effects that boost a companion
 //----------------------------------------------
 Event(20080010, Restart, function(X0_4) {
+    var entity_Companion = X0_4;
+
+    //------------------------
     // Offering of Might
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
+    SetSpeffect(entity_Companion, 160764000);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603711, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764001);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603712, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764002);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603713, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764003);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603714, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764004);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603715, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764005);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
+    ClearSpeffect(entity_Companion, 160764000);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603711, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764001);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603712, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764002);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603713, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764003);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603714, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764004);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603715, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764005);
+    
+    //------------------------
     // Offering of Tenacity
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
+    SetSpeffect(entity_Companion, 160764010);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603721, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764011);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603722, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764012);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603723, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764013);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603724, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764014);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603725, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764015);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
+    ClearSpeffect(entity_Companion, 160764010);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603721, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764011);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603722, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764012);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603723, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764013);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603724, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764014);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603725, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764015);
+    
+    //------------------------
     // Offering of Fortitude
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
+    SetSpeffect(entity_Companion, 160764020);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603731, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764021);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603732, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764022);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603733, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764023);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603734, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764024);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603735, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764025);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
+    ClearSpeffect(entity_Companion, 160764020);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603731, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764021);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603732, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764022);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603733, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764023);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603734, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764024);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603735, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764025);
+    
+    //------------------------
     // Offering of Vitality
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
+    SetSpeffect(entity_Companion, 160764030);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603741, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764031);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603742, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764032);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603743, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764033);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603744, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764034);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603745, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764035);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
+    ClearSpeffect(entity_Companion, 160764030);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603741, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764031);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603742, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764032);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603743, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764033);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603744, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764034);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603745, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764035);
+    
+    //------------------------
     // Offering of Devotion
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
+    SetSpeffect(entity_Companion, 160764040);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603751, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764041);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603752, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764042);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603753, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764043);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603754, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764044);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603755, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764045);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
+    ClearSpeffect(entity_Companion, 160764040);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603751, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764041);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603752, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764042);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603753, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764043);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603754, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764044);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603755, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764045);
+    
+    //------------------------
     // Offering of Fervor
+    //------------------------
+    // ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
+    SetSpeffect(entity_Companion, 160764050);
     
+    SkipIfCharacterHasSpeffect(1, 10000, 160603761, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764051);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603762, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764052);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603763, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764053);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603764, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764054);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603765, false, ComparisonType.Equal, 1); // Skip if missing
+    SetSpeffect(entity_Companion, 160764055);
+    
+    // OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
+    ClearSpeffect(entity_Companion, 160764050);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603761, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764051);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603762, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764052);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603763, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764053);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603764, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764054);
+    
+    SkipIfCharacterHasSpeffect(1, 10000, 160603765, true, ComparisonType.Equal, 1); // Skip if present
+    ClearSpeffect(entity_Companion, 160764055);
     
     EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
-// Companion 2: El Crabbo - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080011, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 3: Rocky - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080012, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 4: Sluggo - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080013, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 5: Father John - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080014, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 6: Gimbal - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080015, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 7: El Hueso - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080016, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 8: Moxie - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080017, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 9: Erekris - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080018, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 10: Metora - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080019, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 11: Farold - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080020, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 12: Zarloth - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080021, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 13: Praxos - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080022, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 14: Woof - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080023, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 15: Alfreda - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080024, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 16: Tazshi - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080025, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 17: Bazdulk - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080026, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 18: UNUSED - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080027, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-
-//----------------------------------------------
-// Companion 19: UNUSED - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080028, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 20: UNUSED - Effects
-// <entity id>
-// This handles the ring effects that boost a companion
-//----------------------------------------------
-Event(20080029, Restart, function(X0_4) {
-    // Offering of Might
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    // Offering of Tenacity
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603720, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    // Offering of Fortitude
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603730, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    // Offering of Vitality
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603740, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    // Offering of Devotion
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603750, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    // Offering of Fervor
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603760, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 1: Solaire - Setup
+// Companion - Summoning
 // <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
 // This handles the companion summoning, duration and scheduled desummoning
 //----------------------------------------------
@@ -8334,462 +7554,37 @@ Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     // Duration - Dial of Obedience
     SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(89.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience+1
+    SkipIfCharacterHasSpeffect(3, 10000, 160603701, false, ComparisonType.Equal, 1); 
     WaitFixedTimeSeconds(119.0);
     SetSpeffect(X0_4, 160760101); // Desummon effect
     WaitFixedTimeSeconds(1.0);
     
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 2: El Crabbo - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080101, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(299.0);
+    // Duration - Dial of Obedience+2
+    SkipIfCharacterHasSpeffect(3, 10000, 160603702, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(149.0);
     SetSpeffect(X0_4, 160760101); // Desummon effect
     WaitFixedTimeSeconds(1.0);
     
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(599.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 3: Rocky - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080102, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(239.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 4: Sluggo - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080103, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(299.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(599.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 5: Father John - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080104, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(239.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 6: Gimbal - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080105, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 7: El Hueso - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080106, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(239.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 8: Moxie - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080107, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
+    // Duration - Dial of Obedience+3
+    SkipIfCharacterHasSpeffect(3, 10000, 160603703, false, ComparisonType.Equal, 1); 
     WaitFixedTimeSeconds(179.0);
     SetSpeffect(X0_4, 160760101); // Desummon effect
     WaitFixedTimeSeconds(1.0);
     
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(359.0);
+    // Duration - Dial of Obedience+4
+    SkipIfCharacterHasSpeffect(3, 10000, 160603704, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(209.0);
+    SetSpeffect(X0_4, 160760101); // Desummon effect
+    WaitFixedTimeSeconds(1.0);
+    
+    // Duration - Dial of Obedience+5
+    SkipIfCharacterHasSpeffect(3, 10000, 160603705, false, ComparisonType.Equal, 1); 
+    WaitFixedTimeSeconds(249.0);
     SetSpeffect(X0_4, 160760101); // Desummon effect
     WaitFixedTimeSeconds(1.0);
     
@@ -8804,782 +7599,3 @@ Event(20080107, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-//----------------------------------------------
-// Companion 9: Erekris - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080108, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 10: Metora - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080109, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 11: Farold - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080110, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 12: Zarloth - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080111, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 13: Praxos - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080112, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 14: Woof - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080113, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(179.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(359.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 15: Alfreda - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080114, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(19.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 16: Tazshi - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080115, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 17: Bazdulk - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080116, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 18: UNUSED - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080117, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 19: UNUSED - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080118, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion 20: UNUSED - Setup
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080119, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(29.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});

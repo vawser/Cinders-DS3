@@ -84,41 +84,20 @@
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Sidearms now use FP instead of durability.
-- Sidearms now pause FP regen.
-- Increased the damage of Cannon and Church Cannon.
-- Increased the base damage of Stock and the Aux infusions, so the damage output gap between them and the other infusions isn't as massive (was 30%, now ~15%).
-- Changed Dragon Greatsword, Dragon Bone Smasher, Dragon King Greataxe and King's Ultra Greatsword back to normal scaling weapons.
 
-# Mechanics
-- Changed Base FP regen to 8.
-- Stat effectiveness curve changed to {1:0%, 40:60%, 60:80%, 90:90%, 99:100%}
-- Increased the initial HP to 500 (was 100) at 1 Vigor.
-- Stat effectiveness curve for Magic damage via Sorcery catalysts changed to {1:0%, 40:60%, 60:80%, 90:100%, 99:120%}
-- Stat effectiveness curve for Dark damage via Hex catalysts changed to {1:0%, 40:60%, 60:80%, 90:100%, 99:120%}
-
-# Bosses
-- Changed Aborr's arena: it is now the raised area on the side of the path to the Giant's Tower.
- - He is now triggered when you open his personal chest, causing him to appear and his arena to block your exit, starting the fight.
-- Changed Aborr's Enrage to +20% absorption and +20% damage (was +50% absorption).
-
-# Enemies
-- Reduced the HP of several fodder enemies.
-
-# Map
-- Knight's Rest bonfire is now available by default.
-- Moved the Pursuer to small courtyard before the Winged Knight courtyard in High Wall.
-- Grand Archives Rooftop bonfire is now available by default, and has been moved to the start of the stairs on the route to the Twin Princes.
-- Added a new bonfire called the Secluded Cloister to the Cathedral of the Deep, near to the Cathedral Guardian area.
-- Changed the warp from Irithyll -> Ariandel to use one of the paintings in the Silver Knight room in Irithyll.
-- Added a one-way warp from lower Irithyll to Anor Londo, accessed by the Gwynervere painting in the Silver Knight room in Irithyll.
-
-# Menus
-- Added Reinforcement option to Andre, telling players of its absence.
- 
-# Bugfixes
-- Fixed incorrect shield stability multipliers.
+# Companions
+- Added Imbuement system for the companion accessories. You now upgrade them with Ritual Incense.
+ - Dial of Obedience: increase companion duration to 90/120/150/180/210/250.
+ - Offering of Might: increase companion damage by 20/40/60/80/100/150%.
+ - Offering of Tenacity: increase companion absorption by 10/20/30/40/50/60%.
+ - Offering of Fortitude: increase companion poise by 25/50/75/100/125/150.
+ - Offering of Vitality: increase companion HP by 25/50/75/100/150%.
+ - Offering of Devotion: grants companion 1/2/3/4/5/6% HP per second.
+ - Offering of Fervor: grants companion 30/40/50/60/70/80 stamina recovery.
+- Moved the Opus of Demons/Crystals/Loyalty/Allegiance and the Dog to Ritualist Ellie's shop. Removed the old sources.
+- Reduced the price of the offerings and tools.
+- Removed ember requirement for summoning.
+- All companions now stay for 60 seconds by default.
 
 #------------------------------
 # TODO - General

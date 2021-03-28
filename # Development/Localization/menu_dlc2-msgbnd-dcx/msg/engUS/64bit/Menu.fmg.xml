@@ -3868,6 +3868,38 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99015187">Relic of Legends</text>
 <text id="99015188">Relic of Myths</text>
 
+<text id="99016000">Apply Imbue</text>
+<text id="99016001">Imbue Overview</text>
+<text id="99016005">Basic Imbue</text>
+<text id="99016006">Fine Imbue</text>
+<text id="99016007">Superior Imbue</text>
+<text id="99016008">Exquisite Imbue</text>
+<text id="99016009">Legendary Imbue</text>
+<text id="99016010">Imbue this offering?</text>
+<text id="99016011">You do not possess this offering</text>
+<text id="99016012">Insufficient Ritual Incense</text>
+<text id="99016013">Accessory imbued</text>
+<text id="99016020">Imbuement is used to empower companion accessories, 
+increasing the strength of their effects.
+
+This process requires Ritual Incense, with each level of
+imbuement requiring more.
+
+Basic: 3 Ritual Incense
+Fine: 6 Ritual Incense
+Superior: 9 Ritual Incense
+Exquisite: 12 Ritual Incense
+Legendary: 15 Ritual Incense</text>
+<text id="99016030">Imbuement</text>
+<text id="99016031">Opuses</text>
+<text id="99016100">Dial of Obedience</text>
+<text id="99016101">Offering of Might</text>
+<text id="99016102">Offering of Tenacity</text>
+<text id="99016103">Offering of Fortitude</text>
+<text id="99016104">Offering of Vitality</text>
+<text id="99016105">Offering of Devotion</text>
+<text id="99016106">Offering of Fervor</text>
+
 <text id="99030000">You must possess the Dragon Talon to activate this object.</text>
 <text id="99030001">You must possess the Pilgrim's Soul to activate this object.</text>
 <text id="99030002">You must possess the Smouldering Key to activate this object.</text>
@@ -3976,7 +4008,7 @@ in this journey yet.</text>
 <text id="99030411">It's locked, requires Frozen Flower</text>
 <text id="99030412">It's locked, requires Dreg Key</text>
 <text id="99030413">It's locked, requires Burning Key</text>
-<text id="99030500">Training</text>
+<text id="99030500">Purchase Items</text>
 <text id="99030501">Bring me any ritual incense you find.
 In exchange I can offer training for your companions.
 Don't tarry now, on you go.</text>
