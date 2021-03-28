@@ -1967,12 +1967,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003031">The Champion's Pact has been enabled.</text>
 <text id="15003032">Break Champion's Pact</text>
 <text id="15003033">The Champion's Pact has been disabled.</text>
-<text id="15003040">Trial of Perseverance</text>
-<text id="15003041">Trial of Glory</text>
-<text id="15003050">You must defeat the Abyss Watchers to enter this trial.</text>
-<text id="15003051">You must defeat Aldrich to enter this trial.</text>
-<text id="15003052">You must defeat Yhorm the Giant to enter this trial.</text>
-<text id="15003053">You must defeat the Twin Princes to enter this trial.</text>
 <text id="15003060">Insignias and Emblems</text>
 <text id="15003061">Elixirs</text>
 <text id="15003062">Writs</text>
@@ -2971,7 +2965,7 @@ They may be mindless, but their blades still cut deep.</text>
 <text id="99000710">Trial of Adversity</text>
 <text id="99000711">Trial of Calamity</text>
 <text id="99000712">Trial of Sorrow</text>
-<text id="99000713">Trial of Devastation</text>
+<text id="99000713">The Memory</text>
 <text id="99000714">Peer into the Past</text>
 <text id="99000715">Revive</text>
 <text id="99000720">Face the Remnants of Lordran</text>
@@ -4056,6 +4050,11 @@ to part with some items of interest.</text>
 
 <text id="99030720">BONK!</text>
 <text id="99030730">You must possess the Seal of Judgment to peer into the past.</text>
+
+<text id="99031000">Memory of Skeletons</text>
+
+<text id="99031100">Survive!
+Every minute you will gain 10% more soul absorption.</text>
 
 </entries>
 </fmg>
