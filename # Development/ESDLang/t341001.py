@@ -186,7 +186,7 @@ def t341001_x9():
         AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 2, 15000130, -1)
         
         # action:15010002:Reinforce Weapon
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 18, 15010002, -1)
+        #AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 18, 15010002, -1)
         
         # action:15010001:Infuse Weapon
         AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 17, 15010001, -1)
