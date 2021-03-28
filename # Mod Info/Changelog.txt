@@ -107,6 +107,7 @@
 - Increased Dismal Knight HP to 2000.
 - Increased Vordt's absorptions.
 - Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
+- Reduced duration of Furious Lizard projectile attack.
 
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
