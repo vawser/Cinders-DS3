@@ -7525,11 +7525,6 @@ Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     DisplayEpitaphMessage(99030020);
     GotoUnconditionally(Label.LABEL1); // Skip setup if dead
     
-    SkipIfCharacterHasSpeffect(3, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SkipIfCharacterHasSpeffect(2, 10000, 490, true, ComparisonType.Equal, 1); // Display message if not embered
-    DisplayEpitaphMessage(99030010);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if unembered
-    
     WaitFixedTimeSeconds(0.1);
     
     // Summon
@@ -7598,4 +7593,3 @@ Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     Label1();
     EndUnconditionally(EventEndType.Restart);
 });
-
