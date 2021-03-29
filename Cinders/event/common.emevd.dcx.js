@@ -116,7 +116,7 @@ Event(0, Default, function() {
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
-    InitializeEvent(31, 970, 13900850, 2400, 0, 0); // Furious Lizards
+    //InitializeEvent(31, 970, 13900850, 2400, 0, 0); // UNUSED
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     
@@ -1845,7 +1845,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
-    InitializeEvent(0, 20130, 0); // Furious Lizards
+    //InitializeEvent(0, 20130, 0); // UNUSED
     InitializeEvent(0, 20131, 0); // The Rock
     InitializeEvent(0, 20132, 0); // Twisted Knight
     
@@ -3370,7 +3370,7 @@ Event(20129, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Furious Lizards
+// Boss Revival - UNUSED
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20130, Restart, function() {

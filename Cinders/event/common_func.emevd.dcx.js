@@ -6227,7 +6227,7 @@ Event(20020028, Default, function() {
 });
 
 //----------------------------------------------
-// Furios Lizards - Boss Kill
+// UNUSED - Boss Kill
 //----------------------------------------------
 Event(20020029, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -6581,7 +6581,7 @@ Event(20020128, Default, function() {
 });
 
 //----------------------------------------------
-// Furious Lizards - Boss Start
+// UNUSED - Boss Start
 //----------------------------------------------
 Event(20020129, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);

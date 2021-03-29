@@ -114,10 +114,13 @@
 - Increased Vordt's absorptions.
 - Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
 - Reduced duration of Furious Lizard projectile attack.
+- Removed Furious Lizards boss.
 
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
 - Added 'fake' poise system for hostile NPCs that simulates the normal poise system enemies have. Each NPC can take either 1, 3 or 5 hits within 7 seconds, after which they will always stagger on subsequent hits until the hit timer expires.
+- Removed the small Red Crystal Lizards.
+- Made the big Red Crystal Lizard a normal enemy: found in Irithyll Dungeon, Profaned Capital, Consumed King's Garden, Lothric Castle and Grand Archives.
 
 # Weapons
 - Hex catalysts now cast all schools. This should prevent the left-hand spell buff issue.
@@ -134,6 +137,11 @@
 
 # Items
 - Boss souls can now use the 'Use Selected' option.
+
+# Treasure
+- Added Bestial Band to a chest in the Dreg Heap.
+- Added Ring of Calamity to a chest in Catacombs of Carthus
+- Andre now sells the Hands of God after you defeat the Soul of Cinder.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
