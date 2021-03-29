@@ -102,9 +102,15 @@
 # Mechanics
 - Removed the Trials.
 - Added Memory of Skeletons: a swarm based challenge where you need to survive as long as possible. Every minute you gain +10% soul absorption. You can return to the Overgrown Sanctum at any time via the bonfire in the arena.
+- Changed the NG+ multipliers: NG+ cycles should be less brutal.
 
 # Bosses
 - Increased Dismal Knight HP to 2000.
+- Changed Dismal Knight back to the Mace and Greatshield style.
+ - Added new dark themed moves instead of the miracles the Cathedral Knight has
+  - Vow of Agony
+  - Affinity
+  - Dark Blade weapon buff
 - Increased Vordt's absorptions.
 - Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
 - Reduced duration of Furious Lizard projectile attack.
