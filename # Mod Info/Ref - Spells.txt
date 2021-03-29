@@ -621,7 +621,7 @@
 - FP Cost: 25
 - Physical Damage: 150 {450} [100 {300}] 
 - FTH Req: 30
-- Ascended Effect: now cast in a quick fashion.
+- Ascended Effect: increases projectile speed to 40 m/s.
 
 #--------------------------------
 # Wrath of the Gods

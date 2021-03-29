@@ -128,6 +128,9 @@
 # Infusions
 - Increased the on-hit effect of the Magic/Dark infusions.
 
+# Spells
+- Emit Force - Ascended effect: increases projectile speed to 40 m/s.
+
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
 - Fixed several Hexes not using spell buff when in the left hand.
