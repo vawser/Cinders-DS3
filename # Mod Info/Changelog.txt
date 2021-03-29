@@ -103,6 +103,7 @@
 - Removed the Trials.
 - Added Memory of Skeletons: a swarm based challenge where you need to survive as long as possible. Every minute you gain +10% soul absorption. You can return to the Overgrown Sanctum at any time via the bonfire in the arena.
 - Changed the NG+ multipliers: NG+ cycles should be less brutal.
+- Removed the holding mechanic for spells since it is rarely useful in PVE and causes several oddities.
 
 # Bosses
 - Increased Dismal Knight HP to 2000.
