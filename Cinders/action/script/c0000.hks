@@ -1122,6 +1122,14 @@ end
 function IsHoldMagic()
     local magic_type = env(227) -- GetMagicAnimType
     
+    -- Allow Generic Hold
+    if env(1007) == FALSE then -- Ignore if AI player
+        if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
+            return TRUE
+        end
+    end
+    
+    -- Original
     if magic_type == MAGIC_REQUEST_FLAMETHROWER then
         SetVariable("IndexHoldMagicType", 0)
         return TRUE
@@ -12779,7 +12787,15 @@ function MagicLaunchRight_Upper_onUpdate()
         end
         if IsHoldMagic() == TRUE then
             if 0 < env(1108, button) then
-                ExecEventHalfBlend(Event_MagicLoopRight, blend_type)
+            
+                -- Generic Hold Magic
+                local magic_type = env(227)
+                if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
+                    ExecEventHalfBlend("W_Idle", blend_type)
+                else
+                    ExecEventHalfBlend(Event_MagicLoopRight, blend_type)
+                end
+                
                 return 
             else
                 ExecEventHalfBlend(Event_MagicFireRight, blend_type)
@@ -12814,7 +12830,15 @@ function MagicLaunchRightSA_Upper_onUpdate()
     elseif env(313) == TRUE or env("アニメ終了か", 1) == TRUE then
         if IsHoldMagic() == TRUE then
             if 0 < env(1108, ACTION_ARM_L2) then
-                ExecEventHalfBlend(Event_MagicLoopRightSA, blend_type)
+                
+                -- Generic Hold Magic
+                local magic_type = env(227)
+                if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
+                    ExecEventHalfBlend("W_Idle", blend_type)
+                else
+                    ExecEventHalfBlend(Event_MagicLoopRightSA, blend_type)
+                end
+
                 return 
             else
                 ExecEventHalfBlend(Event_MagicFireRight, blend_type)
@@ -13004,7 +13028,15 @@ function MagicLaunchLeft_Upper_onUpdate()
         end
         if IsHoldMagic() == TRUE then
             if 0 < env(1108, button) then
-                ExecEventHalfBlend(Event_MagicLoopLeft, blend_type)
+            
+                -- Generic Hold Magic
+                local magic_type = env(227)
+                if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
+                    ExecEventHalfBlend("W_Idle", blend_type)
+                else
+                    ExecEventHalfBlend(Event_MagicLoopLeft, blend_type)
+                end
+
                 return 
             else
                 ExecEventHalfBlend(Event_MagicFireLeft, blend_type)
@@ -13039,7 +13071,15 @@ function MagicLaunchLeftSA_Upper_onUpdate()
     elseif env(313) == TRUE or env("アニメ終了か", 1) == TRUE then
         if IsHoldMagic() == TRUE then
             if 0 < env(1108, ACTION_ARM_L2) then
-                ExecEventHalfBlend(Event_MagicLoopLeftSA, blend_type)
+            
+                -- Generic Hold Magic
+                local magic_type = env(227)
+                if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
+                    ExecEventHalfBlend("W_Idle", blend_type)
+                else
+                    ExecEventHalfBlend(Event_MagicLoopLeftSA, blend_type)
+                end
+                
                 return 
             else
                 ExecEventHalfBlend(Event_MagicFireLeft, blend_type)
