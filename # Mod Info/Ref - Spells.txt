@@ -79,10 +79,10 @@
 #--------------------------------
 # Soul Geyser
 #--------------------------------
-- FP Cost: 50
-- INT Req: 50
+- FP Cost: 120
+- INT Req: 80
 - Slot Use: 2
-- Magic Damage: 200 {600} {*3, individual} {1800}
+- Magic Damage: 150 {450} {*3, individual} {1350}
 - Ascended Effect: reduces the spread of the geyser.
 
 #--------------------------------

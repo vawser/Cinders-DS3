@@ -134,6 +134,7 @@
 # Spells
 - Emit Force - Ascended effect: increases projectile speed to 40 m/s.
 - Reduced emit rate of Snap Freeze and buffed the Frost inflict.
+- Soul Geyser: FP Cost to 120, INT req to 75, damage to 150.
 
 # Items
 - Boss souls can now use the 'Use Selected' option.
