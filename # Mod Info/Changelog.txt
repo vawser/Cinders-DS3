@@ -130,6 +130,10 @@
 
 # Spells
 - Emit Force - Ascended effect: increases projectile speed to 40 m/s.
+- Reduced emit rate of Snap Freeze and buffed the Frost inflict.
+
+# Items
+- Boss souls can now use the 'Use Selected' option.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
