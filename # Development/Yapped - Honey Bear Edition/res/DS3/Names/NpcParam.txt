@@ -239,11 +239,6 @@
 50030 Dragon Cultist Kalix [Archdragon Peak]
 50040 Dragon Cultist Wex [Archdragon Peak]
 50050 Dragon Cultist Solos [Archdragon Peak]
-50060 Burial Knight - Scythe of Nahr Alma [Cemetery of Ash]
-50070 Burial Knight - Reinforced Club [Cemetery of Ash]
-50080 Burial Knight - Flamberge [Cemetery of Ash]
-50090 Burial Knight - Great Machete [Cemetery of Ash]
-50100 Burial Knight - Barbed Straight Sword [Cemetery of Ash]
 50110 The Father [Smouldering Lake]
 50120 The Mother [Smouldering Lake]
 50130 The Child [Smouldering Lake]
@@ -776,6 +771,7 @@
 215970 Crystal Lizard
 215980 Crystal Lizard
 215990 Crystal Lizard - Friendly
+215991 Crystal Lizard (Red) - Friendly
 216000 Yoel of Londor
 216010 Londor Pilgrim
 216020 Stone-humped Hag
@@ -1176,28 +1172,26 @@
 633111 Small Locust
 633112 Small Locust
 719999 ### Custom ###
-720000 Wave HP
 721000 Petrified Giant
-721100 Altar of Affliction
 721110 Blade of Champions
 721120 Remy the Rat
-721130 Affixing Table
 721200 Dragon Altar
 721300 Domhnall of Zena
 721400 Marvelous Chester
 721500 Crestfallen Merchant
-721600 Grave Warden Lillian
+721600 Astrologer Lillian
 721700 Magnum Ursus
 721800 Alchemist Jiji
 721900 Solaire of Astora
 722000 Master Benjin
 722100 Ritualist Ellie
-722200 Acolyte Grudore
+722200 Occultist Grudore
 722300 Erstwhile George
+722400 Destitute Jester
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)
-756000 Frostfire Colossus
+756000 [Boss] Frostfire Colossus
 756100 Frostfire Colossus Orb
 756200 Frostfire Colossus Sapping Orb
 757000 Frostfire Cleric (Boss Room)
@@ -1208,12 +1202,21 @@
 760000 Velstadt (Millwood)
 761000 Smough (Winged Knight)
 762000 Yorgh (Gundyr)
-763000 [Boss] Furious Lizard
-764000 Lautrec (Carthus Swordsman - Shotel)
-765000 The Rock (DSA)
+763000 Red Crystal Lizard
+764000 [Boss] Twisted Knight
+765000 [Boss] The Rock
 766000 Giant Sentinel (DSA)
-767000 Berenike Knight (Cathedral Knight)
-768000 Old Giant (Giant Slave)
+767000 [Boss] Dismal Knight
+768000 [Boss] The Forlorn Giant
+804999 ### Memory Enemies ###
+805000 Skeleton - Scimitar
+805001 Skeleton - Falchion
+805002 Skeleton - Bow
+805003 Skeleton - Firebomb
+805010 Carthus Swordsman - Sword
+805011 Carthus Swordsman - Greatsword
+805012 Carthus Swordsman - Shotel
+805013 Carthus Swordsman - Twin Shotel
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight
@@ -1261,118 +1264,6 @@
 809046 Hollow Cleric
 809047 Harald Knight
 809048 Ringed Knight (Paired Greatsword)
-809999 ### Trial ###
-810000 Skeleton (Scimitar)
-810001 Skeleton (Falchion)
-810002 Skeleton (Bow)
-810003 Skeleton (Firebomb)
-810010 Hollow (Sword)
-810011 Hollow (Shield)
-810012 Hollow (Lantern)
-810013 Hollow (Crossbow)
-810014 Hollow (Spear)
-810015 Hollow (Dagger)
-810020 Large Hollow (Halberd)
-810021 Large Hollow (Axe)
-810030 Carthus Swordsman (Bow)
-810031 Carthus Swordsman (Curved Sword)
-810032 Carthus Swordsman (Curved Greatsword)
-810033 Carthus Swordsman (Shotel)
-810040 Cathedral Knight (Greatsword)
-810041 Cathedral Knight (Mace)
-810050 Hollow Slave (Flamberge)
-810051 Hollow Slave (Axe)
-810052 Hollow Slave (Warpick)
-810060 Ghru (Spear)
-810061 Ghru (Curved Sword)
-810062 Ghru (Dagger)
-810063 Ghru (Mad)
-810070 Cathedral Evangelist
-810080 Peasant Hollow (Lantern)
-810081 Peasant Hollow (Sickle)
-810082 Peasant Hollow (Mallet)
-810083 Peasant Hollow (Hoe)
-810084 Peasant Hollow (Axe)
-810090 Cathedral Grave Warden
-810100 Hollow Manservant (Saw)
-810101 Hollow Manservant (Pot)
-810110 Lothric Knight (Sword)
-810111 Lothric Knight (Spear)
-810112 Lothric Knight (Greatsword)
-810120 Winged Knight (Axe)
-810121 Winged Knight (Halberd)
-810130 Boreal Outrider Knight
-810140 Archive Scholar
-810150 Irithyllian Slave (Type 1)
-810151 Irithyllian Slave (Type 2)
-810152 Irithyllian Slave (Type 3)
-810153 Irithyllian Slave (Type 4)
-810154 Irithyllian Slave (Type 5)
-810160 Lycanthrope
-810170 Lycanthrope Hunter
-810180 Serpent-man Summoner
-810190 Serpent-man (Dagger)
-810191 Serpent-man (Hatchet)
-810192 Serpent-man (Bladed Axe)
-810193 Serpent-man (Axe)
-810200 Giant Serpent-man (Chain)
-810201 Giant Serpent-man (Axe)
-810210 Silver Knight (Sword)
-810211 Silver Knight (Spear)
-810212 Silver Knight (Greatbow)
-810220 Bonewheel Skeleton
-810230 Undead Dog
-810240 Small Undead Dog
-810250 Pontiff Knight (Curved Sword)
-810251 Pontiff Knight (Scythe)
-810260 Monstrosity of Sin
-810270 Wretch (Spear)
-810271 Wretch (Unarmed)
-810272 Wretch (Dagger)
-810280 Sewer Centipede
-810290 Hound-rat
-810300 Basilisk
-810310 Gargoyle (Spear)
-810311 Gargoyle (Hammer)
-810320 Jailer
-810330 Giant Rat
-810340 Irithyll Dog
-810350 Giant Slave
-810360 Elder Ghru
-810370 Rock Lizard
-810380 Demon Statue
-810390 Irithyll Fire Witch
-810400 Demon Cleric
-810410 Ravenous Crystal Lizard
-810420 Fat Deacon
-810430 Tall Deacon
-810440 Thin Deacon
-810450 Rotten Slug
-810460 Crystal Sage
-810470 Undead Cleric (Type 1)
-810471 Undead Cleric (Type 2)
-810472 Undead Cleric (Type 3)
-810480 Devout of the Deep (Type 1)
-810481 Devout of the Deep (Type 2)
-810482 Devout of the Deep (Type 3)
-810483 Devout of the Deep (Type 4)
-810484 Devout of the Deep (Type 5)
-810485 Devout of the Deep (Type 6)
-810490 Lothric Priest
-810500 Mimic
-810510 Pilgrim
-810520 Sulyvahn's Beast
-810530 Giant Crab
-810540 Lesser Crab
-810550 Gyrm
-810560 Dragonrider [Boss]
-810570 Outrider Knight [Boss]
-810580 Mirror Knight [Boss]
-810590 Ringed Knight [Boss]
-810600 Black Knight - Greatsword
-810610 Black Knight - Greataxe
-810620 Black Knight - Sword
-810630 Black Knight - Halberd
 889999 ### Unused ###
 890000 Adjustment base character for the time being
 890001 (during testing) player assumption _ Level 1

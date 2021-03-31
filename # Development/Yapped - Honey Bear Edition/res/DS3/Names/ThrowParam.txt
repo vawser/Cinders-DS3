@@ -1,7 +1,6 @@
 100 Backstab - PC → PC
 101 Parry - PC → PC
 107000 Backstab - PC → Skeleton
-110100 Backstab - PC → Gyrm
 110400 Backstab - PC → Ruin Sentinel
 110600 Backstab - PC → Black Dragon Knight
 110710 Backstab - PC → Skeleton
@@ -66,9 +65,6 @@
 162300 Backstab - PC → Murkman
 162600 Backstab - PC → Ringed Knight
 162700 Backstab - PC → Lothric Thief
-210100 Parry - PC → Gyrm
-210200 Parry - PC → Morne's Armour
-210300 Parry - PC → Mirror Knight
 210400 Parry - PC → Ruin Sentinel
 210600 Parry - PC → Black Dragon Knight
 210701 Parry - PC → Skeleton
@@ -133,6 +129,8 @@
 262300 Parry - PC → Murkman
 262600 Parry - PC → Ringed Knight
 262700 Parry - PC → Lothric Thief
+276200 Parry - PC → Twisted Knight
+276500 Parry - PC → Dismal Knight
 410700 Parry - Skeleton → PC
 410710 Parry - Skeleton → PC
 413900 Parry - Serpent-man → PC

@@ -388,7 +388,7 @@
 1180700 [Carthus Swordsman] Shotel Baxtenife tossed
 1180710 [Carthus Swordsman] Shotel Knife Throw
 1180720 [Carthus Swordsman] Shotel Step Knife Throw
-1190010 [Carthus Swordsman]
+1190010 [Cathedral Knight]
 1190100 [Cathedral Knight] grated
 1190110 [Cathedral Knight] swinging
 1190120 [Cathedral Knight] grated Mei-slash 1
@@ -4644,7 +4644,85 @@
 7570720 [Frostfire Cleric] Frostfire Combustion
 7570900 [Frostfire Cleric] Spawn Explosion
 7571700 [Frostfire Cleric Orb] Frostfire-ball
-7630030 [Furious Lizard] Leap Forward
-7630040 [Furious Lizard] Deathly Breath
-7630050 [Furious Lizard] Roll
-7630060 [Furious Lizard] Death Explosion
+7630030 [Red Crystal Lizard] Leap Forward
+7630040 [Red Crystal Lizard] Fire Breath
+7630050 [Red Crystal Lizard] Roll
+7630060 [Red Crystal Lizard] Death Explosion
+7640800 [Twisted Knight] Occult Energies
+7650010 [The Rock]
+7650020 [The Rock]
+7650021 [The Rock]
+7650030 [The Rock]
+7650031 [The Rock]
+7650040 [The Rock]
+7650041 [The Rock]
+7650050 [The Rock]
+7650060 [The Rock]
+7650061 [The Rock]
+7650070 [The Rock]
+7650080 [The Rock]
+7650081 [The Rock] Earth Split
+7650082 [The Rock] Earth Split [Hit]
+7650090 [The Rock]
+7650100 [The Rock]
+7650110 [The Rock]
+7650120 [The Rock]
+7650130 [The Rock]
+7650131 [The Rock]
+7650140 [The Rock]
+7650150 [The Rock]
+7650160 [The Rock]
+7650170 [The Rock]
+7650180 [The Rock]
+7650190 [The Rock]
+7650200 [The Rock]
+7650210 [The Rock]
+7650220 [The Rock]
+7650230 [The Rock]
+7650240 [The Rock]
+7650250 [The Rock]
+7650260 [The Rock]
+7650270 [The Rock]
+7650280 [The Rock]
+7650290 [The Rock]
+7650300 [The Rock]
+7650700 [The Rock]
+7650900 [The Rock]
+7670010 [Dismal Knight] Bash AOE
+7670170 [Dismal Knight] Affinity
+7670180 [Dismal Knight] Vow of Agony
+7670655 [Dismal Knight] Delayed Explosion
+7680100 [Forlorn Giant]
+7680110 [Forlorn Giant]
+7680111 [Forlorn Giant]
+7680120 [Forlorn Giant]
+7680130 [Forlorn Giant]
+7680131 [Forlorn Giant]
+7680140 [Forlorn Giant]
+7680150 [Forlorn Giant]
+7680160 [Forlorn Giant]
+7680170 [Forlorn Giant]
+7680171 [Forlorn Giant]
+7680180 [Forlorn Giant]
+7680190 [Forlorn Giant]
+7680191 [Forlorn Giant]
+7680192 [Forlorn Giant]
+7680200 [Forlorn Giant]
+7680201 [Forlorn Giant]
+7680202 [Forlorn Giant]
+7680203 [Forlorn Giant]
+7680204 [Forlorn Giant]
+7680205 [Forlorn Giant]
+7680206 [Forlorn Giant]
+7680207 [Forlorn Giant]
+7680208 [Forlorn Giant]
+7680300 [Forlorn Giant]
+7680310 [Forlorn Giant]
+7680320 [Forlorn Giant]
+7680330 [Forlorn Giant]
+7680340 [Forlorn Giant]
+7680350 [Forlorn Giant]
+7680360 [Forlorn Giant]
+7680370 [Forlorn Giant]
+7680500 [Forlorn Giant]
+7680510 [Forlorn Giant]

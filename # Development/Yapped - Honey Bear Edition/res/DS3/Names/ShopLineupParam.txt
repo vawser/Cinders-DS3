@@ -42,7 +42,7 @@
 21608 [Warrior of Sunlight] Iron Bracelets
 21609 [Warrior of Sunlight] Iron Leggings
 21610 [Warrior of Sunlight] Sunlight Elixir
-21612 [Warrior of Sunlight] Sunlight Tablet
+21612 [Warrior of Sunlight] Opus of Sunlight
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
@@ -138,13 +138,9 @@
 22902 [Servant of the Rat] Yellow Bug Pellet
 22903 [Servant of the Rat] Black Bug Pellet
 22904 [Servant of the Rat] Mossfruit
-22905 [Servant of the Rat] Rat Tablet
-30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
-30001 [Ludleth - Corrupted Gundyr] Cursed Ring of Evasion
-30002 [Ludleth - Corrupted Gundyr] Cursed Ring of Vengeance
-30003 [Ludleth - Corrupted Gundyr] Cursed Ring of Deflection
-30004 [Ludleth - Corrupted Gundyr] Cursed Ring of Confusion
-30005 [Ludleth - Corrupted Gundyr] Atonement
+22905 [Servant of the Rat] Opus of the Rat
+30000 [Ludleth - Dismal Knight] Accursed Sigil
+30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
 30011 [Ludleth - Vordt] Pontiff's Left Eye
 30012 [Ludleth - Vordt] Snap Freeze
@@ -165,7 +161,6 @@
 30042 [Ludleth - Deacons] Whisper of Despair
 30043 [Ludleth - Deacons] Dreg Torrent
 30044 [Ludleth - Deacons] Pulsating Blade
-30045 [Ludleth - Deacons] Writhing Hammer
 30050 [Ludleth - Abyss Watcher] Farron Greatsword
 30051 [Ludleth - Abyss Watcher] Wolf Knight's Greatsword
 30052 [Ludleth - Abyss Watcher] Hornet Ring
@@ -184,7 +179,6 @@
 30081 [Ludleth - Ponitff Sulyvahn] Profaned Greatsword
 30082 [Ludleth - Ponitff Sulyvahn] Orbs of Judgment
 30083 [Ludleth - Ponitff Sulyvahn] Soul Wave
-30084 [Ludleth - Ponitff Sulyvahn] Wrathful Tablet
 30090 [Ludleth - Aldrich] Darkmoon Longbow
 30091 [Ludleth - Aldrich] Lifehunt Scythe
 30092 [Ludleth - Aldrich] Sword of Avowal
@@ -199,7 +193,6 @@
 30122 [Ludleth - Oceiros] Crystal Storm
 30123 [Ludleth - Oceiros] Moonlight Butterfly Horn
 30124 [Ludleth - Oceiros] Consumed King's Staff
-30125 [Ludleth - Oceiros] Crystalline Tablet
 30130 [Ludleth - Dragonslayer Armour] Dragonslayer Greataxe
 30131 [Ludleth - Dragonslayer Armour] Dragonslayer Greatshield
 30132 [Ludleth - Dragonslayer Armour] Perseverance
@@ -237,7 +230,6 @@
 30210 [Ludleth - Demon Prince] Demon's Scar
 30212 [Ludleth - Demon Prince] Chaos Bed Vestiges
 30213 [Ludleth - Demon Prince] Cataclysm
-30214 [Ludleth - Demon Prince] Demonic Tablet
 30220 [Ludleth - Darkeater Midir] Frayed Blade
 30221 [Ludleth - Darkeater Midir] Old Moonlight
 30223 [Ludleth - Darkeater Midir] Obsidian Greatsword
@@ -264,6 +256,17 @@
 30350 [Ludleth - Mirror Knight] Thorned Greatsword
 30351 [Ludleth - Mirror Knight] King's Mirror
 30352 [Ludleth - Mirror Knight] Lightning Stake
+30360 [Ludleth - Aborr] Runic Seal
+30361 [Ludleth - Aborr] Symbol of the Penitent
+30362 [Ludleth - Aborr] Dozer Axe
+30380 [Ludleth - The Rock] Havel's Ring
+30381 [Ludleth - The Rock] Dragon Tooth
+30382 [Ludleth - The Rock] Havel's Greatshield
+30390 [Ludleth - Frostfire Colossus] Frostfall
+30400 [Ludleth - Twisted Knight] Cursed Ring of Evasion
+30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
+30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
+30403 [Ludleth - Twisted Knight] Cursed Ring of Confusion
 36000 [Bonfire - Dreamcatcher's Ashes] Shriving Stone
 36001 [Bonfire - Dreamcatcher's Ashes] Lethal Gem
 36002 [Bonfire - Dreamcatcher's Ashes] Curse Gem
@@ -374,8 +377,6 @@
 36142 [Bonfire - Grave Warden's Ashes] Old Radiant Lifegem
 36143 [Bonfire - Xanthous Ashes] Elizabeth Mushroom
 36144 [Bonfire - Excrement-covered Ashes] Dried Root
-36145 [Bonfire - Dreamcatcher's Ashes] Rouge Water
-36146 [Bonfire - Easterner's Ashes] Crimson Water
 40000 [Yoel] Deep Barb
 40001 [Yoel] Whisper of Despair
 40002 [Yoel] Farron Dart
@@ -390,6 +391,7 @@
 41003 [Yuria] Ring of Sacrifice
 41004 [Yuria] Dark Hand
 41005 [Yuria] Crimson Water
+41006 [Yuria] Rouge Water
 100000 [Andre] Dagger
 100001 [Andre] Bandit's Knife
 100010 [Andre] Parrying Dagger
@@ -495,6 +497,7 @@
 100550 [Andre - Captain's Ashes] Follower Sabre
 100551 [Andre - Captain's Ashes] Follower Javelin
 100552 [Andre - Captain's Ashes] Follower Shield
+100560 [Andre - Soul of Cinder] Hands of God
 100570 [Andre] Wood Arrow
 100571 [Andre] Wood Bolt
 100572 [Andre] Wood Greatarrow
@@ -554,10 +557,6 @@
 110651 [Shrine Handmaid - Abyss Watchers] Undead Legion Armor
 110652 [Shrine Handmaid - Abyss Watchers] Undead Legion Gauntlet
 110653 [Shrine Handmaid - Abyss Watchers] Undead Legion Leggings
-110700 [Shrine Handmaid - Aldrich] Smough's Helm
-110701 [Shrine Handmaid - Aldrich] Smough's Armor
-110702 [Shrine Handmaid - Aldrich] Smough's Gauntlets
-110703 [Shrine Handmaid - Aldrich] Smough's Leggings
 110750 [Shrine Handmaid - Twin Princes] Lorian's Helm
 110751 [Shrine Handmaid - Twin Princes] Lorian's Armor
 110752 [Shrine Handmaid - Twin Princes] Lorian's Gauntlets
@@ -705,7 +704,6 @@
 130006 [Orbeck - Shop] Venerable Sage's Robe
 130007 [Orbeck - Shop] Venerable Sage's Gloves
 130008 [Orbeck - Shop] Venerable Sage's Boots
-130009 [Orbeck - Shop] Rouge Water
 130100 [Orbeck - Spells] Farron Dart
 130101 [Orbeck - Spells] Soul Arrow
 130102 [Orbeck - Spells] Homing Soulmass
@@ -738,7 +736,6 @@
 140001 [Cornyx - Shop] Pyromancer Garb
 140002 [Cornyx - Shop] Pyromancer Wrap
 140003 [Cornyx - Shop] Pyromancer Trousers
-140004 [Cornyx - Shop] Rouge Water
 140100 [Cornyx - Spells] Fireball
 140101 [Cornyx - Spells] Fire Orb
 140102 [Cornyx - Spells] Flame Fan
@@ -888,16 +885,32 @@
 230007 [Crestfallen Merchant] Green Blossom
 230008 [Crestfallen Merchant] Charcoal Pine Bundle
 230009 [Crestfallen Merchant] Charcoal Pine Resin
-240000 [Grave Warden Lillian] Deep Barb
-240001 [Grave Warden Lillian] Dark Edge
-240002 [Grave Warden Lillian] Deep Soul
-240003 [Grave Warden Lillian] Black Fireball
-240004 [Grave Warden Lillian] Nibble
-240005 [Grave Warden Lillian] Gnaw
-240006 [Grave Warden Lillian] Great Deep Soul
-240007 [Grave Warden Lillian] Cascading Deep
-240008 [Grave Warden Lillian] Black Fire Scatter
-240009 [Grave Warden Lillian] Dead Again
+240000 [Astrologer Lillian - Sorcery] Farron Dart
+240001 [Astrologer Lillian - Sorcery] Soul Arrow
+240002 [Astrologer Lillian - Sorcery] Homing Soulmass
+240003 [Astrologer Lillian - Sorcery] Farron Flashsword
+240004 [Astrologer Lillian - Sorcery] Scattering Soul Orb
+240005 [Astrologer Lillian - Sorcery] Farron Hail
+240020 [Astrologer Lillian - Pyromancy] Fireball
+240021 [Astrologer Lillian - Pyromancy] Fire Orb
+240022 [Astrologer Lillian - Pyromancy] Flame Fan
+240023 [Astrologer Lillian - Pyromancy] Firestorm
+240024 [Astrologer Lillian - Pyromancy] Fire Surge
+240040 [Astrologer Lillian - Miracles] Heal Aid
+240041 [Astrologer Lillian - Miracles] Lightning Arrow
+240042 [Astrologer Lillian - Miracles] Way of White Corona
+240043 [Astrologer Lillian - Miracles] Force
+240044 [Astrologer Lillian - Miracles] Lightning Spear
+240045 [Astrologer Lillian - Miracles] Emit Force
+240060 [Astrologer Lillian - Hexes] Deep Barb
+240061 [Astrologer Lillian - Hexes] Dark Edge
+240062 [Astrologer Lillian - Hexes] Deep Soul
+240063 [Astrologer Lillian - Hexes] Black Fireball
+240064 [Astrologer Lillian - Hexes] Black Fire Scatter
+240065 [Astrologer Lillian - Hexes] Black Fire Orb
+240066 [Astrologer Lillian - Hexes] Nibble
+240067 [Astrologer Lillian - Hexes] Gnaw
+240068 [Astrologer Lillian - Hexes] Dead Again
 250000 [Alchemist Jiji - Odds and Ends] Cleansing Potion
 250001 [Alchemist Jiji - Odds and Ends] Devil's Trumpet
 250002 [Alchemist Jiji - Odds and Ends] Moonflower
@@ -1367,7 +1380,7 @@
 270041 [Master Benjin - Smithbox] Evelynn
 280000 [Ritualist Ellie] Rejuvenating Phial
 280001 [Ritualist Ellie] Banishing Coin
-280002 [Ritualist Ellie] Inciting Bone
+280002 [Ritualist Ellie] Beckoning Bone
 280003 [Ritualist Ellie] Invigorating Phial
 280004 [Ritualist Ellie] Regenerating Phial
 280010 [Ritualist Ellie] Dial of Obedience
@@ -1377,14 +1390,19 @@
 280014 [Ritualist Ellie] Offering of Vitality
 280015 [Ritualist Ellie] Offering of Devotion
 280016 [Ritualist Ellie] Offering of Fervor
-290000 [Acolyte Grudore] Spellbound Bomb
-290001 [Acolyte Grudore] Spellbound Throwing Knife
-290020 [Acolyte Grudore - Farron Coal] Spellbound Blossom
-290040 [Acolyte Grudore - Sage's Coal] Spellbound Powder
-290041 [Acolyte Grudore - Sage's Coal] Spellbound Skull
-290060 [Acolyte Grudore - Giant's Coal] Spellbound Urn
-290080 [Acolyte Grudore - Profaned Coal] Spellbound Kukri
-290081 [Acolyte Grudore - Profaned Coal] Spellbound Dung
+280100 [Ritualist Ellie] Opus of the Dog
+280101 [Ritualist Ellie] Opus of Loyalty
+280102 [Ritualist Ellie] Opus of Allegiance
+280103 [Ritualist Ellie] Opus of Demons
+280104 [Ritualist Ellie] Opus of Crystals
+290000 [Occultist Grudore] Spellbound Bomb
+290001 [Occultist Grudore] Spellbound Throwing Knife
+290020 [Occultist Grudore - Farron Coal] Spellbound Blossom
+290040 [Occultist Grudore - Sage's Coal] Spellbound Powder
+290041 [Occultist Grudore - Sage's Coal] Spellbound Skull
+290060 [Occultist Grudore - Giant's Coal] Spellbound Urn
+290080 [Occultist Grudore - Profaned Coal] Spellbound Kukri
+290081 [Occultist Grudore - Profaned Coal] Spellbound Dung
 300000 [Erstwhile George] Gallant Helm
 300001 [Erstwhile George] Gallant Armor
 300002 [Erstwhile George] Gallant Gloves
@@ -1431,97 +1449,11 @@
 300043 [Erstwhile George] Magician Clothes
 300044 [Erstwhile George] Magician Gloves
 300045 [Erstwhile George] Magician Leggings
-300046 [Erstwhile George] Darkdrift
-300047 [Erstwhile George] Gargoyle Shield
-300048 [Erstwhile George] Bestial Band
-300049 [Erstwhile George] Ring of Momentum
-300050 [Erstwhile George] Witch's Locks
-300051 [Erstwhile George] Morne's Great Hammer
-300052 [Erstwhile George] Bone Rapier
-300053 [Erstwhile George] Demon's Axe
-300054 [Erstwhile George] Runic Seal
-300055 [Erstwhile George] Jester's Cap
-300056 [Erstwhile George] Jester's Robes
-300057 [Erstwhile George] Jester's Gloves
-300058 [Erstwhile George] Jester's Tights
-300059 [Erstwhile George] Fool's Catalyst
-300060 [Erstwhile George] Moonlight Sword
-300061 [Erstwhile George] Staff of Serpents
-300062 [Erstwhile George] Pursuer's Ultra Greatsword
-300063 [Erstwhile George] Pursuer's Helm
-300064 [Erstwhile George] Pursuer's Armor
-300065 [Erstwhile George] Pursuer's Gauntlets
-300066 [Erstwhile George] Pursuer's Leggings
-300067 [Erstwhile George] Bloodletter
-300068 [Erstwhile George] Chikage
-300069 [Erstwhile George] Twinspears of the Forlorn
-300070 [Erstwhile George] Hood of the Forlorn
-300071 [Erstwhile George] Armor of the Forlorn
-300072 [Erstwhile George] Gauntlets of the Forlorn
-300073 [Erstwhile George] Leggings of the Forlorn
-300074 [Erstwhile George] Tonitrus
-300075 [Erstwhile George] Blades of Mercy
-300076 [Erstwhile George] Mask of the Father
-300077 [Erstwhile George] Mask of the Mother
-300078 [Erstwhile George] Mask of the Child
-300079 [Erstwhile George] Mad Warrior Helm
-300080 [Erstwhile George] Mad Warrior Armor
-300081 [Erstwhile George] Mad Warrior Gauntlets
-300082 [Erstwhile George] Mad Warrior Leggings
-300083 [Erstwhile George] Elden Ring
-300084 [Erstwhile George] Penetrator Helm
-300085 [Erstwhile George] Penetrator Armor
-300086 [Erstwhile George] Penetrator Gauntlets
-300087 [Erstwhile George] Penetrator Leggings
-300088 [Erstwhile George] Scraping Spear
-300089 [Erstwhile George] Makoto
-300090 [Erstwhile George] Helm of Aurous
-300091 [Erstwhile George] Armor of Aurous
-300092 [Erstwhile George] Gauntlets of Aurous
-300093 [Erstwhile George] Leggings of Aurous
-300094 [Erstwhile George] Six-Eyed Helm of the Channelers
-300095 [Erstwhile George] Robe of the Channelers
-300096 [Erstwhile George] Gauntlets of the Channelers
-300097 [Erstwhile George] Waistcloth of the Channelers
-300098 [Erstwhile George] Smelter Demon Helm
-300099 [Erstwhile George] Smelter Demon Armor
-300100 [Erstwhile George] Smelter Demon Gauntlets
-300101 [Erstwhile George] Smelter Demon Leggings
-300102 [Erstwhile George] Rampart Golem Helm
-300103 [Erstwhile George] Rampart Golem Armor
-300104 [Erstwhile George] Rampart Golem Gauntlets
-300105 [Erstwhile George] Rampart Golem Leggings
-300106 [Erstwhile George] Alonne's Helm
-300107 [Erstwhile George] Alonne's Armor
-300108 [Erstwhile George] Alonne's Gauntlets
-300109 [Erstwhile George] Alonne's Leggings
-300110 [Erstwhile George] Heide Knight Greathelm
-300111 [Erstwhile George] Heide Knight Chainmail
-300112 [Erstwhile George] Heide Knight Gauntlets
-300113 [Erstwhile George] Heide Knight Leggings
-300114 [Erstwhile George] Imperial Samurai Helm
-300115 [Erstwhile George] Horned Samurai Helm
-300116 [Erstwhile George] Ornate Samurai Helm
-300117 [Erstwhile George] Bone Ash Mask
-300118 [Erstwhile George] Bone Ash Armor
-300119 [Erstwhile George] Bone Ash Gauntlets
-300120 [Erstwhile George] Bone Ash Leggings
-300121 [Erstwhile George] Hallowed Knight Helm
-300122 [Erstwhile George] Hallowed Knight Armor
-300123 [Erstwhile George] Hallowed Knight Gauntlets
-300124 [Erstwhile George] Hallowed Knight Leggings
-300125 [Erstwhile George] Dragon Hunter Helm
-300126 [Erstwhile George] Dragon Hunter Armor
-300127 [Erstwhile George] Dragon Hunter Gauntlets
-300128 [Erstwhile George] Dragon Hunter Leggings
-300129 [Erstwhile George] Ivory King Mask
-300130 [Erstwhile George] Ivory King Armor
-300131 [Erstwhile George] Ivory King Gauntlets
-300132 [Erstwhile George] Ivory King Leggings
+300046 [Erstwhile George] Rouge Water
+300047 [Erstwhile George] Crimson Water
 760000 [Stone-humped Hag] Splitleaf Greatsword
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower
 760003 [Stone-humped Hag] Henbane
 760004 [Stone-humped Hag] Old Radiant Lifegem
 760005 [Stone-humped Hag] Dried Root
-760006 [Stone-humped Hag] Crimson Water

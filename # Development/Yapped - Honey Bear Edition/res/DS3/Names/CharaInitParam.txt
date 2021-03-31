@@ -311,13 +311,14 @@
 721300 Domhnall of Zena
 721400 Marvelous Chester
 721500 Crestfallen Merchant
-721600 Grave Warden Lillian
+721600 Astrologer Lillian
 721700 Magnum Ursus
 721800 Alchemist Jiji
 721900 Solaire of Astora
 722000 Master Benjin
 722100 Ritualist Ellie
-722200 Acolyte Grudore
+722200 Occultist Grudore
+722400 Destitute Jester
 999999 ### Enemies ###
 1000000 Bonfire
 1000010 1000010: [For the weapon animation confirmation] ◎ 01 Dagger (id_20: Dagger)

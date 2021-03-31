@@ -668,76 +668,10 @@
 7160 Level Scaling - Dreg Heap
 7170 Level Scaling - Ringed City
 7300 Soul Black
-7400 NG Scaling - Cemetery of Ash [Weak]
-7410 NG Scaling - High Wall of Lothric [Weak]
-7420 NG Scaling - Undead Settlement [Weak]
-7430 NG Scaling - Road of Sacrifices [Weak]
-7440 NG Scaling - Cathedral of the Deep [Weak]
-7445 NG Scaling - Farron Keep [Weak]
-7460 NG Scaling - Catacombs of Carthus [Weak]
-7470 NG Scaling - Smouldering Lake [Weak]
-7480 NG Scaling - Irithyll of the Boreal Valley [Weak]
-7490 NG Scaling - Irithyll Dungeon/Profaned Capital [Weak]
-7492 NG Scaling - Anor Londo/Lothric Castle [Weak]
-7493 NG Scaling - Lothric Castle [Weak]
-7495 NG Scaling - Lothric Castle [Weak]
-7520 NG Scaling - Archdragon Peak [Weak]
-7530 NG Scaling - Untended Graves [Weak]
-7535 NG Scaling - Grand Archives [Weak]
-7540 NG Scaling - Fireless Shrine [Weak]
-7550 NG Scaling - Ariandel [Weak]
-7560 NG Scaling - Dreg Heap [Weak]
-7570 NG Scaling - Ringed City [Weak]
-7600 NG Scaling - Cemetery of Ash [Strong]
-7610 NG Scaling - High Wall of Lothric [Strong]
-7620 NG Scaling - Undead Settlement [Strong]
-7630 NG Scaling - Road of Sacrifices [Strong]
-7640 NG Scaling - Cathedral of the Deep [Strong]
-7645 NG Scaling - Farron Keep [Strong]
-7660 NG Scaling - Catacombs of Carthus [Strong]
-7670 NG Scaling - Smouldering Lake [Strong]
-7680 NG Scaling - Irithyll of the Boreal Valley [Strong]
-7690 NG Scaling - Irithyll Dungeon/Profaned Capital [Strong]
-7692 NG Scaling - Anor Londo/Lothric Castle [Strong]
-7693 NG Scaling - Lothric Castle [Strong]
-7695 NG Scaling - Lothric Castle [Strong]
-7720 NG Scaling - Archdragon Peak [Strong]
-7730 NG Scaling - Untended Graves [Strong]
-7735 NG Scaling - Grand Archives [Strong]
-7740 NG Scaling - Fireless Shrine [Strong]
-7750 NG Scaling - Ariandel [Strong]
-7760 NG Scaling - Dreg Heap [Strong]
-7770 NG Scaling - Ringed City [Strong]
-8000 NG Scaling - Iudex Gundyr
-8010 NG Scaling - Vordt of the Boreal Valley
-8020 NG Scaling - Curse-rotted Greatwood
-8030 NG Scaling - Crystal Sage
-8040 NG Scaling - Deacons of the Deep
-8050 NG Scaling - Abyss Watchers
-8060 NG Scaling - High Lord Wolnir
-8070 NG Scaling - Old Demon King
-8080 NG Scaling - Pontiff Sulyvahn
-8090 NG Scaling - Aldrich, Devourer of Gods
-8100 NG Scaling - Yhorm the Giant
-8110 NG Scaling - Dancer of the Boreal Valley
-8120 NG Scaling - Oceiros, the Consumed King
-8130 NG Scaling - Dragonslayer Armour
-8140 NG Scaling - Ancient Wyvern
-8150 NG Scaling - Nameless King
-8160 NG Scaling - Champion Gundyr
-8170 NG Scaling - Twin Princes
-8180 NG Scaling - Soul of Cinder
-8190 NG Scaling - Sister Friede
-8200 NG Scaling - Lordran Remnants
-8210 NG Scaling - Demon Prince
-8220 NG Scaling - Darkeater Midir
-8230 NG Scaling - Slave Knight Gael
-8240 NG Scaling - Halflight
-8250 NG Scaling - Frostfire Colossus
-8260 NG Scaling - Furious Lizards
-8270 NG Scaling - Aborr
-8280 NG Scaling - Cathedral Guardian
-8290 NG Scaling - Mirror Knight
+8000 NG Scaling - Enemies
+8010 NG Scaling - Bosses
+8020 NG Scaling - NPC
+8030 NG Scaling - Summon
 9000 Watchdogs of Farron - Allow Invasion
 9010 Aldrich Faithful - Allow Invasion
 9020 Unknown - Allow Invasion
@@ -1102,7 +1036,7 @@
 10768 [Frostfire Colossus] Orb VFX
 10769 [Frostfire Colossus] Orb Set Full Health
 10770 [Frostfire Colossus] Orb Frost Aura
-10771 [Frostfire Colossus] Orb Frost Aura HP Drain
+10771 [Frostfire Colossus] Orb Frost Aura HP Drain (Unused)
 10772 [Frostfire Colossus] Orb Frost Aura Frost Buildup
 10773 [Frostfire Colossus] Blizzard Frost Buildup on Colossus
 10774 [Frostfire Colossus] Nullify Frostbite from Player
@@ -2080,7 +2014,6 @@
 112050 [Behavior] Using Prostration
 112060 [Behavior] Disable No Hit Status
 112070 [Behavior] Curse of Gluttony
-112080 [Behavior] Ring of Londor
 112090 [Behavior] Horsehoof Ring
 112100 [Behavior] Deathless Run Failure
 112101 [Behavior] Hitless Run Failure
@@ -2133,29 +2066,75 @@
 112190 [Behavior] Gwynevere's Urn - Trigger
 112191 [Behavior] Gwynevere's Urn - Cooldown
 112192 [Behavior] Gwynevere's Urn - Effect
+112200 [Behavior] Ring of Londor
 112300 [Behavior] Easy Stagger
+112301 [Behavior] Stagger Hit: 1
+112302 [Behavior] Stagger Hit: 2
+112303 [Behavior] Stagger Hit: 3
+112304 [Behavior] Stagger Hit: 4
+112305 [Behavior] Stagger Hit: 5
+112306 [Behavior] Stagger Hit: 6
+112307 [Behavior] Stagger Hit: 7
+112350 [Behavior] Stagger Threshold: 1
+112351 [Behavior] Stagger Threshold: 3
+112352 [Behavior] Stagger Threshold: 5
+112353 [Behavior] Stagger Threshold: 7
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
-112999 ### FP Behavior ###
-113000 [Behavior] Disable FP Regen - 3 Second
-113001 [Behavior] Disable FP Regen - 5 Seconds
-113002 [Behavior] Disable FP Regen - 6 Seconds
-113003 [Behavior] Disable FP Regen - 7 Seconds
-113004 [Behavior] Disable FP Regen - 8 Seconds
-113005 [Behavior] Disable FP Regen - 10 Seconds
-113010 [Behavior] Disable FP Regen - 1 Second
-113100 [Behavior] Restore FP - Base - 1 per second
-113101 [Behavior] Restore FP - Enchanted - 2 per second
-113102 [Behavior] Restore FP - Clarity - 2 per second
-113103 [Behavior] Restore FP - Darkmoon Faithful - 1 per second
-113104 [Behavior] Restore FP - Pulsating - 2 per second
-113110 [Behavior] Restore FP - Darkmoon Ring - 1 per second
-113111 [Behavior] Restore FP - Darkmoon Ring+1 - 2 per second
-113112 [Behavior] Restore FP - Darkmoon Ring+2 - 3 per second
-113113 [Behavior] Restore FP - Darkmoon Ring+3 - 4 per second
-113114 [Behavior] Restore FP - Darkmoon Ring+4 - 5 per second
-113115 [Behavior] Restore FP - Darkmoon Ring+5 - 6 per second
+112899 ### Sidearms ###
+112900 FP Cost: Cannon
+112901 FP Cost: Church Cannon
+112902 FP Cost: Hunter's Pistol
+112903 FP Cost: Repeating Pistol
+112904 FP Cost: Evelynn
+112905 FP Cost: Hunter's Blunderbuss
+112906 FP Cost: Rosamarinus
+112907 FP Cost: Fist of Gratia
+112999 ### FP Pause ###
+113000 Base Interval
+113001 Seconds: 1
+113002 Seconds: 2
+113003 Seconds: 3
+113004 Seconds: 4
+113005 Seconds: 5
+113006 Seconds: 6
+113007 Seconds: 7
+113008 Seconds: 8
+113009 Seconds: 9
+113010 Seconds: 10
+113011 Seconds: 11
+113012 Seconds: 12
+113013 Seconds: 13
+113014 Seconds: 14
+113015 Seconds: 15
+113020 Seconds: 20
+113025 Seconds: 25
+113030 Seconds: 30
+113035 Seconds: 35
+113040 Seconds: 40
+113045 Seconds: 45
+113050 Seconds: 50
+113055 Seconds: 55
+113060 Seconds: 60
+113099 ### FP Restoration ###
+113100 [Behavior] Restore FP - Base - 8 per second
+113101 [Behavior] Restore FP - Enchanted - 3 per second
+113102 [Behavior] Restore FP - Clarity - 3 per second
+113103 [Behavior] Restore FP - Darkmoon Faithful - 3 per second
+113104 [Behavior] Restore FP - Pulsating - 3 per second
+113110 [Behavior] Restore FP - Darkmoon Ring - 3 per second
+113111 [Behavior] Restore FP - Darkmoon Ring+1 - 4 per second
+113112 [Behavior] Restore FP - Darkmoon Ring+2 - 5 per second
+113113 [Behavior] Restore FP - Darkmoon Ring+3 - 6 per second
+113114 [Behavior] Restore FP - Darkmoon Ring+4 - 7 per second
+113115 [Behavior] Restore FP - Darkmoon Ring+5 - 8 per second
+113120 [Behavior] Restore FP - Focusing Ring - 3 per second
+113121 [Behavior] Restore FP - Focusing Ring+1 - 4 per second
+113122 [Behavior] Restore FP - Focusing Ring+2 - 5 per second
+113123 [Behavior] Restore FP - Focusing Ring+3 - 6 per second
+113124 [Behavior] Restore FP - Focusing Ring+4 - 7 per second
+113125 [Behavior] Restore FP - Focusing Ring+5 - 8 per second
 113200 [Behavior] Effect - Enchanted
 113201 [Behavior] Effect - Clarity
 113202 [Behavior] Effect - Darkmoon Faithful
@@ -2167,6 +2146,12 @@
 113213 [Behavior] Effect - Darkmoon Ring+3
 113214 [Behavior] Effect - Darkmoon Ring+4
 113215 [Behavior] Effect - Darkmoon Ring+5
+113220 [Behavior] Effect - Focusing Ring
+113221 [Behavior] Effect - Focusing Ring+1
+113222 [Behavior] Effect - Focusing Ring+2
+113223 [Behavior] Effect - Focusing Ring+3
+113224 [Behavior] Effect - Focusing Ring+4
+113225 [Behavior] Effect - Focusing Ring+5
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -4365,12 +4350,47 @@
 160603500 Rare Ring of Humanity
 160603600 Gwynevere's Urn
 160603700 Dial of Obedience
+160603701 Dial of Obedience+1
+160603702 Dial of Obedience+2
+160603703 Dial of Obedience+3
+160603704 Dial of Obedience+4
+160603705 Dial of Obedience+5
 160603710 Offering of Might
+160603711 Offering of Might+1
+160603712 Offering of Might+2
+160603713 Offering of Might+3
+160603714 Offering of Might+4
+160603715 Offering of Might+5
 160603720 Offering of Tenacity
+160603721 Offering of Tenacity+1
+160603722 Offering of Tenacity+2
+160603723 Offering of Tenacity+3
+160603724 Offering of Tenacity+4
+160603725 Offering of Tenacity+5
 160603730 Offering of Fortitude
+160603731 Offering of Fortitude+1
+160603732 Offering of Fortitude+2
+160603733 Offering of Fortitude+3
+160603734 Offering of Fortitude+4
+160603735 Offering of Fortitude+5
 160603740 Offering of Vitality
+160603741 Offering of Vitality+1
+160603742 Offering of Vitality+2
+160603743 Offering of Vitality+3
+160603744 Offering of Vitality+4
+160603745 Offering of Vitality+5
 160603750 Offering of Devotion
+160603751 Offering of Devotion+1
+160603752 Offering of Devotion+2
+160603753 Offering of Devotion+3
+160603754 Offering of Devotion+4
+160603755 Offering of Devotion+5
 160603760 Offering of Fervor
+160603761 Offering of Fervor+1
+160603762 Offering of Fervor+2
+160603763 Offering of Fervor+3
+160603764 Offering of Fervor+4
+160603765 Offering of Fervor+5
 160603770 Ravenous Chalice
 160603771 Ravenous Chalice [DeathOccurance]
 160603780 Relic of Legends
@@ -4385,6 +4405,7 @@
 160603793 Relic of Myths+3
 160603794 Relic of Myths+4
 160603795 Relic of Myths+5
+160603800 Ring of Londor
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction
@@ -4957,13 +4978,16 @@
 160720210 Soul of the Demon Prince
 160720220 Soul of Darkeater Midir
 160720230 Soul of Slave Knight Gael
-160720240 Soul of Corrupted Gundyr
+160720240 Soul of the Dismal Knight
 160720250 Soul of the Ancient Dragon
 160720260 Soul of the Lordran Remnants
 160720270 Soul of Halflight
 160720280 Soul of the Frostfire Colossus
 160720290 Soul of the Cathedral Guardian
 160720300 Soul of the Mirror Knight
+160720310 Soul of Aborr
+160720330 Soul of the Rock
+160720340 Twisted Soul
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -4974,7 +4998,25 @@
 160740101 Primordial Phantom - NG Scaling
 160741100 Spirit Apperance
 160741110 Mimic Invisibility
-160741120 Mirror Knight - Intruder Trigger
+160741120 Lordran Remnants - Spirit Form
+160741121 Lordran Remnants - Default Form
+160741200 Aborr - Enrage
+160741300 Twisted Knight - Physical Weakness
+160741301 Twisted Knight - Fire Weakness
+160741302 Twisted Knight - Magic Weakness
+160741303 Twisted Knight - Lightning Weakness
+160741304 Twisted Knight - Dark Weakness
+160741310 Twisted Knight - Occult Energies - Curse
+160741400 Dismal Knight - Heal
+160741401 Dismal Knight - Heal
+160741402 Dismal Knight - Weapon Buff Effect 1
+160741403 Dismal Knight - Weapon Buff Effect 2
+160741404 Dismal Knight - Weapon Buff Effect 3
+160741405 Dismal Knight -
+160741406 Dismal Knight - Body Buff
+160741407 Dismal Knight -
+160741408 Dismal Knight - Weapon Buff Effect 4
+160741409 Dismal Knight - Weapon Buff
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5040,8 +5082,7 @@
 160760213 Level Scaling: Dreg Heap
 160760214 Level Scaling: Ringed City
 160760215 Level Scaling: Filianore's Rest
-160760216 Level Scaling: Trial
-160761000 Level Scaling: NG+
+160760216 Level Scaling: Memories
 160761300 Companion Clear
 160761400 Ritualist Pact - Restore HP
 160761500 Player - Companion is out
@@ -5056,11 +5097,41 @@
 160763400 Energizing Phial - Trigger
 160763401 Energizing Phial - Companion
 160764000 Companion: Offering of Might
-160764001 Companion: Offering of Tenacity
-160764002 Companion: Offering of Fortitude
-160764003 Companion: Offering of Vitality
-160764004 Companion: Offering of Devotion
-160764005 Companion: Offering of Fervor
+160764001 Companion: Offering of Might+1
+160764002 Companion: Offering of Might+2
+160764003 Companion: Offering of Might+3
+160764004 Companion: Offering of Might+4
+160764005 Companion: Offering of Might+5
+160764010 Companion: Offering of Tenacity
+160764011 Companion: Offering of Tenacity+1
+160764012 Companion: Offering of Tenacity+2
+160764013 Companion: Offering of Tenacity+3
+160764014 Companion: Offering of Tenacity+4
+160764015 Companion: Offering of Tenacity+5
+160764020 Companion: Offering of Fortitude
+160764021 Companion: Offering of Fortitude+1
+160764022 Companion: Offering of Fortitude+2
+160764023 Companion: Offering of Fortitude+3
+160764024 Companion: Offering of Fortitude+4
+160764025 Companion: Offering of Fortitude+5
+160764030 Companion: Offering of Vitality
+160764031 Companion: Offering of Vitality+1
+160764032 Companion: Offering of Vitality+2
+160764033 Companion: Offering of Vitality+3
+160764034 Companion: Offering of Vitality+4
+160764035 Companion: Offering of Vitality+5
+160764040 Companion: Offering of Devotion
+160764041 Companion: Offering of Devotion+1
+160764042 Companion: Offering of Devotion+2
+160764043 Companion: Offering of Devotion+3
+160764044 Companion: Offering of Devotion+4
+160764045 Companion: Offering of Devotion+5
+160764050 Companion: Offering of Fervor
+160764051 Companion: Offering of Fervor+1
+160764052 Companion: Offering of Fervor+2
+160764053 Companion: Offering of Fervor+3
+160764054 Companion: Offering of Fervor+4
+160764055 Companion: Offering of Fervor+5
 160800000 ### NPC Modifiers ###
 160800001 Base - Hostile NPC
 160800002 Base - Enemy
@@ -5731,6 +5802,8 @@
 260000030 Cathedral Guardian
 260000031 Mirror Knight
 260000032 Furious Lizards
+260000033 The Rock
+260000034 Twisted Experiment
 260100000 ### Boss Revival ###
 260100010 Corrupted Gundyr
 260100020 Vordt of the Boreal Valley
@@ -5763,38 +5836,7 @@
 260100290 Mirror Knight
 260100300 Aborr
 260100310 Furious Lizards
-260199999 ### Trials ###
-260200002 Wave - Enemy Kill
-260200010 Enemy - Is Setup
-260200020 Area Scaling - Trial
-260200021 Area Scaling - Deacons
-260200030 NG+ Scaling - Trial
-260200070 Wave - Auto Kill via Tool
-260200099 ### Trial of Adversity ###
-260200100 Wave Effect - Wave 1
-260200101 Wave Effect - Wave 2
-260200102 Wave Effect - Wave 3
-260200103 Wave Effect - Wave 4
-260200104 Wave Effect - Boss
-260200190 Wave - Enemy Scaling
-260200199 ### Trial of Sorrow ###
-260200200 Wave Effect - Wave 1
-260200201 Wave Effect - Wave 2
-260200202 Wave Effect - Wave 3
-260200203 Wave Effect - Wave 4
-260200204 Wave Effect - Boss
-260200290 Wave - Enemy Scaling
-260200299 ### Trial of Calamity ###
-260200300 Wave Effect - Wave 1
-260200301 Wave Effect - Wave 2
-260200302 Wave Effect - Wave 3
-260200303 Wave Effect - Wave 4
-260200304 Wave Effect - Boss
-260200390 Wave - Enemy Scaling
-260200399 ### Trial of Devastation ###
-260200400 Wave Effect - Wave 1
-260200401 Wave Effect - Wave 2
-260200402 Wave Effect - Wave 3
-260200403 Wave Effect - Wave 4
-260200404 Wave Effect - Boss
-260200410 Wave - Enemy Scaling
+260100320 The Rock
+260100330 Twisted Experiment
+260199999 ### Memories ###
+260200000 Soul Boost

@@ -1025,7 +1025,8 @@
 1180700 [Carthus Swordsman - Shotel] Baxtenife throwing
 1180710 [Carthus Swordsman - Shotel] Knife throwing
 1180720 [Carthus Swordsman - Shotel] Step knife throwing
-1190010 [Cathedral Knight] ?
+1180800 [Twisted Knight] Occult Energies
+1190010 [Cathedral Knight] Bash AOE
 1190170 [Cathedral Knight] Miracle Attack
 1190180 [Cathedral Knight] Miracle Recovery
 1190181 [Cathedral Knight] Miracle Recovery
@@ -2522,6 +2523,33 @@
 7571700 [Frostfire Cleric Orb] Frostfire-ball
 7630040 [Furious Lizard] Deathly Breath
 7630060 [Furious Lizard] Death Explosion
+7650080 [The Rock] Earth Split
+7650081 [The Rock] Earth Split [Hit]
+7650082 [The Rock] Earth Split [Hit]
+7650083 [The Rock] Earth Split [Hit]
+7650084 [The Rock] Earth Split [Hit]
+7650085 [The Rock] Earth Split [Hit]
+7650086 [The Rock] Earth Split [Hit]
+7650087 [The Rock] Earth Split [Hit]
+7650088 [The Rock] Earth Split [Hit]
+7650089 [The Rock] Earth Split [Hit]
+7650090 [The Rock] Earth Split [Hit]
+7650091 [The Rock] Earth Split [Hit]
+7650092 [The Rock] Earth Split [Hit]
+7650093 [The Rock] Earth Split [Hit]
+7650094 [The Rock] Earth Split [Hit]
+7650095 [The Rock] Earth Split [Hit]
+7650096 [The Rock] Earth Split [Hit]
+7650097 [The Rock] Earth Split [Hit]
+7670010 [Dismal Knight] Bash AOE
+7670170 [Dismal Knight] Affinity
+7670171 [Dismal Knight] Affinity [Hit]
+7670180 [Dismal Knight] Vow of Agony
+7670181 [Dismal Knight] Vow of Agony [Hit]
+7670255 [Dismal Knight] ?
+7670655 [Dismal Knight] Delayed Explosion
+7670656 [Dismal Knight] Delayed Explosion
+7670657 [Dismal Knight] Delayed Explosion
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
 11200010 [Sorcery] Farron Dart - Ascended
@@ -2872,6 +2900,7 @@
 13530000 [Miracle] Force
 13531000 [Miracle] Wrath of the Gods
 13532000 [Miracle] Emit Force
+13532001 [Miracle] Emit Force - Ascended
 13532100 [Miracle] Emit Force [Hit]
 13540000 [Miracle] Heavenly Relief
 13540001 [Miracle] Heavenly Relief - Ascended
@@ -3848,10 +3877,11 @@
 210014355 Frostfall - Endless Winter - Crystal Crescendo - Finale [Hit]
 210014400 Frostfall - Endless Winter - Low FP Freezing Mist
 210014401 Frostfall - Endless Winter - Low FP Freezing Mist [Hit]
-210014500 Frostfall - 2H L1 - Frost Surge
-210014501 Frostfall - 2H L1 - Frost Surge [Hit]
-210014502 Frostfall - 2H L1 - Frost Surge [Hit]
-210014503 Frostfall - 2H L1 - Frost Surge [Hit]
+210014500 Frostfall - 2H L1 - Frost Surge (VFX)
+210014501 Frostfall - 2H L1 - Frost Surge
+210014502 Frostfall - 2H L1 - Frost Surge
+210014503 Frostfall - 2H L1 - Frost Surge
+210014504 Frostfall - 2H L1 - Frost Surge [Hit]
 210014600 Frostfall - 2H L1 Rolling - Ice Daggers
 210014601 Frostfall - 2H L1 Rolling - Ice Daggers Trail
 210014602 Frostfall - 2H L1 Rolling - Ice Daggers Trail

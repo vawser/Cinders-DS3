@@ -1148,6 +1148,11 @@
 100031 Soul of Halflight
 100032 Soul of the Cathedral Guardian
 100033 Soul of the Mirror Knight
+100034 Soul of Aborr
+100035 Exquisite Lizard Hide
+100036 Soul of the Rock
+100037 Soul of the Frostfire Colossus
+100038 Twisted Soul
 200001 Awestone - 1
 200002 Awestone - 2
 200003 Awestone - 3
@@ -1236,11 +1241,17 @@
 201502 Servant of the Rat - 3
 201503 Servant of the Rat - 2
 201504 Servant of the Rat - 1
-201600 Ritualist Pact - 50
-201601 Ritualist Pact - 40
-201602 Ritualist Pact - 30
-201603 Ritualist Pact - 20
-201604 Ritualist Pact - 10
-201605 Ritualist Pact - 5
-201606 Ritualist Pact - 99
-201607 Ritualist Pact - 3
+201601 Ritual Incense - 1
+201602 Ritual Incense - 2
+201603 Ritual Incense - 3
+201604 Ritual Incense - 4
+201605 Ritual Incense - 5
+201606 Ritual Incense - 6
+201607 Ritual Incense - 7
+201608 Ritual Incense - 8
+201609 Ritual Incense - 9
+201610 Ritual Incense - 10
+201615 Ritual Incense - 15
+201620 Ritual Incense - 20
+201625 Ritual Incense - 25
+201630 Ritual Incense - 30

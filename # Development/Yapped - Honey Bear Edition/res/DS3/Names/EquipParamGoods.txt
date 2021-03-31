@@ -175,7 +175,7 @@
 524 Help me! Carving
 650 Ritual Spear Fragment
 651 Divine Spear Fragment
-700 Soul of Corrupted Gundyr
+700 Soul of the Dismal Knight
 701 Soul of the Ancient Wyvern
 702 Soul of the Lordran Remnants
 703 Soul of the Frostfire Colossus
@@ -206,6 +206,9 @@
 748 Soul of Halflight
 749 Soul of the Cathedral Guardian
 750 Soul of the Mirror Knight
+751 Soul of Aborr
+753 Soul of the Rock
+754 Twisted Soul
 800 Lifegem
 801 Radiant Lifegem
 802 Old Radiant Lifegem
@@ -256,7 +259,7 @@
 2019 Smouldering Key UNUSED
 2020 Eye of Londor UNUSED
 2021 Frozen Flower UNUSED
-2022 Broken Tablet
+2022 Tablet of Legends
 2023 Giant's Soul UNUSED
 2024 Smouldering Rubble
 2025 Ancestral Note
@@ -285,7 +288,8 @@
 2061 Frozen Flower
 2062 Dreg Key
 2063 Burning Key
-2064 Odessa's Note
+2064 Odessa's Letter
+2065 Seal of Judgment
 2100 Master Key
 2102 Small Lothric Banner
 2103 Farron Coal
@@ -347,6 +351,7 @@
 2162 Bone Fragment
 2163 Lizard Hide
 2164 Resonating Crystal
+2170 Torn Excerpt
 2173 Profaned Pyromancy Tome
 2174 Accursed Scroll
 2175 Writhing Tome
@@ -465,7 +470,7 @@
 4522 Writ of Fury
 4523 Writ of Envy
 4524 Writ of Desire
-5000 Tome: Corrupted Gundyr
+5000 Tome: Dismal Knight
 5001 Tome: Vordt
 5002 Tome: Curse-rotted Greatwood
 5003 Tome: Crystal Sage
@@ -495,25 +500,27 @@
 5027 Tome: Cathedral Guardian
 5028 Tome: Mirror Knight
 5029 Tome: Aborr
-5030 Tome: Furious Lizards
+5030 Tome: UNUSED
+5031 Tome: The Rock
+5032 Tome: Twisted Experiment
 5199 ### Companions ###
-5300 Opus of Sunlight
-5301 Opus of the Crab
-5302 Opus of the Rock
-5303 Opus of the Slug
-5304 Opus of the Deep
-5305 Opus of Avarice
-5306 Opus of the Tomb
-5307 Opus of the Rat
-5308 Opus of the Congregation
-5309 Opus of Divinity
-5310 Opus of Royalty
-5311 Opus of Loyalty
-5312 Opus of Allegiance
-5313 Opus of the Dog
-5314 Opus of Foresight
-5315 Opus of Crystals
-5316 Opus of Demons
+5300 Opus: Knight Solaire
+5301 Opus: El Crabbo
+5302 Opus: Rocky
+5303 Opus: Sluggo
+5304 Opus: Father John
+5305 Opus: Gimbal
+5306 Opus: El Hueso
+5307 Opus: Moxie
+5308 Opus: Metora
+5309 Opus: Erekris
+5310 Opus: Farold
+5311 Opus: Zarloth
+5312 Opus: Praxos
+5313 Opus: Woof
+5314 Opus: Alfreda
+5315 Opus: Tazshi
+5316 Opus: Bazdulk
 5399 ### Tools ###
 5400 Spellbound Bomb
 5410 Spellbound Urn
@@ -532,7 +539,7 @@
 8005 HP Tool
 8006 Souls Tool
 8007 FP Consumption Tool
-8008 Cripple Tool
+8008 Treasure Tool
 8999 ### Gestures ###
 9000 Beckon
 9001 Point forward

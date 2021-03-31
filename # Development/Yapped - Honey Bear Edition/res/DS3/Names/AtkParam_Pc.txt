@@ -3808,7 +3808,7 @@
 4608406 Fulgurius - Bullet
 4608407 Vitainus - Bullet
 4620400 Fist of Gratia - Punch
-4620401 Fist of Gratia - Punch - No FP
+4620410 Fist of Gratia - Punch - No FP
 4700000 Large Shield - 1H Light #1
 4700001 Large Shield
 4700030 Large Shield - 1H Jump

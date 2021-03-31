@@ -511,6 +511,9 @@
 62701 Londor Thief - Curse Aura
 63400 NPC - Movement
 63401 NPC - Movement
+66000 Dismal Knight - Weapon Buff
+66001 Dismal Knight - Curse Back
+66002 Dismal Knight - Curse Back
 69999 ### Illusions ###
 70000 Goat Dragonform - Head
 70001 Goat Dragonform - Body
@@ -1141,6 +1144,8 @@
 99912000 Ring: Black Phantom
 99913000 Time-lost Phantom
 99913001 Empowered Companion
+99913010 Lordran Remnants: Spirit Form
+99913020 Lordran Remnants: Active Form
 99913500 Wax Head
 99913510 Maggots
 99914000 Weapon: Curse Aura

@@ -2,10 +2,12 @@
 3000830 Oceiros, the Consumed King
 3000899 Dancer of the Boreal Valley
 3010800 Dragonslayer Armour
+3010850 Twisted Experiment
 3100800 Curse-rotted Greatwood
-3100850 Aborr
+3100870 Aborr
 3200800 Ancient Wyvern
 3200851 The Nameless King
+3200870 The Rock
 3300801 Abyss Watchers
 3300850 Crystal Sage
 3410830 The Twin Princes
@@ -14,6 +16,7 @@
 3500810 Cathedral Guardian
 3700800 Pontiff Sulyvahn
 3700850 Aldrich, Devourer of Gods
+3700870 Lordran Remnants
 3800800 High Lord Wolnir
 3800830 Old Demon King
 3900800 Yhorm the Giant

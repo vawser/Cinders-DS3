@@ -1,11 +1,12 @@
 0 Default
 3 Poison
 7 Bleed
-21 Weapon - Handmaid's Ladle
 40 Infusion - Fire/Dark
 70 Tool - Linear Scaling
 80 Catalyst - Normal
-90 Catalyst - Pyromancy
+81 Catalyst - Pyromancy
+82 Catalyst - Hex
+83 Catalyst - Sorcery
 100 VIG - HP Scaling
 101 ATN - FP Scaling
 102 Soul Level - Defence

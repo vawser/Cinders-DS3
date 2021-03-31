@@ -20,6 +20,7 @@
 6001 Skip Conversation
 6100 Light a bonfire
 6101 They rest in bonfire
+6120 Talk (Used for most NPCs)
 7100 Open Doors _ General purpose
 7101 Open Doors _ General-purpose 101 standards
 7110 Close the door _ generic
@@ -64,16 +65,19 @@
 40012 Trial of Sorrow
 40013 Trial of Devastation
 40014 Peer into the Past
+40015 Revive
 3000250 For the treasure corpse that broke from the vase
 3001800 Entering the wall of light (Ojo 1 Full Armor Beast)
 3001830 Entering the wall of light (Ojo 1 dragon)
 3001890 Entering the wall of Light (Ojo 1 E3 version Tracker)
 3011800 Entering the wall of Light (Ojo 2 Dragon's Guardian Knight)
+3011850 Fogwall - Twisted Knight
 3100000 Should probably rely to servant
 3100870 Fogwall - Aborr
 3101800 Entering the wall of Light (city)
 3201800 Entering the wall of Light (bridge _ The nest of a flying dragon)
 3201850 Entering the wall of Light (bridge _ on the bridge)
+3201870 Fogwall - The Rock
 3301800 Entering the wall of light (Poison swamp forest)
 3301850 Entering the wall of light (elders of the Forest of poisonous swamp crystals)
 3411830 Entering the wall of Light (Ojo 2)
@@ -84,7 +88,9 @@
 3501860 Entering the wall of Light (Basilica Church _ Rosalia)
 3601800 Entering the wall of the light (God's Tomb _ the Angel of the Dragon)
 3701800 Entering the wall of light (Anole _ Saliva)
+3701820 Fogwall - Guardians of Anor Londo
 3701850 Entering the wall of Light (anole _ landmark Church)
+3701870 Fogwall - Lordran Remnants
 3801800 Entering the wall of light (disused city _ Hallec)
 3801830 Entering the wall of light (waste city _ sand Worm)
 3801860 Entering the wall of light (disused city _ the demon of Ashes)

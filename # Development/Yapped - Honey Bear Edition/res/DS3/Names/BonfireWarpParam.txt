@@ -1,7 +1,7 @@
 0 Firelink Shrine
 1 [Cemetery of Ash] Firelink Shrine
-2 [Cemetery of Ash] Cemetery of Ash
-3 [Cemetery of Ash] Iudex Gundyr
+2 [Cemetery of Ash] Lonely Hollow
+3 [Cemetery of Ash] Overgrown Sanctum
 4 [Cemetery of Ash] Untended Graves
 5 [Cemetery of Ash] Champion Gundyr
 6 [High Wall of Lothric] High Wall of Lothric
@@ -37,7 +37,7 @@
 36 [Farron Keep] Unused <Abyss Watchers>
 37 [Cathedral of the Deep] Cathedral of the Deep
 38 [Cathedral of the Deep] Cleansing Chapel
-39 [Cathedral of the Deep] Unused <Deacons of the Deep>
+39 [Cathedral of the Deep] Secluded Cloister
 40 [Cathedral of the Deep] Rosaria's Bed Chamber
 41 [Irithyll of the Boreal Valley] Unused <Irithyll of the Boreal Valley>
 42 [Irithyll of the Boreal Valley] Central Irithyll
