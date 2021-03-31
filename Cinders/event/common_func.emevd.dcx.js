@@ -7186,16 +7186,117 @@ Event(20090300, Default, function(X0_4, X4_4) {
 // This handles forced desummoning for a companion
 //----------------------------------------------
 Event(20080000, Restart, function(X0_4) {
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
+    // Check if the companion has none of the activity timers
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761600, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761601, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761602, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761603, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761604, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761605, false, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Disable companion
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
 
-    // Clear companions when one is summoned
-    IfCharacterHasSpeffect(AND_01, 10000, 160761300, true, ComparisonType.Equal, 1);
+//----------------------------------------------
+// Companion - Bonfire Rest
+//----------------------------------------------
+Event(20080001, Restart, function(X0_4) {
+    // Reset activity timers if the player rests at a bonfire
+    ClearSpeffect(X0_4, 160761600);
+    ClearSpeffect(X0_4, 160761601);
+    ClearSpeffect(X0_4, 160761602);
+    ClearSpeffect(X0_4, 160761603);
+    ClearSpeffect(X0_4, 160761604);
+    ClearSpeffect(X0_4, 160761605);
+    ClearSpeffect(X0_4, 160761606);
+});
+
+//----------------------------------------------
+// Companion - Summoning
+// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
+// This handles the companion summoning, duration and scheduled desummoning
+//----------------------------------------------
+Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
+    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
     WaitForConditionGroupState(PASS, AND_01);
     
+    // Ritualist Pact boost
+    SkipIfCharacterHasSpeffect(1, 10000, 160100420, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761100);
+    
+    // Disabled at 0% HP
+    IfCharacterHPRatio(AND_02, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
+    DisplayEpitaphMessage(99030020);
+    GotoUnconditionally(Label.LABEL1); // Skip setup if at 0 HP
+
+    WaitFixedTimeSeconds(0.1);
+
+    // Duration - Normal
+    IfCharacterHasSpeffect(OR_02, 10000, 160603700, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603701, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603702, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603703, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603704, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603705, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, PASS, OR_02);
+    SetSpEffect(X0_4, 160761600); // Activity Timer
+    SetSpEffect(10000, 160761700); // Player - Companion Active
+    
+    // Duration - Dial of Obedience
+    SkipIfCharacterHasSpeffect(2, 10000, 160603700, false, ComparisonType.Equal, 1);
+    SetSpEffect(X0_4, 160761601); // Activity Timer
+    SetSpEffect(10000, 160761701); // Player - Companion Active
+    
+    // Duration - Dial of Obedience+1
+    SkipIfCharacterHasSpeffect(2, 10000, 160603701, false, ComparisonType.Equal, 1);
+    SetSpEffect(X0_4, 160761602); // Activity Timer
+    SetSpEffect(10000, 160761702); // Player - Companion Active
+
+    // Duration - Dial of Obedience+2
+    SkipIfCharacterHasSpeffect(2, 10000, 160603702, false, ComparisonType.Equal, 1);
+    SetSpEffect(X0_4, 160761603); // Activity Timer
+    SetSpEffect(10000, 160761703); // Player - Companion Active
+
+    // Duration - Dial of Obedience+3
+    SkipIfCharacterHasSpeffect(2, 10000, 160603703, false, ComparisonType.Equal, 1); 
+    SetSpEffect(X0_4, 160761604); // Activity Timer
+    SetSpEffect(10000, 160761704); // Player - Companion Active
+    
+    // Duration - Dial of Obedience+4
+    SkipIfCharacterHasSpeffect(2, 10000, 160603704, false, ComparisonType.Equal, 1); 
+    SetSpEffect(X0_4, 160761605); // Activity Timer
+    SetSpEffect(10000, 160761705); // Player - Companion Active
+    
+    // Duration - Dial of Obedience+5
+    SkipIfCharacterHasSpeffect(2, 10000, 160603705, false, ComparisonType.Equal, 1); 
+    SetSpEffect(X0_4, 160761606); // Activity Timer
+    SetSpEffect(10000, 160761706); // Player - Companion Active
+
+    // Summon
+    SetCharacterAIState(X0_4, Enabled);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterBackreadState(X0_4, false);
+    
+    SetSpeffect(X0_4, X8_4);        // Damage scaling
+    SetSpeffect(X0_4, 160761000);   // Summon effect
+    SetSpeffect(10000, 113015);     // FP Pause
+    
+    // Warp companion to player location
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+    
+    Label1();
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -7205,38 +7306,47 @@ Event(20080000, Restart, function(X0_4) {
 // This handles the interaction tools have with a companion
 //----------------------------------------------
 Event(20080002, Restart, function(X0_4) {
+    // If companion isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761601, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761602, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761603, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761604, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761605, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
     // Rejuvenating Phial
     IfCharacterHasSpeffect(AND_01, 10000, 160763000, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 160761501, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
     SetSpeffect(X0_4, 160763001);
     WaitFixedTimeSeconds(1);
     
     // Banishing Coin
     IfCharacterHasSpeffect(AND_02, 10000, 160763100, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761501, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
-    SetSpeffect(10000, 160761300); // Clear current companions
+    SkipIfConditionGroupStateUncompiled(7, FAIL, AND_02);
+    ClearSpeffect(X0_4, 160761600);
+    ClearSpeffect(X0_4, 160761601);
+    ClearSpeffect(X0_4, 160761602);
+    ClearSpeffect(X0_4, 160761603);
+    ClearSpeffect(X0_4, 160761604);
+    ClearSpeffect(X0_4, 160761605);
+    ClearSpeffect(X0_4, 160761606);
     
     // Beckoning Bone
     IfCharacterHasSpeffect(AND_03, 10000, 160763200, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_03, X0_4, 160761501, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpeffect(X0_4, 160760100); // Summon effect
+    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_03);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
     // Invigorating Phial
     IfCharacterHasSpeffect(AND_04, 10000, 160763300, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_04, X0_4, 160761501, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_04);
     SetSpeffect(X0_4, 160763301);
     
     // Energizing Phial
     IfCharacterHasSpeffect(AND_05, 10000, 160763400, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_05, X0_4, 160761501, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, AND_05);
     SetSpeffect(X0_4, 160763401);
-
+    
     // Falling
     IfCharacterHasSpeffect(AND_06, X0_4, 32, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(7, FAIL, AND_06);
@@ -7250,22 +7360,9 @@ Event(20080002, Restart, function(X0_4) {
     WaitFixedTimeSeconds(0.5);
     SetCharacterGravity(X0_4, Enabled);
     
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Companion - Active Monitor
-// <entity id>, <summon speffect>
-// This handles the companion activity message if they've already been summoned 
-// and the summoning item is used again whilst in the duration period.
-//----------------------------------------------
-Event(20080003, Restart, function(X0_4, X4_4) {
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
     
-    SkipIfCharacterHasSpeffect(1, X0_4, 160761501, false, ComparisonType.Equal, 1); // Skip if not active
-    DisplayEpitaphMessage(99030030); // Tell player the companion is already active
-
+    
+    Label0();
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -7526,92 +7623,4 @@ Event(20080010, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-//----------------------------------------------
-// Companion - Summoning
-// <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
-// This handles the companion summoning, duration and scheduled desummoning
-//----------------------------------------------
-Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, true, ComparisonType.Equal, 1); // Skip if Ritualist Pact is equipped
-    SetSpeffect(10000, 160761300); // Clear current companions
-    
-    // Disabled at 0% HP
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761502, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if dead
-    
-    WaitFixedTimeSeconds(0.1);
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
-    
-    SetSpeffect(X0_4, X8_4); // Damage scaling
-    SetSpeffect(X0_4, 160760100); // Summon effect
-    SetSpeffect(X0_4, 160761501); // Add "Active" effect
-    SetSpeffect(10000, 160761500); // Add "Player has companion out" effect
-    SetSpeffect(10000, 113015); // FP Pause
-    
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    // Duration - Normal
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, true, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(59.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience
-    SkipIfCharacterHasSpeffect(3, 10000, 160603700, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(89.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience+1
-    SkipIfCharacterHasSpeffect(3, 10000, 160603701, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(119.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience+2
-    SkipIfCharacterHasSpeffect(3, 10000, 160603702, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(149.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience+3
-    SkipIfCharacterHasSpeffect(3, 10000, 160603703, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(179.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience+4
-    SkipIfCharacterHasSpeffect(3, 10000, 160603704, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(209.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Duration - Dial of Obedience+5
-    SkipIfCharacterHasSpeffect(3, 10000, 160603705, false, ComparisonType.Equal, 1); 
-    WaitFixedTimeSeconds(249.0);
-    SetSpeffect(X0_4, 160760101); // Desummon effect
-    WaitFixedTimeSeconds(1.0);
-    
-    // Desummon
-    ClearSpeffect(X0_4, 160761501); // Remove "Active" effect
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
-});
+

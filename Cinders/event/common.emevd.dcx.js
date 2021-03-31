@@ -2072,7 +2072,14 @@ Event(20030, Default, function(X0_4, X4_4, X8_4, X12_4) {
 
 // Covenant - Trigger Covenant Item Drop - Ritualist Pact
 Event(20031, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, 160761500, true, ComparisonType.Equal, 1); // Companion is out
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761700, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761701, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761702, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761703, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761704, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761705, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761706, true, ComparisonType.Equal, 1);
+    IfConditionGroup(AND_01, PASS, OR_01);
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
