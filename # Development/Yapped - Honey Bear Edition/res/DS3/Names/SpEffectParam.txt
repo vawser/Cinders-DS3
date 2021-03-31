@@ -411,6 +411,7 @@
 4300 Material - Water
 4310 Farron Keep - Near Tree
 4400 Path of the Dragon - Gesture Trigger
+4401 Point Up - Gesture Trigger
 4500 [Behavior] Falling
 4501 [Behavior] Falling
 4502 [Behavior] Falling
@@ -1371,6 +1372,7 @@
 12501 Gesture Trigger 2
 12502 Gesture Trigger 3 - Path of the Dragon
 12503 Gesture Trigger 4
+12505 Gesture Trigger - Point Up
 12600 [High Lord Wolnir]
 12601 [High Lord Wolnir]
 12602 [High Lord Wolnir]
@@ -5029,6 +5031,7 @@
 160750200 Warp - Untended Graves
 160750300 Freezing Wind
 160750400 Bonfire Fade
+160750500 Player Kill
 160759999 ### Companions ###
 160760000 Trigger - Solaire
 160760001 Trigger - Lesser Crab - El Crabbo
