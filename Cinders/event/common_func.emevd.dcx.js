@@ -4029,15 +4029,25 @@ Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Boss - Sound - Basic
 // ----------------------------------------
 Event(20001834, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    var flag_BossDefeated = X0_4;
+    var flag_BossInBattle = X4_4;
+    var flag_BossStart    = X8_4;
+    
+    var sound_BossBGM = X12_4;
+    
     SetNetworkSyncState(Disabled);
-    SetMapSoundState(X12_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    SetMapSoundState(sound_BossBGM, Disabled);
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossInBattle);
+    
     SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossStart);
+    
     IfConditionGroup(MAIN, PASS, AND_01);
-    EnableBossMapSound(X12_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    EnableBossMapSound(sound_BossBGM, Enabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
     EnableBossMapSound(-1, Disabled);
 });
 
