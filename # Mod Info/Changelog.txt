@@ -153,9 +153,8 @@
 #------------------------------
 # TODO
 #------------------------------
+Look into the issues around summoning
 Check the new boss music scripts, fix it playing at incorrect times
-
-4001
 
 #------------------------------
 # CURRENT MAP
@@ -181,16 +180,15 @@ Check the new boss music scripts, fix it playing at incorrect times
 2170 Torn Excerpt
 2141 Estus Shard
 2143 Undead Bone Shard
+2145 Londor Braille Divine Tome
+2065 Seal of Judgment
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-2065 Seal of Judgment
-
 30380000 Burial Scythe
 31380000 Scythe of Nahr Alma
 30700 Band of Darkness
-2145 Londor Braille Divine Tome
 
 #------------------------------
 # REFERENCE

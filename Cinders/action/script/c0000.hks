@@ -2779,6 +2779,11 @@ function ExecMagic(quick_type, blend_type)
         act(2002, 113003)
     end
     
+    -- Sacrdd Flame
+    if magic_type == 33 then 
+        act(2002, 113005)
+    end
+    
     -- Dark Edge
     if magic_type == 37 then
         act(2002, 113003)

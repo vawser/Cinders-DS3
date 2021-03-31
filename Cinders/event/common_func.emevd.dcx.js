@@ -6291,7 +6291,7 @@ Event(20020030, Default, function() {
 //----------------------------------------------
 // Twisted Knight - Boss Kill
 //----------------------------------------------
-Event(20020030, Default, function() {
+Event(20020031, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001032, ON); // Boss Killed
     
