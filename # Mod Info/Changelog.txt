@@ -93,11 +93,17 @@
  - Offering of Vitality: increase companion HP by 25/50/75/100/150%.
  - Offering of Devotion: grants companion 1/2/3/4/5/6% HP per second.
  - Offering of Fervor: grants companion 30/40/50/60/70/80 stamina recovery.
-- Moved the Opus of Demons/Crystals/Loyalty/Allegiance and the Dog to Ritualist Ellie's shop. Removed the old sources.
 - Reduced the price of the offerings and tools.
 - Removed ember requirement for summoning.
+- Multiple companions can be summoned by default.
 - All companions now stay for 60 seconds by default.
 - Companions now have fall protection, they will warp to the player if they experience falling for longer than 0.5 seconds.
+- Changed Opus: El Crabbo into Opus: Robert, which summons a Hollow.
+- Changed Opus: Sluggo into Opus: Yalnu, which summons a Ghru.
+- Changed Opus: Father John into Opus: Azathoth, which summons a Lycanthrope.
+- Added Opus: El Crabbo, which summons a Great Crab.
+- Added Opus: Wheely, which summons a Bonewheel Skeleton.
+- Added Opus: Gerald, which summons an Abyss Watcher.
 
 # Mechanics
 - Removed the Trials.
@@ -153,7 +159,6 @@
 #------------------------------
 # TODO
 #------------------------------
-Look into the issues around summoning
 
 #------------------------------
 # CURRENT MAP
@@ -188,6 +193,11 @@ Look into the issues around summoning
 30380000 Burial Scythe
 31380000 Scythe of Nahr Alma
 30700 Band of Darkness
+
+5303 Opus: Yalnu
+5304 Opus: Azathoth
+5318 Opus: Wheely
+5319 Opus: Gerald
 
 #------------------------------
 # REFERENCE
