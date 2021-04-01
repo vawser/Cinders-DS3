@@ -194,10 +194,10 @@
 31380000 Scythe of Nahr Alma
 30700 Band of Darkness
 
-5303 Opus: Yalnu
-5304 Opus: Azathoth
-5318 Opus: Wheely
-5319 Opus: Gerald
+5303 Opus: Yalnu        # Ghru
+5304 Opus: Azathoth     # Lycanthrope
+5318 Opus: Wheely       # Bonewheel Skeleton
+5319 Opus: Gerald       # Abyss Watcher
 
 #------------------------------
 # REFERENCE
