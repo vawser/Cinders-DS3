@@ -672,26 +672,7 @@
 <text id="5031">Revive the Rock</text>
 <text id="5032">Revive the Twisted Knight</text>
 
-<text id="5300">Beckon Solaire of Astora to the player</text>
-<text id="5301">Beckon Robert to the player</text>
-<text id="5302">Beckon Rocky to the player</text>
-<text id="5303">Beckon Yalnu to the player</text>
-<text id="5304">Beckon Azathoth to the player</text>
-<text id="5305">Beckon Gimbal to the player</text>
-<text id="5306">Beckon El Hueso to the player</text>
-<text id="5307">Beckon Moxie to the player</text>
-<text id="5308">Beckon Erekris to the player</text>
-<text id="5309">Beckon Metora to the player</text>
-<text id="5310">Beckon Farold to the player</text>
-<text id="5311">Beckon Zarloth to the player</text>
-<text id="5312">Beckon Praxos to the player</text>
-<text id="5313">Beckon Woof to the player</text>
-<text id="5314">Beckon Alfreda to the player</text>
-<text id="5315">Beckon Tazshi to the player</text>
-<text id="5316">Beckon Bazdulk to the player</text>
-<text id="5317">Beckon El Crabbo to the player</text>
-<text id="5318">Beckon Wheely to the player</text>
-<text id="5319">Beckon Gerald to the player</text>
+<text id="5300">Beckon local companion to the player</text>
 
 <text id="5400">Explodes, inflicting fire damage</text>
 <text id="5410">Explodes, inflicting lightning damage</text>

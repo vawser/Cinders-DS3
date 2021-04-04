@@ -7223,7 +7223,7 @@ Event(20080001, Restart, function(X0_4) {
 // <entity id>, <summon speffect>, <scaling speffect>, <map id>, <block id>
 // This handles the companion summoning, duration and scheduled desummoning
 //----------------------------------------------
-Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
@@ -7249,6 +7249,7 @@ Event(20080100, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     IfCharacterHasSpeffect(OR_02, 10000, 160603703, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 10000, 160603704, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 10000, 160603705, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160603706, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, PASS, OR_02);
     SetSpEffect(X0_4, 160761600); // Activity Timer
     SetSpEffect(10000, 160761700); // Player - Companion Active
@@ -7371,7 +7372,7 @@ Event(20080002, Restart, function(X0_4) {
 // <entity id>
 // This handles the ring effects that boost a companion
 //----------------------------------------------
-Event(20080010, Restart, function(X0_4) {
+Event(20080003, Restart, function(X0_4) {
     var entity_Companion = X0_4;
 
     //------------------------
@@ -7622,5 +7623,3 @@ Event(20080010, Restart, function(X0_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-
-
