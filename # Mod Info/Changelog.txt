@@ -158,12 +158,6 @@
 #------------------------------
 # TODO
 #------------------------------
-Add the second hidden path in Lothric Castle
- 
-o000100_0001
-c1000_0000
-c0000_0006
-Bonfire: Dragon Barracks
 
 #------------------------------
 # CURRENT MAP
