@@ -147,6 +147,8 @@
 # Map
 - Removed the Freezing Mist in Irithyll.
 - Removed the Dragonrider in Irithyll.
+- Renamed Grand Archives Roof bonfire to Throne Ascent
+- Added Grand Foyer bonfire in Lothric Castle.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
@@ -156,7 +158,13 @@
 #------------------------------
 # TODO
 #------------------------------
+Add the second hidden path in Lothric Castle
  
+o000100_0001
+c1000_0000
+c0000_0006
+Bonfire: Dragon Barracks
+
 #------------------------------
 # CURRENT MAP
 #------------------------------
