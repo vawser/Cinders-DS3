@@ -2763,32 +2763,14 @@ function ExecMagic(quick_type, blend_type)
     ----------------------
     -- FP Pause
     ----------------------
+    -- Default (applied in all instances to set a minimum)
+    act(2002, 113003)
     
-    -- Soul Greatsword
-    if magic_type == 25 then 
-        act(2002, 113003)
-    end
-    
-    -- Farron Dart
-    if magic_type == 29 then 
-        act(2002, 113003)
-    end
-    
-    -- Farron Flashsword
-    if magic_type == 30 then 
-        act(2002, 113003)
-    end
-    
-    -- Sacrdd Flame
+    -- Sacred Flame
     if magic_type == 33 then 
         act(2002, 113005)
     end
-    
-    -- Dark Edge
-    if magic_type == 37 then
-        act(2002, 113003)
-    end
-    
+
     -- Lifehunt Scythe
     if magic_type == 44 then
         act(2002, 113005)
@@ -2797,11 +2779,6 @@ function ExecMagic(quick_type, blend_type)
     -- Old Moonlight
     if magic_type == 46 then 
         act(2002, 113005)
-    end
-    
-    -- Flame Fan
-    if magic_type == 50 then 
-        act(2002, 113003)
     end
     
     ----------------------
