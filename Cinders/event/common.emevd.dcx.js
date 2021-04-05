@@ -116,7 +116,7 @@ Event(0, Default, function() {
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
-    //InitializeEvent(31, 970, 13900850, 2400, 0, 0); // UNUSED
+    InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Herald of Winter
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     
@@ -1845,7 +1845,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
-    //InitializeEvent(0, 20130, 0); // UNUSED
+    InitializeEvent(0, 20130, 0); // Herald of Winter
     InitializeEvent(0, 20131, 0); // The Rock
     InitializeEvent(0, 20132, 0); // Twisted Knight
     
@@ -2141,20 +2141,22 @@ Event(20044, Default, function(X0_4) {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     // Treasure flags
-    BatchSetEventFlags(53000000, 53009999, OFF);
-    BatchSetEventFlags(53100000, 53109999, OFF);
-    BatchSetEventFlags(53200000, 53209999, OFF);
-    BatchSetEventFlags(53300000, 53309999, OFF);
-    BatchSetEventFlags(53410000, 53409999, OFF);
-    BatchSetEventFlags(53500000, 53509999, OFF);
-    BatchSetEventFlags(53700000, 53709999, OFF);
-    BatchSetEventFlags(53800000, 53809999, OFF);
-    BatchSetEventFlags(53900000, 53909999, OFF);
-    BatchSetEventFlags(54000000, 54009999, OFF);
-    BatchSetEventFlags(54100000, 54109999, OFF);
-    BatchSetEventFlags(54500000, 54509999, OFF);
-    BatchSetEventFlags(55000000, 55009999, OFF);
-    BatchSetEventFlags(55100000, 55109999, OFF);
+    BatchSetEventFlags(53000000, 53000999, OFF);
+    BatchSetEventFlags(53010000, 53010999, OFF);
+    BatchSetEventFlags(53100000, 53100999, OFF);
+    BatchSetEventFlags(53200000, 53200999, OFF);
+    BatchSetEventFlags(53300000, 53300999, OFF);
+    BatchSetEventFlags(53410000, 53400999, OFF);
+    BatchSetEventFlags(53500000, 53500999, OFF);
+    BatchSetEventFlags(53700000, 53700999, OFF);
+    BatchSetEventFlags(53800000, 53800999, OFF);
+    BatchSetEventFlags(53900000, 53900999, OFF);
+    BatchSetEventFlags(54000000, 54000999, OFF);
+    BatchSetEventFlags(54100000, 54100999, OFF);
+    BatchSetEventFlags(54500000, 54500999, OFF);
+    BatchSetEventFlags(55000000, 55000999, OFF);
+    BatchSetEventFlags(55100000, 55100999, OFF);
+    BatchSetEventFlags(55110000, 55110999, OFF);
     
     //SetEventFlag(25001031, ON);
     
@@ -3377,22 +3379,22 @@ Event(20129, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - UNUSED
+// Boss Revival - Herald of Winter
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20130, Restart, function() {
     var param_SpEffect_Trigger = 260100310;
     
     var flag_BossKilled     = 25001030;
-    var flag_BossDefeated   = 13900850;
-    var flag_BossInProgress = 13900851;
+    var flag_BossDefeated   = 14500860;
+    var flag_BossInProgress = 14500861;
     var flag_BossState1     = 9343;
     var flag_BossState2     = 6343;
     
-    var entity_SpawnPoint  = 3902960;
-    var entity_PlayerPoint = 3900960;
+    var entity_SpawnPoint  = 4502925;
+    var entity_PlayerPoint = 4500981;
     
-    var mapID      = 39;
+    var mapID      = 45;
     var blockID    = 0;
     var ceremonyID = 0;
     

@@ -8,10 +8,7 @@
 <text id="26000">The Painter</text>
 <text id="27000">Slave Knight Gael</text>
 <text id="29000">Sir Vilhelm</text>
-<text id="30000">The Lord's Blade</text>
-<text id="30001">The Dragonslayer</text>
-<text id="30002">The Abyss Walker</text>
-<text id="30003">The Blind Giant</text>
+<text id="30000">Herald of Winter</text>
 <text id="31000">Livid Pyromancer Dunnel</text>
 <text id="32000">Forlorn Corvian Settler</text>
 <text id="33000">Birch Woman</text>
@@ -40,6 +37,6 @@
 <text id="906027">%null%</text>
 <text id="906028">%null%</text>
 <text id="906029">%null%</text>
-<text id="906030">Gravetender Greatwolf</text>
+<text id="906030">Enraged Greatwolf</text>
 </entries>
 </fmg>

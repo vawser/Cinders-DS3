@@ -23,7 +23,7 @@
 53412137 Grand Archives
 54102014 Kiln of the First Flame
 53202080 Archdragon Peak
-54502088 Painted World of Ariandel
+54502091 Painted World of Ariandel
 55002071 Dreg Heap
 55102068 The Ringed City
 
@@ -115,6 +115,11 @@
 - Reduced duration of Furious Lizard projectile attack.
 - Removed Furious Lizards boss.
 - Reduced the damage of the Twisted Knight occult energies spell.
+- Added the Herald of Winter (Millwood Knight with Velstadt skin) and Enraged Greatwolf in the Depths of the Painting.
+ - Drops the Soul of the Herald, which transposes into:
+  - Sacred Chime Hammer
+  - Rampart Golem Lance
+  - Wretched Pendant
 
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
@@ -149,11 +154,14 @@
 - Removed the Dragonrider in Irithyll.
 - Renamed Grand Archives Roof bonfire to Throne Ascent
 - Added Grand Foyer bonfire in Lothric Castle.
+- Reverted the door change in Ariandel Chapel.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
 - Fixed several Hexes not using spell buff when in the left hand.
 - Removed some leftover DebugAnimSpeed events
+- The save and quit crashes in Lothric Castle and Archdragon Peak should be fixed.
+- The crash when entering Ariandel should be fixed.
 
 #------------------------------
 # TODO
@@ -319,3 +327,97 @@
 444000 - Poison Bolt
 454000 - Frost Bolt
 
+# Undead Settlement
+2143 Undead Bone Shard
+2107 Mortician's Ashes
+2141 Estus Shard
+2118 Loretta's Bone
+2132 Sage's Scroll
+2174 Accursed Scroll
+2127 Great Swamp Pyromancy Tome
+
+20540 Flynn's Ring
+30380 Bulwark Ring
+30430 Jester Ring
+20010 Chloranthy Ring
+20510 Fire Clutch Ring
+20050 Flame Stoneplate Ring
+30180 Crypt Ring
+30420 Physician Ring
+30450 Londor Tincture
+30500 Old Pygmy Brooch
+20150 Scholar Ring
+20110 Poisonbite Ring
+20430 Skull Ring
+
+20190000 Caduceus Round Shield
+31210000 Shiv
+12060000 Spotted Whip
+21290000 Wargod Wooden Shield
+10140000 Red Hilted Halberd
+18040000 Saint's Talisman
+8060000 Large Club
+21100000 Black Knight Shield
+8030000 Reinforced Club
+7090000 Missionary Axe
+30340000 Beast Cutter
+30870000 Server
+17040000 Velka's Talisman
+30300000 Velka's Rapier
+22160000 Breaking Wheel
+31080000 Meat Cleaver
+20200000 Red and White Round Shield
+7100000 Thrall Axe
+31240000 Thrall Harpe
+31280000 Thrall Pick
+31290000 Worker Machete
+1060000 Harpe
+30240000 Wooden Mallet
+9100000 Four-pronged Plow
+30080000 Machete
+6140000 Flamberge
+8160000 Great Wooden Hammer
+16050000 Great Machete
+
+26501000 Cornyx's Garb
+26502000 Cornyx's Wrap
+26503000 Cornyx's Skirt
+31000000 Cleric Hat
+31001000 Cleric Blue Robe
+31002000 Cleric Gloves
+31003000 Cleric Trousers
+10190000 Snail Shell
+76503000 Loincloth
+10270000 Salvador's Hat
+86001000 Mirrah Vest
+86002000 Mirrah Gloves
+86003000 Mirrah Trousers
+24000000 Northern Helm
+24001000 Northern Armor
+24002000 Northern Gloves
+24003000 Northern Trousers
+99540000 Tan Straw Hat
+99240000 Mask of Velka
+99241000 Black Cleric Robe
+99242000 Black Manchette
+99243000 Black Tights
+10230000 Barrel
+10250000 Sack
+53000000 Outrider Knight Helm
+53001000 Outrider Knight Armor
+53002000 Outrider Knight Gauntlets
+53003000 Outrider Knight Leggings
+47500000 Thrall Hood
+54000000 Black Knight Helm
+54001000 Black Knight Armor
+54002000 Black Knight Gauntlets
+54003000 Black Knight Leggings
+47000000 Worker Hat
+47001000 Worker Garb
+47002000 Worker Gloves
+47003000 Worker Trousers
+45000000 Footman's Hood
+45001000 Footman's Overcoat
+45002000 Footman's Bracelet
+45003000 Footman's Trousers
+99470000 Mask of Cruelty

@@ -6237,34 +6237,34 @@ Event(20020028, Default, function() {
 });
 
 //----------------------------------------------
-// UNUSED - Boss Kill
+// Herald of Winter - Boss Kill
 //----------------------------------------------
 Event(20020029, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(25001030, ON); // Boss Killed
     
     // Default Primordial Essence
-    AwardItemLot(800300060); // 10%
+    AwardItemLot(800300020); // 75%
     
     // No Hit Reward
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    AwardItemLot(800300000); // 25%
+    AwardItemLot(800300030); // 100%
     
     // Curse of Valor
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
-    AwardItemLot(800300000); // 25%
+    AwardItemLot(800300030); // 100%
     
     // NG+1 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(800300060); // 10%
+    AwardItemLot(800300020); // 75%
     
     // NG+2 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(800300060); // 10%
+    AwardItemLot(800300020); // 75%
     
     // NG+3 Drop
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(800300060); // 10%
+    AwardItemLot(800300020); // 75%
 });
 
 //----------------------------------------------
@@ -6591,7 +6591,7 @@ Event(20020128, Default, function() {
 });
 
 //----------------------------------------------
-// UNUSED - Boss Start
+// Herald of Winter - Boss Start
 //----------------------------------------------
 Event(20020129, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
