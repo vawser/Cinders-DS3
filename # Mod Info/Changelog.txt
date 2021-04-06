@@ -144,6 +144,14 @@
 - Changed Repeating Pistol so it is now a faster version of the Hunter's Pistol, but slightly weaker per shot.
 - Reduced the stamina and poise damage of the pistols heavily.
 - Increased the FP cost of sidearms slightly.
+- Changed the Sacred Chime Hammer WA to use the bell chime animation and sound. Reduced the number of bullets spawned.
+- Added in Lost Cat's moveset changes:
+ - Changed firearms pistol sound
+ - Added alternative Scythe moveset for Scythe of Nahr Alma/Bone Scythe
+ - Tweaked Beast Cutter moveset
+ - Added moveset for Gargoyle Halberd/Tail Axe/Bident
+ - Lothric's Scythe fix
+ - Backstab fixes
 
 # Infusions
 - Increased the on-hit effect of the Magic/Dark infusions.
@@ -167,6 +175,7 @@
 - Renamed Grand Archives Roof bonfire to Throne Ascent
 - Added Grand Foyer bonfire in Lothric Castle.
 - Reverted the door change in Ariandel Chapel.
+- Changed the Irithyll Warp to Ariandel so you appear below the bridge.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
@@ -175,10 +184,13 @@
 - The save and quit crashes in Lothric Castle and Archdragon Peak should be fixed.
 - The crash when entering Ariandel should be fixed.
 - Mirror Knight should now drop its soul reward
+- Fixed Eleonora's WA effect
 
 #------------------------------
 # TODO
 #------------------------------
+Add Catacombs crab secret - lure to a location, treasure spawns (Ring of the Crab)
+
 
 #------------------------------
 # CURRENT MAP
