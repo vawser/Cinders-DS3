@@ -165,6 +165,12 @@
 - Boss souls can now use the 'Use Selected' option.
 
 # Treasure
+- Overhauled treasure placements in:
+ - High Wall
+ - Lothric Castle
+ - Kiln of the First Flame
+ - Cemetery of Ash/Untended Graves
+ - 
 - Added Bestial Band to a chest in the Dreg Heap.
 - Added Ring of Calamity to a chest in Catacombs of Carthus
 - Andre now sells the Hands of God after you defeat the Soul of Cinder.
@@ -190,6 +196,15 @@
 #------------------------------
 # TODO
 #------------------------------
+9946    Ice Sanctum Knight
+9947    Imported
+9948    Ironclad
+9949    Velstadt
+9950    Armored Warrior
+9951    Eastern General
+9952    Genichiro
+9953    Okami
+9954    Wolf
 
 #------------------------------
 # CURRENT MAP
