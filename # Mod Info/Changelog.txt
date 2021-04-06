@@ -120,7 +120,19 @@
   - Sacred Chime Hammer
   - Rampart Golem Lance
   - Wretched Pendant
-
+- Frostfire Colossus:
+ - The Colossus will remain inactive until both the Frostfire Clerics are killed
+ - Colossus is now immune to damage until both the Frostfire Clerics are killed.
+ - Odessa's Crystal now boosts Fire absorption by 25% if possessed while in the Frostfire Colossus fight.
+ - Frozen Chaos Essence now prevents Frostbite if possessed while in the Frostfire Colossus fight.
+ - Reduced the poise and stamina damage of several of the Frostfire Colossus attacks to more reasonable levels.
+ - Adjusted the stagger types on various Frostfire Colossus attacks so fewer attacks cause punitive staggering.
+ - Disabled the Blizzard VFX during the Frostfire Colossus fight due to excessive FPS loss and reduced readability it causes.
+ - Reduced the HP regen to 5 per second while it is active.
+ - Changed the regular spinning orb attack into a frostfire breath attack instead.
+ - Moved the sapping orb spawn location close to the floor so it isn't unfair to melee players.
+ - Made the sapping aura less punitive.
+ 
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
 - Added 'fake' poise system for hostile NPCs that simulates the normal poise system enemies have. Each NPC can take either 1, 3 or 5 hits within 7 seconds, after which they will always stagger on subsequent hits until the hit timer expires.
@@ -162,10 +174,13 @@
 - Removed some leftover DebugAnimSpeed events
 - The save and quit crashes in Lothric Castle and Archdragon Peak should be fixed.
 - The crash when entering Ariandel should be fixed.
+- Mirror Knight should now drop its soul reward
 
 #------------------------------
 # TODO
 #------------------------------
+1160 Odessa's Crystal
+1150 Frozen Chaos Essence
 
 #------------------------------
 # CURRENT MAP
