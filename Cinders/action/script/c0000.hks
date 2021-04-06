@@ -1654,29 +1654,19 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         act(2002, 113005) 
     end
         
-    -- Devastating Blow Setup
-    -- local db_chance = 0
-    -- local roll = math.random(0, 100)
+    -- Crit Setup
+    local db_chance = 0
+    local roll = math.random(0, 100)
     
-    -- -- Snickering Top Hat
-    -- if env(1116, 111000) == TRUE then -- GetSpecialEffectID
-        -- db_chance = db_chance + 1
-    -- end
+    -- Old Man's Gambit
+    if env(1116, 112400) == TRUE then
+        db_chance = db_chance + 5
+    end
     
-    -- -- Ring of Punishment
-    -- if env(1116, 111001) == TRUE then -- GetSpecialEffectID
-        -- db_chance = db_chance + 1
-    -- end
-    
-    -- -- Weapon Effect
-    -- if env(1116, 111003) == TRUE then -- GetSpecialEffectID
-        -- db_chance = db_chance + 1
-    -- end
-    
-    -- -- Devastating Blow Check
-    -- if roll < db_chance then
-         -- act(2002, 112500) -- AddSpEffect
-    -- end
+    -- Crit Check
+    if roll < db_chance then
+         act(2002, 112499)
+    end
     
     -- Sidearms
     local sidearm_sp_kind = env(345, HAND_LEFT)

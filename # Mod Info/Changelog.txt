@@ -176,6 +176,7 @@
 - Added Grand Foyer bonfire in Lothric Castle.
 - Reverted the door change in Ariandel Chapel.
 - Changed the Irithyll Warp to Ariandel so you appear below the bridge.
+- Added a crab secret to Catacombs/Smouldering Lake.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
@@ -189,8 +190,6 @@
 #------------------------------
 # TODO
 #------------------------------
-Add Catacombs crab secret - lure to a location, treasure spawns (Ring of the Crab)
-
 
 #------------------------------
 # CURRENT MAP

@@ -2140,7 +2140,12 @@ Event(20044, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
+    ChangeCharacterEnableState(3800498, Enabled);
+    SetCharacterAnimationState(3800498, Enabled);
+    WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
+    
     // Treasure flags
+    SkipUnconditionally(15);
     BatchSetEventFlags(53000000, 53000999, OFF);
     BatchSetEventFlags(53010000, 53010999, OFF);
     BatchSetEventFlags(53100000, 53100999, OFF);
