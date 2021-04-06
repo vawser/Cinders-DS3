@@ -124,7 +124,7 @@
  - The Colossus will remain inactive until both the Frostfire Clerics are killed
  - Colossus is now immune to damage until both the Frostfire Clerics are killed.
  - Odessa's Crystal now boosts Fire absorption by 25% if possessed while in the Frostfire Colossus fight.
- - Frozen Chaos Essence now prevents Frostbite if possessed while in the Frostfire Colossus fight.
+ - Frozen Chaos Essence now boosts Frostbite resistance by 50% if possessed while in the Frostfire Colossus fight.
  - Reduced the poise and stamina damage of several of the Frostfire Colossus attacks to more reasonable levels.
  - Adjusted the stagger types on various Frostfire Colossus attacks so fewer attacks cause punitive staggering.
  - Disabled the Blizzard VFX during the Frostfire Colossus fight due to excessive FPS loss and reduced readability it causes.
@@ -179,8 +179,8 @@
 #------------------------------
 # TODO
 #------------------------------
-1160 Odessa's Crystal
-1150 Frozen Chaos Essence
+854780 Lava ring
+854781 Lava ring
 
 #------------------------------
 # CURRENT MAP
