@@ -1970,6 +1970,12 @@
 3060911 Man Serpent Hatchet
 3060915 Man Serpent Hatchet - 2H Heavy #1 Max
 3060916 Man Serpent Hatchet
+3070540 Gargoyle Tail Axe - 1H Roll
+3070580 Gargoyle Tail Axe - 2H Roll
+3070700 Gargoyle Tail Axe - WA Hit 1
+3070710 Gargoyle Tail Axe - WA Hit 2
+3070711 Gargoyle Tail Axe - WA Final Hit
+3070720 Gargoyle Tail Axe - WA
 3200000 Greataxe - 1H Light #1
 3200001 Greataxe - 1H Light #1 Range
 3200010 Greataxe - 1H Light #2
@@ -2936,6 +2942,17 @@
 3670855 Ringed Knight Spear
 3670860 Ringed Knight Spear
 3670865 Ringed Knight Spear
+3680100 Gargoyle Bident - 1H Heavy #1
+3680410 Gargoyle Bident - 1H Kick
+3680420 Gargoyle Bident - 2H Kick
+3680520 Gargoyle Bident - 1H Backstep
+3680530 Gargoyle Bident - 2H Backstep (2 hits)
+3680730 Gargoyle Bident - WA #1
+3680731 Gargoyle Bident - WA #2
+3680733 Gargoyle Bident - WA Final
+3680740 Gargoyle Bident - WA #1 (Continue)
+3680741 Gargoyle Bident - WA #2 (Continue)
+3680743 Gargoyle Bident - WA Final (Continue)
 3690620 Drang Twinspears
 3690621 Drang Twinspears
 3690630 Drang Twinspears
@@ -3327,6 +3344,13 @@
 3816980 Quarterstaff - Successive Hits Burst
 3816981 Quarterstaff - Successive Hits Burst [Hit]
 3816982 Quarterstaff - Successive Hits Burst [Hit]
+3820010 Gargoyle Halberd - 1H Light #2
+3820100 Gargoyle Halberd - 1H Heavy #1
+3820105 Gargoyle Halberd - 1H Heavy #1 Max
+3820210 Gargoyle Halberd - 2H Light #2 (Both Hit)
+3820530 Gargoyle Halberd - 2H Backstep
+3820580 Gargoyle Halberd - 2H Roll
+3820720 Gargoyle Halberd - WA Final Hit
 4100001 Spell Tool - Addition
 4100100 Spell Tool - 1H Heavy #1
 4100105 Spell Tool - 1H Heavy #1 Max
@@ -4013,6 +4037,8 @@
 5000610 Scythe
 5000615 Scythe
 5000700 Scythe - Weapon Art
+5000750 Scythe - Scythe of Nahr Alma
+5000751 Scythe - Scythe of Nahr Alma - Bullet
 5001000 Scythe (shaft) - 1H Light #1
 5001010 Scythe (shaft) - 1H Light #2
 5001020 Scythe (shaft) - 1H Light #3
@@ -4125,6 +4151,8 @@
 5011580 Pontiff Knight Great Scythe (shaft) - 2H Roll
 5011700 Lothric's Scythe - Divine Punishment
 5011710 Lothric's Scythe - Divine Punishment [Hit]
+5012700 Bone Scythe - Stomp
+5012705 Bone Scythe - Stomp
 5030000 Friede's Great Scythe
 5030001 Friede's Great Scythe
 5030010 Friede's Great Scythe

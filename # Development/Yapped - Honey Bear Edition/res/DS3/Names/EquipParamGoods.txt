@@ -207,6 +207,7 @@
 749 Soul of the Cathedral Guardian
 750 Soul of the Mirror Knight
 751 Soul of Aborr
+752 Soul of the Herald
 753 Soul of the Rock
 754 Twisted Soul
 800 Lifegem
@@ -500,27 +501,11 @@
 5027 Tome: Cathedral Guardian
 5028 Tome: Mirror Knight
 5029 Tome: Aborr
-5030 Tome: UNUSED
+5030 Tome: Herald of Winter
 5031 Tome: The Rock
 5032 Tome: Twisted Experiment
 5199 ### Companions ###
-5300 Opus: Knight Solaire
-5301 Opus: El Crabbo
-5302 Opus: Rocky
-5303 Opus: Sluggo
-5304 Opus: Father John
-5305 Opus: Gimbal
-5306 Opus: El Hueso
-5307 Opus: Moxie
-5308 Opus: Metora
-5309 Opus: Erekris
-5310 Opus: Farold
-5311 Opus: Zarloth
-5312 Opus: Praxos
-5313 Opus: Woof
-5314 Opus: Alfreda
-5315 Opus: Tazshi
-5316 Opus: Bazdulk
+5300 Opus of Rituals
 5399 ### Tools ###
 5400 Spellbound Bomb
 5410 Spellbound Urn

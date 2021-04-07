@@ -24,9 +24,6 @@
 21100 Sir Vilhelm [Ariandel]
 21140 Sir Vilhelm [Ariandel]
 21200 Livid Pyromancer Dunnel [Ariandel]
-21300 [Boss] The Lord's Blade
-21301 [Boss] The Dragonslayer
-21302 [Boss] The Executioner
 21400 Amnesiac Lapp [Dreg Heap]
 21420 Amnesiac Lapp - White Phantom [Dreg Heap]
 21421 Amnesiac Lapp - White Phantom
@@ -198,23 +195,23 @@
 35100 Dragon Hunter Karstark
 35200 Disciple of Alsanna
 39999 ### Companions ###
-40000 Solaire of Astora
-40010 Lesser Crab - El Crabbo
-40020 Rock Lizard - Rocky
-40030 Rotten Slug - Sluggo
-40040 Fat Deacon - Father John
-40050 Mimic - Gimbal
-40060 Skeleton (Scimitar) - El Hueso
-40070 Hound-rat - Moxie
-40080 Cathedral Knight (Greatsword) - Erekris
-40090 Cathedral Evangelist - Metora
-40100 Lothric Knight (Sword and Shield) - Farold
-40110 Black Knight (Greataxe) - Zarloth
-40120 Silver Knight (Greatbow) - Praxos
-40130 Undead Dog - Woof
-40140 Pontiff Knight (Scythe) - Alfreda
-40150 Ravenous Crystal Lizard - Tazshi
-40160 Demon - Bazdulk
+40000 Hollow
+40010 Lothric Knight (Sword)
+40020 Hollow Manservant (Saw and Board)
+40030 Serpent-man (Dagger)
+40040 Abyss Watcher
+40050 Lothric Knight (Spear)
+40060 Cathedral Knight (Mace)
+40070 Pontiff Knight (Curved Sword)
+40080 Black Knight (Sword)
+40090 Wretch (Spear)
+40100 Cathedral Grave Warden
+40110 Solaire of Astora
+40120 Great Wolf
+40130 Twisted Knight
+40140 Harald Knight
+40150 Ringed Knight
+40160 Hollow Cleric
 49999 ### Hostile NPCs ###
 50000 Dragon Cultist Xeric
 50010 Dragon Cultist Zena
@@ -986,6 +983,7 @@
 757010 Frostfire Cleric
 757020 Frostfire Cleric (Mini-Boss)
 757100 Frostfire Cleric Orb
+760000 Herald of Winter
 763000 Red Crystal Lizard
 764000 Twisted Knight
 765000 The Rock

@@ -11,18 +11,18 @@
 # Map - Chest ObjAct: xxx4300
 
 # These need to be used for new treasures in each area
-54002081 Cemetery of Ash / Unturned Graves
 53002112 High Wall of Lothric / Consumed King's Garden
-53102097 Undead Settlement
-53302185 Road of Sacrifices / Farron Keep
-53502086 Cathedral of the Deep
-53802181 Catacombs of Carthus / Smouldering Lake
-53702160 Irithyll of the Boreal Valley / Anor Londo
-53902124 Irithyll Dungeon / Profaned Capital
 53012092 Lothric Castle
-53412137 Grand Archives
-54102014 Kiln of the First Flame
+53102097 Undead Settlement
 53202080 Archdragon Peak
+53302185 Road of Sacrifices / Farron Keep
+53412137 Grand Archives
+53502086 Cathedral of the Deep
+53702160 Irithyll of the Boreal Valley / Anor Londo
+53802181 Catacombs of Carthus / Smouldering Lake
+53902124 Irithyll Dungeon / Profaned Capital
+54002081 Cemetery of Ash / Unturned Graves
+54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
 55002071 Dreg Heap
 55102068 The Ringed City
@@ -80,6 +80,16 @@
 31680000 Stone Greataxe                  - Demon's Great Axe 
 31690000 Gargoyle Halberd                - Halberd
 31700000 Gargoyle Tail Axe               - Battle Axe
+
+9946    Ice Sanctum Knight
+9947    Imported
+9948    Ironclad
+9949    Velstadt
+9950    Armored Warrior
+9951    Eastern General
+9952    Genichiro
+9953    Okami
+9954    Wolf
 
 #------------------------------
 # Changelog
@@ -196,15 +206,6 @@
 #------------------------------
 # TODO
 #------------------------------
-9946    Ice Sanctum Knight
-9947    Imported
-9948    Ironclad
-9949    Velstadt
-9950    Armored Warrior
-9951    Eastern General
-9952    Genichiro
-9953    Okami
-9954    Wolf
 
 #------------------------------
 # CURRENT MAP

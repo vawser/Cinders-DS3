@@ -42,7 +42,6 @@
 21608 [Warrior of Sunlight] Iron Bracelets
 21609 [Warrior of Sunlight] Iron Leggings
 21610 [Warrior of Sunlight] Sunlight Elixir
-21612 [Warrior of Sunlight] Opus of Sunlight
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
@@ -138,7 +137,6 @@
 22902 [Servant of the Rat] Yellow Bug Pellet
 22903 [Servant of the Rat] Black Bug Pellet
 22904 [Servant of the Rat] Mossfruit
-22905 [Servant of the Rat] Opus of the Rat
 30000 [Ludleth - Dismal Knight] Accursed Sigil
 30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -267,6 +265,9 @@
 30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
 30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
 30403 [Ludleth - Twisted Knight] Cursed Ring of Confusion
+30420 [Ludleth - Herald of Winter] Sacred Chime Hammer
+30421 [Ludleth - Herald of Winter] Rampart Golem Lance
+30422 [Ludleth - Herald of Winter] Wretched Pendant
 36000 [Bonfire - Dreamcatcher's Ashes] Shriving Stone
 36001 [Bonfire - Dreamcatcher's Ashes] Lethal Gem
 36002 [Bonfire - Dreamcatcher's Ashes] Curse Gem
@@ -469,7 +470,6 @@
 100160 [Andre - Dreamchaser Ashes] Target Shield
 100161 [Andre - Dreamchaser Ashes] Composite Bow
 100200 [Andre - Paladin's Ashes] Morning Star
-100201 [Andre - Paladin's Ashes] Crescent Axe
 100202 [Andre - Paladin's Ashes] Astora Straight Sword
 100203 [Andre - Paladin's Ashes] Barbed Straight Sword
 100204 [Andre - Paladin's Ashes] Astora Greatsword
@@ -487,7 +487,6 @@
 100400 [Andre - Xanthous Ashes] Heysel Pick
 100450 [Andre - Easterner's Ashes] Washing Pole
 100451 [Andre - Easterner's Ashes] Eastern Iron Shield
-100452 [Andre - Easterner's Ashes] Bewitched Alonne Sword
 100500 [Andre - Dragon Chaser's Ashes] Drake Sword
 100504 [Andre - Dragon Chaser's Ashes] Man Serpent Hatchet
 100505 [Andre - Dragon Chaser's Ashes] Tailbone Short Sword
@@ -497,7 +496,6 @@
 100550 [Andre - Captain's Ashes] Follower Sabre
 100551 [Andre - Captain's Ashes] Follower Javelin
 100552 [Andre - Captain's Ashes] Follower Shield
-100560 [Andre - Soul of Cinder] Hands of God
 100570 [Andre] Wood Arrow
 100571 [Andre] Wood Bolt
 100572 [Andre] Wood Greatarrow
@@ -1390,11 +1388,7 @@
 280014 [Ritualist Ellie] Offering of Vitality
 280015 [Ritualist Ellie] Offering of Devotion
 280016 [Ritualist Ellie] Offering of Fervor
-280100 [Ritualist Ellie] Opus of the Dog
-280101 [Ritualist Ellie] Opus of Loyalty
-280102 [Ritualist Ellie] Opus of Allegiance
-280103 [Ritualist Ellie] Opus of Demons
-280104 [Ritualist Ellie] Opus of Crystals
+280100 [Ritualist Ellie] Opus of Rituals
 290000 [Occultist Grudore] Spellbound Bomb
 290001 [Occultist Grudore] Spellbound Throwing Knife
 290020 [Occultist Grudore - Farron Coal] Spellbound Blossom
@@ -1451,7 +1445,6 @@
 300045 [Erstwhile George] Magician Leggings
 300046 [Erstwhile George] Rouge Water
 300047 [Erstwhile George] Crimson Water
-760000 [Stone-humped Hag] Splitleaf Greatsword
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower
 760003 [Stone-humped Hag] Henbane

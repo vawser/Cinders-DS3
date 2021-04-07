@@ -109,6 +109,7 @@
 903 [Axe] Quickstep
 904 [Axe] Warcry (Millwood Battle Axe)
 905 [Axe] Parry
+906 [Axe] Burning Slash
 1000 [Greataxe] Warcry
 1001 [Greataxe] ?
 1002 [Greataxe] Demonic Flare
@@ -172,6 +173,7 @@
 1322 [Spear] Stance
 1323 [Spear] Chilling Wind
 1324 [Spear] Pilgrim's Enchantment
+1325 [Spear] Burning Rush
 1400 [Halberd] Spin Sweep
 1401 [Halberd] Chain Spin
 1402 [Halberd] Champion's Charge
@@ -185,6 +187,7 @@
 1410 [Halberd] Limb Sweep
 1411 [Halberd] Archdeacon's Gambit
 1412 [Halberd] Neck Swipe
+1413 [Halberd] Gargoyle's Flame
 1500 [Scythe] Neck Swipe
 1501 [Scythe] ?
 1502 [Scythe] Frost
@@ -192,6 +195,8 @@
 1504 [Scythe] Elfriede's Stance
 1505 [Scythe] Divine Punishment
 1506 [Scythe] Nashandra’s Avarice
+1507 [Scythe] Stomp
+1508 [Scythe] Flames of Nahr Alma
 1600 [Whip] Impact
 1601 [Whip] Flame Whip
 1700 [Fist] Quickstep

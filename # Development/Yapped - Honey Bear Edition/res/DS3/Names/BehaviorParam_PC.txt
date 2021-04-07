@@ -1988,6 +1988,12 @@
 103065712 Heretic's Warstaff - Wretch Earth
 103066710 Witch's Staff - Spew Fire
 103066715 Witch's Staff - Spew Fire
+103070540 Gargoyle Tail Axe - 1H Roll
+103070580 Gargoyle Tail Axe - 2H Roll
+103070700 Gargoyle Tail Axe - WA Hit 1
+103070710 Gargoyle Tail Axe - WA Hit 2
+103070711 Gargoyle Tail Axe - WA Hit 3
+103070720 Gargoyle Tail Axe - WA
 103200000 Greataxe - 1H Light #1
 103200001 Greataxe - 1H Light #1 Range
 103200010 Greataxe - 1H Light #2
@@ -2935,6 +2941,17 @@
 103670855 Ringed Knight Spear
 103670860 Ringed Knight Spear
 103670865 Ringed Knight Spear
+103680100 Gargoyle Bident - 1H Heavy #1
+103680410 Gargoyle Bident - 1H Kick
+103680420 Gargoyle Bident - 2H Kick
+103680520 Gargoyle Bident - 1H Backstep
+103680530 Gargoyle Bident - 2H Backstep (2 Hits)
+103680730 Gargoyle Bident - WA #1
+103680731 Gargoyle Bident - WA #2
+103680733 Gargoyle Bident - WA Final
+103680740 Gargoyle Bident - WA #1 (Continue)
+103680741 Gargoyle Bident - WA #2 (Continue)
+103680743 Gargoyle Bident - WA Final (Continue)
 103690620 Drang Twinspears
 103690621 Drang Twinspears
 103690630 Drang Twinspears
@@ -3348,6 +3365,13 @@
 103816960 Quarterstaff - Elemental Overflow – 2H Lightning Star
 103816970 Quarterstaff - Elemental Overflow Low FP Burst
 103816980 Quarterstaff - Successive Hits Burst
+103820010 Gargoyle Halberd - 1H Light #2
+103820100 Gargoyle Halberd - 1H Heavy #1
+103820105 Gargoyle Halberd - 1H Heavy #1 Max
+103820210 Gargoyle Halberd - 2H Light #2 (Both Hit)
+103820530 Gargoyle Halberd - 2H Backstep
+103820580 Gargoyle Halberd - 2H Roll
+103820720 Gargoyle Halberd - WA Final Hit
 104100000 Spell Tool
 104100001 Spell Tool - Addition
 104100030 Spell Tool
@@ -4220,6 +4244,8 @@
 105000615 Scythe
 105000616 Scythe
 105000700 Scythe
+105000750 Scythe - Scythe of Nahr Alma
+105000751 Scythe - Scythe of Nahr Alma - Bullet
 105000990 Scythe - Quickstep
 105010000 Pontiff Knight Great Scythe
 105010001 Pontiff Knight Great Scythe
@@ -4285,6 +4311,8 @@
 105010615 Pontiff Knight Great Scythe
 105010700 Pontiff Knight Great Scythe
 105011700 Lothric's Scythe - Warp Bullet
+105012700 Bone Scythe - Stomp
+105012705 Bone Scythe - Stomp
 105030000 Friede's Great Scythe
 105030001 Friede's Great Scythe
 105030010 Friede's Great Scythe

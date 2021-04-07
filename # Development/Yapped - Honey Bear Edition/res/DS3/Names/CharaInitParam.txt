@@ -291,7 +291,7 @@
 35100 Dragon Hunter Karstark [Archdragon Peak]
 35200 Disciple of Alsanna [Ariandel]
 39999 ### Companions ###
-40000 Solaire of Astora
+40110 Solaire of Astora
 49999 ### Hostile NPCs ###
 50000 Dragon Cultist Xeric [Archdragon Peak]
 50010 Dragon Cultist Zena [Archdragon Peak]

@@ -1373,6 +1373,7 @@
 12502 Gesture Trigger 3 - Path of the Dragon
 12503 Gesture Trigger 4
 12505 Gesture Trigger - Point Up
+12506 Gesture Trigger - Praise the Sun
 12600 [High Lord Wolnir]
 12601 [High Lord Wolnir]
 12602 [High Lord Wolnir]
@@ -2081,6 +2082,8 @@
 112351 [Behavior] Stagger Threshold: 3
 112352 [Behavior] Stagger Threshold: 5
 112353 [Behavior] Stagger Threshold: 7
+112400 [Behavior] Old Man's Gambit
+112499 [Behavior] Critical Hit
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -4408,6 +4411,7 @@
 160603794 Relic of Myths+4
 160603795 Relic of Myths+5
 160603800 Ring of Londor
+160603900 Old Man's Gambit
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction
@@ -4988,6 +4992,7 @@
 160720290 Soul of the Cathedral Guardian
 160720300 Soul of the Mirror Knight
 160720310 Soul of Aborr
+160720320 Soul of the Herald
 160720330 Soul of the Rock
 160720340 Twisted Soul
 160740000 ### Enemies ###
@@ -4996,6 +5001,7 @@
 160740003 Humanity Sprite
 160740004 Invisible Dummy
 160740005 Horny Jail Enemy
+160740010 Mimic - Exorcist AI
 160740100 Primordial Phantom - Area Scaling
 160740101 Primordial Phantom - NG Scaling
 160741100 Spirit Apperance
@@ -5019,6 +5025,10 @@
 160741407 Dismal Knight -
 160741408 Dismal Knight - Weapon Buff Effect 4
 160741409 Dismal Knight - Weapon Buff
+160741500 Herald of Winter
+160741600 Frostfire Colossus - Odessa's Crystal - Player Buff
+160741610 Frostfire Colossus - Frozen Chaos Essence - Player Buff
+160741700 Crab Puzzle - Fade Out
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5033,42 +5043,8 @@
 160750400 Bonfire Fade
 160750500 Player Kill
 160759999 ### Companions ###
-160760000 Trigger - Solaire
-160760001 Trigger - Lesser Crab - El Crabbo
-160760002 Trigger - Rock Lizard - Rocky
-160760003 Trigger - Rotten Slug - Sluggo
-160760004 Trigger - Fat Deacon - Father John
-160760005 Trigger - Mimic - Gimbal
-160760006 Trigger - Skeleton - El Hueso
-160760007 Trigger - Hound-rat - Moxie
-160760008 Trigger - Cathedral Knight - Erekris
-160760009 Trigger - Cathedral Evangelist - Metora
-160760010 Trigger - Lothric Knight - Farold
-160760011 Trigger - Black Knight - Zarloth
-160760012 Trigger - Silver Knight - Praxos
-160760013 Trigger - Undead Dog - Woof
-160760014 Trigger - Pontiff Knight - Alfreda
-160760015 Trigger - Ravenous Crystal Lizard - Tazshi
-160760016 Trigger - Demon - Bazdulk
-160760050 Baseline - Solaire
-160760051 Baseline - Lesser Crab - El Crabbo
-160760052 Baseline - Rock Lizard - Rocky
-160760053 Baseline - Rotten Slug - Sluggo
-160760054 Baseline - Fat Deacon - Father John
-160760055 Baseline - Mimic - Gimbal
-160760056 Baseline - Skeleton - El Hueso
-160760057 Baseline - Hound-rat - Moxie
-160760058 Baseline - Cathedral Knight - Erekris
-160760059 Baseline - Cathedral Evangelist - Metora
-160760060 Baseline - Lothric Knight - Farold
-160760061 Baseline - Black Knight - Zarloth
-160760062 Baseline - Silver Knight - Praxos
-160760063 Baseline - Undead Dog - Woof
-160760064 Baseline - Pontiff Knight - Alfreda
-160760065 Baseline - Ravenous Crystal Lizard - Tazshi
-160760066 Baseline - Demon - Bazdulk
-160760100 Summon Effect
-160760101 Desummon Effect
+160760000 Trigger - Local Companion
+160760100 Baseline - Local Companion
 160760200 Level Scaling: Cemetery of Ash
 160760201 Level Scaling: High Wall of Lothric
 160760202 Level Scaling: Undead Settlement
@@ -5086,11 +5062,22 @@
 160760214 Level Scaling: Ringed City
 160760215 Level Scaling: Filianore's Rest
 160760216 Level Scaling: Memories
-160761300 Companion Clear
-160761400 Ritualist Pact - Restore HP
-160761500 Player - Companion is out
-160761501 Companion - Is Active
-160761502 Companion - Is at 0% HP
+160761000 Companion - Summoned VFX
+160761100 Companion - Ritualist Pact
+160761600 Activity Timer - 60
+160761601 Activity Timer - 90
+160761602 Activity Timer - 120
+160761603 Activity Timer - 150
+160761604 Activity Timer - 180
+160761605 Activity Timer - 210
+160761606 Activity Timer - 250
+160761700 Player - Companion Active - 60
+160761701 Player - Companion Active - 90
+160761702 Player - Companion Active -120
+160761703 Player - Companion Active -150
+160761704 Player - Companion Active -180
+160761705 Player - Companion Active - 210
+160761706 Player - Companion Active - 250
 160763000 Rejuvenating Phial - Trigger
 160763001 Rejuvenating Phial - Companion
 160763100 Banishing Coin - Trigger
@@ -5142,7 +5129,6 @@
 160800004 Base - Story NPC
 160800005 Base - Boss
 160800007 Base - Merchant NPC
-160800008 Base - Companion NPC
 160800010 NPC - Slave Knight Gael
 160800020 NPC - Sir Vilhelm
 160800030 NPC - Livid Pyromancer Dunnel
@@ -5804,7 +5790,7 @@
 260000029 Frostfire Colossus
 260000030 Cathedral Guardian
 260000031 Mirror Knight
-260000032 Furious Lizards
+260000032 Herald of Winter
 260000033 The Rock
 260000034 Twisted Experiment
 260100000 ### Boss Revival ###
@@ -5838,7 +5824,7 @@
 260100280 Cathedral Guardian
 260100290 Mirror Knight
 260100300 Aborr
-260100310 Furious Lizards
+260100310 Herald of Winter
 260100320 The Rock
 260100330 Twisted Experiment
 260199999 ### Memories ###

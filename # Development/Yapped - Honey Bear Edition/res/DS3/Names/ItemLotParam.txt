@@ -63,6 +63,8 @@
 2381 [Boss - Mirror Knight] Tome: Mirror Knight
 2390 [Boss - Aborr] Soul of Aborr
 2391 [Boss - Aborr] Tome: Aborr
+2400 [Boss - Ivory Disciple] Soul of Alsanna
+2401 [Boss - Ivory Disciple] Tome: Ivory Disciple
 2410 [Boss - The Rock] Soul of the Rock
 2411 [Boss - The Rock] Tome: The Rock
 2420 [Boss - Twisted Knight] Twisted Soul
@@ -600,65 +602,94 @@
 3000582 [Chest] Drakeblood Gauntlets
 3000583 [Chest] Drakeblood Leggings
 3000600 [Script - Anvil] Estus Shard
-3000610 [Script - Path of the Dragon] Opus of Royalty
+3000610 [Script - Path of the Dragon] Seal of Judgment
+3001000 [Mimic] Blueblood Sword
+3001010 [Mimic] Fang Boar Helm
 3009999 ### Treasure - Lothric Castle
-3010000 [Lothric Castle] Sniper Crossbow
-3010001 [Lothric Castle] Sniper Bolt
-3010010 [Lothric Castle] Holy Fragment
-3010020 [Lothric Castle] Holy Gem
-3010030 [Lothric Castle] Greatlance
-3010040 [Lothric Castle] Blunt Gem
-3010050 [Lothric Castle] Sharp Gem
-3010060 [Lothric Castle] Sacred Bloom Shield
-3010070 [Lothric Castle] Soul of a Weary Warrior
-3010080 [Lothric Castle] Ember
-3010090 [Lothric Castle] Grand Archives Key
-3010100 [Lothric Castle] Shriving Stone
-3010110 [Lothric Castle] Lightning Urn
-3010120 [Lothric Castle] Torn Excerpt
-3010130 [Lothric Castle] Magic Gem
-3010140 [Lothric Castle] Soul of a Crestfallen Knight
-3010150 [Lothric Castle] Caitha's Chime
-3010160 [Lothric Castle] Lightning Urn
-3010170 [Lothric Castle] Ember
-3010180 [Lothric Castle] Lightning Gem
-3010190 [Lothric Castle] Black Firebomb
-3010200 [Lothric Castle] Pale Pine Resin
-3010210 [Lothric Castle] Large Soul of a Weary Warrior
-3010220 [Lothric Castle] Large Soul of a Crestfallen Knight
-3010230 [Lothric Castle] Estus Shard
-3010240 [Lothric Castle] Lightning Gem
-3010250 [Lothric Castle] Wolf's Blood Swordgrass
-3010260 [Lothric Castle] Large Soul of a Nameless Soldier
-3010270 [Lothric Castle] Soul of a Nameless Soldier
-3010280 [Lothric Castle] Ember
-3010290 [Lothric Castle] Large Soul of a Weary Warrior
-3010300 [Lothric Castle] Blue Bug Pellet
-3010310 [Lothric Castle] Sunlight Medal
-3010320 [Lothric Castle] Large Soul of a Nameless Soldier
-3010330 [Lothric Castle] Ember
-3010340 [Lothric Castle] Winged Knight Helm
-3010341 [Lothric Castle] Winged Knight Armor
-3010342 [Lothric Castle] Winged Knight Gauntlets
-3010343 [Lothric Castle] Winged Knight Leggings
-3010350 [Lothric Castle] Rusted Coin
-3010360 [Lothric Castle] Undead Bone Shard
-3010370 [Lothric Castle] Soul of a Crestfallen Knight
-3010380 [Lothric Castle] Gotthard Twinswords
-3010400 [Lothric Castle] Soul of a Crestfallen Knight
-3010420 [Lothric Castle] Large Soul of a Nameless Soldier
-3010500 [Lothric Castle] Sunlight Talisman
-3010520 [Lothric Castle - Chest] Large Soul of a Crestfallen Knight
-3010530 [Lothric Castle] Hood of Prayer
-3010531 [Lothric Castle] Robe of Prayer
-3010532 [Lothric Castle] Skirt of Prayer
-3010600 [Lothric Castle] Spirit Tree Crest Shield
-3010610 [Lothric Castle] Fire Gem
-3010620 [Lothric Castle] Holy Fragment
-3010640 [Lothric Castle] Lucky Gem
-3010700 [Lothric Castle] Ember
-3010710 [Lothric Castle] Ember
-3010720 [Lothric Castle] Ember
+3010000 [Corpse] Soul of a Weary Warrior
+3010001 [Corpse] Elizabeth Mushroom
+3010010 [Corpse] Soul of a Nameless Soldier
+3010011 [Corpse] Lightning Urn
+3010020 [Corpse] Soul of a Nameless Soldier
+3010021 [Corpse] Gold Pine Resin
+3010030 [Corpse] Large Soul of a Nameless Soldier
+3010031 [Corpse] Rusted Coin
+3010040 [Corpse] Soul of a Weary Warrior
+3010041 [Corpse] Divine Blessing
+3010050 [Corpse] Soul of a Nameless Soldier
+3010051 [Corpse] Green Blossom
+3010060 [Corpse] Soul of a Nameless Soldier
+3010061 [Corpse] Elizabeth Mushroom
+3010070 [Corpse] Soul of a Crestfallen Knight
+3010071 [Corpse] Torn Excerpt
+3010080 [Corpse] Soul of a Nameless Soldier
+3010081 [Corpse] Firebomb
+3010090 [Corpse] Soul of a Nameless Soldier
+3010091 [Corpse] Undead Hunter Charm
+3010100 [Corpse] Soul of a Nameless Soldier
+3010101 [Corpse] Charcoal Pine Resin
+3010110 [Corpse] Large Soul of a Nameless Soldier
+3010111 [Corpse] Rusted Gold Coin
+3010120 [Corpse] Large Soul of a Nameless Soldier
+3010121 [Corpse] Crimson Water
+3010130 [Corpse] Soul of a Nameless Soldier
+3010131 [Corpse] Dragonslayer Lightning Arrow
+3010140 [Corpse] Soul of a Nameless Soldier
+3010141 [Corpse] Tarnished Coin
+3010150 [Corpse] Soul of a Nameless Soldier
+3010151 [Corpse] Old Growth Balm
+3010160 [Corpse] Large Soul of a Nameless Soldier
+3010161 [Corpse] Bloodred Moss Clump
+3010170 [Corpse] Large Soul of a Nameless Soldier
+3010171 [Corpse] Radiant Lifegem
+3010180 [Corpse] Soul of a Weary Warrior
+3010181 [Corpse] Winged Knight Helm
+3010182 [Corpse] Winged Knight Armor
+3010183 [Corpse] Winged Knight Gauntlets
+3010184 [Corpse] Winged Knight Leggings
+3010190 [Corpse] Soul of a Champion
+3010191 [Corpse] Blackweed Balm
+3010200 [Corpse] Soul of a Nameless Soldier
+3010201 [Corpse] Siegbräu
+3010210 [Corpse] Large Soul of a Nameless Soldier
+3010211 [Corpse] Cleansing Pendant
+3010220 [Corpse] Soul of a Nameless Soldier
+3010221 [Corpse] Red Bug Pellet
+3010230 [Corpse] Soul of a Proud Paladin
+3010231 [Corpse] Gold Pine Bundle
+3010240 [Corpse] Soul of a Crestfallen Knight
+3010241 [Corpse] Grand Archives Key
+3010400 [Chest] Tome of Sunlight
+3010410 [Chest] Greatlance
+3010411 [Chest] Porcine Shield
+3010420 [Chest] Smithbox
+3010430 [Chest] Gold Ardeo
+3010440 [Chest] Red Tearstone Ring
+3010450 [Chest] Spirit Tree Crest Shield
+3010460 [Chest] Sniper Crossbow
+3010470 [Chest] Sacred Bloom Shield
+3010480 [Chest] Key to the Embedded
+3010490 [Chest] Lothric Knight Helm
+3010491 [Chest] Lothric Knight Armor
+3010492 [Chest] Lothric Knight Gauntlets
+3010493 [Chest] Lothric Knight Leggings
+3010500 [Chest] Londor Braille Divine Tome
+3010510 [Chest] Winged Knight Halberd
+3010511 [Chest] Winged Knight Twinaxes
+3010520 [Chest] Undead Bone Shard
+3010530 [Chest] Sunlight Talisman
+3010540 [Chest] Hood of Prayer
+3010541 [Chest] Robe of Prayer
+3010542 [Chest] Skirt of Prayer
+3010550 [Chest] Engraved Dagger
+3010560 [Chest] Estus Shard
+3010570 [Chest] Easterner's Ashes
+3010580 [Chest] Splitleaf Greatsword
+3010590 [Chest] Dragonrider Bow
+3011000 [Mimic] Braille Divine Tome of Lothric
+3011010 [Mimic] Priest's Candlestick
+3011020 [Mimic] Blind
+3011030 [Mimic] Runelock
 3099999 ### Treasure - Undead Settlement
 3100000 [Undead Settlement] Undead Bone Shard
 3100010 [Undead Settlement] Flynn's Ring
@@ -745,6 +776,7 @@
 3100870 [Undead Settlement] Ember
 3100910 [Undead Settlement] Missionary Axe
 3100950 [Undead Settlement] Homeward Bone
+3101000 [Mimic] Phosophrescent Pole
 3199999 ### Treasure - Archdragon Peak
 3200000 [Archdragon Peak] Dragonslayer Lightning Arrow
 3200010 [Archdragon Peak] Dragon Eye
@@ -863,7 +895,7 @@
 3300500 [Farron Keep] Estus Shard
 3300510 [Farron Keep] Large Soul of an Unknown Traveler
 3300520 [Farron Keep] Undead Bone Shard
-3300525 [Farron Keep] Opus of the Slug
+3300525 [Farron Keep] Curse Gem
 3300530 [Farron Keep] Curse Gem
 3300535 [Farron Keep] Siegbräu
 3300540 [Farron Keep] Large Soul of an Unknown Traveler
@@ -919,7 +951,8 @@
 3300970 [Farron Keep] Young White Branch
 3300980 [Farron Keep] Crown of Dusk
 3300990 [Farron Keep] Green Blossom
-3301000 [Chest - Road of Sacrifices] Heavenly Braille Divine Tome
+3301000 [Mimic] Penetrating Sword
+3301100 [Chest - Road of Sacrifices] Heavenly Braille Divine Tome
 3409999 ### Treasure - Grand Archives
 3410000 [Grand Archives] Holy Gem
 3410010 [Grand Archives] Crystal Fragment
@@ -969,6 +1002,15 @@
 3410600 [Grand Archives] Insanity Catalyst
 3410610 [Grand Archives] Soul of a Crestfallen Knight
 3410620 [Grand Archives] Estus Shard
+3411000 [Mimic] Vengarl's Helm
+3411001 [Mimic] Vengarl's Armor
+3411002 [Mimic] Vengarl's Gloves
+3411003 [Mimic] Vengarl's Leggings
+3411010 [Mimic] Dragon Acolyte Mask
+3411011 [Mimic] Dragon Acolyte Robe
+3411012 [Mimic] Dragon Acolyte Gloves
+3411013 [Mimic] Dragon Acolyte Leggings
+3411020 [Mimic] Ritual Incense
 3499999 ### Treasure - Cathedral of the Deep
 3500000 [Cathedral of the Deep] Lloyd's Sword Ring
 3500010 [Cathedral of the Deep] Ember
@@ -1003,7 +1045,7 @@
 3500320 [Cathedral of the Deep] Repair Powder
 3500330 [Cathedral of the Deep] Ember
 3500340 [Cathedral of the Deep] Large Soul of an Unknown Traveler
-3500370 [Cathedral of the Deep] Opus of the Congregation
+3500370 [Cathedral of the Deep] None
 3500380 [Cathedral of the Deep] Lethal Gem
 3500390 [Cathedral of the Deep] Soul of a Deserted Corpse
 3500400 [Cathedral of the Deep] Large Soul of an Unknown Traveler
@@ -1036,6 +1078,7 @@
 3500880 [Cathedral of the Deep] Saint-tree Bellvine
 3500890 [Cathedral of the Deep] Oak Crossbow
 3500950 [Cathedral of the Deep] Human Dregs
+3501000 [Mimic] Tortured Soul
 3699999 ### Treasure - Irithyll of the Boreal Valley/Anor Londo
 3700000 [Irithyll] Creighton's Steel Mask
 3700001 [Irithyll] Mirrah Chain Mail
@@ -1103,7 +1146,7 @@
 3700600 [Irithyll] Sharp Gem
 3700610 [Irithyll] Enchanted Gem
 3700620 [Irithyll] Dragonslayer Greatarrow
-3700630 [Irithyll] Easterner's Ashes
+3700630 [Irithyll] None
 3700640 [Anor Londo] Painting Guardian Hood
 3700641 [Anor Londo] Painting Guardian Gown
 3700642 [Anor Londo] Painting Guardian Gloves
@@ -1127,10 +1170,16 @@
 3700850 [Irithyll] Soul of a Great Champion
 3700860 [Irithyll] Soul of a Great Champion
 3700900 [Irithyll - Chest] Braille Divine Tome of Sunlight
-3700920 [Irithyll - Chest] Sacred Chime Hammer
+3700920 [Irithyll - Chest] Soul of a Great Champion
 3700940 [Irithyll - Chest] Reversal Ring
 3700950 [Irithyll - Chest] Abyssal Tome
 3700960 [Irithyll - Chest] Smough's Great Hammer
+3701000 [Mimic] Estus Shard
+3701010 [Mimic] Rare Ring of Humanity
+3701020 [Mimic] Morion Great Blade
+3701030 [Mimic] Spiral Greatsword
+3701040 [Mimic] Hunter's Mark
+3701050 [Mimic] Hunter's Emblem
 3799999 ### Treasure - Catacombs of Carthus/Smouldering Lake
 3800000 [Catacombs of Carthus] Fire Seed
 3800010 [Catacombs of Carthus] Fire Seed
@@ -1196,9 +1245,21 @@
 3800620 [Smouldering Lake] Soul of a Great Champion
 3800630 [Smouldering Lake] Soul of a Great Champion
 3800760 [Smouldering Lake] Chest - Bone Scythe
+3800800 [Script - Crab Puzzle] Old Man's Gambit
 3800900 [Smouldering Lake] Large Soul of a Weary Warrior
 3800910 [Smouldering Lake] Fire Gem
 3800920 [Smouldering Lake] Lucky Gem
+3801000 [Mimic] Demonsbane Ring
+3801010 [Mimic] Fume Sword
+3801011 [Mimic] Raime's Helm
+3801012 [Mimic] Raime's Armor
+3801013 [Mimic] Raime's Gauntlets
+3801014 [Mimic] Raime's Leggings
+3801020 [Mimic] Symbol of Avarice
+3801030 [Mimic] Gravelord Sword Dance
+3801040 [Mimic] Scythe of Want
+3801050 [Mimic] Fire Seed
+3801060 [Mimic] Smelter Sword
 3899999 ### Treasure - Irithyll Dungeon/Profaned Capital
 3900000 [Irithyll Dungeon] Rusted Coin
 3900010 [Irithyll Dungeon] Fading Soul
@@ -1276,6 +1337,17 @@
 3900810 [Profaned Capital] Ember
 3900820 [Irithyll Dungeon] Prisoner Chief's Ashes
 3900900 [Profaned Capital] Soul of a Weary Warrior
+3901000 [Mimic] Lightning Clutch Ring
+3901010 [Mimic] Ring of Grace
+3901020 [Mimic] Giant's Crown
+3901021 [Mimic] Giant's Armor
+3901022 [Mimic] Giant's Gauntlets
+3901023 [Mimic] Giant's Leggings
+3901030 [Mimic] Court Sorcerer's Staff
+3901040 [Mimic] Greatshield of Glory
+3901050 [Mimic] Estus Shard
+3901060 [Mimic] Dark Clutch Ring
+3901070 [Mimic] Band of Sparks
 3999999 ### Treasure - Cemetery of Ash/Untended Graves
 4000000 [COA - Corpse] Fading Soul
 4000001 [COA - Corpse] Radiant Lifegem
@@ -1364,6 +1436,7 @@
 4000910 [UG - Script - Firelink Bonfire] Coiled Sword Fragment
 4000920 [UG - Script - Secret Fallen Knight] Chaos Blade
 4099999 ### Treasure - Kiln of the First Flame
+4100000 [Chest] Lordvessel
 4499999 ### Treasure - Ariandel
 4500000 [Ariandel] Rime-blue Moss Clump
 4500010 [Ariandel] Rusted Coin
@@ -1612,14 +1685,11 @@
 5100900 [Ringed City] Young White Branch
 5100910 [Ringed City] Young White Branch
 5100920 [Ringed City] Young White Branch
+5101000 [Mimic] Ritual Incense
 10000000 ### Enemy Drops ###
 10100000 [Gyrm] Exotic Souls
 10100001 [Gyrm] Radiant Lifegem
 10400000 [Ruin Sentinel] Old Radiant Lifegem
-10500000 [Dragonrider] Dragonrider Helm
-10500001 [Dragonrider] Dragonrider Armor
-10500002 [Dragonrider] Dragonrider Gauntlets
-10500003 [Dragonrider] Dragonrider Leggings
 10600000 [Black Dragon Knight] Black Dragon Greataxe
 10600010 [Black Dragon Knight] Black Dragon Greatsword
 10600020 [Black Dragon Knight] Black Dragon Sword
@@ -1670,8 +1740,7 @@
 10703101 [Skeleton - Ringed City] Dark Gem
 10703102 [Skeleton - Ringed City] Old Radiant Lifegem
 10740000 [Skeleton - El Hueso] Bone Fragment
-10740001 [Skeleton - El Hueso] Opus of the Tomb
-10740002 [Skeleton - El Hueso] Undead Bone Shard
+10740001 [Skeleton - El Hueso] Undead Bone Shard
 10900000 [Pus of Man - High Wall of Lothric] Dark Gem
 10900001 [Pus of Man - High Wall of Lothric] Brightbug
 10900002 [Pus of Man - High Wall of Lothric] Ember
@@ -1880,54 +1949,7 @@
 21000004 [Sewer Centipede] Dried Root
 21100000 [Hound-rat] Soul of a Deserted Corpse
 21100001 [Hound-rat] Dried Root
-21200000 [Mimic - Cathedral of the Deep] Tortured Soul
-21201000 [Mimic - Lothric Castle] Braille Divine Tome of Lothric
-21201100 [Mimic - Lothric Castle] Priest's Candlestick
-21202000 [Mimic - Catacombs of Carthus] Demonsbane Ring
-21203000 [Mimic - Irithyll Dungeon] Lightning Clutch Ring
-21203010 [Mimic - Irithyll Dungeon] Ring of Grace
-21203020 [Mimic - Profaned Capital] Giant's Crown
-21203021 [Mimic - Profaned Capital] Giant's Armor
-21203022 [Mimic - Profaned Capital] Giant's Gauntlets
-21203023 [Mimic - Profaned Capital] Giant's Leggings
-21203030 [Mimic - Profaned Capital] Court Sorcerer's Staff
-21203040 [Mimic - Profaned Capital] Greatshield of Glory
-21203050 [Mimic - Irithyll Dungeon] Estus Shard
-21203100 [Mimic - Irithyll Dungeon] Dark Clutch Ring
-21204000 [Mimic - Irithyll Cathedral] Estus Shard
-21205000 [Mimic - High Wall of Lothric] Blueblood Sword
-21206000 [Mimic - Ringed City] Ritual Incense
-21207000 [Mimic - High Wall of Lothric] Fang Boar Helm
-21207100 [Mimic - Profaned Capital] Band of Sparks
-21207200 [Mimic - Undead Settlement] Phosophrescent Pole
-21207300 [Mimic - Irithyll] Rare Ring of Humanity
-21207400 [Mimic - Irithyll] Morion Great Blade
-21207500 [Mimic - Farron Keep] Penetrating Sword
-21207600 [Mimic - Catacombs of Carthus] Fume Sword
-21207601 [Mimic - Catacombs of Carthus] Raime's Helm
-21207602 [Mimic - Catacombs of Carthus] Raime's Armor
-21207603 [Mimic - Catacombs of Carthus] Raime's Gauntlets
-21207604 [Mimic - Catacombs of Carthus] Raime's Leggings
-21207700 [Mimic - Smouldering Lake] Symbol of Avarice
-21207800 [Mimic - Grand Archives] Vengarl's Helm
-21207801 [Mimic - Grand Archives] Vengarl's Armor
-21207802 [Mimic - Grand Archives] Vengarl's Gloves
-21207803 [Mimic - Grand Archives] Vengarl's Leggings
-21207900 [Mimic - Grand Archives] Dragon Acolyte Mask
-21207901 [Mimic - Grand Archives] Dragon Acolyte Robe
-21207902 [Mimic - Grand Archives] Dragon Acolyte Gloves
-21207903 [Mimic - Grand Archives] Dragon Acolyte Leggings
-21208000 [Mimic - Lothric Castle] Blind
-21208100 [Mimic - Irithyll] Spiral Greatsword
-21208200 [Mimic - Irithyll] Hunter's Mark
-21208201 [Mimic - Irithyll] Hunter's Emblem
-21208300 [Mimic - Lothric Castle] Runelock
-21208400 [Mimic - Grand Archives] Ritual Incense
-21208500 [Mimic - Smouldering Lake] Gravelord Sword Dance
-21208510 [Mimic - Smouldering Lake] Scythe of Want
-21208520 [Mimic - Smouldering Lake] Fire Seed
-21208530 [Mimic - Smouldering Lake] Smelter Sword
-21209000 [Mimic - Crown of Illusion] Assorted Souls
+21200000 [Mimic - Crown of Illusion] Assorted Souls
 21300000 [Writhing Rotten Flesh] Old Radiant Lifegem
 21320000 [Smouldering Rotten Flesh] Fire Gem
 21320001 [Smouldering Rotten Flesh] Old Radiant Lifegem
@@ -2087,7 +2109,7 @@
 31411100 [Ancient Wyvern - Script] Dragon Eye
 31412000 [Ancient Wyvern - Script] Dragon Eye
 31413000 [Ancient Wyvern - Script] Dragon Eye
-31414000 [Ancient Wyvern - Script] Opus of the Rock
+31414000 [Ancient Wyvern - Script] Dragon Eye
 31414010 [Ancient Wyvern] Dragon Eye
 31414011 [Ancient Wyvern] Old Radiant Lifegem
 31600000 [Dragonslayer Armour] Iron Dragonslayer Helm
@@ -2227,7 +2249,7 @@
 210000190 [Farron Keep] Lightning Gem
 210000200 [Road of Sacrifices] Rotten Pine Resin
 210000210 [Catacombs of Carthus] Soul of a Crestfallen Knight
-210000220 [Smouldering Lake] Golem Axe
+210000220 [Smouldering Lake] None
 210000230 [Catacombs of Carthus] Ember
 210000240 [Cathedral of the Deep] Magic Gem
 210000250 [Irithyll] Kris Blade
@@ -2235,9 +2257,6 @@
 210000270 [Archdragon Peak] Holy Flame
 210000290 [Road of Sacrifices] Undead Bone Shard
 210000300 [Farron Keep] Soul of a Weary Warrior
-210000310 [Lothric Castle] Sunlight Medal
-210000320 [Lothric Castle] Lucatiel's Mask
-210000330 [Lothric Castle] Porcine Shield
 210000340 [Irithyll] Fire Witch Helm
 210000341 [Irithyll] Fire Witch Armor
 210000342 [Irithyll] Fire Witch Gauntlets
@@ -2246,19 +2265,16 @@
 210000360 [Cathedral of the Deep] Ember
 210000370 [Cathedral of the Deep] Dark Gem
 210000380 [Smouldering Lake] Hexing Urn
-210000400 [Lothric Castle] Gold Ardeo
 210000410 [Grand Archives] Iron Cage
-210000420 [Consumed King's Garden] Iron Keeper Helm
 210000430 [Irithyll Dungeon] Black Metal Hat
 210000440 [Profaned Capital] Hands of Sin
 210000441 [Profaned Capital] Mask of Sin
 210000470 [Archdragon Peak] Drake Fist
 210000480 [Cathedral of the Deep] Poison Gem
 210000490 [Cathedral of the Deep] Divine Blessing
-210000500 [Cathedral of the Deep] Opus of Divinity
+210000500 [Cathedral of the Deep] None
 210000510 [Cathedral of the Deep] Dark Gem
 210000520 [Cathedral of the Deep] Rosaria's Dress
-210000530 [Lothric Castle] Soul of a Weary Warrior
 210000540 [Anor Londo] Abyssal Fragment
 210000550 [Anor Londo] Abyssal Fragment
 210000560 [Catacombs of Carthus] Red Bug Pellet
@@ -2389,16 +2405,6 @@
 210002130 [Profaned Capital] Chest - Gargoyle Helm
 210002140 [Profaned Capital] Chest - Bramd
 210002150 [Profaned Capital] Locked Chest - Imperious Greatshield
-210002160 [Lothric Castle] Large Soul of a Weary Warrior
-210002170 [Lothric Castle] Sunlight Medal
-210002180 [Lothric Castle] Radiant Lifegem
-210002190 [Lothric Castle] Green Blossom
-210002200 [Lothric Castle] Lightning Urn
-210002210 [Lothric Castle] Chest - Key to the Embedded
-210002220 [Lothric Castle] Chest - Smithbox
-210002230 [Lothric Castle] Chest - Red Tearstone Ring
-210002240 [Lothric Castle] Chest - Rakuyo
-210002250 [Lothric Castle] Chest - Tome of Sunlight
 210002260 [Grand Archives] Siegbräu
 210002270 [Grand Archives] Enchanted Gem
 210002280 [Grand Archives] Magic Gem
@@ -2534,14 +2540,6 @@
 210003360 [Smouldering Lake] Smouldering Dagger
 210003370 [Smouldering Lake] Smouldering Talisman
 210003380 [Smouldering Lake] Demon Cleric Mask
-210003390 [Lothric Castle] Winged Knight Halberd
-210003400 [Lothric Castle - Chest] Winged Knight Twinaxes
-210003410 [Lothric Castle] Dragonrider Bow
-210003420 [Lothric Castle] Engraved Dagger
-210003430 [Lothric Castle] Lothric Knight Helm
-210003431 [Lothric Castle] Lothric Knight Armor
-210003432 [Lothric Castle] Lothric Knight Gauntlets
-210003433 [Lothric Castle] Lothric Knight Leggings
 210003440 [Irithyll] Pontiff Knight Greatsword
 210003450 [Irithyll] Immolation Tinder
 210003460 [Irithyll - Chest] Pontiff Knight Crown
@@ -2581,10 +2579,10 @@
 210003611 [Smouldering Lake] Charred Loyce Armor
 210003612 [Smouldering Lake] Charred Loyce Gauntlets
 210003613 [Smouldering Lake] Charred Loyce Leggings
-210003620 [Farron Keep] Opus of the Crab
+210003620 [Farron Keep] None
 210003630 [Ariandel] Ember
-210003640 [Irithyll  - Chest] Opus of Avarice
-210003650 [Irithyll  - Chest] Opus of the Deep
+210003640 [Irithyll  - Chest] None
+210003650 [Irithyll  - Chest] Lethal Gem
 210003660 [Road of Sacrifices - Chest] Merchant Ring
 210003670 [Irithyll - Chest] Golem Helm
 210003671 [Irithyll - Chest] Golem Armor
@@ -2600,7 +2598,7 @@
 210003711 [Irithyll - Chest] Gloom Armor
 210003712 [Irithyll - Chest] Gloom Gauntlets
 210003713 [Irithyll - Chest] Gloom Leggings
-210003720 [Irithyll] Wretched Pendant
+210003720 [Irithyll] Elizabeth Mushroom
 210004020 [Undead Settlement - Chest] Mask of Cruelty
 210004030 [Road of Sacrifices - Chest] Mask of Serenity
 210004040 [Farron Keep - Chest] Mask of Horror
@@ -2610,9 +2608,8 @@
 210004053 [Cathedral of the Deep - Chest] Ancient King's Leggings
 210004060 [Catacombs of Carthus - Chest] Fire Seed
 210004070 [Smouldering Lake - Chest] Smelter Hammer
-210004080 [Irithyll - Chest] Rampart Golem Lance
-210004090 [Anor Londo - Chest] Opus of Foresight
-210004120 [Lothric Castle - Chest] Mask of War
+210004080 [Irithyll - Chest] Ritual Incense
+210004090 [Anor Londo - Chest] None
 210004130 [Grand Archives - Chest] King's Crown
 210004131 [Grand Archives - Chest] King's Armor
 210004132 [Grand Archives - Chest] King's Gauntlets

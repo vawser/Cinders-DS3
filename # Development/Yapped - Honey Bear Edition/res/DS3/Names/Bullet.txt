@@ -2409,6 +2409,8 @@
 7560054 [Frostfire Colossus] Phase Change Cleanse and Heal
 7560055 [Frostfire Colossus] Phase Change Cleanse and Heal
 7560056 [Frostfire Colossus] Phase Change Cleanse and Heal
+7560400 [Frostfire Colossus] Line Breath
+7560401 [Frostfire Colossus] Line Breath [Hit]
 7560700 [Frostfire Colossus] Sweeping Breath
 7560701 [Frostfire Colossus] Sweeping Breath
 7560710 [Frostfire Colossus] Frostfire Breath Downward
@@ -2999,6 +3001,7 @@
 100021100 [Sunlight Straight Sword] Oath of Sunlight
 100021110 [Sunlight Straight Sword] Oath of Sunlight [Hit]
 100022400 [Onyx Blade] Elfriede's Blackflame
+100022500 [Scythe of Nahr Alma] Blackflame
 100040800 [Storm Curved Sword] Tornado
 100040810 [Storm Curved Sword] Tornado
 100040820 [Storm Curved Sword] Tornado
@@ -3182,7 +3185,6 @@
 100083202 [Ledo's Great Hammer] Call to Stone [Hit]
 100083300 [Sacred Chime Hammer] Beckon the Deep - Marker
 100083301 [Sacred Chime Hammer] Beckon the Deep
-100083302 [Sacred Chime Hammer] Beckon the Deep [Hit]
 100083400 [Giant Crab Arm] Bubblebeam
 100083410 [Giant Crab Arm] Bubblebeam
 100083500 [Elder Ghru Tree] Vengeful Spirits - Marker
