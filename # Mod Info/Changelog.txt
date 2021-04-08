@@ -215,7 +215,6 @@ Finish following weapons:
 # CURRENT MAP
 #------------------------------
 
-
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
@@ -226,11 +225,12 @@ Finish following weapons:
 16070000 Gotthard Twinswords            #
 30770000 Golem Axe                      #
 21100000 Black Knight Shield
+30200000 Tailbone Club 
+30170000 Drake Fist
+31350000 King's Ultra Greatsword
 
 30700 Band of Darkness                  #
 30180 Crypt Ring
-30420 Physician Ring
-20150 Scholar Ring
 
 99250000 Dragonrider Helm
 99251000 Dragonrider Armor
@@ -261,6 +261,7 @@ Finish following weapons:
 242 - Silver Pendant
 260 - Green Blossom
 261 - Budding Green Blossom
+2160 - Brightbug
 
 270 - Bloodred Moss Clump
 271 - Purple Moss Clump
@@ -299,6 +300,7 @@ Finish following weapons:
 341 - Gold Pine Bundle
 343 - Rotten Pine Resin
 344 - Frozen Pine Resin
+370 - Prism Stone
 
 3004 - Tarnished Coin
 3005 - Tarnished Silver Coin
@@ -330,6 +332,23 @@ Finish following weapons:
 418 - Soul of a Venerable Old Hand
 419 - Soul of a Champion
 420 - Soul of a Great Champion
+
+365 - Awestone
+366 - Wolf's Blood Swordgrass
+367 - Human Dregs
+369 - Proof of a Concord Well Kept
+372 - Proof of a Concord Kept
+373 - Pale Tongue
+374 - Vertebra Shackle
+375 - Sunlight Medal
+379 - Filianore's Spear Ornament
+382 - Ritual Incense
+4015 - Dragon Eye
+4016 - Humanity
+
+4017 - Devil's Trumpet
+4018 - Moonflower
+4019 - Henbane
 
 4000 - Lethal Gem
 4001 - Curse Gem
