@@ -212,67 +212,34 @@ Finish following weapons:
  31520000 Gargoyle Bident [Unique]
  31690000 Gargoyle Halberd [Unique]
  31700000 Gargoyle Tail Axe [Unique]
+ 
+Finish treasure overhaul:
+ - m33
+ - m34_1
+ - m35
+ - m37
+ - m38
+ - m39
+ - m45
+ - m50
+ - m51
+ 
+Implement new world vendors that provides items currently in the ash system.
 
+Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
+ - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
+ - Bonfire: Soulbonds -> Vendor Name -> Inventory
+ 
 #------------------------------
 # CURRENT MAP
 #------------------------------
-16000000 Sellsword Twinblades
-19000000 Heretic's Staff
-22100000 Twin Dragon Greatshield
-21200000 Grass Crest Shield
-12180000 Heretic's Warstaff
-20270000 Golden Falcon Shield
-21250000 Stone Parma
-30900000 Stone Greatsword
-12120000 Corvian Longstaff
-16060000 Brigand Twindaggers
-
-30400 Heretic Ring
-20280 Sage Ring
-30330 Ring of Retaliation
-
-19000000 Fallen Knight Helm
-19001000 Fallen Knight Armor
-19002000 Fallen Knight Gauntlets
-19003000 Fallen Knight Trousers
-77500000 Conjurator Hood
-77501000 Conjurator Robe
-77502000 Conjurator Manchettes
-77503000 Conjurator Boots
-99610000 Poisonhorn Cap
-99880000 Stone Helm
-99881000 Stone Armor
-99882000 Stone Gauntlets
-99883000 Stone Leggings
-97000000 Varangian Helm
-97001000 Varangian Armor
-97002000 Varangian Gauntlets
-97003000 Varangian Leggings
-30000000 Sorcerer Hood
-30001000 Sorcerer Robe
-30002000 Sorcerer Gloves
-30003000 Sorcerer Trousers
-99890000 Guardian Helm
-99891000 Guardian Armor
-99892000 Guardian Gauntlets
-99893000 Guardian Leggings
-71000000 Nameless Knight Helm
-71001000 Nameless Knight Armor
-71002000 Nameless Knight Gauntlets
-71003000 Nameless Knight Leggings
-
-2140 Golden Scroll
-2108 Dreamchaser's Ashes
-2141 Estus Shard
-2143 Undead Bone Shard
-2104 Sage's Coal
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-30380000 Burial Scythe                  #
+2143 Undead Bone Shard
+
 31380000 Scythe of Nahr Alma            #
-31110000 Rakuyo                         #
 19080000 Caitha's Chime                 #
 16070000 Gotthard Twinswords            #
 30770000 Golem Axe                      #
@@ -281,21 +248,23 @@ Finish following weapons:
 30170000 Drake Fist
 31350000 King's Ultra Greatsword
 
-30700 Band of Darkness                  #
-30180 Crypt Ring
+77500000 Conjurator Hood
+77501000 Conjurator Robe
+77502000 Conjurator Manchettes
+77503000 Conjurator Boots
 
 99250000 Dragonrider Helm
 99251000 Dragonrider Armor
 99252000 Dragonrider Gauntlets
 99253000 Dragonrider Leggings
-54000000 Black Knight Helm
-54001000 Black Knight Armor
-54002000 Black Knight Gauntlets
-54003000 Black Knight Leggings
-99470000 Mask of Cruelty
+
 99540000 Tan Straw Hat
 10190000 Snail Shell
-99490000 Mask of War                    #
+
+99470000 Mask of Cruelty
+99490000 Mask of War                    
+99480000 Mask of Serenity
+99460000 Mask of Horror
 
 #------------------------------
 # REFERENCE
