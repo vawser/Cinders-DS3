@@ -231,6 +231,8 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
+8110000 Great Mace
+6190000 Cathedral Knight Greatsword
 
 #------------------------------
 # USE ELSEWHERE
