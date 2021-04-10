@@ -214,8 +214,6 @@ Finish following weapons:
  31700000 Gargoyle Tail Axe [Unique]
  
 Finish treasure overhaul:
- - m33
- - m34_1
  - m35
  - m37
  - m38
@@ -237,34 +235,11 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-2143 Undead Bone Shard
-
-31380000 Scythe of Nahr Alma            #
-19080000 Caitha's Chime                 #
-16070000 Gotthard Twinswords            #
-30770000 Golem Axe                      #
 21100000 Black Knight Shield
 30200000 Tailbone Club 
 30170000 Drake Fist
-31350000 King's Ultra Greatsword
-
-77500000 Conjurator Hood
-77501000 Conjurator Robe
-77502000 Conjurator Manchettes
-77503000 Conjurator Boots
-
-99250000 Dragonrider Helm
-99251000 Dragonrider Armor
-99252000 Dragonrider Gauntlets
-99253000 Dragonrider Leggings
 
 99540000 Tan Straw Hat
-10190000 Snail Shell
-
-99470000 Mask of Cruelty
-99490000 Mask of War                    
-99480000 Mask of Serenity
-99460000 Mask of Horror
 
 #------------------------------
 # REFERENCE

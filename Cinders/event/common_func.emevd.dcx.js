@@ -7139,30 +7139,6 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 });
 
 //----------------------------------------------
-// Mimic - Crown of Illusion - Spawn Control
-// <entity id>, <trigger flag>
-//----------------------------------------------
-Event(20090100, Restart, function(X0_4) {
-    IfCharacterHasSpeffect(OR_01, 10000, 160409001, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1);
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    WaitFixedTimeSeconds(0.1);
-    RequestCharacterAIReplan(X0_4);
-});
-
-//----------------------------------------------
 // Lothric's Scythe WA Monitor
 // <entity id>
 //----------------------------------------------
