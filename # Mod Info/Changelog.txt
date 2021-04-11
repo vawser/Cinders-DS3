@@ -201,6 +201,7 @@
 - Reverted the door change in Ariandel Chapel.
 - Changed the Irithyll Warp to Ariandel so you appear below the bridge.
 - Added a crab secret to Catacombs/Smouldering Lake.
+- Moved the Giant's Tower bonfire into the basement of the tower and renamed it to Tower Basement.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
@@ -233,6 +234,7 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
  
+
 #------------------------------
 # CURRENT MAP
 #------------------------------
