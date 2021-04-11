@@ -237,35 +237,11 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
-# Item Drops
-6190000 Cathedral Knight Greatsword
-
-8110000 Great Mace
-
-8300000 Spiked Mace
-48000000 Evangelist Hat
-48001000 Evangelist Robe
-48002000 Evangelist Gloves
-48003000 Evangelist Trousers
-
-66501000 Deacon Robe
-66503000 Deacon Skirt
-
-16020000 Warden Twinblades
-46000000 Grave Warden Hood
-46001000 Grave Warden Robe
-46002000 Grave Warden Wrap
-46003000 Grave Warden Skirt
-
 # 26
 6070000 Astora Greatsword
 2220000 Executioner's Greatsword
 22120000 Curse Ward Greatshield
-21170000 Crest Shield
-9180000 Saint Bident
-
 18090000 Saint-tree Bellvine
-14110000 Oak Crossbow
 30950000 Istarelle
 30400000 Church Pick
 30420000 Kirkhammer
@@ -289,6 +265,7 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 20120 Cursebite Ring
 20160 Priestess Ring
 
+2141 Estus Shard
 2143 Undead Bone Shard
 2109 Paladin's Ashes
 2004 Tortured Soul

@@ -2144,24 +2144,26 @@ Event(20044, Default, function(X0_4) {
     //SetCharacterAnimationState(3800498, Enabled);
     //WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
     
+    BatchSetEventFlags(13410903, 13410907, OFF);
+    
     // Treasure flags
-    //SkipUnconditionally(15);
-    BatchSetEventFlags(53000000, 53000999, OFF);
-    BatchSetEventFlags(53010000, 53010999, OFF);
-    BatchSetEventFlags(53100000, 53100999, OFF);
-    BatchSetEventFlags(53200000, 53200999, OFF);
-    BatchSetEventFlags(53300000, 53300999, OFF);
-    BatchSetEventFlags(53410000, 53400999, OFF);
-    BatchSetEventFlags(53500000, 53500999, OFF);
-    BatchSetEventFlags(53700000, 53700999, OFF);
-    BatchSetEventFlags(53800000, 53800999, OFF);
-    BatchSetEventFlags(53900000, 53900999, OFF);
-    BatchSetEventFlags(54000000, 54000999, OFF);
-    BatchSetEventFlags(54100000, 54100999, OFF);
-    BatchSetEventFlags(54500000, 54500999, OFF);
-    BatchSetEventFlags(55000000, 55000999, OFF);
-    BatchSetEventFlags(55100000, 55100999, OFF);
-    BatchSetEventFlags(55110000, 55110999, OFF);
+    SkipUnconditionally(15);
+    BatchSetEventFlags(53000000, 53002999, OFF);
+    BatchSetEventFlags(53010000, 53012999, OFF);
+    BatchSetEventFlags(53100000, 53102999, OFF);
+    BatchSetEventFlags(53200000, 53202999, OFF);
+    BatchSetEventFlags(53300000, 53302999, OFF);
+    BatchSetEventFlags(53410000, 53402999, OFF);
+    BatchSetEventFlags(53500000, 53502999, OFF);
+    BatchSetEventFlags(53700000, 53702999, OFF);
+    BatchSetEventFlags(53800000, 53802999, OFF);
+    BatchSetEventFlags(53900000, 53902999, OFF);
+    BatchSetEventFlags(54000000, 54002999, OFF);
+    BatchSetEventFlags(54100000, 54102999, OFF);
+    BatchSetEventFlags(54500000, 54502999, OFF);
+    BatchSetEventFlags(55000000, 55002999, OFF);
+    BatchSetEventFlags(55100000, 55102999, OFF);
+    BatchSetEventFlags(55110000, 55112999, OFF);
     
     //SetEventFlag(25001031, ON);
     
