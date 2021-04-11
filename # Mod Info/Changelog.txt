@@ -220,7 +220,6 @@ Finish following weapons:
  31700000 Gargoyle Tail Axe [Unique]
  
 Finish treasure overhaul:
- - m35
  - m37
  - m38
  - m39
@@ -237,40 +236,6 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
-# 26
-6070000 Astora Greatsword
-2220000 Executioner's Greatsword
-22120000 Curse Ward Greatshield
-18090000 Saint-tree Bellvine
-30950000 Istarelle
-30400000 Church Pick
-30420000 Kirkhammer
-14050000 Arbalest
-
-10260000 Rosaria's Dress
-96000000 Helm of Thorns
-96001000 Armor of Thorns
-96002000 Gauntlets of Thorns
-96003000 Leggings of Thorns
-10120000 Thorolund Helm
-10121000 Thorolund Armor
-10122000 Thorolund Gloves
-10123000 Thorolund Leggings
-79500000 Maiden Hood
-79501000 Maiden Robe 
-79502000 Maiden Gloves
-79503000 Maiden Skirt
-
-20660 Lloyd's Sword Ring
-20120 Cursebite Ring
-20160 Priestess Ring
-
-2141 Estus Shard
-2143 Undead Bone Shard
-2109 Paladin's Ashes
-2004 Tortured Soul
-2175 Writhing Tome
-1080 Deep Braille Divine Tome
 
 #------------------------------
 # USE ELSEWHERE
