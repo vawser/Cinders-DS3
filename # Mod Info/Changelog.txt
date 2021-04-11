@@ -121,6 +121,8 @@
   - Affinity
   - Dark Blade weapon buff
 - Increased Vordt's absorptions.
+- Increased Midir's absorptions.
+- Increased Slave Knight Gael's absorptions.
 - Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
 - Reduced duration of Furious Lizard projectile attack.
 - Removed Furious Lizards boss.
@@ -131,6 +133,7 @@
   - Rampart Golem Lance
   - Wretched Pendant
 - Frostfire Colossus:
+ - Adjusted HP and absorptions.
  - The Colossus will remain inactive until both the Frostfire Clerics are killed
  - Colossus is now immune to damage until both the Frostfire Clerics are killed.
  - Odessa's Crystal now boosts Fire absorption by 25% if possessed while in the Frostfire Colossus fight.
@@ -142,6 +145,9 @@
  - Changed the regular spinning orb attack into a frostfire breath attack instead.
  - Moved the sapping orb spawn location close to the floor so it isn't unfair to melee players.
  - Made the sapping aura less punitive.
+ - Removed the additional bullets that appear after slam attacks.
+ - Reduced the amount of Frostfire pillars.
+ - Reduced the HP of the summonable Outrider Knight.
  
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
@@ -169,7 +175,7 @@
 # Spells
 - Emit Force - Ascended effect: increases projectile speed to 40 m/s.
 - Reduced emit rate of Snap Freeze and buffed the Frost inflict.
-- Soul Geyser: FP Cost to 120, INT req to 75, damage to 150.
+- Soul Geyser: FP Cost to 80, INT req to 60, damage to 150.
 
 # Items
 - Boss souls can now use the 'Use Selected' option.
@@ -231,17 +237,84 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
-8110000 Great Mace
+# Item Drops
 6190000 Cathedral Knight Greatsword
+
+8110000 Great Mace
+
+8300000 Spiked Mace
+48000000 Evangelist Hat
+48001000 Evangelist Robe
+48002000 Evangelist Gloves
+48003000 Evangelist Trousers
+
+66501000 Deacon Robe
+66503000 Deacon Skirt
+
+16020000 Warden Twinblades
+46000000 Grave Warden Hood
+46001000 Grave Warden Robe
+46002000 Grave Warden Wrap
+46003000 Grave Warden Skirt
+
+# 26
+6070000 Astora Greatsword
+2220000 Executioner's Greatsword
+22120000 Curse Ward Greatshield
+21170000 Crest Shield
+9180000 Saint Bident
+
+18090000 Saint-tree Bellvine
+14110000 Oak Crossbow
+30950000 Istarelle
+30400000 Church Pick
+30420000 Kirkhammer
+14050000 Arbalest
+
+10260000 Rosaria's Dress
+96000000 Helm of Thorns
+96001000 Armor of Thorns
+96002000 Gauntlets of Thorns
+96003000 Leggings of Thorns
+10120000 Thorolund Helm
+10121000 Thorolund Armor
+10122000 Thorolund Gloves
+10123000 Thorolund Leggings
+79500000 Maiden Hood
+79501000 Maiden Robe 
+79502000 Maiden Gloves
+79503000 Maiden Skirt
+
+20660 Lloyd's Sword Ring
+20120 Cursebite Ring
+20160 Priestess Ring
+
+2143 Undead Bone Shard
+2109 Paladin's Ashes
+2004 Tortured Soul
+2175 Writhing Tome
+1080 Deep Braille Divine Tome
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
 21100000 Black Knight Shield
+
 30200000 Tailbone Club 
+
 30170000 Drake Fist
 
+16130000 Drang Hammers
+89001000 Drang Armor
+89002000 Drang Gauntlets
+89003000 Drang Shoes
+
 99540000 Tan Straw Hat
+
+99260000 Ancient King's Mask
+99261000 Ancient King's Breastplate
+99262000 Ancient King's Gauntlets
+99263000 Ancient King's Leggings
 
 #------------------------------
 # REFERENCE

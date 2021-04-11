@@ -1,9 +1,11 @@
 ﻿#------------------------
 # Boss Stats
 #------------------------
-- HP in first [] is for Nightmare form
 - Absorption percentages are damage taken.
 
+#------------------------
+# Cemetery of Ash
+#------------------------
 # Dismal Knight
 - NG0 HP: 2000  
 - NG+ HP: 2400 
@@ -18,6 +20,9 @@
 - Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
+#------------------------
+# High Wall of Lothric
+#------------------------
 # Vordt of the Boreal Valley 
 - NG0 HP: 3000 
 - NG+ HP: 3600 
@@ -32,6 +37,37 @@
 - Absorption: Dark:         70%
 - Affected by: Poison, Bleed, Frost
 
+# Dancer of the Boreal Valley
+- NG0 HP: 7000 
+- NG+ HP: 8400 
+- Souls: 40000 
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       110%
+- Absorption: Thrust:       120%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+# Oceiros, the Consumed King
+- NG0 HP: 8000
+- NG+ HP: 9600 
+- Souls: 60000 
+- Absorption: Standard:     90%
+- Absorption: Slash:        90%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        50%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+
+#------------------------
+# Undead Settlement
+#------------------------
 # Curse-rotted Greatwood 
 - NG0 HP: 4000 
 - NG+ HP: 4800   
@@ -46,6 +82,23 @@
 - Absorption: Dark:         90%
 - Affected by: Poison, Bleed, Frost
 
+# Aborr
+- NG0 HP: 2000
+- NG+ HP: 2400
+- Souls: 10000
+- Absorption: Standard:     70%
+- Absorption: Slash:        60%
+- Absorption: Strike:       60%
+- Absorption: Thrust:       70%
+- Absorption: Magic:        80%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+#------------------------
+# Road of Sacrifices/Farron Keep
+#------------------------
 # Crystal Sage
 - NG0 HP: 3000 
 - NG+ HP: 3600 
@@ -59,21 +112,6 @@
 - Absorption: Lightning:    80%
 - Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
-
-# Deacons of the Deep
-- NG0 HP: 6000     
-- NG+ HP: 7200 
-- Souls: 20000
-- Absorption: Standard:     110%
-- Absorption: Slash:        110%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       110%
-- Absorption: Magic:        100%
-- Absorption: Fire:         100%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         80%
-- Affected by: Poison, Bleed, Frost
-- Considered Hollow.
 
 # Abyss Watchers
 - NG0 HP: 6000     
@@ -89,6 +127,41 @@
 - Absorption: Dark:         90%
 - Affected by: Poison, Bleed, Frost
 
+#------------------------
+# Cathedral of the Deep
+#------------------------
+# Deacons of the Deep
+- NG0 HP: 6000     
+- NG+ HP: 7200 
+- Souls: 20000
+- Absorption: Standard:     110%
+- Absorption: Slash:        110%
+- Absorption: Strike:       110%
+- Absorption: Thrust:       110%
+- Absorption: Magic:        100%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+- Considered Hollow.
+
+# Cathedral Guardian
+- NG0 HP: 5000
+- NG+ HP: 6000
+- Souls: 10000
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        90%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         70%
+- Affected by: Poison, Bleed, Frost
+
+#------------------------
+# Catacombs of Carthus/Smouldering Lake
+#------------------------
 # High Lord Wolnir
 - NG0 HP: 6000     
 - NG+ HP: 7200 
@@ -119,6 +192,9 @@
 - Affected by: Poison, Bleed, Frost
 - Considered Demon.
 
+#------------------------
+# Irithyll of the Boreal Valley
+#------------------------
 # Pontiff Sulyvahn
 - NG0 HP: 8000 
 - NG+ HP: 9600
@@ -203,6 +279,9 @@
 - Absorption: Dark:         100%
 - Affected by: Poison, Bleed, Frost
 
+#------------------------
+# Irithyll Dungeon/Profaned Capital
+#------------------------
 # Yhorm the Giant 
 - NG0 HP: 9000   
 - NG+ HP: 10800 
@@ -217,49 +296,9 @@
 - Absorption: Dark:         100%
 - Affected by: Poison, Bleed, Frost
 
-# Dancer of the Boreal Valley
-- NG0 HP: 7000 
-- NG+ HP: 8400 
-- Souls: 40000 
-- Absorption: Standard:     100%
-- Absorption: Slash:        100%
-- Absorption: Strike:       110%
-- Absorption: Thrust:       120%
-- Absorption: Magic:        80%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         80%
-- Affected by: Poison, Bleed, Frost
-
-# Oceiros, the Consumed King
-- NG0 HP: 8000
-- NG+ HP: 9600 
-- Souls: 60000 
-- Absorption: Standard:     90%
-- Absorption: Slash:        90%
-- Absorption: Strike:       90%
-- Absorption: Thrust:       100%
-- Absorption: Magic:        50%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         50%
-- Affected by: Poison, Bleed, Frost
-
-# Dragonslayer Armour 
-- NG0 HP: 9000 
-- NG+ HP: 10800 	
-- Souls: 40000
-- Absorption: Standard:     80%
-- Absorption: Slash:        80%
-- Absorption: Strike:       90%
-- Absorption: Thrust:       80%
-- Absorption: Magic:        100%
-- Absorption: Fire:         80%
-- Absorption: Lightning:    60%
-- Absorption: Dark:         80%
-- Affected by: Poison, Bleed, Frost
-- Considered Abyssal.
-
+#------------------------
+# Archdragon Peak
+#------------------------
 # Ancient Wyvern 
 - NG0 HP: 6000
 - NG+ HP: 72000
@@ -301,6 +340,23 @@
 - Absorption: Dark:         90%
 - Affected by: Poison, Bleed, Frost
 
+# The Rock
+- NG0 HP: 8000 
+- NG+ HP: 9600 	
+- Souls: 50000
+- Absorption: Standard:     70%
+- Absorption: Slash:        70%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       70%
+- Absorption: Magic:        50%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         90%
+- Affected by: Poison, Bleed, Frost
+
+#------------------------
+# Untended Graves
+#------------------------
 # Champion Gundyr 
 - NG0 HP: 8000  
 - NG+ HP: 9600    
@@ -313,6 +369,56 @@
 - Absorption: Fire:         100%
 - Absorption: Lightning:    100%
 - Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+
+#------------------------
+# Lothric Castle
+#------------------------
+# Dragonslayer Armour 
+- NG0 HP: 9000 
+- NG+ HP: 10800 	
+- Souls: 40000
+- Absorption: Standard:     80%
+- Absorption: Slash:        80%
+- Absorption: Strike:       90%
+- Absorption: Thrust:       80%
+- Absorption: Magic:        100%
+- Absorption: Fire:         80%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         80%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+# Twisted Knight
+- NG0 HP: 8000 
+- NG+ HP: 9600 	
+- Souls: 50000
+- Absorption: Standard:     100%
+- Absorption: Slash:        100%
+- Absorption: Strike:       100%
+- Absorption: Thrust:       100%
+- Absorption: Magic:        100%
+- Absorption: Fire:         100%
+- Absorption: Lightning:    100%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
+
+#------------------------
+# Grand Archives
+#------------------------
+# Mirror Knight
+- NG0 HP: 8000
+- NG+ HP: 9600
+- Souls: 40000
+- Absorption: Standard:     70%
+- Absorption: Slash:        60%
+- Absorption: Strike:       80%
+- Absorption: Thrust:       70%
+- Absorption: Magic:        70%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    60%
+- Absorption: Dark:         100%
 - Affected by: Poison, Bleed, Frost
 
 # Lorian, Elder Prince
@@ -344,6 +450,9 @@
 - Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
+#------------------------
+# Kiln of the First Flame
+#------------------------
 # Soul of Cinder 
 - NG0 HP: 10000
 - NG+ HP: 12000
@@ -358,6 +467,9 @@
 - Absorption: Dark:         80%
 - Affected by: Poison, Bleed, Frost
 
+#------------------------
+# Ariandel
+#------------------------
 # Sister Friede
 - Phase 1 NG0 HP: 6000    
 - Phase 2 NG0 HP: 8000
@@ -400,7 +512,26 @@
 - Absorption: Lightning:    110%
 - Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
+- Considered Abyssal.
 
+# Frostfire Colossus
+- NG0 HP: 14000
+- NG+ HP: 12000
+- Souls: 150000
+- Absorption: Standard:     70%
+- Absorption: Slash:        70%
+- Absorption: Strike:       70%
+- Absorption: Thrust:       90%
+- Absorption: Magic:        80%
+- Absorption: Fire:         50%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         100%
+- Affected by: Poison, Bleed
+- Considered Demon.
+
+#------------------------
+# Dreg Heap
+#------------------------
 # Demon Prince
 - Phase 1 NG0 HP: 7000
 - Phase 2 NG0 HP: 7000
@@ -418,6 +549,9 @@
 - Affected by: Poison, Bleed, Frost
 - Considered Demon.
 
+#------------------------
+# Ringed City
+#------------------------
 # Halflight
 - NG0 HP: 8000
 - NG+ HP: 9600
@@ -427,14 +561,14 @@
 - NG0 HP: 12000
 - NG+ HP: 14400                
 - Souls: 150000
-- Absorption: Standard:     60%
-- Absorption: Slash:        60%
-- Absorption: Strike:       70%
-- Absorption: Thrust:       60%
-- Absorption: Magic:        80%
-- Absorption: Fire:         50%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         50%
+- Absorption: Standard:     40%
+- Absorption: Slash:        40%
+- Absorption: Strike:       60%
+- Absorption: Thrust:       50%
+- Absorption: Magic:        50%
+- Absorption: Fire:         40%
+- Absorption: Lightning:    70%
+- Absorption: Dark:         40%
 - Affected by: Poison, Bleed, Frost
 - Considered Abyssal.
 
@@ -442,166 +576,16 @@
 - NG0 HP: 12000
 - NG+ HP: 14400  
 - Souls: 125000
-- Absorption: Standard:     80%
-- Absorption: Slash:        80%
-- Absorption: Strike:       80%
-- Absorption: Thrust:       80%
-- Absorption: Magic:        90%
-- Absorption: Fire:         90%
-- Absorption: Lightning:    100%
-- Absorption: Dark:         75%
+- Absorption: Standard:     70%
+- Absorption: Slash:        60%
+- Absorption: Strike:       70%
+- Absorption: Thrust:       70%
+- Absorption: Magic:        70%
+- Absorption: Fire:         70%
+- Absorption: Lightning:    80%
+- Absorption: Dark:         60%
 - Affected by: Poison, Bleed, Frost
 - Considered Hollow.
 
-# Aborr
-- NG0 HP: 2000
-- NG+ HP: 2400
-- Souls: 10000
 
-# Cathedral Guardian
-- NG0 HP: 5000
-- NG+ HP: 6000
-- Souls: 10000
 
-# Mirror Knight
-- NG0 HP: 8000
-- NG+ HP: 9600
-- Souls: 40000
-
-#------------------------
-# Enemy Types
-#------------------------
-# Sir Vilhelm
-- Considered Hollow.
-
-# Livid Pyromancer Dunnel
-- Considered Hollow.
-
-# Amnesiac Lapp
-- Considered Hollow.
-
-# Yuria of Londor
-- Considered Hollow.
-
-# Luyila of Londor
-- Considered Hollow.
-
-# Skeleton
-- Considered Undead.
-
-# Pus of Man
-- Considered Abyssal.
-
-# Hollow Soldier
-- Considered Hollow.
-
-# Hollow Assassin
-- Considered Hollow.
-
-# Large Hollow Soldier
-- Considered Hollow.
-
-# Carthus Swordsman
-- Considered Undead.
-
-# Cathedral Knight
-- Considered Hollow.
-
-# Hollow Slave
-- Considered Hollow.
-
-# Cathedral Evangelist
-- Considered Hollow.
-
-# Peasant Hollow
-- Considered Hollow.
-
-# Cathedral Grave Warden
-- Considered Hollow.
-
-# Hollow Manservant
-- Considered Hollow.
-
-# Lothric Knight
-- Considered Hollow.
-
-# Winged Knight
-- Considered Hollow.
-
-# Archive Scholar
-- Considered Hollow.
-
-# Irithyllian Slave
-- Considered Hollow.
-
-# Lycanthrope
-- Considered Hollow.
-
-# Silver Knight
-- Considered Hollow.
-
-# Undead Cleric
-- Considered Hollow.
-
-# Devout Bomber
-- Considered Hollow.
-
-# Devout of the Deep
-- Considered Hollow.
-
-# Large Devout of the Deep
-- Considered Hollow.
-
-# Sage Prentice
-- Considered Hollow.
-
-# Bonewheel Skeleton
-- Considered Undead.
-
-# Undead Dog
-- Considered Hollow.
-
-# Infested Corpse
-- Considered Undead.
-
-# Writhing Rotten Flesh
-- Considered Abyssal.
-
-# Irithyll Dog
-- Considered Undead.
-
-# Demon
-- Considered Demon.
-
-# Stray Demon
-- Considered Demon.
-
-# Demon Cleric
-- Considered Demon.
-
-# Caged Hollow
-- Considered Hollow.
-
-# Deep Accursed
-- Considered Abyssal.
-
-# Darkwraith
-- Considered Abyssal.
-
-# Deacon
-- Considered Hollow.
-
-# Farron Follower
-- Considered Hollow.
-
-# Corvian Villager
-- Considered Hollow.
-
-# Lothric Thief
-- Considered Hollow.
-
-# Hollow Cleric
-- Considered Hollow.
-
-# Harald Knight
-- Considered Abyssal.
