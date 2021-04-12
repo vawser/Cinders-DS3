@@ -515,17 +515,17 @@
 - Considered Abyssal.
 
 # Frostfire Colossus
-- NG0 HP: 14000
-- NG+ HP: 12000
+- NG0 HP: 12000
+- NG+ HP: 14400
 - Souls: 150000
-- Absorption: Standard:     70%
-- Absorption: Slash:        70%
-- Absorption: Strike:       70%
-- Absorption: Thrust:       90%
-- Absorption: Magic:        80%
+- Absorption: Standard:     50%
+- Absorption: Slash:        50%
+- Absorption: Strike:       60%
+- Absorption: Thrust:       70%
+- Absorption: Magic:        60%
 - Absorption: Fire:         50%
 - Absorption: Lightning:    70%
-- Absorption: Dark:         100%
+- Absorption: Dark:         80%
 - Affected by: Poison, Bleed
 - Considered Demon.
 
