@@ -234,31 +234,120 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
  
-
 #------------------------------
 # CURRENT MAP
 #------------------------------
+# 30
+17030000 Witchtree Branch
+12130000 Witchtree Limb
+30180000 Irithyll Warpick
+4090000 Painting Guardian's Curved Sword
+30760000 Giant Halberd
+22200000 Giant Shield
+8270000 Smough's Great Hammer
+19140000 Pilgrim's Spontoon
+30130000 Pontiff Knight Greatsword
+19830000 Immolation Tinder
 
-#------------------------------
-# USE ELSEWHERE
-#------------------------------
-21100000 Black Knight Shield
+84000000 Brass Helm
+84001000 Brass Armor
+84002000 Brass Gauntlets
+84003000 Brass Leggings
+91000000 Painting Guardian Hood
+91001000 Painting Guardian Gown
+91002000 Painting Guardian Gloves
+91003000 Painting Guardian Waistcloth
+60000000 Fire Witch Helm
+60001000 Fire Witch Armor
+60002000 Fire Witch Gauntlets
+60003000 Fire Witch Leggings
+99180000 Giant Helm
+99181000 Giant Armor
+99182000 Giant Gauntlets
+99183000 Giant Leggings
+56000000 Pontiff Knight Crown
+56001000 Pontiff Knight Armor
+56002000 Pontiff Knight Gauntlets
+56003000 Pontiff Knight Leggings
+85000000 Silver Knight Helm
+85001000 Silver Knight Armor
+85002000 Silver Knight Gauntlets
+85003000 Silver Knight Leggings
 
-30200000 Tailbone Club 
-
-30170000 Drake Fist
+99170000 Frigid Valley Mask
+99330000 Heide Mask
 
 16130000 Drang Hammers
 89001000 Drang Armor
 89002000 Drang Gauntlets
 89003000 Drang Shoes
 
+20360 Ring of the Sun's First Born
+30340 Ring of Reprisal
+20210 Ring of Sacrifice
+20080 Dark Stoneplate Ring
+20740 Reversal Ring
+
+2141 Estus Shard
+2176 Abyssal Tome
+2121 Braille Divine Tome of Sunlight
+2105 Giant's Coal
+2146 Excrement-covered Ashes
+2143 Undead Bone Shard
+108 Roster of Knights
+2720000 Fecal Expulsion
+
+#------------------------------
+# USE ELSEWHERE
+#------------------------------
+
+# m38 - Catacombs
+21100000 Black Knight Shield
+2005 Small Doll
+20590 Ring of the Evil Eye
+
+# m39 - Irithyll Dungeon
+99300000 Gloom Helm
+99301000 Gloom Armor
+99302000 Gloom Gauntlets
+99303000 Gloom Leggings
+
+
+# m45 - Ariandel
+16140000 Valorheart
+30960000 Kris Blade
+
+# m50 - Dreg Heap
+30960 Rare Ring of Humanity
+
 99540000 Tan Straw Hat
+99280000 Brushwood Helm
+99281000 Brushwood Armor
+99282000 Brushwood Gauntlets
+99283000 Brushwood Leggings
+10060000 Dragon Acolyte Mask
+10061000 Dragon Acolyte Robe
+10062000 Dragon Acolyte Gloves
+10063000 Dragon Acolyte Leggings
+31020000 Morion Great Blade
+31090000 Spiral Greatsword
+
+# m51 - Ringed City
+30360000 Boom Hammer
 
 99260000 Ancient King's Mask
 99261000 Ancient King's Breastplate
 99262000 Ancient King's Gauntlets
 99263000 Ancient King's Leggings
+99850000 Golem Helm
+99851000 Golem Armor
+99852000 Golem Gauntlets
+99853000 Golem Leggings
+31330000 Dragonrider Halberd
+99250000 Dragonrider Helm
+99251000 Dragonrider Armor
+99252000 Dragonrider Gauntlets
+99253000 Dragonrider Leggings
 
 #------------------------------
 # REFERENCE
