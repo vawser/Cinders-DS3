@@ -119,6 +119,13 @@
     <item value="131" name="Paired Greatshield" />
     <item value="133" name="Paired Ultra Greatsword" />
   </enum>
+  <enum name="BuffVFXType" type="s16">
+    <item value="0" name="Type 0" />
+    <item value="256" name="Type 1" />
+    <item value="512" name="Type 2" />
+    <item value="768" name="Type 3" />
+    <item value="1024" name="Type 4" />
+  </enum>
   <entry>
     <name>Behavior Variation ID</name>
     <type>s32</type>
@@ -1113,9 +1120,10 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Buff VFX Scale</name>
+    <name>Buff VFX Appearance Type</name>
     <type>s16</type>
     <default>0</default>
+    <enum>BuffVFXType</enum>
   </entry>
   <entry>
     <name>Display Type ID</name>

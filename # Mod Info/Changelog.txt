@@ -241,22 +241,22 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 # USE ELSEWHERE
 #------------------------------
 
-# m38 - Catacombs
-21100000 Black Knight Shield
-2005 Small Doll
-
-
 # m39 - Irithyll Dungeon
 99300000 Gloom Helm
 99301000 Gloom Armor
 99302000 Gloom Gauntlets
 99303000 Gloom Leggings
 
-
 # m45 - Ariandel
 16140000 Valorheart
+30830000 Guillotine Axe
 
 # m50 - Dreg Heap
+31020000 Morion Great Blade
+31090000 Spiral Greatsword
+19040000 Manus Catalyst
+30720000 Abyssal Blade
+
 30960 Rare Ring of Humanity
 
 99280000 Brushwood Helm
@@ -267,11 +267,15 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 10061000 Dragon Acolyte Robe
 10062000 Dragon Acolyte Gloves
 10063000 Dragon Acolyte Leggings
-31020000 Morion Great Blade
-31090000 Spiral Greatsword
+
 
 # m51 - Ringed City
+31140000 Smelter Sword
 30360000 Boom Hammer
+22240000 Twinfang Greatshield
+30990000 Man Serpent Greatsword
+
+20600 Ring of Calamity
 
 99260000 Ancient King's Mask
 99261000 Ancient King's Breastplate
@@ -286,6 +290,10 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 99251000 Dragonrider Armor
 99252000 Dragonrider Gauntlets
 99253000 Dragonrider Leggings
+99790000 Charred Loyce Helm
+99791000 Charred Loyce Armor
+99792000 Charred Loyce Gauntlets
+99793000 Charred Loyce Leggings
 
 #------------------------------
 # REFERENCE
