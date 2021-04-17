@@ -114,15 +114,13 @@
 - Changed the NG+ multipliers: NG+ cycles should be less brutal.
 
 # Bosses
+- Increased boss absorptions.
 - Increased Dismal Knight HP to 2000.
 - Changed Dismal Knight back to the Mace and Greatshield style.
  - Added new dark themed moves instead of the miracles the Cathedral Knight has
   - Vow of Agony
   - Affinity
   - Dark Blade weapon buff
-- Increased Vordt's absorptions.
-- Increased Midir's absorptions.
-- Increased Slave Knight Gael's absorptions.
 - Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
 - Reduced duration of Furious Lizard projectile attack.
 - Removed Furious Lizards boss.
@@ -133,7 +131,7 @@
   - Rampart Golem Lance
   - Wretched Pendant
 - Frostfire Colossus:
- - Adjusted HP and absorptions.
+ - Adjusted HP.
  - The Colossus will remain inactive until both the Frostfire Clerics are killed
  - Colossus is now immune to damage until both the Frostfire Clerics are killed.
  - Odessa's Crystal now boosts Fire absorption by 25% if possessed while in the Frostfire Colossus fight.
@@ -168,6 +166,7 @@
  - Added moveset for Gargoyle Halberd/Tail Axe/Bident
  - Lothric's Scythe fix
  - Backstab fixes
+- Adjusted the speed of the Twinspears of the Forlorn.
 
 # Infusions
 - Increased the on-hit effect of the Magic/Dark infusions.
@@ -179,6 +178,8 @@
 
 # Items
 - Boss souls can now use the 'Use Selected' option.
+- Removed the ash items. Everything they used to unlock is now unlocked via lighting bonfires or defeating bosses.
+- Brightbugs now last 60 seconds.
 
 # Treasure
 - Overhauled treasure placements in:
@@ -188,10 +189,6 @@
  - Cemetery of Ash/Untended Graves
  - Undead Settlement
  - Archdragon Peak
- 
-- Added Bestial Band to a chest in the Dreg Heap.
-- Added Ring of Calamity to a chest in Catacombs of Carthus
-- Andre now sells the Hands of God after you defeat the Soul of Cinder.
 
 # Map
 - Removed the Freezing Mist in Irithyll.
@@ -221,7 +218,6 @@ Finish following weapons:
  31700000 Gargoyle Tail Axe [Unique]
  
 Finish treasure overhaul:
- - m38
  - m39
  - m45
  - m50
@@ -236,16 +232,44 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
+2007 Jailbreaker's Key
+2144 Deep Braille Divine Tome
+2106 Profaned Coal
+2143 Undead Bone Shard
+2173 Profaned Pyromancy Tome
+2012 Old Cell Key
+2008 Jailer's Key Ring
+2141 Estus Shard
+
+20340 Bellowing Dragoncrest Ring
+20390 Covetous Gold Serpent Ring
+30880 Ring of Grace
+20520 Dark Clutch Ring
+30690 Band of Sparks
+
+77000000 Old Sorcerer Hat
+77001000 Old Sorcerer Coat
+77002000 Old Sorcerer Gauntlets
+77003000 Old Sorcerer Boots
+33000000 Grotto Hat
+33001000 Grotto Robe
+33002000 Grotto Wrap
+33003000 Grotto Trousers
+29000000 Court Sorcerer Hood
+29001000 Court Sorcerer Robe
+29002000 Court Sorcerer Gloves
+29003000 Court Sorcerer Trousers
+62000000 Giant's Crown
+62001000 Giant's Armor
+62002000 Giant's Gauntlets
+62003000 Giant's Leggings
+
+8250000 Pickaxe
+17020000 Court Sorcerer's Staff
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-
-# m39 - Irithyll Dungeon
-99300000 Gloom Helm
-99301000 Gloom Armor
-99302000 Gloom Gauntlets
-99303000 Gloom Leggings
 
 # m45 - Ariandel
 16140000 Valorheart
@@ -259,21 +283,21 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 
 30960 Rare Ring of Humanity
 
-99280000 Brushwood Helm
-99281000 Brushwood Armor
-99282000 Brushwood Gauntlets
-99283000 Brushwood Leggings
 10060000 Dragon Acolyte Mask
 10061000 Dragon Acolyte Robe
 10062000 Dragon Acolyte Gloves
 10063000 Dragon Acolyte Leggings
-
+99300000 Gloom Helm
+99301000 Gloom Armor
+99302000 Gloom Gauntlets
+99303000 Gloom Leggings
 
 # m51 - Ringed City
 31140000 Smelter Sword
 30360000 Boom Hammer
 22240000 Twinfang Greatshield
 30990000 Man Serpent Greatsword
+22250000 Quicksilver Shield
 
 20600 Ring of Calamity
 
@@ -294,6 +318,18 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 99791000 Charred Loyce Armor
 99792000 Charred Loyce Gauntlets
 99793000 Charred Loyce Leggings
+99280000 Brushwood Helm
+99281000 Brushwood Armor
+99282000 Brushwood Gauntlets
+99283000 Brushwood Leggings
+80000000 Alva Helm
+80001000 Alva Armor
+80002000 Alva Gauntlets
+80003000 Alva Leggings
+10020000 Mask of the Sealer
+10021000 Crimson Robe
+10022000 Crimson Waistcloth
+10023000 Crimson Waistcloth
 
 #------------------------------
 # REFERENCE

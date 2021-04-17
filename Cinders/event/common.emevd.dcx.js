@@ -14,7 +14,17 @@ Event(0, Default, function() {
     InitializeEvent(0, 230, 0); // Set Eclipse ceremonies
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
-    InitializeEvent(0, 21000, 0); // Setup Cinders scripts
+    
+    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
+    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
+    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
+    InitializeEvent(0, 20044, 10000); // Event Flag Tool
+    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
+    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
+    InitializeEvent(0, 20048, 0); // Frostbite Removal
+    InitializeEvent(0, 20049, 0); // Broken Tablet - Hard Mode
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -1850,20 +1860,6 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20132, 0); // Twisted Knight
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
-});
-
-// Setup - Host and Client
-Event(21000, Default, function() {
-    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
-    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
-    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
-    InitializeEvent(0, 20044, 10000); // Event Flag Tool
-    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
-    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
-    InitializeEvent(0, 20048, 0); // Frostbite Removal
-    InitializeEvent(0, 20049, 0); // Broken Tablet - Hard Mode
 });
 
 //------------------------------------------------
