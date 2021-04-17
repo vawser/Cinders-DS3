@@ -181,7 +181,7 @@
  - Added moveset for Gargoyle Halberd/Tail Axe/Bident
  - Lothric's Scythe fix
  - Backstab fixes
-- Adjusted the speed of the Twinspears of the Forlorn.
+- Adjusted the speed, stamina usage and damage of the Twinspears of the Forlorn.
 
 # Infusions
 - Increased the on-hit effect of the Magic/Dark infusions.
@@ -197,13 +197,7 @@
 - Brightbugs now last 60 seconds.
 
 # Treasure
-- Overhauled treasure placements in:
- - High Wall
- - Lothric Castle
- - Kiln of the First Flame
- - Cemetery of Ash/Untended Graves
- - Undead Settlement
- - Archdragon Peak
+- Overhauled treasure placements throughout the game.
 
 # Map
 - Removed the Freezing Mist in Irithyll.
