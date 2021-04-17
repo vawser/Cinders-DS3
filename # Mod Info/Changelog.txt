@@ -114,22 +114,9 @@
 - Changed the NG+ multipliers: NG+ cycles should be less brutal.
 
 # Bosses
-- Increased boss absorptions.
-- Increased Dismal Knight HP to 2000.
-- Changed Dismal Knight back to the Mace and Greatshield style.
- - Added new dark themed moves instead of the miracles the Cathedral Knight has
-  - Vow of Agony
-  - Affinity
-  - Dark Blade weapon buff
-- Increased Sister Friede's poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
-- Reduced duration of Furious Lizard projectile attack.
 - Removed Furious Lizards boss.
-- Reduced the damage of the Twisted Knight occult energies spell.
-- Added the Herald of Winter (Millwood Knight with Velstadt skin) and Enraged Greatwolf in the Depths of the Painting.
- - Drops the Soul of the Herald, which transposes into:
-  - Sacred Chime Hammer
-  - Rampart Golem Lance
-  - Wretched Pendant
+- Increased boss absorptions.
+
 - Frostfire Colossus:
  - Adjusted HP.
  - The Colossus will remain inactive until both the Frostfire Clerics are killed
@@ -146,6 +133,34 @@
  - Removed the additional bullets that appear after slam attacks.
  - Reduced the amount of Frostfire pillars.
  - Reduced the HP of the summonable Outrider Knight.
+ 
+- Dismal Knight:
+ - Changed Dismal Knight back to the Mace and Greatshield style.
+ - Increased Dismal Knight HP to 2000.
+ - Added new dark themed moves instead of the miracles the Cathedral Knight has
+  - Vow of Agony
+  - Affinity
+  - Dark Blade weapon buff
+  
+- Sister Friede:
+ - Increased poise to 30. This is to make it harder to stun-lock her from a distance, whilst allowing most normal weapons to stun her as normal.
+
+- Twisted Knight:
+ - Reduced the damage of the Twisted Knight occult energies spell.
+ 
+- Herald of Winter and Enraged Greatwolf 
+ - Found in the Depths of the Painting.
+ - Drops the Soul of the Herald, which transposes into:
+  - Sacred Chime Hammer
+  - Rampart Golem Lance
+  - Wretched Pendant
+  
+- The Rock:
+ - Increased the damage of his moves significantly, but made all his moves 25% slower.
+ 
+- Mirror Knight
+ - Increased the speed of all his moves by 10%.
+ - Adjusted the moveset selection so the chances are different from base DSA.
  
 # Enemies
 - Reduced the drop rate of gems from Red Crystal Lizards.
