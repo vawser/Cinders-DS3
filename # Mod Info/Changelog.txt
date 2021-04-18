@@ -227,7 +227,6 @@ Finish following weapons:
  31700000 Gargoyle Tail Axe [Unique]
  
 Finish treasure overhaul:
- - m39
  - m45
  - m50
  - m51
@@ -241,56 +240,22 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
-2007 Jailbreaker's Key
-2144 Deep Braille Divine Tome
-2106 Profaned Coal
-2143 Undead Bone Shard
-2173 Profaned Pyromancy Tome
-2012 Old Cell Key
-2008 Jailer's Key Ring
-2141 Estus Shard
-
-20340 Bellowing Dragoncrest Ring
-20390 Covetous Gold Serpent Ring
-30880 Ring of Grace
-20520 Dark Clutch Ring
-30690 Band of Sparks
-
-77000000 Old Sorcerer Hat
-77001000 Old Sorcerer Coat
-77002000 Old Sorcerer Gauntlets
-77003000 Old Sorcerer Boots
-33000000 Grotto Hat
-33001000 Grotto Robe
-33002000 Grotto Wrap
-33003000 Grotto Trousers
-29000000 Court Sorcerer Hood
-29001000 Court Sorcerer Robe
-29002000 Court Sorcerer Gloves
-29003000 Court Sorcerer Trousers
-62000000 Giant's Crown
-62001000 Giant's Armor
-62002000 Giant's Gauntlets
-62003000 Giant's Leggings
-
-8250000 Pickaxe
-17020000 Court Sorcerer's Staff
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-
 # m45 - Ariandel
 16140000 Valorheart
 30830000 Guillotine Axe
 
+30670 Band of Magic
+
 # m50 - Dreg Heap
 31020000 Morion Great Blade
-31090000 Spiral Greatsword
 19040000 Manus Catalyst
 30720000 Abyssal Blade
-
-30960 Rare Ring of Humanity
+16170000 Imperious Greatshield
+8250000 Pickaxe
 
 10060000 Dragon Acolyte Mask
 10061000 Dragon Acolyte Robe
@@ -300,6 +265,10 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 99301000 Gloom Armor
 99302000 Gloom Gauntlets
 99303000 Gloom Leggings
+99760000 Syan Knight Helm
+99761000 Syan Knight Armor
+99762000 Syan Knight Gauntlets
+99763000 Syan Knight Leggings
 
 # m51 - Ringed City
 31140000 Smelter Sword
@@ -309,6 +278,7 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 22250000 Quicksilver Shield
 
 20600 Ring of Calamity
+30200 Hallowed Ring
 
 99260000 Ancient King's Mask
 99261000 Ancient King's Breastplate

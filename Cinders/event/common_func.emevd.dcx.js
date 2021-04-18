@@ -7156,6 +7156,22 @@ Event(20090300, Default, function(X0_4, X4_4) {
     ChangeCharacterEnableState(X4_4, Disabled);
 });
 
+// ----------------------------------------
+// Gesture - Item Treasure
+// <gesture speffect>, <trigger ID>, <itemlot>, <item flag>
+// ----------------------------------------
+Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
+    
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
+    IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    AwardItemLot(X8_4);
+    
+    EndUnconditionally(EventEndType.End);
+});
+
 //----------------------------------------------
 // Companion - Appearance Monitor
 // <entity id>
@@ -7599,3 +7615,5 @@ Event(20080003, Restart, function(X0_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+
