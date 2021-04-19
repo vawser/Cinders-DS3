@@ -195,6 +195,7 @@
 - Boss souls can now use the 'Use Selected' option.
 - Removed the ash items. Everything they used to unlock is now unlocked via lighting bonfires or defeating bosses.
 - Brightbugs now last 60 seconds.
+- Lizard Hide is now dropped by Crystal Lizards. It can be crushed to gain souls.
 
 # Treasure
 - Overhauled treasure placements throughout the game.
@@ -208,6 +209,10 @@
 - Changed the Irithyll Warp to Ariandel so you appear below the bridge.
 - Added a crab secret to Catacombs/Smouldering Lake.
 - Moved the Giant's Tower bonfire into the basement of the tower and renamed it to Tower Basement.
+- Boreal Outrider Knights now respawn (their unique loot is still one-time drop however).
+- Added a new Boreal Outrider Knight in Irithyll.
+- Filianore's Crown gesture puzzle now requires the Prayer gesture.
+- Added two-way warp from Dunnel's Respite room to the Frostfire Colossus entrance, so you don't have to drop down the branches everytime. You must awaken the Frostfire Colossus atleast once before you can use the warps however.
 
 # Bugfixes
 - Fixed Secluded Cloister bonfire apperance.
@@ -236,27 +241,63 @@ Implement new world vendors that provides items currently in the ash system.
 Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
- 
+
 #------------------------------
 # CURRENT MAP
 #------------------------------
+# Corpses
+2064 Odessa's Letter
+1160 Odessa's Crystal
+1150 Frozen Chaos Essence
+
+# Treasure 17
+16140000 Valorheart
+30830000 Guillotine Axe
+16150000 Crow Quills
+11050000 Crow Talons
+8310000 Quakestone Hammer
+7180000 Earth Seeker
+19810000 Pyromancer's Parting Flame
+31020000 Morion Great Blade
+17100000 Sorcerous Flame
+
+30670 Band of Magic
+30840 Fool's Sigil
+
+10280000 Priestly Cap
+55500000 Slave Knight Hood
+55501000 Slave Knight Armor
+55502000 Slave Knight Gauntlets
+55503000 Slave Knight Leggings
+20000000 Vilhelm's Helm
+20001000 Vilhelm's Armor
+20002000 Vilhelm's Gauntlets
+20003000 Vilhelm's Leggings
+99830000 Loyce Helm
+99831000 Loyce Armor
+99832000 Loyce Gauntlets
+99833000 Loyce Leggings
+58500000 Follower Helm
+58501000 Follower Armor
+58502000 Follower Gloves
+58503000 Follower Boots
+99390000 Corvian Knight Helmet
+99391000 Corvian Knight Armor
+99392000 Corvian Knight Gauntlets
+99393000 Corvian Knight Leggings
+
 
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-# m45 - Ariandel
-16140000 Valorheart
-30830000 Guillotine Axe
-
-30670 Band of Magic
 
 # m50 - Dreg Heap
-31020000 Morion Great Blade
 19040000 Manus Catalyst
 30720000 Abyssal Blade
 16170000 Imperious Greatshield
 8250000 Pickaxe
 
+10210000 Suspicious Gold Mask
 10060000 Dragon Acolyte Mask
 10061000 Dragon Acolyte Robe
 10062000 Dragon Acolyte Gloves
