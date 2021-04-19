@@ -244,6 +244,8 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
 
+Document and fix/adjust the vanilla NPC quests
+
 #------------------------------
 # CURRENT MAP
 #------------------------------
@@ -251,33 +253,11 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # USE ELSEWHERE
 #------------------------------
-
-# m50 - Dreg Heap
-19040000 Manus Catalyst
-30720000 Abyssal Blade
-16170000 Imperious Greatshield
-8250000 Pickaxe
-
-10210000 Suspicious Gold Mask
-10060000 Dragon Acolyte Mask
-10061000 Dragon Acolyte Robe
-10062000 Dragon Acolyte Gloves
-10063000 Dragon Acolyte Leggings
-99300000 Gloom Helm
-99301000 Gloom Armor
-99302000 Gloom Gauntlets
-99303000 Gloom Leggings
-99760000 Syan Knight Helm
-99761000 Syan Knight Armor
-99762000 Syan Knight Gauntlets
-99763000 Syan Knight Leggings
-
 # m51 - Ringed City
 31140000 Smelter Sword
 30360000 Boom Hammer
 22240000 Twinfang Greatshield
 30990000 Man Serpent Greatsword
-22250000 Quicksilver Shield
 
 20600 Ring of Calamity
 30200 Hallowed Ring
