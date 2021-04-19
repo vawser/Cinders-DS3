@@ -2140,10 +2140,10 @@ Event(20044, Default, function(X0_4) {
     //SetCharacterAnimationState(3800498, Enabled);
     //WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
     
-    BatchSetEventFlags(13410903, 13410907, OFF);
+    //BatchSetEventFlags(13410903, 13410907, OFF);
     
     // Treasure flags
-    SkipUnconditionally(15);
+    //SkipUnconditionally(15);
     BatchSetEventFlags(53000000, 53002999, OFF);
     BatchSetEventFlags(53010000, 53012999, OFF);
     BatchSetEventFlags(53100000, 53102999, OFF);

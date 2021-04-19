@@ -236,7 +236,9 @@ Finish treasure overhaul:
  - m50
  - m51
  
-Implement new world vendors that provides items currently in the ash system.
+Fix texture paths in all the added model parts (long task)
+ 
+Add specific crow trades
 
 Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
@@ -245,47 +247,6 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # CURRENT MAP
 #------------------------------
-# Corpses
-2064 Odessa's Letter
-1160 Odessa's Crystal
-1150 Frozen Chaos Essence
-
-# Treasure 17
-16140000 Valorheart
-30830000 Guillotine Axe
-16150000 Crow Quills
-11050000 Crow Talons
-8310000 Quakestone Hammer
-7180000 Earth Seeker
-19810000 Pyromancer's Parting Flame
-31020000 Morion Great Blade
-17100000 Sorcerous Flame
-
-30670 Band of Magic
-30840 Fool's Sigil
-
-10280000 Priestly Cap
-55500000 Slave Knight Hood
-55501000 Slave Knight Armor
-55502000 Slave Knight Gauntlets
-55503000 Slave Knight Leggings
-20000000 Vilhelm's Helm
-20001000 Vilhelm's Armor
-20002000 Vilhelm's Gauntlets
-20003000 Vilhelm's Leggings
-99830000 Loyce Helm
-99831000 Loyce Armor
-99832000 Loyce Gauntlets
-99833000 Loyce Leggings
-58500000 Follower Helm
-58501000 Follower Armor
-58502000 Follower Gloves
-58503000 Follower Boots
-99390000 Corvian Knight Helmet
-99391000 Corvian Knight Armor
-99392000 Corvian Knight Gauntlets
-99393000 Corvian Knight Leggings
-
 
 #------------------------------
 # USE ELSEWHERE
