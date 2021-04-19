@@ -165,7 +165,7 @@ def t400140_x9():
         AddTalkListData(1, 15011020, -1)
         
         # Tell of Orbeck's death
-        AddTalkListDataIf(GetEventStatus(74000601) == 1 and ComparePlayerInventoryNumber(3, 2112, 4, 1, 0) == 1, 3, 15004020, -1)
+        # AddTalkListDataIf(GetEventStatus(74000601) == 1 and ComparePlayerInventoryNumber(3, 2112, 4, 1, 0) == 1, 3, 15004020, -1)
                           
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008110) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
@@ -471,10 +471,10 @@ def t400140_x17():
         """ State 8 """
         # talk:14001403:Lord of Hollows, may the dark sigil guide thy way.
         assert t400140_x6(text1=14001403, flag2=0, mode1=1)
-    elif GetEventStatus(74000601) == 1:
-        """ State 3 """
-        # talk:14001100:Orbeck of Vinheim is a cause of much consternation.
-        assert t400140_x6(text1=14001100, flag2=0, mode1=1)
+    #elif GetEventStatus(74000601) == 1:
+    #    """ State 3 """
+    #    # talk:14001100:Orbeck of Vinheim is a cause of much consternation.
+    #    assert t400140_x6(text1=14001100, flag2=0, mode1=1)
     else:
         """ State 7 """
         # talk:14000051:Thou'rt a Lord, art thou not?
