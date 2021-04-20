@@ -250,7 +250,7 @@ def t370020_x9(lot1=4230, goods1=367, lot2=4238, lot3=4237, action1=15000406, ac
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008050, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012042, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

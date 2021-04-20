@@ -205,7 +205,7 @@ def t341500_x9():
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008260, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99030712, 0, 0, 0)
             return 0
         # Talk

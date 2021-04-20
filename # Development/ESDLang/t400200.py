@@ -368,7 +368,7 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         # Divorce
         elif GetTalkListEntryResult() == 32:
             SetEventState(25008130, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012122, 0, 0, 0)
             return 0
         else:

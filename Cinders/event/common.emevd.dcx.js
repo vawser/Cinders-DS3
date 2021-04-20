@@ -1693,8 +1693,15 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20005, 10000); // Hitless Run State
     
     // Crow Trades
-    InitializeCrowTrade(ItemType.Goods, 2162, 80000, -1, 74000996);
-    InitializeCrowTrade(ItemType.Goods, 2163, 80100, -1, 74000996);
+    InitializeCrowTrade(ItemType.Goods, 240, 200000, 5200000, 74000996); // Divine Blessing
+    InitializeCrowTrade(ItemType.Goods, 241, 200010, 5200010, 74000996); // Hidden Blessing
+    InitializeCrowTrade(ItemType.Goods, 370, 200020, 5200020, 74000996); // Prism Stone
+    InitializeCrowTrade(ItemType.Goods, 380, 200030, 5200030, 74000996); // Rubbish
+    InitializeCrowTrade(ItemType.Goods, 803, 200040, 5200040, 74000996); // Elizabeth Mushroom
+    InitializeCrowTrade(ItemType.Goods, 458, 200050, 5200050, 74000996); // Blue Bug Pellet
+    InitializeCrowTrade(ItemType.Goods, 459, 200060, 5200060, 74000996); // Red Bug Pellet
+    InitializeCrowTrade(ItemType.Goods, 460, 200070, 5200070, 74000996); // Yellow Bug Pellet
+    InitializeCrowTrade(ItemType.Goods, 461, 200080, 5200080, 74000996); // Black Bug Pellet
     
     // Curses - Add Player Effects
     InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%

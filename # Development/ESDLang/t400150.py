@@ -343,7 +343,7 @@ def t400150_x16(z2=0, z3=2, z4=6, z5=12):
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008210, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012202, 0, 0, 0)
             return 0
         else:

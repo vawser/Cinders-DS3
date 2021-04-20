@@ -352,7 +352,7 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008040, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012032, 0, 0, 0)
             return 0
         else:

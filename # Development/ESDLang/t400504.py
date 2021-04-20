@@ -221,7 +221,7 @@ def t400504_x9():
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008190, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012182, 0, 0, 0)
             return 0
         # Bestow the Lordvessel
@@ -321,22 +321,22 @@ def t400504_x11():
             return 0
         # Claim Relic of Power
         elif GetTalkListEntryResult() == 10:
-            GetItemFromItemLot(80400)
+            GetItemFromItemLot(100000)
             SetEventState(25000050, 1)
             return 0
         # Claim Relic of Insanity
         elif GetTalkListEntryResult() == 11:
-            GetItemFromItemLot(80410)
+            GetItemFromItemLot(100010)
             SetEventState(25000051, 1)
             return 0
         # Claim Relic of Legends
         elif GetTalkListEntryResult() == 12:
-            GetItemFromItemLot(80420)
+            GetItemFromItemLot(100020)
             SetEventState(25000052, 1)
             return 0
         # Claim Relic of Myths
         elif GetTalkListEntryResult() == 13:
-            GetItemFromItemLot(80430)
+            GetItemFromItemLot(100030)
             SetEventState(25000053, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

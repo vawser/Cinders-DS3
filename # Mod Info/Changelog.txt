@@ -199,6 +199,7 @@
 
 # Treasure
 - Overhauled treasure placements throughout the game.
+- Changed the crow trades back to specific item trades.
 
 # Map
 - Removed the Freezing Mist in Irithyll.
@@ -238,13 +239,9 @@ Finish treasure overhaul:
  
 Fix texture paths in all the added model parts (long task)
  
-Add specific crow trades
-
 Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
-
-Document and fix/adjust the vanilla NPC quests
 
 #------------------------------
 # CURRENT MAP
@@ -254,23 +251,16 @@ Document and fix/adjust the vanilla NPC quests
 # USE ELSEWHERE
 #------------------------------
 # m51 - Ringed City
-31140000 Smelter Sword
 30360000 Boom Hammer
 22240000 Twinfang Greatshield
-30990000 Man Serpent Greatsword
 
 20600 Ring of Calamity
 30200 Hallowed Ring
 
-99260000 Ancient King's Mask
-99261000 Ancient King's Breastplate
-99262000 Ancient King's Gauntlets
-99263000 Ancient King's Leggings
 99850000 Golem Helm
 99851000 Golem Armor
 99852000 Golem Gauntlets
 99853000 Golem Leggings
-31330000 Dragonrider Halberd
 99250000 Dragonrider Helm
 99251000 Dragonrider Armor
 99252000 Dragonrider Gauntlets

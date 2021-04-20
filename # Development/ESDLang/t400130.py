@@ -223,7 +223,7 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008100, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012092, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

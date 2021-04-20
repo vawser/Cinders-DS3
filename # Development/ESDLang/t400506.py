@@ -215,7 +215,7 @@ def t400506_x9():
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008230, 0)
-            GetItemFromItemLot(800001300)
+            GetItemFromItemLot(91000)
             OpenGenericDialog(1, 99012222, 0, 0, 0)
             return 0
         # Covenant
