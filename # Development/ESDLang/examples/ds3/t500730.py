@@ -281,16 +281,13 @@ def t500730_x15():
         if not GetEventStatus(50006621):
             """ State 15 """
             assert t500730_x24(text4=83000700, z6=75000104, flag7=0, mode2=1)
-            """ State 16 """
-            # lot:66210:Titanite Slab
-            assert t500730_x26(lot1=66210)
         else:
             """ State 14 """
             Label('L0')
             assert t500730_x25(text1=83000800, flag6=0, mode1=1)
     else:
         """ State 2 """
-        if GetEventStatus(55000450) == 1:
+        if GetEventStatus(55000800) == 1:
             """ State 5 """
             if not GetEventStatus(50006620):
                 """ State 11 """

@@ -2441,6 +2441,7 @@ Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     AwardItemLot(X4_4);
 });
 
+// FFX Treasure
 Event(20005527, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
