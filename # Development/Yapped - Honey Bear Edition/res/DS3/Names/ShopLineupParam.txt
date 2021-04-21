@@ -165,14 +165,11 @@
 30060 [Ludleth - High Lord Wolnir] Wolnir's Holy Sword
 30061 [Ludleth - High Lord Wolnir] Black Serpent
 30062 [Ludleth - High Lord Wolnir] Mournful Flames
-30063 [Ludleth - High Lord Wolnir] Gravelord Sword
-30064 [Ludleth - High Lord Wolnir] Crypt Blacksword
-30065 [Ludleth - High Lord Wolnir] Black Fire Vestiges
+30063 [Ludleth - High Lord Wolnir] Black Fire Vestiges
 30070 [Ludleth - Old Demon King] Old King's Great Hammer
 30071 [Ludleth - Old Demon King] Demon King's Greataxe
-30072 [Ludleth - Old Demon King] Quelaag's Fury Sword
-30073 [Ludleth - Old Demon King] Rockflesh
-30074 [Ludleth - Old Demon King] Immolation
+30072 [Ludleth - Old Demon King] Rockflesh
+30073 [Ludleth - Old Demon King] Immolation
 30080 [Ludleth - Ponitff Sulyvahn] Greatsword of Judgment
 30081 [Ludleth - Ponitff Sulyvahn] Profaned Greatsword
 30082 [Ludleth - Ponitff Sulyvahn] Orbs of Judgment
@@ -215,7 +212,6 @@
 30182 [Ludleth - Soul of Cinder] Firelink Spear
 30183 [Ludleth - Soul of Cinder] Firelink Sword
 30184 [Ludleth - Soul of Cinder] Firelink Rapier
-30185 [Ludleth - Soul of Cinder] Great Lord Greatsword
 30190 [Ludleth - Sister Freide] Friede's Great Scythe
 30191 [Ludleth - Sister Freide] Rose of Ariandel
 30192 [Ludleth - Sister Freide] Black Flame Arc
@@ -268,116 +264,116 @@
 30420 [Ludleth - Herald of Winter] Sacred Chime Hammer
 30421 [Ludleth - Herald of Winter] Rampart Golem Lance
 30422 [Ludleth - Herald of Winter] Wretched Pendant
-36000 [Bonfire - Dreamcatcher's Ashes] Shriving Stone
-36001 [Bonfire - Dreamcatcher's Ashes] Lethal Gem
-36002 [Bonfire - Dreamcatcher's Ashes] Curse Gem
-36003 [Bonfire - Dreamcatcher's Ashes] Poison Gem
-36004 [Bonfire - Dreamcatcher's Ashes] Blood Gem
-36005 [Bonfire - Dreamcatcher's Ashes] Frost Gem
-36006 [Bonfire - Dreamcatcher's Ashes] Magic Gem
-36007 [Bonfire - Dreamcatcher's Ashes] Fire Gem
-36008 [Bonfire - Dreamcatcher's Ashes] Lightning Gem
-36009 [Bonfire - Dreamcatcher's Ashes] Dark Gem
-36010 [Bonfire - Dreamcatcher's Ashes] Lucky Gem
-36011 [Bonfire - Dreamcatcher's Ashes] Enchanted Gem
-36012 [Bonfire - Dreamcatcher's Ashes] Holy Gem
-36013 [Bonfire - Dreamcatcher's Ashes] Sharp Gem
-36014 [Bonfire - Dreamcatcher's Ashes] Blunt Gem
-36024 [Bonfire - Lothric] Divine Blessing
-36025 [Bonfire - Lothric] Hidden Blessing
-36028 [Bonfire - Dreamcatcher's Ashes] Infusing Essence
-36029 [Bonfire - Dreamcatcher's Ashes] Degrading Essence
-36030 [Bonfire - Mortician's Ashes] Brightbug
-36038 [Bonfire - Mortician's Ashes] Repair Powder
-36039 [Bonfire - Default] Green Blossom
-36040 [Bonfire - Default] Bloodred Moss Clump
-36041 [Bonfire - Default] Purple Moss Clump
-36042 [Bonfire - Mortician's Ashes] Blooming Purple Moss Clump
-36043 [Bonfire - Paladin's Ashes] Purging Stone
-36044 [Bonfire - Excrement-covered Ashes] Rime-blue Moss Clump
-36045 [Bonfire - Grave Warden's Ashes] Kukri
+36000 [Bonfire - Firelink Shrine] Shriving Stone
+36001 [Bonfire - Firelink Shrine] Lethal Gem
+36002 [Bonfire - Untended Graves] Curse Gem
+36003 [Bonfire - Halfway Fortress] Poison Gem
+36004 [Bonfire - Catacombs of Carthus] Blood Gem
+36005 [Bonfire - Central Irithyll] Frost Gem
+36006 [Bonfire - Central Irithyll] Magic Gem
+36007 [Bonfire - Abandoned Tomb] Fire Gem
+36008 [Bonfire - Archdragon Peak] Lightning Gem
+36009 [Bonfire - Irithyll Dungeon] Dark Gem
+36010 [Bonfire - Foot of the High Wall] Lucky Gem
+36011 [Bonfire - Sage's Overlook] Enchanted Gem
+36012 [Bonfire - Lothric Castle] Holy Gem
+36013 [Bonfire - Firelink Shrine] Sharp Gem
+36014 [Bonfire - Firelink Shrine] Blunt Gem
+36024 [Bonfire - Grand Archives] Divine Blessing
+36025 [Bonfire - Grand Archives] Hidden Blessing
+36028 [Bonfire - Sage's Overlook] Infusing Essence
+36029 [Bonfire - Sage's Overlook] Degrading Essence
+36030 [Bonfire - Old King's Antechamber] Brightbug
+36038 [Bonfire - Cliff Underside] Repair Powder
+36039 [Bonfire - Cliff Underside] Green Blossom
+36040 [Bonfire - Catacombs of Carthus] Bloodred Moss Clump
+36041 [Bonfire - Halfway Fortress] Purple Moss Clump
+36042 [Bonfire - Halfway Fortress] Blooming Purple Moss Clump
+36043 [Bonfire - Irithyll Dungeon] Purging Stone
+36044 [Bonfire - Central Irithyll] Rime-blue Moss Clump
+36045 [Bonfire - Catacombs of Carthus] Kukri
 36046 [Bonfire - Default] Firebomb
-36047 [Bonfire - Default] Dung Pie
-36048 [Bonfire - Mortician's Ashes] Alluring Skull
-36049 [Bonfire - Paladin's Ashes] Undead Hunter Charm
-36050 [Bonfire - Mortician's Ashes] Black Firebomb
+36047 [Bonfire - Farron Keep] Dung Pie
+36048 [Bonfire - Pit of Hollows] Alluring Skull
+36049 [Bonfire - Cleansing Chapel] Undead Hunter Charm
+36050 [Bonfire - Church of Yorshka] Black Firebomb
 36051 [Bonfire - Default] Rope Firebomb
-36052 [Bonfire - Xanthous Ashes] Lightning Urn
-36053 [Bonfire - Mortician's Ashes] Rope Black Firebomb
-36054 [Bonfire - Default] Stalk Dung Pie
-36055 [Bonfire - Paladin's Ashes] Duel Charm
+36052 [Bonfire - Great Belfry] Lightning Urn
+36053 [Bonfire - Church of Yorshka] Rope Black Firebomb
+36054 [Bonfire - Farron Keep] Stalk Dung Pie
+36055 [Bonfire - Rosaria's Bed Chamber] Duel Charm
 36056 [Bonfire - Default] Throwing Knife
-36057 [Bonfire - Dreamcatcher's Ashes] Poison Throwing Knife
-36058 [Bonfire - Mortician's Ashes] Charcoal Pine Resin
-36059 [Bonfire - Xanthous Ashes] Gold Pine Resin
-36060 [Bonfire - Paladin's Ashes] Human Pine Resin
-36061 [Bonfire - Grave Warden's Ashes] Carthus Rouge
-36062 [Bonfire - Prisoner Chief's Ashes] Pale Pine Resin
-36063 [Bonfire - Mortician's Ashes] Charcoal Pine Bundle
-36064 [Bonfire - Xanthous Ashes] Gold Pine Bundle
-36065 [Bonfire - Dreamcatcher's Ashes] Rotten Pine Resin
+36057 [Bonfire - Farron Keep] Poison Throwing Knife
+36058 [Bonfire - Tower Basement] Charcoal Pine Resin
+36059 [Bonfire - Great Belfry] Gold Pine Resin
+36060 [Bonfire - Cleansing Chapel] Human Pine Resin
+36061 [Bonfire - Catacombs of Carthus] Carthus Rouge
+36062 [Bonfire - Irithyll Dungeon] Pale Pine Resin
+36063 [Bonfire - Tower Basement] Charcoal Pine Bundle
+36064 [Bonfire - Great Belfry] Gold Pine Bundle
+36065 [Bonfire - Farron Keep] Rotten Pine Resin
 36066 [Bonfire - Default] Homeward Bone
 36067 [Bonfire - Default] Prism Stone
-36068 [Bonfire - Dreamcatcher's Ashes] Mossfruit
-36069 [Bonfire - Mortician's Ashes] Young White Branch
-36070 [Bonfire - Grave Warden's Ashes] Rusted Coin
-36071 [Bonfire - Prisoner Chief's Ashes] Siegbräu
-36072 [Bonfire - Prisoner Chief's Ashes] Rusted Gold Coin
-36073 [Bonfire - Paladin's Ashes] Blue Bug Pellet
-36074 [Bonfire - Paladin's Ashes] Red Bug Pellet
-36075 [Bonfire - Paladin's Ashes] Yellow Bug Pellet
-36076 [Bonfire - Paladin's Ashes] Black Bug Pellet
+36068 [Bonfire - Farron Keep] Mossfruit
+36069 [Bonfire - Tower Basement] Young White Branch
+36070 [Bonfire - Profaned Capital] Rusted Coin
+36071 [Bonfire - Profaned Capital] Siegbräu
+36072 [Bonfire - Profaned Capital] Rusted Gold Coin
+36073 [Bonfire - Sage's Overlook] Blue Bug Pellet
+36074 [Bonfire -Old King's Antechamber] Red Bug Pellet
+36075 [Bonfire - Great Belfry] Yellow Bug Pellet
+36076 [Bonfire - Irithyll Dungeon] Black Bug Pellet
 36077 [Bonfire - Default] Ember
-36080 [Bonfire - Grave Warden's Ashes] Tarnished Coin
-36081 [Bonfire - Prisoner Chief's Ashes] Tarnished Silver Coin
-36082 [Bonfire - Grave Warden's Ashes] Hexing Urn
-36083 [Bonfire - Paladin's Ashes] Witching Urn
-36084 [Bonfire - Excrement-covered Ashes] Old Growth Balm
-36085 [Bonfire - Excrement-covered Ashes] Vine Balm
-36086 [Bonfire - Excrement-covered Ashes] Blackweed Balm
-36087 [Bonfire - Excrement-covered Ashes] Goldenfruit Balm
-36088 [Bonfire - Default] Seed of a Giant Tree
-36089 [Bonfire - Paladin's Ashes] Cleansing Pendant
+36080 [Bonfire - Depths of the Painting] Tarnished Coin
+36081 [Bonfire - Depths of the Painting] Tarnished Silver Coin
+36082 [Bonfire - Catacombs of Carthus] Hexing Urn
+36083 [Bonfire - Lothric Castle] Witching Urn
+36084 [Bonfire - Earthen Peak Ruins] Old Growth Balm
+36085 [Bonfire - Earthen Peak Ruins] Vine Balm
+36086 [Bonfire - Earthen Peak Ruins] Blackweed Balm
+36087 [Bonfire - Earthen Peak Ruins] Goldenfruit Balm
+36088 [Bonfire - Earthen Peak Ruins] Seed of a Giant Tree
+36089 [Bonfire - Cleansing Chapel] Cleansing Pendant
 36100 [Bonfire - Default] Standard Arrow
-36101 [Bonfire - Grave Warden's Ashes] Fire Arrow
-36102 [Bonfire - Excrement-covered Ashes] Poison Arrow
-36103 [Bonfire - Paladin's Ashes] Large Arrow
-36104 [Bonfire - Mortician's Ashes] Feather Arrow
-36105 [Bonfire - Aldrich] Moonlight Arrow
+36101 [Bonfire - Catacombs of Carthus] Fire Arrow
+36102 [Bonfire - Halfway Fortress] Poison Arrow
+36103 [Bonfire - Dilapidated Bridge] Large Arrow
+36104 [Bonfire - Dilapidated Bridge] Feather Arrow
+36105 [Bonfire - Prison Tower] Moonlight Arrow
 36106 [Bonfire - Default] Wood Arrow
-36107 [Bonfire - Prisoner Chief's Ashes] Dark Arrow
-36108 [Bonfire - Xanthous Ashes] Lightning Arrow
-36109 [Bonfire - Grave Warden's Ashes] Lacerating Arrow
-36110 [Bonfire - Excrement-covered Ashes] Frost Arrow
-36111 [Bonfire - Dragon Chaser's Ashes] Draconic Arrow
-36112 [Bonfire - Easterner's Ashes] Dragonslayer Greatarrow
-36113 [Bonfire - Easterner's Ashes] Dragonslayer Lightning Arrow
-36114 [Bonfire - Easterner's Ashes] Onislayer Greatarrow
-36115 [Bonfire - Captain's Ashes] Millwood Greatarrow
-36116 [Bonfire - Aldrich] Moonlight Greatarrow
-36117 [Bonfire - Old Demon King] Demonic Greatarrow
-36118 [Bonfire - Darkeater Midir] Corrupted Greatarrow
-36119 [Bonfire - Dragon Chaser's Ashes] Draconic Greatarrow
+36107 [Bonfire - Irithyll Dungeon] Dark Arrow
+36108 [Bonfire - Archdragon Peak] Lightning Arrow
+36109 [Bonfire - Catacombs of Carthus] Lacerating Arrow
+36110 [Bonfire - Central Irithyll] Frost Arrow
+36111 [Bonfire - Great Belfry] Draconic Arrow
+36112 [Bonfire - Anor Londo] Dragonslayer Greatarrow
+36113 [Bonfire - Anor Londo] Dragonslayer Lightning Arrow
+36114 [Bonfire - Lothric Castle] Onislayer Greatarrow
+36115 [Bonfire - Depths of the Painting] Millwood Greatarrow
+36116 [Bonfire - Prison Tower] Moonlight Greatarrow
+36117 [Bonfire - Old King's Antechamber] Demonic Greatarrow
+36118 [Bonfire - Irithyll Dungeon] Corrupted Greatarrow
+36119 [Bonfire - Great Belfry] Draconic Greatarrow
 36120 [Bonfire - Default] Wood Greatarrow
 36121 [Bonfire - Default] Standard Bolt
-36122 [Bonfire - Paladin's Ashes] Heavy Bolt
-36123 [Bonfire - Grave Warden's Ashes] Sniper Bolt
+36122 [Bonfire - Dilapidated Bridge] Heavy Bolt
+36123 [Bonfire - Dilapidated Bridge] Sniper Bolt
 36124 [Bonfire - Default] Wood Bolt
-36125 [Bonfire - Xanthous Ashes] Lightning Bolt
-36126 [Bonfire - Easterner's Ashes] Splintering Bolt
-36127 [Bonfire - Grave Warden's Ashes] Exploding Bolt
-36128 [Bonfire - Prisoner Chief's Ashes] Magic Bolt
-36129 [Bonfire - Grave Warden's Ashes] Fire Bolt
-36130 [Bonfire - Prisoner Chief's Ashes] Dark Bolt
-36131 [Bonfire - Excrement-covered Ashes] Poison Bolt
-36132 [Bonfire - Excrement-covered Ashes] Frost Bolt
-36133 [Bonfire - Dragon Chaser's Ashes] Draconic Bolt
-36134 [Bonfire - Excrement-covered Ashes] Frozen Pine Resin
+36125 [Bonfire - Archdragon Peak] Lightning Bolt
+36126 [Bonfire - Catacombs of Carthus] Splintering Bolt
+36127 [Bonfire - Old King's Antechamber] Exploding Bolt
+36128 [Bonfire - Sage's Overlook] Magic Bolt
+36129 [Bonfire - Catacombs of Carthus] Fire Bolt
+36130 [Bonfire - Irithyll Dungeon] Dark Bolt
+36131 [Bonfire - Halfway Fortress] Poison Bolt
+36132 [Bonfire - Central Irithyll] Frost Bolt
+36133 [Bonfire - Great Belfry] Draconic Bolt
+36134 [Bonfire - Central Irithyll] Frozen Pine Resin
 36140 [Bonfire - Default] Lifegem
-36141 [Bonfire - Mortician's Ashes] Radiant Lifegem
-36142 [Bonfire - Grave Warden's Ashes] Old Radiant Lifegem
-36143 [Bonfire - Xanthous Ashes] Elizabeth Mushroom
-36144 [Bonfire - Excrement-covered Ashes] Dried Root
+36141 [Bonfire - Tower Basement] Radiant Lifegem
+36142 [Bonfire - Old King's Antechamber] Old Radiant Lifegem
+36143 [Bonfire - Earthen Peak Ruins] Elizabeth Mushroom
+36144 [Bonfire - Irithyll Dungeon] Dried Root
 40000 [Yoel] Deep Barb
 40001 [Yoel] Whisper of Despair
 40002 [Yoel] Farron Dart
@@ -440,62 +436,62 @@
 100060 [Andre] Blacksmith Hammer
 100061 [Andre] Torch
 100062 [Andre] Warrior's Round Shield
-100100 [Andre - Mortician's Ashes] Harpe
-100101 [Andre - Mortician's Ashes] Flamberge
-100102 [Andre - Mortician's Ashes] Brigand Axe
-100103 [Andre - Mortician's Ashes] Missionary Axe
-100104 [Andre - Mortician's Ashes] Thrall Axe
-100105 [Andre - Mortician's Ashes] Wooden Mallet
-100106 [Andre - Mortician's Ashes] Reinforced Club
-100107 [Andre - Mortician's Ashes] Large Club
-100108 [Andre - Mortician's Ashes] Great Club
-100109 [Andre - Mortician's Ashes] Great Wooden Hammer
-100110 [Andre - Mortician's Ashes] Spiked Mace
-100111 [Andre - Mortician's Ashes] Four-Pronged Plow
-100112 [Andre - Mortician's Ashes] Wooden Shield
-100113 [Andre - Mortician's Ashes] Crimson Parma
-100114 [Andre - Mortician's Ashes] Cleric's Parma
-100115 [Andre - Mortician's Ashes] Blue Wooden Shield
-100116 [Andre - Mortician's Ashes] Machete
-100150 [Andre - Dreamchaser Ashes] Rotten Ghru Dagger
-100151 [Andre - Dreamchaser Ashes] Corvian Greatknife
-100152 [Andre - Dreamchaser Ashes] Rotten Ghru Curved Sword
-100153 [Andre - Dreamchaser Ashes] Rotten Ghru Spear
-100154 [Andre - Dreamchaser Ashes] Great Corvian Scythe
-100155 [Andre - Dreamchaser Ashes] Corvian Longstaff
-100156 [Andre - Dreamchaser Ashes] Heretic's Warstaff
-100157 [Andre - Dreamchaser Ashes] Sniper Crossbow
-100158 [Andre - Dreamchaser Ashes] Ghru Rotshield
-100159 [Andre - Dreamchaser Ashes] Kite Shield
-100160 [Andre - Dreamchaser Ashes] Target Shield
-100161 [Andre - Dreamchaser Ashes] Composite Bow
-100200 [Andre - Paladin's Ashes] Morning Star
-100202 [Andre - Paladin's Ashes] Astora Straight Sword
-100203 [Andre - Paladin's Ashes] Barbed Straight Sword
-100204 [Andre - Paladin's Ashes] Astora Greatsword
-100205 [Andre - Paladin's Ashes] Cathedral Knight Greatsword
-100206 [Andre - Paladin's Ashes] Great Mace
-100207 [Andre - Paladin's Ashes] Knight Shield
-100208 [Andre - Paladin's Ashes] Spiked Shield
-100209 [Andre - Paladin's Ashes] Pierce Shield
-100210 [Andre - Paladin's Ashes] Cathedral Knight Greatshield
-100250 [Andre - Grave Warden's Ashes] Carthus Shield
-100251 [Andre - Grave Warden's Ashes] Carthus Shotel
-100252 [Andre - Grave Warden's Ashes] Carthus Curved Sword
-100253 [Andre - Grave Warden's Ashes] Carthus Curved Greatsword
-100350 [Andre - Prisoner Chief's Ashes] Murakumo
-100400 [Andre - Xanthous Ashes] Heysel Pick
-100450 [Andre - Easterner's Ashes] Washing Pole
-100451 [Andre - Easterner's Ashes] Eastern Iron Shield
-100500 [Andre - Dragon Chaser's Ashes] Drake Sword
-100504 [Andre - Dragon Chaser's Ashes] Man Serpent Hatchet
-100505 [Andre - Dragon Chaser's Ashes] Tailbone Short Sword
-100506 [Andre - Dragon Chaser's Ashes] Tailbone Spear
-100507 [Andre - Dragon Chaser's Ashes] Tailbone Club
-100508 [Andre - Dragon Chaser's Ashes] Ancient Dragon Greatshield
-100550 [Andre - Captain's Ashes] Follower Sabre
-100551 [Andre - Captain's Ashes] Follower Javelin
-100552 [Andre - Captain's Ashes] Follower Shield
+100100 [Andre - Curse-rotted Greatwood] Harpe
+100101 [Andre - Curse-rotted Greatwood] Flamberge
+100102 [Andre - Curse-rotted Greatwood] Brigand Axe
+100103 [Andre - Curse-rotted Greatwood] Missionary Axe
+100104 [Andre - Curse-rotted Greatwood] Thrall Axe
+100105 [Andre - Curse-rotted Greatwood] Wooden Mallet
+100106 [Andre - Curse-rotted Greatwood] Reinforced Club
+100107 [Andre - Curse-rotted Greatwood] Large Club
+100108 [Andre - Curse-rotted Greatwood] Great Club
+100109 [Andre - Curse-rotted Greatwood] Great Wooden Hammer
+100110 [Andre - Curse-rotted Greatwood] Spiked Mace
+100111 [Andre - Curse-rotted Greatwood] Four-Pronged Plow
+100112 [Andre - Curse-rotted Greatwood] Wooden Shield
+100113 [Andre - Curse-rotted Greatwood] Crimson Parma
+100114 [Andre - Curse-rotted Greatwood] Cleric's Parma
+100115 [Andre - Curse-rotted Greatwood] Blue Wooden Shield
+100116 [Andre - Curse-rotted Greatwood] Machete
+100150 [Andre - Abyss Watchers] Rotten Ghru Dagger
+100151 [Andre - Abyss Watchers] Corvian Greatknife
+100152 [Andre - Abyss Watchers] Rotten Ghru Curved Sword
+100153 [Andre - Abyss Watchers] Rotten Ghru Spear
+100154 [Andre - Abyss Watchers] Great Corvian Scythe
+100155 [Andre - Abyss Watchers] Corvian Longstaff
+100156 [Andre - Abyss Watchers] Heretic's Warstaff
+100157 [Andre - Abyss Watchers] Sniper Crossbow
+100158 [Andre - Abyss Watchers] Ghru Rotshield
+100159 [Andre - Abyss Watchers] Kite Shield
+100160 [Andre - Abyss Watchers] Target Shield
+100161 [Andre - Abyss Watchers] Composite Bow
+100200 [Andre - Deacons of the Deep] Morning Star
+100202 [Andre - Deacons of the Deep] Astora Straight Sword
+100203 [Andre - Deacons of the Deep] Barbed Straight Sword
+100204 [Andre - Deacons of the Deep] Astora Greatsword
+100205 [Andre - Deacons of the Deep] Cathedral Knight Greatsword
+100206 [Andre - Deacons of the Deep] Great Mace
+100207 [Andre - Deacons of the Deep] Knight Shield
+100208 [Andre - Deacons of the Deep] Spiked Shield
+100209 [Andre - Deacons of the Deep] Pierce Shield
+100210 [[Andre - Deacons of the Deep] Cathedral Knight Greatshield
+100250 [Andre - High Lord Wolnir] Carthus Shield
+100251 [Andre - High Lord Wolnir] Carthus Shotel
+100252 [Andre - High Lord Wolnir] Carthus Curved Sword
+100253 [Andre - High Lord Wolnir] Carthus Curved Greatsword
+100350 [Andre - Yhorm] Murakumo
+100400 [Andre - Yhorm] Heysel Pick
+100450 [Andre - Yhorm] Washing Pole
+100451 [Andre - Yhorm] Eastern Iron Shield
+100452 [Andre - Yhorm] Tailbone Short Sword
+100453 [Andre - Yhorm] Tailbone Spear
+100454 [Andre - Yhorm] Tailbone Club
+100500 [Andre - Nameless King] Drake Sword
+100504 [Andre - Nameless King] Man Serpent Hatchet
+100508 [Andre - Nameless King] Ancient Dragon Greatshield
+100550 [Andre - Sister Friede] Follower Sabre
+100551 [Andre - Sister Friede] Follower Javelin
+100552 [Andre - Sister Friede] Follower Shield
 100570 [Andre] Wood Arrow
 100571 [Andre] Wood Bolt
 100572 [Andre] Wood Greatarrow
@@ -511,39 +507,39 @@
 110043 [Shrine Handmaid] Heretic's Staff
 110044 [Shrine Handmaid] Corrupted Talisman
 110045 [Shrine Handmaid] Black Flame
-110056 [Shrine Handmaid - Mortician's Ashes] Grave Key
-110100 [Shrine Handmaid - Dreamchaser Ashes] Leather Armor
-110101 [Shrine Handmaid - Dreamchaser Ashes] Leather Gloves
-110102 [Shrine Handmaid - Dreamchaser Ashes] Leather Boots
-110103 [Shrine Handmaid - Dreamchaser Ashes] Life Ring
-110150 [Shrine Handmaid - Paladin's Ashes] Lloyd's Shield Ring
-110200 [Shrine Handmaid - Grave Warden's Ashes] Hello Carving
-110250 [Shrine Handmaid - Excrement-covered Ashes] Help me! Carving
-110302 [Shrine Handmaid - Prisoner Chief's Ashes] Karla's Pointed Hat
-110303 [Shrine Handmaid - Prisoner Chief's Ashes] Karla's Coat
-110304 [Shrine Handmaid - Prisoner Chief's Ashes] Karla's Gloves
-110305 [Shrine Handmaid - Prisoner Chief's Ashes] Karla's Trousers
-110306 [Shrine Handmaid - Prisoner Chief's Ashes] Thank you Carving
-110308 [Shrine Handmaid - Prisoner Chief's Ashes] I'm Sorry Carving
-110353 [Shrine Handmaid - Xanthous Ashes] Xanthous Overcoat
-110354 [Shrine Handmaid - Xanthous Ashes] Xanthous Gloves
-110355 [Shrine Handmaid - Xanthous Ashes] Xanthous Trousers
-110357 [Shrine Handmaid - Xanthous Ashes] Xanthous Crown
-110402 [Shrine Handmaid - Hollow's Ashes] Ring of Sacrifice
-110450 [Shrine Handmaid - Dragon Chaser's Ashes] Very good! Carving
-110500 [Shrine Handmaid - Easterner's Ashes] Wood Grain Ring
-110501 [Shrine Handmaid - Easterner's Ashes] Eastern Helm
-110502 [Shrine Handmaid - Easterner's Ashes] Eastern Armor
-110503 [Shrine Handmaid - Easterner's Ashes] Eastern Gauntlets
-110504 [Shrine Handmaid - Easterner's Ashes] Eastern Leggings
+110046 [Shrine Handmaid] Ring of Sacrifice
+110056 [Shrine Handmaid - Aborr] Grave Key
+110100 [Shrine Handmaid - Aborr] Leather Armor
+110101 [Shrine Handmaid - Aborr] Leather Gloves
+110102 [Shrine Handmaid - Aborr] Leather Boots
+110103 [Shrine Handmaid - Aborr] Life Ring
+110150 [Shrine Handmaid - Deacons of the Deep] Lloyd's Shield Ring
+110200 [Shrine Handmaid - Curse-rotted Greatwood] Hello Carving
+110201 [Shrine Handmaid - Curse-rotted Greatwood] Help me! Carving
+110202 [Shrine Handmaid - Curse-rotted Greatwood] Thank you Carving
+110203 [Shrine Handmaid - Curse-rotted Greatwood] I'm Sorry Carving
+110204 [Shrine Handmaid - Curse-rotted Greatwood] Very good! Carving
+110302 [Shrine Handmaid - Yhorm] Karla's Pointed Hat
+110303 [Shrine Handmaid - Yhorm] Karla's Coat
+110304 [Shrine Handmaid - Yhorm] Karla's Gloves
+110305 [Shrine Handmaid - Yhorm] Karla's Trousers
+110353 [Shrine Handmaid - Yhorm] Xanthous Overcoat
+110354 [Shrine Handmaid - Yhorm] Xanthous Gloves
+110355 [Shrine Handmaid - Yhorm] Xanthous Trousers
+110357 [Shrine Handmaid - Yhorm] Xanthous Crown
+110500 [Shrine Handmaid - Dancer of the Boreal Valley] Wood Grain Ring
+110501 [Shrine Handmaid - Dancer of the Boreal Valley] Eastern Helm
+110502 [Shrine Handmaid - Dancer of the Boreal Valley] Eastern Armor
+110503 [Shrine Handmaid - Dancer of the Boreal Valley] Eastern Gauntlets
+110504 [Shrine Handmaid - Dancer of the Boreal Valley] Eastern Leggings
 110550 [Shrine Handmaid - Soul of Cinder] Firelink Helm
 110551 [Shrine Handmaid - Soul of Cinder] Firelink Armor
 110552 [Shrine Handmaid - Soul of Cinder] Firelink Gauntlets
 110553 [Shrine Handmaid - Soul of Cinder] Firelink Leggings
-110560 [Shrine Handmaid - Soul of Cinder] Crown of the Great Lord
-110561 [Shrine Handmaid - Soul of Cinder] Robe of the Great Lord
-110562 [Shrine Handmaid - Soul of Cinder] Bracelet of the Great Lord
-110563 [Shrine Handmaid - Soul of Cinder] Anklet of the Great Lord
+110560 [Shrine Handmaid - Flameless Shrine] Crown of the Great Lord
+110561 [Shrine Handmaid - Flameless Shrine] Robe of the Great Lord
+110562 [Shrine Handmaid - Flameless Shrine] Bracelet of the Great Lord
+110563 [Shrine Handmaid - Flameless Shrine] Anklet of the Great Lord
 110564 [Shrine Handmaid - Pontiff Sulyvahn] Pontiff's Crown
 110565 [Shrine Handmaid - Pontiff Sulyvahn] Pontiff's Bracelets
 110570 [Shrine Handmaid - Old Demon King] Old Demon King's Crown
@@ -560,10 +556,10 @@
 110752 [Shrine Handmaid - Twin Princes] Lorian's Gauntlets
 110753 [Shrine Handmaid - Twin Princes] Lorian's Leggings
 110754 [Shrine Handmaid - Twin Princes] Crown of the Holy King
-110760 [Shrine Handmaid - Yhorm the Giant] Imperious Helm
-110761 [Shrine Handmaid - Yhorm the Giant] Imperious Armor
-110762 [Shrine Handmaid - Yhorm the Giant] Imperious Gauntlets
-110763 [Shrine Handmaid - Yhorm the Giant] Imperious Leggings
+110760 [Shrine Handmaid - Earthen Peak Ruins] Imperious Helm
+110761 [Shrine Handmaid - Earthen Peak Ruins] Imperious Armor
+110762 [Shrine Handmaid - Earthen Peak Ruins] Imperious Gauntlets
+110763 [Shrine Handmaid - Earthen Peak Ruins] Imperious Leggings
 110800 [Shrine Handmaid - Champion Gundyr] Gundyr's Helm
 110801 [Shrine Handmaid - Champion Gundyr] Gundyr's Armor
 110802 [Shrine Handmaid - Champion Gundyr] Gundyr's Gauntlets
@@ -574,51 +570,41 @@
 110853 [Shrine Handmaid - Dancer] Dancer's Leggings
 110900 [Shrine Handmaid - Wolnir] Wolnir's Crown
 110950 [Shrine Handmaid - Crystal Sage] Sage's Big Hat
-111000 [Shrine Handmaid - Yuria's Ashes] Billed Mask
-111001 [Shrine Handmaid - Yuria's Ashes] Black Dress
-111002 [Shrine Handmaid - Yuria's Ashes] Black Gauntlets
-111003 [Shrine Handmaid - Yuria's Ashes] Black Leggings
-111050 [Shrine Handmaid - Sirris] Sunless Veil
-111051 [Shrine Handmaid - Sirris] Sunless Armor
-111052 [Shrine Handmaid - Sirris] Sunless Gauntlets
-111053 [Shrine Handmaid - Sirris] Sunless Leggings
-111100 [Shrine Handmaid - Anri] Elite Knight Helm
-111101 [Shrine Handmaid - Anri] Elite Knight Armor
-111102 [Shrine Handmaid - Anri] Elite Knight Gauntlets
-111103 [Shrine Handmaid - Anri] Elite Knight Leggings
-111150 [Shrine Handmaid - Lion Knight Albert] Faraam Helm
-111151 [Shrine Handmaid - Lion Knight Albert] Faraam Armor
-111152 [Shrine Handmaid - Lion Knight Albert] Faraam Gauntlets
-111153 [Shrine Handmaid - Lion Knight Albert] Faraam Boots
-111200 [Shrine Handmaid - Black Hand Kamui] Black Hand Hat
-111201 [Shrine Handmaid - Black Hand Kamui] Black Hand Armor
-111250 [Shrine Handmaid - Eygon] Morne's Helm
-111251 [Shrine Handmaid - Eygon] Morne's Armor
-111252 [Shrine Handmaid - Eygon] Morne's Gauntlets
-111253 [Shrine Handmaid - Eygon] Morne's Leggings
-111301 [Shrine Handmaid - Leonhard] Leonhard's Garb
-111302 [Shrine Handmaid - Leonhard] Leonhard's Gauntlets
-111303 [Shrine Handmaid - Leonhard] Leonhard's Trousers
-111350 [Shrine Handmaid - Horace] Executioner Helm
-111351 [Shrine Handmaid - Horace] Executioner Armor
-111352 [Shrine Handmaid - Horace] Executioner Gauntlets
-111353 [Shrine Handmaid - Horace] Executioner Leggings
-111400 [Shrine Handmaid - Watchdog] Exile Mask
-111401 [Shrine Handmaid - Watchdog] Exile Armor
-111402 [Shrine Handmaid - Watchdog] Exile Gauntlets
-111403 [Shrine Handmaid - Watchdog] Exile Leggings
-111450 [Shrine Handmaid - Knight Slayer Tsorig] Black Iron Helm
-111451 [Shrine Handmaid - Knight Slayer Tsorig] Black Iron Armor
-111452 [Shrine Handmaid - Knight Slayer Tsorig] Black Iron Gauntlets
-111453 [Shrine Handmaid - Knight Slayer Tsorig] Black Iron Leggings
-111550 [Shrine Handmaid - Sulyvahn's Beasts] Helm of Favor
-111551 [Shrine Handmaid - Sulyvahn's Beasts] Embraced Armor of Favor
-111552 [Shrine Handmaid - Sulyvahn's Beasts] Gauntlets of Favor
-111553 [Shrine Handmaid - Sulyvahn's Beasts] Leggings of Favor
-111560 [Shrine Handmaid - Lapp] Lapp's Helm
-111561 [Shrine Handmaid - Lapp] Lapp's Armor
-111562 [Shrine Handmaid - Lapp] Lapp's Gauntlets
-111563 [Shrine Handmaid - Lapp] Lapp's Leggings
+111000 [Shrine Handmaid - Untended Graves] Billed Mask
+111001 [Shrine Handmaid - Untended Graves] Black Dress
+111002 [Shrine Handmaid - Untended Graves] Black Gauntlets
+111003 [Shrine Handmaid - Untended Graves] Black Leggings
+111050 [Shrine Handmaid - Church of Yorshka] Sunless Veil
+111051 [Shrine Handmaid - Church of Yorshka] Sunless Armor
+111052 [Shrine Handmaid - Church of Yorshka] Sunless Gauntlets
+111053 [Shrine Handmaid - Church of Yorshka] Sunless Leggings
+111100 [Shrine Handmaid - Anor Londo] Elite Knight Helm
+111101 [Shrine Handmaid - Anor Londo] Elite Knight Armor
+111102 [Shrine Handmaid - Anor Londo] Elite Knight Gauntlets
+111103 [Shrine Handmaid - Anor Londo] Elite Knight Leggings
+111250 [Shrine Handmaid - Cathedral Guardian] Morne's Helm
+111251 [Shrine Handmaid - Cathedral Guardian] Morne's Armor
+111252 [Shrine Handmaid - Cathedral Guardian] Morne's Gauntlets
+111253 [Shrine Handmaid - Cathedral Guardian] Morne's Leggings
+111301 [Shrine Handmaid - Rosaria's Bed Chamber] Leonhard's Garb
+111302 [Shrine Handmaid - Rosaria's Bed Chamber] Leonhard's Gauntlets
+111303 [Shrine Handmaid - Rosaria's Bed Chamber] Leonhard's Trousers
+111350 [Shrine Handmaid - Smouldering Lake] Executioner Helm
+111351 [Shrine Handmaid - Smouldering Lake] Executioner Armor
+111352 [Shrine Handmaid - Smouldering Lake] Executioner Gauntlets
+111353 [Shrine Handmaid - Smouldering Lake] Executioner Leggings
+111400 [Shrine Handmaid - Farron Keep] Exile Mask
+111401 [Shrine Handmaid - Farron Keep] Exile Armor
+111402 [Shrine Handmaid - Farron Keep] Exile Gauntlets
+111403 [Shrine Handmaid - Farron Keep] Exile Leggings
+111450 [Shrine Handmaid - Old Demon King] Black Iron Helm
+111451 [Shrine Handmaid - Old Demon King] Black Iron Armor
+111452 [Shrine Handmaid - Old Demon King] Black Iron Gauntlets
+111453 [Shrine Handmaid - Old Demon King] Black Iron Leggings
+111560 [Shrine Handmaid - Demon Prince] Lapp's Helm
+111561 [Shrine Handmaid - Demon Prince] Lapp's Armor
+111562 [Shrine Handmaid - Demon Prince] Lapp's Gauntlets
+111563 [Shrine Handmaid - Demon Prince] Lapp's Leggings
 111570 [Shrine Handmaid - Lordran Remnants] Porcelain Mask
 111571 [Shrine Handmaid - Lordran Remnants] Lord's Blade Robe
 111572 [Shrine Handmaid - Lordran Remnants] Lord's Blade Gloves
@@ -631,10 +617,10 @@
 111601 [Shrine Handmaid - Sister Friede] Ordained Dress
 111602 [Shrine Handmaid - Sister Friede] Ordained Trousers
 111610 [Shrine Handmaid - Slave Knight Gael] Pygmy Crown
-111651 [Shrine Handmaid - Captain's Ashes] Millwood Knight Helm
-111652 [Shrine Handmaid - Captain's Ashes] Millwood Knight Armor
-111653 [Shrine Handmaid - Captain's Ashes] Millwood Knight Gauntlets
-111654 [Shrine Handmaid - Captain's Ashes] Millwood Knight Leggings
+111651 [Shrine Handmaid - Herald of Winter] Millwood Knight Helm
+111652 [Shrine Handmaid - Herald of Winter] Millwood Knight Armor
+111653 [Shrine Handmaid - Herald of Winter] Millwood Knight Gauntlets
+111654 [Shrine Handmaid - Herald of Winter] Millwood Knight Leggings
 119904 [Shrine Handmaid - Untended Graves] White Sign Soapstone
 119905 [Shrine Handmaid - Untended Graves] Dried Finger
 119907 [Shrine Handmaid - Untended Graves] Priestess Ring
@@ -694,14 +680,16 @@
 120209 [Greirat - Pontiff Sulyvahn] Lothric Knight Shield
 120210 [Greirat - Pontiff Sulyvahn] Lothric Knight Greatshield
 120300 [Greirat - Pontiff Sulyvahn] Lightning Urn
-130000 [Orbeck - Shop] Sorcerer Hood
-130001 [Orbeck - Shop] Sorcerer Robe
-130002 [Orbeck - Shop] Sorcerer Gloves
-130003 [Orbeck - Shop] Sorcerer Trousers
-130005 [Orbeck - Shop] Venerable Sage's Hood
-130006 [Orbeck - Shop] Venerable Sage's Robe
-130007 [Orbeck - Shop] Venerable Sage's Gloves
-130008 [Orbeck - Shop] Venerable Sage's Boots
+130000 [Orbeck - Default] Sorcerer Hood
+130001 [Orbeck - Default] Sorcerer Robe
+130002 [Orbeck - Default] Sorcerer Gloves
+130003 [Orbeck - Default] Sorcerer Trousers
+130010 [Orbeck - Crystal Sage] Magic Gem
+130011 [Orbeck - Crystal Sage] Enchanted Gem
+130020 [Orbeck - Throne Ascent] Venerable Sage's Hood
+130021 [Orbeck - Throne Ascent] Venerable Sage's Robe
+130022 [Orbeck - Throne Ascent] Venerable Sage's Gloves
+130023 [Orbeck - Throne Ascent] Venerable Sage's Boots
 130100 [Orbeck - Spells] Farron Dart
 130101 [Orbeck - Spells] Soul Arrow
 130102 [Orbeck - Spells] Homing Soulmass
@@ -730,10 +718,12 @@
 130183 [Orbeck - Spells - Crystal Scroll] Homing Crystal Soulmass
 130184 [Orbeck - Spells - Crystal Scroll] Crystal Soul Spear
 130185 [Orbeck - Spells - Crystal Scroll] Crystal Magic Weapon
-140000 [Cornyx - Shop] Pyromancer Crown
-140001 [Cornyx - Shop] Pyromancer Garb
-140002 [Cornyx - Shop] Pyromancer Wrap
-140003 [Cornyx - Shop] Pyromancer Trousers
+140000 [Cornyx - Default] Pyromancer Crown
+140001 [Cornyx - Default] Pyromancer Garb
+140002 [Cornyx - Default] Pyromancer Wrap
+140003 [Cornyx - Default] Pyromancer Trousers
+140004 [Cornyx - Default] Spotted Whip
+140010 [Cornyx - Default] Fire Gem
 140100 [Cornyx - Spells] Fireball
 140101 [Cornyx - Spells] Fire Orb
 140102 [Cornyx - Spells] Flame Fan
@@ -761,6 +751,7 @@
 140202 [Cornyx - Spells - Profaned] Heave Earth
 140203 [Cornyx - Spells - Profaned] Earthquake
 140204 [Cornyx - Spells - Profaned] Acid Surge
+150000 [Karla - Default] Dark Gem
 150100 [Karla - Spells] Deep Barb
 150101 [Karla - Spells] Dark Edge
 150102 [Karla - Spells] Deep Soul
@@ -791,9 +782,11 @@
 150221 [Karla - Spells - Londor] Dark Blade
 150222 [Karla - Spells - Londor] Dead Again
 150223 [Karla - Spells - Londor] Deep Protection
-160000 [Irina - Shop] Saint's Ring
-160001 [Irina - Shop] Lifegem
-160002 [Irina - Shop] Radiant Lifegem
+160000 [Irina - Default] Saint's Ring
+160001 [Irina - Default] Lifegem
+160010 [Irina - Cathedral Guardian] Saint's Talisman
+160011 [Irina - Cathedral Guardian] Radiant Lifegem
+160012 [Irina - Cathedral Guardian] Holy Gem
 160100 [Irina - Spells] Homeward
 160101 [Irina - Spells] Heal Aid
 160102 [Irina - Spells] Lightning Arrow
@@ -1372,6 +1365,12 @@
 270001 [Master Benjin] Hunter's Blunderbuss
 270002 [Master Benjin] Repeating Pistol
 270003 [Master Benjin] Fist of Gratia
+270004 [Master Benjin] Beasthunter Saif
+270005 [Master Benjin] Hunter Axe
+270006 [Master Benjin] Rakuyo
+270007 [Master Benjin] Burial Scythe
+270008 [Master Benjin] Burial Blade
+270009 [Master Benjin] Nil Blade
 270020 [Master Benjin - Tortured Soul] Church Cannon
 270021 [Master Benjin - Tortured Soul] Rosamarius
 270040 [Master Benjin - Smithbox] Cannon

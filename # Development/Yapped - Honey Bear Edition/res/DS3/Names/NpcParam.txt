@@ -286,12 +286,8 @@
 107209 Skeleton - Bow [Smouldering Lake]
 107213 Skeleton - Scimitar [Smouldering Lake]
 107214 Skeleton - Scimitar [Smouldering Lake]
-107215 Skeleton [Smouldering Lake]
+107215 Skeleton - Ball [Smouldering Lake]
 107216 Skeleton - Firebomb [Smouldering Lake]
-107301 Skeleton [Ringed City]
-107302 Skeleton [Ringed City]
-107313 Skeleton [Ringed City]
-107314 Skeleton [Ringed City]
 107400 El Hueso [Firelink Shrine]
 109000 Pus of Man [High Wall of Lothric]
 109001 Pus of Man [High Wall of Lothric]
@@ -521,8 +517,8 @@
 131000 Boreal Outrider Knight [Undead Settlement]
 131100 Boreal Outrider Knight [Grand Archives]
 131200 Boreal Outrider Knight [Lothric Castle]
-131300 Boreal Outrider Knight [Ariandel]
-131310 Boreal Outrider Knight [Ariandel] (Mini-Boss)
+131300 Boreal Outrider Knight [Frostfire Colossus]
+131310 [Boss] The Last Jailer
 132000 [Boss] Crystal Sage
 132010 Crystal Sage [Road of Sacrifices]
 132100 Crystal Sage [Grand Archives]
@@ -708,23 +704,49 @@
 211400 Hound-rat (Passive)
 212000 Mimic [High Wall of Lothric]
 212001 Mimic [High Wall of Lothric]
+212002 Mimic [High Wall of Lothric]
+212003 Mimic [High Wall of Lothric]
+212004 Mimic [High Wall of Lothric]
 212050 Mimic [Lothric Castle]
 212051 Mimic [Lothric Castle]
 212052 Mimic [Lothric Castle]
 212053 Mimic [Lothric Castle]
 212100 Mimic [Undead Settlement]
-212150 Mimic [Archdragon Peak] UNUSED
+212101 Mimic [Undead Settlement]
+212102 Mimic [Undead Settlement]
+212103 Mimic [Undead Settlement]
+212104 Mimic [Undead Settlement]
+212150 Mimic [Archdragon Peak]
+212151 Mimic [Archdragon Peak]
+212152 Mimic [Archdragon Peak]
+212153 Mimic [Archdragon Peak]
+212154 Mimic [Archdragon Peak]
 212200 Mimic [Road of Sacrifices/Farron Keep]
+212201 Mimic [Road of Sacrifices/Farron Keep]
+212202 Mimic [Road of Sacrifices/Farron Keep]
+212203 Mimic [Road of Sacrifices/Farron Keep]
+212204 Mimic [Road of Sacrifices/Farron Keep]
 212250 Mimic [Grand Archives]
 212251 Mimic [Grand Archives]
-212253 Mimic [Grand Archives]
+212252 Mimic [Grand Archives]
+212253 Mimic - Hidden [Grand Archives]
+212254 Mimic - Hidden [Grand Archives]
+212255 Mimic - Hidden [Grand Archives]
+212256 Mimic - Hidden [Grand Archives]
+212257 Mimic - Hidden [Grand Archives]
 212300 Mimic [Cathedral of the Deep]
+212301 Mimic [Cathedral of the Deep]
+212302 Mimic [Cathedral of the Deep]
+212303 Mimic [Cathedral of the Deep]
+212304 Mimic [Cathedral of the Deep]
 212350 Mimic [Irithyll]
 212351 Mimic [Irithyll]
 212352 Mimic [Irithyll]
 212353 Mimic [Irithyll]
 212354 Mimic [Irithyll]
 212355 Mimic [Irithyll]
+212356 Mimic [Irithyll]
+212357 Mimic [Irithyll]
 212400 Mimic [Catacombs of Carthus/Smouldering Lake]
 212401 Mimic [Catacombs of Carthus/Smouldering Lake]
 212402 Mimic [Catacombs of Carthus/Smouldering Lake]
@@ -740,13 +762,25 @@
 212455 Mimic [Irithyll Dungeon/Profaned Capital]
 212456 Mimic [Irithyll Dungeon/Profaned Capital]
 212457 Mimic [Irithyll Dungeon/Profaned Capital]
+212458 Mimic [Irithyll Dungeon/Profaned Capital]
+212459 Mimic [Irithyll Dungeon/Profaned Capital]
 212500 Mimic [Cemetery of Ash/Untended Graves] UNUSED
 212550 Mimic [Kiln of the First Flame] UNUSED
-212600 Mimic [Ariandel] UNUSED
-212650 Mimic [Dreg Heap] UNUSED
-212700 Mimic [The Ringed City]
-212950 Mimic [Crown of Illusion]
-212990 Mimic [Trial]
+212600 Mimic [Ariandel]
+212601 Mimic [Ariandel]
+212602 Mimic [Ariandel]
+212603 Mimic [Ariandel]
+212604 Mimic [Ariandel]
+212650 Mimic [Dreg Heap]
+212651 Mimic [Dreg Heap]
+212652 Mimic [Dreg Heap]
+212653 Mimic [Dreg Heap]
+212654 Mimic [Dreg Heap]
+212700 Mimic [Ringed City]
+212701 Mimic [Ringed City]
+212702 Mimic [Ringed City]
+212703 Mimic [Ringed City]
+212704 Mimic [Ringed City]
 213000 Writhing Rotten Flesh
 213099 Writhing Rotten Flesh
 213100 Writhing Rotten Flesh
@@ -756,25 +790,7 @@
 214100 Basilisk [Farron Keep]
 214200 Basilisk [Farron Keep]
 214300 Basilisk [Consumed King's Garden]
-215000 Crystal Lizard [High Wall of Lothric]
-215010 Red Crystal Lizard
-215011 Red Crystal Lizard - Bait
-215100 Crystal Lizard [Undead Settlement]
-215200 Crystal Lizard [Lothric Castle]
-215300 Crystal Lizard [Grand Archives]
-215400 Crystal Lizard [Irithyll]
-215500 Crystal Lizard [Anor Londo]
-215600 Crystal Lizard [Irithyll Dungeon]
-215700 Crystal Lizard [Farron Keep]
-215701 Crystal Lizard
-215750 Crystal Lizard [Road of Sacrifices]
-215800 Crystal Lizard [Cathedral of the Deep]
-215900 Crystal Lizard [Irithyll Dungeon]
-215920 Crystal Lizard
-215950 Crystal Lizard
-215960 Crystal Lizard
-215970 Crystal Lizard
-215980 Crystal Lizard
+215000 Crystal Lizard
 215990 Crystal Lizard - Friendly
 215991 Crystal Lizard (Red) - Friendly
 216000 Yoel of Londor
@@ -848,11 +864,11 @@
 229100 Irithyll Dog
 229101 Irithyll Dog
 302000 Giant Slave [Irithyll]
-302010 Giant Slave [Irithyll]
+302010 Giant Slave - Ball [Irithyll]
 302020 Tower Giant [Undead Settlement]
-302100 Giant Slave [Cathedral of the Deep]
-302101 Giant Slave [Cathedral of the Deep]
-302198 Giant Slave [Irithyll Dungeon]
+302100 Massive Giant Slave [Cathedral of the Deep]
+302101 Massive Giant Slave [Cathedral of the Deep]
+302198 Massive Giant Slave [Irithyll Dungeon]
 304000 [Boss] Abyss Watcher [Main]
 304001 [Boss] Abyss Watcher [Add]
 304002 [Boss] Abyss Watcher [Red-eye] [Add]
@@ -938,25 +954,25 @@
 521000 Rosaria, Mother of Rebirth
 522000 [Boss] Deacons of the Deep
 522098 [Boss] Deacons of the Deep [HP Dummy]
-522100 Fat Deacon
-522102 Fat Deacon - Longsword
-522103 Fat Deacon
-522110 Fat Deacon
-522112 Fat Deacon
-522200 Tall Deacon
-522202 Tall Deacon
-522203 Tall Deacon
-522301 Deacon - Sword
+522100 Fat Deacon - Priest Dagger
+522102 Fat Deacon - Candlestick
+522103 Fat Deacon - Cleric's Candlestick
+522110 Fat Deacon - Priest Dagger
+522112 Fat Deacon - Cleric's Candlestick
+522200 Tall Deacon - Priest Dagger
+522202 Tall Deacon - Cleric's Candlestick
+522203 Tall Deacon - Priest Dagger
+522301 Deacon - Priest Dagger
 522302 Deacon - Candlestick
-522303 Deacon - Longsword
-522304 Deacon - Tower [Cathedral of the Deep]
-522500 Fat Deacon [Irithyll]
-522501 Fat Deacon [Irithyll]
-522511 Fat Deacon [Irithyll]
-522600 Tall Deacon [Irithyll]
-522601 Tall Deacon [Irithyll]
-522700 Deacon [Anor Londo]
-522701 Deacon [Anor Londo]
+522303 Deacon - Priest Dagger
+522304 Deacon - Priest Dagger [Cathedral of the Deep]
+522500 Fat Deacon - Priest Dagger [Irithyll]
+522501 Fat Deacon - Cleric's Candlestick [Irithyll]
+522511 Fat Deacon - Candlestick [Irithyll]
+522600 Tall Deacon - Priest Dagger [Irithyll]
+522601 Tall Deacon - Cleric's Candlestick [Irithyll]
+522700 Deacon - Priest Dagger [Anor Londo]
+522701 Deacon - Candlestick [Anor Londo]
 524000 Irithyll Fire Witch [Irithyll]
 525000 [Boss] Lorian, Elder Prince [Initial Stage]
 525001 [Boss] Lorian, Elder Prince [Final Stage]
@@ -965,20 +981,20 @@
 527000 [Boss] Dancer of the Boreal Valley
 527001 Boreal Outrider Assassin [Grand Archives]
 528000 [Boss] Soul of Cinder
-600000 Farron Follower [Ariandel]
-600001 Farron Follower [Ariandel]
-600002 Farron Follower [Ariandel]
-600003 Farron Follower [Ariandel]
-600005 Farron Follower [Ariandel]
-600010 Farron Follower [Ariandel]
-600011 Farron Follower [Ariandel]
-600015 Farron Follower [Ariandel]
-600020 Farron Follower [Ariandel]
-600021 Farron Follower [Ariandel]
-600025 Farron Follower [Ariandel]
-600030 Farron Follower [Ariandel]
-600031 Farron Follower [Ariandel]
-600035 Farron Follower [Ariandel]
+600000 Farron Follower - Torch [Ariandel]
+600001 Farron Follower - Torch [Ariandel]
+600002 Farron Follower - Torch [Ariandel]
+600003 Farron Follower - Torch [Ariandel]
+600005 Farron Follower - Torch [Ariandel]
+600010 Farron Follower - Sabre [Ariandel]
+600011 Farron Follower - Sabre [Ariandel]
+600015 Farron Follower - Sabre [Ariandel]
+600020 Farron Follower - Javelin [Ariandel]
+600021 Farron Follower - Javelin [Ariandel]
+600025 Farron Follower - Javelin [Ariandel]
+600030 Farron Follower - Javelin [Ariandel]
+600031 Farron Follower - Javelin [Ariandel]
+600035 Farron Follower - Javelin [Ariandel]
 601000 [Boss] Father Ariandel
 601001 [Boss] Father Ariandel [Heat Up]
 602000 [Boss] Sister Friede [First Stage]
@@ -1036,13 +1052,13 @@
 606006 Tree Woman [Ariandel]
 606007 Tree Woman [Ariandel]
 606010 Tree Woman [Ariandel]
-607000 Corvian Knight [Ariandel]
-607001 Corvian Knight [Ariandel]
-607010 Corvian Knight [Ariandel]
+607000 Corvian Knight - Rapier [Ariandel]
+607001 Corvian Knight - Rapier [Ariandel]
+607010 Corvian Knight - Talons [Ariandel]
 608000 Corvian Villager [Ariandel]
 608001 Corvian Villager [Ariandel]
-608005 Corvian Villager [Ariandel]
-608006 Corvian Villager [Ariandel]
+608005 Corvian Villager - Stick [Ariandel]
+608006 Corvian Villager - Stick [Ariandel]
 608008 Corvian Villager [Ariandel]
 608009 Corvian Villager [Ariandel]
 608010 Corvian Villager [Ariandel]
@@ -1057,24 +1073,24 @@
 609000 Giant Fly [Ariandel]
 609001 Giant Fly [Ariandel]
 609002 Giant Fly [Ariandel]
-610000 Millwood Knight [Ariandel]
-610010 Millwood Knight [Ariandel]
-610015 Millwood Knight [Ariandel]
-610020 Millwood Knight [Ariandel]
-610025 Millwood Knight [Ariandel]
-610030 Millwood Knight [Ariandel]
-610031 Millwood Knight [Ariandel]
-610032 Millwood Knight [Ariandel]
-610034 Millwood Knight [Ariandel]
-610035 Millwood Knight [Ariandel]
-610036 Millwood Knight [Ariandel]
-610040 Millwood Knight [Ariandel]
-610041 Millwood Knight [Ariandel]
-610042 Millwood Knight [Ariandel]
-610043 Millwood Knight [Ariandel]
-610044 Millwood Knight [Ariandel]
-610045 Millwood Knight [Ariandel]
-610046 Millwood Knight [Ariandel]
+610000 Millwood Knight - Earthseeker [Ariandel]
+610010 Millwood Knight - Quake Hammer [Ariandel]
+610015 Millwood Knight - Quake Hammer [Ariandel]
+610020 Millwood Knight - Battle Axe and Shield [Ariandel]
+610025 Millwood Knight - Battle Axe and Shield [Ariandel]
+610030 Millwood Knight - Greatbow [Ariandel]
+610031 Millwood Knight - Greatbow [Ariandel]
+610032 Millwood Knight - Greatbow [Ariandel]
+610034 Millwood Knight - Greatbow [Ariandel]
+610035 Millwood Knight - Greatbow [Ariandel]
+610036 Millwood Knight - Greatbow [Ariandel]
+610040 Millwood Knight - Greatbow [Ariandel]
+610041 Millwood Knight - Greatbow [Ariandel]
+610042 Millwood Knight - Greatbow [Ariandel]
+610043 Millwood Knight - Greatbow [Ariandel]
+610044 Millwood Knight - Greatbow [Ariandel]
+610045 Millwood Knight - Greatbow [Ariandel]
+610046 Millwood Knight - Greatbow [Ariandel]
 612000 Painting Woman - Loft [Ariandel]
 612100 Painting Woman - Table [Ariandel]
 613000 Great Crab [Ariandel]
@@ -1083,35 +1099,35 @@
 620100 [Boss] Slave Knight Gael
 621000 [Boss] Darkeater Midir - Bridge Encounter
 621100 [Boss] Darkeater Midir
-623000 Murkman [Dreg Heap]
-623001 Murkman [Dreg Heap]
-623002 Murkman [Dreg Heap]
-623003 Murkman [Dreg Heap]
-623004 Murkman [Dreg Heap]
-623005 Murkman [Dreg Heap]
-623006 Murkman [Dreg Heap]
-623007 Murkman [Dreg Heap]
-623008 Murkman [Dreg Heap]
-623009 Murkman [Dreg Heap]
-623010 Murkman [Dreg Heap]
-623011 Murkman [Dreg Heap]
-623012 Murkman [Dreg Heap]
-623013 Murkman [Dreg Heap]
-623014 Murkman [Dreg Heap]
-623020 Murkman [Dreg Heap]
-623025 Murkman [Dreg Heap]
-623032 Murkman [Dreg Heap]
-623034 Murkman [Dreg Heap]
-623100 Crawling Murkman [Dreg Heap]
-623101 Crawling Murkman [Dreg Heap]
-623102 Crawling Murkman [Dreg Heap]
-623103 Crawling Murkman [Dreg Heap]
-623104 Crawling Murkman [Dreg Heap]
-623105 Crawling Murkman [Dreg Heap]
-623120 Crawling Murkman [Dreg Heap]
-623122 Crawling Murkman [Dreg Heap]
-623123 Crawling Murkman [Dreg Heap]
-623125 Crawling Murkman [Dreg Heap]
+623000 Murkman - Staff [Dreg Heap]
+623001 Murkman - Staff [Dreg Heap]
+623002 Murkman - Staff [Dreg Heap]
+623003 Murkman - Staff [Dreg Heap]
+623004 Murkman - Staff [Dreg Heap]
+623005 Murkman - Staff [Dreg Heap]
+623006 Murkman - Staff [Dreg Heap]
+623007 Murkman - Staff [Dreg Heap]
+623008 Murkman - Staff [Dreg Heap]
+623009 Murkman - Staff [Dreg Heap]
+623010 Murkman - Staff [Dreg Heap]
+623011 Murkman - Staff [Dreg Heap]
+623012 Murkman - Staff [Dreg Heap]
+623013 Murkman - Staff [Dreg Heap]
+623014 Murkman - Staff [Dreg Heap]
+623020 Murkman - Staff [Dreg Heap]
+623025 Murkman - Staff [Dreg Heap]
+623032 Murkman - Staff [Dreg Heap]
+623034 Murkman - Staff [Dreg Heap]
+623100 Crawling Murkman - Harpe [Dreg Heap]
+623101 Crawling Murkman - Harpe [Dreg Heap]
+623102 Crawling Murkman - Harpe [Dreg Heap]
+623103 Crawling Murkman - Harpe [Dreg Heap]
+623104 Crawling Murkman - Harpe [Dreg Heap]
+623105 Crawling Murkman - Harpe [Dreg Heap]
+623120 Crawling Murkman - Harpe [Dreg Heap]
+623122 Crawling Murkman - Harpe [Dreg Heap]
+623123 Crawling Murkman - Harpe [Dreg Heap]
+623125 Crawling Murkman - Harpe [Dreg Heap]
 623200 Murkman Spirit [Dreg Heap]
 623201 Murkman Spirit [Dreg Heap]
 624000 Pilgrim Pulpa - Path [Dreg Heap]
@@ -1121,49 +1137,49 @@
 625001 Pilgrim Angel [Dreg Heap]
 625002 Pilgrim Angel [Dreg Heap]
 625003 Pilgrim Angel - Stone-humped Hag [Dreg Heap]
-626000 Ringed Knight [The Ringed City]
-626005 Ringed Knight [The Ringed City]
-626010 Ringed Knight [The Ringed City]
-626011 Ringed Knight [The Ringed City]
-626015 Ringed Knight [The Ringed City]
-626020 Ringed Knight [The Ringed City]
-626021 Ringed Knight [The Ringed City]
-626120 Ringed Knight [Filianore's Rest]
-627000 Hollow Vagabond
-627001 Hollow Vagabond
-627002 Hollow Vagabond
-627003 Hollow Vagabond
-627010 Hollow Vagabond
-627020 Hollow Vagabond
-627021 Hollow Vagabond
-627030 Hollow Vagabond
-627040 Hollow Vagabond
-627041 Hollow Vagabond
-627042 Hollow Vagabond
-627043 Hollow Vagabond
-627050 Hollow Vagabond
-627052 Hollow Vagabond
-627090 Hollow Vagabond
-628000 Judicator
-628010 Judicator
-628020 Judicator
-628090 Judicator
+626000 Ringed Knight - Straight Sword and Shield [Ringed City]
+626005 Ringed Knight - Straight Sword and Shield [Ringed City]
+626010 Ringed Knight - Spear and Greatshield [Ringed City]
+626011 Ringed Knight - Spear and Greatshield [Ringed City]
+626015 Ringed Knight - Spear and Greatshield [Ringed City]
+626020 Ringed Knight - Paired Greatswords [Ringed City]
+626021 Ringed Knight - Paired Greatswords [Ringed City]
+626120 Ringed Knight - Paired Greatswords [Filianore's Rest]
+627000 Hollow Vagabond [Ringed City]
+627001 Hollow Vagabond [Ringed City]
+627002 Hollow Vagabond [Ringed City]
+627003 Hollow Vagabond [Ringed City]
+627010 Hollow Vagabond [Ringed City]
+627020 Hollow Vagabond [Ringed City]
+627021 Hollow Vagabond [Ringed City]
+627030 Hollow Vagabond [Ringed City]
+627040 Hollow Vagabond [Ringed City]
+627041 Hollow Vagabond [Ringed City]
+627042 Hollow Vagabond [Ringed City]
+627043 Hollow Vagabond [Ringed City]
+627050 Hollow Vagabond [Ringed City]
+627052 Hollow Vagabond [Ringed City]
+627090 Hollow Vagabond [Ringed City]
+628000 Judicator [Ringed City]
+628010 Judicator [Ringed City]
+628020 Judicator [Ringed City]
+628090 Judicator [Ringed City]
 628100 Judicator - Dummy Entity
 628101 Judicator - Dummy Entity
-629000 Hollow Cleric
-629001 Hollow Cleric
-629010 Hollow Cleric
-630000 Mad Pilgrim
-630001 Mad Pilgrim
-630090 Mad Pilgrim
-630091 Mad Pilgrim
-630092 Mad Pilgrim
-631000 Filianore
-631001 Filianore
-631090 Filianore
-631091 Filianore
-632000 Harald Knight
-632001 Harald Knight
+629000 Hollow Cleric [Ringed City]
+629001 Hollow Cleric [Ringed City]
+629010 Hollow Cleric [Ringed City]
+630000 Mad Pilgrim - No Crown [Ringed City]
+630001 Mad Pilgrim - Crown [Ringed City]
+630090 Mad Pilgrim - Crown [Ringed City]
+630091 Mad Pilgrim - Headless [Ringed City]
+630092 Mad Pilgrim - Crown [Ringed City]
+631000 Filianore - Alive
+631001 Filianore - Hollow
+631090 Filianore - Alive - Flowing Hair
+631091 Filianore - Hollow - Flowing Hair
+632000 Harald Knight - Cloak
+632001 Harald Knight - No Cloak
 633000 Big Locust
 633001 Big Locust
 633090 Big Locust
@@ -1201,9 +1217,9 @@
 756200 [Boss] Frostfire Colossus Sapping Orb
 757000 [Boss] Frostfire Cleric (Boss Room)
 757010 Frostfire Cleric
-757020 Frostfire Cleric (Mini-Boss)
+757020 [Boss] Odessa Knight (Frostfire Cleric)
 757100 Frostfire Cleric Orb
-757110 Frostfire Cleric Orb (Mini-Boss)
+757110 [Boss] Odessa Knight Orb (Frostfire Cleric)
 760000 [Boss] Herald of Winter
 761000 Smough (Winged Knight)
 762000 Yorgh (Gundyr)

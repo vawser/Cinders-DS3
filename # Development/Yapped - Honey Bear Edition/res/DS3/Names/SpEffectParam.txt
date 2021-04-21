@@ -412,6 +412,7 @@
 4310 Farron Keep - Near Tree
 4400 Path of the Dragon - Gesture Trigger
 4401 Point Up - Gesture Trigger
+4402 By my sword - Gesture Trigger
 4500 [Behavior] Falling
 4501 [Behavior] Falling
 4502 [Behavior] Falling
@@ -1370,10 +1371,46 @@
 12346 [Giant Slave] Irithyll Dungeon -
 12500 Gesture Trigger 1
 12501 Gesture Trigger 2
-12502 Gesture Trigger 3 - Path of the Dragon
+12502 Gesture Trigger 3
 12503 Gesture Trigger 4
-12505 Gesture Trigger - Point Up
-12506 Gesture Trigger - Praise the Sun
+12510 Gesture - Praise the Sun
+12511 Gesture - Point Up
+12512 Gesture - Point Down
+12513 Gesture - Dignified bow
+12514 Gesture - Point Forward
+12515 Gesture - Welcome
+12516 Gesture - Kneel
+12517 Gesture - Proper Bow
+12518 Gesture - Prayer
+12519 Gesture - Bow
+12520 Gesture - Wave
+12521 Gesture - Joy
+12522 Gesture - Hurrah
+12523 Gesture - My Thanks
+12524 Gesture - Rejoice
+12525 Gesture - Rest
+12526 Gesture - Toast
+12527 Gesture - Duel Bow
+12528 Gesture - Roar
+12529 Gesture - Shrug
+12530 Gesture - Curl Up
+12531 Gesture - Stretch Out
+12532 Gesture - Call Over
+12533 Gesture - Patches Squat
+12534 Gesture - Clap
+12535 Gesture - Path of the Dragon
+12536 Gesture - Legion Etiquette
+12537 Gesture - Darkmoon Loyalty
+12538 Gesture - Sleep
+12539 Gesture - Sitting Toast
+12540 Gesture - Silent Ally
+12541 Gesture - Dismissive Point
+12542 Gesture - Look Skyward
+12543 Gesture - Well! What is it!
+12544 Gesture - Praise the Heavens
+12545 Gesture - Retch
+12546 Gesture - Confused
+12547 Gesture - Collapse
 12600 [High Lord Wolnir]
 12601 [High Lord Wolnir]
 12602 [High Lord Wolnir]
@@ -4450,6 +4487,7 @@
 160700504 Dried Root
 160700505 Rouge Water
 160700506 Crimson Water
+160700600 Lizard Hide
 160700999 ### Elixirs ###
 160701000 Cleansing Potion - Trigger
 160701010 Cleansing Potion - Clear 150
@@ -5792,7 +5830,7 @@
 260000031 Mirror Knight
 260000032 Herald of Winter
 260000033 The Rock
-260000034 Twisted Experiment
+260000034 Twisted Knight
 260100000 ### Boss Revival ###
 260100010 Corrupted Gundyr
 260100020 Vordt of the Boreal Valley

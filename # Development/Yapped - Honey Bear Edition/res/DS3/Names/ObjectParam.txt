@@ -1,5 +1,7 @@
 0 Barista
 100 Bonfire
+200 Chest
+201 Breakable Chest
 350 M93_01 Candle Room Door
 360 [Concept version] start door
 370 [Concept version] boss entrance

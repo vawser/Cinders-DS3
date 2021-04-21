@@ -1,21 +1,353 @@
-10000100 Ahh, well met.
-10000300 Prithee, be careful.
-10000400 Weapons and protection are sturdy enough, by and large.
-10000500 There are two ways to smith weapons.
-10000501 Simple reinforcement is one, and infusion the other.
-10000502 Reinforcement is straight forward. It strengthens a weapon without altering its property.
-10000503 Infusion is a more advanced form of smithing that infuses an element.
-10000600 Ahh, another matter.
-10000601 Infusing weapons with gems requires a special kind of coal.
-10000602 My humble coals won't be any use infusing more unusual gems.
-10000603 I know, it's an awful shame, but it's all I have.
-10000604 Oh, please, don't give me that look.
-10000700 Oh, my...this coal is from the Undead Legion...
-10000701 Used to forge the weapons of Farron's Abyss Watchers.
-10000702 A fine prize. I'm honoured to be endued with it.
-10000703 Now I'll be equipped to infuse special gems.
-10000704 Praise the gods, eh. Time to put this brawn to use!
-10000800 My, my... The coal of that peaceable giant.
+10000500 [Oceiros] Ahh, you ignorant slaves. Finally taken notice, have you?
+10000501 [Oceiros] Of the power of my beloved Ocelotte, child of dragons.
+10000502 [Oceiros] Well, I will not give him up.
+10000503 [Oceiros] For he is all that I have.
+10000600 [Prince Lothric] Oh, dear brother...
+10000601 [Prince Lothric] I'm on my way...
+10000602 [Prince Lothric] My brother, unyielding sword of Lothric's Prince.
+10000603 [Prince Lothric] Rise, if you would.
+10000604 [Prince Lothric] ...For that is our curse.
+10000700 [Prince Lothric] Oh dear, another dogged contender.
+10000701 [Prince Lothric] Welcome, Unkindled one, purloiner of cinders.
+10000702 [Prince Lothric] Mind you, the mantle of lord interests me none.
+10000703 [Prince Lothric] The fire-linking curse, the legacy of lords, let it all fade into nothing.
+10000704 [Prince Lothric] Ill-starred are they who take the throne. I shall not stand among them.
+10000705 [Prince Lothric] You've done quite enough, now have your rest.
+10000706 [Prince Lothric] The royal sword of Lothric shall grant you peace.
+10001600 Shame on you, you greedy guts.
+10001601 Shame on you, you insatiable wench.
+10001602 Shame on you, you rotten cleric.
+10001603 Shame on you, you rotten nun.
+10001604 Thought you could outwit an onion?
+10001950 Ahh, Unkindled One.
+10001951 The fire fades, and awaits its one last Lord.
+10001952 Prince Lothric is in your hands...
+10001953 Please, save his soul.
+10002450 Ahh, Unkindled One.
+10002451 The fire fades, and awaits its one last Lord.
+10002452 Prince Lothric is in your hands...
+10002453 Please, save his soul.
+10002600 [Siegward] Yhorm, old friend.
+10002601 [Siegward] I, Siegward of the Knights of Catarina, have come to uphold my promise!
+10002602 [Siegward] Let the sun shine upon this Lord of Cinder.
+10002603 [Siegward]
+10002700 Noble Lords of Cinder.
+10002710 The fire fades...
+10002711 ...and the lords go without thrones.
+10002720 Surrender your fires...
+10002721 ...to the true heir.
+10002730 Let him grant death...
+10002731 Let her grant death...
+10003000 Ahh, our gracious Lord...
+10003001 Make Londor whole...
+10003100 The First Flame quickly fades.
+10003101 Darkness will shortly settle.
+10003110 But one day, tiny flames will dance across the darkness.
+10003111 Like embers, linked by lords past.
+10003120 Ashen one, hearest thou my voice, still?
+10009999 ### Talk - Solaire of Astora (m30)
+10010000 Ah, hello! You don't look Hollow, far from it!
+10010001 I am Solaire of Astora, an adherent of the Lord of Sunlight.
+10010002 Hah hah hah!
+10010999 ### Talk - Master Benjin (m31)
+10011000 I am a collector of sorts. My interest lies in the mechanical and arcane.
+10011001 If you so desire, I offer some of my contraptions in exchange for souls.
+10011010 [Tortured Soul] Interested in a little quest are we?
+10011011 [Tortured Soul] I've been aching to work on something truly extraordinary,
+10011012 [Tortured Soul] but I lack a crucial ingredient.
+10011013 [Tortured Soul] If you would be so kind, please fetch me a tortured soul from the decrepit cathedral.
+10011020 [Smithbox] Blasted thieves!
+10011021 [Smithbox] It seems that a ne'er-do-well has swiped my toolbox.
+10011022 [Smithbox] Would you mind retrieving it for me?
+10011023 [Smithbox] I believe I saw the rapscallion running off towards the castle.
+10011030 Thank you!
+10011999 ### Talk - Erstwhile George (m34_1)
+10012000 I am a collector of the ancient and forgotten. Feel free to peruse my collection.
+10012999 ### Talk - Domhnall of Zena (m37)
+10013000 Aye, siwmae. And good day to you.
+10013001 I'm Domhnall of Zena. I'm just, well, a peddler, of sorts.
+10013002 I adore trinkets and oddities, so I trade for them.
+10013999 ### Talk - Marvelous Chester (m37)
+10014000 Hm... Oh, let me guess...
+10014001 Looking for baubles and trinkets in this strange land?
+10014002 Yes, of course. We are both strangers in this strange land.
+10014003 But, at least now there are two of us.
+10014999 ### Talk - Crestfallen Merchant (m38)
+10015000 Ah, what? What? Who are you?
+10015001 Ahh, another Undead, eh? Those blasted wurms...
+10015002 The lake is swarming with them.
+10015003 If only somebody could kill them...
+10015004 Then I could move deeper into the catacombs.
+10015999 ### Talk - Cicero the Mad (m40)
+10016000 ...
+10016999 ### Talk - Astrologer Lillian (m40)
+10017000 Well, you are a rare visitor.
+10017001 Welcome to the sanctum, ashen one.
+10017002 If you seek the power of the magical arts, I may be able to help with that.
+10017003 I dabble in all kinds, much to the consternation of my peers.
+10017004 Watch your back out there.
+10017005 Mindless hollows wander the grounds surrounding the shrine.
+10017999 ### Talk - Magnum Ursus (m40)
+10018000 O turpi viridi egredere de beatus praetorium,
+10018001 Et deficient et in studiorum omnium satietas.
+10018002 Ego misera, da mihi potestatem, phialam argenteam.
+10018999 ### Talk - Enchanter Jiji (m40)
+10019000 Welcome, ashen one.
+10019001 I've been resting here for quite some time.
+10019002 Say, how would you like to try one of my enchanted oils?
+10019999 ### Talk - Remy the Rat (m40)
+10020000 Thou hast the eyes of one who perceiveth true beauty.
+10020001 Human, thou mayest serve.
+10020999 ### Talk - Master Benjin (m40)
+10021000 I am a collector of sorts. My interest lies in the mechanical and arcane.
+10021001 If you so desire, I offer some of my contraptions in exchange for souls.
+10021010 [Tortured Soul] Interested in a little quest are we?
+10021011 [Tortured Soul] I've been aching to work on something truly extraordinary,
+10021012 [Tortured Soul] but I lack a crucial ingredient.
+10021013 [Tortured Soul] If you would be so kind, please fetch me a tortured soul from the decrepit cathedral.
+10021020 [Smithbox] Blasted thieves!
+10021021 [Smithbox] It seems that a ne'er-do-well has swiped my toolbox.
+10021022 [Smithbox] Would you mind retrieving it for me?
+10021023 [Smithbox] I believe I saw the rapscallion running off towards the castle.
+10021030 Thank you!
+10021999 ### Talk - Ritualist Ellie (m40)
+10022000 Bring me any ritual incense you find.
+10022001 In exchange I can offer improvements to your rituals.
+10022002 Don't tarry now, on you go.
+10022999 ### Talk - Occultist Grudore (m40)
+10023000 Still a bit stiff, I'm afraid.
+10023001 I'm known as Grudore, a wandering occultist of sorts.
+10023002 If you wish to experiment with curses, simply ask.
+10023003 Ha! Don't worry, my curses are easily reversible.
+10023010 [Returned Coal] Thank you. This coal will help me greatly.
+10099999 ### Relationship - Karla (m40)
+10100000 [Good] Oh, there you are.
+10100001 [Good] I thought you'd all but forgotten me. How sweet.
+10100002 [Good] Good to know that a skinny little heretic can still turn heads.
+10100003 [Good] Here, take this memento of our sordid affair.
+10100010 [Neutral] Ahh, hello again. Thank goodness.
+10100011 [Neutral] One can become quite attached, even to a bumbling apprentice.
+10100020 [Bad] Oh bother. Leave me be so that I may study.
+10100030 [Marry] You're here to propose to me?
+10100031 [Marry] But I am guilty. A wretched child of the Abyss.
+10100032 [Marry] Is that something you can forgive?
+10100999 ### Relationship - Fire Keeper (m40)
+10101000 [Good] Ashen One, this is...
+10101001 [Good] Very much how I feel towards you. Forgive me.
+10101002 [Good] But I created this gift for you, I hope you enjoy it.
+10101010 [Neutral] Ashen one, may I pose thee a question?
+10101011 [Neutral] Do you feel as I do? With the fury of the flames?
+10101020 [Bad] Ashen One, the fires must be tended to.
+10101021 [Bad] Without me, they will be extinguished.
+10101030 [Marry] Ashen One, I am unworthy of your love.
+10101031 [Marry] But I accept your offer nevertheless.
+10101999 ### Relationship - Rosaria (m35)
+10102000 [Good] The shriveled body of Rosaria appears to squirm
+10102001 [Good] A gift pops out from beneath her quivering mass.
+10102010 [Neutral] The shriveled body of Rosaria appears to squirm
+10102020 [Bad] The shriveled body of Rosaria appears to squirm
+10102030 [Marry] The shriveled body of Rosaria appears to squirm
+10102999 ### Relationship - Archdeacon McDonnell (m37)
+10103000 [Good] The decayed corpse of Archdeacon McDonnell begins to pulsate in a rhymathic fashion.
+10103001 [Good] A gift pops out from beneath his decaying mass.
+10103010 [Neutral] The decayed corpse of Archdeacon McDonnell appears to pulsate in a dull fashion.
+10103020 [Bad] The decayed corpse of Archdeacon McDonnell remains absolutely still.
+10103030 [Marry] The decayed corpse of Archdeacon McDonnell emits a loud gaseous expulsion.
+10103999 ### Relationship - Yorshka (m37)
+10104000 [Good] I, Yorshka, love thine heart as thou'st love the moon and sky.
+10104001 [Good] Here, take this token of appreciation, thou'rt most deserving of it.
+10104010 [Neutral] My dear, thy love merit great deeds.
+10104011 [Neutral] Set forth and accomplish such deeds in thine name.
+10104020 [Bad] Art thou a creature of lust?
+10104021 [Bad] Begone!
+10104030 [Marry] Oh, my! Thou'st love is sweet.
+10104031 [Marry] If thou'st speak'th with true intent.
+10104999 ### Relationship - Domhnall of Zena (m37)
+10105000 [Good] I never thought you'd confess such beautiful words to me.
+10105001 [Good] Hmm... What can I say? Take this trinket as a sign of my love.
+10105010 [Neutral] Those are truly wonderful thoughts.
+10105011 [Neutral] Do they come with new trinkets too?
+10105020 [Bad] Aye, siwmae. Oh, you feel that way?
+10105021 [Bad] I can't say I've thought much about you I'm afraid.
+10105030 [Marry] What a wonderful notion.
+10105031 [Marry] Let us wed posthaste!
+10105999 ### Relationship - Marvelous Chester (m37)
+10106000 [Good] Mwah hah hah! A splendid display of affection.
+10106001 [Good] Here, take this gift, you deserve it.
+10106010 [Neutral] Believe it or not... But I too feel that way.
+10106011 [Neutral] That'll put some spring into your step.
+10106020 [Bad] You have quite some nerve. Or are you just thick?
+10106030 [Marry] A grand notion. Yes, magnificently so!
+10106999 ### Relationship - Crestfallen Merchant (m38)
+10107000 [Good] Yes, I remember that feeling.
+10107001 [Good] For I was once the same. Here, take this trinket.
+10107010 [Neutral] Hm... Oh, yes, it's you.
+10107011 [Neutral] A kind notion, but little use in these tombs.
+10107020 [Bad] Let me give you a nibble of advice.
+10107021 [Bad] Don't even consider talking to me again.
+10107030 [Marry] Ah, what? What? Marriage?
+10107031 [Marry] Ahh, I guess so.
+10107999 ### Relationship - Ludleth (m40)
+10108000 [Good] Ahh, most illustrious Lordseeker.
+10108001 [Good] Your words have touched me so.
+10108002 [Good] Take this memento as a sign of our connection.
+10108010 [Neutral] Ah-hah, thou'rt returned.
+10108011 [Neutral] What's to fear in a little tenderness, now?
+10108020 [Bad] Knowest thou of your purpose?
+10108021 [Bad] Begone and preserve the fading Flame.
+10108030 [Marry] Oh, thou'rt a kind Unkindled.
+10108031 [Marry] And I a Lord of Cinder, in want of tenderness.
+10108999 ### Relationship - Yuria (m40)
+10109000 [Good] Thy desire is matched.
+10109001 [Good] Bearer of the dark sigil, and our Lord of Hollows.
+10109002 [Good] I present you this gift of my affection.
+10109010 [Neutral] Our Lord and Liege.
+10109011 [Neutral] I too feel this way, but alas your lordship must come first.
+10109020 [Bad] Oh, good Hollow. I'm afraid I must say...
+10109021 [Bad] Such notions will imperil thy rule.
+10109030 [Marry] Thou'rt a Lord, art thou not?
+10109031 [Marry] Alas, your kindness is welcome.
+10109999 ### Relationship - Orbeck (m40)
+10110000 [Good] Oh, my... You are stupendous.
+10110001 [Good] Here, I was saving this for later, but you should have it now.
+10110010 [Neutral] Oh, how gracious.
+10110011 [Neutral] Do promise to stay safe out there, this land isn't fit for such noble hearts.
+10110020 [Bad] How intriguing.
+10110021 [Bad] A rather pathetic attempt at courtship, wouldn't you say?
+10110030 [Marry] Well, this is unexpected, but I echo the sentiment.
+10110031 [Marry] Very well, let us form a union.
+10110999 ### Relationship - Andre (m40)
+10111000 [Good] Ah, I'm but a weary old smith.
+10111001 [Good] Nevertheless, take this here token as a sign of my appreciation.
+10111010 [Neutral] Ahh, well met.
+10111011 [Neutral] Tis good to see you in good health.
+10111020 [Bad] I warn you, back off.
+10111021 [Bad] I am in no mood for such trifling notions.
+10111030 [Marry] Well, this is a surpise.
+10111031 [Marry] Tis good to find nobility in these trying times.
+10111999 ### Relationship - Shrine Handmaid (m40)
+10112000 [Good] Gracious. Fine compliment thou'st given.
+10112001 [Good] Thou'rt has warmed thine cockles. Here, take thine token of desire.
+10112010 [Neutral] Oh, knowest thou of that soppy gossip?
+10112011 [Neutral] Me? Thy suppeth too much on airy notions.
+10112020 [Bad] Ashen One, thy layeth nary a soul upon my feet?
+10112030 [Marry] Ashen One, to desire such soppy seconds.
+10112031 [Marry] Thy pockets must o'erflow with good will.
+10112999 ### Relationship - Cornyx (m40)
+10113000 [Good] Ahh, there you, Unkindled One.
+10113001 [Good] I wish to express my gratitude.
+10113002 [Good] For trusting a lowly pyromancer, and allowing me to gaze upon your majestic flame.
+10113003 [Good] Here, take this.
+10113010 [Neutral] Most wise words from my beloved Unkindled.
+10113020 [Bad] Unkindled one, leave me be.
+10113030 [Marry] Ah-ha, marry me? Never have I been the object of desire.
+10113031 [Marry] This has truly renewed my flame.
+10113999 ### Relationship - Irina (m40)
+10114000 [Good] Sweet champion, you are truly a blessing.
+10114001 [Good] You have touched me so, take this.
+10114010 [Neutral] Oh, thank you sweet champion.
+10114011 [Neutral] I shall remember these words.
+10114020 [Bad] Is someone there, anyone?
+10114021 [Bad] Don't tease me like this.
+10114030 [Marry] Oh, sweet champion. You wish to marry me?
+10114031 [Marry] I am but a humble maiden, but I accept.
+10114999 ### Relationship - Patches (m40)
+10115000 [Good] Well, look at me. I am truly the luckiest man in the world.
+10115001 [Good] Here, I obtained some truly fine treasure recently, take it.
+10115010 [Neutral] Ah, oh, yes, of course...
+10115011 [Neutral] A lovely compliment, thank you sweetie.
+10115020 [Bad] Shame on you, you insatiable beast.
+10115021 [Bad] Now is not the time for such crude remarks.
+10115030 [Marry] Ooh la la, you are a true romantic.
+10115031 [Marry] To sweep the Unbreakable Patches off his feet is a feat indeed!
+10115999 ### Relationship - Astrologer Lillian (m40)
+10116000 [Good] Thank you for such beautiful words.
+10116001 [Good] You know, I was working on something for you.
+10116002 [Good] Perhaps you can have it now?
+10116010 [Neutral] Ah, how very kind of you.
+10116011 [Neutral] May the unknown cover you in its encompassing embrace.
+10116020 [Bad] Hello again.
+10116021 [Bad] Could you not bother me whilst I'm focusing?
+10116030 [Marry] Oh, what a kind offer.
+10116031 [Marry] I hereby accept your proposal.
+10116999 ### Relationship - Magnum Ursus (m40)
+10117000 [Good] Magnae dilectionis testimonium temporibus.
+10117010 [Neutral] Felix est dicta magnum ursus.
+10117020 [Bad] Non magnum molestum ursus.
+10117030 [Marry] Nubet ursa raptis catulis paruis magna.
+10117999 ### Relationship - Greirat (m40)
+10118000 [Good] I humbly accept your compliment.
+10118001 [Good] Here, I found this trinket whilst scavenging.
+10118002 [Good] I thought you might like it.
+10118010 [Neutral] Oh, what did you say?
+10118011 [Neutral] Those are kind words, especially for a  petty thief such as me.
+10118020 [Bad] I-I'm not asking for flattery, leave me be.
+10118030 [Marry] Ahh, you love a crook like me?
+10118031 [Marry] I must be the luckiest thief alive.
+10118999 ### Relationship - Yoel (m40)
+10119000 [Good] Champion of ash.
+10119001 [Good] I will do anything for my master, just say the word.
+10119002 [Good] Here, take this token of my affection.
+10119010 [Neutral] Ohh, I am honoured, truly.
+10119011 [Neutral] To receive such affection from a champion such as you.
+10119020 [Bad] Oh, my champion of ash.
+10119021 [Bad] Now is not the time.
+10119030 [Marry] Ohh… Ohh, what a honour.
+10119031 [Marry] To marry a champion of ash is a privilege indeed.
+10119999 ### Relationship - Solaire of Astora (m30)
+10120000 [Good] You are truly fond of me!
+10120001 [Good] You've a strong arm, strong faith, and most importantly, a strong heart.
+10120002 [Good] I am in awe, really. Here, take this as a token of my love.
+10120010 [Neutral] You really are fond of chatting with me, aren't you?
+10120011 [Neutral] If I didn't know better, I'd think you had feelings for me!
+10120012 [Neutral] Oh, no, dear me. Pretend you didn't hear that!
+10120013 [Neutral] Hah hah hah!
+10120020 [Bad] Oh, there you are.
+10120021 [Bad] You've been quiet these days.
+10120030 [Marry] Oh, ah hah! A proposition?
+10120031 [Marry] The way I see it, our fates appear to be intertwined.
+10120999 ### Relationship - Remy the Rat (m40)
+10121000 [Good] My servant, well met indeed.
+10121001 [Good] Thou'st permitted me to dream.
+10121002 [Good] One day, rats and humans may yet live and die together, in peace.
+10121003 [Good] Here, take this token of devotion.
+10121010 [Neutral] Thou return'st? Permit me ask.
+10121011 [Neutral] Wilt thou thy human soul surrender,
+10121012 [Neutral] and pledge thyself to me for eternity?
+10121020 [Bad] Why comest thou here, human?
+10121021 [Bad] Thy duplicity will not go unpunished.
+10121030 [Marry] Thy welcome.
+10121031 [Marry] Rejoice, for the right to worship me is now thine.
+10121999 ### Relationship - Ritualist Ellie (m40)
+10122000 [Good] Good gracious!
+10122001 [Good] You are a most ferverous lover, my dear.
+10122002 [Good] Take this token of my love.
+10122010 [Neutral] You have returned to dear Ellie?
+10122011 [Neutral] All thanks to my ritual you see.
+10122020 [Bad] Where is my ritual incense?
+10122021 [Bad] You don't have any? Get out of here then.
+10122030 [Marry] A marriage proposal?
+10122031 [Marry] Well, well, well, you are a looker, so yes,
+10122032 [Marry] I accept your offer.
+10122999 ### Relationship - Occultist Grudore (m40)
+10123000 [Good] Very good, very good indeed.
+10123001 [Good] Here, take this token of my appreciation.
+10123010 [Neutral] Cursed one, you lack charm.
+10123011 [Neutral] Heh heh heh...
+10123020 [Bad] Souls! I need souls! You cursed fool!
+10123021 [Bad] Bigger, stronger souls! Heh heh...
+10123030 [Marry] Well! This is a most peculiar proposal.
+10123031 [Marry] Prepare to peer straight into the heart of souls.
+10123032 [Marry] Heh heh heh...
+10123999 ### Relationship - Erstwhile George (m34_1)
+10124000 [Good] Incredible. You are certainly persuasive.
+10124001 [Good] Here, take this token of appreciation.
+10124010 [Neutral] An apt query, but it is not the time for such questions.
+10124020 [Bad] You are a guest of our castle.
+10124021 [Bad] But do not bother me further.
+10124030 [Marry] Is this... some sort of a dream?
+10124031 [Marry] Of course, I accept your proposal.
+11999999 ### Vanilla Talk
 12003600 Fire Keeper - Bonk Prelude
 12003601 Fire Keeper - Bonk
 22000000 It's a blade of God. -- 神の姿に刃するものよ
