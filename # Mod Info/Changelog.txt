@@ -30,6 +30,15 @@
 #------------------------------
 # Weapons
 #------------------------------
+Finish following weapons:
+ - ID
+ - Behavior/Resident SpEffects
+ - Reinforcement/Material Set
+ - Infusion Flags
+ - Correction Types (Fire/Dark)
+ - Attack Element Correct ID
+ - Scaling/Damage
+
 31450000 Aldia Hammer                    - Club
     Custom Warcry
 
@@ -81,6 +90,21 @@
 31690000 Gargoyle Halberd                - Halberd
 31700000 Gargoyle Tail Axe               - Battle Axe
 
+#------------------------------
+# Changelog
+#------------------------------
+
+
+#------------------------------
+# TODO
+#------------------------------
+Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
+ - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
+ - Bonfire: Soulbonds -> Vendor Name -> Inventory
+
+Make spell image repository
+
+Add the following armour:
 9946    Ice Sanctum Knight
 9947    Imported
 9948    Ironclad
@@ -91,21 +115,3 @@
 9953    Okami
 9954    Wolf
 
-#------------------------------
-# Changelog
-#------------------------------
-
-
-#------------------------------
-# TODO
-#------------------------------
-Finish following weapons:
- 31520000 Gargoyle Bident [Unique]
- 31690000 Gargoyle Halberd [Unique]
- 31700000 Gargoyle Tail Axe [Unique]
- 
-Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
- - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
- - Bonfire: Soulbonds -> Vendor Name -> Inventory
-
-Make spell image repository
