@@ -197,7 +197,7 @@ def t300500_x9():
             SetEventState(25008220, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t300500_x10(text1=10120030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
@@ -220,7 +220,7 @@ def t300500_x9():
         # Talk
         elif GetTalkListEntryResult() == 3:
             assert t300500_x10(text1=10010000, flag1=0, mode1=0)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()

@@ -180,6 +180,7 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
         elif GetTalkListEntryResult() == 6:
             c1111(22800, 22899)
             continue
+        # Covenant
         elif GetTalkListEntryResult() == 7:
             """ State 32,33 """
             SetEventState(25000204, 1)
@@ -193,7 +194,7 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
             SetEventState(25008160, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400260_x5(text1=10114030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 31:
             # Good

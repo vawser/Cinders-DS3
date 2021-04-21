@@ -212,7 +212,7 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
             SetEventState(25008020, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400120_x6(text1=10101030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 31:
             # Good

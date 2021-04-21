@@ -242,4 +242,4 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
 
 Fix texture paths in all the added model parts (long task)
- 
+ 0963 

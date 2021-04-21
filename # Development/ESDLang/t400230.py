@@ -209,7 +209,7 @@ def t400230_x8(goods1=2132, goods2=2133, goods3=2134, goods4=2140):
             SetEventState(25008120, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400230_x5(text1=10110030, flag2=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

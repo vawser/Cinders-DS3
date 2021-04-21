@@ -221,7 +221,7 @@ def t310500_x9():
         # Talk
         elif GetTalkListEntryResult() == 6:
             assert t310500_x10(text1=10011000, flag1=0, mode1=0)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()

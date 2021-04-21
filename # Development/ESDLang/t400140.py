@@ -163,10 +163,7 @@ def t400140_x9():
         """ State 2 """
         # Purchase Item
         AddTalkListData(1, 15011020, -1)
-        
-        # Tell of Orbeck's death
-        # AddTalkListDataIf(GetEventStatus(74000601) == 1 and ComparePlayerInventoryNumber(3, 2112, 4, 1, 0) == 1, 3, 15004020, -1)
-                          
+          
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008110) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
@@ -198,24 +195,6 @@ def t400140_x9():
             """ State 10 """
             OpenEnhanceShop(0)
             assert not (CheckSpecificPersonMenuIsOpen(9, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-        elif GetTalkListEntryResult() == 3:
-            """ State 13,20 """
-            # action:12004000:Give <?gdsparam@2112?>?
-            call = t400140_x0(action1=12004000)
-            if call.Get() == 0:
-                """ State 15,7 """
-                SetEventState(74000603, 1)
-                # goods:2112:Orbeck's Ashes
-                PlayerEquipmentQuantityChange(3, 2112, -1)
-                """ State 19 """
-                # talk:14001400:Ahh, I see Orbeck's claim is proven false.
-                assert t400140_x6(text1=14001400, flag2=0, mode1=1)
-                """ State 17 """
-                # lot:60400:Morion Blade
-                assert t400140_x7(lot1=60400)
-            elif call.Done():
-                """ State 14 """
-                pass
         elif GetTalkListEntryResult() == 9:
             assert t400140_x25(z2=35, z3=9038, flag1=25000303)
             return 0
@@ -227,7 +206,7 @@ def t400140_x9():
             SetEventState(25008110, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400140_x6(text1=10109030, flag2=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

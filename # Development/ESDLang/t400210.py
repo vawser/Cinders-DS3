@@ -607,7 +607,6 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
         elif GetTalkListEntryResult() == 4:
             """ State 5,18 """
             assert t400210_x14()
-            continue
         elif GetTalkListEntryResult() == 9:
             assert t400210_x21(z2=21, z3=9037, flag1=25000301)
             return 0
@@ -616,7 +615,7 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
             SetEventState(25008140, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400210_x5(text1=10112030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 31:
             # Good

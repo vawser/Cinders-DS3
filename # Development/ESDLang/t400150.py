@@ -320,13 +320,12 @@ def t400150_x16(z2=0, z3=2, z4=6, z5=12):
         elif GetTalkListEntryResult() == 4:
             """ State 5,20 """
             assert t400150_x15()
-            continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008210, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400150_x5(text1=10119030, flag2=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

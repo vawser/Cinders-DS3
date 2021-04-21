@@ -335,7 +335,7 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
             SetEventState(25008040, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             OpenGenericDialog(1, 99012035, 0, 0, 0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

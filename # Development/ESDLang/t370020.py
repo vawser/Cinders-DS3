@@ -233,7 +233,7 @@ def t370020_x9(lot1=4230, goods1=367, lot2=4238, lot3=4237, action1=15000406, ac
             SetEventState(25008050, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             OpenGenericDialog(1, 99012045, 0, 0, 0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

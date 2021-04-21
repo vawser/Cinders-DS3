@@ -197,13 +197,13 @@ def t400504_x9():
         # Talk
         elif GetTalkListEntryResult() == 2:
             assert t400504_x10(text1=10018000, flag1=0, mode1=0)
-            return 0
+            continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008190, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400504_x10(text1=10117030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
@@ -228,7 +228,7 @@ def t400504_x9():
             SetEventState(25009520, 1)
             PlayerEquipmentQuantityChange(3, 2002, -1)
             assert t400504_x10(text1=10117000, flag1=0, mode1=0)
-            return 0
+            continue
         # Relics
         elif GetTalkListEntryResult() == 7:
             assert t400504_x15()

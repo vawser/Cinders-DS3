@@ -177,9 +177,9 @@ def t400006_x9():
             SetEventState(25009600, 1)
             return 0
         # Talk
-        elif GetTalkListEntryResult() == 2:
+        elif GetTalkListEntryResult() == 3:
             assert t400006_x10(text1=10016000, flag1=0, mode1=0)
-            return 0
+            continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
           

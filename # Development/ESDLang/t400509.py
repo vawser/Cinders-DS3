@@ -200,7 +200,7 @@ def t400509_x9():
             SetEventState(25008250, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400509_x10(text1=10123030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
@@ -223,7 +223,7 @@ def t400509_x9():
         # Talk
         elif GetTalkListEntryResult() == 3:
             assert t400509_x10(text1=10023000, flag1=0, mode1=0)
-            return 0
+            continue
         # Curses
         elif GetTalkListEntryResult() == 20:
             assert t400509_x15()
@@ -231,30 +231,31 @@ def t400509_x9():
         # Purchase Items
         elif GetTalkListEntryResult() == 1:
             OpenRegularShop(290000, 290999)
+            continue
         # Give Farron Coal
         elif GetTalkListEntryResult() == 30:
             SetEventState(25009580, 1)
             PlayerEquipmentQuantityChange(3, 2103, -1)
             assert t400509_x10(text1=10023010, flag1=0, mode1=0)
-            return 0
+            continue
         # Give Sage's Coal
         elif GetTalkListEntryResult() == 31:
             SetEventState(25009581, 1)
             PlayerEquipmentQuantityChange(3, 2104, -1)
             assert t400509_x10(text1=10023010, flag1=0, mode1=0)
-            return 0
+            continue
         # Give Giant's Coal
         elif GetTalkListEntryResult() == 32:
             SetEventState(25009582, 1)
             PlayerEquipmentQuantityChange(3, 2105, -1)
             assert t400509_x10(text1=10023010, flag1=0, mode1=0)
-            return 0
+            continue
         # Give Profaned Coal
         elif GetTalkListEntryResult() == 33:
             SetEventState(25009583, 1)
             PlayerEquipmentQuantityChange(3, 2106, -1)
             assert t400509_x10(text1=10023010, flag1=0, mode1=0)
-            return 0
+            continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 

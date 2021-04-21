@@ -194,27 +194,27 @@ def t400507_x9():
         # Tortured Soul
         elif GetTalkListEntryResult() == 2:
             assert t400507_x10(text1=10011010, flag1=0, mode1=0)
-            return 0
+            continue
         # Give Tortured Soul
         elif GetTalkListEntryResult() == 3:
             SetEventState(25009530, 1)
             PlayerEquipmentQuantityChange(3, 2004, -1)
             assert t400507_x10(text1=10011030, flag1=0, mode1=0)
-            return 0
+            continue
         # Smithbox
         elif GetTalkListEntryResult() == 4:
             assert t400507_x10(text1=10011020, flag1=0, mode1=0)
-            return 0
+            continue
         # Give Smithbox
         elif GetTalkListEntryResult() == 5:
             SetEventState(25009540, 1)
             PlayerEquipmentQuantityChange(3, 2006, -1)
             assert t400507_x10(text1=10011030, flag1=0, mode1=0)
-            return 0  
+            continue
         # Talk
         elif GetTalkListEntryResult() == 6:
             assert t400507_x10(text1=10010000, flag1=0, mode1=0)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()

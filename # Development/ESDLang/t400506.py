@@ -211,7 +211,7 @@ def t400506_x9():
             SetEventState(25008230, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t400506_x10(text1=10121030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
@@ -234,7 +234,7 @@ def t400506_x9():
         # Talk
         elif GetTalkListEntryResult() == 2:
             assert t400506_x10(text1=10020000, flag1=0, mode1=0)
-            return 0
+            continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 

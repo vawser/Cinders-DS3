@@ -189,13 +189,13 @@ def t370501_x9():
         # Talk
         elif GetTalkListEntryResult() == 2:
             assert t370501_x10(text1=10014000, flag1=0, mode1=0)
-            return 0
+            continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008080, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t370501_x10(text1=10106030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

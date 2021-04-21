@@ -196,7 +196,7 @@ def t370160_x10():
             SetEventState(25008060, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             OpenGenericDialog(1, 99012055, 0, 0, 0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good

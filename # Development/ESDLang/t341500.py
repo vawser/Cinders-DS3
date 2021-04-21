@@ -188,7 +188,7 @@ def t341500_x9():
             SetEventState(25008260, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
             assert t341500_x10(text1=10124030, flag1=0, mode1=0)
-            return 0
+            continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
