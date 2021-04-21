@@ -180,6 +180,9 @@ def t400506_x9():
         # Divorce
         AddTalkListDataIf(GetEventStatus(25008230) == 1, 12, 15015042, -1)
         
+        # Talk
+        AddTalkListData(2, 99010001, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -192,32 +195,7 @@ def t400506_x9():
             c1114()
             def WhilePaused():
                 SetEventState(14005617, 1)
-            assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2))) 
-        # Form Betrothal
-        elif GetTalkListEntryResult() == 10:
-            SetEventState(25008230, 1)
-            PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012225, 0, 0, 0)
-            return 0
-        # Flirt
-        elif GetTalkListEntryResult() == 11:
-            # Good
-            if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012220, 0, 0, 0)
-                GetItemFromItemLot(90220)
-            # Neutral
-            elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012221, 0, 0, 0)
-            # Bad
-            elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012222, 0, 0, 0)
-            continue
-        # Divorce
-        elif GetTalkListEntryResult() == 12:
-            SetEventState(25008230, 0)
-            GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012222, 0, 0, 0)
-            return 0
+            assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         # Covenant
         elif GetTalkListEntryResult() == 7:
             """ State 32,33 """
@@ -228,9 +206,65 @@ def t400506_x9():
         elif GetTalkListEntryResult() == 3:
             c1111(22900, 22999)
             continue
+        # Form Betrothal
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25008230, 1)
+            PlayerEquipmentQuantityChange(3, 2000, -1)
+            assert t400506_x10(text1=10121030, flag1=0, mode1=0)
+            return 0
+        # Flirt
+        elif GetTalkListEntryResult() == 11:
+            # Good
+            if GetEventStatus(25008900):
+                assert t400506_x10(text1=10121000, flag1=0, mode1=0)
+                GetItemFromItemLot(90220)
+            # Neutral
+            elif GetEventStatus(25008901):
+                assert t400506_x10(text1=10121010, flag1=0, mode1=0)
+            # Bad
+            elif GetEventStatus(25008902):
+                assert t400506_x10(text1=10121020, flag1=0, mode1=0)
+            continue
+        # Divorce
+        elif GetTalkListEntryResult() == 12:
+            assert t400506_x10(text1=10121020, flag1=0, mode1=0)
+            SetEventState(25008230, 0)
+            GetItemFromItemLot(91000)
+            return 0
+        # Talk
+        elif GetTalkListEntryResult() == 2:
+            assert t400506_x10(text1=10020000, flag1=0, mode1=0)
+            return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
+# Talk Function
+def t400506_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400506_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t400506_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

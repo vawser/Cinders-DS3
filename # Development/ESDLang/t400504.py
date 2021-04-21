@@ -157,8 +157,6 @@ def t400504_x8():
 def t400504_x9():
     c1110()
     
-    
-    
     while True:
         ClearTalkListData()
         
@@ -196,43 +194,44 @@ def t400504_x9():
         if GetTalkListEntryResult() == 1:
             OpenRegularShop(260000, 260899)
             continue
+        # Talk
         elif GetTalkListEntryResult() == 2:
-            OpenGenericDialog(1, 99010002, 0, 0, 0)
-            continue
+            assert t400504_x10(text1=10018000, flag1=0, mode1=0)
+            return 0
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008190, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012185, 0, 0, 0)
+            assert t400504_x10(text1=10117030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012180, 0, 0, 0)
+                assert t400504_x10(text1=10117000, flag1=0, mode1=0)
                 GetItemFromItemLot(90180)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012181, 0, 0, 0)
+                assert t400504_x10(text1=10117010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012182, 0, 0, 0)
+                assert t400504_x10(text1=10117020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t400504_x10(text1=10117020, flag1=0, mode1=0)
             SetEventState(25008190, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012182, 0, 0, 0)
             return 0
         # Bestow the Lordvessel
         elif GetTalkListEntryResult() == 5:
             SetEventState(25009520, 1)
             PlayerEquipmentQuantityChange(3, 2002, -1)
-            OpenGenericDialog(1, 99010003, 0, 0, 0)
-            continue
+            assert t400504_x10(text1=10117000, flag1=0, mode1=0)
+            return 0
         # Relics
         elif GetTalkListEntryResult() == 7:
-            assert t400504_x11()
+            assert t400504_x15()
             return 0
         # Affixes
         elif GetTalkListEntryResult() == 3:
@@ -241,8 +240,35 @@ def t400504_x9():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-# Relics
+# Talk Function
+def t400504_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400504_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
 def t400504_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
+# Relics
+def t400504_x15():
     c1110()
     
     while True:

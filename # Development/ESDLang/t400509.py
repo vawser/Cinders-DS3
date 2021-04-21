@@ -199,30 +199,30 @@ def t400509_x9():
         if GetTalkListEntryResult() == 10:
             SetEventState(25008250, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99030613, 0, 0, 0)
+            assert t400509_x10(text1=10123030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99030610, 0, 0, 0)
+                assert t400509_x10(text1=10123000, flag1=0, mode1=0)
                 GetItemFromItemLot(90240)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99030611, 0, 0, 0)
+                assert t400509_x10(text1=10123010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99030612, 0, 0, 0)
+                assert t400509_x10(text1=10123020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t400509_x10(text1=10123020, flag1=0, mode1=0)
             SetEventState(25008250, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99030612, 0, 0, 0)
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:
-            OpenGenericDialog(1, 99030615, 0, 0, 0)
+            assert t400509_x10(text1=10023000, flag1=0, mode1=0)
             return 0
         # Curses
         elif GetTalkListEntryResult() == 20:
@@ -235,29 +235,56 @@ def t400509_x9():
         elif GetTalkListEntryResult() == 30:
             SetEventState(25009580, 1)
             PlayerEquipmentQuantityChange(3, 2103, -1)
-            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            assert t400509_x10(text1=10023010, flag1=0, mode1=0)
             return 0
         # Give Sage's Coal
         elif GetTalkListEntryResult() == 31:
             SetEventState(25009581, 1)
             PlayerEquipmentQuantityChange(3, 2104, -1)
-            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            assert t400509_x10(text1=10023010, flag1=0, mode1=0)
             return 0
         # Give Giant's Coal
         elif GetTalkListEntryResult() == 32:
             SetEventState(25009582, 1)
             PlayerEquipmentQuantityChange(3, 2105, -1)
-            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            assert t400509_x10(text1=10023010, flag1=0, mode1=0)
             return 0
         # Give Profaned Coal
         elif GetTalkListEntryResult() == 33:
             SetEventState(25009583, 1)
             PlayerEquipmentQuantityChange(3, 2106, -1)
-            OpenGenericDialog(1, 99030625, 0, 0, 0)
+            assert t400509_x10(text1=10023010, flag1=0, mode1=0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
+# Talk Function
+def t400509_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400509_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t400509_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 # Menu Loop
 def t400509_x15():
     c1110()

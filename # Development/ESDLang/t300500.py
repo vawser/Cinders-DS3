@@ -196,31 +196,31 @@ def t300500_x9():
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008220, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012215, 0, 0, 0)
+            assert t300500_x10(text1=10120030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012210, 0, 0, 0)
+                assert t300500_x10(text1=10120000, flag1=0, mode1=0)
                 GetItemFromItemLot(90210)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012211, 0, 0, 0)
+                assert t300500_x10(text1=10120010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012212, 0, 0, 0)
+                assert t300500_x10(text1=10120020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t300500_x10(text1=10120020, flag1=0, mode1=0)
             SetEventState(25008220, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012212, 0, 0, 0)
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:
-            OpenGenericDialog(1, 99013001, 0, 0, 0)
-            continue
+            assert t300500_x10(text1=10010000, flag1=0, mode1=0)
+            return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -229,6 +229,33 @@ def t300500_x9():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
+# Talk Function
+def t300500_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t300500_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t300500_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

@@ -204,6 +204,7 @@
 # NPCs
 - Lapp now moves after you pickup the Royal Knight Set in Dreg Heap.
 - Horace the Hushed now gives the Blue Sentinels covenant again.
+- Changed all the new dialogue to use the vanilla talk system (albeit without voice).
 
 # Map
 - Removed the Freezing Mist in Irithyll.
@@ -241,6 +242,4 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
  - Bonfire: Soulbonds -> Vendor Name -> Inventory
 
 Fix texture paths in all the added model parts (long task)
- 
-Try adding new talk with silent voice
  

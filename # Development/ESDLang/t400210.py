@@ -615,26 +615,26 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
         elif GetTalkListEntryResult() == 30:
             SetEventState(25008140, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012135, 0, 0, 0)
+            assert t400210_x5(text1=10112030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 31:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012130, 0, 0, 0)
+                assert t400210_x5(text1=10112000, flag1=0, mode1=0)
                 GetItemFromItemLot(90130)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012131, 0, 0, 0)
+                assert t400210_x5(text1=10112010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012132, 0, 0, 0)
+                assert t400210_x5(text1=10112020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 32:
+            assert t400210_x5(text1=10112020, flag1=0, mode1=0)
             SetEventState(25008140, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012132, 0, 0, 0)
             return 0
         else:
             """ State 6,19 """

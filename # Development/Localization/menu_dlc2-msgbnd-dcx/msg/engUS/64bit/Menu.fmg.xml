@@ -2874,33 +2874,6 @@ and haunted by a black sun.</text>
 <text id="70012021">%null%</text>
 <text id="70012022">%null%</text>
 <text id="70012023">%null%</text>
-<text id="80000000">Aye, siwmae. And good day to you.</text>
-<text id="80000001">I'm Domhnall of Zena. I'm just, well, a peddler, of sorts.</text>
-<text id="80000002">I adore trinkets and oddities, so I trade for them.</text>
-<text id="80000100">Hm... Oh, let me guess...
-Looking for baubles and trinkets in this strange land?</text>
-<text id="80000101">Yes, of course. We are both strangers in this strange land.
-But, at least now there are two of us.</text>
-<text id="80000102">Believe it or not... Irithyll brought the Deep upon itself.
-Fooled by that slimy beast, he upturned the grave of gods 
-and consumed the lot.</text>
-<text id="80000200">Ah, what? What? Who are you?
-Ahh, another Undead, eh? Those blasted wurms...</text>
-<text id="80000201">The lake is swarming with them.
-They must be killed before the ruins below can be entered.</text>
-<text id="80000202">Ahh, you think you're different? That you can handle it?
-Yes, I remember that feeling. For I was the same.</text>
-<text id="80000203">... So, let me help you out. With your soul-searching.</text>
-
-<text id="80000300">Well, you are a rare visitor.
-Welcome to the sanctum, ashen one.</text>
-<text id="80000301">If you seek the power of the magical arts,
-I may be able to help with that. I dabble in all kinds.</text>
-<text id="80000302">Watch your back out there. 
-Mindless hollows wander the grounds surrounding the shrine.</text>
-<text id="80000303">Don't underestimate the hollows. 
-They may be mindless, but their blades still cut deep.</text>
-
 <text id="90000000">%null%</text>
 <text id="90000001">%null%</text>
 <text id="90000002">%null%</text>
@@ -3500,9 +3473,6 @@ STR, DEX, INT, FTH or LCK.</text>
 <text id="99007000">Enemies of yore restored</text>
 <text id="99010000">Marks</text>
 <text id="99010001">Talk</text>
-<text id="99010002">O turpi viridi egredere de beatus praetorium,
-et deficient et in studiorum omnium satietas.</text>
-<text id="99010003">Ego misera, da mihi potestatem, phialam argenteam.</text>
 <text id="99010100">Mark of Attraction</text>
 <text id="99010101">Mark of the Dog</text>
 <text id="99010102">Mark of the Crab</text>
@@ -3539,218 +3509,11 @@ Enables Primordial material to drop from bosses.</text>
 <text id="99011201">Mark of the Dog broken.</text>
 <text id="99011202">Mark of the Crab broken.</text>
 <text id="99011203">Mark of Valor broken.</text>
-<text id="99012000">Oh, there you are.
-I thought you'd all but forgotten me. How sweet.
-Good to know that a skinny little heretic can still turn heads.
-Here, take this memento of our sordid affair.</text>
-<text id="99012001">Ahh, hello again. Thank goodness.
-One can become quite attached, even to a bumbling apprentice.</text>
-<text id="99012002">Oh bother. Leave me be so that I may study.</text>
-<text id="99012005">You're here to propose to me?
-But I am guilty. A wretched child of the Abyss.
-Is that something you can forgive?</text>
-<text id="99012010">Ashen One, this is...
-Very much how I feel towards you. Forgive me.
-But I created this gift for you, I hope you enjoy it.</text>
-<text id="99012011">Ashen one, may I pose thee a question?
-Do you feel as I do? With the fury of the flames?</text>
-<text id="99012012">Ashen One, the fires must be tended to.
-Without me, they will be extinguished.</text>
-<text id="99012015">Ashen One, I am unworthy of your love.
-But I accept your offer.</text>
-<text id="99012020">Uncle Gael has warned me about your bad jokes.
-He told me to give you this.</text>
-<text id="99012021">Oh, that is funny. But I'd rather focus on my
-painting for now.</text>
-<text id="99012022">What an awful joke.
-I banish you!.</text>
-<text id="99012025">This world is awfully lonely. A friend would be welcome.</text>
-<text id="99012030">The shriveled body of Rosaria appears to squirm 
-in a joyous manner. A gift pops out from beneath her quivering mass.</text>
-<text id="99012031">The shriveled body of Rosaria appears to squirm 
-in a dull manner.</text>
-<text id="99012032">The shriveled body of Rosaria appears to squirm 
-in a anxious manner.</text>
-<text id="99012035">The shriveled body of Rosaria appears to squirm 
-in a sensual manner.</text>
-<text id="99012040">The decayed corpse of Archdeacon McDonnell appears 
-to pulsate in a rhymathic fashion. 
-A gift pops out from beneath his decaying mass.</text>
-<text id="99012041">The decayed corpse of Archdeacon McDonnell appears 
-to pulsate in a dull fashion.</text>
-<text id="99012042">The decayed corpse of Archdeacon McDonnell remains 
-absolutely still.</text>
-<text id="99012045">The decayed corpse of Archdeacon McDonnell emits 
-a loud gaseous expulsion.</text>
-<text id="99012050">I, Yorshka, love thine heart as thou'st love 
-the moon and sky. 
-Here, take this token of appreciation, thou'rt most deserving of it.</text>
-<text id="99012051">My dear, thy love merit great deeds.
-Set forth and accomplish such deeds in thine name.</text>
-<text id="99012052">Art thou a creature of lust?
-Begone!</text>
-<text id="99012055">Oh, my! Thou'st love is sweet. If thou'st speak'th
-with true intent.</text>
-<text id="99012060">I never thought you'd confess such beautiful words 
-to me. Hmm... What can I say? Take this trinket as a sign of my love.</text>
-<text id="99012061">Those are truly wonderful thoughts.
-Do they come with new trinkets too?</text>
-<text id="99012062">Aye, siwmae. Oh, you feel that way?
-I can't say I've thought much about you I'm afraid.</text>
-<text id="99012065">What a wonderful notion. 
-Let us arrange an ceremony in this here cathedral.</text>
-<text id="99012070">Mwah hah hah! A splendid display of affection.
-Here, take this gift, you deserve it.</text>
-<text id="99012071">Believe it or not... But I to feel that
-way about you. That'll put some spring into your step.</text>
-<text id="99012072">You have quite some nerve. Or are you just thick?</text>
-<text id="99012075">A grand notion. Yes, magnificently so!</text>
-<text id="99012080">Yes, I remember that feeling. 
-For I was once the same. Here, take this trinket.</text>
-<text id="99012081">Hm... Oh, yes, it's you.
-A kind notion, but little use in these tombs.</text>
-<text id="99012082">Let me give you a nibble of advice.
-Don't even consider talking to me again.</text>
-<text id="99012085">Ah, what? What? Marriage?
-Ahh, I guess so.</text>
-<text id="99012090">Ahh, most illustrious Lordseeker.
-Your words have touched me so. Take this memento as
-a sign of our connection.</text>
-<text id="99012091">Ah-hah, thou'rt returned.
-What's to fear in a little tenderness, now?</text>
-<text id="99012092">Knowest thou of your purpose?
-Begone and preserve the fading Flame.</text>
-<text id="99012095">Oh, thou'rt a kind Unkindled.
-And I a Lord of Cinder, in want of tenderness.</text>
-<text id="99012100">Thy desire is matched.
-Bearer of the dark sigil, and our Lord of Hollows.
-I present you this gift of my affection.</text>
-<text id="99012101">Our Lord and Liege.
-I too feel this way, but alas your lordship must come first.</text>
-<text id="99012102">Oh, good Hollow. I'm afraid I must say...
-Such notions will imperil thy rule.</text>
-<text id="99012105">Thou'rt a Lord, art thou not?
-Alas, your kindness is welcome.</text>
-<text id="99012110">Oh, my... You are stupendous.
-Here, I was saving this for later, but you should have it now.</text>
-<text id="99012111">Oh, how gracious. Do promise to stay safe
-out there, this land isn't fit for such noble hearts.</text>
-<text id="99012112">How intriguing. A rather pathetic attempt
-at courtship, wouldn't you say?</text>
-<text id="99012115">Well, this is unexpected, but I echo the sentiment.
-Very well, let us form a union.</text>
-<text id="99012120">Ah, I'm but a weary old smith.
-Nevertheless, take this here token as a sign of my appreciation.</text>
-<text id="99012121">Ahh, well met.
-Tis good to see you in good health.</text>
-<text id="99012122">I warn you, back off.
-I am in no mood for such trifling notions.</text>
-<text id="99012125">Well, this is a surpise.
-Tis good to find nobility in these trying times.</text>
-<text id="99012130">Gracious. Fine compliment thou'st given.
-Thou'rt has warmed thine cockles. Here, take thine token of desire.</text>
-<text id="99012131">Oh, knowest thou of that soppy gossip?
-Me? Thy suppeth too much on airy notions.</text>
-<text id="99012132">Ashen One, thy layeth nary a soul upon my feet?</text>
-<text id="99012135">Ashen One, to desire such soppy seconds.
-Thy pockets must o'erflow with good will.</text>
-<text id="99012140">Ahh, there you, Unkindled One. I wish to express my gratitude.
-For trusting a lowly pyromancer, and allowing me to gaze upon your majestic flame.
-Here, take this.</text>
-<text id="99012141">Most wise words from my beloved Unkindled.</text>
-<text id="99012142">Unkindled one, leave me be.</text>
-<text id="99012145">Ah-ha, marry me? Never have I been the object of desire.
-This has truly renewed my flame.</text>
-<text id="99012150">Sweet champion, you are truly a blessing.
-You have touched me so, take this.</text>
-<text id="99012151">Oh, thank you sweet champion.
-I shall remember these words.</text>
-<text id="99012152">Is someone there, anyone?
-Don't tease me like this.</text>
-<text id="99012155">Oh, sweet champion. You wish to marry me?
-I am but a humble maiden, but I accept.</text>
-<text id="99012160">Well, look at me. I am truly the luckiest man in the world.
-Here, I obtained some truly fine treasure recently, take it.</text>
-<text id="99012161">Ah, oh, yes, of course...
-A lovely compliment, thank you sweetie.</text>
-<text id="99012162">Shame on you, you insatiable beast.
-Now is not the time for such crude remarks.</text>
-<text id="99012165">Ooh la la, you are a true romantic.
-To sweep the Unbreakable Patches off his feet is a feat indeed!</text>
-<text id="99012170">Thank you for such beautiful words.
-You know, I was working on something for you, 
-perhaps you can have it now?</text>
-<text id="99012171">Ah, how very kind of you. May the
-dark cover you in its encompassing embrace.</text>
-<text id="99012172">Hello again. Could you not bother me
-whilst I'm focusing on such important matters?</text>
-<text id="99012175">Oh, what a kind offer.
-I hereby accept your proposal.</text>
-<text id="99012180">Magnae dilectionis testimonium temporibus.</text>
-<text id="99012181">Felix est dicta magnum ursus.</text>
-<text id="99012182">Non magnum molestum ursus.</text>
-<text id="99012185">Nubet ursa raptis catulis paruis magna.</text>
-<text id="99012190">I humbly accept your compliment.
-Here, I found this trinket whilst scavenging,
-I thought you might like it.</text>
-<text id="99012191">Oh, what did you say?
-Those are kind words, especially for a  petty thief such as me.</text>
-<text id="99012192">I-I'm not asking for flattery, leave me be.</text>
-<text id="99012195">Ahh, you love a crook like me?
-I must be the luckiest thief in the world.</text>
-<text id="99012200">Champion of ash.
-I will do anything for my master, just say the word.
-Here, take this token of my affection.</text>
-<text id="99012201">Ohh, I am honoured, truly.
-To receive such affection from a champion such as you.</text>
-<text id="99012202">Oh, my champion of ash.
-Now is not the time.</text>
-<text id="99012205">Ohh… Ohh, what a honour.
-To marry a champion of ash is a privilege indeed.</text>
-<text id="99012210">You are truly fond of me!
-You've a strong arm, strong faith, and most importantly, a strong heart.
-I am in awe, really. Here, take this as a token of my love.</text>
-<text id="99012211">You really are fond of chatting with me, aren't you?
-If I didn't know better, I'd think you had feelings for me!
-Oh, no, dear me. Pretend you didn't hear that!
-Hah hah hah!</text>
-<text id="99012212">Oh, there you are.
-You've been quiet these days.</text>
-<text id="99012215">Oh, ah hah! A proposition?
-The way I see it, our fates appear to be intertwined.</text>
-<text id="99012220">My servant, well met indeed.
-Thou'st permitted me to dream. One day, rats and humans may 
-yet live and die together, in peace.
-Here, take this token of devotion.</text>
-<text id="99012221">Thou return'st? Permit me ask. 
-Wilt thou thy human soul surrender, 
-and pledge thyself to me for eternity?</text>
-<text id="99012222">Why comest thou here, human?
-Thy duplicity will not go unpunished.</text>
-<text id="99012225">Thy welcome.
-Rejoice, for the right to worship me is now thine.</text>
-<text id="99013000">Welcome, ashen one.
-I've been resting here for quite some time.
-Say, how would you like to try one of my enchanted oils?</text>
-<text id="99013001">Ah, hello! You don't look Hollow, far from it!
-I am Solaire of Astora, an adherent of the Lord of Sunlight.</text>
+
 <text id="99013100">Tortured Soul</text>
 <text id="99013101">Give Tortured Soul</text>
-<text id="99013105">Interested in a little quest are we?
-I've been aching to work on something truly extraordinary, 
-but I lack a crucial ingredient.
-
-If you would be so kind, please fetch me a tortured soul 
-from the decrepit cathedral.</text>
-<text id="99013106">Thank you.</text>
 <text id="99013110">Smithbox</text>
 <text id="99013111">Give Smithbox</text>
-<text id="99013115">Blasted thieves!
-It seems that a ne'er-do-well has swiped my toolbox.
-Would you mind retrieving it for me?
-I believe I saw the rapscallion running off 
-towards the castle.</text>
-<text id="99013116">Thank you.</text>
 <text id="99013120">Send to Overgrown Sanctum</text>
 
 <text id="99015000">Apply Affix</text>
@@ -4006,52 +3769,12 @@ in this journey yet.</text>
 <text id="99030412">It's locked, requires Dreg Key</text>
 <text id="99030413">It's locked, requires Burning Key</text>
 <text id="99030500">Purchase Items</text>
-<text id="99030501">Bring me any ritual incense you find.
-In exchange I can offer training for your companions.
-Don't tarry now, on you go.</text>
-<text id="99030510">Good gracious!
-You are a most ferverous lover, my dear.
-Take this token of my love.</text>
-<text id="99030511">You have returned to dear Ellie?
-All thanks to my ritual you see.</text>
-<text id="99030512">Where is my ritual incense?
-You don't have any? Get out of here then.</text>
-<text id="99030513">A marriage proposal?
-Well, well, well, you are a looker, so yes,
-I accept your offer.</text>
 
-<text id="99030610">Very good, very good indeed.
-Here, take this token of my appreciation.</text>
-<text id="99030611">Cursed one, you lack charm.
-Heh heh heh...</text>
-<text id="99030612">Souls! I need souls! You cursed fool!
-Bigger, stronger souls! Heh heh...</text>
-<text id="99030613">Well! This is a most peculiar proposal.
-Prepare to peer straight into the heart of souls.
-Heh heh heh...</text>
-<text id="99030615">Still a bit stiff, I'm afraid.
-I am Grudore. A wandering occultist of sorts.
-Bring me souls and I can provide
-goods and services that may be of use to you.</text>
 <text id="99030620">Give Farron Coal</text>
 <text id="99030621">Give Sage's Coal</text>
 <text id="99030622">Give Giant's Coal</text>
 <text id="99030623">Give Profaned Coal</text>
-<text id="99030625">Thank you. This coal will help me greatly.
-Heh heh heh...</text>
-<text id="99030710">Incredible. You are certainly persuasive.
-Here, take this token of appreciation.</text>
-<text id="99030711">An apt query, but it is not the time for such questions.</text>
-<text id="99030712">You are a guest of our castle. 
-But do not bother me further.</text>
-<text id="99030713">Is this... some sort of a dream?
-Of course, I accept your proposal.</text>
-<text id="99030715">I am a collector of sorts.
-Feel free to peruse my collection. 
-For the right amount of souls, I may be willing 
-to part with some items of interest.</text>
 
-<text id="99030720">BONK!</text>
 <text id="99030730">You must possess the Seal of Judgment to peer into the past.</text>
 
 <text id="99031000">Memory of Skeletons</text>

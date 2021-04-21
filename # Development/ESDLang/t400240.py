@@ -387,26 +387,26 @@ def t400240_x16(goods1=2127, goods2=2128, goods3=2129, goods4=2130, goods5=2131,
         elif GetTalkListEntryResult() == 30:
             SetEventState(25008150, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012145, 0, 0, 0)
+            assert t400240_x5(text1=10113030, flag2=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 31:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012140, 0, 0, 0)
+                assert t400240_x5(text1=10113000, flag2=0, mode1=0)
                 GetItemFromItemLot(90140)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012141, 0, 0, 0)
+                assert t400240_x5(text1=10113010, flag2=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012142, 0, 0, 0)
+                assert t400240_x5(text1=10113020, flag2=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 32:
+            assert t400240_x5(text1=10113020, flag2=0, mode1=0)
             SetEventState(25008150, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012142, 0, 0, 0)
             return 0
         else:
             """ State 7,17 """

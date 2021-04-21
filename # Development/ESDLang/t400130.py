@@ -205,26 +205,26 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008100, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012095, 0, 0, 0)
+            assert t400130_x6(text1=10108030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012090, 0, 0, 0)
+                assert t400130_x6(text1=10108000, flag1=0, mode1=0)
                 GetItemFromItemLot(90090)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012091, 0, 0, 0)
+                assert t400130_x6(text1=10108010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012092, 0, 0, 0)
+                assert t400130_x6(text1=10108020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t400130_x6(text1=10108020, flag1=0, mode1=0)
             SetEventState(25008100, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012092, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 7,13 """

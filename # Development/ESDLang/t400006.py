@@ -162,6 +162,9 @@ def t400006_x9():
         # Memory of Skeletons
         AddTalkListData(1, 99031000, -1)
 
+        # Talk
+        AddTalkListData(3, 15000000, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -173,9 +176,40 @@ def t400006_x9():
         if GetTalkListEntryResult() == 1:
             SetEventState(25009600, 1)
             return 0
+        # Talk
+        elif GetTalkListEntryResult() == 2:
+            assert t400006_x10(text1=10016000, flag1=0, mode1=0)
+            return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-            
+          
+# Talk Function
+def t400006_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400006_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t400006_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

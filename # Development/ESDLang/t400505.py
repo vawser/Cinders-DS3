@@ -206,12 +206,38 @@ def t400505_x9():
             continue
         # Talk
         elif GetTalkListEntryResult() == 6:
-            OpenGenericDialog(1, 99013000, 0, 0, 0)
-            continue
+            assert t400505_x10(text1=10019000, flag1=0, mode1=0)
+            return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
-            
+# Talk Function
+def t400505_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400505_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t400505_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

@@ -196,43 +196,32 @@ def t370500_x9():
             return 0
         # Talk
         elif GetTalkListEntryResult() == 2:
-            # Stage 1
-            if GetEventStatus(73709100) == 0:
-                OpenGenericDialog(1, 80000000, 0, 0, 0)
-                SetEventState(73709100, 1)
-            # Stage 2
-            elif GetEventStatus(73709100) == 1 and GetEventStatus(73709101) == 0:
-                OpenGenericDialog(1, 80000001, 0, 0, 0)
-                SetEventState(73709101, 1)
-            # Stage 3
-            elif GetEventStatus(73709100) == 1 and GetEventStatus(73709101) == 1 and GetEventStatus(73709102) == 0:
-                OpenGenericDialog(1, 80000002, 0, 0, 0)
-                SetEventState(73709102, 1)
-            continue
+            assert t370500_x10(text1=10013000, flag1=0, mode1=0)
+            return 0
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008070, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012065, 0, 0, 0)
+            assert t370500_x10(text1=10105030, flag1=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012060, 0, 0, 0)
+                assert t370500_x10(text1=10105000, flag1=0, mode1=0)
                 GetItemFromItemLot(90060)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012061, 0, 0, 0)
+                assert t370500_x10(text1=10105010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012062, 0, 0, 0)
+                assert t370500_x10(text1=10105020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t370500_x10(text1=10105020, flag1=0, mode1=0)
             SetEventState(25008070, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012062, 0, 0, 0)
             return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -241,6 +230,33 @@ def t370500_x9():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
+# Talk Function
+def t370500_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t370500_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t370500_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

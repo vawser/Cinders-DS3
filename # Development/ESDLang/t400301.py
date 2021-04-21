@@ -482,26 +482,26 @@ def t400301_x21():
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008170, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012165, 0, 0, 0)
+            assert t400301_x5(text3=10115030, flag5=0, mode1=0)
             return 0
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012160, 0, 0, 0)
+                assert t400301_x5(text3=10115000, flag5=0, mode1=0)
                 GetItemFromItemLot(90160)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012161, 0, 0, 0)
+                assert t400301_x5(text3=10115010, flag5=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012162, 0, 0, 0)
+                assert t400301_x5(text3=10115020, flag5=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
+            assert t400301_x5(text3=10115020, flag5=0, mode1=0)
             SetEventState(25008170, 0)
             GetItemFromItemLot(91000)
-            OpenGenericDialog(1, 99012162, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 9 """
