@@ -98,6 +98,12 @@ the sword that rules storms</text>
 thee to Lothric</text>
 <text id="4011">To soothe the dark sigil,
 pillage the Fire Keeper's grave</text>
+
+<text id="5000">Gesticulate</text>
+<text id="5001">Praise it!</text>
+<text id="5002">Kneel before the splendiferous pot</text>
+<text id="5003">Mother's grave beckons</text>
+
 <text id="9000">&lt;?kgCamera?&gt;: Control Camera</text>
 <text id="9001">&lt;?kgMenu?&gt;: Open menu</text>
 <text id="9002">&lt;?kgAttackR?&gt;: Regular attack</text>
@@ -5992,5 +5998,6 @@ In Precision Fire Mode &lt;?selectUD?&gt; : Zoom</text>
 <text id="1169029">Ahh, it'll happen to you too...</text>
 <text id="1169030">Ahh, praise the Sun!...</text>
 <text id="1169031">Ahh, may the flames guide thee...</text>
+
 </entries>
 </fmg>

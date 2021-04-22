@@ -2580,6 +2580,14 @@ Uniquely cultivated by Occultist Grudore, this blossom draws upon its wielder's 
 Repairs equipped weapons and armor, as long as they haven't already broken.
 
 Uniquely crafted by Occultist Grudore, this powder draws upon its wielder's focus, allowing for endless usage.</text>
+
+<text id="5500">A fragment of titanite.
+
+Temporary boost poise by 50% for 60 seconds.
+
+As the aeons passed, shards of the mythical titanite demon have been discovered. 
+When held it provides the holder with a sense of poise.</text>
+
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>
 <text id="8002">Enable kill mode</text>

@@ -1568,60 +1568,95 @@ Event(20005331, Restart, function(X0_4) {
     ClearSpeffect(X0_4, 5000);
 });
 
-// Enemy - One-time Apperance
+//-----------------------------------
+// Enemy - Disable on Kill
+// <defeated flag>, <entity id>
+//-----------------------------------
 Event(20005340, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
+    
+    // Disable enemy
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     ForceCharacterDeath(X4_4, false);
     EndUnconditionally(EventEndType.End);
+    
+    // Set defeated flag if enemy is killed
     Label0();
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndUnconditionally(EventEndType.End);
 });
 
-// Enemy - Award Item on Kill
+//-----------------------------------
+// Enemy - Disable on Kill, Award Item on Kill
+// <defeated flag>, <entity id>, <itemlot>
+//-----------------------------------
 Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
+    
+    // Disable enemy
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     ForceCharacterDeath(X4_4, false);
     EndUnconditionally(EventEndType.End);
+    
+    // Award item if enemy is killed
     Label0();
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     AwardItemsIncludingClients(X8_4);
+    
     EndUnconditionally(EventEndType.End);
 });
 
-// Enemy - Show Treasure if Killed but Treasure missed
+//-----------------------------------
+// Enemy - Disable on Kill, Force Treasure on reload
+// <defeated flag>, <entity id>
+//-----------------------------------
 Event(20005342, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
+    
+    // Disable enemy, force treasure
     ChangeCharacterEnableState(X4_4, Disabled);
     ForceCharacterTreasure(X4_4);
     EndUnconditionally(EventEndType.End);
+    
+    // Set defeated flag if enemy is killed
     Label0();
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
 });
 
-// Enemy - Show Treasure if Killed but Treasure missed
+//-----------------------------------
+// Enemy - Disable on Kill, Force Treasure on reload if not already taken
+// <defeated flag>, <entity id>, <itemlot flag>
+//-----------------------------------
 Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
+    
+    // Disable enemy
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
+    
+    // Skip force treasure if itemlot has already been taken
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X8_4);
     ForceCharacterTreasure(X4_4);
+    
     ForceCharacterDeath(X4_4, false);
     EndUnconditionally(EventEndType.End);
+    
+    // Set defeated flag if enemy is killed
     Label0();
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
 });
 
-// Enemy - One-time Item Drop
+//-----------------------------------
+// Enemy - Award Itemlot on initial kill
+// <enemy>, <itemlot>, <itemlot flag>
+//-----------------------------------
 Event(20005350, Default, function(X0_4, X4_4, X8_4) {
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
@@ -1630,7 +1665,10 @@ Event(20005350, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Enemy - Award Itemlot (Respawns) - Entity ID, Itemlot ID, Loot flag ID, Delay
+//-----------------------------------
+// Enemy - Award Itemlot on initial kill with delay
+// <enemy>, <itemlot>, <itemlot flag>, <seconds>
+//-----------------------------------
 Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
@@ -1639,6 +1677,9 @@ Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//-----------------------------------
+// Enemy - Set Event Target
+//-----------------------------------
 Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1);
@@ -1647,6 +1688,9 @@ Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterEventTarget(X0_4, X4_4);
 });
 
+//-----------------------------------
+// Enemy - Set Event Target
+//-----------------------------------
 Event(20005361, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
@@ -2338,22 +2382,32 @@ Event(20005511, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Chest - Setup - Used ID, Entity ID, ObjAct ID
+//------------------------
+// Chest - Setup
+// <used flag>, <object id>, <ObjAct id>
+//------------------------
 Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ReproduceObjectAnimation(X4_4, 1);
-    SetObjactState(X4_4, -1, Disabled);
-    SetObjectTreasureState(X4_4, Enabled);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
+    
+    // Used chest
+    ReproduceObjectAnimation(X4_4, 1); // Open the chest
+    SetObjactState(X4_4, -1, Disabled); // Disable interaction
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     EndUnconditionally(EventEndType.End);
+    
+    // Unused chest
     Label0();
-    SetObjectTreasureState(X4_4, Disabled);
-    IfObjactEventFlag(MAIN, X8_4);
+    SetObjectTreasureState(X4_4, Disabled); // Disable treasure
+    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
     WaitFixedTimeFrames(10);
-    SetObjectTreasureState(X4_4, Enabled);
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
 });
 
-// Pot Treasure - Setup - Used ID, Network Used ID, Pot ID, Corpse ID, Itemlot ID 
+//------------------------
+// Pot Treasure - Setup
+// <used flag>, <flag>, <object id>, <treasure object id>, <itemlot>
+//------------------------
 Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
     IfObjectDestroyed(MAIN, DestructionState.Destroyed, X8_4, ComparisonType.Equal, 1);
@@ -2374,7 +2428,10 @@ Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Destructible Treasure - Setup - Used ID, Entity ID, ObjAct ID
+//------------------------
+// Destructible Treasure - Setup
+// <used flag>, <object id>, <ObjAct id>
+//------------------------
 Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventIDSlotNumber, 0);
     ReproduceObjectAnimation(X4_4, 1);
@@ -2389,7 +2446,10 @@ Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
     SetObjectTreasureState(X4_4, Enabled);
 });
 
-// NG+ Treasure - Setup - Entity ID, Game Cycle Value
+//------------------------
+// NG+ Treasure - Setup
+// <object>, <cycle>
+//------------------------
 Event(20005523, Restart, function(X0_4, X4_1) {
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
@@ -2401,22 +2461,34 @@ Event(20005523, Restart, function(X0_4, X4_1) {
     SetObjectTreasureState(X0_4, Enabled);
 });
 
-// Event Treasure - Setup - Entity ID, Event Flag
+//------------------------
+// Event Treasure - Setup
+// <object>, <conditional flag>
+//------------------------
 Event(20005524, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4); // Goto Label 0 if conditional flag is ON
+    
+    // Disable treasure object
     DeactivateObject(X0_4, Disabled);
     SetObjectTreasureState(X0_4, Disabled);
     EndUnconditionally(EventEndType.End);
+    
+    // Enable treasure object if conditional flag is ON
     Label0();
     DeactivateObject(X0_4, Enabled);
     SetObjectTreasureState(X0_4, Enabled);
 });
 
-// FFX Treasure - Setup - Used ID, Itemlot ID, Entity ID, FFX ID
+//------------------------
+// FFX Treasure - Custom FFX
+// <used flag>, <itemlot>, <object>, <ffx>
+//------------------------
 Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
+    
+    // Award item to player when used
     CreateObjectfollowingSFX(X8_4, 90, X12_4);
     IfActionButtonInArea(MAIN, 9700, X8_4);
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
@@ -2424,14 +2496,21 @@ Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
     AwardItemLot(X4_4);
 });
 
-// Treasure - Used ID, Entity ID, Entity ID, FFX ID, Activate Flag
+//------------------------
+// FFX Treasure - Custom FFX, Conditional Visibility
+// <used flag>, <itemlot>, <object>, <ffx>, <conditional flag>
+//------------------------
 Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X16_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X16_4); // Enable if condition flag is ON
+    
+    // Disable object
     DeactivateObject(X4_4, Disabled);
     EndUnconditionally(EventEndType.End);
+    
+    // Award item to player when used
     Label0();
     DeactivateObject(X4_4, Enabled);
     CreateObjectfollowingSFX(X8_4, 90, X12_4);
@@ -2441,23 +2520,33 @@ Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     AwardItemLot(X4_4);
 });
 
-// FFX Treasure
+//------------------------
+// FFX Treasure - Custom Action Button, Selector FFX
+// <used flag>, <itemlot>, <object>, <selector>, <action button>
+//------------------------
 Event(20005527, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
+    
+    // Select intensity of FFX based on selector arg
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X12_4, 0);
     GotoIfComparison(Label.LABEL1, ComparisonType.Equal, X12_4, 1);
     GotoIfComparison(Label.LABEL2, ComparisonType.Equal, X12_4, 2);
+    
     Label0();
-    CreateObjectfollowingSFX(X8_4, 90, 60);
+    CreateObjectfollowingSFX(X8_4, 90, 60); // Rarity 0
     GotoUnconditionally(Label.LABEL9);
+    
     Label1();
-    CreateObjectfollowingSFX(X8_4, 90, 61);
+    CreateObjectfollowingSFX(X8_4, 90, 61); // Rarity 1
     GotoUnconditionally(Label.LABEL9);
+    
     Label2();
-    CreateObjectfollowingSFX(X8_4, 90, 62);
+    CreateObjectfollowingSFX(X8_4, 90, 62); // Rarity 2
     GotoUnconditionally(Label.LABEL9);
+    
+    // Award item to player when used
     Label9();
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
     IfActionButtonInArea(AND_01, X16_4, X8_4);
@@ -2592,38 +2681,57 @@ Event(20005581, Restart, function(X0_4, X4_4) {
     DeactivateObjactAssignIdx(X0_4, X4_4, 3, Disabled);
 });
 
-// Setup Door Use Area
+//-----------------------------------
+// Door - Setup Interaction Area
+// <used flag>, <region 1>, <region 2>
+//-----------------------------------
 Event(20005610, Default, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, OR_01);
-    SetSpeffect(10000, 4150);
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 1 if door was previously opened
+    
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1); // Player is in region 1
+    
+    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1); // Player is hollow
+    SkipIfConditionGroupStateUncompiled(1, FAIL, OR_01); // Skip if player isn't alive or hollow
+    SetSpeffect(10000, 4150); // Allow door usage
+    
     WaitFixedTimeSeconds(3);
+    
     EndUnconditionally(EventEndType.Restart);
+    
+    // Door was opened, both sides may be used
     Label1();
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X8_4, 1);
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Player is in region 1
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X8_4, 1); // Player is in region 2
     IfConditionGroup(MAIN, PASS, OR_01);
-    SetSpeffect(10000, 4150);
+    SetSpeffect(10000, 4150); // Allow door usage
     WaitFixedTimeSeconds(3);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Setup Door
+//-----------------------------------
+// Door - Handle Door State
+// <used flag>, <object activated flag>, <object>, <ObjAct param row>
+//-----------------------------------
 Event(20005611, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if door was not previously opened
+    
+    // Disable door
     DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 1, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 2, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 3, Disabled);
     EndUnconditionally(EventEndType.End);
+    
+    
     Label0();
-    IfObjactEventFlag(MAIN, X4_4);
-    SetEventFlag(X0_4, ON);
+    IfObjactEventFlag(MAIN, X4_4); // Wait for object activated flag (+2000 of entity ID)
+    SetEventFlag(X0_4, ON); // Set object used flag
     WaitFixedTimeSeconds(2);
+    
+    // Disable door
     DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 1, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 2, Disabled);
@@ -2631,61 +2739,96 @@ Event(20005611, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//-----------------------------------
+// Door - UNUSED
+//-----------------------------------
 Event(20005612, Default, function(X0_4, X4_4) {
     IfObjactEventFlag(MAIN, X4_4);
     SetEventFlag(X0_4, ON);
 });
 
-// Setup Door - Use
+//-----------------------------------
+// Door - Show Message on Usage
+// <used flag>, <object activated flag>, <object>, <ObjAct param row>, <message ID>
+//-----------------------------------
 Event(20005613, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfObjactEventFlag(AND_01, X4_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if door was previously used
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
+    IfObjactEventFlag(AND_01, X4_4); // Object has been activated
     IfConditionGroup(MAIN, PASS, AND_01);
-    DisplayGenericDialog(X16_4, PromptType.OKCANCEL, NumberofOptions.NoButtons, X8_4, 3);
-    SetEventFlag(X0_4, ON);
+    
+    DisplayGenericDialog(X16_4, PromptType.OKCANCEL, NumberofOptions.NoButtons, X8_4, 3); // Show message on activation
+    SetEventFlag(X0_4, ON); // Set used flag
+    
     Label0();
-    SetObjactState(X8_4, X12_4, Disabled);
+    SetObjactState(X8_4, X12_4, Disabled); // Disable object activation
 });
 
+//-----------------------------------
+// Door - Show Wrong Side Message
+//-----------------------------------
 Event(20005614, Default, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(OR_01, 7101, X0_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfActionButtonInArea(OR_01, 7101, X0_4); // Check if door is used
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4); // Chec if conditional flag is ON
     IfConditionGroup(MAIN, PASS, OR_01);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    DisplayGenericDialog(10010161, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3);
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if conditional flag is set
+    
+    DisplayGenericDialog(10010161, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3); // Does no open from this side
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Setup Lift
+//-----------------------------------
+// Lift - Setup 1
+// <used flag>, <state flag>, <lift object>, <lever 1 object>, <lever 2 object>, <flag>
+// lift object: base ID
+// used flag: prefix 1 to base ID
+// state flag: prefix 1 to base ID, +1000 to base ID
+//  ON: at bottom
+//  OFF: at top
+// flag: prefix 1 to base ID, +1001 to base ID
+//-----------------------------------
 Event(20005620, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X20_4, OFF);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    ForceAnimationPlayback(X8_4, 20, false, false, true, 0, 1);
+    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0); // Skip if no invaders are present
+    SetEventFlag(X20_4, OFF); // Set flag off (disables usage?)
+    
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
+    
+    ForceAnimationPlayback(X8_4, 20, false, false, true, 0, 1); // Move up
     SetEventFlag(X4_4, OFF);
-    SetObjactState(X12_4, -1, Disabled);
+    SetObjactState(X12_4, -1, Disabled); // Disable lever 1
     EndUnconditionally(EventEndType.End);
+    
     Label0();
-    ForceAnimationPlayback(X8_4, 10, false, false, true, 0, 1);
+    ForceAnimationPlayback(X8_4, 10, false, false, true, 0, 1); // Move down
     SetEventFlag(X4_4, ON);
-    SetObjactState(X16_4, -1, Disabled);
+    SetObjactState(X16_4, -1, Disabled); // Disable lever 2
     EndUnconditionally(EventEndType.End);
 });
 
-// Setup Lift 
+//-----------------------------------
+// Lift -
+// <used flag>, <state flag>, <lift object>, 
+// <lever 1 object>, <lever 1 ObjAct entity ID>, <lever 2 object>, <lever 2 ObjAct entity ID>, 
+// <top region>, <bottom region>
+// <unknown flag 1>, <unknown flag 2>, <unknown flag 3>
+//-----------------------------------
 Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4); // Used flag
+    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4); // State flag: TOP
     IfConditionGroup(OR_15, PASS, AND_13);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X4_4);
+    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X0_4); // Used flag
+    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X4_4); // State flag: BOTTOM
     IfConditionGroup(OR_15, PASS, AND_14);
     IfConditionGroup(AND_15, PASS, OR_15);
-    IfEventFlag(AND_15, ON, TargetEventFlagType.EventFlag, X36_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_15);
+    IfEventFlag(AND_15, ON, TargetEventFlagType.EventFlag, X36_4); // Check if unknown flag 1 is ON
+    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_15); // Goto Label 9 if unknown flag 1 is ON
+    
     GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, X4_4);
     SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
     SetObjactState(X20_4, -1, Enabled);
@@ -2775,11 +2918,15 @@ Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SkipUnconditionally(1);
     ForceAnimationPlayback(X8_4, 120, false, true, true, 0, 1);
     EndUnconditionally(EventEndType.Restart);
+    
     Label9();
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X36_4);
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-----------------------------------
+// Lift - Small - Setup 1
+//-----------------------------------
 Event(20005622, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetEventFlag(X20_4, OFF);
@@ -2795,7 +2942,9 @@ Event(20005622, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Setup Lift
+//-----------------------------------
+// Lift -
+//-----------------------------------
 Event(20005623, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -2895,6 +3044,9 @@ Event(20005623, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-----------------------------------
+// Lift -
+//-----------------------------------
 Event(20005624, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetEventFlag(X20_4, OFF);
@@ -2910,7 +3062,9 @@ Event(20005624, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//---------------------------------
 // Setup Lift
+//---------------------------------
 Event(20005625, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
     IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -3010,6 +3164,9 @@ Event(20005625, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-----------------------------------
+// Lift -
+//-----------------------------------
 Event(20000627, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X8_4, 0);
@@ -3028,7 +3185,9 @@ Event(20000627, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Lift Levers
+//-----------------------------------
+// Lift -
+//-----------------------------------
 Event(20005628, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3053,7 +3212,9 @@ Event(20005628, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Setup Kick Ladder
+//---------------------------------
+// Ladder - Setup Kick Ladder
+//---------------------------------
 Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ReproduceObjectAnimation(X4_4, 2);
@@ -3070,16 +3231,23 @@ Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RegisterLadder(X8_4, X12_4, X4_4);
 });
 
+//---------------------------------
 // Illusory Wall - Setup
+// <used flag>, <object>
+//---------------------------------
 Event(20005650, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfDamageType(AND_01, X4_4, 10000, DamageType.Unspecified);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label0 if used flag is ON
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Is player in own world
+    IfDamageType(AND_01, X4_4, 10000, DamageType.Unspecified); // Has the object taken a damage event from the player
     IfConditionGroup(MAIN, PASS, AND_01);
-    SetNetworkconnectedEventFlag(X0_4, ON);
-    ForceAnimationPlayback(X4_4, 1, false, true, false, 0, 1);
+    
+    SetNetworkconnectedEventFlag(X0_4, ON); // Set used flag
+    
+    ForceAnimationPlayback(X4_4, 1, false, true, false, 0, 1); // Play fade animation
+    
     Label0();
-    DeactivateObject(X4_4, Disabled);
+    DeactivateObject(X4_4, Disabled); // Disable object if previously destroyed
 });
 
 Event(20005660, Default, function(X0_4, X4_1, X5_1, X8_4) {
@@ -3121,45 +3289,74 @@ Event(20005673, Restart, function(X0_1, X1_1, X4_4) {
     DeleteMapSFX(X4_4, false);
 });
 
-// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID
+//-------------------------------------------
+// Summon Setup - Basic
+// <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>
+//-------------------------------------------
 Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    // Skip if no invaders are present
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    
+    // End function if boss has already been killed
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1);
+    
+    // Check summon sign conditions
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
+    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1); // Summon is loaded
+    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1); // Summon position is near player
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Place summon sign
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
 
-// Summon Setup - Boss Flag, Summon Flag, Dismiss Flag, Entity ID, Spawn Entity ID, Trigger Flag
+//-------------------------------------------
+// Summon Setup - Triggered by Flag
+// <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>, <trigger flag>
+//-------------------------------------------
 Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    // Skip if no invaders are present
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    
+    // Useless?
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X8_4);
     Label0();
     Label1();
+    
+    // End if boss is defeated, or skip check if arg is set to 0
     SkipIfComparison(1, ComparisonType.Equal, X0_4, 0);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    // Check if triggering flag is ON, or skip check if arg is set to 0
     SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X20_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1);
+    
+    // Check summon sign conditions
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
+    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1); // Summon is loaded
+    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1); // Summon position is near player
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Place summon sign
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
 
+//-------------------------------------------
+// Summon Setup - UNUSED
+//-------------------------------------------
 Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, X8_4);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_02, true);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X4_4);
     SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
+    
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -3167,223 +3364,334 @@ Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X12_4, Enabled);
 });
 
-// Summon Boss Fog AI - Summon Flag, Boss Fight Active Flag, Entity ID, Region ID, Region ID
+//-------------------------------------------
+// Summon - Fogwall Handler
+// <summon flag>, <boss inbattle flag> <entity id>, <region id>, <region id>
+//-------------------------------------------
 Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
+    
+    // Check if AI in is in the entrance zone
     IfInoutsideArea(MAIN, InsideOutsideState.Inside, X8_4, X16_4, 1);
-    RotateCharacter(X8_4, X12_4, 60060, true);
+    RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
+    
+    // Check if the AI has passed through the fogwall and is in the exit zone
     IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
+    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
+    
+    // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
-// Summon Boss Fog AI - Summon Flag, Boss Active Flag, Entity ID, Region ID, Region ID, Unk Flag
+//-------------------------------------------
+// Summon - Fogwall Handler - Conditional Entry
+// <summon flag>, <boss inbattle flag> <entity id>, <region id>, <region id>, <conditional flag>
+//-------------------------------------------
 Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
+    
+    // Check if AI in is in the entrance zone and conditional flag is ON
     IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
     IfConditionGroup(MAIN, PASS, AND_02);
-    RotateCharacter(X8_4, X12_4, 60060, true);
+    RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
+    
+    // Check if the AI has passed through the fogwall and is in the exit zone
     IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
+    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
+    
+    // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
-// Summon Boss Fog AI (Client Player) - Summon Flag, Unk Flag, Entity ID, Region ID, Region ID
+//-------------------------------------------
+// Summon - Fogwall Handler - Client
+//-------------------------------------------
 Event(20005716, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true); // Goto Label 0 if a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
+    
+    // Check if AI in is in the entrance zone and conditional flag is ON
     IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
     IfConditionGroup(MAIN, PASS, AND_02);
+    
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
     WaitFixedTimeSeconds(0.5);
-    RotateCharacter(X8_4, X12_4, 60060, true);
+    RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
+    
+    // Check if the AI has passed through the fogwall and is in the exit zone
     IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
+    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
+    
+    // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
+    
     Label0();
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
+//-------------------------------------------
+// Summon -  Fogwall Handler - Custom AI Command
+//-------------------------------------------
 Event(20005712, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
+    
+    // Check if AI in is in the entrance zone and conditional flag is ON
     IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
     IfConditionGroup(MAIN, PASS, AND_02);
-    RotateCharacter(X8_4, X12_4, 60060, true);
+    RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
+    
+    // Check if the AI has passed through the fogwall and is in the exit zone
     IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
     IfElapsedSeconds(OR_01, 3);
     IfConditionGroup(OR_02, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
+    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
+    
+    // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAICommand(X8_4, X24_4, 0);
     RequestCharacterAIReplan(X8_4);
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
-// Summon - Death
+//-------------------------------------------
+// Summon - Set Flag if present for Boss Kill
+// <flag>, <boss flag>, <summon flag>, <dismiss flag>, <entity>
+//-------------------------------------------
 Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X12_4);
-    IfCharacterHPRatio(AND_01, X16_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is defeated
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4); // Is summoned
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X12_4); // Is not dismissed
+    IfCharacterHPRatio(AND_01, X16_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1); // Summon is not dead
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss has been defeated
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetEventFlag(X0_4, ON);
 });
 
-// Summon - Player Check (If Dead)
+//-------------------------------------------
+// Summon - Handle Summon AI - One Region
+// <summon flag>, <dismiss flag>, <entity id>, <region>, <conditional flag>
+//-------------------------------------------
 Event(20005714, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4); // End if condition flag is ON
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if dismissed
+    
+    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01); // Uncompiled means this function continues even if this condition check fails
+    
+    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X12_4, 1);  // Player is in region
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_02);
+    
+    // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
     EndUnconditionally(EventEndType.Restart);
+    
     Label0();
-    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_03, InsideOutsideState.Outside, 10000, X12_4, 1);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4);
+    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfInoutsideArea(AND_03, InsideOutsideState.Outside, 10000, X12_4, 1); // Player is not in region
+    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
+    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    
+    // Check if player is not near summon or summon is dismissed
     IfConditionGroup(OR_01, PASS, AND_03);
     IfConditionGroup(OR_01, PASS, AND_04);
+    
+    // Check if previous check is valid or summon is active
     IfConditionGroup(AND_06, PASS, OR_01);
     IfConditionGroup(AND_06, PASS, AND_05);
     IfConditionGroup(MAIN, PASS, AND_06);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07);
+    
+    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon dismissed
+    
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07); // Uncompiled means this function continues even if this condition check fails
+    
+    // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-------------------------------------------
+// Summon - Handle Summon AI - Multiple Regions
+// <summon flag>, <dismiss flag>, <entity id>, <region 1>, <conditional flag>, <region 2>, <region 3>
+//-------------------------------------------
 Event(20005715, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X24_4, 1);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4); // End if condition flag is ON
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if dismissed
+    
+    // Check if player is in region(s)
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
+    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
+    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
     IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
+    
+    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01); // Uncompiled means this function continues even if this condition check fails
+    
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
+    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
+    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
+    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
     IfConditionGroup(AND_02, PASS, OR_02);
-    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_02);
+    
+    // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
     EndUnconditionally(EventEndType.Restart);
+    
     Label0();
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X24_4, 1);
+    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
+    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
+    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
+    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
+    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
     IfConditionGroup(AND_03, FAIL, OR_03);
-    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
+    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
+    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    
+    // Check if player is not near summon or summon is dismissed
     IfConditionGroup(OR_04, PASS, AND_03);
     IfConditionGroup(OR_04, PASS, AND_04);
+    
+    // Check if previous check is valid or summon is active
     IfConditionGroup(AND_06, PASS, OR_04);
     IfConditionGroup(AND_06, PASS, AND_05);
     IfConditionGroup(MAIN, PASS, AND_06);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07);
+    
+    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon dismissed
+    
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07); // Uncompiled means this function continues even if this condition check fails
+    
+    // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Summon - Apperance - Summon Flag, Dismissal Flag, Boss Flag, Entity ID
+//-------------------------------------------
+// Summon - Handle Character State 1
+// <summon flag>, <dismiss flag>, <boss flag>, <entity>
+//-------------------------------------------
 Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    // Disable summon
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is active
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Summon is dismissed
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);  // Check if summon has been summoned
     IfConditionGroup(MAIN, PASS, OR_01);
+    
+    // Enable summon
     ChangeCharacterEnableState(X12_4, Enabled);
     SetCharacterAnimationState(X12_4, Enabled);
     SetCharacterAIState(X12_4, Enabled);
     SetCharacterDefaultBackreadState(X12_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon has been dismissed
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
-// Invader - Handle Enable State
+//-------------------------------------------
+// Summon - Handle Character State 2
+// <summon flag>, <dismiss flag>, <boss flag>, <entity>
+//-------------------------------------------
 Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    // Disable summon
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Summon is dismissed
+
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4); // Check if summon has been summoned
     IfConditionGroup(MAIN, PASS, OR_01);
+    
+    // Enable summon
     ChangeCharacterEnableState(X12_4, Enabled);
     SetCharacterAnimationState(X12_4, Enabled);
     SetCharacterAIState(X12_4, Enabled);
     SetCharacterDefaultBackreadState(X12_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon has been dismissed
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
-// Invader - Setup
+//-------------------------------------------
+// Invader - 
+//-------------------------------------------
 Event(20005750, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4447,7 +4755,9 @@ Event(20005950, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - Set Hosility Flags
+//-----------------------------------
+// Character - Set Hosility Flags
+//-----------------------------------
 Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -4486,7 +4796,9 @@ Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
-// NPC - Hostility Monitor
+//-----------------------------------
+// Character - Hostility Monitor
+//-----------------------------------
 Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
@@ -4557,20 +4869,25 @@ Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - Monitor Killed flag
-// <entity id>, <killed flag>, <npc flag range start>, <npc flag range end>
+//-----------------------------------
+// Character - Set Flags upon Death
+//-----------------------------------
+// <entity id>, <defeated flag>, <flag range start>, <flag range end>
 Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
    
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Not killed
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1); // Is dead
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Check if entity has not been defeated previously
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1); // Check if entity is dead
     IfConditionGroup(MAIN, PASS, AND_01);
-    BatchSetNetworkconnectedEventFlags(X8_4, X12_4, OFF);
-    SetNetworkconnectedEventFlag(X4_4, ON); // Set killed flag on
+    
+    BatchSetNetworkconnectedEventFlags(X8_4, X12_4, OFF); // Set flag range to OFF
+    SetNetworkconnectedEventFlag(X4_4, ON); // Set defeated flag
     SaveRequest(0);
 });
 
-// NPC - Setup Appearance in Host/Client world
+//-----------------------------------
+// Character - Setup Appearance in Host/Client world
+//-----------------------------------
 // <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <npc flag range start>, <npc flag range end>
 Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
@@ -4606,8 +4923,10 @@ Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     SetCharacterBackreadState(X0_4, true);
 });
 
-// NPC - Setup Appearance in Host/Client world
+//----------------------------------
+// Character - Setup Appearance in Host/Client world
 // <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <anim id>, <npc flag range start>, <npc flag range end>, <speffect>
+//----------------------------------
 Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X4_4, OFF);
@@ -4626,8 +4945,10 @@ Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterBackreadState(X0_4, true);
 });
 
-// NPC - Animation Handler
+//----------------------------------
+// Character - Animation Handler
 // <entity id>, <flag>, <flag>, <int>, <hex to dec float>, <anim>, <anim>, <speffect>
+//----------------------------------
 Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4692,7 +5013,9 @@ Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - 
+//----------------------------------
+// Character - 
+//----------------------------------
 Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4719,7 +5042,9 @@ Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - 
+//----------------------------------
+// Character - 
+//----------------------------------
 Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4759,7 +5084,9 @@ Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - 
+//----------------------------------
+// Character - 
+//----------------------------------
 Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -4799,7 +5126,9 @@ Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - 
+//----------------------------------
+// Character - Force Animation on Player
+//----------------------------------
 Event(20006010, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -4809,7 +5138,9 @@ Event(20006010, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// NPC - 
+//----------------------------------
+// Character - Spawn FFX on Player
+//---------------------------------- 
 Event(20006011, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -4818,6 +5149,9 @@ Event(20006011, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------
+// Character - Set Flag
+//----------------------------------
 Event(20006020, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -4827,20 +5161,31 @@ Event(20006020, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------
+// Character - Spawn Treasure
+// <invisible entity>, <action button>, <selection value>, <itemlot>, <flag range start>, <flag range end>, <npc flag>
+//----------------------------------
 Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllON, TargetEventFlagType.EventFlag, X16_4, X20_4);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X24_4); // NPC quest flag is ON
+    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllON, TargetEventFlagType.EventFlag, X16_4, X20_4); // Flag range is not all ON
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Goto label based on selection arg
     GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 1, X8_4);
     GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 2, X8_4);
-    CreateObjectfollowingSFX(X0_4, 90, 60);
+    
+    CreateObjectfollowingSFX(X0_4, 90, 60); // Rarity 0
     GotoUnconditionally(Label.LABEL20);
+    
     Label1();
-    CreateObjectfollowingSFX(X0_4, 90, 61);
+    CreateObjectfollowingSFX(X0_4, 90, 61); // Rarity 1
     GotoUnconditionally(Label.LABEL20);
+    
     Label2();
-    CreateObjectfollowingSFX(X0_4, 90, 62);
+    CreateObjectfollowingSFX(X0_4, 90, 62); // Rarity 2
+    
+    // Setup treasure pickup for player
     Label20();
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
@@ -4848,16 +5193,24 @@ Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
-// Area - Flag set if within
+//----------------------------------
+// Region - Set Flag in proximity
+//----------------------------------
 Event(20006031, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     SetEventFlag(X0_4, OFF);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1);
+    
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1); // Check if player is in region
+    
     SetEventFlag(X0_4, ON);
     WaitFixedTimeSeconds(1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(MAIN, FAIL, AND_01);
+    
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); 
+    IfConditionGroup(MAIN, FAIL, AND_01); // Check if player is no longer in region
+    
     SetEventFlag(X0_4, OFF);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -4883,16 +5236,24 @@ Event(20006032, Default, function(X0_4, X4_4) {
     DeleteObjectfollowingSFX(X4_4, true);
 });
 
+//----------------------------------------------
+// Character - Warp Entity on SpEffect Trigger
+//----------------------------------------------
 Event(20006040, Default, function(X0_4, X4_4, X8_4) {
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1);
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // If player is not a client
+    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1); // Entity is loaded
+    IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1); // Entity has SpEffect
     IfConditionGroup(MAIN, PASS, AND_01);
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfCharacterBackreadStatus(AND_02, X0_4, false, ComparisonType.Equal, 1);
+    
+    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4); // Warp entity
+    
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false); // If player is not a client
+    IfCharacterBackreadStatus(AND_02, X0_4, false, ComparisonType.Equal, 1); // Entity is not loaded
     IfConditionGroup(MAIN, PASS, AND_02);
-    EndUnconditionally(EventEndType.Restart);IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    
+    EndUnconditionally(EventEndType.Restart);
+    
+    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
 });
 
 //----------------------------------------------
@@ -7171,6 +7532,17 @@ Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     AwardItemLot(X8_4);
     
     EndUnconditionally(EventEndType.End);
+});
+
+// ----------------------------------------
+// Trigger Zone - Apply SpEffect
+// <trigger zone id>, <SpEffect ID>
+// ----------------------------------------
+Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
+    SetSpeffect(10000, X4_4);
+    WaitFixedTimeSeconds(0.8);
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------

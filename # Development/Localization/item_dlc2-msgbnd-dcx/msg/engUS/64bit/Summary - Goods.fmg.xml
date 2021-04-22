@@ -682,6 +682,9 @@
 <text id="5450">Attracts certain types of enemies</text>
 <text id="5460">Temporary boost to stamina recovery speed</text>
 <text id="5470">Repairs equipped weapons and armor</text>
+
+<text id="5500">Temporary boost to poise</text>
+
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>
 <text id="8002">Enable kill mode</text>
