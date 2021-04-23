@@ -5703,7 +5703,7 @@ Event(20009201, Default, function(X0_4, X4_4) {
 // Boss Kill 
 // <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <base soul SpEffect>, <repeat soul SpEffect
 //----------------------------------------------
-Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // Skip Primordial Fragment reward if this is the first kill
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X4_4);
     
@@ -5731,14 +5731,6 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     AwardItemLot(X8_4);
     
     Label0();
-    // Soul reward for repeat kills
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, X4_4);
-    SetSpEffect(10000, X20_4);
-    
-    // Soul reward for first kill
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X4_4);
-    SetSpEffect(10000, X16_4);
-    
     // Don't set flags if a client player
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     

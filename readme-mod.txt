@@ -16,8 +16,9 @@ don't want to lose your unmoded saves.
 #----------------------------------------
 Decompress your .zip file.
 
-Drop in your Dark Souls III Game directory the Cinders folder, modengine.ini, Dinput8.dll, HoodiePatcher.ini and HoodiePatcher.dll:
-~\steamapps\common\DARK SOULS III\Game\
+Drop the Cinders folder into your Dark Souls III Game directory, and the following files: modengine.ini, Dinput8.dll, HoodiePatcher.ini and HoodiePatcher.dll.
+
+The Dark Souls III Game directory is normally: ~\steamapps\common\DARK SOULS III\Game\
 
 After you did all the above go to modengine.ini and look for:
 - LoadlooseParams (and set it to 1 if its not already)
@@ -39,11 +40,8 @@ For Linux:
 #----------------------------------------
 # Updating
 #----------------------------------------
-Simply download the patch (be it GitHub or Nexus Mods) and drop all the files into your Cinders folder:
-~\steamapps\common\DARK SOULS III\Game\Cinders
-
-(If you are updating from a patch previous to 1.60 you will need to delete your Data0.bdt file inside
-your Cinders folder)
+Simply download the latest version (be it GitHub or Nexus Mods) and drop the Cinders folder 
+~\steamapps\common\DARK SOULS III\Game\
 
 #----------------------------------------
 # Uninstallation

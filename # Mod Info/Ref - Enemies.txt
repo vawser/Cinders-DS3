@@ -25,7 +25,7 @@
 # Vordt of the Boreal Valley 
 - NG0 HP: 3000 
 - NG+ HP: 3600 
-- Souls: 10000 
+- Souls: 5000 
 - Absorption: Standard:     10%
 - Absorption: Slash:        10%
 - Absorption: Strike:       0%
@@ -39,7 +39,7 @@
 # Dancer of the Boreal Valley
 - NG0 HP: 7000 
 - NG+ HP: 8400 
-- Souls: 40000 
+- Souls: 30000 
 - Absorption: Standard:     20%
 - Absorption: Slash:        30%
 - Absorption: Strike:       15%
@@ -53,7 +53,7 @@
 # Oceiros, the Consumed King
 - NG0 HP: 8000
 - NG+ HP: 9600 
-- Souls: 60000 
+- Souls: 40000 
 - Absorption: Standard:     20%
 - Absorption: Slash:        20%
 - Absorption: Strike:       15%
@@ -70,7 +70,7 @@
 # Curse-rotted Greatwood 
 - NG0 HP: 4000 
 - NG+ HP: 4800   
-- Souls: 10000
+- Souls: 8000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       15%
@@ -84,7 +84,7 @@
 # Aborr
 - NG0 HP: 2000
 - NG+ HP: 2400
-- Souls: 10000
+- Souls: 8000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       20%
@@ -101,7 +101,7 @@
 # Crystal Sage
 - NG0 HP: 3000 
 - NG+ HP: 3600 
-- Souls: 20000
+- Souls: 12000
 - Absorption: Standard:     10%
 - Absorption: Slash:        10%
 - Absorption: Strike:       0%
@@ -147,7 +147,7 @@
 # Cathedral Guardian
 - NG0 HP: 5000
 - NG+ HP: 6000
-- Souls: 10000
+- Souls: 16000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       15%
@@ -164,7 +164,7 @@
 # High Lord Wolnir
 - NG0 HP: 6000     
 - NG+ HP: 7200 
-- Souls: 20000
+- Souls: 12000
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       25%
@@ -179,7 +179,7 @@
 # Old Demon King 
 - NG0 HP: 8000 
 - NG+ HP: 9600
-- Souls: 40000
+- Souls: 30000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       10%
@@ -197,7 +197,7 @@
 # Pontiff Sulyvahn
 - NG0 HP: 8000 
 - NG+ HP: 9600
-- Souls: 50000 
+- Souls: 40000 
 - Absorption: Standard:     20%
 - Absorption: Slash:        20%
 - Absorption: Strike:       15%
@@ -224,7 +224,7 @@
 # Aldrich, Devourer of Gods
 - NG0 HP: 9000 
 - NG+ HP: 10800 
-- Souls: 75000 
+- Souls: 50000 
 - Absorption: Standard:     30%
 - Absorption: Slash:        30%
 - Absorption: Strike:       30%
@@ -237,7 +237,7 @@
 - Considered Abyssal.
 
 # The Lordran Remnants
-- Souls: 80000
+- Souls: 75000
 
 # The Lord's Blade (Ciaran)
 - NG0 HP: 6000
@@ -297,7 +297,7 @@
 # Yhorm the Giant 
 - NG0 HP: 9000   
 - NG+ HP: 10800 
-- Souls: 50000
+- Souls: 40000
 - Absorption: Standard:     30%
 - Absorption: Slash:        30%
 - Absorption: Strike:       20%
@@ -314,7 +314,7 @@
 # Ancient Wyvern 
 - NG0 HP: 6000
 - NG+ HP: 72000
-- Souls: 20000
+- Souls: 5000
 - Absorption: Standard:     30%
 - Absorption: Slash:        30%
 - Absorption: Strike:       15%
@@ -389,7 +389,7 @@
 # Dragonslayer Armour 
 - NG0 HP: 9000 
 - NG+ HP: 10800 	
-- Souls: 40000
+- Souls: 50000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       15%
@@ -422,7 +422,7 @@
 # Mirror Knight
 - NG0 HP: 8000
 - NG+ HP: 9600
-- Souls: 40000
+- Souls: 60000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       15%
@@ -451,7 +451,7 @@
 # Lothric, Younger Prince 
 - NG0 HP: 6000
 - NG+ HP: 7200          
-- Souls: 50000
+- Souls: 100000
 - Absorption: Standard:     10%
 - Absorption: Slash:        10%
 - Absorption: Strike:       0%
@@ -468,7 +468,7 @@
 # Soul of Cinder 
 - NG0 HP: 10000
 - NG+ HP: 12000
-- Souls: 100000
+- Souls: 200000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       25%
@@ -487,7 +487,7 @@
 - Phase 2 NG0 HP: 8000
 - Phase 1 NG+ HP: 7200  
 - Phase 2 NG+ HP: 9600
-- Souls: 100000
+- Souls: 150000
 - Absorption: Standard:     20%
 - Absorption: Slash:        20%
 - Absorption: Strike:       15%
@@ -514,7 +514,7 @@
 # Herald of Winter
 - NG0 HP: 10000
 - NG+ HP: 12000
-- Souls: 60000
+- Souls: 50000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       25%
@@ -542,7 +542,7 @@
 # Frostfire Colossus
 - NG0 HP: 18000
 - NG+ HP: 14400
-- Souls: 150000
+- Souls: 200000
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       30%
@@ -585,7 +585,7 @@
 # Darkeater Midir (5)
 - NG0 HP: 18000
 - NG+ HP: 21600                
-- Souls: 150000
+- Souls: 200000
 - Absorption: Standard:     50%
 - Absorption: Slash:        50%
 - Absorption: Strike:       40%
@@ -600,7 +600,7 @@
 # Slave Knight Gael (5)
 - NG0 HP: 16000
 - NG+ HP: 19200  
-- Souls: 125000
+- Souls: 200000
 - Absorption: Standard:     30%
 - Absorption: Slash:        30%
 - Absorption: Strike:       25%

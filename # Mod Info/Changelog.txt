@@ -90,17 +90,6 @@ Finish following weapons:
 31690000 Gargoyle Halberd                - Halberd
 31700000 Gargoyle Tail Axe               - Battle Axe
 
-Add the following armour:
-9946    Ice Sanctum Knight
-9947    Imported
-9948    Ironclad
-9949    Velstadt
-9950    Armored Warrior
-9951    Eastern General
-9952    Genichiro
-9953    Okami
-9954    Wolf
-
 Make spell image repository
 
 Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
@@ -112,35 +101,27 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 
 # Bosses
-- Kills after the first kill of a boss now rewards less souls.
-- The first kill of a boss no longer has a chance to drop Primordial Fragments.
-- Increased the first kill soul reward for several bosses.
+- Changed the soul reward mechanism back to the vanilla form. This means it scales with NG+ properly again.
+- Reduced the sell/crush value of the boss souls.
 
-# PVP
-- Player now has -30% absorptions in PVP, which should make it less of a slog.
-
-# NPCs
-- Reduced easy stagger duration for hostile NPCs to 3 seconds.
-- Poise hits don't build up while in the stagger state, so it will be harder to constantly keep a NPC staggered.
-- Reduced the damage output of NPCs.
-
-# Map
-- Removed the Smouldering Rubble wall obstacle.
-- The Sandworm that dropped the Smouldering Rubble now drops the Physician Ring.
-- Added Abyssal Greatsword drop to a Darkwraith in Farron Keep.
-
-# Treasure
-- Crows now take Bone Fragments, and will reward an Ember, or rarely a ring, weapon or piece of armor.
-
-# Bugfixes
-- Aborr no longer sends phantoms home when he is triggered (however if they are outside they won't be able to enter).
-- Companions will no longer climb up ladders.
-- Path of the Dragon gesture puzzles in Archdragon Peak should now work correctly.
-- CTD in the Ringed City should be fixed.
-- Fixed Irithyll's chest not being setup correctly.
+# Enemies
+- Reduced the drop rate of Primordial Fragments from Primordial enemies.
 
 #------------------------------
 # TODO
 #------------------------------
+
+Add the following armour:
+9946    Ice Sanctum Knight
+9947    Imported
+9948    Ironclad
+9949    Velstadt
+9950    Armored Warrior
+9951    Eastern General
+9952    Genichiro
+9953    Okami
+9954    Wolf
+
 Fix Aborr music
 
+Change m31 silent sound to a different one
