@@ -99,13 +99,15 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # Changelog
 #------------------------------
-
 # Bosses
 - Changed the soul reward mechanism back to the vanilla form. This means it scales with NG+ properly again.
 - Reduced the sell/crush value of the boss souls.
 
 # Enemies
 - Reduced the drop rate of Primordial Fragments from Primordial enemies.
+
+# Bugfixes
+- Changed the silent voice sound in m31 and m37, which should fix Siegward's quest bug.
 
 #------------------------------
 # TODO
@@ -122,6 +124,4 @@ Add the following armour:
 9953    Okami
 9954    Wolf
 
-Fix Aborr music
 
-Change m31 silent sound to a different one
