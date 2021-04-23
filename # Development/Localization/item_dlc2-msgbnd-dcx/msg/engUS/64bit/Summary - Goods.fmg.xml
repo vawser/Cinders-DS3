@@ -683,6 +683,12 @@
 <text id="5470">Repairs equipped weapons and armor</text>
 
 <text id="5500">Temporary boost to poise</text>
+<text id="5501">Temporary damage boost against Undead</text>
+<text id="5502">Temporary damage boost against Demons</text>
+<text id="5503">Temporary damage boost against Hollows</text>
+<text id="5504">Temporary damage boost against Abyssals</text>
+<text id="5505">Temporary boost to casting speed</text>
+<text id="5506">Temporary reduction of weapon stamina consumption</text>
 
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>

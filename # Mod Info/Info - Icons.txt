@@ -1104,7 +1104,7 @@
 4121 Lightning Stake
 4122 Divine Pillars of Light
 4123 Lightning Storm
-4124 DUMMY
+4124 Inferi Petal
 4125 Pestilent Mist
 4126 Dark Edge
 4127 Atonement
@@ -1113,17 +1113,17 @@
 4130 Farron Dart
 4131 Great Farron Dart
 4132 Heal Aid
-4133 DUMMY
-4134 DUMMY
+4133 Combustum Petal
+4134 Vindicti Petal
 4135 Frozen Weapon
 4136 Snap Freeze
 4137 Floating Chaos
 4138 Way of White Corona
-4139 DUMMY
-4140 DUMMY
+4139 Barathrum Petal
+4140 Celeritas Stem
 4141 Proof of a Pact
-4142 DUMMY
-4143 DUMMY
+4142 Veloxi Moss
+4143 Dominating Skull
 4144 Old Moonlight
 4145 Great Soul Dregs
 4146 Flame Fan
@@ -1268,6 +1268,7 @@
 4285 Stone Greataxe
 4286 Gargoyle Halberd
 4287 Gargoyle Axe
+
 
 # BLOCK 5
 5000 Life Ring

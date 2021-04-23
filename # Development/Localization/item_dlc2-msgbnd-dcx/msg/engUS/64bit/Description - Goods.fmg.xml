@@ -2590,10 +2590,46 @@ Uniquely crafted by Occultist Grudore, this powder draws upon its wielder's focu
 
 <text id="5500">A fragment of titanite.
 
-Temporary boost poise by 50% for 60 seconds.
+Increases poise by 50% for 60 seconds.
 
 As the aeons passed, shards of the mythical titanite demon have been discovered. 
 When held it provides the holder with a sense of poise.</text>
+<text id="5501">A rare flower with a bone white coloring.
+It is said that consuming this flower grants magical abilities.
+
+Boosts damage against Undead enemies by 20% for 60 seconds.
+
+The Inferi flower has long been associated with the undead, and was a common burial flower.</text>
+<text id="5502">A rare flower with a reddish coloring.
+It is said that consuming this flower grants magical abilities.
+
+Boosts damage against Demonic enemies by 20% for 60 seconds.
+
+The Combustum flower has long been associated with the underworld, and is said to represent the eternal flames of torment.</text>
+<text id="5503">A rare flower with a cyan coloring.
+It is said that consuming this flower grants magical abilities.
+
+Boosts damage against Hollow enemies by 20% for 60 seconds.
+
+The Vindiciti flower has long been associated with the purity of mind.</text>
+<text id="5504">A rare flower with a purple coloring.
+It is said that consuming this flower grants magical abilities.
+
+Boosts damage against Abyssal enemies by 20% for 60 seconds.
+
+The Barathrum flower has long been associated with darkness, and the unknown.</text>
+<text id="5505">The stem of the Celeritas flower.
+It is said that consuming this stem grants magical abilities.
+
+Boosts casting speed by 30 for 60 seconds.
+
+The Celeritas flower is said to take a lifetime to grow. As such, stems are in short supply.</text>
+<text id="5506">A rare moss.
+It is said that consuming this moss grants magical abilities.
+
+Reduces weapon stamina consumption by 25% for 60 seconds.
+
+This moss is said only to grow in locations of great suffering and loss. Alas, such locations are far more plentiful than they once were.</text>
 
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>
