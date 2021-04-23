@@ -110,12 +110,19 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # Changelog
 #------------------------------
+
+# Bosses
+- Kills after the first kill of a boss now rewards less souls.
+- The first kill of a boss no longer has a chance to drop Primordial Fragments.
+- Increased the first kill soul reward for several bosses.
+
 # PVP
 - Player now has -30% absorptions in PVP, which should make it less of a slog.
 
 # NPCs
 - Reduced easy stagger duration for hostile NPCs to 3 seconds.
 - Poise hits don't build up while in the stagger state, so it will be harder to constantly keep a NPC staggered.
+- Reduced the damage output of NPCs.
 
 # Map
 - Removed the Smouldering Rubble wall obstacle.
