@@ -1863,7 +1863,9 @@ Often utilized as a last-resort for adventurers who have lost their way.</text>
 <text id="2161">Medicinal pellet made from crushed insects infused with magical energies.
 
 The Boreal Valley is infested with moon bugs, meaning ingredients are never far from hand for the Irithyllian slaves who concoct this medicine.</text>
-<text id="2162">A fragment of a hollow bone. Emits a pleasant tune when blown through.
+<text id="2162">An unidentified petrified object. Pleasant to the touch, despite its looks.
+
+A rare and peculiar thing, to be certain, but one without a known purpose.
 
 The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2163">The taut hide of a crystal lizard. Crush to unleash the souls embedded within.
@@ -1871,9 +1873,7 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 Use to acquire souls.
 
 Crystal lizards often consume stray souls as if ravenous with hunger.</text>
-<text id="2164">A crystal that constantly emits a pleasant tune.
 
-Exchange this crystal with Occultist Grudore to empower the focusing crystal.</text>
 <text id="2170">A torn page from the journel of Occultist Grudore.
 
 'Alas, the experiment has gone awry. Nevertheless, the Twisted Knight as I now call him exhibits an unique trait: his visage shifts in hue and color. Attempts to harm him always resulted in failure, until I made the connection between his visage and my attacks. From my observations, it is as follows:
@@ -2180,6 +2180,13 @@ upon the mind anybody whom dare eat it.
 
 Consume this herb to almost die.
 Lasts until death.</text>
+<text id="4020">A smouldering stone used in sorcerous rituals.
+A crude element of any magesmith's arsenal.
+
+Used in infusion to change the nature of a catalyst.
+
+The smouldering is said to be neverending, allowing the sorcerer to modify catalysts endlessly.</text>
+
 <text id="4100">Stone imbued with the power of the everlasting dragons, the second of its kind, offered to a towering dragon.
 
 Emit dragon breath alongside an archdragon mirage.

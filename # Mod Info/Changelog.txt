@@ -99,15 +99,16 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # Changelog
 #------------------------------
-# Bosses
-- Changed the soul reward mechanism back to the vanilla form. This means it scales with NG+ properly again.
-- Reduced the sell/crush value of the boss souls.
 
-# Enemies
-- Reduced the drop rate of Primordial Fragments from Primordial enemies.
+# Items
+- Changed Bone Fragment item to Petrified Something.
+- Changed the sources of Petrified Somethings.
 
-# Bugfixes
-- Changed the silent voice sound in m31 and m37, which should fix Siegward's quest bug.
+# Catalysts
+- Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
+
+# Covenants
+- Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
 
 #------------------------------
 # TODO
@@ -124,4 +125,9 @@ Add the following armour:
 9953    Okami
 9954    Wolf
 
+2109 Old Branch of Yore (Unassigned)
+2110 Petrified Something (Unassigned)
+2111 Bonfire Ascetic (Unassigned)
 
+2162 Petrified Something
+4020 Smouldering Stone

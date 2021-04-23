@@ -495,7 +495,6 @@
 <text id="2161">Large temporary boost to FP recovery speed</text>
 <text id="2162">Exchange with the nestling atop Firelink Shrine</text>
 <text id="2163">Use to acquire many souls</text>
-<text id="2164">Empowers the Focus Implement</text>
 <text id="2170">Notes on the Twisted Knight</text>
 <text id="2173">Learn pyromancies of the Profaned Capital</text>
 <text id="2174">Learn sorceries from the Cathedral of the Deep</text>
@@ -581,7 +580,7 @@
 <text id="4017">Consume this herb to disassociate</text>
 <text id="4018">Consume this herb to expand your horizons</text>
 <text id="4019">Consume this herb to almost die</text>
-<text id="4020">Removes all weapon appearance effects</text>
+<text id="4020">Infuse catalyst</text>
 <text id="4100">Emit dragon breath</text>
 <text id="4101">Emit dragon roar</text>
 <text id="4200">Crush to boost absorption massively for a short duration</text>
