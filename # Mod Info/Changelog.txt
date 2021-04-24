@@ -122,25 +122,26 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # TODO
 #------------------------------
-
 Add the following armour:
-9946    Ice Sanctum Knight
-9947    Imported
-9948    Ironclad
-9949    Velstadt
-9950    Armored Warrior
-9951    Eastern General
-9952    Genichiro
-9953    Okami
-9954    Wolf
+9950 Stalwart Knight Set
+9946 Sanctum Knight Set
+9951 Eastern Soldier Set
+9952 Eastern Commander Set # Imperial Samurai Helm is head for this
+9947 Imported Set
+9948 Ironclad Set
+9953 Okami Set
+9954 Eastern Wolf Set
+9949 Fallen Herald Set
 
-Stalwart Knight Set
-Sanctum Knight Set
-Eastern Soldier Set
-Eastern Commander Set # Imperial Samurai Helm is head for this
-Imported Set
-Ironclad Set
-Okami Set
-Eastern Wolf Set
-Fallen Herald Set
-
+4000 Sorcery - Offensive
+4001 Pyromancy - Offensive
+4002 Miracle - Offensive
+4003 Dark Sorcery - Offensive
+4004 Dark Pyromancy - Offensive
+4005 Dark Miracle - Offensive
+4006 Sorcery - Utility
+4007 Pyromancy - Utility
+4008 Miracle - Utility
+4009 Dark Sorcery - Utility
+4010 Dark Pyromancy - Utility
+4011 Dark Miracle - Utility
