@@ -6605,6 +6605,7 @@ Event(20080000, Restart, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160761603, false, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, X0_4, 160761604, false, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, X0_4, 160761605, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(AND_01, X0_4, 160761606, false, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
     // Disable companion
@@ -6661,7 +6662,6 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     IfCharacterHasSpeffect(OR_02, 10000, 160603703, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 10000, 160603704, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 10000, 160603705, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_02, 10000, 160603706, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, PASS, OR_02);
     SetSpEffect(X0_4, 160761600); // Activity Timer
     SetSpEffect(10000, 160761700); // Player - Companion Active
@@ -6726,6 +6726,7 @@ Event(20080002, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761603, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_01, X0_4, 160761604, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_01, X0_4, 160761605, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761606, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
     // Rejuvenating Phial
