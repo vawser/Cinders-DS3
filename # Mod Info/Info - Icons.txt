@@ -981,12 +981,12 @@
 3575 Accursed Emblem
 
 # BLOCK 4
-4000 Soul Arrow
-4001 Great Soul Arrow
-4002 Heavy Soul Arrow
-4003 Great Heavy Soul Arrow
-4004 Homing Soulmass
-4005 Homing Crystal Soulmass
+4000 Sorcery
+4001 Pyromancy
+4002 Miracle
+4003 Dark Sorcery
+4004 Dark Pyromancy
+4005 Dark Miracle
 4006 Soul Spear
 4007 Crystal Soul Spear
 4008 Magic Weapon

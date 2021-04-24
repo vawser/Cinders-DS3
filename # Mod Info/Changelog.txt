@@ -116,6 +116,9 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 # Covenants
 - Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
 
+# Bugfixes
+- Dial of Obedience+5 will now work correctly.
+
 #------------------------------
 # TODO
 #------------------------------
@@ -131,4 +134,13 @@ Add the following armour:
 9953    Okami
 9954    Wolf
 
-# m31
+Stalwart Knight Set
+Sanctum Knight Set
+Eastern Soldier Set
+Eastern Commander Set # Imperial Samurai Helm is head for this
+Imported Set
+Ironclad Set
+Okami Set
+Eastern Wolf Set
+Fallen Herald Set
+
