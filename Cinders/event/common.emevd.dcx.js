@@ -18,13 +18,15 @@ Event(0, Default, function() {
     InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
     InitializeEvent(0, 20043, 10000, 160500060); // Numbness
     InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
-    InitializeEvent(0, 20044, 10000); // Event Flag Tool
     InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
     InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
     InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
     InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
     InitializeEvent(0, 20048, 0); // Frostbite Removal
     InitializeEvent(0, 20049, 0); // Broken Tablet - Hard Mode
+    InitializeEvent(0, 20060, 10000); // Event Flag Tool
+    InitializeEvent(0, 20061, 10000); // Screenshot Tool
+    InitializeEvent(0, 20062, 10000); // Treasure Tool
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -2127,41 +2129,6 @@ Event(20043, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Event Flag Tool
-Event(20044, Default, function(X0_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    //ChangeCharacterEnableState(3800498, Enabled);
-    //SetCharacterAnimationState(3800498, Enabled);
-    //WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
-    
-    //BatchSetEventFlags(13410903, 13410907, OFF);
-    
-    // Treasure flags
-    //SkipUnconditionally(15);
-    BatchSetEventFlags(53000000, 53002999, OFF);
-    BatchSetEventFlags(53010000, 53012999, OFF);
-    BatchSetEventFlags(53100000, 53102999, OFF);
-    BatchSetEventFlags(53200000, 53202999, OFF);
-    BatchSetEventFlags(53300000, 53302999, OFF);
-    BatchSetEventFlags(53410000, 53402999, OFF);
-    BatchSetEventFlags(53500000, 53502999, OFF);
-    BatchSetEventFlags(53700000, 53702999, OFF);
-    BatchSetEventFlags(53800000, 53802999, OFF);
-    BatchSetEventFlags(53900000, 53902999, OFF);
-    BatchSetEventFlags(54000000, 54002999, OFF);
-    BatchSetEventFlags(54100000, 54102999, OFF);
-    BatchSetEventFlags(54500000, 54502999, OFF);
-    BatchSetEventFlags(55000000, 55002999, OFF);
-    BatchSetEventFlags(55100000, 55102999, OFF);
-    BatchSetEventFlags(55110000, 55112999, OFF);
-    
-    //SetEventFlag(25001031, ON);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Item - Camera Override
 Event(20045, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
@@ -2265,6 +2232,83 @@ Event(20040, Default, function() {
     IfConditionGroup(MAIN, PASS, OR_01);
     
     ClearSpeffect(10000, 160409013);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Script Tool
+//----------------------------------------------
+Event(20060, Default, function(X0_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    //ChangeCharacterEnableState(3800498, Enabled);
+    //SetCharacterAnimationState(3800498, Enabled);
+    //WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
+    
+    //BatchSetEventFlags(13410903, 13410907, OFF);
+    
+    // Treasure flags
+    //SkipUnconditionally(15);
+    BatchSetEventFlags(53000000, 53002999, OFF);
+    BatchSetEventFlags(53010000, 53012999, OFF);
+    BatchSetEventFlags(53100000, 53102999, OFF);
+    BatchSetEventFlags(53200000, 53202999, OFF);
+    BatchSetEventFlags(53300000, 53302999, OFF);
+    BatchSetEventFlags(53410000, 53402999, OFF);
+    BatchSetEventFlags(53500000, 53502999, OFF);
+    BatchSetEventFlags(53700000, 53702999, OFF);
+    BatchSetEventFlags(53800000, 53802999, OFF);
+    BatchSetEventFlags(53900000, 53902999, OFF);
+    BatchSetEventFlags(54000000, 54002999, OFF);
+    BatchSetEventFlags(54100000, 54102999, OFF);
+    BatchSetEventFlags(54500000, 54502999, OFF);
+    BatchSetEventFlags(55000000, 55002999, OFF);
+    BatchSetEventFlags(55100000, 55102999, OFF);
+    BatchSetEventFlags(55110000, 55112999, OFF);
+    
+    //SetEventFlag(25001031, ON);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Screenshot Tool
+//----------------------------------------------
+Event(20061, Default, function(X0_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, 160710107, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    WarpPlayer(40, 0, 4000986);
+    SetMapCeremony(40, 0, 10);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Treasure Tool
+//----------------------------------------------
+Event(20062, Default, function(X0_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, 160710108, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    BatchSetEventFlags(53000000, 53002999, OFF);
+    BatchSetEventFlags(53010000, 53012999, OFF);
+    BatchSetEventFlags(53100000, 53102999, OFF);
+    BatchSetEventFlags(53200000, 53202999, OFF);
+    BatchSetEventFlags(53300000, 53302999, OFF);
+    BatchSetEventFlags(53410000, 53402999, OFF);
+    BatchSetEventFlags(53500000, 53502999, OFF);
+    BatchSetEventFlags(53700000, 53702999, OFF);
+    BatchSetEventFlags(53800000, 53802999, OFF);
+    BatchSetEventFlags(53900000, 53902999, OFF);
+    BatchSetEventFlags(54000000, 54002999, OFF);
+    BatchSetEventFlags(54100000, 54102999, OFF);
+    BatchSetEventFlags(54500000, 54502999, OFF);
+    BatchSetEventFlags(55000000, 55002999, OFF);
+    BatchSetEventFlags(55100000, 55102999, OFF);
+    BatchSetEventFlags(55110000, 55112999, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });

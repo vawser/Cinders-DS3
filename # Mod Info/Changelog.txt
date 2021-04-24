@@ -113,6 +113,12 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 # Catalysts
 - Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
 
+# Magic
+- Scattering Soul Orb now has an unique icon.
+- Scattering Crystal Orb now has an unique icon.
+- Orbs of Judgment now has an unique icon.
+- Blizzard now has an unique icon.
+
 # Covenants
 - Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
 
@@ -122,25 +128,24 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # TODO
 #------------------------------
-
 Add the following armour:
-9946    Ice Sanctum Knight
-9947    Imported
-9948    Ironclad
-9949    Velstadt
-9950    Armored Warrior
-9951    Eastern General
-9952    Genichiro
-9953    Okami
-9954    Wolf
+9946    Sanctum Knight Set
+9947    Imported Set
+9948    Ironclad Set
+9949    Fallen Herald Set
+9950    Stalwart Knight Set
+9951    Eastern Soldier Set
+9952    Eastern Commander Set # Imperial Samurai Helm is head for this
+9953    Okami Set
+9954    Eastern Wolf Set
 
-Stalwart Knight Set
-Sanctum Knight Set
-Eastern Soldier Set
-Eastern Commander Set # Imperial Samurai Helm is head for this
-Imported Set
-Ironclad Set
-Okami Set
-Eastern Wolf Set
-Fallen Herald Set
+4109 Orbs of Judgment
+4120 Blizzard
+
+
+
+
+
+
+
 

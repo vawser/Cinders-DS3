@@ -1060,7 +1060,7 @@
 4077 Darkmoon Blade
 4078 Black Dragon Gauntlets
 4079 Black Dragon Leggings
-4080 Tomb Ring
+4080 D
 4081 Devil's Trumpet
 4082 Moonflower
 4083 Henbane
@@ -1085,11 +1085,11 @@
 4102 Farron Flashsword
 4103 Writ
 4104 Soul Stream
-4105 DUMMY
+4105 Scattering Soul Orb
 4106 Affinity
-4107 DUMMY
+4107 Scattering Crystal Orb
 4108 Black Fire Orb
-4109 DUMMY
+4109 Orbs of Judgment
 4110 Bursting Fireball
 4111 Dead Again
 4112 Dark Blade
@@ -1100,7 +1100,7 @@
 4117 Gnaw
 4118 Dorhys' Gnawing
 4119 Lifehunt Scythe
-4120 DUMMY
+4120 Blizzard
 4121 Lightning Stake
 4122 Divine Pillars of Light
 4123 Lightning Storm
