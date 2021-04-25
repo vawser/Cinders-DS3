@@ -989,6 +989,9 @@
 765000 The Rock
 767000 Dismal Knight
 768000 Forlorn Giant
+770000 Fallen Protector
+770001 Fallen Protector - Heatup
+770100 Maiden
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

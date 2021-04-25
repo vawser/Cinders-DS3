@@ -210,6 +210,7 @@
 752 Soul of the Herald
 753 Soul of the Rock
 754 Twisted Soul
+755 Soul of the Maiden
 800 Lifegem
 801 Radiant Lifegem
 802 Old Radiant Lifegem
@@ -349,9 +350,8 @@
 2158 Blood of the Dark Soul
 2159 Young Grass Dew
 2160 Brightbug
-2162 Bone Fragment
+2162 Petrified Something
 2163 Lizard Hide
-2164 Resonating Crystal
 2170 Torn Excerpt
 2173 Profaned Pyromancy Tome
 2174 Accursed Scroll
@@ -415,6 +415,7 @@
 4017 Devil's Trumpet
 4018 Moonflower
 4019 Henbane
+4020 Smouldering Stone
 4100 Stone of Draconic Fire
 4101 Stone of Draconic Might
 4200 Soul of a Fallen Paladin
@@ -504,6 +505,7 @@
 5030 Tome: Herald of Winter
 5031 Tome: The Rock
 5032 Tome: Twisted Experiment
+5033 Tome: Fallen Protector
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###
@@ -515,15 +517,23 @@
 5450 Spellbound Skull
 5460 Spellbound Blossom
 5470 Spellbound Powder
+5499 ### Items ###
+5500 Titanite Fragment
+5501 Inferi Petal
+5502 Combustum Petal
+5503 Vindicti Petal
+5504 Barathrum Petal
+5505 Celeritas Stem
+5506 Veloxi Moss
 7999 ### Developer Tools ###
-8000 Event Flag Tool
+8000 Script Tool
 8001 God Tool
 8002 Kill Tool
 8003 Stamina Tool
 8004 FP Tool
 8005 HP Tool
 8006 Souls Tool
-8007 FP Consumption Tool
+8007 Screenshot Tool
 8008 Treasure Tool
 8999 ### Gestures ###
 9000 Beckon
@@ -977,9 +987,9 @@
 20054 Energizing Phial
 1199999 ### Sorcery ###
 1200000 Farron Dart
-1210000 Great Farron Dart
+1210000 Scattering Soul Orb
 1300000 Soul Arrow
-1301000 Great Soul Arrow
+1301000 Scattering Crystal Orb
 1302000 Shockwave
 1303000 Soul Geyser
 1304000 Homing Soulmass

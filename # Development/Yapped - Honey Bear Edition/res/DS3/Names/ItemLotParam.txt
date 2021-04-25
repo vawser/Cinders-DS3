@@ -69,6 +69,8 @@
 2411 [Boss - The Rock] Tome: The Rock
 2420 [Boss - Twisted Knight] Twisted Soul
 2421 [Boss - Twisted Knight] Tome: Twisted Knight
+2430 [Boss - Fallen Protector] Soul of the Maiden
+2431 [Boss - Fallen Protector] Tome: Fallen Protector
 4000 [Giant Tree] Seed of a Giant Tree
 4010 Rosaria's Fingers - Emblem
 4020 [Script] Way of White Circlet
@@ -170,17 +172,17 @@
 9999 ### Treasure - Intruders
 10100 [Luyila of Londor] Darkdrift
 10200 [Forgotten Locklin] Gargoyle Shield
-10300 [Holy Knight Morton] Holy Gem
+10300 [Holy Knight Morton] Titanite Fragment
 10500 [Tiny] Smough's Helm
 10501 [Tiny] Smough's Armor
 10502 [Tiny] Smough's Gauntlets
 10503 [Tiny] Smough's Leggings
 10600 [Captain Morrel] Ring of Momentum
 10700 [Dominatrix Sharron] Witch's Locks
-10800 [Morric, the Fallen Knight] Holy Gem
+10800 [Morric, the Fallen Knight] Barathrum Petal
 10900 [Tomb Raider Dyfan] Bone Rapier
 11000 [Chaos Servant Eygor] Demon's Axe
-11100 [Devotee Scarlett] Dark Gem
+11100 [Devotee Scarlett] Celeritas Stem
 11200 [Corrupted Knight Lloyd] Writhing Hammer
 11300 [Fester the Jester] Jester's Cap
 11301 [Fester the Jester] Jester's Robes
@@ -189,7 +191,7 @@
 11304 [Fester the Jester] Fool's Catalyst
 11400 [Inquisitor Ashford] Moonlight Sword
 11500 [Dragon Cultist Xeric] Staff of Serpents
-11600 [Huntmaster Ava] Lethal Gem
+11600 [Huntmaster Ava] Veloxi Moss
 11700 [The Pursuer - High Wall of Lothric] Pursuer's Ultra Greatsword
 11710 [The Pursuer - Lothric Castle] Pursuer's Helm
 11720 [The Pursuer - Grand Archives] Pursuer's Armor
@@ -230,9 +232,9 @@
 13601 [Ezekiel of Mirrah] Penetrator Armor
 13602 [Ezekiel of Mirrah] Penetrator Gauntlets
 13603 [Ezekiel of Mirrah] Penetrator Leggings
-13700 [Eija the Shadow] Ritual Essence
-13800 [Dulfisk the Accursed] Abyssal Fragment
-13900 [Freya the Wretched] Abyssal Fragment
+13700 [Eija the Shadow] Vindicti Petal
+13800 [Dulfisk the Accursed] Barathrum Petal
+13900 [Freya the Wretched] Celeritas Stem
 14000 [Nahor the Fallen] Scraping Spear
 14100 [Easterner Iazeel] Makoto
 14200 [Gaius the Mighty] Helm of Aurous
@@ -521,18 +523,9 @@
 100020 Relic of Legends
 100030 Relic of Myths
 199999 ### Script - Crows
-200000 Divine Blessing -> Gwynevere's Urn
-200010 Hidden Blessing -> Handmaid's Ladle
-200020 Prism Stone -> Old Man's Gambit
-200030 Rubbish -> Fool's Sigil
-200040 Elizabeth Mushroom -> King's Ultra Greatsword
-200050 Blue Bug Pellet -> Dragonrider Halberd
-200060 Red Bug Pellet -> Smelter Sword
-200070 Yellow Bug Pellet -> Man Serpent Greatsword
-200080 Black Bug Pellet -> Ancient King's Mask
-200081 Black Bug Pellet -> Ancient King's Breastplate
-200082 Black Bug Pellet -> Ancient King's Gauntlets
-200083 Black Bug Pellet -> Ancient King's Leggings
+200000 [Petrified Something] Set 1 - Rings
+200010 [Petrified Something] Set 2 - Weapons
+200020 [Petrified Something] Set 3 - Armor
 2999999 ### Treasure - High Wall of Lothric
 3000000 [Corpse] Soul of a Deserted Corpse
 3000001 [Corpse] Divine Blessing
@@ -744,7 +737,7 @@
 3100130 [Corpse] Soul of a Deserted Corpse
 3100131 [Corpse] Siegbräu
 3100140 [Corpse] Soul of a Deserted Corpse
-3100141 [Corpse] Dried Root
+3100141 [Corpse] Vindicti Petal
 3100150 [Corpse] Soul of a Deserted Corpse
 3100151 [Corpse] Blackweed Balm
 3100160 [Corpse] Soul of a Deserted Corpse
@@ -906,7 +899,7 @@
 3200160 [Corpse] Large Soul of a Nameless Soldier
 3200161 [Corpse] Brightbug
 3200170 [Corpse] Soul of a Nameless Soldier
-3200171 [Corpse] Dried Root
+3200171 [Corpse] Titanite Fragment
 3200180 [Corpse] Soul of a Nameless Soldier
 3200181 [Corpse] Black Firebomb
 3200190 [Corpse] Large Soul of a Nameless Soldier
@@ -955,7 +948,7 @@
 3300060 [Corpse] Soul of an Unknown Traveler
 3300061 [Corpse] Rotten Pine Resin
 3300070 [Corpse] Soul of an Unknown Traveler
-3300071 [Corpse] Prism Stone
+3300071 [Corpse] Veloxi Moss
 3300080 [Corpse] Soul of an Unknown Traveler
 3300081 [Corpse] Blackweed Balm
 3300090 [Corpse] Soul of an Unknown Traveler
@@ -997,7 +990,7 @@
 3300250 [Corpse] Large Soul of an Unknown Traveler
 3300251 [Corpse] Beast Claw
 3300260 [Corpse] Soul of an Unknown Traveler
-3300261 [Corpse] Dung Pie
+3300261 [Corpse] Inferi Petal
 3300270 [Corpse] Large Soul of an Unknown Traveler
 3300271 [Corpse] Wanderer's Coat
 3300280 [Corpse] Soul of an Unknown Traveler
@@ -1124,7 +1117,8 @@
 3302131 [OTD - Darkwraith] Dark Hand
 3302140 [OTD - Lycanthrope] Shield of the Hunted
 3302150 [OTD - Lycanthrope Hunter] Hunter's Log
-3302160 [Giant Rat - Script] Bloodbite Ring
+3302160 [OTD - Giant Rat] Bloodbite Ring
+3302170 [OTD - Darkwraith] Abyssal Greatsword
 3409999 ### Treasure - Grand Archives
 3410000 [Corpse] Soul of a Nameless Soldier
 3410001 [Corpse] Divine Blessing
@@ -1151,7 +1145,7 @@
 3410110 [Corpse] Large Soul of a Nameless Soldier
 3410111 [Corpse] Blackweed Balm
 3410120 [Corpse] Soul of a Nameless Soldier
-3410121 [Corpse] Hexing Urn
+3410121 [Corpse] Celeritas Stem
 3410130 [Corpse] Large Soul of a Nameless Soldier
 3410131 [Corpse] Old Growth Balm
 3410140 [Corpse] Soul of a Nameless Soldier
@@ -1249,7 +1243,7 @@
 3500100 [Corpse] Soul of an Unknown Traveler
 3500101 [Corpse] Tarnished Silver Coin
 3500110 [Corpse] Large Soul of an Unknown Traveler
-3500111 [Corpse] Dung Pie
+3500111 [Corpse] Barathrum Petal
 3500120 [Corpse] Soul of an Unknown Traveler
 3500121 [Corpse] Brightbug
 3500130 [Corpse] Soul of an Unknown Traveler
@@ -1358,7 +1352,7 @@
 3700160 [Corpse] Soul of a Nameless Soldier
 3700161 [Corpse] Rime-blue Moss Clump
 3700170 [Corpse] Soul of a Weary Warrior
-3700171 [Corpse] Mossfruit
+3700171 [Corpse] Veloxi Moss
 3700180 [Corpse] Soul of a Nameless Soldier
 3700181 [Corpse] Rouge Water
 3700190 [Corpse] Soul of a Nameless Soldier
@@ -1490,7 +1484,7 @@
 3800060 [Corpse] Soul of a Nameless Soldier
 3800061 [Corpse] Carthus Pyromancy Tome
 3800070 [Corpse] Soul of a Nameless Soldier
-3800071 [Corpse] Lifegem
+3800071 [Corpse] Inferi Petal
 3800080 [Corpse] Soul of a Nameless Soldier
 3800081 [Corpse] Dried Root
 3800090 [Corpse] Soul of a Nameless Soldier
@@ -1526,7 +1520,7 @@
 3800240 [Corpse] Soul of a Weary Warrior
 3800241 [Corpse] Brightbug
 3800250 [Corpse] Soul of a Nameless Soldier
-3800251 [Corpse] Hexing Urn
+3800251 [Corpse] Titanite Fragment
 3800260 [Corpse] Soul of a Nameless Soldier
 3800261 [Corpse] Lightning Urn
 3800270 [Corpse] Soul of a Nameless Soldier
@@ -1546,7 +1540,7 @@
 3800340 [Corpse] Soul of an Old Hand
 3800341 [Corpse] Quelana Pyromancy Tom
 3800350 [Corpse] Soul of a Nameless Soldier
-3800351 [Corpse] Cleansing Pendant
+3800351 [Corpse] Combustum Petal
 3800360 [Corpse] Soul of a Nameless Soldier
 3800361 [Corpse] Ritual Incense
 3800370 [Corpse] Soul of a Nameless Soldier
@@ -1608,7 +1602,7 @@
 3802051 [OTD - Carthus Swordsman] Carthus Shield
 3802060 [OTD - Carthus Sandworm] Undead Bone Shard
 3802070 [OTD - Carthus Sandworm] Bone Scythe
-3802080 [OTD - Carthus Sandworm] Smouldering Rubble
+3802080 [OTD - Carthus Sandworm] Physician Ring
 3802090 [OTD - Smouldering Ghru] Smouldering Spear
 3802091 [OTD - Smouldering Ghru] Smouldering Shield
 3802100 [OTD - Smouldering Ghru] Smouldering Curved Sword
@@ -1900,7 +1894,7 @@
 4500340 [Corpse] Soul of a Crestfallen Knight
 4500341 [Corpse] Sorcerous Flame
 4500350 [Corpse] Soul of a Nameless Soldier
-4500351 [Corpse] Rusted Coin
+4500351 [Corpse] Celeritas Stem
 4500360 [Corpse] Soul of a Nameless Soldier
 4500361 [Corpse] Alluring Skull
 4500370 [Corpse] Soul of a Nameless Soldier
@@ -1908,7 +1902,7 @@
 4500380 [Corpse] Soul of a Nameless Soldier
 4500381 [Corpse] Brightbug
 4500390 [Corpse] Soul of a Nameless Soldier
-4500391 [Corpse] Black Bug Pellet
+4500391 [Corpse] Veloxi Moss
 4500400 [Chest] Priestly Cap
 4500410 [Chest] Pyromancer's Parting Flame
 4500420 [Chest] Follower Helm
@@ -1979,7 +1973,7 @@
 5000170 [Corpse] Soul of a Nameless Soldier
 5000171 [Corpse] Crimson Water
 5000180 [Corpse] Large Soul of a Nameless Soldier
-5000181 [Corpse] Mossfruit
+5000181 [Corpse] Barathrum Petal
 5000190 [Corpse] Soul of a Nameless Soldier
 5000191 [Corpse] Lifegem
 5000400 [Chest] Crude Manikin Mask
@@ -2072,13 +2066,13 @@
 5100190 [Corpse] Soul of a Nameless Soldier
 5100191 [Corpse] Poison Throwing Knife
 5100200 [Corpse] Soul of a Nameless Soldier
-5100201 [Corpse] Rouge Water
+5100201 [Corpse] Barathrum Petal
 5100210 [Corpse] Soul of a Weary Warrior
 5100211 [Corpse] Brightbug
 5100220 [Corpse] Soul of a Crestfallen Knight
 5100221 [Corpse] Elizabeth Mushroom
 5100230 [Corpse] Soul of a Weary Warrior
-5100231 [Corpse] Dried Root
+5100231 [Corpse] Titanite Fragment
 5100240 [Corpse] Soul of a Crestfallen Knight
 5100241 [Corpse] Red Bug Pellet
 5100250 [Corpse] Soul of a Weary Warrior
@@ -2161,9 +2155,13 @@
 10099999 ### Gyrm ###
 10100000 [Default] Exotic Souls
 10100001 [Default] Radiant Lifegem
+10100002 [Default] Petrified Something
+10100003 [Default] Titanite Fragment
 10399999 ### Ruin Sentinel ###
 10400000 [Default] Old Radiant Lifegem
 10400001 [Default] Exotic Souls
+10400002 [Default] Petrified Something
+10400003 [Default] Veloxi Moss
 10699999 ### Skeleton ###
 10700000 [Scimitar - Undead Settlement] Human Pine Resin
 10700001 [Scimitar - Undead Settlement] Blood Gem
@@ -2225,41 +2223,46 @@
 11051001 [Lothric Castle] Radiant Lifegem
 11699999 ### Carthus Swordsman ###
 11700000 [Default] Blood Gem
-11700001 [Default] Bone Fragment
+11700001 [Default] Old Radiant Lifegem
 11700002 [Default] Vertebra Shackle
 11700003 [Default] Ember
 11700004 [Default] Fire Arrow
 11700005 [Default] Kukri
 11700006 [Default] Carthus Rouge
-11700007 [Default] Old Radiant Lifegem
 11899999 ### Cathedral Knight ###
 11900000 [Default] Holy Gem
 11900001 [Default] Ember
 11900002 [Default] Exotic Souls
 11900003 [Default] Old Radiant Lifegem
+11900004 [Default] Blunt Gem
 12000999 ### Hollow Slave ###
 12001000 [Undead Settlement] Sharp Gem
-12001001 [Undead Settlement] Bone Fragment
-12001002 [Undead Settlement] Lifegem
+12001001 [Undead Settlement] Lifegem
+12001002 [Undead Settlement] Petrified Something
 12001100 [Grand Archives] Enchanted Gem
 12001101 [Grand Archives] Radiant Lifegem
+12001102 [Grand Archives] Petrified Something
 12001200 [Dreg Heap] Dark Gem
 12001201 [Dreg Heap] Old Radiant Lifegem
+12001202 [Dreg Heap] Petrified Something
 12099999 ### Ghru ###
 12100000 [Default] Poison Gem
 12100001 [Default] Rotten Pine Resin
 12100002 [Default] Wolf's Blood Swordgrass
 12100003 [Default] Lifegem
+12100004 [Default] Veloxi Moss
 12100999 ### Smouldering Ghru ###
 12101000 [Default] Fire Gem
 12101001 [Default] Charcoal Pine Resin
 12101002 [Default] Dried Root
+12101003 [Default] Combustum Petal
 12299999 ### Cathedral Evangelist ###
 12300000 [Default] Holy Gem
 12300001 [Default] Old Growth Balm
 12300002 [Default] Vine Balm
 12300003 [Default] Blackweed Balm
 12300004 [Default] Goldenfruit Balm
+12300005 [Default] Rouge Water
 12399999 ### Peasant Hollow ###
 12400000 [Default] Firebomb
 12400001 [Default] Charcoal Pine Resin
@@ -2274,6 +2277,7 @@
 12500000 [Default] Blood Gem
 12500001 [Default] Bloodred Moss Clump
 12500002 [Default] Radiant Lifegem
+12500003 [Default] Inferi Petal
 12599999 ### Hollow Manservant ###
 12600000 [Default] Blunt Gem
 12600001 [Default] Radiant Lifegem
@@ -2299,21 +2303,28 @@
 13000001 [Default] Ember
 13000002 [Default] Exotic Souls
 13000003 [Default] Elizabeth Mushroom
+13000004 [Default] Petrified Something
 13099999 ### Boreal Outrider Knight ###
 13100000 [Default] Frost Gem
 13100001 [Default] Sharp Gem
 13100002 [Default] Exotic Souls
 13100003 [Default] Old Radiant Lifegem
+13100004 [Default] Petrified Something
 13199999 ### Crystal Sage ###
 13200000 [Default] Magic Gem
 13200001 [Default] Enchanted Gem
 13200002 [Default] Crystal Fragment
 13200003 [Default] Exotic Souls
+13200004 [Default] Smouldering Stone
+13200005 [Default] Crimson Water
 13399999 ### Archive Scholar ###
 13400000 [Default] Old Radiant Lifegem
 13400001 [Default] Magic Gem
 13400002 [Default] Enchanted Gem
 13400003 [Default] Crystal Fragment
+13400004 [Default] Smouldering Stone
+13400005 [Default] Rouge Water
+13400006 [Default] Celeritas Stem
 13499999 ### Irithyllian Slave ###
 13500000 [Default] Dark Gem
 13500001 [Default] Blue Bug Pellet
@@ -2323,8 +2334,10 @@
 13599999 ### Lycanthrope ###
 13600000 [Default] Ember
 13600001 [Default] Radiant Lifegem
+13600002 [Default] Petrified Something
 13699999 ### Lycanthrope Hunter ###
 13700000 [Default] Lifegem
+13700001 [Default] Veloxi Moss
 13799999 ### Serpent-man Summoner ###
 13800000 [Default] Lightning Gem
 13800001 [Default] Old Radiant Lifegem
@@ -2342,6 +2355,7 @@
 14100002 [Default] Proof of a Concord Kept
 14100003 [Default] Exotic Souls
 14100004 [Default] Elizabeth Mushroom
+14100005 [Default] Petrified Something
 14299999 ### Undead Cleric ###
 14300000 [Cemetery of Ash] Fading Soul
 14300001 [Cemetery of Ash] Lifegem
@@ -2352,6 +2366,8 @@
 14400001 [Default] Firebomb
 14400002 [Default] Magic Gem
 14400003 [Default] Enchanted Gem
+14400004 [Default] Smouldering Stone
+14400005 [Default] Rouge Water
 14400999 ### Devout of the Deep ###
 14401000 [Default] Old Radiant Lifegem
 14401001 [Default] Firebomb
@@ -2367,8 +2383,11 @@
 14460000 [Default] Old Radiant Lifegem
 14460001 [Default] Magic Gem
 14460002 [Default] Enchanted Gem
+14460004 [Default] Smouldering Stone
+14460005 [Default] Crimson Water
+14460006 [Default] Celeritas Stem
 14699999 ### Bonewheel Skeleton ###
-14700000 [Default] Bone Fragment
+14700000 [Default] Carthus Rouge
 14700001 [Default] Blood Gem
 14700002 [Default] Old Radiant Lifegem
 20299999 ### Pontiff Knight ###
@@ -2380,8 +2399,10 @@
 20400000 [Default] Dung Pie
 20400001 [Default] Exotic Souls
 20400002 [Default] Elizabeth Mushroom
+20400003 [Default] Petrified Something
 20699999 ### Wretch ###
 20700000 [Default] Pale Pine Resin
+20700001 [Default] Rouge Water
 20999999 ### Sewer Centipede ###
 21000000 [Default] Poison Gem
 21000001 [Default] Green Blossom
@@ -2427,10 +2448,13 @@
 22399999 ### Boreal Outrider Sentinel ###
 22400000 [Default] Exotic Souls
 22400001 [Default] Old Radiant Lifegem
+22400002 [Default] Petrified Something
+22400003 [Default] Frost Gem
 22499999 ### Sulyvahn's Beast ###
 22500000 [Default] Blunt Gem
 22500001 [Default] Exotic Souls
-22500002 [Default] Old Radiant Lifegem
+22500002 [Default] Divine Blessing
+22500003 [Default] Holy Gem
 22699999 ### Great Crab ###
 22700000 [Default] Assorted Souls
 22700001 [Default] Exotic Souls
@@ -2445,12 +2469,16 @@
 30199999 ### Giant Slave ###
 30200000 [Default] Exotic Souls
 30200001 [Default] Elizabeth Mushroom
+30200002 [Default] Petrified Something
 30399999 ### Abyss Watcher ###
 30400000 [Default] Soul of a Weary Warrior
+30400001 [Default] Sharp Gem
+30400002 [Default] Tarnished Coin, Tarnished Silver Coin
 30599999 ### Demon ###
 30600000 [Default] Soul of a Demon
 30600001 [Default] Fire Seed
 30600002 [Default] Dried Root
+30600003 [Default] Fire Gem
 30699999 ### Demon Cleric ###
 30700000 [Default] Fire Seed
 30700001 [Default] Fire Gem
@@ -2458,22 +2486,31 @@
 30899999 ### Cage Spider ###
 30900000 [Default] Fading Soul
 30900001 [Default] Lifegem
+30900002 [Default] Ritual Incense
 30999999 ### Ravenous Crystal Lizard ###
 31000000 [Default] Crystal Fragment
 31000001 [Default] Exotic Souls
 31000002 [Default] Crimson Water
+31000003 [Default] Enchanted Gem
+31000004 [Default] Magic Gem
+31000005 [Default] Titanite Fragment
 31099999 ### Deep Accursed ###
 31100000 [Default] Abyssal Fragment
 31100001 [Default] Exotic Souls
 31100002 [Default] Old Radiant Lifegem
+31100003 [Default] Curse Gem
+31100004 [Default] Dark Gem
 31199999 ### Elder Ghru ###
 31200000 [Default] Blunt Gem
 31200001 [Default] Ember
 31200002 [Default] Exotic Souls
 31200003 [Default] Old Radiant Lifegem
+31200004 [Default] Dark Gem
 31409999 ### Ancient Wyvern ###
 31410000 [Default] Dragon Eye
 31410001 [Default] Old Radiant Lifegem
+31410002 [Default] Sharp Gem
+31410003 [Default] Fire Gem
 31699999 ### Darkwraith ###
 31700000 [Default] Dark Gem
 31700001 [Default] Curse Gem
@@ -2484,9 +2521,11 @@
 32100000 [Default] Rotten Pine Resin
 32100001 [Default] Poison Gem
 32100002 [Default] Lifegem
+32100003 [Default] Petrified Something
 32199999 ### Rock Lizard ###
-32200003 [Default] Lethal Gem, Sharp Gem, Blunt Gem
-32200004 [Default] Old Radiant Lifegem
+32200000 [Default] Lethal Gem, Sharp Gem, Blunt Gem
+32200001 [Default] Old Radiant Lifegem
+32200002 [Default] Blunt Gem
 51399999 ### Spirit of the Pontiff ###
 51400000 [Default] Old Radiant Lifegem
 51400001 [Default] Crystal Fragment
@@ -2495,8 +2534,9 @@
 51400004 [Default] Exotic Souls
 51999999 ### Stray Demon ###
 52000000 [Default] Soul of a Stray Demon
-52000010 [Default] Fire Seed
-52000012 [Default] Dried Root
+52000001 [Default] Fire Seed
+52000002 [Default] Dried Root
+52000003 [Default] Fire Gem
 52209999 ### Deacon of the Deep ###
 52210000 [Default] Human Dregs
 52210001 [Default] Abyssal Fragment
@@ -2508,6 +2548,8 @@
 52699999 ### Boreal Outrider Assassin ###
 52700000 [Default] Exotic Souls
 52700001 [Default] Old Radiant Lifegem
+52700002 [Default] Petrified Something
+52700003 [Default] Frost Gem
 59999999 ### Farron Follower ###
 60000000 [Default] Frost Gem
 60000001 [Default] Radiant Lifegem
@@ -2573,6 +2615,7 @@
 63309999 ### Small Locust ###
 63310000 [Default] Pale Pine Resin
 63310001 [Default] Lifegem
+63310002 [Default] Barathrum Petal
 75699999 ### Frostfire Cleric ###
 75700000 [Default] Elizabeth Mushroom
 75700001 [Default] Frost Gem
@@ -2594,14 +2637,12 @@
 800001130 [Covenant] Servant of the Rat
 800001140 [Covenant] Ritualist Pact
 800009999 ### Covenant Drops ###
-800010000 [Thieves' Pact] Lethal Gem, Cursed Gem, Sharp Gem, Blunt Gem
-800010001 [Thieves' Pact] Poison Gem, Blood Gem, Frost Gem
-800010002 [Thieves' Pact] Magic Gem, Fire Gem, Lightning Gem, Dark Gem
-800010003 [Thieves' Pact] Lucky Gem, Enchanted Gem, Holy Gem
-800010020 [Thieves' Pact - Low] Lethal Gem, Cursed Gem, Sharp Gem, Blunt Gem
-800010021 [Thieves' Pact - Low] Poison Gem, Blood Gem, Frost Gem
-800010022 [Thieves' Pact - Low] Magic Gem, Fire Gem, Lightning Gem, Dark Gem
-800010023 [Thieves' Pact - Low] Lucky Gem, Enchanted Gem, Holy Gem
+800010000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
+800010001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm
+800010002 [Thieves' Pact] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
+800010020 [Thieves' Pact - Low] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
+800010021 [Thieves' Pact - Low] Alluring Skull, Undead Hunter Charm, Duel Charm
+800010022 [Thieves' Pact - Low] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
 800010100 [Darkmoon Faithful] Proof of a Concord Kept
 800010120 [Darkmoon Faithful] Proof of a Concord Kept - Low
 800010200 [Spears of the Church] Filianore's Spear Ornament

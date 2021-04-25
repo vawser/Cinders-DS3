@@ -32,9 +32,9 @@
 21200 Livid Pyromancer Dunnel - Mad Phantom [Ariandel]
 21400 Amnesiac Lapp [Dreg Heap]
 21401 Amnesiac Lapp [Dreg Heap]
-21402 Amnesiac Lapp [The Ringed City]
-21403 Amnesiac Lapp [The Ringed City]
-21404 Amnesiac Lapp [The Ringed City]
+21402 Amnesiac Lapp - Ringed Inner Wall [The Ringed City]
+21403 Amnesiac Lapp - Room on Ramparts [The Ringed City]
+21404 Amnesiac Lapp - Shared Grave [The Ringed City]
 21405 Amnesiac Lapp [Dreg Heap]
 21420 Amnesiac Lapp - White Phantom [Dreg Heap]
 21421 Amnesiac Lapp - White Phantom [The Ringed City]
@@ -288,6 +288,10 @@
 107214 Skeleton - Scimitar [Smouldering Lake]
 107215 Skeleton - Ball [Smouldering Lake]
 107216 Skeleton - Firebomb [Smouldering Lake]
+107301 Skeleton - Falchion [Ringed City]
+107302 Skeleton - Falchion [Ringed City]
+107313 Skeleton - Scimitar [Ringed City]
+107314 Skeleton - Scimitar [Ringed City]
 107400 El Hueso [Firelink Shrine]
 109000 Pus of Man [High Wall of Lothric]
 109001 Pus of Man [High Wall of Lothric]
@@ -974,9 +978,9 @@
 522700 Deacon - Priest Dagger [Anor Londo]
 522701 Deacon - Candlestick [Anor Londo]
 524000 Irithyll Fire Witch [Irithyll]
-525000 [Boss] Lorian, Elder Prince [Initial Stage]
-525001 [Boss] Lorian, Elder Prince [Final Stage]
-525100 [Boss] Lothric, Younger Prince [Final Stage]
+525000 [Boss] Lorian, Elder Prince
+525001 [Boss] Lorian, Elder Prince [Heatup]
+525100 [Boss] Lothric, Younger Prince
 526000 [Boss] Yhorm the Giant
 527000 [Boss] Dancer of the Boreal Valley
 527001 Boreal Outrider Assassin [Grand Archives]
@@ -1229,6 +1233,9 @@
 766000 Giant Sentinel (DSA)
 767000 [Boss] Dismal Knight
 768000 [Boss] The Forlorn Giant
+770000 [Boss] Fallen Protector
+770001 [Boss] Fallen Protector [Heatup]
+770100 [Boss] Fair Maiden
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

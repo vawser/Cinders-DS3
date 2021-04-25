@@ -5387,6 +5387,27 @@
 276800370 [Forlorn Giant]
 276800500 [Forlorn Giant]
 276800510 [Forlorn Giant]
+277000100 [Fallen Protector] Left Slash
+277000110 [Fallen Protector] Right Slash
+277000120 [Fallen Protector] Forward Slam
+277000121 [Fallen Protector] Forward Slam - Quick
+277000130 [Fallen Protector] Heavy Forward Slam
+277000131 [Fallen Protector] Heavy Forward Slam - Shockwave
+277000140 [Fallen Protector] Forward Thrust
+277000150 [Fallen Protector] Turn Right -> Slash
+277000160 [Fallen Protector] Turn Left -> Slash
+277000170 [Fallen Protector] Fall from Sky -> Stab Down
+277000180 [Fallen Protector] Forward Slam (BulletInvoke)
+277000190 [Fallen Protector] Turn Right -> Full Slash
+277000200 [Fallen Protector] Turn Left -> Full Slash
+277000210 [Fallen Protector] Upwards Slash
+277000700 [Fallen Protector]
+277000702 [Fallen Protector]
+277000710 [Fallen Protector]
+277000720 [Fallen Protector]
+277000730 [Fallen Protector]
+277000740 [Fallen Protector]
+277010900 [Fair Maiden]
 280000000 [Script] Gough's Arrow Rain
 280000100 [Script] Lordran Remnant Entry
 280001000 [Script] Freezing Wind - Irithyll

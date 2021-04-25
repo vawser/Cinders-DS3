@@ -108,6 +108,18 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 #------------------------------
 # Changelog
 #------------------------------
+# Bosses
+- Added a new boss in the Profaned Capital swamp: the Fallen Protector and the Fair Maiden
+ - Drops Soul of the Maiden, which can be transposed into:
+  - Blueblood Sword
+  - Quicksilver Shield
+  - Life Ring
+ - The Quicksilver Set will appear in the swamp cave after they have been defeated.
+ 
+# Map
+- Changed the Church of Sin bonfire into the Swamp of Sin and moved it onto the wooden platform above the swamp in the Profaned Capital.
+- Removed enemies near the Secluded Cloister bonfire.
+ 
 # Items
 - Changed Bone Fragment item to Petrified Something.
 - Changed the sources of Petrified Somethings.
@@ -136,20 +148,10 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 - Fixed Dismal Knight/Champion Gundyr setting the wrong flags when defeated, preveting them from being respawned. (Requires NG+ to fix in existing save).
 - Siegward demon kill should now be correctly registered by his scripts.
 - Fixed counter frames reducing Dark absorption.
+- Fixed Rosaria/McDonnell relationship dialogue.
+- Fixed Master Benjin's dialogue in m40.
 
 #------------------------------
 # TODO
 #------------------------------
 
-[07:55] Kätsy: 5. Master Benjin's dialogues get automatically skipped (not sure, if this happens only if he is at Overgrown Sanctum or it happens also, while he is at his original spot in Undead Settlement). I discovered this bug in version 2.03.2.
-
-c7670
-c7671
-
-770001 [Boss] Fallen Protector Nyx [Heatup] # 3410830 # 4000896
-770100 [Boss] Maiden Eris                   # 3410831 # 4000897
-770000 [Boss] Fallen Protector Nyx          # 3410832 # 4000895
-
-var entity_FallenProtector       = 3900861;
-    var entity_FallenProtectorHeatup = 3900860;
-    var entity_Maiden                = 3900862;

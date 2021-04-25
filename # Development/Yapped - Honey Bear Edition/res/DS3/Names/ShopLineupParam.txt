@@ -320,7 +320,7 @@
 36071 [Bonfire - Profaned Capital] Siegbräu
 36072 [Bonfire - Profaned Capital] Rusted Gold Coin
 36073 [Bonfire - Sage's Overlook] Blue Bug Pellet
-36074 [Bonfire -Old King's Antechamber] Red Bug Pellet
+36074 [Bonfire - Old King's Antechamber] Red Bug Pellet
 36075 [Bonfire - Great Belfry] Yellow Bug Pellet
 36076 [Bonfire - Irithyll Dungeon] Black Bug Pellet
 36077 [Bonfire - Default] Ember
@@ -374,6 +374,14 @@
 36142 [Bonfire - Old King's Antechamber] Old Radiant Lifegem
 36143 [Bonfire - Earthen Peak Ruins] Elizabeth Mushroom
 36144 [Bonfire - Irithyll Dungeon] Dried Root
+36145 [Bonfire - Grand Archives] Smouldering Stone
+36146 [Bonfire - Old King's Antechamber] Titanite Fragment
+36147 [Bonfire - Catacombs of Carthus] Inferi Petal
+36148 [Bonfire - Old King's Antechamber] Combustum Petal
+36149 [Bonfire - Irithyll Dungeon] Vindicti Petal
+36150 [Bonfire - Untended Graves] Barathrum Petal
+36151 [Bonfire - Grand Archives] Celeritas Stem
+36152 [Bonfire - Farron Keep] Veloxi Moss
 40000 [Yoel] Deep Barb
 40001 [Yoel] Whisper of Despair
 40002 [Yoel] Farron Dart
