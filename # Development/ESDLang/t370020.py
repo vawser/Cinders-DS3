@@ -232,24 +232,24 @@ def t370020_x9(lot1=4230, goods1=367, lot2=4238, lot3=4237, action1=15000406, ac
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008050, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012045, 0, 0, 0)
+            assert t370020_x20(text1=10103030, flag1=0, mode1=0)
             continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012040, 0, 0, 0)
+                assert t370020_x20(text1=10103000, flag1=0, mode1=0)
                 GetItemFromItemLot(90040)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012041, 0, 0, 0)
+                assert t370020_x20(text1=10103010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012042, 0, 0, 0)
+                assert t370020_x20(text1=10103020, flag1=0, mode1=0)
             continue
         # Divorce
         elif GetTalkListEntryResult() == 12:
-            OpenGenericDialog(1, 99012042, 0, 0, 0)
+            assert t370020_x20(text1=10103020, flag1=0, mode1=0)
             SetEventState(25008050, 0)
             GetItemFromItemLot(91000)
             return 0
@@ -348,4 +348,31 @@ def t370020_x17(z2=_, z3=_, flag1=_):
         SetEventState(flag1, 1)
         assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
     """ State 5 """
+    return 0
+
+# Talk Function
+def t370020_x20(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t370020_x21() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t370020_x21():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
     return 0

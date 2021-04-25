@@ -44,7 +44,11 @@ c7520 Ornstein c5010
 c7530 Smelter Demon c5020
 c7540 Big Havel c5260
 c7550 Fume Knight c5280
-
+c7560 Frostfire Colossus
+c7561 Frostfire Colossus Orb
+c7562 Frostfire Colossus Sapping Orb
+c7570 Frostfire Cleric
+c7571 Frostfire Cleric Orb
 c7580 Velstadt c6100    
 c7590 Smough c1290      
 c7600 Sir Yorgh c5110   
@@ -54,12 +58,6 @@ c7630 The Rock c3160
 c7640 Giant Sentinel c3160
 c7650 Berenike Knight c1190
 c7660 Old Giant c3020
-
-# Muffins
-c7560
-c7561
-c7562
-
-c7570
-c7571
+c7670 Fallen Protector Nyx and Maiden Eris c5250
+c7671
 

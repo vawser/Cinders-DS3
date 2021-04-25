@@ -6027,6 +6027,15 @@ Event(20020131, Default, function() {
 });
 
 //----------------------------------------------
+// Fallen Protector - Boss Start
+//----------------------------------------------
+Event(20020132, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    
+});
+
+//----------------------------------------------
 // Region Warp
 // <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
 //----------------------------------------------

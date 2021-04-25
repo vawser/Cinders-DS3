@@ -20,7 +20,7 @@
 53502086 Cathedral of the Deep
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
-53902124 Irithyll Dungeon / Profaned Capital
+53902125 Irithyll Dungeon / Profaned Capital
 54002081 Cemetery of Ash / Unturned Graves
 54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
@@ -90,7 +90,16 @@ Finish following weapons:
 31690000 Gargoyle Halberd                - Halberd
 31700000 Gargoyle Tail Axe               - Battle Axe
 
-Make spell image repository
+Add the following armour:
+9946    Sanctum Knight Set
+9947    Imported Set
+9948    Ironclad Set
+9949    Fallen Herald Set
+9950    Stalwart Knight Set
+9951    Eastern Soldier Set
+9952    Eastern Commander Set # Imperial Samurai Helm is head for this
+9953    Okami Set
+9954    Eastern Wolf Set
 
 Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
  - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
@@ -124,28 +133,23 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 
 # Bugfixes
 - Dial of Obedience+5 will now work correctly.
+- Fixed Dismal Knight/Champion Gundyr setting the wrong flags when defeated, preveting them from being respawned. (Requires NG+ to fix in existing save).
+- Siegward demon kill should now be correctly registered by his scripts.
+- Fixed counter frames reducing Dark absorption.
 
 #------------------------------
 # TODO
 #------------------------------
-Add the following armour:
-9946    Sanctum Knight Set
-9947    Imported Set
-9948    Ironclad Set
-9949    Fallen Herald Set
-9950    Stalwart Knight Set
-9951    Eastern Soldier Set
-9952    Eastern Commander Set # Imperial Samurai Helm is head for this
-9953    Okami Set
-9954    Eastern Wolf Set
 
-4109 Orbs of Judgment
-4120 Blizzard
+[07:55] Kätsy: 5. Master Benjin's dialogues get automatically skipped (not sure, if this happens only if he is at Overgrown Sanctum or it happens also, while he is at his original spot in Undead Settlement). I discovered this bug in version 2.03.2.
 
+c7670
+c7671
 
+770001 [Boss] Fallen Protector Nyx [Heatup] # 3410830 # 4000896
+770100 [Boss] Maiden Eris                   # 3410831 # 4000897
+770000 [Boss] Fallen Protector Nyx          # 3410832 # 4000895
 
-
-
-
-
-
+var entity_FallenProtector       = 3900861;
+    var entity_FallenProtectorHeatup = 3900860;
+    var entity_Maiden                = 3900862;

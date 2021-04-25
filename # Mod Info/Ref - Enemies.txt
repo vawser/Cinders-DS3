@@ -308,6 +308,35 @@
 - Absorption: Dark:         20%
 - Affected by: Poison, Bleed, Frost
 
+# The Fallen Protector
+- Phase 1 NG0 HP: 8000 
+- Phase 2 NG0 HP: 6000
+- Phase 1 NG+ HP: 9600
+- Phase 2 NG+ HP: 7200
+- Absorption: Standard:     20%
+- Absorption: Slash:        20%
+- Absorption: Strike:       15%
+- Absorption: Thrust:       15%
+- Absorption: Magic:        30%
+- Absorption: Fire:         30%
+- Absorption: Lightning:    30%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+
+# The Fair Maiden
+- NG0 HP: 6000
+- NG+ HP: 7200          
+- Souls: 60000
+- Absorption: Standard:     10%
+- Absorption: Slash:        10%
+- Absorption: Strike:       0%
+- Absorption: Thrust:       10%
+- Absorption: Magic:        30%
+- Absorption: Fire:         30%
+- Absorption: Lightning:    30%
+- Absorption: Dark:         10%
+- Affected by: Poison, Bleed, Frost
+
 #------------------------
 # Archdragon Peak
 #------------------------

@@ -1458,6 +1458,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001030 Boss Kill: Herald of Winter
 25001031 Boss Kill: The Rock
 25001032 Boss Kill: Twisted Knight
+25001033 Boss Kill: Fallen Protector
 
 25002001 First Boss Kill: Dismal Knight
 25002002 First Boss Kill: Vordt
@@ -1491,6 +1492,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002030 First Boss Kill: Herald of Winter
 25002031 First Boss Kill: The Rock
 25002032 First Boss Kill: Twisted Knight
+25002033 First Boss Kill: Fallen Protector
 
 25006000 No Hit state
 

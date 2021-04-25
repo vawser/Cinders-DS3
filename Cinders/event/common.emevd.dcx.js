@@ -131,6 +131,7 @@ Event(0, Default, function() {
     InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Herald of Winter
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
+    InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
     
     // Game Progress Flags - Set via Boss Defeat
     InitializeEvent(0, 6100, 6100, 13300800);
@@ -1856,6 +1857,7 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20130, 0); // Herald of Winter
     InitializeEvent(0, 20131, 0); // The Rock
     InitializeEvent(0, 20132, 0); // Twisted Knight
+    InitializeEvent(0, 20133, 0); // Fallen Protector
     
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
 });
@@ -2243,32 +2245,11 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    //ChangeCharacterEnableState(3800498, Enabled);
-    //SetCharacterAnimationState(3800498, Enabled);
-    //WarpCharacterAndCopyFloor(3800498, TargetEntityType.Character, 10000, 291, 10000);
-    
-    //BatchSetEventFlags(13410903, 13410907, OFF);
-    
-    // Treasure flags
-    //SkipUnconditionally(15);
-    BatchSetEventFlags(53000000, 53002999, OFF);
-    BatchSetEventFlags(53010000, 53012999, OFF);
-    BatchSetEventFlags(53100000, 53102999, OFF);
-    BatchSetEventFlags(53200000, 53202999, OFF);
-    BatchSetEventFlags(53300000, 53302999, OFF);
-    BatchSetEventFlags(53410000, 53402999, OFF);
-    BatchSetEventFlags(53500000, 53502999, OFF);
-    BatchSetEventFlags(53700000, 53702999, OFF);
-    BatchSetEventFlags(53800000, 53802999, OFF);
-    BatchSetEventFlags(53900000, 53902999, OFF);
-    BatchSetEventFlags(54000000, 54002999, OFF);
-    BatchSetEventFlags(54100000, 54102999, OFF);
-    BatchSetEventFlags(54500000, 54502999, OFF);
-    BatchSetEventFlags(55000000, 55002999, OFF);
-    BatchSetEventFlags(55100000, 55102999, OFF);
-    BatchSetEventFlags(55110000, 55112999, OFF);
-    
-    //SetEventFlag(25001031, ON);
+    SetEventFlag(13900860, OFF);
+    SetEventFlag(13905865, OFF);
+    SetEventFlag(13900861, OFF);
+    SetEventFlag(13905910, OFF);
+    SetEventFlag(13905866, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -3538,6 +3519,54 @@ Event(20132, Restart, function() {
     var ceremonyID = 0;
     
     var text_BossNotKilled = 99030131;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
+    
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    
+    SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
+    
+    Label1();
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Fallen Protector
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20133, Restart, function() {
+    var param_SpEffect_Trigger = 260100340;
+    
+    var flag_BossKilled     = 25001033;
+    var flag_BossDefeated   = 13900860;
+    var flag_BossInProgress = 13900861;
+    var flag_BossState1     = 9346;
+    var flag_BossState2     = 6346;
+    
+    var entity_SpawnPoint  = 3902951;
+    var entity_PlayerPoint = 3900971;
+    
+    var mapID      = 39;
+    var blockID    = 0;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030132;
     
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);

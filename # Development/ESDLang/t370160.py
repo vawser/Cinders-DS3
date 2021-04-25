@@ -195,24 +195,24 @@ def t370160_x10():
         elif GetTalkListEntryResult() == 10:
             SetEventState(25008060, 1)
             PlayerEquipmentQuantityChange(3, 2000, -1)
-            OpenGenericDialog(1, 99012055, 0, 0, 0)
+            assert t370160_x40(text1=10104030, flag1=0, mode1=0)
             continue
         # Flirt
         elif GetTalkListEntryResult() == 11:
             # Good
             if GetEventStatus(25008900):
-                OpenGenericDialog(1, 99012050, 0, 0, 0)
+                assert t370160_x40(text1=10104000, flag1=0, mode1=0)
                 GetItemFromItemLot(90050)
             # Neutral
             elif GetEventStatus(25008901):
-                OpenGenericDialog(1, 99012051, 0, 0, 0)
+                assert t370160_x40(text1=10104010, flag1=0, mode1=0)
             # Bad
             elif GetEventStatus(25008902):
-                OpenGenericDialog(1, 99012052, 0, 0, 0)
+                assert t370160_x40(text1=10104020, flag1=0, mode1=0)
             return 0
         # Divorce
         elif GetTalkListEntryResult() == 12:
-            OpenGenericDialog(1, 99012052, 0, 0, 0)
+            assert t370160_x40(text1=10104020, flag1=0, mode1=0)
             SetEventState(25008060, 0)
             GetItemFromItemLot(91000)
             continue
@@ -762,3 +762,29 @@ def t370160_x34():
     """ State 5 """
     return 0
 
+# Talk Function
+def t370160_x40(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t370160_x41() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t370160_x41():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
