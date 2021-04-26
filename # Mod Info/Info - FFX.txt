@@ -69,6 +69,10 @@ dmy:
 856022 Torch: Holy
 856028 Torch: Normal
 
+856030 Red Cloud
+856031 Black Cloud
+856032 Light Blue Cloud
+
 #------------------------
 # Reference
 #------------------------
