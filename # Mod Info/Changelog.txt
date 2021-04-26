@@ -131,6 +131,9 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 - Added consumable: Celeritas Stem - Boosts casting speed by 30 for 60 seconds.
 - Added consumable: Veloxi Moss - Reduces weapon stamina consumption by 25% for 60 seconds.
 
+# Weapon
+- Reduced Frostfall INT requirement to 40.
+
 # Catalysts
 - Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
 
@@ -150,6 +153,7 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 - Fixed counter frames reducing Dark absorption.
 - Fixed Rosaria/McDonnell relationship dialogue.
 - Fixed Master Benjin's dialogue in m40.
+- Fixed Handmaid's Ladle infusion bug.
 
 #------------------------------
 # TODO
