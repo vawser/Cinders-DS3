@@ -57,6 +57,18 @@ dmy:
 
 856000 Deep Purple Fire Trial
 
+856002 Torch: Curse
+856004 Torch: Poison
+856006 Torch: Bleed
+856008 Torch: Frost
+856010 Torch: Magic
+856012 Torch: Fire
+856014 Torch: Lightning
+856016 Torch: Dark
+856020 Torch: Enchanted
+856022 Torch: Holy
+856028 Torch: Normal
+
 #------------------------
 # Reference
 #------------------------

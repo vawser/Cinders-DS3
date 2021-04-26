@@ -138,6 +138,8 @@ Add the following armour:
 - Weapons with INT/FTH requirements now adjust their requirements with the following infusions: Magic, Fire, Lightning, Dark, Enchanted, Holy.
 - Adjusted the requirements for several weapons with INT/FTH requirements so they aren't so low (and therefore pointless as requirements).
 - Added INT/FTH requirements to some weapons that dealt elemental damage but had no INT/FTH requirements before.
+- Corvian Longstaff WA now changes which aux it inflicts if infused with Curse/Bleed/Frost.
+- Added p0's torch VFX changes.
 
 # Catalysts
 - Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
