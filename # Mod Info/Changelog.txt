@@ -101,10 +101,6 @@ Add the following armour:
 9953    Okami Set
 9954    Eastern Wolf Set
 
-Add Soulbond system that allows you to view vendor inventories from a bonfire after giving the vendor X amount of souls.
- - NPC option: Form Soulbond, will take X souls and enable the inventory at the bonfire.
- - Bonfire: Soulbonds -> Vendor Name -> Inventory
- 
 #------------------------------
 # Changelog
 #------------------------------
@@ -133,9 +129,15 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 - Added consumable: Barathrum Petal - Boosts damage against Abyssals by 20% for 60 seconds.
 - Added consumable: Celeritas Stem - Boosts casting speed by 30 for 60 seconds.
 - Added consumable: Veloxi Moss - Reduces weapon stamina consumption by 25% for 60 seconds.
+- You can now sell Estus Shards/Undead Bone Shards for 10000 souls.
 
 # Weapon
 - Reduced Frostfall INT requirement to 40.
+- Reduced the damage of the Dagger/Paired Dagger category.
+- Weapons with no innate physical damage no longer have the Lethal, Sharp, Blunt infusions.
+- Weapons with INT/FTH requirements now adjust their requirements with the following infusions: Magic, Fire, Lightning, Dark, Enchanted, Holy.
+- Adjusted the requirements for several weapons with INT/FTH requirements so they aren't so low (and therefore pointless as requirements).
+- Added INT/FTH requirements to some weapons that dealt elemental damage but had no INT/FTH requirements before.
 
 # Catalysts
 - Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
