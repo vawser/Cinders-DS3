@@ -3044,13 +3044,13 @@ Event(20123, Restart, function() {
     SetEventFlag(15110000, 0);
     
     SetPlayerRespawnPoint(5112951);
-    SetMapCeremony(51, 10, 0);
+    SetMapCeremony(51, 1, 10);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
     WaitFixedTimeFrames(1);
     
-    WarpPlayer(51, 0, 5110980);
+    WarpPlayer(51, 1, 5110980);
     Label1();
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001024);
     DisplayEpitaphMessage(99030123);

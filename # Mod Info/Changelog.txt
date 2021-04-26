@@ -119,6 +119,9 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 # Map
 - Changed the Church of Sin bonfire into the Swamp of Sin and moved it onto the wooden platform above the swamp in the Profaned Capital.
 - Removed enemies near the Secluded Cloister bonfire.
+- Removed the skeletons in the Shared Grave.
+- Ringed City Streets and Shared Grave bonfires are no longer locked behind intruder kills.
+- Moved Freya and the Moaning Knight intruders into rooms within the Shared Grave.
  
 # Items
 - Changed Bone Fragment item to Petrified Something.
@@ -154,6 +157,8 @@ Add Soulbond system that allows you to view vendor inventories from a bonfire af
 - Fixed Rosaria/McDonnell relationship dialogue.
 - Fixed Master Benjin's dialogue in m40.
 - Fixed Handmaid's Ladle infusion bug.
+- Fixed Heavenly Relief applying twice.
+- Fixed Slave Knight Gael's tome warp.
 
 #------------------------------
 # TODO
