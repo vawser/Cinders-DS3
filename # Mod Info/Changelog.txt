@@ -172,10 +172,5 @@ Add the following armour:
 #------------------------------
 # TODO
 #------------------------------
-Pulsating   # FP regen
-Vibrating   # HP regen
-Throbbing   # FP cost reduction
-Quivering   # cast speed
-Laughing    # Luck convert
-
-200003000
+650203
+650211
