@@ -118,6 +118,7 @@ Add the following armour:
 - Removed the skeletons in the Shared Grave.
 - Ringed City Streets and Shared Grave bonfires are no longer locked behind intruder kills.
 - Moved Freya and the Moaning Knight intruders into rooms within the Shared Grave.
+- Added Scribe's Retreat bonfire on the Cathedral of the Deep.
  
 # Items
 - Changed Bone Fragment item to Petrified Something.
@@ -155,6 +156,12 @@ Add the following armour:
 - Increased the HP regen from the Vibrating infusion to 5.
 - Added a new infusion: Laughing. This converts the catalyst into a LCK catalyst and halves the amount of INT/FTH needed to cast spells (the UI doesn't reflect this however).
 
+# NPCs
+- Added Magesmith Quilon: he is a sorcery master and can ascend specific sorceries into new and improved forms. Found in Lothric Castle.
+- Added Oktio of the Swamp: he is a pyromancy master and can ascend specific pyromancies into new and improved forms. Found in Smouldering Lake.
+- Added Scribe Vadan: he is a miracle master and can ascend specific miracles into new and improved forms. Found in Cathedral of the Deep.
+- Added Sinner Argith: he is a hex master and can ascend specific hexes into new and improved forms. Found in the Profaned Capital.
+
 # Covenants
 - Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
 
@@ -172,5 +179,13 @@ Add the following armour:
 #------------------------------
 # TODO
 #------------------------------
-650203
-650211
+Blessed Weapon
+Lightining Blade
+Halo
+Wrath of the Gods
+
+# Master NPCs
+Magesmith Quilon    # m30_1 - 722500    - 301500
+
+InitializeCommonEvent(20081200, 14000795, 4000795, 90430);  // Magesmith Quilon - Idle
+InitializeCommonEvent(20081210, 14000795, 4000795);         // Magesmith Quilon - Hostility
