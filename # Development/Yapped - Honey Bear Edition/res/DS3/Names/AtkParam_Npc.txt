@@ -4725,24 +4725,23 @@
 7680370 [Forlorn Giant]
 7680500 [Forlorn Giant]
 7680510 [Forlorn Giant]
-7700100 [Fallen Protector]
-7700110 [Fallen Protector]
-7700120 [Fallen Protector]
-7700121 [Fallen Protector]
-7700130 [Fallen Protector]
-7700131 [Fallen Protector]
-7700140 [Fallen Protector]
-7700150 [Fallen Protector]
-7700160 [Fallen Protector]
-7700170 [Fallen Protector]
-7700180 [Fallen Protector]
-7700190 [Fallen Protector]
-7700200 [Fallen Protector]
-7700210 [Fallen Protector]
-7700700 [Fallen Protector]
-7700702 [Fallen Protector]
-7700710 [Fallen Protector]
-7700720 [Fallen Protector]
-7700730 [Fallen Protector]
-7700740 [Fallen Protector]
+7700100 [Fallen Protector] Left Slash
+7700110 [Fallen Protector] Right Slash
+7700120 [Fallen Protector] Forward Slam
+7700121 [Fallen Protector] Forward Slam - Quick
+7700130 [Fallen Protector] Heavy Forward Slam
+7700131 [Fallen Protector] Heavy Forward Slam - Shockwave
+7700140 [Fallen Protector] Forward Thrust
+7700150 [Fallen Protector] Turn Right -> Slash
+7700160 [Fallen Protector] Turn Left -> Slash
+7700170 [Fallen Protector] Fall from Sky -> Stab Down
+7700180 [Fallen Protector] Forward Slam (BulletInvoke)
+7700190 [Fallen Protector] Turn Right -> Full Slash
+7700200 [Fallen Protector] Turn Left -> Full Slash
+7700210 [Fallen Protector] Upwards Slash
+7700700 [Fallen Protector] Affinity
+7700702 [Fallen Protector] Affinity
+7700710 [Fallen Protector] Maiden Revival
+7700720 [Fallen Protector] Dreg Cone
+7700740 [Fallen Protector] Great Soul Dregs
 7701900 [Fair Maiden]

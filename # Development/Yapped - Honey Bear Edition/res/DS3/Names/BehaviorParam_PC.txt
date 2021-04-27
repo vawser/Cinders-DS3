@@ -1967,7 +1967,6 @@
 103060911 Man Serpent Hatchet
 103060915 Man Serpent Hatchet
 103060916 Man Serpent Hatchet
-103062700 Corvian Longstaff - Poison Spores
 103063700 Longstaff of Rosaria - Blessing of Rosaria
 103064700 Archdeacon's Longstaff - Archdeacon's Gambit
 103064701 Archdeacon's Longstaff - Archdeacon's Gambit
@@ -1994,6 +1993,10 @@
 103070710 Gargoyle Tail Axe - WA Hit 2
 103070711 Gargoyle Tail Axe - WA Hit 3
 103070720 Gargoyle Tail Axe - WA
+103080700 Corvian Longstaff - Poison Spores
+103081700 Corvian Longstaff - Curse Spores
+103082700 Corvian Longstaff - Bleed Spores
+103083700 Corvian Longstaff - Frost Spores
 103200000 Greataxe - 1H Light #1
 103200001 Greataxe - 1H Light #1 Range
 103200010 Greataxe - 1H Light #2

@@ -2559,28 +2559,17 @@
 1092451 [Weapon Art] Ringed Knight Spear - Ember - Left
 1092461 [Weapon Art] Ringed Knight Spear - Ember - Left - No FP
 101310000 [Sorcery] Magic Weapon
-101310006 [Sorcery] Magic Weapon - Ascended
 101311000 [Sorcery] Great Magic Weapon
-101311006 [Sorcery] Great Magic Weapon - Ascended
 101312000 [Sorcery] Crystal Magic Weapon
-101312006 [Sorcery] Crystal Magic Weapon - Ascended
 101313000 [Sorcery] Frozen Weapon
-101313006 [Sorcery] Frozen Weapon - Ascended
 101330000 [Sorcery] Magic Shield
-101330006 [Sorcery] Magic Shield - Ascended
 101331000 [Sorcery] Great Magic Shield
-101331006 [Sorcery] Great Magic Shield - Ascended
 101340000 [Sorcery] Hidden Weapon
-101340006 [Sorcery] Hidden Weapon - Ascended
 101341000 [Sorcery] Hidden Body
-101341006 [Sorcery] Hidden Body - Ascended
 101350000 [Sorcery] Cast Light
 101353000 [Sorcery] Repair
-101353006 [Sorcery] Repair - Ascended
 101354000 [Sorcery] Spook
 101354100 [Sorcery] Spook [CycleOccurance]
-101354200 [Sorcery] Spook - Ascended
-101354210 [Sorcery] Spook [CycleOccurance] - Ascended
 101355000 [Sorcery] Chameleon
 101355100 [Sorcery] Chameleon [CycleOccurance]
 101356000 [Sorcery] Aural Decoy
@@ -2588,29 +2577,21 @@
 101741000 [Sorcery] Snap Freeze
 102422000 [Pyromancy] Acid Surge
 102430000 [Pyromancy] Iron Flesh
-102430001 [Pyromancy] Iron Flesh - Ascended
 102430100 [Pyromancy] Iron Flesh
 102430200 [Pyromancy] Iron Flesh
 102430300 [Pyromancy] Iron Flesh
 102431000 [Pyromancy] Flash Sweat
-102431001 [Pyromancy] Flash Sweat - Ascended
 102435000 [Pyromancy] Carthus Flame Arc
-102435001 [Pyromancy] Carthus Flame Arc - Ascended
 102436000 [Pyromancy] Rapport
-102436001 [Pyromancy] Rapport - Ascended
 102436010 [Pyromancy] Rapport
 102440000 [Pyromancy] Power Within
-102440001 [Pyromancy] Power Within - Ascended
 102470000 [Pyromancy] Warmth
 102562000 [Pyromancy] Profuse Sweat
-102562001 [Pyromancy] Profuse Sweat - Ascended
 102650000 [Pyromancy] Carthus Beacon
-102650001 [Pyromancy] Carthus Beacon - Ascended
 102650010 [Pyromancy] Carthus Beacon - Start Condition Check + Reduce Increment
 102650011 [Pyromancy] Carthus Beacon - 17 'Hits'
 102650012 [Pyromancy] Carthus Beacon - 45 'Hits'
 102651000 [Pyromancy] Immolation
-102651001 [Pyromancy] Immolation - Ascended
 102651010 Immolation - Smouldering Talisman
 103490000 [Miracle] Heal Aid
 103490100 [Miracle] Heal Aid [MP]
@@ -2635,47 +2616,27 @@
 103521000 [Miracle] Homeward
 103521100 [Miracle] Homeward [Replace]
 103540000 [Miracle] Heavenly Relief
-103540001 [Miracle] Heavenly Relief - Ascended
-103540010 [Miracle] Heavenly Relief
-103540011 [Miracle] Heavenly Relief - Ascended
 103557000 [Miracle] Projected Heal - Friendly
 103557010 [Miracle] Projected Heal - Self
 103560000 [Miracle] Magic Barrier
-103560001 [Miracle] Magic Barrier - Ascended
 103561000 [Miracle] Great Magic Barrier
-103561001 [Miracle] Great Magic Barrier - Ascended
 103563000 [Miracle] Sacred Oath
 103563100 [Miracle] Sacred Oath
 103581000 [Miracle] Vow of Silence
-103581001 [Miracle] Vow of Silence - Ascended
 103590000 [Miracle] Lightning Blade
-103590001 [Miracle] Lightning Blade - Ascended
-103590002 [Miracle] Lightning Blade [CycleOccurance] - Ascended
-103590003 [Miracle] Lightning Blade [AttackOccurance] - Ascended
 103591000 [Miracle] Darkmoon Blade
-103591001 [Miracle] Darkmoon Blade - Ascended
 103640000 [Miracle] Dark Blade
 103640001 [Miracle] Dark Blade - Absorption
-103640005 [Miracle] Dark Blade - Ascended
-103640006 [Miracle] Dark Blade - Ascended - Absorption
 103700000 [Miracle] Dead Again
 103700100 GameSystemParam - DeadChrFinder - SpEffect
 103730000 [Miracle] Lifehunt Scythe
-103730001 [Miracle] Lifehunt Scythe - Ascended
 103731000 [Miracle] Lifehunt Scythe - HP Gain
-103731001 [Miracle] Lifehunt Scythe - HP Gain - Ascended
 103760000 [Miracle] Blessed Weapon
-103760001 [Miracle] Blessed Weapon - Ascended
 103770000 [Miracle] Deep Protection
-103770001 [Miracle] Deep Protection - Ascended
 103770100 [Miracle] Deep Protection [CycleOccurance]
-103770101 [Miracle] Deep Protection [CycleOccurance] - Ascended
 103770200 [Miracle] Deep Protection [CycleOccurance]
-103770201 [Miracle] Deep Protection [CycleOccurance] - Ascended
 103770300 [Miracle] Deep Protection [CycleOccurance]
-103770301 [Miracle] Deep Protection [CycleOccurance] - Ascended
 103780000 [Miracle] Atonement
-103780001 [Miracle] Atonement - Ascended
 111000000 Blade of the Darkmoon [old]
 111001000 Spears of the Church [old]
 111002000 Watchdogs of Farron [old]
@@ -3114,6 +3075,9 @@
 130120751 [Rose of Ariandel] Awakening - Left [CycleOccurance]
 130120760 [Rose of Ariandel] Awakening
 130130700 [Storyteller's Staff] Poison Spores
+130130701 [Storyteller's Staff] Curse Spores
+130130702 [Storyteller's Staff] Bleed Spores
+130130703 [Storyteller's Staff] Frost Spores
 130130710 [Storyteller's Staff] Poison Spores - VFX
 130130720 [Storyteller's Staff] Poison Spores
 130130800 [Effect] Mendicant's Staff
@@ -3681,37 +3645,25 @@
 160409023 Adventurer's Set - Legs
 160500001 ### Spells - Effects ###
 160500030 [Sorcery] Unleash Magic
-160500031 [Sorcery] Unleash Magic - Ascended
 160500050 [Sorcery] Repel
-160500051 [Sorcery] Repel - Ascended
 160500060 [Sorcery] Numbness
-160500061 [Sorcery] Numbness - Ascended
 160500070 [Miracle] Perseverance
-160500071 [Miracle] Perseverance - Ascended
 160500080 [Sorcery] Blizzard
-160500090 [Sorcery] Soul Focus
-160500100 [Miracle] Inner Fervor
 160500200 [Pyromancy] Rockflesh
-160500201 [Pyromancy] Rockflesh - Ascended
 160500210 [Pyromancy] Rockflesh [CycleOccurance]
 160500220 [Pyromancy] Rockflesh [CycleOccurance]
 160500230 [Pyromancy] Acid Surge
 160500250 [Miracle] Infected Spit
 160500260 [Miracle] Vow of Agony
-160500270 [Sorcery] Homing Soulmass - Ascended
-160500280 [Sorcery] Affinity - Ascended
+160500270 [Sorcery] Homing Soulmass
+160500280 [Sorcery] Affinity
 160500290 [Miracle] Pulsating Blade
 160500291 [Miracle] Pulsating Blade [AttackOccurance]
-160500292 [Miracle] Pulsating Blade - Ascended
-160500293 [Miracle] Pulsating Blade [AttackOccurance] - Ascended
 160500300 [Pyromancy] Pungent Blade
 160500301 [Pyromancy] Pungent Blade [AttackOccurance]
-160500302 [Pyromancy] Pungent Blade - Ascended
-160500303 [Pyromancy] Pungent Blade [AttackOccurance] - Ascended
 160500310 [Pyromancy] Black Flame Arc
-160500311 [Pyromancy] Black Flame Arc - Ascended
-160500320 [Pyromancy] Dark Dance - Ascended
-160500330 [Miracle] Wrathful Orbs - Ascended
+160500320 [Pyromancy] Dark Dance
+160500330 [Miracle] Wrathful Orbs
 160500340 [Pyromancy] Immolation - Self-harm
 160500350 [Spell] FP Restore Debuff - 30 Seconds
 160500351 [Spell] FP Restore Debuff - 60 Seconds
@@ -5192,35 +5144,24 @@
 160802000 Poise Override - Easy Stagger
 170000000 ### Status Effect - Spells ###
 170000010 Frost - Frozen Weapon [AttackOccurance]
-170000011 Frost - Frozen Weapon [AttackOccurance] - Ascended
 170000020 Frost - Snap Freeze [CycleOccurance]
 170000030 Poison - Poison Mist
 170000040 Poison - Toxic Mist
 170000050 Bleed - Nibble
-170000051 Bleed - Nibble - Ascended
 170000060 Bleed - Gnaw
-170000061 Bleed - Gnaw - Ascended
 170000070 Bleed - Dorhys' Gnawing
-170000071 Bleed - Dorhys' Gnawing - Ascended
 170000080 Bleed - Devouring Swarm
 170000090 Frost - Blizzard
 170000110 Curse - Deep Barb
-170000111 Curse - Deep Barb - Ascended
 170000130 Curse - Deep Soul
-170000131 Curse - Deep Soul - Ascended
 170000140 Curse - Great Deep Soul
-170000141 Curse - Great Deep Soul - Ascended
 170000150 Curse - Great Soul Dregs
-170000151 Curse - Great Soul Dregs - Ascended
 170000200 Curse - Yearning Dregs
 170000210 Curse - Writhing Deep
-170000211 Curse - Writhing Deep - Ascended
 170000230 Curse - Cascading Deep
 170000240 Curse - Surging Deep
-170000241 Curse - Surging Deep - Ascended
 170000250 Curse - Dreg Torrent
 170000260 Curse - Whisper of Despair
-170000261 Curse - Whisper of Despair - Ascended
 170000270 Curse - Pestilent Mist
 170000271 Curse - Pestilent Mist - HP Removal
 170000280 Curse - White Dragon Breath
@@ -5228,7 +5169,6 @@
 170000291 Curse - Pestilent Mist - HP Removal (Consumed King's Staff)
 170000300 Durability - King's Ultra Greatsword
 170000310 Bleed - Caitha's Affliction
-170000340 Curse - Dark Bead - Ascended
 170000350 Toxic - Fecal Explusion
 170000360 Toxic - Gravelord Sword Dance
 170000370 Curse - Dark Edge
@@ -5507,6 +5447,7 @@
 200003100 Vibrating
 200003200 Throbbing
 200003300 Quivering
+200003400 Laughing
 200004999 ### Infusions - Behavior ###
 200005000 Magic - Dagger
 200005020 Magic - Straight Sword

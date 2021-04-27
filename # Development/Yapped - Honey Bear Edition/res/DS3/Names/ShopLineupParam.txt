@@ -123,15 +123,11 @@
 22716 [Dragon Remnants] Black Dragon Armor
 22717 [Dragon Remnants] Black Dragon Gauntlets
 22718 [Dragon Remnants] Black Dragon Leggings
-22800 [Way of White] Quicksilver Helm
-22801 [Way of White] Quicksilver Armor
-22802 [Way of White] Quicksilver Gauntlets
-22803 [Way of White] Quicksilver Leggings
-22804 [Way of White] Holy Gem
-22806 [Way of White] Divine Blessing
-22807 [Way of White] Hidden Blessing
-22808 [Way of White] Projected Heal
-22809 [Way of White] Heavenly Relief
+22800 [Way of White] Holy Gem
+22801 [Way of White] Divine Blessing
+22802 [Way of White] Hidden Blessing
+22803 [Way of White] Projected Heal
+22804 [Way of White] Heavenly Relief
 22900 [Servant of the Rat] Blue Bug Pellet
 22901 [Servant of the Rat] Red Bug Pellet
 22902 [Servant of the Rat] Yellow Bug Pellet
@@ -264,6 +260,9 @@
 30420 [Ludleth - Herald of Winter] Sacred Chime Hammer
 30421 [Ludleth - Herald of Winter] Rampart Golem Lance
 30422 [Ludleth - Herald of Winter] Wretched Pendant
+30430 [Ludleth - Fallen Protector] Blueblood Sword
+30431 [Ludleth - Fallen Protector] Quicksilver Shield
+30432 [Ludleth - Fallen Protector] Life Ring
 36000 [Bonfire - Firelink Shrine] Shriving Stone
 36001 [Bonfire - Firelink Shrine] Lethal Gem
 36002 [Bonfire - Untended Graves] Curse Gem
@@ -520,7 +519,6 @@
 110100 [Shrine Handmaid - Aborr] Leather Armor
 110101 [Shrine Handmaid - Aborr] Leather Gloves
 110102 [Shrine Handmaid - Aborr] Leather Boots
-110103 [Shrine Handmaid - Aborr] Life Ring
 110150 [Shrine Handmaid - Deacons of the Deep] Lloyd's Shield Ring
 110200 [Shrine Handmaid - Curse-rotted Greatwood] Hello Carving
 110201 [Shrine Handmaid - Curse-rotted Greatwood] Help me! Carving
@@ -674,10 +672,6 @@
 120119 [Greirat - Curse-rotted Greatwood] Divine Blessing
 120120 [Greirat - Curse-rotted Greatwood] Pontiff Knight Curved Sword
 120121 [Greirat - Curse-rotted Greatwood] Pontiff Knight Shield
-120123 [Greirat - Curse-rotted Greatwood] Binded Hood
-120124 [Greirat - Curse-rotted Greatwood] Binded Cross
-120125 [Greirat - Curse-rotted Greatwood] Binded Gloves
-120126 [Greirat - Curse-rotted Greatwood] Binded Boots
 120200 [Greirat - Pontiff Sulyvahn] Divine Blessing
 120201 [Greirat - Pontiff Sulyvahn] Hidden Blessing
 120204 [Greirat - Pontiff Sulyvahn] Scholar's Candlestick
@@ -694,10 +688,6 @@
 130003 [Orbeck - Default] Sorcerer Trousers
 130010 [Orbeck - Crystal Sage] Magic Gem
 130011 [Orbeck - Crystal Sage] Enchanted Gem
-130020 [Orbeck - Throne Ascent] Venerable Sage's Hood
-130021 [Orbeck - Throne Ascent] Venerable Sage's Robe
-130022 [Orbeck - Throne Ascent] Venerable Sage's Gloves
-130023 [Orbeck - Throne Ascent] Venerable Sage's Boots
 130100 [Orbeck - Spells] Farron Dart
 130101 [Orbeck - Spells] Soul Arrow
 130102 [Orbeck - Spells] Homing Soulmass
@@ -1452,6 +1442,10 @@
 300045 [Erstwhile George] Magician Leggings
 300046 [Erstwhile George] Rouge Water
 300047 [Erstwhile George] Crimson Water
+300050 [Erstwhile George] Gloom Helm
+300051 [Erstwhile George] Gloom Armor
+300052 [Erstwhile George] Gloom Gauntlets
+300053 [Erstwhile George] Gloom Leggings
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower
 760003 [Stone-humped Hag] Henbane

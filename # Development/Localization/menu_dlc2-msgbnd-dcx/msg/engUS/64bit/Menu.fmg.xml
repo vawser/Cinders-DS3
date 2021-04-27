@@ -3359,9 +3359,12 @@ Fire: increases Fire absorption by 5%.
 Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
 <text id="99004002">Pulsating: restores an additional 5 FP per second.
-Vibrating: restores an additional 3 HP per second.
-Throbbing: unlocks ascended effects for spells.
-Quivering: boosts cast speed by 25.</text>
+Vibrating: restores an additional 5 HP per second.
+Throbbing: reduces FP cost of all spells by 10%.
+Quivering: boosts cast speed by 25.
+Laughing: converts the catalyst into Luck form:
+- Halves the INT and FTH required for spells.
+- Switches the catalyst scaling to LCK.</text>
 <text id="99004003">Reinforcement is no longer present.
 All weapons are inherently more powerful. 
 A weapon's power is released by increasing 

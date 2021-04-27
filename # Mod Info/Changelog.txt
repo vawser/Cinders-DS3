@@ -149,6 +149,11 @@ Add the following armour:
 - Scattering Crystal Orb now has an unique icon.
 - Orbs of Judgment now has an unique icon.
 - Blizzard now has an unique icon.
+- Removed the Ascended mechanic.
+- Affinity/Wrathful Orbs/Homing Soulmass/Homing Crystall Soulmass now reduce absorption upon impact as their normal effect.
+- Changed the Throbbing infusion to -10% spell FP cost.
+- Increased the HP regen from the Vibrating infusion to 5.
+- Added a new infusion: Laughing. This converts the catalyst into a LCK catalyst and halves the amount of INT/FTH needed to cast spells (the UI doesn't reflect this however).
 
 # Covenants
 - Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
@@ -167,5 +172,10 @@ Add the following armour:
 #------------------------------
 # TODO
 #------------------------------
+Pulsating   # FP regen
+Vibrating   # HP regen
+Throbbing   # FP cost reduction
+Quivering   # cast speed
+Laughing    # Luck convert
 
-524202
+200003000

@@ -2552,67 +2552,41 @@
 7670655 [Dismal Knight] Delayed Explosion
 7670656 [Dismal Knight] Delayed Explosion
 7670657 [Dismal Knight] Delayed Explosion
-7700700 [Fallen Protector]
-7700701 [Fallen Protector]
-7700702 [Fallen Protector]
-7700703 [Fallen Protector]
-7700710 [Fallen Protector]
-7700720 [Fallen Protector]
-7700721 [Fallen Protector]
-7700722 [Fallen Protector]
-7700723 [Fallen Protector]
-7700724 [Fallen Protector]
-7700725 [Fallen Protector]
-7700726 [Fallen Protector]
-7700727 [Fallen Protector]
-7700728 [Fallen Protector]
-7700729 [Fallen Protector]
-7700730 [Fallen Protector]
-7700731 [Fallen Protector]
-7700732 [Fallen Protector]
-7700733 [Fallen Protector]
-7700740 [Fallen Protector]
-7700750 [Fallen Protector]
-7700751 [Fallen Protector]
-7700752 [Fallen Protector]
-7700753 [Fallen Protector]
+7700700 [Fallen Protector] Affinity
+7700701 [Fallen Protector] Affinity [Hit]
+7700702 [Fallen Protector] Affinity
+7700703 [Fallen Protector] Affinity [Hit]
+7700710 [Fallen Protector] Maiden Revival
+7700720 [Fallen Protector] Dreg Cone
+7700721 [Fallen Protector] Dreg Cone [Hit]
+7700722 [Fallen Protector] Dreg Cone
+7700723 [Fallen Protector] Dreg Cone
+7700724 [Fallen Protector] Dreg Cone
+7700725 [Fallen Protector] Dreg Cone
+7700726 [Fallen Protector] Dreg Cone
+7700727 [Fallen Protector] Dreg Cone
+7700728 [Fallen Protector] Dreg Cone
+7700729 [Fallen Protector] Dreg Cone
+7700740 [Fallen Protector] Great Soul Dregs
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
-11200010 [Sorcery] Farron Dart - Ascended
 11210020 [Sorcery] Scattering Soul Orb [Emitter]
 11210030 [Sorcery] Scattering Soul Orb [EmittedBullet]
-11210120 [Sorcery] Scattering Soul Orb [Emitter] - Ascended
-11210130 [Sorcery] Scattering Soul Orb [EmittedBullet] - Ascended
 11300000 [Sorcery] Soul Arrow
-11300010 [Sorcery] Soul Arrow - Ascended
 11301020 [Sorcery] Scattering Crystal Orb [Emitter]
 11301030 [Sorcery] Scattering Crystal Orb [EmittedBullet]
-11301120 [Sorcery] Scattering Crystal Orb [Emitter] - Ascended
-11301130 [Sorcery] Scattering Crystal Orb [EmittedBullet] - Ascended
 11302000 [Sorcery] Shockwave
-11302006 [Sorcery] Shockwave - Ascended
 11303000 [Sorcery] Soul Geyser
-11303010 [Sorcery] Soul Geyser - Ascended
 11304000 [Sorcery] Homing Soulmass
-11304001 [Sorcery] Homing Soulmass - Ascended
 11304100 [Sorcery] Homing Soulmass [Hit]
-11304101 [Sorcery] Homing Soulmass [Hit] - Ascended
 11305000 [Sorcery] Homing Crystal Soulmass
-11305001 [Sorcery] Homing Crystal Soulmass - Ascended
 11305100 [Sorcery] Homing Crystal Soulmass [Hit]
-11305101 [Sorcery] Homing Crystal Soulmass [Hit] - Ascended
 11306000 [Sorcery] Soul Spear
-11306010 [Sorcery] Soul Spear - Ascended
 11307000 [Sorcery] Crystal Soul Spear
-11307010 [Sorcery] Crystal Soul Spear - Ascended
 11308000 [Sorcery] Deep Soul
-11308010 [Sorcery] Deep Soul - Ascended
 11309000 [Sorcery] Great Deep Soul
-11309010 [Sorcery] Great Deep Soul - Ascended
 11356000 [Sorcery] Aural Decoy
-11356001 [Sorcery] Aural Decoy - Ascended
 11356010 [Sorcery] Aural Decoy [Hit]
-11356011 [Sorcery] Aural Decoy [Hit] - Ascended
 11370000 [Sorcery] White Dragon Breath
 11370010 [Sorcery] White Dragon Breath [unused]
 11370020 [Sorcery] White Dragon Breath [Hit]
@@ -2631,77 +2605,31 @@
 11370150 [Sorcery] White Dragon Breath [unused]
 11370160 [Sorcery] White Dragon Breath [unused]
 11370170 [Sorcery] White Dragon Breath [unused]
-11371000 [Sorcery] White Dragon Breath - Ascended
-11371010 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371020 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371030 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371040 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371050 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371060 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371070 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371080 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371090 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371100 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371110 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371120 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371130 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371140 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371150 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371160 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371170 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371180 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371190 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371200 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371210 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371220 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371230 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371240 [Sorcery] White Dragon Breath [Hit] - Ascended
-11371250 [Sorcery] White Dragon Breath [Hit] - Ascended
 11372000 [Sorcery] Farron Hail
 11372100 [Sorcery] Farron Hail
-11372200 [Sorcery] Farron Hail - Ascended
-11372210 [Sorcery] Farron Hail - Ascended
 11373000 [Sorcery] Crystal Hail
 11373100 [Sorcery] Crystal Hail [Emitter]
 11373200 [Sorcery] Crystal Hail [Emitter Hit]
 11373300 [Sorcery] Crystal Hail
 11373400 [Sorcery] Crystal Hail [Emitter]
 11373500 [Sorcery] Crystal Hail [Emitter Hit]
-11374000 [Sorcery] Crystal Hail - Ascended
-11374010 [Sorcery] Crystal Hail [Emitter] - Ascended
-11374020 [Sorcery] Crystal Hail [Hit] - Ascended
-11374030 [Sorcery] Crystal Hail
-11374040 [Sorcery] Crystal Hail [Emitter] - Ascended
-11374050 [Sorcery] Crystal Hail [Hit] - Ascended
 11376000 [Sorcery] Old Moonlight
 11376001 [Sorcery] Old Moonlight [Hit]
 11376100 [Sorcery] Old Moonlight
 11376101 [Sorcery] Old Moonlight [Hit]
-11376200 [Sorcery] Old Moonlight - Ascended
-11376201 [Sorcery] Old Moonlight [Hit] - Ascended
-11376210 [Sorcery] Old Moonlight - Ascended
-11376211 [Sorcery] Old Moonlight [Hit] - Ascended
 11603000 [Sorcery] Affinity
-11603001 [Sorcery] Affinity - Ascended
 11603100 [Sorcery] Affinity [Hit]
-11603101 [Sorcery] Affinity [Hit] - Ascended
 11604000 [Sorcery] Great Soul Dregs
-11604010 [Sorcery] Great Soul Dregs - Ascended
 11620000 [Sorcery] Soul Stream [Emitter]
 11620100 [Sorcery] Soul Stream [Hit]
 11620200 [Sorcery] Soul Stream
 11620300 [Sorcery] Soul Stream
-11621000 [Sorcery] Soul Stream [Emitter] - Ascended
 11651000 [Sorcery] Twisted Wall of Light
 11651100 [Sorcery] Twisted Wall of Light
 11740000 [Sorcery] Pestilent Mist
-11740010 [Sorcery] Pestilent Mist - Ascended
 11740100 [Sorcery] Pestilent Mist [Hit]
 11740101 [Sorcery] Pestilent Mist [Hit]
 11740102 [Sorcery] Pestilent Mist [Hit]
-11740110 [Sorcery] Pestilent Mist [Hit] - Ascended
-11740111 [Sorcery] Pestilent Mist [Hit] - Ascended
-11740112 [Sorcery] Pestilent Mist [Hit] - Ascended
 11740200 [Sorcery] Snap Freeze [Emitter]
 11740210 [Sorcery] Snap Freeze
 11740220 [Sorcery] Snap Freeze [Hit]
@@ -2710,32 +2638,17 @@
 11740310 [Sorcery] Snap Freeze - Big Cloud Version
 11740320 [Sorcery] Snap Freeze - Big Cloud Version [Hit]
 11740330 [Sorcery] Snap Freeze - Big Cloud Version [Hit]
-11740400 [Sorcery] Snap Freeze [Emitter] - Ascended
-11740410 [Sorcery] Snap Freeze - Ascended
-11740420 [Sorcery] Snap Freeze [Hit] - Ascended
-11740430 [Sorcery] Snap Freeze [Hit] - Ascended
 12400000 [Pyromancy] Fireball
 12400100 [Pyromancy] Fireball [Hit]
-12400200 [Pyromancy] Fireball - Ascended
-12400210 [Pyromancy] Fireball - Ascended [Hit]
 12402000 [Pyromancy] Fire Orb
 12402100 [Pyromancy] Fire Orb [Hit]
-12402200 [Pyromancy] Fire Orb - Ascended
-12402210 [Pyromancy] Fire Orb - Ascended [Hit]
 12403000 [Pyromancy] Firestorm
 12403100 [Pyromancy] Firestorm [Hit]
 12403200 [Pyromancy] Firestorm [Hit]
 12403300 [Pyromancy] Firestorm [Hit]
 12403500 [Pyromancy] Firestorm
 12403600 [Pyromancy] Firestorm [Hit]
-12403700 [Pyromancy] Firestorm - Ascended
-12403701 [Pyromancy] Firestorm [Hit] - Ascended
-12403702 [Pyromancy] Firestorm [Hit] - Ascended
-12403703 [Pyromancy] Firestorm [Hit] - Ascended
-12403705 [Pyromancy] Firestorm - Ascended
-12403706 [Pyromancy] Firestorm [Hit] - Ascended
 12405000 [Pyromancy] Fire Surge
-12405001 [Pyromancy] Fire Surge - Ascended
 12407000 [Pyromancy] Black Serpent
 12407010 [Pyromancy] Black Serpent [Hit]
 12407100 [Pyromancy] Black Serpent [Hit]
@@ -2751,63 +2664,18 @@
 12407200 [Pyromancy] Black Serpent [Hit]
 12407210 [Pyromancy] Black Serpent [Hit]
 12407220 [Pyromancy] Black Serpent [Hit]
-12407300 [Pyromancy] Black Serpent - Ascended
-12407310 [Pyromancy] Black Serpent - Burst - Ascended
-12407400 [Pyromancy] Black Serpent [Hit] - Ascended
-12407401 [Pyromancy] Black Serpent [Hit] - Ascended
-12407402 [Pyromancy] Black Serpent [Hit] - Ascended
-12407403 [Pyromancy] Black Serpent [Hit] - Ascended
-12407404 [Pyromancy] Black Serpent [Hit] - Ascended
-12407405 [Pyromancy] Black Serpent [Hit] - Ascended
-12407406 [Pyromancy] Black Serpent [Hit] - Ascended
-12407407 [Pyromancy] Black Serpent [Hit] - Ascended
-12407408 [Pyromancy] Black Serpent [Hit] - Ascended
-12407409 [Pyromancy] Black Serpent [Hit] - Ascended
-12407410 [Pyromancy] Black Serpent [Hit] - Ascended
-12407411 [Pyromancy] Black Serpent [Hit] - Ascended
-12407412 [Pyromancy] Black Serpent [Hit] - Ascended
-12407413 [Pyromancy] Black Serpent [Hit] - Ascended
-12407414 [Pyromancy] Black Serpent [Hit] - Ascended
-12407415 [Pyromancy] Black Serpent [Hit] - Ascended
-12407416 [Pyromancy] Black Serpent [Hit] - Ascended
-12407417 [Pyromancy] Black Serpent [Hit] - Ascended
-12407418 [Pyromancy] Black Serpent [Hit] - Ascended
-12407419 [Pyromancy] Black Serpent [Hit] - Ascended
-12407420 [Pyromancy] Black Serpent [Hit] - Ascended
-12407421 [Pyromancy] Black Serpent [Hit] - Ascended
-12407422 [Pyromancy] Black Serpent [Hit] - Ascended
-12407423 [Pyromancy] Black Serpent [Hit] - Ascended
-12407424 [Pyromancy] Black Serpent [Hit] - Ascended
-12407425 [Pyromancy] Black Serpent [Hit] - Ascended
-12407426 [Pyromancy] Black Serpent [Hit] - Ascended
-12407427 [Pyromancy] Black Serpent [Hit] - Ascended
-12407428 [Pyromancy] Black Serpent [Hit] - Ascended
-12407429 [Pyromancy] Black Serpent [Hit] - Ascended
-12407430 [Pyromancy] Black Serpent [Hit] - Ascended
 12411000 [Pyromancy] Great Combustion
 12411100 [Pyromancy] Great Combustion [Hit]
 12411200 [Pyromancy] Great Combustion [Hit]
-12411300 [Pyromancy] Great Combustion - Ascended
-12411301 [Pyromancy] Great Combustion [Hit] - Ascended
-12411302 [Pyromancy] Great Combustion [Hit] - Ascended
 12420000 [Pyromancy] Poison Mist
-12420100 [Pyromancy] Poison Mist - Ascended
 12421000 [Pyromancy] Toxic Mist
-12421100 [Pyromancy] Toxic Mist - Ascended
 12422000 [Pyromancy] Acid Surge
-12422100 [Pyromancy] Acid Surge - Ascended
 12430000 [Pyromancy] Iron Flesh
-12430001 [Pyromancy] Iron Flesh - Ascended
 12436000 [Pyromancy] Rapport
-12436001 [Pyromancy] Rapport - Ascended
 12450000 [Pyromancy] Great Chaos Fire Orb
 12450100 [Pyromancy] Great Chaos Fire Orb [Hit]
 12450200 [Pyromancy] Great Chaos Fire Orb [Hit]
 12450300 [Pyromancy] Great Chaos Fire Orb [Hit]
-12450400 [Pyromancy] Great Chaos Fire Orb - Ascended
-12450401 [Pyromancy] Great Chaos Fire Orb [Hit] - Ascended
-12450402 [Pyromancy] Great Chaos Fire Orb [Hit] - Ascended
-12450403 [Pyromancy] Great Chaos Fire Orb [Hit] - Ascended
 12451000 [Pyromancy] Chaos Storm
 12451100 [Pyromancy] Chaos Storm [Hit]
 12451200 [Pyromancy] Chaos Storm [Hit]
@@ -2815,158 +2683,89 @@
 12451500 [Pyromancy] Chaos Storm
 12451600 [Pyromancy] Chaos Storm [Hit]
 12451700 [Pyromancy] Chaos Storm [Hit]
-12451800 [Pyromancy] Chaos Storm - Ascended
-12451801 [Pyromancy] Chaos Storm [Hit] - Ascended
-12451802 [Pyromancy] Chaos Storm [Hit] - Ascended
-12451803 [Pyromancy] Chaos Storm [Hit] - Ascended
-12451805 [Pyromancy] Chaos Storm - Ascended
-12451806 [Pyromancy] Chaos Storm [Hit] - Ascended
-12451807 [Pyromancy] Chaos Storm [Hit] - Ascended
 12452000 [Pyromancy] Fire Whip
 12453000 [Pyromancy] Black Flame
 12453100 [Pyromancy] Black Flame [Hit]
 12453200 [Pyromancy] Black Flame [Hit]
-12453300 [Pyromancy] Black Flame - Ascended
-12453301 [Pyromancy] Black Flame [Hit] - Ascended
-12453302 [Pyromancy] Black Flame [Hit] - Ascended
 12455000 [Pyromancy] Profaned Flame
 12455100 [Pyromancy] Profaned Flame [Hit]
 12455200 [Pyromancy] Profaned Flame [Hit]
-12455300 [Pyromancy] Profaned Flame - Ascended
-12455301 [Pyromancy] Profaned Flame [Hit] - Ascended
-12455302 [Pyromancy] Profaned Flame [Hit] - Ascended
-12455303 [Pyromancy] Profaned Flame - Secondary - Ascended
-12455304 [Pyromancy] Profaned Flame - Secondary [Hit] - Ascended
-12455305 [Pyromancy] Profaned Flame - Secondary [Hit] - Ascended
 12456000 [Pyromancy] Chaos Bed Vestiges
 12456100 [Pyromancy] Chaos Bed Vestiges [Hit]
 12456200 [Pyromancy] Chaos Bed Vestiges
 12456210 [Pyromancy] Chaos Bed Vestiges [Hit]
-12456300 [Pyromancy] Chaos Bed Vestiges - Ascended
-12456301 [Pyromancy] Chaos Bed Vestiges [Hit] - Ascended
-12456302 [Pyromancy] Chaos Bed Vestiges - Ascended
-12456303 [Pyromancy] Chaos Bed Vestiges [Hit]
 12457000 [Pyromancy] Floating Chaos
 12457010 [Pyromancy] Floating Chaos
 12457100 [Pyromancy] Floating Chaos [Emitter]
 12457110 [Pyromancy] Floating Chaos [Bullet]
-12457200 [Pyromancy] Floating Chaos - Ascended
-12457210 [Pyromancy] Floating Chaos - Ascended
-12457300 [Pyromancy] Floating Chaos [Emitter] - Ascended
-12457310 [Pyromancy] Floating Chaos [Bullet] - Ascended
 12458000 [Pyromancy] Flame Fan
 12458010 [Pyromancy] Flame Fan
-12458100 [Pyromancy] Flame Fan - Ascended
-12458110 [Pyromancy] Flame Fan - Ascended
 12470000 [Pyromancy] Warmth
-12470001 [Pyromancy] Warmth - Ascended
 12600000 [Pyromancy] Dark Orb [unused]
 12600100 [Pyromancy] Dark Orb [unused] [Hit]
 12610000 [Pyromancy] Black Fire Orb
 12610100 [Pyromancy] Black Fire Orb [Hit]
-12611000 [Pyromancy] Black Fire Orb - Ascended
-12611100 [Pyromancy] Black Fire Orb - Ascended [Hit]
 12620000 [Pyromancy] Bursting Fireball
 12620100 [Pyromancy] Bursting Fireballl [Hit]
 12620200 [Pyromancy] Bursting Fireball [Hit]
-12620300 [Pyromancy] Bursting Fireball - Ascended
-12620301 [Pyromancy] Bursting Fireballl [Hit] - Ascended
-12620302 [Pyromancy] Bursting Fireballl [Hit] - Ascended
 12630000 [Pyromancy] Boulder Heave
 12630100 [Pyromancy] Boulder Heave [Hit]
-12630200 [Pyromancy] Boulder Heave - Ascended
-12630201 [Pyromancy] Boulder Heave [Hit] - Ascended
 12660000 [Pyromancy] Seething Chaos
 12660010 [Pyromancy] Seething Chaos [Hit]
 12660020 [Pyromancy] Seething Chaos [Hit]
 12660025 [Pyromancy] Seething Chaos [Hit]
 12660030 [Pyromancy] Seething Chaos [Hit]
-12660100 [Pyromancy] Seething Chaos - Ascended
-12660101 [Pyromancy] Seething Chaos [Hit] - Ascended
-12660102 [Pyromancy] Seething Chaos [Hit] - Ascended
-12660103 [Pyromancy] Seething Chaos [Hit] - Ascended
-12660104 [Pyromancy] Seething Chaos [Hit] - Ascended
 13490000 [Miracle] Heal Aid
-13490006 [Miracle] Heal Aid - Ascended
 13490010 [Miracle] Heal Aid [Hit]
-13490016 [Miracle] Heal Aid [Hit] - Ascended
 13500000 [Miracle] Heal
-13500006 [Miracle] Heal - Ascended
 13500100 [Miracle] Heal [Hit]
-13500106 [Miracle] Heal [Hit] - Ascended
 13501000 [Miracle] Med Heal
-13501006 [Miracle] Med Heal - Ascended
 13501100 [Miracle] Med Heal [Hit]
-13501106 [Miracle] Med Heal [Hit] - Ascended
 13502000 [Miracle] Great Heal
-13502006 [Miracle] Great Heal - Ascended
 13502100 [Miracle] Great Heal [Hit]
-13502106 [Miracle] Great Heal [Hit] - Ascended
 13503000 [Miracle] Soothing Sunlight
-13503006 [Miracle] Soothing Sunlight - Ascended
 13503100 [Miracle] Soothing Sunlight [Hit]
-13503106 [Miracle] Soothing Sunlight [Hit] - Ascended
 13505000 [Miracle] Bountiful Sunlight
-13505006 [Miracle] Bountiful Sunlight - Ascended
 13505100 [Miracle] Bountiful Sunlight [Hit]
-13505106 [Miracle] Bountiful Sunlight [Hit] - Ascended
 13506000 [Miracle] Replenishment
 13506001 [Miracle] Replenishment [Hit]
-13506010 [Miracle] Replenishment - Ascended
-13506011 [Miracle] Replenishment [Hit] - Ascended
 13507000 [Miracle] Bountiful Light
 13507001 [Miracle] Bountiful Light [Hit]
-13507010 [Miracle] Bountiful Light - Ascended
-13507011 [Miracle] Bountiful Light [Hit] - Ascended
 13508000 [Miracle] Caressing Tears
 13508006 [Miracle] Caressing Tears [MP]
 13509000 [Miracle] Lightning Arrow
-13509001 [Miracle] Lightning Arrow - Ascended
 13513000 [Miracle] Morbid Temptation [unused]
 13530000 [Miracle] Force
 13531000 [Miracle] Wrath of the Gods
 13532000 [Miracle] Emit Force
-13532001 [Miracle] Emit Force - Ascended
 13532100 [Miracle] Emit Force [Hit]
 13540000 [Miracle] Heavenly Relief
-13540001 [Miracle] Heavenly Relief - Ascended
 13540010 [Miracle] Heavenly Relief [Hit]
-13540011 [Miracle] Heavenly Relief [Hit] - Ascended
 13550000 [Miracle] Lightning Spear
 13550100 [Miracle] Lightning Spear [Projectile]
-13550101 [Miracle] Lightning Spear [Projectile] - Ascended
 13551000 [Miracle] Great Lightning Spear
 13551100 [Miracle] Great Lightning Spear [Projectile]
-13551101 [Miracle] Great Lightning Spear [Projectile] - Ascended
 13552000 [Miracle] Sunlight Spear
 13552100 [Miracle] Sunlight Spear [Projectile]
-13552101 [Miracle] Sunlight Spear [Projectile] - Ascended
 13553000 [Miracle] Lightning Storm
 13553100 [Miracle] Lightning Storm
 13553200 [Miracle] Lightning Storm [Hit]
 13553300 [Miracle] Lightning Storm
 13553400 [Miracle] Lightning Storm
 13553500 [Miracle] Lightning Storm
-13553501 [Miracle] Lightning Storm - Ascended
 13553600 [Miracle] Lightning Storm [Hit]
 13553700 [Miracle] Lightning Storm
 13553800 [Miracle] Lightning Storm
 13554000 [Miracle] Gnaw
-13554001 [Miracle] Gnaw - Ascended
 13555000 [Miracle] Dorhys' Gnawing
-13555001 [Miracle] Dorhys' Gnawing - Ascended
 13556000 [Miracle] Way of White Corona
 13556010 [Miracle] Way of White Corona [Hit]
 13556020 [Miracle] Way of White Corona [Hit]
 13556021 [Miracle] Way of White Corona [Hit]
 13557000 [Miracle] Projected Heal
-13557006 [Miracle] Projected Heal - Ascended
 13557010 [Miracle] Projected Heal [Hit]
-13557016 [Miracle] Projected Heal [Hit] - Ascended
 13563000 [Miracle] Sacred Oath
-13563006 [Miracle] Sacred Oath - Ascended
 13581000 [Miracle] Vow of Silence
-13581006 [Miracle] Vow of Silence - Ascended
 13700000 [Dead Again] Source Bullet (unused)
 13700100 [Dead Again] Finder Bullet - Tier 1
 13700110 [Dead Again] Finder Bullet - Tier 2
@@ -2989,21 +2788,12 @@
 13710000 [Miracle] Lightning Stake
 13710001 [Miracle] Lightning Stake [Hit]
 13710002 [Miracle] Lightning Stake [Hit]
-13710100 [Miracle] Lightning Stake - Ascended
-13710101 [Miracle] Lightning Stake [Hit] - Ascended
-13710102 [Miracle] Lightning Stake [Hit] - Ascended
 13720000 [Miracle] Divine Pillars of Light
 13720001 [Miracle] Divine Pillars of Light [Hit]
 13720002 [Miracle] Divine Pillars of Light [Hit]
 13720003 [Miracle] Divine Pillars of Light [Hit]
 13720005 [Miracle] Divine Pillars of Light
-13720100 [Miracle] Divine Pillars of Light - Ascended
-13720101 [Miracle] Divine Pillars of Light [Hit] - Ascended
-13720102 [Miracle] Divine Pillars of Light [Hit] - Ascended
-13720103 [Miracle] Divine Pillars of Light [Hit] - Ascended
-13720105 [Miracle] Divine Pillars of Light - Ascended
 13730000 [Miracle] Lifehunt Scythe
-13730100 [Miracle] Lifehunt Scythe - Ascended
 100000001 ### Weapon Arts ###
 100010000 [Catalyst] Arcane Ward - Right
 100010001 [Catalyst] Arcane Ward - Left
@@ -3287,7 +3077,10 @@
 100110310 [Demon's Fist] Flame Whirlwind
 100110320 [Demon's Fist] Flame Whirlwind
 100110325 [Demon's Fist] Flame Whirlwind [Hit]
-100130700 [Storyteller's Staff] Poison Spores
+100130700 [Corvian Longstaff] Curse Spores
+100130710 [Corvian Longstaff] Poison Spores
+100130720 [Corvian Longstaff] Bleed Spores
+100130730 [Corvian Longstaff] Frost Spores
 100134005 [Pyromancy Flame] Combustion
 100134015 [Pyromancy Flame] Combustion
 100134025 [Pyromancy Flame] Combustion
@@ -3360,7 +3153,6 @@
 104912200 [Smough's Great Hammer] Lightning Smash
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
-105002010 [Sorcery] Soul Wave - Ascended
 105004100 [Miracle] Halo
 105004110 [Miracle] Halo [Hit]
 105004120 [Miracle] Halo [Hit]
@@ -3371,93 +3163,50 @@
 105006300 [Sorcery] Crystal Storm [Hit]
 105006500 [Sorcery] Crystal Storm
 105006600 [Sorcery] Crystal Storm [Hit]
-105006800 [Sorcery] Crystal Storm - Ascended
-105006810 [Sorcery] Crystal Storm [Hit] - Ascended
-105006820 [Sorcery] Crystal Storm [Hit] - Ascended
-105006830 [Sorcery] Crystal Storm [Hit] - Ascended
-105006850 [Sorcery] Crystal Storm - Ascended
-105006860 [Sorcery] Crystal Storm [Hit] - Ascended
 105007000 [Sorcery] Abyssal Burst
 105011000 [Sorcery] Unleash Magic
-105011001 [Sorcery] Unleash Magic - Ascended
 108140000 [Miracle] Heavenly Thunder
 108140100 [Miracle] Heavenly Thunder [Emitter]
 108140200 [Miracle] Heavenly Thunder [Hit]
 108160000 [Miracle] Nibble
-108160001 [Miracle] Nibble - Ascended
 108210000 [Pyromancy] Dark Hail
 108220000 [Pyromancy] Dark Dance
-108220100 [Pyromancy] Dark Dance - Ascended
 108230000 [Pyromancy] Recollection
 108230010 [Pyromancy] Recollection
 108230100 [Pyromancy] Recollection [Emitter]
 108230110 [Pyromancy] Recollection [Hit]
 108230111 [Pyromancy] Recollection [Hit]
-108230500 [Pyromancy] Recollection - Ascended
-108230600 [Pyromancy] Recollection [Emitter] - Ascended
-108230610 [Pyromancy] Recollection [Hit] - Ascended
-108230611 [Pyromancy] Recollection [Hit] - Ascended
 108240000 [Sorcery] Whisper of Despair
-108240001 [Sorcery] Whisper of Despair - Ascended
 108241000 [Sorcery] Repel
-108241001 [Sorcery] Repel - Ascended
 108280000 [Sorcery] Blinding Light
 108290000 [Sorcery] Deep Barb
-108290010 [Sorcery] Deep Barb - Ascended
 108300000 [Sorcery] Surging Deep
-108300010 [Sorcery] Surging Deep - Ascended
 108310000 [Sorcery] Dark Bead
-108310010 [Sorcery] Dark Bead - Ascended
 108320000 [Sorcery] Cascading Deep
 108320100 [Sorcery] Cascading Deep [Emitter]
 108320200 [Sorcery] Cascading Deep [Hit]
-108321000 [Sorcery] Cascading Deep - Ascended
-108321010 [Sorcery] Cascading Deep [Emitter] - Ascended
-108321020 [Sorcery] Cascading Deep [Hit] - Ascended
 108330000 [Sorcery] Yearning Dregs
 108330100 [Sorcery] Yearning Dregs [Hit]
 108330200 [Sorcery] Yearning Dregs [Hit]
 108330300 [Sorcery] Yearning Dregs [Hit]
 108330500 [Sorcery] Yearning Dregs
 108330600 [Sorcery] Yearning Dregs [Hit]
-108331000 [Sorcery] Yearning Dregs - Ascended
-108331010 [Sorcery] Yearning Dregs [Hit] - Ascended
-108331020 [Sorcery] Yearning Dregs [Hit] - Ascended
-108331030 [Sorcery] Yearning Dregs [Hit] - Ascended
-108331050 [Sorcery] Yearning Dregs - Ascended
-108331060 [Sorcery] Yearning Dregs [Hit] - Ascended
 108340000 [Sorcery] Dreg Torrent
 108340100 [Sorcery] Dreg Torrent [Emitter]
 108340110 [Sorcery] Dreg Torrent [Hit]
-108341000 [Sorcery] Dreg Torrent - Ascended
-108341020 [Sorcery] Dreg Torrent [Emitter] - Ascended
-108341030 [Sorcery] Dreg Torrent [Hit] - Ascended
 108350000 [Sorcery] Writhing Deep
 108350010 [Sorcery] Writhing Deep [Hit]
 108350020 [Sorcery] Writhing Deep [Hit]
 108350025 [Sorcery] Writhing Deep [Hit]
 108350030 [Sorcery] Writhing Deep [Hit]
-108351000 [Sorcery] Writhing Deep - Ascended
-108351010 [Sorcery] Writhing Deep [Hit] - Ascended
-108351020 [Sorcery] Writhing Deep [Hit] - Ascended
-108351030 [Sorcery] Writhing Deep [Hit] - Ascended
-108351040 [Sorcery] Writhing Deep [Hit] - Ascended
 108360000 [Sorcery] Blizzard
 108360010 [Sorcery] Blizzard [Hit]
 108360020 [Sorcery] Blizzard [Hit]
 108360030 [Sorcery] Blizzard [Hit]
 108360050 [Sorcery] Blizzard
 108360060 [Sorcery] Blizzard [Hit]
-108360100 [Sorcery] Blizzard - Ascended
-108360110 [Sorcery] Blizzard [Hit] - Ascended
-108360120 [Sorcery] Blizzard [Hit] - Ascended
-108360130 [Sorcery] Blizzard [Hit] - Ascended
-108360150 [Sorcery] Blizzard - Ascended
-108360160 [Sorcery] Blizzard [Hit] - Ascended
 108400000 [Pyromancy] Lingering Chaos
-108400100 [Pyromancy] Lingering Chaos - Ascended
 108401000 [Sorcery] Climax
-108401010 [Sorcery] Climax - Ascended
 108402000 [Pyromancy] Mournful Flames - Fireball
 108402010 [Pyromancy] Mournful Flames [Hit]
 108402100 [Pyromancy] Mournful Flames - Serpent [Hit]
@@ -3475,14 +3224,10 @@
 108402112 [Pyromancy] Mournful Flames - Serpent [Hit]
 108402113 [Pyromancy] Mournful Flames - Serpent [Hit]
 108402114 [Pyromancy] Mournful Flames - Serpent [Hit]
-108402200 [Pyromancy] Mournful Flames - Fireball - Ascended
 108403000 [Miracle] Devouring Swarm
 108403010 [Miracle] Devouring Swarm
 108403100 [Miracle] Devouring Swarm [Emitter]
 108403110 [Miracle] Devouring Swarm [Hit]
-108403200 [Miracle] Devouring Swarm - Ascended
-108403210 [Miracle] Devouring Swarm [Emitter] - Ascended
-108403211 [Miracle] Devouring Swarm [Hit] - Ascended
 108405000 [Pyromancy] Heave Earth
 108405010 [Pyromancy] Heave Earth
 108405020 [Pyromancy] Heave Earth [Hit]
@@ -3501,67 +3246,36 @@
 108405150 [Pyromancy] Heave Earth [Hit]
 108405160 [Pyromancy] Heave Earth [Hit]
 108405170 [Pyromancy] Heave Earth [Hit]
-108405200 [Pyromancy] Heave Earth - Ascended
 108406000 [Pyromancy] Earthquake
 108406100 [Pyromancy] Earthquake [Hit]
 108406200 [Pyromancy] Earthquake [Hit]
 108406300 [Pyromancy] Earthquake [Hit]
 108406500 [Pyromancy] Earthquake
 108406600 [Pyromancy] Earthquake [Hit]
-108406800 [Pyromancy] Earthquake - Ascended
-108406801 [Pyromancy] Earthquake [Hit] - Ascended
-108406802 [Pyromancy] Earthquake [Hit] - Ascended
-108406803 [Pyromancy] Earthquake [Hit] - Ascended
-108406805 [Pyromancy] Earthquake - Ascended
-108406806 [Pyromancy] Earthquake [Hit] - Ascended
-108600000 [Sorcery] Soul Focus
-108700000 [Miracle] Inner Fervor
 108800000 [Sorcery] Orbs of Judgment
 108800010 [Sorcery] Orbs of Judgment [Hit]
-108801000 [Sorcery] Orbs of Judgment - Ascended
-108801010 [Sorcery] Orbs of Judgment [Hit] - Ascended
 108802200 [Pyromancy] Immolation - Trail Spawner
 108802210 [Pyromancy] Immolation - Lava Spawner
 108802211 [Pyromancy] Immolation - Lava
-108802220 [Pyromancy] Immolation - Trail Spawner - Ascended
 109541000 [Miracle] Heavenly Thunder - Random
 109541010 [Miracle] Heavenly Thunder - Random [Emitter]
 109541020 [Miracle] Heavenly Thunder - Random [Hit]
 109541100 [Miracle] Heavenly Thunder - Forward
 109541110 [Miracle] Heavenly Thunder - Forward [Emitter]
 109541120 [Miracle] Heavenly Thunder - Forward [Hit]
-109541200 [Miracle] Heavenly Thunder - Random - Ascended
-109541210 [Miracle] Heavenly Thunder - Random [Emitter] - Ascended
-109541220 [Miracle] Heavenly Thunder - Random [Hit] - Ascended
-109541300 [Miracle] Heavenly Thunder - Forward - Ascended
-109541310 [Miracle] Heavenly Thunder - Forward [Emitter] - Ascended
-109541320 [Miracle] Heavenly Thunder - Forward [Hit] - Ascended
 109542000 [Pyromancy] Cataclysm - Random
 109542010 [Pyromancy] Cataclysm - Random [Emitter]
 109542020 [Pyromancy] Cataclysm - Random [Hit]
 109542100 [Pyromancy] Cataclysm - Forward
 109542110 [Pyromancy] Cataclysm - Forward [Emitter]
 109542120 [Pyromancy] Cataclysm - Forward [Hit]
-109542200 [Pyromancy] Cataclysm - Random - Ascended
-109542210 [Pyromancy] Cataclysm - Random [Emitter] - Ascended
-109542220 [Pyromancy] Cataclysm - Random [Hit] - Ascended
-109542300 [Pyromancy] Cataclysm - Forward - Ascended
-109542310 [Pyromancy] Cataclysm - Forward [Emitter] - Ascended
-109542320 [Pyromancy] Cataclysm - Forward [Hit] - Ascended
 109543000 [Pyromancy] Earthfall - Random
 109543010 [Pyromancy] Earthfall - Random [Emitter]
 109543020 [Pyromancy] Earthfall - Random [Hit]
 109543100 [Pyromancy] Earthfall - Forward
 109543110 [Pyromancy] Earthfall - Forward [Emitter]
 109543120 [Pyromancy] Earthfall - Forward [Hit]
-109543200 [Pyromancy] Earthfall - Random - Ascended
-109543210 [Pyromancy] Earthfall - Random [Emitter] - Ascended
-109543220 [Pyromancy] Earthfall - Random [Hit] - Ascended
-109543300 [Pyromancy] Earthfall - Forward - Ascended
-109543310 [Pyromancy] Earthfall - Forward [Emitter] - Ascended
-109543320 [Pyromancy] Earthfall - Forward [Hit] - Ascended
 109544000 [Miracle] Vow of Agony [Emitter]
-109544001 [Miracle] Vow of Agony [Emitter] - Ascended
 109544010 [Miracle] Vow of Agony
 109545000 [Miracle] Angelic Barrage
 109545100 [Miracle] Angelic Barrage [Emitter]
@@ -3569,16 +3283,9 @@
 109545300 [Miracle] Angelic Barrage
 109545400 [Miracle] Angelic Barrage [Emitter]
 109545500 [Miracle] Angelic Barrage [Hit]
-109545800 [Miracle] Angelic Barrage - Ascended
-109545801 [Miracle] Angelic Barrage [Emitter] - Ascended
-109545802 [Miracle] Angelic Barrage [Hit] - Ascended
-109545803 [Miracle] Angelic Barrage - Ascended
-109545804 [Miracle] Angelic Barrage [Emitter] - Ascended
 109545805 [Miracle] Angelic Barrage [Hit]
 109547000 [Miracle] Lothric's Holy Spear
-109547001 [Miracle] Lothric's Holy Spear - Ascended
 109548000 [Miracle] Divine Arrow
-109548100 [Miracle] Divine Arrow - Ascended
 109549001 [Miracle] Proof of a Pact
 109549002 [Miracle] Proof of a Pact [Hit]
 109549003 [Miracle] Proof of a Pact [Hit]
@@ -3590,7 +3297,6 @@
 109549009 [Miracle] Proof of a Pact [Hit]
 109549010 [Miracle] Proof of a Pact - Spawn
 109550000 [Miracle] Ghostly Assault - Spawn
-109550001 [Miracle] Ghostly Assault - Spawn - Ascended
 109550010 [Miracle] Ghostly Assault - Knight - Rise Up
 109550011 [Miracle] Ghostly Assault - Knight - Start Shot
 109550012 [Miracle] Ghostly Assault - Knight - Fire Shot
@@ -3603,40 +3309,20 @@
 109551300 [Miracle] Heavenly Thunder
 109551400 [Miracle] Heavenly Thunder [Emitter]
 109551500 [Miracle] Heavenly Thunder [Hit]
-109551800 [Miracle] Heavenly Thunder - Ascended
-109551801 [Miracle] Heavenly Thunder [Emitter] - Ascended
-109551802 [Miracle] Heavenly Thunder [Hit] - Ascended
-109551803 [Miracle] Heavenly Thunder - Ascended
-109551804 [Miracle] Heavenly Thunder [Emitter] - Ascended
-109551805 [Miracle] Heavenly Thunder [Hit] - Ascended
 109551900 [Pyromancy] Black Fireball
 109551901 [Pyromancy] Black Fireball [Hit]
-109551906 [Pyromancy] Black Fireball - Ascended
-109551907 [Pyromancy] Black Fireball - Ascended [Hit]
 109552000 [Pyromancy] Black Fire Scatter
 109552010 [Pyromancy] Black Fire Scatter [Hit]
 109552020 [Pyromancy] Black Fire Scatter [Hit]
-109552100 [Pyromancy] Black Fire Scatter - Ascended
-109552110 [Pyromancy] Black Fire Scatter - Ascended [Hit]
-109552120 [Pyromancy] Black Fire Scatter - Ascended [Hit]
 109553000 [Pyromancy] Black Fire Vestiges
 109553010 [Pyromancy] Black Fire Vestiges [Hit]
-109553100 [Pyromancy] Black Fire Vestiges - Ascended
-109553110 [Pyromancy] Black Fire Vestiges [Hit] - Ascended
 109554000 [Pyromancy] Fecal Expulsion
 109554010 [Pyromancy] Fecal Expulsion [Hit]
-109554100 [Pyromancy] Fecal Expulsion - Ascended
-109554110 [Pyromancy] Fecal Expulsion - Ascended [Hit]
 109555000 [Miracle] Overwhelming Power
 109555001 [Miracle] Overwhelming Power [Emitter]
 109555002 [Miracle] Overwhelming Power [Hit]
-109555100 [Miracle] Overwhelming Power - Ascended
-109555101 [Miracle] Overwhelming Power [Emitter] - Ascended
-109555102 [Miracle] Overwhelming Power [Hit] - Ascended
 109556000 [Miracle] Wrathful Orbs
 109556001 [Miracle] Wrathful Orbs [Hit]
-109556010 [Miracle] Wrathful Orbs - Ascended
-109556011 [Miracle] Wrathful Orbs [Hit] - Ascended
 109557000 [Miracle] Holy Schism
 109557001 [Miracle] Holy Schism [Hit]
 109557002 [Miracle] Holy Schism [Hit]
@@ -3644,16 +3330,12 @@
 109557004 [Miracle] Holy Schism [Hit]
 109557005 [Miracle] Holy Schism [Hit]
 109557006 [Miracle] Holy Schism [Hit]
-109557010 [Miracle] Holy Schism - Ascended
 109558000 [Miracle] Wrathful Barrage - Wave 1
 109558010 [Miracle] Wrathful Barrage - Wave 2
-109558100 [Miracle] Wrathful Barrage - Wave 1 - Ascended
-109558110 [Miracle] Wrathful Barrage - Wave 2 - Ascended
 109559000 [Miracle] Gravelord Sword Dance
 109559001 [Miracle] Gravelord Sword Dance [Hit]
 109559002 [Miracle] Gravelord Sword Dance [Hit]
 109559003 [Miracle] Gravelord Sword Dance [Hit]
-109559100 [Miracle] Gravelord Sword Dance - Ascended
 209999999 ### Weapons ###
 210000000 Court Sorcerer's Staff - Soulmass
 210000010 Court Sorcerer's Staff - Soulmass [Hit]

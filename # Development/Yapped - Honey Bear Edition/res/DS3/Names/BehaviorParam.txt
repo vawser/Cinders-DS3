@@ -5401,12 +5401,11 @@
 277000190 [Fallen Protector] Turn Right -> Full Slash
 277000200 [Fallen Protector] Turn Left -> Full Slash
 277000210 [Fallen Protector] Upwards Slash
-277000700 [Fallen Protector]
-277000702 [Fallen Protector]
-277000710 [Fallen Protector]
-277000720 [Fallen Protector]
-277000730 [Fallen Protector]
-277000740 [Fallen Protector]
+277000700 [Fallen Protector] Affinity
+277000702 [Fallen Protector] Affinity
+277000710 [Fallen Protector] Maiden Revival
+277000720 [Fallen Protector] Dreg Cone
+277000740 [Fallen Protector] Great Soul Dregs
 277010900 [Fair Maiden]
 280000000 [Script] Gough's Arrow Rain
 280000100 [Script] Lordran Remnant Entry

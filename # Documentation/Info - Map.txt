@@ -69,7 +69,7 @@ Use a SpEffect to kill instead, as that cannot affect disabled enemies.
 Add new treasure event + item lot, move object to location and associate treasure event with object
 
 Positions:
-0 - Sitting with bent kness
+0 - Sitting with bent knees
 1 - Lying down with arms forward
 10 - Lying down with arms to the side
 20 - Lying on back facing upwards, arms to the side

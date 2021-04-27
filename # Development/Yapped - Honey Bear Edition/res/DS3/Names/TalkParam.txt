@@ -2899,16 +2899,16 @@
 65001701 [Sister Friede]
 65001800 [Sister Friede]
 65001801 [Sister Friede]
-66000000 [Father Ariandel]
-66000001 [Father Ariandel]
-66000002 [Father Ariandel]
-66000003 [Father Ariandel]
-66000004 [Father Ariandel]
-66000100 [Father Ariandel]
-66000101 [Father Ariandel]
-66000102 [Father Ariandel]
-66000202 [Father Ariandel]
-66000203 [Father Ariandel]
+66000000 [Father Ariandel] I see flame. Flame, flickering, once again.
+66000001 [Father Ariandel] Ahh, Friede, Friede, gentle Friede...
+66000002 [Father Ariandel] My flail... Bring me my flail.
+66000003 [Father Ariandel] Ahh, Friede. What stops thine ears?
+66000004 [Father Ariandel] Please, my flail, right away...
+66000100 [Father Ariandel] Ahh, oh. Bring Friede to me, please.
+66000101 [Father Ariandel] Canst thou not see? The flame, flickering once again.
+66000102 [Father Ariandel] Soon will it surge, I can see it, feel it...
+66000202 [Father Ariandel] "When the Ashes are two, a flame alighteth."
+66000203 [Father Ariandel] Thou'rt Ash, and fire befits thee, of course...
 69000000 [Dying Corvian]
 69000001 [Dying Corvian]
 69000100 [Dying Corvian]

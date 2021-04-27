@@ -604,7 +604,10 @@
 3000583 [Chest] Drakeblood Leggings
 3000600 [Unique - Anvil] Estus Shard
 3000610 [Unique - Path of the Dragon] Seal of Judgment
-3001000 [Mimic] Blueblood Sword
+3001000 [Mimic] Venerable Sage's Hood
+3001001 [Mimic] Venerable Sage's Robe
+3001002 [Mimic] Venerable Sage's Gloves
+3001003 [Mimic] Venerable Sage's Boots
 3001010 [Mimic] Fang Boar Helm
 3001020 [Mimic] Merchant Ring
 3001030 [Mimic] Avelyn
@@ -1700,6 +1703,10 @@
 3900800 [Unique - Laddersmith Gilligan] Jailbreaker's Key
 3900810 [Unique - Profaned Flame] Profaned Coal
 3900820 [Unique - Yhorm's Throne] Storm Ruler
+3900830 [Unique - Fallen Protector] Quicksilver Helm
+3900831 [Unique - Fallen Protector] Quicksilver Armor
+3900832 [Unique - Fallen Protector] Quicksilver Gauntlets
+3900833 [Unique - Fallen Protector] Quicksilver Leggings
 3901000 [Mimic] Bellowing Dragoncrest Ring
 3901010 [Mimic] Ring of Vengeance
 3901020 [Mimic] Profaned Pyromancy Tome
@@ -2012,11 +2019,11 @@
 5001000 [Mimic] Demon's Spear
 5001010 [Mimic] Imperious Greatshield
 5001020 [Mimic] Artificial Helmet
-5001030 [Mimic] Gloom Helm
-5001031 [Mimic] Gloom Armor
-5001032 [Mimic] Gloom Gauntlets
-5001033 [Mimic] Gloom Leggings
-5001040 [Mimic] Quicksilver Shield
+5001030 [Mimic] Horsehoof Ring
+5001040 [Mimic] Binded Hood
+5001041 [Mimic] Binded Cross
+5001042 [Mimic] Binded Gloves
+5001043 [Mimic] Binded Boots
 5002000 [OTD - Harald Knight] Harald Legion Helm
 5002001 [OTD - Harald Knight] Harald Legion Armor
 5002002 [OTD - Harald Knight] Harald Legion Gauntlets

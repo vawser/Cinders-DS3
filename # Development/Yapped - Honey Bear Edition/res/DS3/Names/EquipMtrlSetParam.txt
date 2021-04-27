@@ -733,281 +733,28 @@
 7408 Dragon Scale - Blunt +8
 7409 Dragon Scale - Blunt +9
 7410 Dragon Scale - Blunt +10
-10000 Pyromancy Tool - Stock +0
-10001 Pyromancy Tool - Stock +1
-10002 Pyromancy Tool - Stock +2
-10003 Pyromancy Tool - Stock +3
-10004 Pyromancy Tool - Stock +4
-10005 Pyromancy Tool - Stock +5
-10006 Pyromancy Tool - Stock +6
-10007 Pyromancy Tool - Stock +7
-10008 Pyromancy Tool - Stock +8
-10009 Pyromancy Tool - Stock +9
-10010 Pyromancy Tool - Stock +10
-10100 Pyromancy Tool - Pulsating +0
-10101 Pyromancy Tool - Pulsating +1
-10102 Pyromancy Tool - Pulsating +2
-10103 Pyromancy Tool - Pulsating +3
-10104 Pyromancy Tool - Pulsating +4
-10105 Pyromancy Tool - Pulsating +5
-10106 Pyromancy Tool - Pulsating +6
-10107 Pyromancy Tool - Pulsating +7
-10108 Pyromancy Tool - Pulsating +8
-10109 Pyromancy Tool - Pulsating +9
-10110 Pyromancy Tool - Pulsating +10
-10200 Pyromancy Tool - Vibrating +0
-10201 Pyromancy Tool - Vibrating +1
-10202 Pyromancy Tool - Vibrating +2
-10203 Pyromancy Tool - Vibrating +3
-10204 Pyromancy Tool - Vibrating +4
-10205 Pyromancy Tool - Vibrating +5
-10206 Pyromancy Tool - Vibrating +6
-10207 Pyromancy Tool - Vibrating +7
-10208 Pyromancy Tool - Vibrating +8
-10209 Pyromancy Tool - Vibrating +9
-10210 Pyromancy Tool - Vibrating +10
-10300 Pyromancy Tool - Throbbing +0
-10301 Pyromancy Tool - Throbbing +1
-10302 Pyromancy Tool - Throbbing +2
-10303 Pyromancy Tool - Throbbing +3
-10304 Pyromancy Tool - Throbbing +4
-10305 Pyromancy Tool - Throbbing +5
-10306 Pyromancy Tool - Throbbing +6
-10307 Pyromancy Tool - Throbbing +7
-10308 Pyromancy Tool - Throbbing +8
-10309 Pyromancy Tool - Throbbing +9
-10310 Pyromancy Tool - Throbbing +10
-10400 Pyromancy Tool - Quivering +0
-10401 Pyromancy Tool - Quivering +1
-10402 Pyromancy Tool - Quivering +2
-10403 Pyromancy Tool - Quivering +3
-10404 Pyromancy Tool - Quivering +4
-10405 Pyromancy Tool - Quivering +5
-10406 Pyromancy Tool - Quivering +6
-10407 Pyromancy Tool - Quivering +7
-10408 Pyromancy Tool - Quivering +8
-10409 Pyromancy Tool - Quivering +9
-10410 Pyromancy Tool - Quivering +10
-11000 Sorcery Tool - Stock +0
-11001 Sorcery Tool - Stock +1
-11002 Sorcery Tool - Stock +2
-11003 Sorcery Tool - Stock +3
-11004 Sorcery Tool - Stock +4
-11005 Sorcery Tool - Stock +5
-11006 Sorcery Tool - Stock +6
-11007 Sorcery Tool - Stock +7
-11008 Sorcery Tool - Stock +8
-11009 Sorcery Tool - Stock +9
-11010 Sorcery Tool - Stock +10
-11100 Sorcery Tool - Pulsating +0
-11101 Sorcery Tool - Pulsating +1
-11102 Sorcery Tool - Pulsating +2
-11103 Sorcery Tool - Pulsating +3
-11104 Sorcery Tool - Pulsating +4
-11105 Sorcery Tool - Pulsating +5
-11106 Sorcery Tool - Pulsating +6
-11107 Sorcery Tool - Pulsating +7
-11108 Sorcery Tool - Pulsating +8
-11109 Sorcery Tool - Pulsating +9
-11110 Sorcery Tool - Pulsating +10
-11200 Sorcery Tool - Vibrating +0
-11201 Sorcery Tool - Vibrating +1
-11202 Sorcery Tool - Vibrating +2
-11203 Sorcery Tool - Vibrating +3
-11204 Sorcery Tool - Vibrating +4
-11205 Sorcery Tool - Vibrating +5
-11206 Sorcery Tool - Vibrating +6
-11207 Sorcery Tool - Vibrating +7
-11208 Sorcery Tool - Vibrating +8
-11209 Sorcery Tool - Vibrating +9
-11210 Sorcery Tool - Vibrating +10
-11300 Sorcery Tool - Throbbing +0
-11301 Sorcery Tool - Throbbing +1
-11302 Sorcery Tool - Throbbing +2
-11303 Sorcery Tool - Throbbing +3
-11304 Sorcery Tool - Throbbing +4
-11305 Sorcery Tool - Throbbing +5
-11306 Sorcery Tool - Throbbing +6
-11307 Sorcery Tool - Throbbing +7
-11308 Sorcery Tool - Throbbing +8
-11309 Sorcery Tool - Throbbing +9
-11310 Sorcery Tool - Throbbing +10
-11400 Sorcery Tool - Quivering +0
-11401 Sorcery Tool - Quivering +1
-11402 Sorcery Tool - Quivering +2
-11403 Sorcery Tool - Quivering +3
-11404 Sorcery Tool - Quivering +4
-11405 Sorcery Tool - Quivering +5
-11406 Sorcery Tool - Quivering +6
-11407 Sorcery Tool - Quivering +7
-11408 Sorcery Tool - Quivering +8
-11409 Sorcery Tool - Quivering +9
-11410 Sorcery Tool - Quivering +10
-12000 Miracle Tool - Stock +0
-12001 Miracle Tool - Stock +1
-12002 Miracle Tool - Stock +2
-12003 Miracle Tool - Stock +3
-12004 Miracle Tool - Stock +4
-12005 Miracle Tool - Stock +5
-12006 Miracle Tool - Stock +6
-12007 Miracle Tool - Stock +7
-12008 Miracle Tool - Stock +8
-12009 Miracle Tool - Stock +9
-12010 Miracle Tool - Stock +10
-12100 Miracle Tool - Pulsating +0
-12101 Miracle Tool - Pulsating +1
-12102 Miracle Tool - Pulsating +2
-12103 Miracle Tool - Pulsating +3
-12104 Miracle Tool - Pulsating +4
-12105 Miracle Tool - Pulsating +5
-12106 Miracle Tool - Pulsating +6
-12107 Miracle Tool - Pulsating +7
-12108 Miracle Tool - Pulsating +8
-12109 Miracle Tool - Pulsating +9
-12110 Miracle Tool - Pulsating +10
-12200 Miracle Tool - Vibrating +0
-12201 Miracle Tool - Vibrating +1
-12202 Miracle Tool - Vibrating +2
-12203 Miracle Tool - Vibrating +3
-12204 Miracle Tool - Vibrating +4
-12205 Miracle Tool - Vibrating +5
-12206 Miracle Tool - Vibrating +6
-12207 Miracle Tool - Vibrating +7
-12208 Miracle Tool - Vibrating +8
-12209 Miracle Tool - Vibrating +9
-12210 Miracle Tool - Vibrating +10
-12300 Miracle Tool - Throbbing +0
-12301 Miracle Tool - Throbbing +1
-12302 Miracle Tool - Throbbing +2
-12303 Miracle Tool - Throbbing +3
-12304 Miracle Tool - Throbbing +4
-12305 Miracle Tool - Throbbing +5
-12306 Miracle Tool - Throbbing +6
-12307 Miracle Tool - Throbbing +7
-12308 Miracle Tool - Throbbing +8
-12309 Miracle Tool - Throbbing +9
-12310 Miracle Tool - Throbbing +10
-12400 Miracle Tool - Quivering +0
-12401 Miracle Tool - Quivering +1
-12402 Miracle Tool - Quivering +2
-12403 Miracle Tool - Quivering +3
-12404 Miracle Tool - Quivering +4
-12405 Miracle Tool - Quivering +5
-12406 Miracle Tool - Quivering +6
-12407 Miracle Tool - Quivering +7
-12408 Miracle Tool - Quivering +8
-12409 Miracle Tool - Quivering +9
-12410 Miracle Tool - Quivering +10
-13000 Hex Tool - Stock +0
-13001 Hex Tool - Stock +1
-13002 Hex Tool - Stock +2
-13003 Hex Tool - Stock +3
-13004 Hex Tool - Stock +4
-13005 Hex Tool - Stock +5
-13006 Hex Tool - Stock +6
-13007 Hex Tool - Stock +7
-13008 Hex Tool - Stock +8
-13009 Hex Tool - Stock +9
-13010 Hex Tool - Stock +10
-13100 Hex Tool - Pulsating +0
-13101 Hex Tool - Pulsating +1
-13102 Hex Tool - Pulsating +2
-13103 Hex Tool - Pulsating +3
-13104 Hex Tool - Pulsating +4
-13105 Hex Tool - Pulsating +5
-13106 Hex Tool - Pulsating +6
-13107 Hex Tool - Pulsating +7
-13108 Hex Tool - Pulsating +8
-13109 Hex Tool - Pulsating +9
-13110 Hex Tool - Pulsating +10
-13200 Hex Tool - Vibrating +0
-13201 Hex Tool - Vibrating +1
-13202 Hex Tool - Vibrating +2
-13203 Hex Tool - Vibrating +3
-13204 Hex Tool - Vibrating +4
-13205 Hex Tool - Vibrating +5
-13206 Hex Tool - Vibrating +6
-13207 Hex Tool - Vibrating +7
-13208 Hex Tool - Vibrating +8
-13209 Hex Tool - Vibrating +9
-13210 Hex Tool - Vibrating +10
-13300 Hex Tool - Throbbing +0
-13301 Hex Tool - Throbbing +1
-13302 Hex Tool - Throbbing +2
-13303 Hex Tool - Throbbing +3
-13304 Hex Tool - Throbbing +4
-13305 Hex Tool - Throbbing +5
-13306 Hex Tool - Throbbing +6
-13307 Hex Tool - Throbbing +7
-13308 Hex Tool - Throbbing +8
-13309 Hex Tool - Throbbing +9
-13310 Hex Tool - Throbbing +10
-13400 Hex Tool - Quivering +0
-13401 Hex Tool - Quivering +1
-13402 Hex Tool - Quivering +2
-13403 Hex Tool - Quivering +3
-13404 Hex Tool - Quivering +4
-13405 Hex Tool - Quivering +5
-13406 Hex Tool - Quivering +6
-13407 Hex Tool - Quivering +7
-13408 Hex Tool - Quivering +8
-13409 Hex Tool - Quivering +9
-13410 Hex Tool - Quivering +10
-14000 Luck Tool - Stock +0
-14001 Luck Tool - Stock +1
-14002 Luck Tool - Stock +2
-14003 Luck Tool - Stock +3
-14004 Luck Tool - Stock +4
-14005 Luck Tool - Stock +5
-14006 Luck Tool - Stock +6
-14007 Luck Tool - Stock +7
-14008 Luck Tool - Stock +8
-14009 Luck Tool - Stock +9
-14010 Luck Tool - Stock +10
-14100 Luck Tool - Pulsating +0
-14101 Luck Tool - Pulsating +1
-14102 Luck Tool - Pulsating +2
-14103 Luck Tool - Pulsating +3
-14104 Luck Tool - Pulsating +4
-14105 Luck Tool - Pulsating +5
-14106 Luck Tool - Pulsating +6
-14107 Luck Tool - Pulsating +7
-14108 Luck Tool - Pulsating +8
-14109 Luck Tool - Pulsating +9
-14110 Luck Tool - Pulsating +10
-14200 Luck Tool - Vibrating +0
-14201 Luck Tool - Vibrating +1
-14202 Luck Tool - Vibrating +2
-14203 Luck Tool - Vibrating +3
-14204 Luck Tool - Vibrating +4
-14205 Luck Tool - Vibrating +5
-14206 Luck Tool - Vibrating +6
-14207 Luck Tool - Vibrating +7
-14208 Luck Tool - Vibrating +8
-14209 Luck Tool - Vibrating +9
-14210 Luck Tool - Vibrating +10
-14300 Luck Tool - Throbbing +0
-14301 Luck Tool - Throbbing +1
-14302 Luck Tool - Throbbing +2
-14303 Luck Tool - Throbbing +3
-14304 Luck Tool - Throbbing +4
-14305 Luck Tool - Throbbing +5
-14306 Luck Tool - Throbbing +6
-14307 Luck Tool - Throbbing +7
-14308 Luck Tool - Throbbing +8
-14309 Luck Tool - Throbbing +9
-14310 Luck Tool - Throbbing +10
-14400 Luck Tool - Quivering +0
-14401 Luck Tool - Quivering +1
-14402 Luck Tool - Quivering +2
-14403 Luck Tool - Quivering +3
-14404 Luck Tool - Quivering +4
-14405 Luck Tool - Quivering +5
-14406 Luck Tool - Quivering +6
-14407 Luck Tool - Quivering +7
-14408 Luck Tool - Quivering +8
-14409 Luck Tool - Quivering +9
-14410 Luck Tool - Quivering +10
+10000 Catalyst - Stock +0
+10001 Catalyst - Stock +1
+10002 Catalyst - Stock +2
+10003 Catalyst - Stock +3
+10004 Catalyst - Stock +4
+10005 Catalyst - Stock +5
+10006 Catalyst - Stock +6
+10007 Catalyst - Stock +7
+10008 Catalyst - Stock +8
+10009 Catalyst - Stock +9
+10010 Catalyst - Stock +10
+10100 Catalyst - Infused +0
+10101 Catalyst - Infused +1
+10102 Catalyst - Infused +2
+10103 Catalyst - Infused +3
+10104 Catalyst - Infused +4
+10105 Catalyst - Infused +5
+10106 Catalyst - Infused +6
+10107 Catalyst - Infused +7
+10108 Catalyst - Infused +8
+10109 Catalyst - Infused +9
+10110 Catalyst - Infused +10
 20000 Shield - Titanite +0
 20001 Shield - Titanite +1
 20002 Shield - Titanite +2
@@ -1153,6 +900,7 @@
 100036 Soul of the Rock
 100037 Soul of the Frostfire Colossus
 100038 Twisted Soul
+100039 Soul of the Maiden
 200001 Awestone - 1
 200002 Awestone - 2
 200003 Awestone - 3

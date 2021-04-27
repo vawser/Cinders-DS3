@@ -1234,7 +1234,6 @@
 767000 [Boss] Dismal Knight
 768000 [Boss] The Forlorn Giant
 770000 [Boss] Fallen Protector
-770001 [Boss] Fallen Protector [Heatup]
 770100 [Boss] Fair Maiden
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
