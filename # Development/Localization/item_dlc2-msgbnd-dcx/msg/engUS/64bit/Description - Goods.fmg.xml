@@ -3873,6 +3873,7 @@ Scoff down the phial to boost the damage of nearby active companions by 20% for 
 <text id="20054">A purple phial concocted by Ritualist Ellie.
 
 Scoff down the phial to boost the stamina of nearby active companions, allowing them to attack for longer. Lasts 30 seconds.</text>
+
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
@@ -3897,6 +3898,12 @@ Fires a soul arrow.
 
 To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
+<text id="1300010">Improved version of an elementary sorcery.
+
+Fires a homing soul arrow.
+
+To use sorceries, equip a staff
+and attune a sorcery at a bonfire.</text>
 <text id="1301000">Sorcery which builds upon Soul Arrow.
 
 Fires a crystal orb that emits soul arrows.
@@ -3907,9 +3914,15 @@ Many sorceries inflict magic damage, making them effective against iron armor, t
 Fire shockwave, knocking down foe.
 
 A fallen foe is easy prey for the skilled sorcerer.</text>
-<text id="1303000">Sorcery which improves upon Soul Spear.
+<text id="1303000">Sorcery derived from Soul Spear.
 
-Fire soul spears that pierce their target, then hit repeatedly for additional damage.
+Fire mass of soul spears.
+
+Sorceries are a logical discipline; their strength
+influenced by the caster's intelligence.</text>
+<text id="1303010">Sorcery derived from Crystal Soul Spear.
+
+Fire mass of crystal soul spears.
 
 Sorceries are a logical discipline; their strength
 influenced by the caster's intelligence.</text>
@@ -3935,12 +3948,22 @@ Fires a soul spear.
 
 The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
+<text id="1306010">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past. Improved by Magician Quilon.
+
+Fires a homing soul spear.
+
+The spear boasts superior penetrating power,
+and is testament to Logan's strength in battle,</text>
 <text id="1307000">Further sharpens Soul Spear via crystallization.
 
 Fires a piercing crystal soul spear.
 
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
+<text id="1307010">Further sharpens Soul Spear via crystallization.
 
+Fires a piercing and homing crystal soul spear.
+
+According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
 <text id="1310000">Sorcery for casters who wield swords.
 Reinforces right weapon with magic. 
 
@@ -3963,6 +3986,15 @@ is said to cut down heavily armored knights with ease.</text>
 Reinforces right weapon with crystal.
 
 Increases Magic damage by 75 for 30 seconds.
+Scales with Spell Buff.
+
+After much experimentation, Logan found the
+crystal medium facilitated a stronger bond
+between weapon and soul.</text>
+<text id="1312010">Further sharpens Crystal Magic Weapon.
+Reinforces right weapon with crystal.
+
+Increases Magic damage by 100 for 120 seconds.
 Scales with Spell Buff.
 
 After much experimentation, Logan found the
@@ -4098,6 +4130,13 @@ over power, and this practical alteration of
 an existing sorcery is no exception.</text>
 <text id="1620000">Sorcery imparted by the first of the Scholars,
 when Lothric and the Grand Archives were but young.
+
+Fires a torrential volley of souls.
+
+The first of the Scholars doubted the linking of the fire, and was alleged to be a private mentor to the Royal Prince.</text>
+<text id="1620010">Sorcery imparted by the first of the Scholars,
+when Lothric and the Grand Archives were but young.
+Improved by Magician Quilon.
 
 Fires a torrential volley of souls.
 
@@ -4880,5 +4919,6 @@ Lasts 60 seconds.</text>
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.</text>
+
 </entries>
 </fmg>

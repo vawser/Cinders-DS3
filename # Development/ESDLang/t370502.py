@@ -223,6 +223,24 @@ def t370502_x20():
         # Homing Farron Dart
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1200000, 4, 1, 0) == 1, 2, 99041001, -1)
         
+        # Homing Soul Arrow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1300000, 4, 1, 0) == 1, 3, 99041002, -1)
+        
+        # Homing Soul Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1306000, 4, 1, 0) == 1, 4, 99041003, -1)
+        
+        # Homing Crystal Soul Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1307000, 4, 1, 0) == 1, 5, 99041004, -1)
+        
+        # Crystal Soul Geyser
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1303000, 4, 1, 0) == 1, 6, 99041005, -1)
+        
+        # Quickened Soul Stream
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1620000, 4, 1, 0) == 1, 7, 99041006, -1)
+        
+        # Supreme Magic Weapon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1312000, 4, 1, 0) == 1, 8, 99041007, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -231,11 +249,35 @@ def t370502_x20():
         
         # Supreme Magic Shield
         if GetTalkListEntryResult() == 1:
-            assert t370502_x50(80000, 1070, 9, -10, 99042000, 99043000, 99040010)
+            assert t370502_x50(80000, 1070, 14, -15, 99042000, 99043000, 99040011)
             continue
         # Homing Farron Dart
         elif GetTalkListEntryResult() == 2:
             assert t370502_x50(80010, 1070, 9, -10, 99042001, 99043001, 99040010)
+            continue
+        # Homing Soul Arrow
+        elif GetTalkListEntryResult() == 3:
+            assert t370502_x50(80020, 1070, 9, -10, 99042002, 99043002, 99040010)
+            continue
+        # Homing Soul Spear
+        elif GetTalkListEntryResult() == 4:
+            assert t370502_x50(80030, 1070, 9, -10, 99042003, 99043003, 99040010)
+            continue
+        # Homing Crystal Soul Spear
+        elif GetTalkListEntryResult() == 5:
+            assert t370502_x50(80040, 1070, 14, -15, 99042004, 99043004, 99040011)
+            continue
+        # Crystal Soul Geyser
+        elif GetTalkListEntryResult() == 6:
+            assert t370502_x50(80050, 1070, 19, -20, 99042005, 99043005, 99040012)
+            continue
+        # Quickened Soul Stream
+        elif GetTalkListEntryResult() == 7:
+            assert t370502_x50(80060, 1070, 19, -20, 99042006, 99043006, 99040012)
+            continue
+        # Supreme Magic Weapon
+        elif GetTalkListEntryResult() == 8:
+            assert t370502_x50(80070, 1070, 14, -15, 99042007, 99043007, 99040011)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

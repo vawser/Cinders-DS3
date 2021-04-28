@@ -7,7 +7,8 @@
 - FP Cost: 10
 - INT Req: 10
 - Magic Damage: 80 {240}
-- Ascended Effect: increases projectile homing to 50 degrees.
+-> Homing Farron Dart
+ - Increases homing to 90 degrees.
 
 #--------------------------------
 # Farron Flashsword
@@ -253,7 +254,8 @@
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
-- Ascended Effect: increases duration to 60 seconds.
+-> Supreme Magic Shield
+ - Increases stability boost to 20% and duration 120 seconds.
 
 #--------------------------------
 # Hidden Weapon

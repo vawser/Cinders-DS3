@@ -3794,17 +3794,48 @@ As he leaves, you notice he has left you a valuable ring.</text>
 <text id="99031300">You must awaken the Frostfire Colossus 
 to commune with the fallen knight.</text>
 
-<text id="99040010">Insufficient Crystal Fragments</text>
-<text id="99040011">Insufficient Holy Fragments</text>
-<text id="99040012">Insufficient Abyssal Fragments</text>
-<text id="99040013">Insufficient Fire Seeds</text>
+<text id="99040010">You lack 10 Crystal Fragments</text>
+<text id="99040011">You lack 15 Crystal Fragments</text>
+<text id="99040012">You lack 20 Crystal Fragments</text>
+
+<text id="99040020">You lack 10 Holy Fragments</text>
+<text id="99040021">You lack 15 Holy Fragments</text>
+<text id="99040021">You lack 20 Holy Fragments</text>
+
+<text id="99040030">You lack 10 Abyssal Fragments</text>
+<text id="99040031">You lack 15 Abyssal Fragments</text>
+<text id="99040031">You lack 20 Abyssal Fragments</text>
+
+<text id="99040040">You lack 10 Fire Seeds</text>
+<text id="99040041">You lack 15 Fire Seeds</text>
+<text id="99040041">You lack 20 Fire Seeds</text>
 
 <text id="99041000">Supreme Magic Shield</text>
 <text id="99041001">Homing Farron Dart</text>
+<text id="99041002">Homing Soul Arrow</text>
+<text id="99041003">Homing Soul Spear</text>
+<text id="99041004">Homing Crystal Soul Spear</text>
+<text id="99041005">Crystal Soul Geyser</text>
+<text id="99041006">Quickened Soul Stream</text>
+<text id="99041007">Supreme Magic Weapon</text>
+
 <text id="99042000">Ascend from Great Magic Shield?</text>
 <text id="99042001">Ascend from Farron Dart?</text>
+<text id="99042002">Ascend from Soul Arrow?</text>
+<text id="99042003">Ascend from Soul Spear?</text>
+<text id="99042004">Ascend from Crystal Soul Spear?</text>
+<text id="99042005">Ascend from Soul Geyser?</text>
+<text id="99042006">Ascend from Soul Stream?</text>
+<text id="99042007">Ascend from Crystal Magic Weapon?</text>
+
 <text id="99043000">Supreme Magic Shield crafted</text>
 <text id="99043001">Homing Farron Dart crafted</text>
+<text id="99043002">Homing Soul Arrow crafted</text>
+<text id="99043003">Homing Soul Spear crafted</text>
+<text id="99043004">Homing Crystal Soul Spear crafted</text>
+<text id="99043005">Crystal Soul Geyser crafted</text>
+<text id="99043006">Quickened Soul Stream crafted</text>
+<text id="99043007">Supreme Magic Weapon crafted</text>
 
 </entries>
 </fmg>

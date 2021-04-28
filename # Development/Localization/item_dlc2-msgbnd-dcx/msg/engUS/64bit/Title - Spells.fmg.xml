@@ -1104,20 +1104,26 @@
 <text id="6718">%null%</text>
 <text id="6719">%null%</text>
 <text id="6720">%null%</text>
+
 <text id="1200000">Farron Dart</text>
 <text id="1200010">Homing Farron Dart</text>
 <text id="1210000">Scattering Soul Orb</text>
 <text id="1300000">Soul Arrow</text>
+<text id="1300010">Homing Soul Arrow</text>
 <text id="1301000">Scattering Crystal Orb</text>
 <text id="1302000">Shockwave</text>
 <text id="1303000">Soul Geyser</text>
+<text id="1303010">Crystal Soul Geyser</text>
 <text id="1304000">Homing Soulmass</text>
 <text id="1305000">Homing Crystal Soulmass</text>
 <text id="1306000">Soul Spear</text>
+<text id="1306010">Homing Soul Spear</text>
 <text id="1307000">Crystal Soul Spear</text>
+<text id="1307010">Homing Crystal Soul Spear</text>
 <text id="1310000">Magic Weapon</text>
 <text id="1311000">Great Magic Weapon</text>
 <text id="1312000">Crystal Magic Weapon</text>
+<text id="1312010">Supreme Magic Weapon</text>
 <text id="1330000">Magic Shield</text>
 <text id="1331000">Great Magic Shield</text>
 <text id="1331010">Supreme Magic Shield</text>
@@ -1134,6 +1140,7 @@
 <text id="1374000">Soul Greatsword</text>
 <text id="1375000">Farron Flashsword</text>
 <text id="1620000">Soul Stream</text>
+<text id="1620010">Quickened Soul Stream</text>
 <text id="1651000">Twisted Wall of Light</text>
 <text id="1740000">Pestilent Mist</text>
 <text id="1800000">Crystal Storm</text>

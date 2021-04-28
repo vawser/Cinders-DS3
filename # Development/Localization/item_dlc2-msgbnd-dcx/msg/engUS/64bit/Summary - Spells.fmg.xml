@@ -483,17 +483,21 @@
 <text id="1200010">Fire homing soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
+<text id="1300010">Fire homing soul arrow</text>
 <text id="1301000">Summon orb that fires soul arrows</text>
 <text id="1302000">Fire shockwave, knocking down foe</text>
-<text id="1303000">Fire soul spears that pierce and hit repeatedly</text>
+<text id="1303000">Fire mass of soul spears</text>
+<text id="1303010">Fire mass of crystal soul spears</text>
 <text id="1304000">Release homing soulmass</text>
 <text id="1305000">Release homing crystal soulmass</text>
 <text id="1306000">Fire soul spear</text>
+<text id="1306010">Fire homing soul spear</text>
 <text id="1307000">Fire piercing crystal soul spear</text>
-
+<text id="1307010">Fire piercing, homing crystal soul spear</text>
 <text id="1310000">Reinforce right weapon with magic</text>
 <text id="1311000">Greatly reinforce right weapon with magic</text>
 <text id="1312000">Reinforce right weapon with crystal magic</text>
+<text id="1312010">Reinforce right weapon with crystal magic</text>
 <text id="1330000">Reinforce left shield with magic</text>
 <text id="1331000">Greatly reinforce left shield with magic</text>
 <text id="1331010">Greatly reinforce left shield with magic</text>
@@ -512,6 +516,7 @@
 <text id="1375000">Attack with a sword formed from souls</text>
 
 <text id="1620000">Fire torrential volley of souls</text>
+<text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>
 <text id="1740000">Release a cloud of cursing mist</text>
 <text id="1800000">Summon forth a storm of crystals</text>

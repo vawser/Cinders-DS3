@@ -1148,20 +1148,26 @@
 <text id="20053">Invigorating Phial</text>
 <text id="20054">Energizing Phial</text>
 <text id="100000">%null%</text>
+
 <text id="1200000">Farron Dart</text>
 <text id="1200010">Homing Farron Dart</text>
 <text id="1210000">Scattering Soul Orb</text>
 <text id="1300000">Soul Arrow</text>
+<text id="1300010">Homing Soul Arrow</text>
 <text id="1301000">Scattering Crystal Orb</text>
 <text id="1302000">Shockwave</text>
 <text id="1303000">Soul Geyser</text>
+<text id="1303010">Crystal Soul Geyser</text>
 <text id="1304000">Homing Soulmass</text>
 <text id="1305000">Homing Crystal Soulmass</text>
 <text id="1306000">Soul Spear</text>
+<text id="1306010">Homing Soul Spear</text>
 <text id="1307000">Crystal Soul Spear</text>
+<text id="1307010">Homing Crystal Soul Spear</text>
 <text id="1310000">Magic Weapon</text>
 <text id="1311000">Great Magic Weapon</text>
 <text id="1312000">Crystal Magic Weapon</text>
+<text id="1312010">Supreme Magic Weapon</text>
 <text id="1330000">Magic Shield</text>
 <text id="1331000">Great Magic Shield</text>
 <text id="1331010">Supreme Magic Shield</text>
@@ -1178,6 +1184,7 @@
 <text id="1374000">Soul Greatsword</text>
 <text id="1375000">Farron Flashsword</text>
 <text id="1620000">Soul Stream</text>
+<text id="1620010">Quickened Soul Stream</text>
 <text id="1651000">Twisted Wall of Light</text>
 <text id="1740000">Pestilent Mist</text>
 <text id="1800000">Crystal Storm</text>
@@ -1185,13 +1192,12 @@
 <text id="1802000">Soul Wave</text>
 <text id="1803000">Blizzard</text>
 <text id="1805000">Orbs of Judgment</text>
-<text id="1806000">Soul Focus</text>
 <text id="1807000">Blinding Light</text>
+
 <text id="2400000">Fireball</text>
 <text id="2402000">Fire Orb</text>
 <text id="2403000">Firestorm</text>
 <text id="2405000">Fire Surge</text>
-<text id="2410000">Combustion</text>
 <text id="2411000">Great Combustion</text>
 <text id="2420000">Poison Mist</text>
 <text id="2421000">Toxic Mist</text>
@@ -1212,7 +1218,6 @@
 <text id="2630000">Boulder Heave</text>
 <text id="2640000">Sacred Flame</text>
 <text id="2650000">Carthus Beacon</text>
-<text id="2700000">Singe</text>
 <text id="2701000">Lingering Chaos</text>
 <text id="2702000">Cataclysm</text>
 <text id="2710000">Earthfall</text>
@@ -1221,6 +1226,7 @@
 <text id="2713000">Rockflesh</text>
 <text id="2714000">Immolation</text>
 <text id="2720000">Fecal Expulsion</text>
+
 <text id="3490000">Heal Aid</text>
 <text id="3500000">Heal</text>
 <text id="3501000">Med Heal</text>
@@ -1256,10 +1262,12 @@
 <text id="3814000">Lothric's Holy Spear</text>
 <text id="3815000">Proof of a Pact</text>
 <text id="3816000">Ghostly Assault</text>
+
 <text id="3818000">Overwhelming Power</text>
 <text id="3819000">Wrathful Orbs</text>
 <text id="3820000">Holy Schism</text>
 <text id="3821000">Wrathful Barrage</text>
+
 <text id="4100000">Deep Barb</text>
 <text id="4101000">Deep Soul</text>
 <text id="4102000">Great Deep Soul</text>
@@ -1277,6 +1285,7 @@
 <text id="4114000">Whisper of Despair</text>
 <text id="4115000">Repel</text>
 <text id="4116000">Numbness</text>
+
 <text id="4201000">Black Fireball</text>
 <text id="4202000">Black Fire Orb</text>
 <text id="4203000">Black Fire Vestiges</text>
@@ -1287,6 +1296,7 @@
 <text id="4208000">Recollection</text>
 <text id="4209000">Mournful Flames</text>
 <text id="4210000">Black Flame Arc</text>
+
 <text id="4301000">Nibble</text>
 <text id="4302000">Gnaw</text>
 <text id="4303000">Dorhys' Gnawing</text>
@@ -1301,5 +1311,6 @@
 <text id="4312000">Lifehunt Scythe</text>
 <text id="4313000">Pulsating Blade</text>
 <text id="4314000">Pungent Blade</text>
+
 </entries>
 </fmg>

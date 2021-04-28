@@ -1108,19 +1108,25 @@
 <text id="20052">Recall active companions</text>
 <text id="20053">Boosts the damage of active companions</text>
 <text id="20054">Boosts the stamina of active companions</text>
+
 <text id="1200000">Fire soul dart</text>
 <text id="1200010">Fire homing soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
+<text id="1300010">Fire homing soul arrow</text>
 <text id="1301000">Summon orb that fires soul arrows</text>
 <text id="1302000">Fire shockwave, knocking down foe</text>
-<text id="1303000">Fire soul spears that pierce and hit repeatedly</text>
+<text id="1303000">Fire mass of soul spears</text>
+<text id="1303010">Fire mass of crystal soul spears</text>
 <text id="1304000">Release homing soulmass</text>
 <text id="1305000">Release homing crystal soulmass</text>
 <text id="1306000">Fire soul spear</text>
+<text id="1306010">Fire homing soul spear</text>
 <text id="1307000">Fire piercing crystal soul spear</text>
+<text id="1307010">Fire piercing, homing crystal soul spear</text>
 <text id="1310000">Reinforce right weapon with magic</text>
 <text id="1311000">Greatly reinforce right weapon with magic</text>
+<text id="1311010">Greatly reinforce right weapon with magic</text>
 <text id="1312000">Reinforce right weapon with crystal magic</text>
 <text id="1330000">Reinforce left shield with magic</text>
 <text id="1331000">Greatly reinforce left shield with magic</text>
@@ -1138,24 +1144,22 @@
 <text id="1373000">Cast cascade of small crystal soulmasses from sky</text>
 <text id="1374000">Attack with a greatsword formed from souls</text>
 <text id="1375000">Attack with a sword formed from souls</text>
+
 <text id="1620000">Fire torrential volley of souls</text>
+<text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>
 <text id="1740000">Release a cloud of cursing mist</text>
 <text id="1800000">Summon forth a storm of crystals</text>
 <text id="1801000">Boosts potency of sorceries but reduces absorption</text>
 <text id="1802000">Fire soul wave that pierces enemies</text>
 <text id="1803000">Summon multiple spots of frost in vicinity</text>
-<text id="1804000">Summon orb of judgment, firing orbs towards foes</text>
 <text id="1805000">Fire multiple orbs of judgment that seek foe</text>
-<text id="1806000">Exchange HP for FP</text>
 <text id="1807000">Create flash of golden light</text>
 <text id="2400000">Hurl fireball</text>
 <text id="2402000">Hurl giant fire orb</text>
 <text id="2403000">Erect multiple fire pillars in vicinity</text>
 <text id="2404000">%null%</text>
 <text id="2405000">Emit a constant stream of fire</text>
-<text id="2406000">Sweep foes with fire whip</text>
-<text id="2410000">Create powerful flame in hand</text>
 <text id="2411000">Create powerful, giant flame in hand</text>
 <text id="2415000">%null%</text>
 <text id="2416000">%null%</text>
@@ -1179,20 +1183,16 @@
 <text id="2630000">Spew a boulder from one's mouth</text>
 <text id="2640000">Flame burrows inside foes and ignites</text>
 <text id="2650000">Damage increases with consecutive attacks</text>
-<text id="2700000">Hurl ball of fire</text>
 <text id="2701000">Throw a lingering chaos orb that explodes on contact</text>
 <text id="2702000">Release flaming chaos orbs from sky</text>
-<text id="2703000">Hurl ball of black fire</text>
-<text id="2704000">Emit a constant stream of black fire</text>
-<text id="2705000">Cast cascade of small black fireballs from sky</text>
-<text id="2706000">Fires a cascade of black fireballs</text>
 <text id="2710000">Call down boulders from the sky</text>
 <text id="2711000">Heave earth from the ground</text>
 <text id="2712000">Heave earth in multiple locations in vicinity</text>
 <text id="2713000">Call forth rock, boosting absorption</text>
 <text id="2714000">Immolate oneself, leaving a trail of fire in your wake</text>
 <text id="2720000">Spew fecal matter from one's mouth</text>
-<text id="3490000">Restore HP</text>
+
+<text id="3490000">Restore HP for self and vicinity</text>
 <text id="3500000">Restore HP for self and vicinity</text>
 <text id="3501000">Restore moderate HP for self and vicinity</text>
 <text id="3502000">Restore high HP for self and vicinity</text>
@@ -1220,14 +1220,9 @@
 <text id="3591000">Reinforce right weapon with Darkmoon light</text>
 <text id="3710000">Strike with a stake of lightning</text>
 <text id="3720000">Bring down multiple pillars of light in vicinity</text>
-<text id="3740000">%null%</text>
-<text id="3750000">Summon swarm of insects that nestles within foes</text>
 <text id="3760000">Bless right weapon</text>
-<text id="3800000">Fire lightning bolt</text>
-<text id="3801000">Release sparks of lightning</text>
 <text id="3802000">Summon heavenly thunder</text>
 <text id="3803000">Launch white discuses outwards from the conjurer</text>
-<text id="3804000">Summons bursting white discuses</text>
 <text id="3805000">Boosts poise temporarily</text>
 <text id="3812000">Call forth a barrage of holy spears upon foes</text>
 <text id="3813000">Fire a divine arrow</text>
@@ -1238,6 +1233,7 @@
 <text id="3819000">Release homing holy orbs</text>
 <text id="3820000">Summon rows of upwardly thrusting ritual spears</text>
 <text id="3821000">Fire cascade of divine spears</text>
+
 <text id="4100000">Hurl darkened soul sediment</text>
 <text id="4101000">Fire darkened soul sediment</text>
 <text id="4102000">Fire powerful darkened soul sediment</text>
@@ -1255,6 +1251,7 @@
 <text id="4114000">Cast projectile towards foe, inflicting Curse</text>
 <text id="4115000">Become immune to damage temporarily</text>
 <text id="4116000">Become numb to damage temporarily, narrowing vision</text>
+
 <text id="4201000">Fire black fireball</text>
 <text id="4202000">Hurl a black fireball</text>
 <text id="4203000">Hurl black fire flame that scorches vicinity</text>
@@ -1265,6 +1262,7 @@
 <text id="4208000">Summons black fire-spitting orb</text>
 <text id="4209000">Hurl balls of black fire, upon impact black flames seek foes</text>
 <text id="4210000">Imbue right weapon with black flame</text>
+
 <text id="4301000">Summon insect swarm to feast on foes</text>
 <text id="4302000">Summon insect swarm to feast on foes</text>
 <text id="4303000">Summon great insect swarm to feast on foes</text>
@@ -1279,5 +1277,6 @@
 <text id="4312000">Steal HP of foes using an illusory scythe</text>
 <text id="4313000">Imbue right weapon with blood</text>
 <text id="4314000">Imbue right weapon with a noxious poison</text>
+
 </entries>
 </fmg>
