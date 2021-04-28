@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Boss Revival: Dragonslayer Armour
+#-- Sorcery Scribe
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -22,7 +22,6 @@ def t301500_x0():
     """ State 0,1 """
     while True:
         call = t301500_x3()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
 
 # Client Player
 def t301500_x1():
@@ -68,7 +67,7 @@ def t301500_x3():
 def t301500_x4():
     """ State 0,5 """
     while True:
-        call = t301500_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000) # Interaction State
+        call = t301500_x5() # Interaction State
         if call.Done():
             """ State 3 """
             call = t301500_x8() # Menu Pre-loop
@@ -86,10 +85,10 @@ def t301500_x4():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 2 or GetPlayerYDistance() > 0.25:
                 """ State 4 """
                 call = t301500_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 1.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -101,22 +100,16 @@ def t301500_x4():
     t301500_x2() # Clear Talk State
     
 # Interaction State
-def t301500_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
+def t301500_x5():
     """ State 0,1 """
     while True:
         assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
                 and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
         """ State 2 """
         if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
             and not IsPlayerDead() and not IsCharacterDisabled())):
             pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
+        elif CheckActionButtonArea(6120):
             break
     """ State 4 """
     return 0
@@ -127,10 +120,8 @@ def t301500_x6():
     assert t301500_x2() # Clear Talk State
     """ State 3 """
     assert GetCurrentStateElapsedFrames() > 1
-    """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
     """ State 2 """
-    if GetDistanceToPlayer() > 12:
+    if GetDistanceToPlayer() > 3:
         """ State 7 """
         assert t301500_x2() # Clear Talk State
     else:
@@ -142,10 +133,10 @@ def t301500_x6():
 # Distance Check
 def t301500_x7():
     """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not
         CheckSpecificPersonGenericDialogIsOpen(0)):
         """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
+        if GetDistanceToPlayer() > 3:
             """ State 4 """
             Label('L0')
             assert t301500_x2() # Clear Talk State
@@ -154,86 +145,117 @@ def t301500_x7():
         Goto('L0')
     """ State 6 """
     return 0
-    
+
 # Menu Pre-loop
 def t301500_x8():
     """ State 0,1 """
+    SetEventState(73109000, 0)
     assert t301500_x9()
     """ State 24 """
     return 0
     
+# Menu Loop
 def t301500_x9():
     c1110()
-    
     while True:
         ClearTalkListData()
-        
-        # Revive - Vordt
-        AddTalkListDataIf(GetEventStatus(25001014) == 1 and GetEventStatus(13010800) == 1, 1, 99002850, -1) 
+       
+        # Ascension
+        AddTalkListData(1, 15004001, -1)
+
+        # Talk
+        AddTalkListData(3, 10010200, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Revive - Vordt
+        # Ascension
         if GetTalkListEntryResult() == 1:
-            assert t301500_x52(99002614, 160, 1)
+            assert t301500_x20()
+            continue
+        # Talk
+        elif GetTalkListEntryResult() == 3:
+            assert t301500_x10(text1=10021000, flag1=0, mode1=0)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
+            
+# Talk Function
+def t301500_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t301500_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t301500_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
+#----------------------------------------------------
+# Ascension
+#----------------------------------------------------
+def t301500_x20():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Magic Weapon
+        AddTalkListData(1, 15004001, -1)
 
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Purchase Sidearms
+        if GetTalkListEntryResult() == 1:
+            OpenRegularShop(270000, 279999)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------
-def t301500_x50(action1=_):
+# Acquire Gesture
+def t301500_x50(z2=_, z3=_, flag1=_):
     """ State 0,1 """
-    OpenGenericDialog(8, action1, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-def t301500_x51(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 0, 3, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-        
-# Revive
-def t301500_x52(text1=_, base_cost=_, derived_stat=_):
-    """ State 0,1 """
-    SetAquittalCostMessageTag(base_cost, derived_stat)
-    """ State 14 """
-    call = t301500_x50(action1=text1)
-    
-    if call.Get() == 0:
-        """ State 7 """
-        if ComparePlayerAcquittalPrice(base_cost, derived_stat, 2) == 1:
-            """ State 4,13 """
-            assert t301500_x50(action1=13000050) # Lack souls
-        else:
-            """ State 5 """
-            SubtractAcquittalCostFromPlayerSouls(base_cost, derived_stat)
-            """ State 6 """
-            SetEventState(13010800, 0);
-            SetEventState(9308, 0);
-            SetEventState(6308, 0);
-            GiveSpEffectToPlayer(260100140)
-    elif call.Get() == 1:
-        """ State 8 """
+    if GetEventStatus(flag1) == 1:
+        """ State 2 """
         pass
-
+    else:
+        """ State 3,4 """
+        AcquireGesture(z2)
+        OpenItemAcquisitionMenu(3, z3, 1)
+        SetEventState(flag1, 1)
+        assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
+    """ State 5 """
     return 0

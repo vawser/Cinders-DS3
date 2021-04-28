@@ -480,6 +480,7 @@
 <text id="5910">Boost right weapon with rays of Darkmoon</text>
 
 <text id="1200000">Fire soul dart</text>
+<text id="1200010">Fire homing soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
 <text id="1301000">Summon orb that fires soul arrows</text>
@@ -495,6 +496,7 @@
 <text id="1312000">Reinforce right weapon with crystal magic</text>
 <text id="1330000">Reinforce left shield with magic</text>
 <text id="1331000">Greatly reinforce left shield with magic</text>
+<text id="1331010">Greatly reinforce left shield with magic</text>
 <text id="1340000">Turn right weapon invisible</text>
 <text id="1341000">Turn body nearly invisible</text>
 <text id="1350000">Cast light to illuminate surroundings</text>

@@ -157,10 +157,11 @@ Add the following armour:
 - Added a new infusion: Laughing. This converts the catalyst into a LCK catalyst and halves the amount of INT/FTH needed to cast spells (the UI doesn't reflect this however).
 
 # NPCs
-- Added Magesmith Quilon: he is a sorcery master and can ascend specific sorceries into new and improved forms. Found in Lothric Castle.
-- Added Oktio of the Swamp: he is a pyromancy master and can ascend specific pyromancies into new and improved forms. Found in Smouldering Lake.
+- Added Magician Quilon: he is a sorcery master and can ascend specific sorceries into new and improved forms. Found in Irithyll.
+- Added Helia of the Lake: she is a pyromancy master and can ascend specific pyromancies into new and improved forms. Found in Smouldering Lake.
 - Added Scribe Vadan: he is a miracle master and can ascend specific miracles into new and improved forms. Found in Cathedral of the Deep.
-- Added Sinner Argith: he is a hex master and can ascend specific hexes into new and improved forms. Found in the Profaned Capital.
+- Added Sinner Argith: she is a hex master and can ascend specific hexes into new and improved forms. Found in the Profaned Capital.
+- Boosted summoned NPC's base HP and gave them a damage/absorption boost when they drop below 50% HP.
 
 # Covenants
 - Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
@@ -179,13 +180,12 @@ Add the following armour:
 #------------------------------
 # TODO
 #------------------------------
-Blessed Weapon
-Lightining Blade
-Halo
-Wrath of the Gods
+Fix Siegward questline bug
+Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
+Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
-# Master NPCs
-Magesmith Quilon    # m30_1 - 722500    - 301500
+370502 Sorcery Scribe
+380501 Pyromancy Scribe
+350500 Miracle Scribe
+390500 Hex Scribe
 
-InitializeCommonEvent(20081200, 14000795, 4000795, 90430);  // Magesmith Quilon - Idle
-InitializeCommonEvent(20081210, 14000795, 4000795);         // Magesmith Quilon - Hostility

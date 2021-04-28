@@ -37,7 +37,7 @@ Then create the python version and recompile it.
 301001 Dragonslayer Armour bonfire
 301002 Dragon Barracks bonfire
 301020 Sunlight Altar
-301500 Magesmith Quilon
+301500 GENERIC UNUSED
 301501 GENERIC UNUSED
 301502 GENERIC UNUSED
 301503 GENERIC UNUSED
@@ -144,7 +144,7 @@ Then create the python version and recompile it.
 350301 Unbreakable Patches (Rosaria side)
 350302 Unbreakable Patches (Door side)
 350310 Longfinger Kirk
-350500 Scribe Vadan
+350500 Miracle Scribe
 350501 GENERIC UNUSED
 350502 GENERIC UNUSED
 350503 GENERIC UNUSED
@@ -182,7 +182,7 @@ Then create the python version and recompile it.
 370401 Londor Assassin (Darkmoon Tomb)
 370500 Domhnall of Zena # Talk Flags: 73709100
 370501 Marvelous Chester # Talk Flags: 73709000
-370502 GENERIC UNUSED
+370502 Sorcery Scribe
 370503 GENERIC UNUSED
 370504 GENERIC UNUSED
 370505 GENERIC UNUSED
@@ -203,7 +203,7 @@ Then create the python version and recompile it.
 380295
 380296
 380500 Crestfallen Merchant # Talk Flags: 73809000
-380501 Oktio of the Swamp
+380501 Pyromancy Scribe
 380502 GENERIC UNUSED
 380503 GENERIC UNUSED
 380504 GENERIC UNUSED
@@ -219,7 +219,7 @@ Then create the python version and recompile it.
 390250 Karla
 390310
 390311
-390500 Prisoner Argith
+390500 Hex Scribe
 390501 GENERIC UNUSED
 390502 GENERIC UNUSED
 390503 GENERIC UNUSED

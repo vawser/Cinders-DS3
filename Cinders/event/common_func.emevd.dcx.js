@@ -6,7 +6,9 @@
 // @linked    []
 // ==/EMEVD==
 
-// Enemy - Enable AI upon area/attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Player in Region
+//--------------------------------------
 Event(20005110, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -24,7 +26,9 @@ Event(20005110, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon area/attack trigger - Wake-up animation
+//--------------------------------------
+// Wakeup - Alerted by Player in Region - Play Animation on Alert
+//--------------------------------------
 Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -43,7 +47,9 @@ Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI/Gravity upon area/attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Player in Region - Enable Gravity on Alert
+//--------------------------------------
 Event(20005112, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -63,7 +69,9 @@ Event(20005112, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI/Gravity upon area/attack trigger - With delayed wake up
+//--------------------------------------
+// Wakeup - Alerted by Player in Region - Delayed Alert, Enable Gravity on Alert, Unknown Effect
+//--------------------------------------
 Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -86,7 +94,9 @@ Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon area/attack trigger - With delayed wake up
+//--------------------------------------
+// Wakeup - Alerted by Player in Region - Delayed Alert, Unknown Effect
+//--------------------------------------
 Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -107,7 +117,9 @@ Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon attack trigger - Wake-up animation
+//--------------------------------------
+// Wakeup - Alerted by Player in Region - Play Animation
+//--------------------------------------
 Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -126,7 +138,9 @@ Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Patrol Leader Setup
+//--------------------------------------
+// Wakeup - Alerted by Player in Multiple Regions
+//--------------------------------------
 Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -157,7 +171,9 @@ Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance
+//--------------------------------------
 Event(20005120, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -175,7 +191,9 @@ Event(20005120, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/attack trigger - With delayed wake up
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance - Delayed Alert
+//--------------------------------------
 Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -196,7 +214,9 @@ Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/attack trigger - With wake up animation
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance - Play Animation
+//--------------------------------------
 Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -215,7 +235,9 @@ Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/area/attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance AND In Region
+//--------------------------------------
 Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -234,7 +256,9 @@ Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance AND In Region - Play Animation
+//-------------------------------------- 
 Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -254,7 +278,9 @@ Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/area/attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance OR In Region
+//--------------------------------------
 Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -274,7 +300,9 @@ Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance OR In Region - Play Animation
+//--------------------------------------
 Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -295,7 +323,9 @@ Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon radius/area/attack trigger - With wake up animation
+//--------------------------------------
+// Wakeup - Alerted by Player at Distance OR In Region - Play Animation if not in secondary region
+//--------------------------------------
 Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -319,7 +349,9 @@ Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon area/attack/combat trigger
+//--------------------------------------
+// Wakeup - Alerted by Player in Region
+//--------------------------------------
 Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -338,7 +370,9 @@ Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
-// Enemy - Enable AI upon attack trigger
+//--------------------------------------
+// Wakeup - Alerted by Damage
+//--------------------------------------
 Event(20005150, Restart, function(X0_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterAIState(X0_4, Disabled);
@@ -346,6 +380,9 @@ Event(20005150, Restart, function(X0_4) {
     SetCharacterAIState(X0_4, Enabled);
 });
 
+//--------------------------------------
+// Remove Sight - Restore if Player is in Region
+//--------------------------------------
 Event(20005192, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetSpeffect(X0_4, 99006);
@@ -363,6 +400,10 @@ Event(20005192, Restart, function(X0_4, X4_4) {
     ClearSpeffect(X0_4, 99006);
 });
 
+
+//--------------------------------------
+// Remove Sight - Restore if Player is at Distance
+//--------------------------------------
 Event(20005190, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetSpeffect(X0_4, 99006);
@@ -380,6 +421,9 @@ Event(20005190, Restart, function(X0_4, X4_4) {
     ClearSpeffect(X0_4, 99006);
 });
 
+//--------------------------------------
+// Remove Sight - Restore if Damaged
+//--------------------------------------
 Event(20005191, Restart, function(X0_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetSpeffect(X0_4, 99006);
@@ -387,7 +431,9 @@ Event(20005191, Restart, function(X0_4) {
     ClearSpeffect(X0_4, 99006);
 });
 
-// Enemy - Wake-up
+//--------------------------------------
+// Loop Animation - Remove if Player is in Region
+//--------------------------------------
 Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -411,7 +457,9 @@ Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Enemy - Wakeup with animation
+//--------------------------------------
+// Loop Animation - Remove if Player is in Region - Unknown Effect
+//--------------------------------------
 Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -438,7 +486,9 @@ Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X0_4);
 });
 
-// Enemy - Hang until triggered to climb
+//--------------------------------------
+// Hang Animation - Remove if Player is in Region
+//--------------------------------------
 Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     SetCharacterGravity(X0_4, Disabled);
@@ -469,7 +519,9 @@ Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterMaphit(X0_4, false);
 });
 
-// Enemy - Wake-up
+//--------------------------------------
+// Loop Animation - Remove if Player is in Multiple Regions
+//--------------------------------------
 Event(20005203, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
@@ -1744,7 +1796,9 @@ Event(20005381, Restart, function(X0_4, X4_4, X8_1, X9_1) {
     EndUnconditionally(EventEndType.End);
 });
 
+//-----------------------------------
 // Mimic - Enable Open Action
+//-----------------------------------
 Event(20005400, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 11700, true, ComparisonType.Equal, 1);
     IfActionButtonInArea(AND_01, 8010, X0_4);
@@ -1768,7 +1822,9 @@ Event(20005400, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Ememy - Dragon Trap
+//-----------------------------------
+// Enemy - Dragon Trap
+//-----------------------------------
 Event(20005410, Restart, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfCharacterAIState(MAIN, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
@@ -1778,7 +1834,9 @@ Event(20005410, Restart, function(X0_4, X4_4) {
     RequestCharacterAICommand(X0_4, 0, 0);
 });
 
+//-----------------------------------
 // Enemy - Ladder Gank
+//-----------------------------------
 Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
@@ -1791,7 +1849,9 @@ Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     RequestCharacterAIReplan(X4_4);
 });
 
+//-----------------------------------
 // Pus of Man Setup - End Flag, Entity ID, Entity ID, Anim ID 1, Anim ID 2, Area Entity ID, Label1 Flag, Label0 Flag
+//-----------------------------------
 Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     CreateNPCPart(X8_4, 10, NPCPartType.Part1, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 20, NPCPartType.Part2, 9999, 1, 1, false, false);

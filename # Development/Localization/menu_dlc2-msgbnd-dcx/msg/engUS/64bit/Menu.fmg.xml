@@ -1973,10 +1973,10 @@ Persisting will transform you into a grub.</text>
 <text id="15003063">Oils</text>
 <text id="15003064">Odds and Ends</text>
 <text id="15004000">Learn Sorceries</text>
-<text id="15004001">%null%</text>
-<text id="15004002">%null%</text>
-<text id="15004003">%null%</text>
-<text id="15004004">%null%</text>
+<text id="15004001">Ascend Sorceries</text>
+<text id="15004002">Ascend Pyromancies</text>
+<text id="15004003">Ascend Miracles</text>
+<text id="15004004">Ascend Hexes</text>
 <text id="15004005">%null%</text>
 <text id="15004006">%null%</text>
 <text id="15004007">%null%</text>
@@ -3793,6 +3793,18 @@ As he leaves, you notice he has left you a valuable ring.</text>
 
 <text id="99031300">You must awaken the Frostfire Colossus 
 to commune with the fallen knight.</text>
+
+<text id="99040010">Insufficient Crystal Fragments</text>
+<text id="99040011">Insufficient Holy Fragments</text>
+<text id="99040012">Insufficient Abyssal Fragments</text>
+<text id="99040013">Insufficient Fire Seeds</text>
+
+<text id="99041000">Supreme Magic Shield</text>
+<text id="99041001">Homing Farron Dart</text>
+<text id="99042000">Ascend from Great Magic Shield?</text>
+<text id="99042001">Ascend from Farron Dart?</text>
+<text id="99043000">Supreme Magic Shield crafted</text>
+<text id="99043001">Homing Farron Dart crafted</text>
 
 </entries>
 </fmg>

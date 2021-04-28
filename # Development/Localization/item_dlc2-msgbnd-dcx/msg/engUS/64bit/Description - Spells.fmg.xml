@@ -486,6 +486,13 @@ Fire a soul dart.
 
 Well known among the Farron sorceries,
 it is learned far and wide due to its ease of use.</text>
+<text id="1200010">Variation of Soul Arrow developed
+by sorcerers of the Undead Legion of Farron.
+
+Fire a homing soul dart.
+
+Well known among the Farron sorceries,
+it is learned far and wide due to its ease of use.</text>
 <text id="1210000">Sorcery which builds upon Farron Dart.
 
 Fires a soul orb that emits soul darts.
@@ -578,6 +585,12 @@ considerably with the use of this spell.</text>
 Greatly reinforces left shield with magic.
 
 Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+
+Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
+<text id="1331010">Sorcery which improves upon Great Magic Shield.
+Greatly reinforces left shield with magic.
+
+Boosts shield absorption by 100% and stability by 20% for 120 seconds.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,

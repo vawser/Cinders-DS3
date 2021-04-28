@@ -1149,6 +1149,7 @@
 <text id="20054">Energizing Phial</text>
 <text id="100000">%null%</text>
 <text id="1200000">Farron Dart</text>
+<text id="1200010">Homing Farron Dart</text>
 <text id="1210000">Scattering Soul Orb</text>
 <text id="1300000">Soul Arrow</text>
 <text id="1301000">Scattering Crystal Orb</text>
@@ -1163,6 +1164,7 @@
 <text id="1312000">Crystal Magic Weapon</text>
 <text id="1330000">Magic Shield</text>
 <text id="1331000">Great Magic Shield</text>
+<text id="1331010">Supreme Magic Shield</text>
 <text id="1340000">Hidden Weapon</text>
 <text id="1341000">Hidden Body</text>
 <text id="1350000">Cast Light</text>
