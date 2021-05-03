@@ -7,8 +7,9 @@
 - FP Cost: 10
 - INT Req: 10
 - Magic Damage: 80 {240}
--> Homing Farron Dart
- - Increases homing to 90 degrees.
+
+#---- Homing Farron Dart
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Farron Flashsword
@@ -30,8 +31,9 @@
 - FP Cost: 20
 - INT Req: 20
 - Magic Damage: 125 {375}
--> Homing Soul Arrow
- - Increases homing to 90 degrees.
+
+#---- Homing Soul Arrow
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Scattering Crystal Orb
@@ -47,8 +49,9 @@
 - INT Req: 40
 - Slot Use: 1
 - Magic Damage: 200 {600}
--> Homing Soul Spear
- - Increases homing to 90 degrees.
+
+#---- Homing Soul Spear
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Crystal Soul Spear
@@ -57,8 +60,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 300 {900}
--> Homing Crystal Soul Spear
- - Increases homing to 90 degrees.
+
+#---- Homing Crystal Soul Spear
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Homing Soulmass
@@ -84,8 +88,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 75 {600} {*8, individual} {1800}
--> Crystal Soul Geyser
- - Boosts damage to 100 {800} {2400}
+
+#---- Crystal Soul Geyser
+- Boosts damage to 100 {800} {2400}
 
 #--------------------------------
 # White Dragon Breath
@@ -146,8 +151,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 60 {180} {*10, individual}
--> Quickened Soul Stream
- -> Changes cast animation to Farron Dart
+
+#---- Quickened Soul Stream
+- Changes cast animation to Farron Dart
 
 #--------------------------------
 # Blizzard
@@ -216,8 +222,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
--> Supreme Magic Weapon
- - Effect: Adds 100 Magic damage to main weapon for 120 seconds.
+
+#---- Supreme Magic Weapon
+- Effect: Adds 100 Magic damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Frozen Weapon
@@ -225,7 +232,6 @@
 - FP Cost: 30
 - INT Req: 30
 - Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Frost inflict to 60.
 
 #--------------------------------
 # Magic Shield
@@ -233,7 +239,6 @@
 - FP Cost: 30
 - INT Req: 30
 - Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
-- Ascended Effect: increases duration to 90 seconds.
 
 #--------------------------------
 # Great Magic Shield
@@ -242,8 +247,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
--> Supreme Magic Shield
- - Increases stability boost to 20% and duration 120 seconds.
+
+#---- Supreme Magic Shield
+- Effect: Adds max absorption and 20% stability to main shield for 120 seconds.
 
 #--------------------------------
 # Hidden Weapon
@@ -251,15 +257,13 @@
 - FP Cost: 25
 - INT Req: 20
 - Base Effect: hides main weapon for 120 seconds.
-- Ascended Effect: increases duration to 300 seconds.
 
 #--------------------------------
 # Hidden Body
 #--------------------------------
 - FP Cost: 30
 - INT Req: 40
-- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 90%.
-- Ascended Effect: increases sight reduction to 100%.
+- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 100%.
 
 #--------------------------------
 # Cast Light
@@ -267,7 +271,6 @@
 - FP Cost: 20
 - INT Req: 10
 - Base Effect: summons a light source that follows you for 120 seconds.
-- Ascended Effect: None
 
 #--------------------------------
 # Repair
@@ -275,15 +278,13 @@
 - FP Cost: 50
 - INT Req: 20
 - Base Effect: restores 50 durability.
-- Ascended Effect: restores 100 durability.
 
 #--------------------------------
 # Spook
 #--------------------------------
 - FP Cost: 30
 - INT Req: 20
-- Base Effect: reduces enemy detection via sound by 90% for 60 seconds.
-- Ascended Effect: increases sound reduction to 100%.
+- Base Effect: reduces enemy detection via sound by 100% for 60 seconds.
 
 #--------------------------------
 # Chameleon
@@ -291,7 +292,6 @@
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: transforms player into object from level.
-- Ascended Effect: None
 
 #--------------------------------
 # Aural Decoy
@@ -299,7 +299,6 @@
 - FP Cost: 15
 - INT Req: 20
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
-- Ascended Effect: increases decoy duration to 5 seconds.
 
 #--------------------------------
 # Twisted Wall of Light
@@ -307,7 +306,6 @@
 - FP Cost: 10
 - INT Req: 30
 - Base Effect: reflect spells away for 2 seconds.
-- Ascended Effect: None
 
 #--------------------------------
 # Unleash Magic
@@ -316,7 +314,6 @@
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
-- Ascended Effect: increases duration to 45 seconds.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive

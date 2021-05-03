@@ -354,7 +354,7 @@ def t400170_x18(z3=17000410):
                 assert t400170_x5(text5=17000400, flag4=0, mode1=1)
                 """ State 6 """
                 # lot:60703:Heavy Gem
-                assert t400170_x6(lot1=60703)
+                assert t400170_x6(lot1=60700)
             else:
                 """ State 4 """
                 pass

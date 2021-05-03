@@ -187,10 +187,17 @@ Add the following armour:
 - Fixed Handmaid's Ladle infusion bug.
 - Fixed Heavenly Relief applying twice.
 - Fixed Slave Knight Gael's tome warp.
+- Stone of Draconic Fire/Stone of Draconic Might now scale with Luck correctly.
+- Tablet of Legends is no longer removed when you enter NG+.
+- Using Rosaria's menu no longer spins you around.
+- Andre should now give you Hawkwood's Swordgrass after praying at the Dragon Altar in Archdragon Peak.
+- Hawkwood should now give a Heavy Gem in the quest stage he used to give a Titanite Shard.
+- Fixed DebugAnimSpeed issue with Harald Knight
 
 #------------------------------
 # TODO
 #------------------------------
+Add Chaos Beam spell
 Fix Siegward questline bug
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.

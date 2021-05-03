@@ -381,7 +381,7 @@ def t350020_x11():
 def t350020_x12():
     """ State 0,1 """
     while True:
-        call = t350020_x14(z1=3501851)
+        call = t350020_x14(z1=3502852)
         assert not GetEventStatus(6001)
         """ State 2 """
         call = t350020_x15()
@@ -393,7 +393,7 @@ def t350020_x13():
     """ State 2 """
     return 0
 
-def t350020_x14(z1=3501851):
+def t350020_x14(z1=3502852):
     """ State 0 """
     ClearPlayerDamageInfo()
     """ State 1 """
