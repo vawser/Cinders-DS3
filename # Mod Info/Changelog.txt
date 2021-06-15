@@ -193,12 +193,12 @@ Add the following armour:
 - Andre should now give you Hawkwood's Swordgrass after praying at the Dragon Altar in Archdragon Peak.
 - Hawkwood should now give a Heavy Gem in the quest stage he used to give a Titanite Shard.
 - Fixed DebugAnimSpeed issue with Harald Knight
+- Fool's Sigil should now work correctly.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Chaos Beam spell
-Fix Siegward questline bug
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
