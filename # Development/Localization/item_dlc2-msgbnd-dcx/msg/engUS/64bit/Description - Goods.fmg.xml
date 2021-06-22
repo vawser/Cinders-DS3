@@ -1292,7 +1292,6 @@ One of the twisted souls, steeped in strength.
 The fair maiden and her loyal protector were once adherents of the sun.
 As eons passed, the pair succumbed to hollowing, becoming listless and void of coherent thought.
 As the emptiness permeated, they were drawn to the comforting voices of the abyss.</text>
-
 <text id="800">Small stone made up of crystallized souls. 
 
 Restores 300 HP over 30 seconds.
@@ -1429,7 +1428,6 @@ Boosts Frostbite resistance by 50% during the Frostfire Colossus encounter.</tex
 <text id="1160">Northwarders may only become oracles of the war gods upon completing a journey of great hardship. Odessa chose to travel north, beyond where any life had traveled before. From the world's farthest reaches she returned with this crystal, emanating a frozen brilliance.
 
 Boosts Fire absorption by 25% during the Frostfire Colossus encounter.</text>
-
 <text id="1250">A gem of infused titanite.
 Also known as stark stone.
 
@@ -1612,7 +1610,6 @@ Give my love to Aava.
 <text id="2065">A seal of judgment bestowed by Iudex Gundyr.
 
 Unlocks passage to the Untended Graves.</text>
-
 <text id="2100">This skeleton key opens any basic door lock.
 
 Tool of the trade for thieves.
@@ -1879,7 +1876,6 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 Use to acquire souls.
 
 Crystal lizards often consume stray souls as if ravenous with hunger.</text>
-
 <text id="2170">A torn page from the journel of Occultist Grudore.
 
 'Alas, the experiment has gone awry. Nevertheless, the Twisted Knight as I now call him exhibits an unique trait: his visage shifts in hue and color. Attempts to harm him always resulted in failure, until I made the connection between his visage and my attacks. From my observations, it is as follows:
@@ -1890,7 +1886,6 @@ Crystal lizards often consume stray souls as if ravenous with hunger.</text>
 - Purple: vulnerable to Dark attacks.
 
 Having discovered this, I have lured the creature into a vacant room within the castle and departed for the cemetary.'</text>
-
 <text id="2173">A pyromancy tome of the profaned flame, from the Profaned Capital.
 
 Give to the pyromancer master to learn profaned pyromancies.
@@ -2192,7 +2187,6 @@ A crude element of any magesmith's arsenal.
 Used in infusion to change the nature of a catalyst.
 
 The smouldering is said to be neverending, allowing the sorcerer to modify catalysts endlessly.</text>
-
 <text id="4100">Stone imbued with the power of the everlasting dragons, the second of its kind, offered to a towering dragon.
 
 Emit dragon breath alongside an archdragon mirage.
@@ -2551,13 +2545,11 @@ Those who cannot remember the past are condemned to repeat it...</text>
 Read to revive the Fallen Protector and warp to the entrance of the boss arena.
 
 Those who cannot remember the past are condemned to repeat it...</text>
-
 <text id="5300">Enchanted book inscribed with a cryptic ritual.
 
 Whilst embered, beckon a local companion to the player. Once present, they will defend the player for 60 seconds.
 
 Once defeated, you must rest at a bonfire to revive them.</text>
-
 <text id="5400">Bisque urn filled with black powder.
 Explodes, inflicting fire damage.
 Scales with Luck.
@@ -2598,7 +2590,6 @@ Uniquely cultivated by Occultist Grudore, this blossom draws upon its wielder's 
 Repairs equipped weapons and armor, as long as they haven't already broken.
 
 Uniquely crafted by Occultist Grudore, this powder draws upon its wielder's focus, allowing for endless usage.</text>
-
 <text id="5500">A fragment of titanite.
 
 Increases poise by 50% for 60 seconds.
@@ -2641,7 +2632,6 @@ It is said that consuming this moss grants magical abilities.
 Reduces weapon stamina consumption by 25% for 60 seconds.
 
 This moss is said only to grow in locations of great suffering and loss. Alas, such locations are far more plentiful than they once were.</text>
-
 <text id="8000">Reset event flags</text>
 <text id="8001">Enable god mode</text>
 <text id="8002">Enable kill mode</text>
@@ -3873,7 +3863,6 @@ Scoff down the phial to boost the damage of nearby active companions by 20% for 
 <text id="20054">A purple phial concocted by Ritualist Ellie.
 
 Scoff down the phial to boost the stamina of nearby active companions, allowing them to attack for longer. Lasts 30 seconds.</text>
-
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
@@ -3884,13 +3873,18 @@ it is learned far and wide due to its ease of use.</text>
 <text id="1200010">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
-Fire a homing soul dart.
+Fire a soul dart with no focus cost.
 
 Well known among the Farron sorceries,
 it is learned far and wide due to its ease of use.</text>
 <text id="1210000">Sorcery which builds upon Farron Dart.
 
 Fires a soul orb that emits soul darts.
+
+Entrusted to the leader of the Legion's acolytes, and apparently a sorcery of his daughter, Heysel, that was refined by a Crystal Sage.</text>
+<text id="1210010">Sorcery which builds upon Farron Dart.
+
+Fires a soul orb that repeatedly emits soul darts.
 
 Entrusted to the leader of the Legion's acolytes, and apparently a sorcery of his daughter, Heysel, that was refined by a Crystal Sage.</text>
 <text id="1300000">Elementary sorcery.
@@ -3900,7 +3894,7 @@ To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
 <text id="1300010">Improved version of an elementary sorcery.
 
-Fires a homing soul arrow.
+Fires an explosive soul arrow.
 
 To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
@@ -3909,9 +3903,19 @@ and attune a sorcery at a bonfire.</text>
 Fires a crystal orb that emits soul arrows.
 
 Many sorceries inflict magic damage, making them effective against iron armor, tough scales, and other physically resilient materials.</text>
+<text id="1301010">Sorcery which builds upon Soul Arrow.
+
+Fires a crystal orb that repeatedly emits soul arrows.
+
+Many sorceries inflict magic damage, making them effective against iron armor, tough scales, and other physically resilient materials.</text>
 <text id="1302000">Elementary, yet practical sorcery from long ago.
 
 Fire shockwave, knocking down foe.
+
+A fallen foe is easy prey for the skilled sorcerer.</text>
+<text id="1302010">Elementary, yet practical sorcery from long ago.
+
+Fire shockwave with no focus cost, knocking down foe.
 
 A fallen foe is easy prey for the skilled sorcerer.</text>
 <text id="1303000">Sorcery derived from Soul Spear.
@@ -3930,7 +3934,14 @@ influenced by the caster's intelligence.</text>
 the great sorcerer who left the Dragon School in an age long past.
 
 Releases a homing soulmass. 
-Impact reduces the Magic absorption of the target by 10% for 5 seconds.
+
+This sorcery may offer a clue as to what Logan sought,
+but further investigation suggests its attraction to
+living things mirrors the nature of the dark.</text>
+<text id="1304010">Sorcery developed by Big Hat Logan,
+the great sorcerer who left the Dragon School in an age long past.
+
+Releases a surge of homing soulmass. 
 
 This sorcery may offer a clue as to what Logan sought,
 but further investigation suggests its attraction to
@@ -3939,7 +3950,13 @@ living things mirrors the nature of the dark.</text>
 
 Releases a homing crystal soulmass.
 Crystal soulmass has piercing qualities.
-Impact reduces the Magic absorption of the target by 10% for 10 seconds.
+
+According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
+<text id="1305010">Sharpens Homing Soulmass via crystallization.
+
+Releases a weakening homing crystal soulmass.
+Weakening crystal soulmass has piercing qualities.
+Impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
 <text id="1306000">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past.
@@ -3950,7 +3967,7 @@ The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
 <text id="1306010">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past. Improved by Magician Quilon.
 
-Fires a homing soul spear.
+Fires an explosive soul spear.
 
 The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
@@ -4028,6 +4045,15 @@ Lasts 120 seconds.
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
 is reliant upon the ingenuity of its caster.</text>
+<text id="1340010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Turns right weapon invisible with no focus cost.
+Lasts 120 seconds.
+
+The weapon itself undergoes no inherent changes.
+Effective use of this, like any tool, perhaps,
+is reliant upon the ingenuity of its caster.</text>
 <text id="1341000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
@@ -4042,6 +4068,16 @@ in to environs with astounding camouflage.</text>
 land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings.
+Lasts 120 seconds.
+
+This light-producing magic is elementary
+but nonetheless demonstrates the pure
+nature of golden sorceries; the likes of which have
+not been developed even at the Dragon School.</text>
+<text id="1350010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Casts a light to illuminate surroundings with no focus cost.
 Lasts 120 seconds.
 
 This light-producing magic is elementary
@@ -4082,6 +4118,14 @@ Transforms into something inconspicuous.
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
 sought relief from the solitude of the woods at dusk.</text>
+<text id="1355010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Transforms into something inconspicuous with no focus cost.
+
+Far from formally developed, this magic was
+instead born from the mischief of a young girl who
+sought relief from the solitude of the woods at dusk.</text>
 <text id="1356000">Sorcery developed by a certain surreptitious
 sorcerer at Vinheim Dragon School.
 
@@ -4100,8 +4144,23 @@ Seath's research seemed to strike a chord with
 old Big Hat who, in his mad, disrobed state,
 made divine works such as this, his own.
 Oceiros was no doubt edified by this.</text>
+<text id="1370010">Sorcery of the deluded Consumed King Oceiros.
+
+Emits extended crystal breath of Seath the Scaleless, inflicting 60 Curse.
+Crystal breath has piercing qualities.
+
+Seath's research seemed to strike a chord with
+old Big Hat who, in his mad, disrobed state,
+made divine works such as this, his own.
+Oceiros was no doubt edified by this.</text>
 <text id="1372000">Sorcery which improves upon Farron Dart.
 Fires a cascade of soul darts.
+
+Entrusted to the leader of the Legion's acolytes,
+and apparently a sorcery of his daughter, Heysel,
+that was refined by a Crystal Sage.</text>
+<text id="1372010">Sorcery which improves upon Farron Dart.
+Fires a cascade of homing soul darts.
 
 Entrusted to the leader of the Legion's acolytes,
 and apparently a sorcery of his daughter, Heysel,
@@ -4114,6 +4173,14 @@ Casts a cascade of small crystal soulmasses from above. Crystal soulmasses have 
 In a pact said to have been formed long ago,
 one of the Sages allied with the Undead Legion
 in order to train the sorcerers of Farron.</text>
+<text id="1373010">Unique sorcery developed by extraordinary
+preacher twins known as the Crystal Sages.
+
+Casts a focused cascade of small crystal soulmasses from above. Crystal soulmasses have piercing qualities.
+
+In a pact said to have been formed long ago,
+one of the Sages allied with the Undead Legion
+in order to train the sorcerers of Farron.</text>
 <text id="1374000">Sorcery developed primarily for sorcerer-swordsmen.
 Attacks with a greatsword formed from souls.
 
@@ -4122,8 +4189,26 @@ of the caster, but its power is said to rival
 that of physical greatswords.
 Even the most obstinate magic purists
 may resort to this spell in times of crisis.</text>
+<text id="1374010">Sorcery developed primarily for sorcerer-swordsmen.
+Attacks with a heavy greatsword formed from souls.
+
+Poise damage increased to 80 and causes knockdown.
+
+The ephemeral blade only exists as an extension
+of the caster, but its power is said to rival
+that of physical greatswords.
+Even the most obstinate magic purists
+may resort to this spell in times of crisis.</text>
 <text id="1375000">Alteration of Soul Greatsword developed
 by sorcerers of the Undead Legion of Farron.
+
+The Legion has a tendency to emphasize speed
+over power, and this practical alteration of
+an existing sorcery is no exception.</text>
+<text id="1375010">Alteration of Soul Greatsword developed
+by sorcerers of the Undead Legion of Farron.
+
+Can be used with no focus cost.
 
 The Legion has a tendency to emphasize speed
 over power, and this practical alteration of
@@ -4161,6 +4246,16 @@ Lasts for 5 seconds.
 A body caught in the silent mist cloud lies still,
 while the face twists in a tortured scream.
 The names of these learned sorcerers became feared for this gruesome spectacle.</text>
+<text id="1740010">Highly dangerous sorcery employed by Dragon
+School spooks. Only taught to trusted members.
+
+Releases dense mist that inflicts 15 Curse and  removes 0.2% HP per tick.
+Beware, as the caster is not immune to its effect.
+Lasts for 8 seconds.
+
+A body caught in the silent mist cloud lies still,
+while the face twists in a tortured scream.
+The names of these learned sorcerers became feared for this gruesome spectacle.</text>
 <text id="1800000">Sorcery of the long forgotten paledrake.
 
 Summon forth a storm of crystals.
@@ -4176,6 +4271,9 @@ In Vinheim, potent spells often requires a great deal of sacrifice, as epitomise
 <text id="1802000">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
 
 Fires soul wave that pierces enemies.</text>
+<text id="1802010">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
+
+Fires fast soul wave that pierces enemies.</text>
 <text id="1803000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
 
 Summon multiple spots of frost in vicinity, inflicting 60 Frost.
@@ -4186,9 +4284,20 @@ Sulyvahn was born and raised inside the painting, yet had little use for his fri
 Fire multiple orbs of judgment that seek foe.
 
 The meek shall face judgment for their cowardice.</text>
+<text id="1805010">One of the spells used by the sorcerer Sulyvahn after his ascension to Pontiff.
+
+Fire multiple orbs of judgment that swiftly seek foe.
+
+The meek shall face judgment for their cowardice.</text>
 <text id="1807000">One of the ancient Oolacile sorceries favoured by those that preferred more aggressive solutions.
 
 Creates a flash of golden light.
+
+The sorcerers of Oolacile were not fond of violence, but nevertheless they forged spells that would defend them so.
+</text>
+<text id="1807010">One of the ancient Oolacile sorceries favoured by those that preferred more aggressive solutions.
+
+Creates a flash of golden light with no focus cost.
 
 The sorcerers of Oolacile were not fond of violence, but nevertheless they forged spells that would defend them so.
 </text>
@@ -4218,7 +4327,6 @@ such is the intrinsic horror of the flame.</text>
 Emits a constant stream of fire.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
-
 <text id="2411000">Pyromancy which improves upon Combustion.
 Creates a powerful, giant flame in hand.
 
@@ -4426,7 +4534,6 @@ If a person is truly desirous of something, perhaps being set on fire does not s
 Spew fecal matter from one's mouth, inflicting 25 Toxic per hit.
 
 As in life, the common peasant has little to say on matters of worth.</text>
-
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 
@@ -4566,7 +4673,6 @@ Once a slayer of dragons, the former king
 and wargod tamed a Stormdrake,
 on which he led a lifetime of battle.
 This miracle is likely a tale of their bond.</text>
-
 <text id="3560000">Miracle of clerics who wield weapons.
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. 
@@ -4590,7 +4696,6 @@ in preparing means to counter it.</text>
 Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
-
 <text id="3590000">Miracle allegedly wielded by a certain 
 dragonslayer knight in the Age of Gods.
 Reinforces right weapon with lightning.
@@ -4622,7 +4727,6 @@ Brings down multiple pillars of light in vicinity.
 The Queen's holy maiden Gertrude was visited by an angel, who revealed this tale to her.
 
 Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</text>
-
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60 and restores 5 HP every second for 60 seconds.
@@ -4690,7 +4794,6 @@ When Spears of the Church face unduly treacherous foes, this allows them to draw
 Fire cascade of divine spears towards foes.
 
 When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
-
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
@@ -4782,7 +4885,6 @@ Lasts 60 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
-
 <text id="4201000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Fire ball of black fire, inflicting 20 Toxic.
@@ -4837,7 +4939,6 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
 </text>
-
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
 Summons an insect swarm to feast on foes, inflicting 10 Bleed.
@@ -4919,6 +5020,5 @@ Lasts 60 seconds.</text>
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.</text>
-
 </entries>
 </fmg>

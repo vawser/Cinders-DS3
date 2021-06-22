@@ -478,20 +478,24 @@
 <text id="5908">%null%</text>
 <text id="5909">%null%</text>
 <text id="5910">Boost right weapon with rays of Darkmoon</text>
-
 <text id="1200000">Fire soul dart</text>
-<text id="1200010">Fire homing soul dart</text>
+<text id="1200010">Fire soul dart with no focus cost</text>
 <text id="1210000">Summon orb that fires soul darts</text>
+<text id="1210010">Summon orb that repeatedly fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
-<text id="1300010">Fire homing soul arrow</text>
+<text id="1300010">Fire explosive soul arrow</text>
 <text id="1301000">Summon orb that fires soul arrows</text>
+<text id="1301010">Summon orb that repeatedly fires soul arrows</text>
 <text id="1302000">Fire shockwave, knocking down foe</text>
+<text id="1302010">Fire shockwave with no focus cost, knocking down foe</text>
 <text id="1303000">Fire mass of soul spears</text>
 <text id="1303010">Fire mass of crystal soul spears</text>
 <text id="1304000">Release homing soulmass</text>
+<text id="1304010">Release surge of homing soulmass</text>
 <text id="1305000">Release homing crystal soulmass</text>
+<text id="1305010">Release weakening homing crystal soulmass</text>
 <text id="1306000">Fire soul spear</text>
-<text id="1306010">Fire homing soul spear</text>
+<text id="1306010">Fire explosive soul spear</text>
 <text id="1307000">Fire piercing crystal soul spear</text>
 <text id="1307010">Fire piercing, homing crystal soul spear</text>
 <text id="1310000">Reinforce right weapon with magic</text>
@@ -502,29 +506,40 @@
 <text id="1331000">Greatly reinforce left shield with magic</text>
 <text id="1331010">Greatly reinforce left shield with magic</text>
 <text id="1340000">Turn right weapon invisible</text>
+<text id="1340010">Turn right weapon invisible with no focus cost</text>
 <text id="1341000">Turn body nearly invisible</text>
 <text id="1350000">Cast light to illuminate surroundings</text>
+<text id="1350010">Cast light to illuminate surroundings with no focus cost</text>
 <text id="1351000">Mask all noises of caster</text>
 <text id="1353000">Repair equipped weapons and armor</text>
 <text id="1354000">Mask noises of caster and prevent fall damage</text>
 <text id="1355000">Transform into something inconspicuous</text>
+<text id="1355010">Transform into something inconspicuous with no focus cost</text>
 <text id="1356000">Distract foes with a distant sound</text>
 <text id="1370000">Emit crystal breath of Seath the Scaleless, inflicting Curse.</text>
+<text id="1370010">Emit extended crystal breath of Seath the Scaleless, inflicting Curse.</text>
 <text id="1372000">Fire cascade of soul darts</text>
+<text id="1372010">Fire cascade of homing soul darts</text>
 <text id="1373000">Cast cascade of small crystal soulmasses from sky</text>
+<text id="1373010">Cast focused cascade of small crystal soulmasses from sky</text>
 <text id="1374000">Attack with a greatsword formed from souls</text>
+<text id="1374010">Attack with a heavy greatsword formed from souls</text>
 <text id="1375000">Attack with a sword formed from souls</text>
-
+<text id="1375010">Attack with a sword formed from souls with no focus cost</text>
 <text id="1620000">Fire torrential volley of souls</text>
 <text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>
 <text id="1740000">Release a cloud of cursing mist</text>
+<text id="1740010">Release a lingering cloud of cursing mist</text>
 <text id="1800000">Summon forth a storm of crystals</text>
 <text id="1801000">Boosts potency of sorceries but reduces absorption</text>
 <text id="1802000">Fire soul wave that pierces enemies</text>
+<text id="1802010">Fire fast soul wave that pierces enemies</text>
 <text id="1803000">Summon multiple spots of frost in vicinity</text>
 <text id="1805000">Fire multiple orbs of judgment that seek foe</text>
+<text id="1805010">Fire multiple orbs of judgment that swiftly seek foe</text>
 <text id="1807000">Create flash of golden light</text>
+<text id="1807010">Create flash of golden light with no focus cost</text>
 <text id="2400000">Hurl fireball</text>
 <text id="2402000">Hurl giant fire orb</text>
 <text id="2403000">Erect multiple fire pillars in vicinity</text>
@@ -561,7 +576,6 @@
 <text id="2713000">Call forth rock, boosting absorption</text>
 <text id="2714000">Immolate oneself, leaving a trail of fire in your wake</text>
 <text id="2720000">Spew fecal matter from one's mouth</text>
-
 <text id="3490000">Restore HP for self and vicinity</text>
 <text id="3500000">Restore HP for self and vicinity</text>
 <text id="3501000">Restore moderate HP for self and vicinity</text>
@@ -603,7 +617,6 @@
 <text id="3819000">Release homing holy orbs</text>
 <text id="3820000">Summon rows of upwardly thrusting ritual spears</text>
 <text id="3821000">Fire cascade of divine spears</text>
-
 <text id="4100000">Hurl darkened soul sediment</text>
 <text id="4101000">Fire darkened soul sediment</text>
 <text id="4102000">Fire powerful darkened soul sediment</text>
@@ -621,7 +634,6 @@
 <text id="4114000">Cast projectile towards foe, inflicting Curse</text>
 <text id="4115000">Become immune to damage temporarily</text>
 <text id="4116000">Become numb to damage temporarily, narrowing vision</text>
-
 <text id="4201000">Fire black fireball</text>
 <text id="4202000">Hurl a black fireball</text>
 <text id="4203000">Hurl black fire flame that scorches vicinity</text>
@@ -632,7 +644,6 @@
 <text id="4208000">Summons black fire-spitting orb</text>
 <text id="4209000">Hurl balls of black fire, upon impact black flames seek foes</text>
 <text id="4210000">Imbue right weapon with black flame</text>
-
 <text id="4301000">Summon insect swarm to feast on foes</text>
 <text id="4302000">Summon insect swarm to feast on foes</text>
 <text id="4303000">Summon great insect swarm to feast on foes</text>
@@ -647,6 +658,5 @@
 <text id="4312000">Steal HP of foes using an illusory scythe</text>
 <text id="4313000">Imbue right weapon with blood</text>
 <text id="4314000">Imbue right weapon with a noxious poison</text>
-
 </entries>
 </fmg>

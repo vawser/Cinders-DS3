@@ -7,7 +7,6 @@
 <text id="744">Soul of Sister Friede. One of the twisted souls, steeped in strength.
 
 Friede was the first Ash to enter the painting, but together with the good Father, they chose rot over fire.</text>
-
 <text id="2153">The charred but warm bones of a champion. Burn at the Firelink Shrine bonfire to participate in Undead Matches.
 
 Long ago, an Undead declared a fight. A fight to celebrate their undeath, and to preserve what remained of their souls. So it was that the Undead Matches were born.
@@ -19,10 +18,15 @@ Long ago, when the Millwood Knights lost the forest they called home, they began
 <text id="2155">The key to the contraption leading to the attic of the archive found on the edge of the Corvian Settlement.
 
 After Sir Vilhelm led a white-haired woman to the attic of the library, he kept this key as if it were his life.</text>
-
 <text id="1313000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
 
 Imbues right-hand weapon with 30 Frost.
+Lasts for 60 seconds.
+
+Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
+<text id="1313010">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
+
+Imbues right-hand weapon with 60 Frost.
 Lasts for 60 seconds.
 
 Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
@@ -30,6 +34,12 @@ Sulyvahn was born and raised inside the painting, yet had little use for his fri
 
 Creates a cloud of near-freezing mist, inflicting 40 Frost per tick.
 Lasts for 5 seconds.
+
+Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
+<text id="1741010">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
+
+Creates a cloud of near-freezing mist, inflicting 40 Frost per tick.
+Lasts for 8 seconds.
 
 Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
 <text id="2457000">Pyromancer Dunnel was fascinated by this ceremonial art employed by the clerics of the Smouldering Lake.
