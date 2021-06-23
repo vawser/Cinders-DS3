@@ -8,8 +8,8 @@
 - INT Req: 10
 - Magic Damage: 80 {240}
 
-#---- Costless Farron Dart
-- FP consumption reduced to 0.
+#---- Homing Farron Dart
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Farron Flashsword
@@ -18,18 +18,12 @@
 - INT Req: 10
 - Magic Damage: 100 {300}
 
-#---- Costless Farron Flashsword
-- FP consumption reduced to 0.
-
 #--------------------------------
 # Scattering Soul Orb
 #--------------------------------
 - FP Cost: 10
 - INT Req: 20
 - Magic Damage: 30 {90} {*25, individual}
-
-#---- Repeating Soul Orb
-- Increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Arrow
@@ -38,8 +32,8 @@
 - INT Req: 20
 - Magic Damage: 125 {375}
 
-#---- Explosive Soul Arrow
-- Adds an area of effect explosion on impact.
+#---- Homing Soul Arrow
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Scattering Crystal Orb
@@ -47,9 +41,6 @@
 - FP Cost: 25
 - INT Req: 30
 - Magic Damage: 60 {180} {*25, individual}
-
-#---- Repeating Crystal Orb
-- Increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Soul Spear
@@ -59,8 +50,8 @@
 - Slot Use: 1
 - Magic Damage: 200 {600}
 
-#---- Explosive Soul Spear
-- Adds an area of effect explosion on impact.
+#---- Homing Soul Spear
+- Increases homing to 90 degrees.
 
 #--------------------------------
 # Crystal Soul Spear
@@ -79,9 +70,7 @@
 - FP Cost: 25
 - INT Req: 30
 - Magic Damage: 50 {150} {*5, individual}
-
-#---- Surging Soulmass
-- Changes cast animation to Fire Surge and releases 5 bullets every half second.
+- Effect: impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
 # Homing Crystal Soulmass
@@ -90,9 +79,7 @@
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 80 {240} {*5, individual}
-
-#---- Weakening Crystal Soulmass
-- Impact reduces the Magic absorption of the target by 10% for 5 seconds.
+- Effect: impact reduces the Magic absorption of the target by 10% for 10 seconds.
 
 #--------------------------------
 # Soul Geyser
@@ -114,9 +101,6 @@
 - Magic Damage: 200 {600} [50 {150}] 
 - Effect: inflicts 60 Curse.
 
-#---- Extended White Dragon Breath
-- Extends the length of the breath.
-
 #--------------------------------
 # Crystal Storm
 #--------------------------------
@@ -131,9 +115,6 @@
 - INT Req: 20
 - Magic Damage: 50 {150} {*20, shared}
 
-#---- Homing Farron Hail
-- Increases projectile homing to 45 degrees.
-
 #--------------------------------
 # Crystal Hail
 #--------------------------------
@@ -141,18 +122,12 @@
 - INT Req: 40
 - Magic Damage: 25 {75} {*40, individual}
 
-#---- Focused Crystal Hail
-- Reduces the spread of the crystal hail.
-
 #--------------------------------
 # Soul Greatsword
 #--------------------------------
 - FP Cost: 20
 - INT Req: 30
 - Magic Damage: 200 {600}
-
-#---- Heavy Soul Greatsword
-- Increases Poise Damage to 80 and adds knockdown.
 
 #--------------------------------
 # Old Moonlight
@@ -162,18 +137,12 @@
 - Slot Use: 2
 - Magic Damage: 200 {600} (250 {750} charged) [100 {300}]
 
-#---- Heavy Old Moonlight
-- Increases Poise Damage to 100.
-
 #--------------------------------
 # Soul Wave
 #--------------------------------
 - FP Cost: 10
 - INT Req: 30
 - Magic Damage: 80 {240}
-
-#---- Swift Soul Wave
-- Increases projectile speed to 60 m/s.
 
 #--------------------------------
 # Soul Stream
@@ -184,7 +153,7 @@
 - Magic Damage: 60 {180} {*10, individual}
 
 #---- Quickened Soul Stream
-- Changes cast animation to Quick Soul Arrow.
+- Changes cast animation to Farron Dart
 
 #--------------------------------
 # Blizzard
@@ -201,18 +170,12 @@
 - INT Req: 40
 - Magic Damage: 50 {150} {*6, individual}
 
-#---- Swift Orbs of Judgment
-- Increases projectile speed to 12 m/s.
-
 #--------------------------------
 # Pestilent Mist
 #--------------------------------
 - FP Cost: 30
 - INT Req: 40
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
-
-#---- Lingering Pestilent Mist
-- Increases duration to 8 seconds.
 
 #--------------------------------
 # Snap Freeze
@@ -221,9 +184,6 @@
 - INT Req: 20
 - Base Effect: summons patch that deals 15 Frost per tick. Lasts 5 seconds.
 
-#---- Lingering Snap Freeze
-- Increases duration to 8 seconds.
-
 #--------------------------------
 # Blinding Light
 #--------------------------------
@@ -231,18 +191,12 @@
 - INT Req: 20
 - Base Effect: knocks enemies back.
 
-#---- Costless Blinding Light
-- FP consumption reduced to 0.
-
 #--------------------------------
 # Shockwave
 #--------------------------------
 - FP Cost: 10
 - INT Req: 20
 - Base Effect: Knocks down enemies.
-
-#---- Costless Shockwave
-- FP consumption reduced to 0.
 
 #--------------------------------------------------------------------------
 # Sorceries - Effects
@@ -279,9 +233,6 @@
 - INT Req: 30
 - Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
 
-#---- Supreme Frozen Weapon
-- Adds 60 Frost inflict to main weapon for 60 seconds.
-
 #--------------------------------
 # Magic Shield
 #--------------------------------
@@ -307,9 +258,6 @@
 - INT Req: 20
 - Base Effect: hides main weapon for 120 seconds.
 
-#---- Costless Hidden Weapon
-- FP consumption reduced to 0.
-
 #--------------------------------
 # Hidden Body
 #--------------------------------
@@ -323,9 +271,6 @@
 - FP Cost: 20
 - INT Req: 10
 - Base Effect: summons a light source that follows you for 120 seconds.
-
-#---- Costless Cast Light
-- FP consumption reduced to 0.
 
 #--------------------------------
 # Repair
@@ -347,9 +292,6 @@
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: transforms player into object from level.
-
-#---- Costless Chameleon
-- FP consumption reduced to 0.
 
 #--------------------------------
 # Aural Decoy
