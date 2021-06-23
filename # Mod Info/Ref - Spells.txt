@@ -388,14 +388,18 @@
 #--------------------------------
 - FP Cost: 20
 - Fire Damage: 100 {300} [50 {150}]
-- Ascended Effect: increases projectile speed to 30 m/s.
+
+#---- Costless Fireball
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Fire Orb
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 160 {480} [50 {150}]
-- Ascended Effect: increases projectile homing to 40 degrees.
+
+#---- Homing Fire Orb
+- Increases homing to 40 degrees.
 
 #--------------------------------
 # Firestorm
