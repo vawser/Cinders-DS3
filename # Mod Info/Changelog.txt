@@ -104,106 +104,141 @@ Add the following armour:
 #------------------------------
 # Changelog
 #------------------------------
-# Bosses
-- Added a new boss in the Profaned Capital swamp: the Fallen Protector and the Fair Maiden
- - Drops Soul of the Maiden, which can be transposed into:
-  - Blueblood Sword
-  - Quicksilver Shield
-  - Life Ring
- - The Quicksilver Set will appear in the swamp cave after they have been defeated.
- 
-# Map
-- Changed the Church of Sin bonfire into the Swamp of Sin and moved it onto the wooden platform above the swamp in the Profaned Capital.
-- Removed enemies near the Secluded Cloister bonfire.
-- Removed the skeletons in the Shared Grave.
-- Ringed City Streets and Shared Grave bonfires are no longer locked behind intruder kills.
-- Moved Freya and the Moaning Knight intruders into rooms within the Shared Grave.
-- Added Scribe's Retreat bonfire on the Cathedral of the Deep.
- 
-# Items
-- Changed Bone Fragment item to Petrified Something.
-- Changed the sources of Petrified Somethings.
-- Added consumable: Titanite Fragment - Boosts poise by 50% for 60 seconds.
-- Added consumable: Inferi Petal - Boosts damage against Undead by 20% for 60 seconds.
-- Added consumable: Combustum Petal - Boosts damage against Demons by 20% for 60 seconds.
-- Added consumable: Vindicti Petal - Boosts damage against Hollows by 20% for 60 seconds.
-- Added consumable: Barathrum Petal - Boosts damage against Abyssals by 20% for 60 seconds.
-- Added consumable: Celeritas Stem - Boosts casting speed by 30 for 60 seconds.
-- Added consumable: Veloxi Moss - Reduces weapon stamina consumption by 25% for 60 seconds.
-- You can now sell Estus Shards/Undead Bone Shards for 10000 souls.
-
 # Weapon
-- Reduced Frostfall INT requirement to 40.
-- Reduced the damage of the Dagger/Paired Dagger category.
-- Weapons with no innate physical damage no longer have the Lethal, Sharp, Blunt infusions.
-- Weapons with INT/FTH requirements now adjust their requirements with the following infusions: Magic, Fire, Lightning, Dark, Enchanted, Holy.
-- Adjusted the requirements for several weapons with INT/FTH requirements so they aren't so low (and therefore pointless as requirements).
-- Added INT/FTH requirements to some weapons that dealt elemental damage but had no INT/FTH requirements before.
-- Corvian Longstaff WA now changes which aux it inflicts if infused with Curse/Bleed/Frost.
-- Added p0's torch VFX changes.
+- Changed Dark Infused Torch VFX.
+- Added Luck Infused Torch VFX.
+- Changed holster/holding position for sidearms (except Rosamarinus).
+- Changed Blunderbuss animation.
+- Repeating Pistol now correctly fired 2 bullets at once, attack correction were adjusted.
+- Rearranged MLGS tae event and sounds, should match the animation correctly and the transition between R2s are smoother.
+- Minor adjustment to Tonitrus, allowing player to turn during the initial animation of the Spark weapon art.
+- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe & Greatsword.
+ - Straight Sword - Anri's Straight Sword (Stance)
+ 		  - Astora Straight Sword (Stance)
+		  - Sunlight Straight Sword (Oath of Sunlight)
+		  - Crystal Straight Sword (Stance)
+		  - Silver Knight Straight Sword (Silver Knight's Grace)
+		  - Firelink Sword (Ember)
+		  - Hallowed Sword (Stance)
+		  - Irithyll Straight Sword (Stance)
 
-# Catalysts
-- Catalyst infusions now require 1 Smouldering Stone, which is dropped like a gem from select mobs, and unlocked for bonfire forging upon reaching the Grand Archives.
+ - Curved Sword   - Beasthunter Saif (Hunter's Fury)
+		  - Carthus Curved Sword (Spin Slash)
+		  - Crescent Moon Sword (Crescent Blade)
+		  - Rotten Ghru Curved Sword (Spin Slash)
+		  - Smouldering Curved Sword (Spin Slash)
+		  - Blind (Spin Slash)
+
+ - Spear	  - Demon's Spear (Stance)
+		  - Firelink Spear (Ember)
+		  - Rotten Ghru Spear (Charge)
+		  - Saint Bident (Stance)
+		  - Silver Knight Spear (Lightning Stance)
+		  - Smouldering Spear (Charge)
+		  - Winged Spear (Stance)
+
+ - Axe		  - Brigand Axe (Warcry)
+		  - Guillotine Axe (Forceful Slash)
+		  - Serpentine Hatchet (Stomp)
+ 
+ - Greataxe	  - Demon's Great Axe (Warcry)
+		  - Dozer Axe (Stomp)
+		  - Golem Axe (Wind Rush)
+		  - Missionary Axe (Spin Slash), it is now a Paired Greataxes
+		  - Serpentine Battle Axe (Spin Slash), it is now a Greataxe instead of Axe
+
+ - Greatsword	  - Bastard Sword (Stomp)
+		  - Firelink Greatsword (Ember)
+		  - Flamberge (Stance)
+		  - Hallowed Greatsword (Charge)
+		  - Irithyll Greatsword (Stance)
+		  - Man Serpent Greatsword (Stomp)
+		  - Stone Greatsword (Tranquil Walk of Peace)
+		  - Sunlight Greatsword (Oath of Sunlight)
+
+ - Reaper	  - Great Corvian Scythe (Neck Swipe)
+
 
 # Magic
-- Scattering Soul Orb now has an unique icon.
-- Scattering Crystal Orb now has an unique icon.
-- Orbs of Judgment now has an unique icon.
-- Blizzard now has an unique icon.
-- Removed the Ascended mechanic.
-- Affinity/Wrathful Orbs/Homing Soulmass/Homing Crystall Soulmass now reduce absorption upon impact as their normal effect.
-- Changed the Throbbing infusion to -10% spell FP cost.
-- Increased the HP regen from the Vibrating infusion to 5.
-- Added a new infusion: Laughing. This converts the catalyst into a LCK catalyst and halves the amount of INT/FTH needed to cast spells (the UI doesn't reflect this however).
+- Changed the FX of Crystal Storm, should be a bit more toaster friendly now.
+- Changed the FX of Blizzard, its visual appearance matches more the theme of the spell.
+- Changed Quickened Soul Stream to use the Quick Soul Arrow cast animation (no more broken consecutive/rolling/running casts).
+- Changed Homing Farron Dart to Costless Farron Dart.
+- Changed Homing Soul Arrow to Explosive Soul Arrow.
+- Changed Homing Soul Spear to Explosive Soul Spear.
+- Added homing to 90 degrees to Soul Wave by default.
 
 # Ascension
-- Added Magician Quilon: he is a sorcery master and can ascend specific sorceries into new and improved forms. Found in Irithyll.
-- Added Helia of the Lake: she is a pyromancy master and can ascend specific pyromancies into new and improved forms. Found in Smouldering Lake.
-- Added Scribe Vadan: he is a miracle master and can ascend specific miracles into new and improved forms. Found in Cathedral of the Deep.
-- Added Sinner Argith: she is a hex master and can ascend specific hexes into new and improved forms. Found in the Profaned Capital.
-- Added the following ascensions:
- - Great Magic Shield -> Supreme Magic Shield
- - Farron Dart -> Homing Farron Dart
- - Soul Arrow -> Homing Soul Arrow
- - Soul Spear -> Homing Soul Spear
- - Crystal Soul Spear -> Homing Crystal Soul Spear
- - Soul Geyser -> Crystal Soul Geyser
- - Soul Stream -> Quickened Soul Stream
- - Crystal Magic Weapon -> Supreme Magic Weapon
+Added the following Ascended Spells:
+- Costless Blinding Light
+- Costless Cast Light
+- Costless Chameleon
+- Costless Farron Flashsword
+- Costless Hidden Weapon
+- Costless Shockwave
+- Extended White Dragon Breath
+- Focused Crystal Hail
+- Homing Farron Hail
+- Heavy Old Moonlight
+- Heavy Soul Greatsword
+- Lingering Pestilent Mist
+- Lingering Snap Freeze
+- Repeating Soul Orb
+- Repeating Crystal Orb
+- Swift Orbs of Judgment
+- Swift Soul Wave
+- Supreme Frozen Weapon
+- Surging Soulmass
+- Weakening Crystal Soulmass
+- Costless Fireball
+- Homing Fire Orb
 
-# NPCs
-- Boosted summoned NPC's base HP and gave them a damage/absorption boost when they drop below 50% HP.
+All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop at the time being. They unlock with sorcery scrolls and cost the same amount of souls as the normal spells, and also need 10 Crystal Fragments each.
 
-# Covenants
-- Thieves' Pact now drops various throwables (i.e. Firebombs, Throwing Knifes, etc).
+# Armor
+- Added Insignias/Emblems for the following set:
+ - Gallant Set
+ - Warden Set
+ - Dull Gold Set
+ - Fluted Set
+ - Huntsman Set
+ - Mirdan Set
+ - Sentinel Set
+ - Old Raggedy Set
+ - Charlatan Set
+ - Martyr Set
+ - Pickpocket Set
+ - Magician Set
+
+- Added physics to the following set:
+ - Dragonrider Set
+ - Vileblood Set
+ - Quicksilver Set
+
+# Shield
+- Several shields with innate effect will have an in-game icon to reflect the effect now.
+
+# Map
+- Removed the trigger box for the Abyss from the map.
+
+#Boss
+- Tweaked the start of the Twisted Knight fight.
 
 # Bugfixes
-- Dial of Obedience+5 will now work correctly.
-- Fixed Dismal Knight/Champion Gundyr setting the wrong flags when defeated, preveting them from being respawned. (Requires NG+ to fix in existing save).
-- Siegward demon kill should now be correctly registered by his scripts.
-- Fixed counter frames reducing Dark absorption.
-- Fixed Rosaria/McDonnell relationship dialogue.
-- Fixed Master Benjin's dialogue in m40.
-- Fixed Handmaid's Ladle infusion bug.
-- Fixed Heavenly Relief applying twice.
-- Fixed Slave Knight Gael's tome warp.
-- Stone of Draconic Fire/Stone of Draconic Might now scale with Luck correctly.
-- Tablet of Legends is no longer removed when you enter NG+.
-- Using Rosaria's menu no longer spins you around.
-- Andre should now give you Hawkwood's Swordgrass after praying at the Dragon Altar in Archdragon Peak.
-- Hawkwood should now give a Heavy Gem in the quest stage he used to give a Titanite Shard.
-- Fixed DebugAnimSpeed issue with Harald Knight
-- Fool's Sigil should now work correctly.
-
-#------------------------------
-# TODO
-#------------------------------
-Add Chaos Beam spell
-Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
-Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
-
-370502 Sorcery Scribe
-380501 Pyromancy Scribe
-350500 Miracle Scribe
-390500 Hex Scribe
-
+- Fixed the name/summary/description of spells.
+- Fixed Surging Soulmass doing more damage than intended.
+- Fixed the stat requirements of some spells when using the Laughing infusion.
+- Fixed several infusion entries using the incorrect AtkElementCorrectParam/Materials and some with incorrect scaling.
+- Fixed the drop chances of Lifegem from the Scimitar wielding skeleton in Catacombs of Carthus.
+- Fixed the drop chances of Veloxi Moss from the Lycanthrope Hunter.
+- Spellbound items carry limit should be only 1 now.
+- Frozen Pine Resin and Carthus Rouge effect are now similar to the aux effect gained from infusion.
+- Armor clipping should be fixed or are kept to minimum (mostly) now.
+- Black Flame (Catalyst) and Caitha Chime (wp_a_1324) should now work as intended.
+- Dark Flamberge and Curse Morion Blade should work as intended now.
+- Blessing of Rosaria should work as intended now.
+- Fixed the Greatsword class weapon One Handed R2, which the player is able to cancel into the second R2 upon pressing the R2 button again.
+- Fixed an oversight for Corrupted Talisman, which the Weapon Art spawn much lesser bullet when casted with Left Hand.
+- Fixed No FP Animation for a298 & a299 (Firestrom and Force Spell Tool), you are no longer able to move during the whole animation, animation were sped up to compensate.
+- Cannon Projectile now correctly line up with the barrel instead of firing from overhead.
+- Fixed Wanderer's Emblem incorrectly apply Lether Boots visual to the player when used.
