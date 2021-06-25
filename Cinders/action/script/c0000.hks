@@ -7490,7 +7490,7 @@ function AttackRightLight3_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 276 or sp_kind == 282 then
+    if sp_kind == 276 or sp_kind == 282 or sp_kind == 726 or sp_kind == 724 or sp_kind == 728 or sp_kind == 729 then
         r1 = "W_AttackRightBackstep"
     end
     
@@ -7524,7 +7524,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7568,7 +7568,7 @@ function AttackRightLightDash_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 then
+    if sp_kind == 281 or sp_kind == 724 or sp_kind == 729 or sp_kind == 726 then
         r1 = "W_AttackRightLight2"
     end
 	
@@ -7785,7 +7785,7 @@ function AttackRightBackstep_onUpdate()
     
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 282 then
+    if sp_kind == 282 or sp_kind == 724 or sp_kind == 726 or sp_kind == 728 or sp_kind == 729 then
         r1 = "W_AttackRightLight2"
     end
 	
