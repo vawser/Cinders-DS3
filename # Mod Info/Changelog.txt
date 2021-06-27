@@ -276,6 +276,7 @@ All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop a
 - Cannon Projectile now correctly line up with the barrel instead of firing from overhead.
 - Fixed Wanderer's Emblem incorrectly apply Lether Boots visual to the player when used.
 - Fixed Heave Earth not moving straight forward.
+- Prevented an exploit in the Memory of Skeletons which meant you could get millions of souls easily.
 
 
 #------------------------------
