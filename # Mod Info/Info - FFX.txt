@@ -73,6 +73,9 @@ dmy:
 856031 Black Cloud
 856032 Cyan Cloud
 
+856100 Great Cataclysm Fire Forming Orb
+856101 Great Cataclysm Projectile
+
 #------------------------
 # Reference
 #------------------------
