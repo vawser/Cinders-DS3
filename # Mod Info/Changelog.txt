@@ -167,15 +167,17 @@ Add the following armour:
 - Changed Homing Soul Arrow to Explosive Soul Arrow.
 - Changed Homing Soul Spear to Explosive Soul Spear.
 - Added homing to 90 degrees to Soul Wave by default.
+- Increased the damage of Acid Surge from 5 + 0.05% to 5 + 0.1%.
+- Added a new pyromancy: Chaos Beam, transposed from the Soul of the Demon Prince.
 
 # Ascension
-Added the following Ascended Spells:
-- Costless Blinding Light
-- Costless Cast Light
-- Costless Chameleon
-- Costless Farron Flashsword
-- Costless Hidden Weapon
-- Costless Shockwave
+Added the following Ascended Sorceries:
+- Refined Blinding Light
+- Refined Cast Light
+- Refined Chameleon
+- Refined Farron Flashsword
+- Refined Hidden Weapon
+- Refined Shockwave
 - Extended White Dragon Breath
 - Focused Crystal Hail
 - Homing Farron Hail
@@ -190,10 +192,41 @@ Added the following Ascended Spells:
 - Supreme Frozen Weapon
 - Surging Soulmass
 - Weakening Crystal Soulmass
-- Costless Fireball
-- Homing Fire Orb
 
-All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop at the time being. They unlock with sorcery scrolls and cost the same amount of souls as the normal spells, and also need 10 Crystal Fragments each.
+Added the following Ascended Pyromancies:
+- Incendiary Fireball
+- Weakening Fire Orb
+- Lingering Acid Surge
+- Lingering Carthus Beacon 
+- Supreme Carthus Flame Arc
+- Great Flash Sweat
+- Lingering Poison Mist
+- Lingering Power Within
+- Refined Profuse Sweat
+- Fortified Rapport
+- Refined Sacred Flame
+- Lingering Toxic Mist
+- Fond Warmth
+- Incendiary Bursting Fireball
+- Chaos Vortex
+- Refined Fire Surge
+- Incendiary Whip  
+- Refined Flame Fan
+- Lingering Floating Chaos
+- Homing Chaos Fire Orb
+- Incendiary Combustion
+- Lingering Immolation
+- Refined Lingering Chaos
+- Great Cataclysm
+- Distant Profaned Flame
+- Great Seething Chaos
+- Swift Boulder Heave
+- Summon Earthfall
+- Quickened Earthquake
+- Homing Heave Earth
+- Incinerating Chaos Beam
+
+All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop at the time being. They unlock with spell scrolls/tomes, cost the same amount of souls as the normal spells and also require 10 Crystal Fragments/Fire Seeds each.
 
 # Armor
 - Added Insignias/Emblems for the following set:
@@ -242,3 +275,17 @@ All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop a
 - Fixed No FP Animation for a298 & a299 (Firestrom and Force Spell Tool), you are no longer able to move during the whole animation, animation were sped up to compensate.
 - Cannon Projectile now correctly line up with the barrel instead of firing from overhead.
 - Fixed Wanderer's Emblem incorrectly apply Lether Boots visual to the player when used.
+- Fixed Heave Earth not moving straight forward.
+
+
+#------------------------------
+# TODO
+#------------------------------
+Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
+Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
+
+370502 Sorcery Scribe
+380501 Pyromancy Scribe
+350500 Miracle Scribe
+390500 Hex Scribe
+

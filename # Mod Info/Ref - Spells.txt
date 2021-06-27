@@ -8,7 +8,7 @@
 - INT Req: 10
 - Magic Damage: 80 {240}
 
-#---- Costless Farron Dart
+#---- Refined Farron Dart
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -18,7 +18,7 @@
 - INT Req: 10
 - Magic Damage: 100 {300}
 
-#---- Costless Farron Flashsword
+#---- Refined Farron Flashsword
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -212,7 +212,7 @@
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
 
 #---- Lingering Pestilent Mist
-- Increases duration to 8 seconds.
+- Extends duration to 8 seconds.
 
 #--------------------------------
 # Snap Freeze
@@ -231,7 +231,7 @@
 - INT Req: 20
 - Base Effect: knocks enemies back.
 
-#---- Costless Blinding Light
+#---- Refined Blinding Light
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -241,7 +241,7 @@
 - INT Req: 20
 - Base Effect: Knocks down enemies.
 
-#---- Costless Shockwave
+#---- Refined Shockwave
 - FP consumption reduced to 0.
 
 #--------------------------------------------------------------------------
@@ -307,7 +307,7 @@
 - INT Req: 20
 - Base Effect: hides main weapon for 120 seconds.
 
-#---- Costless Hidden Weapon
+#---- Refined Hidden Weapon
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -324,7 +324,7 @@
 - INT Req: 10
 - Base Effect: summons a light source that follows you for 120 seconds.
 
-#---- Costless Cast Light
+#---- Refined Cast Light
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -348,7 +348,7 @@
 - INT Req: 20
 - Base Effect: transforms player into object from level.
 
-#---- Costless Chameleon
+#---- Refined Chameleon
 - FP consumption reduced to 0.
 
 #--------------------------------
@@ -381,7 +381,9 @@
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 100 {300}
-- Ascended Effect: increases poise damage to 20.
+
+#---- Refined Flame Fan
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Fireball
@@ -389,8 +391,8 @@
 - FP Cost: 20
 - Fire Damage: 100 {300} [50 {150}]
 
-#---- Costless Fireball
-- FP consumption reduced to 0.
+#---- Incendiary Fireball
+- Deals 10 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
 # Fire Orb
@@ -398,8 +400,8 @@
 - FP Cost: 30
 - Fire Damage: 160 {480} [50 {150}]
 
-#---- Homing Fire Orb
-- Increases homing to 40 degrees.
+#---- Weakening Fire Orb
+- Impact reduces the Fire absorption of the target by 10% for 10 seconds.
 
 #--------------------------------
 # Firestorm
@@ -413,14 +415,18 @@
 #--------------------------------
 - FP Cost: 5
 - Fire Damage: 40 {120}
-- Ascended Effect: reduces hit cooldown to 0.3 seconds.
+
+#---- Refined Fire Surge
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 150 {450} [50 {150}]
-- Ascended Effect: increases poise damage to 50.
+
+#---- Incendiary Combustion
+- Slightly increases the burst range and deals 10 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
 # Great Chaos Fire Orb
@@ -428,7 +434,9 @@
 - FP Cost: 40
 - Slot Use: 2
 - Fire Damage: 240 {720} [100 {300}] [100 {300}] 
-- Ascended Effect: reduces lava hit cooldown to 0.5 seconds.
+
+#---- Homing Chaos Fire Orb
+- Increases homing to 40 degrees.
 
 #--------------------------------
 # Chaos Storm
@@ -443,14 +451,18 @@
 #--------------------------------
 - FP Cost: 4
 - Fire Damage: 30 {90} {*20, individual}
-- Ascended Effect: reduces hit cooldown to 0.05 seconds.
+
+#---- Incendiary Fire Whip
+- Deals 1 damage per hit every second for 10 seconds. Stacks.
 
 #--------------------------------
 # Profaned Flame
 #--------------------------------
 - FP Cost: 35
 - Fire Damage: 220 {660}
-- Ascended Effect: emits a secondary flame.
+
+#---- Distant Profaned Flame
+- The cast can now reach unlimited range.
 
 #--------------------------------
 # Chaos Bed Vestiges
@@ -458,7 +470,9 @@
 - FP Cost: 50
 - Slot Use: 2
 - Fire Damage: 300 {900} [100 {300}] [100 {300}]
-- Ascended Effect: increases projectile speed to 38 m/s.
+
+#---- Chaos Vortex
+- Changes the cast animation to profaned flame and the orb becomes stationary for 5 seconds, adding damage per second. Fire damage 50 {150}.
 
 #--------------------------------
 # Cataclysm
@@ -466,7 +480,9 @@
 - FP Cost: 50
 - Slot Use: 2
 - Fire Damage: 100 {300} {*10, shared}
-- Ascended Effect: increases emitted projectile rate to 4 per second.
+
+#---- Great Cataclysm
+- Releases a single giant fire orb. Fire damage: orb 400 {1200} [300 {900}].
 
 #--------------------------------
 # Floating Chaos
@@ -474,14 +490,18 @@
 - FP Cost: 30
 - Slot Use: 2
 - Fire Damage: 25 {75} {*25, individual}
-- Ascended Effect: increases emitted projectile rate to 10 per second.
+
+#---- Lingering Floating Chaos
+- Shoots lingering chaos, forming a barrier shape in the front.
 
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
 - FP Cost: 10
 - Fire Damage: 50 {150} {*12, individual)
-- Ascended Effect: emits an additional fireball.
+
+#---- Incendiary Bursting Fireball
+- Deals 10 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
 # Boulder Heave
@@ -489,21 +509,27 @@
 - FP Cost: 30
 - Slot Use: 2
 - Physical Damage: 200 {600} [100 {300}]
-- Ascended Effect: increases projectile speed to 16 m/s.
+
+#---- Swift Boulder Heave
+- Increases projectile speed to 16 m/s.
 
 #--------------------------------
 # Sacred Flame
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: based on spell tool.
-- Ascended Effect: None
+
+#---- Refined Sacred Flame
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Seething Chaos
 #--------------------------------
 - FP Cost: 25
 - Fire Damage: 150 {450} [300 {900}] 
-- Ascended Effect: increases poise damage to 100.
+
+#---- Great Seething Chaos
+- Increases Poise Damage to 100 and the explosion range.
 
 #--------------------------------
 # Heave Earth
@@ -511,7 +537,9 @@
 - FP Cost: 25
 - Slot Use: 1
 - Physical Damage: 200 {600}
-- Ascended Effect: emits two additional lines.
+
+#---- Homing Heave Earth
+- Increases homing (similar to Black Serpent).
 
 #--------------------------------
 # Earthquake
@@ -519,14 +547,18 @@
 - FP Cost: 5 (10)
 - Slot Use: 2
 - Physical Damage: 180 {520} {*5, individual}
-- Ascended Effect: increases emitter radius to 25 metres.
+
+#---- Quickened Earthquake
+- Changes cast animation to Force.
 
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
 - FP Cost: 15
 - Fire Damage: 100 {300}
-- Ascended Effect: increases duration to 30 seconds.
+
+#---- Refined Lingering Chaos
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Earthfall
@@ -534,36 +566,46 @@
 - FP Cost: 50
 - Slot Use: 2
 - Physical Damage: 100 {300} {*10, shared}
-- Ascended Effect: increases emitted projectile rate to 4 per second.
+
+#---- Summon Earthfall
+- Changes cast animation to Fire Surge and releases 4 boulders every half second.
 
 #--------------------------------
 # Poison Mist
 #--------------------------------
 - FP Cost: 20
 - Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
-- Ascended Effect: increases duration to 12 seconds.
+
+#---- Lingering Poison Mist
+- Extends duration to 12 seconds.
 
 #--------------------------------
 # Toxic Mist
 #--------------------------------
 - FP Cost: 25
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
-- Ascended Effect: increases duration to 12 seconds.
+
+#---- Lingering Toxic Mist
+- Extends duration to 12 seconds.
 
 #--------------------------------
 # Acid Surge
 #--------------------------------
 - FP Cost: 30
-- Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.05% HP per tick. Lasts for 6 seconds.
-- Ascended Effect: increases duration to 12 seconds.
+- Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.1% HP per tick. Lasts for 6 seconds.
+
+#---- Lingering Acid Surge
+- Extends duration to 12 seconds.
 
 #--------------------------------
 # Immolation
 #--------------------------------
 - FP Cost: 30
 - Fire Damage: 50 per tick
-- Base Effect: consumes 5% of player's HP, causes a fire trail to appear in their wake for 8 seconds, dealing Fire damage to any enemy that touches it.
-- Ascended Effect: increases duration to 12 seconds.
+- Base Effect: consumes 25% of player's HP, causes a fire trail to appear in their wake for 15 seconds, dealing Fire damage to any enemy that touches it.
+
+#---- Lingering Immolation
+- Extends duration to 30 seconds.
 
 #--------------------------------
 # Fecal Explusion
@@ -574,6 +616,17 @@
 - Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
 - Ascended Effect: emit an additional four projectiles.
 
+#--------------------------------
+# Chaos Beam
+#--------------------------------
+- FP Cost: 40
+- Slot Use: 2
+- Fire Damage: 40 {120} per tick
+- Base Effect: shoots chaos beam.
+
+#---- Incinerating Chaos Beam
+- Deals 5 damage per hit every second for 10 seconds. Stacks.
+
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
 #--------------------------------------------------------------------------
@@ -582,7 +635,9 @@
 #--------------------------------
 - FP Cost: 40
 - Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
-- Ascended Effect: increases duration to 60 seconds.
+
+#---- Lingering Carthus Beacon
+- Extends duration to 60 seconds.
 
 #--------------------------------
 # Warmth
@@ -597,7 +652,9 @@
 #--------------------------------
 - FP Cost: 25
 - Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
-- Ascended Effect: increases resistance boost to 400.
+
+#---- Refined Profuse Sweat
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Iron Flesh
@@ -612,7 +669,9 @@
 #--------------------------------
 - FP Cost: 30
 - Base Effect: Increases Fire absorption by 30% for 30 seconds.
-- Ascended Effect: increases Fire absorption boost to 50%.
+
+#---- Great Flash Sweat
+- Increases Fire absorption by 50% for 30 seconds.
 
 #--------------------------------
 # Carthus Flame Arc
@@ -620,7 +679,9 @@
 - FP Cost: 50
 - Slot Use: 3
 - Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
-- Ascended Effect: boosts stamina damage by 100%.
+
+#---- Supreme Carthus Flame Arc
+- Effect: Adds 100 Fire damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Rapport
@@ -628,7 +689,9 @@
 - FP Cost: 100
 - Slot Use: 2
 - Base Effect: converts target enemy to player team for 30 seconds.
-- Ascended Effect: increases duration to 60 seconds and boosts allied enemy damage by 20%.
+
+#---- Fortified Rapport
+- Increases duration to 60 seconds and boosts allied enemy absorptions by 50%.
 
 #--------------------------------
 # Power Within
@@ -636,7 +699,9 @@
 - FP Cost: 50
 - Slot Use: 2
 - Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
-- Ascended Effect: reduces the HP loss to 0.5% HP per second.
+
+#---- Lingering Power Within
+- Extends duration to 60 seconds.
 
 #--------------------------------
 # Rockflesh
