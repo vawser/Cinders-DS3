@@ -217,29 +217,89 @@ def t370502_x20():
     while True:
         ClearTalkListData()
 
-        # Supreme Magic Shield
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 1, 99041000, -1)
+        # Refined Farron Dart
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1200000, 4, 1, 0) == 1, 1, 99041000, -1)
         
-        # Homing Farron Dart
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1200000, 4, 1, 0) == 1, 2, 99041001, -1)
+        # Swift Soul Wave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1802000, 4, 1, 0) == 1, 2, 99041001, -1)
         
-        # Homing Soul Arrow
+        # Explosive Soul Arrow
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1300000, 4, 1, 0) == 1, 3, 99041002, -1)
         
-        # Homing Soul Spear
+        # Explosive Soul Spear
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1306000, 4, 1, 0) == 1, 4, 99041003, -1)
         
         # Homing Crystal Soul Spear
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1307000, 4, 1, 0) == 1, 5, 99041004, -1)
         
-        # Crystal Soul Geyser
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1303000, 4, 1, 0) == 1, 6, 99041005, -1)
+        # Extended White Dragon Breath
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1370000, 4, 1, 0) == 1, 6, 99041005, -1)
+        
+        # Refined Farron Flashsword
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1375000, 4, 1, 0) == 1, 7, 99041006, -1)
+        
+        # Heavy Soul Greatsword
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1374000, 4, 1, 0) == 1, 8, 99041007, -1)
+        
+        # Heavy Old Moonlight
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1376000, 4, 1, 0) == 1, 9, 99041008, -1)
+        
+        # Surging Soulmass
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1304000, 4, 1, 0) == 1, 10, 99041009, -1)
+        
+        # Weakening Crystal Soulmass
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1305000, 4, 1, 0) == 1, 11, 99041010, -1)
+        
+        # Repeating Soul Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1210000, 4, 1, 0) == 1, 12, 99041011, -1)
+        
+        # Repeating Crystal Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1301000, 4, 1, 0) == 1, 13, 99041012, -1)
+        
+        # Homing Farron Hail
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1372000, 4, 1, 0) == 1, 14, 99041013, -1)
+        
+        # Focused Crystal Hail
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1373000, 4, 1, 0) == 1, 15, 99041014, -1)
+        
+        # Swift Orbs of Judgment
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1805000, 4, 1, 0) == 1, 16, 99041015, -1)
         
         # Quickened Soul Stream
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1620000, 4, 1, 0) == 1, 7, 99041006, -1)
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1620000, 4, 1, 0) == 1, 19, 99041018, -1)
+        
+        # Crystal Soul Geyser
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1303000, 4, 1, 0) == 1, 20, 99041019, -1)
+        
+        # Lingering Pestilent Mist
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1740000, 4, 1, 0) == 1, 21, 99041020, -1)
+        
+        # Lingering Snap Freeze
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1741000, 4, 1, 0) == 1, 22, 99041021, -1)
+        
+        # Refined Shockwave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1302000, 4, 1, 0) == 1, 23, 99041022, -1)
+        
+        # Refined Blinding Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1807000, 4, 1, 0) == 1, 24, 99041023, -1)
         
         # Supreme Magic Weapon
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1312000, 4, 1, 0) == 1, 8, 99041007, -1)
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1312000, 4, 1, 0) == 1, 30, 99041029, -1)
+        
+        # Supreme Frozen Weapon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1313000, 4, 1, 0) == 1, 31, 99041030, -1)
+        
+        # Refined Hidden Weapon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1340000, 4, 1, 0) == 1, 32, 99041031, -1)
+        
+        # Supreme Magic Shield
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 34, 99041033, -1)
+        
+        # Refined Chameleon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1355000, 4, 1, 0) == 1, 38, 99041037, -1)
+        
+        # Refined Cast Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1350000, 4, 1, 0) == 1, 39, 99041038, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -247,37 +307,117 @@ def t370502_x20():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Supreme Magic Shield
+        # Refined Farron Dart
         if GetTalkListEntryResult() == 1:
-            assert t370502_x50(80000, 1070, 14, -15, 99042000, 99043000, 99040011)
+            assert t370502_x50(80000, 1070, 9, -10, 99042000, 99043000, 99040010)
             continue
-        # Homing Farron Dart
+        # Swift Soul Wave
         elif GetTalkListEntryResult() == 2:
             assert t370502_x50(80010, 1070, 9, -10, 99042001, 99043001, 99040010)
             continue
-        # Homing Soul Arrow
+        # Explosive Soul Arrow
         elif GetTalkListEntryResult() == 3:
             assert t370502_x50(80020, 1070, 9, -10, 99042002, 99043002, 99040010)
             continue
-        # Homing Soul Spear
+        # Explosive Soul Spear
         elif GetTalkListEntryResult() == 4:
-            assert t370502_x50(80030, 1070, 9, -10, 99042003, 99043003, 99040010)
+            assert t370502_x50(80030, 1070, 14, -15, 99042003, 99043003, 99040011)
             continue
         # Homing Crystal Soul Spear
         elif GetTalkListEntryResult() == 5:
             assert t370502_x50(80040, 1070, 14, -15, 99042004, 99043004, 99040011)
             continue
-        # Crystal Soul Geyser
+        # Extended White Dragon Breath
         elif GetTalkListEntryResult() == 6:
-            assert t370502_x50(80050, 1070, 19, -20, 99042005, 99043005, 99040012)
+            assert t370502_x50(80050, 1070, 14, -15, 99042005, 99043005, 99040011)
             continue
-        # Quickened Soul Stream
+        # Refined Farron Flashsword
         elif GetTalkListEntryResult() == 7:
-            assert t370502_x50(80060, 1070, 19, -20, 99042006, 99043006, 99040012)
+            assert t370502_x50(80060, 1070, 9, -10, 99042006, 99043006, 99040010)
             continue
-        # Supreme Magic Weapon
+        # Heavy Soul Greatsword
         elif GetTalkListEntryResult() == 8:
             assert t370502_x50(80070, 1070, 14, -15, 99042007, 99043007, 99040011)
+            continue
+        # Heavy Old Moonlight
+        elif GetTalkListEntryResult() == 9:
+            assert t370502_x50(80080, 1070, 14, -15, 99042008, 99043008, 99040011)
+            continue
+        # Surging Soulmass
+        elif GetTalkListEntryResult() == 10:
+            assert t370502_x50(80090, 1070, 19, -20, 99042009, 99043009, 99040012)
+            continue
+        # Weakening Crystal Soulmass
+        elif GetTalkListEntryResult() == 11:
+            assert t370502_x50(80100, 1070, 19, -20, 99042010, 99043010, 99040012)
+            continue
+        # Repeating Soul Orb
+        elif GetTalkListEntryResult() == 12:
+            assert t370502_x50(80110, 1070, 9, -10, 99042011, 99043011, 99040010)
+            continue
+        # Repeating Crystal Orb
+        elif GetTalkListEntryResult() == 13:
+            assert t370502_x50(80120, 1070, 14, -15, 99042012, 99043012, 99040011)
+            continue
+        # Homing Farron Hail
+        elif GetTalkListEntryResult() == 14:
+            assert t370502_x50(80130, 1070, 9, -10, 99042013, 99043013, 99040010)
+            continue
+        # Focused Crystal Hail
+        elif GetTalkListEntryResult() == 15:
+            assert t370502_x50(80140, 1070, 14, -15, 99042014, 99043014, 99040011)
+            continue
+        # Swift Orbs of Judgment
+        elif GetTalkListEntryResult() == 16:
+            assert t370502_x50(80150, 1070, 14, -15, 99042015, 99043015, 99040011)
+            continue
+        # Quickened Soul Stream
+        elif GetTalkListEntryResult() == 19:
+            assert t370502_x50(80180, 1070, 19, -20, 99042018, 99043018, 99040012)
+            continue
+        # Crystal Soul Geyser
+        elif GetTalkListEntryResult() == 20:
+            assert t370502_x50(80190, 1070, 19, -20, 99042019, 99043019, 99040012)
+            continue
+        # Lingering Pestilent Mist
+        elif GetTalkListEntryResult() == 21:
+            assert t370502_x50(80200, 1070, 14, -15, 99042020, 99043020, 99040011)
+            continue
+        # Lingering Snap Freeze
+        elif GetTalkListEntryResult() == 22:
+            assert t370502_x50(80210, 1070, 9, -10, 99042021, 99043021, 99040010)
+            continue
+        # Refined Shockwave
+        elif GetTalkListEntryResult() == 23:
+            assert t370502_x50(80220, 1070, 9, -10, 99042022, 99043022, 99040010)
+            continue
+        # Refined Blinding Light
+        elif GetTalkListEntryResult() == 24:
+            assert t370502_x50(80230, 1070, 9, -10, 99042023, 99043023, 99040010)
+            continue
+        # Supreme Magic Weapon
+        elif GetTalkListEntryResult() == 30:
+            assert t370502_x50(80290, 1070, 14, -15, 99042029, 99043029, 99040011)
+            continue
+        # Supreme Frozen Weapon
+        elif GetTalkListEntryResult() == 31:
+            assert t370502_x50(80300, 1070, 9, -10, 99042030, 99043030, 99040010)
+            continue
+        # Refined Hidden Weapon
+        elif GetTalkListEntryResult() == 32:
+            assert t370502_x50(80310, 1070, 9, -10, 99042031, 99043031, 99040010)
+            continue
+        # Supreme Magic Shield
+        elif GetTalkListEntryResult() == 34:
+            assert t370502_x50(80330, 1070, 14, -15, 99042033, 99043033, 99040011)
+            continue
+        # Refined Chameleon
+        elif GetTalkListEntryResult() == 38:
+            assert t370502_x50(80370, 1070, 9, -10, 99042037, 99043037, 99040010)
+            continue
+        # Refined Cast Light
+        elif GetTalkListEntryResult() == 39:
+            assert t370502_x50(80380, 1070, 9, -10, 99042038, 99043038, 99040010)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
