@@ -217,8 +217,98 @@ def t380501_x20():
     while True:
         ClearTalkListData()
 
-        # Supreme Magic Shield
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 1, 99041000, -1)
+        # Incendiary Fireball
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2400000, 4, 1, 0) == 1, 1, 99044000, -1)
+        
+        # Weakening Fire Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2402000, 4, 1, 0) == 1, 2, 99044001, -1)
+        
+        # Homing Chaos Fire Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2450000, 4, 1, 0) == 1, 3, 99044002, -1)
+        
+        # Incendiary Bursting Fireball
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2620000, 4, 1, 0) == 1, 4, 99044003, -1)
+        
+        # Distant Profaned Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2455000, 4, 1, 0) == 1, 5, 99044004, -1)
+        
+        # Chaos Vortex
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2456000, 4, 1, 0) == 1, 6, 99044005, -1)
+        
+        # Great Seething Chaos
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2660000, 4, 1, 0) == 1, 7, 99044006, -1)
+        
+        # Refined Flame Fan
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2458000, 4, 1, 0) == 1, 8, 99044007, -1)
+        
+        # Incendiary Combustion
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2411000, 4, 1, 0) == 1, 9, 99044008, -1)
+        
+        # Refined Fire Surge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2405000, 4, 1, 0) == 1, 10, 99044009, -1)
+        
+        # Incendiary Fire Whip
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2452000, 4, 1, 0) == 1, 11, 99044010, -1)
+        
+        # Refined Sacred Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2640000, 4, 1, 0) == 1, 12, 99044011, -1)
+        
+        # Refined Lingering Chaos
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2701000, 4, 1, 0) == 1, 15, 99044014, -1)
+        
+        # Lingering Floating Chaos
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2457000, 4, 1, 0) == 1, 16, 99044015, -1)
+        
+        # Incinerating Chaos Beam
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2721000, 4, 1, 0) == 1, 17, 99044016, -1)
+        
+        # Great Cataclysm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2702000, 4, 1, 0) == 1, 18, 99044017, -1)
+        
+        # Swift Boulder Heave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2630000, 4, 1, 0) == 1, 19, 99044018, -1)
+        
+        # Homing Heave Earth
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2711000, 4, 1, 0) == 1, 21, 99044020, -1)
+        
+        # Quickened Earthquake
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2712000, 4, 1, 0) == 1, 22, 99044021, -1)
+        
+        # Summon Earthfall
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2710000, 4, 1, 0) == 1, 23, 99044022, -1)
+        
+        # Lingering Acid Surge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2422000, 4, 1, 0) == 1, 24, 99044023, -1)
+        
+        # Lingering Poison Mist
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2420000, 4, 1, 0) == 1, 25, 99044024, -1)
+        
+        # Lingering Toxic Mist
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2421000, 4, 1, 0) == 1, 26, 99044025, -1)
+        
+        # Lingering Immolation
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2714000, 4, 1, 0) == 1, 27, 99044026, -1)
+        
+        # Fortified Rapport
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2436000, 4, 1, 0) == 1, 28, 99044027, -1)
+        
+        # Fond Warmth
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2470000, 4, 1, 0) == 1, 29, 99044028, -1)
+        
+        # Supreme Carthus Flame Arc
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2435000, 4, 1, 0) == 1, 30, 99044029, -1)
+        
+        # Lingering Carthus Beacon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2650000, 4, 1, 0) == 1, 31, 99044030, -1)
+        
+        # Lingering Power Within
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2440000, 4, 1, 0) == 1, 32, 99044031, -1)
+        
+        # Great Flash Sweat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2431000, 4, 1, 0) == 1, 33, 99044032, -1)
+        
+        # Refined Profuse Sweat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2562000, 4, 1, 0) == 1, 34, 99044033, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -226,9 +316,129 @@ def t380501_x20():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Supreme Magic Shield
+        # Incendiary Fireball
         if GetTalkListEntryResult() == 1:
-            assert t380501_x50(80000, 1060, 9, -10, 99042000, 99043000, 99040013)
+            assert t380501_x50(81000, 1060, 9, -10, 99045000, 99046000, 99040040)
+            continue
+        # Weakening Fire Orb
+        elif GetTalkListEntryResult() == 2:
+            assert t380501_x50(81010, 1060, 9, -10, 99045001, 99046001, 99040040)
+            continue
+        # Homing Chaos Fire Orb
+        elif GetTalkListEntryResult() == 3:
+            assert t380501_x50(81020, 1060, 14, -15, 99045002, 99046002, 99040041)
+            continue
+        # Incendiary Bursting Fireball
+        elif GetTalkListEntryResult() == 4:
+            assert t380501_x50(81030, 1060, 9, -10, 99045003, 99046003, 99040040)
+            continue
+        # Distant Profaned Flame
+        elif GetTalkListEntryResult() == 5:
+            assert t380501_x50(81040, 1060, 14, -15, 99045004, 99046004, 99040041)
+            continue
+        # Chaos Vortex
+        elif GetTalkListEntryResult() == 6:
+            assert t380501_x50(81050, 1060, 14, -15, 99045005, 99046005, 99040041)
+            continue
+        # Great Seething Chaos
+        elif GetTalkListEntryResult() == 7:
+            assert t380501_x50(81060, 1060, 19, -20, 99045006, 99046006, 99040043)
+            continue
+        # Refined Flame Fan
+        elif GetTalkListEntryResult() == 8:
+            assert t380501_x50(81070, 1060, 9, -10, 99045007, 99046007, 99040040)
+            continue
+        # Incendiary Combustion
+        elif GetTalkListEntryResult() == 9:
+            assert t380501_x50(81080, 1060, 14, -15, 99045008, 99046008, 99040041)
+            continue
+        # Refined Fire Surge
+        elif GetTalkListEntryResult() == 10:
+            assert t380501_x50(81090, 1060, 9, -10, 99045009, 99046009, 99040040)
+            continue
+        # Incendiary Fire Whip
+        elif GetTalkListEntryResult() == 11:
+            assert t380501_x50(81100, 1060, 14, -15, 99045010, 99046010, 99040041)
+            continue
+        # Refined Sacred Flame
+        elif GetTalkListEntryResult() == 12:
+            assert t380501_x50(81110, 1060, 9, -10, 99045011, 99046011, 99040040)
+            continue
+        # Refined Lingering Chaos
+        elif GetTalkListEntryResult() == 15:
+            assert t380501_x50(81140, 1060, 9, -10, 99045014, 99046014, 99040040)
+            continue
+        # Lingering Floating Chaos
+        elif GetTalkListEntryResult() == 16:
+            assert t380501_x50(81150, 1060, 14, -15, 99045015, 99046015, 99040041)
+            continue
+        # Incinerating Chaos Beam
+        elif GetTalkListEntryResult() == 17:
+            assert t380501_x50(81160, 1060, 14, -15, 99045016, 99046016, 99040041)
+            continue
+        # Great Cataclysm
+        elif GetTalkListEntryResult() == 18:
+            assert t380501_x50(81170, 1060, 19, -20, 99045017, 99046017, 99040043)
+            continue
+        # Swift Boulder Heave
+        elif GetTalkListEntryResult() == 19:
+            assert t380501_x50(81180, 1060, 9, -10, 99045018, 99046018, 99040040)
+            continue
+        # Homing Heave Earth
+        elif GetTalkListEntryResult() == 21:
+            assert t380501_x50(81200, 1060, 14, -15, 99045020, 99046020, 99040041)
+            continue
+        # Quickened Earthquake
+        elif GetTalkListEntryResult() == 22:
+            assert t380501_x50(81210, 1060, 14, -15, 99045021, 99046021, 99040041)
+            continue
+        # Summon Earthfall
+        elif GetTalkListEntryResult() == 23:
+            assert t380501_x50(81220, 1060, 19, -20, 99045022, 99046022, 99040043)
+            continue
+        # Lingering Acid Surge
+        elif GetTalkListEntryResult() == 24:
+            assert t380501_x50(81230, 1060, 9, -10, 99045023, 99046023, 99040040)
+            continue
+        # Lingering Poison Mist
+        elif GetTalkListEntryResult() == 25:
+            assert t380501_x50(81240, 1060, 14, -15, 99045024, 99046024, 99040041)
+            continue
+        # Lingering Toxic Mist
+        elif GetTalkListEntryResult() == 26:
+            assert t380501_x50(81250, 1060, 14, -15, 99045025, 99046025, 99040041)
+            continue
+        # Lingering Immolation
+        elif GetTalkListEntryResult() == 27:
+            assert t380501_x50(81260, 1060, 9, -10, 99045026, 99046026, 99040040)
+            continue
+        # Fortified Rapport
+        elif GetTalkListEntryResult() == 28:
+            assert t380501_x50(81270, 1060, 14, -15, 99045027, 99046027, 99040041)
+            continue
+        # Fond Warmth
+        elif GetTalkListEntryResult() == 29:
+            assert t380501_x50(81280, 1060, 14, -15, 99045028, 99046028, 99040041)
+            continue
+        # Supreme Carthus Flame Arc
+        elif GetTalkListEntryResult() == 30:
+            assert t380501_x50(81290, 1060, 14, -15, 99045029, 99046029, 99040041)
+            continue
+        # Lingering Carthus Beacon
+        elif GetTalkListEntryResult() == 31:
+            assert t380501_x50(81300, 1060, 14, -15, 99045030, 99046030, 99040041)
+            continue
+        # Lingering Power Within
+        elif GetTalkListEntryResult() == 32:
+            assert t380501_x50(81310, 1060, 14, -15, 99045031, 99046031, 99040041)
+            continue
+        # Great Flash Sweat
+        elif GetTalkListEntryResult() == 33:
+            assert t380501_x50(81320, 1060, 9, -10, 99045032, 99046032, 99040040)
+            continue
+        # Refined Profuse Sweat
+        elif GetTalkListEntryResult() == 34:
+            assert t380501_x50(81330, 1060, 9, -10, 99045033, 99046033, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

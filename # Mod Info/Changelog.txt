@@ -160,6 +160,7 @@ Add the following armour:
 
 
 # Magic
+- Sorted all spells. Each ascended spell should be right after their normal version now.
 - Changed the FX of Crystal Storm, should be a bit more toaster friendly now.
 - Changed the FX of Blizzard, its visual appearance matches more the theme of the spell.
 - Changed Quickened Soul Stream to use the Quick Soul Arrow cast animation (no more broken consecutive/rolling/running casts).
@@ -169,8 +170,13 @@ Add the following armour:
 - Added homing to 90 degrees to Soul Wave by default.
 - Increased the damage of Acid Surge from 5 + 0.05% to 5 + 0.1%.
 - Added a new pyromancy: Chaos Beam, transposed from the Soul of the Demon Prince.
+- Reduced the poise damage of Homing Soulmass, Surging Soulmass, Homing Crystal Soulmass, Weakening Crystal Soulmass, Wrathful Orbs and Affinity.
 
 # Ascension
+Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
+The price to ascend a spell is 10, 15 or 20 Crystal Fragments/Fire Seeds/Holy Fragments/Abyssal Fragments depending on the spell. 
+The normal version of the spell is not consumed upon ascension.
+
 Added the following Ascended Sorceries:
 - Refined Blinding Light
 - Refined Cast Light
@@ -225,8 +231,6 @@ Added the following Ascended Pyromancies:
 - Quickened Earthquake
 - Homing Heave Earth
 - Incinerating Chaos Beam
-
-All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop at the time being. They unlock with spell scrolls/tomes, cost the same amount of souls as the normal spells and also require 10 Crystal Fragments/Fire Seeds each.
 
 # Armor
 - Added Insignias/Emblems for the following set:
@@ -285,7 +289,6 @@ All of the new ascended spells can be found at Orbeck's/Corynx's covenant shop a
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
-370502 Sorcery Scribe
 380501 Pyromancy Scribe
 350500 Miracle Scribe
 390500 Hex Scribe

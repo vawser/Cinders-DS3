@@ -81,7 +81,7 @@
 - Magic Damage: 50 {150} {*5, individual}
 
 #---- Surging Soulmass
-- Changes cast animation to Fire Surge and releases 5 bullets every half second.
+- Changes cast animation to Fire Surge and releases 5 bullets every half second, dealing 40 {120} Magic damage per bullet.
 
 #--------------------------------
 # Homing Crystal Soulmass
@@ -371,7 +371,7 @@
 - FP Cost: 50
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces absorption by 100%.
+- Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces max HP by 50%.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive
@@ -408,7 +408,6 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - Fire Damage: 180 {520} {*5, shared}
-- Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Surge
@@ -444,7 +443,6 @@
 - FP Cost: 10 (10)
 - Slot Use: 2
 - Fire Damage: 200 {600} [100 {300}] {*5, shared} 
-- Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Fire Whip
@@ -610,11 +608,10 @@
 #--------------------------------
 # Fecal Explusion
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 15
 - Slot Use: 1
 - Physical Damage: 20 {60}
-- Base Effect: expel 8 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
-- Ascended Effect: emit an additional four projectiles.
+- Base Effect: expel 5 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
 
 #--------------------------------
 # Chaos Beam
@@ -645,7 +642,9 @@
 - FP Cost: 100
 - Slot Use: 2
 - Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
-- Ascended Effect: will now only affect the caster and allies.
+
+#---- Fond Warmth
+- Will now only affect the caster and allies.
 
 #--------------------------------
 # Profuse Sweat
@@ -662,7 +661,6 @@
 - FP Cost: 30
 - Slot Use: 2
 - Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
-- Ascended Effect: increases duration to 30 seconds.
 
 #--------------------------------
 # Flash Sweat
@@ -709,7 +707,6 @@
 - FP Cost: 50
 - Slot Use: 2
 - Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 30 seconds.
-- Ascended Effect: increases duration to 60 seconds.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
