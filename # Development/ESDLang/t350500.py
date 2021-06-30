@@ -217,8 +217,110 @@ def t350500_x20():
     while True:
         ClearTalkListData()
 
-        # Supreme Magic Shield
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 1, 99041000, -1)
+        # Refined Lightning Arrow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3509000, 4, 1, 0) == 1, 1, 99047000, -1)
+        
+        # Lightning Surge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3550000, 4, 1, 0) == 1, 2, 99047001, -1)
+        
+        # Storm Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3551000, 4, 1, 0) == 1, 3, 99047002, -1)
+        
+        # Homing Sunlight Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3552000, 4, 1, 0) == 1, 4, 99047003, -1)
+        
+        # Weakening Wrathful Orbs
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3819000, 4, 1, 0) == 1, 5, 99047004, -1)
+        
+        # Wrathful Wave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3821000, 4, 1, 0) == 1, 6, 99047005, -1)
+        
+        # Sunlight Stake
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3710000, 4, 1, 0) == 1, 8, 99047007, -1)
+        
+        # Sunlight Storm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3553000, 4, 1, 0) == 1, 9, 99047008, -1)
+        
+        # Lingering Overwhelming Power
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3818000, 4, 1, 0) == 1, 11, 99047010, -1)
+        
+        # Refined Way of White Corona
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3556000, 4, 1, 0) == 1, 12, 99047011, -1)
+        
+        # Quickened Halo
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3803000, 4, 1, 0) == 1, 13, 99047012, -1)
+        
+        # Refined Divine Arrow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3813000, 4, 1, 0) == 1, 14, 99047013, -1)
+        
+        # Homing Lothric's Holy Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3814000, 4, 1, 0) == 1, 15, 99047014, -1)
+        
+        # Refined Force
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3530000, 4, 1, 0) == 1, 16, 99047015, -1)
+        
+        # Quickened Wrath of the Gods
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3531000, 4, 1, 0) == 1, 17, 99047016, -1)
+        
+        # Emit Wrath
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3532000, 4, 1, 0) == 1, 18, 99047017, -1)
+        
+        # Angelic Punishment
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3812000, 4, 1, 0) == 1, 20, 99047019, -1)
+        
+        # Extended Heal Aid
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3490000, 4, 1, 0) == 1, 23, 99047022, -1)
+        
+        # Extended Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3500000, 4, 1, 0) == 1, 24, 99047023, -1)
+        
+        # Extended Med Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3501000, 4, 1, 0) == 1, 25, 99047024, -1)
+        
+        # Extended Great Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3502000, 4, 1, 0) == 1, 26, 99047025, -1)
+        
+        # Extended Soothing Sunlight
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3503000, 4, 1, 0) == 1, 27, 99047026, -1)
+        
+        # Extended Projected Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3557000, 4, 1, 0) == 1, 28, 99047027, -1)
+        
+        # Lingering Replenishment
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3504000, 4, 1, 0) == 1, 29, 99047028, -1)
+        
+        # Lingering Bountiful Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3507000, 4, 1, 0) == 1, 30, 99047029, -1)
+        
+        # Lingering Bountiful Sunlight
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3505000, 4, 1, 0) == 1, 31, 99047030, -1)
+        
+        # Quickened Caressing Tears
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3508000, 4, 1, 0) == 1, 32, 99047031, -1)
+        
+        # Supreme Lightning Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3590000, 4, 1, 0) == 1, 33, 99047032, -1)
+        
+        # Supreme Blessed Weapon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3760000, 4, 1, 0) == 1, 34, 99047033, -1)
+        
+        # Supreme Darkmoon Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3591000, 4, 1, 0) == 1, 35, 99047034, -1)
+        
+        # Supreme Magic Barrier
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3561000, 4, 1, 0) == 1, 37, 99047036, -1)
+        
+        # Extended Sacred Oath
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3563000, 4, 1, 0) == 1, 38, 99047037, -1)
+        
+        # Divine Relief
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3540000, 4, 1, 0) == 1, 39, 99047038, -1)
+        
+        # Lingering Perseverance
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3805000, 4, 1, 0) == 1, 40, 99047039, -1)
+        
+        # Refined Homeward
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3521000, 4, 1, 0) == 1, 42, 99047041, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -226,9 +328,145 @@ def t350500_x20():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Supreme Magic Shield
+        # Refined Lightning Arrow
         if GetTalkListEntryResult() == 1:
-            assert t350500_x50(80000, 1090, 9, -10, 99042000, 99043000, 99040011)
+            assert t350500_x50(82000, 1090, 9, -10, 99048000, 99049000, 99040020)
+            continue
+        # Lightning Surge
+        elif GetTalkListEntryResult() == 2:
+            assert t350500_x50(82010, 1090, 9, -10, 99048001, 99049001, 99040020)
+            continue
+        # Storm Spear
+        elif GetTalkListEntryResult() == 3:
+            assert t350500_x50(82020, 1090, 14, -15, 99048002, 99049002, 99040021)
+            continue
+        # Homing Sunlight Spear
+        elif GetTalkListEntryResult() == 4:
+            assert t350500_x50(82030, 1090, 14, -15, 99048003, 99049003, 99040021)
+            continue
+        # Weakening Wrathful Orbs
+        elif GetTalkListEntryResult() == 5:
+            assert t350500_x50(82040, 1090, 19, -20, 99048004, 99049004, 99040022)
+            continue
+        # Wrathful Wave
+        elif GetTalkListEntryResult() == 6:
+            assert t350500_x50(82050, 1090, 9, -10, 99048005, 99049005, 99040020)
+            continue
+        # Sunlight Stake
+        elif GetTalkListEntryResult() == 8:
+            assert t350500_x50(82070, 1090, 14, -15, 99048007, 99049007, 99040021)
+            continue
+        # Sunlight Storm
+        elif GetTalkListEntryResult() == 9:
+            assert t350500_x50(82080, 1090, 14, -15, 99048008, 99049008, 99040021)
+            continue
+        # Lingering Overwhelming Power
+        elif GetTalkListEntryResult() == 11:
+            assert t350500_x50(82100, 1090, 14, -15, 99048010, 99049010, 99040021)
+            continue
+        # Refined Way of White Corona
+        elif GetTalkListEntryResult() == 12:
+            assert t350500_x50(82110, 1090, 9, -10, 99048011, 99049011, 99040020)
+            continue
+        # Quickened Halo
+        elif GetTalkListEntryResult() == 13:
+            assert t350500_x50(82120, 1090, 14, -15, 99048012, 99049012, 99040021)
+            continue
+        # Refined Divine Arrow
+        elif GetTalkListEntryResult() == 14:
+            assert t350500_x50(82130, 1090, 9, -10, 99048013, 99049013, 99040020)
+            continue
+        # Homing Lothric's Holy Spear
+        elif GetTalkListEntryResult() == 15:
+            assert t350500_x50(82140, 1090, 14, -15, 99048014, 99049014, 99040021)
+            continue
+        # Refined Force
+        elif GetTalkListEntryResult() == 16:
+            assert t350500_x50(82150, 1090, 9, -10, 99048015, 99049015, 99040020)
+            continue
+        # Quickened Wrath of the Gods
+        elif GetTalkListEntryResult() == 17:
+            assert t350500_x50(82160, 1090, 19, -20, 99048016, 99049016, 99040022)
+            continue
+        # Emit Wrath
+        elif GetTalkListEntryResult() == 18:
+            assert t350500_x50(82170, 1090, 14, -15, 99048017, 99049017, 99040021)
+            continue
+        # Angelic Punishment
+        elif GetTalkListEntryResult() == 20:
+            assert t350500_x50(82190, 1090, 19, -20, 99048019, 99049019, 99040022)
+            continue
+        # Extended Heal Aid
+        elif GetTalkListEntryResult() == 23:
+            assert t350500_x50(82220, 1090, 9, -10, 99048022, 99049022, 99040020)
+            continue
+        # Extended Heal
+        elif GetTalkListEntryResult() == 24:
+            assert t350500_x50(82230, 1090, 9, -10, 99048023, 99049023, 99040020)
+            continue
+        # Extended Med Heal
+        elif GetTalkListEntryResult() == 25:
+            assert t350500_x50(82240, 1090, 9, -10, 99048024, 99049024, 99040020)
+            continue
+        # Extended Great Heal
+        elif GetTalkListEntryResult() == 26:
+            assert t350500_x50(82250, 1090, 9, -10, 99048025, 99049025, 99040020)
+            continue
+        # Extended Soothing Sunlight
+        elif GetTalkListEntryResult() == 27:
+            assert t350500_x50(82260, 1090, 9, -10, 99048026, 99049026, 99040020)
+            continue
+        # Extended Projected Heal
+        elif GetTalkListEntryResult() == 28:
+            assert t350500_x50(82270, 1090, 9, -10, 99048027, 99049027, 99040020)
+            continue
+        # Lingering Replenishment
+        elif GetTalkListEntryResult() == 29:
+            assert t350500_x50(82280, 1090, 14, -15, 99048028, 99049028, 99040021)
+            continue
+        # Lingering Bountiful Light
+        elif GetTalkListEntryResult() == 30:
+            assert t350500_x50(82290, 1090, 14, -15, 99048029, 99049029, 99040021)
+            continue
+        # Lingering Bountiful Sunlight
+        elif GetTalkListEntryResult() == 31:
+            assert t350500_x50(82300, 1090, 19, -20, 99048030, 99049030, 99040022)
+            continue
+        # Quickened Caressing Tears
+        elif GetTalkListEntryResult() == 32:
+            assert t350500_x50(82310, 1090, 9, -10, 99048031, 99049031, 99040020)
+            continue
+        # Supreme Lightning Blade
+        elif GetTalkListEntryResult() == 33:
+            assert t350500_x50(82320, 1090, 14, -15, 99048032, 99049032, 99040021)
+            continue
+        # Supreme Blessed Weapon
+        elif GetTalkListEntryResult() == 34:
+            assert t350500_x50(82330, 1090, 14, -15, 99048033, 99049033, 99040021)
+            continue
+        # Supreme Darkmoon Blade
+        elif GetTalkListEntryResult() == 35:
+            assert t350500_x50(82340, 1090, 14, -15, 99048034, 99049034, 99040021)
+            continue
+        # Supreme Magic Barrier
+        elif GetTalkListEntryResult() == 37:
+            assert t350500_x50(82360, 1090, 14, -15, 99048036, 99049036, 99040021)
+            continue
+        # Extended Sacred Oath
+        elif GetTalkListEntryResult() == 38:
+            assert t350500_x50(82370, 1090, 9, -10, 99048037, 99049037, 99040020)
+            continue
+        # Divine Relief
+        elif GetTalkListEntryResult() == 39:
+            assert t350500_x50(82380, 1090, 14, -15, 99048038, 99049038, 99040021)
+            continue
+        # Lingering Perseverance
+        elif GetTalkListEntryResult() == 40:
+            assert t350500_x50(82390, 1090, 14, -15, 99048039, 99049039, 99040021)
+            continue
+        # Refined Homeward
+        elif GetTalkListEntryResult() == 42:
+            assert t350500_x50(82410, 1090, 9, -10, 99048041, 99049041, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

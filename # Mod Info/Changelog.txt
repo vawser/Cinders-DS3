@@ -171,6 +171,7 @@ Add the following armour:
 - Increased the damage of Acid Surge from 5 + 0.05% to 5 + 0.1%.
 - Added a new pyromancy: Chaos Beam, transposed from the Soul of the Demon Prince.
 - Reduced the poise damage of Homing Soulmass, Surging Soulmass, Homing Crystal Soulmass, Weakening Crystal Soulmass, Wrathful Orbs and Affinity.
+- Caressing Tears can now reduce toxic and curse build up (it only could remove toxic status after it was inflicted until now).
 
 # Ascension
 Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
@@ -232,6 +233,43 @@ Added the following Ascended Pyromancies:
 - Homing Heave Earth
 - Incinerating Chaos Beam
 
+Added the following Ascended Miracles:
+- Supreme Blessed Weapon
+- Lingering Bountiful Light
+- Lingering Bountiful Sunlight
+- Quickened Caressing Tears
+- Supreme Darkmoon Blade
+- Refined Force
+- Extended Great Heal
+- Supreme Magic Barrier
+- Extended Heal
+- Extended Heal Aid
+- Divine Relief
+- Refined Homeward
+- Supreme Lightning Blade
+- Extended Med Heal
+- Lingering Perseverance
+- Extended Projected Heal
+- Lingering Replenishment
+- Extended Sacred Oath
+- Extended Soothing Sunlight
+- Storm Spear
+- Refined Lightning Arrow
+- Lightning Surge
+- Sunlight Stake
+- Sunlight Storm
+- Lingering Overwhelming Power
+- Homing Sunlight Spear
+- Wrathful Wave
+- Weakening Wrathful Orbs
+- Angelic Punishment
+- Refined Divine Arrow
+- Emit Divine Wrath
+- Quickened Halo
+- Homing Lothric's Holy Spear
+- Refined Way of White Corona
+- Quickened Wrath of the Gods
+
 # Armor
 - Added Insignias/Emblems for the following set:
  - Gallant Set
@@ -281,6 +319,8 @@ Added the following Ascended Pyromancies:
 - Fixed Wanderer's Emblem incorrectly apply Lether Boots visual to the player when used.
 - Fixed Heave Earth not moving straight forward.
 - Prevented an exploit in the Memory of Skeletons which meant you could get millions of souls easily.
+- Fixed the name of the Witchtree Branch when Laughing infused.
+- Fixed Magic Gems not being available in the Item Forge after lighting the Central Irithyll bonfire.
 
 
 #------------------------------
@@ -289,7 +329,5 @@ Added the following Ascended Pyromancies:
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
-380501 Pyromancy Scribe
-350500 Miracle Scribe
 390500 Hex Scribe
 
