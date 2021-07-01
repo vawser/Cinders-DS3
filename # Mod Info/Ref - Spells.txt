@@ -566,7 +566,7 @@
 - Physical Damage: 100 {300} {*10, shared}
 
 #---- Summon Earthfall
-- Changes cast animation to Fire Surge and releases 4 boulders every half second.
+- Changes cast animation to Fire Surge, reduces damage to 80 {160} per bullet, releases 4 boulders every half second.
 
 #--------------------------------
 # Poison Mist
@@ -717,14 +717,18 @@
 - FP Cost: 10
 - FTH Req: 10
 - Physical Damage: 50 {150} [50 {150}] [50 {150}]
-- Ascended Effect: None
+
+#---- Refined Way of White Corona
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Force
 #--------------------------------
 - FP Cost: 10
 - FTH Req: 10
-- Ascended Effect: None
+
+#---- Refined Force
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Emit Force
@@ -732,7 +736,9 @@
 - FP Cost: 25
 - Physical Damage: 150 {450} [100 {300}] 
 - FTH Req: 30
-- Ascended Effect: increases projectile speed to 40 m/s.
+
+#---- Emit Wrath
+- Increases the radius of the burst on impact.
 
 #--------------------------------
 # Wrath of the Gods
@@ -741,7 +747,9 @@
 - Slot Use: 2
 - Physical Damage: 300 {900}
 - FTH Req: 50
-- Ascended Effect: now cast in a quick fashion.
+
+#---- Quickened Wrath of the Gods
+- Changes cast animation to Force.
 
 #--------------------------------
 # Lightning Spear
@@ -749,7 +757,9 @@
 - FP Cost: 15
 - Lightning Damage: 120 {360} [50 {150}] [50 {150}] 
 - FTH Req: 20
-- Ascended Effect: increases projectile homing to 60 degrees.
+
+#---- Lightning Surge
+- Changes cast animation to Fire Surge.
 
 #--------------------------------
 # Great Lightning Spear
@@ -757,7 +767,9 @@
 - FP Cost: 30
 - Lightning Damage: 200 {600} [80 {240}] [80 {240}] 
 - FTH Req: 40
-- Ascended Effect: increases projectile homing to 120 degrees.
+
+#---- Storm Spear
+- Adds a ground lighting AoE wave on impact, damage 80 {240}.
 
 #--------------------------------
 # Sunlight Spear
@@ -766,7 +778,9 @@
 - Slot Use: 2
 - Lightning Damage: 300 {900} [100 {300}] [100 {300}]
 - FTH Req: 60
-- Ascended Effect: increases projectile homing to 180 degrees.
+
+#---- Homing Sunlight Spear
+- Increases projectile homing to 180 degrees.
 
 #--------------------------------
 # Lightning Arrow
@@ -774,7 +788,9 @@
 - FP Cost: 10
 - Lightning Damage: 75 {225}
 - FTH Req: 20
-- Ascended Effect: increases projectile homing to 40 degrees.
+
+#---- Refined Lightning Arrow
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Lightning Storm
@@ -782,7 +798,9 @@
 - FP Cost: 30
 - Lightning Damage: 80 {240} {*6, shared}
 - FTH Req: 40
-- Ascended Effect: emits an additional projectile.
+
+#---- Sunlight Storm
+- Changes the spell to be a ranged center strike with a wave of lightning around it.
 
 #--------------------------------
 # Lightning Stake
@@ -790,7 +808,9 @@
 - FP Cost: 30
 - Lightning Damage: 200 {600} [100 {300}] 
 - FTH Req: 40
-- Ascended Effect: increases poise damage to 60.
+
+#---- Sunlight Stake
+- Increases the radius of each of the hits.
 
 #--------------------------------
 # Divine Pillars of Light
@@ -799,7 +819,6 @@
 - Slot Use: 2
 - Physical Damage: 200 {600} {*10, individual}
 - FTH Req: 50
-- Ascended Effect: increases emitter radius to 40 metres.
 
 #--------------------------------
 # Halo
@@ -808,7 +827,9 @@
 - Slot Use: 2
 - Physical Damage: 75 {225} [75 {225}] [75 {225}] {*10, shared}
 - FTH Req: 50
-- Ascended Effect: now cast in a quick fashion.
+
+#---- Quickened Halo
+- Changes cast animation to Force.
 
 #--------------------------------
 # Heavenly Thunder
@@ -817,7 +838,6 @@
 - Slot Use: 2
 - Lightning Damage: 100 {300} {*10, shared}
 - FTH Req: 60
-- Ascended Effect: increases emitted projectile rate to 4 per second.
 
 #--------------------------------
 # Angelic Barrage
@@ -826,7 +846,9 @@
 - Slot Use: 2
 - Physical Damage: 80 {240} {*16, shared}
 - FTH Req: 50
-- Ascended Effect: increases emitted projectile rate to 5 per second.
+
+#---- Angelic Punishment
+- Changes cast animation to Fire Surge, reduces FP cost to 10 per tick, reduces damage to 30 {90} per bullet, emits 2 bullets every 0.1 second.
 
 #--------------------------------
 # Divine Arrow
@@ -834,7 +856,9 @@
 - FP Cost: 15
 - Physical Damage: 100 {300}
 - FTH Req: 30
-- Ascended Effect: increases projectile homing to 90 degrees.
+
+#---- Refined Divine Arrow
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Lothric's Holy Spear
@@ -843,7 +867,9 @@
 - Slot Use: 2
 - Physical Damage: 250 {750}
 - FTH Req: 50
-- Ascended Effect: increases projectile speed to 40 m/s.
+
+#---- Homing Lothric's Holy Spear
+- Increases projectile homing to 90 degrees.
 
 #--------------------------------
 # Proof of a Pact
@@ -852,7 +878,6 @@
 - Slot Use: 2
 - Physical Damage: 200 {600}
 - FTH Req: 40
-- Ascended Effect: None
 
 #--------------------------------
 # Overwhelming Power
@@ -860,7 +885,9 @@
 - FP Cost: 30
 - Lightning Damage: 100 {300} {shared}
 - FTH Req: 40
-- Ascended Effect: increases duration to 8 seconds.
+
+#---- Lingering Overwhelming Power
+- Increases duration to 8 seconds.
 
 #--------------------------------
 # Ghostly Assault
@@ -869,7 +896,6 @@
 - Slot Use: 2
 - Physical Damage: 30 {90} (*15, individual)
 - FTH Req: 50
-- Ascended Effect: summons an additional archer.
 
 #--------------------------------
 # Wrathful Orbs
@@ -877,7 +903,9 @@
 - FP Cost: 30
 - Lightning Damage: 50 {150} {*5, individual}
 - INT Req: 40
-- Ascended Effect: hits reduce target Lightning absorption by 10% for 10 seconds.
+
+#---- Weakening Wrathful Orbs
+- Impact reduces the Lightning absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
 # Holy Schism
@@ -885,7 +913,6 @@
 - FP Cost: 25
 - Lightning Damage: 100 {300} [150 {450}] (*4, shared)
 - FTH Req: 40
-- Ascended Effect: emits two additional lines.
 
 #--------------------------------
 # Wrathful Barrage
@@ -893,7 +920,9 @@
 - FP Cost: 10 (10)
 - Lightning Damage: 50 {150} {*20, shared}
 - FTH Req: 30
-- Ascended Effect: increases projectile homing to 50 degrees.
+
+#---- Wrathful Wave
+- Changes cast animation to Farron Dart and fires 1 wave per cast.
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
@@ -904,7 +933,9 @@
 - FP Cost: 50
 - FTH Req: 10
 - Base Effect: Heals 200 HP.
-- Ascended Effect: increases heal radius to 2 metres.
+
+#---- Extended Heal Aid
+- Increases heal radius to 2 metres.
 
 #--------------------------------
 # Heal
@@ -912,7 +943,9 @@
 - FP Cost: 60
 - FTH Req: 20
 - Base Effect: Heals 300 HP.
-- Ascended Effect: increases heal radius to 8 metres.
+
+#---- Extended Heal
+- Increases heal radius to 8 metres.
 
 #--------------------------------
 # Med Heal
@@ -920,7 +953,9 @@
 - FP Cost: 70
 - FTH Req: 30
 - Base Effect: Heals 350 HP.
-- Ascended Effect: increases heal radius to 8 metres.
+
+#---- Extended Med Heal
+- Increases heal radius to 8 metres.
 
 #--------------------------------
 # Great Heal
@@ -928,7 +963,9 @@
 - FP Cost: 80
 - FTH Req: 40
 - Base Effect: Heals 400 HP.
-- Ascended Effect: increases heal radius to 8 metres.
+
+#---- Extended Great Heal
+- Increases heal radius to 8 metres.
 
 #--------------------------------
 # Soothing Sunlight
@@ -937,7 +974,9 @@
 - Slot Use: 2
 - FTH Req: 50
 - Base Effect: Heals 500 HP.
-- Ascended Effect: increases heal radius to 7 metres.
+
+#---- Extended Soothing Sunlight
+- Increases initial radius to 7 metres and final radius to 17 metres.
 
 #--------------------------------
 # Projected Heal
@@ -945,23 +984,29 @@
 - FP Cost: 80
 - FTH Req: 30
 - Base Effect: Heals 300 HP.
-- Ascended Effect: increases heal radius to 5 metres.
+
+#---- Extended Projected Heal
+- Increases heal radius to 5 metres.
 
 #--------------------------------
 # Replenishment
 #--------------------------------
 - FP Cost: 50
 - FTH Req: 30
-- Base Effect: Heals 600 HP over 120 seconds (5 HP/s).
-- Ascended Effect: increases buff radius to 12 metres.
+- Base Effect: Heals 600 HP over 60 seconds (5 HP/s).
+
+#---- Lingering Replenishment
+- Increases duration to 120 seconds.
 
 #--------------------------------
 # Bountiful Light
 #--------------------------------
 - FP Cost: 75
 - FTH Req: 40
-- Base Effect: Heals 1200 HP over 120 seconds (10 HP/s).
-- Ascended Effect: increases buff radius to 15 metres.
+- Base Effect: Heals 1200 HP over 60 seconds (10 HP/s).
+
+#---- Lingering Bountiful Light
+- Increases duration to 120 seconds.
 
 #--------------------------------
 # Bountiful Sunlight
@@ -969,8 +1014,10 @@
 - FP Cost: 100
 - Slot Use: 2
 - FTH Req: 50
-- Base Effect: Heals 1800 HP over 120 seconds (15 HP/s).
-- Ascended Effect: increases buff radius to 16 metres.
+- Base Effect: Heals 1800 HP over 60 seconds (15 HP/s).
+
+#---- Lingering Bountiful Sunlight
+- Increases duration to 120 seconds.
 
 #--------------------------------
 # Caressing Tears
@@ -978,7 +1025,9 @@
 - FP Cost: 30
 - FTH Req: 20
 - Base Effect: Cures all status aux for caster and allies in range.
-- Ascended Effect: increases buff radius to 18 metres.
+
+#---- Quickened Caressing Tears
+- Changes cast animation to Heal Aid.
 
 #--------------------------------
 # Tears of Denial
@@ -987,7 +1036,6 @@
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: prevents killing blow whilst active. Lasts until death.
-- Ascended Effect: None
 
 #--------------------------------
 # Homeward
@@ -995,7 +1043,9 @@
 - FP Cost: 25
 - FTH Req: 10
 - Base Effect: return to bonfire.
-- Ascended Effect: None
+
+#---- Refined Homeward
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Blessed Weapon
@@ -1004,7 +1054,9 @@
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds.
-- Ascended Effect: increases Physical damage by 75.
+
+#---- Supreme Lightning Blade
+- Effect: Adds 75 Physical damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Sacred Oath
@@ -1013,7 +1065,9 @@
 - Slot Use: 2
 - FTH Req: 60
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds.
-- Ascended Effect: increases buff radius to 8 metres.
+
+#---- Extended Great Heal
+- Increases heal radius to 8 metres.
 
 #--------------------------------
 # Lightning Blade
@@ -1023,7 +1077,9 @@
 - Lightning Damage: 80
 - FTH Req: 40
 - Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
-- Ascended Effect: grants Electrify, which causes attacks to reduce enemy poise by 50% for 5 seconds.
+
+#---- Supreme Lightning Blade
+- Effect: Adds 100 Lightning damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Darkmoon Blade
@@ -1033,7 +1089,9 @@
 - Magic Damage: 80
 - FTH Req: 40
 - Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
-- Ascended Effect: restores 1 FP per second whilst active.
+
+#---- Supreme Darkmoon Blade
+- Effect: Adds 100 Magic damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Magic Barrier
@@ -1041,7 +1099,6 @@
 - FP Cost: 30
 - FTH Req: 30
 - Base Effect: increases Magic absorption by 30% for 60 seconds.
-- Ascended Effect: increases Magic, Fire, Lightning and Dark absorption by 30%.
 
 #--------------------------------
 # Great Magic Barrier
@@ -1050,7 +1107,9 @@
 - Slot Use: 2
 - FTH Req: 60
 - Base Effect: increases Magic absorption by 50% for 60 seconds.
-- Ascended Effect: increases Magic, Fire, Lightning and Dark absorption by 50%.
+
+#---- Refined Way of White Corona
+- Increases Magic, Fire, Lightning and Dark absorption by 50%.
 
 #--------------------------------
 # Heavenly Relief
@@ -1058,7 +1117,9 @@
 - FP Cost: 50
 - FTH Req: 30
 - Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds.
-- Ascended Effect: increases equipment load boost to 40%.
+
+#---- Divine Relief
+- Increases equipment load boost to 40%.
 
 #--------------------------------
 # Perseverance
@@ -1067,7 +1128,9 @@
 - Slot Use: 2
 - FTH Req: 40
 - Base Effect: boosts Poise by 50% for 60 seconds.
-- Ascended Effect: increases duration to 120 seconds.
+
+#---- Lingering Perseverance
+- Increases duration to 120 seconds.
 
 #--------------------------------------------------------------------------
 # Hexes - Offensive
