@@ -107,12 +107,14 @@ Add the following armour:
 # Weapon
 - Changed Dark Infused Torch VFX.
 - Added Luck Infused Torch VFX.
-- Changed holster/holding position for sidearms (except Rosamarinus).
+- Changed holster/holding position for sidearms (Except Rosamarinus and Fist of Gratia).
 - Changed Blunderbuss animation.
 - Repeating Pistol now correctly fired 2 bullets at once, attack correction were adjusted.
 - Rearranged MLGS tae event and sounds, should match the animation correctly and the transition between R2s are smoother.
-- Minor adjustment to Tonitrus, allowing player to turn during the initial animation of the Spark weapon art.
-- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe & Greatsword.
+- Minor adjustment to Tonitrus, allowing player to turn during the initial animation of the Sparks weapon art.
+- Tonitrus's buff applied Blue Lightning vfx to the weapon now.
+- Each Sidearm now have distinctive sounds (Except Rosamarinus and Fist of Gratia).
+- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe, Greatsword, Reapers, Hammer & Katana.
  - Straight Sword - Anri's Straight Sword (Stance)
  		  - Astora Straight Sword (Stance)
 		  - Sunlight Straight Sword (Oath of Sunlight)
@@ -128,6 +130,7 @@ Add the following armour:
 		  - Rotten Ghru Curved Sword (Spin Slash)
 		  - Smouldering Curved Sword (Spin Slash)
 		  - Blind (Spin Slash)
+		  - Burial Blade (Whirlwind Fury)
 
  - Spear	  - Demon's Spear (Stance)
 		  - Firelink Spear (Ember)
@@ -157,7 +160,19 @@ Add the following armour:
 		  - Sunlight Greatsword (Oath of Sunlight)
 
  - Reaper	  - Great Corvian Scythe (Neck Swipe)
+		  - Burial Scythe (Hunter's Reaping)
 
+ - Hammer	  - Hammer of the Great Tree (Warcry)
+		  - Wooden Mallet (Spin Bash)
+		  - Irithyll Mace (Perseverance)
+		  - Blacksmith Hammer (Perseverance)
+		  - Tonitrus (Sparks)
+		  - Tailbone Club (Unleash Dragon)
+ 
+ - Katana	  - Uchigatana (Spin Slash)
+		  - Black Blade (Hold)
+		  - Chaos Blade (Mushin)
+		  - Makoto (Ichimonji)
 
 # Magic
 - Sorted all spells. Each ascended spell should be right after their normal version now.
@@ -172,6 +187,7 @@ Add the following armour:
 - Added a new pyromancy: Chaos Beam, transposed from the Soul of the Demon Prince.
 - Reduced the poise damage of Homing Soulmass, Surging Soulmass, Homing Crystal Soulmass, Weakening Crystal Soulmass, Wrathful Orbs and Affinity.
 - Caressing Tears can now reduce toxic and curse build up (it only could remove toxic status after it was inflicted until now).
+- Supreme Lightning Blade now used Sunlight Blade vfx.
 
 # Ascension
 Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
@@ -296,8 +312,14 @@ Added the following Ascended Miracles:
 # Map
 - Removed the trigger box for the Abyss from the map.
 
-#Boss
+# Boss
 - Tweaked the start of the Twisted Knight fight.
+
+# Consumable
+- Added Sunlight Oil and Bolt Oil to Alchemist JiJi. Sunlight Oil gives Sunlight Blade vfx while Bolt Oil gives Blue Lightning vfx when applied.
+
+# Npc
+- Anri should be more durable now during the fight with Aldritch.
 
 # Bugfixes
 - Fixed the name/summary/description of spells.
@@ -321,6 +343,8 @@ Added the following Ascended Miracles:
 - Prevented an exploit in the Memory of Skeletons which meant you could get millions of souls easily.
 - Fixed the name of the Witchtree Branch when Laughing infused.
 - Fixed Magic Gems not being available in the Item Forge after lighting the Central Irithyll bonfire.
+- Fixed several Refined spells still using FP for casting.
+- Fixed description of Immolation and Sanguinus (Hammer).
 
 
 #------------------------------
