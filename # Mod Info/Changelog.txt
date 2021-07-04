@@ -188,6 +188,8 @@ Add the following armour:
 - Reduced the poise damage of Homing Soulmass, Surging Soulmass, Homing Crystal Soulmass, Weakening Crystal Soulmass, Wrathful Orbs and Affinity.
 - Caressing Tears can now reduce toxic and curse build up (it only could remove toxic status after it was inflicted until now).
 - Supreme Lightning Blade now used Sunlight Blade vfx.
+- Frozen Weapon and Supreme Frozen Weapon are now affected by duration extending equipment like the other aux spell buffs.
+- Changed the VFX of Writhing Deep.
 
 # Ascension
 Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
@@ -262,7 +264,7 @@ Added the following Ascended Miracles:
 - Extended Heal Aid
 - Divine Relief
 - Refined Homeward
-- Supreme Lightning Blade
+- Sunlight Blade
 - Extended Med Heal
 - Lingering Perseverance
 - Extended Projected Heal
@@ -285,6 +287,43 @@ Added the following Ascended Miracles:
 - Homing Lothric's Holy Spear
 - Refined Way of White Corona
 - Quickened Wrath of the Gods
+
+Added the following Ascended Hexes:
+- Lingering Atonement
+- Supreme Black Flame Arc
+- Supreme Dark Blade
+- Refined Dead Again
+- Bottomless Deep Protection
+- Lingering Numbness
+- Supreme Pulsating Blade
+- Supreme Pungent Blade
+- Lingering Repel
+- Curse of Silence
+- Echo of Despair
+- Heavy Abyssal Edge
+- Pursuers
+- Weakening Black Fire Orb
+- Refined Black Fire Scatter
+- Scorching Black Fire Vestiges
+- Scorching Black Flame
+- Quickened Black Serpent
+- Lingering Cascading Deep
+- Explosive Climax
+- Cursed Dark Bead
+- Forceful Dark Dance
+- Refined Dark Edge
+- Refined Deep Barb
+- Quickened Dorhys' Gnawing
+- Gnawing Swarm
+- Gravelord Sword
+- Weakening Deep Soul
+- Quickened Soul Dregs
+- Great Lifehunt Scythe
+- Scorching Mournful Flames
+- Refined Nibble
+- Refined Surging Deep
+- Curse of Agony
+- Great Writhing Deep
 
 # Armor
 - Added Insignias/Emblems for the following set:

@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Miracle Scribe
+#-- Hex Scribe
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -161,7 +161,7 @@ def t390500_x9():
         ClearTalkListData()
         
         # Ascension
-        AddTalkListData(1, 15004003, -1)
+        AddTalkListData(1, 15004004, -1)
     
         # Talk
         AddTalkListData(3, 99010001, -1) 
@@ -217,8 +217,110 @@ def t390500_x20():
     while True:
         ClearTalkListData()
 
-        # Supreme Magic Shield
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 1, 99041000, -1)
+        # Refined Deep Barb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4100000, 4, 1, 0) == 1, 1, 99050000, -1)
+        
+        # Weakening Deep Soul
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4102000, 4, 1, 0) == 1, 3, 99050002, -1)
+        
+        # Quickened Soul Dregs
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4103000, 4, 1, 0) == 1, 4, 99050003, -1)
+        
+        # Refined Surging Deep
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4107000, 4, 1, 0) == 1, 5, 99050004, -1)
+        
+        # Explosive Climax
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4112000, 4, 1, 0) == 1, 6, 99050005, -1)
+        
+        # Great Writhing Deep
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4111000, 4, 1, 0) == 1, 7, 99050006, -1)
+        
+        # Refined Dark Edge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4104000, 4, 1, 0) == 1, 8, 99050007, -1)
+        
+        # Heavy Abyssal Edge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4105000, 4, 1, 0) == 1, 9, 99050008, -1)
+        
+        # Pursuers
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4113000, 4, 1, 0) == 1, 10, 99050009, -1)
+        
+        # Cursed Dark Bead
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4106000, 4, 1, 0) == 1, 11, 99050010, -1)
+        
+        # Lingering Cascading Deep
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4108000, 4, 1, 0) == 1, 12, 99050011, -1)
+        
+        # Weakening Black Fire Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4202000, 4, 1, 0) == 1, 16, 99050015, -1)
+        
+        # Refined Black Fire Scatter
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4204000, 4, 1, 0) == 1, 17, 99050016, -1)
+        
+        # Scorching Black Fire Vestiges
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4203000, 4, 1, 0) == 1, 18, 99050017, -1)
+        
+        # Scorching Black Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4205000, 4, 1, 0) == 1, 19, 99050018, -1)
+        
+        # Quickened Black Serpent
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4206000, 4, 1, 0) == 1, 20, 99050019, -1)
+        
+        # Scorching Mournful Flames
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4209000, 4, 1, 0) == 1, 21, 99050020, -1)
+        
+        # Forceful Dark Dance
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4207000, 4, 1, 0) == 1, 22, 99050021, -1)
+        
+        # Refined Nibble
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4301000, 4, 1, 0) == 1, 24, 99050023, -1)
+        
+        # Gnawing Swarm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4302000, 4, 1, 0) == 1, 25, 99050024, -1)
+        
+        # Quickened Dorhys' Gnawing
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4303000, 4, 1, 0) == 1, 26, 99050025, -1)
+        
+        # Great Lifehunt Scythe
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4312000, 4, 1, 0) == 1, 28, 99050027, -1)
+        
+        # Gravelord Sword
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4308000, 4, 1, 0) == 1, 29, 99050028, -1)
+        
+        # Curse of Agony
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4307000, 4, 1, 0) == 1, 30, 99050029, -1)
+        
+        # Refined Dead Again
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4311000, 4, 1, 0) == 1, 31, 99050030, -1)
+        
+        # Echo of Despair
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4114000, 4, 1, 0) == 1, 32, 99050031, -1)
+        
+        # Lingering Repel
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4115000, 4, 1, 0) == 1, 33, 99050032, -1)
+        
+        # Curse of Silence
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4309000, 4, 1, 0) == 1, 34, 99050033, -1)
+        
+        # Supreme Black Flame Arc
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4210000, 4, 1, 0) == 1, 35, 99050034, -1)
+        
+        # Supreme Dark Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4310000, 4, 1, 0) == 1, 36, 99050035, -1)
+        
+        # Supreme Pungent Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4314000, 4, 1, 0) == 1, 37, 99050036, -1)
+        
+        # Supreme Pulsating Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4313000, 4, 1, 0) == 1, 38, 99050037, -1)
+        
+        # Lingering Numbness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4116000, 4, 1, 0) == 1, 39, 99050038, -1)
+        
+        # Lingering Atonement
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4306000, 4, 1, 0) == 1, 40, 99050039, -1)
+        
+        # Bottomless Deep Protection
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4305000, 4, 1, 0) == 1, 41, 99050040, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -226,9 +328,145 @@ def t390500_x20():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Supreme Magic Shield
+        # Refined Deep Barb
         if GetTalkListEntryResult() == 1:
-            assert t390500_x50(80000, 1080, 9, -10, 99042000, 99043000, 99040012)
+            assert t390500_x50(83000, 1080, 9, -10, 99051000, 99052000, 99040030)
+            continue
+        # Weakening Deep Soul
+        elif GetTalkListEntryResult() == 3:
+            assert t390500_x50(83020, 1080, 9, -10, 99051002, 99052002, 99040030)
+            continue
+        # Quickened Soul Dregs
+        elif GetTalkListEntryResult() == 4:
+            assert t390500_x50(83030, 1080, 9, -10, 99051003, 99052003, 99040030)
+            continue
+        # Refined Surging Deep
+        elif GetTalkListEntryResult() == 5:
+            assert t390500_x50(83040, 1080, 9, -10, 99051004, 99052004, 99040030)
+            continue
+        # Explosive Climax
+        elif GetTalkListEntryResult() == 6:
+            assert t390500_x50(83050, 1080, 9, -10, 99051005, 99052005, 99040030)
+            continue
+        # Great Writhing Deep
+        elif GetTalkListEntryResult() == 7:
+            assert t390500_x50(83060, 1080, 9, -10, 99051006, 99052006, 99040030)
+            continue
+        # Refined Dark Edge
+        elif GetTalkListEntryResult() == 8:
+            assert t390500_x50(83070, 1080, 9, -10, 99051007, 99052007, 99040030)
+            continue
+        # Heavy Abyssal Edge
+        elif GetTalkListEntryResult() == 9:
+            assert t390500_x50(83080, 1080, 9, -10, 99051008, 99052008, 99040030)
+            continue
+        # Pursuers
+        elif GetTalkListEntryResult() == 10:
+            assert t390500_x50(83090, 1080, 9, -10, 99051009, 99052009, 99040030)
+            continue
+        # Cursed Dark Bead
+        elif GetTalkListEntryResult() == 11:
+            assert t390500_x50(83100, 1080, 9, -10, 99051010, 99052010, 99040030)
+            continue
+        # Lingering Cascading Deep
+        elif GetTalkListEntryResult() == 12:
+            assert t390500_x50(83110, 1080, 9, -10, 99051011, 99052011, 99040030)
+            continue
+        # Weakening Black Fire Orb
+        elif GetTalkListEntryResult() == 16:
+            assert t390500_x50(83150, 1080, 9, -10, 99051015, 99052015, 99040030)
+            continue
+        # Refined Black Fire Scatter
+        elif GetTalkListEntryResult() == 17:
+            assert t390500_x50(83160, 1080, 9, -10, 99051016, 99052016, 99040030)
+            continue
+        # Scorching Black Fire Vestiges
+        elif GetTalkListEntryResult() == 18:
+            assert t390500_x50(83170, 1080, 9, -10, 99051017, 99052017, 99040030)
+            continue
+        # Scorching Black Flame
+        elif GetTalkListEntryResult() == 19:
+            assert t390500_x50(83180, 1080, 9, -10, 99051018, 99052018, 99040030)
+            continue
+        # Quickened Black Serpent
+        elif GetTalkListEntryResult() == 20:
+            assert t390500_x50(83190, 1080, 9, -10, 99051019, 99052019, 99040030)
+            continue
+        # Scorching Mournful Flames
+        elif GetTalkListEntryResult() == 21:
+            assert t390500_x50(83200, 1080, 9, -10, 99051020, 99052020, 99040030)
+            continue
+        # Forceful Dark Dance
+        elif GetTalkListEntryResult() == 22:
+            assert t390500_x50(83210, 1080, 9, -10, 99051021, 99052021, 99040030)
+            continue
+        # Refined Nibble
+        elif GetTalkListEntryResult() == 24:
+            assert t390500_x50(83230, 1080, 9, -10, 99051023, 99052023, 99040030)
+            continue
+        # Gnawing Swarm
+        elif GetTalkListEntryResult() == 25:
+            assert t390500_x50(83240, 1080, 9, -10, 99051024, 99052024, 99040030)
+            continue
+        # Quickened Dorhys' Gnawing
+        elif GetTalkListEntryResult() == 26:
+            assert t390500_x50(83250, 1080, 9, -10, 99051025, 99052025, 99040030)
+            continue
+        # Great Lifehunt Scythe
+        elif GetTalkListEntryResult() == 28:
+            assert t390500_x50(83270, 1080, 9, -10, 99051027, 99052027, 99040030)
+            continue
+        # Gravelord Sword
+        elif GetTalkListEntryResult() == 29:
+            assert t390500_x50(83280, 1080, 9, -10, 99051028, 99052028, 99040030)
+            continue
+        # Curse of Agony
+        elif GetTalkListEntryResult() == 30:
+            assert t390500_x50(83290, 1080, 9, -10, 99051029, 99052029, 99040030)
+            continue
+        # Refined Dead Again
+        elif GetTalkListEntryResult() == 31:
+            assert t390500_x50(83300, 1080, 9, -10, 99051030, 99052030, 99040030)
+            continue
+        # Echo of Despair
+        elif GetTalkListEntryResult() == 32:
+            assert t390500_x50(83310, 1080, 9, -10, 99051031, 99052031, 99040030)
+            continue
+        # Lingering Repel
+        elif GetTalkListEntryResult() == 33:
+            assert t390500_x50(83320, 1080, 9, -10, 99051032, 99052032, 99040030)
+            continue
+        # Curse of Silence
+        elif GetTalkListEntryResult() == 34:
+            assert t390500_x50(83330, 1080, 9, -10, 99051033, 99052033, 99040030)
+            continue
+        # Supreme Black Flame Arc
+        elif GetTalkListEntryResult() == 35:
+            assert t390500_x50(83340, 1080, 9, -10, 99051034, 99052034, 99040030)
+            continue
+        # Supreme Dark Blade
+        elif GetTalkListEntryResult() == 36:
+            assert t390500_x50(83350, 1080, 9, -10, 99051035, 99052035, 99040030)
+            continue
+        # Supreme Pungent Blade
+        elif GetTalkListEntryResult() == 37:
+            assert t390500_x50(83360, 1080, 9, -10, 99051036, 99052036, 99040030)
+            continue
+        # Supreme Pulsating Blade
+        elif GetTalkListEntryResult() == 38:
+            assert t390500_x50(83370, 1080, 9, -10, 99051037, 99052037, 99040030)
+            continue
+        # Lingering Numbness
+        elif GetTalkListEntryResult() == 39:
+            assert t390500_x50(83380, 1080, 9, -10, 99051038, 99052038, 99040030)
+            continue
+        # Lingering Atonement
+        elif GetTalkListEntryResult() == 40:
+            assert t390500_x50(83390, 1080, 9, -10, 99051039, 99052039, 99040030)
+            continue
+        # Bottomless Deep Protection
+        elif GetTalkListEntryResult() == 41:
+            assert t390500_x50(83400, 1080, 9, -10, 99051040, 99052040, 99040030)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

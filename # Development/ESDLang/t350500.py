@@ -298,7 +298,7 @@ def t350500_x20():
         # Quickened Caressing Tears
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3508000, 4, 1, 0) == 1, 32, 99047031, -1)
         
-        # Supreme Lightning Blade
+        # Sunlight Blade
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3590000, 4, 1, 0) == 1, 33, 99047032, -1)
         
         # Supreme Blessed Weapon
@@ -436,7 +436,7 @@ def t350500_x20():
         elif GetTalkListEntryResult() == 32:
             assert t350500_x50(82310, 1090, 9, -10, 99048031, 99049031, 99040020)
             continue
-        # Supreme Lightning Blade
+        # Sunlight Blade
         elif GetTalkListEntryResult() == 33:
             assert t350500_x50(82320, 1090, 14, -15, 99048032, 99049032, 99040021)
             continue
