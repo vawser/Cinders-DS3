@@ -212,7 +212,7 @@
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
 
 #---- Lingering Pestilent Mist
-- Extends duration to 8 seconds.
+- Increases duration to 8 seconds.
 
 #--------------------------------
 # Snap Freeze
@@ -270,7 +270,7 @@
 - Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
 
 #---- Supreme Magic Weapon
-- Effect: Adds 100 Magic damage to main weapon for 120 seconds.
+- Adds 100 Magic damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Frozen Weapon
@@ -280,7 +280,7 @@
 - Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
 
 #---- Supreme Frozen Weapon
-- Adds 60 Frost inflict to main weapon for 60 seconds.
+- Adds 60 Frost inflict to main weapon for 120 seconds.
 
 #--------------------------------
 # Magic Shield
@@ -298,7 +298,7 @@
 - Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
 
 #---- Supreme Magic Shield
-- Effect: Adds max absorption and 20% stability to main shield for 120 seconds.
+- Adds max absorption and 20% stability to main shield for 120 seconds.
 
 #--------------------------------
 # Hidden Weapon
@@ -575,7 +575,7 @@
 - Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
 
 #---- Lingering Poison Mist
-- Extends duration to 12 seconds.
+- Increases duration to 12 seconds.
 
 #--------------------------------
 # Toxic Mist
@@ -584,7 +584,7 @@
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
 
 #---- Lingering Toxic Mist
-- Extends duration to 12 seconds.
+- Increases duration to 12 seconds.
 
 #--------------------------------
 # Acid Surge
@@ -593,7 +593,7 @@
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.1% HP per tick. Lasts for 6 seconds.
 
 #---- Lingering Acid Surge
-- Extends duration to 12 seconds.
+- Increases duration to 12 seconds.
 
 #--------------------------------
 # Immolation
@@ -603,7 +603,7 @@
 - Base Effect: consumes 25% of player's HP, causes a fire trail to appear in their wake for 15 seconds, dealing Fire damage to any enemy that touches it.
 
 #---- Lingering Immolation
-- Extends duration to 30 seconds.
+- Increases duration to 30 seconds.
 
 #--------------------------------
 # Fecal Explusion
@@ -634,7 +634,7 @@
 - Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
 
 #---- Lingering Carthus Beacon
-- Extends duration to 60 seconds.
+- Increases duration to 60 seconds.
 
 #--------------------------------
 # Warmth
@@ -679,7 +679,7 @@
 - Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
 
 #---- Supreme Carthus Flame Arc
-- Effect: Adds 100 Fire damage to main weapon for 120 seconds.
+- Adds 100 Fire damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Rapport
@@ -699,7 +699,7 @@
 - Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
 
 #---- Lingering Power Within
-- Extends duration to 60 seconds.
+- Increases duration to 60 seconds.
 
 #--------------------------------
 # Rockflesh
@@ -1055,8 +1055,8 @@
 - FTH Req: 40
 - Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds.
 
-#---- Supreme Lightning Blade
-- Effect: Adds 75 Physical damage to main weapon for 120 seconds.
+#---- Supreme Blessed Weapon
+- Adds 75 Physical damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Sacred Oath
@@ -1078,8 +1078,8 @@
 - FTH Req: 40
 - Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
 
-#---- Supreme Lightning Blade
-- Effect: Adds 100 Lightning damage to main weapon for 120 seconds.
+#---- Sunlight Blade
+- Adds 100 Lightning damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Darkmoon Blade
@@ -1091,7 +1091,7 @@
 - Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
 
 #---- Supreme Darkmoon Blade
-- Effect: Adds 100 Magic damage to main weapon for 120 seconds.
+- Adds 100 Magic damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Magic Barrier
@@ -1141,9 +1141,11 @@
 - FP Cost: 10
 - Dark Damage: 75 {225}
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: increases Curse inflict to 20.
 - INT Req: 5
 - FTH Req: 5
+
+#---- Refined Deep Barb
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Deep Soul
@@ -1153,7 +1155,6 @@
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: inflicts 20 Curse.
-- Ascended Effect: increases Curse inflict to 30.
 
 #--------------------------------
 # Great Deep Soul
@@ -1163,7 +1164,6 @@
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: increases Curse inflict to 40.
 
 #--------------------------------
 # Great Soul Dregs
@@ -1174,7 +1174,9 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 40 Curse.
-- Ascended Effect: increases Curse inflict to 50.
+
+#---- Quickened Soul Dregs
+- Changes cast animation to Farron Dart.
 
 #--------------------------------
 # Dark Edge
@@ -1184,7 +1186,9 @@
 - INT Req: 5
 - FTH Req: 5
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: reduces stamina cost.
+
+#---- Refined Dark Edge
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Abyssal Edge
@@ -1195,7 +1199,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: increases poise damage to 100.
+
+#---- Heavy Abyssal Edge
+- Increases Poise Damage to 100 and causes faceplant.
 
 #--------------------------------
 # Dark Bead
@@ -1205,7 +1211,9 @@
 - Dark Damage: 80 {240} {*7, individual}
 - INT Req: 25
 - FTH Req: 25
-- Ascended Effect: adds 10 Curse inflict to projectiles.
+
+#---- Cursed Dark Bead
+- Adds 10 Curse inflict to projectiles.
 
 #--------------------------------
 # Surging Deep
@@ -1215,7 +1223,9 @@
 - INT Req: 15 
 - FTH Req: 15
 - Base Effect: inflicts 8 Curse.
-- Ascended Effect: increases Curse inflict to 16.
+
+#---- Refined Surging Deep
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Cascading Deep
@@ -1225,7 +1235,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: increases emitted projectile rate to 20 per second.
+
+#---- Lingering Cascading Deep
+- Increases the duration of the emited bullets to 8 seconds.
 
 #--------------------------------
 # Yearning Dregs
@@ -1235,7 +1247,6 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 60 Curse per pillar.
-- Ascended Effect: increases emitter radius to 30 metres.
 
 #--------------------------------
 # Dreg Torrent
@@ -1246,7 +1257,6 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 10 Curse per bullet.
-- Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Writhing Deep
@@ -1256,7 +1266,9 @@
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
-- Ascended Effect: increases Curse inflict to 50.
+
+#---- Great Writhing Deep
+- Increases Poise Damage to 100 and the explosion range.
 
 #--------------------------------
 # Climax
@@ -1267,7 +1279,9 @@
 - INT Req: 30
 - FTH Req: 30
 - Base Effect: inflicts 20 Curse.
-- Ascended Effect: increases projectile speed to 80 m/s.
+
+#---- Explosive Climax
+- Adds an area of effect explosion on impact.
 
 #--------------------------------
 # Affinity
@@ -1278,7 +1292,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 10 Curse.
-- Ascended Effect: hits reduce Dark absorption by 10% for 10 seconds.
+
+#---- Pursuers
+- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 60. Each bullet does 40 {120} Dark damage and no curse build up.
 
 #--------------------------------
 # Whisper of Despair
@@ -1287,7 +1303,9 @@
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 50 Curse.
-- Ascended Effect: increases Curse inflict to 100.
+
+#---- Echo of Despair
+- Adds an AoE on impact and increases Curse inflict to 100.
 
 #--------------------------------
 # Black Fireball
@@ -1297,7 +1315,6 @@
 - FTH Req: 5
 - Dark Damage: 100 {300} [50 {150}]
 - Base Effect: inflicts 20 Toxic.
-- Ascended Effect: now cast in a quick fashion.
 
 #--------------------------------
 # Black Fire Orb
@@ -1307,7 +1324,9 @@
 - FTH Req: 15
 - Dark Damage: 180 {560} [100 {300}]
 - Base Effect: inflicts 30 Toxic.
-- Ascended Effect: increases projectile homing to 50 degrees.
+
+#---- Weakening Black Fire Orb
+- Impact reduces the Dark absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
 # Black Fire Vestiges
@@ -1318,7 +1337,9 @@
 - FTH Req: 30
 - Magic Damage: 250 {750} [150 {450}]
 - Base Effect: inflicts 40 Toxic.
-- Ascended Effect: increases projectile homing to 40 degrees.
+
+#---- Scorching Black Fire Vestiges
+- Increases the blast radius and adds a lingering black fire patch that deals 100 {300} Dark damage per tick.
 
 #--------------------------------
 # Black Fire Scatter
@@ -1328,7 +1349,9 @@
 - FTH Req: 10
 - Dark Damage: 80 {240} {*12, individual)
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: emits an additional projectile.
+
+#---- Refined Black Fire Scatter
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Black Flame
@@ -1338,7 +1361,9 @@
 - FTH Req: 15
 - Dark Damage: 200 {600} [100 {300}]
 - Base Effect: inflicts 20 Toxic.
-- Ascended Effect: increases poise damage to 60.
+
+#---- Scorching Black Flame
+- Slightly increases the burst range and adds a lingering black fire patch that deals 100 {300} Dark damage per tick.
 
 #--------------------------------
 # Black Serpent
@@ -1349,7 +1374,9 @@
 - FTH Req: 20
 - Dark Damage: 200 {600}
 - Base Effect: inflicts 30 Toxic.
-- Ascended Effect: extends the length of the serpent.
+
+#---- Quickened Black Serpent
+- Changes cast animation to Farron Dart.
 
 #--------------------------------
 # Dark Dance  
@@ -1360,7 +1387,9 @@
 - FTH Req: 25
 - Dark Damage: 60 {180} {*4, individual} {720}
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: increases projectile speed to 9 m/s.
+
+#---- Forceful Dark Dance
+- Adds a ground black flame patch that act as a shockwave. 60 {180} Dark damage.
 
 #--------------------------------
 # Recollection  
@@ -1371,7 +1400,6 @@
 - FTH Req: 25
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Toxic.
-- Ascended Effect: increases emitted projectile rate to 5 per second.
 
 #--------------------------------
 # Mournful Flames 
@@ -1382,7 +1410,9 @@
 - FTH Req: 25
 - Dark Damage: 100 {300} [200 {600}]
 - Base Effect: inflicts 40 Toxic.
-- Ascended Effect: emits five additional lines.
+
+#---- Scorching Mournful Flames
+- Adds 3 lingering black fire patches that deals 100 {300} Dark damage per tick.
 
 #--------------------------------
 # Nibble
@@ -1392,7 +1422,9 @@
 - FTH Req: 5
 - Dark Damage: 50 {150}
 - Base Effect: inflicts 10 Bleed
-- Ascended Effect: increases Bleed inflict to 20.
+
+#---- Refined Nibble
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Gnaw
@@ -1402,7 +1434,9 @@
 - FTH Req: 10
 - Dark Damage: 100 {300}
 - Base Effect: inflicts 20 Bleed
-- Ascended Effect: increases Bleed inflict to 30.
+
+#---- Gnawing Swarm
+- Changes the spell to work in a similar way as Farron Hail.
 
 #--------------------------------
 # Dorhys' Gnawing
@@ -1413,7 +1447,9 @@
 - FTH Req: 20
 - Dark Damage: 150 {450}
 - Base Effect: inflicts 30 Bleed
-- Ascended Effect: increases Bleed inflict to 40.
+
+#---- Quickened Dorhys' Gnawing
+- Changes cast animation to Farron Dart.
 
 #--------------------------------
 # Lifehunt Scythe
@@ -1424,7 +1460,9 @@
 - FTH Req: 25
 - Dark Damage: 150 {450}
 - Base Effect: absorbs 10% HP on hit.
-- Ascended Effect: increases HP absorb to 20%.
+
+#---- Great Lifehunt Scythe
+- Increases damage dealt to 250 {750}.
 
 #--------------------------------
 # Devouring Swarm
@@ -1435,7 +1473,6 @@
 - FTH Req: 25
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Bleed
-- Ascended Effect: increases emitted projectile rate to 10 per second.
 
 #--------------------------------
 # Dead Again
@@ -1444,7 +1481,9 @@
 - INT Req: 10
 - FTH Req: 10
 - Base Effect: causes corpses to explode, dealing damage to foes.
-- Ascended Effect: None
+
+#---- Refined Dead Again
+- FP consumption reduced to 0.
 
 #--------------------------------
 # Vow of Agony
@@ -1453,7 +1492,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Dark Damage: 50 {150} (per tick)
-- Ascended Effect: increases duration to 20 seconds.
+
+#---- Curse of Agony
+- Changes the spell to be ranged.
 
 #--------------------------------
 # Gravelord Sword Dance
@@ -1464,7 +1505,9 @@
 - FTH Req: 25
 - Dark Damage: 200 {600} {*1, shared}
 - Base Effect: inflicts 60 Toxic.
-- Ascended Effect: increases emitter radius to 30 metres.
+
+#---- Gravelord Sword
+- Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 30 per cast.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect
@@ -1476,7 +1519,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: increases absorption to 100% for 2 seconds
-- Ascended Effect: increases duration to 3 seconds.
+
+#---- Lingering Repel
+- Increases duration to 3 seconds.
 
 #--------------------------------
 # Numbness
@@ -1486,7 +1531,9 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: increases absorption by 35% for 60 seconds but reduces camera FOV to 20.
-- Ascended Effect: increases duration to 90 seconds.
+
+#---- Lingering Numbness
+- Increases duration to 90 seconds.
 
 #--------------------------------
 # Black Flame Arc
@@ -1496,7 +1543,9 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: adds 75 Dark damage to main weapon for 60 seconds.
-- Ascended Effect: increases stamina damage by 100%.
+
+#---- Supreme Black Flame Arc
+- Adds 100 Dark damage to main weapon for 120 seconds.
 
 #--------------------------------
 # Pungent Blade
@@ -1506,7 +1555,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Poison inflict to 80.
+
+#---- Supreme Pulsating Blade
+- Adds 80 Poison inflict to main weapon for 120 seconds.
 
 #--------------------------------
 # Deep Protection
@@ -1514,8 +1565,10 @@
 - FP Cost: 30
 - INT Req: 15
 - FTH Req: 15
-- Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10.
-- Ascended Effect: increases damage and absorption boost to 10%, increases Poison, Toxic, Bleed, Curse and Frost resistance boost to 100.
+- Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. Lasts 60 seconds.
+
+#---- Bottomless Deep Protection
+- Increases damage and absorption boost to 10%. Increases Poison, Toxic, Bleed, Curse and Frost resistance boost to 100. Lasts 120 seconds.
 
 #--------------------------------
 # Dark Blade
@@ -1525,7 +1578,9 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10%.
-- Ascended Effect: increases Dark absorption by 25%.
+
+#---- Supreme Dark Blade
+- Adds 75 Dark damage to main weapon and increases Dark absorption by 20% for 120 seconds.
 
 #--------------------------------
 # Atonement
@@ -1534,7 +1589,9 @@
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: boosts Magic, Fire, Lightning, Dark absorption by 50%, but reduces Physical absorption by 50%. Lasts 30 seconds.
-- Ascended Effect: increases duration to 60 seconds.
+
+#---- Lingering Atonement
+- Increases duration to 60 seconds.
 
 #--------------------------------
 # Vow of Silence
@@ -1543,7 +1600,9 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: silence self and target for 15 seconds.
-- Ascended Effect: now only silences target enemy.
+
+#---- Curse of Silence
+- Now only silences target enemy.
 
 #--------------------------------
 # Pulsating Blade
@@ -1553,5 +1612,7 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
-- Ascended Effect: increases Bleed inflict to 60.
+
+#---- Supreme Pulsating Blade
+- Adds 60 Bleed inflict to main weapon for 120 seconds.
 

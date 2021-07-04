@@ -78,6 +78,24 @@ dmy:
 856100 Great Cataclysm Fire Forming Orb
 856101 Great Cataclysm Projectile
 
+856200 Echo of Despair
+
+856210 Ground Black Fire Patch
+
+856220 Scorching Black Fire Vestiges [Hit]
+
+856230 Scorching Black Flame
+
+856240 Explosive Climax 
+856241 Explosive Climax [Hit]
+
+856250 Forceful Dark Dance
+856251 Forceful Dark Dance (chained EffectID="2001" from 856250, required for sound)
+
+856260 Gravelord Sword (with added sound)
+
+856270 Great Writhing Deep Explosion
+
 #------------------------
 # Reference
 #------------------------
