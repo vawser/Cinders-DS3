@@ -332,30 +332,41 @@ Homeward 134200
 Refined Homeward 134201
 
 
-# Hexes (EquipParamGoods Sort ID 140100 - 144100)
+# Hexes (EquipParamGoods Sort ID 140100 - 144101)
 Deep Barb 140100
+Refined Deep Barb 140101
 
 Deep Soul 140200
 
 Great Deep Soul 140300
+Weakening Deep Soul 140301
 
 Great Soul Dregs 140400
+Quickened Soul Dregs 140401
 
 Surging Deep 140500
+Refined Surging Deep 140501
 
 Climax 140600
+Explosive Climax 140601
 
 Writhing Deep 140700
+Great Writhing Deep 140701
 
 Dark Edge 140800
+Refined Dark Edge 140801
 
 Abyssal Edge 140900
+Heavy Abyssal Edge 140901
 
 Affinity 141000
+Pursuers 141001
 
 Dark Bead 141100
+Cursed Dark Bead 141101
 
 Cascading Deep 141200
+Lingering Cascading Deep 141201
 
 Dreg Torrent 141300
 
@@ -364,53 +375,77 @@ Yearning Dregs 141400
 Black Fireball 141500
 
 Black Fire Orb 141600
+Weakening Black Fire Orb 141601
 
 Black Fire Scatter 141700
+Refined Black Fire Scatter 141701
 
 Black Fire Vestiges 141800
+Scorching Black Fire Vestiges 141801
 
 Black Flame 141900
+Scorching Black Flame 141901
 
 Black Serpent 142000
+Quickened Black Serpent 142001
 
 Mournful Flames 142100
+Scorching Mournful Flames 142101
 
 Dark Dance 142200
+Forceful Dark Dance 142201
 
 Recollection 142300
 
 Nibble 142400
+Refined Nibble 142401
 
 Gnaw 142500
+Gnawing Swarm 142501
 
 Dorhys' Gnawing 142600
+Quickened Dorhys' Gnawing 142601
 
 Devouring Swarm 142700
 
 Lifehunt Scythe 142800
+Great Lifehunt Scythe 142801
 
 Gravelord Sword Dance 142900
+Gravelord Sword 142901
 
 Vow of Agony 143000
+Curse of Agony 143001
 
 Dead Again 143100
+Refined Dead Again 143101
 
 Whisper of Despair 143200
+Echo of Despair 143201
 
 Repel 143300
+Lingering Repel 143301
 
 Vow of Silence 143400
+Curse of Silence 143401
 
 Black Flame Arc 143500
+Supreme Black Flame Arc 143501
 
 Dark Blade 143600
+Supreme Dark Blade 143601
 
 Pungent Blade 143700
+Supreme Pungent Blade 143701
 
 Pulsating Blade 143800
+Supreme Pulsating Blade 143801
 
 Numbness 143900
+Lingering Numbness 143901
 
 Atonement 144000
+Lingering Atonement 144001
 
 Deep Protection 144100
+Bottomless Deep Protection 144101
