@@ -334,11 +334,11 @@ def t390500_x20():
             continue
         # Weakening Deep Soul
         elif GetTalkListEntryResult() == 3:
-            assert t390500_x50(83020, 1080, 9, -10, 99051002, 99052002, 99040030)
+            assert t390500_x50(83020, 1080, 14, -15, 99051002, 99052002, 99040031)
             continue
         # Quickened Soul Dregs
         elif GetTalkListEntryResult() == 4:
-            assert t390500_x50(83030, 1080, 9, -10, 99051003, 99052003, 99040030)
+            assert t390500_x50(83030, 1080, 19, -20, 99051003, 99052003, 99040032)
             continue
         # Refined Surging Deep
         elif GetTalkListEntryResult() == 5:
@@ -346,11 +346,11 @@ def t390500_x20():
             continue
         # Explosive Climax
         elif GetTalkListEntryResult() == 6:
-            assert t390500_x50(83050, 1080, 9, -10, 99051005, 99052005, 99040030)
+            assert t390500_x50(83050, 1080, 19, -20, 99051005, 99052005, 99040032)
             continue
         # Great Writhing Deep
         elif GetTalkListEntryResult() == 7:
-            assert t390500_x50(83060, 1080, 9, -10, 99051006, 99052006, 99040030)
+            assert t390500_x50(83060, 1080, 14, -15, 99051006, 99052006, 99040031)
             continue
         # Refined Dark Edge
         elif GetTalkListEntryResult() == 8:
@@ -358,15 +358,15 @@ def t390500_x20():
             continue
         # Heavy Abyssal Edge
         elif GetTalkListEntryResult() == 9:
-            assert t390500_x50(83080, 1080, 9, -10, 99051008, 99052008, 99040030)
+            assert t390500_x50(83080, 1080, 14, -15, 99051008, 99052008, 99040031)
             continue
         # Pursuers
         elif GetTalkListEntryResult() == 10:
-            assert t390500_x50(83090, 1080, 9, -10, 99051009, 99052009, 99040030)
+            assert t390500_x50(83090, 1080, 19, -20, 99051009, 99052009, 99040032)
             continue
         # Cursed Dark Bead
         elif GetTalkListEntryResult() == 11:
-            assert t390500_x50(83100, 1080, 9, -10, 99051010, 99052010, 99040030)
+            assert t390500_x50(83100, 1080, 14, -15, 99051010, 99052010, 99040031)
             continue
         # Lingering Cascading Deep
         elif GetTalkListEntryResult() == 12:
@@ -374,7 +374,7 @@ def t390500_x20():
             continue
         # Weakening Black Fire Orb
         elif GetTalkListEntryResult() == 16:
-            assert t390500_x50(83150, 1080, 9, -10, 99051015, 99052015, 99040030)
+            assert t390500_x50(83150, 1080, 14, -15, 99051015, 99052015, 99040031)
             continue
         # Refined Black Fire Scatter
         elif GetTalkListEntryResult() == 17:
@@ -382,23 +382,23 @@ def t390500_x20():
             continue
         # Scorching Black Fire Vestiges
         elif GetTalkListEntryResult() == 18:
-            assert t390500_x50(83170, 1080, 9, -10, 99051017, 99052017, 99040030)
+            assert t390500_x50(83170, 1080, 19, -20, 99051017, 99052017, 99040032)
             continue
         # Scorching Black Flame
         elif GetTalkListEntryResult() == 19:
-            assert t390500_x50(83180, 1080, 9, -10, 99051018, 99052018, 99040030)
+            assert t390500_x50(83180, 1080, 14, -15, 99051018, 99052018, 99040031)
             continue
         # Quickened Black Serpent
         elif GetTalkListEntryResult() == 20:
-            assert t390500_x50(83190, 1080, 9, -10, 99051019, 99052019, 99040030)
+            assert t390500_x50(83190, 1080, 14, -15, 99051019, 99052019, 99040031)
             continue
         # Scorching Mournful Flames
         elif GetTalkListEntryResult() == 21:
-            assert t390500_x50(83200, 1080, 9, -10, 99051020, 99052020, 99040030)
+            assert t390500_x50(83200, 1080, 19, -20, 99051020, 99052020, 99040032)
             continue
         # Forceful Dark Dance
         elif GetTalkListEntryResult() == 22:
-            assert t390500_x50(83210, 1080, 9, -10, 99051021, 99052021, 99040030)
+            assert t390500_x50(83210, 1080, 14, -15, 99051021, 99052021, 99040031)
             continue
         # Refined Nibble
         elif GetTalkListEntryResult() == 24:
@@ -406,15 +406,15 @@ def t390500_x20():
             continue
         # Gnawing Swarm
         elif GetTalkListEntryResult() == 25:
-            assert t390500_x50(83240, 1080, 9, -10, 99051024, 99052024, 99040030)
+            assert t390500_x50(83240, 1080, 14, -15, 99051024, 99052024, 99040031)
             continue
         # Quickened Dorhys' Gnawing
         elif GetTalkListEntryResult() == 26:
-            assert t390500_x50(83250, 1080, 9, -10, 99051025, 99052025, 99040030)
+            assert t390500_x50(83250, 1080, 14, -15, 99051025, 99052025, 99040031)
             continue
         # Great Lifehunt Scythe
         elif GetTalkListEntryResult() == 28:
-            assert t390500_x50(83270, 1080, 9, -10, 99051027, 99052027, 99040030)
+            assert t390500_x50(83270, 1080, 14, -15, 99051027, 99052027, 99040031)
             continue
         # Gravelord Sword
         elif GetTalkListEntryResult() == 29:
@@ -434,19 +434,19 @@ def t390500_x20():
             continue
         # Lingering Repel
         elif GetTalkListEntryResult() == 33:
-            assert t390500_x50(83320, 1080, 9, -10, 99051032, 99052032, 99040030)
+            assert t390500_x50(83320, 1080, 14, -15, 99051032, 99052032, 99040031)
             continue
         # Curse of Silence
         elif GetTalkListEntryResult() == 34:
-            assert t390500_x50(83330, 1080, 9, -10, 99051033, 99052033, 99040030)
+            assert t390500_x50(83330, 1080, 14, -15, 99051033, 99052033, 99040031)
             continue
         # Supreme Black Flame Arc
         elif GetTalkListEntryResult() == 35:
-            assert t390500_x50(83340, 1080, 9, -10, 99051034, 99052034, 99040030)
+            assert t390500_x50(83340, 1080, 14, -15, 99051034, 99052034, 99040031)
             continue
         # Supreme Dark Blade
         elif GetTalkListEntryResult() == 36:
-            assert t390500_x50(83350, 1080, 9, -10, 99051035, 99052035, 99040030)
+            assert t390500_x50(83350, 1080, 14, -15, 99051035, 99052035, 99040031)
             continue
         # Supreme Pungent Blade
         elif GetTalkListEntryResult() == 37:
@@ -458,7 +458,7 @@ def t390500_x20():
             continue
         # Lingering Numbness
         elif GetTalkListEntryResult() == 39:
-            assert t390500_x50(83380, 1080, 9, -10, 99051038, 99052038, 99040030)
+            assert t390500_x50(83380, 1080, 19, -20, 99051038, 99052038, 99040032)
             continue
         # Lingering Atonement
         elif GetTalkListEntryResult() == 40:
@@ -466,7 +466,7 @@ def t390500_x20():
             continue
         # Bottomless Deep Protection
         elif GetTalkListEntryResult() == 41:
-            assert t390500_x50(83400, 1080, 9, -10, 99051040, 99052040, 99040030)
+            assert t390500_x50(83400, 1080, 19, -20, 99051040, 99052040, 99040032)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
