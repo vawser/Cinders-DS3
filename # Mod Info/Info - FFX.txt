@@ -96,6 +96,43 @@ dmy:
 
 856270 Great Writhing Deep Explosion
 
+860030 Fire MLGS
+860032 Fire MLGS
+860033 Fire MLGS
+860034 Fire MLGS
+860035 Fire MLGS
+
+870030 Lightning MLGS
+870032 Lightning MLGS
+870033 Lightning MLGS
+870034 Lightning MLGS
+870035 Lightning MLGS
+
+
+880030 Dark MLGS
+880032 Dark MLGS
+880033 Dark MLGS
+880034 Dark MLGS
+880035 Dark MLGS
+
+880050 Silent Lorian's Greatsword Flame Effect
+
+880216 Silent Pacify Effect
+
+880380 Silent Storm Ruler Wind Effect
+
+884112 Psychedelic Great Combustion
+
+893011 Blue Lightning
+893012 Blue Lightning
+893013 Blue Lightning
+893014 Blue Lightning
+893015 Blue Lightning
+893016 Blue Lightning
+
+895533 Blue Lightning Spark
+
+
 #------------------------
 # Reference
 #------------------------

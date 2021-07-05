@@ -114,7 +114,14 @@ Add the following armour:
 - Minor adjustment to Tonitrus, allowing player to turn during the initial animation of the Sparks weapon art.
 - Tonitrus's buff applied Blue Lightning vfx to the weapon now.
 - Each Sidearm now have distinctive sounds (Except Rosamarinus and Fist of Gratia).
-- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe, Greatsword, Reapers, Hammer & Katana.
+- Buffed Holy Flame, melee damage and WA damage is now on par with other Magical Flame.
+- Buffed Pyromancy Flame, now Air Juggled the enemy when struck by the weapon art, decrease the Weapon Art cost and gave it passive stamina regen.
+- All Pyromancy dedicated catalysts (Magical flame such as Sorcerous Flame does not count) will now remove leeches when held.
+- Removed the "easier to be staggered" mechanic from Spell Tools, should get rid of the lava dance bug. 
+- Increase the melee range for all Spell Tools.
+- Changed Fool's Catalyst Weapon Art: It is now Fluorescent Flare, deal physical damage that scales off LUCK and costs 50 FP per cast.
+- Rampart Golem Lance should now correctly utilize Lance moveset.
+- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe, Greatsword, Reapers, Hammer, Katana & Halberd.
  - Straight Sword - Anri's Straight Sword (Stance)
  		  - Astora Straight Sword (Stance)
 		  - Sunlight Straight Sword (Oath of Sunlight)
@@ -168,11 +175,18 @@ Add the following armour:
 		  - Blacksmith Hammer (Perseverance)
 		  - Tonitrus (Sparks)
 		  - Tailbone Club (Unleash Dragon)
+		  - Sanguinus (Bloodlust)
  
  - Katana	  - Uchigatana (Spin Slash)
 		  - Black Blade (Hold)
 		  - Chaos Blade (Mushin)
 		  - Makoto (Ichimonji)
+
+ - Halberd	  - Hunter Axe (Spin Sweep)
+		  - Red Hilted Halberd (Perseverance)
+		  - Dragonrider Halberd (Stance)
+		  - Giant's Halberd (Stance)
+		  - Crescent Axe (Warcry)
 
 # Magic
 - Sorted all spells. Each ascended spell should be right after their normal version now.
@@ -345,6 +359,9 @@ Added the following Ascended Hexes:
  - Vileblood Set
  - Quicksilver Set
 
+# General
+- Quickstep now consumed 20 stamina regardless of weapon class.
+
 # Shield
 - Several shields with innate effect will have an in-game icon to reflect the effect now.
 
@@ -355,7 +372,53 @@ Added the following Ascended Hexes:
 - Tweaked the start of the Twisted Knight fight.
 
 # Consumable
-- Added Sunlight Oil and Bolt Oil to Alchemist JiJi. Sunlight Oil gives Sunlight Blade vfx while Bolt Oil gives Blue Lightning vfx when applied.
+- Added new cosmetic Oil:
+ - Sunlight Oil - Applies Sunlight Blade vfx to weapon.
+ - Bolt Oil - Applies Blue Lightning vfx to weapon.
+ - Enchanted Oil - Applies Pacify vfx to weapon.
+ - Scorching Oil - Applies Lorian's Greatsword vfx to weapon.
+ - Rotten Oil - Coat weapon with living maggots.
+ - Gust Oil - Applies Storm Ruler vfx to weapon.
+- Changed the VFX of Writ of Immolation.
+
+# Covenant
+- Expanded Servant of the Rat inventory:
+ - 5 Rat Tails:
+  - Cleansing Pendant
+
+ - 3 Rat Tails: 
+  - Titanite Fragment
+  - Inferi Petal
+  - Combustum Petal
+  - Vindicti Petal
+  - Barathrum Petal
+  - Celeritas Stem
+  - Veloxi Moss
+  - Budding Green Blossom
+  - Blooming Purple Moss Clump
+  - Purging Stone
+
+ - 1 Rat Tail:
+  - Green Blossom
+  - Bloodred Moss Clump
+  - Purple Moss Clump
+  - Rime-blue Moss Clump
+  - Old Growth Balm
+  - Vine Balm
+  - Blackweed Balm
+  - Goldenfruit Balm
+
+- Expanded Company of Champions inventory:
+ - 50 Awestones:
+  - Soul of a Fallen Champion
+
+ - 20 Awestones:
+  - Soul of a Fallen Paladin
+  - Soul of a Fallen Sentinel
+  - Soul of a Fallen Sage
+  - Soul of a Fallen Warrior
+  - Soul of a Fallen Astrologer
+  - Soul of a Fallen Berserker
 
 # Npc
 - Anri should be more durable now during the fight with Aldritch.
@@ -370,7 +433,7 @@ Added the following Ascended Hexes:
 - Spellbound items carry limit should be only 1 now.
 - Frozen Pine Resin and Carthus Rouge effect are now similar to the aux effect gained from infusion.
 - Armor clipping should be fixed or are kept to minimum (mostly) now.
-- Black Flame (Catalyst) and Caitha Chime (wp_a_1324) should now work as intended.
+- Black Flame (Catalyst), Caitha Chime (wp_a_1324) and Fool's Catalyst should now work as intended.
 - Dark Flamberge and Curse Morion Blade should work as intended now.
 - Blessing of Rosaria should work as intended now.
 - Fixed the Greatsword class weapon One Handed R2, which the player is able to cancel into the second R2 upon pressing the R2 button again.
@@ -384,6 +447,11 @@ Added the following Ascended Hexes:
 - Fixed Magic Gems not being available in the Item Forge after lighting the Central Irithyll bonfire.
 - Fixed several Refined spells still using FP for casting.
 - Fixed description of Immolation and Sanguinus (Hammer).
+- Fixed the lava dance bug caused by Spell Tools.
+- All Pyromancy Flames with Combustion Weapon Art should now properly consume stamina when used in conjunction with Weapon Skill Shield.
+- Fixed hitbox for Alternate Katana moveset 1 Handed 4th R1 not registered properly.
+- Fixed Chaos Blade self hp reduction per hit. Should correctly reduce 3% of max hp now.
+
 
 
 #------------------------------
@@ -392,5 +460,7 @@ Added the following Ascended Hexes:
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
-390500 Hex Scribe
-
+- Shield Catalyst
+- Lance
+- Illusion/Insignia
+- Covenant inventory
