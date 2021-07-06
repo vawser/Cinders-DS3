@@ -193,7 +193,7 @@ Add the following armour:
 - Changed the FX of Crystal Storm, should be a bit more toaster friendly now.
 - Changed the FX of Blizzard, its visual appearance matches more the theme of the spell.
 - Changed Quickened Soul Stream to use the Quick Soul Arrow cast animation (no more broken consecutive/rolling/running casts).
-- Changed Homing Farron Dart to Costless Farron Dart.
+- Changed Homing Farron Dart to Refined Farron Dart.
 - Changed Homing Soul Arrow to Explosive Soul Arrow.
 - Changed Homing Soul Spear to Explosive Soul Spear.
 - Added homing to 90 degrees to Soul Wave by default.
@@ -204,6 +204,7 @@ Add the following armour:
 - Supreme Lightning Blade now used Sunlight Blade vfx.
 - Frozen Weapon and Supreme Frozen Weapon are now affected by duration extending equipment like the other aux spell buffs.
 - Changed the VFX of Writhing Deep.
+- Reduced the damage of Black Flame to 150 [50].
 
 # Ascension
 Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
@@ -231,6 +232,14 @@ Added the following Ascended Sorceries:
 - Supreme Frozen Weapon
 - Surging Soulmass
 - Weakening Crystal Soulmass
+- Refined Aural Decoy
+- Mass Hidden Body
+- Skilled Repair
+- Mass Spook
+- Impenetrable Wall of Light
+- Lingering Unleash Magic
+- Repeating Blizzard
+- Repeating Crystal Storm
 
 Added the following Ascended Pyromancies:
 - Incendiary Fireball
@@ -264,6 +273,11 @@ Added the following Ascended Pyromancies:
 - Quickened Earthquake
 - Homing Heave Earth
 - Incinerating Chaos Beam
+- Lingering Iron Flesh
+- Lingering Rockflesh
+- Repeating Chaos Storm
+- Repeating Firestorm
+- Great Fecal Expulsion
 
 Added the following Ascended Miracles:
 - Supreme Blessed Weapon
@@ -301,6 +315,12 @@ Added the following Ascended Miracles:
 - Homing Lothric's Holy Spear
 - Refined Way of White Corona
 - Quickened Wrath of the Gods
+- Mass Tears of Denial
+- Repeating Heavenly Thunder
+- Quickened Holy Schism
+- Repeating Pillars of Light
+- Extended Ghostly Assault
+- Repeating Proof of a Pact
 
 Added the following Ascended Hexes:
 - Lingering Atonement
@@ -338,6 +358,12 @@ Added the following Ascended Hexes:
 - Refined Surging Deep
 - Curse of Agony
 - Great Writhing Deep
+- Black Fire Whip
+- Deep Overflow
+- Repeating Swarm
+- Repeating Dreg Torrent
+- Scorching Recollection
+- Repeating Yearning Dregs
 
 # Armor
 - Added Insignias/Emblems for the following set:
@@ -361,6 +387,7 @@ Added the following Ascended Hexes:
 
 # General
 - Quickstep now consumed 20 stamina regardless of weapon class.
+- Changed the description of the covenant tokens to mention Spell Ascension.
 
 # Shield
 - Several shields with innate effect will have an in-game icon to reflect the effect now.
@@ -425,7 +452,6 @@ Added the following Ascended Hexes:
 
 # Bugfixes
 - Fixed the name/summary/description of spells.
-- Fixed Surging Soulmass doing more damage than intended.
 - Fixed the stat requirements of some spells when using the Laughing infusion.
 - Fixed several infusion entries using the incorrect AtkElementCorrectParam/Materials and some with incorrect scaling.
 - Fixed the drop chances of Lifegem from the Scimitar wielding skeleton in Catacombs of Carthus.
