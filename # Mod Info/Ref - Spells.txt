@@ -124,6 +124,9 @@
 - INT Req: 40
 - Magic Damage: 200 {600} {*5, shared}
 
+#---- Repeating Crystal Storm
+- Doubles the amount of bullets emitted.
+
 #--------------------------------
 # Farron Hail
 #--------------------------------
@@ -193,6 +196,9 @@
 - INT Req: 30
 - Magic Damage: 200 {600} {*5, shared}
 - Base Effect: inflicts 60 Frost on hit.
+
+#---- Repeating Blizzard
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Orbs of Judgment
@@ -317,6 +323,9 @@
 - INT Req: 40
 - Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 100%.
 
+#---- Mass Hidden Body
+- Applies the effect to self and allies in a radius of 8 meters.
+
 #--------------------------------
 # Cast Light
 #--------------------------------
@@ -334,12 +343,18 @@
 - INT Req: 20
 - Base Effect: restores 50 durability.
 
+#---- Skilled Repair
+- Restores 100 durability.
+
 #--------------------------------
 # Spook
 #--------------------------------
 - FP Cost: 30
 - INT Req: 20
 - Base Effect: reduces enemy detection via sound by 100% for 60 seconds.
+
+#---- Mass Spook
+- Applies the effect to self and allies in a radius of 8 meters.
 
 #--------------------------------
 # Chameleon
@@ -358,12 +373,18 @@
 - INT Req: 20
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
 
+#---- Refined Aural Decoy
+- FP consumption reduced to 0.
+
 #--------------------------------
 # Twisted Wall of Light
 #--------------------------------
 - FP Cost: 10
 - INT Req: 30
 - Base Effect: reflect spells away for 2 seconds.
+
+#---- Impenetrable Wall of Light
+- Changes the cast animation to Fire Surge, FP fost to 5 and duration to 1 second.
 
 #--------------------------------
 # Unleash Magic
@@ -372,6 +393,9 @@
 - INT Req: 60
 - Slot Use: 2
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces max HP by 50%.
+
+#---- Lingering Unleash Magic
+- Increases duration to 60 seconds.
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive
@@ -409,6 +433,9 @@
 - FP Cost: 5 (10)
 - Fire Damage: 180 {520} {*5, shared}
 
+#---- Repeating Firestorm
+- Doubles the amount of bullets emitted.
+
 #--------------------------------
 # Fire Surge
 #--------------------------------
@@ -443,6 +470,9 @@
 - FP Cost: 10 (10)
 - Slot Use: 2
 - Fire Damage: 200 {600} [100 {300}] {*5, shared} 
+
+#---- Repeating Chaos Storm
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Fire Whip
@@ -613,6 +643,9 @@
 - Physical Damage: 20 {60}
 - Base Effect: expel 5 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
 
+#---- Great Fecal Explusion
+- Increases damage to 40, spreads more the projectiles and increases the radius of the burst.
+
 #--------------------------------
 # Chaos Beam
 #--------------------------------
@@ -662,6 +695,9 @@
 - Slot Use: 2
 - Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
 
+#---- Lingering Iron Flesh
+- Increases duration to 30 seconds.
+
 #--------------------------------
 # Flash Sweat
 #--------------------------------
@@ -679,7 +715,7 @@
 - Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
 
 #---- Supreme Carthus Flame Arc
-- Adds 100 Fire damage to main weapon for 120 seconds.
+- Adds 100 Fire damage to main weapon and reduces Stamina Consumption by 20%.
 
 #--------------------------------
 # Rapport
@@ -707,6 +743,9 @@
 - FP Cost: 50
 - Slot Use: 2
 - Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 30 seconds.
+
+#---- Lingering Rockflesh
+- Increases duration to 60 seconds.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
@@ -817,8 +856,11 @@
 #--------------------------------
 - FP Cost: 5 (10)
 - Slot Use: 2
-- Physical Damage: 200 {600} {*10, individual}
+- Physical Damage: 200 {600} {*5, individual}
 - FTH Req: 50
+
+#---- Repeating Divine Pillars of Light
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Halo
@@ -838,6 +880,9 @@
 - Slot Use: 2
 - Lightning Damage: 100 {300} {*10, shared}
 - FTH Req: 60
+
+#---- Repeating Heavenly Thunder
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Angelic Barrage
@@ -879,6 +924,9 @@
 - Physical Damage: 200 {600}
 - FTH Req: 40
 
+#---- Repeating Proof of a Pact
+- Now summons a knight every half second.
+
 #--------------------------------
 # Overwhelming Power
 #--------------------------------
@@ -897,6 +945,9 @@
 - Physical Damage: 30 {90} (*15, individual)
 - FTH Req: 50
 
+#---- Extended Ghostly Assault
+- The arrows now have unlimited range.
+
 #--------------------------------
 # Wrathful Orbs
 #--------------------------------
@@ -913,6 +964,9 @@
 - FP Cost: 25
 - Lightning Damage: 100 {300} [150 {450}] (*4, shared)
 - FTH Req: 40
+
+#---- Quickened Holy Schism
+- Changes cast animation to Force.
 
 #--------------------------------
 # Wrathful Barrage
@@ -1037,6 +1091,9 @@
 - FTH Req: 40
 - Base Effect: prevents killing blow whilst active. Lasts until death.
 
+#---- Mass Tears of Denial
+- Applies the effect to self and allies in a radius of 8 meters.
+
 #--------------------------------
 # Homeward
 #--------------------------------
@@ -1067,7 +1124,7 @@
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds.
 
 #---- Extended Great Heal
-- Increases heal radius to 8 metres.
+- Increases radius to 8 metres.
 
 #--------------------------------
 # Lightning Blade
@@ -1079,7 +1136,7 @@
 - Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
 
 #---- Sunlight Blade
-- Adds 100 Lightning damage to main weapon for 120 seconds.
+- Adds 100 Lightning damage to main weapon and boosts damage against Hollow enemies by 20%.
 
 #--------------------------------
 # Darkmoon Blade
@@ -1091,7 +1148,7 @@
 - Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
 
 #---- Supreme Darkmoon Blade
-- Adds 100 Magic damage to main weapon for 120 seconds.
+- Adds 100 Magic damage to main weapon and boosts damage against Abyssal enemies by 20%.
 
 #--------------------------------
 # Magic Barrier
@@ -1156,6 +1213,9 @@
 - FTH Req: 10
 - Base Effect: inflicts 20 Curse.
 
+#---- Deep Overflow
+- Spell becomes a ranged area of effect attack.
+
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
@@ -1164,6 +1224,9 @@
 - INT Req: 15
 - FTH Req: 15
 - Base Effect: inflicts 30 Curse.
+
+#---- Weakening Deep Soul
+- Impact reduces the Dark absorption of the target by 10% for 5 seconds.
 
 #--------------------------------
 # Great Soul Dregs
@@ -1247,6 +1310,10 @@
 - INT Req: 20
 - FTH Req: 20
 - Base Effect: inflicts 60 Curse per pillar.
+- FTH Req: 50
+
+#---- Repeating Yearning Dregs
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Dreg Torrent
@@ -1257,6 +1324,9 @@
 - INT Req: 25
 - FTH Req: 25
 - Base Effect: inflicts 10 Curse per bullet.
+
+#---- Repeating Dreg Torrent
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Writhing Deep
@@ -1316,6 +1386,9 @@
 - Dark Damage: 100 {300} [50 {150}]
 - Base Effect: inflicts 20 Toxic.
 
+#---- Black Fire Whip
+- Spell becomes Fire Whip, toxic inflict reduced to 5.
+
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
@@ -1339,7 +1412,7 @@
 - Base Effect: inflicts 40 Toxic.
 
 #---- Scorching Black Fire Vestiges
-- Increases the blast radius and adds a lingering black fire patch that deals 100 {300} Dark damage per tick.
+- Increases the blast radius and adds a lingering black fire patch that deals 50 {150} Dark damage per tick.
 
 #--------------------------------
 # Black Fire Scatter
@@ -1359,11 +1432,11 @@
 - FP Cost: 30
 - INT Req: 15
 - FTH Req: 15
-- Dark Damage: 200 {600} [100 {300}]
+- Dark Damage: 150 {450} [50 {150}]
 - Base Effect: inflicts 20 Toxic.
 
 #---- Scorching Black Flame
-- Slightly increases the burst range and adds a lingering black fire patch that deals 100 {300} Dark damage per tick.
+- Slightly increases the burst range and adds a lingering black fire patch that deals 50 {150} Dark damage per tick.
 
 #--------------------------------
 # Black Serpent
@@ -1401,6 +1474,9 @@
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Toxic.
 
+#---- Scorching Recollection
+- Amount of of bullets emitted halved, the fire orbs now have gravity and spawn a lingering black fire patch that deals 50 {150} Dark damage per tick.
+
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
@@ -1412,7 +1488,7 @@
 - Base Effect: inflicts 40 Toxic.
 
 #---- Scorching Mournful Flames
-- Adds 3 lingering black fire patches that deals 100 {300} Dark damage per tick.
+- Adds 3 lingering black fire patches that deals 50 {150} Dark damage per tick.
 
 #--------------------------------
 # Nibble
@@ -1473,6 +1549,9 @@
 - FTH Req: 25
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Bleed
+
+#---- Repeating Swarm
+- Doubles the amount of bullets emitted.
 
 #--------------------------------
 # Dead Again
@@ -1545,7 +1624,7 @@
 - Base Effect: adds 75 Dark damage to main weapon for 60 seconds.
 
 #---- Supreme Black Flame Arc
-- Adds 100 Dark damage to main weapon for 120 seconds.
+- Adds 100 Dark damage to main weapon and boosts damage against Demon enemies by 20%.
 
 #--------------------------------
 # Pungent Blade
@@ -1556,7 +1635,7 @@
 - FTH Req: 20
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds.
 
-#---- Supreme Pulsating Blade
+#---- Supreme Pungent Blade
 - Adds 80 Poison inflict to main weapon for 120 seconds.
 
 #--------------------------------

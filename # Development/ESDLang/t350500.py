@@ -235,11 +235,17 @@ def t350500_x20():
         # Wrathful Wave
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3821000, 4, 1, 0) == 1, 6, 99047005, -1)
         
+        # Quickened Holy Schism
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3820000, 4, 1, 0) == 1, 7, 99047006, -1)
+        
         # Sunlight Stake
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3710000, 4, 1, 0) == 1, 8, 99047007, -1)
         
         # Sunlight Storm
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3553000, 4, 1, 0) == 1, 9, 99047008, -1)
+        
+        # Repeating Heavenly Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3802000, 4, 1, 0) == 1, 10, 99047009, -1)
         
         # Lingering Overwhelming Power
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3818000, 4, 1, 0) == 1, 11, 99047010, -1)
@@ -265,8 +271,17 @@ def t350500_x20():
         # Emit Wrath
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3532000, 4, 1, 0) == 1, 18, 99047017, -1)
         
+        # Repeating Pillars of Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3720000, 4, 1, 0) == 1, 19, 99047018, -1)
+        
         # Angelic Punishment
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3812000, 4, 1, 0) == 1, 20, 99047019, -1)
+        
+        # Repeating Proof of a Pact
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3815000, 4, 1, 0) == 1, 21, 99047020, -1)
+        
+        # Extended Ghostly Assault
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3816000, 4, 1, 0) == 1, 22, 99047021, -1)
         
         # Extended Heal Aid
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3490000, 4, 1, 0) == 1, 23, 99047022, -1)
@@ -319,6 +334,9 @@ def t350500_x20():
         # Lingering Perseverance
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3805000, 4, 1, 0) == 1, 40, 99047039, -1)
         
+        # Tears of Denial
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3520000, 4, 1, 0) == 1, 41, 99047040, -1)
+        
         # Refined Homeward
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3521000, 4, 1, 0) == 1, 42, 99047041, -1)
         
@@ -352,6 +370,10 @@ def t350500_x20():
         elif GetTalkListEntryResult() == 6:
             assert t350500_x50(82050, 1090, 9, -10, 99048005, 99049005, 99040020)
             continue
+        # Quickened Holy Schism
+        elif GetTalkListEntryResult() == 7:
+            assert t350500_x50(82060, 1090, 14, -15, 99048006, 99049006, 99040021)
+            continue
         # Sunlight Stake
         elif GetTalkListEntryResult() == 8:
             assert t350500_x50(82070, 1090, 14, -15, 99048007, 99049007, 99040021)
@@ -359,6 +381,10 @@ def t350500_x20():
         # Sunlight Storm
         elif GetTalkListEntryResult() == 9:
             assert t350500_x50(82080, 1090, 14, -15, 99048008, 99049008, 99040021)
+            continue
+        # Repeating Heavenly Thunder
+        elif GetTalkListEntryResult() == 10:
+            assert t350500_x50(82090, 1090, 19, -20, 99048009, 99049009, 99040022)
             continue
         # Lingering Overwhelming Power
         elif GetTalkListEntryResult() == 11:
@@ -392,9 +418,21 @@ def t350500_x20():
         elif GetTalkListEntryResult() == 18:
             assert t350500_x50(82170, 1090, 14, -15, 99048017, 99049017, 99040021)
             continue
+        # Repeating Pillars of Light
+        elif GetTalkListEntryResult() == 19:
+            assert t350500_x50(82180, 1090, 14, -15, 99048018, 99049018, 99040021)
+            continue
         # Angelic Punishment
         elif GetTalkListEntryResult() == 20:
             assert t350500_x50(82190, 1090, 19, -20, 99048019, 99049019, 99040022)
+            continue
+        # Repeating Proof of a Pact
+        elif GetTalkListEntryResult() == 21:
+            assert t350500_x50(82200, 1090, 14, -15, 99048020, 99049020, 99040021)
+            continue
+        # Extended Ghostly Assault
+        elif GetTalkListEntryResult() == 22:
+            assert t350500_x50(82210, 1090, 14, -15, 99048021, 99049021, 99040021)
             continue
         # Extended Heal Aid
         elif GetTalkListEntryResult() == 23:
@@ -463,6 +501,10 @@ def t350500_x20():
         # Lingering Perseverance
         elif GetTalkListEntryResult() == 40:
             assert t350500_x50(82390, 1090, 14, -15, 99048039, 99049039, 99040021)
+            continue
+        # Mass Tears of Denial
+        elif GetTalkListEntryResult() == 41:
+            assert t350500_x50(82400, 1090, 9, -10, 99048040, 99049040, 99040020)
             continue
         # Refined Homeward
         elif GetTalkListEntryResult() == 42:

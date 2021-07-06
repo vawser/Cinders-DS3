@@ -253,6 +253,12 @@ def t380501_x20():
         # Refined Sacred Flame
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2640000, 4, 1, 0) == 1, 12, 99044011, -1)
         
+        # Repeating Firestorm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2403000, 4, 1, 0) == 1, 13, 99044012, -1)
+        
+        # Repeating Chaos Storm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2451000, 4, 1, 0) == 1, 14, 99044013, -1)
+        
         # Refined Lingering Chaos
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2701000, 4, 1, 0) == 1, 15, 99044014, -1)
         
@@ -267,6 +273,9 @@ def t380501_x20():
         
         # Swift Boulder Heave
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2630000, 4, 1, 0) == 1, 19, 99044018, -1)
+        
+        # Great Fecal Expulsion
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2720000, 4, 1, 0) == 1, 20, 99044019, -1)
         
         # Homing Heave Earth
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2711000, 4, 1, 0) == 1, 21, 99044020, -1)
@@ -309,6 +318,12 @@ def t380501_x20():
         
         # Refined Profuse Sweat
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2562000, 4, 1, 0) == 1, 34, 99044033, -1)
+        
+        # Lingering Iron Flesh
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2430000, 4, 1, 0) == 1, 35, 99044034, -1)
+        
+        # Lingering Rockflesh
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2713000, 4, 1, 0) == 1, 36, 99044035, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -364,6 +379,14 @@ def t380501_x20():
         elif GetTalkListEntryResult() == 12:
             assert t380501_x50(81110, 1060, 9, -10, 99045011, 99046011, 99040040)
             continue
+        # Repeating Firestorm
+        elif GetTalkListEntryResult() == 13:
+            assert t380501_x50(81120, 1060, 14, -15, 99045012, 99046012, 99040041)
+            continue
+        # Repeating Chaos Storm
+        elif GetTalkListEntryResult() == 14:
+            assert t380501_x50(81130, 1060, 14, -15, 99045013, 99046013, 99040041)
+            continue
         # Refined Lingering Chaos
         elif GetTalkListEntryResult() == 15:
             assert t380501_x50(81140, 1060, 9, -10, 99045014, 99046014, 99040040)
@@ -383,6 +406,10 @@ def t380501_x20():
         # Swift Boulder Heave
         elif GetTalkListEntryResult() == 19:
             assert t380501_x50(81180, 1060, 9, -10, 99045018, 99046018, 99040040)
+            continue
+        # Great Fecal Expulsion
+        elif GetTalkListEntryResult() == 20:
+            assert t380501_x50(81190, 1060, 14, -15, 99045019, 99046019, 99040041)
             continue
         # Homing Heave Earth
         elif GetTalkListEntryResult() == 21:
@@ -439,6 +466,14 @@ def t380501_x20():
         # Refined Profuse Sweat
         elif GetTalkListEntryResult() == 34:
             assert t380501_x50(81330, 1060, 9, -10, 99045033, 99046033, 99040040)
+            continue
+        # Lingering Iron Flesh
+        elif GetTalkListEntryResult() == 35:
+            assert t380501_x50(81340, 1060, 9, -10, 99045034, 99046034, 99040040)
+            continue
+        # Lingering Rockflesh
+        elif GetTalkListEntryResult() == 36:
+            assert t380501_x50(81350, 1060, 9, -10, 99045035, 99046035, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

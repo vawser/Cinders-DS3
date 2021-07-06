@@ -265,6 +265,12 @@ def t370502_x20():
         # Swift Orbs of Judgment
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1805000, 4, 1, 0) == 1, 16, 99041015, -1)
         
+        # Repeating Crystal Storm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1800000, 4, 1, 0) == 1, 17, 99041016, -1)
+        
+        # Repeating Blizzard
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1803000, 4, 1, 0) == 1, 18, 99041017, -1)
+        
         # Quickened Soul Stream
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1620000, 4, 1, 0) == 1, 19, 99041018, -1)
         
@@ -283,6 +289,15 @@ def t370502_x20():
         # Refined Blinding Light
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1807000, 4, 1, 0) == 1, 24, 99041023, -1)
         
+        # Impenetrable Wall of Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1651000, 4, 1, 0) == 1, 25, 99041024, -1)
+        
+        # Refined Aural Decoy
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1356000, 4, 1, 0) == 1, 26, 99041025, -1)
+        
+        # Skilled Repair
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1353000, 4, 1, 0) == 1, 27, 99041026, -1)
+        
         # Supreme Magic Weapon
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1312000, 4, 1, 0) == 1, 30, 99041029, -1)
         
@@ -294,6 +309,15 @@ def t370502_x20():
         
         # Supreme Magic Shield
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1331000, 4, 1, 0) == 1, 34, 99041033, -1)
+        
+        # Lingering Unleash Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1801000, 4, 1, 0) == 1, 35, 99041034, -1)
+        
+        # Mass Spook
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1354000, 4, 1, 0) == 1, 36, 99041035, -1)
+        
+        # Mass Hidden Body
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1341000, 4, 1, 0) == 1, 37, 99041036, -1)
         
         # Refined Chameleon
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1355000, 4, 1, 0) == 1, 38, 99041037, -1)
@@ -371,6 +395,14 @@ def t370502_x20():
         elif GetTalkListEntryResult() == 16:
             assert t370502_x50(80150, 1070, 14, -15, 99042015, 99043015, 99040011)
             continue
+        # Swift Repeating Crystal Storm
+        elif GetTalkListEntryResult() == 17:
+            assert t370502_x50(80160, 1070, 14, -15, 99042016, 99043016, 99040011)
+            continue
+        # Swift Repeating Blizzard
+        elif GetTalkListEntryResult() == 18:
+            assert t370502_x50(80170, 1070, 14, -15, 99042017, 99043017, 99040011)
+            continue
         # Quickened Soul Stream
         elif GetTalkListEntryResult() == 19:
             assert t370502_x50(80180, 1070, 19, -20, 99042018, 99043018, 99040012)
@@ -395,6 +427,18 @@ def t370502_x20():
         elif GetTalkListEntryResult() == 24:
             assert t370502_x50(80230, 1070, 9, -10, 99042023, 99043023, 99040010)
             continue
+        # Impenetrable Wall of Light
+        elif GetTalkListEntryResult() == 25:
+            assert t370502_x50(80240, 1070, 9, -10, 99042024, 99043024, 99040010)
+            continue
+        # Refined Aural Decoy
+        elif GetTalkListEntryResult() == 26:
+            assert t370502_x50(80250, 1070, 9, -10, 99042025, 99043025, 99040010)
+            continue
+        # Skilled Repair
+        elif GetTalkListEntryResult() == 27:
+            assert t370502_x50(80260, 1070, 9, -10, 99042026, 99043026, 99040010)
+            continue
         # Supreme Magic Weapon
         elif GetTalkListEntryResult() == 30:
             assert t370502_x50(80290, 1070, 14, -15, 99042029, 99043029, 99040011)
@@ -410,6 +454,18 @@ def t370502_x20():
         # Supreme Magic Shield
         elif GetTalkListEntryResult() == 34:
             assert t370502_x50(80330, 1070, 14, -15, 99042033, 99043033, 99040011)
+            continue
+        # Lingering Unleash Magic
+        elif GetTalkListEntryResult() == 35:
+            assert t370502_x50(80340, 1070, 14, -15, 99042034, 99043034, 99040011)
+            continue
+        # Mass Spook
+        elif GetTalkListEntryResult() == 36:
+            assert t370502_x50(80350, 1070, 9, -10, 99042035, 99043035, 99040010)
+            continue
+        # Mass Hidden
+        elif GetTalkListEntryResult() == 37:
+            assert t370502_x50(80360, 1070, 9, -10, 99042036, 99043036, 99040010)
             continue
         # Refined Chameleon
         elif GetTalkListEntryResult() == 38:

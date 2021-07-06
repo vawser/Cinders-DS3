@@ -48,8 +48,10 @@ Orbs of Judgment 112000
 Swift Orbs of Judgment 112001
 
 Crystal Storm 112100
+Repeating Crystal Storm 112101
 
 Blizzard 112200
+Repeating Blizzard 112201
 
 Soul Stream 112300
 Quickened Soul Stream 112301
@@ -70,10 +72,13 @@ Blinding Light 112800
 Refined Blinding Light 112801
 
 Twisted Wall of Light 112900
+Impenetrable Wall of Light 112901
 
 Aural Decoy 113000
+Refined Aural Decoy 113001
 
 Repair 113100
+Skilled Repair 113101
 
 Magic Weapon 113200
 
@@ -94,10 +99,13 @@ Great Magic Shield 113800
 Supreme Magic Shield 113801
 
 Unleash Magic 113900
+Lingering Unleash Magic 113901
 
 Spook 114000
+Mass Spook 114001
 
 Hidden Body 114100
+Mass Hidden Body 114101
 
 Chameleon 114200
 Refined Chameleon 114201
@@ -144,8 +152,10 @@ Sacred Flame 121200
 Refined Sacred Flame 121201
 
 Firestorm 121300
+Repeating Firestorm 121301
 
 Chaos Storm 121350
+Repeating Chaos Storm 121351
 
 Lingering Chaos 121400
 Refined Lingering Chaos 121401
@@ -163,6 +173,7 @@ Boulder Heave 121800
 Swift Boulder Heave 121801
 
 Fecal Expulsion 121900
+Great Fecal Expulsion 121901
 
 Heave Earth 122000
 Homing Heave Earth 122001
@@ -207,8 +218,10 @@ Profuse Sweat 123300
 Refined Profuse Sweat 123301
 
 Iron Flesh 123400
+Lingering Iron Flesh 123401
 
 Rockflesh 123500
+Lingering Rockflesh 123501
 
 
 # Miracles (EquipParamGoods Sort ID 130100 - 134201)
@@ -231,6 +244,7 @@ Wrathful Barrage 130600
 Wrathful Wave 130601
 
 Holy Schism 130700
+Quickened Holy Schism 130701
 
 Lightning Stake 130800
 Sunlight Stake 130801
@@ -239,6 +253,7 @@ Lightning Storm 130900
 Sunlight Storm 130901
 
 Heavenly Thunder 131000
+Repeating Heavenly Thunder 131001
 
 Overwhelming Power 131100
 Lingering Overwhelming Power 131101
@@ -265,13 +280,16 @@ Emit Force 131800
 Emit Wrath 131801
 
 Divine Pillars of Light 131900
+Repeating Pillars of Light 131901
 
 Angelic Barrage 132000
 Angelic Punishment 132001
 
 Proof of a Pact 132100
+Repeating Proof of a Pact 132101
 
 Ghostly Assault 132200
+Extended Ghostly Assault 132201
 
 Heal Aid 132300
 Extended Heal Aid 132301
@@ -327,6 +345,7 @@ Perseverance 134000
 Lingering Perseverance 134001
 
 Tears of Denial 134100
+Mass Tears of Denial 134101
 
 Homeward 134200
 Refined Homeward 134201
@@ -337,6 +356,7 @@ Deep Barb 140100
 Refined Deep Barb 140101
 
 Deep Soul 140200
+Deep Overflow 140201
 
 Great Deep Soul 140300
 Weakening Deep Soul 140301
@@ -369,10 +389,13 @@ Cascading Deep 141200
 Lingering Cascading Deep 141201
 
 Dreg Torrent 141300
+Repeating Dreg Torrent 141301
 
 Yearning Dregs 141400
+Repeating Yearning Dregs 141401
 
 Black Fireball 141500
+Black Fire Whip 141501
 
 Black Fire Orb 141600
 Weakening Black Fire Orb 141601
@@ -396,6 +419,7 @@ Dark Dance 142200
 Forceful Dark Dance 142201
 
 Recollection 142300
+Scorching Recollection 142301
 
 Nibble 142400
 Refined Nibble 142401
@@ -407,6 +431,7 @@ Dorhys' Gnawing 142600
 Quickened Dorhys' Gnawing 142601
 
 Devouring Swarm 142700
+Repeating Swarm 142701
 
 Lifehunt Scythe 142800
 Great Lifehunt Scythe 142801

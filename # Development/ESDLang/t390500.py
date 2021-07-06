@@ -220,6 +220,9 @@ def t390500_x20():
         # Refined Deep Barb
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4100000, 4, 1, 0) == 1, 1, 99050000, -1)
         
+        # Deep Overflow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4101000, 4, 1, 0) == 1, 2, 99050001, -1)
+        
         # Weakening Deep Soul
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4102000, 4, 1, 0) == 1, 3, 99050002, -1)
         
@@ -250,6 +253,15 @@ def t390500_x20():
         # Lingering Cascading Deep
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4108000, 4, 1, 0) == 1, 12, 99050011, -1)
         
+        # Repeating Dreg Torrent
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4110000, 4, 1, 0) == 1, 13, 99050012, -1)
+        
+        # Repeating Yearning Dregs
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4109000, 4, 1, 0) == 1, 14, 99050013, -1)
+        
+        # Black Fire Whip
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4201000, 4, 1, 0) == 1, 15, 99050014, -1)
+        
         # Weakening Black Fire Orb
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4202000, 4, 1, 0) == 1, 16, 99050015, -1)
         
@@ -271,6 +283,9 @@ def t390500_x20():
         # Forceful Dark Dance
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4207000, 4, 1, 0) == 1, 22, 99050021, -1)
         
+        # Scorching Recollection
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4208000, 4, 1, 0) == 1, 23, 99050022, -1)
+        
         # Refined Nibble
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4301000, 4, 1, 0) == 1, 24, 99050023, -1)
         
@@ -279,6 +294,9 @@ def t390500_x20():
         
         # Quickened Dorhys' Gnawing
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4303000, 4, 1, 0) == 1, 26, 99050025, -1)
+        
+        # Repeating Swarm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4304000, 4, 1, 0) == 1, 27, 99050026, -1)
         
         # Great Lifehunt Scythe
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4312000, 4, 1, 0) == 1, 28, 99050027, -1)
@@ -332,6 +350,10 @@ def t390500_x20():
         if GetTalkListEntryResult() == 1:
             assert t390500_x50(83000, 1080, 9, -10, 99051000, 99052000, 99040030)
             continue
+        # Deep Overflow
+        elif GetTalkListEntryResult() == 2:
+            assert t390500_x50(83010, 1080, 9, -10, 99051001, 99052001, 99040030)
+            continue
         # Weakening Deep Soul
         elif GetTalkListEntryResult() == 3:
             assert t390500_x50(83020, 1080, 14, -15, 99051002, 99052002, 99040031)
@@ -372,6 +394,18 @@ def t390500_x20():
         elif GetTalkListEntryResult() == 12:
             assert t390500_x50(83110, 1080, 9, -10, 99051011, 99052011, 99040030)
             continue
+        # Repeating Dreg Torrent
+        elif GetTalkListEntryResult() == 13:
+            assert t390500_x50(83120, 1080, 14, -15, 99051012, 99052012, 99040031)
+            continue
+        # Repeating Yearning Dregs
+        elif GetTalkListEntryResult() == 14:
+            assert t390500_x50(83130, 1080, 14, -15, 99051013, 99052013, 99040031)
+            continue
+        # Black Fire Whip
+        elif GetTalkListEntryResult() == 15:
+            assert t390500_x50(83140, 1080, 14, -15, 99051014, 99052014, 99040031)
+            continue
         # Weakening Black Fire Orb
         elif GetTalkListEntryResult() == 16:
             assert t390500_x50(83150, 1080, 14, -15, 99051015, 99052015, 99040031)
@@ -400,6 +434,10 @@ def t390500_x20():
         elif GetTalkListEntryResult() == 22:
             assert t390500_x50(83210, 1080, 14, -15, 99051021, 99052021, 99040031)
             continue
+        # Scorching Recollection
+        elif GetTalkListEntryResult() == 23:
+            assert t390500_x50(83220, 1080, 19, -20, 99051022, 99052022, 99040032)
+            continue
         # Refined Nibble
         elif GetTalkListEntryResult() == 24:
             assert t390500_x50(83230, 1080, 9, -10, 99051023, 99052023, 99040030)
@@ -411,6 +449,10 @@ def t390500_x20():
         # Quickened Dorhys' Gnawing
         elif GetTalkListEntryResult() == 26:
             assert t390500_x50(83250, 1080, 14, -15, 99051025, 99052025, 99040031)
+            continue
+        # Repeating Swarm
+        elif GetTalkListEntryResult() == 27:
+            assert t390500_x50(83260, 1080, 14, -15, 99051026, 99052026, 99040031)
             continue
         # Great Lifehunt Scythe
         elif GetTalkListEntryResult() == 28:
