@@ -7947,7 +7947,7 @@ function AttackBothLight3_onUpdate()
 		l1 = "W_AttackBothHeavySpecial2Start"
 	end
 	
-	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 then
+	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 then
 		b1 = "W_AttackBothBackstep"
 	end
     
@@ -8355,7 +8355,7 @@ function AttackBothLightStep_onUpdate()
 	if sp_kind == 712 or sp_kind == 733 then
 		b1 = "W_AttackBothLight2"
 	end	
-	
+
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8412,7 +8412,21 @@ function AttackBothHeavyKickSpecial_onUpdate()
 end
 
 function AttackBothBackstep_onUpdate()
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+	local b1 = "W_AttackBothLight1"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+	
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 737 then
+		b1 = "W_SpecialAttackRightHeavy"
+	end		
+	
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -10196,14 +10210,19 @@ end
 function SpecialAttackRightHeavy_onUpdate()
     local r1 = "W_AttackRightLight1"
 	local r2 = "W_AttackRightHeavy1Start"
+	local b1 = "W_AttackBothLight1"
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
     if sp_kind == 734 then
         r2 = "W_AttackRightHeavy2Start"
     end	
+	
+    if sp_kind == 737 then
+        b1 = "W_AttackBothBackstep"
+    end		
     
-    if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, FALSE, FALSE, GEN_TRANS_LEFT) == TRUE then
+    if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, FALSE, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     else
         return 

@@ -121,6 +121,7 @@ Add the following armour:
 - Increase the melee range for all Spell Tools.
 - Changed Fool's Catalyst Weapon Art: It is now Fluorescent Flare, deal physical damage that scales off LUCK and costs 50 FP per cast.
 - Rampart Golem Lance should now correctly utilize Lance moveset.
+- Elemental and normal Arrows/Bolts/Greatarrows now benefits from bow/crossbow/great bow scaling.
 - Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe, Greatsword, Reapers, Hammer, Katana & Halberd.
  - Straight Sword - Anri's Straight Sword (Stance)
  		  - Astora Straight Sword (Stance)
@@ -188,6 +189,8 @@ Add the following armour:
 		  - Giant's Halberd (Stance)
 		  - Crescent Axe (Warcry)
 
+ - Great Hammer   - Bloodletter (Sanguine Wrath)
+
 # Magic
 - Sorted all spells. Each ascended spell should be right after their normal version now.
 - Changed the FX of Crystal Storm, should be a bit more toaster friendly now.
@@ -205,6 +208,7 @@ Add the following armour:
 - Frozen Weapon and Supreme Frozen Weapon are now affected by duration extending equipment like the other aux spell buffs.
 - Changed the VFX of Writhing Deep.
 - Reduced the damage of Black Flame to 150 [50].
+- Added sound to Lothric's Holy Spear, Chaos Beam and Angelic Barrage.
 
 # Ascension
 Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
@@ -449,6 +453,7 @@ Added the following Ascended Hexes:
 
 # Npc
 - Anri should be more durable now during the fight with Aldritch.
+- Helia (Pyromancy Scribe) now have Cuculus's face.
 
 # Bugfixes
 - Fixed the name/summary/description of spells.
@@ -477,7 +482,8 @@ Added the following Ascended Hexes:
 - All Pyromancy Flames with Combustion Weapon Art should now properly consume stamina when used in conjunction with Weapon Skill Shield.
 - Fixed hitbox for Alternate Katana moveset 1 Handed 4th R1 not registered properly.
 - Fixed Chaos Blade self hp reduction per hit. Should correctly reduce 3% of max hp now.
-
+- Fixed Fool's Catalyst Weapon Art for the infused variant.
+- Fixed Burial Scythe's 2H R2 not having a hitbox on shaft.
 
 
 #------------------------------
