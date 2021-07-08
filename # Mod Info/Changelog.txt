@@ -398,9 +398,11 @@ Added the following Ascended Hexes:
 
 # Map
 - Removed the trigger box for the Abyss from the map.
+- Shifted some Mimics in some areas to make them less obvious
 
 # Boss
 - Tweaked the start of the Twisted Knight fight.
+- Changed the Primordial Fragment drop rate from Dismal Knight to match that of Vordt
 
 # Consumable
 - Added new cosmetic Oil:
