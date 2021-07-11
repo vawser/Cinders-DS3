@@ -105,6 +105,36 @@ Add the following armour:
 # Changelog
 #------------------------------
 
+# Weapons
+- Sidearms tweak:
+ - Rosamarinus:
+  - Now fire 3 bullets per L1 press.
+  - Increases FP costs from 15 to 30.
+  - Reduced effective range.
+  - Turning during free aim mode should be more smooth now.
+  - Should now hit target more consistently now.
+  - Increases spread.
+  - Increases Aux buildup for Sanguinus/Maledicinus/Venenus/Galcius.
+
+ - Hunter's Blunderbuss:
+  - Increases FP costs from 20 to 25.
+  - Decreases the effectiveness of Fp/Hp steal effect for Magic and Dark infusion.
+  - Reduced effective range.
+  - Increases FP pause timer from 3 to 5 seconds.
+
+ - Hunter's Pistol:
+  - Reduced effective range. 
+
+ - Repeating Pistol:
+  - Reduced effective range.   
+  - Increases Homming capability.
+
+ - Evelynn
+  - Reduced effective range.
+
+- Slightly increases the radius of Chaos Blade Warcry Special attack.
+- Slightly extended the lingering hitbox for Alternate Katana's 4th R1 when one handed.
+
 # General
 - Increased the stats of some character NPC so that they can meet the stat requirements of the equipment that they use.
 - Changed the summary of Frozen Chaos Essence and Odessa's Crystal so that they mention their effects instead of reinforcement.
@@ -115,7 +145,10 @@ Add the following armour:
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
-
+- Fixed dummy polys for Burial Scythe.
+- Holy/Enchanted Follower's Torch should now properly deal damage when Weapon Art is used.
+- Fixed Old Moonlight consuming hefty amount of FP and Stamina when charged.
+- Rosamarinus and the elemental variant should now display the correct on hit effect.
 
 #------------------------------
 # TODO
@@ -124,6 +157,8 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
 - Shield Catalyst
-- Lance
+- Grand Lance/Chariot Lance
 - Illusion/Insignia
-- Covenant inventory
+- Covenant Inventory
+- Piercing Rifle
+- Gehrman's Blunderbuss

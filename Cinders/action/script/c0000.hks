@@ -1476,16 +1476,16 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsBlunderbuss() == TRUE then
-                    if 20 > env(2016) then
+                    if 25 > env(2016) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 112905) -- FP Cost
-                        act(2002, 113003) -- FP Pause
+                        act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsRosamarinus() == TRUE then
-                    if 15 > env(2016) then
+                    if 30 > env(2016) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 112906) -- FP Cost
