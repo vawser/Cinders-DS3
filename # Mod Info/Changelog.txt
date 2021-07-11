@@ -104,389 +104,51 @@ Add the following armour:
 #------------------------------
 # Changelog
 #------------------------------
-# Weapon
-- Changed Dark Infused Torch VFX.
-- Added Luck Infused Torch VFX.
-- Changed holster/holding position for sidearms (Except Rosamarinus and Fist of Gratia).
-- Changed Blunderbuss animation.
-- Repeating Pistol now correctly fired 2 bullets at once, attack correction were adjusted.
-- Rearranged MLGS tae event and sounds, should match the animation correctly and the transition between R2s are smoother.
-- Minor adjustment to Tonitrus, allowing player to turn during the initial animation of the Sparks weapon art.
-- Tonitrus's buff applied Blue Lightning vfx to the weapon now.
-- Each Sidearm now have distinctive sounds (Except Rosamarinus and Fist of Gratia).
-- Buffed Holy Flame, melee damage and WA damage is now on par with other Magical Flame.
-- Buffed Pyromancy Flame, now Air Juggled the enemy when struck by the weapon art, decrease the Weapon Art cost and gave it passive stamina regen.
-- All Pyromancy dedicated catalysts (Magical flame such as Sorcerous Flame does not count) will now remove leeches when held.
-- Removed the "easier to be staggered" mechanic from Spell Tools, should get rid of the lava dance bug. 
-- Increase the melee range for all Spell Tools.
-- Changed Fool's Catalyst Weapon Art: It is now Fluorescent Flare, deal physical damage that scales off LUCK and costs 50 FP per cast.
-- Rampart Golem Lance should now correctly utilize Lance moveset.
-- Elemental and normal Arrows/Bolts/Greatarrows now benefits from bow/crossbow/great bow scaling.
-- Changed some moveset for the following weapon class: Straight Sword, Curved Sword, Spear, Axe, Greataxe, Greatsword, Reapers, Hammer, Katana & Halberd.
- - Straight Sword - Anri's Straight Sword (Stance)
- 		  - Astora Straight Sword (Stance)
-		  - Sunlight Straight Sword (Oath of Sunlight)
-		  - Crystal Straight Sword (Stance)
-		  - Silver Knight Straight Sword (Silver Knight's Grace)
-		  - Firelink Sword (Ember)
-		  - Hallowed Sword (Stance)
-		  - Irithyll Straight Sword (Stance)
 
- - Curved Sword   - Beasthunter Saif (Hunter's Fury)
-		  - Carthus Curved Sword (Spin Slash)
-		  - Crescent Moon Sword (Crescent Blade)
-		  - Rotten Ghru Curved Sword (Spin Slash)
-		  - Smouldering Curved Sword (Spin Slash)
-		  - Blind (Spin Slash)
-		  - Burial Blade (Whirlwind Fury)
+# Weapons
+- Sidearms tweak:
+ - Rosamarinus:
+  - Now fire 3 bullets per L1 press.
+  - Increases FP costs from 15 to 30.
+  - Reduced effective range.
+  - Turning during free aim mode should be more smooth now.
+  - Should now hit target more consistently now.
+  - Increases spread.
+  - Increases Aux buildup for Sanguinus/Maledicinus/Venenus/Galcius.
 
- - Spear	  - Demon's Spear (Stance)
-		  - Firelink Spear (Ember)
-		  - Rotten Ghru Spear (Charge)
-		  - Saint Bident (Stance)
-		  - Silver Knight Spear (Lightning Stance)
-		  - Smouldering Spear (Charge)
-		  - Winged Spear (Stance)
+ - Hunter's Blunderbuss:
+  - Increases FP costs from 20 to 25.
+  - Decreases the effectiveness of Fp/Hp steal effect for Magic and Dark infusion.
+  - Reduced effective range.
+  - Increases FP pause timer from 3 to 5 seconds.
 
- - Axe		  - Brigand Axe (Warcry)
-		  - Guillotine Axe (Forceful Slash)
-		  - Serpentine Hatchet (Stomp)
- 
- - Greataxe	  - Demon's Great Axe (Warcry)
-		  - Dozer Axe (Stomp)
-		  - Golem Axe (Wind Rush)
-		  - Missionary Axe (Spin Slash), it is now a Paired Greataxes
-		  - Serpentine Battle Axe (Spin Slash), it is now a Greataxe instead of Axe
+ - Hunter's Pistol:
+  - Reduced effective range. 
 
- - Greatsword	  - Bastard Sword (Stomp)
-		  - Firelink Greatsword (Ember)
-		  - Flamberge (Stance)
-		  - Hallowed Greatsword (Charge)
-		  - Irithyll Greatsword (Stance)
-		  - Man Serpent Greatsword (Stomp)
-		  - Stone Greatsword (Tranquil Walk of Peace)
-		  - Sunlight Greatsword (Oath of Sunlight)
+ - Repeating Pistol:
+  - Reduced effective range.   
+  - Increases Homming capability.
 
- - Reaper	  - Great Corvian Scythe (Neck Swipe)
-		  - Burial Scythe (Hunter's Reaping)
+ - Evelynn
+  - Reduced effective range.
 
- - Hammer	  - Hammer of the Great Tree (Warcry)
-		  - Wooden Mallet (Spin Bash)
-		  - Irithyll Mace (Perseverance)
-		  - Blacksmith Hammer (Perseverance)
-		  - Tonitrus (Sparks)
-		  - Tailbone Club (Unleash Dragon)
-		  - Sanguinus (Bloodlust)
- 
- - Katana	  - Uchigatana (Spin Slash)
-		  - Black Blade (Hold)
-		  - Chaos Blade (Mushin)
-		  - Makoto (Ichimonji)
-
- - Halberd	  - Hunter Axe (Spin Sweep)
-		  - Red Hilted Halberd (Perseverance)
-		  - Dragonrider Halberd (Stance)
-		  - Giant's Halberd (Stance)
-		  - Crescent Axe (Warcry)
-
- - Great Hammer   - Bloodletter (Sanguine Wrath)
-
-# Magic
-- Sorted all spells. Each ascended spell should be right after their normal version now.
-- Changed the FX of Crystal Storm, should be a bit more toaster friendly now.
-- Changed the FX of Blizzard, its visual appearance matches more the theme of the spell.
-- Changed Quickened Soul Stream to use the Quick Soul Arrow cast animation (no more broken consecutive/rolling/running casts).
-- Changed Homing Farron Dart to Refined Farron Dart.
-- Changed Homing Soul Arrow to Explosive Soul Arrow.
-- Changed Homing Soul Spear to Explosive Soul Spear.
-- Added homing to 90 degrees to Soul Wave by default.
-- Increased the damage of Acid Surge from 5 + 0.05% to 5 + 0.1%.
-- Added a new pyromancy: Chaos Beam, transposed from the Soul of the Demon Prince.
-- Reduced the poise damage of Homing Soulmass, Surging Soulmass, Homing Crystal Soulmass, Weakening Crystal Soulmass, Wrathful Orbs and Affinity.
-- Caressing Tears can now reduce toxic and curse build up (it only could remove toxic status after it was inflicted until now).
-- Supreme Lightning Blade now used Sunlight Blade vfx.
-- Frozen Weapon and Supreme Frozen Weapon are now affected by duration extending equipment like the other aux spell buffs.
-- Changed the VFX of Writhing Deep.
-- Reduced the damage of Black Flame to 150 [50].
-- Added sound to Lothric's Holy Spear, Chaos Beam and Angelic Barrage.
-
-# Ascension
-Ascended spells are obtained throught their respective scribes. It is required that the normal version of the spell is in the inventory.
-The price to ascend a spell is 10, 15 or 20 Crystal Fragments/Fire Seeds/Holy Fragments/Abyssal Fragments depending on the spell. 
-The normal version of the spell is not consumed upon ascension.
-
-Added the following Ascended Sorceries:
-- Refined Blinding Light
-- Refined Cast Light
-- Refined Chameleon
-- Refined Farron Flashsword
-- Refined Hidden Weapon
-- Refined Shockwave
-- Extended White Dragon Breath
-- Focused Crystal Hail
-- Homing Farron Hail
-- Heavy Old Moonlight
-- Heavy Soul Greatsword
-- Lingering Pestilent Mist
-- Lingering Snap Freeze
-- Repeating Soul Orb
-- Repeating Crystal Orb
-- Swift Orbs of Judgment
-- Swift Soul Wave
-- Supreme Frozen Weapon
-- Surging Soulmass
-- Weakening Crystal Soulmass
-- Refined Aural Decoy
-- Mass Hidden Body
-- Skilled Repair
-- Mass Spook
-- Impenetrable Wall of Light
-- Lingering Unleash Magic
-- Repeating Blizzard
-- Repeating Crystal Storm
-
-Added the following Ascended Pyromancies:
-- Incendiary Fireball
-- Weakening Fire Orb
-- Lingering Acid Surge
-- Lingering Carthus Beacon 
-- Supreme Carthus Flame Arc
-- Great Flash Sweat
-- Lingering Poison Mist
-- Lingering Power Within
-- Refined Profuse Sweat
-- Fortified Rapport
-- Refined Sacred Flame
-- Lingering Toxic Mist
-- Fond Warmth
-- Incendiary Bursting Fireball
-- Chaos Vortex
-- Refined Fire Surge
-- Incendiary Whip  
-- Refined Flame Fan
-- Lingering Floating Chaos
-- Homing Chaos Fire Orb
-- Incendiary Combustion
-- Lingering Immolation
-- Refined Lingering Chaos
-- Great Cataclysm
-- Distant Profaned Flame
-- Great Seething Chaos
-- Swift Boulder Heave
-- Summon Earthfall
-- Quickened Earthquake
-- Homing Heave Earth
-- Incinerating Chaos Beam
-- Lingering Iron Flesh
-- Lingering Rockflesh
-- Repeating Chaos Storm
-- Repeating Firestorm
-- Great Fecal Expulsion
-
-Added the following Ascended Miracles:
-- Supreme Blessed Weapon
-- Lingering Bountiful Light
-- Lingering Bountiful Sunlight
-- Quickened Caressing Tears
-- Supreme Darkmoon Blade
-- Refined Force
-- Extended Great Heal
-- Supreme Magic Barrier
-- Extended Heal
-- Extended Heal Aid
-- Divine Relief
-- Refined Homeward
-- Sunlight Blade
-- Extended Med Heal
-- Lingering Perseverance
-- Extended Projected Heal
-- Lingering Replenishment
-- Extended Sacred Oath
-- Extended Soothing Sunlight
-- Storm Spear
-- Refined Lightning Arrow
-- Lightning Surge
-- Sunlight Stake
-- Sunlight Storm
-- Lingering Overwhelming Power
-- Homing Sunlight Spear
-- Wrathful Wave
-- Weakening Wrathful Orbs
-- Angelic Punishment
-- Refined Divine Arrow
-- Emit Divine Wrath
-- Quickened Halo
-- Homing Lothric's Holy Spear
-- Refined Way of White Corona
-- Quickened Wrath of the Gods
-- Mass Tears of Denial
-- Repeating Heavenly Thunder
-- Quickened Holy Schism
-- Repeating Pillars of Light
-- Extended Ghostly Assault
-- Repeating Proof of a Pact
-
-Added the following Ascended Hexes:
-- Lingering Atonement
-- Supreme Black Flame Arc
-- Supreme Dark Blade
-- Refined Dead Again
-- Bottomless Deep Protection
-- Lingering Numbness
-- Supreme Pulsating Blade
-- Supreme Pungent Blade
-- Lingering Repel
-- Curse of Silence
-- Echo of Despair
-- Heavy Abyssal Edge
-- Pursuers
-- Weakening Black Fire Orb
-- Refined Black Fire Scatter
-- Scorching Black Fire Vestiges
-- Scorching Black Flame
-- Quickened Black Serpent
-- Lingering Cascading Deep
-- Explosive Climax
-- Cursed Dark Bead
-- Forceful Dark Dance
-- Refined Dark Edge
-- Refined Deep Barb
-- Quickened Dorhys' Gnawing
-- Gnawing Swarm
-- Gravelord Sword
-- Weakening Deep Soul
-- Quickened Soul Dregs
-- Great Lifehunt Scythe
-- Scorching Mournful Flames
-- Refined Nibble
-- Refined Surging Deep
-- Curse of Agony
-- Great Writhing Deep
-- Black Fire Whip
-- Deep Overflow
-- Repeating Swarm
-- Repeating Dreg Torrent
-- Scorching Recollection
-- Repeating Yearning Dregs
-
-# Armor
-- Added Insignias/Emblems for the following set:
- - Gallant Set
- - Warden Set
- - Dull Gold Set
- - Fluted Set
- - Huntsman Set
- - Mirdan Set
- - Sentinel Set
- - Old Raggedy Set
- - Charlatan Set
- - Martyr Set
- - Pickpocket Set
- - Magician Set
-
-- Added physics to the following set:
- - Dragonrider Set
- - Vileblood Set
- - Quicksilver Set
+- Slightly increases the radius of Chaos Blade Warcry Special attack.
+- Slightly extended the lingering hitbox for Alternate Katana's 4th R1 when one handed.
 
 # General
-- Quickstep now consumed 20 stamina regardless of weapon class.
-- Changed the description of the covenant tokens to mention Spell Ascension.
+- Increased the stats of some character NPC so that they can meet the stat requirements of the equipment that they use.
+- Changed the summary of Frozen Chaos Essence and Odessa's Crystal so that they mention their effects instead of reinforcement.
 
-# Shield
-- Several shields with innate effect will have an in-game icon to reflect the effect now.
-
-# Map
-- Removed the trigger box for the Abyss from the map.
-- Shifted some Mimics in some areas to make them less obvious
-
-# Boss
-- Tweaked the start of the Twisted Knight fight.
-- Changed the Primordial Fragment drop rate from Dismal Knight to match that of Vordt
-
-# Consumable
-- Added new cosmetic Oil:
- - Sunlight Oil - Applies Sunlight Blade vfx to weapon.
- - Bolt Oil - Applies Blue Lightning vfx to weapon.
- - Enchanted Oil - Applies Pacify vfx to weapon.
- - Scorching Oil - Applies Lorian's Greatsword vfx to weapon.
- - Rotten Oil - Coat weapon with living maggots.
- - Gust Oil - Applies Storm Ruler vfx to weapon.
-- Changed the VFX of Writ of Immolation.
-
-# Covenant
-- Expanded Servant of the Rat inventory:
- - 5 Rat Tails:
-  - Cleansing Pendant
-
- - 3 Rat Tails: 
-  - Titanite Fragment
-  - Inferi Petal
-  - Combustum Petal
-  - Vindicti Petal
-  - Barathrum Petal
-  - Celeritas Stem
-  - Veloxi Moss
-  - Budding Green Blossom
-  - Blooming Purple Moss Clump
-  - Purging Stone
-
- - 1 Rat Tail:
-  - Green Blossom
-  - Bloodred Moss Clump
-  - Purple Moss Clump
-  - Rime-blue Moss Clump
-  - Old Growth Balm
-  - Vine Balm
-  - Blackweed Balm
-  - Goldenfruit Balm
-
-- Expanded Company of Champions inventory:
- - 50 Awestones:
-  - Soul of a Fallen Champion
-
- - 20 Awestones:
-  - Soul of a Fallen Paladin
-  - Soul of a Fallen Sentinel
-  - Soul of a Fallen Sage
-  - Soul of a Fallen Warrior
-  - Soul of a Fallen Astrologer
-  - Soul of a Fallen Berserker
-
-# Npc
-- Anri should be more durable now during the fight with Aldritch.
-- Helia (Pyromancy Scribe) now have Cuculus's face.
+# Shields
+- Reduced the stability of the Leather Shield from 75 to 62 (the same as the rest of small shields).
+- Added air juggle stagger to the Dragonhead Greatshield WA.
 
 # Bugfixes
-- Fixed the name/summary/description of spells.
-- Fixed the stat requirements of some spells when using the Laughing infusion.
-- Fixed several infusion entries using the incorrect AtkElementCorrectParam/Materials and some with incorrect scaling.
-- Fixed the drop chances of Lifegem from the Scimitar wielding skeleton in Catacombs of Carthus.
-- Fixed the drop chances of Veloxi Moss from the Lycanthrope Hunter.
-- Spellbound items carry limit should be only 1 now.
-- Frozen Pine Resin and Carthus Rouge effect are now similar to the aux effect gained from infusion.
-- Armor clipping should be fixed or are kept to minimum (mostly) now.
-- Black Flame (Catalyst), Caitha Chime (wp_a_1324) and Fool's Catalyst should now work as intended.
-- Dark Flamberge and Curse Morion Blade should work as intended now.
-- Blessing of Rosaria should work as intended now.
-- Fixed the Greatsword class weapon One Handed R2, which the player is able to cancel into the second R2 upon pressing the R2 button again.
-- Fixed an oversight for Corrupted Talisman, which the Weapon Art spawn much lesser bullet when casted with Left Hand.
-- Fixed No FP Animation for a298 & a299 (Firestrom and Force Spell Tool), you are no longer able to move during the whole animation, animation were sped up to compensate.
-- Cannon Projectile now correctly line up with the barrel instead of firing from overhead.
-- Fixed Wanderer's Emblem incorrectly apply Lether Boots visual to the player when used.
-- Fixed Heave Earth not moving straight forward.
-- Prevented an exploit in the Memory of Skeletons which meant you could get millions of souls easily.
-- Fixed the name of the Witchtree Branch when Laughing infused.
-- Fixed Magic Gems not being available in the Item Forge after lighting the Central Irithyll bonfire.
-- Fixed several Refined spells still using FP for casting.
-- Fixed description of Immolation and Sanguinus (Hammer).
-- Fixed the lava dance bug caused by Spell Tools.
-- All Pyromancy Flames with Combustion Weapon Art should now properly consume stamina when used in conjunction with Weapon Skill Shield.
-- Fixed hitbox for Alternate Katana moveset 1 Handed 4th R1 not registered properly.
-- Fixed Chaos Blade self hp reduction per hit. Should correctly reduce 3% of max hp now.
-- Fixed Fool's Catalyst Weapon Art for the infused variant.
-- Fixed Burial Scythe's 2H R2 not having a hitbox on shaft.
-
+- Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
+- Fixed dummy polys for Burial Scythe.
+- Holy/Enchanted Follower's Torch should now properly deal damage when Weapon Art is used.
+- Fixed Old Moonlight consuming hefty amount of FP and Stamina when charged.
+- Rosamarinus and the elemental variant should now display the correct on hit effect.
 
 #------------------------------
 # TODO
@@ -495,6 +157,8 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
 - Shield Catalyst
-- Lance
+- Grand Lance/Chariot Lance
 - Illusion/Insignia
-- Covenant inventory
+- Covenant Inventory
+- Piercing Rifle
+- Gehrman's Blunderbuss

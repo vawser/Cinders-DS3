@@ -270,6 +270,9 @@ Rakuyo
 Handmaid's Ladle
 - Effect: increases VIT and END by 2.
 
+Pyromancy Flame
+- Effect: increases stamina recovery speed by 20.
+
 #------------------------
 # Catalysts
 #------------------------
@@ -341,7 +344,6 @@ Mendicant's Staff           - Lightning
 Pyromancy Flame             - Fire
 Pyromancer's Parting Flame  - Fire
 Fool's Flame                - Fire
-Chaos Flame                 - Fire
 
 #------------------------
 # Hybrid Tools
