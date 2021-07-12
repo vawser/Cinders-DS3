@@ -56,7 +56,6 @@
 <text id="147">%null%</text>
 <text id="148">%null%</text>
 <text id="149">%null%</text>
-
 <text id="10000">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
 Restores 3 FP every second whilst worn.
@@ -64,7 +63,6 @@ Restores 3 FP every second whilst worn.
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
-
 <text id="10020">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
 
 Reduces weapon stamina consumption by 10% whilst worn.
@@ -72,7 +70,6 @@ Reduces weapon stamina consumption by 10% whilst worn.
 Enables the collection of Wolf's Blood Swordgrass from enemies.
 
 The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
-
 <text id="10030">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
 
 Boosts Dark damage by 5% whilst worn.
@@ -80,7 +77,6 @@ Boosts Dark damage by 5% whilst worn.
 Enables the collection of Human Dregs from enemies.
 
 The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
-
 <text id="10040">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
 
 Boosts Lightning damage by 5% whilst worn.
@@ -88,7 +84,6 @@ Boosts Lightning damage by 5% whilst worn.
 Enables the collection of Sunlight Medal from enemies.
 
 Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
-
 <text id="10050">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
 
 Increases Physical damage by 5% whilst worn.
@@ -96,7 +91,6 @@ Increases Physical damage by 5% whilst worn.
 Enables the collection of Vertebra Shackle from enemies.
 
 The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
-
 <text id="10060">The emblem for the Thieves' Pact. 
 
 Increases Item Discovery by 25 whilst worn.
@@ -104,13 +98,11 @@ Increases Item Discovery by 25 whilst worn.
 Enables the collection of various consumable items from enemies.
 
 The success of thievery depends upon bonds of trust amongst thieves.</text>
-
 <text id="10070">Emblem of the Chaos Servants, sworn to the Chaos Flame.
 
 Increases Fire damage by 5% whilst worn.
 
 Enables the collection of Fire Seeds from enemies.</text>
-
 <text id="10080">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
 
 Increases soul absorption by 10% whilst worn.
@@ -118,7 +110,6 @@ Increases soul absorption by 10% whilst worn.
 Enables the collection of Pale Tongues from enemies.
 
 Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
-
 <text id="10100">A scroll confirming membership to an elite cabal of Vinheim scholars.
 
 Increases Magic damage by 5% whilst worn.
@@ -145,7 +136,6 @@ Enables the collection of Dragon Eyes from enemies.
 If our human flesh is our greatest weakness,
 then those who seek a form that imitates the
 ancient dragons are true vanguards.</text>
-
 <text id="10140">Faded sheepskin parchment depicting the Darkmoon and a sword. 
 
 Increases max FP by 5% whilst worn.
@@ -167,18 +157,17 @@ Increases the strength and toughness of enemies by 30%, boosts soul absorption b
 
 Enables the collection of Awestones from enemies.</text>
 <text id="10170">Crest of the Rat King. 
-Humans that follow the Rat King must wear this crest at all times to signify their allegiance to cause.
+Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
 
 Increases all defences and resistances by 5%.
 
 Enables the collection of Rat Tails from enemies.</text>
 <text id="10180">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to cause.
+Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
 
 Boosts the damage of companions by 25% whilst worn.
 
 Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
-
 <text id="20000">A generations-old ring set with a small red jewel.
 
 Raises maximum HP by 10%.
@@ -209,7 +198,6 @@ Rings have unique powers, and their discovery will do much to ease a wearisome j
 Raises maximum HP by 30%.
 
 Rings have unique powers, and their discovery will do much to ease a wearisome journey.</text>
-
 <text id="20006">%null%</text>
 <text id="20007">%null%</text>
 <text id="20008">%null%</text>
@@ -990,7 +978,6 @@ Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers a
 Boosts max FP by 25% but reduces max HP by 10%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
-
 <text id="20306">%null%</text>
 <text id="20307">%null%</text>
 <text id="20308">%null%</text>
@@ -2233,7 +2220,6 @@ Knights who peer into the black orb are lured into battles of death, transformed
 <text id="20827">%null%</text>
 <text id="20828">%null%</text>
 <text id="20829">%null%</text>
-
 <text id="20830">Ring of Oceiros, former king of Lothric.
 
 Increases max FP by 10%.
@@ -2280,7 +2266,6 @@ The Consumed King ascribed his resilience to the divine protection of the dragon
 <text id="20837">%null%</text>
 <text id="20838">%null%</text>
 <text id="20839">%null%</text>
-
 <text id="30000">Ring of an eminent figure residing in Londor. Known for their unnatural intelligence.
 
 FP regeneration is no longer paused by normal attacks.
@@ -2295,7 +2280,6 @@ A healthy body is imperative for a healthy mind.</text>
 <text id="30007">%null%</text>
 <text id="30008">%null%</text>
 <text id="30009">%null%</text>
-
 <text id="30010">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
 Absorb FP from fallen enemies, restoring 50 FP.
@@ -2330,7 +2314,6 @@ Considered heretical, this relic would be destroyed by any good-natured sorcerer
 <text id="30017">%null%</text>
 <text id="30018">%null%</text>
 <text id="30019">%null%</text>
-
 <text id="30020">Cursed remains belonging to High Lord Wolnir. This chalice brims with abyssal energies.
 
 Boosts the potency of hexes by 10%.
@@ -2365,7 +2348,6 @@ Suffering is naught but a reflection of man's true nature.</text>
 <text id="30027">%null%</text>
 <text id="30028">%null%</text>
 <text id="30029">%null%</text>
-
 <text id="30040">Once a treasured posession of the Royal Aegis, this pendant has become a symbol of despair.
 
 Slows wearer and nearby enemies, reducing their absorption by 2.5% every second. These instances expire after 10 seconds.
@@ -2380,7 +2362,6 @@ Dullness of the mind can throw even the sharpest wits off kilter.</text>
 <text id="30047">%null%</text>
 <text id="30048">%null%</text>
 <text id="30049">%null%</text>
-
 <text id="30050">A symbol worn by many of the pilgrims that journeyed to Lothric Castle. 
 
 Increases max Stamina by 20%.
@@ -2415,7 +2396,6 @@ Those that have wronged must excise their sin through a journey of penitence.</t
 <text id="30057">%null%</text>
 <text id="30058">%null%</text>
 <text id="30059">%null%</text>
-
 <text id="30070">The seal of an ancient order. It bares an uncanny resemblance to that of a wolf.
 
 Whilst below 50%, ironskin is applied to the wearer.
@@ -2432,7 +2412,6 @@ It is said that members of this ancient order were unmovable in battle, standing
 <text id="30077">%null%</text>
 <text id="30078">%null%</text>
 <text id="30079">%null%</text>
-
 <text id="30080">A tome enwreathed in the symbol of the sun. An unifying figure, the sun is mentioned in numerous tales.
 
 Increases effectiveness of HP recovery by 10%.
@@ -2479,7 +2458,6 @@ In time, dedication yields its own reward.
 <text id="30087">%null%</text>
 <text id="30088">%null%</text>
 <text id="30089">%null%</text>
-
 <text id="30090">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
 
 Increases physical defense by 50% but increases evasive stamina costs by 20%.
@@ -2495,7 +2473,6 @@ Greatwoods are known for their hardiness, but not for their swiftness.
 <text id="30097">%null%</text>
 <text id="30098">%null%</text>
 <text id="30099">%null%</text>
-
 <text id="30170">A ring once used by a mighty warrior against the demons of Izalith.
 
 Boosts damage by 20% against demonic creatures.
@@ -2530,7 +2507,6 @@ Boosts damage by 30% against demonic creatures.
 <text id="30177">%null%</text>
 <text id="30178">%null%</text>
 <text id="30179">%null%</text>
-
 <text id="30180">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
 Boosts damage by 20% against undead creatures.
@@ -2565,7 +2541,6 @@ Boosts damage by 30% against undead creatures.
 <text id="30187">%null%</text>
 <text id="30188">%null%</text>
 <text id="30189">%null%</text>
-
 <text id="30190">Blighted by madness, this ring acts as a potent reminder of the fate of all hollows.
 
 Boosts damage by 20% against hollow creatures.
@@ -2600,7 +2575,6 @@ Boosts damage by 30% against hollow creatures.
 <text id="30197">%null%</text>
 <text id="30198">%null%</text>
 <text id="30199">%null%</text>
-
 <text id="30200">A ring worn by the abysswalkers of yore.
 The ring imbues its wearer with hallowed light, permitting them to delve into the abyss without harm.
 
@@ -2641,7 +2615,6 @@ Boosts damage by 30% against abyssal creatures.
 <text id="30207">%null%</text>
 <text id="30208">%null%</text>
 <text id="30209">%null%</text>
-
 <text id="30210">A ring used by an wise official of Vinheim, whose position granted him much renown.
 
 Boosts max FP by 7.5% and grants an additional attunement slot.</text>
@@ -2664,7 +2637,6 @@ Boosts max FP by 20% and grants an additional attunement slot.</text>
 <text id="30217">%null%</text>
 <text id="30218">%null%</text>
 <text id="30219">%null%</text>
-
 <text id="30330">A ring originating from Farron Swamp. It appears to be imbued with a retaliation enchantment.
 
 Deals 50 Physical damage to enemies hit whilst rolling and kicking.
@@ -2699,7 +2671,6 @@ The Abyss Watchers were known for the agile style of swordfighting, such rings a
 <text id="30337">%null%</text>
 <text id="30338">%null%</text>
 <text id="30339">%null%</text>
-
 <text id="30340">A ring originating from Irithyll of the Boreal Valley. It appears to be imbued with a retaliation enchantment.
 
 Deals 50 Magic damage to enemies hit whilst rolling and kicking.
@@ -2734,7 +2705,6 @@ An echo of Pontiff Sulyvahn's power imbued within an ornate ring, said to be bes
 <text id="30347">%null%</text>
 <text id="30348">%null%</text>
 <text id="30349">%null%</text>
-
 <text id="30350">A ring originating from the Smouldering Lake. It appears to be imbued with a retaliation enchantment.
 
 Deals 50 Fire damage to enemies hit whilst rolling and kicking.
@@ -2769,7 +2739,6 @@ Once simply a ceremonial ring, the seeds of chaos have sprouted and enwreathed t
 <text id="30357">%null%</text>
 <text id="30358">%null%</text>
 <text id="30359">%null%</text>
-
 <text id="30360">A ring originating from Archdragon Peak. It appears to be imbued with a retaliation enchantment.
 
 Deals 50 Lightning damage to enemies hit whilst rolling and kicking.
@@ -2804,7 +2773,6 @@ The serpent-men were apt to experiment with lightning, in pursuit of power. This
 <text id="30367">%null%</text>
 <text id="30368">%null%</text>
 <text id="30369">%null%</text>
-
 <text id="30370">A ring originating from the Cathedral of the Deep. It appears to be imbued with a retaliation enchantment.
 
 Deals 50 Dark damage to enemies hit whilst rolling and kicking.
@@ -2839,7 +2807,6 @@ A ceremonial ring worn by the deacons of the deep. Emits a dark aura, warding of
 <text id="30377">%null%</text>
 <text id="30378">%null%</text>
 <text id="30379">%null%</text>
-
 <text id="30380">A ring emblazoned with a fortifying symbol.
 
 Prevents equipment degradation.
@@ -2854,7 +2821,6 @@ Used by wanderers to maintain their equipment in optimal condition, for a broken
 <text id="30387">%null%</text>
 <text id="30388">%null%</text>
 <text id="30389">%null%</text>
-
 <text id="30390">A ring engraved with a portrait of a mercenary from a southern kingdom. 
 
 Increases vigor by 6.
@@ -2889,7 +2855,6 @@ Mercenaries from the South, famed for their brawn and bravery, were extensively 
 <text id="30397">%null%</text>
 <text id="30398">%null%</text>
 <text id="30399">%null%</text>
-
 <text id="30400">A ring engraved with a portrait of Gertrude, Heavenly Daughter and messenger of the Angels. 
 
 Increases attunement by 6.
@@ -2924,7 +2889,6 @@ Gertrude and her followers were branded outlaws by the rulers of Lothric as puni
 <text id="30407">%null%</text>
 <text id="30408">%null%</text>
 <text id="30409">%null%</text>
-
 <text id="30410">A ring engraved with a portrait of a travelling merchant. 
 
 Increases endurance by 6.
@@ -2959,7 +2923,6 @@ The kingdom of Lothric enjoyed goods from many distant lands, thanks to the trav
 <text id="30417">%null%</text>
 <text id="30418">%null%</text>
 <text id="30419">%null%</text>
-
 <text id="30420">A ring engraved with a portrait of a surreptitious physician. 
 
 Increases vitality by 6.
@@ -2994,7 +2957,6 @@ Long ago, the surgeons and doctors of Lothric were well-regarded. As time passed
 <text id="30427">%null%</text>
 <text id="30428">%null%</text>
 <text id="30429">%null%</text>
-
 <text id="30430">A ring engraved with a portrait of a jovial court jester. 
 
 Increases luck by 6.
@@ -3029,7 +2991,6 @@ The entertainers among the Kingdom of Lothric formed a powerful estate, as their
 <text id="30437">%null%</text>
 <text id="30438">%null%</text>
 <text id="30439">%null%</text>
-
 <text id="30450">A tincture drunk by pilgrims of Londor to press on during their long journey. 
 
 Boosts physical, magic, fire, lightning and dark defence by 5%.
@@ -3064,7 +3025,6 @@ The pilgrimage is a long and arduous journey for most, as it is well known that 
 <text id="30457">%null%</text>
 <text id="30458">%null%</text>
 <text id="30459">%null%</text>
-
 <text id="30500">A relic of Londor, imbued with an odd kind of magic.
 
 Increases shield stability by 2.5%.
@@ -3099,7 +3059,6 @@ This trinket imbues one with a sense of stability, causing a foe's attacks to fa
 <text id="30507">%null%</text>
 <text id="30508">%null%</text>
 <text id="30509">%null%</text>
-
 <text id="30510">A ring of blue stone.
 The stone is misshaped, however imperceptibly.
 
@@ -3114,7 +3073,6 @@ However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30517">%null%</text>
 <text id="30518">%null%</text>
 <text id="30519">%null%</text>
-
 <text id="30520">A ring of red stone.
 The stone is misshaped, however imperceptibly.
 
@@ -3129,7 +3087,6 @@ However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30527">%null%</text>
 <text id="30528">%null%</text>
 <text id="30529">%null%</text>
-
 <text id="30530">A ring of white stone.
 The stone is misshaped, however imperceptibly.
 
@@ -3144,7 +3101,6 @@ However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30537">%null%</text>
 <text id="30538">%null%</text>
 <text id="30539">%null%</text>
-
 <text id="30540">A ring of yellow stone.
 The stone is misshaped, however imperceptibly.
 
@@ -3159,7 +3115,6 @@ However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30547">%null%</text>
 <text id="30548">%null%</text>
 <text id="30549">%null%</text>
-
 <text id="30560">A cursed ring depicting a demon eye. 
 
 Increases the persistence of foes whilst pursuing the player
@@ -3174,7 +3129,6 @@ If it is tranquility that you seek, then you should never have left your home. I
 <text id="30567">%null%</text>
 <text id="30568">%null%</text>
 <text id="30569">%null%</text>
-
 <text id="30650">A ring said to have once belonged to a man driven to the very brink of madness. As his fury grew, so did his depravity.
 
 Killing enemies boosts beasthood. Each level of beasthood increases damage inflicted by 1% but causes a drain of 1 HP per second.
@@ -3209,7 +3163,6 @@ These instances stack, expiring when the wearer is dead.</text>
 <text id="30657">%null%</text>
 <text id="30658">%null%</text>
 <text id="30659">%null%</text>
-
 <text id="30660">A stone ring imbued with defensive properties.
 Grants its wearer the power of stone, warding off attacks they otherwise would not.
 
@@ -3238,7 +3191,6 @@ Increases Physical defense by 100.</text>
 <text id="30667">%null%</text>
 <text id="30668">%null%</text>
 <text id="30669">%null%</text>
-
 <text id="30670">A stone ring imbued with defensive properties.
 Imbues its wearer with a magic aura, warding off attacks they otherwise would not.
 
@@ -3267,7 +3219,6 @@ Increases Magic defense by 100.</text>
 <text id="30677">%null%</text>
 <text id="30678">%null%</text>
 <text id="30679">%null%</text>
-
 <text id="30680">A stone ring imbued with defensive properties.
 Imbues its wearer with a fire aura, warding off attacks they otherwise would not.
 
@@ -3296,7 +3247,6 @@ Increases Fire defense by 100.</text>
 <text id="30687">%null%</text>
 <text id="30688">%null%</text>
 <text id="30689">%null%</text>
-
 <text id="30690">A stone ring imbued with defensive properties.
 Imbues its wearer with a lightning aura, warding off attacks they otherwise would not.
 
@@ -3325,7 +3275,6 @@ Increases Lightning defense by 100.</text>
 <text id="30697">%null%</text>
 <text id="30698">%null%</text>
 <text id="30699">%null%</text>
-
 <text id="30700">A stone ring imbued with defensive properties.
 Imbues its wearer with an abyssal aura, warding off attacks they otherwise would not.
 
@@ -3354,7 +3303,6 @@ Increases Dark defense by 100.</text>
 <text id="30707">%null%</text>
 <text id="30708">%null%</text>
 <text id="30709">%null%</text>
-
 <text id="30800">The ring used by the esteemed Glaive Master Hodir. It is said that he once  resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
 
 Boosts physical attack by 10%.
@@ -3389,7 +3337,6 @@ Boosts physical attack by 20%.
 <text id="30807">%null%</text>
 <text id="30808">%null%</text>
 <text id="30809">%null%</text>
-
 <text id="30840">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
 
 Bestows a random effect every 15 seconds. Removing the ring will physically harm the wearer.
@@ -3404,7 +3351,6 @@ Bestows a random effect every 15 seconds. Removing the ring will physically harm
 <text id="30847">%null%</text>
 <text id="30848">%null%</text>
 <text id="30849">%null%</text>
-
 <text id="30870">An exotic ring from the eastern lands. Favoured by ninjas.
 
 Allows you to quickstep easily, overriding regular rolling. Disabled if current equipment load is above 70% of max.</text>
@@ -3417,7 +3363,6 @@ Allows you to quickstep easily, overriding regular rolling. Disabled if current 
 <text id="30877">%null%</text>
 <text id="30878">%null%</text>
 <text id="30879">%null%</text>
-
 <text id="30880">An exotic ring from the eastern lands. Favoured by ninjas.
 
 Allows you to jump easily, overriding guard and left attacks.</text>
@@ -3430,7 +3375,6 @@ Allows you to jump easily, overriding guard and left attacks.</text>
 <text id="30887">%null%</text>
 <text id="30888">%null%</text>
 <text id="30889">%null%</text>
-
 <text id="30890">A ring covered in sharp thorns. 
 Worn by those imprisoned in a distant bastille.
 
@@ -3459,7 +3403,6 @@ Imbues right-hand weapon, causing strikes to inflict 50 Bleed.</text>
 <text id="30897">%null%</text>
 <text id="30898">%null%</text>
 <text id="30899">%null%</text>
-
 <text id="30900">A red band of string used by a man known only as the Dashmaster.
 Famed for his endless endurance, of which he used to sprint from place to place.
 
@@ -3473,7 +3416,6 @@ Allows you to sprint endlessly and automatically.</text>
 <text id="30907">%null%</text>
 <text id="30908">%null%</text>
 <text id="30909">%null%</text>
-
 <text id="30910">A relic of power held by Magnum Ursus. A symbol of his storied history.
 
 Whilst equipped, the wearer gains the following:
@@ -3532,7 +3474,6 @@ Whilst equipped, the wearer gains the following:
 <text id="30917">%null%</text>
 <text id="30918">%null%</text>
 <text id="30919">%null%</text>
-
 <text id="30920">A relic of insanity held by Magnum Ursus. A symbol of his storied history.
 
 Whilst equipped, the wearer gains the following:
@@ -3591,7 +3532,7 @@ Whilst equipped, the wearer gains the following:
 <text id="30927">%null%</text>
 <text id="30928">%null%</text>
 <text id="30929">%null%</text>
-
+<text id="30929">%null%</text>
 <text id="30930">A holy chalice tainted with noxious essence.
 
 Imbues right-hand weapon, causing strikes to inflict 25 Poison.</text>
@@ -3613,8 +3554,6 @@ Imbues right-hand weapon, causing strikes to inflict 50 Poison.</text>
 <text id="30936">%null%</text>
 <text id="30937">%null%</text>
 <text id="30938">%null%</text>
-<text id="30929">%null%</text>
-
 <text id="30940">A cursed sigil that was once the trinket of a devout priest.
 
 Imbues right-hand weapon, causing strikes to inflict 25 Curse.</text>
@@ -3637,7 +3576,6 @@ Imbues right-hand weapon, causing strikes to inflict 50 Curse.</text>
 <text id="30947">%null%</text>
 <text id="30948">%null%</text>
 <text id="30949">%null%</text>
-
 <text id="30950">A ring shaped in the form of a frostflower, a rare specimen from the northern wastes.
 
 Imbues right-hand weapon, causing strikes to inflict 25 Frost.</text>
@@ -3660,7 +3598,6 @@ Imbues right-hand weapon, causing strikes to inflict 50 Frost.</text>
 <text id="30957">%null%</text>
 <text id="30958">%null%</text>
 <text id="30959">%null%</text>
-
 <text id="30960">A ring comprised of numerous humanities. Incredibly heavy, the weight of the humanities protects the wearer from being rendered vulnerable.
 
 Prevents grab attacks and critical attacks against the wearer.</text>
@@ -3673,7 +3610,6 @@ Prevents grab attacks and critical attacks against the wearer.</text>
 <text id="30967">%null%</text>
 <text id="30968">%null%</text>
 <text id="30969">%null%</text>
-
 <text id="30970">A holy urn that is believed to contain the ashes of Princess Gwynevere.
 
 Stand still in contemplation to gain Gwynevere's Blessing, granting one the chance to endure upon reaching 0 HP. 
@@ -3681,7 +3617,6 @@ Stand still in contemplation to gain Gwynevere's Blessing, granting one the chan
 Can only be triggered every 60 seconds.
 
 Through daily discipline and concerted effort, all shall find peace in the Sun Princess.</text>
-
 <text id="30980">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3706,7 +3641,6 @@ Increases the duration of a companion is present for to 210 seconds whilst worn.
 Imbued with occult power.
 
 Increases the duration of a companion is present for to 250 seconds whilst worn.</text>
-
 <text id="30990">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3731,7 +3665,6 @@ Boosts the damage of companions by 100% whilst worn.</text>
 Imbued with occult power.
 
 Boosts the damage of companions by 150% whilst worn.</text>
-
 <text id="31000">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3756,7 +3689,6 @@ Boosts the absorption of companions by 50% whilst worn.</text>
 Imbued with occult power.
 
 Boosts the absorption of companions by 60% whilst worn.</text>
-
 <text id="31010">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3781,7 +3713,6 @@ Boosts the poise of companions by 125 whilst worn.</text>
 Imbued with occult power.
 
 Boosts the poise of companions by 150 whilst worn.</text>
-
 <text id="31020">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3806,7 +3737,6 @@ Boosts the HP of companions by 150% whilst worn.</text>
 Imbued with occult power.
 
 Boosts the HP of companions by 200% whilst worn.</text>
-
 <text id="31030">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3831,7 +3761,6 @@ Companions now restore 5% HP per second whilst worn.</text>
 Imbued with occult power.
 
 Companions now restore 6% HP per second whilst worn.</text>
-
 <text id="31040">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 
@@ -3856,12 +3785,10 @@ Companions now gain an additional 70 stamina recovery whilst worn.</text>
 Imbued with occult power.
 
 Companions now gain an additional 80 stamina recovery whilst worn.</text>
-
 <text id="31050">A chalice once coveted by a man with ravenous greed.
 Imbued with occult power.
 
 Boosts soul absorption by 30% for 8 seconds after killing an enemy.</text>
-
 <text id="31060">A relic of legends held by Magnum Ursus. A symbol of his storied history.
 
 Whilst equipped, the wearer gains the following:
@@ -3916,7 +3843,6 @@ Whilst equipped, the wearer gains the following:
 - Boosts all stats by 20.
 - Reduces FP consumption of skills by 30%.
 - Reduces weapon stamina consumption by 30%.</text>
-
 <text id="31070">A relic of myths held by Magnum Ursus. A symbol of his storied history.
 
 Whilst equipped, the wearer gains the following:
@@ -3975,6 +3901,5 @@ Whilst equipped, the wearer gains the following:
 Provides the wearer with intimate knowledge of enemy weakpoints.
 
 Whilst equipped, you gain a 5% chance to deal double damage with any attack.</text>
-
 </entries>
 </fmg>

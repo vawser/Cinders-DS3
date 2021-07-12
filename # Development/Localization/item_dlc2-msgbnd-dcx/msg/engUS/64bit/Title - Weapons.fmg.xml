@@ -2899,7 +2899,6 @@
 <text id="16171200">Holy Imperious Greatshield</text>
 <text id="16171300">Sharp Imperious Greatshield</text>
 <text id="16171400">Blunt Imperious Greatshield</text>
-
 <text id="17000000">Sorcerer's Staff</text>
 <text id="17000100">Sorcerer's Pulsating Staff</text>
 <text id="17000200">Sorcerer's Vibrating Staff</text>
@@ -2923,7 +2922,7 @@
 <text id="17030200">Vibrating Witchtree Branch</text>
 <text id="17030300">Throbbing Witchtree Branch</text>
 <text id="17030400">Quivering Witchtree Branch</text>
-<text id="17030500">Quivering Laughing Branch</text>
+<text id="17030500">Laughing Witchtree Branch</text>
 <text id="17040000">Velka's Talisman</text>
 <text id="17040100">Velka's Pulsating Talisman</text>
 <text id="17040200">Velka's Vibrating Talisman</text>
@@ -3188,7 +3187,6 @@
 <text id="19900300">Fool's Throbbing Catalyst</text>
 <text id="19900400">Fool's Quivering Catalyst</text>
 <text id="19900500">Fool's Laughing Catalyst</text>
-
 <text id="20000000">Buckler</text>
 <text id="20000100">Buckler of Clarity</text>
 <text id="20000200">Buckler of Rejuvenation</text>

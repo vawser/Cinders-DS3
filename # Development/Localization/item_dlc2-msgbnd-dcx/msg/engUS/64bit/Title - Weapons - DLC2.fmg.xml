@@ -4,7 +4,6 @@
 <version>DarkSouls3</version>
 <bigendian>False</bigendian>
 <entries>
-
 <text id="1140000">Aquamarine Dagger</text>
 <text id="1140100">Lethal Aquamarine Dagger</text>
 <text id="1140200">Curse Aquamarine Dagger</text>
@@ -20,7 +19,6 @@
 <text id="1141200">Holy Aquamarine Dagger</text>
 <text id="1141300">Sharp Aquamarine Dagger</text>
 <text id="1141400">Blunt Aquamarine Dagger</text>
-
 <text id="1150000">Murky Hand Scythe</text>
 <text id="1150100">Lethal Murky Hand Scythe</text>
 <text id="1150200">Curse Murky Hand Scythe</text>
@@ -36,7 +34,6 @@
 <text id="1151200">Holy Murky Hand Scythe</text>
 <text id="1151300">Sharp Murky Hand Scythe</text>
 <text id="1151400">Blunt Murky Hand Scythe</text>
-
 <text id="2250000">Ringed Knight Straight Sword</text>
 <text id="2250100">Lethal Ringed Knight Straight Sword</text>
 <text id="2250200">Curse Ringed Knight Straight Sword</text>
@@ -52,7 +49,6 @@
 <text id="2251200">Holy Ringed Knight Straight Sword</text>
 <text id="2251300">Sharp Ringed Knight Straight Sword</text>
 <text id="2251400">Blunt Ringed Knight Straight Sword</text>
-
 <text id="2260000">Gael's Greatsword</text>
 <text id="2260100">Gael's Lethal Greatsword</text>
 <text id="2260200">Gael's Curse Greatsword</text>
@@ -68,7 +64,6 @@
 <text id="2261200">Gael's Holy Greatsword</text>
 <text id="2261300">Gael's Sharp Greatsword</text>
 <text id="2261400">Gael's Blunt Greatsword</text>
-
 <text id="4130000">Demon's Scar</text>
 <text id="4130100">Lethal Demon's Scar</text>
 <text id="4130200">Curse Demon's Scar</text>
@@ -84,7 +79,6 @@
 <text id="4131200">Holy Demon's Scar</text>
 <text id="4131300">Sharp Demon's Scar</text>
 <text id="4131400">Blunt Demon's Scar</text>
-
 <text id="5060000">Frayed Blade</text>
 <text id="5060100">Lethal Frayed Blade</text>
 <text id="5060200">Curse Frayed Blade</text>
@@ -100,7 +94,6 @@
 <text id="5061200">Holy Frayed Blade</text>
 <text id="5061300">Sharp Frayed Blade</text>
 <text id="5061400">Blunt Frayed Blade</text>
-
 <text id="6380000">Harald Curved Greatsword</text>
 <text id="6380100">Lethal Harald Curved Greatsword</text>
 <text id="6380200">Curse Harald Curved Greatsword</text>
@@ -116,7 +109,6 @@
 <text id="6381200">Holy Harald Curved Greatsword</text>
 <text id="6381300">Sharp Harald Curved Greatsword</text>
 <text id="6381400">Blunt Harald Curved Greatsword</text>
-
 <text id="8320000">Ledo's Great Hammer</text>
 <text id="8320100">Ledo's Lethal Great Hammer</text>
 <text id="8320200">Ledo's Curse Great Hammer</text>
@@ -132,7 +124,6 @@
 <text id="8321200">Ledo's Holy Great Hammer</text>
 <text id="8321300">Ledo's Sharp Great Hammer</text>
 <text id="8321400">Ledo's Blunt Great Hammer</text>
-
 <text id="9240000">Ringed Knight Spear</text>
 <text id="9240100">Lethal Ringed Knight Spear</text>
 <text id="9240200">Curse Ringed Knight Spear</text>
@@ -148,7 +139,6 @@
 <text id="9241200">Holy Ringed Knight Spear</text>
 <text id="9241300">Sharp Ringed Knight Spear</text>
 <text id="9241400">Blunt Ringed Knight Spear</text>
-
 <text id="9250000">Lothric War Banner</text>
 <text id="9250100">Lethal Lothric War Banner</text>
 <text id="9250200">Curse Lothric War Banner</text>
@@ -164,7 +154,6 @@
 <text id="9251200">Holy Lothric War Banner</text>
 <text id="9251300">Sharp Lothric War Banner</text>
 <text id="9251400">Blunt Lothric War Banner</text>
-
 <text id="9260000">Crucifix of the Mad King</text>
 <text id="9260100">Lethal Crucifix of the Mad King</text>
 <text id="9260200">Curse Crucifix of the Mad King</text>
@@ -180,7 +169,6 @@
 <text id="9261200">Holy Crucifix of the Mad King</text>
 <text id="9261300">Sharp Crucifix of the Mad King</text>
 <text id="9261400">Blunt Crucifix of the Mad King</text>
-
 <text id="10170000">Splitleaf Glaive</text>
 <text id="10170100">Lethal Splitleaf Glaive</text>
 <text id="10170200">Curse Splitleaf Glaive</text>
@@ -196,11 +184,8 @@
 <text id="10171200">Holy Splitleaf Glaive</text>
 <text id="10171300">Sharp Splitleaf Glaive</text>
 <text id="10171400">Blunt Splitleaf Glaive</text>
-
 <text id="13420000">Murky Longstaff</text>
-
 <text id="13430000">Sacred Chime of Filianore</text>
-
 <text id="13440000">Preacher's Right Arm</text>
 <text id="13440100">Preacher's Lethal Right Arm</text>
 <text id="13440200">Preacher's Curse Right Arm</text>
@@ -216,11 +201,8 @@
 <text id="13441200">Preacher's Holy Right Arm</text>
 <text id="13441300">Preacher's Sharp Right Arm</text>
 <text id="13441400">Preacher's Blunt Right Arm</text>
-
 <text id="14120000">White Birch Bow</text>
-
 <text id="14190000">Repeating Crossbow</text>
-
 <text id="16120000">Giant Door Shield</text>
 <text id="16120100">Lethal Giant Door Shield</text>
 <text id="16120200">Curse Giant Door Shield</text>
@@ -236,7 +218,6 @@
 <text id="16121200">Holy Giant Door Shield</text>
 <text id="16121300">Sharp Giant Door Shield</text>
 <text id="16121400">Blunt Giant Door Shield</text>
-
 <text id="16160000">Ringed Knight Paired Greatswords</text>
 <text id="16160100">Lethal Ringed Knight Paired Greatswords</text>
 <text id="16160200">Curse Ringed Knight Paired Greatswords</text>
@@ -252,7 +233,6 @@
 <text id="16161200">Holy Ringed Knight Paired Greatswords</text>
 <text id="16161300">Sharp Ringed Knight Paired Greatswords</text>
 <text id="16161400">Blunt Ringed Knight Paired Greatswords</text>
-
 <text id="20310000">Dragonhead Shield</text>
 <text id="20310100">Dragonhead Shield of Clarity</text>
 <text id="20310200">Dragonhead Shield of Rejuvenation</text>
@@ -264,7 +244,6 @@
 <text id="20310800">Dragonhead Shield of Fire</text>
 <text id="20310900">Dragonhead Shield of Lightning</text>
 <text id="20311000">Dragonhead Shield of Dark</text>
-
 <text id="21310000">Dragonhead Greatshield</text>
 <text id="21310100">Dragonhead Greatshield of Clarity</text>
 <text id="21310200">Dragonhead Greatshield of Rejuvenation</text>

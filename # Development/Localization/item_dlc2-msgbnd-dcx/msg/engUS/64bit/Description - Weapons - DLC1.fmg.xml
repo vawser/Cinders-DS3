@@ -9,7 +9,6 @@
 Can only be fired using a greatbow.
 
 It is said that the Millwood Knights used these to face their sworn enemy, the Abyss Dragon.</text>
-
 <text id="2240000">Elfriede, the eldest amongst her sisters and leader of the Sable Church, bestowed this sword to her knight.
 
 Only, the sword was a farewell gift, and acceptance signified the knight's resignation from Elfriede's service.
@@ -130,7 +129,6 @@ Inflicts Curse.
 
 Skill: Elfriede's Blackflame
 Enwreathe blade with blackflame, adding 145 Dark damage for 30 seconds. Born of the similarly-hued flame that smolders within her.</text>
-
 <text id="4120000">Great curved sword wielded by Farron Followers. Its great weight enables heavy-handed chain attacks.
 
 Skill: Prying Wedge
@@ -191,7 +189,6 @@ A chain attack that wedges below foes and swings upward,breaking their guard.Str
 
 Skill: Prying Wedge
 A chain attack that wedges below foes and swings upward,breaking their guard.Strong attack can be used to follow up the onslaught with a fatal blow.</text>
-
 <text id="7170000">Battle axe wielded by Millwood Knights. Its blade is blessed by the symbol of the Ethereal Oak.
 
 A hefty axe normally wielded by the mightiest of warriors.
@@ -282,7 +279,6 @@ A hefty axe normally wielded by the mightiest of warriors.
 
 Skill: Warcry
 The unique warcry of the Millwood Knights entailed a leap straight toward the enemy and a fearsome roar.</text>
-
 <text id="7180000">This large twin-bladed axe forged with bronze is a ceremonial weapon normally used in sacred rites.
 
 Millwood is a land of primitive earth worship where chieftain knights served as high priests.
@@ -373,7 +369,6 @@ Millwood is a land of primitive earth worship where chieftain knights served as 
 
 Skill: Earthen Wrath
 Thrust weapon into earth with a prayer to trigger explosive tremors.</text>
-
 <text id="8310000">A stone hammer wielded by Millwood Knights, with a head of naturally-formed stone.
 
 The Knights of Millwood would fight hand-in-hand with the earth itself, and this weapon, among the oldest in all Millwood, is symbolic of that relationship.
@@ -464,7 +459,6 @@ The Knights of Millwood would fight hand-in-hand with the earth itself, and this
 
 Skill: Quakestone
 Burrow hammer head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
-
 <text id="9230000">Light spear wielded by the Farron Followers. Balanced to allow for throwing.
 
 Skill: Hurl Spear
@@ -525,7 +519,6 @@ Emulate the practice of the Followers by throwing an illusory spear that assumes
 
 Skill: Hurl Spear
 Emulate the practice of the Followers by throwing an illusory spear that assumes temporary form.</text>
-
 <text id="10180000">A great scythe wielded by Sister Elfriede, with a curved blade thinly coated by Painted World frost that easily breaks the guard of shields.
 In the painting, the scythe is a symbol of a long-lost home, possibly explaining Elfriede's preference for it.
 Skill: Elfriede's Stance
@@ -586,7 +579,6 @@ Conjure a magic bladed support scythe into the left hand while the great scythe 
 In the painting, the scythe is a symbol of a long-lost home, possibly explaining Elfriede's preference for it.
 Skill: Elfriede's Stance
 Conjure a magic bladed support scythe into the left hand while the great scythe remains in the right, a stance derived from Elfriede's former swordsmanship. Use normal attack to leap forward and swing twice,or strong attack to coat the earth with running frost.</text>
-
 <text id="11050000">Talons used by Corvian Knights. Inflicts five perpendicular slashes, causing heavy bleeding.
 
 In their infatuation with Sister Friede, the Corvian Knights swore to protect the painting from fire, and to this end, took to the execution of their own brethren.
@@ -677,14 +669,12 @@ In their infatuation with Sister Friede, the Corvian Knights swore to protect th
 
 Skill: Raptor Flurry
 Spread right and left talons like a broad set of wings and launch into a tornado of consecutive attacks.</text>
-
 <text id="14180000">Greatbow crafted with black oak and wielded by Millwood Knights. Only specialized great arrows can be fired from the bow.
 
 It is said that the Millwood Knights used these to face their sworn enemy, the Abyss Dragon.
 
 Skill: Pierce Earth
 Fire a greatarrow with a burst of strength and a prayer that violently shakes its target and explodes on impact.</text>
-
 <text id="16140000">Weapon once wielded by the Champion of the Undead Match. A special paired set consisting of a broad sword and a lion shield.
 
 The Champion fought on, without rest, until he lost his mind. In the end, only his page and a lone wolf stayed at his side.
@@ -775,7 +765,6 @@ The Champion fought on, without rest, until he lost his mind. In the end, only h
 
 Skill: Lion Stance
 While in stance, use normal attack to thrust forward with shield up, and strong attack to execute a shield bash with a lion's roar.</text>
-
 <text id="16150000">Thrusting sword wielded by Corvian Knights, and a special paired weapon. When twin-handed, brandish four thin-edged blades in the left hand. 
 
 Skill: Quill Dart
@@ -851,7 +840,6 @@ A thrusting attack can be chained using strong attack upon landing.</text>
 Skill: Quill Dart
 Simultaneously throw temporarily substantial illusions of the four thin-edged blades wielded in the left hand.
 A thrusting attack can be chained using strong attack upon landing.</text>
-
 <text id="20300000">Standard shield used by the Farron Followers. Crafted with wood and reinforced with metal.
 
 Imbued with a faint resistance to the Abyss.
@@ -918,7 +906,6 @@ Imbued with a faint resistance to the Abyss.
 
 Skill: Weapon Skill
 Equipping this shield in the left hand allows one to perform the Skill of the right hand weapon.</text>
-
 <text id="21300000">Charbronze shield used by Millwood Knights.
 
 This shield appears to be blessed by a great, if faded, image of the ethereal oak.
@@ -1007,7 +994,6 @@ Effect: restores 1 HP every second.
 
 Skill: Weapon Skill
 Equipping this shield in the left hand allows one to perform the Skill of the right hand weapon.</text>
-
 <text id="23010000">An offensive torch used by the Farron Followers. Provides light and doubles as a weapon.
 
 Some forms of the Abyss manifest as pus within the body, treated from ancient times with fire.

@@ -1694,164 +1694,123 @@
 <text id="9010000">%null%</text>
 <text id="9020000">%null%</text>
 <text id="9030000">%null%</text>
-
 <text id="10010000">Gough's Helm</text>
 <text id="10011000">Gough's Armor</text>
 <text id="10012000">Gough's Gloves</text>
 <text id="10013000">Gough's Leggings</text>
-
 <text id="10020000">Mask of the Sealer</text>
 <text id="10021000">Crimson Robe</text>
 <text id="10022000">Crimson Gloves</text>
 <text id="10023000">Crimson Waistcloth</text>
-
 <text id="10030000">Six-Eyed Helm of the Channelers</text>
 <text id="10031000">Robe of the Channelers</text>
 <text id="10032000">Gauntlets of the Channelers</text>
 <text id="10033000">Waistcloth of the Channelers</text>
-
 <text id="10040000">Moon Hat</text>
 <text id="10041000">Astrologist's Robe</text>
 <text id="10042000">Astrologist's Gloves</text>
 <text id="10043000">Astrologist's Waistcloth</text>
-
 <text id="10050000">Helm of Aurous</text>
 <text id="10051000">Armor of Aurous</text>
 <text id="10052000">Gauntlets of Aurous</text>
 <text id="10053000">Leggings of Aurous</text>
-
 <text id="10060000">Dragon Acolyte Mask</text>
 <text id="10061000">Dragon Acolyte Robe</text>
 <text id="10062000">Dragon Acolyte Gloves</text>
 <text id="10063000">Dragon Acolyte Leggings</text>
-
 <text id="10070000">Vengarl's Helm</text>
 <text id="10071000">Vengarl's Armor</text>
 <text id="10072000">Vengarl's Gloves</text>
 <text id="10073000">Vengarl's Leggings</text>
-
 <text id="10080000">Snickering Top Hat</text>
 <text id="10081000">Chester's Long Coat</text>
 <text id="10082000">Chester's Gloves</text>
 <text id="10083000">Chester's Trousers</text>
-
 <text id="10090000">Winged Helm of Ridoh</text>
-
 <text id="10100000">King's Crown</text>
 <text id="10101000">King's Armor</text>
 <text id="10102000">King's Gauntlets</text>
 <text id="10103000">King's Leggings</text>
-
 <text id="10110000">Cowl of the Bear</text>
 <text id="10111000">Armor of the Bear</text>
 <text id="10112000">Gauntlets of the Bear</text>
 <text id="10113000">Leggings of the Bear</text>
-
 <text id="10120000">Thorolund Helm</text>
 <text id="10121000">Thorolund Armor</text>
 <text id="10122000">Thorolund Gloves</text>
 <text id="10123000">Thorolund Leggings</text>
-
 <text id="10130000">Raime's Helm</text>
 <text id="10131000">Raime's Armor</text>
 <text id="10132000">Raime's Gauntlets</text>
 <text id="10133000">Raime's Leggings</text>
-
 <text id="10140000">Alonne Captain Helm</text>
 <text id="10141000">Alonne Captain Armor</text>
 <text id="10142000">Alonne Captain Gauntlets</text>
 <text id="10143000">Alonne Captain Leggings</text>
-
 <text id="10150000">Gravekeeper Helm</text>
 <text id="10151000">Gravekeeper Armor</text>
 <text id="10152000">Gravekeeper Gauntlets</text>
 <text id="10153000">Gravekeeper Leggings</text>
-
 <text id="10160000">Attendant Mask</text>
 <text id="10161000">Attendant Robe</text>
-
 <text id="10170000">Artificial Helmet</text>
-
 <text id="10180000">Giant-horned Helmet</text>
-
 <text id="10190000">Snail Shell</text>
-
 <text id="10200000">Overseer's Mask</text>
-
 <text id="10210000">Suspicious Gold Mask</text>
-
 <text id="10220000">Fang Boar Helm</text>
-
 <text id="10230000">Barrel</text>
-
 <text id="10240000">Bucket</text>
-
 <text id="10250000">Sack</text>
-
 <text id="10260000">Rosaria's Dress</text>
-
 <text id="10270000">Salvador's Hat</text>
-
 <text id="10280000">Priestly Cap</text>
-
 <text id="10290000">Gallant Helm</text>
 <text id="10291000">Gallant Armor</text>
 <text id="10292000">Gallant Gloves</text>
 <text id="10293000">Gallant Leggings</text>
-
 <text id="10300000">Warden Coif</text>
 <text id="10301000">Warden Chainmail</text>
 <text id="10302000">Warden Gloves</text>
 <text id="10303000">Warden Leggings</text>
-
 <text id="10310000">Dull Gold Helmet</text>
 <text id="10311000">Dull Gold Armor</text>
 <text id="10312000">Dull Gold Gauntlets</text>
 <text id="10313000">Dull Gold Leggings</text>
-
 <text id="10320000">Fluted Helm</text>
 <text id="10321000">Fluted Armor</text>
 <text id="10322000">Fluted Gauntlets</text>
 <text id="10323000">Fluted Leggings</text>
-
 <text id="10330000">Huntsman's Cap</text>
 <text id="10331000">Huntsman's Armor</text>
 <text id="10332000">Huntsman's Gloves</text>
 <text id="10333000">Huntsman's Leggings</text>
-
 <text id="10340000">Mirdan Helm</text>
 <text id="10341000">Mirdan Scale Mail</text>
 <text id="10342000">Mirdan Gauntlets</text>
 <text id="10343000">Mirdan Leggings</text>
-
 <text id="10350000">Sentinel Helm</text>
 <text id="10351000">Sentinel Armor</text>
 <text id="10352000">Sentinel Gauntlets</text>
 <text id="10353000">Sentinel Leggings</text>
-
 <text id="10360000">Three-cornered Hat</text>
 <text id="10361000">Old Raggedy Robes</text>
 <text id="10362000">Old Raggedy Gloves</text>
 <text id="10363000">Old Raggedy Leggings</text>
-
 <text id="10370000">Gold Mask</text>
 <text id="10371000">Charlatan's Clothes</text>
 <text id="10372000">Charlatan's Gloves</text>
 <text id="10373000">Charlatan's Leggings</text>
-
 <text id="10381000">Martyr's Robes</text>
 <text id="10382000">Martyr's Gloves</text>
 <text id="10383000">Martyr's Leggings</text>
-
 <text id="10390000">Pickpocket Mask</text>
 <text id="10391000">Pickpocket Clothes</text>
 <text id="10392000">Pickpocket Gloves</text>
 <text id="10393000">Pickpocket Leggings</text>
-
 <text id="10401000">Magician's Clothes</text>
 <text id="10402000">Magician's Gloves</text>
 <text id="10403000">Magician's Leggings</text>
-
 <text id="19000000">Fallen Knight Helm</text>
 <text id="19001000">Fallen Knight Armor</text>
 <text id="19002000">Fallen Knight Gauntlets</text>
@@ -2232,267 +2191,199 @@
 <text id="99191000">Black Dragon Armor</text>
 <text id="99192000">Black Dragon Gauntlets</text>
 <text id="99193000">Black Dragon Leggings</text>
-
 <text id="99200000">Crown of the Great Lord</text>
 <text id="99201000">Robe of the Great Lord</text>
 <text id="99202000">Bracelet of the Great Lord</text>
 <text id="99203000">Anklet of the Great Lord</text>
-
 <text id="99210000">Crown of the Dark Sun</text>
 <text id="99211000">Moonlight Robe</text>
 <text id="99212000">Moonlight Gloves</text>
 <text id="99213000">Moonlight Waistcloth</text>
-
 <text id="99220000">Porcelain Mask</text>
 <text id="99221000">Lord's Blade Robe</text>
 <text id="99222000">Lord's Blade Gloves</text>
 <text id="99223000">Lord's Blade Waistcloth</text>
-
 <text id="99230000">Paladin Helm</text>
 <text id="99231000">Paladin Armor</text>
 <text id="99232000">Paladin Gauntlets</text>
 <text id="99233000">Paladin Leggings</text>
-
 <text id="99240000">Mask of Velka</text>
 <text id="99241000">Black Cleric Robe</text>
 <text id="99242000">Black Manchettes</text>
 <text id="99243000">Black Tights</text>
-
 <text id="99250000">Dragonrider Helm</text>
 <text id="99251000">Dragonrider Armor</text>
 <text id="99252000">Dragonrider Gauntlets</text>
 <text id="99253000">Dragonrider Leggings</text>
-
 <text id="99260000">Ancient King's Mask</text>
 <text id="99261000">Ancient King's Breastplate</text>
 <text id="99262000">Ancient King's Gauntlets</text>
 <text id="99263000">Ancient King's Leggings</text>
-
 <text id="99270000">Binded Hood</text>
 <text id="99271000">Binded Cross</text>
 <text id="99272000">Binded Gloves</text>
 <text id="99273000">Binded Boots</text>
-
 <text id="99280000">Brushwood Helm</text>
 <text id="99281000">Brushwood Armor</text>
 <text id="99282000">Brushwood Gauntlets</text>
 <text id="99283000">Brushwood Leggings</text>
-
 <text id="99290000">Venerable Sage's Hood</text>
 <text id="99291000">Venerable Sage's Robe</text>
 <text id="99292000">Venerable Sage's Gloves</text>
 <text id="99293000">Venerable Sage's Boots</text>
-
 <text id="99300000">Gloom Helm</text>
 <text id="99301000">Gloom Armor</text>
 <text id="99302000">Gloom Gauntlets</text>
 <text id="99303000">Gloom Leggings</text>
-
 <text id="99310000">Penetrator Helm</text>
 <text id="99311000">Penetrator Armor</text>
 <text id="99312000">Penetrator Gauntlets</text>
 <text id="99313000">Penetrator Leggings</text>
-
 <text id="99320000">Quicksilver Helm</text>
 <text id="99321000">Quicksilver Armor</text>
 <text id="99322000">Quicksilver Gauntlets</text>
 <text id="99323000">Quicksilver Leggings</text>
-
 <text id="99330000">Heide Mask</text>
 <text id="99340000">Pontiff's Crown</text>
 <text id="99342000">Pontiff's Bracelets</text>
 <text id="99350000">Giant Slave Helmet</text>
-
 <text id="99360000">Gargoyle Skull</text>
 <text id="99361000">Gargoyle Carapace</text>
 <text id="99362000">Gargoyle Gauntlets</text>
 <text id="99363000">Gargoyle Leggings</text>
-
 <text id="99370000">Demon Cleric Mask</text>
 <text id="99380000">Crab Helmet</text>
-
 <text id="99390000">Corvian Knight Helmet</text>
 <text id="99391000">Corvian Knight Armor</text>
 <text id="99392000">Corvian Knight Gauntlets</text>
 <text id="99393000">Corvian Knight Leggings</text>
-
 <text id="99400000">Alonne's Helm</text>
 <text id="99401000">Alonne's Armor</text>
 <text id="99402000">Alonne's Gauntlets</text>
 <text id="99403000">Alonne's Leggings</text>
-
 <text id="99410000">Rampart Golem Helm</text>
 <text id="99411000">Rampart Golem Armor</text>
 <text id="99412000">Rampart Golem Gauntlets</text>
 <text id="99413000">Rampart Golem Leggings</text>
-
 <text id="99420000">Smelter Demon Helm</text>
 <text id="99421000">Smelter Demon Armor</text>
 <text id="99422000">Smelter Demon Gauntlets</text>
 <text id="99423000">Smelter Demon Leggings</text>
-
 <text id="99430000">Bone Ash Mask</text>
 <text id="99431000">Bone Ash Armor</text>
 <text id="99432000">Bone Ash Gauntlets</text>
 <text id="99433000">Bone Ash Leggings</text>
-
 <text id="99440000">Heide Knight Greathelm</text>
 <text id="99441000">Heide Knight Chainmail</text>
 <text id="99442000">Heide Knight Gauntlets</text>
 <text id="99443000">Heide Knight Leggings</text>
-
 <text id="99450000">Imperious Head</text>
 <text id="99451000">Imperious Armor</text>
 <text id="99452000">Imperious Gauntlets</text>
 <text id="99453000">Imperious Leggings</text>
-
 <text id="99460000">Mask of Horror</text>
-
 <text id="99470000">Mask of Cruelty</text>
-
 <text id="99480000">Mask of Serenity</text>
-
 <text id="99490000">Mask of War</text>
-
 <text id="99500000">Imperial Samurai Helm</text>
-
 <text id="99510000">Horned Samurai Helm</text>
-
 <text id="99520000">Ornate Samurai Helm</text>
-
 <text id="99530000">Black Metal Hat</text>
-
 <text id="99540000">Tan Straw Hat</text>
-
 <text id="99550000">Carthus Blindfold</text>
-
 <text id="99560000">Crown of Filianore</text>
-
 <text id="99570000">Crown of the Holy King</text>
-
 <text id="99580000">Pygmy Crown</text>
-
 <text id="99590000">Old Demon King's Crown</text>
-
 <text id="99600000">Mask of Sin</text>
-
 <text id="99610000">Poisonhorn Cap</text>
-
 <text id="99620000">Vagabond Cowl</text>
-
 <text id="99630000">Hollow Head</text>
-
 <text id="99640000">Basilisk Cap</text>
-
 <text id="99650000">Deserter Helm</text>
-
 <text id="99660000">Pot</text>
-
 <text id="99670000">Raven Mask</text>
-
 <text id="99680000">Crown of Illusions</text>
-
 <text id="99690000">Hallowed Knight Helm</text>
 <text id="99691000">Hallowed Knight Armor</text>
 <text id="99692000">Hallowed Knight Gauntlets</text>
 <text id="99693000">Hallowed Knight Leggings</text>
-
 <text id="99700000">Courtier's Wig</text>
 <text id="99701000">Courtier's Garb</text>
 <text id="99702000">Courtier's Gloves</text>
 <text id="99703000">Courtier's Trousers</text>
-
 <text id="99710000">Steel Helm</text>
 <text id="99711000">Steel Armor</text>
 <text id="99712000">Steel Gauntlets</text>
 <text id="99713000">Steel Leggings</text>
-
 <text id="99720000">Dragon Hunter Helm</text>
 <text id="99721000">Dragon Hunter Armor</text>
 <text id="99722000">Dragon Hunter Gauntlets</text>
 <text id="99723000">Dragon Hunter Leggings</text>
-
 <text id="99730000">Ivory King Helm</text>
 <text id="99731000">Ivory King Armor</text>
 <text id="99732000">Ivory King Gauntlets</text>
 <text id="99733000">Ivory King Leggings</text>
-
 <text id="99740000">Mad Warrior Mask</text>
 <text id="99741000">Mad Warrior Armor</text>
 <text id="99742000">Mad Warrior Gauntlets</text>
 <text id="99743000">Mad Warrior Leggings</text>
-
 <text id="99750000">Mirror Knight Helm</text>
 <text id="99751000">Mirror Knight Armor</text>
 <text id="99752000">Mirror Knight Gauntlets</text>
 <text id="99753000">Mirror Knight Leggings</text>
-
 <text id="99760000">Syan Knight Helm</text>
 <text id="99761000">Syan Knight Armor</text>
 <text id="99762000">Syan Knight Gauntlets</text>
 <text id="99763000">Syan Knight Leggings</text>
-
 <text id="99770000">Helm of the Wise</text>
 <text id="99771000">Armor of the Glorious</text>
 <text id="99772000">Gauntlets of the Vanquisher</text>
 <text id="99773000">Boots of the Explorer</text>
-
 <text id="99780000">Gold-Hemmed Black Hood</text>
 <text id="99781000">Gold-Hemmed Black Cloak</text>
 <text id="99782000">Gold-Hemmed Black Gloves</text>
 <text id="99783000">Gold-Hemmed Black Skirt</text>
-
 <text id="99790000">Charred Loyce Helm</text>
 <text id="99791000">Charred Loyce Armor</text>
 <text id="99792000">Charred Loyce Gauntlets</text>
 <text id="99793000">Charred Loyce Leggings</text>
-
 <text id="99800000">Hood of the Forlorn</text>
 <text id="99801000">Armor of the Forlorn</text>
 <text id="99802000">Gauntlets of the Forlorn</text>
 <text id="99803000">Leggings of the Forlorn</text>
-
 <text id="99810000">Jester's Cap</text>
 <text id="99811000">Jester's Robes</text>
 <text id="99812000">Jester's Gloves</text>
 <text id="99813000">Jester's Tights</text>
-
 <text id="99820000">Royal Soldier Helm</text>
 <text id="99821000">Royal Soldier Armor</text>
 <text id="99822000">Royal Soldier Gauntlets</text>
 <text id="99823000">Royal Soldier Leggings</text>
-
 <text id="99830000">Loyce Helm</text>
 <text id="99831000">Loyce Armor</text>
 <text id="99832000">Loyce Gauntlets</text>
 <text id="99833000">Loyce Leggings</text>
-
 <text id="99840000">Tarnished Knight Helm</text>
 <text id="99841000">Tarnished Knight Armor</text>
 <text id="99842000">Tarnished Knight Gauntlets</text>
 <text id="99843000">Tarnished Knight Leggings</text>
-
 <text id="99850000">Golem Helm</text>
 <text id="99851000">Golem Armor</text>
 <text id="99852000">Golem Gauntlets</text>
 <text id="99853000">Golem Leggings</text>
-
 <text id="99860000">Manikin Mask</text>
 <text id="99861000">Manikin Top</text>
 <text id="99862000">Manikin Gloves</text>
 <text id="99863000">Manikin Boots</text>
-
 <text id="99870000">Crude Manikin Mask</text>
-
 <text id="99880000">Stone Helm</text>
 <text id="99881000">Stone Armor</text>
 <text id="99882000">Stone Gauntlets</text>
 <text id="99883000">Stone Leggings</text>
-
 <text id="99890000">Guardian Helm</text>
 <text id="99891000">Guardian Armor</text>
 <text id="99892000">Guardian Gauntlets</text>
 <text id="99893000">Guardian Leggings</text>
-
 </entries>
 </fmg>

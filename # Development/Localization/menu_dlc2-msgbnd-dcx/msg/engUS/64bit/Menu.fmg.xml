@@ -1123,7 +1123,7 @@ Kill the summoner.</text>
 <text id="10010112">Perform ritual</text>
 <text id="10010113">Drink Estus Soup</text>
 <text id="10010114">Reach into the flame</text>
-<text id="10010115">Taunt</text>
+<text id="10010115">%null%</text>
 <text id="10010116">%null%</text>
 <text id="10010117">%null%</text>
 <text id="10010118">%null%</text>
@@ -3256,17 +3256,14 @@ Enables an additional chance for a Primordial Fragment.</text>
 <text id="99002532">Affixes</text>
 <text id="99003500">Bestow Lordvessel</text>
 <text id="99003501">Relics</text>
-
 <text id="99003502">Claim Relic of Power</text>
 <text id="99003503">Claim Relic of Insanity</text>
 <text id="99003504">Claim Relic of Legends</text>
 <text id="99003505">Claim Relic of Myths</text>
-
 <text id="99003506">Relic of Power</text>
 <text id="99003507">Relic of Insanity</text>
 <text id="99003508">Relic of Legends</text>
 <text id="99003509">Relic of Myths</text>
-
 <text id="99003510">To claim the Relic of Power you must:
 - Kill the Soul of Cinder.
 - Refrain from dying at any point during your journey.
@@ -3282,7 +3279,6 @@ You can claim the relic.</text>
 - Refrain from dying at any point during your journey.
 
 You have failed.</text>
-
 <text id="99003520">To claim the Relic of Insanity you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
@@ -3301,7 +3297,6 @@ You can claim the relic.</text>
 during your journey.
 
 You have failed.</text>
-
 <text id="99003530">To claim the Relic of Legends you must:
 - Kill the Soul of Cinder.
 - Refrain from dying at any point during your journey.
@@ -3317,7 +3312,6 @@ You can claim the relic.</text>
 - Refrain from dying at any point during your journey.
 
 You have failed.</text>
-
 <text id="99003540">To claim the Relic of Legends you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
@@ -3336,7 +3330,6 @@ You can claim the relic.</text>
 during your journey.
 
 You have failed.</text>
-
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
 Magic: absorb 2/4/6 FP on hit, differs based on weapon type.
@@ -3370,7 +3363,6 @@ All weapons are inherently more powerful.
 A weapon's power is released by increasing 
 STR, DEX, INT, FTH or LCK.</text>
 <text id="99004004">Reinforcement</text>
-
 <text id="99005000">Does not work here.</text>
 <text id="99005100">Silver Knight Ledo intrudes...</text>
 <text id="99005101">Silver Knight Ledo has been vanquished</text>
@@ -3472,7 +3464,6 @@ STR, DEX, INT, FTH or LCK.</text>
 <text id="99005651">Moaning Knight has been vanquished</text>
 <text id="99005660">Livid Pyromancer Dunnel intrudes...</text>
 <text id="99005661">Livid Pyromancer Dunnel has been vanquished</text>
-
 <text id="99007000">Enemies of yore restored</text>
 <text id="99010000">Marks</text>
 <text id="99010001">Talk</text>
@@ -3512,13 +3503,11 @@ Enables Primordial material to drop from bosses.</text>
 <text id="99011201">Mark of the Dog broken.</text>
 <text id="99011202">Mark of the Crab broken.</text>
 <text id="99011203">Mark of Valor broken.</text>
-
 <text id="99013100">Tortured Soul</text>
 <text id="99013101">Give Tortured Soul</text>
 <text id="99013110">Smithbox</text>
 <text id="99013111">Give Smithbox</text>
 <text id="99013120">Send to Overgrown Sanctum</text>
-
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
 <text id="99015005">Basic Affix</text>
@@ -3526,10 +3515,10 @@ Enables Primordial material to drop from bosses.</text>
 <text id="99015007">Superior Affix</text>
 <text id="99015008">Exquisite Affix</text>
 <text id="99015009">Legendary Affix</text>
-<text id="99015010">Affix this ring?</text>
-<text id="99015011">You do not possess this ring</text>
+<text id="99015010">Affix this accessory?</text>
+<text id="99015011">You do not possess this accessory</text>
 <text id="99015012">Insufficient Primordial Fragments</text>
-<text id="99015013">Ring affixed</text>
+<text id="99015013">Accessory affixed</text>
 <text id="99015020">Affixes are used to empower accessories, 
 increasing the strength of their effects.
 
@@ -3630,7 +3619,6 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99015186">Frostflower Ring</text>
 <text id="99015187">Relic of Legends</text>
 <text id="99015188">Relic of Myths</text>
-
 <text id="99016000">Apply Imbue</text>
 <text id="99016001">Imbue Overview</text>
 <text id="99016005">Basic Imbue</text>
@@ -3662,7 +3650,6 @@ Legendary: 15 Ritual Incense</text>
 <text id="99016104">Offering of Vitality</text>
 <text id="99016105">Offering of Devotion</text>
 <text id="99016106">Offering of Fervor</text>
-
 <text id="99030000">You must possess the Dragon Talon to activate this object.</text>
 <text id="99030001">You must possess the Pilgrim's Soul to activate this object.</text>
 <text id="99030002">You must possess the Smouldering Key to activate this object.</text>
@@ -3741,7 +3728,6 @@ in this journey yet.</text>
 in this journey yet.</text>
 <text id="99030132">Fallen Protector has not been killed 
 in this journey yet.</text>
-
 <text id="99030200">Salve, Regina, Mater misericordiae...</text>
 <text id="99030201">...vita, dulcedo, et spes nostra, salve.</text>
 <text id="99030202">Ad te clamamus exsules filii Hevae...</text>
@@ -3775,67 +3761,491 @@ in this journey yet.</text>
 <text id="99030412">It's locked, requires Dreg Key</text>
 <text id="99030413">It's locked, requires Burning Key</text>
 <text id="99030500">Purchase Items</text>
-
 <text id="99030620">Give Farron Coal</text>
 <text id="99030621">Give Sage's Coal</text>
 <text id="99030622">Give Giant's Coal</text>
 <text id="99030623">Give Profaned Coal</text>
-
 <text id="99030730">You must possess the Seal of Judgment to peer into the past.</text>
-
-<text id="99031000">Memory of Skeletons</text>
-
-<text id="99031100">Survive!
-Every minute you will gain 10% more soul absorption.</text>
-
+<text id="99031000">Memories</text>
+<text id="99031001">Carthus Commotion</text>
+<text id="99031100">Survive!</text>
 <text id="99031200">Uno Pequeño raises his claw in thanks.
 As he leaves, you notice he has left you a valuable ring.</text>
-
 <text id="99031300">You must awaken the Frostfire Colossus 
 to commune with the fallen knight.</text>
-
 <text id="99040010">You lack 10 Crystal Fragments</text>
 <text id="99040011">You lack 15 Crystal Fragments</text>
 <text id="99040012">You lack 20 Crystal Fragments</text>
-
 <text id="99040020">You lack 10 Holy Fragments</text>
 <text id="99040021">You lack 15 Holy Fragments</text>
-<text id="99040021">You lack 20 Holy Fragments</text>
-
+<text id="99040022">You lack 20 Holy Fragments</text>
 <text id="99040030">You lack 10 Abyssal Fragments</text>
 <text id="99040031">You lack 15 Abyssal Fragments</text>
-<text id="99040031">You lack 20 Abyssal Fragments</text>
-
+<text id="99040032">You lack 20 Abyssal Fragments</text>
 <text id="99040040">You lack 10 Fire Seeds</text>
 <text id="99040041">You lack 15 Fire Seeds</text>
-<text id="99040041">You lack 20 Fire Seeds</text>
-
-<text id="99041000">Supreme Magic Shield</text>
-<text id="99041001">Homing Farron Dart</text>
-<text id="99041002">Homing Soul Arrow</text>
-<text id="99041003">Homing Soul Spear</text>
+<text id="99040043">You lack 20 Fire Seeds</text>
+<text id="99041000">Refined Farron Dart</text>
+<text id="99041001">Swift Soul Wave</text>
+<text id="99041002">Explosive Soul Arrow</text>
+<text id="99041003">Explosive Soul Spear</text>
 <text id="99041004">Homing Crystal Soul Spear</text>
-<text id="99041005">Crystal Soul Geyser</text>
-<text id="99041006">Quickened Soul Stream</text>
-<text id="99041007">Supreme Magic Weapon</text>
-
-<text id="99042000">Ascend from Great Magic Shield?</text>
-<text id="99042001">Ascend from Farron Dart?</text>
+<text id="99041005">Extended White Dragon Breath</text>
+<text id="99041006">Refined Farron Flashsword</text>
+<text id="99041007">Heavy Soul Greatsword</text>
+<text id="99041008">Heavy Old Moonlight</text>
+<text id="99041009">Surging Soulmass</text>
+<text id="99041010">Weakening Crystal Soulmass</text>
+<text id="99041011">Repeating Soul Orb</text>
+<text id="99041012">Repeating Crystal Orb</text>
+<text id="99041013">Homing Farron Hail</text>
+<text id="99041014">Focused Crystal Hail</text>
+<text id="99041015">Swift Orbs of Judgment</text>
+<text id="99041016">Repeating Crystal Storm</text>
+<text id="99041017">Repeating Blizzard</text>
+<text id="99041018">Quickened Soul Stream</text>
+<text id="99041019">Crystal Soul Geyser</text>
+<text id="99041020">Lingering Pestilent Mist</text>
+<text id="99041021">Lingering Snap Freeze</text>
+<text id="99041022">Refined Shockwave</text>
+<text id="99041023">Refined Blinding Light</text>
+<text id="99041024">Impenetrable Wall of Light</text>
+<text id="99041025">Refined Aural Decoy</text>
+<text id="99041026">Skilled Repair</text>
+<text id="99041029">Supreme Magic Weapon</text>
+<text id="99041030">Supreme Frozen Weapon</text>
+<text id="99041031">Refined Hidden Weapon</text>
+<text id="99041033">Supreme Magic Shield</text>
+<text id="99041034">Lingering Unleash Magic</text>
+<text id="99041035">Mass Spook</text>
+<text id="99041036">Mass Hidden Body</text>
+<text id="99041037">Refined Chameleon</text>
+<text id="99041038">Refined Cast Light</text>
+<text id="99042000">Ascend from Farron Dart?</text>
+<text id="99042001">Ascend from Soul Wave?</text>
 <text id="99042002">Ascend from Soul Arrow?</text>
 <text id="99042003">Ascend from Soul Spear?</text>
 <text id="99042004">Ascend from Crystal Soul Spear?</text>
-<text id="99042005">Ascend from Soul Geyser?</text>
-<text id="99042006">Ascend from Soul Stream?</text>
-<text id="99042007">Ascend from Crystal Magic Weapon?</text>
-
-<text id="99043000">Supreme Magic Shield crafted</text>
-<text id="99043001">Homing Farron Dart crafted</text>
-<text id="99043002">Homing Soul Arrow crafted</text>
-<text id="99043003">Homing Soul Spear crafted</text>
+<text id="99042005">Ascend from White Dragon Breath?</text>
+<text id="99042006">Ascend from Farron Flashsword?</text>
+<text id="99042007">Ascend from Soul Greatsword?</text>
+<text id="99042008">Ascend from Old Moonlight?</text>
+<text id="99042009">Ascend from Homing Soulmass?</text>
+<text id="99042010">Ascend from Crystal Soulmass?</text>
+<text id="99042011">Ascend from Scattering Soul Orb?</text>
+<text id="99042012">Ascend from Scattering Crystal Orb?</text>
+<text id="99042013">Ascend from Farron Hail?</text>
+<text id="99042014">Ascend from Crystal Hail?</text>
+<text id="99042015">Ascend from Orbs of Judgment?</text>
+<text id="99042016">Ascend from Crystal Storm?</text>
+<text id="99042017">Ascend from Blizzard?</text>
+<text id="99042018">Ascend from Soul Stream?</text>
+<text id="99042019">Ascend from Soul Geyser?</text>
+<text id="99042020">Ascend from Pestilent Mist?</text>
+<text id="99042021">Ascend from Snap Freeze?</text>
+<text id="99042022">Ascend from Shockwave?</text>
+<text id="99042023">Ascend from Blinding Light?</text>
+<text id="99042024">Ascend from Twisted Wall of Light?</text>
+<text id="99042025">Ascend from Aural Decoy?</text>
+<text id="99042026">Ascend from Repair?</text>
+<text id="99042029">Ascend from Crystal Magic Weapon?</text>
+<text id="99042030">Ascend from Frozen Weapon?</text>
+<text id="99042031">Ascend from Hidden Weapon?</text>
+<text id="99042033">Ascend from Magic Shield?</text>
+<text id="99042034">Ascend from Unleash Magic?</text>
+<text id="99042035">Ascend from Spook?</text>
+<text id="99042036">Ascend from Hidden Body?</text>
+<text id="99042037">Ascend from Chameleon?</text>
+<text id="99042038">Ascend from Cast Light?</text>
+<text id="99043000">Refined Farron Dart crafted</text>
+<text id="99043001">Swift Soul Wave crafted</text>
+<text id="99043002">Explosive Soul Arrow crafted</text>
+<text id="99043003">Explosive Soul Spear crafted</text>
 <text id="99043004">Homing Crystal Soul Spear crafted</text>
-<text id="99043005">Crystal Soul Geyser crafted</text>
-<text id="99043006">Quickened Soul Stream crafted</text>
-<text id="99043007">Supreme Magic Weapon crafted</text>
-
+<text id="99043005">Extended White Dragon Breath crafted</text>
+<text id="99043006">Refined Farron Flashsword crafted</text>
+<text id="99043007">Heavy Soul Greatsword crafted</text>
+<text id="99043008">Heavy Old Moonlight crafted</text>
+<text id="99043009">Surging Soulmass crafted</text>
+<text id="99043010">Weakening Crystal Soulmass crafted</text>
+<text id="99043011">Repeating Soul Orb crafted</text>
+<text id="99043012">Repeating Crystal Orb crafted</text>
+<text id="99043013">Homing Farron Hail crafted</text>
+<text id="99043014">Focused Crystal Hail crafted</text>
+<text id="99043015">Swift Orbs of Judgment crafted</text>
+<text id="99043016">Repeating Crystal Storm crafted</text>
+<text id="99043017">Repeating Blizzard crafted</text>
+<text id="99043018">Quickened Soul Stream crafted</text>
+<text id="99043019">Crystal Soul Geyser crafted</text>
+<text id="99043020">Lingering Pestilent Mist crafted</text>
+<text id="99043021">Lingering Snap Freeze crafted</text>
+<text id="99043022">Refined Shockwave crafted</text>
+<text id="99043023">Refined Blinding Light crafted</text>
+<text id="99043024">Refined Impenetrable Wall of Light crafted</text>
+<text id="99043025">Refined Refined Aural Decoy crafted</text>
+<text id="99043026">Refined Skilled Repair crafted</text>
+<text id="99043029">Supreme Magic Weapon crafted</text>
+<text id="99043030">Supreme Frozen Weapon crafted</text>
+<text id="99043031">Refined Hidden Weapon crafted</text>
+<text id="99043033">Supreme Magic Shield crafted</text>
+<text id="99043034">Lingering Unleash Magic crafted</text>
+<text id="99043035">Mass Spook crafted</text>
+<text id="99043036">Mass Hidden Body crafted</text>
+<text id="99043037">Refined Chameleon crafted</text>
+<text id="99043038">Refined Cast Light crafted</text>
+<text id="99044000">Incendiary Fireball</text>
+<text id="99044001">Weakening Fire Orb</text>
+<text id="99044002">Homing Chaos Fire Orb</text>
+<text id="99044003">Incendiary Bursting Fireball</text>
+<text id="99044004">Distant Profaned Flame</text>
+<text id="99044005">Chaos Vortex</text>
+<text id="99044006">Great Seething Chaos</text>
+<text id="99044007">Refined Flame Fan</text>
+<text id="99044008">Incendiary Combustion</text>
+<text id="99044009">Refined Fire Surge</text>
+<text id="99044010">Incendiary Fire Whip</text>
+<text id="99044011">Refined Sacred Flame</text>
+<text id="99044012">Repeating Firestorm</text>
+<text id="99044013">Repeating Chaos Storm</text>
+<text id="99044014">Refined Lingering Chaos</text>
+<text id="99044015">Lingering Floating Chaos</text>
+<text id="99044016">Incinerating Chaos Beam</text>
+<text id="99044017">Great Cataclysm</text>
+<text id="99044018">Swift Boulder Heave</text>
+<text id="99044019">Great Fecal Expulsion</text>
+<text id="99044020">Homing Heave Earth</text>
+<text id="99044021">Quickened Earthquake</text>
+<text id="99044022">Summon Earthfall</text>
+<text id="99044023">Lingering Acid Surge</text>
+<text id="99044024">Lingering Poison Mist</text>
+<text id="99044025">Lingering Toxic Mist</text>
+<text id="99044026">Lingering Immolation</text>
+<text id="99044027">Fortified Rapport</text>
+<text id="99044028">Fond Warmth</text>
+<text id="99044029">Supreme Carthus Flame Arc</text>
+<text id="99044030">Lingering Carthus Beacon</text>
+<text id="99044031">Lingering Power Within</text>
+<text id="99044032">Great Flash Sweat</text>
+<text id="99044033">Refined Profuse Sweat</text>
+<text id="99044034">Lingering Iron Flesh</text>
+<text id="99044035">Lingering Rockflesh</text>
+<text id="99045000">Ascend from Fireball?</text>
+<text id="99045001">Ascend from Fire Orb?</text>
+<text id="99045002">Ascend from Chaos Fire Orb?</text>
+<text id="99045003">Ascend from Bursting Fireball?</text>
+<text id="99045004">Ascend from Profaned Flame?</text>
+<text id="99045005">Ascend from Chaos Bed Vestiges?</text>
+<text id="99045006">Ascend from Seething Chaos?</text>
+<text id="99045007">Ascend from Flame Fan?</text>
+<text id="99045008">Ascend from Great Combustion?</text>
+<text id="99045009">Ascend from Fire Surge?</text>
+<text id="99045010">Ascend from Fire Whip?</text>
+<text id="99045011">Ascend from Sacred Flame?</text>
+<text id="99045012">Ascend from Firestorm?</text>
+<text id="99045013">Ascend from Chaos Storm?</text>
+<text id="99045014">Ascend from Lingering Chaos?</text>
+<text id="99045015">Ascend from Floating Chaos?</text>
+<text id="99045016">Ascend from Chaos Beam?</text>
+<text id="99045017">Ascend from Cataclysm?</text>
+<text id="99045018">Ascend from Boulder Heave?</text>
+<text id="99045019">Ascend from Fecal Expulsion?</text>
+<text id="99045020">Ascend from Heave Earth?</text>
+<text id="99045021">Ascend from Earthquake?</text>
+<text id="99045022">Ascend from Earthfall?</text>
+<text id="99045023">Ascend from Acid Surge?</text>
+<text id="99045024">Ascend from Poison Mist?</text>
+<text id="99045025">Ascend from Toxic Mist?</text>
+<text id="99045026">Ascend from Immolation?</text>
+<text id="99045027">Ascend from Rapport?</text>
+<text id="99045028">Ascend from Warmth?</text>
+<text id="99045029">Ascend from Carthus Flame Arc?</text>
+<text id="99045030">Ascend from Carthus Beacon?</text>
+<text id="99045031">Ascend from Power Within?</text>
+<text id="99045032">Ascend from Flash Sweat?</text>
+<text id="99045033">Ascend from Profuse Sweat?</text>
+<text id="99045034">Ascend from Iron Flesh?</text>
+<text id="99045035">Ascend from Rockflesh?</text>
+<text id="99046000">Incendiary Fireball crafted</text>
+<text id="99046001">Weakening Fire Orb crafted</text>
+<text id="99046002">Homing Chaos Fire Orb crafted</text>
+<text id="99046003">Incendiary Bursting Fireball crafted</text>
+<text id="99046004">Distant Profaned Flame crafted</text>
+<text id="99046005">Chaos Vortex crafted</text>
+<text id="99046006">Great Seething Chaos crafted</text>
+<text id="99046007">Refined Flame Fan crafted</text>
+<text id="99046008">Incendiary Combustion crafted</text>
+<text id="99046009">Refined Fire Surge crafted</text>
+<text id="99046010">Incendiary Fire Whip crafted</text>
+<text id="99046011">Refined Sacred Flame crafted</text>
+<text id="99046012">Repeating Firestorm crafted</text>
+<text id="99046013">Repeating Chaos Storm crafted</text>
+<text id="99046014">Refined Lingering Chaos crafted</text>
+<text id="99046015">Lingering Floating Chaos crafted</text>
+<text id="99046016">Incinerating Chaos Beam crafted</text>
+<text id="99046017">Great Cataclysm crafted</text>
+<text id="99046018">Swift Boulder Heave crafted</text>
+<text id="99046019">Great Fecal Expulsion crafted</text>
+<text id="99046020">Homing Heave Earth crafted</text>
+<text id="99046021">Quickened Earthquake crafted</text>
+<text id="99046022">Summon Earthfall crafted</text>
+<text id="99046023">Lingering Acid Surge crafted</text>
+<text id="99046024">Lingering Poison Mist crafted</text>
+<text id="99046025">Lingering Toxic Mist crafted</text>
+<text id="99046026">Lingering Immolation crafted</text>
+<text id="99046027">Fortified Rapport crafted</text>
+<text id="99046028">Fond Warmth crafted</text>
+<text id="99046029">Supreme Carthus Flame Arc crafted</text>
+<text id="99046030">Lingering Carthus Beacon crafted</text>
+<text id="99046031">Lingering Power Within crafted</text>
+<text id="99046032">Great Flash Sweat crafted</text>
+<text id="99046033">Refined Profuse Sweat crafted</text>
+<text id="99046034">Lingering Iron Flesh crafted</text>
+<text id="99046035">Lingering Rockflesh crafted</text>
+<text id="99047000">Refined Lightning Arrow</text>
+<text id="99047001">Lightning Surge</text>
+<text id="99047002">Storm Spear</text>
+<text id="99047003">Homing Sunlight Spear</text>
+<text id="99047004">Weakening Wrathful Orbs</text>
+<text id="99047005">Wrathful Wave</text>
+<text id="99047006">Quickened Holy Schism</text>
+<text id="99047007">Sunlight Stake</text>
+<text id="99047008">Sunlight Storm</text>
+<text id="99047009">Repeating Heavenly Thunder</text>
+<text id="99047010">Lingering Overwhelming Power</text>
+<text id="99047011">Refined Way of White Corona</text>
+<text id="99047012">Quickened Halo</text>
+<text id="99047013">Refined Divine Arrow</text>
+<text id="99047014">Homing Lothric's Holy Spear</text>
+<text id="99047015">Refined Force</text>
+<text id="99047016">Quickened Wrath of the Gods</text>
+<text id="99047017">Emit Wrath</text>
+<text id="99047018">Repeating Pillars of Light</text>
+<text id="99047019">Angelic Punishment</text>
+<text id="99047020">Repeating Proof of a Pact</text>
+<text id="99047021">Extended Ghostly Assault</text>
+<text id="99047022">Extended Heal Aid</text>
+<text id="99047023">Extended Heal</text>
+<text id="99047024">Extended Med Heal</text>
+<text id="99047025">Extended Great Heal</text>
+<text id="99047026">Extended Soothing Sunlight</text>
+<text id="99047027">Extended Projected Heal</text>
+<text id="99047028">Lingering Replenishment</text>
+<text id="99047029">Lingering Bountiful Light</text>
+<text id="99047030">Lingering Bountiful Sunlight</text>
+<text id="99047031">Quickened Caressing Tears</text>
+<text id="99047032">Sunlight Blade</text>
+<text id="99047033">Supreme Blessed Weapon</text>
+<text id="99047034">Supreme Darkmoon Blade</text>
+<text id="99047036">Supreme Magic Barrier</text>
+<text id="99047037">Extended Sacred Oath</text>
+<text id="99047038">Divine Relief</text>
+<text id="99047039">Lingering Perseverance</text>
+<text id="99047040">Mass Tears of Denial</text>
+<text id="99047041">Refined Homeward</text>
+<text id="99048000">Ascend from Lightning Arrow?</text>
+<text id="99048001">Ascend from Lightning Spear?</text>
+<text id="99048002">Ascend from Great Lightning Spear?</text>
+<text id="99048003">Ascend from Sunlight Spear?</text>
+<text id="99048004">Ascend from Wrathful Orbs?</text>
+<text id="99048005">Ascend from Wrathful Barrage?</text>
+<text id="99048006">Ascend from Holy Schism?</text>
+<text id="99048007">Ascend from Lightning Stake?</text>
+<text id="99048008">Ascend from Lightning Storm?</text>
+<text id="99048009">Ascend from Heavenly Thunder?</text>
+<text id="99048010">Ascend from Overwhelming Power?</text>
+<text id="99048011">Ascend from Way of White Corona?</text>
+<text id="99048012">Ascend from Halo?</text>
+<text id="99048013">Ascend from Divine Arrow?</text>
+<text id="99048014">Ascend from Lothric's Holy Spear?</text>
+<text id="99048015">Ascend from Force?</text>
+<text id="99048016">Ascend from Wrath of the Gods?</text>
+<text id="99048017">Ascend from Emit Force?</text>
+<text id="99048018">Ascend from Divine Pillars of Light?</text>
+<text id="99048019">Ascend from Angelic Barrage?</text>
+<text id="99048020">Ascend from Proof of a Pact?</text>
+<text id="99048021">Ascend from Ghostly Assault?</text>
+<text id="99048022">Ascend from Heal Aid?</text>
+<text id="99048023">Ascend from Heal?</text>
+<text id="99048024">Ascend from Med Heal?</text>
+<text id="99048025">Ascend from Great Heal?</text>
+<text id="99048026">Ascend from Soothing Sunlight?</text>
+<text id="99048027">Ascend from Projected Heal?</text>
+<text id="99048028">Ascend from Replenishment?</text>
+<text id="99048029">Ascend from Bountiful Light?</text>
+<text id="99048030">Ascend from Bountiful Sunlight?</text>
+<text id="99048031">Ascend from Caressing Tears?</text>
+<text id="99048032">Ascend from Lightning Blade?</text>
+<text id="99048033">Ascend from Blessed Weapon?</text>
+<text id="99048034">Ascend from Darkmoon Blade?</text>
+<text id="99048036">Ascend from Great Magic Barrier?</text>
+<text id="99048037">Ascend from Sacred Oath?</text>
+<text id="99048038">Ascend from Heavenly Relief?</text>
+<text id="99048039">Ascend from Perseverance?</text>
+<text id="99048040">Ascend from Tears of Denial?</text>
+<text id="99048041">Ascend from Homeward?</text>
+<text id="99049000">Refined Lightning Arrow crafted</text>
+<text id="99049001">Lightning Surge crafted</text>
+<text id="99049002">Storm Spear crafted</text>
+<text id="99049003">Homing Sunlight Spear crafted</text>
+<text id="99049004">Weakening Wrathful Orbs crafted</text>
+<text id="99049005">Wrathful Wave crafted</text>
+<text id="99049006">Quickened Holy Schism crafted</text>
+<text id="99049007">Sunlight Stake crafted</text>
+<text id="99049008">Sunlight Storm crafted</text>
+<text id="99049009">Repeating Heavenly Thunder crafted</text>
+<text id="99049010">Lingering Overwhelming Power crafted</text>
+<text id="99049011">Refined Way of White Corona crafted</text>
+<text id="99049012">Quickened Halo crafted</text>
+<text id="99049013">Refined Divine Arrow crafted</text>
+<text id="99049014">Homing Lothric's Holy Spear crafted</text>
+<text id="99049015">Refined Force crafted</text>
+<text id="99049016">Quickened Wrath of the Gods crafted</text>
+<text id="99049017">Emit Wrath crafted</text>
+<text id="99049018">Repeating Pillars of Light crafted</text>
+<text id="99049019">Angelic Punishment crafted</text>
+<text id="99049020">Repeating Proof of a Pact crafted</text>
+<text id="99049021">Extended Ghostly Assault crafted</text>
+<text id="99049022">Extended Heal Aid crafted</text>
+<text id="99049023">Extended Heal crafted</text>
+<text id="99049024">Extended Med Heal crafted</text>
+<text id="99049025">Extended Great Heal crafted</text>
+<text id="99049026">Extended Soothing Sunlight crafted</text>
+<text id="99049027">Extended Projected Heal crafted</text>
+<text id="99049028">Lingering Replenishment crafted</text>
+<text id="99049029">Lingering Bountiful Light crafted</text>
+<text id="99049030">Lingering Bountiful Sunlight crafted</text>
+<text id="99049031">Quickened Caressing Tears crafted</text>
+<text id="99049032">Sunlight Blade crafted</text>
+<text id="99049033">Supreme Blessed Weapon crafted</text>
+<text id="99049034">Supreme Darkmoon Blade crafted</text>
+<text id="99049036">Supreme Magic Barrier crafted</text>
+<text id="99049037">Extended Sacred Oath crafted</text>
+<text id="99049038">Divine Relief crafted</text>
+<text id="99049039">Lingering Perseverance crafted</text>
+<text id="99049040">Mass Tears of Denial crafted</text>
+<text id="99049041">Refined Homeward crafted</text>
+<text id="99050000">Refined Deep Barb</text>
+<text id="99050001">Deep Overflow</text>
+<text id="99050002">Weakening Deep Soul</text>
+<text id="99050003">Quickened Soul Dregs</text>
+<text id="99050004">Refined Surging Deep</text>
+<text id="99050005">Explosive Climax</text>
+<text id="99050006">Great Writhing Deep</text>
+<text id="99050007">Refined Dark Edge</text>
+<text id="99050008">Heavy Abyssal Edge</text>
+<text id="99050009">Pursuers</text>
+<text id="99050010">Cursed Dark Bead</text>
+<text id="99050011">Lingering Cascading Deep</text>
+<text id="99050012">Repeating Dreg Torrent</text>
+<text id="99050013">Repeating Yearning Dregs</text>
+<text id="99050014">Black Fire Whip</text>
+<text id="99050015">Weakening Black Fire Orb</text>
+<text id="99050016">Refined Black Fire Scatter</text>
+<text id="99050017">Scorching Black Fire Vestiges</text>
+<text id="99050018">Scorching Black Flame</text>
+<text id="99050019">Quickened Black Serpent</text>
+<text id="99050020">Scorching Mournful Flames</text>
+<text id="99050021">Forceful Dark Dance</text>
+<text id="99050022">Scorching Recollection</text>
+<text id="99050023">Refined Nibble</text>
+<text id="99050024">Gnawing Swarm</text>
+<text id="99050025">Quickened Dorhys' Gnawing</text>
+<text id="99050026">Repeating Swarm</text>
+<text id="99050027">Great Lifehunt Scythe</text>
+<text id="99050028">Gravelord Sword</text>
+<text id="99050029">Curse of Agony</text>
+<text id="99050030">Refined Dead Again</text>
+<text id="99050031">Echo of Despair</text>
+<text id="99050032">Lingering Repel</text>
+<text id="99050033">Curse of Silence</text>
+<text id="99050034">Supreme Black Flame Arc</text>
+<text id="99050035">Supreme Dark Blade</text>
+<text id="99050036">Supreme Pungent Blade</text>
+<text id="99050037">Supreme Pulsating Blade</text>
+<text id="99050038">Lingering Numbness</text>
+<text id="99050039">Lingering Atonement</text>
+<text id="99050040">Bottomless Deep Protection</text>
+<text id="99051000">Ascend from Deep Barb?</text>
+<text id="99051001">Ascend from Deep Soul?</text>
+<text id="99051002">Ascend from Great Deep Soul?</text>
+<text id="99051003">Ascend from Great Soul Dregs?</text>
+<text id="99051004">Ascend from Surging Deep?</text>
+<text id="99051005">Ascend from Climax?</text>
+<text id="99051006">Ascend from Writhing Deep?</text>
+<text id="99051007">Ascend from Dark Edge?</text>
+<text id="99051008">Ascend from Abyssal Edge?</text>
+<text id="99051009">Ascend from Affinity?</text>
+<text id="99051010">Ascend from Dark Bead?</text>
+<text id="99051011">Ascend from Cascading Deep?</text>
+<text id="99051012">Ascend from Dreg Torrent?</text>
+<text id="99051013">Ascend from Yearning Dregs?</text>
+<text id="99051014">Ascend from Black Fireball?</text>
+<text id="99051015">Ascend from Black Fire Orb?</text>
+<text id="99051016">Ascend from Black Fire Scatter?</text>
+<text id="99051017">Ascend from Black Fire Vestiges?</text>
+<text id="99051018">Ascend from Black Flame?</text>
+<text id="99051019">Ascend from Black Serpent?</text>
+<text id="99051020">Ascend from Mournful Flames?</text>
+<text id="99051021">Ascend from Dark Dance?</text>
+<text id="99051022">Ascend from Recollection?</text>
+<text id="99051023">Ascend from Nibble?</text>
+<text id="99051024">Ascend from Gnaw?</text>
+<text id="99051025">Ascend from Dorhys' Gnawing?</text>
+<text id="99051026">Ascend from Devouring Swarm?</text>
+<text id="99051027">Ascend from Lifehunt Scythe?</text>
+<text id="99051028">Ascend from Gravelord Sword Dance?</text>
+<text id="99051029">Ascend from Vow of Agony?</text>
+<text id="99051030">Ascend from Dead Again?</text>
+<text id="99051031">Ascend from Whisper of Despair?</text>
+<text id="99051032">Ascend from Repel?</text>
+<text id="99051033">Ascend from Vow of Silence?</text>
+<text id="99051034">Ascend from Black Flame Arc?</text>
+<text id="99051035">Ascend from Dark Blade?</text>
+<text id="99051036">Ascend from Pungent Blade?</text>
+<text id="99051037">Ascend from Pulsating Blade?</text>
+<text id="99051038">Ascend from Lingering Numbness?</text>
+<text id="99051039">Ascend from Lingering Atonement?</text>
+<text id="99051040">Ascend from Bottomless Deep Protection?</text>
+<text id="99052000">Refined Deep Barb crafted</text>
+<text id="99052001">Deep Overflow crafted</text>
+<text id="99052002">Weakening Deep Soul crafted</text>
+<text id="99052003">Quickened Soul Dregs crafted</text>
+<text id="99052004">Refined Surging Deep crafted</text>
+<text id="99052005">Explosive Climax crafted</text>
+<text id="99052006">Great Writhing Deep crafted</text>
+<text id="99052007">Refined Dark Edge crafted</text>
+<text id="99052008">Heavy Abyssal Edge crafted</text>
+<text id="99052009">Pursuers crafted</text>
+<text id="99052010">Cursed Dark Bead crafted</text>
+<text id="99052011">Lingering Cascading Deep crafted</text>
+<text id="99052012">Repeating Dreg Torrent crafted</text>
+<text id="99052013">Repeating Yearning Dregs crafted</text>
+<text id="99052014">Black Fire Whip crafted</text>
+<text id="99052015">Weakening Black Fire Orb crafted</text>
+<text id="99052016">Refined Black Fire Scatter crafted</text>
+<text id="99052017">Scorching Black Fire Vestiges crafted</text>
+<text id="99052018">Scorching Black Flame crafted</text>
+<text id="99052019">Quickened Black Serpent crafted</text>
+<text id="99052020">Scorching Mournful Flames crafted</text>
+<text id="99052021">Forceful Dark Dance crafted</text>
+<text id="99052022">Scorching Recollection crafted</text>
+<text id="99052023">Refined Nibble crafted</text>
+<text id="99052024">Gnawing Swarm crafted</text>
+<text id="99052025">Quickened Dorhys' Gnawing crafted</text>
+<text id="99052026">Repeating Swarm crafted</text>
+<text id="99052027">Great Lifehunt Scythe crafted</text>
+<text id="99052028">Gravelord Sword crafted</text>
+<text id="99052029">Curse of Agony crafted</text>
+<text id="99052030">Refined Dead Again crafted</text>
+<text id="99052031">Echo of Despair crafted</text>
+<text id="99052032">Lingering Repel crafted</text>
+<text id="99052033">Curse of Silence crafted</text>
+<text id="99052034">Supreme Black Flame Arc crafted</text>
+<text id="99052035">Supreme Dark Blade crafted</text>
+<text id="99052036">Supreme Pungent Blade crafted</text>
+<text id="99052037">Supreme Pulsating Blade crafted</text>
+<text id="99052038">Lingering Numbness crafted</text>
+<text id="99052039">Lingering Atonement crafted</text>
+<text id="99052040">Bottomless Deep Protection crafted</text>
 </entries>
 </fmg>

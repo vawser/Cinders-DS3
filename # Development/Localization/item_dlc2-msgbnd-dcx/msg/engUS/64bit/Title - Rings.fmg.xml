@@ -59,7 +59,6 @@
 <text id="160">%null%</text>
 <text id="161">%null%</text>
 <text id="162">%null%</text>
-
 <text id="10000">Darkmoon Faithful</text>
 <text id="10020">Watchdogs of Farron</text>
 <text id="10030">Aldrich Faithful</text>
@@ -77,7 +76,6 @@
 <text id="10160">Company of Champions</text>
 <text id="10170">Servant of the Rat</text>
 <text id="10180">Ritualist Pact</text>
-
 <text id="20000">Life Ring</text>
 <text id="20001">Life Ring+1</text>
 <text id="20002">Life Ring+2</text>
@@ -1383,175 +1381,145 @@
 <text id="30554">%null%</text>
 <text id="30555">%null%</text>
 <text id="30560">Redeye Ring</text>
-
 <text id="30650">Bestial Band</text>
 <text id="30651">Bestial Band+1</text>
 <text id="30652">Bestial Band+2</text>
 <text id="30653">Bestial Band+3</text>
 <text id="30654">Bestial Band+4</text>
 <text id="30655">Bestial Band+5</text>
-
 <text id="30660">Band of Stone</text>
 <text id="30661">Band of Stone+1</text>
 <text id="30662">Band of Stone+2</text>
 <text id="30663">Band of Stone+3</text>
 <text id="30664">Band of Stone+4</text>
 <text id="30665">Band of Stone+5</text>
-
 <text id="30670">Band of Magic</text>
 <text id="30671">Band of Magic+1</text>
 <text id="30672">Band of Magic+2</text>
 <text id="30673">Band of Magic+3</text>
 <text id="30674">Band of Magic+4</text>
 <text id="30675">Band of Magic+5</text>
-
 <text id="30680">Band of Flame</text>
 <text id="30681">Band of Flame+1</text>
 <text id="30682">Band of Flame+2</text>
 <text id="30683">Band of Flame+3</text>
 <text id="30684">Band of Flame+4</text>
 <text id="30685">Band of Flame+5</text>
-
 <text id="30690">Band of Sparks</text>
 <text id="30691">Band of Sparks+1</text>
 <text id="30692">Band of Sparks+2</text>
 <text id="30693">Band of Sparks+3</text>
 <text id="30694">Band of Sparks+4</text>
 <text id="30695">Band of Sparks+5</text>
-
 <text id="30700">Band of Darkness</text>
 <text id="30701">Band of Darkness+1</text>
 <text id="30702">Band of Darkness+2</text>
 <text id="30703">Band of Darkness+3</text>
 <text id="30704">Band of Darkness+4</text>
 <text id="30705">Band of Darkness+5</text>
-
 <text id="30800">Elden Ring</text>
 <text id="30801">Elden Ring+1</text>
 <text id="30802">Elden Ring+2</text>
 <text id="30803">Elden Ring+3</text>
 <text id="30804">Elden Ring+4</text>
 <text id="30805">Elden Ring+5</text>
-
-
 <text id="30840">Fool's Sigil</text>
 <text id="30870">Ring of Momentum</text>
 <text id="30880">Ring of Grace</text>
-
 <text id="30890">Ring of Punishment</text>
 <text id="30891">Ring of Punishment+1</text>
 <text id="30892">Ring of Punishment+2</text>
 <text id="30893">Ring of Punishment+3</text>
 <text id="30894">Ring of Punishment+4</text>
 <text id="30895">Ring of Punishment+5</text>
-
 <text id="30900">Dashmaster's String</text>
-
 <text id="30910">Relic of Power</text>
 <text id="30911">Relic of Power+1</text>
 <text id="30912">Relic of Power+2</text>
 <text id="30913">Relic of Power+3</text>
 <text id="30914">Relic of Power+4</text>
 <text id="30915">Relic of Power+5</text>
-
 <text id="30920">Relic of Insanity</text>
 <text id="30921">Relic of Insanity+1</text>
 <text id="30922">Relic of Insanity+2</text>
 <text id="30923">Relic of Insanity+3</text>
 <text id="30924">Relic of Insanity+4</text>
 <text id="30925">Relic of Insanity+5</text>
-
 <text id="30930">Tainted Chalice</text>
 <text id="30931">Tainted Chalice+1</text>
 <text id="30932">Tainted Chalice+2</text>
 <text id="30933">Tainted Chalice+3</text>
 <text id="30934">Tainted Chalice+4</text>
 <text id="30935">Tainted Chalice+5</text>
-
 <text id="30940">Accursed Sigil</text>
 <text id="30941">Accursed Sigil+1</text>
 <text id="30942">Accursed Sigil+2</text>
 <text id="30943">Accursed Sigil+3</text>
 <text id="30944">Accursed Sigil+4</text>
 <text id="30945">Accursed Sigil+5</text>
-
 <text id="30950">Frostflower Ring</text>
 <text id="30951">Frostflower Ring+1</text>
 <text id="30952">Frostflower Ring+2</text>
 <text id="30953">Frostflower Ring+3</text>
 <text id="30954">Frostflower Ring+4</text>
 <text id="30955">Frostflower Ring+5</text>
-
 <text id="30960">Rare Ring of Humanity</text>
-
 <text id="30970">Gwynevere's Urn</text>
-
 <text id="30980">Dial of Obedience</text>
 <text id="30981">Dial of Obedience+1</text>
 <text id="30982">Dial of Obedience+2</text>
 <text id="30983">Dial of Obedience+3</text>
 <text id="30984">Dial of Obedience+4</text>
 <text id="30985">Dial of Obedience+5</text>
-
 <text id="30990">Offering of Might</text>
 <text id="30991">Offering of Might+1</text>
 <text id="30992">Offering of Might+2</text>
 <text id="30993">Offering of Might+3</text>
 <text id="30994">Offering of Might+4</text>
 <text id="30995">Offering of Might+5</text>
-
 <text id="31000">Offering of Tenacity</text>
 <text id="31001">Offering of Tenacity+1</text>
 <text id="31002">Offering of Tenacity+2</text>
 <text id="31003">Offering of Tenacity+3</text>
 <text id="31004">Offering of Tenacity+4</text>
 <text id="31005">Offering of Tenacity+5</text>
-
 <text id="31010">Offering of Fortitude</text>
 <text id="31011">Offering of Fortitude+1</text>
 <text id="31012">Offering of Fortitude+2</text>
 <text id="31013">Offering of Fortitude+3</text>
 <text id="31014">Offering of Fortitude+4</text>
 <text id="31015">Offering of Fortitude+5</text>
-
 <text id="31020">Offering of Vitality</text>
 <text id="31021">Offering of Vitality+1</text>
 <text id="31022">Offering of Vitality+2</text>
 <text id="31023">Offering of Vitality+3</text>
 <text id="31024">Offering of Vitality+4</text>
 <text id="31025">Offering of Vitality+5</text>
-
 <text id="31030">Offering of Devotion</text>
 <text id="31031">Offering of Devotion+1</text>
 <text id="31032">Offering of Devotion+2</text>
 <text id="31033">Offering of Devotion+3</text>
 <text id="31034">Offering of Devotion+4</text>
 <text id="31035">Offering of Devotion+5</text>
-
 <text id="31040">Offering of Fervor</text>
 <text id="31041">Offering of Fervor+1</text>
 <text id="31042">Offering of Fervor+2</text>
 <text id="31043">Offering of Fervor+3</text>
 <text id="31044">Offering of Fervor+4</text>
 <text id="31045">Offering of Fervor+5</text>
-
 <text id="31050">Ravenous Chalice</text>
-
 <text id="31060">Relic of Legends</text>
 <text id="31061">Relic of Legends+1</text>
 <text id="31062">Relic of Legends+2</text>
 <text id="31063">Relic of Legends+3</text>
 <text id="31064">Relic of Legends+4</text>
 <text id="31065">Relic of Legends+5</text>
-
 <text id="31070">Relic of Myths</text>
 <text id="31071">Relic of Myths+1</text>
 <text id="31072">Relic of Myths+2</text>
 <text id="31073">Relic of Myths+3</text>
 <text id="31074">Relic of Myths+4</text>
 <text id="31075">Relic of Myths+5</text>
-
 <text id="31080">Old Man's Gambit</text>
-
 </entries>
 </fmg>

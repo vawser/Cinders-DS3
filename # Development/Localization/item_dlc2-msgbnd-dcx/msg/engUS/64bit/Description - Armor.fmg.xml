@@ -1679,7 +1679,6 @@ use Egg Vermifuge to purge it.</text>
 <text id="9010000">%null%</text>
 <text id="9020000">%null%</text>
 <text id="9030000">%null%</text>
-
 <text id="10010000">Helm of Hawkeye Gough, one of Gwyn's Four Knights. Received as a decoration of knightly honor. 
 
 A helm crafted especially for the honorable Hawkeye Gough, only the eye holes were packed with tree resin by those who dismissed Gough as a brutish giant.
@@ -1701,7 +1700,6 @@ Effect: increases range of projectiles by 25.</text>
 Crafted of similar material to the leggings worn by the Silver Knights.
 
 Effect: increases range of projectiles by 25.</text>
-
 <text id="10020000">Mask of the sorcerers who flooded New Londo to seal away the Darkwraiths, and the Four Kings who descended into Dark.
 
 It symbolizes their resolve to keep the seal shut forever and their atonement for all who were sacrificed, but two of the three forsook New Londo upon tiring of their duty.
@@ -1724,7 +1722,6 @@ Effect: boosts dark defence by 5%.</text>
 The Sealers were once known as healers, and the bright crimson was a symbol of that.
 
 Effect: boosts dark defence by 5%.</text>
-
 <text id="10030000">Helm of the Channelers, sorcerers that serve Seath the Scaleless. The six eyes arranged in two vertical columns compensate for Seath's lack of sight.
 
 Apparel of the Channelers, sorcerers that serve Seath the Scaleless. Even after the onset of Seath's madness, the "snatchers," as they were often called, ventured to far lands to find suitable human specimens. 
@@ -1753,7 +1750,6 @@ Apparel of the Channelers, sorcerers that serve Seath the Scaleless. Even after 
 The heaviest of protective gear for sorcerers, and imbued with magic.
 
 Effect: increases Intelligence by 2.</text>
-
 <text id="10040000">Hat of a sky-worshipping astrologist.
 
 Astrologists believe that magical powers can be obtained at moments of special heavenly alignment. 
@@ -1782,7 +1778,6 @@ Astrologists believe that magical powers can be obtained at moments of special h
 Even the collective wisdom of the Melfian Magic Academy cannot pull magic out of the sky, but the ideas of the astrologists led to the creation of new and very useful magic devices.
 
 Effect: increases max FP by 5%.</text>
-
 <text id="10050000">Helm of kings of the desert land of Jugo. First worn by Aurous, the land's heroic founder.
 
 According to legend, the armor of Aurous is composed of a mysterious substance that cannot be seen by cowards. What do your eyes tell you?
@@ -1803,7 +1798,6 @@ Effect: increases equipment load by 5%.</text>
 According to legend, the armor of Aurous is composed of a mysterious substance that cannot be seen by cowards. What do your eyes tell you?
 
 Effect: increases equipment load by 5%.</text>
-
 <text id="10060000">Helm worn by acolytes of Aldia.
 
 Several of the greatest minds converged in Aldia to weave strange new rituals, but rumors suggest that during the course of their work their thoughts were not their own.
@@ -1824,7 +1818,6 @@ Effect: increases Magic damage by 2.5%.</text>
 Several of the greatest minds converged in Aldia to weave strange new rituals, but rumors suggest that during the course of their work their thoughts were not their own.
 
 Effect: increases Magic damage by 2.5%.</text>
-
 <text id="10070000">Helmet worn by the ferocious Vengarl of Forossa. 
 
 As Vengarl's helmet suggests, he was not unlike a mad beast on the battlefield.
@@ -1845,7 +1838,6 @@ Effect: reduces weapon stamina consumption by 5%.</text>
 Vengarl was known as a raging, deadly warrior. Even Forossa's Lion Knights, a motley crew of rabid fighters, kept him at arm's length.
 
 Effect: reduces weapon stamina consumption by 5%.</text>
-
 <text id="10080000">Black top hat worn by Marvellous Chester,
 a man of mystery lost in the past.
 
@@ -1868,7 +1860,6 @@ Effect: increases Physical damage by 2.5%.</text>
 These exquisitely sewn trousers are decorated with silver trinkets of varying sizes, and have straps on the inner legs for carrying crossbow bolts.
 
 Effect: increases Physical damage by 2.5%.</text>
-
 <text id="10090000">Helm of the infamous wanderer Ridoh. 
 
 Bitter rival of Hodir, he wanders the lands in search of the Elden Ring, seeking to gain its power for his own.
@@ -1876,7 +1867,6 @@ Bitter rival of Hodir, he wanders the lands in search of the Elden Ring, seeking
 During winter nights, Ridoh will bellow into the darkness, shouting 'Oooooh... Elden Ring!' in a vain attempt to beckon the fabled artifact to him.
 
 Effect: increases max Stamina by 5%.</text>
-
 <text id="10100000">Crown of Vendrick, King of Drangleic.
 
 What makes a king? Some say that it is a birthright, while others call it destiny. Perhaps it is not important, as long as the king's name serves to unite his people.
@@ -1897,7 +1887,6 @@ Effect: boosts soul absorption by 2.5%.</text>
 What makes a king? Some say that it is birthright, while others call it destiny. Perhaps it is not important, as long as the king's name serves to unite his people.
 
 Effect: boosts soul absorption by 2.5%.</text>
-
 <text id="10110000">Cowl used by the Great Bear himself.
 
 It is said that the Bear delights in finding sources of sweet honey. 
@@ -1922,7 +1911,6 @@ It is said that the Bear delights in finding sources of sweet honey.
 But such a rumour does not seem likely for such a brute.
 
 Effect: increases max HP, max FP and max Stamina by 2.5%.</text>
-
 <text id="10120000">Helm worn by the warrior clerics of Thorolund, who are famous for being unyielding in battle. 
 
 Among such helmets, those that were black belonged to warrior clerics sent on missions, many of whom were high level priests.
@@ -1943,7 +1931,6 @@ Effect: increases Faith by 2.</text>
 Among such leggings, those that were black belonged to warrior clerics sent on missions, many of whom were high level priests.
 
 Effect: increases Faith by 2.</text>
-
 <text id="10130000">Helm worn by the fume knight.
 The rebel Raime, after his defeat by Velstadt, came to Brume Tower in search of greater strength. 
 
@@ -1968,7 +1955,6 @@ The rebel Raime, after his defeat by Velstadt, came to Brume Tower in search of 
 When he found it, it came not from a regal father like before, but from a newfound mother, who gave him true purpose.
 
 Effect: increases Fire damage by 2.5%.</text>
-
 <text id="10140000">Helmet worn by the captain of the Alonne Knights.
 
 The accoutrements of the Alonne Knights, who served the Old Iron King, were created with an advanced crafting technique. They remain solid and handsomely crafted. 
@@ -1997,7 +1983,6 @@ The accoutrements of the Alonne Knights, who served the Old Iron King, were crea
 The design is styled after the armor worn by an unusual knight who trained the Iron King's men in the sword. He was said to have deserted his liege after bearing witness to his descent into depravity.
 
 Effect: reduces skill FP consumption by 5%.</text>
-
 <text id="10150000">Helmet worn by the forgotten gravekeepers of the cemetery.
 
 It is said that a gravekeeper must bear the burden of their sins across their back. This takes the form of a physical coffin, a weighty reminder of their duty to the cemetery.
@@ -2018,7 +2003,6 @@ Effect: boosts damage against Undead by 5%.</text>
 It is said that a gravekeeper must bear the burden of their sins across their back. This takes the form of a physical coffin, a weighty reminder of their duty to the cemetery.
 
 Effect: boosts damage against Undead by 5%.</text>
-
 <text id="10160000">Mask worn by the illusive attendants of the Grand Archives. Rarely ever seen.
 
 Whilst the scholars toil, the attendants perform the laborious actions required for their study.
@@ -2029,70 +2013,57 @@ Effect: boosts casting speed by 5.</text>
 Whilst the scholars toil, the attendants perform the laborious actions required for their study.
 
 Effect: boosts casting speed by 5.</text>
-
 <text id="10170000">A crude helmet made to fit an artificial behemoth that once inhabited Drang.
 
 These behemoths were hideous beasts, and a testament to the failures of King Vendrick.
 
 Effect: increases max HP by 5%.</text>
-
 <text id="10180000">A giant horned helmet made from the tusks of a mastadon.
 
 It is said that King Vendrick employed mastadons as palace guards, owing to their inhuman strength.
 
 Effect: increases Physical damage by 2.5%.</text>
-
 <text id="10190000">A helm fashioned from the shell of a snail.
 
 The snails of the Undead Settlement are noted for their connection to the arcane and mystical.
 
 Effect: increases max FP by 5%.</text>
-
 <text id="10200000">A mask worn by the overseer of a noxious valley.
 
 Within the lands of Drang, there are rumours of a polluted valley below a non-euclidean tower.
 
 Effect: increases stamina damage by 25%.</text>
-
 <text id="10210000">A gold mask worn by a suspicious shadow.
 Known as especially adept assassins, they are often hired as bodyguards.
 
 In an attempt to stave off the curse, King Vendrick hired shadowmen to put down the Hollows, but before long they were hollowed themselves.
 
 Effect: increases Item Discovery by 25.</text>
-
 <text id="10220000">Severed head of the fully-armored Fang Boar taken by the one who killed it as proof of his victory, just as the Gods once did with the head of the ancient dragon. 
 
 Can be worn on the head as a surprisingly sound piece of protective gear.
 
 Effect: increases Strength by 2.</text>
-
 <text id="10230000">A barrel prized by the workers of the Undead Settlement.
 
 Effect: boosts soul absorption by 2.5%.</text>
-
 <text id="10240000">A bucket prized by the workers of the Undead Settlement.
 
 Effect: increases Item Discovery by 25.</text>
-
 <text id="10250000">A sack prized by the workers of the Undead Settlement.
 
 Effect: increases Item Discovery by 25.</text>
-
 <text id="10260000">A dress worn by Rosaria before her transformation.
 
 Rosaria's blessing pulses through this dress, and imbues its wearer with potent healing properties.
 
 Effect: increases effectiveness of HP recovery by 2.5%.</text>
-
 <text id="10270000">A hat worn by the eccentric Salvador, who resides in the Undead Settlement.
 
 Effect: increases Item Discovery by 25.</text>
-
 <text id="10280000">A cap worn by the priests of Ariandel, before their untimely demise at the hands of Sister Friede.
 
 Effect: increases Attunement by 2.</text>
-
 <text id="10290000">Helm worn by a gallant soldier.
 Strong against slash attacks, it is often worn by soldiers.
 
@@ -2109,7 +2080,6 @@ Effect: boosts physical defence by 5%.</text>
 Strong against slash attacks, it is often worn by soldiers.
 
 Effect: boosts physical defence by 5%.</text>
-
 <text id="10300000">Helm worn by a local warden.
 The roads of the settlement are treacherous without the eyes of a warden over them. 
 
@@ -2126,7 +2096,6 @@ Effect: increases stamina recovery by 5.</text>
 The roads of the settlement are treacherous without the eyes of a warden over them.
 
 Effect: increases stamina recovery by 5.</text>
-
 <text id="10310000">A dull gold helmet. 
 Worn as the war gear of high-ranking women in the highlands of a distant kingdom.
 
@@ -2140,7 +2109,6 @@ Effect: increases effectiveness of HP recovery by 2.5%.</text>
 <text id="10313000">Dull gold greaves that serve as the war gear of high-ranking women in the highlands of a distant kingdom.
 
 Effect: increases effectiveness of HP recovery by 2.5%.</text>
-
 <text id="10320000">An iron helmet with finely cut grooves, it is used by the knights of the prosperous region of a distant kingdom.
 The fine grooves are designed to enhance the protective effect of the thin iron sheet.
 
@@ -2157,7 +2125,6 @@ Effect: reduces weapon stamina consumption by 5%.</text>
 The fine grooves are designed to enhance the protective effect of the thin iron sheet.
 
 Effect: reduces weapon stamina consumption by 5%.</text>
-
 <text id="10330000">A leather hat suitable for field activity. 
 Widely used by royal huntsmen.
 
@@ -2174,7 +2141,6 @@ Effect: increases range of projectiles by 25.</text>
 Widely used by royal huntsmen.
 
 Effect: increases range of projectiles by 25.</text>
-
 <text id="10340000">A helmet crafted from white metal, given to knights who protect sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
 
 Effect: increases max HP by 5%.</text>
@@ -2187,7 +2153,6 @@ Effect: increases max HP by 5%.</text>
 <text id="10343000">Greaves crafted from white metal and given to knights charged with protecting sacred temples. Mird, now long lost, is the name of the area where the first temples were built.
 
 Effect: increases max HP by 5%.</text>
-
 <text id="10350000">An iron helmet, commonly found on sentinels.
 It's simple, but reasonably tough.
 
@@ -2204,7 +2169,6 @@ Effect: increases equipment load by 5%.</text>
 They are simply made, but reasonably tough.
 
 Effect: increases equipment load by 5%.</text>
-
 <text id="10360000">A stiff and dirty three-cornered cap.
 The witches hat painted through tradition actually seems to be worn by witches...
 
@@ -2221,7 +2185,6 @@ Effect: increases Intelligence by 2.</text>
 They are covered with tears, unsightly open seams, and numerous unsightly insects wriggling within it. No sane person would dare wear something like this...
 
 Effect: increases Intelligence by 2.</text>
-
 <text id="10370000">A gold mask inlaid with a delicate design. 
 Even among the charlatans that are confined in a sealed chamber who embrace the tradition, only those of a particularly high rank are allowed to wear it.
 
@@ -2241,7 +2204,6 @@ Equipment of a masked society who meet in secret to discuss nefarious deeds.
 Their clandestine affairs are largely unknown.
 
 Effect: boosts soul absorption by 2.5%.</text>
-
 <text id="10381000">The robe of a martyr.
 White clothes of especially devouted martyrs worn when making appearances to teach or perform holy works while traveling. The strong fabric is made from many layers of cloth, bundled together.
 
@@ -2254,7 +2216,6 @@ Effect: increases Faith by 2.</text>
 White clothes of especially devouted martyrs worn when making appearances to teach or perform holy works while traveling. The strong fabric is made from many layers of cloth, bundled together.
 
 Effect: increases Faith by 2.</text>
-
 <text id="10390000">A thin cloth mask which covers the nose and mouth.
 For pickpockets who need to mask their breath. 
 Either way, it isn't used for good.
@@ -2273,7 +2234,6 @@ Used by pickpockets who need to stay hidden in the shadows.
 Either way, they are not used for good.
 
 Effect: muffles footsteps and prevents fall damage.</text>
-
 <text id="10401000">Well-made cloth vest, worn by wandering magicians.
 
 Effect: increases Magic damage by 2.5%.</text>
@@ -2283,7 +2243,6 @@ Effect: increases Magic damage by 2.5%.</text>
 <text id="10403000">Functional shoes suited for stone floors. They are worn by wandering magicians.
 
 Effect: increases Magic damage by 2.5%.</text>
-
 <text id="19000000">Helm of an order of fallen knights who disbanded and fled, but met untimely deaths.
 
 The drab, tattered hood conceals tough, black metal which provides dependable protection from fire.
@@ -4276,7 +4235,6 @@ Effect: increases max FP by 5%.</text>
 The conical gold helmet, symbol of the executioners, represents luminosity, ambition, and an unflagging resolve to face impurity, staring it down with stern golden spirit.
 
 Effect: imbues weapon, absorbing 10 HP on kill.</text>
-
 <text id="99080000">Helm of a gargoyle, the enchanted creature found deep in the bowels of the Profaned Capital.
 
 This bronze helm was for mere appearance's sake, as gargoyle skin is naturally hard.
@@ -5455,6 +5413,5 @@ Effect: increases max HP by 5%.</text>
 The stone knights are golems animated by magic, and their enchanted leggings are oppressively heavy.
 
 Effect: increases max HP by 5%.</text>
-
 </entries>
 </fmg>

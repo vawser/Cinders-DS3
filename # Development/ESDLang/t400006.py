@@ -159,7 +159,7 @@ def t400006_x9():
     while True:
         ClearTalkListData()
        
-        # Memory of Skeletons
+        # Memories
         AddTalkListData(1, 99031000, -1)
 
         # Talk
@@ -172,9 +172,9 @@ def t400006_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Memory of Skeletons
+        # Memories
         if GetTalkListEntryResult() == 1:
-            SetEventState(25009600, 1)
+            assert t400006_x12()
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:
@@ -210,6 +210,28 @@ def t400006_x11():
     """ State 2 """
     return 0
     
+# Memories
+def t400006_x12():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        AddTalkListData(1, 99031001, -1) # Carthus Commotion
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Skeleton Scramble
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25009600, 1)
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
 #----------------------------------------------------
 # Utility
 #----------------------------------------------------

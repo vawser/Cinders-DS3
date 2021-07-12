@@ -154,7 +154,6 @@ Skill: Crystal Blade
 Release magic from the aquamarine
 crystals, creating a fleeting blue crystal blade,
 lengthy enough to swing as a straight sword.</text>
-
 <text id="1150000">A short-shafted hand scythe wielded by the
 murkmen who rise from the depths.
 
@@ -320,7 +319,6 @@ Inflicts Curse.
 Skill: Quickstep
 Instantly step behind or around the side of foes.
 Especially effective when locked on to target.</text>
-
 <text id="2250000">Straight sword wielded by the Ringed Knights.
 The arms of early men were forged in the Abyss,
 and betray a smidgen of life.
@@ -471,7 +469,6 @@ these swords, and those who possessed them.
 Skill: Ember
 Stand ready with the timeworn blade as it restores its ancient brilliance.
 From this stance, transition to normal or strong attack.</text>
-
 <text id="2260000">Greatsword of Slave Knight Gael, the only weapon
 that he kept with him from beginning to end.
 Originally an executioner's sword made for
@@ -652,7 +649,6 @@ Leap in any direction, slamming the greatsword
 to the ground, then follow with normal attack for
 a large spinning slash, or strong attack to back-
 step and jump forward in an overhead slam.</text>
-
 <text id="5060000">A dragon weapon symbolizing Darkeater Midir.
 
 The once-exquisite blade is now stained black,
@@ -833,7 +829,6 @@ Skill: Hold
 Assume a holding stance in which a normal attack
 sends a shockwave along the earth, and a
 strong attack commences a series of slashes.</text>
-
 <text id="6380000">Giant gold-decorated curved sword wielded by
 warriors of the Harald Legion, who sought the
 dark soul.
@@ -984,7 +979,6 @@ where their blades were severely corroded.
 Skill: Sever
 Hold the giant blade with both hands and slash
 repeatedly at foe's feet.</text>
-
 <text id="8320000">Great Hammer wielded by the Silver Knight Ledo.
 Ledo's hammer is far the heaviest weapon amongst those wielded by the knights of Anor Londo.
 
@@ -1090,7 +1084,6 @@ Ledo, an eccentric who traveled across the outskirts, became a close friend to t
 
 Skill: Call to Stone
 Spin to lure stones to the steel hammer, boosting attack by 15% for 20 seconds, and use strong attack to transition into an earth slam that shatters the stones in a shockwave.</text>
-
 <text id="9240000">Black spear wielded by the Ringed Knights.
 The arms of early men were forged in the Abyss,
 and betray a smidgen of life.
@@ -1226,7 +1219,6 @@ these spears, and those who possessed them.
 
 Skill: Ember
 Thrust the timeworn spear and watch it restore its ancient brilliance, adding 90 Fire damage for 20 seconds.</text>
-
 <text id="9250000">The flagpole that once carried the Lothric
 crest, and guided the knights long ago.
 
@@ -1347,7 +1339,6 @@ pointed decoration, letting it serve as a spear.
 
 Skill: Lothric War Banner
 Wave the flagpole high in the air, like the days of yore, summoning an ethereal war banner that boosts the attack of those who gather under it by 15% for 30 seconds.</text>
-
 <text id="9260000">A cross spear hung with a malformed corpse.
 
 Once, a mad king was born to the pygmy royalty,
@@ -1573,7 +1564,6 @@ Skill: Mad King's Folly
 Slam malformed corpse into the ground to briefly
 awaken it, then fillet with strong attack to
 trigger a roar, a blessing, or vexation.</text>
-
 <text id="10170000">A long-handled greatsword that made its way from a distant land. Crafted entirely with steel, making it exceedingly heavy.
 
 Splitleaf refers to the shape of the great blade,
@@ -1679,7 +1669,6 @@ and its resemblance to the veins of a leaf.
 
 Skill: Wind Wheel
 Spin weapon vigorously above head and sweep foes, and transition with normal or strong attack for continued spin attacks, which whip up wind and gain momentum, strengthening subsequent attacks.</text>
-
 <text id="14120000">A short bow crafted with white birch.
 Endowed with light-manipulating magic.
 
@@ -1687,14 +1676,12 @@ The bow is a relic from an ancient land of sorceries that was swallowed by the A
 
 Skill: Wrathful Arrow
 Arrows shot by large pulls of the bow are enchanted with a wrathful spell that turns them nearly invisible and upon impact creates a powerful shockwave.</text>
-
 <text id="14190000">This crossbow, customized for repeat-firing to face mobs alone, was wielded by Slave Knight Gael.
 
 Used in the battles of an endless journey, this crossbow is covered with twists and dinks, rusted with blood, and made extremely brittle from overuse.
 
 Skill: Repeat Fire
 Assume stance to activate repeat firing mechanism, and repeat fire with normal and strong attacks.</text>
-
 <text id="16120000">Unusually shaped paired greatshields resembling
 great doors. Heirlooms of the knight who was known as the protector of the meek, yet who failed to protect anyone.
 
@@ -1770,7 +1757,6 @@ great doors. Heirlooms of the knight who was known as the protector of the meek,
 
 Skill: Lockout
 Shut the great doors tightly for stalwart defense, and use normal attack to transition into shield bash, or strong attack for a heave that holds shields to block nearly all damage.</text>
-
 <text id="16160000">Paired black greatswords wielded by the Ringed Knights. The arms of early men were forged in the Abyss, and betray a smidgen of life. For this reason the gods cast a seal of fire upon such weapons, and those who possessed them.
 
 Skill: Ember
@@ -1831,7 +1817,6 @@ Cross the twin timeworn greatswords to reignite a short-lived flame. A lightning
 
 Skill: Ember
 Cross the twin timeworn greatswords to reignite a short-lived flame. A lightning-quick upward heave slices the very air, and transitions into normal or strong attacks.</text>
-
 <text id="20310000">This shield, as hard as a great boulder, is formed by the head of the descendant of an Archdragon. The Ringed Knights, by command of the gods, stood amongst the ranks who set out to slay the dragons, but their contributions were never lauded.
 
 Skill: Dragon Breath
@@ -1876,7 +1861,6 @@ Even the descendant of an Archdragon perishes not, and use of this skill restore
 
 Skill: Dragon Breath
 Even the descendant of an Archdragon perishes not, and use of this skill restores its former strength, sweeping foes with a frontal exhalation of dragon breath.</text>
-
 <text id="21310000">This shield, as hard as a great boulder, is formed by the head of the descendant of an Archdragon.
 
 Skill: Dragon Roar

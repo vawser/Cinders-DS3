@@ -478,7 +478,6 @@
 <text id="5908">%null%</text>
 <text id="5909">%null%</text>
 <text id="5910">%null%</text>
-
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
@@ -489,13 +488,18 @@ it is learned far and wide due to its ease of use.</text>
 <text id="1200010">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
-Fire a homing soul dart.
+Fire a soul dart with no focus cost.
 
 Well known among the Farron sorceries,
 it is learned far and wide due to its ease of use.</text>
 <text id="1210000">Sorcery which builds upon Farron Dart.
 
 Fires a soul orb that emits soul darts.
+
+Entrusted to the leader of the Legion's acolytes, and apparently a sorcery of his daughter, Heysel, that was refined by a Crystal Sage.</text>
+<text id="1210010">Sorcery which builds upon Farron Dart.
+
+Fires a soul orb that repeatedly emits soul darts.
 
 Entrusted to the leader of the Legion's acolytes, and apparently a sorcery of his daughter, Heysel, that was refined by a Crystal Sage.</text>
 <text id="1300000">Elementary sorcery.
@@ -505,7 +509,7 @@ To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
 <text id="1300010">Improved version of an elementary sorcery.
 
-Fires a homing soul arrow.
+Fires an explosive soul arrow.
 
 To use sorceries, equip a staff
 and attune a sorcery at a bonfire.</text>
@@ -514,9 +518,19 @@ and attune a sorcery at a bonfire.</text>
 Fires a crystal orb that emits soul arrows.
 
 Many sorceries inflict magic damage, making them effective against iron armor, tough scales, and other physically resilient materials.</text>
+<text id="1301010">Sorcery which builds upon Soul Arrow.
+
+Fires a crystal orb that repeatedly emits soul arrows.
+
+Many sorceries inflict magic damage, making them effective against iron armor, tough scales, and other physically resilient materials.</text>
 <text id="1302000">Elementary, yet practical sorcery from long ago.
 
 Fire shockwave, knocking down foe.
+
+A fallen foe is easy prey for the skilled sorcerer.</text>
+<text id="1302010">Elementary, yet practical sorcery from long ago.
+
+Fire shockwave with no focus cost, knocking down foe.
 
 A fallen foe is easy prey for the skilled sorcerer.</text>
 <text id="1303000">Sorcery derived from Soul Spear.
@@ -535,7 +549,14 @@ influenced by the caster's intelligence.</text>
 the great sorcerer who left the Dragon School in an age long past.
 
 Releases a homing soulmass. 
-Impact reduces the Magic absorption of the target by 10% for 5 seconds.
+
+This sorcery may offer a clue as to what Logan sought,
+but further investigation suggests its attraction to
+living things mirrors the nature of the dark.</text>
+<text id="1304010">Sorcery developed by Big Hat Logan,
+the great sorcerer who left the Dragon School in an age long past.
+
+Releases a surge of homing soulmass. 
 
 This sorcery may offer a clue as to what Logan sought,
 but further investigation suggests its attraction to
@@ -544,7 +565,13 @@ living things mirrors the nature of the dark.</text>
 
 Releases a homing crystal soulmass.
 Crystal soulmass has piercing qualities.
-Impact reduces the Magic absorption of the target by 10% for 10 seconds.
+
+According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
+<text id="1305010">Sharpens Homing Soulmass via crystallization.
+
+Releases a weakening homing crystal soulmass.
+Crystal soulmass has piercing qualities.
+Impact reduces the Magic absorption of the target by 10% for 5 seconds.
 
 According to the Crystal Sages, old Big Hat achieved enlightenment within the Regal Archives, where he came to find the quintessence of sorcery in the facets of a certain crystal.</text>
 <text id="1306000">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past.
@@ -555,7 +582,7 @@ The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
 <text id="1306010">Sorcery developed by Big Hat Logan, the great sorcerer who left the Dragon School in an age long past. Improved by Magician Quilon.
 
-Fires a homing soul spear.
+Fires an explosive soul spear.
 
 The spear boasts superior penetrating power,
 and is testament to Logan's strength in battle,</text>
@@ -633,10 +660,29 @@ Lasts 120 seconds.
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
 is reliant upon the ingenuity of its caster.</text>
+<text id="1340010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Turns right weapon invisible with no focus cost.
+Lasts 120 seconds.
+
+The weapon itself undergoes no inherent changes.
+Effective use of this, like any tool, perhaps,
+is reliant upon the ingenuity of its caster.</text>
 <text id="1341000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
 Turns body nigh on invisible, reducing enemy detection via sight by 100%.
+Lasts 60 seconds.
+
+Although perfect invisibility is unachievable
+due to the risk of dissipation, the caster
+need only stand still for a moment to blend
+in to environs with astounding camouflage.</text>
+<text id="1341010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Turns body of self and allies nigh on invisible, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
 
 Although perfect invisibility is unachievable
@@ -653,6 +699,16 @@ This light-producing magic is elementary
 but nonetheless demonstrates the pure
 nature of golden sorceries; the likes of which have
 not been developed even at the Dragon School.</text>
+<text id="1350010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Casts a light to illuminate surroundings with no focus cost.
+Lasts 120 seconds.
+
+This light-producing magic is elementary
+but nonetheless demonstrates the pure
+nature of golden sorceries; the likes of which have
+not been developed even at the Dragon School.</text>
 <text id="1351000">A sorcery that facilitates surreptitious activity.
 
 The eastern land of Mirrah is not only the
@@ -662,7 +718,17 @@ who quietly carry out unspeakable tasks.</text>
 <text id="1353000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Repairs equipped weapons and armor.
+Repairs 50 durability of equipped weapons and armor.
+Includes weapons with exhausted durability.
+
+While the effects of this spell are rather subtle,
+its foundations are a well-guarded secret.
+Light is time, and the reversal of its effects
+is a forbidden art.</text>
+<text id="1353010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Repairs 100 durability of equipped weapons and armor.
 Includes weapons with exhausted durability.
 
 While the effects of this spell are rather subtle,
@@ -679,10 +745,28 @@ Lasts 60 seconds.
 Their mastery of this sorcery alone allows
 Vinheim spooks to demand handsome payment
 for their services. </text>
+<text id="1354010">Sorcery developed by a certain surreptitious
+sorcerer at Vinheim Dragon School.
+
+Masks noises of the caster and allies and prevents fall damage.
+Reduces enemy detection via sound by 100%.
+Lasts 60 seconds.
+
+Their mastery of this sorcery alone allows
+Vinheim spooks to demand handsome payment
+for their services. </text>
 <text id="1355000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
 Transforms into something inconspicuous.
+
+Far from formally developed, this magic was
+instead born from the mischief of a young girl who
+sought relief from the solitude of the woods at dusk.</text>
+<text id="1355010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Transforms into something inconspicuous with no focus cost.
 
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
@@ -696,9 +780,27 @@ Lasts 3 seconds.
 The sound carries with it a strangely infectious
 resonance that may cause one to stray from their
 post and expose their back.</text>
+<text id="1356010">Sorcery developed by a certain surreptitious
+sorcerer at Vinheim Dragon School.
+
+Distracts foes with a distant sound.
+Lasts 3 seconds. Can be used with no focus cost.
+
+The sound carries with it a strangely infectious
+resonance that may cause one to stray from their
+post and expose their back.</text>
 <text id="1370000">Sorcery of the deluded Consumed King Oceiros.
 
 Emits crystal breath of Seath the Scaleless, inflicting 60 Curse.
+Crystal breath has piercing qualities.
+
+Seath's research seemed to strike a chord with
+old Big Hat who, in his mad, disrobed state,
+made divine works such as this, his own.
+Oceiros was no doubt edified by this.</text>
+<text id="1370010">Sorcery of the deluded Consumed King Oceiros.
+
+Emits extended crystal breath of Seath the Scaleless, inflicting 60 Curse.
 Crystal breath has piercing qualities.
 
 Seath's research seemed to strike a chord with
@@ -711,10 +813,24 @@ Fires a cascade of soul darts.
 Entrusted to the leader of the Legion's acolytes,
 and apparently a sorcery of his daughter, Heysel,
 that was refined by a Crystal Sage.</text>
+<text id="1372010">Sorcery which improves upon Farron Dart.
+Fires a cascade of homing soul darts.
+
+Entrusted to the leader of the Legion's acolytes,
+and apparently a sorcery of his daughter, Heysel,
+that was refined by a Crystal Sage.</text>
 <text id="1373000">Unique sorcery developed by extraordinary
 preacher twins known as the Crystal Sages.
 
 Casts a cascade of small crystal soulmasses from above. Crystal soulmasses have piercing qualities.
+
+In a pact said to have been formed long ago,
+one of the Sages allied with the Undead Legion
+in order to train the sorcerers of Farron.</text>
+<text id="1373010">Unique sorcery developed by extraordinary
+preacher twins known as the Crystal Sages.
+
+Casts a faocused cascade of small crystal soulmasses from above. Crystal soulmasses have piercing qualities.
 
 In a pact said to have been formed long ago,
 one of the Sages allied with the Undead Legion
@@ -727,8 +843,27 @@ of the caster, but its power is said to rival
 that of physical greatswords.
 Even the most obstinate magic purists
 may resort to this spell in times of crisis.</text>
+<text id="1374010">Sorcery developed primarily for sorcerer-swordsmen.
+Attacks with a greatsword formed from souls.
+
+The ephemeral blade only exists as an extension
+of the caster, but its power is said to rival
+that of physical greatswords.
+
+Inreases Poise damage to 80 and causes knockdown.
+
+Even the most obstinate magic purists
+may resort to this spell in times of crisis.</text>
 <text id="1375000">Alteration of Soul Greatsword developed
 by sorcerers of the Undead Legion of Farron.
+
+The Legion has a tendency to emphasize speed
+over power, and this practical alteration of
+an existing sorcery is no exception.</text>
+<text id="1375010">Alteration of Soul Greatsword developed
+by sorcerers of the Undead Legion of Farron.
+
+Can be used with no focus cost.
 
 The Legion has a tendency to emphasize speed
 over power, and this practical alteration of
@@ -756,6 +891,16 @@ A closely-guarded light manipulation spell
 that contorts the very fabric of fundamental laws,
 negating magic by denying its claim to physicality.
 </text>
+<text id="1651010">Lost sorcery from Oolacile,
+land of ancient golden sorceries.
+
+Distorts light in order to deflect magic.
+Lasts 1 seconds.
+
+A closely-guarded light manipulation spell
+that contorts the very fabric of fundamental laws,
+negating magic by denying its claim to physicality.
+</text>
 <text id="1740000">Highly dangerous sorcery employed by Dragon
 School spooks. Only taught to trusted members.
 
@@ -766,7 +911,22 @@ Lasts for 5 seconds.
 A body caught in the silent mist cloud lies still,
 while the face twists in a tortured scream.
 The names of these learned sorcerers became feared for this gruesome spectacle.</text>
+<text id="1740010">Highly dangerous sorcery employed by Dragon
+School spooks. Only taught to trusted members.
+
+Releases dense lingering mist that inflicts 15 Curse and  removes 0.2% HP per tick.
+Beware, as the caster is not immune to its effect.
+Lasts for 8 seconds.
+
+A body caught in the silent mist cloud lies still,
+while the face twists in a tortured scream.
+The names of these learned sorcerers became feared for this gruesome spectacle.</text>
 <text id="1800000">Sorcery of the long forgotten paledrake.
+
+Summon forth a storm of crystals.
+
+The curiosity of the paledrake knew no bounds, and even great souls succumb to madness on the frontiers of knowledge.</text>
+<text id="1800010">Sorcery of the long forgotten paledrake.
 
 Summon forth a storm of crystals.
 
@@ -778,10 +938,25 @@ Boosts the damage of Sorceries by 20% but reduces max HP by 50%.
 Lasts 30 seconds.
 
 In Vinheim, potent spells often requires a great deal of sacrifice, as epitomised by this spell.</text>
+<text id="1801010">Sorcery belonging to a sorcerer of 
+Vinheim.
+
+Boosts the damage of Sorceries by 20% but reduces max HP by 50%.
+Lasts 60 seconds.
+
+In Vinheim, potent spells often requires a great deal of sacrifice, as epitomised by this spell.</text>
 <text id="1802000">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
 
 Fires soul wave that pierces enemies.</text>
+<text id="1802010">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
+
+Fires swift soul wave that pierces enemies.</text>
 <text id="1803000">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
+
+Summon multiple spots of frost in vicinity, inflicting 60 Frost.
+
+Sulyvahn was born and raised inside the painting, yet had little use for his frigid homeland, since he had not yet experienced loss.</text>
+<text id="1803010">One of the spells left behind by the young sorcerer Sulyvahn before leaving the Painted World. 
 
 Summon multiple spots of frost in vicinity, inflicting 60 Frost.
 
@@ -791,14 +966,30 @@ Sulyvahn was born and raised inside the painting, yet had little use for his fri
 Fire multiple orbs of judgment that seek foe.
 
 The meek shall face judgment for their cowardice.</text>
+<text id="1805010">One of the spells used by the sorcerer Sulyvahn after his ascension to Pontiff.
+
+Fire multiple orbs of judgment that swiftly seek foe.
+
+The meek shall face judgment for their cowardice.</text>
 <text id="1807000">One of the ancient Oolacile sorceries favoured by those that preferred more aggressive solutions.
 
 Creates a flash of golden light.
 
 The sorcerers of Oolacile were not fond of violence, but nevertheless they forged spells that would defend them so.
 </text>
+<text id="1807010">One of the ancient Oolacile sorceries favoured by those that preferred more aggressive solutions.
+
+Creates a flash of golden light with no focus cost.
+
+The sorcerers of Oolacile were not fond of violence, but nevertheless they forged spells that would defend them so.
+</text>
 <text id="2400000">Elementary pyromancy that is often the first learned.
 Hurls a fireball.
+
+To use pyromancies, equip a pyromancy flame
+and attune a pyromancy at a bonfire.</text>
+<text id="2400010">Elementary pyromancy that is often the first learned.
+Hurls an incendiary fireball.
 
 To use pyromancies, equip a pyromancy flame
 and attune a pyromancy at a bonfire.</text>
@@ -811,7 +1002,25 @@ dealing fire damage to the surrounding area.
 They say that once a pyromancer learns this spell,
 their understanding of the flame deepens,
 together with a yearning for it.</text>
+<text id="2402010">The signature flame-manipulating spell common to
+pyromancers. Hurls a weakening giant fire orb.
+
+The blazing fire orb explodes on impact,
+dealing fire damage to the surrounding area.
+
+Impact reduces the Fire absorption of the target by 10% for 10 seconds.
+
+They say that once a pyromancer learns this spell,
+their understanding of the flame deepens,
+together with a yearning for it.</text>
 <text id="2403000">Primal pyromancy taught by Quelana,
+a daughter of the Witch of Izalith.
+
+Surrounds the caster with multiple pillars of flame.
+
+The raging storm is indiscriminate;
+such is the intrinsic horror of the flame.</text>
+<text id="2403010">Primal pyromancy taught by Quelana,
 a daughter of the Witch of Izalith.
 
 Surrounds the caster with multiple pillars of flame.
@@ -823,11 +1032,23 @@ such is the intrinsic horror of the flame.</text>
 Emits a constant stream of fire.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
+<text id="2405010">Pyromancy of Cornyx of the Great Swamp.
+Emits a constant stream of fire with no focus cost.
 
+Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
 <text id="2411000">Pyromancy which improves upon Combustion.
 Creates a powerful, giant flame in hand.
 
 A very powerful, yet simple spell to use.
+
+Pyromancy is to at once know fear and longing,
+the resultant power of which depends on
+both the caster's intelligence and faith.</text>
+<text id="2411010">Pyromancy which improves upon Combustion.
+Creates a powerful, giant indenciary flame in hand.
+
+A very powerful, yet simple spell to use.
+Causes 10 damage per second for 10 seconds. Stacks.
 
 Pyromancy is to at once know fear and longing,
 the resultant power of which depends on
@@ -845,6 +1066,17 @@ however his pyromancy continues to succeed him.
 
 Perhaps dwellers of the Great Swamp were reminded
 that their very existence is one rooted in heresy.</text>
+<text id="2420010">Unique pyromancy crafted by Eingyi, a heretic inhabiting
+the Great Swamp long ago. 
+
+Creates a poison mist, inflicting 25 Poison per tick.
+Lasts 12 seconds.
+
+Eingyi was driven from the Great Swamp,
+however his pyromancy continues to succeed him.
+
+Perhaps dwellers of the Great Swamp were reminded
+that their very existence is one rooted in heresy.</text>
 <text id="2421000">Unique pyromancy of Eingyi that never
 gained currency in the Great Swamp.
 
@@ -854,10 +1086,27 @@ Lasts 6 seconds.
 Driven from the Great Swamp, they say that at the
 end of his journey, Eingyi happened upon a
 virulent poison and a young lady.</text>
+<text id="2421010">Unique pyromancy of Eingyi that never
+gained currency in the Great Swamp.
+
+Creates an intense poison mist, inflicting 10 Toxic per tick.
+Lasts 12 seconds.
+
+Driven from the Great Swamp, they say that at the
+end of his journey, Eingyi happened upon a
+virulent poison and a young lady.</text>
 <text id="2422000">Pyromancy of Carthus of the Sands.
 
 Emits an acid which corrodes enemies, draining 1 durability per tick.
 Lasts 6 seconds.
+
+Carthus' swordsmen attached great value to victory,
+and would not shun the use of such pyromancies.
+For where is the honor in death and scoured bones?</text>
+<text id="2422010">Pyromancy of Carthus of the Sands.
+
+Emits an acid which corrodes enemies, draining 1 durability per tick.
+Lasts 12 seconds.
 
 Carthus' swordsmen attached great value to victory,
 and would not shun the use of such pyromancies.
@@ -872,6 +1121,16 @@ Lasts 15 seconds.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
+<text id="2430010">Pyromancy that internalizes flame.
+Iron flesh boosts physical absorptions by 75%, 
+but reduces elemental absorption by 100%.
+
+Slows movement, but grants 65 attack deflection 
+and prevents stagger from most attacks.
+Lasts 30 seconds.
+
+Not advisable for walking in marshlands, perhaps
+resulting in its obsolescence in the Great Swamp.</text>
 <text id="2431000">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
@@ -879,10 +1138,24 @@ Intense sweating increases Fire absorption by 30% for 30 seconds.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
+<text id="2431010">Unique pyromancy of the Great Swamp associated
+with Carmina.
+
+Intense sweating increases Fire absorption by 50% for 30 seconds.
+
+An influential pyromancy that internalizes flame,
+likely forming the foundation for many subsequent spells.</text>
 <text id="2435000">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
 Increases Fire damage by 75 for 60 seconds.
+Scales with Spell Buff.
+
+Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
+<text id="2435010">Pyromancy of Carthus of the Sands.
+Reinforces right weapon with flame.
+
+Increases Fire damage by 100 for 120 seconds.
 Scales with Spell Buff.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
@@ -894,10 +1167,26 @@ Lasts 30 seconds.
 
 The living are lured by flame, and this tendency is
 elemental to the art of pyromancy.</text>
+<text id="2436010">Advanced pyromancy of Quelana,
+a daughter of the Witch of Izalith.
+
+Charms the enemy, making them a temporary ally.
+Lasts 60 seconds and boosts allied enemy absorptions by 50%.
+
+The living are lured by flame, and this tendency is
+elemental to the art of pyromancy.</text>
 <text id="2440000">Forbidden pyromancy amongst those who internalize flame.
 
 Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 30 seconds.
+
+A pyromancer fears the flame.
+However, this fear subsides once it is
+accepted as a substitute for strength.</text>
+<text id="2440010">Forbidden pyromancy amongst those who internalize flame.
+
+Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
+Lasts 60 seconds.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -910,7 +1199,23 @@ Chaotic flame melts even great boulders, and creates a brief surge of molten lav
 The Witch of Izalith and her daughters birthed
 the Flame of Chaos, but it devoured them
 along with their home.</text>
+<text id="2450010">Art of the Flame of Chaos, from Ancient Izalith.
+Hurls a homing chaos fire orb.
+
+Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact. 
+
+The Witch of Izalith and her daughters birthed
+the Flame of Chaos, but it devoured them
+along with their home.</text>
 <text id="2451000">Art of the Flame of Chaos, from Ancient Izalith.
+Erects multiple chaos fire pillars in vicinity.
+
+Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact. 
+
+The all-engulfing Chaos Flame eventually formed
+a tumultuous seedbed, which birthed the twisted things
+known as Demons.</text>
+<text id="2451010">Art of the Flame of Chaos, from Ancient Izalith.
 Erects multiple chaos fire pillars in vicinity.
 
 Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact. 
@@ -927,6 +1232,17 @@ making this an extremely difficult spell to use.
 
 Pyromancy is at once the knowledge of controlling
 flame, and the knowledge that control is impossible.</text>
+<text id="2452010">Primal pyromancy taught by Quelana,
+daughter of the Witch of Izalith.
+Sweeps foes with an incendiary fire whip.
+
+Deals 1 damage per hit every second for 10 seconds. Stacks.
+
+The caster manipulates the flames at will,
+making this an extremely difficult spell to use.
+
+Pyromancy is at once the knowledge of controlling
+flame, and the knowledge that control is impossible.</text>
 <text id="2455000">Pyromancy deriving from the Profaned Flame.
 
 Engulfs foes at range and burns them to ashes.
@@ -935,7 +1251,21 @@ The Profaned Capital was consumed by fire
 after Yhorm the Giant became a Lord of Cinder.
 The fire, born of the sky, is said to have
 incinerated naught but human flesh.</text>
+<text id="2455010">Pyromancy deriving from the Profaned Flame.
+
+Engulfs foes at very long range and burns them to ashes.
+
+The Profaned Capital was consumed by fire
+after Yhorm the Giant became a Lord of Cinder.
+The fire, born of the sky, is said to have
+incinerated naught but human flesh.</text>
 <text id="2456000">Traces of the tumultuous seedbed that birthed
+the beings known as Demons.
+
+Hurls chaos flame that scorches vicinity.
+
+Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day.</text>
+<text id="2456010">Traces of the tumultuous seedbed that birthed
 the beings known as Demons.
 
 Hurls chaos flame that scorches vicinity.
@@ -949,12 +1279,28 @@ Lasts 60 seconds.
 They feared separation from the gods
 and sought a familial bond, perhaps leading to
 the creation of this flame of harmony.</text>
+<text id="2470010">Peculiar pyromancy of the Mound-makers.
+
+Creates a gentle flame that restores 30 HP on touch to self and allies.
+Lasts 60 seconds.
+
+They feared separation from the gods
+and sought a familial bond, perhaps leading to
+the creation of this flame of harmony.</text>
 <text id="2480000">%null%</text>
 <text id="2562000">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
 Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
+
+The yellowish sweat cures all kinds of ailments.</text>
+<text id="2562010">Advanced pyromancy that internalizes flame,
+associated with Carmina.
+
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
+Lasts 60 seconds.
+Can be used with no focus cost.
 
 The yellowish sweat cures all kinds of ailments.</text>
 <text id="2620000">Pyromancy of old restored by Cornyx.
@@ -965,13 +1311,37 @@ Hurls an exploding fireball.
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
 renowned for its difficulty.</text>
+<text id="2620010">Pyromancy of old restored by Cornyx.
+One of the Great Swamp's more advanced spells.
+
+Hurls an incendiary exploding fireball.
+Deals 10 damage per second for 10 seconds. Stacks.
+
+A rare technique that undergoes change after
+leaving the caster's hand, making this a spell
+renowned for its difficulty.</text>
 <text id="2630000">Art of a stray demon of stifled flame.
+
+Spews a boulder from one's mouth.
+
+The boulder is heavy, but shatters easily.</text>
+<text id="2630010">Art of a stray demon of stifled flame.
 
 Spews a boulder from one's mouth.
 
 The boulder is heavy, but shatters easily.</text>
 <text id="2640000">Pyromancy taught amongst savages.
 Flame burrows inside foes and ignites.
+
+Originally used in a ceremony for cleansing sacrificial impurities, thereby lending the spell its name.
+
+As barbaric as it seems, this may in fact be
+quite fitting for the savage pyromancers
+who consider themselves servants of the divine.</text>
+<text id="2640010">Pyromancy taught amongst savages.
+Flame burrows inside foes and ignites.
+
+Can be used with no focus cost.
 
 Originally used in a ceremony for cleansing sacrificial impurities, thereby lending the spell its name.
 
@@ -987,9 +1357,25 @@ Lasts 30 seconds.
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
 its beacon has been used as a signal for war.</text>
+<text id="2650010">The most obscure pyromancy developed
+in Carthus of the Sands.
+
+Boosts damage by 15%, growing to 30% with consecutive attacks.
+Lasts 60 seconds.
+
+Carthus's aggression has been likened to
+an uncontrollable fire, and since ancient times
+its beacon has been used as a signal for war.</text>
 <text id="2701000">Pyromancy once used by the witches of Izalith.
 
 Throw a lingering chaos orb that explodes on contact.
+
+The flame of chaos cares not for what it burns.</text>
+<text id="2701010">Pyromancy once used by the witches of Izalith.
+
+Throw a lingering chaos orb that explodes on contact.
+
+Can be used with no focus cost.
 
 The flame of chaos cares not for what it burns.</text>
 <text id="2702000">Pyromancy belonging to Salaman.
@@ -998,7 +1384,18 @@ Release flaming chaos orbs from sky towards foes.
 
 One of the first human pyromancers, Salaman is said to have created this pyromancy during the final years of his life.
 </text>
+<text id="2702010">Pyromancy belonging to Salaman.
+
+Release giant flaming chaos orb from sky.
+
+One of the first human pyromancers, Salaman is said to have created this pyromancy during the final years of his life.
+</text>
 <text id="2710000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Call down boulders from the sky to rain down upon foes.
+
+Look up.</text>
+<text id="2710010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call down boulders from the sky to rain down upon foes.
 
@@ -1008,7 +1405,17 @@ Look up.</text>
 Heave earth from the ground to harm foes.
 
 The earth itself responds to the flame, as to why, it is unknown.</text>
+<text id="2711010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Heave homing earth from the ground to harm foes.
+
+The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2712000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Heave earth in multiple locations in vicinity to harm foes.
+
+The earth itself responds to the flame, as to why, it is unknown.</text>
+<text id="2712010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Heave earth in multiple locations in vicinity to harm foes.
 
@@ -1020,10 +1427,23 @@ Slows movement, but grants 80 attack deflection and prevents stagger from all at
 Lasts 30 seconds.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
+<text id="2713010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Call forth rock, boosting absorption by 30%.
+Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
+Lasts 60 seconds.
+
+Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2714000">A pyromancy that creates imbues the caster with flame.
 Needless to say, this is a perilous spell that burns the caster.
 
 Immolate oneself for 25% HP, leaving a trail of fire in your wake for 15 seconds.
+
+If a person is truly desirous of something, perhaps being set on fire does not seem so bad.</text>
+<text id="2714010">A pyromancy that imbues the caster with flame.
+Needless to say, this is a perilous spell that burns the caster.
+
+Immolate oneself for 25% HP, leaving a trail of fire in your wake for 30 seconds.
 
 If a person is truly desirous of something, perhaps being set on fire does not seem so bad.</text>
 <text id="2720000">Art of the common hollow.
@@ -1031,12 +1451,34 @@ If a person is truly desirous of something, perhaps being set on fire does not s
 Spew fecal matter from one's mouth, inflicting 25 Toxic per hit.
 
 As in life, the common peasant has little to say on matters of worth.</text>
+<text id="2720010">Art of the common hollow.
 
+Spew fecal matter from one's mouth, inflicting 25 Toxic per hit.
+
+As in life, the common peasant has little to say on matters of worth.</text>
+<text id="2721000">Perhaps the Chaos from Izalith was never lost. 
+Lurking. Skulking.
+At the end of the world.
+Rage, rage against the dying of the flame.</text>
+<text id="2721010">Perhaps the Chaos from Izalith was never lost. 
+Lurking. Skulking.
+At the end of the world.
+Rage, rage against the dying of the flame.
+
+Deals 5 damage per hit every second for 10 seconds. Stacks.</text>
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 
 Restores 200 HP for self and those in the vicinity.
 Scales with Spell Buff.
+
+To use miracles, equip a talisman or sacred chime
+and attune a miracle at a bonfire.</text>
+<text id="3490010">Miracle imparted as charity to those of little faith.
+A show of tolerance from the Way of White.
+
+Restores 200 HP for self and those in the vicinity.
+Scales with Spell Buff. Range increased to 2 meters.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
@@ -1047,16 +1489,37 @@ Scales with Spell Buff.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
+<text id="3500010">Elementary miracle cast by clerics.
+
+Restores 300 HP for self and those in the vicinity.
+Scales with Spell Buff. Range increased to 8 meters.
+
+To use miracles, equip a talisman or sacred chime
+and attune a miracle at a bonfire.</text>
 <text id="3501000">Miracle superior to Heal.
 
 Restores 350 HP for self and those in the vicinity.
 Scales with Spell Buff.
 
 Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
+<text id="3501010">Miracle superior to Heal.
+
+Restores 350 HP for self and those in the vicinity.
+Scales with Spell Buff. Range increased to 8 meters.
+
+Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
 <text id="3502000">Glorious miracle used by high-ranking clerics.
 
 Restores 400 HP for self and those in the vicinity.
 Scales with Spell Buff.
+
+Only a select few have learned to recite this
+epic tale in its entirety, but those who do
+are amply rewarded. </text>
+<text id="3502010">Glorious miracle used by high-ranking clerics.
+
+Restores 400 HP for self and those in the vicinity.
+Scales with Spell Buff. Range increased to 8 meters.
 
 Only a select few have learned to recite this
 epic tale in its entirety, but those who do
@@ -1070,15 +1533,37 @@ Scales with Spell Buff.
 The miracles of Gwynevere, the princess
 cherished by all, bestow their blessing on
 a great many warriors.</text>
+<text id="3503010">Special miracle granted to the maidens
+of the Princess of Sunlight.
+
+Restores a 500 HP for self and those in the general area.
+Scales with Spell Buff. Range increased to 17 meters.
+
+The miracles of Gwynevere, the princess
+cherished by all, bestow their blessing on
+a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 60 seconds.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
+<text id="3504010">Miracle once cherished by cleric knights.
+
+Restores 5 HP for self every second. Lasts 120 seconds.
+
+Replenishment is a relic of the old Lloyd faith,
+whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 60 seconds.
+
+The miracles of Gwynevere, loved as both
+mother and wife bestow their blessing on
+a great many warriors.</text>
+<text id="3505010">Special miracle granted by the Princess of Sunlight.
+
+Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -1090,9 +1575,23 @@ Restores 10 HP for self and those in the vicinity. Lasts 60 seconds.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
+<text id="3507010">Miracle taught to knights by Gertrude,
+holy maiden to the Queen.
+
+Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
+
+The Heavenly Daughter is said to be
+the Queen's child.</text>
 <text id="3508000">Miracle taught by Morne, the Archbishop's apostle.
 
-Cures bleeding, poison and frost for self and those in the vicinity.
+Cures bleeding, poison, toxic, frost and curse for self and those in the vicinity.
+
+Caressing Tears is a tale of the many deaths
+surrounding the goddess Caitha, of whom
+Morne was a known follower.</text>
+<text id="3508010">Miracle taught by Morne, the Archbishop's apostle.
+
+Cures bleeding, poison, toxic, frost and curse for self and those in the vicinity.
 
 Caressing Tears is a tale of the many deaths
 surrounding the goddess Caitha, of whom
@@ -1100,6 +1599,14 @@ Morne was a known follower.</text>
 <text id="3520000">Miracle taught by Morne, the Archbishop's apostle.
 
 Grants one chance to endure when HP reaches 0.
+
+Intended to grant the dying a few moments
+for a final farewell. Tears are shed for the sake
+of the living, more so than the deceased.</text>
+<text id="3520010">Miracle taught by Morne, the Archbishop's apostle.
+
+Grants one chance to endure when HP reaches 0.
+Effect is applied to self and allies within a radius of 8 meters.
 
 Intended to grant the dying a few moments
 for a final farewell. Tears are shed for the sake
@@ -1113,8 +1620,23 @@ It would normally link to one's homeland,
 only the curse of the Undead has twisted
 its power, redirecting casters to a bonfire.
 Perhaps for Undead, the bonfire serves as home.</text>
+<text id="3521010">Miracle taught to traveling clerics.
+
+Returns caster to the last bonfire used for resting, 
+or to the bonfire in the shrine with no focus cost.
+
+It would normally link to one's homeland,
+only the curse of the Undead has twisted
+its power, redirecting casters to a bonfire.
+Perhaps for Undead, the bonfire serves as home.</text>
 <text id="3530000">Elementary miracle among clerics.
 Creates a shockwave.
+
+While it inflicts little direct damage,
+this miracle propels foes back, staggering them.
+Can also defend against incoming arrows.</text>
+<text id="3530010">Elementary miracle among clerics.
+Creates a shockwave with no focus cost.
 
 While it inflicts little direct damage,
 this miracle propels foes back, staggering them.
@@ -1126,8 +1648,22 @@ Wrath of the Gods is an epic tale, while Force is but a woefully incomplete vers
 
 This primal account of profound fury
 emits a shockwave that also inflicts damage.</text>
+<text id="3531010">Primal form of Force.
+Creates a powerful shockwave.
+
+Wrath of the Gods is an epic tale, while Force is but a woefully incomplete version of that yarn.
+
+This primal account of profound fury
+emits a shockwave that also inflicts damage.</text>
 <text id="3532000">Traditional miracle of Catarina.
 Releases a shockwave in front.
+
+The people of lands known for festivity and drink
+are typically outspoken. One can be sure that they
+will not bottle their emotions, instead venting
+anger and the like with confidence.</text>
+<text id="3532010">Traditional miracle of Catarina.
+Releases a divine shockwave in front.
 
 The people of lands known for festivity and drink
 are typically outspoken. One can be sure that they
@@ -1142,11 +1678,26 @@ Lasts 60 seconds.
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
 of hope for the lost.</text>
+<text id="3540010">Miracle of stray souls.
+
+Boosts equipment load by 40% and reveals summon signs without using an ember.
+Lasts 60 seconds.
+
+Be that as it may, this miracle has been passed
+down from soul to soul, providing a tiny ray
+of hope for the lost.</text>
 <text id="3550000">Miracle allegedly used by Warriors of Sunlight.
 
 Hurls a lightning spear.
 
 The spears inflict lightning damage, providing an
+effective counter to magic or fire.
+Especially powerful against metal armor and dragons.</text>
+<text id="3550010">Miracle allegedly used by Warriors of Sunlight.
+
+Emit constant lightning.
+
+Lightning damage provides an
 effective counter to magic or fire.
 Especially powerful against metal armor and dragons.</text>
 <text id="3551000">Primal account of Lightning Spear,
@@ -1157,8 +1708,21 @@ Hurls a giant lightning spear.
 Gwyn, the First Lord, slew dragons with his sunlight spear, a tradition upheld by his firstborn and the greatspear he wielded.
 
 Much of this resplendent tale of father and son, while epic, remains tragically untold. </text>
+<text id="3551010">Primal account of Lightning Spear,
+which tells of an ancestral dragonslayer.
+
+Hurls a storm spear.
+
+Gwyn, the First Lord, slew dragons with his sunlight spear, a tradition upheld by his firstborn and the greatspear he wielded.
+
+Much of this resplendent tale of father and son, while epic, remains tragically untold. </text>
 <text id="3552000">Miracle of Gwyn, the First Lord.
 Hurls a sunlight spear.
+
+The tales of Gwyn's Archdragon hunts describe
+the inception of the Age of Fire.</text>
+<text id="3552010">Miracle of Gwyn, the First Lord.
+Hurls a homing sunlight spear.
 
 The tales of Gwyn's Archdragon hunts describe
 the inception of the Age of Fire.</text>
@@ -1171,7 +1735,15 @@ Once a slayer of dragons, the former king
 and wargod tamed a Stormdrake,
 on which he led a lifetime of battle.
 This miracle is likely a tale of their bond.</text>
+<text id="3553010">Miracle of the Nameless King,
+ally to the ancient dragons.
 
+Calls forth furious bolts of sunlight.
+
+Once a slayer of dragons, the former king
+and wargod tamed a Stormdrake,
+on which he led a lifetime of battle.
+This miracle is likely a tale of their bond.</text>
 <text id="3560000">Miracle of clerics who wield weapons.
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. 
@@ -1190,12 +1762,26 @@ Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
 Havel despised magic, and was never complacent
 in preparing means to counter it.</text>
+<text id="3561010">The tale which was later interpreted as Magic Barrier.
+
+Boosts elemental absorption by 50% by covering the body in a strong white protective coating.
+Lasts 60 seconds.
+
+Said to be a tale of Havel the Rock,
+arch enemy of Seath the Scaleless.
+Havel despised magic, and was never complacent
+in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
 Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
+<text id="3563010">Miracle of those chosen by the Sunlight covenant.
 
+Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+Range increased to 8 meters.
+
+This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3590000">Miracle allegedly wielded by a certain 
 dragonslayer knight in the Age of Gods.
 Reinforces right weapon with lightning.
@@ -1205,6 +1791,13 @@ Scales with Spell Buff.
 
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
+<text id="3590010">Miracle once used in the great wars of the forgotten sun god.
+Reinforces right weapon with sunlight.
+
+Increases Lightning damage by 100 for 120 seconds.
+Scales with Spell Buff.
+
+The power of the sun has never been forgotten, and its power burns bright.</text>
 <text id="3591000">Miracle of those who devoted themselves
 to the Darkmoon covenant.
 Reinforces right weapon with Darkmoon light.
@@ -1215,9 +1808,24 @@ Scales with Spell Buff.
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
 Perhaps this is better, as revenge is better left to the Blades.</text>
+<text id="3591010">Miracle of those who devoted themselves
+to the Darkmoon covenant.
+Reinforces right weapon with Darkmoon light.
+
+Increases Magic damage by 100 for 120 seconds.
+Scales with Spell Buff.
+
+Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
+
+Perhaps this is better, as revenge is better left to the Blades.</text>
 <text id="3710000">A lost dragonslaying miracle.
 
 Strikes with a stake of lightning.
+
+This tale describes the lost practices of ancient dragonslayers, who found that in order to pierce dragonscale, lightning should not be hurled as a bolt, but rather be thrust as a stake directly into the dragon's hide, to be truly effective.</text>
+<text id="3710010">A lost dragonslaying miracle.
+
+Strikes with a stake of sunlight.
 
 This tale describes the lost practices of ancient dragonslayers, who found that in order to pierce dragonscale, lightning should not be hurled as a bolt, but rather be thrust as a stake directly into the dragon's hide, to be truly effective.</text>
 <text id="3720000">Miracle of Gertrude, the Heavenly Daughter.
@@ -1227,10 +1835,23 @@ Brings down multiple pillars of light in vicinity.
 The Queen's holy maiden Gertrude was visited by an angel, who revealed this tale to her.
 
 Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</text>
+<text id="3720010">Miracle of Gertrude, the Heavenly Daughter.
 
+Brings down multiple pillars of light in vicinity.
+
+The Queen's holy maiden Gertrude was visited by an angel, who revealed this tale to her.
+
+Despite losing both her sight and her voice, she was determined to record the tale. Ordinary men cannot decipher her fragmentary scrawl, nor comprehend how it became the foundation of the Angelic faith of Lothric.</text>
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60 and restores 5 HP every second for 60 seconds.
+
+The Knight is one of the Three Pillars of Lothric,
+said to have strengthened ties with the High Priestess
+after the Scholars acquired the Grand Archives.</text>
+<text id="3760010">Miracle taught to Lothric Knights.
+
+Increases Physical damage by 75 and restores 5 HP every second for 120 seconds.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -1241,7 +1862,18 @@ Summon heavenly thunder that rains down sunlight spears towards foes.
 
 The power of the sun has never been forgotten, and its power burns bright.
 </text>
+<text id="3802010">Miracle once used in the great wars of the forgotten sun god.
+
+Summon heavenly thunder that rains down sunlight spears towards foes.
+
+The power of the sun has never been forgotten, and its power burns bright.
+</text>
 <text id="3803000">A lost Way of White miracle. Launches white discuses outwards from the conjurer.
+
+Long ago, when the imprints left by the gods were still deep, miracles of the Way of White existed alongside aureoles.
+
+Those who yearned for the long-lost aureoles fully believed that they would return, one day.</text>
+<text id="3803010">A lost Way of White miracle. Launches white discuses outwards from the conjurer.
 
 Long ago, when the imprints left by the gods were still deep, miracles of the Way of White existed alongside aureoles.
 
@@ -1253,7 +1885,19 @@ Boosts poise by 50%. Lasts 60 seconds.
 
 Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
 </text>
+<text id="3805010">Enwreathes its caster with a pure veil,
+deflecting blows that would otherwise hit.
+
+Boosts poise by 50%. Lasts 120 seconds.
+
+Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
+</text>
 <text id="3812000">Miracle inspired by the Pilgrim Angels of the Dreg Heap.
+
+Call forth a barrage of holy spears down upon foes.
+
+As the lands coalesced, the pilgrims began to change, becoming angelic in form.</text>
+<text id="3812010">Miracle inspired by the Pilgrim Angels of the Dreg Heap.
 
 Call forth a barrage of holy spears down upon foes.
 
@@ -1263,15 +1907,31 @@ As the lands coalesced, the pilgrims began to change, becoming angelic in form.<
 Fire a divine arrow.
 
 Although their form is grotesque, their devotion is a sight to behold.</text>
+<text id="3813010">Miracle used by the grubs found in Rosaria's Chamber.
+
+Fire a divine arrow with no focus cost.
+
+Although their form is grotesque, their devotion is a sight to behold.</text>
 <text id="3814000">Miracle used by the sickly Prince Lothric.
 
 Fire piercing holy soul spear.
 
 Prince Lothric's mastery over matters of the divine, and his lessons with the Crystal Sage have resulted in a scholarly union, producing this very miracle.</text>
+<text id="3814010">Miracle used by the sickly Prince Lothric.
+
+Fire homing holy soul spear.
+
+Prince Lothric's mastery over matters of the divine, and his lessons with the Crystal Sage have resulted in a scholarly union, producing this very miracle.</text>
 <text id="3815000">Miracle written as a proof of a pact between the beguiled knight and the desperate clerics.
 
 Summon forth a ghostly knight to crush nearby foes.</text>
+<text id="3815010">Miracle written as a proof of a pact between the beguiled knight and the desperate clerics.
+
+Summon forth a ghostly knight to crush nearby foes.</text>
 <text id="3816000">Miracle written as a proof of a pact between the ruined knights and the desperate clerics.
+
+Summon forth a legion of archers.</text>
+<text id="3816010">Miracle written as a proof of a pact between the ruined knights and the desperate clerics.
 
 Summon forth a legion of archers.</text>
 <text id="3818000">Miracle of Slave Knight Gael.
@@ -1279,13 +1939,28 @@ Summon forth a legion of archers.</text>
 Brings down multiple pillars of blue lightning in vicinity for 5 seconds.
 
 Towards the end, Slave Knight Gael brimmed with untapped energy. Made manifest, this energy became punishing blue lightning that struck nearby foes.</text>
+<text id="3818010">Miracle of Slave Knight Gael.
+
+Brings down multiple pillars of blue lightning in vicinity for 8 seconds.
+
+Towards the end, Slave Knight Gael brimmed with untapped energy. Made manifest, this energy became punishing blue lightning that struck nearby foes.</text>
 <text id="3819000">Miracle of Halflight, Spear of the Church.
 
 Release homing holy orbs that transform into piercing spears as they travel towards their target.
-Impact reduce target Lightning absorption by 10% for 10 seconds.
+
+When Spears of the Church face unduly treacherous foes, this miracle allows them to even the odds.</text>
+<text id="3819010">Miracle of Halflight, Spear of the Church.
+
+Release weakening holy orbs that transform into piercing spears as they travel towards their target.
+Impact reduce target Lightning absorption by 10% for 5 seconds.
 
 When Spears of the Church face unduly treacherous foes, this miracle allows them to even the odds.</text>
 <text id="3820000">Miracle of Halflight, Spear of the Church.
+
+Summon rows of upwardly thrusting ritual spears.
+
+When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
+<text id="3820010">Miracle of Halflight, Spear of the Church.
 
 Summon rows of upwardly thrusting ritual spears.
 
@@ -1295,11 +1970,21 @@ When Spears of the Church face unduly treacherous foes, this allows them to draw
 Fire cascade of divine spears towards foes.
 
 When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
+<text id="3821010">Miracle of Halflight, Spear of the Church.
 
+Fire wave of divine spears towards foes.
+
+When Spears of the Church face unduly treacherous foes, this allows them to draw upon former majesty and crush them without hesitation.</text>
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Hurl homing soul sediment, inflicting 10 Curse.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4100010">Hex of Archdeacon Royce and his deacons,
+said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Hurl homing soul sediment with no focus cost, inflicting 10 Curse.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4101000">Hex of Archdeacon Royce and his deacons,
@@ -1308,12 +1993,29 @@ said to have been imparted to them by McDonnell of the Boreal Valley.
 Fires dark soul dregs, inflicting 20 Curse.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4101010">Hex of Archdeacon Royce and his deacons,
+said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Fires dark soul dregs, overflowing the enemy and inflicting 20 Curse.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4102000">Hex which improves upon Deep Soul.
 
 Fires powerful darkened soul dregs, inflicting 30 Curse.
 
 Archdeacon McDonnell, a sorcerer himself, delighted in the cathedral's stagnating souls. For him, they represented the glorious bedrock of this world.</text>
+<text id="4102010">Hex which improves upon Deep Soul.
+
+Fires powerful darkened soul dregs, inflicting 30 Curse.
+Impact reduces the Dark absorption of the target by 10% for 5 seconds.
+
+Archdeacon McDonnell, a sorcerer himself, delighted in the cathedral's stagnating souls. For him, they represented the glorious bedrock of this world.</text>
 <text id="4103000">A hex that fires great dark soul dregs that have stewed for ages, far within the deep.
+
+This sorcery is the highest form of Deep Soul, inflicting 40 Curse.
+
+Some of the murkmen who rise from the depths are possessed by soul dregs, which have a grave likeness to the human form.</text>
+<text id="4103010">A hex that fires great dark soul dregs that have stewed for ages, far within the deep.
 
 This sorcery is the highest form of Deep Soul, inflicting 40 Curse.
 
@@ -1323,12 +2025,28 @@ Some of the murkmen who rise from the depths are possessed by soul dregs, which 
 Strikes with blade formed of humanity's darkness, inflicting 10 Curse.
 
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
+<text id="4104010">A forbidden hex, borne from a corrupted sorcery.
+
+Strikes with blade formed of humanity's darkness with no focus cost, inflicting 10 Curse.
+
+Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4105000">A forbidden hex, borne from a corrupted sorcery.
 
 Strikes with blade formed of humanity's darkness, inflicting 30 Curse.
 
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
+<text id="4105010">A forbidden hex, borne from a corrupted sorcery.
+
+Strikes with heavy blade formed of humanity's darkness, inflicting 30 Curse.
+Increases Poise Damage to 100 and causes faceplant.
+
+Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4106000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Fires multiple soul dregs in an arc forward.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4106010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Fires multiple soul dregs in an arc forward, inflicting 10 Curse each.
 
@@ -1336,12 +2054,27 @@ Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4107000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Emit a constant stream of homing soul sediment, inflicting 8 Curse.</text>
+<text id="4107010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Emit a constant stream of homing soul sediment with no focus cost, inflicting 8 Curse.</text>
 <text id="4108000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Cast cascade of homing soul sediment from sky, inflicting 10 Curse with each hit.
+Lasts 5 seconds.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4108010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Cast cascade of homing soul sediment from sky, inflicting 10 Curse with each hit.
+Lasts 8 seconds.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4109000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Summon multiple darkened soul sediment spots in vicinity, inflicting 60 Curse on hit.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4109010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Summon multiple darkened soul sediment spots in vicinity, inflicting 60 Curse on hit.
 
@@ -1351,9 +2084,20 @@ Souls which swell from the deep pursue their target, drawn towards life.</text>
 Summon darkened soul sediment-spitting orb, inflicting 10 Curse with each hit.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4110010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Summon darkened soul sediment-spitting orb, inflicting 10 Curse with each hit.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4111000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Hurl homing soul sediment clump that writhes and explodes, inflicting 30 Curse.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4111010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Hurl homing soul sediment clump that writhes and explodes, inflicting 30 Curse.
+Increases Poise Damage to 100.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4112000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
@@ -1361,15 +2105,30 @@ Souls which swell from the deep pursue their target, drawn towards life.</text>
 Fire powerful soul dreg, inflicting 20 Curse.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
+<text id="4112010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
+
+Fire powerful explosive soul dreg, inflicting 20 Curse.
+
+Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4113000">A forbidden hex, borne from a corrupted sorcery.
 
 Casts a dark manifestation of humanity, inflicting 10 Curse.
-Impact reduces the Dark absorption of the target by 10% for 5 seconds.
+
+It appears to be an expression of envy, or perhaps love towards another, that will tenaciously pursue its target. Even if, like so many human desires, it amounts to nothing but misfortune.</text>
+<text id="4113010">A forbidden hex, borne from a corrupted sorcery.
+
+Casts a dark manifestation of humanity.
 
 It appears to be an expression of envy, or perhaps love towards another, that will tenaciously pursue its target. Even if, like so many human desires, it amounts to nothing but misfortune.</text>
 <text id="4114000">A hex that releases verbose darkness.
 
 The darkness echoes words of despair, inflicting 50 Curse.
+
+The Dark blankets the world in black. A thing of tranquillity, a thing serene.
+</text>
+<text id="4114010">A hex that releases verbose darkness.
+
+The darkness echoes words of despair, inflicting 100 Curse.
 
 The Dark blankets the world in black. A thing of tranquillity, a thing serene.
 </text>
@@ -1380,6 +2139,13 @@ Lasts 2 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
+<text id="4115010">A hex that distorts local space.
+
+For a brief moment, no damage can be inflicted.
+Lasts 3 seconds.
+
+The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
+</text>
 <text id="4116000">A hex that transforms its caster's flesh. 
 
 Boosts absorption by 35%, but narrows vision.
@@ -1387,10 +2153,21 @@ Lasts 60 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
+<text id="4116010">A hex that transforms its caster's flesh. 
 
+Boosts absorption by 35%, but narrows vision.
+Lasts 90 seconds.
+
+The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
+</text>
 <text id="4201000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Fire ball of black fire, inflicting 20 Toxic.
+
+Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
+<text id="4201010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Sweeps foes with a black fire whip, inflicting 5 Toxic.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4202000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
@@ -1399,7 +2176,20 @@ Hurls a black fireball, inflicting 30 Toxic.
 
 The black flame inflicts dark damage,
 striking targets with weighty force.</text>
+<text id="4202010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Hurls a weakening black fireball, inflicting 30 Toxic.
+Impact reduces the Dark absorption of the target by 10% for 5 seconds.
+
+The black flame inflicts dark damage,
+striking targets with weighty force.</text>
 <text id="4203000">Traces of the tumultuous seedbed that birthed
+the black flame.
+
+Hurls black flame that scorches vicinity, inflicting 40 Toxic.
+
+The black flame born from fire bore its smoldering essence and perished in the abyss soon after.</text>
+<text id="4203010">Traces of the tumultuous seedbed that birthed
 the black flame.
 
 Hurls black flame that scorches vicinity, inflicting 40 Toxic.
@@ -1410,9 +2200,19 @@ The black flame born from fire bore its smoldering essence and perished in the a
 Hurls an exploding black fireball, inflicting 10 Toxic each.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
+<text id="4204010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Hurls an exploding black fireball with no focus cost, inflicting 10 Toxic each.
+
+Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4205000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Creates a giant, black flame in hand, inflicting 20 Toxic.
+
+Black flames born from the Abyss bear no shadow. They are said to be the impenetrable fires of humanity.</text>
+<text id="4205010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Creates a giant, scorching black flame in hand, inflicting 20 Toxic.
 
 Black flames born from the Abyss bear no shadow. They are said to be the impenetrable fires of humanity.</text>
 <text id="4206000">Hex discovered from the Abyss by High Lord Wolnir that inspired the black arts of the grave wardens.
@@ -1420,7 +2220,18 @@ Black flames born from the Abyss bear no shadow. They are said to be the impenet
 Releases undulating black flames that trace the ground, inflicting 30 Toxic.
 
 Be it sorcery or pyromancy, all techniques that infringe on humanity lead to the same place. That is to say, they all seek a will of their own.</text>
+<text id="4206010">Hex discovered from the Abyss by High Lord Wolnir that inspired the black arts of the grave wardens.
+
+Releases undulating black flames that trace the ground, inflicting 30 Toxic.
+
+Be it sorcery or pyromancy, all techniques that infringe on humanity lead to the same place. That is to say, they all seek a will of their own.</text>
 <text id="4207000">Hex that unleashes a large mass of Dark. 
+
+This momentous mass of Dark dances to signal the joy of its own release, or perhaps merely to taunt foes as it veers towards them, inflicting 10 Toxic each.
+
+Hexes are an expression of human depravity, of which this dance is a perfect example.
+</text>
+<text id="4207010">Hex that unleashes a shockwave and a large mass of Dark. 
 
 This momentous mass of Dark dances to signal the joy of its own release, or perhaps merely to taunt foes as it veers towards them, inflicting 10 Toxic each.
 
@@ -1432,9 +2243,20 @@ Summons black fire-spitting orb, inflicting 10 Toxic per hit.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
 </text>
+<text id="4208010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Summons scorching black fire-spitting orb, inflicting 10 Toxic per hit.
+
+Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.
+</text>
 <text id="4209000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
 Hurl balls of black fire, upon impact black flames seek foes, inflicting 40 Toxic.
+
+Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
+<text id="4209010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
+
+Hurl balls of scorching black fire, upon impact black flames seek foes, inflicting 40 Toxic.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4210000">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
@@ -1442,10 +2264,19 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
 </text>
+<text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
+Imbue right weapon with black flame, adding 100 Dark damage. Lasts 120 seconds.
+Scales with Spell Buff.
+</text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
 Summons an insect swarm to feast on foes, inflicting 10 Bleed.
+
+Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
+<text id="4301010">One of the first hexes known by Dorhys the deranged evangelist.
+
+Summons an insect swarm to feast on foes with no focus cost, inflicting 10 Bleed.
 
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
 <text id="4302000">Hex taught in the Cathedral of the Deep.
@@ -1453,7 +2284,17 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 Summons insect swarm to feast on foes, inflicting 20 Bleed.
 
 These insects which lurk in the Deep have tiny jaws lined with fangs to tear open the skin and burrow into the flesh in the blink of an eye, causing intense bleeding.</text>
+<text id="4302010">Hex taught in the Cathedral of the Deep.
+
+Summons insect swarm to feast on foes, inflicting 20 Bleed.
+
+These insects which lurk in the Deep have tiny jaws lined with fangs to tear open the skin and burrow into the flesh in the blink of an eye, causing intense bleeding.</text>
 <text id="4303000">Hex of Dorhys the deranged evangelist.
+
+Summons great insect swarm to feast on foes, inflicting 30 Bleed.
+
+Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
+<text id="4303010">Hex of Dorhys the deranged evangelist.
 
 Summons great insect swarm to feast on foes, inflicting 30 Bleed.
 
@@ -1464,9 +2305,20 @@ Summon massive insect swarm, shooting forth insect swarms to feast on foes, infl
 
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.
 </text>
+<text id="4304010">Hex belonging to Dorhys the deranged evangelist.
+
+Summon massive insect swarm, shooting forth insect swarms to feast on foes, inflicting 10 Bleed each.
+
+Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.
+</text>
 <text id="4305000">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
+
+The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
+<text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
+
+Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
@@ -1475,7 +2327,18 @@ Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical a
 Lasts 30 seconds.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
+<text id="4306010">Hex given to those cast out from the Sable Church of Londor.
+
+Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. 
+Lasts 60 seconds.
+
+This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4307000">Hex used by the hollow clerics of the Ringed City. 
+
+Summon circle of agony that harms nearby foes. Lasts 10 seconds.
+
+As the days drew to an end, the clerics turned towards the dark, channelling their faith into sermons of agony.</text>
+<text id="4307010">Hex used by the hollow clerics of the Ringed City. 
 
 Summon circle of agony that harms nearby foes. Lasts 10 seconds.
 
@@ -1485,9 +2348,22 @@ As the days drew to an end, the clerics turned towards the dark, channelling the
 Causes gravelord swords to jut out in vicinity, inflicting 60 Toxic on hit.
 
 Nito sleeps deep within the Giant Catacombs, quietly overseeing all death, and waiting for his servants to usher in the Eye of Death.</text>
+<text id="4308010">Hex known only by the servants of the first dead, Gravelord Nito.
+
+Causes a gravelord sword to jut out below the enemy, inflicting 30 Toxic on hit.
+
+Nito sleeps deep within the Giant Catacombs, quietly overseeing all death, and waiting for his servants to usher in the Eye of Death.</text>
 <text id="4309000">Hex of the Sable Church of Londor.
 
 Prevents spells in vicinity, including one's own.
+Lasts 15 seconds.
+
+Members of the Sable Church are all trained
+swordsmen, each sworn only to their weapons
+as they bear the leaden silence of Londor.</text>
+<text id="4309010">Hex of the Sable Church of Londor.
+
+Prevents spells in vicinity.
 Lasts 15 seconds.
 
 Members of the Sable Church are all trained
@@ -1502,9 +2378,27 @@ Scales with Spell Buff.
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
 portray the suffering and conflict of Hollows.</text>
+<text id="4310010">Hex of the Sable Church of Londor.
+Reinforces right weapon with dark.
+
+Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
+Scales with Spell Buff.
+
+The third daughter Liliane, one of the founders
+of the Sable Church, is said to recount tales that
+portray the suffering and conflict of Hollows.</text>
 <text id="4311000">Sacrilegious hex of the Sable Church of Londor.
 
 Bless corpses, transforming them into traps.
+
+Londor, the Hollow Realm, is a society of undead,
+comprised of the corpses and shades of those
+who led unsavory lives.
+Is such blessing really something one must ponder?</text>
+<text id="4311010">Sacrilegious hex of the Sable Church of Londor.
+
+Bless corpses, transforming them into traps.
+Can be used with no focus cost.
 
 Londor, the Hollow Realm, is a society of undead,
 comprised of the corpses and shades of those
@@ -1515,15 +2409,29 @@ Is such blessing really something one must ponder?</text>
 Attack foes using an illusory scythe, restoring 10% HP upon hitting them.
 
 Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he perceived the form of a young, pale girl in hiding.</text>
+<text id="4312010">Hex of Aldrich, Devourer of Gods.
+
+Attack foes using an illusory scythe, restoring 10% HP upon hitting them.
+Increases damage dealt to 250.
+
+Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he perceived the form of a young, pale girl in hiding.</text>
 <text id="4313000">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
 Lasts 60 seconds.</text>
+<text id="4313010">Hex taught at the Cathedral of the Deep;
+imparted by the mentor Dorris before she lost her mind.
+
+Imbue right weapon with blood, inflicting 60 Bleed on hit.
+Lasts 120 seconds.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.</text>
+<text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
+Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
+Lasts 120 seconds.</text>
 </entries>
 </fmg>

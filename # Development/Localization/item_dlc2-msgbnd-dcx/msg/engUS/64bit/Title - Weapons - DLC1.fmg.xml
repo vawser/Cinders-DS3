@@ -5,7 +5,6 @@
 <bigendian>False</bigendian>
 <entries>
 <text id="402400">Millwood Greatarrow</text>
-
 <text id="2240000">Onyx Blade</text>
 <text id="2240100">Lethal Onyx Blade</text>
 <text id="2240200">Curse Onyx Blade</text>
@@ -21,7 +20,6 @@
 <text id="2241200">Holy Onyx Blade</text>
 <text id="2241300">Sharp Onyx Blade</text>
 <text id="2241400">Blunt Onyx Blade</text>
-
 <text id="4120000">Follower Sabre</text>
 <text id="4120100">Lethal Follower Sabre</text>
 <text id="4120200">Curse Follower Sabre</text>
@@ -37,7 +35,6 @@
 <text id="4121200">Holy Follower Sabre</text>
 <text id="4121300">Sharp Follower Sabre</text>
 <text id="4121400">Blunt Follower Sabre</text>
-
 <text id="7170000">Millwood Battle Axe</text>
 <text id="7170100">Lethal Millwood Battle Axe</text>
 <text id="7170200">Curse Millwood Battle Axe</text>
@@ -53,7 +50,6 @@
 <text id="7171200">Holy Millwood Battle Axe</text>
 <text id="7171300">Sharp Millwood Battle Axe</text>
 <text id="7171400">Blunt Millwood Battle Axe</text>
-
 <text id="7180000">Earth Seeker</text>
 <text id="7180100">Lethal Earth Seeker</text>
 <text id="7180200">Curse Earth Seeker</text>
@@ -69,7 +65,6 @@
 <text id="7181200">Holy Earth Seeker</text>
 <text id="7181300">Sharp Earth Seeker</text>
 <text id="7181400">Blunt Earth Seeker</text>
-
 <text id="8310000">Quakestone Hammer</text>
 <text id="8310100">Lethal Quakestone Hammer</text>
 <text id="8310200">Curse Quakestone Hammer</text>
@@ -85,7 +80,6 @@
 <text id="8311200">Holy Quakestone Hammer</text>
 <text id="8311300">Sharp Quakestone Hammer</text>
 <text id="8311400">Blunt Quakestone Hammer</text>
-
 <text id="9230000">Follower Javelin</text>
 <text id="9230100">Lethal Follower Javelin</text>
 <text id="9230200">Curse Follower Javelin</text>
@@ -101,9 +95,7 @@
 <text id="9231200">Holy Follower Javelin</text>
 <text id="9231300">Sharp Follower Javelin</text>
 <text id="9231400">Blunt Follower Javelin</text>
-
 <text id="10180000">Friede's Great Scythe</text>
-
 <text id="11050000">Crow Talons</text>
 <text id="11050100">Lethal Crow Talons</text>
 <text id="11050200">Curse Crow Talons</text>
@@ -119,7 +111,6 @@
 <text id="11051200">Holy Crow Talons</text>
 <text id="11051300">Sharp Crow Talons</text>
 <text id="11051400">Blunt Crow Talons</text>
-
 <text id="12070000">Rose of Ariandel</text>
 <text id="12070100">Lethal Rose of Ariandel</text>
 <text id="12070200">Curse Rose of Ariandel</text>
@@ -135,11 +126,8 @@
 <text id="12071200">Holy Rose of Ariandel</text>
 <text id="12071300">Sharp Rose of Ariandel</text>
 <text id="12071400">Blunt Rose of Ariandel</text>
-
 <text id="13410000">Pyromancer's Parting Flame</text>
-
 <text id="14180000">Millwood Greatbow</text>
-
 <text id="16140000">Valorheart</text>
 <text id="16140100">Lethal Valorheart</text>
 <text id="16140200">Curse Valorheart</text>
@@ -155,7 +143,6 @@
 <text id="16141200">Holy Valorheart</text>
 <text id="16141300">Sharp Valorheart</text>
 <text id="16141400">Blunt Valorheart</text>
-
 <text id="16150000">Crow Quills</text>
 <text id="16150100">Lethal Crow Quills</text>
 <text id="16150200">Curse Crow Quills</text>
@@ -171,7 +158,6 @@
 <text id="16151200">Holy Crow Quills</text>
 <text id="16151300">Sharp Crow Quills</text>
 <text id="16151400">Blunt Crow Quills</text>
-
 <text id="20300000">Follower Shield</text>
 <text id="20300100">Follower Shield of Clarity</text>
 <text id="20300200">Follower Shield of Rejuvenation</text>
@@ -183,7 +169,6 @@
 <text id="20300800">Follower Shield of Fire</text>
 <text id="20300900">Follower Shield of Lightning</text>
 <text id="20301000">Follower Shield of Dark</text>
-
 <text id="21300000">Ethereal Oak Shield</text>
 <text id="21300100">Ethereal Oak Shield of Clarity</text>
 <text id="21300200">Ethereal Oak Shield of Rejuvenation</text>
@@ -195,7 +180,6 @@
 <text id="21300800">Ethereal Oak Shield of Fire</text>
 <text id="21300900">Ethereal Oak Shield of Lightning</text>
 <text id="21301000">Ethereal Oak Shield of Dark</text>
-
 <text id="23010000">Follower Torch</text>
 </entries>
 </fmg>

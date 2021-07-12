@@ -101,7 +101,6 @@ treacherous foes, this allows them to
 draw upon former majesty, and summon
 a row of upward-thrusting ritual spears.
 </text>
-
 <text id="745">Soul of Slave Knight Gael.
 One of the twisted souls, steeped in strength.
 
@@ -111,14 +110,12 @@ as pigment for the Painted World.
 But Gael knew he was no Champion,
 that the dark soul would likely ruin him,
 and that he had little hope of a safe return.</text>
-
 <text id="746">Soul of the demon prince.
 One of the twisted souls, steeped in strength.
 
 The demons, birthed from a common Chaos, share almost everything between them, even the pride of their prince, and his near-faded flame.
 
 So that the last demon standing may rekindle it.</text>
-
 <text id="747">Soul of Darkeater Midir.
 One of the twisted souls, steeped in strength.
 
@@ -127,7 +124,6 @@ by the gods, and owing to his immortality,
 was given a duty to eternally battle the dark,
 a duty that he would never forget, even after
 the gods perished.</text>
-
 <text id="2156">The small banner used by envoys of
 Great Lord Gwyn in the days of yore.
 
@@ -253,6 +249,20 @@ The sword is named after moonlight, but it is
 slightly different than the one fashioned of the
 paledrake Seath. Perhaps it is rooted in an
 older memory, from not long after the Beginning.</text>
+<text id="1376010">A memory of an old sword found deep within Midir.
+This sorcery uses souls to grant form to the
+thought, and attack with it.
+
+Attacks are coupled with lightwaves,
+and sustaining the stance before attacking
+increases their speed and potency.
+
+Increases Poise Damage to 100.
+
+The sword is named after moonlight, but it is
+slightly different than the one fashioned of the
+paledrake Seath. Perhaps it is rooted in an
+older memory, from not long after the Beginning.</text>
 <text id="2458000">Pyromancy of Zoey, descendant of the desert
 pyromancers.
 
@@ -263,10 +273,28 @@ Zoey possessed true beauty, as did all the
 desert pyromancers, but hers did not poison,
 and so she became the unassuming queen
 of the feeble ones. </text>
+<text id="2458010">Pyromancy of Zoey, descendant of the desert
+pyromancers.
+
+Use repeatedly to brush the fan of flame left
+and right.
+Can be used with no focus cost.
+
+Zoey possessed true beauty, as did all the
+desert pyromancers, but hers did not poison,
+and so she became the unassuming queen
+of the feeble ones. </text>
 <text id="2660000">The last flame lit by the demon prince.
 This pyromancy hurls a clump of chaos.
 
 Upon impact, this clump of chaos seethes wildly, condenses briefly, then explodes violently.
+
+To the demons, these clumps are shreds of life.</text>
+<text id="2660010">The last flame lit by the demon prince.
+This pyromancy hurls a clump of chaos.
+
+Upon impact, this clump of chaos seethes wildly, condenses briefly, then explodes violently.
+Increases Poise Damage to 100.
 
 To the demons, these clumps are shreds of life.</text>
 <text id="3509000">The few female knights who served in the age of
@@ -279,10 +307,26 @@ to the range of spears, and were said to have been used to pierce the eyes of dr
 But remember, beautiful stories are always
 marked by embellishment.
 </text>
+<text id="3509010">The few female knights who served in the age of
+the gods used this miracle for dragonslaying.
+
+Draw lightning bow to fire a lightning arrow with no focus cost.
+
+The lightning arrows offer a great improvement
+to the range of spears, and were said to have been used to pierce the eyes of dragons from afar.
+But remember, beautiful stories are always
+marked by embellishment.
+</text>
 <text id="3557000">A miracle discovered in the last days of Lothric.
 
 Toss a light that heals 300 HP for those near the point of impact.
 Scales with Spell Buff.
+
+Even those who had forgotten the caress and bounty of the Princess of Sunlight did their best to recall her image. The stories spun about her were most certainly childish, and yet gravely sincere.</text>
+<text id="3557010">A miracle discovered in the last days of Lothric.
+
+Toss a light that heals 300 HP for those near the point of impact.
+Scales with Spell Buff. Range increased to 5 meters.
 
 Even those who had forgotten the caress and bounty of the Princess of Sunlight did their best to recall her image. The stories spun about her were most certainly childish, and yet gravely sincere.</text>
 </entries>
