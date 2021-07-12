@@ -143,6 +143,16 @@ Add the following armour:
 - Reduced the stability of the Leather Shield from 75 to 62 (the same as the rest of small shields).
 - Added air juggle stagger to the Dragonhead Greatshield WA.
 
+# Bosses
+- Mirror Knight:
+ - Changed the fight so it is optional. It can be triggered by using the "Taunt" prompt.
+ - Slowed the Mirror Knight animations down to 90% of DSA speed (was 110%).
+ - Added two Mirror Phantom stages. 
+  - The Mirror Knight will now fall down and his shield will emit a burst, spawning a Mirror Phantom. 
+  - While the Mirror Knight is fallen, it is invulnerable to damage.
+  - The first stage occurs at 75% HP, spawning the Mad Warrior.
+  - The second stage occurs at 35% HP, spawning the Hallowed Knight.
+
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
 - Fixed dummy polys for Burial Scythe.
