@@ -157,11 +157,17 @@ Add the following armour:
 - Added the night skybox to the map.
 - Added an announcer that notifies the player of each round.
 - Changed the general structure of Memories:
- - Now comprised of five rounds: 1 and 2 are 'easy' mixes of enemies, 3 and 4 are 'tough' mixes of enemies and 5 is a miniboss.
- - Each round is two minutes long, with the miniboss round lasting until it is defeated.
- - After the miniboss is defeated, this process repeats until the player dies or leaves
+ - Now comprised of five rounds: 
+  - 1: simple mixture of enemies
+  - 2: simple mixture of enemies
+  - 3: hard mixture of enemies
+  - 4: hard mixture of enemies
+  - 5: boss
+ - Each round is 3 minutes long, with the boss round lasting until it is defeated. Overall a memory will take about 15 minutes to complete.
+ - The memory now ends once the boss is killed.
+ - Completing a memory will award Primordial Fragment(s).
 
-- Added four new memories:
+- Added new memories:
  - Memory of the Swamp
   - Contains the following enemy types:
    - Ghru (Spear)
@@ -204,7 +210,7 @@ Add the following armour:
    - Hollow Slave (Flamberge)
    - Hollow Manservant (Saw)
    - Hollow Manservant (Pot)
-   - Curse-rotted Greatwood
+   - Aborr
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
@@ -217,7 +223,6 @@ Add the following armour:
 # TODO
 #------------------------------
 Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
-Add more trials, change the current setup the difficulty/reward scales in a smoother way, i.e. generators should switch off, and which are activated should in a certain order.
 
 - Shield Catalyst
 - Grand Lance/Chariot Lance
@@ -226,4 +231,14 @@ Add more trials, change the current setup the difficulty/reward scales in a smoo
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-Greatsword Cath Knight, needs shield mask
+# Memory of the Archives
+Archive Scholar 134000
+Lothric Knight - Sword - Exposed Face 128203
+Lothric Knight - Spear - Exposed Face 128221
+Lothric Priest 144200
+Pus of Man  109100
+Crystal Sage 132110
+Mimic 212250
+Mirror Knight 103000
+ Mad Warrior 103010
+ Hallowed Knight 103020
