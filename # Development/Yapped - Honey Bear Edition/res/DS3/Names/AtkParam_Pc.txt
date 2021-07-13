@@ -582,6 +582,7 @@
 2300000 Straight Sword - 1H Light #1
 2300010 Straight Sword - 1H Light #2
 2300020 Straight Sword - 1H Light #3
+2300025 Straight Sword (Alt) - 1H Light #4
 2300030 Straight Sword - 1H Jump
 2300040 Straight Sword - 1H Fall Loop
 2300050 Straight Sword - 1H Fall Landing
@@ -598,7 +599,9 @@
 2300300 Straight Sword - 2H Heavy #1
 2300305 Straight Sword - 2H Heavy #1 Max
 2300310 Straight Sword - 2H Heavy #2
+2300312 Straight Sword (Alt) - 2H Heavy #2
 2300315 Straight Sword - 2H Heavy #2 Max
+2300317 Straight Sword (Alt) - 2H Heavy #2 Max
 2300400 Straight Sword - Left Hand
 2300402 Straight Sword
 2300404 Straight Sword
@@ -616,14 +619,17 @@
 2300515 Straight Sword - Riposte (Hornet Ring) - Sub
 2300516 Straight Sword - Riposte (Hornet Ring)
 2300520 Straight Sword - 1H Backstep
+2300525 Straight Sword (Alt) - 1H Backstep
 2300530 Straight Sword - 2H Backstep
 2300540 Straight Sword - 1H Roll
+2300545 Straight Sword (Alt) - 1H Roll
 2300580 Straight Sword - 2H Roll
 2300600 Straight Sword - Parry
 2300610 Straight Sword - Backstab Transition
 2300615 Straight Sword - Missed Backstab Transition
 2300720 Straight Sword - Stance Light
 2300722 Straight Sword - Stance Heavy
+2300730 Straight Sword (Alt) - Tackle
 2300920 Straight Sword
 2300921 Straight Sword
 2301100 Broadsword - 1H Heavy # 1
@@ -667,6 +673,18 @@
 2307740 Black Dragon Sword - WA
 2307743 Black Dragon Sword - WA
 2307745 Black Dragon Sword - WA
+2308100 Silver Knight Straight Sword - 1H Heavy #1
+2308105 Silver Knight Straight Sword - 1H Heavy #1 Max
+2308110 Silver Knight Straight Sword - 1H Heavy #2
+2308115 Silver Knight Straight Sword - 1H Heavy #2 Max
+2308300 Silver Knight Straight Sword - 2H Heavy #1
+2308305 Silver Knight Straight Sword - 2H Heavy #1 Max
+2308310 Silver Knight Straight Sword - 2H Heavy #2
+2308315 Silver Knight Straight Sword - 2H Heavy #2 Max
+2308700 Silver Knight Straight Sword - Evade
+2308710 Silver Knight Straight Sword - Evade & Thrust
+2308720 Silver Knight Straight Sword - Evade & Slam
+2308735 Silver Knight Straight Sword - Tackle
 2310730 Lothric's Holy Sword
 2310735 Lothric's Holy Sword [Bullet]
 2320700 Sunlight Straight Sword [Bullet]
@@ -813,6 +831,11 @@
 2500700 Bastard Sword - Stomp
 2500710 Bastard Sword - Stance
 2500720 Bastard Sword - Stance
+2500800 Greatsword - Continuous Hit
+2500820 Greatsword - No Continuous Hit Final Thrust
+2500830 Greatsword - Continuous Hit Final Thrust
+2500835 Greatsword - Charge - Tackle
+2500850 Greatsword - Perseverance
 2502000 Flamberge - 1H Light #1
 2502010 Flamberge - 1H Light #2
 2502020 Flamberge - 1H Light #3
@@ -1396,8 +1419,12 @@
 2800101 Falchion - 1H Heavy - Follow
 2800105 Falchion - 1H Heavy #1 Max
 2800106 Falchion - 1H Heavy #1 Max - Follow
+2800107 Curved Sword (Alt) - 1H Heavy #1 Max - Hit 1
+2800108 Curved Sword (Alt) - 1H Heavy #1 Max - Hit 2
 2800110 Falchion - 1H Heavy #2
 2800115 Falchion - 1H Heavy #2 Max
+2800117 Curved Sword (Alt) - 1H Heavy #2 Max - Hit 1
+2800118 Curved Sword (Alt) - 1H Heavy #2 Max - Hit 2
 2800200 Falchion - 2H Light #1
 2800210 Falchion - 2H Light #2
 2800220 Falchion - 2H Light #3
@@ -1414,7 +1441,9 @@
 2800402 Falchion
 2800404 Falchion
 2800410 Falchion - 1H Kick
+2800415 Curved Sword (Alt) - 1H Kick
 2800420 Falchion - 2H Kick
+2800425 Curved Sword (Alt) - 2H Kick
 2800430 Falchion - 1H Guard
 2800440 Falchion - 2H Guard
 2800450 Falchion - Parry
@@ -1580,10 +1609,19 @@
 2815530 Beast Cutter - 2H Backstep
 2815540 Beast Cutter - 1H Roll Attack
 2815580 Beast Cutter - 2H Roll Attack
-2900000 Katana
-2900001 Katana
-2900010 Katana
-2900020 Katana
+2816100 Beasthunter Saif - 1H Heavy #1
+2816520 Beasthunter Saif - 1H Backstep
+2816700 Beasthunter Saif - Evade
+2816710 Beasthunter Saif - Evade Light
+2816720 Beasthunter Saif - Evade Heavy
+2817700 Burial Blade - Whirlwind Fury #1
+2817701 Burial Blade - Whirlwind Fury #2
+2817702 Burial Blade - Whirlwind Fury #3
+2817703 Burial Blade - Whirlwind Fury #4
+2900000 Katana - 1H Light #1
+2900010 Katana - 1H Light #2
+2900020 Katana - 1H Light #3
+2900025 Katana (Alt) - 1H Light #4
 2900030 Katana
 2900040 Katana
 2900050 Katana
@@ -1591,12 +1629,17 @@
 2900101 Katana
 2900105 Katana - 1H Heavy #1 Max
 2900106 Katana
+2900107 Katana (Alt) - 1H Heavy #1 Max
+2900108 Katana (Alt)
 2900110 Katana - 1H Heavy #2
 2900115 Katana - 1H Heavy #2 Max
-2900200 Katana
+2900116 Katana (Alt) - 1H Heavy #2 Max - First Hit
+2900117 Katana (Alt) - 1H Heavy #2 Max - Second Hit
+2900200 Katana - 2H Light #1
 2900201 Katana
-2900210 Katana
-2900220 Katana
+2900205 Katana (Alt) - 2H Light #1
+2900210 Katana - 2H Light #2
+2900220 Katana - 2H Light #3
 2900230 Katana
 2900240 Katana
 2900250 Katana
@@ -1624,14 +1667,32 @@
 2900516 Katana - Riposte (Hornet Ring)
 2900520 Katana
 2900521 Katana
+2900525 Katana (Alt) - 1H Backstep - First Hit
+2900526 Katana (Alt) - 1H Backstep - Second Hit
 2900530 Katana
 2900531 Katana
+2900535 Katana (Alt) - 2H Backstep - First Hit
+2900536 Katana (Alt) - 2H Backstep - Second Hit
 2900540 Katana
 2900580 Katana
 2900600 Katana
 2900610 Katana
 2900615 Katana
 2900700 Katana
+2900705 Katana - Warcry Tackle
+2900706 Katana - Spin Slash Tackle
+2900707 Katana - Focus Strike Tackle
+2900710 Katana (Alt) - Spin Slash - Initial Hit
+2900720 Katana (Alt) - Spin Slash - Final Hit
+2900730 Katana (Alt) - Focus Strike - Initial Hit
+2900740 Katana (Alt) - Focus Strike - Final Hit
+2900805 Katana - Warcry 1H Heavy #1 - First Hit
+2900806 Katana - Warcry 1H Heavy #1 - Second Hit
+2900810 Katana - Warcry 1H Heavy #2
+2900905 Katana - Warcry 2H Heavy #1 - First Hit
+2900906 Katana - Warcry 2H Heavy #1 - Second Hit
+2900910 Katana - Warcry 2H Heavy #2 - First Hit
+2900911 Katana - Warcry 2H Heavy #2 - Second Hit
 2902100 Black Blade - 1H Heavy #1
 2902105 Black Blade - 1H Heavy #1 Max
 2902110 Black Blade - 1H Heavy #2
@@ -1762,7 +1823,9 @@
 3000402 Axe
 3000404 Axe
 3000410 Axe - 1H Kick
+3000415 Axe - 1H Kick - Shoulder Bash
 3000420 Axe - 2H Kick
+3000425 Axe - 2H Kick - Shoulder Bash
 3000430 Axe - 1H Guard
 3000440 Axe - 2H Guard
 3000450 Axe - Parry
@@ -1785,7 +1848,10 @@
 3000610 Axe - Backstab Transition
 3000615 Axe - Missed Backstab Transition
 3000620 Axe - Directed Slam
-3000700 Axe - War Cry - Shockwave
+3000700 Axe - War Cry - Tackle
+3000705 Axe - Forceful Slash Initial Hit
+3000710 Axe - Forceful Slash Final Hit
+3000715 Axe - Stomp
 3000800 Axe - War Cry - 1H Heavy #1
 3000805 Axe - War Cry - 1H Heavy #1 Max
 3000806 Axe - War Cry - 1H Tackle #1
@@ -1958,6 +2024,9 @@
 3060530 Man Serpent Hatchet
 3060540 Man Serpent Hatchet
 3060580 Man Serpent Hatchet
+3060705 Man Serpent Hatchet - Forceful Slash Initial Hit
+3060710 Man Serpent Hatchet - Forceful Slash Final Hit
+3060715 Man Serpent Hatchet - Stomp
 3060800 Man Serpent Hatchet
 3060805 Man Serpent Hatchet
 3060810 Man Serpent Hatchet
@@ -2029,6 +2098,8 @@
 3200620 Greataxe
 3200700 Greataxe
 3200701 Greataxe
+3200705 Greataxe - Spin Slash Initial
+3200710 Greataxe - Spin Slash Final
 3200800 Greataxe
 3200805 Greataxe
 3200806 Greataxe
@@ -2036,13 +2107,13 @@
 3200808 Greataxe
 3200810 Greataxe
 3200815 Greataxe
-3200900 Greataxe - 1H Heavy #1
-3200905 Greataxe - 1H Heavy #1 Max
-3200906 Greataxe
-3200907 Greataxe
-3200908 Greataxe
-3200910 Greataxe - 2H Heavy #1
-3200915 Greataxe - 2H Heavy #1 Max
+3200900 Greataxe - Warcry 2H Heavy #1
+3200905 Greataxe - Warcry 2H Heavy #1 Max
+3200906 Greataxe - Warcry 2H Heavy #2 - Tackle
+3200907 Greataxe - Warcry 2H Heavy #2 - Tackle
+3200908 Greataxe - Warcry 2H Heavy #1 & 2 - Initial Hit
+3200910 Greataxe - Warcry 2H Heavy #2 - Final Hit
+3200915 Greataxe - Warcry 2H Heavy #2 - Final Hit Max
 3203000 Black Knight's Greataxe - 1H Light #1
 3203001 Black Knight's Greataxe
 3203010 Black Knight's Greataxe - 1H Light #2
@@ -2283,6 +2354,22 @@
 3219700 Golem Axe - Wind Rush
 3219701 Golem Axe - Wind Rush - Low FP
 3219710 Golem Axe - Wind Rush - Melee
+3220300 Demon's Great Axe - 2H Heavy #1
+3220305 Demon's Great Axe - 2H Heavy #1 Max
+3221620 Greataxe (Paired) - 2H Special #1 Right
+3221621 Greataxe (Paired) - 2H Special #1 Left
+3221630 Greataxe (Paired) - 2H Special #2 Right
+3221631 Greataxe (Paired) - 2H Special #2 Left
+3221640 Greataxe (Paired) - 2H Special #3 Right
+3221641 Greataxe (Paired) - 2H Special #3 Left
+3221740 Greataxe (Paired) - Spin Slash Initial Right
+3221741 Greataxe (Paired) - Spin Slash Initial Left
+3221744 Greataxe (Paired) - Spin Slash Final Right
+3221745 Greataxe (Paired) - Spin Slash Final Left
+3221750 Greataxe (Paired) - 2H Special Backstep Right
+3221751 Greataxe (Paired) - 2H Special Backstep Left
+3221760 Greataxe (Paired) - 2H Special Roll Right
+3221761 Greataxe (Paired) - 2H Special Roll Left
 3300000 Hammer - 1H Light #1
 3300001 Hammer
 3300010 Hammer - 1H Light #2
@@ -2308,7 +2395,9 @@
 3300402 Hammer
 3300404 Hammer
 3300410 Hammer - 1H Kick
+3300415 Hammer - 1H Kick - Elbow Strike
 3300420 Hammer - 2H Kick
+3300425 Hammer - 2H Kick - Elbow Strike
 3300430 Hammer - 1H Guard
 3300440 Hammer - 2H Guard
 3300450 Hammer - Parry
@@ -2426,11 +2515,21 @@
 3310305 Reinforced Club - 2H Heavy #1 Max
 3311700 Boom Hammer - Weapon Art
 3311705 Boom Hammer - Weapon Art
+3314025 Sanguinus - 1H Light #4
+3314100 Sanguinus - 1H Heavy #1
+3314105 Sanguinus - 1H Heavy #1 Max
+3314115 Sanguinus - 1H Heavy #2 Max
+3314520 Sanguinus - 1H Backstep
 3314700 Sanguinus - Bloodlust
+3315410 Tonitrus - 1H Kick
+3315420 Tonitrus - 2H Kick
 3315700 Tonitrus - Spark
+3315750 Tonitrus - Spark - No Lightning
 3316700 Frying Pan - Fry Up
 3316710 Frying Pan - Fry Up
 3316720 Frying Pan - Fry Up
+3317700 Hammer - Spin Bash - Initial Hit
+3317720 Hammer - Spin Bash - Final Hit
 3390620 Drang Hammers
 3390621 Drang Hammers
 3390630 Drang Hammers
@@ -2561,7 +2660,17 @@
 3512733 Ledo's Great Hammer
 3512734 Ledo's Great Hammer
 3512750 Ledo's Great Hammer
+3513305 Bloodletter - 2H Heavy #1 Max
+3513315 Bloodletter - 2H Heavy #2 Max
+3513410 Bloodletter - 1H Kick
+3513420 Bloodletter - 2H Kick
+3513580 Bloodletter - 2H Roll
 3513700 Bloodletter - Bloodlust
+3513701 Bloodletter - Bloodlust
+3513702 Bloodletter - Bloodlust
+3513703 Bloodletter - Bloodlust
+3513704 Bloodletter - Bloodlust
+3513705 Bloodletter - Bloodlust
 3514700 Sacred Chime Hammer - Beckon the Deep
 3514705 Sacred Chime Hammer - Beckon the Deep
 3515710 Giant Crab Arm - Bubblebeam
@@ -2625,24 +2734,33 @@
 3520700 Pickaxe
 3600000 Spear - 1H Light #1
 3600010 Spear - 1H Light #2
+3600015 Spear (Alt) - 1H Light #2
 3600020 Spear - 1H Light #3
+3600025 Spear (Alt) - 1H Light #3
 3600030 Spear - 1H Jump
 3600040 Spear - 1H Fall Loop
 3600050 Spear - 1H Fall Landing
 3600100 Spear - 1H Heavy #1
+3600102 Spear (Alt) - 1H Heavy #1
 3600105 Spear - 1H Heavy #1 Max
+3600107 Spear (Alt) - 1H Heavy #1 Max
 3600110 Spear - 1H Heavy #2
 3600115 Spear - 1H Heavy #2 Max
 3600200 Spear - 2H Light #1
+3600205 Spear (Alt) - 2H Light #1
 3600210 Spear - 2H Light #2
+3600215 Spear (Alt) - 2H Light #2
 3600220 Spear - 2H Light #3
+3600225 Spear (Alt) - 2H Light #3
 3600230 Spear - 2H Jump
 3600240 Spear - 2H Fall Loop
 3600250 Spear - 2H Fall Landing
 3600300 Spear - 2H Heavy #1
 3600305 Spear - 2H Heavy #1 Max
 3600310 Spear - 2H Heavy #2
+3600312 Spear (Alt) - 2H Heavy #2
 3600315 Spear - 2H Heavy #2 Max
+3600317 Spear (Alt) - 2H Heavy #2 Max
 3600400 Spear - Left Hand
 3600402 Spear
 3600404 Spear
@@ -2662,10 +2780,13 @@
 3600520 Spear - 1H Backstep
 3600530 Spear - 2H Backstep
 3600540 Spear - 1H Roll
+3600545 Spear (Alt) - 1H Roll
 3600580 Spear - 2H Roll
+3600585 Spear (Alt) - 2H Roll
 3600600 Spear - Parry
 3600610 Spear - Backstab Transition
 3600615 Spear - Missed Backstab Transition
+3600700 Spear - Stance Light
 3600720 Spear - Weak
 3600722 Spear - Strong
 3600723 Spear - Strong Continuous Hit
@@ -2673,7 +2794,7 @@
 3600800 Spear - Continuous Hit
 3600810 Spear - No Continuous Hit
 3600820 Spear - Continuous Hit Last Thrust
-3600835 Spear
+3600835 Spear - Tackle
 3600920 Spear
 3600921 Spear
 3601000 Spear - 1H Light #1 (stick)
@@ -2823,6 +2944,7 @@
 3610530 Greatlance
 3610531 Greatlance
 3610532 Greatlance
+3610750 Rampart Golem Lance - Chilling Wind
 3610800 Greatlance
 3610810 Greatlance
 3610820 Greatlance
@@ -2839,9 +2961,14 @@
 3611706 Dragonslayer Swordspear
 3611707 Dragonslayer Swordspear
 3611708 Dragonslayer Swordspear
-3612700 Spear
+3612700 Spear - War Banner
 3613700 Golden Ritual Spear - Darkmoon Volley [Hit]
-3615700 Rampart Golem Lance - Chilling Wind
+3616100 Silver Knight Spear - 1H Heavy #1
+3616105 Silver Knight Spear - 1H Heavy #1 Max
+3616110 Silver Knight Spear - 1H Heavy #2
+3616115 Silver Knight Spear - 1H Heavy #2 Max
+3616300 Silver Knight Spear - 2H Heavy #1
+3616305 Silver Knight Spear - 2H Heavy #1 Max
 3620700 Spear
 3620800 Spear
 3620810 Spear
@@ -2987,6 +3114,7 @@
 3690950 Twinspears of the Forlorn - WA Strong
 3690951 Twinspears of the Forlorn - WA Light
 3800000 Halberd - 1H Light #1
+3800005 Halberd (Alt) - 1H Light #1
 3800010 Halberd - 1H Light #2
 3800020 Halberd - 1H Light #3
 3800030 Halberd - 1H Jump
@@ -2994,7 +3122,9 @@
 3800050 Halberd - 1H Fall Landing
 3800099 Halberd
 3800100 Halberd - 1H Heavy #1
+3800102 Halberd (Alt) - 1H Heavy #1
 3800105 Halberd - 1H Heavy #1 Max
+3800107 Halberd (Alt) - 1H Heavy #1 Max
 3800110 Halberd - 1H Heavy #2
 3800115 Halberd - 1H Heavy #2 Max
 3800200 Halberd - 2H Light #1
@@ -3008,8 +3138,10 @@
 3800305 Halberd - 2H Heavy #1 Max - Hit 1
 3800308 Halberd - 2H Heavy #1 Max - Hit 2
 3800310 Halberd - 2H Heavy #2 - Hit 1
+3800312 Halberd (Alt) - 2H Heavy #2
 3800313 Halberd - 2H Heavy #2 - Hit 2
 3800315 Halberd - 2H Heavy #2 Max - Hit 1
+3800317 Halberd (Alt) - 2H Heavy #2 Max
 3800318 Halberd - 2H Heavy #2 Max - Hit 2
 3800400 Halberd - Left Hand
 3800402 Halberd
@@ -3031,12 +3163,18 @@
 3800530 Halberd - 2H Backstep
 3800540 Halberd - 1H Roll
 3800580 Halberd - 2H Roll
+3800585 Halberd (Alt) - 2H Roll
 3800600 Halberd - Parry
 3800610 Halberd - Backstab Transition
 3800615 Halberd
 3800700 Halberd
+3800701 Halberd (Alt) - Stance Light
+3800702 Halberd (Alt) - Stance Heavy
 3800710 Halberd
 3800720 Halberd - Stance: Weak
+3800806 Halberd (Alt) - Tackle
+3800807 Halberd (Alt) - Tackle
+3800811 Halberd (Alt) - Tackle (Hit)
 3802000 Lucerne - 1H Light #1
 3802010 Lucerne - 1H Light #2 (thrust)
 3802020 Lucerne - 1H Light #3 (thrust)
@@ -3217,11 +3355,13 @@
 3812200 Glaive
 3812210 Glaive
 3812220 Glaive
+3812225 Hunter Axe - 2H Light #3
 3812230 Glaive
 3812240 Glaive
 3812250 Glaive
 3812300 Glaive - 2H Heavy #1 - Hit 1
 3812303 Glaive - 2H Heavy #1 - Hit 2
+3812304 Hunter Axe - 2H Heavy #1
 3812305 Glaive - 2H Heavy #1 Max - Hit 1
 3812308 Glaive - 2H Heavy #1 Max - Hit 2
 3812310 Glaive - 2H Heavy #2 - Hit 1
@@ -3231,6 +3371,8 @@
 3812400 Glaive
 3812402 Glaive
 3812404 Glaive
+3812415 Hunter Axe - 1H Kick
+3812425 Hunter Axe - 2H Kick
 3812490 Glaive
 3812500 Glaive - Backstab
 3812505 Glaive - Backstab (Hornet Ring)
@@ -3239,8 +3381,10 @@
 3812516 Glaive - Riposte (Hornet Ring)
 3812520 Glaive
 3812530 Glaive
+3812535 Hunter Axe - 2H Backstep
 3812540 Glaive
 3812580 Glaive
+3812585 Hunter Axe - 2H Roll
 3812700 Glaive
 3812710 Glaive
 3812720 Glaive
@@ -3350,7 +3494,7 @@
 3820105 Gargoyle Halberd - 1H Heavy #1 Max
 3820210 Gargoyle Halberd - 2H Light #2 (Both Hit)
 3820530 Gargoyle Halberd - 2H Backstep
-3820580 Gargoyle Halberd - 2H Roll
+3820585 Gargoyle Halberd - 2H Roll
 3820720 Gargoyle Halberd - WA Final Hit
 4100001 Spell Tool - Addition
 4100100 Spell Tool - 1H Heavy #1
@@ -3438,10 +3582,22 @@
 4134700 Sunless Talisman - Moonlight Wave
 4135700 Talisman - Force
 4136700 Saint's Talisman - Wrath of the Gods
+4137700 Black Flame - Abyssal Grasp - Attack
+4137705 Black Flame - Abyssal Grasp - Bullet
+4137710 Black Flame - Abyssal Grasp - Attack
+4137715 Black Flame - Abyssal Grasp - Bullet
 4137720 Black Flame - Abyssal Grasp - Attack
 4137725 Black Flame - Abyssal Grasp - Bullet
+4138700 Holy Flame - Divine Retribution - Attack
+4138705 Holy Flame - Divine Retribution - Bullet
+4138710 Holy Flame - Divine Retribution - Attack
+4138715 Holy Flame - Divine Retribution - Bullet
 4138720 Holy Flame - Divine Retribution - Attack
 4138725 Holy Flame - Divine Retribution - Bullet
+4139700 Sorcerous Flame - Beckon Soul - Attack
+4139705 Sorcerous Flame - Beckon Soul - Bullet
+4139710 Sorcerous Flame - Beckon Soul - Attack
+4139715 Sorcerous Flame - Beckon Soul - Bullet
 4139720 Sorcerous Flame - Beckon Soul - Attack
 4139725 Sorcerous Flame - Beckon Soul - Bullet
 4140700 Heretic's Staff - Silence
@@ -3450,6 +3606,12 @@
 4143701 Corrupted Talisman - Yearning [Hit]
 4143702 Corrupted Talisman - Yearning [Hit]
 4143703 Corrupted Talisman - Yearning [Hit]
+4145700 Fool's Flame - Fluorescent Flare - Attack
+4145705 Fool's Flame - Fluorescent Flare - Bullet
+4145710 Fool's Flame - Fluorescent Flare - Attack
+4145715 Fool's Flame - Fluorescent Flare - Bullet
+4145720 Fool's Flame - Fluorescent Flare - Attack
+4145725 Fool's Flame - Fluorescent Flare - Bullet
 4200000 Caestus - 1H Light #1
 4200010 Caestus - 1H Light #2
 4200020 Caestus - 1H Light #3
@@ -3821,7 +3983,8 @@
 4601405 Cannon (Dark) - Bullet
 4603400 Church Cannon - Bullet
 4604400 Hunter's Pistol - Bullet
-4605400 Repeating Pistol - Bullet
+4605400 Repeating Pistol - Bullet 1
+4605401 Repeating Pistol - Bullet 2
 4606400 Evelynn - Bullet
 4607400 Hunter's Blunderbuss - Bullet
 4608400 Rosamarius - Bullet
@@ -4154,6 +4317,15 @@
 5011710 Lothric's Scythe - Divine Punishment [Hit]
 5012700 Bone Scythe - Stomp
 5012705 Bone Scythe - Stomp
+5013300 Burial Scythe - 2H Heavy #1 - First Hit
+5013303 Burial Scythe - 2H Heavy #1 - Second Hit
+5013305 Burial Scythe - 2H Heavy #1 Max - First Hit
+5013308 Burial Scythe - 2H Heavy #1 Max - Second Hit
+5013410 Burial Scythe - 1H Kick
+5013420 Burial Scythe - 2H Kick
+5013760 Burial Scythe - Hunter Leap - Initial Hit
+5013761 Burial Scythe - Hunter Leap - Final Hit
+5013762 Burial Scythe - Hunter Leap
 5030000 Friede's Great Scythe
 5030001 Friede's Great Scythe
 5030010 Friede's Great Scythe
@@ -4472,18 +4644,29 @@
 11210010 [Sorcery] Scattering Soul Orb
 11210020 [Sorcery] Scattering Soul Orb
 11210030 [Sorcery] Scattering Soul Orb
+11210040 [Sorcery] Repeating Soul Orb
+11210050 [Sorcery] Repeating Soul Orb
 11300000 [Sorcery] Soul Arrow
+11300100 [Sorcery] Explosive Soul Arrow
+11300110 [Sorcery] Explosive Soul Arrow [HitBullet]
 11301000 [Sorcery] Scattering Crystal Orb
 11301010 [Sorcery] Scattering Crystal Orb
 11301020 [Sorcery] Scattering Crystal Orb
 11301030 [Sorcery] Scattering Crystal Orb
+11301040 [Sorcery] Repeating Crystal Orb
+11301050 [Sorcery] Repeating Crystal Orb
 11302000 [Sorcery] Shockwave
 11303000 [Sorcery] Soul Geyser
+11303010 [Sorcery] Crystal Soul Geyser
 11304000 [Sorcery] Homing Soulmass
 11304100 [Sorcery] Homing Soulmass [HitBullet]
+11304200 [Sorcery] Surging Soulmass
+11304300 [Sorcery] Surging Soulmass [HitBullet]
 11305000 [Sorcery] Homing Crystal Soulmass
 11305100 [Sorcery] Homing Crystal Soulmass [HitBullet]
 11306000 [Sorcery] Soul Spear
+11306100 [Sorcery] Explosive Soul Spear
+11306110 [Sorcery] Explosive Soul Spear [HitBullet]
 11307000 [Sorcery] Crystal Soul Spear
 11308000 [Sorcery] Deep Soul
 11309000 [Sorcery] Great Deep Soul
@@ -4503,27 +4686,28 @@
 11373500 [Sorcery] Crystal Hail [BulletEmitter HitBullet]
 11374000 [Sorcery] Soul Greatsword - Right
 11374100 [Sorcery] Soul Greatsword - Left
-11374200 [Sorcery] Soul Greatsword - Right - Ascended
-11374210 [Sorcery] Soul Greatsword - Left - Ascended
+11374200 [Sorcery] Heavy Soul Greatsword - Right
+11374210 [Sorcery] Heavy Soul Greatsword - Left
 11375000 [Sorcery] Farron Flashsword - Right
 11375100 [Sorcery] Farron Flashsword - Left
-11375200 [Sorcery] Farron Flashsword - Right - Ascended
-11375210 [Sorcery] Farron Flashsword - Left - Ascended
+11375200 [Sorcery] Refined Farron Flashsword - Right
+11375210 [Sorcery] Refined Farron Flashsword - Left
 11376000 [Sorcery] Old Moonlight
 11376001 [Sorcery] Old Moonlight [HitBullet]
 11376010 [Sorcery] Old Moonlight - Sword - Right
 11376020 [Sorcery] Old Moonlight - Sword - Left
 11376100 [Sorcery] Old Moonlight - Charged
 11376101 [Sorcery] Old Moonlight - Charged [HitBullet]
-11376110 [Sorcery] Old Moonlight - Sword - Right - Ascended
-11376120 [Sorcery] Old Moonlight - Sword - Left - Ascended
+11376110 [Sorcery] Heavy Old Moonlight - Sword - Right
+11376120 [Sorcery] Heavy Old Moonlight - Sword - Left
 11603000 [Sorcery] Affinity
 11603100 [Sorcery] Affinity [HitBullet]
+11603200 [Sorcery] Pursuers
 11604000 [Sorcery] Great Soul Dregs
 11613000 [Sorcery] Abyssal Edge - Right
 11613100 [Sorcery] Abyssal Edge - Left
-11613200 [Sorcery] Abyssal Edge - Right - Ascended
-11613210 [Sorcery] Abyssal Edge - Left - Ascended
+11613200 [Sorcery] Heavy Abyssal Edge - Right
+11613210 [Sorcery] Heavy Abyssal Edge - Left
 11620000 [Sorcery] Soul Stream
 11620100 [Sorcery] Soul Stream [BulletEmitter]
 11620200 [Sorcery] Soul Stream
@@ -4575,9 +4759,11 @@
 12453000 [Pyromancy] Black Flame
 12453100 [Pyromancy] Black Flame [HitBullet]
 12453200 [Pyromancy] Black Flame [HitBullet]
-12453300 [Pyromancy] Black Flame - Ascended
-12453301 [Pyromancy] Black Flame [HitBullet] - Ascended
-12453302 [Pyromancy] Black Flame [HitBullet] - Ascended
+12453300 [Pyromancy] Scorching Black Flame
+12453310 [Pyromancy] Scorching Black Flame [HitBullet]
+12453320 [Pyromancy] Scorching Black Flame [HitBullet]
+12453330 [Pyromancy] Scorching Black Flame [HitBullet]
+12453340 [Pyromancy] Scorching Black Flame [HitBullet]
 12455000 [Pyromancy] Profaned Flame
 12455100 [Pyromancy] Profaned Flame [HitBullet]
 12455200 [Pyromancy] Profaned Flame [HitBullet]
@@ -4586,11 +4772,13 @@
 12456200 [Pyromancy] Chaos Bed Vestiges [unlinked]
 12456210 [Pyromancy] Chaos Bed Vestiges [BulletEmitter]
 12456212 [Pyromancy] Chaos Bed Vestiges - Lava
-12456300 [Pyromancy] Chaos Bed Vestiges - Ascended
+12456300 [Pyromancy] Chaos Vortex
+12456400 [Pyromancy] Chaos Vortex [BulletEmitter]
 12457000 [Pyromancy] Floating Chaos
 12457010 [Pyromancy] Floating Chaos [unlinked]
 12457100 [Pyromancy] Floating Chaos [BulletEmitter]
 12457110 [Pyromancy] Floating Chaos [EmittedBullet]
+12457410 [Pyromancy] Lingering Floating Chaos [EmittedBullet]
 12458000 [Pyromancy] Flame Fan
 12458100 [Pyromancy] Flame Fan
 12458200 [Pyromancy] Flame Fan
@@ -4600,7 +4788,7 @@
 12458320 [Pyromancy] Flame Fan - Ascended
 12458330 [Pyromancy] Flame Fan - Ascended
 12470000 [Pyromancy] Warmth
-12470001 [Pyromancy] Warmth - Ascended
+12470001 [Pyromancy] Fond Warmth
 12600000 [Pyromancy] Dark Orb [unused]
 12600100 [Pyromancy] Dark Orb [unused] [HitBullet]
 12610000 [Pyromancy] Black Fire Orb
@@ -4616,7 +4804,12 @@
 12660010 [Pyromancy] Seething Chaos [HitBullet]
 12660020 [Pyromancy] Seething Chaos [HitBullet]
 12660030 [Pyromancy] Seething Chaos [HitBullet]
-12660104 [Pyromancy] Seething Chaos [HitBullet] - Ascended
+12660100 [Pyromancy] Great Seething Chaos
+12660110 [Pyromancy] Great Seething Chaos [HitBullet]
+12660120 [Pyromancy] Great Seething Chaos [HitBullet]
+12660130 [Pyromancy] Great Seething Chaos [HitBullet]
+12661000 [Pyromancy] Chaos Beam
+12661100 [Pyromancy] Chaos Beam [Hit]
 13490000 [Miracle] Heal Aid
 13490100 [Miracle] Heal Aid [Hit]
 13500000 [Miracle] Heal
@@ -4640,10 +4833,19 @@
 13550001 [Miracle] Lightning Spear [Ranged] - Ascended
 13550010 [Miracle] Lightning Spear
 13550100 [Miracle] Lightning Spear [Proximity]
+13550200 [Miracle] Lightning Surge
 13551000 [Miracle] Great Lightning Spear [Ranged]
 13551001 [Miracle] Great Lightning Spear [Ranged] - Ascended
 13551010 [Miracle] Great Lightning Spear
 13551100 [Miracle] Great Lightning Spear [Proximity]
+13551110 [Miracle] Storm Spear
+13551120 [Miracle] Storm Spear [HitBullet]
+13551130 [Miracle] Storm Spear [HitBullet]
+13551140 [Miracle] Storm Spear [HitBullet]
+13551150 [Miracle] Storm Spear
+13551160 [Miracle] Storm Spear [HitBullet]
+13551170 [Miracle] Storm Spear [HitBullet]
+13551180 [Miracle] Storm Spear [HitBullet]
 13552000 [Miracle] Sunlight Spear [Ranged]
 13552001 [Miracle] Sunlight Spear [Ranged] - Ascended
 13552010 [Miracle] Sunlight Spear
@@ -4666,6 +4868,14 @@
 13557000 [Miracle] Projected Heal
 13557010 [Miracle] Projected Heal [HitBullet]
 13581000 [Miracle] Vow of Silence
+13582000 [Miracle] Sunlight Storm
+13582010 [Miracle] Sunlight Storm [HitBullet]
+13582020 [Miracle] Sunlight Storm [HitBullet]
+13582030 [Miracle] Sunlight Storm [HitBullet]
+13582040 [Miracle] Sunlight Storm
+13582050 [Miracle] Sunlight Storm [HitBullet]
+13582060 [Miracle] Sunlight Storm [HitBullet]
+13582070 [Miracle] Sunlight Storm [HitBullet]
 13700200 [Dead Again] Tier 1
 13700210 [Dead Again] Tier 2
 13700220 [Dead Again] Tier 3
@@ -4691,11 +4901,12 @@
 13720500 [Miracle] Divine Pillars of Light
 13730000 [Miracle] Lifehunt Scythe
 13730005 [Miracle] Lifehunt Scythe
-13730100 [Miracle] Lifehunt Scythe - Ascended
-13730105 [Miracle] Lifehunt Scythe - Ascended
+13730100 [Miracle] Great Lifehunt Scythe
+13730105 [Miracle] Great Lifehunt Scythe
 13999999 ### Weapons ###
-14000000 Blessing of Rosaria
-14000001 Blessing of Rosaria
+14000000 Blessing of Rosaria (Old)
+14000001 Blessing of Rosaria (Old)
+14000005 Blessing of Rosaria
 14000010 Holy Wrath
 14910000 Stone Greatsword - Tranquil Walk of Peace
 14911000 Channeler's Trident - Channeler's Boon - Self
@@ -4717,8 +4928,12 @@
 18141010 [Miracle] Heavenly Thunder [Hit]
 18142000 [Pyromancy] Cataclysm
 18142010 [Pyromancy] Cataclysm [Hit]
+18142020 [Pyromancy] Great Cataclysm [Hit]
+18142030 [Pyromancy] Great Cataclysm [Hit]
 18143000 [Pyromancy] Earthfall
 18143010 [Pyromancy] Earthfall [Hit]
+18143100 [Pyromancy] Summon Earthfall
+18143110 [Pyromancy] Summon Earthfall [Hit]
 18160000 [Miracle] Nibble
 18200000 [Pyromancy] Dark Inferno
 18200100 [Pyromancy] Dark Inferno [BulletEmitter]
@@ -4728,12 +4943,17 @@
 18200500 [Pyromancy] Dark Inferno [BulletEmitter HitBullet]
 18220000 [Pyromancy] Dark Dance
 18220100 [Pyromancy] Dark Dance [HitBullet]
+18220200 [Pyromancy] Forceful Dark Dance
 18230000 [Pyromancy] Recollection
 18230010 [Pyromancy] Recollection
 18230100 [Pyromancy] Recollection [BulletEmitter]
 18230110 [Pyromancy] Recollection [Bullet]
 18230111 [Pyromancy] Recollection [Bullet] - HitBullet
+18230612 [Pyromancy] Scorching Recollection [HitBullet]
+18230613 [Pyromancy] Scorching Recollection [HitBullet]
 18240000 [Sorcery] Whisper of Despair
+18240010 [Sorcery] Echo of Despair
+18240020 [Sorcery] Echo of Despair [HitBullet]
 18280000 [Sorcery] Blinding Light
 18290000 [Sorcery] Deep Barb
 18300000 [Sorcery] Surging Deep
@@ -4755,6 +4975,10 @@
 18350010 [Sorcery] Writhing Deep [HitBullet]
 18350020 [Sorcery] Writhing Deep [HitBullet]
 18350030 [Sorcery] Writhing Deep [HitBullet]
+18350100 [Sorcery] Great Writhing Deep
+18350110 [Sorcery] Great Writhing Deep [HitBullet]
+18350120 [Sorcery] Great Writhing Deep [HitBullet]
+18350130 [Sorcery] Great Writhing Deep [HitBullet]
 18360000 [Sorcery] Blizzard
 18360100 [Sorcery] Blizzard [HitBullet]
 18360200 [Sorcery] Blizzard [HitBullet]
@@ -4763,7 +4987,8 @@
 18360600 [Sorcery] Blizzard [HitBullet]
 18400000 [Pyromancy] Lingering Chaos
 18401000 [Sorcery] Climax
-18401001 [Sorcery] Climax - Ascended
+18401100 [Sorcery] Explosive Climax
+18401110 [Sorcery] Explosive Climax [HitBullet]
 18402000 [Pyromancy] Mournful Flames - Fireball
 18402010 [Pyromancy] Mournful Flames [EmittedBullet]
 18402100 [Pyromancy] Mournful Flames - Serpent
@@ -4797,6 +5022,8 @@
 19544010 [Miracle] Vow of Agony
 19545000 [Miracle] Angelic Barrage
 19545100 [Miracle] Angelic Barrage [Hit]
+19545200 [Miracle] Angelic Punishment
+19545300 [Miracle] Angelic Punishment [Hit]
 19546000 [Miracle] Infected Spit
 19547000 [Miracle] Lothric's Holy Spear
 19548000 [Miracle] Divine Arrow
@@ -4808,13 +5035,20 @@
 19551910 [Pyromancy] Black Fireball - Ascended [Hit]
 19551911 [Pyromancy] Black Fireball - Ascended [Hit]
 19551912 [Pyromancy] Black Fireball - Ascended - Lava [Hit]
+19551950 [Pyromancy] Black Fire Whip
 19552000 [Pyromancy] Black Fire Scatter
 19552001 [Pyromancy] Black Fire Scatter [Hit]
 19552002 [Pyromancy] Black Fire Scatter [Hit]
 19553000 [Pyromancy] Black Fire Vestiges
 19553010 [Pyromancy] Black Fire Vestiges [Hit]
+19553100 [Pyromancy] Scorching Black Fire Vestiges
+19553110 [Pyromancy] Scorching Black Fire Vestiges [Hit]
+19553120 [Pyromancy] Scorching Black Fire Vestiges [Hit]
+19553130 [Pyromancy] Scorching Black Fire Vestiges [Hit]
 19554000 [Pyromancy] Fecal Explusion
 19554010 [Pyromancy] Fecal Explusion [Hit]
+19554100 [Pyromancy] Great Fecal Explusion
+19554110 [Pyromancy] Great Fecal Explusion [Hit]
 19555000 [Miracle] Overwhelming Power
 19555001 [Miracle] Overwhelming Power [Emitter]
 19555002 [Miracle] Overwhelming Power [Hit]
@@ -4833,6 +5067,8 @@
 19559001 [Miracle] Gravelord Sword Dance [Hit]
 19559002 [Miracle] Gravelord Sword Dance [Hit]
 19559003 [Miracle] Gravelord Sword Dance [Hit]
+19559100 [Miracle] Gravelord Sword
+19559110 [Miracle] Gravelord Sword
 210006010 Crystal Ring Shield - Unleash Moonlight
 220003000 Young Dragon Ring - Homing Soulmass
 220003001 Young Dragon Ring - Homing Soulmass

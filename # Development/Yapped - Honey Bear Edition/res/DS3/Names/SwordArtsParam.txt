@@ -38,6 +38,7 @@
 213 [Straight Sword] Rune Stance
 214 [Straight Sword] Black Dragon's Talon
 215 [Straight Sword] Leydia Enchantment
+216 [Straight Sword] Silver Knight's Grace
 300 [Greatsword] Stance
 301 [Greatsword] Wrath of the Gods
 302 [Greatsword] Ember (Firelink Greatsword)
@@ -61,6 +62,7 @@
 321 [Greatsword] Abyssal Outburst
 322 [Greatsword] Flame of the Great Lord
 323 [Greatsword] Black Dragon's Maw
+324 [Greatsword] Charge
 400 [Ultra Greatsword] Stomp
 401 [Ultra Greatsword] Parry
 402 [Ultra Greatsword] Charge
@@ -90,6 +92,8 @@
 608 [Curved Sword] Spin Slash (Demon's Scar)
 609 [Curved Sword] Concussive Blows
 610 [Curved Sword] Quelaag's Rage
+611 [Curved Sword] Hunter's Fury
+612 [Curved Sword] Whirlwind Fury
 700 [Curved Greatsword] Spin Slash
 701 [Curved Greatsword] Wolf Leap
 702 [Curved Greatsword] Spin Slash (Carthus Curved Greatsword)
@@ -103,6 +107,9 @@
 805 [Katana] Pierce
 806 [Katana] Seppuku (Old)
 807 [Katana] Seppuku
+808 [Katana] Spin Slash
+809 [Katana] Mushin
+810 [Katana] Ichimonji
 900 [Axe] Warcry (General)
 901 [Axe] Sharpen
 902 [Axe] Feast Bell
@@ -110,6 +117,8 @@
 904 [Axe] Warcry (Millwood Battle Axe)
 905 [Axe] Parry
 906 [Axe] Burning Slash
+907 [Axe] Stomp
+908 [Axe] Forceful Slash
 1000 [Greataxe] Warcry
 1001 [Greataxe] ?
 1002 [Greataxe] Demonic Flare
@@ -122,6 +131,8 @@
 1009 [Greataxe] Undead Wrath
 1010 [Greataxe] Black Dragon's Gale
 1011 [Greataxe] Wind Rush
+1012 [Greataxe] Spin Slash
+1013 [Greataxe] Stomp
 1100 [Hammer] Perseverance
 1101 [Hammer] Warcry
 1102 [Hammer] Twist Light
@@ -143,7 +154,7 @@
 1208 [Great Hammer] Call to Stone
 1209 [Great Hammer] Spew Fire
 1210 [Great Hammer] Holy Wrath
-1211 [Great Hammer] Bloodlust
+1211 [Great Hammer] Sanguine Wrath
 1212 [Great Hammer] Vengeful Spirits
 1213 [Great Hammer] Bubblebeam
 1214 [Great Hammer] Beckon the Deep
@@ -174,6 +185,7 @@
 1323 [Spear] Chilling Wind
 1324 [Spear] Pilgrim's Enchantment
 1325 [Spear] Burning Rush
+1326 [Spear] Lightning Stance
 1400 [Halberd] Spin Sweep
 1401 [Halberd] Chain Spin
 1402 [Halberd] Champion's Charge
@@ -188,6 +200,7 @@
 1411 [Halberd] Archdeacon's Gambit
 1412 [Halberd] Neck Swipe
 1413 [Halberd] Gargoyle's Flame
+1414 [Halberd] Stance
 1500 [Scythe] Neck Swipe
 1501 [Scythe] ?
 1502 [Scythe] Frost
@@ -197,6 +210,7 @@
 1506 [Scythe] Nashandra’s Avarice
 1507 [Scythe] Stomp
 1508 [Scythe] Flames of Nahr Alma
+1509 [Scythe] Hunter's Reaping
 1600 [Whip] Impact
 1601 [Whip] Flame Whip
 1700 [Fist] Quickstep
@@ -266,6 +280,7 @@
 2402 [Pyromancy Flame] Abyssal Grasp
 2404 [Pyromancy Flame] Divine Retribution
 2405 [Pyromancy Flame] Beckon Soul
+2406 [Pyromancy Flame] Fluorescent Flare
 2500 [Paired Dagger] Quickstep
 2600 [Paired Straight Sword] Spin Slash
 2700 [Paired Curved Sword] Spin Slash (Sellsword Twinblades)
@@ -276,6 +291,7 @@
 2900 [Paired Spear] Charge
 2901 [Paired Spear] Vestiges of Aldia
 3000 [Paired Axe] Chain Spin
+3001 [Paired Greataxe] Spin Slash
 3100 [Paired Hammer] Spin Bash
 3200 [Shield] Shield Bash
 3201 [Shield] Shield Strike

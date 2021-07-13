@@ -307,6 +307,9 @@
 50110 The Father [Smouldering Lake]
 50120 The Mother [Smouldering Lake]
 50130 The Child [Smouldering Lake]
+103009 ### Boss - NPCs ###
+103010 Mirror Knight - Mad Warrior
+103020 Mirror Knight - Hallowed Knight
 699999 ### NPC ###
 721300 Domhnall of Zena
 721400 Marvelous Chester
@@ -319,6 +322,10 @@
 722100 Ritualist Ellie
 722200 Occultist Grudore
 722400 Destitute Jester
+722500 Sorcery Scribe
+722600 Pyromancy Scribe
+722700 Miracle Scribe
+722800 Hex Scribe
 999999 ### Enemies ###
 1000000 Bonfire
 1000010 1000010: [For the weapon animation confirmation] ◎ 01 Dagger (id_20: Dagger)

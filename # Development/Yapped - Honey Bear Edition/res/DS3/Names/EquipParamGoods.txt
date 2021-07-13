@@ -447,6 +447,18 @@
 4391 Blessed Oil (Left)
 4400 Black Fire Oil
 4401 Black Fire Oil (Left)
+4410 Bolt Oil
+4411 Bolt Oil (Left)
+4420 Sunlight Oil
+4421 Sunlight Oil (Left)
+4430 Enchanted Oil
+4431 Enchanted Oil (Left)
+4440 Scorching Oil
+4441 Scorching Oil (Left)
+4450 Rotten Oil
+4451 Rotten Oil (Left)
+4460 Gust Oil
+4461 Gust Oil (Left)
 4500 Writ of Humanity
 4501 Writ of Anger
 4502 Writ of Crystallization
@@ -987,161 +999,317 @@
 20054 Energizing Phial
 1199999 ### Sorcery ###
 1200000 Farron Dart
+1200010 Refined Farron Dart
 1210000 Scattering Soul Orb
+1210010 Repeating Soul Orb
 1300000 Soul Arrow
+1300010 Explosive Soul Arrow
 1301000 Scattering Crystal Orb
+1301010 Repeating Crystal Orb
 1302000 Shockwave
+1302010 Refined Shockwave
 1303000 Soul Geyser
+1303010 Crystal Soul Geyser
 1304000 Homing Soulmass
+1304010 Surging Soulmass
 1305000 Homing Crystal Soulmass
+1305010 Weakening Crystal Soulmass
 1306000 Soul Spear
+1306010 Explosive Soul Spear
 1307000 Crystal Soul Spear
+1307010 Homing Crystal Soul Spear
 1310000 Magic Weapon
 1311000 Great Magic Weapon
 1312000 Crystal Magic Weapon
+1312010 Supreme Magic Weapon
 1313000 Frozen Weapon
+1313010 Supreme Frozen Weapon
 1330000 Magic Shield
 1331000 Great Magic Shield
+1331010 Supreme Magic Shield
 1340000 Hidden Weapon
+1340010 Refined Hidden Weapon
 1341000 Hidden Body
+1341010 Mass Hidden Body
 1350000 Cast Light
+1350010 Refined Cast Light
 1353000 Repair
+1353010 Skilled Repair
 1354000 Spook
+1354010 Mass Spook
 1355000 Chameleon
+1355010 Refined Chameleon
 1356000 Aural Decoy
+1356010 Refined Aural Decoy
 1370000 White Dragon Breath
+1370010 Extended White Dragon Breath
 1372000 Farron Hail
+1372010 Homing Farron Hail
 1373000 Crystal Hail
+1373010 Focused Crystal Hail
 1374000 Soul Greatsword
+1374010 Heavy Soul Greatsword
 1375000 Farron Flashsword
+1375010 Refined Farron Flashsword
 1376000 Old Moonlight
+1376010 Heavy Old Moonlight
 1620000 Soul Stream
+1620010 Quickened Soul Stream
 1651000 Twisted Wall of Light
+1651010 Impenetrable Wall of Light
 1740000 Pestilent Mist
+1740010 Lingering Pestilent Mist
 1741000 Snap Freeze
+1741010 Lingering Snap Freeze
 1800000 Crystal Storm
+1800010 Repeating Crystal Storm
 1801000 Unleash Magic
+1801010 Lingering Unleash Magic
 1802000 Soul Wave
+1802010 Swift Soul Wave
 1803000 Blizzard
+1803010 Repeating Blizzard
 1805000 Orbs of Judgment
+1805010 Swift Orbs of Judgment
 1807000 Blinding Light
+1807010 Refined Blinding Light
 2399999 ### Pyromancies ###
 2400000 Fireball
+2400010 Incendiary Fireball
 2402000 Fire Orb
+2402010 Weakening Fire Orb
 2403000 Firestorm
+2403010 Repeating Firestorm
 2405000 Fire Surge
+2405010 Refined Fire Surge
 2411000 Great Combustion
+2411010 Incendiary Combustion
 2420000 Poison Mist
+2420010 Lingering Poison Mist
 2421000 Toxic Mist
+2421010 Lingering Toxic Mist
 2422000 Acid Surge
+2422010 Lingering Acid Surge
 2430000 Iron Flesh
+2430010 Lingering Iron Flesh
 2431000 Flash Sweat
+2431010 Great Flash Sweat
 2435000 Carthus Flame Arc
+2435010 Supreme Carthus Flame Arc
 2436000 Rapport
+2436010 Fortified Rapport
 2440000 Power Within
+2440010 Lingering Power Within
 2450000 Great Chaos Fire Orb
+2450010 Homing Chaos Fire Orb
 2451000 Chaos Storm
+2451010 Repeating Chaos Storm
 2452000 Fire Whip
+2452010 Incendiary Fire Whip
 2455000 Profaned Flame
+2455010 Distant Profaned Flame
 2456000 Chaos Bed Vestiges
+2456010 Chaos Vortex
 2457000 Floating Chaos
+2457010 Lingering Floating Chaos
 2458000 Flame Fan
+2458010 Refined Flame Fan
 2470000 Warmth
+2470010 Fond Warmth
 2562000 Profuse Sweat
+2562010 Refined Profuse Sweat
 2620000 Bursting Fireball
+2620010 Incendiary Bursting Fireball
 2630000 Boulder Heave
+2630010 Swift Boulder Heave
 2640000 Sacred Flame
+2640010 Refined Sacred Flame
 2650000 Carthus Beacon
+2650010 Lingering Carthus Beacon
 2660000 Seething Chaos
+2660010 Great Seething Chaos
 2701000 Lingering Chaos
+2701010 Refined Lingering Chaos
 2702000 Cataclysm
+2702010 Great Cataclysm
 2710000 Earthfall
+2710010 Summon Earthfall
 2711000 Heave Earth
+2711010 Homing Heave Earth
 2712000 Earthquake
+2712010 Quickened Earthquake
 2713000 Rockflesh
+2713010 Lingering Rockflesh
 2714000 Immolation
+2714010 Lingering Immolation
 2720000 Fecal Expulsion
+2720010 Great Fecal Expulsion
+2721000 Chaos Beam
+2721010 Incinerating Chaos Beam
 3399999 ### Miracles ###
 3490000 Heal Aid
+3490010 Extended Heal Aid
 3500000 Heal
+3500010 Extended Heal
 3501000 Med Heal
+3501010 Extended Med Heal
 3502000 Great Heal
+3502010 Extended Great Heal
 3503000 Soothing Sunlight
+3503010 Extended Soothing Sunlight
 3504000 Replenishment
+3504010 Lingering Replenishment
 3505000 Bountiful Sunlight
+3505010 Lingering Bountiful Sunlight
 3507000 Bountiful Light
+3507010 Lingering Bountiful Light
 3508000 Caressing Tears
+3508010 Quickened Caressing Tears
 3509000 Lightning Arrow
+3509010 Refined Lightning Arrow
 3520000 Tears of Denial
+3520010 Mass Tears of Denial
 3521000 Homeward
+3521010 Refined Homeward
 3530000 Force
+3530010 Refined Force
 3531000 Wrath of the Gods
+3531010 Quickened Wrath of the Gods
 3532000 Emit Force
+3532010 Emit Wrath
 3540000 Heavenly Relief
+3540010 Divine Relief
 3550000 Lightning Spear
+3550010 Lightning Surge
 3551000 Great Lightning Spear
+3551010 Storm Spear
 3552000 Sunlight Spear
+3552010 Homing Sunlight Spear
 3553000 Lightning Storm
+3553010 Sunlight Storm
 3556000 Way of White Corona
+3556010 Refined Way of White Corona
 3557000 Projected Heal
+3557010 Extended Projected Heal
 3560000 Magic Barrier
 3561000 Great Magic Barrier
+3561010 Supreme Magic Barrier
 3563000 Sacred Oath
+3563010 Extended Sacred Oath
 3590000 Lightning Blade
+3590010 Sunlight Blade
 3591000 Darkmoon Blade
+3591010 Supreme Darkmoon Blade
 3710000 Lightning Stake
+3710010 Sunlight Stake
 3720000 Divine Pillars of Light
+3720010 Repeating Pillars of Light
 3760000 Blessed Weapon
+3760010 Supreme Blessed Weapon
 3802000 Heavenly Thunder
+3802010 Repeating Heavenly Thunder
 3803000 Halo
+3803010 Quickened Halo
 3805000 Perseverance
+3805010 Lingering Perseverance
 3812000 Angelic Barrage
+3812010 Angelic Punishment
 3813000 Divine Arrow
+3813010 Refined Divine Arrow
 3814000 Lothric's Holy Spear
+3814010 Homing Lothric's Holy Spear
 3815000 Proof of a Pact
+3815010 Repeating Proof of a Pact
 3816000 Ghostly Assault
+3816010 Extended Ghostly Assault
 3818000 Overwhelming Power
+3818010 Lingering Overwhelming Power
 3819000 Wrathful Orbs
+3819010 Weakening Wrathful Orbs
 3820000 Holy Schism
+3820010 Quickened Holy Schism
 3821000 Wrathful Barrage
+3821010 Wrathful Wave
+4099999 ### Hexes ###
 4100000 Deep Barb
+4100010 Refined Deep Barb
 4101000 Deep Soul
+4101010 Deep Overflow
 4102000 Great Deep Soul
+4102010 Weakening Deep Soul
 4103000 Great Soul Dregs
+4103010 Quickened Soul Dregs
 4104000 Dark Edge
+4104010 Refined Dark Edge
 4105000 Abyssal Edge
+4105010 Heavy Abyssal Edge
 4106000 Dark Bead
+4106010 Cursed Dark Bead
 4107000 Surging Deep
+4107010 Refined Surging Deep
 4108000 Cascading Deep
+4108010 Lingering Cascading Deep
 4109000 Yearning Dregs
+4109010 Repeating Yearning Dregs
 4110000 Dreg Torrent
+4110010 Repeating Dreg Torrent
 4111000 Writhing Deep
+4111010 Great Writhing Deep
 4112000 Climax
+4112010 Explosive Climax
 4113000 Affinity
+4113010 Pursuers
 4114000 Whisper of Despair
+4114010 Echo of Despair
 4115000 Repel
+4115010 Lingering Repel
 4116000 Numbness
+4116010 Lingering Numbness
 4201000 Black Fireball
+4201010 Black Fire Whip
 4202000 Black Fire Orb
+4202010 Weakening Black Fire Orb
 4203000 Black Fire Vestiges
+4203010 Scorching Black Fire Vestiges
 4204000 Black Fire Scatter
+4204010 Refined Black Fire Scatter
 4205000 Black Flame
+4205010 Scorching Black Flame
 4206000 Black Serpent
+4206010 Quickened Black Serpent
 4207000 Dark Dance
+4207010 Forceful Dark Dance
 4208000 Recollection
+4208010 Scorching Recollection
 4209000 Mournful Flames
+4209010 Scorching Mournful Flames
 4210000 Black Flame Arc
+4210010 Supreme Black Flame Arc
 4301000 Nibble
+4301010 Refined Nibble
 4302000 Gnaw
+4302010 Gnawing Swarm
 4303000 Dorhys' Gnawing
+4303010 Quickened Dorhys' Gnawing
 4304000 Devouring Swarm
+4304010 Repeating Swarm
 4305000 Deep Protection
+4305010 Bottomless Deep Protection
 4306000 Atonement
+4306010 Lingering Atonement
 4307000 Vow of Agony
+4307010 Curse of Agony
 4308000 Gravelord Sword Dance
+4308010 Gravelord Sword
 4309000 Vow of Silence
+4309010 Curse of Silence
 4310000 Dark Blade
+4310010 Supreme Dark Blade
 4311000 Dead Again
+4311010 Refined Dead Again
 4312000 Lifehunt Scythe
+4312010 Great Lifehunt Scythe
 4313000 Pulsating Blade
+4313010 Supreme Pulsating Blade
 4314000 Pungent Blade
+4314010 Supreme Pungent Blade

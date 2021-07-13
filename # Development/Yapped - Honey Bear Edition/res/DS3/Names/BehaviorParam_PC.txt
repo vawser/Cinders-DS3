@@ -61,10 +61,11 @@
 400001 Cursed Ring of Confusion
 400002 Wretched Pendant
 499999 ### Armor ###
+13612700 Lothric War Banner
 13730000 [Miracle] Lifehunt Scythe
 13730005 [Miracle] Lifehunt Scythe
-13730100 [Miracle] Lifehunt Scythe - Ascended
-13730105 [Miracle] Lifehunt Scythe - Ascended
+13730100 [Miracle] Great Lifehunt Scythe
+13730105 [Miracle] Great Lifehunt Scythe
 13731000 [Miracle] Lifehunt Scythe - SpEffect
 13731100 [Miracle] Lifehunt Scythe - SpEffect - Ascended
 13814750 Crucifix of the Mad King
@@ -482,6 +483,7 @@
 102300000 Straight Sword - 1H Light #1
 102300010 Straight Sword - 1H Light #2
 102300020 Straight Sword - 1H Light #3
+102300025 Straight Sword (Alt) - 1H Light #4
 102300030 Straight Sword - 1H Jump
 102300040 Straight Sword - 1H Fall Loop
 102300050 Straight Sword - 1H Fall Landing
@@ -498,7 +500,9 @@
 102300300 Straight Sword - 2H Heavy #1
 102300305 Straight Sword - 2H Heavy #1 Max
 102300310 Straight Sword - 2H Heavy #2
+102300312 Straight Sword (Alt) - 2H Heavy #2
 102300315 Straight Sword - 2H Heavy #2 Max
+102300317 Straight Sword (Alt) - 2H Heavy #2 Max
 102300400 Straight Sword - Left Hand
 102300402 Straight Sword
 102300404 Straight Sword
@@ -515,14 +519,17 @@
 102300515 Straight Sword - Riposte (Hornet Ring) #1
 102300516 Straight Sword - Riposte (Hornet Ring) #2
 102300520 Straight Sword - 1H Backstep
+102300525 Straight Sword (Alt) - 1H Backstep
 102300530 Straight Sword - 2H Backstep
 102300540 Straight Sword - 1H Roll
+102300545 Straight Sword (Alt) - 1H Roll
 102300580 Straight Sword - 2H Roll
 102300600 Straight Sword - Parry
 102300610 Straight Sword - Backstab Transition
 102300615 Straight Sword - Missed Backstab Transition
 102300720 Straight Sword - Stance Light
 102300722 Straight Sword - Stance Heavy
+102300730 Straight Sword (Alt) - Tackle
 102300920 Straight Sword
 102300921 Straight Sword
 102300990 Straight Sword - Quickstep
@@ -592,6 +599,17 @@
 102307740 Black Dragon Sword - WA
 102307743 Black Dragon Sword - WA
 102307745 Black Dragon Sword - WA
+102308100 Silver Knight Straight Sword - 1H Heavy #1
+102308105 Silver Knight Straight Sword - 1H Heavy #1 Max
+102308110 Silver Knight Straight Sword - 1H Heavy #2
+102308115 Silver Knight Straight Sword - 1H Heavy #2 Max
+102308300 Silver Knight Straight Sword - 2H Heavy #1
+102308305 Silver Knight Straight Sword - 2H Heavy #1 Max
+102308310 Silver Knight Straight Sword - 2H Heavy #2
+102308315 Silver Knight Straight Sword - 2H Heavy #2 Max
+102308700 Silver Knight Straight Sword - Evade
+102308710 Silver Knight Straight Sword - Evade & Thrust
+102308720 Silver Knight Straight Sword - Evade & Slam
 102310730 Lothric's Holy Sword - Weapon Art
 102310735 Lothric's Holy Sword - Weapon Art
 102320700 Sunlight Straight Sword - Weapon Art
@@ -744,6 +762,11 @@
 102500700 Bastard Sword - Weapon Art
 102500710 Bastard Sword - Weapon Art
 102500720 Bastard Sword - Weapon Art
+102500800 Greatsword - Continuous Hit
+102500820 Greatsword - No Continuous Hit Final Thrust
+102500830 Greatsword - Continuous Hit Final Thrust
+102500835 Greatsword - Charge - Tackle
+102500850 Greatsword - Perseverance
 102500990 Bastard Sword - Quickstep
 102502000 Flamberge - 1H Light #1
 102502010 Flamberge - 1H Light #2
@@ -1326,8 +1349,12 @@
 102800050 Falchion - 1H Fall Landing
 102800100 Falchion - 1H Heavy #1
 102800105 Falchion - 1H Heavy #1 Max
+102800107 Curved Sword (Alt) - 1H Heavy #1 Max - Hit 1
+102800108 Curved Sword (Alt) - 1H Heavy #1 Max - Hit 2
 102800110 Falchion - 1H Heavy #2
 102800115 Falchion - 1H Heavy #2 Max
+102800117 Curved Sword (Alt) - 1H Heavy #2 Max - Hit 1
+102800118 Curved Sword (Alt) - 1H Heavy #2 Max - Hit 2
 102800200 Falchion - 2H Light #1
 102800210 Falchion - 2H Light #2
 102800220 Falchion - 2H Light #3
@@ -1342,7 +1369,9 @@
 102800402 Falchion
 102800404 Falchion
 102800410 Falchion - 1H Kick
+102800415 Curved Sword (Alt) - 1H Kick
 102800420 Falchion - 2H Kick
+102800425 Curved Sword (Alt) - 2H Kick
 102800430 Falchion - 1H Guard
 102800440 Falchion - 2H Guard
 102800450 Falchion - Parry
@@ -1502,10 +1531,20 @@
 102815530 Beast Cutter - 2H Backstep
 102815540 Beast Cutter - 1H Roll Attack
 102815580 Beast Cutter - 2H Roll Attack
+102816100 Beasthunter Saif - 1H Heavy #1
+102816520 Beasthunter Saif - 1H Backstep
+102816700 Beasthunter Saif - Evade
+102816710 Beasthunter Saif - Evade Light
+102816720 Beasthunter Saif - Evade Heavy
+102817700 Burial Blade - Whirlwind Fury #1
+102817701 Burial Blade - Whirlwind Fury #2
+102817702 Burial Blade - Whirlwind Fury #3
+102817703 Burial Blade - Whirlwind Fury #4
 102900000 Katana
 102900001 Katana
 102900010 Katana
 102900020 Katana
+102900025 Katana (Alt) - 1H Light #4
 102900030 Katana
 102900040 Katana
 102900050 Katana
@@ -1513,10 +1552,15 @@
 102900101 Katana
 102900105 Katana
 102900106 Katana
+102900107 Katana (Alt) - 1H Heavy #1 Max
+102900108 Katana (Alt)
 102900110 Katana
 102900115 Katana
+102900116 Katana (Alt) - 1H Heavy #2 Max - First Hit
+102900117 Katana (Alt) - 1H Heavy #2 Max - Second Hit
 102900200 Katana
 102900201 Katana
+102900205 Katana (Alt) - 2H Light #1
 102900210 Katana
 102900220 Katana
 102900230 Katana
@@ -1546,14 +1590,32 @@
 102900516 Katana
 102900520 Katana
 102900521 Katana
+102900525 Katana (Alt) - 1H Backstep - First Hit
+102900526 Katana (Alt) - 1H Backstep - Second Hit
 102900530 Katana
 102900531 Katana
+102900535 Katana (Alt) - 2H Backstep - First Hit
+102900536 Katana (Alt) - 2H Backstep - Second Hit
 102900540 Katana
 102900580 Katana
 102900600 Katana
 102900610 Katana
 102900615 Katana
 102900700 Katana
+102900705 Katana - Warcry Tackle
+102900706 Katana - Spin Slash Tackle
+102900707 Katana - Focus Strike Tackle
+102900710 Katana (Alt) - Spin Slash - Initial Hit
+102900720 Katana (Alt) - Spin Slash - Final Hit
+102900730 Katana (Alt) - Focus Strike - Initial Hit
+102900740 Katana (Alt) - Focus Strike - Final Hit
+102900805 Katana - Warcry 1H Heavy #1 - First Hit
+102900806 Katana - Warcry 1H Heavy #1 - Second Hit
+102900810 Katana - Warcry 1H Heavy #2
+102900905 Katana - Warcry 2H Heavy #1 - First Hit
+102900906 Katana - Warcry 2H Heavy #1 - Second Hit
+102900910 Katana - Warcry 2H Heavy #2 - First Hit
+102900911 Katana - Warcry 2H Heavy #2 - Second Hit
 102900990 Katana - Quickstep
 102902100 Black Blade - 1H Heavy #1
 102902105 Black Blade - 1H Heavy #1 Max
@@ -1678,7 +1740,9 @@
 103000402 Axe
 103000404 Axe
 103000410 Axe - 1H Kick
+103000415 Axe - 1H Kick - Shoulder Bash
 103000420 Axe - 2H Kick
+103000425 Axe - 2H Kick - Shoulder Bash
 103000430 Axe - 1H Guard
 103000440 Axe - 2H Guard
 103000450 Axe - Parry
@@ -1702,6 +1766,9 @@
 103000615 Axe - Missed Backstab Transition
 103000620 Axe - Directed Slam
 103000700 Axe - War Cry - Shockwave
+103000705 Axe - Forceful Slash Initial Hit
+103000710 Axe - Forceful Slash Final Hit
+103000715 Axe - Stomp
 103000800 Axe - War Cry - 1H Heavy #1
 103000805 Axe - War Cry - 1H Heavy #1 Max
 103000806 Axe - War Cry - 1H Tackle #1
@@ -1955,6 +2022,9 @@
 103060530 Man Serpent Hatchet
 103060540 Man Serpent Hatchet
 103060580 Man Serpent Hatchet
+103060705 Man Serpent Hatchet - Forceful Slash Initial Hit
+103060710 Man Serpent Hatchet - Forceful Slash Final Hit
+103060715 Man Serpent Hatchet - Stomp
 103060800 Man Serpent Hatchet
 103060805 Man Serpent Hatchet
 103060810 Man Serpent Hatchet
@@ -2049,6 +2119,8 @@
 103200620 Greataxe
 103200700 Greataxe
 103200701 Greataxe
+103200705 Greataxe - Spin Slash Initial
+103200710 Greataxe - Spin Slash Final
 103200800 Greataxe
 103200805 Greataxe
 103200806 Greataxe
@@ -2305,6 +2377,22 @@
 103219700 Golem Axe - Wind Rush
 103219701 Golem Axe - Wind Rush - No FP
 103219710 Golem Axe - Wind Rush - Melee
+103220300 Demon's Great Axe - 2H Heavy #1
+103220305 Demon's Great Axe - 2H Heavy #1 Max
+103221620 Greataxe (Paired) - 2H Special #1 Right
+103221621 Greataxe (Paired) - 2H Special #1 Left
+103221630 Greataxe (Paired) - 2H Special #2 Right
+103221631 Greataxe (Paired) - 2H Special #2 Left
+103221640 Greataxe (Paired) - 2H Special #3 Right
+103221641 Greataxe (Paired) - 2H Special #3 Left
+103221740 Greataxe (Paired) - Spin Slash Initial Right
+103221741 Greataxe (Paired) - Spin Slash Initial Left
+103221744 Greataxe (Paired) - Spin Slash Final Right
+103221745 Greataxe (Paired) - Spin Slash Final Left
+103221750 Greataxe (Paired) - 2H Special Backstep Right
+103221751 Greataxe (Paired) - 2H Special Backstep Left
+103221760 Greataxe (Paired) - 2H Special Roll Right
+103221761 Greataxe (Paired) - 2H Special Roll Left
 103300000 Hammer - 1H Light #1
 103300001 Hammer
 103300010 Hammer - 1H Light #2
@@ -2330,7 +2418,9 @@
 103300402 Hammer
 103300404 Hammer
 103300410 Hammer - 1H Kick
+103300415 Hammer - 1H Kick - Elbow Strike
 103300420 Hammer - 2H Kick
+103300425 Hammer - 2H Kick - Elbow Strike
 103300430 Hammer - 1H Guard
 103300440 Hammer - 2H Guard
 103300450 Hammer - Parry
@@ -2445,11 +2535,21 @@
 103313700 Tailbone Pick - Weapon Art
 103313710 Tailbone Pick - Weapon Art
 103313720 Tailbone Pick - Weapon Art
+103314025 Sanguinus - 1H Light #4
+103314100 Sanguinus - 1H Heavy #1
+103314105 Sanguinus - 1H Heavy #1 Max
+103314115 Sanguinus - 1H Heavy #2 Max
+103314520 Sanguinus - 1H Backstep
 103314700 Sanguinus - Bloodlust - Weapon Art Swing
+103315410 Tonitrus - 1H Kick
+103315420 Tonitrus - 2H Kick
 103315700 Tonitrus - Spark
+103315750 Tonitrus - Spark - No Lightning
 103316700 Frying Pan - Fry Up
 103316710 Frying Pan - Fry Up
 103316720 Frying Pan - Fry Up
+103317700 Hammer - Spin Bash - Initial Hit
+103317720 Hammer - Spin Bash - Final Hit
 103390620 Drang Hammers
 103390621 Drang Hammers
 103390630 Drang Hammers
@@ -2569,7 +2669,17 @@
 103512731 Ledo's Great Hammer - Weapon Art
 103512740 Ledo's Great Hammer - Weapon Art
 103512750 Ledo's Great Hammer - Weapon Art
+103513305 Bloodletter - 2H Heavy #1 Max
+103513315 Bloodletter - 2H Heavy #2 Max
+103513410 Bloodletter - 1H Kick
+103513420 Bloodletter - 2H Kick
+103513580 Bloodletter - 2H Roll
 103513700 Bloodletter - Bloodlust - Weapon Art Swing
+103513701 Bloodletter - Bloodlust
+103513702 Bloodletter - Bloodlust
+103513703 Bloodletter - Bloodlust
+103513704 Bloodletter - Bloodlust
+103513705 Bloodletter - Bloodlust
 103514700 Sacred Chime Hammer - Beckon the Deep
 103514705 Sacred Chime Hammer - Beckon the Deep
 103515710 Giant Crab Arm - Bubblebeam
@@ -2641,8 +2751,10 @@
 103600001 Spear - 1H Light #1 (stick)
 103600010 Spear - 1H Light #2
 103600011 Spear - 1H Light #2 (stick)
+103600015 Spear (Alt) - 1H Light #2
 103600020 Spear - 1H Light #3
 103600021 Spear - 1H Light #3 (stick)
+103600025 Spear (Alt) - 1H Light #3
 103600030 Spear - 1H Jump
 103600031 Spear - 1H Jump 1 (stick)
 103600040 Spear - 1H Fall Loop
@@ -2651,18 +2763,23 @@
 103600051 Spear - 1H Fall Landing (stick)
 103600100 Spear - 1H Heavy #1
 103600101 Spear - 1H Heavy #1 (stick)
+103600102 Spear (Alt) - 1H Heavy #1
 103600105 Spear - 1H Heavy #1 Max
 103600106 Spear - 1H Heavy #1 Max (stick)
+103600107 Spear (Alt) - 1H Heavy #1 Max
 103600110 Spear - 1H Heavy #2
 103600111 Spear - 1H Heavy #2 (stick)
 103600115 Spear - 1H Heavy #2 Max
 103600116 Spear - 1H Heavy #2 Max (stick)
 103600200 Spear - 2H Light #1
 103600201 Spear - 2H Light #1 (stick)
+103600205 Spear (Alt) - 2H Light #1
 103600210 Spear - 2H Light #2
 103600211 Spear - 2H Light #2 (stick)
+103600215 Spear (Alt) - 2H Light #2
 103600220 Spear - 2H Light #3
 103600221 Spear - 2H Light #3 (stick)
+103600225 Spear (Alt) - 2H Light #3
 103600230 Spear - 2H Jump
 103600231 Spear - 2H Jump (stick)
 103600240 Spear - 2H Fall Loop
@@ -2675,8 +2792,10 @@
 103600306 Spear - 2H Heavy #1 Max (stick)
 103600310 Spear - 2H Heavy #2
 103600311 Spear - 2H Heavy #2 (stick)
+103600312 Spear (Alt) - 2H Heavy #2
 103600315 Spear - 2H Heavy #2 Max
 103600316 Spear - 2H Heavy #2 Max (stick)
+103600317 Spear (Alt) - 2H Heavy #2 Max
 103600400 Spear - Left Hand
 103600401 Spear - Left Hand (stick)
 103600402 Spear
@@ -2705,13 +2824,16 @@
 103600531 Spear - 2H Backstep (stick)
 103600540 Spear - 1H Roll
 103600541 Spear - 1H Roll (stick)
+103600545 Spear (Alt) - 1H Roll
 103600580 Spear - 2H Roll
+103600585 Spear (Alt) - 2H Roll
 103600600 Spear - Parry
 103600601 Spear - Parry (stick)
 103600610 Spear - Backstab Transition
 103600611 Spear - Backstab Transition (stick)
 103600615 Spear - Missed Backstab Transition
 103600616 Spear - Missed Backstab Transition (stick)
+103600700 Spear - Stance Light
 103600721 Spear - Weak (stick)
 103600723 Spear - Strong (stick)
 103600724 Spear - Holding Hammer (stick)
@@ -2823,6 +2945,7 @@
 103610530 Greatlance
 103610531 Greatlance
 103610532 Greatlance
+103610750 Rampart Golem Lance - Chilling Wind
 103610800 Greatlance
 103610810 Greatlance
 103610820 Greatlance
@@ -2841,7 +2964,6 @@
 103613701 Golden Ritual Spear - Darkmoon Volley
 103614700 Pilgrim's Spontoon - Pilgrim's Enchantment - Right
 103614701 Pilgrim's Spontoon - Pilgrim's Enchantment - Left
-103615700 Rampart Golem Lance - Chilling Wind
 103620700 Spear
 103620800 Spear
 103620810 Spear
@@ -2989,6 +3111,7 @@
 103690951 Twinspears of the Forlorn - WA Light
 103800000 Halberd - 1H Light #1
 103800001 Halberd
+103800005 Halberd (Alt) - 1H Light #1
 103800010 Halberd - 1H Light #2
 103800011 Halberd
 103800020 Halberd - 1H Light #3
@@ -3002,8 +3125,10 @@
 103800099 Halberd
 103800100 Halberd - 1H Heavy #1
 103800101 Halberd
+103800102 Halberd (Alt) - 1H Heavy #1
 103800105 Halberd - 1H Heavy #1 Max
 103800106 Halberd
+103800107 Halberd (Alt) - 1H Heavy #1 Max
 103800110 Halberd - 1H Heavy #2
 103800111 Halberd
 103800115 Halberd - 1H Heavy #2 Max
@@ -3028,9 +3153,11 @@
 103800308 Halberd
 103800310 Halberd - 2H Heavy #2
 103800311 Halberd
+103800312 Halberd (Alt) - 2H Heavy #2
 103800313 Halberd
 103800315 Halberd - 2H Heavy #2 Max
 103800316 Halberd
+103800317 Halberd (Alt) - 2H Heavy #2 Max
 103800318 Halberd
 103800400 Halberd - Left Hand
 103800401 Halberd
@@ -3059,6 +3186,7 @@
 103800540 Halberd - 1H Roll
 103800541 Halberd
 103800580 Halberd - 2H Roll
+103800585 Halberd (Alt) - 2H Roll
 103800600 Halberd - Parry
 103800601 Halberd
 103800610 Halberd - Backstab Transition
@@ -3066,8 +3194,13 @@
 103800615 Halberd
 103800616 Halberd
 103800700 Halberd
+103800701 Halberd (Alt) - Stance Light
+103800702 Halberd (Alt) - Stance Heavy
 103800710 Halberd
 103800720 Halberd - Stance: Weak
+103800806 Halberd (Alt) - Tackle
+103800807 Halberd (Alt) - Tackle
+103800811 Halberd (Alt) - Tackle (Hit)
 103800990 Halberd - Quickstep
 103802000 Lucerne - 1H Light #1
 103802010 Lucerne - 1H Light #2 (thrust)
@@ -3245,11 +3378,13 @@
 103812200 Glaive
 103812210 Glaive
 103812220 Glaive
+103812225 Hunter Axe - 2H Light #3
 103812230 Glaive
 103812240 Glaive
 103812250 Glaive
 103812300 Glaive
 103812303 Glaive
+103812304 Hunter Axe - 2H Heavy #1
 103812305 Glaive
 103812308 Glaive
 103812310 Glaive
@@ -3259,6 +3394,8 @@
 103812400 Glaive
 103812402 Glaive
 103812404 Glaive
+103812415 Hunter Axe - 1H Kick
+103812425 Hunter Axe - 2H Kick
 103812490 Glaive
 103812500 Glaive
 103812505 Glaive
@@ -3267,8 +3404,10 @@
 103812516 Glaive
 103812520 Glaive
 103812530 Glaive
+103812535 Hunter Axe - 2H Backstep
 103812540 Glaive
 103812580 Glaive
+103812585 Hunter Axe - 2H Roll
 103812700 Glaive
 103812710 Glaive
 103812720 Glaive
@@ -3373,7 +3512,7 @@
 103820105 Gargoyle Halberd - 1H Heavy #1 Max
 103820210 Gargoyle Halberd - 2H Light #2 (Both Hit)
 103820530 Gargoyle Halberd - 2H Backstep
-103820580 Gargoyle Halberd - 2H Roll
+103820585 Gargoyle Halberd - 2H Roll
 103820720 Gargoyle Halberd - WA Final Hit
 104100000 Spell Tool
 104100001 Spell Tool - Addition
@@ -3497,6 +3636,12 @@
 104142700 Archdeacon's Great Staff - Punish the Dead
 104143700 Corrupted Talisman - Vow of Agony
 104144700 Insanity Catalyst - Insanity
+104145700 Fool's Flame - Fluorescent Flare - Attack
+104145705 Fool's Flame - Fluorescent Flare - Bullet
+104145710 Fool's Flame - Fluorescent Flare - Attack
+104145715 Fool's Flame - Fluorescent Flare - Bullet
+104145720 Fool's Flame - Fluorescent Flare - Attack
+104145725 Fool's Flame - Fluorescent Flare - Bullet
 104200000 Caestus - 1H Light #1
 104200010 Caestus - 1H Light #2
 104200020 Caestus - 1H Light #3
@@ -3909,7 +4054,8 @@
 104602400 Cannon (Poison) - Bullet
 104603400 Church Cannon - Bullet
 104604400 Hunter's Pistol - Bullet
-104605400 Repeating Pistol - Bullet
+104605400 Repeating Pistol - Bullet 1
+104605401 Repeating Pistol - Bullet 2
 104606400 Evelynn - Bullet
 104607400 Hunter's Blunderbuss - Bullet
 104608400 Rosamarius - Bullet
@@ -4316,6 +4462,15 @@
 105011700 Lothric's Scythe - Warp Bullet
 105012700 Bone Scythe - Stomp
 105012705 Bone Scythe - Stomp
+105013300 Burial Scythe - 2H Heavy #1 - First Hit
+105013303 Burial Scythe - 2H Heavy #1 - Second Hit
+105013305 Burial Scythe - 2H Heavy #1 Max - First Hit
+105013308 Burial Scythe - 2H Heavy #1 Max - Second Hit
+105013410 Burial Scythe - 1H Kick
+105013420 Burial Scythe - 2H Kick
+105013760 Burial Scythe - Hunter Leap - Initial Hit
+105013761 Burial Scythe - Hunter Leap - Final Hit
+105013762 Burial Scythe - Hunter Leap
 105030000 Friede's Great Scythe
 105030001 Friede's Great Scythe
 105030010 Friede's Great Scythe
@@ -4658,20 +4813,20 @@
 201099999 ### Spells ###
 201374000 Soul Greatsword - Right
 201374100 Soul Greatsword - Left
-201374200 Soul Greatsword - Right - Ascended
-201374210 Soul Greatsword - Left - Ascended
+201374200 Heavy Soul Greatsword - Right
+201374210 Heavy Soul Greatsword - Left
 201375000 Farron Flashsword - Right
 201375100 Farron Flashsword - Left
-201375200 Farron Flashsword - Right - Ascended
-201375210 Farron Flashsword - Left - Ascended
+201375200 Refined Farron Flashsword - Right
+201375210 Refined Farron Flashsword - Left
 201376010 Old Moonlight - Right
 201376020 Old Moonlight - Left
-201376110 Old Moonlight - Right - Ascended
-201376120 Old Moonlight - Left - Ascended
+201376110 Heavy Old Moonlight - Right
+201376120 Heavy Old Moonlight - Left
 201613000 Abyssal Edge - Right
 201613100 Abyssal Edge - Left
-201613200 Abyssal Edge - Right - Ascended
-201613210 Abyssal Edge - Left - Ascended
+201613200 Heavy Abyssal Edge - Right
+201613210 Heavy Abyssal Edge - Left
 202458000 Flame Fan - Right
 202458010 Flame Fan - Right - Ascended
 202458100 Flame Fan - Left

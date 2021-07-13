@@ -1,163 +1,629 @@
 1199999 ### Sorcery ###
 1200000 Farron Dart
+1200006 Farron Dart [Luck]
+1200010 Refined Farron Dart
+1200016 Refined Farron Dart [Luck]
 1210000 Scattering Soul Orb
+1210006 Scattering Soul Orb [Luck]
+1210010 Repeating Soul Orb
+1210016 Repeating Soul Orb [Luck]
 1300000 Soul Arrow
+1300006 Soul Arrow [Luck]
+1300010 Explosive Soul Arrow
+1300016 Explosive Soul Arrow [Luck]
 1301000 Scattering Crystal Orb
+1301006 Scattering Crystal Orb [Luck]
+1301010 Repeating Crystal Orb
+1301016 Repeating Crystal Orb [Luck]
 1302000 Shockwave
+1302006 Shockwave [Luck]
+1302010 Refined Shockwave
+1302016 Refined Shockwave [Luck]
 1303000 Soul Geyser
+1303006 Soul Geyser [Luck]
+1303010 Crystal Soul Geyser
+1303016 Crystal Soul Geyser [Luck]
 1304000 Homing Soulmass
+1304006 Homing Soulmass [Luck]
+1304010 Surging Soulmass
+1304016 Surging Soulmass [Luck]
 1305000 Homing Crystal Soulmass
+1305006 Homing Crystal Soulmass [Luck]
+1305010 Weakening Crystal Soulmass
+1305016 Weakening Crystal Soulmass [Luck]
 1306000 Soul Spear
+1306006 Soul Spear [Luck]
+1306010 Explosive Soul Spear
+1306016 Explosive Soul Spear [Luck]
 1307000 Crystal Soul Spear
+1307006 Crystal Soul Spear [Luck]
+1307010 Homing Crystal Soul Spear
+1307016 Homing Crystal Soul Spear [Luck]
 1310000 Magic Weapon
+1310006 Magic Weapon [Luck]
 1311000 Great Magic Weapon
+1311006 Great Magic Weapon [Luck]
 1312000 Crystal Magic Weapon
+1312006 Crystal Magic Weapon [Luck]
+1312010 Supreme Magic Weapon
+1312016 Supreme Magic Weapon [Luck]
 1313000 Frozen Weapon
+1313006 Frozen Weapon [Luck]
+1313010 Supreme Frozen Weapon
+1313016 Supreme Frozen Weapon [Luck]
 1330000 Magic Shield
+1330006 Magic Shield [Luck]
 1331000 Great Magic Shield
+1331006 Great Magic Shield [Luck]
+1331010 Supreme Magic Shield
+1331016 Supreme Magic Shield [Luck]
 1340000 Hidden Weapon
+1340006 Hidden Weapon [Luck]
+1340010 Refined Hidden Weapon
+1340016 Refined Hidden Weapon [Luck]
 1341000 Hidden Body
+1341006 Hidden Body [Luck]
+1341010 Mass Hidden Body
+1341016 Mass Hidden Body [Luck]
 1350000 Cast Light
+1350006 Cast Light [Luck]
+1350010 Refined Cast Light
+1350016 Refined Cast Light [Luck]
 1353000 Repair
+1353006 Repair [Luck]
+1353010 Skilled Repair
+1353016 Skilled Repair [Luck]
 1354000 Spook
+1354006 Spook [Luck]
+1354010 Mass Spook
+1354016 Mass Spook [Luck]
 1355000 Chameleon
+1355006 Chameleon [Luck]
+1355010 Refined Chameleon
+1355016 Refined Chameleon [Luck]
 1356000 Aural Decoy
+1356006 Aural Decoy [Luck]
+1356010 Refined Aural Decoy
+1356016 Refined Aural Decoy [Luck]
 1370000 White Dragon Breath
+1370006 White Dragon Breath [Luck]
+1370010 Extended White Dragon Breath
+1370016 Extended White Dragon Breath [Luck]
 1372000 Farron Hail
+1372006 Farron Hail [Luck]
+1372010 Homing Farron Hail
+1372016 Homing Farron Hail [Luck]
 1373000 Crystal Hail
+1373006 Crystal Hail [Luck]
+1373010 Focused Crystal Hail
+1373016 Focused Crystal Hail [Luck]
 1374000 Soul Greatsword
+1374006 Soul Greatsword [Luck]
+1374010 Heavy Soul Greatsword
+1374016 Heavy Soul Greatsword [Luck]
 1375000 Farron Flashsword
+1375006 Farron Flashsword [Luck]
+1375010 Refined Farron Flashsword
+1375016 Refined Farron Flashsword [Luck]
 1376000 Old Moonlight
+1376006 Old Moonlight [Luck]
+1376010 Heavy Old Moonlight
+1376016 Heavy Old Moonlight [Luck]
 1620000 Soul Stream
+1620006 Soul Stream [Luck]
+1620010 Quickened Soul Stream
+1620016 Quickened Soul Stream [Luck]
 1651000 Twisted Wall of Light
+1651006 Twisted Wall of Light [Luck]
+1651010 Impenetrable Wall of Light
+1651016 Impenetrable Wall of Light [Luck]
 1740000 Pestilent Mist
+1740006 Pestilent Mist [Luck]
+1740010 Lingering Pestilent Mist
+1740016 Lingering Pestilent Mist [Luck]
 1741000 Snap Freeze
+1741006 Snap Freeze [Luck]
+1741010 Lingering Snap Freeze
+1741016 Lingering Snap Freeze [Luck]
 1800000 Crystal Storm
+1800006 Crystal Storm [Luck]
+1800010 Repeating Crystal Storm
+1800016 Repeating Crystal Storm [Luck]
 1801000 Unleash Magic
+1801006 Unleash Magic [Luck]
+1801010 Lingering Unleash Magic
+1801016 Lingering Unleash Magic [Luck]
 1802000 Soul Wave
+1802006 Soul Wave [Luck]
+1802010 Swift Soul Wave
+1802016 Swift Soul Wave [Luck]
 1803000 Blizzard
+1803006 Blizzard [Luck]
+1803010 Repeating Blizzard
+1803016 Repeating Blizzard [Luck]
 1805000 Orbs of Judgment
+1805006 Orbs of Judgment [Luck]
+1805010 Swift Orbs of Judgment
+1805016 Swift Orbs of Judgment [Luck]
 1807000 Blinding Light
+1807006 Blinding Light [Luck]
+1807010 Refined Blinding Light
+1807016 Refined Blinding Light [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
+2400006 Fireball [Luck]
+2400010 Incendiary Fireball
+2400016 Incendiary Fireball [Luck]
 2402000 Fire Orb
+2402006 Fire Orb [Luck]
+2402010 Weakening Fire Orb
+2402016 Weakening Fire Orb [Luck]
 2403000 Firestorm
+2403006 Firestorm [Luck]
+2403010 Repeating Firestorm
+2403016 Repeating Firestorm [Luck]
 2405000 Fire Surge
-2410000 Combustion
+2405006 Fire Surge [Luck]
+2405010 Refined Fire Surge
+2405016 Refined Fire Surge [Luck]
 2411000 Great Combustion
+2411006 Great Combustion [Luck]
+2411010 Incendiary Combustion
+2411016 Incendiary Combustion [Luck]
 2420000 Poison Mist
+2420006 Poison Mist [Luck]
+2420010 Lingering Poison Mist
+2420016 Lingering Poison Mist [Luck]
 2421000 Toxic Mist
+2421006 Toxic Mist [Luck]
+2421010 Lingering Toxic Mist
+2421016 Lingering Toxic Mist [Luck]
 2422000 Acid Surge
+2422006 Acid Surge [Luck]
+2422010 Lingering Acid Surge
+2422016 Lingering Acid Surge [Luck]
 2430000 Iron Flesh
+2430006 Iron Flesh [Luck]
+2430010 Lingering Iron Flesh
+2430016 Lingering Iron Flesh [Luck]
 2431000 Flash Sweat
+2431006 Flash Sweat [Luck]
+2431010 Great Flash Sweat
+2431016 Great Flash Sweat [Luck]
 2435000 Carthus Flame Arc
+2435006 Carthus Flame Arc [Luck]
+2435010 Supreme Carthus Flame Arc
+2435016 Supreme Carthus Flame Arc [Luck]
 2436000 Rapport
+2436006 Rapport [Luck]
+2436010 Fortified Rapport
+2436016 Fortified Rapport [Luck]
 2440000 Power Within
+2440006 Power Within [Luck]
+2440010 Lingering Power Within
+2440016 Lingering Power Within [Luck]
 2450000 Great Chaos Fire Orb
+2450006 Great Chaos Fire Orb [Luck]
+2450010 Homing Chaos Fire Orb
+2450016 Homing Chaos Fire Orb [Luck]
 2451000 Chaos Storm
+2451006 Chaos Storm [Luck]
+2451010 Repeating Chaos Storm
+2451016 Repeating Chaos Storm [Luck]
 2452000 Fire Whip
+2452006 Fire Whip [Luck]
+2452010 Incendiary Whip
+2452016 Incendiary Whip [Luck]
 2455000 Profaned Flame
+2455006 Profaned Flame [Luck]
+2455010 Distant Profaned Flame
+2455016 Distant Profaned Flame [Luck]
 2456000 Chaos Bed Vestiges
+2456006 Chaos Bed Vestiges [Luck]
+2456010 Chaos Vortex
+2456016 Chaos Vortex [Luck]
 2457000 Floating Chaos
+2457006 Floating Chaos [Luck]
+2457010 Lingering Floating Chaos
+2457016 Lingering Floating Chaos [Luck]
 2458000 Flame Fan
+2458006 Flame Fan [Luck]
+2458010 Refined Flame Fan
+2458016 Refined Flame Fan [Luck]
 2470000 Warmth
+2470006 Warmth [Luck]
+2470010 Fond Warmth
+2470016 Fond Warmth [Luck]
 2562000 Profuse Sweat
+2562006 Profuse Sweat [Luck]
+2562010 Refined Profuse Sweat
+2562016 Refined Profuse Sweat [Luck]
 2620000 Bursting Fireball
+2620006 Bursting Fireball [Luck]
+2620010 Incendiary Bursting Fireball
+2620016 Incendiary Bursting Fireball [Luck]
 2630000 Boulder Heave
+2630006 Boulder Heave [Luck]
+2630010 Swift Boulder Heave
+2630016 Swift Boulder Heave [Luck]
 2640000 Sacred Flame
+2640006 Sacred Flame [Luck]
+2640010 Refined Sacred Flame
+2640016 Refined Sacred Flame [Luck]
 2650000 Carthus Beacon
+2650006 Carthus Beacon [Luck]
+2650010 Lingering Carthus Beacon
+2650016 Lingering Carthus Beacon [Luck]
 2660000 Seething Chaos
+2660006 Seething Chaos [Luck]
+2660010 Great Seething Chaos
+2660016 Great Seething Chaos [Luck]
 2701000 Lingering Chaos
+2701006 Lingering Chaos [Luck]
+2701010 Refined Lingering Chaos
+2701016 Refined Lingering Chaos [Luck]
 2702000 Cataclysm
+2702006 Cataclysm [Luck]
+2702010 Devastating Cataclysm
+2702016 Devastating Cataclysm [Luck]
 2710000 Earthfall
+2710006 Earthfall [Luck]
+2710010 Summon Earthfall
+2710016 Summon Earthfall [Luck]
 2711000 Heave Earth
+2711006 Heave Earth [Luck]
+2711010 Homing Heave Earth
+2711016 Homing Heave Earth [Luck]
 2712000 Earthquake
+2712006 Earthquake [Luck]
+2712010 Quickened Earthquake
+2712016 Quickened Earthquake [Luck]
 2713000 Rockflesh
+2713006 Rockflesh [Luck]
+2713010 Lingering Rockflesh
+2713016 Lingering Rockflesh [Luck]
 2714000 Immolation
+2714006 Immolation [Luck]
+2714010 Lingering Immolation
+2714016 Lingering Immolation [Luck]
 2720000 Fecal Expulsion
+2720006 Fecal Expulsion [Luck]
+2720010 Great Fecal Expulsion
+2720016 Great Fecal Expulsion [Luck]
+2721000 Chaos Beam
+2721006 Chaos Beam [Luck]
+2721010 Incinerating Chaos Beam
+2721016 Incinerating Chaos Beam [Luck]
 3399999 ### Miracles ###
 3490000 Heal Aid
+3490006 Heal Aid [Luck]
+3490010 Extended Heal Aid
+3490016 Extended Heal Aid [Luck]
 3500000 Heal
+3500006 Heal [Luck]
+3500010 Extended Heal
+3500016 Extended Heal [Luck]
 3501000 Med Heal
+3501006 Med Heal [Luck]
+3501010 Extended Med Heal
+3501016 Extended Med Heal [Luck]
 3502000 Great Heal
+3502006 Great Heal [Luck]
+3502010 Extended Great Heal
+3502016 Extended Great Heal [Luck]
 3503000 Soothing Sunlight
+3503006 Soothing Sunlight [Luck]
+3503010 Extended Soothing Sunlight
+3503016 Extended Soothing Sunlight [Luck]
 3504000 Replenishment
+3504006 Replenishment [Luck]
+3504010 Lingering Replenishment
+3504016 Lingering Replenishment [Luck]
 3505000 Bountiful Sunlight
+3505006 Bountiful Sunlight [Luck]
+3505010 Lingering Bountiful Sunlight
+3505016 Lingering Bountiful Sunlight [Luck]
 3507000 Bountiful Light
+3507006 Bountiful Light [Luck]
+3507010 Lingering Bountiful Light
+3507016 Lingering Bountiful Light [Luck]
 3508000 Caressing Tears
+3508006 Caressing Tears [Luck]
+3508010 Quickened Caressing Tears
+3508016 Quickened Caressing Tears [Luck]
 3509000 Lightning Arrow
+3509006 Lightning Arrow [Luck]
+3509010 Refined Lightning Arrow
+3509016 Refined Lightning Arrow [Luck]
 3520000 Tears of Denial
+3520006 Tears of Denial [Luck]
+3520010 Mass Tears of Denial
+3520016 Mass Tears of Denial [Luck]
 3521000 Homeward
+3521006 Homeward [Luck]
+3521010 Refined Homeward
+3521016 Refined Homeward [Luck]
 3530000 Force
+3530006 Force [Luck]
+3530010 Refined Force
+3530016 Refined Force [Luck]
 3531000 Wrath of the Gods
+3531006 Wrath of the Gods [Luck]
+3531010 Quickened Wrath of the Gods
+3531016 Quickened Wrath of the Gods [Luck]
 3532000 Emit Force
+3532006 Emit Force [Luck]
+3532010 Emit Wrath
+3532016 Emit Wrath [Luck]
 3540000 Heavenly Relief
+3540006 Heavenly Relief [Luck]
+3540010 Divine Relief
+3540016 Divine Relief [Luck]
 3550000 Lightning Spear
+3550006 Lightning Spear [Luck]
+3550010 Lightning Surge
+3550016 Lightning Surge [Luck]
 3551000 Great Lightning Spear
+3551006 Great Lightning Spear [Luck]
+3551010 Storm Spear
+3551016 Storm Spear [Luck]
 3552000 Sunlight Spear
+3552006 Sunlight Spear [Luck]
+3552010 Homing Sunlight Spear
+3552016 Homing Sunlight Spear [Luck]
 3553000 Lightning Storm
+3553006 Lightning Storm [Luck]
+3553010 Sunlight Storm
+3553016 Sunlight Storm [Luck]
 3556000 Way of White Corona
+3556006 Way of White Corona [Luck]
+3556010 Refined Way of White Corona
+3556016 Refined Way of White Corona [Luck]
 3557000 Projected Heal
+3557006 Projected Heal [Luck]
+3557010 Extended Projected Heal
+3557016 Extended Projected Heal [Luck]
 3560000 Magic Barrier
+3560006 Magic Barrier [Luck]
 3561000 Great Magic Barrier
+3561006 Great Magic Barrier [Luck]
+3561010 Supreme Magic Barrier
+3561016 Supreme Magic Barrier [Luck]
 3563000 Sacred Oath
+3563006 Sacred Oath [Luck]
+3563010 Extended Sacred Oath
+3563016 Extended Sacred Oath [Luck]
 3590000 Lightning Blade
+3590006 Lightning Blade [Luck]
+3590010 Sunlight Blade
+3590016 Sunlight Blade [Luck]
 3591000 Darkmoon Blade
+3591006 Darkmoon Blade [Luck]
+3591010 Supreme Darkmoon Blade
+3591016 Supreme Darkmoon Blade [Luck]
 3710000 Lightning Stake
+3710006 Lightning Stake [Luck]
+3710010 Sunlight Stake
+3710016 Sunlight Stake [Luck]
 3720000 Divine Pillars of Light
+3720006 Divine Pillars of Light [Luck]
+3720010 Repeating Pillars of Light
+3720016 Repeating Pillars of Light [Luck]
 3760000 Blessed Weapon
+3760006 Blessed Weapon [Luck]
+3760010 Supreme Blessed Weapon
+3760016 Supreme Blessed Weapon [Luck]
 3802000 Heavenly Thunder
+3802006 Heavenly Thunder [Luck]
+3802010 Repeating Heavenly Thunder
+3802016 Repeating Heavenly Thunder [Luck]
 3803000 Halo
+3803006 Halo [Luck]
+3803010 Quickened Halo
+3803016 Quickened Halo [Luck]
 3805000 Perseverance
+3805006 Perseverance [Luck]
+3805010 Lingering Perseverance
+3805016 Lingering Perseverance [Luck]
 3812000 Angelic Barrage
+3812006 Angelic Barrage [Luck]
+3812010 Angelic Punishment
+3812016 Angelic Punishment [Luck]
 3813000 Divine Arrow
+3813006 Divine Arrow [Luck]
+3813010 Refined Divine Arrow
+3813016 Refined Divine Arrow [Luck]
 3814000 Lothric's Holy Spear
+3814006 Lothric's Holy Spear [Luck]
+3814010 Homing Lothric's Holy Spear
+3814016 Homing Lothric's Holy Spear [Luck]
 3815000 Proof of a Pact
+3815006 Proof of a Pact [Luck]
+3815010 Repeating Proof of a Pact
+3815016 Repeating Proof of a Pact [Luck]
 3816000 Ghostly Assault
+3816006 Ghostly Assault [Luck]
+3816010 Extended Ghostly Assault
+3816016 Extended Ghostly Assault [Luck]
 3818000 Overwhelming Power
+3818006 Overwhelming Power [Luck]
+3818010 Lingering Overwhelming Power
+3818016 Lingering Overwhelming Power [Luck]
 3819000 Wrathful Orbs
+3819006 Wrathful Orbs [Luck]
+3819010 Weakening Wrathful Orbs
+3819016 Weakening Wrathful Orbs [Luck]
 3820000 Holy Schism
+3820006 Holy Schism [Luck]
+3820010 Quickened Holy Schism
+3820016 Quickened Holy Schism [Luck]
 3821000 Wrathful Barrage
+3821006 Wrathful Barrage [Luck]
+3821010 Wrathful Wave
+3821016 Wrathful Wave [Luck]
 4099999 ### Hexes ###
 4100000 Deep Barb
+4100006 Deep Barb [Luck]
+4100010 Refined Deep Barb
+4100016 Refined Deep Barb [Luck]
 4101000 Deep Soul
+4101006 Deep Soul [Luck]
+4101010 Deep Overflow
+4101016 Deep Overflow [Luck]
 4102000 Great Deep Soul
+4102006 Great Deep Soul [Luck]
+4102010 Weakening Deep Soul
+4102016 Weakening Deep Soul [Luck]
 4103000 Great Soul Dregs
+4103006 Great Soul Dregs [Luck]
+4103010 Quickened Soul Dregs
+4103016 Quickened Soul Dregs [Luck]
 4104000 Dark Edge
+4104006 Dark Edge [Luck]
+4104010 Refined Dark Edge
+4104016 Refined Dark Edge [Luck]
 4105000 Abyssal Edge
+4105006 Abyssal Edge [Luck]
+4105010 Heavy Abyssal Edge
+4105016 Heavy Abyssal Edge [Luck]
 4106000 Dark Bead
+4106006 Dark Bead [Luck]
+4106010 Cursed Dark Bead
+4106016 Cursed Dark Bead [Luck]
 4107000 Surging Deep
+4107006 Surging Deep [Luck]
+4107010 Refined Surging Deep
+4107016 Refined Surging Deep [Luck]
 4108000 Cascading Deep
+4108006 Cascading Deep [Luck]
+4108010 Lingering Cascading Deep
+4108016 Lingering Cascading Deep [Luck]
 4109000 Yearning Dregs
+4109006 Yearning Dregs [Luck]
+4109010 Repeating Yearning Dregs
+4109016 Repeating Yearning Dregs [Luck]
 4110000 Dreg Torrent
+4110006 Dreg Torrent [Luck]
+4110010 Repeating Dreg Torrent
+4110016 Repeating Dreg Torrent [Luck]
 4111000 Writhing Deep
+4111006 Writhing Deep [Luck]
+4111010 Great Writhing Deep
+4111016 Great Writhing Deep [Luck]
 4112000 Climax
+4112006 Climax [Luck]
+4112010 Explosive Climax
+4112016 Explosive Climax [Luck]
 4113000 Affinity
+4113006 Affinity [Luck]
+4113010 Pursuers
+4113016 Pursuers [Luck]
 4114000 Whisper of Despair
+4114006 Whisper of Despair [Luck]
+4114010 Echo of Despair
+4114016 Echo of Despair [Luck]
 4115000 Repel
+4115006 Repel [Luck]
+4115010 Lingering Repel
+4115016 Lingering Repel [Luck]
 4116000 Numbness
+4116006 Numbness [Luck]
+4116010 Lingering Numbness
+4116016 Lingering Numbness [Luck]
 4201000 Black Fireball
+4201006 Black Fireball [Luck]
+4201010 Black Fire Whip
+4201016 Black Fire Whip [Luck]
 4202000 Black Fire Orb
+4202006 Black Fire Orb [Luck]
+4202010 Weakening Black Fire Orb
+4202016 Weakening Black Fire Orb [Luck]
 4203000 Black Fire Vestiges
+4203006 Black Fire Vestiges [Luck]
+4203010 Scorching Black Fire Vestiges
+4203016 Scorching Black Fire Vestiges [Luck]
 4204000 Black Fire Scatter
+4204006 Black Fire Scatter [Luck]
+4204010 Refined Black Fire Scatter
+4204016 Refined Black Fire Scatter [Luck]
 4205000 Black Flame
+4205006 Black Flame [Luck]
+4205010 Scorching Black Flame
+4205016 Scorching Black Flame [Luck]
 4206000 Black Serpent
+4206006 Black Serpent [Luck]
+4206010 Quickened Black Serpent
+4206016 Quickened Black Serpent [Luck]
 4207000 Dark Dance
+4207006 Dark Dance [Luck]
+4207010 Forceful Dark Dance
+4207016 Forceful Dark Dance [Luck]
 4208000 Recollection
+4208006 Recollection [Luck]
+4208010 Scorching Recollection
+4208016 Scorching Recollection [Luck]
 4209000 Mournful Flames
+4209006 Mournful Flames [Luck]
+4209010 Scorching Mournful Flames
+4209016 Scorching Mournful Flames [Luck]
 4210000 Black Flame Arc
+4210006 Black Flame Arc [Luck]
+4210010 Supreme Black Flame Arc
+4210016 Supreme Black Flame Arc [Luck]
 4301000 Nibble
+4301006 Nibble [Luck]
+4301010 Refined Nibble
+4301016 Refined Nibble [Luck]
 4302000 Gnaw
+4302006 Gnaw [Luck]
+4302010 Gnawing Swarm
+4302016 Gnawing Swarm [Luck]
 4303000 Dorhys' Gnawing
+4303006 Dorhys' Gnawing [Luck]
+4303010 Quickened Dorhys' Gnawing
+4303016 Quickened Dorhys' Gnawing [Luck]
 4304000 Devouring Swarm
+4304006 Devouring Swarm [Luck]
+4304010 Repeating Swarm
+4304016 Repeating Swarm [Luck]
 4305000 Deep Protection
+4305006 Deep Protection [Luck]
+4305010 Bottomless Deep Protection
+4305016 Bottomless Deep Protection [Luck]
 4306000 Atonement
+4306006 Atonement [Luck]
+4306010 Lingering Atonement
+4306016 Lingering Atonement [Luck]
 4307000 Vow of Agony
+4307006 Vow of Agony [Luck]
+4307010 Curse of Agony
+4307016 Curse of Agony [Luck]
 4308000 Gravelord Sword Dance
+4308006 Gravelord Sword Dance [Luck]
+4308010 Gravelord Sword
+4308016 Gravelord Sword [Luck]
 4309000 Vow of Silence
+4309006 Vow of Silence [Luck]
+4309010 Curse of Silence
+4309016 Curse of Silence [Luck]
 4310000 Dark Blade
+4310006 Dark Blade [Luck]
+4310010 Supreme Dark Blade
+4310016 Supreme Dark Blade [Luck]
 4311000 Dead Again
+4311006 Dead Again [Luck]
+4311010 Refined Dead Again
+4311016 Refined Dead Again [Luck]
 4312000 Lifehunt Scythe
+4312006 Lifehunt Scythe [Luck]
+4312010 Great Lifehunt Scythe
+4312016 Great Lifehunt Scythe [Luck]
 4313000 Pulsating Blade
+4313006 Pulsating Blade [Luck]
+4313010 Supreme Pulsating Blade
+4313016 Supreme Pulsating Blade [Luck]
 4314000 Pungent Blade
+4314006 Pungent Blade [Luck]
+4314010 Supreme Pungent Blade
+4314016 Supreme Pungent Blade [Luck]
 5200000 ### Below are NPC versions of the above spells

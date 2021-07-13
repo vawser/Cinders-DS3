@@ -120,6 +120,10 @@
 10023002 If you wish to experiment with curses, simply ask.
 10023003 Ha! Don't worry, my curses are easily reversible.
 10023010 [Returned Coal] Thank you. This coal will help me greatly.
+10023999 ### Talk - Magician Quilon (m37)
+10024999 ### Talk - Helia of the Lake (m38)
+10025999 ### Talk - Scribe Vadan - (m35)
+10026999 ### Talk - Sinner Argith - (m39)
 10099999 ### Relationship - Karla (m40)
 10100000 [Good] Oh, there you are.
 10100001 [Good] I thought you'd all but forgotten me. How sweet.

@@ -133,6 +133,25 @@
 22902 [Servant of the Rat] Yellow Bug Pellet
 22903 [Servant of the Rat] Black Bug Pellet
 22904 [Servant of the Rat] Mossfruit
+22905 [Servant of the Rat] Titanite Fragment
+22906 [Servant of the Rat] Inferi Petal
+22907 [Servant of the Rat] Combustum Petal
+22908 [Servant of the Rat] Vindicti Petal
+22909 [Servant of the Rat] Barathrum Petal
+22910 [Servant of the Rat] Celeritas Stem
+22911 [Servant of the Rat] Veloxi Moss
+22912 [Servant of the Rat] Green Blossom
+22913 [Servant of the Rat] Budding Green Blossom
+22914 [Servant of the Rat] Bloodred Moss Clump
+22915 [Servant of the Rat] Purple Moss Clump
+22916 [Servant of the Rat] Blooming Purple Moss Clump
+22917 [Servant of the Rat] Purging Stone
+22918 [Servant of the Rat] Rime-blue Moss Clump
+22919 [Servant of the Rat] Cleansing Pendant
+22920 [Servant of the Rat] Old Growth Balm
+22921 [Servant of the Rat] Vine Balm
+22922 [Servant of the Rat] Blackweed Balm
+22923 [Servant of the Rat] Goldenfruit Balm
 30000 [Ludleth - Dismal Knight] Accursed Sigil
 30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -220,6 +239,7 @@
 30210 [Ludleth - Demon Prince] Demon's Scar
 30212 [Ludleth - Demon Prince] Chaos Bed Vestiges
 30213 [Ludleth - Demon Prince] Cataclysm
+30214 [Ludleth - Demon Prince] Chaos Beam
 30220 [Ludleth - Darkeater Midir] Frayed Blade
 30221 [Ludleth - Darkeater Midir] Old Moonlight
 30223 [Ludleth - Darkeater Midir] Obsidian Greatsword
@@ -842,6 +862,13 @@
 210309 [Domhnall of Zena] Armor of the Glorious
 210310 [Domhnall of Zena] Gauntlets of the Vanquisher
 210311 [Domhnall of Zena] Boots of the Explorer
+210312 [Domhnall of Zena] Soul of a Fallen Paladin
+210313 [Domhnall of Zena] Soul of a Fallen Sentinel
+210314 [Domhnall of Zena] Soul of a Fallen Sage
+210315 [Domhnall of Zena] Soul of a Fallen Warrior
+210316 [Domhnall of Zena] Soul of a Fallen Astrologer
+210317 [Domhnall of Zena] Soul of a Fallen Berserker
+210318 [Domhnall of Zena] Soul of a Fallen Champion
 220000 [Marvelous Chester] Snickering Top Hat
 220001 [Marvelous Chester] Chester's Long Coat
 220002 [Marvelous Chester] Chester's Gloves
@@ -1307,6 +1334,28 @@
 250578 [Alchemist Jiji] Raime's Emblem
 250579 [Alchemist Jiji] Nullus Insignia
 250580 [Alchemist Jiji] Nullus Emblem
+250581 [Alchemist Jiji] Gallant Insignia
+250582 [Alchemist Jiji] Gallant Emblem
+250583 [Alchemist Jiji] Warden Insignia
+250584 [Alchemist Jiji] Warden Emblem
+250585 [Alchemist Jiji] Dull Gold Insignia
+250586 [Alchemist Jiji] Dull Gold Emblem
+250587 [Alchemist Jiji] Fluted Insignia
+250588 [Alchemist Jiji] Fluted Emblem
+250589 [Alchemist Jiji] Huntsman Insignia
+250590 [Alchemist Jiji] Huntsman Emblem
+250591 [Alchemist Jiji] Mirdan Insignia
+250592 [Alchemist Jiji] Mirdan Emblem
+250593 [Alchemist Jiji] Sentinel Insignia
+250594 [Alchemist Jiji] Sentinel Emblem
+250595 [Alchemist Jiji] Raggedy Insignia
+250596 [Alchemist Jiji] Raggedy Emblem
+250597 [Alchemist Jiji] Charlatan Insignia
+250598 [Alchemist Jiji] Charlatan Emblem
+250599 [Alchemist Jiji] Martyr Emblem
+250600 [Alchemist Jiji] Pickpocket Insignia
+250601 [Alchemist Jiji] Pickpocket Emblem
+250602 [Alchemist Jiji] Magician Emblem
 250700 [Alchemist Jiji] Cleansing Oil
 250701 [Alchemist Jiji] Cleansing Oil (Left)
 250702 [Alchemist Jiji] Magical Oil
@@ -1329,6 +1378,18 @@
 250719 [Alchemist Jiji] Blessed Oil (Left)
 250720 [Alchemist Jiji] Black Fire Oil
 250721 [Alchemist Jiji] Black Fire Oil (Left)
+250730 [Alchemist Jiji] Bolt Oil
+250731 [Alchemist Jiji] Bolt Oil (Left)
+250740 [Alchemist Jiji] Sunlight Oil
+250741 [Alchemist Jiji] Sunlight Oil (Left)
+250750 [Alchemist Jiji] Enchanted Oil
+250751 [Alchemist Jiji] Enchanted Oil (Left)
+250760 [Alchemist Jiji] Flaming Oil
+250761 [Alchemist Jiji] Flaming Oil (Left)
+250770 [Alchemist Jiji] Maggot Oil
+250771 [Alchemist Jiji] Maggot Oil (Left)
+250780 [Alchemist Jiji] Gust Oil
+250781 [Alchemist Jiji] Gust Oil (Left)
 250800 [Alchemist Jiji - Writs] Writ of Humanity
 250801 [Alchemist Jiji - Writs] Writ of Anger
 250802 [Alchemist Jiji - Writs] Writ of Crystallization

@@ -108,7 +108,7 @@
 26102 Unbreakable Patches [Cathedral of the Deep]
 26103 Unbreakable Patches [Firelink Shrine]
 26104 Unbreakable Patches [Firelink Shrine]
-26200 Siegward of Catarina [Undead Settlement]
+26200 Siegward of Catarina - Lift [Undead Settlement]
 26201 Siegward of Catarina [Undead Settlement]
 26202 Siegward of Catarina [Irithyll]
 26203 Siegward of Catarina [Profaned Capital]
@@ -251,6 +251,8 @@
 101200 [Boss] Aborr
 102000 [Boss] Cathedral Guardian
 103000 [Boss] Mirror Knight
+103010 [Boss] Mirror Knight - Mad Warrior
+103020 [Boss] Mirror Knight - Hallowed Knight
 104000 Ruin Sentinel [The Ringed City]
 105000 Dragonrider [Irithyll of the Boreal Valley] - Gundyr
 106000 Black Dragon Knight [Grand Archives]
@@ -597,30 +599,30 @@
 143150 Undead Cleric 6 [Untended Graves]
 143160 Undead Cleric 7 [Untended Graves]
 143170 Undead Cleric 8 [Untended Graves]
-144000 Devout Bomber #1 [Cathedral of the Deep]
-144001 Devout Bomber #1 [Cathedral of the Deep]
-144002 Devout Bomber #1 [Cathedral of the Deep]
-144010 Devout Bomber #3 [Cathedral of the Deep]
-144011 Devout Bomber #3 [Cathedral of the Deep]
-144012 Devout Bomber #3 [Cathedral of the Deep]
-144020 Devout of the Deep #2 [Cathedral of the Deep]
-144021 Devout of the Deep #2 [Cathedral of the Deep]
-144022 Devout of the Deep #2 [Cathedral of the Deep]
-144030 Devout of the Deep #1 [Cathedral of the Deep]
-144031 Devout of the Deep #1 [Cathedral of the Deep]
-144032 Devout of the Deep #1 [Cathedral of the Deep]
-144040 Devout Bomber #2 [Cathedral of the Deep]
-144041 Devout Bomber #2 [Cathedral of the Deep]
-144042 Devout Bomber #2 [Cathedral of the Deep]
-144050 Devout Bomber #4 [Cathedral of the Deep]
-144051 Devout Bomber #4 [Cathedral of the Deep]
-144052 Devout Bomber #4 [Cathedral of the Deep]
-144060 Devout of the Deep #3 [Cathedral of the Deep]
-144061 Devout of the Deep #3 [Cathedral of the Deep]
-144062 Devout of the Deep #3 [Cathedral of the Deep]
-144070 Devout of the Deep #3 [Cathedral of the Deep]
-144071 Devout of the Deep #3 [Cathedral of the Deep]
-144072 Devout of the Deep #3 [Cathedral of the Deep]
+144000 Devout of the Deep #1 [Cathedral of the Deep]
+144001 Devout of the Deep #1 [Cathedral of the Deep]
+144002 Devout of the Deep #1 [Cathedral of the Deep]
+144010 Devout of the Deep #2 [Cathedral of the Deep]
+144011 Devout of the Deep #2 [Cathedral of the Deep]
+144012 Devout of the Deep #2 [Cathedral of the Deep]
+144020 Devout of the Deep #3 [Cathedral of the Deep]
+144021 Devout of the Deep #3 [Cathedral of the Deep]
+144022 Devout of the Deep #3 [Cathedral of the Deep]
+144030 Devout of the Deep #4 [Cathedral of the Deep]
+144031 Devout of the Deep #4 [Cathedral of the Deep]
+144032 Devout of the Deep #4 [Cathedral of the Deep]
+144040 Devout of the Deep #5 [Cathedral of the Deep]
+144041 Devout of the Deep #5 [Cathedral of the Deep]
+144042 Devout of the Deep #5 [Cathedral of the Deep]
+144050 Devout of the Deep #6 [Cathedral of the Deep]
+144051 Devout of the Deep #6 [Cathedral of the Deep]
+144052 Devout of the Deep #6 [Cathedral of the Deep]
+144060 Devout of the Deep #7 [Cathedral of the Deep]
+144061 Devout of the Deep #7 [Cathedral of the Deep]
+144062 Devout of the Deep #7 [Cathedral of the Deep]
+144070 Devout of the Deep #8 [Cathedral of the Deep]
+144071 Devout of the Deep #8 [Cathedral of the Deep]
+144072 Devout of the Deep #8 [Cathedral of the Deep]
 144100 Sage Prentice #1
 144101 Sage Prentice #1
 144102 Sage Prentice #1
@@ -1213,6 +1215,10 @@
 722200 Occultist Grudore
 722300 Erstwhile George
 722400 Destitute Jester
+722500 Sorcery Scribe
+722600 Pyromancy Scribe
+722700 Miracle Scribe
+722800 Hex Scribe
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)
@@ -1244,6 +1250,45 @@
 805011 Carthus Swordsman - Greatsword
 805012 Carthus Swordsman - Shotel
 805013 Carthus Swordsman - Twin Shotel
+805020 Twisted Knight
+805100 Ghru - Spear
+805101 Ghru - Curved Sword
+805102 Ghru - Dagger and Talisman
+805103 Ghru - Mad and Horned
+805110 Smouldering Ghru - Spear
+805111 Smouldering Ghru - Curved Sword
+805112 Smouldering Ghru - Dagger and Talisman
+805113 Smouldering Ghru - Mad and Horned
+805120 Elder Ghru
+805200 Hollow Soldier - Sword
+805201 Hollow Soldier - Sword and Shield
+805202 Hollow Soldier - Crossbow
+805204 Hollow Soldier - Assassin
+805210 Large Hollow Soldier - Greataxe
+805211 Large Hollow Soldier - Halberd
+805220 Lothric Knight - Sword
+805221 Lothric Knight - Spear
+805230 Winged Knight - Twinaxes
+805300 Devout of the Deep #1
+805301 Devout of the Deep #2
+805302 Devout of the Deep #3
+805303 Devout of the Deep #4
+805310 Large Devout of the Deep
+805320 Cathedral Evangelist - Tome
+805330 Cathedral Grave Warden
+805340 Cathedral Knight - Greatsword
+805341 Cathedral Knight - Mace
+805350 Infested Corpse
+805360 Cathedral Guardian
+805400 Peasant Hollow - Axe
+805401 Peasant Hollow - Sickle
+805402 Peasant Hollow - Mallet
+805410 Hollow Slave - Pick
+805411 Hollow Slave - Flamberge
+805420 Hollow Manservant - Saw with Board
+805421 Hollow Manservant - Pot with Board
+805430 Large Undead Dog
+805440 Curse-rotted Greatwood
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight

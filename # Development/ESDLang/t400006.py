@@ -217,7 +217,11 @@ def t400006_x12():
     while True:
         ClearTalkListData()
         
-        AddTalkListData(1, 99031001, -1) # Carthus Commotion
+        AddTalkListData(1, 99031001, -1) # Memory of the Crypts
+        AddTalkListData(2, 99031002, -1) # Memory of the Swamp
+        AddTalkListData(3, 99031003, -1) # Memory of the Wall
+        AddTalkListData(4, 99031004, -1) # Memory of the Cathedral
+        AddTalkListData(5, 99031005, -1) # Memory of the Settlement
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -225,9 +229,25 @@ def t400006_x12():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Skeleton Scramble
         if GetTalkListEntryResult() == 1:
             SetEventState(25009600, 1)
+            SetEventState(25009699, 1)
+            return 0
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009601, 1)
+            SetEventState(25009699, 1)
+            return 0
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009602, 1)
+            SetEventState(25009699, 1)
+            return 0
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25009603, 1)
+            SetEventState(25009699, 1)
+            return 0
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25009604, 1)
+            SetEventState(25009699, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

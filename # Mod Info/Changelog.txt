@@ -154,11 +154,57 @@ Add the following armour:
   - The second stage occurs at 35% HP, spawning the Hallowed Knight.
 
 # Memories
+- Added the night skybox to the map.
+- Added an announcer that notifies the player of each round.
 - Changed the general structure of Memories:
  - Now comprised of five rounds: 1 and 2 are 'easy' mixes of enemies, 3 and 4 are 'tough' mixes of enemies and 5 is a miniboss.
  - Each round is two minutes long, with the miniboss round lasting until it is defeated.
  - After the miniboss is defeated, this process repeats until the player dies or leaves
-- Added the night skybox to the map.
+
+- Added four new memories:
+ - Memory of the Swamp
+  - Contains the following enemy types:
+   - Ghru (Spear)
+   - Ghru (Curved Sword)
+   - Ghru (Caster)
+   - Ghru (Mad)
+   - Smouldering Ghru (Spear)
+   - Smouldering Ghru (Curved Sword)
+   - Smouldering Ghru (Caster)
+   - Smouldering Ghru (Mad)
+   - Elder Ghru
+   
+ - Memory of the Wall
+   - Contains the following enemy types:
+    - Hollow Soldier (Sword and Shield)
+    - Hollow Soldier (Crossbow)
+    - Hollow Assassin
+    - Large Hollow Soldier (Greataxe)
+    - Large Hollow Soldier (Halberd)
+    - Lothric Knight (Greatsword)
+    - Lothric Knight (Spear)
+    - Winged Knight (Twinaxes)
+    
+ - Memory of the Cathedral:
+  - Contains the following enemy types:
+   - Devout of the Deep
+   - Large Devout of the Deep
+   - Cathedral Evangelist
+   - Writhing Infested Corpse
+   - Cathedral Grave Warden
+   - Cathedral Knight
+   - Cathedral Guardian
+
+ - Memory of the Settlement
+  - Contains the following enemy types:
+   - Peasant Hollow (Axe)
+   - Peasant Hollow (Sickle)
+   - Peasant Hollow (Mallet)
+   - Hollow Slave (Pick)
+   - Hollow Slave (Flamberge)
+   - Hollow Manservant (Saw)
+   - Hollow Manservant (Pot)
+   - Curse-rotted Greatwood
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
@@ -180,66 +226,4 @@ Add more trials, change the current setup the difficulty/reward scales in a smoo
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-### Swamp Scramble
-# Basic
-1: Ghru - Spear
-2: Ghru - Curved Sword
-3: Ghru - Dagger and Talisman
-4: Ghru - Mad and Horned
-
-# Tough
-1: Smouldering Ghru - Spear
-2: Smouldering Ghru - Curved Sword
-3: Smouldering Ghru - Dagger and Talisman
-4: Smouldering Ghru - Mad and Horned
-
-# Miniboss
-Elder Ghru
-
-### High Wall Blitz
-# Basic
-1: Hollow Soldier - Sword
-2: Hollow Soldier - Sword and Shield
-3: Hollow Soldier - Crossbow
-4: Large Hollow Soldier - Greataxe
-
-# Tough
-1: Hollow Soldier - Assassin
-2: Large Hollow Soldier - Halberd
-3: Lothric Knight - Sword
-4: Lothric Knight - Spear
-
-# Miniboss
-Winged Knight - Twinaxes
-
-### Undead Congregation
-# Basic
-1: Devout Bomber #1 / Devout Bomber #3
-2: Devout of the Deep #2 / Devout of the Deep #1
-3: Large Devout of the Deep #1
-4: Cathedral Evangelist - Tome
-
-# Tough
-1: Infested Corpse
-2: Cathedral Grave Warden
-3: Cathedral Knight - Greatsword
-4: Cathedral Knight - Mace
-
-# Miniboss
-Cathedral Guardian
-
-### Party of Peasantry
-# Basic
-1: Peasant Hollow - Axe
-2: Peasant Hollow - Sickle
-3: Hollow Slave - Pick
-4: Hollow Slave - Flamberge
-
-# Tough
-1: Peasant Hollow - Mallet
-2: Hollow Manservant - Saw with Board
-3: Hollow Manservant - Pot with Board
-4: Large Undead Dog
-
-# Miniboss
-[Boss] Curse-rotted Greatwood
+Greatsword Cath Knight, needs shield mask

@@ -263,9 +263,11 @@
 2381 [Item] Carthus Rouge - Left Hand
 2390 [Item] Pale Pine Resin - Left Hand
 2400 [Item] Frozen Pine Resin - Right Hand
-2401 [Item] Frozen Pine Resin - Right Hand [AttackOccurance]
+2401 [Item] Frozen Pine Resin - Right Hand [AttackOccurance] (Old)
+2450 [Item] Frozen Pine Resin - Right Hand [AttackOccurance]
 2600 [Item] Frozen Pine Resin - Left Hand
-2601 [Item] Frozen Pine Resin - Left Hand [AttackOccurance]
+2601 [Item] Frozen Pine Resin - Left Hand [AttackOccurance] (Old)
+2650 [Item] Frozen Pine Resin - Left Hand [AttackOccurance]
 3000 HP Recovery Grass
 3040 [Item] Green Blossom
 3041 [DLC] Fragment of mushroom
@@ -2026,6 +2028,7 @@
 100700 [Behavior] Guard
 100720 [Behavior] Alternate Charging Mechanic
 100721 [Behavior] Alternate Charging Mechanic (Secondary Switch)
+100722 [Behavior] Alternate Charging Mechanic (Tonitrus)
 100730 [Behavior] Custom Weapon Swap (Frostfall)
 100731 [Behavior] Additional Custom Weapon Swap (Frostfall)
 100732 [Behavior] Additional Custom Weapon Swap for Bare Fists (Frostfall)
@@ -2041,8 +2044,8 @@
 100742 [Behavior] Endless Winter Stance Transition Trigger for R2 (Frostfall)
 100743 [Behavior] Endless Winter Stance Low FP Transition (Frostfall)
 100744 [Behavior] Endless Winter Stance Low FP Switch (Frostfall)
-100900 [Behavior]
-100901 [Behavior]
+100900 [Behavior] Storm Ruler
+100901 [Behavior] Storm Ruler
 100910 [Behavior] Storm King
 100911 [Behavior] Storm King - Full
 100920 [Behavior]
@@ -2561,13 +2564,17 @@
 101310000 [Sorcery] Magic Weapon
 101311000 [Sorcery] Great Magic Weapon
 101312000 [Sorcery] Crystal Magic Weapon
+101312010 [Sorcery] Supreme Magic Weapon
 101313000 [Sorcery] Frozen Weapon
+101313010 [Sorcery] Supreme Frozen Weapon
 101330000 [Sorcery] Magic Shield
 101331000 [Sorcery] Great Magic Shield
+101331010 [Sorcery] Supreme Magic Shield
 101340000 [Sorcery] Hidden Weapon
 101341000 [Sorcery] Hidden Body
 101350000 [Sorcery] Cast Light
 101353000 [Sorcery] Repair
+101353010 [Sorcery] Skilled Repair
 101354000 [Sorcery] Spook
 101354100 [Sorcery] Spook [CycleOccurance]
 101355000 [Sorcery] Chameleon
@@ -2580,14 +2587,23 @@
 102430100 [Pyromancy] Iron Flesh
 102430200 [Pyromancy] Iron Flesh
 102430300 [Pyromancy] Iron Flesh
+102430400 [Pyromancy] Lingering Iron Flesh
+102430500 [Pyromancy] Lingering Iron Flesh
+102430600 [Pyromancy] Lingering Iron Flesh
+102430700 [Pyromancy] Lingering Iron Flesh
 102431000 [Pyromancy] Flash Sweat
+102431010 [Pyromancy] Great Flash Sweat
 102435000 [Pyromancy] Carthus Flame Arc
+102435100 [Pyromancy] Supreme Carthus Flame Arc
 102436000 [Pyromancy] Rapport
+102436001 [Pyromancy] Fortified Rapport
 102436010 [Pyromancy] Rapport
 102440000 [Pyromancy] Power Within
+102440100 [Pyromancy] Lingering Power Within
 102470000 [Pyromancy] Warmth
 102562000 [Pyromancy] Profuse Sweat
 102650000 [Pyromancy] Carthus Beacon
+102650005 [Pyromancy] Lingering Carthus Beacon
 102650010 [Pyromancy] Carthus Beacon - Start Condition Check + Reduce Increment
 102650011 [Pyromancy] Carthus Beacon - 17 'Hits'
 102650012 [Pyromancy] Carthus Beacon - 45 'Hits'
@@ -2604,39 +2620,58 @@
 103503000 [Miracle] Soothing Sunlight
 103503100 [Miracle] Soothing Sunlight [MP]
 103504000 [Miracle] Replenishment
+103504010 [Miracle] Lingering Replenishment
 103505000 [Miracle] Bountiful Sunlight
 103505100 [Miracle] Bountiful Sunlight [MP]
+103505300 [Miracle] Lingering Bountiful Sunlight
+103505400 [Miracle] Lingering Bountiful Sunlight [MP]
 103507000 [Miracle] Bountiful Light
+103507010 [Miracle] Lingering Bountiful Light
 103508000 [Miracle] Caressing Tears
 103508100 [Miracle] Caressing Tears
 103508200 [Miracle] Caressing Tears
 103508300 [Miracle] Caressing Tears
+103508400 [Miracle] Caressing Tears
+103508500 [Miracle] Caressing Tears
 103520000 [Miracle] Tears of Denial
 103520100 GameSystemParam - Tears of Denial - Trigger
 103521000 [Miracle] Homeward
 103521100 [Miracle] Homeward [Replace]
 103540000 [Miracle] Heavenly Relief
+103540010 [Miracle] Divine Relief
 103557000 [Miracle] Projected Heal - Friendly
 103557010 [Miracle] Projected Heal - Self
 103560000 [Miracle] Magic Barrier
 103561000 [Miracle] Great Magic Barrier
+103561010 [Miracle] Supreme Magic Barrier
 103563000 [Miracle] Sacred Oath
 103563100 [Miracle] Sacred Oath
 103581000 [Miracle] Vow of Silence
+103581010 [Miracle] Curse of Silence
 103590000 [Miracle] Lightning Blade
+103590010 [Miracle] Sunlight Blade
 103591000 [Miracle] Darkmoon Blade
+103591010 [Miracle] Supreme Darkmoon Blade
 103640000 [Miracle] Dark Blade
 103640001 [Miracle] Dark Blade - Absorption
+103640010 [Miracle] Supreme Dark Blade
+103640011 [Miracle] Supreme Dark Blade - Absorption
 103700000 [Miracle] Dead Again
 103700100 GameSystemParam - DeadChrFinder - SpEffect
 103730000 [Miracle] Lifehunt Scythe
 103731000 [Miracle] Lifehunt Scythe - HP Gain
 103760000 [Miracle] Blessed Weapon
+103760010 [Miracle] Supreme Blessed Weapon
 103770000 [Miracle] Deep Protection
 103770100 [Miracle] Deep Protection [CycleOccurance]
 103770200 [Miracle] Deep Protection [CycleOccurance]
 103770300 [Miracle] Deep Protection [CycleOccurance]
+103770500 [Miracle] Bottomless Deep Protection
+103770600 [Miracle] Bottomless Deep Protection [CycleOccurance]
+103770700 [Miracle] Bottomless Deep Protection [CycleOccurance]
+103770800 [Miracle] Bottomless Deep Protection [CycleOccurance]
 103780000 [Miracle] Atonement
+103780010 [Miracle] Lingering Atonement
 111000000 Blade of the Darkmoon [old]
 111001000 Spears of the Church [old]
 111002000 Watchdogs of Farron [old]
@@ -2904,6 +2939,8 @@
 130061850 [Profaned Greatsword] Profaned Flame - Left
 130061851 [Profaned Greatsword] Profaned Flame - Left [CycleOccurance]
 130061860 [Profaned Greatsword] Profaned Flame
+130061870 [Tonitrus] Charged Spark
+130061880 [Silver Knight Weapon] Lightning Buff
 130062300 [Yhorm's Great Machete] Warcry - Right
 130062310 [Yhorm's Great Machete] Warcry - Right
 130062350 [Yhorm's Great Machete] Warcry - Left
@@ -3247,6 +3284,10 @@
 160200200 Archdeacon's Longstaff
 160200201 Archdeacon's Longstaff [DeathOccurance]
 160200280 Blessing of Rosaria
+160200281 Blessing of Rosaria
+160200285 Blessing of Rosaria
+160200286 Blessing of Rosaria [CycleOccurance]
+160200290 Blessing of Rosaria
 160200350 Old Wolf Curved Sword
 160200351 Old Wolf Curved Sword [CycleOccurance]
 160200352 Old Wolf Curved Sword [State]
@@ -3339,7 +3380,7 @@
 160209016 Jester's Talisman
 160209017 Smouldering Talisman
 160209018 Caitha's Chime
-160209019 Chaos Flame
+160209019 Pyromancy Flame
 160209021 Holy Flame
 160209022 Sorcerous Flame
 160209023 Fool's Flame
@@ -3621,6 +3662,10 @@
 160401513 Max HP/FP/Stamina: Leggings
 160401520 Muffle / No Fall Damage - Armor
 160401521 Muffle / No Fall Damage - Armor [CycleOccurance]
+160401530 Poise: Helm
+160401531 Poise: Armor
+160401532 Poise: Gauntlets
+160401533 Poise: Leggings
 160408999 ### Armor - Passive Effects ###
 160409000 Symbol of Avarice
 160409001 Crown of Illusions
@@ -3645,9 +3690,11 @@
 160409023 Adventurer's Set - Legs
 160500001 ### Spells - Effects ###
 160500030 [Sorcery] Unleash Magic
+160500040 [Sorcery] Lingering Unleash Magic
 160500050 [Sorcery] Repel
 160500060 [Sorcery] Numbness
 160500070 [Miracle] Perseverance
+160500071 [Miracle] Lingering Perseverance
 160500080 [Sorcery] Blizzard
 160500200 [Pyromancy] Rockflesh
 160500210 [Pyromancy] Rockflesh [CycleOccurance]
@@ -3656,7 +3703,7 @@
 160500250 [Miracle] Infected Spit
 160500260 [Miracle] Vow of Agony
 160500270 [Sorcery] Homing Soulmass
-160500280 [Sorcery] Affinity
+160500280 [Sorcery] Weakening Black Fire Orb - Weakening Deep Soul
 160500290 [Miracle] Pulsating Blade
 160500291 [Miracle] Pulsating Blade [AttackOccurance]
 160500300 [Pyromancy] Pungent Blade
@@ -3667,6 +3714,20 @@
 160500340 [Pyromancy] Immolation - Self-harm
 160500350 [Spell] FP Restore Debuff - 30 Seconds
 160500351 [Spell] FP Restore Debuff - 60 Seconds
+160500360 [Pyromancy] Weakening Fire Orb
+160500370 [Pyromancy] Incendiary DoT 10
+160500380 [Pyromancy] Incendiary DoT 5
+160500390 [Pyromancy] Incendiary DoT 1
+160500400 [Pyromancy] Supreme Black Flame Arc
+160500410 [Sorcery] Lingering Numbness
+160500420 [Miracle] Supreme Pulsating Blade
+160500421 [Miracle] Supreme Pulsating Blade [AttackOccurance]
+160500430 [Pyromancy] Supreme Pungent Blade
+160500431 [Pyromancy] Supreme Pungent Blade [AttackOccurance]
+160500440 [Sorcery] Lingering Repel
+160500450 [Pyromancy] Lingering Rockflesh
+160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
+160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4932,6 +4993,18 @@
 160709095 Blessed Oil - Left
 160709100 Black Fire Oil - Right
 160709105 Black Fire Oil - Left
+160709110 Scorching Oil - Right
+160709115 Scorching Oil - Left
+160709120 Rotten Oil - Right
+160709125 Rotten Oil - Left
+160709130 Gust Oil - Right
+160709135 Gust Oil - Left
+160709200 Bolt Oil - Right
+160709205 Bolt Oil - Left
+160709300 Sunlight Oil - Right
+160709305 Sunlight Oil - Left
+160709400 Enchanted Oil - Right
+160709405 Enchanted Oil - Left
 160709499 ### Writs ###
 160709500 Writ of Humanity
 160709501 Writ of Anger
@@ -5039,6 +5112,9 @@
 160741600 Frostfire Colossus - Odessa's Crystal - Player Buff
 160741610 Frostfire Colossus - Frozen Chaos Essence - Player Buff
 160741700 Crab Puzzle - Fade Out
+160741900 Mirror Knight - Phantom Setup
+160741901 Mirror Knight - Immunity
+160741902 Mirror Knight - Phantom Cleanup
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5133,12 +5209,14 @@
 160764054 Companion: Offering of Fervor+4
 160764055 Companion: Offering of Fervor+5
 160800000 ### NPC Modifiers ###
+160800001 Base - Summoned NPC
 160800002 Base - Enemy
 160800003 Base - Friendly NPC
 160800004 Base - Hostile NPC
 160800005 Base - Boss
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian
+160800020 Summoned NPC - Boost at Low HP
 160801050 Enemy - El Hueso
 160801070 Enemy - Magnum Ursus - Strong Punch
 160802000 Poise Override - Easy Stagger
@@ -5156,6 +5234,7 @@
 170000130 Curse - Deep Soul
 170000140 Curse - Great Deep Soul
 170000150 Curse - Great Soul Dregs
+170000160 Frost - Supreme Frozen Weapon [AttackOccurance]
 170000200 Curse - Yearning Dregs
 170000210 Curse - Writhing Deep
 170000230 Curse - Cascading Deep
@@ -5186,6 +5265,10 @@
 170000490 Toxic - Mournful Flames
 170000500 Curse - Nashandra’s Avarice
 170000510 Frost - Chilling Wind
+170000520 Curse - Echo of Despair
+170000530 Curse - Cursed Climax
+170000540 Toxic - Gravelord Sword
+170000550 Toxic - Black Fire Whip
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)
@@ -5472,6 +5555,7 @@
 200005390 Magic - Cannon Sidearm
 200005400 Magic - Pistol Sidearm
 200005410 Magic - Fist Sidearm
+200005420 Magic - Blunderbuss Sidearm
 200006000 Fire - Dagger
 200006020 Fire - Straight Sword
 200006040 Fire - Greatsword
@@ -5541,6 +5625,7 @@
 200008390 Dark - Cannon Sidearm
 200008400 Dark - Pistol Sidearm
 200008410 Dark - Fist Sidearm
+200008420 Dark - Blunderbuss Sidearm
 249999999 ### Challenges ###
 250000100 Hard Mode - Player Effect - Damage
 250000101 Hard Mode - Player Effect - Absorption
@@ -5723,3 +5808,11 @@
 260100340 Fallen Protector
 260199999 ### Memories ###
 260200000 Soul Boost
+260200001 Estus Restore
+260200002 Boss Boost
+260200010 Character Respawn
+260200020 Character Restore
+260200100 Power Scaling: SL 50
+260200101 Power Scaling: SL 100
+260200102 Power Scaling: SL 150
+260200103 Power Scaling: SL 200

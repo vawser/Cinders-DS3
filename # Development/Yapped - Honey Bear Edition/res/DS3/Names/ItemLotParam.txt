@@ -415,6 +415,7 @@
 60413 [Yuria of Londor] Black Gauntlets - Lord of Hollow reward
 60414 [Yuria of Londor] Black Leggings - Lord of Hollow reward
 60600 [Company Captain Yorshak] Blade of the Darkmoon
+60700 [Hawkwood] Blunt Gem
 60710 [Archdragon Peak] Stone of Draconic Might
 60720 [Hawkwood] Farron Ring
 60730 [Hawkwood] Hawkwood's Shield
@@ -446,6 +447,8 @@
 61600 [Undead Settlement] Saint's Talisman
 61900 [Anri of Astora] Ring of the Evil Eye
 61930 [Yoel of Londor] Dark Sigil
+62000 [Patches] Tarnished Silver Coin
+62010 [Patches] Tarnished Silver Coin
 62099 ### Script - Siegward of Catarina
 62100 [Siegward of Catarina] Siegbräu
 62103 [Siegward of Catarina] Siegbräu
@@ -485,6 +488,161 @@
 66300 [Initial Meeting] Sacred Chime of Filianore
 66310 [Midir Defeated] Ring of Calamity
 66311 [Midir Defeated] Sacred Chime of Filianore
+79999 ### Script - Ascended Spells
+80000 [Sorcery] Refined Farron Dart
+80010 [Sorcery] Swift Soul Wave
+80020 [Sorcery] Explosive Soul Arrow
+80030 [Sorcery] Explosive Soul Spear
+80040 [Sorcery] Homing Crystal Soul Spear
+80050 [Sorcery] Extended White Dragon Breath
+80060 [Sorcery] Refined Farron Flashsword
+80070 [Sorcery] Heavy Soul Greatsword
+80080 [Sorcery] Heavy Old Moonlight
+80090 [Sorcery] Surging Soulmass
+80100 [Sorcery] Weakening Crystal Soulmass
+80110 [Sorcery] Repeating Soul Orb
+80120 [Sorcery] Repeating Crystal Orb
+80130 [Sorcery] Homing Farron Hail
+80140 [Sorcery] Focused Crystal Hail
+80150 [Sorcery] Swift Orbs of Judgment
+80160 [Sorcery] Repeating Crystal Storm
+80170 [Sorcery] Repeating Blizzard
+80180 [Sorcery] Quickened Soul Stream
+80190 [Sorcery] Crystal Soul Geyser
+80200 [Sorcery] Lingering Pestilent Mist
+80210 [Sorcery] Lingering Snap Freeze
+80220 [Sorcery] Refined Shockwave
+80230 [Sorcery] Refined Blinding Light
+80240 [Sorcery] Impenetrable Wall of Light
+80250 [Sorcery] Refined Aural Decoy
+80260 [Sorcery] Skilled Repair
+80290 [Sorcery] Supreme Magic Weapon
+80300 [Sorcery] Supreme Frozen Weapon
+80310 [Sorcery] Refined Hidden Weapon
+80330 [Sorcery] Supreme Magic Shield
+80340 [Sorcery] Lingering Unleash Magic
+80350 [Sorcery] Mass Spook
+80360 [Sorcery] Mass Hidden Body
+80370 [Sorcery] Refined Chameleon
+80380 [Sorcery] Refined Cast Light
+81000 [Pyromancy] Incendiary Fireball
+81010 [Pyromancy] Weakening Fire Orb
+81020 [Pyromancy] Homing Chaos Fire Orb
+81030 [Pyromancy] Incendiary Bursting Fireball
+81040 [Pyromancy] Distant Profaned Flame
+81050 [Pyromancy] Chaos Vortex
+81060 [Pyromancy] Great Seething Chaos
+81070 [Pyromancy] Refined Flame Fan
+81080 [Pyromancy] Incendiary Combustion
+81090 [Pyromancy] Refined Fire Surge
+81100 [Pyromancy] Incendiary Fire Whip
+81110 [Pyromancy] Refined Sacred Flame
+81120 [Pyromancy] Repeating Firestorm
+81130 [Pyromancy] Repeating Chaos Storm
+81140 [Pyromancy] Refined Lingering Chaos
+81150 [Pyromancy] Lingering Floating Chaos
+81160 [Pyromancy] Incinerating Chaos Beam
+81170 [Pyromancy] Great Cataclysm
+81180 [Pyromancy] Swift Boulder Heave
+81190 [Pyromancy] Great Fecal Expulsion
+81200 [Pyromancy] Homing Heave Earth
+81210 [Pyromancy] Quickened Earthquake
+81220 [Pyromancy] Summon Earthfall
+81230 [Pyromancy] Lingering Acid Surge
+81240 [Pyromancy] Lingering Poison Mist
+81250 [Pyromancy] Lingering Toxic Mist
+81260 [Pyromancy] Lingering Immolation
+81270 [Pyromancy] Fortified Rapport
+81280 [Pyromancy] Fond Warmth
+81290 [Pyromancy] Supreme Carthus Flame Arc
+81300 [Pyromancy] Lingering Carthus Beacon
+81310 [Pyromancy] Lingering Power Within
+81320 [Pyromancy] Great Flash Sweat
+81330 [Pyromancy] Refined Profuse Sweat
+81340 [Pyromancy] Lingering Iron Flesh
+81350 [Pyromancy] Lingering Rockflesh
+82000 [Miracle] Refined Lightning Arrow
+82010 [Miracle] Lightning Surge
+82020 [Miracle] Storm Spear
+82030 [Miracle] Homing Sunlight Spear
+82040 [Miracle] Weakening Wrathful Orbs
+82050 [Miracle] Wrathful Wave
+82060 [Miracle] Quickened Schism
+82070 [Miracle] Sunlight Stake
+82080 [Miracle] Sunlight Storm
+82090 [Miracle] Repeating Heavenly Thunder
+82100 [Miracle] Lingering Overwhelming Power
+82110 [Miracle] Refined Way of White Corona
+82120 [Miracle] Quickened Halo
+82130 [Miracle] Refined Divine Arrow
+82140 [Miracle] Homing Lothric's Holy Spear
+82150 [Miracle] Refined Force
+82160 [Miracle] Quickened Wrath of the Gods
+82170 [Miracle] Emit Wrath
+82180 [Miracle] Repeating Pillars of Light
+82190 [Miracle] Angelic Punishment
+82200 [Miracle] Repeating Proof of a Pact
+82210 [Miracle] Extended Ghostly Assault
+82220 [Miracle] Extended Heal Aid
+82230 [Miracle] Extended Heal
+82240 [Miracle] Extended Med Heal
+82250 [Miracle] Extended Great Heal
+82260 [Miracle] Extended Soothing Sunlight
+82270 [Miracle] Extended Projected Heal
+82280 [Miracle] Lingering Replenishment
+82290 [Miracle] Lingering Bountiful Light
+82300 [Miracle] Lingering Bountiful Sunlight
+82310 [Miracle] Quickened Caressing Tears
+82320 [Miracle] Supreme Lightning Blade
+82330 [Miracle] Supreme Blessed Weapon
+82340 [Miracle] Supreme Darkmoon Blade
+82360 [Miracle] Supreme Magic Barrier
+82370 [Miracle] Extended Sacred Oath
+82380 [Miracle] Divine Relief
+82390 [Miracle] Lingering Perseverance
+82400 [Miracle] Mass Tears of Denial
+82410 [Miracle] Refined Homeward
+83000 [Hex] Refined Deep Barb
+83010 [Hex] Deep Overflow
+83020 [Hex] Weakening Deep Soul
+83030 [Hex] Quickened Soul Dregs
+83040 [Hex] Refined Surging Deep
+83050 [Hex] Explosive Climax
+83060 [Hex] Great Writhing Deep
+83070 [Hex] Refined Dark Edge
+83080 [Hex] Heavy Abyssal Edge
+83090 [Hex] Pursuers
+83100 [Hex] Cursed Dark Bead
+83110 [Hex] Lingering Cascading Deep
+83120 [Hex] Repeating Dreg Torrent
+83130 [Hex] Repeating Yearning Dregs
+83140 [Hex] Black Fire Whip
+83150 [Hex] Weakening Black Fire Orb
+83160 [Hex] Refined Black Fire Scatter
+83170 [Hex] Scorching Black Fire Vestiges
+83180 [Hex] Scorching Black Flame
+83190 [Hex] Quickened Black Serpent
+83200 [Hex] Scorching Mournful Flames
+83210 [Hex] Forceful Dark Dance
+83220 [Hex] Scorching Recollection
+83230 [Hex] Refined Nibble
+83240 [Hex] Gnawing Swarm
+83250 [Hex] Quickened Dorhys' Gnawing
+83260 [Hex] Repeating Swarm
+83270 [Hex] Great Lifehunt Scythe
+83280 [Hex] Gravelord Sword
+83290 [Hex] Curse of Agony
+83300 [Hex] Refined Dead Again
+83310 [Hex] Echo of Despair
+83320 [Hex] Lingering Repel
+83330 [Hex] Curse of Silence
+83340 [Hex] Supreme Black Flame Arc
+83350 [Hex] Supreme Dark Blade
+83360 [Hex] Supreme Pungent Blade
+83370 [Hex] Supreme Pulsating Blade
+83380 [Hex] Lingering Numbness
+83390 [Hex] Lingering Atonement
+83400 [Hex] Bottomless Deep Protection
 89999 ### Script - Relationship
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
@@ -816,7 +974,7 @@
 3100531 [Hanging Corpse] Barrel
 3100540 [Hanging Corpse] Thrall Pick
 3100541 [Hanging Corpse] Sack
-3100550 [Hanging Corpse] Missionary Axe
+3100550 [Hanging Corpse] Missionary Axes
 3100560 [Hanging Corpse] Four-pronged Plow
 3100561 [Hanging Corpse] Harpe
 3100570 [Hanging Corpse] Breaking Wheel

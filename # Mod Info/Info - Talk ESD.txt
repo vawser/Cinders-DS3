@@ -336,6 +336,8 @@ Then create the python version and recompile it.
 450561 Father Ariandel
 450590 Dying Corvian
 
+470000 Announcer
+
 500000
 500001
 500002

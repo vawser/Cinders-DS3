@@ -1004,6 +1004,14 @@
 76217 Off-hand Moonlit Oil
 76218 Black Fire Oil
 76219 Off-hand Black Fire Oil
+76220 Rotten Oil
+76221 Off-hand Rotten Oil
+76222 Scorching Oil
+76223 Off-hand Scorching Oil
+76224 Enchanted Oil
+76225 Off-hand Enchanted Oil
+76226 Gust Oil
+76227 Off-hand Gust Oil
 77000 Repel
 100000 Wax Head
 100020 Wind Ground Force
@@ -1082,8 +1090,18 @@
 91050200 Weapon - Chaos Blade
 91050401 Weapon Art - Bloodlust - Right
 91050451 Weapon Art - Bloodlust - Left
+91061800 Profaned Flame
+91061850 Profaned Flame
+91061900 Sparks
+91061950 Sparks
 91062311 Weapon Art - Warcry 1 - Right
 91062351 Weapon Art - Warcry 1 - Left
+91063700 Storm Ruler
+91063701 Storm Ruler
+91069501 Lorian's Greatsword
+91069551 Lorian's Greatsword
+91069601 Lothric's Holy Sword
+91069651 Lothric's Holy Sword
 91070111 Weapon Art - Warcry 2 - Right
 91070151 Weapon Art - Warcry 2 - Left
 91070411 Weapon Art - Warcry 3 - Right
@@ -1098,6 +1116,8 @@
 91083212 Weapon Art - Ledo's Great Hammer - Right - Boulder Smash
 91083251 Weapon Art - Ledo's Great Hammer - Left - Craggy Boulder
 91083252 Weapon Art - Ledo's Great Hammer - Left - Boulder Smash
+91091600 Dragonslayer Swordspear
+91091650 Dragonslayer Swordspear
 91091901 Weapon - Yorshka's Spear
 91091910 Weapon Art - Yorshka's Spear - Right
 91091951 Weapon Art - Yorshka's Spear - Left
