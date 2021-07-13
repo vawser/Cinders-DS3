@@ -229,9 +229,9 @@
 <text id="452">Temporarily boosts all resistances</text>
 <text id="453">Inflict more damage, receive less</text>
 <text id="454">Transform, blending into environment</text>
-<text id="455">Crush to temporarily boost item discovery</text>
+<text id="455">Crush to boost item discovery</text>
 <text id="456">Restores HP and boosts frost resist</text>
-<text id="457">Crush to temporarily greatly boost item discovery</text>
+<text id="457">Crush to greatly boost item discovery</text>
 <text id="458">Temporarily boosts magic damage absorption</text>
 <text id="459">Temporarily boosts fire damage absorption</text>
 <text id="460">Temporarily boosts lightning damage absorption</text>
@@ -513,8 +513,8 @@
 <text id="3000">Offer this to Cornyx</text>
 <text id="3001">Used for ascended reinforcement to +14/+9, or forged into new items</text>
 <text id="3002">Used for ascended reinforcement to +15/+10</text>
-<text id="3004">Crush to temporarily boost soul gain</text>
-<text id="3005">Crush to temporarily greatly boost soul gain</text>
+<text id="3004">Crush to boost soul gain</text>
+<text id="3005">Crush to greatly boost soul gain</text>
 <text id="3006">Applies an aura of flame</text>
 <text id="3007">Applies an aura of magic</text>
 <text id="3008">Applies an aura of lightning</text>
@@ -561,6 +561,7 @@
 <text id="3049">Take on the appearance of a hunter of beasts</text>
 <text id="3050">Take on the upper appearance of a skeleton</text>
 <text id="3051">Take on the upper appearance of a murkman</text>
+<text id="3052">Take on the appearance of a Humanity Sprite</text>
 <text id="4000">Infuse to create lethal weapon</text>
 <text id="4001">Infuse to create cursed weapon</text>
 <text id="4002">Infuse to create poison weapon</text>

@@ -21,6 +21,7 @@
 10290 NPC Combat Test
 10298 City Map intrusion NPC test
 10299 City map cooperation NPC Logic test
+10300 Announcer
 20000 NPC Behavior Test 1
 21000 Slave Knight Gael - White Phantom [Ariandel]
 21001 Slave Knight Gael - Illusion [Ariandel]
@@ -1263,7 +1264,7 @@
 805200 Hollow Soldier - Sword
 805201 Hollow Soldier - Sword and Shield
 805202 Hollow Soldier - Crossbow
-805204 Hollow Soldier - Assassin
+805203 Hollow Soldier - Assassin
 805210 Large Hollow Soldier - Greataxe
 805211 Large Hollow Soldier - Halberd
 805220 Lothric Knight - Sword
@@ -1276,9 +1277,9 @@
 805310 Large Devout of the Deep
 805320 Cathedral Evangelist - Tome
 805330 Cathedral Grave Warden
-805340 Cathedral Knight - Greatsword
-805341 Cathedral Knight - Mace
-805350 Infested Corpse
+805340 Cathedral Knight - Mace
+805341 Cathedral Knight - Greatsword
+805350 Writhing Infested Corpse
 805360 Cathedral Guardian
 805400 Peasant Hollow - Axe
 805401 Peasant Hollow - Sickle
@@ -1288,7 +1289,7 @@
 805420 Hollow Manservant - Saw with Board
 805421 Hollow Manservant - Pot with Board
 805430 Large Undead Dog
-805440 Curse-rotted Greatwood
+805440 Aborr
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight

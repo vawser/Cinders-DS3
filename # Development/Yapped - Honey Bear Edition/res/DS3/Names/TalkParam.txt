@@ -3338,3 +3338,10 @@
 88002000 [El Hueso] What in bloody hell is wrong with you!
 88002010 [El Hueso] What a bloody joke...
 88002020 [El Hueso] Go on, be as bloody mad as you like.
+88003000 [Announcer] Welcome
+88003010 [Announcer] Round 1
+88003020 [Announcer] Round 2
+88003030 [Announcer] Round 3
+88003040 [Announcer] Round 4
+88003050 [Announcer] Round 5
+88003060 [Announcer] Victory

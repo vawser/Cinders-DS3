@@ -936,6 +936,8 @@
 72421 Magician Set - Body
 72430 Nullus Set - Head
 72431 Nullus Set - Body
+72440 Humanity Sprite - Invisible Head
+72441 Humanity Sprite - Invisible Body with Sprite VFX
 75000 Writ of Humanity
 75001 Writ of Anger
 75002 Writ of Crystallization

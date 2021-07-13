@@ -98,6 +98,10 @@
 1351000 Empty - Body (Transform)
 1352000 Empty - Hands (Transform)
 1353000 Empty - Legs (Transform)
+1360000 Humanity Sprite - Invisible Head (Transform)
+1361000 Humanity Sprite - Invisible Body (Transform)
+1362000 Humanity Sprite - Invisible Hands (Transform)
+1363000 Humanity Sprite - Invisible Legs (Transform)
 10000001 ### Armor ###
 10010000 Gough's Helm
 10011000 Gough's Armor

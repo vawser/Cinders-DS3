@@ -138,10 +138,16 @@ Add the following armour:
 # General
 - Increased the stats of some character NPC so that they can meet the stat requirements of the equipment that they use.
 - Changed the summary of Frozen Chaos Essence and Odessa's Crystal so that they mention their effects instead of reinforcement.
+- Armors are now sorted by their passive effects. Armor sets with different effects on each piece or armor pieces with more than one effect will be at the bottom of the list.
+- Added Tiny Mass of Humanity, changes the appearance of the player to a Humanity Sprite. Sold by Alchemist Jiji.
+- Changed the coins description to make them mention they "Last until death or warp".
 
 # Shields
 - Reduced the stability of the Leather Shield from 75 to 62 (the same as the rest of small shields).
 - Added air juggle stagger to the Dragonhead Greatshield WA.
+
+# Spells
+- Reduced the damage of the uncharged Old Moonlight projectile to 150 (charged is still 250).
 
 # Bosses
 - Mirror Knight:
@@ -218,6 +224,7 @@ Add the following armour:
 - Holy/Enchanted Follower's Torch should now properly deal damage when Weapon Art is used.
 - Fixed Old Moonlight consuming hefty amount of FP and Stamina when charged.
 - Rosamarinus and the elemental variant should now display the correct on hit effect.
+- Fixed the description of some ascended weapon buff spells.
 
 #------------------------------
 # TODO

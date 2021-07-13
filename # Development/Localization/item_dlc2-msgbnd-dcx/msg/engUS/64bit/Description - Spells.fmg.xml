@@ -1155,7 +1155,7 @@ Warriors of Carthus favored supplemental pyromancies such as this, which was use
 <text id="2435010">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 100 for 120 seconds.
+Increases Fire damage by 100 and reduces Stamina Consumption by 20% for 60 seconds.
 Scales with Spell Buff.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
@@ -1794,7 +1794,7 @@ only in fragments and whispers in remote regions.</text>
 <text id="3590010">Miracle once used in the great wars of the forgotten sun god.
 Reinforces right weapon with sunlight.
 
-Increases Lightning damage by 100 for 120 seconds.
+Increases Lightning damage by 100 and boosts damage against Hollow enemies by 20% for 60 seconds.
 Scales with Spell Buff.
 
 The power of the sun has never been forgotten, and its power burns bright.</text>
@@ -1812,7 +1812,7 @@ Perhaps this is better, as revenge is better left to the Blades.</text>
 to the Darkmoon covenant.
 Reinforces right weapon with Darkmoon light.
 
-Increases Magic damage by 100 for 120 seconds.
+Increases Magic damage by 100 and boosts damage against Abyssal enemies by 20% for 60 seconds.
 Scales with Spell Buff.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
@@ -2266,7 +2266,7 @@ Scales with Spell Buff.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
-Imbue right weapon with black flame, adding 100 Dark damage. Lasts 120 seconds.
+Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Scales with Spell Buff.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
