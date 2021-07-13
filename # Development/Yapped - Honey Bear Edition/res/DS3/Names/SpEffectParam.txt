@@ -4566,6 +4566,7 @@
 160703170 Hunter - Body
 160703180 Dragonform (DS3) - Head
 160703190 Dragonform (DS3) - Body
+160703200 Humanity Sprite - Head and Body
 160703999 ### Armor Illusions ###
 160704000 Havel's Insignia
 160704001 Havel's Emblem
@@ -5807,11 +5808,6 @@
 260100330 Twisted Knight
 260100340 Fallen Protector
 260199999 ### Memories ###
-260200000 Soul Boost
-260200001 Estus Restore
-260200002 Boss Boost
-260200010 Character Respawn
-260200020 Character Restore
 260200100 Power Scaling: SL 50
 260200101 Power Scaling: SL 100
 260200102 Power Scaling: SL 150

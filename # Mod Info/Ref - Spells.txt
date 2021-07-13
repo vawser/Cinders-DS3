@@ -163,7 +163,7 @@
 - FP Cost: 30
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 200 {600} (250 {750} charged) [100 {300}]
+- Magic Damage: 150 {450} (250 {750} charged) [100 {300}]
 
 #---- Heavy Old Moonlight
 - Increases Poise Damage to 100.
