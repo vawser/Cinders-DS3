@@ -188,6 +188,7 @@ Add the following armour:
 # Memories
 - Added the night skybox to the map.
 - Added an announcer that notifies the player of each round.
+- Memories now unlock as you visit different areas of the map.
 - Changed the general structure of Memories:
  - Now comprised of five rounds: 
   - 1: simple mixture of enemies
@@ -197,7 +198,7 @@ Add the following armour:
   - 5: boss
  - Each round is 3 minutes long, with the boss round lasting until it is defeated. Overall a memory will take about 15 minutes to complete.
  - The memory now ends once the boss is killed.
- - Completing a memory will award Primordial Fragment(s).
+ - Completing a memory will award Titanite material and Primordial Fragment(s).
 
 - Added new memories:
  - Memory of the Swamp
