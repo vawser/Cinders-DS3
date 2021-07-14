@@ -249,3 +249,25 @@ Mimic 212250
 Mirror Knight 103000
  Mad Warrior 103010
  Hallowed Knight 103020
+
+#--------------
+# m37
+#--------------
+# Architecture
+o371100 # Illusory Wall
+o371103 # Stone Wall
+
+#--------------
+# m38
+#--------------
+# Architecture
+o381306 # Long Stone bridge (bring in from Farron Keep o331306)
+o381034 # Ruin 1
+o381054 # Tree Stump
+
+# Clutter
+o381041 # Stone Cairn
+o381043 # Candles on Rock
+o381037 # Petrified Demon Cleric
+o381053 # Wolnir Table
+o000800 # Epitaph
