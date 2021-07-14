@@ -161,7 +161,10 @@ def t400504_x9():
         ClearTalkListData()
         
         # Purchase Item
-        AddTalkListDataIf(GetEventStatus(25009520) == 1, 1, 15010004, -1)
+        AddTalkListData(1, 15010007, -1)
+        
+        # Browse Collection
+        AddTalkListDataIf(GetEventStatus(25000055) == 1, 4, 15010008, -1)
         
         # Affixes
         AddTalkListData(3, 99002532, -1)
@@ -190,9 +193,13 @@ def t400504_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Offerings
+        # Lordvessel Items
         if GetTalkListEntryResult() == 1:
-            OpenRegularShop(260000, 260899)
+            OpenRegularShop(260000, 260499)
+            continue
+        # Mythic mode items
+        elif GetTalkListEntryResult() == 4:
+            c1111(260500, 260999)
             continue
         # Talk
         elif GetTalkListEntryResult() == 2:

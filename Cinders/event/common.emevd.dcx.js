@@ -2222,11 +2222,7 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(13900860, OFF);
-    SetEventFlag(13905865, OFF);
-    SetEventFlag(13900861, OFF);
-    SetEventFlag(13905910, OFF);
-    SetEventFlag(13905866, OFF);
+    SetEventFlag(25000055, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });

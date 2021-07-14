@@ -173,38 +173,39 @@ def t341001_x9():
     while True:
         ClearTalkListData()
         """ State 2 """
-        # action:15000150:Travel
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 1, 15000150, -1)
+        # Travel
+        AddTalkListData(1, 15000150, -1)
         
-        # action:15002000:Level Up
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 10, 15002000, -1)
+        # Level Up
+        AddTalkListData(10, 15002000, -1)
         
-        # action:15002002:Allot Estus
-        # AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 22, 15002002, -1)
+        #Allot Estus
+        # AddTalkListData(22, 15002002, -1)
         
-        # action:15000130:Attune Spell
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 2, 15000130, -1)
+        # Attune Spell
+        AddTalkListData(2, 15000130, -1)
         
-        # action:15010002:Reinforce Weapon
-        #AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 18, 15010002, -1)
+        # Reinforce Weapon
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 18, 15010002, -1)
         
-        # action:15010001:Infuse Weapon
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 17, 15010001, -1)
+        # Infuse Weapon
+        AddTalkListData(17, 15010001, -1)
         
-        # action:15010003:Repair Equipment
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 19, 15010003, -1)
+        # Repair Equipment
+        AddTalkListData(19, 15010003, -1)
         
-        # action:15003003:Purchase Item
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 20, 15010005, -1)
+        # Purchase Item
+        AddTalkListData(20, 15010005, -1)
         
-        # action:15003003:Sell Item
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 21, 15010006, -1)
+        # Sell Item
+        AddTalkListData(21, 15010006, -1)
         
-        # action:15000220:Organize Storage Box
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 3, 15000220, -1)
+        # Organize Storage Box
+        AddTalkListData(3, 15000220, -1)
         
         # action:15000005:Leave
         AddTalkListData(99, 15000005, -1)
+        
         """ State 4 """
         ShowShopMessage(1)
         if GetTalkListEntryResult() == 1:

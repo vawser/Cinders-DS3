@@ -6661,6 +6661,17 @@ Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// ----------------------------------------
+// Mantle Point
+// <mantle obj id>
+// ----------------------------------------
+Event(20090600, Restart, function(X0_4) {
+    SetNetworkSyncState(Disabled);
+    IfActionButtonInArea(MAIN, 20000, X0_4);
+    SetSpEffect(10000, 112410); // Play mantle in c0000.hks
+    EndUnconditionally(EventEndType.Restart);
+});
+
 //----------------------------------------------
 // Companion - Appearance Monitor
 // <entity id>

@@ -1338,19 +1338,22 @@ Primordial fragment lost to the sands of time.
 Used at Affixing Table to affix accessories, enhancing their strength.
 </text>
 <text id="1000">Titanite shard for weapon reinforcement.
-Remnant of the past.
+
+Reinforces weapons and shields to +3.
 
 Titanite shards are fragments of
 the Legendary Slabs. Titanite is
 etched into weapons to reinforce.</text>
 <text id="1001">Titanite shard for weapon reinforcement.
-Remnant of the past.
+
+Reinforces weapons and shields to +6.
 
 Titanite shards are fragments of
 the Legendary Slabs. Titanite is
 etched into weapons to reinforce.</text>
 <text id="1002">Titanite chunk for weapon reinforcement.
-Remnant of the past.
+
+Reinforces weapons and shields to +9.
 
 Few records of chunks exist, and once one was
 discovered in Lothric, the race to locate
@@ -1358,7 +1361,8 @@ Legendary Slabs began, but there have been
 no reports of success.</text>
 <text id="1003">Titanite slab for weapon reinforcement,
 said to once belong to the gods.
-Remnant of the past.
+
+Reinforces weapons and shields to +10.
 
 Titanite slabs are smithing materials of the gods,
 and weapons reinforced with slabs will be admired
@@ -1537,15 +1541,16 @@ Present to the statue in the Cathedral of the Deep to travel to Yorshka's church
 Present to the statue in Irithyll to travel to the Painted World of Ariandel, or vice versa.</text>
 <text id="2022">A broken tablet, enscribed with myths of old.
 
-Enables Hard mode. Irreversible.
+Enables Mythic mode. Irreversible.
 
 Effects:
-- Reduces absorptions by 25%.
-- Reduces soul absorption by 75%.
-- Reduces stamina recovery by 10.
-- Reduces aux resistances by 50%.
-- Removes the ability to sell items.
-- Removes the soul absorption bonus from Curses.</text>
+- You can no longer reinforce weaponry and shields.
+- Unlocks special offerings from Magnum Ursus.
+
+Modifiers:
+- Reduces absorptions by 33%.
+- Reduces aux resistances by 33%.
+</text>
 <text id="2023">The soul of a giant who perished in the Smouldering Lake.
 
 Present to the petrified giant in lower Smouldering Lake to travel up to the top of the lake.</text>
@@ -2239,7 +2244,7 @@ Many a champion have fallen to the beasts that roam the lands of Lothric. Their 
 Use to absorb its latent power, granting immunity to status effects for 30 seconds.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
-<text id="4205">The fading soul of a fallen beserker.
+<text id="4205">The fading soul of a fallen berserker.
 
 Use to absorb its latent power, increasing stamina recovery by 100 for 30 seconds.
 

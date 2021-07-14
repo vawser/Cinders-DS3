@@ -215,7 +215,8 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 12 """
         # action:15010002:Reinforce Weapon
-        AddTalkListData(2, 15010002, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15010002, -1)
+        
         # action:15010001:Infuse Weapon
         AddTalkListData(1, 15010001, -1)
         # action:15010003:Repair Equipment

@@ -104,7 +104,6 @@ Add the following armour:
 #------------------------------
 # Changelog
 #------------------------------
-
 # Weapons
 - Sidearms tweak:
  - Rosamarinus:
@@ -134,6 +133,33 @@ Add the following armour:
 
 - Slightly increases the radius of Chaos Blade Warcry Special attack.
 - Slightly extended the lingering hitbox for Alternate Katana's 4th R1 when one handed.
+
+# Reinforcement
+- Restored the reinforcement mechanic:
+ - All weapons and shields are now reinforcable upto +10.
+ - Reinforcement now only boosts base damage.
+ - Reinforcement uses the standard Titanite set in all instances (1/2/3 Titanite Shard, 1/2/3 Large Titanite Shard, 1/2/3 Titanite Chunk, 1 Titanite Slab).
+- Added Titanite across all maps, mostly present on corpses.
+
+# Mythic Mode
+- Renamed Tablet of Legends to Mythical Tablet
+
+- Renamed Hard Mode to Mythic Mode.
+- Now has the following effects:
+ - Disables the ability to reinforce weapons and shields.
+ - Unlocks special offerings from Magnum Ursus.
+ - Reduces absorptions by 33%.
+ - Reduces aux resistances by 33%.
+ 
+# NPCs
+- Magnum Ursus now offers his set to buy immediately.
+- Magnum Ursus will now offer the following to buy based on boss kills:
+ - Vordt unlocks Titanite Shards
+ - Pontiff Sulyvahn unlocks Large Titanite Shards
+ - Nameless King unlocks Titanite Chunks
+ - Soul of Cinder unlocks Titanite Slabs
+- Magnum Ursus now has a secret shop for those in Mythic mode.
+- Moved Magnum Ursus to the other side of the sanctum.
 
 # General
 - Increased the stats of some character NPC so that they can meet the stat requirements of the equipment that they use.
@@ -218,6 +244,13 @@ Add the following armour:
    - Hollow Manservant (Pot)
    - Aborr
 
+# Map
+- Irithyll:
+ - Added a new walkway just after the cave as you enter Irithyll. This allows you to fall down into the waterway as a shortcut.
+ - Added a new area with a giant and a chest. This is accessed via the new 'Leap' mechanic.
+ 
+- Added a 'Leap' mechanic, allowing you to leap over certain barriers in specific locations.
+
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
 - Fixed dummy polys for Burial Scythe.
@@ -237,18 +270,6 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Covenant Inventory
 - Piercing Rifle
 - Gehrman's Blunderbuss
-
-# Memory of the Archives
-Archive Scholar 134000
-Lothric Knight - Sword - Exposed Face 128203
-Lothric Knight - Spear - Exposed Face 128221
-Lothric Priest 144200
-Pus of Man  109100
-Crystal Sage 132110
-Mimic 212250
-Mirror Knight 103000
- Mad Warrior 103010
- Hallowed Knight 103020
 
 #--------------
 # m37
@@ -271,3 +292,4 @@ o381043 # Candles on Rock
 o381037 # Petrified Demon Cleric
 o381053 # Wolnir Table
 o000800 # Epitaph
+

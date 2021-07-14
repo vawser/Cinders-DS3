@@ -11,40 +11,40 @@
   <extended>0x04</extended>
   <files>
     <file>
+      <flags>0x40</flags>
       <id>7000000</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\c0000.hkt</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>7000100</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\Characters\c0000.hkt</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>7000200</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\Behaviors\c0000.hkt</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>7000300</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\c0000.hkx</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>7000400</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\Characters\c0000.hkx</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>7000500</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>Action\c0000\Export\Behaviors\c0000.hkx</path>
-      <flags>0x40</flags>
     </file>
   </files>
 </bnd4>

@@ -186,7 +186,7 @@ def t300004_x9():
         AddTalkListData(2, 15000130, -1)
         
         # Reinforce Weapon
-        #AddTalkListData(18, 15010002, -1)
+        AddTalkListDataIf(GetEventStatus(25000055) == 0, 18, 15010002, -1)
         
         # Infuse Weapon
         AddTalkListData(17, 15010001, -1)
@@ -198,7 +198,7 @@ def t300004_x9():
         AddTalkListData(20, 15010005, -1)
         
         # Sell Item
-        AddTalkListDataIf(GetEventStatus(25000055) == 0, 21, 15010006, -1)
+        AddTalkListData(21, 15010006, -1)
         
         # Organize Storage Box
         AddTalkListData(3, 15000220, -1)
