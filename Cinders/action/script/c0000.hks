@@ -16238,7 +16238,7 @@ function Update()
     SetStyleSpecialEffect()
     
     -- Cinders
-    TestFunction()
+    AnimationMonitor()
     UpdateFP()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
@@ -16582,8 +16582,15 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
     end
 end
 
-function TestFunction()
-    -- Test stuff here
+function AnimationMonitor()
+    -- Short Leap
+    if env(1116, 112410) == TRUE then
+        ExecEventAllBody("W_Event65030")
+    end
+    -- Long Leap
+    if env(1116, 112411) == TRUE then
+        ExecEventAllBody("W_Event60750")
+    end
 end
 
 global = {}

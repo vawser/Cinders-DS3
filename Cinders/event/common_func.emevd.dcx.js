@@ -6662,13 +6662,24 @@ Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // ----------------------------------------
-// Leap Point
+// Leap Point - Short
 // <mantle obj id>
 // ----------------------------------------
 Event(20090600, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
     IfActionButtonInArea(MAIN, 20000, X0_4);
-    RotateCharacter(10000, X0_4, 65030, false);
+    SetSpEffect(10000, 112410);
+    EndUnconditionally(EventEndType.Restart);
+});
+
+// ----------------------------------------
+// Leap Point - Long
+// <mantle obj id>
+// ----------------------------------------
+Event(20090601, Restart, function(X0_4) {
+    SetNetworkSyncState(Disabled);
+    IfActionButtonInArea(MAIN, 20000, X0_4);
+    SetSpEffect(10000, 112411);
     EndUnconditionally(EventEndType.Restart);
 });
 

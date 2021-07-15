@@ -1990,8 +1990,6 @@ Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     SkipIfCharacterHasSpeffect(1, 10000, X4_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X4_4);
     
-    // Skip if already added
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25000055); // Skip soul boost if Hard mode is enabled
     SkipIfCharacterHasSpeffect(1, 10000, X8_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X8_4);
     
