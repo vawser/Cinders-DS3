@@ -16242,7 +16242,6 @@ function Update()
     UpdateFP()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
-    LeapMonitor()
     
     -- Rings
     UpdateSigilEffect()
@@ -16580,12 +16579,6 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
             
             act(2002, bullet_effect) -- Effect
         end
-    end
-end
-
-function LeapMonitor()
-    if env(1116, 112410) == TRUE then
-        ExecEventAllBody("W_Event65030")
     end
 end
 
