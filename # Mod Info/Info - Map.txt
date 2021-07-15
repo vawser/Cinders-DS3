@@ -1,4 +1,14 @@
-﻿map/mXX_XX_XX_XX folder:
+﻿#---------------
+# Reference
+#---------------
+map/mXX_XX_XX_XX folder:
     mXX_XX_XX_XX_<model id>.mapbnd.dcx:
         Contains the map piece models
- 
+
+map/mXX folder:
+    Contains the textures used by map piece models
+    
+#---------------
+# New Objects
+#---------------
+o375000 # Irithyll Guard Rail (Snowy)

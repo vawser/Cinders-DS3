@@ -229,7 +229,7 @@ def t400211_x14():
         # action:15011020:Purchase Item
         AddTalkListData(1, 15011020, -1)
         # action:15000012:Sell Item
-        AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)
+        AddTalkListData(2, 15000012, -1)
         # action:15000000:Talk
         AddTalkListData(4, 15000000, -1)
         # action:15000005:Leave
