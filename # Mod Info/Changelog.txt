@@ -138,7 +138,7 @@ Add the following armour:
 - Restored the reinforcement mechanic:
  - All weapons and shields are now reinforcable upto +10.
  - Reinforcement now only boosts base damage.
- - Reinforcement uses the standard Titanite set in all instances (1/2/3 Titanite Shard, 1/2/3 Large Titanite Shard, 1/2/3 Titanite Chunk, 1 Titanite Slab).
+ - Reinforcement uses the standard Titanite set in all instances (2/4/6 Titanite Shard, 2/4/6 Large Titanite Shard, 2/4/6 Titanite Chunk, 1 Titanite Slab).
 - Added Titanite across all maps, mostly present on corpses.
 
 # Mythic Mode
