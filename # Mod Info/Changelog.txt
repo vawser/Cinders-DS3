@@ -248,9 +248,8 @@ Add the following armour:
 # Map
 - Irithyll:
  - Added a new walkway just after the cave as you enter Irithyll. This allows you to fall down into the waterway as a shortcut.
- - Added a new area with a giant and a chest. This is accessed via the new 'Leap' mechanic.
- 
-- Added a 'Leap' mechanic, allowing you to leap over certain barriers in specific locations.
+ - Added a new area with a giant and a chest.
+- Added a Mantling mechanic. Certain locations will allow you to 'Hop' or 'Leap' over barriers or towards certain areas.
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.

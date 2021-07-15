@@ -6662,7 +6662,7 @@ Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 // ----------------------------------------
-// Leap Point - Short
+// Hop Point
 // <mantle obj id>
 // ----------------------------------------
 Event(20090600, Restart, function(X0_4) {
@@ -6673,12 +6673,12 @@ Event(20090600, Restart, function(X0_4) {
 });
 
 // ----------------------------------------
-// Leap Point - Long
+// Leap Point
 // <mantle obj id>
 // ----------------------------------------
 Event(20090601, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(MAIN, 20000, X0_4);
+    IfActionButtonInArea(MAIN, 20001, X0_4);
     SetSpEffect(10000, 112411);
     EndUnconditionally(EventEndType.Restart);
 });

@@ -2922,8 +2922,8 @@ and haunted by a black sun.</text>
 <text id="99000009">Debug 9</text>
 <text id="99000010">Debug 10</text>
 <text id="99000011">You are now on journey &lt;?nextLoopCount?&gt;</text>
-<text id="99000012">Leap</text>
-<text id="99000013">%null%</text>
+<text id="99000012">Hop</text>
+<text id="99000013">Leap</text>
 <text id="99000014">%null%</text>
 <text id="99000100">Begin journey &lt;?nextLoopCount?&gt; ?</text>
 <text id="99000101">%null%</text>
