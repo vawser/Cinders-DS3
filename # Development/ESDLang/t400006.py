@@ -217,6 +217,7 @@ def t400006_x12():
     while True:
         ClearTalkListData()
         
+        AddTalkListDataIf(GetEventStatus(14000002) == 0, 98, 99031003, -1)
         AddTalkListDataIf(GetEventStatus(14000002) == 1, 3, 99031003, -1) # Memory of the Wall
         AddTalkListDataIf(GetEventStatus(13100004) == 1, 5, 99031005, -1) # Memory of the Settlement
         AddTalkListDataIf(GetEventStatus(13300003) == 1, 2, 99031002, -1) # Memory of the Swamp
