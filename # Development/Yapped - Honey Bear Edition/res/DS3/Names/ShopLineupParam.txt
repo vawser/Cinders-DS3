@@ -1416,11 +1416,24 @@
 250822 [Alchemist Jiji - Writs] Writ of Fury
 250823 [Alchemist Jiji - Writs] Writ of Envy
 250824 [Alchemist Jiji - Writs] Writ of Desire
-260000 [Magnum Ursus] Primordial Fragment
-260010 [Magnum Ursus] Cowl of the Bear
-260011 [Magnum Ursus] Armor of the Bear
-260012 [Magnum Ursus] Gauntlets of the Bear
-260013 [Magnum Ursus] Leggings of the Bear
+260000 [Magnum Ursus - Lordvessel] Primordial Fragment
+260010 [Magnum Ursusl] Cowl of the Bear
+260011 [Magnum Ursusl] Armor of the Bear
+260012 [Magnum Ursusl] Gauntlets of the Bear
+260013 [Magnum Ursusl] Leggings of the Bear
+260014 [Magnum Ursus - Vordt] Titanite Shard
+260015 [Magnum Ursus - Pontiff Sulyvahn] Large Titanite Shard
+260016 [Magnum Ursus - Nameless King] Titanite Chunk
+260017 [Magnum Ursus - Soul of Cinder] Titanite Slab
+260500 [Magnum Ursus - Mythic] Soul of a Fallen Paladin
+260501 [Magnum Ursus - Mythic] Soul of a Fallen Sentinel
+260502 [Magnum Ursus - Mythic] Soul of a Fallen Sage
+260503 [Magnum Ursus - Mythic] Soul of a Fallen Warrior
+260504 [Magnum Ursus - Mythic] Soul of a Fallen Astrologer
+260505 [Magnum Ursus - Mythic] Soul of a Fallen Berserker
+260506 [Magnum Ursus - Mythic] Soul of a Fallen Champion
+260507 [Magnum Ursus - Mythic] Relic of Power
+260508 [Magnum Ursus - Mythic] Relic of Insanity
 270000 [Master Benjin] Hunter's Pistol
 270001 [Master Benjin] Hunter's Blunderbuss
 270002 [Master Benjin] Repeating Pistol

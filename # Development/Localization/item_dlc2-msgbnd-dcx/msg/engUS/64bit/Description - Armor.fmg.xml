@@ -2243,6 +2243,214 @@ Effect: increases Magic damage by 2.5%.</text>
 <text id="10403000">Functional shoes suited for stone floors. They are worn by wandering magicians.
 
 Effect: increases Magic damage by 2.5%.</text>
+<text id="10410000">Helm worn by Ironclad Soldiers.
+Provides high defense, but is so heavy that
+it requires great strength to move.
+
+The Ironclad Soldiers were minions created
+by the Old Iron King, their life granted by
+an enchantment of souls.
+
+Once, the Old King could have unraveled the
+greater mysteries, with the aid of his great soul,
+but he was led astray by his enormous fortune,
+becoming nothing more than a vulgar hedonist.
+
+Effect: increases Vitality by 2.</text>
+<text id="10411000">Armor worn by Ironclad Soldiers.
+Provides high defense, but is so heavy that
+it requires great strength to move.
+
+The Ironclad Soldiers were minions created
+by the Old Iron King, their life granted by
+an enchantment of souls.
+
+Once, the Old King could have unraveled the
+greater mysteries, with the aid of his great soul,
+but he was led astray by his enormous fortune,
+becoming nothing more than a vulgar hedonist.
+
+Effect: reduces enemy backstab damage to zero.</text>
+<text id="10412000">Gauntlets worn by Ironclad Soldiers.
+Provides high defense, but are so heavy that
+it requires great strength to move.
+
+The Ironclad Soldiers were minions created
+by the Old Iron King, their life granted by
+an enchantment of souls.
+
+Once, the Old King could have unraveled the
+greater mysteries, with the aid of his great soul,
+but he was led astray by his enormous fortune,
+becoming nothing more than a vulgar hedonist.
+
+Effect: increases Vitality by 2.</text>
+<text id="10413000">Leggings worn by Ironclad Soldiers.
+Provides high defense, but are so heavy that
+they require great strength to move.
+
+The Ironclad Soldiers were minions created
+by the Old Iron King, their life granted by
+an enchantment of souls. By now this is
+again an iron husk, and fit to wear.
+
+Once, the Old King could have unraveled the
+greater mysteries, with the aid of his great soul,
+but he was led astray by his enormous fortune,
+becoming nothing more than a vulgar hedonist.
+
+Effect: increases Vitality by 2.</text>
+<text id="10420000">Helm worn by the Herald of Winter.
+Originally imbued with the power of miracles,
+now soaked with dark after extended exposure
+in the Undead Crypt.
+
+A knight from a faraway land was lured to this
+accursed land, but forgot even why he came,
+eventually reduced to a shadow of his former self.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="10421000">Armor worn by the Herald of Winter.
+Originally imbued with the power of miracles,
+now soaked with dark after extended exposure
+in the Undead Crypt.
+
+A knight from a faraway land was lured to this
+accursed land, but forgot even why he came,
+eventually reduced to a shadow of his former self.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="10422000">Gauntlets worn by the Herald of Winter.
+Originally imbued with the power of miracles,
+now soaked with dark after extended exposure
+in the Undead Crypt.
+
+A knight from a faraway land was lured to this
+accursed land, but forgot even why he came,
+eventually reduced to a shadow of his former self.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="10423000">Leggings worn by the Herald of Winter.
+Originally imbued with the power of miracles,
+now soaked with dark after extended exposure
+in the Undead Crypt.
+
+A knight from a faraway land was lured to this
+accursed land, but forgot even why he came,
+eventually reduced to a shadow of his former self.
+
+Effect: increases Dark damage by 2.5%.</text>
+<text id="10430000">Hemp hood that fully covers the face.
+Provides protection from the elements,
+and little more.
+
+The cursed souls who wander the lands
+have a strange way of ending up here,
+as if drawn from afar by some force.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="10431000">Traveler's tunic.
+Won't provide much in the way of protection.
+
+The cursed souls who wander the lands
+have a strange way of ending up here,
+as if drawn from afar by some force.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="10432000">Traveler's manchettes.
+Won't provide much in the way of protection.
+
+The cursed souls who wander the lands
+have a strange way of ending up here,
+as if drawn from afar by some force.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="10433000">Traveler's trousers.
+Won't provide much in the way of protection.
+
+The cursed souls who wander the lands
+have a strange way of ending up here,
+as if drawn from afar by some force.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="10440000">Helm of the sanctum knights.
+
+The sanctum knights renounced their own
+flesh to eternally guard the Sanctum
+from Sir Yorgh and his Drakeblood Knights.
+
+Effect: increases stamina recovery by 5.</text>
+<text id="10441000">Armor of the sanctum knights.
+
+The sanctum knights renounced their own
+flesh to eternally guard the Sanctum
+from Sir Yorgh and his Drakeblood Knights.
+
+Effect: renders the wearer translucent, reducing detection via sight by 75%.</text>
+<text id="10442000">Gauntlets of the sanctum knights.
+
+The sanctum knights renounced their own
+flesh to eternally guard the Sanctum
+from Sir Yorgh and his Drakeblood Knights.
+
+Effect: renders the right-hand weapon of the wearer invisible.</text>
+<text id="10443000">Leggings of the sanctum knights.
+
+The sanctum knights renounced their own
+flesh to eternally guard the Sanctum
+from Sir Yorgh and his Drakeblood Knights.
+
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.</text>
+<text id="10450000">Sturdy helm belongs to a long forgotten warrior, it is said this warrior searched far and wide for a way to save one most dearest to him, but ultimately failed in his quest.
+
+Effect: increases Poise by 5%.</text>
+<text id="10451000">Sturdy armor belongs to a long forgotten warrior, it is said this warrior searched far and wide for a way to save one most dearest to him, but ultimately failed in his quest.
+
+Severely dented parts imply the warrior suffered a most gruesome death, perhaps by falling from an extremly high place.
+
+Effect: increases Poise by 5%.</text>
+<text id="10452000">Sturdy gauntlets belong to a long forgotten warrior, it is said this warrior searched far and wide for a way to save one most dearest to him, but ultimately failed in his quest.
+
+The word "Robert" can be faintly make out on the inside of the right hand gauntlet, the writing appears to have been writen by a child.
+
+Effect: increases Poise by 5%.</text>
+<text id="10453000">Sturdy leggings belong to a long forgotten warrior, it is said this warrior searched far and wide for a way to save one most dearest to him, but ultimately failed in his quest.
+
+Effect: increases Poise by 5%.</text>
+<text id="10460000">Helmet worn by generals in a Far Eastern land, it is said these warriors could never be bested, owing to their mastery of the blade and sturdy armor.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="10461000">Armor worn by generals in a Far Eastern land, it is said these warriors could never be bested, owing to their mastery of the blade and sturdy armor.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="10462000">Gauntlets worn by generals in a Far Eastern land, it is said these warriors could never be bested, owing to their mastery of the blade and sturdy armor.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="10463000">Leggings worn by generals in a Far Eastern land, it is said these warriors could never be bested, owing to their mastery of the blade and sturdy armor.
+
+Effect: increases stamina damage by 25%.</text>
+<text id="10470000">Mask fashioned by a mysterious group of warriors from a Far Eastern land, not much is known about them, though the armor suggests that they were all female.
+
+Effect: increases Lightning damage by 2.5%.</text>
+<text id="10471000">Light armor fashioned by a mysterious group of warriors from a Far Eastern land, not much is known about them, though the armor suggests that they were all female.
+
+Effect: increases Lightning damage by 2.5%.</text>
+<text id="10473000">Purple bakama fashioned by a mysterious group of warriors from a Far Eastern land, not much is known about them, though the armor suggests that they were all female.
+
+Effect: increases Lightning damage by 2.5%.</text>
+<text id="10481000">Overcoat of a nameless shinobi that hails from the East, a lone wolf that once lost his purpose to live when he was deceived by his own traitorous kin. 
+
+The once honourable shinobi was left forgotten in a well, waiting for purpose once more...
+
+Effect: increases Dexterity by 2.</text>
+<text id="10482000">Armguards of a nameless shinobi that hails from the East, the left arm is replaced by a prosthetic arm which once allows the owner to fit in with various combat tools, but this ability has been lost due the parts eroading. 
+
+Effect: increases Dexterity by 2.</text>
+<text id="10483000">Bakama of a nameless shinobi that hails from the East, soaked with blood and sweat from countless battles, he was at last able to recover his honour in his final duel with a legendary commander. 
+
+It is said that the lone wolf then set off to the west, to return the Dragon's Heir to its rightful place.
+
+Effect: increases Dexterity by 2.</text>
 <text id="19000000">Helm of an order of fallen knights who disbanded and fled, but met untimely deaths.
 
 The drab, tattered hood conceals tough, black metal which provides dependable protection from fire.
@@ -4877,9 +5085,24 @@ Effect: increases Magic damage by 2.5%.</text>
 It is said that this mask represents the spirit of war, and the tenacity needed to persevere against unfathomable odds.
 
 Effect: increases Physical damage by 2.5%.</text>
-<text id="99500000">A samurai helm worn by easterners of a certain status.
+<text id="99500000">Decorated helmet worn by a legendary commander of a Far Eastern land, but who was ultimately felled by a nameless shinobi in their final duel.
 
-Worn by war chiefs in the east, this helm marks its wearer as one of imperial origin.
+In was at his final moments he realised that it was himself that brought demise to his country and people, he then sacrificed himself in an attempt to right his wrongs, but the final outcome was unknown to all but the nameless shinobi.
+
+Effect: increases Dexterity by 2.</text>
+<text id="99501000">Decorated armor worn by a legendary commander of a Far Eastern land, but who was ultimately felled by a nameless shinobi in their final duel.
+
+In the end his country was doomed by his own blind pursuit of immortality that he once thought would be the key to saving his people.
+
+Effect: increases Dexterity by 2.</text>
+<text id="99502000">Decorated armguards worn by a legendary commander of a Far Eastern land, but who was ultimately felled by a nameless shinobi in their final duel.
+
+Traces of lightning can be found on the battered armguards, implying the deceased owner had an affinity with lightning.
+
+Effect: increases Dexterity by 2.</text>
+<text id="99503000">Decorated leggings worn by a legendary commander of a Far Eastern land, but who was ultimately felled by a nameless shinobi in their final duel.
+
+In the end his country was doomed by his own blind pursuit of immortality that he once thought would be the key to saving his people.
 
 Effect: increases Dexterity by 2.</text>
 <text id="99510000">A samurai helm worn by easterners of a certain status.

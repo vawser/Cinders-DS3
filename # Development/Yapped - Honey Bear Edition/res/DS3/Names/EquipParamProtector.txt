@@ -240,10 +240,10 @@
 10451000 Stalwart Knight Armor
 10452000 Stalwart Knight Gauntlets
 10453000 Stalwart Knight Leggings
-10460000 Eastern Soldier Helm
-10461000 Eastern Soldier Armor
-10462000 Eastern Soldier Gauntlets
-10463000 Eastern Soldier Leggings
+10460000 Eastern General Helm
+10461000 Eastern General Armor
+10462000 Eastern General Gauntlets
+10463000 Eastern General Leggings
 10470000 Okami Mask
 10471000 Okami Armor
 10473000 Okami Trousers
