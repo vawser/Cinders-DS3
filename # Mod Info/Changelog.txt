@@ -133,10 +133,14 @@ Add the following armour:
 
 - Slightly increases the radius of Chaos Blade Warcry Special attack.
 - Slightly extended the lingering hitbox for Alternate Katana's 4th R1 when one handed.
+- Adjusted the damage value for Combustion style Weapon Art. Should now be weaker than Great Combustion/Black Flame, and will not longer caused Air Juggle.
+- Elemental infused Moonlight Greatsword will now fires Moonlight Wave with different colors matched with the infusion.
+- Added Luck variant and Enchanted variant of Moonlight Greatsword.
+- Adjusted the self-damage on Bloodletter Weapon Art and kicks, it now deals 12% Max HP + 150 HP, for kicks, deals 4.8% Max HP + 150 HP to self. Have fun hurting yourself :)
 
 # Reinforcement
 - Restored the reinforcement mechanic:
- - All weapons and shields are now reinforcable upto +10.
+ - All weapons and shields are now reinforcable up to +10.
  - Reinforcement now only boosts base damage.
  - Reinforcement uses the standard Titanite set in all instances (2/4/6 Titanite Shard, 2/4/6 Large Titanite Shard, 2/4/6 Titanite Chunk, 1 Titanite Slab).
 - Added Titanite across all maps, mostly present on corpses.
@@ -258,6 +262,10 @@ Add the following armour:
 - Fixed Old Moonlight consuming hefty amount of FP and Stamina when charged.
 - Rosamarinus and the elemental variant should now display the correct on hit effect.
 - Fixed the description of some ascended weapon buff spells.
+- Fixed the infused variant for the Longstaff of Rosaria, the Weapon Art should now work as intended.
+- Fixed an oversight for the poise value on Dragonslayer set.
+- Fixed the crash caused by attempting to use a Heavy Attack after Light Attack for Gravelord Sword.
+- Kirkhammer now correctly send enemy flying with fully charged 2H R2.
 
 #------------------------------
 # TODO
