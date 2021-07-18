@@ -174,7 +174,7 @@ def t400001_x9():
         ClearTalkListData()
         """ State 2 """
         # Travel
-        AddTalkListDataIf(GetEventStatus(14000000) == 1, 1, 15000150, -1)
+        AddTalkListData(1, 15000150, -1)
         
         # Level Up
         AddTalkListData(10, 15002000, -1)
