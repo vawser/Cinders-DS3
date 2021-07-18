@@ -2222,135 +2222,135 @@ Event(20051, Restart, function() {
     
     // Dismal Knight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002001);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110000);
     
     // Vordt
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002002);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110001);
     
     // Curse-rotted Greatwood
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002003);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110002);
     
     // Crystal Sage
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002004);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110003);
     
     // Deacons
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002005);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110004);
     
     // Abyss Watchers
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002006);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110005);
     
     // High Lord Wolnir
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002007);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110006);
     
     // Old Demon King
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002008);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110007);
     
     // Pontiff Sulyvahn
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002009);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110008);
     
     // Aldrich
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002010);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110009);
     
     // Yhorm
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002011);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110010);
     
     // Dancer
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002012);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110011);
     
     // Oceiros
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002013);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110012);
     
     // Dragonslayer Armour
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002014);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110013);
     
     // Ancient Wyvern
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002015);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110014);
     
     // Nameless King
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002016);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110015);
     
     // Champion Gundyr
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002017);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110016);
     
     // Twin Princes
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002018);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110017);
     
     // Soul of Cinder
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002019);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110018);
     
     // Sister Friede
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002020);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110019);
     
     // Lordran Remnants
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002021);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110020);
     
     // Demon Prince
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002022);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110021);
     
     // Darkeater Midir
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002023);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110022);
     
     // Slave Knight Gael
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002024);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110023);
     
     // Halflight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002025);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110024);
     
     // Frostfire Colossus
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002026);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110025);
     
     // Cathedral Guardian
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002027);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110026);
     
     // Mirror Knight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002028);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110027);
     
     // Aborr
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002029);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110028);
     
     // Herald of Winter
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002030);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110029);
     
     // The Rock
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002031);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110030);
     
     // Twisted Knight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002032);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110031);
     
     // Fallen Protector
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002033);
-    SetSpEffect(10000, 0);
+    SetSpEffect(10000, 260110032);
     
 });
 
