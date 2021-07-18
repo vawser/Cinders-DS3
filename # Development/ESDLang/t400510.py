@@ -229,6 +229,9 @@ def t400510_x10():
         # Mythic Mode
         AddTalkListData(3, 99060012, -1)
         
+        # Starting Location
+        AddTalkListData(4, 99060008, -1)
+        
         # Leave
         AddTalkListData(99, 15000190, -1)
         
@@ -247,6 +250,10 @@ def t400510_x10():
         # Mythic Mode
         elif GetTalkListEntryResult() == 3:
             assert t400510_x13()
+            continue 
+        # Starting Location
+        elif GetTalkListEntryResult() == 4:
+            assert t400510_x40()
             continue 
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -443,6 +450,288 @@ def t400510_x30():
         if GetTalkListEntryResult() == 1:
             SetEventState(25009800, 1)
             return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+# Starting Location
+def t400510_x40():
+    c1110()
+    while True:
+        ClearTalkListData()
+        
+        # Cemetery of Ash
+        AddTalkListData(1, 99060030, -1)
+        
+        # Untended Graves
+        AddTalkListData(2, 99060031, -1)
+        
+        # Archdragon Peak
+        AddTalkListData(3, 99060032, -1)
+        
+        # Farron Keep
+        AddTalkListData(4, 99060033, -1)
+        
+        # Catacombs of Carthus
+        AddTalkListData(5, 99060034, -1)
+        
+        # Irithyll
+        AddTalkListData(6, 99060035, -1)
+        
+        # Profaned Capital
+        AddTalkListData(7, 99060036, -1)
+        
+        # Consumed King's Garden
+        AddTalkListData(8, 99060037, -1)
+        
+        # Lothric Castle
+        AddTalkListData(9, 99060038, -1)
+        
+        # Cathedral of the Deep
+        AddTalkListData(10, 99060039, -1)
+        
+        # Ariandel
+        AddTalkListData(11, 99060040, -1)
+        
+        # Dreg Heap
+        AddTalkListData(12, 99060041, -1)
+        
+        # Ringed City
+        AddTalkListData(13, 99060042, -1)
+        
+        # Random
+        AddTalkListData(14, 99060043, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Cemetery of Ash
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99060050, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Untended Graves
+        elif GetTalkListEntryResult() == 2:
+            OpenGenericDialog(1, 99060051, 0, 0, 0)
+            SetEventState(25009820, 1)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Archdragon Peak
+        elif GetTalkListEntryResult() == 3:
+            OpenGenericDialog(1, 99060052, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 1)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Farron Keep
+        elif GetTalkListEntryResult() == 4:
+            OpenGenericDialog(1, 99060053, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 1)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Catacombs of Carthus
+        elif GetTalkListEntryResult() == 5:
+            OpenGenericDialog(1, 99060054, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 1)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Irithyll
+        elif GetTalkListEntryResult() == 6:
+            OpenGenericDialog(1, 99060055, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 1)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Profaned Capital
+        elif GetTalkListEntryResult() == 7:
+            OpenGenericDialog(1, 99060056, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 1)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Consumed King's Garden
+        elif GetTalkListEntryResult() == 8:
+            OpenGenericDialog(1, 99060057, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 1)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Lothric Castle
+        elif GetTalkListEntryResult() == 9:
+            OpenGenericDialog(1, 99060058, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 1)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Cathedral of the Deep
+        elif GetTalkListEntryResult() == 10:
+            OpenGenericDialog(1, 99060059, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 1)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Ariandel
+        elif GetTalkListEntryResult() == 11:
+            OpenGenericDialog(1, 99060060, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 1)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            continue
+        # Dreg Heap
+        elif GetTalkListEntryResult() == 12:
+            OpenGenericDialog(1, 99060061, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 1)
+            SetEventState(25009831, 0)
+            continue
+        # Ringed City
+        elif GetTalkListEntryResult() == 13:
+            OpenGenericDialog(1, 99060062, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 1)
+            continue
+        # Random
+        elif GetTalkListEntryResult() == 14:
+            OpenGenericDialog(1, 99060063, 0, 0, 0)
+            SetEventState(25009820, 0)
+            SetEventState(25009821, 0)
+            SetEventState(25009822, 0)
+            SetEventState(25009823, 0)
+            SetEventState(25009824, 0)
+            SetEventState(25009825, 0)
+            SetEventState(25009826, 0)
+            SetEventState(25009827, 0)
+            SetEventState(25009828, 0)
+            SetEventState(25009829, 0)
+            SetEventState(25009830, 0)
+            SetEventState(25009831, 0)
+            SetEventState(25009840, 1)
+            continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             

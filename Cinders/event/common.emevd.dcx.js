@@ -31,6 +31,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20050, 0); // Standard Mode
     InitializeEvent(0, 20051, 0); // Wanderer Mode
     InitializeEvent(0, 20052, 0); // Mythic Mode
+    InitializeEvent(0, 20053, 0); // Starting Location
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -2370,6 +2371,113 @@ Event(20052, Restart, function() {
     SetEventFlag(25000440, ON); // Curse of Attraction
 });
 
+//----------------------------------------------
+// Starting Location
+//----------------------------------------------
+Event(20053, Restart, function() {
+    var flag_GameConfiguration_Set        = 25009800;
+    var flag_Location_UntendedGraves      = 25009820;
+    var flag_Location_ArchdragonPeak      = 25009821;
+    var flag_Location_FarronKeep          = 25009822;
+    var flag_Location_CatacombsOfCarthus  = 25009823;
+    var flag_Location_Irithyll            = 25009824;
+    var flag_Location_ProfanedCapital     = 25009825;
+    var flag_Location_ConsumedKingsGarden = 25009826;
+    var flag_Location_LothricCastle       = 25009827;
+    var flag_Location_CathedralOfTheDeep  = 25009828;
+    var flag_Location_Ariandel            = 25009829;
+    var flag_Location_DregHeap            = 25009830;
+    var flag_Location_RingedCity          = 25009831;
+    var flag_Location_Random              = 25009840;
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009801);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GameConfiguration_Set);
+    SetEventFlag(14000002, ON); // Overgrown Sanctum
+    
+    // Random
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, flag_Location_Random);
+    BatchSetEventFlags(25009820, 25009831, OFF);
+    RandomlySetEventFlagInRange(25009820, 25009831, ON);
+    
+    // Untended Graves
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_UntendedGraves);
+    SetEventFlag(14000003, ON); // Untended Graves
+    WarpPlayer(40, 1, 4000973);
+    SetPlayerRespawnPoint(4000973);
+    
+    // Archdragon Peak
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ArchdragonPeak);
+    SetEventFlag(13200000, ON); // Archdragon Peak
+    WarpPlayer(32, 0, 3200970);
+    SetPlayerRespawnPoint(3200970);
+    
+    // Farron Keep
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_FarronKeep);
+    SetEventFlag(13300000, ON); // Halfway Fortress
+    WarpPlayer(33, 0, 3300970);
+    SetPlayerRespawnPoint(3300970);
+    
+    // Catacombs of Carthus
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_CatacombsOfCarthus);
+    SetEventFlag(13800006, ON); // Catacombs of Carthus
+    WarpPlayer(38, 0, 3800976);
+    SetPlayerRespawnPoint(3800976);
+    
+    // Irithyll of the Boreal Valley
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_Irithyll);
+    SetEventFlag(13700004, ON); // Central Irithyll
+    WarpPlayer(37, 0, 3700974);
+    SetPlayerRespawnPoint(3700974);
+    
+    // Profaned Capital
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ProfanedCapital);
+    SetEventFlag(13900001, ON); // Church of Sin
+    WarpPlayer(39, 0, 3900970);
+    SetPlayerRespawnPoint(3900970);
+    
+    // Consumed King's Garden
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ConsumedKingsGarden);
+    SetEventFlag(13000001, ON); // Consumed King's Garden
+    WarpPlayer(30, 0, 3000971);
+    SetPlayerRespawnPoint(3000971);
+    
+    // Lothric Castle
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_LothricCastle);
+    SetEventFlag(13010000, ON); // Lothric Castle
+    WarpPlayer(30, 1, 3010972);
+    SetPlayerRespawnPoint(3010972);
+    
+    // Cathedral of the Deep
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_CathedralOfTheDeep);
+    SetEventFlag(13500000, ON); // Cleaning Chapel
+    WarpPlayer(35, 0, 3500970);
+    SetPlayerRespawnPoint(3500970);
+    
+    // Frozen Note - Ariandel
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6951);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_Ariandel);
+    SetEventFlag(14500001, ON); // Snowfield
+    WarpPlayer(45, 0, 4500971);
+    SetPlayerRespawnPoint(4500971);
+    
+    // Dreg Note - Dreg Heap
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6952);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_DregHeap);
+    SetEventFlag(15000001, ON); // The Dreg Heap
+    WarpPlayer(50, 0, 5000971);
+    SetPlayerRespawnPoint(5000971);
+    
+    // Burning Note - Ringed City
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6952);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_RingedCity);
+    SetEventFlag(15100002, ON); // Mausoleum Lookout
+    WarpPlayer(51, 0, 5100972);
+    SetPlayerRespawnPoint(5100972);
+    
+    // Set setup flag
+    SetEventFlag(25009801, ON);
+});
 
 //----------------------------------------------
 // Script Tool

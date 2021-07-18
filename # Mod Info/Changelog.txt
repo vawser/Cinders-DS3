@@ -269,6 +269,7 @@ Add the following armour:
     - World is populated by more enemies.
     - Reduces absorptions by 33%.
     - Reduces aux resistances by 33%.
+- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
 - Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
 
 # Bugfixes

@@ -4257,6 +4257,7 @@ to commune with the fallen knight.</text>
 <text id="99060005">Begin Journey</text>
 <text id="99060006">Current Configuration</text>
 <text id="99060007">Begin Journey</text>
+<text id="99060008">Starting Location</text>
 
 <text id="99060010">Standard Mode</text>
 <text id="99060011">Wanderer Mode</text>
@@ -4272,6 +4273,36 @@ to commune with the fallen knight.</text>
 - World is populated by more enemies.
 - Reduces absorptions by 33%.
 - Reduces aux resistances by 33%.</text>
+
+<text id="99060030">Cemetery of Ash</text>
+<text id="99060031">Untended Graves</text>
+<text id="99060032">Archdragon Peak</text>
+<text id="99060033">Farron Keep</text>
+<text id="99060034">Catacombs of Carthus</text>
+<text id="99060035">Irithyll</text>
+<text id="99060036">Profaned Capital</text>
+<text id="99060037">Consumed King's Garden</text>
+<text id="99060038">Lothric Castle</text>
+<text id="99060039">Cathedral of the Deep</text>
+<text id="99060040">Ariandel</text>
+<text id="99060041">Dreg Heap</text>
+<text id="99060042">Ringed City</text>
+<text id="99060043">Random</text>
+
+<text id="99060050">You will remain where you are.</text>
+<text id="99060051">You will start in Untended Graves once you begin your journey.</text>
+<text id="99060052">You will start in Archdragon Peak once you begin your journey.</text>
+<text id="99060053">You will start in Farron Keep once you begin your journey.</text>
+<text id="99060054">You will start in Catacombs of Carthus once you begin your journey.</text>
+<text id="99060055">You will start in Irithyll once you begin your journey.</text>
+<text id="99060056">You will start in Profaned Capital once you begin your journey.</text>
+<text id="99060057">You will start in Consumed King's Garden once you begin your journey.</text>
+<text id="99060058">You will start in Lothric Castle once you begin your journey.</text>
+<text id="99060059">You will start in Cathedral of the Deep once you begin your journey.</text>
+<text id="99060060">You will start in Ariandel once you begin your journey.</text>
+<text id="99060061">You will start in Dreg Heap once you begin your journey.</text>
+<text id="99060062">You will start in Ringed City once you begin your journey.</text>
+<text id="99060063">You will start in a random location once you begin your journey.</text>
 
 </entries>
 </fmg>
