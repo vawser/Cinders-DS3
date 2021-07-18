@@ -133,14 +133,10 @@ Add the following armour:
 
 - Slightly increases the radius of Chaos Blade Warcry Special attack.
 - Slightly extended the lingering hitbox for Alternate Katana's 4th R1 when one handed.
-- Adjusted the damage value for Combustion style Weapon Art. Should now be weaker than Great Combustion/Black Flame, and will not longer caused Air Juggle.
-- Elemental infused Moonlight Greatsword will now fires Moonlight Wave with different colors matched with the infusion.
-- Added Luck variant and Enchanted variant of Moonlight Greatsword.
-- Adjusted the self-damage on Bloodletter Weapon Art and kicks, it now deals 12% Max HP + 150 HP, for kicks, deals 4.8% Max HP + 150 HP to self. Have fun hurting yourself :)
 
 # Reinforcement
 - Restored the reinforcement mechanic:
- - All weapons and shields are now reinforcable up to +10.
+ - All weapons and shields are now reinforcable upto +10.
  - Reinforcement now only boosts base damage.
  - Reinforcement uses the standard Titanite set in all instances (2/4/6 Titanite Shard, 2/4/6 Large Titanite Shard, 2/4/6 Titanite Chunk, 1 Titanite Slab).
 - Added Titanite across all maps, mostly present on corpses.
@@ -171,29 +167,10 @@ Add the following armour:
 - Armors are now sorted by their passive effects. Armor sets with different effects on each piece or armor pieces with more than one effect will be at the bottom of the list.
 - Added Tiny Mass of Humanity, changes the appearance of the player to a Humanity Sprite. Sold by Alchemist Jiji.
 - Changed the coins description to make them mention they "Last until death or warp".
-- Increased the Primordial Fragment drop rate of Champion Gundyr to be the same as Oceiros.
-- Blessed Weapon and Supreme Blessed weapon now mention their damage boost against undead enemies in their description.
 
 # Shields
 - Reduced the stability of the Leather Shield from 75 to 62 (the same as the rest of small shields).
 - Added air juggle stagger to the Dragonhead Greatshield WA.
-- Spider Shield now negates poison and toxic build-up from blocked attacks.
-
-# Ammunition
-- Removed the shield penetration from Sniper Bolts/Onislayer Greatarrows, and added new effects to some of the ammunition (others remain the same). They all are as follow:
- - Wood Arrow, Wood Bolt, Wood Greatarrow -> No effect.
- - Standard Arrow, Standard Bolt, Dragonslayer Greatarrow -> Boosted Counter Damage by 10%.
- - Large Arrow, Heavy Bolt, Millwood Greatarrow -> Shield penetration.
- - Feather Arrow, Sniper Bolt, Onislayer Greatarrow -> Damage is increased the further away the character is from the target.
- - Draconic Arrow, Draconic Bolt, Draconic Greatarrow -> Enemy penetration.
- - Moonlight Arrow, Magic Bolt, Moonlight Greatarrow -> Spell Deflection.
- - Fire Arrow, Fire Bolt, Demonic Greatarrow, -> Boosts Stamina Recovery for 5 seconds, stacks. The amount increased depends on the type of ammunition and the attack used.
- - Lightning Arrow, Lightning Bolt, Dragonslayer Lightning Arrow -> Reduces enemy Poise by 50% for 5 seconds. Does not stack.
- - Dark Arrow, Dark Bolt, Corrupted Greatarrow -> Curse build-up. Homes in to the target.
- - Poison Arrow, Poison Bolt -> Poison build-up.
- - Lacerating Arrow, Splintering Bolt -> Bleed build-up.
- - Frost Arrow, Frost Bolt -> Frost build-up.
- - Exploding Bolt -> Explode.
 
 # Spells
 - Reduced the damage of the uncharged Old Moonlight projectile to 150 (charged is still 250).
@@ -271,8 +248,29 @@ Add the following armour:
 # Map
 - Irithyll:
  - Added a new walkway just after the cave as you enter Irithyll. This allows you to fall down into the waterway as a shortcut.
- - Added a new area with a giant and a chest.
+ - Added a new area with a Fire Witch and a chest.
 - Added a Mantling mechanic. Certain locations will allow you to 'Hop' or 'Leap' over barriers or towards certain areas.
+
+- Cemetery of Ash
+ - Added a 'Journey Configuration' feature that forces you to pick from one of the available modes before allowing you to continue.
+ - Moved the Dismal Knight into the Lonely Hollow area
+ - Moved the starting spawn back to the original location.
+ - Removed the Lonely Hollow bonfire.
+ 
+# Journey Configuration
+- You now need to select from one of the available game modes before you can start playing. This choice is irrevisible within the current journey.
+ - Standard Mode:
+    - No additional effects.
+ - Wanderer Mode
+    - Weaponry and shields can no longer be reinforced.
+    - Bosses will grant a permanent damage boost after they have been defeated.
+ - Mythic Mode
+    - Weaponry and shields can no longer be reinforced.
+    - World is populated by more enemies.
+    - Reduces absorptions by 33%.
+    - Reduces aux resistances by 33%.
+- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
+- Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
@@ -281,11 +279,6 @@ Add the following armour:
 - Fixed Old Moonlight consuming hefty amount of FP and Stamina when charged.
 - Rosamarinus and the elemental variant should now display the correct on hit effect.
 - Fixed the description of some ascended weapon buff spells.
-- Fixed the infused variant for the Longstaff of Rosaria, the Weapon Art should now work as intended.
-- Fixed an oversight for the poise value on Dragonslayer set.
-- Fixed the crash caused by attempting to use a Heavy Attack after Light Attack for Gravelord Sword.
-- Kirkhammer now correctly send enemy flying with fully charged 2H R2.
-- Fixed the damage of Lightning Surge.
 
 #------------------------------
 # TODO
@@ -299,26 +292,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-#--------------
-# m37
-#--------------
-# Architecture
-o371100 # Illusory Wall
-o371103 # Stone Wall
-
-#--------------
-# m38
-#--------------
-# Architecture
-o381306 # Long Stone bridge (bring in from Farron Keep o331306)
-o381034 # Ruin 1
-o381054 # Tree Stump
-
-# Clutter
-o381041 # Stone Cairn
-o381043 # Candles on Rock
-o381037 # Petrified Demon Cleric
-o381053 # Wolnir Table
-o000800 # Epitaph
-
-o003000

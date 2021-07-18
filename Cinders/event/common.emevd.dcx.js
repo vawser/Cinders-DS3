@@ -23,10 +23,15 @@ Event(0, Default, function() {
     InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
     InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
     InitializeEvent(0, 20048, 0); // Frostbite Removal
-    InitializeEvent(0, 20049, 0); // Broken Tablet - Hard Mode
     InitializeEvent(0, 20060, 10000); // Event Flag Tool
     InitializeEvent(0, 20061, 10000); // Screenshot Tool
     InitializeEvent(0, 20062, 10000); // Treasure Tool
+    
+    // Modes
+    InitializeEvent(0, 20050, 0); // Standard Mode
+    InitializeEvent(0, 20051, 0); // Wanderer Mode
+    InitializeEvent(0, 20052, 0); // Mythic Mode
+    InitializeEvent(0, 20053, 0); // Starting Location
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -2180,22 +2185,6 @@ Event(20048, Restart, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Broken Tablet - Hard Mode
-Event(20049, Restart, function() {
-    IfPlayerHasdoesntHaveItem(AND_01, ItemType.Goods, 2022, OwnershipState.Owns);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetSpEffect(10000, 250000100);
-    SetSpEffect(10000, 250000101);
-    SetSpEffect(10000, 250000102);
-    SetSpEffect(10000, 250000103);
-    SetSpEffect(10000, 250000104);
-    SetSpEffect(10000, 250000105);
-    SetEventFlag(25000055, ON);
-    SetEventFlag(25000440, ON);
-    WaitFixedTimeSeconds(1.0);
-    EndUnconditionally(EventEndType.Restart);
-});
-
 // Crown of the Great Lord
 Event(20040, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
@@ -2211,6 +2200,283 @@ Event(20040, Default, function() {
     ClearSpeffect(10000, 160409013);
     
     EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Standard Mode
+//----------------------------------------------
+Event(20050, Restart, function() {
+    var flag_StandardMode = 25009810;
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_StandardMode);
+});
+
+//----------------------------------------------
+// Wanderer Mode
+//----------------------------------------------
+Event(20051, Restart, function() {
+    var flag_WandererMode = 25009811;
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_WandererMode);
+    SetEventFlag(25000055, ON); // Disable Reinforcement
+    
+    // Dismal Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002001);
+    SetSpEffect(10000, 0);
+    
+    // Vordt
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002002);
+    SetSpEffect(10000, 0);
+    
+    // Curse-rotted Greatwood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002003);
+    SetSpEffect(10000, 0);
+    
+    // Crystal Sage
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002004);
+    SetSpEffect(10000, 0);
+    
+    // Deacons
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002005);
+    SetSpEffect(10000, 0);
+    
+    // Abyss Watchers
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002006);
+    SetSpEffect(10000, 0);
+    
+    // High Lord Wolnir
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002007);
+    SetSpEffect(10000, 0);
+    
+    // Old Demon King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002008);
+    SetSpEffect(10000, 0);
+    
+    // Pontiff Sulyvahn
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002009);
+    SetSpEffect(10000, 0);
+    
+    // Aldrich
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002010);
+    SetSpEffect(10000, 0);
+    
+    // Yhorm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002011);
+    SetSpEffect(10000, 0);
+    
+    // Dancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002012);
+    SetSpEffect(10000, 0);
+    
+    // Oceiros
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002013);
+    SetSpEffect(10000, 0);
+    
+    // Dragonslayer Armour
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002014);
+    SetSpEffect(10000, 0);
+    
+    // Ancient Wyvern
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002015);
+    SetSpEffect(10000, 0);
+    
+    // Nameless King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002016);
+    SetSpEffect(10000, 0);
+    
+    // Champion Gundyr
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002017);
+    SetSpEffect(10000, 0);
+    
+    // Twin Princes
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002018);
+    SetSpEffect(10000, 0);
+    
+    // Soul of Cinder
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002019);
+    SetSpEffect(10000, 0);
+    
+    // Sister Friede
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002020);
+    SetSpEffect(10000, 0);
+    
+    // Lordran Remnants
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002021);
+    SetSpEffect(10000, 0);
+    
+    // Demon Prince
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002022);
+    SetSpEffect(10000, 0);
+    
+    // Darkeater Midir
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002023);
+    SetSpEffect(10000, 0);
+    
+    // Slave Knight Gael
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002024);
+    SetSpEffect(10000, 0);
+    
+    // Halflight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002025);
+    SetSpEffect(10000, 0);
+    
+    // Frostfire Colossus
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002026);
+    SetSpEffect(10000, 0);
+    
+    // Cathedral Guardian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002027);
+    SetSpEffect(10000, 0);
+    
+    // Mirror Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002028);
+    SetSpEffect(10000, 0);
+    
+    // Aborr
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002029);
+    SetSpEffect(10000, 0);
+    
+    // Herald of Winter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002030);
+    SetSpEffect(10000, 0);
+    
+    // The Rock
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002031);
+    SetSpEffect(10000, 0);
+    
+    // Twisted Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002032);
+    SetSpEffect(10000, 0);
+    
+    // Fallen Protector
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002033);
+    SetSpEffect(10000, 0);
+    
+});
+
+//----------------------------------------------
+// Mythic Mode
+//----------------------------------------------
+Event(20052, Restart, function() {
+    var flag_MythicMode = 25009812;
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_MythicMode);
+    SetSpEffect(10000, 250000100);
+    SetSpEffect(10000, 250000101);
+    SetSpEffect(10000, 250000102);
+    SetSpEffect(10000, 250000103);
+    SetSpEffect(10000, 250000104);
+    SetSpEffect(10000, 250000105);
+    SetEventFlag(25000055, ON); // Disable Reinforcement
+    SetEventFlag(25000440, ON); // Curse of Attraction
+});
+
+//----------------------------------------------
+// Starting Location
+//----------------------------------------------
+Event(20053, Restart, function() {
+    var flag_GameConfiguration_Set        = 25009800;
+    var flag_Location_UntendedGraves      = 25009820;
+    var flag_Location_ArchdragonPeak      = 25009821;
+    var flag_Location_FarronKeep          = 25009822;
+    var flag_Location_CatacombsOfCarthus  = 25009823;
+    var flag_Location_Irithyll            = 25009824;
+    var flag_Location_ProfanedCapital     = 25009825;
+    var flag_Location_ConsumedKingsGarden = 25009826;
+    var flag_Location_LothricCastle       = 25009827;
+    var flag_Location_CathedralOfTheDeep  = 25009828;
+    var flag_Location_Ariandel            = 25009829;
+    var flag_Location_DregHeap            = 25009830;
+    var flag_Location_RingedCity          = 25009831;
+    var flag_Location_Random              = 25009840;
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009801);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GameConfiguration_Set);
+    SetEventFlag(14000002, ON); // Overgrown Sanctum
+    
+    // Random
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, flag_Location_Random);
+    BatchSetEventFlags(25009820, 25009831, OFF);
+    RandomlySetEventFlagInRange(25009820, 25009831, ON);
+    
+    // Untended Graves
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_UntendedGraves);
+    SetEventFlag(14000003, ON); // Untended Graves
+    WarpPlayer(40, 1, 4000973);
+    SetPlayerRespawnPoint(4000973);
+    
+    // Archdragon Peak
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ArchdragonPeak);
+    SetEventFlag(13200000, ON); // Archdragon Peak
+    WarpPlayer(32, 0, 3200970);
+    SetPlayerRespawnPoint(3200970);
+    
+    // Farron Keep
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_FarronKeep);
+    SetEventFlag(13300000, ON); // Halfway Fortress
+    WarpPlayer(33, 0, 3300970);
+    SetPlayerRespawnPoint(3300970);
+    
+    // Catacombs of Carthus
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_CatacombsOfCarthus);
+    SetEventFlag(13800006, ON); // Catacombs of Carthus
+    WarpPlayer(38, 0, 3800976);
+    SetPlayerRespawnPoint(3800976);
+    
+    // Irithyll of the Boreal Valley
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_Irithyll);
+    SetEventFlag(13700004, ON); // Central Irithyll
+    WarpPlayer(37, 0, 3700974);
+    SetPlayerRespawnPoint(3700974);
+    
+    // Profaned Capital
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ProfanedCapital);
+    SetEventFlag(13900001, ON); // Church of Sin
+    WarpPlayer(39, 0, 3900970);
+    SetPlayerRespawnPoint(3900970);
+    
+    // Consumed King's Garden
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ConsumedKingsGarden);
+    SetEventFlag(13000001, ON); // Consumed King's Garden
+    WarpPlayer(30, 0, 3000971);
+    SetPlayerRespawnPoint(3000971);
+    
+    // Lothric Castle
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_LothricCastle);
+    SetEventFlag(13010000, ON); // Lothric Castle
+    WarpPlayer(30, 1, 3010972);
+    SetPlayerRespawnPoint(3010972);
+    
+    // Cathedral of the Deep
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_CathedralOfTheDeep);
+    SetEventFlag(13500000, ON); // Cleaning Chapel
+    WarpPlayer(35, 0, 3500970);
+    SetPlayerRespawnPoint(3500970);
+    
+    // Frozen Note - Ariandel
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6951);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_Ariandel);
+    SetEventFlag(14500001, ON); // Snowfield
+    WarpPlayer(45, 0, 4500971);
+    SetPlayerRespawnPoint(4500971);
+    
+    // Dreg Note - Dreg Heap
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6952);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_DregHeap);
+    SetEventFlag(15000001, ON); // The Dreg Heap
+    WarpPlayer(50, 0, 5000971);
+    SetPlayerRespawnPoint(5000971);
+    
+    // Burning Note - Ringed City
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 6952);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_RingedCity);
+    SetEventFlag(15100002, ON); // Mausoleum Lookout
+    WarpPlayer(51, 0, 5100972);
+    SetPlayerRespawnPoint(5100972);
+    
+    // Set setup flag
+    SetEventFlag(25009801, ON);
 });
 
 //----------------------------------------------
