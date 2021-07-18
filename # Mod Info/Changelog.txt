@@ -292,3 +292,24 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
+# Scorched Contract Effects
+- Automatically consume soul items
+- Slows movement, reduce souls and humanity drops
+- Spawn lots of vagrants
+- Summon random invaders
+- Add boss adds
+- Remove poison/toxic resist
+- Add egg head
+- Periodic durability loss
+- Boost blood loss damage
+- Increment NG+ cycle on boss kill
+- Casting causes fatigue, blocking casting and reducing stamina for a short period
+- Using non-normal weapons can damage the wielder
+- Adds constant curse
+- Block most bonfire usage
+- Adds HP regen to bosses
+- Add constant HP loss
+- Adjust boss absorptions
+- Reduce max HP
+- Reduce soul gain
+- Add negative absorption

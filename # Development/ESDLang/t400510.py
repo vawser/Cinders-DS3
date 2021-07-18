@@ -451,9 +451,11 @@ def t400510_x30():
             # Fallback to Standard Mode if none are set
             if GetEventStatus(25009810) == 0 and GetEventStatus(25009811) == 0 and GetEventStatus(25009812) == 0:
                 SetEventState(25009810, 1)
-                
-            SetEventState(25009800, 1)
-            SetEventState(25009802, 1)
+                SetEventState(25009800, 1)
+                SetEventState(25009802, 1)
+            else:
+                SetEventState(25009800, 1)
+                SetEventState(25009802, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
