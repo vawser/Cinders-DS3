@@ -231,13 +231,13 @@
 734 Millwood Greatarrow - Pierce Earth [Hit]
 735 Millwood Greatarrow - Pierce Earth [Hit]
 736 Millwood Greatarrow - Pierce Earth
-740 Darkmoon Greatarrow
-741 Darkmoon Greatarrow - Puncturing Arrow
-742 Darkmoon Greatarrow
-743 Darkmoon Greatarrow - Pierce Earth
-744 Darkmoon Greatarrow - Pierce Earth [Hit]
-745 Darkmoon Greatarrow - Pierce Earth [Hit]
-746 Darkmoon Greatarrow - Pierce Earth
+740 Moonlight Greatarrow
+741 Moonlight Greatarrow - Puncturing Arrow
+742 Moonlight Greatarrow
+743 Moonlight Greatarrow - Pierce Earth
+744 Moonlight Greatarrow - Pierce Earth [Hit]
+745 Moonlight Greatarrow - Pierce Earth [Hit]
+746 Moonlight Greatarrow - Pierce Earth
 750 Demonic Greatarrow
 751 Demonic Greatarrow - Puncturing Arrow
 752 Demonic Greatarrow
@@ -317,6 +317,7 @@
 910 Draconic Bolt
 911 Draconic Bolt - Avelyn
 912 Draconic Bolt - Repeat Fire
+950 Magic Ammunition - Spell Deflection
 970 Lightning Spear #2 [Hit]
 971 Lightning Spear #2 [Hit]
 972 Lightning Spear #2 [Hit]
@@ -3098,13 +3099,40 @@
 100062921 [Hands of God] God's Wrath [Hit]
 100063200 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave
 100063201 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave
+100063202 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Fire)
+100063203 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Fire)
+100063204 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Lightning)
+100063205 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Lightning)
+100063206 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Dark)
+100063207 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Dark)
 100063210 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave
 100063211 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave
+100063212 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Fire)
+100063213 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Fire)
+100063214 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Lightning)
+100063215 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Lightning)
+100063216 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Dark)
+100063217 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Dark)
 100063220 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave
 100063221 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave
+100063222 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Fire)
+100063223 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Fire)
+100063224 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Lightning)
+100063225 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Lightning)
+100063226 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Dark)
+100063227 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Dark)
 100063230 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave
 100063231 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave
+100063232 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Fire)
+100063233 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Fire)
+100063234 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Lightning)
+100063235 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Lightning)
+100063236 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Dark)
+100063237 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Dark)
 100063240 [Moonlight Greatsword] Moonlight Vortex
+100063241 [Moonlight Greatsword] Moonlight Vortex (Fire)
+100063242 [Moonlight Greatsword] Moonlight Vortex (Lightning)
+100063243 [Moonlight Greatsword] Moonlight Vortex (Dark)
 100063400 [Firelink Greatsword] Ember
 100063410 [Firelink Greatsword] Ember [Emitter]
 100063411 [Firelink Greatsword] Ember [Hit]

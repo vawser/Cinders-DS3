@@ -28,10 +28,10 @@
 135 FTH - Dark Defence
 140 LCK - Item Discovery
 150 Estus at Bonfire [Obsolete]
-160 Shield - Absorption %
-161 Shield - Attribute %
-162 Shield - Status %
-163 Shield - Stamina %
+160 DEX - Shield Absorption % (Physical Damage Guard)
+161 DEX - Shield Attribute % (All Elemental Damage Guard)
+162 DEX - Shield Status % (All Aux Build-up Guard)
+163 STR - Shield Stamina % (Stability)
 170 STR - Weapon Arts Point Max
 171 DEX - Weapon Arts Point Max
 172 INT - Weapon Arts Point Max

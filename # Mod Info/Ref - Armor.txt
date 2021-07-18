@@ -22,6 +22,13 @@ Effect: boosts damage against Hollows by 5%.
 # Smough's Set
 Effect: imbues weapon, absorbing 10 HP on kill.
 
+# Stalwart Knight Set
+Effect: increases Poise by 5%.
+
+# Ironclad Set
+Effect: increases Vitality by 2.
+Effect: reduces enemy backstab damage to zero. (Armor)
+
 # Gundyr Set
 Effect: reduces weapon stamina consumption by 5%.
 
@@ -67,6 +74,9 @@ Effect: boosts fire defence by 5%.
 # Iron Dragonslayer Set
 Effect: increases Dark damage by 2.5%.
 
+# Eastern General Set
+Effect: increases stamina damage by 25%.
+
 # Lapp's Set
 Effect: boosts soul absorption by 2.5%.
 
@@ -110,6 +120,9 @@ Effect: increases Endurance by 2.
 # Overseer's Mask
 Effect: increases stamina damage by 25%.
 
+# Fallen Herald Set
+Effect: increases Dark damage by 2.5%.
+
 # Raime's Set
 Effect: increases Fire damage by 2.5%.
 
@@ -149,7 +162,7 @@ Effect: boosts fire defence by 5%.
 # Crab Helmet
 Effect: imbues weapon, absorbing 10 HP on kill.
 
-# Imperial Samurai Helm
+# Eastern Commander Set
 Effect: increases Dexterity by 2.
 
 # Horned Samurai Helm
@@ -206,6 +219,12 @@ Effect: boosts soul absorption by 2.5%.
 
 # Pot
 Effect: increases effectiveness of HP recovery by 2.5%.
+
+# Sanctum Knight Set
+Effect: increases stamina recovery by 5.
+Effect: renders the wearer translucent, reducing detection via sight by 75%.
+Effect: renders the wielded weapons of the wearer invisible.
+Effect: softens the sounds of footsteps, reducing detection via sound by 75%.
 
 # Black Dragon Set
 Effect: boosts fire defence by 5%.
@@ -315,6 +334,9 @@ Effect: increases max FP by 5%. (Head)
 Effect: reduces skill FP consumption by 5%. (Body)
 Effect: increases Physical damage by 2.5%. (Hands)
 Effect: nulls fall damage. (Legs)
+
+# Okami Set
+Effect: increases Lightning damage by 2.5%.
 
 # Knight Set
 Effect: increases Endurance by 2.
@@ -586,6 +608,9 @@ Effect: increases Item Discovery by 25.
 # Assassin Set
 Effect: increases stamina recovery by 5.
 
+# Eastern Wolf Set
+Effect: increases Dexterity by 2.
+
 # Painting Guardian Set
 Effect: reduces weapon stamina consumption by 5%.
 
@@ -663,6 +688,9 @@ Effect: boosts dark defence by 5%.
 
 # Pale Shade Set
 Effect: boosts damage against Hollows by 5%.
+
+# Imported Set
+Effect: increases max Stamina by 5%.
 
 # Charlatan Set
 Effect: boosts soul absorption by 2.5%.

@@ -907,22 +907,49 @@
 2512705 Wolnir's Holy Sword [Bullet]
 2513100 Moonlight Greatsword - 1H Heavy #1
 2513101 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave
+2513102 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave (Fire)
+2513103 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave (Lightning)
+2513104 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave (Dark)
 2513105 Moonlight Greatsword - 1H Heavy #1 (Charged)
 2513106 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave
+2513107 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave (Fire)
+2513108 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave (Lightning)
+2513109 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave (Dark)
 2513110 Moonlight Greatsword - 1H Heavy #2
 2513111 Moonlight Greatsword - 1H Heavy #2 - Horizontal Wave
+2513112 Moonlight Greatsword - 1H Heavy #2 - Horizontal Wave (Fire)
+2513113 Moonlight Greatsword - 1H Heavy #2 - Horizontal Wave (Lightning)
+2513114 Moonlight Greatsword - 1H Heavy #2 - Horizontal Wave (Dark)
 2513115 Moonlight Greatsword - 1H Heavy #2 (Charged)
 2513116 Moonlight Greatsword - 1H Heavy #2 (Charged) - Horizontal Wave
+2513117 Moonlight Greatsword - 1H Heavy #2 (Charged) - Horizontal Wave (Fire)
+2513118 Moonlight Greatsword - 1H Heavy #2 (Charged) - Horizontal Wave (Lightning)
+2513119 Moonlight Greatsword - 1H Heavy #2 (Charged) - Horizontal Wave (Dark)
 2513300 Moonlight Greatsword - 2H Heavy #1
 2513301 Moonlight Greatsword - 2H Heavy #1 - Horizontal Wave
+2513302 Moonlight Greatsword - 2H Heavy #1 - Horizontal Wave (Fire)
+2513303 Moonlight Greatsword - 2H Heavy #1 - Horizontal Wave (Lightning)
+2513304 Moonlight Greatsword - 2H Heavy #1 - Horizontal Wave (Dark)
 2513305 Moonlight Greatsword - 2H Heavy #1 (Charged)
 2513306 Moonlight Greatsword - 2H Heavy #1 (Charged) - Horizontal Wave
+2513307 Moonlight Greatsword - 2H Heavy #1 (Charged) - Horizontal Wave (Fire)
+2513308 Moonlight Greatsword - 2H Heavy #1 (Charged) - Horizontal Wave (Lightning)
+2513309 Moonlight Greatsword - 2H Heavy #1 (Charged) - Horizontal Wave (Dark)
 2513310 Moonlight Greatsword - 2H Heavy #2
 2513311 Moonlight Greatsword - 2H Heavy #2 - Horizontal Wave
+2513312 Moonlight Greatsword - 2H Heavy #2 - Horizontal Wave (Fire)
+2513313 Moonlight Greatsword - 2H Heavy #2 - Horizontal Wave (Lightning)
+2513314 Moonlight Greatsword - 2H Heavy #2 - Horizontal Wave (Dark)
 2513315 Moonlight Greatsword - 2H Heavy #2 (Charged)
 2513316 Moonlight Greatsword - 2H Heavy #2 (Charged) - Horizontal Wave
+2513317 Moonlight Greatsword - 2H Heavy #2 (Charged) - Horizontal Wave (Fire)
+2513318 Moonlight Greatsword - 2H Heavy #2 (Charged) - Horizontal Wave (Lightning)
+2513319 Moonlight Greatsword - 2H Heavy #2 (Charged) - Horizontal Wave (Dark)
 2513700 Moonlight Greatsword - Moonlight Vortex - Sword
 2513705 Moonlight Greatsword - Moonlight Vortex
+2513706 Moonlight Greatsword - Moonlight Vortex (Fire)
+2513707 Moonlight Greatsword - Moonlight Vortex (Lightning)
+2513708 Moonlight Greatsword - Moonlight Vortex (Dark)
 2514700 Firelink Greatsword - Ember
 2514705 Firelink Greatsword - Ember [Bullet]
 2515730 Storm Ruler [Bullet]

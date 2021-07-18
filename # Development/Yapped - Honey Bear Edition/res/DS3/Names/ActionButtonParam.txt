@@ -58,6 +58,8 @@
 9997 Find out (Ojo 1 saloon)
 9999 Inspect (for City/bridge warp obj)
 10000 Traverse the fog
+20000 Hop
+20001 Leap
 30000 Enter - Door
 30001 Commune - Big Object
 30002 Commune - Small Object

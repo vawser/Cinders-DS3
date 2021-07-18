@@ -680,6 +680,17 @@
 100010 Relic of Insanity
 100020 Relic of Legends
 100030 Relic of Myths
+109999 ### Script - Memories
+110000 [Memory of the Crypts] Large Titanite Shard
+110001 [Memory of the Crypts] Primordial Fragment
+110010 [Memory of the Swamp] Titanite Shard
+110011 [Memory of the Swamp] Primordial Fragment
+110020 [Memory of the Wall] Titanite Shard
+110021 [Memory of the Wall] Primordial Fragment
+110030 [Memory of the Cathedral] Large Titanite Shard
+110031 [Memory of the Cathedral] Primordial Fragment
+110040 [Memory of the Settlement] Titanite Shard
+110041 [Memory of the Settlement] Primordial Fragment
 199999 ### Script - Crows
 200000 [Petrified Something] Set 1 - Rings
 200010 [Petrified Something] Set 2 - Weapons
@@ -688,13 +699,13 @@
 3000000 [Corpse] Soul of a Deserted Corpse
 3000001 [Corpse] Divine Blessing
 3000010 [Corpse] Soul of a Deserted Corpse
-3000011 [Corpse] Elizabeth Mushroom
+3000011 [Corpse] Titanite Shard
 3000020 [Corpse] Large Soul of a Deserted Corpse
 3000021 [Corpse] Black Firebomb
 3000030 [Corpse] Soul of a Deserted Corpse
 3000031 [Corpse] Throwing Knife
 3000040 [Corpse] Soul of a Deserted Corpse
-3000041 [Corpse] Fire Arrow
+3000041 [Corpse] Titanite Shard
 3000050 [Corpse] Soul of a Deserted Corpse
 3000051 [Corpse] Goldenfruit Balm
 3000060 [Corpse] Large Soul of a Deserted Corpse
@@ -704,7 +715,7 @@
 3000080 [Corpse] Soul of a Deserted Corpse
 3000081 [Corpse] Rouge Water
 3000090 [Corpse] Soul of a Deserted Corpse
-3000091 [Corpse] Hidden Blessing
+3000091 [Corpse] Titanite Shard
 3000100 [Corpse] Soul of an Unknown Traveler
 3000101 [Corpse] Lightning Urn
 3000110 [Corpse] Soul of a Deserted Corpse
@@ -718,7 +729,7 @@
 3000150 [Corpse] Soul of an Unknown Traveler
 3000151 [Corpse] Blackweed Balm
 3000160 [Corpse] Soul of a Deserted Corpse
-3000161 [Corpse] Dragonslayer Greatarrow
+3000161 [Corpse] Titanite Shard
 3000170 [Corpse] Soul of a Deserted Corpse
 3000171 [Corpse] Dark Arrow
 3000180 [Corpse] Large Soul of a Deserted Corpse
@@ -778,7 +789,7 @@
 3002040 [OTD - Ancient Wyvern] Drake Sword
 3009999 ### Treasure - Lothric Castle
 3010000 [Corpse] Soul of a Weary Warrior
-3010001 [Corpse] Elizabeth Mushroom
+3010001 [Corpse] Large Titanite Shard
 3010010 [Corpse] Soul of a Nameless Soldier
 3010011 [Corpse] Lightning Urn
 3010020 [Corpse] Soul of a Nameless Soldier
@@ -794,7 +805,7 @@
 3010070 [Corpse] Soul of a Crestfallen Knight
 3010071 [Corpse] Torn Excerpt
 3010080 [Corpse] Soul of a Nameless Soldier
-3010081 [Corpse] Firebomb
+3010081 [Corpse] Large Titanite Shard
 3010090 [Corpse] Soul of a Nameless Soldier
 3010091 [Corpse] Undead Hunter Charm
 3010100 [Corpse] Soul of a Nameless Soldier
@@ -804,7 +815,7 @@
 3010120 [Corpse] Large Soul of a Nameless Soldier
 3010121 [Corpse] Crimson Water
 3010130 [Corpse] Soul of a Nameless Soldier
-3010131 [Corpse] Dragonslayer Lightning Arrow
+3010131 [Corpse] Large Titanite Shard
 3010140 [Corpse] Soul of a Nameless Soldier
 3010141 [Corpse] Tarnished Coin
 3010150 [Corpse] Soul of a Nameless Soldier
@@ -825,7 +836,7 @@
 3010210 [Corpse] Large Soul of a Nameless Soldier
 3010211 [Corpse] Cleansing Pendant
 3010220 [Corpse] Soul of a Nameless Soldier
-3010221 [Corpse] Red Bug Pellet
+3010221 [Corpse] Large Titanite Shard
 3010230 [Corpse] Soul of a Proud Paladin
 3010231 [Corpse] Courtier's Wig
 3010232 [Corpse] Courtier's Garb
@@ -880,7 +891,7 @@
 3100040 [Corpse] Soul of a Deserted Corpse
 3100041 [Corpse] Mossfruit
 3100050 [Corpse] Soul of a Deserted Corpse
-3100051 [Corpse] Fire Arrow
+3100051 [Corpse] Titanite Shard
 3100060 [Corpse] Soul of a Deserted Corpse
 3100061 [Corpse] Alluring Skull
 3100070 [Corpse] Soul of a Deserted Corpse
@@ -892,7 +903,7 @@
 3100100 [Corpse] Soul of a Deserted Corpse
 3100101 [Corpse] Black Firebomb
 3100110 [Corpse] Soul of a Deserted Corpse
-3100111 [Corpse] Divine Blessing
+3100111 [Corpse] Titanite Shard
 3100120 [Corpse] Soul of a Deserted Corpse
 3100121 [Corpse] Divine Blessing
 3100130 [Corpse] Soul of a Deserted Corpse
@@ -904,7 +915,7 @@
 3100160 [Corpse] Soul of a Deserted Corpse
 3100161 [Corpse] Old Growth Balm
 3100170 [Corpse] Soul of a Deserted Corpse
-3100171 [Corpse] Hexing Urn
+3100171 [Corpse] Titanite Shard
 3100180 [Corpse] Large Soul of a Deserted Corpse
 3100181 [Corpse] Rope Firebomb
 3100190 [Corpse] Soul of a Deserted Corpse
@@ -918,7 +929,7 @@
 3100230 [Corpse] Soul of a Deserted Corpse
 3100231 [Corpse] Goldenfruit Balm
 3100240 [Corpse] Large Soul of a Deserted Corpse
-3100241 [Corpse] Vine Balm
+3100241 [Corpse] Titanite Shard
 3100250 [Corpse] Soul of a Deserted Corpse
 3100251 [Corpse] Carthus Rouge
 3100260 [Corpse] Soul of a Deserted Corpse
@@ -932,7 +943,7 @@
 3100300 [Corpse] Soul of a Deserted Corpse
 3100301 [Corpse] Ember
 3100310 [Corpse] Soul of a Deserted Corpse
-3100311 [Corpse] Fire Bolt
+3100311 [Corpse] Titanite Shard
 3100320 [Corpse] Large Soul of a Deserted Corpse
 3100321 [Corpse] Young White Branch
 3100330 [Corpse] Soul of a Deserted Corpse
@@ -1030,7 +1041,7 @@
 3200010 [Corpse] Soul of a Nameless Soldier
 3200011 [Corpse] Gold Pine Resin
 3200020 [Corpse] Soul of a Nameless Soldier
-3200021 [Corpse] Yellow Bug Pellet
+3200021 [Corpse] Titanite Chunk
 3200030 [Corpse] Soul of a Nameless Soldier
 3200031 [Corpse] Divine Blessing
 3200040 [Corpse] Soul of a Nameless Soldier
@@ -1038,7 +1049,7 @@
 3200050 [Corpse] Soul of a Nameless Soldier
 3200051 [Corpse] Crimson Water
 3200060 [Corpse] Soul of a Nameless Soldier
-3200061 [Corpse] Mossfruit
+3200061 [Corpse] Titanite Chunk
 3200070 [Corpse] Soul of a Nameless Soldier
 3200071 [Corpse] Rusted Coin
 3200080 [Corpse] Soul of a Nameless Soldier
@@ -1050,7 +1061,7 @@
 3200110 [Corpse] Soul of a Nameless Soldier
 3200111 [Corpse] Ember
 3200120 [Corpse] Soul of a Nameless Soldier
-3200121 [Corpse] Lightning Bolt
+3200121 [Corpse] Titanite Chunk
 3200130 [Corpse] Soul of a Nameless Soldier
 3200131 [Corpse] Dragon Eye
 3200140 [Corpse] Soul of a Nameless Soldier
@@ -1062,7 +1073,7 @@
 3200170 [Corpse] Soul of a Nameless Soldier
 3200171 [Corpse] Titanite Fragment
 3200180 [Corpse] Soul of a Nameless Soldier
-3200181 [Corpse] Black Firebomb
+3200181 [Corpse] Titanite Chunk
 3200190 [Corpse] Large Soul of a Nameless Soldier
 3200191 [Corpse] Dragonslayer Lightning Arrow
 3200400 [Chest] Ring of Retribution
@@ -1113,9 +1124,9 @@
 3300080 [Corpse] Soul of an Unknown Traveler
 3300081 [Corpse] Blackweed Balm
 3300090 [Corpse] Soul of an Unknown Traveler
-3300091 [Corpse] Poison Arrow
+3300091 [Corpse] Titanite Shard
 3300100 [Corpse] Soul of an Unknown Traveler
-3300101 [Corpse] Poison Bolt
+3300101 [Corpse] Titanite Shard
 3300110 [Corpse] Soul of an Unknown Traveler
 3300111 [Corpse] Tarnished Coin
 3300120 [Corpse] Soul of an Unknown Traveler
@@ -1127,7 +1138,7 @@
 3300150 [Corpse] Soul of an Unknown Traveler
 3300151 [Corpse] Blue Bug Pellet
 3300160 [Corpse] Soul of an Unknown Traveler
-3300161 [Corpse] Hidden Blessing
+3300161 [Corpse] Titanite Shard
 3300170 [Corpse] Soul of an Unknown Traveler
 3300171 [Corpse] Crimson Water
 3300180 [Corpse] Soul of an Unknown Traveler
@@ -1284,13 +1295,13 @@
 3410000 [Corpse] Soul of a Nameless Soldier
 3410001 [Corpse] Divine Blessing
 3410010 [Corpse] Soul of a Nameless Soldier
-3410011 [Corpse] Purging Stone
+3410011 [Corpse] Titanite Chunk
 3410020 [Corpse] Soul of a Weary Warrior
 3410021 [Corpse] Brightbug
 3410030 [Corpse] Soul of a Weary Warrior
 3410031 [Corpse] Elizabeth Mushroom
 3410040 [Corpse] Soul of a Nameless Soldier
-3410041 [Corpse] Rusted Coin
+3410041 [Corpse] Titanite Chunk
 3410050 [Corpse] Large Soul of a Nameless Soldier
 3410051 [Corpse] Black Firebomb
 3410060 [Corpse] Soul of a Nameless Soldier
@@ -1302,13 +1313,13 @@
 3410090 [Corpse] Large Soul of a Nameless Soldier
 3410091 [Corpse] Lightning Urn
 3410100 [Corpse] Soul of a Crestfallen Knight
-3410101 [Corpse] Witching Urn
+3410101 [Corpse] Titanite Chunk
 3410110 [Corpse] Large Soul of a Nameless Soldier
 3410111 [Corpse] Blackweed Balm
 3410120 [Corpse] Soul of a Nameless Soldier
 3410121 [Corpse] Celeritas Stem
 3410130 [Corpse] Large Soul of a Nameless Soldier
-3410131 [Corpse] Old Growth Balm
+3410131 [Corpse] Titanite Chunk
 3410140 [Corpse] Soul of a Nameless Soldier
 3410141 [Corpse] Siegbräu
 3410150 [Corpse] Soul of a Nameless Soldier
@@ -1318,7 +1329,7 @@
 3410170 [Corpse] Soul of a Weary Warrior
 3410171 [Corpse] Divine Blessing
 3410180 [Corpse] Soul of a Weary Warrior
-3410181 [Corpse] Mossfruit
+3410181 [Corpse] Titanite Chunk
 3410190 [Corpse] Soul of a Crestfallen Knight
 3410191 [Corpse] Angelic Braille Divine Tome
 3410200 [Scholar Corpse] Crystal Chime
@@ -1370,9 +1381,13 @@
 3411022 [Mimic] Astrologist's Gloves
 3411023 [Mimic] Astrologist's Waistcloth
 3411030 [Mimic - Hidden] Mask of Cruelty
+3411031 [Mimic - Hidden] Titanite Slab
 3411040 [Mimic - Hidden] Mask of War
+3411041 [Mimic - Hidden] Titanite Slab
 3411050 [Mimic - Hidden] Mask of Serenity
+3411051 [Mimic - Hidden] Titanite Slab
 3411060 [Mimic - Hidden] Mask of Horror
+3411061 [Mimic - Hidden] Titanite Slab
 3411070 [Mimic - Hidden] Estus Shard
 3412010 [OTD - Black Dragon Knight] Black Dragon Greataxe
 3412020 [OTD - Black Dragon Knight] Black Dragon Greatsword
@@ -1394,7 +1409,7 @@
 3500050 [Corpse] Soul of a Weary Warrior
 3500051 [Corpse] Ritual Incense
 3500060 [Corpse] Soul of an Unknown Traveler
-3500061 [Corpse] Dark Arrow
+3500061 [Corpse] Large Titanite Shard
 3500070 [Corpse] Soul of an Unknown Traveler
 3500071 [Corpse] Hexing Urn
 3500080 [Corpse] Soul of an Unknown Traveler
@@ -1408,19 +1423,19 @@
 3500120 [Corpse] Soul of an Unknown Traveler
 3500121 [Corpse] Brightbug
 3500130 [Corpse] Soul of an Unknown Traveler
-3500131 [Corpse] Radiant Lifegem
+3500131 [Corpse] Large Titanite Shard
 3500140 [Corpse] Soul of an Unknown Traveler
 3500141 [Corpse] Elizabeth Mushroom
 3500150 [Corpse] Soul of an Unknown Traveler
 3500151 [Corpse] Crimson Water
 3500160 [Corpse] Soul of an Unknown Traveler
-3500161 [Corpse] Mossfruit
+3500161 [Corpse] Large Titanite Shard
 3500170 [Corpse] Soul of an Unknown Traveler
 3500171 [Corpse] Siegbräu
 3500180 [Corpse] Soul of an Unknown Traveler
 3500181 [Corpse] Alluring Skull
 3500190 [Corpse] Soul of an Unknown Traveler
-3500191 [Corpse] Splintering Bolt
+3500191 [Corpse] Large Titanite Shard
 3500400 [Chest] Astora Greatsword
 3500410 [Chest] Writhing Tome
 3500420 [Chest] Deep Braille Divine Tome
@@ -1489,11 +1504,11 @@
 3700040 [Corpse] Soul of a Nameless Soldier
 3700041 [Corpse] Old Radiant Lifegem
 3700050 [Corpse] Soul of a Nameless Soldier
-3700051 [Corpse] Green Blossom
+3700051 [Corpse] Large Titanite Shard
 3700060 [Corpse] Soul of a Nameless Soldier
 3700061 [Corpse] Undead Hunter Charm
 3700070 [Corpse] Soul of a Nameless Soldier
-3700071 [Corpse] Throwing Knife
+3700071 [Corpse] Large Titanite Shard
 3700080 [Corpse] Soul of an Intrepid Hero
 3700081 [Corpse] Holy Gem
 3700090 [Corpse] Soul of a Nameless Soldier
@@ -1515,7 +1530,7 @@
 3700170 [Corpse] Soul of a Weary Warrior
 3700171 [Corpse] Veloxi Moss
 3700180 [Corpse] Soul of a Nameless Soldier
-3700181 [Corpse] Rouge Water
+3700181 [Corpse] Large Titanite Shard
 3700190 [Corpse] Soul of a Nameless Soldier
 3700191 [Corpse] Dried Root
 3700200 [Corpse] Soul of a Nameless Soldier
@@ -1531,7 +1546,7 @@
 3700250 [Corpse] Large Soul of a Nameless Soldier
 3700251 [Corpse] Lightning Urn
 3700260 [Corpse] Soul of a Nameless Soldier
-3700261 [Corpse] Old Growth Balm
+3700261 [Corpse] Large Titanite Shard
 3700270 [Corpse] Soul of a Nameless Soldier
 3700271 [Corpse] Elizabeth Mushroom
 3700280 [Corpse] Soul of a Nameless Soldier
@@ -1541,7 +1556,7 @@
 3700300 [Corpse] Soul of a Nameless Soldier
 3700301 [Corpse] Proof of a Concord Kept
 3700310 [Corpse] Soul of a Nameless Soldier
-3700311 [Corpse] Onislayer Greatarrow
+3700311 [Corpse] Large Titanite Shard
 3700320 [Corpse] Soul of a Nameless Soldier
 3700321 [Corpse] Gold Pine Resin
 3700330 [Corpse] Soul of a Nameless Soldier
@@ -1555,7 +1570,7 @@
 3700370 [Corpse] Soul of a Nameless Soldier
 3700371 [Corpse] Tarnished Coin
 3700380 [Corpse] Large Soul of a Nameless Soldier
-3700381 [Corpse] Vine Balm
+3700381 [Corpse] Large Titanite Shard
 3700390 [Corpse] Soul of a Nameless Soldier
 3700391 [Corpse] Roster of Knights
 3700400 [Chest] Irithyll Warpick
@@ -1651,7 +1666,7 @@
 3800090 [Corpse] Soul of a Nameless Soldier
 3800091 [Corpse] Rusted Gold Coin
 3800100 [Corpse] Soul of a Nameless Soldier
-3800101 [Corpse] Fire Arrow
+3800101 [Corpse] Large Titanite Shard
 3800110 [Corpse] Soul of a Nameless Soldier
 3800111 [Corpse] Vertebra Shackle
 3800120 [Corpse] Soul of a Nameless Soldier
@@ -1665,7 +1680,7 @@
 3800160 [Corpse] Soul of a Nameless Soldier
 3800161 [Corpse] Tarnished Silver Coin
 3800170 [Corpse] Soul of a Nameless Soldier
-3800171 [Corpse] Old Growth Balm
+3800171 [Corpse] Large Titanite Shard
 3800180 [Corpse] Soul of a Nameless Soldier
 3800181 [Corpse] Vine Balm
 3800190 [Corpse] Soul of an Unknown Traveler
@@ -1687,7 +1702,7 @@
 3800270 [Corpse] Soul of a Nameless Soldier
 3800271 [Corpse] Mossfruit
 3800280 [Corpse] Soul of a Nameless Soldier
-3800281 [Corpse] Green Blossom
+3800281 [Corpse] Large Titanite Shard
 3800290 [Corpse] Soul of a Nameless Soldier
 3800291 [Corpse] Rusted Coin
 3800300 [Corpse] Large Soul of a Weary Warrior
@@ -1707,7 +1722,7 @@
 3800370 [Corpse] Soul of a Nameless Soldier
 3800371 [Corpse] Tarnished Silver Coin
 3800380 [Corpse] Soul of a Nameless Soldier
-3800381 [Corpse] Divine Blessing
+3800381 [Corpse] Large Titanite Shard
 3800390 [Corpse] Soul of a Nameless Soldier
 3800391 [Corpse] Divine Blessing
 3800400 [Chest] Demonsbane Ring
@@ -1776,7 +1791,7 @@
 3900010 [Corpse] Soul of a Nameless Soldier
 3900011 [Corpse] Purple Moss Clump
 3900020 [Corpse] Soul of a Nameless Soldier
-3900021 [Corpse] Blackweed Balm
+3900021 [Corpse] Large Titanite Shard
 3900030 [Corpse] Large Soul of a Nameless Soldier
 3900031 [Corpse] Throwing Knife
 3900040 [Corpse] Soul of a Nameless Soldier
@@ -1796,7 +1811,7 @@
 3900110 [Corpse] Soul of a Nameless Soldier
 3900111 [Corpse] Mossfruit
 3900120 [Corpse] Soul of a Crestfallen Knight
-3900121 [Corpse] Divine Blessing
+3900121 [Corpse] Large Titanite Shard
 3900130 [Corpse] Soul of a Nameless Soldier
 3900131 [Corpse] Dung Pie
 3900140 [Corpse] Soul of a Nameless Soldier
@@ -1808,7 +1823,7 @@
 3900170 [Corpse] Soul of a Nameless Soldier
 3900171 [Corpse] Rotten Pine Resin
 3900180 [Corpse] Soul of a Crestfallen Knight
-3900181 [Corpse] Corrupted Greatarrow
+3900181 [Corpse] Large Titanite Shard
 3900190 [Corpse] Soul of a Weary Warrior
 3900191 [Corpse] Siegbräu
 3900200 [Corpse] Soul of a Nameless Soldier
@@ -1920,11 +1935,11 @@
 4000200 [UG - Corpse] Soul of a Nameless Soldier
 4000201 [UG - Corpse] Divine Blessing
 4000210 [UG - Corpse] Soul of a Nameless Soldier
-4000211 [UG - Corpse] Mossfruit
+4000211 [UG - Corpse] Titanite Chunk
 4000220 [UG - Corpse] Large Soul of a Nameless Soldier
 4000221 [UG - Corpse] Alluring Skull
 4000230 [UG - Corpse] Soul of a Nameless Soldier
-4000231 [UG - Corpse] Rotten Pine Resin
+4000231 [UG - Corpse] Titanite Chunk
 4000240 [UG - Corpse] Soul of a Weary Warrior
 4000241 [UG - Corpse] Black Firebomb
 4000250 [UG - Corpse] Soul of a Nameless Soldier
@@ -1936,7 +1951,7 @@
 4000280 [UG - Corpse] Large Soul of a Nameless Soldier
 4000281 [UG - Corpse] Tarnished Silver Coin
 4000290 [UG - Corpse] Soul of a Weary Warrior
-4000291 [UG - Corpse] Dark Arrow
+4000291 [UG - Corpse] Titanite Chunk
 4000300 [UG - FK Corpse] Eyes of a Fire Keeper
 4000310 [UG - FK Corpse] Hollow Head
 4000320 [UG - FK Corpse] Fire Keeper Mask
@@ -2000,7 +2015,7 @@
 4500060 [Corpse] Soul of a Weary Warrior
 4500061 [Corpse] Witching Urn
 4500070 [Corpse] Soul of a Nameless Soldier
-4500071 [Corpse] Mossfruit
+4500071 [Corpse] Large Titanite Shard
 4500080 [Corpse] Soul of a Nameless Soldier
 4500081 [Corpse] Elizabeth Mushroom
 4500090 [Corpse] Soul of a Nameless Soldier
@@ -2016,11 +2031,11 @@
 4500140 [Corpse] Soul of a Nameless Soldier
 4500141 [Corpse] Rusted Coin
 4500150 [Corpse] Soul of a Weary Warrior
-4500151 [Corpse] Crimson Water
+4500151 [Corpse] Large Titanite Shard
 4500160 [Corpse] Soul of a Nameless Soldier
 4500161 [Corpse] Goldenfruit Balm
 4500170 [Corpse] Soul of a Nameless Soldier
-4500171 [Corpse] Blackweed Balm
+4500171 [Corpse] Large Titanite Shard
 4500180 [Corpse] Large Soul of a Nameless Soldier
 4500181 [Corpse] Poison Throwing Knife
 4500190 [Corpse] Soul of a Nameless Soldier
@@ -2037,7 +2052,7 @@
 4500230 [Corpse] Soul of a Nameless Soldier
 4500231 [Corpse] Firebomb
 4500240 [Corpse] Soul of a Nameless Soldier
-4500241 [Corpse] Old Growth Balm
+4500241 [Corpse] Large Titanite Shard
 4500250 [Corpse] Large Soul of a Nameless Soldier
 4500251 [Corpse] Gold Pine Resin
 4500260 [Corpse] Soul of a Seasoned Warrior
@@ -2112,7 +2127,7 @@
 5000040 [Corpse] Soul of a Crestfallen Knight
 5000041 [Corpse] Lothric War Banner
 5000050 [Corpse] Soul of a Nameless Soldier
-5000051 [Corpse] Purging Stone
+5000051 [Corpse] Titanite Chunk
 5000060 [Corpse] Soul of a Nameless Soldier
 5000061 [Corpse] Rusted Coin
 5000070 [Corpse] Soul of a Weary Warrior
@@ -2120,7 +2135,7 @@
 5000080 [Corpse] Soul of a Weary Warrior
 5000081 [Corpse] Human Dregs
 5000090 [Corpse] Soul of a Nameless Soldier
-5000091 [Corpse] Blackweed Balm
+5000091 [Corpse] Titanite Chunk
 5000100 [Corpse] Large Soul of a Weary Warrior
 5000101 [Corpse] Brightbug
 5000110 [Corpse] Soul of a Nameless Soldier
@@ -2130,7 +2145,7 @@
 5000130 [Corpse] Soul of a Crestfallen Knight
 5000131 [Corpse] Divine Blessing
 5000140 [Corpse] Soul of a Nameless Soldier
-5000141 [Corpse] Green Blossom
+5000141 [Corpse] Titanite Chunk
 5000150 [Corpse] Soul of a Nameless Soldier
 5000151 [Corpse] Red Bug Pellet
 5000160 [Corpse] Large Soul of a Nameless Soldier
@@ -2140,7 +2155,7 @@
 5000180 [Corpse] Large Soul of a Nameless Soldier
 5000181 [Corpse] Barathrum Petal
 5000190 [Corpse] Soul of a Nameless Soldier
-5000191 [Corpse] Lifegem
+5000191 [Corpse] Titanite Chunk
 5000400 [Chest] Crude Manikin Mask
 5000410 [Chest] Suspicious Gold Mask
 5000420 [Chest] Abyssal Blade
@@ -2174,6 +2189,7 @@
 5000902 [Unique - FFX Treasure] Charred Loyce Gauntlets
 5000903 [Unique - FFX Treasure] Charred Loyce Leggings
 5000910 [Unique - FFX Treasure] Small Envoy Banner
+5000911 [Unique - FFX Treasure] Titanite Slab
 5001000 [Mimic] Demon's Spear
 5001010 [Mimic] Imperious Greatshield
 5001020 [Mimic] Artificial Helmet
@@ -2193,7 +2209,7 @@
 5100000 [Corpse] Soul of a Weary Warrior
 5100001 [Corpse] Divine Blessing
 5100010 [Corpse] Soul of a Nameless Soldier
-5100011 [Corpse] Firebomb
+5100011 [Corpse] Titanite Chunk
 5100020 [Corpse] Soul of a Crestfallen Knight
 5100021 [Corpse] Brightbug
 5100030 [Corpse] Soul of a Weary Warrior
@@ -2205,7 +2221,7 @@
 5100060 [Corpse] Soul of a Nameless Soldier
 5100061 [Corpse] Mossfruit
 5100070 [Corpse] Soul of a Weary Warrior
-5100071 [Corpse] Rusted Coin
+5100071 [Corpse] Titanite Chunk
 5100080 [Corpse] Soul of a Weary Warrior
 5100081 [Corpse] Purging Stone
 5100090 [Corpse] Soul of a Crestfallen Knight
@@ -2213,7 +2229,7 @@
 5100100 [Corpse] Soul of a Weary Warrior
 5100101 [Corpse] Human Dregs
 5100110 [Corpse] Soul of a Weary Warrior
-5100111 [Corpse] Hexing Urn
+5100111 [Corpse] Titanite Chunk
 5100120 [Corpse] Soul of a Weary Warrior
 5100121 [Corpse] Alluring Skull
 5100130 [Corpse] Soul of a Weary Warrior
@@ -2227,7 +2243,7 @@
 5100170 [Corpse] Soul of a Weary Warrior
 5100171 [Corpse] Lightning Urn
 5100180 [Corpse] Soul of a Weary Warrior
-5100181 [Corpse] Old Growth Balm
+5100181 [Corpse] Titanite Chunk
 5100190 [Corpse] Soul of a Nameless Soldier
 5100191 [Corpse] Poison Throwing Knife
 5100200 [Corpse] Soul of a Nameless Soldier
@@ -2241,7 +2257,7 @@
 5100240 [Corpse] Soul of a Crestfallen Knight
 5100241 [Corpse] Red Bug Pellet
 5100250 [Corpse] Soul of a Weary Warrior
-5100251 [Corpse] Green Blossom
+5100251 [Corpse] Titanite Chunk
 5100260 [Corpse] Soul of a Crestfallen Knight
 5100261 [Corpse] Divine Blessing
 5100270 [Corpse] Soul of a Weary Warrior
@@ -2276,6 +2292,7 @@
 5100802 [Unique - Shira Corpse] Shira's Gloves
 5100803 [Unique - Shira Corpse] Shira's Trousers
 5100810 [Unique - Gwyn's Statue] Great Lord Greatsword
+5100811 [Unique - Gwyn's Statue] Titanite Slab
 5101000 [Mimic] Brushwood Helm
 5101001 [Mimic] Brushwood Armor
 5101002 [Mimic] Brushwood Gauntlets
@@ -2367,25 +2384,31 @@
 10900002 [High Wall of Lothric] Ember
 10900003 [High Wall of Lothric] Exotic Souls
 10900004 [High Wall of Lothric] Radiant Lifegem
+10900005 [High Wall of Lothric] Titanite Shard
 10901000 [Consumed King's Garden] Dark Gem
 10901001 [Consumed King's Garden] Brightbug
 10901002 [Consumed King's Garden] Ember
 10901003 [Consumed King's Garden] Exotic Souls
 10901004 [Consumed King's Garden] Radiant Lifegem
+10901005 [Consumed King's Garden] Large Titanite Shard
 10999999 ### Hollow Soldier ###
 11000000 [High Wall of Lothric] Firebomb
 11000001 [High Wall of Lothric] Standard Bolt
 11000002 [High Wall of Lothric] Throwing Knife
 11000003 [High Wall of Lothric] Lifegem
+11000004 [High Wall of Lothric] Titanite Shard
 11001000 [Lothric Castle] Firebomb
 11001001 [Lothric Castle] Standard Bolt
 11001002 [Lothric Castle] Throwing Knife
 11001003 [Lothric Castle] Radiant Lifegem
+11001004 [Lothric Castle] Large Titanite Shard
 11049999 ### Large Hollow Soldier ###
 11050000 [High Wall of Lothric] Lethal Gem
 11050001 [High Wall of Lothric] Lifegem
+11050002 [High Wall of Lothric] Titanite Shard
 11051000 [Lothric Castle] Lethal Gem
 11051001 [Lothric Castle] Radiant Lifegem
+11051002 [Lothric Castle] Large Titanite Shard
 11699999 ### Carthus Swordsman ###
 11700000 [Default] Blood Gem
 11700001 [Default] Old Radiant Lifegem
@@ -2394,12 +2417,14 @@
 11700004 [Default] Fire Arrow
 11700005 [Default] Kukri
 11700006 [Default] Carthus Rouge
+11700007 [Default] Large Titanite Shard
 11899999 ### Cathedral Knight ###
 11900000 [Default] Holy Gem
 11900001 [Default] Ember
 11900002 [Default] Exotic Souls
 11900003 [Default] Old Radiant Lifegem
 11900004 [Default] Blunt Gem
+11900005 [Default] Large Titanite Shard
 12000999 ### Hollow Slave ###
 12001000 [Undead Settlement] Sharp Gem
 12001001 [Undead Settlement] Lifegem
@@ -2416,11 +2441,13 @@
 12100002 [Default] Wolf's Blood Swordgrass
 12100003 [Default] Lifegem
 12100004 [Default] Veloxi Moss
+12100005 [Default] Titanite Shard
 12100999 ### Smouldering Ghru ###
 12101000 [Default] Fire Gem
 12101001 [Default] Charcoal Pine Resin
 12101002 [Default] Dried Root
 12101003 [Default] Combustum Petal
+12101004 [Default] Large Titanite Shard
 12299999 ### Cathedral Evangelist ###
 12300000 [Default] Holy Gem
 12300001 [Default] Old Growth Balm
@@ -2428,53 +2455,64 @@
 12300003 [Default] Blackweed Balm
 12300004 [Default] Goldenfruit Balm
 12300005 [Default] Rouge Water
+12300006 [Default] Titanite Shard
 12399999 ### Peasant Hollow ###
 12400000 [Default] Firebomb
 12400001 [Default] Charcoal Pine Resin
 12400002 [Default] Charcoal Pine Bundle
 12400003 [Default] Rubbish
 12400004 [Default] Lifegem
+12400005 [Default] Titanite Shard
 12409999 ### Jailer Hollow ###
 12410000 [Default] Firebomb
 12410001 [Default] Magic Gem
 12410002 [Default] Dung Pie
+12410003 [Default] Titanite Shard
 12499999 ### Cathedral Grave Warden ###
 12500000 [Default] Blood Gem
 12500001 [Default] Bloodred Moss Clump
 12500002 [Default] Radiant Lifegem
 12500003 [Default] Inferi Petal
+12500004 [Default] Large Titanite Shard
 12599999 ### Hollow Manservant ###
 12600000 [Default] Blunt Gem
 12600001 [Default] Radiant Lifegem
+12600002 [Default] Titanite Shard
 12799999 ### Lothric Knight ###
 12800000 [High Wall of Lothric] Lethal Gem
 12800001 [High Wall of Lothric] Ember
 12800002 [High Wall of Lothric] Exotic Souls
 12800003 [High Wall of Lothric] Radiant Lifegem
+12800004 [High Wall of Lothric] Titanite Shard
 12801000 [Lothric Castle] Lethal Gem
 12801001 [Lothric Castle] Sunlight Medal
 12801002 [Lothric Castle] Ember
 12801003 [Lothric Castle] Exotic Souls
 12801004 [Lothric Castle] Old Radiant Lifegem
+12801005 [Lothric Castle] Large Titanite Shard
 12899999 ### Winged Knight ###
 12900000 [High Wall of Lothric] Holy Gem
 12900001 [High Wall of Lothric] Exotic Souls
 12900002 [High Wall of Lothric] Radiant Lifegem
+12900003 [High Wall of Lothric] Large Titanite Shard
 12901000 [Lothric Castle] Holy Gem
 12901001 [Lothric Castle] Exotic Souls
 12901002 [Lothric Castle] Old Radiant Lifegem
+12901003 [Lothric Castle] Titanite Chunk
 12999999 ### Black Knight ###
 13000000 [Default] Blunt Gem
 13000001 [Default] Ember
 13000002 [Default] Exotic Souls
 13000003 [Default] Elizabeth Mushroom
 13000004 [Default] Petrified Something
+13000005 [Default] Titanite Slab
 13099999 ### Boreal Outrider Knight ###
 13100000 [Default] Frost Gem
 13100001 [Default] Sharp Gem
 13100002 [Default] Exotic Souls
 13100003 [Default] Old Radiant Lifegem
 13100004 [Default] Petrified Something
+13100005 [Default] Titanite Slab
 13199999 ### Crystal Sage ###
 13200000 [Default] Magic Gem
 13200001 [Default] Enchanted Gem
@@ -2482,6 +2520,7 @@
 13200003 [Default] Exotic Souls
 13200004 [Default] Smouldering Stone
 13200005 [Default] Crimson Water
+13200006 [Default] Titanite Slab
 13399999 ### Archive Scholar ###
 13400000 [Default] Old Radiant Lifegem
 13400001 [Default] Magic Gem
@@ -2490,6 +2529,7 @@
 13400004 [Default] Smouldering Stone
 13400005 [Default] Rouge Water
 13400006 [Default] Celeritas Stem
+13400007 [Default] Titanite Shard
 13499999 ### Irithyllian Slave ###
 13500000 [Default] Dark Gem
 13500001 [Default] Blue Bug Pellet
@@ -2500,20 +2540,25 @@
 13600000 [Default] Ember
 13600001 [Default] Radiant Lifegem
 13600002 [Default] Petrified Something
+13600003 [Default] Titanite Shard
 13699999 ### Lycanthrope Hunter ###
 13700000 [Default] Lifegem
 13700001 [Default] Veloxi Moss
+13700002 [Default] Titanite Shard
 13799999 ### Serpent-man Summoner ###
 13800000 [Default] Lightning Gem
 13800001 [Default] Old Radiant Lifegem
+13800002 [Default] Large Titanite Shard
 13899999 ### Serpent-man ###
 13900000 [Default] Lightning Gem
 13900001 [Default] Old Radiant Lifegem
+13900002 [Default] Large Titanite Shard
 13909999 ### Giant Serpent-man ###
 13910000 [Default] Blunt Gem
 13910001 [Default] Fire Gem
 13910002 [Default] Old Radiant Lifegem
 13910003 [Default] Exotic Souls
+13910004 [Default] Titanite Chunk
 14099999 ### Silver Knight ###
 14100000 [Default] Lightning Gem
 14100001 [Default] Divine Blessing
@@ -2521,6 +2566,7 @@
 14100003 [Default] Exotic Souls
 14100004 [Default] Elizabeth Mushroom
 14100005 [Default] Petrified Something
+14100006 [Default] Large Titanite Shard
 14299999 ### Undead Cleric ###
 14300000 [Cemetery of Ash] Fading Soul
 14300001 [Cemetery of Ash] Lifegem
@@ -2533,17 +2579,21 @@
 14400003 [Default] Enchanted Gem
 14400004 [Default] Smouldering Stone
 14400005 [Default] Rouge Water
+14400006 [Default] Titanite Shard
 14400999 ### Devout of the Deep ###
 14401000 [Default] Old Radiant Lifegem
 14401001 [Default] Firebomb
 14401002 [Default] Curse Gem
 14401003 [Default] Fading Soul
+14401004 [Default] Titanite Shard
 14401999 ### Lothric Priest ###
 14402000 [Default] Old Radiant Lifegem
 14402001 [Default] Holy Gem
+14402002 [Default] Titanite Shard
 14449999 ### Large Devout of the Deep ###
 14450000 [Default] Dark Gem
 14450001 [Default] Radiant Lifegem
+14450002 [Default] Large Titanite Shard
 14459999 ### Sage's Devout ###
 14460000 [Default] Old Radiant Lifegem
 14460001 [Default] Magic Gem
@@ -2551,28 +2601,34 @@
 14460004 [Default] Smouldering Stone
 14460005 [Default] Crimson Water
 14460006 [Default] Celeritas Stem
+14460007 [Default] Large Titanite Shard
 14699999 ### Bonewheel Skeleton ###
 14700000 [Default] Carthus Rouge
 14700001 [Default] Blood Gem
 14700002 [Default] Old Radiant Lifegem
+14700003 [Default] Large Titanite Shard
 20299999 ### Pontiff Knight ###
 20300000 [Default] Frost Gem
 20300001 [Default] Magic Gem
 20300002 [Default] Exotic Souls
 20300003 [Default] Old Radiant Lifegem
+20300004 [Default] Large Titanite Shard
 20399999 ### Monstrosity of Sin ###
 20400000 [Default] Dung Pie
 20400001 [Default] Exotic Souls
 20400002 [Default] Elizabeth Mushroom
 20400003 [Default] Petrified Something
+20400004 [Default] Titanite Slab
 20699999 ### Wretch ###
 20700000 [Default] Pale Pine Resin
 20700001 [Default] Rouge Water
+20700002 [Default] Large Titanite Shard
 20999999 ### Sewer Centipede ###
 21000000 [Default] Poison Gem
 21000001 [Default] Green Blossom
 21000002 [Default] Budding Green Blossom
 21000004 [Default] Dried Root
+21000005 [Default] Large Titanite Shard
 21099999 ### Hound-rat ###
 21100000 [Default] Soul of a Deserted Corpse
 21100001 [Default] Dried Root
@@ -2590,6 +2646,7 @@
 21400005 [Default] Old Radiant Lifegem
 21499999 ### Crystal Lizard ###
 21500000 [Default] Lizard Hide
+21500001 [Default] Random Titanite
 21599999 ### Londor Pilgrim ###
 21600000 [Default] Abyssal Fragment
 21600001 [Default] Lifegem
@@ -2600,30 +2657,37 @@
 21900000 [Default] Fire Gem
 21900001 [Default] Exotic Souls
 21900002 [Default] Old Radiant Lifegem
+21900003 [Default] Titanite Chunk
 22099999 ### Corvian ###
 22100000 [Default] Poison Gem
 22100001 [Default] Lifegem
+22100002 [Default] Titanite Shard
 22299999 ### Jailer ###
 22300000 [Default] Assorted Coins
 22300001 [Default] Old Radiant Lifegem
+22300002 [Default] Large Titanite Shard
 22300099 ### Jailer Handmaid ###
 22300100 [Default] Fire Seed
 22300101 [Default] Assorted Coins
 22300102 [Default] Old Radiant Lifegem
+22300103 [Default] Large Titanite Shard
 22399999 ### Boreal Outrider Sentinel ###
 22400000 [Default] Exotic Souls
 22400001 [Default] Old Radiant Lifegem
 22400002 [Default] Petrified Something
 22400003 [Default] Frost Gem
+22400004 [Default] Titanite Slab
 22499999 ### Sulyvahn's Beast ###
 22500000 [Default] Blunt Gem
 22500001 [Default] Exotic Souls
 22500002 [Default] Divine Blessing
 22500003 [Default] Holy Gem
+22500004 [Default] Titanite Chunk
 22699999 ### Great Crab ###
 22700000 [Default] Assorted Souls
 22700001 [Default] Exotic Souls
 22700002 [Default] Old Radiant Lifegem
+22700003 [Default] Large Titanite Shard
 22709999 ### Lesser Crab ###
 22710000 [Default] Mossfruit
 22710001 [Default] Old Radiant Lifegem
@@ -2631,27 +2695,33 @@
 22800000 [Default] Blood Gem
 22800001 [Default] Assorted Souls
 22800002 [Default] Dried Root
+22800003 [Default] Titanite Shard
 30199999 ### Giant Slave ###
 30200000 [Default] Exotic Souls
 30200001 [Default] Elizabeth Mushroom
 30200002 [Default] Petrified Something
+30200003 [Default] Titanite Chunk
 30399999 ### Abyss Watcher ###
 30400000 [Default] Soul of a Weary Warrior
 30400001 [Default] Sharp Gem
 30400002 [Default] Tarnished Coin, Tarnished Silver Coin
+30400003 [Default] Titanite Chunk
 30599999 ### Demon ###
 30600000 [Default] Soul of a Demon
 30600001 [Default] Fire Seed
 30600002 [Default] Dried Root
 30600003 [Default] Fire Gem
+30600004 [Default] Titanite Chunk
 30699999 ### Demon Cleric ###
 30700000 [Default] Fire Seed
 30700001 [Default] Fire Gem
 30700002 [Default] Dried Root
+30700003 [Default] Large Titanite Shard
 30899999 ### Cage Spider ###
 30900000 [Default] Fading Soul
 30900001 [Default] Lifegem
 30900002 [Default] Ritual Incense
+30900003 [Default] Titanite Shard
 30999999 ### Ravenous Crystal Lizard ###
 31000000 [Default] Crystal Fragment
 31000001 [Default] Exotic Souls
@@ -2659,29 +2729,34 @@
 31000003 [Default] Enchanted Gem
 31000004 [Default] Magic Gem
 31000005 [Default] Titanite Fragment
+31000006 [Default] Random Titanite
 31099999 ### Deep Accursed ###
 31100000 [Default] Abyssal Fragment
 31100001 [Default] Exotic Souls
 31100002 [Default] Old Radiant Lifegem
 31100003 [Default] Curse Gem
 31100004 [Default] Dark Gem
+31100005 [Default] Titanite Chunk
 31199999 ### Elder Ghru ###
 31200000 [Default] Blunt Gem
 31200001 [Default] Ember
 31200002 [Default] Exotic Souls
 31200003 [Default] Old Radiant Lifegem
 31200004 [Default] Dark Gem
+31200005 [Default] Large Titanite Shard
 31409999 ### Ancient Wyvern ###
 31410000 [Default] Dragon Eye
 31410001 [Default] Old Radiant Lifegem
 31410002 [Default] Sharp Gem
 31410003 [Default] Fire Gem
+31410004 [Default] Titanite Chunk
 31699999 ### Darkwraith ###
 31700000 [Default] Dark Gem
 31700001 [Default] Curse Gem
 31700002 [Default] Pale Tongue
 31700003 [Default] Cracked Red Eye Orb
 31700004 [Default] Radiant Lifegem
+31700005 [Default] Large Titanite Shard
 32099999 ### Poisonhorn Bug ###
 32100000 [Default] Rotten Pine Resin
 32100001 [Default] Poison Gem
@@ -2691,36 +2766,44 @@
 32200000 [Default] Lethal Gem, Sharp Gem, Blunt Gem
 32200001 [Default] Old Radiant Lifegem
 32200002 [Default] Blunt Gem
+32200004 [Default] Random Titanite
 51399999 ### Spirit of the Pontiff ###
 51400000 [Default] Old Radiant Lifegem
 51400001 [Default] Crystal Fragment
 51400002 [Default] Abyssal Fragment
 51400003 [Default] Holy Fragment
 51400004 [Default] Exotic Souls
+51400005 [Default] Titanite Chunk
 51999999 ### Stray Demon ###
 52000000 [Default] Soul of a Stray Demon
 52000001 [Default] Fire Seed
 52000002 [Default] Dried Root
 52000003 [Default] Fire Gem
+52000004 [Default] Titanite Chunk
 52209999 ### Deacon of the Deep ###
 52210000 [Default] Human Dregs
 52210001 [Default] Abyssal Fragment
 52210002 [Deacon] Old Radiant Lifegem
+52210003 [Default] Large Titanite Shard
 52399999 ### Irithyll Fire Witch ###
 52400000 [Default] Old Radiant Lifegem
 52400001 [Default] Magic Gem
 52400002 [Default] Fire Gem
+52400003 [Default] Large Titanite Shard
 52699999 ### Boreal Outrider Assassin ###
 52700000 [Default] Exotic Souls
 52700001 [Default] Old Radiant Lifegem
 52700002 [Default] Petrified Something
 52700003 [Default] Frost Gem
+52700004 [Default] Titanite Slab
 59999999 ### Farron Follower ###
 60000000 [Default] Frost Gem
 60000001 [Default] Radiant Lifegem
+60000002 [Default] Large Titanite Shard
 60299999 ### Greatwolf ###
 60300000 [Default] Frost Gem
 60300001 [Default] Old Radiant Lifegem
+60300002 [Default] Titanite Chunk
 60399999 ### Wolf ###
 60400000 [Default] Mossfruit
 60400001 [Default] Lifegem
@@ -2731,20 +2814,24 @@
 60600000 [Default] Fire Seed
 60600001 [Default] Alluring Skull
 60600002 [Default] Dried Root
+60600003 [Default] Large Titanite Shard
 60699999 ### Corvian Knight ###
 60700000 [Default] Sharp Gem
 60700001 [Default] Exotic Souls
 60700002 [Default] Old Radiant Lifegem
+60700003 [Default] Titanite Chunk
 60799999 ### Corvian Villager ###
 60800000 [Default] Dung Pie, Stalk Dung Pie
 60899999 ### Giant Fly ###
 60900000 [Default] Dark Gem
 60900001 [Default] Human Pine Resin
 60900002 [Default] Lifegem
+60900003 [Default] Random Titanite
 60999999 ### Millwood Knight ###
 61000000 [Default] Blunt Gem
 61000001 [Default] Exotic Souls
 61000002 [Default] Old Radiant Lifegem
+61000003 [Default] Titanite Slab
 62299999 ### Murkman ###
 62300000 [Default] Dark Gem
 62300001 [Default] Human Dregs
@@ -2757,6 +2844,7 @@
 62600002 [Default] Filianore's Spear Ornament
 62600003 [Default] Exotic Souls
 62600004 [Default] Old Radiant Lifegem
+62600005 [Default] Titanite Chunk
 62699999 ### Hollow Vagabond ###
 62700000 [Default] Lightning Gem
 62700001 [Default] Radiant Lifegem
@@ -2764,19 +2852,23 @@
 62800000 [Default] Holy Fragment
 62800001 [Default] Exotic Souls
 62800002 [Default] Old Radiant Lifegem
+62800003 [Default] Titanite Slab
 62899999 ### Hollow Cleric ###
 62900000 [Default] Holy Gem
 62900001 [Default] Holy Fragment
 62900002 [Default] Old Radiant Lifegem
+62900003 [Default] Titanite Chunk
 63199999 ### Harald Knight ###
 63200000 [Default] Blunt Gem
 63200001 [Default] Exotic Souls
 63200002 [Default] Elizabeth Mushroom
+63200003 [Default] Titanite Slab
 63299999 ### Big Locust ###
 63300000 [Default] Pale Pine Resin
 63300001 [Default] Assorted Souls
 63300002 [Default] Abyssal Fragment
 63300003 [Default] Old Radiant Lifegem
+63300004 [Default] Titanite Chunk
 63309999 ### Small Locust ###
 63310000 [Default] Pale Pine Resin
 63310001 [Default] Lifegem
@@ -2785,6 +2877,7 @@
 75700000 [Default] Elizabeth Mushroom
 75700001 [Default] Frost Gem
 75700002 [Default] Rime-blue Moss Clump
+75700003 [Default] Titanite Chunk
 76299999 ### Red Crystal Lizard ###
 76300000 [Default] Magic Gem, Fire Gem, Lightning Gem, Dark Gem
 76300001 [Default] Lucky Gem, Enchanted Gem, Holy Gem
@@ -2850,9 +2943,3 @@
 800300040 Primordial Fragment - 100% (2)
 800300050 Primordial Fragment - 100% (3)
 800300060 Primordial Fragment - 10%
-800499999 ### Trials ###
-800500000 Trial of Adversity - Boss
-800500100 Trial of Sorrow - Boss
-800500200 Trial of Calamity - Boss
-800500340 Tribal of Devastation - Boss
-800501000 Trial - Homeward Bone

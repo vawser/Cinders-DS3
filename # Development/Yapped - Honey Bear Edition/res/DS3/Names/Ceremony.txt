@@ -31,6 +31,6 @@
 38000000 [Catacombs of Carthus/Smouldering Lake] Daytime
 39000000 [Irithyll Dungeon/Profaned Capital] Noon
 40000000 [Cemetery of Ash] Daytime
-40000010 [Cemetery of Ash] Blood Moon
-40000020 [Untended Graves] Night
+40000010 [Cemetery of Ash] Night
+40000020 [Cemetery of Ash]
 47000010 [Memory] Night

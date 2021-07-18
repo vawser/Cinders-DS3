@@ -7,10 +7,14 @@
 <text id="1">%null%</text>
 <text id="400000">Standard arrows used with bows.
 
+Boosts Counter Damage by 10%.
+
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="400100">Shoot arrows with burning tips 
 dealing fire damage.
+
+Boosts Stamina Recovery on shot. Stacks.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -21,11 +25,15 @@ foes.</text>
 <text id="400300">Large, more powerful arrows with a shorter range 
 due to their weight.
 
+Can penetrate shields.
+
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="400400">Red feathered arrows used by hunters.
 Their long range makes them ideal for distant 
 targets.
+
+Damage is increased over larger distances.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -34,6 +42,7 @@ Darkmoon Knights.
 
 Imbued with a silver light, these arrows inflict 
 magic damage.
+Can deflect spells.
 
 It is said that long ago the God of the Darkmoon 
 Gwyndolin wielded these arrows with a matching 
@@ -46,7 +55,9 @@ Simultaneously equip up to two types of arrows,
 and switch between them as needed.</text>
 <text id="400700">Ritual arrows said to have been used by 
 savage hunters.
-Inflict dark damage.
+Inflicts dark damage.
+
+Inflicts Curse and homes in the target.
 
 It is said that these arrows scrape out death from
 their targets, but savages are known to tell tall 
@@ -55,6 +66,8 @@ tales.</text>
 blacksmith of the gods.
 
 Can only be used with greatbows.
+
+Boosts Counter Damage by 10%.
 
 These large arrows were said to have been used by 
 dragon hunters during the age of the gods. 
@@ -65,26 +78,33 @@ created by the giant blacksmith of the gods.
 
 Can only be used with greatbows.
 
+Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
+
 Lightning has been a weapon of dragonslayers ever 
 since the time of Gwyn, the First Lord.</text>
 <text id="402300">Large arrows used to destroy giant horned oni 
 in an eastern land.
 
-Can only be used with greatbows. These arrows 
-penetrate shields, dealing damage to guarded foes.
+Can only be used with greatbows.
+
+Damage is increased over larger distances.
 
 Made from the feathers of an aged crow, it is said
 that these arrows fly as straight as their master.</text>
 <text id="404000">Standard bolts used with crossbows.
 
+Boosts Counter Damage by 10%.
+
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404100">Large, more powerful bolts with a shorter range due to their weight.
+
+Can penetrate shields.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404200">Red feathered bolts used by snipers of Carim.
 Their long range makes them ideal for distant targets.
 
-These bolts penetrate shields, dealing damage to guarded foes.
+Damage is increased over larger distances.
 
 Though typically used with Sniper Crossbows in Carim, these arrows can still be used with any kind of crossbow.</text>
 <text id="404300">Inexpensive wooden bolts.
@@ -92,6 +112,8 @@ Weaker bolts that can be easily purchased in bulk.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404400">Bolts imbued with lightning created by the giant blacksmith of the gods.
+
+Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
 
 However, the gods never used crossbows.
 These bolts are likely artifacts of the dragonless era, when the pact between gods and humans was upheld.</text>
@@ -111,6 +133,8 @@ the Silver Knights.
 Imbued with a yellow light, these arrows inflict 
 lightning damage.
 
+Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
+
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="410300">Shoot arrows that were once associated with the 
@@ -118,6 +142,8 @@ creatures known as dragons.
 
 The fury of the fallen dragons is felt through 
 these arrows.
+
+Can penetrate enemies.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -137,6 +163,7 @@ the Darkmoon Knights.
 Imbued with a silver light, these arrows inflict 
 magic damage.
 Can only be used with greatbows.
+Can deflect spells.
 
 It is said that long ago the God of the Darkmoon 
 Gwyndolin wielded these arrows with a matching golden bow.</text>
@@ -145,10 +172,14 @@ Gwyndolin wielded these arrows with a matching golden bow.</text>
 Can only be used with greatbows.</text>
 <text id="414000">Magical bolts said to have been used by Darkmoon Knights. Imbued with a silver light, these bolts inflict magic damage.
 
+Can deflect spells.
+
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="414100">Draconic bolts said to be associated with the dragons of old.
 
 The fury of the fallen dragons is felt through these bolts.
+
+Can penetrate enemies.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="422000">Magical greatarrows said to have been used by 
@@ -156,8 +187,12 @@ servants of chaos in the distant past.
 Imbued with a flickering flame, these arrows 
 inflict fire damage.
 
+Boosts Stamina Recovery on shot. Stacks.
+
 Can only be used with greatbows.</text>
 <text id="424000">Magical bolts said to have been used by servants of chaos. Imbued with a flickering flame, these bolts inflict fire damage.
+
+Boosts Stamina Recovery on shot. Stacks.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="432000">Magical greatarrows said to have been used by 
@@ -165,13 +200,19 @@ servants of the abyss in the distant past.
 Imbued with abyssal energies, these arrows 
 inflict dark damage.
 
+Inflicts Curse and homes in the target.
+
 Can only be used with greatbows.</text>
 <text id="434000">Magical bolts said to have been used by servants of the abyss. Imbued with abyssal energies, these bolts inflict dark damage.
+
+Inflicts Curse and homes in the target.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="442000">Draconic greatarrows said to be associated with the dragons of old.
 
 The fury of the fallen dragons is felt through these arrows.
+
+Can penetrate enemies.
 
 Can only be used with greatbows.</text>
 <text id="444000">Bolts coated with poison. Used by nefarious spooks to poison their marks.

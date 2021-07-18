@@ -2133,6 +2133,8 @@
 112352 [Behavior] Stagger Threshold: 5
 112353 [Behavior] Stagger Threshold: 7
 112400 [Behavior] Old Man's Gambit
+112410 [Behavior] Short Leap
+112411 [Behavior] Long Leap
 112499 [Behavior] Critical Hit
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
@@ -3364,6 +3366,15 @@
 160201290 Quarterstaff - Successive Hits Burst
 160201291 Quarterstaff - Successive Hits Burst [ConditionOccurrence]
 160201922 Quarterstaff - Successive Hits Burst [Bullet Call]
+160202000 Lightning Ammunition - Poise Reduction
+160202010 Standard Ammunition - Counter Damage
+160202020 Fire Arrow - 10 Stamina Recovery Boost
+160202030 Fire Arrow - 5 Stamina Recovery Boost
+160202040 Fire Bolt - 10 Stamina Recovery Boost
+160202050 Fire Bolt - 5 Stamina Recovery Boost
+160202060 Fire Bolt - 1 Stamina Recovery Boost
+160202070 Demonic Greatarrow - 20 Stamina Recovery Boost
+160202080 Demonic Greatarrow - 10 Stamina Recovery Boost
 160208999 ### Catalysts ###
 160209000 Storyteller's Staff
 160209001 Sunlight Talisman
@@ -3409,6 +3420,7 @@
 160250180 Talisman of Beasts - Bestial Wrath
 160250190 Rotten Talisman - Poison Spores
 160250500 Bloodlust - HP Loss
+160250510 Sanguine Wrath - HP Loss
 160250520 Bloodlust - Damage - Right-hand
 160250521 Bloodlust - Damage - Right-hand [AttackOccurance]
 160250530 Bloodlust - Bleed - Right-hand
@@ -5628,12 +5640,12 @@
 200008410 Dark - Fist Sidearm
 200008420 Dark - Blunderbuss Sidearm
 249999999 ### Challenges ###
-250000100 Hard Mode - Player Effect - Damage
-250000101 Hard Mode - Player Effect - Absorption
-250000102 Hard Mode - Player Effect - Souls
-250000103 Hard Mode - Player Effect - Spell Damage
-250000104 Hard Mode - Player Effect - Stamina
-250000105 Hard Mode - Player Effect - Aux
+250000100 Mythic Mode - Player Effect - Damage
+250000101 Mythic Mode - Player Effect - Absorption
+250000102 Mythic Mode - Player Effect - Souls
+250000103 Mythic Mode - Player Effect - Spell Damage
+250000104 Mythic Mode - Player Effect - Stamina
+250000105 Mythic Mode - Player Effect - Aux
 250001000 Curse of Pride - Player Effect
 250001010 Curse of Pride - Soul Gain - I
 250001011 Curse of Pride - Soul Gain - II

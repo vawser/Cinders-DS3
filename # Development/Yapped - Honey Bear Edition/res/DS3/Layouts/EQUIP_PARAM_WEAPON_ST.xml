@@ -1131,57 +1131,57 @@
     <default>35</default>
   </entry>
   <entry>
-    <name>Correction Value 0</name>
+    <name>Guard Correction: Physical</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 1</name>
+    <name>Guard Correction: Magic</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 2</name>
+    <name>Guard Correction: Fire</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 3</name>
+    <name>Guard Correction: Lightning</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 4</name>
+    <name>Guard Correction: Dark</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 5</name>
+    <name>Guard Correction: Poison</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 6</name>
+    <name>Guard Correction: Toxic</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 7</name>
+    <name>Guard Correction: Bleed</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 8</name>
+    <name>Guard Correction: Curse</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 9</name>
+    <name>Guard Correction: Frostbite</name>
     <type>f32</type>
     <default>15</default>
   </entry>
   <entry>
-    <name>Correction Value 10</name>
+    <name>Guard Correction: Stability</name>
     <type>f32</type>
     <default>5</default>
   </entry>

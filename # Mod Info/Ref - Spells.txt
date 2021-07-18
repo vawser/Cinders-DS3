@@ -798,7 +798,7 @@
 - FTH Req: 20
 
 #---- Lightning Surge
-- Changes cast animation to Fire Surge.
+- Changes cast animation to Fire Surge and reduces damage to 100.
 
 #--------------------------------
 # Great Lightning Spear
