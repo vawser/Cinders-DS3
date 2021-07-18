@@ -1335,7 +1335,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000051 Claimed Relic of Insanity
 25000052 Claimed Relic of Legends
 25000053 Claimed Relic of Myths
-25000055 Hard Mode active
+25000055 Disable Reinforcement
 
 25000099 Game Flags Set
 
@@ -1563,6 +1563,12 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009700 Touched Colossus Tower
 25009710 Reached into Profaned Flame
+
+25009800 Game setup completed
+25009810 Standard mode
+25009811 Wanderer mode
+25009812 Mythic mode
+
 
 25009999 NO SHOW flag
 

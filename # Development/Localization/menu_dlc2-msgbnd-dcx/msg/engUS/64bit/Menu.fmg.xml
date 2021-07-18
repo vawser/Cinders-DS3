@@ -4248,5 +4248,30 @@ to commune with the fallen knight.</text>
 <text id="99052038">Lingering Numbness crafted</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
+
+<text id="99060000">Configure Journey</text>
+<text id="99060001">Description</text>
+<text id="99060002">Set</text>
+<text id="99060003">Unset</text>
+<text id="99060004">Skip Journey</text>
+<text id="99060005">Begin Journey</text>
+<text id="99060006">Current Configuration</text>
+<text id="99060007">Begin Journey</text>
+
+<text id="99060010">Standard Mode</text>
+<text id="99060011">Wanderer Mode</text>
+<text id="99060012">Mythic Mode</text>
+
+<text id="99060020">Standard mode applies the following effects:
+- None</text>
+<text id="99060021">Wanderer mode applies the following effects:
+- Weaponry and shields can no longer be reinforced.
+- Bosses will grant a permanent damage boost after they have been defeated.</text>
+<text id="99060022">Mythic mode applies the following effects:
+- Weaponry and shields can no longer be reinforced.
+- World is populated by more enemies.
+- Reduces absorptions by 33%.
+- Reduces aux resistances by 33%.</text>
+
 </entries>
 </fmg>
