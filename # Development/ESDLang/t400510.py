@@ -166,7 +166,7 @@ def t400510_x9():
         AddTalkListDataIf(GetEventStatus(25009800) == 0, 2, 99060004, -1)
         
         # Begin Journey
-        AddTalkListDataIf(GetEventStatus(25009800) == 0 and GetEventStatus(25009810) == 1 or GetEventStatus(25009811) == 1 or GetEventStatus(25009812) == 1, 3, 99060005, -1)
+        AddTalkListDataIf(GetEventStatus(25009802) == 0, 3, 99060005, -1)
         
         # Current Configuration (Standard)
         AddTalkListDataIf(GetEventStatus(25009800) == 1 and GetEventStatus(25009810) == 1, 10, 99060006, -1)
@@ -448,7 +448,12 @@ def t400510_x30():
         ShowShopMessage(1)
         
         if GetTalkListEntryResult() == 1:
+            # Fallback to Standard Mode if none are set
+            if GetEventStatus(25009810) == 0 and GetEventStatus(25009811) == 0 and GetEventStatus(25009812) == 0:
+                SetEventState(25009810, 1)
+                
             SetEventState(25009800, 1)
+            SetEventState(25009802, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

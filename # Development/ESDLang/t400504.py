@@ -164,7 +164,7 @@ def t400504_x9():
         AddTalkListData(1, 15010007, -1)
         
         # Browse Collection
-        AddTalkListDataIf(GetEventStatus(25000055) == 1, 4, 15010008, -1)
+        AddTalkListDataIf(GetEventStatus(25009812) == 1, 4, 15010008, -1)
         
         # Affixes
         AddTalkListData(3, 99002532, -1)
