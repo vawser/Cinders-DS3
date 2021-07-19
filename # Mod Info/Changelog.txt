@@ -246,10 +246,13 @@ Add the following armour:
    - Aborr
 
 # Map
+- Added a Mantling mechanic. Certain locations will allow you to 'Hop' or 'Leap' over barriers or towards certain areas.
+
 - Irithyll:
  - Added a new walkway just after the cave as you enter Irithyll. This allows you to fall down into the waterway as a shortcut.
- - Added a new area with a Fire Witch and a chest.
-- Added a Mantling mechanic. Certain locations will allow you to 'Hop' or 'Leap' over barriers or towards certain areas.
+ - Added a small rooftop area with a Fire Witch and a chest
+ - Added a large rooftop area accessed via a small jumping puzzle. 
+ - Moved Domhnall of Zena to the large rooftop area.
 
 - Cemetery of Ash
  - Added a 'Journey Configuration' feature that forces you to pick from one of the available modes before allowing you to continue.
