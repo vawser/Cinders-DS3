@@ -1596,3 +1596,40 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25003100 Engaged Boss 
 25003101 Killed Boss 
+
+25003200 Gauntlet: Set Order
+25003201 Gauntlet: Random Order
+
+25003001 Selection: Dismal Knight
+25003002 Selection: Vordt
+25003003 Selection: Curse-rotted Greatwood
+25003004 Selection: Crystal Sage
+25003005 Selection: Deacons
+25003006 Selection: Abyss Watchers
+25003007 Selection: High Lord Wolnir
+25003008 Selection: Old Demon King
+25003009 Selection: Pontiff Sulyvahn
+25003010 Selection: Aldrich
+25003011 Selection: Yhorm
+25003012 Selection: Dancer
+25003013 Selection: Oceiros
+25003014 Selection: Dragonslayer Armour
+25003015 Selection: Ancient Wyvern
+25003016 Selection: Nameless King
+25003017 Selection: Champion Gundyr
+25003018 Selection: Twin Princes
+25003019 Selection: Cinder
+25003020 Selection: Sister Friede
+25003021 Selection: Lordran Remnants
+25003022 Selection: Demon Prince
+25003023 Selection: Darkeater Midir
+25003024 Selection: Slave Knight Gael
+25003025 Selection: Halflight
+25003026 Selection: Frostfire Colossus
+25003027 Selection: Cathedral Guardian
+25003028 Selection: Mirror Knight
+25003029 Selection: Aborr             
+25003030 Selection: Herald of Winter
+25003031 Selection: The Rock
+25003032 Selection: Twisted Knight
+25003033 Selection: Fallen Protector

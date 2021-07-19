@@ -276,12 +276,14 @@ Add the following armour:
     - Reduces aux resistances by 33%.
     
  - Gauntlet Mode
-    - You will face a boss gauntlet that includes all bosses currently in the mod.
-    - Using the Firelink Shrine bonfire, you can use the "Next Boss" option to automatically teleport to the next boss in the gauntlet.
+    - Two types are available:
+        - Set Order: you will face each boss in a predefined order.
+        - Random Order: you will face a random boss each time. Once a boss is killed, it will no longer appear in the pool of available bosses.
+    - Using the Firelink Shrine bonfire, you can use the "Next Boss"/"Face Boss" option to automatically teleport to the next boss in the gauntlet.
     - Map exploration is discouraged, if you do not engage the boss when teleported to them, your progress will be reset.
     - After each boss, you will be returned to Firelink Shrine.
     - The Fire Keeper will show you her Illustrious Collection, which allows you to purchase almost any item for souls.
-
+    
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
 - Fixed dummy polys for Burial Scythe.

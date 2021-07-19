@@ -4278,7 +4278,9 @@ to commune with the fallen knight.</text>
 <text id="99060023">Gauntlet mode applies the following effects:
 - You will face a gauntlet comprised of every boss within the world.
 - After each boss, you will be returned to Firelink Shrine 
-where you can purchase weaponry and armor.</text>
+where you can purchase weaponry and armor.
+- Defeat all bosses to complete the gauntlet and 
+unlock the ability to enter a new journey.</text>
 
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>
@@ -4326,6 +4328,21 @@ once you begin your journey.</text>
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
 <text id="99060110">Next Boss</text>
+
+<text id="99060120">Gauntlet Type</text>
+<text id="99060121">Set Order</text>
+<text id="99060122">Random Order</text>
+<text id="99060123">Face Boss</text>
+
+<text id="99060130">Gauntlet will consist of bosses in a set order.
+
+Defeat all bosses to complete the gauntlet.</text>
+<text id="99060131">Gauntlet will consist of bosses in a random order. 
+
+Each time the boss will be randomised. Once defeated, 
+a boss will no longer appear in the pool of available bosses.
+
+Defeat all bosses to complete the gauntlet.</text>
 
 </entries>
 </fmg>

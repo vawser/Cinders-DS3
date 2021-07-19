@@ -5798,8 +5798,9 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X4_4, ON); // First Boss Kill
     
     // Return to Shrine if in Gauntlet mode
-    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
     WaitFixedTimeSeconds(15.0);
+    SetMapCeremony(40, 0, 0); // Ceremony fix
     WarpPlayer(40, 0, 4000970); // Firelink Shrine
 });
 
@@ -5986,8 +5987,11 @@ Event(20020116, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
+    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, 25009813);
     SetEventFlag(25003100, ON);
+    // Change ceremony if the player dies so they don't appear in Untended Graves
+    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+    SetMapCeremony(40, 0, 0);
 });
 
 //----------------------------------------------

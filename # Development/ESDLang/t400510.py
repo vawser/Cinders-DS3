@@ -433,6 +433,7 @@ def t400510_x14():
             SetEventState(25009811, 0)
             SetEventState(25009812, 0)
             SetEventState(25009813, 1)
+            SetEventState(25003200, 1) # Set Order by default
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -454,6 +455,9 @@ def t400510_x15():
         # Starting Location
         AddTalkListData(1, 99060008, -1)
         
+        # Gauntlet Type
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 2, 99060120, -1)
+        
         # Leave
         AddTalkListData(99, 15000190, -1)
         
@@ -465,6 +469,11 @@ def t400510_x15():
         if GetTalkListEntryResult() == 1:
             assert t400510_x40()
             continue 
+        # Gauntlet Type
+        elif GetTalkListEntryResult() == 2:
+            assert t400510_x50()
+            continue 
+            
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -823,4 +832,36 @@ def t400510_x40():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
+# Gauntlet Type
+def t400510_x50():
+    c1110()
+    while True:
+        ClearTalkListData()
+        
+        # Set Order
+        AddTalkListData(1, 99060121, -1)
+        
+        # Random Order
+        AddTalkListData(2, 99060122, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Set Order
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99060130, 0, 0, 0)
+            SetEventState(25003200, 1)
+            SetEventState(25003201, 0)
+            continue
+        # Random Order
+        elif GetTalkListEntryResult() == 2:
+            OpenGenericDialog(1, 99060131, 0, 0, 0)
+            SetEventState(25003200, 0)
+            SetEventState(25003201, 1)
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
             
