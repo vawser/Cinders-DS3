@@ -2073,10 +2073,10 @@ Persisting will transform you into a grub.</text>
 <text id="15012000">Give &lt;?gdsparam@2118?&gt; </text>
 <text id="15012001">Purchase Item</text>
 <text id="15013000">Learn Sorceries</text>
-<text id="15013001">%null%</text>
-<text id="15013002">%null%</text>
-<text id="15013003">%null%</text>
-<text id="15013004">%null%</text>
+<text id="15013001">Browse Weapons</text>
+<text id="15013002">Browse Spells</text>
+<text id="15013003">Browse Armor</text>
+<text id="15013004">Browse Accessories</text>
 <text id="15013005">%null%</text>
 <text id="15013006">%null%</text>
 <text id="15013007">%null%</text>
@@ -4276,11 +4276,10 @@ to commune with the fallen knight.</text>
 - Reduces absorptions by 33%.
 - Reduces aux resistances by 33%.</text>
 <text id="99060023">Gauntlet mode applies the following effects:
-- You will face a gauntlet comprised of every boss within the world.
-- After each boss, you will be returned to Firelink Shrine 
-where you can purchase weaponry and armor.
-- Defeat all bosses to complete the gauntlet and 
-unlock the ability to enter a new journey.</text>
+- You will face a gauntlet comprised of every boss.
+- Each boss will drop a Weapon, Armor or Accessory token.
+- Spend tokens at the Fire Keeper.
+- Defeat all bosses to complete the gauntlet.</text>
 
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>

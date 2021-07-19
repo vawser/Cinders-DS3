@@ -5798,7 +5798,8 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X4_4, ON); // First Boss Kill
     
     // Return to Shrine if in Gauntlet mode
-    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
+    AwardItemLot(800002000); // Token drop
     WaitFixedTimeSeconds(15.0);
     SetMapCeremony(40, 0, 0); // Ceremony fix
     WarpPlayer(40, 0, 4000970); // Firelink Shrine

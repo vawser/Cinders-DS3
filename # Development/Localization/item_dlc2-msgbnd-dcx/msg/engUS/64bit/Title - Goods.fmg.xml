@@ -1157,6 +1157,11 @@
 <text id="20052">Beckoning Bone</text>
 <text id="20053">Invigorating Phial</text>
 <text id="20054">Energizing Phial</text>
+
+<text id="40000">Weapon Token</text>
+<text id="40001">Armor Token</text>
+<text id="40002">Accessory Token</text>
+
 <text id="100000">%null%</text>
 <text id="1200000">Farron Dart</text>
 <text id="1200010">Refined Farron Dart</text>

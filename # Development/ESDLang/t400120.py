@@ -147,9 +147,21 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         # Level Up
         AddTalkListData(1, 15002000, -1)
         
-        # Browse Illustrious Collection
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 2, 15010009, -1)
+        # Browse Weapons
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 40, 15013001, -1)
         
+        # Browse Spells
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 41, 15013002, -1)
+        
+        # Browse Armor
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 42, 15013003, -1)
+        
+        # Browse Accessories
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 43, 15013004, -1)
+        
+        # Purchase Item
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 45, 15010004, -1)
+
         # Heal the Dark Sigil
         AddTalkListData(4, 15002004, 74000125)
         
@@ -202,9 +214,26 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
                     return 0
                 elif call.Done():
                     continue
-        elif GetTalkListEntryResult() == 2:
-            OpenRegularShop(800000, 809999)
-            return 0
+        # Browse Weapons
+        elif GetTalkListEntryResult() == 40:
+            c1111(800000, 800999)
+            continue
+        # Browse Spells
+        elif GetTalkListEntryResult() == 41:
+            c1111(803000, 803999)
+            continue
+        # Browse Armor
+        elif GetTalkListEntryResult() == 42:
+            c1111(801000, 801999)
+            continue
+        # Browse Accessories
+        elif GetTalkListEntryResult() == 43:
+            c1111(802000, 802999)
+            continue
+        # Purchase Item
+        elif GetTalkListEntryResult() == 45:
+            OpenRegularShop(804000, 804999)
+            continue
         elif GetTalkListEntryResult() == 16:
             """ State 5,17 """
             assert t400120_x22()

@@ -21,7 +21,7 @@
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
 53902125 Irithyll Dungeon / Profaned Capital
-54002081 Cemetery of Ash / Unturned Graves
+54002082 Cemetery of Ash / Unturned Graves
 54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
 55002071 Dreg Heap
@@ -264,7 +264,7 @@ Add the following armour:
 # Journey Configuration
 - You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
 - Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
-- You now need to select from one of the available game modes before you can start playing. This choice is irrevisible within the current journey.
+- You now need to select from one of the available game modes before you can start playing. This choice is irreverisible within the current journey.
 
  - Standard Mode:
     - No additional effects.
@@ -279,14 +279,17 @@ Add the following armour:
     - Reduces absorptions by 33%.
     - Reduces aux resistances by 33%.
     
- - Gauntlet Mode
+ - Gauntlet Mode    
+    - You will face a gauntlet comprised of every boss.
+    - Each boss will drop a Weapon, Armor or Accessory token.
+    - Spend tokens at the Fire Keeper.
+    - Defeat all bosses to complete the gauntlet.
+    
     - Two types are available:
         - Set Order: you will face each boss in a predefined order.
         - Random Order: you will face a random boss each time. Once a boss is killed, it will no longer appear in the pool of available bosses.
-    - Using the Firelink Shrine bonfire, you can use the "Next Boss"/"Face Boss" option to automatically teleport to the next boss in the gauntlet.
-    - Map exploration is discouraged, if you do not engage the boss when teleported to them, your progress will be reset.
-    - After each boss, you will be returned to Firelink Shrine.
-    - The Fire Keeper will show you her Illustrious Collection, which allows you to purchase almost any item for souls.
+        
+    - You have 20 seconds to face the boss when you progress through the gauntlet. Attempting to explore will reset your boss progress back to the start.
     
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.

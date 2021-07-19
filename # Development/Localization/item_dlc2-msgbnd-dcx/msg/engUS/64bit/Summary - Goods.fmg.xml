@@ -1118,6 +1118,11 @@
 <text id="20052">Recall active companions</text>
 <text id="20053">Boosts the damage of active companions</text>
 <text id="20054">Boosts the stamina of active companions</text>
+
+<text id="40000">Exchange with the Fire Keeper for weaponry and spells</text>
+<text id="40001">Exchange with the Fire Keeper for armor</text>
+<text id="40002">Exchange with the Fire Keeper for accessories</text>
+
 <text id="1200000">Fire soul dart</text>
 <text id="1200010">Fire soul dart with no focus cost</text>
 <text id="1210000">Summon orb that fires soul darts</text>
