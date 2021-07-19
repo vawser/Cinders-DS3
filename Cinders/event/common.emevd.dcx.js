@@ -2565,9 +2565,10 @@ Event(20054, Restart, function() {
     SetEventFlag(53002111, ON);
     SetEventFlag(53902124, ON);
     
-    // If in Firelink, skip this stuff
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, 4002940, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
+    // If in these areas, skip Engagement check
+    IfPlayerInoutMap(OR_01, true, 47, 0); // In Memory map
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 4002940, 1); // In Firelink Shrine
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
