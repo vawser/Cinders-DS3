@@ -18,6 +18,7 @@ dmy:
 854004 Yellow Fire
 854005 Grey Fire
 854006 Silent Prism Stone
+854007 Rainbow Fire
 
 854010 Black Fire Vestiges
 854011 Black Fire Vestiges [Hit]
@@ -68,6 +69,7 @@ dmy:
 856012 Torch: Fire
 856014 Torch: Lightning
 856016 Torch: Dark
+856018 Torch: Luck
 856020 Torch: Enchanted
 856022 Torch: Holy
 856028 Torch: Normal
