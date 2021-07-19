@@ -2575,13 +2575,13 @@ Event(20054, Restart, function() {
     
     DisplayEpitaphMessage(99060100);
     
-    WaitFixedTimeSeconds(30.0);
+    WaitFixedTimeSeconds(15.0);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
     
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
     DisplayEpitaphMessage(99060101);
     
-    WaitFixedTimeSeconds(15.0);
+    WaitFixedTimeSeconds(5.0);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
     
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
