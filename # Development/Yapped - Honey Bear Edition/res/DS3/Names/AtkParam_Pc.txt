@@ -950,6 +950,15 @@
 2513706 Moonlight Greatsword - Moonlight Vortex (Fire)
 2513707 Moonlight Greatsword - Moonlight Vortex (Lightning)
 2513708 Moonlight Greatsword - Moonlight Vortex (Dark)
+2513709 Moonlight Greatsword - Moonlight Vortex (Rainbow)
+2513710 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave (Rainbow)
+2513711 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave (Rainbow)
+2513712 Moonlight Greatsword - 1H Heavy #2 - Vertical Wave (Rainbow)
+2513713 Moonlight Greatsword - 1H Heavy #2 (Charged) - Vertical Wave (Rainbow)
+2513714 Moonlight Greatsword - 2H Heavy #1 - Vertical Wave (Rainbow)
+2513715 Moonlight Greatsword - 2H Heavy #1 (Charged) - Vertical Wave (Rainbow)
+2513716 Moonlight Greatsword - 2H Heavy #2 - Vertical Wave (Rainbow)
+2513717 Moonlight Greatsword - 2H Heavy #2 (Charged) - Vertical Wave (Rainbow)
 2514700 Firelink Greatsword - Ember
 2514705 Firelink Greatsword - Ember [Bullet]
 2515730 Storm Ruler [Bullet]
@@ -1203,6 +1212,14 @@
 2605305 Zweihander - 2H Heavy #1 Max
 2605310 Zweihander - 2H Heavy #2
 2605315 Zweihander - 2H Heavy #2 Max
+2606100 Drakewing Ultra Greatsword - 1H Heavy #1
+2606105 Drakewing Ultra Greatsword - 1H Heavy #1 Max
+2606106 Drakewing Ultra Greatsword - Heavy - Bullet
+2606107 Drakewing Ultra Greatsword - Heavy - Bullet [Hit]
+2606300 Drakewing Ultra Greatsword - 2H Heavy #1
+2606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
+2606540 Drakewing Ultra Greatsword - 1H Roll
+2606580 Drakewing Ultra Greatsword - 2H Roll
 2610000 Fume Ultra Greatsword
 2610001 Fume Ultra Greatsword
 2610010 Fume Ultra Greatsword
@@ -2996,6 +3013,10 @@
 3616115 Silver Knight Spear - 1H Heavy #2 Max
 3616300 Silver Knight Spear - 2H Heavy #1
 3616305 Silver Knight Spear - 2H Heavy #1 Max
+3617150 [Spitfire Spear] - Heavy - Bullet
+3617151 [Spitfire Spear] - Heavy - Bullet [Hit]
+3617710 [Spitfire Spear] SpitFire
+3617720 [Spitfire Spear] SpitFire
 3620700 Spear
 3620800 Spear
 3620810 Spear

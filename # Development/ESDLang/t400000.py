@@ -297,7 +297,10 @@ def t400000_x12():
         ClearTalkListData()
         """ State 2 """
         # Travel
-        AddTalkListData(1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15000150, -1)
+        
+        # Next Boss
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 30, 99060110, -1)
         
         # Level Up
         AddTalkListData(10, 15002000, -1)
@@ -493,6 +496,174 @@ def t400000_x12():
             OpenEstusAllotMenu()
             assert not (CheckSpecificPersonMenuIsOpen(14, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
             continue
+        # Next Boss
+        elif GetTalkListEntryResult() == 30:
+            # Dismal Knight
+            if GetEventStatus(25002001) == 0:
+                GiveSpEffectToPlayer(260100010)
+                continue
+                
+            # Vordt
+            elif GetEventStatus(25002002) == 0:
+                GiveSpEffectToPlayer(260100020)
+                continue
+                
+            # Curse-rotted Greatwood
+            elif GetEventStatus(25002003) == 0:
+                GiveSpEffectToPlayer(260100030)
+                continue
+                
+            # Crystal Sage
+            elif GetEventStatus(25002004) == 0:
+                GiveSpEffectToPlayer(260100040)
+                continue
+            
+            # Aborr
+            elif GetEventStatus(25002029) == 0:
+                GiveSpEffectToPlayer(260100300)
+                continue
+                
+            # Cathedral Guardian
+            elif GetEventStatus(25002027) == 0:
+                GiveSpEffectToPlayer(260100280)
+                continue
+                
+            # Deacons of the Deep
+            elif GetEventStatus(25002005) == 0:
+                GiveSpEffectToPlayer(260100050)
+                continue
+                
+            # Abyss Watchers
+            elif GetEventStatus(25002006) == 0:
+                GiveSpEffectToPlayer(260100060)
+                continue
+                
+            # High Lord Wolnir
+            elif GetEventStatus(25002007) == 0:
+                GiveSpEffectToPlayer(260100070)
+                continue
+                
+            # Old Demon King
+            elif GetEventStatus(25002008) == 0:
+                GiveSpEffectToPlayer(260100080)
+                continue
+            
+            # Pontiff Sulyvahn
+            elif GetEventStatus(25002009) == 0:
+                GiveSpEffectToPlayer(260100090)
+                continue
+                
+            # Aldrich
+            elif GetEventStatus(25002010) == 0:
+                GiveSpEffectToPlayer(260100100)
+                continue
+                
+            # Fallen Protector
+            elif GetEventStatus(25002033) == 0:
+                GiveSpEffectToPlayer(260100340)
+                continue
+                
+            # Yhorm
+            elif GetEventStatus(25002011) == 0:
+                GiveSpEffectToPlayer(260100110)
+                continue
+                
+            # Dancer
+            elif GetEventStatus(25002012) == 0:
+                GiveSpEffectToPlayer(260100120)
+                continue
+                
+            # Oceiros
+            elif GetEventStatus(25002013) == 0:
+                GiveSpEffectToPlayer(260100130)
+                continue
+            
+            # Twisted Knight
+            elif GetEventStatus(25002032) == 0:
+                GiveSpEffectToPlayer(260100330)
+                continue
+                
+            # Dragonslayer Armour
+            elif GetEventStatus(25002014) == 0:
+                GiveSpEffectToPlayer(260100140)
+                continue
+            
+            # Mirror Knight
+            elif GetEventStatus(25002028) == 0:
+                GiveSpEffectToPlayer(260100290)
+                continue
+                
+            # Twin Princes
+            elif GetEventStatus(25002018) == 0:
+                GiveSpEffectToPlayer(260100180)
+                continue
+                
+            # Ancient Wyvern
+            elif GetEventStatus(25002015) == 0:
+                GiveSpEffectToPlayer(260100150)
+                continue
+                
+            # The Rock
+            elif GetEventStatus(25002031) == 0:
+                GiveSpEffectToPlayer(260100320)
+                continue
+                
+            # Nameless King
+            elif GetEventStatus(25002016) == 0:
+                GiveSpEffectToPlayer(260100160)
+                continue
+            
+            # Champion Gundyr
+            elif GetEventStatus(25002017) == 0:
+                GiveSpEffectToPlayer(260100170)
+                continue
+                
+            # Lordran Remnants
+            elif GetEventStatus(25002021) == 0:
+                GiveSpEffectToPlayer(260100210)
+                continue
+               
+            # Frostfire Colossus
+            elif GetEventStatus(6951) == 1 and GetEventStatus(25002026) == 0:
+                GiveSpEffectToPlayer(260100270)
+                continue
+                
+            # Herald of Winter
+            elif GetEventStatus(6951) == 1 and GetEventStatus(25002030) == 0:
+                GiveSpEffectToPlayer(260100310)
+                continue
+                
+            # Sister Friede
+            elif GetEventStatus(6951) == 1 and GetEventStatus(25002020) == 0:
+                GiveSpEffectToPlayer(260100200)
+                continue
+                
+            # Demon Prince
+            elif GetEventStatus(6952) == 1 and GetEventStatus(25002022) == 0:
+                GiveSpEffectToPlayer(260100220)
+                continue
+                
+            # Halflight
+            elif GetEventStatus(6952) == 1 and GetEventStatus(25002025) == 0:
+                GiveSpEffectToPlayer(260100250)
+                continue
+                
+            # Darkeater Midir
+            elif GetEventStatus(6952) == 1 and GetEventStatus(25002023) == 0:
+                GiveSpEffectToPlayer(260100230)
+                continue
+                
+            # Slave Knight Gael
+            elif GetEventStatus(6952) == 1 and GetEventStatus(25002024) == 0:
+                GiveSpEffectToPlayer(260100240)
+                continue
+                
+            # Soul of Cinder
+            elif GetEventStatus(25002019) == 0:
+                GiveSpEffectToPlayer(260100190)
+                continue
+                
+            return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 45 """
             assert (not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2))

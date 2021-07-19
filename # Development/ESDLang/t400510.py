@@ -162,6 +162,9 @@ def t400510_x9():
         # Configure Journey
         AddTalkListDataIf(GetEventStatus(25009800) == 0, 1, 99060000, -1)
         
+        # Modify Journey
+        AddTalkListDataIf(GetEventStatus(25009800) == 0, 4, 99060009, -1)
+        
         # Skip Journey
         AddTalkListDataIf(GetEventStatus(25009800) == 0, 2, 99060004, -1)
         
@@ -197,6 +200,10 @@ def t400510_x9():
         elif GetTalkListEntryResult() == 3:
             assert t400510_x30()
             return 0   
+        # Modify Journey
+        elif GetTalkListEntryResult() == 4:
+            assert t400510_x15()
+            continue
         # Current Configuration (Standard)
         elif GetTalkListEntryResult() == 10:
             OpenGenericDialog(1, 99060020, 0, 0, 0)
@@ -229,8 +236,8 @@ def t400510_x10():
         # Mythic Mode
         AddTalkListData(3, 99060012, -1)
         
-        # Starting Location
-        AddTalkListData(4, 99060008, -1)
+        # Gauntlet Mode
+        AddTalkListData(5, 99060013, -1)
         
         # Leave
         AddTalkListData(99, 15000190, -1)
@@ -251,10 +258,10 @@ def t400510_x10():
         elif GetTalkListEntryResult() == 3:
             assert t400510_x13()
             continue 
-        # Starting Location
-        elif GetTalkListEntryResult() == 4:
-            assert t400510_x40()
-            continue 
+        # Gauntlet Mode
+        elif GetTalkListEntryResult() == 5:
+            assert t400510_x14()
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -293,6 +300,7 @@ def t400510_x11():
             SetEventState(25009810, 1)
             SetEventState(25009811, 0)
             SetEventState(25009812, 0)
+            SetEventState(25009813, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -336,6 +344,7 @@ def t400510_x12():
             SetEventState(25009810, 0)
             SetEventState(25009811, 1)
             SetEventState(25009812, 0)
+            SetEventState(25009813, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -379,6 +388,7 @@ def t400510_x13():
             SetEventState(25009810, 0)
             SetEventState(25009811, 0)
             SetEventState(25009812, 1)
+            SetEventState(25009813, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -391,6 +401,77 @@ def t400510_x13():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
+# Gauntlet Mode
+def t400510_x14():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 99060002, -1)
+        
+        # Unset
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 3, 99060003, -1)
+
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99060023, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009810, 0)
+            SetEventState(25009811, 0)
+            SetEventState(25009812, 0)
+            SetEventState(25009813, 1)
+            continue 
+        # Unset
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009813, 0)
+            continue 
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+# Modify Journey
+def t400510_x15():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Starting Location
+        AddTalkListData(1, 99060008, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Starting Location
+        if GetTalkListEntryResult() == 1:
+            assert t400510_x40()
+            continue 
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
 # Advance Journey 1
 def t400510_x20():
     c1110()

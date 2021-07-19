@@ -2044,7 +2044,7 @@ Persisting will transform you into a grub.</text>
 <text id="15010006">Sacrifice Item</text>
 <text id="15010007">Browse Collection</text>
 <text id="15010008">Browse Secret Collection</text>
-<text id="15010009">%null%</text>
+<text id="15010009">Browse Illustrious Collection</text>
 <text id="15010010">Give &lt;?gdsparam@2103?&gt;</text>
 <text id="15010011">Give &lt;?gdsparam@2104?&gt;</text>
 <text id="15010012">Give &lt;?gdsparam@2105?&gt;</text>
@@ -4258,10 +4258,12 @@ to commune with the fallen knight.</text>
 <text id="99060006">Current Configuration</text>
 <text id="99060007">Begin Journey</text>
 <text id="99060008">Starting Location</text>
+<text id="99060009">Modify Journey</text>
 
 <text id="99060010">Standard Mode</text>
 <text id="99060011">Wanderer Mode</text>
 <text id="99060012">Mythic Mode</text>
+<text id="99060013">Gauntlet Mode</text>
 
 <text id="99060020">Standard mode applies the following effects:
 - None</text>
@@ -4273,6 +4275,10 @@ to commune with the fallen knight.</text>
 - World is populated by more enemies.
 - Reduces absorptions by 33%.
 - Reduces aux resistances by 33%.</text>
+<text id="99060023">Gauntlet mode applies the following effects:
+- You will face a gauntlet comprised of every boss within the world.
+- After each boss, you will be returned to Firelink Shrine 
+where you can purchase weaponry and armor.</text>
 
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>
@@ -4303,6 +4309,10 @@ to commune with the fallen knight.</text>
 <text id="99060061">You will start in Dreg Heap once you begin your journey.</text>
 <text id="99060062">You will start in Ringed City once you begin your journey.</text>
 <text id="99060063">You will start in a random location once you begin your journey.</text>
+
+<text id="99060100">Engage the boss or your progress will be reset.</text>
+<text id="99060101">Engage the boss immediately!</text>
+<text id="99060110">Next Boss</text>
 
 </entries>
 </fmg>

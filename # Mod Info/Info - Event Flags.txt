@@ -1460,40 +1460,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001032 Boss Kill: Twisted Knight
 25001033 Boss Kill: Fallen Protector
 
-25002001 First Boss Kill: Dismal Knight
-25002002 First Boss Kill: Vordt
-25002003 First Boss Kill: Curse-rotted Greatwood
-25002004 First Boss Kill: Crystal Sage
-25002005 First Boss Kill: Deacons
-25002006 First Boss Kill: Abyss Watchers
-25002007 First Boss Kill: High Lord Wolnir
-25002008 First Boss Kill: Old Demon King
-25002009 First Boss Kill: Pontiff Sulyvahn
-25002010 First Boss Kill: Aldrich
-25002011 First Boss Kill: Yhorm
-25002012 First Boss Kill: Dancer
-25002013 First Boss Kill: Oceiros
-25002014 First Boss Kill: Dragonslayer Armour
-25002015 First Boss Kill: Ancient Wyvern
-25002016 First Boss Kill: Nameless King
-25002017 First Boss Kill: Champion Gundyr
-25002018 First Boss Kill: Twin Princes
-25002019 First Boss Kill: Cinder
-25002020 First Boss Kill: Sister Friede
-25002021 First Boss Kill: Lordran Remnants
-25002022 First Boss Kill: Demon Prince
-25002023 First Boss Kill: Darkeater Midir
-25002024 First Boss Kill: Slave Knight Gael
-25002025 First Boss Kill: Halflight
-25002026 First Boss Kill: Frostfire Colossus
-25002027 First Boss Kill: Cathedral Guardian
-25002028 First Boss Kill: Mirror Knight
-25002029 First Boss Kill: Aborr
-25002030 First Boss Kill: Herald of Winter
-25002031 First Boss Kill: The Rock
-25002032 First Boss Kill: Twisted Knight
-25002033 First Boss Kill: Fallen Protector
-
 25006000 No Hit state
 
 25008000 Married: 
@@ -1564,13 +1530,21 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009700 Touched Colossus Tower
 25009710 Reached into Profaned Flame
 
+25009999 NO SHOW flag
+
+75003000 Stone-humped Hag 1
+75003010 Stone-humped Hag 1
+75003020 Stone-humped Hag 1
+
 25009800 Game setup completed
 25009801 Location set
 25009802 Journey began
+25009803 Unlock memories
 
 25009810 Standard mode
 25009811 Wanderer mode
 25009812 Mythic mode
+25009813 Gauntlet mode
 
 25009820 Untended Graves
 25009821 Archdragon Peak
@@ -1584,13 +1558,41 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009829 Ariandel
 25009830 Dreg Heap
 25009831 Ringed City
-
 25009840 Random location
 
-25009999 NO SHOW flag
+25002001 First Boss Kill: Dismal Knight
+25002002 First Boss Kill: Vordt
+25002003 First Boss Kill: Curse-rotted Greatwood
+25002004 First Boss Kill: Crystal Sage
+25002005 First Boss Kill: Deacons
+25002006 First Boss Kill: Abyss Watchers
+25002007 First Boss Kill: High Lord Wolnir
+25002008 First Boss Kill: Old Demon King
+25002009 First Boss Kill: Pontiff Sulyvahn
+25002010 First Boss Kill: Aldrich
+25002011 First Boss Kill: Yhorm
+25002012 First Boss Kill: Dancer
+25002013 First Boss Kill: Oceiros
+25002014 First Boss Kill: Dragonslayer Armour
+25002015 First Boss Kill: Ancient Wyvern
+25002016 First Boss Kill: Nameless King
+25002017 First Boss Kill: Champion Gundyr
+25002018 First Boss Kill: Twin Princes
+25002019 First Boss Kill: Cinder
+25002020 First Boss Kill: Sister Friede
+25002021 First Boss Kill: Lordran Remnants
+25002022 First Boss Kill: Demon Prince
+25002023 First Boss Kill: Darkeater Midir
+25002024 First Boss Kill: Slave Knight Gael
+25002025 First Boss Kill: Halflight
+25002026 First Boss Kill: Frostfire Colossus
+25002027 First Boss Kill: Cathedral Guardian
+25002028 First Boss Kill: Mirror Knight
+25002029 First Boss Kill: Aborr             
+25002030 First Boss Kill: Herald of Winter
+25002031 First Boss Kill: The Rock
+25002032 First Boss Kill: Twisted Knight
+25002033 First Boss Kill: Fallen Protector
 
-# Shop Flag
-
-75003000 Stone-humped Hag 1
-75003010 Stone-humped Hag 1
-75003020 Stone-humped Hag 1
+25003100 Engaged Boss 
+25003101 Killed Boss 

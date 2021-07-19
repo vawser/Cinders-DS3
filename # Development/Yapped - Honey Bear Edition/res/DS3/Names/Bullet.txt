@@ -3105,6 +3105,8 @@
 100063205 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Lightning)
 100063206 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Dark)
 100063207 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Dark)
+100063208 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Rainbow)
+100063209 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave (Rainbow)
 100063210 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave
 100063211 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave
 100063212 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Fire)
@@ -3113,6 +3115,8 @@
 100063215 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Lightning)
 100063216 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Dark)
 100063217 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Dark)
+100063218 [Moonlight Greatsword] 1H Heavy #2 (Charged) - Horizontal Wave (Rainbow)
+100063219 [Moonlight Greatsword] 1H Heavy #2 - Horizontal Wave (Rainbow)
 100063220 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave
 100063221 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave
 100063222 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Fire)
@@ -3121,6 +3125,8 @@
 100063225 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Lightning)
 100063226 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Dark)
 100063227 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Dark)
+100063228 [Moonlight Greatsword] 2H Heavy #1 (Charged) - Horizontal Wave (Rainbow)
+100063229 [Moonlight Greatsword] 2H Heavy #1 - Horizontal Wave (Rainbow)
 100063230 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave
 100063231 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave
 100063232 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Fire)
@@ -3129,10 +3135,13 @@
 100063235 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Lightning)
 100063236 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Dark)
 100063237 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Dark)
+100063238 [Moonlight Greatsword] 2H Heavy #2 (Charged) - Horizontal Wave (Rainbow)
+100063239 [Moonlight Greatsword] 2H Heavy #2 - Horizontal Wave (Rainbow)
 100063240 [Moonlight Greatsword] Moonlight Vortex
 100063241 [Moonlight Greatsword] Moonlight Vortex (Fire)
 100063242 [Moonlight Greatsword] Moonlight Vortex (Lightning)
 100063243 [Moonlight Greatsword] Moonlight Vortex (Dark)
+100063244 [Moonlight Greatsword] Moonlight Vortex (Rainbow)
 100063400 [Firelink Greatsword] Ember
 100063410 [Firelink Greatsword] Ember [Emitter]
 100063411 [Firelink Greatsword] Ember [Hit]
@@ -3203,7 +3212,7 @@
 100081900 [Old King's Great Hammer] Molten Perseverance
 100081910 [Old King's Great Hammer] Molten Perseverance
 100082900 [Morne's Great Hammer] Morne's Rage
-100082910 [Morne's Great Hammer] Morne's Rage [Hit]
+100082910 [Morne's Great Hammer] Morne's Rage [Hit] (OG)
 100082920 [Morne's Great Hammer] Morne's Rage [Hit]
 100083200 [Ledo's Great Hammer] Call to Stone
 100083201 [Ledo's Great Hammer] Call to Stone [Hit]
@@ -3956,6 +3965,11 @@
 210015303 [Frostfall] Crystal Rain Effect
 210015304 [Frostfall] Crystal Rain Effect [Hit]
 210016000 [Black Dragon Shield] Black Dragon's Ire
+210017000 [Spitfire Spear] SpitFire
+210017100 [Spitfire Spear] SpitFire
+210017200 [Spitfire Spear] SpitFire
+210017220 [Spitfire Spear] - Heavy - Bullet
+210017221 [Spitfire Spear] - Heavy - Bullet [Hit]
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

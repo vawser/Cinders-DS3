@@ -256,21 +256,31 @@ Add the following armour:
  - Moved the Dismal Knight into the Lonely Hollow area
  - Moved the starting spawn back to the original location.
  - Removed the Lonely Hollow bonfire.
+ - Moved the Sanctum NPCs back into Firelink Shrine.
  
 # Journey Configuration
+- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
+- Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
 - You now need to select from one of the available game modes before you can start playing. This choice is irrevisible within the current journey.
  - Standard Mode:
     - No additional effects.
+    
  - Wanderer Mode
     - Weaponry and shields can no longer be reinforced.
     - Bosses will grant a permanent damage boost after they have been defeated.
+    
  - Mythic Mode
     - Weaponry and shields can no longer be reinforced.
     - World is populated by more enemies.
     - Reduces absorptions by 33%.
     - Reduces aux resistances by 33%.
-- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
-- Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
+    
+ - Gauntlet Mode
+    - You will face a boss gauntlet that includes all bosses currently in the mod.
+    - Using the Firelink Shrine bonfire, you can use the "Next Boss" option to automatically teleport to the next boss in the gauntlet.
+    - Map exploration is discouraged, if you do not engage the boss when teleported to them, your progress will be reset.
+    - After each boss, you will be returned to Firelink Shrine.
+    - The Fire Keeper will show you her Illustrious Collection, which allows you to purchase almost any item for souls.
 
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.

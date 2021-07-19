@@ -32,6 +32,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20051, 0); // Wanderer Mode
     InitializeEvent(0, 20052, 0); // Mythic Mode
     InitializeEvent(0, 20053, 0); // Starting Location
+    InitializeEvent(0, 20054, 0); // Gauntlet Mode
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -1871,7 +1872,7 @@ Event(20001, Default, function(X0_4, X4_4) {
     // Game State
     SetEventFlag(25000030, ON); // Deathless Run
     SetEventFlag(25000031, ON); // Hitless Run
-    SetEventFlag(74000171, 1) // Transposition Enabled
+    SetEventFlag(74000171, ON) // Transposition Enabled
     
     // Menu Options
     SetEventFlag(25000050, OFF); // Claimed Relic of Power
@@ -1883,7 +1884,6 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(25009581, OFF); // Grudore - Sage's Coal
     SetEventFlag(25009582, OFF); // Grudore - Giant's Coal
     SetEventFlag(25009583, OFF); // Grudore - Profaned Coal
-    
     
     // Enable Firelink Shrine bonfire
     SetBonfireWarpingState(4001950, 60430, Enabled);
@@ -2393,7 +2393,10 @@ Event(20053, Restart, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009801);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GameConfiguration_Set);
-    SetEventFlag(14000002, ON); // Overgrown Sanctum
+    SetEventFlag(14000000, ON); // Firelink Shrine
+    
+    // Skip if in Gauntlet mode
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 25009813);
     
     // Random
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, flag_Location_Random);
@@ -2475,8 +2478,115 @@ Event(20053, Restart, function() {
     WarpPlayer(51, 0, 5100972);
     SetPlayerRespawnPoint(5100972);
     
+    Label0();
+    
+    // Skip to Firelink Shrine if in Gauntlet mode
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
+    WarpPlayer(40, 0, 4000970); // Firelink Shrine
+    
     // Set setup flag
     SetEventFlag(25009801, ON);
+});
+
+//----------------------------------------------
+// Gauntlet Mode - Setup
+//----------------------------------------------
+Event(20054, Restart, function() {
+    var flag_GauntletMode = 25009813;
+    
+    // Disable Gauntlet fogwalls
+    DeactivateObject(4001830, Disabled);
+    DeleteObjectfollowingSFX(4001830, true);
+    DeactivateObject(4001831, Disabled);
+    DeleteObjectfollowingSFX(4001831, true);
+    DeactivateObject(4001832, Disabled);
+    DeleteObjectfollowingSFX(4001832, true);
+    DeactivateObject(4001833, Disabled);
+    DeleteObjectfollowingSFX(4001833, true);
+    
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    // Unlock Memories
+    SetEventFlag(25009803, ON);
+    
+    SetSpEffect(10000, 250000200); // Soul boost
+    
+    SetPlayerRespawnPoint(4002950);
+    
+    // Enable Gauntlet fogwalls
+    DeactivateObject(4001830, Enabled);
+    DeleteObjectfollowingSFX(4001830, true);
+    CreateObjectfollowingSFX(4001830, 101, 3);
+    DeactivateObject(4001831, Enabled);
+    DeleteObjectfollowingSFX(4001831, true);
+    CreateObjectfollowingSFX(4001831, 101, 3);
+    DeactivateObject(4001832, Enabled);
+    DeleteObjectfollowingSFX(4001832, true);
+    CreateObjectfollowingSFX(4001832, 101, 3);
+    DeactivateObject(4001833, Enabled);
+    DeleteObjectfollowingSFX(4001833, true);
+    CreateObjectfollowingSFX(4001833, 101, 3);
+    
+    // Reset Engagement flag
+    SetEventFlag(25003100, OFF); 
+    
+    // Enable boss drop flags so the Tomes don't drop in Gauntlet mode
+    SetEventFlag(53002107, ON);
+    SetEventFlag(53002108, ON);
+    SetEventFlag(53002109, ON);
+    SetEventFlag(53012091, ON);
+    SetEventFlag(53412135, ON);
+    SetEventFlag(53102095, ON);
+    SetEventFlag(53202077, ON);
+    SetEventFlag(53202078, ON);
+    SetEventFlag(53302183, ON);
+    SetEventFlag(53302184, ON);
+    SetEventFlag(53502084, ON);
+    SetEventFlag(53702158, ON);
+    SetEventFlag(53702159, ON);
+    SetEventFlag(53802179, ON);
+    SetEventFlag(53802180, ON);
+    SetEventFlag(53902122, ON);
+    SetEventFlag(54002077, ON);
+    SetEventFlag(54002078, ON);
+    SetEventFlag(54102012, ON);
+    SetEventFlag(54502076, ON);
+    SetEventFlag(54502077, ON);
+    SetEventFlag(54502078, ON);
+    SetEventFlag(55002070, ON);
+    SetEventFlag(55102065, ON);
+    SetEventFlag(55102066, ON);
+    SetEventFlag(55102067, ON);
+    SetEventFlag(53502085, ON);
+    SetEventFlag(53412136, ON);
+    SetEventFlag(54502090, ON);
+    SetEventFlag(53102096, ON);
+    SetEventFlag(53202079, ON);
+    SetEventFlag(53002111, ON);
+    SetEventFlag(53902124, ON);
+    
+    // If in Firelink, skip this stuff
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, 4002940, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    DisplayEpitaphMessage(99060100);
+    
+    WaitFixedTimeSeconds(30.0);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
+    
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
+    DisplayEpitaphMessage(99060101);
+    
+    WaitFixedTimeSeconds(15.0);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
+    
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
+    BatchSetEventFlags(25002001, 25002033, OFF);
+    WarpPlayer(40, 0, 4000970); // Firelink Shrine
+    
+    Label0();
 });
 
 //----------------------------------------------
@@ -2539,13 +2649,14 @@ Event(20100, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001001);
     
     SetEventFlag(14000800, 0);
     SetEventFlag(9319, 0);
     SetEventFlag(6319, 0);               
     
-    SetPlayerRespawnPoint(4002970);
+    //SetPlayerRespawnPoint(4002970);
     SetMapCeremony(40, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2555,6 +2666,7 @@ Event(20100, Restart, function() {
     WarpPlayer(40, 0, 4000980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001001);
     DisplayEpitaphMessage(99030100);
     
@@ -2569,13 +2681,14 @@ Event(20101, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001002);
     
     SetEventFlag(13000800, 0);
     SetEventFlag(9301, 0);
     SetEventFlag(6301, 0);
     
-    SetPlayerRespawnPoint(3002958);
+    //SetPlayerRespawnPoint(3002958);
     SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2585,6 +2698,7 @@ Event(20101, Restart, function() {
     WarpPlayer(30, 0, 3000982);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001002);
     DisplayEpitaphMessage(99030101);
     
@@ -2599,6 +2713,7 @@ Event(20102, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001003);
     
     SetEventFlag(13100800, 0);
@@ -2606,7 +2721,7 @@ Event(20102, Restart, function() {
     SetEventFlag(6303, 0);
     SetEventFlag(13100001, 0);
     
-    SetPlayerRespawnPoint(3102953);
+    //SetPlayerRespawnPoint(3102953);
     SetMapCeremony(31, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2616,6 +2731,7 @@ Event(20102, Restart, function() {
     WarpPlayer(31, 0, 3100980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001003);
     DisplayEpitaphMessage(99030102);
     
@@ -2630,13 +2746,14 @@ Event(20103, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001004);
     
     SetEventFlag(13300850, 0);
     SetEventFlag(9306, 0);
     SetEventFlag(6306, 0);
     
-    SetPlayerRespawnPoint(3302957);
+    //SetPlayerRespawnPoint(3302957);
     SetMapCeremony(33, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2646,6 +2763,7 @@ Event(20103, Restart, function() {
     WarpPlayer(33, 0, 3300980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001004);
     DisplayEpitaphMessage(99030103);
     
@@ -2660,13 +2778,14 @@ Event(20104, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001005);
     
     SetEventFlag(13500800, 0);
     SetEventFlag(9311, 0);
     SetEventFlag(6311, 0);
     
-    SetPlayerRespawnPoint(3502950);
+    //SetPlayerRespawnPoint(3502950);
     SetMapCeremony(35, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2676,6 +2795,7 @@ Event(20104, Restart, function() {
     WarpPlayer(35, 0, 3500980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001005);
     DisplayEpitaphMessage(99030104);
     
@@ -2690,6 +2810,7 @@ Event(20105, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001006);
     
     SetEventFlag(13300800, 0);
@@ -2697,7 +2818,7 @@ Event(20105, Restart, function() {
     SetEventFlag(6307, 0);
     SetEventFlag(13300421, 0);
     
-    SetPlayerRespawnPoint(3302958);
+    //SetPlayerRespawnPoint(3302958);
     SetMapCeremony(33, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2707,6 +2828,7 @@ Event(20105, Restart, function() {
     WarpPlayer(33, 0, 3300981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001006);
     DisplayEpitaphMessage(99030105);
     
@@ -2721,6 +2843,7 @@ Event(20106, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001007);
     
     SetEventFlag(13800800, 0);
@@ -2729,7 +2852,7 @@ Event(20106, Restart, function() {
     SetEventFlag(13801800, 0);
     SetEventFlag(63800560, 0);
     
-    SetPlayerRespawnPoint(3802950);
+    //SetPlayerRespawnPoint(3802950);
     SetMapCeremony(38, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2739,6 +2862,7 @@ Event(20106, Restart, function() {
     WarpPlayer(38, 0, 3800980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001007);
     DisplayEpitaphMessage(99030106);
     
@@ -2753,13 +2877,14 @@ Event(20107, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001008);
     
     SetEventFlag(13800830, 0);
     SetEventFlag(9317, 0);
     SetEventFlag(6317, 0);
     
-    SetPlayerRespawnPoint(3802952);
+    //SetPlayerRespawnPoint(3802952);
     SetMapCeremony(38, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2769,6 +2894,7 @@ Event(20107, Restart, function() {
     WarpPlayer(38, 0, 3800981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001008);
     DisplayEpitaphMessage(99030107);
     
@@ -2783,6 +2909,7 @@ Event(20108, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001009);
     
     SetEventFlag(13700850, 0);
@@ -2792,7 +2919,7 @@ Event(20108, Restart, function() {
     SetEventFlag(13700421, 0);
     SetEventFlag(13700422, 0);
     
-    SetPlayerRespawnPoint(3702950);
+    //SetPlayerRespawnPoint(3702950);
     SetMapCeremony(37, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2802,6 +2929,7 @@ Event(20108, Restart, function() {
     WarpPlayer(37, 0, 3700980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001009);
     DisplayEpitaphMessage(99030108);
     
@@ -2816,6 +2944,7 @@ Event(20109, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001010);
     
     SetEventFlag(13700800, 0);
@@ -2823,7 +2952,7 @@ Event(20109, Restart, function() {
     SetEventFlag(6314, 0);
     SetEventFlag(13700002, 0);
     
-    SetPlayerRespawnPoint(3702953);
+    //SetPlayerRespawnPoint(3702953);
     SetMapCeremony(37, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2833,6 +2962,7 @@ Event(20109, Restart, function() {
     WarpPlayer(37, 0, 3700981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001010);
     DisplayEpitaphMessage(99030109);
     
@@ -2847,13 +2977,14 @@ Event(20110, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001011);
     
     SetEventFlag(13900800, 0);
     SetEventFlag(9318, 0);
     SetEventFlag(6318, 0);
     
-    SetPlayerRespawnPoint(3902952);
+    //SetPlayerRespawnPoint(3902952);
     SetMapCeremony(39, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2863,6 +2994,7 @@ Event(20110, Restart, function() {
     WarpPlayer(39, 0, 3900980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001011);
     DisplayEpitaphMessage(99030110);
     
@@ -2877,6 +3009,7 @@ Event(20111, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001012);
     
     SetEventFlag(13000890, 0);
@@ -2884,7 +3017,7 @@ Event(20111, Restart, function() {
     SetEventFlag(6300, 0);
     SetEventFlag(13000885, 0);
     
-    SetPlayerRespawnPoint(3002955);
+    //SetPlayerRespawnPoint(3002955);
     SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2894,6 +3027,7 @@ Event(20111, Restart, function() {
     WarpPlayer(30, 0, 3000981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001012);
     DisplayEpitaphMessage(99030111);
     
@@ -2908,13 +3042,14 @@ Event(20112, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001013);
     
     SetEventFlag(13000830, 0);
     SetEventFlag(9302, 0);
     SetEventFlag(6302, 0);
     
-    SetPlayerRespawnPoint(3002951);
+    //SetPlayerRespawnPoint(3002951);
     SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2924,6 +3059,7 @@ Event(20112, Restart, function() {
     WarpPlayer(30, 0, 3000983);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001013);
     DisplayEpitaphMessage(99030112);
     
@@ -2938,13 +3074,14 @@ Event(20113, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001014);
     
     SetEventFlag(13010800, 0);
     SetEventFlag(9308, 0);
     SetEventFlag(6308, 0);
     
-    SetPlayerRespawnPoint(3012952);
+    //SetPlayerRespawnPoint(3012952);
     SetMapCeremony(30, 1, 0);
     
     WaitFixedTimeFrames(1);
@@ -2954,6 +3091,7 @@ Event(20113, Restart, function() {
     WarpPlayer(30, 1, 3010980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001014);
     DisplayEpitaphMessage(99030113);
     
@@ -2968,13 +3106,14 @@ Event(20114, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001015);
     
     SetEventFlag(13200800, 0);
     SetEventFlag(9305, 0);
     SetEventFlag(6305, 0);
     
-    SetPlayerRespawnPoint(3202950);
+    //SetPlayerRespawnPoint(3202950);
     SetMapCeremony(32, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -2984,6 +3123,7 @@ Event(20114, Restart, function() {
     WarpPlayer(32, 0, 3200980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001015);
     DisplayEpitaphMessage(99030114);
     
@@ -2998,6 +3138,7 @@ Event(20115, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001016);
     
     SetEventFlag(13200850, 0);
@@ -3009,7 +3150,7 @@ Event(20115, Restart, function() {
     SetEventFlag(13200856, 0);
     SetEventFlag(13200862, 0);
             
-    SetPlayerRespawnPoint(3202952);
+    //SetPlayerRespawnPoint(3202952);
     SetMapCeremony(32, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3019,6 +3160,7 @@ Event(20115, Restart, function() {
     WarpPlayer(32, 0, 3200981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001016);
     DisplayEpitaphMessage(99030115);
     
@@ -3033,6 +3175,7 @@ Event(20116, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001017);
     
     SetEventFlag(14000830, 0);
@@ -3042,7 +3185,7 @@ Event(20116, Restart, function() {
     SetEventFlag(64000260, 0);
     SetEventFlag(64000261, 0);
     
-    SetPlayerRespawnPoint(4002953);
+    //SetPlayerRespawnPoint(4002953);
     SetMapCeremony(40, 0, 10);
     
     WaitFixedTimeFrames(1);
@@ -3052,6 +3195,7 @@ Event(20116, Restart, function() {
     WarpPlayer(40, 0, 4000981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001017);
     DisplayEpitaphMessage(99030116);
     
@@ -3066,6 +3210,7 @@ Event(20117, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001018);
     
     SetEventFlag(13410830, 0);
@@ -3073,7 +3218,7 @@ Event(20117, Restart, function() {
     SetEventFlag(6309, 0);
     SetEventFlag(13410000, 0);
     
-    SetPlayerRespawnPoint(3412951);
+    //SetPlayerRespawnPoint(3412951);
     SetMapCeremony(34, 1, 0);
     
     WaitFixedTimeFrames(1);
@@ -3083,6 +3228,7 @@ Event(20117, Restart, function() {
     WarpPlayer(34, 1, 3410980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001018);
     DisplayEpitaphMessage(99030117);
     
@@ -3097,6 +3243,7 @@ Event(20118, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001019);
     
     SetEventFlag(14100800, 0);
@@ -3105,7 +3252,7 @@ Event(20118, Restart, function() {
     SetEventFlag(6321, 0);
     SetEventFlag(14100002, 0);
     
-    SetPlayerRespawnPoint(4102951);
+    //SetPlayerRespawnPoint(4102951);
     SetMapCeremony(41, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3115,6 +3262,7 @@ Event(20118, Restart, function() {
     WarpPlayer(41, 0, 4100980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001019);
     DisplayEpitaphMessage(99030118);
     
@@ -3129,6 +3277,7 @@ Event(20119, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001020);
     
     SetEventFlag(14500800, 0);
@@ -3137,7 +3286,7 @@ Event(20119, Restart, function() {
     SetEventFlag(14500000, 0);
     SetEventFlag(14500162, 0);
     
-    SetPlayerRespawnPoint(4502955);
+    //SetPlayerRespawnPoint(4502955);
     SetMapCeremony(45, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3147,6 +3296,7 @@ Event(20119, Restart, function() {
     WarpPlayer(45, 0, 4500980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001020);
     DisplayEpitaphMessage(99030119);
     
@@ -3178,6 +3328,7 @@ Event(20120, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3186,7 +3337,7 @@ Event(20120, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     SetEventFlag(13700890, OFF); // flag_LordranRemnants_IsActivated
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3196,6 +3347,7 @@ Event(20120, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3210,6 +3362,7 @@ Event(20121, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001022);
     
     SetEventFlag(15000800, 0);
@@ -3217,7 +3370,7 @@ Event(20121, Restart, function() {
     SetEventFlag(6324, 0);
     SetEventFlag(15000000, 0);
     
-    SetPlayerRespawnPoint(5002953);
+    //SetPlayerRespawnPoint(5002953);
     SetMapCeremony(50, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3227,6 +3380,7 @@ Event(20121, Restart, function() {
     WarpPlayer(50, 0, 5000980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001022);
     DisplayEpitaphMessage(99030121);
     
@@ -3242,6 +3396,7 @@ Event(20122, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001023);
     
     SetEventFlag(15100850, 0);
@@ -3249,7 +3404,7 @@ Event(20122, Restart, function() {
     SetEventFlag(6326, 0);
     SetEventFlag(15100001, 0);
     
-    SetPlayerRespawnPoint(5102953);
+    //SetPlayerRespawnPoint(5102953);
     SetMapCeremony(51, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3259,6 +3414,7 @@ Event(20122, Restart, function() {
     WarpPlayer(51, 0, 5100980);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001023);
     DisplayEpitaphMessage(99030122);
     
@@ -3273,6 +3429,7 @@ Event(20123, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001024);
     
     SetEventFlag(15110800, 0);
@@ -3280,7 +3437,7 @@ Event(20123, Restart, function() {
     SetEventFlag(6327, 0);
     SetEventFlag(15110000, 0);
     
-    SetPlayerRespawnPoint(5112951);
+    //SetPlayerRespawnPoint(5112951);
     SetMapCeremony(51, 1, 10);
     
     WaitFixedTimeFrames(1);
@@ -3289,6 +3446,7 @@ Event(20123, Restart, function() {
     
     WarpPlayer(51, 1, 5110980);
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001024);
     DisplayEpitaphMessage(99030123);
     
@@ -3303,6 +3461,7 @@ Event(20124, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001025);
     
     SetEventFlag(15100800, 0);
@@ -3310,7 +3469,7 @@ Event(20124, Restart, function() {
     SetEventFlag(9325, 0);
     SetEventFlag(9003, 1);
     
-    SetPlayerRespawnPoint(5102953);
+    //SetPlayerRespawnPoint(5102953);
     SetMapCeremony(51, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3320,6 +3479,7 @@ Event(20124, Restart, function() {
     WarpPlayer(51, 0, 5100981);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001025);
     DisplayEpitaphMessage(99030124);
     
@@ -3453,7 +3613,7 @@ Event(20125, Restart, function() {
     SetEventFlag(13000736, 0); // The Pursuer
     SetEventFlag(13000730, 0); // Inquisitor Ashford
     
-    SetPlayerRespawnPoint(4002950);
+    //SetPlayerRespawnPoint(4002950);
     SetMapCeremony(40, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3471,6 +3631,7 @@ Event(20126, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100270, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001026);
     
     SetEventFlag(14500950, 0);
@@ -3479,7 +3640,7 @@ Event(20126, Restart, function() {
     SetEventFlag(9328, 0);
     SetEventFlag(6328, 0);
     
-    SetPlayerRespawnPoint(4502959);
+    //SetPlayerRespawnPoint(4502959);
     SetMapCeremony(45, 0, 0);
     
     WaitFixedTimeFrames(1);
@@ -3489,6 +3650,7 @@ Event(20126, Restart, function() {
     WarpPlayer(45, 0, 4500982);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001026);
     DisplayEpitaphMessage(99030125);
     
@@ -3520,6 +3682,7 @@ Event(20127, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3527,7 +3690,7 @@ Event(20127, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3537,6 +3700,7 @@ Event(20127, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3568,6 +3732,7 @@ Event(20128, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3575,7 +3740,7 @@ Event(20128, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3585,6 +3750,7 @@ Event(20128, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3616,6 +3782,7 @@ Event(20129, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3623,7 +3790,7 @@ Event(20129, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3633,6 +3800,7 @@ Event(20129, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3664,6 +3832,7 @@ Event(20130, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3671,7 +3840,7 @@ Event(20130, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3681,6 +3850,7 @@ Event(20130, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3712,6 +3882,7 @@ Event(20131, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3719,7 +3890,7 @@ Event(20131, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3729,6 +3900,7 @@ Event(20131, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3760,6 +3932,7 @@ Event(20132, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3767,7 +3940,7 @@ Event(20132, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3777,6 +3950,7 @@ Event(20132, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -3808,6 +3982,7 @@ Event(20133, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -3815,7 +3990,7 @@ Event(20133, Restart, function() {
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
     
-    SetPlayerRespawnPoint(entity_SpawnPoint);
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
@@ -3825,6 +4000,7 @@ Event(20133, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     

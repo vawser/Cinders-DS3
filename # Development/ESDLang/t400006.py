@@ -217,12 +217,11 @@ def t400006_x12():
     while True:
         ClearTalkListData()
         
-        AddTalkListDataIf(GetEventStatus(14000002) == 0, 98, 99031003, -1)
-        AddTalkListDataIf(GetEventStatus(14000002) == 1, 3, 99031003, -1) # Memory of the Wall
-        AddTalkListDataIf(GetEventStatus(13100004) == 1, 5, 99031005, -1) # Memory of the Settlement
-        AddTalkListDataIf(GetEventStatus(13300003) == 1, 2, 99031002, -1) # Memory of the Swamp
-        AddTalkListDataIf(GetEventStatus(13500000) == 1, 4, 99031004, -1) # Memory of the Cathedral
-        AddTalkListDataIf(GetEventStatus(13800006) == 1, 1, 99031001, -1) # Memory of the Crypts
+        AddTalkListDataIf(GetEventStatus(14000000) == 1 or GetEventStatus(25009803) == 1, 3, 99031003, -1) # Memory of the Wall
+        AddTalkListDataIf(GetEventStatus(13100004) == 1 or GetEventStatus(25009803) == 1, 5, 99031005, -1) # Memory of the Settlement
+        AddTalkListDataIf(GetEventStatus(13300003) == 1 or GetEventStatus(25009803) == 1, 2, 99031002, -1) # Memory of the Swamp
+        AddTalkListDataIf(GetEventStatus(13500000) == 1 or GetEventStatus(25009803) == 1, 4, 99031004, -1) # Memory of the Cathedral
+        AddTalkListDataIf(GetEventStatus(13800006) == 1 or GetEventStatus(25009803) == 1, 1, 99031001, -1) # Memory of the Crypts
         
         # Leave
         AddTalkListData(99, 15000005, -1)

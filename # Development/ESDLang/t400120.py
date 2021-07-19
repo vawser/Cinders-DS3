@@ -147,6 +147,9 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         # Level Up
         AddTalkListData(1, 15002000, -1)
         
+        # Browse Illustrious Collection
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 2, 15010009, -1)
+        
         # Heal the Dark Sigil
         AddTalkListData(4, 15002004, 74000125)
         
@@ -199,6 +202,9 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
                     return 0
                 elif call.Done():
                     continue
+        elif GetTalkListEntryResult() == 2:
+            OpenRegularShop(800000, 809999)
+            return 0
         elif GetTalkListEntryResult() == 16:
             """ State 5,17 """
             assert t400120_x22()

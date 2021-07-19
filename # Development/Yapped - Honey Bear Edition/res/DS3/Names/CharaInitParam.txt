@@ -22,30 +22,17 @@
 26 26: NT version D (Temple Knight) (full gear)
 27 27: NT version C (witch) (full gear)
 2400 [Gift] None
-2401 [Gift] Broken Tablet
-2402 [Gift] Master Key
-2403 [Gift] Young White Branch (3)
-2404 [Gift] Soul of a Crestfallen Knight
-2405 [Gift] Black Firebomb (10)
-2406 [Gift] Old Radiant Lifegem (3)
-2407 [Gift] Rouge Water (5)
-2408 [Gift] Ritual Incense (2)
-2409 [Gift] Fire Seed (2)
-2410 [Gift] Crystal Fragment (2)
-2411 [Gift] Abyssal Fragment (2)
-2412 [Gift] Holy Fragment (2)
-2413 [Gift] Ancestral Note
-2414 [Gift] Cultist Note
-2415 [Gift] Waterlogged Note
-2416 [Gift] Dusty Note
-2417 [Gift] Shivering Note
-2418 [Gift] Corrupted Note
-2419 [Gift] Afflicted Note
-2420 [Gift] Princely Note
-2421 [Gift] Priestly Note
-2422 [Gift] Frozen Note
-2423 [Gift] Dreg Note
-2424 [Gift] Burning Note
+2401 [Gift] Master Key
+2402 [Gift] Young White Branch (3)
+2403 [Gift] Soul of a Crestfallen Knight
+2404 [Gift] Black Firebomb (10)
+2405 [Gift] Old Radiant Lifegem (3)
+2406 [Gift] Rouge Water (5)
+2407 [Gift] Ritual Incense (2)
+2408 [Gift] Fire Seed (2)
+2409 [Gift] Crystal Fragment (2)
+2410 [Gift] Abyssal Fragment (2)
+2411 [Gift] Holy Fragment (2)
 2500 Nothing
 2501 Life Ring
 2502 Divine Blessing

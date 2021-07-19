@@ -237,30 +237,17 @@
 100227 Class - Summoner
 100228 Class - Accursed
 100300 Gift - None
-100301 Gift - Broken Tablet
-100302 Gift - Master Key
-100303 Gift - Young White Branch (3)
-100304 Gift - Soul of a Crestfallen Knight
-100305 Gift - Black Firebomb (10)
-100306 Gift - Old Radiant Lifegem (3)
-100307 Gift - Rouge Water (5)
-100308 Gift - Ritual Incense (2)
-100309 Gift - Fire Seed (2)
-100310 Gift - Crystal Fragment (2)
-100311 Gift - Abyssal Fragment (2)
-100312 Gift - Holy Fragment (2)
-100313 Gift - Ancestral Note
-100314 Gift - Cultist Note
-100315 Gift - Waterlogged Note
-100316 Gift - Dusty Note
-100317 Gift - Shivering Note
-100318 Gift - Corrupted Note
-100319 Gift - Afflicted Note
-100320 Gift - Princely Note
-100321 Gift - Priestly Note
-100322 Gift - Frozen Note
-100323 Gift - Dreg Note
-100324 Gift - Burning Note
+100301 Gift - Master Key
+100302 Gift - Young White Branch (3)
+100303 Gift - Soul of a Crestfallen Knight
+100304 Gift - Black Firebomb (10)
+100305 Gift - Old Radiant Lifegem (3)
+100306 Gift - Rouge Water (5)
+100307 Gift - Ritual Incense (2)
+100308 Gift - Fire Seed (2)
+100309 Gift - Crystal Fragment (2)
+100310 Gift - Abyssal Fragment (2)
+100311 Gift - Holy Fragment (2)
 100400 Voice - Young
 100401 Voice - Mature
 100402 Voice - Aged

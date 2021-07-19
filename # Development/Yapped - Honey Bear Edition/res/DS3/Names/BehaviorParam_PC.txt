@@ -881,6 +881,15 @@
 102513706 Moonlight Greatsword - Moonlight Vortex (Fire)
 102513707 Moonlight Greatsword - Moonlight Vortex (Lightning)
 102513708 Moonlight Greatsword - Moonlight Vortex (Dark)
+102513709 Moonlight Greatsword - Moonlight Vortex (Rainbow)
+102513710 Moonlight Greatsword - 1H Heavy #1 - Vertical Wave (Rainbow)
+102513711 Moonlight Greatsword - 1H Heavy #1 (Charged) - Vertical Wave (Rainbow)
+102513712 Moonlight Greatsword - 1H Heavy #2 - Horizontal Wave (Rainbow)
+102513713 Moonlight Greatsword - 1H Heavy #2 (Charged) - Horizontal Wave (Rainbow)
+102513714 Moonlight Greatsword - 2H Heavy #1 - Horizontal Wave (Rainbow)
+102513715 Moonlight Greatsword - 2H Heavy #1 (Charged) - Horizontal Wave (Rainbow)
+102513716 Moonlight Greatsword - 2H Heavy #2 - Horizontal Wave (Rainbow)
+102513717 Moonlight Greatsword - 2H Heavy #2 (Charged) - Horizontal Wave (Rainbow)
 102514700 Firelink Greatsword - Ember
 102514705 Firelink Greatsword - Ember
 102515730 Storm Ruler
@@ -1140,6 +1149,14 @@
 102605305 Zweihander - 2H Heavy #1 Max
 102605310 Zweihander - 2H Heavy #2
 102605315 Zweihander - 2H Heavy #2 Max
+102606100 Drakewing Ultra Greatsword - 1H Heavy #1
+102606105 Drakewing Ultra Greatsword - 1H Heavy #1 Max
+102606106 Drakewing Ultra Greatsword - Heavy - Bullet
+102606107 Drakewing Ultra Greatsword - Heavy - Bullet [Hit]
+102606300 Drakewing Ultra Greatsword - 2H Heavy #1
+102606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
+102606540 Drakewing Ultra Greatsword - 1H Roll
+102606580 Drakewing Ultra Greatsword - 2H Roll
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
 102610010 Fume Ultra Greatsword
@@ -2991,6 +3008,16 @@
 103613701 Golden Ritual Spear - Darkmoon Volley
 103614700 Pilgrim's Spontoon - Pilgrim's Enchantment - Right
 103614701 Pilgrim's Spontoon - Pilgrim's Enchantment - Left
+103616100 Silver Knight Spear - 1H Heavy #1
+103616105 Silver Knight Spear - 1H Heavy #1 Max
+103616110 Silver Knight Spear - 1H Heavy #2
+103616115 Silver Knight Spear - 1H Heavy #2 Max
+103616300 Silver Knight Spear - 2H Heavy #1
+103616305 Silver Knight Spear - 2H Heavy #1 Max
+103617150 [Spitfire Spear] - Heavy - Bullet
+103617151 [Spitfire Spear] - Heavy - Bullet [Hit]
+103617710 [Spitfire Spear] SpitFire
+103617720 [Spitfire Spear] SpitFire
 103620700 Spear
 103620800 Spear
 103620810 Spear
