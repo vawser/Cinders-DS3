@@ -265,6 +265,7 @@ Add the following armour:
 - You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
 - Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
 - You now need to select from one of the available game modes before you can start playing. This choice is irrevisible within the current journey.
+
  - Standard Mode:
     - No additional effects.
     
@@ -307,24 +308,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-# Scorched Contract Effects
-- Automatically consume soul items
-- Slows movement, reduce souls and humanity drops
-- Spawn lots of vagrants
-- Summon random invaders
-- Add boss adds
-- Remove poison/toxic resist
-- Add egg head
-- Periodic durability loss
-- Boost blood loss damage
-- Increment NG+ cycle on boss kill
-- Casting causes fatigue, blocking casting and reducing stamina for a short period
-- Using non-normal weapons can damage the wielder
-- Adds constant curse
-- Block most bonfire usage
-- Adds HP regen to bosses
-- Add constant HP loss
-- Adjust boss absorptions
-- Reduce max HP
-- Reduce soul gain
-- Add negative absorption
