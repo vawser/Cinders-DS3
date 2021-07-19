@@ -2508,7 +2508,6 @@ Event(20054, Restart, function() {
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
-    
     AwardItemLot(800002010); // Initial tokens
     
     SetEventFlag(25009803, ON); // Unlock Memories
