@@ -3503,7 +3503,7 @@ Enables Primordial material to drop from bosses.</text>
 <text id="99013101">Give Tortured Soul</text>
 <text id="99013110">Smithbox</text>
 <text id="99013111">Give Smithbox</text>
-<text id="99013120">Send to Overgrown Sanctum</text>
+<text id="99013120">Send to Firelink Shrine</text>
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
 <text id="99015005">Basic Affix</text>
@@ -4296,19 +4296,32 @@ where you can purchase weaponry and armor.</text>
 <text id="99060043">Random</text>
 
 <text id="99060050">You will remain where you are.</text>
-<text id="99060051">You will start in Untended Graves once you begin your journey.</text>
-<text id="99060052">You will start in Archdragon Peak once you begin your journey.</text>
-<text id="99060053">You will start in Farron Keep once you begin your journey.</text>
-<text id="99060054">You will start in Catacombs of Carthus once you begin your journey.</text>
-<text id="99060055">You will start in Irithyll once you begin your journey.</text>
-<text id="99060056">You will start in Profaned Capital once you begin your journey.</text>
-<text id="99060057">You will start in Consumed King's Garden once you begin your journey.</text>
-<text id="99060058">You will start in Lothric Castle once you begin your journey.</text>
-<text id="99060059">You will start in Cathedral of the Deep once you begin your journey.</text>
-<text id="99060060">You will start in Ariandel once you begin your journey.</text>
-<text id="99060061">You will start in Dreg Heap once you begin your journey.</text>
-<text id="99060062">You will start in Ringed City once you begin your journey.</text>
-<text id="99060063">You will start in a random location once you begin your journey.</text>
+<text id="99060051">You will start in Untended Graves 
+once you begin your journey.</text>
+<text id="99060052">You will start in Archdragon Peak 
+once you begin your journey.</text>
+<text id="99060053">You will start in Farron Keep 
+once you begin your journey.</text>
+<text id="99060054">You will start in Catacombs of Carthus 
+once you begin your journey.</text>
+<text id="99060055">You will start in Irithyll
+once you begin your journey.</text>
+<text id="99060056">You will start in Profaned Capital 
+once you begin your journey.</text>
+<text id="99060057">You will start in Consumed King's Garden 
+once you begin your journey.</text>
+<text id="99060058">You will start in Lothric Castle 
+once you begin your journey.</text>
+<text id="99060059">You will start in Cathedral of the Deep 
+once you begin your journey.</text>
+<text id="99060060">You will start in Ariandel 
+once you begin your journey.</text>
+<text id="99060061">You will start in Dreg Heap 
+once you begin your journey.</text>
+<text id="99060062">You will start in Ringed City 
+once you begin your journey.</text>
+<text id="99060063">You will start in a random location 
+once you begin your journey.</text>
 
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
