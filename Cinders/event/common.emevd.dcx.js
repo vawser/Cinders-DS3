@@ -26,6 +26,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20060, 10000); // Event Flag Tool
     InitializeEvent(0, 20061, 10000); // Screenshot Tool
     InitializeEvent(0, 20062, 10000); // Treasure Tool
+    InitializeEvent(0, 20063, 10000); // NG+ Tool
     
     // Modes
     InitializeEvent(0, 20050, 0); // Standard Mode
@@ -2860,6 +2861,20 @@ Event(20062, Default, function(X0_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+//----------------------------------------------
+// NG+ Tool
+//----------------------------------------------
+Event(20063, Default, function(X0_4) {
+    IfCharacterHasSpeffect(AND_01, X0_4, 160710109, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    SetEventFlag(74000012, ON);
+    SetEventFlag(14005617, OFF);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 
 //----------------------------------------------
 // Boss Revival - Dismal Knight
