@@ -1,38 +1,25 @@
-#-------------------------------------------
-#-- Boss Revival: Lordran Remnants
-#-------------------------------------------
 # -*- coding: utf-8 -*-
-
-#----------------------------------------------------
-# Main Loop
-#----------------------------------------------------
+# Talk Start
 def t450501_1():
     """ State 0,1 """
     assert GetCurrentStateElapsedTime() > 1
     """ State 2 """
     while True:
-        call = t450501_x0() # Host Player
+        call = t450501_x7() # Player Loop
         assert IsClientPlayer() == 1
         """ State 3 """
-        call = t450501_x1() # Client Player
+        call = t450501_x8() # Client Loop
         assert not IsClientPlayer()
 
-# Host Player
-def t450501_x0():
+# Client Loop
+def t450501_x8():
     """ State 0,1 """
-    while True:
-        call = t450501_x3()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
-
-# Client Player
-def t450501_x1():
-    """ State 0,1 """
-    assert t450501_x2() # Clear Talk State
+    assert t450501_x0()
     """ State 2 """
     return 0
-
-# Clear Talk State
-def t450501_x2():
+    
+# Dialogue Handling
+def t450501_x0():
     """ State 0,1 """
     if not CheckSpecificPersonTalkHasEnded(0):
         """ State 7 """
@@ -56,187 +43,102 @@ def t450501_x2():
         pass
     """ State 8 """
     return 0
-    
-# Check Death
-def t450501_x3():
+
+# Dialogue Cleanup
+def t450501_x1():
     """ State 0,1 """
-    call = t450501_x4() # NPC Loop
-    assert CheckSelfDeath() == 1
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
     return 0
 
-# NPC Loop
-def t450501_x4():
+# Common Function - Play Talk + Set Flag
+def t450501_x2(text2=_, z1=_, flag2=0, mode2=1):
     """ State 0,5 """
+    assert t450501_x1() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 2 """
+    SetEventState(z1, 1)
+    """ State 1 """
+    TalkToPlayer(text2, -1, -1, flag2)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 4 """
+    if not mode2:
+        pass
+    else:
+        """ State 3 """
+        ReportConversationEndToHavokBehavior()
+    """ State 6 """
+    return 0
+
+# Common Function - Play Talk
+def t450501_x3(text1=_, flag1=0, mode1=1):
+    """ State 0,4 """
+    assert t450501_x1() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+
+# Player Loop
+def t450501_x7():
+    """ State 0,1 """
     while True:
-        call = t450501_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000) # Interaction State
-        if call.Done():
-            """ State 3 """
-            call = t450501_x8() # Menu Pre-loop
+        call = t450501_x9()
+        
+# Start Dialogue Loop + Clear Dialogue after player is dead
+def t450501_x9():
+    """ State 0,2 """
+    call = t450501_x12()
+    
+# Dialogue Loop
+def t450501_x12():
+    """ State 0,3 """
+    while True:
+        call = t450501_x4()
+        
+        # ...Akeseliane...
+        if GetEventStatus(25009120) == 1:
+            SetEventState(25009120, 0)
+            call = t450501_x13(88004000)
             if call.Done():
                 pass
-            elif IsAttackedBySomeone() == 1:
-                """ State 1 """
-                Label('L0')
-                call = t450501_x6() # Attack Check
-                def ExitPause():
-                    RemoveMyAggro()
-                if call.Done():
-                    pass
-                elif IsPlayerDead() == 1:
-                    break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
-                """ State 4 """
-                call = t450501_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
-                    pass
-                elif IsAttackedBySomeone() == 1:
-                    Goto('L0')
-        elif IsAttackedBySomeone() == 1:
-            Goto('L0')
+                
         elif IsPlayerDead() == 1:
             break
-    """ State 2 """
-    t450501_x2() # Clear Talk State
-    
-# Interaction State
-def t450501_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
-    """ State 0,1 """
-    while True:
-        assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-                and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
-        """ State 2 """
-        if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-            and not IsPlayerDead() and not IsCharacterDisabled())):
-            pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
-            break
-    """ State 4 """
-    return 0
 
-# Attack Check
-def t450501_x6():
-    """ State 0,6 """
-    assert t450501_x2() # Clear Talk State
-    """ State 3 """
-    assert GetCurrentStateElapsedFrames() > 1
     """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
-    """ State 2 """
-    if GetDistanceToPlayer() > 12:
-        """ State 7 """
-        assert t450501_x2() # Clear Talk State
+    t450501_x13(88004000)
+    
+# Empty Function
+def t450501_x4():
+    """ State 0,1 """
+    
+# Trigger - Talk
+def t450501_x13(text2=_):
+    """ State 0,2,3 """
+    if GetDistanceToPlayer() < 99999:
+        """ State 4,7 """
+        call = t450501_x3(text2, 0, 1)
+        if call.Done():
+            pass
+        elif GetDistanceToPlayer() > 99999:
+            """ State 6 """
+            assert t450501_x0()
     else:
         """ State 5 """
         pass
-    """ State 9 """
-    return 0
-
-# Distance Check
-def t450501_x7():
-    """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
-        CheckSpecificPersonGenericDialogIsOpen(0)):
-        """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
-            """ State 4 """
-            Label('L0')
-            assert t450501_x2() # Clear Talk State
-    else:
-        """ State 3 """
-        Goto('L0')
-    """ State 6 """
+    """ State 8 """
     return 0
     
-# Menu Pre-loop
-def t450501_x8():
-    """ State 0,1 """
-    assert t450501_x9()
-    """ State 24 """
-    return 0
-    
-def t450501_x9():
-    c1110()
-    
-    while True:
-        ClearTalkListData()
-        
-        # Revive
-        AddTalkListDataIf(GetEventStatus(25001021) == 1 and GetEventStatus(14500860) == 1, 1, 99002850, -1) 
-        
-        # Leave
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Revive 
-        if GetTalkListEntryResult() == 1:
-            assert t450501_x52(99002621, 500, 1)
-            return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
-
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-def t450501_x50(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-def t450501_x51(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 0, 3, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-        
-# Revive
-def t450501_x52(text1=_, base_cost=_, derived_stat=_):
-    """ State 0,1 """
-    SetAquittalCostMessageTag(base_cost, derived_stat)
-    """ State 14 """
-    call = t450501_x50(action1=text1)
-    
-    if call.Get() == 0:
-        """ State 7 """
-        if ComparePlayerAcquittalPrice(base_cost, derived_stat, 2) == 1:
-            """ State 4,13 """
-            assert t450501_x50(action1=13000050) # Lack souls
-        else:
-            """ State 5 """
-            SubtractAcquittalCostFromPlayerSouls(base_cost, derived_stat)
-            """ State 6 """
-            SetEventState(14500860, 0);
-            SetEventState(14500861, 0);
-            SetEventState(14500862, 0);
-            SetEventState(9323, 0);
-            SetEventState(6323, 0);
-            SetEventState(14500006, 0);
-            GiveSpEffectToPlayer(260100210)
-    elif call.Get() == 1:
-        """ State 8 """
-        pass
-
-    return 0

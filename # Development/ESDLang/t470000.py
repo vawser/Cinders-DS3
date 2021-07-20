@@ -166,7 +166,7 @@ def t470000_x12():
         elif IsPlayerDead() == 1:
             break
     """ State 1 """
-    t470000_x13(88002010, 74000915)
+    t470000_x13(88002010)
 
 # Empty Function
 def t470000_x4():
