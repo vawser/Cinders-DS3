@@ -377,16 +377,16 @@
 50124 Hollow Soldier - Pus of Man State
 50125 Hollow Soldier - Pus of Man State
 50130 Hollow Soldier - Lantern
-50140 Frostfire Colossus - Emissive Start
-50141 Frostfire Colossus - Emissive Intensify
-50142 Frostfire Colossus - Flame Body (Head)
-50143 Frostfire Colossus - Flame Body (All Over)
-50144 Frostfire Colossus - Flame Core
-50145 Frostfire Colossus - Flame Weapon
-50146 Frostfire Colossus - Flame Eye
-50147 Frostfire Colossus - Weapon Light
-50148 Frostfire Colossus - Body Particles
-50149 Frostfire Colossus - Frost Aura
+50140 Princess Yngvil - Emissive Start
+50141 Princess Yngvil - Emissive Intensify
+50142 Princess Yngvil - Flame Body (Head)
+50143 Princess Yngvil - Flame Body (All Over)
+50144 Princess Yngvil - Flame Core
+50145 Princess Yngvil - Flame Weapon
+50146 Princess Yngvil - Flame Eye
+50147 Princess Yngvil - Weapon Light
+50148 Princess Yngvil - Body Particles
+50149 Princess Yngvil - Frost Aura
 50150 Lothric Knight - Red Eyes
 50151 Lothric Knight -
 50152 Lothric Knight -
@@ -471,20 +471,20 @@
 50492 Nameless Knight -
 50500 Giant Crab - Bubble Spit
 50501 Giant Crab -
-50580 [Frostfire Cleric] Orb VFX
-50581 [Frostfire Colossus] Orb VFX
-50582 [Frostfire Colossus] Sapping Orb Green Vow
-50583 [Frostfire Colossus] Healing Aura Full
-50584 [Frostfire Colossus] Enhance Aura
-50585 [Frostfire Cleric] Held Orb - Small
-50586 [Frostfire Cleric] Held Orb - Medium
-50587 [Frostfire Cleric] Held Orb - Large
-50588 [Frostfire Cleric] Weapon Frost VFX
-50589 [Frostfire Colossus] Healing Aura Fade
-50590 [Frostfire Colossus] Enhance Aura Full
-50591 [Frostfire Colossus] Blizzard Sound
-50592 [Frostfire Colossus] Blizzard Sound
-50593 [Frostfire Colossus] Mini-Boss Trio Enhance
+50580 [Frigid Attendant] Orb VFX
+50581 [Princess Yngvil] Orb VFX
+50582 [Princess Yngvil] Sapping Orb Green Vow
+50583 [Princess Yngvil] Healing Aura Full
+50584 [Princess Yngvil] Enhance Aura
+50585 [Frigid Attendant] Held Orb - Small
+50586 [Frigid Attendant] Held Orb - Medium
+50587 [Frigid Attendant] Held Orb - Large
+50588 [Frigid Attendant] Weapon Frost VFX
+50589 [Princess Yngvil] Healing Aura Fade
+50590 [Princess Yngvil] Enhance Aura Full
+50591 [Princess Yngvil] Blizzard Sound
+50592 [Princess Yngvil] Blizzard Sound
+50593 [Princess Yngvil] Mini-Boss Trio Enhance
 60100 Sister Friede -
 60110 Sister Friede -
 62000 Slave Knight Gael -

@@ -44,8 +44,8 @@
 2301 [Boss - Sister Friede] Tome: Sister Friede
 2310 [Boss - Lordran Remnants] Soul of the Lordran Remnants
 2311 [Boss - Lordran Remnants] Tome: Lordran Remnants
-2320 [Boss - Frostfire Colossus] Soul of the Frostfire Colossus
-2321 [Boss - Frostfire Colossus] Tome: Frostfire Colossus
+2320 [Boss - Princess Yngvil] Soul of the Princess Yngvil
+2321 [Boss - Princess Yngvil] Tome: Princess Yngvil
 2330 [Boss - Demon Prince] Soul of the Demon Prince
 2331 [Boss - Demon Prince] Tome: Demon Prince
 2340 [Boss - Halflight] Soul of Halflight
@@ -63,8 +63,8 @@
 2381 [Boss - Mirror Knight] Tome: Mirror Knight
 2390 [Boss - Aborr] Soul of Aborr
 2391 [Boss - Aborr] Tome: Aborr
-2400 [Boss - Ivory Disciple] Soul of Alsanna
-2401 [Boss - Ivory Disciple] Tome: Ivory Disciple
+2400 [Boss - Prince Dorthinus] Soul of Prince Dorthinus
+2401 [Boss - Prince Dorthinus] Tome: Prince Dorthinus
 2410 [Boss - The Rock] Soul of the Rock
 2411 [Boss - The Rock] Tome: The Rock
 2420 [Boss - Twisted Knight] Twisted Soul
@@ -2873,7 +2873,7 @@
 63310000 [Default] Pale Pine Resin
 63310001 [Default] Lifegem
 63310002 [Default] Barathrum Petal
-75699999 ### Frostfire Cleric ###
+75699999 ### Frigid Attendant ###
 75700000 [Default] Elizabeth Mushroom
 75700001 [Default] Frost Gem
 75700002 [Default] Rime-blue Moss Clump
@@ -2894,6 +2894,11 @@
 800001120 [Covenant] Warrior of Sunlight
 800001130 [Covenant] Servant of the Rat
 800001140 [Covenant] Ritualist Pact
+800001999 ### Script - Gauntlet ###
+800002000 [Boss Kill] Token Drop
+800002010 [Initial Tokens] Weapon Token
+800002011 [Initial Tokens] Armor Token
+800002012 [Initial Tokens] Accessory Token
 800009999 ### Covenant Drops ###
 800010000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
 800010001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm

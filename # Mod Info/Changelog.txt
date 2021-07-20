@@ -104,6 +104,36 @@ Add the following armour:
 #------------------------------
 # Changelog
 #------------------------------
+# Journey Configuration
+- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
+- Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
+- You now need to select from one of the available game modes before you can start playing. This choice is irreverisible within the current journey.
+
+ - Standard Mode:
+    - No additional effects.
+    
+ - Wanderer Mode
+    - Weaponry and shields can no longer be reinforced.
+    - Bosses will grant a permanent damage boost after they have been defeated.
+    
+ - Mythic Mode
+    - Weaponry and shields can no longer be reinforced.
+    - World is populated by more enemies.
+    - Reduces absorptions by 33%.
+    - Reduces aux resistances by 33%.
+    
+ - Gauntlet Mode    
+    - You will face a gauntlet comprised of every boss.
+    - Each boss will drop a Weapon, Armor or Accessory token.
+    - Spend tokens at the Fire Keeper.
+    - Defeat all bosses to complete the gauntlet.
+    
+    - Two types are available:
+        - Set Order: you will face each boss in a predefined order.
+        - Random Order: you will face a random boss each time. Once a boss is killed, it will no longer appear in the pool of available bosses.
+        
+    - You have 20 seconds to face the boss when you progress through the gauntlet. Attempting to explore will reset your boss progress back to the start.
+    
 # Weapons
 - Sidearms tweak:
  - Rosamarinus:
@@ -141,16 +171,6 @@ Add the following armour:
  - Reinforcement uses the standard Titanite set in all instances (2/4/6 Titanite Shard, 2/4/6 Large Titanite Shard, 2/4/6 Titanite Chunk, 1 Titanite Slab).
 - Added Titanite across all maps, mostly present on corpses.
 
-# Mythic Mode
-- Renamed Tablet of Legends to Mythical Tablet
-
-- Renamed Hard Mode to Mythic Mode.
-- Now has the following effects:
- - Disables the ability to reinforce weapons and shields.
- - Unlocks special offerings from Magnum Ursus.
- - Reduces absorptions by 33%.
- - Reduces aux resistances by 33%.
- 
 # NPCs
 - Magnum Ursus now offers his set to buy immediately.
 - Magnum Ursus will now offer the following to buy based on boss kills:
@@ -260,36 +280,18 @@ Add the following armour:
  - Removed the Lonely Hollow bonfire.
  - Moved the Sanctum NPCs back into Firelink Shrine.
  
-# Journey Configuration
-- You can now choose to start in a different/random location. If the location is not the Cemetery of Ash, you will be teleported to it. This replaces the old note gifts.
-- Skip Journey is now part of this menu, and advances you into your next NG+ cycle when used.
-- You now need to select from one of the available game modes before you can start playing. This choice is irreverisible within the current journey.
+# Bosses
+- Redesigned Frostfire Colossus:
+ - It is now called Princess Yngvil. Her demonic form is a result of her corruption due to the Frozen Chaos Essence.
+ - The battle now takes place in the wide arena below the ruined tower.
+ - At 85% HP, Dearest Akseliane, Princess Yngvil's beloved wolf will assist her.
+ - Princess Yngvil retains most of the moves that the Frostfire Colossus had.
 
- - Standard Mode:
-    - No additional effects.
-    
- - Wanderer Mode
-    - Weaponry and shields can no longer be reinforced.
-    - Bosses will grant a permanent damage boost after they have been defeated.
-    
- - Mythic Mode
-    - Weaponry and shields can no longer be reinforced.
-    - World is populated by more enemies.
-    - Reduces absorptions by 33%.
-    - Reduces aux resistances by 33%.
-    
- - Gauntlet Mode    
-    - You will face a gauntlet comprised of every boss.
-    - Each boss will drop a Weapon, Armor or Accessory token.
-    - Spend tokens at the Fire Keeper.
-    - Defeat all bosses to complete the gauntlet.
-    
-    - Two types are available:
-        - Set Order: you will face each boss in a predefined order.
-        - Random Order: you will face a random boss each time. Once a boss is killed, it will no longer appear in the pool of available bosses.
-        
-    - You have 20 seconds to face the boss when you progress through the gauntlet. Attempting to explore will reset your boss progress back to the start.
-    
+- Altered Herald of Winter:
+ - Renamed Herald of Winter to Prince Dorthinus
+ - He is now a forlorn nobleman that wished to woo Princess Yngvil, but was rejected.
+ - The battle now takes place in the ruined tower.
+
 # Bugfixes
 - Fixed ammunition not displaying the full AR in the stat menu when equipped with a bow, greatbow or crossbow.
 - Fixed dummy polys for Burial Scythe.

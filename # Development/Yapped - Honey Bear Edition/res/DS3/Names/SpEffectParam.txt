@@ -1017,57 +1017,57 @@
 10653 [Sulyvahn's Beast]
 10654 [Sulyvahn's Beast]
 10700 [Pilgrim Angel] VFX
-10749 [Frostfire Colossus] Mini-Boss Trio Enhance
-10750 [Frostfire Colossus] Blizzard Sound
-10751 [Frostfire Colossus] Final Stage Enhancement Aura Full
-10752 [Frostfire Colossus] Emissive Start
-10753 [Frostfire Colossus] Emissive Intensify + Flame Eye
-10754 [Frostfire Colossus] Flame Body
-10755 [Frostfire Colossus] Flame Weapon
-10756 [Frostfire Colossus] Weapon Light and Body Particles
-10757 [Frostfire Colossus] Frostfire Pillars Trigger
-10758 [Frostfire Colossus] Tracking Frostfire Pillar Trigger
-10759 [Frostfire Colossus] Lava Ring Trigger
-10760 [Frostfire Colossus] Blizzard Bullet Call [Called from EMEVD]
-10761 [Frostfire Colossus] Blizzard Frost Buildup on Player
-10762 [Frostfire Colossus] Frostfire Pillars Central Explosion Trigger
-10763 [Frostfire Colossus] Blizzard Trigger
-10764 [Frostfire Colossus] Reduce Frost Build-up on Stagger
-10765 [Frostfire Colossus] Blizzard Frost Aura VFX and Bullet Call
-10766 [Frostfire Colossus] Lava Ring Out-to-In Trigger
-10767 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-10768 [Frostfire Colossus] Orb VFX
-10769 [Frostfire Colossus] Orb Set Full Health
-10770 [Frostfire Colossus] Orb Frost Aura
-10771 [Frostfire Colossus] Orb Frost Aura HP Drain (Unused)
-10772 [Frostfire Colossus] Orb Frost Aura Frost Buildup
-10773 [Frostfire Colossus] Blizzard Frost Buildup on Colossus
-10774 [Frostfire Colossus] Nullify Frostbite from Player
-10775 [Frostfire Colossus] Phase Change Repeated Effect (Empty)
-10776 [Frostfire Colossus] First Phase Change HP Regeneration
-10777 [Frostfire Colossus] Animation 3026 Trigger
-10778 [Frostfire Colossus] Animation 3027 Trigger
-10779 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion Trigger
-10780 [Frostfire Colossus] Fiery Floor Bullet Call
-10781 [Frostfire Colossus] Animation 3028 Trigger
-10782 [Frostfire Colossus] Animation 3029 Trigger
-10783 [Frostfire Colossus] Deflection
-10784 [Frostfire Colossus] Enrage (Unused)
-10785 [Frostfire Colossus] Sapping Orb Green Vow VFX
-10786 [Frostfire Colossus] Sapping Orb Frostfire-ball loop trigger
-10787 [Frostfire Colossus] Sapping Orb First Aura
-10788 [Frostfire Colossus] Sapping Orb Second Aura
-10789 [Frostfire Colossus] Sapping Orb Third Aura
-10790 [Frostfire Colossus] Sapping Orb Fourth Aura
-10791 [Frostfire Colossus] Sapping Orb Fifth Aura
-10792 [Frostfire Colossus] Animation 3032 Trigger
-10793 [Frostfire Colossus] Final Stage Enhancement
-10794 [Frostfire Colossus] First Phase Change Healing Aura Full
-10795 [Frostfire Colossus] Curse of Valor Frostbite Offset
-10796 [Frostfire Colossus] Animation-specific Absorption Boost
-10797 [Frostfire Colossus] Animation 3033 Trigger
-10798 [Frostfire Colossus] First Phase Change Immediate Health Restore
-10799 [Frostfire Colossus] First Phase Change Healing Aura Fade
+10749 [Princess Yngvil] Mini-Boss Trio Enhance
+10750 [Princess Yngvil] Blizzard Sound
+10751 [Princess Yngvil] Final Stage Enhancement Aura Full
+10752 [Princess Yngvil] Emissive Start
+10753 [Princess Yngvil] Emissive Intensify + Flame Eye
+10754 [Princess Yngvil] Flame Body
+10755 [Princess Yngvil] Flame Weapon
+10756 [Princess Yngvil] Weapon Light and Body Particles
+10757 [Princess Yngvil] Frostfire Pillars Trigger
+10758 [Princess Yngvil] Tracking Frostfire Pillar Trigger
+10759 [Princess Yngvil] Lava Ring Trigger
+10760 [Princess Yngvil] Blizzard Bullet Call [Called from EMEVD]
+10761 [Princess Yngvil] Blizzard Frost Buildup on Player
+10762 [Princess Yngvil] Frostfire Pillars Central Explosion Trigger
+10763 [Princess Yngvil] Blizzard Trigger
+10764 [Princess Yngvil] Reduce Frost Build-up on Stagger
+10765 [Princess Yngvil] Blizzard Frost Aura VFX and Bullet Call
+10766 [Princess Yngvil] Lava Ring Out-to-In Trigger
+10767 [Princess Yngvil] Blizzard Summoning Animation Frost Aura
+10768 [Princess Yngvil] Orb VFX
+10769 [Princess Yngvil] Orb Set Full Health
+10770 [Princess Yngvil] Orb Frost Aura
+10771 [Princess Yngvil] Orb Frost Aura HP Drain (Unused)
+10772 [Princess Yngvil] Orb Frost Aura Frost Buildup
+10773 [Princess Yngvil] Blizzard Frost Buildup on Colossus
+10774 [Princess Yngvil] Nullify Frostbite from Player
+10775 [Princess Yngvil] Phase Change Repeated Effect (Empty)
+10776 [Princess Yngvil] First Phase Change HP Regeneration
+10777 [Princess Yngvil] Animation 3026 Trigger
+10778 [Princess Yngvil] Animation 3027 Trigger
+10779 [Princess Yngvil] Frostfire Pillars - Central Arena Igniting Explosion Trigger
+10780 [Princess Yngvil] Fiery Floor Bullet Call
+10781 [Princess Yngvil] Animation 3028 Trigger
+10782 [Princess Yngvil] Animation 3029 Trigger
+10783 [Princess Yngvil] Deflection
+10784 [Princess Yngvil] Enrage (Unused)
+10785 [Princess Yngvil] Sapping Orb Green Vow VFX
+10786 [Princess Yngvil] Sapping Orb Frostfire-ball loop trigger
+10787 [Princess Yngvil] Sapping Orb First Aura
+10788 [Princess Yngvil] Sapping Orb Second Aura
+10789 [Princess Yngvil] Sapping Orb Third Aura
+10790 [Princess Yngvil] Sapping Orb Fourth Aura
+10791 [Princess Yngvil] Sapping Orb Fifth Aura
+10792 [Princess Yngvil] Animation 3032 Trigger
+10793 [Princess Yngvil] Final Stage Enhancement
+10794 [Princess Yngvil] First Phase Change Healing Aura Full
+10795 [Princess Yngvil] Curse of Valor Frostbite Offset
+10796 [Princess Yngvil] Animation-specific Absorption Boost
+10797 [Princess Yngvil] Animation 3033 Trigger
+10798 [Princess Yngvil] First Phase Change Immediate Health Restore
+10799 [Princess Yngvil] First Phase Change Healing Aura Fade
 10800 [Lothric Knight] Red eye
 10801 [Lothric Knight]
 10802 [Lothric Knight]
@@ -1076,12 +1076,12 @@
 10805 [Lothric Knight]
 10806 [Lothric Knight]
 10807 [Lothric Knight]
-10810 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Small
-10811 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Medium
-10812 [Frostfire Cleric] Held Orb VFX and Condition Occurrence - Large
-10813 [Frostfire Cleric] Condition Occurrence Reset
-10814 [Frostfire Cleric] Condition Occurrence End
-10815 [Frostfire Cleric] Weapon Frost VFX
+10810 [Frigid Attendant] Held Orb VFX and Condition Occurrence - Small
+10811 [Frigid Attendant] Held Orb VFX and Condition Occurrence - Medium
+10812 [Frigid Attendant] Held Orb VFX and Condition Occurrence - Large
+10813 [Frigid Attendant] Condition Occurrence Reset
+10814 [Frigid Attendant] Condition Occurrence End
+10815 [Frigid Attendant] Weapon Frost VFX
 10830 [Silver Knight]
 10831 [Silver Knight]
 10850 [Cathedral Knight]
@@ -1366,7 +1366,7 @@
 12257 [Wolnir]
 12258 [Wolnir] Crawl Forward Trigger
 12259 [Wolnir]
-12280 [Frostfire Cleric] Orb VFX
+12280 [Frigid Attendant] Orb VFX
 12300 [Iudex Gundyr] Iudex Gundyr - Heat Up
 12301 [Iudex Gundyr]
 12302 [Iudex Gundyr]
@@ -2362,9 +2362,9 @@
 140461 NPC Correction - Slave Knight Gael - 2nd Stage - 1 Player
 140462 NPC Correction - Slave Knight Gael - 2nd Stage - 2 Player
 140463 NPC Correction - Slave Knight Gael - 2nd Stage - 3 Player
-140471 NPC Correction - Frostfire Colossus - 1 Player
-140472 NPC Correction - Frostfire Colossus - 2 Player
-140473 NPC Correction - Frostfire Colossus - 3 Player
+140471 NPC Correction - Princess Yngvil - 1 Player
+140472 NPC Correction - Princess Yngvil - 2 Player
+140473 NPC Correction - Princess Yngvil - 3 Player
 141000 Multiplayer Success
 220999 ### NPC Boosts ###
 221000 Slave Knight Gael - White Phantom [Ariandel]
@@ -5054,6 +5054,7 @@
 160710106 Effect - Souls Tool
 160710107 Effect - Screenshot Tool
 160710108 Effect - Treasure Tool
+160710109 Effect - NG+ Tool
 160719999 ### Boss Souls ###
 160720000 Soul of Rosaria
 160720010 Soul of Boreal Valley Vordt
@@ -5083,11 +5084,11 @@
 160720250 Soul of the Ancient Dragon
 160720260 Soul of the Lordran Remnants
 160720270 Soul of Halflight
-160720280 Soul of the Frostfire Colossus
+160720280 Soul of Princess Yngvil
 160720290 Soul of the Cathedral Guardian
 160720300 Soul of the Mirror Knight
 160720310 Soul of Aborr
-160720320 Soul of the Herald
+160720320 Soul of Prince Dorthinus
 160720330 Soul of the Rock
 160720340 Twisted Soul
 160720350 Soul of the Maiden
@@ -5122,8 +5123,8 @@
 160741408 Dismal Knight - Weapon Buff Effect 4
 160741409 Dismal Knight - Weapon Buff
 160741500 Herald of Winter
-160741600 Frostfire Colossus - Odessa's Crystal - Player Buff
-160741610 Frostfire Colossus - Frozen Chaos Essence - Player Buff
+160741600 Princess Yngvil - Yngvil's Crystal - Player Buff
+160741610 Princess Yngvil - Frozen Chaos Essence - Player Buff
 160741700 Crab Puzzle - Fade Out
 160741900 Mirror Knight - Phantom Setup
 160741901 Mirror Knight - Immunity
@@ -5646,6 +5647,7 @@
 250000103 Mythic Mode - Player Effect - Spell Damage
 250000104 Mythic Mode - Player Effect - Stamina
 250000105 Mythic Mode - Player Effect - Aux
+250000200 Gauntlet Mode - Player Effect Souls
 250001000 Curse of Pride - Player Effect
 250001010 Curse of Pride - Soul Gain - I
 250001011 Curse of Pride - Soul Gain - II
@@ -5777,7 +5779,7 @@
 260000026 Darkeater Midir
 260000027 Slave Knight Gael
 260000028 Aborr
-260000029 Frostfire Colossus
+260000029 Princess Yngvil
 260000030 Cathedral Guardian
 260000031 Mirror Knight
 260000032 Herald of Winter
@@ -5811,7 +5813,7 @@
 260100240 Slave Knight Gael
 260100250 Halflight, Spear of the Church
 260100260 Champions of Yore
-260100270 Frostfire Colossus
+260100270 Princess Yngvil
 260100280 Cathedral Guardian
 260100290 Mirror Knight
 260100300 Aborr
@@ -5845,7 +5847,7 @@
 260110022 Darkeater Midir
 260110023 Slave Knight Gael
 260110024 Halflight, Spear of the Church
-260110025 Frostfire Colossus
+260110025 Princess Yngvil
 260110026 Cathedral Guardian
 260110027 Mirror Knight
 260110028 Aborr
@@ -5853,6 +5855,8 @@
 260110030 The Rock
 260110031 Twisted Knight
 260110032 Fallen Protector
+260119999 ### Gauntlet Mode
+260120000 Random Order
 260199999 ### Memories ###
 260200100 Power Scaling: SL 50
 260200101 Power Scaling: SL 100

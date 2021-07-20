@@ -4804,17 +4804,6 @@ Event(20005941, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.End);
 });
 
-// Frostfire Colossus - Lock-on Range During Blizzard
-Event(20005950, Restart, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 14500950);
-    IfCharacterHasSpEffect(MAIN, 4500931, 10760, true, ComparisonType.Equal, 1); // If Blizzard Active
-    IfEntityInoutsideRadiusOfEntity(MAIN, InsideOutsideState.Outside, 10000, X0_4, 12, 1); // If player farther than 12 units from enemy
-    SetLockOnPoint(X0_4, 220, Disabled);
-    IfEntityInoutsideRadiusOfEntity(MAIN, InsideOutsideState.Inside, 10000, X0_4, 11, 1); // If player within 11 units of enemy
-    SetLockOnPoint(X0_4, 220, Enabled);
-    EndUnconditionally(EventEndType.Restart);
-});
-
 //-----------------------------------
 // Character - Set Hosility Flags
 //-----------------------------------
@@ -6084,7 +6073,7 @@ Event(20020124, Default, function() {
 });
 
 //----------------------------------------------
-// Frostfire Colossus - Boss Start
+// Prince Dorthinus - Boss Start
 //----------------------------------------------
 Event(20020125, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -6128,7 +6117,7 @@ Event(20020128, Default, function() {
 });
 
 //----------------------------------------------
-// Herald of Winter - Boss Start
+// Princess Yngvil - Boss Start
 //----------------------------------------------
 Event(20020129, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);

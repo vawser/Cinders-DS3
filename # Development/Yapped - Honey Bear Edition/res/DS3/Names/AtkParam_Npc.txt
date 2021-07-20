@@ -4564,87 +4564,87 @@
 7530904 [Fume Knight]
 7530990 [Fume Knight]
 7530991 [Fume Knight]
-7560060 [Frostfire Colossus] Club Shockwave
-7560070 [Frostfire Colossus] Right Foot Light Stomp
-7560071 [Frostfire Colossus] Left Foot Light Stomp
-7560080 [Frostfire Colossus] Right Foot Stomp
-7560081 [Frostfire Colossus] Left Foot Stomp
-7560090 [Frostfire Colossus] Left Hand
-7560100 [Frostfire Colossus] Wide Sweep
-7560101 [Frostfire Colossus] Follow-up Long Windup Slam
-7560102 [Frostfire Colossus] Follow-up Long Windup Slam Handle
-7560103 [Frostfire Colossus] Follow-up Long Windup Slam Left Elbow
-7560104 [Frostfire Colossus] Wide Sweep Left Knee
-7560110 [Frostfire Colossus] Follow-up Swipe Slam
-7560111 [Frostfire Colossus] Follow-up Swipe Slam Left Elbow
-7560112 [Frostfire Colossus] Follow-up Swipe Slam Right Elbow
-7560120 [Frostfire Colossus] Quick Frontal Plunge/Slamsplosion Slam
-7560121 [Frostfire Colossus]
-7560130 [Frostfire Colossus] Stab to the Left
-7560131 [Frostfire Colossus] Stab to the Left Left Elbow
-7560140 [Frostfire Colossus] Stab to the Right
-7560141 [Frostfire Colossus] Stab to the Right Handle
-7560142 [Frostfire Colossus] Stab to the Right Left Elbow
-7560150 [Frostfire Colossus] Stab in Front
-7560151 [Frostfire Colossus] Stab in Front Handle
-7560160 [Frostfire Colossus] Wind-up Slam
-7560161 [Frostfire Colossus] Wind-up Slam Handle
-7560162 [Frostfire Colossus] Wind-up Slam Left Arm
-7560170 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 1
-7560171 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 2
-7560172 [Frostfire Colossus] Follow-up 3 Hit Combo Slam
-7560173 [Frostfire Colossus] Follow-up 3 Hit Combo Slam Handle
-7560180 [Frostfire Colossus] Toppled Hammer Drop (Unused)
-7560181 [Frostfire Colossus] Toppled Arm Swipe (Unused)
-7560190 [Frostfire Colossus] 2/3 Slam Attacks Slams
-7560200 [Frostfire Colossus] Roar Buff Hammer Slam
-7560210 [Frostfire Colossus] Summoning Hammer Swipe
-7560220 [Frostfire Colossus] Sweeping Breath Handle
-7560230 [Frostfire Colossus] Hand Blast Club Drop
-7560400 [Frostfire Colossus] Line Breath
-7560700 [Frostfire Colossus] Sweeping Breath
-7560710 [Frostfire Colossus] Frostfire Breath Downward
-7560730 [Frostfire Colossus] Homing Projectiles
-7560731 [Frostfire Colossus] Homing Projectiles (Ground Impact)
-7560732 [Frostfire Colossus] Homing Projectiles  (Vanilla Unused)
-7560740 [Frostfire Colossus] Lava Ring
-7560760 [Frostfire Colossus] Unleash Frostfire Flame Explosion
-7560761 [Frostfire Colossus] Unleash Frostfire Flame Explosion - Hammer Drop
-7560770 [Frostfire Colossus] Hand Blast
-7560771 [Frostfire Colossus] Hand Blast Mines
-7560790 [Frostfire Colossus] Emitted Breath Bullet
-7560800 [Frostfire Colossus] Slamsplosion
-7560830 [Frostfire Colossus] Tracking Frostfire Pillar
-7560831 [Frostfire Colossus] Tracking Frostfire Pillar [Hazard]
-7560840 [Frostfire Colossus] Frostfire Pillars
-7560841 [Frostfire Colossus] Frostfire Pillars [Hazard]
-7560860 [Frostfire Colossus] Frostfire Pillars - Central Explosion
-7560870 [Frostfire Colossus] Blizzard
-7560871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
-7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Ground Impact] (Unused)
-7560890 [Frostfire Colossus] Frost Explosion after Hammer Slams
-7560900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
-7560901 [Frostfire Colossus] Frost Force Blast after Hammer Slams (Farthest Away)
-7560910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
-7560920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion
-7560930 [Frostfire Colossus] Fiery Floor
-7560940 [Frostfire Colossus] Summoning Ring (Unused)
-7560950 [Frostfire Colossus] Wind-up Slam Frostfire Star
-7560960 [Frostfire Colossus] Single-slam Projectile Droplets
-7560961 [Frostfire Colossus] Single-slam Projectile Droplets [Ground Impact]
-7561700 [Colossus Orb] Tri-Fireball
-7561710 [Colossus Orb] Frost Aura
-7562710 [Colossus Sapping Orb] Frostfire-ball
-7570010 [Frostfire Cleric] Saw Slam
-7570020 [Frostfire Cleric] Follow-up Saw Slam
-7570030 [Frostfire Cleric] Saw Swipe
-7570040 [Frostfire Cleric] 2-handed Saw Slam
-7570700 [Frostfire Cleric] Frostfire-ball
-7570710 [Frostfire Cleric] Frostfire Flames
-7570720 [Frostfire Cleric] Frostfire Combustion
-7570900 [Frostfire Cleric] Spawn Explosion
-7571700 [Frostfire Cleric Orb] Frostfire-ball
+7560060 [Princess Yngvil] Club Shockwave
+7560070 [Princess Yngvil] Right Foot Light Stomp
+7560071 [Princess Yngvil] Left Foot Light Stomp
+7560080 [Princess Yngvil] Right Foot Stomp
+7560081 [Princess Yngvil] Left Foot Stomp
+7560090 [Princess Yngvil] Left Hand
+7560100 [Princess Yngvil] Wide Sweep
+7560101 [Princess Yngvil] Follow-up Long Windup Slam
+7560102 [Princess Yngvil] Follow-up Long Windup Slam Handle
+7560103 [Princess Yngvil] Follow-up Long Windup Slam Left Elbow
+7560104 [Princess Yngvil] Wide Sweep Left Knee
+7560110 [Princess Yngvil] Follow-up Swipe Slam
+7560111 [Princess Yngvil] Follow-up Swipe Slam Left Elbow
+7560112 [Princess Yngvil] Follow-up Swipe Slam Right Elbow
+7560120 [Princess Yngvil] Quick Frontal Plunge/Slamsplosion Slam
+7560121 [Princess Yngvil]
+7560130 [Princess Yngvil] Stab to the Left
+7560131 [Princess Yngvil] Stab to the Left Left Elbow
+7560140 [Princess Yngvil] Stab to the Right
+7560141 [Princess Yngvil] Stab to the Right Handle
+7560142 [Princess Yngvil] Stab to the Right Left Elbow
+7560150 [Princess Yngvil] Stab in Front
+7560151 [Princess Yngvil] Stab in Front Handle
+7560160 [Princess Yngvil] Wind-up Slam
+7560161 [Princess Yngvil] Wind-up Slam Handle
+7560162 [Princess Yngvil] Wind-up Slam Left Arm
+7560170 [Princess Yngvil] Follow-up 3 Hit Combo Swipe 1
+7560171 [Princess Yngvil] Follow-up 3 Hit Combo Swipe 2
+7560172 [Princess Yngvil] Follow-up 3 Hit Combo Slam
+7560173 [Princess Yngvil] Follow-up 3 Hit Combo Slam Handle
+7560180 [Princess Yngvil] Toppled Hammer Drop (Unused)
+7560181 [Princess Yngvil] Toppled Arm Swipe (Unused)
+7560190 [Princess Yngvil] 2/3 Slam Attacks Slams
+7560200 [Princess Yngvil] Roar Buff Hammer Slam
+7560210 [Princess Yngvil] Summoning Hammer Swipe
+7560220 [Princess Yngvil] Sweeping Breath Handle
+7560230 [Princess Yngvil] Hand Blast Club Drop
+7560400 [Princess Yngvil] Line Breath
+7560700 [Princess Yngvil] Sweeping Breath
+7560710 [Princess Yngvil] Frostfire Breath Downward
+7560730 [Princess Yngvil] Homing Projectiles
+7560731 [Princess Yngvil] Homing Projectiles (Ground Impact)
+7560732 [Princess Yngvil] Homing Projectiles  (Vanilla Unused)
+7560740 [Princess Yngvil] Lava Ring
+7560760 [Princess Yngvil] Unleash Frostfire Flame Explosion
+7560761 [Princess Yngvil] Unleash Frostfire Flame Explosion - Hammer Drop
+7560770 [Princess Yngvil] Hand Blast
+7560771 [Princess Yngvil] Hand Blast Mines
+7560790 [Princess Yngvil] Emitted Breath Bullet
+7560800 [Princess Yngvil] Slamsplosion
+7560830 [Princess Yngvil] Tracking Frostfire Pillar
+7560831 [Princess Yngvil] Tracking Frostfire Pillar [Hazard]
+7560840 [Princess Yngvil] Frostfire Pillars
+7560841 [Princess Yngvil] Frostfire Pillars [Hazard]
+7560860 [Princess Yngvil] Frostfire Pillars - Central Explosion
+7560870 [Princess Yngvil] Blizzard
+7560871 [Princess Yngvil] Blizzard Summoning Animation Frost Aura
+7560880 [Princess Yngvil] Three Tracking Frostfire Projectiles (Unused)
+7560881 [Princess Yngvil] Three Tracking Frostfire Projectiles [Ground Impact] (Unused)
+7560890 [Princess Yngvil] Frost Explosion after Hammer Slams
+7560900 [Princess Yngvil] Frost Force Blast after Hammer Slams
+7560901 [Princess Yngvil] Frost Force Blast after Hammer Slams (Farthest Away)
+7560910 [Princess Yngvil] Small Frostfire Explosions after Hammer Slams
+7560920 [Princess Yngvil] Frostfire Pillars - Central Arena Igniting Explosion
+7560930 [Princess Yngvil] Fiery Floor
+7560940 [Princess Yngvil] Summoning Ring (Unused)
+7560950 [Princess Yngvil] Wind-up Slam Frostfire Star
+7560960 [Princess Yngvil] Single-slam Projectile Droplets
+7560961 [Princess Yngvil] Single-slam Projectile Droplets [Ground Impact]
+7561700 [Princess Yngvil - Frigid Orb] Tri-Fireball
+7561710 [Princess Yngvil - Frigid Orb] Frost Aura
+7562710 [Princess Yngvil - Sapping Orb] Frostfire-ball
+7570010 [Frigid Attendant] Saw Slam
+7570020 [Frigid Attendant] Follow-up Saw Slam
+7570030 [Frigid Attendant] Saw Swipe
+7570040 [Frigid Attendant] 2-handed Saw Slam
+7570700 [Frigid Attendant] Frostfire-ball
+7570710 [Frigid Attendant] Frostfire Flames
+7570720 [Frigid Attendant] Frostfire Combustion
+7570900 [Frigid Attendant] Spawn Explosion
+7571700 [Frigid Attendant Orb] Frostfire-ball
 7630030 [Red Crystal Lizard] Leap Forward
 7630040 [Red Crystal Lizard] Fire Breath
 7630050 [Red Crystal Lizard] Roll

@@ -2403,127 +2403,127 @@
 7530903 [Fume Knight]
 7530904 [Fume Knight]
 7530910 [Fume Knight]
-7560050 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560051 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560052 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560053 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560054 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560055 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560056 [Frostfire Colossus] Phase Change Cleanse and Heal
-7560400 [Frostfire Colossus] Line Breath
-7560401 [Frostfire Colossus] Line Breath [Hit]
-7560700 [Frostfire Colossus] Sweeping Breath
-7560701 [Frostfire Colossus] Sweeping Breath
-7560710 [Frostfire Colossus] Frostfire Breath Downward
-7560711 [Frostfire Colossus] Frostfire Breath Downward
-7560715 [Frostfire Colossus] Frostfire Breath Downward
-7560720 [Frostfire Colossus]
-7560721 [Frostfire Colossus]
-7560730 [Frostfire Colossus] Homing Projectiles
-7560731 [Frostfire Colossus] Homing Projectiles
-7560732 [Frostfire Colossus] Homing Projectiles
-7560733 [Frostfire Colossus] Homing Projectiles
-7560734 [Frostfire Colossus] Homing Projectiles
-7560735 [Frostfire Colossus] Homing Projectiles
-7560736 [Frostfire Colossus] Homing Projectiles [Hazard]
-7560737 [Frostfire Colossus] Homing Projectiles Alternative? (Vanilla Unused)
-7560740 [Frostfire Colossus] Lava Ring Out-to-In
-7560741 [Frostfire Colossus] Lava Ring Out-to-In
-7560742 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560743 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560744 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560745 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560746 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560747 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560748 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560749 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560750 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560751 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560752 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560753 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560754 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560755 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560756 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560757 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560758 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560759 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560760 [Frostfire Colossus] Unleash Frostfire Flame Explosion
-7560770 [Frostfire Colossus] Hand Blast
-7560771 [Frostfire Colossus] Hand Blast Mines
-7560772 [Frostfire Colossus] Hand Blast Mines
-7560773 [Frostfire Colossus] Hand Blast Mines
-7560774 [Frostfire Colossus] Hand Blast Mines [Hit]
-7560780 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560781 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560782 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560783 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560784 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560785 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560786 [Frostfire Colossus] Lava Ring Out-to-In [Hit]
-7560787 [Frostfire Colossus] Lava Ring Out-to-In VFX
-7560790 [Frostfire Colossus] Emitted Breath Bullet
-7560800 [Frostfire Colossus] Slamsplosion
-7560810 [Frostfire Colossus] Lava Ring In-to-Out
-7560811 [Frostfire Colossus] Lava Ring In-to-Out
-7560812 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560813 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560814 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560815 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560816 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560817 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560818 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560819 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560820 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560821 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560822 [Frostfire Colossus] Lava Ring In-to-Out [Hit]
-7560823 [Frostfire Colossus] Lava Ring In-to-Out VFX
-7560830 [Frostfire Colossus] Tracking Frostfire Pillar
-7560831 [Frostfire Colossus] Tracking Frostfire Pillar [Hit]
-7560832 [Frostfire Colossus] Tracking Frostfire Pillar [Hazard]
-7560840 [Frostfire Colossus] Frostfire Pillars - A
-7560841 [Frostfire Colossus] Frostfire Pillars [Emitter] - A
-7560842 [Frostfire Colossus] Frostfire Pillars - A
-7560843 [Frostfire Colossus] Frostfire Pillars - A
-7560844 [Frostfire Colossus] Frostfire Pillars [Hit] - A
-7560845 [Frostfire Colossus] Frostfire Pillars [Hazard] - A
-7560850 [Frostfire Colossus] Frostfire Pillars - B
-7560851 [Frostfire Colossus] Frostfire Pillars [Emitter] - B
-7560852 [Frostfire Colossus] Frostfire Pillars - B
-7560853 [Frostfire Colossus] Frostfire Pillars - B
-7560854 [Frostfire Colossus] Frostfire Pillars [Hit] - B
-7560855 [Frostfire Colossus] Frostfire Pillars [Hazard] - B
-7560860 [Frostfire Colossus] Frostfire Pillars - Central Explosion
-7560870 [Frostfire Colossus] Blizzard
-7560871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-7560880 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
-7560881 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
-7560882 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit] (Unused)
-7560883 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hit] (Unused)
-7560884 [Frostfire Colossus] Three Tracking Frostfire Projectiles [Hazard] (Unused)
-7560890 [Frostfire Colossus] Frost Explosion after Hammer Slams
-7560900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
-7560901 [Frostfire Colossus] Frost Force Blast after Hammer Slams
-7560902 [Frostfire Colossus] Frost Force Blast after Hammer Slams
-7560910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
-7560920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion
-7560921 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion [Hit]
-7560930 [Frostfire Colossus] Fiery Floor
-7560940 [Frostfire Colossus] Summoning Ring (Unused)
-7560950 [Frostfire Colossus] Wind-up Slam Frostfire Star
-7560960 [Frostfire Colossus] Single-slam Projectile Droplets
-7560961 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
-7560962 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
-7560963 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
-7560964 [Frostfire Colossus] Single-slam Projectile Droplets [Hazard]
-7561700 [Colossus Orb] Tri-Frostfire Ball
-7561710 [Colossus Orb] Frost Aura
-7562700 [Colossus Sapping Orb] Blanks
-7562710 [Colossus Sapping Orb] Frostfire-ball
-7570700 [Frostfire Cleric] Frostfire-ball
-7570710 [Frostfire Cleric] Frostfire Flames
-7570720 [Frostfire Cleric] Frostfire Combustion
-7570900 [Frostfire Cleric] Spawn Explosion
-7571700 [Frostfire Cleric Orb] Frostfire-ball
+7560050 [Princess Yngvil] Phase Change Cleanse and Heal
+7560051 [Princess Yngvil] Phase Change Cleanse and Heal
+7560052 [Princess Yngvil] Phase Change Cleanse and Heal
+7560053 [Princess Yngvil] Phase Change Cleanse and Heal
+7560054 [Princess Yngvil] Phase Change Cleanse and Heal
+7560055 [Princess Yngvil] Phase Change Cleanse and Heal
+7560056 [Princess Yngvil] Phase Change Cleanse and Heal
+7560400 [Princess Yngvil] Line Breath
+7560401 [Princess Yngvil] Line Breath [Hit]
+7560700 [Princess Yngvil] Sweeping Breath
+7560701 [Princess Yngvil] Sweeping Breath
+7560710 [Princess Yngvil] Frostfire Breath Downward
+7560711 [Princess Yngvil] Frostfire Breath Downward
+7560715 [Princess Yngvil] Frostfire Breath Downward
+7560720 [Princess Yngvil]
+7560721 [Princess Yngvil]
+7560730 [Princess Yngvil] Homing Projectiles
+7560731 [Princess Yngvil] Homing Projectiles
+7560732 [Princess Yngvil] Homing Projectiles
+7560733 [Princess Yngvil] Homing Projectiles
+7560734 [Princess Yngvil] Homing Projectiles
+7560735 [Princess Yngvil] Homing Projectiles
+7560736 [Princess Yngvil] Homing Projectiles [Hazard]
+7560737 [Princess Yngvil] Homing Projectiles Alternative? (Vanilla Unused)
+7560740 [Princess Yngvil] Lava Ring Out-to-In
+7560741 [Princess Yngvil] Lava Ring Out-to-In
+7560742 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560743 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560744 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560745 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560746 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560747 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560748 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560749 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560750 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560751 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560752 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560753 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560754 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560755 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560756 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560757 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560758 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560759 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560760 [Princess Yngvil] Unleash Frostfire Flame Explosion
+7560770 [Princess Yngvil] Hand Blast
+7560771 [Princess Yngvil] Hand Blast Mines
+7560772 [Princess Yngvil] Hand Blast Mines
+7560773 [Princess Yngvil] Hand Blast Mines
+7560774 [Princess Yngvil] Hand Blast Mines [Hit]
+7560780 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560781 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560782 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560783 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560784 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560785 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560786 [Princess Yngvil] Lava Ring Out-to-In [Hit]
+7560787 [Princess Yngvil] Lava Ring Out-to-In VFX
+7560790 [Princess Yngvil] Emitted Breath Bullet
+7560800 [Princess Yngvil] Slamsplosion
+7560810 [Princess Yngvil] Lava Ring In-to-Out
+7560811 [Princess Yngvil] Lava Ring In-to-Out
+7560812 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560813 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560814 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560815 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560816 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560817 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560818 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560819 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560820 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560821 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560822 [Princess Yngvil] Lava Ring In-to-Out [Hit]
+7560823 [Princess Yngvil] Lava Ring In-to-Out VFX
+7560830 [Princess Yngvil] Tracking Frostfire Pillar
+7560831 [Princess Yngvil] Tracking Frostfire Pillar [Hit]
+7560832 [Princess Yngvil] Tracking Frostfire Pillar [Hazard]
+7560840 [Princess Yngvil] Frostfire Pillars - A
+7560841 [Princess Yngvil] Frostfire Pillars [Emitter] - A
+7560842 [Princess Yngvil] Frostfire Pillars - A
+7560843 [Princess Yngvil] Frostfire Pillars - A
+7560844 [Princess Yngvil] Frostfire Pillars [Hit] - A
+7560845 [Princess Yngvil] Frostfire Pillars [Hazard] - A
+7560850 [Princess Yngvil] Frostfire Pillars - B
+7560851 [Princess Yngvil] Frostfire Pillars [Emitter] - B
+7560852 [Princess Yngvil] Frostfire Pillars - B
+7560853 [Princess Yngvil] Frostfire Pillars - B
+7560854 [Princess Yngvil] Frostfire Pillars [Hit] - B
+7560855 [Princess Yngvil] Frostfire Pillars [Hazard] - B
+7560860 [Princess Yngvil] Frostfire Pillars - Central Explosion
+7560870 [Princess Yngvil] Blizzard
+7560871 [Princess Yngvil] Blizzard Summoning Animation Frost Aura
+7560880 [Princess Yngvil] Three Tracking Frostfire Projectiles (Unused)
+7560881 [Princess Yngvil] Three Tracking Frostfire Projectiles (Unused)
+7560882 [Princess Yngvil] Three Tracking Frostfire Projectiles [Hit] (Unused)
+7560883 [Princess Yngvil] Three Tracking Frostfire Projectiles [Hit] (Unused)
+7560884 [Princess Yngvil] Three Tracking Frostfire Projectiles [Hazard] (Unused)
+7560890 [Princess Yngvil] Frost Explosion after Hammer Slams
+7560900 [Princess Yngvil] Frost Force Blast after Hammer Slams
+7560901 [Princess Yngvil] Frost Force Blast after Hammer Slams
+7560902 [Princess Yngvil] Frost Force Blast after Hammer Slams
+7560910 [Princess Yngvil] Small Frostfire Explosions after Hammer Slams
+7560920 [Princess Yngvil] Frostfire Pillars - Central Arena Igniting Explosion
+7560921 [Princess Yngvil] Frostfire Pillars - Central Arena Igniting Explosion [Hit]
+7560930 [Princess Yngvil] Fiery Floor
+7560940 [Princess Yngvil] Summoning Ring (Unused)
+7560950 [Princess Yngvil] Wind-up Slam Frostfire Star
+7560960 [Princess Yngvil] Single-slam Projectile Droplets
+7560961 [Princess Yngvil] Single-slam Projectile Droplets [Hit]
+7560962 [Princess Yngvil] Single-slam Projectile Droplets [Hit]
+7560963 [Princess Yngvil] Single-slam Projectile Droplets [Hit]
+7560964 [Princess Yngvil] Single-slam Projectile Droplets [Hazard]
+7561700 [Princess Yngvil - Frigid Orb] Tri-Frostfire Ball
+7561710 [Princess Yngvil - Frigid Orb] Frost Aura
+7562700 [Princess Yngvil - Sapping Orb] Blanks
+7562710 [Princess Yngvil - Sapping Orb] Frostfire-ball
+7570700 [Frigid Attendant] Frostfire-ball
+7570710 [Frigid Attendant] Frostfire Flames
+7570720 [Frigid Attendant] Frostfire Combustion
+7570900 [Frigid Attendant] Spawn Explosion
+7571700 [Frigid Attendant - Orb] Frostfire-ball
 7630040 [Furious Lizard] Deathly Breath
 7630060 [Furious Lizard] Death Explosion
 7650080 [The Rock] Earth Split

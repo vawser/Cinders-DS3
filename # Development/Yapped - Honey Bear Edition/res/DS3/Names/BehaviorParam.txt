@@ -5036,161 +5036,161 @@
 275300910 [Fume Knight]
 275300990 [Fume Knight]
 275300991 [Fume Knight]
-275600050 [Frostfire Colossus] Phase Change Cleanse and Heal
-275600060 [Frostfire Colossus] Club Shockwave
-275600070 [Frostfire Colossus] Right Foot Light Stomp
-275600071 [Frostfire Colossus] Left Foot Light Stomp
-275600080 [Frostfire Colossus] Right Foot Stomp
-275600081 [Frostfire Colossus] Left Foot Stomp
-275600090 [Frostfire Colossus] Left Hand
-275600100 [Frostfire Colossus] Wide Sweep
-275600101 [Frostfire Colossus] Follow-up Long Windup Slam
-275600102 [Frostfire Colossus] Follow-up Long Windup Slam Handle
-275600103 [Frostfire Colossus] Follow-up Long Windup Slam Left Elbow
-275600104 [Frostfire Colossus] Wide Sweep Left Knee
-275600110 [Frostfire Colossus] Follow-up Swipe Slam
-275600111 [Frostfire Colossus] Follow-up Swipe Slam Left Elbow
-275600112 [Frostfire Colossus] Follow-up Swipe Slam Right Elbow
-275600120 [Frostfire Colossus] Quick Frontal Plunge/Slamsplosion Slam
-275600121 [Frostfire Colossus]
-275600130 [Frostfire Colossus] Stab to the Left
-275600131 [Frostfire Colossus] Stab to the Left Left Elbow
-275600140 [Frostfire Colossus] Stab to the Right
-275600141 [Frostfire Colossus] Stab to the Right Handle
-275600142 [Frostfire Colossus] Stab to the Right Left Elbow
-275600150 [Frostfire Colossus] Stab in Front
-275600151 [Frostfire Colossus] Stab in Front Handle
-275600160 [Frostfire Colossus] Wind-up Slam
-275600161 [Frostfire Colossus] Wind-up Slam Handle
-275600162 [Frostfire Colossus] Wind-up Slam Left Arm
-275600170 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 1
-275600171 [Frostfire Colossus] Follow-up 3 Hit Combo Swipe 2
-275600172 [Frostfire Colossus] Follow-up 3 Hit Combo Slam
-275600173 [Frostfire Colossus] Follow-up 3 Hit Combo Slam Handle
-275600180 [Frostfire Colossus] Toppled Hammer Drop (Unused)
-275600181 [Frostfire Colossus] Toppled Arm Swipe (Unused)
-275600190 [Frostfire Colossus] 2/3 Slam Attacks Slams
-275600200 [Frostfire Colossus] Roar Buff Hammer Slam
-275600210 [Frostfire Colossus] Summoning Hammer Swipe
-275600220 [Frostfire Colossus] Sweeping Breath Handle
-275600230 [Frostfire Colossus] Hand Blast Club Drop
-275600300 [Frostfire Colossus]
-275600400 [Frostfire Colossus] Line Breath
-275600700 [Frostfire Colossus] Sweeping Breath
-275600710 [Frostfire Colossus] Frostfire Breath Downward
-275600715 [Frostfire Colossus] Frostfire Breath Downward (Additional VFX)
-275600720 [Frostfire Colossus]
-275600730 [Frostfire Colossus] Homing Projectiles
-275600740 [Frostfire Colossus] Lava Ring Out-to-In [Hit] - [Called from EMEVD]
-275600741 [Frostfire Colossus] Lava Ring Out-to-In [Called from EMEVD]
-275600760 [Frostfire Colossus] Unleash Frostfire Flame Explosion
-275600761 [Frostfire Colossus] Unleash Frostfire Flame Explosion - Hammer Drop
-275600770 [Frostfire Colossus] Hand Blast
-275600771 [Frostfire Colossus] Hand Blast Ice Shards
-275600790 [Frostfire Colossus]
-275600800 [Frostfire Colossus] Slamsplosion
-275600810 [Frostfire Colossus] Lava Ring In-to-Out [Hit] - [Called from EMEVD]
-275600811 [Frostfire Colossus] Lava Ring In-to-Out [Called from EMEVD]
-275600830 [Frostfire Colossus] Tracking Frostfire Pillar [Called from EMEVD]
-275600840 [Frostfire Colossus] Frostfire Pillars A [Called from EMEVD]
-275600850 [Frostfire Colossus] Frostfire Pillars B [Called from EMEVD]
-275600860 [Frostfire Colossus] Frostfire Pillars - Central Explosion [Called from EMEVD]
-275600870 [Frostfire Colossus] Blizzard
-275600871 [Frostfire Colossus] Blizzard Summoning Animation Frost Aura
-275600880 [Frostfire Colossus] Three Tracking Frostfire Projectiles (Unused)
-275600890 [Frostfire Colossus] Frost Explosion after Hammer Slams
-275600900 [Frostfire Colossus] Frost Force Blast after Hammer Slams
-275600910 [Frostfire Colossus] Small Frostfire Explosions after Hammer Slams
-275600920 [Frostfire Colossus] Frostfire Pillars - Central Arena Igniting Explosion [Called from EMEVD]
-275600930 [Frostfire Colossus] Fiery Floor
-275600940 [Frostfire Colossus] Summoning Ring (Unused)
-275600950 [Frostfire Colossus] Wind-up Slam Frostfire Star
-275600960 [Frostfire Colossus] Single-slam Projectile Droplets [Hit]
-275610700 [Colossus Orb] Tri-Fireball
-275610710 [Colossus Orb] Frost Aura
-275620700 [Colossus Sapping Orb] Blanks
-275620710 [Colossus Sapping Orb] Frostfire-ball
-275700010 [Frostfire Cleric] Saw Slam
-275700020 [Frostfire Cleric] Follow-up Saw Slam
-275700030 [Frostfire Cleric] Saw Swipe
-275700040 [Frostfire Cleric] 2-handed Saw Slam
-275700700 [Frostfire Cleric] Frostfire-ball
-275700701 [Frostfire Cleric] Vanilla unused
-275700710 [Frostfire Cleric] Frostfire Flames
-275700711 [Frostfire Cleric] Vanilla unused
-275700720 [Frostfire Cleric] Frostfire Combustion
-275700900 [Frostfire Cleric] Spawn Explosion [Called from EMEVD]
-275710700 [Frostfire Cleric Orb] Frostfire-ball
-276000010 [Herald of Winter]
-276000020 [Herald of Winter]
-276000030 [Herald of Winter]
-276000040 [Herald of Winter]
-276000050 [Herald of Winter]
-276000060 [Herald of Winter]
-276000070 [Herald of Winter]
-276000080 [Herald of Winter]
-276000090 [Herald of Winter]
-276000100 [Herald of Winter]
-276000110 [Herald of Winter]
-276000120 [Herald of Winter]
-276000130 [Herald of Winter]
-276000135 [Herald of Winter]
-276000140 [Herald of Winter]
-276000141 [Herald of Winter]
-276000145 [Herald of Winter]
-276000150 [Herald of Winter]
-276000199 [Herald of Winter]
-276000210 [Herald of Winter]
-276000220 [Herald of Winter]
-276000230 [Herald of Winter]
-276000240 [Herald of Winter]
-276000250 [Herald of Winter]
-276000260 [Herald of Winter]
-276000270 [Herald of Winter]
-276000280 [Herald of Winter]
-276000285 [Herald of Winter]
-276000290 [Herald of Winter]
-276000300 [Herald of Winter]
-276000310 [Herald of Winter]
-276000320 [Herald of Winter]
-276000330 [Herald of Winter]
-276000335 [Herald of Winter]
-276000340 [Herald of Winter]
-276000350 [Herald of Winter]
-276000351 [Herald of Winter]
-276000352 [Herald of Winter]
-276000399 [Herald of Winter]
-276000410 [Herald of Winter]
-276000420 [Herald of Winter]
-276000430 [Herald of Winter]
-276000440 [Herald of Winter]
-276000450 [Herald of Winter]
-276000460 [Herald of Winter]
-276000470 [Herald of Winter]
-276000480 [Herald of Winter]
-276000490 [Herald of Winter]
-276000500 [Herald of Winter]
-276000510 [Herald of Winter]
-276000520 [Herald of Winter]
-276000521 [Herald of Winter]
-276000522 [Herald of Winter]
-276000530 [Herald of Winter]
-276000531 [Herald of Winter]
-276000532 [Herald of Winter]
-276000540 [Herald of Winter]
-276000550 [Herald of Winter]
-276000700 [Herald of Winter]
-276000710 [Herald of Winter]
-276000720 [Herald of Winter]
-276000750 [Herald of Winter]
-276000800 [Herald of Winter]
-276000850 [Herald of Winter]
-276000851 [Herald of Winter]
-276000860 [Herald of Winter]
-276000863 [Herald of Winter]
-276000870 [Herald of Winter]
-276000873 [Herald of Winter]
-276000900 [Herald of Winter]
+275600050 [Princess Yngvil] Phase Change Cleanse and Heal
+275600060 [Princess Yngvil] Club Shockwave
+275600070 [Princess Yngvil] Right Foot Light Stomp
+275600071 [Princess Yngvil] Left Foot Light Stomp
+275600080 [Princess Yngvil] Right Foot Stomp
+275600081 [Princess Yngvil] Left Foot Stomp
+275600090 [Princess Yngvil] Left Hand
+275600100 [Princess Yngvil] Wide Sweep
+275600101 [Princess Yngvil] Follow-up Long Windup Slam
+275600102 [Princess Yngvil] Follow-up Long Windup Slam Handle
+275600103 [Princess Yngvil] Follow-up Long Windup Slam Left Elbow
+275600104 [Princess Yngvil] Wide Sweep Left Knee
+275600110 [Princess Yngvil] Follow-up Swipe Slam
+275600111 [Princess Yngvil] Follow-up Swipe Slam Left Elbow
+275600112 [Princess Yngvil] Follow-up Swipe Slam Right Elbow
+275600120 [Princess Yngvil] Quick Frontal Plunge/Slamsplosion Slam
+275600121 [Princess Yngvil]
+275600130 [Princess Yngvil] Stab to the Left
+275600131 [Princess Yngvil] Stab to the Left Left Elbow
+275600140 [Princess Yngvil] Stab to the Right
+275600141 [Princess Yngvil] Stab to the Right Handle
+275600142 [Princess Yngvil] Stab to the Right Left Elbow
+275600150 [Princess Yngvil] Stab in Front
+275600151 [Princess Yngvil] Stab in Front Handle
+275600160 [Princess Yngvil] Wind-up Slam
+275600161 [Princess Yngvil] Wind-up Slam Handle
+275600162 [Princess Yngvil] Wind-up Slam Left Arm
+275600170 [Princess Yngvil] Follow-up 3 Hit Combo Swipe 1
+275600171 [Princess Yngvil] Follow-up 3 Hit Combo Swipe 2
+275600172 [Princess Yngvil] Follow-up 3 Hit Combo Slam
+275600173 [Princess Yngvil] Follow-up 3 Hit Combo Slam Handle
+275600180 [Princess Yngvil] Toppled Hammer Drop (Unused)
+275600181 [Princess Yngvil] Toppled Arm Swipe (Unused)
+275600190 [Princess Yngvil] 2/3 Slam Attacks Slams
+275600200 [Princess Yngvil] Roar Buff Hammer Slam
+275600210 [Princess Yngvil] Summoning Hammer Swipe
+275600220 [Princess Yngvil] Sweeping Breath Handle
+275600230 [Princess Yngvil] Hand Blast Club Drop
+275600300 [Princess Yngvil]
+275600400 [Princess Yngvil] Line Breath
+275600700 [Princess Yngvil] Sweeping Breath
+275600710 [Princess Yngvil] Frostfire Breath Downward
+275600715 [Princess Yngvil] Frostfire Breath Downward (Additional VFX)
+275600720 [Princess Yngvil]
+275600730 [Princess Yngvil] Homing Projectiles
+275600740 [Princess Yngvil] Lava Ring Out-to-In [Hit] - [Called from EMEVD]
+275600741 [Princess Yngvil] Lava Ring Out-to-In [Called from EMEVD]
+275600760 [Princess Yngvil] Unleash Frostfire Flame Explosion
+275600761 [Princess Yngvil] Unleash Frostfire Flame Explosion - Hammer Drop
+275600770 [Princess Yngvil] Hand Blast
+275600771 [Princess Yngvil] Hand Blast Ice Shards
+275600790 [Princess Yngvil]
+275600800 [Princess Yngvil] Slamsplosion
+275600810 [Princess Yngvil] Lava Ring In-to-Out [Hit] - [Called from EMEVD]
+275600811 [Princess Yngvil] Lava Ring In-to-Out [Called from EMEVD]
+275600830 [Princess Yngvil] Tracking Frostfire Pillar [Called from EMEVD]
+275600840 [Princess Yngvil] Frostfire Pillars A [Called from EMEVD]
+275600850 [Princess Yngvil] Frostfire Pillars B [Called from EMEVD]
+275600860 [Princess Yngvil] Frostfire Pillars - Central Explosion [Called from EMEVD]
+275600870 [Princess Yngvil] Blizzard
+275600871 [Princess Yngvil] Blizzard Summoning Animation Frost Aura
+275600880 [Princess Yngvil] Three Tracking Frostfire Projectiles (Unused)
+275600890 [Princess Yngvil] Frost Explosion after Hammer Slams
+275600900 [Princess Yngvil] Frost Force Blast after Hammer Slams
+275600910 [Princess Yngvil] Small Frostfire Explosions after Hammer Slams
+275600920 [Princess Yngvil] Frostfire Pillars - Central Arena Igniting Explosion [Called from EMEVD]
+275600930 [Princess Yngvil] Fiery Floor
+275600940 [Princess Yngvil] Summoning Ring (Unused)
+275600950 [Princess Yngvil] Wind-up Slam Frostfire Star
+275600960 [Princess Yngvil] Single-slam Projectile Droplets [Hit]
+275610700 [Princess Yngvil - Frigid Orb] Tri-Fireball
+275610710 [Princess Yngvil - Frigid Orb] Frost Aura
+275620700 [Princess Yngvil - Sapping Orb] Blanks
+275620710 [Princess Yngvil - Sapping Orb] Frostfire-ball
+275700010 [Frigid Attendant] Saw Slam
+275700020 [Frigid Attendant] Follow-up Saw Slam
+275700030 [Frigid Attendant] Saw Swipe
+275700040 [Frigid Attendant] 2-handed Saw Slam
+275700700 [Frigid Attendant] Frostfire-ball
+275700701 [Frigid Attendant] Vanilla unused
+275700710 [Frigid Attendant] Frostfire Flames
+275700711 [Frigid Attendant] Vanilla unused
+275700720 [Frigid Attendant] Frostfire Combustion
+275700900 [Frigid Attendant] Spawn Explosion [Called from EMEVD]
+275710700 [Frigid Attendant Orb] Frostfire-ball
+276000010 [Prince Dorthinus]
+276000020 [Prince Dorthinus]
+276000030 [Prince Dorthinus]
+276000040 [Prince Dorthinus]
+276000050 [Prince Dorthinus]
+276000060 [Prince Dorthinus]
+276000070 [Prince Dorthinus]
+276000080 [Prince Dorthinus]
+276000090 [Prince Dorthinus]
+276000100 [Prince Dorthinus]
+276000110 [Prince Dorthinus]
+276000120 [Prince Dorthinus]
+276000130 [Prince Dorthinus]
+276000135 [Prince Dorthinus]
+276000140 [Prince Dorthinus]
+276000141 [Prince Dorthinus]
+276000145 [Prince Dorthinus]
+276000150 [Prince Dorthinus]
+276000199 [Prince Dorthinus]
+276000210 [Prince Dorthinus]
+276000220 [Prince Dorthinus]
+276000230 [Prince Dorthinus]
+276000240 [Prince Dorthinus]
+276000250 [Prince Dorthinus]
+276000260 [Prince Dorthinus]
+276000270 [Prince Dorthinus]
+276000280 [Prince Dorthinus]
+276000285 [Prince Dorthinus]
+276000290 [Prince Dorthinus]
+276000300 [Prince Dorthinus]
+276000310 [Prince Dorthinus]
+276000320 [Prince Dorthinus]
+276000330 [Prince Dorthinus]
+276000335 [Prince Dorthinus]
+276000340 [Prince Dorthinus]
+276000350 [Prince Dorthinus]
+276000351 [Prince Dorthinus]
+276000352 [Prince Dorthinus]
+276000399 [Prince Dorthinus]
+276000410 [Prince Dorthinus]
+276000420 [Prince Dorthinus]
+276000430 [Prince Dorthinus]
+276000440 [Prince Dorthinus]
+276000450 [Prince Dorthinus]
+276000460 [Prince Dorthinus]
+276000470 [Prince Dorthinus]
+276000480 [Prince Dorthinus]
+276000490 [Prince Dorthinus]
+276000500 [Prince Dorthinus]
+276000510 [Prince Dorthinus]
+276000520 [Prince Dorthinus]
+276000521 [Prince Dorthinus]
+276000522 [Prince Dorthinus]
+276000530 [Prince Dorthinus]
+276000531 [Prince Dorthinus]
+276000532 [Prince Dorthinus]
+276000540 [Prince Dorthinus]
+276000550 [Prince Dorthinus]
+276000700 [Prince Dorthinus]
+276000710 [Prince Dorthinus]
+276000720 [Prince Dorthinus]
+276000750 [Prince Dorthinus]
+276000800 [Prince Dorthinus]
+276000850 [Prince Dorthinus]
+276000851 [Prince Dorthinus]
+276000860 [Prince Dorthinus]
+276000863 [Prince Dorthinus]
+276000870 [Prince Dorthinus]
+276000873 [Prince Dorthinus]
+276000900 [Prince Dorthinus]
 276300030 [Red Crystal Lizard] Leap Forward
 276300040 [Red Crystal Lizard] Fire Breath
 276300050 [Red Crystal Lizard] Roll

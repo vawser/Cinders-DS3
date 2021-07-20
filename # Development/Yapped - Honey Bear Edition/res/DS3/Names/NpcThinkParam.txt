@@ -982,14 +982,14 @@
 752000 The Dragonslayer
 753000 Fume Knight
 753100 Fume Knight (Heatup)
-756000 Frostfire Colossus
-756100 Frostfire Colossus Orb
-756200 Frostfire Colossus Sapping Orb
-757000 Frostfire Cleric (Boss Room)
-757010 Frostfire Cleric
-757020 Frostfire Cleric (Mini-Boss)
-757100 Frostfire Cleric Orb
-760000 Herald of Winter
+756000 Princess Yngvil
+756100 Princess Yngvil - Frigid Orb
+756200 Princess Yngvil - Sapping Orb
+757000 Frigid Attendant - Boss
+757010 Frigid Attendant
+757020 Frigid Attendant - Miniboss
+757100 Frigid Attendant - Orb
+760000 Prince Dorthinus
 763000 Red Crystal Lizard
 764000 Twisted Knight
 765000 The Rock

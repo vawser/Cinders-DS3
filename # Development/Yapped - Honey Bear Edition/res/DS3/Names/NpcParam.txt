@@ -524,7 +524,7 @@
 131000 Boreal Outrider Knight [Undead Settlement]
 131100 Boreal Outrider Knight [Grand Archives]
 131200 Boreal Outrider Knight [Lothric Castle]
-131300 Boreal Outrider Knight [Frostfire Colossus]
+131300 Boreal Outrider Knight [Princess Yngvil]
 131310 [Boss] The Last Jailer
 132000 [Boss] Crystal Sage
 132010 Crystal Sage [Road of Sacrifices]
@@ -1007,8 +1007,8 @@
 602000 [Boss] Sister Friede [First Stage]
 602001 [Boss] Sister Friede [Second/Final Stage]
 602002 [Boss] Sister Friede [HP Dummy]
-603000 [Boss] Gravetender Greatwolf
-603001 [Boss] Gravetender Greatwolf [Heat Up]
+603000 [Boss] Akseliane
+603001 [Boss] Akseliane [Heatup]
 603100 Greatwolf
 603200 Greatwolf
 604000 Wolf [Ariandel]
@@ -1223,15 +1223,15 @@
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)
-756000 [Boss] Frostfire Colossus
-756100 [Boss] Frostfire Colossus Orb
-756200 [Boss] Frostfire Colossus Sapping Orb
-757000 [Boss] Frostfire Cleric (Boss Room)
-757010 Frostfire Cleric
-757020 [Boss] Odessa Knight (Frostfire Cleric)
-757100 Frostfire Cleric Orb
-757110 [Boss] Odessa Knight Orb (Frostfire Cleric)
-760000 [Boss] Herald of Winter
+756000 [Boss] Princess Yngvil
+756100 [Boss] Princess Yngvil - Frigid Orb
+756200 [Boss] Princess Yngvil - Sapping Orb
+757000 [Boss] Princess Yngvil - Frigid Attendant
+757010 Frigid Attendant
+757020 [Boss] Knight of Dorthinus
+757100 Frigid Attendant Orb
+757110 [Boss] Knight of Dorthinus - Orb
+760000 [Boss] Prince Dorthinus
 761000 Smough (Winged Knight)
 762000 Yorgh (Gundyr)
 763000 Red Crystal Lizard

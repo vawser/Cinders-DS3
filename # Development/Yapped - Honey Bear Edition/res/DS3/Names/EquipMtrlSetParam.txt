@@ -322,11 +322,27 @@
 100032 Soul of the Cathedral Guardian
 100033 Soul of the Mirror Knight
 100034 Soul of Aborr
-100035 Soul of the Herald
+100035 Soul of Prince Dorthinus
 100036 Soul of the Rock
-100037 Soul of the Frostfire Colossus
+100037 Soul of Princess Yngvil
 100038 Twisted Soul
 100039 Soul of the Maiden
+120000 Weapon Token - 1
+120001 Weapon Token - 2
+120002 Weapon Token - 3
+120003 Weapon Token - 4
+120004 Weapon Token - 5
+130000 Armor Token - 1
+130001 Armor Token - 2
+130002 Armor Token - 3
+130003 Armor Token - 4
+130004 Armor Token - 5
+140000 Accessory Token - 1
+140001 Accessory Token - 2
+140002 Accessory Token - 3
+140003 Accessory Token - 4
+140004 Accessory Token - 5
+140005 Accessory Token - 10
 200001 Awestone - 1
 200002 Awestone - 2
 200003 Awestone - 3

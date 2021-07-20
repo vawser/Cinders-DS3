@@ -132,11 +132,11 @@ Event(0, Default, function() {
     InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
     InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
-    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Frostfire Colossus
+    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Prince Dorthinus
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
-    InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Herald of Winter
+    InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Princess Yngvil
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
@@ -1578,8 +1578,6 @@ Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9326);
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9327);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9327);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9328); // Frostfire Colossus
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9328);
     GotoIfComparison(Label.LABEL0, ComparisonType.NotEqual, X24_4, 1);
     
     IfBatchEventFlags(AND_02, LogicalOperationType.AllON, TargetEventFlagType.EventFlag, 9300, 9309);
@@ -1835,11 +1833,11 @@ Event(20000, Default, function() {
     InitializeEvent(0, 20123, 0); // Slave Knight Gael
     InitializeEvent(0, 20124, 0); // Halflight
     InitializeEvent(0, 20125, 0); // Champions of Yore
-    InitializeEvent(0, 20126, 0); // Frostfire Colossus
+    InitializeEvent(0, 20126, 0); // Prince Dorthinus
     InitializeEvent(0, 20127, 0); // Cathedral Guardian
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
-    InitializeEvent(0, 20130, 0); // Herald of Winter
+    InitializeEvent(0, 20130, 0); // Princess Yngvil
     InitializeEvent(0, 20131, 0); // The Rock
     InitializeEvent(0, 20132, 0); // Twisted Knight
     InitializeEvent(0, 20133, 0); // Fallen Protector
@@ -1893,34 +1891,6 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(14000101, ON);
     SetEventFlag(13100004, ON);
     SetEventFlag(13000000, ON);
-    
-    // Boss Kill Flags
-    SetEventFlag(25001001, OFF); // Dismal Knight
-    SetEventFlag(25001002, OFF); // Vordt of the Boreal Valley
-    SetEventFlag(25001003, OFF); // Curse-rotted Greatwood
-    SetEventFlag(25001004, OFF); // Crystal Sage
-    SetEventFlag(25001005, OFF); // Deacons of the Deep
-    SetEventFlag(25001006, OFF); // Abyss Watchers
-    SetEventFlag(25001007, OFF); // High Lord Wolnir
-    SetEventFlag(25001008, OFF); // Old Demon King
-    SetEventFlag(25001009, OFF); // Pontiff Sulyvahn
-    SetEventFlag(25001010, OFF); // Aldrich, Devourer of Gods
-    SetEventFlag(25001011, OFF); // Yhorm the Giant
-    SetEventFlag(25001012, OFF); // Dancer of the Boreal Valley
-    SetEventFlag(25001013, OFF); // Oceiros, the Consumed King
-    SetEventFlag(25001014, OFF); // Dragonslayer Armour
-    SetEventFlag(25001015, OFF); // Ancient Wyvern
-    SetEventFlag(25001016, OFF); // Nameless King
-    SetEventFlag(25001017, OFF); // Champion Gundyr
-    SetEventFlag(25001018, OFF); // Twin Princes
-    SetEventFlag(25001019, OFF); // Soul of Cinder
-    SetEventFlag(25001020, OFF); // Sister Friede
-    SetEventFlag(25001021, OFF); // Lordran Remnants
-    SetEventFlag(25001022, OFF); // Demon Prince
-    SetEventFlag(25001023, OFF); // Darkeater Midir 
-    SetEventFlag(25001024, OFF); // Slave Knight Gael
-    SetEventFlag(25001025, OFF); // Halflight
-    SetEventFlag(25001026, OFF); // Frostfire Colossus
 
     SetEventFlag(25000099, ON); // Execution flag
 });
@@ -2322,7 +2292,7 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002025);
     SetSpEffect(10000, 260110024);
     
-    // Frostfire Colossus
+    // Prince Dorthinus
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002026);
     SetSpEffect(10000, 260110025);
     
@@ -2338,7 +2308,7 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002029);
     SetSpEffect(10000, 260110028);
     
-    // Herald of Winter
+    // Princess Yngvil
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002030);
     SetSpEffect(10000, 260110029);
     
@@ -2759,7 +2729,7 @@ Event(20055, Restart, function() {
     SetSpEffect(10000, 260100250);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Frostfire Colossus
+    // Prince Dorthinus
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002026);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003026); // Not Selected
     SetSpEffect(10000, 260100270);
@@ -2783,7 +2753,7 @@ Event(20055, Restart, function() {
     SetSpEffect(10000, 260100300);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Herald of Winter
+    // Princess Yngvil
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002030);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003030); // Not Selected
     SetSpEffect(10000, 260100310);
@@ -3860,7 +3830,7 @@ Event(20125, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Frostfire Colossus
+// Boss Revival - Prince Dorthinus
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20126, Restart, function() {
@@ -4044,7 +4014,7 @@ Event(20129, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Herald of Winter
+// Boss Revival - Princess Yngvil
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20130, Restart, function() {
