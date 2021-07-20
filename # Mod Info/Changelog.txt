@@ -285,7 +285,9 @@ Add the following armour:
 - Redesigned Frostfire Colossus:
  - It is now called Princess Yngvil. Her demonic form is a result of her corruption due to the Frozen Chaos Essence.
  - The battle now takes place in the wide arena below the ruined tower.
- - At 85% HP, Dearest Akseliane, Princess Yngvil's beloved wolf will assist her.
+ - At 85% HP, Dearest Akseliane, Princess Yngvil's beloved wolf will assist her. 
+  - Princess Yngvil will remain kneeling during this stage until Akeseliane is dead.
+  - Princess Yngvil only takes 20% of normal damage during this stage.
  - Princess Yngvil retains most of the moves that the Frostfire Colossus had.
 
 - Altered Herald of Winter:
@@ -313,4 +315,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-610008003 Free
