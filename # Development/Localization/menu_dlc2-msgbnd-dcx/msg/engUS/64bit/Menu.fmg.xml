@@ -2969,6 +2969,8 @@ yourself in exchange for a bonus.
 
 Once enabled, a curse is applied after you rest at a bonfire, 
 and will remain active until you disabled it at the Accursed Altar.</text>
+<text id="99002003">Disable Active Curses</text>
+<text id="99002004">All curses have now been disabled.</text>
 <text id="99002005">Enable</text>
 <text id="99002006">Disable</text>
 <text id="99002010">Enable at Strength I</text>
@@ -3312,19 +3314,19 @@ You can claim the relic.</text>
 - Refrain from dying at any point during your journey.
 
 You have failed.</text>
-<text id="99003540">To claim the Relic of Legends you must:
+<text id="99003540">To claim the Relic of Myths you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
 during your journey.
 
 You are still eligible.</text>
-<text id="99003541">To claim the Relic of Legends you must:
+<text id="99003541">To claim the Relic of Myths you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
 during your journey.
 
 You can claim the relic.</text>
-<text id="99003542">To claim the Relic of Legends you must:
+<text id="99003542">To claim the Relic of Myths you must:
 - Kill the Soul of Cinder.
 - Refrain from taking any damage from any enemy at any point 
 during your journey.
@@ -4250,9 +4252,9 @@ to commune with the fallen knight.</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
 
 <text id="99060000">Configure Journey</text>
-<text id="99060001">Description</text>
-<text id="99060002">Set</text>
-<text id="99060003">Unset</text>
+<text id="99060001">Summary</text>
+<text id="99060002">Enable</text>
+<text id="99060003">Disable</text>
 <text id="99060004">Skip Journey</text>
 <text id="99060005">Begin Journey</text>
 <text id="99060006">Current Configuration</text>

@@ -306,6 +306,56 @@ def t400509_x15():
         AddTalkListData(11, 99002110, -1) # Curse of Impermanence
         AddTalkListData(12, 99002111, -1) # Curse of Valor
         
+        # Disable Active Curses
+        AddTalkListDataIf(GetEventStatus(25000400) == 1 or 
+        GetEventStatus(25000401) == 1 or 
+        GetEventStatus(25000402) == 1 or 
+        GetEventStatus(25000403) == 1 or 
+        GetEventStatus(25000404) == 1 or 
+        GetEventStatus(25000405) == 1 or 
+        GetEventStatus(25000406) == 1 or 
+        GetEventStatus(25000407) == 1 or 
+        GetEventStatus(25000408) == 1 or 
+        GetEventStatus(25000409) == 1 or 
+        GetEventStatus(25000410) == 1 or 
+        GetEventStatus(25000411) == 1 or 
+        GetEventStatus(25000412) == 1 or 
+        GetEventStatus(25000413) == 1 or 
+        GetEventStatus(25000414) == 1 or 
+        GetEventStatus(25000415) == 1 or 
+        GetEventStatus(25000416) == 1 or 
+        GetEventStatus(25000417) == 1 or 
+        GetEventStatus(25000418) == 1 or 
+        GetEventStatus(25000419) == 1 or 
+        GetEventStatus(25000420) == 1 or 
+        GetEventStatus(25000421) == 1 or 
+        GetEventStatus(25000422) == 1 or 
+        GetEventStatus(25000423) == 1 or 
+        GetEventStatus(25000424) == 1 or 
+        GetEventStatus(25000425) == 1 or 
+        GetEventStatus(25000426) == 1 or 
+        GetEventStatus(25000427) == 1 or 
+        GetEventStatus(25000428) == 1 or 
+        GetEventStatus(25000429) == 1 or 
+        GetEventStatus(25000430) == 1 or 
+        GetEventStatus(25000431) == 1 or 
+        GetEventStatus(25000432) == 1 or 
+        GetEventStatus(25000433) == 1 or 
+        GetEventStatus(25000434) == 1 or 
+        GetEventStatus(25000435) == 1 or 
+        GetEventStatus(25000436) == 1 or 
+        GetEventStatus(25000437) == 1 or 
+        GetEventStatus(25000438) == 1 or 
+        GetEventStatus(25000439) == 1 or 
+        GetEventStatus(25000440) == 1 or 
+        GetEventStatus(25000450) == 1 or 
+        GetEventStatus(25000460) == 1 or 
+        GetEventStatus(25000470) == 1 or 
+        GetEventStatus(25000480) == 1 or 
+        GetEventStatus(25000490) == 1 or 
+        GetEventStatus(25000500) == 1 or 
+        GetEventStatus(25000510) == 1, 20, 99002003, -1) 
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -360,6 +410,85 @@ def t400509_x15():
         # Enable - Curse of Valor
         elif GetTalkListEntryResult() == 12:
             assert t400509_x31()
+            continue
+        elif GetTalkListEntryResult() == 20:
+            OpenGenericDialog(1, 99002004, 0, 0, 0)
+            
+            # Curse of Pride
+            SetEventState(25000400, 0)
+            SetEventState(25000401, 0)
+            SetEventState(25000402, 0)
+            SetEventState(25000403, 0)
+            SetEventState(25000404, 0)
+            SetEventState(25000405, 0)
+            SetEventState(25000406, 0)
+            SetEventState(25000407, 0)
+            SetEventState(25000408, 0)
+            SetEventState(25000409, 0)
+            
+            # Curse of Fortitude
+            SetEventState(25000410, 0)
+            SetEventState(25000411, 0)
+            SetEventState(25000412, 0)
+            SetEventState(25000413, 0)
+            SetEventState(25000414, 0)
+            SetEventState(25000415, 0)
+            SetEventState(25000416, 0)
+            SetEventState(25000417, 0)
+            SetEventState(25000418, 0)
+            SetEventState(25000419, 0)
+            
+            # Curse of Vitality
+            SetEventState(25000420, 0)
+            SetEventState(25000421, 0)
+            SetEventState(25000422, 0)
+            SetEventState(25000423, 0)
+            SetEventState(25000424, 0)
+            SetEventState(25000425, 0)
+            SetEventState(25000426, 0)
+            SetEventState(25000427, 0)
+            SetEventState(25000428, 0)
+            SetEventState(25000429, 0)
+            
+            # Curse of Wrath
+            SetEventState(25000430, 0)
+            SetEventState(25000431, 0)
+            SetEventState(25000432, 0)
+            SetEventState(25000433, 0)
+            SetEventState(25000434, 0)
+            SetEventState(25000435, 0)
+            SetEventState(25000436, 0)
+            SetEventState(25000437, 0)
+            SetEventState(25000438, 0)
+            SetEventState(25000439, 0)
+            
+            # Curse of Obscurity
+            SetEventState(25000450, 0)
+            
+            # Curse of Simplicity
+            SetEventState(25000460, 0)
+            
+            # Curse of Gluttony
+            SetEventState(25000470, 0)
+            
+            # Curse of Frailty
+            SetEventState(25000480, 0)
+            
+            # Curse of Enfeeblement
+            SetEventState(25000490, 0)
+            
+            # Curse of Impermanence
+            SetEventState(25000500, 0)
+            
+            # Curse of Valor
+            SetEventState(25000510, 0)
+            
+            # Curse of Attraction (if not in Mythic mode)
+            if GetEventStatus(25009812) == 0:
+                SetEventState(25000440, 0)
+            else:
+                pass
+                
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

@@ -187,6 +187,7 @@ Add the following armour:
 - Armors are now sorted by their passive effects. Armor sets with different effects on each piece or armor pieces with more than one effect will be at the bottom of the list.
 - Added Tiny Mass of Humanity, changes the appearance of the player to a Humanity Sprite. Sold by Alchemist Jiji.
 - Changed the coins description to make them mention they "Last until death or warp".
+- Added "Disable Active Curses" option to the Curses menu, allowing you to quickly disable all active curses.
 
 # Shields
 - Reduced the stability of the Leather Shield from 75 to 62 (the same as the rest of small shields).
@@ -312,4 +313,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-31300000 Rampart Golem Lance
