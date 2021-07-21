@@ -195,6 +195,7 @@ Add the following armour:
 
 # Spells
 - Reduced the damage of the uncharged Old Moonlight projectile to 150 (charged is still 250).
+- Soul Geyser and Crystal Soul Geyser now make much less sound when used.
 
 # Bosses
 - Mirror Knight:
@@ -329,3 +330,9 @@ InitializeCommonEvent(20090600, 3002866);
 InitializeCommonEvent(20090600, 3002867);
 InitializeCommonEvent(20090600, 3002868);
 InitializeCommonEvent(20090600, 3002869);
+
+- Adds the following silent variants of vfx
+  - 856280 Silent Soul Spear
+  - 856281 Silent Soul Spear Impact
+  - 856282 Silent Crystal Soul Spear
+  - 856283 Silent Crystal Soul Spear Impact
