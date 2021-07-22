@@ -2503,40 +2503,23 @@ Event(20054, Restart, function() {
     // Reset Engagement flag
     SetEventFlag(25003100, OFF); 
     
-    // Enable boss drop flags so the Tomes don't drop in Gauntlet mode
-    SetEventFlag(53002107, ON);
-    SetEventFlag(53002108, ON);
-    SetEventFlag(53002109, ON);
-    SetEventFlag(53012091, ON);
-    SetEventFlag(53412135, ON);
-    SetEventFlag(53102095, ON);
-    SetEventFlag(53202077, ON);
-    SetEventFlag(53202078, ON);
-    SetEventFlag(53302183, ON);
-    SetEventFlag(53302184, ON);
-    SetEventFlag(53502084, ON);
-    SetEventFlag(53702158, ON);
-    SetEventFlag(53702159, ON);
-    SetEventFlag(53802179, ON);
-    SetEventFlag(53802180, ON);
-    SetEventFlag(53902122, ON);
-    SetEventFlag(54002077, ON);
-    SetEventFlag(54002078, ON);
-    SetEventFlag(54102012, ON);
-    SetEventFlag(54502076, ON);
-    SetEventFlag(54502077, ON);
-    SetEventFlag(54502078, ON);
-    SetEventFlag(55002070, ON);
-    SetEventFlag(55102065, ON);
-    SetEventFlag(55102066, ON);
-    SetEventFlag(55102067, ON);
-    SetEventFlag(53502085, ON);
-    SetEventFlag(53412136, ON);
-    SetEventFlag(54502090, ON);
-    SetEventFlag(53102096, ON);
-    SetEventFlag(53202079, ON);
-    SetEventFlag(53002111, ON);
-    SetEventFlag(53902124, ON);
+    // Disable all treasures
+    BatchSetEventFlags(53000000, 53002999, ON);
+    BatchSetEventFlags(53010000, 53012999, ON);
+    BatchSetEventFlags(53100000, 53102999, ON);
+    BatchSetEventFlags(53200000, 53202999, ON);
+    BatchSetEventFlags(53300000, 53302999, ON);
+    BatchSetEventFlags(53410000, 53402999, ON);
+    BatchSetEventFlags(53500000, 53502999, ON);
+    BatchSetEventFlags(53700000, 53702999, ON);
+    BatchSetEventFlags(53800000, 53802999, ON);
+    BatchSetEventFlags(53900000, 53902999, ON);
+    BatchSetEventFlags(54000000, 54002999, ON);
+    BatchSetEventFlags(54100000, 54102999, ON);
+    BatchSetEventFlags(54500000, 54502999, ON);
+    BatchSetEventFlags(55000000, 55002999, ON);
+    BatchSetEventFlags(55100000, 55102999, ON);
+    BatchSetEventFlags(55110000, 55112999, ON);
     
     // If in these areas, skip Engagement check
     IfPlayerInoutMap(OR_01, true, 47, 0); // In Memory map
@@ -2547,13 +2530,13 @@ Event(20054, Restart, function() {
     
     DisplayEpitaphMessage(99060100);
     
-    WaitFixedTimeSeconds(15.0);
+    WaitFixedTimeSeconds(30.0);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
     
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
     DisplayEpitaphMessage(99060101);
     
-    WaitFixedTimeSeconds(15.0);
+    WaitFixedTimeSeconds(30.0);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
     
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);

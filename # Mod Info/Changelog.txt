@@ -331,5 +331,3 @@ InitializeCommonEvent(20090600, 3002867);
 InitializeCommonEvent(20090600, 3002868);
 InitializeCommonEvent(20090600, 3002869);
 
-Yhorm not triggering engagement check in Gauntlet mode
-Add respec in Gauntlet mode

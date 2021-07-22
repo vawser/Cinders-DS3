@@ -161,7 +161,9 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         
         # Purchase Item
         AddTalkListDataIf(GetEventStatus(25009813) == 1, 45, 15010004, -1)
-
+        
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 46, 15027010, -1)
+        
         # Heal the Dark Sigil
         AddTalkListData(4, 15002004, 74000125)
         
@@ -233,6 +235,10 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         # Purchase Item
         elif GetTalkListEntryResult() == 45:
             OpenRegularShop(804000, 804999)
+            continue
+        # Respec
+        elif GetTalkListEntryResult() == 46:
+            c1113()
             continue
         elif GetTalkListEntryResult() == 16:
             """ State 5,17 """

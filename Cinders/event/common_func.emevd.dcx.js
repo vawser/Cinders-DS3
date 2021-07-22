@@ -6682,6 +6682,16 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 });
 
 //----------------------------------------------
+// Gauntlet Mode - Engagement Trigger
+// <entity id>
+//----------------------------------------------
+Event(20090020, Restart, function(X0_4) {
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009813);
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
+    SetEventFlag(25003100, ON);
+});
+
+//----------------------------------------------
 // Lothric's Scythe WA Monitor
 // <entity id>
 //----------------------------------------------
