@@ -132,7 +132,7 @@ Add the following armour:
         - Set Order: you will face each boss in a predefined order.
         - Random Order: you will face a random boss each time. Once a boss is killed, it will no longer appear in the pool of available bosses.
         
-    - You have 20 seconds to face the boss when you progress through the gauntlet. Attempting to explore will reset your boss progress back to the start.
+    - Attempting to explore the level instead of starting the boss will warp you back to Firelink Shrine.
     
 # Weapons
 - Sidearms tweak:

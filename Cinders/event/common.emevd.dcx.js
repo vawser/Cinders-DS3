@@ -33,8 +33,11 @@ Event(0, Default, function() {
     InitializeEvent(0, 20051, 0); // Wanderer Mode
     InitializeEvent(0, 20052, 0); // Mythic Mode
     InitializeEvent(0, 20053, 0); // Starting Location
-    InitializeEvent(0, 20054, 0); // Gauntlet Mode
-    InitializeEvent(0, 20055, 0); // Gauntlet Mode - Random Order
+    
+    // Gauntlet Mode
+    InitializeEvent(0, 20070, 0); // Gauntlet Mode
+    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set Order
+    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Order
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -2463,45 +2466,13 @@ Event(20053, Restart, function() {
 //----------------------------------------------
 // Gauntlet Mode - Setup
 //----------------------------------------------
-Event(20054, Restart, function() {
+Event(20070, Restart, function() {
     var flag_GauntletMode = 25009813;
-    
-    // Disable Gauntlet fogwalls
-    DeactivateObject(4001830, Disabled);
-    DeleteObjectfollowingSFX(4001830, true);
-    DeactivateObject(4001831, Disabled);
-    DeleteObjectfollowingSFX(4001831, true);
-    DeactivateObject(4001832, Disabled);
-    DeleteObjectfollowingSFX(4001832, true);
-    DeactivateObject(4001833, Disabled);
-    DeleteObjectfollowingSFX(4001833, true);
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
     AwardItemLot(800002010); // Initial tokens
-    
     SetEventFlag(25009803, ON); // Unlock Memories
-    
-    SetSpEffect(10000, 250000200); // Soul boost
-    
-    SetPlayerRespawnPoint(4002950);
-    
-    // Enable Gauntlet fogwalls
-    DeactivateObject(4001830, Enabled);
-    DeleteObjectfollowingSFX(4001830, true);
-    CreateObjectfollowingSFX(4001830, 101, 3);
-    DeactivateObject(4001831, Enabled);
-    DeleteObjectfollowingSFX(4001831, true);
-    CreateObjectfollowingSFX(4001831, 101, 3);
-    DeactivateObject(4001832, Enabled);
-    DeleteObjectfollowingSFX(4001832, true);
-    CreateObjectfollowingSFX(4001832, 101, 3);
-    DeactivateObject(4001833, Enabled);
-    DeleteObjectfollowingSFX(4001833, true);
-    CreateObjectfollowingSFX(4001833, 101, 3);
-    
-    // Reset Engagement flag
-    SetEventFlag(25003100, OFF); 
     
     // Disable all treasures
     BatchSetEventFlags(53000000, 53002999, ON);
@@ -2520,44 +2491,197 @@ Event(20054, Restart, function() {
     BatchSetEventFlags(55000000, 55002999, ON);
     BatchSetEventFlags(55100000, 55102999, ON);
     BatchSetEventFlags(55110000, 55112999, ON);
+});
+
+//----------------------------------------------
+// Gauntlet Mode - Set Order
+//----------------------------------------------
+Event(20071, Restart, function() {
+    var flag_GauntletMode = 25009813;
+    var flag_SetOrder     = 25003200;
     
-    // If in these areas, skip Engagement check
-    IfPlayerInoutMap(OR_01, true, 47, 0); // In Memory map
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 4002940, 1); // In Firelink Shrine
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_SetOrder);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
     
-    DisplayEpitaphMessage(99060100);
+    // Dismal Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
+    SetSpEffect(10000, 260100010);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    WaitFixedTimeSeconds(30.0);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
+    // Vordt
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002002);  // Already Killed
+    SetSpEffect(10000, 260100020);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
-    DisplayEpitaphMessage(99060101);
+    // Aborr
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002029);  // Already Killed
+    SetSpEffect(10000, 260100300);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    WaitFixedTimeSeconds(30.0);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25003100);
+    // Curse-rotted Greatwood
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002003);  // Already Killed
+    SetSpEffect(10000, 260100030);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25003100);
-    BatchSetEventFlags(25002001, 25002033, OFF);
-    SetMapCeremony(40, 0, 0);
-    WarpPlayer(40, 0, 4000970); // Firelink Shrine
+    // Crystal Sage
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002004);  // Already Killed
+    SetSpEffect(10000, 260100040);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    Label0();
+    // Cathedral Guardian
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002027);  // Already Killed
+    SetSpEffect(10000, 260100280);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Deacons of the Deep
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002005);  // Already Killed
+    SetSpEffect(10000, 260100050);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Abyss Watchers
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002006);  // Already Killed
+    SetSpEffect(10000, 260100060);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // High Lord Wolnir
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002007);  // Already Killed
+    SetSpEffect(10000, 260100070);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Old Demon King
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002008);  // Already Killed
+    SetSpEffect(10000, 260100080);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Pontiff Sulyvahn
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002009);  // Already Killed
+    SetSpEffect(10000, 260100090);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Aldrich
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002010);  // Already Killed
+    SetSpEffect(10000, 260100100);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Lordran Remnants
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002021);  // Already Killed
+    SetSpEffect(10000, 260100210);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Fallen Protector
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002033);  // Already Killed
+    SetSpEffect(10000, 260100340);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Yhorm
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002011);  // Already Killed
+    SetSpEffect(10000, 260100110);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Dancer
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002012);  // Already Killed
+    SetSpEffect(10000, 260100120);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Oceiros
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002013);  // Already Killed
+    SetSpEffect(10000, 260100130);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Twisted Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002032);  // Already Killed
+    SetSpEffect(10000, 260100330);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Dragonslayer Armour
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002014);  // Already Killed
+    SetSpEffect(10000, 260100140);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Mirror Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002028);  // Already Killed
+    SetSpEffect(10000, 260100290);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Ancient Wyvern
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002015);  // Already Killed
+    SetSpEffect(10000, 260100150);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // The Rock
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
+    SetSpEffect(10000, 260100320);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Nameless King
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002016);  // Already Killed
+    SetSpEffect(10000, 260100160);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Champion Gundyr
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002017);  // Already Killed
+    SetSpEffect(10000, 260100170);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Twin Princes
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002018);  // Already Killed
+    SetSpEffect(10000, 260100180);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Princess Yngvil
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002030);  // Already Killed
+    SetSpEffect(10000, 260100310);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Prince Dorthinus
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002026);  // Already Killed
+    SetSpEffect(10000, 260100270);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Sister Friede
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002020);  // Already Killed
+    SetSpEffect(10000, 260100200);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Demon Prince
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002022);  // Already Killed
+    SetSpEffect(10000, 260100220);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Halflight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002025);  // Already Killed
+    SetSpEffect(10000, 260100250);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Darkeater Midir
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002023);  // Already Killed
+    SetSpEffect(10000, 260100230);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Slave Knight Gael
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002024);  // Already Killed
+    SetSpEffect(10000, 260100240);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Soul of Cinder
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002019);  // Already Killed
+    SetSpEffect(10000, 260100190);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
 });
 
 //----------------------------------------------
 // Gauntlet Mode - Random Order
 //----------------------------------------------
-Event(20055, Restart, function() {
+Event(20072, Restart, function() {
     var flag_GauntletMode = 25009813;
     var flag_RandomOrder  = 25003201;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_RandomOrder);
     
-    IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpEffect(MAIN, 10000, 260120010, true, ComparisonType.Equal, 1);
     
     BatchSetEventFlags(25003001, 25003033, OFF);
     RandomlySetEventFlagInRange(25003001, 25003033, ON);

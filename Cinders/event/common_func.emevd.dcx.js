@@ -5799,10 +5799,6 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
 //----------------------------------------------
 Event(20020100, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5810,10 +5806,6 @@ Event(20020100, Default, function() {
 //----------------------------------------------
 Event(20020101, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5821,10 +5813,6 @@ Event(20020101, Default, function() {
 //----------------------------------------------
 Event(20020102, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5832,10 +5820,6 @@ Event(20020102, Default, function() {
 //----------------------------------------------
 Event(20020103, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5843,10 +5827,6 @@ Event(20020103, Default, function() {
 //----------------------------------------------
 Event(20020104, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5854,10 +5834,6 @@ Event(20020104, Default, function() {
 //----------------------------------------------
 Event(20020105, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5865,10 +5841,6 @@ Event(20020105, Default, function() {
 //----------------------------------------------
 Event(20020106, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5876,10 +5848,6 @@ Event(20020106, Default, function() {
 //----------------------------------------------
 Event(20020107, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5887,10 +5855,6 @@ Event(20020107, Default, function() {
 //----------------------------------------------
 Event(20020108, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5898,10 +5862,6 @@ Event(20020108, Default, function() {
 //----------------------------------------------
 Event(20020109, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5909,10 +5869,6 @@ Event(20020109, Default, function() {
 //----------------------------------------------
 Event(20020110, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5920,10 +5876,6 @@ Event(20020110, Default, function() {
 //----------------------------------------------
 Event(20020111, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5931,10 +5883,6 @@ Event(20020111, Default, function() {
 //----------------------------------------------
 Event(20020112, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5942,10 +5890,6 @@ Event(20020112, Default, function() {
 //----------------------------------------------
 Event(20020113, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5953,10 +5897,6 @@ Event(20020113, Default, function() {
 //----------------------------------------------
 Event(20020114, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5964,10 +5904,6 @@ Event(20020114, Default, function() {
 //----------------------------------------------
 Event(20020115, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -5977,9 +5913,7 @@ Event(20020116, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     // Skip if not in Gauntlet mode
-    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
-    // Change ceremony if the player dies so they don't appear in Untended Graves
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009813);
     IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     SetMapCeremony(40, 0, 0);
 });
@@ -5990,9 +5924,6 @@ Event(20020116, Default, function() {
 Event(20020117, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -6000,10 +5931,7 @@ Event(20020117, Default, function() {
 //----------------------------------------------
 Event(20020118, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6011,10 +5939,7 @@ Event(20020118, Default, function() {
 //----------------------------------------------
 Event(20020119, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+ 
 });
 
 //----------------------------------------------
@@ -6023,9 +5948,6 @@ Event(20020119, Default, function() {
 Event(20020120, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -6033,10 +5955,7 @@ Event(20020120, Default, function() {
 //----------------------------------------------
 Event(20020121, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6045,9 +5964,6 @@ Event(20020121, Default, function() {
 Event(20020122, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
 });
 
 //----------------------------------------------
@@ -6055,10 +5971,7 @@ Event(20020122, Default, function() {
 //----------------------------------------------
 Event(20020123, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6066,10 +5979,7 @@ Event(20020123, Default, function() {
 //----------------------------------------------
 Event(20020124, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6077,10 +5987,7 @@ Event(20020124, Default, function() {
 //----------------------------------------------
 Event(20020125, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6088,10 +5995,7 @@ Event(20020125, Default, function() {
 //----------------------------------------------
 Event(20020126, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6099,10 +6003,7 @@ Event(20020126, Default, function() {
 //----------------------------------------------
 Event(20020127, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6110,10 +6011,7 @@ Event(20020127, Default, function() {
 //----------------------------------------------
 Event(20020128, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6121,10 +6019,7 @@ Event(20020128, Default, function() {
 //----------------------------------------------
 Event(20020129, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6132,10 +6027,7 @@ Event(20020129, Default, function() {
 //----------------------------------------------
 Event(20020130, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6143,10 +6035,7 @@ Event(20020130, Default, function() {
 //----------------------------------------------
 Event(20020131, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6154,10 +6043,7 @@ Event(20020131, Default, function() {
 //----------------------------------------------
 Event(20020132, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    // Skip if not in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
-    SetEventFlag(25003100, ON);
+
 });
 
 //----------------------------------------------
@@ -6682,24 +6568,6 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 });
 
 //----------------------------------------------
-// Gauntlet Mode - Engagement Trigger
-// <entity id>
-//----------------------------------------------
-Event(20090020, Restart, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009813);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
-    SetEventFlag(25003100, ON);
-});
-
-//----------------------------------------------
-// Lothric's Scythe WA Monitor
-// <entity id>
-//----------------------------------------------
-Event(20090200, Restart, function(X0_4) {
-    
-});
-
-//----------------------------------------------
 // NPC - Talk Toggle
 //----------------------------------------------
 Event(20090300, Default, function(X0_4, X4_4) {
@@ -6756,6 +6624,57 @@ Event(20090601, Restart, function(X0_4) {
     IfActionButtonInArea(MAIN, 20001, X0_4);
     SetSpEffect(10000, 112411);
     EndUnconditionally(EventEndType.Restart);
+});
+
+// ----------------------------------------
+// Gauntlet - Return Zone
+// <id>
+// ----------------------------------------
+Event(20090800, Restart, function(X0_4) {
+    var flag_GauntletMode = 25009813;
+   
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
+    
+    SetMapCeremony(40, 0, 0);
+    WarpPlayer(40, 0, 4000970); // Firelink Shrine
+});
+
+// ----------------------------------------
+// Gauntlet - Firelink Setup
+// <id>
+// ----------------------------------------
+Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    var flag_GauntletMode = 25009813;
+    
+    // Disable Gauntlet fogwalls
+    DeactivateObject(X0_4, Disabled);
+    DeleteObjectfollowingSFX(X0_4, true);
+    DeactivateObject(X4_4, Disabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+    DeactivateObject(X8_4, Disabled);
+    DeleteObjectfollowingSFX(X8_4, true);
+    DeactivateObject(X12_4, Disabled);
+    DeleteObjectfollowingSFX(X12_4, true);
+    
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    SetPlayerRespawnPoint(4002950);
+    
+    // Enable Gauntlet fogwalls
+    DeactivateObject(X0_4, Enabled);
+    DeleteObjectfollowingSFX(X0_4, true);
+    CreateObjectfollowingSFX(X0_4, 101, 3);
+    DeactivateObject(X4_4, Enabled);
+    DeleteObjectfollowingSFX(X4_4, true);
+    CreateObjectfollowingSFX(X4_4, 101, 3);
+    DeactivateObject(X8_4, Enabled);
+    DeleteObjectfollowingSFX(X8_4, true);
+    CreateObjectfollowingSFX(X8_4, 101, 3);
+    DeactivateObject(X12_4, Enabled);
+    DeleteObjectfollowingSFX(X12_4, true);
+    CreateObjectfollowingSFX(X12_4, 101, 3);
 });
 
 //----------------------------------------------
