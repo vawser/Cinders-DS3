@@ -196,6 +196,8 @@ Add the following armour:
 # Spells
 - Reduced the damage of the uncharged Old Moonlight projectile to 150 (charged is still 250).
 - Soul Geyser and Crystal Soul Geyser now make much less sound when used.
+- Acid Surge now reduces physical absorption by 50% for 10 seconds instead of pure HP damage.
+- Pestilent Mist now reduces elemental absorption by 50% for 10 seconds instead of pure HP damage.
 
 # Bosses
 - Mirror Knight:

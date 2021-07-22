@@ -534,8 +534,8 @@
 <text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>
 <text id="1651010">Distort light in order to deflect magic</text>
-<text id="1740000">Release a cloud of cursing mist</text>
-<text id="1740010">Release a lingering cloud of cursing mist</text>
+<text id="1740000">Release a cloud of cursing mist, reducing elemental absorption</text>
+<text id="1740010">Release a lingering cloud of cursing mist, reducing elemental absorption</text>
 <text id="1800000">Summon forth a storm of crystals</text>
 <text id="1800010">Summon forth a storm of crystals</text>
 <text id="1801000">Boosts potency of sorceries but reduces max HP</text>
@@ -565,8 +565,8 @@
 <text id="2420010">Create lingering poison mist</text>
 <text id="2421000">Create intense poison mist</text>
 <text id="2421010">Create lingering intense poison mist</text>
-<text id="2422000">Emit acid which corrodes enemies, dealing damage and reducing durability</text>
-<text id="2422010">Emit lingering acid which corrodes enemies, dealing damage and reducing durability</text>
+<text id="2422000">Emit acid which corrodes enemies, reducing durability and physical absorption</text>
+<text id="2422010">Emit acid which corrodes enemies, reducing durability and physical absorption</text>
 <text id="2430000">Boost absorption/resistances, but increase weight</text>
 <text id="2430010">Boost absorption/resistances, but increase weight</text>
 <text id="2431000">Intense sweating increases fire damage absorption</text>

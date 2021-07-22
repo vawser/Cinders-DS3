@@ -4357,7 +4357,8 @@ negating magic by denying its claim to physicality.
 <text id="1740000">Highly dangerous sorcery employed by Dragon
 School spooks. Only taught to trusted members.
 
-Releases dense mist that inflicts 15 Curse and  removes 0.2% HP per tick.
+Releases dense mist that inflicts 15 Curse per tick.
+Mist reduces Elemental absorption by 50% for 10 seconds on contact.
 Beware, as the caster is not immune to its effect.
 Lasts for 5 seconds.
 
@@ -4367,7 +4368,8 @@ The names of these learned sorcerers became feared for this gruesome spectacle.<
 <text id="1740010">Highly dangerous sorcery employed by Dragon
 School spooks. Only taught to trusted members.
 
-Releases dense lingering mist that inflicts 15 Curse and  removes 0.2% HP per tick.
+Releases dense lingering mist that inflicts 15 Curse per tick.
+Mist reduces Elemental absorption by 50% for 10 seconds on contact.
 Beware, as the caster is not immune to its effect.
 Lasts for 8 seconds.
 
@@ -4551,6 +4553,7 @@ virulent poison and a young lady.</text>
 <text id="2422000">Pyromancy of Carthus of the Sands.
 
 Emits an acid which corrodes enemies, draining 1 durability per tick.
+Acid reduces Physical absorption by 50% for 10 seconds on contact.
 Lasts 6 seconds.
 
 Carthus' swordsmen attached great value to victory,
@@ -4559,6 +4562,7 @@ For where is the honor in death and scoured bones?</text>
 <text id="2422010">Pyromancy of Carthus of the Sands.
 
 Emits an acid which corrodes enemies, draining 1 durability per tick.
+Acid reduces Physical absorption by 50% for 10 seconds on contact.
 Lasts 12 seconds.
 
 Carthus' swordsmen attached great value to victory,
