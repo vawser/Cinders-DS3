@@ -331,8 +331,5 @@ InitializeCommonEvent(20090600, 3002867);
 InitializeCommonEvent(20090600, 3002868);
 InitializeCommonEvent(20090600, 3002869);
 
-- Adds the following silent variants of vfx
-  - 856280 Silent Soul Spear
-  - 856281 Silent Soul Spear Impact
-  - 856282 Silent Crystal Soul Spear
-  - 856283 Silent Crystal Soul Spear Impact
+Yhorm not triggering engagement check in Gauntlet mode
+Add respec in Gauntlet mode
