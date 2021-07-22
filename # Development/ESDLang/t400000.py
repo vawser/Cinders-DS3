@@ -658,14 +658,14 @@ def t400000_x12():
                 GiveSpEffectToPlayer(260100210)
                 continue
                
-            # Frostfire Colossus
-            elif GetEventStatus(6951) == 1 and GetEventStatus(25002026) == 0:
-                GiveSpEffectToPlayer(260100270)
-                continue
-                
-            # Herald of Winter
+            # Princess Yngvil
             elif GetEventStatus(6951) == 1 and GetEventStatus(25002030) == 0:
                 GiveSpEffectToPlayer(260100310)
+                continue
+                
+            # Prince Dorthinus
+            elif GetEventStatus(6951) == 1 and GetEventStatus(25002026) == 0:
+                GiveSpEffectToPlayer(260100270)
                 continue
                 
             # Sister Friede

@@ -320,16 +320,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 
 Finish the armor icons
 
-Add hop points
-// Hop Points
-InitializeCommonEvent(20090600, 3002860);
-InitializeCommonEvent(20090600, 3002861);
-InitializeCommonEvent(20090600, 3002862);
-InitializeCommonEvent(20090600, 3002863);
-InitializeCommonEvent(20090600, 3002864);
-InitializeCommonEvent(20090600, 3002865);
-InitializeCommonEvent(20090600, 3002866);
-InitializeCommonEvent(20090600, 3002867);
-InitializeCommonEvent(20090600, 3002868);
-InitializeCommonEvent(20090600, 3002869);
-

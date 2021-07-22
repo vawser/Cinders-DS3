@@ -3823,9 +3823,8 @@ Event(20126, Restart, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001026);
     
-    SetEventFlag(14500950, 0);
-    SetEventFlag(14500951, 0);
-    SetEventFlag(14500986, 0);
+    SetEventFlag(14500960, 0);
+    SetEventFlag(14500961, 0);
     SetEventFlag(9328, 0);
     SetEventFlag(6328, 0);
     
@@ -3840,7 +3839,7 @@ Event(20126, Restart, function() {
     
     Label1();
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001026);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002026);
     DisplayEpitaphMessage(99030125);
     
     EndUnconditionally(EventEndType.Restart);
@@ -4003,7 +4002,7 @@ Event(20129, Restart, function() {
 Event(20130, Restart, function() {
     var param_SpEffect_Trigger = 260100310;
     
-    var flag_BossKilled     = 25001030;
+    var flag_BossKilled     = 25002030;
     var flag_BossDefeated   = 14500860;
     var flag_BossInProgress = 14500861;
     var flag_BossState1     = 9343;
