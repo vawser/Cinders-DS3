@@ -320,12 +320,4 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 
 Finish the armor icons
 
-// Prince Dorthinus
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002026);  // Already Killed
-    SetSpEffect(10000, 260100270);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
-    
-// Princess Yngvil
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002030);  // Already Killed
-    SetSpEffect(10000, 260100310);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+        

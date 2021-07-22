@@ -38,6 +38,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
     InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set Order
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Order
+    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Reset Progress
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -2505,6 +2506,11 @@ Event(20071, Restart, function() {
     
     IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
     
+    // Sister Friede
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002020);  // Already Killed
+    SetSpEffect(10000, 260100200);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
     // Dismal Knight
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
@@ -2886,6 +2892,19 @@ Event(20072, Restart, function() {
     
     // Restart process if selection was already killed.
     EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Gauntlet Mode - Reset Progress
+//----------------------------------------------
+Event(20073, Restart, function() {
+    var flag_GauntletMode = 25009813;
+    
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    IfCharacterHasSpEffect(MAIN, 10000, 260120020, true, ComparisonType.Equal, 1);
+    
+    BatchSetEventFlags(25002000, 25002050, OFF);
 });
 
 //----------------------------------------------
@@ -3593,11 +3612,12 @@ Event(20119, Restart, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001020);
     
-    SetEventFlag(14500800, 0);
-    SetEventFlag(9322, 0);
-    SetEventFlag(6322, 0);
-    SetEventFlag(14500000, 0);
-    SetEventFlag(14500162, 0);
+    SetEventFlag(14500800, OFF);
+    SetEventFlag(9322, OFF);
+    SetEventFlag(6322, OFF);
+    SetEventFlag(14500000, OFF);
+    SetEventFlag(14500162, OFF);
+    SetEventFlag(14500620, ON);
     
     //SetPlayerRespawnPoint(4502955);
     SetMapCeremony(45, 0, 0);

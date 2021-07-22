@@ -305,6 +305,9 @@ def t400000_x12():
         # Face Boss (Random Order)
         AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003201) == 1, 31, 99060123, -1)
         
+        # Reset Progress
+        AddTalkListDataIf(GetEventStatus(25009813) == 1, 32, 15013005, -1)
+        
         # Level Up
         AddTalkListData(10, 15002000, -1)
         
@@ -538,6 +541,25 @@ def t400000_x12():
         # Next Boss  (Random Order)
         elif GetTalkListEntryResult() == 31:
             GiveSpEffectToPlayer(260120010)
+            return 0
+         # Reset Progress
+        elif GetTalkListEntryResult() == 32:
+            ClearTalkListData()
+
+            AddTalkListData(1, 15013006, -1)
+            AddTalkListData(2, 15013007, -1)
+           
+            OpenConversationChoicesMenu(0)
+            
+            assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            
+            if GetTalkListEntryResult() == 1:
+                GiveSpEffectToPlayer(260120020)
+                OpenGenericDialog(1, 15013008, 0, 0, 0)
+                return 0
+            else:
+                pass
+                
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 45 """

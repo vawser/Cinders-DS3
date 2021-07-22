@@ -2077,10 +2077,10 @@ Persisting will transform you into a grub.</text>
 <text id="15013002">Browse Spells</text>
 <text id="15013003">Browse Armor</text>
 <text id="15013004">Browse Accessories</text>
-<text id="15013005">%null%</text>
-<text id="15013006">%null%</text>
-<text id="15013007">%null%</text>
-<text id="15013008">%null%</text>
+<text id="15013005">Reset Progress</text>
+<text id="15013006">Yes</text>
+<text id="15013007">No</text>
+<text id="15013008">Progress reset.</text>
 <text id="15013009">%null%</text>
 <text id="15013010">Reinforce Staff</text>
 <text id="15013011">%null%</text>
