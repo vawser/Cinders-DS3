@@ -2505,12 +2505,7 @@ Event(20071, Restart, function() {
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_SetOrder);
     
     IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
-    
-    // Sister Friede
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002020);  // Already Killed
-    SetSpEffect(10000, 260100200);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
-    
+
     // Dismal Knight
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
