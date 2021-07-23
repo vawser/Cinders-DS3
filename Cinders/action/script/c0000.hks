@@ -7499,7 +7499,7 @@ function AttackRightLight3_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 276 or sp_kind == 282 or sp_kind == 726 or sp_kind == 724 or sp_kind == 728 or sp_kind == 729 or sp_kind == 730 or sp_kind == 712 or sp_kind == 732 or sp_kind == 733 or sp_kind == 734 or sp_kind == 736 then
+    if sp_kind == 276 or sp_kind == 282 or sp_kind == 726 or sp_kind == 724 or sp_kind == 728 or sp_kind == 729 or sp_kind == 730 or sp_kind == 712 or sp_kind == 732 or sp_kind == 733 or sp_kind == 734 or sp_kind == 736 or sp_kind == 603 then
         r1 = "W_AttackRightBackstep"
     end
     
@@ -7533,7 +7533,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7807,6 +7807,10 @@ function AttackRightBackstep_onUpdate()
 	if sp_kind == 604 then
 		r2 = "W_AttackRightHeavy2Start"
     end
+
+	if sp_kind == 603 then
+		r1 = "W_SpecialAttackRightHeavy"
+    end	
 	
 	if sp_kind == 732 then
         r1 = "W_AttackRightLight3"
@@ -8315,7 +8319,7 @@ function AttackBothDash_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 733 then
+	if sp_kind == 733 or sp_kind == 731 or sp_kind == 721 or sp_kind == 603 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8362,7 +8366,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 712 or sp_kind == 733 then
+	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -10232,6 +10236,10 @@ function SpecialAttackRightHeavy_onUpdate()
         b1 = "W_AttackBothBackstep"
     end		
     
+    if sp_kind == 603 then
+        r1 = "W_AttackRightLight2"
+    end
+	
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, FALSE, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     else
@@ -10684,11 +10692,25 @@ function MagicBuffRight3_onUpdate()
 end
 
 function CircleStepStart_onUpdate()
+    local r1 = "W_AttackRightLight1"
+	local r2 = "W_AttackRightHeavy1Start"
+	local b1 = "W_AttackBothLight1"
+	local b2 = "W_AttackBothHeavy1Start"
+    local hand = HAND_RIGHT
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    
+    if env(1116, 112008) == TRUE then
+		r1 = "W_AttackRightLightStep"
+        r2 = "W_AttackRightHeavy2Start"
+		b1 = "W_AttackBothLightStep"
+        b2 = "W_AttackBothHeavy2Start"
+    end		
+    
     local rolling_angle = GetVariable("CircleStepAngle")
     local addratio = 0.300000011920929
     local endratio = 1
     act(2001, math.abs(1 + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
-    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, FALSE) == TRUE then
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, FALSE) == TRUE then
         return 
     else
         return 
