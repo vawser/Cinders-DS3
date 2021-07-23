@@ -2468,14 +2468,15 @@ Event(20053, Restart, function() {
 // Gauntlet Mode - Setup
 //----------------------------------------------
 Event(20070, Restart, function() {
-    var flag_GauntletMode = 25009813;
+    var flag_GauntletMode             = 25009813;
+    var flag_Gauntlet_Setup_Completed = 25009804;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Gauntlet_Setup_Completed);
     
     AwardItemLot(800002010); // Initial tokens
     SetEventFlag(25009803, ON); // Unlock Memories
     
-    // Disable all treasures
     BatchSetEventFlags(53000000, 53002999, ON);
     BatchSetEventFlags(53010000, 53012999, ON);
     BatchSetEventFlags(53100000, 53102999, ON);
@@ -2492,6 +2493,9 @@ Event(20070, Restart, function() {
     BatchSetEventFlags(55000000, 55002999, ON);
     BatchSetEventFlags(55100000, 55102999, ON);
     BatchSetEventFlags(55110000, 55112999, ON);
+    
+    SetEventFlag(flag_Gauntlet_Setup_Completed, ON);
+
 });
 
 //----------------------------------------------
@@ -2909,7 +2913,9 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25009120, ON);
+    SetEventFlag(25009810, ON);
+    SetEventFlag(25009813, OFF);
+    SetEventFlag(25009800, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
