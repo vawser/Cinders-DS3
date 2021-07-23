@@ -898,21 +898,22 @@
 3242 Magician Gloves
 3243 Magician Leggings
 3312 Frostfall
-3365 DUMMY
-3366 DUMMY
-3367 DUMMY
-3390 DUMMY
-3391 DUMMY
-3395 DUMMY
-3409 DUMMY
-3423 DUMMY
-3424 DUMMY
-3428 DUMMY
-3429 DUMMY
-3430 DUMMY
-3431 DUMMY
-3459 DUMMY
-3462 DUMMY
+
+3365 Eastern Commander Head
+3366 Eastern Commander Body 
+3367 Eastern Commander Hands
+3390 Eastern Commander Legs
+3391 Eastern General Head
+3395 Eastern General Body
+3404 Eastern General Hands
+3418 Eastern General Legs
+3419 Eastern Wolf Body
+3423 Eastern Wolf Hands
+3424 Eastern Wolf Legs
+3425 Fallen Prince Head
+3426 Fallen Prince Body
+3459 Fallen Prince Hands
+3462 Fallen Prince Legs
 3505 DUMMY
 
 3512 Alonne Head
@@ -1326,13 +1327,13 @@
 5053 Witch's Ring
 5054 Morne's Ring
 5055 Ring of the Sun's First Born
-5056 DUMMY
-5057 DUMMY
+5056 Imported Head
+5057 Imported Body
 5058 Lingering Dragoncrest Ring
-5059 DUMMY
+5059 Imported Hands
 5061 Sage Ring
-5062 DUMMY
-5063 DUMMY
+5062 Imported Legs
+5063 Ironclad Head
 5064 Slumbering Dragoncrest Ring
 5065 Dusk Crown Ring
 5066 Saint's Ring
@@ -1344,11 +1345,11 @@
 5072 Hawk Ring
 5073 Hornet Ring
 5074 Covetous Gold Serpent Ring
-5075 DUMMY
-5076 DUMMY
+5075 Ironclad Body
+5076 Ironclad Hands
 5077 Covetous Silver Serpent Ring
-5078 DUMMY
-5079 DUMMY
+5078 Ironclad Legs
+5079 Okami Head
 5080 Sun Princess Ring
 5081 Silvercat Ring
 5082 Skull Ring
@@ -1361,23 +1362,23 @@
 5089 Lightning Clutch Ring
 5090 Fire Clutch Ring
 5091 Dark Clutch Ring
-5092 DUMMY
+5092 Okami Body
 5093 Flynn's Ring
 5094 Prisoner's Chain
 5095 Untrue Dark Ring
 5096 Yorgh's Ring
 5098 Ring of the Evil Eye
-5099 DUMMY
-5100 DUMMY
+5099 Okami Legs
+5100 Sanctum Knight Head
 5101 Calamity Ring
 5102 Farron Ring
 5103 Aldrich's Ruby
 5104 Aldrich's Sapphire
-5105 DUMMY
-5106 DUMMY
+5105 Sanctum Knight Body
+5106 Sanctum Knight Hands
 5107 Lloyd's Sword Ring
 5108 Lloyd's Shield Ring
-5109 DUMMY
+5109 Sanctum Knight Legs
 5110 Obscuring Ring
 5111 Estus Ring
 5112 Ashen Estus Ring
@@ -1385,11 +1386,11 @@
 5114 Carthus Bloodring
 5115 Reversal Ring
 5116 Pontiff's Right Eye
-5117 DUMMY
-5118 DUMMY
-5119 DUMMY
+5117 Stalwart Knight Head
+5118 Stalwart Knight Body
+5119 Stalwart Knight Hands
 5120 Pontiff's Left Eye
-5121 DUMMY
+5121 Stalwart Knight Legs
 5122 DUMMY
 5123 DUMMY
 5124 Dragonscale Ring

@@ -6,6 +6,9 @@
 // @linked    []
 // ==/EMEVD==
 
+//----------------------------------------------
+// Constructor
+//----------------------------------------------
 Event(0, Default, function() {
     //---------------------------------------
     // Host and Client
@@ -15,18 +18,11 @@ Event(0, Default, function() {
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
     
-    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
-    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
-    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
-    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
-    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
-    InitializeEvent(0, 20048, 0); // Frostbite Removal
-    InitializeEvent(0, 20060, 10000); // Event Flag Tool
-    InitializeEvent(0, 20061, 10000); // Screenshot Tool
-    InitializeEvent(0, 20062, 10000); // Treasure Tool
-    InitializeEvent(0, 20063, 10000); // NG+ Tool
+    //--------------------
+    // Setup
+    //--------------------
+    InitializeEvent(0, 20001, 0); // Game Flags - Once
+    InitializeEvent(0, 20002, 0); // Game Flags - On Load
     
     // Modes
     InitializeEvent(0, 20050, 0); // Standard Mode
@@ -40,71 +36,209 @@ Event(0, Default, function() {
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Order
     InitializeEvent(0, 20073, 0); // Gauntlet Mode - Reset Progress
     
+    //--------------------
+    // Challenge States
+    //--------------------
+    InitializeEvent(0, 20003, 10000); // No Hit State
+    InitializeEvent(0, 20004, 10000); // Deathless Run State
+    InitializeEvent(0, 20005, 10000); // Hitless Run State
+    
+    //--------------------
+    // Curses - Add Player Effects
+    //--------------------
+    InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 20010, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 20010, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 20010, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 20010, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 20010, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 20010, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 20010, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 20010, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 20010, 25000409, 250001000, 250001019); // Curse of Pride - 100%
+    
+    InitializeEvent(10, 20010, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 20010, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 20010, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 20010, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 20010, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 20010, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 20010, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 20010, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 20010, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 20010, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+   
+    InitializeEvent(20, 20010, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 20010, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 20010, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 20010, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 20010, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 20010, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 20010, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 20010, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 20010, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 20010, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+
+    InitializeEvent(30, 20010, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 20010, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 20010, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 20010, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 20010, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 20010, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 20010, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 20010, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 20010, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 20010, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    
+    InitializeEvent(40, 20010, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 20010, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 20010, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 20010, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 20010, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 20010, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 20010, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 20010, 25000501, 250002200, 250002210); // Curse of Valor
+    
+    //--------------------
+    // Curses - Remove Player Effects
+    //--------------------
+    InitializeEvent(0, 20020, 25000400, 250001000, 250001010); // Curse of Pride - 10%
+    InitializeEvent(1, 20020, 25000401, 250001000, 250001011); // Curse of Pride - 20%
+    InitializeEvent(2, 20020, 25000402, 250001000, 250001012); // Curse of Pride - 30%
+    InitializeEvent(3, 20020, 25000403, 250001000, 250001013); // Curse of Pride - 40%
+    InitializeEvent(4, 20020, 25000404, 250001000, 250001014); // Curse of Pride - 50%
+    InitializeEvent(5, 20020, 25000405, 250001000, 250001015); // Curse of Pride - 60%
+    InitializeEvent(6, 20020, 25000406, 250001000, 250001016); // Curse of Pride - 70%
+    InitializeEvent(7, 20020, 25000407, 250001000, 250001017); // Curse of Pride - 80%
+    InitializeEvent(8, 20020, 25000408, 250001000, 250001018); // Curse of Pride - 90%
+    InitializeEvent(9, 20020, 25000409, 250001000, 250001019); // Curse of Pride - 100%
+    
+    InitializeEvent(10, 20020, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
+    InitializeEvent(11, 20020, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
+    InitializeEvent(12, 20020, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
+    InitializeEvent(13, 20020, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
+    InitializeEvent(14, 20020, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
+    InitializeEvent(15, 20020, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
+    InitializeEvent(16, 20020, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
+    InitializeEvent(17, 20020, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
+    InitializeEvent(18, 20020, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
+    InitializeEvent(19, 20020, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
+   
+    InitializeEvent(20, 20020, 25000420, 250001300, 250001310); // Curse of Vitality - 10
+    InitializeEvent(21, 20020, 25000421, 250001300, 250001311); // Curse of Vitality - 20
+    InitializeEvent(22, 20020, 25000422, 250001300, 250001312); // Curse of Vitality - 30
+    InitializeEvent(23, 20020, 25000423, 250001300, 250001313); // Curse of Vitality - 40
+    InitializeEvent(24, 20020, 25000424, 250001300, 250001314); // Curse of Vitality - 50
+    InitializeEvent(25, 20020, 25000425, 250001300, 250001315); // Curse of Vitality - 60
+    InitializeEvent(26, 20020, 25000426, 250001300, 250001316); // Curse of Vitality - 70
+    InitializeEvent(27, 20020, 25000427, 250001300, 250001317); // Curse of Vitality - 80
+    InitializeEvent(28, 20020, 25000428, 250001300, 250001318); // Curse of Vitality - 90
+    InitializeEvent(29, 20020, 25000429, 250001300, 250001319); // Curse of Vitality - 100
+
+    InitializeEvent(30, 20020, 25000430, 250001400, 250001410); // Curse of Wrath - 10
+    InitializeEvent(31, 20020, 25000431, 250001400, 250001411); // Curse of Wrath - 20
+    InitializeEvent(32, 20020, 25000432, 250001400, 250001412); // Curse of Wrath - 30
+    InitializeEvent(33, 20020, 25000433, 250001400, 250001413); // Curse of Wrath - 40
+    InitializeEvent(34, 20020, 25000434, 250001400, 250001414); // Curse of Wrath - 50
+    InitializeEvent(35, 20020, 25000435, 250001400, 250001415); // Curse of Wrath - 60
+    InitializeEvent(36, 20020, 25000436, 250001400, 250001416); // Curse of Wrath - 70
+    InitializeEvent(37, 20020, 25000437, 250001400, 250001417); // Curse of Wrath - 80
+    InitializeEvent(38, 20020, 25000438, 250001400, 250001418); // Curse of Wrath - 90
+    InitializeEvent(39, 20020, 25000439, 250001400, 250001419); // Curse of Wrath - 100
+    
+    InitializeEvent(40, 20020, 25000440, 250001500, 250001510); // Curse of Attraction
+    InitializeEvent(41, 20020, 25000450, 250001600, 250001610); // Curse of Obscurity
+    InitializeEvent(42, 20020, 25000460, 250001700, 250001710); // Curse of Simplicity
+    InitializeEvent(43, 20020, 25000470, 250001800, 250001810); // Curse of Gluttony
+    InitializeEvent(44, 20020, 25000480, 250001900, 250001910); // Curse of Frailty
+    InitializeEvent(45, 20020, 25000490, 250002000, 250002010); // Curse of Enfeeblement
+    InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
+    InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
+    
+    //--------------------
+    // Covenant Material Drops
+    //--------------------
+    InitializeEvent(0, 20030, 10000, 160100232, 800010000, 800010020); // Thieves' Code
+    InitializeEvent(1, 20030, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
+    InitializeEvent(2, 20030, 10000, 160100252, 800010200, 800010220); // Spears of the Church
+    InitializeEvent(3, 20030, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
+    InitializeEvent(4, 20030, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
+    InitializeEvent(5, 20030, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
+    InitializeEvent(6, 20030, 10000, 160100302, 800010600, 800010620); // Mound-makers
+    InitializeEvent(7, 20030, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
+    InitializeEvent(8, 20030, 10000, 160100332, 800010800, 800010820); // Chaos Servant
+    InitializeEvent(9, 20030, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
+    InitializeEvent(10, 20030, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
+    InitializeEvent(12, 20030, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
+    InitializeEvent(11, 20030, 10000, 160100362, 800011200, 800011220); // Way of White
+    InitializeEvent(13, 20030, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
+    InitializeEvent(14, 20030, 10000, 160100392, 800011400, 800011420); // Way of Blue
+    InitializeEvent(15, 20030, 10000, 160100402, 800011500, 800011520); // Company of Champions
+    InitializeEvent(16, 20030, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
+    InitializeEvent(0, 20031, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
+    
+    //--------------------
+    // Items
+    //--------------------
+    InitializeEvent(0, 20040, 0); // Crown of the Great Lord
+    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
+    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
+    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
+    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
+    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
+    InitializeEvent(0, 20048, 0); // Frostbite Removal
+    InitializeEvent(0, 20060, 10000); // Event Flag Tool
+    InitializeEvent(0, 20061, 10000); // Screenshot Tool
+    InitializeEvent(0, 20062, 10000); // Treasure Tool
+    InitializeEvent(0, 20063, 10000); // NG+ Tool
+    
+    //--------------------
+    // Boss Revival
+    //--------------------
+    InitializeEvent(0, 20100, 0); // Dismal Knight
+    InitializeEvent(0, 20101, 0); // Vordt
+    InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
+    InitializeEvent(0, 20103, 0); // Crystal Sage
+    InitializeEvent(0, 20104, 0); // Deacons of the Deep
+    InitializeEvent(0, 20105, 0); // Abyss Watchers
+    InitializeEvent(0, 20106, 0); // High Lord Wolnir
+    InitializeEvent(0, 20107, 0); // Old Demon King
+    InitializeEvent(0, 20108, 0); // Pontiff Sulyvahn
+    InitializeEvent(0, 20109, 0); // Aldrich
+    InitializeEvent(0, 20110, 0); // Yhorm the Giant
+    InitializeEvent(0, 20111, 0); // Dancer
+    InitializeEvent(0, 20112, 0); // Oceiros
+    InitializeEvent(0, 20113, 0); // Dragonslayer Armour
+    InitializeEvent(0, 20114, 0); // Ancient Wyvern
+    InitializeEvent(0, 20115, 0); // Nameless King
+    InitializeEvent(0, 20116, 0); // Champion Gundyr
+    InitializeEvent(0, 20117, 0); // Twin Princes
+    InitializeEvent(0, 20118, 0); // Soul of Cinder
+    InitializeEvent(0, 20119, 0); // Sister Friede
+    InitializeEvent(0, 20120, 0); // Lordran Remnants
+    InitializeEvent(0, 20121, 0); // Demon Prince
+    InitializeEvent(0, 20122, 0); // Darkeater Midir
+    InitializeEvent(0, 20123, 0); // Slave Knight Gael
+    InitializeEvent(0, 20124, 0); // Halflight
+    InitializeEvent(0, 20125, 0); // Champions of Yore
+    InitializeEvent(0, 20126, 0); // Prince Dorthinus
+    InitializeEvent(0, 20127, 0); // Cathedral Guardian
+    InitializeEvent(0, 20128, 0); // Mirror Knight
+    InitializeEvent(0, 20129, 0); // Aborr
+    InitializeEvent(0, 20130, 0); // Princess Yngvil
+    InitializeEvent(0, 20131, 0); // The Rock
+    InitializeEvent(0, 20132, 0); // Twisted Knight
+    InitializeEvent(0, 20133, 0); // Fallen Protector
+    
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    
-    //---------------------------------------
-    // Host Only
-    //---------------------------------------
-    InitializeEvent(0, 20000, 0); // Setup Cinders scripts
-    
-    // Achievements - Locations
-    InitializeEvent(0, 130, 40, 4004110, 0, -1);
-    InitializeEvent(1, 130, 30, 3004110, 0, -1);
-    InitializeEvent(2, 130, 31, 3104110, 0, -1);
-    InitializeEvent(3, 130, 33, 3304110, 0, -1);
-    InitializeEvent(4, 130, 35, 3504110, 0, -1);
-    InitializeEvent(5, 130, 33, 3304111, 0, -1);
-    InitializeEvent(6, 130, 38, 3804110, 0, -1);
-    InitializeEvent(7, 130, 38, 3804111, 0, -1);
-    InitializeEvent(8, 130, 37, 3704110, 0, -1);
-    InitializeEvent(9, 130, 37, 3704111, 0, -1);
-    InitializeEvent(10, 130, 39, 3904110, 0, -1);
-    InitializeEvent(11, 130, 32, 3204110, 0, 26);
-    InitializeEvent(12, 130, 30, 3004111, 0, -1);
-    InitializeEvent(13, 130, 290, 3414110, 0, -1);
-    InitializeEvent(14, 130, 40, 4004111, 10, 25);
-    InitializeEvent(15, 130, 41, 4104110, 0, -1);
-    InitializeEvent(16, 130, 45, 4504110, 0, -1);
-    InitializeEvent(17, 130, 50, 5004110, 0, -1);
-    InitializeEvent(18, 130, 51, 5104110, 0, -1);
-    InitializeEvent(19, 130, 307, 5114110, 0, -1);
-    
-    // Achievements - Bosses
-    InitializeEvent(10, 250, 17, 6700, 0);
-    InitializeEvent(11, 250, 18, 6770, 0);
-    InitializeEvent(12, 250, 19, 6740, 0);
-    InitializeEvent(13, 250, 20, 6750, 0);
-    InitializeEvent(14, 250, 21, 6760, 0);
-    InitializeEvent(15, 250, 22, 6710, 0);
-    InitializeEvent(16, 250, 23, 6720, 0);
-    InitializeEvent(17, 250, 24, 6730, 0);
-    InitializeEvent(20, 250, 4, 13300800, 0);
-    InitializeEvent(21, 250, 5, 13900800, 0);
-    InitializeEvent(22, 250, 6, 13700800, 0);
-    InitializeEvent(23, 250, 7, 13410830, 0);
-    InitializeEvent(24, 250, 27, 14000800, 0);
-    InitializeEvent(25, 250, 28, 13000800, 0);
-    InitializeEvent(26, 250, 29, 13100800, 0);
-    InitializeEvent(27, 250, 30, 13300850, 0);
-    InitializeEvent(28, 250, 31, 13500800, 0);
-    InitializeEvent(29, 250, 32, 13800800, 0);
-    InitializeEvent(30, 250, 33, 13700850, 0);
-    InitializeEvent(31, 250, 34, 13000890, 0);
-    InitializeEvent(32, 250, 35, 13010800, 0);
-    InitializeEvent(33, 250, 36, 13800830, 0);
-    InitializeEvent(34, 250, 37, 13000830, 0);
-    InitializeEvent(35, 250, 38, 14000830, 0);
-    InitializeEvent(36, 250, 39, 13200800, 0);
-    InitializeEvent(37, 250, 40, 13200850, 0);
-    
-    // Achievements - Other
-    InitializeEvent(0, 6099, 0);
-    
+
     // Sin
-    InitializeEvent(0, 9004, 9007); // Check Hostility 2 for 70000052 -> 70000066
-    InitializeEvent(0, 9005, 9008); // Check Hostility 2 for 70000067 -> 70000081
-    InitializeEvent(0, 9006, 9009); // Check Hostility 2 for 70001073
+    InitializeEvent(0, 9004, 9007); // Sin - Check Hostility
+    InitializeEvent(0, 9005, 9008); // Sin - Check Hostility
+    InitializeEvent(0, 9006, 9009); // Sin - Check Hostility
     InitializeEvent(0, 9000, 9001, 9007, 9008, 9009); // NPC Sin monitor
     InitializeEvent(0, 9002, 9003); // Clear Sin
     InitializeEvent(0, 9010, 0); // Sin - Shrine Handmaid Price Increase
@@ -145,37 +279,34 @@ Event(0, Default, function() {
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
     
-    // Game Progress Flags - Set via Boss Defeat
-    InitializeEvent(0, 6100, 6100, 13300800);
-    InitializeEvent(1, 6100, 6101, 13900800);
-    InitializeEvent(2, 6100, 6102, 13700800);
-    InitializeEvent(3, 6100, 6103, 13410830);
-    InitializeEvent(4, 6100, 6104, 14000800);
-    InitializeEvent(5, 6100, 6105, 13000800);
-    InitializeEvent(6, 6100, 6106, 13300850);
-    InitializeEvent(7, 6100, 6107, 13500800);
-    InitializeEvent(8, 6100, 6108, 13800800);
-    InitializeEvent(9, 6100, 6109, 13700850);
-    InitializeEvent(10, 6100, 6110, 13000890);
-    InitializeEvent(11, 6100, 6111, 13010800);
-    InitializeEvent(12, 6100, 6112, 110);
+    // Game Progress Flags
+    InitializeEvent(0, 6100, 6100, 13300800);  // Abyss Watcher
+    InitializeEvent(1, 6100, 6101, 13900800);  // Yhorm
+    InitializeEvent(2, 6100, 6102, 13700800);  // Aldrich
+    InitializeEvent(3, 6100, 6103, 13410830);  // Twin Princes
+    InitializeEvent(4, 6100, 6104, 14000800);  // Dismal Knight
+    InitializeEvent(5, 6100, 6105, 13000800);  // Vordt
+    InitializeEvent(6, 6100, 6106, 13300850);  // Crystal Sage
+    InitializeEvent(7, 6100, 6107, 13500800);  // Deacons of the Deep
+    InitializeEvent(8, 6100, 6108, 13800800);  // High Lord Wolnir
+    InitializeEvent(9, 6100, 6109, 13700850);  // Pontiff Sulyvahn
+    InitializeEvent(10, 6100, 6110, 13000890); // Dancer
+    InitializeEvent(11, 6100, 6111, 13010800); // Dragonslayer Armour
+    InitializeEvent(12, 6100, 6112, 110);      // Game Clear
     
-    // Flag State - 6600, 703
-    InitializeEvent(0, 702, 0);
-    
-    // Warp to Dancer
-    InitializeEvent(0, 710, 0);
+    InitializeEvent(0, 702, 0); // Unknown
+    InitializeEvent(0, 710, 0); // Warp to Dancer
     
     // Phantoms
-    InitializeEvent(0, 9510, 0); // Sirris - Trigger Appearance
-    InitializeEvent(0, 9511, 0); // Longfinger Kirk - Trigger Appearance
-    InitializeEvent(0, 9512, 0); // Londor Pale Shade - Trigger Appearance
+    InitializeEvent(0, 9510, 0); // NPC - Sirris
+    InitializeEvent(0, 9511, 0); // NPC - Longfinger Kirk
+    InitializeEvent(0, 9512, 0); // NPC - Londor Pale Shade
     
     // Gestures
-    InitializeEvent(0, 9520, 4410, 8, 9013, 6058); // Yellowfinger Heysel - Proper bow
-    InitializeEvent(0, 9525, 4430, 4, 9005, 6054); // Duel bow
-    InitializeEvent(0, 9530, 4420, 18, 9020, 6068); // By my sword
-    InitializeEvent(0, 9540, 15, 9017, 6065); // My thanks!
+    InitializeEvent(0, 9520, 4410, 8, 9013, 6058);  // Yellowfinger Heysel - Proper bow
+    InitializeEvent(0, 9525, 4430, 4, 9005, 6054);  // Londor Pale Shade - Duel bow
+    InitializeEvent(0, 9530, 4420, 18, 9020, 6068); // Black Hand Gotthard - By my sword
+    InitializeEvent(0, 9540, 15, 9017, 6065);       // Knight Slayer Tsorig - My thanks!
     
     // NPC Flags
     InitializeEvent(0, 9100, 70000007); // Hawkwood
@@ -204,52 +335,38 @@ Event(0, Default, function() {
     InitializeEvent(6, 9120, 74000916, 74000913, 74000913, 1, 1, 1, 1); // 
     InitializeEvent(7, 9120, 73500265, 73500264, 73500264, 1, 1, 1, 0); // 
     
-    InitializeEvent(0, 9016, 0); // Set Cleric class flag if Cleric
-    InitializeEvent(0, 9011, 74000132);
-    InitializeEvent(0, 9014, 0); 
-    InitializeEvent(0, 9018, 0);
-    InitializeEvent(0, 9019, 74000669);
-    InitializeEvent(0, 9015, 0);
-    InitializeEvent(0, 6900, 0); // Lack of Estus Flask flag
+    InitializeEvent(0, 9016, 0); // Player - Cleric Check
+    InitializeEvent(0, 9011, 0); // Fire Keeper - Eyes of a Fire Keeper Dialogue
+    InitializeEvent(0, 9014, 0); // Hawkwood - Twinkling Dragon Torso Stone
+    InitializeEvent(0, 9018, 0); // Hawkwood - Dialogue Flag
+    InitializeEvent(0, 9019, 0); // Eygon - Dialogue Flag
+    InitializeEvent(0, 9015, 0); // Unknown
+    InitializeEvent(0, 6900, 0); // Estus Flask - Maximum Count Monitor
+    
     InitializeEvent(0, 9020, 73500300, 1621, 1634, 6951, 35);
     InitializeEvent(1, 9020, 14100511, 14100512, 14100512, 6952, 41);
     InitializeEvent(2, 9020, 14500161, 14500162, 14500162, 6952, 45);
 });
 
+//----------------------------------------------
+// Deconstructor
+//----------------------------------------------
 Event(50, Default, function() {
-    //InitializeEvent(0, 231, 0); // UG Ceremony Monitor
-    InitializeEvent(0, 232, 0); // Undead Settlement Ceremony Monitor
+    //InitializeEvent(0, 231, 0);   // Untended Graves - Ceremony Monitor
+    InitializeEvent(0, 232, 0);     // Undead Settlement - Ceremony Monitor
     
-    InitializeEvent(0, 701, 0);
-    InitializeEvent(0, 700, 0); // Initial flag setup
-    InitializeEvent(0, 9012, 0);
-    InitializeEvent(0, 741, 0);
-    InitializeEvent(0, 740, 0);
-    InitializeEvent(0, 9080, 2, 10040, 6700);
-    InitializeEvent(1, 9080, 2, 10050, 6710);
-    InitializeEvent(2, 9080, 2, 10020, 6720);
-    InitializeEvent(3, 9080, 2, 10030, 6730);
-    InitializeEvent(4, 9080, 2, 10070, 6740);
-    InitializeEvent(5, 9080, 2, 10000, 6750);
-    InitializeEvent(6, 9080, 2, 10080, 6760);
-    InitializeEvent(7, 9080, 2, 10060, 6770);
-    InitializeEvent(10, 9080, 3, 520, 6790);
-    InitializeEvent(11, 9080, 3, 521, 6791);
-    InitializeEvent(12, 9080, 3, 522, 6792);
-    InitializeEvent(13, 9080, 3, 523, 6793);
-    InitializeEvent(14, 9080, 3, 524, 6794);
-    InitializeEvent(15, 9080, 3, 102, 6780);
-    InitializeEvent(16, 9080, 3, 101, 6781);
-    InitializeEvent(17, 9080, 3, 108, 6782);
-    InitializeEvent(18, 9080, 2, 10090, 6830);
+    InitializeEvent(0, 701, 0);     // Unknown
+    InitializeEvent(0, 700, 0);     // Flag Setup
+    InitializeEvent(0, 9012, 0);    // Player - Set Gender Flag
+    InitializeEvent(0, 741, 0);     // World - Untended Graves - Area Welcome Message Handler
+    InitializeEvent(0, 740, 0);     // Reset Camera
     
-    //---------------------------------------
-    // NG+ Reset
-    //---------------------------------------
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6400);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 14000100);
+    
+    // Remove items in NG+
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6400); // Final Cutscene
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 14000100); // Player Start Sequence
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, AND_01);
     
     // Items
@@ -314,43 +431,46 @@ Event(50, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 2006, 1); // Smithbox
 
     SetEventFlag(6400, OFF);
+    
     Label0();
 });
 
-Event(130, Default, function(X0_1, X1_1, X4_4, X8_2, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfPlayerInoutMap(AND_01, true, X0_1, X1_1);
-    IfPlayerStandingOnHit(AND_01, X4_4);
-    IfPlayerInoutMap(AND_02, true, 40, 0);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_02);
-    IfMapCeremonyState(AND_01, Enabled, X0_1, X1_1, X8_2);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    EndIfComparison(EventEndType.End, ComparisonType.Equal, X12_4, -1);
-    AwardAchievement(X12_4);
-    EndUnconditionally(EventEndType.End);
-});
-
+//----------------------------------------------
+// Flag: Is in Own World
+//----------------------------------------------
 Event(200, Restart, function() {
     SetNetworkSyncState(Disabled);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, false);
     SetEventFlag(201, ON);
 });
 
+//----------------------------------------------
+// World - Set Eclipse Ceremonies
+//----------------------------------------------
 Event(230, Restart, function() {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 230);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9314);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9318);
+    var flag_EclipseActive    = 230;
+    var flag_BossKill_Aldrich = 9314;
+    var flag_BossKill_Yhorm   = 9318;
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_EclipseActive);
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossKill_Aldrich);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossKill_Yhorm);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetMapCeremony(30, 0, 10);
     SetMapCeremony(30, 1, 10);
     SetMapCeremony(34, 1, 10);
     SetMapCeremony(31, 0, 10);
     SetMapCeremony(33, 0, 10);
     SetMapCeremony(35, 0, 10);
-    SetEventFlag(230, ON);
+    
+    SetEventFlag(flag_EclipseActive, ON);
 });
 
-// Enable Untended Graves when player is outside the map
+//----------------------------------------------
+// World - Enable Untended Graves if outside of m40
+//----------------------------------------------
 Event(231, Restart, function() {
     IfPlayerInoutMap(AND_01, true, 40, 0);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
@@ -358,14 +478,26 @@ Event(231, Restart, function() {
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
+// World - Undead Settlement Ceremonies
+//----------------------------------------------
 Event(232, Default, function() {
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, 8221);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 230);
-    SetMapCeremony(31, 0, 0);
+    var flag_EclipseActive = 230;
+    var flag_InSirrisWorld = 8221;
+    
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, flag_InSirrisWorld);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, flag_EclipseActive);
+    
+    // Default
+    SetMapCeremony(31, 0, 0); // Day
     GotoUnconditionally(Label.LABEL1);
+    
+    // Eclipse
     Label0();
-    SetMapCeremony(31, 0, 10);
+    SetMapCeremony(31, 0, 10); // Eclipse
     GotoUnconditionally(Label.LABEL1);
+    
+    // Sirris's Version of Undead Settlement
     Label1();
     IfPlayerInoutMap(OR_01, true, 30, 0);
     IfPlayerInoutMap(OR_01, true, 30, 1);
@@ -373,145 +505,209 @@ Event(232, Default, function() {
     IfPlayerInoutMap(OR_01, true, 40, 0);
     IfConditionGroup(MAIN, PASS, OR_01);
     WaitFixedTimeFrames(1);
-    GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, 230);
-    SetMapCeremony(31, 0, 20);
+    GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, flag_EclipseActive);
+    SetMapCeremony(31, 0, 20); // Dusk
     GotoUnconditionally(Label.LABEL3);
+    
+    // Sirris's Version of Undead Settlement + Eclipse
     Label2();
-    SetMapCeremony(31, 0, 30);
+    SetMapCeremony(31, 0, 30); // Night
     GotoUnconditionally(Label.LABEL3);
+    
     Label3();
     IfPlayerInoutMap(AND_01, false, 30, 0);
     IfPlayerInoutMap(AND_01, false, 30, 1);
     IfPlayerInoutMap(AND_01, false, 34, 1);
     IfPlayerInoutMap(AND_01, false, 40, 0);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
-Event(250, Default, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    WaitFixedTimeSeconds(X8_4);
-    AwardAchievement(X0_4);
-});
-
+//----------------------------------------------
+// Game Progress Flag
+//----------------------------------------------
 Event(6100, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetEventFlag(X0_4, ON);
 });
 
-// Initial flag setup
+//----------------------------------------------
+// Flag Setup 
+//----------------------------------------------
+// ClassType enum:
+// 0 - Deprived
+// 1 - Knight
+// 2 - Thief
+// 3 - Sentinel
+// 4 - Mercenary
+// 5 - Wayfarer
+// 6 - Assassin
+// 7 - Samurai
+// 8 - Warrior
+// 9 - Bandit
+// 10 - Soldier
+// 11 - Acolyte
+// 12 - Herald
+// 13 - Captain
+// 14 - Peasant
+// 15 - Explorer
+// 16 - Brawler
+// 17 - Hunter
+// 18 - Sorcerer
+// 19 - Pyromancer
+// 20 - Cleric
+// 21 - Priest
+// 22 - Heretic
+// 23 - Outcast
+// 24 - Skeptic
+// 25 - Paladin
+// 26 - Jester
+// 27 - Summoner
+// 99 - Accursed
 Event(700, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetEventFlag(50006020, ON);
-    SetEventFlag(9215, ON);
+    
     SetCharacterRemainingYoelLevels(5);
-    SetEventFlag(70000125, ON);
-    SetEventFlag(70000128, ON);
-    SetEventFlag(70000129, ON);
-    IfPlayersClass(OR_15, ClassType.Sorcerer);
+    
+    SetEventFlag(50006020, ON); // Firelink Shrine Music - Eyes of a Fire Keeper turns this OFF 
+    SetEventFlag(9215, ON);     // Firelink Shrine - Lit    
+    
+    IfPlayersClass(OR_15, 18);
     SkipIfConditionGroupStateUncompiled(1, FAIL, OR_15);
-    SetEventFlag(74000587, ON);
-    IfPlayersClass(OR_14, ClassType.Pyromancer);
+    SetEventFlag(74000587, ON); // Is Sorcerer class
+    
+    IfPlayersClass(OR_14, 19);
     SkipIfConditionGroupStateUncompiled(1, FAIL, OR_14);
-    SetEventFlag(74000465, ON);
-    SetEventFlag(50006162, ON);
-    SetEventFlag(50006163, ON);
-    SetEventFlag(73501010, ON);
-    SetEventFlag(73501020, ON);
-    SetEventFlag(73501030, ON);
-    SetEventFlag(73501040, ON);
-    SetEventFlag(73501050, ON);
+    SetEventFlag(74000465, ON); // Is Pyromancer class
+    
+    SetEventFlag(50006162, ON); // Deep Braille Divine Tome
+    SetEventFlag(50006163, ON); // Londor Braille Divine Tome
+    SetEventFlag(73501010, ON); // Siegward
+    SetEventFlag(73501020, ON); // Siegward
+    SetEventFlag(73501030, ON); // Siegward
+    SetEventFlag(73501040, ON); // Siegward
+    SetEventFlag(73501050, ON); // Siegward
+    
     IfGameCycle(OR_13, ComparisonType.GreaterOrEqual, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, OR_13);
-    SetEventFlag(70000900, ON);
+    SetEventFlag(70000900, ON); // Is in NG+
+    
+    // NG+ flags
     IfGameCycle(AND_06, ComparisonType.GreaterOrEqual, 6);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_06);
     SetEventFlag(56, ON);
     EndUnconditionally(EventEndType.End);
+    
     IfGameCycle(AND_05, ComparisonType.Equal, 5);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
     SetEventFlag(55, ON);
     EndUnconditionally(EventEndType.End);
+    
     IfGameCycle(AND_04, ComparisonType.Equal, 4);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
     SetEventFlag(54, ON);
     EndUnconditionally(EventEndType.End);
+    
     IfGameCycle(AND_03, ComparisonType.Equal, 3);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
     SetEventFlag(53, ON);
     EndUnconditionally(EventEndType.End);
+    
     IfGameCycle(AND_02, ComparisonType.Equal, 2);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
     SetEventFlag(52, ON);
     EndUnconditionally(EventEndType.End);
+    
     IfGameCycle(AND_01, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
     SetEventFlag(51, ON);
     EndUnconditionally(EventEndType.End);
+    
     SetEventFlag(50, ON);
     EndUnconditionally(EventEndType.End);
 });
 
+//----------------------------------------------
+// Unknown
+//----------------------------------------------
 Event(701, Default, function() {
     SetEventFlag(6000, OFF);
     SetEventFlag(6001, ON);
 });
 
+//----------------------------------------------
+// Unknown
+//----------------------------------------------
 Event(702, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 6600);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 6600);
     SetEventFlag(703, ON);
 });
 
+//----------------------------------------------
+// World - Warp to Dancer
+//----------------------------------------------
 Event(710, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfPlayerHasdoesntHaveItem(AND_15, ItemType.Goods, 2014, OwnershipState.Owns);
+    
+    IfPlayerHasdoesntHaveItem(AND_15, ItemType.Goods, 2014, OwnershipState.Owns); // Grand Archives Key
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_15);
+    
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9314);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9318);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3702890, 1);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902890, 1);
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9314); // Aldrich
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9318); // Yhorm
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3702890, 1); // In Aldrich arena
+    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902890, 1); // In Yhorm arena
     IfConditionGroup(AND_01, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetSpeffect(10000, 4900);
     SetSpeffect(10000, 4901);
+    
     GotoIfPlayerInoutMap(Label.LABEL0, true, 37, 0);
     GotoIfPlayerInoutMap(Label.LABEL1, true, 39, 0);
     GotoUnconditionally(Label.LABEL2);
+    
+    // In m37
     Label0();
     WaitFixedTimeSeconds(3);
-    SetEventFlag(13700002, ON);
-    IfEventFlag(AND_08, ON, TargetEventFlagType.EventFlag, 13000896);
-    IfEventFlag(AND_08, OFF, TargetEventFlagType.EventFlag, 13000890);
+    SetEventFlag(13700002, ON); // Aldrich bonfire
+    IfEventFlag(AND_08, ON, TargetEventFlagType.EventFlag, 13000896); // Emma is alive
+    IfEventFlag(AND_08, OFF, TargetEventFlagType.EventFlag, 13000890); // Dancer is alive
     SkipIfConditionGroupStateUncompiled(2, PASS, AND_08);
     SkipUnconditionally(1);
     GotoUnconditionally(Label.LABEL2);
+    
+    // In m39
     Label1();
-    GotoIfBatchEventFlags(Label.LABEL19, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1388, 1389);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 73900164);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1398);
-    IfInoutsideArea(AND_02, InsideOutsideState.Outside, 10000, 3902890, 1);
+    GotoIfBatchEventFlags(Label.LABEL19, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1388, 1389); // Siegward flags
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 73900164); // Siegward - Yhorm stage
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1398); // Siegward dead
+    IfInoutsideArea(AND_02, InsideOutsideState.Outside, 10000, 3902890, 1); // In Yhorm arena
     IfConditionGroup(OR_02, PASS, AND_02);
     IfConditionGroup(MAIN, PASS, OR_02);
     GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_02);
+    
     Label19();
     WaitFixedTimeSeconds(3);
+    
     Label20();
-    IfEventFlag(AND_09, ON, TargetEventFlagType.EventFlag, 13000896);
-    IfEventFlag(AND_09, OFF, TargetEventFlagType.EventFlag, 13000890);
+    IfEventFlag(AND_09, ON, TargetEventFlagType.EventFlag, 13000896); // Emma is alive
+    IfEventFlag(AND_09, OFF, TargetEventFlagType.EventFlag, 13000890); // Dancer is alive
     SkipIfConditionGroupStateUncompiled(2, PASS, AND_09);
     SkipUnconditionally(1);
     GotoUnconditionally(Label.LABEL2);
+    
     Label2();
     SetEventFlag(711, ON);
     WaitFixedTimeFrames(0);
@@ -520,59 +716,29 @@ Event(710, Default, function() {
     EndUnconditionally(EventEndType.End);
 });
 
-Event(730, Default, function() {
-    SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfCharacterHasSpeffect(AND_01, 10000, 100, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    ClearSpeffect(10000, 11907);
-    WaitFixedTimeSeconds(1);
-    EndUnconditionally(EventEndType.Restart);
-});
-
+//----------------------------------------------
+// Reset Camera
+//----------------------------------------------
 Event(740, Default, function() {
     SetNetworkSyncState(Disabled);
     ChangeCamera(-1, -1);
 });
 
+//----------------------------------------------
+// World - Untended Graves - Area Welcome Message Handler
+//----------------------------------------------
 Event(741, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    SetEventFlag(74000013, OFF);
+    
+    SetEventFlag(74000013, OFF); // In Bonfire Menu
+    
     IfPlayerInoutMap(AND_01, true, 40, 0);
     IfMapCeremonyState(AND_01, Enabled, 40, 0, 10);
     IfConditionGroup(MAIN, FAIL, AND_01);
+    
     SetEventFlag(743, ON);
+    
     IfPlayerInoutMap(AND_02, true, 40, 0);
     IfMapCeremonyState(AND_02, Enabled, 40, 0, 10);
     IfPlayerStandingOnHit(AND_03, 4004120);
@@ -581,64 +747,30 @@ Event(741, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
-Event(750, Restart, function() {
-    SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    RemoveItemFromPlayer(ItemType.Goods, 10110, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 10120, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 10200, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 10210, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 10220, 99);
-    RemoveItemFromPlayer(ItemType.Goods, 10230, 99);
-});
-
+//----------------------------------------------
+// Boss Kill - Award Items
+//----------------------------------------------
 Event(970, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     SkipIfComparison(1, ComparisonType.Equal, X4_4, 0);
     AwardItemsIncludingClients(X4_4);
+    
     SetNetworkSyncState(Disabled);
+    
     WaitFixedTimeSeconds(5);
+    
     SkipIfComparison(1, ComparisonType.Equal, X8_4, 0);
     AwardItemsIncludingClients(X8_4);
+    
     SkipIfComparison(1, ComparisonType.Equal, X12_4, 0);
     AwardItemsIncludingClients(X12_4);
 });
 
-Event(6099, Default, function() {
-    SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6050);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6051);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6054);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6056);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6057);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6058);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6059);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6062);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6065);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6066);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6067);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6068);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6069);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6072);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6073);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6074);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6075);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6076);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6077);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6078);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6079);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6080);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6081);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6082);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6083);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6084);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    AwardAchievement(14);
-    SetEventFlag(6099, ON);
-});
-
+//----------------------------------------------
+// Estus Flask - Maximum Count Monitor
+//----------------------------------------------
 Event(6900, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
@@ -648,6 +780,9 @@ Event(6900, Default, function() {
     SetEventFlag(6030, ON);
 });
 
+//----------------------------------------------
+// NPC - Sirris
+//----------------------------------------------
 Event(9510, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -657,6 +792,9 @@ Event(9510, Default, function() {
     SetEventFlag(9510, ON);
 });
 
+//----------------------------------------------
+// NPC - Kirk
+//----------------------------------------------
 Event(9511, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -665,6 +803,9 @@ Event(9511, Default, function() {
     SetEventFlag(9511, ON);
 });
 
+//----------------------------------------------
+// NPC - Londor Pale Shade
+//----------------------------------------------
 Event(9512, Default, function() {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -674,77 +815,108 @@ Event(9512, Default, function() {
     SetEventFlag(9512, ON);
 });
 
+//----------------------------------------------
+// Yellowfinger Heysel - Award Gesture
+//----------------------------------------------
 Event(9520, Restart, function(X0_4, X4_2, X8_4, X12_4) {
+    var entity_YellowfingerHeysel = 3300194;
+    
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 13304194);
-    RequestCharacterAICommand(3300194, 99, 2);
-    RequestCharacterAIReplan(3300194);
-    IfCharacterHasSpeffect(MAIN, 3300194, X0_4, true, ComparisonType.Equal, 1);
-    RequestCharacterAICommand(3300194, -1, 2);
-    RequestCharacterAIReplan(3300194);
+    
+    RequestCharacterAICommand(entity_YellowfingerHeysel, 99, 2);
+    RequestCharacterAIReplan(entity_YellowfingerHeysel);
+    
+    IfCharacterHasSpeffect(MAIN, entity_YellowfingerHeysel, X0_4, true, ComparisonType.Equal, 1);
+    RequestCharacterAICommand(entity_YellowfingerHeysel, -1, 2);
+    RequestCharacterAIReplan(entity_YellowfingerHeysel);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
     AwardGestureItem(X4_2, ItemType.Goods, X8_4);
     SetEventFlag(X12_4, ON);
 });
 
+//----------------------------------------------
+// Londor Pale Shade - Award Gesture
+//----------------------------------------------
 Event(9525, Restart, function(X0_4, X4_2, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13304195);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13304195); // Londor Pale Shade
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13704192);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14104190);
     IfConditionGroup(MAIN, PASS, OR_01);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13304195);
     RequestCharacterAICommand(3300195, 99, 2);
     RequestCharacterAIReplan(3300195);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13704192);
     RequestCharacterAICommand(3700192, 99, 2);
     RequestCharacterAIReplan(3700192);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 14104190);
     RequestCharacterAICommand(4100190, 99, 2);
     RequestCharacterAIReplan(4100190);
+    
     IfCharacterHasSpeffect(OR_02, 3300195, X0_4, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 3700192, X0_4, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 4100191, X0_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, OR_02);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13304195);
     RequestCharacterAICommand(3300195, -1, 2);
     RequestCharacterAIReplan(3300195);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13704192);
     RequestCharacterAICommand(3700192, -1, 2);
     RequestCharacterAIReplan(3700192);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 14104191);
     RequestCharacterAICommand(4100190, -1, 2);
     RequestCharacterAIReplan(4100190);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
     AwardGestureItem(X4_2, ItemType.Goods, X8_4);
     SetEventFlag(X12_4, ON);
 });
 
+//----------------------------------------------
+// Black Hand Gotthard - Award Gesture
+//----------------------------------------------
 Event(9530, Restart, function(X0_4, X4_2, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13304913);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13704191);
     IfConditionGroup(MAIN, PASS, OR_01);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13304913);
     RequestCharacterAICommand(3300193, 99, 2);
     RequestCharacterAIReplan(3300193);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13704191);
     RequestCharacterAICommand(3700191, 99, 2);
     RequestCharacterAIReplan(3700191);
+    
     IfCharacterHasSpeffect(OR_02, 3300193, X0_4, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_02, 3700191, X0_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, OR_02);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13304913);
     RequestCharacterAICommand(3300193, -1, 2);
     RequestCharacterAIReplan(3300193);
+    
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 13704191);
     RequestCharacterAICommand(3700191, -1, 2);
     RequestCharacterAIReplan(3700191);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
     AwardGestureItem(X4_2, ItemType.Goods, X8_4);
     SetEventFlag(X12_4, ON);
 });
 
+//----------------------------------------------
+// Knight Slayer Tsorig - Award Gesture
+//----------------------------------------------
 Event(9540, Restart, function(X0_2, X4_4, X8_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 13804196);
@@ -759,24 +931,33 @@ Event(9540, Restart, function(X0_2, X4_4, X8_4) {
     IfConditionGroup(AND_04, PASS, OR_01);
     IfConditionGroup(AND_04, PASS, AND_03);
     IfConditionGroup(MAIN, PASS, AND_04);
+    
     SkipIfConditionGroupStateCompiled(2, FAIL, AND_01);
     RequestCharacterAICommand(3800196, 99, 2);
     RequestCharacterAIReplan(3800196);
+    
     SkipIfConditionGroupStateCompiled(2, FAIL, AND_02);
     RequestCharacterAICommand(3800198, 99, 2);
     RequestCharacterAIReplan(3800198);
+    
     WaitFixedTimeSeconds(1);
+    
     SkipIfConditionGroupStateCompiled(2, FAIL, AND_01);
     RequestCharacterAICommand(3800196, -1, 2);
     RequestCharacterAIReplan(3800196);
+    
     SkipIfConditionGroupStateCompiled(2, FAIL, AND_02);
     RequestCharacterAICommand(3800198, -1, 2);
     RequestCharacterAIReplan(3800198);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
     AwardGestureItem(X0_2, ItemType.Goods, X4_4);
     SetEventFlag(X8_4, ON);
 });
 
+//----------------------------------------------
+// Special Covenant Item - Reward Covenant Material
+//----------------------------------------------
 Event(9570, Restart, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(MAIN, 10000, X4_4, true, ComparisonType.Equal, 1);
@@ -785,7 +966,9 @@ Event(9570, Restart, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Sin System - NPC Sin monitor
+//----------------------------------------------
 Event(9000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -801,7 +984,9 @@ Event(9000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Sin System - Clear NPC Sin
+//----------------------------------------------
 Event(9002, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -861,6 +1046,9 @@ Event(9002, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Sin - Check Hostility
+//----------------------------------------------
 Event(9004, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -962,6 +1150,9 @@ Event(9004, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Sin - Check Hostility
+//----------------------------------------------
 Event(9005, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1063,7 +1254,9 @@ Event(9005, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// Set when Hostility 2 is ON for 70001073
+//----------------------------------------------
+// Sin - Check Hostility
+//----------------------------------------------
 Event(9006, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1081,7 +1274,9 @@ Event(9006, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Sin - Shrine Handmaid Price Increase
+//----------------------------------------------
 Event(9010, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 70000061);
@@ -1110,129 +1305,170 @@ Event(9010, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
-Event(9011, Default, function(X0_4) {
+//----------------------------------------------
+// Fire Keeper - Eyes of a Fire Keeper Dialogue
+//----------------------------------------------
+Event(9011, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 700);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 50006020);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 50006020); // Eyes of a Fire Keeper turned in
     IfConditionGroup(MAIN, PASS, AND_01);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, 14000110);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9307);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9309);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9314);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9318);
+    
+    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, 14000110); // Flameless Shrine cutscene
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9307); // Abyss Watchers
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9309); // Twin Princes
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9314); // Aldrich
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 9318); // Yhorm
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9307);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9307);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9309);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9309);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9314);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9314);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9318);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9318);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9307); // Abyss Watchers
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9307); // Abyss Watchers
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9309); // Twin Princes
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9309); // Twin Princes
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9314); // Aldrich
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9314); // Aldrich
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 9318); // Yhorm
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 9318); // Yhorm
     GotoUnconditionally(Label.LABEL1);
+    
     Label0();
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14000110);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14000110); // Flameless Shrine cutscene
     GotoUnconditionally(Label.LABEL1);
+    
     Label1();
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 50006020);
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 50006020);  // Eyes of a Fire Keeper turned in
     IfConditionGroup(OR_01, PASS, OR_02);
     IfConditionGroup(MAIN, PASS, OR_01);
+    
     SkipIfConditionGroupStateCompiled(2, FAIL, OR_02);
-    SetEventFlag(X0_4, OFF);
+    SetEventFlag(74000132, OFF);
     EndUnconditionally(EventEndType.Restart);
-    SetEventFlag(X0_4, ON);
+    
+    SetEventFlag(74000132, ON);
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Player - Set Gender Flag
+//----------------------------------------------
 Event(9012, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
+    
     IfPlayerGender(MAIN, Gender.Male);
     SetNetworkconnectedEventFlag(9013, ON);
+    
     IfPlayerGender(MAIN, Gender.Female);
     SetNetworkconnectedEventFlag(9013, OFF);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Hawkwood - Twinkling Dragon Torso Stone
+//----------------------------------------------
 Event(9014, Restart, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 9014);
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, 13300761);
     DisplayGenericDialog(13007000, PromptType.OKCANCEL, NumberofOptions.OneButton, 10000, 0);
     EndUnconditionally(EventEndType.End);
+    
     Label0();
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 9014);
     SetEventFlag(9014, ON);
 });
 
+//----------------------------------------------
+// Unknown
+//----------------------------------------------
 Event(9015, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 70000118);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1124);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1126);
     IfConditionGroup(AND_01, PASS, OR_01);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9303);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9314);
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9303); // Curse-Rotted Greatwood
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9314); // Aldrich
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetEventFlag(70000118, ON);
 });
 
+//----------------------------------------------
+// Player - Cleric Check
+//----------------------------------------------
 Event(9016, Restart, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(9017, OFF);
-    IfPlayersClass(MAIN, ClassType.Cleric);
+    
+    IfPlayersClass(MAIN, 20);
+    
     SetEventFlag(9017, ON);
-    IfPlayersClass(AND_01, ClassType.Cleric);
+    
+    IfPlayersClass(AND_01, 20);
     IfConditionGroup(MAIN, FAIL, AND_01);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// Hawkwood - Dialogue Flag
+//----------------------------------------------
 Event(9018, Restart, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 73300202);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13204190);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13005710);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13204190); // Summon in m32
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13005710); // Summon in m30
     IfConditionGroup(MAIN, PASS, OR_01);
+    
     SetEventFlag(73300202, ON);
 });
 
-Event(9019, Restart, function(X0_4) {
+//----------------------------------------------
+// Eygon - Dialogue Flag
+//----------------------------------------------
+Event(9019, Restart, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13304192);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13014192);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 74000669);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13304192); // Summon in m33
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13014192); // Summon in m30_1
     IfConditionGroup(MAIN, PASS, OR_01);
-    SetEventFlag(X0_4, ON);
+    
+    SetEventFlag(74000669, ON);
 });
 
+//----------------------------------------------
+// 
+//----------------------------------------------
 Event(9020, Default, function(X0_4, X4_4, X8_4, X12_4, X16_1, X17_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfBatchEventFlags(EventEndType.End, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, X4_4, X8_4);
+    
     SetEventFlag(X0_4, OFF);
+    
     IfPlayerInoutMap(OR_01, false, X16_1, X17_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 74000013);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(AND_01, PASS, OR_01);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetEventFlag(X0_4, ON);
+    
     IfPlayerInoutMap(OR_02, false, X16_1, X17_1);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 74000013);
     IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(AND_02, PASS, OR_02);
     IfConditionGroup(MAIN, FAIL, AND_02);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
-Event(9080, Default, function(X0_1, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, X0_1, X4_4, OwnershipState.Owns);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
-    SetEventFlag(X8_4, OFF);
-});
-
+//----------------------------------------------
 // Hawkwood - Flag Check
+//----------------------------------------------
 Event(9100, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1242,7 +1478,9 @@ Event(9100, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Sirris - Flags
+//----------------------------------------------
 Event(9101, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1293,7 +1531,9 @@ Event(9101, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Greirat - Quest Stage flags
+//----------------------------------------------
 Event(9102, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1318,7 +1558,9 @@ Event(9102, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Orbeck - Flags
+//----------------------------------------------
 Event(9103, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.Restart, true);
     SetEventFlag(X0_4, OFF);
@@ -1328,7 +1570,9 @@ Event(9103, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Irina/Eygon - Flags
+//----------------------------------------------
 Event(9104, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1348,7 +1592,9 @@ Event(9104, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Anri - Flags
+//----------------------------------------------
 Event(9105, Default, function(X0_4, X4_4, X8_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1371,7 +1617,9 @@ Event(9105, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Sirris - Flags
+//----------------------------------------------
 Event(9106, Restart, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1385,7 +1633,9 @@ Event(9106, Restart, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Yuria - Flags
+//----------------------------------------------
 Event(9107, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1399,7 +1649,9 @@ Event(9107, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Yuria - Flags
+//----------------------------------------------
 Event(9108, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1413,7 +1665,9 @@ Event(9108, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Yuria - Flags
+//----------------------------------------------
 Event(9109, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1427,7 +1681,9 @@ Event(9109, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Yuria - Flags
+//----------------------------------------------
 Event(9110, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1449,7 +1705,9 @@ Event(9110, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Anri - Flags
+//----------------------------------------------
 Event(9111, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1472,7 +1730,9 @@ Event(9111, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-// 
+//----------------------------------------------
+//
+//----------------------------------------------
 Event(9112, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1482,7 +1742,9 @@ Event(9112, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Lapp - Flags
+//----------------------------------------------
 Event(9113, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1510,7 +1772,9 @@ Event(9113, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Shira - Flags
+//----------------------------------------------
 Event(9114, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
@@ -1520,8 +1784,10 @@ Event(9114, Default, function(X0_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
 // Boss Kill Count Tracker
 // <trigger flag>, <end flag>, <set flag>, <bits>, <bits>, <threshold>, <compare value>
+//----------------------------------------------
 Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
@@ -1608,6 +1874,9 @@ Event(9120, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_1, X20_4, X24_4) {
     SetEventFlag(X4_4, ON);
 });
 
+//----------------------------------------------
+//
+//----------------------------------------------
 Event(690, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X12_4);
@@ -1644,6 +1913,9 @@ Event(690, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+//
+//----------------------------------------------
 Event(840, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X0_4, OFF);
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -1659,6 +1931,9 @@ Event(840, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+//
+//----------------------------------------------
 Event(870, Default, function(X0_1, X4_4) {
     IfPlayersCovenant(MAIN, X0_1);
     SetEventFlag(X4_4, ON);
@@ -1668,233 +1943,32 @@ Event(870, Default, function(X0_1, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-//------------------------------------------------------
-// Cinders
-//------------------------------------------------------
-// Setup - Host only
-Event(20000, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    InitializeEvent(0, 20001, 0); // Game Flags - Once
-    InitializeEvent(0, 20002, 0); // Game Flags - On Load
-    
-    InitializeEvent(0, 20003, 10000); // No Hit State
-    InitializeEvent(0, 20004, 10000); // Deathless Run State
-    InitializeEvent(0, 20005, 10000); // Hitless Run State
-    
-    // Curses - Add Player Effects
-    InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 20010, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 20010, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 20010, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 20010, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 20010, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 20010, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 20010, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 20010, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 20010, 25000409, 250001000, 250001019); // Curse of Pride - 100%
-    
-    InitializeEvent(10, 20010, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 20010, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 20010, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 20010, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 20010, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 20010, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 20010, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 20010, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 20010, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 20010, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
-   
-    InitializeEvent(20, 20010, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 20010, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 20010, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 20010, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 20010, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 20010, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 20010, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 20010, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 20010, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 20010, 25000429, 250001300, 250001319); // Curse of Vitality - 100
-
-    InitializeEvent(30, 20010, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 20010, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 20010, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 20010, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 20010, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 20010, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 20010, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 20010, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 20010, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 20010, 25000439, 250001400, 250001419); // Curse of Wrath - 100
-    
-    InitializeEvent(40, 20010, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 20010, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 20010, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 20010, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 20010, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 20010, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 20010, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 20010, 25000501, 250002200, 250002210); // Curse of Valor
-    
-    // Curses - Remove Player Effects
-    InitializeEvent(0, 20020, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 20020, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 20020, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 20020, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 20020, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 20020, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 20020, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 20020, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 20020, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 20020, 25000409, 250001000, 250001019); // Curse of Pride - 100%
-    
-    InitializeEvent(10, 20020, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 20020, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 20020, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 20020, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 20020, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 20020, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 20020, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 20020, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 20020, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 20020, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
-   
-    InitializeEvent(20, 20020, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 20020, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 20020, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 20020, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 20020, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 20020, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 20020, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 20020, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 20020, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 20020, 25000429, 250001300, 250001319); // Curse of Vitality - 100
-
-    InitializeEvent(30, 20020, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 20020, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 20020, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 20020, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 20020, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 20020, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 20020, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 20020, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 20020, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 20020, 25000439, 250001400, 250001419); // Curse of Wrath - 100
-    
-    InitializeEvent(40, 20020, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 20020, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 20020, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 20020, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 20020, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 20020, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
-    
-    // Covenant Material Drops
-    InitializeEvent(0, 20030, 10000, 160100232, 800010000, 800010020); // Thieves' Code
-    InitializeEvent(1, 20030, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
-    InitializeEvent(2, 20030, 10000, 160100252, 800010200, 800010220); // Spears of the Church
-    InitializeEvent(3, 20030, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
-    InitializeEvent(4, 20030, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
-    InitializeEvent(5, 20030, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
-    InitializeEvent(6, 20030, 10000, 160100302, 800010600, 800010620); // Mound-makers
-    InitializeEvent(7, 20030, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
-    InitializeEvent(8, 20030, 10000, 160100332, 800010800, 800010820); // Chaos Servant
-    InitializeEvent(9, 20030, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
-    InitializeEvent(10, 20030, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
-    InitializeEvent(12, 20030, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
-    InitializeEvent(11, 20030, 10000, 160100362, 800011200, 800011220); // Way of White
-    InitializeEvent(13, 20030, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
-    InitializeEvent(14, 20030, 10000, 160100392, 800011400, 800011420); // Way of Blue
-    InitializeEvent(15, 20030, 10000, 160100402, 800011500, 800011520); // Company of Champions
-    InitializeEvent(16, 20030, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
-    InitializeEvent(0, 20031, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
-    
-    // Boss Revival
-    InitializeEvent(0, 20100, 0); // Dismal Knight
-    InitializeEvent(0, 20101, 0); // Vordt
-    InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
-    InitializeEvent(0, 20103, 0); // Crystal Sage
-    InitializeEvent(0, 20104, 0); // Deacons of the Deep
-    InitializeEvent(0, 20105, 0); // Abyss Watchers
-    InitializeEvent(0, 20106, 0); // High Lord Wolnir
-    InitializeEvent(0, 20107, 0); // Old Demon King
-    InitializeEvent(0, 20108, 0); // Pontiff Sulyvahn
-    InitializeEvent(0, 20109, 0); // Aldrich
-    InitializeEvent(0, 20110, 0); // Yhorm the Giant
-    InitializeEvent(0, 20111, 0); // Dancer
-    InitializeEvent(0, 20112, 0); // Oceiros
-    InitializeEvent(0, 20113, 0); // Dragonslayer Armour
-    InitializeEvent(0, 20114, 0); // Ancient Wyvern
-    InitializeEvent(0, 20115, 0); // Nameless King
-    InitializeEvent(0, 20116, 0); // Champion Gundyr
-    InitializeEvent(0, 20117, 0); // Twin Princes
-    InitializeEvent(0, 20118, 0); // Soul of Cinder
-    InitializeEvent(0, 20119, 0); // Sister Friede
-    InitializeEvent(0, 20120, 0); // Lordran Remnants
-    InitializeEvent(0, 20121, 0); // Demon Prince
-    InitializeEvent(0, 20122, 0); // Darkeater Midir
-    InitializeEvent(0, 20123, 0); // Slave Knight Gael
-    InitializeEvent(0, 20124, 0); // Halflight
-    InitializeEvent(0, 20125, 0); // Champions of Yore
-    InitializeEvent(0, 20126, 0); // Prince Dorthinus
-    InitializeEvent(0, 20127, 0); // Cathedral Guardian
-    InitializeEvent(0, 20128, 0); // Mirror Knight
-    InitializeEvent(0, 20129, 0); // Aborr
-    InitializeEvent(0, 20130, 0); // Princess Yngvil
-    InitializeEvent(0, 20131, 0); // The Rock
-    InitializeEvent(0, 20132, 0); // Twisted Knight
-    InitializeEvent(0, 20133, 0); // Fallen Protector
-    
-    InitializeEvent(0, 20040, 0); // Crown of the Great Lord
-});
-
 //------------------------------------------------
 // Game Flags - Once
 //------------------------------------------------
 Event(20001, Default, function(X0_4, X4_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25000099);
-
-    // Curses/Marks
-    SetEventFlag(25000100, OFF); // Mark of Sanguis
-    SetEventFlag(25000101, OFF); // Mark of Canis
-    SetEventFlag(25000102, OFF); // Mark of Piscis
-    SetEventFlag(25000103, OFF); // Mark of Prismatica
-   
-    SetEventFlag(25000150, OFF); // Curse of Obscurity
-    SetEventFlag(25000151, OFF); // Curse of Vitality
-    SetEventFlag(25000152, OFF); // Curse of Wrath
-    SetEventFlag(25000153, OFF); // Curse of Pride
-    SetEventFlag(25000154, OFF); // Curse of Simplicity
-    SetEventFlag(25000155, OFF); // Curse of Fortitude
-    SetEventFlag(25000156, OFF); // Curse of Gluttony
-    SetEventFlag(25000157, OFF); // Curse of Frailty
-    SetEventFlag(25000158, OFF); // Curse of Enfeeblement
-    SetEventFlag(25000159, OFF); // Curse of Impermanence
-    SetEventFlag(25000160, OFF); // Curse of Valor
+    
+    var flag_NeverDied           = 25000030;
+    var flag_NeverHit            = 25000031;
+    var flag_TranspositionActive = 74000171;
+    var flag_CoiledSword_Placed  = 14000101;
+    
+    // Infusion availability
+    SetEventFlag(300, ON); 
+    SetEventFlag(301, ON); 
+    SetEventFlag(302, ON); 
+    SetEventFlag(303, ON); 
     
     // Game State
-    SetEventFlag(25000030, ON); // Deathless Run
-    SetEventFlag(25000031, ON); // Hitless Run
-    SetEventFlag(74000171, ON) // Transposition Enabled
+    SetEventFlag(flag_NeverDied, ON);
+    SetEventFlag(flag_NeverHit, ON);
+    SetEventFlag(flag_TranspositionActive, ON);
+    SetEventFlag(flag_CoiledSword_Placed, ON);
     
-    // Menu Options
-    SetEventFlag(25000050, OFF); // Claimed Relic of Power
-    SetEventFlag(25000051, OFF); // Claimed Relic of Insanity
-    SetEventFlag(25000052, OFF); // Claimed Relic of Legends
-    SetEventFlag(25000053, OFF); // Claimed Relic of Myths
-    SetEventFlag(25009520, OFF); // Magnum Ursus - Dark Soul turn-in
-    SetEventFlag(25009580, OFF); // Grudore - Farron Coal
-    SetEventFlag(25009581, OFF); // Grudore - Sage's Coal
-    SetEventFlag(25009582, OFF); // Grudore - Giant's Coal
-    SetEventFlag(25009583, OFF); // Grudore - Profaned Coal
-    
-    // Enable Firelink Shrine bonfire
-    SetBonfireWarpingState(4001950, 60430, Enabled);
-    SetEventFlag(74000010, OFF);
-    SetEventFlag(14000101, ON);
-    SetEventFlag(13100004, ON);
-    SetEventFlag(13000000, ON);
+    // Bonfire Unlocks
+    SetEventFlag(13100004, ON); // Undead Settlement
+    SetEventFlag(13000000, ON); // High Wall of Lothric
 
     SetEventFlag(25000099, ON); // Execution flag
 });
@@ -1903,25 +1977,15 @@ Event(20001, Default, function(X0_4, X4_4) {
 // Game Flags - On Load
 //------------------------------------------------
 Event(20002, Restart, function(X0_4, X4_4) {
-    // Infusion availability flags
-    SetEventFlag(300, ON);
-    SetEventFlag(301, ON);
-    SetEventFlag(302, ON);
-    SetEventFlag(303, ON);
     
-    // Flirt flags
-    SetEventFlag(25008900, OFF); 
-    SetEventFlag(25008901, OFF); 
-    SetEventFlag(25008902, OFF); 
-    SetEventFlag(25008904, OFF);
+    // Random Flag - Used for Flirt/Crow Drop Type
+    BatchSetEventFlags(25008900, 25008902, OFF); // Reset
+    RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
     
-    // Companion Flags
-    BatchSetEventFlags(25000600, 25000699, OFF);
-    
-    RandomlySetEventFlagInRange(25008900, 25008902, ON);
-    
+    // Batch Flag Sets
     BatchSetEventFlags(25000011, 25000017, OFF); // Reset NG+ flags
     
+    // Conditional Flag Sets
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 1);
     SetEventFlag(25000011, ON); // NG+1
     
@@ -1944,26 +2008,43 @@ Event(20002, Restart, function(X0_4, X4_4) {
     SetEventFlag(25000017, ON); // NG+7
 });
 
+//------------------------------------------------
 // No Hit State
+//------------------------------------------------
 Event(20003, Restart, function(X0_4) {
-    SetEventFlag(25006000, 0);
+    var flag_WasHit = 25006000;
+    
+    SetEventFlag(flag_WasHit, OFF);
+    
     IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
-    SetEventFlag(25006000, 1);
+
+    SetEventFlag(flag_WasHit, ON);
 });
 
+//------------------------------------------------
 // Deathless Run State
+//------------------------------------------------
 Event(20004, Default, function(X0_4) {
+    var flag_NeverDied = 25000030;
+    
     IfCharacterHasSpeffect(MAIN, X0_4, 112100, true, ComparisonType.Equal, 1);
-    SetEventFlag(25000030, OFF);
+    
+    SetEventFlag(flag_NeverDied, OFF);
 });
 
+//------------------------------------------------
 // Hitless Run State
+//------------------------------------------------
 Event(20005, Default, function(X0_4) {
+    var flag_NeverHit = 25000031;
+    
     IfCharacterHasSpeffect(MAIN, X0_4, 112101, true, ComparisonType.Equal, 1);
-    SetEventFlag(25000031, OFF);
+    SetEventFlag(flag_NeverHit, OFF);
 });
 
+//------------------------------------------------
 // Enable Curse
+//------------------------------------------------
 Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     
@@ -1978,7 +2059,9 @@ Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Disable Curse
+//------------------------------------------------
 Event(20020, Restart, function(X0_4, X4_4, X8_4) {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     
@@ -1994,7 +2077,9 @@ Event(20020, Restart, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Covenant - Trigger Covenant Item Drop
+//------------------------------------------------
 Event(20030, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2022,7 +2107,9 @@ Event(20030, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Covenant - Trigger Covenant Item Drop - Ritualist Pact
+//------------------------------------------------
 Event(20031, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761700, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(OR_01, X0_4, 160761701, true, ComparisonType.Equal, 1);
@@ -2058,7 +2145,9 @@ Event(20031, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Pyromancer's Parting Flame - Ascension
+//------------------------------------------------
 Event(20042, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2075,7 +2164,9 @@ Event(20042, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Numbness - Change Camera
+//------------------------------------------------
 Event(20043, Default, function(X0_4, X4_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2087,7 +2178,9 @@ Event(20043, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Item - Camera Override
+//------------------------------------------------
 Event(20045, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2099,8 +2192,9 @@ Event(20045, Default, function(X0_4, X4_4, X8_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
-
+//------------------------------------------------
 // Skeleton Illusion - Head
+//------------------------------------------------
 Event(20046, Default, function() {
     IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
     
@@ -2125,7 +2219,9 @@ Event(20046, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Skeleton Illusion - Body
+//------------------------------------------------
 Event(20047, Default, function() {
     IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
     
@@ -2150,7 +2246,9 @@ Event(20047, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Frostbite Removal
+//------------------------------------------------
 Event(20048, Restart, function() {
     IfCharacterHasSpEffect(OR_01, 10000, 3092, true, ComparisonType.Equal, 1); // If Player uses Rime-blue Moss Clump
     IfCharacterHasSpEffect(OR_01, 10000, 3080, true, ComparisonType.Equal, 1); // If Player uses Divine Blessing
@@ -2161,7 +2259,9 @@ Event(20048, Restart, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//------------------------------------------------
 // Crown of the Great Lord
+//------------------------------------------------
 Event(20040, Default, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
@@ -2482,7 +2582,7 @@ Event(20070, Restart, function() {
     BatchSetEventFlags(53100000, 53102999, ON);
     BatchSetEventFlags(53200000, 53202999, ON);
     BatchSetEventFlags(53300000, 53302999, ON);
-    BatchSetEventFlags(53410000, 53402999, ON);
+    BatchSetEventFlags(53410000, 53412999, ON);
     BatchSetEventFlags(53500000, 53502999, ON);
     BatchSetEventFlags(53700000, 53702999, ON);
     BatchSetEventFlags(53800000, 53802999, ON);
@@ -2913,9 +3013,52 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25009810, ON);
-    SetEventFlag(25009813, OFF);
-    SetEventFlag(25009800, ON);
+    SetEventFlag(25000020, ON); // Debug flag
+    
+    AwardItemLot(2000);
+    AwardItemLot(2010);
+    AwardItemLot(2020);
+    AwardItemLot(2030);
+    AwardItemLot(2040);
+    AwardItemLot(2050);
+    AwardItemLot(2060);
+    AwardItemLot(2070);
+    AwardItemLot(2080);
+    AwardItemLot(2090);
+    AwardItemLot(2100);
+    AwardItemLot(2110);
+    AwardItemLot(2120);
+    AwardItemLot(2130);
+    AwardItemLot(2140);
+    AwardItemLot(2150);
+    AwardItemLot(2160);
+    AwardItemLot(2170);
+    AwardItemLot(2180);
+    AwardItemLot(2190);
+    AwardItemLot(2200);
+    AwardItemLot(2210);
+    AwardItemLot(2220);
+    AwardItemLot(2230);
+    AwardItemLot(2240);
+    AwardItemLot(2250);
+    AwardItemLot(2260);
+    AwardItemLot(2270);
+    AwardItemLot(2280);
+    AwardItemLot(2290);
+    AwardItemLot(2300);
+    AwardItemLot(2310);
+    AwardItemLot(2320);
+    AwardItemLot(2330);
+    AwardItemLot(2340);
+    AwardItemLot(2350);
+    AwardItemLot(2360);
+    AwardItemLot(2370);
+    AwardItemLot(2380);
+    AwardItemLot(2390);
+    AwardItemLot(2400);
+    AwardItemLot(2410);
+    AwardItemLot(2420);
+    AwardItemLot(2430);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -2945,7 +3088,7 @@ Event(20062, Default, function(X0_4) {
     BatchSetEventFlags(53100000, 53102999, OFF);
     BatchSetEventFlags(53200000, 53202999, OFF);
     BatchSetEventFlags(53300000, 53302999, OFF);
-    BatchSetEventFlags(53410000, 53402999, OFF);
+    BatchSetEventFlags(53410000, 53412999, OFF);
     BatchSetEventFlags(53500000, 53502999, OFF);
     BatchSetEventFlags(53700000, 53702999, OFF);
     BatchSetEventFlags(53800000, 53802999, OFF);

@@ -148,22 +148,25 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         AddTalkListData(1, 15002000, -1)
         
         # Browse Weapons
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 40, 15013001, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 40, 15013001, -1)
         
         # Browse Spells
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 41, 15013002, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 41, 15013002, -1)
         
         # Browse Armor
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 42, 15013003, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 42, 15013003, -1)
         
         # Browse Accessories
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 43, 15013004, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 43, 15013004, -1)
         
         # Purchase Item
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 45, 15010004, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 45, 15010004, -1)
+        
+        # Secret Shop
+        AddTalkListDataIf(GetEventStatus(25000020) == 1, 47, 15010005, -1)
         
         # Reallocate Attributes
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 46, 15027010, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 or GetEventStatus(25000020) == 1, 46, 15027010, -1)
 
         # Heal the Dark Sigil
         AddTalkListData(4, 15002004, 74000125)
@@ -236,6 +239,10 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         # Purchase Item
         elif GetTalkListEntryResult() == 45:
             OpenRegularShop(804000, 804999)
+            continue
+        # Purchase Item
+        elif GetTalkListEntryResult() == 47:
+            OpenRegularShop(900000, 900999)
             continue
         # Respec
         elif GetTalkListEntryResult() == 46:

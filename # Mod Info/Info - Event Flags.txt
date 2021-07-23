@@ -1136,6 +1136,14 @@
 #-------------------------------------
 # General
 #-------------------------------------
+50 NG+0
+51 NG+1
+52 NG+2
+53 NG+3
+54 NG+4
+55 NG+5
+56 NG+6
+
 130 Loaded High Wall
 131 Loaded Undead Settlement
 132 Loaded Archdragon Peak
@@ -1152,7 +1160,7 @@
 151 Loaded Ringed City
 230 Eclipse Ceremonies enabled
 
-2052 
+2052 Is Client?
 
 6312 Killed Leonhard
 6330 Entered Undead Settlement
@@ -1165,7 +1173,7 @@
 9212 Lord 2
 9213 Lord 3
 9214 Lord 4
-9215
+9215 Firelink Shrine lit
 
 # Reset
 6300 Killed Dancer of the Boreal Valley
@@ -1173,6 +1181,7 @@
 6302 Killed Oceiros, the Consumed King
 6303 Killed Curse-Rotted Greatwood
 6304 Killed Nameless King
+6305 Killed Ancient Wyvern
 6306 Killed Crystal Sage
 6307 Killed Abyss Watchers
 6308 Killed Dragonslayer Armour
@@ -1183,14 +1192,23 @@
 6315 Killed High Lord Wolnir
 6317 Killed Old Demon King
 6318 Killed Yhorm the Giant
+6319 Killed Dismal Knight
 6320 Killed Champion Gundyr
 6321 Killed Soul of Cinder
 6322 Killed Sister Friede
+6323 Killed Lordran Remnants
 6324 Killed Demon Prince
+6325 Killed Halflight
 6326 Killed Darkeater Midir
 6327 Killed Slave Knight Gael
-
+6328 Killed Prince Dorthinus
 6340 Killed Cathedral Guardian
+6341 Killed Mirror Knight
+6342 Killed Aborr
+6343 Killed Princess Yngvil
+6344 Killed The Rock
+6345 Killed Twisted Knight
+6346 Killed Fallen Protector
 
 # Never Reset
 9300 Killed Dancer of the Boreal Valley
@@ -1198,6 +1216,7 @@
 9302 Killed Oceiros, the Consumed King
 9303 Killed Curse-Rotted Greatwood
 9304 Killed Nameless King
+9305 Killed Ancient Wyvern
 9306 Killed Crystal Sage
 9307 Killed Abyss Watchers
 9308 Killed Dragonslayer Armour
@@ -1208,14 +1227,23 @@
 9315 Killed High Lord Wolnir
 9317 Killed Old Demon King
 9318 Killed Yhorm the Giant
+9319 Killed Dismal Knight
 9320 Killed Champion Gundyr
 9321 Killed Soul of Cinder
 9322 Killed Sister Friede
+9323 Killed Lordran Remnants
 9324 Killed Demon Prince
+9325 Killed Halflight
 9326 Killed Darkeater Midir
 9327 Killed Slave Knight Gael
-
+9328 Killed Prince Dorthinus
 9340 Killed Cathedral Guardian
+9341 Killed Mirror Knight
+9342 Killed Aborr
+9343 Killed Princess Yngvil
+9344 Killed The Rock
+9345 Killed Twisted Knight
+9346 Killed Fallen Protector
 
 # Misc
 74000587 Is Sorcerer class
@@ -1246,6 +1274,10 @@
 
 73500265
 73500264
+
+74000465 Is Pyromancer class
+74000587 Is Sorcerer class
+70000900 Is in NG+
 
 #-------------------------------------
 # Sin
@@ -1327,6 +1359,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000015 Is in NG+5
 25000016 Is in NG+6
 25000017 Is in NG+7
+
+25000020 Debug Flag 
 
 25000030 Valid: Deathless Run
 25000031 Valid: Hitless Run
