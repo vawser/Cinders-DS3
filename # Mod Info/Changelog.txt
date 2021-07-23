@@ -181,6 +181,17 @@ Add the following armour:
  - Reinforcement uses the standard Titanite set in all instances (2/4/6 Titanite Shard, 2/4/6 Large Titanite Shard, 2/4/6 Titanite Chunk, 1 Titanite Slab).
 - Added Titanite across all maps, mostly present on corpses.
 
+# Armor
+- Added Ironclad Set.
+- Added Fallen Prince's Set (Velstadt from DS2).
+- Added Imported Set.
+- Added Sanctum Knight Set.
+- Added Stalwart Knight Set (Armored Knight from Sekiro).
+- Added Eastern General Set (From Sekiro).
+- Added Okami Set (From Sekiro).
+- Added Eastern Wolf Set (From Sekiro).
+- Added Eastern Commander Set (From Sekiro).
+
 # NPCs
 - Magnum Ursus now offers his set to buy immediately.
 - Magnum Ursus will now offer the following to buy based on boss kills:
@@ -294,6 +305,13 @@ Add the following armour:
  - Removed the Lonely Hollow bonfire.
  - Moved the Sanctum NPCs back into Firelink Shrine.
  
+# NPCs
+- Intruders no longer have the red phantom coloring.
+- Replaced Dulfisk the Accursed with Ironclad Xavier.
+- Replaced Morric, the Fallen Knight with Sanctum Knignt Norjask.
+- Replaced Devotee Scarlett with Unstoppable Ifrit
+- Changed Freya the Wretched into the Imported Set.
+
 # Bosses
 - Increased Sister Friede's poise to 50.
 
@@ -337,13 +355,3 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-Finish the armor icons
-
-10410000 Ironclad
-10420000 Fallen Prince
-10430000 Imported
-10440000 Sanctum Knight
-10450000 Stalwart Knight
-10460000 Eastern General
-10470000 Okami
-10481000 Eastern Wolf
