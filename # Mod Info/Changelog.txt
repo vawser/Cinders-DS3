@@ -305,6 +305,9 @@ Add the following armour:
  - Removed the Lonely Hollow bonfire.
  - Moved the Sanctum NPCs back into Firelink Shrine.
  
+- Untended Graves
+ - Added a new secret encounter.
+ 
 # NPCs
 - Intruders no longer have the red phantom coloring.
 - Replaced Dulfisk the Accursed with Ironclad Xavier.
@@ -350,7 +353,6 @@ Moved Black Dragon Knights into Archdragon Peak gauntlet (boss?)
 
 - Shield Catalyst
 - Grand Lance/Chariot Lance
-- Illusion/Insignia
 - Covenant Inventory
 - Piercing Rifle
 - Gehrman's Blunderbuss
