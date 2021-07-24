@@ -3015,50 +3015,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    AwardItemLot(2000);
-    AwardItemLot(2010);
-    AwardItemLot(2020);
-    AwardItemLot(2030);
-    AwardItemLot(2040);
-    AwardItemLot(2050);
-    AwardItemLot(2060);
-    AwardItemLot(2070);
-    AwardItemLot(2080);
-    AwardItemLot(2090);
-    AwardItemLot(2100);
-    AwardItemLot(2110);
-    AwardItemLot(2120);
-    AwardItemLot(2130);
-    AwardItemLot(2140);
-    AwardItemLot(2150);
-    AwardItemLot(2160);
-    AwardItemLot(2170);
-    AwardItemLot(2180);
-    AwardItemLot(2190);
-    AwardItemLot(2200);
-    AwardItemLot(2210);
-    AwardItemLot(2220);
-    AwardItemLot(2230);
-    AwardItemLot(2240);
-    AwardItemLot(2250);
-    AwardItemLot(2260);
-    AwardItemLot(2270);
-    AwardItemLot(2280);
-    AwardItemLot(2290);
-    AwardItemLot(2300);
-    AwardItemLot(2310);
-    AwardItemLot(2320);
-    AwardItemLot(2330);
-    AwardItemLot(2340);
-    AwardItemLot(2350);
-    AwardItemLot(2360);
-    AwardItemLot(2370);
-    AwardItemLot(2380);
-    AwardItemLot(2390);
-    AwardItemLot(2400);
-    AwardItemLot(2410);
-    AwardItemLot(2420);
-    AwardItemLot(2430);
+    SetMapCeremony(40, 0, 10);
     
     EndUnconditionally(EventEndType.Restart);
 });
