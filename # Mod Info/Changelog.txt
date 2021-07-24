@@ -14,7 +14,7 @@
 53002112 High Wall of Lothric / Consumed King's Garden
 53012092 Lothric Castle
 53102097 Undead Settlement
-53202080 Archdragon Peak
+53202081 Archdragon Peak
 53302185 Road of Sacrifices / Farron Keep
 53412137 Grand Archives
 53502086 Cathedral of the Deep
@@ -93,7 +93,11 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
-
+# Bosses
+- Added Titanite Abomination
+ - Found in Archdragon Peak bridge area.
+ - Drops Titanite Slab.
+ 
 #------------------------------
 # TODO
 #------------------------------
@@ -103,6 +107,3 @@ Finish following weapons:
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-c7680 Titanite Demon
- +1 animation shift
- 

@@ -1209,6 +1209,7 @@
 6344 Killed The Rock
 6345 Killed Twisted Knight
 6346 Killed Fallen Protector
+6347 Killed Titanite Abomination
 
 # Never Reset
 9300 Killed Dancer of the Boreal Valley
@@ -1244,6 +1245,7 @@
 9344 Killed The Rock
 9345 Killed Twisted Knight
 9346 Killed Fallen Protector
+9347 Killed Titanite Abomination
 
 # Misc
 74000587 Is Sorcerer class
@@ -1493,6 +1495,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001031 Boss Kill: The Rock
 25001032 Boss Kill: Twisted Knight
 25001033 Boss Kill: Fallen Protector
+25001034 Boss Kill: Titanite Abomination
 
 25006000 No Hit state
 
@@ -1630,6 +1633,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002031 First Boss Kill: The Rock
 25002032 First Boss Kill: Twisted Knight
 25002033 First Boss Kill: Fallen Protector
+25002034 First Boss Kill: Titanite Abomination
 
 25003100 Engaged Boss 
 25003101 Killed Boss 
@@ -1670,3 +1674,4 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003031 Selection: The Rock
 25003032 Selection: Twisted Knight
 25003033 Selection: Fallen Protector
+25003034 Selection: Titanite Abomination

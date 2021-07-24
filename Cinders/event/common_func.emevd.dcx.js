@@ -6047,6 +6047,14 @@ Event(20020132, Default, function() {
 });
 
 //----------------------------------------------
+// Titanite Abomination - Boss Start
+//----------------------------------------------
+Event(20020133, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+
+});
+
+//----------------------------------------------
 // Region Warp
 // <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
 //----------------------------------------------

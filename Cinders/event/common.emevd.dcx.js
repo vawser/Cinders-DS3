@@ -231,6 +231,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20131, 0); // The Rock
     InitializeEvent(0, 20132, 0); // Twisted Knight
     InitializeEvent(0, 20133, 0); // Fallen Protector
+    InitializeEvent(0, 20134, 0); // Titanite Abomination
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -278,6 +279,7 @@ Event(0, Default, function() {
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
+    InitializeEvent(34, 970, 13200880, 2440, 0, 0); // Titanite Abomination
     
     // Game Progress Flags
     InitializeEvent(0, 6100, 6100, 13300800);  // Abyss Watcher
@@ -2428,6 +2430,10 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002033);
     SetSpEffect(10000, 260110032);
     
+    // Titanite Abomination
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002034);
+    SetSpEffect(10000, 260110033);
+    
 });
 
 //----------------------------------------------
@@ -2715,6 +2721,11 @@ Event(20071, Restart, function() {
     SetSpEffect(10000, 260100150);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
+    // Titanite Abomination
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    SetSpEffect(10000, 260100350);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
     // The Rock
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
     SetSpEffect(10000, 260100320);
@@ -2881,6 +2892,12 @@ Event(20072, Restart, function() {
     SetSpEffect(10000, 260100150);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
+    // Titanite Abomination
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003034); // Not Selected
+    SetSpEffect(10000, 260100350);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
     // Nameless King
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002016);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003016); // Not Selected
@@ -3015,7 +3032,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetMapCeremony(40, 0, 10);
+    BatchSetEventFlags(25001001, 25001050, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -4411,6 +4428,56 @@ Event(20133, Restart, function() {
     var ceremonyID = 0;
     
     var text_BossNotKilled = 99030132;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
+    
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
+    
+    Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - Titanite Abomination
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20134, Restart, function() {
+    var param_SpEffect_Trigger = 260100350;
+    
+    var flag_BossKilled     = 25001034;
+    var flag_BossDefeated   = 13200880;
+    var flag_BossInProgress = 13200881;
+    var flag_BossState1     = 9347;
+    var flag_BossState2     = 6347;
+    
+    var entity_SpawnPoint  = 3202962;
+    var entity_PlayerPoint = 3200962;
+    
+    var mapID      = 32;
+    var blockID    = 0;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030133;
     
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
