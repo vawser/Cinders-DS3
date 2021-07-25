@@ -19,6 +19,7 @@ dmy:
 854005 Grey Fire
 854006 Silent Prism Stone
 854007 Rainbow Fire
+854008 Rainbow Fire (Parting Flame)
 
 854010 Black Fire Vestiges
 854011 Black Fire Vestiges [Hit]
@@ -125,6 +126,8 @@ dmy:
 880033 Dark MLGS
 880034 Dark MLGS
 880035 Dark MLGS
+
+881101 Deep Accursed Vomit (With Sounds)
 
 890030 Luck MLGS
 890032 Luck MLGS

@@ -97,11 +97,29 @@ Finish following weapons:
 - Added Titanite Abomination
  - Found in Archdragon Peak bridge area.
  - Drops Titanite Slab.
+
+# Weapons
+- Adjusted the Bloodborne Dash animation when not locked-on.
+- Adjusted the bullet radius of Rosamarinus (and the Infused variants). 
+- Change the vfx of Fool's Catalyst and Maledicinus.
+- Increase the length of Crescent Axe by 15%.
+
+# Shields
+- Updated King's Mirror texture.
+
+# Armors
+- Updated physics for the following set:
+ - Brushwood Set
+ - Mirror Knight Set
+
+# Bugfixes
+- Added stamina cost to Bow/Greatbow Quickstep.
+- Fixed Eastern Wolf's Armguards model and Emblem.
  
 #------------------------------
 # TODO
 #------------------------------
-- Shield Catalyst
+- Shield Catalyst - Loch Shield/Disc Chime
 - Grand Lance/Chariot Lance
 - Covenant Inventory
 - Piercing Rifle
