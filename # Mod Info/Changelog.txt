@@ -111,10 +111,15 @@ Finish following weapons:
 - Updated physics for the following set:
  - Brushwood Set
  - Mirror Knight Set
+ 
+# Map
+- Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
 
 # Bugfixes
 - Added stamina cost to Bow/Greatbow Quickstep.
 - Fixed Eastern Wolf's Armguards model and Emblem.
+- Pot King Greg is now reset by the Champions of Yore tome.
+- Fixed Eastern Wolf Gloves icon.
  
 #------------------------------
 # TODO

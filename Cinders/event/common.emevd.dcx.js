@@ -3971,7 +3971,8 @@ Event(20125, Restart, function() {
     SetEventFlag(14000890, 0); // Blacksmith's Nightmare
     SetEventFlag(14000892, 0); // Ashen Keeper Sofija
     SetEventFlag(9500, 0); // Sword Master
-
+    SetEventFlag(14000893, 0); // Pot King Greg
+    
     // m39
     SetEventFlag(13900730, 0); // Corrupted Knight Lloyd
     SetEventFlag(13900732, 0); // Jailer Eileen
