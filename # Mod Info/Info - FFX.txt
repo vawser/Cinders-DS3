@@ -75,6 +75,18 @@ dmy:
 856022 Torch: Holy
 856028 Torch: Normal
 
+857002 Follower Torch WA: Curse
+857004 Follower Torch WA: Poison
+857006 Follower Torch WA: Bleed
+857008 Follower Torch WA: Frost
+857010 Follower Torch WA: Magic
+857014 Follower Torch WA: Lightning
+857016 Follower Torch WA: Dark
+857018 Follower Torch WA: Luck
+857020 Follower Torch WA: Enchanted
+857022 Follower Torch WA: Holy
+857028 Follower Torch WA: Normal
+
 856030 Red Cloud
 856031 Black Cloud
 856032 Cyan Cloud
@@ -158,6 +170,18 @@ dmy:
 
 895533 Blue Lightning Spark
 
+#------------------------
+# Resource Bin
+#------------------------
+
+s98000.flver Lucky MLGS Model
+s98000_a.tpf Lucky MLGS Texture
+s98010.tpf  No colour s11640.tpf 
+s98011.tpf  Black s11623.tpf
+s98012.tpf  Black s11627.tpf 
+s98013.tpf  Black s11657.tpf 
+s98014.tpf  Black s11621.tpf 
+s98014.tpf  Black s11629.tpf 
 
 #------------------------
 # Reference
