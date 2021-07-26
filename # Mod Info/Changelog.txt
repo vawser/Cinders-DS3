@@ -101,12 +101,15 @@ Finish following weapons:
 # Weapons
 - Adjusted the Bloodborne Dash animation when not locked-on.
 - Adjusted the bullet radius of Rosamarinus (and the Infused variants). 
-- Change the vfx of Fool's Catalyst and Maledicinus.
+- Changed the vfx of Lucky Censuring Palm, Fool's Catalyst and Maledicinus.
 - Increase the length of Crescent Axe by 15%.
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
 
 # Shields
 - Updated King's Mirror texture.
+
+# Spells
+- Black Flame Arc should visually appear on all weapons now.
 
 # Armors
 - Updated physics for the following set:
