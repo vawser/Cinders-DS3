@@ -82,6 +82,7 @@
 3201800 Entering the wall of Light (bridge _ The nest of a flying dragon)
 3201850 Entering the wall of Light (bridge _ on the bridge)
 3201870 Fogwall - The Rock
+3201880 Fogwall - Titanite Abomination
 3301800 Entering the wall of light (Poison swamp forest)
 3301850 Entering the wall of light (elders of the Forest of poisonous swamp crystals)
 3411830 Entering the wall of Light (Ojo 2)
@@ -103,5 +104,6 @@
 4001800 Entering the wall of Light (base)
 4001830 Entering the wall of Light (base)
 4001860 Entering the wall of light (stronghold _ Russ Boss)
-4501804 Princess Yngvil - Fog Wall
+4501860 Princess Yngvil - Fog Wall
+4501960 Prince Dorthinus - Fogwall
 9990800 Entering the wall of Light (test)

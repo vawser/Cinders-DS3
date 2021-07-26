@@ -8,6 +8,7 @@
 3200800 Ancient Wyvern
 3200851 The Nameless King
 3200870 The Rock
+3200880 Titanite Abomination
 3300801 Abyss Watchers
 3300850 Crystal Sage
 3410830 The Twin Princes
@@ -25,8 +26,8 @@
 4000830 Champion Gundyr
 4100800 Soul of Cinder
 4500800 Sister Friede
-4500804 Princess Yngvil
-4500860 Prince Dorthinus
+4500860 Princess Yngvil
+4500960 Prince Dorthinus
 5000801 The Demon Prince
 5000802 The Demon Prince
 5100800 Halflight, Spear of the Church

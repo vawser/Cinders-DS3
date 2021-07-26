@@ -235,10 +235,10 @@
 30500 Tiny [Lothric Castle]
 30600 Captain Morrel [High Wall of Lothric]
 30700 Dominatrix Sharron [Lothric Castle]
-30800 Morric, the Fallen Knight [Cathedral of the Deep]
+30800 Sanctum Knight Norjask [Cathedral of the Deep]
 30900 Tomb Raider Dyfan [Catacombs of Carthus]
 31000 Chaos Servant Eygor [Smouldering Lake]
-31100 Devotee Scarlett [Irithyll of the Boreal Valley]
+31100 Unstoppable Ifrit [Irithyll of the Boreal Valley]
 31200 Fester the Jester [Profaned Capital]
 31300 Inquisitor Ashford [Consumed King's Garden]
 31500 Corrupted Knight Lloyd [Irithyll Dungeon]
@@ -260,7 +260,7 @@
 33000 Glaive Master Hodir [Ringed City]
 33100 Ezekiel the Penetrator [Ariandel]
 33200 Eija the Shadow [Ariandel]
-33300 Dulfisk the Accursed [Dreg Heap]
+33300 Ironclad Xavier [Dreg Heap]
 33400 Freya the Wretched [Ringed City]
 33500 Nahor the Fallen [Ringed City]
 33600 Easterner Iazeel [Ringed City]
@@ -277,6 +277,7 @@
 35000 Hallowed Knight Orthell [Cathedral of the Deep]
 35100 Dragon Hunter Karstark [Archdragon Peak]
 35200 Disciple of Alsanna [Ariandel]
+35300 Pot King Greg [Untended Graves]
 39999 ### Companions ###
 40110 Solaire of Astora
 49999 ### Hostile NPCs ###

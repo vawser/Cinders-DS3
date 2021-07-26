@@ -519,6 +519,7 @@
 5031 Tome: The Rock
 5032 Tome: Twisted Experiment
 5033 Tome: Fallen Protector
+5034 Tome: Titanite Abomination
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###
@@ -994,6 +995,24 @@
 12321 Magician Emblem
 12330 Nullus Insignia
 12331 Nullus Emblem
+12340 Ironclad Insignia
+12341 Ironclad Emblem
+12350 Sanctum Knight Insignia
+12351 Sanctum Knight Emblem
+12360 Imported Insignia
+12361 Imported Emblem
+12370 Stalwart Knight Insignia
+12371 Stalwart Knight Emblem
+12380 Okami Insignia
+12381 Okami Emblem
+12390 Eastern General Insignia
+12391 Eastern General Emblem
+12401 Eastern Wolf Emblem
+12410 Fallen Prince's Insignia
+12411 Fallen Prince's Emblem
+12420 Eastern Commander Insignia
+12421 Eastern Commander Insignia
+20049 ### Companion Items ###
 20050 Rejuvenating Phial
 20051 Banishing Coin
 20052 Beckoning Bone

@@ -224,10 +224,10 @@
 10411000 Ironclad Armor
 10412000 Ironclad Gauntlets
 10413000 Ironclad Leggings
-10420000 Fallen Herald Helm
-10421000 Fallen Herald Armor
-10422000 Fallen Herald Gauntlets
-10423000 Fallen Herald Leggings
+10420000 Fallen Prince's Helm
+10421000 Fallen Prince's Armor
+10422000 Fallen Prince's Gauntlets
+10423000 Fallen Prince's Leggings
 10430000 Imported Hood
 10431000 Imported Tunic
 10432000 Imported Manchettes
@@ -246,6 +246,7 @@
 10463000 Eastern General Leggings
 10470000 Okami Mask
 10471000 Okami Armor
+10472000 Okami - For Transformation
 10473000 Okami Trousers
 10481000 Eastern Wolf Overcoat
 10482000 Eastern Wolf Gloves

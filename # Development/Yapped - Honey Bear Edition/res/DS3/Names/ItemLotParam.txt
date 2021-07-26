@@ -44,8 +44,8 @@
 2301 [Boss - Sister Friede] Tome: Sister Friede
 2310 [Boss - Lordran Remnants] Soul of the Lordran Remnants
 2311 [Boss - Lordran Remnants] Tome: Lordran Remnants
-2320 [Boss - Princess Yngvil] Soul of the Princess Yngvil
-2321 [Boss - Princess Yngvil] Tome: Princess Yngvil
+2320 [Boss - Prince Dorthinus] Soul of Prince Dorthinus
+2321 [Boss - Prince Dorthinus] Tome: Prince Dorthinus
 2330 [Boss - Demon Prince] Soul of the Demon Prince
 2331 [Boss - Demon Prince] Tome: Demon Prince
 2340 [Boss - Halflight] Soul of Halflight
@@ -63,14 +63,16 @@
 2381 [Boss - Mirror Knight] Tome: Mirror Knight
 2390 [Boss - Aborr] Soul of Aborr
 2391 [Boss - Aborr] Tome: Aborr
-2400 [Boss - Prince Dorthinus] Soul of Prince Dorthinus
-2401 [Boss - Prince Dorthinus] Tome: Prince Dorthinus
+2400 [Boss - Princess Yngvil] Soul of the Princess Yngvil
+2401 [Boss - Princess Yngvil] Tome: Princess Yngvil
 2410 [Boss - The Rock] Soul of the Rock
 2411 [Boss - The Rock] Tome: The Rock
 2420 [Boss - Twisted Knight] Twisted Soul
 2421 [Boss - Twisted Knight] Tome: Twisted Knight
 2430 [Boss - Fallen Protector] Soul of the Maiden
 2431 [Boss - Fallen Protector] Tome: Fallen Protector
+2440 [Boss - Titanite Abomination] Titanite Slab
+2441 [Boss - Titanite Abomination] Tome: Titanite Abomination
 4000 [Giant Tree] Seed of a Giant Tree
 4010 Rosaria's Fingers - Emblem
 4020 [Script] Way of White Circlet
@@ -179,10 +181,16 @@
 10503 [Tiny] Smough's Leggings
 10600 [Captain Morrel] Ring of Momentum
 10700 [Dominatrix Sharron] Witch's Locks
-10800 [Morric, the Fallen Knight] Barathrum Petal
+10800 [Sanctum Knight Norjask] Sanctum Knight Helm
+10801 [Sanctum Knight Norjask] Sanctum Knight Armor
+10802 [Sanctum Knight Norjask] Sanctum Knight Gauntlets
+10803 [Sanctum Knight Norjask] Sanctum Knight Leggings
 10900 [Tomb Raider Dyfan] Bone Rapier
 11000 [Chaos Servant Eygor] Demon's Axe
-11100 [Devotee Scarlett] Celeritas Stem
+11100 [Unstoppable Ifrit] Stalwart Knight Helm
+11101 [Unstoppable Ifrit] Stalwart Knight Armor
+11102 [Unstoppable Ifrit] Stalwart Knight Gauntlets
+11103 [Unstoppable Ifrit] Stalwart Knight Leggings
 11200 [Corrupted Knight Lloyd] Writhing Hammer
 11300 [Fester the Jester] Jester's Cap
 11301 [Fester the Jester] Jester's Robes
@@ -233,8 +241,14 @@
 13602 [Ezekiel of Mirrah] Penetrator Gauntlets
 13603 [Ezekiel of Mirrah] Penetrator Leggings
 13700 [Eija the Shadow] Vindicti Petal
-13800 [Dulfisk the Accursed] Barathrum Petal
-13900 [Freya the Wretched] Celeritas Stem
+13800 [Ironclad Xavier] Ironclad Helm
+13801 [Ironclad Xavier] Ironclad Armor
+13802 [Ironclad Xavier] Ironclad Gauntlets
+13803 [Ironclad Xavier] Ironclad Leggings
+13900 [Freya the Wretched] Imported Hood
+13901 [Freya the Wretched] Imported Tunic
+13902 [Freya the Wretched] Imported Manchettes
+13903 [Freya the Wretched] Imported Trousers
 14000 [Nahor the Fallen] Scraping Spear
 14100 [Easterner Iazeel] Makoto
 14200 [Gaius the Mighty] Helm of Aurous
@@ -262,9 +276,17 @@
 15001 [Wandering Knight Osvaldo] Heide Knight Chainmail
 15002 [Wandering Knight Osvaldo] Heide Knight Gauntlets
 15003 [Wandering Knight Osvaldo] Heide Knight Leggings
-15100 [Lord Takatsuji] Imperial Samurai Helm
-15200 [Lieutenant Ugali] Horned Samurai Helm
-15300 [Lieutenant Hanji] Ornate Samurai Helm
+15100 [Lord Takatsuji] Eastern Commander Helmet
+15101 [Lord Takatsuji] Eastern Commander Armor
+15102 [Lord Takatsuji] Eastern Commander Gauntlets
+15103 [Lord Takatsuji] Eastern Commander Leggings
+15200 [Lieutenant Ugali] Eastern General Helm
+15201 [Lieutenant Ugali] Eastern General Armor
+15202 [Lieutenant Ugali] Eastern General Gauntlets
+15203 [Lieutenant Ugali] Eastern General Leggings
+15300 [Lieutenant Hanji] Eastern Wolf Overcoat
+15301 [Lieutenant Hanji] Eastern Wolf Gloves
+15302 [Lieutenant Hanji] Eastern Wolf Trousers
 15400 [Ashen Keeper Sofija] Bone Ash Mask
 15401 [Ashen Keeper Sofija] Bone Ash Armor
 15402 [Ashen Keeper Sofija] Bone Ash Gauntlets
@@ -281,6 +303,7 @@
 15701 [Disciple of Alsanna] Ivory King Armor
 15702 [Disciple of Alsanna] Ivory King Gauntlets
 15703 [Disciple of Alsanna] Ivory King Leggings
+15800 [Pot King Greg] Pot
 50391 ### Treasure - NPC
 50400 [Yuria of Londor] Darkdrift
 50600 [Company Captain Yorshka] Blade of the Darkmoon
@@ -1873,6 +1896,11 @@
 3900541 [Chest] Giant's Armor
 3900542 [Chest] Giant's Gauntlets
 3900543 [Chest] Giant's Leggings
+3900550 [Chest] Okami Mask
+3900551 [Chest] Okami Armor
+3900552 [Chest] Okami Trousers
+3900560 [Chest] Horned Samurai Helm
+3900570 [Chest] Ornate Samurai Helm
 3900800 [Unique - Laddersmith Gilligan] Jailbreaker's Key
 3900810 [Unique - Profaned Flame] Profaned Coal
 3900820 [Unique - Yhorm's Throne] Storm Ruler
@@ -2092,7 +2120,7 @@
 4500430 [Chest] Guillotine Axe
 4500440 [Chest] Crow Quills
 4500450 [Chest] Valorheart
-4500460 [Chest] Fool's Sigil
+4500460 [Chest] Rampart Golem Lance
 4500470 [Chest] Slave Knight Hood
 4500471 [Chest] Slave Knight Armor
 4500472 [Chest] Slave Knight Gauntlets
