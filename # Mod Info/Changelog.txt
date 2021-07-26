@@ -104,6 +104,19 @@ Finish following weapons:
 - Changed the vfx of Lucky Censuring Palm, Fool's Catalyst and Maledicinus.
 - Increase the length of Crescent Axe by 15%.
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
+- Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
+- Adjusted the guard absorption of the Witchtree Limb and the stability of several weapons.
+- Added guard absorption and stability scaling to these weapons:
+ - Ultra greatswords
+ - Greataxes
+ - Great hammers
+ - Witchtree Limb
+ - Dark Hand (only guard absorption)
+ - Runelock
+ - Valorheart
+ - Giant Door Shield
+ - Imperious Greatshield
+- Guard absorption scales with Dexterity, stability scales with Strength. Both scale linearly and work indepently of damage scaling, infusion or reinforcement level.
 
 # Shields
 - Updated King's Mirror texture.
