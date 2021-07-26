@@ -176,10 +176,10 @@
 30500 Invader - Tiny [Lothric Castle]
 30600 Invader - Captain Morrel [High Wall of Lothric]
 30700 Invader - Dominatrix Sharron [Lothric Castle]
-30800 Invader - Morric, the Fallen Knight [Cathedral of the Deep]
+30800 Invader - Sanctum Knight Norjask [Cathedral of the Deep]
 30900 Invader - Tomb Raider Dyfan [Catacombs of Carthus]
 31000 Invader - Chaos Servant Eygor [Smouldering Lake]
-31100 Invader - Devotee Scarlett [Irithyll of the Boreal Valley]
+31100 Invader - Unstoppable Ifrit [Irithyll of the Boreal Valley]
 31200 Invader - Fester the Jester [Profaned Capital]
 31300 Invader - Inquisitor Ashford [Consumed King's Garden]
 31500 Invader - Corrupted Knight Lloyd [Irithyll Dungeon]
@@ -198,7 +198,7 @@
 33000 Invader - Glaive Master Hodir [Ringed City]
 33100 Invader - Ezekiel the Duelist [Ariandel]
 33200 Invader - Eija the Shadow [Ariandel]
-33300 Invader - Dulfisk the Accursed [Dreg Heap]
+33300 Invader - Ironclad Xavier [Dreg Heap]
 33400 Invader - Freya the Wretched [Ringed City]
 33500 Invader - Nahor the Fallen [Ringed City]
 33600 Invader - Easterner Iazeel [Ringed City]
@@ -215,6 +215,7 @@
 35000 Invader - Hallowed Knight Orthell [Cathedral of the Deep]
 35100 Invader - Dragon Hunter Karstark [Archdragon Peak]
 35200 Invader - Disciple of Alsanna [Ariandel]
+35300 Invader - Pot King Greg
 39999 ### Companions ###
 40000 m30_0 - Hollow
 40010 m30_1 - Lothric Knight (Sword)
@@ -1228,9 +1229,7 @@
 756200 [Boss] Princess Yngvil - Sapping Orb
 757000 [Boss] Princess Yngvil - Frigid Attendant
 757010 Frigid Attendant
-757020 [Boss] Knight of Dorthinus
 757100 Frigid Attendant Orb
-757110 [Boss] Knight of Dorthinus - Orb
 760000 [Boss] Prince Dorthinus
 761000 Smough (Winged Knight)
 762000 Yorgh (Gundyr)
@@ -1242,6 +1241,7 @@
 768000 [Boss] The Forlorn Giant
 770000 [Boss] Fallen Protector
 770100 [Boss] Fair Maiden
+771000 [Boss] Titanite Abomination
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

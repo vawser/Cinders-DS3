@@ -1555,26 +1555,6 @@
 102813780 Frayed Blade
 102814700 Quelaag's Fury Sword - Quelaag's Rage
 102814705 Quelaag's Fury Sword - Quelaag's Rage
-102815000 Beast Cutter - 1H Light #1
-102815010 Beast Cutter - 1H Light #2
-102815020 Beast Cutter - 1H Light #3
-102815030 Beast Cutter - 1H Jump Attack
-102815100 Beast Cutter - 1H Heavy #1
-102815105 Beast Cutter - 1H Heavy #1 Max
-102815110 Beast Cutter - 1H Heavy #2
-102815115 Beast Cutter - 1H Heavy #2 Max
-102815200 Beast Cutter - 2H Light #1
-102815210 Beast Cutter - 2H Light #2
-102815220 Beast Cutter - 2H Light #3
-102815230 Beast Cutter - 2H Jump Attack
-102815300 Beast Cutter - 2H Heavy #1
-102815305 Beast Cutter - 2H Heavy #1 Max
-102815310 Beast Cutter - 2H Heavy #2
-102815315 Beast Cutter - 2H Heavy #2 Max
-102815520 Beast Cutter - 1H Backstep
-102815530 Beast Cutter - 2H Backstep
-102815540 Beast Cutter - 1H Roll Attack
-102815580 Beast Cutter - 2H Roll Attack
 102816100 Beasthunter Saif - 1H Heavy #1
 102816520 Beasthunter Saif - 1H Backstep
 102816700 Beasthunter Saif - Evade
@@ -2111,6 +2091,33 @@
 103081700 Corvian Longstaff - Curse Spores
 103082700 Corvian Longstaff - Bleed Spores
 103083700 Corvian Longstaff - Frost Spores
+103090000 Beast Cutter - 1H Light #1
+103090010 Beast Cutter - 1H Light #2
+103090020 Beast Cutter - 1H Light #3
+103090025 Beast Cutter - 1H Light #4
+103090028 Beast Cutter - 1H Light #5
+103090030 Beast Cutter - 1H Jump Attack
+103090100 Beast Cutter - 1H Heavy #1
+103090105 Beast Cutter - 1H Heavy #1 Max
+103090110 Beast Cutter - 1H Heavy #2
+103090115 Beast Cutter - 1H Heavy #2 Max
+103090200 Beast Cutter - 2H Light #1
+103090210 Beast Cutter - 2H Light #2
+103090220 Beast Cutter - 2H Light #3
+103090230 Beast Cutter - 2H Jump Attack
+103090300 Beast Cutter - 2H Heavy #1
+103090305 Beast Cutter - 2H Heavy #1 Max
+103090310 Beast Cutter - 2H Heavy #2
+103090315 Beast Cutter - 2H Heavy #2 Max
+103090410 Beast Cutter - 1H Kick
+103090420 Beast Cutter - 2H Kick
+103090520 Beast Cutter - 1H Backstep
+103090530 Beast Cutter - 2H Backstep
+103090540 Beast Cutter - 1H Roll Attack
+103090580 Beast Cutter - 2H Roll Attack
+103090700 Beast Cutter - Spin Slash Initial
+103090710 Beast Cutter - Spin Slash
+103090720 Beast Cutter - Spin Slash Final
 103200000 Greataxe - 1H Light #1
 103200001 Greataxe - 1H Light #1 Range
 103200010 Greataxe - 1H Light #2
@@ -3014,6 +3021,8 @@
 103616115 Silver Knight Spear - 1H Heavy #2 Max
 103616300 Silver Knight Spear - 2H Heavy #1
 103616305 Silver Knight Spear - 2H Heavy #1 Max
+103616310 Silver Knight Spear - 2H Heavy #2
+103616315 Silver Knight Spear - 2H Heavy #2 Max
 103617150 [Spitfire Spear] - Heavy - Bullet
 103617151 [Spitfire Spear] - Heavy - Bullet [Hit]
 103617710 [Spitfire Spear] SpitFire
@@ -3255,6 +3264,8 @@
 103800806 Halberd (Alt) - Tackle
 103800807 Halberd (Alt) - Tackle
 103800811 Halberd (Alt) - Tackle (Hit)
+103800815 Helix
+103800816 Helix
 103800990 Halberd - Quickstep
 103802000 Lucerne - 1H Light #1
 103802010 Lucerne - 1H Light #2 (thrust)
@@ -4080,6 +4091,7 @@
 104400580 Bow - 2H Roll
 104400600 Bow - Parry
 104400610 Bow - Backstab Transition
+104400990 Bow - Quickstep
 104600000 Crossbow - 1H Light
 104600100 Crossbow - 1H Heavy
 104600200 Crossbow - 2H Light
@@ -4353,22 +4365,198 @@
 104900540 Torch
 104900580 Torch
 104900990 Torch - Quickstep
-104901040 Follower Torch
-104901470 Follower Torch
-104901490 Follower Torch
-104901500 Follower Torch
-104901501 Follower Torch
-104901505 Follower Torch
-104901506 Follower Torch
-104901510 Follower Torch
-104901511 Follower Torch
-104901515 Follower Torch
-104901516 Follower Torch
-104901517 Follower Torch
-104901610 Follower Torch
-104901615 Follower Torch
-104901700 Follower Torch
-104901710 Follower Torch
+104901040 Follower Torch - Stock
+104901470 Follower Torch - Stock
+104901490 Follower Torch - Stock
+104901500 Follower Torch - Stock
+104901501 Follower Torch - Stock
+104901505 Follower Torch - Stock
+104901506 Follower Torch - Stock
+104901510 Follower Torch - Stock
+104901511 Follower Torch - Stock
+104901515 Follower Torch - Stock
+104901516 Follower Torch - Stock
+104901517 Follower Torch - Stock
+104901610 Follower Torch - Stock
+104901615 Follower Torch - Stock
+104901700 Follower Torch - Stock - Bullet
+104901710 Follower Torch - Stock - Bullet
+104902040 Follower Torch - Curse
+104902470 Follower Torch - Curse
+104902490 Follower Torch - Curse
+104902500 Follower Torch - Curse
+104902501 Follower Torch - Curse
+104902505 Follower Torch - Curse
+104902506 Follower Torch - Curse
+104902510 Follower Torch - Curse
+104902511 Follower Torch - Curse
+104902515 Follower Torch - Curse
+104902516 Follower Torch - Curse
+104902517 Follower Torch - Curse
+104902610 Follower Torch - Curse
+104902615 Follower Torch - Curse
+104902700 Follower Torch - Curse - Bullet
+104902710 Follower Torch - Curse - Bullet
+104903040 Follower Torch - Poison
+104903470 Follower Torch - Poison
+104903490 Follower Torch - Poison
+104903500 Follower Torch - Poison
+104903501 Follower Torch - Poison
+104903505 Follower Torch - Poison
+104903506 Follower Torch - Poison
+104903510 Follower Torch - Poison
+104903511 Follower Torch - Poison
+104903515 Follower Torch - Poison
+104903516 Follower Torch - Poison
+104903517 Follower Torch - Poison
+104903610 Follower Torch - Poison
+104903615 Follower Torch - Poison
+104903700 Follower Torch - Poison - Bullet
+104903710 Follower Torch - Poison - Bullet
+104904040 Follower Torch - Blood
+104904470 Follower Torch - Blood
+104904490 Follower Torch - Blood
+104904500 Follower Torch - Blood
+104904501 Follower Torch - Blood
+104904505 Follower Torch - Blood
+104904506 Follower Torch - Blood
+104904510 Follower Torch - Blood
+104904511 Follower Torch - Blood
+104904515 Follower Torch - Blood
+104904516 Follower Torch - Blood
+104904517 Follower Torch - Blood
+104904610 Follower Torch - Blood
+104904615 Follower Torch - Blood
+104904700 Follower Torch - Blood - Bullet
+104904710 Follower Torch - Blood - Bullet
+104905040 Follower Torch - Frost
+104905470 Follower Torch - Frost
+104905490 Follower Torch - Frost
+104905500 Follower Torch - Frost
+104905501 Follower Torch - Frost
+104905505 Follower Torch - Frost
+104905506 Follower Torch - Frost
+104905510 Follower Torch - Frost
+104905511 Follower Torch - Frost
+104905515 Follower Torch - Frost
+104905516 Follower Torch - Frost
+104905517 Follower Torch - Frost
+104905610 Follower Torch - Frost
+104905615 Follower Torch - Frost
+104905700 Follower Torch - Frost - Bullet
+104905710 Follower Torch - Frost - Bullet
+104906040 Follower Torch - Magic
+104906470 Follower Torch - Magic
+104906490 Follower Torch - Magic
+104906500 Follower Torch - Magic
+104906501 Follower Torch - Magic
+104906505 Follower Torch - Magic
+104906506 Follower Torch - Magic
+104906510 Follower Torch - Magic
+104906511 Follower Torch - Magic
+104906515 Follower Torch - Magic
+104906516 Follower Torch - Magic
+104906517 Follower Torch - Magic
+104906610 Follower Torch - Magic
+104906615 Follower Torch - Magic
+104906700 Follower Torch - Magic - Bullet
+104906710 Follower Torch - Magic - Bullet
+104907040 Follower Torch - Fire
+104907470 Follower Torch - Fire
+104907490 Follower Torch - Fire
+104907500 Follower Torch - Fire
+104907501 Follower Torch - Fire
+104907505 Follower Torch - Fire
+104907506 Follower Torch - Fire
+104907510 Follower Torch - Fire
+104907511 Follower Torch - Fire
+104907515 Follower Torch - Fire
+104907516 Follower Torch - Fire
+104907517 Follower Torch - Fire
+104907610 Follower Torch - Fire
+104907615 Follower Torch - Fire
+104907700 Follower Torch - Fire - Bullet
+104907710 Follower Torch - Fire - Bullet
+104908040 Follower Torch - Lightning
+104908470 Follower Torch - Lightning
+104908490 Follower Torch - Lightning
+104908500 Follower Torch - Lightning
+104908501 Follower Torch - Lightning
+104908505 Follower Torch - Lightning
+104908506 Follower Torch - Lightning
+104908510 Follower Torch - Lightning
+104908511 Follower Torch - Lightning
+104908515 Follower Torch - Lightning
+104908516 Follower Torch - Lightning
+104908517 Follower Torch - Lightning
+104908610 Follower Torch - Lightning
+104908615 Follower Torch - Lightning
+104908700 Follower Torch - Lightning - Bullet
+104908710 Follower Torch - Lightning - Bullet
+104909040 Follower Torch - Dark
+104909470 Follower Torch - Dark
+104909490 Follower Torch - Dark
+104909500 Follower Torch - Dark
+104909501 Follower Torch - Dark
+104909505 Follower Torch - Dark
+104909506 Follower Torch - Dark
+104909510 Follower Torch - Dark
+104909511 Follower Torch - Dark
+104909515 Follower Torch - Dark
+104909516 Follower Torch - Dark
+104909517 Follower Torch - Dark
+104909610 Follower Torch - Dark
+104909615 Follower Torch - Dark
+104909700 Follower Torch - Dark - Bullet
+104909710 Follower Torch - Dark - Bullet
+104910040 Follower Torch - Lucky
+104910470 Follower Torch - Lucky
+104910490 Follower Torch - Lucky
+104910500 Follower Torch - Lucky
+104910501 Follower Torch - Lucky
+104910505 Follower Torch - Lucky
+104910506 Follower Torch - Lucky
+104910510 Follower Torch - Lucky
+104910511 Follower Torch - Lucky
+104910515 Follower Torch - Lucky
+104910516 Follower Torch - Lucky
+104910517 Follower Torch - Lucky
+104910610 Follower Torch - Lucky
+104910615 Follower Torch - Lucky
+104910700 Follower Torch - Lucky - Bullet
+104910710 Follower Torch - Lucky - Bullet
+104911040 Follower Torch - Enchanted
+104911470 Follower Torch - Enchanted
+104911490 Follower Torch - Enchanted
+104911500 Follower Torch - Enchanted
+104911501 Follower Torch - Enchanted
+104911505 Follower Torch - Enchanted
+104911506 Follower Torch - Enchanted
+104911510 Follower Torch - Enchanted
+104911511 Follower Torch - Enchanted
+104911515 Follower Torch - Enchanted
+104911516 Follower Torch - Enchanted
+104911517 Follower Torch - Enchanted
+104911610 Follower Torch - Enchanted
+104911615 Follower Torch - Enchanted
+104911700 Follower Torch - Enchanted - Bullet
+104911710 Follower Torch - Enchanted - Bullet
+104912040 Follower Torch - Holy
+104912470 Follower Torch - Holy
+104912490 Follower Torch - Holy
+104912500 Follower Torch - Holy
+104912501 Follower Torch - Holy
+104912505 Follower Torch - Holy
+104912506 Follower Torch - Holy
+104912510 Follower Torch - Holy
+104912511 Follower Torch - Holy
+104912515 Follower Torch - Holy
+104912516 Follower Torch - Holy
+104912517 Follower Torch - Holy
+104912610 Follower Torch - Holy
+104912615 Follower Torch - Holy
+104912700 Follower Torch - Holy - Bullet
+104912710 Follower Torch - Holy - Bullet
 105000000 Scythe - 1H Light #1
 105000001 Scythe - 1H Light #1 (stick)
 105000010 Scythe - 1H Light #2

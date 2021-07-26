@@ -103,6 +103,7 @@ Finish following weapons:
 - Adjusted the bullet radius of Rosamarinus (and the Infused variants). 
 - Change the vfx of Fool's Catalyst and Maledicinus.
 - Increase the length of Crescent Axe by 15%.
+- Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
 
 # Shields
 - Updated King's Mirror texture.
@@ -121,6 +122,9 @@ Finish following weapons:
 - Pot King Greg is now reset by the Champions of Yore tome.
 - Fixed Eastern Wolf Gloves icon.
 - Fixed bug with the Irithyll illusory staircase.
+- Fixed some weapons using the wrong stats with certain infusions.
+- Fixed the duration of Blessed Weapon and Supreme Blessed Weapon.
+- Fixed Great Lifehunt Scythe not restoring HP on hit.
  
 #------------------------------
 # TODO

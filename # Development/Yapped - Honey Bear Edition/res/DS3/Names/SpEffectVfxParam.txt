@@ -938,6 +938,23 @@
 72431 Nullus Set - Body
 72440 Humanity Sprite - Invisible Head
 72441 Humanity Sprite - Invisible Body with Sprite VFX
+72450 Ironclad Set - Head
+72451 Ironclad Set - Body
+72460 Sanctum Knight Set - Head
+72461 Sanctum Knight Set - Body
+72470 Imported Set - Head
+72471 Imported Set - Body
+72480 Stalwart Knight Set - Head
+72481 Stalwart Knight Set - Body
+72490 Okami Set - Head
+72491 Okami Set - Body
+72500 Eastern General Set - Head
+72501 Eastern General Set - Body
+72511 Eastern Wolf Set - Body
+72520 Fallen Prince's Set - Head
+72521 Fallen Prince's Set - Body
+72530 Eastern Commander Set - Head
+72531 Eastern Commander Set - Body
 75000 Writ of Humanity
 75001 Writ of Anger
 75002 Writ of Crystallization
@@ -1168,7 +1185,7 @@
 99913001 Empowered Companion
 99913010 Lordran Remnants: Spirit Form
 99913020 Lordran Remnants: Active Form
-99913100 Herald of Winter - Frost Eyes
+99913100 Prince Dorthinus - Eye VFX
 99913500 Wax Head
 99913510 Maggots
 99914000 Weapon: Curse Aura

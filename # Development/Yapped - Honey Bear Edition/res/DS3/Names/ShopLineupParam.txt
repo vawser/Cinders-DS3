@@ -158,7 +158,6 @@
 30011 [Ludleth - Vordt] Pontiff's Left Eye
 30012 [Ludleth - Vordt] Snap Freeze
 30013 [Ludleth - Vordt] Frozen Weapon
-30014 [Ludleth - Vordt] Frostflower Ring
 30020 [Ludleth - Greatwood] Arstor's Spear
 30021 [Ludleth - Greatwood] Hammer of the Great Tree
 30022 [Ludleth - Greatwood] Greatwood Remnants
@@ -273,16 +272,18 @@
 30381 [Ludleth - The Rock] Dragon Tooth
 30382 [Ludleth - The Rock] Havel's Greatshield
 30390 [Ludleth - Princess Yngvil] Frostfall
+30391 [Ludleth - Princess Yngvil] Wretched Pendant
+30392 [Ludleth - Princess Yngvil] Frostflower Ring
 30400 [Ludleth - Twisted Knight] Cursed Ring of Evasion
 30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
 30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
 30403 [Ludleth - Twisted Knight] Cursed Ring of Confusion
 30420 [Ludleth - Prince Dorthinus] Sacred Chime Hammer
-30421 [Ludleth - Prince Dorthinus] Rampart Golem Lance
-30422 [Ludleth - Prince Dorthinus] Wretched Pendant
+30421 [Ludleth - Prince Dorthinus] Fool's Sigil
 30430 [Ludleth - Fallen Protector] Blueblood Sword
 30431 [Ludleth - Fallen Protector] Quicksilver Shield
 30432 [Ludleth - Fallen Protector] Life Ring
+30440 [Ludleth - Titanite Abomination]
 36000 [Bonfire - Firelink Shrine] Shriving Stone
 36001 [Bonfire - Firelink Shrine] Lethal Gem
 36002 [Bonfire - Untended Graves] Curse Gem
@@ -643,10 +644,14 @@
 111601 [Shrine Handmaid - Sister Friede] Ordained Dress
 111602 [Shrine Handmaid - Sister Friede] Ordained Trousers
 111610 [Shrine Handmaid - Slave Knight Gael] Pygmy Crown
-111651 [Shrine Handmaid - Herald of Winter] Millwood Knight Helm
-111652 [Shrine Handmaid - Herald of Winter] Millwood Knight Armor
-111653 [Shrine Handmaid - Herald of Winter] Millwood Knight Gauntlets
-111654 [Shrine Handmaid - Herald of Winter] Millwood Knight Leggings
+111651 [Shrine Handmaid - Princess Yngvil] Millwood Knight Helm
+111652 [Shrine Handmaid - Princess Yngvil] Millwood Knight Armor
+111653 [Shrine Handmaid - Princess Yngvil] Millwood Knight Gauntlets
+111654 [Shrine Handmaid - Princess Yngvil] Millwood Knight Leggings
+111660 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Helm
+111661 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Armor
+111662 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Gauntlets
+111663 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Leggings
 119904 [Shrine Handmaid - Untended Graves] White Sign Soapstone
 119905 [Shrine Handmaid - Untended Graves] Dried Finger
 119907 [Shrine Handmaid - Untended Graves] Priestess Ring
@@ -1359,6 +1364,23 @@
 250600 [Alchemist Jiji] Pickpocket Insignia
 250601 [Alchemist Jiji] Pickpocket Emblem
 250602 [Alchemist Jiji] Magician Emblem
+250603 [Alchemist Jiji] Ironclad Insignia
+250604 [Alchemist Jiji] Ironclad Emblem
+250605 [Alchemist Jiji] Sanctum Knight Insignia
+250606 [Alchemist Jiji] Sanctum Knight Emblem
+250607 [Alchemist Jiji] Imported Insignia
+250608 [Alchemist Jiji] Imported Emblem
+250609 [Alchemist Jiji] Stalwart Knight Insignia
+250610 [Alchemist Jiji] Stalwart Knight Emblem
+250611 [Alchemist Jiji] Okami Insignia
+250612 [Alchemist Jiji] Okami Emblem
+250613 [Alchemist Jiji] Eastern General Insignia
+250614 [Alchemist Jiji] Eastern General Emblem
+250615 [Alchemist Jiji] Eastern Wolf Emblem
+250616 [Alchemist Jiji] Fallen Prince's Insignia
+250617 [Alchemist Jiji] Fallen Prince's Emblem
+250618 [Alchemist Jiji] Eastern Commander Insignia
+250619 [Alchemist Jiji] Eastern Commander Emblem
 250700 [Alchemist Jiji] Cleansing Oil
 250701 [Alchemist Jiji] Cleansing Oil (Left)
 250702 [Alchemist Jiji] Magical Oil
@@ -3352,3 +3374,16 @@
 804230 [Gauntlet] Ammunition
 804231 [Gauntlet] Ammunition
 804232 [Gauntlet] Ammunition
+900000 [Debug] Weapon Token
+900001 [Debug] Armor Token
+900002 [Debug] Accesory Token
+900003 [Debug] Tool
+900004 [Debug] Tool
+900005 [Debug] Tool
+900006 [Debug] Tool
+900007 [Debug] Tool
+900008 [Debug] Tool
+900009 [Debug] Tool
+900010 [Debug] Tool
+900011 [Debug] Tool
+900012 [Debug] Tool

@@ -155,10 +155,10 @@
 30500 Tiny
 30600 Captain Morrel
 30700 Dominatrix Sharron
-30800 Morric, the Fallen Knight
+30800 Sanctum Knight Norjask
 30900 Tomb Raider Dyfan
 31000 Chaos Servant Eygor
-31100 Devotee Scarlett
+31100 Unstoppable Ifrit
 31200 Fester the Jester
 31300 Inquisitor Ashford
 31500 Corrupted Knight Lloyd
@@ -177,7 +177,7 @@
 33000 Glaive Master Hodir
 33100 Ezekiel the Duelist
 33200 Eija the Shadow
-33300 Dulfisk the Accursed
+33300 Ironclad Xavier
 33400 Freya the Wretched
 33500 Nahor the Fallen
 33600 Easterner Iazeel
@@ -194,6 +194,7 @@
 35000 Hallowed Knight Orthell
 35100 Dragon Hunter Karstark
 35200 Disciple of Alsanna
+35300 Pot King Greg
 39999 ### Companions ###
 40000 Hollow
 40010 Lothric Knight (Sword)
@@ -997,6 +998,7 @@
 768000 Forlorn Giant
 770000 Fallen Protector
 770100 Maiden
+771000 Titanite Abomination
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

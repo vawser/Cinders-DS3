@@ -2486,12 +2486,6 @@
 7560843 [Princess Yngvil] Frostfire Pillars - A
 7560844 [Princess Yngvil] Frostfire Pillars [Hit] - A
 7560845 [Princess Yngvil] Frostfire Pillars [Hazard] - A
-7560850 [Princess Yngvil] Frostfire Pillars - B
-7560851 [Princess Yngvil] Frostfire Pillars [Emitter] - B
-7560852 [Princess Yngvil] Frostfire Pillars - B
-7560853 [Princess Yngvil] Frostfire Pillars - B
-7560854 [Princess Yngvil] Frostfire Pillars [Hit] - B
-7560855 [Princess Yngvil] Frostfire Pillars [Hazard] - B
 7560860 [Princess Yngvil] Frostfire Pillars - Central Explosion
 7560870 [Princess Yngvil] Blizzard
 7560871 [Princess Yngvil] Blizzard Summoning Animation Frost Aura
@@ -2569,6 +2563,21 @@
 7700728 [Fallen Protector] Dreg Cone
 7700729 [Fallen Protector] Dreg Cone
 7700740 [Fallen Protector] Great Soul Dregs
+7710700 [Titanite Abomination] Forward Breath
+7710701 [Titanite Abomination]
+7710702 [Titanite Abomination]
+7710710 [Titanite Abomination] Sweeping Breath
+7710711 [Titanite Abomination]
+7710712 [Titanite Abomination]
+7710713 [Titanite Abomination]
+7710720 [Titanite Abomination] Jumping Breath
+7710721 [Titanite Abomination]
+7710722 [Titanite Abomination]
+7710730 [Titanite Abomination]
+7710740 [Titanite Abomination] Pestilent Mist
+7710741 [Titanite Abomination]
+7710742 [Titanite Abomination]
+7710743 [Titanite Abomination]
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
 11200010 [Sorcery] Refined Farron Dart
@@ -2584,8 +2593,12 @@
 11301040 [Sorcery] Repeating Crystal Orb [Emitter]
 11301050 [Sorcery] Repeating Crystal Orb [EmittedBullet]
 11302000 [Sorcery] Shockwave
-11303000 [Sorcery] Soul Geyser
-11303010 [Sorcery] Crystal Soul Geyser
+11303000 [Sorcery] Soul Geyser - Main Projectile
+11303010 [Sorcery] Soul Geyser - Left Group
+11303020 [Sorcery] Soul Geyser - Right Group
+11303100 [Sorcery] Crystal Soul Geyser - Main Projectile
+11303110 [Sorcery] Crystal Soul Geyser - Left Group
+11303120 [Sorcery] Crystal Soul Geyser - Right Group
 11304000 [Sorcery] Homing Soulmass
 11304010 [Sorcery] Homing Soulmass [Hit]
 11304020 [Sorcery] Surging Soulmass
@@ -3372,6 +3385,50 @@
 104912100 [Cleric's Candlestick] Guiding Light - Right
 104912101 [Cleric's Candlestick] Guiding Light - Left
 104912200 [Smough's Great Hammer] Lightning Smash
+104920700 [Follower Torch - Curse] Breathe Fire
+104920701 [Follower Torch - Curse] Breathe Fire [Hit]
+104920710 [Follower Torch - Curse] Breathe Fire
+104920711 [Follower Torch - Curse] Breathe Fire [Hit]
+104921700 [Follower Torch - Poison] Breathe Fire
+104921701 [Follower Torch - Poison] Breathe Fire [Hit]
+104921710 [Follower Torch - Poison] Breathe Fire
+104921711 [Follower Torch - Poison] Breathe Fire [Hit]
+104922700 [Follower Torch - Blood] Breathe Fire
+104922701 [Follower Torch - Blood] Breathe Fire [Hit]
+104922710 [Follower Torch - Blood] Breathe Fire
+104922711 [Follower Torch - Blood] Breathe Fire [Hit]
+104923700 [Follower Torch - Frost] Breathe Fire
+104923701 [Follower Torch - Frost] Breathe Fire [Hit]
+104923710 [Follower Torch - Frost] Breathe Fire
+104923711 [Follower Torch - Frost] Breathe Fire [Hit]
+104924700 [Follower Torch - Magic] Breathe Fire
+104924701 [Follower Torch - Magic] Breathe Fire [Hit]
+104924710 [Follower Torch - Magic] Breathe Fire
+104924711 [Follower Torch - Magic] Breathe Fire [Hit]
+104925700 [Follower Torch - Fire] Breathe Fire
+104925701 [Follower Torch - Fire] Breathe Fire [Hit]
+104925710 [Follower Torch - Fire] Breathe Fire
+104925711 [Follower Torch - Fire] Breathe Fire [Hit]
+104926700 [Follower Torch - Lightning] Breathe Fire
+104926701 [Follower Torch - Lightning] Breathe Fire [Hit]
+104926710 [Follower Torch - Lightning] Breathe Fire
+104926711 [Follower Torch - Lightning] Breathe Fire [Hit]
+104927700 [Follower Torch - Dark] Breathe Fire
+104927701 [Follower Torch - Dark] Breathe Fire [Hit]
+104927710 [Follower Torch - Dark] Breathe Fire
+104927711 [Follower Torch - Dark] Breathe Fire [Hit]
+104928700 [Follower Torch - Lucky] Breathe Fire
+104928701 [Follower Torch - Lucky] Breathe Fire [Hit]
+104928710 [Follower Torch - Lucky] Breathe Fire
+104928711 [Follower Torch - Lucky] Breathe Fire [Hit]
+104929700 [Follower Torch - Enchanted] Breathe Fire
+104929701 [Follower Torch - Enchanted] Breathe Fire [Hit]
+104929710 [Follower Torch - Enchanted] Breathe Fire
+104929711 [Follower Torch - Enchanted] Breathe Fire [Hit]
+104930700 [Follower Torch - Holy] Breathe Fire
+104930701 [Follower Torch - Holy] Breathe Fire [Hit]
+104930710 [Follower Torch - Holy] Breathe Fire
+104930711 [Follower Torch - Holy] Breathe Fire [Hit]
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -3970,6 +4027,8 @@
 210017200 [Spitfire Spear] SpitFire
 210017220 [Spitfire Spear] - Heavy - Bullet
 210017221 [Spitfire Spear] - Heavy - Bullet [Hit]
+210018000 Helix Halberd
+210018001 Helix Halberd
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

@@ -1633,26 +1633,6 @@
 2814712 Quelaag's Fury Sword - Quelaag's Rage - Chaos Storm [Hit]
 2814713 Quelaag's Fury Sword - Quelaag's Rage - Chaos Storm [Hit]
 2814714 Quelaag's Fury Sword - Quelaag's Rage - Chaos Storm [Hit]
-2815000 Beast Cutter - 1H Light #1
-2815010 Beast Cutter - 1H Light #2
-2815020 Beast Cutter - 1H Light #3
-2815030 Beast Cutter - 1H Jump Attack
-2815100 Beast Cutter - 1H Heavy #1
-2815105 Beast Cutter - 1H Heavy #1 Max
-2815110 Beast Cutter - 1H Heavy #2
-2815115 Beast Cutter - 1H Heavy #2 Max
-2815200 Beast Cutter - 2H Light #1
-2815210 Beast Cutter - 2H Light #2
-2815220 Beast Cutter - 2H Light #3
-2815230 Beast Cutter - 2H Jump Attack
-2815300 Beast Cutter - 2H Heavy #1
-2815305 Beast Cutter - 2H Heavy #1 Max
-2815310 Beast Cutter - 2H Heavy #2
-2815315 Beast Cutter - 2H Heavy #2 Max
-2815520 Beast Cutter - 1H Backstep
-2815530 Beast Cutter - 2H Backstep
-2815540 Beast Cutter - 1H Roll Attack
-2815580 Beast Cutter - 2H Roll Attack
 2816100 Beasthunter Saif - 1H Heavy #1
 2816520 Beasthunter Saif - 1H Backstep
 2816700 Beasthunter Saif - Evade
@@ -2089,6 +2069,33 @@
 3070710 Gargoyle Tail Axe - WA Hit 2
 3070711 Gargoyle Tail Axe - WA Final Hit
 3070720 Gargoyle Tail Axe - WA
+3090000 Beast Cutter - 1H Light #1
+3090010 Beast Cutter - 1H Light #2
+3090020 Beast Cutter - 1H Light #3
+3090025 Beast Cutter - 1H Light #4
+3090028 Beast Cutter - 1H Light #5
+3090030 Beast Cutter - 1H Jump Attack
+3090100 Beast Cutter - 1H Heavy #1
+3090105 Beast Cutter - 1H Heavy #1 Max
+3090110 Beast Cutter - 1H Heavy #2
+3090115 Beast Cutter - 1H Heavy #2 Max
+3090200 Beast Cutter - 2H Light #1
+3090210 Beast Cutter - 2H Light #2
+3090220 Beast Cutter - 2H Light #3
+3090230 Beast Cutter - 2H Jump Attack
+3090300 Beast Cutter - 2H Heavy #1
+3090305 Beast Cutter - 2H Heavy #1 Max
+3090310 Beast Cutter - 2H Heavy #2
+3090315 Beast Cutter - 2H Heavy #2 Max
+3090410 Beast Cutter - 1H Kick
+3090420 Beast Cutter - 2H Kick
+3090520 Beast Cutter - 1H Backstep
+3090530 Beast Cutter - 2H Backstep
+3090540 Beast Cutter - 1H Roll Attack
+3090580 Beast Cutter - 2H Roll Attack
+3090700 Beast Cutter - Spin Slash Initial
+3090710 Beast Cutter - Spin Slash
+3090720 Beast Cutter - Spin Slash Final
 3200000 Greataxe - 1H Light #1
 3200001 Greataxe - 1H Light #1 Range
 3200010 Greataxe - 1H Light #2
@@ -3013,6 +3020,8 @@
 3616115 Silver Knight Spear - 1H Heavy #2 Max
 3616300 Silver Knight Spear - 2H Heavy #1
 3616305 Silver Knight Spear - 2H Heavy #1 Max
+3616310 Silver Knight Spear - 2H Heavy #2
+3616315 Silver Knight Spear - 2H Heavy #2 Max
 3617150 [Spitfire Spear] - Heavy - Bullet
 3617151 [Spitfire Spear] - Heavy - Bullet [Hit]
 3617710 [Spitfire Spear] SpitFire
@@ -3223,6 +3232,8 @@
 3800806 Halberd (Alt) - Tackle
 3800807 Halberd (Alt) - Tackle
 3800811 Halberd (Alt) - Tackle (Hit)
+3800815 Helix Halberd - Weapon Art
+3800816 Helix Halberd - Weapon Art
 3802000 Lucerne - 1H Light #1
 3802010 Lucerne - 1H Light #2 (thrust)
 3802020 Lucerne - 1H Light #3 (thrust)
@@ -4190,22 +4201,44 @@
 4900530 Torch
 4900540 Torch
 4900580 Torch
-4901040 Follower Torch
-4901470 Follower Torch
-4901490 Follower Torch
-4901500 Follower Torch
-4901501 Follower Torch
-4901505 Follower Torch
-4901506 Follower Torch
-4901510 Follower Torch
-4901511 Follower Torch
-4901515 Follower Torch
-4901516 Follower Torch
-4901517 Follower Torch
-4901610 Follower Torch
-4901615 Follower Torch
-4901700 Follower Torch
-4901710 Follower Torch
+4901040 Follower Torch - Stock
+4901470 Follower Torch - Stock
+4901490 Follower Torch - Stock
+4901500 Follower Torch - Stock
+4901501 Follower Torch - Stock
+4901505 Follower Torch - Stock
+4901506 Follower Torch - Stock
+4901510 Follower Torch - Stock
+4901511 Follower Torch - Stock
+4901515 Follower Torch - Stock
+4901516 Follower Torch - Stock
+4901517 Follower Torch - Stock
+4901610 Follower Torch - Stock
+4901615 Follower Torch - Stock
+4901700 Follower Torch - Stock - Bullet
+4901710 Follower Torch - Stock - Bullet
+4902700 Follower Torch - Curse - Bullet
+4902710 Follower Torch - Curse - Bullet
+4903700 Follower Torch - Poison - Bullet
+4903710 Follower Torch - Poison - Bullet
+4904700 Follower Torch - Blood - Bullet
+4904710 Follower Torch - Blood - Bullet
+4905700 Follower Torch - Frost - Bullet
+4905710 Follower Torch - Frost - Bullet
+4906700 Follower Torch - Magic - Bullet
+4906710 Follower Torch - Magic - Bullet
+4907700 Follower Torch - Fire - Bullet
+4907710 Follower Torch - Fire - Bullet
+4908700 Follower Torch - Lightning - Bullet
+4908710 Follower Torch - Lightning - Bullet
+4909700 Follower Torch - Dark - Bullet
+4909710 Follower Torch - Dark - Bullet
+4910700 Follower Torch - Lucky - Bullet
+4910710 Follower Torch - Lucky - Bullet
+4911700 Follower Torch - Enchanted - Bullet
+4911710 Follower Torch - Enchanted - Bullet
+4912700 Follower Torch - Holy - Bullet
+4912710 Follower Torch - Holy - Bullet
 5000000 Scythe - 1H Light #1
 5000010 Scythe - 1H Light #2
 5000020 Scythe - 1H Light #3

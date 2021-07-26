@@ -2584,7 +2584,6 @@
 101356000 [Sorcery] Aural Decoy
 101740000 [Sorcery] Pestilent Mist
 101741000 [Sorcery] Snap Freeze
-102422000 [Pyromancy] Acid Surge
 102430000 [Pyromancy] Iron Flesh
 102430100 [Pyromancy] Iron Flesh
 102430200 [Pyromancy] Iron Flesh
@@ -3421,6 +3420,7 @@
 160250190 Rotten Talisman - Poison Spores
 160250500 Bloodlust - HP Loss
 160250510 Sanguine Wrath - HP Loss
+160250515 Bloodletter (Kick) - HP Loss
 160250520 Bloodlust - Damage - Right-hand
 160250521 Bloodlust - Damage - Right-hand [AttackOccurance]
 160250530 Bloodlust - Bleed - Right-hand
@@ -3711,7 +3711,8 @@
 160500200 [Pyromancy] Rockflesh
 160500210 [Pyromancy] Rockflesh [CycleOccurance]
 160500220 [Pyromancy] Rockflesh [CycleOccurance]
-160500230 [Pyromancy] Acid Surge
+160500230 [Pyromancy] Acid Surge - Durability Damage
+160500231 [Pyromancy] Acid Surge - Debuff
 160500250 [Miracle] Infected Spit
 160500260 [Miracle] Vow of Agony
 160500270 [Sorcery] Homing Soulmass
@@ -4982,6 +4983,23 @@
 160706321 Magician Emblem
 160706330 Nullus Insignia
 160706331 Nullus Emblem
+160706340 Ironclad Insignia
+160706341 Ironclad Emblem
+160706350 Sanctum Knight Insignia
+160706351 Sanctum Knight Emblem
+160706360 Imported Insignia
+160706361 Imported Embelm
+160706370 Stalwart Knight Insignia
+160706371 Stalwart Knight Emblem
+160706380 Okami Insignia
+160706381 Okami Emblem
+160706390 Eastern General Insignia
+160706391 Eastern General Emblem
+160706401 Eastern Wolf Emblem
+160706410 Fallen Prince's Insignia
+160706411 Fallen Prince's Emblem
+160706420 Eastern Commander Insignia
+160706421 Eastern Commander Emblem
 160708999 ### Weapon Visual Items ###
 160709000 Cleansing Oil - Right - Clear 153
 160709001 Cleansing Oil - Right - Clear 155
@@ -5092,6 +5110,7 @@
 160720330 Soul of the Rock
 160720340 Twisted Soul
 160720350 Soul of the Maiden
+160720360 Horrific Soul
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -5122,13 +5141,17 @@
 160741407 Dismal Knight -
 160741408 Dismal Knight - Weapon Buff Effect 4
 160741409 Dismal Knight - Weapon Buff
-160741500 Herald of Winter
+160741500 Prince Dorthinus - Eye VFX
 160741600 Princess Yngvil - Yngvil's Crystal - Player Buff
 160741610 Princess Yngvil - Frozen Chaos Essence - Player Buff
 160741700 Crab Puzzle - Fade Out
 160741900 Mirror Knight - Phantom Setup
 160741901 Mirror Knight - Immunity
 160741902 Mirror Knight - Phantom Cleanup
+160742000 Princess Yngvil - Kneeling Stage
+160742010 Akseliane - HP Removal
+160742020 Pot King Greg - Buff
+160742100 Titanite Abomination - HP Absorb
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5222,6 +5245,8 @@
 160764053 Companion: Offering of Fervor+3
 160764054 Companion: Offering of Fervor+4
 160764055 Companion: Offering of Fervor+5
+160769999 ### AI Behavior ###
+160770000 Force 2H Mode
 160800000 ### NPC Modifiers ###
 160800001 Base - Summoned NPC
 160800002 Base - Enemy
@@ -5256,10 +5281,10 @@
 170000250 Curse - Dreg Torrent
 170000260 Curse - Whisper of Despair
 170000270 Curse - Pestilent Mist
-170000271 Curse - Pestilent Mist - HP Removal
+170000271 Curse - Pestilent Mist - Debuff
 170000280 Curse - White Dragon Breath
 170000290 Curse - Pestilent Mist (Consumed King's Staff)
-170000291 Curse - Pestilent Mist - HP Removal (Consumed King's Staff)
+170000291 Curse - Pestilent Mist - Debuff (Consumed King's Staff)
 170000300 Durability - King's Ultra Greatsword
 170000310 Bleed - Caitha's Affliction
 170000350 Toxic - Fecal Explusion
@@ -5647,7 +5672,6 @@
 250000103 Mythic Mode - Player Effect - Spell Damage
 250000104 Mythic Mode - Player Effect - Stamina
 250000105 Mythic Mode - Player Effect - Aux
-250000200 Gauntlet Mode - Player Effect Souls
 250001000 Curse of Pride - Player Effect
 250001010 Curse of Pride - Soul Gain - I
 250001011 Curse of Pride - Soul Gain - II
@@ -5782,10 +5806,11 @@
 260000029 Princess Yngvil
 260000030 Cathedral Guardian
 260000031 Mirror Knight
-260000032 Herald of Winter
+260000032 Prince Dorthinus
 260000033 The Rock
 260000034 Twisted Knight
 260000035 Fallen Protector
+260000036 Titanite Abomination
 260100000 ### Boss Revival ###
 260100010 Dismal Knight
 260100020 Vordt of the Boreal Valley
@@ -5813,14 +5838,15 @@
 260100240 Slave Knight Gael
 260100250 Halflight, Spear of the Church
 260100260 Champions of Yore
-260100270 Princess Yngvil
+260100270 Prince Dorthinus
 260100280 Cathedral Guardian
 260100290 Mirror Knight
 260100300 Aborr
-260100310 Herald of Winter
+260100310 Princess Yngvil
 260100320 The Rock
 260100330 Twisted Knight
 260100340 Fallen Protector
+260100350 Titanite Abomination
 260109999 ### Wanderer Mode - Damage Boosts
 260110000 Dismal Knight
 260110001 Vordt of the Boreal Valley
@@ -5851,12 +5877,15 @@
 260110026 Cathedral Guardian
 260110027 Mirror Knight
 260110028 Aborr
-260110029 Herald of Winter
+260110029 Prince Dorthinus
 260110030 The Rock
 260110031 Twisted Knight
 260110032 Fallen Protector
+260110033 Titanite Abomination
 260119999 ### Gauntlet Mode
-260120000 Random Order
+260120000 Set Order
+260120010 Random Order
+260120020 Reset Progress
 260199999 ### Memories ###
 260200100 Power Scaling: SL 50
 260200101 Power Scaling: SL 100
