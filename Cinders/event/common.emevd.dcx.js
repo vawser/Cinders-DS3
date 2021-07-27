@@ -1,9 +1,10 @@
 // ==EMEVD==
 // @docs    ds3-common.emedf.json
-// @compress    DarkSouls3
+// @compress    DCX_DFLT_10000_44_9
 // @game    DarkSouls3
 // @string    
 // @linked    []
+// @version    3.2.1
 // ==/EMEVD==
 
 //----------------------------------------------
@@ -279,7 +280,7 @@ Event(0, Default, function() {
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
-    InitializeEvent(34, 970, 13200880, 2440, 0, 0); // Titanite Abomination
+    InitializeEvent(35, 970, 13200880, 2440, 0, 0); // Titanite Abomination
     
     // Game Progress Flags
     InitializeEvent(0, 6100, 6100, 13300800);  // Abyss Watcher

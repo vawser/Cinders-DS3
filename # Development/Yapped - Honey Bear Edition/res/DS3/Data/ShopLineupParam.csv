@@ -166,7 +166,6 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 30011,[Ludleth - Vordt] Pontiff's Left Eye,20790,5000,100006,-1,-1,-1,0,2,-1,1
 30012,[Ludleth - Vordt] Snap Freeze,1741000,5000,100006,-1,-1,-1,0,3,-1,1
 30013,[Ludleth - Vordt] Frozen Weapon,1313000,5000,100006,-1,-1,-1,0,3,-1,1
-30014,[Ludleth - Vordt] Frostflower Ring,30950,5000,100006,-1,-1,-1,0,2,-1,1
 30020,[Ludleth - Greatwood] Arstor's Spear,9170000,5000,100014,-1,-1,-1,0,0,-1,1
 30021,[Ludleth - Greatwood] Hammer of the Great Tree,8230000,5000,100014,-1,-1,-1,0,0,-1,1
 30022,[Ludleth - Greatwood] Greatwood Remnants,30090,5000,100014,-1,-1,-1,0,2,-1,1
@@ -280,17 +279,19 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 30380,[Ludleth - The Rock] Havel's Ring,20020,7500,100036,-1,-1,-1,0,2,-1,1
 30381,[Ludleth - The Rock] Dragon Tooth,8260000,7500,100036,-1,-1,-1,0,0,-1,1
 30382,[Ludleth - The Rock] Havel's Greatshield,20150000,7500,100036,-1,-1,-1,0,0,-1,1
-30390,[Ludleth - Frostfire Colossus] Frostfall,1160000,20000,100037,-1,-1,-1,0,0,-1,1
+30390,[Ludleth - Princess Yngvil] Frostfall,1160000,7500,100037,-1,-1,-1,0,0,-1,1
+30391,[Ludleth - Princess Yngvil] Wretched Pendant,30040,7500,100037,-1,-1,-1,0,2,-1,1
+30392,[Ludleth - Princess Yngvil] Frostflower Ring,30950,7500,100037,-1,-1,-1,0,2,-1,1
 30400,[Ludleth - Twisted Knight] Cursed Ring of Evasion,30510,7500,100038,-1,-1,-1,0,2,-1,1
 30401,[Ludleth - Twisted Knight] Cursed Ring of Vengeance,30520,7500,100038,-1,-1,-1,0,2,-1,1
 30402,[Ludleth - Twisted Knight] Cursed Ring of Deflection,30530,7500,100038,-1,-1,-1,0,2,-1,1
 30403,[Ludleth - Twisted Knight] Cursed Ring of Confusion,30540,7500,100038,-1,-1,-1,0,2,-1,1
-30420,[Ludleth - Herald of Winter] Sacred Chime Hammer,31370000,7500,100035,-1,-1,-1,0,0,-1,1
-30421,[Ludleth - Herald of Winter] Rampart Golem Lance,31300000,7500,100035,-1,-1,-1,0,0,-1,1
-30422,[Ludleth - Herald of Winter] Wretched Pendant,30040,7500,100035,-1,-1,-1,0,2,-1,1
+30420,[Ludleth - Prince Dorthinus] Sacred Chime Hammer,31370000,7500,100035,-1,-1,-1,0,0,-1,1
+30421,[Ludleth - Prince Dorthinus] Fool's Sigil,30840,7500,100035,-1,-1,-1,0,2,-1,1
 30430,[Ludleth - Fallen Protector] Blueblood Sword,30550000,7500,100039,-1,-1,-1,0,0,-1,1
 30431,[Ludleth - Fallen Protector] Quicksilver Shield,22250000,7500,100039,-1,-1,-1,0,0,-1,1
 30432,[Ludleth - Fallen Protector] Life Ring,20000,7500,100039,-1,-1,-1,0,2,-1,1
+30440,[Ludleth - Titanite Abomination] ,30550000,7500,100040,-1,-1,-1,0,0,-1,1
 36000,[Bonfire - Firelink Shrine] Shriving Stone,1250,-1,-1,-1,14000000,-1,0,3,-1,1
 36001,[Bonfire - Firelink Shrine] Lethal Gem,4000,-1,-1,-1,14000000,-1,0,3,-1,1
 36002,[Bonfire - Untended Graves] Curse Gem,4001,-1,-1,-1,14000003,-1,0,3,-1,1
@@ -344,7 +345,7 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 36068,[Bonfire - Farron Keep] Mossfruit,452,-1,-1,-1,13300003,-1,0,3,-1,1
 36069,[Bonfire - Tower Basement] Young White Branch,454,-1,-1,-1,13100000,-1,0,3,-1,1
 36070,[Bonfire - Profaned Capital] Rusted Coin,455,-1,-1,-1,13900002,-1,0,3,-1,1
-36071,[Bonfire - Profaned Capital] Siegbr?ñu,456,-1,-1,-1,13900002,-1,0,3,-1,1
+36071,[Bonfire - Profaned Capital] Siegbr?ï¿½u,456,-1,-1,-1,13900002,-1,0,3,-1,1
 36072,[Bonfire - Profaned Capital] Rusted Gold Coin,457,-1,-1,-1,13900002,-1,0,3,-1,1
 36073,[Bonfire - Sage's Overlook] Blue Bug Pellet,458,-1,-1,-1,13300007,-1,0,3,-1,1
 36074,[Bonfire - Old King's Antechamber] Red Bug Pellet,459,-1,-1,-1,13800002,-1,0,3,-1,1
@@ -651,10 +652,14 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 111601,[Shrine Handmaid - Sister Friede] Ordained Dress,56501000,-1,-1,-1,25001020,-1,0,1,-1,1
 111602,[Shrine Handmaid - Sister Friede] Ordained Trousers,56503000,-1,-1,-1,25001020,-1,0,1,-1,1
 111610,[Shrine Handmaid - Slave Knight Gael] Pygmy Crown,99580000,-1,-1,-1,25001024,-1,0,1,-1,1
-111651,[Shrine Handmaid - Herald of Winter] Millwood Knight Helm,60500000,-1,-1,-1,25001030,-1,0,1,-1,1
-111652,[Shrine Handmaid - Herald of Winter] Millwood Knight Armor,60501000,-1,-1,-1,25001030,-1,0,1,-1,1
-111653,[Shrine Handmaid - Herald of Winter] Millwood Knight Gauntlets,60502000,-1,-1,-1,25001030,-1,0,1,-1,1
-111654,[Shrine Handmaid - Herald of Winter] Millwood Knight Leggings,60503000,-1,-1,-1,25001030,-1,0,1,-1,1
+111651,[Shrine Handmaid - Princess Yngvil] Millwood Knight Helm,60500000,-1,-1,-1,25001030,-1,0,1,-1,1
+111652,[Shrine Handmaid - Princess Yngvil] Millwood Knight Armor,60501000,-1,-1,-1,25001030,-1,0,1,-1,1
+111653,[Shrine Handmaid - Princess Yngvil] Millwood Knight Gauntlets,60502000,-1,-1,-1,25001030,-1,0,1,-1,1
+111654,[Shrine Handmaid - Princess Yngvil] Millwood Knight Leggings,60503000,-1,-1,-1,25001030,-1,0,1,-1,1
+111660,[Shrine Handmaid - Prince Dorthinus] Fallen Prince's Helm,10420000,-1,-1,-1,25001026,-1,0,1,-1,1
+111661,[Shrine Handmaid - Prince Dorthinus] Fallen Prince's Armor,10421000,-1,-1,-1,25001026,-1,0,1,-1,1
+111662,[Shrine Handmaid - Prince Dorthinus] Fallen Prince's Gauntlets,10422000,-1,-1,-1,25001026,-1,0,1,-1,1
+111663,[Shrine Handmaid - Prince Dorthinus] Fallen Prince's Leggings,10423000,-1,-1,-1,25001026,-1,0,1,-1,1
 119904,[Shrine Handmaid - Untended Graves] White Sign Soapstone,100,-1,-1,6800,-1,1,0,3,-1,1
 119905,[Shrine Handmaid - Untended Graves] Dried Finger,385,-1,-1,6820,-1,1,0,3,-1,1
 119907,[Shrine Handmaid - Untended Graves] Priestess Ring,20160,-1,-1,-1,-1,-1,0,2,-1,1
@@ -1367,6 +1372,23 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 250600,[Alchemist Jiji] Pickpocket Insignia,12310,250,-1,-1,-1,1,0,3,-1,1
 250601,[Alchemist Jiji] Pickpocket Emblem,12311,250,-1,-1,-1,1,0,3,-1,1
 250602,[Alchemist Jiji] Magician Emblem,12321,250,-1,-1,-1,1,0,3,-1,1
+250603,[Alchemist Jiji] Ironclad Insignia,12340,250,-1,-1,-1,1,0,3,-1,1
+250604,[Alchemist Jiji] Ironclad Emblem,12341,250,-1,-1,-1,1,0,3,-1,1
+250605,[Alchemist Jiji] Sanctum Knight Insignia,12350,250,-1,-1,-1,1,0,3,-1,1
+250606,[Alchemist Jiji] Sanctum Knight Emblem,12351,250,-1,-1,-1,1,0,3,-1,1
+250607,[Alchemist Jiji] Imported Insignia,12360,250,-1,-1,-1,1,0,3,-1,1
+250608,[Alchemist Jiji] Imported Emblem,12361,250,-1,-1,-1,1,0,3,-1,1
+250609,[Alchemist Jiji] Stalwart Knight Insignia,12370,250,-1,-1,-1,1,0,3,-1,1
+250610,[Alchemist Jiji] Stalwart Knight Emblem,12371,250,-1,-1,-1,1,0,3,-1,1
+250611,[Alchemist Jiji] Okami Insignia,12380,250,-1,-1,-1,1,0,3,-1,1
+250612,[Alchemist Jiji] Okami Emblem,12381,250,-1,-1,-1,1,0,3,-1,1
+250613,[Alchemist Jiji] Eastern General Insignia,12390,250,-1,-1,-1,1,0,3,-1,1
+250614,[Alchemist Jiji] Eastern General Emblem,12391,250,-1,-1,-1,1,0,3,-1,1
+250615,[Alchemist Jiji] Eastern Wolf Emblem,12401,250,-1,-1,-1,1,0,3,-1,1
+250616,[Alchemist Jiji] Fallen Prince's Insignia,12410,250,-1,-1,-1,1,0,3,-1,1
+250617,[Alchemist Jiji] Fallen Prince's Emblem,12411,250,-1,-1,-1,1,0,3,-1,1
+250618,[Alchemist Jiji] Eastern Commander Insignia,12420,250,-1,-1,-1,1,0,3,-1,1
+250619,[Alchemist Jiji] Eastern Commander Emblem,12421,250,-1,-1,-1,1,0,3,-1,1
 250700,[Alchemist Jiji] Cleansing Oil,4300,100,-1,-1,-1,-1,0,3,-1,1
 250701,[Alchemist Jiji] Cleansing Oil (Left),4301,100,-1,-1,-1,-1,0,3,-1,1
 250702,[Alchemist Jiji] Magical Oil,4310,500,-1,-1,-1,-1,0,3,-1,1
@@ -1898,104 +1920,105 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 800360,[Gauntlet] Weapon,30270000,5000,120000,-1,-1,-1,0,0,-1,1
 800361,[Gauntlet] Weapon,30300000,5000,120000,-1,-1,-1,0,0,-1,1
 800362,[Gauntlet] Weapon,30310000,5000,120000,-1,-1,-1,0,0,-1,1
-800363,[Gauntlet] Weapon,30330000,5000,120000,-1,-1,-1,0,0,-1,1
-800364,[Gauntlet] Weapon,30340000,5000,120000,-1,-1,-1,0,0,-1,1
-800365,[Gauntlet] Weapon,30350000,5000,120000,-1,-1,-1,0,0,-1,1
-800366,[Gauntlet] Weapon,30360000,5000,120000,-1,-1,-1,0,0,-1,1
-800367,[Gauntlet] Weapon,30370000,5000,120000,-1,-1,-1,0,0,-1,1
-800368,[Gauntlet] Weapon,30380000,5000,120000,-1,-1,-1,0,0,-1,1
-800369,[Gauntlet] Weapon,30390000,5000,120000,-1,-1,-1,0,0,-1,1
-800370,[Gauntlet] Weapon,30400000,5000,120000,-1,-1,-1,0,0,-1,1
-800371,[Gauntlet] Weapon,30410000,5000,120000,-1,-1,-1,0,0,-1,1
-800372,[Gauntlet] Weapon,30420000,5000,120000,-1,-1,-1,0,0,-1,1
-800373,[Gauntlet] Weapon,30430000,5000,120000,-1,-1,-1,0,0,-1,1
-800374,[Gauntlet] Weapon,30440000,5000,120000,-1,-1,-1,0,0,-1,1
-800375,[Gauntlet] Weapon,30450000,5000,120000,-1,-1,-1,0,0,-1,1
-800376,[Gauntlet] Weapon,30460000,5000,120000,-1,-1,-1,0,0,-1,1
-800377,[Gauntlet] Weapon,30470000,5000,120000,-1,-1,-1,0,0,-1,1
-800378,[Gauntlet] Weapon,30490000,5000,120000,-1,-1,-1,0,0,-1,1
-800379,[Gauntlet] Weapon,30500000,5000,120000,-1,-1,-1,0,0,-1,1
-800380,[Gauntlet] Weapon,30510000,5000,120000,-1,-1,-1,0,0,-1,1
-800381,[Gauntlet] Weapon,30520000,5000,120000,-1,-1,-1,0,0,-1,1
-800382,[Gauntlet] Weapon,30540000,5000,120000,-1,-1,-1,0,0,-1,1
-800383,[Gauntlet] Weapon,30560000,5000,120000,-1,-1,-1,0,0,-1,1
-800384,[Gauntlet] Weapon,30570000,5000,120000,-1,-1,-1,0,0,-1,1
-800385,[Gauntlet] Weapon,30580000,5000,120000,-1,-1,-1,0,0,-1,1
-800386,[Gauntlet] Weapon,30610000,5000,120000,-1,-1,-1,0,0,-1,1
-800387,[Gauntlet] Weapon,30620000,5000,120000,-1,-1,-1,0,0,-1,1
-800388,[Gauntlet] Weapon,30630000,5000,120000,-1,-1,-1,0,0,-1,1
-800389,[Gauntlet] Weapon,30640000,5000,120000,-1,-1,-1,0,0,-1,1
-800390,[Gauntlet] Weapon,30650000,5000,120000,-1,-1,-1,0,0,-1,1
-800391,[Gauntlet] Weapon,30660000,5000,120000,-1,-1,-1,0,0,-1,1
-800392,[Gauntlet] Weapon,30670000,5000,120000,-1,-1,-1,0,0,-1,1
-800393,[Gauntlet] Weapon,30680000,5000,120000,-1,-1,-1,0,0,-1,1
-800394,[Gauntlet] Weapon,30690000,5000,120000,-1,-1,-1,0,0,-1,1
-800395,[Gauntlet] Weapon,30700000,5000,120000,-1,-1,-1,0,0,-1,1
-800396,[Gauntlet] Weapon,30710000,5000,120000,-1,-1,-1,0,0,-1,1
-800397,[Gauntlet] Weapon,30720000,5000,120000,-1,-1,-1,0,0,-1,1
-800398,[Gauntlet] Weapon,30740000,5000,120000,-1,-1,-1,0,0,-1,1
-800399,[Gauntlet] Weapon,30760000,5000,120000,-1,-1,-1,0,0,-1,1
-800400,[Gauntlet] Weapon,30770000,5000,120000,-1,-1,-1,0,0,-1,1
-800401,[Gauntlet] Weapon,30780000,5000,120000,-1,-1,-1,0,0,-1,1
-800402,[Gauntlet] Weapon,30790000,5000,120000,-1,-1,-1,0,0,-1,1
-800403,[Gauntlet] Weapon,30800000,5000,120000,-1,-1,-1,0,0,-1,1
-800404,[Gauntlet] Weapon,30820000,5000,120000,-1,-1,-1,0,0,-1,1
-800405,[Gauntlet] Weapon,30830000,5000,120000,-1,-1,-1,0,0,-1,1
-800406,[Gauntlet] Weapon,30840000,5000,120000,-1,-1,-1,0,0,-1,1
-800407,[Gauntlet] Weapon,30850000,5000,120000,-1,-1,-1,0,0,-1,1
-800408,[Gauntlet] Weapon,30860000,5000,120000,-1,-1,-1,0,0,-1,1
-800409,[Gauntlet] Weapon,30870000,5000,120000,-1,-1,-1,0,0,-1,1
-800410,[Gauntlet] Weapon,30880000,5000,120000,-1,-1,-1,0,0,-1,1
-800411,[Gauntlet] Weapon,30890000,5000,120000,-1,-1,-1,0,0,-1,1
-800412,[Gauntlet] Weapon,30900000,5000,120000,-1,-1,-1,0,0,-1,1
-800413,[Gauntlet] Weapon,30930000,5000,120000,-1,-1,-1,0,0,-1,1
-800414,[Gauntlet] Weapon,30950000,5000,120000,-1,-1,-1,0,0,-1,1
-800415,[Gauntlet] Weapon,30960000,5000,120000,-1,-1,-1,0,0,-1,1
-800416,[Gauntlet] Weapon,30970000,5000,120000,-1,-1,-1,0,0,-1,1
-800417,[Gauntlet] Weapon,30980000,5000,120000,-1,-1,-1,0,0,-1,1
-800418,[Gauntlet] Weapon,30990000,5000,120000,-1,-1,-1,0,0,-1,1
-800419,[Gauntlet] Weapon,31010000,5000,120000,-1,-1,-1,0,0,-1,1
-800420,[Gauntlet] Weapon,31020000,5000,120000,-1,-1,-1,0,0,-1,1
-800421,[Gauntlet] Weapon,31030000,5000,120000,-1,-1,-1,0,0,-1,1
-800422,[Gauntlet] Weapon,31040000,5000,120000,-1,-1,-1,0,0,-1,1
-800423,[Gauntlet] Weapon,31050000,5000,120000,-1,-1,-1,0,0,-1,1
-800424,[Gauntlet] Weapon,31060000,5000,120000,-1,-1,-1,0,0,-1,1
-800425,[Gauntlet] Weapon,31070000,5000,120000,-1,-1,-1,0,0,-1,1
-800426,[Gauntlet] Weapon,31080000,5000,120000,-1,-1,-1,0,0,-1,1
-800427,[Gauntlet] Weapon,31090000,5000,120000,-1,-1,-1,0,0,-1,1
-800428,[Gauntlet] Weapon,31100000,5000,120000,-1,-1,-1,0,0,-1,1
-800429,[Gauntlet] Weapon,31110000,5000,120000,-1,-1,-1,0,0,-1,1
-800430,[Gauntlet] Weapon,31120000,5000,120000,-1,-1,-1,0,0,-1,1
-800431,[Gauntlet] Weapon,31130000,5000,120000,-1,-1,-1,0,0,-1,1
-800432,[Gauntlet] Weapon,31140000,5000,120000,-1,-1,-1,0,0,-1,1
-800433,[Gauntlet] Weapon,31160000,5000,120000,-1,-1,-1,0,0,-1,1
-800434,[Gauntlet] Weapon,31170000,5000,120000,-1,-1,-1,0,0,-1,1
-800435,[Gauntlet] Weapon,31180000,5000,120000,-1,-1,-1,0,0,-1,1
-800436,[Gauntlet] Weapon,31190000,5000,120000,-1,-1,-1,0,0,-1,1
-800437,[Gauntlet] Weapon,31200000,5000,120000,-1,-1,-1,0,0,-1,1
-800438,[Gauntlet] Weapon,31210000,5000,120000,-1,-1,-1,0,0,-1,1
-800439,[Gauntlet] Weapon,31220000,5000,120000,-1,-1,-1,0,0,-1,1
-800440,[Gauntlet] Weapon,31230000,5000,120000,-1,-1,-1,0,0,-1,1
-800441,[Gauntlet] Weapon,31240000,5000,120000,-1,-1,-1,0,0,-1,1
-800442,[Gauntlet] Weapon,31250000,5000,120000,-1,-1,-1,0,0,-1,1
-800443,[Gauntlet] Weapon,31260000,5000,120000,-1,-1,-1,0,0,-1,1
-800444,[Gauntlet] Weapon,31270000,5000,120000,-1,-1,-1,0,0,-1,1
-800445,[Gauntlet] Weapon,31280000,5000,120000,-1,-1,-1,0,0,-1,1
-800446,[Gauntlet] Weapon,31290000,5000,120000,-1,-1,-1,0,0,-1,1
-800447,[Gauntlet] Weapon,31300000,5000,120000,-1,-1,-1,0,0,-1,1
-800448,[Gauntlet] Weapon,31310000,5000,120000,-1,-1,-1,0,0,-1,1
-800449,[Gauntlet] Weapon,31320000,5000,120000,-1,-1,-1,0,0,-1,1
-800450,[Gauntlet] Weapon,31330000,5000,120000,-1,-1,-1,0,0,-1,1
-800451,[Gauntlet] Weapon,31340000,5000,120000,-1,-1,-1,0,0,-1,1
-800452,[Gauntlet] Weapon,31350000,5000,120000,-1,-1,-1,0,0,-1,1
-800453,[Gauntlet] Weapon,31370000,5000,120000,-1,-1,-1,0,0,-1,1
-800454,[Gauntlet] Weapon,31380000,5000,120000,-1,-1,-1,0,0,-1,1
-800455,[Gauntlet] Weapon,31390000,5000,120000,-1,-1,-1,0,0,-1,1
-800456,[Gauntlet] Weapon,31400000,5000,120000,-1,-1,-1,0,0,-1,1
-800457,[Gauntlet] Weapon,31410000,5000,120000,-1,-1,-1,0,0,-1,1
-800458,[Gauntlet] Weapon,31420000,5000,120000,-1,-1,-1,0,0,-1,1
-800459,[Gauntlet] Weapon,31430000,5000,120000,-1,-1,-1,0,0,-1,1
-800460,[Gauntlet] Weapon,31440000,5000,120000,-1,-1,-1,0,0,-1,1
+800363,[Gauntlet] Weapon,30320000,5000,120000,-1,-1,-1,0,0,-1,1
+800364,[Gauntlet] Weapon,30330000,5000,120000,-1,-1,-1,0,0,-1,1
+800365,[Gauntlet] Weapon,30340000,5000,120000,-1,-1,-1,0,0,-1,1
+800366,[Gauntlet] Weapon,30350000,5000,120000,-1,-1,-1,0,0,-1,1
+800367,[Gauntlet] Weapon,30360000,5000,120000,-1,-1,-1,0,0,-1,1
+800368,[Gauntlet] Weapon,30370000,5000,120000,-1,-1,-1,0,0,-1,1
+800369,[Gauntlet] Weapon,30380000,5000,120000,-1,-1,-1,0,0,-1,1
+800370,[Gauntlet] Weapon,30390000,5000,120000,-1,-1,-1,0,0,-1,1
+800371,[Gauntlet] Weapon,30400000,5000,120000,-1,-1,-1,0,0,-1,1
+800372,[Gauntlet] Weapon,30410000,5000,120000,-1,-1,-1,0,0,-1,1
+800373,[Gauntlet] Weapon,30420000,5000,120000,-1,-1,-1,0,0,-1,1
+800374,[Gauntlet] Weapon,30430000,5000,120000,-1,-1,-1,0,0,-1,1
+800375,[Gauntlet] Weapon,30440000,5000,120000,-1,-1,-1,0,0,-1,1
+800376,[Gauntlet] Weapon,30450000,5000,120000,-1,-1,-1,0,0,-1,1
+800377,[Gauntlet] Weapon,30460000,5000,120000,-1,-1,-1,0,0,-1,1
+800378,[Gauntlet] Weapon,30470000,5000,120000,-1,-1,-1,0,0,-1,1
+800379,[Gauntlet] Weapon,30490000,5000,120000,-1,-1,-1,0,0,-1,1
+800380,[Gauntlet] Weapon,30500000,5000,120000,-1,-1,-1,0,0,-1,1
+800381,[Gauntlet] Weapon,30510000,5000,120000,-1,-1,-1,0,0,-1,1
+800382,[Gauntlet] Weapon,30520000,5000,120000,-1,-1,-1,0,0,-1,1
+800383,[Gauntlet] Weapon,30540000,5000,120000,-1,-1,-1,0,0,-1,1
+800384,[Gauntlet] Weapon,30560000,5000,120000,-1,-1,-1,0,0,-1,1
+800385,[Gauntlet] Weapon,30570000,5000,120000,-1,-1,-1,0,0,-1,1
+800386,[Gauntlet] Weapon,30580000,5000,120000,-1,-1,-1,0,0,-1,1
+800387,[Gauntlet] Weapon,30610000,5000,120000,-1,-1,-1,0,0,-1,1
+800388,[Gauntlet] Weapon,30620000,5000,120000,-1,-1,-1,0,0,-1,1
+800389,[Gauntlet] Weapon,30630000,5000,120000,-1,-1,-1,0,0,-1,1
+800390,[Gauntlet] Weapon,30640000,5000,120000,-1,-1,-1,0,0,-1,1
+800391,[Gauntlet] Weapon,30650000,5000,120000,-1,-1,-1,0,0,-1,1
+800392,[Gauntlet] Weapon,30660000,5000,120000,-1,-1,-1,0,0,-1,1
+800393,[Gauntlet] Weapon,30670000,5000,120000,-1,-1,-1,0,0,-1,1
+800394,[Gauntlet] Weapon,30680000,5000,120000,-1,-1,-1,0,0,-1,1
+800395,[Gauntlet] Weapon,30690000,5000,120000,-1,-1,-1,0,0,-1,1
+800396,[Gauntlet] Weapon,30700000,5000,120000,-1,-1,-1,0,0,-1,1
+800397,[Gauntlet] Weapon,30710000,5000,120000,-1,-1,-1,0,0,-1,1
+800398,[Gauntlet] Weapon,30720000,5000,120000,-1,-1,-1,0,0,-1,1
+800399,[Gauntlet] Weapon,30740000,5000,120000,-1,-1,-1,0,0,-1,1
+800400,[Gauntlet] Weapon,30760000,5000,120000,-1,-1,-1,0,0,-1,1
+800401,[Gauntlet] Weapon,30770000,5000,120000,-1,-1,-1,0,0,-1,1
+800402,[Gauntlet] Weapon,30780000,5000,120000,-1,-1,-1,0,0,-1,1
+800403,[Gauntlet] Weapon,30790000,5000,120000,-1,-1,-1,0,0,-1,1
+800404,[Gauntlet] Weapon,30800000,5000,120000,-1,-1,-1,0,0,-1,1
+800405,[Gauntlet] Weapon,30820000,5000,120000,-1,-1,-1,0,0,-1,1
+800406,[Gauntlet] Weapon,30830000,5000,120000,-1,-1,-1,0,0,-1,1
+800407,[Gauntlet] Weapon,30840000,5000,120000,-1,-1,-1,0,0,-1,1
+800408,[Gauntlet] Weapon,30850000,5000,120000,-1,-1,-1,0,0,-1,1
+800409,[Gauntlet] Weapon,30860000,5000,120000,-1,-1,-1,0,0,-1,1
+800410,[Gauntlet] Weapon,30870000,5000,120000,-1,-1,-1,0,0,-1,1
+800411,[Gauntlet] Weapon,30880000,5000,120000,-1,-1,-1,0,0,-1,1
+800412,[Gauntlet] Weapon,30890000,5000,120000,-1,-1,-1,0,0,-1,1
+800413,[Gauntlet] Weapon,30900000,5000,120000,-1,-1,-1,0,0,-1,1
+800414,[Gauntlet] Weapon,30930000,5000,120000,-1,-1,-1,0,0,-1,1
+800415,[Gauntlet] Weapon,30950000,5000,120000,-1,-1,-1,0,0,-1,1
+800416,[Gauntlet] Weapon,30960000,5000,120000,-1,-1,-1,0,0,-1,1
+800417,[Gauntlet] Weapon,30970000,5000,120000,-1,-1,-1,0,0,-1,1
+800418,[Gauntlet] Weapon,30980000,5000,120000,-1,-1,-1,0,0,-1,1
+800419,[Gauntlet] Weapon,30990000,5000,120000,-1,-1,-1,0,0,-1,1
+800420,[Gauntlet] Weapon,31010000,5000,120000,-1,-1,-1,0,0,-1,1
+800421,[Gauntlet] Weapon,31020000,5000,120000,-1,-1,-1,0,0,-1,1
+800422,[Gauntlet] Weapon,31030000,5000,120000,-1,-1,-1,0,0,-1,1
+800423,[Gauntlet] Weapon,31040000,5000,120000,-1,-1,-1,0,0,-1,1
+800424,[Gauntlet] Weapon,31050000,5000,120000,-1,-1,-1,0,0,-1,1
+800425,[Gauntlet] Weapon,31060000,5000,120000,-1,-1,-1,0,0,-1,1
+800426,[Gauntlet] Weapon,31070000,5000,120000,-1,-1,-1,0,0,-1,1
+800427,[Gauntlet] Weapon,31080000,5000,120000,-1,-1,-1,0,0,-1,1
+800428,[Gauntlet] Weapon,31090000,5000,120000,-1,-1,-1,0,0,-1,1
+800429,[Gauntlet] Weapon,31100000,5000,120000,-1,-1,-1,0,0,-1,1
+800430,[Gauntlet] Weapon,31110000,5000,120000,-1,-1,-1,0,0,-1,1
+800431,[Gauntlet] Weapon,31120000,5000,120000,-1,-1,-1,0,0,-1,1
+800432,[Gauntlet] Weapon,31130000,5000,120000,-1,-1,-1,0,0,-1,1
+800433,[Gauntlet] Weapon,31140000,5000,120000,-1,-1,-1,0,0,-1,1
+800434,[Gauntlet] Weapon,31160000,5000,120000,-1,-1,-1,0,0,-1,1
+800435,[Gauntlet] Weapon,31170000,5000,120000,-1,-1,-1,0,0,-1,1
+800436,[Gauntlet] Weapon,31180000,5000,120000,-1,-1,-1,0,0,-1,1
+800437,[Gauntlet] Weapon,31190000,5000,120000,-1,-1,-1,0,0,-1,1
+800438,[Gauntlet] Weapon,31200000,5000,120000,-1,-1,-1,0,0,-1,1
+800439,[Gauntlet] Weapon,31210000,5000,120000,-1,-1,-1,0,0,-1,1
+800440,[Gauntlet] Weapon,31220000,5000,120000,-1,-1,-1,0,0,-1,1
+800441,[Gauntlet] Weapon,31230000,5000,120000,-1,-1,-1,0,0,-1,1
+800442,[Gauntlet] Weapon,31240000,5000,120000,-1,-1,-1,0,0,-1,1
+800443,[Gauntlet] Weapon,31250000,5000,120000,-1,-1,-1,0,0,-1,1
+800444,[Gauntlet] Weapon,31260000,5000,120000,-1,-1,-1,0,0,-1,1
+800445,[Gauntlet] Weapon,31270000,5000,120000,-1,-1,-1,0,0,-1,1
+800446,[Gauntlet] Weapon,31280000,5000,120000,-1,-1,-1,0,0,-1,1
+800447,[Gauntlet] Weapon,31290000,5000,120000,-1,-1,-1,0,0,-1,1
+800448,[Gauntlet] Weapon,31300000,5000,120000,-1,-1,-1,0,0,-1,1
+800449,[Gauntlet] Weapon,31310000,5000,120000,-1,-1,-1,0,0,-1,1
+800450,[Gauntlet] Weapon,31320000,5000,120000,-1,-1,-1,0,0,-1,1
+800451,[Gauntlet] Weapon,31330000,5000,120000,-1,-1,-1,0,0,-1,1
+800452,[Gauntlet] Weapon,31340000,5000,120000,-1,-1,-1,0,0,-1,1
+800453,[Gauntlet] Weapon,31350000,5000,120000,-1,-1,-1,0,0,-1,1
+800454,[Gauntlet] Weapon,31370000,5000,120000,-1,-1,-1,0,0,-1,1
+800455,[Gauntlet] Weapon,31380000,5000,120000,-1,-1,-1,0,0,-1,1
+800456,[Gauntlet] Weapon,31390000,5000,120000,-1,-1,-1,0,0,-1,1
+800457,[Gauntlet] Weapon,31400000,5000,120000,-1,-1,-1,0,0,-1,1
+800458,[Gauntlet] Weapon,31410000,5000,120000,-1,-1,-1,0,0,-1,1
+800459,[Gauntlet] Weapon,31420000,5000,120000,-1,-1,-1,0,0,-1,1
+800460,[Gauntlet] Weapon,31430000,5000,120000,-1,-1,-1,0,0,-1,1
+800461,[Gauntlet] Weapon,31440000,5000,120000,-1,-1,-1,0,0,-1,1
 801000,[Gauntlet] Armor,10010000,3000,130000,-1,-1,-1,0,1,-1,1
 801001,[Gauntlet] Armor,10011000,3000,130000,-1,-1,-1,0,1,-1,1
 801002,[Gauntlet] Armor,10012000,3000,130000,-1,-1,-1,0,1,-1,1
@@ -2891,8 +2914,8 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 802127,[Gauntlet] Accessory,30880,10000,140000,-1,-1,-1,0,2,-1,1
 802128,[Gauntlet] Accessory,30890,10000,140000,-1,-1,-1,0,2,-1,1
 802129,[Gauntlet] Accessory,30900,10000,140000,-1,-1,-1,0,2,-1,1
-802130,[Gauntlet] Accessory,30910,10000,140000,-1,-1,-1,0,2,-1,1
-802131,[Gauntlet] Accessory,30920,10000,140000,-1,-1,-1,0,2,-1,1
+802130,[Gauntlet] Accessory,30910,10000,140004,-1,-1,-1,0,2,-1,1
+802131,[Gauntlet] Accessory,30920,10000,140004,-1,-1,-1,0,2,-1,1
 802132,[Gauntlet] Accessory,30930,10000,140000,-1,-1,-1,0,2,-1,1
 802133,[Gauntlet] Accessory,30940,10000,140000,-1,-1,-1,0,2,-1,1
 802134,[Gauntlet] Accessory,30950,10000,140000,-1,-1,-1,0,2,-1,1
@@ -2906,8 +2929,8 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 802142,[Gauntlet] Accessory,31030,10000,140000,-1,-1,-1,0,2,-1,1
 802143,[Gauntlet] Accessory,31040,10000,140000,-1,-1,-1,0,2,-1,1
 802144,[Gauntlet] Accessory,31050,10000,140000,-1,-1,-1,0,2,-1,1
-802145,[Gauntlet] Accessory,31060,10000,140000,-1,-1,-1,0,2,-1,1
-802146,[Gauntlet] Accessory,31070,10000,140000,-1,-1,-1,0,2,-1,1
+802145,[Gauntlet] Accessory,31060,10000,140005,-1,-1,-1,0,2,-1,1
+802146,[Gauntlet] Accessory,31070,10000,140005,-1,-1,-1,0,2,-1,1
 802147,[Gauntlet] Accessory,31080,10000,140000,-1,-1,-1,0,2,-1,1
 803000,[Gauntlet] Spell,1200000,5000,120000,-1,-1,-1,0,3,-1,1
 803001,[Gauntlet] Spell,1200010,10000,120002,-1,-1,-1,0,3,-1,1
@@ -3327,3 +3350,49 @@ ID,Name,Equip ID,Value,Material ID,Event Flag,QWC ID,Quantity,Shop Type,Equip Ty
 804103,[Gauntlet] Item,341,-1,-1,-1,-1,-1,0,3,-1,1
 804104,[Gauntlet] Item,343,-1,-1,-1,-1,-1,0,3,-1,1
 804105,[Gauntlet] Item,344,-1,-1,-1,-1,-1,0,3,-1,1
+804200,[Gauntlet] Ammunition,400000,-1,-1,-1,-1,-1,0,0,-1,1
+804201,[Gauntlet] Ammunition,400100,-1,-1,-1,-1,-1,0,0,-1,1
+804202,[Gauntlet] Ammunition,400200,-1,-1,-1,-1,-1,0,0,-1,1
+804203,[Gauntlet] Ammunition,400300,-1,-1,-1,-1,-1,0,0,-1,1
+804204,[Gauntlet] Ammunition,400400,-1,-1,-1,-1,-1,0,0,-1,1
+804205,[Gauntlet] Ammunition,400500,-1,-1,-1,-1,-1,0,0,-1,1
+804206,[Gauntlet] Ammunition,400600,-1,-1,-1,-1,-1,0,0,-1,1
+804207,[Gauntlet] Ammunition,400700,-1,-1,-1,-1,-1,0,0,-1,1
+804208,[Gauntlet] Ammunition,402000,-1,-1,-1,-1,-1,0,0,-1,1
+804209,[Gauntlet] Ammunition,402200,-1,-1,-1,-1,-1,0,0,-1,1
+804210,[Gauntlet] Ammunition,402300,-1,-1,-1,-1,-1,0,0,-1,1
+804211,[Gauntlet] Ammunition,404000,-1,-1,-1,-1,-1,0,0,-1,1
+804212,[Gauntlet] Ammunition,404100,-1,-1,-1,-1,-1,0,0,-1,1
+804213,[Gauntlet] Ammunition,404200,-1,-1,-1,-1,-1,0,0,-1,1
+804214,[Gauntlet] Ammunition,404300,-1,-1,-1,-1,-1,0,0,-1,1
+804215,[Gauntlet] Ammunition,404400,-1,-1,-1,-1,-1,0,0,-1,1
+804216,[Gauntlet] Ammunition,404500,-1,-1,-1,-1,-1,0,0,-1,1
+804217,[Gauntlet] Ammunition,404600,-1,-1,-1,-1,-1,0,0,-1,1
+804218,[Gauntlet] Ammunition,410000,-1,-1,-1,-1,-1,0,0,-1,1
+804219,[Gauntlet] Ammunition,410300,-1,-1,-1,-1,-1,0,0,-1,1
+804220,[Gauntlet] Ammunition,410400,-1,-1,-1,-1,-1,0,0,-1,1
+804221,[Gauntlet] Ammunition,410600,-1,-1,-1,-1,-1,0,0,-1,1
+804222,[Gauntlet] Ammunition,412000,-1,-1,-1,-1,-1,0,0,-1,1
+804223,[Gauntlet] Ammunition,412300,-1,-1,-1,-1,-1,0,0,-1,1
+804224,[Gauntlet] Ammunition,414000,-1,-1,-1,-1,-1,0,0,-1,1
+804225,[Gauntlet] Ammunition,414100,-1,-1,-1,-1,-1,0,0,-1,1
+804226,[Gauntlet] Ammunition,422000,-1,-1,-1,-1,-1,0,0,-1,1
+804227,[Gauntlet] Ammunition,424000,-1,-1,-1,-1,-1,0,0,-1,1
+804228,[Gauntlet] Ammunition,432000,-1,-1,-1,-1,-1,0,0,-1,1
+804229,[Gauntlet] Ammunition,434000,-1,-1,-1,-1,-1,0,0,-1,1
+804230,[Gauntlet] Ammunition,442000,-1,-1,-1,-1,-1,0,0,-1,1
+804231,[Gauntlet] Ammunition,444000,-1,-1,-1,-1,-1,0,0,-1,1
+804232,[Gauntlet] Ammunition,454000,-1,-1,-1,-1,-1,0,0,-1,1
+900000,[Debug] Weapon Token,40000,0,-1,-1,-1,-1,0,3,-1,1
+900001,[Debug] Armor Token,40001,0,-1,-1,-1,-1,0,3,-1,1
+900002,[Debug] Accesory Token,40002,0,-1,-1,-1,-1,0,3,-1,1
+900003,[Debug] Tool,8000,0,-1,-1,-1,-1,0,3,-1,1
+900004,[Debug] Tool,8001,0,-1,-1,-1,-1,0,3,-1,1
+900005,[Debug] Tool,8002,0,-1,-1,-1,-1,0,3,-1,1
+900006,[Debug] Tool,8003,0,-1,-1,-1,-1,0,3,-1,1
+900007,[Debug] Tool,8004,0,-1,-1,-1,-1,0,3,-1,1
+900008,[Debug] Tool,8005,0,-1,-1,-1,-1,0,3,-1,1
+900009,[Debug] Tool,8006,0,-1,-1,-1,-1,0,3,-1,1
+900010,[Debug] Tool,8007,0,-1,-1,-1,-1,0,3,-1,1
+900011,[Debug] Tool,8008,0,-1,-1,-1,-1,0,3,-1,1
+900012,[Debug] Tool,8009,0,-1,-1,-1,-1,0,3,-1,1
