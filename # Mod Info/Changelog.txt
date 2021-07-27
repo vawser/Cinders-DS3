@@ -142,6 +142,7 @@ Finish following weapons:
 - Fixed some weapons using the wrong stats with certain infusions.
 - Fixed the duration of Blessed Weapon and Supreme Blessed Weapon.
 - Fixed Great Lifehunt Scythe not restoring HP on hit.
+- Added the Bloodletter to the Fire Keeper's shop in Gauntlet Mode.
  
 #------------------------------
 # TODO
