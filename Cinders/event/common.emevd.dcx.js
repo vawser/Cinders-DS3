@@ -271,7 +271,7 @@ Event(0, Default, function() {
     InitializeEvent(24, 970, 15100800, 2340, 0, 0); // Halflight
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
     InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
-    InitializeEvent(27, 970, 14500950, 2320, 0, 0); // Prince Dorthinus
+    InitializeEvent(27, 970, 14500960, 2320, 0, 0); // Prince Dorthinus
     InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
