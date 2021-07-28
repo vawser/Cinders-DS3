@@ -93,6 +93,15 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Journey Configuration 
+- Added Explorer mode:
+ - Effects:
+    - Boosts absorptions by 30%.
+    - Adds 1% HP regen per second.
+    - Adds 30 stamina recovery.
+    - Reduces soul gain by 25%.
+ - Intended as an 'easy mode' for those that want to explore the content in the mod.
+
 # Bosses
 - Added Titanite Abomination
  - Found in Archdragon Peak bridge area.

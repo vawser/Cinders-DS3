@@ -167,10 +167,10 @@ def t400504_x9():
         AddTalkListDataIf(GetEventStatus(25009812) == 1, 4, 15010008, -1)
         
         # Affixes
-        AddTalkListData(3, 99002532, -1)
+        AddTalkListDataIf(GetEventStatus(25009814) == 0, 3, 99002532, -1)
         
         # Relics
-        AddTalkListData(7, 99003501, -1)
+        AddTalkListDataIf(GetEventStatus(25009814) == 0, 7, 99003501, -1)
         
         # Bestow the Lordvessel
         AddTalkListDataIf(GetEventStatus(25009520) == 0 and ComparePlayerInventoryNumber(3, 2002, 2, 0, 0) == 1, 5, 99003500, -1)

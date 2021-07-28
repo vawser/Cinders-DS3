@@ -1,10 +1,9 @@
 // ==EMEVD==
 // @docs    ds3-common.emedf.json
-// @compress    DCX_DFLT_10000_44_9
+// @compress    DarkSouls3
 // @game    DarkSouls3
 // @string    
 // @linked    []
-// @version    3.2.1
 // ==/EMEVD==
 
 //----------------------------------------------
@@ -30,6 +29,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20051, 0); // Wanderer Mode
     InitializeEvent(0, 20052, 0); // Mythic Mode
     InitializeEvent(0, 20053, 0); // Starting Location
+    InitializeEvent(0, 20054, 0); // Explorer Mode
     
     // Gauntlet Mode
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
@@ -2569,6 +2569,18 @@ Event(20053, Restart, function() {
     
     // Set setup flag
     SetEventFlag(25009801, ON);
+});
+
+//----------------------------------------------
+// Explorer Mode
+//----------------------------------------------
+Event(20054, Restart, function() {
+    var flag_ExplorerMode = 25009814;
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_ExplorerMode);
+    
+    SetSpEffect(10000, 250000200);
+    SetSpEffect(10000, 250000201);
 });
 
 //----------------------------------------------

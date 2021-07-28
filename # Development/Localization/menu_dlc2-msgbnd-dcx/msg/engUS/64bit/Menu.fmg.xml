@@ -4271,6 +4271,7 @@ to commune with the fallen knight.</text>
 <text id="99060011">Wanderer Mode</text>
 <text id="99060012">Mythic Mode</text>
 <text id="99060013">Gauntlet Mode</text>
+<text id="99060014">Explorer Mode</text>
 
 <text id="99060020">Standard mode applies the following effects:
 - None</text>
@@ -4287,6 +4288,13 @@ to commune with the fallen knight.</text>
 - Each boss will drop a Weapon, Armor or Accessory token.
 - Spend tokens at the Fire Keeper.
 - Defeat all bosses to complete the gauntlet.</text>
+<text id="99060024">Explorer mode applies the following effects:
+- Increases absorptions by 33%.
+- Grants passive HP regeneration, restoring 1% every second.
+- Grants 30 stamina recovery.
+- Reduces soul absorption by 25%.
+- Invalidates challenge run rewards from Magnum Ursus.
+- Prevents Magnum Ursus from affixing accessories.</text>
 
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>
