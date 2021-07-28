@@ -100,6 +100,8 @@ Finish following weapons:
     - Adds 1% HP regen per second.
     - Adds 30 stamina recovery.
     - Reduces soul gain by 25%.
+    - Invalidates challenge runs.
+    - Prevents affixing of accessories.
  - Intended as an 'easy mode' for those that want to explore the content in the mod.
 
 # Bosses
@@ -163,3 +165,4 @@ Finish following weapons:
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
+c7550 Fume Knight c5280
