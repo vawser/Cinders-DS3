@@ -208,7 +208,7 @@ def t400510_x9():
             return 0   
         # Modify Journey
         elif GetTalkListEntryResult() == 4:
-            assert t400510_x15()
+            assert t400510_x19()
             continue
         # Current Configuration (Standard)
         elif GetTalkListEntryResult() == 10:
@@ -515,7 +515,7 @@ def t400510_x15():
             return 0
             
 # Modify Journey
-def t400510_x15():
+def t400510_x19():
     c1110()
     while True:
         ClearTalkListData()
