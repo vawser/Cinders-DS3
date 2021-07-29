@@ -2487,10 +2487,11 @@ Event(20053, Restart, function() {
     RandomlySetEventFlagInRange(25009820, 25009831, ON);
     
     // Untended Graves
-    SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_UntendedGraves);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, flag_Location_UntendedGraves);
     SetEventFlag(14000003, ON); // Untended Graves
-    WarpPlayer(40, 1, 4000973);
+    WarpPlayer(40, 0, 4000973);
     SetPlayerRespawnPoint(4000973);
+    SetMapCeremony(40, 0, 10);
     
     // Archdragon Peak
     SkipIfEventFlag(3, OFF, TargetEventFlagType.EventFlag, flag_Location_ArchdragonPeak);
