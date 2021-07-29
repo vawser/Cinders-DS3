@@ -117,7 +117,7 @@ Finish following weapons:
 - Increase the length of Crescent Axe by 15%.
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
 - Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
-- Adjusted the guard absorption of the Witchtree Limb and the stability of several weapons.
+- Adjusted the guard absorption and stability of several weapons.
 - Infused Follower Torches now have different coloured visual effects when using the Weapon Art, except for Blunt/Sharp/Fire/Lethal infusions.
 - Added guard absorption and stability scaling to these weapons:
  - Ultra greatswords
@@ -125,6 +125,7 @@ Finish following weapons:
  - Great hammers
  - Witchtree Limb
  - Dark Hand (only guard absorption)
+ - Thorned Greatsword
  - Runelock
  - Valorheart
  - Giant Door Shield
