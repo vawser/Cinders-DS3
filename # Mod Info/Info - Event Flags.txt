@@ -1676,3 +1676,16 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003032 Selection: Twisted Knight
 25003033 Selection: Fallen Protector
 25003034 Selection: Titanite Abomination
+
+# Masteries
+25007000 Reset Masteries
+
+25007010 Hollowing Mastery
+25007020 Attunement Mastery
+25007030 Endurance Mastery
+25007040 Vitality Mastery
+25007050 Strength Mastery
+25007060 Dexterity Mastery
+25007070 Intelligence Mastery
+25007080 Faith Mastery
+25007090 Luck Mastery

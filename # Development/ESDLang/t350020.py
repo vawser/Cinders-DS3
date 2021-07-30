@@ -238,6 +238,7 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
                 assert GetCurrentStateElapsedTime() > 1
                 """ State 13 """
                 c1113()
+                SetEventState(25007000, 1) # Reset Masteries
                 ClearTalkActionState()
                 def ExitPause():
                     SetEventState(73500161, 0)

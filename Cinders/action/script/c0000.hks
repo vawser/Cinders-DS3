@@ -1643,23 +1643,30 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     -----------------------
     -- FP Pause
     -----------------------
-    -- Regular attacks
-    if request == ATTACK_REQUEST_RIGHT_LIGHT or request == ATTACK_REQUEST_LIGHT_KICK or request == ATTACK_REQUEST_RIGHT_HEAVY or request == ATTACK_REQUEST_HEAVY_KICK or request == ATTACK_REQUEST_LEFT_LIGHT or request == ATTACK_REQUEST_LEFT_HEAVY or request == ATTACK_REQUEST_LEFT_HEAVY_SP or request == ATTACK_REQUEST_BOTH_LIGHT or request == ATTACK_REQUEST_BOTH_LEFT or request == ATTACK_REQUEST_BOTH_HEAVY or request == ATTACK_REQUEST_ARROW_BOTH_RIGHT or request == ATTACK_REQUEST_ARROW_BOTH_LEFT then
-        -- Ring of Londor
-        if env(1116, 112200) == FALSE then
-            act(2002, 113001)
+    if env(1116, 112201) == FALSE then
+        -- Regular attacks
+        if request == ATTACK_REQUEST_RIGHT_LIGHT or request == ATTACK_REQUEST_LIGHT_KICK or request == ATTACK_REQUEST_RIGHT_HEAVY or request == ATTACK_REQUEST_HEAVY_KICK or request == ATTACK_REQUEST_LEFT_LIGHT or request == ATTACK_REQUEST_LEFT_HEAVY or request == ATTACK_REQUEST_LEFT_HEAVY_SP or request == ATTACK_REQUEST_BOTH_LIGHT or request == ATTACK_REQUEST_BOTH_LEFT or request == ATTACK_REQUEST_BOTH_HEAVY or request == ATTACK_REQUEST_ARROW_BOTH_RIGHT or request == ATTACK_REQUEST_ARROW_BOTH_LEFT then
+            -- Ring of Londor
+            if env(1116, 112200) == FALSE then
+                act(2002, 113001)
+            end
+        -- All other attacks
+        else
+            act(2002, 113005) 
         end
-    -- All other attacks
-    else
-        act(2002, 113005) 
     end
-        
+    
     -- Crit Setup
     local db_chance = 0
     local roll = math.random(0, 100)
     
     -- Old Man's Gambit
     if env(1116, 112400) == TRUE then
+        db_chance = db_chance + 5
+    end
+    
+    -- Luck Mastery
+    if env(1116, 112401) == TRUE then
         db_chance = db_chance + 5
     end
     
@@ -16274,6 +16281,7 @@ function Update()
     UpdateFP()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
+    UpdateVitalityMasteryEffect()
     
     -- Rings
     UpdateSigilEffect()
@@ -16430,8 +16438,15 @@ function UpdateFP()
         if skip == false then
             act(2002, 113000) -- Base Interval
             
-            if skip_base == false then
-                act(2002, 113100) -- Base
+            -- Attunement Mastery
+            if env(1116, 112430) == TRUE then
+                if skip_base == false then
+                    act(2002, 113130) -- Attunement Mastery - Base
+                end
+            else
+                if skip_base == false then
+                    act(2002, 113100) -- Normal - Base
+                end
             end
             
             if env(1116, 113200) == TRUE then
@@ -16622,6 +16637,16 @@ function AnimationMonitor()
     -- Long Leap
     if env(1116, 112411) == TRUE then
         ExecEventAllBody("W_Event60750")
+    end
+end
+
+function UpdateVitalityMasteryEffect()
+    -- Vitality Mastery enabled
+    if env(1116, 112421) == TRUE then
+        if env(1116, 112422) ~= TRUE then
+            act(2002, 112422)
+            act(2002, 112420)
+        end
     end
 end
 

@@ -116,7 +116,7 @@ Then create the python version and recompile it.
     2: Endurance
     3: Strength
     4: Dexterity
-    5: Magic
+    5: Intelligence
     6: Faith
     7: Luck
     8: Soul
@@ -124,8 +124,9 @@ Then create the python version and recompile it.
     10: Humanity
     11: Covenant Type
     12: Gender
-    13: Unk1
-    14: Unk2
+    13: 
+    14: 
+    
     15: Equipped Covenant Points
     16: Equipped Covenant Points - Covenant Level 
     17: Blade Of Darkmoon Points
@@ -142,14 +143,22 @@ Then create the python version and recompile it.
     28: Rosaria's Fingers Points - Covenant Level
     29: Watchdogs of Farron Points - Covenant Level
     30: Aldrich Faithful Points - Covenant Level
-    31: Hollowing Level (Yoel)
+    
+    31: Hollowing
     32: Hollowing Level - Covenant Level
     33: Soul Level
     34: Free Yoel Level Ups Remaining
+    
     35: Way of Blue Points
     36: Way of Blue Points - Covenant Level
     37: Blue Sentinels Points
     38: Blue Sentinels Points - Covenant Level
+    
+    39:
+    40:
+    41:
+    42:
+    43:
    
 -- GetEstusAllocation (c109)
     0: HP Estus

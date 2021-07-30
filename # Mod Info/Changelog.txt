@@ -93,6 +93,35 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Masteries
+- Added mastery bonuses for achieving 99 in a stat (except Vigor). 
+- You can enable the masteries at Ludleth.
+    - Mastery of Attunement:
+        - Increases passive FP restoration to 15 per second.
+        
+    - Mastery of Endurance:
+        - Grants immunity to all non-lethal fall damage.
+        
+    - Mastery of Vitality:
+        - Gain 100 attack deflection for 3 seconds every 9 seconds.
+        
+    - Mastery of Strength:
+        - Boosts maximum equipment load by 25%.
+        
+    - Mastery of Dexterity:
+        - Reduces weapon stamina consumption by 25%.
+        
+    - Mastery of Intelligence:
+        - FP regeneration is no longer paused by any melee attack.
+        
+    - Mastery of Faith:
+        - Doubles the effectiveness of HP restoration.
+        
+    - Mastery of Luck:
+        - Gain a 5% chance to deal double damage with any attack.
+
+- Note that using Reallocate Attributes will reset these flags, meaning you will need to return to Ludleth if you want to re-enable a Mastery (if the stat is still at 99).
+
 # Journey Configuration 
 - Added Explorer mode:
  - Effects:
@@ -173,14 +202,3 @@ Finish following weapons:
 
 c7550 Fume Knight c5280
 
-1.1	    0	1.05
-1.13	1	1.08
-1.16	2	1.11
-1.19	3	1.14
-1.22	4	1.17
-1.25	5	1.2
-1.28	6	1.23
-1.31	7	1.26
-1.34	8	1.29
-1.37	9	1.32
-1.4	    10	1.35

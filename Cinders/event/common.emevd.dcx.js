@@ -37,6 +37,10 @@ Event(0, Default, function() {
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Order
     InitializeEvent(0, 20073, 0); // Gauntlet Mode - Reset Progress
     
+    // Masteries
+    InitializeEvent(0, 20080, 0); // Masteries
+    InitializeEvent(0, 20081, 0); // Masteries - Reset
+    
     //--------------------
     // Challenge States
     //--------------------
@@ -3036,6 +3040,90 @@ Event(20073, Restart, function() {
     
     BatchSetEventFlags(25002000, 25002050, OFF);
 });
+
+
+//----------------------------------------------
+// Masteries
+//----------------------------------------------
+Event(20080, Restart, function() {
+    var flag_Mastery_Vigor        = 25007010;
+    var flag_Mastery_Attunement   = 25007020;
+    var flag_Mastery_Endurance    = 25007030;
+    var flag_Mastery_Vitality     = 25007040;
+    var flag_Mastery_Strength     = 25007050;
+    var flag_Mastery_Dexterity    = 25007060;
+    var flag_Mastery_Intelligence = 25007070;
+    var flag_Mastery_Faith        = 25007080;
+    var flag_Mastery_Luck         = 25007090;
+    
+    // Vigor
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Vigor);
+    SetSpEffect(10000, 260130000);
+    
+    // Attunement
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Attunement);
+    SetSpEffect(10000, 260130010);
+    
+    // Endurance
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Endurance);
+    SetSpEffect(10000, 260130020);
+    
+    // Vitality
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Vitality);
+    SetSpEffect(10000, 260130030);
+    
+    // Strength
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Strength);
+    SetSpEffect(10000, 260130040);
+    
+    // Dexterity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Dexterity);
+    SetSpEffect(10000, 260130050);
+    
+    // Intelligence
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Intelligence);
+    SetSpEffect(10000, 260130060);
+    
+    // Faith
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Faith);
+    SetSpEffect(10000, 260130070);
+    
+    // Luck
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Luck);
+    SetSpEffect(10000, 260130080);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Masteries - Reset Progress
+//----------------------------------------------
+Event(20081, Restart, function() {
+    var flag_ResetMasteries       = 25007000;
+    var flag_Mastery_Vigor        = 25007010;
+    var flag_Mastery_Attunement   = 25007020;
+    var flag_Mastery_Endurance    = 25007030;
+    var flag_Mastery_Vitality     = 25007040;
+    var flag_Mastery_Strength     = 25007050;
+    var flag_Mastery_Dexterity    = 25007060;
+    var flag_Mastery_Intelligence = 25007070;
+    var flag_Mastery_Faith        = 25007080;
+    var flag_Mastery_Luck         = 25007090;
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_ResetMasteries)
+    
+    SetEventFlag(flag_ResetMasteries, OFF);
+    SetEventFlag(flag_Mastery_Vigor, OFF);
+    SetEventFlag(flag_Mastery_Attunement, OFF);
+    SetEventFlag(flag_Mastery_Endurance, OFF);
+    SetEventFlag(flag_Mastery_Vitality, OFF);
+    SetEventFlag(flag_Mastery_Strength, OFF);
+    SetEventFlag(flag_Mastery_Dexterity, OFF);
+    SetEventFlag(flag_Mastery_Intelligence, OFF);
+    SetEventFlag(flag_Mastery_Faith, OFF);
+    SetEventFlag(flag_Mastery_Luck, OFF);
+});
+
 
 //----------------------------------------------
 // Script Tool

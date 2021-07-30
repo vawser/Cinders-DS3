@@ -247,6 +247,7 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         # Respec
         elif GetTalkListEntryResult() == 46:
             c1113()
+            SetEventState(25007000, 1) # Reset Masteries
             continue
         elif GetTalkListEntryResult() == 16:
             """ State 5,17 """

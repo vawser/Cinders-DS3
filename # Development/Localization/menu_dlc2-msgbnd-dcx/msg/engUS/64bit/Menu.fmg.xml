@@ -4359,5 +4359,56 @@ a boss will no longer appear in the pool of available bosses.
 
 Defeat all bosses to complete the gauntlet.</text>
 
+<text id="99061000">Masteries</text>
+<text id="99061001">Summary</text>
+<text id="99061002">Enable</text>
+<text id="99061003">Disable</text>
+
+<text id="99061011">Attunement</text>
+<text id="99061012">Endurance</text>
+<text id="99061013">Vitality</text>
+<text id="99061014">Strength</text>
+<text id="99061015">Dexterity</text>
+<text id="99061016">Intelligence</text>
+<text id="99061017">Faith</text>
+<text id="99061018">Luck</text>
+
+<text id="99061021">Mastery of Attunement provides the following:
+- Increases passive FP restoration to 15 per second.</text>
+<text id="99061022">Mastery of Endurance provides the following:
+- Grants immunity to all non-lethal fall damage.</text>
+<text id="99061023">Mastery of Vitality provides the following:
+- Gain 100 attack deflection for 3 seconds every 9 seconds.</text>
+<text id="99061024">Mastery of Strength provides the following:
+- Boosts maximum equipment load by 25%.</text>
+<text id="99061025">Mastery of Dexterity provides the following:
+- Reduces weapon stamina consumption by 25%.</text>
+<text id="99061026">Mastery of Intelligence provides the following:
+- FP regeneration is no longer paused by any melee attack.</text>
+<text id="99061027">Mastery of Faith provides the following:
+- Doubles the effectiveness of HP restoration.</text>
+<text id="99061028">Mastery of Luck provides the following:
+- Gain a 5% chance to deal double damage with any attack.</text>
+
+<text id="99061031">You do not have 99 Attunement.</text>
+<text id="99061032">You do not have 99 Endurance.</text>
+<text id="99061033">You do not have 99 Vitality.</text>
+<text id="99061034">You do not have 99 Strength.</text>
+<text id="99061035">You do not have 99 Dexterity.</text>
+<text id="99061036">You do not have 99 Intelligence.</text>
+<text id="99061037">You do not have 99 Faith.</text>
+<text id="99061038">You do not have 99 Luck.</text>
+
+<text id="99061041">You have enabled the Mastery of Attunement.</text>
+<text id="99061042">You have enabled the Mastery of Endurance.</text>
+<text id="99061043">You have enabled the Mastery of Vitality.</text>
+<text id="99061044">You have enabled the Mastery of Strength.</text>
+<text id="99061045">You have enabled the Mastery of Dexterity.</text>
+<text id="99061046">You have enabled the Mastery of Intelligence.</text>
+<text id="99061047">You have enabled the Mastery of Faith.</text>
+<text id="99061048">You have enabled the Mastery of Luck.</text>
+
+<text id="99061050">Disabled.</text>
+
 </entries>
 </fmg>
