@@ -1680,7 +1680,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 # Masteries
 25007000 Reset Masteries
 
-25007010 Hollowing Mastery
 25007020 Attunement Mastery
 25007030 Endurance Mastery
 25007040 Vitality Mastery
@@ -1689,3 +1688,4 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007070 Intelligence Mastery
 25007080 Faith Mastery
 25007090 Luck Mastery
+

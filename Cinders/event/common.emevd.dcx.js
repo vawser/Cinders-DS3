@@ -40,7 +40,7 @@ Event(0, Default, function() {
     // Masteries
     InitializeEvent(0, 20080, 0); // Masteries
     InitializeEvent(0, 20081, 0); // Masteries - Reset
-    
+
     //--------------------
     // Challenge States
     //--------------------
@@ -3123,7 +3123,6 @@ Event(20081, Restart, function() {
     SetEventFlag(flag_Mastery_Faith, OFF);
     SetEventFlag(flag_Mastery_Luck, OFF);
 });
-
 
 //----------------------------------------------
 // Script Tool

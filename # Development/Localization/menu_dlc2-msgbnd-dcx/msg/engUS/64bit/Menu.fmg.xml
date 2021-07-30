@@ -4410,5 +4410,14 @@ Defeat all bosses to complete the gauntlet.</text>
 
 <text id="99061050">Disabled.</text>
 
+<text id="99061100">Hollowing</text>
+<text id="99061101">Hollowing has a marked effect on you, causing the following effects:
+- Reduces max HP by 5%.
+- Boosts Dark damage by 10%.
+- Boosts Dark absorption by 10%.
+
+This effect can stack up to 10 times once at 99 Hollowing.
+</text>
+
 </entries>
 </fmg>

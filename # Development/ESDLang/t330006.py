@@ -167,6 +167,7 @@ def t330006_x9():
     assert GetCurrentStateElapsedTime() > 2
     """ State 21 """
     assert t330006_x1(z2=17, z3=9019, flag3=6067)
+ 
     """ State 17 """
     c1110()
     """ State 1 """
