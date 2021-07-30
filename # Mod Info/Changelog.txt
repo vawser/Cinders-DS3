@@ -103,6 +103,11 @@ Finish following weapons:
     - Invalidates challenge runs.
     - Prevents affixing of accessories.
  - Intended as an 'easy mode' for those that want to explore the content in the mod.
+- Wanderer Mode:
+ - Adjusted the damage boosts from bosses, now varies between 0.25% and 1%, depending on the boss. Overall max is now 25%.
+
+# Reinforcement
+- Increased the base damage boost provided by reinforcement (now +40%, was +20%).
 
 # Bosses
 - Added Titanite Abomination
