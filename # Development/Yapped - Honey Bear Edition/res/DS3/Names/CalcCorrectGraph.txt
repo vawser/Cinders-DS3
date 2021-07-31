@@ -37,3 +37,7 @@
 172 INT - Weapon Arts Point Max
 173 FTH - Weapon Arts Point Max
 200 Soul Level - Souls Required
+210 Base Fall Damage to % of max HP
+211 Equip Load % - Fall Damage Multiplier
+212 VIT - Fall Damage Multiplier
+213 DEX - Fall Damage Multiplier

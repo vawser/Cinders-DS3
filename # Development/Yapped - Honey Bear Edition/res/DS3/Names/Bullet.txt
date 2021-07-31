@@ -3345,6 +3345,7 @@
 100220415 [Dragonslayer Greatshield] Bash
 104901700 [Follower Torch] Breathe Fire
 104901701 [Follower Torch] Breathe Fire [Hit]
+104901702 [Follower Torch] Breathe Fire (Spit)
 104901710 [Follower Torch] Breathe Fire
 104901711 [Follower Torch] Breathe Fire
 104901800 [Longstaff of Rosaria] Blessing of Rosaria (Old)
@@ -3387,46 +3388,57 @@
 104912200 [Smough's Great Hammer] Lightning Smash
 104920700 [Follower Torch - Curse] Breathe Fire
 104920701 [Follower Torch - Curse] Breathe Fire [Hit]
+104920702 [Follower Torch - Curse] Breathe Fire (Spit)
 104920710 [Follower Torch - Curse] Breathe Fire
 104920711 [Follower Torch - Curse] Breathe Fire [Hit]
 104921700 [Follower Torch - Poison] Breathe Fire
 104921701 [Follower Torch - Poison] Breathe Fire [Hit]
+104921702 [Follower Torch - Poison] Breathe Fire (Spit)
 104921710 [Follower Torch - Poison] Breathe Fire
 104921711 [Follower Torch - Poison] Breathe Fire [Hit]
 104922700 [Follower Torch - Blood] Breathe Fire
 104922701 [Follower Torch - Blood] Breathe Fire [Hit]
+104922702 [Follower Torch - Blood] Breathe Fire (Spit)
 104922710 [Follower Torch - Blood] Breathe Fire
 104922711 [Follower Torch - Blood] Breathe Fire [Hit]
 104923700 [Follower Torch - Frost] Breathe Fire
 104923701 [Follower Torch - Frost] Breathe Fire [Hit]
+104923702 [Follower Torch - Frost] Breathe Fire (Spit)
 104923710 [Follower Torch - Frost] Breathe Fire
 104923711 [Follower Torch - Frost] Breathe Fire [Hit]
 104924700 [Follower Torch - Magic] Breathe Fire
 104924701 [Follower Torch - Magic] Breathe Fire [Hit]
+104924702 [Follower Torch - Magic] Breathe Fire (Spit)
 104924710 [Follower Torch - Magic] Breathe Fire
 104924711 [Follower Torch - Magic] Breathe Fire [Hit]
 104925700 [Follower Torch - Fire] Breathe Fire
 104925701 [Follower Torch - Fire] Breathe Fire [Hit]
+104925702 [Follower Torch - Fire] Breathe Fire (Spit)
 104925710 [Follower Torch - Fire] Breathe Fire
 104925711 [Follower Torch - Fire] Breathe Fire [Hit]
 104926700 [Follower Torch - Lightning] Breathe Fire
 104926701 [Follower Torch - Lightning] Breathe Fire [Hit]
+104926702 [Follower Torch - Lightning] Breathe Fire (Spit)
 104926710 [Follower Torch - Lightning] Breathe Fire
 104926711 [Follower Torch - Lightning] Breathe Fire [Hit]
 104927700 [Follower Torch - Dark] Breathe Fire
 104927701 [Follower Torch - Dark] Breathe Fire [Hit]
+104927702 [Follower Torch - Dark] Breathe Fire (Spit)
 104927710 [Follower Torch - Dark] Breathe Fire
 104927711 [Follower Torch - Dark] Breathe Fire [Hit]
 104928700 [Follower Torch - Lucky] Breathe Fire
 104928701 [Follower Torch - Lucky] Breathe Fire [Hit]
+104928702 [Follower Torch - Lucky] Breathe Fire (Spit)
 104928710 [Follower Torch - Lucky] Breathe Fire
 104928711 [Follower Torch - Lucky] Breathe Fire [Hit]
 104929700 [Follower Torch - Enchanted] Breathe Fire
 104929701 [Follower Torch - Enchanted] Breathe Fire [Hit]
+104929702 [Follower Torch - Enchanted] Breathe Fire (Spit)
 104929710 [Follower Torch - Enchanted] Breathe Fire
 104929711 [Follower Torch - Enchanted] Breathe Fire [Hit]
 104930700 [Follower Torch - Holy] Breathe Fire
 104930701 [Follower Torch - Holy] Breathe Fire [Hit]
+104930702 [Follower Torch - Holy] Breathe Fire (Spit)
 104930710 [Follower Torch - Holy] Breathe Fire
 104930711 [Follower Torch - Holy] Breathe Fire [Hit]
 104999999 ### Spells ###
