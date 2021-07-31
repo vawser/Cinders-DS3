@@ -344,6 +344,7 @@
 36075 [Bonfire - Great Belfry] Yellow Bug Pellet
 36076 [Bonfire - Irithyll Dungeon] Black Bug Pellet
 36077 [Bonfire - Default] Ember
+36078 [Bonfire - Cleansing Chapel] Holy Water Urn
 36080 [Bonfire - Depths of the Painting] Tarnished Coin
 36081 [Bonfire - Depths of the Painting] Tarnished Silver Coin
 36082 [Bonfire - Catacombs of Carthus] Hexing Urn
@@ -807,6 +808,7 @@
 150223 [Karla - Spells - Londor] Deep Protection
 160000 [Irina - Default] Saint's Ring
 160001 [Irina - Default] Lifegem
+160002 [Irina - Default] Holy Water Urn
 160010 [Irina - Cathedral Guardian] Saint's Talisman
 160011 [Irina - Cathedral Guardian] Radiant Lifegem
 160012 [Irina - Cathedral Guardian] Holy Gem

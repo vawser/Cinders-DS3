@@ -87,7 +87,7 @@
 89  Soul of {Boss}
 90  Monastery Charm
 91  Lightning Urn
-92  Holy Urn
+92  Holy Water Urn
 93  Dragon Head Stone
 94  Dragon Torso Stone
 95  Pale Pine Resin
@@ -914,6 +914,7 @@
 3426 Fallen Prince Body
 3459 Fallen Prince Hands
 3462 Fallen Prince Legs
+3499 Tiny Mass of Humanity
 3505 DUMMY
 
 3512 Alonne Head
