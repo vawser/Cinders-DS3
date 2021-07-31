@@ -2120,6 +2120,7 @@
 112191 [Behavior] Gwynevere's Urn - Cooldown
 112192 [Behavior] Gwynevere's Urn - Effect
 112200 [Behavior] Ring of Londor
+112201 [Behavior] Intelligence Mastery - Trigger
 112300 [Behavior] Easy Stagger
 112301 [Behavior] Stagger Hit: 1
 112302 [Behavior] Stagger Hit: 2
@@ -2133,8 +2134,13 @@
 112352 [Behavior] Stagger Threshold: 5
 112353 [Behavior] Stagger Threshold: 7
 112400 [Behavior] Old Man's Gambit
+112401 [Behavior] Luck Mastery - Trigger
 112410 [Behavior] Short Leap
 112411 [Behavior] Long Leap
+112420 [Behavior] Vitality Mastery - Effect
+112421 [Behavior] Vitality Mastery - Trigger
+112422 [Behavior] Vitality Mastery - Cooldown
+112430 [Behavior] Attunement Mastery - Trigger
 112499 [Behavior] Critical Hit
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
@@ -2192,6 +2198,7 @@
 113123 [Behavior] Restore FP - Focusing Ring+3 - 6 per second
 113124 [Behavior] Restore FP - Focusing Ring+4 - 7 per second
 113125 [Behavior] Restore FP - Focusing Ring+5 - 8 per second
+113130 [Behavior] Restore FP - Attunement Mastery - 15 per second
 113200 [Behavior] Effect - Enchanted
 113201 [Behavior] Effect - Clarity
 113202 [Behavior] Effect - Darkmoon Faithful
@@ -5665,13 +5672,15 @@
 200008400 Dark - Pistol Sidearm
 200008410 Dark - Fist Sidearm
 200008420 Dark - Blunderbuss Sidearm
-249999999 ### Challenges ###
+249999999 ### Journey Modifiers ###
 250000100 Mythic Mode - Player Effect - Damage
 250000101 Mythic Mode - Player Effect - Absorption
 250000102 Mythic Mode - Player Effect - Souls
 250000103 Mythic Mode - Player Effect - Spell Damage
 250000104 Mythic Mode - Player Effect - Stamina
 250000105 Mythic Mode - Player Effect - Aux
+250000200 Explorer Mode - Player Effect
+250000201 Explorer Mode - Soul Gain
 250001000 Curse of Pride - Player Effect
 250001010 Curse of Pride - Soul Gain - I
 250001011 Curse of Pride - Soul Gain - II
@@ -5847,7 +5856,7 @@
 260100330 Twisted Knight
 260100340 Fallen Protector
 260100350 Titanite Abomination
-260109999 ### Wanderer Mode - Damage Boosts
+260109999 ### Wanderer Mode - Damage Boost ###
 260110000 Dismal Knight
 260110001 Vordt of the Boreal Valley
 260110002 Curse-rotted Greatwood
@@ -5882,10 +5891,30 @@
 260110031 Twisted Knight
 260110032 Fallen Protector
 260110033 Titanite Abomination
-260119999 ### Gauntlet Mode
+260119999 ### Gauntlet Mode ###
 260120000 Set Order
 260120010 Random Order
 260120020 Reset Progress
+260129999 ### Masteries ###
+260130010 Attunement
+260130020 Endurance
+260130030 Vitality
+260130040 Strength
+260130050 Dexterity
+260130060 Intelligence
+260130070 Faith
+260130080 Luck
+260139999 ### Hollowing ###
+260140000 Hollowing - Player Effect - 10
+260140001 Hollowing - Player Effect - 20
+260140002 Hollowing - Player Effect - 30
+260140003 Hollowing - Player Effect - 40
+260140004 Hollowing - Player Effect - 50
+260140005 Hollowing - Player Effect - 60
+260140006 Hollowing - Player Effect - 70
+260140007 Hollowing - Player Effect - 80
+260140008 Hollowing - Player Effect - 90
+260140009 Hollowing - Player Effect - 99
 260199999 ### Memories ###
 260200100 Power Scaling: SL 50
 260200101 Power Scaling: SL 100

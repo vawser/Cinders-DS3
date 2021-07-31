@@ -93,6 +93,10 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+
+# General
+- Adjusted fall damage, removed the fall damage reduction from Dexterity and increased the one from Vitality. As a general rule, any non-lethal fall can now be survived if you have full HP with 70% equip load or less and 0 vitality.
+
 # Masteries
 - Added mastery bonuses for achieving 99 in a stat (except Vigor). 
 - You can enable the masteries at Ludleth.

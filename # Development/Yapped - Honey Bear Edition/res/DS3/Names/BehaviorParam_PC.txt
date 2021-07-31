@@ -4381,6 +4381,7 @@
 104901615 Follower Torch - Stock
 104901700 Follower Torch - Stock - Bullet
 104901710 Follower Torch - Stock - Bullet
+104901715 Follower Torch - Stock - Bullet (Spit)
 104902040 Follower Torch - Curse
 104902470 Follower Torch - Curse
 104902490 Follower Torch - Curse
@@ -4397,6 +4398,7 @@
 104902615 Follower Torch - Curse
 104902700 Follower Torch - Curse - Bullet
 104902710 Follower Torch - Curse - Bullet
+104902715 Follower Torch - Curse - Bullet (Spit)
 104903040 Follower Torch - Poison
 104903470 Follower Torch - Poison
 104903490 Follower Torch - Poison
@@ -4413,6 +4415,7 @@
 104903615 Follower Torch - Poison
 104903700 Follower Torch - Poison - Bullet
 104903710 Follower Torch - Poison - Bullet
+104903715 Follower Torch - Poison - Bullet (Spit)
 104904040 Follower Torch - Blood
 104904470 Follower Torch - Blood
 104904490 Follower Torch - Blood
@@ -4429,6 +4432,7 @@
 104904615 Follower Torch - Blood
 104904700 Follower Torch - Blood - Bullet
 104904710 Follower Torch - Blood - Bullet
+104904715 Follower Torch - Blood - Bullet (Spit)
 104905040 Follower Torch - Frost
 104905470 Follower Torch - Frost
 104905490 Follower Torch - Frost
@@ -4445,6 +4449,7 @@
 104905615 Follower Torch - Frost
 104905700 Follower Torch - Frost - Bullet
 104905710 Follower Torch - Frost - Bullet
+104905715 Follower Torch - Frost - Bullet (Spit)
 104906040 Follower Torch - Magic
 104906470 Follower Torch - Magic
 104906490 Follower Torch - Magic
@@ -4461,6 +4466,7 @@
 104906615 Follower Torch - Magic
 104906700 Follower Torch - Magic - Bullet
 104906710 Follower Torch - Magic - Bullet
+104906715 Follower Torch - Magic - Bullet (Spit)
 104907040 Follower Torch - Fire
 104907470 Follower Torch - Fire
 104907490 Follower Torch - Fire
@@ -4477,6 +4483,7 @@
 104907615 Follower Torch - Fire
 104907700 Follower Torch - Fire - Bullet
 104907710 Follower Torch - Fire - Bullet
+104907715 Follower Torch - Fire - Bullet (Spit)
 104908040 Follower Torch - Lightning
 104908470 Follower Torch - Lightning
 104908490 Follower Torch - Lightning
@@ -4493,6 +4500,7 @@
 104908615 Follower Torch - Lightning
 104908700 Follower Torch - Lightning - Bullet
 104908710 Follower Torch - Lightning - Bullet
+104908715 Follower Torch - Lightning - Bullet (Spit)
 104909040 Follower Torch - Dark
 104909470 Follower Torch - Dark
 104909490 Follower Torch - Dark
@@ -4509,6 +4517,7 @@
 104909615 Follower Torch - Dark
 104909700 Follower Torch - Dark - Bullet
 104909710 Follower Torch - Dark - Bullet
+104909715 Follower Torch - Dark - Bullet (Spit)
 104910040 Follower Torch - Lucky
 104910470 Follower Torch - Lucky
 104910490 Follower Torch - Lucky
@@ -4525,6 +4534,7 @@
 104910615 Follower Torch - Lucky
 104910700 Follower Torch - Lucky - Bullet
 104910710 Follower Torch - Lucky - Bullet
+104910715 Follower Torch - Lucky - Bullet (Spit)
 104911040 Follower Torch - Enchanted
 104911470 Follower Torch - Enchanted
 104911490 Follower Torch - Enchanted
@@ -4541,6 +4551,7 @@
 104911615 Follower Torch - Enchanted
 104911700 Follower Torch - Enchanted - Bullet
 104911710 Follower Torch - Enchanted - Bullet
+104911715 Follower Torch - Enchanted - Bullet (Spit)
 104912040 Follower Torch - Holy
 104912470 Follower Torch - Holy
 104912490 Follower Torch - Holy
@@ -4557,6 +4568,7 @@
 104912615 Follower Torch - Holy
 104912700 Follower Torch - Holy - Bullet
 104912710 Follower Torch - Holy - Bullet
+104912715 Follower Torch - Holy - Bullet (Spit)
 105000000 Scythe - 1H Light #1
 105000001 Scythe - 1H Light #1 (stick)
 105000010 Scythe - 1H Light #2
