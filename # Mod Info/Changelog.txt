@@ -96,7 +96,8 @@ Finish following weapons:
 
 # General
 - Adjusted fall damage, removed the fall damage reduction from Dexterity and increased the one from Vitality. As a general rule, any non-lethal fall can now be survived if you have full HP with 70% equip load or less and 0 vitality.
-- Added Holy Water Urn, sold by Irina for 400 Souls each. Also unlocked at Item Forge after lighting the Cleansing Chapel bonfire.
+- Added Holy Water Urn, sold by Irina for 400 Souls each. Also unlocked at the bonfire Item Forge after lighting the Cleansing Chapel bonfire.
+- Added Throwing Frying Pan, sold by the Shrine Handmaid for 100 Souls each. Also unlocked at the bonfire Item Forge after lighting the Distant Manor bonfire.
 
 # Masteries
 - Added mastery bonuses for achieving 99 in a stat (except Vigor). 

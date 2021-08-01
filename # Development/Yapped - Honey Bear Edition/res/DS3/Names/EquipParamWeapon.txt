@@ -26,6 +26,7 @@
 21100 Divine Spear Fragment
 21200 Dragon Stone Tool
 21300 Holy Water Urn
+21400 Throwing Frying Pan
 90999 ### Test Data ###
 91000 [Load Check] memory Check 1
 91100 [Load Check] memory Check 1

@@ -345,6 +345,7 @@
 36076 [Bonfire - Irithyll Dungeon] Black Bug Pellet
 36077 [Bonfire - Default] Ember
 36078 [Bonfire - Cleansing Chapel] Holy Water Urn
+36079 [Bonfire - Distant Manor] Throwing Frying Pan
 36080 [Bonfire - Depths of the Painting] Tarnished Coin
 36081 [Bonfire - Depths of the Painting] Tarnished Silver Coin
 36082 [Bonfire - Catacombs of Carthus] Hexing Urn
@@ -537,6 +538,7 @@
 110044 [Shrine Handmaid] Corrupted Talisman
 110045 [Shrine Handmaid] Black Flame
 110046 [Shrine Handmaid] Ring of Sacrifice
+110047 [Shrine Handmaid] Throwing Frying Pan
 110056 [Shrine Handmaid - Aborr] Grave Key
 110100 [Shrine Handmaid - Aborr] Leather Armor
 110101 [Shrine Handmaid - Aborr] Leather Gloves
