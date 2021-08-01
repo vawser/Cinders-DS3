@@ -157,6 +157,10 @@ Finish following weapons:
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
 - Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
 - Adjusted the guard absorption and stability of several weapons.
+- Adjusted the requirement for Luck infused Moonlight Greatsword, now requires 20 INT & FTH.
+- Slightly adjusted Censuring Palm damage frame and event.
+- Adjusted Fist Class stamina costs.
+- Adjusted Fist/Halberd Class kick animation.
 - Infused Follower Torches now have different coloured visual effects when using the Weapon Art, except for Blunt/Sharp/Fire/Lethal infusions.
 - Added guard absorption and stability scaling to these weapons:
  - Ultra greatswords
@@ -181,6 +185,12 @@ Finish following weapons:
 - Updated physics for the following set:
  - Brushwood Set
  - Mirror Knight Set
+
+# Consumables
+- Adjusted Fp costs for the following spellbound items:
+ - Spellbound Throwing Knife - 25 > 15
+ - Spellbound Kukri - 30 > 25
+ - Church Guardian Shiv - 10 > 20
  
 # Map
 - Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
@@ -195,6 +205,8 @@ Finish following weapons:
 - Fixed the duration of Blessed Weapon and Supreme Blessed Weapon.
 - Fixed Great Lifehunt Scythe not restoring HP on hit.
 - Added the Bloodletter to the Fire Keeper's shop in Gauntlet Mode.
+- Fixed Crescent Moon Sword's Weapon Art projectile not dealing any damage when Holy/Enchanted Infused.
+- Fixed Censuring Palm dual wield 2nd R1 damage and stamina cost.
  
 #------------------------------
 # TODO
