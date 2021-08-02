@@ -1157,6 +1157,15 @@
 102606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
 102606540 Drakewing Ultra Greatsword - 1H Roll
 102606580 Drakewing Ultra Greatsword - 2H Roll
+102607106 Ivory King UGS - Durability
+102607201 Ivory King UGS - Magic Blade Light
+102607202 Ivory King UGS - Magic Blade Heavy #1
+102607203 Ivory King UGS - Magic Blade Heavy #2
+102607300 Ivory King UGS - 2H Heavy #1
+102607305 Ivory King UGS - 2H Heavy #1 Max
+102607580 Ivory King UGS - 2H Roll
+102607700 Ivory King UGS - WA First Hit
+102607705 Ivory King UGS - WA Second Hit
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
 102610010 Fume Ultra Greatsword
@@ -3709,6 +3718,7 @@
 104145725 Fool's Flame - Fluorescent Flare - Bullet
 104200000 Caestus - 1H Light #1
 104200010 Caestus - 1H Light #2
+104200015 Censuring Palm - 1H Light #2
 104200020 Caestus - 1H Light #3
 104200030 Caestus - 1H Jump
 104200040 Caestus - 1H Fall Loop
@@ -3750,10 +3760,10 @@
 104200631 Caestus
 104200640 Caestus
 104200641 Caestus
-104200750 Caestus - Weapon Art
-104200751 Caestus - Weapon Art
-104200760 Caestus - Weapon Art
-104200761 Caestus - Weapon Art
+104200750 Caestus - 2H Special Backstep Right
+104200751 Caestus - 2H Special Backstep Left
+104200760 Caestus - 2H Special Roll Right
+104200761 Caestus - 2H Special Roll Left
 104200800 Caestus - Weapon Art
 104200990 Caestus - Quickstep
 104201000 Fist - 1H Light #1

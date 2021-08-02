@@ -250,6 +250,7 @@
 6000 Witching Urn
 6100 Hexing Urn
 6200 Holy Water Urn
+6300 Throwing Frying Pan
 7000 Wrathful Arrow
 7010 Darkmoon Volley
 7011 Darkmoon Volley [HitBullet]
@@ -1220,6 +1221,15 @@
 2606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
 2606540 Drakewing Ultra Greatsword - 1H Roll
 2606580 Drakewing Ultra Greatsword - 2H Roll
+2607106 Ivory King UGS - Durability
+2607201 Ivory King UGS - Magic Blade Light
+2607202 Ivory King UGS - Magic Blade Heavy #1
+2607203 Ivory King UGS - Magic Blade Heavy #2
+2607300 Ivory King UGS - 2H Heavy #1
+2607305 Ivory King UGS - 2H Heavy #1 Max
+2607580 Ivory King UGS - 2H Roll
+2607700 Ivory King UGS - WA First Hit
+2607705 Ivory King UGS - WA Second Hit
 2610000 Fume Ultra Greatsword
 2610001 Fume Ultra Greatsword
 2610010 Fume Ultra Greatsword
@@ -3673,6 +3683,7 @@
 4145725 Fool's Flame - Fluorescent Flare - Bullet
 4200000 Caestus - 1H Light #1
 4200010 Caestus - 1H Light #2
+4200015 Censuring Palm - 1H Light #2
 4200020 Caestus - 1H Light #3
 4200030 Caestus - 1H Jump
 4200040 Caestus - 1H Fall Loop
@@ -3717,6 +3728,10 @@
 4200701 Fist - Ladder Left-hand Attack
 4200702 Fist - Ladder Right-foot Attack
 4200703 Fist - Ladder Left-foot Attack
+4200750 Caestus - 2H Special Backstep Right
+4200751 Caestus - 2H Special Backstep Left
+4200760 Caestus - 2H Special Roll Right
+4200761 Caestus - 2H Special Roll Left
 4200900 Fist - Dragon Form 1H Light
 4200901 Fist - Dragon Form 1H Heavy
 4200902 Fist - Dragon Form 1H Left Hand

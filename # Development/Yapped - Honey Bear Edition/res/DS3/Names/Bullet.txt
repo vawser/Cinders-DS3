@@ -354,6 +354,7 @@
 3210 Holy Water Urn [Hit]
 3220 Holy Water Urn [Hit]
 3230 Holy Water Urn [Hit]
+3300 Throwing Frying Pan
 9000 Bomb ritual: Explosive bullets around
 9100 Bomb ritual: Target Search Bullets _ host lv.20 or less
 9101 Bomb ritual: Target Search Bullets _ host lv.40 or less
@@ -3110,6 +3111,7 @@
 100062910 [Wolnir's Holy Sword] Wrath of the Gods [Hit]
 100062920 [Hands of God] God's Wrath
 100062921 [Hands of God] God's Wrath [Hit]
+100063100 [Ivory King UGS] Durability Damage
 100063200 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave
 100063201 [Moonlight Greatsword] 1H Heavy #1 - Vertical Wave
 100063202 [Moonlight Greatsword] 1H Heavy #1 (Charged) - Vertical Wave (Fire)
