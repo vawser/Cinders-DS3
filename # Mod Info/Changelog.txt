@@ -144,6 +144,9 @@ Finish following weapons:
 # Reinforcement
 - Increased the base damage boost provided by reinforcement (now +30%, was +20%). Overall damage boost at +10 is now 25% compared to +0 version of weapon.
 
+# Infusions
+- Lucky and Laughing infusions now equalize the stat requirements of the weapon/spell tool (Strength with Dexterity and Intelligence with Faith).
+
 # Bosses
 - Added Titanite Abomination
  - Found in Archdragon Peak bridge area.
