@@ -145,7 +145,9 @@ Finish following weapons:
 - Increased the base damage boost provided by reinforcement (now +30%, was +20%). Overall damage boost at +10 is now 25% compared to +0 version of weapon.
 
 # Infusions
+- Lethal infusion now removes any INT/FTH requirements the weapon might have.
 - Lucky and Laughing infusions now equalize the stat requirements of the weapon/spell tool (Strength with Dexterity and Intelligence with Faith).
+- Lucky infusion now changes all the scaling to be only Luck. As a general rule, the higher the stat requirements of a weapon, the more suitable it is for the Lucky infusion.
 
 # Bosses
 - Added Titanite Abomination
@@ -160,12 +162,12 @@ Finish following weapons:
 - Increase the length of Crescent Axe by 15%.
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
 - Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
-- Adjusted the guard absorption and stability of several weapons.
-- Adjusted the requirement for Luck infused Moonlight Greatsword, now requires 20 INT & FTH.
 - Slightly adjusted Censuring Palm damage frame and event.
 - Adjusted Fist Class stamina costs.
 - Adjusted Fist/Halberd Class kick animation.
 - Infused Follower Torches now have different coloured visual effects when using the Weapon Art, except for Blunt/Sharp/Fire/Lethal infusions.
+- Flynn's Bow now scales only with Luck and requires 15 STR/DEX/INT/FTH to be used.
+- Adjusted the guard absorption and stability of several weapons.
 - Added guard absorption and stability scaling to these weapons:
  - Ultra greatswords
  - Greataxes
@@ -211,6 +213,7 @@ Finish following weapons:
 - Added the Bloodletter to the Fire Keeper's shop in Gauntlet Mode.
 - Fixed Crescent Moon Sword's Weapon Art projectile not dealing any damage when Holy/Enchanted Infused.
 - Fixed Censuring Palm dual wield 2nd R1 damage and stamina cost.
+- Adjusted the stats on some of the infusions of the Moonlight Sword to make the difference in Attack Rating not so big between them.
  
 #------------------------------
 # TODO
