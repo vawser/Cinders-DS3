@@ -166,7 +166,7 @@ Finish following weapons:
 - Adjusted Fist Class stamina costs.
 - Adjusted Fist/Halberd Class kick animation.
 - Infused Follower Torches now have different coloured visual effects when using the Weapon Art, except for Blunt/Sharp/Fire/Lethal infusions.
-- Flynn's Bow now scales only with Luck and requires 15 STR/DEX/INT/FTH to be used.
+- Flynn's Bow now scales only with Luck and requires 20 STR/DEX to be used.
 - Adjusted the guard absorption and stability of several weapons.
 - Added guard absorption and stability scaling to these weapons:
  - Ultra greatswords
