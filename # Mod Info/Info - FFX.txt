@@ -164,12 +164,19 @@ dmy:
 
 884112 Psychedelic Great Combustion
 
-893011 Blue Lightning
-893012 Blue Lightning
-893013 Blue Lightning
-893014 Blue Lightning
-893015 Blue Lightning
-893016 Blue Lightning
+893011 Blue Lightning Buff
+893012 Blue Lightning Buff
+893013 Blue Lightning Buff
+893014 Blue Lightning Buff
+893015 Blue Lightning Buff
+893016 Blue Lightning Buff
+
+894011 Rainbow Fire Buff
+894012 Rainbow Fire Buff
+894013 Rainbow Fire Buff
+894014 Rainbow Fire Buff
+894015 Rainbow Fire Buff
+894016 Rainbow Fire Buff
 
 895533 Blue Lightning Spark
 
