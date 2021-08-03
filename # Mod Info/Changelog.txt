@@ -147,7 +147,7 @@ Finish following weapons:
 # Infusions
 - Lethal infusion now removes any INT/FTH requirements the weapon might have.
 - Lucky and Laughing infusions now equalize the stat requirements of the weapon/spell tool (Strength with Dexterity and Intelligence with Faith).
-- Lucky infusion now changes all the scaling to be only Luck.
+- Lucky infusion now changes all the scaling to be only Luck. As a general rule, the higher the stat requirements of a weapon, the more suitable it is for the Lucky infusion.
 
 # Bosses
 - Added Titanite Abomination
