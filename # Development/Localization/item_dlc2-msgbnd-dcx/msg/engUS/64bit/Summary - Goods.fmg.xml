@@ -119,7 +119,7 @@
 <text id="293">Turns enemy toxic, but also affects user</text>
 <text id="294">Attracts certain types of enemies</text>
 <text id="295">%null%</text>
-<text id="296">Prevents Estus recovery within a limited area</text>
+<text id="296">Prevents HP recovery within a limited area</text>
 <text id="297">Explodes, inflicting fire damage</text>
 <text id="298">%null%</text>
 <text id="299">Thrown behind, explodes inflicting fire damage</text>
@@ -127,7 +127,7 @@
 <text id="301">Cleanse Undead with holy essence</text>
 <text id="302">Thrown behind, explodes inflicting high fire damage</text>
 <text id="303">Turns enemy toxic, but also affects user</text>
-<text id="304">Temporarily disables special effects in vicinity</text>
+<text id="304">Temporarily disables special effects and prevents spell casting in vicinity</text>
 <text id="305">%null%</text>
 <text id="306">%null%</text>
 <text id="307">%null%</text>
@@ -1402,7 +1402,7 @@
 <text id="4203000">Hurl black fire flame that scorches vicinity</text>
 <text id="4203010">Hurl black fire flame that scorches vicinity</text>
 <text id="4204000">Hurls an exploding black fireball</text>
-<text id="4204010">Hurls an exploding black fireball with no focus cost</text>
+<text id="4204010">Hurls an exploding great black fireball</text>
 <text id="4205000">Create giant, black flame in hand</text>
 <text id="4205010">Create giant, scorching black flame in hand</text>
 <text id="4206000">Release undulating black flame that runs along the ground</text>

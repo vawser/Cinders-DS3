@@ -3721,6 +3721,9 @@
 109552000 [Pyromancy] Black Fire Scatter
 109552010 [Pyromancy] Black Fire Scatter [Hit]
 109552020 [Pyromancy] Black Fire Scatter [Hit]
+109552100 [Pyromancy] Great Black Fire Scatter
+109552110 [Pyromancy] Great Black Fire Scatter [Hit]
+109552120 [Pyromancy] Great Black Fire Scatter [Hit]
 109553000 [Pyromancy] Black Fire Vestiges
 109553010 [Pyromancy] Black Fire Vestiges [Hit]
 109553100 [Pyromancy] Scorching Black Fire Vestiges
