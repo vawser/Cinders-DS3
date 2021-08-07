@@ -180,12 +180,15 @@ dmy:
 
 895533 Blue Lightning Spark
 
+896000 Soul Greatsword but Ivory King UGS
+
 #------------------------
 # Resource Bin
 #------------------------
 
 s98000.flver Lucky MLGS Model
 s98000_a.tpf Lucky MLGS Texture
+
 s98010.tpf  No colour s11640.tpf 
 s98011.tpf  Black s11623.tpf
 s98012.tpf  Black s11627.tpf 
@@ -194,6 +197,9 @@ s98014.tpf  Black s11621.tpf
 s98015.tpf  Black s11629.tpf
 s98016.tpf  Black s11633.tpf 
 s98017.tpf  Black and White s6001.tpf 
+
+s98020.flver Ivory King UGS model
+s98020_a.tpf Ivory King UGS texture
 
 #------------------------
 # Reference
