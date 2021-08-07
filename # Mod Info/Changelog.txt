@@ -214,6 +214,7 @@ Finish following weapons:
 - Fixed Crescent Moon Sword's Weapon Art projectile not dealing any damage when Holy/Enchanted Infused.
 - Fixed Censuring Palm dual wield 2nd R1 damage and stamina cost.
 - Adjusted the stats on some of the infusions of the Moonlight Sword to make the difference in Attack Rating not so big between them.
+- Fixed some vfx on the infused Moonlight Greatsword attacks having the incorrect colour
  
 #------------------------------
 # TODO
