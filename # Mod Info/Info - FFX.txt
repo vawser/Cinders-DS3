@@ -62,6 +62,8 @@ dmy:
 854301 Yellow Moonlight Sword
 854302 Purple Moonlight Sword
 854303 Rainbow Moonlight Sword
+854304 White Moonlight Sword
+854305 Blue Moonlight Sword
 
 856000 Deep Purple Fire Trial
 
@@ -135,20 +137,31 @@ dmy:
 870034 Lightning MLGS
 870035 Lightning MLGS
 
-
 880030 Dark MLGS
 880032 Dark MLGS
 880033 Dark MLGS
 880034 Dark MLGS
 880035 Dark MLGS
 
-881101 Deep Accursed Vomit (With Sounds)
-
 890030 Luck MLGS
 890032 Luck MLGS
 890033 Luck MLGS
 890034 Luck MLGS
 890035 Luck MLGS
+
+900030 Holy MLGS
+900032 Holy MLGS
+900033 Holy MLGS
+900034 Holy MLGS
+900035 Holy MLGS
+
+910030 Enchanted MLGS
+910032 Enchanted MLGS
+910033 Enchanted MLGS
+910034 Enchanted MLGS
+910035 Enchanted MLGS
+
+881101 Deep Accursed Vomit (With Sounds)
 
 880050 Silent Lorian's Greatsword Flame Effect
 
