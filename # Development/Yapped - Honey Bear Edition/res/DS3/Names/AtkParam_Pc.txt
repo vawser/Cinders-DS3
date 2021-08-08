@@ -5136,6 +5136,9 @@
 19552000 [Pyromancy] Black Fire Scatter
 19552001 [Pyromancy] Black Fire Scatter [Hit]
 19552002 [Pyromancy] Black Fire Scatter [Hit]
+19552100 [Pyromancy] Great Black Fire Scatter
+19552101 [Pyromancy] Great Black Fire Scatter [Hit]
+19552102 [Pyromancy] Great Black Fire Scatter [Hit]
 19553000 [Pyromancy] Black Fire Vestiges
 19553010 [Pyromancy] Black Fire Vestiges [Hit]
 19553100 [Pyromancy] Scorching Black Fire Vestiges

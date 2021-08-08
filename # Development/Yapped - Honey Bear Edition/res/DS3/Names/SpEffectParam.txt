@@ -293,6 +293,7 @@
 3150 Undead Hunter Charm [Mimic Effect]
 3151 Undead Hunter Charm [Estus Block]
 3152 Undead Hunter Charm [Mimic Effect]
+3153 Undead Hunter Charm [HP Recovery Effectiveness Reduction]
 3160 Weapon Flame Enhancement
 3161 Weapon Flame Enhancement (quick)
 3170 Weapon Lightning Reinforcement
@@ -342,6 +343,8 @@
 3298 [Item] Ember [ReplaceEffect] - SFX
 3330 [Item] Divine Blessing
 3340 [Item] Hidden Blessing
+3350 [Item] Duel Charm - Buff Removal
+3351 [Item] Duel Charm - Silence
 3400 [Item] Soul of a Crystal Sage
 3402 [Item] Soul of the Blood of the Wolf
 3403 [Item] Soul of Consumed Oceiros
@@ -3737,6 +3740,7 @@
 160500360 [Pyromancy] Weakening Fire Orb
 160500370 [Pyromancy] Incendiary DoT 10
 160500380 [Pyromancy] Incendiary DoT 5
+160500385 [Pyromancy] Incendiary DoT 2
 160500390 [Pyromancy] Incendiary DoT 1
 160500400 [Pyromancy] Supreme Black Flame Arc
 160500410 [Sorcery] Lingering Numbness
@@ -5316,6 +5320,7 @@
 170000530 Curse - Cursed Climax
 170000540 Toxic - Gravelord Sword
 170000550 Toxic - Black Fire Whip
+170000560 Toxic - Great Black Fire Scatter
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)

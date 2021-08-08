@@ -1312,6 +1312,8 @@ One of the Great Swamp's more advanced spells.
 
 Hurls an exploding fireball.
 
+The amount of fireballs is increased with Intelligence.
+
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
 renowned for its difficulty.</text>
@@ -1319,7 +1321,9 @@ renowned for its difficulty.</text>
 One of the Great Swamp's more advanced spells.
 
 Hurls an incendiary exploding fireball.
-Deals 10 damage per second for 10 seconds. Stacks.
+Deals 2 damage per second for 10 seconds. Stacks.
+
+The amount of fireballs is increased with Intelligence.
 
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
@@ -2203,10 +2207,14 @@ The black flame born from fire bore its smoldering essence and perished in the a
 
 Hurls an exploding black fireball, inflicting 10 Toxic each.
 
+The amount of fireballs is increased with Intelligence.
+
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4204010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
-Hurls an exploding black fireball with no focus cost, inflicting 10 Toxic each.
+Hurls an exploding great black fireball, inflicting 15 Toxic each.
+
+The amount of fireballs is increased with Intelligence.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4205000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.

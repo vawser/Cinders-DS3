@@ -525,11 +525,11 @@
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
-- FP Cost: 10
-- Fire Damage: 50 {150} {*12, individual)
+- FP Cost: 30
+- Fire Damage: 40 {120} {*5, shared per added wave)
 
 #---- Incendiary Bursting Fireball
-- Deals 10 damage per second for 10 seconds. Stacks.
+- Deals 2 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
 # Boulder Heave
@@ -1417,14 +1417,14 @@
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
-- FP Cost: 15
-- INT Req: 10
-- FTH Req: 10
-- Dark Damage: 80 {240} {*12, individual)
+- FP Cost: 30
+- INT Req: 15
+- FTH Req: 15
+- Dark Damage: 40 {120} {*5, shared added per wave)
 - Base Effect: inflicts 10 Toxic.
 
-#---- Refined Black Fire Scatter
-- FP consumption reduced to 0.
+#---- Great Black Fire Scatter
+- Damage increased to 50 {150} and Toxic inflict to 15.
 
 #--------------------------------
 # Black Flame

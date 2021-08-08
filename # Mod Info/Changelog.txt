@@ -98,6 +98,8 @@ Finish following weapons:
 - Adjusted fall damage, removed the fall damage reduction from Dexterity and increased the one from Vitality. As a general rule, any non-lethal fall can now be survived if you have full HP with 70% equip load or less and 0 vitality.
 - Added Holy Water Urn, sold by Irina for 400 Souls each. Also unlocked at the bonfire Item Forge after lighting the Cleansing Chapel bonfire.
 - Added Throwing Frying Pan, sold by the Shrine Handmaid for 100 Souls each. Also unlocked at the bonfire Item Forge after lighting the Distant Manor bonfire.
+- Undead Hunter Charm now also reduces all forms of healing received to 0.
+- Duel Charm now also silences the target (prevents spell casting).
 
 # Masteries
 - Added mastery bonuses for achieving 99 in a stat (except Vigor). 
@@ -186,6 +188,8 @@ Finish following weapons:
 
 # Spells
 - Black Flame Arc should visually appear on all weapons now.
+- Changed the stats of Bursting Fireball and Black Fire Scatter and the way they work. They now only shoot 3 fireballs by default, and leveling intelligence increases the amount of fireballs shooted per cast (capping at 31 intelligence).
+- Changed Refined Black Fire Scatter to Great Black Fire Scatter, it now boosts damage and toxic inflict.
 
 # Armors
 - Updated physics for the following set:
@@ -215,6 +219,7 @@ Finish following weapons:
 - Fixed Censuring Palm dual wield 2nd R1 damage and stamina cost.
 - Adjusted the stats on some of the infusions of the Moonlight Sword to make the difference in Attack Rating not so big between them.
 - Fixed some vfx on the infused Moonlight Greatsword attacks having the incorrect colour
+- Updated the descriptions of the Spider Shield and Greatshield of Artorias with their effects.
  
 #------------------------------
 # TODO

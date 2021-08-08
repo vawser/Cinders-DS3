@@ -501,7 +501,7 @@ Though the stench makes it difficult to carry on one's person, inflicting toxins
 Throw to shatter, spreading souls which attract enemies. Not effective for all foes.</text>
 <text id="295">%null%</text>
 <text id="296">Tool used to hunt down the Undead.
-Blocks Estus recovery within a limited area.
+Blocks Estus recovery and reduces any form of healing to zero within a limited area for 25 seconds.
 
 Used long ago by Lloyd's cleric knights on their Undead hunts. Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on, and this charm allows one to challenge Undead without fear of tenacious healing.</text>
 <text id="297">More powerful bisque urn filled with special black
@@ -550,7 +550,7 @@ Throw behind at enemies to inflict 60 Poison against them and yourself.
 
 Strictly speaking, this consists of different material than the dung pie, but waste is waste, no sense in splitting hairs.</text>
 <text id="304">Tool used in duels of judgment. Nulls effects
-of special area effects for a short time.
+of special area effects and prevents spell casting for 20 seconds.
 
 Allfather Lloyd's knights lived in fear of his duels of judgment, in which verdicts were carried out by his Sword of Law.</text>
 <text id="305">%null%</text>
@@ -4828,6 +4828,8 @@ One of the Great Swamp's more advanced spells.
 
 Hurls an exploding fireball.
 
+The amount of fireballs is increased with Intelligence.
+
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
 renowned for its difficulty.</text>
@@ -4835,7 +4837,9 @@ renowned for its difficulty.</text>
 One of the Great Swamp's more advanced spells.
 
 Hurls an incendiary exploding fireball.
-Deals 10 damage per second for 10 seconds. Stacks.
+Deals 2 damage per second for 10 seconds. Stacks.
+
+The amount of fireballs is increased with Intelligence.
 
 A rare technique that undergoes change after
 leaving the caster's hand, making this a spell
@@ -5720,10 +5724,14 @@ The black flame born from fire bore its smoldering essence and perished in the a
 
 Hurls an exploding black fireball, inflicting 10 Toxic each.
 
+The amount of fireballs is increased with Intelligence.
+
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4204010">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
 
-Hurls an exploding black fireball with no focus cost, inflicting 10 Toxic each.
+Hurls an exploding great black fireball, inflicting 15 Toxic each.
+
+The amount of fireballs is increased with Intelligence.
 
 Those who linger too long on the brink of the Abyss will often slip. What they find within can astound even the most learned man.</text>
 <text id="4205000">Hex discovered by grave wardens after High Lord Wolnir fell to the Abyss.
