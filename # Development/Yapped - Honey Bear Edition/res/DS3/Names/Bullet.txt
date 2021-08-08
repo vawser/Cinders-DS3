@@ -2372,38 +2372,38 @@
 6402100 [Gundyr] Corrupted Fist - Bullet
 6402200 [Gundyr] Corrupted Bite - Bullet
 6402300 [Gundyr] Corrupted Tear
-7530081 [Fume Knight]
-7530190 [Fume Knight] Wrath of the Gods
-7530240 [Fume Knight] Combustion
-7530241 [Fume Knight] Combustion [Hit]
-7530245 [Fume Knight] Fireball
-7530246 [Fume Knight] Fireball [Hit]
-7530247 [Fume Knight] Fireball [Hit]
-7530255 [Fume Knight] Poison Mist
-7530256 [Fume Knight] Poison Mist - Line
-7530257 [Fume Knight] Poison Mist - Cone
-7530300 [Fume Knight] Soul Arrow
-7530310 [Fume Knight] Soul Hail
-7530320 [Fume Knight] Crystal Soulmass
-7530321 [Fume Knight] Crystal Soulmass [Hit]
-7530322 [Fume Knight] Crystal Soulmass [Hit]
-7530323 [Fume Knight] Crystal Soulmass [Hit]
-7530340 [Fume Knight] Soul Stream
-7530535 [Fume Knight] Lightning Burst
-7530536 [Fume Knight]
-7530537 [Fume Knight]
-7530540 [Fume Knight] Sunlight Spear
-7530550 [Fume Knight] Heavenly Thunder
-7530551 [Fume Knight] Heavenly Thunder [Hit]
-7530552 [Fume Knight] Heavenly Thunder [Hit]
-7530555 [Fume Knight] Heavenly Thunder
-7530556 [Fume Knight] Heavenly Thunder [Hit]
-7530558 [Fume Knight]
-7530559 [Fume Knight] Heavenly Thunder - Low
-7530604 [Fume Knight]
-7530903 [Fume Knight]
-7530904 [Fume Knight]
-7530910 [Fume Knight]
+7530081 [The Marauder]
+7530190 [The Marauder] Wrath of the Gods
+7530240 [The Marauder] Combustion
+7530241 [The Marauder] Combustion [Hit]
+7530245 [The Marauder] Fireball
+7530246 [The Marauder] Fireball [Hit]
+7530247 [The Marauder] Fireball [Hit]
+7530255 [The Marauder] Poison Mist
+7530256 [The Marauder] Poison Mist - Line
+7530257 [The Marauder] Poison Mist - Cone
+7530300 [The Marauder] Soul Arrow
+7530310 [The Marauder] Soul Hail
+7530320 [The Marauder] Crystal Soulmass
+7530321 [The Marauder] Crystal Soulmass [Hit]
+7530322 [The Marauder] Crystal Soulmass [Hit]
+7530323 [The Marauder] Crystal Soulmass [Hit]
+7530340 [The Marauder] Soul Stream
+7530535 [The Marauder] Lightning Burst
+7530536 [The Marauder]
+7530537 [The Marauder]
+7530540 [The Marauder] Sunlight Spear
+7530550 [The Marauder] Heavenly Thunder
+7530551 [The Marauder] Heavenly Thunder [Hit]
+7530552 [The Marauder] Heavenly Thunder [Hit]
+7530555 [The Marauder] Heavenly Thunder
+7530556 [The Marauder] Heavenly Thunder [Hit]
+7530558 [The Marauder]
+7530559 [The Marauder] Heavenly Thunder - Low
+7530604 [The Marauder]
+7530903 [The Marauder]
+7530904 [The Marauder]
+7530910 [The Marauder]
 7560050 [Princess Yngvil] Phase Change Cleanse and Heal
 7560051 [Princess Yngvil] Phase Change Cleanse and Heal
 7560052 [Princess Yngvil] Phase Change Cleanse and Heal
@@ -4039,6 +4039,7 @@
 210015303 [Frostfall] Crystal Rain Effect
 210015304 [Frostfall] Crystal Rain Effect [Hit]
 210016000 [Black Dragon Shield] Black Dragon's Ire
+210016005 [Beast Claw] Roar
 210017000 [Spitfire Spear] SpitFire
 210017100 [Spitfire Spear] SpitFire
 210017200 [Spitfire Spear] SpitFire

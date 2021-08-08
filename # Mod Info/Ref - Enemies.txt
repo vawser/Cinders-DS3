@@ -19,6 +19,20 @@
 - Absorption: Dark:         15%
 - Affected by: Poison, Bleed, Frost
 
+# The Marauder
+- NG0 HP: 20000  
+- NG+ HP: 24000 
+- Souls: 3000
+- Absorption: Standard:     25%
+- Absorption: Slash:        25%
+- Absorption: Strike:       25%
+- Absorption: Thrust:       25%
+- Absorption: Magic:        30%
+- Absorption: Fire:         30%
+- Absorption: Lightning:    30%
+- Absorption: Dark:         50%
+- Affected by: Poison, Bleed, Frost
+
 #------------------------
 # High Wall of Lothric
 #------------------------

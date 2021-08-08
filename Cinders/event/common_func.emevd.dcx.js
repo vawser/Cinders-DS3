@@ -6055,6 +6055,14 @@ Event(20020133, Default, function() {
 });
 
 //----------------------------------------------
+// The Marauder - Boss Start
+//----------------------------------------------
+Event(20020134, Default, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+
+});
+
+//----------------------------------------------
 // Region Warp
 // <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
 //----------------------------------------------

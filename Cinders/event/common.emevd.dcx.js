@@ -237,6 +237,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20132, 0); // Twisted Knight
     InitializeEvent(0, 20133, 0); // Fallen Protector
     InitializeEvent(0, 20134, 0); // Titanite Abomination
+    InitializeEvent(0, 20135, 0); // The Marauder
     
     EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
@@ -285,6 +286,7 @@ Event(0, Default, function() {
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
     InitializeEvent(35, 970, 13200880, 2440, 0, 0); // Titanite Abomination
+    InitializeEvent(36, 970, 14000850, 2450, 0, 0); // The Marauder
     
     // Game Progress Flags
     InitializeEvent(0, 6100, 6100, 13300800);  // Abyss Watcher
@@ -2439,6 +2441,9 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002034);
     SetSpEffect(10000, 260110033);
     
+    // The Marauder
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002035);
+    SetSpEffect(10000, 260110034);
 });
 
 //----------------------------------------------
@@ -2634,6 +2639,11 @@ Event(20071, Restart, function() {
     
     IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
 
+    // The Marauder
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002035);  // Already Killed
+    SetSpEffect(10000, 260100360);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
     // Dismal Knight
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
@@ -2762,6 +2772,11 @@ Event(20071, Restart, function() {
     // Twin Princes
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002018);  // Already Killed
     SetSpEffect(10000, 260100180);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // The Marauder
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002035);  // Already Killed
+    SetSpEffect(10000, 260100360);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Princess Yngvil
@@ -2932,6 +2947,12 @@ Event(20072, Restart, function() {
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002018);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003018); // Not Selected
     SetSpEffect(10000, 260100180);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // The Marauder
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002035);  // Already Killed
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25003035);  // Not Selected
+    SetSpEffect(10000, 260100360);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Soul of Cinder
@@ -3133,7 +3154,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    BatchSetEventFlags(25001001, 25001050, ON);
+    SetEventFlag(14000850, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -4580,6 +4601,56 @@ Event(20134, Restart, function() {
     var ceremonyID = 0;
     
     var text_BossNotKilled = 99030133;
+    
+    IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
+    
+    SetEventFlag(flag_BossDefeated, OFF);
+    SetEventFlag(flag_BossInProgress, OFF);
+    SetEventFlag(flag_BossState1, OFF);
+    SetEventFlag(flag_BossState2, OFF);
+    
+    //SetPlayerRespawnPoint(entity_SpawnPoint);
+    SetMapCeremony(mapID, blockID, ceremonyID);
+    
+    WaitFixedTimeFrames(1);
+    SaveRequest(0);
+    WaitFixedTimeFrames(1);
+    
+    WarpPlayer(mapID, blockID, entity_PlayerPoint);
+    
+    Label1();
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
+    DisplayEpitaphMessage(text_BossNotKilled);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Boss Revival - The Marauder
+// <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
+//----------------------------------------------
+Event(20135, Restart, function() {
+    var param_SpEffect_Trigger = 260100360;
+    
+    var flag_BossKilled     = 25001035;
+    var flag_BossDefeated   = 14000850;
+    var flag_BossInProgress = 14000851;
+    var flag_BossState1     = 9348;
+    var flag_BossState2     = 6348;
+    
+    var entity_SpawnPoint  = 4002952;
+    var entity_PlayerPoint = 4000981;
+    
+    var mapID      = 40;
+    var blockID    = 0;
+    var ceremonyID = 0;
+    
+    var text_BossNotKilled = 99030134;
     
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);

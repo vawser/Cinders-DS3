@@ -96,6 +96,8 @@ def t400511_x4():
             Goto('L0')
         elif IsPlayerDead() == 1:
             break
+        elif GetEventStatus(14000851) == 1: # End once boss fight starts
+            break
     """ State 2 """
     t400511_x2() # Clear Talk State
     
@@ -155,38 +157,23 @@ def t400511_x8():
     
 # Menu Loop
 def t400511_x9():
-    c1110()
-    while True:
-        ClearTalkListData()
-       
-        # Learn the Dark Arts
-        AddTalkListData(1, 15003023, -1)
+    # Player has 100,000 souls OR in Gauntlet mode
+    if ComparePlayerStatus(8, 2, 100000) or GetEventStatus(25009813) == 1:
+        SetEventState(14000852, 1)
         
-        # Talk
-        AddTalkListData(2, 15000000, -1)
-        
-        # Leave
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Learn the Dark Arts
-        if GetTalkListEntryResult() == 1:
-            OpenRegularShop(240000, 249999)
-            continue
-        # Talk
-        elif GetTalkListEntryResult() == 2:
-            assert t400511_x10(text1=10017000, flag1=0, mode1=0)
-            continue
-        # Leave
-        elif GetTalkListEntryResult() == 99:
-            ReportConversationEndToHavokBehavior()
-            return 0
-        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
+        # Remove souls only in normal mode
+        if GetEventStatus(25009813) == 0:
+            ChangePlayerStats(8, 1, 100000) # Remove 100,000 souls
+            assert GetCurrentStateElapsedFrames() > 1
+        else:
+            assert GetCurrentStateElapsedFrames() > 1
             
+        assert t400511_x10(text1=10131010, flag1=0, mode1=0)
+        return 0
+    else:
+        assert t400511_x10(text1=10131000, flag1=0, mode1=0)
+        return 0
+
 # Talk Function
 def t400511_x10(text1=_, flag1=0, mode1=_):
     """ State 0,4 """

@@ -16,6 +16,7 @@
 21016 [Darkmoon Faithful] Moonlight Gloves
 21017 [Darkmoon Faithful] Moonlight Waistcloth
 21018 [Darkmoon Faithful] Yorshka's Spear
+21019 [Darkmoon Faithful] Sunless Talisman
 21200 [Watchdogs of Farron] Old Wolf Curved Sword
 21201 [Watchdogs of Farron] Wolf Knight's Greatshield
 21202 [Watchdogs of Farron] Wolf Ring
@@ -52,6 +53,7 @@
 21810 [Mound-makers] Sunset Gauntlets
 21811 [Mound-makers] Sunset Leggings
 21812 [Mound-makers] Maddening Elixir
+21813 [Mound-makers] Sunset Shield
 22000 [Chaos Servants] Lingering Chaos
 22003 [Chaos Servants] Fire Gem
 22007 [Chaos Servants] Old Sage's Blindfold
@@ -72,6 +74,7 @@
 22210 [Rosaria's Fingers] Leggings of Thorns
 22211 [Rosaria's Fingers] Bloody Elixir
 22212 [Rosaria's Fingers] Rosaria's Soul
+22213 [Rosaria's Fingers] Silver Mask
 22400 [Spears of the Church] Young Grass Dew
 22401 [Spears of the Church] Divine Spear Fragment
 22402 [Spears of the Church] Lethal Gem
@@ -504,11 +507,14 @@
 100207 [Andre - Deacons of the Deep] Knight Shield
 100208 [Andre - Deacons of the Deep] Spiked Shield
 100209 [Andre - Deacons of the Deep] Pierce Shield
-100210 [[Andre - Deacons of the Deep] Cathedral Knight Greatshield
+100210 [Andre - Deacons of the Deep] Cathedral Knight Greatshield
 100250 [Andre - High Lord Wolnir] Carthus Shield
 100251 [Andre - High Lord Wolnir] Carthus Shotel
 100252 [Andre - High Lord Wolnir] Carthus Curved Sword
 100253 [Andre - High Lord Wolnir] Carthus Curved Greatsword
+100270 [Andre - Aldrich] Anri's Straight Sword
+100271 [Andre - Aldrich] Crescent Moon Sword
+100272 [Andre - Aldrich] Llewellyn Shield
 100350 [Andre - Yhorm] Murakumo
 100400 [Andre - Yhorm] Heysel Pick
 100450 [Andre - Yhorm] Washing Pole
@@ -655,6 +661,14 @@
 111661 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Armor
 111662 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Gauntlets
 111663 [Shrine Handmaid - Prince Dorthinus] Fallen Prince's Leggings
+111670 [Shrine Handmaid - Yhorm] Catarina Helm
+111671 [Shrine Handmaid - Yhorm] Catarina Armor
+111672 [Shrine Handmaid - Yhorm] Catarina Gauntlets
+111673 [Shrine Handmaid - Yhorm] Catarina Leggings
+111680 [Shrine Handmaid - Demon Prince] Lapp's Helm
+111681 [Shrine Handmaid - Demon Prince] Lapp's Armor
+111682 [Shrine Handmaid - Demon Prince] Lapp's Gauntlets
+111683 [Shrine Handmaid - Demon Prince] Lapp's Leggings
 119904 [Shrine Handmaid - Untended Graves] White Sign Soapstone
 119905 [Shrine Handmaid - Untended Graves] Dried Finger
 119907 [Shrine Handmaid - Untended Graves] Priestess Ring
@@ -902,6 +916,7 @@
 220028 [Marvelous Chester] Heavy Bolt
 220029 [Marvelous Chester] Sniper Bolt
 220030 [Marvelous Chester] Draconic Bolt
+220031 [Marvelous Chester] Silvercat Ring
 230000 [Crestfallen Merchant] Steel Helm
 230001 [Crestfallen Merchant] Steel Armor
 230002 [Crestfallen Merchant] Steel Gauntlets
@@ -912,6 +927,7 @@
 230007 [Crestfallen Merchant] Green Blossom
 230008 [Crestfallen Merchant] Charcoal Pine Bundle
 230009 [Crestfallen Merchant] Charcoal Pine Resin
+230010 [Crestfallen Merchant] Ring of Calamity
 240000 [Astrologer Lillian - Sorcery] Farron Dart
 240001 [Astrologer Lillian - Sorcery] Soul Arrow
 240002 [Astrologer Lillian - Sorcery] Homing Soulmass

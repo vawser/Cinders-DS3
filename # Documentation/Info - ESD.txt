@@ -119,7 +119,7 @@ Then create the python version and recompile it.
     5: Intelligence
     6: Faith
     7: Luck
-    8: Soul
+    8: Souls Collected
     9: Total Get Soul
     10: Humanity
     11: Covenant Type

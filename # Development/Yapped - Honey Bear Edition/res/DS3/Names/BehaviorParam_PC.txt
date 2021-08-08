@@ -3812,8 +3812,11 @@
 104201907 Fist - Dragon Form 1H Fall Landing
 104201908 Fist - Dragon Form 1H Kick
 104202000 Claw - 1H Light #1
+104202005 Beast Claw - 2H Light #1
 104202010 Claw - 1H Light #2
 104202020 Claw - 1H Light #3
+104202025 Beast Claw - 2H Light #3
+104202028 Claw (Alt) - 1H Light #3
 104202030 Claw - 1H Jump
 104202040 Claw - 1H Fall Loop
 104202050 Claw - 1H Fall Landing
@@ -3821,14 +3824,19 @@
 104202105 Claw - 1H Heavy #1 Max
 104202110 Claw - 1H Heavy #2
 104202115 Claw - 1H Heavy #2 Max
+104202118 Beast Claw - 2H Heavy #2 Max
 104202230 Claw - 2H Jump
+104202231 Claw - 2H Jump
+104202232 Claw - 2H Jump
 104202240 Claw - 2H Fall Loop
 104202250 Claw - 2H Fall Landing
 104202400 Claw - Left Hand
 104202402 Claw - Left Hand
 104202404 Claw - Left Hand
 104202410 Claw - 1H Kick
+104202415 Beast Claw - 1H Kick
 104202420 Claw - 2H Kick
+104202425 Beast Claw - 2H Kick
 104202430 Claw - 1H Guard
 104202450 Claw - Parry
 104202490 Claw - Falling Throw
@@ -3842,7 +3850,10 @@
 104202516 Claw - Riposte (Hornet Ring)
 104202517 Claw - Riposte (Hornet Ring)
 104202520 Claw - 1H Backstep
+104202525 Beast Claw -
 104202540 Claw - 1H Roll
+104202545 Beast Claw - 1H Roll
+104202548 Claw (Alt) - 2H Roll
 104202600 Claw - Parry
 104202620 Claw - Flurry - Right #1
 104202621 Claw - Flurry - Left #1
@@ -3850,6 +3861,12 @@
 104202631 Claw - Flurry - Left #2
 104202640 Claw - Flurry - Right #3
 104202641 Claw - Flurry - Left #3
+104202700 Flurry of Fists
+104202701 Flurry of Fists
+104202702 Flurry of Fists
+104202703 Flurry of Fists
+104202704 Flurry of Fists
+104202705 Flurry of Fists
 104202744 Claw - Weapon Art
 104202745 Claw - Weapon Art
 104202746 Claw - Weapon Art
@@ -3858,8 +3875,22 @@
 104202749 Claw - Weapon Art
 104202750 Claw - Weapon Art
 104202751 Claw - Weapon Art
+104202752 Beast Claw - Dual Wield - Running - First Hit
 104202760 Claw - Weapon Art
 104202761 Claw - Weapon Art
+104202800 Beast Claw - Roar
+104202900 Beast Claw - Beast Lunge - Initial Right
+104202902 Beast Claw - Beast Lunge - Initial Left
+104202905 Beast Claw - Beast Lunge - Final Right
+104202906 Beast Claw - Beast Lunge - Final Right - Low FP
+104202907 Beast Claw - Beast Lunge - Final Left
+104202908 Beast Claw - Beast Lunge - Final Left - Low FP
+104202910 Claw - Stance Light - Right
+104202911 Claw - Stance Light - Left
+104202920 Claw - Stance Heavy - Initial Right
+104202921 Claw - Stance Heavy - Initial Left
+104202925 Claw - Stance Heavy - Final Right
+104202926 Claw - Stance Heavy - Final Left
 104203000 Dark Hand - 1H Light #1
 104203010 Dark Hand - 1H Light #2
 104203020 Dark Hand - 1H Light #3
@@ -3954,16 +3985,6 @@
 104206751 Crow Talons
 104206760 Crow Talons
 104206761 Crow Talons
-104207700 Flurry of Fists
-104207701 Flurry of Fists
-104207702 Flurry of Fists
-104207703 Flurry of Fists
-104207704 Flurry of Fists
-104207705 Flurry of Fists
-104207750 Flurry of Fists
-104207751 Flurry of Fists
-104207760 Flurry of Fists
-104207761 Flurry of Fists
 104208106 Hands of God - 1H Heavy #1 (Charged) - Bullet
 104208107 Hands of God - 2H Heavy #1 (Charged) - Bullet
 104208700 Hands of God - Flurry of Fists

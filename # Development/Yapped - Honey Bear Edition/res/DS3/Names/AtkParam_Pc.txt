@@ -3740,8 +3740,11 @@
 4200906 Fist - Dragon Form 1H Fall Loop
 4200907 Fist - Dragon Form 1H Fall Landing
 4202000 Claw - 1H Light #1
+4202005 Beast Claw - 2H Light #1
 4202010 Claw - 1H Light #2
 4202020 Claw - 1H Light #3
+4202025 Beast Claw - 2H Light #3
+4202028 Claw (Alt) - 1H Light #3
 4202030 Claw - 1H Jump
 4202040 Claw - 1H Fall Loop
 4202050 Claw - 1H Fall Landing
@@ -3749,14 +3752,19 @@
 4202105 Claw - 1H Heavy #1 Max
 4202110 Claw - 1H Heavy #2
 4202115 Claw - 1H Heavy #2 Max
+4202118 Beast Claw - 2H Heavy #2 Max
 4202230 Claw
+4202231 Beast Claw - 2H Jump - Right
+4202232 Beast Claw - 2H Jump - Left
 4202240 Claw
 4202250 Claw
 4202400 Claw - Left Hand
 4202402 Claw
 4202404 Claw
 4202410 Claw - 1H Kick
+4202415 Beast Claw - 1H Kick
 4202420 Claw - 2H Kick
+4202425 Beast Claw - 2H Kick
 4202490 Claw - Falling Throw
 4202500 Claw - Backstab
 4202501 Claw - Backstab
@@ -3768,13 +3776,22 @@
 4202516 Claw - Riposte (Hornet Ring)
 4202517 Claw - Riposte (Hornet Ring)
 4202520 Claw - 1H Backstep
+4202525 Beast Claw - 2H Backstep
 4202540 Claw - 1H Roll
+4202545 Beast Claw - 1H/2H Roll
+4202548 Claw (Alt) - 2H Roll
 4202620 Claw - Parry
 4202621 Claw
 4202630 Claw
 4202631 Claw
 4202640 Claw
 4202641 Claw
+4202700 Flurry of Fists
+4202701 Flurry of Fists
+4202702 Flurry of Fists
+4202703 Flurry of Fists
+4202704 Flurry of Fists
+4202705 Flurry of Fists
 4202744 Claw
 4202745 Claw
 4202746 Claw
@@ -3783,8 +3800,22 @@
 4202749 Claw
 4202750 Claw
 4202751 Claw
+4202752 Beast Claw - Dual Wield - Running - First Hit
 4202760 Claw
 4202761 Claw
+4202800 Beast Claw - Roar
+4202900 Beast Claw - Beast Lunge - Initial Right
+4202902 Beast Claw - Beast Lunge - Initial Left
+4202905 Beast Claw - Beast Lunge - Final Right
+4202906 Beast Claw - Beast Lunge - Final Right - Low FP
+4202907 Beast Claw - Beast Lunge - Final Left
+4202908 Beast Claw - Beast Lunge - Final Left - Low FP
+4202910 Claw - Stance Light - Right
+4202911 Claw - Stance Light - Left
+4202920 Claw - Stance Heavy - Initial Right
+4202921 Claw - Stance Heavy - Initial Left
+4202925 Claw - Stance Heavy - Final Right
+4202926 Claw - Stance Heavy - Final Left
 4203000 Dark Hand - 1H Light #1
 4203010 Dark Hand - 1H Light #2
 4203020 Dark Hand - 1H Light #3
@@ -3876,16 +3907,6 @@
 4206751 Crow Talons
 4206760 Crow Talons
 4206761 Crow Talons
-4207700 Flurry of Fists
-4207701 Flurry of Fists
-4207702 Flurry of Fists
-4207703 Flurry of Fists
-4207704 Flurry of Fists
-4207705 Flurry of Fists
-4207750 Flurry of Fists
-4207751 Flurry of Fists
-4207760 Flurry of Fists
-4207761 Flurry of Fists
 4208106 Hands of God - Heavy - Bullet
 4208107 Hands of God - Heavy - Bullet [Hit]
 4208700 Hands of God - Flurry of Fists

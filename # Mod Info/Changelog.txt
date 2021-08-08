@@ -21,7 +21,7 @@
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
 53902125 Irithyll Dungeon / Profaned Capital
-54002082 Cemetery of Ash / Unturned Graves
+54002083 Cemetery of Ash / Unturned Graves
 54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
 55002071 Dreg Heap
@@ -152,6 +152,15 @@ Finish following weapons:
 - Lucky infusion now changes all the scaling to be only Luck. As a general rule, the higher the stat requirements of a weapon, the more suitable it is for the Lucky infusion.
 
 # Bosses
+- Added the Marauder
+ - Appears in the Overgrown Sanctum as a neutral NPC.
+ - Will only engage you once you have acquired 100,000 souls. Starting the boss fight will remove 100,000 souls.
+ - Rewards 500,000 souls when killed.
+ - Drops Soul of the Marauder, which can transposed into:
+  - Fume Sword
+  - Fume Ultra Greatsword
+  - Knight Slayer's Ring
+ 
 - Added Titanite Abomination
  - Found in Archdragon Peak bridge area.
  - Drops Titanite Slab.
@@ -245,3 +254,32 @@ Finish following weapons:
 
 c7550 Fume Knight c5280
 
+The Marauder # c7550 # 753000
+
+400511 The Marauder - Talk
+
+<text id="207100">The Marauder</text>
+
+756 Soul of the Marauder
+5035 Tome: The Marauder
+
+14000850
+4000850
+
+14000852 trigger flag
+
+a001_003007 Wrath of the Gods
+a001_003008 Heal
+a002_003020 Combustion
+a002_003021 Fireball
+a002_003023 Poison Fog
+a002_003025 Power Within
+a004_003000 Soulmass
+a004_003001 Crystal Soul Spear
+a004_003003 Soulmass
+a004_003004 Soul Greatsword
+a004_003005 Soul Greatsword
+a004_003009 Soul Stream
+a005_003022 Lightning Stake
+a005_003023 Sunlight Spear
+a005_003024 Sunlight Spear Storm
