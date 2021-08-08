@@ -2639,11 +2639,6 @@ Event(20071, Restart, function() {
     
     IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
 
-    // The Marauder
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002035);  // Already Killed
-    SetSpEffect(10000, 260100360);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
-    
     // Dismal Knight
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
