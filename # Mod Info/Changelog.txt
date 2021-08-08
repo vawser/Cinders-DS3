@@ -205,6 +205,19 @@ Finish following weapons:
 # Map
 - Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
 
+# Treasure
+- Added Sunless Talisman to Darkmoon Faithful covenant shop.
+- Added Sunset Shield to Mound-makers covenant shop.
+- Added Silver Mask to Rosaria's Fingers covenant shop.
+- Added Silvercat Ring to Marvelous Chester shop.
+- Added Ring of Calamity to Crestfallen Merchant shop.
+- Added Anri's Straight Sword to Andre shop, unlocked after Aldrich has been defeated.
+- Added Crescent Moon Sword to Andre shop, unlocked after Aldrich has been defeated.
+- Added Llewellyn Shield to Andre shop, unlocked after Aldrich has been defeated.
+- Added Catarina Set to Shrine Handmaid shop, unlocked after Yhorm has been defeated.
+- Added Lapp's Set to Shrine Handmaid shop, unlocked after Demon Prince has been defeated.
+
+
 # Bugfixes
 - Added stamina cost to Bow/Greatbow Quickstep.
 - Fixed Eastern Wolf's Armguards model and Emblem.
