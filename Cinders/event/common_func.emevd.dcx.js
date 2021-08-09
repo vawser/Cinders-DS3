@@ -723,6 +723,32 @@ Event(20005207, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterMaphit(X0_4, false);
 });
 
+//--------------------------------------
+// Loop Animation/Toggle AI - Remove if Player is in Region
+//--------------------------------------
+Event(20005208, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    
+    SetCharacterAIState(X0_4, Disabled);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+
+    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
+    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
+    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
+    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
+    IfConditionGroup(AND_01, PASS, OR_01);
+    IfConditionGroup(OR_02, PASS, AND_01);
+    IfCharacterDamagedBy(OR_02, X0_4, 10000);
+    IfConditionGroup(MAIN, PASS, OR_02);
+    
+    WaitFixedTimeSeconds(0.1);
+    
+    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+    SetCharacterAIState(X0_4, Enabled);
+    RequestCharacterAIReplan(X0_4);
+});
+
 // Enemy - Animate on wakeup
 Event(20005210, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
