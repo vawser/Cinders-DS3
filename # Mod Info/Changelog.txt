@@ -172,12 +172,13 @@ Finish following weapons:
 - Changed the vfx of Blood, Dark and Fire Torches.
 - Increase the length of Crescent Axe by 15%.
 - Increased the inflict from the aux infusions of the Witchtree Limb to be on par with great hammers.
-- Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
 - Slightly adjusted Censuring Palm damage frame and event.
 - Adjusted Fist Class stamina costs.
 - Adjusted Fist/Halberd Class kick animation.
 - Infused Follower Torches now have different coloured visual effects when using the Weapon Art, except for Blunt/Sharp/Fire/Lethal infusions.
 - Flynn's Bow now scales only with Luck and requires 20 STR/DEX to be used.
+- Changed the Weapon Art of the Obsidian Greatsword.
+- Removed the +10 guard absorption Valorheart and Dark Hand gained when using elemental infusions.
 - Adjusted the guard absorption and stability of several weapons.
 - Added guard absorption and stability scaling to these weapons:
  - Ultra greatswords
@@ -197,8 +198,9 @@ Finish following weapons:
 
 # Spells
 - Black Flame Arc should visually appear on all weapons now.
-- Changed the stats of Bursting Fireball and Black Fire Scatter and the way they work. They now only shoot 3 fireballs by default, and leveling intelligence increases the amount of fireballs shooted per cast (capping at 31 intelligence).
+- Changed the stats of Bursting Fireball and Black Fire Scatter and the way they work. They now only shoot 3 fireballs by default, and leveling intelligence increases the amount of fireballs shot per cast (capping at 31 intelligence).
 - Changed Refined Black Fire Scatter to Great Black Fire Scatter, it now boosts damage and toxic inflict.
+- Changed Black Fireball to use the Fireball cast animation.
 
 # Armors
 - Updated physics for the following set:

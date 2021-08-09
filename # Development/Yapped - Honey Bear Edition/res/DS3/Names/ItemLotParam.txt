@@ -73,6 +73,8 @@
 2431 [Boss - Fallen Protector] Tome: Fallen Protector
 2440 [Boss - Titanite Abomination] Titanite Slab
 2441 [Boss - Titanite Abomination] Tome: Titanite Abomination
+2450 [Boss - The Marauder] Soul of the Marauder
+2451 [Boss - The Marauder] Tome: The Marauder
 4000 [Giant Tree] Seed of a Giant Tree
 4010 Rosaria's Fingers - Emblem
 4020 [Script] Way of White Circlet
@@ -406,9 +408,7 @@
 58201 [Court Sorcerer] Ring of Wisdom
 58300 [Drang Knight] Drang Twinspears
 58400 [Knight Slayer Tsorig - Catacombs] Blunt Gem
-58410 [Knight Slayer Tsorig - Smouldering Lake] Knight Slayer's Ring
-58411 [Knight Slayer Tsorig - Smouldering Lake] Fume Ultra Greatsword
-58412 [Knight Slayer Tsorig - Smouldering Lake] Black Iron Greatshield
+58410 [Knight Slayer Tsorig - Smouldering Lake] Black Iron Greatshield
 58500 [Creighton the Wanderer] Dragonslayer's Axe
 58600 [Alva, Seeker of the Spurned] Murakumo
 58700 [Longfinger Kirk] Barbed Straight Sword
@@ -641,7 +641,7 @@
 83130 [Hex] Repeating Yearning Dregs
 83140 [Hex] Black Fire Whip
 83150 [Hex] Weakening Black Fire Orb
-83160 [Hex] Refined Black Fire Scatter
+83160 [Hex] Great Black Fire Scatter
 83170 [Hex] Scorching Black Fire Vestiges
 83180 [Hex] Scorching Black Flame
 83190 [Hex] Quickened Black Serpent
@@ -1765,11 +1765,10 @@
 3800493 [Chest] Paladin Leggings
 3800500 [Chest] Black Knight Sword
 3800501 [Chest] Black Knight Shield
-3800510 [Chest] Fume Sword
-3800511 [Chest] Raime's Helm
-3800512 [Chest] Raime's Armor
-3800513 [Chest] Raime's Gauntlets
-3800514 [Chest] Raime's Leggings
+3800510 [Chest] Raime's Helm
+3800511 [Chest] Raime's Armor
+3800512 [Chest] Raime's Gauntlets
+3800513 [Chest] Raime's Leggings
 3800520 [Chest] Band of Flame
 3800530 [Chest] Black Blade
 3800531 [Chest] Ring of Spite

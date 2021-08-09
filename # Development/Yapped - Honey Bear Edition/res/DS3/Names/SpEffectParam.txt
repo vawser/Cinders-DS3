@@ -5123,7 +5123,7 @@
 160720330 Soul of the Rock
 160720340 Twisted Soul
 160720350 Soul of the Maiden
-160720360 Horrific Soul
+160720360 Soul of the Marauder
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -5165,6 +5165,8 @@
 160742010 Akseliane - HP Removal
 160742020 Pot King Greg - Buff
 160742100 Titanite Abomination - HP Absorb
+160742200 The Marauder - Passive State
+160742210 The Marauder - Stat Drain
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5827,6 +5829,7 @@
 260000034 Twisted Knight
 260000035 Fallen Protector
 260000036 Titanite Abomination
+260000037 The Marauder
 260100000 ### Boss Revival ###
 260100010 Dismal Knight
 260100020 Vordt of the Boreal Valley
@@ -5863,6 +5866,7 @@
 260100330 Twisted Knight
 260100340 Fallen Protector
 260100350 Titanite Abomination
+260100360 The Marauder
 260109999 ### Wanderer Mode - Damage Boost ###
 260110000 Dismal Knight
 260110001 Vordt of the Boreal Valley
@@ -5898,6 +5902,7 @@
 260110031 Twisted Knight
 260110032 Fallen Protector
 260110033 Titanite Abomination
+260110034 The Marauder
 260119999 ### Gauntlet Mode ###
 260120000 Set Order
 260120010 Random Order
