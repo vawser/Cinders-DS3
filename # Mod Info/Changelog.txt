@@ -170,6 +170,7 @@ Finish following weapons:
  - The boss fight starts when you drop down or leave the lower part of the chapel.
  - His arena is all of the grounds, giving you a large arena to fight him in.
  - In certain spots he will warp to the player's area if he has been pathing trapped.
+ - Increased HP to 8000 (was 5000).
 
 # Weapons
 - Adjusted the Bloodborne Dash animation when not locked-on.
@@ -222,6 +223,8 @@ Finish following weapons:
 # Map
 - Irithyll:
     - Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
+    - Added 3 Giant Sentinels in the Anor Londo area.
+    - Restored hang animation to the Deep Accursed in the Giant Blacksmith's room.
 
 - Cathedral of the Deep:
     - Moved the Ravenous Crystal Lizard to the first area in the level. Restored the sleeping animation.
