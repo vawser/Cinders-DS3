@@ -6329,6 +6329,38 @@ Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 //----------------------------------------------
+// Boss - Warp System
+// <boss defeat flag>, <player>, <entity>, <trap zone>, <player zone>, <warp spot>
+//----------------------------------------------
+Event(20005353, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, X4_4, X16_4, 1); // Player is in player zone
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, X8_4, X12_4, 1); // Entity is in trap zone
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Allow a grace period
+    WaitFixedTimeSeconds(3.0);
+    
+    // If player/boss has moved, reset loop
+    IfInoutsideArea(OR_01, InsideOutsideState.Outside, X4_4, X16_4, 1); // Player is in player zone
+    IfInoutsideArea(OR_01, InsideOutsideState.Outside, X8_4, X12_4, 1); // Entity is in trap zone
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
+    
+    // Otherwise, warp boss to spot
+    SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
+    WaitFixedTimeSeconds(0.1);
+    
+    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X20_4, -1, X20_4);
+    
+    WaitFixedTimeSeconds(0.1);
+    SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
+    
+    Label0();
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
 // Talk Menu - Setup
 // <entity id>
 //----------------------------------------------

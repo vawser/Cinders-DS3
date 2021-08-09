@@ -152,7 +152,7 @@ Finish following weapons:
 - Lucky infusion now changes all the scaling to be only Luck. As a general rule, the higher the stat requirements of a weapon, the more suitable it is for the Lucky infusion.
 
 # Bosses
-- Added the Marauder
+- Added the Marauder.
  - Appears in the Overgrown Sanctum as a neutral NPC.
  - Will only engage you once you have acquired 100,000 souls. Starting the boss fight will remove 100,000 souls.
  - Rewards 500,000 souls when killed.
@@ -161,9 +161,15 @@ Finish following weapons:
   - Fume Ultra Greatsword
   - Knight Slayer's Ring
  
-- Added Titanite Abomination
+- Added Titanite Abomination.
  - Found in Archdragon Peak bridge area.
  - Drops Titanite Slab.
+ 
+- Changed the Cathedral Guardian.
+ - He is now found in the grounds below the small chapel.
+ - The boss fight starts when you drop down or leave the lower part of the chapel.
+ - His arena is all of the grounds, giving you a large arena to fight him in.
+ - In certain spots he will warp to the player's area if he has been pathing trapped.
 
 # Weapons
 - Adjusted the Bloodborne Dash animation when not locked-on.
@@ -214,7 +220,11 @@ Finish following weapons:
  - Church Guardian Shiv - 10 > 20
  
 # Map
-- Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
+- Irithyll:
+    - Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
+
+- Cathedral of the Deep:
+    - Moved the Ravenous Crystal Lizard to the first area in the level. Restored the sleeping animation.
 
 # Treasure
 - Added Sunless Talisman to Darkmoon Faithful covenant shop.
