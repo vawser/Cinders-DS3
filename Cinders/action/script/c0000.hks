@@ -7707,7 +7707,7 @@ function AttackRightHeavySpecial1Start_onUpdate()
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
         ExecEventAllBody("W_AttackRightHeavySpecial1End")
         return 
-    elseif env(1116, 100720) == TRUE then
+    elseif env(1116, 100723) == TRUE then
         ExecEventAllBody("W_SpecialAttackRightHeavy")
         return 		
     else
@@ -7738,7 +7738,7 @@ function AttackRightHeavySpecial2Start_onUpdate()
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration and GetSpecialEffectID
         ExecEventAllBody("W_AttackRightHeavySpecial2End")
         return 
-    elseif env(1116, 100720) == TRUE then
+    elseif env(1116, 100723) == TRUE then
         ExecEventAllBody("W_SpecialAttackRightLight")
         return 
 	else
