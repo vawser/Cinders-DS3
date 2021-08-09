@@ -444,6 +444,7 @@
 2000615 Dagger - Missed Backstab Transition
 2000700 Dagger - Blind Spot
 2000800 Dagger - Quickstep
+2000850 BB Dash
 2001300 Dagger #2 - 2H Heavy #1
 2001305 Dagger #2 - 2H Heavy #1 Maximum
 2001310 Dagger #2 - 2H Heavy #2
@@ -1094,8 +1095,9 @@
 2525740 Great Lord Greatsword - WA - Heavy #2
 2525745 Great Lord Greatsword - WA - Heavy #2 - No FP
 2527700 Obsidian Greatsword - Abyssal Fire
-2527705 Obsidian Greatsword - Abyssal Fire
-2527706 Obsidian Greatsword - Abyssal Fire - Marker
+2527705 Obsidian Greatsword - Abyssal Fire - Burst
+2527706 Obsidian Greatsword - Abyssal Fire
+2527707 Obsidian Greatsword - Abyssal Fire - Ground Flames
 2528700 Thorned Greatsword - Stomp
 2528705 Thorned Greatsword - Stomp
 2528706 Thorned Greatsword - Stomp - Projectile
@@ -3699,7 +3701,9 @@
 4200402 Caestus
 4200404 Caestus
 4200410 Caestus - 1H Kick
+4200415 Claw - 1H Kick
 4200420 Caestus - 2H Kick
+4200425 Claw - 2H Kick
 4200430 Caestus - 1H Guard
 4200450 Caestus - Parry
 4200470 Caestus - Large Throw
@@ -3761,10 +3765,10 @@
 4202400 Claw - Left Hand
 4202402 Claw
 4202404 Claw
-4202410 Claw - 1H Kick
-4202415 Beast Claw - 1H Kick
-4202420 Claw - 2H Kick
-4202425 Beast Claw - 2H Kick
+4202415 Claw - 1H Kick
+4202417 Beast Claw - 1H Kick
+4202425 Claw - 2H Kick
+4202427 Beast Claw - 2H Kick
 4202490 Claw - Falling Throw
 4202500 Claw - Backstab
 4202501 Claw - Backstab
@@ -3919,6 +3923,8 @@
 4208751 Hands of God - Flurry of Fists
 4208760 Hands of God - Flurry of Fists
 4208761 Hands of God - Flurry of Fists
+4209415 Crab Claw - 1H Kick
+4209425 Crab Claw - 2H Kick
 4209700 Crab Claw - Crabby
 4209701 Crab Claw - Crabby
 4209702 Crab Claw - Crabby

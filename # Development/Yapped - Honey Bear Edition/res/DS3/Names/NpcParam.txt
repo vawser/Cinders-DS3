@@ -1224,6 +1224,7 @@
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)
+753000 [Boss] The Marauder
 756000 [Boss] Princess Yngvil
 756100 [Boss] Princess Yngvil - Frigid Orb
 756200 [Boss] Princess Yngvil - Sapping Orb
@@ -1242,7 +1243,6 @@
 770000 [Boss] Fallen Protector
 770100 [Boss] Fair Maiden
 771000 [Boss] Titanite Abomination
-772000 [Boss] The Knave
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

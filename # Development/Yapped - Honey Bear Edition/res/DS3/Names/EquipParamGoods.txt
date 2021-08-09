@@ -211,6 +211,7 @@
 753 Soul of the Rock
 754 Twisted Soul
 755 Soul of the Maiden
+756 Soul of the Marauder
 800 Lifegem
 801 Radiant Lifegem
 802 Old Radiant Lifegem
@@ -522,6 +523,7 @@
 5032 Tome: Twisted Experiment
 5033 Tome: Fallen Protector
 5034 Tome: Titanite Abomination
+5035 Tome: The Marauder
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###

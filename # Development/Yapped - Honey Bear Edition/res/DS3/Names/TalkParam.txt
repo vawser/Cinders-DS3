@@ -351,6 +351,12 @@
 10124021 [Bad] But do not bother me further.
 10124030 [Marry] Is this... some sort of a dream?
 10124031 [Marry] Of course, I accept your proposal.
+10130999 ### Boss - The Marauder
+10131000 Oh dear... What have we here?
+10131001 A vagabond in all their glory for the world to see!
+10131002 Unless you can prove your worth, scram!
+10131010 Finally, a worthy challenge.
+10131011 Prepare to die!
 11999999 ### Vanilla Talk
 12000000 [Fire Keeper]
 12000001 [Fire Keeper]

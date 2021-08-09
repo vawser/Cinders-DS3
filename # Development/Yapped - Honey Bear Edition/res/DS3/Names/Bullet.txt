@@ -2401,6 +2401,8 @@
 7530558 [The Marauder]
 7530559 [The Marauder] Heavenly Thunder - Low
 7530604 [The Marauder]
+7530800 [The Marauder] Chaos Beam
+7530801 [The Marauder] Chaos Beam [Hit]
 7530903 [The Marauder]
 7530904 [The Marauder]
 7530910 [The Marauder]
@@ -3382,8 +3384,9 @@
 104911852 [Staff of Serpents] Lightning Spark
 104911853 [Staff of Serpents] Lightning Spark
 104911854 [Staff of Serpents] Lightning Spark
-104911900 [Obsidian Greatsword] Abyssal Fire
-104911910 [Obsidian Greatsword] Abyssal Fire - Explosion
+104911900 [Obsidian Greatsword] Abyssal Fire - Burst
+104911910 [Obsidian Greatsword] Abyssal Fire
+104911920 [Obsidian Greatsword] Abyssal Fire - Ground Flames
 104912000 [Rose of Ariandel] Awakening
 104912100 [Cleric's Candlestick] Guiding Light - Right
 104912101 [Cleric's Candlestick] Guiding Light - Left

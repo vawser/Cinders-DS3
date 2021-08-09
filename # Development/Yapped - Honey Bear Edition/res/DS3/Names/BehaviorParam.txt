@@ -4964,8 +4964,8 @@
 275300146 [The Marauder]
 275300150 [The Marauder]
 275300151 [The Marauder]
-275300190 [The Marauder]
-275300191 [The Marauder]
+275300190 [The Marauder] Wrath of the Gods
+275300191 [The Marauder] Heal
 275300192 [The Marauder]
 275300200 [The Marauder]
 275300205 [The Marauder]
@@ -4979,20 +4979,20 @@
 275300236 [The Marauder]
 275300237 [The Marauder]
 275300238 [The Marauder]
-275300240 [The Marauder]
-275300245 [The Marauder]
+275300240 [The Marauder] Combustion
+275300245 [The Marauder] Sacred Flame
 275300250 [The Marauder]
-275300255 [The Marauder]
-275300256 [The Marauder]
-275300257 [The Marauder]
+275300255 [The Marauder] Poison Fog
+275300256 [The Marauder] Poison Fog
+275300257 [The Marauder] Poison Fog
 275300260 [The Marauder]
-275300261 [The Marauder]
-275300300 [The Marauder]
-275300310 [The Marauder]
-275300315 [The Marauder]
+275300261 [The Marauder] Power Within
+275300300 [The Marauder] Soulmass
+275300310 [The Marauder] Crystal Soul Spear
+275300315 [The Marauder] Soulmass
 275300320 [The Marauder]
 275300330 [The Marauder]
-275300340 [The Marauder]
+275300340 [The Marauder] Chaos Beam
 275300500 [The Marauder]
 275300501 [The Marauder]
 275300502 [The Marauder]
@@ -5018,9 +5018,9 @@
 275300530 [The Marauder]
 275300531 [The Marauder]
 275300532 [The Marauder]
-275300535 [The Marauder]
-275300540 [The Marauder]
-275300550 [The Marauder]
+275300535 [The Marauder] Lighing Stake
+275300540 [The Marauder] Sunlight Spear
+275300550 [The Marauder] Sunlight Spear Storm
 275300555 [The Marauder]
 275300558 [The Marauder]
 275300600 [The Marauder]

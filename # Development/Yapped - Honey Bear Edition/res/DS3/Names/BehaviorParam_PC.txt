@@ -351,6 +351,7 @@
 102000700 Dagger - Blind Spot
 102000800 Dagger - Quickstep (old)
 102000990 Dagger - Quickstep
+102000995 Dagger - BB Dash
 102001300 Dagger #2 - 2H Heavy #1
 102001305 Dagger #2 - 2H Heavy #1 Maximum
 102001310 Dagger #2 - 2H Heavy #2
@@ -533,6 +534,7 @@
 102300920 Straight Sword
 102300921 Straight Sword
 102300990 Straight Sword - Quickstep
+102300995 Straight Sword - BB Dash
 102301100 Broadsword - 1H Heavy
 102301105 Broadsword - 1H Heavy Max
 102301540 Broadsword - 1H Roll
@@ -768,6 +770,7 @@
 102500835 Greatsword - Charge - Tackle
 102500850 Greatsword - Perseverance
 102500990 Bastard Sword - Quickstep
+102500995 Greatsword - BB Dash
 102502000 Flamberge - 1H Light #1
 102502010 Flamberge - 1H Light #2
 102502020 Flamberge - 1H Light #3
@@ -1102,6 +1105,7 @@
 102600780 Greatsword - Blow
 102600790 Greatsword - Directed Slam
 102600990 Greatsword - Quickstep
+102600995 Ultra Greatsword - BB Dash
 102601100 Greatsword - 1H Heavy #1
 102601105 Greatsword - 1H Heavy #1 Max
 102601200 Greatsword - 2H Light #1
@@ -1363,6 +1367,7 @@
 102700731 Rapier - Stance Heavy #2
 102700733 Rapier
 102700990 Rapier - Quickstep
+102700995 Rapier - BB Dash
 102702100 Estoc - 1H Heavy #1
 102702105 Estoc - 1H Heavy #1 Max
 102702110 Estoc - 1H Heavy #2
@@ -1446,6 +1451,7 @@
 102800710 Falchion
 102800720 Falchion
 102800990 Falchion - Quickstep
+102800995 Falchion - BB Dash
 102806000 Dancer's Enchanted Swords - 1H Light #1
 102806010 Dancer's Enchanted Swords - 1H Light #2
 102806020 Dancer's Enchanted Swords - 1H Light #3
@@ -1650,6 +1656,7 @@
 102900910 Katana - Warcry 2H Heavy #2 - First Hit
 102900911 Katana - Warcry 2H Heavy #2 - Second Hit
 102900990 Katana - Quickstep
+102900995 Katana - BB Dash
 102902100 Black Blade - 1H Heavy #1
 102902105 Black Blade - 1H Heavy #1 Max
 102902110 Black Blade - 1H Heavy #2
@@ -1819,6 +1826,7 @@
 103000915 Axe - War Cry - 2H Heavy #2 Max
 103000916 Axe
 103000990 Axe - Quickstep
+103000995 Axe - BB Dash
 103001000 Winged Knight Twinaxes - 1H Light #1
 103001010 Winged Knight Twinaxes - 1H Light #2
 103001020 Winged Knight Twinaxes - 1H Light #3
@@ -2196,6 +2204,7 @@
 103200910 Greataxe
 103200915 Greataxe
 103200990 Greataxe - Quickstep
+103200995 Greataxe - BB Dash
 103203000 Black Knight's Greataxe - 1H Light #1
 103203001 Black Knight's Greataxe
 103203010 Black Knight's Greataxe - 1H Light #2
@@ -2523,6 +2532,7 @@
 103300920 Hammer
 103300921 Hammer
 103300990 Hammer - Quickstep
+103300995 Hammer - BB Dash
 103301000 Warpick - 1H Light #1
 103301010 Warpick - 1H Light #2
 103301020 Warpick - 1H Light #3
@@ -2689,6 +2699,7 @@
 103500906 Great Mace
 103500907 Great Mace
 103500990 Great Mace - Quickstep
+103500995 Great Mace - BB Dash
 103503100 Smough's Great Hammer - 1H Heavy #1
 103503105 Smough's Great Hammer - 1H Heavy #1 Max
 103503300 Smough's Great Hammer - 2H Heavy #1
@@ -2909,6 +2920,7 @@
 103600920 Spear
 103600921 Spear
 103600990 Spear - Quickstep
+103600995 Spear - BB Dash
 103603300 Dragonslayer Spear - 2H Heavy #1
 103603305 Dragonslayer Spear - 2H Heavy #1 Max
 103603310 Dragonslayer Spear - 2H Heavy #2
@@ -3276,6 +3288,7 @@
 103800815 Helix
 103800816 Helix
 103800990 Halberd - Quickstep
+103800995 Halberd - BB Dash
 103802000 Lucerne - 1H Light #1
 103802010 Lucerne - 1H Light #2 (thrust)
 103802020 Lucerne - 1H Light #3 (thrust)
@@ -3735,7 +3748,9 @@
 104200404 Caestus - Left - 1H Light #3
 104200410 Caestus - 1H Kick
 104200411 Caestus - 1H Kick - Bullet
+104200415 Claw - 1H Kick
 104200420 Caestus - 2H Kick
+104200425 Claw - 2H Kick
 104200430 Caestus - 1H Guard
 104200450 Caestus - Parry
 104200470 Caestus - Large Throw
@@ -3766,6 +3781,7 @@
 104200761 Caestus - 2H Special Roll Left
 104200800 Caestus - Weapon Art
 104200990 Caestus - Quickstep
+104200995 Caestus - BB Dash
 104201000 Fist - 1H Light #1
 104201010 Fist - 1H Light #2
 104201020 Fist - 1H Light #3
@@ -3833,10 +3849,10 @@
 104202400 Claw - Left Hand
 104202402 Claw - Left Hand
 104202404 Claw - Left Hand
-104202410 Claw - 1H Kick
-104202415 Beast Claw - 1H Kick
-104202420 Claw - 2H Kick
-104202425 Beast Claw - 2H Kick
+104202415 Claw - 1H Kick
+104202417 Beast Claw - 1H Kick
+104202425 Claw - 2H Kick
+104202427 Beast Claw - 2H Kick
 104202430 Claw - 1H Guard
 104202450 Claw - Parry
 104202490 Claw - Falling Throw
@@ -3850,7 +3866,7 @@
 104202516 Claw - Riposte (Hornet Ring)
 104202517 Claw - Riposte (Hornet Ring)
 104202520 Claw - 1H Backstep
-104202525 Beast Claw -
+104202525 Beast Claw - 1H Backstep
 104202540 Claw - 1H Roll
 104202545 Beast Claw - 1H Roll
 104202548 Claw (Alt) - 2H Roll
@@ -4681,6 +4697,7 @@
 105000750 Scythe - Scythe of Nahr Alma
 105000751 Scythe - Scythe of Nahr Alma - Bullet
 105000990 Scythe - Quickstep
+105000995 Scythe - BB Dash
 105010000 Pontiff Knight Great Scythe
 105010001 Pontiff Knight Great Scythe
 105010010 Pontiff Knight Great Scythe
@@ -4907,6 +4924,7 @@
 105100710 Carthus Curved Greatsword - Spin
 105100720 Carthus Curved Greatsword - Spin
 105100990 Carthus Curved Greatsword - Quickstep
+105100995 Carthus Curved Greatsword - BB Dash
 105110700 Murakumo
 105110710 Murakumo
 105110711 Murakumo
@@ -4980,6 +4998,7 @@
 105300710 Scimitar
 105300720 Scimitar
 105300990 Scimitar - Quickstep
+105300995 Scimitar - BB Dash
 105301700 Painting Guardian's Curved Sword
 105301710 Painting Guardian's Curved Sword
 105301720 Painting Guardian's Curved Sword
