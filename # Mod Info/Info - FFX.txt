@@ -196,6 +196,88 @@ dmy:
 896000 Soul Greatsword but Ivory King UGS
 
 #------------------------
+# Frostfall
+#------------------------
+
+854400: Rising bluish-white, transparent smoke
+854410: Great Combustion Frostfire
+854420: Frostfire Trail/Falling Crystals
+854430: Frostfire Blade
+854440: Frostfire Blade Ignition
+854450: Frostfire Blade Trail
+854460: Blue Ground Upheaval (Unused)
+854470: Frostfire Explosion
+854480: Large Blue Summoning Ring
+854490: Frostfire Weapon Buff
+854500: Crescendo Stability Aura
+854510: Frostfall Trail
+854520: Ice Dagger
+854530: Ice Dagger Impact
+854540: Alternate Frostfire Trail
+854550: Ice Dagger (Held)
+854560: Frostfire Trail
+854570: Blue Flash of light (No Reflection)
+854580: Frost Mist
+854590: Frost Disc
+854600: Frost Disc Impact
+854610: Frostfire Burst
+
+#------------------------
+# Frostfire Colossus and Clerics
+#------------------------
+
+854700, 854701, 854702: Frostfire Body
+854703: Frostfire Club
+854710: Frostfire Eye
+854720: Club White Light Phase 1
+854721: Colossus Frosty Particles
+854730, 854731, 854732: Phase 2 Transition Frostfire Burst
+854740: Club Frostfire Slam
+854741: Club Frostfire Sweep 1
+854742: Club Frostfire Sweep 2
+854750: Mouthful of Frostfire 1
+854752: Frostfire Breath
+854753: Frostfire Breath Impact
+854758: Mouthful of Frostfire 2 (Unused)
+854760: Frostfire Hand Blast Ignition
+854762: Frostfire Hand Blast
+854763: Frostfire Hand Blast Impact
+854765: Hammer Impale Massive Explosion
+854770: Homing Frostfire Projectiles (Stationary)
+854771: Homing Frostfire Projectiles (Tracking)
+854772: Homing Frostfire Projectiles (Impact)
+854780/854781: Lava Ring Sounds
+854784: Lava Ring Out to In to Out
+854785: Hammer Pound Frostfire Splash
+854786: Lava Ring In to Out
+854790: Tracking Frostfire Pillar Light
+854791: Tracking Frostfire Pillar
+854792: Track Frostfire Pillar Hazard
+854800: Colossus Frostfire Orb
+854810: Frost Force Blast
+854820: Big Frost Explosion
+854830: Colossus Orb’s Frostfire Ball-Darts
+854831: Colossus Orb’s Frostfire Ball-Darts Impact
+854840: Seething Frostfire Effect
+854850: Huge Arena Igniting Frostfire Explosion Piece 1
+854851: Huge Arena Igniting Frostfire Explosion Piece 2
+854860: Frostfire Floor
+854870: Green Vow
+854880: Unleash Massive Frostfire Burst
+854890: Health Regen Aura (Green)
+854892: Enhance Aura (Red)
+854900: Cleric Held Orb Medium
+854901: Cleric Held Orb Small
+854902: Cleric Held Orb Large
+854910: Cleric Frost Weapon
+854911: Cleric Frostfire Orb
+854915: Cleric Frostfire-ball
+854916: Cleric Frostfire-ball impact
+854920: Cleric Frostfire Flames
+854922 calls 854923: Cleric Frostfire Hand Transfer
+854925: Cleric Frostfire Combustion
+
+#------------------------
 # Resource Bin
 #------------------------
 
