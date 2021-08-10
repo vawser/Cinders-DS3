@@ -133,8 +133,16 @@
 <text id="307">%null%</text>
 <text id="308">%null%</text>
 <text id="309">%null%</text>
-<text id="310">Throw at foes to inflict damage</text>
-<text id="311">Throw at foes to inflict damage and poison</text>
+<text id="310">Throw at foes to inflict physical damage</text>
+<text id="311">Throw at foes to inflict physical damage and poison</text>
+<text id="320">Throw at foes to inflict magic damage</text>
+<text id="321">Throw at foes to inflict fire damage</text>
+<text id="322">Throw at foes to inflict lightning damage</text>
+<text id="323">Throw at foes to inflict dark damage</text>
+<text id="324">Throw at foes to inflict physical damage and curse</text>
+<text id="325">Throw at foes to inflict physical damage and bleed</text>
+<text id="326">Throw at foes to inflict physical damage and frostbite</text>
+
 <text id="330">Applies fire to right-hand weapon</text>
 <text id="331">Applies lightning to right-hand weapon</text>
 <text id="332">%null%</text>

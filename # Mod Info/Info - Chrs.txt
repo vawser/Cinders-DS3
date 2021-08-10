@@ -50,6 +50,8 @@ c1064 Black Dragon Knight       c1410 (Silver Knight)
 c1065 Black Dragon Knight       c1290 (Winged Knight)
 c7500 Ciaran                    c1250 (Grave Warden)
 c7510 Artorias                  c5280 (Soul of Cinder)
+c7511 Artorias                  c6200 (Slave Knight Gael)
+c7512 Artorias                  c6201 (Slave Knight Gael)
 c7520 Ornstein                  c5010 (Nameless King)
 c7530 Smelter Demon             c5020 (Demon Prince)
 c7540 Big Havel                 c5260 (Yhorm)
@@ -62,6 +64,9 @@ c7570 Frostfire Cleric          c3070 (Demon Cleric)
 c7571 Orb                       c1000
 c7580 Velstadt                  c6100 (Millwood Knight)
 c7590 Smough                    c1290 (Winged Knight)
+c7591 Smough                    c3160 (Dragonslayer Armour)
+c7592 Smough                    c6200 (Slave Knight Gael)
+c7593 Smough                    c6201 (Slave Knight Gael)
 c7600 Sir Yorgh                 c5110 (Champion Gundyr)
 c7610 Big Red Crystal Lizard    c3220 (Rock Lizard)
 c7620 Lautrec                   c1180 (Cathrus Skeleton)
@@ -69,16 +74,16 @@ c7630 The Rock                  c3160 (Dragonslayer Armour)
 c7640 Giant Sentinel            c3160 (Dragonslayer Armour)
 c7650 Berenike Knight           c1190 (Cathedral Knight)
 c7660 Old Giant                 c3020 (Giant Slave)
-c7670 Fallen Protector          c5250 (Lorian)
+c7670 Fallen Protector          c5250 (Twin Princes)
 c7671 Fallen Maiden (Dummy)     c1000 
 c7680 Titanite Demon            c2090 (Oceiros)
 c7690 Crystal Golem             c6100 (Millwood Knight)
 c7700 Pursuer                   c3160 (Dragonslayer Armour)
 c7710 Royal Rat Authority       c6030 (Great Wolf)
-c7720
-c7730
-c7740
-c7750
+c7720 Demon Bishop              c1320 (Crystal Sage)
+c7730 Elite Knight              c1280 (Lothric Knight)
+c7740 Outrider and Dancer       c5250 (Twin Princes)
+c7750 Small Rock Lizard         c2150 (Crystal Lizard)
 c7760
 c7770
 c7780

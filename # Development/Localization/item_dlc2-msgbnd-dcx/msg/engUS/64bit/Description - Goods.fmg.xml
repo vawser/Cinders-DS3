@@ -559,7 +559,7 @@ Allfather Lloyd's knights lived in fear of his duels of judgment, in which verdi
 <text id="308">%null%</text>
 <text id="309">%null%</text>
 <text id="310">Small throwing knife.
-Throw at enemies to inflict damage.
+Throw at enemies to inflict physical damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
@@ -571,6 +571,56 @@ Scales with Luck.
 
 Used by assassins of Londor, land of Hollows.
 The poison is jokingly known as Hollow's blood.</text>
+<text id="320">Small throwing knife imbued with magic.
+Throw at enemies to inflict magic damage.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="321">Small throwing knife imbued with fire.
+Throw at enemies to inflict fire damage.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="322">Small throwing knife imbued with lightning.
+Throw at enemies to inflict lightning damage.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="323">Small throwing knife imbued with darkness.
+Throw at enemies to inflict dark damage.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="324">A throwing knife dipped in the abyss.
+Throw at enemies to deal damage and inflict 30 Curse.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="325">A lacerating throwing knife.
+Throw at enemies to deal damage and inflict 20 Bleed.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+<text id="326">A throwing knife dipped in frost.
+Throw at enemies to deal damage and inflict 30 Frost.
+Scales with Luck.
+
+Most items choose their wielder, and only
+experience can improve their effectiveness.
+True strength can be gained in no other way.</text>
+
 <text id="330">Black charcoal-like pine resin.
 Temporarily applies fire to right-hand weapon.
 
