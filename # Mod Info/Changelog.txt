@@ -155,6 +155,7 @@ Finish following weapons:
  - Added the ability to switch the Gauntlet Type at the Fire Keeper. Doing this will reset any current progress.
  - Gauntlet now starts in Set Order by default (you can just immediately change in Firelink Shrine to the other ones).
  - Added the ability to buy Tokens for souls.
+ - Added the ability to buy Primordial Fragments.
  - Added the ability to toggle DLC boss appearance in the Gauntlet. This is mainly for those that don't own the DLC.
  - Added a passive *3 soul absorption boost for Gauntlet mode.
 
