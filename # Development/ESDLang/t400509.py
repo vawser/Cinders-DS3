@@ -179,7 +179,7 @@ def t400509_x9():
         
         # Curses
         AddTalkListData(20, 99002000, -1)
-        
+         
         # Flirt
         AddTalkListDataIf(GetEventStatus(25008250) == 1, 11, 15015041, -1)
         

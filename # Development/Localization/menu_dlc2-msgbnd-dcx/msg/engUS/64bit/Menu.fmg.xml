@@ -4315,7 +4315,6 @@ once you begin your journey.</text>
 <text id="99060130">DLC Bosses will now appear in the gauntlet.</text>
 <text id="99060131">DLC Bosses will now no longer appear in the gauntlet.</text>
 
-
 <text id="99060150">Ordered</text>
 <text id="99060151">Random</text>
 <text id="99060152">Endless</text>
@@ -4354,8 +4353,6 @@ Once a boss is defeated, they will stop be selectable.
 
 Defeat all bosses at least once to complete the gauntlet.</text>
 
-
-
 <text id="99060200">Dismal Knight</text>
 <text id="99060201">Vordt of the Boreal Valley</text>
 <text id="99060202">Curse-rotted Greatwood</text>
@@ -4391,6 +4388,12 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060232">Fallen Protector</text>
 <text id="99060233">Titanite Abomination</text>
 <text id="99060234">The Marauder</text>
+
+<text id="99060300">Ascension</text>
+<text id="99060301">Sorceries</text>
+<text id="99060302">Pyromancies</text>
+<text id="99060303">Miracles</text>
+<text id="99060304">Hexes</text>
 
 <text id="99061000">Masteries</text>
 <text id="99061001">Summary</text>

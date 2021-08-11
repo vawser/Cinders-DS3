@@ -2611,6 +2611,12 @@ Event(20070, Restart, function() {
     AwardItemLot(800002010); // Initial tokens
     SetEventFlag(25009803, ON); // Unlock Memories
     
+    // Coals
+    SetEventFlag(25009580, ON);
+    SetEventFlag(25009581, ON);
+    SetEventFlag(25009582, ON);
+    SetEventFlag(25009583, ON);
+    
     BatchSetEventFlags(53000000, 53002999, ON);
     BatchSetEventFlags(53010000, 53012999, ON);
     BatchSetEventFlags(53100000, 53102999, ON);
