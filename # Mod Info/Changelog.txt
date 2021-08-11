@@ -148,7 +148,7 @@ Finish following weapons:
     - Gauntlet Types are now:
         - Ordered: fight in a set order, return to shrine after each boss.
         - Random: fight in a random order, repeats allowed, return to shrine after each boss.
-        - Endless: fight in a set order, only breaks are after dead. Progress resets with death.
+        - Endless: fight in a set order, only breaks are after death. Progress resets with death.
         - Reverse Ordered: fight in a reversed set order, return to shrine after each boss.
         - Reverse Endless: fight in a reversed set order, only breaks are after dead. Progress resets with death.
         - Boss Select: select each boss, after boss defeat you can no longer select them.
@@ -156,6 +156,7 @@ Finish following weapons:
  - Gauntlet now starts in Set Order by default (you can just immediately change in Firelink Shrine to the other ones).
  - Added the ability to buy Tokens for souls.
  - Added the ability to toggle DLC boss appearance in the Gauntlet. This is mainly for those that don't own the DLC.
+ - Added a passive *3 soul absorption boost for Gauntlet mode.
 
 # Reinforcement
 - Increased the base damage boost provided by reinforcement (now +30%, was +20%). Overall damage boost at +10 is now 25% compared to +0 version of weapon.
@@ -169,7 +170,7 @@ Finish following weapons:
 - Added the Marauder.
  - Appears in the Overgrown Sanctum as a neutral NPC.
  - Will only engage you once you have acquired 100,000 souls. Starting the boss fight will remove 100,000 souls.
- - Rewards 500,000 souls when killed.
+ - Rewards 300,000 souls when killed.
  - Drops Soul of the Marauder, which can transposed into:
   - Fume Sword
   - Fume Ultra Greatsword
@@ -293,4 +294,3 @@ Finish following weapons:
 <text id="325">Lacerating Knife</text>
 <text id="326">Frigid Knife</text>
 
-400512 Gauntlet Master

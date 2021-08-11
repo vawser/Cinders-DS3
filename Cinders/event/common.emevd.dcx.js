@@ -2603,6 +2603,9 @@ Event(20070, Restart, function() {
     var flag_Gauntlet_Setup_Completed = 25009804;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    SetSpEffect(10000, 260120100); // Soul boost
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Gauntlet_Setup_Completed);
     
     AwardItemLot(800002010); // Initial tokens
