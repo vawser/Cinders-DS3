@@ -104,6 +104,8 @@ Finish following weapons:
 #------------------------------
 # TODO
 #------------------------------
-
-
-
+Add the new chrs as basic enemies in the world
+Add DSA meme memory
+Add interaction with statue in Irithyll in dog section:
+ Hollowing > 50, add damage boost
+ < 50, half HP until death
