@@ -5820,13 +5820,20 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     
     SetEventFlag(X0_4, ON); // Boss Killed
     SetEventFlag(X4_4, ON); // First Boss Kill
-    
-    // Return to Shrine if in Gauntlet mode
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
+
+    // Token reward
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813); // Gauntlet Mode
     AwardItemLot(800002000); // Token drop
+    
+    // In Set/Random Gauntlet, return to Shrine
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25003202); // Endless Gauntlet is ON
     WaitFixedTimeSeconds(15.0);
     SetMapCeremony(40, 0, 0); // Ceremony fix
     WarpPlayer(40, 0, 4000970); // Firelink Shrine
+    
+    // In Endless Gauntlet, progress boss order
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25003202); // Endless Gauntlet is OFF
+    SetSpEffect(10000, 260120000);
 });
 
 //----------------------------------------------

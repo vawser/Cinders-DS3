@@ -33,8 +33,8 @@ Event(0, Default, function() {
     
     // Gauntlet Mode
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
-    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set Order
-    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Order
+    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
+    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
     InitializeEvent(0, 20073, 0); // Gauntlet Mode - Reset Progress
     
     // Masteries
@@ -2628,14 +2628,19 @@ Event(20070, Restart, function() {
 });
 
 //----------------------------------------------
-// Gauntlet Mode - Set Order
+// Gauntlet Mode - Set/Endless Gauntlet
 //----------------------------------------------
 Event(20071, Restart, function() {
-    var flag_GauntletMode = 25009813;
-    var flag_SetOrder     = 25003200;
+    var flag_GauntletMode    = 25009813;
+    var flag_SetGauntlet     = 25003200;
+    var flag_EndlessGauntlet = 25003202;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_SetOrder);
+    
+    // End if neither Set or Endless Gauntlet are ON
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_SetGauntlet);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_EndlessGauntlet);
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     
     IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
 
@@ -2816,7 +2821,7 @@ Event(20071, Restart, function() {
 });
 
 //----------------------------------------------
-// Gauntlet Mode - Random Order
+// Gauntlet Mode - Random Gauntlet
 //----------------------------------------------
 Event(20072, Restart, function() {
     var flag_GauntletMode = 25009813;

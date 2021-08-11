@@ -4347,9 +4347,10 @@ once you begin your journey.</text>
 <text id="99060110">Next Boss</text>
 
 <text id="99060120">Gauntlet Type</text>
-<text id="99060121">Set Order</text>
-<text id="99060122">Random Order</text>
+<text id="99060121">Set Gauntlet</text>
+<text id="99060122">Random Gauntlet</text>
 <text id="99060123">Face Boss</text>
+<text id="99060123">Endless Gauntlet</text>
 
 <text id="99060130">Gauntlet will consist of bosses in a set order.
 
@@ -4358,6 +4359,12 @@ Defeat all bosses to complete the gauntlet.</text>
 
 Each time the boss will be randomised. Once defeated, 
 a boss will no longer appear in the pool of available bosses.
+
+Defeat all bosses to complete the gauntlet.</text>
+<text id="99060132">Gauntlet will consist of bosses in a set order
+without breaks between bosses.
+
+Returning to Firelink Shrine will reset progress.
 
 Defeat all bosses to complete the gauntlet.</text>
 
