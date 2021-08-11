@@ -125,6 +125,10 @@ dmy:
 856282 Silent Crystal Soul Spear
 856283 Silent Crystal Soul Spear Impact
 
+856290 Yellow Black-fire ground patch
+856291 Yellow Black-fire burst
+856292 Chain for 856291
+
 860030 Fire MLGS
 860032 Fire MLGS
 860033 Fire MLGS
@@ -176,6 +180,14 @@ dmy:
 884020 Lothric's Holy Spear with Soul Spear sound
 
 884112 Psychedelic Great Combustion
+
+880060 Black-orange Lorian Buff
+
+881431 Pontiff Beam with sound
+881432 Pontiff Beam impact with sound
+
+886102 Black-orange Fireball
+886103 Black-orange Fireball
 
 893011 Blue Lightning Buff
 893012 Blue Lightning Buff
