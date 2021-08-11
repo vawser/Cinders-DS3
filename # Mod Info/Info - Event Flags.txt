@@ -1643,8 +1643,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003100 Engaged Boss 
 25003101 Killed Boss 
 
-25003200 Gauntlet: Set Order
-25003201 Gauntlet: Random Order
+25003200 Gauntlet: Set Gauntlet
+25003201 Gauntlet: Random Gauntlet
+25003202 Gauntlet: Endless Gauntlet
 
 25003001 Selection: Dismal Knight
 25003002 Selection: Vordt

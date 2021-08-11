@@ -906,11 +906,14 @@ def t400510_x50():
     while True:
         ClearTalkListData()
         
-        # Set Order
+        # Set Gauntlet
         AddTalkListData(1, 99060121, -1)
         
-        # Random Order
+        # Random Gauntlet
         AddTalkListData(2, 99060122, -1)
+        
+        # Endless Gauntlet
+        AddTalkListData(3, 99060124, -1)
         
         # Leave
         AddTalkListData(99, 15000190, -1)
@@ -918,17 +921,26 @@ def t400510_x50():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Set Order
+        # Set Gauntlet
         if GetTalkListEntryResult() == 1:
             OpenGenericDialog(1, 99060130, 0, 0, 0)
             SetEventState(25003200, 1)
             SetEventState(25003201, 0)
+            SetEventState(25003202, 0)
             continue
-        # Random Order
+        # Random Gauntlet
         elif GetTalkListEntryResult() == 2:
             OpenGenericDialog(1, 99060131, 0, 0, 0)
             SetEventState(25003200, 0)
             SetEventState(25003201, 1)
+            SetEventState(25003202, 0)
+            continue
+        # Endless Gauntlet
+        elif GetTalkListEntryResult() == 3:
+            OpenGenericDialog(1, 99060132, 0, 0, 0)
+            SetEventState(25003200, 0)
+            SetEventState(25003201, 0)
+            SetEventState(25003202, 1)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

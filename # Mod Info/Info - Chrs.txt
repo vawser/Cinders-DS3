@@ -65,8 +65,6 @@ c7571 Orb                       c1000
 c7580 Velstadt                  c6100 (Millwood Knight)
 c7590 Smough                    c1290 (Winged Knight)
 c7591 Smough                    c3160 (Dragonslayer Armour)
-c7592 Smough                    c6200 (Slave Knight Gael)
-c7593 Smough                    c6201 (Slave Knight Gael)
 c7600 Sir Yorgh                 c5110 (Champion Gundyr)
 c7610 Big Red Crystal Lizard    c3220 (Rock Lizard)
 c7620 Lautrec                   c1180 (Cathrus Skeleton)
@@ -84,11 +82,13 @@ c7720 Demon Bishop              c1320 (Crystal Sage)
 c7730 Elite Knight              c1280 (Lothric Knight)
 c7740 Outrider and Dancer       c5250 (Twin Princes)
 c7750 Small Rock Lizard         c2150 (Crystal Lizard)
-c7760
-c7770
-c7780
-c7790
-c7800
+c7760 Bearbug                   c3220 (Rock Lizard)
+c7770 Boletaria Knight          c1300 (Black Knight)
+c7771 Boletaria Knight          c1280 (Lothric Knight)
+c7772 Boletaria Knight          c1410 (Silver Knight)
+c7780 Flamelurker               c6070 (Corvian Knight)
+c7790 Garl Vinland              c1190 (Cathedral Knight)
+c7800 King Allant               c5140 (Pontiff Sulyvahn)
 c7810
 c7820
 c7830

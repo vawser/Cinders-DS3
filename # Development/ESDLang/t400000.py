@@ -301,11 +301,14 @@ def t400000_x12():
         # Travel
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15000150, -1)
         
-        # Next Boss (Set Order)
+        # Next Boss (Set Gauntlet)
         AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003200) == 1, 30, 99060110, -1)
         
-        # Face Boss (Random Order)
+        # Face Boss (Random Gauntlet)
         AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003201) == 1, 31, 99060123, -1)
+        
+        # Face Boss (Endless Gauntlet)
+        AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003202) == 1, 32, 99060123, -1)
         
         # Reset Progress
         AddTalkListDataIf(GetEventStatus(25009813) == 1, 32, 15013005, -1)
@@ -544,7 +547,12 @@ def t400000_x12():
         elif GetTalkListEntryResult() == 31:
             GiveSpEffectToPlayer(260120010)
             return 0
-         # Reset Progress
+        # Next Boss  (Random Order)
+        elif GetTalkListEntryResult() == 32:
+            GiveSpEffectToPlayer(260120020)
+            GiveSpEffectToPlayer(260120000)
+            return 0
+        # Reset Progress
         elif GetTalkListEntryResult() == 32:
             ClearTalkListData()
 
