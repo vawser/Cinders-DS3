@@ -129,6 +129,8 @@ dmy:
 856291 Yellow Black-fire burst
 856292 Chain for 856291
 
+856300 Large glow (441400 without particles)
+
 860030 Fire MLGS
 860032 Fire MLGS
 860033 Fire MLGS
@@ -183,9 +185,9 @@ dmy:
 
 880060 Black-orange Lorian Buff
 
-881032 Black-orange Horizontal Wave
-881033 Black-orange Wave Impact
-881034 Black-orange Vertical Wave
+881032 Orange Moonlight Horizontal Wave
+881033 Orange Moonlight Wave Impact
+881034 Orange Moonlight Vertical Wave
 
 881431 Pontiff Beam with sound
 881432 Pontiff Beam impact with sound
