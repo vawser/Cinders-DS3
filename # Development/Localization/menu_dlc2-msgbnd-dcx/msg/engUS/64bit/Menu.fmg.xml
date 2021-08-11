@@ -3464,7 +3464,6 @@ Laughing: converts the catalyst into Luck form:
 <text id="99005661">Livid Pyromancer Dunnel has been vanquished</text>
 <text id="99005670">Pot King Greg intrudes...</text>
 <text id="99005671">Pot King Greg has been vanquished</text>
-
 <text id="99007000">Enemies of yore restored</text>
 <text id="99010000">Marks</text>
 <text id="99010001">Talk</text>
@@ -3777,7 +3776,6 @@ in this journey yet.</text>
 <text id="99031003">Memory of the Wall</text>
 <text id="99031004">Memory of the Cathedral</text>
 <text id="99031005">Memory of the Settlement</text>
-
 <text id="99031100">Survive!</text>
 <text id="99031200">Uno Pequeño raises his claw in thanks.
 As he leaves, you notice he has left you a valuable ring.</text>
@@ -4257,7 +4255,6 @@ to commune with the fallen knight.</text>
 <text id="99052038">Lingering Numbness crafted</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
-
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>
@@ -4268,13 +4265,11 @@ to commune with the fallen knight.</text>
 <text id="99060007">Begin Journey</text>
 <text id="99060008">Starting Location</text>
 <text id="99060009">Modify Journey</text>
-
 <text id="99060010">Standard Mode</text>
 <text id="99060011">Wanderer Mode</text>
 <text id="99060012">Mythic Mode</text>
 <text id="99060013">Gauntlet Mode</text>
 <text id="99060014">Explorer Mode</text>
-
 <text id="99060020">Standard mode applies the following effects:
 - None</text>
 <text id="99060021">Wanderer mode applies the following effects:
@@ -4297,7 +4292,6 @@ to commune with the fallen knight.</text>
 - Reduces soul absorption by 25%.
 - Invalidates challenge run rewards from Magnum Ursus.
 - Prevents Magnum Ursus from affixing accessories.</text>
-
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>
 <text id="99060032">Archdragon Peak</text>
@@ -4312,7 +4306,6 @@ to commune with the fallen knight.</text>
 <text id="99060041">Dreg Heap</text>
 <text id="99060042">Ringed City</text>
 <text id="99060043">Random</text>
-
 <text id="99060050">You will remain where you are.</text>
 <text id="99060051">You will start in Untended Graves 
 once you begin your journey.</text>
@@ -4340,18 +4333,14 @@ once you begin your journey.</text>
 once you begin your journey.</text>
 <text id="99060063">You will start in a random location 
 once you begin your journey.</text>
-
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
-
 <text id="99060110">Next Boss</text>
-
 <text id="99060120">Gauntlet Type</text>
 <text id="99060121">Set Gauntlet</text>
 <text id="99060122">Random Gauntlet</text>
 <text id="99060123">Face Boss</text>
-<text id="99060123">Endless Gauntlet</text>
-
+<text id="99060124">Endless Gauntlet</text>
 <text id="99060130">Gauntlet will consist of bosses in a set order.
 
 Defeat all bosses to complete the gauntlet.</text>
@@ -4367,12 +4356,10 @@ without breaks between bosses.
 Returning to Firelink Shrine will reset progress.
 
 Defeat all bosses to complete the gauntlet.</text>
-
 <text id="99061000">Masteries</text>
 <text id="99061001">Summary</text>
 <text id="99061002">Enable</text>
 <text id="99061003">Disable</text>
-
 <text id="99061011">Attunement</text>
 <text id="99061012">Endurance</text>
 <text id="99061013">Vitality</text>
@@ -4381,7 +4368,6 @@ Defeat all bosses to complete the gauntlet.</text>
 <text id="99061016">Intelligence</text>
 <text id="99061017">Faith</text>
 <text id="99061018">Luck</text>
-
 <text id="99061021">Mastery of Attunement provides the following:
 - Increases passive FP restoration to 15 per second.</text>
 <text id="99061022">Mastery of Endurance provides the following:
@@ -4398,7 +4384,6 @@ Defeat all bosses to complete the gauntlet.</text>
 - Doubles the effectiveness of HP restoration.</text>
 <text id="99061028">Mastery of Luck provides the following:
 - Gain a 5% chance to deal double damage with any attack.</text>
-
 <text id="99061031">You do not have 99 Attunement.</text>
 <text id="99061032">You do not have 99 Endurance.</text>
 <text id="99061033">You do not have 99 Vitality.</text>
@@ -4407,7 +4392,6 @@ Defeat all bosses to complete the gauntlet.</text>
 <text id="99061036">You do not have 99 Intelligence.</text>
 <text id="99061037">You do not have 99 Faith.</text>
 <text id="99061038">You do not have 99 Luck.</text>
-
 <text id="99061041">You have enabled the Mastery of Attunement.</text>
 <text id="99061042">You have enabled the Mastery of Endurance.</text>
 <text id="99061043">You have enabled the Mastery of Vitality.</text>
@@ -4416,9 +4400,7 @@ Defeat all bosses to complete the gauntlet.</text>
 <text id="99061046">You have enabled the Mastery of Intelligence.</text>
 <text id="99061047">You have enabled the Mastery of Faith.</text>
 <text id="99061048">You have enabled the Mastery of Luck.</text>
-
 <text id="99061050">Disabled.</text>
-
 <text id="99061100">Hollowing</text>
 <text id="99061101">Hollowing has a marked effect on you, causing the following effects:
 - Reduces max HP by 5%.
@@ -4427,6 +4409,5 @@ Defeat all bosses to complete the gauntlet.</text>
 
 This effect can stack up to 10 times once at 99 Hollowing.
 </text>
-
 </entries>
 </fmg>

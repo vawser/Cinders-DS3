@@ -227,6 +227,7 @@
       <path>msg\engUS\64bit\FDP - Text - DLC2 - XB1.fmg</path>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>279</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Messages - DLC2.fmg</path>
