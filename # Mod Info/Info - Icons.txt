@@ -20,8 +20,8 @@
 22  Kukri
 23  Poison Kukri
 24  Draconic Bolt
-25  Throwing Knife
-26  Poison Throwing Knife
+25  Throwing Knife - Normal
+26  Throwing Knife - Poison
 27  Wood Greatarrow
 28  Firebomb
 29  Molotov
@@ -348,18 +348,18 @@
 1063 Profaned Greatsword
 1064 Cathedral Knight Greatsword
 1065 Farron Greatsword
-1066 Ring of the Dutiful
-1067 Ring of the Blessed
+1066 Throwing Knife - Bleed
+1067 Throwing Knife - Curse
 1068 Yhorm's Great Machete
 1069 Dark Sword
 1070 Black Knight Sword
 1071 Hand Axe
 1072 Battle Axe
 1073 Brigand Axe
-1074 Ring of the Resolute
+1074 Throwing Knife - Frost
 1075 Crescent Axe
 1076 Greataxe
-1077 Ring of the Faithful
+1077 Throwing Knife - Magic
 1078 Butcher Knife
 1079 Dragonslayer's Axe
 1080 Missionary's Axe
@@ -370,11 +370,11 @@
 1085 Mace
 1086 Morning Star
 1087 Reinforced Club
-1088 Ring of the Devout
-1089 Ring of the Fanatic
+1088 Throwing Knife - Fire
+1089 Throwing Knife - Lightning
 1090 Large Club
 1091 Great Club
-1092 Ring of the Fingers
+1092 Throwing Knife - Dark
 1093 Ring of Demons
 1094 Great Mace
 1095 Giant Helm
@@ -1048,7 +1048,7 @@
 4063 Challenge Ring 3
 4064 Challenge Ring 4
 4065 Aural Decoy
-4066 Fume Sword
+4066 Paired Fume Swords
 4067 Smelter Hammer
 4068 Crystal Shard
 4069 Med Heal
@@ -1469,7 +1469,7 @@
 6050 Hallowed Sword
 6051 Hallowed Greatsword
 6052 Sunlight Greatsword
-6053 Fume Paired Swords
+6053 Bluemoon Greatsword
 6054 Loch Shield
 6055 Black Flame
 6056 Holy Flame
