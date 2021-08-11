@@ -874,7 +874,7 @@ it will be consumed with use.</text>
 <text id="60053">%null%</text>
 <text id="60054">%null%</text>
 <text id="60055">Greataxe</text>
-<text id="60056">%null%</text>
+<text id="60056">Greataxe (Paired)</text>
 <text id="60057">%null%</text>
 <text id="60058">%null%</text>
 <text id="60059">%null%</text>
@@ -894,7 +894,7 @@ it will be consumed with use.</text>
 <text id="60073">%null%</text>
 <text id="60074">%null%</text>
 <text id="60075">Pike</text>
-<text id="60076">%null%</text>
+<text id="60076">Lance</text>
 <text id="60077">%null%</text>
 <text id="60078">%null%</text>
 <text id="60079">%null%</text>
@@ -1181,6 +1181,8 @@ it will be consumed with use.</text>
 <text id="70383">Ichimonji</text>
 <text id="70384">Fluorescent Flare</text>
 <text id="70385">Sanguine Wrath</text>
+<text id="70386">Bestial Pounce</text>
+<text id="70387">Marauder's Wrath</text>
 <text id="101000">Equipment</text>
 <text id="101001">Inventory</text>
 <text id="101002">Status</text>
