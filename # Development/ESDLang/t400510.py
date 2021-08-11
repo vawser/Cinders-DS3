@@ -501,6 +501,9 @@ def t400510_x15():
         # Unset
         AddTalkListDataIf(GetEventStatus(25009814) == 1, 3, 99060003, -1)
 
+        # Starting Location
+        AddTalkListData(4, 99060008, -1)
+        
         # Leave
         AddTalkListData(99, 15000190, -1)
         
@@ -523,7 +526,10 @@ def t400510_x15():
         # Unset
         elif GetTalkListEntryResult() == 3:
             SetEventState(25009814, 0)
-            continue 
+            continue
+        # Starting Location
+        elif GetTalkListEntryResult() == 4:
+            assert t400510_x40()
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
