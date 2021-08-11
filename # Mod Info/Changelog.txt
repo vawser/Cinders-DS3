@@ -236,6 +236,15 @@ Finish following weapons:
  - Spellbound Kukri - 30 > 25
  - Church Guardian Shiv - 10 > 20
  
+- Added new throwing knifes:
+    - Sorcerous Knife
+    - Flaming Knife
+    - Sparking Knife
+    - Abyssal Knife
+    - Cursed Knife
+    - Lacerating Knife
+    - Frigid Knife
+    
 # Map
 - Irithyll:
     - Removed the new Irithyll bridge at the start the level, added a leap point on the original bridge instead.
@@ -285,13 +294,4 @@ Finish following weapons:
 - Piercing Rifle
 - Gehrman's Blunderbuss
 
-# Icons
-- Add icons for the new throwing knifes
-<text id="320">Sorcerous Knife</text>
-<text id="321">Flaming Knife</text>
-<text id="322">Sparking Knife</text>
-<text id="323">Abyssal Knife</text>
-<text id="324">Cursed Knife</text>
-<text id="325">Lacerating Knife</text>
-<text id="326">Frigid Knife</text>
 
