@@ -5833,6 +5833,7 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     
     // In Endless Gauntlet, progress boss order
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25003202); // Endless Gauntlet is OFF
+    WaitFixedTimeSeconds(10.0);
     SetSpEffect(10000, 260120000);
 });
 

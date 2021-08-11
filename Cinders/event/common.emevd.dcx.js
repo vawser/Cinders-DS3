@@ -35,7 +35,9 @@ Event(0, Default, function() {
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
     InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
-    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Reset Progress
+    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Set/Endless Gauntlet - Reverse
+    
+    InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
     
     // Masteries
     InitializeEvent(0, 20080, 0); // Masteries
@@ -2631,19 +2633,21 @@ Event(20070, Restart, function() {
 // Gauntlet Mode - Set/Endless Gauntlet
 //----------------------------------------------
 Event(20071, Restart, function() {
-    var flag_GauntletMode    = 25009813;
-    var flag_SetGauntlet     = 25003200;
-    var flag_EndlessGauntlet = 25003202;
+    var flag_GauntletMode     = 25009813;
+    var flag_SetGauntlet      = 25003200;
+    var flag_EndlessGauntlet  = 25003202;
+    var flag_DisableDLCBosses = 25009805;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
+    // Wait fo trigger
+    IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
+
     // End if neither Set or Endless Gauntlet are ON
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_SetGauntlet);
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_EndlessGauntlet);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     
-    IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
-
     // Dismal Knight
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
@@ -2780,36 +2784,44 @@ Event(20071, Restart, function() {
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Princess Yngvil
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002030);  // Already Killed
     SetSpEffect(10000, 260100310);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Prince Dorthinus
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002026);  // Already Killed
     SetSpEffect(10000, 260100270);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Sister Friede
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002020);  // Already Killed
     SetSpEffect(10000, 260100200);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Demon Prince
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002022);  // Already Killed
     SetSpEffect(10000, 260100220);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Halflight
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002025);  // Already Killed
     SetSpEffect(10000, 260100250);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Darkeater Midir
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002023);  // Already Killed
     SetSpEffect(10000, 260100230);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Slave Knight Gael
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002024);  // Already Killed
     SetSpEffect(10000, 260100240);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
@@ -2826,14 +2838,52 @@ Event(20071, Restart, function() {
 Event(20072, Restart, function() {
     var flag_GauntletMode = 25009813;
     var flag_RandomOrder  = 25003201;
+    var flag_DisableDLCBosses = 25009805;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_RandomOrder);
     
+    // Wait for trigger
     IfCharacterHasSpEffect(MAIN, 10000, 260120010, true, ComparisonType.Equal, 1);
+    
+    // End if not in Random type
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_RandomOrder);
     
     BatchSetEventFlags(25003001, 25003033, OFF);
     RandomlySetEventFlagInRange(25003001, 25003033, ON);
+    
+    // Skip next section if DLC bosses are enabled
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, flag_DisableDLCBosses);
+    
+    // Convert the random flags for the DLC bosses into vanilla ones
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003020); // Sister Friede
+    SetEventFlag(25003020, OFF); // Sister Friede
+    SetEventFlag(25003014, ON); // Dragonslayer Armour
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003022); // Demon Prince
+    SetEventFlag(25003022, OFF); // Demon Prince
+    SetEventFlag(25003017, ON); // Champion Gundyr
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003023); // Darkeater Midir
+    SetEventFlag(25003023, OFF); // Darkeater Midir
+    SetEventFlag(25003018, ON); // Twin Princes
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003024); // Slave Knight Gael
+    SetEventFlag(25003024, OFF); // Slave Knight Gael
+    SetEventFlag(25003010, ON); // Aldrich
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003025); // Halflight
+    SetEventFlag(25003025, OFF); // Halflight
+    SetEventFlag(25003008, ON); // Old Demon King
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003026); // Prince Dorthinus
+    SetEventFlag(25003026, OFF); // Prince Dorthinus
+    SetEventFlag(25003032, ON); // Twisted Knight
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003030); // Princess Yngvil
+    SetEventFlag(25003030, OFF); // Princess Yngvil
+    SetEventFlag(25003035, ON); // The Marauder
+    
+    Label0();
     
     // Dismal Knight
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
@@ -3050,9 +3100,212 @@ Event(20072, Restart, function() {
 });
 
 //----------------------------------------------
-// Gauntlet Mode - Reset Progress
+// Gauntlet Mode - Reverse Set/Endless Gauntlet
 //----------------------------------------------
 Event(20073, Restart, function() {
+    var flag_GauntletMode   = 25009813;
+    var flag_SetReverse     = 25003203;
+    var flag_EndlessReverse = 25003204;
+    var flag_DisableDLCBosses = 25009805;
+    
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
+    
+    // Wait for trigger
+    IfCharacterHasSpEffect(MAIN, 10000, 260120000, true, ComparisonType.Equal, 1);
+
+    // End if neither Set or Endless Gauntlet are ON
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_SetReverse);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_EndlessReverse);
+    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
+    
+    // Soul of Cinder
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002019);  // Already Killed
+    SetSpEffect(10000, 260100190);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Slave Knight Gael
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002024);  // Already Killed
+    SetSpEffect(10000, 260100240);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Darkeater Midir
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002023);  // Already Killed
+    SetSpEffect(10000, 260100230);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Halflight
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002025);  // Already Killed
+    SetSpEffect(10000, 260100250);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Demon Prince
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002022);  // Already Killed
+    SetSpEffect(10000, 260100220);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Sister Friede
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002020);  // Already Killed
+    SetSpEffect(10000, 260100200);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Prince Dorthinus
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002026);  // Already Killed
+    SetSpEffect(10000, 260100270);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Princess Yngvil
+    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, flag_DisableDLCBosses); // Skip if DLC bosses disabled
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002030);  // Already Killed
+    SetSpEffect(10000, 260100310);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // The Marauder
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002035);  // Already Killed
+    SetSpEffect(10000, 260100360);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Twin Princes
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002018);  // Already Killed
+    SetSpEffect(10000, 260100180);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Champion Gundyr
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002017);  // Already Killed
+    SetSpEffect(10000, 260100170);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Nameless King
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002016);  // Already Killed
+    SetSpEffect(10000, 260100160);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // The Rock
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
+    SetSpEffect(10000, 260100320);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Titanite Abomination
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    SetSpEffect(10000, 260100350);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Ancient Wyvern
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002015);  // Already Killed
+    SetSpEffect(10000, 260100150);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Mirror Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002028);  // Already Killed
+    SetSpEffect(10000, 260100290);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Dragonslayer Armour
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002014);  // Already Killed
+    SetSpEffect(10000, 260100140);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Twisted Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002032);  // Already Killed
+    SetSpEffect(10000, 260100330);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Oceiros
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002013);  // Already Killed
+    SetSpEffect(10000, 260100130);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Dancer
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002012);  // Already Killed
+    SetSpEffect(10000, 260100120);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Yhorm
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002011);  // Already Killed
+    SetSpEffect(10000, 260100110);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Fallen Protector
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002033);  // Already Killed
+    SetSpEffect(10000, 260100340);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Lordran Remnants
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002021);  // Already Killed
+    SetSpEffect(10000, 260100210);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Aldrich
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002010);  // Already Killed
+    SetSpEffect(10000, 260100100);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Pontiff Sulyvahn
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002009);  // Already Killed
+    SetSpEffect(10000, 260100090);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Old Demon King
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002008);  // Already Killed
+    SetSpEffect(10000, 260100080);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // High Lord Wolnir
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002007);  // Already Killed
+    SetSpEffect(10000, 260100070);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Abyss Watchers
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002006);  // Already Killed
+    SetSpEffect(10000, 260100060);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Deacons of the Deep
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002005);  // Already Killed
+    SetSpEffect(10000, 260100050);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Cathedral Guardian
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002027);  // Already Killed
+    SetSpEffect(10000, 260100280);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Crystal Sage
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002004);  // Already Killed
+    SetSpEffect(10000, 260100040);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Curse-rotted Greatwood
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002003);  // Already Killed
+    SetSpEffect(10000, 260100030);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Aborr
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002029);  // Already Killed
+    SetSpEffect(10000, 260100300);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Vordt
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002002);  // Already Killed
+    SetSpEffect(10000, 260100020);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+    // Dismal Knight
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
+    SetSpEffect(10000, 260100010);
+    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    
+});
+
+//----------------------------------------------
+// Gauntlet Mode - Reset Progress
+//----------------------------------------------
+Event(20079, Restart, function() {
     var flag_GauntletMode = 25009813;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);

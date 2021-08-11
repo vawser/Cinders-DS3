@@ -301,18 +301,6 @@ def t400000_x12():
         # Travel
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15000150, -1)
         
-        # Next Boss (Set Gauntlet)
-        AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003200) == 1, 30, 99060110, -1)
-        
-        # Face Boss (Random Gauntlet)
-        AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003201) == 1, 31, 99060123, -1)
-        
-        # Face Boss (Endless Gauntlet)
-        AddTalkListDataIf(GetEventStatus(25009813) == 1 and GetEventStatus(25003202) == 1, 32, 99060123, -1)
-        
-        # Reset Progress
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 32, 15013005, -1)
-        
         # Level Up
         AddTalkListData(10, 15002000, -1)
         
@@ -345,43 +333,75 @@ def t400000_x12():
         
         # Begin journey <?nextLoopCount?> (Normal)
         AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(25002019) == 1, 6, 15000331, -1)
-                        
-        # Begin journey <?nextLoopCount?> (Gauntlet)
-        AddTalkListDataIf(GetEventStatus(25009813) == 1 and 
-        GetEventStatus(25002001) == 1 and 
-        GetEventStatus(25002002) == 1 and 
-        GetEventStatus(25002003) == 1 and 
-        GetEventStatus(25002004) == 1 and 
-        GetEventStatus(25002005) == 1 and 
-        GetEventStatus(25002006) == 1 and 
-        GetEventStatus(25002007) == 1 and 
-        GetEventStatus(25002008) == 1 and 
-        GetEventStatus(25002009) == 1 and 
-        GetEventStatus(25002010) == 1 and 
-        GetEventStatus(25002011) == 1 and 
-        GetEventStatus(25002012) == 1 and 
-        GetEventStatus(25002013) == 1 and 
-        GetEventStatus(25002014) == 1 and 
-        GetEventStatus(25002015) == 1 and 
-        GetEventStatus(25002016) == 1 and 
-        GetEventStatus(25002017) == 1 and 
-        GetEventStatus(25002018) == 1 and 
-        GetEventStatus(25002019) == 1 and 
-        GetEventStatus(25002020) == 1 and 
-        GetEventStatus(25002021) == 1 and 
-        GetEventStatus(25002022) == 1 and 
-        GetEventStatus(25002023) == 1 and 
-        GetEventStatus(25002024) == 1 and 
-        GetEventStatus(25002025) == 1 and 
-        GetEventStatus(25002026) == 1 and 
-        GetEventStatus(25002027) == 1 and 
-        GetEventStatus(25002028) == 1 and 
-        GetEventStatus(25002029) == 1 and 
-        GetEventStatus(25002030) == 1 and 
-        GetEventStatus(25002031) == 1 and 
-        GetEventStatus(25002032) == 1 and 
-        GetEventStatus(25002033) == 1, 6, 15000331, -1)
-        
+         
+        # Full boss requirement
+        if GetEventStatus(25009805) == 0:
+            # Begin journey <?nextLoopCount?> (Gauntlet)
+            AddTalkListDataIf(GetEventStatus(25009813) == 1 and 
+            GetEventStatus(25002001) == 1 and 
+            GetEventStatus(25002002) == 1 and 
+            GetEventStatus(25002003) == 1 and 
+            GetEventStatus(25002004) == 1 and 
+            GetEventStatus(25002005) == 1 and 
+            GetEventStatus(25002006) == 1 and 
+            GetEventStatus(25002007) == 1 and 
+            GetEventStatus(25002008) == 1 and 
+            GetEventStatus(25002009) == 1 and 
+            GetEventStatus(25002010) == 1 and 
+            GetEventStatus(25002011) == 1 and 
+            GetEventStatus(25002012) == 1 and 
+            GetEventStatus(25002013) == 1 and 
+            GetEventStatus(25002014) == 1 and 
+            GetEventStatus(25002015) == 1 and 
+            GetEventStatus(25002016) == 1 and 
+            GetEventStatus(25002017) == 1 and 
+            GetEventStatus(25002018) == 1 and 
+            GetEventStatus(25002019) == 1 and 
+            GetEventStatus(25002020) == 1 and 
+            GetEventStatus(25002021) == 1 and 
+            GetEventStatus(25002022) == 1 and 
+            GetEventStatus(25002023) == 1 and 
+            GetEventStatus(25002024) == 1 and 
+            GetEventStatus(25002025) == 1 and 
+            GetEventStatus(25002026) == 1 and 
+            GetEventStatus(25002027) == 1 and 
+            GetEventStatus(25002028) == 1 and 
+            GetEventStatus(25002029) == 1 and 
+            GetEventStatus(25002030) == 1 and 
+            GetEventStatus(25002031) == 1 and 
+            GetEventStatus(25002032) == 1 and 
+            GetEventStatus(25002033) == 1, 6, 15000331, -1)
+        # Vanilla boss requirement
+        else:
+            # Begin journey <?nextLoopCount?> (Gauntlet)
+            AddTalkListDataIf(GetEventStatus(25009813) == 1 and 
+            GetEventStatus(25002001) == 1 and 
+            GetEventStatus(25002002) == 1 and 
+            GetEventStatus(25002003) == 1 and 
+            GetEventStatus(25002004) == 1 and 
+            GetEventStatus(25002005) == 1 and 
+            GetEventStatus(25002006) == 1 and 
+            GetEventStatus(25002007) == 1 and 
+            GetEventStatus(25002008) == 1 and 
+            GetEventStatus(25002009) == 1 and 
+            GetEventStatus(25002010) == 1 and 
+            GetEventStatus(25002011) == 1 and 
+            GetEventStatus(25002012) == 1 and 
+            GetEventStatus(25002013) == 1 and 
+            GetEventStatus(25002014) == 1 and 
+            GetEventStatus(25002015) == 1 and 
+            GetEventStatus(25002016) == 1 and 
+            GetEventStatus(25002017) == 1 and 
+            GetEventStatus(25002018) == 1 and 
+            GetEventStatus(25002019) == 1 and 
+            GetEventStatus(25002021) == 1 and 
+            GetEventStatus(25002027) == 1 and 
+            GetEventStatus(25002028) == 1 and 
+            GetEventStatus(25002029) == 1 and 
+            GetEventStatus(25002031) == 1 and 
+            GetEventStatus(25002032) == 1 and 
+            GetEventStatus(25002033) == 1, 6, 15000331, -1)
+            
         # action:15000005:Leave
         AddTalkListData(99, 15000005, -1)
         """ State 5 """
@@ -539,38 +559,6 @@ def t400000_x12():
             OpenEstusAllotMenu()
             assert not (CheckSpecificPersonMenuIsOpen(14, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
             continue
-        # Next Boss
-        elif GetTalkListEntryResult() == 30:
-            GiveSpEffectToPlayer(260120000)
-            return 0
-        # Next Boss  (Random Order)
-        elif GetTalkListEntryResult() == 31:
-            GiveSpEffectToPlayer(260120010)
-            return 0
-        # Next Boss  (Random Order)
-        elif GetTalkListEntryResult() == 32:
-            GiveSpEffectToPlayer(260120020)
-            GiveSpEffectToPlayer(260120000)
-            return 0
-        # Reset Progress
-        elif GetTalkListEntryResult() == 32:
-            ClearTalkListData()
-
-            AddTalkListData(1, 15013006, -1)
-            AddTalkListData(2, 15013007, -1)
-           
-            OpenConversationChoicesMenu(0)
-            
-            assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-            
-            if GetTalkListEntryResult() == 1:
-                GiveSpEffectToPlayer(260120020)
-                OpenGenericDialog(1, 15013008, 0, 0, 0)
-                return 0
-            else:
-                pass
-                
-            return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 45 """
             assert (not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2))

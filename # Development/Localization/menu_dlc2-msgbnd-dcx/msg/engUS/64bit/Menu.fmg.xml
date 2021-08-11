@@ -1873,7 +1873,7 @@ Persisting will transform you into a grub.</text>
 <text id="15000003">%null%</text>
 <text id="15000004">%null%</text>
 <text id="15000005">Leave</text>
-<text id="15000006">%null%</text>
+<text id="15000006">Return</text>
 <text id="15000007">%null%</text>
 <text id="15000008">%null%</text>
 <text id="15000009">%null%</text>
@@ -2081,7 +2081,7 @@ Persisting will transform you into a grub.</text>
 <text id="15013006">Yes</text>
 <text id="15013007">No</text>
 <text id="15013008">Progress reset.</text>
-<text id="15013009">%null%</text>
+<text id="15013009">Browse Items</text>
 <text id="15013010">Reinforce Staff</text>
 <text id="15013011">%null%</text>
 <text id="15013012">%null%</text>
@@ -3662,76 +3662,46 @@ Legendary: 15 Ritual Incense</text>
 <text id="99030010">You must be embered to summon a companion.</text>
 <text id="99030020">This companion is dead.</text>
 <text id="99030030">Companion is already active.</text>
-<text id="99030100">Dismal Knight has not been killed 
-in this journey yet.</text>
+<text id="99030100">Dismal Knight</text>
 <text id="99030101">Vordt of the Boreal Valley has not 
 been killed in this journey yet.</text>
 <text id="99030102">Curse-rotted Greatwood has not been 
 killed in this journey yet.</text>
-<text id="99030103">Crystal Sage has not been killed 
-in this journey yet.</text>
+<text id="99030103">Crystal Sage</text>
 <text id="99030104">Deacons of the Deep has not been 
 killed in this journey yet.</text>
-<text id="99030105">Abyss Watchers has not been killed 
-in this journey yet.</text>
-<text id="99030106">High Lord Wolnir has not been killed 
-in this journey yet.</text>
-<text id="99030107">Old Demon King has not been killed 
-in this journey yet.</text>
-<text id="99030108">Pontiff Sulyvahn has not been killed 
-in this journey yet.</text>
-<text id="99030109">Aldrich has not been killed 
-in this journey yet.</text>
-<text id="99030110">Yhorm the Giant has not been killed 
-in this journey yet.</text>
+<text id="99030105">Abyss Watchers</text>
+<text id="99030106">High Lord Wolnir</text>
+<text id="99030107">Old Demon King</text>
+<text id="99030108">Pontiff Sulyvahn</text>
+<text id="99030109">Aldrich</text>
+<text id="99030110">Yhorm the Giant</text>
 <text id="99030111">Dancer of the Boreal Valley has not 
 been killed in this journey yet.</text>
 <text id="99030112">Oceiros, the Consumed King has not 
 been killed in this journey yet.</text>
-<text id="99030113">Dragonslayer Armour has not been killed 
-in this journey yet.</text>
-<text id="99030114">Ancient Wyvern has not been killed 
-in this journey yet.</text>
-<text id="99030115">Nameless King has not been killed 
-in this journey yet.</text>
-<text id="99030116">Champion Gundyr has not been killed 
-in this journey yet.</text>
-<text id="99030117">Twin Princes has not been killed 
-in this journey yet.</text>
-<text id="99030118">Soul of Cinder has not been killed 
-in this journey yet.</text>
-<text id="99030119">Sister Friede has not been killed 
-in this journey yet.</text>
-<text id="99030120">Lordran Remnants has not been killed 
-in this journey yet.</text>
-<text id="99030121">Demon Prince has not been killed 
-in this journey yet.</text>
-<text id="99030122">Darkeater Midir has not been killed 
-in this journey yet.</text>
-<text id="99030123">Slave Knight Gael has not been killed 
-in this journey yet.</text>
-<text id="99030124">Halflight has not been killed 
-in this journey yet.</text>
-<text id="99030125">Princess Yngvil has not been killed 
-in this journey yet.</text>
-<text id="99030126">Cathedral Guardian has not been killed 
-in this journey yet.</text>
-<text id="99030127">Mirror Knight has not been killed 
-in this journey yet.</text>
-<text id="99030128">Aborr has not been killed 
-in this journey yet.</text>
-<text id="99030129">Prince Dorthinus has not been killed 
-in this journey yet.</text>
-<text id="99030130">The Rock has not been killed 
-in this journey yet.</text>
-<text id="99030131">Twisted Knight has not been killed 
-in this journey yet.</text>
-<text id="99030132">Fallen Protector has not been killed 
-in this journey yet.</text>
-<text id="99030133">Titanite Abomination has not been killed 
-in this journey yet.</text>
-<text id="99030134">The Marauder has not been killed 
-in this journey yet.</text>
+<text id="99030113">Dragonslayer Armour</text>
+<text id="99030114">Ancient Wyvern</text>
+<text id="99030115">Nameless King</text>
+<text id="99030116">Champion Gundyr</text>
+<text id="99030117">Twin Princes</text>
+<text id="99030118">Soul of Cinder</text>
+<text id="99030119">Sister Friede</text>
+<text id="99030120">Lordran Remnants</text>
+<text id="99030121">Demon Prince</text>
+<text id="99030122">Darkeater Midir</text>
+<text id="99030123">Slave Knight Gael</text>
+<text id="99030124">Halflight</text>
+<text id="99030125">Princess Yngvil</text>
+<text id="99030126">Cathedral Guardian</text>
+<text id="99030127">Mirror Knight</text>
+<text id="99030128">Aborr</text>
+<text id="99030129">Prince Dorthinus</text>
+<text id="99030130">The Rock</text>
+<text id="99030131">Twisted Knight</text>
+<text id="99030132">Fallen Protector</text>
+<text id="99030133">Titanite Abomination</text>
+<text id="99030134">The Marauder</text>
 <text id="99030200">Salve, Regina, Mater misericordiae...</text>
 <text id="99030201">...vita, dulcedo, et spes nostra, salve.</text>
 <text id="99030202">Ad te clamamus exsules filii Hevae...</text>
@@ -4335,27 +4305,93 @@ once you begin your journey.</text>
 once you begin your journey.</text>
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
-<text id="99060110">Next Boss</text>
+<text id="99060110">Enter the Gauntlet</text>
 <text id="99060120">Gauntlet Type</text>
-<text id="99060121">Set Gauntlet</text>
-<text id="99060122">Random Gauntlet</text>
-<text id="99060123">Face Boss</text>
-<text id="99060124">Endless Gauntlet</text>
-<text id="99060130">Gauntlet will now consist of bosses in a set order.
+<text id="99060125">Switch Gauntlet Type</text>
+<text id="99060126">Gauntlet Configuration</text>
+<text id="99060127">Browse Inventory</text>
+<text id="99060128">Enable DLC Bosses</text>
+<text id="99060129">Disable DLC Bosses</text>
+<text id="99060130">DLC Bosses will now appear in the gauntlet.</text>
+<text id="99060131">DLC Bosses will now no longer appear in the gauntlet.</text>
+
+
+<text id="99060150">Ordered</text>
+<text id="99060151">Random</text>
+<text id="99060152">Endless</text>
+<text id="99060153">Reverse Ordered</text>
+<text id="99060154">Reverse Endless</text>
+<text id="99060155">Boss Select</text>
+
+<text id="99060160">Gauntlet will now consist of bosses in a set order.
 
 Defeat all bosses to complete the gauntlet.</text>
-<text id="99060131">Gauntlet will now consist of bosses in a random order. 
+<text id="99060161">Gauntlet will now consist of bosses in a random order. 
 
 Each time the boss will be randomised. Once defeated, 
 a boss will no longer appear in the pool of available bosses.
 
-Defeat all bosses to complete the gauntlet.</text>
-<text id="99060132">Gauntlet will now consist of bosses in a set order
+Defeat all bosses at least once to complete the gauntlet.</text>
+<text id="99060162">Gauntlet will now consist of bosses in a set order
 without breaks between bosses.
 
 Returning to Firelink Shrine will reset progress.
 
-Defeat all bosses to complete the gauntlet.</text>
+Defeat all bosses at least onceto complete the gauntlet.</text>
+<text id="99060163">Gauntlet will now consist of bosses in a reversed set order.
+
+Defeat all bosses at least once to complete the gauntlet.</text>
+<text id="99060164">Gauntlet will now consist of bosses in a reversed set order
+without breaks between bosses.
+
+Returning to Firelink Shrine will reset progress.
+
+Defeat all bosses at least once to complete the gauntlet.</text>
+<text id="99060165">Gauntlet will now consist of boss selection, 
+allowing you to select which boss to fight.
+
+Once a boss is defeated, they will stop be selectable.
+
+Defeat all bosses at least once to complete the gauntlet.</text>
+
+
+
+<text id="99060200">Dismal Knight</text>
+<text id="99060201">Vordt of the Boreal Valley</text>
+<text id="99060202">Curse-rotted Greatwood</text>
+<text id="99060203">Crystal Sage</text>
+<text id="99060204">Deacons of the Deep </text>
+<text id="99060205">Abyss Watchers</text>
+<text id="99060206">High Lord Wolnir</text>
+<text id="99060207">Old Demon King</text>
+<text id="99060208">Pontiff Sulyvahn</text>
+<text id="99060209">Aldrich</text>
+<text id="99060210">Yhorm the Giant</text>
+<text id="99060211">Dancer of the Boreal Valley</text>
+<text id="99060212">Oceiros, the Consumed King</text>
+<text id="99060213">Dragonslayer Armour</text>
+<text id="99060214">Ancient Wyvern</text>
+<text id="99060215">Nameless King</text>
+<text id="99060216">Champion Gundyr</text>
+<text id="99060217">Twin Princes</text>
+<text id="99060218">Soul of Cinder</text>
+<text id="99060219">Sister Friede</text>
+<text id="99060220">Lordran Remnants</text>
+<text id="99060221">Demon Prince</text>
+<text id="99060222">Darkeater Midir</text>
+<text id="99060223">Slave Knight Gael</text>
+<text id="99060224">Halflight</text>
+<text id="99060225">Princess Yngvil</text>
+<text id="99060226">Cathedral Guardian</text>
+<text id="99060227">Mirror Knight</text>
+<text id="99060228">Aborr</text>
+<text id="99060229">Prince Dorthinus</text>
+<text id="99060230">The Rock</text>
+<text id="99060231">Twisted Knight</text>
+<text id="99060232">Fallen Protector</text>
+<text id="99060233">Titanite Abomination</text>
+<text id="99060234">The Marauder</text>
+
 <text id="99061000">Masteries</text>
 <text id="99061001">Summary</text>
 <text id="99061002">Enable</text>

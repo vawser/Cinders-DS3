@@ -449,9 +449,6 @@ def t400510_x14():
         # Unset
         AddTalkListDataIf(GetEventStatus(25009813) == 1, 3, 99060003, -1)
 
-        # Gauntlet Type
-        AddTalkListDataIf(GetEventStatus(25009813) == 1, 4, 99060120, -1)
-        
         # Leave
         AddTalkListData(99, 15000190, -1)
         
@@ -470,15 +467,12 @@ def t400510_x14():
             SetEventState(25009812, 0)
             SetEventState(25009813, 1)
             SetEventState(25009814, 0)
-            SetEventState(25003200, 1) # Set Order by default
+            SetEventState(25003200, 1) # Set Order by default, changable in Firelink
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
             SetEventState(25009813, 0)
-            continue 
-        # Gauntlet Type
-        elif GetTalkListEntryResult() == 4:
-            assert t400510_x50()
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -884,51 +878,6 @@ def t400510_x40():
             SetEventState(25009830, 0)
             SetEventState(25009831, 0)
             SetEventState(25009840, 1)
-            continue
-        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
-            
-# Gauntlet Type
-def t400510_x50():
-    c1110()
-    while True:
-        ClearTalkListData()
-        
-        # Set Gauntlet
-        AddTalkListData(1, 99060121, -1)
-        
-        # Random Gauntlet
-        AddTalkListData(2, 99060122, -1)
-        
-        # Endless Gauntlet
-        AddTalkListData(3, 99060124, -1)
-        
-        # Leave
-        AddTalkListData(99, 15000190, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Set Gauntlet
-        if GetTalkListEntryResult() == 1:
-            OpenGenericDialog(1, 99060130, 0, 0, 0)
-            SetEventState(25003200, 1)
-            SetEventState(25003201, 0)
-            SetEventState(25003202, 0)
-            continue
-        # Random Gauntlet
-        elif GetTalkListEntryResult() == 2:
-            OpenGenericDialog(1, 99060131, 0, 0, 0)
-            SetEventState(25003200, 0)
-            SetEventState(25003201, 1)
-            SetEventState(25003202, 0)
-            continue
-        # Endless Gauntlet
-        elif GetTalkListEntryResult() == 3:
-            OpenGenericDialog(1, 99060132, 0, 0, 0)
-            SetEventState(25003200, 0)
-            SetEventState(25003201, 0)
-            SetEventState(25003202, 1)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

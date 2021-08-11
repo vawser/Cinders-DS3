@@ -1583,6 +1583,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009802 Journey began
 25009803 Unlock memories
 25009804 Gauntlet setup completed
+25009805 Ignore DLC bosses in Gauntlet
 
 25009810 Standard mode
 25009811 Wanderer mode
@@ -1622,18 +1623,18 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002016 First Boss Kill: Nameless King
 25002017 First Boss Kill: Champion Gundyr
 25002018 First Boss Kill: Twin Princes
-25002019 First Boss Kill: Cinder
+25002019 First Boss Kill: Soul of Cinder
 25002020 First Boss Kill: Sister Friede
 25002021 First Boss Kill: Lordran Remnants
 25002022 First Boss Kill: Demon Prince
 25002023 First Boss Kill: Darkeater Midir
 25002024 First Boss Kill: Slave Knight Gael
 25002025 First Boss Kill: Halflight
-25002026 First Boss Kill: Frostfire Colossus
+25002026 First Boss Kill: Prince Dorthinus
 25002027 First Boss Kill: Cathedral Guardian
 25002028 First Boss Kill: Mirror Knight
 25002029 First Boss Kill: Aborr             
-25002030 First Boss Kill: Herald of Winter
+25002030 First Boss Kill: Princess Yngvil
 25002031 First Boss Kill: The Rock
 25002032 First Boss Kill: Twisted Knight
 25002033 First Boss Kill: Fallen Protector
@@ -1643,9 +1644,12 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003100 Engaged Boss 
 25003101 Killed Boss 
 
-25003200 Gauntlet: Set Gauntlet
-25003201 Gauntlet: Random Gauntlet
-25003202 Gauntlet: Endless Gauntlet
+25003200 Gauntlet: Set
+25003201 Gauntlet: Random
+25003202 Gauntlet: Endless
+25003203 Gauntlet: Reverse Set
+25003204 Gauntlet: Reverse Endless
+25003205 Gauntlet: Boss Select
 
 25003001 Selection: Dismal Knight
 25003002 Selection: Vordt
@@ -1672,11 +1676,11 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003023 Selection: Darkeater Midir
 25003024 Selection: Slave Knight Gael
 25003025 Selection: Halflight
-25003026 Selection: Frostfire Colossus
+25003026 Selection: Prince Dorthinus
 25003027 Selection: Cathedral Guardian
 25003028 Selection: Mirror Knight
 25003029 Selection: Aborr             
-25003030 Selection: Herald of Winter
+25003030 Selection: Princess Yngvil
 25003031 Selection: The Rock
 25003032 Selection: Twisted Knight
 25003033 Selection: Fallen Protector
