@@ -101,6 +101,9 @@ Finish following weapons:
 # Changelog
 #------------------------------
  
+# Bugfixes
+- Fixed the stat requirements of the uninfused and lucky infused Great Club.
+ 
 #------------------------------
 # TODO
 #------------------------------
