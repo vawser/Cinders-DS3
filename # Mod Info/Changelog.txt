@@ -112,3 +112,8 @@ Add DSA meme memory
 Add interaction with statue in Irithyll in dog section:
  Hollowing > 50, add damage boost
  < 50, half HP until death
+ 
+f000886103
+f000886104
+
+# 652855
