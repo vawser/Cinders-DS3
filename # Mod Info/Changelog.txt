@@ -103,6 +103,7 @@ Finish following weapons:
  
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
+- Fixed the visual effect on hit of Surging Soulmass.
  
 #------------------------------
 # TODO
