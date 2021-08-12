@@ -7540,7 +7540,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7936,8 +7936,7 @@ function AttackBothLight1_onUpdate()
     if sp_kind == 600 or sp_kind == 146 then
         l1 = "W_AttackBothLeft3"
     end	
-	
-	
+		
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", "W_AttackBothLight2", b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8013,6 +8012,7 @@ function AttackBothLight3_onUpdate()
 end
 
 function AttackBothLeft1_onUpdate()
+	local b1 = "W_AttackBothLight2"
     local hand = HAND_RIGHT
     local style = c_Style
     if style == HAND_LEFT_BOTH then
@@ -8026,7 +8026,12 @@ function AttackBothLeft1_onUpdate()
 		ExecEventHalfBlend(Event_AttackCrossbowBothLeftEmpty, ALLBODY)
 		return
 	end
-    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+
+	if sp_kind == 718 then
+		b1 = "W_AttackBothLight3"
+	end	
+	
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
         return 
@@ -8108,6 +8113,9 @@ function AttackBothLeftDash_onUpdate()
 	if sp_kind == 600 then
 		b1 = "W_AttackBothLight2"
 	end	
+	if sp_kind == 718 then
+		l1 = "W_AttackBothLeft2"
+	end		
     if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8134,6 +8142,10 @@ function AttackBothLeftStep_onUpdate()
 		b2 = "W_AttackBothHeavy2Start"
 	end
 	if sp_kind == 146 then
+		l1 = "W_AttackBothLeft2"
+	end	
+	if sp_kind == 718 then
+		b1 = "W_AttackBothLight3"
 		l1 = "W_AttackBothLeft2"
 	end	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
@@ -8384,7 +8396,7 @@ function AttackBothDash_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 then
+	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 718 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8443,7 +8455,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 then
+	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 then
 		b1 = "W_AttackBothLight2"
 	end	
 
