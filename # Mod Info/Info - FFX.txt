@@ -12,6 +12,12 @@ dmy:
 # New FFX
 #------------------------
 
+440155 Green Moonlight Wave (Alonne Sword)
+440156 Green Moonlight Wave Impact (Alonne Sword)
+
+440287 Scythe of Want ground aura?
+527006 Scythe of Want mine explosion
+
 440462 - 440466 Black Flame Arc
 
 854000 Blue Fire
@@ -64,6 +70,9 @@ dmy:
 854303 Rainbow Moonlight Sword
 854304 White Moonlight Sword
 854305 Blue Moonlight Sword
+
+855000 Green-Blackflame Trail
+855001 Green-Blackflame Buff
 
 856000 Deep Purple Fire Trial
 
@@ -298,6 +307,13 @@ dmy:
 #------------------------
 # Resource Bin
 #------------------------
+
+s8450.flver
+s8450_a.tpf
+s8450_a.tpf
+s8450_a.tpf All 4 are for 854520
+
+s41000.tpf frost s3000.tpf?
 
 s98000.flver Lucky MLGS Model
 s98000_a.tpf Lucky MLGS Texture
