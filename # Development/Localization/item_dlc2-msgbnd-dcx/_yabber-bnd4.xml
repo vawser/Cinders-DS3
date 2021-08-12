@@ -11,286 +11,286 @@
   <extended>0x04</extended>
   <files>
     <file>
+      <flags>0x40</flags>
       <id>10</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Goods.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>11</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Weapons.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>12</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Armor.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>13</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Rings.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>14</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Spells.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>18</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Characters.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>19</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Locations.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>20</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Goods.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>21</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Weapons.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>22</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Armor.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>23</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Rings.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>24</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Goods.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>25</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Weapons.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>26</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Armor.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>27</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Rings.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>28</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Spells.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>29</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Spells.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>210</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Goods - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>211</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Weapons - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>212</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Armor - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>213</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Rings - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>214</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Spells - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>215</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Characters - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>216</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Locations - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>217</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Goods - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>220</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Rings - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>221</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Goods - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>222</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Weapons - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>223</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Armor - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>224</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Rings - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>225</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Spells - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>226</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Spells - DLC1.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>250</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Goods - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>251</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Weapons - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>252</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Armor - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>253</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Rings - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>254</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Spells - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>255</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Characters - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>256</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Title - Locations - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>257</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Goods - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>260</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Rings - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>261</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Goods - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>262</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Weapons - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>263</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Armor - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>264</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Rings - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>265</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Summary - Spells - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
     <file>
+      <flags>0x40</flags>
       <id>266</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>msg\engUS\64bit\Description - Spells - DLC2.fmg</path>
-      <flags>0x40</flags>
     </file>
   </files>
 </bnd4>
