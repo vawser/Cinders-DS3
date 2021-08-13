@@ -100,10 +100,38 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
- 
+# Weapons
+- Changed moveset for the following weapon class:
+ - Claw 		
+  - Claws (Stance)
+  - Manikin Claws (Leaping Slash)
+  - Beast Claws (Bestial Pounce)
+
+ - Ultra Greatsword 	
+  - Fume Ultra Greatsword (Raime's Fury)
+  - Fume Slated Swords (Nadalia's Wrath), a paired weapon (Fume Ultra Greatsword with Fume Sword), Fume Sword (Straight Sword) is removed.
+
+- Switch left/right model of the Beast Claw.
+- Smooth several transitions between attacks for the new moveset.
+- Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
+- Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
+- Lances now have their own Weapon Class:
+ - Irithyll Lance
+ - Greatlance
+ - Rampart Golem Lance
+
+- Minor Moveset Changes:
+ - Rolling 1H R1 for Alternate Scythe moveset.
+ - 4th 1H R1 for Alternate Straight Sword moveset. 
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
+- Fixed several weapon hitbox:
+ - Giant's Halberd
+ - Bone Scythe
+ - Scythe of Nahr Alma
+- Fixed new oils vfx not showing up for dual weapons.
  
 #------------------------------
 # TODO

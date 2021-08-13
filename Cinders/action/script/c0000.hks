@@ -7540,7 +7540,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 or sp_kind == 727 or sp_kind == 713 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7584,7 +7584,7 @@ function AttackRightLightDash_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 724 or sp_kind == 729 or sp_kind == 726 or sp_kind == 712 or sp_kind == 733 or sp_kind == 736 or sp_kind == 146 then
+    if sp_kind == 281 or sp_kind == 724 or sp_kind == 729 or sp_kind == 726 or sp_kind == 712 or sp_kind == 733 or sp_kind == 736 or sp_kind == 146 or sp_kind == 713 then
         r1 = "W_AttackRightLight2"
     end
 	
@@ -7813,7 +7813,7 @@ function AttackRightBackstep_onUpdate()
     
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 282 or sp_kind == 724 or sp_kind == 726 or sp_kind == 728 or sp_kind == 729 or sp_kind == 712 or sp_kind == 736 then
+    if sp_kind == 282 or sp_kind == 726 or sp_kind == 728 or sp_kind == 729 or sp_kind == 712 or sp_kind == 736 then
         r1 = "W_AttackRightLight2"
     end
 	
@@ -8113,7 +8113,7 @@ function AttackBothLeftDash_onUpdate()
 	if sp_kind == 600 then
 		b1 = "W_AttackBothLight2"
 	end	
-	if sp_kind == 718 then
+	if sp_kind == 718 or sp_kind == 140 then
 		l1 = "W_AttackBothLeft2"
 	end		
     if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
@@ -8396,7 +8396,7 @@ function AttackBothDash_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 718 then
+	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 718 or sp_kind == 724 or sp_kind == 727 or sp_kind == 713 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8455,7 +8455,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 then
+	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 or sp_kind == 713 then
 		b1 = "W_AttackBothLight2"
 	end	
 
