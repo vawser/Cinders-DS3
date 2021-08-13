@@ -132,6 +132,7 @@ Finish following weapons:
  - Bone Scythe
  - Scythe of Nahr Alma
 - Fixed new oils vfx not showing up for dual weapons.
+- Fixed Katana unsheath animation.
  
 #------------------------------
 # TODO
