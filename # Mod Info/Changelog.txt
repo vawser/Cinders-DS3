@@ -113,6 +113,7 @@ Finish following weapons:
 
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
+- Adjusted the stamina costs of Ringed Knight Paired Greatsword.
 - Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
 - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
 - Lances now have their own Weapon Class:
@@ -124,6 +125,9 @@ Finish following weapons:
  - Rolling 1H R1 for Alternate Scythe moveset.
  - 4th 1H R1 for Alternate Straight Sword moveset. 
 
+# Npcs
+- Npc main weapon is now always +10.
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
@@ -133,6 +137,7 @@ Finish following weapons:
  - Scythe of Nahr Alma
 - Fixed new oils vfx not showing up for dual weapons.
 - Fixed Katana unsheath animation.
+- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the burst.
  
 #------------------------------
 # TODO

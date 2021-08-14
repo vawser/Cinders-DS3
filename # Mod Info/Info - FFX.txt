@@ -201,9 +201,10 @@ dmy:
 881431 Pontiff Beam with sound
 881432 Pontiff Beam impact with sound
 
-886102 Black-orange Fireball
-886103 Black-orange Fireball
-886104
+886102 Black-orange Fireball (Big)
+886103 Black-orange Fireball (Big Impact)
+886104 Black-orange Fireball (Small)
+886105 Black-orange Fireball (Small Impact)
 
 893011 Blue Lightning Buff
 893012 Blue Lightning Buff
