@@ -142,7 +142,6 @@
 <text id="324">Throw at foes to inflict physical damage and curse</text>
 <text id="325">Throw at foes to inflict physical damage and bleed</text>
 <text id="326">Throw at foes to inflict physical damage and frostbite</text>
-
 <text id="330">Applies fire to right-hand weapon</text>
 <text id="331">Applies lightning to right-hand weapon</text>
 <text id="332">%null%</text>
@@ -636,6 +635,10 @@
 <text id="4451">Coats left-hand weapon with living maggots</text>
 <text id="4460">Applies an aura of wind magic to the right-hand</text>
 <text id="4461">Applies an aura of wind magic to the left-hand</text>
+<text id="4470">Applies an aura of rainbow energy to the right-hand</text>
+<text id="4471">Applies an aura of rainbow energy to the left-hand</text>
+<text id="4480">Applies Nadalia's enchantment to the right-hand</text>
+<text id="4481">Applies Nadalia's enchantment to the left-hand</text>
 <text id="4500">Applies a mass of humanity to the head</text>
 <text id="4501">Applies a red aura to the eyes</text>
 <text id="4502">Applies crystals to the body</text>

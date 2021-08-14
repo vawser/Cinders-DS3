@@ -474,17 +474,26 @@
 9943    DeS Saint
 9944    DeS Thief
 9945    DeS Wizard
-9946    Ice Sanctum Knight
-9947    Imported
-9948    Ironclad
-9949    Velstadt
-9950    Armored Warrior
-9951    Eastern General
-9952    Genichiro
-9953    Okami
-9954    Wolf
+9946    Ice Sanctum Knight Set
+9947    Imported Set
+9948    Ironclad Set
+9949    Velstadt Set
+9950    Armored Warrior Set
+9951    Eastern General Set
+9952    Genichiro Set
+9953    Okami Set
+9954    Wolf Set
 
-9980	Blue Lothric Knight
-9981	Blue Lothric Knight (Open Helm)
-9982	Lothric Knight (Open Helm)
-
+9980	Elite Lothric Knight Set
+9981	Elite Lothric Knight Helm (Open Helm)
+9982	Lothric Knight Helm (Open Helm)
+9983	Consumed King's Knight Set
+9984 	Elite Deacon Set
+9985	Elite Soldier Set
+9986	Gertrude's Knight Set
+9987	Red Worker Set
+9988	Profaned Capital Handmaid Set
+9989	Burned Firelink Set Set
+9990	Overgrown Lothric Knight Set
+9991	Herald Set (Lowered Visor)
+9992	Abyss Watcher Helm (Only Cap)

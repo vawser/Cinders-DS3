@@ -125,6 +125,15 @@ Finish following weapons:
  - Rolling 1H R1 for Alternate Scythe moveset.
  - 4th 1H R1 for Alternate Straight Sword moveset. 
 
+# Consumables
+- Adjusted several oil visual.
+- Added the following oils:
+ - Psychedelic Oil
+ - Brume Oil
+
+# Spells
+- Adjusted several weapon buffs visual.
+
 # Npcs
 - Npc main weapon is now always +10.
 
@@ -137,7 +146,7 @@ Finish following weapons:
  - Scythe of Nahr Alma
 - Fixed new oils vfx not showing up for dual weapons.
 - Fixed Katana unsheath animation.
-- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the burst.
+- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
  
 #------------------------------
 # TODO

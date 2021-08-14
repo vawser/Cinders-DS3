@@ -158,7 +158,6 @@
 <text id="324">Cursed Knife</text>
 <text id="325">Lacerating Knife</text>
 <text id="326">Frigid Knife</text>
-
 <text id="330">Charcoal Pine Resin</text>
 <text id="331">Gold Pine Resin</text>
 <text id="332">%null%</text>
@@ -631,6 +630,10 @@
 <text id="4451">Off-hand Rotten Oil</text>
 <text id="4460">Gust Oil</text>
 <text id="4461">Off-hand Gust Oil</text>
+<text id="4470">Psychedelic Oil</text>
+<text id="4471">Off-hand Psychedelic Oil</text>
+<text id="4480">Brume Oil</text>
+<text id="4481">Off-hand Brume Oil</text>
 <text id="4500">Writ of Humanity</text>
 <text id="4501">Writ of Anger</text>
 <text id="4502">Writ of Crystallization</text>

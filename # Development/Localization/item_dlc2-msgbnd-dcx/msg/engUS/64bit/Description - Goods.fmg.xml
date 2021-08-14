@@ -620,7 +620,6 @@ Scales with Luck.
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
-
 <text id="330">Black charcoal-like pine resin.
 Temporarily applies fire to right-hand weapon.
 
@@ -2417,6 +2416,18 @@ Applies an aura of wind magic to the right-hand.</text>
 <text id="4461">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
 Applies an aura of wind magic to the left-hand.</text>
+<text id="4470">A weapon oil containing latent magic, used to change the apperance of weaponry.
+
+Applies an aura of rainbow energy to the left-hand.</text>
+<text id="4471">A weapon oil containing latent magic, used to change the apperance of weaponry.
+
+Applies an aura of rainbow energy to the left-hand.</text>
+<text id="4480">A weapon oil containing latent magic, used to change the apperance of weaponry.
+
+Applies Nadalia's enchantment to the left-hand.</text>
+<text id="4481">A weapon oil containing latent magic, used to change the apperance of weaponry.
+
+Applies Nadalia's enchantment to the left-hand.</text>
 <text id="4500">A writ containing latent magic, used to apply magical effects to one's person.
 
 Applies a mass of humanity to the head.</text>
