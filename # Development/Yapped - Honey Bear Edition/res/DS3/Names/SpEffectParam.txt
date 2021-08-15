@@ -272,6 +272,7 @@
 3040 [Item] Green Blossom
 3041 [DLC] Fragment of mushroom
 3042 [Item] Budding Green Blossom
+3045 [Item] Spellbound Blossom
 3050 bleeding treatment [State recovery]
 3051 bleeding treatment [resistance recovery]
 3060 Poison treatment [State recovery]
@@ -4545,6 +4546,28 @@
 160700660 Celeritas Stem
 160700670 Veloxi Moss
 160700680 Holy Water Urn
+160700690 Spellbound Charcoal Resin - Right Hand
+160700691 Spellbound Charcoal Resin - Left Hand
+160700700 Spellbound Pale Resin - Right Hand
+160700701 Spellbound Pale Resin - Left Hand
+160700710 Spellbound Gold Resin - Right Hand
+160700711 Spellbound Gold Resin - Left Hand
+160700720 Spellbound Human Resin - Right Hand
+160700721 Spellbound Human Resin - Left Hand
+160700730 Spellbound Rotten Resin - Right Hand
+160700731 Spellbound Rotten Resin - Right Hand [AttackOccurance]
+160700732 Spellbound Rotten Resin - Left Hand
+160700733 Spellbound Rotten Resin - Left Hand [AttackOccurance]
+160700740 Spellbound Carthus Rouge - Right Hand
+160700741 Spellbound Carthus Rouge - Right Hand [AttackOccurance]
+160700742 Spellbound Carthus Rouge - Left Hand
+160700743 Spellbound Carthus Rouge - Left Hand [AttackOccurance]
+160700750 Spellbound Frozen Resin - Right Hand
+160700751 Spellbound Frozen Resin - Right Hand [AttackOccurance]
+160700752 Spellbound Frozen Resin - Left Hand
+160700753 Spellbound Frozen Resin - Left Hand [AttackOccurance]
+160700760 Spellbound Pellet
+160700770 Spellbound Mossfruit
 160700999 ### Elixirs ###
 160701000 Cleansing Potion - Trigger
 160701010 Cleansing Potion - Clear 150
@@ -5378,7 +5401,8 @@
 180000130 Poison - Poison Bolt
 180000150 Toxic - Gravelord Sword
 180000151 Toxic - Gravelord Sword (Infusion)
-180000170 Poison - Poison Throwing Knife
+180000170 Poison - Poisonous Knife
+180000171 Poison - Spellbound Poisonous Knife
 180000180 Poison - Dung Pie
 180000190 Poison - Ceaseless Dung Pie
 180000200 Poison - Makoto
@@ -5489,6 +5513,7 @@
 180010550 Bleed - Scraping Spear
 180010551 Bleed - Scraping Spear (Infusion)
 180010560 Bleed - Throwing Knife
+180010561 Bleed - Spellbound Lacerating Knife
 180019999 ### Frost ##
 180020000 Frost - Normal (Infusion)
 180020001 Frost - Quick (Infusion)
@@ -5526,6 +5551,7 @@
 180020190 Frost - Frostfall
 180020191 Frost - Frostfall (Infusion)
 180020200 Frost - Throwing Knife
+180020201 Frost - Spellbound Frigid Knife
 180021000 Frost - Stamina and Resistance Penalties
 180021001 Frost - Stamina Reduction (Old)
 180021010 Frost - Disable Frost Inflict for Enemy
@@ -5581,6 +5607,7 @@
 180030270 Curse - Sprayer Sidearm
 180030280 Curse - Fist Sidearm
 180030290 Curse - Throwing Knife
+180030291 Curse - Spellbound Cursed Knife
 199999999 ### Infusions - Passive ####
 200000100 Lethal
 200000200 Curse

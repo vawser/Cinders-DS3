@@ -136,7 +136,19 @@ Finish following weapons:
 - Added the following oils:
  - Psychedelic Oil
  - Brume Oil
-- Removed Kukri and Spellbound Kukri.
+- All damage buffing resin consumables now add 100 damage.
+- Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
+- Added new spellbound item versions of all throwing knives and the other kind of firebombs/urns.
+- Added new spellbound item versions of each resin, they add 100 damage + 10% and last 10 seconds, aux resins have higher build up and last 20 seconds, and both types use the bundle animation.
+- Added Spellbound Pellet, grants immunity to damage for 5 seconds.
+- Added Spellbound Mossfruit, grants immunity to status effects for 10 seconds.
+- Changed how the spellbound items work:
+ - Removed their Luck scaling and made them better by default.
+ - They require to be charged to be used.
+ - Charges are gained by attacking enemies with any melee weapon, the amount gained usually depends on the weapon class.
+ - When there are not enough charges the item's icon darkens and can't be used.
+ - The amount of charges required varies per item.
+ - Charges can be "stored" to use the items more than once consecutively, but there is a max limit.
 
 - Added the following illusion/insignia:
  - Elite Lothric Knight Set

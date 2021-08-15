@@ -4109,18 +4109,41 @@
 223000500 Siegbrau
 223000501 Siegbrau [Hit]
 223999999 ### Items - Tools ###
-224000000 Spellbound Bomb
-224000001 Spellbound Bomb [Hit]
-224000002 Spellbound Bomb [Hit]
-224000003 Spellbound Bomb [Hit]
-224000100 Spellbound Urn
-224000101 Spellbound Urn [Emitter]
-224000102 Spellbound Urn [Hit]
-224000103 Spellbound Urn [Hit]
-224000104 Spellbound Urn [Hit]
-224000105 Spellbound Urn [Hit]
-224000106 Spellbound Urn [Hit]
-224000200 Spellbound Knife
+224000000 Spellbound Firebomb
+224000001 Spellbound Firebomb [Hit]
+224000002 Spellbound Firebomb [Hit]
+224000003 Spellbound Firebomb [Hit]
+224000010 Spellbound Black Firebomb
+224000011 Spellbound Black Firebomb [Hit]
+224000012 Spellbound Black Firebomb [Hit]
+224000013 Spellbound Black Firebomb [Hit]
+224000020 Spellbound Holy Water Urn
+224000021 Spellbound Holy Water Urn [Hit]
+224000022 Spellbound Holy Water Urn [Hit]
+224000023 Spellbound Holy Water Urn [Hit]
+224000030 Spellbound Witching Urn
+224000031 Spellbound Witching Urn [Hit]
+224000032 Spellbound Witching Urn [Hit]
+224000033 Spellbound Witching Urn [Hit]
+224000040 Spellbound Hexing Urn
+224000041 Spellbound Hexing Urn [Hit]
+224000042 Spellbound Hexing Urn [Hit]
+224000100 Spellbound Lightning Urn
+224000101 Spellbound Lightning Urn [Emitter]
+224000102 Spellbound Lightning Urn [Hit]
+224000103 Spellbound Lightning Urn [Hit]
+224000104 Spellbound Lightning Urn [Hit]
+224000105 Spellbound Lightning Urn [Hit]
+224000106 Spellbound Lightning Urn [Hit]
+224000200 Spellbound Throwing Knife
+224000210 Spellbound Throwing Knife - Magic
+224000220 Spellbound Throwing Knife - Fire
+224000230 Spellbound Throwing Knife - Lightning
+224000240 Spellbound Throwing Knife - Dark
+224000250 Spellbound Throwing Knife - Curse
+224000260 Spellbound Throwing Knife - Poison
+224000270 Spellbound Throwing Knife - Bleed
+224000280 Spellbound Throwing Knife - Frost
 224000300 Spellbound Kukri
 224000400 Spellbound Dung
 224000401 Spellbound Dung [Hit]

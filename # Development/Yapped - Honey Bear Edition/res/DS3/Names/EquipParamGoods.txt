@@ -538,14 +538,35 @@
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###
-5400 Spellbound Bomb
-5410 Spellbound Urn
+5400 Spellbound Firebomb
+5401 Spellbound Black Firebomb
+5402 Spellbound Holy Water Urn
+5403 Spellbound Witching Urn
+5404 Spellbound Hexing Urn
+5410 Spellbound Lightning Urn
 5420 Spellbound Throwing Knife
+5421 Spellbound Sorcerous Knife
+5422 Spellbound Flaming Knife
+5423 Spellbound Sparking Knife
+5424 Spellbound Abyssal Knife
+5425 Spellbound Poisonous Knife
+5426 Spellbound Lacerating Knife
+5427 Spellbound Cursed Knife
+5428 Spellbound Frigid Knife
 5430 Spellbound Kukri
 5440 Spellbound Dung
 5450 Spellbound Skull
 5460 Spellbound Blossom
 5470 Spellbound Powder
+5480 Spellbound Charcoal Resin
+5481 Spellbound Pale Resin
+5482 Spellbound Gold Resin
+5483 Spellbound Human Resin
+5484 Spellbound Rotten Resin
+5485 Spellbound Carthus Rouge
+5486 Spellbound Frozen Resin
+5490 Spellbound Pellet
+5491 Spellbound Mossfruit
 5499 ### Items ###
 5500 Titanite Fragment
 5501 Inferi Petal

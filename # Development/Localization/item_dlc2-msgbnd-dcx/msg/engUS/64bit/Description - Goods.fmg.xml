@@ -2690,19 +2690,79 @@ Whilst embered, beckon a local companion to the player. Once present, they will 
 Once defeated, you must rest at a bonfire to revive them.</text>
 <text id="5400">Bisque urn filled with black powder.
 Explodes, inflicting fire damage.
-Scales with Luck.
+Does not scale with any stat.
 
-Uniquely crafted by Occultist Grudore, this firebomb draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this firebomb draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5401">More powerful bisque urn filled with special black
+powder. Explodes, inflicting great fire damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this firebomb draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5402">Powerful bisque urn filled with holy water.
+Explodes, inflicting physical damage and reducing all absorptions by 10% for 10 seconds.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5403">Powerful bisque urn filled with magical energies. 
+Explodes, inflicting great magic damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5404">Powerful bisque urn filled with dark energies. 
+Explodes, inflicting great dark damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5410">Explosive lightning urn.
 Explodes upon contact, inflicting lightning damage.
-Scales with Luck.
+Does not scale with any stat.
 
-Uniquely crafted by Occultist Grudore, this urn draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5420">Small throwing knife.
 Throw at enemies to inflict damage.
-Scales with Luck.
+Does not scale with any stat.
 
-Uniquely crafted by Occultist Grudore, this throwing knife draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5421">Small throwing knife imbued with magic.
+Throw at enemies to inflict magic damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5422">Small throwing knife imbued with fire.
+Throw at enemies to inflict fire damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5423">Small throwing knife imbued with lightning.
+Throw at enemies to inflict lightning damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5424">Small throwing knife imbued with darkness.
+Throw at enemies to inflict dark damage.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5425">A throwing knife dipped in poison.
+Throw at enemies to deal damage and inflict 60 Poison.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5426">A lacerating throwing knife.
+Throw at enemies to deal damage and inflict 40 Bleed.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5427">A throwing knife dipped in the abyss.
+Throw at enemies to deal damage and inflict 60 Curse.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5428">A throwing knife dipped in frost.
+Throw at enemies to deal damage and inflict 60 Frost.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5430">Small throwing machete.
 Throw at enemies to cause bleeding damage.
 Scales with Luck.
@@ -2711,23 +2771,66 @@ Uniquely crafted by Occultist Grudore, this kukri draws upon its wielder's focus
 <text id="5440">Dried fecal waste material, moist on the inside.
 
 Throw at enemy to inflict 60 Poison against them and yourself.
-Scales with Luck.
+Does not scale with any stat.
 
-Uniquely crafted by Occultist Grudore, this dung pie draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this dung pie draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5450">A skull resplendent in the scent of souls.
 
 Throw to shatter, spreading souls which attract enemies. Not effective for all foes.
 
-Uniquely crafted by Occultist Grudore, this skull draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this skull draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5460">Green weed, shaped like a flower.
 Temporary boost to stamina recovery speed.
 
-Uniquely cultivated by Occultist Grudore, this blossom draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely cultivated by Occultist Grudore, this blossom draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5470">Lightly enchanted golden powder.
 
 Repairs equipped weapons and armor, as long as they haven't already broken.
 
-Uniquely crafted by Occultist Grudore, this powder draws upon its wielder's focus, allowing for endless usage.</text>
+Uniquely crafted by Occultist Grudore, this powder draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5480">Black charcoal-like pine resin.
+Quickly applies fire to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5481">Pale pine resin that faintly glimmers.
+Quickly applies magic to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5482">Rare pine resin which emits golden sparks.
+Quickly applies lightning to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5483">Charcoal pine resin rotted with human body fluids.
+Quickly applies dark to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5484">Pine resin that has rotted and turned poisonous.
+Likely rotten from the start.
+
+Quickly applies 20 poison to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5485">Highly viscous scarlet plant secretions.
+
+Quickly applies 20 bleed to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this substance draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5486">Pine resin that has frozen and turned ice-cold.
+Likely frozen from the start.
+
+Quickly applies 20 frost to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5490">Medicinal pellet made from crushed insects.
+
+Temporarily grants immunity to damage for 5 seconds.
+
+Uniquely crafted by Occultist Grudore, this pellet draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5491">A small clump of mossfruit.
+
+Temporarily grants immunity to status effects for 10 seconds.
+
+Uniquely crafted by Occultist Grudore, this mossfruit draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5500">A fragment of titanite.
 
 Increases poise by 50% for 60 seconds.

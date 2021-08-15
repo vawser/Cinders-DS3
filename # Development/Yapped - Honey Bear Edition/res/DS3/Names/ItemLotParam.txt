@@ -962,7 +962,7 @@
 3100280 [Corpse] Soul of a Deserted Corpse
 3100281 [Corpse] Lightning Urn
 3100290 [Corpse] Soul of a Deserted Corpse
-3100291 [Corpse] Charcoal Pine Bundle
+3100291 [Corpse] Charcoal Pine Resin
 3100300 [Corpse] Soul of a Deserted Corpse
 3100301 [Corpse] Ember
 3100310 [Corpse] Soul of a Deserted Corpse
@@ -1088,7 +1088,7 @@
 3200130 [Corpse] Soul of a Nameless Soldier
 3200131 [Corpse] Dragon Eye
 3200140 [Corpse] Soul of a Nameless Soldier
-3200141 [Corpse] Gold Pine Bundle
+3200141 [Corpse] Gold Pine Resin
 3200150 [Corpse] Soul of a Nameless Soldier
 3200151 [Corpse] Elizabeth Mushroom
 3200160 [Corpse] Large Soul of a Nameless Soldier
@@ -1565,7 +1565,7 @@
 3700230 [Corpse] Soul of a Nameless Soldier
 3700231 [Corpse] Goldenfruit Balm
 3700240 [Corpse] Soul of a Nameless Soldier
-3700241 [Corpse] Gold Pine Bundle
+3700241 [Corpse] Gold Pine Resin
 3700250 [Corpse] Large Soul of a Nameless Soldier
 3700251 [Corpse] Lightning Urn
 3700260 [Corpse] Soul of a Nameless Soldier
@@ -1709,7 +1709,7 @@
 3800190 [Corpse] Soul of an Unknown Traveler
 3800191 [Corpse] Alluring Skull
 3800200 [Corpse] Soul of a Nameless Soldier
-3800201 [Corpse] Charcoal Pine Bundle
+3800201 [Corpse] Charcoal Pine Resin
 3800210 [Corpse] Soul of a Crestfallen Knight
 3800211 [Corpse] Siegbräu
 3800220 [Corpse] Soul of a Nameless Soldier
@@ -2486,10 +2486,9 @@
 12399999 ### Peasant Hollow ###
 12400000 [Default] Firebomb
 12400001 [Default] Charcoal Pine Resin
-12400002 [Default] Charcoal Pine Bundle
-12400003 [Default] Rubbish
-12400004 [Default] Lifegem
-12400005 [Default] Titanite Shard
+12400002 [Default] Rubbish
+12400003 [Default] Lifegem
+12400004 [Default] Titanite Shard
 12409999 ### Jailer Hollow ###
 12410000 [Default] Firebomb
 12410001 [Default] Magic Gem

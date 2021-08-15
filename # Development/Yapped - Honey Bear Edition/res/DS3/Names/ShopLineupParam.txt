@@ -333,8 +333,6 @@
 36060 [Bonfire - Cleansing Chapel] Human Pine Resin
 36061 [Bonfire - Catacombs of Carthus] Carthus Rouge
 36062 [Bonfire - Irithyll Dungeon] Pale Pine Resin
-36063 [Bonfire - Tower Basement] Charcoal Pine Bundle
-36064 [Bonfire - Great Belfry] Gold Pine Bundle
 36065 [Bonfire - Farron Keep] Rotten Pine Resin
 36066 [Bonfire - Default] Homeward Bone
 36067 [Bonfire - Default] Prism Stone
@@ -954,9 +952,8 @@
 230005 [Crestfallen Merchant] Greataxe
 230006 [Crestfallen Merchant] Black Firebomb
 230007 [Crestfallen Merchant] Green Blossom
-230008 [Crestfallen Merchant] Charcoal Pine Bundle
-230009 [Crestfallen Merchant] Charcoal Pine Resin
-230010 [Crestfallen Merchant] Ring of Calamity
+230008 [Crestfallen Merchant] Charcoal Pine Resin
+230009 [Crestfallen Merchant] Ring of Calamity
 240000 [Astrologer Lillian - Sorcery] Farron Dart
 240001 [Astrologer Lillian - Sorcery] Soul Arrow
 240002 [Astrologer Lillian - Sorcery] Homing Soulmass
@@ -1538,13 +1535,34 @@
 280015 [Ritualist Ellie] Offering of Devotion
 280016 [Ritualist Ellie] Offering of Fervor
 280100 [Ritualist Ellie] Opus of Rituals
-290000 [Occultist Grudore] Spellbound Bomb
+290000 [Occultist Grudore] Spellbound Firebomb
 290001 [Occultist Grudore] Spellbound Throwing Knife
 290020 [Occultist Grudore - Farron Coal] Spellbound Blossom
+290021 [Occultist Grudore - Farron Coal] Spellbound Flaming Knife
+290022 [Occultist Grudore - Farron Coal] Spellbound Poisonous Knife
+290023 [Occultist Grudore - Farron Coal] Spellbound Black Firebomb
+290024 [Occultist Grudore - Farron Coal] Spellbound Charcoal Resin
+290025 [Occultist Grudore - Farron Coal] Spellbound Rotten Resin
 290040 [Occultist Grudore - Sage's Coal] Spellbound Powder
 290041 [Occultist Grudore - Sage's Coal] Spellbound Skull
-290060 [Occultist Grudore - Giant's Coal] Spellbound Urn
+290042 [Occultist Grudore - Sage's Coal] Spellbound Sorcerous Knife
+290043 [Occultist Grudore - Sage's Coal] Spellbound Frigid Knife
+290044 [Occultist Grudore - Sage's Coal] Spellbound Witching Urn
+290045 [Occultist Grudore - Sage's Coal] Spellbound Pale Resin
+290046 [Occultist Grudore - Sage's Coal] Spellbound Frozen Resin
+290060 [Occultist Grudore - Giant's Coal] Spellbound Lightning Urn
+290061 [Occultist Grudore - Giant's Coal] Spellbound Sparking Knife
+290062 [Occultist Grudore - Giant's Coal] Spellbound Holy Water Urn
+290063 [Occultist Grudore - Giant's Coal] Spellbound Gold Resin
+290064 [Occultist Grudore - Giant's Coal] Spellbound Mossfruit
+290065 [Occultist Grudore - Giant's Coal] Spellbound Pellet
 290080 [Occultist Grudore - Profaned Coal] Spellbound Dung
+290081 [Occultist Grudore - Profaned Coal] Spellbound Abyssal Knife
+290082 [Occultist Grudore - Profaned Coal] Spellbound Cursed Knife
+290083 [Occultist Grudore - Profaned Coal] Spellbound Hexing Urn
+290084 [Occultist Grudore - Profaned Coal] Spellbound Human Resin
+290085 [Occultist Grudore - Profaned Coal] Spellbound Lacerating Knife
+290086 [Occultist Grudore - Profaned Coal] Spellbound Carthus Rouge
 300000 [Erstwhile George] Gallant Helm
 300001 [Erstwhile George] Gallant Armor
 300002 [Erstwhile George] Gallant Gloves
@@ -3388,8 +3406,6 @@
 804099 [Gauntlet] Human Pine Resin
 804100 [Gauntlet] Carthus Rouge
 804101 [Gauntlet] Pale Pine Resin
-804102 [Gauntlet] Charcoal Pine Bundle
-804103 [Gauntlet] Gold Pine Bundle
 804104 [Gauntlet] Rotten Pine Resin
 804105 [Gauntlet] Frozen Pine Resin
 804106 [Gauntlet] Weapon Token

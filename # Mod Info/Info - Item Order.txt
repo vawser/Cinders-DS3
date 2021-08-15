@@ -96,44 +96,65 @@ Sort ID	Name
 6182	Throwing Knife
 6183	Spellbound Throwing Knife
 6184	Sorcerous Knife
-6185	Flaming Knife
-6186	Sparking Knife
-6187	Abyssal Knife
-6190	Poisonous Knife
-6195	Cursed Knife
+6185	Spellbound Sorcerous Knife
+6186	Flaming Knife
+6187	Spellbound Flaming Knife
+6188	Sparking Knife
+6189	Spellbound Sparking Knife
+6190	Abyssal Knife
+6191	Spellbound Abyssal Knife
+6192	Poisonous Knife
+6193	Spellbound Poisonous Knife
+6194	Cursed Knife
+6195	Spellbound Cursed Knife
 6196	Lacerating Knife
-6197	Frigid Knife
+6197	Spellbound Lacerating Knife
+6198	Frigid Knife
+6199	Spellbound Frigid Knife
 6200	Kukri
 6201	Spellbound Kukri
 6202	Throwing Frying Pan
 6204	Church Guardian Shiv
 6205	Holy Water Urn
+6206	Spellbound Holy Water Urn
 6210	Firebomb
-6211	Spellbound Bomb
+6211	Spellbound Firebomb
 6212	Rope Firebomb
 6220	Black Firebomb
+6221	Spellbound Black Firebomb
 6230	Rope Black Firebomb
 6240	Witching Urn
+6241	Spellbound Witching Urn
 6250	Lightning Urn
-6251	Spellbound Urn
+6251	Spellbound Lightning Urn
 6255	Hexing Urn
+6256	Spellbound Hexing Urn
 6260	Dung Pie
 6261	Spellbound Dung
 6270	Stalk Dung Pie
 6280	Charcoal Pine Resin
+6281	Spellbound Charcoal Resin
 6290	Charcoal Pine Bundle
 6300	Gold Pine Resin
+6301	Spellbound Gold Resin
 6310	Gold Pine Bundle
 6320	Pale Pine Resin
+6321	Spellbound Pale Resin
 6330	Human Pine Resin
+6331	Spellbound Human Resin
 6340	Rotten Pine Resin
+6341	Spellbound Rotten Resin
 6350	Carthus Rouge
+6351	Spellbound Carthus Rouge
 6360	Frozen Pine Resin
+6361	Spellbound Frozen Resin
 6400	Blue Bug Pellet
 6410	Red Bug Pellet
 6420	Yellow Bug Pellet
 6430	Black Bug Pellet
+6435	Spellbound Pellet
 6440	Mossfruit
+6441	Spellbound Mossfruit
 6450	Brightbug
 6460	Alluring Skull
 6470	Spellbound Skull
