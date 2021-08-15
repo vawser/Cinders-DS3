@@ -11,72 +11,8 @@
 63 Long distance Magic: Drilled Flames _ Parents
 64 Long distance Magic: Drilled Flames _ Search Bullets
 65 Long distance Magic: Drilled Fire Child
-75 Firebomb [Hit] [Hit]
-76 Firebomb [Hit] [Hit] [Hit]
-77 Black Firebomb [Hit] [Hit]
-78 Black Firebomb [Hit] [Hit] [Hit]
-100 Kukri
-101 Poison-throwing knives
-110 Firebomb
-111 Firebomb [Hit]
-112 [For debugging] flame bottle [Parent]
-113 [For debugging] fire bottle [child]
-115 Black Firebomb
-116 Black Firebomb [Hit]
-120 Alluring Skull
-121 Alluring Skull [Hit]
-122 Alluring Skull
-123 Alluring Skull [Hit]
-130 Prism Stone
-131 Prism Stone [Hit]
-132 Prism Stone [Hit]
-150 Dung Pie
-151 Dung Pie [Hit]
-160 Undead Hunter Charm
-161 Undead Hunter Charm [Hit]
-170 Bloodred Moss Clump
-171 Bloodred Moss Clump
-180 Purple Moss Clump
-181 Purple Moss Clump
-190 Blooming Purple Moss Clump
-191 Blooming Purple Moss Clump
-195 Rime-blue Moss Clump
-196 Rime-blue Moss Clump
-210 Siegbrau
-211 Siegbrau [Hit]
-220 Divine Blessing
-221 Divine Blessing
-222 Divine Blessing
-223 Divine Blessing
-225 Divine Blessing
-226 Divine Blessing
-230 Dragon Head Stone
-235 Twinkling Dragon Head Stone
-236 Twinkling Dragon Head Stone - Head [Hit]
-240 Dragon Torso Stone - Roar
-245 Twinkling Dragon Torso Stone
-246 Twinkling Dragon Torso Stone [Hit]
-250 Lightning Urn
-251 Lightning Urn [Hit]
-252 Lightning Urn
-253 Lightning Urn
-254 Lightning Urn
-255 Lightning Urn
-256 Lightning Urn
-270 Duel Charm
-271 Duel Charm [Hit]
-300 Throwing Knife
-301 Poison Throwing Knife
-302 Lacerating Knife
-305 Church Guardian Shiv
 310 Quick Flame Bottle [parent] Search Bullets
 315 Quick Black Flame jar [parent] Search Bullets
-320 Rope Firebomb
-321 Rope Firebomb [Hit]
-330 Rope Black Firebomb
-331 Rope Black Firebomb [Hit]
-340 Stalk Dung Pie
-341 Stalk Dung Pie [Hit]
 380 Judicator - Ledo
 381 Judicator - Ledo
 382 Judicator - Ledo
@@ -85,16 +21,6 @@
 385 Judicator - Ledo
 386 Judicator - Ledo
 387 Judicator - Ledo
-400 [DLC] Talking stone a [fly]
-401 [DLC] Talking stone a [talking]
-405 [DLC] talking stone b [Fly]
-406 [DLC] talking stone b [talking]
-410 [DLC] Talking stone c [fly]
-411 [DLC] Talking stone c [talking]
-415 [DLC] talking stone d [fly]
-416 [DLC] Talking stone D [speaking]
-420 [DLC] Talking stone e [fly]
-421 [DLC] Talking stone e [talking]
 500 Standard Arrow
 501 Standard Arrow
 502 Standard Arrow - Pharis Triple-shot
@@ -343,18 +269,6 @@
 2102 Darkmoon Volley
 2103 Darkmoon Volley [Hit]
 2104 Darkmoon Volley [Hit]
-3000 Witching Urn
-3010 Witching Urn [Hit]
-3020 Witching Urn [Hit]
-3030 Witching Urn [Hit]
-3100 Hexing Urn
-3101 Hexing Urn [Hit]
-3102 Hexing Urn [Hit]
-3200 Holy Water Urn
-3210 Holy Water Urn [Hit]
-3220 Holy Water Urn [Hit]
-3230 Holy Water Urn [Hit]
-3300 Throwing Frying Pan
 9000 Bomb ritual: Explosive bullets around
 9100 Bomb ritual: Target Search Bullets _ host lv.20 or less
 9101 Bomb ritual: Target Search Bullets _ host lv.40 or less
@@ -1524,6 +1438,7 @@
 3140760 [Ancient Wyvern] ?
 3140770 [Ancient Wyvern] ?
 3160700 [Dragonslayer Armour] Wind Shockwave
+3161700 [Cathedral Guardian] Wrath of the Gods
 3210020 [Poisonhorn Bug] Toxic Mist
 3220040 [Rock Lizard] Flame Breath
 3230010 [?] ?
@@ -2401,8 +2316,9 @@
 7530558 [The Marauder]
 7530559 [The Marauder] Heavenly Thunder - Low
 7530604 [The Marauder]
-7530800 [The Marauder] Chaos Beam
-7530801 [The Marauder] Chaos Beam [Hit]
+7530800 [The Marauder] Bursting Fireball
+7530801 [The Marauder] Bursting Fireball [Hit]
+7530802 [The Marauder] Bursting Fireball [Hit]
 7530903 [The Marauder]
 7530904 [The Marauder]
 7530910 [The Marauder]
@@ -3056,7 +2972,8 @@
 100050714 [Bewitched Alonne Sword] Seppuku - Black Fire Trail [Hit]
 100050715 [Bewitched Alonne Sword] Seppuku - Black Fire Trail [Hit]
 100050910 Bewitched Alonne Sword - Seppuku - Green Wave
-100061700 [Greatsword of Judgment] Stance of Judgment
+100061700 [Greatsword of Judgment] Stance of Judgment (Wave)
+100061750 [Greatsword of Judgment] Stance of Judgment (Beam)
 100061800 [Profaned Greatsword] Strong Attack 1H
 100061801 [Profaned Greatsword] Strong Attack 1H [Hit]
 100061802 [Profaned Greatsword] Strong Attack 1H [Hit]
@@ -3446,6 +3363,12 @@
 104930702 [Follower Torch - Holy] Breathe Fire (Spit)
 104930710 [Follower Torch - Holy] Breathe Fire
 104930711 [Follower Torch - Holy] Breathe Fire [Hit]
+104931000 [Fume Ultra Greatsword] Black Fire Balls
+104931050 [Fume Ultra Greatsword] Kick - Bullet
+104931055 [Fume Ultra Greatsword] Kick - Bullet
+104931100 [Fume Slated Swords] Burst
+104931110 [Fume Slated Swords] Vertical Wave #1
+104931120 [Fume Slated Swords] Vertical Wave #2
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -4108,6 +4031,116 @@
 221006601 Fulgurius - Bullet [Hit]
 221006700 Vitainus - Bullet
 221006701 Vitainus - Bullet [Hit]
+221999999 ### Items - Thrown ###
+222000000 Throwing Knife - Normal
+222000010 Throwing Knife - Magic
+222000020 Throwing Knife - Fire
+222000030 Throwing Knife - Lightning
+222000040 Throwing Knife - Dark
+222000050 Throwing Knife - Curse
+222000060 Throwing Knife - Poison
+222000070 Throwing Knife - Bleed
+222000080 Throwing Knife - Frost
+222000100 Kukri
+222000200 Church Guardian Shiv
+222001000 Firebomb
+222001001 Firebomb [Hit]
+222001002 Firebomb [Hit]
+222001003 Firebomb [Hit]
+222001010 Black Firebomb
+222001011 Black Firebomb [Hit]
+222001012 Black Firebomb [Hit]
+222001013 Black Firebomb [Hit]
+222001020 Lightning Urn
+222001021 Lightning Urn [Emitter]
+222001022 Lightning Urn [Hit]
+222001023 Lightning Urn [Hit]
+222001024 Lightning Urn [Hit]
+222001025 Lightning Urn [Hit]
+222001026 Lightning Urn [Hit]
+222001030 Witching Urn
+222001031 Witching Urn [Hit]
+222001032 Witching Urn [Hit]
+222001033 Witching Urn [Hit]
+222001040 Hexing Urn
+222001041 Hexing Urn [Hit]
+222001042 Hexing Urn [Hit]
+222001050 Holy Water Urn
+222001051 Holy Water Urn [Hit]
+222001052 Holy Water Urn [Hit]
+222001053 Holy Water Urn [Hit]
+222001100 Rope Firebomb
+222001101 Rope Firebomb [Hit]
+222001102 Rope Firebomb [Hit]
+222001103 Rope Firebomb [Hit]
+222001200 Rope Black Firebomb
+222001201 Rope Black Firebomb [Hit]
+222001202 Rope Black Firebomb [Hit]
+222001203 Rope Black Firebomb [Hit]
+222001400 Dung Pie
+222001401 Dung Pie [Hit]
+222001500 Stalk Dung Pie
+222001501 Stalk Dung Pie [Hit]
+222002000 Throwing Frying Pan
+222004000 Undead Hunter Charm
+222004001 Undead Hunter Charm [Hit]
+222005000 Alluring Skull
+222005001 Alluring Skull [Hit]
+222006000 Duel Charm
+222006001 Duel Charm [Hit]
+222006070 Prism Stone
+222006071 Prism Stone [Hit]
+222006072 Prism Stone [Hit]
+222999999 ### Items - Consumed ###
+223000000 Divine Blessing
+223000001 Divine Blessing [Hit]
+223000002 Divine Blessing [Hit]
+223000003 Divine Blessing [Hit]
+223000004 Divine Blessing [Hit]
+223000005 Divine Blessing [Hit]
+223000100 Bloodred Moss Clump
+223000101 Bloodred Moss Clump
+223000200 Purple Moss Clump
+223000201 Purple Moss Clump
+223000300 Blooming Purple Moss Clump
+223000301 Blooming Purple Moss Clump
+223000400 Rime-blue Moss Clump
+223000401 Rime-blue Moss Clump
+223000500 Siegbrau
+223000501 Siegbrau [Hit]
+223999999 ### Items - Tools ###
+224000000 Spellbound Bomb
+224000001 Spellbound Bomb [Hit]
+224000002 Spellbound Bomb [Hit]
+224000003 Spellbound Bomb [Hit]
+224000100 Spellbound Urn
+224000101 Spellbound Urn [Emitter]
+224000102 Spellbound Urn [Hit]
+224000103 Spellbound Urn [Hit]
+224000104 Spellbound Urn [Hit]
+224000105 Spellbound Urn [Hit]
+224000106 Spellbound Urn [Hit]
+224000200 Spellbound Knife
+224000300 Spellbound Kukri
+224000400 Spellbound Dung
+224000401 Spellbound Dung [Hit]
+224000500 Spellbound Skull
+224000501 Spellbound Skull [Hit]
+224001000 Dragon Head Stone
+224001100 Dragon Torso Stone
+224001200 Twinkling Dragon Head Stone
+224001300 Twinkling Dragon Torso Stone
+224001301 Twinkling Dragon Torso Stone [Hit]
+224002000 Hello Carving
+224002001 Hello Carving [Hit]
+224002100 Thank you Carving
+224002101 Thank you Carving [Hit]
+224002200 Very good! Carving
+224002201 Very good! Carving [Hit]
+224002300 I'm sorry Carving
+224002301 I'm sorry Carving [Hit]
+224002400 Help me! Carving
+224002401 Help me! Carving [Hit]
 229999999 ### General ###
 230000000 Darkness
 230010000 Remnants of Lordran - Gough's Arrow

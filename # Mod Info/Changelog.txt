@@ -100,6 +100,12 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+
+# Infusions
+- Fire infusion now increases max Stamina by 20%.
+- Lightning infusion now boosts Armor Poise by 20%.
+
+
 # Weapons
 - Changed moveset for the following weapon class:
  - Claw 		
@@ -130,6 +136,7 @@ Finish following weapons:
 - Added the following oils:
  - Psychedelic Oil
  - Brume Oil
+- Removed Kukri and Spellbound Kukri.
 
 - Added the following illusion/insignia:
  - Elite Lothric Knight Set

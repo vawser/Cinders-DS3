@@ -36,15 +36,25 @@
 320 Common attack [throwing]
 321 Common attack [strong throw]
 322 Common attack [Paris slams]
+1010 Throwing Knife - Normal
+1011 Throwing Knife - Magic
+1012 Throwing Knife - Fire
+1013 Throwing Knife - Lightning
+1014 Throwing Knife - Dark
+1015 Throwing Knife - Curse
+1016 Throwing Knife - Poison
+1017 Throwing Knife - Bleed
+1018 Throwing Knife - Frost
+1020 Firebomb
+1021 Black Firebomb
+1022 Lightning Urn
+1023 Lightning Urn [Hit]
+1025 Witching Urn
+1026 Hexing Urn
+1027 Holy Water Urn
+1030 Rope Firebomb
+1031 Rope Black Firebomb
 1050 Kukri
-1052 Firebomb
-1054 Black Firebomb
-1056 Lightning Urn
-1057 Lightning Urn [Hit]
-1058 Rope Firebomb
-1059 Rope Black Firebomb
-1200 Throwing Knife
-1201 Poison Throwing Knife
 1205 Church Guardian Shiv
 1300 Dragon Head Stone
 1310 Dragon Torso Stone
@@ -247,9 +257,6 @@
 5760 Draconic Bolt
 5761 Draconic Bolt
 5762 Draconic Bolt - Repeat Fire
-6000 Witching Urn
-6100 Hexing Urn
-6200 Holy Water Urn
 6300 Throwing Frying Pan
 7000 Wrathful Arrow
 7010 Darkmoon Volley
@@ -899,7 +906,8 @@
 2508711 Wolf Knight's Greatsword - Weapon Art
 2510700 Greatsword of Judgment - Weapon Art
 2510710 Greatsword of Judgment - Weapon Art
-2510715 Greatsword of Judgment - Weapon Art [Bullet]
+2510715 Greatsword of Judgment - Weapon Art [Bullet] - Wave
+2510720 Greatsword of Judgment - Weapon Art [Bullet] - Beam
 2511700 Twin Princes' Greatsword
 2511705 Twin Princes' Greatsword [Bullet]
 2511710 Twin Princes' Greatsword
@@ -1234,8 +1242,11 @@
 2607705 Ivory King UGS - WA Second Hit
 2610000 Fume Ultra Greatsword
 2610001 Fume Ultra Greatsword
+2610005 Fume Slated Sword - 2H Light #1
 2610010 Fume Ultra Greatsword
+2610015 Fume Slated Sword - 2H Light #2
 2610020 Fume Ultra Greatsword
+2610025 Fume Slated Sword - 2H Light #3
 2610030 Fume Ultra Greatsword
 2610040 Fume Ultra Greatsword
 2610050 Fume Ultra Greatsword
@@ -1257,8 +1268,8 @@
 2610400 Fume Ultra Greatsword
 2610402 Fume Ultra Greatsword
 2610404 Fume Ultra Greatsword
-2610410 Fume Ultra Greatsword
-2610420 Fume Ultra Greatsword
+2610415 Fume Ultra Greatsword - 1H Kick
+2610425 Fume Ultra Greatsword - 2H Kick
 2610430 Fume Ultra Greatsword
 2610440 Fume Ultra Greatsword
 2610450 Fume Ultra Greatsword
@@ -1275,13 +1286,37 @@
 2610517 Fume Ultra Greatsword - Riposte (Hornet Ring)
 2610520 Fume Ultra Greatsword
 2610530 Fume Ultra Greatsword
+2610535 Fume Slated Sword - 2H Running
 2610540 Fume Ultra Greatsword
 2610580 Fume Ultra Greatsword
+2610585 Fume Slated Sword - 2H Roll
 2610600 Fume Ultra Greatsword
 2610610 Fume Ultra Greatsword
 2610615 Fume Ultra Greatsword
+2610620 Fume Slated Sword - 2H Special #1 - First Hit
+2610621 Fume Slated Sword - 2H Special #1 - Second Hit
+2610630 Fume Slated Sword - 2H Special #2 - First Hit
+2610631 Fume Slated Sword - 2H Special #2 - Second Hit
+2610640 Fume Slated Sword - 2H Special #3 - First Hit
+2610641 Fume Slated Sword - 2H Special #3 - Second Hit
 2610701 Fume Ultra Greatsword
+2610705 Fume Slated Sword - WA #1 - First Hit
+2610706 Fume Slated Sword - WA #1 - Second Hit
+2610707 Fume Slated Sword - WA #1 - Vertical Wave - First
+2610708 Fume Slated Sword - WA #1 - Vertical Wave - Second
+2610710 Fume Slated Sword - WA #2 - Shockwave
+2610711 Fume Slated Sword - WA #2 - Hit
+2610712 Fume Slated Sword - WA #2 - Burst
+2610750 Fume Slated Sword - 2H Special Running - First Hit
+2610751 Fume Slated Sword - 2H Special Running - Second Hit
+2610760 Fume Slated Sword - 2H Special Roll - First Hit
+2610761 Fume Slated Sword - 2H Special Roll - Second Hit
 2610790 Fume Ultra Greatsword
+2610800 Fume Ultra Greatsword - Kick - Bullet
+2610805 Fume Ultra Greatsword - Kick - Bullet
+2610806 Fume Ultra Greatsword - Kick - Bullet
+2610910 Fume Ultra Greatsword - Perseverance
+2610915 Fume Ultra Greatsword - Black Fire Balls
 2611105 Profaned Greatsword - 1H Heavy #1 Max
 2611106 Profaned Greatsword
 2611115 Profaned Greatsword - 1H Heavy #2 Max

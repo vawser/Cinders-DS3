@@ -121,9 +121,15 @@
 10023003 Ha! Don't worry, my curses are easily reversible.
 10023010 [Returned Coal] Thank you. This coal will help me greatly.
 10023999 ### Talk - Magician Quilon (m37)
+10024000 Most excellent! A young visionary for me to teach.
 10024999 ### Talk - Helia of the Lake (m38)
+10025000 If we must. Which pyromancy interests you?
 10025999 ### Talk - Scribe Vadan - (m35)
+10026000 Uhh... How did you get here?
+10026001 Nevermind. Would you like to improve your miracles?
 10026999 ### Talk - Sinner Argith - (m39)
+10027000 Muahaha....
+10027001 Another 'pupil' that wishes to delve into the darkness.
 10099999 ### Relationship - Karla (m40)
 10100000 [Good] Oh, there you are.
 10100001 [Good] I thought you'd all but forgotten me. How sweet.

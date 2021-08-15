@@ -955,6 +955,27 @@
 72521 Fallen Prince's Set - Body
 72530 Eastern Commander Set - Head
 72531 Eastern Commander Set - Body
+72540 Blue Lothric Knight Set - Head
+72541 Blue Lothric Knight Set - Body
+72550 Blue Lothric Knight Set - Head (Open Helm)
+72560 Lothric Knight Set - Head (Open Helm)
+72570 Consumed King's Knight Set - Head
+72571 Consumed King's Knight Set - Body
+72581 Elite Deacon Set - Body
+72590 Elite Soldier Set - Head
+72591 Elite Soldier Set - Body
+72600 Gertrude's Knight Set - Head
+72601 Gertrude's Knight Set - Body
+72610 Red Worker Set - Head
+72611 Red Worker Set - Body
+72620 Profaned Capital Handmaid Set - Head
+72621 Profaned Capital Handmaid Set - Body
+72630 Burned Firelink Set - Head
+72631 Burned Firelink Set - Body
+72640 Overgrown Lothric Knight Set - Head
+72641 Overgrown Lothric Knight Set - Body
+72650 Herald Set - Head (Lowered Visor)
+72660 Undead Legion Set - Head (Only Cap)
 75000 Writ of Humanity
 75001 Writ of Anger
 75002 Writ of Crystallization
@@ -1031,6 +1052,12 @@
 76225 Off-hand Enchanted Oil
 76226 Gust Oil
 76227 Off-hand Gust Oil
+76228 Psychedelic Oil
+76229 Off-hand Psychedelic Oil
+76230 Brume Oil
+76231 Off-hand Brume Oil
+76232 Sunlight Oil
+76233 Off-hand Sunlight Oil
 77000 Repel
 100000 Wax Head
 100020 Wind Ground Force
@@ -1052,6 +1079,7 @@
 90013110 Spell - Great Magic Weapon - Magic Enchantment
 90013120 Spell - Crystal Magic Weapon - Magic Enchantment
 90013130 Spell - Frozen Weapon - Frost Aura
+90013140 Spell - Supreme Frozen Weapon - Frost Aura
 90013300 Spell - Magic Shield - Magic Enchantment
 90013310 Spell - Great Magic Shield - Magic Enchantment
 90013400 Spell - Hidden Weapon - Right
@@ -1064,6 +1092,7 @@
 90024300 Spell - Iron Flesh
 90024310 Spell - Flash Sweat
 90024350 Spell - Carthus Flame Arc
+90024355 Spell - Supreme Carthus Flame Arc
 90024360 Spell - Rapport
 90024361 Spell - Rapport
 90024400 Spell - Power Within
@@ -1086,6 +1115,7 @@
 90035630 Spell - Sacred Oath
 90035810 Spell - Vow of Silence
 90035900 Spell - Lightning Blade
+90035905 Spell - Sunlight Blade
 90035910 Spell - Darkmoon Blade
 90036400 Spell - Dark Blade
 90037300 Spell - Lifehunt Scythe
@@ -1115,6 +1145,7 @@
 91061950 Sparks
 91062311 Weapon Art - Warcry 1 - Right
 91062351 Weapon Art - Warcry 1 - Left
+91062711 Chaos Flame
 91063700 Storm Ruler
 91063701 Storm Ruler
 91069501 Lorian's Greatsword
@@ -1131,6 +1162,7 @@
 91080051 Weapon Art - Warcry 5 - Left
 91080611 Weapon Art - Warcry 6 - Right
 91080651 Weapon Art - Warcry 6 - Left
+91081900 Izalith Flame
 91083211 Weapon Art - Ledo's Great Hammer - Right - Craggy Boulder
 91083212 Weapon Art - Ledo's Great Hammer - Right - Boulder Smash
 91083251 Weapon Art - Ledo's Great Hammer - Left - Craggy Boulder
@@ -1177,6 +1209,7 @@
 95007000 Weapon Art - Endless Winter - Frostfire Buff Right
 95007050 Weapon Art - Endless Winter - Frostfire Buff Left
 95007100 [Frostfall] Stability Aura
+95008000 Weapon Art - Fume UGS - Buff
 99910110 Pacify VFX - Right
 99910111 Pacify VFX - Left
 99911000 Script: Proximity Invisibility - Enemies

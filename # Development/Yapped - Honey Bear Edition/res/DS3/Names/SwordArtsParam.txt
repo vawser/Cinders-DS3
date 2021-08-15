@@ -76,6 +76,8 @@
 413 [Ultra Greatsword] Abyssal Burst
 414 [Ultra Greatsword] Smelter's Fury
 415 [Ultra Greatsword] Lightning Stomp
+416 [Ultra Greatsword] Raime's Fury
+417 [Ultra Greatsword] Nadalia's Wrath
 500 [Rapier] Stance
 501 [Rapier] Shield Splitter
 502 [Rapier] Ricard's Lunge and Press
@@ -226,6 +228,8 @@
 1805 [Claw] Bestial Fury (old)
 1806 [Claw] Crabby
 1807 [Claw] Bestial Fury
+1808 [Claw] Bestial Pounce
+1809 [Claw] Stance
 1900 [Bow] Rapid Fire
 1901 [Bow] Puncture
 1902 [Bow] Pharis Triple-Shot

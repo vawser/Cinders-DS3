@@ -3442,6 +3442,7 @@
 160250560 Bloodlust - Bleed - Left-hand
 160250561 Bloodlust - Bleed - Left-hand [Cycle]
 160250562 Bloodlust - Bleed - Left-hand [AttackOccurance]
+160250600 Fume UGS - Marauder's Wrath
 160250700 Tonitrus - Spark - Right
 160250710 Tonitrus - Spark - Right - No FP
 160250750 Tonitrus - Spark - Left
@@ -5013,6 +5014,27 @@
 160706411 Fallen Prince's Emblem
 160706420 Eastern Commander Insignia
 160706421 Eastern Commander Emblem
+160706430 Blue Lothric Knight Insignia
+160706431 Blue Lothric Knight Emblem
+160706440 Blue Lothric Knight Insignia (Open Helm)
+160706450 Lothric Knight Insignia (Open Helm)
+160706460 Consumed King's Knight Insignia
+160706461 Consumed King's Knight Emblem
+160706471 Elite Deacon Emblem
+160706480 Elite Soldier Insignia
+160706481 Elite Soldier Emblem
+160706490 Gertrude's Knight Insignia
+160706491 Gertrude's Knight Emblem
+160706500 Red Worker Insignia
+160706501 Red Worker Emblem
+160706510 Profaned Capital Handmaid Insignia
+160706511 Profaned Capital Handmaid Emblem
+160706520 Burned Firelink Insignia
+160706521 Burned Firelink Emblem
+160706530 Overgrown Lothric Knight Insignia
+160706531 Overgrown Lothric Knight Emblem
+160706540 Herald Insignia (Lowered Visor)
+160706550 Undead Legion Insignia (Only Cap)
 160708999 ### Weapon Visual Items ###
 160709000 Cleansing Oil - Right - Clear 153
 160709001 Cleansing Oil - Right - Clear 155
@@ -5043,6 +5065,10 @@
 160709125 Rotten Oil - Left
 160709130 Gust Oil - Right
 160709135 Gust Oil - Left
+160709140 Psychedelic Oil - Right
+160709145 Psychedelic Oil - Left
+160709150 Brume Oil - Right
+160709155 Brume Oil - Left
 160709200 Bolt Oil - Right
 160709205 Bolt Oil - Left
 160709300 Sunlight Oil - Right
@@ -5167,6 +5193,7 @@
 160742100 Titanite Abomination - HP Absorb
 160742200 The Marauder - Passive State
 160742210 The Marauder - Stat Drain
+160742300 Cathedral Guardian - Immunity
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5461,6 +5488,7 @@
 180010540 Bleed - Fist Sidearm
 180010550 Bleed - Scraping Spear
 180010551 Bleed - Scraping Spear (Infusion)
+180010560 Bleed - Throwing Knife
 180019999 ### Frost ##
 180020000 Frost - Normal (Infusion)
 180020001 Frost - Quick (Infusion)
@@ -5497,6 +5525,7 @@
 180020180 Frost - Fist Sidearm
 180020190 Frost - Frostfall
 180020191 Frost - Frostfall (Infusion)
+180020200 Frost - Throwing Knife
 180021000 Frost - Stamina and Resistance Penalties
 180021001 Frost - Stamina Reduction (Old)
 180021010 Frost - Disable Frost Inflict for Enemy
@@ -5551,6 +5580,7 @@
 180030260 Curse - Pistol Sidearm
 180030270 Curse - Sprayer Sidearm
 180030280 Curse - Fist Sidearm
+180030290 Curse - Throwing Knife
 199999999 ### Infusions - Passive ####
 200000100 Lethal
 200000200 Curse
@@ -5611,6 +5641,11 @@
 200005400 Magic - Pistol Sidearm
 200005410 Magic - Fist Sidearm
 200005420 Magic - Blunderbuss Sidearm
+200005430 Magic - Winged Knight Twinaxes - Drang Hammers
+200005440 Magic - Paired Greatshield
+200005450 Magic - Paired Daggers - Gotthard Twinswords
+200005460 Magic - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200005470 Magic - Paired Curved Swords - Paired Katanas - Paired Spears
 200006000 Fire - Dagger
 200006020 Fire - Straight Sword
 200006040 Fire - Greatsword
@@ -5634,6 +5669,11 @@
 200006390 Fire - Cannon Sidearm
 200006400 Fire - Pistol Sidearm
 200006410 Fire - Fist Sidearm
+200006430 Fire - Winged Knight Twinaxes - Drang Hammers
+200006440 Fire - Paired Greatshield
+200006450 Fire - Paired Daggers - Gotthard Twinswords
+200006460 Fire - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200006470 Fire - Paired Curved Swords - Paired Katanas - Paired Spears
 200007000 Lightning - Dagger
 200007020 Lightning - Straight Sword
 200007040 Lightning - Greatsword
@@ -5657,6 +5697,11 @@
 200007390 Lightning - Cannon Sidearm
 200007400 Lightning - Pistol Sidearm
 200007410 Lightning - Fist Sidearm
+200007430 Lightning - Winged Knight Twinaxes - Drang Hammers
+200007440 Lightning - Paired Greatshield
+200007450 Lightning - Paired Daggers - Gotthard Twinswords
+200007460 Lightning - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200007470 Lightning - Paired Curved Swords - Paired Katanas - Paired Spears
 200008000 Dark - Dagger
 200008020 Dark - Straight Sword
 200008040 Dark - Greatsword
@@ -5681,6 +5726,40 @@
 200008400 Dark - Pistol Sidearm
 200008410 Dark - Fist Sidearm
 200008420 Dark - Blunderbuss Sidearm
+200008430 Dark - Winged Knight Twinaxes - Drang Hammers
+200008440 Dark - Paired Greatshield
+200008450 Dark - Paired Daggers - Gotthard Twinswords
+200008460 Dark - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200008470 Dark - Paired Curved Swords - Paired Katanas - Paired Spears
+200009000 Other Infusions - Dagger
+200009020 Other Infusions - Straight Sword
+200009040 Other Infusions - Greatsword
+200009060 Other Infusions - Ultra Greatsword
+200009080 Other Infusions - Curved Sword
+200009100 Other Infusions - Katana
+200009120 Other Infusions - Curved Greatsword
+200009140 Other Infusions - Axe
+200009160 Other Infusions - Greataxe
+200009180 Other Infusions - Hammer
+200009200 Other Infusions - Great Hammer
+200009220 Other Infusions - Spear
+200009240 Other Infusions - Halberd
+200009260 Other Infusions - Whip
+200009280 Other Infusions - Fist
+200009300 Other Infusions - Claw
+200009320 Other Infusions - Battlestaff
+200009340 Other Infusions - Torch
+200009360 Other Infusions - Thrusting Sword
+200009380 Other Infusions - Reaper
+200009390 Other Infusions - Cannon Sidearm
+200009400 Other Infusions - Pistol Sidearm
+200009410 Other Infusions - Fist Sidearm
+200009420 Other Infusions - Blunderbuss Sidearm
+200009430 Other Infusions - Winged Knight Twinaxes - Drang Hammers
+200009440 Other Infusions - Paired Greatshield
+200009450 Other Infusions - Paired Daggers - Gotthard Twinswords
+200009460 Other Infusions - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200009470 Other Infusions - Paired Curved Swords - Paired Katanas - Paired Spears
 249999999 ### Journey Modifiers ###
 250000100 Mythic Mode - Player Effect - Damage
 250000101 Mythic Mode - Player Effect - Absorption
@@ -5904,9 +5983,10 @@
 260110033 Titanite Abomination
 260110034 The Marauder
 260119999 ### Gauntlet Mode ###
-260120000 Set Order
-260120010 Random Order
-260120020 Reset Progress
+260120000 Ordered Trigger
+260120010 Random Trigger
+260120020 Reset Progress Trigger
+260120100 Soul Boost
 260129999 ### Masteries ###
 260130010 Attunement
 260130020 Endurance

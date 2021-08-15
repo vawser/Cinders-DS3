@@ -476,7 +476,7 @@
 62100 [Siegward of Catarina] Siegbräu
 62103 [Siegward of Catarina] Siegbräu
 62105 [Siegward of Catarina] Siegbräu
-62110 [Siegward of Catarina] Kukri
+62110 [Siegward of Catarina] Lacerating Knife
 62120 [Siegward of Catarina] Holy Fragment
 62130 [Siegward of Catarina] Blunt Gem
 62140 [Siegward of Catarina] Storm Ruler
@@ -922,7 +922,7 @@
 3100080 [Corpse] Soul of a Deserted Corpse
 3100081 [Corpse] Charcoal Pine Resin
 3100090 [Corpse] Soul of a Deserted Corpse
-3100091 [Corpse] Kukri
+3100091 [Corpse] Flaming Knife
 3100100 [Corpse] Soul of a Deserted Corpse
 3100101 [Corpse] Black Firebomb
 3100110 [Corpse] Soul of a Deserted Corpse
@@ -1679,7 +1679,7 @@
 3800040 [Corpse] Soul of a Nameless Soldier
 3800041 [Corpse] Red Bug Pellet
 3800050 [Corpse] Soul of a Nameless Soldier
-3800051 [Corpse] Kukri
+3800051 [Corpse] Lacerating Knife
 3800060 [Corpse] Soul of a Nameless Soldier
 3800061 [Corpse] Carthus Pyromancy Tome
 3800070 [Corpse] Soul of a Nameless Soldier
@@ -1713,7 +1713,7 @@
 3800210 [Corpse] Soul of a Crestfallen Knight
 3800211 [Corpse] Siegbräu
 3800220 [Corpse] Soul of a Nameless Soldier
-3800221 [Corpse] Throwing Knife
+3800221 [Corpse] Flaming Knife
 3800230 [Corpse] Soul of a Nameless Soldier
 3800231 [Corpse] Red Bug Pellet
 3800240 [Corpse] Soul of a Weary Warrior
@@ -1815,7 +1815,7 @@
 3900020 [Corpse] Soul of a Nameless Soldier
 3900021 [Corpse] Large Titanite Shard
 3900030 [Corpse] Large Soul of a Nameless Soldier
-3900031 [Corpse] Throwing Knife
+3900031 [Corpse] Abyssal Knife
 3900040 [Corpse] Soul of a Nameless Soldier
 3900041 [Corpse] Undead Hunter Charm
 3900050 [Corpse] Soul of a Nameless Soldier
@@ -2168,7 +2168,7 @@
 5000110 [Corpse] Soul of a Nameless Soldier
 5000111 [Corpse] Tarnished Silver Coin
 5000120 [Corpse] Soul of a Nameless Soldier
-5000121 [Corpse] Poison Throwing Knife
+5000121 [Corpse] Cursed Knife
 5000130 [Corpse] Soul of a Crestfallen Knight
 5000131 [Corpse] Divine Blessing
 5000140 [Corpse] Soul of a Nameless Soldier
@@ -2272,7 +2272,7 @@
 5100180 [Corpse] Soul of a Weary Warrior
 5100181 [Corpse] Titanite Chunk
 5100190 [Corpse] Soul of a Nameless Soldier
-5100191 [Corpse] Poison Throwing Knife
+5100191 [Corpse] Lacerating Knife
 5100200 [Corpse] Soul of a Nameless Soldier
 5100201 [Corpse] Barathrum Petal
 5100210 [Corpse] Soul of a Weary Warrior
@@ -2378,7 +2378,7 @@
 10700100 [Falchion - Undead Settlement] Human Pine Resin
 10700101 [Falchion - Undead Settlement] Blood Gem
 10700102 [Falchion - Undead Settlement] Lifegem
-10701000 [Scimitar - Catacombs of Carthus] Kukri
+10701000 [Scimitar - Catacombs of Carthus] Lacerating Knife
 10701001 [Scimitar - Catacombs of Carthus] Blood Gem
 10701002 [Scimitar - Catacombs of Carthus] Lifegem
 10701100 [Falchion - Catacombs of Carthus] Carthus Rouge
@@ -2442,7 +2442,7 @@
 11700002 [Default] Vertebra Shackle
 11700003 [Default] Ember
 11700004 [Default] Fire Arrow
-11700005 [Default] Kukri
+11700005 [Default] Lacerating Knife
 11700006 [Default] Carthus Rouge
 11700007 [Default] Large Titanite Shard
 11899999 ### Cathedral Knight ###
@@ -2910,6 +2910,15 @@
 76300001 [Default] Lucky Gem, Enchanted Gem, Holy Gem
 76300002 [Default] Poison Gem, Blood Gem, Frost Gem
 76300003 [Default] Lethal Gem, Cursed Gem, Sharp Gem, Blunt Gem
+76599999 ### Giant Sentinel ###
+76600000 [Default] Blunt Gem
+76600001 [Default] Exotic Souls
+76600002 [Default] Elizabeth Mushroom
+76600003 [Default] Titanite Slab
+76699999 ### Royal Rat Authority ###
+76700000 [Default] Dark Gem
+76700001 [Default] Human Dregs
+76700002 [Default] Lifegem
 799999999 ### Script ###
 800001000 [Covenant] Thieves' Pact
 800001020 [Covenant] Chaos Servant
@@ -2930,9 +2939,11 @@
 800010000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
 800010001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm
 800010002 [Thieves' Pact] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
+800010003 [Thieves' Pact] New Throwing Knives
 800010020 [Thieves' Pact - Low] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
 800010021 [Thieves' Pact - Low] Alluring Skull, Undead Hunter Charm, Duel Charm
 800010022 [Thieves' Pact - Low] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
+800010023 [Thieves' Pact - Low] New Throwing Knives
 800010100 [Darkmoon Faithful] Proof of a Concord Kept
 800010120 [Darkmoon Faithful] Proof of a Concord Kept - Low
 800010200 [Spears of the Church] Filianore's Spear Ornament

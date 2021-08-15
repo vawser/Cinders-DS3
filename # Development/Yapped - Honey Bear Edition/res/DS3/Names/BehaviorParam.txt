@@ -2594,7 +2594,7 @@
 231610280 [Cathedral Guardian] WA: Whack
 231610290 [Cathedral Guardian] WA: Axe Shockwave
 231610300 [Cathedral Guardian] WA: Jump Slash
-231610700 [Cathedral Guardian] Shockwave
+231610700 [Cathedral Guardian] Wrath of the Gods
 231610900 [Cathedral Guardian] Guard
 231700010 [Darkwraith] Slashing 1
 231700011 [Darkwraith] Slashing 2
@@ -4992,7 +4992,7 @@
 275300315 [The Marauder] Soulmass
 275300320 [The Marauder]
 275300330 [The Marauder]
-275300340 [The Marauder] Chaos Beam
+275300340 [The Marauder] Fireball Scatter
 275300500 [The Marauder]
 275300501 [The Marauder]
 275300502 [The Marauder]

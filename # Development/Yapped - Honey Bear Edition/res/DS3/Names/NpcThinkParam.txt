@@ -230,7 +230,7 @@
 101100 Gyrm - Halberd
 101101 Gyrm - Twinaxes
 101200 Aborr
-102000 Morne's Armor
+102000 Cathedral Guardian
 102001 Morne's Armor - TOG
 103000 Mirror Knight
 103001 Mirror Knight - TOG
@@ -994,11 +994,13 @@
 763000 Red Crystal Lizard
 764000 Twisted Knight
 765000 The Rock
+766000 Giant Sentinel
 767000 Dismal Knight
 768000 Forlorn Giant
 770000 Fallen Protector
 770100 Maiden
 771000 Titanite Abomination
+772000 Royal Rat Authority
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion
