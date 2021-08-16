@@ -147,6 +147,7 @@ def t400220_x7(z1=22, z2=9023, flag1=6072):
 
 def t400220_x8():
     """State 0,34"""
+    # Crying
     if not GetEventStatus(74000324):
         """State 1"""
         if GetEventStatus(1201) == 1:
@@ -155,124 +156,12 @@ def t400220_x8():
                 """State 3,40"""
                 # talk:22000900:"Oh, hello, you're back."
                 assert t400220_x5(text2=22000900, z3=74000300, flag3=0, mode2=1)
-            elif (GetEventStatus(74000301) == 1 and not GetEventStatus(74000302) and GetEventStatus(74000325)
-                  == 1):
-                """State 5,36"""
-                # talk:22001600:"Ahh, there you are. I was thinking..."
-                assert t400220_x6(text1=22001600, flag2=0, mode1=1)
-                """State 6"""
-                ClearTalkListData()
-                assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                        2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-                """State 7"""
-                # action:14012002:"Send him to pillage"
-                AddTalkListData(5, 14012002, -1)
-                # action:14012003:"Refuse"
-                AddTalkListData(6, 14012003, -1)
-                """State 8"""
-                OpenConversationChoicesMenu(0)
-                assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-                """State 9"""
-                if GetTalkListEntryResult() == 5:
-                    """State 10,39"""
-                    # talk:22001700:"Thank you. You will not be disappointed."
-                    assert t400220_x5(text2=22001700, z3=74000303, flag3=0, mode2=1)
-                    """State 13"""
-                    Label('L0')
-                    SetEventState(74000302, 1)
-                elif GetTalkListEntryResult() == 6:
-                    """State 11,38"""
-                    # talk:22001800:"All right, fine and well."
-                    assert t400220_x6(text1=22001800, flag2=0, mode1=1)
-                    Goto('L0')
-                else:
-                    """State 12"""
-                    Label('L1')
-                    Goto('L5')
             else:
                 """State 4"""
                 Label('L2')
                 """State 35"""
                 # talk:22001000:"Oh, hello, you're back."
                 assert t400220_x6(text1=22001000, flag2=0, mode1=1)
-        elif GetEventStatus(1203) == 1:
-            """State 14"""
-            if not GetEventStatus(74000304):
-                """State 17,41"""
-                # talk:22001100:"Oh, hello, you've come at a good time."
-                assert t400220_x5(text2=22001100, z3=74000304, flag3=0, mode2=1)
-            elif GetEventStatus(138) == 1 and GetEventStatus(9311) == 1 and not GetEventStatus(74000305):
-                """State 16,42"""
-                # talk:22002000:"Ahh, hello, fine work, I say."
-                assert t400220_x6(text1=22002000, flag2=0, mode1=1)
-                """State 18"""
-                ClearTalkListData()
-                assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                        2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-                """State 19"""
-                # action:14012004:"Send him to pillage"
-                AddTalkListData(5, 14012004, -1)
-                # action:14012005:"Refuse"
-                AddTalkListData(6, 14012005, -1)
-                """State 20"""
-                OpenConversationChoicesMenu(0)
-                assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-                """State 21"""
-                if GetTalkListEntryResult() == 5:
-                    """State 22,44"""
-                    # talk:22002100:"Mm, a fine choice!"
-                    assert t400220_x5(text2=22002100, z3=74000306, flag3=0, mode2=1)
-                    """State 24"""
-                    Label('L3')
-                    SetEventState(74000305, 1)
-                elif GetTalkListEntryResult() == 6:
-                    """State 23,43"""
-                    # talk:22002200:"All right, fine and well."
-                    assert t400220_x6(text1=22002200, flag2=0, mode1=1)
-                    Goto('L3')
-                else:
-                    Goto('L1')
-            else:
-                Goto('L2')
-        else:
-            """State 15"""
-            if not GetEventStatus(74000307):
-                """State 33,48"""
-                # talk:22001200:"Oh, then, we are both safe and sound."
-                assert t400220_x5(text2=22001200, z3=74000307, flag3=0, mode2=1)
-            elif GetEventStatus(142) == 1 and not GetEventStatus(74000308):
-                """State 32,47"""
-                # talk:22002400:"You know, I was thinking..."
-                assert t400220_x6(text1=22002400, flag2=0, mode1=1)
-                """State 25"""
-                ClearTalkListData()
-                assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                        2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-                """State 26"""
-                # action:14012006:"Send him to pillage"
-                AddTalkListData(5, 14012006, -1)
-                # action:14012007:"Refuse"
-                AddTalkListData(6, 14012007, -1)
-                """State 27"""
-                OpenConversationChoicesMenu(0)
-                assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-                """State 28"""
-                if GetTalkListEntryResult() == 5:
-                    """State 29,46"""
-                    # talk:22002500:"Thank you, for placing your trust in me."
-                    assert t400220_x5(text2=22002500, z3=74000309, flag3=0, mode2=1)
-                    """State 31"""
-                    Label('L4')
-                    SetEventState(74000308, 1)
-                elif GetTalkListEntryResult() == 6:
-                    """State 30,45"""
-                    # talk:22002600:"Right, fine. You're very thoughtful, you are."
-                    assert t400220_x6(text1=22002600, flag2=0, mode1=1)
-                    Goto('L4')
-                else:
-                    Goto('L1')
-            else:
-                Goto('L2')
         """State 37"""
         # goods:2118:Loretta's Bone
         assert t400220_x15(goods1=2118)
@@ -512,119 +401,15 @@ def t400220_x15(goods1=2118):
             return 0
 
 def t400220_x16():
-    """State 0,1"""
-    if GetEventStatus(1206) == 1 and GetEventStatus(74000308) == 1:
-        """State 10"""
-        if GetEventStatus(74000309) == 1:
-            """State 11,42"""
-            # talk:22002501:"Oh, don't you worry. I know Lothric like the back of my hand."
-            assert t400220_x6(text1=22002501, flag2=0, mode1=1)
-        else:
-            """State 12,44"""
-            # talk:22002700:"Changed your mind?"
-            assert t400220_x6(text1=22002700, flag2=0, mode1=1)
-            """State 28"""
-            ClearTalkListData()
-            assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                    2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-            """State 29"""
-            # action:14012006:"Send him to pillage"
-            AddTalkListData(5, 14012006, -1)
-            # action:14012007:"Refuse"
-            AddTalkListData(6, 14012007, -1)
-            """State 30"""
-            OpenConversationChoicesMenu(0)
-            assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-            """State 31"""
-            if GetTalkListEntryResult() == 5:
-                """State 32,48"""
-                # talk:22002500:"Thank you, for placing your trust in me."
-                assert t400220_x5(text2=22002500, z3=74000309, flag3=0, mode2=1)
-            elif GetTalkListEntryResult() == 6:
-                """State 33,47"""
-                # talk:22002600:"Right, fine. You're very thoughtful, you are."
-                assert t400220_x6(text1=22002600, flag2=0, mode1=1)
-            else:
-                """State 34"""
-                pass
-    elif GetEventStatus(1203) == 1 and GetEventStatus(74000305) == 1:
-        """State 7"""
-        if GetEventStatus(74000306) == 1:
-            """State 9,41"""
-            # talk:22002101:"I am Greirat, the thief. What I bring back will be worthy of that name."
-            assert t400220_x6(text1=22002101, flag2=0, mode1=1)
-        else:
-            """State 8,43"""
-            # talk:22002300:"What is it? Changed your mind?"
-            assert t400220_x6(text1=22002300, flag2=0, mode1=1)
-            """State 21"""
-            ClearTalkListData()
-            assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                    2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-            """State 22"""
-            # action:14012004:"Send him to pillage"
-            AddTalkListData(5, 14012004, -1)
-            # action:14012005:"Refuse"
-            AddTalkListData(6, 14012005, -1)
-            """State 23"""
-            OpenConversationChoicesMenu(0)
-            assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-            """State 24"""
-            if GetTalkListEntryResult() == 5:
-                """State 25,46"""
-                # talk:22002100:"Mm, a fine choice!"
-                assert t400220_x5(text2=22002100, z3=74000306, flag3=0, mode2=1)
-            elif GetTalkListEntryResult() == 6:
-                """State 26,45"""
-                # talk:22002200:"All right, fine and well."
-                assert t400220_x6(text1=22002200, flag2=0, mode1=1)
-            else:
-                """State 27"""
-                pass
-    elif GetEventStatus(1201) == 1 and GetEventStatus(74000302) == 1:
-        """State 4"""
-        if GetEventStatus(74000303) == 1:
-            """State 6,40"""
-            # talk:22001701:"Greirat the Thief was once a well-known name."
-            assert t400220_x6(text1=22001701, flag2=0, mode1=1)
-        else:
-            """State 5,37"""
-            # talk:22001900:"What is it? Have you changed your mind?"
-            assert t400220_x6(text1=22001900, flag2=0, mode1=1)
-            """State 13"""
-            ClearTalkListData()
-            assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                    2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-            """State 14"""
-            # action:14012002:"Send him to pillage"
-            AddTalkListData(5, 14012002, -1)
-            # action:14012003:"Refuse"
-            AddTalkListData(6, 14012003, -1)
-            """State 15"""
-            OpenConversationChoicesMenu(0)
-            assert not (CheckSpecificPersonMenuIsOpen(12, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-            """State 16"""
-            if GetTalkListEntryResult() == 5:
-                """State 17,39"""
-                # talk:22001700:"Thank you. You will not be disappointed."
-                assert t400220_x5(text2=22001700, z3=74000303, flag3=0, mode2=1)
-            elif GetTalkListEntryResult() == 6:
-                """State 18,38"""
-                # talk:22001800:"All right, fine and well."
-                assert t400220_x6(text1=22001800, flag2=0, mode1=1)
-            else:
-                """State 19"""
-                pass
+    """State 2"""
+    if GetEventStatus(74000301) == 1:
+        """State 3,36"""
+        # talk:22002803:"You can keep the ring."
+        assert t400220_x6(text1=22002803, flag2=0, mode1=1)
     else:
-        """State 2"""
-        if GetEventStatus(74000301) == 1:
-            """State 3,36"""
-            # talk:22002803:"You can keep the ring."
-            assert t400220_x6(text1=22002803, flag2=0, mode1=1)
-        else:
-            """State 20,35"""
-            # talk:22001500:"Do me a favour, and don't forget our promise."
-            assert t400220_x6(text1=22001500, flag2=0, mode1=1)
+        """State 20,35"""
+        # talk:22001500:"Do me a favour, and don't forget our promise."
+        assert t400220_x6(text1=22001500, flag2=0, mode1=1)
     """State 49"""
     return 0
 

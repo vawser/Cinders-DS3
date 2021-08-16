@@ -100,6 +100,9 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Journey Configuration
+- Mythic Mode:
+ - Curses no longer grant soul absorption bonuses.
 
 # Infusions
 - Fire infusion now increases max Stamina by 20%.
@@ -196,6 +199,11 @@ Finish following weapons:
 - Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
 - Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
 - Fixed Stone of Draconic Fire/Stone of Draconic Might.
+- Fixed Dragon Bone Fist WA.
+- Fixed Moonlight Sword having 999 durability.
+- Greirat will no longer show the pillage option (as it has been removed).
+- Fixed Scribe Vadan's dialogue.
+- You can now enter the Cathedral Guardian fight via the pit.
  
 #------------------------------
 # TODO

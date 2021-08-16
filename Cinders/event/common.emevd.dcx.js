@@ -460,14 +460,9 @@ Event(200, Restart, function() {
 //----------------------------------------------
 Event(230, Restart, function() {
     var flag_EclipseActive    = 230;
-    var flag_BossKill_Aldrich = 9314;
-    var flag_BossKill_Yhorm   = 9318;
+    var flag_BossKill_Aldrich = 25001010;
     
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_EclipseActive);
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossKill_Aldrich);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossKill_Yhorm);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_BossKill_Aldrich);
     
     SetMapCeremony(30, 0, 10);
     SetMapCeremony(30, 1, 10);
@@ -2063,6 +2058,7 @@ Event(20010, Restart, function(X0_4, X4_4, X8_4) {
     SkipIfCharacterHasSpeffect(1, 10000, X4_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X4_4);
     
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009812); // Skip if in Mythic mode
     SkipIfCharacterHasSpeffect(1, 10000, X8_4, true, ComparisonType.Equal, 1);
     SetSpeffect(10000, X8_4);
     
@@ -3416,7 +3412,12 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetEventFlag(14000850, OFF);
+    SetEventFlag(25009810, ON);
+    SetEventFlag(25009811, OFF);
+    SetEventFlag(25009812, OFF);
+    SetEventFlag(25009813, OFF);
+    SetEventFlag(25009814, OFF);
+    SetEventFlag(25009815, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });

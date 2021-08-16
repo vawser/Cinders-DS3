@@ -4249,7 +4249,8 @@ to commune with the fallen knight.</text>
 - Weaponry and shields can no longer be reinforced.
 - World is populated by more enemies.
 - Reduces absorptions by 33%.
-- Reduces aux resistances by 33%.</text>
+- Reduces aux resistances by 33%.
+- Curses no longer grant soul absorption bonuses.</text>
 <text id="99060023">Gauntlet mode applies the following effects:
 - You will face a gauntlet comprised of every boss.
 - Each boss will drop a Weapon, Armor or Accessory token.
@@ -4378,11 +4379,11 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060222">Darkeater Midir</text>
 <text id="99060223">Slave Knight Gael</text>
 <text id="99060224">Halflight</text>
-<text id="99060225">Princess Yngvil</text>
+<text id="99060225">Prince Dorthinus</text>
 <text id="99060226">Cathedral Guardian</text>
 <text id="99060227">Mirror Knight</text>
 <text id="99060228">Aborr</text>
-<text id="99060229">Prince Dorthinus</text>
+<text id="99060229">Princess Yngvil</text>
 <text id="99060230">The Rock</text>
 <text id="99060231">Twisted Knight</text>
 <text id="99060232">Fallen Protector</text>
