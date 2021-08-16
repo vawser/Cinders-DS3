@@ -181,6 +181,9 @@ Finish following weapons:
 # Npcs
 - Npc main weapon is now always +10.
 
+# Enemies
+- Red Crystal Lizards now always drop Lizard Hide.
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
@@ -192,6 +195,7 @@ Finish following weapons:
 - Fixed Katana unsheath animation.
 - Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
 - Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
+- Fixed Stone of Draconic Fire/Stone of Draconic Might.
  
 #------------------------------
 # TODO
@@ -202,7 +206,29 @@ Add interaction with statue in Irithyll in dog section:
  Hollowing > 50, add damage boost
  < 50, half HP until death
  
-f000886103
-f000886104
+# Companions
+Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
 
 # 652855
+# Map
+Go through maps and do a design pass
+ - Add hop points
+ - Add new encounters (i.e. hanging enemy)
+ - Add new minibosses (i.e. the new chrs)
+ - Add special interactables (puzzle, conditional buffs, etc)
+ 
+ # m30
+ # m30_1
+ # m31
+ # m32
+ # m33
+ # m34_1
+ # m35
+ # m37
+ # m38
+ # m39
+ # m40
+ # m41
+ # m45
+ # m50
+ # m51
