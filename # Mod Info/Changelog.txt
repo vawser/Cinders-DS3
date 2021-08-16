@@ -92,7 +92,7 @@ Finish following weapons:
 
 # Lost Cat
 - Shield Catalyst - Loch Shield/Disc Chime
-- Grand Lance/Chariot Lance
+- Grand Lance/Chariot Lance/Heide Lance
 - Covenant Inventory
 - Piercing Rifle
 - Gehrman's Blunderbuss
@@ -105,7 +105,6 @@ Finish following weapons:
 - Fire infusion now increases max Stamina by 20%.
 - Lightning infusion now boosts Armor Poise by 20%.
 
-
 # Weapons
 - Changed moveset for the following weapon class:
  - Claw 		
@@ -116,10 +115,19 @@ Finish following weapons:
  - Ultra Greatsword 	
   - Fume Ultra Greatsword (Raime's Fury)
   - Fume Slated Swords (Nadalia's Wrath), a paired weapon (Fume Ultra Greatsword with Fume Sword), Fume Sword (Straight Sword) is removed.
+ 
+ - Great Hammer
+  - Great Wooden Hammer (Spin Bash)
+  - Spiked Mace (Spin Bash)
+  - Morne's Great Hammer (Morne's Rage)
+  - Great Mace (Perseverance)
+  - Greatwood Club (Spin Bash)
+  - Church Pick (Righteous Rush)
 
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
 - Adjusted the stamina costs of Ringed Knight Paired Greatsword.
+- Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
 - Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
 - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
 - Lances now have their own Weapon Class:
@@ -130,6 +138,7 @@ Finish following weapons:
 - Minor Moveset Changes:
  - Rolling 1H R1 for Alternate Scythe moveset.
  - 4th 1H R1 for Alternate Straight Sword moveset. 
+ - Slight event arrangement for Ciaran's Tracers.
 
 # Consumables
 - Adjusted several oil visual.
@@ -182,6 +191,7 @@ Finish following weapons:
 - Fixed new oils vfx not showing up for dual weapons.
 - Fixed Katana unsheath animation.
 - Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
+- Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
  
 #------------------------------
 # TODO

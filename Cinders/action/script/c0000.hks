@@ -1842,7 +1842,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)	
-        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 then
+        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 or sp_kind == 743 then
             if b2 == "W_AttackBothHeavy1Start" then
                 b2 = "W_AttackBothHeavySpecial1Start"
             elseif b2 == "W_AttackBothHeavy1SubStart" then
@@ -7996,7 +7996,7 @@ function AttackBothLight3_onUpdate()
 		l1 = "W_AttackBothLeft3"
 	end	
 	
-	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 then
+	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 743 then
 		b1 = "W_AttackBothBackstep"
 	end
     
@@ -8403,6 +8403,10 @@ function AttackBothDash_onUpdate()
 	if sp_kind == 731 then
 		b1 = "W_AttackBothLight3"
 	end		
+	
+	if sp_kind == 743 then
+		b1 = "W_AttackBothBackstep"
+	end			
 
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
@@ -8416,7 +8420,7 @@ function AttackBothDashSpecial_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 600 then
+    if sp_kind == 600 or sp_kind == 743 then
         b2 = "W_AttackBothHeavy2Start"
     end	
 	
@@ -8455,7 +8459,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 or sp_kind == 713 then
+	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 or sp_kind == 713 or sp_kind == 743 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8545,7 +8549,7 @@ function AttackBothBackstep_onUpdate()
 		b1 = "W_AttackBothLightStepSpecial"
 	end	
 	
-	if sp_kind == 742 then
+	if sp_kind == 742 or sp_kind == 743 then
 		b1 = "W_AttackBothLight2"
 	end	
 	
