@@ -179,20 +179,42 @@ dmy:
 881101 Deep Accursed Vomit (With Sounds)
 
 880050 Silent Lorian's Greatsword Flame Effect
+880051 Silent Lorian's Greatsword Flame Effect
+880052 Silent Lorian's Greatsword Flame Effect
+880053 Silent Lorian's Greatsword Flame Effect
+880054 Silent Lorian's Greatsword Flame Effect
+880055 Silent Lorian's Greatsword Flame Effect
+
+880060 Black-orange Lorian Buff
+
+880070 Silent Black-orange Lorian Buff
+880071 Silent Black-orange Lorian Buff
+880072 Silent Black-orange Lorian Buff
+880073 Silent Black-orange Lorian Buff
+880074 Silent Black-orange Lorian Buff
+880075 Silent Black-orange Lorian Buff
 
 880202 Chaos Beam with sound
 
 880216 Silent Pacify Effect
+880217 Silent Pacify Effect
+880218 Silent Pacify Effect
+880219 Silent Pacify Effect
+880220 Silent Pacify Effect
+880221 Silent Pacify Effect
 
 880380 Silent Storm Ruler Wind Effect
+880381 Silent Storm Ruler Wind Effect
+880382 Silent Storm Ruler Wind Effect
+880383 Silent Storm Ruler Wind Effect
+880384 Silent Storm Ruler Wind Effect
+880385 Silent Storm Ruler Wind Effect
 
 882501 Angelic Barrage with sound
 
 884020 Lothric's Holy Spear with Soul Spear sound
 
 884112 Psychedelic Great Combustion
-
-880060 Black-orange Lorian Buff
 
 881032 Orange Moonlight Horizontal Wave
 881033 Orange Moonlight Wave Impact
@@ -201,9 +223,10 @@ dmy:
 881431 Pontiff Beam with sound
 881432 Pontiff Beam impact with sound
 
-886102 Black-orange Fireball
-886103 Black-orange Fireball
-886104
+886102 Black-orange Fireball (Big)
+886103 Black-orange Fireball (Big Impact)
+886104 Black-orange Fireball (Small)
+886105 Black-orange Fireball (Small Impact)
 
 893011 Blue Lightning Buff
 893012 Blue Lightning Buff

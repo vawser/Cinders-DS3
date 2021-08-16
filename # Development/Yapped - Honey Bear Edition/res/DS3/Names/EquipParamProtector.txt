@@ -102,6 +102,47 @@
 1361000 Humanity Sprite - Invisible Body (Transform)
 1362000 Humanity Sprite - Invisible Hands (Transform)
 1363000 Humanity Sprite - Invisible Legs (Transform)
+1500001 ### Colored Armor ###
+1510000 Elite Lothric Knight - Head
+1511000 Elite Lothric Knight - Body
+1512000 Elite Lothric Knight - Hands
+1513000 Elite Lothric Knight - Legs
+1520000 Blue Lothric Knight - Head (Open Helm)
+1530000 Lothric Knight - Head (Open Helm)
+1540000 Consumed King's Knight - Head
+1541000 Consumed King's Knight - Body
+1542000 Consumed King's Knight - Hands
+1543000 Consumed King's Knight - Legs
+1550000 Elite Deacon - Head
+1551000 Elite Deacon - Body
+1552000 Elite Deacon - Hands
+1553000 Elite Deacon - Legs
+1560000 Elite Solder - Head
+1561000 Elite Solder - Body
+1562000 Elite Solder - Hands
+1563000 Elite Solder - Legs
+1570000 Getrude's Knight - Head
+1571000 Getrude's Knight - Body
+1572000 Getrude's Knight - Hands
+1573000 Getrude's Knight - Legs
+1580000 Red Worker - Head
+1581000 Red Worker - Body
+1582000 Red Worker - Hands
+1583000 Red Worker - Legs
+1590000 Profaned Capital Handmaid - Head
+1591000 Profaned Capital Handmaid - Body
+1592000 Profaned Capital Handmaid - Hands
+1593000 Profaned Capital Handmaid - Legs
+1600000 Burned Firelink - Head
+1601000 Burned Firelink - Body
+1602000 Burned Firelink - Hands
+1603000 Burned Firelink - Legs
+1610000 Overgrown Lothric Knight - Head
+1611000 Overgrown Lothric Knight - Body
+1612000 Overgrown Lothric Knight - Hands
+1613000 Overgrown Lothric Knight - Legs
+1620000 Herald - Head (Lowered Visor)
+1630000 Undead Legion - Head
 10000001 ### Armor ###
 10010000 Gough's Helm
 10011000 Gough's Armor

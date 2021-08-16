@@ -97,8 +97,15 @@
 303 Stalk Dung Pie
 304 Duel Charm
 310 Throwing Knife
-311 Poison Throwing Knife
+311 Poisonous Knife
 315 Church Guardian Shiv
+320 Sorcerous Knife
+321 Flaming Knife
+322 Sparking Knife
+323 Abyssal Knife
+324 Cursed Knife
+325 Lacerating Knife
+326 Frigid Knife
 330 Charcoal Pine Resin
 331 Gold Pine Resin
 334 Human Pine Resin
@@ -463,6 +470,10 @@
 4451 Rotten Oil (Left)
 4460 Gust Oil
 4461 Gust Oil (Left)
+4470 Psychedelic Oil
+4471 Psychedelic Oil (Left)
+4480 Brume Oil
+4481 Brume Oil (Left)
 4500 Writ of Humanity
 4501 Writ of Anger
 4502 Writ of Crystallization
@@ -527,14 +538,35 @@
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###
-5400 Spellbound Bomb
-5410 Spellbound Urn
+5400 Spellbound Firebomb
+5401 Spellbound Black Firebomb
+5402 Spellbound Holy Water Urn
+5403 Spellbound Witching Urn
+5404 Spellbound Hexing Urn
+5410 Spellbound Lightning Urn
 5420 Spellbound Throwing Knife
+5421 Spellbound Sorcerous Knife
+5422 Spellbound Flaming Knife
+5423 Spellbound Sparking Knife
+5424 Spellbound Abyssal Knife
+5425 Spellbound Poisonous Knife
+5426 Spellbound Lacerating Knife
+5427 Spellbound Cursed Knife
+5428 Spellbound Frigid Knife
 5430 Spellbound Kukri
 5440 Spellbound Dung
 5450 Spellbound Skull
 5460 Spellbound Blossom
 5470 Spellbound Powder
+5480 Spellbound Charcoal Resin
+5481 Spellbound Pale Resin
+5482 Spellbound Gold Resin
+5483 Spellbound Human Resin
+5484 Spellbound Rotten Resin
+5485 Spellbound Carthus Rouge
+5486 Spellbound Frozen Resin
+5490 Spellbound Pellet
+5491 Spellbound Mossfruit
 5499 ### Items ###
 5500 Titanite Fragment
 5501 Inferi Petal
@@ -1015,7 +1047,28 @@
 12410 Fallen Prince's Insignia
 12411 Fallen Prince's Emblem
 12420 Eastern Commander Insignia
-12421 Eastern Commander Insignia
+12421 Eastern Commander Emblem
+12430 Elite Lothric Knight Insignia
+12431 Elite Lothric Knight Emblem
+12440 Elite Lothric Knight Insignia (Open Helm)
+12450 Lothric Knight Insignia (Open Helm)
+12460 Consumed King's Knight Insignia
+12461 Consumed King's Knight Emblem
+12471 Elite Deacon Emblem
+12480 Elite Soldier Insignia
+12481 Elite Soldier Emblem
+12490 Gertrude's Knight Insignia
+12491 Gertrude's Knight Emblem
+12500 Red Worker Insignia
+12501 Red Worker Emblem
+12510 Profaned Capital Handmaid Insignia
+12511 Profaned Capital Handmaid Emblem
+12520 Burnt Firelink Insignia
+12521 Burnt Firelink Emblem
+12530 Overgrown Lothric Knight Insignia
+12531 Overgrown Lothric Knight Emblem
+12540 Herald (Alt) Insignia
+12550 Undead Legion (Alt) Insignia
 20049 ### Companion Items ###
 20050 Rejuvenating Phial
 20051 Banishing Coin

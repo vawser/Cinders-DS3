@@ -1237,12 +1237,13 @@
 763000 Red Crystal Lizard
 764000 [Boss] Twisted Knight
 765000 [Boss] The Rock
-766000 Giant Sentinel (DSA)
+766000 Giant Sentinel
 767000 [Boss] Dismal Knight
 768000 [Boss] The Forlorn Giant
 770000 [Boss] Fallen Protector
 770100 [Boss] Fair Maiden
 771000 [Boss] Titanite Abomination
+772000 Royal Rat Authority
 804999 ### Memory Enemies ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion

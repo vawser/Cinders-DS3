@@ -316,9 +316,8 @@
 36042 [Bonfire - Halfway Fortress] Blooming Purple Moss Clump
 36043 [Bonfire - Irithyll Dungeon] Purging Stone
 36044 [Bonfire - Central Irithyll] Rime-blue Moss Clump
-36045 [Bonfire - Catacombs of Carthus] Kukri
-36046 [Bonfire - Default] Firebomb
-36047 [Bonfire - Farron Keep] Dung Pie
+36045 [Bonfire - Default] Firebomb
+36046 [Bonfire - Farron Keep] Dung Pie
 36048 [Bonfire - Pit of Hollows] Alluring Skull
 36049 [Bonfire - Cleansing Chapel] Undead Hunter Charm
 36050 [Bonfire - Church of Yorshka] Black Firebomb
@@ -328,21 +327,19 @@
 36054 [Bonfire - Farron Keep] Stalk Dung Pie
 36055 [Bonfire - Rosaria's Bed Chamber] Duel Charm
 36056 [Bonfire - Default] Throwing Knife
-36057 [Bonfire - Farron Keep] Poison Throwing Knife
+36057 [Bonfire - Halfway Fortress] Poison Throwing Knife
 36058 [Bonfire - Tower Basement] Charcoal Pine Resin
 36059 [Bonfire - Great Belfry] Gold Pine Resin
 36060 [Bonfire - Cleansing Chapel] Human Pine Resin
 36061 [Bonfire - Catacombs of Carthus] Carthus Rouge
 36062 [Bonfire - Irithyll Dungeon] Pale Pine Resin
-36063 [Bonfire - Tower Basement] Charcoal Pine Bundle
-36064 [Bonfire - Great Belfry] Gold Pine Bundle
 36065 [Bonfire - Farron Keep] Rotten Pine Resin
 36066 [Bonfire - Default] Homeward Bone
 36067 [Bonfire - Default] Prism Stone
 36068 [Bonfire - Farron Keep] Mossfruit
 36069 [Bonfire - Tower Basement] Young White Branch
 36070 [Bonfire - Profaned Capital] Rusted Coin
-36071 [Bonfire - Profaned Capital] Siegbr?�u
+36071 [Bonfire - Profaned Capital] Siegbrau
 36072 [Bonfire - Profaned Capital] Rusted Gold Coin
 36073 [Bonfire - Sage's Overlook] Blue Bug Pellet
 36074 [Bonfire - Old King's Antechamber] Red Bug Pellet
@@ -409,6 +406,13 @@
 36150 [Bonfire - Untended Graves] Barathrum Petal
 36151 [Bonfire - Grand Archives] Celeritas Stem
 36152 [Bonfire - Farron Keep] Veloxi Moss
+36153 [Bonfire - Sage's Overlook] Sorcerous Knife
+36154 [Bonfire - Old King's Antechamber] Flaming Knife
+36155 [Bonfire - Great Belfry] Sparking Knife
+36156 [Bonfire - Irithyll Dungeon] Abyssal Knife
+36157 [Bonfire - Irithyll Dungeon] Cursed Knife
+36158 [Bonfire - Catacombs of Carthus] Lacerating Knife
+36159 [Bonfire - Central Irithyll] Frigid Knife
 40000 [Yoel] Deep Barb
 40001 [Yoel] Whisper of Despair
 40002 [Yoel] Farron Dart
@@ -896,6 +900,27 @@
 210316 [Domhnall of Zena] Soul of a Fallen Astrologer
 210317 [Domhnall of Zena] Soul of a Fallen Berserker
 210318 [Domhnall of Zena] Soul of a Fallen Champion
+210319 [Domhnall of Zena] Elite Lothric Knight Insignia
+210320 [Domhnall of Zena] Elite Lothric Knight Emblem
+210321 [Domhnall of Zena] Elite Lothric Knight Insignia (Open Helm)
+210322 [Domhnall of Zena] Lothric Knight Insignia (Open Helm)
+210323 [Domhnall of Zena] Consumed King's Knight Insignia
+210324 [Domhnall of Zena] Consumed King's Knight Emblem
+210325 [Domhnall of Zena] Elite Deacon Emblem
+210326 [Domhnall of Zena] Elite Soldier Insignia
+210327 [Domhnall of Zena] Elite Soldier Emblem
+210328 [Domhnall of Zena] Gertrude's Knight Insignia
+210329 [Domhnall of Zena] Gertrude's Knight Emblem
+210330 [Domhnall of Zena] Red Worker Insignia
+210331 [Domhnall of Zena] Red Worker Emblem
+210332 [Domhnall of Zena] Profaned Capital Handmaid Insignia
+210333 [Domhnall of Zena] Profaned Capital Handmaid Emblem
+210334 [Domhnall of Zena] Burnt Firelink Insignia
+210335 [Domhnall of Zena] Burnt Firelink Emblem
+210336 [Domhnall of Zena] Overgrown Lothric Knight Insignia
+210337 [Domhnall of Zena] Overgrown Lothric Knight Emblem
+210338 [Domhnall of Zena] Herald (Alt) Insignia
+210339 [Domhnall of Zena] Undead Legion (Alt) Insignia
 220000 [Marvelous Chester] Snickering Top Hat
 220001 [Marvelous Chester] Chester's Long Coat
 220002 [Marvelous Chester] Chester's Gloves
@@ -927,9 +952,8 @@
 230005 [Crestfallen Merchant] Greataxe
 230006 [Crestfallen Merchant] Black Firebomb
 230007 [Crestfallen Merchant] Green Blossom
-230008 [Crestfallen Merchant] Charcoal Pine Bundle
-230009 [Crestfallen Merchant] Charcoal Pine Resin
-230010 [Crestfallen Merchant] Ring of Calamity
+230008 [Crestfallen Merchant] Charcoal Pine Resin
+230009 [Crestfallen Merchant] Ring of Calamity
 240000 [Astrologer Lillian - Sorcery] Farron Dart
 240001 [Astrologer Lillian - Sorcery] Soul Arrow
 240002 [Astrologer Lillian - Sorcery] Homing Soulmass
@@ -1437,6 +1461,10 @@
 250771 [Alchemist Jiji] Maggot Oil (Left)
 250780 [Alchemist Jiji] Gust Oil
 250781 [Alchemist Jiji] Gust Oil (Left)
+250782 [Alchemist Jiji] Psychedelic Oil
+250783 [Alchemist Jiji] Psychedelic Oil (Left)
+250784 [Alchemist Jiji] Brume Oil
+250785 [Alchemist Jiji] Brume Oil (Left)
 250800 [Alchemist Jiji - Writs] Writ of Humanity
 250801 [Alchemist Jiji - Writs] Writ of Anger
 250802 [Alchemist Jiji - Writs] Writ of Crystallization
@@ -1507,14 +1535,34 @@
 280015 [Ritualist Ellie] Offering of Devotion
 280016 [Ritualist Ellie] Offering of Fervor
 280100 [Ritualist Ellie] Opus of Rituals
-290000 [Occultist Grudore] Spellbound Bomb
+290000 [Occultist Grudore] Spellbound Firebomb
 290001 [Occultist Grudore] Spellbound Throwing Knife
 290020 [Occultist Grudore - Farron Coal] Spellbound Blossom
+290021 [Occultist Grudore - Farron Coal] Spellbound Flaming Knife
+290022 [Occultist Grudore - Farron Coal] Spellbound Poisonous Knife
+290023 [Occultist Grudore - Farron Coal] Spellbound Black Firebomb
+290024 [Occultist Grudore - Farron Coal] Spellbound Charcoal Resin
+290025 [Occultist Grudore - Farron Coal] Spellbound Rotten Resin
 290040 [Occultist Grudore - Sage's Coal] Spellbound Powder
 290041 [Occultist Grudore - Sage's Coal] Spellbound Skull
-290060 [Occultist Grudore - Giant's Coal] Spellbound Urn
-290080 [Occultist Grudore - Profaned Coal] Spellbound Kukri
-290081 [Occultist Grudore - Profaned Coal] Spellbound Dung
+290042 [Occultist Grudore - Sage's Coal] Spellbound Sorcerous Knife
+290043 [Occultist Grudore - Sage's Coal] Spellbound Frigid Knife
+290044 [Occultist Grudore - Sage's Coal] Spellbound Witching Urn
+290045 [Occultist Grudore - Sage's Coal] Spellbound Pale Resin
+290046 [Occultist Grudore - Sage's Coal] Spellbound Frozen Resin
+290060 [Occultist Grudore - Giant's Coal] Spellbound Lightning Urn
+290061 [Occultist Grudore - Giant's Coal] Spellbound Sparking Knife
+290062 [Occultist Grudore - Giant's Coal] Spellbound Holy Water Urn
+290063 [Occultist Grudore - Giant's Coal] Spellbound Gold Resin
+290064 [Occultist Grudore - Giant's Coal] Spellbound Mossfruit
+290065 [Occultist Grudore - Giant's Coal] Spellbound Pellet
+290080 [Occultist Grudore - Profaned Coal] Spellbound Dung
+290081 [Occultist Grudore - Profaned Coal] Spellbound Abyssal Knife
+290082 [Occultist Grudore - Profaned Coal] Spellbound Cursed Knife
+290083 [Occultist Grudore - Profaned Coal] Spellbound Hexing Urn
+290084 [Occultist Grudore - Profaned Coal] Spellbound Human Resin
+290085 [Occultist Grudore - Profaned Coal] Spellbound Lacerating Knife
+290086 [Occultist Grudore - Profaned Coal] Spellbound Carthus Rouge
 300000 [Erstwhile George] Gallant Helm
 300001 [Erstwhile George] Gallant Armor
 300002 [Erstwhile George] Gallant Gloves
@@ -3258,112 +3306,120 @@
 803309 [Gauntlet] Spell
 803310 [Gauntlet] Spell
 803311 [Gauntlet] Spell
-804000 [Gauntlet] Item
-804001 [Gauntlet] Item
-804002 [Gauntlet] Item
-804003 [Gauntlet] Item
-804004 [Gauntlet] Item
-804005 [Gauntlet] Item
-804006 [Gauntlet] Item
-804007 [Gauntlet] Item
-804008 [Gauntlet] Item
-804009 [Gauntlet] Item
-804010 [Gauntlet] Item
-804011 [Gauntlet] Item
-804012 [Gauntlet] Item
-804013 [Gauntlet] Item
-804014 [Gauntlet] Item
-804015 [Gauntlet] Item
-804016 [Gauntlet] Item
-804017 [Gauntlet] Item
-804018 [Gauntlet] Item
-804019 [Gauntlet] Item
-804020 [Gauntlet] Item
-804021 [Gauntlet] Item
-804022 [Gauntlet] Item
-804023 [Gauntlet] Item
-804024 [Gauntlet] Item
-804025 [Gauntlet] Item
-804026 [Gauntlet] Item
-804027 [Gauntlet] Item
-804028 [Gauntlet] Item
-804029 [Gauntlet] Item
-804030 [Gauntlet] Item
-804031 [Gauntlet] Item
-804032 [Gauntlet] Item
-804033 [Gauntlet] Item
-804034 [Gauntlet] Item
-804035 [Gauntlet] Item
-804036 [Gauntlet] Item
-804037 [Gauntlet] Item
-804038 [Gauntlet] Item
-804039 [Gauntlet] Item
-804040 [Gauntlet] Item
-804041 [Gauntlet] Item
-804042 [Gauntlet] Item
-804043 [Gauntlet] Item
-804044 [Gauntlet] Item
-804045 [Gauntlet] Item
-804046 [Gauntlet] Item
-804047 [Gauntlet] Item
-804048 [Gauntlet] Item
-804049 [Gauntlet] Item
-804050 [Gauntlet] Item
-804051 [Gauntlet] Item
-804052 [Gauntlet] Item
-804053 [Gauntlet] Item
-804054 [Gauntlet] Item
-804055 [Gauntlet] Item
-804056 [Gauntlet] Item
-804057 [Gauntlet] Item
-804058 [Gauntlet] Item
-804059 [Gauntlet] Item
-804060 [Gauntlet] Item
-804061 [Gauntlet] Item
-804062 [Gauntlet] Item
-804063 [Gauntlet] Item
-804064 [Gauntlet] Item
-804065 [Gauntlet] Item
-804066 [Gauntlet] Item
-804067 [Gauntlet] Item
-804068 [Gauntlet] Item
-804069 [Gauntlet] Item
-804070 [Gauntlet] Item
-804071 [Gauntlet] Item
-804072 [Gauntlet] Item
-804073 [Gauntlet] Item
-804074 [Gauntlet] Item
-804075 [Gauntlet] Item
-804076 [Gauntlet] Item
-804077 [Gauntlet] Item
-804078 [Gauntlet] Item
-804079 [Gauntlet] Item
-804080 [Gauntlet] Item
-804081 [Gauntlet] Item
-804082 [Gauntlet] Item
-804083 [Gauntlet] Item
-804084 [Gauntlet] Item
-804085 [Gauntlet] Item
-804086 [Gauntlet] Item
-804087 [Gauntlet] Item
-804088 [Gauntlet] Item
-804089 [Gauntlet] Item
-804090 [Gauntlet] Item
-804091 [Gauntlet] Item
-804092 [Gauntlet] Item
-804093 [Gauntlet] Item
-804094 [Gauntlet] Item
-804095 [Gauntlet] Item
-804096 [Gauntlet] Item
-804097 [Gauntlet] Item
-804098 [Gauntlet] Item
-804099 [Gauntlet] Item
-804100 [Gauntlet] Item
-804101 [Gauntlet] Item
-804102 [Gauntlet] Item
-804103 [Gauntlet] Item
-804104 [Gauntlet] Item
-804105 [Gauntlet] Item
+804000 [Gauntlet] Titanite Fragment
+804001 [Gauntlet] Inferi Petal
+804002 [Gauntlet] Combustum Petal
+804003 [Gauntlet] Vindicti Petal
+804004 [Gauntlet] Barathrum Petal
+804005 [Gauntlet] Celeritas Stem
+804006 [Gauntlet] Veloxi Moss
+804007 [Gauntlet] Lethal Gem
+804008 [Gauntlet] Curse Gem
+804009 [Gauntlet] Poison Gem
+804010 [Gauntlet] Blood Gem
+804011 [Gauntlet] Frost Gem
+804012 [Gauntlet] Magic Gem
+804013 [Gauntlet] Fire Gem
+804014 [Gauntlet] Lightning Gem
+804015 [Gauntlet] Dark Gem
+804016 [Gauntlet] Lucky Gem
+804017 [Gauntlet] Enchanted Gem
+804018 [Gauntlet] Holy Gem
+804019 [Gauntlet] Sharp Gem
+804020 [Gauntlet] Blunt Gem
+804021 [Gauntlet] Crystal Shard
+804022 [Gauntlet] Dragon Eye
+804023 [Gauntlet] Human Effigy
+804024 [Gauntlet] Devil's Trumpet
+804025 [Gauntlet] Moonflower
+804026 [Gauntlet] Henbane
+804027 [Gauntlet] Smouldering Stone
+804028 [Gauntlet] Infusing Essence
+804029 [Gauntlet] Degrading Essence
+804030 [Gauntlet] Tarnished Coin
+804031 [Gauntlet] Tarnished Silver Coin
+804032 [Gauntlet] Hexing Urn
+804033 [Gauntlet] Witching Urn
+804034 [Gauntlet] Old Growth Balm
+804035 [Gauntlet] Vine Balm
+804036 [Gauntlet] Blackweed Balm
+804037 [Gauntlet] Goldenfruit Balm
+804038 [Gauntlet] Brightbug
+804039 [Gauntlet] Young Grass Dew
+804040 [Gauntlet] Undead Bone Shard
+804041 [Gauntlet] Estus Shard
+804042 [Gauntlet] Titanite Shard
+804043 [Gauntlet] Large Titanite Shard
+804044 [Gauntlet] Titanite Chunk
+804045 [Gauntlet] Titanite Slab
+804046 [Gauntlet] Fire Seed
+804047 [Gauntlet] Crystal Fragment
+804048 [Gauntlet] Abyssal Fragment
+804049 [Gauntlet] Holy Fragment
+804050 [Gauntlet] Shriving Stone
+804051 [Gauntlet] Lifegem
+804052 [Gauntlet] Radiant Lifegem
+804053 [Gauntlet] Old Radiant Lifegem
+804054 [Gauntlet] Elizabeth Mushroom
+804055 [Gauntlet] Dried Root
+804056 [Gauntlet] Rouge Water
+804057 [Gauntlet] Crimson Water
+804058 [Gauntlet] Ember
+804059 [Gauntlet] Mossfruit
+804060 [Gauntlet] Rusted Coin
+804061 [Gauntlet] Siegbrau
+804062 [Gauntlet] Rusted Gold Coin
+804063 [Gauntlet] Blue Bug Pellet
+804064 [Gauntlet] Red Bug Pellet
+804065 [Gauntlet] Yellow Bug Pellet
+804066 [Gauntlet] Black Bug Pellet
+804067 [Gauntlet] Young White Branch
+804069 [Gauntlet] Prism Stone
+804070 [Gauntlet] Homeward Bone
+804071 [Gauntlet] Coiled Sword Fragment
+804072 [Gauntlet] Divine Blessing
+804073 [Gauntlet] Hidden Blessing
+804074 [Gauntlet] Green Blossom
+804075 [Gauntlet] Budding Green Blossom
+804076 [Gauntlet] Bloodred Moss Clump
+804077 [Gauntlet] Purple Moss Clump
+804078 [Gauntlet] Blooming Purple Moss Clump
+804079 [Gauntlet] Purging Stone
+804080 [Gauntlet] Cleansing Pendant
+804081 [Gauntlet] Rime-blue Moss Clump
+804082 [Gauntlet] Repair Powder
+804084 [Gauntlet] Firebomb
+804085 [Gauntlet] Dung Pie
+804086 [Gauntlet] Alluring Skull
+804087 [Gauntlet] Undead Hunter Charm
+804088 [Gauntlet] Black Firebomb
+804089 [Gauntlet] Rope Firebomb
+804090 [Gauntlet] Lightning Urn
+804091 [Gauntlet] Rope Black Firebomb
+804092 [Gauntlet] Stalk Dung Pie
+804093 [Gauntlet] Duel Charm
+804094 [Gauntlet] Throwing Knife
+804095 [Gauntlet] Poisonous Knife
+804096 [Gauntlet] Church Guardian Shiv
+804097 [Gauntlet] Charcoal Pine Resin
+804098 [Gauntlet] Gold Pine Resin
+804099 [Gauntlet] Human Pine Resin
+804100 [Gauntlet] Carthus Rouge
+804101 [Gauntlet] Pale Pine Resin
+804104 [Gauntlet] Rotten Pine Resin
+804105 [Gauntlet] Frozen Pine Resin
+804106 [Gauntlet] Weapon Token
+804107 [Gauntlet] Armor Token
+804108 [Gauntlet] Accessory Token
+804109 [Gauntlet] Holy Water Urn
+804110 [Gauntlet] Primordial Fragment
+804111 [Gauntlet] Sorcerous Knife
+804112 [Gauntlet] Flaming Knife
+804113 [Gauntlet] Sparking Knife
+804114 [Gauntlet] Abyssal Knife
+804115 [Gauntlet] Cursed Knife
+804116 [Gauntlet] Lacerating Knife
+804117 [Gauntlet] Frigid Knife
 804200 [Gauntlet] Ammunition
 804201 [Gauntlet] Ammunition
 804202 [Gauntlet] Ammunition

@@ -2,6 +2,7 @@
 9999 ### NPC Weapons ###
 10000 Bloodlust
 10100 Uchigatana
+10200 Fume Ultra Greatsword
 11000 Bewitched Alonne Sword
 12000 Bloodletter
 13000 Ciaran's Tracers
@@ -15,8 +16,11 @@
 20000 Firebomb
 20100 Black Firebomb
 20200 Lightning Urn
-20300 Throwing Knife
-20400 Poison Throwing Knife
+20300 Throwing Knife - Normal
+20301 Throwing Knife - Curse
+20302 Throwing Knife - Poison
+20303 Throwing Knife - Bleed
+20304 Throwing Knife - Frost
 20500 Kukri
 20600 Church Guardian Shiv
 20700 Dung Pie
@@ -27,6 +31,7 @@
 21200 Dragon Stone Tool
 21300 Holy Water Urn
 21400 Throwing Frying Pan
+21500 Spellbound Tools
 90999 ### Test Data ###
 91000 [Load Check] memory Check 1
 91100 [Load Check] memory Check 1
@@ -4500,21 +4505,21 @@
 30061200 Irithyll Lance [Holy]
 30061300 Irithyll Lance [Sharp]
 30061400 Irithyll Lance [Blunt]
-30070000 Fume Sword [Unique]
-30070100 Fume Sword [Lethal]
-30070200 Fume Sword [Curse]
-30070300 Fume Sword [Poison]
-30070400 Fume Sword [Blood]
-30070500 Fume Sword [Frost]
-30070600 Fume Sword [Magic]
-30070700 Fume Sword [Fire]
-30070800 Fume Sword [Lightning]
-30070900 Fume Sword [Dark]
-30071000 Fume Sword [Lucky]
-30071100 Fume Sword [Enchanted]
-30071200 Fume Sword [Holy]
-30071300 Fume Sword [Sharp]
-30071400 Fume Sword [Blunt]
+30070000 Fume Slated Swords [Unique]
+30070100 Fume Slated Swords [Lethal]
+30070200 Fume Slated Swords [Curse]
+30070300 Fume Slated Swords [Poison]
+30070400 Fume Slated Swords [Blood]
+30070500 Fume Slated Swords [Frost]
+30070600 Fume Slated Swords [Magic]
+30070700 Fume Slated Swords [Fire]
+30070800 Fume Slated Swords [Lightning]
+30070900 Fume Slated Swords [Dark]
+30071000 Fume Slated Swords [Lucky]
+30071100 Fume Slated Swords [Enchanted]
+30071200 Fume Slated Swords [Holy]
+30071300 Fume Slated Swords [Sharp]
+30071400 Fume Slated Swords [Blunt]
 30080000 Machete [Normal]
 30080100 Machete [Lethal]
 30080200 Machete [Curse]

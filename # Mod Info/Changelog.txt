@@ -92,7 +92,7 @@ Finish following weapons:
 
 # Lost Cat
 - Shield Catalyst - Loch Shield/Disc Chime
-- Grand Lance/Chariot Lance
+- Grand Lance/Chariot Lance/Heide Lance
 - Covenant Inventory
 - Piercing Rifle
 - Gehrman's Blunderbuss
@@ -100,10 +100,98 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+
+# Infusions
+- Fire infusion now increases max Stamina by 20%.
+- Lightning infusion now boosts Armor Poise by 20%.
+
+# Weapons
+- Changed moveset for the following weapon class:
+ - Claw 		
+  - Claws (Stance)
+  - Manikin Claws (Leaping Slash)
+  - Beast Claws (Bestial Pounce)
+
+ - Ultra Greatsword 	
+  - Fume Ultra Greatsword (Raime's Fury)
+  - Fume Slated Swords (Nadalia's Wrath), a paired weapon (Fume Ultra Greatsword with Fume Sword), Fume Sword (Straight Sword) is removed.
  
+ - Great Hammer
+  - Great Wooden Hammer (Spin Bash)
+  - Spiked Mace (Spin Bash)
+  - Morne's Great Hammer (Morne's Rage)
+  - Great Mace (Perseverance)
+  - Greatwood Club (Spin Bash)
+  - Church Pick (Righteous Rush)
+
+- Switch left/right model of the Beast Claw.
+- Smooth several transitions between attacks for the new moveset.
+- Adjusted the stamina costs of Ringed Knight Paired Greatsword.
+- Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
+- Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
+- Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
+- Lances now have their own Weapon Class:
+ - Irithyll Lance
+ - Greatlance
+ - Rampart Golem Lance
+
+- Minor Moveset Changes:
+ - Rolling 1H R1 for Alternate Scythe moveset.
+ - 4th 1H R1 for Alternate Straight Sword moveset. 
+ - Slight event arrangement for Ciaran's Tracers.
+
+# Consumables
+- Adjusted several oil visual.
+- Added the following oils:
+ - Psychedelic Oil
+ - Brume Oil
+- All damage buffing resin consumables now add 100 damage.
+- Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
+- Added new spellbound item versions of all throwing knives and the other kind of firebombs/urns.
+- Added new spellbound item versions of each resin, they add 100 damage + 10% and last 10 seconds, aux resins have higher build up and last 20 seconds, and both types use the bundle animation.
+- Added Spellbound Pellet, grants immunity to damage for 5 seconds.
+- Added Spellbound Mossfruit, grants immunity to status effects for 10 seconds.
+- Changed how the spellbound items work:
+ - Removed their Luck scaling and made them better by default.
+ - They require to be charged to be used.
+ - Charges are gained by attacking enemies with any melee weapon, the amount gained usually depends on the weapon class.
+ - When there are not enough charges the item's icon darkens and can't be used.
+ - The amount of charges required varies per item.
+ - Charges can be "stored" to use the items more than once consecutively, but there is a max limit.
+
+- Added the following illusion/insignia:
+ - Elite Lothric Knight Set
+ - Elite Lothric Knight Helm (Opened Helm)
+ - Lothric Knight Helm (Opened Helm)
+ - Consumed King's Knight Set
+ - Elite Deacon Set
+ - Elite Soldier Set
+ - Gertrude's Knight Set
+ - Red Worker Set
+ - Profaned Capital Handmaid Set
+ - Burnt Firelink Set
+ - Overgrown Lothric Knight Set
+ - Herald Helm (Lowered Visor)
+ - Undead Legion Helm (Only Cap)
+- They can be purchased from the Company of Champion's convenant shop (2 awestones and 5000 souls each).
+
+# Spells
+- Adjusted several weapon buffs visual.
+
+# Npcs
+- Npc main weapon is now always +10.
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
+- Fixed several weapon hitbox:
+ - Giant's Halberd
+ - Bone Scythe
+ - Scythe of Nahr Alma
+- Fixed new oils vfx not showing up for dual weapons.
+- Fixed Katana unsheath animation.
+- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
+- Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
  
 #------------------------------
 # TODO

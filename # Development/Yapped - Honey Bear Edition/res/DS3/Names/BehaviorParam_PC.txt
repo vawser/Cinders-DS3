@@ -832,7 +832,8 @@
 102508711 Wolf Knight's Greatsword - Weapon Art
 102510700 Greatsword of Judgment
 102510710 Greatsword of Judgment
-102510715 Greatsword of Judgment
+102510715 Greatsword of Judgment (Wave)
+102510800 Greatsword of Judgment (Beam)
 102511700 Twin Princes' Greatsword
 102511705 Twin Princes' Greatsword
 102511710 Twin Princes' Greatsword
@@ -1172,8 +1173,11 @@
 102607705 Ivory King UGS - WA Second Hit
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
+102610005 Fume Slated Sword - 2H Light #1
 102610010 Fume Ultra Greatsword
+102610015 Fume Slated Sword - 2H Light #2
 102610020 Fume Ultra Greatsword
+102610025 Fume Slated Sword - 2H Light #3
 102610030 Fume Ultra Greatsword
 102610040 Fume Ultra Greatsword
 102610050 Fume Ultra Greatsword
@@ -1193,8 +1197,8 @@
 102610310 Fume Ultra Greatsword
 102610315 Fume Ultra Greatsword
 102610400 Fume Ultra Greatsword
-102610410 Fume Ultra Greatsword
-102610420 Fume Ultra Greatsword
+102610415 Fume Ultra Greatsword
+102610425 Fume Ultra Greatsword
 102610430 Fume Ultra Greatsword
 102610440 Fume Ultra Greatsword
 102610450 Fume Ultra Greatsword
@@ -1211,13 +1215,36 @@
 102610517 Fume Ultra Greatsword
 102610520 Fume Ultra Greatsword
 102610530 Fume Ultra Greatsword
+102610535 Fume Slated Sword - 2H Running
 102610540 Fume Ultra Greatsword
 102610580 Fume Ultra Greatsword
+102610585 Fume Slated Sword - 2H Roll
 102610600 Fume Ultra Greatsword
 102610610 Fume Ultra Greatsword
 102610615 Fume Ultra Greatsword
+102610620 Fume Slated Sword - 2H Special #1 - First Hit
+102610621 Fume Slated Sword - 2H Special #1 - Second Hit
+102610630 Fume Slated Sword - 2H Special #2 - First Hit
+102610631 Fume Slated Sword - 2H Special #2 - Second Hit
+102610640 Fume Slated Sword - 2H Special #3 - First Hit
+102610641 Fume Slated Sword - 2H Special #3 - Second Hit
 102610701 Fume Ultra Greatsword
+102610705 Fume Slated Sword - WA #1 - First Hit
+102610706 Fume Slated Sword - WA #1 - Second Hit
+102610707 Fume Slated Sword - WA #1 - Vertical Wave - First
+102610708 Fume Slated Sword - WA #1 - Vertical Wave - Second
+102610710 Fume Slated Sword - WA #2 - Shockwave
+102610711 Fume Slated Sword - WA #2 - Initial Hit
+102610712 Fume Slated Sword - WA #2 - Burst
+102610750 Fume Slated Sword - 2H Special Running - First Hit
+102610751 Fume Slated Sword - 2H Special Running - Second Hit
+102610760 Fume Slated Sword - 2H Special Roll - First Hit
+102610761 Fume Slated Sword - 2H Special Roll - Second Hit
 102610790 Fume Ultra Greatsword
+102610800 Fume Ultra Greatsword - Kick - Bullet
+102610805 Fume Ultra Greatsword - Kick - Bullet
+102610910 Fume Ultra Greatsword - Perseverance
+102610915 Fume Ultra Greatsword - Black Fire Balls
 102611105 Profaned Greatsword
 102611106 Profaned Greatsword
 102611115 Profaned Greatsword
