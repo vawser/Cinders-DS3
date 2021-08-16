@@ -6665,6 +6665,38 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetEventFlag(X28_4, ON);
 });
 
+ 
+//-------------------------------------------
+// Simple Summon - Setup
+// <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>
+//-------------------------------------------
+Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    var flag_BossDefeated   = X0_4;
+    var flag_Summon_Active  = X4_4;
+    var flag_Summon_Dismiss = X8_4;
+    
+    var entity_Summon = X12_4
+    
+    var trigger_Spawnpoint = X16_4;
+    
+    // Skip if no invaders are present
+    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
+    SetNetworkUpdateAuthority(entity_Summon, AuthorityLevel.Forced);
+    
+    // End function if boss has already been killed
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
+    
+    // Check summon sign conditions
+    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
+    IfCharacterBackreadStatus(AND_01, entity_Summon, true, ComparisonType.Equal, 1); // Summon is loaded
+    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, entity_Summon, 10000, 10, 1); // Summon position is near player
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Place summon sign
+    PlaceNPCSummonSign(SummonSignType.WhiteSign, entity_Summon, trigger_Spawnpoint, flag_Summon_Active, flag_Summon_Dismiss);
+});
+
 //----------------------------------------------
 // NPC - Talk Toggle
 //----------------------------------------------

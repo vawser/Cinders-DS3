@@ -3412,12 +3412,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetEventFlag(25009810, ON);
-    SetEventFlag(25009811, OFF);
-    SetEventFlag(25009812, OFF);
-    SetEventFlag(25009813, OFF);
-    SetEventFlag(25009814, OFF);
-    SetEventFlag(25009815, OFF);
+    SetMapCeremony(30, 0, 20);
     
     EndUnconditionally(EventEndType.Restart);
 });
