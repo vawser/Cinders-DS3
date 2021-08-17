@@ -178,6 +178,9 @@ Finish following weapons:
  - Undead Legion Helm (Only Cap)
 - They can be purchased from the Company of Champion's convenant shop (2 awestones and 5000 souls each).
 
+# Items
+- Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
+
 # Spells
 - Adjusted several weapon buffs visual.
 
@@ -208,6 +211,7 @@ Finish following weapons:
 - Greirat will no longer show the pillage option (as it has been removed).
 - Fixed Scribe Vadan's dialogue.
 - You can now enter the Cathedral Guardian fight via the pit.
+- Fixed the messages in Dreg Heap showing the incorrect text.
  
 #------------------------------
 # TODO
@@ -220,6 +224,14 @@ Add interaction with statue in Irithyll in dog section:
  
 # Companions
 Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
+
+# Covenant
+- Added a Devotion system for each covenant:
+    - While you have the covenant's accessory equipped, you can increase your devotion in exchange for the covenant material.
+    - Increasing devotion will increase the rank of the accessory, improving its effect.
+    
+- Added Priestess Emilia, a covenant NPC for Way of Blue. Appears after you receive the accessory from High Priestess Emma.
+- Added Knight Lun, a covenant NPC for Blue Sentinels. Appears after you receive the accessory from Horace in Halfway Fortress
 
 Darkmoon Faithful: ###
  - Yorshka (m37) # 370160
@@ -250,10 +262,8 @@ Chaos Servant:
  - Fire Seed (1060)
  
 Rosaria's Fingers: 
- - Rosaria (m35) #350020
+ - Rosaria (m35) # 350020
  - Pale Tongue (373)
- 
- c1111(22200, 22399)
  
 Spears of the Church: 
  - Monument (m51) # 510020

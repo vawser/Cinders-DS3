@@ -4,8 +4,8 @@
 <version>DarkSouls3</version>
 <bigendian>False</bigendian>
 <entries>
-<text id="5000">Take the plunge. You won’t die.</text>
-<text id="5001">Take the plunge.</text>
+<text id="5010">Take the plunge. You won’t die.</text>
+<text id="5011">Take the plunge.</text>
 <text id="5100">If only I had a mimicry...</text>
 </entries>
 </fmg>

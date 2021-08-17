@@ -163,7 +163,7 @@ def t400512_x9():
         AddTalkListData(1, 99062000, -1)
         
         # Talk
-        # AddTalkListData(2, 15000000, -1)
+        AddTalkListData(2, 15000000, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -178,7 +178,7 @@ def t400512_x9():
             continue
         # Talk
         elif GetTalkListEntryResult() == 2:
-            assert t400512_x10(text1=10017000, flag1=0, mode1=0)
+            assert t400512_x10(text1=10132000, flag1=0, mode1=0)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -240,6 +240,9 @@ def t400512_x20():
         # Strengthen Bond - V
         AddTalkListDataIf(IsEquipmentIDEquipped(2, 10143) == 1, 6, 99062001, -1)
         
+        # Strengthen Bond - None
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10140) == 0, 7, 99062001, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -249,6 +252,7 @@ def t400512_x20():
         # Form Covenant
         if GetTalkListEntryResult() == 1:
             GetItemFromItemLot(800001150)
+            ReportConversationEndToHavokBehavior()
             return 0
         # View Inventory
         elif GetTalkListEntryResult() == 2:
@@ -272,6 +276,11 @@ def t400512_x20():
         # Strengthen Bond - V
         elif GetTalkListEntryResult() == 6:
             assert t400512_x63()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - None
+        elif GetTalkListEntryResult() == 7:
+            assert t400512_x52(action1=99062005)
             ReportConversationEndToHavokBehavior()
             return 0
         # Leave

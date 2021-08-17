@@ -278,8 +278,11 @@ def t400508_x12():
         # Strengthen Bond - V
         AddTalkListDataIf(IsEquipmentIDEquipped(2, 10183) == 1, 6, 99062001, -1)
         
+        # Strengthen Bond - None
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10180) == 0, 7, 99062001, -1)
+        
         # Imbuement
-        AddTalkListData(7, 99016030, -1)
+        AddTalkListData(8, 99016030, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -315,8 +318,13 @@ def t400508_x12():
             assert t400508_x63()
             ReportConversationEndToHavokBehavior()
             return 0
-        # Imbuement
+        # Strengthen Bond - None
         elif GetTalkListEntryResult() == 7:
+            assert t400508_x52(action1=99062005)
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Imbuement
+        elif GetTalkListEntryResult() == 8:
             assert t400508_x20()
             return 0
         # Leave

@@ -294,13 +294,20 @@ Event(0, Default, function() {
     //--------------------
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
     InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
-    InitializeEvent(0, 20043, 10000, 160500060); // Numbness
-    InitializeEvent(1, 20043, 10000, 160500061); // Numbness - Ascended
-    InitializeEvent(0, 20045, 10000, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 20045, 10000, 160700320, 20002); // Moonflower
     InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
     InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
     InitializeEvent(0, 20048, 0); // Frostbite Removal
+    
+    //--------------------
+    // Camera Effects
+    //--------------------
+    InitializeEvent(0, 20045, 160700310, 20001); // Devil's Trumpet
+    InitializeEvent(1, 20045, 160700320, 20002); // Moonflower
+    InitializeEvent(2, 20045, 160500060, 20000); // Numbness
+    
+    //--------------------
+    // Debug Tools
+    //--------------------
     InitializeEvent(0, 20060, 10000); // Event Flag Tool
     InitializeEvent(0, 20061, 10000); // Screenshot Tool
     InitializeEvent(0, 20062, 10000); // Treasure Tool
@@ -2292,15 +2299,21 @@ Event(20043, Default, function(X0_4, X4_4) {
 
 //------------------------------------------------
 // Item - Camera Override
+// <trigger speffect>, <camera entry>
 //------------------------------------------------
-Event(20045, Default, function(X0_4, X4_4, X8_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    ChangeCamera(X8_4, X8_4);
-    Label0();
-    IfCharacterHasSpeffect(AND_02, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, FAIL, AND_02);
+Event(20045, Default, function(X0_4, X4_4) {
+    // Add camera effect if trigger effect is present
+    SkipIfCharacterHasSpEffect(1, 10000, X0_4, false, ComparisonType.Equal, 1);
+    ChangeCamera(X4_4, X4_4);
+
+    // Remove if trigger effect has been removed
+    SkipIfCharacterHasSpEffect(1, 10000, X0_4, true, ComparisonType.Equal, 1);
     ChangeCamera(-1, -1);
+    
+    // Remove if Cleansing Potion is used
+    SkipIfCharacterHasSpEffect(1, 10000, 160701000, false, ComparisonType.Equal, 1);
+    ChangeCamera(-1, -1);
+
     EndUnconditionally(EventEndType.Restart);
 });
 

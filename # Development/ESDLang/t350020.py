@@ -577,6 +577,9 @@ def t350020_x50():
         # Strengthen Bond - V
         AddTalkListDataIf(IsEquipmentIDEquipped(2, 10083) == 1, 6, 99062001, -1)
         
+        # Strengthen Bond - None
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10080) == 0, 7, 99062001, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -609,6 +612,11 @@ def t350020_x50():
         # Strengthen Bond - V
         elif GetTalkListEntryResult() == 6:
             assert t350020_x63()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - None
+        elif GetTalkListEntryResult() == 7:
+            assert t350020_x52(action1=99062005)
             ReportConversationEndToHavokBehavior()
             return 0
         # Leave

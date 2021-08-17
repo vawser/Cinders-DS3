@@ -159,11 +159,8 @@ def t320010_x9():
     while True:
         ClearTalkListData()
        
-        # Offerings
-        AddTalkListData(1, 15003009, -1)
-        
-        # Form Covenant
-        AddTalkListDataIf(GetEventStatus(25000205) == 0, 2, 15003019, -1)
+        # Covenant
+        AddTalkListData(1, 99062000, -1)
         
         # Learn Gesture
         AddTalkListDataIf(GetEventStatus(25000302) == 0, 9, 99000960, -1)
@@ -174,15 +171,13 @@ def t320010_x9():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
+        # Covenant
         if GetTalkListEntryResult() == 1:
-            c1111(22700, 22799)
-            return 0
-        elif GetTalkListEntryResult() == 2:
-            SetEventState(25000205, 1)
-            GetItemFromItemLot(800001100)
-            return 0
+            assert t320010_x50()
+            continue
+        # Learn Gesture
         elif GetTalkListEntryResult() == 9:
-            assert t320010_x50(z2=29, z3=9030, flag1=25000302)
+            assert t320010_x10(z2=29, z3=9030, flag1=25000302)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -191,7 +186,7 @@ def t320010_x9():
 # Utility
 #----------------------------------------------------
 # Acquire Gesture
-def t320010_x50(z2=_, z3=_, flag1=_):
+def t320010_x10(z2=_, z3=_, flag1=_):
     """ State 0,1 """
     if GetEventStatus(flag1) == 1:
         """ State 2 """
@@ -204,3 +199,170 @@ def t320010_x50(z2=_, z3=_, flag1=_):
         assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
     """ State 5 """
     return 0
+    
+#----------------------------------------------------
+# Covenant
+#----------------------------------------------------
+def t320010_x50():
+    c1110()
+    while True:
+        ClearTalkListData()
+
+        # Form Covenant
+        AddTalkListDataIf(IsEquipmentIDObtained(2, 10130) == 0, 1, 15003019, -1)
+        
+        # View Inventory
+        AddTalkListData(2, 99062003, -1)
+        
+        # Strengthen Bond - II
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10130) == 1, 3, 99062001, -1)
+        
+        # Strengthen Bond - III
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10131) == 1, 4, 99062001, -1)
+        
+        # Strengthen Bond - IV
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10132) == 1, 5, 99062001, -1)
+        
+        # Strengthen Bond - V
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10133) == 1, 6, 99062001, -1)
+        
+        # Strengthen Bond - None
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10130) == 0, 7, 99062001, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Form Covenant
+        if GetTalkListEntryResult() == 1:
+            GetItemFromItemLot(800001100)
+            return 0
+        # View Inventory
+        elif GetTalkListEntryResult() == 2:
+            c1111(22700, 22799)
+            continue
+        # Strengthen Bond - II
+        elif GetTalkListEntryResult() == 3:
+            assert t320010_x60()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - III
+        elif GetTalkListEntryResult() == 4:
+            assert t320010_x61()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - IV
+        elif GetTalkListEntryResult() == 5:
+            assert t320010_x62()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - V
+        elif GetTalkListEntryResult() == 6:
+            assert t320010_x63()
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Strengthen Bond - None
+        elif GetTalkListEntryResult() == 7:
+            assert t320010_x52(action1=99062005)
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------
+# Utility
+#----------------------------------------------------
+def t320010_x51(action2=_):
+    """ State 0,1 """
+    OpenGenericDialog(8, action2, 3, 4, 2)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    if GetGenericDialogButtonResult() == 1:
+        """ State 3 """
+        return 0
+    else:
+        """ State 4 """
+        return 1
+        
+def t320010_x52(action1=_):
+    """ State 0,1 """
+    OpenGenericDialog(7, action1, 1, 0, 1)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    return 0
+    
+# Strengthen Bond - II
+def t320010_x60():
+    call = t320010_x51(action2=99062004)
+    
+    if call.Get() == 0:
+        if ComparePlayerInventoryNumber(3, 4015, 3, 9, 0) == 1:
+            assert t320010_x52(action1=99062220)
+        else:
+            PlayerEquipmentQuantityChange(3, 4015, -10)
+            PlayerEquipmentQuantityChange(2, 10130, -1)
+            PlayerEquipmentQuantityChange(2, 10131, 1)
+            
+            assert t320010_x52(action1=99062002)
+    elif call.Get() == 1:
+        pass
+    return 0
+    
+# Strengthen Bond - III
+def t320010_x61():
+    call = t320010_x51(action2=99062004)
+    
+    if call.Get() == 0:
+        if ComparePlayerInventoryNumber(3, 4015, 3, 19, 0) == 1:
+            assert t320010_x52(action1=99062221)
+        else:
+            PlayerEquipmentQuantityChange(3, 4015, -20)
+            PlayerEquipmentQuantityChange(2, 10131, -1)
+            PlayerEquipmentQuantityChange(2, 10132, 1)
+            
+            assert t320010_x52(action1=99062002)
+    elif call.Get() == 1:
+        pass
+    return 0
+    
+# Strengthen Bond - IV
+def t320010_x62():
+    call = t320010_x51(action2=99062004)
+    
+    if call.Get() == 0:
+        if ComparePlayerInventoryNumber(3, 4015, 3, 29, 0) == 1:
+            assert t320010_x52(action1=99062222)
+        else:
+            PlayerEquipmentQuantityChange(3, 4015, -30)
+            PlayerEquipmentQuantityChange(2, 10132, -1)
+            PlayerEquipmentQuantityChange(2, 10133, 1)
+            
+            assert t320010_x52(action1=99062002)
+    elif call.Get() == 1:
+        pass
+    return 0
+    
+# Strengthen Bond - V
+def t320010_x63():
+    call = t320010_x51(action2=99062004)
+    
+    if call.Get() == 0:
+        if ComparePlayerInventoryNumber(3, 4015, 3, 49, 0) == 1:
+            assert t320010_x52(action1=99062223)
+        else:
+            PlayerEquipmentQuantityChange(3, 4015, -50)
+            PlayerEquipmentQuantityChange(2, 10133, -1)
+            PlayerEquipmentQuantityChange(2, 10134, 1)
+            
+            assert t320010_x52(action1=99062002)
+    elif call.Get() == 1:
+        pass
+    return 0
+    
