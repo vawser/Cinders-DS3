@@ -187,6 +187,10 @@ Finish following weapons:
 # Enemies
 - Red Crystal Lizards now always drop Lizard Hide.
 
+# Bosses
+- Removed the crying baby sounds from the Titanite Abomination.
+- Tweaked the vfx of Princess Yngvil to be less blinding.
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
