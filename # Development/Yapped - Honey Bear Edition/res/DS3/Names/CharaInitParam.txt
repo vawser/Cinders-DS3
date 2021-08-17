@@ -314,6 +314,8 @@
 722600 Pyromancy Scribe
 722700 Miracle Scribe
 722800 Hex Scribe
+722900 Priestess Emilia
+723000 Knight Lun
 999999 ### Enemies ###
 1000000 Bonfire
 1000010 1000010: [For the weapon animation confirmation] ◎ 01 Dagger (id_20: Dagger)

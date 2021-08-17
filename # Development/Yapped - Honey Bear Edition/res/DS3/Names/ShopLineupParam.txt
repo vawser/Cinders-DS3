@@ -155,6 +155,9 @@
 22921 [Servant of the Rat] Vine Balm
 22922 [Servant of the Rat] Blackweed Balm
 22923 [Servant of the Rat] Goldenfruit Balm
+23000 [Blue Sentinels] Ember
+23100 [Way of Blue] Ember
+23200 [Thieves' Pact] Ember
 30000 [Ludleth - Dismal Knight] Accursed Sigil
 30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -671,10 +674,6 @@
 111671 [Shrine Handmaid - Yhorm] Catarina Armor
 111672 [Shrine Handmaid - Yhorm] Catarina Gauntlets
 111673 [Shrine Handmaid - Yhorm] Catarina Leggings
-111680 [Shrine Handmaid - Demon Prince] Lapp's Helm
-111681 [Shrine Handmaid - Demon Prince] Lapp's Armor
-111682 [Shrine Handmaid - Demon Prince] Lapp's Gauntlets
-111683 [Shrine Handmaid - Demon Prince] Lapp's Leggings
 119904 [Shrine Handmaid - Untended Graves] White Sign Soapstone
 119905 [Shrine Handmaid - Untended Graves] Dried Finger
 119907 [Shrine Handmaid - Untended Graves] Priestess Ring

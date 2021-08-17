@@ -367,71 +367,71 @@
 200025 Awestone - 25
 200030 Awestone - 30
 200100 Awestone - 50
-200300 Darkmoon Faithful - 15
-200301 Darkmoon Faithful - 10
-200302 Darkmoon Faithful - 5
-200303 Darkmoon Faithful - 3
-200304 Darkmoon Faithful - 1
-200400 Warriors of Sunlight - 15
-200401 Warriors of Sunlight - 10
-200402 Warriors of Sunlight - 5
-200403 Warriors of Sunlight - 3
-200404 Warriors of Sunlight - 1
-200500 Mound-makers - 15
-200501 Mound-makers - 10
-200502 Mound-makers - 5
-200503 Mound-makers - 3
-200504 Mound-makers - 1
-200600 Watchdogs of Farron - 15
-200601 Watchdogs of Farron - 10
-200602 Watchdogs of Farron - 5
-200603 Watchdogs of Farron - 3
-200604 Watchdogs of Farron - 1
-200700 Aldrich Faithful - 15
-200701 Aldrich Faithful - 10
-200702 Aldrich Faithful - 5
-200703 Aldrich Faithful - 3
-200704 Aldrich Faithful - 1
-200800 Rosaria's Fingers - 15
-200801 Rosaria's Fingers - 10
-200802 Rosaria's Fingers - 5
-200803 Rosaria's Fingers - 3
-200804 Rosaria's Fingers - 1
-200900 Spears of the Church - 15
-200901 Spears of the Church - 10
-200902 Spears of the Church - 5
-200903 Spears of the Church - 3
-200904 Spears of the Church - 1
-201000 Chaos Servant - 10
-201001 Chaos Servant - 5
-201002 Chaos Servant - 3
-201003 Chaos Servant - 2
-201004 Chaos Servant - 1
-201100 Vinheim Scholars - 10
-201101 Vinheim Scholars - 5
-201102 Vinheim Scholars - 3
-201103 Vinheim Scholars - 2
-201104 Vinheim Scholars - 1
-201200 Pilgrims of Dark - 10
-201201 Pilgrims of Dark - 5
-201202 Pilgrims of Dark - 3
-201203 Pilgrims of Dark - 2
-201204 Pilgrims of Dark - 1
-201300 Dragon Remnants - 15
-201301 Dragon Remnants - 10
-201302 Dragon Remnants - 5
-201303 Dragon Remnants - 3
-201304 Dragon Remnants - 1
-201400 Way of White - 10
-201401 Way of White - 5
-201402 Way of White - 3
-201403 Way of White - 2
-201404 Way of White - 1
-201500 Servant of the Rat - 30
-201501 Servant of the Rat - 5
-201502 Servant of the Rat - 3
-201503 Servant of the Rat - 2
-201504 Servant of the Rat - 1
+200300 Proof of a Concord Kept - 15
+200301 Proof of a Concord Kept - 10
+200302 Proof of a Concord Kept - 5
+200303 Proof of a Concord Kept - 3
+200304 Proof of a Concord Kept - 1
+200400 Sunlight Medal - 15
+200401 Sunlight Medal - 10
+200402 Sunlight Medal - 5
+200403 Sunlight Medal - 3
+200404 Sunlight Medal - 1
+200500 Vertebra Shackle - 15
+200501 Vertebra Shackle - 10
+200502 Vertebra Shackle - 5
+200503 Vertebra Shackle - 3
+200504 Vertebra Shackle - 1
+200600 Wolf's Blood Swordgrass - 15
+200601 Wolf's Blood Swordgrass - 10
+200602 Wolf's Blood Swordgrass - 5
+200603 Wolf's Blood Swordgrass - 3
+200604 Wolf's Blood Swordgrass - 1
+200700 Human Dregs - 15
+200701 Human Dregs - 10
+200702 Human Dregs - 5
+200703 Human Dregs - 3
+200704 Human Dregs - 1
+200800 Pale Tongue - 15
+200801 Pale Tongue - 10
+200802 Pale Tongue - 5
+200803 Pale Tongue - 3
+200804 Pale Tongue - 1
+200900 Filianore's Spear Ornament - 15
+200901 Filianore's Spear Ornament - 10
+200902 Filianore's Spear Ornament - 5
+200903 Filianore's Spear Ornament - 3
+200904 Filianore's Spear Ornament - 1
+201000 Fire Seed - 10
+201001 Fire Seed - 5
+201002 Fire Seed - 3
+201003 Fire Seed - 2
+201004 Fire Seed - 1
+201100 Crystal Fragment - 10
+201101 Crystal Fragment - 5
+201102 Crystal Fragment - 3
+201103 Crystal Fragment - 2
+201104 Crystal Fragment - 1
+201200 Abyssal Fragment - 10
+201201 Abyssal Fragment - 5
+201202 Abyssal Fragment - 3
+201203 Abyssal Fragment - 2
+201204 Abyssal Fragment - 1
+201300 Dragon Eye - 15
+201301 Dragon Eye - 10
+201302 Dragon Eye - 5
+201303 Dragon Eye - 3
+201304 Dragon Eye - 1
+201400 Holy Fragment - 10
+201401 Holy Fragment - 5
+201402 Holy Fragment - 3
+201403 Holy Fragment - 2
+201404 Holy Fragment - 1
+201500 Rat Tail - 30
+201501 Rat Tail - 5
+201502 Rat Tail - 3
+201503 Rat Tail - 2
+201504 Rat Tail - 1
 201601 Ritual Incense - 1
 201602 Ritual Incense - 2
 201603 Ritual Incense - 3
@@ -446,6 +446,16 @@
 201620 Ritual Incense - 20
 201625 Ritual Incense - 25
 201630 Ritual Incense - 30
+201700 Grateful Soul - 10
+201701 Grateful Soul - 5
+201702 Grateful Soul - 3
+201703 Grateful Soul - 2
+201704 Grateful Soul - 1
+201800 Lost Trinket - 10
+201801 Lost Trinket - 5
+201802 Lost Trinket - 3
+201803 Lost Trinket - 2
+201804 Lost Trinket - 1
 202000 Titanite Shard - 10
 202001 Titanite Shard - 20
 202002 Titanite Shard - 30
