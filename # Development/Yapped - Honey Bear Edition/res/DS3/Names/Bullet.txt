@@ -2806,8 +2806,6 @@
 13507010 [Miracle] Lingering Bountiful Light
 13507011 [Miracle] Lingering Bountiful Light [Hit]
 13508000 [Miracle] Caressing Tears
-13508001 [Miracle] Caressing Tears
-13508006 [Miracle] Caressing Tears [MP]
 13509000 [Miracle] Lightning Arrow
 13513000 [Miracle] Morbid Temptation [unused]
 13530000 [Miracle] Force
@@ -3146,7 +3144,7 @@
 100081900 [Old King's Great Hammer] Molten Perseverance
 100081910 [Old King's Great Hammer] Molten Perseverance
 100082900 [Morne's Great Hammer] Morne's Rage
-100082910 [Morne's Great Hammer] Morne's Rage [Hit] (OG)
+100082910 [Morne's Great Hammer] Morne's Rage [Hit]
 100082920 [Morne's Great Hammer] Morne's Rage [Hit]
 100083200 [Ledo's Great Hammer] Call to Stone
 100083201 [Ledo's Great Hammer] Call to Stone [Hit]

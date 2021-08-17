@@ -56,6 +56,7 @@
 <text id="147">%null%</text>
 <text id="148">%null%</text>
 <text id="149">%null%</text>
+
 <text id="10000">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
 Restores 3 FP every second whilst worn.
@@ -63,6 +64,35 @@ Restores 3 FP every second whilst worn.
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
+<text id="10001">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
+
+Restores 4 FP every second whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
+<text id="10002">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
+
+Restores 5 FP every second whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
+<text id="10003">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
+
+Restores 6 FP every second whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
+<text id="10004">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
+
+Restores 7 FP every second whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
+
 <text id="10020">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
 
 Reduces weapon stamina consumption by 10% whilst worn.
@@ -70,6 +100,35 @@ Reduces weapon stamina consumption by 10% whilst worn.
 Enables the collection of Wolf's Blood Swordgrass from enemies.
 
 The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
+<text id="10021">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
+
+Reduces weapon stamina consumption by 15% whilst worn.
+
+Enables the collection of Wolf's Blood Swordgrass from enemies.
+
+The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
+<text id="10022">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
+
+Reduces weapon stamina consumption by 20% whilst worn.
+
+Enables the collection of Wolf's Blood Swordgrass from enemies.
+
+The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
+<text id="10023">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
+
+Reduces weapon stamina consumption by 25% whilst worn.
+
+Enables the collection of Wolf's Blood Swordgrass from enemies.
+
+The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
+<text id="10024">Ancient medallion depicting the crest of a wolf. Symbolizes the pact with the Old Wolf of Farron. 
+
+Reduces weapon stamina consumption by 30% whilst worn.
+
+Enables the collection of Wolf's Blood Swordgrass from enemies.
+
+The Watchdogs ensure that the warriors sleep in serenity, by taking the form of loyal spirits and hunting down those who would trespass the woods of Farron.</text>
+
 <text id="10030">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
 
 Boosts Dark damage by 5% whilst worn.
@@ -77,6 +136,35 @@ Boosts Dark damage by 5% whilst worn.
 Enables the collection of Human Dregs from enemies.
 
 The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
+<text id="10031">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
+
+Boosts Dark damage by 7.5% whilst worn.
+
+Enables the collection of Human Dregs from enemies.
+
+The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
+<text id="10032">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
+
+Boosts Dark damage by 10% whilst worn.
+
+Enables the collection of Human Dregs from enemies.
+
+The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
+<text id="10033">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
+
+Boosts Dark damage by 12.5% whilst worn.
+
+Enables the collection of Human Dregs from enemies.
+
+The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
+<text id="10034">The holy symbol of the Cathedral of the Deep, and crest of those who see beyond fire to the age of deep waters. 
+
+Boosts Dark damage by 15% whilst worn.
+
+Enables the collection of Human Dregs from enemies.
+
+The Faithful ensure that Aldrich, Devourer of Gods, remains undisturbed, by taking the form of loyal spirits and hunting down those who would trespass the ruined cathedral.</text>
+
 <text id="10040">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
 
 Boosts Lightning damage by 5% whilst worn.
@@ -84,6 +172,35 @@ Boosts Lightning damage by 5% whilst worn.
 Enables the collection of Sunlight Medal from enemies.
 
 Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
+<text id="10041">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
+
+Boosts Lightning damage by 7.5% whilst worn.
+
+Enables the collection of Sunlight Medal from enemies.
+
+Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
+<text id="10042">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
+
+Boosts Lightning damage by 10% whilst worn.
+
+Enables the collection of Sunlight Medal from enemies.
+
+Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
+<text id="10043">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
+
+Boosts Lightning damage by 12.5% whilst worn.
+
+Enables the collection of Sunlight Medal from enemies.
+
+Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
+<text id="10044">An ancient talisman depicting a holy symbol bestowed upon the Warriors of Sunlight. 
+
+Boosts Lightning damage by 15% whilst worn.
+
+Enables the collection of Sunlight Medal from enemies.
+
+Warriors of Sunlight are brilliantly beaming co-operators who place their golden signatures to help those in need, for it is their duty to deliver a great conquest to their summoner.</text>
+
 <text id="10050">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
 
 Increases Physical damage by 5% whilst worn.
@@ -91,18 +208,97 @@ Increases Physical damage by 5% whilst worn.
 Enables the collection of Vertebra Shackle from enemies.
 
 The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
+<text id="10051">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
+
+Increases Physical damage by 7.5% whilst worn.
+
+Enables the collection of Vertebra Shackle from enemies.
+
+The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
+<text id="10052">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
+
+Increases Physical damage by 10% whilst worn.
+
+Enables the collection of Vertebra Shackle from enemies.
+
+The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
+<text id="10053">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
+
+Increases Physical damage by 12.5% whilst worn.
+
+Enables the collection of Vertebra Shackle from enemies.
+
+The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
+<text id="10054">A malformed vertebra found by the mad, with a queer symbol on its inside, proof of the shackles of the Gods. 
+
+Increases Physical damage by 15% whilst worn.
+
+Enables the collection of Vertebra Shackle from enemies.
+
+The mound-makers wish only to add to their mounds, becoming mad spirits whether summoned as co-operators or invaders. They are blithe to those around them, for in their minds, any kill might lead to another shackle.</text>
+
 <text id="10060">The emblem for the Thieves' Pact. 
 
-Increases Item Discovery by 25 whilst worn.
+Increases Item Discovery by 20 whilst worn.
 
 Enables the collection of various consumable items from enemies.
 
 The success of thievery depends upon bonds of trust amongst thieves.</text>
+<text id="10061">The emblem for the Thieves' Pact. 
+
+Increases Item Discovery by 40 whilst worn.
+
+Enables the collection of various consumable items from enemies.
+
+The success of thievery depends upon bonds of trust amongst thieves.</text>
+<text id="10062">The emblem for the Thieves' Pact. 
+
+Increases Item Discovery by 60 whilst worn.
+
+Enables the collection of various consumable items from enemies.
+
+The success of thievery depends upon bonds of trust amongst thieves.</text>
+<text id="10063">The emblem for the Thieves' Pact. 
+
+Increases Item Discovery by 80 whilst worn.
+
+Enables the collection of various consumable items from enemies.
+
+The success of thievery depends upon bonds of trust amongst thieves.</text>
+<text id="10064">The emblem for the Thieves' Pact. 
+
+Increases Item Discovery by 100 whilst worn.
+
+Enables the collection of various consumable items from enemies.
+
+The success of thievery depends upon bonds of trust amongst thieves.</text>
+
 <text id="10070">Emblem of the Chaos Servants, sworn to the Chaos Flame.
 
 Increases Fire damage by 5% whilst worn.
 
 Enables the collection of Fire Seeds from enemies.</text>
+<text id="10071">Emblem of the Chaos Servants, sworn to the Chaos Flame.
+
+Increases Fire damage by 7.5% whilst worn.
+
+Enables the collection of Fire Seeds from enemies.</text>
+<text id="10072">Emblem of the Chaos Servants, sworn to the Chaos Flame.
+
+Increases Fire damage by 10% whilst worn.
+
+Enables the collection of Fire Seeds from enemies.</text>
+<text id="10073">Emblem of the Chaos Servants, sworn to the Chaos Flame.
+
+Increases Fire damage by 12.5% whilst worn.
+
+Enables the collection of Fire Seeds from enemies.</text>
+<text id="10074">Emblem of the Chaos Servants, sworn to the Chaos Flame.
+
+Increases Fire damage by 15% whilst worn.
+
+Enables the collection of Fire Seeds from enemies.</text>
+
 <text id="10080">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
 
 Increases soul absorption by 10% whilst worn.
@@ -110,64 +306,334 @@ Increases soul absorption by 10% whilst worn.
 Enables the collection of Pale Tongues from enemies.
 
 Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
+<text id="10081">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
+
+Increases soul absorption by 15% whilst worn.
+
+Enables the collection of Pale Tongues from enemies.
+
+Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
+<text id="10082">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
+
+Increases soul absorption by 20% whilst worn.
+
+Enables the collection of Pale Tongues from enemies.
+
+Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
+<text id="10083">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
+
+Increases soul absorption by 25% whilst worn.
+
+Enables the collection of Pale Tongues from enemies.
+
+Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
+<text id="10084">Sacred seal of Archdeacon Klimt, who served Rosaria, Mother of Rebirth. 
+
+Increases soul absorption by 30% whilst worn.
+
+Enables the collection of Pale Tongues from enemies.
+
+Rosaria's Fingers collect tongues in her name. Some do it to be reborn; others do it to help comfort their voiceless goddess.</text>
+
 <text id="10100">A scroll confirming membership to an elite cabal of Vinheim scholars.
 
 Increases Magic damage by 5% whilst worn.
 
 Enables the collection of Crystal Fragments from enemies.</text>
+<text id="10101">A scroll confirming membership to an elite cabal of Vinheim scholars.
+
+Increases Magic damage by 7.5% whilst worn.
+
+Enables the collection of Crystal Fragments from enemies.</text>
+<text id="10102">A scroll confirming membership to an elite cabal of Vinheim scholars.
+
+Increases Magic damage by 10% whilst worn.
+
+Enables the collection of Crystal Fragments from enemies.</text>
+<text id="10103">A scroll confirming membership to an elite cabal of Vinheim scholars.
+
+Increases Magic damage by 12.5% whilst worn.
+
+Enables the collection of Crystal Fragments from enemies.</text>
+<text id="10104">A scroll confirming membership to an elite cabal of Vinheim scholars.
+
+Increases Magic damage by 15% whilst worn.
+
+Enables the collection of Crystal Fragments from enemies.</text>
+
 <text id="10110">A book given to pilgrims of dark, whom seeketh its true meaning.
+
+Increases casting speed by 10 whilst worn.
+
+Enables the collection of Abyssal Fragments from enemies.
+
+What is dark? Perhaps we already know. We fear the dark, yet find solace in it.</text>
+<text id="10111">A book given to pilgrims of dark, whom seeketh its true meaning.
 
 Increases casting speed by 15 whilst worn.
 
 Enables the collection of Abyssal Fragments from enemies.
 
 What is dark? Perhaps we already know. We fear the dark, yet find solace in it.</text>
+<text id="10112">A book given to pilgrims of dark, whom seeketh its true meaning.
+
+Increases casting speed by 20 whilst worn.
+
+Enables the collection of Abyssal Fragments from enemies.
+
+What is dark? Perhaps we already know. We fear the dark, yet find solace in it.</text>
+<text id="10113">A book given to pilgrims of dark, whom seeketh its true meaning.
+
+Increases casting speed by 25 whilst worn.
+
+Enables the collection of Abyssal Fragments from enemies.
+
+What is dark? Perhaps we already know. We fear the dark, yet find solace in it.</text>
+<text id="10114">A book given to pilgrims of dark, whom seeketh its true meaning.
+
+Increases casting speed by 30 whilst worn.
+
+Enables the collection of Abyssal Fragments from enemies.
+
+What is dark? Perhaps we already know. We fear the dark, yet find solace in it.</text>
+
 <text id="10120">A band of light that symbolizes the Way of White.
 
 Increases HP restored by the Estus Flask by 10% whilst worn.
 
 Enables the collection of Holy Fragments from enemies.</text>
+<text id="10121">A band of light that symbolizes the Way of White.
+
+Increases HP restored by the Estus Flask by 20% whilst worn.
+
+Enables the collection of Holy Fragments from enemies.</text>
+<text id="10122">A band of light that symbolizes the Way of White.
+
+Increases HP restored by the Estus Flask by 30% whilst worn.
+
+Enables the collection of Holy Fragments from enemies.</text>
+<text id="10123">A band of light that symbolizes the Way of White.
+
+Increases HP restored by the Estus Flask by 40% whilst worn.
+
+Enables the collection of Holy Fragments from enemies.</text>
+<text id="10124">A band of light that symbolizes the Way of White.
+
+Increases HP restored by the Estus Flask by 50% whilst worn.
+
+Enables the collection of Holy Fragments from enemies.</text>
+
 <text id="10130">A stone tablet depicting the form of a dragon.
 
-Increases stamina drain dealt to enemies by 25% whilst worn.
+Increases max Stamina by 10% whilst worn.
 
 Enables the collection of Dragon Eyes from enemies.
 
 If our human flesh is our greatest weakness,
 then those who seek a form that imitates the
 ancient dragons are true vanguards.</text>
+<text id="10131">A stone tablet depicting the form of a dragon.
+
+Increases max Stamina by 15% whilst worn.
+
+Enables the collection of Dragon Eyes from enemies.
+
+If our human flesh is our greatest weakness,
+then those who seek a form that imitates the
+ancient dragons are true vanguards.</text>
+<text id="10132">A stone tablet depicting the form of a dragon.
+
+Increases max Stamina by 20% whilst worn.
+
+Enables the collection of Dragon Eyes from enemies.
+
+If our human flesh is our greatest weakness,
+then those who seek a form that imitates the
+ancient dragons are true vanguards.</text>
+<text id="10133">A stone tablet depicting the form of a dragon.
+
+Increases max Stamina by 25% whilst worn.
+
+Enables the collection of Dragon Eyes from enemies.
+
+If our human flesh is our greatest weakness,
+then those who seek a form that imitates the
+ancient dragons are true vanguards.</text>
+<text id="10134">A stone tablet depicting the form of a dragon.
+
+Increases max Stamina by 30% whilst worn.
+
+Enables the collection of Dragon Eyes from enemies.
+
+If our human flesh is our greatest weakness,
+then those who seek a form that imitates the
+ancient dragons are true vanguards.</text>
+
 <text id="10140">Faded sheepskin parchment depicting the Darkmoon and a sword. 
 
-Increases max FP by 5% whilst worn.
+Increases max FP by 10% whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue is threatened by a dark spirit, the Blue Sentinels, in compliance with an ancient accord, assume the form of blue spirits, and help to root out the leader.</text>
+<text id="10141">Faded sheepskin parchment depicting the Darkmoon and a sword. 
+
+Increases max FP by 15% whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue is threatened by a dark spirit, the Blue Sentinels, in compliance with an ancient accord, assume the form of blue spirits, and help to root out the leader.</text>
+<text id="10142">Faded sheepskin parchment depicting the Darkmoon and a sword. 
+
+Increases max FP by 20% whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue is threatened by a dark spirit, the Blue Sentinels, in compliance with an ancient accord, assume the form of blue spirits, and help to root out the leader.</text>
+<text id="10143">Faded sheepskin parchment depicting the Darkmoon and a sword. 
+
+Increases max FP by 25% whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue is threatened by a dark spirit, the Blue Sentinels, in compliance with an ancient accord, assume the form of blue spirits, and help to root out the leader.</text>
+<text id="10144">Faded sheepskin parchment depicting the Darkmoon and a sword. 
+
+Increases max FP by 30% whilst worn.
+
+Enables the collection of Proof of a Concord Kept from enemies.
+
+When a member of the Way of Blue is threatened by a dark spirit, the Blue Sentinels, in compliance with an ancient accord, assume the form of blue spirits, and help to root out the leader.</text>
+
 <text id="10150">Pale blue sheepskin parchment detailing the moon of an ancient accord. 
 
-Increases max HP by 5% whilst worn.
+Increases max HP by 10% whilst worn.
 
 Enables the collection of random consumables from enemies.
 
 Members of the Way of Blue are the beneficiaries of an ancient accord. When a dark spirit threatens them, a blue spirit will grant them assistance, and help root out the invader.</text>
+<text id="10151">Pale blue sheepskin parchment detailing the moon of an ancient accord. 
+
+Increases max HP by 15% whilst worn.
+
+Enables the collection of random consumables from enemies.
+
+Members of the Way of Blue are the beneficiaries of an ancient accord. When a dark spirit threatens them, a blue spirit will grant them assistance, and help root out the invader.</text>
+<text id="10152">Pale blue sheepskin parchment detailing the moon of an ancient accord. 
+
+Increases max HP by 20% whilst worn.
+
+Enables the collection of random consumables from enemies.
+
+Members of the Way of Blue are the beneficiaries of an ancient accord. When a dark spirit threatens them, a blue spirit will grant them assistance, and help root out the invader.</text>
+<text id="10153">Pale blue sheepskin parchment detailing the moon of an ancient accord. 
+
+Increases max HP by 25% whilst worn.
+
+Enables the collection of random consumables from enemies.
+
+Members of the Way of Blue are the beneficiaries of an ancient accord. When a dark spirit threatens them, a blue spirit will grant them assistance, and help root out the invader.</text>
+<text id="10154">Pale blue sheepskin parchment detailing the moon of an ancient accord. 
+
+Increases max HP by 30% whilst worn.
+
+Enables the collection of random consumables from enemies.
+
+Members of the Way of Blue are the beneficiaries of an ancient accord. When a dark spirit threatens them, a blue spirit will grant them assistance, and help root out the invader.</text>
+
 <text id="10160">Crude tablet inscribed with the names of victors.
 Engraved with the names of the brave warriors who have offered the most awestones, as if they were epitaphs, honoring their lives.
 
-Increases the strength and toughness of enemies by 30%, boosts soul absorption by 10% whilst worn.
+Increases the strength and toughness of enemies by 50%, boosts max HP, FP and Stamina by 5% whilst worn.
 
 Enables the collection of Awestones from enemies.</text>
+<text id="10161">Crude tablet inscribed with the names of victors.
+Engraved with the names of the brave warriors who have offered the most awestones, as if they were epitaphs, honoring their lives.
+
+Increases the strength and toughness of enemies by 50%, boosts max HP, FP and Stamina by 7.5% whilst worn.
+
+Enables the collection of Awestones from enemies.</text>
+<text id="10162">Crude tablet inscribed with the names of victors.
+Engraved with the names of the brave warriors who have offered the most awestones, as if they were epitaphs, honoring their lives.
+
+Increases the strength and toughness of enemies by 50%, boosts max HP, FP and Stamina by 10% whilst worn.
+
+Enables the collection of Awestones from enemies.</text>
+<text id="10163">Crude tablet inscribed with the names of victors.
+Engraved with the names of the brave warriors who have offered the most awestones, as if they were epitaphs, honoring their lives.
+
+Increases the strength and toughness of enemies by 50%, boosts max HP, FP and Stamina by 12.5% whilst worn.
+
+Enables the collection of Awestones from enemies.</text>
+<text id="10164">Crude tablet inscribed with the names of victors.
+Engraved with the names of the brave warriors who have offered the most awestones, as if they were epitaphs, honoring their lives.
+
+Increases the strength and toughness of enemies by 50%, boosts max HP, FP and Stamina by 15% whilst worn.
+
+Enables the collection of Awestones from enemies.</text>
+
 <text id="10170">Crest of the Rat King. 
 Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
 
 Increases all defences and resistances by 5%.
 
 Enables the collection of Rat Tails from enemies.</text>
+<text id="10171">Crest of the Rat King. 
+Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
+
+Increases all defences and resistances by 7.5%.
+
+Enables the collection of Rat Tails from enemies.</text>
+<text id="10172">Crest of the Rat King. 
+Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
+
+Increases all defences and resistances by 10%.
+
+Enables the collection of Rat Tails from enemies.</text>
+<text id="10173">Crest of the Rat King. 
+Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
+
+Increases all defences and resistances by 12.5%.
+
+Enables the collection of Rat Tails from enemies.</text>
+<text id="10174">Crest of the Rat King. 
+Humans that follow the Rat King must wear this crest at all times to signify their allegiance to the cause.
+
+Increases all defences and resistances by 15%.
+
+Enables the collection of Rat Tails from enemies.</text>
+
 <text id="10180">Sigil of the ritualists.
 Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
 
-Boosts the damage of companions by 25% whilst worn.
+Boosts the damage of companions by 20% whilst worn.
 
 Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
+<text id="10181">Sigil of the ritualists.
+Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+
+Boosts the damage of companions by 40% whilst worn.
+
+Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
+<text id="10182">Sigil of the ritualists.
+Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+
+Boosts the damage of companions by 60% whilst worn.
+
+Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
+<text id="10183">Sigil of the ritualists.
+Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+
+Boosts the damage of companions by 80% whilst worn.
+
+Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
+<text id="10184">Sigil of the ritualists.
+Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+
+Boosts the damage of companions by 100% whilst worn.
+
+Enables the collection of Ritual Incense from enemies whilst a companion is out.</text>
+
 <text id="20000">A generations-old ring set with a small red jewel.
 
 Raises maximum HP by 10%.

@@ -2692,6 +2692,7 @@
 3500305 Great Mace - 2H Heavy #1 Max
 3500310 Great Mace - 2H Heavy #2
 3500315 Great Mace - 2H Heavy #2 Max
+3500318 Great Hammer (Alt) - 2H Heavy #2 Max
 3500400 Great Mace - Left Hand
 3500402 Great Mace
 3500404 Great Mace
@@ -2725,6 +2726,8 @@
 3500805 Great Mace
 3500806 Great Mace
 3500807 Great Mace
+3500835 Great Hammer - Tackle
+3500850 Great Hammer (Alt) - Kick
 3500900 Great Mace - 1H Heavy #1
 3500901 Great Mace
 3500902 Great Mace
@@ -2820,11 +2823,14 @@
 3520305 Pickaxe - 2H Heavy #1 Max
 3520310 Pickaxe - 2H Heavy #2
 3520315 Pickaxe - 2H Heavy #2 Max
+3520318 Church Pick - 2H Heavy #2 Max
 3520400 Pickaxe
 3520402 Pickaxe
 3520404 Pickaxe
 3520410 Pickaxe
+3520415 Church Pick - 1H Kick
 3520420 Pickaxe
+3520425 Church Pick - 2H Kick
 3520430 Pickaxe
 3520440 Pickaxe
 3520450 Pickaxe
@@ -2846,6 +2852,8 @@
 3520600 Pickaxe
 3520610 Pickaxe
 3520700 Pickaxe
+3520750 Church Pick - Weapon Art - Light
+3520760 Church Pick - Weapon Art - Heavy
 3600000 Spear - 1H Light #1
 3600010 Spear - 1H Light #2
 3600015 Spear (Alt) - 1H Light #2

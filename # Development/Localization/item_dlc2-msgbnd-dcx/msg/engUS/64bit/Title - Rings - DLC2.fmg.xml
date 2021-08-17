@@ -4,6 +4,11 @@
 <version>DarkSouls3</version>
 <bigendian>False</bigendian>
 <entries>
-<text id="10090">Spears of the Church</text>
+<text id="10090">Spears of the Church I</text>
+<text id="10091">Spears of the Church II</text>
+<text id="10092">Spears of the Church III</text>
+<text id="10093">Spears of the Church IV</text>
+<text id="10094">Spears of the Church V</text>
+
 </entries>
 </fmg>

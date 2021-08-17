@@ -1,22 +1,94 @@
 9999 ### Covenants ###
-10000 Darkmoon Faithful
-10020 Watchdogs of Farron
-10030 Aldrich Faithful
-10040 Warrior of Sunlight
-10050 Mound-makers
-10060 Thieves' Pact
-10070 Chaos Servant
-10080 Rosaria's Fingers
-10090 Spears of the Church
-10100 Vinheim Scholars
-10110 Pilgrims of Dark
-10120 Way of White
-10130 Dragon Remnants
-10140 Blue Sentinels
-10150 Way of Blue
-10160 Company of Champions
-10170 Servant of the Rat
-10180 Ritualist Pact
+10000 Darkmoon Faithful I
+10001 Darkmoon Faithful II
+10002 Darkmoon Faithful III
+10003 Darkmoon Faithful IV
+10004 Darkmoon Faithful V
+10020 Watchdogs of Farron I
+10021 Watchdogs of Farron II
+10022 Watchdogs of Farron III
+10023 Watchdogs of Farron IV
+10024 Watchdogs of Farron V
+10030 Aldrich Faithful I
+10031 Aldrich Faithful II
+10032 Aldrich Faithful III
+10033 Aldrich Faithful IV
+10034 Aldrich Faithful V
+10040 Warrior of Sunlight I
+10041 Warrior of Sunlight II
+10042 Warrior of Sunlight III
+10043 Warrior of Sunlight IV
+10044 Warrior of Sunlight V
+10050 Mound-makers I
+10051 Mound-makers II
+10052 Mound-makers III
+10053 Mound-makers IV
+10054 Mound-makers V
+10060 Thieves' Pact I
+10061 Thieves' Pact II
+10062 Thieves' Pact III
+10063 Thieves' Pact IV
+10064 Thieves' Pact V
+10070 Chaos Servant I
+10071 Chaos Servant II
+10072 Chaos Servant III
+10073 Chaos Servant IV
+10074 Chaos Servant V
+10080 Rosaria's Fingers I
+10081 Rosaria's Fingers II
+10082 Rosaria's Fingers III
+10083 Rosaria's Fingers IV
+10084 Rosaria's Fingers V
+10090 Spears of the Church I
+10091 Spears of the Church II
+10092 Spears of the Church III
+10093 Spears of the Church IV
+10094 Spears of the Church V
+10100 Vinheim Scholars I
+10101 Vinheim Scholars II
+10102 Vinheim Scholars III
+10103 Vinheim Scholars IV
+10104 Vinheim Scholars V
+10110 Pilgrims of Dark I
+10111 Pilgrims of Dark II
+10112 Pilgrims of Dark III
+10113 Pilgrims of Dark IV
+10114 Pilgrims of Dark V
+10120 Way of White I
+10121 Way of White II
+10122 Way of White III
+10123 Way of White IV
+10124 Way of White V
+10130 Dragon Remnants I
+10131 Dragon Remnants II
+10132 Dragon Remnants III
+10133 Dragon Remnants IV
+10134 Dragon Remnants V
+10140 Blue Sentinels I
+10141 Blue Sentinels II
+10142 Blue Sentinels III
+10143 Blue Sentinels IV
+10144 Blue Sentinels V
+10150 Way of Blue I
+10151 Way of Blue II
+10152 Way of Blue III
+10153 Way of Blue IV
+10154 Way of Blue V
+10160 Company of Champions I
+10161 Company of Champions II
+10162 Company of Champions III
+10163 Company of Champions IV
+10164 Company of Champions V
+10170 Servant of the Rat I
+10171 Servant of the Rat II
+10172 Servant of the Rat III
+10173 Servant of the Rat IV
+10174 Servant of the Rat V
+10180 Ritualist Pact I
+10181 Ritualist Pact II
+10182 Ritualist Pact III
+10183 Ritualist Pact IV
+10184 Ritualist Pact V
 19999 ### Rings ###
 20000 Life Ring
 20001 Life Ring+1

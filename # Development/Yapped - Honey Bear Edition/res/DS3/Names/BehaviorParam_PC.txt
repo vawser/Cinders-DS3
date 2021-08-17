@@ -2686,6 +2686,7 @@
 103500305 Great Mace - 2H Heavy #1 Max
 103500310 Great Mace - 2H Heavy #2
 103500315 Great Mace - 2H Heavy #2 Max
+103500318 Great Hammer (Alt) - 2H Heavy #2 Max
 103500400 Great Mace - Left Hand
 103500402 Great Mace
 103500404 Great Mace
@@ -2719,6 +2720,8 @@
 103500805 Great Mace
 103500806 Great Mace
 103500807 Great Mace
+103500835 Great Hammer - Tackle
+103500850 Great Hammer (Alt) - Kick
 103500900 Great Mace
 103500901 Great Mace
 103500902 Great Mace
@@ -2818,11 +2821,14 @@
 103520305 Pickaxe - 2H Heavy #1 Max
 103520310 Pickaxe - 2H Heavy #2
 103520315 Pickaxe - 2H Heavy #2 Max
+103520318 Church Pick - 2H Heavy #2 Max
 103520400 Pickaxe - Left Hand
 103520402 Pickaxe
 103520404 Pickaxe
 103520410 Pickaxe - 1H Kick
+103520415 Church Pick - 1H Kick
 103520420 Pickaxe - 2H Kick
+103520425 Church Pick - 2H Kick
 103520430 Pickaxe - 1H Guard
 103520440 Pickaxe - 2H Guard
 103520450 Pickaxe - Parry
@@ -2844,6 +2850,8 @@
 103520600 Pickaxe - Parry
 103520610 Pickaxe - Backstab Transition
 103520700 Pickaxe - Weapon Art
+103520750 Church Pick - Weapon Art - Light
+103520760 Church Pick - Weapon Art - Heavy
 103520800 Pickaxe - Weapon Art
 103600000 Spear - 1H Light #1
 103600001 Spear - 1H Light #1 (stick)
@@ -4028,6 +4036,16 @@
 104206751 Crow Talons
 104206760 Crow Talons
 104206761 Crow Talons
+104207700 Dragon Bone Fist - Flurry of Fists
+104207701 Dragon Bone Fist - Flurry of Fists
+104207702 Dragon Bone Fist - Flurry of Fists
+104207703 Dragon Bone Fist - Flurry of Fists
+104207704 Dragon Bone Fist - Flurry of Fists
+104207705 Dragon Bone Fist - Flurry of Fists
+104207750 Dragon Bone Fist - Flurry of Fists
+104207751 Dragon Bone Fist - Flurry of Fists
+104207760 Dragon Bone Fist - Flurry of Fists
+104207761 Dragon Bone Fist - Flurry of Fists
 104208106 Hands of God - 1H Heavy #1 (Charged) - Bullet
 104208107 Hands of God - 2H Heavy #1 (Charged) - Bullet
 104208700 Hands of God - Flurry of Fists

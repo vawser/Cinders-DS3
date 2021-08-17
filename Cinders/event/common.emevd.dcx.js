@@ -165,24 +165,113 @@ Event(0, Default, function() {
     //--------------------
     // Covenant Material Drops
     //--------------------
-    InitializeEvent(0, 20030, 10000, 160100232, 800010000, 800010020); // Thieves' Code
-    InitializeEvent(1, 20030, 10000, 160100242, 800010100, 800010120); // Darkmoon Faithful
-    InitializeEvent(2, 20030, 10000, 160100252, 800010200, 800010220); // Spears of the Church
-    InitializeEvent(3, 20030, 10000, 160100262, 800010300, 800010320); // Watchdogs of Farron
-    InitializeEvent(4, 20030, 10000, 160100272, 800010400, 800010420); // Aldrich Faithful
-    InitializeEvent(5, 20030, 10000, 160100292, 800010500, 800010520); // Warrior of Sunlight
-    InitializeEvent(6, 20030, 10000, 160100302, 800010600, 800010620); // Mound-makers
-    InitializeEvent(7, 20030, 10000, 160100322, 800010700, 800010720); // Rosaria's Fingers
-    InitializeEvent(8, 20030, 10000, 160100332, 800010800, 800010820); // Chaos Servant
-    InitializeEvent(9, 20030, 10000, 160100342, 800010900, 800010920); // Vinheim Scholars
-    InitializeEvent(10, 20030, 10000, 160100352, 800011000, 800011020); // Pilgrims of Dark
-    InitializeEvent(12, 20030, 10000, 160100372, 800011100, 800011120); // Dragon Remnants
-    InitializeEvent(11, 20030, 10000, 160100362, 800011200, 800011220); // Way of White
-    InitializeEvent(13, 20030, 10000, 160100382, 800011300, 800011320); // Blue Sentinels
-    InitializeEvent(14, 20030, 10000, 160100392, 800011400, 800011420); // Way of Blue
-    InitializeEvent(15, 20030, 10000, 160100402, 800011500, 800011520); // Company of Champions
-    InitializeEvent(16, 20030, 10000, 160100412, 800011600, 800011620); // Servant of the Rat
-    InitializeEvent(0, 20031, 10000, 160100422, 800011700, 800011720); // Ritualist Pact
+    InitializeEvent(0, 20030, 10000, 160100101, 800011000, 800011100); // Darkmoon Faithful I
+    InitializeEvent(1, 20030, 10000, 160100111, 800011000, 800011100); // Darkmoon Faithful II
+    InitializeEvent(2, 20030, 10000, 160100121, 800011000, 800011100); // Darkmoon Faithful III
+    InitializeEvent(3, 20030, 10000, 160100131, 800011000, 800011100); // Darkmoon Faithful IV
+    InitializeEvent(4, 20030, 10000, 160100141, 800011000, 800011100); // Darkmoon Faithful V
+    
+    InitializeEvent(5, 20030, 10000, 160100201, 800012000, 800012100); // Watchdogs of Farron I
+    InitializeEvent(6, 20030, 10000, 160100211, 800012000, 800012100); // Watchdogs of Farron II
+    InitializeEvent(7, 20030, 10000, 160100221, 800012000, 800012100); // Watchdogs of Farron III
+    InitializeEvent(8, 20030, 10000, 160100231, 800012000, 800012100); // Watchdogs of Farron IV
+    InitializeEvent(9, 20030, 10000, 160100241, 800012000, 800012100); // Watchdogs of Farron V
+    
+    InitializeEvent(10, 20030, 10000, 160100301, 800013000, 800013100); // Aldrich Faithful I
+    InitializeEvent(11, 20030, 10000, 160100311, 800013000, 800013100); // Aldrich Faithful II
+    InitializeEvent(12, 20030, 10000, 160100321, 800013000, 800013100); // Aldrich Faithful III
+    InitializeEvent(13, 20030, 10000, 160100331, 800013000, 800013100); // Aldrich Faithful IV
+    InitializeEvent(14, 20030, 10000, 160100341, 800013000, 800013100); // Aldrich Faithful V
+    
+    InitializeEvent(15, 20030, 10000, 160100401, 800014000, 800014100); // Warrior of Sunlight I
+    InitializeEvent(16, 20030, 10000, 160100411, 800014000, 800014100); // Warrior of Sunlight II
+    InitializeEvent(17, 20030, 10000, 160100421, 800014000, 800014100); // Warrior of Sunlight III
+    InitializeEvent(18, 20030, 10000, 160100431, 800014000, 800014100); // Warrior of Sunlight IV
+    InitializeEvent(19, 20030, 10000, 160100441, 800014000, 800014100); // Warrior of Sunlight V
+    
+    InitializeEvent(20, 20030, 10000, 160100501, 800015000, 800015100); // Mound-makers I
+    InitializeEvent(21, 20030, 10000, 160100511, 800015000, 800015100); // Mound-makers II
+    InitializeEvent(22, 20030, 10000, 160100521, 800015000, 800015100); // Mound-makers III
+    InitializeEvent(23, 20030, 10000, 160100531, 800015000, 800015100); // Mound-makers IV
+    InitializeEvent(24, 20030, 10000, 160100541, 800015000, 800015100); // Mound-makers V
+    
+    InitializeEvent(25, 20030, 10000, 160100601, 800016000, 800016100); // Thieves' Pact I
+    InitializeEvent(26, 20030, 10000, 160100611, 800016000, 800016100); // Thieves' Pact II
+    InitializeEvent(27, 20030, 10000, 160100621, 800016000, 800016100); // Thieves' Pact III
+    InitializeEvent(28, 20030, 10000, 160100631, 800016000, 800016100); // Thieves' Pact IV
+    InitializeEvent(29, 20030, 10000, 160100641, 800016000, 800016100); // Thieves' Pact V
+    
+    InitializeEvent(30, 20030, 10000, 160100701, 800018000, 800018100); // Chaos Servant I
+    InitializeEvent(31, 20030, 10000, 160100711, 800018000, 800018100); // Chaos Servant II
+    InitializeEvent(32, 20030, 10000, 160100721, 800018000, 800018100); // Chaos Servant III
+    InitializeEvent(33, 20030, 10000, 160100731, 800018000, 800018100); // Chaos Servant IV
+    InitializeEvent(34, 20030, 10000, 160100741, 800018000, 800018100); // Chaos Servant V
+   
+    InitializeEvent(35, 20030, 10000, 160100801, 800019000, 800019100); // Rosaria's Fingers I
+    InitializeEvent(36, 20030, 10000, 160100811, 800019000, 800019100); // Rosaria's Fingers II
+    InitializeEvent(37, 20030, 10000, 160100821, 800019000, 800019100); // Rosaria's Fingers III
+    InitializeEvent(38, 20030, 10000, 160100831, 800019000, 800019100); // Rosaria's Fingers IV
+    InitializeEvent(39, 20030, 10000, 160100841, 800019000, 800019100); // Rosaria's Fingers V
+    
+    InitializeEvent(40, 20030, 10000, 160100901, 800020000, 800020100); // Vinheim Scholars I
+    InitializeEvent(41, 20030, 10000, 160100911, 800020000, 800020100); // Vinheim Scholars II
+    InitializeEvent(42, 20030, 10000, 160100921, 800020000, 800020100); // Vinheim Scholars III
+    InitializeEvent(43, 20030, 10000, 160100931, 800020000, 800020100); // Vinheim Scholars IV
+    InitializeEvent(44, 20030, 10000, 160100941, 800020000, 800020100); // Vinheim Scholars V
+    
+    InitializeEvent(45, 20030, 10000, 160101001, 800021000, 800021100); // Pilgrims of Dark I
+    InitializeEvent(46, 20030, 10000, 160101011, 800021000, 800021100); // Pilgrims of Dark II
+    InitializeEvent(47, 20030, 10000, 160101021, 800021000, 800021100); // Pilgrims of Dark III
+    InitializeEvent(48, 20030, 10000, 160101031, 800021000, 800021100); // Pilgrims of Dark IV
+    InitializeEvent(49, 20030, 10000, 160101041, 800021000, 800021100); // Pilgrims of Dark V
+    
+    InitializeEvent(50, 20030, 10000, 160101101, 800022000, 800022100); // Way of White I
+    InitializeEvent(51, 20030, 10000, 160101111, 800022000, 800022100); // Way of White II
+    InitializeEvent(52, 20030, 10000, 160101121, 800022000, 800022100); // Way of White III
+    InitializeEvent(53, 20030, 10000, 160101131, 800022000, 800022100); // Way of White IV
+    InitializeEvent(54, 20030, 10000, 160101141, 800022000, 800022100); // Way of White V
+    
+    InitializeEvent(55, 20030, 10000, 160101201, 800023000, 800023100); // Dragon Remnants I
+    InitializeEvent(56, 20030, 10000, 160101211, 800023000, 800023100); // Dragon Remnants II
+    InitializeEvent(57, 20030, 10000, 160101221, 800023000, 800023100); // Dragon Remnants III
+    InitializeEvent(58, 20030, 10000, 160101231, 800023000, 800023100); // Dragon Remnants IV
+    InitializeEvent(59, 20030, 10000, 160101241, 800023000, 800023100); // Dragon Remnants V
+    
+    InitializeEvent(60, 20030, 10000, 160101301, 800024000, 800024100); // Blue Sentinels I
+    InitializeEvent(61, 20030, 10000, 160101311, 800024000, 800024100); // Blue Sentinels II
+    InitializeEvent(62, 20030, 10000, 160101321, 800024000, 800024100); // Blue Sentinels III
+    InitializeEvent(63, 20030, 10000, 160101331, 800024000, 800024100); // Blue Sentinels IV
+    InitializeEvent(64, 20030, 10000, 160101341, 800024000, 800024100); // Blue Sentinels V
+    
+    InitializeEvent(65, 20030, 10000, 160101401, 800025000, 800025100); // Way of Blue I
+    InitializeEvent(66, 20030, 10000, 160101411, 800025000, 800025100); // Way of Blue II
+    InitializeEvent(67, 20030, 10000, 160101421, 800025000, 800025100); // Way of Blue III
+    InitializeEvent(68, 20030, 10000, 160101431, 800025000, 800025100); // Way of Blue IV
+    InitializeEvent(69, 20030, 10000, 160101441, 800025000, 800025100); // Way of Blue V
+    
+    InitializeEvent(70, 20030, 10000, 160101501, 800026000, 800026100); // Company of Champions I
+    InitializeEvent(71, 20030, 10000, 160101511, 800026000, 800026100); // Company of Champions II
+    InitializeEvent(72, 20030, 10000, 160101521, 800026000, 800026100); // Company of Champions III
+    InitializeEvent(73, 20030, 10000, 160101531, 800026000, 800026100); // Company of Champions IV
+    InitializeEvent(74, 20030, 10000, 160101541, 800026000, 800026100); // Company of Champions V
+    
+    InitializeEvent(75, 20030, 10000, 160101601, 800027000, 800027100); // Servant of the Rat I
+    InitializeEvent(76, 20030, 10000, 160101611, 800027000, 800027100); // Servant of the Rat II
+    InitializeEvent(77, 20030, 10000, 160101621, 800027000, 800027100); // Servant of the Rat III
+    InitializeEvent(78, 20030, 10000, 160101631, 800027000, 800027100); // Servant of the Rat IV
+    InitializeEvent(79, 20030, 10000, 160101641, 800027000, 800027100); // Servant of the Rat V
+    
+    InitializeEvent(80, 20031, 10000, 160101701, 800028000, 800028100); // Ritualist Pact I
+    InitializeEvent(81, 20031, 10000, 160101711, 800028000, 800028100); // Ritualist Pact II
+    InitializeEvent(82, 20031, 10000, 160101721, 800028000, 800028100); // Ritualist Pact III
+    InitializeEvent(83, 20031, 10000, 160101731, 800028000, 800028100); // Ritualist Pact IV
+    InitializeEvent(84, 20031, 10000, 160101741, 800028000, 800028100); // Ritualist Pact V
+    
+    InitializeEvent(85, 20030, 10000, 160101801, 800029000, 800029100); // Spears of the Church I
+    InitializeEvent(86, 20030, 10000, 160101811, 800029000, 800029100); // Spears of the Church II
+    InitializeEvent(87, 20030, 10000, 160101821, 800029000, 800029100); // Spears of the Church III
+    InitializeEvent(88, 20030, 10000, 160101831, 800029000, 800029100); // Spears of the Church IV
+    InitializeEvent(89, 20030, 10000, 160101841, 800029000, 800029100); // Spears of the Church V
     
     //--------------------
     // Items

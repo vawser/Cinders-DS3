@@ -16566,11 +16566,7 @@ function UpdateFP()
             if env(1116, 113201) == TRUE then
                 act(2002, 113102) -- Clarity
             end
-            
-            if env(1116, 113202) == TRUE then
-                act(2002, 113103) -- Darkmoon Faithful
-            end
-            
+                        
             if env(1116, 113203) == TRUE then
                 act(2002, 113103) -- Pulsating
             end
@@ -16597,6 +16593,27 @@ function UpdateFP()
             
             if env(1116, 113215) == TRUE then
                 act(2002, 113115) -- Darkmoon Ring+5
+            end
+            
+            -- Darkmoon Faithful
+            if env(1116, 113240) == TRUE then
+                act(2002, 113140) -- I
+            end
+            
+            if env(1116, 113241) == TRUE then
+                act(2002, 113141) -- II
+            end
+            
+            if env(1116, 113242) == TRUE then
+                act(2002, 113142) -- III
+            end
+            
+            if env(1116, 113243) == TRUE then
+                act(2002, 113143) -- IV
+            end
+            
+            if env(1116, 113244) == TRUE then
+                act(2002, 113144) -- V
             end
             
             ---------------------

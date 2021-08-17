@@ -6859,8 +6859,27 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     WaitForConditionGroupState(PASS, AND_01);
     
     // Ritualist Pact boost
-    SkipIfCharacterHasSpeffect(1, 10000, 160100420, false, ComparisonType.Equal, 1);
+    SkipIfCharacterHasSpeffect(2, 10000, 160101702, false, ComparisonType.Equal, 1);
     SetSpeffect(X0_4, 160761100);
+    GotoUnconditionally(Label.LABEL2);
+    
+    SkipIfCharacterHasSpeffect(2, 10000, 160101712, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761101);
+    GotoUnconditionally(Label.LABEL2);
+    
+    SkipIfCharacterHasSpeffect(2, 10000, 160101722, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761102);
+    GotoUnconditionally(Label.LABEL2);
+    
+    SkipIfCharacterHasSpeffect(2, 10000, 160101732, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761103);
+    GotoUnconditionally(Label.LABEL2);
+    
+    SkipIfCharacterHasSpeffect(2, 10000, 160101742, false, ComparisonType.Equal, 1);
+    SetSpeffect(X0_4, 160761104);
+    GotoUnconditionally(Label.LABEL2);
+
+    Label2();
     
     // Disabled at 0% HP
     IfCharacterHPRatio(AND_02, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);

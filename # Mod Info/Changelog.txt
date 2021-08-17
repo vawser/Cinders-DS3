@@ -217,27 +217,10 @@ Add interaction with statue in Irithyll in dog section:
 # Companions
 Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
 
-# 652855
 # Map
 Go through maps and do a design pass
  - Add hop points
  - Add new encounters (i.e. hanging enemy)
  - Add new minibosses (i.e. the new chrs)
  - Add special interactables (puzzle, conditional buffs, etc)
- 
- # m30
- # m30_1
- # m31
- # m32
- # m33
- # m34_1
- # m35
- # m37
- # m38
- # m39
- # m40
- # m41
- # m45
- # m50
- # m51
- 
+

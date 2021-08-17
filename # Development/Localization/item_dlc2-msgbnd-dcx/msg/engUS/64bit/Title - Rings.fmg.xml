@@ -59,23 +59,109 @@
 <text id="160">%null%</text>
 <text id="161">%null%</text>
 <text id="162">%null%</text>
-<text id="10000">Darkmoon Faithful</text>
-<text id="10020">Watchdogs of Farron</text>
-<text id="10030">Aldrich Faithful</text>
-<text id="10040">Warrior of Sunlight</text>
-<text id="10050">Mound-makers</text>
-<text id="10060">Thieves' Pact</text>
-<text id="10070">Chaos Servant</text>
-<text id="10080">Rosaria's Fingers</text>
-<text id="10100">Vinheim Scholars</text>
-<text id="10110">Pilgrims of Dark</text>
-<text id="10120">Way of White</text>
-<text id="10130">Dragon Remnants</text>
-<text id="10140">Blue Sentinels</text>
-<text id="10150">Way of Blue</text>
-<text id="10160">Company of Champions</text>
-<text id="10170">Servant of the Rat</text>
-<text id="10180">Ritualist Pact</text>
+
+<text id="10000">Darkmoon Faithful I</text>
+<text id="10001">Darkmoon Faithful II</text>
+<text id="10002">Darkmoon Faithful III</text>
+<text id="10003">Darkmoon Faithful IV</text>
+<text id="10004">Darkmoon Faithful V</text>
+
+<text id="10020">Watchdogs of Farron I</text>
+<text id="10021">Watchdogs of Farron II</text>
+<text id="10022">Watchdogs of Farron III</text>
+<text id="10023">Watchdogs of Farron IV</text>
+<text id="10024">Watchdogs of Farron V</text>
+
+<text id="10030">Aldrich Faithful I</text>
+<text id="10031">Aldrich Faithful II</text>
+<text id="10032">Aldrich Faithful III</text>
+<text id="10033">Aldrich Faithful IV</text>
+<text id="10034">Aldrich Faithful V</text>
+
+<text id="10040">Warrior of Sunlight I</text>
+<text id="10041">Warrior of Sunlight II</text>
+<text id="10042">Warrior of Sunlight III</text>
+<text id="10043">Warrior of Sunlight IV</text>
+<text id="10044">Warrior of Sunlight V</text>
+
+<text id="10050">Mound-makers I</text>
+<text id="10051">Mound-makers II</text>
+<text id="10052">Mound-makers III</text>
+<text id="10053">Mound-makers IV</text>
+<text id="10054">Mound-makers V</text>
+
+<text id="10060">Thieves' Pact I</text>
+<text id="10061">Thieves' Pact II</text>
+<text id="10062">Thieves' Pact III</text>
+<text id="10063">Thieves' Pact IV</text>
+<text id="10064">Thieves' Pact V</text>
+
+<text id="10070">Chaos Servant I</text>
+<text id="10071">Chaos Servant II</text>
+<text id="10072">Chaos Servant III</text>
+<text id="10073">Chaos Servant IV</text>
+<text id="10074">Chaos Servant V</text>
+
+<text id="10080">Rosaria's Fingers I</text>
+<text id="10081">Rosaria's Fingers II</text>
+<text id="10082">Rosaria's Fingers III</text>
+<text id="10083">Rosaria's Fingers IV</text>
+<text id="10084">Rosaria's Fingers V</text>
+
+<text id="10100">Vinheim Scholars I</text>
+<text id="10101">Vinheim Scholars II</text>
+<text id="10102">Vinheim Scholars III</text>
+<text id="10103">Vinheim Scholars IV</text>
+<text id="10104">Vinheim Scholars V</text>
+
+<text id="10110">Pilgrims of Dark I</text>
+<text id="10111">Pilgrims of Dark II</text>
+<text id="10112">Pilgrims of Dark III</text>
+<text id="10113">Pilgrims of Dark IV</text>
+<text id="10114">Pilgrims of Dark V</text>
+
+<text id="10120">Way of White I</text>
+<text id="10121">Way of White II</text>
+<text id="10122">Way of White III</text>
+<text id="10123">Way of White IV</text>
+<text id="10124">Way of White V</text>
+
+<text id="10130">Dragon Remnants I</text>
+<text id="10131">Dragon Remnants II</text>
+<text id="10132">Dragon Remnants III</text>
+<text id="10133">Dragon Remnants IV</text>
+<text id="10134">Dragon Remnants V</text>
+
+<text id="10140">Blue Sentinels I</text>
+<text id="10141">Blue Sentinels II</text>
+<text id="10142">Blue Sentinels III</text>
+<text id="10143">Blue Sentinels IV</text>
+<text id="10144">Blue Sentinels V</text>
+
+<text id="10150">Way of Blue I</text>
+<text id="10151">Way of Blue II</text>
+<text id="10152">Way of Blue III</text>
+<text id="10153">Way of Blue IV</text>
+<text id="10154">Way of Blue V</text>
+
+<text id="10160">Company of Champions I</text>
+<text id="10161">Company of Champions II</text>
+<text id="10162">Company of Champions III</text>
+<text id="10163">Company of Champions IV</text>
+<text id="10164">Company of Champions V</text>
+
+<text id="10170">Servant of the Rat I</text>
+<text id="10171">Servant of the Rat II</text>
+<text id="10172">Servant of the Rat III</text>
+<text id="10173">Servant of the Rat IV</text>
+<text id="10174">Servant of the Rat V</text>
+
+<text id="10180">Ritualist Pact I</text>
+<text id="10181">Ritualist Pact II</text>
+<text id="10182">Ritualist Pact III</text>
+<text id="10183">Ritualist Pact IV</text>
+<text id="10184">Ritualist Pact V</text>
+
 <text id="20000">Life Ring</text>
 <text id="20001">Life Ring+1</text>
 <text id="20002">Life Ring+2</text>
