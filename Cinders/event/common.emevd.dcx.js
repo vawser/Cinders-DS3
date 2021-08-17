@@ -163,7 +163,7 @@ Event(0, Default, function() {
     InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
     
     //--------------------
-    // Covenant Material Drops
+    // Covenant - Token Drops
     //--------------------
     InitializeEvent(0, 20030, 10000, 160100101, 800011000, 800011100); // Darkmoon Faithful I
     InitializeEvent(1, 20030, 10000, 160100111, 800011000, 800011100); // Darkmoon Faithful II
@@ -195,11 +195,12 @@ Event(0, Default, function() {
     InitializeEvent(23, 20030, 10000, 160100531, 800015000, 800015100); // Mound-makers IV
     InitializeEvent(24, 20030, 10000, 160100541, 800015000, 800015100); // Mound-makers V
     
-    InitializeEvent(25, 20030, 10000, 160100601, 800016000, 800016100); // Thieves' Pact I
-    InitializeEvent(26, 20030, 10000, 160100611, 800016000, 800016100); // Thieves' Pact II
-    InitializeEvent(27, 20030, 10000, 160100621, 800016000, 800016100); // Thieves' Pact III
-    InitializeEvent(28, 20030, 10000, 160100631, 800016000, 800016100); // Thieves' Pact IV
-    InitializeEvent(29, 20030, 10000, 160100641, 800016000, 800016100); // Thieves' Pact V
+    
+    InitializeEvent(25, 20030, 10000, 160100601, 800016200, 800016300); // Thieves' Pact I
+    InitializeEvent(26, 20030, 10000, 160100611, 800016200, 800016300); // Thieves' Pact II
+    InitializeEvent(27, 20030, 10000, 160100621, 800016200, 800016300); // Thieves' Pact III
+    InitializeEvent(28, 20030, 10000, 160100631, 800016200, 800016300); // Thieves' Pact IV
+    InitializeEvent(29, 20030, 10000, 160100641, 800016200, 800016300); // Thieves' Pact V
     
     InitializeEvent(30, 20030, 10000, 160100701, 800018000, 800018100); // Chaos Servant I
     InitializeEvent(31, 20030, 10000, 160100711, 800018000, 800018100); // Chaos Servant II
@@ -243,11 +244,11 @@ Event(0, Default, function() {
     InitializeEvent(63, 20030, 10000, 160101331, 800024000, 800024100); // Blue Sentinels IV
     InitializeEvent(64, 20030, 10000, 160101341, 800024000, 800024100); // Blue Sentinels V
     
-    InitializeEvent(65, 20030, 10000, 160101401, 800025000, 800025100); // Way of Blue I
-    InitializeEvent(66, 20030, 10000, 160101411, 800025000, 800025100); // Way of Blue II
-    InitializeEvent(67, 20030, 10000, 160101421, 800025000, 800025100); // Way of Blue III
-    InitializeEvent(68, 20030, 10000, 160101431, 800025000, 800025100); // Way of Blue IV
-    InitializeEvent(69, 20030, 10000, 160101441, 800025000, 800025100); // Way of Blue V
+    InitializeEvent(65, 20030, 10000, 160101401, 800025200, 800025300); // Way of Blue I
+    InitializeEvent(66, 20030, 10000, 160101411, 800025200, 800025300); // Way of Blue II
+    InitializeEvent(67, 20030, 10000, 160101421, 800025200, 800025300); // Way of Blue III
+    InitializeEvent(68, 20030, 10000, 160101431, 800025200, 800025300); // Way of Blue IV
+    InitializeEvent(69, 20030, 10000, 160101441, 800025200, 800025300); // Way of Blue V
     
     InitializeEvent(70, 20030, 10000, 160101501, 800026000, 800026100); // Company of Champions I
     InitializeEvent(71, 20030, 10000, 160101511, 800026000, 800026100); // Company of Champions II
@@ -272,6 +273,21 @@ Event(0, Default, function() {
     InitializeEvent(87, 20030, 10000, 160101821, 800029000, 800029100); // Spears of the Church III
     InitializeEvent(88, 20030, 10000, 160101831, 800029000, 800029100); // Spears of the Church IV
     InitializeEvent(89, 20030, 10000, 160101841, 800029000, 800029100); // Spears of the Church V
+    
+    //--------------------
+    // Covenant - Consumable Drops
+    //--------------------
+    InitializeEvent(200, 20030, 10000, 160100601, 800016000, 800016100); // Thieves' Pact I
+    InitializeEvent(201, 20030, 10000, 160100611, 800016000, 800016100); // Thieves' Pact II
+    InitializeEvent(202, 20030, 10000, 160100621, 800016000, 800016100); // Thieves' Pact III
+    InitializeEvent(203, 20030, 10000, 160100631, 800016000, 800016100); // Thieves' Pact IV
+    InitializeEvent(204, 20030, 10000, 160100641, 800016000, 800016100); // Thieves' Pact V
+   
+    InitializeEvent(205, 20030, 10000, 160101401, 800025000, 800025100); // Way of Blue I
+    InitializeEvent(206, 20030, 10000, 160101411, 800025000, 800025100); // Way of Blue II
+    InitializeEvent(207, 20030, 10000, 160101421, 800025000, 800025100); // Way of Blue III
+    InitializeEvent(208, 20030, 10000, 160101431, 800025000, 800025100); // Way of Blue IV
+    InitializeEvent(210, 20030, 10000, 160101441, 800025000, 800025100); // Way of Blue V
     
     //--------------------
     // Items
@@ -3501,7 +3517,8 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetMapCeremony(30, 0, 20);
+    SetEventFlag(25009720, ON);
+    SetEventFlag(25009730, ON);
     
     EndUnconditionally(EventEndType.Restart);
 });

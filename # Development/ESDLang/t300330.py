@@ -127,6 +127,7 @@ def t300330_x6():
         """ State 17 """
         # lot:62310:Way of Blue
         assert t300330_x5(lot1=62310)
+        SetEventState(25009720, 1)
     else:
         """ State 4 """
         if GetEventStatus(9301) == 1:

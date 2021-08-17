@@ -212,9 +212,13 @@ def t510020_x15(lot1=4280, goods1=379, lot2=4288, lot3=4287, z1=15000406, action
     while True:
         ClearTalkListData()
         """ State 3 """
+        
+        # Offerings
         AddTalkListData(2, 15003011, -1)
-        # action:15000005:Leave
+        
+        # Leave
         AddTalkListData(99, 15000005, -1)
+        
         """ State 5 """
         ShowShopMessage(1)
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
