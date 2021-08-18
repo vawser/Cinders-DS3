@@ -109,6 +109,8 @@ Finish following weapons:
 - Lightning infusion now boosts Armor Poise by 20%.
 
 # Weapons
+- Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
+
 - Changed moveset for the following weapon class:
  - Claw 		
   - Claws (Stance)
@@ -212,6 +214,8 @@ Finish following weapons:
 - Fixed Scribe Vadan's dialogue.
 - You can now enter the Cathedral Guardian fight via the pit.
 - Fixed the messages in Dreg Heap showing the incorrect text.
+- Fixed Halflight's Intelligence and Faith stats.
+- Fixed Blooming Purple Moss Clump not healing poison.
  
 #------------------------------
 # TODO

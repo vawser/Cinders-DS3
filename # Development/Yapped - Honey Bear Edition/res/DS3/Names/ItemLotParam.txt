@@ -2930,6 +2930,15 @@
 800001120 [Covenant] Warrior of Sunlight
 800001130 [Covenant] Servant of the Rat
 800001140 [Covenant] Ritualist Pact
+800001150 [Covenant] Blue Sentinels
+800001160 [Covenant] Darkmoon Faithful
+800001170 [Covenant] Watchdogs of Farron
+800001180 [Covenant] Aldrich Faithful
+800001190 [Covenant] Warrior of Sunlight
+800001200 [Covenant] Mound-makers
+800001210 [Covenant] Rosaria's Fingers
+800001220 [Covenant] Spears of the Church
+800001230 [Covenant] Way of Blue
 800001999 ### Script - Gauntlet ###
 800002000 [Boss Kill] Token Drop
 800002010 [Initial Tokens] Weapon Token
@@ -2954,6 +2963,8 @@
 800016101 [Thieves' Pact - Low] Alluring Skull, Undead Hunter Charm, Duel Charm
 800016102 [Thieves' Pact - Low] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
 800016103 [Thieves' Pact - Low] New Throwing Knives
+800016200 [Thieves' Pact] Lost Trinket
+800016300 [Thieves' Pact - Low] Lost Trinket
 800018000 [Chaos Servant] Fire Seed
 800018100 [Chaos Servant] Fire Seed - Low
 800019000 [Rosaria's Fingers] Pale Tongue
@@ -2970,6 +2981,8 @@
 800024100 [Blue Sentinels] Proof of a Concord Kept - Low
 800025000 [Way of Blue] Consumables
 800025100 [Way of Blue] Consumables - Low
+800025200 [Way of Blue] Grateful Soul
+800025300 [Way of Blue] Grateful Soul - Low
 800026000 [Company of Champions] Awestone
 800026100 [Company of Champions] Awestone - Low
 800027000 [Servant of the Rat] Rat Tail

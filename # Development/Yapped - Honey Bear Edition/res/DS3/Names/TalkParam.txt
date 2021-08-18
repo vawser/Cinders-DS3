@@ -172,7 +172,7 @@
 10104021 [Bad] Begone!
 10104030 [Marry] Oh, my! Thou'st love is sweet.
 10104031 [Marry] If thou'st speak'th with true intent.
-10104999 ### Relationship - Domhnall of Zena (m37)
+10104999 ### Relationship - Domhnall of Zena (m40)
 10105000 [Good] I never thought you'd confess such beautiful words to me.
 10105001 [Good] Hmm... What can I say? Take this trinket as a sign of my love.
 10105010 [Neutral] Those are truly wonderful thoughts.
@@ -363,6 +363,11 @@
 10131002 Unless you can prove your worth, scram!
 10131010 Finally, a worthy challenge.
 10131011 Prepare to die!
+10131999 ### Talk - Knight Lun
+10132000 Hello there. Do you seek to help those in distress too?
+10132999 ### Talk - Priestess Emilia
+10133000 I hear you have met the High Priestess too.
+10133001 She has charged me with assisting those that wish to help the Way of Blue.
 11999999 ### Vanilla Talk
 12000000 [Fire Keeper]
 12000001 [Fire Keeper]

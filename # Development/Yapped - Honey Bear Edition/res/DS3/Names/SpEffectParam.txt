@@ -2189,7 +2189,6 @@
 113100 [Behavior] Restore FP - Base - 8 per second
 113101 [Behavior] Restore FP - Enchanted - 3 per second
 113102 [Behavior] Restore FP - Clarity - 3 per second
-113103 [Behavior] Restore FP - Darkmoon Faithful - 3 per second
 113104 [Behavior] Restore FP - Pulsating - 3 per second
 113110 [Behavior] Restore FP - Darkmoon Ring - 3 per second
 113111 [Behavior] Restore FP - Darkmoon Ring+1 - 4 per second
@@ -2204,9 +2203,13 @@
 113124 [Behavior] Restore FP - Focusing Ring+4 - 7 per second
 113125 [Behavior] Restore FP - Focusing Ring+5 - 8 per second
 113130 [Behavior] Restore FP - Attunement Mastery - 15 per second
+113140 [Behavior] Restore FP - Darkmoon Faithful I - 3 per second
+113141 [Behavior] Restore FP - Darkmoon Faithful II - 4 per second
+113142 [Behavior] Restore FP - Darkmoon Faithful III - 5 per second
+113143 [Behavior] Restore FP - Darkmoon Faithful IV - 6 per second
+113144 [Behavior] Restore FP - Darkmoon Faithful V - 7 per second
 113200 [Behavior] Effect - Enchanted
 113201 [Behavior] Effect - Clarity
-113202 [Behavior] Effect - Darkmoon Faithful
 113203 [Behavior] Effect - Pulsating
 113205 [Behavior] Effect - Curse of Simplicity
 113210 [Behavior] Effect - Darkmoon Ring
@@ -2221,6 +2224,11 @@
 113223 [Behavior] Effect - Focusing Ring+3
 113224 [Behavior] Effect - Focusing Ring+4
 113225 [Behavior] Effect - Focusing Ring+5
+113240 [Behavior] Effect - Darkmoon Faithful I
+113241 [Behavior] Effect - Darkmoon Faithful II
+113242 [Behavior] Effect - Darkmoon Faithful III
+113243 [Behavior] Effect - Darkmoon Faithful IV
+113244 [Behavior] Effect - Darkmoon Faithful V
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -5475,7 +5483,11 @@
 160760215 Level Scaling: Filianore's Rest
 160760216 Level Scaling: Memories
 160761000 Companion - Summoned VFX
-160761100 Companion - Ritualist Pact
+160761100 Companion - Ritualist Pact I
+160761101 Companion - Ritualist Pact II
+160761102 Companion - Ritualist Pact III
+160761103 Companion - Ritualist Pact IV
+160761104 Companion - Ritualist Pact V
 160761600 Activity Timer - 60
 160761601 Activity Timer - 90
 160761602 Activity Timer - 120
