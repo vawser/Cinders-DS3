@@ -118,10 +118,15 @@ Finish following weapons:
 - Fire infusion now increases max Stamina by 20%.
 - Lightning infusion now boosts Armor Poise by 20%.
 
+# Ammunitions
+- Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
+
 # Weapons
 - Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
 
 - Changed moveset for the following weapon class:
+ - Hammer
+  - Boom Hammer (Ignite)
  - Claw 		
   - Claws (Stance)
   - Manikin Claws (Leaping Slash)
@@ -154,6 +159,8 @@ Finish following weapons:
  - Rolling 1H R1 for Alternate Scythe moveset.
  - 4th 1H R1 for Alternate Straight Sword moveset. 
  - Slight event arrangement for Ciaran's Tracers.
+ - Restored Short Bow/Composite Bow Running attack.
+ - Decrease the ending lag and reload speed for Crossbows.
 
 # Consumables
 - Adjusted several oil visual.
@@ -226,6 +233,7 @@ Finish following weapons:
 - Fixed the messages in Dreg Heap showing the incorrect text.
 - Fixed Halflight's Intelligence and Faith stats.
 - Fixed Blooming Purple Moss Clump not healing poison.
+- Fixed Divine Relief not increasing equip load by 40%.
  
 #------------------------------
 # TODO
