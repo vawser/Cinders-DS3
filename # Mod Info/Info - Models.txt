@@ -24,80 +24,80 @@
 0860    Spitfire Spear
 0861    Syan's Halberd
 0862    Warped Sword
-0863    Cracked Round Shield
+0863    Cracked Round Shield        # UNUSED
 0864    Frying Pan
-0865    Gertrude's Knight Longaxe #
-0866    Winged Knight Longaxe #
+0865    Gertrude's Knight Longaxe   # UNUSED
+0866    Winged Knight Longaxe       # UNUSED
 0867    Giant's Bow
-0868    Lothric Knight Claymore #
+0868    Lothric Knight Claymore     # UNUSED
 0869    Serpentine Chain-axe
 0870    Model Ballista
-0871    Bone Ash Katana
-0872    Fist of Gratia
+0871    Bone Ash Katana             # UNUSED
+0872    Fist of Gratia              # UNUSED
 0873    Imperious Greatshield
-0874    Armored Warrior Sword
-0875    Black Mortal Blade
-0876    Centipede Claws
-0877    Corrupted Monk Dagger
-0878    Corrupted Monk Glaive
-0879    Drunkard Sword
-0880    Emma's Gentle Blade
-0881    Genichiro's Blade
-0882    Genichiro's Bow
-0883    Guardian Ape Sword
-0884    Gyoubu's Spear
-0885    Headless Sword
-0886    Kusabimaru
-0887    Kusabimaru+Sabimaru
-0888    Loaded Axe
-0889    Loaded Spear
-0890    Mortal Blade
-0891    Nightjar Sickle
-0892    Nightjar Twinsickles
-0893    Okami Bow
-0894    Okami Glaive
-0895    Okami Sword
-0896    Owl's Sword
-0897    Rat Dagger
-0898    Sabimaru
-0899    Seven Ashina Spear
+0874    Armored Warrior Sword       # UNUSED
+0875    Black Mortal Blade          # UNUSED
+0876    Centipede Claws             # UNUSED
+0877    Corrupted Monk Dagger       # UNUSED
+0878    Corrupted Monk Glaive       # UNUSED
+0879    Drunkard Sword              # UNUSED
+0880    Emma's Gentle Blade         # UNUSED
+0881    Genichiro's Blade           # UNUSED
+0882    Genichiro's Bow             # UNUSED
+0883    Guardian Ape Sword          # UNUSED
+0884    Gyoubu's Spear              # UNUSED
+0885    Headless Sword              # UNUSED
+0886    Kusabimaru                  # UNUSED
+0887    Kusabimaru+Sabimaru         # UNUSED
+0888    Loaded Axe                  # UNUSED
+0889    Loaded Spear                # UNUSED
+0890    Mortal Blade                # UNUSED
+0891    Nightjar Sickle             # UNUSED
+0892    Nightjar Twinsickles        # UNUSED
+0893    Okami Bow                   # UNUSED
+0894    Okami Glaive                # UNUSED
+0895    Okami Sword                 # UNUSED
+0896    Owl's Sword                 # UNUSED
+0897    Rat Dagger                  # UNUSED
+0898    Sabimaru                    # UNUSED
+0899    Seven Ashina Spear          # UNUSED
 
-0927    Shichimen Staff
-0928    Sword Saint's Gun
-0929    Sword Saint's Spear
-0930    Tengu Sword
-0931    Butterfly Kunai
-0932    Gun Fort Bayonet
-0933    Monk Staff
-0934    Monk Twinblade
-0935    Shinobi Hunter Spear
-0936    Snake Eyes Cannon
-0937    Taro Mace
-0938    Taro Mallet
+0927    Shichimen Staff             # UNUSED
+0928    Sword Saint's Gun           # UNUSED
+0929    Sword Saint's Spear         # UNUSED
+0930    Tengu Sword                 # UNUSED
+0931    Butterfly Kunai             # UNUSED
+0932    Gun Fort Bayonet            # UNUSED
+0933    Monk Staff                  # UNUSED
+0934    Monk Twinblade              # UNUSED
+0935    Shinobi Hunter Spear        # UNUSED
+0936    Snake Eyes Cannon           # UNUSED
+0937    Taro Mace                   # UNUSED
+0938    Taro Mallet                 # UNUSED
 
-0939    Stone Greataxe
-0940    Priscilla's Dagger
-0941    Jagged Ghost Blade
-0942    Iaito
-0943    Hammer of Vamos
-0944    Ghost Blade
-0945    Gargoyle Halberd
-0946    Gargoyle Axe
-0947    Demon's Catalyst
-0948    Crystal Greatsword
-0949    DS1 Knight Shield
-0950    Effigy Shield
-0951    Blood Shield
-0952    Balder Shield
-0953    Achillies Shield
-0954    Tower Shield
+0939    Stone Greataxe              # UNUSED
+0940    Priscilla's Dagger          # UNUSED
+0941    Jagged Ghost Blade          # UNUSED
+0942    Iaito                       # UNUSED
+0943    Hammer of Vamos             # UNUSED
+0944    Ghost Blade                 # UNUSED
+0945    Gargoyle Halberd            # UNUSED
+0946    Gargoyle Axe                # UNUSED
+0947    Demon's Catalyst            # UNUSED
+0948    Crystal Greatsword          # UNUSED
+0949    DS1 Knight Shield           # UNUSED
+0950    Effigy Shield               # UNUSED
+0951    Blood Shield                # UNUSED
+0952    Balder Shield               # UNUSED
+0953    Achillies Shield            # UNUSED
+0954    Tower Shield                # UNUSED
 0955    Ivory King Ultra Greatsword
 0956    King's Mirror
 0957    Thorned Greatsword
-0958    Firelink Curved Sowrd
-0959    Firelink Lance
-0960    Firelink Staff
-0961    Firelink UGS
+0958    Firelink Curved Sword       # UNUSED       
+0959    Firelink Lance              # UNUSED
+0960    Firelink Staff              # UNUSED
+0961    Firelink UGS                # UNUSED
 0962    Runelock
 0963    Cannon
 
@@ -105,8 +105,8 @@
 0965    Repeating Pistol
 0966    Evelynn
 0967    Hunter's Blunderbuss
-0968    Flamesprayer
-0969    Rosamarius
+0968    Rosamarius
+0969    Flamesprayer                # UNUSED
 0970    Fist of Gratia
 0971    'Fake' Invisible Spell Tool    
 0972    Prism Stone VFX Hand
@@ -145,7 +145,7 @@
 9805    Bloodletter
 9806    Greatwood Club
 9807    Irithyll Spear
-9808    Burial Scythe (twinned)
+9808    Burial Scythe (twinned)     # UNUSED
 9809    Fume Straight Sword
 9810    Sword of Avowal
 9811    Machete
@@ -168,13 +168,13 @@
 9828    Witch's Staff     
 9929    Blades of Mercy
 9830    Quarterstaff
-9831    Tailbone Sword
-9832    Yorshka Hammer
-9833    Irithyll Pick
+9831    Tailbone Sword              # UNUSED
+9832    Yorshka Hammer              # UNUSED
+9833    Irithyll Warpick
 9834    Boom Hammer
-9835    Tailbone Pick
+9835    Tailbone Pick               # UNUSED
 9836    Burial Blade
-9837    Tailbone Club
+9837    Tailbone Club               
 9838    
 9839    Irithyll Mace
 9840    Burial Scythe
@@ -186,24 +186,24 @@
 9846    Gatling Gun
 9847    Hunter Axe
 9848    Kirkhammer
-9849    Logarius Wheel
-9850    Ludwig's Holy Blade
-9851    Ludwig's Holy Greatsword
-9852    Holy Moonlight Sword
-9853    Holy Moonlight Greatsword
+9849    Breaking Wheel (Logarius Wheel)
+9850    Hallowed Sword (Ludwig's Holy Blade)
+9851    Sunlight Greatsword (Ludwig's Holy Greatsword)
+9852    Holy Moonlight Sword        # UNUSED
+9853    Hallowed Greatsword (Holy Moonlight Greatsword)
 9854    Loch Shield
-9855    Crow Rapier
-9856    Reiterpallasch
-9857    Rifle Spear
-9858    Simon's Blade
-9859    Small Bloodletter
-9860    Stake Driver
-9861    Threaded Cane
+9855    Velka's Rapier
+9856    Reiterpallasch              # UNUSED
+9857    Rifle Spear                 # UNUSED
+9858    Nil Blade (Simon's Blade)   
+9859    Sanguinus (Small Bloodletter)
+9860    Stake Driver                # UNUSED
+9861    Threaded Cane               # UNUSED
 9862    Tonitrus
-9863    Whirligig (no saw)
+9863    Whirligig (no saw)          # UNUSED
 9864    Pursuer Ultra Greatsword
-9865    Whirligig Saw
-9866    Quelaag's Fury Sword
+9865    Whirligig Saw               # UNUSED
+9866    Quelaag's Fury Sword        # UNUSED
 9867    Black Dragon Shortsword
 9868    Black Dragon Greatsword
 9869    Black Dragon Greataxe
@@ -214,21 +214,21 @@
 9874    Bramd
 9875    Dozer Axe
 9876    Dragon Bone Smasher
-9877    Geri's Stiletto
+9877    Sage's Stiletto (Geri's Stiletto)
 9878    Guillotine Axe
 9879    Hands of God
 9880    Insanity Catalyst
 9881    Istarelle
 9882    Kris Blade
-9883    Large Sword of Searching
-9884    Magic Sword Makota
+9883    Large Sword of Searching    # UNUSED
+9884    Makoto (Magic Sword Makota)
 9885    Meat Cleaver
 9886    Morion Great Blade
 9887    Needle of Eternal Agony
 9888    Penetrating Sword
 9889    Phosophrescent Pole
-9890    Rune Shield
-9891    Rune Sword
+9890    Rune Shield                 # UNUSED
+9891    Rune Sword                  # UNUSED
 9892    Scrapping Spear
 9893    Talisman of Beasts
 9894    Storm Ruler
@@ -236,62 +236,60 @@
 9896    Amygdalan Arm (closed)
 9897    Greatshield of Artorias
 9898    Greatsword of Artorias
-9899    artorias sword
-9900    balder straight sword - estoc
-9901    channeler's trident - four-pronged plow
-9902    chester's zweihander - zweihander 
-9903    crystal shield - carthus shield #
-9904    crystal sword - shortsword
-9905    demon's great hammer - old king's great hammer
-9906    demon's greataxe - great axe
-9907    demon's machete - great machete
-9908    demon's spear - rotten ghru spear
-9909    dragon bone fist - demon's fist
-9910    dragon greatsword - fume ultra greatsword
-9911    dragon king greataxe - dragonslayer greataxe
-9912    drake sword - claymore
-9913    four kings sword - crescent moon sword
-9914    gargoyle shield - cadaecus shield
-9915    giant greatshield - lothric knight greatshield
-9916    giant's halberd - halberd
-9917    golem greataxe - greataxe
-9918    grant - morne's greathammer
-9919    gravelord curved greatsword - old wolf curved sword
-9920    great lord greatsword - fume ultra greatsword
-9921    lifehunt scythe - great scythe
-9922    man serpent greatsword - exile greatsword
-9923    manus catalyst - sorcerer's staff
-9924    moonlight butterfly horn - pike
-9925    obsidian greatsword - claymore
-9926    quelaag's fury sword - scimitar
-9927    server - carthus curved greatsword
-9928    silver knight spear - winged spear
-9929    silver knight straight sword - sunlight straight sword
-9930    stone greatsword - black knight greatsword
-9931    tin banishment catalyst - sorcerer's staff
-9932    titanite catch pole - winged spear
-9933    Dark Silver Shield
-9934    Large Brushwood Shield
-9935    Purple Flame Shield
-9936    Tower Shield
-
-# TODO
+9899    Artorias sword              # UNUSED
+9900    Balder Side Sword
+9901    Channeler's Trident
+9902    Marvelous Zweihander
+9903    Crystalline Shield
+9904    Crystal Straight Sword
+9905    Demon's Great Hammer
+9906    Demon's Great Axe
+9907    Demon's Machete
+9908    Demon's Spear
+9909    Dragon Bone Fist
+9910    Dragon Greatsword
+9911    Dragon King Greataxe
+9912    Drake Sword
+9913    Abyssal Blade
+9914    Gargoyle Shield
+9915    Giant's Shield
+9916    Giant's Halberd
+9917    Golem Axe
+9918    Grant
+9919    Gravelord Sword
+9920    Great Lord Greatsword
+9921    Lifehunt Scythe             # UNUSED
+9922    Man Serpent Greatsword
+9923    Manus Catalyst
+9924    Moonlight Butterfly Horn
+9925    Obsidian Greatsword
+9926    Quelaag's Fury Sword
+9927    Server
+9928    Silver Knight Spear
+9929    Silver Knight Straight Sword
+9930    Stone Greatsword
+9931    Tin Banishment Catalyst
+9932    Titanite Catchpole
+9933    Quicksilver Shield
+9934    Twinfang Greatshield
+9935    Dragonkin Shield
+9936    Bulwark Shield
 9937    Beast Claw
 9938    Mini Claw
 9939    Rakuyo (long)
-9940    Rakuyo (short)
-9941    Saw Cleaver
-9942    Saw Spear
-9943    Skull
-9944    Cleansing Greatshield
-9945    Cleansing Sword
+9940    Rakuyo (short)              # UNUSED
+9941    Saw Cleaver                 # UNUSED
+9942    Saw Spear                   # UNUSED
+9943    Skull                       # UNUSED
+9944    Cleansing Greatshield       # UNUSED
+9945    Cleansing Sword             # UNUSED
 9946    Crystal Shield
 9947    Sanctus
 9948    Velka's Talisman
 9949    Ladle
 9950    Crypt Greatsword
 9951    Smelter Sword
-9952    Demonbrandt
+9952    Demonbrandt                 # UNUSED
 9953    Blue Flame
 9954    Ash Demon Hammer
 9955    Consumed King's Staff
