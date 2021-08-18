@@ -24,6 +24,17 @@ Event(0, Default, function() {
     InitializeEvent(0, 20001, 0); // Game Flags - Once
     InitializeEvent(0, 20002, 0); // Game Flags - On Load
     
+    // Trackers
+    InitializeEvent(0, 20003, 0); // No Hit State
+    InitializeEvent(0, 20004, 0); // Deathless Run State
+    InitializeEvent(0, 20005, 0); // Hitless Run State
+    InitializeEvent(0, 20006, 0); // Baseline SpEffects
+    
+    // Covenant
+    InitializeEvent(0, 20007, 0); // Covenant Material Drops - 1
+    InitializeEvent(0, 20008, 0); // Covenant Material Drops - 2
+    InitializeEvent(0, 20009, 0); // Covenant Consumable Drops
+    
     // Modes
     InitializeEvent(0, 20050, 0); // Standard Mode
     InitializeEvent(0, 20051, 0); // Wanderer Mode
@@ -42,13 +53,6 @@ Event(0, Default, function() {
     // Masteries
     InitializeEvent(0, 20080, 0); // Masteries
     InitializeEvent(0, 20081, 0); // Masteries - Reset
-
-    //--------------------
-    // Challenge States
-    //--------------------
-    InitializeEvent(0, 20003, 10000); // No Hit State
-    InitializeEvent(0, 20004, 10000); // Deathless Run State
-    InitializeEvent(0, 20005, 10000); // Hitless Run State
     
     //--------------------
     // Curses - Add Player Effects
@@ -162,132 +166,6 @@ Event(0, Default, function() {
     InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
     InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
     
-    //--------------------
-    // Covenant - Token Drops
-    //--------------------
-    InitializeEvent(0, 20030, 10000, 160100101, 800011000, 800011100); // Darkmoon Faithful I
-    InitializeEvent(1, 20030, 10000, 160100111, 800011000, 800011100); // Darkmoon Faithful II
-    InitializeEvent(2, 20030, 10000, 160100121, 800011000, 800011100); // Darkmoon Faithful III
-    InitializeEvent(3, 20030, 10000, 160100131, 800011000, 800011100); // Darkmoon Faithful IV
-    InitializeEvent(4, 20030, 10000, 160100141, 800011000, 800011100); // Darkmoon Faithful V
-    
-    InitializeEvent(5, 20030, 10000, 160100201, 800012000, 800012100); // Watchdogs of Farron I
-    InitializeEvent(6, 20030, 10000, 160100211, 800012000, 800012100); // Watchdogs of Farron II
-    InitializeEvent(7, 20030, 10000, 160100221, 800012000, 800012100); // Watchdogs of Farron III
-    InitializeEvent(8, 20030, 10000, 160100231, 800012000, 800012100); // Watchdogs of Farron IV
-    InitializeEvent(9, 20030, 10000, 160100241, 800012000, 800012100); // Watchdogs of Farron V
-    
-    InitializeEvent(10, 20030, 10000, 160100301, 800013000, 800013100); // Aldrich Faithful I
-    InitializeEvent(11, 20030, 10000, 160100311, 800013000, 800013100); // Aldrich Faithful II
-    InitializeEvent(12, 20030, 10000, 160100321, 800013000, 800013100); // Aldrich Faithful III
-    InitializeEvent(13, 20030, 10000, 160100331, 800013000, 800013100); // Aldrich Faithful IV
-    InitializeEvent(14, 20030, 10000, 160100341, 800013000, 800013100); // Aldrich Faithful V
-    
-    InitializeEvent(15, 20030, 10000, 160100401, 800014000, 800014100); // Warrior of Sunlight I
-    InitializeEvent(16, 20030, 10000, 160100411, 800014000, 800014100); // Warrior of Sunlight II
-    InitializeEvent(17, 20030, 10000, 160100421, 800014000, 800014100); // Warrior of Sunlight III
-    InitializeEvent(18, 20030, 10000, 160100431, 800014000, 800014100); // Warrior of Sunlight IV
-    InitializeEvent(19, 20030, 10000, 160100441, 800014000, 800014100); // Warrior of Sunlight V
-    
-    InitializeEvent(20, 20030, 10000, 160100501, 800015000, 800015100); // Mound-makers I
-    InitializeEvent(21, 20030, 10000, 160100511, 800015000, 800015100); // Mound-makers II
-    InitializeEvent(22, 20030, 10000, 160100521, 800015000, 800015100); // Mound-makers III
-    InitializeEvent(23, 20030, 10000, 160100531, 800015000, 800015100); // Mound-makers IV
-    InitializeEvent(24, 20030, 10000, 160100541, 800015000, 800015100); // Mound-makers V
-    
-    
-    InitializeEvent(25, 20030, 10000, 160100601, 800016200, 800016300); // Thieves' Pact I
-    InitializeEvent(26, 20030, 10000, 160100611, 800016200, 800016300); // Thieves' Pact II
-    InitializeEvent(27, 20030, 10000, 160100621, 800016200, 800016300); // Thieves' Pact III
-    InitializeEvent(28, 20030, 10000, 160100631, 800016200, 800016300); // Thieves' Pact IV
-    InitializeEvent(29, 20030, 10000, 160100641, 800016200, 800016300); // Thieves' Pact V
-    
-    InitializeEvent(30, 20030, 10000, 160100701, 800018000, 800018100); // Chaos Servant I
-    InitializeEvent(31, 20030, 10000, 160100711, 800018000, 800018100); // Chaos Servant II
-    InitializeEvent(32, 20030, 10000, 160100721, 800018000, 800018100); // Chaos Servant III
-    InitializeEvent(33, 20030, 10000, 160100731, 800018000, 800018100); // Chaos Servant IV
-    InitializeEvent(34, 20030, 10000, 160100741, 800018000, 800018100); // Chaos Servant V
-   
-    InitializeEvent(35, 20030, 10000, 160100801, 800019000, 800019100); // Rosaria's Fingers I
-    InitializeEvent(36, 20030, 10000, 160100811, 800019000, 800019100); // Rosaria's Fingers II
-    InitializeEvent(37, 20030, 10000, 160100821, 800019000, 800019100); // Rosaria's Fingers III
-    InitializeEvent(38, 20030, 10000, 160100831, 800019000, 800019100); // Rosaria's Fingers IV
-    InitializeEvent(39, 20030, 10000, 160100841, 800019000, 800019100); // Rosaria's Fingers V
-    
-    InitializeEvent(40, 20030, 10000, 160100901, 800020000, 800020100); // Vinheim Scholars I
-    InitializeEvent(41, 20030, 10000, 160100911, 800020000, 800020100); // Vinheim Scholars II
-    InitializeEvent(42, 20030, 10000, 160100921, 800020000, 800020100); // Vinheim Scholars III
-    InitializeEvent(43, 20030, 10000, 160100931, 800020000, 800020100); // Vinheim Scholars IV
-    InitializeEvent(44, 20030, 10000, 160100941, 800020000, 800020100); // Vinheim Scholars V
-    
-    InitializeEvent(45, 20030, 10000, 160101001, 800021000, 800021100); // Pilgrims of Dark I
-    InitializeEvent(46, 20030, 10000, 160101011, 800021000, 800021100); // Pilgrims of Dark II
-    InitializeEvent(47, 20030, 10000, 160101021, 800021000, 800021100); // Pilgrims of Dark III
-    InitializeEvent(48, 20030, 10000, 160101031, 800021000, 800021100); // Pilgrims of Dark IV
-    InitializeEvent(49, 20030, 10000, 160101041, 800021000, 800021100); // Pilgrims of Dark V
-    
-    InitializeEvent(50, 20030, 10000, 160101101, 800022000, 800022100); // Way of White I
-    InitializeEvent(51, 20030, 10000, 160101111, 800022000, 800022100); // Way of White II
-    InitializeEvent(52, 20030, 10000, 160101121, 800022000, 800022100); // Way of White III
-    InitializeEvent(53, 20030, 10000, 160101131, 800022000, 800022100); // Way of White IV
-    InitializeEvent(54, 20030, 10000, 160101141, 800022000, 800022100); // Way of White V
-    
-    InitializeEvent(55, 20030, 10000, 160101201, 800023000, 800023100); // Dragon Remnants I
-    InitializeEvent(56, 20030, 10000, 160101211, 800023000, 800023100); // Dragon Remnants II
-    InitializeEvent(57, 20030, 10000, 160101221, 800023000, 800023100); // Dragon Remnants III
-    InitializeEvent(58, 20030, 10000, 160101231, 800023000, 800023100); // Dragon Remnants IV
-    InitializeEvent(59, 20030, 10000, 160101241, 800023000, 800023100); // Dragon Remnants V
-    
-    InitializeEvent(60, 20030, 10000, 160101301, 800024000, 800024100); // Blue Sentinels I
-    InitializeEvent(61, 20030, 10000, 160101311, 800024000, 800024100); // Blue Sentinels II
-    InitializeEvent(62, 20030, 10000, 160101321, 800024000, 800024100); // Blue Sentinels III
-    InitializeEvent(63, 20030, 10000, 160101331, 800024000, 800024100); // Blue Sentinels IV
-    InitializeEvent(64, 20030, 10000, 160101341, 800024000, 800024100); // Blue Sentinels V
-    
-    InitializeEvent(65, 20030, 10000, 160101401, 800025200, 800025300); // Way of Blue I
-    InitializeEvent(66, 20030, 10000, 160101411, 800025200, 800025300); // Way of Blue II
-    InitializeEvent(67, 20030, 10000, 160101421, 800025200, 800025300); // Way of Blue III
-    InitializeEvent(68, 20030, 10000, 160101431, 800025200, 800025300); // Way of Blue IV
-    InitializeEvent(69, 20030, 10000, 160101441, 800025200, 800025300); // Way of Blue V
-    
-    InitializeEvent(70, 20030, 10000, 160101501, 800026000, 800026100); // Company of Champions I
-    InitializeEvent(71, 20030, 10000, 160101511, 800026000, 800026100); // Company of Champions II
-    InitializeEvent(72, 20030, 10000, 160101521, 800026000, 800026100); // Company of Champions III
-    InitializeEvent(73, 20030, 10000, 160101531, 800026000, 800026100); // Company of Champions IV
-    InitializeEvent(74, 20030, 10000, 160101541, 800026000, 800026100); // Company of Champions V
-    
-    InitializeEvent(75, 20030, 10000, 160101601, 800027000, 800027100); // Servant of the Rat I
-    InitializeEvent(76, 20030, 10000, 160101611, 800027000, 800027100); // Servant of the Rat II
-    InitializeEvent(77, 20030, 10000, 160101621, 800027000, 800027100); // Servant of the Rat III
-    InitializeEvent(78, 20030, 10000, 160101631, 800027000, 800027100); // Servant of the Rat IV
-    InitializeEvent(79, 20030, 10000, 160101641, 800027000, 800027100); // Servant of the Rat V
-    
-    InitializeEvent(80, 20031, 10000, 160101701, 800028000, 800028100); // Ritualist Pact I
-    InitializeEvent(81, 20031, 10000, 160101711, 800028000, 800028100); // Ritualist Pact II
-    InitializeEvent(82, 20031, 10000, 160101721, 800028000, 800028100); // Ritualist Pact III
-    InitializeEvent(83, 20031, 10000, 160101731, 800028000, 800028100); // Ritualist Pact IV
-    InitializeEvent(84, 20031, 10000, 160101741, 800028000, 800028100); // Ritualist Pact V
-    
-    InitializeEvent(85, 20030, 10000, 160101801, 800029000, 800029100); // Spears of the Church I
-    InitializeEvent(86, 20030, 10000, 160101811, 800029000, 800029100); // Spears of the Church II
-    InitializeEvent(87, 20030, 10000, 160101821, 800029000, 800029100); // Spears of the Church III
-    InitializeEvent(88, 20030, 10000, 160101831, 800029000, 800029100); // Spears of the Church IV
-    InitializeEvent(89, 20030, 10000, 160101841, 800029000, 800029100); // Spears of the Church V
-    
-    //--------------------
-    // Covenant - Consumable Drops
-    //--------------------
-    InitializeEvent(200, 20030, 10000, 160100601, 800016000, 800016100); // Thieves' Pact I
-    InitializeEvent(201, 20030, 10000, 160100611, 800016000, 800016100); // Thieves' Pact II
-    InitializeEvent(202, 20030, 10000, 160100621, 800016000, 800016100); // Thieves' Pact III
-    InitializeEvent(203, 20030, 10000, 160100631, 800016000, 800016100); // Thieves' Pact IV
-    InitializeEvent(204, 20030, 10000, 160100641, 800016000, 800016100); // Thieves' Pact V
-   
-    InitializeEvent(205, 20030, 10000, 160101401, 800025000, 800025100); // Way of Blue I
-    InitializeEvent(206, 20030, 10000, 160101411, 800025000, 800025100); // Way of Blue II
-    InitializeEvent(207, 20030, 10000, 160101421, 800025000, 800025100); // Way of Blue III
-    InitializeEvent(208, 20030, 10000, 160101431, 800025000, 800025100); // Way of Blue IV
-    InitializeEvent(210, 20030, 10000, 160101441, 800025000, 800025100); // Way of Blue V
     
     //--------------------
     // Items
@@ -2129,12 +2007,12 @@ Event(20002, Restart, function(X0_4, X4_4) {
 //------------------------------------------------
 // No Hit State
 //------------------------------------------------
-Event(20003, Restart, function(X0_4) {
+Event(20003, Restart, function() {
     var flag_WasHit = 25006000;
     
     SetEventFlag(flag_WasHit, OFF);
     
-    IfCharacterHasSpeffect(MAIN, X0_4, 112060, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, 10000, 112060, true, ComparisonType.Equal, 1);
 
     SetEventFlag(flag_WasHit, ON);
 });
@@ -2142,10 +2020,10 @@ Event(20003, Restart, function(X0_4) {
 //------------------------------------------------
 // Deathless Run State
 //------------------------------------------------
-Event(20004, Default, function(X0_4) {
+Event(20004, Default, function() {
     var flag_NeverDied = 25000030;
     
-    IfCharacterHasSpeffect(MAIN, X0_4, 112100, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, 10000, 112100, true, ComparisonType.Equal, 1);
     
     SetEventFlag(flag_NeverDied, OFF);
 });
@@ -2153,11 +2031,252 @@ Event(20004, Default, function(X0_4) {
 //------------------------------------------------
 // Hitless Run State
 //------------------------------------------------
-Event(20005, Default, function(X0_4) {
+Event(20005, Default, function() {
     var flag_NeverHit = 25000031;
     
-    IfCharacterHasSpeffect(MAIN, X0_4, 112101, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
     SetEventFlag(flag_NeverHit, OFF);
+});
+
+//------------------------------------------------
+// Baseline SpEffects
+//------------------------------------------------
+Event(20006, Default, function() {
+    SetSpEffect(10000, 160010000); // Kill Tracker
+});
+
+
+//------------------------------------------------
+// Covenant Material Drops
+//------------------------------------------------
+Event(20007, Default, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 160010010, false, ComparisonType.Equal, 1); // Is not in cooldown
+    IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Darkmoon Faithful
+    IfCharacterHasSpeffect(OR_01, 10000, 160100102, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100112, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100122, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100132, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100142, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
+    AwardItemsIncludingClients(800011000); 
+    SetSpEffect(10000, 160010010);
+    
+    // Watchdogs of Farron
+    IfCharacterHasSpeffect(OR_02, 10000, 160100202, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160100212, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160100222, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160100232, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160100242, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
+    AwardItemsIncludingClients(800011010); 
+    SetSpEffect(10000, 160010010);
+    
+    // Aldrich Faithful 
+    IfCharacterHasSpeffect(OR_03, 10000, 160100302, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160100312, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160100322, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160100332, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160100342, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_03);
+    AwardItemsIncludingClients(800011020); 
+    SetSpEffect(10000, 160010010);
+    
+    // Warrior of Sunlight
+    IfCharacterHasSpeffect(OR_04, 10000, 160100402, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_04, 10000, 160100412, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_04, 10000, 160100422, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_04, 10000, 160100432, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_04, 10000, 160100442, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_04);
+    AwardItemsIncludingClients(800011030); 
+    SetSpEffect(10000, 160010010);
+    
+    // Mound-makers
+    IfCharacterHasSpeffect(OR_05, 10000, 160100502, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_05, 10000, 160100512, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_05, 10000, 160100522, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_05, 10000, 160100532, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_05, 10000, 160100542, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_05);
+    AwardItemsIncludingClients(800011040); 
+    SetSpEffect(10000, 160010010);
+    
+    // Thieves' Pact
+    IfCharacterHasSpeffect(OR_06, 10000, 160100602, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_06, 10000, 160100612, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_06, 10000, 160100622, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_06, 10000, 160100632, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_06, 10000, 160100642, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_06);
+    AwardItemsIncludingClients(800011050); 
+    SetSpEffect(10000, 160010010);
+    
+    // Chaos Servant
+    IfCharacterHasSpeffect(OR_07, 10000, 160100702, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_07, 10000, 160100712, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_07, 10000, 160100722, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_07, 10000, 160100732, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_07, 10000, 160100742, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_07);
+    AwardItemsIncludingClients(800011060); 
+    SetSpEffect(10000, 160010010);
+    
+    // Rosaria's Fingers
+    IfCharacterHasSpeffect(OR_08, 10000, 160100802, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_08, 10000, 160100812, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_08, 10000, 160100822, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_08, 10000, 160100832, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_08, 10000, 160100842, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_08);
+    AwardItemsIncludingClients(800011070); 
+    SetSpEffect(10000, 160010010);
+    
+    // Spears of the Church
+    IfCharacterHasSpeffect(OR_09, 10000, 160101802, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_09, 10000, 160101812, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_09, 10000, 160101822, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_09, 10000, 160101832, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_09, 10000, 160101842, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_09);
+    AwardItemsIncludingClients(800011120); 
+    SetSpEffect(10000, 160010010);
+    
+    // Vinheim Scholars 
+    IfCharacterHasSpeffect(OR_10, 10000, 160100902, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_10, 10000, 160100912, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_10, 10000, 160100922, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_10, 10000, 160100932, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_10, 10000, 160100942, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_10);
+    AwardItemsIncludingClients(800011080); 
+    SetSpEffect(10000, 160010010);
+    
+    // Pilgrims of Dark
+    IfCharacterHasSpeffect(OR_11, 10000, 160101002, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_11, 10000, 160101012, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_11, 10000, 160101022, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_11, 10000, 160101032, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_11, 10000, 160101042, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_11);
+    AwardItemsIncludingClients(800011090); 
+    SetSpEffect(10000, 160010010);
+    
+    // Way of White
+    IfCharacterHasSpeffect(OR_12, 10000, 160101102, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_12, 10000, 160101112, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_12, 10000, 160101122, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_12, 10000, 160101132, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_12, 10000, 160101142, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_12);
+    AwardItemsIncludingClients(800011100); 
+    SetSpEffect(10000, 160010010);
+    
+    // Dragon Remnants
+    IfCharacterHasSpeffect(OR_13, 10000, 160101202, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_13, 10000, 160101212, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_13, 10000, 160101222, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_13, 10000, 160101232, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_13, 10000, 160101242, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_13);
+    AwardItemsIncludingClients(800011110); 
+    SetSpEffect(10000, 160010010);
+    
+    // Blue Sentinels
+    IfCharacterHasSpeffect(OR_14, 10000, 160101302, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_14, 10000, 160101312, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_14, 10000, 160101322, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_14, 10000, 160101332, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_14, 10000, 160101342, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_14);
+    AwardItemsIncludingClients(800011000); 
+    SetSpEffect(10000, 160010010);
+    
+    // Way of Blue
+    IfCharacterHasSpeffect(OR_15, 10000, 160101402, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_15, 10000, 160101412, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_15, 10000, 160101422, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_15, 10000, 160101432, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_15, 10000, 160101442, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_15);
+    AwardItemsIncludingClients(800011130); 
+    SetSpEffect(10000, 160010010);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//------------------------------------------------
+// Covenant Material Drops
+//------------------------------------------------
+Event(20008, Default, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 160010010, false, ComparisonType.Equal, 1); // Is not in cooldown
+    IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    // Company of Champions
+    IfCharacterHasSpeffect(OR_01, 10000, 160101502, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160101512, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160101522, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160101532, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160101542, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
+    AwardItemsIncludingClients(800011140); 
+    SetSpEffect(10000, 160010010);
+    
+    // Servant of the Rat
+    IfCharacterHasSpeffect(OR_02, 10000, 160101602, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101612, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101622, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101632, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101642, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
+    AwardItemsIncludingClients(800011150); 
+    SetSpEffect(10000, 160010010);
+    
+    // Ritualist Pact
+    IfCharacterHasSpeffect(OR_03, 10000, 160101702, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160101712, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160101722, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160101732, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_03, 10000, 160101742, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_03);
+    AwardItemsIncludingClients(800011160); 
+    SetSpEffect(10000, 160010010);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//------------------------------------------------
+// Covenant Consumable Drops
+//------------------------------------------------
+Event(20009, Default, function() {
+    IfCharacterHasSpeffect(AND_01, 10000, 160010011, false, ComparisonType.Equal, 1); // Is not in cooldown
+    IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
+    IfConditionGroup(MAIN, PASS, AND_01);
+
+    // Thieves' Pact
+    IfCharacterHasSpeffect(OR_01, 10000, 160100602, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100612, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100622, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100632, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 160100642, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
+    AwardItemsIncludingClients(800020000); 
+    SetSpEffect(10000, 160010011);
+
+    // Way of Blue
+    IfCharacterHasSpeffect(OR_02, 10000, 160101402, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101412, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101422, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101432, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_02, 10000, 160101442, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
+    AwardItemsIncludingClients(800020010); 
+    SetSpEffect(10000, 160010011);
+
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //------------------------------------------------
@@ -2193,74 +2312,6 @@ Event(20020, Restart, function(X0_4, X4_4, X8_4) {
     ClearSpeffect(10000, X8_4);
     
     WaitFixedTimeSeconds(1.0);
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//------------------------------------------------
-// Covenant - Trigger Covenant Item Drop
-//------------------------------------------------
-Event(20030, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    // Normal Rate
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502930, 1); // Area: Graveyard 1
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502931, 1); // Area: Graveyard 2
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502932, 1); // Area: Deacons
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3102930, 1); // Area: Rats
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902930, 1); // Area: Giant + Rats
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 5002930, 1); // Area: Murkmen
-    SkipIfConditionGroupStateUncompiled(1, PASS, OR_01);
-    AwardItemsIncludingClients(X8_4);
-    
-    // Reduced Rate
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502930, 1); // Area: Graveyard 1
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502931, 1); // Area: Graveyard 2
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502932, 1); // Area: Deacons
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3102930, 1); // Area: Rats
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3902930, 1); // Area: Giant + Rats
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 5002930, 1); // Area: Murkmen
-    SkipIfConditionGroupStateUncompiled(1, PASS, OR_02);
-    AwardItemsIncludingClients(X12_4);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//------------------------------------------------
-// Covenant - Trigger Covenant Item Drop - Ritualist Pact
-//------------------------------------------------
-Event(20031, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761700, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761701, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761702, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761703, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761704, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761705, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761706, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    // Normal Rate
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502930, 1); // Area: Graveyard 1
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502931, 1); // Area: Graveyard 2
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3502932, 1); // Area: Deacons
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3102930, 1); // Area: Rats
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 3902930, 1); // Area: Giant + Rats
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, 5002930, 1); // Area: Murkmen
-    SkipIfConditionGroupStateUncompiled(1, PASS, OR_01);
-    AwardItemsIncludingClients(X8_4);
-    
-    // Reduced Rate
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502930, 1); // Area: Graveyard 1
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502931, 1); // Area: Graveyard 2
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3502932, 1); // Area: Deacons
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3102930, 1); // Area: Rats
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 3902930, 1); // Area: Giant + Rats
-    IfInoutsideArea(OR_02, InsideOutsideState.Outside, 10000, 5002930, 1); // Area: Murkmen
-    SkipIfConditionGroupStateUncompiled(1, PASS, OR_02);
-    AwardItemsIncludingClients(X12_4);
-    
     EndUnconditionally(EventEndType.Restart);
 });
 
