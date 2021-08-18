@@ -287,11 +287,11 @@ def t400506_x50():
         AddTalkListDataIf(IsEquipmentIDEquipped(2, 10173) == 1, 6, 99062001, -1)
         
         # Strengthen Bond - None
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10130) == 0 and 
-        IsEquipmentIDEquipped(2, 10131) == 0 and 
-        IsEquipmentIDEquipped(2, 10132) == 0 and 
-        IsEquipmentIDEquipped(2, 10133) == 0 and 
-        IsEquipmentIDEquipped(2, 10134) == 0, 7, 99062001, -1)
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10170) == 0 and 
+        IsEquipmentIDEquipped(2, 10171) == 0 and 
+        IsEquipmentIDEquipped(2, 10172) == 0 and 
+        IsEquipmentIDEquipped(2, 10173) == 0 and 
+        IsEquipmentIDEquipped(2, 10174) == 0, 7, 99062001, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

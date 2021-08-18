@@ -610,7 +610,11 @@ def t400240_x50():
         ClearTalkListData()
 
         # Form Covenant
-        AddTalkListDataIf(IsEquipmentIDObtained(2, 10070) == 0, 1, 15003019, -1)
+        AddTalkListDataIf(IsEquipmentIDObtained(2, 10070) == 0 and 
+        IsEquipmentIDObtained(2, 10071) == 0 and 
+        IsEquipmentIDObtained(2, 10072) == 0 and 
+        IsEquipmentIDObtained(2, 10073) == 0 and 
+        IsEquipmentIDObtained(2, 10074) == 0, 1, 15003019, -1)
         
         # View Inventory
         AddTalkListData(2, 99062003, -1)
@@ -628,7 +632,11 @@ def t400240_x50():
         AddTalkListDataIf(IsEquipmentIDEquipped(2, 10073) == 1, 6, 99062001, -1)
         
         # Strengthen Bond - None
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10070) == 0, 7, 99062001, -1)
+        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10070) == 0 and 
+        IsEquipmentIDEquipped(2, 10071) == 0 and 
+        IsEquipmentIDEquipped(2, 10072) == 0 and 
+        IsEquipmentIDEquipped(2, 10073) == 0 and 
+        IsEquipmentIDEquipped(2, 10074) == 0, 7, 99062001, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
