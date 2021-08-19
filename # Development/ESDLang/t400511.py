@@ -96,7 +96,7 @@ def t400511_x4():
             Goto('L0')
         elif IsPlayerDead() == 1:
             break
-        elif GetEventStatus(14000851) == 1: # End once boss fight starts
+        elif GetEventStatus(25009740) == 1: # End once boss fight starts
             break
     """ State 2 """
     t400511_x2() # Clear Talk State
