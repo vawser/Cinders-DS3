@@ -2041,8 +2041,17 @@ Event(20005, Default, function() {
 //------------------------------------------------
 // Baseline SpEffects
 //------------------------------------------------
-Event(20006, Default, function() {
-    SetSpEffect(10000, 160010000); // Kill Tracker
+Event(20006, Restart, function() {
+    // Kill Tracker
+    SkipIfCharacterHasSpEffect(1, 10000, 160010000, true, ComparisonType.Equal, 1); // Skip if already applied
+    SetSpEffect(10000, 160010000);
+    
+    // BB Dodge Toggle
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009750); // Skip if BB Dodge is not activated
+    SkipIfCharacterHasSpEffect(1, 10000, 112415, true, ComparisonType.Equal, 1); // Skip if already applied
+    SetSpEffect(10000, 112415);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 

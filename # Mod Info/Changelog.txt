@@ -205,6 +205,7 @@ Finish following weapons:
 
 # Npcs
 - Npc main weapon is now always +10.
+- Master Benjin now allows you to toggle the Bloodborne Dash that certain weapons have.
 
 # Enemies
 - Red Crystal Lizards now always drop Lizard Hide.

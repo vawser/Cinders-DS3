@@ -3508,6 +3508,13 @@ Enables Primordial material to drop from bosses.</text>
 <text id="99013110">Smithbox</text>
 <text id="99013111">Give Smithbox</text>
 <text id="99013120">Send to Firelink Shrine</text>
+<text id="99013130">Learn Benjin's Dash</text>
+<text id="99013131">Certain weapons will now cause you to 
+dodge like Benjin instead of rolling.</text>
+<text id="99013140">Forget Benjin's Dash</text>
+<text id="99013141">Certain weapons will no longer cause you to 
+dodge like Benjin instead of rolling.</text>
+
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
 <text id="99015005">Basic Affix</text>

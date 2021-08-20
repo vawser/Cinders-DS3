@@ -178,6 +178,12 @@ def t400507_x9():
         # Smithbox
         AddTalkListDataIf(GetEventStatus(25009540) == 0, 4, 99013110, -1)
         
+        # Learn the Benjin's Dash
+        AddTalkListDataIf(GetEventStatus(25009750) == 0, 10, 99013130, -1)
+        
+        #Forget Benjin's Dash
+        AddTalkListDataIf(GetEventStatus(25009750) == 1, 11, 99013140, -1)
+        
         # Talk
         AddTalkListData(6, 10010200, -1)
         
@@ -214,6 +220,14 @@ def t400507_x9():
         # Talk
         elif GetTalkListEntryResult() == 6:
             assert t400507_x10(text1=10021000, flag1=0, mode1=0)
+            continue
+        # Learn Benjin's Dash
+        elif GetTalkListEntryResult() == 10:
+            OpenGenericDialog(1, 99013131, 0, 0, 0)
+            continue
+        # Forget Benjin's Dash
+        elif GetTalkListEntryResult() == 11:
+            OpenGenericDialog(1, 99013141, 0, 0, 0)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
