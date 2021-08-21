@@ -214,6 +214,10 @@ Finish following weapons:
 - Removed the crying baby sounds from the Titanite Abomination.
 - Tweaked the vfx of Princess Yngvil to be less blinding.
 
+- Twisted Knight:
+ - His color mechanic has been switched, instead of reducing damage except for the chosen element, it now adds a 50% boost to the chosen element.
+ - Increased his HP to 16,000 to retain the length of the fight.
+
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
 - Fixed the visual effect on hit of Surging Soulmass.
@@ -235,7 +239,7 @@ Finish following weapons:
 - Fixed Halflight's Intelligence and Faith stats.
 - Fixed Blooming Purple Moss Clump not healing poison.
 - Fixed Divine Relief not increasing equip load by 40%.
- - Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
+- Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
  
 #------------------------------
 # TODO
