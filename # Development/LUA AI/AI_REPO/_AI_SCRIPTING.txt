@@ -1,0 +1,198 @@
+﻿#-----------------------------
+# Commands
+#-----------------------------
+Capitalized arguments mean the value is an enum found in a list file such as ai_define.
+
+ai:
+ # Add sub goal to goal list
+ AddSubGoal( <based on goal> )
+ 
+ # Clear sub goal
+ ClearSubGoal()
+ 
+ # Add top goal to goal list
+ AddTopGoal( <GOAL>, <uint>, <animation ID>, <TARGET>, <ufloat>, <uint>, <uint>, <uint>, <uint>)
+ 
+ # Check if goal is in list
+ HasGoal( <GOAL> )
+ 
+ # Check if goal is active
+ IsActiveGoal( <GOAL> )
+ 
+ # Turn to target
+ TurnTo( <TARGET> )
+ 
+ # Replan 
+ Replaning()
+ 
+ # Get number of sub goals
+ GetSubGoalNum()
+ 
+ # Get duration of AI life
+ GetLife()
+ 
+ # Get param via index
+ GetParam( <index> )
+ 
+ # Get distance param
+ GetDistParam( <DIST> )
+ 
+ # Check if SpEffect is present
+ HasSpecialEffectId( <TARGET>, <SpEffect ID )
+  
+ # Get AI think param ID
+ GetNpcThinkParamID() == <ID>
+ 
+ # Get AI HP %
+ GetHpRate( <TARGET> )
+ 
+ # Get AI distance to target
+ GetDist( <TARGET> )
+ 
+ # Is in optimal attack range
+ IsOptimalAttackDist( <unk>, <unk> )
+ 
+ # Get random int between min and max
+ GetRandam_Int( <min>, <max> )
+ 
+ # Get random float between min and max
+ GetRandam_Float( <min, <max> )
+ 
+ # Get event request
+ GetEventRequest()
+ 
+ # Get field value from param field
+ GetExcelParam( <AI_EXCEL_THINK_PARAM_TYPE> )
+ 
+ # Get map hit radius
+ GetMapHitRadius( <TARGET> )
+ 
+ # Get angle to target
+ GetToTargetAngle( <TARGET> )
+ 
+ # Get relative angle from target
+ GetRelativeAngleFromTarget( <TARGET> )
+ 
+ # Get AI angle to target
+ IsInsideTarget( <TARGET>, <AI_DIR_TYPE>, <angle> )
+
+ # Check if AI is in pre-defined map region
+ IsInsideMsbRegion( <TARGET>, <AI_DIR_TYPE>, <angle>, <event ID> )
+ 
+ # Check if AI in in target region
+ IsInsideTargetRegion( <TARGET>, <event ID> )
+ 
+ # Check if AI is on ladder
+ IsLadderAct( <TARGET> )
+ 
+ # Get saved number from index
+ GetNumber( <index> )
+ 
+ # Save a number to an index
+ SetNumber( <index>, <value> )
+ 
+ # 
+ GetExistMeshOnLineDistEx( <TARGET>, <AI_DIR_TYPE>, <start distance>, <end distance>, <uint>)
+ 
+ #
+ GetExistMeshOnLineDistSpecifyAngleEx( )
+ 
+ # Get if target is within path
+ CheckDoesExistPath( <TARGET>, <AI_DIR_TYPE>, <start distance>, <end distance>)
+ 
+ # Set event move target
+ SetEventMoveTarget( <event ID> )
+ 
+ # Set string variable
+ SetStringIndexedNumber( <string>, <value> )
+ 
+ # Get string variable
+ GetStringIndexedNumber( <string> )
+ 
+ # Check if timer with index X has finished
+ IsFinishTimer( <index> )
+ 
+ # Set timer to index
+ SetTimer( <index>, <time> )
+ 
+ # Check interrupt
+ IsInterupt( <INTERUPT> )
+ 
+ # Check if target is within observe area
+ IsInsideObserve( <index> )
+ 
+ # Add observe area (a type of interupt)
+ AddObserveArea( <index>, <TARGET>, <TARGET>, <AI_DIR_TYPE>, <angle>, <distance>)
+ 
+ # Delete observe area
+ DeleteObserve( <index> )
+ 
+ # Add SpEffect monitor
+ AddObserveSpecialEffectAttribute( <TARGET>, <SpEffect ID> )
+ 
+ # Delete SpEffect monitor
+ DeleteObserveSpecialEffectAttribute( <TARGET>, <SpEffect ID> )
+ 
+ # Get Interrupt based on SpEffect monitor
+ GetSpecialEffectActivateInterruptType( <uint> ) == <SpEffect ID>
+ 
+ # 
+ IsTargetOutOfRangeInterruptSlot( <index> )
+ 
+ #
+ SetTargetRange( <unk>, <unk>, <unk> )
+ 
+ # Get team order
+ GetTeamOrder( <ORDER_TYPE> )
+ 
+ # Get team record
+ GetTeamRecordCount( <COORDINATE_TYPE>, <unk> )
+ 
+ # 
+ GetMemberNum()
+ 
+ # 
+ AddGoalScopedTeamRecord( <COORDINATE_TYPE>, <unk>, <unk> )
+ 
+ # Do ezstate action
+ DoEzAction( <unk>, <unk> )
+ 
+ # Get latest attacked direction
+ GetLatestAttackedDir()
+ 
+ # 
+ AfterAction( <unk>, <unk>, <act> )
+ 
+ # Get ID timer
+ GetIdTimer( <index> )
+ 
+ # Set ID timer
+ StartIdTimer( <index> )
+ 
+ # Is searching for target
+ IsSearchTarget( <TARGET> )
+ 
+ # Set attack request
+ SetAttackRequest( <value> )
+ 
+ # 
+ SetFailedEndOption( <AI_GOAL> )
+ 
+ #
+ SetAllowTriggerNearObjAct()
+ 
+ #
+ IsExistReqObjAct()
+ 
+ #
+ AddLifeParentSubGoal( <float> )
+ 
+ #
+ GetDistYSigned( <distance> )
+ 
+ #
+ AddCirclePoint( <member>, <TARGET>, <angle>, <unk>, <TEAM_FMT_BASE_DIR> )
+ 
+ #
+ AddProcessionPoint( <member>, <TARGET>, <angle>, <unk>, <TEAM_FMT_BASE_DIR> )
+ 
