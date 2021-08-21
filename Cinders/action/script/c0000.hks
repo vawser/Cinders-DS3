@@ -1712,7 +1712,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)		
-        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 744 then
+        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 744 or sp_kind == 745 then
             if r2 == "W_AttackRightHeavy1Start" then
                 r2 = "W_AttackRightHeavySpecial1Start"
             elseif r2 == "W_AttackRightHeavy1SubStart" then
@@ -1842,7 +1842,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)	
-        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 or sp_kind == 743 then
+        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 or sp_kind == 743 or sp_kind == 745 then
             if b2 == "W_AttackBothHeavy1Start" then
                 b2 = "W_AttackBothHeavySpecial1Start"
             elseif b2 == "W_AttackBothHeavy1SubStart" then
@@ -7506,7 +7506,7 @@ function AttackRightLight3_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 276 or sp_kind == 282 or sp_kind == 726 or sp_kind == 724 or sp_kind == 728 or sp_kind == 729 or sp_kind == 730 or sp_kind == 712 or sp_kind == 732 or sp_kind == 733 or sp_kind == 734 or sp_kind == 736 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 744 then
+    if sp_kind == 276 or sp_kind == 282 or sp_kind == 726 or sp_kind == 724 or sp_kind == 728 or sp_kind == 729 or sp_kind == 730 or sp_kind == 712 or sp_kind == 732 or sp_kind == 733 or sp_kind == 734 or sp_kind == 736 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 744 or sp_kind == 745 then
         r1 = "W_AttackRightBackstep"
     end
     
@@ -7540,7 +7540,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 or sp_kind == 727 or sp_kind == 713 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 or sp_kind == 727 or sp_kind == 713 or sp_kind == 745 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7593,6 +7593,10 @@ function AttackRightLightDash_onUpdate()
 		r2 = "W_AttackRightHeavy2Start"
     end
     
+	if sp_kind == 745 then
+		r1 = "W_AttackRightBackstep"
+	end	
+	
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else
@@ -7813,7 +7817,7 @@ function AttackRightBackstep_onUpdate()
     
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 282 or sp_kind == 726 or sp_kind == 728 or sp_kind == 729 or sp_kind == 712 or sp_kind == 736 then
+    if sp_kind == 282 or sp_kind == 726 or sp_kind == 728 or sp_kind == 729 or sp_kind == 712 or sp_kind == 736 or sp_kind == 745 then
         r1 = "W_AttackRightLight2"
     end
 	
@@ -8000,7 +8004,7 @@ function AttackBothLight3_onUpdate()
 		l1 = "W_AttackBothLeft3"
 	end	
 	
-	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 743 then
+	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 743 or sp_kind == 745 then
 		b1 = "W_AttackBothBackstep"
 	end
     
@@ -8424,7 +8428,7 @@ function AttackBothDashSpecial_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 600 or sp_kind == 743 then
+    if sp_kind == 600 or sp_kind == 743 or sp_kind == 745 then
         b2 = "W_AttackBothHeavy2Start"
     end	
 	
@@ -8467,7 +8471,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end	
 
-	if sp_kind == 146 or sp_kind == 742 then
+	if sp_kind == 146 or sp_kind == 742 or sp_kind == 745 then
 		b1 = "W_AttackBothLight3"
 	end		
 
@@ -8553,7 +8557,7 @@ function AttackBothBackstep_onUpdate()
 		b1 = "W_AttackBothLightStepSpecial"
 	end	
 	
-	if sp_kind == 742 or sp_kind == 743 then
+	if sp_kind == 742 or sp_kind == 743 or sp_kind == 745 then
 		b1 = "W_AttackBothLight2"
 	end	
 	
@@ -10349,7 +10353,7 @@ function SpecialAttackRightHeavy_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 734 or sp_kind == 600 or sp_kind == 744 then
+    if sp_kind == 734 or sp_kind == 600 or sp_kind == 744 or sp_kind == 745 then
         r2 = "W_AttackRightHeavy2Start"
     end	
 	
@@ -10820,7 +10824,7 @@ function CircleStepStart_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if env(1116, 112008) == TRUE then
+    if env(1116, 112008) == TRUE or env(1116, 112415) == TRUE then
 		r1 = "W_AttackRightLightStep"
         r2 = "W_AttackRightHeavy2Start"
 		b1 = "W_AttackBothLightStep"
