@@ -3545,15 +3545,17 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
         return FALSE
     end
     local request = GetEvasionRequest()
+    
     if request == ATTACK_REQUEST_INVALID then
         return FALSE
     elseif backstep_limit == TRUE and request == ATTACK_REQUEST_BACKSTEP and env(301, 0) == TRUE then -- GetEventEzStateFlag
         return FALSE
     end
+    
     SetEvasionStaminaCost()
+    
     if request == ATTACK_REQUEST_ROLLING then
-        -- Ring of Momentum
-        if env(1116, 112008) == TRUE or env(1116, 112415) == TRUE then -- GetSpecialEffectID
+        if IsRingOfMomentum() == TRUE or IsBBDashWeapon() == TRUE then -- GetSpecialEffectID
             local index = GetWeightIndex(FALSE)
             if index < EVASION_WEIGHT_INDEX_HEAVY then
                 local angle = GetVariable("MoveAngle")
@@ -10824,7 +10826,7 @@ function CircleStepStart_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if env(1116, 112008) == TRUE or env(1116, 112415) == TRUE then
+    if IsRingOfMomentum() or IsBBDashWeapon() == TRUE then
 		r1 = "W_AttackRightLightStep"
         r2 = "W_AttackRightHeavy2Start"
 		b1 = "W_AttackBothLightStep"
@@ -16784,6 +16786,28 @@ function UpdateVitalityMasteryEffect()
         end
     end
 end
+
+------------------------------------------
+-- Utility
+------------------------------------------
+function IsBBDashWeapon()
+    if env(1116, 112415) == TRUE and env(1116, 112414) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsRingOfMomentum()
+    if env(1116, 112008) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+------------------------------------------
+------------------------------------------
 
 global = {}
 function dummy()

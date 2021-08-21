@@ -2048,13 +2048,13 @@ Event(20006, Restart, function() {
     
     // BB Dodge Toggle - Add SpEffect when enabled
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009750); // Skip if BB Dodge is not activated
-    SkipIfCharacterHasSpEffect(1, 10000, 112415, true, ComparisonType.Equal, 1); // Skip if already applied
-    SetSpEffect(10000, 112415);
+    SkipIfCharacterHasSpEffect(1, 10000, 112414, true, ComparisonType.Equal, 1); // Skip if already applied
+    SetSpEffect(10000, 112414);
     
     // BB Dodge Toggle - Clear SpEffect when disabled
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009750); // Skip if BB Dodge is activated
-    SkipIfCharacterHasSpEffect(1, 10000, 112415, false, ComparisonType.Equal, 1); // Skip if not applied
-    ClearSpEffect(10000, 112415);
+    SkipIfCharacterHasSpEffect(1, 10000, 112414, false, ComparisonType.Equal, 1); // Skip if not applied
+    ClearSpEffect(10000, 112414);
     
     EndUnconditionally(EventEndType.Restart);
 });
