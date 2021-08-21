@@ -181,7 +181,7 @@ def t400507_x9():
         # Learn the Benjin's Dash
         AddTalkListDataIf(GetEventStatus(25009750) == 0, 10, 99013130, -1)
         
-        #Forget Benjin's Dash
+        # Forget Benjin's Dash
         AddTalkListDataIf(GetEventStatus(25009750) == 1, 11, 99013140, -1)
         
         # Talk
@@ -224,10 +224,12 @@ def t400507_x9():
         # Learn Benjin's Dash
         elif GetTalkListEntryResult() == 10:
             OpenGenericDialog(1, 99013131, 0, 0, 0)
+            SetEventState(25009750, 1)
             continue
         # Forget Benjin's Dash
         elif GetTalkListEntryResult() == 11:
             OpenGenericDialog(1, 99013141, 0, 0, 0)
+            SetEventState(25009750, 0)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
