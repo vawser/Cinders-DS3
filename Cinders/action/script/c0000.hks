@@ -3553,7 +3553,7 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
     SetEvasionStaminaCost()
     if request == ATTACK_REQUEST_ROLLING then
         -- Ring of Momentum
-        if env(1116, 112008) == TRUE then -- GetSpecialEffectID
+        if env(1116, 112008) == TRUE or env(1116, 112415) == TRUE then -- GetSpecialEffectID
             local index = GetWeightIndex(FALSE)
             if index < EVASION_WEIGHT_INDEX_HEAVY then
                 local angle = GetVariable("MoveAngle")
