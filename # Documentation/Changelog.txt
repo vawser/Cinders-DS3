@@ -235,6 +235,7 @@ Finish following weapons:
 # Spells
 - Adjusted several weapon buffs visual.
 - Adjusted Chaos Beam's sound.
+- Adjusted Angelic Barrage's sound.
 
 # Npcs
 - Npc main weapon is now always +10.
