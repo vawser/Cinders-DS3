@@ -1,0 +1,317 @@
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Warning: QPainter::begin: Paint device returned engine == 0, type: 1
+Warning: QPainter::setPen: Painter not active
+Warning: QPainter::setBrush: Painter not active
+Warning: QPainter::setRenderHint: Painter must be active to set rendering hints
+Warning: QPainter::setPen: Painter not active
+Warning: libpng warning: Interlace handling should be turned on when using png_read_image
+Debug: "17:20:18 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\eventform.ui.h:1983 CG: Paste Event" 
+Debug: "17:20:34 ..\..\src\propertyeditor.cpp:1508 EM: Set Name" 
+Debug: "17:20:38 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\sounddefform.ui.h:2856 HG: Add Sound File" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "17:21:04 ..\..\src\eventlayerstackwidget.cpp:1402 CW: Replace sound" 
+Warning: QColor::setHsv: HSV parameters out of range
+Debug: "17:21:16 c:\jk\workspace\build__4.44__designer_win\fmod4\tools\fmod_designer\src\builddialog.ui.h:274 AG: Find Missing Sound Files" 
+Debug: 
+Building project 'fdp_main_dlc1'...
+Debug: Building project D:\Main Fork\# Development\FMOD\Main_DLC1\fdp_main_dlc1.fev...
+Debug: Unique sound defs 1/71
+Debug: Retrieving sound file info...
+Debug: Retrieving reverb info...
+Debug: FEV file written ok
+Debug: Unique Envelope Points: 8 of 700
+Debug: Unique Strings: 2961 characters of 4050
+Debug: Caching sound file details for ''...
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003043.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003044.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003045.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003046.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000005013.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006043.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006044.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006045.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007505.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007511.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007520.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007520b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007521.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot1.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot2.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot3.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\large-weapon-hit.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000004026.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000004027.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000032300.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000041001.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000041003.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000143035.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000143035b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000303151.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402101.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402101b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440420.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440430.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440431.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440461.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440473.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528001.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528100.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528101.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528112.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528114b1.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528114b3.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528120.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528121.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528122.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528123.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528124.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660010.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660010a.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011e.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011f.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013e.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013f.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660200.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231e.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231f.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231g.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232e.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232f.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232g.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232h.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232i.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232j.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660260.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660262.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660264.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660264b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660265.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660265b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002d.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s100440420.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s100528122.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s101010104.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s200528114.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s200528114b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440001.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440001b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440002.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440003.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s999999988.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s999999993.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043b.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043c.wav
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\ModSounds\\TestSound_Cartoon.mp3
+Debug: D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\ModSounds\s880202000.wav
+Debug: Building 'fdp_main_dlc1.fsb'
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001043d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001044c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001045d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000001046d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002043d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000002046d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003043.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003044.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003045.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000003046.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006043.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000005013.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006044.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000006045.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007505.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007511.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007520.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007520b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007510c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\c000007521.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot1.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot3.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\ghost_foot2.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\large-weapon-hit.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000004027.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000004026.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000032300.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000041001.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000041003.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000143035.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000143035b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000303151.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000400205b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402101.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402101b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000402102c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440420.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440421b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440431.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440430.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440441c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440473.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000440461.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528001.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528100.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528112.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528101.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528114b1.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528114b3.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528120.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528121.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528123.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528122.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000528124.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660010.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660010a.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011e.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660011f.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013f.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660013e.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231e.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660200.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231f.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660231g.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232e.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232f.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232g.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232h.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232i.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660232j.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660260.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660264.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660262.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660264b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660265.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000660265b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s000661002d.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s100440420.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s100528122.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s200528114.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s200528114b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440001.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440002.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440001b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s999999988.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s999999993.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\s440440003.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043b.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\ModSounds\\TestSound_Cartoon.mp3
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\\z000000043c.wav
+Debug: Encoded D:\Main Fork\# Development\FMOD\Main_DLC1\Sounds\ModSounds\s880202000.wav
+Debug: Writing FSB...
+Debug: Finished building FSB
+Debug: 
+Debug: 
+Summary of build:
+SUCCESS: D:/Main Fork/# Development/FMOD/Main_DLC1/fdp_main_dlc1.fev
+SUCCESS: fdp_main_dlc1.fsb
