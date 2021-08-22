@@ -6,9 +6,9 @@
 <entries>
 <text id="315">This special throwing blade has a flat tip, and is wielded by guardians of the Church of Filianore.
 
-Consume FP to project illusory blades which
-seek their targets.
-Scales with Luck.
+Project illusory blades whichseek their targets.
+Does not scale with any stat.
+This item draws upon the blood of foes, allowing for endless usage.
 
 Guardians of the Church, of whom few remain,
 watch over Princess Filianore's eternal slumber
@@ -78,8 +78,7 @@ in physical form.</text>
 <text id="647">%null%</text>
 <text id="648">%null%</text>
 <text id="649">%null%</text>
-<text id="650">Online play item.
-A fragment of the matching ritual spears once
+<text id="650">A fragment of the matching ritual spears once
 held by the knights of Princess Filianore.
 
 They are the namesake of the Spears of the Church.
@@ -89,12 +88,12 @@ treacherous foes, this allows them to
 draw upon former majesty, and summon
 a row of upward-thrusting ritual spears.
 </text>
-<text id="651">Online play item.
-A fragment of the matching ritual spears once
+<text id="651">A fragment of the matching ritual spears once
 held by the knights of Princess Filianore.
 
 These Divine Spears of gold were placed in
 the trusted hands of exalted Spears.
+This item draws upon the blood of foes, allowing for endless usage.
 
 When Spears of the Church face unduly
 treacherous foes, this allows them to
@@ -153,7 +152,8 @@ dried, and so consumed the dark soul.</text>
 
 This semi-precious gem honors a Spear of Church after a battle well-fought, and is said to slightly enhance their blessing of protection.
 
-Grants additional HP, Stamina recovery and boosts damage absorption for a short duration.</text>
+Grants additional HP, Stamina recovery and boosts damage absorption for a short duration.
+This item draws upon the blood of foes, allowing for endless usage.</text>
 <text id="10000">%null%</text>
 <text id="10001">%null%</text>
 <text id="10002">%null%</text>

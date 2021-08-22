@@ -18,8 +18,6 @@ dmy:
 440287 Scythe of Want ground aura?
 527006 Scythe of Want mine explosion
 
-440462 - 440466 Black Flame Arc
-
 854000 Blue Fire
 854001 Green Fire
 854002 Pink Fire
@@ -209,6 +207,8 @@ dmy:
 880383 Silent Storm Ruler Wind Effect
 880384 Silent Storm Ruler Wind Effect
 880385 Silent Storm Ruler Wind Effect
+
+880462 - 880466 Black Flame Arc
 
 882501 Angelic Barrage with sound
 

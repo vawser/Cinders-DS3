@@ -70,6 +70,9 @@
 40013 Trial of Devastation
 40014 Peer into the Past
 40015 Revive
+50000 Interaction Point - Seek Blessing
+50001 Interaction Point - Harvest
+50002 Interaction Point - Extract Draconic Essence
 3000250 For the treasure corpse that broke from the vase
 3001800 Entering the wall of light (Ojo 1 Full Armor Beast)
 3001830 Entering the wall of light (Ojo 1 dragon)

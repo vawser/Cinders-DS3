@@ -4,7 +4,7 @@
 <version>DarkSouls3</version>
 <bigendian>False</bigendian>
 <entries>
-<text id="315">Church Guardian Shiv</text>
+<text id="315">Spellbound Guardian Shiv</text>
 <text id="379">Filianore's Spear Ornament</text>
 <text id="600">%null%</text>
 <text id="601">%null%</text>
@@ -57,14 +57,14 @@
 <text id="648">%null%</text>
 <text id="649">%null%</text>
 <text id="650">Ritual Spear Fragment</text>
-<text id="651">Divine Spear Fragment</text>
+<text id="651">Spellbound Spear Fragment</text>
 <text id="745">Soul of Slave Knight Gael</text>
 <text id="746">Soul of the Demon Prince</text>
 <text id="747">Soul of Darkeater Midir</text>
 <text id="2156">Small Envoy Banner</text>
 <text id="2157">Old Woman's Ashes</text>
 <text id="2158">Blood of the Dark Soul</text>
-<text id="2159">Young Grass Dew</text>
+<text id="2159">Spellbound Grass Dew</text>
 <text id="10000">%null%</text>
 <text id="10001">%null%</text>
 <text id="10002">%null%</text>

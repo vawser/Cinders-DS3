@@ -132,6 +132,8 @@ Sort ID	Name
 6260	Dung Pie
 6261	Spellbound Dung
 6270	Stalk Dung Pie
+6275	Blessed Pine Resin
+6276	Spellbound Blessed Resin
 6280	Charcoal Pine Resin
 6281	Spellbound Charcoal Resin
 6290	Charcoal Pine Bundle
@@ -148,6 +150,8 @@ Sort ID	Name
 6351	Spellbound Carthus Rouge
 6360	Frozen Pine Resin
 6361	Spellbound Frozen Resin
+6370	Cursed Pine Resin
+6371	Spellbound Cursed Resin
 6400	Blue Bug Pellet
 6410	Red Bug Pellet
 6420	Yellow Bug Pellet

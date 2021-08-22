@@ -142,6 +142,8 @@
 <text id="324">Throw at foes to inflict physical damage and curse</text>
 <text id="325">Throw at foes to inflict physical damage and bleed</text>
 <text id="326">Throw at foes to inflict physical damage and frostbite</text>
+<text id="328">Applies curse to right-hand weapon</text>
+<text id="329">Applies physical effect to right-hand weapon</text>
 <text id="330">Applies fire to right-hand weapon</text>
 <text id="331">Applies lightning to right-hand weapon</text>
 <text id="332">%null%</text>
@@ -450,10 +452,10 @@
 <text id="2100">Changes form to fit any door lock</text>
 <text id="2101">Sinister vessel made from the skull of a noble king</text>
 <text id="2102">Hold up outside the main castle gate to be taken</text>
-<text id="2103">Give to Occultist Grudore to expand his inventory</text>
-<text id="2104">Give to Occultist Grudore to expand his inventory</text>
-<text id="2105">Give to Occultist Grudore to expand his inventory</text>
-<text id="2106">Give to Occultist Grudore to expand his inventory</text>
+<text id="2103">Give to Occultist Grudore to expand her inventory</text>
+<text id="2104">Give to Occultist Grudore to expand her inventory</text>
+<text id="2105">Give to Occultist Grudore to expand her inventory</text>
+<text id="2106">Give to Occultist Grudore to expand her inventory</text>
 <text id="2107">Shrine handmaid will prepare new items</text>
 <text id="2108">Shrine handmaid will prepare new items</text>
 <text id="2109">Shrine handmaid will prepare new items</text>
@@ -728,6 +730,8 @@
 <text id="5484">Applies poison to right-hand weapon</text>
 <text id="5485">Applies bleed to right-hand weapon</text>
 <text id="5486">Applies frost to right-hand weapon</text>
+<text id="5487">Applies curse to right-hand weapon</text>
+<text id="5488">Applies physical effect to right-hand weapon</text>
 <text id="5490">Temporarily grants immunity to damage</text>
 <text id="5491">Temporarily grants immunity to status effects</text>
 <text id="5500">Temporary boost to poise</text>

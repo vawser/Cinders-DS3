@@ -2142,6 +2142,8 @@
 112401 [Behavior] Luck Mastery - Trigger
 112410 [Behavior] Short Leap
 112411 [Behavior] Long Leap
+112414 [Behavior] BB Dash Toggle
+112415 [Behavior] BB Dash Weapon
 112420 [Behavior] Vitality Mastery - Effect
 112421 [Behavior] Vitality Mastery - Trigger
 112422 [Behavior] Vitality Mastery - Cooldown
@@ -2962,6 +2964,10 @@
 130061860 [Profaned Greatsword] Profaned Flame
 130061870 [Tonitrus] Charged Spark
 130061880 [Silver Knight Weapon] Lightning Buff
+130062000 [Boom Hammer] Ignite - Right
+130062001 [Boom Hammer] Ignite - Right [CycleOccurance]
+130062050 [Boom Hammer] Ignite - Left
+130062051 [Boom Hammer] Ignite - Left [CycleOccurance]
 130062300 [Yhorm's Great Machete] Warcry - Right
 130062310 [Yhorm's Great Machete] Warcry - Right
 130062350 [Yhorm's Great Machete] Warcry - Left
@@ -3231,285 +3237,128 @@
 150004050 [Sacred Chime of Filianore] Pray for Favor - Left
 150004051 [Sacred Chime of Filianore] Pray for Favor - Left [CycleOccurance]
 150004060 [Sacred Chime of Filianore] Pray for Favor - Left
+160009999 ### Baseline SpEffects ###
+160010000 Kill Tracker
+160010001 Kill Tracker - Enemy Kill Occured
+160010010 Covenant - Material Drop Cooldown
+160010011 Covenant - Consumable Drop Cooldown
 160100001 ### Covenant ###
-160100100 Darkmoon Faithful I - Cycle
-160100101 Darkmoon Faithful I - Drop
+160100100 Darkmoon Faithful - Trigger Effect
 160100102 Darkmoon Faithful I - Covenant Effect
-160100110 Darkmoon Faithful II - Cycle
-160100111 Darkmoon Faithful II - Drop
 160100112 Darkmoon Faithful II - Covenant Effect
-160100120 Darkmoon Faithful III - Cycle
-160100121 Darkmoon Faithful III - Drop
 160100122 Darkmoon Faithful III - Covenant Effect
-160100130 Darkmoon Faithful IV - Cycle
-160100131 Darkmoon Faithful IV - Drop
 160100132 Darkmoon Faithful IV - Covenant Effect
-160100140 Darkmoon Faithful V - Cycle
-160100141 Darkmoon Faithful V - Drop
 160100142 Darkmoon Faithful V - Covenant Effect
-160100200 Watchdogs of Farron I - Cycle
-160100201 Watchdogs of Farron I - Drop
+160100200 Watchdogs of Farron - Trigger Effect
 160100202 Watchdogs of Farron I - Covenant Effect
-160100210 Watchdogs of Farron II - Cycle
-160100211 Watchdogs of Farron II - Drop
 160100212 Watchdogs of Farron II - Covenant Effect
-160100220 Watchdogs of Farron III - Cycle
-160100221 Watchdogs of Farron III - Drop
 160100222 Watchdogs of Farron III - Covenant Effect
-160100230 Watchdogs of Farron IV - Cycle
-160100231 Watchdogs of Farron IV - Drop
 160100232 Watchdogs of Farron IV - Covenant Effect
-160100240 Watchdogs of Farron V - Cycle
-160100241 Watchdogs of Farron V - Drop
 160100242 Watchdogs of Farron V - Covenant Effect
-160100300 Aldrich Faithful I - Cycle
-160100301 Aldrich Faithful I - Drop
+160100300 Aldrich Faithful - Trigger Effect
 160100302 Aldrich Faithful I - Covenant Effect
-160100310 Aldrich Faithful II - Cycle
-160100311 Aldrich Faithful II - Drop
 160100312 Aldrich Faithful II - Covenant Effect
-160100320 Aldrich Faithful III - Cycle
-160100321 Aldrich Faithful III - Drop
 160100322 Aldrich Faithful III - Covenant Effect
-160100330 Aldrich Faithful IV - Cycle
-160100331 Aldrich Faithful IV - Drop
 160100332 Aldrich Faithful IV - Covenant Effect
-160100340 Aldrich Faithful V - Cycle
-160100341 Aldrich Faithful V - Drop
 160100342 Aldrich Faithful V - Covenant Effect
-160100400 Warriors of Sunlight I - Cycle
-160100401 Warriors of Sunlight I - Drop
+160100400 Warriors of Sunlight - Trigger Effect
 160100402 Warriors of Sunlight I - Covenant Effect
-160100410 Warriors of Sunlight II - Cycle
-160100411 Warriors of Sunlight II - Drop
 160100412 Warriors of Sunlight II - Covenant Effect
-160100420 Warriors of Sunlight III - Cycle
-160100421 Warriors of Sunlight III - Drop
 160100422 Warriors of Sunlight III - Covenant Effect
-160100430 Warriors of Sunlight IV - Cycle
-160100431 Warriors of Sunlight IV - Drop
 160100432 Warriors of Sunlight IV - Covenant Effect
-160100440 Warriors of Sunlight V - Cycle
-160100441 Warriors of Sunlight V - Drop
 160100442 Warriors of Sunlight V - Covenant Effect
-160100500 Mound-makers I - Cycle
-160100501 Mound-makers I - Drop
+160100500 Mound-makers - Trigger Effect
 160100502 Mound-makers I - Covenant Effect
-160100510 Mound-makers II - Cycle
-160100511 Mound-makers II - Drop
 160100512 Mound-makers II - Covenant Effect
-160100520 Mound-makers III - Cycle
-160100521 Mound-makers III - Drop
 160100522 Mound-makers III - Covenant Effect
-160100530 Mound-makers IV - Cycle
-160100531 Mound-makers IV - Drop
 160100532 Mound-makers IV - Covenant Effect
-160100540 Mound-makers V - Cycle
-160100541 Mound-makers V - Drop
 160100542 Mound-makers V - Covenant Effect
-160100600 Thieves' Code I - Cycle
-160100601 Thieves' Code I - Drop
+160100600 Thieves' Code - Trigger Effect
 160100602 Thieves' Code I - Covenant Effect
-160100610 Thieves' Code II - Cycle
-160100611 Thieves' Code II - Drop
 160100612 Thieves' Code II - Covenant Effect
-160100620 Thieves' Code III - Cycle
-160100621 Thieves' Code III - Drop
 160100622 Thieves' Code III - Covenant Effect
-160100630 Thieves' Code IV - Cycle
-160100631 Thieves' Code IV - Drop
 160100632 Thieves' Code IV - Covenant Effect
-160100640 Thieves' Code V - Cycle
-160100641 Thieves' Code V - Drop
 160100642 Thieves' Code V - Covenant Effect
-160100700 Chaos Servant I - Cycle
-160100701 Chaos Servant I - Drop
+160100700 Chaos Servant - Trigger Effect
 160100702 Chaos Servant I - Covenant Effect
-160100710 Chaos Servant II - Cycle
-160100711 Chaos Servant II - Drop
 160100712 Chaos Servant II - Covenant Effect
-160100720 Chaos Servant III - Cycle
-160100721 Chaos Servant III - Drop
 160100722 Chaos Servant III - Covenant Effect
-160100730 Chaos Servant IV - Cycle
-160100731 Chaos Servant IV - Drop
 160100732 Chaos Servant IV - Covenant Effect
-160100740 Chaos Servant V - Cycle
-160100741 Chaos Servant V - Drop
 160100742 Chaos Servant V - Covenant Effect
-160100800 Rosaria's Fingers I - Cycle
-160100801 Rosaria's Fingers I - Drop
+160100800 Rosaria's Fingers - Trigger Effect
 160100802 Rosaria's Fingers I - Covenant Effect
-160100810 Rosaria's Fingers II - Cycle
-160100811 Rosaria's Fingers II - Drop
 160100812 Rosaria's Fingers II - Covenant Effect
-160100820 Rosaria's Fingers III - Cycle
-160100821 Rosaria's Fingers III - Drop
 160100822 Rosaria's Fingers III - Covenant Effect
-160100830 Rosaria's Fingers IV - Cycle
-160100831 Rosaria's Fingers IV - Drop
 160100832 Rosaria's Fingers IV - Covenant Effect
-160100840 Rosaria's Fingers V - Cycle
-160100841 Rosaria's Fingers V - Drop
 160100842 Rosaria's Fingers V - Covenant Effect
-160100900 Vinheim Scholars I - Cycle
-160100901 Vinheim Scholars I - Drop
+160100900 Vinheim Scholars - Trigger Effect
 160100902 Vinheim Scholars I - Covenant Effect
-160100910 Vinheim Scholars II - Cycle
-160100911 Vinheim Scholars II - Drop
 160100912 Vinheim Scholars II - Covenant Effect
-160100920 Vinheim Scholars III - Cycle
-160100921 Vinheim Scholars III - Drop
 160100922 Vinheim Scholars III - Covenant Effect
-160100930 Vinheim Scholars IV - Cycle
-160100931 Vinheim Scholars IV - Drop
 160100932 Vinheim Scholars IV - Covenant Effect
-160100940 Vinheim Scholars V - Cycle
-160100941 Vinheim Scholars V - Drop
 160100942 Vinheim Scholars V - Covenant Effect
-160101000 Pilgrims of Dark I - Cycle
-160101001 Pilgrims of Dark I - Drop
+160101000 Pilgrims of Dark - Trigger Effect
 160101002 Pilgrims of Dark I - Covenant Effect
-160101010 Pilgrims of Dark II - Cycle
-160101011 Pilgrims of Dark II - Drop
 160101012 Pilgrims of Dark II - Covenant Effect
-160101020 Pilgrims of Dark III - Cycle
-160101021 Pilgrims of Dark III - Drop
 160101022 Pilgrims of Dark III - Covenant Effect
-160101030 Pilgrims of Dark IV - Cycle
-160101031 Pilgrims of Dark IV - Drop
 160101032 Pilgrims of Dark IV - Covenant Effect
-160101040 Pilgrims of Dark V - Cycle
-160101041 Pilgrims of Dark V - Drop
 160101042 Pilgrims of Dark V - Covenant Effect
-160101100 Way of White I - Cycle
-160101101 Way of White I - Drop
+160101100 Way of White - Trigger Effect
 160101102 Way of White I - Covenant Effect
-160101110 Way of White II - Cycle
-160101111 Way of White II - Drop
 160101112 Way of White II - Covenant Effect
-160101120 Way of White III - Cycle
-160101121 Way of White III - Drop
 160101122 Way of White III - Covenant Effect
-160101130 Way of White IV - Cycle
-160101131 Way of White IV - Drop
 160101132 Way of White IV - Covenant Effect
-160101140 Way of White V - Cycle
-160101141 Way of White V - Drop
 160101142 Way of White V - Covenant Effect
-160101200 Dragon Remnants I - Cycle
-160101201 Dragon Remnants I - Drop
+160101200 Dragon Remnants - Trigger Effect
 160101202 Dragon Remnants I - Covenant Effect
-160101210 Dragon Remnants II - Cycle
-160101211 Dragon Remnants II - Drop
 160101212 Dragon Remnants II - Covenant Effect
-160101220 Dragon Remnants III - Cycle
-160101221 Dragon Remnants III - Drop
 160101222 Dragon Remnants III - Covenant Effect
-160101230 Dragon Remnants IV - Cycle
-160101231 Dragon Remnants IV - Drop
 160101232 Dragon Remnants IV - Covenant Effect
-160101240 Dragon Remnants V - Cycle
-160101241 Dragon Remnants V - Drop
 160101242 Dragon Remnants V - Covenant Effect
-160101300 Blue Sentinels I - Cycle
-160101301 Blue Sentinels I - Drop
+160101300 Blue Sentinels - Trigger Effect
 160101302 Blue Sentinels I - Covenant Effect
-160101310 Blue Sentinels II - Cycle
-160101311 Blue Sentinels II - Drop
 160101312 Blue Sentinels II - Covenant Effect
-160101320 Blue Sentinels III - Cycle
-160101321 Blue Sentinels III - Drop
 160101322 Blue Sentinels III - Covenant Effect
-160101330 Blue Sentinels IV - Cycle
-160101331 Blue Sentinels IV - Drop
 160101332 Blue Sentinels IV - Covenant Effect
-160101340 Blue Sentinels V - Cycle
-160101341 Blue Sentinels V - Drop
 160101342 Blue Sentinels V - Covenant Effect
-160101400 Way of Blue I - Cycle
-160101401 Way of Blue I - Drop
+160101400 Way of Blue - Trigger Effect
 160101402 Way of Blue I - Covenant Effect
-160101410 Way of Blue II - Cycle
-160101411 Way of Blue II - Drop
 160101412 Way of Blue II - Covenant Effect
-160101420 Way of Blue III - Cycle
-160101421 Way of Blue III - Drop
 160101422 Way of Blue III - Covenant Effect
-160101430 Way of Blue IV - Cycle
-160101431 Way of Blue IV - Drop
 160101432 Way of Blue IV - Covenant Effect
-160101440 Way of Blue V - Cycle
-160101441 Way of Blue V - Drop
 160101442 Way of Blue V - Covenant Effect
-160101500 Company of Champions I - Cycle
-160101501 Company of Champions I - Drop
+160101500 Company of Champions - Trigger Effect
 160101502 Company of Champions I - Covenant Effect
 160101503 Company of Champions I - Enemy Buff
-160101510 Company of Champions II - Cycle
-160101511 Company of Champions II - Drop
 160101512 Company of Champions II - Covenant Effect
 160101513 Company of Champions II - Enemy Buff
-160101520 Company of Champions III - Cycle
-160101521 Company of Champions III - Drop
 160101522 Company of Champions III - Covenant Effect
 160101523 Company of Champions III - Enemy Buff
-160101530 Company of Champions IV - Cycle
-160101531 Company of Champions IV - Drop
 160101532 Company of Champions IV - Covenant Effect
 160101533 Company of Champions IV - Enemy Buff
-160101540 Company of Champions V - Cycle
-160101541 Company of Champions V - Drop
 160101542 Company of Champions V - Covenant Effect
 160101543 Company of Champions V - Enemy Buff
-160101600 Servant of the Rat I - Cycle
-160101601 Servant of the Rat I - Drop
+160101600 Servant of the Rat - Trigger Effect
 160101602 Servant of the Rat I - Covenant Effect
-160101610 Servant of the Rat II - Cycle
-160101611 Servant of the Rat II - Drop
 160101612 Servant of the Rat II - Covenant Effect
-160101620 Servant of the Rat III - Cycle
-160101621 Servant of the Rat III - Drop
 160101622 Servant of the Rat III - Covenant Effect
-160101630 Servant of the Rat IV - Cycle
-160101631 Servant of the Rat IV - Drop
 160101632 Servant of the Rat IV - Covenant Effect
-160101640 Servant of the Rat V - Cycle
-160101641 Servant of the Rat V - Drop
 160101642 Servant of the Rat V - Covenant Effect
-160101700 Ritualist Pact I - Cycle
-160101701 Ritualist Pact I - Drop
+160101700 Ritualist Pact - Trigger Effect
 160101702 Ritualist Pact I - Covenant Effect
-160101710 Ritualist Pact II - Cycle
-160101711 Ritualist Pact II - Drop
 160101712 Ritualist Pact II - Covenant Effect
-160101720 Ritualist Pact III - Cycle
-160101721 Ritualist Pact III - Drop
 160101722 Ritualist Pact III - Covenant Effect
-160101730 Ritualist Pact IV - Cycle
-160101731 Ritualist Pact IV - Drop
 160101732 Ritualist Pact IV - Covenant Effect
-160101740 Ritualist Pact V - Cycle
-160101741 Ritualist Pact V - Drop
 160101742 Ritualist Pact V - Covenant Effect
-160101800 Spears of the Church I - Cycle
-160101801 Spears of the Church I - Drop
+160101800 Spears of the Church - Trigger Effect
 160101802 Spears of the Church I - Covenant Effect
 160101803 Spears of the Church I - Toggle Fix
-160101810 Spears of the Church II - Cycle
-160101811 Spears of the Church II - Drop
 160101812 Spears of the Church II - Covenant Effect
 160101813 Spears of the Church II - Toggle Fix
-160101820 Spears of the Church III - Cycle
-160101821 Spears of the Church III - Drop
 160101822 Spears of the Church III - Covenant Effect
 160101823 Spears of the Church III - Toggle Fix
-160101830 Spears of the Church IV - Cycle
-160101831 Spears of the Church IV - Drop
 160101832 Spears of the Church IV - Covenant Effect
 160101833 Spears of the Church IV - Toggle Fix
-160101840 Spears of the Church V - Cycle
-160101841 Spears of the Church V - Drop
 160101842 Spears of the Church V - Covenant Effect
 160101843 Spears of the Church V - Toggle Fix
 160109999 ### Poise ###
@@ -4743,7 +4592,7 @@
 160690035 Cursed Ring of Confusion - Change Team Type
 160700001 ### Items ###
 160700020 Brightbug
-160700040 Young Grass Dew
+160700040 Spellbound Grass Dew
 160700050 Tarnished Coin
 160700060 Tarnished Silver Coin
 160700230 Old Growth Balm
@@ -4800,6 +4649,18 @@
 160700753 Spellbound Frozen Resin - Left Hand [AttackOccurance]
 160700760 Spellbound Pellet
 160700770 Spellbound Mossfruit
+160700780 Blessed Pine Resin - Right Hand
+160700781 Blessed Pine Resin - Left Hand
+160700790 Spellbound Blessed Resin - Right Hand
+160700791 Spellbound Blessed Resin - Left Hand
+160700800 Cursed Pine Resin - Right Hand
+160700801 Cursed Pine Resin - Right Hand [AttackOccurance]
+160700802 Cursed Pine Resin - Left Hand
+160700803 Cursed Pine Resin - Left Hand [AttackOccurance]
+160700810 Spellbound Cursed Resin - Right Hand
+160700811 Spellbound Cursed Resin - Right Hand [AttackOccurance]
+160700812 Spellbound Cursed Resin - Left Hand
+160700813 Spellbound Cursed Resin - Left Hand [AttackOccurance]
 160700999 ### Elixirs ###
 160701000 Cleansing Potion - Trigger
 160701010 Cleansing Potion - Clear 150
@@ -5462,6 +5323,19 @@
 160750300 Freezing Wind
 160750400 Bonfire Fade
 160750500 Player Kill
+160751000 Interaction Effect - Buff - HP
+160751001 Interaction Effect - Buff - FP
+160751002 Interaction Effect - Buff - Max Stamina
+160751003 Interaction Effect - Buff - Damage
+160751004 Interaction Effect - Buff - Absorption
+160751005 Interaction Effect - Buff - Stamina Recovery
+160751100 Interaction Effect - Debuff - HP
+160751101 Interaction Effect - Debuff - FP
+160751102 Interaction Effect - Debuff - Stamina
+160751103 Interaction Effect - Debuff - Damage
+160751104 Interaction Effect - Debuff - Absorption
+160751105 Interaction Effect - Debuff - Stamina Recovery
+160751200 Interaction Effect - Effect - Souls (3,000)
 160759999 ### Companions ###
 160760000 Trigger - Local Companion
 160760100 Baseline - Local Companion
@@ -5750,6 +5624,7 @@
 180010551 Bleed - Scraping Spear (Infusion)
 180010560 Bleed - Throwing Knife
 180010561 Bleed - Spellbound Lacerating Knife
+180010562 Bleed - Splintering Bolts
 180019999 ### Frost ##
 180020000 Frost - Normal (Infusion)
 180020001 Frost - Quick (Infusion)

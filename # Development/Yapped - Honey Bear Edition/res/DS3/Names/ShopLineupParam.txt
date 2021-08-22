@@ -155,9 +155,17 @@
 22921 [Servant of the Rat] Vine Balm
 22922 [Servant of the Rat] Blackweed Balm
 22923 [Servant of the Rat] Goldenfruit Balm
-23000 [Blue Sentinels] Ember
-23100 [Way of Blue] Ember
-23200 [Thieves' Pact] Ember
+23000 [Blue Sentinels] Blue Tearstone Ring
+23001 [Blue Sentinels] Llewellyn Shield
+23002 [Blue Sentinels] Undead Hunter Charm
+23100 [Way of Blue] Gwynevere's Urn
+23101 [Way of Blue] Divine Blessing
+23102 [Way of Blue] Hidden Blessing
+23200 [Thieves' Pact] Titanite Shard
+23201 [Thieves' Pact] Large Titanite Shard
+23202 [Thieves' Pact] Titanite Chunk
+23203 [Thieves' Pact] Titanite Slab
+23204 [Thieves' Pact] Primordial Fragment
 30000 [Ludleth - Dismal Knight] Accursed Sigil
 30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -321,6 +329,7 @@
 36044 [Bonfire - Central Irithyll] Rime-blue Moss Clump
 36045 [Bonfire - Default] Firebomb
 36046 [Bonfire - Farron Keep] Dung Pie
+36047 [Bonfire - Scribe's Retreat] Blessed Pine Resin
 36048 [Bonfire - Pit of Hollows] Alluring Skull
 36049 [Bonfire - Cleansing Chapel] Undead Hunter Charm
 36050 [Bonfire - Church of Yorshka] Black Firebomb
@@ -336,6 +345,7 @@
 36060 [Bonfire - Cleansing Chapel] Human Pine Resin
 36061 [Bonfire - Catacombs of Carthus] Carthus Rouge
 36062 [Bonfire - Irithyll Dungeon] Pale Pine Resin
+36063 [Bonfire - Irithyll Dungeon] Cursed Pine Resin
 36065 [Bonfire - Farron Keep] Rotten Pine Resin
 36066 [Bonfire - Default] Homeward Bone
 36067 [Bonfire - Default] Prism Stone
@@ -830,6 +840,7 @@
 160000 [Irina - Default] Saint's Ring
 160001 [Irina - Default] Lifegem
 160002 [Irina - Default] Holy Water Urn
+160003 [Irina - Default] Blessed Pine Resin
 160010 [Irina - Cathedral Guardian] Saint's Talisman
 160011 [Irina - Cathedral Guardian] Radiant Lifegem
 160012 [Irina - Cathedral Guardian] Holy Gem
@@ -1555,6 +1566,7 @@
 290063 [Occultist Grudore - Giant's Coal] Spellbound Gold Resin
 290064 [Occultist Grudore - Giant's Coal] Spellbound Mossfruit
 290065 [Occultist Grudore - Giant's Coal] Spellbound Pellet
+290066 [Occultist Grudore - Giant's Coal] Spellbound Blessed Resin
 290080 [Occultist Grudore - Profaned Coal] Spellbound Dung
 290081 [Occultist Grudore - Profaned Coal] Spellbound Abyssal Knife
 290082 [Occultist Grudore - Profaned Coal] Spellbound Cursed Knife
@@ -1562,6 +1574,7 @@
 290084 [Occultist Grudore - Profaned Coal] Spellbound Human Resin
 290085 [Occultist Grudore - Profaned Coal] Spellbound Lacerating Knife
 290086 [Occultist Grudore - Profaned Coal] Spellbound Carthus Rouge
+290087 [Occultist Grudore - Profaned Coal] Spellbound Cursed Resin
 300000 [Erstwhile George] Gallant Helm
 300001 [Erstwhile George] Gallant Armor
 300002 [Erstwhile George] Gallant Gloves
