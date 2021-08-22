@@ -289,6 +289,7 @@
 5840 Pale Pine Resin
 5850 Human Pine Resin
 5860 Carthus Rogue
+5870 Cursed Pine Resin
 6900 Weapon Art - Warcry
 6910 Weapon Art - Steady Chant (Right)
 6911 Weapon Art - Steady Chant (Left)
@@ -1143,6 +1144,8 @@
 91061850 Profaned Flame
 91061900 Sparks
 91061950 Sparks
+91062000 Ignite
+91062050 Ignite
 91062311 Weapon Art - Warcry 1 - Right
 91062351 Weapon Art - Warcry 1 - Left
 91062711 Chaos Flame

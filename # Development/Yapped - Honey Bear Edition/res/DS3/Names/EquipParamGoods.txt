@@ -98,7 +98,7 @@
 304 Duel Charm
 310 Throwing Knife
 311 Poisonous Knife
-315 Church Guardian Shiv
+315 Spellbound Guardian Shiv
 320 Sorcerous Knife
 321 Flaming Knife
 322 Sparking Knife
@@ -106,6 +106,8 @@
 324 Cursed Knife
 325 Lacerating Knife
 326 Frigid Knife
+328 Cursed Pine Resin
+329 Blessed Pine Resin
 330 Charcoal Pine Resin
 331 Gold Pine Resin
 334 Human Pine Resin
@@ -183,7 +185,7 @@
 523 I'm sorry Carving
 524 Help me! Carving
 650 Ritual Spear Fragment
-651 Divine Spear Fragment
+651 Spellbound Spear Fragment
 700 Soul of the Dismal Knight
 701 Soul of the Ancient Wyvern
 702 Soul of the Lordran Remnants
@@ -358,7 +360,7 @@
 2156 Small Envoy Banner
 2157 Old Woman's Ashes
 2158 Blood of the Dark Soul
-2159 Young Grass Dew
+2159 Spellbound Grass Dew
 2160 Brightbug
 2162 Petrified Something
 2163 Lizard Hide
@@ -567,6 +569,8 @@
 5484 Spellbound Rotten Resin
 5485 Spellbound Carthus Rouge
 5486 Spellbound Frozen Resin
+5487 Spellbound Cursed Resin
+5488 Spellbound Blessed Resin
 5490 Spellbound Pellet
 5491 Spellbound Mossfruit
 5499 ### Items ###

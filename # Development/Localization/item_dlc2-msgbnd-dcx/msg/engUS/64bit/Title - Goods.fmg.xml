@@ -158,6 +158,8 @@
 <text id="324">Cursed Knife</text>
 <text id="325">Lacerating Knife</text>
 <text id="326">Frigid Knife</text>
+<text id="328">Cursed Pine Resin</text>
+<text id="329">Blessed Pine Resin</text>
 <text id="330">Charcoal Pine Resin</text>
 <text id="331">Gold Pine Resin</text>
 <text id="332">%null%</text>
@@ -723,6 +725,8 @@
 <text id="5484">Spellbound Rotten Resin</text>
 <text id="5485">Spellbound Carthus Rouge</text>
 <text id="5486">Spellbound Frozen Resin</text>
+<text id="5487">Spellbound Cursed Resin</text>
+<text id="5488">Spellbound Blessed Resin</text>
 <text id="5490">Spellbound Pellet</text>
 <text id="5491">Spellbound Mossfruit</text>
 <text id="5500">Titanite Fragment</text>

@@ -2944,53 +2944,30 @@
 800002010 [Initial Tokens] Weapon Token
 800002011 [Initial Tokens] Armor Token
 800002012 [Initial Tokens] Accessory Token
-800009999 ### Covenant Drops ###
-800011000 [Darkmoon Faithful] Proof of a Concord Kept
-800011100 [Darkmoon Faithful] Proof of a Concord Kept - Low
-800012000 [Watchdogs of Farron] Wolf's Blood Swordgrass
-800012100 [Watchdogs of Farron] Wolf's Blood Swordgrass - Low
-800013000 [Aldrich Faithful] Human Dregs
-800013100 [Aldrich Faithful] Human Dregs - Low
-800014000 [Warrior of Sunlight] Sunlight Medal
-800014100 [Warrior of Sunlight] Sunlight Medal - Low
-800015000 [Mound-makers] Vertebra Shackle
-800015100 [Mound-makers] Vertebra Shackle - Low
-800016000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
-800016001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm
-800016002 [Thieves' Pact] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
-800016003 [Thieves' Pact] New Throwing Knives
-800016100 [Thieves' Pact - Low] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
-800016101 [Thieves' Pact - Low] Alluring Skull, Undead Hunter Charm, Duel Charm
-800016102 [Thieves' Pact - Low] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
-800016103 [Thieves' Pact - Low] New Throwing Knives
-800016200 [Thieves' Pact] Lost Trinket
-800016300 [Thieves' Pact - Low] Lost Trinket
-800018000 [Chaos Servant] Fire Seed
-800018100 [Chaos Servant] Fire Seed - Low
-800019000 [Rosaria's Fingers] Pale Tongue
-800019100 [Rosaria's Fingers] Pale Tongue - Low
-800020000 [Vinheim Scholars] Crystal Fragment
-800020100 [Vinheim Scholars] Crystal Fragment - Low
-800021000 [Pilgrims of Dark] Abyssal Fragment
-800021100 [Pilgrims of Dark] Abyssal Fragment - Low
-800022000 [Way of White] Holy Fragment
-800022100 [Way of White] Holy Fragment - Low
-800023000 [Dragon Remnants] Dragon Eye
-800023100 [Dragon Remnants] Dragon Eye - Low
-800024000 [Blue Sentinels] Proof of a Concord Kept
-800024100 [Blue Sentinels] Proof of a Concord Kept - Low
-800025000 [Way of Blue] Consumables
-800025100 [Way of Blue] Consumables - Low
-800025200 [Way of Blue] Grateful Soul
-800025300 [Way of Blue] Grateful Soul - Low
-800026000 [Company of Champions] Awestone
-800026100 [Company of Champions] Awestone - Low
-800027000 [Servant of the Rat] Rat Tail
-800027100 [Servant of the Rat] Rat Tail - Low
-800028000 [Ritualist Pact] Ritual Incense
-800028100 [Ritualist Pact] Ritual Incense - Low
-800029000 [Spears of the Church] Filianore's Spear Ornament
-800029100 [Spears of the Church] Filianore's Spear Ornament - Low
+800009999 ### Covenant Material Drops ###
+800011000 [Covenant] Proof of a Concord Kept
+800011010 [Covenant] Wolf's Blood Swordgrass
+800011020 [Covenant] Human Dregs
+800011030 [Covenant] Sunlight Medal
+800011040 [Covenant] Vertebra Shackle
+800011050 [Covenant] Lost Trinket
+800011060 [Covenant] Fire Seed
+800011070 [Covenant] Pale Tongue
+800011080 [Covenant] Crystal Fragment
+800011090 [Covenant] Abyssal Fragment
+800011100 [Covenant] Holy Fragment
+800011110 [Covenant] Dragon Eye
+800011120 [Covenant] Filianore's Spear Ornament
+800011130 [Covenant] Grateful Soul
+800011140 [Covenant] Awestone
+800011150 [Covenant] Rat Tail
+800011160 [Covenant] Ritual Incense
+800019999 ### Covenant Consumable Drops ###
+800020000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
+800020001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm
+800020002 [Thieves' Pact] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
+800020003 [Thieves' Pact] New Throwing Knives
+800020010 [Way of Blue] Consumables
 800299999 ### Primordial Fragment ###
 800300000 Primordial Fragment - 25%
 800300010 Primordial Fragment - 50%

@@ -620,6 +620,15 @@ Scales with Luck.
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
+<text id="328">Cursed pine resin.
+
+Temporarily applies 15 Curse to right-hand weapon.
+
+Normally used in the Undead Settlement for preservation and burials, but can mature into this state, becoming a valuable substance, used in a certain ceremony. Often seen for trade at exorbitant prices.</text>
+<text id="329">Blessed pine resin.
+Temporarily applies a physical effect to right-hand weapon and boosts damage against undead enemies.
+
+Used by clerics and the likes to put on rest undead creatures.</text>
 <text id="330">Black charcoal-like pine resin.
 Temporarily applies fire to right-hand weapon.
 
@@ -1704,19 +1713,19 @@ When the High Wall appeared, the path to the Undead Settlement was blocked, and 
 <text id="2103">Coal used for tool creation.
 Long ago, used to forge the tools and weaponry of the Undead Legion of Farron.
 
-Give to Occultist Grudore to expand his inventory.</text>
+Give to Occultist Grudore to expand her inventory.</text>
 <text id="2104">Coal used for tool creation.
 The white magic flame produced by this coal was given to the Undead Legion long ago by one of the Crystal Sage twins.
 
-Give to Occultist Grudore to expand his inventory.</text>
+Give to Occultist Grudore to expand her inventory.</text>
 <text id="2105">Coal used for tool creation.
 It is said that the giant blacksmith of Anor Londo was once the blacksmith of the gods.
 
-Give to Occultist Grudore to expand his inventory.</text>
+Give to Occultist Grudore to expand her inventory.</text>
 <text id="2106">Coal used for tool creation.
 Remnants of the fire that burned down the Profaned Capital, preserved in an icy skull.
 
-Give to Occultist Grudore to expand his inventory.</text>
+Give to Occultist Grudore to expand her inventory.</text>
 <text id="2107">Umbral ash of a resident of the Undead Settlement
 who made a living burying corpses.
 
@@ -2422,13 +2431,13 @@ Applies an aura of wind magic to the right-hand.</text>
 Applies an aura of wind magic to the left-hand.</text>
 <text id="4470">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
-Applies an aura of rainbow energy to the left-hand.</text>
+Applies an aura of rainbow energy to the right-hand.</text>
 <text id="4471">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
 Applies an aura of rainbow energy to the left-hand.</text>
 <text id="4480">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
-Applies Nadalia's enchantment to the left-hand.</text>
+Applies Nadalia's enchantment to the right-hand.</text>
 <text id="4481">A weapon oil containing latent magic, used to change the apperance of weaponry.
 
 Applies Nadalia's enchantment to the left-hand.</text>
@@ -2823,6 +2832,15 @@ Uniquely crafted by Occultist Grudore, this substance draws upon the blood of fo
 Likely frozen from the start.
 
 Quickly applies 20 frost to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5487">Cursed pine resin.
+
+Quickly applies 20 curse to right-hand weapon.
+
+Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5488">Blessed pine resin.
+Quickly applies a physical effect to right-hand weapon and boosts damage against undead enemies.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5490">Medicinal pellet made from crushed insects.
