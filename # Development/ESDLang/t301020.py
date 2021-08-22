@@ -361,7 +361,7 @@ def t301020_x50():
         
         # Form Covenant
         if GetTalkListEntryResult() == 1:
-            GetItemFromItemLot(800001150)
+            GetItemFromItemLot(800001190)
             return 0
         # View Inventory
         elif GetTalkListEntryResult() == 2:

@@ -352,7 +352,7 @@ def t330020_x50():
             return 0
         # View Inventory
         elif GetTalkListEntryResult() == 2:
-            c1111(23000, 23099)
+            c1111(21200, 21299)
             continue
         # Strengthen Bond - II
         elif GetTalkListEntryResult() == 3:
