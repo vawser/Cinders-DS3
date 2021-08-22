@@ -4549,5 +4549,25 @@ This effect can stack up to 10 times once at 99 Hollowing.
 <text id="99062262">You lack 30 Ritual Incense</text>
 <text id="99062263">You lack 50 Ritual Incense</text>
 
+<text id="99070000">Seek Blessing</text>
+<text id="99070001">Harvest</text>
+<text id="99070002">Extract Draconic Essence</text>
+
+<text id="99070100">You have been blessed with enhanced vigor!</text>
+<text id="99070101">You have been blessed with enhanced focus!</text>
+<text id="99070102">You have been blessed with enhanced stamina!</text>
+<text id="99070103">You have been blessed with enhanced damage!</text>
+<text id="99070104">You have been blessed with enhanced absorption!</text>
+<text id="99070105">You have been blessed with enhanced stamina recovery!</text>
+
+<text id="99070200">You have been cursed with diminished vigor!</text>
+<text id="99070201">You have been cursed with diminished focus!</text>
+<text id="99070202">You have been cursed with diminished stamina!</text>
+<text id="99070203">You have been cursed with diminished damage!</text>
+<text id="99070204">You have been cursed with diminished absorption!</text>
+<text id="99070205">You have been cursed with diminished stamina recovery!</text>
+
+<text id="99070300">You harvest the remains of pilgrims, bolstering your own soul.</text>
+
 </entries>
 </fmg>
