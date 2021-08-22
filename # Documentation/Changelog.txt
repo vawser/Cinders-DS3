@@ -127,6 +127,7 @@ Finish following weapons:
 - Changed moveset for the following weapon class:
  - Hammer
   - Boom Hammer (Ignite)
+
  - Claw 		
   - Claws (Stance)
   - Manikin Claws (Leaping Slash)
@@ -147,6 +148,8 @@ Finish following weapons:
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
 - Adjusted the stamina costs of Ringed Knight Paired Greatsword.
+- Incoming damage is reduced by 50% when using the Bloodletter's Weapon Art.
+- Changed Sidearms' sound.
 - Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
 - Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
 - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
@@ -161,6 +164,7 @@ Finish following weapons:
  - Slight event arrangement for Ciaran's Tracers.
  - Restored Short Bow/Composite Bow Running attack.
  - Decrease the ending lag and reload speed for Crossbows.
+ - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset.
 
 # Consumables
 - Adjusted several oil visual.
@@ -202,6 +206,7 @@ Finish following weapons:
 
 # Spells
 - Adjusted several weapon buffs visual.
+- Adjusted Chaos Beam's sound.
 
 # Npcs
 - Npc main weapon is now always +10.
