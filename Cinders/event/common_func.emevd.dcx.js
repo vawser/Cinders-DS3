@@ -7270,3 +7270,127 @@ Event(20080003, Restart, function(X0_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+//----------------------------------------------
+// Interaction Point - Guaranteed Action
+// <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>
+//----------------------------------------------
+Event(20085000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    // Skip FFX if -1 is arg
+    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
+    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    SetSpEffect(10000, X12_4);
+    DisplayEpitaphMessage(X16_4);
+});
+
+//----------------------------------------------
+// Interaction Point - Random A/B
+// <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>
+//----------------------------------------------
+Event(20085001, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    // Skip FFX if -1 is arg
+    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
+    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    BatchSetEventFlags(25009000, 25009009, OFF);
+    RandomlySetEventFlagInRange(25009000, 25009009, ON);
+    
+    // Good - 50%
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009004);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
+    SetSpEffect(10000, X12_4);
+    DisplayEpitaphMessage(X16_4);
+    
+    // Bad - 50%
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009005);
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009006);
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009007);
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009008);
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009009);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
+    SetSpEffect(10000, X20_4);
+    DisplayEpitaphMessage(X24_4);
+});
+    
+//----------------------------------------------
+// Interaction Point - Random Pool
+// <entity id>, <action id>, <sfx id>
+//----------------------------------------------
+Event(20085002, Default, function(X0_4, X4_4, X8_4) {
+    // Skip FFX if -1 is arg
+    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
+    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    BatchSetEventFlags(25009000, 25009005, OFF);
+    RandomlySetEventFlagInRange(25009000, 25009005, ON);
+    
+    // Buff - HP
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009000);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
+    SetSpEffect(10000, 160751000);
+    DisplayEpitaphMessage(99070100);
+    
+    // Buff - FP
+    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009001);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
+    SetSpEffect(10000, 160751001);
+    DisplayEpitaphMessage(99070101);
+    
+    // Buff - Stamina
+    IfEventFlag(OR_03, ON, TargetEventFlagType.EventFlag, 25009002);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_03);
+    SetSpEffect(10000, 160751002);
+    DisplayEpitaphMessage(99070102);
+    
+    // Buff - Damage
+    IfEventFlag(OR_04, ON, TargetEventFlagType.EventFlag, 25009003);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_04);
+    SetSpEffect(10000, 160751003);
+    DisplayEpitaphMessage(99070103);
+    
+    // Buff - Absorption
+    IfEventFlag(OR_05, ON, TargetEventFlagType.EventFlag, 25009004);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_05);
+    SetSpEffect(10000, 160751004);
+    DisplayEpitaphMessage(99070104);
+    
+    // Buff - Stamina Recovery
+    IfEventFlag(OR_06, ON, TargetEventFlagType.EventFlag, 25009005);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_06);
+    SetSpEffect(10000, 160751005);
+    DisplayEpitaphMessage(99070105);
+});
+
+//----------------------------------------------
+// Interaction Point - Covenant Specific
+// <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>, <covenant speffect>
+//----------------------------------------------
+Event(20085003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    // Skip FFX if -1 is arg
+    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
+    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    
+    // Has correct covenant accessory equipped
+    SkipIfCharacterHasSpEffect(2, 10000, X28_4, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, X12_4);
+    DisplayEpitaphMessage(X16_4);
+    
+    // Has wrong covenant accessory equipped
+    SkipIfCharacterHasSpEffect(2, 10000, X28_4, true, ComparisonType.Equal, 1);
+    SetSpEffect(10000, X20_4);
+    DisplayEpitaphMessage(X24_4);
+});
+

@@ -100,6 +100,29 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Bugfixes
+- Fixed the stat requirements of the uninfused and lucky infused Great Club.
+- Fixed the visual effect on hit of Surging Soulmass.
+- Fixed several weapon hitbox:
+ - Giant's Halberd
+ - Bone Scythe
+ - Scythe of Nahr Alma
+- Fixed new oils vfx not showing up for dual weapons.
+- Fixed Katana unsheath animation.
+- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
+- Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
+- Fixed Stone of Draconic Fire/Stone of Draconic Might.
+- Fixed Dragon Bone Fist WA.
+- Fixed Moonlight Sword having 999 durability.
+- Greirat will no longer show the pillage option (as it has been removed).
+- Fixed Scribe Vadan's dialogue.
+- You can now enter the Cathedral Guardian fight via the pit.
+- Fixed the messages in Dreg Heap showing the incorrect text.
+- Fixed Halflight's Intelligence and Faith stats.
+- Fixed Blooming Purple Moss Clump not healing poison.
+- Fixed Divine Relief not increasing equip load by 40%.
+- Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
+ 
 # Journey Configuration
 - Mythic Mode:
  - Curses no longer grant soul absorption bonuses.
@@ -229,41 +252,17 @@ Finish following weapons:
  - His color mechanic has been switched, instead of reducing damage except for the chosen element, it now adds a 50% boost to the chosen element.
  - Increased his HP to 16,000 to retain the length of the fight.
 
-# Bugfixes
-- Fixed the stat requirements of the uninfused and lucky infused Great Club.
-- Fixed the visual effect on hit of Surging Soulmass.
-- Fixed several weapon hitbox:
- - Giant's Halberd
- - Bone Scythe
- - Scythe of Nahr Alma
-- Fixed new oils vfx not showing up for dual weapons.
-- Fixed Katana unsheath animation.
-- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
-- Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
-- Fixed Stone of Draconic Fire/Stone of Draconic Might.
-- Fixed Dragon Bone Fist WA.
-- Fixed Moonlight Sword having 999 durability.
-- Greirat will no longer show the pillage option (as it has been removed).
-- Fixed Scribe Vadan's dialogue.
-- You can now enter the Cathedral Guardian fight via the pit.
-- Fixed the messages in Dreg Heap showing the incorrect text.
-- Fixed Halflight's Intelligence and Faith stats.
-- Fixed Blooming Purple Moss Clump not healing poison.
-- Fixed Divine Relief not increasing equip load by 40%.
-- Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
+# Map
+- Added interaction points in m30:
+ - Holy Statue: grants a random buff when used.
+ - Pilgrim Tree: grants 3,000 souls when used.
+ - Dead Wyvern: grants damage buff if in Dragon Remnants when used, otherwise it is a debuff.
  
 #------------------------------
 # TODO
 #------------------------------
+Adjust the broken questlines so they use a custom method of progression
 Add the new chrs as basic enemies in the world
-Add interaction with statue in Irithyll in dog section:
- Hollowing > 50, add damage boost
- < 50, half HP until death
- 
 Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
 
-Adjust the broken questlines so they use a custom method of progression
-
-Add elemental torches in the Twisted Knight boss room, using them will add that element to your damage for 30 seconds
-
-
+Add interactions in maps
