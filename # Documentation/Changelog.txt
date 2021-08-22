@@ -111,8 +111,13 @@ Finish following weapons:
     
 - Added Priestess Emilia, a covenant NPC for Way of Blue. Appears after you receive the accessory from High Priestess Emma or the Dancer is killed.
 - Added Knight Lun, a covenant NPC for Blue Sentinels. Appears after you receive the accessory from Horace in Halfway Fortress or Aldrich is killed.
+
 - Changed the covenant material/consumable drop rate: instead of being a low but unrestricted rate, the chance is now much higher (25%) but there is a internal cooldown of 20 seconds before another drop can occur. For consumables this cooldown is 40 seconds.
  - This is disincentivise camping large hordes of enemies and instead rewards consistent kills over time.
+
+- Added covenant shop for Blue Sentinels.
+- Added covenant shop for Way of Blue.
+- Added covenant shop for Thieves' Pact
 
 # Infusions
 - Fire infusion now increases max Stamina by 20%.
