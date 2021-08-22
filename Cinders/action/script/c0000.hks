@@ -8473,9 +8473,13 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end	
 
-	if sp_kind == 146 or sp_kind == 742 or sp_kind == 745 then
+	if sp_kind == 146 or sp_kind == 745 then
 		b1 = "W_AttackBothLight3"
 	end		
+	
+	if sp_kind == 742 then
+		b1 = "W_AttackBothBackstep"
+	end			
 
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
