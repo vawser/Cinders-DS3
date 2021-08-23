@@ -122,6 +122,7 @@ Finish following weapons:
 - Fixed Blooming Purple Moss Clump not healing poison.
 - Fixed Divine Relief not increasing equip load by 40%.
 - Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
+- Fixed Makoto losing its aux effects when dark infused.
  
 # Journey Configuration
 - Mythic Mode:
