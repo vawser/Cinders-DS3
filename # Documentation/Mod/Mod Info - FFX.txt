@@ -138,6 +138,38 @@ dmy:
 
 856300 Large glow (441400 without particles)
 
+856401 Magic Throwing Knife Projectile
+856402 Magic Throwing Knife Impact
+856403 Magic Throwing Knife Flick
+
+856404 Fire Throwing Knife Projectile
+856405 Fire Throwing Knife Impact
+856406 Fire Throwing Knife Flick
+
+856407 Lightning Throwing Knife Projectile
+856408 Lightning Throwing Knife Impact
+856409 Lightning Throwing Knife Flick
+
+856410 Dark Throwing Knife Projectile
+856411 Dark Throwing Knife Impact
+856412 Dark Throwing Knife Flick
+
+856420 Curse Throwing Knife Projectile
+856421 Curse Throwing Knife Impact
+856422 Curse Throwing Knife Flick
+
+856423 Poison Throwing Knife Projectile
+856424 Poison Throwing Knife Impact
+856425 Poison Throwing Knife Flick
+
+856426 Bleed Throwing Knife Projectile
+856427 Bleed Throwing Knife Impact
+856428 Bleed Throwing Knife Flick
+
+856429 Frost Throwing Knife Projectile
+856430 Frost Throwing Knife Impact
+856431 Frost Throwing Knife Flick
+
 860030 Fire MLGS
 860032 Fire MLGS
 860033 Fire MLGS
@@ -208,7 +240,7 @@ dmy:
 880384 Silent Storm Ruler Wind Effect
 880385 Silent Storm Ruler Wind Effect
 
-880462 - 880466 Black Flame Arc
+880462 - 880467 Black Flame Arc
 
 882501 Angelic Barrage with sound
 
