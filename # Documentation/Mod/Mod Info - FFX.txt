@@ -386,6 +386,30 @@ s98017.tpf  Black and White s6001.tpf
 s98020.flver Ivory King UGS model
 s98020_a.tpf Ivory King UGS texture
 
+s98030 Magic Throwing Knife Model
+s98030_a Magic Throwing Knife Texture
+
+s98031 Fire Throwing Knife Model
+s98031_a Fire Throwing Knife Texture
+
+s98032 Lightning Throwing Knife Model
+s98032_a Lightning Throwing Knife Texture
+
+s98033 Dark Throwing Knife Model
+s98033_a Dark Throwing Knife Texture
+
+s98040 Curse Throwing Knife Model
+s98040_a Curse Throwing Knife Texture
+
+s98041 Poison Throwing Knife Model
+s98041_a Poison Throwing Knife Texture
+
+s98042 Bleed Throwing Knife Model
+s98042_a Bleed Throwing Knife Texture
+
+s98043 Frost Throwing Knife Model
+s98043_a Frost Throwing Knife Texture
+
 #------------------------
 # Reference
 #------------------------

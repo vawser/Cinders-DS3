@@ -3186,7 +3186,7 @@
     </file>
     <file>
       <flags>0x40</flags>
-      <id>100280</id>
+      <id>100281</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\tex\s98020_a.tpf</path>
     </file>
@@ -3195,6 +3195,102 @@
       <id>200077</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\model\s98020.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200078</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98030.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200079</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98031.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200080</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98032.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200081</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98033.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200082</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98040.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200083</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98041.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200084</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98042.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200085</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98043.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100282</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98030_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100283</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98031_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100284</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98032_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100285</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98033_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100286</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98040_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100287</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98041_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100288</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98042_a.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100289</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98043_a.tpf</path>
     </file>
   </files>
 </bnd4>
