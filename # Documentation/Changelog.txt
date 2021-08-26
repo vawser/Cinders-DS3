@@ -234,6 +234,7 @@ Finish following weapons:
 - Ritual Spear Fragment is now a consumable item, with a max carry of 10. Reduced its price to 2,500 Souls and 1 Filianore's Spear Ornament per unit.
 - Divine Spear Fragment is now Spellbound Spear Fragment. Removed the scaling and increased its damage to 1050 [875]. Increased its price to 50,000 Souls and 15 Filianore's Spear Ornaments.
 - Young Grass Dew is now Spellbound Grass Dew. Increased the Stamina recovery to +10 and the absorptions to +10%.
+- Elemental throwing knifes have unique looks when in the air and when impacting something.
 
 - Changed how the spellbound items work:
  - Removed their Luck scaling and made them better by default.
