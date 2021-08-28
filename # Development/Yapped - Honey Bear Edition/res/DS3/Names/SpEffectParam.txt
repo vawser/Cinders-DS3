@@ -4661,6 +4661,8 @@
 160700811 Spellbound Cursed Resin - Right Hand [AttackOccurance]
 160700812 Spellbound Cursed Resin - Left Hand
 160700813 Spellbound Cursed Resin - Left Hand [AttackOccurance]
+160700820 Spellbound Draconic Fire
+160700830 Spellbound Draconic Fire Orbs
 160700999 ### Elixirs ###
 160701000 Cleansing Potion - Trigger
 160701010 Cleansing Potion - Clear 150

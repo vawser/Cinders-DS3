@@ -123,6 +123,8 @@ Finish following weapons:
 - Fixed Divine Relief not increasing equip load by 40%.
 - Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
 - Fixed Makoto losing its aux effects when dark infused.
+- Added the missing Dark Gem in Karla's shop.
+- Fixed Lingering Acid Surge not applying the debuff.
  
 # Journey Configuration
 - Mythic Mode:
@@ -243,6 +245,12 @@ Finish following weapons:
  - When there are not enough charges the item's icon darkens and can't be used.
  - The amount of charges required varies per item.
  - Charges can be "stored" to use the items more than once consecutively, but there is a max limit.
+
+- Changed the draconic stones, they are now:
+ - Spellbound Draconic Fire: Emits dragon fire breath, dealing 600 fire damage with no scaling. Gives spellbound charges.
+ - Spellbound Draconic Might: Emits dragon might, dealing 2000 fire damage with no scaling and buffs the player with +10% damage boost and infinite poise for 10 seconds.
+ - Spellbound Draconic Fire Orbs: Emits dragon fire orbs, dealing 500 fire damage with no scaling. Gives spellbound charges, but less than Spellbound Draconic Fire.
+ - Spellbound Draconic Fury: Emits daconic might + buff, and summons ghost dragonoid that breathes fire dealing 1000 [250] fire damage.
 
 # Spells
 - Adjusted several weapon buffs visual.

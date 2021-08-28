@@ -91,8 +91,6 @@ Sort ID	Name
 6176	Barathrum Petal
 6177	Celeritas Stem
 6178	Veloxi Moss
-6180	Stone of Draconic Fire
-6181	Stone of Draconic Might
 6182	Throwing Knife
 6183	Spellbound Throwing Knife
 6184	Sorcerous Knife
@@ -129,9 +127,13 @@ Sort ID	Name
 6251	Spellbound Lightning Urn
 6255	Hexing Urn
 6256	Spellbound Hexing Urn
-6260	Dung Pie
-6261	Spellbound Dung
-6270	Stalk Dung Pie
+6257	Dung Pie
+6258	Spellbound Dung
+6259	Stalk Dung Pie
+6270	Stone of Draconic Fire
+6271	Stone of Draconic Might
+6272	Stone of Draconic Fire Orbs
+6273	Stone of Draconic Fury
 6275	Blessed Pine Resin
 6276	Spellbound Blessed Resin
 6280	Charcoal Pine Resin
