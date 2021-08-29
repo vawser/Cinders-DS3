@@ -341,7 +341,7 @@
 36054 [Bonfire - Farron Keep] Stalk Dung Pie
 36055 [Bonfire - Rosaria's Bed Chamber] Duel Charm
 36056 [Bonfire - Default] Throwing Knife
-36057 [Bonfire - Halfway Fortress] Poison Throwing Knife
+36057 [Bonfire - Halfway Fortress] Poisonous Knife
 36058 [Bonfire - Tower Basement] Charcoal Pine Resin
 36059 [Bonfire - Great Belfry] Gold Pine Resin
 36060 [Bonfire - Cleansing Chapel] Human Pine Resin
@@ -437,7 +437,7 @@
 40006 [Yoel] Soul Arrow
 40007 [Yoel] Rouge Water
 41000 [Yuria] Purging Stone
-41001 [Yuria] Poison Throwing Knife
+41001 [Yuria] Poisonous Knife
 41002 [Yuria] Morion Blade
 41003 [Yuria] Ring of Sacrifice
 41004 [Yuria] Dark Hand
@@ -1634,1849 +1634,1864 @@
 760003 [Stone-humped Hag] Henbane
 760004 [Stone-humped Hag] Old Radiant Lifegem
 760005 [Stone-humped Hag] Dried Root
-800001 [Gauntlet] Weapon
-800002 [Gauntlet] Weapon
-800003 [Gauntlet] Weapon
-800004 [Gauntlet] Weapon
-800005 [Gauntlet] Weapon
-800006 [Gauntlet] Weapon
-800007 [Gauntlet] Weapon
-800008 [Gauntlet] Weapon
-800009 [Gauntlet] Weapon
-800010 [Gauntlet] Weapon
-800011 [Gauntlet] Weapon
-800012 [Gauntlet] Weapon
-800013 [Gauntlet] Weapon
-800014 [Gauntlet] Weapon
-800015 [Gauntlet] Weapon
-800016 [Gauntlet] Weapon
-800017 [Gauntlet] Weapon
-800018 [Gauntlet] Weapon
-800019 [Gauntlet] Weapon
-800020 [Gauntlet] Weapon
-800021 [Gauntlet] Weapon
-800022 [Gauntlet] Weapon
-800023 [Gauntlet] Weapon
-800024 [Gauntlet] Weapon
-800025 [Gauntlet] Weapon
-800026 [Gauntlet] Weapon
-800027 [Gauntlet] Weapon
-800028 [Gauntlet] Weapon
-800029 [Gauntlet] Weapon
-800030 [Gauntlet] Weapon
-800031 [Gauntlet] Weapon
-800032 [Gauntlet] Weapon
-800033 [Gauntlet] Weapon
-800034 [Gauntlet] Weapon
-800035 [Gauntlet] Weapon
-800036 [Gauntlet] Weapon
-800037 [Gauntlet] Weapon
-800038 [Gauntlet] Weapon
-800039 [Gauntlet] Weapon
-800040 [Gauntlet] Weapon
-800041 [Gauntlet] Weapon
-800042 [Gauntlet] Weapon
-800043 [Gauntlet] Weapon
-800044 [Gauntlet] Weapon
-800045 [Gauntlet] Weapon
-800046 [Gauntlet] Weapon
-800047 [Gauntlet] Weapon
-800048 [Gauntlet] Weapon
-800049 [Gauntlet] Weapon
-800050 [Gauntlet] Weapon
-800051 [Gauntlet] Weapon
-800052 [Gauntlet] Weapon
-800053 [Gauntlet] Weapon
-800054 [Gauntlet] Weapon
-800055 [Gauntlet] Weapon
-800056 [Gauntlet] Weapon
-800057 [Gauntlet] Weapon
-800058 [Gauntlet] Weapon
-800059 [Gauntlet] Weapon
-800060 [Gauntlet] Weapon
-800061 [Gauntlet] Weapon
-800062 [Gauntlet] Weapon
-800063 [Gauntlet] Weapon
-800064 [Gauntlet] Weapon
-800065 [Gauntlet] Weapon
-800066 [Gauntlet] Weapon
-800067 [Gauntlet] Weapon
-800068 [Gauntlet] Weapon
-800069 [Gauntlet] Weapon
-800070 [Gauntlet] Weapon
-800071 [Gauntlet] Weapon
-800072 [Gauntlet] Weapon
-800073 [Gauntlet] Weapon
-800074 [Gauntlet] Weapon
-800075 [Gauntlet] Weapon
-800076 [Gauntlet] Weapon
-800077 [Gauntlet] Weapon
-800078 [Gauntlet] Weapon
-800079 [Gauntlet] Weapon
-800080 [Gauntlet] Weapon
-800081 [Gauntlet] Weapon
-800082 [Gauntlet] Weapon
-800083 [Gauntlet] Weapon
-800084 [Gauntlet] Weapon
-800085 [Gauntlet] Weapon
-800086 [Gauntlet] Weapon
-800087 [Gauntlet] Weapon
-800088 [Gauntlet] Weapon
-800089 [Gauntlet] Weapon
-800090 [Gauntlet] Weapon
-800091 [Gauntlet] Weapon
-800092 [Gauntlet] Weapon
-800093 [Gauntlet] Weapon
-800094 [Gauntlet] Weapon
-800095 [Gauntlet] Weapon
-800096 [Gauntlet] Weapon
-800097 [Gauntlet] Weapon
-800098 [Gauntlet] Weapon
-800099 [Gauntlet] Weapon
-800100 [Gauntlet] Weapon
-800101 [Gauntlet] Weapon
-800102 [Gauntlet] Weapon
-800103 [Gauntlet] Weapon
-800104 [Gauntlet] Weapon
-800105 [Gauntlet] Weapon
-800106 [Gauntlet] Weapon
-800107 [Gauntlet] Weapon
-800108 [Gauntlet] Weapon
-800109 [Gauntlet] Weapon
-800110 [Gauntlet] Weapon
-800111 [Gauntlet] Weapon
-800112 [Gauntlet] Weapon
-800113 [Gauntlet] Weapon
-800114 [Gauntlet] Weapon
-800115 [Gauntlet] Weapon
-800116 [Gauntlet] Weapon
-800117 [Gauntlet] Weapon
-800118 [Gauntlet] Weapon
-800119 [Gauntlet] Weapon
-800120 [Gauntlet] Weapon
-800121 [Gauntlet] Weapon
-800122 [Gauntlet] Weapon
-800123 [Gauntlet] Weapon
-800124 [Gauntlet] Weapon
-800125 [Gauntlet] Weapon
-800126 [Gauntlet] Weapon
-800127 [Gauntlet] Weapon
-800128 [Gauntlet] Weapon
-800129 [Gauntlet] Weapon
-800130 [Gauntlet] Weapon
-800131 [Gauntlet] Weapon
-800132 [Gauntlet] Weapon
-800133 [Gauntlet] Weapon
-800134 [Gauntlet] Weapon
-800135 [Gauntlet] Weapon
-800136 [Gauntlet] Weapon
-800137 [Gauntlet] Weapon
-800138 [Gauntlet] Weapon
-800139 [Gauntlet] Weapon
-800140 [Gauntlet] Weapon
-800141 [Gauntlet] Weapon
-800142 [Gauntlet] Weapon
-800143 [Gauntlet] Weapon
-800144 [Gauntlet] Weapon
-800145 [Gauntlet] Weapon
-800146 [Gauntlet] Weapon
-800147 [Gauntlet] Weapon
-800148 [Gauntlet] Weapon
-800149 [Gauntlet] Weapon
-800150 [Gauntlet] Weapon
-800151 [Gauntlet] Weapon
-800152 [Gauntlet] Weapon
-800153 [Gauntlet] Weapon
-800154 [Gauntlet] Weapon
-800155 [Gauntlet] Weapon
-800156 [Gauntlet] Weapon
-800157 [Gauntlet] Weapon
-800158 [Gauntlet] Weapon
-800159 [Gauntlet] Weapon
-800160 [Gauntlet] Weapon
-800161 [Gauntlet] Weapon
-800162 [Gauntlet] Weapon
-800163 [Gauntlet] Weapon
-800164 [Gauntlet] Weapon
-800165 [Gauntlet] Weapon
-800166 [Gauntlet] Weapon
-800167 [Gauntlet] Weapon
-800168 [Gauntlet] Weapon
-800169 [Gauntlet] Weapon
-800170 [Gauntlet] Weapon
-800171 [Gauntlet] Weapon
-800172 [Gauntlet] Weapon
-800173 [Gauntlet] Weapon
-800174 [Gauntlet] Weapon
-800175 [Gauntlet] Weapon
-800176 [Gauntlet] Weapon
-800177 [Gauntlet] Weapon
-800178 [Gauntlet] Weapon
-800179 [Gauntlet] Weapon
-800180 [Gauntlet] Weapon
-800181 [Gauntlet] Weapon
-800182 [Gauntlet] Weapon
-800183 [Gauntlet] Weapon
-800184 [Gauntlet] Weapon
-800185 [Gauntlet] Weapon
-800186 [Gauntlet] Weapon
-800187 [Gauntlet] Weapon
-800188 [Gauntlet] Weapon
-800189 [Gauntlet] Weapon
-800190 [Gauntlet] Weapon
-800191 [Gauntlet] Weapon
-800192 [Gauntlet] Weapon
-800193 [Gauntlet] Weapon
-800194 [Gauntlet] Weapon
-800195 [Gauntlet] Weapon
-800196 [Gauntlet] Weapon
-800197 [Gauntlet] Weapon
-800198 [Gauntlet] Weapon
-800199 [Gauntlet] Weapon
-800200 [Gauntlet] Weapon
-800201 [Gauntlet] Weapon
-800202 [Gauntlet] Weapon
-800203 [Gauntlet] Weapon
-800204 [Gauntlet] Weapon
-800205 [Gauntlet] Weapon
-800206 [Gauntlet] Weapon
-800207 [Gauntlet] Weapon
-800208 [Gauntlet] Weapon
-800209 [Gauntlet] Weapon
-800210 [Gauntlet] Weapon
-800211 [Gauntlet] Weapon
-800212 [Gauntlet] Weapon
-800213 [Gauntlet] Weapon
-800214 [Gauntlet] Weapon
-800215 [Gauntlet] Weapon
-800216 [Gauntlet] Weapon
-800217 [Gauntlet] Weapon
-800218 [Gauntlet] Weapon
-800219 [Gauntlet] Weapon
-800220 [Gauntlet] Weapon
-800221 [Gauntlet] Weapon
-800222 [Gauntlet] Weapon
-800223 [Gauntlet] Weapon
-800224 [Gauntlet] Weapon
-800225 [Gauntlet] Weapon
-800226 [Gauntlet] Weapon
-800227 [Gauntlet] Weapon
-800228 [Gauntlet] Weapon
-800229 [Gauntlet] Weapon
-800230 [Gauntlet] Weapon
-800231 [Gauntlet] Weapon
-800232 [Gauntlet] Weapon
-800233 [Gauntlet] Weapon
-800234 [Gauntlet] Weapon
-800235 [Gauntlet] Weapon
-800236 [Gauntlet] Weapon
-800237 [Gauntlet] Weapon
-800238 [Gauntlet] Weapon
-800239 [Gauntlet] Weapon
-800240 [Gauntlet] Weapon
-800241 [Gauntlet] Weapon
-800242 [Gauntlet] Weapon
-800243 [Gauntlet] Weapon
-800244 [Gauntlet] Weapon
-800245 [Gauntlet] Weapon
-800246 [Gauntlet] Weapon
-800247 [Gauntlet] Weapon
-800248 [Gauntlet] Weapon
-800249 [Gauntlet] Weapon
-800250 [Gauntlet] Weapon
-800251 [Gauntlet] Weapon
-800252 [Gauntlet] Weapon
-800253 [Gauntlet] Weapon
-800254 [Gauntlet] Weapon
-800255 [Gauntlet] Weapon
-800256 [Gauntlet] Weapon
-800257 [Gauntlet] Weapon
-800258 [Gauntlet] Weapon
-800259 [Gauntlet] Weapon
-800260 [Gauntlet] Weapon
-800261 [Gauntlet] Weapon
-800262 [Gauntlet] Weapon
-800263 [Gauntlet] Weapon
-800264 [Gauntlet] Weapon
-800265 [Gauntlet] Weapon
-800266 [Gauntlet] Weapon
-800267 [Gauntlet] Weapon
-800268 [Gauntlet] Weapon
-800269 [Gauntlet] Weapon
-800270 [Gauntlet] Weapon
-800271 [Gauntlet] Weapon
-800272 [Gauntlet] Weapon
-800273 [Gauntlet] Weapon
-800274 [Gauntlet] Weapon
-800275 [Gauntlet] Weapon
-800276 [Gauntlet] Weapon
-800277 [Gauntlet] Weapon
-800278 [Gauntlet] Weapon
-800279 [Gauntlet] Weapon
-800280 [Gauntlet] Weapon
-800281 [Gauntlet] Weapon
-800282 [Gauntlet] Weapon
-800283 [Gauntlet] Weapon
-800284 [Gauntlet] Weapon
-800285 [Gauntlet] Weapon
-800286 [Gauntlet] Weapon
-800287 [Gauntlet] Weapon
-800288 [Gauntlet] Weapon
-800289 [Gauntlet] Weapon
-800290 [Gauntlet] Weapon
-800291 [Gauntlet] Weapon
-800292 [Gauntlet] Weapon
-800293 [Gauntlet] Weapon
-800294 [Gauntlet] Weapon
-800295 [Gauntlet] Weapon
-800296 [Gauntlet] Weapon
-800297 [Gauntlet] Weapon
-800298 [Gauntlet] Weapon
-800299 [Gauntlet] Weapon
-800300 [Gauntlet] Weapon
-800301 [Gauntlet] Weapon
-800302 [Gauntlet] Weapon
-800303 [Gauntlet] Weapon
-800304 [Gauntlet] Weapon
-800305 [Gauntlet] Weapon
-800306 [Gauntlet] Weapon
-800307 [Gauntlet] Weapon
-800308 [Gauntlet] Weapon
-800309 [Gauntlet] Weapon
-800310 [Gauntlet] Weapon
-800311 [Gauntlet] Weapon
-800312 [Gauntlet] Weapon
-800313 [Gauntlet] Weapon
-800314 [Gauntlet] Weapon
-800315 [Gauntlet] Weapon
-800316 [Gauntlet] Weapon
-800317 [Gauntlet] Weapon
-800318 [Gauntlet] Weapon
-800319 [Gauntlet] Weapon
-800320 [Gauntlet] Weapon
-800321 [Gauntlet] Weapon
-800322 [Gauntlet] Weapon
-800323 [Gauntlet] Weapon
-800324 [Gauntlet] Weapon
-800325 [Gauntlet] Weapon
-800326 [Gauntlet] Weapon
-800327 [Gauntlet] Weapon
-800328 [Gauntlet] Weapon
-800329 [Gauntlet] Weapon
-800330 [Gauntlet] Weapon
-800331 [Gauntlet] Weapon
-800332 [Gauntlet] Weapon
-800333 [Gauntlet] Weapon
-800334 [Gauntlet] Weapon
-800335 [Gauntlet] Weapon
-800336 [Gauntlet] Weapon
-800337 [Gauntlet] Weapon
-800338 [Gauntlet] Weapon
-800339 [Gauntlet] Weapon
-800340 [Gauntlet] Weapon
-800341 [Gauntlet] Weapon
-800342 [Gauntlet] Weapon
-800343 [Gauntlet] Weapon
-800344 [Gauntlet] Weapon
-800345 [Gauntlet] Weapon
-800346 [Gauntlet] Weapon
-800347 [Gauntlet] Weapon
-800348 [Gauntlet] Weapon
-800349 [Gauntlet] Weapon
-800350 [Gauntlet] Weapon
-800351 [Gauntlet] Weapon
-800352 [Gauntlet] Weapon
-800353 [Gauntlet] Weapon
-800354 [Gauntlet] Weapon
-800355 [Gauntlet] Weapon
-800356 [Gauntlet] Weapon
-800357 [Gauntlet] Weapon
-800358 [Gauntlet] Weapon
-800359 [Gauntlet] Weapon
-800360 [Gauntlet] Weapon
-800361 [Gauntlet] Weapon
-800362 [Gauntlet] Weapon
-800363 [Gauntlet] Weapon
-800364 [Gauntlet] Weapon
-800365 [Gauntlet] Weapon
-800366 [Gauntlet] Weapon
-800367 [Gauntlet] Weapon
-800368 [Gauntlet] Weapon
-800369 [Gauntlet] Weapon
-800370 [Gauntlet] Weapon
-800371 [Gauntlet] Weapon
-800372 [Gauntlet] Weapon
-800373 [Gauntlet] Weapon
-800374 [Gauntlet] Weapon
-800375 [Gauntlet] Weapon
-800376 [Gauntlet] Weapon
-800377 [Gauntlet] Weapon
-800378 [Gauntlet] Weapon
-800379 [Gauntlet] Weapon
-800380 [Gauntlet] Weapon
-800381 [Gauntlet] Weapon
-800382 [Gauntlet] Weapon
-800383 [Gauntlet] Weapon
-800384 [Gauntlet] Weapon
-800385 [Gauntlet] Weapon
-800386 [Gauntlet] Weapon
-800387 [Gauntlet] Weapon
-800388 [Gauntlet] Weapon
-800389 [Gauntlet] Weapon
-800390 [Gauntlet] Weapon
-800391 [Gauntlet] Weapon
-800392 [Gauntlet] Weapon
-800393 [Gauntlet] Weapon
-800394 [Gauntlet] Weapon
-800395 [Gauntlet] Weapon
-800396 [Gauntlet] Weapon
-800397 [Gauntlet] Weapon
-800398 [Gauntlet] Weapon
-800399 [Gauntlet] Weapon
-800400 [Gauntlet] Weapon
-800401 [Gauntlet] Weapon
-800402 [Gauntlet] Weapon
-800403 [Gauntlet] Weapon
-800404 [Gauntlet] Weapon
-800405 [Gauntlet] Weapon
-800406 [Gauntlet] Weapon
-800407 [Gauntlet] Weapon
-800408 [Gauntlet] Weapon
-800409 [Gauntlet] Weapon
-800410 [Gauntlet] Weapon
-800411 [Gauntlet] Weapon
-800412 [Gauntlet] Weapon
-800413 [Gauntlet] Weapon
-800414 [Gauntlet] Weapon
-800415 [Gauntlet] Weapon
-800416 [Gauntlet] Weapon
-800417 [Gauntlet] Weapon
-800418 [Gauntlet] Weapon
-800419 [Gauntlet] Weapon
-800420 [Gauntlet] Weapon
-800421 [Gauntlet] Weapon
-800422 [Gauntlet] Weapon
-800423 [Gauntlet] Weapon
-800424 [Gauntlet] Weapon
-800425 [Gauntlet] Weapon
-800426 [Gauntlet] Weapon
-800427 [Gauntlet] Weapon
-800428 [Gauntlet] Weapon
-800429 [Gauntlet] Weapon
-800430 [Gauntlet] Weapon
-800431 [Gauntlet] Weapon
-800432 [Gauntlet] Weapon
-800433 [Gauntlet] Weapon
-800434 [Gauntlet] Weapon
-800435 [Gauntlet] Weapon
-800436 [Gauntlet] Weapon
-800437 [Gauntlet] Weapon
-800438 [Gauntlet] Weapon
-800439 [Gauntlet] Weapon
-800440 [Gauntlet] Weapon
-800441 [Gauntlet] Weapon
-800442 [Gauntlet] Weapon
-800443 [Gauntlet] Weapon
-800444 [Gauntlet] Weapon
-800445 [Gauntlet] Weapon
-800446 [Gauntlet] Weapon
-800447 [Gauntlet] Weapon
-800448 [Gauntlet] Weapon
-800449 [Gauntlet] Weapon
-800450 [Gauntlet] Weapon
-800451 [Gauntlet] Weapon
-800452 [Gauntlet] Weapon
-800453 [Gauntlet] Weapon
-800454 [Gauntlet] Weapon
-800455 [Gauntlet] Weapon
-800456 [Gauntlet] Weapon
-800457 [Gauntlet] Weapon
-800458 [Gauntlet] Weapon
-800459 [Gauntlet] Weapon
-800460 [Gauntlet] Weapon
-800461 [Gauntlet] Weapon
-801000 [Gauntlet] Armor
-801001 [Gauntlet] Armor
-801002 [Gauntlet] Armor
-801003 [Gauntlet] Armor
-801004 [Gauntlet] Armor
-801005 [Gauntlet] Armor
-801006 [Gauntlet] Armor
-801007 [Gauntlet] Armor
-801008 [Gauntlet] Armor
-801009 [Gauntlet] Armor
-801010 [Gauntlet] Armor
-801011 [Gauntlet] Armor
-801012 [Gauntlet] Armor
-801013 [Gauntlet] Armor
-801014 [Gauntlet] Armor
-801015 [Gauntlet] Armor
-801016 [Gauntlet] Armor
-801017 [Gauntlet] Armor
-801018 [Gauntlet] Armor
-801019 [Gauntlet] Armor
-801020 [Gauntlet] Armor
-801021 [Gauntlet] Armor
-801022 [Gauntlet] Armor
-801023 [Gauntlet] Armor
-801024 [Gauntlet] Armor
-801025 [Gauntlet] Armor
-801026 [Gauntlet] Armor
-801027 [Gauntlet] Armor
-801028 [Gauntlet] Armor
-801029 [Gauntlet] Armor
-801030 [Gauntlet] Armor
-801031 [Gauntlet] Armor
-801032 [Gauntlet] Armor
-801033 [Gauntlet] Armor
-801034 [Gauntlet] Armor
-801035 [Gauntlet] Armor
-801036 [Gauntlet] Armor
-801037 [Gauntlet] Armor
-801038 [Gauntlet] Armor
-801039 [Gauntlet] Armor
-801040 [Gauntlet] Armor
-801041 [Gauntlet] Armor
-801042 [Gauntlet] Armor
-801043 [Gauntlet] Armor
-801044 [Gauntlet] Armor
-801045 [Gauntlet] Armor
-801046 [Gauntlet] Armor
-801047 [Gauntlet] Armor
-801048 [Gauntlet] Armor
-801049 [Gauntlet] Armor
-801050 [Gauntlet] Armor
-801051 [Gauntlet] Armor
-801052 [Gauntlet] Armor
-801053 [Gauntlet] Armor
-801054 [Gauntlet] Armor
-801055 [Gauntlet] Armor
-801056 [Gauntlet] Armor
-801057 [Gauntlet] Armor
-801058 [Gauntlet] Armor
-801059 [Gauntlet] Armor
-801060 [Gauntlet] Armor
-801061 [Gauntlet] Armor
-801062 [Gauntlet] Armor
-801063 [Gauntlet] Armor
-801064 [Gauntlet] Armor
-801065 [Gauntlet] Armor
-801066 [Gauntlet] Armor
-801067 [Gauntlet] Armor
-801068 [Gauntlet] Armor
-801069 [Gauntlet] Armor
-801070 [Gauntlet] Armor
-801071 [Gauntlet] Armor
-801072 [Gauntlet] Armor
-801073 [Gauntlet] Armor
-801074 [Gauntlet] Armor
-801075 [Gauntlet] Armor
-801076 [Gauntlet] Armor
-801077 [Gauntlet] Armor
-801078 [Gauntlet] Armor
-801079 [Gauntlet] Armor
-801080 [Gauntlet] Armor
-801081 [Gauntlet] Armor
-801082 [Gauntlet] Armor
-801083 [Gauntlet] Armor
-801084 [Gauntlet] Armor
-801085 [Gauntlet] Armor
-801086 [Gauntlet] Armor
-801087 [Gauntlet] Armor
-801088 [Gauntlet] Armor
-801089 [Gauntlet] Armor
-801090 [Gauntlet] Armor
-801091 [Gauntlet] Armor
-801092 [Gauntlet] Armor
-801093 [Gauntlet] Armor
-801094 [Gauntlet] Armor
-801095 [Gauntlet] Armor
-801096 [Gauntlet] Armor
-801097 [Gauntlet] Armor
-801098 [Gauntlet] Armor
-801099 [Gauntlet] Armor
-801100 [Gauntlet] Armor
-801101 [Gauntlet] Armor
-801102 [Gauntlet] Armor
-801103 [Gauntlet] Armor
-801104 [Gauntlet] Armor
-801105 [Gauntlet] Armor
-801106 [Gauntlet] Armor
-801107 [Gauntlet] Armor
-801108 [Gauntlet] Armor
-801109 [Gauntlet] Armor
-801110 [Gauntlet] Armor
-801111 [Gauntlet] Armor
-801112 [Gauntlet] Armor
-801113 [Gauntlet] Armor
-801114 [Gauntlet] Armor
-801115 [Gauntlet] Armor
-801116 [Gauntlet] Armor
-801117 [Gauntlet] Armor
-801118 [Gauntlet] Armor
-801119 [Gauntlet] Armor
-801120 [Gauntlet] Armor
-801121 [Gauntlet] Armor
-801122 [Gauntlet] Armor
-801123 [Gauntlet] Armor
-801124 [Gauntlet] Armor
-801125 [Gauntlet] Armor
-801126 [Gauntlet] Armor
-801127 [Gauntlet] Armor
-801128 [Gauntlet] Armor
-801129 [Gauntlet] Armor
-801130 [Gauntlet] Armor
-801131 [Gauntlet] Armor
-801132 [Gauntlet] Armor
-801133 [Gauntlet] Armor
-801134 [Gauntlet] Armor
-801135 [Gauntlet] Armor
-801136 [Gauntlet] Armor
-801137 [Gauntlet] Armor
-801138 [Gauntlet] Armor
-801139 [Gauntlet] Armor
-801140 [Gauntlet] Armor
-801141 [Gauntlet] Armor
-801142 [Gauntlet] Armor
-801143 [Gauntlet] Armor
-801144 [Gauntlet] Armor
-801145 [Gauntlet] Armor
-801146 [Gauntlet] Armor
-801147 [Gauntlet] Armor
-801148 [Gauntlet] Armor
-801149 [Gauntlet] Armor
-801150 [Gauntlet] Armor
-801151 [Gauntlet] Armor
-801152 [Gauntlet] Armor
-801153 [Gauntlet] Armor
-801154 [Gauntlet] Armor
-801155 [Gauntlet] Armor
-801156 [Gauntlet] Armor
-801157 [Gauntlet] Armor
-801158 [Gauntlet] Armor
-801159 [Gauntlet] Armor
-801160 [Gauntlet] Armor
-801161 [Gauntlet] Armor
-801162 [Gauntlet] Armor
-801163 [Gauntlet] Armor
-801164 [Gauntlet] Armor
-801165 [Gauntlet] Armor
-801166 [Gauntlet] Armor
-801167 [Gauntlet] Armor
-801168 [Gauntlet] Armor
-801169 [Gauntlet] Armor
-801170 [Gauntlet] Armor
-801171 [Gauntlet] Armor
-801172 [Gauntlet] Armor
-801173 [Gauntlet] Armor
-801174 [Gauntlet] Armor
-801175 [Gauntlet] Armor
-801176 [Gauntlet] Armor
-801177 [Gauntlet] Armor
-801178 [Gauntlet] Armor
-801179 [Gauntlet] Armor
-801180 [Gauntlet] Armor
-801181 [Gauntlet] Armor
-801182 [Gauntlet] Armor
-801183 [Gauntlet] Armor
-801184 [Gauntlet] Armor
-801185 [Gauntlet] Armor
-801186 [Gauntlet] Armor
-801187 [Gauntlet] Armor
-801188 [Gauntlet] Armor
-801189 [Gauntlet] Armor
-801190 [Gauntlet] Armor
-801191 [Gauntlet] Armor
-801192 [Gauntlet] Armor
-801193 [Gauntlet] Armor
-801194 [Gauntlet] Armor
-801195 [Gauntlet] Armor
-801196 [Gauntlet] Armor
-801197 [Gauntlet] Armor
-801198 [Gauntlet] Armor
-801199 [Gauntlet] Armor
-801200 [Gauntlet] Armor
-801201 [Gauntlet] Armor
-801202 [Gauntlet] Armor
-801203 [Gauntlet] Armor
-801204 [Gauntlet] Armor
-801205 [Gauntlet] Armor
-801206 [Gauntlet] Armor
-801207 [Gauntlet] Armor
-801208 [Gauntlet] Armor
-801209 [Gauntlet] Armor
-801210 [Gauntlet] Armor
-801211 [Gauntlet] Armor
-801212 [Gauntlet] Armor
-801213 [Gauntlet] Armor
-801214 [Gauntlet] Armor
-801215 [Gauntlet] Armor
-801216 [Gauntlet] Armor
-801217 [Gauntlet] Armor
-801218 [Gauntlet] Armor
-801219 [Gauntlet] Armor
-801220 [Gauntlet] Armor
-801221 [Gauntlet] Armor
-801222 [Gauntlet] Armor
-801223 [Gauntlet] Armor
-801224 [Gauntlet] Armor
-801225 [Gauntlet] Armor
-801226 [Gauntlet] Armor
-801227 [Gauntlet] Armor
-801228 [Gauntlet] Armor
-801229 [Gauntlet] Armor
-801230 [Gauntlet] Armor
-801231 [Gauntlet] Armor
-801232 [Gauntlet] Armor
-801233 [Gauntlet] Armor
-801234 [Gauntlet] Armor
-801235 [Gauntlet] Armor
-801236 [Gauntlet] Armor
-801237 [Gauntlet] Armor
-801238 [Gauntlet] Armor
-801239 [Gauntlet] Armor
-801240 [Gauntlet] Armor
-801241 [Gauntlet] Armor
-801242 [Gauntlet] Armor
-801243 [Gauntlet] Armor
-801244 [Gauntlet] Armor
-801245 [Gauntlet] Armor
-801246 [Gauntlet] Armor
-801247 [Gauntlet] Armor
-801248 [Gauntlet] Armor
-801249 [Gauntlet] Armor
-801250 [Gauntlet] Armor
-801251 [Gauntlet] Armor
-801252 [Gauntlet] Armor
-801253 [Gauntlet] Armor
-801254 [Gauntlet] Armor
-801255 [Gauntlet] Armor
-801256 [Gauntlet] Armor
-801257 [Gauntlet] Armor
-801258 [Gauntlet] Armor
-801259 [Gauntlet] Armor
-801260 [Gauntlet] Armor
-801261 [Gauntlet] Armor
-801262 [Gauntlet] Armor
-801263 [Gauntlet] Armor
-801264 [Gauntlet] Armor
-801265 [Gauntlet] Armor
-801266 [Gauntlet] Armor
-801267 [Gauntlet] Armor
-801268 [Gauntlet] Armor
-801269 [Gauntlet] Armor
-801270 [Gauntlet] Armor
-801271 [Gauntlet] Armor
-801272 [Gauntlet] Armor
-801273 [Gauntlet] Armor
-801274 [Gauntlet] Armor
-801275 [Gauntlet] Armor
-801276 [Gauntlet] Armor
-801277 [Gauntlet] Armor
-801278 [Gauntlet] Armor
-801279 [Gauntlet] Armor
-801280 [Gauntlet] Armor
-801281 [Gauntlet] Armor
-801282 [Gauntlet] Armor
-801283 [Gauntlet] Armor
-801284 [Gauntlet] Armor
-801285 [Gauntlet] Armor
-801286 [Gauntlet] Armor
-801287 [Gauntlet] Armor
-801288 [Gauntlet] Armor
-801289 [Gauntlet] Armor
-801290 [Gauntlet] Armor
-801291 [Gauntlet] Armor
-801292 [Gauntlet] Armor
-801293 [Gauntlet] Armor
-801294 [Gauntlet] Armor
-801295 [Gauntlet] Armor
-801296 [Gauntlet] Armor
-801297 [Gauntlet] Armor
-801298 [Gauntlet] Armor
-801299 [Gauntlet] Armor
-801300 [Gauntlet] Armor
-801301 [Gauntlet] Armor
-801302 [Gauntlet] Armor
-801303 [Gauntlet] Armor
-801304 [Gauntlet] Armor
-801305 [Gauntlet] Armor
-801306 [Gauntlet] Armor
-801307 [Gauntlet] Armor
-801308 [Gauntlet] Armor
-801309 [Gauntlet] Armor
-801310 [Gauntlet] Armor
-801311 [Gauntlet] Armor
-801312 [Gauntlet] Armor
-801313 [Gauntlet] Armor
-801314 [Gauntlet] Armor
-801315 [Gauntlet] Armor
-801316 [Gauntlet] Armor
-801317 [Gauntlet] Armor
-801318 [Gauntlet] Armor
-801319 [Gauntlet] Armor
-801320 [Gauntlet] Armor
-801321 [Gauntlet] Armor
-801322 [Gauntlet] Armor
-801323 [Gauntlet] Armor
-801324 [Gauntlet] Armor
-801325 [Gauntlet] Armor
-801326 [Gauntlet] Armor
-801327 [Gauntlet] Armor
-801328 [Gauntlet] Armor
-801329 [Gauntlet] Armor
-801330 [Gauntlet] Armor
-801331 [Gauntlet] Armor
-801332 [Gauntlet] Armor
-801333 [Gauntlet] Armor
-801334 [Gauntlet] Armor
-801335 [Gauntlet] Armor
-801336 [Gauntlet] Armor
-801337 [Gauntlet] Armor
-801338 [Gauntlet] Armor
-801339 [Gauntlet] Armor
-801340 [Gauntlet] Armor
-801341 [Gauntlet] Armor
-801342 [Gauntlet] Armor
-801343 [Gauntlet] Armor
-801344 [Gauntlet] Armor
-801345 [Gauntlet] Armor
-801346 [Gauntlet] Armor
-801347 [Gauntlet] Armor
-801348 [Gauntlet] Armor
-801349 [Gauntlet] Armor
-801350 [Gauntlet] Armor
-801351 [Gauntlet] Armor
-801352 [Gauntlet] Armor
-801353 [Gauntlet] Armor
-801354 [Gauntlet] Armor
-801355 [Gauntlet] Armor
-801356 [Gauntlet] Armor
-801357 [Gauntlet] Armor
-801358 [Gauntlet] Armor
-801359 [Gauntlet] Armor
-801360 [Gauntlet] Armor
-801361 [Gauntlet] Armor
-801362 [Gauntlet] Armor
-801363 [Gauntlet] Armor
-801364 [Gauntlet] Armor
-801365 [Gauntlet] Armor
-801366 [Gauntlet] Armor
-801367 [Gauntlet] Armor
-801368 [Gauntlet] Armor
-801369 [Gauntlet] Armor
-801370 [Gauntlet] Armor
-801371 [Gauntlet] Armor
-801372 [Gauntlet] Armor
-801373 [Gauntlet] Armor
-801374 [Gauntlet] Armor
-801375 [Gauntlet] Armor
-801376 [Gauntlet] Armor
-801377 [Gauntlet] Armor
-801378 [Gauntlet] Armor
-801379 [Gauntlet] Armor
-801380 [Gauntlet] Armor
-801381 [Gauntlet] Armor
-801382 [Gauntlet] Armor
-801383 [Gauntlet] Armor
-801384 [Gauntlet] Armor
-801385 [Gauntlet] Armor
-801386 [Gauntlet] Armor
-801387 [Gauntlet] Armor
-801388 [Gauntlet] Armor
-801389 [Gauntlet] Armor
-801390 [Gauntlet] Armor
-801391 [Gauntlet] Armor
-801392 [Gauntlet] Armor
-801393 [Gauntlet] Armor
-801394 [Gauntlet] Armor
-801395 [Gauntlet] Armor
-801396 [Gauntlet] Armor
-801397 [Gauntlet] Armor
-801398 [Gauntlet] Armor
-801399 [Gauntlet] Armor
-801400 [Gauntlet] Armor
-801401 [Gauntlet] Armor
-801402 [Gauntlet] Armor
-801403 [Gauntlet] Armor
-801404 [Gauntlet] Armor
-801405 [Gauntlet] Armor
-801406 [Gauntlet] Armor
-801407 [Gauntlet] Armor
-801408 [Gauntlet] Armor
-801409 [Gauntlet] Armor
-801410 [Gauntlet] Armor
-801411 [Gauntlet] Armor
-801412 [Gauntlet] Armor
-801413 [Gauntlet] Armor
-801414 [Gauntlet] Armor
-801415 [Gauntlet] Armor
-801416 [Gauntlet] Armor
-801417 [Gauntlet] Armor
-801418 [Gauntlet] Armor
-801419 [Gauntlet] Armor
-801420 [Gauntlet] Armor
-801421 [Gauntlet] Armor
-801422 [Gauntlet] Armor
-801423 [Gauntlet] Armor
-801424 [Gauntlet] Armor
-801425 [Gauntlet] Armor
-801426 [Gauntlet] Armor
-801427 [Gauntlet] Armor
-801428 [Gauntlet] Armor
-801429 [Gauntlet] Armor
-801430 [Gauntlet] Armor
-801431 [Gauntlet] Armor
-801432 [Gauntlet] Armor
-801433 [Gauntlet] Armor
-801434 [Gauntlet] Armor
-801435 [Gauntlet] Armor
-801436 [Gauntlet] Armor
-801437 [Gauntlet] Armor
-801438 [Gauntlet] Armor
-801439 [Gauntlet] Armor
-801440 [Gauntlet] Armor
-801441 [Gauntlet] Armor
-801442 [Gauntlet] Armor
-801443 [Gauntlet] Armor
-801444 [Gauntlet] Armor
-801445 [Gauntlet] Armor
-801446 [Gauntlet] Armor
-801447 [Gauntlet] Armor
-801448 [Gauntlet] Armor
-801449 [Gauntlet] Armor
-801450 [Gauntlet] Armor
-801451 [Gauntlet] Armor
-801452 [Gauntlet] Armor
-801453 [Gauntlet] Armor
-801454 [Gauntlet] Armor
-801455 [Gauntlet] Armor
-801456 [Gauntlet] Armor
-801457 [Gauntlet] Armor
-801458 [Gauntlet] Armor
-801459 [Gauntlet] Armor
-801460 [Gauntlet] Armor
-801461 [Gauntlet] Armor
-801462 [Gauntlet] Armor
-801463 [Gauntlet] Armor
-801464 [Gauntlet] Armor
-801465 [Gauntlet] Armor
-801466 [Gauntlet] Armor
-801467 [Gauntlet] Armor
-801468 [Gauntlet] Armor
-801469 [Gauntlet] Armor
-801470 [Gauntlet] Armor
-801471 [Gauntlet] Armor
-801472 [Gauntlet] Armor
-801473 [Gauntlet] Armor
-801474 [Gauntlet] Armor
-801475 [Gauntlet] Armor
-801476 [Gauntlet] Armor
-801477 [Gauntlet] Armor
-801478 [Gauntlet] Armor
-801479 [Gauntlet] Armor
-801480 [Gauntlet] Armor
-801481 [Gauntlet] Armor
-801482 [Gauntlet] Armor
-801483 [Gauntlet] Armor
-801484 [Gauntlet] Armor
-801485 [Gauntlet] Armor
-801486 [Gauntlet] Armor
-801487 [Gauntlet] Armor
-801488 [Gauntlet] Armor
-801489 [Gauntlet] Armor
-801490 [Gauntlet] Armor
-801491 [Gauntlet] Armor
-801492 [Gauntlet] Armor
-801493 [Gauntlet] Armor
-801494 [Gauntlet] Armor
-801495 [Gauntlet] Armor
-801496 [Gauntlet] Armor
-801497 [Gauntlet] Armor
-801498 [Gauntlet] Armor
-801499 [Gauntlet] Armor
-801500 [Gauntlet] Armor
-801501 [Gauntlet] Armor
-801502 [Gauntlet] Armor
-801503 [Gauntlet] Armor
-801504 [Gauntlet] Armor
-801505 [Gauntlet] Armor
-801506 [Gauntlet] Armor
-801507 [Gauntlet] Armor
-801508 [Gauntlet] Armor
-801509 [Gauntlet] Armor
-801510 [Gauntlet] Armor
-801511 [Gauntlet] Armor
-801512 [Gauntlet] Armor
-801513 [Gauntlet] Armor
-801514 [Gauntlet] Armor
-801515 [Gauntlet] Armor
-801516 [Gauntlet] Armor
-801517 [Gauntlet] Armor
-801518 [Gauntlet] Armor
-801519 [Gauntlet] Armor
-801520 [Gauntlet] Armor
-801521 [Gauntlet] Armor
-801522 [Gauntlet] Armor
-801523 [Gauntlet] Armor
-801524 [Gauntlet] Armor
-801525 [Gauntlet] Armor
-801526 [Gauntlet] Armor
-801527 [Gauntlet] Armor
-801528 [Gauntlet] Armor
-801529 [Gauntlet] Armor
-801530 [Gauntlet] Armor
-801531 [Gauntlet] Armor
-801532 [Gauntlet] Armor
-801533 [Gauntlet] Armor
-801534 [Gauntlet] Armor
-801535 [Gauntlet] Armor
-801536 [Gauntlet] Armor
-801537 [Gauntlet] Armor
-801538 [Gauntlet] Armor
-801539 [Gauntlet] Armor
-801540 [Gauntlet] Armor
-801541 [Gauntlet] Armor
-801542 [Gauntlet] Armor
-801543 [Gauntlet] Armor
-801544 [Gauntlet] Armor
-801545 [Gauntlet] Armor
-801546 [Gauntlet] Armor
-801547 [Gauntlet] Armor
-801548 [Gauntlet] Armor
-801549 [Gauntlet] Armor
-801550 [Gauntlet] Armor
-801551 [Gauntlet] Armor
-801552 [Gauntlet] Armor
-801553 [Gauntlet] Armor
-801554 [Gauntlet] Armor
-801555 [Gauntlet] Armor
-801556 [Gauntlet] Armor
-801557 [Gauntlet] Armor
-801558 [Gauntlet] Armor
-801559 [Gauntlet] Armor
-801560 [Gauntlet] Armor
-801561 [Gauntlet] Armor
-801562 [Gauntlet] Armor
-801563 [Gauntlet] Armor
-801564 [Gauntlet] Armor
-801565 [Gauntlet] Armor
-801566 [Gauntlet] Armor
-801567 [Gauntlet] Armor
-801568 [Gauntlet] Armor
-801569 [Gauntlet] Armor
-801570 [Gauntlet] Armor
-801571 [Gauntlet] Armor
-801572 [Gauntlet] Armor
-801573 [Gauntlet] Armor
-801574 [Gauntlet] Armor
-801575 [Gauntlet] Armor
-801576 [Gauntlet] Armor
-801577 [Gauntlet] Armor
-801578 [Gauntlet] Armor
-801579 [Gauntlet] Armor
-801580 [Gauntlet] Armor
-801581 [Gauntlet] Armor
-801582 [Gauntlet] Armor
-801583 [Gauntlet] Armor
-801584 [Gauntlet] Armor
-801585 [Gauntlet] Armor
-801586 [Gauntlet] Armor
-801587 [Gauntlet] Armor
-801588 [Gauntlet] Armor
-801589 [Gauntlet] Armor
-801590 [Gauntlet] Armor
-801591 [Gauntlet] Armor
-801592 [Gauntlet] Armor
-801593 [Gauntlet] Armor
-801594 [Gauntlet] Armor
-801595 [Gauntlet] Armor
-801596 [Gauntlet] Armor
-801597 [Gauntlet] Armor
-801598 [Gauntlet] Armor
-801599 [Gauntlet] Armor
-801600 [Gauntlet] Armor
-801601 [Gauntlet] Armor
-801602 [Gauntlet] Armor
-801603 [Gauntlet] Armor
-801604 [Gauntlet] Armor
-801605 [Gauntlet] Armor
-801606 [Gauntlet] Armor
-801607 [Gauntlet] Armor
-801608 [Gauntlet] Armor
-801609 [Gauntlet] Armor
-801610 [Gauntlet] Armor
-801611 [Gauntlet] Armor
-801612 [Gauntlet] Armor
-801613 [Gauntlet] Armor
-801614 [Gauntlet] Armor
-801615 [Gauntlet] Armor
-801616 [Gauntlet] Armor
-801617 [Gauntlet] Armor
-801618 [Gauntlet] Armor
-801619 [Gauntlet] Armor
-801620 [Gauntlet] Armor
-801621 [Gauntlet] Armor
-801622 [Gauntlet] Armor
-801623 [Gauntlet] Armor
-801624 [Gauntlet] Armor
-801625 [Gauntlet] Armor
-801626 [Gauntlet] Armor
-801627 [Gauntlet] Armor
-801628 [Gauntlet] Armor
-801629 [Gauntlet] Armor
-801630 [Gauntlet] Armor
-801631 [Gauntlet] Armor
-801632 [Gauntlet] Armor
-801633 [Gauntlet] Armor
-801634 [Gauntlet] Armor
-801635 [Gauntlet] Armor
-801636 [Gauntlet] Armor
-801637 [Gauntlet] Armor
-801638 [Gauntlet] Armor
-801639 [Gauntlet] Armor
-801640 [Gauntlet] Armor
-801641 [Gauntlet] Armor
-801642 [Gauntlet] Armor
-801643 [Gauntlet] Armor
-801644 [Gauntlet] Armor
-801645 [Gauntlet] Armor
-801646 [Gauntlet] Armor
-801647 [Gauntlet] Armor
-801648 [Gauntlet] Armor
-801649 [Gauntlet] Armor
-801650 [Gauntlet] Armor
-801651 [Gauntlet] Armor
-801652 [Gauntlet] Armor
-801653 [Gauntlet] Armor
-801654 [Gauntlet] Armor
-801655 [Gauntlet] Armor
-801656 [Gauntlet] Armor
-801657 [Gauntlet] Armor
-801658 [Gauntlet] Armor
-801659 [Gauntlet] Armor
-801660 [Gauntlet] Armor
-801661 [Gauntlet] Armor
-801662 [Gauntlet] Armor
-801663 [Gauntlet] Armor
-801664 [Gauntlet] Armor
-801665 [Gauntlet] Armor
-801666 [Gauntlet] Armor
-801667 [Gauntlet] Armor
-801668 [Gauntlet] Armor
-801669 [Gauntlet] Armor
-801670 [Gauntlet] Armor
-801671 [Gauntlet] Armor
-801672 [Gauntlet] Armor
-801673 [Gauntlet] Armor
-801674 [Gauntlet] Armor
-801675 [Gauntlet] Armor
-801676 [Gauntlet] Armor
-801677 [Gauntlet] Armor
-801678 [Gauntlet] Armor
-801679 [Gauntlet] Armor
-801680 [Gauntlet] Armor
-801681 [Gauntlet] Armor
-801682 [Gauntlet] Armor
-801683 [Gauntlet] Armor
-801684 [Gauntlet] Armor
-801685 [Gauntlet] Armor
-801686 [Gauntlet] Armor
-801687 [Gauntlet] Armor
-801688 [Gauntlet] Armor
-801689 [Gauntlet] Armor
-801690 [Gauntlet] Armor
-801691 [Gauntlet] Armor
-801692 [Gauntlet] Armor
-801693 [Gauntlet] Armor
-801694 [Gauntlet] Armor
-801695 [Gauntlet] Armor
-801696 [Gauntlet] Armor
-801697 [Gauntlet] Armor
-801698 [Gauntlet] Armor
-801699 [Gauntlet] Armor
-801700 [Gauntlet] Armor
-801701 [Gauntlet] Armor
-801702 [Gauntlet] Armor
-801703 [Gauntlet] Armor
-801704 [Gauntlet] Armor
-801705 [Gauntlet] Armor
-801706 [Gauntlet] Armor
-801707 [Gauntlet] Armor
-801708 [Gauntlet] Armor
-801709 [Gauntlet] Armor
-801710 [Gauntlet] Armor
-801711 [Gauntlet] Armor
-801712 [Gauntlet] Armor
-801713 [Gauntlet] Armor
-801714 [Gauntlet] Armor
-801715 [Gauntlet] Armor
-801716 [Gauntlet] Armor
-801717 [Gauntlet] Armor
-801718 [Gauntlet] Armor
-801719 [Gauntlet] Armor
-801720 [Gauntlet] Armor
-801721 [Gauntlet] Armor
-801722 [Gauntlet] Armor
-801723 [Gauntlet] Armor
-801724 [Gauntlet] Armor
-801725 [Gauntlet] Armor
-801726 [Gauntlet] Armor
-801727 [Gauntlet] Armor
-801728 [Gauntlet] Armor
-801729 [Gauntlet] Armor
-801730 [Gauntlet] Armor
-801731 [Gauntlet] Armor
-801732 [Gauntlet] Armor
-801733 [Gauntlet] Armor
-801734 [Gauntlet] Armor
-801735 [Gauntlet] Armor
-801736 [Gauntlet] Armor
-801737 [Gauntlet] Armor
-801738 [Gauntlet] Armor
-801739 [Gauntlet] Armor
-801740 [Gauntlet] Armor
-801741 [Gauntlet] Armor
-801742 [Gauntlet] Armor
-801743 [Gauntlet] Armor
-801744 [Gauntlet] Armor
-801745 [Gauntlet] Armor
-801746 [Gauntlet] Armor
-801747 [Gauntlet] Armor
-801748 [Gauntlet] Armor
-801749 [Gauntlet] Armor
-801750 [Gauntlet] Armor
-801751 [Gauntlet] Armor
-801752 [Gauntlet] Armor
-801753 [Gauntlet] Armor
-801754 [Gauntlet] Armor
-801755 [Gauntlet] Armor
-801756 [Gauntlet] Armor
-801757 [Gauntlet] Armor
-801758 [Gauntlet] Armor
-801759 [Gauntlet] Armor
-801760 [Gauntlet] Armor
-801761 [Gauntlet] Armor
-801762 [Gauntlet] Armor
-801763 [Gauntlet] Armor
-801764 [Gauntlet] Armor
-802000 [Gauntlet] Accessory
-802001 [Gauntlet] Accessory
-802002 [Gauntlet] Accessory
-802003 [Gauntlet] Accessory
-802004 [Gauntlet] Accessory
-802005 [Gauntlet] Accessory
-802006 [Gauntlet] Accessory
-802007 [Gauntlet] Accessory
-802008 [Gauntlet] Accessory
-802009 [Gauntlet] Accessory
-802010 [Gauntlet] Accessory
-802011 [Gauntlet] Accessory
-802012 [Gauntlet] Accessory
-802013 [Gauntlet] Accessory
-802014 [Gauntlet] Accessory
-802015 [Gauntlet] Accessory
-802016 [Gauntlet] Accessory
-802017 [Gauntlet] Accessory
-802018 [Gauntlet] Accessory
-802019 [Gauntlet] Accessory
-802020 [Gauntlet] Accessory
-802021 [Gauntlet] Accessory
-802022 [Gauntlet] Accessory
-802023 [Gauntlet] Accessory
-802024 [Gauntlet] Accessory
-802025 [Gauntlet] Accessory
-802026 [Gauntlet] Accessory
-802027 [Gauntlet] Accessory
-802028 [Gauntlet] Accessory
-802029 [Gauntlet] Accessory
-802030 [Gauntlet] Accessory
-802031 [Gauntlet] Accessory
-802032 [Gauntlet] Accessory
-802033 [Gauntlet] Accessory
-802034 [Gauntlet] Accessory
-802035 [Gauntlet] Accessory
-802036 [Gauntlet] Accessory
-802037 [Gauntlet] Accessory
-802038 [Gauntlet] Accessory
-802039 [Gauntlet] Accessory
-802040 [Gauntlet] Accessory
-802041 [Gauntlet] Accessory
-802042 [Gauntlet] Accessory
-802043 [Gauntlet] Accessory
-802044 [Gauntlet] Accessory
-802045 [Gauntlet] Accessory
-802046 [Gauntlet] Accessory
-802047 [Gauntlet] Accessory
-802048 [Gauntlet] Accessory
-802049 [Gauntlet] Accessory
-802050 [Gauntlet] Accessory
-802051 [Gauntlet] Accessory
-802052 [Gauntlet] Accessory
-802053 [Gauntlet] Accessory
-802054 [Gauntlet] Accessory
-802055 [Gauntlet] Accessory
-802056 [Gauntlet] Accessory
-802057 [Gauntlet] Accessory
-802058 [Gauntlet] Accessory
-802059 [Gauntlet] Accessory
-802060 [Gauntlet] Accessory
-802061 [Gauntlet] Accessory
-802062 [Gauntlet] Accessory
-802063 [Gauntlet] Accessory
-802064 [Gauntlet] Accessory
-802065 [Gauntlet] Accessory
-802066 [Gauntlet] Accessory
-802067 [Gauntlet] Accessory
-802068 [Gauntlet] Accessory
-802069 [Gauntlet] Accessory
-802070 [Gauntlet] Accessory
-802071 [Gauntlet] Accessory
-802072 [Gauntlet] Accessory
-802073 [Gauntlet] Accessory
-802074 [Gauntlet] Accessory
-802075 [Gauntlet] Accessory
-802076 [Gauntlet] Accessory
-802077 [Gauntlet] Accessory
-802078 [Gauntlet] Accessory
-802079 [Gauntlet] Accessory
-802080 [Gauntlet] Accessory
-802081 [Gauntlet] Accessory
-802082 [Gauntlet] Accessory
-802083 [Gauntlet] Accessory
-802084 [Gauntlet] Accessory
-802085 [Gauntlet] Accessory
-802086 [Gauntlet] Accessory
-802087 [Gauntlet] Accessory
-802088 [Gauntlet] Accessory
-802089 [Gauntlet] Accessory
-802090 [Gauntlet] Accessory
-802091 [Gauntlet] Accessory
-802092 [Gauntlet] Accessory
-802093 [Gauntlet] Accessory
-802094 [Gauntlet] Accessory
-802095 [Gauntlet] Accessory
-802096 [Gauntlet] Accessory
-802097 [Gauntlet] Accessory
-802098 [Gauntlet] Accessory
-802099 [Gauntlet] Accessory
-802100 [Gauntlet] Accessory
-802101 [Gauntlet] Accessory
-802102 [Gauntlet] Accessory
-802103 [Gauntlet] Accessory
-802104 [Gauntlet] Accessory
-802105 [Gauntlet] Accessory
-802106 [Gauntlet] Accessory
-802107 [Gauntlet] Accessory
-802108 [Gauntlet] Accessory
-802109 [Gauntlet] Accessory
-802110 [Gauntlet] Accessory
-802111 [Gauntlet] Accessory
-802112 [Gauntlet] Accessory
-802113 [Gauntlet] Accessory
-802114 [Gauntlet] Accessory
-802115 [Gauntlet] Accessory
-802116 [Gauntlet] Accessory
-802117 [Gauntlet] Accessory
-802118 [Gauntlet] Accessory
-802119 [Gauntlet] Accessory
-802120 [Gauntlet] Accessory
-802121 [Gauntlet] Accessory
-802122 [Gauntlet] Accessory
-802123 [Gauntlet] Accessory
-802124 [Gauntlet] Accessory
-802125 [Gauntlet] Accessory
-802126 [Gauntlet] Accessory
-802127 [Gauntlet] Accessory
-802128 [Gauntlet] Accessory
-802129 [Gauntlet] Accessory
-802130 [Gauntlet] Accessory
-802131 [Gauntlet] Accessory
-802132 [Gauntlet] Accessory
-802133 [Gauntlet] Accessory
-802134 [Gauntlet] Accessory
-802135 [Gauntlet] Accessory
-802136 [Gauntlet] Accessory
-802137 [Gauntlet] Accessory
-802138 [Gauntlet] Accessory
-802139 [Gauntlet] Accessory
-802140 [Gauntlet] Accessory
-802141 [Gauntlet] Accessory
-802142 [Gauntlet] Accessory
-802143 [Gauntlet] Accessory
-802144 [Gauntlet] Accessory
-802145 [Gauntlet] Accessory
-802146 [Gauntlet] Accessory
-802147 [Gauntlet] Accessory
-803000 [Gauntlet] Spell
-803001 [Gauntlet] Spell
-803002 [Gauntlet] Spell
-803003 [Gauntlet] Spell
-803004 [Gauntlet] Spell
-803005 [Gauntlet] Spell
-803006 [Gauntlet] Spell
-803007 [Gauntlet] Spell
-803008 [Gauntlet] Spell
-803009 [Gauntlet] Spell
-803010 [Gauntlet] Spell
-803011 [Gauntlet] Spell
-803012 [Gauntlet] Spell
-803013 [Gauntlet] Spell
-803014 [Gauntlet] Spell
-803015 [Gauntlet] Spell
-803016 [Gauntlet] Spell
-803017 [Gauntlet] Spell
-803018 [Gauntlet] Spell
-803019 [Gauntlet] Spell
-803020 [Gauntlet] Spell
-803021 [Gauntlet] Spell
-803022 [Gauntlet] Spell
-803023 [Gauntlet] Spell
-803024 [Gauntlet] Spell
-803025 [Gauntlet] Spell
-803026 [Gauntlet] Spell
-803027 [Gauntlet] Spell
-803028 [Gauntlet] Spell
-803029 [Gauntlet] Spell
-803030 [Gauntlet] Spell
-803031 [Gauntlet] Spell
-803032 [Gauntlet] Spell
-803033 [Gauntlet] Spell
-803034 [Gauntlet] Spell
-803035 [Gauntlet] Spell
-803036 [Gauntlet] Spell
-803037 [Gauntlet] Spell
-803038 [Gauntlet] Spell
-803039 [Gauntlet] Spell
-803040 [Gauntlet] Spell
-803041 [Gauntlet] Spell
-803042 [Gauntlet] Spell
-803043 [Gauntlet] Spell
-803044 [Gauntlet] Spell
-803045 [Gauntlet] Spell
-803046 [Gauntlet] Spell
-803047 [Gauntlet] Spell
-803048 [Gauntlet] Spell
-803049 [Gauntlet] Spell
-803050 [Gauntlet] Spell
-803051 [Gauntlet] Spell
-803052 [Gauntlet] Spell
-803053 [Gauntlet] Spell
-803054 [Gauntlet] Spell
-803055 [Gauntlet] Spell
-803056 [Gauntlet] Spell
-803057 [Gauntlet] Spell
-803058 [Gauntlet] Spell
-803059 [Gauntlet] Spell
-803060 [Gauntlet] Spell
-803061 [Gauntlet] Spell
-803062 [Gauntlet] Spell
-803063 [Gauntlet] Spell
-803064 [Gauntlet] Spell
-803065 [Gauntlet] Spell
-803066 [Gauntlet] Spell
-803067 [Gauntlet] Spell
-803068 [Gauntlet] Spell
-803069 [Gauntlet] Spell
-803070 [Gauntlet] Spell
-803071 [Gauntlet] Spell
-803072 [Gauntlet] Spell
-803073 [Gauntlet] Spell
-803074 [Gauntlet] Spell
-803075 [Gauntlet] Spell
-803076 [Gauntlet] Spell
-803077 [Gauntlet] Spell
-803078 [Gauntlet] Spell
-803079 [Gauntlet] Spell
-803080 [Gauntlet] Spell
-803081 [Gauntlet] Spell
-803082 [Gauntlet] Spell
-803083 [Gauntlet] Spell
-803084 [Gauntlet] Spell
-803085 [Gauntlet] Spell
-803086 [Gauntlet] Spell
-803087 [Gauntlet] Spell
-803088 [Gauntlet] Spell
-803089 [Gauntlet] Spell
-803090 [Gauntlet] Spell
-803091 [Gauntlet] Spell
-803092 [Gauntlet] Spell
-803093 [Gauntlet] Spell
-803094 [Gauntlet] Spell
-803095 [Gauntlet] Spell
-803096 [Gauntlet] Spell
-803097 [Gauntlet] Spell
-803098 [Gauntlet] Spell
-803099 [Gauntlet] Spell
-803100 [Gauntlet] Spell
-803101 [Gauntlet] Spell
-803102 [Gauntlet] Spell
-803103 [Gauntlet] Spell
-803104 [Gauntlet] Spell
-803105 [Gauntlet] Spell
-803106 [Gauntlet] Spell
-803107 [Gauntlet] Spell
-803108 [Gauntlet] Spell
-803109 [Gauntlet] Spell
-803110 [Gauntlet] Spell
-803111 [Gauntlet] Spell
-803112 [Gauntlet] Spell
-803113 [Gauntlet] Spell
-803114 [Gauntlet] Spell
-803115 [Gauntlet] Spell
-803116 [Gauntlet] Spell
-803117 [Gauntlet] Spell
-803118 [Gauntlet] Spell
-803119 [Gauntlet] Spell
-803120 [Gauntlet] Spell
-803121 [Gauntlet] Spell
-803122 [Gauntlet] Spell
-803123 [Gauntlet] Spell
-803124 [Gauntlet] Spell
-803125 [Gauntlet] Spell
-803126 [Gauntlet] Spell
-803127 [Gauntlet] Spell
-803128 [Gauntlet] Spell
-803129 [Gauntlet] Spell
-803130 [Gauntlet] Spell
-803131 [Gauntlet] Spell
-803132 [Gauntlet] Spell
-803133 [Gauntlet] Spell
-803134 [Gauntlet] Spell
-803135 [Gauntlet] Spell
-803136 [Gauntlet] Spell
-803137 [Gauntlet] Spell
-803138 [Gauntlet] Spell
-803139 [Gauntlet] Spell
-803140 [Gauntlet] Spell
-803141 [Gauntlet] Spell
-803142 [Gauntlet] Spell
-803143 [Gauntlet] Spell
-803144 [Gauntlet] Spell
-803145 [Gauntlet] Spell
-803146 [Gauntlet] Spell
-803147 [Gauntlet] Spell
-803148 [Gauntlet] Spell
-803149 [Gauntlet] Spell
-803150 [Gauntlet] Spell
-803151 [Gauntlet] Spell
-803152 [Gauntlet] Spell
-803153 [Gauntlet] Spell
-803154 [Gauntlet] Spell
-803155 [Gauntlet] Spell
-803156 [Gauntlet] Spell
-803157 [Gauntlet] Spell
-803158 [Gauntlet] Spell
-803159 [Gauntlet] Spell
-803160 [Gauntlet] Spell
-803161 [Gauntlet] Spell
-803162 [Gauntlet] Spell
-803163 [Gauntlet] Spell
-803164 [Gauntlet] Spell
-803165 [Gauntlet] Spell
-803166 [Gauntlet] Spell
-803167 [Gauntlet] Spell
-803168 [Gauntlet] Spell
-803169 [Gauntlet] Spell
-803170 [Gauntlet] Spell
-803171 [Gauntlet] Spell
-803172 [Gauntlet] Spell
-803173 [Gauntlet] Spell
-803174 [Gauntlet] Spell
-803175 [Gauntlet] Spell
-803176 [Gauntlet] Spell
-803177 [Gauntlet] Spell
-803178 [Gauntlet] Spell
-803179 [Gauntlet] Spell
-803180 [Gauntlet] Spell
-803181 [Gauntlet] Spell
-803182 [Gauntlet] Spell
-803183 [Gauntlet] Spell
-803184 [Gauntlet] Spell
-803185 [Gauntlet] Spell
-803186 [Gauntlet] Spell
-803187 [Gauntlet] Spell
-803188 [Gauntlet] Spell
-803189 [Gauntlet] Spell
-803190 [Gauntlet] Spell
-803191 [Gauntlet] Spell
-803192 [Gauntlet] Spell
-803193 [Gauntlet] Spell
-803194 [Gauntlet] Spell
-803195 [Gauntlet] Spell
-803196 [Gauntlet] Spell
-803197 [Gauntlet] Spell
-803198 [Gauntlet] Spell
-803199 [Gauntlet] Spell
-803200 [Gauntlet] Spell
-803201 [Gauntlet] Spell
-803202 [Gauntlet] Spell
-803203 [Gauntlet] Spell
-803204 [Gauntlet] Spell
-803205 [Gauntlet] Spell
-803206 [Gauntlet] Spell
-803207 [Gauntlet] Spell
-803208 [Gauntlet] Spell
-803209 [Gauntlet] Spell
-803210 [Gauntlet] Spell
-803211 [Gauntlet] Spell
-803212 [Gauntlet] Spell
-803213 [Gauntlet] Spell
-803214 [Gauntlet] Spell
-803215 [Gauntlet] Spell
-803216 [Gauntlet] Spell
-803217 [Gauntlet] Spell
-803218 [Gauntlet] Spell
-803219 [Gauntlet] Spell
-803220 [Gauntlet] Spell
-803221 [Gauntlet] Spell
-803222 [Gauntlet] Spell
-803223 [Gauntlet] Spell
-803224 [Gauntlet] Spell
-803225 [Gauntlet] Spell
-803226 [Gauntlet] Spell
-803227 [Gauntlet] Spell
-803228 [Gauntlet] Spell
-803229 [Gauntlet] Spell
-803230 [Gauntlet] Spell
-803231 [Gauntlet] Spell
-803232 [Gauntlet] Spell
-803233 [Gauntlet] Spell
-803234 [Gauntlet] Spell
-803235 [Gauntlet] Spell
-803236 [Gauntlet] Spell
-803237 [Gauntlet] Spell
-803238 [Gauntlet] Spell
-803239 [Gauntlet] Spell
-803240 [Gauntlet] Spell
-803241 [Gauntlet] Spell
-803242 [Gauntlet] Spell
-803243 [Gauntlet] Spell
-803244 [Gauntlet] Spell
-803245 [Gauntlet] Spell
-803246 [Gauntlet] Spell
-803247 [Gauntlet] Spell
-803248 [Gauntlet] Spell
-803249 [Gauntlet] Spell
-803250 [Gauntlet] Spell
-803251 [Gauntlet] Spell
-803252 [Gauntlet] Spell
-803253 [Gauntlet] Spell
-803254 [Gauntlet] Spell
-803255 [Gauntlet] Spell
-803256 [Gauntlet] Spell
-803257 [Gauntlet] Spell
-803258 [Gauntlet] Spell
-803259 [Gauntlet] Spell
-803260 [Gauntlet] Spell
-803261 [Gauntlet] Spell
-803262 [Gauntlet] Spell
-803263 [Gauntlet] Spell
-803264 [Gauntlet] Spell
-803265 [Gauntlet] Spell
-803266 [Gauntlet] Spell
-803267 [Gauntlet] Spell
-803268 [Gauntlet] Spell
-803269 [Gauntlet] Spell
-803270 [Gauntlet] Spell
-803271 [Gauntlet] Spell
-803272 [Gauntlet] Spell
-803273 [Gauntlet] Spell
-803274 [Gauntlet] Spell
-803275 [Gauntlet] Spell
-803276 [Gauntlet] Spell
-803277 [Gauntlet] Spell
-803278 [Gauntlet] Spell
-803279 [Gauntlet] Spell
-803280 [Gauntlet] Spell
-803281 [Gauntlet] Spell
-803282 [Gauntlet] Spell
-803283 [Gauntlet] Spell
-803284 [Gauntlet] Spell
-803285 [Gauntlet] Spell
-803286 [Gauntlet] Spell
-803287 [Gauntlet] Spell
-803288 [Gauntlet] Spell
-803289 [Gauntlet] Spell
-803290 [Gauntlet] Spell
-803291 [Gauntlet] Spell
-803292 [Gauntlet] Spell
-803293 [Gauntlet] Spell
-803294 [Gauntlet] Spell
-803295 [Gauntlet] Spell
-803296 [Gauntlet] Spell
-803297 [Gauntlet] Spell
-803298 [Gauntlet] Spell
-803299 [Gauntlet] Spell
-803300 [Gauntlet] Spell
-803301 [Gauntlet] Spell
-803302 [Gauntlet] Spell
-803303 [Gauntlet] Spell
-803304 [Gauntlet] Spell
-803305 [Gauntlet] Spell
-803306 [Gauntlet] Spell
-803307 [Gauntlet] Spell
-803308 [Gauntlet] Spell
-803309 [Gauntlet] Spell
-803310 [Gauntlet] Spell
-803311 [Gauntlet] Spell
-804000 [Gauntlet] Titanite Fragment
-804001 [Gauntlet] Inferi Petal
-804002 [Gauntlet] Combustum Petal
-804003 [Gauntlet] Vindicti Petal
-804004 [Gauntlet] Barathrum Petal
-804005 [Gauntlet] Celeritas Stem
-804006 [Gauntlet] Veloxi Moss
-804007 [Gauntlet] Lethal Gem
-804008 [Gauntlet] Curse Gem
-804009 [Gauntlet] Poison Gem
-804010 [Gauntlet] Blood Gem
-804011 [Gauntlet] Frost Gem
-804012 [Gauntlet] Magic Gem
-804013 [Gauntlet] Fire Gem
-804014 [Gauntlet] Lightning Gem
-804015 [Gauntlet] Dark Gem
-804016 [Gauntlet] Lucky Gem
-804017 [Gauntlet] Enchanted Gem
-804018 [Gauntlet] Holy Gem
-804019 [Gauntlet] Sharp Gem
-804020 [Gauntlet] Blunt Gem
-804021 [Gauntlet] Crystal Shard
-804022 [Gauntlet] Dragon Eye
-804023 [Gauntlet] Human Effigy
-804024 [Gauntlet] Devil's Trumpet
-804025 [Gauntlet] Moonflower
-804026 [Gauntlet] Henbane
-804027 [Gauntlet] Smouldering Stone
-804028 [Gauntlet] Infusing Essence
-804029 [Gauntlet] Degrading Essence
-804030 [Gauntlet] Tarnished Coin
-804031 [Gauntlet] Tarnished Silver Coin
-804032 [Gauntlet] Hexing Urn
-804033 [Gauntlet] Witching Urn
-804034 [Gauntlet] Old Growth Balm
-804035 [Gauntlet] Vine Balm
-804036 [Gauntlet] Blackweed Balm
-804037 [Gauntlet] Goldenfruit Balm
-804038 [Gauntlet] Brightbug
-804039 [Gauntlet] Young Grass Dew
-804040 [Gauntlet] Undead Bone Shard
-804041 [Gauntlet] Estus Shard
-804042 [Gauntlet] Titanite Shard
-804043 [Gauntlet] Large Titanite Shard
-804044 [Gauntlet] Titanite Chunk
-804045 [Gauntlet] Titanite Slab
-804046 [Gauntlet] Fire Seed
-804047 [Gauntlet] Crystal Fragment
-804048 [Gauntlet] Abyssal Fragment
-804049 [Gauntlet] Holy Fragment
-804050 [Gauntlet] Shriving Stone
-804051 [Gauntlet] Lifegem
-804052 [Gauntlet] Radiant Lifegem
-804053 [Gauntlet] Old Radiant Lifegem
-804054 [Gauntlet] Elizabeth Mushroom
-804055 [Gauntlet] Dried Root
-804056 [Gauntlet] Rouge Water
-804057 [Gauntlet] Crimson Water
-804058 [Gauntlet] Ember
-804059 [Gauntlet] Mossfruit
-804060 [Gauntlet] Rusted Coin
-804061 [Gauntlet] Siegbrau
-804062 [Gauntlet] Rusted Gold Coin
-804063 [Gauntlet] Blue Bug Pellet
-804064 [Gauntlet] Red Bug Pellet
-804065 [Gauntlet] Yellow Bug Pellet
-804066 [Gauntlet] Black Bug Pellet
-804067 [Gauntlet] Young White Branch
-804069 [Gauntlet] Prism Stone
-804070 [Gauntlet] Homeward Bone
-804071 [Gauntlet] Coiled Sword Fragment
-804072 [Gauntlet] Divine Blessing
-804073 [Gauntlet] Hidden Blessing
-804074 [Gauntlet] Green Blossom
-804075 [Gauntlet] Budding Green Blossom
-804076 [Gauntlet] Bloodred Moss Clump
-804077 [Gauntlet] Purple Moss Clump
-804078 [Gauntlet] Blooming Purple Moss Clump
-804079 [Gauntlet] Purging Stone
-804080 [Gauntlet] Cleansing Pendant
-804081 [Gauntlet] Rime-blue Moss Clump
-804082 [Gauntlet] Repair Powder
-804084 [Gauntlet] Firebomb
-804085 [Gauntlet] Dung Pie
-804086 [Gauntlet] Alluring Skull
-804087 [Gauntlet] Undead Hunter Charm
-804088 [Gauntlet] Black Firebomb
-804089 [Gauntlet] Rope Firebomb
-804090 [Gauntlet] Lightning Urn
-804091 [Gauntlet] Rope Black Firebomb
-804092 [Gauntlet] Stalk Dung Pie
-804093 [Gauntlet] Duel Charm
-804094 [Gauntlet] Throwing Knife
-804095 [Gauntlet] Poisonous Knife
-804096 [Gauntlet] Church Guardian Shiv
-804097 [Gauntlet] Charcoal Pine Resin
-804098 [Gauntlet] Gold Pine Resin
-804099 [Gauntlet] Human Pine Resin
-804100 [Gauntlet] Carthus Rouge
-804101 [Gauntlet] Pale Pine Resin
-804104 [Gauntlet] Rotten Pine Resin
-804105 [Gauntlet] Frozen Pine Resin
-804106 [Gauntlet] Weapon Token
-804107 [Gauntlet] Armor Token
-804108 [Gauntlet] Accessory Token
-804109 [Gauntlet] Holy Water Urn
-804110 [Gauntlet] Primordial Fragment
-804111 [Gauntlet] Sorcerous Knife
-804112 [Gauntlet] Flaming Knife
-804113 [Gauntlet] Sparking Knife
-804114 [Gauntlet] Abyssal Knife
-804115 [Gauntlet] Cursed Knife
-804116 [Gauntlet] Lacerating Knife
-804117 [Gauntlet] Frigid Knife
-804200 [Gauntlet] Ammunition
-804201 [Gauntlet] Ammunition
-804202 [Gauntlet] Ammunition
-804203 [Gauntlet] Ammunition
-804204 [Gauntlet] Ammunition
-804205 [Gauntlet] Ammunition
-804206 [Gauntlet] Ammunition
-804207 [Gauntlet] Ammunition
-804208 [Gauntlet] Ammunition
-804209 [Gauntlet] Ammunition
-804210 [Gauntlet] Ammunition
-804211 [Gauntlet] Ammunition
-804212 [Gauntlet] Ammunition
-804213 [Gauntlet] Ammunition
-804214 [Gauntlet] Ammunition
-804215 [Gauntlet] Ammunition
-804216 [Gauntlet] Ammunition
-804217 [Gauntlet] Ammunition
-804218 [Gauntlet] Ammunition
-804219 [Gauntlet] Ammunition
-804220 [Gauntlet] Ammunition
-804221 [Gauntlet] Ammunition
-804222 [Gauntlet] Ammunition
-804223 [Gauntlet] Ammunition
-804224 [Gauntlet] Ammunition
-804225 [Gauntlet] Ammunition
-804226 [Gauntlet] Ammunition
-804227 [Gauntlet] Ammunition
-804228 [Gauntlet] Ammunition
-804229 [Gauntlet] Ammunition
-804230 [Gauntlet] Ammunition
-804231 [Gauntlet] Ammunition
-804232 [Gauntlet] Ammunition
+800001 [Gauntlet Weapon] Dagger
+800002 [Gauntlet Weapon] Bandit's Knife
+800003 [Gauntlet Weapon] Parrying Dagger
+800004 [Gauntlet Weapon] Engraved Dagger
+800005 [Gauntlet Weapon] Rotten Ghru Dagger
+800006 [Gauntlet Weapon] Harpe
+800007 [Gauntlet Weapon] Scholar's Candlestick
+800008 [Gauntlet Weapon] Tailbone Short Sword
+800009 [Gauntlet Weapon] Corvian Greatknife
+800010 [Gauntlet Weapon] Handmaid's Dagger
+800011 [Gauntlet Weapon] Aquamarine Dagger
+800012 [Gauntlet Weapon] Murky Hand Scythe
+800013 [Gauntlet Weapon] Shortsword
+800014 [Gauntlet Weapon] Longsword
+800015 [Gauntlet Weapon] Broadsword
+800016 [Gauntlet Weapon] Broken Straight Sword
+800017 [Gauntlet Weapon] Lothric Knight Sword
+800018 [Gauntlet Weapon] Sunlight Straight Sword
+800019 [Gauntlet Weapon] Rotten Ghru Curved Sword
+800020 [Gauntlet Weapon] Irithyll Straight Sword
+800021 [Gauntlet Weapon] Morion Blade
+800022 [Gauntlet Weapon] Astora Straight Sword
+800023 [Gauntlet Weapon] Barbed Straight Sword
+800024 [Gauntlet Weapon] Executioner's Greatsword
+800025 [Gauntlet Weapon] Anri's Straight Sword
+800026 [Gauntlet Weapon] Onyx Blade
+800027 [Gauntlet Weapon] Ringed Knight Straight Sword
+800028 [Gauntlet Weapon] Gael's Greatsword
+800029 [Gauntlet Weapon] Sword of Avowal
+800030 [Gauntlet Weapon] Estoc
+800031 [Gauntlet Weapon] Mail Breaker
+800032 [Gauntlet Weapon] Rapier
+800033 [Gauntlet Weapon] Ricard's Rapier
+800034 [Gauntlet Weapon] Crystal Sage's Rapier
+800035 [Gauntlet Weapon] Irithyll Rapier
+800036 [Gauntlet Weapon] Bone Rapier
+800037 [Gauntlet Weapon] Shotel
+800038 [Gauntlet Weapon] Scimitar
+800039 [Gauntlet Weapon] Falchion
+800040 [Gauntlet Weapon] Carthus Curved Sword
+800041 [Gauntlet Weapon] Carthus Curved Greatsword
+800042 [Gauntlet Weapon] Pontiff Knight Curved Sword
+800043 [Gauntlet Weapon] Storm Curved Sword
+800044 [Gauntlet Weapon] Painting Guardian's Curved Sword
+800045 [Gauntlet Weapon] Crescent Moon Sword
+800046 [Gauntlet Weapon] Carthus Shotel
+800047 [Gauntlet Weapon] Follower Sabre
+800048 [Gauntlet Weapon] Uchigatana
+800049 [Gauntlet Weapon] Washing Pole
+800050 [Gauntlet Weapon] Chaos Blade
+800051 [Gauntlet Weapon] Black Blade
+800052 [Gauntlet Weapon] Frayed Blade
+800053 [Gauntlet Weapon] Bastard Sword
+800054 [Gauntlet Weapon] Smouldering Blade
+800055 [Gauntlet Weapon] Claymore
+800056 [Gauntlet Weapon] Zweihander
+800057 [Gauntlet Weapon] Greatsword
+800058 [Gauntlet Weapon] Irithyll Greatsword
+800059 [Gauntlet Weapon] Astora Greatsword
+800060 [Gauntlet Weapon] Murakumo
+800061 [Gauntlet Weapon] Lothric Knight Greatsword
+800062 [Gauntlet Weapon] Black Knight Greatsword
+800063 [Gauntlet Weapon] Flamberge
+800064 [Gauntlet Weapon] Exile Greatsword
+800065 [Gauntlet Weapon] Greatsword of Judgment
+800066 [Gauntlet Weapon] Profaned Greatsword
+800067 [Gauntlet Weapon] Cathedral Knight Greatsword
+800068 [Gauntlet Weapon] Farron Greatsword
+800069 [Gauntlet Weapon] Yhorm's Great Machete
+800070 [Gauntlet Weapon] Black Knight Sword
+800071 [Gauntlet Weapon] Lorian's Greatsword
+800072 [Gauntlet Weapon] Twin Princes' Greatsword
+800073 [Gauntlet Weapon] Wolf Knight's Greatsword
+800074 [Gauntlet Weapon] Hollowslayer Greatsword
+800075 [Gauntlet Weapon] Moonlight Greatsword
+800076 [Gauntlet Weapon] Fume Ultra Greatsword
+800077 [Gauntlet Weapon] Old Wolf Curved Sword
+800078 [Gauntlet Weapon] Storm Ruler
+800079 [Gauntlet Weapon] Harald Curved Greatsword
+800080 [Gauntlet Weapon] Hand Axe
+800081 [Gauntlet Weapon] Battle Axe
+800082 [Gauntlet Weapon] Brigand Axe
+800083 [Gauntlet Weapon] Crescent Axe
+800084 [Gauntlet Weapon] Greataxe
+800085 [Gauntlet Weapon] Butcher Knife
+800086 [Gauntlet Weapon] Dragonslayer's Axe
+800087 [Gauntlet Weapon] Missionary Axes
+800088 [Gauntlet Weapon] Thrall Axe
+800089 [Gauntlet Weapon] Dragonslayer Greataxe
+800090 [Gauntlet Weapon] Demon King's Greataxe
+800091 [Gauntlet Weapon] Eleonora
+800092 [Gauntlet Weapon] Serpentine Hatchet
+800093 [Gauntlet Weapon] Millwood Battle Axe
+800094 [Gauntlet Weapon] Earth Seeker
+800095 [Gauntlet Weapon] Club
+800096 [Gauntlet Weapon] Mace
+800097 [Gauntlet Weapon] Morning Star
+800098 [Gauntlet Weapon] Reinforced Club
+800099 [Gauntlet Weapon] Large Club
+800100 [Gauntlet Weapon] Great Club
+800101 [Gauntlet Weapon] Great Mace
+800102 [Gauntlet Weapon] Great Wooden Hammer
+800103 [Gauntlet Weapon] Gargoyle Flame Hammer
+800104 [Gauntlet Weapon] Vordt's Great Hammer
+800105 [Gauntlet Weapon] Old King's Great Hammer
+800106 [Gauntlet Weapon] Writhing Hammer
+800107 [Gauntlet Weapon] Hammer of the Great Tree
+800108 [Gauntlet Weapon] Warpick
+800109 [Gauntlet Weapon] Pickaxe
+800110 [Gauntlet Weapon] Dragon Tooth
+800111 [Gauntlet Weapon] Smough's Great Hammer
+800112 [Gauntlet Weapon] Blacksmith Hammer
+800113 [Gauntlet Weapon] Morne's Great Hammer
+800114 [Gauntlet Weapon] Spiked Mace
+800115 [Gauntlet Weapon] Quakestone Hammer
+800116 [Gauntlet Weapon] Ledo's Great Hammer
+800117 [Gauntlet Weapon] Spear
+800118 [Gauntlet Weapon] Winged Spear
+800119 [Gauntlet Weapon] Partizan
+800120 [Gauntlet Weapon] Greatlance
+800121 [Gauntlet Weapon] Lothric Knight Long Spear
+800122 [Gauntlet Weapon] Four-Pronged Plow
+800123 [Gauntlet Weapon] Gargoyle Flame Spear
+800124 [Gauntlet Weapon] Rotten Ghru Spear
+800125 [Gauntlet Weapon] Tailbone Spear
+800126 [Gauntlet Weapon] Branding Iron
+800127 [Gauntlet Weapon] Dragonslayer Swordspear
+800128 [Gauntlet Weapon] Arstor's Spear
+800129 [Gauntlet Weapon] Saint Bident
+800130 [Gauntlet Weapon] Yorshka's Spear
+800131 [Gauntlet Weapon] Pike
+800132 [Gauntlet Weapon] Dragonslayer Spear
+800133 [Gauntlet Weapon] Follower Javelin
+800134 [Gauntlet Weapon] Ringed Knight Spear
+800135 [Gauntlet Weapon] Lothric War Banner
+800136 [Gauntlet Weapon] Crucifix of the Mad King
+800137 [Gauntlet Weapon] Great Scythe
+800138 [Gauntlet Weapon] Lucerne
+800139 [Gauntlet Weapon] Bardiche
+800140 [Gauntlet Weapon] Halberd
+800141 [Gauntlet Weapon] Black Knight Greataxe
+800142 [Gauntlet Weapon] Pontiff Knight Great Scythe
+800143 [Gauntlet Weapon] Great Corvian Scythe
+800144 [Gauntlet Weapon] Winged Knight Halberd
+800145 [Gauntlet Weapon] Gundyr's Halberd
+800146 [Gauntlet Weapon] Lothric's Scythe
+800147 [Gauntlet Weapon] Ancient Dragon Halberd
+800148 [Gauntlet Weapon] Red Hilted Halberd
+800149 [Gauntlet Weapon] Black Knight Glaive
+800150 [Gauntlet Weapon] Splitleaf Glaive
+800151 [Gauntlet Weapon] Friede's Great Scythe
+800152 [Gauntlet Weapon] Claw
+800153 [Gauntlet Weapon] Caestus
+800154 [Gauntlet Weapon] Manikin Claws
+800155 [Gauntlet Weapon] Demon's Fist
+800156 [Gauntlet Weapon] Crow Talons
+800157 [Gauntlet Weapon] Censuring Palm
+800158 [Gauntlet Weapon] Whip
+800159 [Gauntlet Weapon] Witch's Locks
+800160 [Gauntlet Weapon] Notched Whip
+800161 [Gauntlet Weapon] Spotted Whip
+800162 [Gauntlet Weapon] King's Quarterstaff
+800163 [Gauntlet Weapon] Corvian Longstaff
+800164 [Gauntlet Weapon] Witchtree Limb
+800165 [Gauntlet Weapon] Murky Warstaff
+800166 [Gauntlet Weapon] Longstaff of Rosaria
+800167 [Gauntlet Weapon] Staff of Serpents
+800168 [Gauntlet Weapon] Archdeacon's Longstaff
+800169 [Gauntlet Weapon] Heretic's Warstaff
+800170 [Gauntlet Weapon] Witch's Staff
+800171 [Gauntlet Weapon] Short Bow
+800172 [Gauntlet Weapon] Composite Bow
+800173 [Gauntlet Weapon] Dragonslayer Greatbow
+800174 [Gauntlet Weapon] Birch Crossbow
+800175 [Gauntlet Weapon] Arbalest
+800176 [Gauntlet Weapon] Longbow
+800177 [Gauntlet Weapon] Dragonrider Bow
+800178 [Gauntlet Weapon] Avelyn
+800179 [Gauntlet Weapon] Knight's Crossbow
+800180 [Gauntlet Weapon] Oak Crossbow
+800181 [Gauntlet Weapon] White Birch Bow
+800182 [Gauntlet Weapon] Onislayer Greatbow
+800183 [Gauntlet Weapon] Black Bow of Pharis
+800184 [Gauntlet Weapon] Sniper Crossbow
+800185 [Gauntlet Weapon] Millwood Greatbow
+800186 [Gauntlet Weapon] Repeating Crossbow
+800187 [Gauntlet Weapon] Flynn's Bow
+800188 [Gauntlet Weapon] Scholar's Bow
+800189 [Gauntlet Weapon] Frostfall
+800190 [Gauntlet Weapon] Bloodlust
+800191 [Gauntlet Weapon] Cannon
+800192 [Gauntlet Weapon] Church Cannon
+800193 [Gauntlet Weapon] Hunter's Pistol
+800194 [Gauntlet Weapon] Repeating Pistol
+800195 [Gauntlet Weapon] Evelynn
+800196 [Gauntlet Weapon] Hunter's Blunderbuss
+800197 [Gauntlet Weapon] Rosamarinus
+800198 [Gauntlet Weapon] Fist of Gratia
+800199 [Gauntlet Weapon] Sellsword Twinblades
+800200 [Gauntlet Weapon] Warden Twinblades
+800201 [Gauntlet Weapon] Winged Knight Twinaxes
+800202 [Gauntlet Weapon] Great Machete
+800203 [Gauntlet Weapon] Brigand Twindaggers
+800204 [Gauntlet Weapon] Gotthard Twinswords
+800205 [Gauntlet Weapon] Ciaran's Tracers
+800206 [Gauntlet Weapon] Onikiri and Ubadachi
+800207 [Gauntlet Weapon] Drang Twinspears
+800208 [Gauntlet Weapon] Giant Door Shield
+800209 [Gauntlet Weapon] Drang Hammers
+800210 [Gauntlet Weapon] Valorheart
+800211 [Gauntlet Weapon] Crow Quills
+800212 [Gauntlet Weapon] Ringed Knight Paired Greatswords
+800213 [Gauntlet Weapon] Imperious Greatshield
+800214 [Gauntlet Weapon] Sorcerer's Staff
+800215 [Gauntlet Weapon] Sage's Crystal Staff
+800216 [Gauntlet Weapon] Court Sorcerer's Staff
+800217 [Gauntlet Weapon] Witchtree Branch
+800218 [Gauntlet Weapon] Velka's Talisman
+800219 [Gauntlet Weapon] Sunless Talisman
+800220 [Gauntlet Weapon] Mendicant's Staff
+800221 [Gauntlet Weapon] Izalith Staff
+800222 [Gauntlet Weapon] Man-grub's Staff
+800223 [Gauntlet Weapon] Crystal Chime
+800224 [Gauntlet Weapon] Sorcerous Flame
+800225 [Gauntlet Weapon] Golden Ritual Spear
+800226 [Gauntlet Weapon] Heysel Pick
+800227 [Gauntlet Weapon] Blue Flame
+800228 [Gauntlet Weapon] Talisman
+800229 [Gauntlet Weapon] Rotten Talisman
+800230 [Gauntlet Weapon] Smouldering Talisman
+800231 [Gauntlet Weapon] Sunlight Talisman
+800232 [Gauntlet Weapon] Saint's Talisman
+800233 [Gauntlet Weapon] White Hair Talisman
+800234 [Gauntlet Weapon] Cleric's Sacred Chime
+800235 [Gauntlet Weapon] Yorshka's Chime
+800236 [Gauntlet Weapon] Sacred Chime of Filianore
+800237 [Gauntlet Weapon] Saint-tree Bellvine
+800238 [Gauntlet Weapon] Priest's Candlestick
+800239 [Gauntlet Weapon] Rose of Ariandel
+800240 [Gauntlet Weapon] Heretic's Staff
+800241 [Gauntlet Weapon] Storyteller's Staff
+800242 [Gauntlet Weapon] Murky Longstaff
+800243 [Gauntlet Weapon] Archdeacon's Great Staff
+800244 [Gauntlet Weapon] Manus Catalyst
+800245 [Gauntlet Weapon] Tin Banishment Catalyst
+800246 [Gauntlet Weapon] Consumed King's Staff
+800247 [Gauntlet Weapon] Fallen Priest's Chime
+800248 [Gauntlet Weapon] Caitha's Chime
+800249 [Gauntlet Weapon] Corrupted Talisman
+800250 [Gauntlet Weapon] Talisman of Beasts
+800251 [Gauntlet Weapon] Insanity Catalyst
+800252 [Gauntlet Weapon] Black Flame
+800253 [Gauntlet Weapon] Cleric's Candlestick
+800254 [Gauntlet Weapon] Pilgrim's Spontoon
+800255 [Gauntlet Weapon] Preacher's Right Arm
+800256 [Gauntlet Weapon] Pyromancy Flame
+800257 [Gauntlet Weapon] Pyromancer's Parting Flame
+800258 [Gauntlet Weapon] Demon's Scar
+800259 [Gauntlet Weapon] Immolation Tinder
+800260 [Gauntlet Weapon] Fool's Catalyst
+800261 [Gauntlet Weapon] Buckler
+800262 [Gauntlet Weapon] Small Leather Shield
+800263 [Gauntlet Weapon] Round Shield
+800264 [Gauntlet Weapon] Large Leather Shield
+800265 [Gauntlet Weapon] Hawkwood's Shield
+800266 [Gauntlet Weapon] Iron Round Shield
+800267 [Gauntlet Weapon] Wooden Shield
+800268 [Gauntlet Weapon] Kite Shield
+800269 [Gauntlet Weapon] Ghru Rotshield
+800270 [Gauntlet Weapon] Havel's Greatshield
+800271 [Gauntlet Weapon] Target Shield
+800272 [Gauntlet Weapon] Elkhorn Round Shield
+800273 [Gauntlet Weapon] Warrior's Round Shield
+800274 [Gauntlet Weapon] Caduceus Round Shield
+800275 [Gauntlet Weapon] Red and White Round Shield
+800276 [Gauntlet Weapon] Plank Shield
+800277 [Gauntlet Weapon] Leather Shield
+800278 [Gauntlet Weapon] Crimson Parma
+800279 [Gauntlet Weapon] Eastern Iron Shield
+800280 [Gauntlet Weapon] Llewellyn Shield
+800281 [Gauntlet Weapon] Cleric's Parma
+800282 [Gauntlet Weapon] Golden Falcon Shield
+800283 [Gauntlet Weapon] Sacred Bloom Shield
+800284 [Gauntlet Weapon] Ancient Dragon Greatshield
+800285 [Gauntlet Weapon] Follower Shield
+800286 [Gauntlet Weapon] Dragonhead Shield
+800287 [Gauntlet Weapon] Lothric Knight Shield
+800288 [Gauntlet Weapon] Knight Shield
+800289 [Gauntlet Weapon] Pontiff Knight Shield
+800290 [Gauntlet Weapon] Carthus Shield
+800291 [Gauntlet Weapon] Black Knight Shield
+800292 [Gauntlet Weapon] Prince's Shield
+800293 [Gauntlet Weapon] Silver Knight Shield
+800294 [Gauntlet Weapon] Spiked Shield
+800295 [Gauntlet Weapon] Pierce Shield
+800296 [Gauntlet Weapon] East-West Shield
+800297 [Gauntlet Weapon] Sunlight Shield
+800298 [Gauntlet Weapon] Crest Shield
+800299 [Gauntlet Weapon] Dragon Crest Shield
+800300 [Gauntlet Weapon] Spider Shield
+800301 [Gauntlet Weapon] Grass Crest Shield
+800302 [Gauntlet Weapon] Sunset Shield
+800303 [Gauntlet Weapon] Golden Wing Crest Shield
+800304 [Gauntlet Weapon] Blue Wooden Shield
+800305 [Gauntlet Weapon] Silver Eagle Kite Shield
+800306 [Gauntlet Weapon] Stone Parma
+800307 [Gauntlet Weapon] Spirit Tree Crest Shield
+800308 [Gauntlet Weapon] Porcine Shield
+800309 [Gauntlet Weapon] Shield of Want
+800310 [Gauntlet Weapon] Wargod Wooden Shield
+800311 [Gauntlet Weapon] Ethereal Oak Shield
+800312 [Gauntlet Weapon] Dragonhead Greatshield
+800313 [Gauntlet Weapon] Lothric Knight Greatshield
+800314 [Gauntlet Weapon] Cathedral Knight Greatshield
+800315 [Gauntlet Weapon] Dragonslayer Greatshield
+800316 [Gauntlet Weapon] Moaning Shield
+800317 [Gauntlet Weapon] Immortal Dragon Greatshield
+800318 [Gauntlet Weapon] Yhorm's Greatshield
+800319 [Gauntlet Weapon] Black Iron Greatshield
+800320 [Gauntlet Weapon] Wolf Knight's Greatshield
+800321 [Gauntlet Weapon] Twin Dragon Greatshield
+800322 [Gauntlet Weapon] Greatshield of Glory
+800323 [Gauntlet Weapon] Bonewheel Shield
+800324 [Gauntlet Weapon] Stone Greatshield
+800325 [Gauntlet Weapon] Loch Shield
+800326 [Gauntlet Weapon] Breaking Wheel
+800327 [Gauntlet Weapon] Black Dragon Shield
+800328 [Gauntlet Weapon] Crystalline Shield
+800329 [Gauntlet Weapon] Gargoyle Shield
+800330 [Gauntlet Weapon] Giant Shield
+800331 [Gauntlet Weapon] Greatshield of Artorias
+800332 [Gauntlet Weapon] Bulwark Shield
+800333 [Gauntlet Weapon] Dragonkin Shield
+800334 [Gauntlet Weapon] Twinfang Greatshield
+800335 [Gauntlet Weapon] Quicksilver Shield
+800336 [Gauntlet Weapon] Adjudicator's Shield
+800337 [Gauntlet Weapon] Crystal Ring Shield
+800338 [Gauntlet Weapon] Sanctus
+800339 [Gauntlet Weapon] Shield of the Hunted
+800340 [Gauntlet Weapon] Smouldering Shield
+800341 [Gauntlet Weapon] King's Mirror
+800342 [Gauntlet Weapon] Torch
+800343 [Gauntlet Weapon] Follower Torch
+800344 [Gauntlet Weapon] Greatwood Club
+800345 [Gauntlet Weapon] Irithyll Lance
+800346 [Gauntlet Weapon] Fume Slated Swords
+800347 [Gauntlet Weapon] Machete
+800348 [Gauntlet Weapon] Demon's Axe
+800349 [Gauntlet Weapon] Abyssal Greatsword
+800350 [Gauntlet Weapon] Moonlight Sword
+800351 [Gauntlet Weapon] Pontiff Knight Greatsword
+800352 [Gauntlet Weapon] Smelter Hammer
+800353 [Gauntlet Weapon] Drake Fist
+800354 [Gauntlet Weapon] Irithyll Warpick
+800355 [Gauntlet Weapon] Tailbone Club
+800356 [Gauntlet Weapon] Irithyll Mace
+800357 [Gauntlet Weapon] Wooden Mallet
+800358 [Gauntlet Weapon] Hallowed Sword
+800359 [Gauntlet Weapon] Sunlight Greatsword
+800360 [Gauntlet Weapon] Hallowed Greatsword
+800361 [Gauntlet Weapon] Velka's Rapier
+800362 [Gauntlet Weapon] Pursuer's Ultra Greatsword
+800363 [Gauntlet Weapon] Bloodletter
+800364 [Gauntlet Weapon] Locust Arm
+800365 [Gauntlet Weapon] Beast Cutter
+800366 [Gauntlet Weapon] Beasthunter Saif
+800367 [Gauntlet Weapon] Boom Hammer
+800368 [Gauntlet Weapon] Burial Blade
+800369 [Gauntlet Weapon] Burial Scythe
+800370 [Gauntlet Weapon] Chikage
+800371 [Gauntlet Weapon] Church Pick
+800372 [Gauntlet Weapon] Hunter Axe
+800373 [Gauntlet Weapon] Kirkhammer
+800374 [Gauntlet Weapon] Twinspears of the Forlorn
+800375 [Gauntlet Weapon] Nil Blade
+800376 [Gauntlet Weapon] Sanguinus
+800377 [Gauntlet Weapon] Tonitrus
+800378 [Gauntlet Weapon] Blades of Mercy
+800379 [Gauntlet Weapon] Balder Side Sword
+800380 [Gauntlet Weapon] Black Dragon Greataxe
+800381 [Gauntlet Weapon] Black Dragon Greatsword
+800382 [Gauntlet Weapon] Black Dragon Sword
+800383 [Gauntlet Weapon] Blind
+800384 [Gauntlet Weapon] Bramd
+800385 [Gauntlet Weapon] Channeler's Trident
+800386 [Gauntlet Weapon] Marvelous Zweihander
+800387 [Gauntlet Weapon] Crystal Straight Sword
+800388 [Gauntlet Weapon] Demon's Great Axe
+800389 [Gauntlet Weapon] Demon's Great Hammer
+800390 [Gauntlet Weapon] Demon's Machete
+800391 [Gauntlet Weapon] Demon's Spear
+800392 [Gauntlet Weapon] Dozer Axe
+800393 [Gauntlet Weapon] Dragon Bone Fist
+800394 [Gauntlet Weapon] Dragon Bone Smasher
+800395 [Gauntlet Weapon] Dragon Greatsword
+800396 [Gauntlet Weapon] Dragon King Greataxe
+800397 [Gauntlet Weapon] Drake Sword
+800398 [Gauntlet Weapon] Abyssal Blade
+800399 [Gauntlet Weapon] Sage's Stiletto
+800400 [Gauntlet Weapon] Giant's Halberd
+800401 [Gauntlet Weapon] Golem Axe
+800402 [Gauntlet Weapon] Grant
+800403 [Gauntlet Weapon] Gravelord Sword
+800404 [Gauntlet Weapon] Great Lord Greatsword
+800405 [Gauntlet Weapon] Greatsword of Artorias
+800406 [Gauntlet Weapon] Guillotine Axe
+800407 [Gauntlet Weapon] Hands of God
+800408 [Gauntlet Weapon] Runelock
+800409 [Gauntlet Weapon] Scraping Spear
+800410 [Gauntlet Weapon] Server
+800411 [Gauntlet Weapon] Silver Knight Spear
+800412 [Gauntlet Weapon] Silver Knight Straight Sword
+800413 [Gauntlet Weapon] Stone Greatsword
+800414 [Gauntlet Weapon] Titanite Catch Pole
+800415 [Gauntlet Weapon] Istarelle
+800416 [Gauntlet Weapon] Kris Blade
+800417 [Gauntlet Weapon] Priscilla's Scythe
+800418 [Gauntlet Weapon] Makoto
+800419 [Gauntlet Weapon] Man Serpent Greatsword
+800420 [Gauntlet Weapon] Moonlight Butterfly Horn
+800421 [Gauntlet Weapon] Morion Great Blade
+800422 [Gauntlet Weapon] Needle of Eternal Agony
+800423 [Gauntlet Weapon] Obsidian Greatsword
+800424 [Gauntlet Weapon] Penetrating Sword
+800425 [Gauntlet Weapon] Phosphorescent Pole
+800426 [Gauntlet Weapon] Quelaag's Fury Sword
+800427 [Gauntlet Weapon] Meat Cleaver
+800428 [Gauntlet Weapon] Spiral Greatsword
+800429 [Gauntlet Weapon] Beast Claw
+800430 [Gauntlet Weapon] Rakuyo
+800431 [Gauntlet Weapon] Handmaid's Ladle
+800432 [Gauntlet Weapon] Crypt Blacksword
+800433 [Gauntlet Weapon] Smelter Sword
+800434 [Gauntlet Weapon] Ash Demon Hammer
+800435 [Gauntlet Weapon] Elder Ghru Tree
+800436 [Gauntlet Weapon] Giant Crab Arm
+800437 [Gauntlet Weapon] Hunter's Log
+800438 [Gauntlet Weapon] Serpentine Twindaggers
+800439 [Gauntlet Weapon] Shiv
+800440 [Gauntlet Weapon] Serpentine Battle Axe
+800441 [Gauntlet Weapon] Serpentine Axe
+800442 [Gauntlet Weapon] Thrall Harpe
+800443 [Gauntlet Weapon] Smouldering Curved Sword
+800444 [Gauntlet Weapon] Smouldering Dagger
+800445 [Gauntlet Weapon] Smouldering Spear
+800446 [Gauntlet Weapon] Thrall Pick
+800447 [Gauntlet Weapon] Worker Machete
+800448 [Gauntlet Weapon] Rampart Golem Lance
+800449 [Gauntlet Weapon] Bewitched Alonne Sword
+800450 [Gauntlet Weapon] Bone Scythe
+800451 [Gauntlet Weapon] Dragonrider Halberd
+800452 [Gauntlet Weapon] Key to the Embedded
+800453 [Gauntlet Weapon] King's Ultra Greatsword
+800454 [Gauntlet Weapon] Sacred Chime Hammer
+800455 [Gauntlet Weapon] Scythe of Nahr Alma
+800456 [Gauntlet Weapon] Scythe of Want
+800457 [Gauntlet Weapon] Crab Claw
+800458 [Gauntlet Weapon] Thorned Greatsword
+800459 [Gauntlet Weapon] Hands of Sin
+800460 [Gauntlet Weapon] Frying Pan
+800461 [Gauntlet Weapon] Darkdrift
+800462 [Gauntlet Weapon] Dark Sword
+800463 [Gauntlet Weapon] Lothric's Holy Sword
+800464 [Gauntlet Weapon] Wolnir's Holy Sword
+800465 [Gauntlet Weapon] Drakeblood Greatsword
+800466 [Gauntlet Weapon] Firelink Greatsword
+800467 [Gauntlet Weapon] Dark Hand
+800468 [Gauntlet Weapon] Dancer's Enchanted Swords
+800469 [Gauntlet Weapon] Holy Flame
+800470 [Gauntlet Weapon] Firelink Dagger
+800471 [Gauntlet Weapon] Firelink Spear
+800472 [Gauntlet Weapon] Firelink Sword
+800473 [Gauntlet Weapon] Firelink Rapier
+800474 [Gauntlet Weapon] Blueblood Sword
+801000 [Gauntlet Armor]
+801001 [Gauntlet Armor]
+801002 [Gauntlet Armor]
+801003 [Gauntlet Armor]
+801004 [Gauntlet Armor]
+801005 [Gauntlet Armor]
+801006 [Gauntlet Armor]
+801007 [Gauntlet Armor]
+801008 [Gauntlet Armor]
+801009 [Gauntlet Armor]
+801010 [Gauntlet Armor]
+801011 [Gauntlet Armor]
+801012 [Gauntlet Armor]
+801013 [Gauntlet Armor]
+801014 [Gauntlet Armor]
+801015 [Gauntlet Armor]
+801016 [Gauntlet Armor]
+801017 [Gauntlet Armor]
+801018 [Gauntlet Armor]
+801019 [Gauntlet Armor]
+801020 [Gauntlet Armor]
+801021 [Gauntlet Armor]
+801022 [Gauntlet Armor]
+801023 [Gauntlet Armor]
+801024 [Gauntlet Armor]
+801025 [Gauntlet Armor]
+801026 [Gauntlet Armor]
+801027 [Gauntlet Armor]
+801028 [Gauntlet Armor]
+801029 [Gauntlet Armor]
+801030 [Gauntlet Armor]
+801031 [Gauntlet Armor]
+801032 [Gauntlet Armor]
+801033 [Gauntlet Armor]
+801034 [Gauntlet Armor]
+801035 [Gauntlet Armor]
+801036 [Gauntlet Armor]
+801037 [Gauntlet Armor]
+801038 [Gauntlet Armor]
+801039 [Gauntlet Armor]
+801040 [Gauntlet Armor]
+801041 [Gauntlet Armor]
+801042 [Gauntlet Armor]
+801043 [Gauntlet Armor]
+801044 [Gauntlet Armor]
+801045 [Gauntlet Armor]
+801046 [Gauntlet Armor]
+801047 [Gauntlet Armor]
+801048 [Gauntlet Armor]
+801049 [Gauntlet Armor]
+801050 [Gauntlet Armor]
+801051 [Gauntlet Armor]
+801052 [Gauntlet Armor]
+801053 [Gauntlet Armor]
+801054 [Gauntlet Armor]
+801055 [Gauntlet Armor]
+801056 [Gauntlet Armor]
+801057 [Gauntlet Armor]
+801058 [Gauntlet Armor]
+801059 [Gauntlet Armor]
+801060 [Gauntlet Armor]
+801061 [Gauntlet Armor]
+801062 [Gauntlet Armor]
+801063 [Gauntlet Armor]
+801064 [Gauntlet Armor]
+801065 [Gauntlet Armor]
+801066 [Gauntlet Armor]
+801067 [Gauntlet Armor]
+801068 [Gauntlet Armor]
+801069 [Gauntlet Armor]
+801070 [Gauntlet Armor]
+801071 [Gauntlet Armor]
+801072 [Gauntlet Armor]
+801073 [Gauntlet Armor]
+801074 [Gauntlet Armor]
+801075 [Gauntlet Armor]
+801076 [Gauntlet Armor]
+801077 [Gauntlet Armor]
+801078 [Gauntlet Armor]
+801079 [Gauntlet Armor]
+801080 [Gauntlet Armor]
+801081 [Gauntlet Armor]
+801082 [Gauntlet Armor]
+801083 [Gauntlet Armor]
+801084 [Gauntlet Armor]
+801085 [Gauntlet Armor]
+801086 [Gauntlet Armor]
+801087 [Gauntlet Armor]
+801088 [Gauntlet Armor]
+801089 [Gauntlet Armor]
+801090 [Gauntlet Armor]
+801091 [Gauntlet Armor]
+801092 [Gauntlet Armor]
+801093 [Gauntlet Armor]
+801094 [Gauntlet Armor]
+801095 [Gauntlet Armor]
+801096 [Gauntlet Armor]
+801097 [Gauntlet Armor]
+801098 [Gauntlet Armor]
+801099 [Gauntlet Armor]
+801100 [Gauntlet Armor]
+801101 [Gauntlet Armor]
+801102 [Gauntlet Armor]
+801103 [Gauntlet Armor]
+801104 [Gauntlet Armor]
+801105 [Gauntlet Armor]
+801106 [Gauntlet Armor]
+801107 [Gauntlet Armor]
+801108 [Gauntlet Armor]
+801109 [Gauntlet Armor]
+801110 [Gauntlet Armor]
+801111 [Gauntlet Armor]
+801112 [Gauntlet Armor]
+801113 [Gauntlet Armor]
+801114 [Gauntlet Armor]
+801115 [Gauntlet Armor]
+801116 [Gauntlet Armor]
+801117 [Gauntlet Armor]
+801118 [Gauntlet Armor]
+801119 [Gauntlet Armor]
+801120 [Gauntlet Armor]
+801121 [Gauntlet Armor]
+801122 [Gauntlet Armor]
+801123 [Gauntlet Armor]
+801124 [Gauntlet Armor]
+801125 [Gauntlet Armor]
+801126 [Gauntlet Armor]
+801127 [Gauntlet Armor]
+801128 [Gauntlet Armor]
+801129 [Gauntlet Armor]
+801130 [Gauntlet Armor]
+801131 [Gauntlet Armor]
+801132 [Gauntlet Armor]
+801133 [Gauntlet Armor]
+801134 [Gauntlet Armor]
+801135 [Gauntlet Armor]
+801136 [Gauntlet Armor]
+801137 [Gauntlet Armor]
+801138 [Gauntlet Armor]
+801139 [Gauntlet Armor]
+801140 [Gauntlet Armor]
+801141 [Gauntlet Armor]
+801142 [Gauntlet Armor]
+801143 [Gauntlet Armor]
+801144 [Gauntlet Armor]
+801145 [Gauntlet Armor]
+801146 [Gauntlet Armor]
+801147 [Gauntlet Armor]
+801148 [Gauntlet Armor]
+801149 [Gauntlet Armor]
+801150 [Gauntlet Armor]
+801151 [Gauntlet Armor]
+801152 [Gauntlet Armor]
+801153 [Gauntlet Armor]
+801154 [Gauntlet Armor]
+801155 [Gauntlet Armor]
+801156 [Gauntlet Armor]
+801157 [Gauntlet Armor]
+801158 [Gauntlet Armor]
+801159 [Gauntlet Armor]
+801160 [Gauntlet Armor]
+801161 [Gauntlet Armor]
+801162 [Gauntlet Armor]
+801163 [Gauntlet Armor]
+801164 [Gauntlet Armor]
+801165 [Gauntlet Armor]
+801166 [Gauntlet Armor]
+801167 [Gauntlet Armor]
+801168 [Gauntlet Armor]
+801169 [Gauntlet Armor]
+801170 [Gauntlet Armor]
+801171 [Gauntlet Armor]
+801172 [Gauntlet Armor]
+801173 [Gauntlet Armor]
+801174 [Gauntlet Armor]
+801175 [Gauntlet Armor]
+801176 [Gauntlet Armor]
+801177 [Gauntlet Armor]
+801178 [Gauntlet Armor]
+801179 [Gauntlet Armor]
+801180 [Gauntlet Armor]
+801181 [Gauntlet Armor]
+801182 [Gauntlet Armor]
+801183 [Gauntlet Armor]
+801184 [Gauntlet Armor]
+801185 [Gauntlet Armor]
+801186 [Gauntlet Armor]
+801187 [Gauntlet Armor]
+801188 [Gauntlet Armor]
+801189 [Gauntlet Armor]
+801190 [Gauntlet Armor]
+801191 [Gauntlet Armor]
+801192 [Gauntlet Armor]
+801193 [Gauntlet Armor]
+801194 [Gauntlet Armor]
+801195 [Gauntlet Armor]
+801196 [Gauntlet Armor]
+801197 [Gauntlet Armor]
+801198 [Gauntlet Armor]
+801199 [Gauntlet Armor]
+801200 [Gauntlet Armor]
+801201 [Gauntlet Armor]
+801202 [Gauntlet Armor]
+801203 [Gauntlet Armor]
+801204 [Gauntlet Armor]
+801205 [Gauntlet Armor]
+801206 [Gauntlet Armor]
+801207 [Gauntlet Armor]
+801208 [Gauntlet Armor]
+801209 [Gauntlet Armor]
+801210 [Gauntlet Armor]
+801211 [Gauntlet Armor]
+801212 [Gauntlet Armor]
+801213 [Gauntlet Armor]
+801214 [Gauntlet Armor]
+801215 [Gauntlet Armor]
+801216 [Gauntlet Armor]
+801217 [Gauntlet Armor]
+801218 [Gauntlet Armor]
+801219 [Gauntlet Armor]
+801220 [Gauntlet Armor]
+801221 [Gauntlet Armor]
+801222 [Gauntlet Armor]
+801223 [Gauntlet Armor]
+801224 [Gauntlet Armor]
+801225 [Gauntlet Armor]
+801226 [Gauntlet Armor]
+801227 [Gauntlet Armor]
+801228 [Gauntlet Armor]
+801229 [Gauntlet Armor]
+801230 [Gauntlet Armor]
+801231 [Gauntlet Armor]
+801232 [Gauntlet Armor]
+801233 [Gauntlet Armor]
+801234 [Gauntlet Armor]
+801235 [Gauntlet Armor]
+801236 [Gauntlet Armor]
+801237 [Gauntlet Armor]
+801238 [Gauntlet Armor]
+801239 [Gauntlet Armor]
+801240 [Gauntlet Armor]
+801241 [Gauntlet Armor]
+801242 [Gauntlet Armor]
+801243 [Gauntlet Armor]
+801244 [Gauntlet Armor]
+801245 [Gauntlet Armor]
+801246 [Gauntlet Armor]
+801247 [Gauntlet Armor]
+801248 [Gauntlet Armor]
+801249 [Gauntlet Armor]
+801250 [Gauntlet Armor]
+801251 [Gauntlet Armor]
+801252 [Gauntlet Armor]
+801253 [Gauntlet Armor]
+801254 [Gauntlet Armor]
+801255 [Gauntlet Armor]
+801256 [Gauntlet Armor]
+801257 [Gauntlet Armor]
+801258 [Gauntlet Armor]
+801259 [Gauntlet Armor]
+801260 [Gauntlet Armor]
+801261 [Gauntlet Armor]
+801262 [Gauntlet Armor]
+801263 [Gauntlet Armor]
+801264 [Gauntlet Armor]
+801265 [Gauntlet Armor]
+801266 [Gauntlet Armor]
+801267 [Gauntlet Armor]
+801268 [Gauntlet Armor]
+801269 [Gauntlet Armor]
+801270 [Gauntlet Armor]
+801271 [Gauntlet Armor]
+801272 [Gauntlet Armor]
+801273 [Gauntlet Armor]
+801274 [Gauntlet Armor]
+801275 [Gauntlet Armor]
+801276 [Gauntlet Armor]
+801277 [Gauntlet Armor]
+801278 [Gauntlet Armor]
+801279 [Gauntlet Armor]
+801280 [Gauntlet Armor]
+801281 [Gauntlet Armor]
+801282 [Gauntlet Armor]
+801283 [Gauntlet Armor]
+801284 [Gauntlet Armor]
+801285 [Gauntlet Armor]
+801286 [Gauntlet Armor]
+801287 [Gauntlet Armor]
+801288 [Gauntlet Armor]
+801289 [Gauntlet Armor]
+801290 [Gauntlet Armor]
+801291 [Gauntlet Armor]
+801292 [Gauntlet Armor]
+801293 [Gauntlet Armor]
+801294 [Gauntlet Armor]
+801295 [Gauntlet Armor]
+801296 [Gauntlet Armor]
+801297 [Gauntlet Armor]
+801298 [Gauntlet Armor]
+801299 [Gauntlet Armor]
+801300 [Gauntlet Armor]
+801301 [Gauntlet Armor]
+801302 [Gauntlet Armor]
+801303 [Gauntlet Armor]
+801304 [Gauntlet Armor]
+801305 [Gauntlet Armor]
+801306 [Gauntlet Armor]
+801307 [Gauntlet Armor]
+801308 [Gauntlet Armor]
+801309 [Gauntlet Armor]
+801310 [Gauntlet Armor]
+801311 [Gauntlet Armor]
+801312 [Gauntlet Armor]
+801313 [Gauntlet Armor]
+801314 [Gauntlet Armor]
+801315 [Gauntlet Armor]
+801316 [Gauntlet Armor]
+801317 [Gauntlet Armor]
+801318 [Gauntlet Armor]
+801319 [Gauntlet Armor]
+801320 [Gauntlet Armor]
+801321 [Gauntlet Armor]
+801322 [Gauntlet Armor]
+801323 [Gauntlet Armor]
+801324 [Gauntlet Armor]
+801325 [Gauntlet Armor]
+801326 [Gauntlet Armor]
+801327 [Gauntlet Armor]
+801328 [Gauntlet Armor]
+801329 [Gauntlet Armor]
+801330 [Gauntlet Armor]
+801331 [Gauntlet Armor]
+801332 [Gauntlet Armor]
+801333 [Gauntlet Armor]
+801334 [Gauntlet Armor]
+801335 [Gauntlet Armor]
+801336 [Gauntlet Armor]
+801337 [Gauntlet Armor]
+801338 [Gauntlet Armor]
+801339 [Gauntlet Armor]
+801340 [Gauntlet Armor]
+801341 [Gauntlet Armor]
+801342 [Gauntlet Armor]
+801343 [Gauntlet Armor]
+801344 [Gauntlet Armor]
+801345 [Gauntlet Armor]
+801346 [Gauntlet Armor]
+801347 [Gauntlet Armor]
+801348 [Gauntlet Armor]
+801349 [Gauntlet Armor]
+801350 [Gauntlet Armor]
+801351 [Gauntlet Armor]
+801352 [Gauntlet Armor]
+801353 [Gauntlet Armor]
+801354 [Gauntlet Armor]
+801355 [Gauntlet Armor]
+801356 [Gauntlet Armor]
+801357 [Gauntlet Armor]
+801358 [Gauntlet Armor]
+801359 [Gauntlet Armor]
+801360 [Gauntlet Armor]
+801361 [Gauntlet Armor]
+801362 [Gauntlet Armor]
+801363 [Gauntlet Armor]
+801364 [Gauntlet Armor]
+801365 [Gauntlet Armor]
+801366 [Gauntlet Armor]
+801367 [Gauntlet Armor]
+801368 [Gauntlet Armor]
+801369 [Gauntlet Armor]
+801370 [Gauntlet Armor]
+801371 [Gauntlet Armor]
+801372 [Gauntlet Armor]
+801373 [Gauntlet Armor]
+801374 [Gauntlet Armor]
+801375 [Gauntlet Armor]
+801376 [Gauntlet Armor]
+801377 [Gauntlet Armor]
+801378 [Gauntlet Armor]
+801379 [Gauntlet Armor]
+801380 [Gauntlet Armor]
+801381 [Gauntlet Armor]
+801382 [Gauntlet Armor]
+801383 [Gauntlet Armor]
+801384 [Gauntlet Armor]
+801385 [Gauntlet Armor]
+801386 [Gauntlet Armor]
+801387 [Gauntlet Armor]
+801388 [Gauntlet Armor]
+801389 [Gauntlet Armor]
+801390 [Gauntlet Armor]
+801391 [Gauntlet Armor]
+801392 [Gauntlet Armor]
+801393 [Gauntlet Armor]
+801394 [Gauntlet Armor]
+801395 [Gauntlet Armor]
+801396 [Gauntlet Armor]
+801397 [Gauntlet Armor]
+801398 [Gauntlet Armor]
+801399 [Gauntlet Armor]
+801400 [Gauntlet Armor]
+801401 [Gauntlet Armor]
+801402 [Gauntlet Armor]
+801403 [Gauntlet Armor]
+801404 [Gauntlet Armor]
+801405 [Gauntlet Armor]
+801406 [Gauntlet Armor]
+801407 [Gauntlet Armor]
+801408 [Gauntlet Armor]
+801409 [Gauntlet Armor]
+801410 [Gauntlet Armor]
+801411 [Gauntlet Armor]
+801412 [Gauntlet Armor]
+801413 [Gauntlet Armor]
+801414 [Gauntlet Armor]
+801415 [Gauntlet Armor]
+801416 [Gauntlet Armor]
+801417 [Gauntlet Armor]
+801418 [Gauntlet Armor]
+801419 [Gauntlet Armor]
+801420 [Gauntlet Armor]
+801421 [Gauntlet Armor]
+801422 [Gauntlet Armor]
+801423 [Gauntlet Armor]
+801424 [Gauntlet Armor]
+801425 [Gauntlet Armor]
+801426 [Gauntlet Armor]
+801427 [Gauntlet Armor]
+801428 [Gauntlet Armor]
+801429 [Gauntlet Armor]
+801430 [Gauntlet Armor]
+801431 [Gauntlet Armor]
+801432 [Gauntlet Armor]
+801433 [Gauntlet Armor]
+801434 [Gauntlet Armor]
+801435 [Gauntlet Armor]
+801436 [Gauntlet Armor]
+801437 [Gauntlet Armor]
+801438 [Gauntlet Armor]
+801439 [Gauntlet Armor]
+801440 [Gauntlet Armor]
+801441 [Gauntlet Armor]
+801442 [Gauntlet Armor]
+801443 [Gauntlet Armor]
+801444 [Gauntlet Armor]
+801445 [Gauntlet Armor]
+801446 [Gauntlet Armor]
+801447 [Gauntlet Armor]
+801448 [Gauntlet Armor]
+801449 [Gauntlet Armor]
+801450 [Gauntlet Armor]
+801451 [Gauntlet Armor]
+801452 [Gauntlet Armor]
+801453 [Gauntlet Armor]
+801454 [Gauntlet Armor]
+801455 [Gauntlet Armor]
+801456 [Gauntlet Armor]
+801457 [Gauntlet Armor]
+801458 [Gauntlet Armor]
+801459 [Gauntlet Armor]
+801460 [Gauntlet Armor]
+801461 [Gauntlet Armor]
+801462 [Gauntlet Armor]
+801463 [Gauntlet Armor]
+801464 [Gauntlet Armor]
+801465 [Gauntlet Armor]
+801466 [Gauntlet Armor]
+801467 [Gauntlet Armor]
+801468 [Gauntlet Armor]
+801469 [Gauntlet Armor]
+801470 [Gauntlet Armor]
+801471 [Gauntlet Armor]
+801472 [Gauntlet Armor]
+801473 [Gauntlet Armor]
+801474 [Gauntlet Armor]
+801475 [Gauntlet Armor]
+801476 [Gauntlet Armor]
+801477 [Gauntlet Armor]
+801478 [Gauntlet Armor]
+801479 [Gauntlet Armor]
+801480 [Gauntlet Armor]
+801481 [Gauntlet Armor]
+801482 [Gauntlet Armor]
+801483 [Gauntlet Armor]
+801484 [Gauntlet Armor]
+801485 [Gauntlet Armor]
+801486 [Gauntlet Armor]
+801487 [Gauntlet Armor]
+801488 [Gauntlet Armor]
+801489 [Gauntlet Armor]
+801490 [Gauntlet Armor]
+801491 [Gauntlet Armor]
+801492 [Gauntlet Armor]
+801493 [Gauntlet Armor]
+801494 [Gauntlet Armor]
+801495 [Gauntlet Armor]
+801496 [Gauntlet Armor]
+801497 [Gauntlet Armor]
+801498 [Gauntlet Armor]
+801499 [Gauntlet Armor]
+801500 [Gauntlet Armor]
+801501 [Gauntlet Armor]
+801502 [Gauntlet Armor]
+801503 [Gauntlet Armor]
+801504 [Gauntlet Armor]
+801505 [Gauntlet Armor]
+801506 [Gauntlet Armor]
+801507 [Gauntlet Armor]
+801508 [Gauntlet Armor]
+801509 [Gauntlet Armor]
+801510 [Gauntlet Armor]
+801511 [Gauntlet Armor]
+801512 [Gauntlet Armor]
+801513 [Gauntlet Armor]
+801514 [Gauntlet Armor]
+801515 [Gauntlet Armor]
+801516 [Gauntlet Armor]
+801517 [Gauntlet Armor]
+801518 [Gauntlet Armor]
+801519 [Gauntlet Armor]
+801520 [Gauntlet Armor]
+801521 [Gauntlet Armor]
+801522 [Gauntlet Armor]
+801523 [Gauntlet Armor]
+801524 [Gauntlet Armor]
+801525 [Gauntlet Armor]
+801526 [Gauntlet Armor]
+801527 [Gauntlet Armor]
+801528 [Gauntlet Armor]
+801529 [Gauntlet Armor]
+801530 [Gauntlet Armor]
+801531 [Gauntlet Armor]
+801532 [Gauntlet Armor]
+801533 [Gauntlet Armor]
+801534 [Gauntlet Armor]
+801535 [Gauntlet Armor]
+801536 [Gauntlet Armor]
+801537 [Gauntlet Armor]
+801538 [Gauntlet Armor]
+801539 [Gauntlet Armor]
+801540 [Gauntlet Armor]
+801541 [Gauntlet Armor]
+801542 [Gauntlet Armor]
+801543 [Gauntlet Armor]
+801544 [Gauntlet Armor]
+801545 [Gauntlet Armor]
+801546 [Gauntlet Armor]
+801547 [Gauntlet Armor]
+801548 [Gauntlet Armor]
+801549 [Gauntlet Armor]
+801550 [Gauntlet Armor]
+801551 [Gauntlet Armor]
+801552 [Gauntlet Armor]
+801553 [Gauntlet Armor]
+801554 [Gauntlet Armor]
+801555 [Gauntlet Armor]
+801556 [Gauntlet Armor]
+801557 [Gauntlet Armor]
+801558 [Gauntlet Armor]
+801559 [Gauntlet Armor]
+801560 [Gauntlet Armor]
+801561 [Gauntlet Armor]
+801562 [Gauntlet Armor]
+801563 [Gauntlet Armor]
+801564 [Gauntlet Armor]
+801565 [Gauntlet Armor]
+801566 [Gauntlet Armor]
+801567 [Gauntlet Armor]
+801568 [Gauntlet Armor]
+801569 [Gauntlet Armor]
+801570 [Gauntlet Armor]
+801571 [Gauntlet Armor]
+801572 [Gauntlet Armor]
+801573 [Gauntlet Armor]
+801574 [Gauntlet Armor]
+801575 [Gauntlet Armor]
+801576 [Gauntlet Armor]
+801577 [Gauntlet Armor]
+801578 [Gauntlet Armor]
+801579 [Gauntlet Armor]
+801580 [Gauntlet Armor]
+801581 [Gauntlet Armor]
+801582 [Gauntlet Armor]
+801583 [Gauntlet Armor]
+801584 [Gauntlet Armor]
+801585 [Gauntlet Armor]
+801586 [Gauntlet Armor]
+801587 [Gauntlet Armor]
+801588 [Gauntlet Armor]
+801589 [Gauntlet Armor]
+801590 [Gauntlet Armor]
+801591 [Gauntlet Armor]
+801592 [Gauntlet Armor]
+801593 [Gauntlet Armor]
+801594 [Gauntlet Armor]
+801595 [Gauntlet Armor]
+801596 [Gauntlet Armor]
+801597 [Gauntlet Armor]
+801598 [Gauntlet Armor]
+801599 [Gauntlet Armor]
+801600 [Gauntlet Armor]
+801601 [Gauntlet Armor]
+801602 [Gauntlet Armor]
+801603 [Gauntlet Armor]
+801604 [Gauntlet Armor]
+801605 [Gauntlet Armor]
+801606 [Gauntlet Armor]
+801607 [Gauntlet Armor]
+801608 [Gauntlet Armor]
+801609 [Gauntlet Armor]
+801610 [Gauntlet Armor]
+801611 [Gauntlet Armor]
+801612 [Gauntlet Armor]
+801613 [Gauntlet Armor]
+801614 [Gauntlet Armor]
+801615 [Gauntlet Armor]
+801616 [Gauntlet Armor]
+801617 [Gauntlet Armor]
+801618 [Gauntlet Armor]
+801619 [Gauntlet Armor]
+801620 [Gauntlet Armor]
+801621 [Gauntlet Armor]
+801622 [Gauntlet Armor]
+801623 [Gauntlet Armor]
+801624 [Gauntlet Armor]
+801625 [Gauntlet Armor]
+801626 [Gauntlet Armor]
+801627 [Gauntlet Armor]
+801628 [Gauntlet Armor]
+801629 [Gauntlet Armor]
+801630 [Gauntlet Armor]
+801631 [Gauntlet Armor]
+801632 [Gauntlet Armor]
+801633 [Gauntlet Armor]
+801634 [Gauntlet Armor]
+801635 [Gauntlet Armor]
+801636 [Gauntlet Armor]
+801637 [Gauntlet Armor]
+801638 [Gauntlet Armor]
+801639 [Gauntlet Armor]
+801640 [Gauntlet Armor]
+801641 [Gauntlet Armor]
+801642 [Gauntlet Armor]
+801643 [Gauntlet Armor]
+801644 [Gauntlet Armor]
+801645 [Gauntlet Armor]
+801646 [Gauntlet Armor]
+801647 [Gauntlet Armor]
+801648 [Gauntlet Armor]
+801649 [Gauntlet Armor]
+801650 [Gauntlet Armor]
+801651 [Gauntlet Armor]
+801652 [Gauntlet Armor]
+801653 [Gauntlet Armor]
+801654 [Gauntlet Armor]
+801655 [Gauntlet Armor]
+801656 [Gauntlet Armor]
+801657 [Gauntlet Armor]
+801658 [Gauntlet Armor]
+801659 [Gauntlet Armor]
+801660 [Gauntlet Armor]
+801661 [Gauntlet Armor]
+801662 [Gauntlet Armor]
+801663 [Gauntlet Armor]
+801664 [Gauntlet Armor]
+801665 [Gauntlet Armor]
+801666 [Gauntlet Armor]
+801667 [Gauntlet Armor]
+801668 [Gauntlet Armor]
+801669 [Gauntlet Armor]
+801670 [Gauntlet Armor]
+801671 [Gauntlet Armor]
+801672 [Gauntlet Armor]
+801673 [Gauntlet Armor]
+801674 [Gauntlet Armor]
+801675 [Gauntlet Armor]
+801676 [Gauntlet Armor]
+801677 [Gauntlet Armor]
+801678 [Gauntlet Armor]
+801679 [Gauntlet Armor]
+801680 [Gauntlet Armor]
+801681 [Gauntlet Armor]
+801682 [Gauntlet Armor]
+801683 [Gauntlet Armor]
+801684 [Gauntlet Armor]
+801685 [Gauntlet Armor]
+801686 [Gauntlet Armor]
+801687 [Gauntlet Armor]
+801688 [Gauntlet Armor]
+801689 [Gauntlet Armor]
+801690 [Gauntlet Armor]
+801691 [Gauntlet Armor]
+801692 [Gauntlet Armor]
+801693 [Gauntlet Armor]
+801694 [Gauntlet Armor]
+801695 [Gauntlet Armor]
+801696 [Gauntlet Armor]
+801697 [Gauntlet Armor]
+801698 [Gauntlet Armor]
+801699 [Gauntlet Armor]
+801700 [Gauntlet Armor]
+801701 [Gauntlet Armor]
+801702 [Gauntlet Armor]
+801703 [Gauntlet Armor]
+801704 [Gauntlet Armor]
+801705 [Gauntlet Armor]
+801706 [Gauntlet Armor]
+801707 [Gauntlet Armor]
+801708 [Gauntlet Armor]
+801709 [Gauntlet Armor]
+801710 [Gauntlet Armor]
+801711 [Gauntlet Armor]
+801712 [Gauntlet Armor]
+801713 [Gauntlet Armor]
+801714 [Gauntlet Armor]
+801715 [Gauntlet Armor]
+801716 [Gauntlet Armor]
+801717 [Gauntlet Armor]
+801718 [Gauntlet Armor]
+801719 [Gauntlet Armor]
+801720 [Gauntlet Armor]
+801721 [Gauntlet Armor]
+801722 [Gauntlet Armor]
+801723 [Gauntlet Armor]
+801724 [Gauntlet Armor]
+801725 [Gauntlet Armor]
+801726 [Gauntlet Armor]
+801727 [Gauntlet Armor]
+801728 [Gauntlet Armor]
+801729 [Gauntlet Armor]
+801730 [Gauntlet Armor]
+801731 [Gauntlet Armor]
+801732 [Gauntlet Armor]
+801733 [Gauntlet Armor]
+801734 [Gauntlet Armor]
+801735 [Gauntlet Armor]
+801736 [Gauntlet Armor]
+801737 [Gauntlet Armor]
+801738 [Gauntlet Armor]
+801739 [Gauntlet Armor]
+801740 [Gauntlet Armor]
+801741 [Gauntlet Armor]
+801742 [Gauntlet Armor]
+801743 [Gauntlet Armor]
+801744 [Gauntlet Armor]
+801745 [Gauntlet Armor]
+801746 [Gauntlet Armor]
+801747 [Gauntlet Armor]
+801748 [Gauntlet Armor]
+801749 [Gauntlet Armor]
+801750 [Gauntlet Armor]
+801751 [Gauntlet Armor]
+801752 [Gauntlet Armor]
+801753 [Gauntlet Armor]
+801754 [Gauntlet Armor]
+801755 [Gauntlet Armor]
+801756 [Gauntlet Armor]
+801757 [Gauntlet Armor]
+801758 [Gauntlet Armor]
+801759 [Gauntlet Armor]
+801760 [Gauntlet Armor]
+801761 [Gauntlet Armor]
+801762 [Gauntlet Armor]
+801763 [Gauntlet Armor]
+801764 [Gauntlet Armor]
+802000 [Gauntlet Accessory]
+802001 [Gauntlet Accessory]
+802002 [Gauntlet Accessory]
+802003 [Gauntlet Accessory]
+802004 [Gauntlet Accessory]
+802005 [Gauntlet Accessory]
+802006 [Gauntlet Accessory]
+802007 [Gauntlet Accessory]
+802008 [Gauntlet Accessory]
+802009 [Gauntlet Accessory]
+802010 [Gauntlet Accessory]
+802011 [Gauntlet Accessory]
+802012 [Gauntlet Accessory]
+802013 [Gauntlet Accessory]
+802014 [Gauntlet Accessory]
+802015 [Gauntlet Accessory]
+802016 [Gauntlet Accessory]
+802017 [Gauntlet Accessory]
+802018 [Gauntlet Accessory]
+802019 [Gauntlet Accessory]
+802020 [Gauntlet Accessory]
+802021 [Gauntlet Accessory]
+802022 [Gauntlet Accessory]
+802023 [Gauntlet Accessory]
+802024 [Gauntlet Accessory]
+802025 [Gauntlet Accessory]
+802026 [Gauntlet Accessory]
+802027 [Gauntlet Accessory]
+802028 [Gauntlet Accessory]
+802029 [Gauntlet Accessory]
+802030 [Gauntlet Accessory]
+802031 [Gauntlet Accessory]
+802032 [Gauntlet Accessory]
+802033 [Gauntlet Accessory]
+802034 [Gauntlet Accessory]
+802035 [Gauntlet Accessory]
+802036 [Gauntlet Accessory]
+802037 [Gauntlet Accessory]
+802038 [Gauntlet Accessory]
+802039 [Gauntlet Accessory]
+802040 [Gauntlet Accessory]
+802041 [Gauntlet Accessory]
+802042 [Gauntlet Accessory]
+802043 [Gauntlet Accessory]
+802044 [Gauntlet Accessory]
+802045 [Gauntlet Accessory]
+802046 [Gauntlet Accessory]
+802047 [Gauntlet Accessory]
+802048 [Gauntlet Accessory]
+802049 [Gauntlet Accessory]
+802050 [Gauntlet Accessory]
+802051 [Gauntlet Accessory]
+802052 [Gauntlet Accessory]
+802053 [Gauntlet Accessory]
+802054 [Gauntlet Accessory]
+802055 [Gauntlet Accessory]
+802056 [Gauntlet Accessory]
+802057 [Gauntlet Accessory]
+802058 [Gauntlet Accessory]
+802059 [Gauntlet Accessory]
+802060 [Gauntlet Accessory]
+802061 [Gauntlet Accessory]
+802062 [Gauntlet Accessory]
+802063 [Gauntlet Accessory]
+802064 [Gauntlet Accessory]
+802065 [Gauntlet Accessory]
+802066 [Gauntlet Accessory]
+802067 [Gauntlet Accessory]
+802068 [Gauntlet Accessory]
+802069 [Gauntlet Accessory]
+802070 [Gauntlet Accessory]
+802071 [Gauntlet Accessory]
+802072 [Gauntlet Accessory]
+802073 [Gauntlet Accessory]
+802074 [Gauntlet Accessory]
+802075 [Gauntlet Accessory]
+802076 [Gauntlet Accessory]
+802077 [Gauntlet Accessory]
+802078 [Gauntlet Accessory]
+802079 [Gauntlet Accessory]
+802080 [Gauntlet Accessory]
+802081 [Gauntlet Accessory]
+802082 [Gauntlet Accessory]
+802083 [Gauntlet Accessory]
+802084 [Gauntlet Accessory]
+802085 [Gauntlet Accessory]
+802086 [Gauntlet Accessory]
+802087 [Gauntlet Accessory]
+802088 [Gauntlet Accessory]
+802089 [Gauntlet Accessory]
+802090 [Gauntlet Accessory]
+802091 [Gauntlet Accessory]
+802092 [Gauntlet Accessory]
+802093 [Gauntlet Accessory]
+802094 [Gauntlet Accessory]
+802095 [Gauntlet Accessory]
+802096 [Gauntlet Accessory]
+802097 [Gauntlet Accessory]
+802098 [Gauntlet Accessory]
+802099 [Gauntlet Accessory]
+802100 [Gauntlet Accessory]
+802101 [Gauntlet Accessory]
+802102 [Gauntlet Accessory]
+802103 [Gauntlet Accessory]
+802104 [Gauntlet Accessory]
+802105 [Gauntlet Accessory]
+802106 [Gauntlet Accessory]
+802107 [Gauntlet Accessory]
+802108 [Gauntlet Accessory]
+802109 [Gauntlet Accessory]
+802110 [Gauntlet Accessory]
+802111 [Gauntlet Accessory]
+802112 [Gauntlet Accessory]
+802113 [Gauntlet Accessory]
+802114 [Gauntlet Accessory]
+802115 [Gauntlet Accessory]
+802116 [Gauntlet Accessory]
+802117 [Gauntlet Accessory]
+802118 [Gauntlet Accessory]
+802119 [Gauntlet Accessory]
+802120 [Gauntlet Accessory]
+802121 [Gauntlet Accessory]
+802122 [Gauntlet Accessory]
+802123 [Gauntlet Accessory]
+802124 [Gauntlet Accessory]
+802125 [Gauntlet Accessory]
+802126 [Gauntlet Accessory]
+802127 [Gauntlet Accessory]
+802128 [Gauntlet Accessory]
+802129 [Gauntlet Accessory]
+802130 [Gauntlet Accessory]
+802131 [Gauntlet Accessory]
+802132 [Gauntlet Accessory]
+802133 [Gauntlet Accessory]
+802134 [Gauntlet Accessory]
+802135 [Gauntlet Accessory]
+802136 [Gauntlet Accessory]
+802137 [Gauntlet Accessory]
+802138 [Gauntlet Accessory]
+802139 [Gauntlet Accessory]
+802140 [Gauntlet Accessory]
+802141 [Gauntlet Accessory]
+802142 [Gauntlet Accessory]
+802143 [Gauntlet Accessory]
+802144 [Gauntlet Accessory]
+802145 [Gauntlet Accessory]
+802146 [Gauntlet Accessory]
+802147 [Gauntlet Accessory]
+803000 [Gauntlet Spell]
+803001 [Gauntlet Spell]
+803002 [Gauntlet Spell]
+803003 [Gauntlet Spell]
+803004 [Gauntlet Spell]
+803005 [Gauntlet Spell]
+803006 [Gauntlet Spell]
+803007 [Gauntlet Spell]
+803008 [Gauntlet Spell]
+803009 [Gauntlet Spell]
+803010 [Gauntlet Spell]
+803011 [Gauntlet Spell]
+803012 [Gauntlet Spell]
+803013 [Gauntlet Spell]
+803014 [Gauntlet Spell]
+803015 [Gauntlet Spell]
+803016 [Gauntlet Spell]
+803017 [Gauntlet Spell]
+803018 [Gauntlet Spell]
+803019 [Gauntlet Spell]
+803020 [Gauntlet Spell]
+803021 [Gauntlet Spell]
+803022 [Gauntlet Spell]
+803023 [Gauntlet Spell]
+803024 [Gauntlet Spell]
+803025 [Gauntlet Spell]
+803026 [Gauntlet Spell]
+803027 [Gauntlet Spell]
+803028 [Gauntlet Spell]
+803029 [Gauntlet Spell]
+803030 [Gauntlet Spell]
+803031 [Gauntlet Spell]
+803032 [Gauntlet Spell]
+803033 [Gauntlet Spell]
+803034 [Gauntlet Spell]
+803035 [Gauntlet Spell]
+803036 [Gauntlet Spell]
+803037 [Gauntlet Spell]
+803038 [Gauntlet Spell]
+803039 [Gauntlet Spell]
+803040 [Gauntlet Spell]
+803041 [Gauntlet Spell]
+803042 [Gauntlet Spell]
+803043 [Gauntlet Spell]
+803044 [Gauntlet Spell]
+803045 [Gauntlet Spell]
+803046 [Gauntlet Spell]
+803047 [Gauntlet Spell]
+803048 [Gauntlet Spell]
+803049 [Gauntlet Spell]
+803050 [Gauntlet Spell]
+803051 [Gauntlet Spell]
+803052 [Gauntlet Spell]
+803053 [Gauntlet Spell]
+803054 [Gauntlet Spell]
+803055 [Gauntlet Spell]
+803056 [Gauntlet Spell]
+803057 [Gauntlet Spell]
+803058 [Gauntlet Spell]
+803059 [Gauntlet Spell]
+803060 [Gauntlet Spell]
+803061 [Gauntlet Spell]
+803062 [Gauntlet Spell]
+803063 [Gauntlet Spell]
+803064 [Gauntlet Spell]
+803065 [Gauntlet Spell]
+803066 [Gauntlet Spell]
+803067 [Gauntlet Spell]
+803068 [Gauntlet Spell]
+803069 [Gauntlet Spell]
+803070 [Gauntlet Spell]
+803071 [Gauntlet Spell]
+803072 [Gauntlet Spell]
+803073 [Gauntlet Spell]
+803074 [Gauntlet Spell]
+803075 [Gauntlet Spell]
+803076 [Gauntlet Spell]
+803077 [Gauntlet Spell]
+803078 [Gauntlet Spell]
+803079 [Gauntlet Spell]
+803080 [Gauntlet Spell]
+803081 [Gauntlet Spell]
+803082 [Gauntlet Spell]
+803083 [Gauntlet Spell]
+803084 [Gauntlet Spell]
+803085 [Gauntlet Spell]
+803086 [Gauntlet Spell]
+803087 [Gauntlet Spell]
+803088 [Gauntlet Spell]
+803089 [Gauntlet Spell]
+803090 [Gauntlet Spell]
+803091 [Gauntlet Spell]
+803092 [Gauntlet Spell]
+803093 [Gauntlet Spell]
+803094 [Gauntlet Spell]
+803095 [Gauntlet Spell]
+803096 [Gauntlet Spell]
+803097 [Gauntlet Spell]
+803098 [Gauntlet Spell]
+803099 [Gauntlet Spell]
+803100 [Gauntlet Spell]
+803101 [Gauntlet Spell]
+803102 [Gauntlet Spell]
+803103 [Gauntlet Spell]
+803104 [Gauntlet Spell]
+803105 [Gauntlet Spell]
+803106 [Gauntlet Spell]
+803107 [Gauntlet Spell]
+803108 [Gauntlet Spell]
+803109 [Gauntlet Spell]
+803110 [Gauntlet Spell]
+803111 [Gauntlet Spell]
+803112 [Gauntlet Spell]
+803113 [Gauntlet Spell]
+803114 [Gauntlet Spell]
+803115 [Gauntlet Spell]
+803116 [Gauntlet Spell]
+803117 [Gauntlet Spell]
+803118 [Gauntlet Spell]
+803119 [Gauntlet Spell]
+803120 [Gauntlet Spell]
+803121 [Gauntlet Spell]
+803122 [Gauntlet Spell]
+803123 [Gauntlet Spell]
+803124 [Gauntlet Spell]
+803125 [Gauntlet Spell]
+803126 [Gauntlet Spell]
+803127 [Gauntlet Spell]
+803128 [Gauntlet Spell]
+803129 [Gauntlet Spell]
+803130 [Gauntlet Spell]
+803131 [Gauntlet Spell]
+803132 [Gauntlet Spell]
+803133 [Gauntlet Spell]
+803134 [Gauntlet Spell]
+803135 [Gauntlet Spell]
+803136 [Gauntlet Spell]
+803137 [Gauntlet Spell]
+803138 [Gauntlet Spell]
+803139 [Gauntlet Spell]
+803140 [Gauntlet Spell]
+803141 [Gauntlet Spell]
+803142 [Gauntlet Spell]
+803143 [Gauntlet Spell]
+803144 [Gauntlet Spell]
+803145 [Gauntlet Spell]
+803146 [Gauntlet Spell]
+803147 [Gauntlet Spell]
+803148 [Gauntlet Spell]
+803149 [Gauntlet Spell]
+803150 [Gauntlet Spell]
+803151 [Gauntlet Spell]
+803152 [Gauntlet Spell]
+803153 [Gauntlet Spell]
+803154 [Gauntlet Spell]
+803155 [Gauntlet Spell]
+803156 [Gauntlet Spell]
+803157 [Gauntlet Spell]
+803158 [Gauntlet Spell]
+803159 [Gauntlet Spell]
+803160 [Gauntlet Spell]
+803161 [Gauntlet Spell]
+803162 [Gauntlet Spell]
+803163 [Gauntlet Spell]
+803164 [Gauntlet Spell]
+803165 [Gauntlet Spell]
+803166 [Gauntlet Spell]
+803167 [Gauntlet Spell]
+803168 [Gauntlet Spell]
+803169 [Gauntlet Spell]
+803170 [Gauntlet Spell]
+803171 [Gauntlet Spell]
+803172 [Gauntlet Spell]
+803173 [Gauntlet Spell]
+803174 [Gauntlet Spell]
+803175 [Gauntlet Spell]
+803176 [Gauntlet Spell]
+803177 [Gauntlet Spell]
+803178 [Gauntlet Spell]
+803179 [Gauntlet Spell]
+803180 [Gauntlet Spell]
+803181 [Gauntlet Spell]
+803182 [Gauntlet Spell]
+803183 [Gauntlet Spell]
+803184 [Gauntlet Spell]
+803185 [Gauntlet Spell]
+803186 [Gauntlet Spell]
+803187 [Gauntlet Spell]
+803188 [Gauntlet Spell]
+803189 [Gauntlet Spell]
+803190 [Gauntlet Spell]
+803191 [Gauntlet Spell]
+803192 [Gauntlet Spell]
+803193 [Gauntlet Spell]
+803194 [Gauntlet Spell]
+803195 [Gauntlet Spell]
+803196 [Gauntlet Spell]
+803197 [Gauntlet Spell]
+803198 [Gauntlet Spell]
+803199 [Gauntlet Spell]
+803200 [Gauntlet Spell]
+803201 [Gauntlet Spell]
+803202 [Gauntlet Spell]
+803203 [Gauntlet Spell]
+803204 [Gauntlet Spell]
+803205 [Gauntlet Spell]
+803206 [Gauntlet Spell]
+803207 [Gauntlet Spell]
+803208 [Gauntlet Spell]
+803209 [Gauntlet Spell]
+803210 [Gauntlet Spell]
+803211 [Gauntlet Spell]
+803212 [Gauntlet Spell]
+803213 [Gauntlet Spell]
+803214 [Gauntlet Spell]
+803215 [Gauntlet Spell]
+803216 [Gauntlet Spell]
+803217 [Gauntlet Spell]
+803218 [Gauntlet Spell]
+803219 [Gauntlet Spell]
+803220 [Gauntlet Spell]
+803221 [Gauntlet Spell]
+803222 [Gauntlet Spell]
+803223 [Gauntlet Spell]
+803224 [Gauntlet Spell]
+803225 [Gauntlet Spell]
+803226 [Gauntlet Spell]
+803227 [Gauntlet Spell]
+803228 [Gauntlet Spell]
+803229 [Gauntlet Spell]
+803230 [Gauntlet Spell]
+803231 [Gauntlet Spell]
+803232 [Gauntlet Spell]
+803233 [Gauntlet Spell]
+803234 [Gauntlet Spell]
+803235 [Gauntlet Spell]
+803236 [Gauntlet Spell]
+803237 [Gauntlet Spell]
+803238 [Gauntlet Spell]
+803239 [Gauntlet Spell]
+803240 [Gauntlet Spell]
+803241 [Gauntlet Spell]
+803242 [Gauntlet Spell]
+803243 [Gauntlet Spell]
+803244 [Gauntlet Spell]
+803245 [Gauntlet Spell]
+803246 [Gauntlet Spell]
+803247 [Gauntlet Spell]
+803248 [Gauntlet Spell]
+803249 [Gauntlet Spell]
+803250 [Gauntlet Spell]
+803251 [Gauntlet Spell]
+803252 [Gauntlet Spell]
+803253 [Gauntlet Spell]
+803254 [Gauntlet Spell]
+803255 [Gauntlet Spell]
+803256 [Gauntlet Spell]
+803257 [Gauntlet Spell]
+803258 [Gauntlet Spell]
+803259 [Gauntlet Spell]
+803260 [Gauntlet Spell]
+803261 [Gauntlet Spell]
+803262 [Gauntlet Spell]
+803263 [Gauntlet Spell]
+803264 [Gauntlet Spell]
+803265 [Gauntlet Spell]
+803266 [Gauntlet Spell]
+803267 [Gauntlet Spell]
+803268 [Gauntlet Spell]
+803269 [Gauntlet Spell]
+803270 [Gauntlet Spell]
+803271 [Gauntlet Spell]
+803272 [Gauntlet Spell]
+803273 [Gauntlet Spell]
+803274 [Gauntlet Spell]
+803275 [Gauntlet Spell]
+803276 [Gauntlet Spell]
+803277 [Gauntlet Spell]
+803278 [Gauntlet Spell]
+803279 [Gauntlet Spell]
+803280 [Gauntlet Spell]
+803281 [Gauntlet Spell]
+803282 [Gauntlet Spell]
+803283 [Gauntlet Spell]
+803284 [Gauntlet Spell]
+803285 [Gauntlet Spell]
+803286 [Gauntlet Spell]
+803287 [Gauntlet Spell]
+803288 [Gauntlet Spell]
+803289 [Gauntlet Spell]
+803290 [Gauntlet Spell]
+803291 [Gauntlet Spell]
+803292 [Gauntlet Spell]
+803293 [Gauntlet Spell]
+803294 [Gauntlet Spell]
+803295 [Gauntlet Spell]
+803296 [Gauntlet Spell]
+803297 [Gauntlet Spell]
+803298 [Gauntlet Spell]
+803299 [Gauntlet Spell]
+803300 [Gauntlet Spell]
+803301 [Gauntlet Spell]
+803302 [Gauntlet Spell]
+803303 [Gauntlet Spell]
+803304 [Gauntlet Spell]
+803305 [Gauntlet Spell]
+803306 [Gauntlet Spell]
+803307 [Gauntlet Spell]
+803308 [Gauntlet Spell]
+803309 [Gauntlet Spell]
+803310 [Gauntlet Spell]
+803311 [Gauntlet Spell]
+804000 [Gauntlet Item] Titanite Fragment
+804001 [Gauntlet Item] Inferi Petal
+804002 [Gauntlet Item] Combustum Petal
+804003 [Gauntlet Item] Vindicti Petal
+804004 [Gauntlet Item] Barathrum Petal
+804005 [Gauntlet Item] Celeritas Stem
+804006 [Gauntlet Item] Veloxi Moss
+804007 [Gauntlet Item] Lethal Gem
+804008 [Gauntlet Item] Curse Gem
+804009 [Gauntlet Item] Poison Gem
+804010 [Gauntlet Item] Blood Gem
+804011 [Gauntlet Item] Frost Gem
+804012 [Gauntlet Item] Magic Gem
+804013 [Gauntlet Item] Fire Gem
+804014 [Gauntlet Item] Lightning Gem
+804015 [Gauntlet Item] Dark Gem
+804016 [Gauntlet Item] Lucky Gem
+804017 [Gauntlet Item] Enchanted Gem
+804018 [Gauntlet Item] Holy Gem
+804019 [Gauntlet Item] Sharp Gem
+804020 [Gauntlet Item] Blunt Gem
+804021 [Gauntlet Item] Crystal Shard
+804022 [Gauntlet Item] Dragon Eye
+804023 [Gauntlet Item] Human Effigy
+804024 [Gauntlet Item] Devil's Trumpet
+804025 [Gauntlet Item] Moonflower
+804026 [Gauntlet Item] Henbane
+804027 [Gauntlet Item] Smouldering Stone
+804028 [Gauntlet Item] Infusing Essence
+804029 [Gauntlet Item] Degrading Essence
+804030 [Gauntlet Item] Tarnished Coin
+804031 [Gauntlet Item] Tarnished Silver Coin
+804032 [Gauntlet Item] Hexing Urn
+804033 [Gauntlet Item] Witching Urn
+804034 [Gauntlet Item] Old Growth Balm
+804035 [Gauntlet Item] Vine Balm
+804036 [Gauntlet Item] Blackweed Balm
+804037 [Gauntlet Item] Goldenfruit Balm
+804038 [Gauntlet Item] Brightbug
+804039 [Gauntlet Item] Young Grass Dew
+804040 [Gauntlet Item] Undead Bone Shard
+804041 [Gauntlet Item] Estus Shard
+804042 [Gauntlet Item] Titanite Shard
+804043 [Gauntlet Item] Large Titanite Shard
+804044 [Gauntlet Item] Titanite Chunk
+804045 [Gauntlet Item] Titanite Slab
+804046 [Gauntlet Item] Fire Seed
+804047 [Gauntlet Item] Crystal Fragment
+804048 [Gauntlet Item] Abyssal Fragment
+804049 [Gauntlet Item] Holy Fragment
+804050 [Gauntlet Item] Shriving Stone
+804051 [Gauntlet Item] Lifegem
+804052 [Gauntlet Item] Radiant Lifegem
+804053 [Gauntlet Item] Old Radiant Lifegem
+804054 [Gauntlet Item] Elizabeth Mushroom
+804055 [Gauntlet Item] Dried Root
+804056 [Gauntlet Item] Rouge Water
+804057 [Gauntlet Item] Crimson Water
+804058 [Gauntlet Item] Ember
+804059 [Gauntlet Item] Mossfruit
+804060 [Gauntlet Item] Rusted Coin
+804061 [Gauntlet Item] Siegbrau
+804062 [Gauntlet Item] Rusted Gold Coin
+804063 [Gauntlet Item] Blue Bug Pellet
+804064 [Gauntlet Item] Red Bug Pellet
+804065 [Gauntlet Item] Yellow Bug Pellet
+804066 [Gauntlet Item] Black Bug Pellet
+804067 [Gauntlet Item] Young White Branch
+804069 [Gauntlet Item] Prism Stone
+804070 [Gauntlet Item] Homeward Bone
+804071 [Gauntlet Item] Coiled Sword Fragment
+804072 [Gauntlet Item] Divine Blessing
+804073 [Gauntlet Item] Hidden Blessing
+804074 [Gauntlet Item] Green Blossom
+804075 [Gauntlet Item] Budding Green Blossom
+804076 [Gauntlet Item] Bloodred Moss Clump
+804077 [Gauntlet Item] Purple Moss Clump
+804078 [Gauntlet Item] Blooming Purple Moss Clump
+804079 [Gauntlet Item] Purging Stone
+804080 [Gauntlet Item] Cleansing Pendant
+804081 [Gauntlet Item] Rime-blue Moss Clump
+804082 [Gauntlet Item] Repair Powder
+804084 [Gauntlet Item] Firebomb
+804085 [Gauntlet Item] Dung Pie
+804086 [Gauntlet Item] Alluring Skull
+804087 [Gauntlet Item] Undead Hunter Charm
+804088 [Gauntlet Item] Black Firebomb
+804089 [Gauntlet Item] Rope Firebomb
+804090 [Gauntlet Item] Lightning Urn
+804091 [Gauntlet Item] Rope Black Firebomb
+804092 [Gauntlet Item] Stalk Dung Pie
+804093 [Gauntlet Item] Duel Charm
+804094 [Gauntlet Item] Throwing Knife
+804095 [Gauntlet Item] Poisonous Knife
+804096 [Gauntlet Item] Church Guardian Shiv
+804097 [Gauntlet Item] Charcoal Pine Resin
+804098 [Gauntlet Item] Gold Pine Resin
+804099 [Gauntlet Item] Human Pine Resin
+804100 [Gauntlet Item] Carthus Rouge
+804101 [Gauntlet Item] Pale Pine Resin
+804104 [Gauntlet Item] Rotten Pine Resin
+804105 [Gauntlet Item] Frozen Pine Resin
+804106 [Gauntlet Item] Weapon Token
+804107 [Gauntlet Item] Armor Token
+804108 [Gauntlet Item] Accessory Token
+804109 [Gauntlet Item] Holy Water Urn
+804110 [Gauntlet Item] Primordial Fragment
+804111 [Gauntlet Item] Sorcerous Knife
+804112 [Gauntlet Item] Flaming Knife
+804113 [Gauntlet Item] Sparking Knife
+804114 [Gauntlet Item] Abyssal Knife
+804115 [Gauntlet Item] Cursed Knife
+804116 [Gauntlet Item] Lacerating Knife
+804117 [Gauntlet Item] Frigid Knife
+804118 [Gauntlet Item] Blessed Pine Resin
+804119 [Gauntlet Item] Cursed Pine Resin
+804200 [Gauntlet Ammunition]
+804201 [Gauntlet Ammunition]
+804202 [Gauntlet Ammunition]
+804203 [Gauntlet Ammunition]
+804204 [Gauntlet Ammunition]
+804205 [Gauntlet Ammunition]
+804206 [Gauntlet Ammunition]
+804207 [Gauntlet Ammunition]
+804208 [Gauntlet Ammunition]
+804209 [Gauntlet Ammunition]
+804210 [Gauntlet Ammunition]
+804211 [Gauntlet Ammunition]
+804212 [Gauntlet Ammunition]
+804213 [Gauntlet Ammunition]
+804214 [Gauntlet Ammunition]
+804215 [Gauntlet Ammunition]
+804216 [Gauntlet Ammunition]
+804217 [Gauntlet Ammunition]
+804218 [Gauntlet Ammunition]
+804219 [Gauntlet Ammunition]
+804220 [Gauntlet Ammunition]
+804221 [Gauntlet Ammunition]
+804222 [Gauntlet Ammunition]
+804223 [Gauntlet Ammunition]
+804224 [Gauntlet Ammunition]
+804225 [Gauntlet Ammunition]
+804226 [Gauntlet Ammunition]
+804227 [Gauntlet Ammunition]
+804228 [Gauntlet Ammunition]
+804229 [Gauntlet Ammunition]
+804230 [Gauntlet Ammunition]
+804231 [Gauntlet Ammunition]
+804232 [Gauntlet Ammunition]
 900000 [Debug] Weapon Token
 900001 [Debug] Armor Token
 900002 [Debug] Accesory Token
-900003 [Debug] Tool
-900004 [Debug] Tool
-900005 [Debug] Tool
-900006 [Debug] Tool
-900007 [Debug] Tool
-900008 [Debug] Tool
-900009 [Debug] Tool
-900010 [Debug] Tool
-900011 [Debug] Tool
-900012 [Debug] Tool
+900003 [Debug Tool]
+900004 [Debug Tool]
+900005 [Debug Tool]
+900006 [Debug Tool]
+900007 [Debug Tool]
+900008 [Debug Tool]
+900009 [Debug Tool]
+900010 [Debug Tool]
+900011 [Debug Tool]
+900012 [Debug Tool]
