@@ -595,7 +595,9 @@
 <text id="4019">Consume this herb to almost die</text>
 <text id="4020">Infuse catalyst</text>
 <text id="4100">Emit dragon breath</text>
-<text id="4101">Emit dragon roar</text>
+<text id="4101">Emit dragon might</text>
+<text id="4110">Emit dragon fire orbs</text>
+<text id="4111">Emit dragon might and summon ancient ally who scorches the land</text>
 <text id="4200">Crush to boost absorption massively for a short duration</text>
 <text id="4201">Crush to boost poise massively for a short duration</text>
 <text id="4202">Crush to boost max FP and reduce skill FP consumption massively for a short duration</text>

@@ -2280,18 +2280,38 @@ A crude element of any magesmith's arsenal.
 Used in infusion to change the nature of a catalyst.
 
 The smouldering is said to be neverending, allowing the sorcerer to modify catalysts endlessly.</text>
-<text id="4100">Stone imbued with the power of the everlasting dragons, the second of its kind, offered to a towering dragon.
+<text id="4100">Stone imbued with the power of the everlasting dragons, offered to a towering dragon.
 
 Emit dragon breath alongside an archdragon mirage.
-Only usable whilst barenaked.
-Scales with Luck.
+Unlimited uses, but only usable whilst barenaked.
+Does not scale with any stat.
+Other spellbound items appear to react to the damage dealt with this stone.
 
 The road to the old dragons is long and arduous, and only one can complete the journey.</text>
-<text id="4101">Stone imbued with the power of the everlasting dragons, offered to a towering dragon. This stone shows signs of a nascent light.
+<text id="4101">Stone imbued with the power of the everlasting dragons, offered to a towering dragon.
 
-Emit a dragon roar alongside an archdragon mirage.
+Emit dragon might alongside an archdragon mirage.
 Only usable whilst barenaked.
-Scales with Luck.</text>
+Does not scale with any stat.
+This stone draws upon the blood of foes, allowing for endless usage.
+
+The road to the old dragons is long and arduous, and only one can complete the journey.</text>
+<text id="4110">Stone imbued with the power of the everlasting dragons, offered to a towering dragon. This stone shows signs of a nascent light.
+
+Emit dragon fire orbs alongside an archdragon mirage.
+Unlimited uses, but only usable whilst barenaked.
+Does not scale with any stat.
+Other spellbound items appear to react to the damage dealt with this stone.
+
+The road to the old dragons is long and arduous, and only one can complete the journey.</text>
+<text id="4111">Stone imbued with the power of the everlasting dragons, offered to a towering dragon. This stone shows signs of a nascent light.
+
+Emit dragon might alongside an archdragon mirage and summon ancient ally who scorches the land.
+Only usable whilst barenaked.
+Does not scale with any stat.
+This stone draws upon the blood of foes, allowing for endless usage.
+
+The road to the old dragons is long and arduous, and only one can complete the journey.</text>
 <text id="4200">The fading soul of a fallen paladin.
 
 Use to absorb its latent power, boosting absorption by 80% for 30 seconds.

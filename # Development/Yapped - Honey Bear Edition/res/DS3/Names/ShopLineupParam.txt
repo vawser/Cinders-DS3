@@ -115,8 +115,8 @@
 22703 [Dragon Remnants] Tailbone Club
 22704 [Dragon Remnants] Drake Fist
 22705 [Dragon Remnants] Dragonkin Shield
-22706 [Dragon Remnants] Stone of Draconic Fire
-22707 [Dragon Remnants] Stone of Draconic Might
+22706 [Dragon Remnants] Spellbound Draconic Fire
+22707 [Dragon Remnants] Spellbound Draconic Might
 22708 [Dragon Remnants] Dragon Head Stone
 22709 [Dragon Remnants] Dragon Torso Stone
 22710 [Dragon Remnants] Lethal Gem
@@ -126,6 +126,8 @@
 22716 [Dragon Remnants] Black Dragon Armor
 22717 [Dragon Remnants] Black Dragon Gauntlets
 22718 [Dragon Remnants] Black Dragon Leggings
+22719 [Dragon Remnants] Spellbound Draconic Fire Orbs
+22720 [Dragon Remnants] Spellbound Draconic Fury
 22800 [Way of White] Holy Gem
 22801 [Way of White] Divine Blessing
 22802 [Way of White] Hidden Blessing
@@ -806,13 +808,13 @@
 140202 [Cornyx - Spells - Profaned] Heave Earth
 140203 [Cornyx - Spells - Profaned] Earthquake
 140204 [Cornyx - Spells - Profaned] Acid Surge
-150000 [Karla - Default] Dark Gem
 150100 [Karla - Spells] Deep Barb
 150101 [Karla - Spells] Dark Edge
 150102 [Karla - Spells] Deep Soul
 150103 [Karla - Spells] Black Fireball
 150104 [Karla - Spells] Nibble
 150105 [Karla - Spells] Gnaw
+150106 [Karla - Default] Dark Gem
 150120 [Karla - Spells - Accursed Scoll] Affinity
 150121 [Karla - Spells - Accursed Scoll] Numbness
 150122 [Karla - Spells - Accursed Scoll] Surging Deep

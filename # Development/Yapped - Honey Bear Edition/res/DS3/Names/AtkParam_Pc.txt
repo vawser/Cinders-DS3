@@ -74,9 +74,15 @@
 1205 Church Guardian Shiv
 1300 Dragon Head Stone
 1310 Dragon Torso Stone
-1320 Twinkling Dragon Head Stone
+1320 Spellbound Draconic Fire
 1321 Twinkling Dragon Head Stone [Hit]
-1330 Twinkling Dragon Torso Stone [Hit]
+1322 Spellbound Draconic Fire Orbs
+1330 Spellbound Draconic Might [Hit]
+1331 Spellbound Draconic Fury [Hit]
+1332 Spellbound Draconic Fury
+1333 Spellbound Draconic Fury
+1334 Spellbound Draconic Fury [Hit] - Forward Fire Burst
+1335 Spellbound Draconic Fury [Hit] - Wide Scattered Ground Fire
 1400 Alluring Skull
 2000 Standard Arrow
 2010 Standard Arrow

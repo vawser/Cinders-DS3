@@ -4149,9 +4149,20 @@
 224000501 Spellbound Skull [Hit]
 224001000 Dragon Head Stone
 224001100 Dragon Torso Stone
-224001200 Twinkling Dragon Head Stone
-224001300 Twinkling Dragon Torso Stone
-224001301 Twinkling Dragon Torso Stone [Hit]
+224001200 Spellbound Draconic Fire
+224001300 Spellbound Draconic Might
+224001301 Spellbound Draconic Might [Hit]
+224001400 Spellbound Draconic Fire Orbs
+224001500 Spellbound Draconic Fury
+224001501 Spellbound Draconic Fury [Hit]
+224001502 Spellbound Draconic Fury
+224001503 Spellbound Draconic Fury - Spread Fire Burst
+224001504 Spellbound Draconic Fury - Dragonform Ghost + Breathe Fire
+224001505 Spellbound Draconic Fury - Dragonform Ghost
+224001506 Spellbound Draconic Fury
+224001507 Spellbound Draconic Fury
+224001508 Spellbound Draconic Fury [Hit] - Forward Fire Burst
+224001509 Spellbound Draconic Fury [Hit] - Wide Scattered Ground Fire
 224002000 Hello Carving
 224002001 Hello Carving [Hit]
 224002100 Thank you Carving

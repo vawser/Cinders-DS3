@@ -431,8 +431,10 @@
 4018 Moonflower
 4019 Henbane
 4020 Smouldering Stone
-4100 Stone of Draconic Fire
-4101 Stone of Draconic Might
+4100 Spellbound Draconic Fire
+4101 Spellbound Draconic Might
+4110 Spellbound Draconic Fire Orbs
+4111 Spellbound Draconic Fury
 4200 Soul of a Fallen Paladin
 4201 Soul of a Fallen Sentinel
 4202 Soul of a Fallen Sage
