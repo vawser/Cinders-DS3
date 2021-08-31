@@ -289,6 +289,7 @@
 1003 Parrying Dagger
 1004 Kirkhammer
 1005 Rotten Ghru Dagger
+1006 Grand Lance
 1007 Harpe
 1008 Scholar's Candlestick
 1009 Tailbone Short Sword
@@ -1216,7 +1217,7 @@
 4231 Attendant Body
 4232 Artifical Helmet
 4233 Giant-horned Helmet
-4234 Heide Lancer Helm
+4234 Heide Lance
 4235 Overseer's Mask
 4236 Suspicious Gold Mask
 4237 Boar Helm
@@ -1646,7 +1647,7 @@
 7081 Loyce Armor
 7082 Loyce Gauntlets
 7083 Loyce Leggings
-7084 Silver Stag Helmet
+7084 Chariot Lance
 7085 Golem Helm
 7086 Golem Armor
 7087 Golem Gauntlets
