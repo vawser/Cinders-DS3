@@ -132,6 +132,7 @@ Finish following weapons:
 - Fixed Lingering Acid Surge not applying the debuff.
 - Added several missing weapons and Millwood Greatarrows to the Gauntlet mode shop.
 - Fixed the storm type spells using more FP than they should.
+- Fixed the Earthern Peak bonfire not unlocking all its forge items.
  
 # Journey Configuration
 - Mythic Mode:
