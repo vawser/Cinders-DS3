@@ -2575,10 +2575,18 @@
 1080811 [Weapon Art] Bewitched Alonne Sword - Seppuku - Right - No FP
 1080851 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left
 1080861 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left - No FP
+1080901 Chariot Lance
+1080911 Chariot Lance
+1080951 Chariot Lance
+1080961 Chariot Lance
 1081001 [Weapon Art] Elemental Flow – Right Hand
 1081011 [Weapon Art] Elemental Flow – Right Hand – Low FP
 1081051 [Weapon Art] Elemental Flow – Left Hand
 1081061 [Weapon Art] Elemental Flow – Left Hand – Low FP
+1081101 Bloodlust Warcry
+1081111 Bloodlust Warcry
+1081151 Bloodlust Warcry
+1081161 Bloodlust Warcry
 1083201 [Weapon Art] Ledo's Great Hammer - Right
 1083251 [Weapon Art] Ledo's Great Hammer - Left
 1092401 [Weapon Art] Ringed Knight Spear - Ember - Right
@@ -3539,6 +3547,22 @@
 160250880 Thorned Greatsword - Lightning Stomp
 160250890 Insanity Catalyst - Insanity
 160250900 Smouldering Talisman - Immolate - Self-harm
+160260000 Chariot Lance
+160260010 Chariot Lance
+160260050 Chariot Lance
+160260060 Chariot Lance
+160260100 Bloodlust (Alt) - Damage - Right-hand
+160260101 Bloodlust (Alt) - Damage - Right-hand - No FP
+160260102 Bloodlust (Alt) - Damage - Right-hand [AttackOccurance]
+160260110 Bloodlust (Alt) - Bleed - Right-hand
+160260111 Bloodlust (Alt) - Bleed - Right-hand [CycleOccurance]
+160260112 Bloodlust (Alt) - Bleed - Right-hand [AttackOccurance]
+160260150 Bloodlust (Alt) - Damage - Left-hand
+160260151 Bloodlust (Alt) - Damage - Left-hand - No FP
+160260152 Bloodlust (Alt) - Damage - Left-hand [AttackOccurance]
+160260160 Bloodlust (Alt) - Bleed - Left-hand
+160260161 Bloodlust (Alt) - Bleed - Left-hand [Cycle]
+160260162 Bloodlust (Alt) - Bleed - Left-hand [AttackOccurance]
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
