@@ -379,19 +379,19 @@ Presented to Artorias for facing the Abyss.
 Effectively deflects the Dark of the Abyss,
 especially in its magic forms.</text>
 <text id="260">Green weed, shaped like a flower.
-Temporary boost to stamina recovery speed.
+Bossts stamina recovery speed by 10 for 60 seconds.
 
 The Undead Legion of Farron are remembered for using this annual plant, normally found near clear water, to swing their mighty swords with abandon.
 </text>
 <text id="261">Green flower-shaped weed with small white blooms.
 
-Large temporary boost to stamina recovery speed.
+Boosts stamina recovery speed by 15 for 60 seconds.
 
 Flowers of the Green Blossom are ethereal, blossoming only on the surface of chilled,
 but not frozen, water.</text>
 <text id="262">Green flower-shaped weed with small white blooms.
 
-Large temporary boost to stamina recovery speed.
+Boosts stamina recovery speed by 15 for 60 seconds.
 
 The brief attached messages suggests that it was
 a gift:
@@ -462,7 +462,7 @@ an imitation can be quite enough.</text>
 <text id="279">%null%</text>
 <text id="280">Lightly enchanted golden powder.
 
-Repairs equipped weapons and armor, as long as they haven't already broken.
+Repairs 150 durability from equipped weapons and armor, as long as they haven't already broken.
 
 Use of a weapon depletes its durability,
 eventually causing it to break.
@@ -486,14 +486,13 @@ of Carthus, but now popular among bandits
 and thieves.</text>
 <text id="291">%null%</text>
 <text id="292">Bisque urn filled with black powder.
-Explodes, inflicting fire damage.
+Explodes, inflicting 200 fire damage.
 Scales with Luck.
 
 Fire damage, which differs from physical damage, is highly effective against creatures of flesh, beasts, and other foes that might naturally have cause to fear the flame.</text>
 <text id="293">Dried fecal waste material, moist on the inside.
 
-Throw at enemy to inflict 60 Poison against them and yourself.
-Scales with Luck.
+Throw at enemy to inflict 65 Toxic against them and 55 yourself.
 
 Though the stench makes it difficult to carry on one's person, inflicting toxins on an enemy yields high damage over time. Perhaps some Undead have fond memories of waste. Or, perhaps not.</text>
 <text id="294">A skull resplendent in the scent of souls. Prepared by evangelists of the Cathedral of the Deep.
@@ -505,12 +504,12 @@ Blocks Estus recovery and reduces any form of healing to zero within a limited a
 
 Used long ago by Lloyd's cleric knights on their Undead hunts. Although Allfather Lloyd is long forgotten by the Way of White, his hunts have lived on, and this charm allows one to challenge Undead without fear of tenacious healing.</text>
 <text id="297">More powerful bisque urn filled with special black
-powder. Explodes, inflicting great fire damage.
+powder. Explodes, inflicting 300 fire damage.
 Scales with Luck.
 
 Fire damage, which differs from physical damage, is highly effective against creatures of flesh, beasts, and other foes that might naturally have cause to fear the flame.</text>
 <text id="298">%null%</text>
-<text id="299">Bisque urn attached to a string and filled with black powder. Thrown behind and explodes, inflicting fire damage.
+<text id="299">Bisque urn attached to a string and filled with black powder. Thrown behind and explodes, inflicting 200 fire damage.
 Scales with Luck.
 
 No different to a firebomb, save for
@@ -518,7 +517,7 @@ the direction in which it is thrown. Enables
 a different fighting style, and flexibility in
 adjusting to one's circumstances.</text>
 <text id="300">Dragon-hunting tool used by Lothric knights.
-Explodes upon contact, inflicting lightning damage.
+Explodes upon contact, inflicting 300 lightning damage.
 Scales with Luck.
 
 The knights of Lothric have since tamed dragons,
@@ -536,7 +535,7 @@ but the water has been difficult to acquire
 ever since Mirrah became embroiled in war.</text>
 <text id="302">Black bisque urn attached to a string and filled
 with black powder. Thrown behind and explodes,
-inflicting fire damage.
+inflicting 300 fire damage.
 Scales with Luck.
 
 No different to a black firebomb, save for
@@ -546,7 +545,7 @@ adjusting to one's circumstances.</text>
 <text id="303">Dried fecal waste material, marked by a long
 plant stalk that was not properly digested.
 
-Throw behind at enemies to inflict 60 Poison against them and yourself.
+Throw behind at enemies to inflict 65 Toxic against them and 55 yourself.
 
 Strictly speaking, this consists of different material than the dung pie, but waste is waste, no sense in splitting hairs.</text>
 <text id="304">Tool used in duels of judgment. Nulls effects
@@ -559,62 +558,62 @@ Allfather Lloyd's knights lived in fear of his duels of judgment, in which verdi
 <text id="308">%null%</text>
 <text id="309">%null%</text>
 <text id="310">Small throwing knife.
-Throw at enemies to inflict physical damage.
+Throw at enemies to inflict 100 physical damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="311">A throwing knife dipped in poison.
-Throw at enemies to deal damage and inflict 30 Poison.
+Throw at enemies to deal 100 physical damage and inflict 30 Poison.
 Scales with Luck.
 
 Used by assassins of Londor, land of Hollows.
 The poison is jokingly known as Hollow's blood.</text>
 <text id="320">Small throwing knife imbued with magic.
-Throw at enemies to inflict magic damage.
+Throw at enemies to inflict 100 magic damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="321">Small throwing knife imbued with fire.
-Throw at enemies to inflict fire damage.
+Throw at enemies to inflict 100 fire damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="322">Small throwing knife imbued with lightning.
-Throw at enemies to inflict lightning damage.
+Throw at enemies to inflict 100 lightning damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="323">Small throwing knife imbued with darkness.
-Throw at enemies to inflict dark damage.
+Throw at enemies to inflict 100 dark damage.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="324">A throwing knife dipped in the abyss.
-Throw at enemies to deal damage and inflict 30 Curse.
+Throw at enemies to deal 100 physical damage and inflict 30 Curse.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="325">A lacerating throwing knife.
-Throw at enemies to deal damage and inflict 20 Bleed.
+Throw at enemies to deal 100 physical damage and inflict 20 Bleed.
 Scales with Luck.
 
 Most items choose their wielder, and only
 experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="326">A throwing knife dipped in frost.
-Throw at enemies to deal damage and inflict 30 Frost.
+Throw at enemies to deal 100 physical damage and inflict 30 Frost.
 Scales with Luck.
 
 Most items choose their wielder, and only
@@ -622,22 +621,22 @@ experience can improve their effectiveness.
 True strength can be gained in no other way.</text>
 <text id="328">Cursed pine resin.
 
-Temporarily applies 15 Curse to right-hand weapon.
+Applies 15 Curse to right-hand weapon for 60 seconds.
 
 Normally used in the Undead Settlement for preservation and burials, but can mature into this state, becoming a valuable substance, used in a certain ceremony. Often seen for trade at exorbitant prices.</text>
 <text id="329">Blessed pine resin.
-Temporarily applies a physical effect to right-hand weapon and boosts damage against undead enemies.
+Adds 100 physical damage to right-hand weapon and boosts damage against undead enemies by 5% for 60 seconds.
 
 Used by clerics and the likes to put on rest undead creatures.</text>
 <text id="330">Black charcoal-like pine resin.
-Temporarily applies fire to right-hand weapon.
+Adds 100 fire damage to right-hand weaponfor 60 seconds.
 
 Used in the Undead Settlement to preserve
 Undead bodies after dissection, and to bury them.</text>
 <text id="331">Rare pine resin which emits golden sparks.
 Chunks of it are even rarer.
 
-Temporarily applies lightning to right-hand weapon.
+Adds 100 lightning damage to right-hand weapon for 60 seconds.
 
 Its origins are unknown, although some have
 speculated that it may in fact be a type of
@@ -646,17 +645,17 @@ fungal resin.</text>
 <text id="333">%null%</text>
 <text id="334">Charcoal pine resin rotted with human body fluids.
 
-Temporarily applies dark to right-hand weapon.
+Adds 100 dark damage to right-hand weapon for 60 seconds.
 
 Normally used in the Undead Settlement for preservation and burials, but can mature into this state, becoming a valuable substance, used in a certain ceremony. Often seen for trade at exorbitant prices.</text>
 <text id="335">Highly viscous scarlet plant secretions.
 
-Temporarily applies 15 Bleed to right-hand weapon.
+Applies 15 Bleed to right-hand weapon for 60 seconds.
 
 Associated with the warriors of Carthus, whose blades take on the scarlet hues of both this sanguine substance and the spatters of their victims' blood.</text>
 <text id="336">Pale pine resin that faintly glimmers.
 
-Temporarily applies magic to right-hand weapon.
+Adds 100 magic damage to right-hand weapon for 60 seconds.
 
 The blood red substance sometimes found within suggests there is more to this so-called resin than meets the eye.</text>
 <text id="337">%null%</text>
@@ -677,13 +676,13 @@ Does not last for long, but can be used in inventive ways, such as applying it i
 <text id="343">Pine resin that has rotted and turned poisonous.
 Likely rotten from the start.
 
-Temporarily applies 15 Poison to right-hand weapon.
+Applies 15 Poison to right-hand weapon for 60 seconds.
 
 Farron Keep was swallowed by the rotted wood, where the blunt-horned Ghrus concoct this resin.</text>
 <text id="344">Pine resin that has frozen and turned ice-cold.
 Likely frozen from the start.
 
-Temporarily applies 15 Frost to right-hand weapon.
+Applies 15 Frost to right-hand weapon for 60 seconds.
 
 Irithyll of the Boreal Valley was swallowed by the chilling mist, where the Irithyllian slaves concoct this resin.</text>
 <text id="345">%null%</text>
@@ -985,7 +984,7 @@ permeates the body, it protects the user
 from dark and lightning.</text>
 <text id="452">A small clump of mossfruit.
 
-Temporarily boosts bleed, poison, frost, and curse resistance.
+Boosts bleed, poison, frost, and curse resistance by 80 for 120 seconds.
 
 All mossfruit is the same regardless of its color,
 and has the effects of moss of all colors.</text>
@@ -1008,38 +1007,38 @@ Use to transform into something which blends into the surroundings.
 Little Dusk's first sorcerer's staff eventually became a seedling, and then three white birch saplings. The young branch is said to still contain echoes of little Dusk's capriciousness.</text>
 <text id="455">An old rusted copper coin.
 
-Crushing the coin boosts item discovery.
+Crushing the coin boosts item discovery by 50.
 Lasts until death or warp.
 
 Those who have lost their fortunes rely upon this superstitious practice, hoping to retrieve what was once theirs, and more.</text>
 <text id="456">Special brew of Siegward of Catarina.
 Perfect for travel in its jolly barrel mug.
 
-Restores HP and temporarily boosts frost resistance.
+Restores 100 + 20% HP and boosts frost resistance by 150 for 60 seconds.
 
 Leave it to Siegward to discover a drink that even an Undead can enjoy. Perhaps his long years spent Undead have left him wanting to drain a cup or two and revel as if he were still among the living.</text>
 <text id="457">A rusty old gold coin that surely has no currency.
 
-Crushing the coin gives a large boost to item discovery.
+Crushing the coin boosts item discovery by 100.
 Lasts until death or warp.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="458">Medicinal pellet made from crushed insects.
-The blue type temporarily boosts magic damage absorption.
+The blue type boosts magic damage absorption by 20% for 120 seconds.
 
 The Boreal Valley is infested with moon bugs, meaning ingredients are never far from hand for the Irithyllian slaves who concoct this medicine.</text>
 <text id="459">Medicinal pellet made from crushed insects.
-The red type temporarily boosts fire damage absorption.
+The red type boosts fire damage absorption by 20% for 120 seconds.
 
 Prepared in the Cathedral of the Deep by evangelists, who dole them out to followers to ease their suffering when they burn.</text>
 <text id="460">Medicinal pellet made from crushed insects.
-The yellow type temporarily boosts lightning damage absorption.
+The yellow type boosts lightning damage absorption by 20% for 120 seconds.
 
 The grave wardens of Carthus used these to repel a great sand worm.
 
 The worm tumbled into the catacombs, and proceeded to dominate its new home in the Smoldering Lake.</text>
 <text id="461">Medicinal pellet made from crushed insects.
-The black type temporarily boosts Dark damage absorption.
+The black type boosts Dark damage absorption by 20% for 120 seconds.
 
 At all times, the Abyss Watchers of the Undead Legion keep a supply of these concoctions, prepared by the acolytes. Rumor has it their Ghru descendants still make these concoctions.</text>
 <text id="462">Branch of a white birch received from a giant, apparently as a token of friendship.
@@ -1364,29 +1363,34 @@ Bestowed with the mother's gift from Brume Tower, the Marauder slew her former a
 As the ages pasted, the Marauder wandered the lands, in search of his next victim.</text>
 <text id="800">Small stone made up of crystallized souls. 
 
-Restores 300 HP over 30 seconds.
+Restores 300 HP over 30 seconds. Stacks.
+Effect duration can be extended.
 
 Often found near abandoned corpses, as if it were what remains of the soul.</text>
 <text id="801">Small stone made up of crystallized souls. 
 
-Restores 600 HP over 30 seconds.
+Restores 600 HP over 30 seconds. Stacks.
+Effect duration can be extended.
 
 The dull glimmer of these mysterious stones brightens with the passage of time.</text>
 <text id="802">Small stone made up of crystallized souls. 
 
-Restores 900 HP over 30 seconds.
+Restores 900 HP over 30 seconds. Stacks.
+Effect duration can be extended.
 
 A rare stone with so brilliant a shine would fetch a handsome price. But what value could it really have, without knowing who died to leave it behind?</text>
 <text id="803">Specially treated dried mushroom.
 Creates a euphoric sensation when ingested.
 
-Restores 1200 HP over 30 seconds.
+Restores 1200 HP over 30 seconds. Stacks.
+Effect duration can be extended.
 
 Saint Elizabeth devoted her life to helping the needy by concocting medicine and potions.
 It's thought her great virtue was matched only by her sublime beauty, but who can say now?</text>
 <text id="804">Root of a perennial herb native to the south. 
 
-Restores 3000 HP over 300 seconds.
+Restores 3000 HP over 300 seconds. Stacks.
+Effect duration can be extended.
 
 Wild animals abhor the pungent odor of this root, but clerics on pilgrimage are keenly aware of the value of its powerful medicinal effects.</text>
 <text id="805">Rogue water of unknown origin.
@@ -1940,7 +1944,8 @@ The merchant, the captain of a clan of hunters, was fascinated with weaponry.</t
 Brightbugs are said to comfort the dead,
 and are found in the marshlands leading to a long forgotten crypt.
 
-Boosts damage and absorption by 20% for 60 seconds.
+Boosts weapon damage and all absorptions by 20% for 60 seconds.
+Effect duration can be extended.
 
 By ingesting a brightbug just before death,
 the moment at which they glow most brightly,
@@ -1956,7 +1961,7 @@ A rare and peculiar thing, to be certain, but one without a known purpose.
 The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2163">The taut hide of a crystal lizard. Crush to unleash the souls embedded within.
 
-Use to acquire souls.
+Use to acquire many souls.
 
 Crystal lizards often consume stray souls as if ravenous with hunger.</text>
 <text id="2170">A torn page from the journel of Occultist Grudore.
@@ -2030,43 +2035,47 @@ Throw to inflict high Poise damage and Stamina damage.
 Not to be underestimated, as it can be thrown with enough force to send most enemies flying.</text>
 <text id="3004">A rusty old coin that surely has no currency.
 
-Crushing the coin gives a boost to soul gain.
+Crushing the coin boosts soul gain by 15%.
 Lasts until death or warp.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="3005">A rusty old silver coin that surely has no currency.
 
-Crushing the coin gives a large boost to soul gain.
+Crushing the coin boosts soul gain by 30%.
 Lasts until death or warp.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="3018">Powerful bisque urn filled with dark energies. 
 
-Explodes, inflicting great dark damage.</text>
+Explodes, inflicting 200 dark damage.</text>
 <text id="3019">Powerful bisque urn filled with holy water. 
 
-Explodes, inflicting physical damage and reducing all absorptions by 10% for 10 seconds.</text>
+Explodes, inflicting 300 physical damage and reducing all absorptions by 10% for 10 seconds.</text>
 <text id="3020">Powerful bisque urn filled with magical energies. 
 
-Explodes, inflicting great magic damage.</text>
+Explodes, inflicting 300 magic damage.</text>
 <text id="3021">A balm extracted from a rare plant.
 
-Temporarily increases strength.
+Increases strength by 10 for 300 seconds.
+Effect duration can be extended.
 
 This special fragrant oil affects the mind, granting a fleeting sense of empowerment.</text>
 <text id="3022">A balm extracted from a rare plant.
 
-Temporarily increases dexterity.
+Increases dexterity by 10 for 300 seconds.
+Effect duration can be extended.
 
 This special fragrant oil affects the mind, granting a fleeting sense of empowerment.</text>
 <text id="3023">A balm extracted from a rare plant.
 
-Temporarily increases intelligence.
+Increases intelligence by 10 for 300 seconds.
+Effect duration can be extended.
 
 This special fragrant oil affects the mind, granting a fleeting sense of empowerment.</text>
 <text id="3024">A balm extracted from a rare plant.
 
-Temporarily increases faith.
+Increases faith by 10 for 300 seconds.
+Effect duration can be extended.
 
 This special fragrant oil affects the mind, granting a fleeting sense of empowerment.</text>
 <text id="3026">Consume to unleash the latent magic within.
@@ -2282,7 +2291,7 @@ Used in infusion to change the nature of a catalyst.
 The smouldering is said to be neverending, allowing the sorcerer to modify catalysts endlessly.</text>
 <text id="4100">Stone imbued with the power of the everlasting dragons, offered to a towering dragon.
 
-Emit dragon breath alongside an archdragon mirage.
+Emit dragon breath alongside an archdragon mirage, dealing 600 fire damage.
 Unlimited uses, but only usable whilst barenaked.
 Does not scale with any stat.
 Other spellbound items appear to react to the damage dealt with this stone.
@@ -2290,7 +2299,7 @@ Other spellbound items appear to react to the damage dealt with this stone.
 The road to the old dragons is long and arduous, and only one can complete the journey.</text>
 <text id="4101">Stone imbued with the power of the everlasting dragons, offered to a towering dragon.
 
-Emit dragon might alongside an archdragon mirage.
+Emit dragon might alongside an archdragon mirage, dealing 2,000 fire damage.
 Only usable whilst barenaked.
 Does not scale with any stat.
 This stone draws upon the blood of foes, allowing for endless usage.
@@ -2298,7 +2307,7 @@ This stone draws upon the blood of foes, allowing for endless usage.
 The road to the old dragons is long and arduous, and only one can complete the journey.</text>
 <text id="4110">Stone imbued with the power of the everlasting dragons, offered to a towering dragon. This stone shows signs of a nascent light.
 
-Emit dragon fire orbs alongside an archdragon mirage.
+Emit dragon fire orbs alongside an archdragon mirage, dealing 500 fire damage.
 Unlimited uses, but only usable whilst barenaked.
 Does not scale with any stat.
 Other spellbound items appear to react to the damage dealt with this stone.
@@ -2306,7 +2315,7 @@ Other spellbound items appear to react to the damage dealt with this stone.
 The road to the old dragons is long and arduous, and only one can complete the journey.</text>
 <text id="4111">Stone imbued with the power of the everlasting dragons, offered to a towering dragon. This stone shows signs of a nascent light.
 
-Emit dragon might alongside an archdragon mirage and summon ancient ally who scorches the land.
+Emit dragon might alongside an archdragon mirage and summon ancient ally who scorches the land, dealing 2,000, 1,000 and 250 fire damage.
 Only usable whilst barenaked.
 Does not scale with any stat.
 This stone draws upon the blood of foes, allowing for endless usage.
@@ -2315,36 +2324,43 @@ The road to the old dragons is long and arduous, and only one can complete the j
 <text id="4200">The fading soul of a fallen paladin.
 
 Use to absorb its latent power, boosting absorption by 80% for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4201">The fading soul of a fallen sentinel.
 
 Use to absorb its latent power, boosting Poise by 100% for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4202">The fading soul of a fallen sage.
 
 Use to absorb its latent power, boosting max FP by 100% and reducing skill FP consumption by 80% for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4203">The fading soul of a fallen warrior.
 
 Use to absorb its latent power, reducing weapon stamina consumption by 80% for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4204">The fading soul of a fallen astrologer.
 
 Use to absorb its latent power, granting immunity to status effects for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4205">The fading soul of a fallen berserker.
 
 Use to absorb its latent power, increasing stamina recovery by 100 for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4206">The fading soul of a fallen champion.
 
 Use to absorb its latent power, increase STR, DEX, INT, FTH and LCK by 99 for 30 seconds.
+Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4300">A weapon oil containing latent magic, used to change the apperance of weaponry.
@@ -2722,77 +2738,77 @@ Whilst embered, beckon a local companion to the player. Once present, they will 
 
 Once defeated, you must rest at a bonfire to revive them.</text>
 <text id="5400">Bisque urn filled with black powder.
-Explodes, inflicting fire damage.
+Explodes, inflicting 500 fire damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this firebomb draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5401">More powerful bisque urn filled with special black
-powder. Explodes, inflicting great fire damage.
+powder. Explodes, inflicting 700 fire damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this firebomb draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5402">Powerful bisque urn filled with holy water.
-Explodes, inflicting physical damage and reducing all absorptions by 10% for 10 seconds.
+Explodes, inflicting 700 physical damage and reducing all absorptions by 10% for 10 seconds.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5403">Powerful bisque urn filled with magical energies. 
-Explodes, inflicting great magic damage.
+Explodes, inflicting 700 magic damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5404">Powerful bisque urn filled with dark energies. 
-Explodes, inflicting great dark damage.
+Explodes, inflicting 500 dark damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5410">Explosive lightning urn.
-Explodes upon contact, inflicting lightning damage.
+Explodes upon contact, inflicting 700 lightning damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5420">Small throwing knife.
-Throw at enemies to inflict damage.
+Throw at enemies to inflict 250 physical damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5421">Small throwing knife imbued with magic.
-Throw at enemies to inflict magic damage.
+Throw at enemies to inflict 250 magic damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5422">Small throwing knife imbued with fire.
-Throw at enemies to inflict fire damage.
+Throw at enemies to inflict 250 fire damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5423">Small throwing knife imbued with lightning.
-Throw at enemies to inflict lightning damage.
+Throw at enemies to inflict 250 lightning damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5424">Small throwing knife imbued with darkness.
-Throw at enemies to inflict dark damage.
+Throw at enemies to inflict 250 dark damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5425">A throwing knife dipped in poison.
-Throw at enemies to deal damage and inflict 60 Poison.
+Throw at enemies to deal 250 physical damage and inflict 60 Poison.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5426">A lacerating throwing knife.
-Throw at enemies to deal damage and inflict 40 Bleed.
+Throw at enemies to deal 250 physical damage and inflict 40 Bleed.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5427">A throwing knife dipped in the abyss.
-Throw at enemies to deal damage and inflict 60 Curse.
+Throw at enemies to deal 250 physical damage and inflict 60 Curse.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5428">A throwing knife dipped in frost.
-Throw at enemies to deal damage and inflict 60 Frost.
+Throw at enemies to deal 250 physical damage and inflict 60 Frost.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
@@ -2803,7 +2819,7 @@ Scales with Luck.
 Uniquely crafted by Occultist Grudore, this kukri draws upon its wielder's focus, allowing for endless usage.</text>
 <text id="5440">Dried fecal waste material, moist on the inside.
 
-Throw at enemy to inflict 60 Poison against them and yourself.
+Throw at enemy to inflict 130 Toxic against them and 110 yourself.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this dung pie draws upon the blood of foes, allowing for endless usage.</text>
@@ -2813,54 +2829,54 @@ Throw to shatter, spreading souls which attract enemies. Not effective for all f
 
 Uniquely crafted by Occultist Grudore, this skull draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5460">Green weed, shaped like a flower.
-Temporary boost to stamina recovery speed.
+Boosts stamina recovery speed by 20 for 20 seconds.
 
 Uniquely cultivated by Occultist Grudore, this blossom draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5470">Lightly enchanted golden powder.
 
-Repairs equipped weapons and armor, as long as they haven't already broken.
+Repairs 150 durability of equipped weapons and armor, as long as they haven't already broken.
 
 Uniquely crafted by Occultist Grudore, this powder draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5480">Black charcoal-like pine resin.
-Quickly applies fire to right-hand weapon.
+Quickly adds 100 fire damage to right-hand weapon and further increases fire damage by 10% for 10 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5481">Pale pine resin that faintly glimmers.
-Quickly applies magic to right-hand weapon.
+Quickly adds 100 magic damage to right-hand weapon and further increases magic damage by 10% for 10 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5482">Rare pine resin which emits golden sparks.
-Quickly applies lightning to right-hand weapon.
+Quickly adds 100 lightning damage to right-hand weapon and further increases lightning damage by 10% for 10 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5483">Charcoal pine resin rotted with human body fluids.
-Quickly applies dark to right-hand weapon.
+Quickly adds 100 dark damage to right-hand weapon and further increases dark damage by 10% for 10 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5484">Pine resin that has rotted and turned poisonous.
 Likely rotten from the start.
 
-Quickly applies 20 poison to right-hand weapon.
+Quickly applies 20 poison to right-hand weapon for 20 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5485">Highly viscous scarlet plant secretions.
 
-Quickly applies 20 bleed to right-hand weapon.
+Quickly applies 20 bleed to right-hand weapon for 20 seconds.
 
 Uniquely crafted by Occultist Grudore, this substance draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5486">Pine resin that has frozen and turned ice-cold.
 Likely frozen from the start.
 
-Quickly applies 20 frost to right-hand weapon.
+Quickly applies 20 frost to right-hand weapon for 20 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5487">Cursed pine resin.
 
-Quickly applies 20 curse to right-hand weapon.
+Quickly applies 20 curse to right-hand weapon for 20 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5488">Blessed pine resin.
-Quickly applies a physical effect to right-hand weapon and boosts damage against undead enemies.
+Quickly adds 100 physical damage to right-hand weapon, boosts damage against undead enemies by 5% and further increases physical damage by 10% for 10 seconds.
 
 Uniquely crafted by Occultist Grudore, this resin draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5490">Medicinal pellet made from crushed insects.
@@ -2882,7 +2898,7 @@ When held it provides the holder with a sense of poise.</text>
 <text id="5501">A rare flower with a bone white coloring.
 It is said that consuming this flower grants magical abilities.
 
-Boosts damage against Undead enemies by 20% for 60 seconds.
+Boosts damage against Undead enemies by 20% and prevents skeleton reassembly for 60 seconds.
 
 The Inferi flower has long been associated with the undead, and was a common burial flower.</text>
 <text id="5502">A rare flower with a reddish coloring.
@@ -4260,7 +4276,7 @@ Recall your active companions, causing them to appear in front of you.</text>
 Scoff down the phial to boost the damage of nearby active companions by 20% for 30 seconds.</text>
 <text id="20054">A purple phial concocted by Ritualist Ellie.
 
-Scoff down the phial to boost the stamina of nearby active companions, allowing them to attack for longer. Lasts 30 seconds.</text>
+Scoff down the phial to boost the max stamina of nearby active companions by 300% and their stamina recovery by 30, allowing them to attack for longer. Lasts 30 seconds.</text>
 <text id="40000">A crumbling token.
 
 Exchange with the Fire Keeper for weaponry and spells</text>
@@ -4393,6 +4409,7 @@ Reinforces right weapon with magic.
 
 Increases Magic damage by 50 for 90 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The power of the sorcerer-swordsmen of Vinheim
 is predicated upon this and Magic Shield.
@@ -4402,6 +4419,7 @@ Greatly reinforces right weapon with magic.
 
 Increases Magic damage by 60 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties
 are permitted the use of this spell. The azure blade
@@ -4411,6 +4429,7 @@ Reinforces right weapon with crystal.
 
 Increases Magic damage by 75 for 30 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
@@ -4420,6 +4439,7 @@ Reinforces right weapon with crystal.
 
 Increases Magic damage by 100 for 120 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
@@ -4428,6 +4448,7 @@ between weapon and soul.</text>
 Reinforces left shield with magic.
 
 Boosts shield absorption by 30% and stability by 5% for 60 seconds.
+Effect duration can be extended.
 
 Even the smallest of shields can be toughened
 considerably with the use of this spell.</text>
@@ -4435,12 +4456,14 @@ considerably with the use of this spell.</text>
 Greatly reinforces left shield with magic.
 
 Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1331010">Sorcery which improves upon Great Magic Shield.
 Greatly reinforces left shield with magic.
 
 Boosts shield absorption by 100% and stability by 20% for 120 seconds.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,
@@ -4448,6 +4471,7 @@ land of ancient golden sorceries.
 
 Turns right weapon invisible.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
@@ -4457,6 +4481,7 @@ land of ancient golden sorceries.
 
 Turns right weapon invisible with no focus cost.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
@@ -4466,6 +4491,7 @@ land of ancient golden sorceries.
 
 Turns body nigh on invisible, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Although perfect invisibility is unachievable
 due to the risk of dissipation, the caster
@@ -4476,6 +4502,7 @@ land of ancient golden sorceries.
 
 Turns body of self and allies nigh on invisible, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Although perfect invisibility is unachievable
 due to the risk of dissipation, the caster
@@ -4486,6 +4513,7 @@ land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 This light-producing magic is elementary
 but nonetheless demonstrates the pure
@@ -4496,6 +4524,7 @@ land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings with no focus cost.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 This light-producing magic is elementary
 but nonetheless demonstrates the pure
@@ -4533,6 +4562,7 @@ sorcerer at Vinheim Dragon School.
 Masks noises of the caster and prevents fall damage.
 Reduces enemy detection via sound by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Their mastery of this sorcery alone allows
 Vinheim spooks to demand handsome payment
@@ -4914,6 +4944,7 @@ but reduces elemental absorption by 100%.
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
 Lasts 15 seconds.
+Effect duration can be extended.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
@@ -4924,6 +4955,7 @@ but reduces elemental absorption by 100%.
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
@@ -4931,6 +4963,7 @@ resulting in its obsolescence in the Great Swamp.</text>
 with Carmina.
 
 Intense sweating increases Fire absorption by 30% for 30 seconds.
+Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
@@ -4938,6 +4971,7 @@ likely forming the foundation for many subsequent spells.</text>
 with Carmina.
 
 Intense sweating increases Fire absorption by 50% for 30 seconds.
+Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
@@ -4946,6 +4980,7 @@ Reinforces right weapon with flame.
 
 Increases Fire damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2435010">Pyromancy of Carthus of the Sands.
@@ -4953,6 +4988,7 @@ Reinforces right weapon with flame.
 
 Increases Fire damage by 100 and reduces Stamina Consumption by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2436000">Advanced pyromancy of Quelana,
@@ -4975,6 +5011,7 @@ elemental to the art of pyromancy.</text>
 
 Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -4983,6 +5020,7 @@ accepted as a substitute for strength.</text>
 
 Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -5089,6 +5127,7 @@ associated with Carmina.
 
 Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 The yellowish sweat cures all kinds of ailments.</text>
 <text id="2562010">Advanced pyromancy that internalizes flame,
@@ -5096,6 +5135,7 @@ associated with Carmina.
 
 Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds. 
+Effect duration can be extended.
 Can be used with no focus cost.
 
 The yellowish sweat cures all kinds of ailments.</text>
@@ -5153,6 +5193,7 @@ in Carthus of the Sands.
 
 Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
@@ -5162,6 +5203,7 @@ in Carthus of the Sands.
 
 Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
@@ -5225,6 +5267,7 @@ The earth itself responds to the flame, as to why, it is unknown.</text>
 Call forth rock, boosting absorption by 30%.
 Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2713010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
@@ -5232,6 +5275,7 @@ Rockflesh protects the adept pyromancer in times of trouble.</text>
 Call forth rock, boosting absorption by 30%.
 Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2714000">A pyromancy that creates imbues the caster with flame.
@@ -5346,18 +5390,21 @@ a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 60 seconds.
+Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3504010">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 120 seconds.
+Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 60 seconds.
+Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -5365,6 +5412,7 @@ a great many warriors.</text>
 <text id="3505010">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
+Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -5373,6 +5421,7 @@ a great many warriors.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 60 seconds.
+Effect duration can be extended.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -5380,6 +5429,7 @@ the Queen's child.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
+Effect duration can be extended.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -5475,6 +5525,7 @@ anger and the like with confidence.</text>
 
 Boosts equipment load by 25% and reveals summon signs without using an ember.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -5483,6 +5534,7 @@ of hope for the lost.</text>
 
 Boosts equipment load by 40% and reveals summon signs without using an ember.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -5549,6 +5601,7 @@ This miracle is likely a tale of their bond.</text>
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. 
 Lasts 60 seconds.
+Effect duration can be extended.
 
 There was a short period in history where
 clerics and sorcerers opposed one another.
@@ -5558,6 +5611,7 @@ to have some means of opposing magic.</text>
 
 Boosts Magic absorption by 50% by covering the body in a strong white protective coating.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
@@ -5567,6 +5621,7 @@ in preparing means to counter it.</text>
 
 Boosts elemental absorption by 50% by covering the body in a strong white protective coating.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
@@ -5574,12 +5629,14 @@ Havel despised magic, and was never complacent
 in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
+Effect duration can be extended.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3563010">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
+Effect duration can be extended.
 Range increased to 8 meters.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
@@ -5589,6 +5646,7 @@ Reinforces right weapon with lightning.
 
 Increases Lightning damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
@@ -5597,6 +5655,7 @@ Reinforces right weapon with sunlight.
 
 Increases Lightning damage by 100 and boosts damage against Hollow enemies by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The power of the sun has never been forgotten, and its power burns bright.</text>
 <text id="3591000">Miracle of those who devoted themselves
@@ -5605,6 +5664,7 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -5615,6 +5675,7 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 100 and boosts damage against Abyssal enemies by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -5646,6 +5707,8 @@ Despite losing both her sight and her voice, she was determined to record the ta
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60, restores 5 HP every second and boosts damage to undead enemies by 20% for 60 seconds.
+Prevents skeleton reassembly.
+Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -5653,6 +5716,8 @@ after the Scholars acquired the Grand Archives.</text>
 <text id="3760010">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 75, restores 5 HP every second and boosts damage to undead enemies by 20% for 120 seconds.
+Prevents skeleton reassembly.
+Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -6068,11 +6133,13 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
@@ -6119,11 +6186,13 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 <text id="4305000">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
@@ -6179,6 +6248,7 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 60 and boosts Dark absorption by 10% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -6188,6 +6258,7 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -6224,19 +6295,23 @@ Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he 
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+Effect duration can be extended.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 60 Bleed on hit.
-Lasts 120 seconds.</text>
+Lasts 120 seconds.
+Effect duration can be extended.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+Effect duration can be extended.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
-Lasts 120 seconds.</text>
+Lasts 120 seconds.
+Effect duration can be extended.</text>
 </entries>
 </fmg>

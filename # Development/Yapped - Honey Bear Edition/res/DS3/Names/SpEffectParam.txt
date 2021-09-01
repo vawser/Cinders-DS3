@@ -387,6 +387,8 @@
 3871 [Item] Young White Branch [CycleOccurance]
 3880 [Item] Rusted Coin
 3890 [Item] Rusted Gold Coin
+3900 [Item] Siegbrau - HP recovery
+3901 [Item] Siegbrau - Frost boost
 3910 [Item] Blue Bug Pellet
 3920 [Item] Red Bug Pellet
 3930 [Item] Yellow Bug Pellet
@@ -5552,6 +5554,8 @@
 180000250 Poison - Pistol Sidearm
 180000260 Poison - Sprayer Sidearm
 180000270 Poison - Fist Sidearm
+180000280 Toxic - Spellbound Dung
+180000281 Toxic - Spellbound Dung - Self
 180009999 ### Bleed - Weapons ###
 180010000 Bleed - Normal (Infusion)
 180010001 Bleed - Quick (Infusion)

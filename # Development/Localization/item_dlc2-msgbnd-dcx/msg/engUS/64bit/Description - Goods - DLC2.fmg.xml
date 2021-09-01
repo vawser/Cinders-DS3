@@ -6,7 +6,7 @@
 <entries>
 <text id="315">This special throwing blade has a flat tip, and is wielded by guardians of the Church of Filianore.
 
-Project illusory blades whichseek their targets.
+Project illusory blades whichseek their targets and deal 300 physical damage.
 Does not scale with any stat.
 This item draws upon the blood of foes, allowing for endless usage.
 
@@ -82,6 +82,8 @@ in physical form.</text>
 held by the knights of Princess Filianore.
 
 They are the namesake of the Spears of the Church.
+Deals 500 and 400 lightning damage.
+Scales with Luck.
 
 When Spears of the Church face unduly
 treacherous foes, this allows them to
@@ -94,6 +96,8 @@ held by the knights of Princess Filianore.
 These Divine Spears of gold were placed in
 the trusted hands of exalted Spears.
 This item draws upon the blood of foes, allowing for endless usage.
+Deals 1050 and 867 lightning damage.
+Does not scale with any stat.
 
 When Spears of the Church face unduly
 treacherous foes, this allows them to
@@ -152,7 +156,8 @@ dried, and so consumed the dark soul.</text>
 
 This semi-precious gem honors a Spear of Church after a battle well-fought, and is said to slightly enhance their blessing of protection.
 
-Grants additional HP, Stamina recovery and boosts damage absorption for a short duration.
+Restores 3 HP every second, boosts stamina recovery by 10 and all absorptions by 10% for 120 seconds.
+Effect duration can be extended.
 This item draws upon the blood of foes, allowing for endless usage.</text>
 <text id="10000">%null%</text>
 <text id="10001">%null%</text>

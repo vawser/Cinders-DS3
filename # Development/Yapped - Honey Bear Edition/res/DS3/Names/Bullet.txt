@@ -2679,10 +2679,13 @@
 12411500 [Pyromancy] Incendiary Combustion [Hit]
 12420000 [Pyromancy] Poison Mist
 12420100 [Pyromancy] Lingering Poison Mist
+12420110 [Pyromancy] Lingering Poison Mist
 12421000 [Pyromancy] Toxic Mist
 12421100 [Pyromancy] Lingering Toxic Mist
+12421110 [Pyromancy] Lingering Toxic Mist
 12422000 [Pyromancy] Acid Surge
 12422100 [Pyromancy] Lingering Acid Surge
+12422110 [Pyromancy] Lingering Acid Surge
 12424000 [Pyromancy] Chaos Beam
 12424100 [Pyromancy] Chaos Beam [Hit]
 12424200 [Pyromancy] Incinerating Chaos Beam
@@ -4042,7 +4045,7 @@
 222000070 Throwing Knife - Bleed
 222000080 Throwing Knife - Frost
 222000100 Kukri
-222000200 Church Guardian Shiv
+222000200 Spellbound Guardian Shiv
 222001000 Firebomb
 222001001 Firebomb [Hit]
 222001002 Firebomb [Hit]

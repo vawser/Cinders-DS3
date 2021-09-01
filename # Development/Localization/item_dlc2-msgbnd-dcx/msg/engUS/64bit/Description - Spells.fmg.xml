@@ -601,6 +601,7 @@ Reinforces right weapon with magic.
 
 Increases Magic damage by 50 for 90 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The power of the sorcerer-swordsmen of Vinheim
 is predicated upon this and Magic Shield.
@@ -610,6 +611,7 @@ Greatly reinforces right weapon with magic.
 
 Increases Magic damage by 60 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties
 are permitted the use of this spell. The azure blade
@@ -619,6 +621,7 @@ Reinforces right weapon with crystal.
 
 Increases Magic damage by 75 for 30 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
@@ -628,6 +631,7 @@ Reinforces right weapon with crystal.
 
 Increases Magic damage by 100 for 120 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
@@ -636,6 +640,7 @@ between weapon and soul.</text>
 Reinforces left shield with magic.
 
 Boosts shield absorption by 30% and stability by 5% for 60 seconds.
+Effect duration can be extended.
 
 Even the smallest of shields can be toughened
 considerably with the use of this spell.</text>
@@ -643,12 +648,14 @@ considerably with the use of this spell.</text>
 Greatly reinforces left shield with magic.
 
 Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1331010">Sorcery which improves upon Great Magic Shield.
 Greatly reinforces left shield with magic.
 
 Boosts shield absorption by 100% and stability by 20% for 120 seconds.
+Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,
@@ -656,6 +663,7 @@ land of ancient golden sorceries.
 
 Turns right weapon invisible.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
@@ -665,6 +673,7 @@ land of ancient golden sorceries.
 
 Turns right weapon invisible with no focus cost.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
 Effective use of this, like any tool, perhaps,
@@ -674,6 +683,7 @@ land of ancient golden sorceries.
 
 Turns body nigh on invisible, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Although perfect invisibility is unachievable
 due to the risk of dissipation, the caster
@@ -684,6 +694,7 @@ land of ancient golden sorceries.
 
 Turns body of self and allies nigh on invisible, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Although perfect invisibility is unachievable
 due to the risk of dissipation, the caster
@@ -694,6 +705,7 @@ land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 This light-producing magic is elementary
 but nonetheless demonstrates the pure
@@ -704,6 +716,7 @@ land of ancient golden sorceries.
 
 Casts a light to illuminate surroundings with no focus cost.
 Lasts 120 seconds.
+Effect duration can be extended.
 
 This light-producing magic is elementary
 but nonetheless demonstrates the pure
@@ -741,6 +754,7 @@ sorcerer at Vinheim Dragon School.
 Masks noises of the caster and prevents fall damage.
 Reduces enemy detection via sound by 100%.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Their mastery of this sorcery alone allows
 Vinheim spooks to demand handsome payment
@@ -1122,6 +1136,7 @@ but reduces elemental absorption by 100%.
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
 Lasts 15 seconds.
+Effect duration can be extended.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
@@ -1132,6 +1147,7 @@ but reduces elemental absorption by 100%.
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
@@ -1139,6 +1155,7 @@ resulting in its obsolescence in the Great Swamp.</text>
 with Carmina.
 
 Intense sweating increases Fire absorption by 30% for 30 seconds.
+Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
@@ -1146,6 +1163,7 @@ likely forming the foundation for many subsequent spells.</text>
 with Carmina.
 
 Intense sweating increases Fire absorption by 50% for 30 seconds.
+Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
 likely forming the foundation for many subsequent spells.</text>
@@ -1154,6 +1172,7 @@ Reinforces right weapon with flame.
 
 Increases Fire damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2435010">Pyromancy of Carthus of the Sands.
@@ -1161,6 +1180,7 @@ Reinforces right weapon with flame.
 
 Increases Fire damage by 100 and reduces Stamina Consumption by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
 <text id="2436000">Advanced pyromancy of Quelana,
@@ -1183,6 +1203,7 @@ elemental to the art of pyromancy.</text>
 
 Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -1191,6 +1212,7 @@ accepted as a substitute for strength.</text>
 
 Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 A pyromancer fears the flame.
 However, this fear subsides once it is
@@ -1297,6 +1319,7 @@ associated with Carmina.
 
 Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 The yellowish sweat cures all kinds of ailments.</text>
 <text id="2562010">Advanced pyromancy that internalizes flame,
@@ -1304,6 +1327,7 @@ associated with Carmina.
 
 Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
+Effect duration can be extended.
 Can be used with no focus cost.
 
 The yellowish sweat cures all kinds of ailments.</text>
@@ -1361,6 +1385,7 @@ in Carthus of the Sands.
 
 Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
@@ -1370,6 +1395,7 @@ in Carthus of the Sands.
 
 Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Carthus's aggression has been likened to
 an uncontrollable fire, and since ancient times
@@ -1433,6 +1459,7 @@ The earth itself responds to the flame, as to why, it is unknown.</text>
 Call forth rock, boosting absorption by 30%.
 Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 30 seconds.
+Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2713010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
@@ -1440,6 +1467,7 @@ Rockflesh protects the adept pyromancer in times of trouble.</text>
 Call forth rock, boosting absorption by 30%.
 Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2714000">A pyromancy that creates imbues the caster with flame.
@@ -1553,18 +1581,21 @@ a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 60 seconds.
+Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3504010">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 120 seconds.
+Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 60 seconds.
+Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -1572,6 +1603,7 @@ a great many warriors.</text>
 <text id="3505010">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
+Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -1580,6 +1612,7 @@ a great many warriors.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 60 seconds.
+Effect duration can be extended.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -1587,6 +1620,7 @@ the Queen's child.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
+Effect duration can be extended.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -1682,6 +1716,7 @@ anger and the like with confidence.</text>
 
 Boosts equipment load by 25% and reveals summon signs without using an ember.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -1690,6 +1725,7 @@ of hope for the lost.</text>
 
 Boosts equipment load by 40% and reveals summon signs without using an ember.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -1756,6 +1792,7 @@ This miracle is likely a tale of their bond.</text>
 
 Boosts Magic absorption by 30% by covering the body in a white protective coating. 
 Lasts 60 seconds.
+Effect duration can be extended.
 
 There was a short period in history where
 clerics and sorcerers opposed one another.
@@ -1765,6 +1802,7 @@ to have some means of opposing magic.</text>
 
 Boosts Magic absorption by 50% by covering the body in a strong white protective coating.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
@@ -1774,6 +1812,7 @@ in preparing means to counter it.</text>
 
 Boosts elemental absorption by 50% by covering the body in a strong white protective coating.
 Lasts 60 seconds.
+Effect duration can be extended.
 
 Said to be a tale of Havel the Rock,
 arch enemy of Seath the Scaleless.
@@ -1781,12 +1820,14 @@ Havel despised magic, and was never complacent
 in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
+Effect duration can be extended.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3563010">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning attack by 20% and all absorption by 20% for self and those in the vicinity.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
+Effect duration can be extended.
 Range increased to 8 meters.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
@@ -1796,6 +1837,7 @@ Reinforces right weapon with lightning.
 
 Increases Lightning damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
@@ -1804,6 +1846,7 @@ Reinforces right weapon with sunlight.
 
 Increases Lightning damage by 100 and boosts damage against Hollow enemies by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The power of the sun has never been forgotten, and its power burns bright.</text>
 <text id="3591000">Miracle of those who devoted themselves
@@ -1812,6 +1855,7 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 75 for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -1822,6 +1866,7 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 100 and boosts damage against Abyssal enemies by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -1853,6 +1898,8 @@ Despite losing both her sight and her voice, she was determined to record the ta
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60, restores 5 HP every second and boosts damage to undead enemies by 20% for 60 seconds.
+Prevents skeleton reassembly.
+Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -1860,6 +1907,8 @@ after the Scholars acquired the Grand Archives.</text>
 <text id="3760010">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 75, restores 5 HP every second and boosts damage to undead enemies by 20% for 120 seconds.
+Prevents skeleton reassembly.
+Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -2275,11 +2324,13 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
@@ -2326,11 +2377,13 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 <text id="4305000">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
@@ -2386,6 +2439,7 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 60 and boosts Dark absorption by 10% for 60 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2395,6 +2449,7 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
 Scales with Spell Buff.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2431,19 +2486,23 @@ Aldrich dreamt as he slowly devoured the God of the Darkmoon. In this dream, he 
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+Effect duration can be extended.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 60 Bleed on hit.
-Lasts 120 seconds.</text>
+Lasts 120 seconds.
+Effect duration can be extended.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
-Lasts 60 seconds.</text>
+Lasts 60 seconds.
+Effect duration can be extended.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
-Lasts 120 seconds.</text>
+Lasts 120 seconds.
+Effect duration can be extended.</text>
 </entries>
 </fmg>
