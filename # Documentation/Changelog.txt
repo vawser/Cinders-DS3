@@ -104,6 +104,7 @@ Finish following weapons:
 # General
 - Changed several damage boosting effects: If an effect increases the damage of both weapons and spells, now it also boosts the damage of throwable items (except Flynn's Ring).
 - Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
+- Added details to several menu descriptions.
 
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
@@ -133,6 +134,8 @@ Finish following weapons:
 - Added several missing weapons and Millwood Greatarrows to the Gauntlet mode shop.
 - Fixed the storm type spells using more FP than they should.
 - Fixed the Earthern Peak bonfire not unlocking all its forge items.
+- Fixed the visual effects of Lingering Poison/Toxic Mist and Lingering Acid Surge.
+- Old man's Gambit and Luck Mastery now also double the elemental damage portion of weapons that have it.
  
 # Journey Configuration
 - Mythic Mode:
@@ -227,6 +230,7 @@ Finish following weapons:
 - They can be purchased from the Company of Champion's convenant shop (2 awestones and 5000 souls each).
 
 # Consumable Items
+- Increased the absorption buff the bug pellets give to 20% for both PVE and PVP.
 - All damage buffing resin consumables now add 100 damage.
 - Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
 - Added new spellbound item versions of all existing throwing knives and the other kind of firebombs/urns.
@@ -253,7 +257,7 @@ Finish following weapons:
 
 - Changed the draconic stones, they are now:
  - Spellbound Draconic Fire: Emits dragon fire breath, dealing 600 fire damage with no scaling. Gives spellbound charges.
- - Spellbound Draconic Might: Emits dragon might, dealing 2000 fire damage with no scaling and buffs the player with +10% damage boost and infinite poise for 10 seconds.
+ - Spellbound Draconic Might: Emits dragon might, dealing 2000 fire damage with no scaling and buffs the player with +10% damage boost and infinite poise for 30 seconds.
  - Spellbound Draconic Fire Orbs: Emits dragon fire orbs, dealing 500 fire damage with no scaling. Gives spellbound charges, but less than Spellbound Draconic Fire.
  - Spellbound Draconic Fury: Emits daconic might + buff, and summons ghost dragonoid that breathes fire dealing 1000 [250] fire damage.
 

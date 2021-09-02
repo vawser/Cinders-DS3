@@ -1334,32 +1334,32 @@ They labored together to provide comfort to the suffering.</text>
 <text id="20269">%null%</text>
 <text id="20270">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 100%.
+Extends the duration of certain effects by 100%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20271">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 120%.
+Extends the duration of certain effects by 120%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20272">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 140%.
+Extends the duration of certain effects by 140%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20273">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 160%.
+Extends the duration of certain effects by 160%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20274">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 180%.
+Extends the duration of certain effects by 180%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20275">A special ring given to those who are deemed fit to undertake the journey of discovery in Vinheim, home of sorcery.
 
-Extends length of spell effect by 200%.
+Extends the duration of certain effects by 200%.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A lingering dragon symbolizes the true nature of the consummate sorcerer.</text>
 <text id="20276">%null%</text>
@@ -2975,32 +2975,32 @@ Boosts damage by 30% against demonic creatures.
 <text id="30179">%null%</text>
 <text id="30180">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 20% against undead creatures.
+Boosts damage by 20% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30181">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 22% against undead creatures.
+Boosts damage by 22% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30182">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 24% against undead creatures.
+Boosts damage by 24% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30183">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 26% against undead creatures.
+Boosts damage by 26% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30184">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 28% against undead creatures.
+Boosts damage by 28% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30185">A ring used by a crypt warden of a forgotten tomb, who ensured none interred within could leave.
 
-Boosts damage by 30% against undead creatures.
+Boosts damage by 30% against undead creatures and prevents skeleton reassembly.
 
 'Lay still my fellows, rest until the fire fades away.'</text>
 <text id="30186">%null%</text>
@@ -4366,6 +4366,6 @@ Whilst equipped, the wearer gains the following:
 <text id="31080">A notebook filled to the brim with precise and obscure information.
 Provides the wearer with intimate knowledge of enemy weakpoints.
 
-Whilst equipped, you gain a 5% chance to deal double damage with any attack.</text>
+Whilst equipped, you gain a 5% chance to deal double damage with any weapon attack.</text>
 </entries>
 </fmg>
