@@ -92,7 +92,6 @@ Finish following weapons:
 
 # Lost Cat
 - Shield Catalyst - Loch Shield/Disc Chime
-- Grand Lance/Chariot Lance/Heide Lance
 - Covenant Inventory
 - Piercing Rifle
 - Gehrman's Blunderbuss
@@ -185,6 +184,12 @@ Finish following weapons:
   - Greatwood Club (Spin Bash)
   - Church Pick (Righteous Rush)
 
+- Added the following weapon:
+ - Grand Lance (Charge), equivalent to default Greatlance with different model.
+ - Heide Lance (Heide's Judgment)
+ - Heide Greatlance (Heide's Fury)
+ - Chariot Lance (Executioner's Torment)
+
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
 - Adjusted the stamina costs of Ringed Knight Paired Greatsword.
@@ -192,12 +197,16 @@ Finish following weapons:
 - Changed Sidearms' sound.
 - Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
 - Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
-- Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
+- Shield poking with Spear/Lance/Thrusting Sword now boosts weapon stability by 30% and reduced damage taken to 0% during the animation.
+- Lances now have 50% damage absorption during certain frames of attack.
 - Lances now have their own Weapon Class:
  - Irithyll Lance
- - Greatlance
+ - Grand Lance
  - Rampart Golem Lance
-
+ - Heide Lance
+ - Heide Greatlance
+ - Chariot Lance
+ 
 - Minor Moveset Changes:
  - Rolling 1H R1 for Alternate Scythe moveset.
  - 4th 1H R1 for Alternate Straight Sword moveset. 
@@ -205,6 +214,8 @@ Finish following weapons:
  - Restored Short Bow/Composite Bow Running attack.
  - Decrease the ending lag and reload speed for Crossbows.
  - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset.
+ - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
+ - Changed Lance's 1H & 2H Rolling R1.
 
 # Cosmetic Items
 - Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
