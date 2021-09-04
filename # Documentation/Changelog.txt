@@ -136,6 +136,7 @@ Finish following weapons:
 - Fixed the visual effects of Lingering Poison/Toxic Mist and Lingering Acid Surge.
 - Old man's Gambit and Luck Mastery now also double the elemental damage portion of weapons that have it.
 - Fixed the damage and duration from the toxic effect of the dung items.
+- Fixed Caressing Tears not removing all aux build-up types.
  
 # Journey Configuration
 - Mythic Mode:
