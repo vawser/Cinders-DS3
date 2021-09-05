@@ -137,6 +137,9 @@ Finish following weapons:
 - Old man's Gambit and Luck Mastery now also double the elemental damage portion of weapons that have it.
 - Fixed the damage and duration from the toxic effect of the dung items.
 - Fixed Caressing Tears not removing all aux build-up types.
+- Fixed Third Hit of Flame Fan not chaining into the Second Hit when casted on Left Hand.
+- Fixed Great Combustion, Black Flame and Flame Fan behavior when casted on Main Hand.
+- Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
  
 # Journey Configuration
 - Mythic Mode:
@@ -187,9 +190,9 @@ Finish following weapons:
 
 - Added the following weapon:
  - Grand Lance (Charge), equivalent to default Greatlance with different model.
- - Heide Lance (Heide's Judgment)
- - Heide Greatlance (Heide's Fury)
- - Chariot Lance (Executioner's Torment)
+ - Heide Lance (Heide's Judgment), can be exchanged for 15 Grateful Souls in Way of Blue convenant shop.
+ - Heide Greatlance (Heide's Fury), can be exchanged for 15 Grateful Souls in Way of Blue convenant shop.
+ - Chariot Lance (Executioner's Torment), can be exchanged for 15 Vertebra Shackles in Mound-makers covenant shop.
 
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
@@ -217,6 +220,8 @@ Finish following weapons:
  - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset.
  - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
  - Changed Lance's 1H & 2H Rolling R1.
+ - Modified Censuring Palm's L1 animations.
+ - Changed Scythe's Riposte animation (Experimental), currently available for Great Scythe and Pontiff Knight Great Scythe.
 
 # Cosmetic Items
 - Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
