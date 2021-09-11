@@ -3076,13 +3076,27 @@
 3610530 Greatlance
 3610531 Greatlance
 3610532 Greatlance
+3610540 Greatlance - 1H Roll
+3610580 Greatlance - 2H Roll
 3610750 Rampart Golem Lance - Chilling Wind
 3610800 Greatlance
 3610810 Greatlance
 3610820 Greatlance
 3610830 Greatlance
-3610920 Heide Lance
-3610921 Heide Lance
+3610831 Heide Greatlance - Weapon Art - Cont
+3610840 Heide Greatlance - Weapon Art - Final
+3610845 Heide Greatlance - Weapon Art - Falling Bolt
+3610850 Chariot Lance - Weapon Art
+3610851 Chariot Lance - 1H Warcry #1 - First Hit
+3610852 Chariot Lance - 1H Warcry #1 - Second Hit
+3610853 Chariot Lance - 1H Warcry #1 - Third Hit
+3610854 Chariot Lance - 1H Warcry #2
+3610855 Chariot Lance - 2H Warcry #1 - First Hit
+3610856 Chariot Lance - 2H Warcry #1 - Second Hit
+3610857 Chariot Lance - 2H Warcry #2
+3610900 Heide Lance - Weapon Art
+3610920 Heide Lance - Bullet
+3610921 Heide Lance - Bullet
 3611100 Dragonslayer Swordspear - 1H Heavy #1
 3611105 Dragonslayer Swordspear - 1H Heavy #1 Max
 3611110 Dragonslayer Swordspear - 1H Heavy #2

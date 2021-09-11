@@ -54,6 +54,7 @@
 21811 [Mound-makers] Sunset Leggings
 21812 [Mound-makers] Maddening Elixir
 21813 [Mound-makers] Sunset Shield
+21814 [Mound-makers] Chariot Lance
 22000 [Chaos Servants] Lingering Chaos
 22003 [Chaos Servants] Fire Gem
 22007 [Chaos Servants] Old Sage's Blindfold
@@ -67,14 +68,19 @@
 22016 [Chaos Servants] Demonic Skull
 22200 [Rosaria's Fingers] Obscuring Ring
 22201 [Rosaria's Fingers] Man-grub's Staff
+22202 [Rosaria's Fingers] Dragonslayer's Axe
 22203 [Rosaria's Fingers] Lucky Gem
-22207 [Rosaria's Fingers] Helm of Thorns
-22208 [Rosaria's Fingers] Armor of Thorns
-22209 [Rosaria's Fingers] Gauntlets of Thorns
-22210 [Rosaria's Fingers] Leggings of Thorns
-22211 [Rosaria's Fingers] Bloody Elixir
-22212 [Rosaria's Fingers] Rosaria's Soul
-22213 [Rosaria's Fingers] Silver Mask
+22204 [Rosaria's Fingers] Creighton's Steel Mask
+22205 [Rosaria's Fingers] Mirrah Chain Mail
+22206 [Rosaria's Fingers] Mirrah Chain Gloves
+22207 [Rosaria's Fingers] Mirrah Chain Leggings
+22208 [Rosaria's Fingers] Helm of Thorns
+22209 [Rosaria's Fingers] Armor of Thorns
+22210 [Rosaria's Fingers] Gauntlets of Thorns
+22211 [Rosaria's Fingers] Leggings of Thorns
+22212 [Rosaria's Fingers] Bloody Elixir
+22213 [Rosaria's Fingers] Rosaria's Soul
+22214 [Rosaria's Fingers] Silver Mask
 22400 [Spears of the Church] Young Grass Dew
 22401 [Spears of the Church] Divine Spear Fragment
 22402 [Spears of the Church] Lethal Gem
@@ -163,6 +169,8 @@
 23100 [Way of Blue] Gwynevere's Urn
 23101 [Way of Blue] Divine Blessing
 23102 [Way of Blue] Hidden Blessing
+23103 [Way of Blue] Heide Lance
+23104 [Way of Blue] Heide Greatlance
 23200 [Thieves' Pact] Titanite Shard
 23201 [Thieves' Pact] Large Titanite Shard
 23202 [Thieves' Pact] Titanite Chunk
