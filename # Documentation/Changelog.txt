@@ -255,6 +255,7 @@ Finish following weapons:
 - Increased the absorption buff the bug pellets give to 20% for both PVE and PVP.
 - All damage buffing resin consumables now add 100 damage.
 - Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
+- Rope Firebomb is now Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 200 fire damage and air juggle stagger.
 - Added new spellbound item versions of all existing throwing knives and the other kind of firebombs/urns.
 - Added new spellbound item versions of all existing resins, they add 100 damage + 10% and last 10 seconds, aux resins have higher build up and last 20 seconds, and both types use the bundle animation.
 - Added Blessed Pine Resin, adds physical damage by 100 and boosts damage against undead enemies by 5% for 60 seconds. Sold by Irina or unlocked at the item forge after lighting the Scribe's Retreat bonfire.
@@ -263,6 +264,8 @@ Finish following weapons:
 - Added Spellbound Cursed Resin, adds 20 Curse build up for 20 seconds. Unlocked with the Profaned Coal.
 - Added Spellbound Pellet, grants immunity to damage for 5 seconds.
 - Added Spellbound Mossfruit, grants immunity to status effects for 10 seconds.
+- Added Spellbound Frying Pan, deals 100 physical damage and high poise and stamina damage. Dropped by King Pot Greg.
+- Added Spellbound Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 500 fire damage and air juggle stagger. Sold by Grudore for 30000 souls.
 - Church Guardian Shiv is now Spellbound Guardian Shiv. Removed the scaling and increased its damage to 300.
 - Ritual Spear Fragment is now a consumable item, with a max carry of 10. Reduced its price to 2,500 Souls and 1 Filianore's Spear Ornament per unit.
 - Divine Spear Fragment is now Spellbound Spear Fragment. Removed the scaling and increased its damage to 1050 [875]. Increased its price to 50,000 Souls and 15 Filianore's Spear Ornaments.

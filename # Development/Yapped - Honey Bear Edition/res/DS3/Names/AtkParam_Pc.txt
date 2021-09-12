@@ -54,6 +54,7 @@
 1027 Holy Water Urn
 1030 Rope Firebomb
 1031 Rope Black Firebomb
+1040 Set-up Firebomb
 1050 Kukri
 1110 Spellbound Throwing Knife - Normal
 1111 Spellbound Throwing Knife - Magic
@@ -64,6 +65,7 @@
 1116 Spellbound Throwing Knife - Poison
 1117 Spellbound Throwing Knife - Bleed
 1118 Spellbound Throwing Knife - Frost
+1119 Spellbound Frying Pan
 1120 Spellbound Firebomb
 1121 Spellbound Black Firebomb
 1122 Spellbound Lightning Urn
@@ -72,6 +74,7 @@
 1125 Spellbound Witching Urn
 1126 Spellbound Hexing Urn
 1205 Spellbound Guardian Shiv
+1210 Spellbound Set-up Firebomb
 1300 Dragon Head Stone
 1310 Dragon Torso Stone
 1320 Spellbound Draconic Fire
