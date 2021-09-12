@@ -1238,7 +1238,7 @@ Artorias had an unbendable will of steel, and was unmatched with a greatsword.</
 <text id="20199">%null%</text>
 <text id="20200">Ring associated with Dragon Slayer Ornstein, one of the Four Knights of Gwyn, the First Lord.
 
-Strengthens weapon counter attacks by 10%.
+Strengthens weapon thrust counter attacks by 10%.
 
 Ornstein was the first knight of the sun's eldest born, and his cross spear is said to have pierced scales made of stone.</text>
 <text id="20201">%null%</text>
@@ -1402,7 +1402,7 @@ The sorcerers of Farron's Abyss Watchers were known to be lonesome warriors who 
 <text id="20289">%null%</text>
 <text id="20290">Ring of a clandestine guild of sorcerers based in Vinheim, home of sorcery.
 
-Masks the sound of its wearer, reducing enemy detection via hearing by 90%.
+Masks the sound of its wearer, reducing enemy detection via sound by 90%.
 
 The Dragon School held effective sovereignty over Vinheim, with a great many adept assassins at its disposal.</text>
 <text id="20291">%null%</text>
@@ -1546,32 +1546,32 @@ Apropos to the Dragon School, the seal depicts an everlasting dragon. A bellowin
 <text id="20349">%null%</text>
 <text id="20350">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 10%.
+Boosts potency of Fire pyromancies by 10%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20351">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 12%.
+Boosts potency of Fire pyromancies by 12%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20352">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 14%.
+Boosts potency of Fire pyromancies by 14%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20353">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 16%.
+Boosts potency of Fire pyromancies by 16%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20354">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 18%.
+Boosts potency of Fire pyromancies by 18%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20355">The Witch of Izalith and her daughters, scorched by the Flame of Chaos, taught humans the art of pyromancy and offered them this ring.
 
-Boosts potency of pyromancies by 20%.
+Boosts potency of Fire pyromancies by 20%.
 
 Every pyromancer is familiar with the parable that tells of the witches espousing the need to fear the flame, and teaching the art of pyromancy to men in hopes that they might learn to control it.</text>
 <text id="20356">%null%</text>
@@ -4086,27 +4086,27 @@ Through daily discipline and concerted effort, all shall find peace in the Sun P
 <text id="30980">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 90 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 90 seconds whilst worn.</text>
 <text id="30981">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 120 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 120 seconds whilst worn.</text>
 <text id="30982">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 150 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 150 seconds whilst worn.</text>
 <text id="30983">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 180 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 180 seconds whilst worn.</text>
 <text id="30984">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 210 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 210 seconds whilst worn.</text>
 <text id="30985">Metal dial crafted by Ritualist Ellie.
 Imbued with occult power.
 
-Increases the duration of a companion is present for to 250 seconds whilst worn.</text>
+Increases the duration of a summoned companion to 250 seconds whilst worn.</text>
 <text id="30990">Ritual offering crafted by Ritualist Ellie.
 Imbued with occult power.
 

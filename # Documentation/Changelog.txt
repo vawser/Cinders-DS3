@@ -103,7 +103,7 @@ Finish following weapons:
 # General
 - Changed several damage boosting effects: If an effect increases the damage of both weapons and spells, now it also boosts the damage of throwable items (except Flynn's Ring).
 - Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
-- Added details to several menu descriptions.
+- Added details to several menu descriptions and fixed others.
 
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
@@ -124,6 +124,7 @@ Finish following weapons:
 - You can now enter the Cathedral Guardian fight via the pit.
 - Fixed the messages in Dreg Heap showing the incorrect text.
 - Fixed Halflight's Intelligence and Faith stats.
+- Fixed the Intelligence stat of the Mother.
 - Fixed Blooming Purple Moss Clump not healing poison.
 - Fixed Divine Relief not increasing equip load by 40%.
 - Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
@@ -140,6 +141,7 @@ Finish following weapons:
 - Fixed Third Hit of Flame Fan not chaining into the Second Hit when casted on Left Hand.
 - Fixed Great Combustion, Black Flame and Flame Fan behavior when casted on Main Hand.
 - Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
+- Fixed the Courtier Set amount show when looted.
  
 # Journey Configuration
 - Mythic Mode:
@@ -159,12 +161,14 @@ Finish following weapons:
 - Added covenant shop for Blue Sentinels.
 - Added covenant shop for Way of Blue.
 - Added covenant shop for Thieves' Pact
+- Added the Dragonslayer's Axe and Mirrah Chain Set to Rosaria's Fingers covenant shop.
 
 # Infusions
 - Fire infusion now increases max Stamina by 20%.
 - Lightning infusion now boosts Armor Poise by 20%.
 
 # Weapons
+- Branding Iron now prevents Estus usage and reduces any form of healing to zero for 10 seconds.
 - Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
 
 - Changed moveset for the following weapon class:

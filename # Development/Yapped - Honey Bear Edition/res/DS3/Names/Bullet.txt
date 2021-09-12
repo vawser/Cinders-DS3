@@ -2809,6 +2809,7 @@
 13507010 [Miracle] Lingering Bountiful Light
 13507011 [Miracle] Lingering Bountiful Light [Hit]
 13508000 [Miracle] Caressing Tears
+13508001 [Miracle] Caressing Tears
 13509000 [Miracle] Lightning Arrow
 13513000 [Miracle] Morbid Temptation [unused]
 13530000 [Miracle] Force
@@ -3172,8 +3173,8 @@
 100092210 [Dragonslayer Spear] Lightning Charge
 100092220 [Dragonslayer Spear] Lightning Charge
 100092230 [Dragonslayer Spear] Lightning Charge
-100092240 Heide Lance
-100092250 Heide Lance
+100092240 [Heide Lance] Heide's Judgement
+100092250 [Heide Lance] Heide's Judgement
 100092300 [Follower Javelin] Hurl Spear
 100092301 [Follower Javelin] Hurl Spear [Hit]
 100092310 [Follower Javelin] Hurl Spear

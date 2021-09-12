@@ -2577,10 +2577,10 @@
 1080811 [Weapon Art] Bewitched Alonne Sword - Seppuku - Right - No FP
 1080851 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left
 1080861 [Weapon Art] Bewitched Alonne Sword - Seppuku - Left - No FP
-1080901 Chariot Lance
-1080911 Chariot Lance
-1080951 Chariot Lance
-1080961 Chariot Lance
+1080901 [Weapon Art] Chariot Lance - Executioner's Torment - Right
+1080911 [Weapon Art] Chariot Lance - Executioner's Torment - Right - No FP
+1080951 [Weapon Art] Chariot Lance - Executioner's Torment - Left
+1080961 [Weapon Art] Chariot Lance - Executioner's Torment - Left - No FP
 1081001 [Weapon Art] Elemental Flow – Right Hand
 1081011 [Weapon Art] Elemental Flow – Right Hand – Low FP
 1081051 [Weapon Art] Elemental Flow – Left Hand
@@ -3195,6 +3195,7 @@
 130201520 [Havel's Greatshield] Stone Flesh [CycleOccurance]
 130210500 [Black Dragon Shield] Black Dragon's Ire
 130220500 [Moaning Shield] Moaning Shield
+130230000 [Spear] Stability Boost - Shield Poke
 140010400 Poison
 140021200 Poison
 140091200 Poison
@@ -3379,7 +3380,9 @@
 160200050 Scholar's Candlestick
 160200080 Nil Blade
 160200100 Handmaid's Dagger
-160200130 Branding Iron
+160200130 Branding Iron - Estus Restore %
+160200131 Branding Iron - Block Estus Usage
+160200132 Branding Iron - Recovery Effectiveness
 160200140 Chikage
 160200141 Chikage [Expiration]
 160200150 Sword of Avowal
@@ -3549,10 +3552,10 @@
 160250880 Thorned Greatsword - Lightning Stomp
 160250890 Insanity Catalyst - Insanity
 160250900 Smouldering Talisman - Immolate - Self-harm
-160260000 Chariot Lance
-160260010 Chariot Lance
-160260050 Chariot Lance
-160260060 Chariot Lance
+160260000 Chariot Lance - Damage - Right-hand
+160260010 Chariot Lance - Damage - Right-hand - No FP
+160260050 Chariot Lance - Damage - Left-hand
+160260060 Chariot Lance - Damage - Left-hand - No FP
 160260100 Bloodlust (Alt) - Damage - Right-hand
 160260101 Bloodlust (Alt) - Damage - Right-hand - No FP
 160260102 Bloodlust (Alt) - Damage - Right-hand [AttackOccurance]
