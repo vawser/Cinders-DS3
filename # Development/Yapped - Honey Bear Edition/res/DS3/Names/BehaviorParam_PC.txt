@@ -1643,7 +1643,9 @@
 102900402 Katana
 102900404 Katana
 102900410 Katana
+102900415 Katana (Alt) - 1H Kick
 102900420 Katana
+102900425 Katana (Alt) - 2H Kick
 102900430 Katana
 102900440 Katana
 102900450 Katana
@@ -1692,7 +1694,17 @@
 102902305 Black Blade - 2H Heavy #1 Max
 102902310 Black Blade - 2H Heavy #2
 102902315 Black Blade - 2H Heavy #2 Max
+102903415 Bloodlust - 1H Kick
+102903425 Bloodlust - 2H Kick
 102903700 Bloodlust - Weapon Hit Swing
+102903800 Bloodlust - Warcry 1H Heavy #1
+102903805 Bloodlust - Warcry 1H Heavy #1 Max
+102903806 Bloodlust - Warcry - Tackle
+102903807 Bloodlust - Warcry - Tackle
+102903810 Bloodlust - Warcry 1H Heavy #2
+102903900 Bloodlust - Warcry 2H Heavy #1
+102903905 Bloodlust - Warcry 2H Heavy #1 Max
+102903910 Bloodlust - Warcry 2H Heavy #2
 102904000 Washing Pole
 102904001 Washing Pole
 102904100 Washing Pole
@@ -3786,15 +3798,22 @@
 104145725 Fool's Flame - Fluorescent Flare - Bullet
 104200000 Caestus - 1H Light #1
 104200010 Caestus - 1H Light #2
+104200012 Fists - 2H Light #2
 104200015 Censuring Palm - 1H Light #2
 104200020 Caestus - 1H Light #3
+104200022 Fists - 2H Light #3
+104200025 Fists - 2H Light #4
+104200028 Fists - 2H Light #5
 104200030 Caestus - 1H Jump
 104200040 Caestus - 1H Fall Loop
 104200050 Caestus - 1H Fall Landing
 104200100 Caestus - 1H Heavy #1
 104200105 Caestus - 1H Heavy #1 Max
+104200106 Fists - 1H Heavy #1 Max - First Hit
+104200107 Fists - 1H Heavy #1 Max - Second Hit
 104200110 Caestus - 1H Heavy #2
 104200115 Caestus - 1H Heavy #2 Max
+104200116 Fists - 1H Heavy #2 Max
 104200230 Caestus - 2H Jump
 104200240 Caestus - 2H Fall Loop
 104200250 Caestus - 2H Fall Landing
@@ -3803,8 +3822,10 @@
 104200404 Caestus - Left - 1H Light #3
 104200410 Caestus - 1H Kick
 104200411 Caestus - 1H Kick - Bullet
+104200412 Fists - 1H Kick
 104200415 Claw - 1H Kick
 104200420 Caestus - 2H Kick
+104200422 Fists - 2H Kick
 104200425 Claw - 2H Kick
 104200430 Caestus - 1H Guard
 104200450 Caestus - Parry
@@ -3820,7 +3841,9 @@
 104200516 Caestus - Riposte (Hornet Ring) #2
 104200517 Caestus - Riposte (Hornet Ring)
 104200520 Caestus - 1H Backstep
+104200525 Fists - 1H Backstep
 104200540 Caestus - 1H Roll
+104200545 Fists - 2H Roll
 104200600 Caestus - Parry
 104200610 Caestus - Backstab Transition
 104200615 Caestus - Missed Backstab Transition
@@ -3830,10 +3853,19 @@
 104200631 Caestus
 104200640 Caestus
 104200641 Caestus
+104200650 Fists - 2H Special Attack #3 - First - Right
+104200651 Fists - 2H Special Attack #3 - First - Left
+104200652 Fists - 2H Special Attack #3 - Second - Right
+104200653 Fists - 2H Special Attack #3 - Second - Left
 104200750 Caestus - 2H Special Backstep Right
 104200751 Caestus - 2H Special Backstep Left
 104200760 Caestus - 2H Special Roll Right
 104200761 Caestus - 2H Special Roll Left
+104200770 Fists - 2H Special Backstep - First Hit
+104200775 Fists - 2H Special Backstep - Second Hit
+104200778 Fists - 2H Special Backstep - Third Hit
+104200780 Fists - Stance Light
+104200785 Fists - Stance Heavy
 104200800 Caestus - Weapon Art
 104200990 Caestus - Quickstep
 104200995 Caestus - BB Dash

@@ -104,6 +104,7 @@ Finish following weapons:
 - Changed several damage boosting effects: If an effect increases the damage of both weapons and spells, now it also boosts the damage of throwable items (except Flynn's Ring).
 - Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
 - Added details to several menu descriptions and fixed others.
+- Replaced the covenant tokens from the burial gifts list with the physical and elemental spellbound throwing knives.
 
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
@@ -142,6 +143,7 @@ Finish following weapons:
 - Fixed Great Combustion, Black Flame and Flame Fan behavior when casted on Main Hand.
 - Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
 - Fixed the Courtier Set amount show when looted.
+- Fixed the effect icons of the Pickpocket Leggings and Frostfall's weapon art flickering.
  
 # Journey Configuration
 - Mythic Mode:
@@ -170,6 +172,18 @@ Finish following weapons:
 # Weapons
 - Branding Iron now prevents Estus usage and reduces any form of healing to zero for 10 seconds.
 - Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
+
+- Added Fonz0's weapon models for the following infused weapons:
+ - Holy Wolnir's Sword
+ - Fire Farron Greatsword
+ - Fire Yhorm's Machete
+ - Fire Ringed Knight Paired Greatswords
+ - Fire Ringed Knight Spear
+ - Fire Ringed Knight Straight Sword
+ - Fire Fume Ultra Greatsword
+ - Fire Flamberge
+ - Fire Thrall Axe
+ - Fire Thrall Pick
 
 - Changed moveset for the following weapon class:
  - Hammer

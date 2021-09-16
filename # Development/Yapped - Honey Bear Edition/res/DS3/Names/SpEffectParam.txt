@@ -5542,6 +5542,8 @@
 180000130 Poison - Poison Bolt
 180000150 Toxic - Gravelord Sword
 180000151 Toxic - Gravelord Sword (Infusion)
+180000160 Toxic - Black Scorpion Stinger
+180000161 Toxic - Black Scorpion Stinger (Infusion)
 180000170 Poison - Poisonous Knife
 180000171 Poison - Spellbound Poisonous Knife
 180000180 Poison - Dung Pie
