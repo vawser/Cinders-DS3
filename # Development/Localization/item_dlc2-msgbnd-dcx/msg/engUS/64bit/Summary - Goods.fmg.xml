@@ -122,7 +122,7 @@
 <text id="296">Prevents HP recovery within a limited area</text>
 <text id="297">Explodes, inflicting fire damage</text>
 <text id="298">%null%</text>
-<text id="299">Thrown behind, explodes inflicting fire damage</text>
+<text id="299">Throw to set-up, explodes inflicting fire damage</text>
 <text id="300">Explodes, inflicting lightning damage</text>
 <text id="301">Cleanse Undead with holy essence</text>
 <text id="302">Thrown behind, explodes inflicting high fire damage</text>
@@ -710,6 +710,7 @@
 <text id="5402">Explodes, inflicting physical damage and reducing all absorptions</text>
 <text id="5403">Explodes, inflicting magic damage</text>
 <text id="5404">Explodes, inflicting dark damage</text>
+<text id="5405">Throw to set-up, explodes inflicting fire damage</text>
 <text id="5410">Explodes, inflicting lightning damage</text>
 <text id="5420">Throw at foes to inflict physical damage</text>
 <text id="5421">Throw at foes to inflict magic damage</text>
@@ -720,6 +721,7 @@
 <text id="5426">Throw at foes to inflict physical damage and bleed</text>
 <text id="5427">Throw at foes to inflict physical damage and curse</text>
 <text id="5428">Throw at foes to inflict physical damage and frost</text>
+<text id="5429">Throw to inflict high Poise damage and Stamina damage</text>
 <text id="5430">Throwing knife. Causes bleed damage.</text>
 <text id="5440">Turns enemy toxic, but also affects user</text>
 <text id="5450">Attracts certain types of enemies</text>

@@ -54,6 +54,7 @@
 1027 Holy Water Urn
 1030 Rope Firebomb
 1031 Rope Black Firebomb
+1040 Set-up Firebomb
 1050 Kukri
 1110 Spellbound Throwing Knife - Normal
 1111 Spellbound Throwing Knife - Magic
@@ -64,6 +65,7 @@
 1116 Spellbound Throwing Knife - Poison
 1117 Spellbound Throwing Knife - Bleed
 1118 Spellbound Throwing Knife - Frost
+1119 Spellbound Frying Pan
 1120 Spellbound Firebomb
 1121 Spellbound Black Firebomb
 1122 Spellbound Lightning Urn
@@ -72,6 +74,7 @@
 1125 Spellbound Witching Urn
 1126 Spellbound Hexing Urn
 1205 Spellbound Guardian Shiv
+1210 Spellbound Set-up Firebomb
 1300 Dragon Head Stone
 1310 Dragon Torso Stone
 1320 Spellbound Draconic Fire
@@ -1747,7 +1750,9 @@
 2900402 Katana
 2900404 Katana
 2900410 Katana
+2900415 Katana (Alt) - 1H Kick
 2900420 Katana
+2900425 Katana (Alt) - 2H Kick
 2900430 Katana
 2900440 Katana
 2900450 Katana
@@ -1794,7 +1799,17 @@
 2902305 Black Blade - 2H Heavy #1 Max
 2902310 Black Blade - 2H Heavy #2
 2902315 Black Blade - 2H Heavy #2 Max
+2903415 Bloodlust - 1H Kick
+2903425 Bloodlust - 2H Kick
 2903700 Bloodlust - Bloodlust
+2903800 Bloodlust - Warcry 1H Heavy #1
+2903805 Bloodlust - Warcry 1H Heavy #1 Max
+2903806 Bloodlust - Warcry - Tackle
+2903807 Bloodlust - Warcry - Tackle
+2903810 Bloodlust - Warcry 1H Heavy #2
+2903900 Bloodlust - Warcry 2H Heavy #1
+2903905 Bloodlust - Warcry 2H Heavy #1 Max
+2903910 Bloodlust - Warcry 2H Heavy #2
 2904000 Washing Pole
 2904001 Washing Pole
 2904100 Washing Pole - 1H Heavy #1
@@ -3770,15 +3785,22 @@
 4145725 Fool's Flame - Fluorescent Flare - Bullet
 4200000 Caestus - 1H Light #1
 4200010 Caestus - 1H Light #2
+4200012 Fists - 2H Light #2
 4200015 Censuring Palm - 1H Light #2
 4200020 Caestus - 1H Light #3
+4200022 Fists - 2H Light #3
+4200025 Fists - 2H Light #4
+4200028 Fists - 2H Light #5
 4200030 Caestus - 1H Jump
 4200040 Caestus - 1H Fall Loop
 4200050 Caestus - 1H Fall Landing
 4200100 Caestus - 1H Heavy #1
 4200105 Caestus - 1H Heavy #1 Max
+4200106 Fists - 1H Heavy #1 Max - First Hit
+4200107 Fists - 1H Heavy #1 Max - Second Hit
 4200110 Caestus - 1H Heavy #2
 4200115 Caestus - 1H Heavy #2 Max
+4200116 Fists - 1H Heavy #2 Max
 4200230 Caestus
 4200240 Caestus
 4200250 Caestus
@@ -3786,8 +3808,10 @@
 4200402 Caestus
 4200404 Caestus
 4200410 Caestus - 1H Kick
+4200412 Fists - 1H Kick
 4200415 Claw - 1H Kick
 4200420 Caestus - 2H Kick
+4200422 Fists - 2H Kick
 4200425 Claw - 2H Kick
 4200430 Caestus - 1H Guard
 4200450 Caestus - Parry
@@ -3803,7 +3827,9 @@
 4200516 Caestus - Riposte (Hornet Ring)
 4200517 Caestus - Riposte (Hornet Ring)
 4200520 Caestus - 1H Backstep
+4200525 Fists - 1H Backstep
 4200540 Caestus - 1H Roll
+4200545 Fists - 2H Roll
 4200600 Caestus - Parry
 4200610 Caestus - Backstab Transition
 4200615 Caestus
@@ -3813,6 +3839,10 @@
 4200631 Caestus
 4200640 Caestus
 4200641 Caestus
+4200650 Fists - 2H Special Attack #3 - First - Right
+4200651 Fists - 2H Special Attack #3 - First - Left
+4200652 Fists - 2H Special Attack #3 - Second - Right
+4200653 Fists - 2H Special Attack #3 - Second - Left
 4200700 Fist - Ladder Right-hand Attack
 4200701 Fist - Ladder Left-hand Attack
 4200702 Fist - Ladder Right-foot Attack
@@ -3821,6 +3851,11 @@
 4200751 Caestus - 2H Special Backstep Left
 4200760 Caestus - 2H Special Roll Right
 4200761 Caestus - 2H Special Roll Left
+4200770 Fists - 2H Special Backstep - First Hit
+4200775 Fists - 2H Special Backstep - Second Hit
+4200778 Fists - 2H Special Backstep - Third Hit
+4200780 Fists - Stance Light
+4200785 Fists - Stance Heavy
 4200900 Fist - Dragon Form 1H Light
 4200901 Fist - Dragon Form 1H Heavy
 4200902 Fist - Dragon Form 1H Left Hand

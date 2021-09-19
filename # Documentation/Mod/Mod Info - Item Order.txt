@@ -112,12 +112,14 @@ Sort ID	Name
 6200	Kukri
 6201	Spellbound Kukri
 6202	Throwing Frying Pan
+6203	Spellbound Frying Pan
 6204	Church Guardian Shiv
 6205	Holy Water Urn
 6206	Spellbound Holy Water Urn
 6210	Firebomb
 6211	Spellbound Firebomb
-6212	Rope Firebomb
+6212	Set-up Firebomb
+6213	Spellbound Set-up Firebomb
 6220	Black Firebomb
 6221	Spellbound Black Firebomb
 6230	Rope Black Firebomb

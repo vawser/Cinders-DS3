@@ -11,6 +11,12 @@
 63 Long distance Magic: Drilled Flames _ Parents
 64 Long distance Magic: Drilled Flames _ Search Bullets
 65 Long distance Magic: Drilled Fire Child
+75 Firebomb [Hit] [Hit]
+76 Firebomb [Hit] [Hit] [Hit]
+77 Black Firebomb [Hit] [Hit]
+78 Black Firebomb [Hit] [Hit] [Hit]
+236 Twinkling Dragon Head Stone - Head [Hit]
+302 Lacerating Knife
 310 Quick Flame Bottle [parent] Search Bullets
 315 Quick Black Flame jar [parent] Search Bullets
 380 Judicator - Ledo
@@ -4073,10 +4079,9 @@
 222001051 Holy Water Urn [Hit]
 222001052 Holy Water Urn [Hit]
 222001053 Holy Water Urn [Hit]
-222001100 Rope Firebomb
-222001101 Rope Firebomb [Hit]
-222001102 Rope Firebomb [Hit]
-222001103 Rope Firebomb [Hit]
+222001100 Set-up Firebomb
+222001101 Set-up Firebomb [Hit]
+222001102 Set-up Firebomb [Hit]
 222001200 Rope Black Firebomb
 222001201 Rope Black Firebomb [Hit]
 222001202 Rope Black Firebomb [Hit]
@@ -4153,6 +4158,10 @@
 224000401 Spellbound Dung [Hit]
 224000500 Spellbound Skull
 224000501 Spellbound Skull [Hit]
+224000600 Spellbound Frying Pan
+224000700 Spellbound Set-up Firebomb
+224000701 Spellbound Set-up Firebomb [Hit]
+224000702 Spellbound Set-up Firebomb [Hit]
 224001000 Dragon Head Stone
 224001100 Dragon Torso Stone
 224001200 Spellbound Draconic Fire

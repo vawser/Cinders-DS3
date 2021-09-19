@@ -104,6 +104,7 @@ Finish following weapons:
 - Changed several damage boosting effects: If an effect increases the damage of both weapons and spells, now it also boosts the damage of throwable items (except Flynn's Ring).
 - Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
 - Added details to several menu descriptions and fixed others.
+- Replaced the covenant tokens from the burial gifts list with the physical and elemental spellbound throwing knives.
 
 # Bugfixes
 - Fixed the stat requirements of the uninfused and lucky infused Great Club.
@@ -142,6 +143,7 @@ Finish following weapons:
 - Fixed Great Combustion, Black Flame and Flame Fan behavior when casted on Main Hand.
 - Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
 - Fixed the Courtier Set amount show when looted.
+- Fixed the effect icons of the Pickpocket Leggings and Frostfall's weapon art flickering.
  
 # Journey Configuration
 - Mythic Mode:
@@ -170,6 +172,18 @@ Finish following weapons:
 # Weapons
 - Branding Iron now prevents Estus usage and reduces any form of healing to zero for 10 seconds.
 - Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
+
+- Added Fonz0's weapon models for the following infused weapons:
+ - Holy Wolnir's Sword
+ - Fire Farron Greatsword
+ - Fire Yhorm's Machete
+ - Fire Ringed Knight Paired Greatswords
+ - Fire Ringed Knight Spear
+ - Fire Ringed Knight Straight Sword
+ - Fire Fume Ultra Greatsword
+ - Fire Flamberge
+ - Fire Thrall Axe
+ - Fire Thrall Pick
 
 - Changed moveset for the following weapon class:
  - Hammer
@@ -255,6 +269,7 @@ Finish following weapons:
 - Increased the absorption buff the bug pellets give to 20% for both PVE and PVP.
 - All damage buffing resin consumables now add 100 damage.
 - Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
+- Rope Firebomb is now Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 200 fire damage and air juggle stagger.
 - Added new spellbound item versions of all existing throwing knives and the other kind of firebombs/urns.
 - Added new spellbound item versions of all existing resins, they add 100 damage + 10% and last 10 seconds, aux resins have higher build up and last 20 seconds, and both types use the bundle animation.
 - Added Blessed Pine Resin, adds physical damage by 100 and boosts damage against undead enemies by 5% for 60 seconds. Sold by Irina or unlocked at the item forge after lighting the Scribe's Retreat bonfire.
@@ -263,6 +278,8 @@ Finish following weapons:
 - Added Spellbound Cursed Resin, adds 20 Curse build up for 20 seconds. Unlocked with the Profaned Coal.
 - Added Spellbound Pellet, grants immunity to damage for 5 seconds.
 - Added Spellbound Mossfruit, grants immunity to status effects for 10 seconds.
+- Added Spellbound Frying Pan, deals 100 physical damage and high poise and stamina damage. Dropped by King Pot Greg.
+- Added Spellbound Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 500 fire damage and air juggle stagger. Sold by Grudore for 30000 souls.
 - Church Guardian Shiv is now Spellbound Guardian Shiv. Removed the scaling and increased its damage to 300.
 - Ritual Spear Fragment is now a consumable item, with a max carry of 10. Reduced its price to 2,500 Souls and 1 Filianore's Spear Ornament per unit.
 - Divine Spear Fragment is now Spellbound Spear Fragment. Removed the scaling and increased its damage to 1050 [875]. Increased its price to 50,000 Souls and 15 Filianore's Spear Ornaments.

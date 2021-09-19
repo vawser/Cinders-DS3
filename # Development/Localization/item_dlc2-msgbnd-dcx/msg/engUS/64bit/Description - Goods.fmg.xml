@@ -509,7 +509,8 @@ Scales with Luck.
 
 Fire damage, which differs from physical damage, is highly effective against creatures of flesh, beasts, and other foes that might naturally have cause to fear the flame.</text>
 <text id="298">%null%</text>
-<text id="299">Bisque urn attached to a string and filled with black powder. Thrown behind and explodes, inflicting 200 fire damage.
+<text id="299">Bisque urn filled with black powder and attached to a string, allowing it to latch on surfaces. 
+Throw to set-up, explodes inflicting 200 fire damage with enemy contact or after 15 seconds.
 Scales with Luck.
 
 No different to a firebomb, save for
@@ -2030,7 +2031,8 @@ Once used, boosts the power of imbued dark, greatly increasing Dark attack tempo
 Once used, boosts the inherent physicality of a weapon, greatly increasing Physical attack temporarily.</text>
 <text id="3003">A seemingly mundane frying pan, small enough to be used as a projectile.
 
-Throw to inflict high Poise damage and Stamina damage.
+Throw to inflict 10 physical damage. Deals high Poise damage and Stamina damage.
+Scales with Luck.
 
 Not to be underestimated, as it can be thrown with enough force to send most enemies flying.</text>
 <text id="3004">A rusty old coin that surely has no currency.
@@ -2762,6 +2764,11 @@ Explodes, inflicting 500 dark damage.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this urn draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5405">Bisque urn filled with black powder and attached to a string, allowing it to latch on surfaces. 
+Throw to set-up, explodes inflicting 500 fire damage with enemy contact or after 15 seconds.
+Does not scale with any stat.
+
+Uniquely crafted by Occultist Grudore, this firebomb draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5410">Explosive lightning urn.
 Explodes upon contact, inflicting 700 lightning damage.
 Does not scale with any stat.
@@ -2812,6 +2819,12 @@ Throw at enemies to deal 250 physical damage and inflict 60 Frost.
 Does not scale with any stat.
 
 Uniquely crafted by Occultist Grudore, this throwing knife draws upon the blood of foes, allowing for endless usage.</text>
+<text id="5429">A seemingly mundane frying pan, small enough to be used as a projectile.
+
+Throw to inflict 100 physical damage. Deals high Poise damage and Stamina damage.
+Does not scale with any stat.
+
+Special frying pan favoured by Pot King Greg, this frying pan draws upon the blood of foes, allowing for endless usage.</text>
 <text id="5430">Small throwing machete.
 Throw at enemies to cause bleeding damage.
 Scales with Luck.

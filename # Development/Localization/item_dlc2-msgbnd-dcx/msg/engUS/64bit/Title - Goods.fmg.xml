@@ -138,7 +138,7 @@
 <text id="296">Undead Hunter Charm</text>
 <text id="297">Black Firebomb</text>
 <text id="298">%null%</text>
-<text id="299">Rope Firebomb</text>
+<text id="299">Set-up Firebomb</text>
 <text id="300">Lightning Urn</text>
 <text id="301">%null%</text>
 <text id="302">Rope Black Firebomb</text>
@@ -705,6 +705,7 @@
 <text id="5402">Spellbound Holy Water Urn</text>
 <text id="5403">Spellbound Witching Urn</text>
 <text id="5404">Spellbound Hexing Urn</text>
+<text id="5405">Spellbound Set-up Firebomb</text>
 <text id="5410">Spellbound Lightning Urn</text>
 <text id="5420">Spellbound Throwing Knife</text>
 <text id="5421">Spellbound Sorcerous Knife</text>
@@ -715,6 +716,7 @@
 <text id="5426">Spellbound Lacerating Knife</text>
 <text id="5427">Spellbound Cursed Knife</text>
 <text id="5428">Spellbound Frigid Knife</text>
+<text id="5429">Spellbound Frying Pan</text>
 <text id="5430">Spellbound Kukri</text>
 <text id="5440">Spellbound Dung</text>
 <text id="5450">Spellbound Skull</text>

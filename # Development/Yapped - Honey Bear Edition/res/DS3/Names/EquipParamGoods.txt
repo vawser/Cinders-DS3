@@ -91,7 +91,7 @@
 294 Alluring Skull
 296 Undead Hunter Charm
 297 Black Firebomb
-299 Rope Firebomb
+299 Set-up Firebomb
 300 Lightning Urn
 302 Rope Black Firebomb
 303 Stalk Dung Pie
@@ -549,6 +549,7 @@
 5402 Spellbound Holy Water Urn
 5403 Spellbound Witching Urn
 5404 Spellbound Hexing Urn
+5405 Spellbound Set-up Firebomb
 5410 Spellbound Lightning Urn
 5420 Spellbound Throwing Knife
 5421 Spellbound Sorcerous Knife
@@ -559,6 +560,7 @@
 5426 Spellbound Lacerating Knife
 5427 Spellbound Cursed Knife
 5428 Spellbound Frigid Knife
+5429 Spellbound Frying Pan
 5430 Spellbound Kukri
 5440 Spellbound Dung
 5450 Spellbound Skull

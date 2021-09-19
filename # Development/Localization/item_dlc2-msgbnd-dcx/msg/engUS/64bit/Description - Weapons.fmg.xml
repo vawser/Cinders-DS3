@@ -7,25 +7,25 @@
 <text id="1">%null%</text>
 <text id="400000">Standard arrows used with bows.
 
-Boosts Counter Damage by 10%.
+Effect: Boosts Counter Damage by 10%.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="400100">Shoot arrows with burning tips 
 dealing fire damage.
 
-Boosts Stamina Recovery on shot. Stacks.
+Effect: Boosts Stamina Recovery on shot. Stacks.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="400200">Arrows with poisoned tips.
 
-Inflict poison damage that gradually wears down 
+Inflict 30 poison damage that gradually wears down 
 foes.</text>
 <text id="400300">Large, more powerful arrows with a shorter range 
 due to their weight.
 
-Can penetrate shields.
+Effect: Can penetrate shields.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -33,7 +33,7 @@ and switch between them as needed.</text>
 Their long range makes them ideal for distant 
 targets.
 
-Damage is increased over larger distances.
+Effect: Damage is increased over larger distances.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -42,7 +42,8 @@ Darkmoon Knights.
 
 Imbued with a silver light, these arrows inflict 
 magic damage.
-Can deflect spells.
+
+Effect: Can deflect spells.
 
 It is said that long ago the God of the Darkmoon 
 Gwyndolin wielded these arrows with a matching 
@@ -57,7 +58,7 @@ and switch between them as needed.</text>
 savage hunters.
 Inflicts dark damage.
 
-Inflicts Curse and homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 It is said that these arrows scrape out death from
 their targets, but savages are known to tell tall 
@@ -67,7 +68,7 @@ blacksmith of the gods.
 
 Can only be used with greatbows.
 
-Boosts Counter Damage by 10%.
+Effect: Boosts Counter Damage by 10%.
 
 These large arrows were said to have been used by 
 dragon hunters during the age of the gods. 
@@ -78,7 +79,7 @@ created by the giant blacksmith of the gods.
 
 Can only be used with greatbows.
 
-Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
+Effect: Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
 
 Lightning has been a weapon of dragonslayers ever 
 since the time of Gwyn, the First Lord.</text>
@@ -87,24 +88,24 @@ in an eastern land.
 
 Can only be used with greatbows.
 
-Damage is increased over larger distances.
+Effect: Damage is increased over larger distances.
 
 Made from the feathers of an aged crow, it is said
 that these arrows fly as straight as their master.</text>
 <text id="404000">Standard bolts used with crossbows.
 
-Boosts Counter Damage by 10%.
+Effect: Boosts Counter Damage by 10%.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404100">Large, more powerful bolts with a shorter range due to their weight.
 
-Can penetrate shields.
+Effect: Can penetrate shields.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404200">Red feathered bolts used by snipers of Carim.
 Their long range makes them ideal for distant targets.
 
-Damage is increased over larger distances.
+Effect: Damage is increased over larger distances.
 
 Though typically used with Sniper Crossbows in Carim, these arrows can still be used with any kind of crossbow.</text>
 <text id="404300">Inexpensive wooden bolts.
@@ -113,13 +114,13 @@ Weaker bolts that can be easily purchased in bulk.
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="404400">Bolts imbued with lightning created by the giant blacksmith of the gods.
 
-Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
+Effect: Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
 
 However, the gods never used crossbows.
 These bolts are likely artifacts of the dragonless era, when the pact between gods and humans was upheld.</text>
 <text id="404500">Bolts that explode immediately after being shot.
 
-Makes unusual shots possible, and releases splinters that cause immense bleeding.
+Makes unusual shots possible, and releases splinters that cause 15 bleeding.
 
 These are, after all, prototypes created by the weapon craftsman Edmond. You get what you pay for.</text>
 <text id="404600">Bolts that explode on impact. Deals area fire damage in the immediate vicinity.
@@ -133,7 +134,7 @@ the Silver Knights.
 Imbued with a yellow light, these arrows inflict 
 lightning damage.
 
-Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
+Effect: Reduces enemy Poise Armor by 50% for 5 seconds. Does not stack.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -143,17 +144,17 @@ creatures known as dragons.
 The fury of the fallen dragons is felt through 
 these arrows.
 
-Can penetrate enemies.
+Effect: Can penetrate enemies.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="410400">Shoot arrows with frozen tips dealing 
-frost damage.
+30 frost damage.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
 <text id="410600">Shoot arrows with lacerating tips dealing 
-bleed damage.
+15 bleed damage.
 
 Simultaneously equip up to two types of arrows, 
 and switch between them as needed.</text>
@@ -163,7 +164,8 @@ the Darkmoon Knights.
 Imbued with a silver light, these arrows inflict 
 magic damage.
 Can only be used with greatbows.
-Can deflect spells.
+
+Effect: Can deflect spells.
 
 It is said that long ago the God of the Darkmoon 
 Gwyndolin wielded these arrows with a matching golden bow.</text>
@@ -172,14 +174,14 @@ Gwyndolin wielded these arrows with a matching golden bow.</text>
 Can only be used with greatbows.</text>
 <text id="414000">Magical bolts said to have been used by Darkmoon Knights. Imbued with a silver light, these bolts inflict magic damage.
 
-Can deflect spells.
+Effect: Can deflect spells.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="414100">Draconic bolts said to be associated with the dragons of old.
 
 The fury of the fallen dragons is felt through these bolts.
 
-Can penetrate enemies.
+Effect: Can penetrate enemies.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="422000">Magical greatarrows said to have been used by 
@@ -187,12 +189,12 @@ servants of chaos in the distant past.
 Imbued with a flickering flame, these arrows 
 inflict fire damage.
 
-Boosts Stamina Recovery on shot. Stacks.
+Effect: Boosts Stamina Recovery on shot. Stacks.
 
 Can only be used with greatbows.</text>
 <text id="424000">Magical bolts said to have been used by servants of chaos. Imbued with a flickering flame, these bolts inflict fire damage.
 
-Boosts Stamina Recovery on shot. Stacks.
+Effect: Boosts Stamina Recovery on shot. Stacks.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="432000">Magical greatarrows said to have been used by 
@@ -200,25 +202,26 @@ servants of the abyss in the distant past.
 Imbued with abyssal energies, these arrows 
 inflict dark damage.
 
-Inflicts Curse and homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 Can only be used with greatbows.</text>
 <text id="434000">Magical bolts said to have been used by servants of the abyss. Imbued with abyssal energies, these bolts inflict dark damage.
 
-Inflicts Curse and homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="442000">Draconic greatarrows said to be associated with the dragons of old.
 
 The fury of the fallen dragons is felt through these arrows.
 
-Can penetrate enemies.
+Effect: Can penetrate enemies.
 
 Can only be used with greatbows.</text>
-<text id="444000">Bolts coated with poison. Used by nefarious spooks to poison their marks.
+<text id="444000">Bolts coated with poison. Used by nefarious spooks to inflict 30 poison on their marks.
+
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
-<text id="454000">Bolts coated with frost. Used by crossbowmen serving under Pontiff Sulyvahn.
+<text id="454000">Bolts coated with frost. Used by crossbowmen serving under Pontiff Sulyvahn to inflict 30 frost to their marks.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="1000000">Standard small dagger.
@@ -2790,7 +2793,7 @@ While in stance, use normal attack to break a foe's guard from below, and strong
 <text id="2270000">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2802,7 +2805,7 @@ in an overhead slam.</text>
 <text id="2270100">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2814,7 +2817,7 @@ in an overhead slam.</text>
 <text id="2270200">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2826,8 +2829,6 @@ in an overhead slam.</text>
 <text id="2270300">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
-
 Effect: increases weapon damage by 10% when Hollow.
 
 Skill: Blade of Londor
@@ -2837,8 +2838,6 @@ or strong attack to back-step and jump forward
 in an overhead slam.</text>
 <text id="2270400">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
-
-Inflicts Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2850,8 +2849,6 @@ in an overhead slam.</text>
 <text id="2270500">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
-
 Effect: increases weapon damage by 10% when Hollow.
 
 Skill: Blade of Londor
@@ -2862,7 +2859,7 @@ in an overhead slam.</text>
 <text id="2270600">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2874,7 +2871,7 @@ in an overhead slam.</text>
 <text id="2270700">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2886,7 +2883,7 @@ in an overhead slam.</text>
 <text id="2270800">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2898,7 +2895,7 @@ in an overhead slam.</text>
 <text id="2270900">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2910,7 +2907,7 @@ in an overhead slam.</text>
 <text id="2271000">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2922,7 +2919,7 @@ in an overhead slam.</text>
 <text id="2271100">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2934,7 +2931,7 @@ in an overhead slam.</text>
 <text id="2271200">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2946,7 +2943,7 @@ in an overhead slam.</text>
 <text id="2271300">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -2958,7 +2955,7 @@ in an overhead slam.</text>
 <text id="2271400">Ceremonial sword of Londor, coated with spousal blood.
 It is said that a rite of wedlock will presage a true Hollow lord.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases weapon damage by 10% when Hollow.
 
@@ -5025,7 +5022,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5034,7 +5031,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5043,7 +5040,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5052,16 +5049,12 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
-
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
 <text id="5050400">A cursed sword with an unseen blade,
 the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
-
-Inflicts Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5070,8 +5063,6 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
-
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
 <text id="5050600">A cursed sword with an unseen blade,
@@ -5079,7 +5070,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5088,7 +5079,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5097,7 +5088,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5106,7 +5097,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5115,7 +5106,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5124,7 +5115,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5133,7 +5124,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5142,7 +5133,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -5151,7 +5142,7 @@ the choice weapon of Yuria of Londor.
 
 Yuria, a mentor of the Sable Church and accomplished swordswoman, is said to have claimed a hundred lives with this weapon.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Darkdrift
 Aim carefully, and pierce with a large forward lunge. The unseen blade penetrates straight through shields, for nothing can defend from Darkdrift.</text>
@@ -7109,7 +7100,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7117,7 +7108,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7125,7 +7116,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7133,15 +7124,11 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
-
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
 <text id="6240400">Pitch-black straight sword of the Darkwraith, survivor of the land swallowed by darkness.
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
-
-Inflicts Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7149,15 +7136,13 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
-
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
 <text id="6240600">Pitch-black straight sword of the Darkwraith, survivor of the land swallowed by darkness.
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7165,7 +7150,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7173,7 +7158,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7181,7 +7166,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7189,7 +7174,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7197,7 +7182,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7205,7 +7190,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7213,7 +7198,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -7221,7 +7206,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The Darkwraiths were the first red orb invaders, and originators of a unique sword technique inspired by their thick, broad blades.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Stomp
 Use one's weight to lunge forward with a low stance and increased poise, and follow with strong attack for an upward slash.</text>
@@ -11248,7 +11233,7 @@ Anchor weapon in earth to temporarily boost poise, and use strong attack to repe
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11257,7 +11242,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11266,7 +11251,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11275,7 +11260,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11284,16 +11269,12 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
-
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
 <text id="8210500">Hammer of the Four Knights, writhing in dark.
 
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
-
-Inflicts Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11302,7 +11283,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11311,7 +11292,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11320,7 +11301,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11329,7 +11310,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11338,7 +11319,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11347,7 +11328,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11356,7 +11337,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11365,7 +11346,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -11374,7 +11355,7 @@ Channel the dormant wrath of the Four Knights, imbuing weapon with black flames.
 This hammer was made for battle using a mysterious metal, its sharp edge capable of piercing shields and armor easily.
 Used to mercilessly crush enemies before one's eyes.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Warcry of the Abyss
 Channel the dormant wrath of the Four Knights, imbuing weapon with black flames. Use strong attacks to unleash the powers of the abyss.</text>
@@ -15535,105 +15516,102 @@ Skill: Flame Whirlwind
 Spin through opponents with abandon, flaming fists outstretched. Using a strong attack while spinning utilizes your momentum to slam the ground with both fists.</text>
 <text id="11040000">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040100">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040200">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040300">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040400">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040500">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040600">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040700">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040800">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11040900">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11041000">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11041100">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11041200">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11041300">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
 Embrace the victim and steal their HP. Can only be used against humans.</text>
 <text id="11041400">Weapon that allows its wielder to evoke an art unique to Londor, the land of the Hollow. It is also said to be an ancient relic of a Primordial Serpent. The Dark Hand mercilessly saps the essence of its victims, and can also double as a special shield.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity.
 
 Skill: Lifedrain
@@ -16359,91 +16337,85 @@ Skill: Limb Sweep
 Sweep foes in a large spinning motion, and utilize momentum to transition into an overhanded strong attack smash.</text>
 <text id="12140000">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140100">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140200">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140300">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
-
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140400">A murky battlestaff used by the denizens of the swamp.
-
-Inflicts Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140500">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
-
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140600">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140700">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140800">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12140900">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12141000">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12141100">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12141200">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12141300">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
 <text id="12141400">A murky battlestaff used by the denizens of the swamp.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Concussive Blows
 Execute relentless consecutive attacks while tracing a circle.</text>
@@ -16631,7 +16603,7 @@ Skill: Expel Lightning
 Charge with staff at waist to enwreathe with lightning, then release bolts with final thrust.</text>
 <text id="12170000">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16640,7 +16612,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170100">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16649,7 +16621,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170200">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 45 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16658,7 +16630,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170300">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16667,7 +16639,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170400">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16676,7 +16648,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170500">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16685,7 +16657,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170600">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16694,7 +16666,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170700">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16703,7 +16675,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170800">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16712,7 +16684,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12170900">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16721,7 +16693,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12171000">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16730,7 +16702,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12171100">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16739,7 +16711,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12171200">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16748,7 +16720,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12171300">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16757,7 +16729,7 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12171400">The battlestaff once used by the Archdeacons of the Cathedral of the Deep.
 
-Inflicts Curse and upon the death of an enemy, 
+Inflicts 30 Curse and upon the death of an enemy, 
 nearby corpses explode with dark energies.
 
 Skill: Archdeacon's Gambit
@@ -16766,91 +16738,85 @@ trigger a roar, a blessing, or vexation.
 </text>
 <text id="12180000">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180100">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180200">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180300">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
-
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180400">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
-
-Inflicts Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180500">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
-
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180600">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180700">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180800">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12180900">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12181000">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12181100">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12181200">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12181300">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
 <text id="12181400">A battlestaff often used by heretical sorcerers travelling through Farron Keep.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Wretch Earth
 Thrust staff into earth to trigger explosive tremors.</text>
@@ -28921,7 +28887,7 @@ Briefly cause flame within to flare,
 and smash it upon earth and foes.</text>
 <text id="30100000">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28929,7 +28895,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100100">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28937,7 +28903,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100200">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28945,7 +28911,6 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100300">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28953,7 +28918,6 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100400">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28961,7 +28925,6 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100500">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28969,7 +28932,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100600">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28977,7 +28940,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100700">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28985,7 +28948,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100800">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -28993,7 +28956,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30100900">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -29001,7 +28964,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30101000">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -29009,7 +28972,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30101100">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -29017,7 +28980,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30101200">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -29025,7 +28988,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30101300">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -29033,7 +28996,7 @@ While in stance, use normal attack for a low spinning slash, or strong attack to
 </text>
 <text id="30101400">Pitch-black greatsword sword of the Darkwraiths, survivors of the land swallowed by darkness.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Sword
@@ -30598,7 +30561,7 @@ Thrust the hammer into the ground to unleash a torrent of your own blood that da
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30611,7 +30574,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30624,7 +30587,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 60 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30637,8 +30600,6 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
-
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
@@ -30649,8 +30610,6 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 
 Fear not, the dark, my friend.
 And let the feast begin.
-
-Inflicts Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30663,8 +30622,6 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
-
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
@@ -30676,7 +30633,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30689,7 +30646,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30702,7 +30659,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30715,7 +30672,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30728,7 +30685,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30741,7 +30698,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30754,7 +30711,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30767,7 +30724,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -30780,7 +30737,7 @@ Let out a spirited warcry that temporarily boosts attack by 15% for 20 seconds, 
 Fear not, the dark, my friend.
 And let the feast begin.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31750,7 +31707,7 @@ Skill: Perseverance
 Anchor weapon in earth to temporarily boost poise. Damage reduced while activated.</text>
 <text id="30430000">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31758,7 +31715,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430100">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31766,7 +31723,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430200">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 25 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31774,15 +31731,11 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430300">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
-
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
 Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430400">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
-
-Inflicts Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31790,15 +31743,13 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430500">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
-
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
 Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430600">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31806,7 +31757,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430700">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31814,7 +31765,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430800">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31822,7 +31773,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30430900">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31830,7 +31781,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30431000">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31838,7 +31789,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30431100">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31846,7 +31797,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30431200">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31854,7 +31805,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30431300">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31862,7 +31813,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30431400">Twinspears belonging to hooded figure found in the Road of Sacrifices. Cursed, the figure wanders aimlessly, looking for its next victim.
 
-Inflicts Curse.
+Inflicts 10 Curse.
 
 Effect: replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max.
 
@@ -31870,7 +31821,7 @@ Skill: Vestiges of Aldia
 Perform a cross-cutting slice, imbuing weapon with the scholar’s flame. Follow with normal attack to hold spears at waist and charge at foe, or strong attack to leap forward and unleash the agony of Aldia’s tortured undead.</text>
 <text id="30440000">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31878,7 +31829,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440100">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31886,7 +31837,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440200">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 45 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31894,15 +31845,11 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440300">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
-
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
 Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440400">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
-
-Inflicts Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31910,15 +31857,13 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440500">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
-
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
 Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440600">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31926,7 +31871,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440700">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31934,7 +31879,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440800">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31942,7 +31887,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30440900">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31950,7 +31895,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30441000">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31958,7 +31903,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30441100">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31966,7 +31911,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30441200">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31974,7 +31919,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30441300">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -31982,7 +31927,7 @@ Skill: Chained Dance
 Execute relentless consecutive attacks while tracing a circle in a unique dance of deadly grace.</text>
 <text id="30441400">A curved sword with an ominous blade. One of the forbidden weapons sealed away deep within the Grand Archives. 
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Effect: increases damage by 10% when Hollow, and replaces dodge with Hunter Dash if enabled at Benjin. Disabled if current equipment load is above 70% of max. Boosts damage against Abyssal enemies by 5%.
 
@@ -35170,105 +35115,102 @@ Skill: Unleash Dragon
 Thrust the sword to unleash the strength of dragons.</text>
 <text id="30720000">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss. 
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720100">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720200">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 60 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720300">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720400">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720500">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720600">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720700">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720800">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30720900">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30721000">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30721100">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30721200">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30721300">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
 Assume a broad stance and unleash an abyssal burst.</text>
 <text id="30721400">A blade forged within the Abyss. Rumoured to be the weapons of the enigmatic kings of the Abyss.
 
-Inflicts Curse.
+Inflicts 45 Curse.
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
 Skill: Abyssal Burst
@@ -38142,7 +38084,7 @@ While in stance, use normal attack to break a foe's guard from below, and strong
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38151,7 +38093,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38160,7 +38102,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38169,16 +38111,12 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
-
 Skill: Quickstep
 Instantly step behind or around the side of foes.
 Especially effective when locked on to target.</text>
 <text id="31030400">A large, curved needle with barbed stingers.
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
-
-Inflicts Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38187,8 +38125,6 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
-
 Skill: Quickstep
 Instantly step behind or around the side of foes.
 Especially effective when locked on to target.</text>
@@ -38196,7 +38132,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38205,7 +38141,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38214,7 +38150,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38223,7 +38159,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38232,7 +38168,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38241,7 +38177,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38250,7 +38186,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38259,7 +38195,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -38268,7 +38204,7 @@ Especially effective when locked on to target.</text>
 
 This weapon was forged from the remains of a maneater. It stabs its target, hooks into the flesh, and slowly grinds away at its soul.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Quickstep
 Instantly step behind or around the side of foes.
@@ -42719,7 +42655,7 @@ Use one's weight to lunge forward with a low stance and increased poise, and fol
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42727,7 +42663,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42735,7 +42671,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 30 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42743,15 +42679,11 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
-
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
 <text id="31420400">Hands that were once attached to a monstrosity of sin.
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
-
-Inflicts Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42759,15 +42691,13 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
-
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
 <text id="31420600">Hands that were once attached to a monstrosity of sin.
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42775,7 +42705,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42783,7 +42713,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42791,7 +42721,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42799,7 +42729,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42807,7 +42737,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42815,7 +42745,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42823,7 +42753,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
@@ -42831,7 +42761,7 @@ Cross arms in front of the body to temporarily boost poise and emit dark manifes
 
 The search for knowledge is fraught with danger. For those that delve too deeply, a truly horrific transformation awaits.
 
-Inflicts Curse.
+Inflicts 15 Curse.
 
 Skill: Inner Turmoil
 Cross arms in front of the body to temporarily boost poise and emit dark manifestations of pain. Damage reduced while activated.</text>
