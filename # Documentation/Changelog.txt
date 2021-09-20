@@ -38,16 +38,6 @@ Finish following weapons:
  - Correction Types (Fire/Dark)
  - Attack Element Correct ID
  - Scaling/Damage
-
-31450000 Aldia Hammer                    - Club
-    Custom Warcry
-
-31510000 Drakewing Ultra Greatsword      - Greatsword
-    Shoot Wind projectile with charged heavy
-    Wind Wall WA
-
-31540000 Helix Halberd                   - Halberd
-    Staggering Dart WA
     
 31550000 Malformed Skull                 - Great Club
     Dragon Roar WA
@@ -61,34 +51,11 @@ Finish following weapons:
 31630000 Spider's Silk                   - Rapier
     Guard bypass
     
-31640000 Spitfire Spear                  - Spear
-    Heavy Attack: shoot fireball
-    WA: shoot multiple fireballs
-
-31670000 Ivory King Ultra Greatsword     - Greatsword
-    Beam of light whilst 2H
-
-
-31460000 Black Scorpion Stinger          - Estoc
 31470000 Dragonrider Twinblade           - Splitleaf Greatsword
-31480000 Dragon Hunter's Great Hammer    - Great Club 
-31490000 Dragon Hunter's Greataxe        - Demon's Great Axe 
-31500000 Dragon Hunter's Warpick         - Pickaxe
-31520000 Gargoyle Bident                 - Saint Bident 
 31530000 Giant Warrior Club              - Great Club 
-31560000 Melu Scimitar                   - Falchion
-31570000 Old Knight Halberd              - Halberd
-    +100 overall category damage, but low durability
-31580000 Old Knight Hammer               - Great Mace
-    +100 overall category damage, but low durability
-31590000 Old Knight Pike                 - Pike
-    +100 overall category damage, but low durability
-31600000 Red Rust Sword                  - Scimitar
 31650000 Syan's Halberd                  - Halberd
 31660000 Warped Sword                    - Falchion
 31680000 Stone Greataxe                  - Demon's Great Axe 
-31690000 Gargoyle Halberd                - Halberd
-31700000 Gargoyle Tail Axe               - Battle Axe
 
 # Lost Cat
 - Shield Catalyst - Loch Shield/Disc Chime
@@ -151,8 +118,8 @@ Finish following weapons:
 
 # Covenant
 - Added a Devotion system for each covenant:
-    - While you have the covenant's accessory equipped, you can increase your devotion in exchange for the covenant material.
-    - Increasing devotion will increase the rank of the accessory, improving its effect.
+ - While you have the covenant's accessory equipped, you can increase your devotion in exchange for the covenant material.
+ - Increasing devotion will increase the rank of the accessory, improving its effect.
     
 - Added Priestess Emilia, a covenant NPC for Way of Blue. Appears after you receive the accessory from High Priestess Emma or the Dancer is killed.
 - Added Knight Lun, a covenant NPC for Blue Sentinels. Appears after you receive the accessory from Horace in Halfway Fortress or Aldrich is killed.
@@ -162,8 +129,41 @@ Finish following weapons:
 
 - Added covenant shop for Blue Sentinels.
 - Added covenant shop for Way of Blue.
-- Added covenant shop for Thieves' Pact
-- Added the Dragonslayer's Axe and Mirrah Chain Set to Rosaria's Fingers covenant shop.
+- Added covenant shop for Thieves' Pact.
+- Added several equipments to the covenant shop:
+ - Rosaria's Fingers
+  - Dragonslayer's Axe
+  - Mirrah Chain Set
+
+ - Way of Blue
+  - Heide Lance
+  - Heide Greatlance
+
+ - Mound-makers
+  - Chariot Lance
+
+ - Thieves's Guild
+  - Flynn's Bow, relocated from Mound-makers covenant shop.
+  - Helix Halberd
+  - Melu Scimitars
+
+ - Blue Sentinels
+  - Old Knight Maces
+  - Old Knight Glaive
+  - Old Knight Battle Axe
+
+ - Chaos Servants
+  - Gargoyle Halberd
+  - Gargoyle Bident
+  - Gargoyle Tail Axe
+  - Gargoyle Shield
+
+ - Servant of the Rat
+  - Black Scorpion Stinger
+  - Red Rust Sword
+
+ - Vinheim Scholars
+  - Aldia Hammer
 
 # Infusions
 - Fire infusion now increases max Stamina by 20%.
@@ -188,6 +188,7 @@ Finish following weapons:
 - Changed moveset for the following weapon class:
  - Hammer
   - Boom Hammer (Ignite)
+  - Morning Star (Perseverance)
 
  - Claw 		
   - Claws (Stance)
@@ -206,11 +207,36 @@ Finish following weapons:
   - Greatwood Club (Spin Bash)
   - Church Pick (Righteous Rush)
 
+ - Katana
+  - Bloodlust (Bloodlust)
+
+ - Fists
+  - Caestus (Stance)
+ 
+ - Battlestaff
+  - Phosphorescent Pole (Phosphorescent Madness)
+
 - Added the following weapon:
  - Grand Lance (Charge), equivalent to default Greatlance with different model.
- - Heide Lance (Heide's Judgment), can be exchanged for 15 Grateful Souls in Way of Blue convenant shop.
- - Heide Greatlance (Heide's Fury), can be exchanged for 15 Grateful Souls in Way of Blue convenant shop.
- - Chariot Lance (Executioner's Torment), can be exchanged for 15 Vertebra Shackles in Mound-makers covenant shop.
+ - Heide Lance (Heide's Judgment)
+ - Heide Greatlance (Heide's Fury)
+ - Chariot Lance (Executioner's Torment)
+ - Dragon Hunter's Greataxe (Dragon Hunter's Rage)
+ - Dragon Hunter's Great Hammer (Dragon Hunter's Wrath)
+ - Dragon Hunter's Warpick (Dragon Hunter's Stance)
+ - Gargoyle Halberd (Gargoyle's Flame)
+ - Gargoyle Bident (Burning Rush)
+ - Gargoyle Tail Axe (Burning Slash)
+ - Helix Halberd (Staggering Dart)
+ - Melu Scimitars (Spin Slash)
+ - Black Scorpion Stinger (Shield Splitter)
+ - Red Rust Sword (Forossan Warcry)
+ - Drakewing Ultra Greatsword (Gale Stomp)
+ - Spitfire Spear (Spitfire)
+ - Ivory King Ultra Greatsword (Stomp)
+ - Old Knight Maces (Spin Bash)
+ - Old Knight Glaive (Spin Sweep)
+ - Old Knight Battle Axe (Warcry)
 
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
@@ -235,11 +261,12 @@ Finish following weapons:
  - Slight event arrangement for Ciaran's Tracers.
  - Restored Short Bow/Composite Bow Running attack.
  - Decrease the ending lag and reload speed for Crossbows.
- - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset.
+ - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset, also slight speed adjustment.
  - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
  - Changed Lance's 1H & 2H Rolling R1.
  - Modified Censuring Palm's L1 animations.
  - Changed Scythe's Riposte animation (Experimental), currently available for Great Scythe and Pontiff Knight Great Scythe.
+ - Added a new kick to Alternate Katana moveset.
 
 # Cosmetic Items
 - Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
@@ -319,6 +346,16 @@ Finish following weapons:
 - Twisted Knight:
  - His color mechanic has been switched, instead of reducing damage except for the chosen element, it now adds a 50% boost to the chosen element.
  - Increased his HP to 16,000 to retain the length of the fight.
+
+- Ivory King Ultra Greatsword can be transposed from the Soul of Princess Yngvil.
+- Drakewing Ultra Greatsword can be transposed from the Soul of Ancient Wyvern.
+- Spitfire Spear can be transposed from the Soul of Stray Demon.
+
+# Shop
+- Added several weapons to Crestfallen Merchant's shop:
+ - Dragon Hunter's Greataxe
+ - Dragon Hunter's Great Hammer
+ - Dragon Hunter's Warpick
 
 # Map
 - Added interaction points in m30:
