@@ -81,8 +81,8 @@
 0942    Iaito                       # UNUSED
 0943    Hammer of Vamos             # UNUSED
 0944    Ghost Blade                 # UNUSED
-0945    Gargoyle Halberd            # UNUSED
-0946    Gargoyle Axe                # UNUSED
+0945    Gargoyle Halberd            
+0946    Gargoyle Axe                
 0947    Demon's Catalyst            # UNUSED
 0948    Crystal Greatsword          # UNUSED
 0949    DS1 Knight Shield           # UNUSED
