@@ -7542,7 +7542,7 @@ function AttackRightLightStep_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 or sp_kind == 727 or sp_kind == 713 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 then
+    if sp_kind == 281 or sp_kind == 729 or sp_kind == 726 or sp_kind == 732 or sp_kind == 734 or sp_kind == 736 or sp_kind == 730 or sp_kind == 721 or sp_kind == 146 or sp_kind == 600 or sp_kind == 717 or sp_kind == 727 or sp_kind == 713 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 then
         r1 = "W_AttackRightLight2"
     end
     
@@ -7599,6 +7599,10 @@ function AttackRightLightDash_onUpdate()
 		r1 = "W_AttackRightBackstep"
 	end	
 	
+	if sp_kind == 603 then
+		r1 = "W_SpecialAttackRightHeavy"
+	end	
+		
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
     else

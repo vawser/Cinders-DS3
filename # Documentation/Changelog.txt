@@ -111,6 +111,7 @@ Finish following weapons:
 - Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
 - Fixed the Courtier Set amount show when looted.
 - Fixed the effect icons of the Pickpocket Leggings and Frostfall's weapon art flickering.
+- Fixed the weapon art vfx for Fire Infused Follower Torch.
  
 # Journey Configuration
 - Mythic Mode:
@@ -267,6 +268,8 @@ Finish following weapons:
  - Modified Censuring Palm's L1 animations.
  - Changed Scythe's Riposte animation (Experimental), currently available for Great Scythe and Pontiff Knight Great Scythe.
  - Added a new kick to Alternate Katana moveset.
+ - Alternate Claws' kick now phased through enemy and only stagger enemy backwards.
+ - Certain Unique Kick now pulled enemy closer. (Church Pick/Hunter Axe/Burial Scythe)
 
 # Cosmetic Items
 - Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
@@ -335,6 +338,7 @@ Finish following weapons:
 # Npcs
 - Npc main weapon is now always +10.
 - Master Benjin now allows you to toggle the Bloodborne Dash that certain weapons have.
+- Forgotten Locklin now drops 3 Smouldering Stones.
 
 # Enemies
 - Red Crystal Lizards now always drop Lizard Hide.
