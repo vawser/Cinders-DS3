@@ -3379,6 +3379,9 @@
 104931100 [Fume Slated Swords] Burst
 104931110 [Fume Slated Swords] Vertical Wave #1
 104931120 [Fume Slated Swords] Vertical Wave #2
+104931200 [Drakewing Ultra Greatsword] Weapon Art
+104931210 [Drakewing Ultra Greatsword] Weapon Art [Emitter]
+104931220 [Drakewing Ultra Greatsword] Weapon Art [Bullet]
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -3981,8 +3984,8 @@
 210017200 [Spitfire Spear] SpitFire
 210017220 [Spitfire Spear] - Heavy - Bullet
 210017221 [Spitfire Spear] - Heavy - Bullet [Hit]
-210018000 Helix Halberd
-210018001 Helix Halberd
+210018000 [Helix Halberd] - Staggering Dart
+210018001 [Helix Halberd] - Staggering Dart
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport
