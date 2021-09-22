@@ -47,20 +47,19 @@
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
 21806 [Mound-makers] Hollowslayer Greatsword
-21807 [Mound-makers] Flynn's Bow
-21808 [Mound-makers] Sunset Helm
-21809 [Mound-makers] Sunset Armor
-21810 [Mound-makers] Sunset Gauntlets
-21811 [Mound-makers] Sunset Leggings
-21812 [Mound-makers] Maddening Elixir
-21813 [Mound-makers] Sunset Shield
-21814 [Mound-makers] Chariot Lance
+21807 [Mound-makers] Sunset Helm
+21808 [Mound-makers] Sunset Armor
+21809 [Mound-makers] Sunset Gauntlets
+21810 [Mound-makers] Sunset Leggings
+21811 [Mound-makers] Maddening Elixir
+21812 [Mound-makers] Sunset Shield
+21813 [Mound-makers] Chariot Lance
 22000 [Chaos Servants] Lingering Chaos
 22003 [Chaos Servants] Fire Gem
-22007 [Chaos Servants] Old Sage's Blindfold
-22008 [Chaos Servants] Cornyx's Garb
-22009 [Chaos Servants] Cornyx's Wrap
-22010 [Chaos Servants] Cornyx's Skirt
+22007 [Chaos Servants] Gargoyle Halberd
+22008 [Chaos Servants] Gargoyle Tail Axe
+22009 [Chaos Servants] Gargoyle Bident
+22010 [Chaos Servants] Gargoyle Shield
 22011 [Chaos Servants] Demonic Elixir
 22013 [Chaos Servants] Soul of a Demon
 22014 [Chaos Servants] Soul of a Stray Demon
@@ -105,6 +104,7 @@
 22517 [Vinheim Scholars] Robe of the Channelers
 22518 [Vinheim Scholars] Gauntlets of the Channelers
 22519 [Vinheim Scholars] Waistcloth of the Channelers
+22520 [Vinheim Scholars] Aldia Hammer
 22600 [Pilgrims of Dark] Karla's Pointed Hat
 22601 [Pilgrims of Dark] Karla's Coat
 22602 [Pilgrims of Dark] Karla's Gloves
@@ -163,9 +163,14 @@
 22921 [Servant of the Rat] Vine Balm
 22922 [Servant of the Rat] Blackweed Balm
 22923 [Servant of the Rat] Goldenfruit Balm
+22924 [Servant of the Rat] Black Scorpion Stinger
+22925 [Servant of the Rat] Red Rust Sword
 23000 [Blue Sentinels] Blue Tearstone Ring
 23001 [Blue Sentinels] Llewellyn Shield
 23002 [Blue Sentinels] Undead Hunter Charm
+23003 [Blue Sentinels] Old Knight Battle Axe
+23004 [Blue Sentinels] Old Knight Maces
+23005 [Blue Sentinels] Old Knight Glaive
 23100 [Way of Blue] Gwynevere's Urn
 23101 [Way of Blue] Divine Blessing
 23102 [Way of Blue] Hidden Blessing
@@ -176,6 +181,9 @@
 23202 [Thieves' Pact] Titanite Chunk
 23203 [Thieves' Pact] Titanite Slab
 23204 [Thieves' Pact] Primordial Fragment
+23205 [Thieves' Pact] Helix Halberd
+23206 [Thieves' Pact] Melu Scimitars
+23207 [Thieves' Pact] Flynn's Bow
 30000 [Ludleth - Dismal Knight] Accursed Sigil
 30001 [Ludleth - Dismal Knight] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -233,6 +241,7 @@
 30141 [Ludleth - Ancient Wyvern] Dragon Greatsword
 30143 [Ludleth - Ancient Wyvern] Ancient Dragon Halberd
 30144 [Ludleth - Ancient Wyvern] Dragon Bone Fist
+30145 [Ludleth - Ancient Wyvern] Drakewing Ultra Greatsword
 30150 [Ludleth - Nameless King] Dragonslayer Swordspear
 30151 [Ludleth - Nameless King] Storm Curved Sword
 30152 [Ludleth - Nameless King] Sunlight Spear
@@ -279,6 +288,7 @@
 30312 [Ludleth - Demon] Demon's Machete
 30320 [Ludleth - Stray Demon] Boulder Heave
 30321 [Ludleth - Stray Demon] Demon's Great Axe
+30322 [Ludleth - Stray Demon] Spitfire Spear
 30330 [Ludleth - Halflight] White Birch Bow
 30331 [Ludleth - Halflight] Wrathful Orbs
 30332 [Ludleth - Halflight] Holy Schism
@@ -298,6 +308,7 @@
 30390 [Ludleth - Princess Yngvil] Frostfall
 30391 [Ludleth - Princess Yngvil] Wretched Pendant
 30392 [Ludleth - Princess Yngvil] Frostflower Ring
+30393 [Ludleth - Princess Yngvil] Ivory King Ultra Greatsword
 30400 [Ludleth - Twisted Knight] Cursed Ring of Evasion
 30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
 30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
@@ -343,7 +354,7 @@
 36048 [Bonfire - Pit of Hollows] Alluring Skull
 36049 [Bonfire - Cleansing Chapel] Undead Hunter Charm
 36050 [Bonfire - Church of Yorshka] Black Firebomb
-36051 [Bonfire - Default] Rope Firebomb
+36051 [Bonfire - Default] Set-up Firebomb
 36052 [Bonfire - Great Belfry] Lightning Urn
 36053 [Bonfire - Church of Yorshka] Rope Black Firebomb
 36054 [Bonfire - Farron Keep] Stalk Dung Pie
@@ -714,7 +725,7 @@
 120014 [Greirat] Thief Mask
 120015 [Greirat] Bloodred Moss Clump
 120016 [Greirat] Firebomb
-120017 [Greirat] Rope Firebomb
+120017 [Greirat] Set-up Firebomb
 120018 [Greirat] Throwing Knife
 120019 [Greirat] Ember
 120100 [Greirat - Curse-rotted Greatwood] Estoc
@@ -974,6 +985,9 @@
 230007 [Crestfallen Merchant] Green Blossom
 230008 [Crestfallen Merchant] Charcoal Pine Resin
 230009 [Crestfallen Merchant] Ring of Calamity
+230010 [Crestfallen Merchant] Dragon Hunter's Great Hammer
+230011 [Crestfallen Merchant] Dragon Hunter's Greataxe
+230012 [Crestfallen Merchant] Dragon Hunter's Warpick
 240000 [Astrologer Lillian - Sorcery] Farron Dart
 240001 [Astrologer Lillian - Sorcery] Soul Arrow
 240002 [Astrologer Lillian - Sorcery] Homing Soulmass
@@ -2117,6 +2131,23 @@
 800472 [Gauntlet Weapon] Firelink Sword
 800473 [Gauntlet Weapon] Firelink Rapier
 800474 [Gauntlet Weapon] Blueblood Sword
+800475 [Gauntlet Weapon] Old Knight Battle Axe
+800476 [Gauntlet Weapon] Old Knight Glaive
+800477 [Gauntlet Weapon] Old Knight Maces
+800478 [Gauntlet Weapon] Melu Scimitars
+800479 [Gauntlet Weapon] Helix Halberd
+800480 [Gauntlet Weapon] Dragon Hunter's Great Hammer
+800481 [Gauntlet Weapon] Dragon Hunter's Warpick
+800482 [Gauntlet Weapon] Dragon Hunter's Greataxe
+800483 [Gauntlet Weapon] Ivory King Ultra Greatsword
+800484 [Gauntlet Weapon] Spitfire Spear
+800485 [Gauntlet Weapon] Gargoyle Tail Axe
+800486 [Gauntlet Weapon] Gargoyle Bident
+800487 [Gauntlet Weapon] Gargoyle Halberd
+800488 [Gauntlet Weapon] Red Rust Sword
+800489 [Gauntlet Weapon] Black Scorpion Stinger
+800490 [Gauntlet Weapon] Drakewing Ultra Greatsword
+800491 [Gauntlet Weapon] Aldia Hammer
 801000 [Gauntlet Armor] Gough's Helm
 801001 [Gauntlet Armor] Gough's Armor
 801002 [Gauntlet Armor] Gough's Gloves
@@ -3425,7 +3456,7 @@
 804086 [Gauntlet Item] Alluring Skull
 804087 [Gauntlet Item] Undead Hunter Charm
 804088 [Gauntlet Item] Black Firebomb
-804089 [Gauntlet Item] Rope Firebomb
+804089 [Gauntlet Item] Set-up Firebomb
 804090 [Gauntlet Item] Lightning Urn
 804091 [Gauntlet Item] Rope Black Firebomb
 804092 [Gauntlet Item] Stalk Dung Pie

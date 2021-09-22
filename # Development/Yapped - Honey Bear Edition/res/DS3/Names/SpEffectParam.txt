@@ -2585,10 +2585,14 @@
 1081011 [Weapon Art] Elemental Flow – Right Hand – Low FP
 1081051 [Weapon Art] Elemental Flow – Left Hand
 1081061 [Weapon Art] Elemental Flow – Left Hand – Low FP
-1081101 Bloodlust Warcry
-1081111 Bloodlust Warcry
-1081151 Bloodlust Warcry
-1081161 Bloodlust Warcry
+1081101 [Weapon Art] Bloodlust - Right Hand
+1081111 [Weapon Art] Bloodlust - Right Hand - No FP
+1081151 [Weapon Art] Bloodlust - Left Hand
+1081161 [Weapon Art] Bloodlust - Left Hand - No FP
+1081201 [Weapon Art] Phosphorescent Pole - Right Hand
+1081211 [Weapon Art] Phosphorescent Pole - Right Hand - No FP
+1081251 [Weapon Art] Phosphorescent Pole - Left Hand
+1081261 [Weapon Art] Phosphorescent Pole - Left Hand - No FP
 1083201 [Weapon Art] Ledo's Great Hammer - Right
 1083251 [Weapon Art] Ledo's Great Hammer - Left
 1092401 [Weapon Art] Ringed Knight Spear - Ember - Right
@@ -3196,6 +3200,7 @@
 130210500 [Black Dragon Shield] Black Dragon's Ire
 130220500 [Moaning Shield] Moaning Shield
 130230000 [Spear] Stability Boost - Shield Poke
+130231000 [Phosphorescent Pole] Absorption Decrease
 140010400 Poison
 140021200 Poison
 140091200 Poison
@@ -3568,6 +3573,10 @@
 160260160 Bloodlust (Alt) - Bleed - Left-hand
 160260161 Bloodlust (Alt) - Bleed - Left-hand [Cycle]
 160260162 Bloodlust (Alt) - Bleed - Left-hand [AttackOccurance]
+160260200 Phosphorescent Pole - Weapon Art - Right
+160260210 Phosphorescent Pole - Weapon Art - Right - No FP
+160260250 Phosphorescent Pole - Weapon Art - Left
+160260260 Phosphorescent Pole - Weapon Art - Left - No FP
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield

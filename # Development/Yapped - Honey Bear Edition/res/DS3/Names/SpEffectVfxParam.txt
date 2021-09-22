@@ -1148,6 +1148,8 @@
 91061950 Sparks
 91062000 Ignite
 91062050 Ignite
+91062100 Phosphorescent Pole
+91062150 Phosphorescent Pole
 91062311 Weapon Art - Warcry 1 - Right
 91062351 Weapon Art - Warcry 1 - Left
 91062711 Chaos Flame
@@ -1233,6 +1235,7 @@
 99917000 Weapon: Lightning Infusion
 99918000 Ring: Knight Slayer's Ring
 99919000 Weapon: Blind
+99920000 Weapon: Phosphorescent Pole
 99923000 Weapon: Sage's Crystal Staff - Crystallization
 99924000 Weapon: Manus Catalyst - Fury of Manus
 99924010 Weapon: Velka's Talisman - Velka's Grace

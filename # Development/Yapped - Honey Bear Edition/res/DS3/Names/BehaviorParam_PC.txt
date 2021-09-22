@@ -1162,6 +1162,9 @@
 102606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
 102606540 Drakewing Ultra Greatsword - 1H Roll
 102606580 Drakewing Ultra Greatsword - 2H Roll
+102606700 Drakewing Ultra Greatsword - Stomp
+102606701 Drakewing Ultra Greatsword - Stomp - Strike
+102606705 Drakewing Ultra Greatsword - Weapon Art
 102607106 Ivory King UGS - Durability
 102607201 Ivory King UGS - Magic Blade Light
 102607202 Ivory King UGS - Magic Blade Heavy #1
@@ -1819,8 +1822,10 @@
 103000402 Axe
 103000404 Axe
 103000410 Axe - 1H Kick
+103000412 Red Rust Sword - 1H Kick
 103000415 Axe - 1H Kick - Shoulder Bash
 103000420 Axe - 2H Kick
+103000422 Red Rust Sword - 2H Kick
 103000425 Axe - 2H Kick - Shoulder Bash
 103000430 Axe - 1H Guard
 103000440 Axe - 2H Guard
@@ -2194,8 +2199,13 @@
 103200250 Greataxe - 2H Fall Landing
 103200300 Greataxe - 2H Heavy #1
 103200305 Greataxe - 2H Heavy #1 Max
+103200306 Dragon Hunter's Greataxe - 2H Heavy #1 Max
 103200310 Greataxe - 2H Heavy #2
+103200312 Dragon Hunter's Greataxe - 2H Heavy #2 - Hit 1
+103200313 Dragon Hunter's Greataxe - 2H Heavy #2 - Hit 2
 103200315 Greataxe - 2H Heavy #2 Max
+103200316 Dragon Hunter's Greataxe - 2H Heavy #2 Max - Hit 1
+103200318 Dragon Hunter's Greataxe - 2H Heavy #2 Max - Hit 2
 103200400 Greataxe - Left Hand
 103200402 Greataxe
 103200404 Greataxe
@@ -2560,6 +2570,10 @@
 103300806 Hammer
 103300807 Hammer
 103300808 Hammer
+103300810 Hammer - 1H Warcry #2 - Hit 1
+103300811 Hammer - 1H Warcry #2 - Hit 2
+103300812 Hammer - 1H Warcry #2 Max - Hit 1
+103300813 Hammer - 1H Warcry #2 Max - Hit 2
 103300900 Hammer
 103300901 Hammer
 103300902 Hammer
@@ -2568,6 +2582,10 @@
 103300906 Hammer
 103300907 Hammer
 103300908 Hammer
+103300910 Hammer - 2H Warcry #2 - Hit 1
+103300911 Hammer - 2H Warcry #2 - Hit 2
+103300912 Hammer - 2H Warcry #2 Max - Hit 1
+103300913 Hammer - 2H Warcry #2 Max - Hit 1
 103300920 Hammer
 103300921 Hammer
 103300990 Hammer - Quickstep
@@ -2699,7 +2717,11 @@
 103500250 Great Mace - 2H Fall Landing
 103500300 Great Mace - 2H Heavy #1
 103500301 Great Mace - 2H Around
+103500302 Dragon Hunter's Warpick - 2H Heavy #1 - Hit 1
+103500303 Dragon Hunter's Warpick - 2H Heavy #1 - Hit 2
 103500305 Great Mace - 2H Heavy #1 Max
+103500306 Dragon Hunter's Warpick - 2H Heavy #1 Max - Hit 1
+103500308 Dragon Hunter's Warpick - 2H Heavy #1 Max - Hit 2
 103500310 Great Mace - 2H Heavy #2
 103500315 Great Mace - 2H Heavy #2 Max
 103500318 Great Hammer (Alt) - 2H Heavy #2 Max
@@ -2730,12 +2752,22 @@
 103500610 Great Mace - Backstab Transition
 103500615 Great Mace - Missed Backstab Transition
 103500700 Great Mace
+103500710 Dragon Hunter's Warpick - Stance Light - Hit 1
+103500711 Dragon Hunter's Warpick - Stance Light - Hit 2
+103500720 Dragon Hunter's Warpick - Stance Light
+103500725 Dragon Hunter's Warpick - Stance Heavy
+103500730 Dragon Hunter's Warpick - Stance Heavy
 103500800 Great Mace - Magic Sword
 103500801 Great Mace
 103500802 Great Mace
 103500805 Great Mace
 103500806 Great Mace
 103500807 Great Mace
+103500820 Dragon Hunter's Great Hammer - Continuous Hit
+103500822 Dragon Hunter's Great Hammer - Continuous Hit Last Thrust
+103500825 Dragon Hunter's Great Hammer - Cont
+103500827 Dragon Hunter's Great Hammer - Final Hit
+103500828 Dragon Hunter's Great Hammer - Heave
 103500835 Great Hammer - Tackle
 103500850 Great Hammer (Alt) - Kick
 103500900 Great Mace
@@ -3032,6 +3064,42 @@
 103608810 Pike
 103608820 Pike
 103608830 Pike
+103609000 Phosphorescent Pole - 1H Light #1
+103609010 Phosphorescent Pole - 1H Light #2
+103609020 Phosphorescent Pole - 1H Light #3
+103609025 Phosphorescent Pole - 1H Light #4
+103609100 Phosphorescent Pole - 1H Heavy #1
+103609105 Phosphorescent Pole - 1H Heavy #1 Max
+103609110 Phosphorescent Pole - 1H Heavy #2
+103609115 Phosphorescent Pole - 1H Heavy #2 Max
+103609200 Phosphorescent Pole - 2H Light #1
+103609210 Phosphorescent Pole - 2H Light #2
+103609220 Phosphorescent Pole - 2H Light #3
+103609225 Phosphorescent Pole - 2H Light #4
+103609300 Phosphorescent Pole - 2H Heavy #1
+103609305 Phosphorescent Pole - 2H Heavy #1 Max - Hit 1
+103609308 Phosphorescent Pole - 2H Heavy #1 Max - Hit 2
+103609310 Phosphorescent Pole - 2H Heavy #2
+103609315 Phosphorescent Pole - 2H Heavy #2 Max - Hit 1
+103609318 Phosphorescent Pole - 2H Heavy #2 Max - Hit 2
+103609520 Phosphorescent Pole - 1H Running
+103609521 Phosphorescent Pole - 1H Running - Final
+103609522 Phosphorescent Pole - 1H Running - Tackle
+103609523 Phosphorescent Pole - 1H Running - Weak
+103609530 Phosphorescent Pole - 2H Running
+103609531 Phosphorescent Pole - 2H Running - Final
+103609532 Phosphorescent Pole - 2H Running - Tackle
+103609533 Phosphorescent Pole - 2H Running - Weak
+103609540 Phosphorescent Pole - 1H Roll Attack
+103609580 Phosphorescent Pole - 2H Roll Attack
+103609700 Phosphorescent Pole - Weapon Art - Buff
+103609850 Phosphorescent Pole - 1H Warcry - Med
+103609852 Phosphorescent Pole - 1H Warcry - Weak
+103609855 Phosphorescent Pole - 1H Warcry - Strong
+103609950 Phosphorescent Pole - 2H Warcry - Med
+103609952 Phosphorescent Pole - 2H Warcry - Weak
+103609953 Phosphorescent Pole - 2H Warcry - Weak (Thrust)
+103609955 Phosphorescent Pole - 2H Warcry - Strong
 103610000 Greatlance
 103610001 Greatlance
 103610010 Greatlance
@@ -3113,6 +3181,7 @@
 103616315 Silver Knight Spear - 2H Heavy #2 Max
 103617150 [Spitfire Spear] - Heavy - Bullet
 103617151 [Spitfire Spear] - Heavy - Bullet [Hit]
+103617700 [Spitfire Spear] Buffer
 103617710 [Spitfire Spear] SpitFire
 103617720 [Spitfire Spear] SpitFire
 103620700 Spear
@@ -3218,10 +3287,15 @@
 103670860 Ringed Knight Spear
 103670865 Ringed Knight Spear
 103680100 Gargoyle Bident - 1H Heavy #1
+103680300 Gargoyle Bident - 2H Heavy #1
+103680305 Gargoyle Bident - 2H Heavy #1 Max
+103680310 Gargoyle Bident - 2H Heavy #2
+103680315 Gargoyle Bident - 2H Heavy #2 Max
 103680410 Gargoyle Bident - 1H Kick
 103680420 Gargoyle Bident - 2H Kick
 103680520 Gargoyle Bident - 1H Backstep
-103680530 Gargoyle Bident - 2H Backstep (2 Hits)
+103680530 Gargoyle Bident - 2H Backstep
+103680535 Gargoyle Bident - 2H Backstep (2 Hits) Unused
 103680730 Gargoyle Bident - WA #1
 103680731 Gargoyle Bident - WA #2
 103680733 Gargoyle Bident - WA Final

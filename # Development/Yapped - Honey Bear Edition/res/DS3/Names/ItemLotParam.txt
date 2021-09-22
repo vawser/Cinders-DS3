@@ -175,7 +175,7 @@
 9030 Charcoal Pine Resin
 9999 ### Treasure - Intruders
 10100 [Luyila of Londor] Darkdrift
-10200 [Forgotten Locklin] Gargoyle Shield
+10200 [Forgotten Locklin] Smouldering Stones
 10300 [Holy Knight Morton] Titanite Fragment
 10500 [Tiny] Smough's Helm
 10501 [Tiny] Smough's Armor
@@ -940,7 +940,7 @@
 3100170 [Corpse] Soul of a Deserted Corpse
 3100171 [Corpse] Titanite Shard
 3100180 [Corpse] Large Soul of a Deserted Corpse
-3100181 [Corpse] Rope Firebomb
+3100181 [Corpse] Set-up Firebomb
 3100190 [Corpse] Soul of a Deserted Corpse
 3100191 [Corpse] Green Blossom
 3100200 [Corpse] Soul of a Deserted Corpse
@@ -2963,7 +2963,7 @@
 800011150 [Covenant] Rat Tail
 800011160 [Covenant] Ritual Incense
 800019999 ### Covenant Consumable Drops ###
-800020000 [Thieves' Pact] Firebomb, Rope Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
+800020000 [Thieves' Pact] Firebomb, Set-up Firebomb, Black Firebomb, Lightning Urn, Witching Urn, Hexing Urn
 800020001 [Thieves' Pact] Alluring Skull, Undead Hunter Charm, Duel Charm
 800020002 [Thieves' Pact] Throwing Knife, Poison Throwing Knife, Dung Pie, Stalk Dung Pie
 800020003 [Thieves' Pact] New Throwing Knives

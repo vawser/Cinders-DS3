@@ -78,6 +78,7 @@
 415 [Ultra Greatsword] Lightning Stomp
 416 [Ultra Greatsword] Raime's Fury
 417 [Ultra Greatsword] Nadalia's Wrath
+418 [Ultra Greatsword] Gale Stomp
 500 [Rapier] Stance
 501 [Rapier] Shield Splitter
 502 [Rapier] Ricard's Lunge and Press
@@ -121,6 +122,7 @@
 906 [Axe] Burning Slash
 907 [Axe] Stomp
 908 [Axe] Forceful Slash
+909 [Axe] Forossan Warcry
 1000 [Greataxe] Warcry
 1001 [Greataxe] ?
 1002 [Greataxe] Demonic Flare
@@ -163,8 +165,9 @@
 1215 [Great Hammer] Frostweave
 1216 [Great Hammer] Morne's Rage (New)
 1217 [Great Hammer] Righteous Rush
-1218 [Great Hammer] Charge
-1219 [Great Hammer] Stance
+1218 [Great Hammer] Dragon Hunter's Wrath
+1219 [Great Hammer] Dragon Hunter's Stance
+1220 [Great Hammer] Dragon Hunter's Rage
 1300 [Spear] Charge
 1301 [Spear] Falling Bolt
 1302 [Spear] Pacify
@@ -196,6 +199,8 @@
 1328 [Lance] Charge
 1329 [Lance] Executioner's Torment
 1330 [Lance] Heide's Fury
+1331 [Battle Staff] Phosphorescent Madness
+1332 [Spear] Spitfire
 1400 [Halberd] Spin Sweep
 1401 [Halberd] Chain Spin
 1402 [Halberd] Champion's Charge
@@ -211,6 +216,7 @@
 1412 [Halberd] Neck Swipe
 1413 [Halberd] Gargoyle's Flame
 1414 [Halberd] Stance
+1415 [Halberd] Staggering Dart
 1500 [Scythe] Neck Swipe
 1501 [Scythe] ?
 1502 [Scythe] Frost
@@ -228,6 +234,7 @@
 1702 [Fist] Lifedrain
 1703 [Fist] Perseverance
 1704 [Fist] Inner Turmoil
+1705 [Fist] Stance
 1800 [Claw] Leaping Slash
 1801 [Claw] ?
 1802 [Claw] Quickstep

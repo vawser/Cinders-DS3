@@ -407,11 +407,13 @@
 201002 Fire Seed - 3
 201003 Fire Seed - 2
 201004 Fire Seed - 1
+201005 Fire Seed - 15
 201100 Crystal Fragment - 10
 201101 Crystal Fragment - 5
 201102 Crystal Fragment - 3
 201103 Crystal Fragment - 2
 201104 Crystal Fragment - 1
+201105 Crystal Fragment - 15
 201200 Abyssal Fragment - 10
 201201 Abyssal Fragment - 5
 201202 Abyssal Fragment - 3
@@ -432,6 +434,7 @@
 201502 Rat Tail - 3
 201503 Rat Tail - 2
 201504 Rat Tail - 1
+201505 Rat Tail - 15
 201601 Ritual Incense - 1
 201602 Ritual Incense - 2
 201603 Ritual Incense - 3
@@ -457,6 +460,7 @@
 201802 Lost Trinket - 10
 201803 Lost Trinket - 3
 201804 Lost Trinket - 1
+201805 Lost Trinket - 15
 202000 Titanite Shard - 10
 202001 Titanite Shard - 20
 202002 Titanite Shard - 30
