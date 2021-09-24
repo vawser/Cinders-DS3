@@ -35542,5 +35542,47 @@
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\effect\f000856510.fxr</path>
     </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28408</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000884363.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28409</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000885020.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28410</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000887802.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28411</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000883502.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28412</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000885030.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28413</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000880231.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28414</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000884553.fxr</path>
+    </file>
   </files>
 </bnd4>
