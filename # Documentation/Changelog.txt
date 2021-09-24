@@ -113,6 +113,7 @@ Finish following weapons:
 - Fixed the effect icons of the Pickpocket Leggings and Frostfall's weapon art flickering.
 - Fixed the weapon art vfx for Fire Infused Follower Torch.
 - Fixed the weapon art of the Archdeacon's Great Staff.
+- Effects that activate on consecutive attacks should not cancel each other now.
  
 # Journey Configuration
 - Mythic Mode:
