@@ -44,10 +44,7 @@ Finish following weapons:
     
 31610000 Roaring Halberd                 - Halberd
     Dark Roar WA
-    
-31620000 Sanctum Mace                    - Great Mace
-    Poison burst WA
-    
+        
 31630000 Spider's Silk                   - Rapier
     Guard bypass
     
@@ -114,6 +111,7 @@ Finish following weapons:
 - Fixed the weapon art vfx for Fire Infused Follower Torch.
 - Fixed the weapon art of the Archdeacon's Great Staff.
 - Effects that activate on consecutive attacks should not cancel each other now.
+- Fixed the lingering aux inflict bug for Ivory King Ultra Greatsword.
  
 # Journey Configuration
 - Mythic Mode:
@@ -164,6 +162,7 @@ Finish following weapons:
  - Servant of the Rat
   - Black Scorpion Stinger
   - Red Rust Sword
+  - Sanctum Mace
 
  - Vinheim Scholars
   - Aldia Hammer
@@ -232,7 +231,7 @@ Finish following weapons:
  - Gargoyle Tail Axe (Burning Slash)
  - Helix Halberd (Staggering Dart)
  - Melu Scimitars (Spin Slash)
- - Black Scorpion Stinger (Shield Splitter)
+ - Black Scorpion Stinger (Scorpion Sting)
  - Red Rust Sword (Forossan Warcry)
  - Drakewing Ultra Greatsword (Gale Stomp)
  - Spitfire Spear (Spitfire)
@@ -240,12 +239,15 @@ Finish following weapons:
  - Old Knight Maces (Spin Bash)
  - Old Knight Glaive (Spin Sweep)
  - Old Knight Battle Axe (Warcry)
+ - Sanctum Mace (Poison Burst)
+ - Aldia Hammer (Aldia's Cruelty)
 
 - Switch left/right model of the Beast Claw.
 - Smooth several transitions between attacks for the new moveset.
 - Adjusted the stamina costs of Ringed Knight Paired Greatsword.
 - Incoming damage is reduced by 50% when using the Bloodletter's Weapon Art.
 - Changed Sidearms' sound.
+- Hunter's Log now deal Poison buildup.
 - Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
 - Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
 - Shield poking with Spear/Lance/Thrusting Sword now boosts weapon stability by 30% and reduced damage taken to 0% during the animation.
@@ -272,6 +274,9 @@ Finish following weapons:
  - Added a new kick to Alternate Katana moveset.
  - Alternate Claws' kick now phased through enemy and only stagger enemy backwards.
  - Certain Unique Kick now pulled enemy closer. (Church Pick/Hunter Axe/Burial Scythe)
+ - Drakewing Ulra Greatsword/Astora Greatsword 1H/2H R2s.
+ - Pike/Lance Running 1H/2H R1 are now consist of 5 hits. Making it ideal for aux inflict if all hits connect.
+ - Changed Melu Scimitars' Spin Slash followup. 
 
 # Cosmetic Items
 - Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
