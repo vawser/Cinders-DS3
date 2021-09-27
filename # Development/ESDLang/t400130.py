@@ -165,7 +165,7 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         """ State 2 """
 
         # Masteries
-        AddTalkListData(20, 99061000, -1)
+        AddTalkListDataIf(DoesPlayerHaveSpEffect(160700460) == 0, 20, 99061000, -1)
         
         # Transpose
         AddTalkListData(1, 15003000, 74000171)
