@@ -165,6 +165,7 @@
 22923 [Servant of the Rat] Goldenfruit Balm
 22924 [Servant of the Rat] Black Scorpion Stinger
 22925 [Servant of the Rat] Red Rust Sword
+22926 [Servant of the Rat] Sanctum Mace
 23000 [Blue Sentinels] Blue Tearstone Ring
 23001 [Blue Sentinels] Llewellyn Shield
 23002 [Blue Sentinels] Undead Hunter Charm
@@ -184,8 +185,8 @@
 23205 [Thieves' Pact] Helix Halberd
 23206 [Thieves' Pact] Melu Scimitars
 23207 [Thieves' Pact] Flynn's Bow
-30000 [Ludleth - Dismal Knight] Accursed Sigil
-30001 [Ludleth - Dismal Knight] Atonement
+30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
+30001 [Ludleth - Corrupted Gundyr] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
 30011 [Ludleth - Vordt] Pontiff's Left Eye
 30012 [Ludleth - Vordt] Snap Freeze

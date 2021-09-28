@@ -3669,7 +3669,7 @@ Legendary: 15 Ritual Incense</text>
 <text id="99030010">You must be embered to summon a companion.</text>
 <text id="99030020">This companion is dead.</text>
 <text id="99030030">Companion is already active.</text>
-<text id="99030100">Dismal Knight</text>
+<text id="99030100">Corrupted Gundyr</text>
 <text id="99030101">Vordt of the Boreal Valley has not 
 been killed in this journey yet.</text>
 <text id="99030102">Curse-rotted Greatwood has not been 
@@ -4361,7 +4361,7 @@ Once a boss is defeated, they will stop be selectable.
 
 Defeat all bosses at least once to complete the gauntlet.</text>
 
-<text id="99060200">Dismal Knight</text>
+<text id="99060200">Corrupted Gundyr</text>
 <text id="99060201">Vordt of the Boreal Valley</text>
 <text id="99060202">Curse-rotted Greatwood</text>
 <text id="99060203">Crystal Sage</text>

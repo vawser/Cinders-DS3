@@ -5293,7 +5293,7 @@
 160720210 Soul of the Demon Prince
 160720220 Soul of Darkeater Midir
 160720230 Soul of Slave Knight Gael
-160720240 Soul of the Dismal Knight
+160720240 Soul of Corrupted Gundyr
 160720250 Soul of the Ancient Dragon
 160720260 Soul of the Lordran Remnants
 160720270 Soul of Halflight
@@ -5570,6 +5570,10 @@
 180000270 Poison - Fist Sidearm
 180000280 Toxic - Spellbound Dung
 180000281 Toxic - Spellbound Dung - Self
+180000290 Poison - Sanctum Mace
+180000291 Poison - Sanctum Mace (Infusion)
+180000300 Poison - Sanctum Mace - Self
+180000301 Poison - Sanctum Mace - Self (Infusion)
 180009999 ### Bleed - Weapons ###
 180010000 Bleed - Normal (Infusion)
 180010001 Bleed - Quick (Infusion)

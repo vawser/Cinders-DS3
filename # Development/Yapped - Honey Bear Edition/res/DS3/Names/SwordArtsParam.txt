@@ -84,6 +84,7 @@
 502 [Rapier] Ricard's Lunge and Press
 503 [Rapier] Quill Dart
 504 [Rapier] Parry
+505 [Rapier] Scorpion Sting
 600 [Curved Sword] Spin Slash
 601 [Curved Sword] Crescent Blade
 602 [Curved Sword] Tornado
@@ -147,6 +148,7 @@
 1107 [Hammer] Spark
 1108 [Hammer] Fry Up
 1109 [Hammer] Warcry of the Abyss
+1110 [Hammer] Aldia's Cruelty
 1200 [Great Hammer] Perseverance
 1201 [Great Hammer] Molten Perseverance
 1202 [Great Hammer] Kindled Flurry
@@ -168,6 +170,7 @@
 1218 [Great Hammer] Dragon Hunter's Wrath
 1219 [Great Hammer] Dragon Hunter's Stance
 1220 [Great Hammer] Dragon Hunter's Rage
+1221 [Great Hammer] Poison Burst
 1300 [Spear] Charge
 1301 [Spear] Falling Bolt
 1302 [Spear] Pacify
@@ -216,7 +219,7 @@
 1412 [Halberd] Neck Swipe
 1413 [Halberd] Gargoyle's Flame
 1414 [Halberd] Stance
-1415 [Halberd] Staggering Dart
+1415 [Halberd] Helix Blast
 1500 [Scythe] Neck Swipe
 1501 [Scythe] ?
 1502 [Scythe] Frost
@@ -234,7 +237,7 @@
 1702 [Fist] Lifedrain
 1703 [Fist] Perseverance
 1704 [Fist] Inner Turmoil
-1705 [Fist] Stance
+1705 [Fist] Brawler's Stance
 1800 [Claw] Leaping Slash
 1801 [Claw] ?
 1802 [Claw] Quickstep
@@ -304,6 +307,7 @@
 2600 [Paired Straight Sword] Spin Slash
 2700 [Paired Curved Sword] Spin Slash (Sellsword Twinblades)
 2701 [Paired Curved Sword] Spin Slash (Warden Twinblades)
+2702 [Paired Curved Sword] Spin Slash (Melu Scimitars)
 2710 [Paired Curved Sword] Ciaran's Dance (Golden Dual Swords)
 2720 [Paired Curved Sword] Dancer's Grace
 2800 [Paired Katana] Onislayer

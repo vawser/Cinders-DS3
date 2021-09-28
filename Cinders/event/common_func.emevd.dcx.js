@@ -5845,7 +5845,7 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 //----------------------------------------------
-// Dismal Knight - Boss Start
+// Corrupted Gundyr - Boss Start
 //----------------------------------------------
 Event(20020100, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -7393,4 +7393,3 @@ Event(20085003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetSpEffect(10000, X20_4);
     DisplayEpitaphMessage(X24_4);
 });
-

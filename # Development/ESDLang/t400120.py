@@ -1040,7 +1040,7 @@ def t400120_x60():
         ClearTalkListData()
         """ State 2 """
         
-        # Dismal Knight
+        # Corrupted Gundyr
         AddTalkListDataIf(GetEventStatus(25002001) == 0, 1, 99060200, -1)
         
         # Vordt
@@ -1152,7 +1152,7 @@ def t400120_x60():
         """ State 3 """
         ShowShopMessage(1)
         
-        # Dismal Knight
+        # Corrupted Gundyr
         if GetTalkListEntryResult() == 1:
             GiveSpEffectToPlayer(260100010)
             return 0

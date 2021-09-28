@@ -1514,6 +1514,15 @@
 2704740 Ricard's Rapier
 2704741 Ricard's Rapier
 2704743 Ricard's Rapier
+2705100 Black Scorpion Stinger - 1H Heavy #1
+2705105 Black Scorpion Stinger - 1H Heavy #1 Max
+2705110 Black Scorpion Stinger - 1H Heavy #2
+2705115 Black Scorpion Stinger - 1H Heavy #2 Max
+2705300 Black Scorpion Stinger - 2H Heavy #1
+2705305 Black Scorpion Stinger - 2H Heavy #1 Max
+2705310 Black Scorpion Stinger - 2H Heavy #2
+2705315 Black Scorpion Stinger - 2H Heavy #2 Max
+2705700 Black Scorpion Stinger - Scorpion Sting
 2710700 Irithyll Rapier
 2711620 Crow Quills
 2711621 Crow Quills
@@ -2913,6 +2922,29 @@
 3520700 Pickaxe
 3520750 Church Pick - Weapon Art - Light
 3520760 Church Pick - Weapon Art - Heavy
+3521110 Sanctum Mace - 1H Heavy #2
+3521112 Sanctum Mace - 1H Heavy #2 Charge
+3521113 Sanctum Mace - 1H Heavy #2 Tackle
+3521115 Sanctum Mace - 1H Heavy #2 Max
+3521117 Sanctum Mace - 1H Heavy #2 Max Charge
+3521118 Sanctum Mace - 1H Heavy #2 Max Tackle
+3521310 Sanctum Mace - 2H Heavy #2
+3521312 Sanctum Mace - 2H Heavy #2 Charge
+3521313 Sanctum Mace - 2H Heavy #2 Tackle
+3521315 Sanctum Mace - 2H Heavy #2 Max
+3521317 Sanctum Mace - 2H Heavy #2 Max Charge
+3521318 Sanctum Mace - 2H Heavy #2 Max Tackle
+3521520 Sanctum Mace - 1H Running
+3521521 Sanctum Mace - 1H Running Final
+3521522 Sanctum Mace - 1H Running Tackle
+3521523 Sanctum Mace - 1H Running Weak
+3521530 Sanctum Mace - 2H Running
+3521531 Sanctum Mace - 2H Running Final
+3521532 Sanctum Mace - 2H Running Tackle
+3521533 Sanctum Mace - 2H Running Weak
+3521700 Sanctum Mace - Poison Burst - Initial
+3521710 Sanctum Mace - Poison Burst - Cont
+3521720 Sanctum Mace - Poison Burst - Final
 3600000 Spear - 1H Light #1
 3600010 Spear - 1H Light #2
 3600015 Spear (Alt) - 1H Light #2
@@ -3068,12 +3100,14 @@
 3608403 Pike
 3608404 Pike
 3608405 Pike
-3608520 Pike - 1H Backstep
-3608521 Pike - 1H Backstep (stop)
-3608522 Pike
-3608530 Pike - 2H Backstep
-3608531 Pike - 2H Backstep (stop)
-3608532 Pike
+3608520 Pike - 1H Running
+3608521 Pike - 1H Running Final
+3608522 Pike - 1H Running Tackle
+3608523 Pike - 1H Running Weak
+3608530 Pike - 2H Running
+3608531 Pike - 2H Running Final
+3608532 Pike - 2H Running Tackle
+3608533 Pike - 2H Running Weak
 3608800 Pike
 3608810 Pike
 3608820 Pike
@@ -3154,12 +3188,14 @@
 3610403 Greatlance
 3610404 Greatlance
 3610405 Greatlance
-3610520 Greatlance
-3610521 Greatlance
-3610522 Greatlance
-3610530 Greatlance
-3610531 Greatlance
-3610532 Greatlance
+3610520 Greatlance - 1H Running
+3610521 Greatlance - 1H Running Final
+3610522 Greatlance - 1H Running Tackle
+3610523 Greatlance - 1H Running Weak
+3610530 Greatlance - 2H Running
+3610531 Greatlance - 2H Running Final
+3610532 Greatlance - 1H Running Tackle
+3610533 Greatlance - 2H Running Weak
 3610540 Greatlance - 1H Roll
 3610580 Greatlance - 2H Roll
 3610750 Rampart Golem Lance - Chilling Wind

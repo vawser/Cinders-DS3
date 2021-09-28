@@ -362,6 +362,11 @@ Finish following weapons:
 - Drakewing Ultra Greatsword can be transposed from the Soul of Ancient Wyvern.
 - Spitfire Spear can be transposed from the Soul of Stray Demon.
 
+- Removed Dismal Knight.
+- Restored Corrupted Gundyr, found in the Dismal Knight arena.
+ - At 75% HP, Writhing Deep orbs will appear in random locations around his arena
+  - The rate of the orbs speeds up at 60%, 40%, 20% and 10% HP.
+
 # Shop
 - Added several weapons to Crestfallen Merchant's shop:
  - Dragon Hunter's Greataxe
@@ -382,3 +387,9 @@ Add the new chrs as basic enemies in the world
 Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
 
 Add interactions in maps
+
+511000 Corrupted Gundyr
+
+5110950
+
+523094

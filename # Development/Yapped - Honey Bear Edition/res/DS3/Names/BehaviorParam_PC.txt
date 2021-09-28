@@ -1156,8 +1156,8 @@
 102605315 Zweihander - 2H Heavy #2 Max
 102606100 Drakewing Ultra Greatsword - 1H Heavy #1
 102606105 Drakewing Ultra Greatsword - 1H Heavy #1 Max
-102606106 Drakewing Ultra Greatsword - Heavy - Bullet
-102606107 Drakewing Ultra Greatsword - Heavy - Bullet [Hit]
+102606106 Drakewing Ultra Greatsword - 1H Heavy - Bullet
+102606107 Drakewing Ultra Greatsword - 2H Heavy - Bullet
 102606300 Drakewing Ultra Greatsword - 2H Heavy #1
 102606305 Drakewing Ultra Greatsword - 2H Heavy #1 Max
 102606540 Drakewing Ultra Greatsword - 1H Roll
@@ -1413,6 +1413,16 @@
 102704740 Ricard's Rapier
 102704741 Ricard's Rapier
 102704743 Ricard's Rapier
+102705100 Black Scorpion Stinger - 1H Heavy #1
+102705105 Black Scorpion Stinger - 1H Heavy #1 Max
+102705110 Black Scorpion Stinger - 1H Heavy #2
+102705115 Black Scorpion Stinger - 1H Heavy #2 Max
+102705300 Black Scorpion Stinger - 2H Heavy #1
+102705305 Black Scorpion Stinger - 2H Heavy #1 Max
+102705310 Black Scorpion Stinger - 2H Heavy #2
+102705315 Black Scorpion Stinger - 2H Heavy #2 Max
+102705700 Black Scorpion Stinger - Scorpion Sting
+102705705 Black Scorpion Stinger - Scorpion Sting [Bullet]
 102710700 Irithyll Rapier
 102711620 Crow Quills
 102711621 Crow Quills
@@ -2901,6 +2911,30 @@
 103520750 Church Pick - Weapon Art - Light
 103520760 Church Pick - Weapon Art - Heavy
 103520800 Pickaxe - Weapon Art
+103521110 Sanctum Mace - 1H Heavy #2
+103521112 Sanctum Mace - 1H Heavy #2 Charge
+103521113 Sanctum Mace - 1H Heavy #2 Tackle
+103521115 Sanctum Mace - 1H Heavy #2 Max
+103521117 Sanctum Mace - 1H Heavy #2 Max Charge
+103521118 Sanctum Mace - 1H Heavy #2 Max Tackle
+103521310 Sanctum Mace - 2H Heavy #2
+103521312 Sanctum Mace - 2H Heavy #2 Charge
+103521313 Sanctum Mace - 2H Heavy #2 Tackle
+103521315 Sanctum Mace - 2H Heavy #2 Max
+103521317 Sanctum Mace - 2H Heavy #2 Max Charge
+103521318 Sanctum Mace - 2H Heavy #2 Max Tackle
+103521520 Sanctum Mace - 1H Running
+103521521 Sanctum Mace - 1H Running Final
+103521522 Sanctum Mace - 1H Running Tackle
+103521523 Sanctum Mace - 1H Running Weak
+103521530 Sanctum Mace - 2H Running
+103521531 Sanctum Mace - 2H Running Final
+103521532 Sanctum Mace - 2H Running Tackle
+103521533 Sanctum Mace - 2H Running Weak
+103521700 Sanctum Mace - Poison Burst - Initial
+103521710 Sanctum Mace - Poison Burst - Cont
+103521720 Sanctum Mace - Poison Burst - Final
+103521725 Sanctum Mace - Poison Mist
 103600000 Spear - 1H Light #1
 103600001 Spear - 1H Light #1 (stick)
 103600010 Spear - 1H Light #2
@@ -3054,12 +3088,14 @@
 103608403 Pike
 103608404 Pike
 103608405 Pike
-103608520 Pike - 1H Backstep
-103608521 Pike - 1H Backstep (stop)
-103608522 Pike
-103608530 Pike - 2H Backstep
-103608531 Pike - 2H Backstep (stop)
-103608532 Pike
+103608520 Pike - 1H Running
+103608521 Pike - 1H Running Final
+103608522 Pike - 1H Running Tackle
+103608523 Pike - 1H Running Weak
+103608530 Pike - 2H Running
+103608531 Pike - 2H Running Final
+103608532 Pike - 2H Running Tackle
+103608533 Pike - 2H Running Weak
 103608800 Pike
 103608810 Pike
 103608820 Pike
@@ -3130,12 +3166,14 @@
 103610403 Greatlance
 103610404 Greatlance
 103610405 Greatlance
-103610520 Greatlance
-103610521 Greatlance
-103610522 Greatlance
-103610530 Greatlance
-103610531 Greatlance
-103610532 Greatlance
+103610520 Greatlance - 1H Running
+103610521 Greatlance - 1H Running Final
+103610522 Greatlance - 1H Running Tackle
+103610523 Greatlance - 1H Running Weak
+103610530 Greatlance - 2H Running
+103610531 Greatlance - 2H Running Final
+103610532 Greatlance - 2H Running Tackle
+103610533 Greatlance - 2H Running Weak
 103610540 Greatlance - 1H Roll
 103610580 Greatlance - 2H Roll
 103610750 Rampart Golem Lance - Chilling Wind

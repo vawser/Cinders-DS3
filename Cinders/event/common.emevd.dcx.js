@@ -194,7 +194,7 @@ Event(0, Default, function() {
     //--------------------
     // Boss Revival
     //--------------------
-    InitializeEvent(0, 20100, 0); // Dismal Knight
+    InitializeEvent(0, 20100, 0); // Corrupted Gundyr
     InitializeEvent(0, 20101, 0); // Vordt
     InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
     InitializeEvent(0, 20103, 0); // Crystal Sage
@@ -260,7 +260,7 @@ Event(0, Default, function() {
     InitializeEvent(14, 970, 13800800, 2140, 0, 0); // High Lord Wolnir
     InitializeEvent(15, 970, 13800830, 2150, 0, 0); // Old Demon King
     InitializeEvent(17, 970, 13900800, 2170, 0, 0); // Yhorm
-    InitializeEvent(18, 970, 14000800, 2180, 0, 0); // Dismal Knight
+    InitializeEvent(18, 970, 14000800, 2180, 0, 0); // Corrupted Gundyr
     InitializeEvent(19, 970, 14000830, 2190, 0, 0); // Champion Gundyr
     InitializeEvent(20, 970, 14100800, 2200, 0, 0); // Soul of Cinder
     InitializeEvent(21, 970, 14500800, 2300, 0, 0); // Sister Friede
@@ -285,7 +285,7 @@ Event(0, Default, function() {
     InitializeEvent(1, 6100, 6101, 13900800);  // Yhorm
     InitializeEvent(2, 6100, 6102, 13700800);  // Aldrich
     InitializeEvent(3, 6100, 6103, 13410830);  // Twin Princes
-    InitializeEvent(4, 6100, 6104, 14000800);  // Dismal Knight
+    InitializeEvent(4, 6100, 6104, 14000800);  // Corrupted Gundyr
     InitializeEvent(5, 6100, 6105, 13000800);  // Vordt
     InitializeEvent(6, 6100, 6106, 13300850);  // Crystal Sage
     InitializeEvent(7, 6100, 6107, 13500800);  // Deacons of the Deep
@@ -2486,7 +2486,7 @@ Event(20051, Restart, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_WandererMode);
     SetEventFlag(25000055, ON); // Disable Reinforcement
     
-    // Dismal Knight
+    // Corrupted Gundyr
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002001);
     SetSpEffect(10000, 260110000);
     
@@ -2836,7 +2836,7 @@ Event(20071, Restart, function() {
     IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_EndlessGauntlet);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     
-    // Dismal Knight
+    // Corrupted Gundyr
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
@@ -3073,7 +3073,7 @@ Event(20072, Restart, function() {
     
     Label0();
     
-    // Dismal Knight
+    // Corrupted Gundyr
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003001); // Not Selected
     SetSpEffect(10000, 260100010);
@@ -3483,7 +3483,7 @@ Event(20073, Restart, function() {
     SetSpEffect(10000, 260100020);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Dismal Knight
+    // Corrupted Gundyr
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002001);  // Already Killed
     SetSpEffect(10000, 260100010);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
@@ -3656,7 +3656,7 @@ Event(20063, Default, function(X0_4) {
 
 
 //----------------------------------------------
-// Boss Revival - Dismal Knight
+// Boss Revival - Corrupted Gundyr
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20100, Restart, function() {

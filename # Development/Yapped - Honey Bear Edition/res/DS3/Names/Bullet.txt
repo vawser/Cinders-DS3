@@ -3382,6 +3382,10 @@
 104931200 [Drakewing Ultra Greatsword] Weapon Art
 104931210 [Drakewing Ultra Greatsword] Weapon Art [Emitter]
 104931220 [Drakewing Ultra Greatsword] Weapon Art [Bullet]
+104931230 [Drakewing Ultra Greatsword] Bullet
+104931231 [Drakewing Ultra Greatsword] Bullet [Hit]
+104931300 [Black Scorpion Stinger] Poison Mist
+104931400 [Sanctum Mace] Poison Mist
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
