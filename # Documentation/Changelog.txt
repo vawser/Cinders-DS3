@@ -217,6 +217,10 @@ Finish following weapons:
  
  - Battlestaff
   - Phosphorescent Pole (Phosphorescent Madness)
+  - Staff of Serpents (Expel Lightning)
+
+ - Spear
+  - Dragonslayer Spear (Lightning Charge)
 
 - Added the following weapon:
  - Grand Lance (Charge), equivalent to default Greatlance with different model.
@@ -233,13 +237,13 @@ Finish following weapons:
  - Melu Scimitars (Spin Slash)
  - Black Scorpion Stinger (Scorpion Sting)
  - Red Rust Sword (Forossan Warcry)
- - Drakewing Ultra Greatsword (Gale Stomp)
+ - Drakewing Ultra Greatsword (Wind Wall)
  - Spitfire Spear (Spitfire)
  - Ivory King Ultra Greatsword (Stomp)
  - Old Knight Maces (Spin Bash)
  - Old Knight Glaive (Spin Sweep)
  - Old Knight Battle Axe (Warcry)
- - Sanctum Mace (Poison Burst)
+ - Sanctum Mace (Sinh's Corruption)
  - Aldia Hammer (Aldia's Cruelty)
 
 - Switch left/right model of the Beast Claw.
