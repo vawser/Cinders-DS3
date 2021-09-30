@@ -10460,6 +10460,10 @@ function AttackSpinStart_Upper_onUpdate()
     if env(1116, 100440) == TRUE then
         act(2001, 1.20000004768372)
     end
+    if env(1116, 100575) == TRUE then
+        r2 = "W_AttackSpinHeavy"
+        b2 = "W_AttackSpinHeavy"
+    end	
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight2", "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE, TRUE, GEN_TRANS_LEFT) == TRUE then
         act(2001, 1)
         return 
@@ -10522,6 +10526,10 @@ function AttackSpinHeavy_onUpdate()
         b1 = "W_AttackSpinLight"
         is_artsr1 = TRUE
     end
+    if env(1116, 100595) == TRUE then
+        r2 = "W_AttackSpinLoop"
+        b2 = "W_AttackSpinLoop"
+    end			
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     elseif env(1116, 100240) == TRUE and 0 < env(1108, ACTION_ARM_R2) and 0 < env(1001) then
