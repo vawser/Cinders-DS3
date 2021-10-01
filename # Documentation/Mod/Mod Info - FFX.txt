@@ -180,6 +180,9 @@ dmy:
 856530 650293 with sound
 856531 650299 with sound
 
+856540 Dark Edge Flash
+856541 Dark Edge Blade
+
 860030 Fire MLGS
 860032 Fire MLGS
 860033 Fire MLGS
@@ -433,6 +436,9 @@ s98042_a Bleed Throwing Knife Texture
 
 s98043 Frost Throwing Knife Model
 s98043_a Frost Throwing Knife Texture
+
+s98050.flver Dark Edge model
+s98050.tpf Dark Edge texture
 
 #------------------------
 # Reference
