@@ -3292,5 +3292,17 @@
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\tex\s98043_a.tpf</path>
     </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200086</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\model\s98050.flver</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100290</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98050.tpf</path>
+    </file>
   </files>
 </bnd4>
