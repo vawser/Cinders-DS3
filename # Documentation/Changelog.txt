@@ -342,7 +342,8 @@ Finish following weapons:
  - Spellbound Draconic Fury: Emits daconic might + buff, and summons ghost dragonoid that breathes fire dealing 1000 [250] fire damage.
 
 # Spells
-- Adjusted several weapon buffs visual.
+- Adjusted several weapon buffs visual effects.
+- Replaced the visual effect of Dark Edge with p0's Farron Flashsword recolor.
 - Adjusted Chaos Beam's sound.
 - Adjusted Angelic Barrage's sound.
 

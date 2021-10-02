@@ -1842,7 +1842,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)	
-        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 711 then
+        if IsWarcrySpAtk() == TRUE or sp_kind == 738 or sp_kind == 739 or sp_kind == 740 or sp_kind == 741 or sp_kind == 600 or sp_kind == 717 or sp_kind == 718 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 711 or sp_kind == 750 then
             if b2 == "W_AttackBothHeavy1Start" then
                 b2 = "W_AttackBothHeavySpecial1Start"
             elseif b2 == "W_AttackBothHeavy1SubStart" then
@@ -8016,7 +8016,7 @@ function AttackBothLight3_onUpdate()
 		l1 = "W_AttackBothLeft3"
 	end	
 	
-	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 then
+	if sp_kind == 731 or sp_kind == 734 or sp_kind == 735 or sp_kind == 737 or sp_kind == 146 or sp_kind == 600 or sp_kind == 742 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 or sp_kind == 750 then
 		b1 = "W_AttackBothBackstep"
 	end
     
@@ -8332,6 +8332,10 @@ function AttackBothHeavySpecial2Start_onUpdate()
 		b2 = "W_AttackBothHeavy2Start"
 	end
 	
+	if sp_kind == 750 then
+		b1 = "W_AttackBothLight2"
+	end	
+	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
@@ -8365,6 +8369,10 @@ function AttackBothHeavySpecial2End_onUpdate()
 		b2 = "W_AttackBothHeavy2Start"
 	end
 	
+	if sp_kind == 750 then
+		b1 = "W_AttackBothLight2"
+	end	
+		
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -8422,7 +8430,7 @@ function AttackBothDash_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 718 or sp_kind == 724 or sp_kind == 727 or sp_kind == 713 or sp_kind == 742 then
+	if sp_kind == 733 or sp_kind == 721 or sp_kind == 603 or sp_kind == 146 or sp_kind == 600 or sp_kind == 718 or sp_kind == 724 or sp_kind == 727 or sp_kind == 713 or sp_kind == 742 or sp_kind == 750 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8430,7 +8438,7 @@ function AttackBothDash_onUpdate()
 		b1 = "W_AttackBothLight3"
 	end		
 	
-	if sp_kind == 743 then
+	if sp_kind == 743 or sp_kind == 750 then
 		b1 = "W_AttackBothBackstep"
 	end			
 
@@ -8446,7 +8454,7 @@ function AttackBothDashSpecial_onUpdate()
     local hand = HAND_RIGHT
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     
-    if sp_kind == 600 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 then
+    if sp_kind == 600 or sp_kind == 743 or sp_kind == 745 or sp_kind == 747 or sp_kind == 270 or sp_kind == 750 then
         b2 = "W_AttackBothHeavy2Start"
     end	
 	
@@ -8485,7 +8493,7 @@ function AttackBothLightStep_onUpdate()
 		b1 = "W_AttackBothLight2"
 	end
 	
-	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 or sp_kind == 713 or sp_kind == 743 or sp_kind == 746 then
+	if sp_kind == 712 or sp_kind == 733 or sp_kind == 721 or sp_kind == 717 or sp_kind == 713 or sp_kind == 743 or sp_kind == 746 or sp_kind == 750 then
 		b1 = "W_AttackBothLight2"
 	end	
 
@@ -8579,7 +8587,7 @@ function AttackBothBackstep_onUpdate()
 		b1 = "W_AttackBothLightStepSpecial"
 	end	
 	
-	if sp_kind == 742 or sp_kind == 743 or sp_kind == 745 then
+	if sp_kind == 742 or sp_kind == 743 or sp_kind == 745 or sp_kind == 750 then
 		b1 = "W_AttackBothLight2"
 	end	
 	
@@ -10772,7 +10780,29 @@ function Endure_Upper_onUpdate()
 end
 
 function EndureRightHeavy_onUpdate()
-    if SwordArtsCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, FALSE, FALSE, FALSE) == TRUE then
+    local r1 = "W_AttackRightLight2"
+    local r2 = "W_AttackRightHeavy2Start"
+    local b1 = "W_AttackBothLight2"
+    local b2 = "W_AttackBothHeavy2Start"
+    local is_artsr1 = FALSE
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    local kind = env(225, hand)
+    if env(1116, 100591) == TRUE then
+        r2 = "W_AttackSpinLoop"
+        b2 = "W_AttackSpinLoop"	
+    end	
+	
+    if env(1116, 100290) == TRUE then
+        r2 = "W_EndureRightHeavy"
+        l2 = "W_EndureRightHeavy"
+        b2 = "W_EndureRightHeavy"
+        SetSwordArtsPointInfo(ACTION_ARM_R2, TRUE)
+    end	
+    if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, FALSE, FALSE, FALSE) == TRUE then
         return 
     else
         return 
