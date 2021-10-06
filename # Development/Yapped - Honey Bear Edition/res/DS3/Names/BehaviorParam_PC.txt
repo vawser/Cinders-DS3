@@ -1164,6 +1164,7 @@
 102606580 Drakewing Ultra Greatsword - 2H Roll
 102606700 Drakewing Ultra Greatsword - Stomp
 102606701 Drakewing Ultra Greatsword - Stomp - Strike
+102606702 Drakewing Ultra Greatsword - Stomp - Tackle
 102606705 Drakewing Ultra Greatsword - Weapon Art
 102607106 Ivory King UGS - Durability
 102607201 Ivory King UGS - Magic Blade Light
@@ -1787,8 +1788,15 @@
 102930710 Murky Warstaff - Weapon Art
 102930720 Murky Warstaff - Weapon Art
 102930730 Murky Warstaff - Weapon Art
-102931700 Staff of Serpents - Expel Lightning
-102931705 Staff of Serpents - Expel Lightning
+102931300 Staff of Serpents - 2H Heavy #1
+102931305 Staff of Serpents - 2H Heavy #1 Max
+102931310 Staff of Serpents - 2H Heavy #2
+102931315 Staff of Serpents - 2H Heavy #2 Max
+102931700 Staff of Serpents
+102931702 Staff of Serpents - Lightning Thrust
+102931703 Staff of Serpents - Lightning Thrust - No VFX
+102931705 Staff of Serpents
+102931750 Staff of Serpents - Lightning Bolt
 102931800 Staff of Serpents - Weapon Art
 102931810 Staff of Serpents - Weapon Art
 102931820 Staff of Serpents - Weapon Art
@@ -2935,6 +2943,20 @@
 103521710 Sanctum Mace - Poison Burst - Cont
 103521720 Sanctum Mace - Poison Burst - Final
 103521725 Sanctum Mace - Poison Mist
+103521730 Sanctum Mace - Poison Burst
+103522300 Kirkhammer - 2H Heavy #1
+103522315 Kirkhammer - 2H Heavy #2 Max
+103522415 Kirkhammer - 1H Kick
+103522425 Kirkhammer - 2H Kick
+103522530 Kirkhammer - Weapon Art - Perseverance
+103522700 Kirkhammer - Weapon Art - Bullet
+103522705 Kirkhammer - Weapon Art
+103522710 Kirkhammer - Weapon Art - Slam
+103522711 Kirkhammer - Weapon Art - Final - Heave
+103522712 Kirkhammer - Weapon Art - Final #1
+103522713 Kirkhammer - Weapon Art - Final #2
+103522800 Kirkhammer - Kick - Bullet
+103522805 Kirkhammer - Kick - Bullet
 103600000 Spear - 1H Light #1
 103600001 Spear - 1H Light #1 (stick)
 103600010 Spear - 1H Light #2
@@ -3043,7 +3065,10 @@
 103603310 Dragonslayer Spear - 2H Heavy #2
 103603315 Dragonslayer Spear - 2H Heavy #2 Max
 103603700 Dragonslayer Spear
+103603702 Dragonslayer Spear - Lightning Thrust
+103603703 Dragonslayer Spear - Lightning Thrust - No VFX
 103603705 Dragonslayer Spear
+103603750 Dragonslayer Spear - Lightning Bolt
 103603800 Dragonslayer Spear - Magic Sword
 103603810 Dragonslayer Spear
 103603820 Dragonslayer Spear
@@ -3183,6 +3208,7 @@
 103610830 Greatlance
 103610831 Heide Greatlance - Weapon Art - Cont
 103610840 Heide Greatlance - Weapon Art - Final
+103610841 Heide Greatlance - Weapon Art - Falling Bolt (Unused)
 103610845 Heide Greatlance - Weapon Art - Falling Bolt
 103610850 Chariot Lance - Weapon Art
 103610851 Chariot Lance - 1H Warcry #1 - First Hit
@@ -5330,8 +5356,8 @@
 201374210 Heavy Soul Greatsword - Left
 201375000 Farron Flashsword - Right
 201375100 Farron Flashsword - Left
-201375200 Refined Farron Flashsword - Right
-201375210 Refined Farron Flashsword - Left
+201375200 Spellbound Flashsword - Right
+201375210 Spellbound Flashsword - Left
 201376010 Old Moonlight - Right
 201376020 Old Moonlight - Left
 201376110 Heavy Old Moonlight - Right

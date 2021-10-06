@@ -1585,6 +1585,17 @@
 5110500 [Gundyr] ?
 5110600 [Gundyr] ?
 5110710 [Gundyr] White Tear
+5110950 [Corrupted Gundyr] Dark Tear Pillar
+5110951 [Corrupted Gundyr] Dark Tear Pillar [Emitter]
+5110952 [Corrupted Gundyr] Dark Tear Pillar [Hit]
+5110953 [Corrupted Gundyr] Dark Tear Pillar [Hit]
+5110954 [Corrupted Gundyr] Dark Tear Pillar [Hit]
+5110955 [Corrupted Gundyr] Dark Tear Pillar [Hit]
+5110960 [Corrupted Gundyr] Writhing Deep
+5110961 [Corrupted Gundyr] Writhing Deep [Hit]
+5110962 [Corrupted Gundyr] Writhing Deep [Hit]
+5110963 [Corrupted Gundyr] Writhing Deep [Hit]
+5110964 [Corrupted Gundyr] Writhing Deep [Hit]
 5120710 [Evil Spirits] Blinding Explosion
 5120720 [Evil Spirits] Ground Poison Mist
 5120721 [Evil Spirits] Ground Poison Mist [Hit]
@@ -2505,7 +2516,7 @@
 7710743 [Titanite Abomination]
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
-11200010 [Sorcery] Refined Farron Dart
+11200010 [Sorcery] Spellbound Farron Dart
 11210020 [Sorcery] Scattering Soul Orb [Emitter]
 11210030 [Sorcery] Scattering Soul Orb [EmittedBullet]
 11210040 [Sorcery] Repeating Soul Orb [Emitter]
@@ -3175,8 +3186,15 @@
 100091610 [Dragonslayer Swordspear] Falling Bolt [Hit]
 100091620 [Dragonslayer Swordspear] Falling Bolt [Hit]
 100091630 [Dragonslayer Swordspear] Falling Bolt [Hit]
+100091700 [Heide Greatlance] Falling Bolt
+100091710 [Heide Greatlance] Falling Bolt [Hit]
+100091720 [Heide Greatlance] Falling Bolt [Hit]
+100091730 [Heide Greatlance] Falling Bolt [Hit]
 100092200 [Dragonslayer Spear] Lightning Charge
+100092205 [Dragonslayer Spear] Lightning Thrust
+100092206 [Dragonslayer Spear] Lightning Thrust - No VFX
 100092210 [Dragonslayer Spear] Lightning Charge
+100092215 [Dragonslayer Spear] Lightning Bolt
 100092220 [Dragonslayer Spear] Lightning Charge
 100092230 [Dragonslayer Spear] Lightning Charge
 100092240 [Heide Lance] Heide's Judgement
@@ -3303,7 +3321,10 @@
 104911601 [Blueblood Sword] Crystal Shower [Hit]
 104911700 Holy Wrath
 104911800 [Staff of Serpents] Expel Lightning
+104911805 [Staff of Serpents] Lightning Thrust
+104911806 [Staff of Serpents] Lightning Thrust - No VFX
 104911810 [Staff of Serpents] Expel Lightning
+104911815 [Staff of Serpents] Lightning Bolt
 104911820 [Staff of Serpents] Expel Lightning
 104911830 [Staff of Serpents] Expel Lightning
 104911850 [Staff of Serpents] Lightning Spark
@@ -3381,11 +3402,12 @@
 104931120 [Fume Slated Swords] Vertical Wave #2
 104931200 [Drakewing Ultra Greatsword] Weapon Art
 104931210 [Drakewing Ultra Greatsword] Weapon Art [Emitter]
-104931220 [Drakewing Ultra Greatsword] Weapon Art [Bullet]
+104931220 [Drakewing Ultra Greatsword] Weapon Art [Bullet] - Unused
 104931230 [Drakewing Ultra Greatsword] Bullet
 104931231 [Drakewing Ultra Greatsword] Bullet [Hit]
-104931300 [Black Scorpion Stinger] Poison Mist
-104931400 [Sanctum Mace] Poison Mist
+104931300 [Black Scorpion Stinger] Lingering Poison
+104931400 [Sanctum Mace] Lingering Poison
+104931450 [Sanctum Mace] Poison Burst
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave

@@ -2905,6 +2905,7 @@
 251100800 [Gundyr] Corrupted Fist - Bullet
 251100801 [Gundyr] Corrupted Bite - Bullet
 251100910 [Gundyr] White Tear
+251100950 [Corrupted Gundyr] Writhing Deep
 251200010 [Snake Spirit] Frontal melee attack _ head knocked back against
 251200011 [Snake Spirit] Frontal melee attack _ head lateral shaking
 251200012 [Snake Spirit] Frontal melee Attack _ head + neck knocked back against

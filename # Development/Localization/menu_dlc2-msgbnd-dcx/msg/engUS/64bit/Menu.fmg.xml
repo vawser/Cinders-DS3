@@ -3334,28 +3334,28 @@ during your journey.
 You have failed.</text>
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
-Magic: absorb 5 FP on hit.
+Magic: gains additional spellbound charges on hit.
 Fire: increases max stamina by 20%.
 Lightning: increases Poise by 20%.
 Dark: absorb 15 HP on hit.
 Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
-Enchanted: restores an additional 3 FP per second.
+Enchanted: increases FP recovery by 15.
 Holy: restores an additional 3 HP per second.
 Sharp: consecutive attacks boost damage, up to 15%.
 Blunt: increases max equipment load by 10%.</text>
-<text id="99004001">Clarity: restores an additional 3 FP per second.
+<text id="99004001">Clarity: increases FP recovery by 15.
 Rejuvenation: grants an additional 15 stamina recovery.
 Restoration: restores an additional 3 HP per second.
 Respite: increases max equipment load by 10%.
-Lucidity: reduces spell FP consumption by 5%.
+Lucidity: reduces FP consumption by 10%.
 Greed: increases soul absorption by 10%.
 Magic: increases Magic absorption by 5%.
 Fire: increases Fire absorption by 5%.
 Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
-<text id="99004002">Pulsating: restores an additional 3 FP per second.
+<text id="99004002">Pulsating: increases FP recovery by 15.
 Vibrating: restores an additional 5 HP per second.
-Throbbing: reduces FP cost of all spells by 10%.
+Throbbing: reduces FP cost of all spells by 20%.
 Quivering: boosts cast speed by 25.
 Laughing: converts the catalyst into Luck form:
 - Halves the INT and FTH required for spells.
@@ -3770,13 +3770,13 @@ to commune with the fallen knight.</text>
 <text id="99040040">You lack 10 Fire Seeds</text>
 <text id="99040041">You lack 15 Fire Seeds</text>
 <text id="99040043">You lack 20 Fire Seeds</text>
-<text id="99041000">Refined Farron Dart</text>
+<text id="99041000">Spellbound Farron Dart</text>
 <text id="99041001">Swift Soul Wave</text>
 <text id="99041002">Explosive Soul Arrow</text>
 <text id="99041003">Explosive Soul Spear</text>
 <text id="99041004">Homing Crystal Soul Spear</text>
 <text id="99041005">Extended White Dragon Breath</text>
-<text id="99041006">Refined Farron Flashsword</text>
+<text id="99041006">Spellbound Flashsword</text>
 <text id="99041007">Heavy Soul Greatsword</text>
 <text id="99041008">Heavy Old Moonlight</text>
 <text id="99041009">Surging Soulmass</text>
@@ -3842,13 +3842,13 @@ to commune with the fallen knight.</text>
 <text id="99042036">Ascend from Hidden Body?</text>
 <text id="99042037">Ascend from Chameleon?</text>
 <text id="99042038">Ascend from Cast Light?</text>
-<text id="99043000">Refined Farron Dart crafted</text>
+<text id="99043000">Spellbound Farron Dart crafted</text>
 <text id="99043001">Swift Soul Wave crafted</text>
 <text id="99043002">Explosive Soul Arrow crafted</text>
 <text id="99043003">Explosive Soul Spear crafted</text>
 <text id="99043004">Homing Crystal Soul Spear crafted</text>
 <text id="99043005">Extended White Dragon Breath crafted</text>
-<text id="99043006">Refined Farron Flashsword crafted</text>
+<text id="99043006">Spellbound Flashsword crafted</text>
 <text id="99043007">Heavy Soul Greatsword crafted</text>
 <text id="99043008">Heavy Old Moonlight crafted</text>
 <text id="99043009">Surging Soulmass crafted</text>

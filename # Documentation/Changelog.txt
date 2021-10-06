@@ -64,325 +64,39 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
-# General
-- Changed several damage boosting effects: If an effect increases the damage of both weapons and spells, now it also boosts the damage of throwable items (except Flynn's Ring).
-- Adjusted the behavior of Splintering Bolts. Should now behave like other bleed when proc'ed.
-- Added details to several menu descriptions and fixed others.
-- Replaced the covenant tokens from the burial gifts list with the physical and elemental spellbound throwing knives.
+# Spells:
+- Changed the rate at which FP recovers naturally and from other sources.
+- Removed the Stamina cost of all spells.
+- Removed the FP regeneration delay after casting a spell.
+- Casting spells now completely pause both FP and Stamina recovery during their animation.
+- FP recovery now stops when performing certain character animations (run, roll, backstep, etc).
+- Moved Chaos Bed Vestiges to be transposed with the Soul of the Old Demon King.
+- Moved Soul Spear to be transposed with the Soul of a Crystal Sage.
+- Moved Mournful Flames to be transposed with the Soul of Sister Friede.
+- Moved Scattering Crystal Orb to be unlocked with Logan's Scroll.
+- Changed the stats of most spells.
+- Ascended 'Refined' offensive spells are now 'Spellbound' and give spellbound charges on hit.
+- Most spell buffs now reduce max FP for their duration.
+- Reduced the duration of the Poison/Toxic Mist effects to 30 seconds.
+- Reduced the duration of Fortified Rapport to 30 seconds and increased the absorption buff to 75%.
 
-# Bugfixes
-- Fixed the stat requirements of the uninfused and lucky infused Great Club.
-- Fixed the visual effect on hit of Surging Soulmass.
-- Fixed several weapon hitbox:
- - Giant's Halberd
- - Bone Scythe
- - Scythe of Nahr Alma
-- Fixed new oils vfx not showing up for dual weapons.
-- Fixed Katana unsheath animation.
-- Heavy followup of the Ringed Knight Paired Greatsword Weapon Art now correctly deal damage on the slam and the final burst.
-- Fixed the scabbard position during the 2H second R2 of Alternate Katana moveset.
-- Fixed Stone of Draconic Fire/Stone of Draconic Might.
-- Fixed Dragon Bone Fist WA.
-- Fixed Moonlight Sword having 999 durability.
-- Greirat will no longer show the pillage option (as it has been removed).
-- Fixed Scribe Vadan's dialogue.
-- You can now enter the Cathedral Guardian fight via the pit.
-- Fixed the messages in Dreg Heap showing the incorrect text.
-- Fixed Halflight's Intelligence and Faith stats.
-- Fixed the Intelligence stat of the Mother.
-- Fixed Blooming Purple Moss Clump not healing poison.
-- Fixed Divine Relief not increasing equip load by 40%.
-- Marauder talk interaction should no longer break if you start his boss fight and then leave without killing him.
-- Fixed Makoto losing its aux effects when dark infused.
-- Added the missing Dark Gem in Karla's shop.
-- Fixed Lingering Acid Surge not applying the debuff.
-- Added several missing weapons and Millwood Greatarrows to the Gauntlet mode shop.
-- Fixed the storm type spells using more FP than they should.
-- Fixed the Earthern Peak bonfire not unlocking all its forge items.
-- Fixed the visual effects of Lingering Poison/Toxic Mist and Lingering Acid Surge.
-- Old man's Gambit and Luck Mastery now also double the elemental damage portion of weapons that have it.
-- Fixed the damage and duration from the toxic effect of the dung items.
-- Fixed Caressing Tears not removing all aux build-up types.
-- Fixed Third Hit of Flame Fan not chaining into the Second Hit when casted on Left Hand.
-- Fixed Great Combustion, Black Flame and Flame Fan behavior when casted on Main Hand.
-- Fixed Pontiff Knight Great Scythe and Scythe of Want Kick animation.
-- Fixed the Courtier Set amount show when looted.
-- Fixed the effect icons of the Pickpocket Leggings and Frostfall's weapon art flickering.
-- Fixed the weapon art vfx for Fire Infused Follower Torch.
-- Fixed the weapon art of the Archdeacon's Great Staff.
-- Effects that activate on consecutive attacks should not cancel each other now.
-- Fixed the lingering aux inflict bug for Ivory King Ultra Greatsword.
- 
-# Journey Configuration
-- Mythic Mode:
- - Curses no longer grant soul absorption bonuses.
+# Weapons:
+- Changed the effects of the Handmaid's Dagger, Executioner's Greatsword, Sage's Stiletto and Blueblood Sword to reduce spell FP cost by 10%.
 
-# Covenant
-- Added a Devotion system for each covenant:
- - While you have the covenant's accessory equipped, you can increase your devotion in exchange for the covenant material.
- - Increasing devotion will increase the rank of the accessory, improving its effect.
-    
-- Added Priestess Emilia, a covenant NPC for Way of Blue. Appears after you receive the accessory from High Priestess Emma or the Dancer is killed.
-- Added Knight Lun, a covenant NPC for Blue Sentinels. Appears after you receive the accessory from Horace in Halfway Fortress or Aldrich is killed.
+# Infusions:
+- Weapon magic infusion now gains additional spellbound charges on hit.
+- Increased the spell FP cost reduction of the Throbbing infusion to 20%.
+- Increased the FP cost reduction of the Lucidity infusion to 10%.
 
-- Changed the covenant material/consumable drop rate: instead of being a low but unrestricted rate, the chance is now much higher (25%) but there is a internal cooldown of 20 seconds before another drop can occur. For consumables this cooldown is 40 seconds.
- - This is disincentivise camping large hordes of enemies and instead rewards consistent kills over time.
+# Rings:
+- Spirit Amethyst now boosts the damage of all spells by 7.5%/8.5%/9.5%/10.5%/11.5%/12.5%.
+- Dusk Crown Ring reduces all spell FP cost by 40% and reduces max HP by 30%/26%/22%/18%/14%/10%.
+- Pontiff's Left Eye now grants additional spellbound charges with successive attacks.
+- Aldrich's Sapphire now grants additional spellbound charges on a successful critical attack.
 
-- Added covenant shop for Blue Sentinels.
-- Added covenant shop for Way of Blue.
-- Added covenant shop for Thieves' Pact.
-- Added several equipments to the covenant shop:
- - Rosaria's Fingers
-  - Dragonslayer's Axe
-  - Mirrah Chain Set
-
- - Way of Blue
-  - Heide Lance
-  - Heide Greatlance
-
- - Mound-makers
-  - Chariot Lance
-
- - Thieves's Guild
-  - Flynn's Bow, relocated from Mound-makers covenant shop.
-  - Helix Halberd
-  - Melu Scimitars
-
- - Blue Sentinels
-  - Old Knight Maces
-  - Old Knight Glaive
-  - Old Knight Battle Axe
-
- - Chaos Servants
-  - Gargoyle Halberd
-  - Gargoyle Bident
-  - Gargoyle Tail Axe
-  - Gargoyle Shield
-
- - Servant of the Rat
-  - Black Scorpion Stinger
-  - Red Rust Sword
-  - Sanctum Mace
-
- - Vinheim Scholars
-  - Aldia Hammer
-
-# Infusions
-- Fire infusion now increases max Stamina by 20%.
-- Lightning infusion now boosts Armor Poise by 20%.
-
-# Weapons
-- Branding Iron now prevents Estus usage and reduces any form of healing to zero for 10 seconds.
-- Added guard and stability scaling to the Farron Greatsword, Ringed Knight Paired Greatswords and Missionary Greataxe.
-
-- Added Fonz0's weapon models for the following infused weapons:
- - Holy Wolnir's Sword
- - Fire Farron Greatsword
- - Fire Yhorm's Machete
- - Fire Ringed Knight Paired Greatswords
- - Fire Ringed Knight Spear
- - Fire Ringed Knight Straight Sword
- - Fire Fume Ultra Greatsword
- - Fire Flamberge
- - Fire Thrall Axe
- - Fire Thrall Pick
-
-- Changed moveset for the following weapon class:
- - Hammer
-  - Boom Hammer (Ignite)
-  - Morning Star (Perseverance)
-
- - Claw 		
-  - Claws (Stance)
-  - Manikin Claws (Leaping Slash)
-  - Beast Claws (Bestial Pounce)
-
- - Ultra Greatsword 	
-  - Fume Ultra Greatsword (Raime's Fury)
-  - Fume Slated Swords (Nadalia's Wrath), a paired weapon (Fume Ultra Greatsword with Fume Sword), Fume Sword (Straight Sword) is removed.
- 
- - Great Hammer
-  - Great Wooden Hammer (Spin Bash)
-  - Spiked Mace (Spin Bash)
-  - Morne's Great Hammer (Morne's Rage)
-  - Great Mace (Perseverance)
-  - Greatwood Club (Spin Bash)
-  - Church Pick (Righteous Rush)
-
- - Katana
-  - Bloodlust (Bloodlust)
-
- - Fists
-  - Caestus (Stance)
- 
- - Battlestaff
-  - Phosphorescent Pole (Phosphorescent Madness)
-  - Staff of Serpents (Expel Lightning)
-
- - Spear
-  - Dragonslayer Spear (Lightning Charge)
-
-- Added the following weapon:
- - Grand Lance (Charge), equivalent to default Greatlance with different model.
- - Heide Lance (Heide's Judgment)
- - Heide Greatlance (Heide's Fury)
- - Chariot Lance (Executioner's Torment)
- - Dragon Hunter's Greataxe (Dragon Hunter's Rage)
- - Dragon Hunter's Great Hammer (Dragon Hunter's Wrath)
- - Dragon Hunter's Warpick (Dragon Hunter's Stance)
- - Gargoyle Halberd (Gargoyle's Flame)
- - Gargoyle Bident (Burning Rush)
- - Gargoyle Tail Axe (Burning Slash)
- - Helix Halberd (Staggering Dart)
- - Melu Scimitars (Spin Slash)
- - Black Scorpion Stinger (Scorpion Sting)
- - Red Rust Sword (Forossan Warcry)
- - Drakewing Ultra Greatsword (Wind Wall)
- - Spitfire Spear (Spitfire)
- - Ivory King Ultra Greatsword (Stomp)
- - Old Knight Maces (Spin Bash)
- - Old Knight Glaive (Spin Sweep)
- - Old Knight Battle Axe (Warcry)
- - Sanctum Mace (Sinh's Corruption)
- - Aldia Hammer (Aldia's Cruelty)
-
-- Switch left/right model of the Beast Claw.
-- Smooth several transitions between attacks for the new moveset.
-- Adjusted the stamina costs of Ringed Knight Paired Greatsword.
-- Incoming damage is reduced by 50% when using the Bloodletter's Weapon Art.
-- Changed Sidearms' sound.
-- Hunter's Log now deal Poison buildup.
-- Increased the radius of Morne's Rage, Holy Wrath & Wrath of the Gods (Wolnir's Holy Sword) to be on par with the spell version.
-- Bloodborne Dash/Beast Lunge now no longer have Instability Frames, stamina cost is increased from 20>25 as the result.
-- Shield poking with Spear/Lance/Thrusting Sword now boosts weapon stability by 30% and reduced damage taken to 0% during the animation.
-- Lances now have 50% damage absorption during certain frames of attack.
-- Lances now have their own Weapon Class:
- - Irithyll Lance
- - Grand Lance
- - Rampart Golem Lance
- - Heide Lance
- - Heide Greatlance
- - Chariot Lance
- 
-- Minor Moveset Changes:
- - Rolling 1H R1 for Alternate Scythe moveset.
- - 4th 1H R1 for Alternate Straight Sword moveset. 
- - Slight event arrangement for Ciaran's Tracers.
- - Restored Short Bow/Composite Bow Running attack.
- - Decrease the ending lag and reload speed for Crossbows.
- - Reverted Rolling 2H R1 to vanilla, changed Running R1 for Alternate Greathammer moveset, also slight speed adjustment.
- - Greatsword of Judgment Weapon Art now fires Pontiff Sulyvahn's projectile, Light Attack for Soul Spear, Heavy Attack for Purple Wave.
- - Changed Lance's 1H & 2H Rolling R1.
- - Modified Censuring Palm's L1 animations.
- - Changed Scythe's Riposte animation (Experimental), currently available for Great Scythe and Pontiff Knight Great Scythe.
- - Added a new kick to Alternate Katana moveset.
- - Alternate Claws' kick now phased through enemy and only stagger enemy backwards.
- - Certain Unique Kick now pulled enemy closer. (Church Pick/Hunter Axe/Burial Scythe)
- - Drakewing Ulra Greatsword/Astora Greatsword 1H/2H R2s.
- - Pike/Lance Running 1H/2H R1 are now consist of 5 hits. Making it ideal for aux inflict if all hits connect.
- - Changed Melu Scimitars' Spin Slash followup. 
-
-# Cosmetic Items
-- Cleansing Potion now clears the Moonflower and Devil's Trumpet effects.
-
-- Adjusted several oil visual.
-- Added the following oils:
- - Psychedelic Oil
- - Brume Oil
-
-- Added the following illusion/insignia:
- - Elite Lothric Knight Set
- - Elite Lothric Knight Helm (Opened Helm)
- - Lothric Knight Helm (Opened Helm)
- - Consumed King's Knight Set
- - Elite Deacon Set
- - Elite Soldier Set
- - Gertrude's Knight Set
- - Red Worker Set
- - Profaned Capital Handmaid Set
- - Burnt Firelink Set
- - Overgrown Lothric Knight Set
- - Herald Helm (Lowered Visor)
- - Undead Legion Helm (Only Cap)
-- They can be purchased from the Company of Champion's convenant shop (2 awestones and 5000 souls each).
-
-# Consumable Items
-- Increased the absorption buff the bug pellets give to 20% for both PVE and PVP.
-- All damage buffing resin consumables now add 100 damage.
-- Removed Kukri, Spellbound Kukri, Charcoal Pine Bundle and Gold Pine Bundle.
-- Rope Firebomb is now Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 200 fire damage and air juggle stagger.
-- Added new spellbound item versions of all existing throwing knives and the other kind of firebombs/urns.
-- Added new spellbound item versions of all existing resins, they add 100 damage + 10% and last 10 seconds, aux resins have higher build up and last 20 seconds, and both types use the bundle animation.
-- Added Blessed Pine Resin, adds physical damage by 100 and boosts damage against undead enemies by 5% for 60 seconds. Sold by Irina or unlocked at the item forge after lighting the Scribe's Retreat bonfire.
-- Added Spellbound Blessed Resin, adds physical damage by 100, further increases it by 10% and boosts damage against undead enemies by 5% for 10 seconds. Unlocked with the Giant's Coal.
-- Added Cursed Pine Resin, adds 15 Curse build up for 60 seconds. Unlocked at item forge by lighting the Irithyll Dungeon bonfire.
-- Added Spellbound Cursed Resin, adds 20 Curse build up for 20 seconds. Unlocked with the Profaned Coal.
-- Added Spellbound Pellet, grants immunity to damage for 5 seconds.
-- Added Spellbound Mossfruit, grants immunity to status effects for 10 seconds.
-- Added Spellbound Frying Pan, deals 100 physical damage and high poise and stamina damage. Dropped by King Pot Greg.
-- Added Spellbound Set-up Firebomb: throws a firebomb in front of the character that sticks on the ground and explodes on enemy contact or after 15 seconds, inflicting 500 fire damage and air juggle stagger. Sold by Grudore for 30000 souls.
-- Church Guardian Shiv is now Spellbound Guardian Shiv. Removed the scaling and increased its damage to 300.
-- Ritual Spear Fragment is now a consumable item, with a max carry of 10. Reduced its price to 2,500 Souls and 1 Filianore's Spear Ornament per unit.
-- Divine Spear Fragment is now Spellbound Spear Fragment. Removed the scaling and increased its damage to 1050 [875]. Increased its price to 50,000 Souls and 15 Filianore's Spear Ornaments.
-- Young Grass Dew is now Spellbound Grass Dew. Increased the Stamina recovery to +10 and the absorptions to +10%.
-- Elemental throwing knifes have unique looks when in the air and when impacting something.
-
-- Changed how the spellbound items work:
- - Removed their Luck scaling and made them better by default.
- - They require to be charged to be used.
- - Charges are gained by attacking enemies with any melee weapon, the amount gained usually depends on the weapon class.
- - When there are not enough charges the item's icon darkens and can't be used.
- - The amount of charges required varies per item.
- - Charges can be "stored" to use the items more than once consecutively, but there is a max limit.
-
-- Changed the draconic stones, they are now:
- - Spellbound Draconic Fire: Emits dragon fire breath, dealing 600 fire damage with no scaling. Gives spellbound charges.
- - Spellbound Draconic Might: Emits dragon might, dealing 2000 fire damage with no scaling and buffs the player with +10% damage boost and infinite poise for 30 seconds.
- - Spellbound Draconic Fire Orbs: Emits dragon fire orbs, dealing 500 fire damage with no scaling. Gives spellbound charges, but less than Spellbound Draconic Fire.
- - Spellbound Draconic Fury: Emits daconic might + buff, and summons ghost dragonoid that breathes fire dealing 1000 [250] fire damage.
-
-# Spells
-- Adjusted several weapon buffs visual effects.
-- Replaced the visual effect of Dark Edge with p0's Farron Flashsword recolor.
-- Adjusted Chaos Beam's sound.
-- Adjusted Angelic Barrage's sound.
-
-# Npcs
-- Npc main weapon is now always +10.
-- Master Benjin now allows you to toggle the Bloodborne Dash that certain weapons have.
-- Forgotten Locklin now drops 3 Smouldering Stones.
-
-# Enemies
-- Red Crystal Lizards now always drop Lizard Hide.
-
-# Bosses
-- Removed the crying baby sounds from the Titanite Abomination.
-- Tweaked the vfx of Princess Yngvil to be less blinding.
-
-- Twisted Knight:
- - His color mechanic has been switched, instead of reducing damage except for the chosen element, it now adds a 50% boost to the chosen element.
- - Increased his HP to 16,000 to retain the length of the fight.
-
-- Ivory King Ultra Greatsword can be transposed from the Soul of Princess Yngvil.
-- Drakewing Ultra Greatsword can be transposed from the Soul of Ancient Wyvern.
-- Spitfire Spear can be transposed from the Soul of Stray Demon.
-
-- Removed Dismal Knight.
-- Restored Corrupted Gundyr, found in the Dismal Knight arena.
- - At 75% HP, Writhing Deep orbs will appear in random locations around his arena
-  - The rate of the orbs speeds up at 60%, 40%, 20% and 10% HP.
-
-# Shop
-- Added several weapons to Crestfallen Merchant's shop:
- - Dragon Hunter's Greataxe
- - Dragon Hunter's Great Hammer
- - Dragon Hunter's Warpick
-
-# Map
-- Added interaction points in m30:
- - Holy Statue: grants a random buff when used.
- - Pilgrim Tree: grants 3,000 souls when used.
- - Dead Wyvern: grants damage buff if in Dragon Remnants when used, otherwise it is a debuff.
+# Consumable Items:
+- Rouge/Crimson Water now boost FP recovery for 60 seconds.
+- The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
  
 #------------------------------
 # TODO
@@ -393,3 +107,7 @@ Add companion attunement, allow the choice out of 3 in each map, changable at El
 
 Add interactions in maps
 
+Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
+Change healing spells to heal when holding the cast
+Change the FP cost of weapon arts and firearms
+Change companion consumables

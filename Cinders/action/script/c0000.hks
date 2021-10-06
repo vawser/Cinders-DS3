@@ -2773,21 +2773,21 @@ function ExecMagic(quick_type, blend_type)
     -- FP Pause
     ----------------------
     -- Default (applied in all instances to set a minimum)
-    act(2002, 113003)
+    act(2002, 113060)
     
     -- Sacred Flame
     if magic_type == 33 then 
-        act(2002, 113005)
+        act(2002, 113060)
     end
 
     -- Lifehunt Scythe
     if magic_type == 44 then
-        act(2002, 113005)
+        act(2002, 113060)
     end
     
     -- Old Moonlight
     if magic_type == 46 then 
-        act(2002, 113005)
+        act(2002, 113060)
     end
     
     ----------------------

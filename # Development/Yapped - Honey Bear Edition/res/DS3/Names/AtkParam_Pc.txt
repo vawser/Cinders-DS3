@@ -1258,8 +1258,9 @@
 2606580 Drakewing Ultra Greatsword - 2H Roll
 2606700 Drakewing Ultra Greatsword - Stomp
 2606701 Drakewing Ultra Greatsword - Stomp - Strike
+2606702 Drakewing Ultra Greatsword - Stomp - Tackle
 2606705 Drakewing Ultra Greatsword - Weapon Art
-2606706 Drakewing Ultra Greatsword - Weapon Art
+2606706 Drakewing Ultra Greatsword - Weapon Art (Unused)
 2606707 Drakewing Ultra Greatsword - Weapon Art
 2607106 Ivory King UGS - Durability
 2607201 Ivory King UGS - Magic Blade Light
@@ -1893,11 +1894,17 @@
 2930710 Murky Warstaff - Weapon Art
 2930720 Murky Warstaff - Weapon Art
 2930730 Murky Warstaff - Weapon Art
-2931700 Staff of Serpents - Expel Lightning
-2931705 Staff of Serpents - Expel Lightning
-2931706 Staff of Serpents - Expel Lightning
-2931707 Staff of Serpents - Expel Lightning
-2931708 Staff of Serpents - Expel Lightning [Hit]
+2931300 Staff of Serpents - 2H Heavy #1
+2931305 Staff of Serpents - 2H Heavy #1 Max
+2931310 Staff of Serpents - 2H Heavy #2
+2931315 Staff of Serpents - 2H Heavy #2 Max
+2931700 Staff of Serpents
+2931702 Staff of Serpents - Lightning Thrust
+2931705 Staff of Serpents
+2931706 Staff of Serpents
+2931707 Staff of Serpents
+2931708 Staff of Serpents
+2931750 Staff of Serpents - Lightning Bolt
 2931800 Staff of Serpents - Weapon Art
 2931810 Staff of Serpents - Weapon Art
 2931820 Staff of Serpents - Weapon Art
@@ -2945,6 +2952,22 @@
 3521700 Sanctum Mace - Poison Burst - Initial
 3521710 Sanctum Mace - Poison Burst - Cont
 3521720 Sanctum Mace - Poison Burst - Final
+3521730 Sanctum Mace - Poison Burst
+3522300 Kirkhammer - 2H Heavy #1
+3522315 Kirkhammer - 2H Heavy #2 Max
+3522415 Kirkhammer - 1H Kick
+3522425 Kirkhammer - 2H Kick
+3522530 Kirkhammer - 2H Running
+3522700 Kirkhammer - Weapon Art - Perseverance
+3522705 Kirkhammer - Weapon Art - Bullet
+3522706 Kirkhammer - Weapon Art
+3522710 Kirkhammer - Weapon Art - Slam
+3522711 Kirkhammer - Weapon Art - Final - Heave
+3522712 Kirkhammer - Weapon Art - Final #1
+3522713 Kirkhammer - Weapon Art - Final #2
+3522800 Kirkhammer - Kick - Bullet
+3522805 Kirkhammer - Kick - Bullet
+3522806 Kirkhammer - Kick - Bullet
 3600000 Spear - 1H Light #1
 3600010 Spear - 1H Light #2
 3600015 Spear (Alt) - 1H Light #2
@@ -3053,9 +3076,11 @@
 3603310 Dragonslayer Spear - 2H Heavy #2
 3603315 Dragonslayer Spear - 2H Heavy #2 Max
 3603700 Dragonslayer Spear
+3603702 Dragonslayer Spear - Lightning Thrust
 3603705 Dragonslayer Spear
 3603706 Dragonslayer Spear
 3603707 Dragonslayer Spear
+3603750 Dragonslayer Spear - Lightning Bolt
 3603800 Dragonslayer Spear - Magic Sword
 3603810 Dragonslayer Spear
 3603820 Dragonslayer Spear
@@ -3205,7 +3230,11 @@
 3610830 Greatlance
 3610831 Heide Greatlance - Weapon Art - Cont
 3610840 Heide Greatlance - Weapon Art - Final
+3610841 Heide Greatlance - Weapon Art - Falling Bolt (Unused)
 3610845 Heide Greatlance - Weapon Art - Falling Bolt
+3610846 Heide Greatlance - Weapon Art - Falling Bolt
+3610847 Heide Greatlance - Weapon Art - Falling Bolt
+3610848 Heide Greatlance - Weapon Art - Falling Bolt
 3610850 Chariot Lance - Weapon Art
 3610851 Chariot Lance - 1H Warcry #1 - First Hit
 3610852 Chariot Lance - 1H Warcry #1 - Second Hit
@@ -5045,8 +5074,8 @@
 11374210 [Sorcery] Heavy Soul Greatsword - Left
 11375000 [Sorcery] Farron Flashsword - Right
 11375100 [Sorcery] Farron Flashsword - Left
-11375200 [Sorcery] Refined Farron Flashsword - Right
-11375210 [Sorcery] Refined Farron Flashsword - Left
+11375200 [Sorcery] Spellbound Flashsword - Right
+11375210 [Sorcery] Spellbound Flashsword - Left
 11376000 [Sorcery] Old Moonlight
 11376001 [Sorcery] Old Moonlight [HitBullet]
 11376010 [Sorcery] Old Moonlight - Sword - Right

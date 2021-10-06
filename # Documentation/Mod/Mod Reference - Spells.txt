@@ -4,29 +4,32 @@
 #--------------------------------
 # Farron Dart
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 45
 - INT Req: 10
-- Magic Damage: 80 {240}
+- Slot Use: 1
+- Magic Damage: 70 {210}
 
-#---- Refined Farron Dart
-- FP consumption reduced to 0.
+#---- Spellbound Farron Dart
+- Gives spellbound charges on hit.
 
 #--------------------------------
 # Farron Flashsword
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 45
 - INT Req: 10
+- Slot Use: 1
 - Magic Damage: 100 {300}
 
-#---- Refined Farron Flashsword
-- FP consumption reduced to 0.
+#---- Spellbound Flashsword
+- Gives spellbound charges on hit.
 
 #--------------------------------
 # Scattering Soul Orb
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 80
 - INT Req: 20
-- Magic Damage: 30 {90} {*25, individual}
+- Slot Use: 1
+- Magic Damage: 25 {75} {*25, individual}
 
 #---- Repeating Soul Orb
 - Increases emitted projectile rate to 10 per second.
@@ -34,8 +37,9 @@
 #--------------------------------
 # Soul Arrow
 #--------------------------------
-- FP Cost: 20
-- INT Req: 20
+- FP Cost: 70
+- INT Req: 10
+- Slot Use: 1
 - Magic Damage: 125 {375}
 
 #---- Explosive Soul Arrow
@@ -44,9 +48,10 @@
 #--------------------------------
 # Scattering Crystal Orb
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 130
 - INT Req: 30
-- Magic Damage: 60 {180} {*25, individual}
+- Slot Use: 1
+- Magic Damage: 40 {120} {*25, individual}
 
 #---- Repeating Crystal Orb
 - Increases emitted projectile rate to 10 per second.
@@ -54,10 +59,10 @@
 #--------------------------------
 # Soul Spear
 #--------------------------------
-- FP Cost: 30
-- INT Req: 40
+- FP Cost: 80
+- INT Req: 20
 - Slot Use: 1
-- Magic Damage: 200 {600}
+- Magic Damage: 175 {525}
 
 #---- Explosive Soul Spear
 - Adds an area of effect explosion on impact.
@@ -65,10 +70,10 @@
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 40
-- INT Req: 60
+- FP Cost: 120
+- INT Req: 30
 - Slot Use: 2
-- Magic Damage: 300 {900}
+- Magic Damage: 250 {750}
 
 #---- Homing Crystal Soul Spear
 - Increases homing to 90 degrees.
@@ -76,20 +81,21 @@
 #--------------------------------
 # Homing Soulmass
 #--------------------------------
-- FP Cost: 25
-- INT Req: 30
-- Magic Damage: 50 {150} {*5, individual}
+- FP Cost: 80
+- INT Req: 20
+- Slot Use: 1
+- Magic Damage: 40 {120} {*5, individual}
 
 #---- Surging Soulmass
-- Changes cast animation to Fire Surge and releases 5 bullets every half second, dealing 40 {120} Magic damage per bullet.
+- Changes cast animation to Fire Surge and releases 5 bullets every half second, dealing 30 {90} Magic damage per bullet.
 
 #--------------------------------
 # Homing Crystal Soulmass
 #--------------------------------
-- FP Cost: 35
-- INT Req: 50
+- FP Cost: 140
+- INT Req: 40
 - Slot Use: 2
-- Magic Damage: 80 {240} {*5, individual}
+- Magic Damage: 50 {150} {*5, individual}
 
 #---- Weakening Crystal Soulmass
 - Impact reduces the Magic absorption of the target by 10% for 5 seconds.
@@ -97,21 +103,21 @@
 #--------------------------------
 # Soul Geyser
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 165
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 75 {600} {*8, individual} {1800}
+- Magic Damage: 50 {350} {*8, individual} {1050}
 
 #---- Crystal Soul Geyser
-- Boosts damage to 100 {800} {2400}
+- Boosts damage to 70 {490} {1470}
 
 #--------------------------------
 # White Dragon Breath
 #--------------------------------
-- FP Cost: 25
-- INT Req: 50
+- FP Cost: 120
+- INT Req: 30
 - Slot Use: 2
-- Magic Damage: 200 {600} [50 {150}] 
+- Magic Damage: 275 {825} [25 {75}] 
 - Effect: inflicts 60 Curse.
 
 #---- Extended White Dragon Breath
@@ -120,8 +126,9 @@
 #--------------------------------
 # Crystal Storm
 #--------------------------------
-- FP Cost: 5 (10)
-- INT Req: 40
+- FP Cost: 5 (5)
+- INT Req: 50
+- Slot Use: 1
 - Magic Damage: 200 {600} {*5, shared}
 
 #---- Repeating Crystal Storm
@@ -130,9 +137,10 @@
 #--------------------------------
 # Farron Hail
 #--------------------------------
-- FP Cost: 10 (10)
-- INT Req: 20
-- Magic Damage: 50 {150} {*20, shared}
+- FP Cost: 35 (35)
+- INT Req: 40
+- Slot Use: 1
+- Magic Damage: 70 {210} {*20, shared}
 
 #---- Homing Farron Hail
 - Increases projectile homing to 45 degrees.
@@ -140,8 +148,9 @@
 #--------------------------------
 # Crystal Hail
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 129
 - INT Req: 40
+- Slot Use: 1
 - Magic Damage: 25 {75} {*40, individual}
 
 #---- Focused Crystal Hail
@@ -150,8 +159,9 @@
 #--------------------------------
 # Soul Greatsword
 #--------------------------------
-- FP Cost: 20
-- INT Req: 30
+- FP Cost: 70
+- INT Req: 20
+- Slot Use: 1
 - Magic Damage: 200 {600}
 
 #---- Heavy Soul Greatsword
@@ -160,10 +170,10 @@
 #--------------------------------
 # Old Moonlight
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 165
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 150 {450} (250 {750} charged) [100 {300}]
+- Magic Damage: 250 {750} (350 {1050} charged) [200 {600}]
 
 #---- Heavy Old Moonlight
 - Increases Poise Damage to 100.
@@ -171,9 +181,10 @@
 #--------------------------------
 # Soul Wave
 #--------------------------------
-- FP Cost: 10
-- INT Req: 30
-- Magic Damage: 80 {240}
+- FP Cost: 45
+- INT Req: 10
+- Slot Use: 1
+- Magic Damage: 70 {210}
 
 #---- Swift Soul Wave
 - Increases projectile speed to 60 m/s.
@@ -181,19 +192,20 @@
 #--------------------------------
 # Soul Stream
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 190
 - INT Req: 60
 - Slot Use: 2
-- Magic Damage: 60 {180} {*10, individual}
+- Magic Damage: 80 {240} {*10, individual}
 
 #---- Quickened Soul Stream
-- Changes cast animation to Quick Soul Arrow.
+- Changes cast animation to Quick Soul Arrow. Reduces the amount of ticks and FP cost.
 
 #--------------------------------
 # Blizzard
 #--------------------------------
-- FP Cost: 5 (10)
-- INT Req: 30
+- FP Cost: 5 (5)
+- INT Req: 50
+- Slot Use: 1
 - Magic Damage: 200 {600} {*5, shared}
 - Base Effect: inflicts 60 Frost on hit.
 
@@ -203,9 +215,10 @@
 #--------------------------------
 # Orbs of Judgment
 #--------------------------------
-- FP Cost: 40
-- INT Req: 40
-- Magic Damage: 50 {150} {*6, individual}
+- FP Cost: 90
+- INT Req: 30
+- Slot Use: 1
+- Magic Damage: 35 {105} {*6, individual}
 
 #---- Swift Orbs of Judgment
 - Increases projectile speed to 12 m/s.
@@ -213,8 +226,9 @@
 #--------------------------------
 # Pestilent Mist
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 150
 - INT Req: 40
+- Slot Use: 1
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
 
 #---- Lingering Pestilent Mist
@@ -223,8 +237,9 @@
 #--------------------------------
 # Snap Freeze
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 100
 - INT Req: 20
+- Slot Use: 1
 - Base Effect: summons patch that deals 15 Frost per tick. Lasts 5 seconds.
 
 #---- Lingering Snap Freeze
@@ -233,8 +248,9 @@
 #--------------------------------
 # Blinding Light
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 100
 - INT Req: 20
+- Slot Use: 1
 - Base Effect: knocks enemies back.
 
 #---- Refined Blinding Light
@@ -243,8 +259,9 @@
 #--------------------------------
 # Shockwave
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 100
 - INT Req: 20
+- Slot Use: 1
 - Base Effect: Knocks down enemies.
 
 #---- Refined Shockwave
@@ -256,62 +273,67 @@
 #--------------------------------
 # Magic Weapon
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 100
 - INT Req: 20
-- Base Effect: Adds 50 Magic damage to main weapon for 90 seconds.
+- Slot Use: 1
+- Base Effect: Adds 50 Magic damage to main weapon and reduces max FP by 10% for 90 seconds.
 
 #--------------------------------
 # Great Magic Weapon
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 150
 - INT Req: 40
-- Base Effect: Adds 60 Magic damage to main weapon for 60 seconds.
+- Slot Use: 1
+- Base Effect: Adds 60 Magic damage to main weapon and reduces max FP by 20% for 60 seconds.
 
 #--------------------------------
 # Crystal Magic Weapon
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
+- Base Effect: Adds 75 Magic damage to main weapon and reduces max FP by 30% for 30 seconds.
 
 #---- Supreme Magic Weapon
-- Adds 100 Magic damage to main weapon for 120 seconds.
+- Adds 100 Magic damage to main weapon and reduces max FP by 40% for 120 seconds. FP cost increased to 300.
 
 #--------------------------------
 # Frozen Weapon
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 100
 - INT Req: 30
-- Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
+- Slot Use: 1
+- Base Effect: Adds 30 Frost inflict to main weapon and reduces max FP by 20% for 60 seconds.
 
 #---- Supreme Frozen Weapon
-- Adds 60 Frost inflict to main weapon for 120 seconds.
+- Adds 60 Frost inflict to main weapon and reduces max FP by 30% for 120 seconds. FP cost increased to 200.
 
 #--------------------------------
 # Magic Shield
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 100
 - INT Req: 30
-- Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
+- Slot Use: 1
+- Base Effect: Adds 30% absorption and 5% stability to main shield and reduces max FP by 10% for 60 seconds.
 
 #--------------------------------
 # Great Magic Shield
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.
+- Base Effect: Adds max absorption and 10% stability to main shield and reduces max FP by 20% for 30 seconds.
 
 #---- Supreme Magic Shield
-- Adds max absorption and 20% stability to main shield for 120 seconds.
+- Adds max absorption and 20% stability to main shield and reduces max FP by 30% for 120 seconds. FP cost increased to 300.
 
 #--------------------------------
 # Hidden Weapon
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 100
 - INT Req: 20
-- Base Effect: hides main weapon for 120 seconds.
+- Slot Use: 1
+- Base Effect: hides main weapon and reduces max FP by 10% for 120 seconds.
 
 #---- Refined Hidden Weapon
 - FP consumption reduced to 0.
@@ -319,9 +341,10 @@
 #--------------------------------
 # Hidden Body
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 300
 - INT Req: 40
-- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 100%.
+- Slot Use: 1
+- Base Effect: hides player and reduces max FP by 30% for 60 seconds, reducing enemy detection via sight by 100%.
 
 #---- Mass Hidden Body
 - Applies the effect to self and allies in a radius of 8 meters.
@@ -329,9 +352,10 @@
 #--------------------------------
 # Cast Light
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 100
 - INT Req: 10
-- Base Effect: summons a light source that follows you for 120 seconds.
+- Slot Use: 1
+- Base Effect: summons a light source that follows you and reduces max FP by 10% for 120 seconds.
 
 #---- Refined Cast Light
 - FP consumption reduced to 0.
@@ -339,8 +363,9 @@
 #--------------------------------
 # Repair
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - INT Req: 20
+- Slot Use: 1
 - Base Effect: restores 50 durability.
 
 #---- Skilled Repair
@@ -349,9 +374,10 @@
 #--------------------------------
 # Spook
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 300
 - INT Req: 20
-- Base Effect: reduces enemy detection via sound by 100% for 60 seconds.
+- Slot Use: 1
+- Base Effect: reduces enemy detection via sound by 100% and reduces max FP by 30% for 60 seconds.
 
 #---- Mass Spook
 - Applies the effect to self and allies in a radius of 8 meters.
@@ -359,9 +385,10 @@
 #--------------------------------
 # Chameleon
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 100
 - INT Req: 20
-- Base Effect: transforms player into object from level.
+- Slot Use: 1
+- Base Effect: transforms player into object from level and reduces max FP by 10%.
 
 #---- Refined Chameleon
 - FP consumption reduced to 0.
@@ -369,8 +396,9 @@
 #--------------------------------
 # Aural Decoy
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 50
 - INT Req: 20
+- Slot Use: 1
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
 
 #---- Refined Aural Decoy
@@ -379,19 +407,20 @@
 #--------------------------------
 # Twisted Wall of Light
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 40
 - INT Req: 30
+- Slot Use: 1
 - Base Effect: reflect spells away for 2 seconds.
 
 #---- Impenetrable Wall of Light
-- Changes the cast animation to Fire Surge, FP fost to 5 and duration to 1 second.
+- Changes the cast animation to Fire Surge, FP fost to 20 and duration to 1 second.
 
 #--------------------------------
 # Unleash Magic
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - INT Req: 60
-- Slot Use: 2
+- Slot Use: 1
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces max HP by 50%.
 
 #---- Lingering Unleash Magic

@@ -201,6 +201,7 @@
 30031 [Ludleth - Crystal Sage] Crystal Hail
 30032 [Ludleth - Crystal Sage] Sage's Stiletto
 30033 [Ludleth - Crystal Sage] Scholar's Bow
+30034 [Ludleth - Crystal Sage] Soul Spear
 30040 [Ludleth - Deacons] Cleric's Candlestick
 30041 [Ludleth - Deacons] Deep Ring
 30042 [Ludleth - Deacons] Whisper of Despair
@@ -211,12 +212,12 @@
 30052 [Ludleth - Abyss Watcher] Hornet Ring
 30060 [Ludleth - High Lord Wolnir] Wolnir's Holy Sword
 30061 [Ludleth - High Lord Wolnir] Black Serpent
-30062 [Ludleth - High Lord Wolnir] Mournful Flames
 30063 [Ludleth - High Lord Wolnir] Black Fire Vestiges
 30070 [Ludleth - Old Demon King] Old King's Great Hammer
 30071 [Ludleth - Old Demon King] Demon King's Greataxe
 30072 [Ludleth - Old Demon King] Rockflesh
 30073 [Ludleth - Old Demon King] Immolation
+30074 [Ludleth - Old Demon King] Chaos Bed Vestiges
 30080 [Ludleth - Ponitff Sulyvahn] Greatsword of Judgment
 30081 [Ludleth - Ponitff Sulyvahn] Profaned Greatsword
 30082 [Ludleth - Ponitff Sulyvahn] Orbs of Judgment
@@ -264,13 +265,13 @@
 30191 [Ludleth - Sister Freide] Rose of Ariandel
 30192 [Ludleth - Sister Freide] Black Flame Arc
 30193 [Ludleth - Sister Freide] Blizzard
+30194 [Ludleth - Sister Freide] Mournful Flames
 30200 [Ludleth - Lordran Remnants] Dragonslayer Spear
 30201 [Ludleth - Lordran Remnants] Ciaran's Tracers
 30203 [Ludleth - Lordran Remnants] Leo Ring
 30204 [Ludleth - Lordran Remnants] Greatshield of Artorias
 30205 [Ludleth - Lordran Remnants] Greatsword of Artorias
 30210 [Ludleth - Demon Prince] Demon's Scar
-30212 [Ludleth - Demon Prince] Chaos Bed Vestiges
 30213 [Ludleth - Demon Prince] Cataclysm
 30214 [Ludleth - Demon Prince] Chaos Beam
 30220 [Ludleth - Darkeater Midir] Frayed Blade
@@ -778,10 +779,9 @@
 130120 [Orbeck - Spells - Sage's Scroll] Shockwave
 130121 [Orbeck - Spells - Sage's Scroll] Farron Hail
 130122 [Orbeck - Spells - Sage's Scroll] Scattering Soul Orb
-130123 [Orbeck - Spells - Sage's Scroll] Scattering Crystal Orb
 130124 [Orbeck - Spells - Sage's Scroll] Soul Greatsword
-130140 [Orbeck - Spells - Logan's Scroll] Soul Spear
 130141 [Orbeck - Spells - Logan's Scroll] Great Magic Weapon
+130142 [Orbeck - Spells - Logan's Scroll] Scattering Crystal Orb
 130143 [Orbeck - Spells - Logan's Scroll] Pestilent Mist
 130144 [Orbeck - Spells - Logan's Scroll] Great Magic Shield
 130160 [Orbeck - Spells - Golden Scroll] Blinding Light
