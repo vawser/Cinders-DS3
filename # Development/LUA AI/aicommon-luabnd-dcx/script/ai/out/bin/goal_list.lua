@@ -1000,3 +1000,5 @@ GOAL_PotKingGreg_820000_Battle = 820000
 GOAL_PotKingGreg_820000_AfterAttackAct = 820001
 GOAL_TitaniteAbomination_821000_Battle = 821000
 GOAL_TitaniteAbomination_821000_AfterAttackAct = 821001
+GOAL_CathedralGuardian_822000_Battle = 822000
+GOAL_CathedralGuardian_822000_AttackStance = 822001

@@ -97,6 +97,11 @@ Finish following weapons:
 # Consumable Items:
 - Rouge/Crimson Water now boost FP recovery for 60 seconds.
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
+
+# Bosses:
+- Changed the Cathedral Guardian's arena - it is now the path and entrance hall for the Cathedral.
+- The Cathedral Guardian is now optional, and can be skipped if you do not wish to fight him.
+- Added 3 Ravenous Crystal Lizards and 3 Infested Corpses in the area used by the Cathedral Guardian previously.
  
 #------------------------------
 # TODO
@@ -111,3 +116,4 @@ Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
 Change healing spells to heal when holding the cast
 Change the FP cost of weapon arts and firearms
 Change companion consumables
+
