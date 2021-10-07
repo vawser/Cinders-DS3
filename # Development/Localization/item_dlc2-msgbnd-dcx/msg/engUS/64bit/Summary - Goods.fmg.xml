@@ -600,7 +600,7 @@
 <text id="4111">Emit dragon might and summon ancient ally who scorches the land</text>
 <text id="4200">Crush to boost absorption massively for a short duration</text>
 <text id="4201">Crush to boost poise massively for a short duration</text>
-<text id="4202">Crush to boost max FP and reduce skill FP consumption massively for a short duration</text>
+<text id="4202">Crush to boost max FP and reduce FP consumption massively for a short duration</text>
 <text id="4203">Crush to reduce weapon stamina consumption massively for a short duration</text>
 <text id="4204">Crush to gain immunity to status for short duration</text>
 <text id="4205">Crush to boost stamina recovery massively for a short duration</text>
@@ -1206,7 +1206,7 @@
 <text id="40001">Exchange with the Fire Keeper for armor</text>
 <text id="40002">Exchange with the Fire Keeper for accessories</text>
 <text id="1200000">Fire soul dart</text>
-<text id="1200010">Fire soul dart with no focus cost</text>
+<text id="1200010">Fire soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
 <text id="1210010">Summon orb that repeatedly fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
@@ -1257,7 +1257,7 @@
 <text id="1374000">Attack with a greatsword formed from souls</text>
 <text id="1374010">Attack with a heavy greatsword formed from souls</text>
 <text id="1375000">Attack with a sword formed from souls</text>
-<text id="1375010">Attack with a sword formed from souls with no focus cost</text>
+<text id="1375010">Attack with a sword formed from souls</text>
 <text id="1620000">Fire torrential volley of souls</text>
 <text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>

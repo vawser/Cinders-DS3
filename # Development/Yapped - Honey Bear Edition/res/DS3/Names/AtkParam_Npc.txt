@@ -2629,6 +2629,7 @@
 5110900 [Gundyr] heat up caries breath
 5110910 [Gundyr] Corrupted Tear [Hit]
 5110930 [Gundyr] White Tear
+5110950 [Corrupted Gundyr] Writhing Deep
 5120010 [Snake Spirit] Frontal melee attack _ head knocked back against
 5120011 [Snake Spirit] Frontal melee attack _ head lateral shaking
 5120012 [Snake Spirit] Frontal melee Attack _ head + neck knocked back against

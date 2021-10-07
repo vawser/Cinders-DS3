@@ -2021,6 +2021,7 @@
 100570 [Behavior] Harald Curved Greatsword
 100580 [Behavior] Demon's Scar
 100590 [Behavior] Harald Curved Greatsword
+100591 [Behavior] Kirk
 100600 [Behavior]
 100610 [Behavior]
 100620 [Behavior] Cast Magic
@@ -2188,7 +2189,7 @@
 113045 Seconds: 45
 113050 Seconds: 50
 113055 Seconds: 55
-113060 Seconds: 60
+113060 Cast and Character Action FP Pause
 113099 ### FP Restoration ###
 113100 [Behavior] Restore FP - Base - 8 per second
 113101 [Behavior] Restore FP - Enchanted - 3 per second
@@ -2978,6 +2979,7 @@
 130061860 [Profaned Greatsword] Profaned Flame
 130061870 [Tonitrus] Charged Spark
 130061880 [Silver Knight Weapon] Lightning Buff
+130061885 [Dragonslayer Spear] Lightning Buff
 130062000 [Boom Hammer] Ignite - Right
 130062001 [Boom Hammer] Ignite - Right [CycleOccurance]
 130062050 [Boom Hammer] Ignite - Left
@@ -3447,7 +3449,7 @@
 160201080 Lothric Knight Long Spear
 160201090 Titanite Catch Pole
 160201100 Executioner's Greatsword
-160201101 Executioner's Greatsword [DeathOccurance]
+160201101 Executioner's Greatsword [DeathOccurance] (Old)
 160201110 Smoldering Talisman
 160201120 Beast Claw
 160201140 Handmaid's Ladle
@@ -3874,6 +3876,8 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
+160500460 [Sorcery] Spellbound Flashsword
+160500470 [Sorcery] Spellbound Farron Dart
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -5831,7 +5835,7 @@
 200005440 Magic - Paired Greatshield
 200005450 Magic - Paired Daggers - Gotthard Twinswords
 200005460 Magic - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
-200005470 Magic - Paired Curved Swords - Paired Katanas - Paired Spears
+200005470 Magic - Paired Curved Swords - Paired Katanas - Paired Spears - Crow Quills
 200006000 Fire - Dagger
 200006020 Fire - Straight Sword
 200006040 Fire - Greatsword

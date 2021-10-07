@@ -1396,12 +1396,12 @@ Effect duration can be extended.
 Wild animals abhor the pungent odor of this root, but clerics on pilgrimage are keenly aware of the value of its powerful medicinal effects.</text>
 <text id="805">Rogue water of unknown origin.
 
-Restores 50 FP instantly.
+Boosts FP recovery speed by 15 for 60 seconds.
 
 Though known to some as red holy water, not everyone acknowledges its holy status.</text>
 <text id="806">Crimson water of unknown origin.
 
-Restores 100 FP instantly.
+Boosts FP recovery speed by 21 for 60 seconds.
 
 Those who have experienced the powerful effect of this dimly lucent red water care not that its very origins are completely unknown.</text>
 <text id="901">
@@ -2337,7 +2337,7 @@ Effect duration can be extended.
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
 <text id="4202">The fading soul of a fallen sage.
 
-Use to absorb its latent power, boosting max FP by 100% and reducing skill FP consumption by 80% for 30 seconds.
+Use to absorb its latent power, boosting max FP by 100% and reducing FP consumption by 80% for 30 seconds.
 Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
@@ -4309,7 +4309,7 @@ it is learned far and wide due to its ease of use.</text>
 <text id="1200010">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 
-Fire a soul dart with no focus cost.
+Spellbound items appear to react to the damage dealt with this spell.
 
 Well known among the Farron sorceries,
 it is learned far and wide due to its ease of use.</text>
@@ -4420,7 +4420,7 @@ According to the Crystal Sages, old Big Hat achieved enlightenment within the Re
 <text id="1310000">Sorcery for casters who wield swords.
 Reinforces right weapon with magic. 
 
-Increases Magic damage by 50 for 90 seconds.
+Increases Magic damage by 50 and reduces max FP by 10% for 90 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -4430,7 +4430,7 @@ Many warriors learn sorcery just for this enchantment.</text>
 <text id="1311000">Sorcery which improves upon Magic Weapon.
 Greatly reinforces right weapon with magic.
 
-Increases Magic damage by 60 for 60 seconds.
+Increases Magic damage by 60 and reduces max FP by 20% for 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -4440,7 +4440,7 @@ is said to cut down heavily armored knights with ease.</text>
 <text id="1312000">Further sharpens Magic Weapon via crystallization.
 Reinforces right weapon with crystal.
 
-Increases Magic damage by 75 for 30 seconds.
+Increases Magic damage by 75 and reduces max FP by 30% for 30 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -4450,7 +4450,7 @@ between weapon and soul.</text>
 <text id="1312010">Further sharpens Crystal Magic Weapon.
 Reinforces right weapon with crystal.
 
-Increases Magic damage by 100 for 120 seconds.
+Increases Magic damage by 100 and reduces max FP by 40% for 120 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -4460,7 +4460,7 @@ between weapon and soul.</text>
 <text id="1330000">Sorcery for casters who wield swords.
 Reinforces left shield with magic.
 
-Boosts shield absorption by 30% and stability by 5% for 60 seconds.
+Boosts shield absorption by 30%, stability by 5% and reduces max FP by 10% for 60 seconds.
 Effect duration can be extended.
 
 Even the smallest of shields can be toughened
@@ -4468,21 +4468,21 @@ considerably with the use of this spell.</text>
 <text id="1331000">Sorcery which improves upon Magic Shield.
 Greatly reinforces left shield with magic.
 
-Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+Boosts shield absorption by 100%, stability by 10% and reduces max FP by 20% for 30 seconds.
 Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1331010">Sorcery which improves upon Great Magic Shield.
 Greatly reinforces left shield with magic.
 
-Boosts shield absorption by 100% and stability by 20% for 120 seconds.
+Boosts shield absorption by 100%, stability by 20% and reduces max FP by 30% for 120 seconds.
 Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible.
+Turns right weapon invisible and reduces max FP by 10%.
 Lasts 120 seconds.
 Effect duration can be extended.
 
@@ -4492,7 +4492,7 @@ is reliant upon the ingenuity of its caster.</text>
 <text id="1340010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible with no focus cost.
+Turns right weapon invisible and reduces max FP by 10% with no focus cost.
 Lasts 120 seconds.
 Effect duration can be extended.
 
@@ -4502,7 +4502,7 @@ is reliant upon the ingenuity of its caster.</text>
 <text id="1341000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns body nigh on invisible, reducing enemy detection via sight by 100%.
+Turns body nigh on invisible and reduces max FP by 30%, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
 Effect duration can be extended.
 
@@ -4513,7 +4513,7 @@ in to environs with astounding camouflage.</text>
 <text id="1341010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns body of self and allies nigh on invisible, reducing enemy detection via sight by 100%.
+Turns body of self and allies nigh on invisible and reduces max FP by 30%, reducing enemy detection via sight by 100%.
 Lasts 60 seconds.
 Effect duration can be extended.
 
@@ -4524,7 +4524,7 @@ in to environs with astounding camouflage.</text>
 <text id="1350000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Casts a light to illuminate surroundings.
+Casts a light to illuminate surroundings and reduces max FP by 10%.
 Lasts 120 seconds.
 Effect duration can be extended.
 
@@ -4535,7 +4535,7 @@ not been developed even at the Dragon School.</text>
 <text id="1350010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Casts a light to illuminate surroundings with no focus cost.
+Casts a light to illuminate surroundings and reduces max FP by 10% with no focus cost.
 Lasts 120 seconds.
 Effect duration can be extended.
 
@@ -4572,7 +4572,7 @@ is a forbidden art.</text>
 <text id="1354000">Sorcery developed by a certain surreptitious
 sorcerer at Vinheim Dragon School.
 
-Masks noises of the caster and prevents fall damage.
+Masks noises of the caster, prevents fall damage and reduces max FP by 30%.
 Reduces enemy detection via sound by 100%.
 Lasts 60 seconds.
 Effect duration can be extended.
@@ -4583,7 +4583,7 @@ for their services. </text>
 <text id="1354010">Sorcery developed by a certain surreptitious
 sorcerer at Vinheim Dragon School.
 
-Masks noises of the caster and allies and prevents fall damage.
+Masks noises of the caster and allies, prevents fall damage and reduces max FP by 30%.
 Reduces enemy detection via sound by 100%.
 Lasts 60 seconds.
 
@@ -4593,7 +4593,7 @@ for their services. </text>
 <text id="1355000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Transforms into something inconspicuous.
+Transforms into something inconspicuous and reduces max FP by 10%.
 
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
@@ -4601,7 +4601,7 @@ sought relief from the solitude of the woods at dusk.</text>
 <text id="1355010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Transforms into something inconspicuous with no focus cost.
+Transforms into something inconspicuous and reduces max FP by 10% with no focus cost.
 
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
@@ -4698,7 +4698,7 @@ an existing sorcery is no exception.</text>
 <text id="1375010">Alteration of Soul Greatsword developed
 by sorcerers of the Undead Legion of Farron.
 
-Can be used with no focus cost.
+Spellbound items appear to react to the damage dealt with this spell.
 
 The Legion has a tendency to emphasize speed
 over power, and this practical alteration of

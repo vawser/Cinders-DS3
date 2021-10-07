@@ -1,8 +1,8 @@
 1199999 ### Sorcery ###
 1200000 Farron Dart
 1200006 Farron Dart [Luck]
-1200010 Refined Farron Dart
-1200016 Refined Farron Dart [Luck]
+1200010 Spellbound Farron Dart
+1200016 Spellbound Farron Dart [Luck]
 1210000 Scattering Soul Orb
 1210006 Scattering Soul Orb [Luck]
 1210010 Repeating Soul Orb
@@ -103,8 +103,8 @@
 1374016 Heavy Soul Greatsword [Luck]
 1375000 Farron Flashsword
 1375006 Farron Flashsword [Luck]
-1375010 Refined Farron Flashsword
-1375016 Refined Farron Flashsword [Luck]
+1375010 Spellbound Flashsword
+1375016 Spellbound Flashsword [Luck]
 1376000 Old Moonlight
 1376006 Old Moonlight [Luck]
 1376010 Heavy Old Moonlight

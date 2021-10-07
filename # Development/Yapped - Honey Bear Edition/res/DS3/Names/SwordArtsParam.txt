@@ -78,7 +78,7 @@
 415 [Ultra Greatsword] Lightning Stomp
 416 [Ultra Greatsword] Raime's Fury
 417 [Ultra Greatsword] Nadalia's Wrath
-418 [Ultra Greatsword] Gale Stomp
+418 [Ultra Greatsword] Wind Wall
 500 [Rapier] Stance
 501 [Rapier] Shield Splitter
 502 [Rapier] Ricard's Lunge and Press
@@ -170,7 +170,8 @@
 1218 [Great Hammer] Dragon Hunter's Wrath
 1219 [Great Hammer] Dragon Hunter's Stance
 1220 [Great Hammer] Dragon Hunter's Rage
-1221 [Great Hammer] Poison Burst
+1221 [Great Hammer] Sinh's Corruption
+1222 [Great Hammer] Righteous Slam
 1300 [Spear] Charge
 1301 [Spear] Falling Bolt
 1302 [Spear] Pacify

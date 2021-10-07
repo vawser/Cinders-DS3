@@ -479,7 +479,7 @@
 <text id="5909">%null%</text>
 <text id="5910">Boost right weapon with rays of Darkmoon</text>
 <text id="1200000">Fire soul dart</text>
-<text id="1200010">Fire soul dart with no focus cost</text>
+<text id="1200010">Fire soul dart</text>
 <text id="1210000">Summon orb that fires soul darts</text>
 <text id="1210010">Summon orb that repeatedly fires soul darts</text>
 <text id="1300000">Fire soul arrow</text>
@@ -529,7 +529,7 @@
 <text id="1374000">Attack with a greatsword formed from souls</text>
 <text id="1374010">Attack with a heavy greatsword formed from souls</text>
 <text id="1375000">Attack with a sword formed from souls</text>
-<text id="1375010">Attack with a sword formed from souls with no focus cost</text>
+<text id="1375010">Attack with a sword formed from souls</text>
 <text id="1620000">Fire torrential volley of souls</text>
 <text id="1620010">Fire torrential volley of souls</text>
 <text id="1651000">Distort light in order to deflect magic</text>

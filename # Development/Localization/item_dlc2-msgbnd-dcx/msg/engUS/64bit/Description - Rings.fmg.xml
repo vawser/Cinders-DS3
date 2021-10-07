@@ -59,35 +59,35 @@
 
 <text id="10000">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 3 FP every second whilst worn.
+Increases FP recovery by 15 whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
 <text id="10001">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 4 FP every second whilst worn.
+Increases FP recovery by 17 whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
 <text id="10002">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 5 FP every second whilst worn.
+Increases FP recovery by 21 whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
 <text id="10003">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 6 FP every second whilst worn.
+Increases FP recovery by 27 whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
 When a member of the Way of Blue faces a dark spirit, the Blades of the Darkmoon, by an ancient accord, help to root out the invader.</text>
 <text id="10004">A silver pendant depicting the Darkmoon and a sword, the crest of the Darkmoon Knights, the original Blue Sentinels. 
 
-Restores 7 FP every second whilst worn.
+Increases FP recovery by 30 whilst worn.
 
 Enables the collection of Proof of a Concord Kept from enemies.
 
@@ -1416,32 +1416,32 @@ The Dragon School held effective sovereignty over Vinheim, with a great many ade
 <text id="20299">%null%</text>
 <text id="20300">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 30%.
+Reduces all spell FP cost by 40% but reduces max HP by 30%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20301">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 26%.
+Reduces all spell FP cost by 40% but reduces max HP by 26%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20302">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 22%.
+Reduces all spell FP cost by 40% but reduces max HP by 22%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20303">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 18%.
+Reduces all spell FP cost by 40% but reduces max HP by 18%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20304">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 14%.
+Reduces all spell FP cost by 40% but reduces max HP by 14%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20305">Leaf-colored crown ring bestowed upon the princess of Oolacile, ancient land of golden sorceries.
 
-Boosts max FP by 25% but reduces max HP by 10%.
+Reduces all spell FP cost by 40% but reduces max HP by 10%.
 
 Oolacile is synonymous for its lost sorceries, of which the xanthous sorcerers are dedicated scholars. This crown ring is a rare artifact of great magic heritage.</text>
 <text id="20306">%null%</text>
@@ -1478,32 +1478,32 @@ In the Cathedral slumber things most terrible, and as such, the deacons require 
 <text id="20329">%null%</text>
 <text id="20330">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 3 FP every second.
+Increases FP recovery by 15.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20331">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 4 FP every second.
+Increases FP recovery by 17.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20332">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 5 FP every second.
+Increases FP recovery by 21.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20333">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 6 FP every second.
+Increases FP recovery by 27.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20334">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 7 FP every second.
+Increases FP recovery by 30.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20335">Ring of the moon deity Gwyndolin, youngest son of Gwyn, the First Lord.
 
-Restores 8 FP every second.
+Increases FP recovery by 50.
 
 Gwyndolin, also known as the Dark Sun, commands the Darkmoon Knights, and bestows this ring upon the best of them.</text>
 <text id="20336">%null%</text>
@@ -2302,7 +2302,7 @@ Aldrich, infamous for his appetite for flesh, apparently had the desire to share
 <text id="20629">%null%</text>
 <text id="20630">A malformed ring left by Aldrich, Saint of the Deep. 
 
-Recovers FP from backstabs and ripostes, restoring 100 FP.
+Grants additional spellbound charges from backstabs and ripostes.
 
 Aldrich, infamous for his appetite for flesh, apparently had the desire to share with others his joy of imbibing the final shudders of life while luxuriating in his victim's screams.</text>
 <text id="20631">%null%</text>
@@ -2458,32 +2458,32 @@ This ring was entrusted to a certain Fire Keeper, but in the end she never met h
 <text id="20709">%null%</text>
 <text id="20710">Gray crystalline ring crafted from shards.
 
-Restores 3 FP while standing still.
+Increases FP recovery by 15 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20711">Gray crystalline ring crafted from shards.
 
-Restores 4 FP while standing still.
+Increases FP recovery by 17 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20712">Gray crystalline ring crafted from shards.
 
-Restores 5 FP while standing still.
+Increases FP recovery by 21 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20713">Gray crystalline ring crafted from shards.
 
-Restores 6 FP while standing still.
+Increases FP recovery by 27 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20714">Gray crystalline ring crafted from shards.
 
-Restores 7 FP while standing still.
+Increases FP recovery by 30 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20715">Gray crystalline ring crafted from shards.
 
-Restores 8 FP while standing still.
+Increases FP recovery by 50 while standing still.
 
 Once a treasure brought before Lothric's Queen, she had it enshrined in the Cemetery of Untended Graves, so that one day an Unkindled might profit from its use.</text>
 <text id="20716">%null%</text>
@@ -2624,32 +2624,32 @@ Knights who peer into the black orb are lured into battles of death, transformed
 <text id="20789">%null%</text>
 <text id="20790">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 5% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20791">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 6% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20792">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 7% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20793">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 8% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20794">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 9% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20795">Bewitched ring that Pontiff Sulyvahn bestowed upon his knights.
 
-Recovers FP with successive attacks, restoring 10% FP per attack once triggered.
+Grants additional spellbound charges with successive attacks.
 
 Knights who peer into the black orb are lured into battles of death, transformed into frenzied beasts. No wonder the Pontiff only provides these rings to those dispatched to foreign lands.</text>
 <text id="20796">%null%</text>
@@ -2748,32 +2748,32 @@ A healthy body is imperative for a healthy mind.</text>
 <text id="30009">%null%</text>
 <text id="30010">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 50 FP.
+Boosts potency of all spells by 7.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30011">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 60 FP.
+Boosts potency of all spells by 8.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30012">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 70 FP.
+Boosts potency of all spells by 9.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30013">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 80 FP.
+Boosts potency of all spells by 10.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30014">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 90 FP.
+Boosts potency of all spells by 11.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30015">Relic of a long forgotten sorcerer. Those that fall in the presence of this relic are  subsumed within.
 
-Absorb FP from fallen enemies, restoring 100 FP.
+Boosts potency of all spells by 12.5%.
 
 Considered heretical, this relic would be destroyed by any good-natured sorcerer.</text>
 <text id="30016">%null%</text>
