@@ -106,14 +106,11 @@ Finish following weapons:
 #------------------------------
 # TODO
 #------------------------------
-Adjust the broken questlines so they use a custom method of progression
-Add the new chrs as basic enemies in the world
-Add companion attunement, allow the choice out of 3 in each map, changable at Ellie
-
-Add interactions in maps
-
+# Harmonixer
 Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
 Change healing spells to heal when holding the cast
 Change the FP cost of weapon arts and firearms
 Change companion consumables
 
+# Vawser
+Adjust the broken questlines so they use a custom method of progression
