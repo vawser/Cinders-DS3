@@ -420,7 +420,7 @@
 #--------------------------------
 - FP Cost: 200
 - INT Req: 60
-- Slot Use: 1
+- Slot Use: 2
 - Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces max HP by 50%.
 
 #---- Lingering Unleash Magic
@@ -432,16 +432,18 @@
 #--------------------------------
 # Flame Fan
 #--------------------------------
-- FP Cost: 10
+- FP Cost: 25
+- Slot Use: 1
 - Fire Damage: 100 {300}
 
-#---- Refined Flame Fan
-- FP consumption reduced to 0.
+#---- Spellbound Flame Fan
+- Gives spellbound charges on hit.
 
 #--------------------------------
 # Fireball
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 70
+- Slot Use: 1
 - Fire Damage: 100 {300} [50 {150}]
 
 #---- Incendiary Fireball
@@ -450,8 +452,9 @@
 #--------------------------------
 # Fire Orb
 #--------------------------------
-- FP Cost: 30
-- Fire Damage: 160 {480} [50 {150}]
+- FP Cost: 80
+- Slot Use: 1
+- Fire Damage: 160 {480} [80 {240}]
 
 #---- Weakening Fire Orb
 - Impact reduces the Fire absorption of the target by 10% for 10 seconds.
@@ -459,7 +462,8 @@
 #--------------------------------
 # Firestorm
 #--------------------------------
-- FP Cost: 5 (10)
+- FP Cost: 5 (5)
+- Slot Use: 1
 - Fire Damage: 180 {520} {*5, shared}
 
 #---- Repeating Firestorm
@@ -468,16 +472,18 @@
 #--------------------------------
 # Fire Surge
 #--------------------------------
-- FP Cost: 5
-- Fire Damage: 40 {120}
+- FP Cost: 15
+- Slot Use: 1
+- Fire Damage: 50 {150}
 
-#---- Refined Fire Surge
-- FP consumption reduced to 0.
+#---- Spellbound Fire Surge
+- Gives spellbound charges on hit.
 
 #--------------------------------
 # Great Combustion
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 60
+- Slot Use: 1
 - Fire Damage: 150 {450} [50 {150}]
 
 #---- Incendiary Combustion
@@ -486,9 +492,9 @@
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 120
 - Slot Use: 2
-- Fire Damage: 240 {720} [100 {300}] [100 {300}] 
+- Fire Damage: 220 {660} [90 {270}] [90 {270}] 
 
 #---- Homing Chaos Fire Orb
 - Increases homing to 40 degrees.
@@ -506,8 +512,9 @@
 #--------------------------------
 # Fire Whip
 #--------------------------------
-- FP Cost: 4
-- Fire Damage: 30 {90} {*20, individual}
+- FP Cost: 9
+- Slot Use: 2
+- Fire Damage: 40 {120} {*20, individual}
 
 #---- Incendiary Fire Whip
 - Deals 1 damage per hit every second for 10 seconds. Stacks.
@@ -515,8 +522,9 @@
 #--------------------------------
 # Profaned Flame
 #--------------------------------
-- FP Cost: 35
-- Fire Damage: 220 {660}
+- FP Cost: 190
+- Slot Use: 2
+- Fire Damage: 300 {900}
 
 #---- Distant Profaned Flame
 - The cast can now reach unlimited range.
@@ -524,9 +532,9 @@
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 95
 - Slot Use: 2
-- Fire Damage: 300 {900} [100 {300}] [100 {300}]
+- Fire Damage: 250 {750} [50 {150}] [50 {150}]
 
 #---- Chaos Vortex
 - Changes the cast animation to profaned flame and the orb becomes stationary for 5 seconds, adding damage per second. Fire damage 50 {150}.
@@ -534,18 +542,18 @@
 #--------------------------------
 # Cataclysm
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - Slot Use: 2
-- Fire Damage: 100 {300} {*10, shared}
+- Fire Damage: 40 {120} {*10, shared}
 
 #---- Great Cataclysm
-- Releases a single giant fire orb. Fire damage: orb 400 {1200} [300 {900}].
+- Releases a single giant fire orb. Fire damage: orb 300 {900} [200 {600}].
 
 #--------------------------------
 # Floating Chaos
 #--------------------------------
-- FP Cost: 30
-- Slot Use: 2
+- FP Cost: 80
+- Slot Use: 1
 - Fire Damage: 25 {75} {*25, individual}
 
 #---- Lingering Floating Chaos
@@ -554,7 +562,8 @@
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 80
+- Slot Use: 1
 - Fire Damage: 40 {120} {*5, shared per added wave)
 
 #---- Incendiary Bursting Fireball
@@ -563,8 +572,8 @@
 #--------------------------------
 # Boulder Heave
 #--------------------------------
-- FP Cost: 30
-- Slot Use: 2
+- FP Cost: 95
+- Slot Use: 1
 - Physical Damage: 200 {600} [100 {300}]
 
 #---- Swift Boulder Heave
@@ -573,17 +582,19 @@
 #--------------------------------
 # Sacred Flame
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 120
+- Slot Use: 1
 - Fire Damage: based on spell tool.
 
-#---- Refined Sacred Flame
-- FP consumption reduced to 0.
+#---- Spellbound Sacred Flame
+- Gives spellbound charges on hit.
 
 #--------------------------------
 # Seething Chaos
 #--------------------------------
-- FP Cost: 25
-- Fire Damage: 150 {450} [300 {900}] 
+- FP Cost: 140
+- Slot Use: 1
+- Fire Damage: 135 {405} [275 {825}] 
 
 #---- Great Seething Chaos
 - Increases Poise Damage to 100 and the explosion range.
@@ -591,9 +602,9 @@
 #--------------------------------
 # Heave Earth
 #--------------------------------
-- FP Cost: 25
-- Slot Use: 1
-- Physical Damage: 200 {600}
+- FP Cost: 140
+- Slot Use: 2
+- Physical Damage: 250 {750}
 
 #---- Homing Heave Earth
 - Increases homing (similar to Black Serpent).
@@ -601,8 +612,8 @@
 #--------------------------------
 # Earthquake
 #--------------------------------
-- FP Cost: 5 (10)
-- Slot Use: 2
+- FP Cost: 5 (5)
+- Slot Use: 1
 - Physical Damage: 180 {520} {*5, individual}
 
 #---- Quickened Earthquake
@@ -611,7 +622,8 @@
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 70
+- Slot Use: 1
 - Fire Damage: 100 {300}
 
 #---- Refined Lingering Chaos
@@ -620,9 +632,9 @@
 #--------------------------------
 # Earthfall
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 200
 - Slot Use: 2
-- Physical Damage: 100 {300} {*10, shared}
+- Physical Damage: 40 {120} {*10, shared}
 
 #---- Summon Earthfall
 - Changes cast animation to Fire Surge, reduces damage to 80 {160} per bullet, releases 4 boulders every half second.
@@ -630,7 +642,8 @@
 #--------------------------------
 # Poison Mist
 #--------------------------------
-- FP Cost: 20
+- FP Cost: 100
+- Slot Use: 1
 - Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
 
 #---- Lingering Poison Mist
@@ -639,7 +652,8 @@
 #--------------------------------
 # Toxic Mist
 #--------------------------------
-- FP Cost: 25
+- FP Cost: 150
+- Slot Use: 1
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
 
 #---- Lingering Toxic Mist
@@ -648,7 +662,8 @@
 #--------------------------------
 # Acid Surge
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 200
+- Slot Use: 1
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.1% HP per tick. Lasts for 6 seconds.
 
 #---- Lingering Acid Surge
@@ -657,7 +672,8 @@
 #--------------------------------
 # Immolation
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 60
+- Slot Use: 1
 - Fire Damage: 50 per tick
 - Base Effect: consumes 25% of player's HP, causes a fire trail to appear in their wake for 15 seconds, dealing Fire damage to any enemy that touches it.
 
@@ -667,18 +683,18 @@
 #--------------------------------
 # Fecal Explusion
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 80
 - Slot Use: 1
 - Physical Damage: 20 {60}
 - Base Effect: expel 5 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
 
 #---- Great Fecal Explusion
-- Increases damage to 40, spreads more the projectiles and increases the radius of the burst.
+- Increases damage to 40, spreads more the projectiles and increases the radius of the burst. Increases atunement slot requirement to 2.
 
 #--------------------------------
 # Chaos Beam
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 140
 - Slot Use: 2
 - Fire Damage: 40 {120} per tick
 - Base Effect: shoots chaos beam.
@@ -692,18 +708,19 @@
 #--------------------------------
 # Carthus Beacon
 #--------------------------------
-- FP Cost: 40
-- Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
+- FP Cost: 200
+- Slot Use: 1
+- Base Effect: boosts attack whilst attacking persists and reduces max FP by 10%. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
 
 #---- Lingering Carthus Beacon
-- Increases duration to 60 seconds.
+- Increases duration to 60 seconds and reduces max FP by 20%.
 
 #--------------------------------
 # Warmth
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 300
 - Slot Use: 2
-- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
+- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second and reduces max FP by 30%. Lasts 60 seconds.
 
 #---- Fond Warmth
 - Will now only affect the caster and allies.
@@ -711,8 +728,9 @@
 #--------------------------------
 # Profuse Sweat
 #--------------------------------
-- FP Cost: 25
-- Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
+- FP Cost: 100
+- Slot Use: 1
+- Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 and reduces max FP by 10% for 60 seconds.
 
 #---- Refined Profuse Sweat
 - FP consumption reduced to 0.
@@ -720,36 +738,37 @@
 #--------------------------------
 # Iron Flesh
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 200
 - Slot Use: 2
-- Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 17 seconds.
+- Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Reduces max FP by 10%. Lasts 17 seconds.
 
 #---- Lingering Iron Flesh
-- Increases duration to 30 seconds.
+- Reduces max FP by 20% and increases duration to 30 seconds.
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
-- FP Cost: 30
-- Base Effect: Increases Fire absorption by 30% for 30 seconds.
+- FP Cost: 150
+- Slot Use: 1
+- Base Effect: Increases Fire absorption by 30% and reduces max FP by 10% for 30 seconds.
 
 #---- Great Flash Sweat
-- Increases Fire absorption by 50% for 30 seconds.
+- Increases Fire absorption by 50% and reduces max FP by 20% for 30 seconds.
 
 #--------------------------------
 # Carthus Flame Arc
 #--------------------------------
-- FP Cost: 50
-- Slot Use: 3
-- Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
+- FP Cost: 300
+- Slot Use: 2
+- Base Effect: adds 75 Fire damage to main weapon and reduces max FP by 30% for 60 seconds.
 
 #---- Supreme Carthus Flame Arc
-- Adds 100 Fire damage to main weapon and reduces Stamina Consumption by 20%.
+- Adds 100 Fire damage to main weapon, reduces Stamina Consumption by 20% and reduces max FP by 40%.
 
 #--------------------------------
 # Rapport
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 200
 - Slot Use: 2
 - Base Effect: converts target enemy to player team for 30 seconds.
 
@@ -759,22 +778,22 @@
 #--------------------------------
 # Power Within
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 250
 - Slot Use: 2
-- Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
+- Base Effect: increases damage by 20% and stamina recovery by 30 and reduces max FP by 20% for 30 seconds. Lose 1% HP per second whilst active.
 
 #---- Lingering Power Within
-- Increases duration to 60 seconds.
+- Reduces max FP by 30% and increases duration to 60 seconds.
 
 #--------------------------------
 # Rockflesh
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 250
 - Slot Use: 2
-- Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 30 seconds.
+- Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement and reduces max FP by 20% for 30 seconds.
 
 #---- Lingering Rockflesh
-- Increases duration to 60 seconds.
+- Increases duration to 60 seconds and reduces max FP by 30%.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive

@@ -3449,7 +3449,6 @@
 160201080 Lothric Knight Long Spear
 160201090 Titanite Catch Pole
 160201100 Executioner's Greatsword
-160201101 Executioner's Greatsword [DeathOccurance] (Old)
 160201110 Smoldering Talisman
 160201120 Beast Claw
 160201140 Handmaid's Ladle
@@ -3878,6 +3877,10 @@
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500460 [Sorcery] Spellbound Flashsword
 160500470 [Sorcery] Spellbound Farron Dart
+160500480 [Pyromancy] Spellbound Flame Fan
+160500490 [Pyromancy] Spellbound Lingering Chaos
+160500500 [Pyromancy] Spellbound Fire Surge
+160500510 [Pyromancy] Spellbound Sacred Flame
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4436,12 +4439,6 @@
 160602603 Spirit Amethyst+3
 160602604 Spirit Amethyst+4
 160602605 Spirit Amethyst+5
-160602610 Spirit Amethyst [DeathOccurance]
-160602611 Spirit Amethyst+1 [DeathOccurance]
-160602612 Spirit Amethyst+2 [DeathOccurance]
-160602613 Spirit Amethyst+3 [DeathOccurance]
-160602614 Spirit Amethyst+4 [DeathOccurance]
-160602615 Spirit Amethyst+5 [DeathOccurance]
 160602700 Pontiff's Right Eye
 160602701 Pontiff's Right Eye+1
 160602702 Pontiff's Right Eye+2

@@ -1173,7 +1173,7 @@
 2403000 Firestorm
 2403010 Repeating Firestorm
 2405000 Fire Surge
-2405010 Refined Fire Surge
+2405010 Spellbound Fire Surge
 2411000 Great Combustion
 2411010 Incendiary Combustion
 2420000 Poison Mist
@@ -1205,7 +1205,7 @@
 2457000 Floating Chaos
 2457010 Lingering Floating Chaos
 2458000 Flame Fan
-2458010 Refined Flame Fan
+2458010 Spellbound Flame Fan
 2470000 Warmth
 2470010 Fond Warmth
 2562000 Profuse Sweat
@@ -1215,7 +1215,7 @@
 2630000 Boulder Heave
 2630010 Swift Boulder Heave
 2640000 Sacred Flame
-2640010 Refined Sacred Flame
+2640010 Spellbound Sacred Flame
 2650000 Carthus Beacon
 2650010 Lingering Carthus Beacon
 2660000 Seething Chaos

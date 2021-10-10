@@ -3339,11 +3339,11 @@ Fire: increases max stamina by 20%.
 Lightning: increases Poise by 20%.
 Dark: absorb 15 HP on hit.
 Lucky: Increases Item Discovery by 25 and soul absorption by 10%.
-Enchanted: increases FP recovery by 15.
+Enchanted: increases FP recovery by 13.
 Holy: restores an additional 3 HP per second.
 Sharp: consecutive attacks boost damage, up to 15%.
 Blunt: increases max equipment load by 10%.</text>
-<text id="99004001">Clarity: increases FP recovery by 15.
+<text id="99004001">Clarity: increases FP recovery by 13.
 Rejuvenation: grants an additional 15 stamina recovery.
 Restoration: restores an additional 3 HP per second.
 Respite: increases max equipment load by 10%.
@@ -3353,7 +3353,7 @@ Magic: increases Magic absorption by 5%.
 Fire: increases Fire absorption by 5%.
 Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
-<text id="99004002">Pulsating: increases FP recovery by 15.
+<text id="99004002">Pulsating: increases FP recovery by 13.
 Vibrating: restores an additional 5 HP per second.
 Throbbing: reduces FP cost of all spells by 20%.
 Quivering: boosts cast speed by 25.
@@ -3885,14 +3885,14 @@ to commune with the fallen knight.</text>
 <text id="99044004">Distant Profaned Flame</text>
 <text id="99044005">Chaos Vortex</text>
 <text id="99044006">Great Seething Chaos</text>
-<text id="99044007">Refined Flame Fan</text>
+<text id="99044007">Spellbound Flame Fan</text>
 <text id="99044008">Incendiary Combustion</text>
-<text id="99044009">Refined Fire Surge</text>
+<text id="99044009">Spellbound Fire Surge</text>
 <text id="99044010">Incendiary Fire Whip</text>
-<text id="99044011">Refined Sacred Flame</text>
+<text id="99044011">Spellbound Sacred Flame</text>
 <text id="99044012">Repeating Firestorm</text>
 <text id="99044013">Repeating Chaos Storm</text>
-<text id="99044014">Refined Lingering Chaos</text>
+<text id="99044014">Spellbound Lingering Chaos</text>
 <text id="99044015">Lingering Floating Chaos</text>
 <text id="99044016">Incinerating Chaos Beam</text>
 <text id="99044017">Great Cataclysm</text>
@@ -3957,14 +3957,14 @@ to commune with the fallen knight.</text>
 <text id="99046004">Distant Profaned Flame crafted</text>
 <text id="99046005">Chaos Vortex crafted</text>
 <text id="99046006">Great Seething Chaos crafted</text>
-<text id="99046007">Refined Flame Fan crafted</text>
+<text id="99046007">Spellbound Flame Fan crafted</text>
 <text id="99046008">Incendiary Combustion crafted</text>
-<text id="99046009">Refined Fire Surge crafted</text>
+<text id="99046009">Spellbound Fire Surge crafted</text>
 <text id="99046010">Incendiary Fire Whip crafted</text>
-<text id="99046011">Refined Sacred Flame crafted</text>
+<text id="99046011">Spellbound Sacred Flame crafted</text>
 <text id="99046012">Repeating Firestorm crafted</text>
 <text id="99046013">Repeating Chaos Storm crafted</text>
-<text id="99046014">Refined Lingering Chaos crafted</text>
+<text id="99046014">Spellbound Lingering Chaos crafted</text>
 <text id="99046015">Lingering Floating Chaos crafted</text>
 <text id="99046016">Incinerating Chaos Beam crafted</text>
 <text id="99046017">Great Cataclysm crafted</text>

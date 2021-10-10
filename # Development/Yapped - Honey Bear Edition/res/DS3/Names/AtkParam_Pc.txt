@@ -4987,9 +4987,9 @@
 5304751 Sellsword Twinblades
 5304760 Sellsword Twinblades
 5304761 Sellsword Twinblades
-5305507 Demon's Scar
-5305508 Demon's Scar
-5305509 Demon's Scar
+5305507 Demon's Scar - Sacred Flame - Initial Tick
+5305508 Demon's Scar - Sacred Flame - Tick
+5305509 Demon's Scar - Sacred Flame - Burst
 5305700 Demon's Scar
 5305710 Demon's Scar
 5305720 Demon's Scar
@@ -5119,9 +5119,6 @@
 12411000 [Pyromancy] Great Combustion
 12411100 [Pyromancy] Great Combustion [HitBullet]
 12411200 [Pyromancy] Great Combustion [HitBullet]
-12411300 [Pyromancy] Great Combustion - Ascended
-12411301 [Pyromancy] Great Combustion [HitBullet] - Ascended
-12411302 [Pyromancy] Great Combustion [HitBullet] - Ascended
 12420000 [Pyromancy] Poison Mist
 12421000 [Pyromancy] Toxic Mist
 12422000 [Pyromancy] Acid Surge

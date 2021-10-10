@@ -1445,6 +1445,21 @@
 3140770 [Ancient Wyvern] ?
 3160700 [Dragonslayer Armour] Wind Shockwave
 3161700 [Cathedral Guardian] Wrath of the Gods
+3161710 [Cathedral Guardian] Trail of Wrath
+3161711 [Cathedral Guardian] Trail of Wrath - Explosion
+3161712 [Cathedral Guardian] Trail of Wrath [Hit]
+3161713 [Cathedral Guardian] Trail of Wrath [Hit]
+3161714 [Cathedral Guardian] Trail of Wrath [Hit]
+3161715 [Cathedral Guardian] Trail of Wrath [Hit]
+3161716 [Cathedral Guardian] Trail of Wrath [Hit]
+3161717 [Cathedral Guardian] Trail of Wrath [Hit]
+3161718 [Cathedral Guardian] Trail of Wrath [Hit]
+3161719 [Cathedral Guardian] Trail of Wrath [Hit]
+3161720 [Cathedral Guardian] Trail of Wrath [Hit]
+3161721 [Cathedral Guardian] Trail of Wrath [Hit]
+3161722 [Cathedral Guardian] Trail of Wrath [Hit]
+3161723 [Cathedral Guardian] Trail of Wrath [Hit]
+3161724 [Cathedral Guardian] Trail of Wrath [Hit]
 3210020 [Poisonhorn Bug] Toxic Mist
 3220040 [Rock Lizard] Flame Breath
 3230010 [?] ?
@@ -2673,6 +2688,7 @@
 12403150 [Pyromancy] Repeating Firestorm
 12403160 [Pyromancy] Repeating Firestorm [Hit]
 12405000 [Pyromancy] Fire Surge
+12405100 [Pyromancy] Spellbound Fire Surge
 12407000 [Pyromancy] Black Serpent
 12407010 [Pyromancy] Black Serpent [Hit]
 12407100 [Pyromancy] Black Serpent [Hit]
@@ -2765,6 +2781,8 @@
 12457410 [Pyromancy] Lingering Floating Chaos [Bullet]
 12458000 [Pyromancy] Flame Fan
 12458010 [Pyromancy] Flame Fan
+12458100 [Pyromancy] Spellbound Flame Fan
+12458110 [Pyromancy] Spellbound Flame Fan
 12470000 [Pyromancy] Warmth
 12470100 [Pyromancy] Fond Warmth
 12600000 [Pyromancy] Dark Orb [unused]
@@ -3509,6 +3527,7 @@
 108360150 [Sorcery] Repeating Blizzard
 108360160 [Sorcery] Repeating Blizzard [Hit]
 108400000 [Pyromancy] Lingering Chaos
+108400100 [Pyromancy] Spellbound Lingering Chaos
 108401000 [Sorcery] Climax
 108401100 [Sorcery] Explosive Climax
 108401110 [Sorcery] Explosive Climax [Hit]
@@ -3598,6 +3617,10 @@
 108406300 [Pyromancy] Earthquake [Hit]
 108406500 [Pyromancy] Earthquake
 108406600 [Pyromancy] Earthquake [Hit]
+108406700 [Pyromancy] Quickened Earthquake
+108406710 [Pyromancy] Quickened Earthquake [Hit]
+108406720 [Pyromancy] Quickened Earthquake [Hit]
+108406730 [Pyromancy] Quickened Earthquake [Hit]
 108800000 [Sorcery] Orbs of Judgment
 108800010 [Sorcery] Orbs of Judgment [Hit]
 108801000 [Sorcery] Swift Orbs of Judgment
@@ -3615,9 +3638,11 @@
 109542000 [Pyromancy] Cataclysm - Random
 109542010 [Pyromancy] Cataclysm - Random [Emitter]
 109542020 [Pyromancy] Cataclysm - Random [Hit]
+109542030 [Pyromancy] Cataclysm - Random [Hit]
 109542100 [Pyromancy] Cataclysm - Forward
 109542110 [Pyromancy] Cataclysm - Forward [Emitter]
 109542120 [Pyromancy] Cataclysm - Forward [Hit]
+109542130 [Pyromancy] Cataclysm - Forward [Hit]
 109542200 [Pyromancy] Great Cataclysm - Forward
 109542210 [Pyromancy] Great Cataclysm - Forward [Emitter]
 109542220 [Pyromancy] Great Cataclysm - Down [Hit]
@@ -3625,9 +3650,11 @@
 109543000 [Pyromancy] Earthfall - Random
 109543010 [Pyromancy] Earthfall - Random [Emitter]
 109543020 [Pyromancy] Earthfall - Random [Hit]
+109543030 [Pyromancy] Earthfall - Random [Hit]
 109543100 [Pyromancy] Earthfall - Forward
 109543110 [Pyromancy] Earthfall - Forward [Emitter]
 109543120 [Pyromancy] Earthfall - Forward [Hit]
+109543130 [Pyromancy] Earthfall - Forward [Hit]
 109543200 [Pyromancy] Summon Earthfall - Spawn
 109543210 [Pyromancy] Summon Earthfall
 109543220 [Pyromancy] Summon Earthfall [Hit]
