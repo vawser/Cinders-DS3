@@ -72,6 +72,9 @@ Finish following weapons:
  - Changed the Cathedral Guardian's arena - it is now the path and entrance hall for the Cathedral.
  - The Cathedral Guardian is now optional, and can be skipped if you do not wish to fight him.
 
+- Princess Yngvil:
+ - Reduced the frequency of the 3 location frost ring attack.
+
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
 - Removed the Stamina cost of all spells.
@@ -112,6 +115,9 @@ Finish following weapons:
 - Cathedral of the Deep:
  - Added 3 Ravenous Crystal Lizards and 3 Infested Corpses in the area used by the Cathedral Guardian previously.
 
+# Merchants:
+- Marvelous Chester:
+ - Now sells the Manikin Claws.
  
 #------------------------------
 # TODO
@@ -124,4 +130,3 @@ Change companion consumables
 
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
-
