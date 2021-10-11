@@ -1284,7 +1284,7 @@
 <text id="2403010">Erect multiple fire pillars in vicinity</text>
 <text id="2404000">%null%</text>
 <text id="2405000">Emit a constant stream of fire</text>
-<text id="2405010">Emit a constant stream of fire with no focus cost</text>
+<text id="2405010">Emit a constant stream of fire</text>
 <text id="2411000">Create powerful, giant flame in hand</text>
 <text id="2411010">Create powerful, giant indenciary flame in hand</text>
 <text id="2415000">%null%</text>
@@ -1325,7 +1325,7 @@
 <text id="2630000">Spew a boulder from one's mouth</text>
 <text id="2630010">Spew a boulder from one's mouth</text>
 <text id="2640000">Flame burrows inside foes and ignites</text>
-<text id="2640010">Flame burrows inside foes and ignites with no focus cost</text>
+<text id="2640010">Flame burrows inside foes and ignites</text>
 <text id="2650000">Damage increases with consecutive attacks</text>
 <text id="2650010">Damage increases with consecutive attacks</text>
 <text id="2701000">Throw a lingering chaos orb that explodes on contact</text>

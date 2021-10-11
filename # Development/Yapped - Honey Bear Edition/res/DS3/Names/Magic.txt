@@ -164,8 +164,8 @@
 2403016 Repeating Firestorm [Luck]
 2405000 Fire Surge
 2405006 Fire Surge [Luck]
-2405010 Refined Fire Surge
-2405016 Refined Fire Surge [Luck]
+2405010 Spellbound Fire Surge
+2405016 Spellbound Fire Surge [Luck]
 2411000 Great Combustion
 2411006 Great Combustion [Luck]
 2411010 Incendiary Combustion
@@ -228,8 +228,8 @@
 2457016 Lingering Floating Chaos [Luck]
 2458000 Flame Fan
 2458006 Flame Fan [Luck]
-2458010 Refined Flame Fan
-2458016 Refined Flame Fan [Luck]
+2458010 Spellbound Flame Fan
+2458016 Spellbound Flame Fan [Luck]
 2470000 Warmth
 2470006 Warmth [Luck]
 2470010 Fond Warmth
@@ -248,8 +248,8 @@
 2630016 Swift Boulder Heave [Luck]
 2640000 Sacred Flame
 2640006 Sacred Flame [Luck]
-2640010 Refined Sacred Flame
-2640016 Refined Sacred Flame [Luck]
+2640010 Spellbound Sacred Flame
+2640016 Spellbound Sacred Flame [Luck]
 2650000 Carthus Beacon
 2650006 Carthus Beacon [Luck]
 2650010 Lingering Carthus Beacon
@@ -260,8 +260,8 @@
 2660016 Great Seething Chaos [Luck]
 2701000 Lingering Chaos
 2701006 Lingering Chaos [Luck]
-2701010 Refined Lingering Chaos
-2701016 Refined Lingering Chaos [Luck]
+2701010 Spellbound Lingering Chaos
+2701016 Spellbound Lingering Chaos [Luck]
 2702000 Cataclysm
 2702006 Cataclysm [Luck]
 2702010 Great Cataclysm

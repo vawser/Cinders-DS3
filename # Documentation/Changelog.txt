@@ -64,6 +64,10 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Bosses:
+- Marauder:
+ - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
+
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
 - Removed the Stamina cost of all spells.
@@ -79,9 +83,11 @@ Finish following weapons:
 - Most spell buffs now reduce max FP for their duration.
 - Reduced the duration of the Poison/Toxic Mist effects to 30 seconds.
 - Reduced the duration of Fortified Rapport to 30 seconds and increased the absorption buff to 75%.
+- Slightly changed Fire Surge, Cataclysm, Quickened Earthquake and Earthfall.
 
 # Weapons:
 - Changed the effects of the Handmaid's Dagger, Executioner's Greatsword, Sage's Stiletto and Blueblood Sword to reduce spell FP cost by 10%.
+- Reduced the base damage of the Fool's Catalyst.
 
 # Infusions:
 - Weapon magic infusion now gains additional spellbound charges on hit.

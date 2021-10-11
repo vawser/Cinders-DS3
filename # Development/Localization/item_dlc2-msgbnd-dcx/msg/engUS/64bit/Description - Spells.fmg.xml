@@ -1049,7 +1049,8 @@ Emits a constant stream of fire.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
 <text id="2405010">Pyromancy of Cornyx of the Great Swamp.
-Emits a constant stream of fire with no focus cost.
+Emits a constant stream of fire.
+Spellbound items appear to react to the damage dealt with this spell.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
 <text id="2411000">Pyromancy which improves upon Combustion.
@@ -1131,7 +1132,7 @@ and would not shun the use of such pyromancies.
 For where is the honor in death and scoured bones?</text>
 <text id="2430000">Pyromancy that internalizes flame.
 Iron flesh boosts physical absorptions by 75%, 
-but reduces elemental absorption by 100%.
+but reduces elemental absorption by 100% and max FP by 10%.
 
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
@@ -1142,7 +1143,7 @@ Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
 <text id="2430010">Pyromancy that internalizes flame.
 Iron flesh boosts physical absorptions by 75%, 
-but reduces elemental absorption by 100%.
+but reduces elemental absorption by 100% and max FP by 20%.
 
 Slows movement, but grants 65 attack deflection 
 and prevents stagger from most attacks.
@@ -1154,7 +1155,7 @@ resulting in its obsolescence in the Great Swamp.</text>
 <text id="2431000">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
-Intense sweating increases Fire absorption by 30% for 30 seconds.
+Intense sweating increases Fire absorption by 30% and reduces max FP by 10% for 30 seconds.
 Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
@@ -1162,7 +1163,7 @@ likely forming the foundation for many subsequent spells.</text>
 <text id="2431010">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
-Intense sweating increases Fire absorption by 50% for 30 seconds.
+Intense sweating increases Fire absorption by 50% and reduces max FP by 20% for 30 seconds.
 Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
@@ -1170,7 +1171,7 @@ likely forming the foundation for many subsequent spells.</text>
 <text id="2435000">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 75 for 60 seconds.
+Increases Fire damage by 75 and reduces max FP by 30% for 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -1178,7 +1179,7 @@ Warriors of Carthus favored supplemental pyromancies such as this, which was use
 <text id="2435010">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 100 and reduces Stamina Consumption by 20% for 60 seconds.
+Increases Fire damage by 100, reduces Stamina Consumption by 20% and reduces max FP by 40% for 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -1201,7 +1202,7 @@ The living are lured by flame, and this tendency is
 elemental to the art of pyromancy.</text>
 <text id="2440000">Forbidden pyromancy amongst those who internalize flame.
 
-Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
+Boosts damage by 20%, stamina recovery by 30 and reduces max FP by 20%, but deals 1% of max health in damage every second.
 Lasts 30 seconds.
 Effect duration can be extended.
 
@@ -1210,7 +1211,7 @@ However, this fear subsides once it is
 accepted as a substitute for strength.</text>
 <text id="2440010">Forbidden pyromancy amongst those who internalize flame.
 
-Boosts damage by 20% and stamina recovery by 30, but deals 1% of max health in damage every second.
+Boosts damage by 20%, stamina recovery by 30 and reduces max FP by 30%, but deals 1% of max health in damage every second.
 Lasts 60 seconds.
 Effect duration can be extended.
 
@@ -1299,7 +1300,7 @@ Hurls chaos flame that scorches vicinity.
 Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day.</text>
 <text id="2470000">Peculiar pyromancy of the Mound-makers.
 
-Creates a gentle flame that restores 30 HP on touch, friendly or not.
+Creates a gentle flame that restores 30 HP and reduces max FP by 30% on touch, friendly or not.
 Lasts 60 seconds.
 
 They feared separation from the gods
@@ -1307,7 +1308,7 @@ and sought a familial bond, perhaps leading to
 the creation of this flame of harmony.</text>
 <text id="2470010">Peculiar pyromancy of the Mound-makers.
 
-Creates a gentle flame that restores 30 HP on touch to self and allies.
+Creates a gentle flame that restores 30 HP and reduces max FP by 30% on touch to self and allies.
 Lasts 60 seconds.
 
 They feared separation from the gods
@@ -1317,7 +1318,7 @@ the creation of this flame of harmony.</text>
 <text id="2562000">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
-Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200 and reduces max FP by 10%.
 Lasts 60 seconds.
 Effect duration can be extended.
 
@@ -1325,7 +1326,7 @@ The yellowish sweat cures all kinds of ailments.</text>
 <text id="2562010">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
-Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200 and reduces max FP by 10%.
 Lasts 60 seconds.
 Effect duration can be extended.
 Can be used with no focus cost.
@@ -1364,6 +1365,7 @@ Spews a boulder from one's mouth.
 The boulder is heavy, but shatters easily.</text>
 <text id="2640000">Pyromancy taught amongst savages.
 Flame burrows inside foes and ignites.
+Damage is dependant on the attack rating of the tool used.
 
 Originally used in a ceremony for cleansing sacrificial impurities, thereby lending the spell its name.
 
@@ -1372,8 +1374,8 @@ quite fitting for the savage pyromancers
 who consider themselves servants of the divine.</text>
 <text id="2640010">Pyromancy taught amongst savages.
 Flame burrows inside foes and ignites.
-
-Can be used with no focus cost.
+Damage is dependant on the attack rating of the tool used.
+Spellbound items appear to react to this spell.
 
 Originally used in a ceremony for cleansing sacrificial impurities, thereby lending the spell its name.
 
@@ -1383,7 +1385,7 @@ who consider themselves servants of the divine.</text>
 <text id="2650000">The most obscure pyromancy developed
 in Carthus of the Sands.
 
-Boosts damage by 15%, growing to 30% with consecutive attacks.
+Boosts damage by 15%, growing to 30% with consecutive attacks. Reduces max FP by 10%.
 Lasts 30 seconds.
 Effect duration can be extended.
 
@@ -1393,7 +1395,7 @@ its beacon has been used as a signal for war.</text>
 <text id="2650010">The most obscure pyromancy developed
 in Carthus of the Sands.
 
-Boosts damage by 15%, growing to 30% with consecutive attacks.
+Boosts damage by 15%, growing to 30% with consecutive attacks. Reduces max FP by 20%.
 Lasts 60 seconds.
 Effect duration can be extended.
 
@@ -1457,7 +1459,7 @@ The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2713000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call forth rock, boosting absorption by 30%.
-Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
+Slows movement and reduces max FP by 20%, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 30 seconds.
 Effect duration can be extended.
 
@@ -1465,7 +1467,7 @@ Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2713010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call forth rock, boosting absorption by 30%.
-Slows movement, but grants 80 attack deflection and prevents stagger from all attacks.
+Slows movement and reduces max FP by 30%, but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 60 seconds.
 Effect duration can be extended.
 
