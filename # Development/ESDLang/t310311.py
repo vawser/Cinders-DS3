@@ -156,6 +156,8 @@ def t310311_x9():
         """ State 9 """
         if GetDistanceToPlayer() < 10:
             """ State 2 """
+            
+            # Hit 1
             if not GetEventStatus(73100395):
                 """ State 5,17 """
                 # talk:31003000: 
@@ -172,6 +174,7 @@ def t310311_x9():
                     elif GetDistanceToPlayer() > 10:
                         """ State 22 """
                         assert t310311_x1()
+            # Hit 2
             elif not GetEventStatus(73100396):
                 """ State 6,18 """
                 # talk:31003010: 
@@ -180,6 +183,7 @@ def t310311_x9():
                     pass
                 elif call.Get() == 1:
                     Goto('L0')
+            # Hit 4
             elif True:
                 """ State 7,4 """
                 SetEventState(73100395, 0)
@@ -192,6 +196,7 @@ def t310311_x9():
                     pass
                 elif call.Get() == 1:
                     Goto('L0')
+            # Hit 3
             elif not GetEventStatus(73100397):
                 """ State 11,19 """
                 # talk:31003020:What is the meaning of this!
@@ -343,8 +348,7 @@ def t310311_x21():
     """ State 2 """
     return 0
 
-def t310311_x22(text1=31000700, text2=31000710, text3=31000740, z1=73100363, z2=73100364, z3=73100365,
-                flag1=50006210):
+def t310311_x22(text1=31000700, text2=31000710, text3=31000740, z1=73100363, z2=73100364, z3=73100365, flag1=50006210):
     """ State 0,1,2 """
     if not GetEventStatus(flag1):
         """ State 6 """

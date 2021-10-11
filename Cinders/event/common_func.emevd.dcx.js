@@ -5298,13 +5298,21 @@ Event(20006031, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+// Patches - Handle Treasure based on Quest Progression
 Event(20006032, Default, function(X0_4, X4_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    // Patches is 0 HP
     IfCharacterHPRatio(OR_15, X0_4, ComparisonType.Equal, 0, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_15);
+    
+    // Patches is dead
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    
     Label0();
     WarpObjectToCharacter(X4_4, X0_4, 236);
+    
+    // Returned Catarina Armor
     IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501050);
     IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501010);
     IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501020);
@@ -5313,6 +5321,8 @@ Event(20006032, Default, function(X0_4, X4_4) {
     IfConditionGroup(AND_01, PASS, OR_01);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 50006202);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Spawn Treasure
     CreateObjectfollowingSFX(X4_4, 90, 61);
     IfActionButtonInArea(MAIN, 4000, X4_4);
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);

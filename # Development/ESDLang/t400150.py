@@ -255,8 +255,7 @@ def t400150_x16(z2=0, z3=2, z4=6, z5=12):
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 11 """
         # action:15005020:Draw Out True Strength
-        AddTalkListDataIf((ComparePlayerStatus(34, 0, 5) == 1 and ComparePlayerStatus(31, 4, z2) == 1) or (ComparePlayerStatus(34, 0, 4) == 1 and ComparePlayerStatus(31, 4, z3) == 1) or (ComparePlayerStatus(34, 0, 3) == 1 and ComparePlayerStatus(31, 4, z4) == 1) or (ComparePlayerStatus(34, 0, 2) == 1 and ComparePlayerStatus(31, 4, z5) == 1) or GetPlayerChrType() == 8,
-                          3, 15005020, -1)
+        AddTalkListDataIf((ComparePlayerStatus(34, 0, 5) == 1 and ComparePlayerStatus(31, 4, z2) == 1) or (ComparePlayerStatus(34, 0, 4) == 1 and ComparePlayerStatus(31, 4, z3) == 1) or (ComparePlayerStatus(34, 0, 3) == 1 and ComparePlayerStatus(31, 4, z4) == 1) or (ComparePlayerStatus(34, 0, 2) == 1 and ComparePlayerStatus(31, 4, z5) == 1) or GetPlayerChrType() == 8, 3, 15005020, -1)
         # action:15011020:Purchase Item
         AddTalkListData(1, 15011020, -1)
         

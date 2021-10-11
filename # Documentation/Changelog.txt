@@ -68,6 +68,10 @@ Finish following weapons:
 - Marauder:
  - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
 
+- Cathedral Guardian:
+ - Changed the Cathedral Guardian's arena - it is now the path and entrance hall for the Cathedral.
+ - The Cathedral Guardian is now optional, and can be skipped if you do not wish to fight him.
+
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
 - Removed the Stamina cost of all spells.
@@ -104,10 +108,10 @@ Finish following weapons:
 - Rouge/Crimson Water now boost FP recovery for 60 seconds.
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
 
-# Bosses:
-- Changed the Cathedral Guardian's arena - it is now the path and entrance hall for the Cathedral.
-- The Cathedral Guardian is now optional, and can be skipped if you do not wish to fight him.
-- Added 3 Ravenous Crystal Lizards and 3 Infested Corpses in the area used by the Cathedral Guardian previously.
+# Map:
+- Cathedral of the Deep:
+ - Added 3 Ravenous Crystal Lizards and 3 Infested Corpses in the area used by the Cathedral Guardian previously.
+
  
 #------------------------------
 # TODO
@@ -120,3 +124,7 @@ Change companion consumables
 
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
+
+# Seigward
+3100730 Lift
+3100731 Ledge

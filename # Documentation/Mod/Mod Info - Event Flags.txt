@@ -633,7 +633,7 @@
 70000400 After Patches moves to Firelink Shrine
 70000401 Sent Greirat to pillage Lothric Castle, telling Patches, and Patches returning
 70000402 While Greirat is in Firelink Shrine
-70000403 While Patches has Siegward's armor
+70000403 Patches has Siegward's armor
 
 70000425 Shrine Handmaid: After Patches moves to Firelink Shrine
 70000426 Shrine Handmaid: Sent Greirat to pillage Lothric Castle, telling Patches, and Patches returning
@@ -644,26 +644,69 @@
 # Siegward
 # 310310, 310311, 370310
 #-------------------------------------
-1380 Dead
-1381 
-1382 
-1383 
-1384 
-1385 
-1386 
-1387 
-1388 
-1389 
-1390 
-1391 
-1392 
-1393 
-1394 
-1395 Passive
-1396 Hostile
-1397 
-1398 Killed
-1399
+1380 Siegward - Dead
+1381 Siegward - Stage: UNUSED
+1382 Siegward - Stage: Ledge in Undead Settlement
+1383 Siegward - Stage: Well in Cathedral of the Deep
+1384 Siegward - Stage: Returned Armor 
+1385 Siegward - Stage: Moved to Irithyll
+1386 Siegward - Stage: Profaned Capital Cell
+1387 Siegward - 
+1388 Siegward - 
+1389 Siegward - 
+1390 Siegward - 
+1391 Siegward - 
+1392 Siegward - 
+1393 Siegward - 
+1394 Siegward - 
+1395 Siegward - Passive
+1396 Siegward - Hostile
+1397 Siegward - 
+1398 Siegward - Killed
+1399 Siegward - 
+
+# Map - Undead Settlement
+13100212 Siegward Quest - 
+13100831 Siegward Quest - Demon Killed
+
+# NPC - Undead Settlement
+73100350 Siegward Quest - Start
+73100360 Siegward Quest - Spoken to before Demon Fight
+73100363 Siegward Quest - Received Siegbrau
+73100364 Siegward Quest - Toast Speech
+73100365 Siegward Quest - Nap Time
+73100366 Siegward Quest - Is Sleeping
+73100367 Siegward Quest - Sleep Time
+73100368 Siegward Quest - Is in Settlement Lift
+73100369 Siegward Quest - Engaged Demon
+73100370 Siegward Quest - Ledge in Settlement
+73100374 Siegward Quest - Rest Time
+73100390 Siegward Quest - Continuous Hostility
+73100395 Siegward Quest - Hostility: 1 hit
+73100396 Siegward Quest - Hostility: 2 hits
+73100397 Siegward Quest - Hostility: 3 hits
+73100398 Siegward Quest - Hostility: 4 hits
+73100399 Siegward Quest - Permanent Hostility
+
+# NPC - Cathedral of the Deep
+73500102 Siegward Quest - Returned Armor (Talk)
+73500105 Siegward Quest - Returned Armor (Process)
+73501010 Siegward Quest - Armor Returned
+73501020 Siegward Quest - Armor Returned
+73501030 Siegward Quest - Armor Returned
+73501040 Siegward Quest - Armor Returned
+73501050 Siegward Quest - Armor Returned
+
+# NPC - Irithyll
+73700201 Siegward Quest - Gifted Emit Force
+73700203 
+73700204 Siegward Quest - Dinner Talk
+73700205 Siegward Quest - Rumor Talk
+73700206 Siegward Quest - Sleep Time
+
+# NPC - Profaned Capital
+73900152 Siegward Quest - 
+73900164 Siegward Quest - 
 
 #-------------------------------------
 # Emma
@@ -1705,4 +1748,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007070 Intelligence Mastery
 25007080 Faith Mastery
 25007090 Luck Mastery
+
+# Quests
+25005000
 

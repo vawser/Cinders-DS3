@@ -586,11 +586,11 @@ Event(700, Default, function() {
     
     SetEventFlag(50006162, ON); // Deep Braille Divine Tome
     SetEventFlag(50006163, ON); // Londor Braille Divine Tome
-    SetEventFlag(73501010, ON); // Siegward
-    SetEventFlag(73501020, ON); // Siegward
-    SetEventFlag(73501030, ON); // Siegward
-    SetEventFlag(73501040, ON); // Siegward
-    SetEventFlag(73501050, ON); // Siegward
+    SetEventFlag(73501010, ON); // Siegward - Armor Returned
+    SetEventFlag(73501020, ON); // Siegward - Armor Returned
+    SetEventFlag(73501030, ON); // Siegward - Armor Returned
+    SetEventFlag(73501040, ON); // Siegward - Armor Returned
+    SetEventFlag(73501050, ON); // Siegward - Armor Returned
     
     IfGameCycle(OR_13, ComparisonType.GreaterOrEqual, 1);
     SkipIfConditionGroupStateUncompiled(1, FAIL, OR_13);
@@ -3595,8 +3595,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetEventFlag(25009720, ON);
-    SetEventFlag(25009730, ON);
+    WarpPlayer(31, 0, 3100962);
     
     EndUnconditionally(EventEndType.Restart);
 });
