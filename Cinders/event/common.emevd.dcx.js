@@ -3702,7 +3702,7 @@ Event(20101, Restart, function() {
     SetEventFlag(6301, 0);
     
     //SetPlayerRespawnPoint(3002958);
-    SetMapCeremony(30, 0, 0);
+    //SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3735,7 +3735,7 @@ Event(20102, Restart, function() {
     SetEventFlag(13100001, 0);
     
     //SetPlayerRespawnPoint(3102953);
-    SetMapCeremony(31, 0, 0);
+    //SetMapCeremony(31, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3767,7 +3767,7 @@ Event(20103, Restart, function() {
     SetEventFlag(6306, 0);
     
     //SetPlayerRespawnPoint(3302957);
-    SetMapCeremony(33, 0, 0);
+    //SetMapCeremony(33, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3799,7 +3799,7 @@ Event(20104, Restart, function() {
     SetEventFlag(6311, 0);
     
     //SetPlayerRespawnPoint(3502950);
-    SetMapCeremony(35, 0, 0);
+    //SetMapCeremony(35, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3832,7 +3832,7 @@ Event(20105, Restart, function() {
     SetEventFlag(13300421, 0);
     
     //SetPlayerRespawnPoint(3302958);
-    SetMapCeremony(33, 0, 0);
+    //SetMapCeremony(33, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3866,7 +3866,7 @@ Event(20106, Restart, function() {
     SetEventFlag(63800560, 0);
     
     //SetPlayerRespawnPoint(3802950);
-    SetMapCeremony(38, 0, 0);
+    //SetMapCeremony(38, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3898,7 +3898,7 @@ Event(20107, Restart, function() {
     SetEventFlag(6317, 0);
     
     //SetPlayerRespawnPoint(3802952);
-    SetMapCeremony(38, 0, 0);
+    //SetMapCeremony(38, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3933,7 +3933,7 @@ Event(20108, Restart, function() {
     SetEventFlag(13700422, 0);
     
     //SetPlayerRespawnPoint(3702950);
-    SetMapCeremony(37, 0, 0);
+    //SetMapCeremony(37, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3966,7 +3966,7 @@ Event(20109, Restart, function() {
     SetEventFlag(13700002, 0);
     
     //SetPlayerRespawnPoint(3702953);
-    SetMapCeremony(37, 0, 0);
+    //SetMapCeremony(37, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -3998,7 +3998,7 @@ Event(20110, Restart, function() {
     SetEventFlag(6318, 0);
     
     //SetPlayerRespawnPoint(3902952);
-    SetMapCeremony(39, 0, 0);
+    //SetMapCeremony(39, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4031,7 +4031,7 @@ Event(20111, Restart, function() {
     SetEventFlag(13000885, 0);
     
     //SetPlayerRespawnPoint(3002955);
-    SetMapCeremony(30, 0, 0);
+    //SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4063,7 +4063,7 @@ Event(20112, Restart, function() {
     SetEventFlag(6302, 0);
     
     //SetPlayerRespawnPoint(3002951);
-    SetMapCeremony(30, 0, 0);
+    //SetMapCeremony(30, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4095,7 +4095,7 @@ Event(20113, Restart, function() {
     SetEventFlag(6308, 0);
     
     //SetPlayerRespawnPoint(3012952);
-    SetMapCeremony(30, 1, 0);
+    //SetMapCeremony(30, 1, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4127,7 +4127,7 @@ Event(20114, Restart, function() {
     SetEventFlag(6305, 0);
     
     //SetPlayerRespawnPoint(3202950);
-    SetMapCeremony(32, 0, 0);
+    //SetMapCeremony(32, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4164,7 +4164,7 @@ Event(20115, Restart, function() {
     SetEventFlag(13200862, 0);
             
     //SetPlayerRespawnPoint(3202952);
-    SetMapCeremony(32, 0, 0);
+    //SetMapCeremony(32, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4232,7 +4232,7 @@ Event(20117, Restart, function() {
     SetEventFlag(13410000, 0);
     
     //SetPlayerRespawnPoint(3412951);
-    SetMapCeremony(34, 1, 0);
+    //SetMapCeremony(34, 1, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4266,7 +4266,7 @@ Event(20118, Restart, function() {
     SetEventFlag(14100002, 0);
     
     //SetPlayerRespawnPoint(4102951);
-    SetMapCeremony(41, 0, 0);
+    //SetMapCeremony(41, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4301,7 +4301,7 @@ Event(20119, Restart, function() {
     SetEventFlag(14500620, ON);
     
     //SetPlayerRespawnPoint(4502955);
-    SetMapCeremony(45, 0, 0);
+    //SetMapCeremony(45, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4352,7 +4352,7 @@ Event(20120, Restart, function() {
     SetEventFlag(13700890, OFF); // flag_LordranRemnants_IsActivated
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4385,7 +4385,7 @@ Event(20121, Restart, function() {
     SetEventFlag(15000000, 0);
     
     //SetPlayerRespawnPoint(5002953);
-    SetMapCeremony(50, 0, 0);
+    //SetMapCeremony(50, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4419,7 +4419,7 @@ Event(20122, Restart, function() {
     SetEventFlag(15100001, 0);
     
     //SetPlayerRespawnPoint(5102953);
-    SetMapCeremony(51, 0, 0);
+    //SetMapCeremony(51, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4452,7 +4452,7 @@ Event(20123, Restart, function() {
     SetEventFlag(15110000, 0);
     
     //SetPlayerRespawnPoint(5112951);
-    SetMapCeremony(51, 1, 10);
+    //SetMapCeremony(51, 1, 10);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4484,7 +4484,7 @@ Event(20124, Restart, function() {
     SetEventFlag(9003, 1);
     
     //SetPlayerRespawnPoint(5102953);
-    SetMapCeremony(51, 0, 0);
+    //SetMapCeremony(51, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4655,7 +4655,7 @@ Event(20126, Restart, function() {
     SetEventFlag(6328, 0);
     
     //SetPlayerRespawnPoint(4502959);
-    SetMapCeremony(45, 0, 0);
+    //SetMapCeremony(45, 0, 0);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4705,7 +4705,7 @@ Event(20127, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4755,7 +4755,7 @@ Event(20128, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4805,7 +4805,7 @@ Event(20129, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4855,7 +4855,7 @@ Event(20130, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4905,7 +4905,7 @@ Event(20131, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -4955,7 +4955,7 @@ Event(20132, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -5005,7 +5005,7 @@ Event(20133, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
@@ -5055,7 +5055,7 @@ Event(20134, Restart, function() {
     SetEventFlag(flag_BossState2, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
-    SetMapCeremony(mapID, blockID, ceremonyID);
+    //SetMapCeremony(mapID, blockID, ceremonyID);
     
     WaitFixedTimeFrames(1);
     SaveRequest(0);
