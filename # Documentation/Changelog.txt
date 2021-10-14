@@ -134,5 +134,27 @@ Adjust the broken questlines so they use a custom method of progression
 882 Corrupted Bow model
 5122 Corrupted Bow
 
-Add Spurned Spirit boss in Abyss, available if you divorce a NPC. Only way to get the Betrothal Ring back.
+# Relationships
+Add Spurned Shade boss in Abyss, available if you divorce a NPC. Only way to get the Betrothal Ring back.
+ Fought by talking to Spurned Shade in Firelink, warps you to the Abyss and starts the fight
+ 
+Change Flirt into Give Gift: description of what they like, and option to give them the item
+ -> Giving them the item gives the current good flirt item
+Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
+
+35400 Spurned Shade [Abyss]
+
+400515 Spurned Shade
+
+19120000 Black Flame
+95000000 
+95001000
+95002000
+95003000
+
+4103000 Great Soul Dregs
+4105000 Abyssal Edge
+4113010 Pursuers
+4307000 Vow of Agony
+4209010 Scorching Mournful Flames
 

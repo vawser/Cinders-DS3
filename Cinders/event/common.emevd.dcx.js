@@ -3595,7 +3595,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    WarpPlayer(31, 0, 3100962);
+    SetCharacterAIState(4000895, Disabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
