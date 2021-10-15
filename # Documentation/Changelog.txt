@@ -155,6 +155,15 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
+Gargoyle Flame Hammer 
+Gargoyle Shield # L1
+Pyromancy Flame # L2
+
+2711000 Heave Earth
+2712000 Earthquake
+2710000 Earthfall
+2713000 Rockflesh
+
 # Intruders
 GOAL_NPC_Luyila = 30000
 GOAL_NPC_Locklin = 30100
