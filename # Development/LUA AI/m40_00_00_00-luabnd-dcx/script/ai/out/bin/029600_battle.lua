@@ -16,7 +16,7 @@ Goal.Activate = function (self, ai, goal)
 
     Init_Pseudo_Global(ai, goal)
     
-    ai:SetStringIndexedNumber("Dist_Rolling", 4.4)      -- Distance to roll att
+    ai:SetStringIndexedNumber("Dist_Rolling", 4.4)      -- Distance to roll at
     ai:SetStringIndexedNumber("Dist_BackStep", 2.6)     -- Distance to backstep at
     ai:SetStringIndexedNumber("AddDistWalk", 0)
     ai:SetStringIndexedNumber("AddDistRun", 0.2)

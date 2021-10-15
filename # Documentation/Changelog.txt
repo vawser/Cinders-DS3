@@ -152,6 +152,5 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Intruders
-28700
-
 GOAL_NPC_ThePursuer = 29700
+
