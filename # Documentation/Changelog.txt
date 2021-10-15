@@ -80,8 +80,8 @@ Finish following weapons:
  - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
  - Has a customised AI.
 
-- Pursuer:
- - Now has a customised AI.
+- Pursuer: now has a customised AI.
+- Luyila of Londor: now has a customised AI.
  
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -156,5 +156,48 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Intruders
-GOAL_NPC_ThePursuer = 29700
+GOAL_NPC_Luyila = 30000
+GOAL_NPC_Locklin = 30100
+GOAL_NPC_Morton = 30200
+GOAL_NPC_Tiny = 30300
+GOAL_NPC_Morrel = 30400
+GOAL_NPC_Sharron = 30500
+GOAL_NPC_Norjask = 30600
+GOAL_NPC_Dyfan = 30700
+GOAL_NPC_Eygor = 30800
+GOAL_NPC_Ifrit = 30900
+GOAL_NPC_Fester = 31000
+GOAL_NPC_Ashford = 31100
+GOAL_NPC_Lloyd = 31200
+GOAL_NPC_Ava = 31300
+GOAL_NPC_Archiblad = 31400
+GOAL_NPC_Eileen = 31500
+GOAL_NPC_Ollis = 31600
+GOAL_NPC_Annalise = 31700
+GOAL_NPC_Forlorn = 31800
+GOAL_NPC_Zakar = 31900
+GOAL_NPC_Hodir = 32000
+GOAL_NPC_Ezekiel = 32100
+GOAL_NPC_Eija = 32200
+GOAL_NPC_Xavier = 32300
+GOAL_NPC_Freya = 32400
+GOAL_NPC_Nahor = 32500
+GOAL_NPC_Iazeel = 32600
+GOAL_NPC_Gaius = 32700
+GOAL_NPC_Quintus = 32800
+GOAL_NPC_BlacksmithNightmare = 32900
+GOAL_NPC_Torbjorn = 33000
+GOAL_NPC_Iwai = 33100
+GOAL_NPC_Osvaldo = 33200
+GOAL_NPC_Takatsuji = 33300
+GOAL_NPC_Ugali = 33400
+GOAL_NPC_Hanji = 33500
+GOAL_NPC_Sofija = 33600
+GOAL_NPC_Orthell = 33700
+GOAL_NPC_Karstark = 33800
+GOAL_NPC_Alsanna = 33900
+GOAL_NPC_PotKingGreg = 34000
+GOAL_NPC_TheFather = 34100
+GOAL_NPC_TheMother = 34200
+GOAL_NPC_TheChild = 34300
 

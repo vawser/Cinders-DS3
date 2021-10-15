@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Pursuer, "GOAL_NPC_Pursuer")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Pursuer, true)
+RegisterTableGoal(GOAL_NPC_Luyila, "GOAL_NPC_Luyila")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Luyila, true)
 
 -------------------------
 -- Initialize
@@ -30,18 +30,16 @@ Goal.Activate = function (self, ai, goal)
     local stamina   = ai:GetSp(TARGET_SELF)
     local number    = ai:GetNumber(0)
     local hp_rate   = ai:GetHpRate(TARGET_SELF)
-    
-    local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
 
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 2 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
+    if distance >= 5 then
+        actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
-        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[3] = 5 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stomp
+        actChanceList[5] = 5 -- WA: Darkdrift + Approach
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -51,42 +49,48 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 10 -- Approach
+    elseif distance >= 3 then
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+        actChanceList[3] = 15 -- Kick + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 5 -- WA: Darkdrift + Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Firebomb
+        actChanceList[10] = 5 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 10 -- Strafe
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
     else
         actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 20 -- Right Heavy Attack + Approach
         actChanceList[3] = 20 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Stomp
+        actChanceList[5] = 10 -- WA: Darkdrift + Approach
         
-        actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 10 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 10 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
+        actChanceList[10] = 5 -- Approach + Running Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 5 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Firebomb
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2 then
-        actChanceList[5] = actChanceList[5] + 50 -- WA: Stomp
+    if ai:IsTargetGuard(TARGET_ENE_0) then
+        actChanceList[5] = actChanceList[5] + 50
     end
     
     ----------------------------------
     -- Act Checks
     ----------------------------------
-    -- Invalid Item check
-    if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Firebomb
-    end
-    
     -- Block backstep if there is an obstacle behind the AI within 2.6 meters
     if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
         actChanceList[11] = 0 -- Backstep Roll
@@ -124,45 +128,42 @@ Goal.Activate = function (self, ai, goal)
     
     -- Block dash and rolls when low on stamina
     if stamina < 20 then
-        actChanceList[10] = 0   -- Approach + Running Attack
-        actChanceList[11] = 0   -- Backstep Roll
-        actChanceList[12] = 0   -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0   -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0   -- Back Roll + Basic Light Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
     end
-    
+
     ----------------------------------
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act01)    -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act02)    -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act03)    -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act04)    -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act05)    -- WA: Stomp
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Luyila_Act01)    -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Luyila_Act02)    -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Luyila_Act03)    -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Luyila_Act04)    -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Luyila_Act05)    -- WA: Darkdrift + Approach
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act10)   -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act11)   -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act12)   -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act13)   -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act14)   -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act15)   -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act16)   -- Backstep Walk
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act17)   -- Approach
-    
-    -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act20)   -- Use Item (Slot 0) - Firebomb
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Luyila_Act10)   -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Luyila_Act11)   -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Luyila_Act12)   -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Luyila_Act13)   -- Side Roll + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Luyila_Act14)   -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Luyila_Act15)   -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Luyila_Act16)   -- Backstep Walk
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Luyila_Act17)   -- Approach
 
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Pursuer_ActAfter_AdjustSpace), actTblList)
-    return 
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Luyila_ActAfter_AdjustSpace), actTblList)
+    return
 end
 
 -------------------------
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Pursuer_Act01(self, ai, goal)
+function NPC_Luyila_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
@@ -238,7 +239,7 @@ function NPC_Pursuer_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Pursuer_Act02(self, ai, goal)
+function NPC_Luyila_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -322,7 +323,7 @@ function NPC_Pursuer_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Pursuer_Act03(self, ai, goal)
+function NPC_Luyila_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -352,7 +353,7 @@ function NPC_Pursuer_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Pursuer_Act04(self, ai, goal)
+function NPC_Luyila_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -381,45 +382,34 @@ function NPC_Pursuer_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Stomp
-function NPC_Pursuer_Act05(self, ai, goal)
+-- WA: Darkdrift + Approach
+function NPC_Luyila_Act05(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local roll_c = self:GetRandam_Int(1, 100)
-    local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
+    local max_attack_distance = 2.6
+    local roll_c = 100
     
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
-    -- Approach
-    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
-    
-    if roll_a >= 50 then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L2, TARGET_ENE_0, max_attack_distance, 0, 0) -- WA Start
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack + Approach
-        
-        -- Follow up: WA Right Light Attack + Approach
-        if roll_b >= 25 then
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack + Approach
-        end
-        
-        -- Follow up: WA Right Light Attack + Approach
-        if roll_c >= 25 then
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack + Approach
-        end
-    else
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L2, TARGET_ENE_0, max_attack_distance, 0, 0) -- WA Start
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Heavy Attack + Approach
+    if self:GetSp(TARGET_SELF) < 60 then
+        roll_c = 0
     end
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L2, TARGET_ENE_0, max_attack_distance, 0, 0) -- WA
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Approach + Running Attack
-function NPC_Pursuer_Act10(self, ai, goal)
+function NPC_Luyila_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
@@ -475,7 +465,7 @@ function NPC_Pursuer_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Pursuer_Act11(self, ai, goal)
+function NPC_Luyila_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
@@ -499,7 +489,7 @@ function NPC_Pursuer_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Pursuer_Act12(self, ai, goal)
+function NPC_Luyila_Act12(self, ai, goal)
     if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
     elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -527,12 +517,13 @@ function NPC_Pursuer_Act12(self, ai, goal)
         
         ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Side Roll + Run + Basic Light Attack
-function NPC_Pursuer_Act13(self, ai, goal)
+-- Forward Roll + Run + Basic Light Attack
+function NPC_Luyila_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -565,9 +556,9 @@ function NPC_Pursuer_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Pursuer_Act14(self, ai, goal)
+function NPC_Luyila_Act14(self, ai, goal)
     if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Roll
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
@@ -598,19 +589,11 @@ function NPC_Pursuer_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Pursuer_Act15(self, ai, goal)
+function NPC_Luyila_Act15(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
-    local animation = NPC_ATK_L1Hold    -- Guard with Left Weapon
-    
-    if self:IsBothHandMode(TARGET_SELF) then
-        if 40 <= stamina and roll_a <= 50 then
-            animation = NPC_ATK_L1Hold
-        end
-    elseif self:GetEquipWeaponIndex(ARM_L) == WEP_Primary and 40 <= stamina and roll_a <= 100 then
-        animation = NPC_ATK_L1Hold
-    end
+    local animation = -1
     
     local roll_b = 0
     
@@ -632,25 +615,25 @@ function NPC_Pursuer_Act15(self, ai, goal)
     end
     
     if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), false, true, animation) -- Strafe (run)
     else
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), true, true, animation)  -- Strafe (walk)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Backstep Walk
-function NPC_Pursuer_Act16(self, ai, goal)
-    local roll_a = self:GetRandam_Int(1, 100)
-    local stamina = self:GetSp(TARGET_SELF)
+function NPC_Luyila_Act16(self, ai, goal)
     local duration = 1.8
     local max_attack_distance = 3.2
+    local animation = -1
     
     if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, NPC_ATK_L1Hold)    -- Backstep Walk
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, animation) -- Backstep Walk (run)
     else
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, NPC_ATK_L1Hold)     -- Backstep Walk
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, animation) -- Backstep Walk (walk)
     end
     
     GetWellSpace_Odds = 100
@@ -658,7 +641,7 @@ function NPC_Pursuer_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Pursuer_Act17(self, ai, goal)
+function NPC_Luyila_Act17(self, ai, goal)
     local end_approach_distance = 1.0
     
     if self:IsBothHandMode(TARGET_SELF) then
@@ -671,20 +654,11 @@ function NPC_Pursuer_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Firebomb
-function NPC_Pursuer_Act20(self, ai, goal)
-    self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Firebomb", self:GetStringIndexedNumber("Firebomb") - 1)
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
 
 -------------------------
 -- Act After
 -------------------------
-function NPC_Pursuer_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Luyila_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -710,22 +684,40 @@ Goal.Interrupt = function (self, ai, goal)
     local distance  = ai:GetDist(TARGET_ENE_0)
     local roll      = ai:GetRandam_Int(1, 100)
     
+    -- Occurs if the player has been guard broken
     if ai:IsInterupt(INTERUPT_GuardBreak) and distance < 3 then
         goal:ClearSubGoal()
         
-        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0)
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
         subgoal:SetLifeEndSuccess(true)
         
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
         return true
+    -- Occurs if the player is vulnerable to a parry
+    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
+        if not ai:IsBothHandMode(TARGET_SELF) then
+            if distance < 2 and roll <= 50 and 20 <= stamina then
+                goal:ClearSubGoal()
+                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
+                return true
+            end
+        end
+    -- Occurs if a parry has been applied to the player
+    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
+        goal:ClearSubGoal()
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
+        subgoal:SetLifeEndSuccess(true)
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
+        return true
+    -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
         goal:ClearSubGoal()
-        NPC_Pursuer_Act15(ai, goal, paramTbl) -- Strafe
-    end
-    if ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
+        NPC_Luyila_Act15(ai, goal, paramTbl) -- Strafe
+    -- Occurs if a ranged attack occurs
+    elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Pursuer_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Luyila_Act13(ai, goal) -- Forward Roll + Run + Basic Light Attack
         return true
     else
         return false

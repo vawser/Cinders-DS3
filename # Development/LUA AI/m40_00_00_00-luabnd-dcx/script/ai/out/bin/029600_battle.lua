@@ -33,248 +33,193 @@ Goal.Activate = function (self, ai, goal)
     local number    = ai:GetNumber(0)
     local hp_rate   = ai:GetHpRate(TARGET_SELF)
     
-    local speffect_no_drink = ai:HasSpecialEffectId(TARGET_SELF, 5110)
     local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
     
-    if distance >= 7 then
-        actChanceList[1] = 0        -- Right Light Attack
-        actChanceList[2] = 0        -- Right Heavy Attack
-        actChanceList[3] = 0        -- Light Kick
-        actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
+    ----------------------------------
+    -- Act Distribution
+    ----------------------------------
+    if distance >= 10 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance
         
-        actChanceList[10] = 0       -- Dash and Attack
-        actChanceList[11] = 0      -- Forward Roll / Roll Attack
-        actChanceList[12] = 0       -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 0       -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 0       -- Back Angled Roll / Roll Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe (do not use with non-navmesh NPC)
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 30 -- Approach
         
-        actChanceList[15] = 0       -- Strafe
-        actChanceList[16] = 0       -- Leave Target and Guard
-        actChanceList[17] = 50      -- Approach
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 0       -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 0       -- Cast Spell (Slot 0) - Halo
-        actChanceList[31] = 20      -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = 60      -- Cast Spell (Slot 2) - Divine Arrow
-        actChanceList[33] = 0       -- Cast Spell (Slot 3) - Holy Schism
-        actChanceList[34] = 0       -- Cast Spell (Slot 4) - Wrathful Orbs
-    -- 5 metres (mid-far range)
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Halo
+        actChanceList[31] = 30 -- Cast Spell (Slot 1) - Lothric's Holy Spear
+        actChanceList[32] = 30 -- Cast Spell (Slot 2) - Divine Arrow
+        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Wrath of the Gods
+        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Wrathful Orbs
     elseif distance >= 5 then
-        actChanceList[1] = 0        -- Right Light Attack
-        actChanceList[2] = 0        -- Right Heavy Attack
-        actChanceList[3] = 0        -- Light Kick
-        actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
+        actChanceList[1] = 6 -- Right Light Attack + Approach
+        actChanceList[2] = 6 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 3 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance
         
-        actChanceList[10] = 0       -- Dash and Attack
-        actChanceList[11] = 5       -- Forward Roll / Roll Attack
-        actChanceList[12] = 5       -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 5       -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 5       -- Back Angled Roll / Roll Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe (do not use with non-navmesh NPC)
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
         
-        actChanceList[15] = 0       -- Strafe
-        actChanceList[16] = 0       -- Leave Target and 
-        actChanceList[17] = 10      -- Approach
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 10 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[20] = 10      -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 10      -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 0       -- Cast Spell (Slot 0) - Halo
-        actChanceList[31] = 20      -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = 60      -- Cast Spell (Slot 2) - Divine Arrow
-        actChanceList[33] = 0       -- Cast Spell (Slot 3) - Holy Schism
-        actChanceList[34] = 20      -- Cast Spell (Slot 4) - Wrathful Orbs
-    -- 3 metres (mid-range)
-    elseif distance >= 3 then
-        actChanceList[1] = 0        -- Right Light Attack
-        actChanceList[2] = 0        -- Right Heavy Attack
-        actChanceList[3] = 0        -- Light Kick
-        actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
-        
-        actChanceList[10] = 10      -- Dash and Attack
-        actChanceList[11] = 5       -- Forward Roll / Roll Attack
-        actChanceList[12] = 5       -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 5       -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 5       -- Back Angled Roll / Roll Attack
-        
-        actChanceList[15] = 0       -- Strafe
-        actChanceList[16] = 0       -- Leave Target and Guard
-        actChanceList[17] = 0       -- Approach
-        
-        actChanceList[20] = 20      -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 20      -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 20      -- Cast Spell (Slot 0) - Halo
-        actChanceList[31] = 10      -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = 30      -- Cast Spell (Slot 2) - Divine Arrow
-        actChanceList[33] = 20      -- Cast Spell (Slot 3) - Holy Schism
-        actChanceList[34] = 10      -- Cast Spell (Slot 4) - Wrathful Orbs
-    -- 1 metres (close range)
-    elseif distance >= 1 then
-        actChanceList[1] = 10       -- Right Light Attack
-        actChanceList[2] = 10       -- Right Heavy Attack
-        actChanceList[3] = 0        -- Light Kick
-        actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
-        
-        actChanceList[10] = 0       -- Dash and Attack
-        actChanceList[11] = 0       -- Forward Roll / Roll Attack
-        actChanceList[12] = 0       -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 0       -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 10      -- Back Angled Roll / Roll Attack
-        
-        actChanceList[15] = 0       -- Strafe
-        actChanceList[16] = 0       -- Leave Target and Guard
-        actChanceList[17] = 0       -- Approach
-        
-        actChanceList[20] = 5       -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 5       -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 10      -- Cast Spell (Slot 0) - Halo
-        actChanceList[31] = 5       -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = 10      -- Cast Spell (Slot 2) - Divine Arrow
-        actChanceList[33] = 10      -- Cast Spell (Slot 3) - Holy Schism
-        actChanceList[34] = 0       -- Cast Spell (Slot 4) - Wrathful Orbs
-    -- 0 metres (touching)
+        actChanceList[30] = 30 -- Cast Spell (Slot 0) - Halo
+        actChanceList[31] = 30 -- Cast Spell (Slot 1) - Lothric's Holy Spear
+        actChanceList[32] = 30 -- Cast Spell (Slot 2) - Divine Arrow
+        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Wrath of the Gods
+        actChanceList[34] = 30 -- Cast Spell (Slot 4) - Wrathful Orbs
     else
-        actChanceList[1] = 10       -- Right Light Attack
-        actChanceList[2] = 10       -- Right Heavy Attack
-        actChanceList[3] = 0        -- Light Kick
-        actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
+        actChanceList[1] = 6 -- Right Light Attack + Approach
+        actChanceList[2] = 6 -- Right Heavy Attack + Approach
+        actChanceList[3] = 3 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance
         
-        actChanceList[10] = 0       -- Dash and Attack
-        actChanceList[11] = 0       -- Forward Roll / Roll Attack
-        actChanceList[12] = 0       -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 0       -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 10      -- Back Angled Roll / Roll Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 10 -- Backstep Roll
+        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 10 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 10 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe (do not use with non-navmesh NPC)
+        actChanceList[16] = 30 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
         
-        actChanceList[15] = 0       -- Strafe
-        actChanceList[16] = 0       -- Leave Target and Guard
-        actChanceList[17] = 0       -- Approach
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[20] = 5       -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 5       -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 0       -- Cast Spell (Slot 0) - Halo
-        actChanceList[31] = 0       -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = 0       -- Cast Spell (Slot 2) - Divine Arrow
-        actChanceList[33] = 30      -- Cast Spell (Slot 3) - Holy Schism
-        actChanceList[34] = 0       -- Cast Spell (Slot 4) - Wrathful Orbs
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Halo
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Lothric's Holy Spear
+        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Divine Arrow
+        actChanceList[33] = 15 -- Cast Spell (Slot 3) - Wrath of the Gods
+        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Wrathful Orbs
     end
     
-    -- Invalid Item check
-    if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Duel Charm
-        actChanceList[21] = 0       -- Use Item (Slot 1) - Undead Hunter Charm
+    ----------------------------------
+    -- Act Modifiers
+    ----------------------------------
+    if ai:IsTargetGuard(TARGET_ENE_0) then
+        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Lothric's Holy Spear
     end
     
-    -- Block spell 1 if it has not finished
-    if ai:IsFinishTimer(0) == false then
-        actChanceList[30] = 0   -- Cast Spell (Slot 0) - Halo
+     -- Block repeat usage of Wrathful Orbs
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 160770010)
+    
+    if ai:HasSpecialEffectId(TARGET_SELF, 160770010) then
+        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Wrathful Orbs
     end
     
-    -- Block spell 2 if it has not finished
-    if ai:IsFinishTimer(1) == false then
-        actChanceList[31] = 0   -- Cast Spell (Slot 1) - Lothric's Holy Spear
+    -- Disable spells when silenced so the Spurned Shade doesn't waste time trying to use them
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 103581000)
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 103581010)
+    
+    if ai:HasSpecialEffectId(TARGET_SELF, 103581000) or ai:HasSpecialEffectId(TARGET_SELF, 103581010) then
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[4] = 10 -- Jump Attack + Approach
+        
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Halo
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Lothric's Holy Spear
+        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Divine Arrow
+        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Wrath of the Gods
+        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Wrathful Orbs
     end
     
-    -- Block spell 3 if it has not finished
-    if ai:IsFinishTimer(2) == false then
-        actChanceList[32] = 0   -- Cast Spell (Slot 2) - Divine Arrow
+    ----------------------------------
+    -- Act Checks
+    ----------------------------------
+    -- Block backstep if there is an obstacle behind the AI within 2.6 meters
+    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
+        actChanceList[11] = 0 -- Backstep Roll
+    end
+    
+    -- Block forward roll if there is an obstacle +/- 45 degrees in front the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -45, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 45, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+    end
+    
+    -- Block side roll if there is an obstacle +/- 90 degrees to the side of the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -90, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 90, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+    end
+    
+    -- Block back roll if there is an obstacle +/- 135 degrees to the side of the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -135, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 135, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+    
+    -- Block back roll if there is an obstacle behind the AI within 4.4 meters
+    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
     end
 
-    -- Block spell 4 if it has not finished
-    if ai:IsFinishTimer(3) == false then
-        actChanceList[33] = 0   -- Cast Spell (Slot 3) - Holy Schism
-    end
-    
-    -- Block spell 5 if it has not finished
-    if ai:IsFinishTimer(4) == false then
-        actChanceList[34] = 0   -- Cast Spell (Slot 4) - Wrathful Orbs
-    end
-    
-    -- Increase ranged spells if enemy is guarding
-    if ai:IsTargetGuard(TARGET_ENE_0) and distance >= 3 then
-        actChanceList[31] = actChanceList[31] + 25 -- Cast Spell (Slot 1) - Lothric's Holy Spear
-        actChanceList[32] = actChanceList[32] + 25 -- Cast Spell (Slot 2) - Divine Arrow
-    end
-    
-    -- Block forward roll if space check is invalid
-    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
-        actChanceList[11] = 0   -- Foward Roll / Roll Attack
-    end
-    
-    -- Block forward directional roll if space check is invalid
-    if SpaceCheck(ai, goal, -45, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 45, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[12] = 0   -- Forward Angled Directional Roll / Roll Attack
-    end
-    
-    -- Block side roll if space check is invalid
-    if SpaceCheck(ai, goal, -90, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 90, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[13] = 0   -- Side Directional Roll / Roll Attack
-    end
-    
-    -- Block back directional roll if space check is invalid
-    if SpaceCheck(ai, goal, -135, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 135, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[14] = 0   -- Back Angled Roll / Roll Attack
-    end
-    
-    -- Block back directional roll if space check is invalid
-    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[14] = 0   -- Back Angled Roll / Roll Attack
-    end
-    
-    --  
+    -- Block backstep walk if there is an obstacle behind the AI within 1 meters
     if SpaceCheck(ai, goal, 180, 1) == false then
-        actChanceList[16] = 0   -- Leave Target and Guard
+        actChanceList[16] = 0 -- Backstep Walk
     end
     
-    -- 
+    -- Block strafe if there is an obstacle +/- 90 degrees to the side of the AI within 1 meters
     if SpaceCheck(ai, goal, -90, 1) == false and SpaceCheck(ai, goal, 90, 1) == false then
-        actChanceList[15] = 0   -- Move and Guard
+        actChanceList[15] = 0 -- Strafe
     end
     
     -- Block dash and rolls when low on stamina
     if stamina < 20 then
-        actChanceList[10] = 0   -- Dash and Attack
-        actChanceList[11] = 0   -- Forward Roll / Roll Attack
-        actChanceList[12] = 0   -- Forward Angled Directional Roll / Roll Attack
-        actChanceList[13] = 0   -- Side Directional Roll / Roll Attack
-        actChanceList[14] = 0   -- Back Angled Roll / Roll Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
     end
     
+    ----------------------------------
+    -- Acts
+    ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act01)    -- Right Light Attack
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act02)    -- Right Heavy Attack
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act03)    -- Light Kick
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act04)    -- Heavy Kick
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act05)    -- Hold Stance and Attack
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act05) -- WA: Stance
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act10)   -- Dash and Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act11)   -- Forward Roll / Roll Attack
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act12)   -- Forward Angled Directional Roll / Roll Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act13)   -- Side Directional Roll / Roll Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act14)   -- Back Angled Roll / Roll Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act15)   -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act16)   -- Leave Target and Guard
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act17)   -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act16) -- Backstep Walk
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act20)   -- Use Item (Slot 0) - Duel Charm
-    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act21)   -- Use Item (Slot 1) - Undead Hunter Charm
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act20) -- Use Item (Slot 0) - Duel Charm
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act21) -- Use Item (Slot 1) - Undead Hunter Charm
     
     -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act30)   -- Cast Spell (Slot 0) - Halo
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act31)   -- Cast Spell (Slot 1) - Lothric's Holy Spear
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act32)   -- Cast Spell (Slot 2) - Divine Arrow
-    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act33)   -- Cast Spell (Slot 3) - Holy Schism
-    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act34)   -- Cast Spell (Slot 4) - Wrathful Orbs
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act30) -- Cast Spell (Slot 0) - Halo
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act31) -- Cast Spell (Slot 1) - Lothric's Holy Spear
+    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act32) -- Cast Spell (Slot 2) - Divine Arrow
+    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act33) -- Cast Spell (Slot 3) - Wrath of the Gods
+    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_SpurnedShade_Act34) -- Cast Spell (Slot 4) - Wrathful Orbs
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_SpurnedShade_ActAfter_AdjustSpace), actTblList)
     return 
@@ -283,7 +228,7 @@ end
 -------------------------
 -- Functions
 -------------------------
--- Right Light Attack
+-- Right Light Attack + Approach
 function NPC_SpurnedShade_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
@@ -333,32 +278,34 @@ function NPC_SpurnedShade_Act01(self, ai, goal)
         roll_b = 0
     end
     
+    -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_b, 1.8, 2)
     
-    if self:GetRandam_Int(1, 100) <= 50 and 0 < roll_b and max_attack_distance <= distance then
-        if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
-        else
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
-        end
-    end
+    -- GOAL_COMMON_SidewayMove does not work for non-navmesh NPCs
+    -- if self:GetRandam_Int(1, 100) <= 50 and 0 < roll_b and max_attack_distance <= distance then
+        -- if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
+            -- ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
+        -- else
+            -- ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
+        -- end
+    -- end
     
     if 120 <= stamina then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     elseif 60 <= stamina then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     else
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
     end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Right Heavy Attack
+-- Right Heavy Attack + Approach
 function NPC_SpurnedShade_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -410,26 +357,28 @@ function NPC_SpurnedShade_Act02(self, ai, goal)
         roll_c = 0
     end
     
+    -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
     
-    if roll_b <= 50 and 0 < roll_c and max_attack_distance <= distance then
-        if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
-        else
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
-        end
-    end
+    -- GOAL_COMMON_SidewayMove does not work for non-navmesh NPCs
+    -- if roll_b <= 50 and 0 < roll_c and max_attack_distance <= distance then
+        -- if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
+            -- ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
+        -- else
+            -- ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Move and Guard
+        -- end
+    -- end
     
     if 60 <= stamina and 67 < roll_a then
         if roll_b <= 50 then
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
         elseif roll_b <= 75 then
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
         end
     elseif roll_b <= 50 then
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, max_attack_distance, 0, 0)
@@ -441,7 +390,7 @@ function NPC_SpurnedShade_Act02(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Light Kick
+-- Kick + Approach
 function NPC_SpurnedShade_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -462,6 +411,7 @@ function NPC_SpurnedShade_Act03(self, ai, goal)
         roll_c = 0
     end
     
+    -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
     
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R1, TARGET_ENE_0, 999, 0, 0) -- Kick
@@ -470,7 +420,7 @@ function NPC_SpurnedShade_Act03(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Heavy Kick
+-- Jump Attack + Approach
 function NPC_SpurnedShade_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -491,27 +441,30 @@ function NPC_SpurnedShade_Act04(self, ai, goal)
         roll_c = 0
     end
     
+    -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
     
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R2, TARGET_ENE_0, 999, 0, 0) -- Heavy Kick
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R2, TARGET_ENE_0, 999, 0, 0) -- Jump Attack + Approach
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Hold Stance and Attack
+-- WA: Stance
 function NPC_SpurnedShade_Act05(self, ai, goal)
-    local roll_a = 2.6
-    local max_attack_distance = KMorlianBlade_BOTH_ArtR2_DIST_MAX
+    local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
     
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
+    
     if self:GetRandam_Int(1, 100) <= 50 then
-        if roll_a < distance then
-            ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, roll_a, TARGET_SELF, false, NPC_ATK_L2Hold) -- Hold Stance and Approach
+        if max_attack_distance < distance then
+            ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold) -- Hold Stance and Approach
             ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Light Attack
         else
             ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpHold_L2Hold, TARGET_ENE_0, 999, 0, 0) -- Hold Stance with Up
@@ -529,7 +482,7 @@ function NPC_SpurnedShade_Act05(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Dash and Attack
+-- Approach + Running Attack
 function NPC_SpurnedShade_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -575,17 +528,17 @@ function NPC_SpurnedShade_Act10(self, ai, goal)
     
     if roll_a <= 50 then
         ai:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, const_a)   -- Dash to Enemy
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)               -- Right Light Attack
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)               -- Right Light Attack + Approach
     else
         ai:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, const_a)   -- Dash to Enemy
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)               -- Right Heavy Attack
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)               -- Right Heavy Attack + Approach
     end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Forward Roll / Roll Attack
+-- Backstep Roll
 function NPC_SpurnedShade_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
@@ -609,7 +562,7 @@ function NPC_SpurnedShade_Act11(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Forward Angled Directional Roll / Roll Attack
+-- Forward Roll + Run + Basic Light Attack
 function NPC_SpurnedShade_Act12(self, ai, goal)
     if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
@@ -642,7 +595,7 @@ function NPC_SpurnedShade_Act12(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Side Directional Roll / Roll Attack
+-- Side Roll + Run + Basic Light Attack
 function NPC_SpurnedShade_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -675,7 +628,7 @@ function NPC_SpurnedShade_Act13(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Back Angled Roll / Roll Attack
+-- Back Roll + Basic Light Attack
 function NPC_SpurnedShade_Act14(self, ai, goal)
     if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
@@ -728,7 +681,7 @@ function NPC_SpurnedShade_Act21(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Move and Guard
+-- Strafe
 function NPC_SpurnedShade_Act15(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
@@ -771,7 +724,7 @@ function NPC_SpurnedShade_Act15(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Leave Target and Guard
+-- Backstep Walk
 function NPC_SpurnedShade_Act16(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
@@ -779,9 +732,9 @@ function NPC_SpurnedShade_Act16(self, ai, goal)
     local max_attack_distance = 3.2
     
     if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, NPC_ATK_L1Hold)    -- Leave Target and Guard
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, NPC_ATK_L1Hold)    -- Backstep Walk
     else
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, NPC_ATK_L1Hold)     -- Leave Target and Guard
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, NPC_ATK_L1Hold)     -- Backstep Walk
     end
     
     GetWellSpace_Odds = 100
@@ -790,7 +743,13 @@ end
 
 -- Approach
 function NPC_SpurnedShade_Act17(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, 999, TARGET_SELF, false, -1)
+    local end_approach_distance = 5.0
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
+    else
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, NPC_ATK_L1Hold)
+    end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -865,7 +824,7 @@ function NPC_SpurnedShade_Act32(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 3) - Holy Schism
+-- Cast Spell (Slot 3) - Wrath of the Gods
 function NPC_SpurnedShade_Act33(self, ai, goal)
     self:ChangeEquipMagic(3) 
     local roll_a = self:GetRandam_Int(1, 100)
@@ -946,29 +905,29 @@ Goal.Interrupt = function (self, ai, goal)
         local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0)
         subgoal:SetLifeEndSuccess(true)
         
-        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
         return true
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_SpurnedShade_Act16(ai, goal, paramTbl) -- Leave Target and Guard
+                NPC_SpurnedShade_Act16(ai, goal, paramTbl) -- Backstep Walk
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_SpurnedShade_Act12(ai, goal, paramTbl) -- Forward Angled Directional Roll / Roll Attack
+                NPC_SpurnedShade_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_SpurnedShade_Act15(ai, goal, paramTbl) -- Move and Guard
+            NPC_SpurnedShade_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     end
     if ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_SpurnedShade_Act13(ai, goal) -- Side Directional Roll / Roll Attack
+        NPC_SpurnedShade_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false
