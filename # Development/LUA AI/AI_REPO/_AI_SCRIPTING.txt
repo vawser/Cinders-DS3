@@ -10,25 +10,25 @@ Capitalized arguments mean the value is an enum found in a list file such as ai_
  AddSubGoal( <based on goal> )
     GOAL_COMMON_AttackTunableSpin: 
         # Standard attack
-        <goal>, <time>, <animation>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
+        <goal>, <duration>, <animation>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
     GOAL_COMMON_Wait: 
         # Used to wait for a period of time
-        <goal>, <time>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
+        <goal>, <duration>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
     GOAL_COMMON_ComboTunable_SuccessAngle180: 
         # Allows attack no matter orientation 
-        <goal>, <time>, <animation>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
+        <goal>, <duration>, <animation>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
     GOAL_COMMON_SidewayMove:
         # Used for movement in stance
-        <goal>, <time>, <target>, <?>, <?>, <bool?>, <bool?>, <animation>
+        <goal>, <duration>, <target>, <?>, <?>, <bool?>, <bool?>, <animation>
     GOAL_COMMON_ApproachTarget
         # Used for approaching a target
-        <goal>, <time>, <enemy target>, <max_attack_distance>, <self target>, <bool?>, <animation>
+        <goal>, <duration>, <enemy target>, <max_attack_distance>, <self target>, <isWalk>, <animation>
     GOAL_COMMON_DashTarget
         # Used for dashing to a target
-        <goal>, <time>, <enemy target>, <max_attack_distance>, <self target>, <?>
+        <goal>, <duration>, <enemy target>, <max_attack_distance>, <self target>, <?>
     GOAL_COMMON_NPCStepAttack
         # Used for rolling attacks
-        <goal>, <time>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
+        <goal>, <duration>, <target>, <max_attack_distance>, <spin_time>, <turn_success_angle>
         
  <max_attack_distance>:  Maximum distance at which the attack can be used
  <spin_time>:            Time allowed for the entity to turn
