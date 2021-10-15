@@ -3595,7 +3595,7 @@ Event(20060, Default, function(X0_4) {
     
     SetEventFlag(25000020, ON); // Debug flag
     
-    SetCharacterAIState(4000895, Disabled);
+    ChangeCharacterEnableState(4000899, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });

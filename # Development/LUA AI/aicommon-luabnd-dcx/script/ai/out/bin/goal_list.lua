@@ -71,6 +71,7 @@ GOAL_NPC_Creighton = 29300
 GOAL_NPC_Aruba = 29400
 GOAL_NPC_Kirk = 29500
 GOAL_NPC_SpurnedShade = 29600
+GOAL_NPC_ThePursuer = 29700
 GOAL_Gunshuu_A102000_Battle = 102000
 GOAL_ProtoSkeleton_107000_Battle = 107000
 GOAL_ProtoSkeleton_107001_Battle = 107001

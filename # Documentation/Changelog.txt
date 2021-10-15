@@ -82,6 +82,7 @@ Finish following weapons:
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
+- Divorce no longer returns the Ring of Betrothal.
 
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
@@ -122,6 +123,9 @@ Finish following weapons:
 # Map:
 - Cathedral of the Deep:
  - Added 3 Ravenous Crystal Lizards and 3 Infested Corpses in the area used by the Cathedral Guardian previously.
+ 
+- Ariandel:
+ - Millwood Knight warp no longer requires Prince Dorthinus to be dead.
 
 # Merchants:
 - Marvelous Chester:
@@ -143,17 +147,11 @@ Adjust the broken questlines so they use a custom method of progression
 5122 Corrupted Bow
 
 # Relationships
-Add Spurned Shade boss in Abyss, available if you divorce a NPC. Only way to get the Betrothal Ring back.
- Fought by talking to Spurned Shade in Firelink, warps you to the Abyss and starts the fight
- 
 Change Flirt into Give Gift: description of what they like, and option to give them the item
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-35400 Spurned Shade [Abyss]
+# Intruders
+28700
 
-400515 Spurned Shade
-
-54000100 Ring of Betrothal pickup flag
-
-25009760 Spurned Shade warp
+GOAL_NPC_ThePursuer = 29700
