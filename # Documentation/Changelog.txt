@@ -75,10 +75,14 @@ Finish following weapons:
 - Princess Yngvil:
  - Reduced the frequency of the 3 location frost ring attack.
 
+# Intruders:
 - Spurned Shade:
  - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
- - Has an unique AI.
+ - Has a customised AI.
 
+- Pursuer:
+ - Now has a customised AI.
+ 
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.

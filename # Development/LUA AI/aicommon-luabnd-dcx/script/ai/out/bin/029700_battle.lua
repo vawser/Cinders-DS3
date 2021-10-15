@@ -40,7 +40,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0        -- Right Heavy Attack
         actChanceList[3] = 0        -- Light Kick
         actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 0        -- Hold Stance and Attack
+        actChanceList[5] = 0        -- Stomp
         
         actChanceList[10] = 0       -- Dash and Attack
         actChanceList[11] = 0       -- Forward Roll / Roll Attack
@@ -58,25 +58,25 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[23] = 0       -- Use Item (Slot 3) - Young White Branch
     -- 1 metres (close range)
     elseif distance >= 1 then
-        actChanceList[1] = 20       -- Right Light Attack
-        actChanceList[2] = 20       -- Right Heavy Attack
+        actChanceList[1] = 10       -- Right Light Attack
+        actChanceList[2] = 10       -- Right Heavy Attack
         actChanceList[3] = 0        -- Light Kick
         actChanceList[4] = 0        -- Heavy Kick
-        actChanceList[5] = 20       -- Hold Stance and Attack
+        actChanceList[5] = 10       -- Stomp
         
-        actChanceList[10] = 10      -- Dash and Attack
+        actChanceList[10] = 0       -- Dash and Attack
         actChanceList[11] = 0       -- Forward Roll / Roll Attack
         actChanceList[12] = 0       -- Forward Angled Directional Roll / Roll Attack
         actChanceList[13] = 0       -- Side Directional Roll / Roll Attack
         actChanceList[14] = 0       -- Back Angled Roll / Roll Attack
         
-        actChanceList[15] = 5       -- Strafe
+        actChanceList[15] = 10      -- Strafe
         actChanceList[16] = 0       -- Leave Target and Guard
-        actChanceList[17] = 5       -- Approach
+        actChanceList[17] = 0       -- Approach
         
         actChanceList[20] = 0       -- Use Item (Slot 0) - Divine Blessing
         actChanceList[21] = 0       -- Use Item (Slot 1) - Green Blossom
-        actChanceList[22] = 0       -- Use Item (Slot 2) - Firebomb
+        actChanceList[22] = 10      -- Use Item (Slot 2) - Firebomb
         actChanceList[23] = 0       -- Use Item (Slot 3) - Young White Branch
     -- 0 metres (touching)
     else
@@ -84,7 +84,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 20       -- Right Heavy Attack
         actChanceList[3] = 20       -- Light Kick
         actChanceList[4] = 20       -- Heavy Kick
-        actChanceList[5] = 20       -- Hold Stance and Attack
+        actChanceList[5] = 20       -- Stomp
         
         actChanceList[10] = 0       -- Dash and Attack
         actChanceList[11] = 0       -- Forward Roll / Roll Attack
@@ -98,7 +98,7 @@ Goal.Activate = function (self, ai, goal)
         
         actChanceList[20] = 0       -- Use Item (Slot 0) - Divine Blessing
         actChanceList[21] = 0       -- Use Item (Slot 1) - Green Blossom
-        actChanceList[22] = 0       -- Use Item (Slot 2) - Firebomb
+        actChanceList[22] = 10      -- Use Item (Slot 2) - Firebomb
         actChanceList[23] = 0       -- Use Item (Slot 3) - Young White Branch
     end
     
@@ -159,7 +159,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act02)    -- Right Heavy Attack
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act03)    -- Light Kick
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act04)    -- Heavy Kick
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act05)    -- Hold Stance and Attack
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act05)    -- Stomp
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Pursuer_Act10)   -- Dash and Attack
@@ -400,30 +400,34 @@ function NPC_Pursuer_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Hold Stance and Attack
+-- Stomp
 function NPC_Pursuer_Act05(self, ai, goal)
-    local roll_a = 2.6
-    local max_attack_distance = KMorlianBlade_BOTH_ArtR2_DIST_MAX
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local roll_c = self:GetRandam_Int(1, 100)
+    local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
     
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
-    if self:GetRandam_Int(1, 100) <= 50 then
-        if roll_a < distance then
-            ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, roll_a, TARGET_SELF, false, NPC_ATK_L2Hold) -- Hold Stance and Approach
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Light Attack
-        else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpHold_L2Hold, TARGET_ENE_0, 999, 0, 0) -- Hold Stance with Up
-            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Light Attack
+    if roll_a >= 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L2, TARGET_ENE_0, max_attack_distance, 0, 0) -- WA Start
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack
+        
+        -- Follow up: WA Right Light Attack
+        if roll_b >= 25 then
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack
         end
-    elseif max_attack_distance < distance then
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold) -- Hold Stance and Approach
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Heavy Attack
+        
+        -- Follow up: WA Right Light Attack
+        if roll_c >= 25 then
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Light Attack
+        end
     else
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpHold_L2Hold, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance with Up
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Light Attack
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L2, TARGET_ENE_0, max_attack_distance, 0, 0) -- WA Start
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0)  -- WA Right Heavy Attack
     end
     
     GetWellSpace_Odds = 100
@@ -711,7 +715,13 @@ end
 
 -- Approach
 function NPC_Pursuer_Act17(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, 999, TARGET_SELF, false, -1)
+    local end_approach_distance = 1.0
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
+    else
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, NPC_ATK_L1Hold)
+    end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
