@@ -276,7 +276,6 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         elif GetTalkListEntryResult() == 32:
             assert t400120_x6(text1=10101020, flag1=0, mode1=0)
             SetEventState(25008020, 0)
-            GetItemFromItemLot(91000)
             return 0
         # Seduce
         elif GetTalkListEntryResult() == 33:

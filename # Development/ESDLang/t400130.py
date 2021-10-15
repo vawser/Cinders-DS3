@@ -227,7 +227,6 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         elif GetTalkListEntryResult() == 12:
             assert t400130_x6(text1=10108020, flag1=0, mode1=0)
             SetEventState(25008100, 0)
-            GetItemFromItemLot(91000)
             return 0
         # Masteries
         elif GetTalkListEntryResult() == 20:

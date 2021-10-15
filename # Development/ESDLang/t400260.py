@@ -204,7 +204,6 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
         elif GetTalkListEntryResult() == 12:
             assert t400260_x5(text1=10114020, flag1=0, mode1=0)
             SetEventState(25008160, 0)
-            GetItemFromItemLot(91000)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 7,15 """

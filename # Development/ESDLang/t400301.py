@@ -502,7 +502,6 @@ def t400301_x21():
         elif GetTalkListEntryResult() == 12:
             assert t400301_x5(text3=10115020, flag5=0, mode1=0)
             SetEventState(25008170, 0)
-            GetItemFromItemLot(91000)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 9 """

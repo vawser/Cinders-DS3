@@ -206,7 +206,6 @@ def t341500_x9():
         elif GetTalkListEntryResult() == 12:
             assert t341500_x10(text1=10124020, flag1=0, mode1=0)
             SetEventState(25008260, 0)
-            GetItemFromItemLot(91000)
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:

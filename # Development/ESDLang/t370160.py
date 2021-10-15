@@ -219,7 +219,6 @@ def t370160_x10():
         elif GetTalkListEntryResult() == 12:
             assert t370160_x40(text1=10104020, flag1=0, mode1=0)
             SetEventState(25008060, 0)
-            GetItemFromItemLot(91000)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 6,10 """

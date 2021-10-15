@@ -390,7 +390,6 @@ def t400220_x15(goods1=2118):
         elif GetTalkListEntryResult() == 32:
             assert t400220_x6(text1=10118020, flag2=0, mode1=0)
             SetEventState(25008200, 0)
-            GetItemFromItemLot(91000)
             return 0
         else:
             """State 9,18"""

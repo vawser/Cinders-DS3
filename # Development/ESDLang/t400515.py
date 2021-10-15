@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- UNUSED
+#-- Spurned Shade
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -149,6 +149,8 @@ def t400515_x7():
 # Menu Pre-loop
 def t400515_x8():
     """ State 0,1 """
+    assert t400515_x10(text1=10125000, flag1=0, mode1=0)
+    
     assert t400515_x9()
     """ State 24 """
     return 0
@@ -159,11 +161,8 @@ def t400515_x9():
     while True:
         ClearTalkListData()
        
-        # Learn the Dark Arts
-        AddTalkListData(1, 15003023, -1)
-        
-        # Talk
-        AddTalkListData(2, 15000000, -1)
+        # Face the Spurned Shade
+        AddTalkListData(1, 15003034, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -172,14 +171,10 @@ def t400515_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Learn the Dark Arts
+        # Face the Spurned Shade
         if GetTalkListEntryResult() == 1:
-            OpenRegularShop(240000, 249999)
-            continue
-        # Talk
-        elif GetTalkListEntryResult() == 2:
-            assert t400515_x10(text1=10017000, flag1=0, mode1=0)
-            continue
+            SetEventState(25009760, 1)
+            return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()

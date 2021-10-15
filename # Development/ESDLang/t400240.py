@@ -393,7 +393,6 @@ def t400240_x16(goods1=2127, goods2=2128, goods3=2129, goods4=2130, goods5=2131,
         elif GetTalkListEntryResult() == 32:
             assert t400240_x5(text1=10113020, flag2=0, mode1=0)
             SetEventState(25008150, 0)
-            GetItemFromItemLot(91000)
             return 0
         else:
             """ State 7,17 """

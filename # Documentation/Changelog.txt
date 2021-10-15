@@ -75,6 +75,14 @@ Finish following weapons:
 - Princess Yngvil:
  - Reduced the frequency of the 3 location frost ring attack.
 
+- Spurned Shade:
+ - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
+ - Has an unique AI.
+
+# NPCs:
+- Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
+ - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
+
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
 - Removed the Stamina cost of all spells.
@@ -146,15 +154,6 @@ Change Flirt (good) to instead give a Memory of Affection, that boosts survival 
 
 400515 Spurned Shade
 
-19120000 Black Flame
-95000000 
-95001000
-95002000
-95003000
+54000100 Ring of Betrothal pickup flag
 
-4103000 Great Soul Dregs
-4105000 Abyssal Edge
-4113010 Pursuers
-4307000 Vow of Agony
-4209010 Scorching Mournful Flames
-
+25009760 Spurned Shade warp

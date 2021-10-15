@@ -223,7 +223,6 @@ def t400140_x9():
         # Divorce
         elif GetTalkListEntryResult() == 12:
             SetEventState(25008110, 0)
-            GetItemFromItemLot(91000)
             assert t400140_x6(text1=10109020, flag2=0, mode1=0)
             return 0
         else:

@@ -228,7 +228,6 @@ def t400504_x9():
         elif GetTalkListEntryResult() == 12:
             assert t400504_x10(text1=10117020, flag1=0, mode1=0)
             SetEventState(25008190, 0)
-            GetItemFromItemLot(91000)
             return 0
         # Bestow the Lordvessel
         elif GetTalkListEntryResult() == 5:

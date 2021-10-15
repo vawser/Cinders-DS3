@@ -220,7 +220,6 @@ def t400506_x9():
         elif GetTalkListEntryResult() == 12:
             assert t400506_x10(text1=10121020, flag1=0, mode1=0)
             SetEventState(25008230, 0)
-            GetItemFromItemLot(91000)
             return 0
         # Talk
         elif GetTalkListEntryResult() == 2:
