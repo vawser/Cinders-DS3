@@ -37,11 +37,38 @@ Goal.Activate = function (self, ai, goal)
     -- Act Distribution
     ----------------------------------
     if distance >= 7 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Flame Whip
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 10 -- Approach
+        
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Sorcerous Knife
+        actChanceList[21] = 10 -- Use Item (Slot 1) - Flaming Knife
+        actChanceList[22] = 10 -- Use Item (Slot 2) - Sparking Knife
+        actChanceList[23] = 10 -- Use Item (Slot 3) - Abyssal Knife
+        actChanceList[24] = 10 -- Use Item (Slot 4) - Poisonous Knife
+        actChanceList[25] = 10 -- Use Item (Slot 5) - Cursed Knife
+        actChanceList[26] = 10 -- Use Item (Slot 6) - Lacerating Knife
+        actChanceList[27] = 10 -- Use Item (Slot 7) - Frigid Knife
+        
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Toxic Mist
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Acid Surge
+    elseif distance >= 3 then
         actChanceList[1] = 10 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[5] = 10 -- WA: Flame Whip
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -52,38 +79,23 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Sorcerous Knife
+        actChanceList[21] = 10 -- Use Item (Slot 1) - Flaming Knife
+        actChanceList[22] = 10 -- Use Item (Slot 2) - Sparking Knife
+        actChanceList[23] = 10 -- Use Item (Slot 3) - Abyssal Knife
+        actChanceList[24] = 10 -- Use Item (Slot 4) - Poisonous Knife
+        actChanceList[25] = 10 -- Use Item (Slot 5) - Cursed Knife
+        actChanceList[26] = 10 -- Use Item (Slot 6) - Lacerating Knife
+        actChanceList[27] = 10 -- Use Item (Slot 7) - Frigid Knife
         
-        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
-    elseif distance >= 3 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
-        actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
-        
-        actChanceList[10] = 10 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
-        actChanceList[16] = 0 -- Backstep Walk
-        actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Toxic Mist
+        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Acid Surge
     else
         actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 20 -- Right Heavy Attack + Approach
-        actChanceList[3] = 15 -- Kick + Approach
-        actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Stance
+        actChanceList[3] = 20 -- Kick + Approach
+        actChanceList[4] = 10 -- Jump Attack + Approach
+        actChanceList[5] = 20 -- WA: Flame Whip
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
@@ -94,11 +106,17 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Sorcerous Knife
+        actChanceList[21] = 3 -- Use Item (Slot 1) - Flaming Knife
+        actChanceList[22] = 3 -- Use Item (Slot 2) - Sparking Knife
+        actChanceList[23] = 3 -- Use Item (Slot 3) - Abyssal Knife
+        actChanceList[24] = 3 -- Use Item (Slot 4) - Poisonous Knife
+        actChanceList[25] = 3 -- Use Item (Slot 5) - Cursed Knife
+        actChanceList[26] = 3 -- Use Item (Slot 6) - Lacerating Knife
+        actChanceList[27] = 3 -- Use Item (Slot 7) - Frigid Knife
+       
+        actChanceList[30] = 3 -- Cast Spell (Slot 0) - Toxic Mist
+        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Acid Surge
     end
     
     ----------------------------------
@@ -106,41 +124,32 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Snipe the player is they are low
     if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
-        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
+        actChanceList[20] = actChanceList[20] + 10 -- Use Item (Slot 0) - Sorcerous Knife
+        actChanceList[21] = actChanceList[21] + 10 -- Use Item (Slot 1) - Flaming Knife
+        actChanceList[22] = actChanceList[22] + 10 -- Use Item (Slot 2) - Sparking Knife
+        actChanceList[23] = actChanceList[23] + 10 -- Use Item (Slot 3) - Abyssal Knife
+        actChanceList[24] = actChanceList[24] + 10 -- Use Item (Slot 4) - Poisonous Knife
+        actChanceList[25] = actChanceList[25] + 10 -- Use Item (Slot 5) - Cursed Knife
+        actChanceList[26] = actChanceList[26] + 10 -- Use Item (Slot 6) - Lacerating Knife
+        actChanceList[27] = actChanceList[27] + 10 -- Use Item (Slot 7) - Frigid Knife
     end
     
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Gold Pine Resin
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Sorcerous Knife
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Flaming Knife
+        actChanceList[22] = 0 -- Use Item (Slot 2) - Sparking Knife
+        actChanceList[23] = 0 -- Use Item (Slot 3) - Abyssal Knife
+        actChanceList[24] = 0 -- Use Item (Slot 4) - Poisonous Knife
+        actChanceList[25] = 0 -- Use Item (Slot 5) - Cursed Knife
+        actChanceList[26] = 0 -- Use Item (Slot 6) - Lacerating Knife
+        actChanceList[27] = 0 -- Use Item (Slot 7) - Frigid Knife
     end
     
-    -- Punish a defensive player by healing
-    if ai:IsTargetGuard(TARGET_ENE_0) and hp_rate <= 0.75 then
-        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Great Heal
-    end
-    
-    -- Use Great Heal more often once below 50% HP
-    if hp_rate <= 0.5 then
-        actChanceList[31] = 20 -- Cast Spell (Slot 1) - Great Heal
-    end
-    
-    -- Block repeat usage of Gold Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-    end
-    
-    -- Block repeat usage of Tears of Denial while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 103520000)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 103520000) then
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
-    end
-    
-    -- Block WA if stamina when low on stamina
-    if stamina < 40 then
-        actChanceList[5] = 0 -- WA: Stance
+    -- Punish a defensive player with Toxic Mist/Acid Surge
+    if ai:IsTargetGuard(TARGET_ENE_0) then
+        actChanceList[30] = actChanceList[30] + 20 -- Cast Spell (Slot 0) - Toxic Mist
+        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Acid Surge
     end
     
     -- Block dash and rolls when low on stamina
@@ -198,7 +207,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Sharron_Act02) -- Right Heavy Attack + Approach
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Sharron_Act03) -- Kick + Approach
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Sharron_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Sharron_Act05) -- WA: Stance
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Sharron_Act05) -- WA: Flame Whip
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Sharron_Act10) -- Approach + Running Attack
@@ -211,12 +220,18 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Sharron_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Sharron_Act20)   -- Use Item (Slot 0) - Gold Pine Resin
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Sharron_Act20)   -- Use Item (Slot 0) - Sorcerous Knife
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Sharron_Act21)   -- Use Item (Slot 1) - Flaming Knife
+    actFuncList[22] = REGIST_FUNC(ai, goal, NPC_Sharron_Act22)   -- Use Item (Slot 2) - Sparking Knife
+    actFuncList[23] = REGIST_FUNC(ai, goal, NPC_Sharron_Act23)   -- Use Item (Slot 3) - Abyssal Knife
+    actFuncList[24] = REGIST_FUNC(ai, goal, NPC_Sharron_Act24)   -- Use Item (Slot 4) - Poisonous Knife
+    actFuncList[25] = REGIST_FUNC(ai, goal, NPC_Sharron_Act25)   -- Use Item (Slot 5) - Cursed Knife
+    actFuncList[26] = REGIST_FUNC(ai, goal, NPC_Sharron_Act26)   -- Use Item (Slot 6) - Lacerating Knife
+    actFuncList[27] = REGIST_FUNC(ai, goal, NPC_Sharron_Act27)   -- Use Item (Slot 7) - Frigid Knife
     
     -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Sharron_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Sharron_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Sharron_Act32) -- Cast Spell (Slot 2) - Tears of Denial
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Sharron_Act30) -- Cast Spell (Slot 0) - Toxic Mist
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Sharron_Act31) -- Cast Spell (Slot 1) - Acid Surge
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Sharron_ActAfter_AdjustSpace), actTblList)
     return 
@@ -445,7 +460,7 @@ function NPC_Sharron_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Stance
+-- WA: Flame Whip
 function NPC_Sharron_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
@@ -458,14 +473,8 @@ function NPC_Sharron_Act05(self, ai, goal)
     -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
     
-    -- Stance -> Light or Heavy attack
-    if roll_a <= 50 then
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
-    else
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
-    end
+    -- WA
+    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -724,17 +733,87 @@ function NPC_Sharron_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Gold Pine Resin
+-- Use Item (Slot 0) - Sorcerous Knife
 function NPC_Sharron_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
+    self:SetStringIndexedNumber("Sorcerous Knife", self:GetStringIndexedNumber("Sorcerous Knife") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Lightning Arrow
+-- Use Item (Slot 1) - Flaming Knife
+function NPC_Sharron_Act21(self, ai, goal)
+    self:ChangeEquipItem(1) 
+    self:SetStringIndexedNumber("Flaming Knife", self:GetStringIndexedNumber("Flaming Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 2) - Sparking Knife
+function NPC_Sharron_Act22(self, ai, goal)
+    self:ChangeEquipItem(2) 
+    self:SetStringIndexedNumber("Sparking Knife", self:GetStringIndexedNumber("Sparking Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 3) - Abyssal Knife
+function NPC_Sharron_Act23(self, ai, goal)
+    self:ChangeEquipItem(3) 
+    self:SetStringIndexedNumber("Abyssal Knife", self:GetStringIndexedNumber("Abyssal Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 4) - Poisonous Knife
+function NPC_Sharron_Act24(self, ai, goal)
+    self:ChangeEquipItem(4) 
+    self:SetStringIndexedNumber("Poisonous Knife", self:GetStringIndexedNumber("Poisonous Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 5) - Cursed Knife
+function NPC_Sharron_Act25(self, ai, goal)
+    self:ChangeEquipItem(5) 
+    self:SetStringIndexedNumber("Cursed Knife", self:GetStringIndexedNumber("Cursed Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 6) - Lacerating Knife
+function NPC_Sharron_Act26(self, ai, goal)
+    self:ChangeEquipItem(6) 
+    self:SetStringIndexedNumber("Lacerating Knife", self:GetStringIndexedNumber("Lacerating Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Use Item (Slot 7) - Frigid Knife
+function NPC_Sharron_Act27(self, ai, goal)
+    self:ChangeEquipItem(7) 
+    self:SetStringIndexedNumber("Frigid Knife", self:GetStringIndexedNumber("Frigid Knife") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 0) - Toxic Mist
 function NPC_Sharron_Act30(self, ai, goal)
     self:ChangeEquipMagic(0) 
     local roll_a = self:GetRandam_Int(1, 100)
@@ -748,16 +827,16 @@ function NPC_Sharron_Act30(self, ai, goal)
     
     -- Cast Spell with Left Light Attack
     local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(2, 4), UPDATE_SUCCESS)
     subgoal:SetLifeEndSuccess(true)
     
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 1) - Great Heal
+-- Cast Spell (Slot 1) - Acid Surge
 function NPC_Sharron_Act31(self, ai, goal)
     self:ChangeEquipMagic(1) 
     local roll_a = self:GetRandam_Int(1, 100)
@@ -771,33 +850,10 @@ function NPC_Sharron_Act31(self, ai, goal)
     
     -- Cast Spell with Left Light Attack
     local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
+    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(2, 4), UPDATE_SUCCESS)
     subgoal:SetLifeEndSuccess(true)
     
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Tears of Denial
-function NPC_Sharron_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds

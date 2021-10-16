@@ -86,6 +86,7 @@ Finish following weapons:
 - Holy Knight Morton: now has a custom AI, expanded loadout.
 - Tiny: now has a custom AI, expanded loadout.
 - Captain Morrel: now has a custom AI.
+- Dominatrix Sharron: now has a custom AI, expanded loadout.
  
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -160,20 +161,11 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-Witch's Locks
-Parrying Dagger # L1
+Sanctum Mace
 
-320 Sorcerous Knife
-321 Flaming Knife
-322 Sparking Knife
-323 Abyssal Knife
-311 Poisonous Knife
-324 Cursed Knife
-325 Lacerating Knife
-326 Frigid Knife
+Firebomb
 
 # Intruders
-GOAL_NPC_Sharron = 30500
 GOAL_NPC_Norjask = 30600
 GOAL_NPC_Dyfan = 30700
 GOAL_NPC_Eygor = 30800
