@@ -82,7 +82,9 @@ Finish following weapons:
 
 - Pursuer: now has a customised AI.
 - Luyila of Londor: now has a customised AI.
-- Forgotten Locklin: now has a customised AI.
+- Forgotten Locklin: now has a customised AI, expanded loadout.
+- Holy Knight Morton: now has a customised AI, expanded loadout.
+- Tiny: now has a customised AI, expanded loadout.
  
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -156,20 +158,10 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-Gargoyle Flame Hammer 
-Gargoyle Shield # L1
-Pyromancy Flame # L2
-
-2711000 Heave Earth
-2712000 Earthquake
-2710000 Earthfall
-2713000 Rockflesh
+Lothric Knight Greatsword # Stomp
+Lothric Knight Shield # Parry
 
 # Intruders
-GOAL_NPC_Luyila = 30000
-GOAL_NPC_Locklin = 30100
-GOAL_NPC_Morton = 30200
-GOAL_NPC_Tiny = 30300
 GOAL_NPC_Morrel = 30400
 GOAL_NPC_Sharron = 30500
 GOAL_NPC_Norjask = 30600

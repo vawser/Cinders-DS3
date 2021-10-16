@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Locklin, "GOAL_NPC_Locklin")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Locklin, true)
+RegisterTableGoal(GOAL_NPC_Morrel, "GOAL_NPC_Morrel")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Morrel, true)
 
 -------------------------
 -- Initialize
@@ -12,8 +12,6 @@ end
 -- Activate
 -------------------------
 Goal.Activate = function (self, ai, goal)
-    local local0 = ai:GetEventRequest(2)
-
     Init_Pseudo_Global(ai, goal)
     
     ai:SetStringIndexedNumber("Dist_Rolling", 3.0)      -- Distance to roll at
@@ -42,10 +40,10 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[1] = 10 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Kindled Flurry
+        actChanceList[4] = 10 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Warcry
         
-        actChanceList[10] = 20 -- Approach + Running Attack
+        actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
@@ -54,16 +52,13 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Heave Earth
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Earthquake
-        actChanceList[32] = 20 -- Cast Spell (Slot 2) - Earthfall
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Rockflesh
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Dung Pie
     elseif distance >= 3 then
         actChanceList[1] = 10 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Kindled Flurry
+        actChanceList[5] = 5 -- WA: Warcry
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -74,54 +69,50 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Heave Earth
-        actChanceList[31] = 20 -- Cast Spell (Slot 1) - Earthquake
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Earthfall
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Rockflesh
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Dung Pie
     else
         actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 20 -- Right Heavy Attack + Approach
-        actChanceList[3] = 20 -- Kick + Approach
+        actChanceList[3] = 15 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Kindled Flurry
+        actChanceList[5] = 10 -- WA: Warcry
         
         actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 10 -- Backstep Roll
-        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 10 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 10 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 5 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Heave Earth
-        actChanceList[31] = 10 -- Cast Spell (Slot 1) - Earthquake
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Earthfall
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Rockflesh
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Dung Pie
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
+    -- Invalid Item check
+    if speffect_no_invalid_item then
+        actChanceList[20] = 0       -- Use Item (Slot 0) - Dung Pie
+    end
+    
+    -- Punish a defensive player by throwing poo
     if ai:IsTargetGuard(TARGET_ENE_0) then
-        actChanceList[5] = actChanceList[5] + 30 -- WA: Kindled Flurry
+        actChanceList[20] = 50 -- Use Item (Slot 0) - Dung Pie
     end
     
-    -- Use Rockflesh once below 50% HP
-    if hp_rate <= 0.5 then
-        actChanceList[33] = 100 -- Cast Spell (Slot 3) - Rockflesh
+    -- Block repeat usage of Warcry while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 130080600)
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 130080650)
+    
+    if ai:HasSpecialEffectId(TARGET_SELF, 130080600) or ai:HasSpecialEffectId(TARGET_SELF, 130080650) then
+        actChanceList[5] = 0 -- WA: Warcry
     end
     
-     -- Block repeat usage of Rockflesh
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 160500200)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 160500200) then
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Rockflesh
-    end
-    
-    -- Block WA when low on stamina
-    if stamina < 80 then
-        actChanceList[5] = 0 -- WA: Kindled Flurry
+    -- Block WA if stamina when low on stamina
+    if stamina < 40 then
+        actChanceList[5] = 0 -- WA: Warcry
     end
     
     -- Block dash and rolls when low on stamina
@@ -175,29 +166,26 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Locklin_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Locklin_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Locklin_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Locklin_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Locklin_Act05) -- WA: Kindled Flurry
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Morrel_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Morrel_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Morrel_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Morrel_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Morrel_Act05) -- WA: Warcry
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Locklin_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Locklin_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Locklin_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Locklin_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Locklin_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Locklin_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Locklin_Act16) -- Backstep Walk
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Locklin_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Morrel_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Morrel_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Morrel_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Morrel_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Morrel_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Morrel_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Morrel_Act16) -- Backstep Walk
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Morrel_Act17) -- Approach
     
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Locklin_Act30) -- Cast Spell (Slot 0) - Heave Earth
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Locklin_Act31) -- Cast Spell (Slot 1) - Earthquake
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Locklin_Act32) -- Cast Spell (Slot 2) - Earthfall
-    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_Locklin_Act33) -- Cast Spell (Slot 3) - Rockflesh
+    -- Items
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Morrel_Act20)   -- Use Item (Slot 0) - Dung Pie
     
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Locklin_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Morrel_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -205,13 +193,18 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Locklin_Act01(self, ai, goal)
+function NPC_Morrel_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
     
     local max_attack_distance = 2.1
     local roll_b   = 100
+    
+    -- Force 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.1
@@ -281,13 +274,18 @@ function NPC_Locklin_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Locklin_Act02(self, ai, goal)
+function NPC_Morrel_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local max_attack_distance = 2.2
     local roll_c = 100
+    
+    -- Force 2H 50% of the time
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.2
@@ -365,12 +363,17 @@ function NPC_Locklin_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Locklin_Act03(self, ai, goal)
+function NPC_Morrel_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local max_attack_distance = 1.6
     local roll_c = 0
+    
+    -- Force 2H 50% of the time
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.6
@@ -395,12 +398,17 @@ function NPC_Locklin_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Locklin_Act04(self, ai, goal)
+function NPC_Morrel_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local max_attack_distance = 4.8
     local roll_c = 100
+    
+    -- Force 2H 50% of the time
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 5.6
@@ -424,31 +432,32 @@ function NPC_Locklin_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Kindled Flurry
-function NPC_Locklin_Act05(self, ai, goal)
+-- WA: Warcry
+function NPC_Morrel_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
-    
+
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    
-    -- Approach
-    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
-    
-    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold) -- Hold Stance and Approach
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)  -- Hold Stance into Stance Heavy Attack
+
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Approach + Running Attack
-function NPC_Locklin_Act10(self, ai, goal)
+function NPC_Morrel_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
     local const_a = 4
+    
+    -- Force 2H 50% of the time
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 3.2
@@ -500,7 +509,7 @@ function NPC_Locklin_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Locklin_Act11(self, ai, goal)
+function NPC_Morrel_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
@@ -524,7 +533,7 @@ function NPC_Locklin_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Locklin_Act12(self, ai, goal)
+function NPC_Morrel_Act12(self, ai, goal)
     if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
     elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -557,7 +566,7 @@ function NPC_Locklin_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Locklin_Act13(self, ai, goal)
+function NPC_Morrel_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -590,7 +599,7 @@ function NPC_Locklin_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Locklin_Act14(self, ai, goal)
+function NPC_Morrel_Act14(self, ai, goal)
     if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -623,7 +632,7 @@ function NPC_Locklin_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Locklin_Act15(self, ai, goal)
+function NPC_Morrel_Act15(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -666,7 +675,7 @@ function NPC_Locklin_Act15(self, ai, goal)
 end
 
 -- Backstep Walk
-function NPC_Locklin_Act16(self, ai, goal)
+function NPC_Morrel_Act16(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -683,7 +692,7 @@ function NPC_Locklin_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Locklin_Act17(self, ai, goal)
+function NPC_Morrel_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     
     if self:IsBothHandMode(TARGET_SELF) then
@@ -696,93 +705,11 @@ function NPC_Locklin_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Heave Earth
-function NPC_Locklin_Act30(self, ai, goal)
-    self:ChangeEquipMagic(0) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(1, 2), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 1) - Earthquake
-function NPC_Locklin_Act31(self, ai, goal)
-    self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(3, 6), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Earthfall
-function NPC_Locklin_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 3) - Rockflesh
-function NPC_Locklin_Act33(self, ai, goal)
-    self:ChangeEquipMagic(3) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(3, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
+-- Use Item (Slot 0) - Dung Pie
+function NPC_Morrel_Act20(self, ai, goal)
+    self:ChangeEquipItem(0) 
+    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -791,7 +718,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Locklin_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Morrel_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -817,7 +744,7 @@ Goal.Interrupt = function (self, ai, goal)
     local distance  = ai:GetDist(TARGET_ENE_0)
     local roll      = ai:GetRandam_Int(1, 100)
     
-    -- Occurs if the player has been guard broken
+     -- Occurs if the player has been guard broken
     if ai:IsInterupt(INTERUPT_GuardBreak) and distance < 3 then
         goal:ClearSubGoal()
         
@@ -832,31 +759,38 @@ Goal.Interrupt = function (self, ai, goal)
         if not ai:IsBothHandMode(TARGET_SELF) then
             if distance < 2 and roll <= 50 and 20 <= stamina then
                 goal:ClearSubGoal()
-                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Shield Bash)
+                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true
             end
         end
+    -- Occurs if a parry has been applied to the player
+    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
+        goal:ClearSubGoal()
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
+        subgoal:SetLifeEndSuccess(true)
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
+        return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Locklin_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Morrel_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Locklin_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Morrel_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Locklin_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Morrel_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
-    end
+    -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Locklin_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Morrel_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false
