@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Morrel, "GOAL_NPC_Morrel")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Morrel, true)
+RegisterTableGoal(GOAL_NPC_Sharron, "GOAL_NPC_Sharron")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Sharron, true)
 
 -------------------------
 -- Initialize
@@ -41,7 +41,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Warcry
+        actChanceList[5] = 0 -- WA: Stance
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -52,13 +52,17 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Dung Pie
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
+        
+        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Lightning Arrow
+        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
+        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
     elseif distance >= 3 then
         actChanceList[1] = 10 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 5 -- WA: Warcry
+        actChanceList[5] = 0 -- WA: Stance
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -69,13 +73,17 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 10 -- Use Item (Slot 0) - Dung Pie
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
+        
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
+        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
+        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
     else
         actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 20 -- Right Heavy Attack + Approach
         actChanceList[3] = 15 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Warcry
+        actChanceList[5] = 20 -- WA: Stance
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
@@ -86,33 +94,53 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 10 -- Use Item (Slot 0) - Dung Pie
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
+        
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
+        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
+        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
+    -- Snipe the player is they are low
+    if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
+        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
+    end
+    
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Dung Pie
+        actChanceList[20] = 0       -- Use Item (Slot 0) - Gold Pine Resin
     end
     
-    -- Punish a defensive player by throwing poo
-    if ai:IsTargetGuard(TARGET_ENE_0) then
-        actChanceList[20] = 50 -- Use Item (Slot 0) - Dung Pie
+    -- Punish a defensive player by healing
+    if ai:IsTargetGuard(TARGET_ENE_0) and hp_rate <= 0.75 then
+        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Great Heal
     end
     
-    -- Block repeat usage of Warcry while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 130080600)
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 130080650)
+    -- Use Great Heal more often once below 50% HP
+    if hp_rate <= 0.5 then
+        actChanceList[31] = 20 -- Cast Spell (Slot 1) - Great Heal
+    end
     
-    if ai:HasSpecialEffectId(TARGET_SELF, 130080600) or ai:HasSpecialEffectId(TARGET_SELF, 130080650) then
-        actChanceList[5] = 0 -- WA: Warcry
+    -- Block repeat usage of Gold Pine Resin while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
+    
+    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
+    end
+    
+    -- Block repeat usage of Tears of Denial while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 103520000)
+    
+    if ai:HasSpecialEffectId(TARGET_SELF, 103520000) then
+        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
     end
     
     -- Block WA if stamina when low on stamina
     if stamina < 40 then
-        actChanceList[5] = 0 -- WA: Warcry
+        actChanceList[5] = 0 -- WA: Stance
     end
     
     -- Block dash and rolls when low on stamina
@@ -166,26 +194,31 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Morrel_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Morrel_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Morrel_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Morrel_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Morrel_Act05) -- WA: Warcry
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Sharron_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Sharron_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Sharron_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Sharron_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Sharron_Act05) -- WA: Stance
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Morrel_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Morrel_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Morrel_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Morrel_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Morrel_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Morrel_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Morrel_Act16) -- Backstep Walk
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Morrel_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Sharron_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Sharron_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Sharron_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Sharron_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Sharron_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Sharron_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Sharron_Act16) -- Backstep Walk
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Sharron_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Morrel_Act20)   -- Use Item (Slot 0) - Dung Pie
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Sharron_Act20)   -- Use Item (Slot 0) - Gold Pine Resin
     
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Morrel_ActAfter_AdjustSpace), actTblList)
+    -- Spells
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Sharron_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Sharron_Act31) -- Cast Spell (Slot 1) - Great Heal
+    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Sharron_Act32) -- Cast Spell (Slot 2) - Tears of Denial
+    
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Sharron_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -193,18 +226,13 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Morrel_Act01(self, ai, goal)
+function NPC_Sharron_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
     
     local max_attack_distance = 2.1
     local roll_b   = 100
-    
-    -- Force 2H
-    if not self:IsBothHandMode(TARGET_SELF) then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.1
@@ -274,18 +302,13 @@ function NPC_Morrel_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Morrel_Act02(self, ai, goal)
+function NPC_Sharron_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local max_attack_distance = 2.2
     local roll_c = 100
-    
-    -- Force 2H 50% of the time
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.2
@@ -363,17 +386,12 @@ function NPC_Morrel_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Morrel_Act03(self, ai, goal)
+function NPC_Sharron_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local max_attack_distance = 1.6
     local roll_c = 0
-    
-    -- Force 2H 50% of the time
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.6
@@ -398,17 +416,12 @@ function NPC_Morrel_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Morrel_Act04(self, ai, goal)
+function NPC_Sharron_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local max_attack_distance = 4.8
     local roll_c = 100
-    
-    -- Force 2H 50% of the time
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 5.6
@@ -432,32 +445,38 @@ function NPC_Morrel_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Warcry
-function NPC_Morrel_Act05(self, ai, goal)
+-- WA: Stance
+function NPC_Sharron_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
-
+    local roll_a = self:GetRandam_Int(1, 100)
+    
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
+    
+    -- Stance -> Light or Heavy attack
+    if roll_a <= 50 then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
+    else
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
+    end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Approach + Running Attack
-function NPC_Morrel_Act10(self, ai, goal)
+function NPC_Sharron_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
     local const_a = 4
-    
-    -- Force 2H 50% of the time
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 3.2
@@ -509,7 +528,7 @@ function NPC_Morrel_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Morrel_Act11(self, ai, goal)
+function NPC_Sharron_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
@@ -533,7 +552,7 @@ function NPC_Morrel_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Morrel_Act12(self, ai, goal)
+function NPC_Sharron_Act12(self, ai, goal)
     if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
     elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -566,7 +585,7 @@ function NPC_Morrel_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Morrel_Act13(self, ai, goal)
+function NPC_Sharron_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -599,7 +618,7 @@ function NPC_Morrel_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Morrel_Act14(self, ai, goal)
+function NPC_Sharron_Act14(self, ai, goal)
     if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -632,7 +651,7 @@ function NPC_Morrel_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Morrel_Act15(self, ai, goal)
+function NPC_Sharron_Act15(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -675,7 +694,7 @@ function NPC_Morrel_Act15(self, ai, goal)
 end
 
 -- Backstep Walk
-function NPC_Morrel_Act16(self, ai, goal)
+function NPC_Sharron_Act16(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -692,7 +711,7 @@ function NPC_Morrel_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Morrel_Act17(self, ai, goal)
+function NPC_Sharron_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     
     if self:IsBothHandMode(TARGET_SELF) then
@@ -705,8 +724,8 @@ function NPC_Morrel_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Dung Pie
-function NPC_Morrel_Act20(self, ai, goal)
+-- Use Item (Slot 0) - Gold Pine Resin
+function NPC_Sharron_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
     self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
@@ -715,10 +734,79 @@ function NPC_Morrel_Act20(self, ai, goal)
     return GetWellSpace_Odds
 end
 
+-- Cast Spell (Slot 0) - Lightning Arrow
+function NPC_Sharron_Act30(self, ai, goal)
+    self:ChangeEquipMagic(0) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 1) - Great Heal
+function NPC_Sharron_Act31(self, ai, goal)
+    self:ChangeEquipMagic(1) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 2) - Tears of Denial
+function NPC_Sharron_Act32(self, ai, goal)
+    self:ChangeEquipMagic(2) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
 -------------------------
 -- Act After
 -------------------------
-function NPC_Morrel_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Sharron_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -775,22 +863,22 @@ Goal.Interrupt = function (self, ai, goal)
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Morrel_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Sharron_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Morrel_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Sharron_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Morrel_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Sharron_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Morrel_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Sharron_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false
