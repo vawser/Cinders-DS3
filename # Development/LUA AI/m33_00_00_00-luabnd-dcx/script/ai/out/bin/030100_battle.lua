@@ -853,7 +853,6 @@ Goal.Interrupt = function (self, ai, goal)
             NPC_Locklin_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
-    end
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
         NPC_Locklin_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
