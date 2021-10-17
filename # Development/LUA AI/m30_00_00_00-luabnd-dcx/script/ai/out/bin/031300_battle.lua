@@ -170,6 +170,7 @@ function NPC_Ava_Act01(self, ai, goal)
     
     ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.5, TARGET_ENE_0, self:GetRandam_Int(0, 1), self:GetRandam_Int(75, 90), false, true, -1)
     
+    -- Needed to make the AI actually shoot, since the bow shot is done on the release of R1
     ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Bow Shoot
     
     GetWellSpace_Odds = 100

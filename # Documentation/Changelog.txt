@@ -148,8 +148,8 @@ Finish following weapons:
 - Inquisitor Ashford: now has a custom AI, expanded loadout.
 - Corrupted Knight Lloyd: now has a custom AI, expanded loadout.
 - Huntmaster Ava: now has a custom AI, and acts like an archer.
-- Eccentric Archibald:
-- Jailer Eileen:
+- Eccentric Archibald: now has a custom AI, expanded loadout.
+- Jailer Eileen: now has a custom AI, expanded loadout.
 - Ollis the Merciless:
 - Vileblood Annalise:
 - The Forlorn:
@@ -197,10 +197,18 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-2160 Brigthbug
-
 # Intruders
-GOAL_NPC_Archiblad = 31400
+30470400 Blades of Mercy
+20000000 Buckler
+19090000 Corrupted Talisman
+
+4309000 Vow of Silence # 103581000
+4307000 Vow of Agony
+4305000 Deep Protection # 103770000
+
+296 Undead Hunter Charm
+297 Black Firebomb
+
 GOAL_NPC_Eileen = 31500
 GOAL_NPC_Ollis = 31600
 GOAL_NPC_Annalise = 31700
