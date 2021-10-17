@@ -146,8 +146,8 @@ Finish following weapons:
 - Unstoppable Ifrit: now has a custom AI, expanded loadout and special encounter start.
 - Fester the Jester: now has a custom AI, expanded loadout and special encounter start.
 - Inquisitor Ashford: now has a custom AI, expanded loadout.
-- Corrupted Knight Lloyd:
-- Huntmaster Ava:
+- Corrupted Knight Lloyd: now has a custom AI, expanded loadout.
+- Huntmaster Ava: now has a custom AI, and acts like an archer.
 - Eccentric Archibald:
 - Jailer Eileen:
 - Ollis the Merciless:
@@ -197,11 +197,9 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-334 Human Pine Resin
+2160 Brigthbug
 
 # Intruders
-GOAL_NPC_Lloyd = 31200
-GOAL_NPC_Ava = 31300
 GOAL_NPC_Archiblad = 31400
 GOAL_NPC_Eileen = 31500
 GOAL_NPC_Ollis = 31600

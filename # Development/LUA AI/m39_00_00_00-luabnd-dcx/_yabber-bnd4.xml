@@ -11,21 +11,27 @@
   <extended>0x04</extended>
   <files>
     <file>
-      <id>1101</id>
+      <id>1100</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\020010_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
-      <id>1107</id>
+      <id>1101</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\026211_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
-      <id>1108</id>
+      <id>1102</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\031000_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1103</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\031200_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>

@@ -36,54 +36,29 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 7 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+    if distance >= 3 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Warcry of the Abyss
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 20 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
-        actChanceList[17] = 0 -- Approach
+        actChanceList[17] = 20 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
-    elseif distance >= 3 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
-        actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
-        
-        actChanceList[10] = 10 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
-        actChanceList[16] = 0 -- Backstep Walk
-        actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
     else
         actChanceList[1] = 20 -- Right Light Attack + Approach
         actChanceList[2] = 20 -- Right Heavy Attack + Approach
         actChanceList[3] = 15 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Stance
+        actChanceList[5] = 20 -- WA: Warcry of the Abyss
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
@@ -94,53 +69,32 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Human Pine Resin
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
-        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
-    end
-    
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Gold Pine Resin
+        actChanceList[20] = 0       -- Use Item (Slot 0) - Human Pine Resin
     end
     
-    -- Punish a defensive player by healing
-    if ai:IsTargetGuard(TARGET_ENE_0) and hp_rate <= 0.75 then
-        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Great Heal
+    -- Punish guarding player
+    if ai:IsTargetGuard(TARGET_ENE_0) then
+        actChanceList[3] = actChanceList[3] + 30 -- Kick + Approach
     end
     
-    -- Use Great Heal more often once below 50% HP
-    if hp_rate <= 0.5 then
-        actChanceList[31] = 20 -- Cast Spell (Slot 1) - Great Heal
-    end
+    -- Block repeat usage of Human Pine Resin while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2170)
     
-    -- Block repeat usage of Gold Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-    end
-    
-    -- Block repeat usage of Tears of Denial while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 103520000)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 103520000) then
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
+    if ai:HasSpecialEffectId(TARGET_SELF, 2170) then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
     end
     
     -- Block WA if stamina when low on stamina
-    if stamina < 40 then
-        actChanceList[5] = 0 -- WA: Stance
+    if stamina < 30 then
+        actChanceList[5] = 0 -- WA: Warcry of the Abyss
     end
     
     -- Block dash and rolls when low on stamina
@@ -198,7 +152,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act02) -- Right Heavy Attack + Approach
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act03) -- Kick + Approach
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act05) -- WA: Stance
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act05) -- WA: Warcry of the Abyss
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act10) -- Approach + Running Attack
@@ -211,12 +165,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act20)   -- Use Item (Slot 0) - Gold Pine Resin
-    
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act32) -- Cast Spell (Slot 2) - Tears of Denial
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act20)   -- Use Item (Slot 0) - Human Pine Resin
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Lloyd_ActAfter_AdjustSpace), actTblList)
     return 
@@ -233,6 +182,11 @@ function NPC_Lloyd_Act01(self, ai, goal)
     
     local max_attack_distance = 2.1
     local roll_b   = 100
+    
+    -- Randomise 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.1
@@ -309,6 +263,11 @@ function NPC_Lloyd_Act02(self, ai, goal)
     local stamina = self:GetSp(TARGET_SELF)
     local max_attack_distance = 2.2
     local roll_c = 100
+    
+    -- Randomise 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.2
@@ -393,6 +352,11 @@ function NPC_Lloyd_Act03(self, ai, goal)
     local max_attack_distance = 1.6
     local roll_c = 0
     
+    -- Randomise 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.6
         roll_c = 0
@@ -423,6 +387,11 @@ function NPC_Lloyd_Act04(self, ai, goal)
     local max_attack_distance = 4.8
     local roll_c = 100
     
+    -- Randomise 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 5.6
         roll_c = 0
@@ -445,7 +414,7 @@ function NPC_Lloyd_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Stance
+-- WA: Warcry of the Abyss
 function NPC_Lloyd_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
@@ -724,80 +693,11 @@ function NPC_Lloyd_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Gold Pine Resin
+-- Use Item (Slot 0) - Human Pine Resin
 function NPC_Lloyd_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
+    self:SetStringIndexedNumber("Human Pine Resin", self:GetStringIndexedNumber("Human Pine Resin") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 0) - Lightning Arrow
-function NPC_Lloyd_Act30(self, ai, goal)
-    self:ChangeEquipMagic(0) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 1) - Great Heal
-function NPC_Lloyd_Act31(self, ai, goal)
-    self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Tears of Denial
-function NPC_Lloyd_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -841,22 +741,6 @@ Goal.Interrupt = function (self, ai, goal)
         
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
-        return true
-    -- Occurs if the player is vulnerable to a parry
-    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
-        if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
-                goal:ClearSubGoal()
-                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
-                return true
-            end
-        end
-    -- Occurs if a parry has been applied to the player
-    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
-        goal:ClearSubGoal()
-        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
-        subgoal:SetLifeEndSuccess(true)
-        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
