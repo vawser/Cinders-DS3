@@ -144,7 +144,7 @@ Finish following weapons:
 - Tomb Raider Dyfan: now has a custom AI, expanded loadout.
 - Chaos Servant Eygor: now has a custom AI, expanded loadout.
 - Unstoppable Ifrit: now has a custom AI, expanded loadout and special encounter start.
-- Fester the Jester:
+- Fester the Jester: now has a custom AI, expanded loadout and special encounter start.
 - Inquisitor Ashford:
 - Corrupted Knight Lloyd:
 - Huntmaster Ava:
@@ -197,14 +197,9 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-Drakewing Ultra Greatsword
-Golden Falcon Shield
 
-260 Green Blossom # 3040
-371 Binoculars
 
 # Intruders
-GOAL_NPC_Fester = 31000
 GOAL_NPC_Ashford = 31100
 GOAL_NPC_Lloyd = 31200
 GOAL_NPC_Ava = 31300
