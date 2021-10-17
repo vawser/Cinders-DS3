@@ -75,19 +75,6 @@ Finish following weapons:
 - Princess Yngvil:
  - Reduced the frequency of the 3 location frost ring attack.
 
-# Intruders:
-- Spurned Shade:
- - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
- - Has a custom AI.
-
-- Pursuer: now has a custom AI.
-- Luyila of Londor: now has a custom AI.
-- Forgotten Locklin: now has a custom AI, expanded loadout.
-- Holy Knight Morton: now has a custom AI, expanded loadout.
-- Tiny: now has a custom AI, expanded loadout.
-- Captain Morrel: now has a custom AI.
-- Dominatrix Sharron: now has a custom AI, expanded loadout.
- 
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
@@ -141,6 +128,55 @@ Finish following weapons:
 - Marvelous Chester:
  - Now sells the Manikin Claws.
  
+# Intruders:
+- Spurned Shade:
+ - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
+ - Has a custom AI.
+
+- Pursuer: now has a custom AI.
+- Luyila of Londor: now has a custom AI.
+- Forgotten Locklin: now has a custom AI, expanded loadout.
+- Holy Knight Morton: now has a custom AI, expanded loadout.
+- Tiny: now has a custom AI, expanded loadout.
+- Captain Morrel: now has a custom AI.
+- Dominatrix Sharron: now has a custom AI, expanded loadout.
+- Sanctum Knight Norjask: now has a custom AI, expanded loadout.
+- Tomb Raider Dyfan: now has a custom AI, expanded loadout.
+- Chaos Servant Eygor: now has a custom AI, expanded loadout.
+- Unstoppable Ifrit: now has a custom AI, expanded loadout and special encounter start.
+- Fester the Jester:
+- Inquisitor Ashford:
+- Corrupted Knight Lloyd:
+- Huntmaster Ava:
+- Eccentric Archibald:
+- Jailer Eileen:
+- Ollis the Merciless:
+- Vileblood Annalise:
+- The Forlorn:
+- Lord Zakar:
+- Glaive Master Hodir:
+- Ezekiel the Duelist:
+- Eija the Shadow:
+- Ironclad Xavier:
+- Freya the Wretched:
+- Nahor the Fallen:
+- Easterner Iazeel:
+- Gaius the Mighty:
+- Quintus the Monstrous:
+- Blacksmith's Nightmare:
+- Frozen Knight Torbjorn:
+- Bewitched Knight Iwai:
+- Wandering Knight Osvaldo:
+- Lord Takatsuji:
+- Lieutenant Ugali:
+- Lieutenant Hanji:
+- Ashen Keeper Sofija:
+- Hallowed Knight Orthell:
+- Dragon Hunter Karstark:
+- Disciple of Alsanna:
+- Pot King Greg:
+ 
+ 
 #------------------------------
 # TODO
 #------------------------------
@@ -161,16 +197,13 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-Sanctum Mace
+Drakewing Ultra Greatsword
+Golden Falcon Shield
 
-Firebomb
+260 Green Blossom # 3040
+371 Binoculars
 
 # Intruders
-GOAL_NPC_Norjask = 30600
-GOAL_NPC_Dyfan = 30700
-GOAL_NPC_Eygor = 30800
-GOAL_NPC_Ifrit = 30900
-
 GOAL_NPC_Fester = 31000
 GOAL_NPC_Ashford = 31100
 GOAL_NPC_Lloyd = 31200

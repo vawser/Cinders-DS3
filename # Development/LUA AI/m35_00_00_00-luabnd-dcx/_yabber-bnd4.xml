@@ -347,6 +347,12 @@
       <flags>0x40</flags>
     </file>
     <file>
+      <id>20011</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\030600_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>1000000</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\m35_00_00_00.luagnl</path>
