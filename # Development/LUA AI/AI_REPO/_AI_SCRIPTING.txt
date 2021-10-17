@@ -236,6 +236,65 @@ Capitalized arguments mean the value is an enum found in a list file such as ai_
  SetLifeEndSuccess( <bool> )
  
 #---------------------------------------------------
+# Interrupt
+#---------------------------------------------------
+INTERUPT_First = 0
+INTERUPT_FindEnemy = 0
+INTERUPT_FindAttack = 1
+INTERUPT_Damaged = 2
+INTERUPT_Damaged_Stranger = 3
+INTERUPT_FindMissile = 4
+INTERUPT_SuccessGuard = 5
+INTERUPT_MissSwing = 6
+INTERUPT_GuardBegin = 7
+INTERUPT_GuardFinish = 8
+INTERUPT_GuardBreak = 9
+INTERUPT_Shoot = 10
+INTERUPT_ShootReady = 11
+INTERUPT_UseItem = 12
+INTERUPT_EnterBattleArea = 13
+INTERUPT_LeaveBattleArea = 14
+INTERUPT_CANNOT_MOVE = 15
+INTERUPT_Inside_ObserveArea = 16
+INTERUPT_ReboundByOpponentGuard = 17
+INTERUPT_ForgetTarget = 18
+INTERUPT_FriendRequestSupport = 19
+INTERUPT_TargetIsGuard = 20
+INTERUPT_HitEnemyWall = 21
+INTERUPT_SuccessParry = 22
+INTERUPT_CANNOT_MOVE_DisableInterupt = 23
+INTERUPT_ParryTiming = 24
+INTERUPT_RideNode_LadderBottom = 25
+INTERUPT_FLAG_RideNode_Door = 26
+INTERUPT_StraightByPath = 27
+INTERUPT_ChangedAnimIdOffset = 28
+INTERUPT_SuccessThrow = 29
+INTERUPT_LookedTarget = 30
+INTERUPT_LoseSightTarget = 31
+INTERUPT_RideNode_InsideWall = 32
+INTERUPT_MissSwingSelf = 33
+INTERUPT_GuardBreakBlow = 34
+INTERUPT_TargetOutOfRange = 35
+INTERUPT_UnstableFloor = 36
+INTERUPT_BreakFloor = 37
+INTERUPT_BreakObserveObj = 38
+INTERUPT_EventRequest = 39
+INTERUPT_Outside_ObserveArea = 40
+INTERUPT_TargetOutOfAngle = 41
+INTERUPT_PlatoonAiOrder = 42
+INTERUPT_ActivateSpecialEffect = 43
+INTERUPT_InactivateSpecialEffect = 44
+INTERUPT_MovedEnd_OnFailedPath = 45
+INTERUPT_ChangeSoundTarget = 46
+INTERUPT_OnCreateDamage = 47
+INTERUPT_InvadeTriggerRegion = 48
+INTERUPT_LeaveTriggerRegion = 49
+INTERUPT_AIGuardBroken = 50
+INTERUPT_AIReboundByOpponentGuard = 51
+INTERUPT_BackstabRisk = 52
+INTERUPT_Last = 52
+ 
+#---------------------------------------------------
 # NPC Attacks
 #---------------------------------------------------
 NPC_ATK_R1 = 0

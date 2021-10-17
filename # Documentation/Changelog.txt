@@ -145,7 +145,7 @@ Finish following weapons:
 - Chaos Servant Eygor: now has a custom AI, expanded loadout.
 - Unstoppable Ifrit: now has a custom AI, expanded loadout and special encounter start.
 - Fester the Jester: now has a custom AI, expanded loadout and special encounter start.
-- Inquisitor Ashford:
+- Inquisitor Ashford: now has a custom AI, expanded loadout.
 - Corrupted Knight Lloyd:
 - Huntmaster Ava:
 - Eccentric Archibald:
@@ -197,10 +197,9 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-
+334 Human Pine Resin
 
 # Intruders
-GOAL_NPC_Ashford = 31100
 GOAL_NPC_Lloyd = 31200
 GOAL_NPC_Ava = 31300
 GOAL_NPC_Archiblad = 31400
