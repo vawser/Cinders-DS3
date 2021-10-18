@@ -233,9 +233,15 @@
       <flags>0x40</flags>
     </file>
     <file>
-      <id>7670</id>
+      <id>7530</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\767000_DismalKnight.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>7670</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\826000_Marauder_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>

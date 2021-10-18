@@ -5303,7 +5303,7 @@
 160720300 Soul of the Mirror Knight
 160720310 Soul of Aborr
 160720320 Soul of Prince Dorthinus
-160720330 Soul of the Rock
+160720330 Soul of the Ancient Soldier
 160720340 Twisted Soul
 160720350 Soul of the Maiden
 160720360 Soul of the Marauder
@@ -5463,6 +5463,7 @@
 160764055 Companion: Offering of Fervor+5
 160769999 ### AI Behavior ###
 160770000 Force 2H Mode
+160770010 Orb Spell Cooldown
 160800000 ### NPC Modifiers ###
 160800001 Base - Summoned NPC
 160800002 Base - Enemy
@@ -5472,6 +5473,7 @@
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian
 160800020 Summoned NPC - Boost at Low HP
+160800030 Friendly NPC - Combat Boost
 160801050 Enemy - El Hueso
 160801070 Enemy - Magnum Ursus - Strong Punch
 160802000 Poise Override - Easy Stagger
@@ -6091,11 +6093,12 @@
 260000030 Cathedral Guardian
 260000031 Mirror Knight
 260000032 Prince Dorthinus
-260000033 The Rock
+260000033 Trio of Explorers
 260000034 Twisted Knight
 260000035 Fallen Protector
 260000036 Titanite Abomination
 260000037 The Marauder
+260000038 Spurned Shade
 260100000 ### Boss Revival ###
 260100010 Dismal Knight
 260100020 Vordt of the Boreal Valley
@@ -6128,11 +6131,12 @@
 260100290 Mirror Knight
 260100300 Aborr
 260100310 Princess Yngvil
-260100320 The Rock
+260100320 Trio of Explorers
 260100330 Twisted Knight
 260100340 Fallen Protector
 260100350 Titanite Abomination
 260100360 The Marauder
+260100370 Spurned Shade
 260109999 ### Wanderer Mode - Damage Boost ###
 260110000 Dismal Knight
 260110001 Vordt of the Boreal Valley
@@ -6164,7 +6168,7 @@
 260110027 Mirror Knight
 260110028 Aborr
 260110029 Prince Dorthinus
-260110030 The Rock
+260110030 Trio of Explorers
 260110031 Twisted Knight
 260110032 Fallen Protector
 260110033 Titanite Abomination

@@ -6083,7 +6083,7 @@ Event(20020129, Default, function() {
 });
 
 //----------------------------------------------
-// The Rock - Boss Start
+// Trio of Explorers - Boss Start
 //----------------------------------------------
 Event(20020130, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);

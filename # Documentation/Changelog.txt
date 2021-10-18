@@ -75,6 +75,15 @@ Finish following weapons:
 - Princess Yngvil:
  - Reduced the frequency of the 3 location frost ring attack.
 
+- The Rock: has been replaced with the Trio of Explorers.
+
+- Trio of Explorers:
+ - Consists of:
+  - Ancient Soldier Varg
+  - Afflicted Graverobber
+  - Cerah the Old Explorer
+ - Drops the Soul of the Ancient Soldier, which has the same transpositions as the Rock soul did.
+
 # NPCs:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
@@ -198,18 +207,9 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Intruders
-30470400 Blades of Mercy
-20000000 Buckler
-19090000 Corrupted Talisman
 
-4309000 Vow of Silence # 103581000
-4307000 Vow of Agony
-4305000 Deep Protection # 103770000
 
-296 Undead Hunter Charm
-297 Black Firebomb
 
-GOAL_NPC_Eileen = 31500
 GOAL_NPC_Ollis = 31600
 GOAL_NPC_Annalise = 31700
 GOAL_NPC_Forlorn = 31800

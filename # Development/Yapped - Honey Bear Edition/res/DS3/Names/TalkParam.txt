@@ -357,6 +357,8 @@
 10124021 [Bad] But do not bother me further.
 10124030 [Marry] Is this... some sort of a dream?
 10124031 [Marry] Of course, I accept your proposal.
+10124999 ### Spurned Shade (m40)
+10125000 Do you wish to restore your purity and reclaim the betrothal ring?
 10130999 ### Boss - The Marauder
 10131000 Oh dear... What have we here?
 10131001 A vagabond in all their glory for the world to see!
@@ -2355,7 +2357,7 @@
 31000302 [Siegward of Catarina] Don't disappear like that. You had me downright worried.
 31000303 [Siegward of Catarina] But thanks to you, an epiphany has struck me square in the head.
 31000304 [Siegward of Catarina] I've unravelled the riddle of this inscrutable lift!
-31000305 [Siegward of Catarina]
+31000305 [Siegward of Catarina] <blank>
 31000400 [Siegward of Catarina] On some days, I begin to doubt myself.
 31000401 [Siegward of Catarina] I went up the tower, so I thought, then somehow ended up here.
 31000402 [Siegward of Catarina] I'm not exactly sure what happened.
@@ -2369,152 +2371,152 @@
 31000600 [Siegward of Catarina] No! You should have waited!
 31000601 [Siegward of Catarina] Well, it's too late now.
 31000602 [Siegward of Catarina] I, Siegward of the Knights of Catarina, fight by your side!
-31000603 [Siegward of Catarina]
-31000700 [Siegward of Catarina]
+31000603 [Siegward of Catarina] <blank>
+31000700 [Siegward of Catarina] <blank>
 31000701 [Siegward of Catarina] That was quite the performance.
 31000702 [Siegward of Catarina] But you mustn't get in over your head.
 31000703 [Siegward of Catarina] We Unkindled must put our duties first.
 31000704 [Siegward of Catarina] But for the moment, we've a toast to make.
 31000710 [Siegward of Catarina] To your valour, my sword, and our victory together.
 31000720 [Siegward of Catarina] Long may the sun shine!
-31000730 [Siegward of Catarina]
-31000740 [Siegward of Catarina]
-31000741 [Siegward of Catarina]
+31000730 [Siegward of Catarina] <blank>
+31000740 [Siegward of Catarina] <blank>
+31000741 [Siegward of Catarina] <blank>
 31000800 [Siegward of Catarina] Well, I'm going to have myself a little nap.
 31000801 [Siegward of Catarina] The only thing to do, really, after a nice toast.
-31000802 [Siegward of Catarina]
-31000900 [Siegward of Catarina]
-31000901 [Siegward of Catarina]
-31000902 [Siegward of Catarina]
-31001000 [Siegward of Catarina]
-31001001 [Siegward of Catarina]
-31001100 [Siegward of Catarina]
-31001101 [Siegward of Catarina]
-31001102 [Siegward of Catarina]
-31001103 [Siegward of Catarina]
-31001104 [Siegward of Catarina]
-31001105 [Siegward of Catarina]
-31001200 [Siegward of Catarina]
-31001201 [Siegward of Catarina]
-31001202 [Siegward of Catarina]
-31001203 [Siegward of Catarina]
-31001204 [Siegward of Catarina]
-31001300 [Siegward of Catarina]
-31001301 [Siegward of Catarina]
-31001302 [Siegward of Catarina]
-31001303 [Siegward of Catarina]
-31001400 [Siegward of Catarina]
-31001401 [Siegward of Catarina]
-31001402 [Siegward of Catarina]
-31001403 [Siegward of Catarina]
-31001404 [Siegward of Catarina]
-31001500 [Siegward of Catarina]
-31001501 [Siegward of Catarina]
-31001502 [Siegward of Catarina]
-31001503 [Siegward of Catarina]
-31001600 [Siegward of Catarina]
-31001601 [Siegward of Catarina]
-31001700 [Siegward of Catarina]
-31001750 [Siegward of Catarina]
-31001751 [Siegward of Catarina]
-31001752 [Siegward of Catarina]
-31001753 [Siegward of Catarina]
-31001754 [Siegward of Catarina]
-31001755 [Siegward of Catarina]
-31001756 [Siegward of Catarina]
-31001800 [Siegward of Catarina]
-31001801 [Siegward of Catarina]
-31001802 [Siegward of Catarina]
-31001803 [Siegward of Catarina]
-31001810 [Siegward of Catarina]
-31001820 [Siegward of Catarina]
-31001830 [Siegward of Catarina]
-31001840 [Siegward of Catarina]
-31001841 [Siegward of Catarina]
-31001900 [Siegward of Catarina]
-31001901 [Siegward of Catarina]
-31001902 [Siegward of Catarina]
-31001903 [Siegward of Catarina]
-31001904 [Siegward of Catarina]
-31002000 [Siegward of Catarina]
-31002001 [Siegward of Catarina]
-31002002 [Siegward of Catarina]
-31002003 [Siegward of Catarina]
-31002100 [Siegward of Catarina]
-31002101 [Siegward of Catarina]
-31002102 [Siegward of Catarina]
-31002200 [Siegward of Catarina]
-31002201 [Siegward of Catarina]
-31002300 [Siegward of Catarina]
-31002301 [Siegward of Catarina]
-31002302 [Siegward of Catarina]
-31002303 [Siegward of Catarina]
-31002304 [Siegward of Catarina]
-31002305 [Siegward of Catarina]
-31002306 [Siegward of Catarina]
-31002307 [Siegward of Catarina]
-31002400 [Siegward of Catarina]
-31002401 [Siegward of Catarina]
-31002402 [Siegward of Catarina]
-31002500 [Siegward of Catarina]
-31002501 [Siegward of Catarina]
-31002502 [Siegward of Catarina]
-31002503 [Siegward of Catarina]
-31002600 [Siegward of Catarina]
-31002601 [Siegward of Catarina]
-31002602 [Siegward of Catarina]
-31002700 [Siegward of Catarina]
-31002701 [Siegward of Catarina]
-31002702 [Siegward of Catarina]
-31002703 [Siegward of Catarina]
-31002800 [Siegward of Catarina]
-31002801 [Siegward of Catarina]
-31002802 [Siegward of Catarina]
-31002803 [Siegward of Catarina]
-31002850 [Siegward of Catarina]
-31002880 [Siegward of Catarina]
-31002881 [Siegward of Catarina]
-31002900 [Siegward of Catarina]
-31002901 [Siegward of Catarina]
-31002902 [Siegward of Catarina]
-31003000 [Siegward of Catarina]
-31003010 [Siegward of Catarina]
-31003020 [Siegward of Catarina]
-31003030 [Siegward of Catarina]
-31003040 [Siegward of Catarina]
-31003041 [Siegward of Catarina]
-31003042 [Siegward of Catarina]
-31003050 [Siegward of Catarina]
-31003060 [Siegward of Catarina]
-31003100 [Siegward of Catarina]
-31003110 [Siegward of Catarina]
-31003120 [Siegward of Catarina]
-31003130 [Siegward of Catarina]
-31003140 [Siegward of Catarina]
-31003141 [Siegward of Catarina]
-31003142 [Siegward of Catarina]
-31003150 [Siegward of Catarina]
-31003160 [Siegward of Catarina]
-31003200 [Siegward of Catarina]
-31003210 [Siegward of Catarina]
-31003220 [Siegward of Catarina]
-31003230 [Siegward of Catarina]
-31003240 [Siegward of Catarina]
-31003241 [Siegward of Catarina]
-31003242 [Siegward of Catarina]
-31003250 [Siegward of Catarina]
-31003260 [Siegward of Catarina]
-31003300 [Siegward of Catarina]
-31003310 [Siegward of Catarina]
-31003320 [Siegward of Catarina]
-31003330 [Siegward of Catarina]
-31003340 [Siegward of Catarina]
-31003341 [Siegward of Catarina]
-31003342 [Siegward of Catarina]
-31003350 [Siegward of Catarina]
-31003360 [Siegward of Catarina]
-31003400 [Siegward of Catarina]
-31003401 [Siegward of Catarina]
+31000802 [Siegward of Catarina] <blank>
+31000900 [Siegward of Catarina] <blank>
+31000901 [Siegward of Catarina] <blank>
+31000902 [Siegward of Catarina] <blank>
+31001000 [Siegward of Catarina] Hello! Hello!
+31001001 [Siegward of Catarina] Anyone there? Anyone at all?
+31001100 [Siegward of Catarina] Oh!
+31001101 [Siegward of Catarina] I know that voice. Just how long has it been!
+31001102 [Siegward of Catarina] It's me, Siegward of Catarina.
+31001103 [Siegward of Catarina] I'm loathe to admit it, but I've been had.
+31001104 [Siegward of Catarina] Someone's swiped my armour.
+31001105 [Siegward of Catarina] Did you happen to see it anywhere?
+31001200 [Siegward of Catarina] Ah, oh! My armour!
+31001201 [Siegward of Catarina] My deepest gratitude! I, Siegward of Catarina, salute you.
+31001202 [Siegward of Catarina] With my trusty suit of armour, I'll be out of here in a jiffy.
+31001203 [Siegward of Catarina] Until we meet again, comrade!
+31001204 [Siegward of Catarina] <blank>
+31001300 [Siegward of Catarina] No need to worry about me.
+31001301 [Siegward of Catarina] With my trusty suit of armour, I'll be out of here in a jiffy.
+31001302 [Siegward of Catarina] Until we meet again, my good friend!
+31001303 [Siegward of Catarina] <blank>
+31001400 [Siegward of Catarina] Oh, yes, I see...
+31001401 [Siegward of Catarina] Not to worry. Great planning begets great fortune.
+31001402 [Siegward of Catarina] An old tenet of the Knights of Catarina.
+31001403 [Siegward of Catarina] And I am a master planner, I do say!
+31001404 [Siegward of Catarina] <blank>
+31001500 [Siegward of Catarina] I'm in quite a pickle indeed.
+31001501 [Siegward of Catarina] Maybe I can fashion a replacement...from the...hmm
+31001502 [Siegward of Catarina] I've got to use my head. And think.
+31001503 [Siegward of Catarina] Hmm... Mmm...
+31001600 [Siegward of Catarina] <blank>
+31001601 [Siegward of Catarina] <blank>
+31001700 [Siegward of Catarina] <blank>
+31001750 [Siegward of Catarina] Ah, ohh!
+31001751 [Siegward of Catarina] Excuse me. I must have dozed off.
+31001752 [Siegward of Catarina] It's rather warm in here.
+31001753 [Siegward of Catarina] Well, well, hasn't it been all too long! It's good to see you.
+31001754 [Siegward of Catarina] Oh, I seemed to have missed my chance, so...
+31001755 [Siegward of Catarina] I, Siegward of Catarina, offer my deepest gratitude.
+31001756 [Siegward of Catarina] And a little surprise to go with it. It's all yours.
+31001800 [Siegward of Catarina] I know. Won't you join me for dinner?
+31001801 [Siegward of Catarina] I make a fine estus soup. I've got some stewing right now.
+31001802 [Siegward of Catarina] Even we Undead deserve a little normalcy, from time to time.
+31001803 [Siegward of Catarina] And finally, upon this rendezvous, let us make a toast.
+31001810 [Siegward of Catarina] To your valour, my sword, and our sworn duties!
+31001820 [Siegward of Catarina] Long may the sun shine!
+31001830 [Siegward of Catarina] <blank>
+31001840 [Siegward of Catarina] <blank>
+31001841 [Siegward of Catarina] <blank>
+31001900 [Siegward of Catarina] Have you heard?
+31001901 [Siegward of Catarina] Somewhere, hidden right here in Irithyll, is a deep dungeon.
+31001902 [Siegward of Catarina] And even below that, the Profaned Capital.
+31001903 [Siegward of Catarina] Home of Yhorm, the reclusive giant lord.
+31001904 [Siegward of Catarina] That reminds me, I've a grave promise to keep...
+31002000 [Siegward of Catarina] Oh, sorry, I'm afraid I've cast a cloud over things.
+31002001 [Siegward of Catarina] Well, I'm going to have myself a little nap.
+31002002 [Siegward of Catarina] The only thing to do, really, after a nice toast.
+31002003 [Siegward of Catarina] <blank>
+31002100 [Siegward of Catarina] <blank>
+31002101 [Siegward of Catarina] <blank>
+31002102 [Siegward of Catarina] <blank>
+31002200 [Siegward of Catarina] Hmm...
+31002201 [Siegward of Catarina] Mmmmmm...
+31002300 [Siegward of Catarina] Hmm... Mmm...
+31002301 [Siegward of Catarina] Ah, oh!
+31002302 [Siegward of Catarina] Pardon me. I was absorbed in thought.
+31002303 [Siegward of Catarina] Look at me, trapped like a rat.
+31002304 [Siegward of Catarina] But you needn't worry.
+31002305 [Siegward of Catarina] I've just been sitting here, weighing my options.
+31002306 [Siegward of Catarina] The moment has almost come.
+31002307 [Siegward of Catarina] ...I just need a bit more time.
+31002400 [Siegward of Catarina] My liberation requires a key.
+31002401 [Siegward of Catarina] But the key is outside...
+31002402 [Siegward of Catarina] Hmm... A riddle for the ages...
+31002500 [Siegward of Catarina] Ah! You are a saint!
+31002501 [Siegward of Catarina] Once again, you are my valiant saviour.
+31002502 [Siegward of Catarina] I, Siegward of Catarina, express my deepest gratitude.
+31002503 [Siegward of Catarina] Take this, a token of my thanks. Go on, it's all yours.
+31002600 [Siegward of Catarina] Ah, no, please, go on ahead.
+31002601 [Siegward of Catarina] I've my own road to take.
+31002602 [Siegward of Catarina] And a duty to fulfil, very soon...
+31002700 [Siegward of Catarina] Yhorm, old friend.
+31002701 [Siegward of Catarina] I, Siegward of the Knights of Catarina, have come to uphold my promise!
+31002702 [Siegward of Catarina] Let the sun shine upon this Lord of Cinder.
+31002703 [Siegward of Catarina] <blank>
+31002800 [Siegward of Catarina] <blank>
+31002801 [Siegward of Catarina] It seems I'm in your debt once again.
+31002802 [Siegward of Catarina] My thanks, I could not have kept my promise without you.
+31002803 [Siegward of Catarina] Now, for a final toast.
+31002850 [Siegward of Catarina] To your valour, and my old friend Yhorm.
+31002880 [Siegward of Catarina] Long may the sun shine!
+31002881 [Siegward of Catarina] <blank>
+31002900 [Siegward of Catarina] Well, I'm going to have myself a little nap.
+31002901 [Siegward of Catarina] The only thing to do, really, after a nice toast.
+31002902 [Siegward of Catarina] You are a true friend. Best of luck with your duty.
+31003000 [Siegward of Catarina] <blank>
+31003010 [Siegward of Catarina] <blank>
+31003020 [Siegward of Catarina] What is the meaning of this!
+31003030 [Siegward of Catarina] What's happened to you!
+31003040 [Siegward of Catarina] No sense in holding back now.
+31003041 [Siegward of Catarina] Witness the fury of a Knight of Catarina!
+31003042 [Siegward of Catarina] <blank>
+31003050 [Siegward of Catarina] How did I ever let this happen...
+31003060 [Siegward of Catarina] You were a poor match, friend...
+31003100 [Siegward of Catarina] <blank>
+31003110 [Siegward of Catarina] <blank>
+31003120 [Siegward of Catarina] What is the meaning of this!
+31003130 [Siegward of Catarina] What's happened to you!
+31003140 [Siegward of Catarina] No sense in holding back now.
+31003141 [Siegward of Catarina] Witness the fury of a Knight of Catarina!
+31003142 [Siegward of Catarina] <blank>
+31003150 [Siegward of Catarina] How did I ever let this happen...
+31003160 [Siegward of Catarina] You were a poor match, friend...
+31003200 [Siegward of Catarina] <blank>
+31003210 [Siegward of Catarina] <blank>
+31003220 [Siegward of Catarina] What is the meaning of this!
+31003230 [Siegward of Catarina] What's happened to you!
+31003240 [Siegward of Catarina] No sense in holding back now.
+31003241 [Siegward of Catarina] Witness the fury of a Knight of Catarina!
+31003242 [Siegward of Catarina] <blank>
+31003250 [Siegward of Catarina] How did I ever let this happen...
+31003260 [Siegward of Catarina] You were a poor match, friend...
+31003300 [Siegward of Catarina] <blank>
+31003310 [Siegward of Catarina] <blank>
+31003320 [Siegward of Catarina] What is the meaning of this!
+31003330 [Siegward of Catarina] What's happened to you!
+31003340 [Siegward of Catarina] No sense in holding back now.
+31003341 [Siegward of Catarina] Witness the fury of a Knight of Catarina!
+31003342 [Siegward of Catarina] <blank>
+31003350 [Siegward of Catarina] How did I ever let this happen...
+31003360 [Siegward of Catarina] You were a poor match, friend...
+31003400 [Siegward of Catarina] Forgive me, old friend...
+31003401 [Siegward of Catarina] I've failed, in everything...
 32000000 [Prince Lothric]
 32000001 [Prince Lothric]
 32000002 [Prince Lothric]

@@ -229,7 +229,7 @@
 29440 Alva, Seeker of the Spurned [Irithyll Dungeon]
 29540 Longfinger Kirk [Cathedral of the Deep]
 29999 ### Invaders ###
-30100 Luyila of Londor [Irithyll]
+30100 Luyila of Londor [Lothric Castle]
 30200 Forgotten Locklin [Farron Keep]
 30300 Holy Knight Morton [Catacombs of Carthus]
 30500 Tiny [Lothric Castle]
@@ -278,6 +278,7 @@
 35100 Dragon Hunter Karstark [Archdragon Peak]
 35200 Disciple of Alsanna [Ariandel]
 35300 Pot King Greg [Untended Graves]
+35400 Spurned Shade [Abyss]
 39999 ### Companions ###
 40110 Solaire of Astora
 49999 ### Hostile NPCs ###

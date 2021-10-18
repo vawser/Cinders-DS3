@@ -110,7 +110,7 @@
 26103 Unbreakable Patches [Firelink Shrine]
 26104 Unbreakable Patches [Firelink Shrine]
 26200 Siegward of Catarina - Lift [Undead Settlement]
-26201 Siegward of Catarina [Undead Settlement]
+26201 Siegward of Catarina - Ledge [Undead Settlement]
 26202 Siegward of Catarina [Irithyll]
 26203 Siegward of Catarina [Profaned Capital]
 26204 Siegward of Catarina [Profaned Capital]
@@ -170,7 +170,7 @@
 29950 Spears of the Church Monument
 29960 Purging Monument
 29999 ### Invaders ###
-30100 Invader - Luyila of Londor [Irithyll]
+30100 Invader - Luyila of Londor [Lothric Castle]
 30200 Invader - Forgotten Locklin [Farron Keep]
 30300 Invader - Holy Knight Morton [Catacombs of Carthus]
 30500 Invader - Tiny [Lothric Castle]
@@ -216,6 +216,8 @@
 35100 Invader - Dragon Hunter Karstark [Archdragon Peak]
 35200 Invader - Disciple of Alsanna [Ariandel]
 35300 Invader - Pot King Greg
+35400 Boss - Spurned Shade
+35401 NPC - Spurned Shade
 35999 ### Summons ###
 39999 ### Companions ###
 40000 m30_0 - Hollow

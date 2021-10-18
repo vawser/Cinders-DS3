@@ -225,7 +225,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20128, 0); // Mirror Knight
     InitializeEvent(0, 20129, 0); // Aborr
     InitializeEvent(0, 20130, 0); // Princess Yngvil
-    InitializeEvent(0, 20131, 0); // The Rock
+    InitializeEvent(0, 20131, 0); // Trio of Explorers
     InitializeEvent(0, 20132, 0); // Twisted Knight
     InitializeEvent(0, 20133, 0); // Fallen Protector
     InitializeEvent(0, 20134, 0); // Titanite Abomination
@@ -274,7 +274,7 @@ Event(0, Default, function() {
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
     InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Princess Yngvil
-    InitializeEvent(32, 970, 13200870, 2410, 0, 0); // The Rock
+    InitializeEvent(32, 970, 13200870, 2410, 0, 0); // Trio of Explorers
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
     InitializeEvent(35, 970, 13200880, 2440, 0, 0); // Titanite Abomination
@@ -2606,7 +2606,7 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002030);
     SetSpEffect(10000, 260110029);
     
-    // The Rock
+    // Trio of Explorers
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002031);
     SetSpEffect(10000, 260110030);
     
@@ -2946,7 +2946,7 @@ Event(20071, Restart, function() {
     SetSpEffect(10000, 260100350);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // The Rock
+    // Trio of Explorers
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
     SetSpEffect(10000, 260100320);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
@@ -3265,7 +3265,7 @@ Event(20072, Restart, function() {
     SetSpEffect(10000, 260100310);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // The Rock
+    // Trio of Explorers
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003031); // Not Selected
     SetSpEffect(10000, 260100320);
@@ -3373,7 +3373,7 @@ Event(20073, Restart, function() {
     SetSpEffect(10000, 260100160);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // The Rock
+    // Trio of Explorers
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
     SetSpEffect(10000, 260100320);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
@@ -4872,7 +4872,7 @@ Event(20130, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - The Rock
+// Boss Revival - Trio of Explorers
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20131, Restart, function() {

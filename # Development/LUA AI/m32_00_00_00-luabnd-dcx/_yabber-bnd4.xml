@@ -11,6 +11,24 @@
   <extended>0x04</extended>
   <files>
     <file>
+      <id>1100</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034400_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1101</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034500_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1102</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034600_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>1202</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\020010_battle.lua</path>
@@ -122,12 +140,6 @@
       <id>1226</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\803000_Serpentman_battle.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
-      <id>1227</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\816000_TheRock_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>

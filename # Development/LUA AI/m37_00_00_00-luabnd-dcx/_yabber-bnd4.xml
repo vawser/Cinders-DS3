@@ -277,6 +277,24 @@
     <file>
       <id>1057</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\823000_LordsBlade_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1058</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\824000_AbyssWalker_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1059</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\825000_Dragonslayer_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1057</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\316000_battle.lua</path>
       <flags>0x40</flags>
     </file>

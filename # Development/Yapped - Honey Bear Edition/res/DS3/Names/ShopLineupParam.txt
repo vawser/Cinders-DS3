@@ -304,9 +304,9 @@
 30360 [Ludleth - Aborr] Runic Seal
 30361 [Ludleth - Aborr] Symbol of the Penitent
 30362 [Ludleth - Aborr] Dozer Axe
-30380 [Ludleth - The Rock] Havel's Ring
-30381 [Ludleth - The Rock] Dragon Tooth
-30382 [Ludleth - The Rock] Havel's Greatshield
+30380 [Ludleth - Trio of Explorers] Havel's Ring
+30381 [Ludleth - Trio of Explorers] Dragon Tooth
+30382 [Ludleth - Trio of Explorers] Havel's Greatshield
 30390 [Ludleth - Princess Yngvil] Frostfall
 30391 [Ludleth - Princess Yngvil] Wretched Pendant
 30392 [Ludleth - Princess Yngvil] Frostflower Ring
@@ -976,6 +976,7 @@
 220029 [Marvelous Chester] Sniper Bolt
 220030 [Marvelous Chester] Draconic Bolt
 220031 [Marvelous Chester] Silvercat Ring
+220032 [Marvelous Chester] Manikin Claws
 230000 [Crestfallen Merchant] Steel Helm
 230001 [Crestfallen Merchant] Steel Armor
 230002 [Crestfallen Merchant] Steel Gauntlets

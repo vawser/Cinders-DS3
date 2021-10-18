@@ -3671,45 +3671,74 @@ Legendary: 15 Ritual Incense</text>
 <text id="99030010">You must be embered to summon a companion.</text>
 <text id="99030020">This companion is dead.</text>
 <text id="99030030">Companion is already active.</text>
-<text id="99030100">Corrupted Gundyr</text>
+<text id="99030100">Corrupted Gundyr has not been 
+killed in this journey yet.</text>
 <text id="99030101">Vordt of the Boreal Valley has not 
 been killed in this journey yet.</text>
 <text id="99030102">Curse-rotted Greatwood has not been 
 killed in this journey yet.</text>
-<text id="99030103">Crystal Sage</text>
+<text id="99030103">Crystal Sage has not been 
+killed in this journey yet.</text>
 <text id="99030104">Deacons of the Deep has not been 
 killed in this journey yet.</text>
-<text id="99030105">Abyss Watchers</text>
-<text id="99030106">High Lord Wolnir</text>
-<text id="99030107">Old Demon King</text>
-<text id="99030108">Pontiff Sulyvahn</text>
-<text id="99030109">Aldrich</text>
-<text id="99030110">Yhorm the Giant</text>
+<text id="99030105">Abyss Watchers has not been 
+killed in this journey yet.</text>
+<text id="99030106">High Lord Wolnir has not been 
+killed in this journey yet.</text>
+<text id="99030107">Old Demon King has not been 
+killed in this journey yet.</text>
+<text id="99030108">Pontiff Sulyvahn has not been 
+killed in this journey yet.</text>
+<text id="99030109">Aldrich has not been 
+killed in this journey yet.</text>
+<text id="99030110">Yhorm the Giant has not been 
+killed in this journey yet.</text>
 <text id="99030111">Dancer of the Boreal Valley has not 
 been killed in this journey yet.</text>
 <text id="99030112">Oceiros, the Consumed King has not 
 been killed in this journey yet.</text>
-<text id="99030113">Dragonslayer Armour</text>
-<text id="99030114">Ancient Wyvern</text>
-<text id="99030115">Nameless King</text>
-<text id="99030116">Champion Gundyr</text>
-<text id="99030117">Twin Princes</text>
-<text id="99030118">Soul of Cinder</text>
-<text id="99030119">Sister Friede</text>
-<text id="99030120">Lordran Remnants</text>
-<text id="99030121">Demon Prince</text>
-<text id="99030122">Darkeater Midir</text>
-<text id="99030123">Slave Knight Gael</text>
-<text id="99030124">Halflight</text>
-<text id="99030125">Princess Yngvil</text>
-<text id="99030126">Cathedral Guardian</text>
-<text id="99030127">Mirror Knight</text>
-<text id="99030128">Aborr</text>
-<text id="99030129">Prince Dorthinus</text>
-<text id="99030130">The Rock</text>
-<text id="99030131">Twisted Knight</text>
-<text id="99030132">Fallen Protector</text>
-<text id="99030133">Titanite Abomination</text>
+<text id="99030113">Dragonslayer Armour has not been 
+killed in this journey yet.</text>
+<text id="99030114">Ancient Wyvern has not been 
+killed in this journey yet.</text>
+<text id="99030115">Nameless King has not been 
+killed in this journey yet.</text>
+<text id="99030116">Champion Gundyr has not been 
+killed in this journey yet.</text>
+<text id="99030117">Twin Princes has not been 
+killed in this journey yet.</text>
+<text id="99030118">Soul of Cinder has not been 
+killed in this journey yet.</text>
+<text id="99030119">Sister Friede has not been 
+killed in this journey yet.</text>
+<text id="99030120">Lordran Remnants has not been 
+killed in this journey yet.</text>
+<text id="99030121">Demon Prince has not been 
+killed in this journey yet.</text>
+<text id="99030122">Darkeater Midir has not been 
+killed in this journey yet.</text>
+<text id="99030123">Slave Knight Gael has not been 
+killed in this journey yet.</text>
+<text id="99030124">Halflight has not been 
+killed in this journey yet.</text>
+<text id="99030125">Princess Yngvil has not been 
+killed in this journey yet.</text>
+<text id="99030126">Cathedral Guardian has not been 
+killed in this journey yet.</text>
+<text id="99030127">Mirror Knight has not been 
+killed in this journey yet.</text>
+<text id="99030128">Aborr has not been 
+killed in this journey yet.</text>
+<text id="99030129">Prince Dorthinus has not been 
+killed in this journey yet.</text>
+<text id="99030130">Trio of Explorers has not been 
+killed in this journey yet.</text>
+<text id="99030131">Twisted Knight has not been 
+killed in this journey yet.</text>
+<text id="99030132">Fallen Protector has not been 
+killed in this journey yet.</text>
+<text id="99030133">Titanite Abomination has not been 
+killed in this journey yet.</text>
 <text id="99030134">The Marauder</text>
 <text id="99030200">Salve, Regina, Mater misericordiae...</text>
 <text id="99030201">...vita, dulcedo, et spes nostra, salve.</text>
@@ -4393,7 +4422,7 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060227">Mirror Knight</text>
 <text id="99060228">Aborr</text>
 <text id="99060229">Princess Yngvil</text>
-<text id="99060230">The Rock</text>
+<text id="99060230">Trio of Explorers</text>
 <text id="99060231">Twisted Knight</text>
 <text id="99060232">Fallen Protector</text>
 <text id="99060233">Titanite Abomination</text>
