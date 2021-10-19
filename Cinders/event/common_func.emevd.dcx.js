@@ -6314,17 +6314,7 @@ Event(20081000, Restart, function(X0_4, X4_4) {
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
     SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
-    
-    // Make host the authority for this enemy if any client players are present
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.BetrayalInvader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
+
     GotoUnconditionally(Label.LABEL1)
     
     Label1();
@@ -6342,16 +6332,6 @@ Event(20081001, Restart, function(X0_4, X4_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
-    
-    // Make host the authority for this enemy if any client players are present
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.BetrayalInvader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
 });
 
 //----------------------------------------------

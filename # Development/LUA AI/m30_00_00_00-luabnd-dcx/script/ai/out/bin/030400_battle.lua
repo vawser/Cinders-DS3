@@ -91,6 +91,11 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = actChanceList[3] + 20
     end
     
+    -- Block WA if stamina is low
+    if stamina < 50 then
+        actChanceList[5] = 0 -- WA: Stomp
+    end
+    
     -- Block dash and rolls when low on stamina
     if stamina < 20 then
         actChanceList[10] = 0 -- Approach + Running Attack
@@ -98,6 +103,24 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+    
+    -- Kick the player if near the elevator
+    if ai:IsInsideMsbRegion(TARGET_ENE_0, AI_DIR_TYPE_F, 0, 3002740) == true and distance <= 2.0 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 100 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stomp
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
     end
     
     ----------------------------------

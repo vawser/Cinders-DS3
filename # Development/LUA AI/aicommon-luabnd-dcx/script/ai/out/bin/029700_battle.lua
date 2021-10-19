@@ -79,6 +79,24 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[5] = actChanceList[5] + 50 -- WA: Stomp
     end
     
+    -- Kick the player if near the elevator
+    if ai:IsInsideMsbRegion(TARGET_ENE_0, AI_DIR_TYPE_F, 0, 3002740) == true and distance <= 2.0 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 100 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stomp
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
+    end
+    
     ----------------------------------
     -- Act Checks
     ----------------------------------

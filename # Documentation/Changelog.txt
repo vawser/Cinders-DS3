@@ -207,6 +207,10 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Intruders
+30390400 Chikage
+22150000 Loch Shield
+
+4303000 Dorhys Gnawing
 
 GOAL_NPC_Annalise = 31700
 GOAL_NPC_Forlorn = 31800
