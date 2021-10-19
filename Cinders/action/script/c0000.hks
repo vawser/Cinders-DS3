@@ -16605,6 +16605,11 @@ end
 
 -- FP Regen
 function UpdateFP()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     local skip = false
     local skip_base = false
     local cooldown = false
@@ -16730,6 +16735,11 @@ end
 
 -- Fool's Sigil
 function UpdateSigilEffect()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     local roll = math.random(0, 100)
     
     -- Has Fool's Sigil equipped
@@ -16784,6 +16794,11 @@ end
 
 -- Curse of Impermanence
 function UpdateImpermanenceCurseEffect()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     -- Curse is active
     if env(1116, 112130) == TRUE then
         if env(1116, 112131) ~= TRUE then -- Cooldown for roll
@@ -16801,6 +16816,11 @@ end
 
 -- Psychedelic Elixir
 function UpdatePsychedelicElixirEffect()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     if env(1116, 112140) == TRUE then
         if env(1116, 112150) ~= TRUE then
             act(2002, 112150) -- Cooldown
@@ -16809,7 +16829,12 @@ function UpdatePsychedelicElixirEffect()
     end
 end
 
-function UpdateBulletRingEffect(trigger_effect, bullet_effect)
+function UpdateBulletRingEffect(trigger_effect, bullet_effect)  
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     if env(1116, trigger_effect) == TRUE then
         if env(1116, 112170) ~= TRUE and env(1116, 112171) ~= TRUE and env(1116, 112172) ~= TRUE and env(1116, 112173) ~= TRUE and env(1116, 112174) ~= TRUE and env(1116, 112175) ~= TRUE then
             
@@ -16835,6 +16860,11 @@ function UpdateBulletRingEffect(trigger_effect, bullet_effect)
 end
 
 function AnimationMonitor()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     -- Short Leap
     if env(1116, 112410) == TRUE then
         ExecEventAllBody("W_Event65030")
@@ -16846,6 +16876,11 @@ function AnimationMonitor()
 end
 
 function UpdateVitalityMasteryEffect()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
     -- Vitality Mastery enabled
     if env(1116, 112421) == TRUE then
         if env(1116, 112422) ~= TRUE then

@@ -166,7 +166,7 @@
 26056 Anri of Astora - Female [Irithyll]
 26057 Anri of Astora - Female [Irithyll]
 26058 Anri of Astora - Female [Irithyll]
-26059 Anri of Astora - Female  [Cathedral of the Deep]
+26059 Anri of Astora - Female [Cathedral of the Deep]
 26070 Anri of Astora - Female [Irithyll]
 26071 Anri of Astora - Female  [Cathedral of the Deep]
 26100 Patches [Cathedral of the Deep]
@@ -228,7 +228,7 @@
 29341 Creighton the Wanderer - Red Phantom [Irithyll]
 29440 Alva, Seeker of the Spurned [Irithyll Dungeon]
 29540 Longfinger Kirk [Cathedral of the Deep]
-29999 ### Invaders ###
+29999 ### Custom NPC ###
 30100 Luyila of Londor [Lothric Castle]
 30200 Forgotten Locklin [Farron Keep]
 30300 Holy Knight Morton [Catacombs of Carthus]
@@ -279,23 +279,16 @@
 35200 Disciple of Alsanna [Ariandel]
 35300 Pot King Greg [Untended Graves]
 35400 Spurned Shade [Abyss]
+35500 Ancient Soldier Varg [Boss]
+35600 Afflicted Graverobber [Boss]
+35700 Cerah the Old Explorer [Boss]
+35800 Dragon Cultist [Archdragon Peak]
+35900 The Father [Smouldering Lake]
+36000 The Mother [Smouldering Lake]
+36100 The Child [Smouldering Lake]
 39999 ### Companions ###
 40110 Solaire of Astora
 49999 ### Hostile NPCs ###
-50000 Dragon Cultist Xeric [Archdragon Peak]
-50010 Dragon Cultist Zena [Archdragon Peak]
-50020 Dragon Cultist Pon [Archdragon Peak]
-50030 Dragon Cultist Kalix [Archdragon Peak]
-50040 Dragon Cultist Wex [Archdragon Peak]
-50050 Dragon Cultist Solos [Archdragon Peak]
-50060 Burial Knight - Scythe of Nahr Alma [Cemetery of Ash]
-50070 Burial Knight - Reinforced Club [Cemetery of Ash]
-50080 Burial Knight - Flamberge [Cemetery of Ash]
-50090 Burial Knight - Great Machete [Cemetery of Ash]
-50100 Burial Knight - Barbed Straight Sword [Cemetery of Ash]
-50110 The Father [Smouldering Lake]
-50120 The Mother [Smouldering Lake]
-50130 The Child [Smouldering Lake]
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight

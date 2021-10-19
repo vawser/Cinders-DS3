@@ -85,6 +85,7 @@ Finish following weapons:
  - Drops the Soul of the Ancient Soldier, which has the same transpositions as the Rock soul did.
 
 # NPCs:
+- Adjusted the HP of all NPCs so they are harder to burst down than before.
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
 - Divorce no longer returns the Ring of Betrothal.
@@ -160,9 +161,9 @@ Finish following weapons:
 - Eccentric Archibald: now has a custom AI, expanded loadout.
 - Jailer Eileen: now has a custom AI, expanded loadout.
 - Ollis the Merciless: now has a custom AI, expanded loadout.
-- Vileblood Annalise:
-- The Forlorn:
-- Lord Zakar:
+- Vileblood Annalise: now has a custom AI, expanded loadout.
+- The Forlorn: now has a custom AI, expanded loadout.
+- Lord Zakar: now has a custom AI, expanded loadout.
 - Glaive Master Hodir:
 - Ezekiel the Duelist:
 - Eija the Shadow:
@@ -206,15 +207,8 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-# Intruders
-30390400 Chikage
-22150000 Loch Shield
+# Invaders
 
-4303000 Dorhys Gnawing
-
-GOAL_NPC_Annalise = 31700
-GOAL_NPC_Forlorn = 31800
-GOAL_NPC_Zakar = 31900
 
 GOAL_NPC_Hodir = 32000
 GOAL_NPC_Ezekiel = 32100

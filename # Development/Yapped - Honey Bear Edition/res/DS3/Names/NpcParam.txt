@@ -162,63 +162,69 @@
 29341 Creighton the Wanderer - Red Phantom [Irithyll]
 29440 Alva, Seeker of the Spurned - Red Phantom [Irithyll Dungeon]
 29540 Longfinger Kirk - Red Phantom [Cathedral of the Deep]
-29900 Altar of Sunlight
-29910 Sacrificial Altar
-29920 Old Wolf of Farron
-29930 Archdeacon McDonnell
-29940 Velka, the Goddess of Sin
-29950 Spears of the Church Monument
-29960 Purging Monument
-29999 ### Invaders ###
-30100 Invader - Luyila of Londor [Lothric Castle]
-30200 Invader - Forgotten Locklin [Farron Keep]
-30300 Invader - Holy Knight Morton [Catacombs of Carthus]
-30500 Invader - Tiny [Lothric Castle]
-30600 Invader - Captain Morrel [High Wall of Lothric]
-30700 Invader - Dominatrix Sharron [Lothric Castle]
-30800 Invader - Sanctum Knight Norjask [Cathedral of the Deep]
-30900 Invader - Tomb Raider Dyfan [Catacombs of Carthus]
-31000 Invader - Chaos Servant Eygor [Smouldering Lake]
-31100 Invader - Unstoppable Ifrit [Irithyll of the Boreal Valley]
-31200 Invader - Fester the Jester [Profaned Capital]
-31300 Invader - Inquisitor Ashford [Consumed King's Garden]
-31500 Invader - Corrupted Knight Lloyd [Irithyll Dungeon]
-31600 Invader - Huntmaster Ava [High Wall of Lothric]
-31700 Invader - The Pursuer [High Wall of Lothric]
-31710 Invader - The Pursuer [Lothric Castle]
-31720 Invader - The Pursuer [Grand Archives]
-31730 Invader - The Pursuer [Irithyll of the Boreal Valley]
-31740 Invader - The Pursuer [Profaned Capital]
-31800 Invader - Eccentric Archibald [Undead Settlement]
-31900 Invader - Jailer Eileen [Irithyll Dungeon]
-32000 Invader - Ollis the Merciless [Irithyll Dungeon]
-32100 Invader - Vileblood Annalise [Profaned Capital]
-32200 Invader - The Forlorn [Road of Sacrifices]
-32900 Invader - Lord Zakar [Kiln]
-33000 Invader - Glaive Master Hodir [Ringed City]
-33100 Invader - Ezekiel the Duelist [Ariandel]
-33200 Invader - Eija the Shadow [Ariandel]
-33300 Invader - Ironclad Xavier [Dreg Heap]
-33400 Invader - Freya the Wretched [Ringed City]
-33500 Invader - Nahor the Fallen [Ringed City]
-33600 Invader - Easterner Iazeel [Ringed City]
-33700 Invader - Gaius the Mighty [Archdragon Peak]
-33800 Invader - Quintus the Monstrous [Grand Archives]
-34200 Invader - Blacksmith's Nightmare [Untended Graves]
-34300 Invader - Frozen Knight Torbjorn [Ariandel]
-34400 Invader - Bewitched Knight Iwai [Profaned Capital]
-34500 Invader - Wandering Knight Osvaldo [Irithyll of the Boreal Valley]
-34600 Invader - Lord Takatsuji [Profaned Capital]
-34700 Invader - Lieutenant Ugali [Profaned Capital]
-34800 Invader - Lieutenant Hanji [Profaned Capital]
-34900 Invader - Ashen Keeper Sofija [Untended Graves]
-35000 Invader - Hallowed Knight Orthell [Cathedral of the Deep]
-35100 Invader - Dragon Hunter Karstark [Archdragon Peak]
-35200 Invader - Disciple of Alsanna [Ariandel]
-35300 Invader - Pot King Greg
-35400 Boss - Spurned Shade
-35401 NPC - Spurned Shade
-35999 ### Summons ###
+29900 Menu - Altar of Sunlight
+29910 Menu - Sacrificial Altar
+29920 Menu - Old Wolf of Farron
+29930 Menu - Archdeacon McDonnell
+29940 Menu - Velka, the Goddess of Sin
+29950 Menu - Spears of the Church Monument
+29960 Menu - Purging Monument
+29999 ### Custom NPCs ###
+30100 Hostile - Luyila of Londor [Lothric Castle]
+30200 Hostile - Forgotten Locklin [Farron Keep]
+30300 Hostile - Holy Knight Morton [Catacombs of Carthus]
+30500 Hostile - Tiny [Lothric Castle]
+30600 Hostile - Captain Morrel [High Wall of Lothric]
+30700 Hostile - Dominatrix Sharron [Lothric Castle]
+30800 Hostile - Sanctum Knight Norjask [Cathedral of the Deep]
+30900 Hostile - Tomb Raider Dyfan [Catacombs of Carthus]
+31000 Hostile - Chaos Servant Eygor [Smouldering Lake]
+31100 Hostile - Unstoppable Ifrit [Irithyll of the Boreal Valley]
+31200 Hostile - Fester the Jester [Profaned Capital]
+31300 Hostile - Inquisitor Ashford [Consumed King's Garden]
+31500 Hostile - Corrupted Knight Lloyd [Irithyll Dungeon]
+31600 Hostile - Huntmaster Ava [High Wall of Lothric]
+31700 Hostile - The Pursuer [High Wall of Lothric]
+31710 Hostile - The Pursuer [Lothric Castle]
+31720 Hostile - The Pursuer [Grand Archives]
+31730 Hostile - The Pursuer [Irithyll of the Boreal Valley]
+31740 Hostile - The Pursuer [Profaned Capital]
+31800 Hostile - Eccentric Archibald [Undead Settlement]
+31900 Hostile - Jailer Eileen [Irithyll Dungeon]
+32000 Hostile - Ollis the Merciless [Irithyll Dungeon]
+32100 Hostile - Vileblood Annalise [Profaned Capital]
+32200 Hostile - The Forlorn [Road of Sacrifices]
+32900 Hostile - Lord Zakar [Kiln]
+33000 Hostile - Glaive Master Hodir [Ringed City]
+33100 Hostile - Ezekiel the Duelist [Ariandel]
+33200 Hostile - Eija the Shadow [Ariandel]
+33300 Hostile - Ironclad Xavier [Dreg Heap]
+33400 Hostile - Freya the Wretched [Ringed City]
+33500 Hostile - Nahor the Fallen [Ringed City]
+33600 Hostile - Easterner Iazeel [Ringed City]
+33700 Hostile - Gaius the Mighty [Archdragon Peak]
+33800 Hostile - Quintus the Monstrous [Grand Archives]
+34200 Hostile - Blacksmith's Nightmare [Untended Graves]
+34300 Hostile - Frozen Knight Torbjorn [Ariandel]
+34400 Hostile - Bewitched Knight Iwai [Profaned Capital]
+34500 Hostile - Wandering Knight Osvaldo [Irithyll of the Boreal Valley]
+34600 Hostile - Lord Takatsuji [Profaned Capital]
+34700 Hostile - Lieutenant Ugali [Profaned Capital]
+34800 Hostile - Lieutenant Hanji [Profaned Capital]
+34900 Hostile - Ashen Keeper Sofija [Untended Graves]
+35000 Hostile - Hallowed Knight Orthell [Cathedral of the Deep]
+35100 Hostile - Dragon Hunter Karstark [Archdragon Peak]
+35200 Hostile - Disciple of Alsanna [Ariandel]
+35300 Hostile - Pot King Greg [Untended Graves]
+35400 Boss - Spurned Shade [Abyss]
+35401 Menu - Spurned Shade [Firelink Shrine]
+35500 Boss - Ancient Soldier Varg [Archdragon Peak]
+35600 Boss - Afflicted Graverobber [Archdragon Peak]
+35700 Boss - Cerah the Old Explorer [Archdragon Peak]
+35800 Dragon Cultist [Archdragon Peak]
+35900 Hostile - The Father [Smouldering Lake]
+36000 Hostile - The Mother [Smouldering Lake]
+36100 Hostile - The Child [Smouldering Lake]
 39999 ### Companions ###
 40000 m30_0 - Hollow
 40010 m30_1 - Lothric Knight (Sword)
@@ -237,16 +243,6 @@
 40140 m50_0 - Harald Knight
 40150 m51_0 - Ringed Knight
 40160 m51_1 - Hollow Cleric
-49999 ### Hostile NPCs ###
-50000 Dragon Cultist Xeric [Archdragon Peak]
-50010 Dragon Cultist Zena [Archdragon Peak]
-50020 Dragon Cultist Pon [Archdragon Peak]
-50030 Dragon Cultist Kalix [Archdragon Peak]
-50040 Dragon Cultist Wex [Archdragon Peak]
-50050 Dragon Cultist Solos [Archdragon Peak]
-50110 The Father [Smouldering Lake]
-50120 The Mother [Smouldering Lake]
-50130 The Child [Smouldering Lake]
 99999 ### Enemies ###
 100000 Bonfire
 100010 Bullet Owner

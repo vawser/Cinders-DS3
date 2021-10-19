@@ -229,6 +229,8 @@
 319180 The suspended body (on the foot)
 319181 Dead body (head up)
 321030 Bridge Destruction Dummy
+327000 Rock Pile
+327001 Rock Pile (no destruction)
 331000 Tree
 331003 Tree
 331004 Tree

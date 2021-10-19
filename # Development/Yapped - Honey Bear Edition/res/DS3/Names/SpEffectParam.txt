@@ -5307,6 +5307,19 @@
 160720340 Twisted Soul
 160720350 Soul of the Maiden
 160720360 Soul of the Marauder
+160730000 ### NPC Enemies ###
+160730010 HP Scalar: 1000 HP
+160730020 HP Scalar: 2000 HP
+160730030 HP Scalar: 3000 HP
+160730040 HP Scalar: 4000 HP
+160730050 HP Scalar: 5000 HP
+160730060 HP Scalar: 6000 HP
+160730070 HP Scalar: 7000 HP
+160730080 HP Scalar: 8000 HP
+160730090 HP Scalar: 9000 HP
+160730100 HP Scalar: 10000 HP
+160731000 Pot King Greg - Buff
+160731010 Siegward of Catarina - Buff
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -5346,7 +5359,6 @@
 160741902 Mirror Knight - Phantom Cleanup
 160742000 Princess Yngvil - Kneeling Stage
 160742010 Akseliane - HP Removal
-160742020 Pot King Greg - Buff
 160742100 Titanite Abomination - HP Absorb
 160742200 The Marauder - Passive State
 160742210 The Marauder - Stat Drain
@@ -5462,7 +5474,6 @@
 160764054 Companion: Offering of Fervor+4
 160764055 Companion: Offering of Fervor+5
 160769999 ### AI Behavior ###
-160770000 Force 2H Mode
 160770010 Orb Spell Cooldown
 160800000 ### NPC Modifiers ###
 160800001 Base - Summoned NPC
@@ -5473,7 +5484,6 @@
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian
 160800020 Summoned NPC - Boost at Low HP
-160800030 Friendly NPC - Combat Boost
 160801050 Enemy - El Hueso
 160801070 Enemy - Magnum Ursus - Strong Punch
 160802000 Poise Override - Easy Stagger
@@ -6099,6 +6109,9 @@
 260000036 Titanite Abomination
 260000037 The Marauder
 260000038 Spurned Shade
+260000039 Ancient Soldier Varg
+260000040 Afflicted Graverobber
+260000041 Cerah the Old Explorer
 260100000 ### Boss Revival ###
 260100010 Dismal Knight
 260100020 Vordt of the Boreal Valley

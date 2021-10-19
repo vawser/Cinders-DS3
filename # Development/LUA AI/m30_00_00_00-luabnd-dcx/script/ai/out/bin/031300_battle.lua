@@ -198,41 +198,46 @@ end
 -- Backstep Roll
 function NPC_Ava_Act10(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
-    local roll_a = self:GetRandam_Int(1, 100)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already distant from the target
+    if distance >= 10.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
     
     if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_BackStep")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Roll
     end
-
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Forward Roll 
-function NPC_Ava_Act11(self, ai, goal)
-    if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
-    elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        if SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-            if self:GetRandam_Int(1, 100) <= 50 then
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
-            else
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
-            end
-        else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
-        end
-    elseif SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
-    end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Side Roll
+-- Forward Roll + Run + Basic Light Attack
+function NPC_Ava_Act11(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already next to the target
+    if distance <= 1.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 5 and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 3.0, 0, 0) -- Forward Roll
+    end
+
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Side Roll + Run + Basic Light Attack
 function NPC_Ava_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
@@ -246,85 +251,101 @@ function NPC_Ava_Act12(self, ai, goal)
     elseif SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Roll
     end
-    
+
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Back Roll
+-- Back Roll + Basic Light Attack
 function NPC_Ava_Act13(self, ai, goal)
-    if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    local retreat_distance = 3.0
+    
+    -- Skip if already distant from the target
+    if distance >= 10.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 1 then
+        if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0)
+        end
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
             else
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
             end
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
         end
     elseif SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
     end
-
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Strafe
 function NPC_Ava_Act14(self, ai, goal)
-    local roll_a = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
+    local run_start_distance = 5.0
     local animation = -1
-
-    local roll_b = 0
     
+    -- Change to no guard if stamina is low
+    if stamina <= 30 then
+        animation = -1
+    end
+    
+    local direction = 0
+    
+    -- Adjust direction based on location, or end early if colliding
     if SpaceCheck(self, ai, -90, 1) == true then
         if SpaceCheck(self, ai, 90, 1) == true then
             if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-                roll_b = 0
+                direction = 0
             else
-                roll_b = 1
+                direction = 1
             end
         else
-            roll_b = 0
+            direction = 0
         end
     elseif SpaceCheck(self, ai, 90, 1) == true then
-        roll_b = 1
+        direction = 1
     else
         GetWellSpace_Odds = 100
         return GetWellSpace_Odds
     end
     
-    if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
     else
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Backstep Walk + Shoot
+-- Backstep
 function NPC_Ava_Act15(self, ai, goal)
-    local roll_a = self:GetRandam_Int(1, 100)
-    local stamina = self:GetSp(TARGET_SELF)
+    local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
-    local max_attack_distance = 100.0
+    local backstep_start_distance = 5.0
+    local run_start_distance = 6.0
     local animation = -1
     
-    if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, NPC_ATK_R1Hold)    -- Backstep Walk + Shoot
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
     else
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, NPC_ATK_R1Hold)     -- Backstep Walk + Shoot
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, true, animation) -- Backstep
     end
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
-    
-    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Bow Shoot
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds

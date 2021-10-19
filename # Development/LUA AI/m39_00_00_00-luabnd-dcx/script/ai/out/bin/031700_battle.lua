@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Lloyd, "GOAL_NPC_Lloyd")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Lloyd, true)
+RegisterTableGoal(GOAL_NPC_Annalise, "GOAL_NPC_Annalise")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Annalise, true)
 
 -------------------------
 -- Initialize
@@ -28,7 +28,6 @@ Goal.Activate = function (self, ai, goal)
     local roll      = ai:GetRandam_Int(1, 100)
     local distance  = ai:GetDist(TARGET_ENE_0)
     local stamina   = ai:GetSp(TARGET_SELF)
-    local number    = ai:GetNumber(0)
     local hp_rate   = ai:GetHpRate(TARGET_SELF)
     
     local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
@@ -41,9 +40,9 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Warcry of the Abyss
+        actChanceList[5] = 0 -- WA: Stance
         
-        actChanceList[10] = 20 -- Approach + Running Attack
+        actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
@@ -52,58 +51,42 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 20 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Dorhys Gnawing
     else
-        actChanceList[1] = 20 -- Right Light Attack + Approach
-        actChanceList[2] = 20 -- Right Heavy Attack + Approach
-        actChanceList[3] = 15 -- Kick + Approach
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Warcry of the Abyss
+        actChanceList[5] = 10 -- WA: Stance
         
-        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
         actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[13] = 10 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 5 -- Back Roll + Basic Light Attack
         actChanceList[15] = 5 -- Strafe
-        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[16] = 5 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 10 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[30] = 3 -- Cast Spell (Slot 0) - Dorhys Gnawing
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Invalid Item check
-    if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Human Pine Resin
+    -- Snipe the player is they are low
+    if ai:GetHpRate(TARGET_ENE_0) < 0.1 and distance >= 3.0 then
+        actChanceList[30] = actChanceList[30] + 30 -- Cast Spell (Slot 0) - Dorhys Gnawing
     end
     
-    -- Punish guarding player
+    -- Kick guarded player
     if ai:IsTargetGuard(TARGET_ENE_0) then
-        actChanceList[3] = actChanceList[3] + 30 -- Kick + Approach
-    end
-    
-    -- Block repeat usage of Human Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2170)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 2170) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
     end
     
     -- Block WA if stamina when low on stamina
-    if stamina < 30 then
-        actChanceList[5] = 0 -- WA: Warcry of the Abyss
-    end
-    
-    -- Block dash and rolls when low on stamina
-    if stamina < 20 then
-        actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    if stamina < 40 then
+        actChanceList[5] = 0 -- WA: Stance
     end
     
     ----------------------------------
@@ -148,26 +131,27 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act05) -- WA: Warcry of the Abyss
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Annalise_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Annalise_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Annalise_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Annalise_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Annalise_Act05) -- WA: Stance
+    actFuncList[6] = REGIST_FUNC(ai, goal, NPC_Annalise_Act06) -- WA: Stance (Parry)
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act16) -- Backstep Walk
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Annalise_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Annalise_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Annalise_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Annalise_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Annalise_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Annalise_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Annalise_Act16) -- Backstep Walk
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Annalise_Act17) -- Approach
+
+    -- Spells
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Annalise_Act30) -- Cast Spell (Slot 0) - Dorhys Gnawing
     
-    -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Lloyd_Act20)   -- Use Item (Slot 0) - Human Pine Resin
-    
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Lloyd_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Annalise_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -175,16 +159,16 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Lloyd_Act01(self, ai, goal)
+function NPC_Annalise_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
     
-    local max_attack_distance = 2.1
+    local max_attack_distance = 1.6
     local roll_b   = 100
     
-    -- Randomise 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
@@ -243,12 +227,17 @@ function NPC_Lloyd_Act01(self, ai, goal)
     if 120 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     elseif 60 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     else
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     end
     
     GetWellSpace_Odds = 100
@@ -256,16 +245,16 @@ function NPC_Lloyd_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Lloyd_Act02(self, ai, goal)
+function NPC_Annalise_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
-    local max_attack_distance = 2.2
+    local max_attack_distance = 1.6
     local roll_c = 100
     
-    -- Randomise 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
@@ -288,7 +277,7 @@ function NPC_Lloyd_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 0
-                max_attack_distance = 2.2
+                max_attack_distance = 1.6
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -301,7 +290,7 @@ function NPC_Lloyd_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 100
-                max_attack_distance = 2.2
+                max_attack_distance = 1.6
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -345,15 +334,15 @@ function NPC_Lloyd_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Lloyd_Act03(self, ai, goal)
+function NPC_Annalise_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local max_attack_distance = 1.6
     local roll_c = 0
     
-    -- Randomise 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
@@ -380,20 +369,20 @@ function NPC_Lloyd_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Lloyd_Act04(self, ai, goal)
+function NPC_Annalise_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
-    local max_attack_distance = 4.8
+    local max_attack_distance = 2.0
     local roll_c = 100
     
-    -- Randomise 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) and self:GetRandam_Int(1, 100) < 50 then
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
     
     if self:IsBothHandMode(TARGET_SELF) then
-        max_attack_distance = 5.6
+        max_attack_distance = 2.0
         roll_c = 0
     end
     
@@ -414,12 +403,13 @@ function NPC_Lloyd_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Warcry of the Abyss
-function NPC_Lloyd_Act05(self, ai, goal)
-    local max_attack_distance = 2.6
+-- WA: Stance
+function NPC_Annalise_Act05(self, ai, goal)
+    local max_attack_distance = 1.6
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
+    -- Force 2H mode
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
@@ -427,25 +417,47 @@ function NPC_Lloyd_Act05(self, ai, goal)
     -- Approach
     NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
     
-    -- Stance -> Light or Heavy attack
-    if roll_a <= 50 then
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
-    else
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
+    -- Stance -> Light
+    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- WA: Stance (Parry)
+function NPC_Annalise_Act06(self, ai, goal)
+    local max_attack_distance = 1.6
+    local distance = self:GetDist(TARGET_ENE_0)
+    local roll_a = self:GetRandam_Int(1, 100)
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
+    
+    -- Stance -> Light
+    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Approach + Running Attack
-function NPC_Lloyd_Act10(self, ai, goal)
+function NPC_Annalise_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
     local const_a = 4
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 3.2
@@ -497,72 +509,65 @@ function NPC_Lloyd_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Lloyd_Act11(self, ai, goal)
+function NPC_Annalise_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    -- Skip if already distant from the target
-    if distance >= 6.0 then
-        GetWellSpace_Odds = 100
-        return GetWellSpace_Odds
-    end
+    local roll_a = self:GetRandam_Int(1, 100)
     
     if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_BackStep")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Roll
     end
     
-    if stamina >= 60 and distance <= 2.0 then
-        local max_attack_distance = 2.8
+    if self:GetRandam_Int(1, 100) <= 80 and 60 < self:GetSp(TARGET_SELF) then
+        local max_attack_distance = 1.6
         local spin_time = 0.8
         
         if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
-            max_attack_distance = 3.2
+            max_attack_distance = 1.6
             spin_time = 1
         end
         
         ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Lloyd_Act12(self, ai, goal)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    -- Skip if already next to the target
-    if distance <= 1.0 then
-        GetWellSpace_Odds = 100
-        return GetWellSpace_Odds
+function NPC_Annalise_Act12(self, ai, goal)
+    if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
+    elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        if SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            if self:GetRandam_Int(1, 100) <= 50 then
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
+            else
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
+            end
+        else
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
+        end
+    elseif SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
     end
     
-    if distance >= 5 and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 3.0, 0, 0) -- Forward Roll
-    end
-    
-    if stamina >= 60 and distance <= 3.0 then
-        local max_attack_distance = 5.8
+    if self:GetRandam_Int(1, 100) <= 100 and 60 < self:GetSp(TARGET_SELF) then
+        local max_attack_distance = 2.4
         local spin_time = 5.4
         
         if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
-            max_attack_distance = 5.4
+            max_attack_distance = 2.4
             spin_time = 4.6
         end
         
         ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Lloyd_Act13(self, ai, goal)
+function NPC_Annalise_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
@@ -577,16 +582,16 @@ function NPC_Lloyd_Act13(self, ai, goal)
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Roll
     end
     
-    if stamina >= 60 and distance <= 3.0 then
-        local max_attack_distance = 3.8
+    if self:GetRandam_Int(1, 100) <= 100 and 60 < self:GetSp(TARGET_SELF) then
+        local max_attack_distance = 3
         local spin_time = 3.4
         
         if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
-            max_attack_distance = 3.4
+            max_attack_distance = 3
             spin_time = 2.6
         end
         
-        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, R1Fate)
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, R1Fate) -- Roll Attack
     end
     
     GetWellSpace_Odds = 100
@@ -594,46 +599,32 @@ function NPC_Lloyd_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Lloyd_Act14(self, ai, goal)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    local retreat_distance = 3.0
-    
-    -- Skip if already distant from the target
-    if distance >= 10.0 then
-        GetWellSpace_Odds = 100
-        return GetWellSpace_Odds
-    end
-    
-    if distance >= 1 then
-        if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0)
-        end
+function NPC_Annalise_Act14(self, ai, goal)
+    if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
             else
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
             end
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
         end
     elseif SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
     end
     
-    -- Step Attack
-    if stamina >= 60 then
+    if self:GetRandam_Int(1, 100) <= 100 and 60 < self:GetSp(TARGET_SELF) then
         local max_attack_distance = 1.8
         local spin_time = 1.4
         
         if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
-            max_attack_distance = 1.4
-            spin_time = 0.6
+            max_attack_distance = 1.8
+            spin_time = 1.6
         end
-        
-        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50)
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
     end
     
     GetWellSpace_Odds = 100
@@ -641,60 +632,60 @@ function NPC_Lloyd_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Lloyd_Act15(self, ai, goal)
-    local distance = self:GetDist(TARGET_ENE_0)
+function NPC_Annalise_Act15(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
-    local run_start_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = NPC_ATK_L1Hold    -- Guard with Left Weapon
     
-    -- Change to no guard if stamina is low
-    if stamina <= 30 then
-        animation = -1
+    if self:IsBothHandMode(TARGET_SELF) then
+        if 40 <= stamina and roll_a <= 50 then
+            animation = NPC_ATK_L1Hold
+        end
+    elseif self:GetEquipWeaponIndex(ARM_L) == WEP_Primary and 40 <= stamina and roll_a <= 100 then
+        animation = NPC_ATK_L1Hold
     end
     
-    local direction = 0
+    local roll_b = 0
     
-    -- Adjust direction based on location, or end early if colliding
     if SpaceCheck(self, ai, -90, 1) == true then
         if SpaceCheck(self, ai, 90, 1) == true then
             if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-                direction = 0
+                roll_b = 0
             else
-                direction = 1
+                roll_b = 1
             end
         else
-            direction = 0
+            roll_b = 0
         end
     elseif SpaceCheck(self, ai, 90, 1) == true then
-        direction = 1
+        roll_b = 1
     else
         GetWellSpace_Odds = 100
         return GetWellSpace_Odds
     end
     
-    if distance >= run_start_distance then
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
+    if self:GetDist(TARGET_ENE_0) < 5 then
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
     else
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Backstep
-function NPC_Lloyd_Act16(self, ai, goal)
-    local distance = self:GetDist(TARGET_ENE_0)
+-- Backstep Walk
+function NPC_Annalise_Act16(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
+    local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
-    local backstep_start_distance = 3.0
-    local run_start_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local max_attack_distance = 3.2
+    local animation = -1
     
-    if distance >= run_start_distance then
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
+    if self:GetDist(TARGET_ENE_0) < 5 then
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, animation)    -- Backstep Walk
     else
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, true, animation) -- Backstep
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, animation)     -- Backstep Walk
     end
     
     GetWellSpace_Odds = 100
@@ -702,24 +693,38 @@ function NPC_Lloyd_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Lloyd_Act17(self, ai, goal)
+function NPC_Annalise_Act17(self, ai, goal)
     local end_approach_distance = 5.0
+    local animation = -1
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
     else
-        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, NPC_ATK_L1Hold)
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, animation)
     end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Human Pine Resin
-function NPC_Lloyd_Act20(self, ai, goal)
-    self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Human Pine Resin", self:GetStringIndexedNumber("Human Pine Resin") - 1)
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+-- Cast Spell (Slot 0) - Dorhys Gnawing
+function NPC_Annalise_Act30(self, ai, goal)
+    self:ChangeEquipMagic(0) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if not not self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -728,7 +733,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Lloyd_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Annalise_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -764,27 +769,48 @@ Goal.Interrupt = function (self, ai, goal)
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
         return true
+    -- Occurs if the player is vulnerable to a parry
+    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
+        -- Switch to Parrying Dagger if in 2H mode
+        if self:IsBothHandMode(TARGET_SELF) then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+        end
+        
+        if not ai:IsBothHandMode(TARGET_SELF) then
+            if distance < 2 and roll <= 50 and 20 <= stamina then
+                goal:ClearSubGoal()
+                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
+                return true
+            end
+        end
+    -- Occurs if a parry has been applied to the player
+    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
+        goal:ClearSubGoal()
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
+        subgoal:SetLifeEndSuccess(true)
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
+        return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Lloyd_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Annalise_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Lloyd_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Annalise_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Lloyd_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Annalise_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Lloyd_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Annalise_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false

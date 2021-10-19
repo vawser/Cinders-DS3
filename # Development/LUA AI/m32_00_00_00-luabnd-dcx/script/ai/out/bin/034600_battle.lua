@@ -50,7 +50,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[12] = 0 -- Side Roll
         actChanceList[13] = 0 -- Back Roll
         actChanceList[14] = 0 -- Strafe
-        actChanceList[15] = 0 -- Backstep Walk + Shoot
+        actChanceList[15] = 0 -- Backstep
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Black Firebomb
     elseif distance >= 4 then
@@ -68,7 +68,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[12] = 0 -- Side Roll
         actChanceList[13] = 0 -- Back Roll
         actChanceList[14] = 0 -- Strafe
-        actChanceList[15] = 5 -- Backstep Walk + Shoot
+        actChanceList[15] = 5 -- Backstep
         
         actChanceList[20] = 5 -- Use Item (Slot 0) - Black Firebomb
     else
@@ -86,7 +86,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[12] = 10 -- Side Roll
         actChanceList[13] = 10 -- Back Roll
         actChanceList[14] = 0 -- Strafe
-        actChanceList[15] = 10 -- Backstep Walk + Shoot
+        actChanceList[15] = 10 -- Backstep
         
         actChanceList[20] = 3 -- Use Item (Slot 0) - Black Firebomb
     end
@@ -137,9 +137,9 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[13] = 0 -- Back Roll
     end
 
-    -- Block Backstep Walk + Shoot if there is an obstacle behind the AI within 1 meters
+    -- Block Backstep if there is an obstacle behind the AI within 1 meters
     if SpaceCheck(ai, goal, 180, 1) == false then
-        actChanceList[15] = 0 -- Backstep Walk + Shoot
+        actChanceList[15] = 0 -- Backstep
     end
     
     -- Block strafe if there is an obstacle +/- 90 degrees to the side of the AI within 1 meters
@@ -166,7 +166,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Cerah_Act12) -- Side Roll
     actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Cerah_Act13) -- Back Roll
     actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Cerah_Act14) -- Strafe
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Cerah_Act15) -- Backstep Walk + Shoot
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Cerah_Act15) -- Backstep
     
     -- Items
     actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Cerah_Act20)   -- Use Item (Slot 0) - Black Firebomb
@@ -535,41 +535,46 @@ end
 -- Backstep Roll
 function NPC_Cerah_Act10(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
-    local roll_a = self:GetRandam_Int(1, 100)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already distant from the target
+    if distance >= 6.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
     
     if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_BackStep")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Roll
     end
-
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Forward Roll 
+-- Forward Roll + Run + Basic Light Attack
 function NPC_Cerah_Act11(self, ai, goal)
-    if 5 <= self:GetDist(TARGET_ENE_0) and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Forward Roll
-    elseif SpaceCheck(self, ai, -45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        if SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-            if self:GetRandam_Int(1, 100) <= 50 then
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
-            else
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
-            end
-        else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Forward Roll
-        end
-    elseif SpaceCheck(self, ai, 45, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Forward Roll
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already next to the target
+    if distance <= 1.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 5 and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 3.0, 0, 0) -- Forward Roll
     end
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Side Roll
+-- Side Roll + Run + Basic Light Attack
 function NPC_Cerah_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
@@ -583,90 +588,101 @@ function NPC_Cerah_Act12(self, ai, goal)
     elseif SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Roll
     end
-    
+
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Back Roll
+-- Back Roll + Basic Light Attack
 function NPC_Cerah_Act13(self, ai, goal)
-    if self:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    local retreat_distance = 3.0
+    
+    -- Skip if already distant from the target
+    if distance >= 10.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 1 then
+        if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0)
+        end
     elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
             if self:GetRandam_Int(1, 100) <= 50 then
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
             else
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
             end
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Left Back Roll
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
         end
     elseif SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Back Roll
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
     end
-
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 -- Strafe
 function NPC_Cerah_Act14(self, ai, goal)
-    local roll_a = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
+    local run_start_distance = 5.0
     local animation = -1
-
-    local roll_b = 0
     
+    -- Change to no guard if stamina is low
+    if stamina <= 30 then
+        animation = -1
+    end
+    
+    local direction = 0
+    
+    -- Adjust direction based on location, or end early if colliding
     if SpaceCheck(self, ai, -90, 1) == true then
         if SpaceCheck(self, ai, 90, 1) == true then
             if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-                roll_b = 0
+                direction = 0
             else
-                roll_b = 1
+                direction = 1
             end
         else
-            roll_b = 0
+            direction = 0
         end
     elseif SpaceCheck(self, ai, 90, 1) == true then
-        roll_b = 1
+        direction = 1
     else
         GetWellSpace_Odds = 100
         return GetWellSpace_Odds
     end
     
-    if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
     else
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, roll_b, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Backstep Walk + Shoot
+-- Backstep
 function NPC_Cerah_Act15(self, ai, goal)
-    local roll_a = self:GetRandam_Int(1, 100)
-    local stamina = self:GetSp(TARGET_SELF)
+    local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
-    local max_attack_distance = 100.0
+    local backstep_start_distance = 5.0
+    local run_start_distance = 6.0
     local animation = -1
     
-    -- Switch to bow if holding Estoc
-    if self:GetEquipWeaponIndex(ARM_R) ~= WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Right)
-    end
-    
-    if self:GetDist(TARGET_ENE_0) < 5 then
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, false, NPC_ATK_R1Hold)    -- Backstep Walk + Shoot
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
     else
-        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, max_attack_distance, TARGET_ENE_0, true, NPC_ATK_R1Hold)     -- Backstep Walk + Shoot
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, true, animation) -- Backstep
     end
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
-    
-    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Bow Shoot (Slot 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -726,7 +742,7 @@ Goal.Interrupt = function (self, ai, goal)
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Cerah_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Cerah_Act15(ai, goal, paramTbl) -- Backstep
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()

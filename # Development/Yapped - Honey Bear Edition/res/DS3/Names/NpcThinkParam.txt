@@ -197,6 +197,10 @@
 35300 Pot King Greg
 35400 Spurned Shade
 35401 Spurned Shade - NPC
+35500 Ancient Soldier Varg
+35600 Afflicted Graverobber
+35700 Cerah the Old Explorer
+35800 Dragon Cultist
 39999 ### Companions ###
 40000 Hollow
 40010 Lothric Knight (Sword)
@@ -216,12 +220,6 @@
 40150 Ringed Knight
 40160 Hollow Cleric
 49999 ### Hostile NPCs ###
-50000 Dragon Cultist Xeric
-50010 Dragon Cultist Zena
-50020 Dragon Cultist Pon
-50030 Dragon Cultist Kalix
-50040 Dragon Cultist Wex
-50050 Dragon Cultist Solos
 50110 The Father
 50120 The Mother
 50130 The Child
