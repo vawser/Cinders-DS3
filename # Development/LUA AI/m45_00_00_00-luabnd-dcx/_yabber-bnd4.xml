@@ -17,6 +17,18 @@
       <flags>0x40</flags>
     </file>
     <file>
+      <id>1010</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\032100_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>1011</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\032200_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>1300</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\021300_battle.lua</path>
