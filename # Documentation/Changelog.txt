@@ -186,6 +186,8 @@ Finish following weapons:
 - Disciple of Alsanna:
 - Pot King Greg:
  
+# Bugfix
+- Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
  
 #------------------------------
 # TODO
@@ -208,7 +210,8 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-
+296 Undead Hunter Charm
+304 Duel Charm
 
 GOAL_NPC_Hodir = 32000
 GOAL_NPC_Ezekiel = 32100

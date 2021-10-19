@@ -3036,8 +3036,8 @@ Event(20072, Restart, function() {
     // End if not in Random type
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_RandomOrder);
     
-    BatchSetEventFlags(25003001, 25003033, OFF);
-    RandomlySetEventFlagInRange(25003001, 25003033, ON);
+    BatchSetEventFlags(25003001, 25003050, OFF);
+    RandomlySetEventFlagInRange(25003001, 25003035, ON);
     
     // Skip next section if DLC bosses are enabled
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, flag_DisableDLCBosses);
