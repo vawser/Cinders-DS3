@@ -159,7 +159,7 @@ Finish following weapons:
 - Huntmaster Ava: now has a custom AI, and acts like an archer.
 - Eccentric Archibald: now has a custom AI, expanded loadout.
 - Jailer Eileen: now has a custom AI, expanded loadout.
-- Ollis the Merciless:
+- Ollis the Merciless: now has a custom AI, expanded loadout.
 - Vileblood Annalise:
 - The Forlorn:
 - Lord Zakar:
@@ -208,9 +208,6 @@ Change Flirt (good) to instead give a Memory of Affection, that boosts survival 
 
 # Intruders
 
-
-
-GOAL_NPC_Ollis = 31600
 GOAL_NPC_Annalise = 31700
 GOAL_NPC_Forlorn = 31800
 GOAL_NPC_Zakar = 31900
