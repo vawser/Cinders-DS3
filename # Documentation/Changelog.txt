@@ -122,6 +122,10 @@ Finish following weapons:
 - Dusk Crown Ring reduces all spell FP cost by 40% and reduces max HP by 30%/26%/22%/18%/14%/10%.
 - Pontiff's Left Eye now grants additional spellbound charges with successive attacks.
 - Aldrich's Sapphire now grants additional spellbound charges on a successful critical attack.
+- Added Scroll of Ethereality: grants tomb ghost form and boosts physical absorption by 5%. Sold by Alchemist Jiji.
+- Added Scroll of Hollowing: grants hollow form and boosts defences by 10%. Sold by Alchemist Jiji.
+- Added Scroll of Humanity: grants human form and boosts max stamina by 5%. Sold by Alchemist Jiji.
+- Added Scroll of Cooperation: grants white phantom form and boosts max HP by 5%. Sold by Alchemist Jiji.
 
 # Consumable Items:
 - Rouge/Crimson Water now boost FP recovery for 60 seconds.
@@ -241,3 +245,7 @@ GOAL_NPC_TheFather = 34100
 GOAL_NPC_TheMother = 34200
 GOAL_NPC_TheChild = 34300
 
+31100 Scroll of Ethereality
+31110 Scroll of Hollowing
+31120 Scroll of Humanity
+31130 Scroll of Cooperation
