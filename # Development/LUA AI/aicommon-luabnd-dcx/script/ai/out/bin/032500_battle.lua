@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Eija, "GOAL_NPC_Eija")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Eija, true)
+RegisterTableGoal(GOAL_NPC_Freya, "GOAL_NPC_Freya")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Freya, true)
 
 -------------------------
 -- Initialize
@@ -39,49 +39,55 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Scorpion Sting
+        actChanceList[5] = 0 -- WA: Shield Splitter
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 10 -- Approach
         
-        actChanceList[20] = 5 -- Use Item (Slot 0) - Rotten Pine Resin
+        actChanceList[20] = 5 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Pestilent Mist
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Farron Flashsword
-        actChanceList[32] = 15 -- Cast Spell (Slot 2) - Shockwave
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Deep Soul
+        actChanceList[31] = 10 -- Cast Spell (Slot 1) - Great Deep Soul
+        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
+        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Abyssal Edge
+        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Dark Bead
     elseif distance >= 3 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[1] = 5 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 5 -- WA: Scorpion Sting
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 3 -- WA: Shield Splitter
         
         actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 0 -- Strafe
-        actChanceList[16] = 0 -- Backstep
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 5 -- Strafe
+        actChanceList[16] = 5 -- Backstep
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 5 -- Use Item (Slot 0) - Rotten Pine Resin
+        actChanceList[20] = 5 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[21] = 5 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Pestilent Mist
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Farron Flashsword
-        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Shockwave
+        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Deep Soul
+        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Great Deep Soul
+        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
+        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Abyssal Edge
+        actChanceList[34] = 10 -- Cast Spell (Slot 4) - Dark Bead
     else
-        actChanceList[1] = 15 -- Right Light Attack + Approach
-        actChanceList[2] = 15 -- Right Heavy Attack + Approach
-        actChanceList[3] = 5 -- Kick + Approach
-        actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Scorpion Sting
+        actChanceList[1] = 10 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 3 -- WA: Shield Splitter
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
@@ -92,24 +98,28 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 5 -- Backstep
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Rotten Pine Resin
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
         
-        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Pestilent Mist
-        actChanceList[31] = 10 -- Cast Spell (Slot 1) - Farron Flashsword
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Shockwave
+        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Deep Soul
+        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Great Deep Soul
+        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
+        actChanceList[33] = 15 -- Cast Spell (Slot 3) - Abyssal Edge
+        actChanceList[34] = 10 -- Cast Spell (Slot 4) - Dark Bead
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Start using Shockwave if HP is low
-    if ai:GetHpRate(TARGET_SELF) <= 0.5 and distance >= 2.0 then
-        actChanceList[32] = 15 -- Cast Spell (Slot 2) - Shockwave
+    -- Snipe the player is they are low
+    if ai:GetHpRate(TARGET_ENE_0) < 0.25 and distance >= 2.0 then
+        actChanceList[31] = actChanceList[31] + 10 -- Cast Spell (Slot 1) - Great Deep Soul
     end
     
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Rotten Pine Resin
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
     end
     
     -- Kick guarding player
@@ -117,16 +127,23 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
     end
     
-    -- Block repeat usage of Rotten Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2150)
+    -- Block repeat usage of Human Pine Resin while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2170)
     
-    if ai:HasSpecialEffectId(TARGET_SELF, 2150) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Rotten Pine Resin
+    if ai:HasSpecialEffectId(TARGET_SELF, 2170) then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+    end
+    
+    -- Block repeat usage of Undead Hunter Charm while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_ENE_0, 3151)
+    
+    if ai:HasSpecialEffectId(TARGET_ENE_0, 3151) then
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
     end
     
     -- Block WA if stamina when low on stamina
-    if stamina < 25 then
-        actChanceList[5] = 0 -- WA: Scorpion Sting
+    if stamina < 30 then
+        actChanceList[5] = 0 -- WA: Shield Splitter
     end
     
     -- Block dash and rolls when low on stamina
@@ -180,31 +197,34 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Eija_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Eija_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Eija_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Eija_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Eija_Act05) -- WA: Scorpion Sting
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Freya_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Freya_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Freya_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Freya_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Freya_Act05) -- WA: Shield Splitter
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Eija_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Eija_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Eija_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Eija_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Eija_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Eija_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Eija_Act16) -- Backstep
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Eija_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Freya_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Freya_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Freya_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Freya_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Freya_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Freya_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Freya_Act16) -- Backstep
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Freya_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Eija_Act20)   -- Use Item (Slot 0) - Rotten Pine Resin
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Freya_Act20)   -- Use Item (Slot 0) - Human Pine Resin
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Freya_Act21)   -- Use Item (Slot 1) - Undead Hunter Charm
     
     -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Eija_Act30) -- Cast Spell (Slot 0) - Pestilent Mist
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Eija_Act31) -- Cast Spell (Slot 1) - Farron Flashsword
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Eija_Act32) -- Cast Spell (Slot 2) - Shockwave
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Freya_Act30) -- Cast Spell (Slot 0) - Deep Soul
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Freya_Act31) -- Cast Spell (Slot 1) - Great Deep Soul
+    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Freya_Act32) -- Cast Spell (Slot 2) - Great Soul Dregs
+    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_Freya_Act33) -- Cast Spell (Slot 3) - Abyssal Edge
+    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_Freya_Act34) -- Cast Spell (Slot 4) - Dark Bead
     
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Eija_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Freya_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -212,7 +232,7 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Eija_Act01(self, ai, goal)
+function NPC_Freya_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
@@ -288,7 +308,7 @@ function NPC_Eija_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Eija_Act02(self, ai, goal)
+function NPC_Freya_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -372,7 +392,7 @@ function NPC_Eija_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Eija_Act03(self, ai, goal)
+function NPC_Freya_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -402,7 +422,7 @@ function NPC_Eija_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Eija_Act04(self, ai, goal)
+function NPC_Freya_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -431,12 +451,13 @@ function NPC_Eija_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Scorpion Sting
-function NPC_Eija_Act05(self, ai, goal)
+-- WA: Shield Splitter
+function NPC_Freya_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
+    -- Force 2H mode
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
@@ -451,7 +472,7 @@ function NPC_Eija_Act05(self, ai, goal)
 end
 
 -- Approach + Running Attack
-function NPC_Eija_Act10(self, ai, goal)
+function NPC_Freya_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
@@ -507,7 +528,7 @@ function NPC_Eija_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Eija_Act11(self, ai, goal)
+function NPC_Freya_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -538,7 +559,7 @@ function NPC_Eija_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Eija_Act12(self, ai, goal)
+function NPC_Freya_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -569,7 +590,7 @@ function NPC_Eija_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Eija_Act13(self, ai, goal)
+function NPC_Freya_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -604,7 +625,7 @@ function NPC_Eija_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Eija_Act14(self, ai, goal)
+function NPC_Freya_Act14(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local retreat_distance = 3.0
@@ -651,12 +672,12 @@ function NPC_Eija_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Eija_Act15(self, ai, goal)
+function NPC_Freya_Act15(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
     local run_start_distance = 5.0
-    local animation = -1
+    local animation = NPC_ATK_L1Hold
     
     -- Change to no guard if stamina is low
     if stamina <= 30 then
@@ -694,7 +715,7 @@ function NPC_Eija_Act15(self, ai, goal)
 end
 
 -- Backstep
-function NPC_Eija_Act16(self, ai, goal)
+function NPC_Freya_Act16(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
     local backstep_start_distance = 3.0
@@ -712,9 +733,9 @@ function NPC_Eija_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Eija_Act17(self, ai, goal)
+function NPC_Freya_Act17(self, ai, goal)
     local end_approach_distance = 5.0
-    local animation = -1
+    local animation = NPC_ATK_L1Hold
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
@@ -726,18 +747,28 @@ function NPC_Eija_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Rotten Pine Resin
-function NPC_Eija_Act20(self, ai, goal)
-    self:ChangeEquipItem(1) 
-    self:SetStringIndexedNumber("Rotten Pine Resin", self:GetStringIndexedNumber("Rotten Pine Resin") - 1)
+-- Use Item (Slot 0) - Human Pine Resin
+function NPC_Freya_Act20(self, ai, goal)
+    self:ChangeEquipItem(0) 
+    self:SetStringIndexedNumber("Human Pine Resin", self:GetStringIndexedNumber("Human Pine Resin") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Pestilent Mist
-function NPC_Eija_Act30(self, ai, goal)
+-- Use Item (Slot 1) - Undead Hunter Charm
+function NPC_Freya_Act21(self, ai, goal)
+    self:ChangeEquipItem(1) 
+    self:SetStringIndexedNumber("Undead Hunter Charm", self:GetStringIndexedNumber("Undead Hunter Charm") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 0) - Deep Soul
+function NPC_Freya_Act30(self, ai, goal)
     self:ChangeEquipMagic(0) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -750,17 +781,17 @@ function NPC_Eija_Act30(self, ai, goal)
     
     -- Cast Spell with Left Light Attack
     local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
     subgoal:SetLifeEndSuccess(true)
     
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 1) - Farron Flashsword
-function NPC_Eija_Act31(self, ai, goal)
+-- Cast Spell (Slot 1) - Great Deep Soul
+function NPC_Freya_Act31(self, ai, goal)
     self:ChangeEquipMagic(1) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -773,17 +804,17 @@ function NPC_Eija_Act31(self, ai, goal)
     
     -- Cast Spell with Left Light Attack
     local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
     subgoal:SetLifeEndSuccess(true)
     
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 2) - Shockwave
-function NPC_Eija_Act32(self, ai, goal)
+-- Cast Spell (Slot 2) - Great Soul Dregs
+function NPC_Freya_Act32(self, ai, goal)
     self:ChangeEquipMagic(2) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -796,10 +827,56 @@ function NPC_Eija_Act32(self, ai, goal)
     
     -- Cast Spell with Left Light Attack
     local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
+    subgoal = subgoal:TimingSetTimer(0, 2, UPDATE_SUCCESS)
     subgoal:SetLifeEndSuccess(true)
     
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 3) - Abyssal Edge
+function NPC_Freya_Act33(self, ai, goal)
+    self:ChangeEquipMagic(3) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 4) - Dark Bead
+function NPC_Freya_Act34(self, ai, goal)
+    self:ChangeEquipMagic(4) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -808,7 +885,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Eija_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Freya_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -844,43 +921,27 @@ Goal.Interrupt = function (self, ai, goal)
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
         return true
-    -- Occurs if the player is vulnerable to a parry
-    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
-        if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
-                goal:ClearSubGoal()
-                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
-                return true
-            end
-        end
-    -- Occurs if a parry has been applied to the player
-    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
-        goal:ClearSubGoal()
-        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
-        subgoal:SetLifeEndSuccess(true)
-        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
-        return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Eija_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Freya_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Eija_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Freya_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Eija_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Freya_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Eija_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Freya_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false

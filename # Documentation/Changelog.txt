@@ -167,8 +167,8 @@ Finish following weapons:
 - Glaive Master Hodir: now has a custom AI, expanded loadout.
 - Ezekiel the Duelist: now has a custom AI, expanded loadout.
 - Eija the Shadow: now has a custom AI, expanded loadout.
-- Ironclad Xavier:
-- Freya the Wretched:
+- Ironclad Xavier: now has a custom AI, expanded loadout.
+- Freya the Wretched: now has a custom AI, expanded loadout.
 - Nahor the Fallen:
 - Easterner Iazeel:
 - Gaius the Mighty:
@@ -210,9 +210,15 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
+30860100
+20130000
 
-GOAL_NPC_Xavier = 32300
-GOAL_NPC_Freya = 32400
+304 Duel Charm
+293 Dung Pie
+
+2422000 Acid Surge
+2430000 Iron Flesh # 102430000
+
 GOAL_NPC_Nahor = 32500
 GOAL_NPC_Iazeel = 32600
 GOAL_NPC_Gaius = 32700
