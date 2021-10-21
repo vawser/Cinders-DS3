@@ -39,57 +39,30 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Shield Splitter
+        actChanceList[5] = 0 -- WA: Acid Surge
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 10 -- Approach
         
-        actChanceList[20] = 5 -- Use Item (Slot 0) - Human Pine Resin
-        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Dung Pie
         
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Deep Soul
-        actChanceList[31] = 10 -- Cast Spell (Slot 1) - Great Deep Soul
-        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Abyssal Edge
-        actChanceList[34] = 0 -- Cast Spell (Slot 4) - Dark Bead
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Acid Surge
+        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Iron Flesh
     elseif distance >= 3 then
-        actChanceList[1] = 5 -- Right Light Attack + Approach
-        actChanceList[2] = 5 -- Right Heavy Attack + Approach
-        actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 3 -- WA: Shield Splitter
-        
-        actChanceList[10] = 5 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 5 -- Strafe
-        actChanceList[16] = 5 -- Backstep
-        actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 5 -- Use Item (Slot 0) - Human Pine Resin
-        actChanceList[21] = 5 -- Use Item (Slot 1) - Undead Hunter Charm
-        
-        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Deep Soul
-        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Great Deep Soul
-        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
-        actChanceList[33] = 0 -- Cast Spell (Slot 3) - Abyssal Edge
-        actChanceList[34] = 10 -- Cast Spell (Slot 4) - Dark Bead
-    else
         actChanceList[1] = 10 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
-        actChanceList[3] = 10 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 3 -- WA: Shield Splitter
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 10 -- Jump Attack + Approach
+        actChanceList[5] = 5 -- WA: Acid Surge
         
-        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll
         actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
@@ -98,28 +71,41 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 5 -- Backstep
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
-        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
+        actChanceList[20] = 5 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 5 -- Use Item (Slot 1) - Dung Pie
         
-        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Deep Soul
-        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Great Deep Soul
-        actChanceList[32] = 5 -- Cast Spell (Slot 2) - Great Soul Dregs
-        actChanceList[33] = 15 -- Cast Spell (Slot 3) - Abyssal Edge
-        actChanceList[34] = 10 -- Cast Spell (Slot 4) - Dark Bead
+        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Acid Surge
+        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Iron Flesh
+    else
+        actChanceList[1] = 20 -- Right Light Attack + Approach
+        actChanceList[2] = 20 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Acid Surge
+        
+        actChanceList[10] = 5 -- Approach + Running Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 5 -- Strafe
+        actChanceList[16] = 5 -- Backstep
+        actChanceList[17] = 0 -- Approach
+        
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 3 -- Use Item (Slot 1) - Dung Pie
+        
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Acid Surge
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Iron Flesh
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.25 and distance >= 2.0 then
-        actChanceList[31] = actChanceList[31] + 10 -- Cast Spell (Slot 1) - Great Deep Soul
-    end
-    
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
-        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Dung Pie
     end
     
     -- Kick guarding player
@@ -127,23 +113,18 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
     end
     
-    -- Block repeat usage of Human Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2170)
+    -- Block repeat usage of Duel Charm while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_ENE_0, 3351)
     
-    if ai:HasSpecialEffectId(TARGET_SELF, 2170) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Human Pine Resin
+    if ai:HasSpecialEffectId(TARGET_ENE_0, 3351) then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
     end
     
-    -- Block repeat usage of Undead Hunter Charm while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_ENE_0, 3151)
+    -- Block repeat usage of Iron Flesh while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 102430000)
     
-    if ai:HasSpecialEffectId(TARGET_ENE_0, 3151) then
-        actChanceList[21] = 0 -- Use Item (Slot 1) - Undead Hunter Charm
-    end
-    
-    -- Block WA if stamina when low on stamina
-    if stamina < 30 then
-        actChanceList[5] = 0 -- WA: Shield Splitter
+    if ai:HasSpecialEffectId(TARGET_SELF, 102430000) then
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Iron Flesh
     end
     
     -- Block dash and rolls when low on stamina
@@ -201,7 +182,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Nahor_Act02) -- Right Heavy Attack + Approach
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Nahor_Act03) -- Kick + Approach
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Nahor_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Nahor_Act05) -- WA: Shield Splitter
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Nahor_Act05) -- WA: Acid Surge
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Nahor_Act10) -- Approach + Running Attack
@@ -214,15 +195,12 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Nahor_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Nahor_Act20)   -- Use Item (Slot 0) - Human Pine Resin
-    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Nahor_Act21)   -- Use Item (Slot 1) - Undead Hunter Charm
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Nahor_Act20) -- Use Item (Slot 0) - Duel Charm
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Nahor_Act21) -- Use Item (Slot 1) - Dung Pie
     
     -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Nahor_Act30) -- Cast Spell (Slot 0) - Deep Soul
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Nahor_Act31) -- Cast Spell (Slot 1) - Great Deep Soul
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Nahor_Act32) -- Cast Spell (Slot 2) - Great Soul Dregs
-    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_Nahor_Act33) -- Cast Spell (Slot 3) - Abyssal Edge
-    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_Nahor_Act34) -- Cast Spell (Slot 4) - Dark Bead
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Nahor_Act30) -- Cast Spell (Slot 0) - Acid Surge
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Nahor_Act31) -- Cast Spell (Slot 1) - Iron Flesh
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Nahor_ActAfter_AdjustSpace), actTblList)
     return 
@@ -451,7 +429,7 @@ function NPC_Nahor_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Shield Splitter
+-- WA: Acid Surge
 function NPC_Nahor_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
@@ -747,27 +725,27 @@ function NPC_Nahor_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Human Pine Resin
+-- Use Item (Slot 0) - Duel Charm
 function NPC_Nahor_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Human Pine Resin", self:GetStringIndexedNumber("Human Pine Resin") - 1)
+    self:SetStringIndexedNumber("Duel Charm", self:GetStringIndexedNumber("Duel Charm") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 1) - Undead Hunter Charm
+-- Use Item (Slot 1) - Dung Pie
 function NPC_Nahor_Act21(self, ai, goal)
     self:ChangeEquipItem(1) 
-    self:SetStringIndexedNumber("Undead Hunter Charm", self:GetStringIndexedNumber("Undead Hunter Charm") - 1)
+    self:SetStringIndexedNumber("Dung Pie", self:GetStringIndexedNumber("Dung Pie") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Deep Soul
+-- Cast Spell (Slot 0) - Acid Surge
 function NPC_Nahor_Act30(self, ai, goal)
     self:ChangeEquipMagic(0) 
     local roll_a = self:GetRandam_Int(1, 100)
@@ -790,78 +768,9 @@ function NPC_Nahor_Act30(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 1) - Great Deep Soul
+-- Cast Spell (Slot 1) - Iron Flesh
 function NPC_Nahor_Act31(self, ai, goal)
     self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Great Soul Dregs
-function NPC_Nahor_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, 2, UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 3) - Abyssal Edge
-function NPC_Nahor_Act33(self, ai, goal)
-    self:ChangeEquipMagic(3) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 4) - Dark Bead
-function NPC_Nahor_Act34(self, ai, goal)
-    self:ChangeEquipMagic(4) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -920,6 +829,22 @@ Goal.Interrupt = function (self, ai, goal)
         
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
+        return true
+    -- Occurs if the player is vulnerable to a parry
+    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
+        if not ai:IsBothHandMode(TARGET_SELF) then
+            if distance < 2 and roll <= 50 and 20 <= stamina then
+                goal:ClearSubGoal()
+                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
+                return true
+            end
+        end
+    -- Occurs if a parry has been applied to the player
+    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
+        goal:ClearSubGoal()
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
+        subgoal:SetLifeEndSuccess(true)
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then
