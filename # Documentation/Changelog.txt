@@ -106,6 +106,7 @@ Finish following weapons:
 - Reduced the duration of the Poison/Toxic Mist effects to 30 seconds.
 - Reduced the duration of Fortified Rapport to 30 seconds and increased the absorption buff to 75%.
 - Slightly changed Fire Surge, Cataclysm, Quickened Earthquake and Earthfall.
+- Changed Overwhelming Power: the spell VFX is now bigger, the lightning spears have minor homing and the impact on the ground now has a AOE, meaning the spell is a lot more useful for area denial.
 
 # Weapons:
 - Changed the effects of the Handmaid's Dagger, Executioner's Greatsword, Sage's Stiletto and Blueblood Sword to reduce spell FP cost by 10%.
@@ -192,6 +193,9 @@ Finish following weapons:
  
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
+
+# Multiplayer
+- Increased the HP and damage gained by enemies when you have summons in your world.
  
 #------------------------------
 # TODO
@@ -214,10 +218,14 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-30570600
-17090000
+30570600 Channeler's Trident # WA: Channeler's Boon # 160250060
+17090000 Crystal Chime
 
-1620000
+1620000 Soul Stream
+1802000 Soul Wave
+1374000 Soul Greatsword
+
+240 Divine Blessing # 
 
 GOAL_NPC_Quintus = 32800
 GOAL_NPC_BlacksmithNightmare = 32900
@@ -238,18 +246,3 @@ GOAL_NPC_TheFather = 34100
 GOAL_NPC_TheMother = 34200
 GOAL_NPC_TheChild = 34300
 
-# MP
-SetNetworkSyncState(Disabled);
-EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, false);
-EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
-
-
- - Use when time sensitive scripts move entities
- - Use when making use of Uncompiled commands
- 
-Synced:
- All players scripts are synced to the execution of this script, no matter location
- 
-Non-synced:
- Player scripts are based on update authority, which is based on proximity
- 

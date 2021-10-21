@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="BooleanIntEnum" type="u8">
+    <item value="0" name="False" />
+    <item value="1" name="True" />
+  </enum>
   <entry>
     <name>Play Region ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Allow Summon Signs</name>
+    <name>Event Flag: Allow Summoning</name>
     <type>s32</type>
     <default>0</default>
-    <description>-1 for disallow, 0 for allow</description>
+    <description>-1 for disallow, 0 for allow, or specific flag.</description>
   </entry>
   <entry>
     <name>Limitation Time</name>
@@ -17,12 +21,12 @@
     <default>20</default>
   </entry>
   <entry>
-    <name>Event Flag ID 1</name>
+    <name>Event Flag: Boss Defeat Flag</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Event Flag ID 2</name>
+    <name>Event Flag: Disallow Summoning</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -32,12 +36,13 @@
     <default>180</default>
   </entry>
   <entry>
-    <name>Is Lord of Cinder</name>
+    <name>Is Covenant Invasion Zone</name>
     <type>u8</type>
     <default>0</default>
+    <enum>BooleanIntEnum</enum>
   </entry>
   <entry>
-    <name>Is Enable Event</name>
+    <name>Is Boss Invasion Zone</name>
     <type>b8</type>
     <default>False</default>
   </entry>
