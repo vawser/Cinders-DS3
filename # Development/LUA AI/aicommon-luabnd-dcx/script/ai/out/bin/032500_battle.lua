@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Freya, "GOAL_NPC_Freya")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Freya, true)
+RegisterTableGoal(GOAL_NPC_Nahor, "GOAL_NPC_Nahor")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Nahor, true)
 
 -------------------------
 -- Initialize
@@ -197,34 +197,34 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Freya_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Freya_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Freya_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Freya_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Freya_Act05) -- WA: Shield Splitter
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Nahor_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Nahor_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Nahor_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Nahor_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Nahor_Act05) -- WA: Shield Splitter
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Freya_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Freya_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Freya_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Freya_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Freya_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Freya_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Freya_Act16) -- Backstep
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Freya_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Nahor_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Nahor_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Nahor_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Nahor_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Nahor_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Nahor_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Nahor_Act16) -- Backstep
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Nahor_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Freya_Act20)   -- Use Item (Slot 0) - Human Pine Resin
-    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Freya_Act21)   -- Use Item (Slot 1) - Undead Hunter Charm
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Nahor_Act20)   -- Use Item (Slot 0) - Human Pine Resin
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Nahor_Act21)   -- Use Item (Slot 1) - Undead Hunter Charm
     
     -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Freya_Act30) -- Cast Spell (Slot 0) - Deep Soul
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Freya_Act31) -- Cast Spell (Slot 1) - Great Deep Soul
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Freya_Act32) -- Cast Spell (Slot 2) - Great Soul Dregs
-    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_Freya_Act33) -- Cast Spell (Slot 3) - Abyssal Edge
-    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_Freya_Act34) -- Cast Spell (Slot 4) - Dark Bead
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Nahor_Act30) -- Cast Spell (Slot 0) - Deep Soul
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Nahor_Act31) -- Cast Spell (Slot 1) - Great Deep Soul
+    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Nahor_Act32) -- Cast Spell (Slot 2) - Great Soul Dregs
+    actFuncList[33] = REGIST_FUNC(ai, goal, NPC_Nahor_Act33) -- Cast Spell (Slot 3) - Abyssal Edge
+    actFuncList[34] = REGIST_FUNC(ai, goal, NPC_Nahor_Act34) -- Cast Spell (Slot 4) - Dark Bead
     
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Freya_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Nahor_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -232,7 +232,7 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Freya_Act01(self, ai, goal)
+function NPC_Nahor_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
@@ -308,7 +308,7 @@ function NPC_Freya_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Freya_Act02(self, ai, goal)
+function NPC_Nahor_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -392,7 +392,7 @@ function NPC_Freya_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Freya_Act03(self, ai, goal)
+function NPC_Nahor_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -422,7 +422,7 @@ function NPC_Freya_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Freya_Act04(self, ai, goal)
+function NPC_Nahor_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -452,7 +452,7 @@ function NPC_Freya_Act04(self, ai, goal)
 end
 
 -- WA: Shield Splitter
-function NPC_Freya_Act05(self, ai, goal)
+function NPC_Nahor_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
@@ -472,7 +472,7 @@ function NPC_Freya_Act05(self, ai, goal)
 end
 
 -- Approach + Running Attack
-function NPC_Freya_Act10(self, ai, goal)
+function NPC_Nahor_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
@@ -528,7 +528,7 @@ function NPC_Freya_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Freya_Act11(self, ai, goal)
+function NPC_Nahor_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -559,7 +559,7 @@ function NPC_Freya_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Freya_Act12(self, ai, goal)
+function NPC_Nahor_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -590,7 +590,7 @@ function NPC_Freya_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Freya_Act13(self, ai, goal)
+function NPC_Nahor_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -625,7 +625,7 @@ function NPC_Freya_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Freya_Act14(self, ai, goal)
+function NPC_Nahor_Act14(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local retreat_distance = 3.0
@@ -672,7 +672,7 @@ function NPC_Freya_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Freya_Act15(self, ai, goal)
+function NPC_Nahor_Act15(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -715,7 +715,7 @@ function NPC_Freya_Act15(self, ai, goal)
 end
 
 -- Backstep
-function NPC_Freya_Act16(self, ai, goal)
+function NPC_Nahor_Act16(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
     local backstep_start_distance = 3.0
@@ -733,7 +733,7 @@ function NPC_Freya_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Freya_Act17(self, ai, goal)
+function NPC_Nahor_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     local animation = NPC_ATK_L1Hold
     
@@ -748,7 +748,7 @@ function NPC_Freya_Act17(self, ai, goal)
 end
 
 -- Use Item (Slot 0) - Human Pine Resin
-function NPC_Freya_Act20(self, ai, goal)
+function NPC_Nahor_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
     self:SetStringIndexedNumber("Human Pine Resin", self:GetStringIndexedNumber("Human Pine Resin") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
@@ -758,7 +758,7 @@ function NPC_Freya_Act20(self, ai, goal)
 end
 
 -- Use Item (Slot 1) - Undead Hunter Charm
-function NPC_Freya_Act21(self, ai, goal)
+function NPC_Nahor_Act21(self, ai, goal)
     self:ChangeEquipItem(1) 
     self:SetStringIndexedNumber("Undead Hunter Charm", self:GetStringIndexedNumber("Undead Hunter Charm") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
@@ -768,7 +768,7 @@ function NPC_Freya_Act21(self, ai, goal)
 end
 
 -- Cast Spell (Slot 0) - Deep Soul
-function NPC_Freya_Act30(self, ai, goal)
+function NPC_Nahor_Act30(self, ai, goal)
     self:ChangeEquipMagic(0) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -791,7 +791,7 @@ function NPC_Freya_Act30(self, ai, goal)
 end
 
 -- Cast Spell (Slot 1) - Great Deep Soul
-function NPC_Freya_Act31(self, ai, goal)
+function NPC_Nahor_Act31(self, ai, goal)
     self:ChangeEquipMagic(1) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -814,7 +814,7 @@ function NPC_Freya_Act31(self, ai, goal)
 end
 
 -- Cast Spell (Slot 2) - Great Soul Dregs
-function NPC_Freya_Act32(self, ai, goal)
+function NPC_Nahor_Act32(self, ai, goal)
     self:ChangeEquipMagic(2) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -837,7 +837,7 @@ function NPC_Freya_Act32(self, ai, goal)
 end
 
 -- Cast Spell (Slot 3) - Abyssal Edge
-function NPC_Freya_Act33(self, ai, goal)
+function NPC_Nahor_Act33(self, ai, goal)
     self:ChangeEquipMagic(3) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -860,7 +860,7 @@ function NPC_Freya_Act33(self, ai, goal)
 end
 
 -- Cast Spell (Slot 4) - Dark Bead
-function NPC_Freya_Act34(self, ai, goal)
+function NPC_Nahor_Act34(self, ai, goal)
     self:ChangeEquipMagic(4) 
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
@@ -885,7 +885,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Freya_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Nahor_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -926,22 +926,22 @@ Goal.Interrupt = function (self, ai, goal)
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Freya_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Nahor_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Freya_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Nahor_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Freya_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Nahor_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Freya_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Nahor_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false

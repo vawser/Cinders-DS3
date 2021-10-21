@@ -214,8 +214,8 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-30860100
-20130000
+30860100 Scraping Spear
+20130000 Pyromancy Flame
 
 304 Duel Charm
 293 Dung Pie
@@ -245,7 +245,3 @@ GOAL_NPC_TheFather = 34100
 GOAL_NPC_TheMother = 34200
 GOAL_NPC_TheChild = 34300
 
-31100 Scroll of Ethereality
-31110 Scroll of Hollowing
-31120 Scroll of Humanity
-31130 Scroll of Cooperation
