@@ -3596,6 +3596,7 @@ Event(20060, Default, function(X0_4) {
     SetEventFlag(25000020, ON); // Debug flag
     
     ChangeCharacterEnableState(4000899, Enabled);
+    SetCharacterAnimationState(4000899, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
