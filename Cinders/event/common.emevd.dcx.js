@@ -10,19 +10,13 @@
 // Constructor
 //----------------------------------------------
 Event(0, Default, function() {
-    //---------------------------------------
-    // Host and Client
-    //---------------------------------------
+    //-----------------------------------
+    // Run for Host and Clients
+    //-----------------------------------
     InitializeEvent(0, 200, 0);
     InitializeEvent(0, 230, 0); // Set Eclipse ceremonies
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
-    
-    //--------------------
-    // Setup
-    //--------------------
-    InitializeEvent(0, 20001, 0); // Game Flags - Once
-    InitializeEvent(0, 20002, 0); // Game Flags - On Load
     
     // Trackers
     InitializeEvent(0, 20003, 0); // No Hit State
@@ -34,21 +28,6 @@ Event(0, Default, function() {
     InitializeEvent(0, 20007, 0); // Covenant Material Drops - 1
     InitializeEvent(0, 20008, 0); // Covenant Material Drops - 2
     InitializeEvent(0, 20009, 0); // Covenant Consumable Drops
-    
-    // Modes
-    InitializeEvent(0, 20050, 0); // Standard Mode
-    InitializeEvent(0, 20051, 0); // Wanderer Mode
-    InitializeEvent(0, 20052, 0); // Mythic Mode
-    InitializeEvent(0, 20053, 0); // Starting Location
-    InitializeEvent(0, 20054, 0); // Explorer Mode
-    
-    // Gauntlet Mode
-    InitializeEvent(0, 20070, 0); // Gauntlet Mode
-    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
-    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
-    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Set/Endless Gauntlet - Reverse
-    
-    InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
     
     // Masteries
     InitializeEvent(0, 20080, 0); // Masteries
@@ -166,7 +145,6 @@ Event(0, Default, function() {
     InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
     InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
     
-    
     //--------------------
     // Items
     //--------------------
@@ -190,6 +168,36 @@ Event(0, Default, function() {
     InitializeEvent(0, 20061, 10000); // Screenshot Tool
     InitializeEvent(0, 20062, 10000); // Treasure Tool
     InitializeEvent(0, 20063, 10000); // NG+ Tool
+    
+    //-----------------------------------
+    // Run for Host only
+    //-----------------------------------
+    EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
+    
+    //--------------------
+    // Setup
+    //--------------------
+    InitializeEvent(0, 20001, 0); // Game Flags - Once
+    InitializeEvent(0, 20002, 0); // Game Flags - On Load
+    
+    //--------------------
+    // Journey Configuration
+    //--------------------
+    // Modes
+    InitializeEvent(0, 20050, 0); // Standard Mode
+    InitializeEvent(0, 20051, 0); // Wanderer Mode
+    InitializeEvent(0, 20052, 0); // Mythic Mode
+    InitializeEvent(0, 20053, 0); // Starting Location
+    InitializeEvent(0, 20054, 0); // Explorer Mode
+    
+    // Gauntlet Mode
+    InitializeEvent(0, 20070, 0); // Gauntlet Mode
+    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
+    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
+    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Set/Endless Gauntlet - Reverse
+    
+    InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
     
     //--------------------
     // Boss Revival
@@ -231,9 +239,6 @@ Event(0, Default, function() {
     InitializeEvent(0, 20134, 0); // Titanite Abomination
     InitializeEvent(0, 20135, 0); // The Marauder
     
-    EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-
     // Sin
     InitializeEvent(0, 9004, 9007); // Sin - Check Hostility
     InitializeEvent(0, 9005, 9008); // Sin - Check Hostility
@@ -353,17 +358,26 @@ Event(0, Default, function() {
 // Deconstructor
 //----------------------------------------------
 Event(50, Default, function() {
+    //-----------------------------------
+    // Run for Host and Client
+    //-----------------------------------
+    // Ceremonies
     //InitializeEvent(0, 231, 0);   // Untended Graves - Ceremony Monitor
     InitializeEvent(0, 232, 0);     // Undead Settlement - Ceremony Monitor
     
+    // Misc
     InitializeEvent(0, 701, 0);     // Unknown
-    InitializeEvent(0, 700, 0);     // Flag Setup
-    InitializeEvent(0, 9012, 0);    // Player - Set Gender Flag
-    InitializeEvent(0, 741, 0);     // World - Untended Graves - Area Welcome Message Handler
     InitializeEvent(0, 740, 0);     // Reset Camera
     
+    //-----------------------------------
+    // Run for Host only
+    //-----------------------------------
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
+    
+    InitializeEvent(0, 700, 0);  // Flag Setup
+    InitializeEvent(0, 741, 0);  // World - Untended Graves - Area Welcome Message Handler
+    InitializeEvent(0, 9012, 0); // Player - Set Gender Flag
     
     // Remove items in NG+
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 6400); // Final Cutscene
@@ -567,8 +581,6 @@ Event(6100, Default, function(X0_4, X4_4) {
 // 27 - Summoner
 // 99 - Accursed
 Event(700, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     
     SetCharacterRemainingYoelLevels(5);
@@ -724,9 +736,6 @@ Event(740, Default, function() {
 // World - Untended Graves - Area Welcome Message Handler
 //----------------------------------------------
 Event(741, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    
     SetEventFlag(74000013, OFF); // In Bonfire Menu
     
     IfPlayerInoutMap(AND_01, true, 40, 0);
@@ -1348,9 +1357,6 @@ Event(9011, Default, function() {
 // Player - Set Gender Flag
 //----------------------------------------------
 Event(9012, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
-    
     IfPlayerGender(MAIN, Gender.Male);
     SetNetworkconnectedEventFlag(9013, ON);
     
@@ -1973,7 +1979,6 @@ Event(20001, Default, function(X0_4, X4_4) {
 // Game Flags - On Load
 //------------------------------------------------
 Event(20002, Restart, function(X0_4, X4_4) {
-    
     // Random Flag - Used for Flirt/Crow Drop Type
     BatchSetEventFlags(25008900, 25008902, OFF); // Reset
     RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
@@ -2008,6 +2013,8 @@ Event(20002, Restart, function(X0_4, X4_4) {
 // No Hit State
 //------------------------------------------------
 Event(20003, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
     var flag_WasHit = 25006000;
     
     SetEventFlag(flag_WasHit, OFF);
@@ -2021,6 +2028,8 @@ Event(20003, Restart, function() {
 // Deathless Run State
 //------------------------------------------------
 Event(20004, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     var flag_NeverDied = 25000030;
     
     IfCharacterHasSpeffect(MAIN, 10000, 112100, true, ComparisonType.Equal, 1);
@@ -2032,6 +2041,8 @@ Event(20004, Default, function() {
 // Hitless Run State
 //------------------------------------------------
 Event(20005, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     var flag_NeverHit = 25000031;
     
     IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
@@ -2042,6 +2053,8 @@ Event(20005, Default, function() {
 // Baseline SpEffects
 //------------------------------------------------
 Event(20006, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
     // Kill Tracker
     SkipIfCharacterHasSpEffect(1, 10000, 160010000, true, ComparisonType.Equal, 1); // Skip if already applied
     SetSpEffect(10000, 160010000);
@@ -2064,6 +2077,8 @@ Event(20006, Restart, function() {
 // Covenant Material Drops
 //------------------------------------------------
 Event(20007, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, 10000, 160010010, false, ComparisonType.Equal, 1); // Is not in cooldown
     IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2225,6 +2240,8 @@ Event(20007, Default, function() {
 // Covenant Material Drops
 //------------------------------------------------
 Event(20008, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, 10000, 160010010, false, ComparisonType.Equal, 1); // Is not in cooldown
     IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2266,6 +2283,8 @@ Event(20008, Default, function() {
 // Covenant Consumable Drops
 //------------------------------------------------
 Event(20009, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, 10000, 160010011, false, ComparisonType.Equal, 1); // Is not in cooldown
     IfCharacterHasSpeffect(AND_01, 10000, 160010001, true, ComparisonType.Equal, 1); // Enemy has died
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -2297,6 +2316,8 @@ Event(20009, Default, function() {
 // Enable Curse
 //------------------------------------------------
 Event(20010, Restart, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
     
     // Skip if already added
@@ -2315,6 +2336,8 @@ Event(20010, Restart, function(X0_4, X4_4, X8_4) {
 // Disable Curse
 //------------------------------------------------
 Event(20020, Restart, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X0_4);
     
     // Skip if already removed
@@ -2333,6 +2356,8 @@ Event(20020, Restart, function(X0_4, X4_4, X8_4) {
 // Pyromancer's Parting Flame - Ascension
 //------------------------------------------------
 Event(20042, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, 10000, 130134100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -2352,6 +2377,8 @@ Event(20042, Default, function() {
 // Numbness - Change Camera
 //------------------------------------------------
 Event(20043, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, X0_4, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     ChangeCamera(20000, 20000);
@@ -2367,6 +2394,8 @@ Event(20043, Default, function(X0_4, X4_4) {
 // <trigger speffect>, <camera entry>
 //------------------------------------------------
 Event(20045, Default, function(X0_4, X4_4) {
+    SetNetworkSyncState(Disabled);
+    
     // Add camera effect if trigger effect is present
     SkipIfCharacterHasSpEffect(1, 10000, X0_4, false, ComparisonType.Equal, 1);
     ChangeCamera(X4_4, X4_4);
@@ -2386,6 +2415,8 @@ Event(20045, Default, function(X0_4, X4_4) {
 // Skeleton Illusion - Head
 //------------------------------------------------
 Event(20046, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
     
     SetEventFlag(9690, OFF);
@@ -2413,6 +2444,8 @@ Event(20046, Default, function() {
 // Skeleton Illusion - Body
 //------------------------------------------------
 Event(20047, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
     
     SetEventFlag(9690, OFF);
@@ -2440,6 +2473,8 @@ Event(20047, Default, function() {
 // Frostbite Removal
 //------------------------------------------------
 Event(20048, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpEffect(OR_01, 10000, 3092, true, ComparisonType.Equal, 1); // If Player uses Rime-blue Moss Clump
     IfCharacterHasSpEffect(OR_01, 10000, 3080, true, ComparisonType.Equal, 1); // If Player uses Divine Blessing
     IfCharacterHasSpEffect(OR_01, 10000, 103508000, true, ComparisonType.Equal, 1); // If Player uses Caressing Tears
@@ -2453,6 +2488,8 @@ Event(20048, Restart, function() {
 // Crown of the Great Lord
 //------------------------------------------------
 Event(20040, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
     IfCharacterHasSpeffect(AND_01, 10000, 160409012, true, ComparisonType.Equal, 1);
     IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -3508,6 +3545,8 @@ Event(20079, Restart, function() {
 // Masteries
 //----------------------------------------------
 Event(20080, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
     var flag_Mastery_Vigor        = 25007010;
     var flag_Mastery_Attunement   = 25007020;
     var flag_Mastery_Endurance    = 25007030;
@@ -3561,6 +3600,9 @@ Event(20080, Restart, function() {
 // Masteries - Reset Progress
 //----------------------------------------------
 Event(20081, Restart, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
+    
     var flag_ResetMasteries       = 25007000;
     var flag_Mastery_Vigor        = 25007010;
     var flag_Mastery_Attunement   = 25007020;
@@ -3590,6 +3632,7 @@ Event(20081, Restart, function() {
 // Script Tool
 //----------------------------------------------
 Event(20060, Default, function(X0_4) {
+    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -3605,6 +3648,7 @@ Event(20060, Default, function(X0_4) {
 // Screenshot Tool
 //----------------------------------------------
 Event(20061, Default, function(X0_4) {
+    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160710107, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -3618,6 +3662,7 @@ Event(20061, Default, function(X0_4) {
 // Treasure Tool
 //----------------------------------------------
 Event(20062, Default, function(X0_4) {
+    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160710108, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -3645,6 +3690,7 @@ Event(20062, Default, function(X0_4) {
 // NG+ Tool
 //----------------------------------------------
 Event(20063, Default, function(X0_4) {
+    SetNetworkSyncState(Disabled);
     IfCharacterHasSpeffect(AND_01, X0_4, 160710109, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     

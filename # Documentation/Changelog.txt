@@ -174,8 +174,8 @@ Finish following weapons:
 - Ironclad Xavier: now has a custom AI, expanded loadout.
 - Freya the Wretched: now has a custom AI, expanded loadout.
 - Nahor the Fallen: now has a custom AI, expanded loadout.
-- Easterner Iazeel:
-- Gaius the Mighty:
+- Easterner Iazeel: now has a custom AI, expanded loadout.
+- Gaius the Mighty: now has a custom AI, expanded loadout.
 - Quintus the Monstrous:
 - Blacksmith's Nightmare:
 - Frozen Knight Torbjorn:
@@ -214,11 +214,11 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-30980400
-20080000
+30570600
+17090000
 
-GOAL_NPC_Iazeel = 32600
-GOAL_NPC_Gaius = 32700
+1620000
+
 GOAL_NPC_Quintus = 32800
 GOAL_NPC_BlacksmithNightmare = 32900
 
@@ -238,3 +238,18 @@ GOAL_NPC_TheFather = 34100
 GOAL_NPC_TheMother = 34200
 GOAL_NPC_TheChild = 34300
 
+# MP
+SetNetworkSyncState(Disabled);
+EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, false);
+EndIfMultiplayerState(EventEndType.End, MultiplayerState.Client);
+
+
+ - Use when time sensitive scripts move entities
+ - Use when making use of Uncompiled commands
+ 
+Synced:
+ All players scripts are synced to the execution of this script, no matter location
+ 
+Non-synced:
+ Player scripts are based on update authority, which is based on proximity
+ 
