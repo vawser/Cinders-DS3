@@ -1,5 +1,5 @@
-RegisterTableGoal(GOAL_NPC_Quintus, "GOAL_NPC_Quintus")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Quintus, true)
+RegisterTableGoal(GOAL_NPC_Ugali, "GOAL_NPC_Ugali")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Ugali, true)
 
 -------------------------
 -- Initialize
@@ -34,12 +34,12 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 7 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+    if distance >= 6 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Channeler's Boon
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance
         
         actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -48,43 +48,37 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 0 -- Approach
+        actChanceList[17] = 10 -- Approach
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 20 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Cursed Knife
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Black Firebomb
     elseif distance >= 3 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[1] = 5 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Channeler's Boon
+        actChanceList[5] = 0 -- WA: Stance
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
+        actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 5 -- Use Item (Slot 0) - Cursed Knife
+        actChanceList[21] = 5 -- Use Item (Slot 1) - Black Firebomb
     else
-        actChanceList[1] = 20 -- Right Light Attack + Approach
-        actChanceList[2] = 20 -- Right Heavy Attack + Approach
-        actChanceList[3] = 15 -- Kick + Approach
-        actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Channeler's Boon
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Stance
         
         actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 5 -- Back Roll + Basic Light Attack
@@ -92,50 +86,22 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
         
-        actChanceList[20] = 3 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 3 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 3 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Cursed Knife
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Black Firebomb
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
-        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
-    end
-    
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Gold Pine Resin
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Cursed Knife
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Black Firebomb
     end
     
     -- Kick guarding player
     if ai:IsTargetGuard(TARGET_ENE_0) then
         actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
-    end
-    
-    -- Block repeat usage of Gold Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-    end
-    
-    -- Block WA if stamina when low on stamina
-    if stamina < 30 then
-        actChanceList[5] = 0 -- WA: Channeler's Boon
-    end
-    
-    -- Block dash and rolls when low on stamina
-    if stamina < 20 then
-        actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
     end
     
     ----------------------------------
@@ -180,31 +146,27 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Quintus_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Quintus_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Quintus_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Quintus_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Quintus_Act05) -- WA: Channeler's Boon
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Ugali_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Ugali_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Ugali_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Ugali_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Ugali_Act05) -- WA: Stance
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Quintus_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Quintus_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Quintus_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Quintus_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Quintus_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Quintus_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Quintus_Act16) -- Backstep
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Quintus_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Ugali_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Ugali_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Ugali_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Ugali_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Ugali_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Ugali_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Ugali_Act16) -- Backstep
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Ugali_Act17) -- Approach
     
     -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Quintus_Act20)   -- Use Item (Slot 0) - Gold Pine Resin
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Ugali_Act20)   -- Use Item (Slot 0) - Cursed Knife
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_Ugali_Act21)   -- Use Item (Slot 1) - Black Firebomb
     
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Quintus_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Quintus_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Quintus_Act32) -- Cast Spell (Slot 2) - Tears of Denial
-    
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Quintus_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Ugali_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -212,16 +174,21 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Quintus_Act01(self, ai, goal)
+function NPC_Ugali_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
     
-    local max_attack_distance = 2.1
+    local max_attack_distance = 1.0
     local roll_b   = 100
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
-        max_attack_distance = 2.1
+        max_attack_distance = 1.0
         roll_b = 0
     end
     
@@ -239,7 +206,7 @@ function NPC_Quintus_Act01(self, ai, goal)
             
             if roll_a <= roll_c then
                 roll_b = 0
-                max_attack_distance = 2.1
+                max_attack_distance = 1.0
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         elseif self:IsBothHandMode(TARGET_SELF) then
@@ -251,7 +218,7 @@ function NPC_Quintus_Act01(self, ai, goal)
             
             if roll_a <= roll_c then
                 roll_b = 100
-                max_attack_distance = 2.1
+                max_attack_distance = 1.0
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         end
@@ -274,13 +241,19 @@ function NPC_Quintus_Act01(self, ai, goal)
     
     if 120 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     elseif 60 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     else
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
     end
     
     GetWellSpace_Odds = 100
@@ -288,16 +261,21 @@ function NPC_Quintus_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Quintus_Act02(self, ai, goal)
+function NPC_Ugali_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
-    local max_attack_distance = 2.2
+    local max_attack_distance = 1.0
     local roll_c = 100
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
-        max_attack_distance = 2.2
+        max_attack_distance = 1.0
         roll_c = 0
     end
     
@@ -315,7 +293,7 @@ function NPC_Quintus_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 0
-                max_attack_distance = 2.2
+                max_attack_distance = 1.0
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -328,7 +306,7 @@ function NPC_Quintus_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 100
-                max_attack_distance = 2.2
+                max_attack_distance = 1.0
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -372,12 +350,17 @@ function NPC_Quintus_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Quintus_Act03(self, ai, goal)
+function NPC_Ugali_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
-    local max_attack_distance = 1.6
+    local max_attack_distance = 1.0
     local roll_c = 0
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.6
@@ -402,12 +385,17 @@ function NPC_Quintus_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Quintus_Act04(self, ai, goal)
+function NPC_Ugali_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
-    local max_attack_distance = 4.8
+    local max_attack_distance = 2.0
     local roll_c = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 5.6
@@ -431,9 +419,9 @@ function NPC_Quintus_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Channeler's Boon
-function NPC_Quintus_Act05(self, ai, goal)
-    local max_attack_distance = 2.6
+-- WA: Stance
+function NPC_Ugali_Act05(self, ai, goal)
+    local max_attack_distance = 1.0
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
@@ -458,11 +446,16 @@ function NPC_Quintus_Act05(self, ai, goal)
 end
 
 -- Approach + Running Attack
-function NPC_Quintus_Act10(self, ai, goal)
+function NPC_Ugali_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
-    local max_attack_distance = 2.8
+    local max_attack_distance = 2.0
     local const_a = 4
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 3.2
@@ -514,7 +507,7 @@ function NPC_Quintus_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Quintus_Act11(self, ai, goal)
+function NPC_Ugali_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -545,7 +538,7 @@ function NPC_Quintus_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Quintus_Act12(self, ai, goal)
+function NPC_Ugali_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -576,7 +569,7 @@ function NPC_Quintus_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Quintus_Act13(self, ai, goal)
+function NPC_Ugali_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -611,7 +604,7 @@ function NPC_Quintus_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Quintus_Act14(self, ai, goal)
+function NPC_Ugali_Act14(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local retreat_distance = 3.0
@@ -658,7 +651,7 @@ function NPC_Quintus_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Quintus_Act15(self, ai, goal)
+function NPC_Ugali_Act15(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
@@ -701,7 +694,7 @@ function NPC_Quintus_Act15(self, ai, goal)
 end
 
 -- Backstep
-function NPC_Quintus_Act16(self, ai, goal)
+function NPC_Ugali_Act16(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
     local backstep_start_distance = 3.0
@@ -719,7 +712,7 @@ function NPC_Quintus_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Quintus_Act17(self, ai, goal)
+function NPC_Ugali_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     local animation = NPC_ATK_L1Hold
     
@@ -733,80 +726,21 @@ function NPC_Quintus_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Gold Pine Resin
-function NPC_Quintus_Act20(self, ai, goal)
+-- Use Item (Slot 0) - Cursed Knife
+function NPC_Ugali_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
+    self:SetStringIndexedNumber("Cursed Knife", self:GetStringIndexedNumber("Cursed Knife") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Lightning Arrow
-function NPC_Quintus_Act30(self, ai, goal)
-    self:ChangeEquipMagic(0) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 1) - Great Heal
-function NPC_Quintus_Act31(self, ai, goal)
-    self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Tears of Denial
-function NPC_Quintus_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+-- Use Item (Slot 1) - Black Firebomb
+function NPC_Ugali_Act21(self, ai, goal)
+    self:ChangeEquipItem(0) 
+    self:SetStringIndexedNumber("Black Firebomb", self:GetStringIndexedNumber("Black Firebomb") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -815,7 +749,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Quintus_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_Ugali_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -854,7 +788,7 @@ Goal.Interrupt = function (self, ai, goal)
     -- Occurs if the player is vulnerable to a parry
     elseif ai:IsInterupt(INTERUPT_ParryTiming) then
         if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
+            if distance < 2 then
                 goal:ClearSubGoal()
                 goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true
@@ -872,22 +806,22 @@ Goal.Interrupt = function (self, ai, goal)
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Quintus_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_Ugali_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Quintus_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_Ugali_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Quintus_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_Ugali_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Quintus_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_Ugali_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false

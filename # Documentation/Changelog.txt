@@ -177,14 +177,14 @@ Finish following weapons:
 - Nahor the Fallen: now has a custom AI, expanded loadout.
 - Easterner Iazeel: now has a custom AI, expanded loadout.
 - Gaius the Mighty: now has a custom AI, expanded loadout.
-- Quintus the Monstrous:
-- Blacksmith's Nightmare:
-- Frozen Knight Torbjorn:
-- Bewitched Knight Iwai:
-- Wandering Knight Osvaldo:
-- Lord Takatsuji:
-- Lieutenant Ugali:
-- Lieutenant Hanji:
+- Quintus the Monstrous: now has a custom AI, expanded loadout.
+- Blacksmith's Nightmare: now has a custom AI, expanded loadout.
+- Frozen Knight Torbjorn: now has a custom AI, expanded loadout.
+- Bewitched Knight Iwai: now has a custom AI, expanded loadout.
+- Wandering Knight Osvaldo: now has a custom AI, expanded loadout.
+- Lord Takatsuji: now has a custom AI, expanded loadout.
+- Lieutenant Ugali: now has a custom AI, expanded loadout.
+- Lieutenant Hanji: now has a custom AI, expanded loadout.
 - Ashen Keeper Sofija:
 - Hallowed Knight Orthell:
 - Dragon Hunter Karstark:
@@ -218,24 +218,6 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-30570600 Channeler's Trident # WA: Channeler's Boon # 160250060
-17090000 Crystal Chime
-
-1620000 Soul Stream
-1802000 Soul Wave
-1374000 Soul Greatsword
-
-240 Divine Blessing # 
-
-GOAL_NPC_Quintus = 32800
-GOAL_NPC_BlacksmithNightmare = 32900
-
-GOAL_NPC_Torbjorn = 33000
-GOAL_NPC_Iwai = 33100
-GOAL_NPC_Osvaldo = 33200
-GOAL_NPC_Takatsuji = 33300
-GOAL_NPC_Ugali = 33400
-GOAL_NPC_Hanji = 33500
 GOAL_NPC_Sofija = 33600
 GOAL_NPC_Orthell = 33700
 GOAL_NPC_Karstark = 33800

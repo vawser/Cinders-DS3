@@ -53,6 +53,12 @@
       <flags>0x40</flags>
     </file>
     <file>
+      <id>1107</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\033100_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>1109</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\110000_battle.lua</path>
@@ -140,6 +146,24 @@
       <id>1124</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\302100_logic.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>2000</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\033300_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>2001</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\033400_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>2002</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\033500_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>

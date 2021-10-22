@@ -746,7 +746,7 @@ Goal.Interrupt = function (self, ai, goal)
     -- Occurs if the player is vulnerable to a parry
     elseif ai:IsInterupt(INTERUPT_ParryTiming) then
         if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
+            if distance < 2 then
                 goal:ClearSubGoal()
                 goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true

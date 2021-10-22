@@ -771,13 +771,8 @@ Goal.Interrupt = function (self, ai, goal)
         return true
     -- Occurs if the player is vulnerable to a parry
     elseif ai:IsInterupt(INTERUPT_ParryTiming) then
-        -- Switch to Parrying Dagger if in 2H mode
-        if self:IsBothHandMode(TARGET_SELF) then
-            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-        end
-        
         if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
+            if distance < 2 then
                 goal:ClearSubGoal()
                 goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true
