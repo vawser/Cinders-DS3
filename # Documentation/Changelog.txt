@@ -185,12 +185,16 @@ Finish following weapons:
 - Lord Takatsuji: now has a custom AI, expanded loadout.
 - Lieutenant Ugali: now has a custom AI, expanded loadout.
 - Lieutenant Hanji: now has a custom AI, expanded loadout.
-- Ashen Keeper Sofija:
-- Hallowed Knight Orthell:
-- Dragon Hunter Karstark:
-- Disciple of Alsanna:
+- Ashen Keeper Sofija: now has a custom AI, expanded loadout.
+- Hallowed Knight Orthell: now has a custom AI, expanded loadout.
+- Dragon Hunter Karstark: now has a custom AI, expanded loadout.
+- Disciple of Alsanna: now has a custom AI, expanded loadout.
 - Pot King Greg:
- 
+- The Father:
+- The Mother:
+- The Child:
+- Dragon Cultist:
+
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
 
@@ -218,13 +222,19 @@ Change Flirt into Give Gift: description of what they like, and option to give t
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
 # Invaders
-GOAL_NPC_Sofija = 33600
-GOAL_NPC_Orthell = 33700
-GOAL_NPC_Karstark = 33800
-GOAL_NPC_Alsanna = 33900
-
 GOAL_NPC_PotKingGreg = 34000
+
+31120000
+20210000
+
+3003 Throwing Frying Pan
+
 GOAL_NPC_TheFather = 34100
+
+
 GOAL_NPC_TheMother = 34200
+
+
 GOAL_NPC_TheChild = 34300
 
+GOAL_NPC_DragonCultist = 34700
