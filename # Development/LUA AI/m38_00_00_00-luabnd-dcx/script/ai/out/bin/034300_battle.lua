@@ -1,11 +1,10 @@
-RegisterTableGoal(GOAL_NPC_Alsanna, "GOAL_NPC_Alsanna")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Alsanna, true)
+RegisterTableGoal(GOAL_NPC_TheChild, "GOAL_NPC_TheChild")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_TheChild, true)
 
 -------------------------
 -- Initialize
 -------------------------
 Goal.Initialize = function (self, ai, goal, arg3)
-    ai:SetNumber(0, 0)
     return 
 end
 
@@ -40,9 +39,9 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stomp
+        actChanceList[5] = 0 -- WA: Brawler's Stance
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
@@ -50,62 +49,58 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 20 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Divine Blessing
+
+        actChanceList[30] = 10 -- Cast Spell (Slot 0) - Lingering Chaos
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Sacred Flame
     elseif distance >= 3 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
-        actChanceList[3] = 5 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Stomp
-        
-        actChanceList[10] = 10 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 0 -- Strafe
-        actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 5 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Divine Blessing
-    else
-        actChanceList[1] = 15 -- Right Light Attack + Approach
-        actChanceList[2] = 15 -- Right Heavy Attack + Approach
-        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[1] = 5 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Stomp
+        actChanceList[5] = 5 -- WA: Brawler's Stance
         
         actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 5 -- Strafe
-        actChanceList[16] = 5 -- Backstep
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
+
+        actChanceList[30] = 5 -- Cast Spell (Slot 0) - Lingering Chaos
+        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Sacred Flame
+    else
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
+        actChanceList[3] = 5 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Brawler's Stance
         
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Divine Blessing
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 5 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 0 -- Approach
+
+        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Lingering Chaos
+        actChanceList[31] = 5 -- Cast Spell (Slot 1) - Sacred Flame
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_SELF) < 0.25 then
-        if ai:GetNumber(0) <= 5 then
-            actChanceList[20] = 100 -- Use Item (Slot 0) - Divine Blessing
-        end
-    end
-    
-    -- Invalid Item check
-    if speffect_no_invalid_item then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Divine Blessing
-    end
-    
     -- Kick guarding player
     if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
         actChanceList[3] = actChanceList[3] + 10 -- Kick + Approach
+    end
+    
+    -- Block WA if stamina when low on stamina
+    if stamina < 30 then
+        actChanceList[5] = 0 -- WA: Brawler's Stance
     end
     
     -- Block dash and rolls when low on stamina
@@ -159,26 +154,27 @@ Goal.Activate = function (self, ai, goal)
     -- Acts
     ----------------------------------
     -- Attacks
-    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act01) -- Right Light Attack + Approach
-    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act02) -- Right Heavy Attack + Approach
-    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act03) -- Kick + Approach
-    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act05) -- WA: Stomp
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_TheChild_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_TheChild_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_TheChild_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_TheChild_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_TheChild_Act05) -- WA: Brawler's Stance
     
     -- Utility
-    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act10) -- Approach + Running Attack
-    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act11) -- Backstep Roll
-    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act12) -- Forward Roll + Run + Basic Light Attack
-    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act13) -- Side Roll + Run + Basic Light Attack
-    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act14) -- Back Roll + Basic Light Attack
-    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act15) -- Strafe
-    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act16) -- Backstep
-    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act17) -- Approach
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_TheChild_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_TheChild_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_TheChild_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_TheChild_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_TheChild_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_TheChild_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_TheChild_Act16) -- Backstep
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_TheChild_Act17) -- Approach
     
-    -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Alsanna_Act20)   -- Use Item (Slot 0) - Divine Blessing
+    -- Spells
+    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_TheChild_Act30) -- Cast Spell (Slot 0) - Lingering Chaos
+    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_TheChild_Act31) -- Cast Spell (Slot 1) - Sacred Flame
     
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Alsanna_ActAfter_AdjustSpace), actTblList)
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_TheChild_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
@@ -186,16 +182,21 @@ end
 -- Functions
 -------------------------
 -- Right Light Attack + Approach
-function NPC_Alsanna_Act01(self, ai, goal)
+function NPC_TheChild_Act01(self, ai, goal)
     local roll_a    = self:GetRandam_Int(1, 100)
     local distance  = self:GetDist(TARGET_ENE_0)
     local stamina   = self:GetSp(TARGET_SELF)
     
-    local max_attack_distance = 2.1
+    local max_attack_distance = 1.6
     local roll_b   = 100
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
-        max_attack_distance = 2.1
+        max_attack_distance = 1.6
         roll_b = 0
     end
     
@@ -213,7 +214,7 @@ function NPC_Alsanna_Act01(self, ai, goal)
             
             if roll_a <= roll_c then
                 roll_b = 0
-                max_attack_distance = 2.1
+                max_attack_distance = 1.6
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         elseif self:IsBothHandMode(TARGET_SELF) then
@@ -225,7 +226,7 @@ function NPC_Alsanna_Act01(self, ai, goal)
             
             if roll_a <= roll_c then
                 roll_b = 100
-                max_attack_distance = 2.1
+                max_attack_distance = 1.6
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         end
@@ -248,13 +249,19 @@ function NPC_Alsanna_Act01(self, ai, goal)
     
     if 120 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     elseif 60 <= stamina then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     else
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
     end
     
     GetWellSpace_Odds = 100
@@ -262,16 +269,21 @@ function NPC_Alsanna_Act01(self, ai, goal)
 end
 
 -- Right Heavy Attack + Approach
-function NPC_Alsanna_Act02(self, ai, goal)
+function NPC_TheChild_Act02(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
-    local max_attack_distance = 2.2
+    local max_attack_distance = 1.6
     local roll_c = 100
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
-        max_attack_distance = 2.2
+        max_attack_distance = 1.6
         roll_c = 0
     end
     
@@ -289,7 +301,7 @@ function NPC_Alsanna_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 0
-                max_attack_distance = 2.2
+                max_attack_distance = 1.6
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -302,7 +314,7 @@ function NPC_Alsanna_Act02(self, ai, goal)
             
             if roll_a <= roll_d then
                 roll_c = 100
-                max_attack_distance = 2.2
+                max_attack_distance = 1.6
                 
                 ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
@@ -346,7 +358,7 @@ function NPC_Alsanna_Act02(self, ai, goal)
 end
 
 -- Kick + Approach
-function NPC_Alsanna_Act03(self, ai, goal)
+function NPC_TheChild_Act03(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -376,7 +388,7 @@ function NPC_Alsanna_Act03(self, ai, goal)
 end
 
 -- Jump Attack + Approach
-function NPC_Alsanna_Act04(self, ai, goal)
+function NPC_TheChild_Act04(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local distance = self:GetDist(TARGET_ENE_0)
@@ -405,8 +417,8 @@ function NPC_Alsanna_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Stomp
-function NPC_Alsanna_Act05(self, ai, goal)
+-- WA: Brawler's Stance
+function NPC_TheChild_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
@@ -432,7 +444,7 @@ function NPC_Alsanna_Act05(self, ai, goal)
 end
 
 -- Approach + Running Attack
-function NPC_Alsanna_Act10(self, ai, goal)
+function NPC_TheChild_Act10(self, ai, goal)
     local roll_a = self:GetRandam_Int(1, 100)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
@@ -488,7 +500,7 @@ function NPC_Alsanna_Act10(self, ai, goal)
 end
 
 -- Backstep Roll
-function NPC_Alsanna_Act11(self, ai, goal)
+function NPC_TheChild_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -519,7 +531,7 @@ function NPC_Alsanna_Act11(self, ai, goal)
 end
 
 -- Forward Roll + Run + Basic Light Attack
-function NPC_Alsanna_Act12(self, ai, goal)
+function NPC_TheChild_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -550,7 +562,7 @@ function NPC_Alsanna_Act12(self, ai, goal)
 end
 
 -- Side Roll + Run + Basic Light Attack
-function NPC_Alsanna_Act13(self, ai, goal)
+function NPC_TheChild_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
@@ -585,7 +597,7 @@ function NPC_Alsanna_Act13(self, ai, goal)
 end
 
 -- Back Roll + Basic Light Attack
-function NPC_Alsanna_Act14(self, ai, goal)
+function NPC_TheChild_Act14(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local retreat_distance = 3.0
@@ -632,12 +644,12 @@ function NPC_Alsanna_Act14(self, ai, goal)
 end
 
 -- Strafe
-function NPC_Alsanna_Act15(self, ai, goal)
+function NPC_TheChild_Act15(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
     local run_start_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = -1
     
     -- Change to no guard if stamina is low
     if stamina <= 30 then
@@ -675,7 +687,7 @@ function NPC_Alsanna_Act15(self, ai, goal)
 end
 
 -- Backstep
-function NPC_Alsanna_Act16(self, ai, goal)
+function NPC_TheChild_Act16(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local duration = 1.8
     local backstep_start_distance = 3.0
@@ -693,9 +705,9 @@ function NPC_Alsanna_Act16(self, ai, goal)
 end
 
 -- Approach
-function NPC_Alsanna_Act17(self, ai, goal)
+function NPC_TheChild_Act17(self, ai, goal)
     local end_approach_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = -1
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
@@ -707,13 +719,57 @@ function NPC_Alsanna_Act17(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Use Item (Slot 0) - Divine Blessing
-function NPC_Alsanna_Act20(self, ai, goal)
+-- Use Item (Slot 0) - Gold Pine Resin
+function NPC_TheChild_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Divine Blessing", self:GetStringIndexedNumber("Divine Blessing") - 1)
+    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
-    self:SetNumber(0, self:GetNumber(0) + 1)
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 0) - Lingering Chaos
+function NPC_TheChild_Act30(self, ai, goal)
+    self:ChangeEquipMagic(0) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(0, 1, UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Cast Spell (Slot 1) - Sacred Flame
+function NPC_TheChild_Act31(self, ai, goal)
+    self:ChangeEquipMagic(1) 
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    -- Cast Spell with Left Light Attack
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    subgoal = subgoal:TimingSetTimer(1, 1, UPDATE_SUCCESS)
+    subgoal:SetLifeEndSuccess(true)
+    
+    ai:AddSubGoal(GOAL_COMMON_Wait, 1.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -722,7 +778,7 @@ end
 -------------------------
 -- Act After
 -------------------------
-function NPC_Alsanna_ActAfter_AdjustSpace(self, ai, goal)
+function NPC_TheChild_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
@@ -761,7 +817,7 @@ Goal.Interrupt = function (self, ai, goal)
     -- Occurs if the player is vulnerable to a parry
     elseif ai:IsInterupt(INTERUPT_ParryTiming) then
         if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
+            if distance < 2 then
                 goal:ClearSubGoal()
                 goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true
@@ -779,22 +835,22 @@ Goal.Interrupt = function (self, ai, goal)
         if distance < 1.8 and roll <= 80 then
             if roll <= 60 and 30 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Alsanna_Act15(ai, goal, paramTbl) -- Strafe
+                NPC_TheChild_Act15(ai, goal, paramTbl) -- Strafe
                 return true
             elseif stamina <= 35 and 0 <= stamina then
                 goal:ClearSubGoal()
-                NPC_Alsanna_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                NPC_TheChild_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
                 return true
             end
         elseif distance <= 3 and 20 <= stamina and roll <= 60 then
             goal:ClearSubGoal()
-            NPC_Alsanna_Act10(ai, goal, paramTbl) -- Approach + Running Attack
+            NPC_TheChild_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
     -- Occurs if a ranged attack occurs
     elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
         goal:ClearSubGoal()
-        NPC_Alsanna_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
+        NPC_TheChild_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false
