@@ -93,11 +93,6 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Use Undead Hunter Charm if player is low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.25 then
-        actChanceList[20] = 30 -- Use Item (Slot 0) - Undead Hunter Charm
-    end
-    
     -- Use WA: Perseverance more if HP is reduced
     if ai:GetHpRate(TARGET_SELF) < 0.75 then
         actChanceList[5] = actChanceList[5] + 10 -- WA: Perseverance
@@ -109,7 +104,7 @@ Goal.Activate = function (self, ai, goal)
     end
     
     -- Kick guarded player
-    if ai:IsTargetGuard(TARGET_ENE_0) then
+    if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
         actChanceList[3] = actChanceList[3] + 30 -- Kick + Approach
     end
     

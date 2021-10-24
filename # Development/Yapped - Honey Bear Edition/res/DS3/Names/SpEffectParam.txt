@@ -2647,6 +2647,7 @@
 102650012 [Pyromancy] Carthus Beacon - 45 'Hits'
 102651000 [Pyromancy] Immolation
 102651010 Immolation - Smouldering Talisman
+103480000 [Miracle] Heal - FP Reduction
 103490000 [Miracle] Heal Aid
 103490100 [Miracle] Heal Aid [MP]
 103500000 [Miracle] Heal
@@ -4619,6 +4620,10 @@
 160603795 Relic of Myths+5
 160603800 Ring of Londor
 160603900 Old Man's Gambit
+160604000 Scroll of Ethereality
+160604010 Scroll of Hollowing
+160604020 Scroll of Humanity
+160604030 Scroll of Cooperation
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction
@@ -5318,8 +5323,32 @@
 160730080 HP Scalar: 8000 HP
 160730090 HP Scalar: 9000 HP
 160730100 HP Scalar: 10000 HP
-160731000 Pot King Greg - Buff
-160731010 Siegward of Catarina - Buff
+160731010 Damage Scalar: 90%
+160731020 Damage Scalar: 80%
+160731030 Damage Scalar: 70%
+160731040 Damage Scalar: 60%
+160731050 Damage Scalar: 50%
+160731060 Damage Scalar: 40%
+160731070 Damage Scalar: 30%
+160731080 Damage Scalar: 20%
+160731090 Damage Scalar: 10%
+160732010 Stamina Scalar: 10
+160732020 Stamina Scalar: 20
+160732030 Stamina Scalar: 30
+160732040 Stamina Scalar: 40
+160732050 Stamina Scalar: 50
+160733010 Physical ABS Scalar: 10%
+160733020 Physical ABS Scalar: 20%
+160733030 Physical ABS Scalar: 30%
+160733040 Physical ABS Scalar: 40%
+160733050 Physical ABS Scalar: 50%
+160738000 Immunity: Poison/Toxic
+160738010 Immunity: Bleed
+160738020 Immunity: Curse
+160738030 Immunity: Frost
+160739010 Pot King Greg - Buff
+160739011 Siegward of Catarina - Buff
+160739012 Ashen Keeper Sofija - Buff
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -6216,3 +6245,13 @@
 260200101 Power Scaling: SL 100
 260200102 Power Scaling: SL 150
 260200103 Power Scaling: SL 200
+260209999 ### Multiplayer Adjustments ###
+260210000 Normal Enemy - 1 Summon
+260210001 Normal Enemy - 2 Summon
+260210002 Normal Enemy - 3 Summon
+260210010 Strong Enemy - 1 Summon
+260210011 Strong Enemy - 2 Summon
+260210012 Strong Enemy - 3 Summon
+260210020 Boss - 1 Summon
+260210021 Boss - 2 Summon
+260210022 Boss - 3 Summon

@@ -75,12 +75,12 @@ Goal.Activate = function (self, ai, goal)
         
         actChanceList[30] = 2 -- Cast Spell (Slot 0) - Supreme Dark Blade
     end
-    
+
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
     -- Use WA more if player is low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.25 then
+    if ai:GetHpRate(TARGET_ENE_0) < 0.25 and distance <= 2.0 then
         actChanceList[5] = actChanceList[5] + 10 -- WA: Ichimonji
     end
     
@@ -90,7 +90,7 @@ Goal.Activate = function (self, ai, goal)
     end
     
     -- Kick guarded player
-    if ai:IsTargetGuard(TARGET_ENE_0) then
+    if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
         actChanceList[3] = actChanceList[3] + 30 -- Kick + Approach
     end
     

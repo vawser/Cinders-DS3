@@ -148,7 +148,7 @@
 29341 Creighton the Wanderer - Red Phantom [Irithyll]
 29440 Alva, Seeker of the Spurned - Red Phantom [Irithyll Dungeon]
 29540 Longfinger Kirk - Red Phantom [Cathedral of the Deep]
-29999 ### Invaders ###
+29999 ### Custom NPC ###
 30100 Luyila of Londor
 30200 Forgotten Locklin
 30300 Holy Knight Morton
@@ -201,6 +201,9 @@
 35600 Afflicted Graverobber
 35700 Cerah the Old Explorer
 35800 Dragon Cultist
+35900 The Father
+36000 The Mother
+36100 The Child
 39999 ### Companions ###
 40000 Hollow
 40010 Lothric Knight (Sword)
@@ -219,10 +222,6 @@
 40140 Harald Knight
 40150 Ringed Knight
 40160 Hollow Cleric
-49999 ### Hostile NPCs ###
-50110 The Father
-50120 The Mother
-50130 The Child
 89999 ### Enemies ###
 90390 Dungeon Objects (for bullet owners)
 101000 Gyrm

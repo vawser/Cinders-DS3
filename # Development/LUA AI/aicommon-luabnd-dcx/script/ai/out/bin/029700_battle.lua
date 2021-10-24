@@ -14,8 +14,8 @@ end
 Goal.Activate = function (self, ai, goal)
     Init_Pseudo_Global(ai, goal)
     
-    ai:SetStringIndexedNumber("Dist_Rolling", 4.4)      -- Distance to roll at
-    ai:SetStringIndexedNumber("Dist_BackStep", 2.6)     -- Distance to backstep at
+    ai:SetStringIndexedNumber("Dist_Rolling", 3.0)      -- Distance to roll at
+    ai:SetStringIndexedNumber("Dist_BackStep", 2.0)     -- Distance to backstep at
     ai:SetStringIndexedNumber("AddDistWalk", 0)
     ai:SetStringIndexedNumber("AddDistRun", 0.2)
     
@@ -36,36 +36,53 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 2 then
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+    if distance >= 6 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
         actChanceList[5] = 0 -- WA: Stomp
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
-        actChanceList[17] = 10 -- Approach
+        actChanceList[17] = 20 -- Approach
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Firebomb
-    else
-        actChanceList[1] = 20 -- Right Light Attack + Approach
-        actChanceList[2] = 20 -- Right Heavy Attack + Approach
-        actChanceList[3] = 20 -- Kick + Approach
+    elseif distance >= 3 then
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+        actChanceList[3] = 5 -- Kick + Approach
         actChanceList[4] = 5 -- Jump Attack + Approach
-        actChanceList[5] = 20 -- WA: Stomp
+        actChanceList[5] = 5 -- WA: Stomp
+        
+        actChanceList[10] = 5 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 3 -- Strafe
+        actChanceList[16] = 0 -- Backstep Walk
+        actChanceList[17] = 0 -- Approach
+        
+        actChanceList[20] = 5 -- Use Item (Slot 0) - Firebomb
+    else
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[3] = 10 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Stomp
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 10 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 10 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 10 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 10 -- Strafe
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep Walk
         actChanceList[17] = 0 -- Approach
         
@@ -76,7 +93,7 @@ Goal.Activate = function (self, ai, goal)
     -- Act Modifiers
     ----------------------------------
     if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2 then
-        actChanceList[5] = actChanceList[5] + 50 -- WA: Stomp
+        actChanceList[5] = actChanceList[5] + 10 -- WA: Stomp
     end
     
     -- Kick the player if near the elevator
@@ -98,13 +115,30 @@ Goal.Activate = function (self, ai, goal)
     end
     
     ----------------------------------
-    -- Act Checks
+    -- Act Modifiers
     ----------------------------------
     -- Invalid Item check
     if speffect_no_invalid_item then
         actChanceList[20] = 0       -- Use Item (Slot 0) - Firebomb
     end
     
+    -- Block WA if stamina when low on stamina
+    if stamina < 30 then
+        actChanceList[5] = 0 -- WA: Stomp
+    end
+    
+    -- Block dash and rolls when low on stamina
+    if stamina < 20 then
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+    
+    ----------------------------------
+    -- Movement Checks
+    ----------------------------------
     -- Block backstep if there is an obstacle behind the AI within 2.6 meters
     if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
         actChanceList[11] = 0 -- Backstep Roll
@@ -138,15 +172,6 @@ Goal.Activate = function (self, ai, goal)
     -- Block strafe if there is an obstacle +/- 90 degrees to the side of the AI within 1 meters
     if SpaceCheck(ai, goal, -90, 1) == false and SpaceCheck(ai, goal, 90, 1) == false then
         actChanceList[15] = 0 -- Strafe
-    end
-    
-    -- Block dash and rolls when low on stamina
-    if stamina < 20 then
-        actChanceList[10] = 0   -- Approach + Running Attack
-        actChanceList[11] = 0   -- Backstep Roll
-        actChanceList[12] = 0   -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0   -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0   -- Back Roll + Basic Light Attack
     end
     
     ----------------------------------

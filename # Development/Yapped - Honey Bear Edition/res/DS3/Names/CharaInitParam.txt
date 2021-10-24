@@ -253,9 +253,6 @@
 32000 Ollis the Merciless [Irithyll of the Boreal Valley]
 32100 Vileblood Annalise [Profaned Capital]
 32200 The Forlorn [Road of Sacrifices]
-32600 Dragon Knight Oswald [Grand Archives]
-32700 Dragon Knight Terrill [Grand Archives]
-32800 Dragon Knight Lyre [Grand Archives]
 32900 Lord Zakar [Kiln]
 33000 Glaive Master Hodir [Ringed City]
 33100 Ezekiel the Penetrator [Ariandel]
@@ -269,7 +266,7 @@
 34200 Blacksmith's Nightmare [Untended Graves]
 34300 Frozen Knight Torbjorn [Ariandel]
 34400 Bewitched Knight Iwai [Profaned Capital]
-34500 Wandering Knight Osvaldo [Road of Sacrifices]
+34500 Wandering Knight Osvaldo [Irithyll of the Boreal Valley]
 34600 Lord Takatsuji [Profaned Capital]
 34700 Lieutenant Ugali [Profaned Capital]
 34800 Lieutenant Hanji [Profaned Capital]
@@ -288,7 +285,6 @@
 36100 The Child [Smouldering Lake]
 39999 ### Companions ###
 40110 Solaire of Astora
-49999 ### Hostile NPCs ###
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight

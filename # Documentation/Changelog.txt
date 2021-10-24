@@ -239,3 +239,5 @@ GOAL_NPC_TheMother = 34200
 GOAL_NPC_TheChild = 34300
 
 GOAL_NPC_DragonCultist = 34700
+
+60360
