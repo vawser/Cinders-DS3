@@ -43,7 +43,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[4] = 0 -- Jump Attack + Approach
         actChanceList[5] = 0 -- WA: Ichimonji
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack

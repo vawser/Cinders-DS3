@@ -42,7 +42,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[5] = 0 -- WA: Perseverance
         actChanceList[6] = 0 -- WA: Stone Flesh
         
-        actChanceList[10] = 20 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack

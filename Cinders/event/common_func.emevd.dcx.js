@@ -6563,6 +6563,26 @@ Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 //----------------------------------------------
+// Merchant - Benjin - Enable based on flag
+// <sent flag>, <entity id>
+//----------------------------------------------
+Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
+    SetCharacterAIState(X4_4, Disabled);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X8_4);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetCharacterAIState(X4_4, Enabled);
+    ChangeCharacterEnableState(X4_4, Enabled);
+    SetCharacterAnimationState(X4_4, Enabled);
+});
+
+//----------------------------------------------
 // Intruder - Setup
 // <entity id>
 //----------------------------------------------

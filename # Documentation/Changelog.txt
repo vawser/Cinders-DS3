@@ -89,6 +89,7 @@ Finish following weapons:
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
  - Speak to the Spurned Shade to face them and claim a new Ring of Betrothal.
 - Divorce no longer returns the Ring of Betrothal.
+- Benjin now appears in Firelink Shrine automatically when in Gauntlet mode.
 
 # Spells:
 - Changed the rate at which FP recovers naturally and from other sources.
@@ -142,7 +143,7 @@ Finish following weapons:
 # Merchants:
 - Marvelous Chester:
  - Now sells the Manikin Claws.
- 
+
 # Intruders:
 - Spurned Shade:
  - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
