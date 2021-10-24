@@ -120,9 +120,7 @@ GOAL_NPC_Varg = 34400
 GOAL_NPC_Graverobber = 34500
 GOAL_NPC_Cerah = 34600
 GOAL_NPC_DragonCultist = 34700
-
 GOAL_NPC_SellswordLuet = 40000
-
 GOAL_Gunshuu_A102000_Battle = 102000
 GOAL_ProtoSkeleton_107000_Battle = 107000
 GOAL_ProtoSkeleton_107001_Battle = 107001
