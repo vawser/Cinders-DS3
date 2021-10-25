@@ -140,6 +140,12 @@ Finish following weapons:
 - Ariandel:
  - Millwood Knight warp no longer requires Prince Dorthinus to be dead.
 
+- Cemetery of Ash/Firelink Shrine
+ - Moved the starting sequence back to to the cell. You now configure your journey at the cell door, and then it opens once you've confirmed your journey.
+ - Moved Corrupted Gundyr into the Overgrown Sanctum area.
+ - Moved the Marauder into the starting area near to the broken fountain.
+ - Added a Ravenous Crystal Lizard encounter in the old Corrupted Gundyr location.
+
 # Merchants:
 - Marvelous Chester:
  - Now sells the Manikin Claws.
@@ -222,6 +228,7 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
+# Summon
 GOAL_NPC_SellswordLuet = 40000
 
 16170000 # Skill: Lockout
@@ -234,3 +241,31 @@ GOAL_NPC_SellswordLuet = 40000
 802 Old Radiant Lifegem
 803 Elizabeth Mushroom
 294 Alluring Skull
+
+##################################
+# Marauder
+fogwall: 4001822
+4001823
+4001824
+
+arena: 4002821
+bgm: 4004820
+
+player: 4000987
+spawn: 4002972
+
+
+##################################
+# Corrupted Gundyr
+main fogwall: 4001810
+back fogwall: 4001800
+
+arena: 4002861
+4002862
+
+bgm: 4004825
+
+player: 4000980
+spawn: 4002970
+
+c7810

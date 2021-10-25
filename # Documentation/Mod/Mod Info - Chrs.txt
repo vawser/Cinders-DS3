@@ -89,7 +89,7 @@ c7772 Boletaria Knight          c1410 (Silver Knight)       # UNUSED
 c7780 Flamelurker               c6070 (Corvian Knight)      # UNUSED
 c7790 Garl Vinland              c1190 (Cathedral Knight)    # UNUSED
 c7800 King Allant               c5140 (Pontiff Sulyvahn)    # UNUSED
-c7810
+c7810 Tarnished Gundyr          c5110
 c7820
 c7830
 c7840

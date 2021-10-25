@@ -275,6 +275,24 @@
       <flags>0x40</flags>
     </file>
     <file>
+      <id>8300</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\60000_Corrupted_Gundyr_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>8301</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\60000_Corrupted_Gundyr_HU.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>8302</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\60000_Corrupted_Gundyr_start.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
       <id>9000</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\900000_battle.lua</path>

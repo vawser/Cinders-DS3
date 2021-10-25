@@ -5131,8 +5131,8 @@ Event(20135, Restart, function() {
     var flag_BossState1     = 9348;
     var flag_BossState2     = 6348;
     
-    var entity_SpawnPoint  = 4002952;
-    var entity_PlayerPoint = 4000981;
+    var entity_SpawnPoint  = 4002972;
+    var entity_PlayerPoint = 4000987;
     
     var mapID      = 40;
     var blockID    = 0;
