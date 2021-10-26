@@ -325,6 +325,24 @@ def t370502_x20():
         # Refined Cast Light
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1350000, 4, 1, 0) == 1, 39, 99041038, -1)
         
+        # Frigid Roar
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808000, 4, 1, 0) == 1, 40, 99041039, -1)
+        
+        # Focused Hail of Blades
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808100, 4, 1, 0) == 1, 41, 99041040, -1)
+        
+        # Explosive Ice
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808200, 4, 1, 0) == 1, 42, 99041041, -1)
+        
+        # Chilling Rime
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808300, 4, 1, 0) == 1, 43, 99041042, -1)
+        
+        # Refined Path of Frost
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808400, 4, 1, 0) == 1, 44, 99041043, -1)
+        
+        # Quickened Discs of Dorthinus
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808500, 4, 1, 0) == 1, 45, 99041044, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -474,6 +492,30 @@ def t370502_x20():
         # Refined Cast Light
         elif GetTalkListEntryResult() == 39:
             assert t370502_x50(80380, 1070, 9, -10, 99042038, 99043038, 99040010)
+            continue
+        # Frigid Roar
+        elif GetTalkListEntryResult() == 40:
+            assert t370502_x50(80390, 1070, 9, -10, 99042039, 99043039, 99040010)
+            continue
+        # Focused Hail of Blades
+        elif GetTalkListEntryResult() == 41:
+            assert t370502_x50(80400, 1070, 9, -10, 99042040, 99043040, 99040010)
+            continue
+        # Explosive Ice
+        elif GetTalkListEntryResult() == 42:
+            assert t370502_x50(80410, 1070, 9, -10, 99042041, 99043041, 99040010)
+            continue
+        # Chilling Rime
+        elif GetTalkListEntryResult() == 43:
+            assert t370502_x50(80420, 1070, 14, -15, 99042042, 99043042, 99040010)
+            continue
+        # Refined Path of Frost
+        elif GetTalkListEntryResult() == 44:
+            assert t370502_x50(80430, 1070, 9, -10, 99042043, 99043043, 99040010)
+            continue
+        # Quickened Discs of Dorthinus
+        elif GetTalkListEntryResult() == 45:
+            assert t370502_x50(80440, 1070, 14, -15, 99042044, 99043044, 99040010)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
