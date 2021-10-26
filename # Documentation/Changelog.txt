@@ -84,6 +84,12 @@ Finish following weapons:
   - Cerah the Old Explorer
  - Drops the Soul of the Ancient Soldier, which has the same transpositions as the Rock soul did.
 
+- Prince Dorthinus
+ - Changed his moveset so it is now a split of the Axe/Hammer Millwood Knight.
+  - Phase 1 uses the Axe moveset with some adjustments and two spell moves: Discs of Dorthinus and Rime.
+  - Phase 2 uses the Hammer moveset.
+  - He switches phase at 50% HP and his eyes go red.
+
 # NPCs:
 - Adjusted the HP of all NPCs so they are harder to burst down than before.
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -114,7 +120,6 @@ Finish following weapons:
 - Added new Frost spell: Rime
 - Added new Frost spell: Path of Frost
 - Added new Frost spell: Discs of Dorthinus
-
 
 # Weapons:
 - Changed the effects of the Handmaid's Dagger, Executioner's Greatsword, Sage's Stiletto and Blueblood Sword to reduce spell FP cost by 10%.
@@ -249,4 +254,3 @@ GOAL_NPC_SellswordLuet = 40000
 803 Elizabeth Mushroom
 294 Alluring Skull
 
-Add new spells to Sorcery Scribe
