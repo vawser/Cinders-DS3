@@ -315,8 +315,8 @@
 
 #---- Chilling Rime
 - Frost Inflict: 160
-- Poise Damage: 1000
-- Stamina Damage: 1000
+- Poise Damage: 200
+- Stamina Damage: 200
 
 #--------------------------------
 # Path of Frost
