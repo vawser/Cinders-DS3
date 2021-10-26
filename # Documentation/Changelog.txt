@@ -220,6 +220,10 @@ Finish following weapons:
 # Multiplayer
 - Increased the HP and damage gained by enemies when you have summons in your world.
  
+# Classes
+- Acolyte now starts with the Censuring Palm instead of the Staff of Serpents
+- Assassin now starts with Magic Weapon instead of Spook
+
 #------------------------------
 # TODO
 #------------------------------
@@ -253,4 +257,35 @@ GOAL_NPC_SellswordLuet = 40000
 802 Old Radiant Lifegem
 803 Elizabeth Mushroom
 294 Alluring Skull
+
+# Assassin
+1310000
+1356000
+
+3530000
+
+1200000
+1375000
+
+2400000
+2458000
+
+3556000
+3490000
+
+3509000
+3530000
+
+4100000
+4104000
+
+4201000
+4204000
+
+4301000
+4311000
+
+3490000
+
+2720000
 
