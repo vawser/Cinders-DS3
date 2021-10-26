@@ -338,7 +338,7 @@ dmy:
 854570: Blue Flash of light (No Reflection)
 854580: Frost Mist
 854590: Frost Disc
-854600: Frost Disc Impact
+854600: Frost Disc Impact # Caused CTD
 854610: Frostfire Burst
 
 #------------------------

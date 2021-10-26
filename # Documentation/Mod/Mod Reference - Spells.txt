@@ -267,6 +267,81 @@
 #---- Refined Shockwave
 - FP consumption reduced to 0.
 
+#--------------------------------
+# Frigid Tumult
+#--------------------------------
+- FP Cost: 50
+- INT Req: 20
+- Slot Use: 1
+- Magic Damage: 120 {380} [30 {90}]
+- Frost Inflict: 50
+
+#---- Frigid Roar
+- Increases Frost inflict to 80.
+
+#--------------------------------
+# Hail of Blades
+#--------------------------------
+- FP Cost: 120
+- INT Req: 30
+- Slot Use: 2
+- Magic Damage: 50 {150} {*20, individual}
+- Frost Inflict: 50
+
+#---- Focused Hail of Blades
+- Reduces the spread of the hail of blades.
+
+#--------------------------------
+# Piercing Ice
+#--------------------------------
+- FP Cost: 70
+- INT Req: 20
+- Slot Use: 1
+- Magic Damage: 125 {375}
+- Frost Inflict: 50
+
+#---- Explosive Ice
+- Adds an area of effect explosion on impact. [100 {300}]
+
+#--------------------------------
+# Rime
+#--------------------------------
+- FP Cost: 100
+- INT Req: 40
+- Slot Use: 2
+- Magic Damage: 100 {300}
+- Frost Inflict: 80
+- Base Effect: Knocks back enemies.
+
+#---- Chilling Rime
+- Frost Inflict: 160
+- Poise Damage: 1000
+- Stamina Damage: 1000
+
+#--------------------------------
+# Path of Frost
+#--------------------------------
+- FP Cost: 200
+- Slot Use: 2
+- INT Req: 50
+- Magic Damage: 250 {750}
+- Frost Inflict: 30
+
+#---- Refined Path of Frost
+- Reduces FP cost to 150.
+
+#--------------------------------
+# Discs of Dorthinus
+#--------------------------------
+- FP Cost: 150
+- Slot Use: 2
+- INT Req: 40
+- Magic Damage: 150 {450} [200 {600}]
+- Frost Inflict: 50
+
+#---- Quickened Discs of Dorthinus
+- Changes cast animation to Force.
+
 #--------------------------------------------------------------------------
 # Sorceries - Effects
 #--------------------------------------------------------------------------

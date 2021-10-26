@@ -19,6 +19,8 @@ Goal.Activate = function (self, ai, goal)
     ai:SetStringIndexedNumber("AddDistWalk", 0)
     ai:SetStringIndexedNumber("AddDistRun", 0.2)
     
+    goal:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2) 
+    
     local actChanceList = {}
     local actFuncList = {}
     local actTblList = {}
@@ -41,81 +43,81 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[4] = 0 -- Jump Attack + Approach
         actChanceList[5] = 0 -- WA: Lockout
         
-        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 0 -- Approach
+        actChanceList[17] = 20 -- Approach
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
-        actChanceList[21] = 0 -- Use Item (Slot 0) - Elizabeth Mushroom
-        actChanceList[22] = 0 -- Use Item (Slot 0) - Alluring Skull
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
+        actChanceList[22] = 3 -- Use Item (Slot 0) - Alluring Skull
     elseif distance >= 3 then
-        actChanceList[1] = 0 -- Right Light Attack + Approach
-        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[1] = 10 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Lockout
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Lockout
         
-        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[10] = 5 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 0 -- Strafe
+        actChanceList[15] = 10 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
-        actChanceList[21] = 0 -- Use Item (Slot 0) - Elizabeth Mushroom
-        actChanceList[22] = 0 -- Use Item (Slot 0) - Alluring Skull
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
+        actChanceList[22] = 3 -- Use Item (Slot 0) - Alluring Skull
     else
-        actChanceList[1] = 0 -- Right Light Attack + Approach
-        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[1] = 10 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Lockout
+        actChanceList[5] = 10 -- WA: Lockout
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 0 -- Strafe
+        actChanceList[15] = 10 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
-        actChanceList[21] = 0 -- Use Item (Slot 0) - Elizabeth Mushroom
-        actChanceList[22] = 0 -- Use Item (Slot 0) - Alluring Skull
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
+        actChanceList[22] = 3 -- Use Item (Slot 0) - Alluring Skull
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
     -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
-        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
+    if ai:GetHpRate(TARGET_SELF) < 0.5 then
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Old Radiant Lifegem
+        actChanceList[21] = 10 -- Use Item (Slot 1) - Elizabeth Mushroom
     end
     
     -- Invalid Item check
     if speffect_no_invalid_item then
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
-    end
-    
-    -- Kick guarding player
-    if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
-        actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
     end
     
     -- Block repeat usage of Old Radiant Lifegem while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
-    
-    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
+    if ai:HasSpecialEffectId(TARGET_SELF, 160700502) then
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
+    end
+    
+    -- Block repeat usage of Old Radiant Lifegem while active
+    if ai:HasSpecialEffectId(TARGET_SELF, 160700503) then
+        actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
     end
     
     -- Block WA if stamina when low on stamina
@@ -192,11 +194,8 @@ Goal.Activate = function (self, ai, goal)
     
     -- Items
     actFuncList[20] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act20)   -- Use Item (Slot 0) - Old Radiant Lifegem
-    
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act32) -- Cast Spell (Slot 2) - Tears of Denial
+    actFuncList[21] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act21)   -- Use Item (Slot 1) - Elizabeth Mushroom
+    actFuncList[22] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act22)   -- Use Item (Slot 2) - Alluring Skull
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_SellswordLuet_ActAfter_AdjustSpace), actTblList)
     return 
@@ -213,6 +212,11 @@ function NPC_SellswordLuet_Act01(self, ai, goal)
     
     local max_attack_distance = 2.1
     local roll_b   = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.1
@@ -289,6 +293,11 @@ function NPC_SellswordLuet_Act02(self, ai, goal)
     local stamina = self:GetSp(TARGET_SELF)
     local max_attack_distance = 2.2
     local roll_c = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.2
@@ -373,6 +382,11 @@ function NPC_SellswordLuet_Act03(self, ai, goal)
     local max_attack_distance = 1.6
     local roll_c = 0
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.6
         roll_c = 0
@@ -403,6 +417,11 @@ function NPC_SellswordLuet_Act04(self, ai, goal)
     local max_attack_distance = 4.8
     local roll_c = 100
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 5.6
         roll_c = 0
@@ -431,6 +450,7 @@ function NPC_SellswordLuet_Act05(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local roll_a = self:GetRandam_Int(1, 100)
     
+    -- Force 2H mode
     if not self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
@@ -457,6 +477,11 @@ function NPC_SellswordLuet_Act10(self, ai, goal)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.8
     local const_a = 4
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 3.2
@@ -512,6 +537,11 @@ function NPC_SellswordLuet_Act11(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     -- Skip if already distant from the target
     if distance >= 6.0 then
         GetWellSpace_Odds = 100
@@ -543,6 +573,11 @@ function NPC_SellswordLuet_Act12(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     -- Skip if already next to the target
     if distance <= 1.0 then
         GetWellSpace_Odds = 100
@@ -573,6 +608,11 @@ end
 function NPC_SellswordLuet_Act13(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
         if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
@@ -609,6 +649,11 @@ function NPC_SellswordLuet_Act14(self, ai, goal)
     local distance = self:GetDist(TARGET_ENE_0)
     local stamina = self:GetSp(TARGET_SELF)
     local retreat_distance = 3.0
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     -- Skip if already distant from the target
     if distance >= 10.0 then
@@ -659,6 +704,11 @@ function NPC_SellswordLuet_Act15(self, ai, goal)
     local run_start_distance = 5.0
     local animation = NPC_ATK_L1Hold
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     -- Change to no guard if stamina is low
     if stamina <= 30 then
         animation = -1
@@ -702,6 +752,11 @@ function NPC_SellswordLuet_Act16(self, ai, goal)
     local run_start_distance = 5.0
     local animation = -1
     
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
     if distance >= run_start_distance then
         ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
     else
@@ -716,6 +771,11 @@ end
 function NPC_SellswordLuet_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     local animation = NPC_ATK_L1Hold
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
@@ -737,70 +797,21 @@ function NPC_SellswordLuet_Act20(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 0) - Lightning Arrow
-function NPC_SellswordLuet_Act30(self, ai, goal)
-    self:ChangeEquipMagic(0) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
+-- Use Item (Slot 1) - Elizabeth Mushroom
+function NPC_SellswordLuet_Act20(self, ai, goal)
+    self:ChangeEquipItem(1) 
+    self:SetStringIndexedNumber("Elizabeth Mushroom", self:GetStringIndexedNumber("Elizabeth Mushroom") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Cast Spell (Slot 1) - Great Heal
-function NPC_SellswordLuet_Act31(self, ai, goal)
-    self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Tears of Denial
-function NPC_SellswordLuet_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+-- Use Item (Slot 2) - Alluring Skull
+function NPC_SellswordLuet_Act20(self, ai, goal)
+    self:ChangeEquipItem(2) 
+    self:SetStringIndexedNumber("Alluring Skull", self:GetStringIndexedNumber("Alluring Skull") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -844,22 +855,6 @@ Goal.Interrupt = function (self, ai, goal)
         
         goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         
-        return true
-    -- Occurs if the player is vulnerable to a parry
-    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
-        if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
-                goal:ClearSubGoal()
-                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
-                return true
-            end
-        end
-    -- Occurs if a parry has been applied to the player
-    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
-        goal:ClearSubGoal()
-        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
-        subgoal:SetLifeEndSuccess(true)
-        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
         return true
     -- Occurs when the AI looks for an attack
     elseif ai:IsInterupt(INTERUPT_FindAttack) then

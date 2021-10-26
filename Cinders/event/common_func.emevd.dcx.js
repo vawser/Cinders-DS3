@@ -3743,8 +3743,8 @@ Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
     
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is active
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Summon is dismissed
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Boss is defeated
     
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);  // Check if summon has been summoned
     IfConditionGroup(MAIN, PASS, OR_01);
@@ -3782,6 +3782,24 @@ Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon has been dismissed
     SetCharacterDefaultBackreadState(X12_4, Disabled);
+});
+
+
+//-------------------------------------------
+// Summon - Warp to Player on Boss Start
+// <summon flag>, <dismiss flag>, <boss flag>, <entity>, <progress flag>
+//-------------------------------------------
+Event(20005730, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Boss is killed
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);  // Check if summon has been summoned
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X16_4);  // Check if boss fight has started
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    WaitFixedTimeSeconds(2.0);
+    
+    WarpCharacterAndCopyFloor(X12_4, TargetEntityType.Character, 10000, 271, 10000);
 });
 
 //-------------------------------------------

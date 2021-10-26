@@ -3655,6 +3655,8 @@ Event(20061, Default, function(X0_4) {
     WarpPlayer(40, 0, 4000986);
     SetMapCeremony(40, 0, 10);
     
+    SetEventFlag(25008800, ON);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
