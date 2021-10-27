@@ -3637,6 +3637,7 @@ Event(20060, Default, function(X0_4) {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     SetEventFlag(25000020, ON); // Debug flag
+    SetEventFlag(13800196, OFF);
     
     ChangeCharacterEnableState(4000899, Enabled);
     SetCharacterAnimationState(4000899, Enabled);
@@ -4584,6 +4585,7 @@ Event(20125, Restart, function() {
     SetEventFlag(14000892, 0); // Ashen Keeper Sofija
     SetEventFlag(9500, 0); // Sword Master
     SetEventFlag(14000893, 0); // Pot King Greg
+    SetEventFlag(14000197, 0); // Daughter of Crystal Kriemhild
     
     // m39
     SetEventFlag(13900730, 0); // Corrupted Knight Lloyd
@@ -4607,6 +4609,7 @@ Event(20125, Restart, function() {
     SetEventFlag(13800761, 0); // The Mother
     SetEventFlag(13800762, 0); // The Child
     SetEventFlag(13800398, 0); // Knight Slayer Tsorig
+    SetEventFlag(13800196, 0); // Knight Slayer Tsorig
 
     // m37
     SetEventFlag(13700733, 0); // Boreal Outrider Knight
@@ -4618,6 +4621,8 @@ Event(20125, Restart, function() {
     SetEventFlag(13700783, 0); // The Pursuer
     SetEventFlag(13700198, 0); // Drang Knight (Hammer)
     SetEventFlag(13700199, 0); // Drang Knight (Twinspear)
+    SetEventFlag(13700193, 0); // Creighton the Wanderer
+    SetEventFlag(13700194, 0); // Londor Pale Shade
 
     // m35
     SetEventFlag(13500196, 0); // Ravenous Crystal Lizard
@@ -4646,6 +4651,9 @@ Event(20125, Restart, function() {
     SetEventFlag(13300395, 0); // Butcher
     SetEventFlag(13300396, 0); // Exile Watchdog
     SetEventFlag(13300397, 0); // Exile Watchdog
+    SetEventFlag(13300180, 0); // Yellowfinger Heysel (ROS)
+    SetEventFlag(13300182, 0); // Yellowfinger Heysel (FK)
+    SetEventFlag(13300184, 0); // Londor Pale Shade
 
     // m32
     SetEventFlag(13200430, 0); // Dragon Cultist

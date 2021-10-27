@@ -258,34 +258,9 @@ GOAL_NPC_SellswordLuet = 40000
 803 Elizabeth Mushroom
 294 Alluring Skull
 
-# Assassin
-1310000
-1356000
-
-3530000
-
-1200000
-1375000
-
-2400000
-2458000
-
-3556000
-3490000
-
-3509000
-3530000
-
-4100000
-4104000
-
-4201000
-4204000
-
-4301000
-4311000
-
-3490000
-
-2720000
-
+Fix Tsorig/Heysel giving too many souls
+ Due to NPCSummonSign command
+ 
+ 20005750
+ 20005751
+ 20005752

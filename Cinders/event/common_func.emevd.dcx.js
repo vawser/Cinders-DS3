@@ -3803,24 +3803,34 @@ Event(20005730, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 });
 
 //-------------------------------------------
-// Invader - 
+// Invader - Vanilla - Setup
+// <boss flag>, <defeated flag>, <summon flag>, <dismissal flag>, 
+// <entity id>, <spawnpoint id>, <region id>, <invasion delay>, <conditional flag>
 //-------------------------------------------
 Event(20005750, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
+    
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // Boss defeated
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Is summoned
+    
+    // Conditional flag check
     SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4);
+    
     IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X24_4, 1);
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Not defeated
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4); // Not summoned
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X24_4, 1); // In region
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Embered
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     WaitFixedTimeSeconds(X28_4);
+    
     PlaceNPCSummonSign(SummonSignType.BlackSign, X16_4, X20_4, X8_4, X12_4);
+    
     WaitFixedTimeSeconds(1);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -3869,13 +3879,18 @@ Event(20005752, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-------------------------------------------
 // Invader - Death
+// <defeated flag>, <summon flag>, <dismissal flag>, <entity id>
+//-------------------------------------------
 Event(20005760, Default, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
     IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, X8_4);
     IfCharacterDeadalive(AND_01, X12_4, DeathState.Dead, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     SetEventFlag(X0_4, ON);
 });
 
@@ -6688,7 +6703,6 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X28_4);
     
     // Trigger Invader if in region
-    //IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Is Embered
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
     IfConditionGroup(MAIN, PASS, AND_01);
     WaitRandomTimeSeconds(1, 3);
@@ -6714,7 +6728,44 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetEventFlag(X28_4, ON);
 });
 
- 
+//----------------------------------------------
+// Fake Invader - Setup - Conditional
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
+//----------------------------------------------
+Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    
+    // End if X has been killed once already
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X28_4);
+    
+    // Trigger Invader if in region
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4); // Has conditional flag
+    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
+    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitRandomTimeSeconds(1, 3);
+    
+    DisplayMessage(X20_4, 1);
+    
+    // Spawn
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
+    
+    // Killed
+    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    DisplayMessage(X24_4, 1);
+    
+    AwardItemLot(X16_4);
+    SetCharacterDefaultBackreadState(X0_4, Disabled);
+    
+    SetEventFlag(X28_4, ON);
+});
+
 //-------------------------------------------
 // Simple Summon - Setup
 // <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>
