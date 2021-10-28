@@ -272,7 +272,7 @@
 3040 [Item] Green Blossom
 3041 [DLC] Fragment of mushroom
 3042 [Item] Budding Green Blossom
-3045 [Item] Spellbound Blossom
+3045 [Item] Bloodthirsty Blossom
 3050 bleeding treatment [State recovery]
 3051 bleeding treatment [resistance recovery]
 3060 Poison treatment [State recovery]
@@ -2191,11 +2191,11 @@
 113055 Seconds: 55
 113060 Cast and Character Action FP Pause
 113099 ### FP Restoration ###
-113100 [Behavior] Restore FP - Base - 8 per second
-113101 [Behavior] Restore FP - Enchanted - 3 per second
-113102 [Behavior] Restore FP - Clarity - 3 per second
-113104 [Behavior] Restore FP - Pulsating - 3 per second
-113110 [Behavior] Restore FP - Darkmoon Ring - 3 per second
+113100 [Behavior] Restore FP - Base - 10 per second
+113101 [Behavior] Restore FP - Enchanted - 2 per second
+113102 [Behavior] Restore FP - Clarity - 2 per second
+113104 [Behavior] Restore FP - Pulsating - 2 per second
+113110 [Behavior] Restore FP - Darkmoon Ring - 2 per second
 113111 [Behavior] Restore FP - Darkmoon Ring+1 - 4 per second
 113112 [Behavior] Restore FP - Darkmoon Ring+2 - 5 per second
 113113 [Behavior] Restore FP - Darkmoon Ring+3 - 6 per second
@@ -3876,12 +3876,12 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Sorcery] Spellbound Flashsword
-160500470 [Sorcery] Spellbound Farron Dart
-160500480 [Pyromancy] Spellbound Flame Fan
-160500490 [Pyromancy] Spellbound Lingering Chaos
-160500500 [Pyromancy] Spellbound Fire Surge
-160500510 [Pyromancy] Spellbound Sacred Flame
+160500460 [Sorcery] Bloodthirsty Flashsword
+160500470 [Sorcery] Bloodthirsty Farron Dart
+160500480 [Pyromancy] Bloodthirsty Flame Fan
+160500490 [Pyromancy] Bloodthirsty Lingering Chaos
+160500500 [Pyromancy] Bloodthirsty Fire Surge
+160500510 [Pyromancy] Bloodthirsty Sacred Flame
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4636,7 +4636,7 @@
 160690035 Cursed Ring of Confusion - Change Team Type
 160700001 ### Items ###
 160700020 Brightbug
-160700040 Spellbound Grass Dew
+160700040 Bloodthirsty Grass Dew
 160700050 Tarnished Coin
 160700060 Tarnished Silver Coin
 160700230 Old Growth Balm
@@ -4671,42 +4671,42 @@
 160700660 Celeritas Stem
 160700670 Veloxi Moss
 160700680 Holy Water Urn
-160700690 Spellbound Charcoal Resin - Right Hand
-160700691 Spellbound Charcoal Resin - Left Hand
-160700700 Spellbound Pale Resin - Right Hand
-160700701 Spellbound Pale Resin - Left Hand
-160700710 Spellbound Gold Resin - Right Hand
-160700711 Spellbound Gold Resin - Left Hand
-160700720 Spellbound Human Resin - Right Hand
-160700721 Spellbound Human Resin - Left Hand
-160700730 Spellbound Rotten Resin - Right Hand
-160700731 Spellbound Rotten Resin - Right Hand [AttackOccurance]
-160700732 Spellbound Rotten Resin - Left Hand
-160700733 Spellbound Rotten Resin - Left Hand [AttackOccurance]
-160700740 Spellbound Carthus Rouge - Right Hand
-160700741 Spellbound Carthus Rouge - Right Hand [AttackOccurance]
-160700742 Spellbound Carthus Rouge - Left Hand
-160700743 Spellbound Carthus Rouge - Left Hand [AttackOccurance]
-160700750 Spellbound Frozen Resin - Right Hand
-160700751 Spellbound Frozen Resin - Right Hand [AttackOccurance]
-160700752 Spellbound Frozen Resin - Left Hand
-160700753 Spellbound Frozen Resin - Left Hand [AttackOccurance]
-160700760 Spellbound Pellet
-160700770 Spellbound Mossfruit
+160700690 Bloodthirsty Charcoal Resin - Right Hand
+160700691 Bloodthirsty Charcoal Resin - Left Hand
+160700700 Bloodthirsty Pale Resin - Right Hand
+160700701 Bloodthirsty Pale Resin - Left Hand
+160700710 Bloodthirsty Gold Resin - Right Hand
+160700711 Bloodthirsty Gold Resin - Left Hand
+160700720 Bloodthirsty Human Resin - Right Hand
+160700721 Bloodthirsty Human Resin - Left Hand
+160700730 Bloodthirsty Rotten Resin - Right Hand
+160700731 Bloodthirsty Rotten Resin - Right Hand [AttackOccurance]
+160700732 Bloodthirsty Rotten Resin - Left Hand
+160700733 Bloodthirsty Rotten Resin - Left Hand [AttackOccurance]
+160700740 Bloodthirsty Carthus Rouge - Right Hand
+160700741 Bloodthirsty Carthus Rouge - Right Hand [AttackOccurance]
+160700742 Bloodthirsty Carthus Rouge - Left Hand
+160700743 Bloodthirsty Carthus Rouge - Left Hand [AttackOccurance]
+160700750 Bloodthirsty Frozen Resin - Right Hand
+160700751 Bloodthirsty Frozen Resin - Right Hand [AttackOccurance]
+160700752 Bloodthirsty Frozen Resin - Left Hand
+160700753 Bloodthirsty Frozen Resin - Left Hand [AttackOccurance]
+160700760 Bloodthirsty Pellet
+160700770 Bloodthirsty Mossfruit
 160700780 Blessed Pine Resin - Right Hand
 160700781 Blessed Pine Resin - Left Hand
-160700790 Spellbound Blessed Resin - Right Hand
-160700791 Spellbound Blessed Resin - Left Hand
+160700790 Bloodthirsty Blessed Resin - Right Hand
+160700791 Bloodthirsty Blessed Resin - Left Hand
 160700800 Cursed Pine Resin - Right Hand
 160700801 Cursed Pine Resin - Right Hand [AttackOccurance]
 160700802 Cursed Pine Resin - Left Hand
 160700803 Cursed Pine Resin - Left Hand [AttackOccurance]
-160700810 Spellbound Cursed Resin - Right Hand
-160700811 Spellbound Cursed Resin - Right Hand [AttackOccurance]
-160700812 Spellbound Cursed Resin - Left Hand
-160700813 Spellbound Cursed Resin - Left Hand [AttackOccurance]
-160700820 Spellbound Draconic Fire
-160700830 Spellbound Draconic Fire Orbs
+160700810 Bloodthirsty Cursed Resin - Right Hand
+160700811 Bloodthirsty Cursed Resin - Right Hand [AttackOccurance]
+160700812 Bloodthirsty Cursed Resin - Left Hand
+160700813 Bloodthirsty Cursed Resin - Left Hand [AttackOccurance]
+160700820 Bloodthirsty Draconic Fire
+160700830 Bloodthirsty Draconic Fire Orbs
 160700999 ### Elixirs ###
 160701000 Cleansing Potion - Trigger
 160701010 Cleansing Potion - Clear 150
@@ -5312,7 +5312,7 @@
 160720340 Twisted Soul
 160720350 Soul of the Maiden
 160720360 Soul of the Marauder
-160730000 ### NPC Enemies ###
+160730000 ### NPC Modifiers ###
 160730010 HP Scalar: 1000 HP
 160730020 HP Scalar: 2000 HP
 160730030 HP Scalar: 3000 HP
@@ -5342,13 +5342,14 @@
 160733030 Physical ABS Scalar: 30%
 160733040 Physical ABS Scalar: 40%
 160733050 Physical ABS Scalar: 50%
+160737000 Passive Bloodthirsty Charges
+160737100 Red Eye - Target Priority
+160737200 Fall Death Disabled
+160737201 Fall Damage Disabled
 160738000 Immunity: Poison/Toxic
 160738010 Immunity: Bleed
 160738020 Immunity: Curse
 160738030 Immunity: Frost
-160739010 Pot King Greg - Buff
-160739011 Siegward of Catarina - Buff
-160739012 Ashen Keeper Sofija - Buff
 160740000 ### Enemies ###
 160740001 El Hueso
 160740002 Pilgrim Pulpa - Holy Burst
@@ -5380,6 +5381,7 @@
 160741408 Dismal Knight - Weapon Buff Effect 4
 160741409 Dismal Knight - Weapon Buff
 160741500 Prince Dorthinus - Eye VFX
+160741501 Prince Dorthinus - Eye VFX - Phase 2
 160741600 Princess Yngvil - Yngvil's Crystal - Player Buff
 160741610 Princess Yngvil - Frozen Chaos Essence - Player Buff
 160741700 Crab Puzzle - Fade Out
@@ -5516,6 +5518,8 @@
 160801050 Enemy - El Hueso
 160801070 Enemy - Magnum Ursus - Strong Punch
 160802000 Poise Override - Easy Stagger
+160803000 Summon - Illusion Form
+160803010 Summon - Phantom Form
 170000000 ### Status Effect - Spells ###
 170000010 Frost - Frozen Weapon [AttackOccurance]
 170000020 Frost - Snap Freeze [CycleOccurance]
@@ -5596,7 +5600,7 @@
 180000160 Toxic - Black Scorpion Stinger
 180000161 Toxic - Black Scorpion Stinger (Infusion)
 180000170 Poison - Poisonous Knife
-180000171 Poison - Spellbound Poisonous Knife
+180000171 Poison - Bloodthirsty Poisonous Knife
 180000180 Poison - Dung Pie
 180000190 Poison - Ceaseless Dung Pie
 180000200 Poison - Makoto
@@ -5610,8 +5614,8 @@
 180000250 Poison - Pistol Sidearm
 180000260 Poison - Sprayer Sidearm
 180000270 Poison - Fist Sidearm
-180000280 Toxic - Spellbound Dung
-180000281 Toxic - Spellbound Dung - Self
+180000280 Toxic - Bloodthirsty Dung
+180000281 Toxic - Bloodthirsty Dung - Self
 180000290 Poison - Sanctum Mace
 180000291 Poison - Sanctum Mace (Infusion)
 180000300 Poison - Sanctum Mace - Self
@@ -5713,7 +5717,7 @@
 180010550 Bleed - Scraping Spear
 180010551 Bleed - Scraping Spear (Infusion)
 180010560 Bleed - Throwing Knife
-180010561 Bleed - Spellbound Lacerating Knife
+180010561 Bleed - Bloodthirsty Lacerating Knife
 180010562 Bleed - Splintering Bolts
 180019999 ### Frost ##
 180020000 Frost - Normal (Infusion)
@@ -5752,7 +5756,15 @@
 180020190 Frost - Frostfall
 180020191 Frost - Frostfall (Infusion)
 180020200 Frost - Throwing Knife
-180020201 Frost - Spellbound Frigid Knife
+180020201 Frost - Bloodthirsty Frigid Knife
+180020300 Frost - Frigid Tumult
+180020310 Frost - Frigid Roar
+180020320 Frost - Hail of Blades
+180020330 Frost - Piercing Ice
+180020340 Frost - Rime
+180020350 Frost - Path of Frost
+180020360 Frost - Discs of Dorthinus
+180020370 Frost - Chilling Rime
 180021000 Frost - Stamina and Resistance Penalties
 180021001 Frost - Stamina Reduction (Old)
 180021010 Frost - Disable Frost Inflict for Enemy
@@ -5808,7 +5820,7 @@
 180030270 Curse - Sprayer Sidearm
 180030280 Curse - Fist Sidearm
 180030290 Curse - Throwing Knife
-180030291 Curse - Spellbound Cursed Knife
+180030291 Curse - Bloodthirsty Cursed Knife
 199999999 ### Infusions - Passive ####
 200000100 Lethal
 200000200 Curse
@@ -6100,7 +6112,7 @@
 250002210 Curse of Valor - Soul Gain
 250002220 Curse of Valor - Enemy Effect
 260000000 ### Bosses ###
-260000001 Dismal Knight
+260000001 Corrupted Gundyr
 260000002 Vordt of the Boreal Valley
 260000003 Curse-rotted Greatwood
 260000004 Crystal Sage
@@ -6138,11 +6150,8 @@
 260000036 Titanite Abomination
 260000037 The Marauder
 260000038 Spurned Shade
-260000039 Ancient Soldier Varg
-260000040 Afflicted Graverobber
-260000041 Cerah the Old Explorer
 260100000 ### Boss Revival ###
-260100010 Dismal Knight
+260100010 Corrupted Gundyr
 260100020 Vordt of the Boreal Valley
 260100030 Curse-rotted Greatwood
 260100040 Crystal Sage
@@ -6180,7 +6189,7 @@
 260100360 The Marauder
 260100370 Spurned Shade
 260109999 ### Wanderer Mode - Damage Boost ###
-260110000 Dismal Knight
+260110000 Corrupted Gundyr
 260110001 Vordt of the Boreal Valley
 260110002 Curse-rotted Greatwood
 260110003 Crystal Sage

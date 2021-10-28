@@ -3336,7 +3336,7 @@ during your journey.
 You have failed.</text>
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
-Magic: gains additional spellbound charges on hit.
+Magic: gains additional Bloodthirst charges on hit.
 Fire: increases max stamina by 20%.
 Lightning: increases Poise by 20%.
 Dark: absorb 15 HP on hit.
@@ -3812,13 +3812,13 @@ to commune with the fallen knight.</text>
 <text id="99040040">You lack 10 Fire Seeds</text>
 <text id="99040041">You lack 15 Fire Seeds</text>
 <text id="99040043">You lack 20 Fire Seeds</text>
-<text id="99041000">Spellbound Farron Dart</text>
+<text id="99041000">Bloodthirsty Farron Dart</text>
 <text id="99041001">Swift Soul Wave</text>
 <text id="99041002">Explosive Soul Arrow</text>
 <text id="99041003">Explosive Soul Spear</text>
 <text id="99041004">Homing Crystal Soul Spear</text>
 <text id="99041005">Extended White Dragon Breath</text>
-<text id="99041006">Spellbound Flashsword</text>
+<text id="99041006">Bloodthirsty Flashsword</text>
 <text id="99041007">Heavy Soul Greatsword</text>
 <text id="99041008">Heavy Old Moonlight</text>
 <text id="99041009">Surging Soulmass</text>
@@ -3896,13 +3896,13 @@ to commune with the fallen knight.</text>
 <text id="99042042">Ascend from Rime?</text>
 <text id="99042043">Ascend from Path of Frost?</text>
 <text id="99042044">Ascend from Discs of Dorthinus?</text>
-<text id="99043000">Spellbound Farron Dart crafted</text>
+<text id="99043000">Bloodthirsty Farron Dart crafted</text>
 <text id="99043001">Swift Soul Wave crafted</text>
 <text id="99043002">Explosive Soul Arrow crafted</text>
 <text id="99043003">Explosive Soul Spear crafted</text>
 <text id="99043004">Homing Crystal Soul Spear crafted</text>
 <text id="99043005">Extended White Dragon Breath crafted</text>
-<text id="99043006">Spellbound Flashsword crafted</text>
+<text id="99043006">Bloodthirsty Flashsword crafted</text>
 <text id="99043007">Heavy Soul Greatsword crafted</text>
 <text id="99043008">Heavy Old Moonlight crafted</text>
 <text id="99043009">Surging Soulmass crafted</text>
@@ -3945,14 +3945,14 @@ to commune with the fallen knight.</text>
 <text id="99044004">Distant Profaned Flame</text>
 <text id="99044005">Chaos Vortex</text>
 <text id="99044006">Great Seething Chaos</text>
-<text id="99044007">Spellbound Flame Fan</text>
+<text id="99044007">Bloodthirsty Flame Fan</text>
 <text id="99044008">Incendiary Combustion</text>
-<text id="99044009">Spellbound Fire Surge</text>
+<text id="99044009">Bloodthirsty Fire Surge</text>
 <text id="99044010">Incendiary Fire Whip</text>
-<text id="99044011">Spellbound Sacred Flame</text>
+<text id="99044011">Bloodthirsty Sacred Flame</text>
 <text id="99044012">Repeating Firestorm</text>
 <text id="99044013">Repeating Chaos Storm</text>
-<text id="99044014">Spellbound Lingering Chaos</text>
+<text id="99044014">Bloodthirsty Lingering Chaos</text>
 <text id="99044015">Lingering Floating Chaos</text>
 <text id="99044016">Incinerating Chaos Beam</text>
 <text id="99044017">Great Cataclysm</text>
@@ -4017,14 +4017,14 @@ to commune with the fallen knight.</text>
 <text id="99046004">Distant Profaned Flame crafted</text>
 <text id="99046005">Chaos Vortex crafted</text>
 <text id="99046006">Great Seething Chaos crafted</text>
-<text id="99046007">Spellbound Flame Fan crafted</text>
+<text id="99046007">Bloodthirsty Flame Fan crafted</text>
 <text id="99046008">Incendiary Combustion crafted</text>
-<text id="99046009">Spellbound Fire Surge crafted</text>
+<text id="99046009">Bloodthirsty Fire Surge crafted</text>
 <text id="99046010">Incendiary Fire Whip crafted</text>
-<text id="99046011">Spellbound Sacred Flame crafted</text>
+<text id="99046011">Bloodthirsty Sacred Flame crafted</text>
 <text id="99046012">Repeating Firestorm crafted</text>
 <text id="99046013">Repeating Chaos Storm crafted</text>
-<text id="99046014">Spellbound Lingering Chaos crafted</text>
+<text id="99046014">Bloodthirsty Lingering Chaos crafted</text>
 <text id="99046015">Lingering Floating Chaos crafted</text>
 <text id="99046016">Incinerating Chaos Beam crafted</text>
 <text id="99046017">Great Cataclysm crafted</text>

@@ -2531,7 +2531,7 @@
 7710743 [Titanite Abomination]
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
-11200010 [Sorcery] Spellbound Farron Dart
+11200010 [Sorcery] Bloodthirsty Farron Dart
 11210020 [Sorcery] Scattering Soul Orb [Emitter]
 11210030 [Sorcery] Scattering Soul Orb [EmittedBullet]
 11210040 [Sorcery] Repeating Soul Orb [Emitter]
@@ -2688,7 +2688,7 @@
 12403150 [Pyromancy] Repeating Firestorm
 12403160 [Pyromancy] Repeating Firestorm [Hit]
 12405000 [Pyromancy] Fire Surge
-12405100 [Pyromancy] Spellbound Fire Surge
+12405100 [Pyromancy] Bloodthirsty Fire Surge
 12407000 [Pyromancy] Black Serpent
 12407010 [Pyromancy] Black Serpent [Hit]
 12407100 [Pyromancy] Black Serpent [Hit]
@@ -2781,8 +2781,8 @@
 12457410 [Pyromancy] Lingering Floating Chaos [Bullet]
 12458000 [Pyromancy] Flame Fan
 12458010 [Pyromancy] Flame Fan
-12458100 [Pyromancy] Spellbound Flame Fan
-12458110 [Pyromancy] Spellbound Flame Fan
+12458100 [Pyromancy] Bloodthirsty Flame Fan
+12458110 [Pyromancy] Bloodthirsty Flame Fan
 12470000 [Pyromancy] Warmth
 12470100 [Pyromancy] Fond Warmth
 12600000 [Pyromancy] Dark Orb [unused]
@@ -3527,7 +3527,7 @@
 108360150 [Sorcery] Repeating Blizzard
 108360160 [Sorcery] Repeating Blizzard [Hit]
 108400000 [Pyromancy] Lingering Chaos
-108400100 [Pyromancy] Spellbound Lingering Chaos
+108400100 [Pyromancy] Bloodthirsty Lingering Chaos
 108401000 [Sorcery] Climax
 108401100 [Sorcery] Explosive Climax
 108401110 [Sorcery] Explosive Climax [Hit]
@@ -3752,6 +3752,59 @@
 109559100 [Miracle] Gravelord Sword
 109559110 [Miracle] Gravelord Sword [Emitter]
 109559120 [Miracle] Gravelord Sword
+109560100 [Sorcery] Frigid Tumult
+109560101 [Sorcery] Frigid Tumult [Hit]
+109560102 [Sorcery] Frigid Tumult [Hit]
+109560110 [Sorcery] Frigid Roar
+109560111 [Sorcery] Frigid Roar [Hit]
+109560112 [Sorcery] Frigid Roar [Hit]
+109560200 [Sorcery] Hail of Blades
+109560201 [Sorcery] Hail of Blades [Emitter]
+109560202 [Sorcery] Hail of Blades [Hit]
+109560210 [Sorcery] Focused Hail of Blades
+109560211 [Sorcery] Focused Hail of Blades [Emitter]
+109560212 [Sorcery] Focused Hail of Blades [Hit]
+109560300 [Sorcery] Piercing Ice
+109560310 [Sorcery] Explosive Ice
+109560311 [Sorcery] Explosive Ice [Hit]
+109560400 [Sorcery] Rime
+109560410 [Sorcery] Chilling Rime
+109560500 [Sorcery] Path of Frost
+109560501 [Sorcery] Path of Frost [Hit]
+109560502 [Sorcery] Path of Frost [Hit]
+109560503 [Sorcery] Path of Frost [Hit]
+109560504 [Sorcery] Path of Frost [Hit]
+109560505 [Sorcery] Path of Frost [Hit]
+109560506 [Sorcery] Path of Frost [Hit]
+109560507 [Sorcery] Path of Frost [Hit]
+109560508 [Sorcery] Path of Frost [Hit]
+109560509 [Sorcery] Path of Frost [Hit]
+109560510 [Sorcery] Path of Frost [Hit]
+109560511 [Sorcery] Path of Frost [Hit]
+109560512 [Sorcery] Path of Frost [Hit]
+109560513 [Sorcery] Path of Frost [Hit]
+109560514 [Sorcery] Path of Frost [Hit]
+109560515 [Sorcery] Path of Frost [Hit]
+109560516 [Sorcery] Path of Frost [Hit]
+109560517 [Sorcery] Path of Frost [Hit]
+109560518 [Sorcery] Path of Frost [Hit]
+109560519 [Sorcery] Path of Frost [Hit]
+109560520 [Sorcery] Path of Frost [Hit]
+109560521 [Sorcery] Path of Frost [Hit]
+109560522 [Sorcery] Path of Frost [Hit]
+109560523 [Sorcery] Path of Frost [Hit]
+109560524 [Sorcery] Path of Frost [Hit]
+109560525 [Sorcery] Path of Frost [Hit]
+109560526 [Sorcery] Path of Frost [Hit]
+109560527 [Sorcery] Path of Frost [Hit]
+109560528 [Sorcery] Path of Frost [Hit]
+109560529 [Sorcery] Path of Frost [Hit]
+109560590 [Sorcery] Path of Frost - Explosion
+109560600 [Sorcery] Discs of Dorthinus - Outward
+109560601 [Sorcery] Discs of Dorthinus - Linger
+109560602 [Sorcery] Discs of Dorthinus - Return
+109560603 [Sorcery] Discs of Dorthinus - Linger
+109560604 [Sorcery] Discs of Dorthinus - Outward
 209999999 ### Weapons ###
 210000000 Court Sorcerer's Staff - Soulmass
 210000010 Court Sorcerer's Staff - Soulmass [Hit]
@@ -4108,7 +4161,7 @@
 222000070 Throwing Knife - Bleed
 222000080 Throwing Knife - Frost
 222000100 Kukri
-222000200 Spellbound Guardian Shiv
+222000200 Bloodthirsty Guardian Shiv
 222001000 Firebomb
 222001001 Firebomb [Hit]
 222001002 Firebomb [Hit]
@@ -4174,66 +4227,66 @@
 223000500 Siegbrau
 223000501 Siegbrau [Hit]
 223999999 ### Items - Tools ###
-224000000 Spellbound Firebomb
-224000001 Spellbound Firebomb [Hit]
-224000002 Spellbound Firebomb [Hit]
-224000003 Spellbound Firebomb [Hit]
-224000010 Spellbound Black Firebomb
-224000011 Spellbound Black Firebomb [Hit]
-224000012 Spellbound Black Firebomb [Hit]
-224000013 Spellbound Black Firebomb [Hit]
-224000020 Spellbound Holy Water Urn
-224000021 Spellbound Holy Water Urn [Hit]
-224000022 Spellbound Holy Water Urn [Hit]
-224000023 Spellbound Holy Water Urn [Hit]
-224000030 Spellbound Witching Urn
-224000031 Spellbound Witching Urn [Hit]
-224000032 Spellbound Witching Urn [Hit]
-224000033 Spellbound Witching Urn [Hit]
-224000040 Spellbound Hexing Urn
-224000041 Spellbound Hexing Urn [Hit]
-224000042 Spellbound Hexing Urn [Hit]
-224000100 Spellbound Lightning Urn
-224000101 Spellbound Lightning Urn [Emitter]
-224000102 Spellbound Lightning Urn [Hit]
-224000103 Spellbound Lightning Urn [Hit]
-224000104 Spellbound Lightning Urn [Hit]
-224000105 Spellbound Lightning Urn [Hit]
-224000106 Spellbound Lightning Urn [Hit]
-224000200 Spellbound Throwing Knife
-224000210 Spellbound Throwing Knife - Magic
-224000220 Spellbound Throwing Knife - Fire
-224000230 Spellbound Throwing Knife - Lightning
-224000240 Spellbound Throwing Knife - Dark
-224000250 Spellbound Throwing Knife - Curse
-224000260 Spellbound Throwing Knife - Poison
-224000270 Spellbound Throwing Knife - Bleed
-224000280 Spellbound Throwing Knife - Frost
-224000300 Spellbound Kukri
-224000400 Spellbound Dung
-224000401 Spellbound Dung [Hit]
-224000500 Spellbound Skull
-224000501 Spellbound Skull [Hit]
-224000600 Spellbound Frying Pan
-224000700 Spellbound Set-up Firebomb
-224000701 Spellbound Set-up Firebomb [Hit]
-224000702 Spellbound Set-up Firebomb [Hit]
+224000000 Bloodthirsty Firebomb
+224000001 Bloodthirsty Firebomb [Hit]
+224000002 Bloodthirsty Firebomb [Hit]
+224000003 Bloodthirsty Firebomb [Hit]
+224000010 Bloodthirsty Black Firebomb
+224000011 Bloodthirsty Black Firebomb [Hit]
+224000012 Bloodthirsty Black Firebomb [Hit]
+224000013 Bloodthirsty Black Firebomb [Hit]
+224000020 Bloodthirsty Holy Water Urn
+224000021 Bloodthirsty Holy Water Urn [Hit]
+224000022 Bloodthirsty Holy Water Urn [Hit]
+224000023 Bloodthirsty Holy Water Urn [Hit]
+224000030 Bloodthirsty Witching Urn
+224000031 Bloodthirsty Witching Urn [Hit]
+224000032 Bloodthirsty Witching Urn [Hit]
+224000033 Bloodthirsty Witching Urn [Hit]
+224000040 Bloodthirsty Hexing Urn
+224000041 Bloodthirsty Hexing Urn [Hit]
+224000042 Bloodthirsty Hexing Urn [Hit]
+224000100 Bloodthirsty Lightning Urn
+224000101 Bloodthirsty Lightning Urn [Emitter]
+224000102 Bloodthirsty Lightning Urn [Hit]
+224000103 Bloodthirsty Lightning Urn [Hit]
+224000104 Bloodthirsty Lightning Urn [Hit]
+224000105 Bloodthirsty Lightning Urn [Hit]
+224000106 Bloodthirsty Lightning Urn [Hit]
+224000200 Bloodthirsty Throwing Knife
+224000210 Bloodthirsty Throwing Knife - Magic
+224000220 Bloodthirsty Throwing Knife - Fire
+224000230 Bloodthirsty Throwing Knife - Lightning
+224000240 Bloodthirsty Throwing Knife - Dark
+224000250 Bloodthirsty Throwing Knife - Curse
+224000260 Bloodthirsty Throwing Knife - Poison
+224000270 Bloodthirsty Throwing Knife - Bleed
+224000280 Bloodthirsty Throwing Knife - Frost
+224000300 Bloodthirsty Kukri
+224000400 Bloodthirsty Dung
+224000401 Bloodthirsty Dung [Hit]
+224000500 Bloodthirsty Skull
+224000501 Bloodthirsty Skull [Hit]
+224000600 Bloodthirsty Frying Pan
+224000700 Bloodthirsty Set-up Firebomb
+224000701 Bloodthirsty Set-up Firebomb [Hit]
+224000702 Bloodthirsty Set-up Firebomb [Hit]
 224001000 Dragon Head Stone
 224001100 Dragon Torso Stone
-224001200 Spellbound Draconic Fire
-224001300 Spellbound Draconic Might
-224001301 Spellbound Draconic Might [Hit]
-224001400 Spellbound Draconic Fire Orbs
-224001500 Spellbound Draconic Fury
-224001501 Spellbound Draconic Fury [Hit]
-224001502 Spellbound Draconic Fury
-224001503 Spellbound Draconic Fury - Spread Fire Burst
-224001504 Spellbound Draconic Fury - Dragonform Ghost + Breathe Fire
-224001505 Spellbound Draconic Fury - Dragonform Ghost
-224001506 Spellbound Draconic Fury
-224001507 Spellbound Draconic Fury
-224001508 Spellbound Draconic Fury [Hit] - Forward Fire Burst
-224001509 Spellbound Draconic Fury [Hit] - Wide Scattered Ground Fire
+224001200 Bloodthirsty Draconic Fire
+224001300 Bloodthirsty Draconic Might
+224001301 Bloodthirsty Draconic Might [Hit]
+224001400 Bloodthirsty Draconic Fire Orbs
+224001500 Bloodthirsty Draconic Fury
+224001501 Bloodthirsty Draconic Fury [Hit]
+224001502 Bloodthirsty Draconic Fury
+224001503 Bloodthirsty Draconic Fury - Spread Fire Burst
+224001504 Bloodthirsty Draconic Fury - Dragonform Ghost + Breathe Fire
+224001505 Bloodthirsty Draconic Fury - Dragonform Ghost
+224001506 Bloodthirsty Draconic Fury
+224001507 Bloodthirsty Draconic Fury
+224001508 Bloodthirsty Draconic Fury [Hit] - Forward Fire Burst
+224001509 Bloodthirsty Draconic Fury [Hit] - Wide Scattered Ground Fire
 224002000 Hello Carving
 224002001 Hello Carving [Hit]
 224002100 Thank you Carving
@@ -4257,3 +4310,9 @@
 230021000 Vordt - Freezing Wind [Emitter]
 230021010 Vordt - Freezing Wind - Line [Hit]
 230021020 Vordt - Freezing Wind - Initial Point [Hit]
+230030000 Prince Dorthinus - Discs
+230030001 Prince Dorthinus - Discs
+230030002 Prince Dorthinus - Discs
+230030003 Prince Dorthinus - Discs
+230030004 Prince Dorthinus - Discs
+230030100 Prince Dorthinus - Rime

@@ -150,8 +150,8 @@
 28400 Unkindled Thief - Enemy [Cathedral of the Deep]
 28600 Court Sorcerer - Enemy [Profaned Capital]
 28700 Havel the Rock - Enemy [Archdragon Peak]
-28800 Drakeblood Knight
-28900 Drakeblood Knight
+28800 Drakeblood Knight [Archdragon Peak]
+28900 Unkindled Ricard [Archdragon Peak]
 29000 Drang Knight - Hammers - Enemy [Irithyll]
 29100 Drang Knight - Spears - Enemy [Irithyll]
 29200 Knight Slayer Tsorig - Enemy [Smouldering Lake]
@@ -243,6 +243,9 @@
 40140 m50_0 - Harald Knight
 40150 m51_0 - Ringed Knight
 40160 m51_1 - Hollow Cleric
+49999 ### Summons ###
+50000 Sellsword Luet - Cemetery of Ash
+50001 Sellsword Luet - Undead Settlement
 99999 ### Enemies ###
 100000 Bonfire
 100010 Bullet Owner

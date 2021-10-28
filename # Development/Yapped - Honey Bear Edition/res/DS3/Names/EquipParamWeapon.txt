@@ -1,8 +1,6 @@
 1000 No Correction
 9999 ### NPC Weapons ###
 10000 Bloodlust
-10100 Uchigatana
-10200 Fume Ultra Greatsword
 10300 Beast Claws
 11000 Bewitched Alonne Sword
 13000 Ciaran's Tracers
@@ -27,7 +25,7 @@
 21000 Ritual Spear Fragment
 21300 Holy Water Urn
 21400 Throwing Frying Pan
-21500 Spellbound Tools
+21500 Bloodthirsty Tools
 90999 ### Test Data ###
 91000 [Load Check] memory Check 1
 91100 [Load Check] memory Check 1

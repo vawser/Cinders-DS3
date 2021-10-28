@@ -6695,9 +6695,9 @@ Event(20090020, Default, function(X0_4, X4_4) {
 
 //-------------------------------------------
 // Phantom - Setup Summon
-// <obj id>, <summoned flag>, <boss flag>
+// <obj id>, <summoned flag>, <boss flag>, <action param>
 //-------------------------------------------
-Event(20090100, Default, function(X0_4, X4_4, X8_4) {
+Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     
     // Reset summoned flag
@@ -6715,7 +6715,7 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
     
     // Player has used prompt
-    IfActionButtonInArea(MAIN, 60000, X0_4);
+    IfActionButtonInArea(MAIN, X12_4, X0_4);
     
     DeactivateObject(X4_4, Disabled);
     
@@ -6724,7 +6724,7 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4) {
 
 //-------------------------------------------
 // Phantom - Setup Phantom
-// <entity id>, <summoned flag>, <gesture>
+// <entity id>, <summoned flag>, <gesture>, <msg>
 //-------------------------------------------
 Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);

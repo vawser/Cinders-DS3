@@ -222,6 +222,9 @@
 40140 Harald Knight
 40150 Ringed Knight
 40160 Hollow Cleric
+49999 ### Summons ###
+50000 Sellsword Luet - Cemetery of Ash
+50001 Sellsword Luet - Undead Settlement
 89999 ### Enemies ###
 90390 Dungeon Objects (for bullet owners)
 101000 Gyrm
@@ -725,9 +728,9 @@
 309000 Caged Hollow
 309001 Caged Hollow - TOG
 309010 Caged Hollow
-310000 Giant Crystal Lizard
-310001 Giant Crystal Lizard - TOG
-310050 Giant Crystal Lizard
+310000 Ravenous Crystal Lizard
+310001 Ravenous Crystal Lizard - TOG
+310050 Ravenous Crystal Lizard
 311000 Deep Acursed
 311001 Deep Acursed - TOG
 312000 Elder Ghru
@@ -763,7 +766,7 @@
 502200 [Boss] Demon Prince (Orb)
 502300 Crimson Bat
 503000 [Boss] King of the Storm
-511000 [Boss] Iudex Gundyr
+511000 [Boss] Corrupted Gundyr
 511080 [Boss] Iudex Gundyr (Throwing)
 511090 [Boss] Iudex Gundyr
 511091 [Boss] Iudex Gundyr

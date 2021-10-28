@@ -1,8 +1,8 @@
 1199999 ### Sorcery ###
 1200000 Farron Dart
 1200006 Farron Dart [Luck]
-1200010 Spellbound Farron Dart
-1200016 Spellbound Farron Dart [Luck]
+1200010 Bloodthirsty Farron Dart
+1200016 Bloodthirsty Farron Dart [Luck]
 1210000 Scattering Soul Orb
 1210006 Scattering Soul Orb [Luck]
 1210010 Repeating Soul Orb
@@ -103,8 +103,8 @@
 1374016 Heavy Soul Greatsword [Luck]
 1375000 Farron Flashsword
 1375006 Farron Flashsword [Luck]
-1375010 Spellbound Flashsword
-1375016 Spellbound Flashsword [Luck]
+1375010 Bloodthirsty Flashsword
+1375016 Bloodthirsty Flashsword [Luck]
 1376000 Old Moonlight
 1376006 Old Moonlight [Luck]
 1376010 Heavy Old Moonlight
@@ -149,6 +149,30 @@
 1807006 Blinding Light [Luck]
 1807010 Refined Blinding Light
 1807016 Refined Blinding Light [Luck]
+1808000 Frigid Tumult
+1808006 Frigid Tumult [Luck]
+1808010 Frigid Roar
+1808016 Frigid Roar [Luck]
+1808100 Hail of Blades
+1808106 Hail of Blades [Luck]
+1808110 Focused Hail of Blades
+1808116 Focused Hail of Blades [Luck]
+1808200 Piercing Ice
+1808206 Piercing Ice [Luck]
+1808210 Explosive Ice
+1808216 Explosive Ice [Luck]
+1808300 Rime
+1808306 Rime [Luck]
+1808310 Chilling Rime
+1808316 Chilling Rime [Luck]
+1808400 Path of Frost
+1808406 Path of Frost [Luck]
+1808410 Refined Path of Frost
+1808416 Refined Path of Frost [Luck]
+1808500 Discs of Dorthinus
+1808506 Discs of Dorthinus [Luck]
+1808510 Quickened Discs of Dorthinus
+1808511 Quickened Discs of Dorthinus [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]
@@ -164,8 +188,8 @@
 2403016 Repeating Firestorm [Luck]
 2405000 Fire Surge
 2405006 Fire Surge [Luck]
-2405010 Spellbound Fire Surge
-2405016 Spellbound Fire Surge [Luck]
+2405010 Bloodthirsty Fire Surge
+2405016 Bloodthirsty Fire Surge [Luck]
 2411000 Great Combustion
 2411006 Great Combustion [Luck]
 2411010 Incendiary Combustion
@@ -228,8 +252,8 @@
 2457016 Lingering Floating Chaos [Luck]
 2458000 Flame Fan
 2458006 Flame Fan [Luck]
-2458010 Spellbound Flame Fan
-2458016 Spellbound Flame Fan [Luck]
+2458010 Bloodthirsty Flame Fan
+2458016 Bloodthirsty Flame Fan [Luck]
 2470000 Warmth
 2470006 Warmth [Luck]
 2470010 Fond Warmth
@@ -248,8 +272,8 @@
 2630016 Swift Boulder Heave [Luck]
 2640000 Sacred Flame
 2640006 Sacred Flame [Luck]
-2640010 Spellbound Sacred Flame
-2640016 Spellbound Sacred Flame [Luck]
+2640010 Bloodthirsty Sacred Flame
+2640016 Bloodthirsty Sacred Flame [Luck]
 2650000 Carthus Beacon
 2650006 Carthus Beacon [Luck]
 2650010 Lingering Carthus Beacon
@@ -260,8 +284,8 @@
 2660016 Great Seething Chaos [Luck]
 2701000 Lingering Chaos
 2701006 Lingering Chaos [Luck]
-2701010 Spellbound Lingering Chaos
-2701016 Spellbound Lingering Chaos [Luck]
+2701010 Bloodthirsty Lingering Chaos
+2701016 Bloodthirsty Lingering Chaos [Luck]
 2702000 Cataclysm
 2702006 Cataclysm [Luck]
 2702010 Great Cataclysm

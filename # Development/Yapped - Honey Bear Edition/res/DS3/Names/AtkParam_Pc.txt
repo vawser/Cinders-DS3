@@ -56,36 +56,36 @@
 1031 Rope Black Firebomb
 1040 Set-up Firebomb
 1050 Kukri
-1110 Spellbound Throwing Knife - Normal
-1111 Spellbound Throwing Knife - Magic
-1112 Spellbound Throwing Knife - Fire
-1113 Spellbound Throwing Knife - Lightning
-1114 Spellbound Throwing Knife - Dark
-1115 Spellbound Throwing Knife - Curse
-1116 Spellbound Throwing Knife - Poison
-1117 Spellbound Throwing Knife - Bleed
-1118 Spellbound Throwing Knife - Frost
-1119 Spellbound Frying Pan
-1120 Spellbound Firebomb
-1121 Spellbound Black Firebomb
-1122 Spellbound Lightning Urn
-1123 Spellbound Lightning Urn [Hit]
-1124 Spellbound Holy Water Urn
-1125 Spellbound Witching Urn
-1126 Spellbound Hexing Urn
-1205 Spellbound Guardian Shiv
-1210 Spellbound Set-up Firebomb
+1110 Bloodthirsty Throwing Knife - Normal
+1111 Bloodthirsty Throwing Knife - Magic
+1112 Bloodthirsty Throwing Knife - Fire
+1113 Bloodthirsty Throwing Knife - Lightning
+1114 Bloodthirsty Throwing Knife - Dark
+1115 Bloodthirsty Throwing Knife - Curse
+1116 Bloodthirsty Throwing Knife - Poison
+1117 Bloodthirsty Throwing Knife - Bleed
+1118 Bloodthirsty Throwing Knife - Frost
+1119 Bloodthirsty Frying Pan
+1120 Bloodthirsty Firebomb
+1121 Bloodthirsty Black Firebomb
+1122 Bloodthirsty Lightning Urn
+1123 Bloodthirsty Lightning Urn [Hit]
+1124 Bloodthirsty Holy Water Urn
+1125 Bloodthirsty Witching Urn
+1126 Bloodthirsty Hexing Urn
+1205 Bloodthirsty Guardian Shiv
+1210 Bloodthirsty Set-up Firebomb
 1300 Dragon Head Stone
 1310 Dragon Torso Stone
-1320 Spellbound Draconic Fire
+1320 Bloodthirsty Draconic Fire
 1321 Twinkling Dragon Head Stone [Hit]
-1322 Spellbound Draconic Fire Orbs
-1330 Spellbound Draconic Might [Hit]
-1331 Spellbound Draconic Fury [Hit]
-1332 Spellbound Draconic Fury
-1333 Spellbound Draconic Fury
-1334 Spellbound Draconic Fury [Hit] - Forward Fire Burst
-1335 Spellbound Draconic Fury [Hit] - Wide Scattered Ground Fire
+1322 Bloodthirsty Draconic Fire Orbs
+1330 Bloodthirsty Draconic Might [Hit]
+1331 Bloodthirsty Draconic Fury [Hit]
+1332 Bloodthirsty Draconic Fury
+1333 Bloodthirsty Draconic Fury
+1334 Bloodthirsty Draconic Fury [Hit] - Forward Fire Burst
+1335 Bloodthirsty Draconic Fury [Hit] - Wide Scattered Ground Fire
 1400 Alluring Skull
 2000 Standard Arrow
 2010 Standard Arrow
@@ -5074,8 +5074,8 @@
 11374210 [Sorcery] Heavy Soul Greatsword - Left
 11375000 [Sorcery] Farron Flashsword - Right
 11375100 [Sorcery] Farron Flashsword - Left
-11375200 [Sorcery] Spellbound Flashsword - Right
-11375210 [Sorcery] Spellbound Flashsword - Left
+11375200 [Sorcery] Bloodthirsty Flashsword - Right
+11375210 [Sorcery] Bloodthirsty Flashsword - Left
 11376000 [Sorcery] Old Moonlight
 11376001 [Sorcery] Old Moonlight [HitBullet]
 11376010 [Sorcery] Old Moonlight - Sword - Right
@@ -5453,6 +5453,26 @@
 19559003 [Miracle] Gravelord Sword Dance [Hit]
 19559100 [Miracle] Gravelord Sword
 19559110 [Miracle] Gravelord Sword
+19560100 [Sorcery] Frigid Tumult
+19560101 [Sorcery] Frigid Tumult [Hit]
+19560102 [Sorcery] Frigid Tumult [Hit]
+19560200 [Sorcery] Hail of Blades
+19560201 [Sorcery] Hail of Blades [Emitter]
+19560202 [Sorcery] Hail of Blades [Hit]
+19560203 [Sorcery] Hail of Blades
+19560204 [Sorcery] Hail of Blades [Emitter]
+19560205 [Sorcery] Hail of Blades [Hit]
+19560300 [Sorcery] Piercing Ice
+19560310 [Sorcery] Explosive Ice
+19560311 [Sorcery] Explosive Ice [Hit]
+19560400 [Sorcery] Rime
+19560410 [Sorcery] Chilling Rime
+19560500 [Sorcery] Path of Frost
+19560501 [Sorcery] Path of Frost [Hit]
+19560510 [Sorcery] Path of Frost - Explosion
+19560600 [Sorcery] Discs of Dorthinus
+19560601 [Sorcery] Discs of Dorthinus - Linger
+19560602 [Sorcery] Discs of Dorthinus - Explosion
 210006010 Crystal Ring Shield - Unleash Moonlight
 220003000 Young Dragon Ring - Homing Soulmass
 220003001 Young Dragon Ring - Homing Soulmass

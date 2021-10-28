@@ -305,7 +305,7 @@
 15701 [Disciple of Alsanna] Ivory King Armor
 15702 [Disciple of Alsanna] Ivory King Gauntlets
 15703 [Disciple of Alsanna] Ivory King Leggings
-15800 [Pot King Greg] Spellbound Frying Pan
+15800 [Pot King Greg] Bloodthirsty Frying Pan
 50391 ### Treasure - NPC
 50400 [Yuria of Londor] Darkdrift
 50600 [Company Captain Yorshka] Blade of the Darkmoon
@@ -548,6 +548,12 @@
 80360 [Sorcery] Mass Hidden Body
 80370 [Sorcery] Refined Chameleon
 80380 [Sorcery] Refined Cast Light
+80390 [Sorcery] Frigid Roar
+80400 [Sorcery] Focused Hail of Blades
+80410 [Sorcery] Explosive Ice
+80420 [Sorcery] Chilling Rime
+80430 [Sorcery] Refined Path of Frost
+80440 [Sorcery] Quickened Discs of Dorthinus
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
@@ -669,7 +675,7 @@
 89999 ### Script - Relationship
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
-90020 [Gift - Bonk Jail] Spellbound Dung
+90020 [Gift - Bonk Jail] Bloodthirsty Dung
 90021 [Gift - Bonk Jail] Brightbug
 90030 [Gift - Rosaria] Brightbug
 90040 [Gift - Archdeacon McDonnell] Abyssal Fragment
@@ -2036,13 +2042,13 @@
 4500030 [Corpse] Soul of a Nameless Soldier
 4500031 [Corpse] Frozen Pine Resin
 4500040 [Corpse] Large Soul of a Nameless Soldier
-4500041 [Corpse] Divine Blessing
+4500041 [Corpse] Piercing Ice
 4500050 [Corpse] Soul of a Nameless Soldier
 4500051 [Corpse] Alluring Skull
 4500060 [Corpse] Soul of a Weary Warrior
 4500061 [Corpse] Witching Urn
 4500070 [Corpse] Soul of a Nameless Soldier
-4500071 [Corpse] Large Titanite Shard
+4500071 [Corpse] Frigid Tumult
 4500080 [Corpse] Soul of a Nameless Soldier
 4500081 [Corpse] Elizabeth Mushroom
 4500090 [Corpse] Soul of a Nameless Soldier

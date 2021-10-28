@@ -8,7 +8,7 @@
 
 Project illusory blades whichseek their targets and deal 300 physical damage.
 Does not scale with any stat.
-This item draws upon the blood of foes, allowing for endless usage.
+This item draws upon the blood of foes, requiring 20 Bloodthirst charges to use. Charges are gained via most melee attacks and specific spells and items.
 
 Guardians of the Church, of whom few remain,
 watch over Princess Filianore's eternal slumber
@@ -95,7 +95,7 @@ held by the knights of Princess Filianore.
 
 These Divine Spears of gold were placed in
 the trusted hands of exalted Spears.
-This item draws upon the blood of foes, allowing for endless usage.
+This item draws upon the blood of foes, requiring 60 Bloodthirst charges to use. Charges are gained via most melee attacks and specific spells and items.
 Deals 1050 and 867 lightning damage.
 Does not scale with any stat.
 
@@ -159,7 +159,7 @@ This semi-precious gem honors a Spear of Church after a battle well-fought, and 
 Restores 3 HP every second, boosts stamina recovery by 10 and all absorptions by 10% for 120 seconds.
 Effect duration can be extended.
 Can only be used whilst the Spears of the Church covenant emblem is equipped.
-This item draws upon the blood of foes, allowing for endless usage.</text>
+This item draws upon the blood of foes, requiring 60 Bloodthirst charges to use. Charges are gained via most melee attacks and specific spells and items.</text>
 <text id="10000">%null%</text>
 <text id="10001">%null%</text>
 <text id="10002">%null%</text>
@@ -283,8 +283,8 @@ of the feeble ones. </text>
 pyromancers.
 
 Use repeatedly to brush the fan of flame left
-and right.
-Spellbound items appear to react to the damage dealt with this spell.
+and right. 
+Grants 5 Bloodthirst charges.
 
 Zoey possessed true beauty, as did all the
 desert pyromancers, but hers did not poison,

@@ -28,11 +28,11 @@
 2404 [Gift] Black Firebomb (10)
 2405 [Gift] Old Radiant Lifegem (3)
 2406 [Gift] Rouge Water (5)
-2407 [Gift] Spellbound Throwing Knife
-2408 [Gift] Spellbound Sorcerous Knife
-2409 [Gift] Spellbound Flaming Knife
-2410 [Gift] Spellbound Sparking Knife
-2411 [Gift] Spellbound Abyssal Knife
+2407 [Gift] Bloodthirsty Throwing Knife
+2408 [Gift] Bloodthirsty Sorcerous Knife
+2409 [Gift] Bloodthirsty Flaming Knife
+2410 [Gift] Bloodthirsty Sparking Knife
+2411 [Gift] Bloodthirsty Abyssal Knife
 2500 Nothing
 2501 Life Ring
 2502 Divine Blessing
@@ -217,7 +217,7 @@
 28600 Court Sorcerer [Profaned Capital]
 28700 Havel the Rock [Archdragon Peak]
 28800 Drakeblood Knight [Archdragon Peak]
-28900 Unkindled Ricard
+28900 Unkindled Ricard [Archdragon Peak]
 29000 Drang Knight - Hammers [Irithyll]
 29100 Drang Knight - Spears [Irithyll]
 29200 Knight Slayer Tsorig [Smouldering Lake]
@@ -285,6 +285,9 @@
 36100 The Child [Smouldering Lake]
 39999 ### Companions ###
 40110 Solaire of Astora
+49999 ### Summons ###
+50000 Sellsword Luet - Cemetery of Ash
+50001 Sellsword Luet - Undead Settlement
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight

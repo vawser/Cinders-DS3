@@ -73,6 +73,7 @@
 50000 Interaction Point - Seek Blessing
 50001 Interaction Point - Harvest
 50002 Interaction Point - Extract Draconic Essence
+60000 Summon - Sellsword Luet
 3000250 For the treasure corpse that broke from the vase
 3001800 Entering the wall of light (Ojo 1 Full Armor Beast)
 3001830 Entering the wall of light (Ojo 1 dragon)
@@ -104,9 +105,9 @@
 3801800 Entering the wall of light (disused city _ Hallec)
 3801830 Entering the wall of light (waste city _ sand Worm)
 3801860 Entering the wall of light (disused city _ the demon of Ashes)
-3901800 Entering the wall of Light (Dungeon)
-4001800 Entering the wall of Light (base)
-4001830 Entering the wall of Light (base)
+3901800 Entering the wall of Ligh
+4001800 Fogwall - Corrupted Gundyr
+4001830 Fogwall - Champion Gundyr
 4001850 Fogwall - The Marauder
 4001860 Entering the wall of light (stronghold _ Russ Boss)
 4501860 Princess Yngvil - Fog Wall

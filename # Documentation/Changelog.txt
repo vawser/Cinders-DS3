@@ -63,7 +63,6 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
-
 # Bosses:
 - Marauder:
  - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
@@ -111,7 +110,7 @@ Finish following weapons:
 - Moved Mournful Flames to be transposed with the Soul of Sister Friede.
 - Moved Scattering Crystal Orb to be unlocked with Logan's Scroll.
 - Changed the stats of most spells.
-- Ascended 'Refined' offensive spells are now 'Spellbound' and give spellbound charges on hit.
+- Ascended 'Refined' offensive spells are now 'Bloodthirsty' and give bloodthirst charges on hit.
 - Most spell buffs now reduce max FP for their duration.
 - Reduced the duration of the Poison/Toxic Mist effects to 30 seconds.
 - Reduced the duration of Fortified Rapport to 30 seconds and increased the absorption buff to 75%.
@@ -130,21 +129,24 @@ Finish following weapons:
 - Reduced the HP loss per swing from the Chaos Blade to 1.5% (was 3%).
 
 # Infusions:
-- Weapon magic infusion now gains additional spellbound charges on hit.
+- Weapon magic infusion now gains additional bloodthirst charges on hit.
 - Increased the spell FP cost reduction of the Throbbing infusion to 20%.
 - Increased the FP cost reduction of the Lucidity infusion to 10%.
 
 # Rings:
 - Spirit Amethyst now boosts the damage of all spells by 7.5%/8.5%/9.5%/10.5%/11.5%/12.5%.
 - Dusk Crown Ring reduces all spell FP cost by 40% and reduces max HP by 30%/26%/22%/18%/14%/10%.
-- Pontiff's Left Eye now grants additional spellbound charges with successive attacks.
-- Aldrich's Sapphire now grants additional spellbound charges on a successful critical attack.
+- Pontiff's Left Eye now grants additional bloodthirst charges with successive attacks.
+- Aldrich's Sapphire now grants additional bloodthirst charges on a successful critical attack.
 - Added Scroll of Ethereality: grants tomb ghost form and boosts physical absorption by 5%. Sold by Alchemist Jiji.
 - Added Scroll of Hollowing: grants hollow form and boosts defences by 10%. Sold by Alchemist Jiji.
 - Added Scroll of Humanity: grants human form and boosts max stamina by 5%. Sold by Alchemist Jiji.
 - Added Scroll of Cooperation: grants white phantom form and boosts max HP by 5%. Sold by Alchemist Jiji.
 
-# Consumable Items:
+# Items:
+- Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
+- Added a small passive gain of Bloodthirst charges.
+- Made the Bloodthirst charge gain/cost clear in the descriptions of items that interact with the mechanic.
 - Rouge/Crimson Water now boost FP recovery for 60 seconds.
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
 
@@ -166,7 +168,8 @@ Finish following weapons:
  - Now sells the Manikin Claws.
 
 # Phantoms:
-- Added Sellsword Luet as a summonable phantom for Cemetery of Ash.
+- Added Sellsword Luet as a summonable phantom in Cemetery of Ash.
+- Added Sellsword Luet as a summonable phantom in Undead Settlement.
 
 # Intruders:
 - Pursuer: now has a custom AI.
@@ -246,3 +249,4 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
+# Phantoms

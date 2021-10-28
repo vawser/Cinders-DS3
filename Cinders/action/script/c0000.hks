@@ -16463,6 +16463,7 @@ function Update()
     -- Cinders
     AnimationMonitor()
     UpdateFP()
+    UpdateBloodthirstCharges()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
     UpdateVitalityMasteryEffect()
@@ -16726,6 +16727,25 @@ function UpdateFP()
                 end
             end
         end
+    end
+end
+
+-- Bloodthirst Charges
+function UpdateBloodthirstCharges()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
+    local cooldown = false
+    
+    if env(1116, 113500) == TRUE then
+        cooldown = true
+    end
+    
+    if cooldown == false then
+        act(2002, 113500) -- Base Interval
+        act(2002, 113501) -- Baseline Regen
     end
 end
 

@@ -1226,6 +1226,7 @@
 99913010 Lordran Remnants: Spirit Form
 99913020 Lordran Remnants: Active Form
 99913100 Prince Dorthinus - Eye VFX
+99913101 Prince Dorthinus - Eye VFX - Phase 2
 99913500 Wax Head
 99913510 Maggots
 99914000 Weapon: Curse Aura
@@ -1271,6 +1272,7 @@
 99950011 Phantom: Mad Purple
 99950012 Phantom: Peach
 99950013 Phantom: Black Spirit
+99950014 Phantom: Illusion
 99950020 Perfect Block
 99951000 Mimic - Crown of Illusions Invisibility
 99953000 Mass of Humanity

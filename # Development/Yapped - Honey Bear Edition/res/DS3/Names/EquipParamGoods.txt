@@ -98,7 +98,7 @@
 304 Duel Charm
 310 Throwing Knife
 311 Poisonous Knife
-315 Spellbound Guardian Shiv
+315 Bloodthirsty Guardian Shiv
 320 Sorcerous Knife
 321 Flaming Knife
 322 Sparking Knife
@@ -185,7 +185,7 @@
 523 I'm sorry Carving
 524 Help me! Carving
 650 Ritual Spear Fragment
-651 Spellbound Spear Fragment
+651 Bloodthirsty Spear Fragment
 700 Soul of Corrupted Gundyr
 701 Soul of the Ancient Wyvern
 702 Soul of the Lordran Remnants
@@ -360,7 +360,7 @@
 2156 Small Envoy Banner
 2157 Old Woman's Ashes
 2158 Blood of the Dark Soul
-2159 Spellbound Grass Dew
+2159 Bloodthirsty Grass Dew
 2160 Brightbug
 2162 Petrified Something
 2163 Lizard Hide
@@ -431,10 +431,10 @@
 4018 Moonflower
 4019 Henbane
 4020 Smouldering Stone
-4100 Spellbound Draconic Fire
-4101 Spellbound Draconic Might
-4110 Spellbound Draconic Fire Orbs
-4111 Spellbound Draconic Fury
+4100 Bloodthirsty Draconic Fire
+4101 Bloodthirsty Draconic Might
+4110 Bloodthirsty Draconic Fire Orbs
+4111 Bloodthirsty Draconic Fury
 4200 Soul of a Fallen Paladin
 4201 Soul of a Fallen Sentinel
 4202 Soul of a Fallen Sage
@@ -544,39 +544,39 @@
 5199 ### Companions ###
 5300 Opus of Rituals
 5399 ### Tools ###
-5400 Spellbound Firebomb
-5401 Spellbound Black Firebomb
-5402 Spellbound Holy Water Urn
-5403 Spellbound Witching Urn
-5404 Spellbound Hexing Urn
-5405 Spellbound Set-up Firebomb
-5410 Spellbound Lightning Urn
-5420 Spellbound Throwing Knife
-5421 Spellbound Sorcerous Knife
-5422 Spellbound Flaming Knife
-5423 Spellbound Sparking Knife
-5424 Spellbound Abyssal Knife
-5425 Spellbound Poisonous Knife
-5426 Spellbound Lacerating Knife
-5427 Spellbound Cursed Knife
-5428 Spellbound Frigid Knife
-5429 Spellbound Frying Pan
-5430 Spellbound Kukri
-5440 Spellbound Dung
-5450 Spellbound Skull
-5460 Spellbound Blossom
-5470 Spellbound Powder
-5480 Spellbound Charcoal Resin
-5481 Spellbound Pale Resin
-5482 Spellbound Gold Resin
-5483 Spellbound Human Resin
-5484 Spellbound Rotten Resin
-5485 Spellbound Carthus Rouge
-5486 Spellbound Frozen Resin
-5487 Spellbound Cursed Resin
-5488 Spellbound Blessed Resin
-5490 Spellbound Pellet
-5491 Spellbound Mossfruit
+5400 Bloodthirsty Firebomb
+5401 Bloodthirsty Black Firebomb
+5402 Bloodthirsty Holy Water Urn
+5403 Bloodthirsty Witching Urn
+5404 Bloodthirsty Hexing Urn
+5405 Bloodthirsty Set-up Firebomb
+5410 Bloodthirsty Lightning Urn
+5420 Bloodthirsty Throwing Knife
+5421 Bloodthirsty Sorcerous Knife
+5422 Bloodthirsty Flaming Knife
+5423 Bloodthirsty Sparking Knife
+5424 Bloodthirsty Abyssal Knife
+5425 Bloodthirsty Poisonous Knife
+5426 Bloodthirsty Lacerating Knife
+5427 Bloodthirsty Cursed Knife
+5428 Bloodthirsty Frigid Knife
+5429 Bloodthirsty Frying Pan
+5430 Bloodthirsty Kukri
+5440 Bloodthirsty Dung
+5450 Bloodthirsty Skull
+5460 Bloodthirsty Blossom
+5470 Bloodthirsty Powder
+5480 Bloodthirsty Charcoal Resin
+5481 Bloodthirsty Pale Resin
+5482 Bloodthirsty Gold Resin
+5483 Bloodthirsty Human Resin
+5484 Bloodthirsty Rotten Resin
+5485 Bloodthirsty Carthus Rouge
+5486 Bloodthirsty Frozen Resin
+5487 Bloodthirsty Cursed Resin
+5488 Bloodthirsty Blessed Resin
+5490 Bloodthirsty Pellet
+5491 Bloodthirsty Mossfruit
 5499 ### Items ###
 5500 Titanite Fragment
 5501 Inferi Petal
@@ -1091,7 +1091,7 @@
 40002 Accessory Token
 1199999 ### Sorcery ###
 1200000 Farron Dart
-1200010 Spellbound Farron Dart
+1200010 Bloodthirsty Farron Dart
 1210000 Scattering Soul Orb
 1210010 Repeating Soul Orb
 1300000 Soul Arrow
@@ -1142,7 +1142,7 @@
 1374000 Soul Greatsword
 1374010 Heavy Soul Greatsword
 1375000 Farron Flashsword
-1375010 Spellbound Flashsword
+1375010 Bloodthirsty Flashsword
 1376000 Old Moonlight
 1376010 Heavy Old Moonlight
 1620000 Soul Stream
@@ -1165,6 +1165,18 @@
 1805010 Swift Orbs of Judgment
 1807000 Blinding Light
 1807010 Refined Blinding Light
+1808000 Frigid Tumult
+1808010 Frigid Roar
+1808100 Hail of Blades
+1808110 Focused Hail of Blades
+1808200 Piercing Ice
+1808210 Explosive Ice
+1808300 Rime
+1808310 Chilling Rime
+1808400 Path of Frost
+1808410 Refined Path of Frost
+1808500 Discs of Dorthinus
+1808510 Quickened Discs of Dorthinus
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Incendiary Fireball
@@ -1173,7 +1185,7 @@
 2403000 Firestorm
 2403010 Repeating Firestorm
 2405000 Fire Surge
-2405010 Spellbound Fire Surge
+2405010 Bloodthirsty Fire Surge
 2411000 Great Combustion
 2411010 Incendiary Combustion
 2420000 Poison Mist
@@ -1205,7 +1217,7 @@
 2457000 Floating Chaos
 2457010 Lingering Floating Chaos
 2458000 Flame Fan
-2458010 Spellbound Flame Fan
+2458010 Bloodthirsty Flame Fan
 2470000 Warmth
 2470010 Fond Warmth
 2562000 Profuse Sweat
@@ -1215,7 +1227,7 @@
 2630000 Boulder Heave
 2630010 Swift Boulder Heave
 2640000 Sacred Flame
-2640010 Spellbound Sacred Flame
+2640010 Bloodthirsty Sacred Flame
 2650000 Carthus Beacon
 2650010 Lingering Carthus Beacon
 2660000 Seething Chaos

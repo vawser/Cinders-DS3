@@ -121,8 +121,8 @@
 22703 [Dragon Remnants] Tailbone Club
 22704 [Dragon Remnants] Drake Fist
 22705 [Dragon Remnants] Dragonkin Shield
-22706 [Dragon Remnants] Spellbound Draconic Fire
-22707 [Dragon Remnants] Spellbound Draconic Might
+22706 [Dragon Remnants] Bloodthirsty Draconic Fire
+22707 [Dragon Remnants] Bloodthirsty Draconic Might
 22708 [Dragon Remnants] Dragon Head Stone
 22709 [Dragon Remnants] Dragon Torso Stone
 22710 [Dragon Remnants] Lethal Gem
@@ -132,8 +132,8 @@
 22716 [Dragon Remnants] Black Dragon Armor
 22717 [Dragon Remnants] Black Dragon Gauntlets
 22718 [Dragon Remnants] Black Dragon Leggings
-22719 [Dragon Remnants] Spellbound Draconic Fire Orbs
-22720 [Dragon Remnants] Spellbound Draconic Fury
+22719 [Dragon Remnants] Bloodthirsty Draconic Fire Orbs
+22720 [Dragon Remnants] Bloodthirsty Draconic Fury
 22800 [Way of White] Holy Gem
 22801 [Way of White] Divine Blessing
 22802 [Way of White] Hidden Blessing
@@ -266,6 +266,7 @@
 30192 [Ludleth - Sister Freide] Black Flame Arc
 30193 [Ludleth - Sister Freide] Blizzard
 30194 [Ludleth - Sister Freide] Mournful Flames
+30195 [Ludleth - Sister Freide] Hail of Blades
 30200 [Ludleth - Lordran Remnants] Dragonslayer Spear
 30201 [Ludleth - Lordran Remnants] Ciaran's Tracers
 30203 [Ludleth - Lordran Remnants] Leo Ring
@@ -311,12 +312,15 @@
 30391 [Ludleth - Princess Yngvil] Wretched Pendant
 30392 [Ludleth - Princess Yngvil] Frostflower Ring
 30393 [Ludleth - Princess Yngvil] Ivory King Ultra Greatsword
+30394 [Ludleth - Princess Yngvil] Rime
 30400 [Ludleth - Twisted Knight] Cursed Ring of Evasion
 30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
 30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
 30403 [Ludleth - Twisted Knight] Cursed Ring of Confusion
 30420 [Ludleth - Prince Dorthinus] Sacred Chime Hammer
 30421 [Ludleth - Prince Dorthinus] Fool's Sigil
+30422 [Ludleth - Prince Dorthinus] Discs of Dorthinus
+30423 [Ludleth - Prince Dorthinus] Path of Frost
 30430 [Ludleth - Fallen Protector] Blueblood Sword
 30431 [Ludleth - Fallen Protector] Quicksilver Shield
 30432 [Ludleth - Fallen Protector] Life Ring
@@ -1575,37 +1579,37 @@
 280015 [Ritualist Ellie] Offering of Devotion
 280016 [Ritualist Ellie] Offering of Fervor
 280100 [Ritualist Ellie] Opus of Rituals
-290000 [Occultist Grudore] Spellbound Firebomb
-290001 [Occultist Grudore] Spellbound Throwing Knife
-290002 [Occultist Grudore] Spellbound Set-up Firebomb
-290020 [Occultist Grudore - Farron Coal] Spellbound Blossom
-290021 [Occultist Grudore - Farron Coal] Spellbound Flaming Knife
-290022 [Occultist Grudore - Farron Coal] Spellbound Poisonous Knife
-290023 [Occultist Grudore - Farron Coal] Spellbound Black Firebomb
-290024 [Occultist Grudore - Farron Coal] Spellbound Charcoal Resin
-290025 [Occultist Grudore - Farron Coal] Spellbound Rotten Resin
-290040 [Occultist Grudore - Sage's Coal] Spellbound Powder
-290041 [Occultist Grudore - Sage's Coal] Spellbound Skull
-290042 [Occultist Grudore - Sage's Coal] Spellbound Sorcerous Knife
-290043 [Occultist Grudore - Sage's Coal] Spellbound Frigid Knife
-290044 [Occultist Grudore - Sage's Coal] Spellbound Witching Urn
-290045 [Occultist Grudore - Sage's Coal] Spellbound Pale Resin
-290046 [Occultist Grudore - Sage's Coal] Spellbound Frozen Resin
-290060 [Occultist Grudore - Giant's Coal] Spellbound Lightning Urn
-290061 [Occultist Grudore - Giant's Coal] Spellbound Sparking Knife
-290062 [Occultist Grudore - Giant's Coal] Spellbound Holy Water Urn
-290063 [Occultist Grudore - Giant's Coal] Spellbound Gold Resin
-290064 [Occultist Grudore - Giant's Coal] Spellbound Mossfruit
-290065 [Occultist Grudore - Giant's Coal] Spellbound Pellet
-290066 [Occultist Grudore - Giant's Coal] Spellbound Blessed Resin
-290080 [Occultist Grudore - Profaned Coal] Spellbound Dung
-290081 [Occultist Grudore - Profaned Coal] Spellbound Abyssal Knife
-290082 [Occultist Grudore - Profaned Coal] Spellbound Cursed Knife
-290083 [Occultist Grudore - Profaned Coal] Spellbound Hexing Urn
-290084 [Occultist Grudore - Profaned Coal] Spellbound Human Resin
-290085 [Occultist Grudore - Profaned Coal] Spellbound Lacerating Knife
-290086 [Occultist Grudore - Profaned Coal] Spellbound Carthus Rouge
-290087 [Occultist Grudore - Profaned Coal] Spellbound Cursed Resin
+290000 [Occultist Grudore] Bloodthirsty Firebomb
+290001 [Occultist Grudore] Bloodthirsty Throwing Knife
+290002 [Occultist Grudore] Bloodthirsty Set-up Firebomb
+290020 [Occultist Grudore - Farron Coal] Bloodthirsty Blossom
+290021 [Occultist Grudore - Farron Coal] Bloodthirsty Flaming Knife
+290022 [Occultist Grudore - Farron Coal] Bloodthirsty Poisonous Knife
+290023 [Occultist Grudore - Farron Coal] Bloodthirsty Black Firebomb
+290024 [Occultist Grudore - Farron Coal] Bloodthirsty Charcoal Resin
+290025 [Occultist Grudore - Farron Coal] Bloodthirsty Rotten Resin
+290040 [Occultist Grudore - Sage's Coal] Bloodthirsty Powder
+290041 [Occultist Grudore - Sage's Coal] Bloodthirsty Skull
+290042 [Occultist Grudore - Sage's Coal] Bloodthirsty Sorcerous Knife
+290043 [Occultist Grudore - Sage's Coal] Bloodthirsty Frigid Knife
+290044 [Occultist Grudore - Sage's Coal] Bloodthirsty Witching Urn
+290045 [Occultist Grudore - Sage's Coal] Bloodthirsty Pale Resin
+290046 [Occultist Grudore - Sage's Coal] Bloodthirsty Frozen Resin
+290060 [Occultist Grudore - Giant's Coal] Bloodthirsty Lightning Urn
+290061 [Occultist Grudore - Giant's Coal] Bloodthirsty Sparking Knife
+290062 [Occultist Grudore - Giant's Coal] Bloodthirsty Holy Water Urn
+290063 [Occultist Grudore - Giant's Coal] Bloodthirsty Gold Resin
+290064 [Occultist Grudore - Giant's Coal] Bloodthirsty Mossfruit
+290065 [Occultist Grudore - Giant's Coal] Bloodthirsty Pellet
+290066 [Occultist Grudore - Giant's Coal] Bloodthirsty Blessed Resin
+290080 [Occultist Grudore - Profaned Coal] Bloodthirsty Dung
+290081 [Occultist Grudore - Profaned Coal] Bloodthirsty Abyssal Knife
+290082 [Occultist Grudore - Profaned Coal] Bloodthirsty Cursed Knife
+290083 [Occultist Grudore - Profaned Coal] Bloodthirsty Hexing Urn
+290084 [Occultist Grudore - Profaned Coal] Bloodthirsty Human Resin
+290085 [Occultist Grudore - Profaned Coal] Bloodthirsty Lacerating Knife
+290086 [Occultist Grudore - Profaned Coal] Bloodthirsty Carthus Rouge
+290087 [Occultist Grudore - Profaned Coal] Bloodthirsty Cursed Resin
 300000 [Erstwhile George] Gallant Helm
 300001 [Erstwhile George] Gallant Armor
 300002 [Erstwhile George] Gallant Gloves
@@ -3375,6 +3379,18 @@
 803309 [Gauntlet Spell] Supreme Pulsating Blade
 803310 [Gauntlet Spell] Pungent Blade
 803311 [Gauntlet Spell] Supreme Pungent Blade
+803312 [Gauntlet Spell] Frigid Tumult
+803313 [Gauntlet Spell] Frigid Roar
+803314 [Gauntlet Spell] Hail of Blades
+803315 [Gauntlet Spell] Focused Hail of Blades
+803316 [Gauntlet Spell] Piercing Ice
+803317 [Gauntlet Spell] Explosive Ice
+803318 [Gauntlet Spell] Rime
+803319 [Gauntlet Spell] Chilling Rime
+803320 [Gauntlet Spell] Path of Frost
+803321 [Gauntlet Spell] Refined Path of Frost
+803322 [Gauntlet Spell] Discs of Dorthinus
+803323 [Gauntlet Spell] Quickened Discs of Dorthinus
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
