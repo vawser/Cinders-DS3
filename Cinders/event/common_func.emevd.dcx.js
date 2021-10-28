@@ -6794,6 +6794,8 @@ Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     WaitFixedTimeSeconds(2.0);
     
     WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X12_4, 0, X12_4);
+    
+    SetSpeffect(X8_4, 160761000); // Warp effect
 });
 
 //-------------------------------------------

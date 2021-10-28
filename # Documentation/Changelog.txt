@@ -170,6 +170,7 @@ Finish following weapons:
 # Phantoms:
 - Added Sellsword Luet as a summonable phantom in Cemetery of Ash.
 - Added Sellsword Luet as a summonable phantom in Undead Settlement.
+- Added Sellsword Luet as a summonable phantom in Profaned Capital
 
 # Intruders:
 - Pursuer: now has a custom AI.
@@ -241,12 +242,6 @@ Change companion consumables
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
 
-882 Corrupted Bow model
-5122 Corrupted Bow
-
-# Relationships
-Change Flirt into Give Gift: description of what they like, and option to give them the item
- -> Giving them the item gives the current good flirt item
-Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
-
 # Phantoms
+
+13900861
