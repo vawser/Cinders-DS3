@@ -29,6 +29,7 @@ Goal.Activate = function (self, ai, goal)
     
     local roll      = ai:GetRandam_Int(1, 100)
     local distance  = ai:GetDist(TARGET_ENE_0)
+    local friend_distance  = ai:GetDist(TARGET_FRI_0)
     local stamina   = ai:GetSp(TARGET_SELF)
     
     local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
@@ -75,10 +76,10 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
         actChanceList[22] = 3 -- Use Item (Slot 0) - Alluring Skull
     else
-        actChanceList[1] = 10 -- Right Light Attack + Approach
-        actChanceList[2] = 5 -- Right Heavy Attack + Approach
+        actChanceList[1] = 20 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
         actChanceList[5] = 10 -- WA: Lockout
         
         actChanceList[10] = 0 -- Approach + Running Attack
@@ -98,16 +99,17 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
+    -- Heal when low
     if ai:GetHpRate(TARGET_SELF) < 0.5 then
-        actChanceList[20] = 10 -- Use Item (Slot 0) - Old Radiant Lifegem
-        actChanceList[21] = 10 -- Use Item (Slot 1) - Elizabeth Mushroom
+        actChanceList[20] = 20 -- Use Item (Slot 0) - Old Radiant Lifegem
+        actChanceList[21] = 20 -- Use Item (Slot 1) - Elizabeth Mushroom
     end
     
     -- Invalid Item check
     if speffect_no_invalid_item then
         actChanceList[20] = 0 -- Use Item (Slot 0) - Old Radiant Lifegem
         actChanceList[21] = 0 -- Use Item (Slot 1) - Elizabeth Mushroom
+        actChanceList[22] = 0 -- Use Item (Slot 1) - Alluring Skull
     end
     
     -- Block repeat usage of Old Radiant Lifegem while active
@@ -133,7 +135,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
     end
-    
+
     ----------------------------------
     -- Movement Checks
     ----------------------------------
@@ -191,6 +193,7 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[15] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act15) -- Strafe
     actFuncList[16] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act16) -- Backstep
     actFuncList[17] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act17) -- Approach
+    actFuncList[18] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act18) -- Warp to Friend
     
     -- Items
     actFuncList[20] = REGIST_FUNC(ai, goal, NPC_SellswordLuet_Act20)   -- Use Item (Slot 0) - Old Radiant Lifegem
@@ -225,34 +228,6 @@ function NPC_SellswordLuet_Act01(self, ai, goal)
     
     if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    if 1 <= distance then
-        if not self:IsBothHandMode(TARGET_SELF) then
-            local roll_c = 25
-            
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_c = roll_c + 25
-            end
-            
-            if roll_a <= roll_c then
-                roll_b = 0
-                max_attack_distance = 2.1
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        elseif self:IsBothHandMode(TARGET_SELF) then
-            local roll_c = 50
-            
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_c = roll_c - 25
-            end
-            
-            if roll_a <= roll_c then
-                roll_b = 100
-                max_attack_distance = 2.1
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        end
     end
     
     if stamina < 60 then
@@ -307,37 +282,7 @@ function NPC_SellswordLuet_Act02(self, ai, goal)
     if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
-    
-    if 1 <= distance then
-        if not self:IsBothHandMode(TARGET_SELF) then
-            local roll_d = 25
-            
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_d = roll_d + 25
-            end
-            
-            if roll_a <= roll_d then
-                roll_c = 0
-                max_attack_distance = 2.2
-                
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        elseif self:IsBothHandMode(TARGET_SELF) then
-            local roll_d = 50
 
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_d = roll_d - 25
-            end
-            
-            if roll_a <= roll_d then
-                roll_c = 100
-                max_attack_distance = 2.2
-                
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        end
-    end
-    
     if stamina < 60 then
         roll_c = 0
     end
@@ -490,30 +435,6 @@ function NPC_SellswordLuet_Act10(self, ai, goal)
     
     if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    if 1 <= self:GetDist(TARGET_ENE_0) then
-        if not self:IsBothHandMode(TARGET_SELF) then
-            local roll_c = 25
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_c = roll_c + 25
-            end
-            if roll_a <= roll_c then
-                const_a = -1
-                max_attack_distance = 3.2
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        elseif self:IsBothHandMode(TARGET_SELF) then
-            local roll_c = 50
-            if self:IsTargetGuard(TARGET_ENE_0) then
-                roll_c = roll_c - 25
-            end
-            if roll_a <= roll_c then
-                const_a = 4
-                max_attack_distance = 2.8
-                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-            end
-        end
     end
     
     if self:GetSp(TARGET_SELF) < 60 then
@@ -750,7 +671,7 @@ function NPC_SellswordLuet_Act16(self, ai, goal)
     local duration = 1.8
     local backstep_start_distance = 3.0
     local run_start_distance = 5.0
-    local animation = -1
+    local animation = NPC_ATK_L1Hold
     
     -- Force 2H mode
     if not self:IsBothHandMode(TARGET_SELF) then
@@ -798,7 +719,7 @@ function NPC_SellswordLuet_Act20(self, ai, goal)
 end
 
 -- Use Item (Slot 1) - Elizabeth Mushroom
-function NPC_SellswordLuet_Act20(self, ai, goal)
+function NPC_SellswordLuet_Act21(self, ai, goal)
     self:ChangeEquipItem(1) 
     self:SetStringIndexedNumber("Elizabeth Mushroom", self:GetStringIndexedNumber("Elizabeth Mushroom") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
@@ -808,7 +729,7 @@ function NPC_SellswordLuet_Act20(self, ai, goal)
 end
 
 -- Use Item (Slot 2) - Alluring Skull
-function NPC_SellswordLuet_Act20(self, ai, goal)
+function NPC_SellswordLuet_Act22(self, ai, goal)
     self:ChangeEquipItem(2) 
     self:SetStringIndexedNumber("Alluring Skull", self:GetStringIndexedNumber("Alluring Skull") - 1)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)

@@ -90,6 +90,9 @@ Finish following weapons:
   - Phase 2 uses the Hammer moveset.
   - He switches phase at 50% HP and his eyes go red.
 
+- Spurned Shade: 
+ - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one. Has a custom AI.
+
 # NPCs:
 - Adjusted the HP of all NPCs so they are harder to burst down than before.
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -162,11 +165,10 @@ Finish following weapons:
 - Marvelous Chester:
  - Now sells the Manikin Claws.
 
-# Intruders:
-- Spurned Shade:
- - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one.
- - Has a custom AI.
+# Phantoms:
+- Added Sellsword Luet as a summonable phantom for Cemetery of Ash.
 
+# Intruders:
 - Pursuer: now has a custom AI.
 - Luyila of Londor: now has a custom AI.
 - Forgotten Locklin: now has a custom AI, expanded loadout.
@@ -244,23 +246,3 @@ Change Flirt into Give Gift: description of what they like, and option to give t
  -> Giving them the item gives the current good flirt item
 Change Flirt (good) to instead give a Memory of Affection, that boosts survival for 5 minutes when used
 
-# Summon
-GOAL_NPC_SellswordLuet = 40000
-
-16170000 # Skill: Lockout
-
-99330000
-75001000
-99442000
-99443000
-
-802 Old Radiant Lifegem
-803 Elizabeth Mushroom
-294 Alluring Skull
-
-Fix Tsorig/Heysel giving too many souls
- Due to NPCSummonSign command
- 
- 20005750
- 20005751
- 20005752

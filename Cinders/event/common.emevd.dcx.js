@@ -1983,6 +1983,10 @@ Event(20002, Restart, function(X0_4, X4_4) {
     BatchSetEventFlags(25008900, 25008902, OFF); // Reset
     RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
     
+    // Reset boss fight status flags used by Phantoms
+    SetEventFlag(25001100, OFF);
+    SetEventFlag(25001110, OFF);
+    
     // Batch Flag Sets
     BatchSetEventFlags(25000011, 25000017, OFF); // Reset NG+ flags
     

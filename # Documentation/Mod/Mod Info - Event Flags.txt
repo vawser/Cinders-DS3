@@ -1543,6 +1543,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001034 Boss Kill: Titanite Abomination
 25001035 Boss Kill: The Marauder
 
+25001100 Boss fight started
+25001110 Boss fight ended
+
 25006000 No Hit state
 
 25008000 Married: 

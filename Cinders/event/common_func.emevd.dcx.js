@@ -5815,18 +5815,6 @@ Event(20009100, Default, function(X0_4, X4_1) {
 });
 
 //----------------------------------------------
-// NPC Kill Emote
-// <entity id>, <animation id>
-//----------------------------------------------
-Event(20009201, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
-    ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
-    WaitFixedTimeSeconds(5);
-    ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
-});
-
-//----------------------------------------------
 // Boss Kill 
 // <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <base soul SpEffect>, <repeat soul SpEffect
 //----------------------------------------------
@@ -6617,82 +6605,6 @@ Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
 //----------------------------------------------
 // Intruder - Setup
-// <entity id>
-//----------------------------------------------
-Event(20090000, Default, function(X0_4, X4_4, X8_4) {
-    var entity_Intruder     = X0_4;
-    var flag_IntruderSpawned  = X4_4;
-    var flag_IntruderActive = X8_4;
-    
-    ChangeCharacterEnableState(entity_Intruder, Disabled);
-    SetCharacterAnimationState(entity_Intruder, Disabled);
-    
-    SetEventFlag(flag_IntruderSpawned, OFF); // Trigger flag
-    SetEventFlag(flag_IntruderActive, OFF); // Active flag
-});
-
-//----------------------------------------------
-// Fake Invader - Trigger 
-// <entity id>, <disable flag>, <trigger area id>, <trigger flag>
-//----------------------------------------------
-Event(20090001, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    var entity_Intruder     = X0_4;
-    
-    var flag_IntruderDisabled = X4_4;
-    var flag_IntruderSpawned  = X12_4;
-    
-    var trigger_IntruderZone = X8_4;
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_IntruderDisabled);
-    
-    // Trigger Invader if in region
-    //IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Is Embered
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, trigger_IntruderZone, 1); // Is in Region
-    IfConditionGroup(MAIN, PASS, AND_01);
-    WaitRandomTimeSeconds(1, 3);
-    SetEventFlag(flag_IntruderSpawned, ON); 
-});
-
-//----------------------------------------------
-// Fake Invader - Spawn
-// <entity id>, <disable flag>, <trigger flag>, <active flag>, <msg id>, <ffx id>, <anim id>
-//----------------------------------------------
-Event(20090002, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    DisplayMessage(X16_4, 1);
-    
-    // Spawn Invader
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X20_4);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterDefaultBackreadState(X0_4, Enabled);
-    ForceAnimationPlayback(X0_4, X24_4, false, false, false, 0, 1);
-    SetEventFlag(X12_4, ON);
-});
-
-//----------------------------------------------
-// Fake Invader - Reward
-// <entity id>, <disable flag>, <active flag>, <itemlot id>, <msg id>
-//----------------------------------------------
-Event(20090003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    DisplayMessage(X16_4, 1);
-    
-    AwardItemLot(X12_4);
-    SetCharacterDefaultBackreadState(X0_4, Disabled);
-    SetEventFlag(X4_4, ON);
-});
-
-//----------------------------------------------
-// Fake Invader - Setup
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
 //----------------------------------------------
 Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
@@ -6729,7 +6641,7 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 });
 
 //----------------------------------------------
-// Fake Invader - Setup - Conditional
+// Intruder - Setup - Conditional
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
 //----------------------------------------------
 Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
@@ -6766,35 +6678,141 @@ Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetEventFlag(X28_4, ON);
 });
 
-//-------------------------------------------
-// Simple Summon - Setup
-// <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>
-//-------------------------------------------
-Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    var flag_BossDefeated   = X0_4;
-    var flag_Summon_Active  = X4_4;
-    var flag_Summon_Dismiss = X8_4;
+//----------------------------------------------
+// Intruder - Kill Emote
+// <entity id>, <animation id>
+//----------------------------------------------
+Event(20090020, Default, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    var entity_Summon = X12_4
+    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
+    ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
     
-    var trigger_Spawnpoint = X16_4;
+    WaitFixedTimeSeconds(5);
+    
+    ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
+});
+
+//-------------------------------------------
+// Phantom - Setup Summon
+// <obj id>, <summoned flag>, <boss flag>
+//-------------------------------------------
+Event(20090100, Default, function(X0_4, X4_4, X8_4) {
+    SetNetworkSyncState(Disabled);
+    
+    // Reset summoned flag
+    SetEventFlag(X4_4, OFF);
+    
+    // Skip boss check if -1
+    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
+    // End function if boss has already been killed
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
+    
+    // End if not in own world
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    // Player is embered
+    IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
+    
+    // Player has used prompt
+    IfActionButtonInArea(MAIN, 60000, X0_4);
+    
+    DeactivateObject(X4_4, Disabled);
+    
+    SetEventFlag(X4_4, ON);
+});
+
+//-------------------------------------------
+// Phantom - Setup Phantom
+// <entity id>, <summoned flag>, <gesture>
+//-------------------------------------------
+Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    SetNetworkSyncState(Disabled);
+    // Disable by default
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
     
     // Skip if no invaders are present
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(entity_Summon, AuthorityLevel.Forced);
+    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
     
-    // End function if boss has already been killed
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
+    // End if not in own world
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
-    // Check summon sign conditions
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
-    IfCharacterBackreadStatus(AND_01, entity_Summon, true, ComparisonType.Equal, 1); // Summon is loaded
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, entity_Summon, 10000, 10, 1); // Summon position is near player
+    // Delay the following checks so the summoned flag is reset before they are checked
+    WaitFixedTimeSeconds(1.0);
+    
+    // Player is embered
+    IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
+
+    // Show illusion form
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetSpEffect(X0_4, 160803000);
+    
+    // Phantom is summoned
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+
+    // Spawn Phantom
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, 30320);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    ForceAnimationPlayback(X0_4, 63010, false, false, false, 0, 1);
+    
+    ClearSpEffect(X0_4, 160803000);
+    SetSpEffect(X0_4, 160803010);
+    
+    WaitFixedTimeSeconds(5.3);
+    
+    //ForceAnimationPlayback(X0_4, 80600, false, false, false, 0, 1);
+    
+    //WaitFixedTimeSeconds(3.7);
+    
+    ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
+    
+    SetCharacterAIState(X0_4, Enabled);
+    
+    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);
+    
+    DisplayMessage(X12_4, 1);
+});
+
+//-------------------------------------------
+// Phantom - Boss Warp
+// <summon flag>, <boss in battle flag>, <entity id>, <point id>
+//-------------------------------------------
+Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    // Place summon sign
-    PlaceNPCSummonSign(SummonSignType.WhiteSign, entity_Summon, trigger_Spawnpoint, flag_Summon_Active, flag_Summon_Dismiss);
+    WaitFixedTimeSeconds(2.0);
+    
+    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X12_4, 0, X12_4);
+});
+
+//-------------------------------------------
+// Phantom - Collision Transition Warp
+// <summon flag>, <entity id>, <region id>, <point id>
+//-------------------------------------------
+Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    IfInoutsideArea(MAIN, InsideOutsideState.Inside, X4_4, X8_4, 1);
+    
+    WarpCharacterAndCopyFloor(X4_4, TargetEntityType.Area, X12_4, 0, X12_4);
+    
+    WaitFixedTimeSeconds(2.0);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
