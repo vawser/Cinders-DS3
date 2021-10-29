@@ -4228,6 +4228,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_angle = env(222) -- GetReceivedDamageDirection
     local style = c_Style
     
+    if env(1116, 31) == TRUE and env(1116, 112910) == TRUE then
+        ExecEventAllBody("W_DamageParry")
+        return TRUE
+    end
+    
     if damage_type == DAMAGE_TYPE_PARRY then
         ExecEventAllBody("W_DamageParry")
         return TRUE

@@ -127,6 +127,7 @@ Finish following weapons:
 - Changed the effects of the Handmaid's Dagger, Executioner's Greatsword, Sage's Stiletto and Blueblood Sword to reduce spell FP cost by 10%.
 - Reduced the base damage of the Fool's Catalyst.
 - Reduced the HP loss per swing from the Chaos Blade to 1.5% (was 3%).
+- The Pistol sidearms now parry player-type NPCs.
 
 # Infusions:
 - Weapon magic infusion now gains additional bloodthirst charges on hit.
