@@ -128,6 +128,9 @@ Finish following weapons:
 - Reduced the base damage of the Fool's Catalyst.
 - Reduced the HP loss per swing from the Chaos Blade to 1.5% (was 3%).
 - The Pistol sidearms now parry player-type NPCs.
+- Sidearm weapons no longer use FP, instead they require a specific amount of stamina to use properly, otherwise you will get the fumble animation.
+- Increased the stamina consumption of the Sidearm weapons.
+- Reduced the damage of the Sidearm weapons.
 
 # Infusions:
 - Weapon magic infusion now gains additional bloodthirst charges on hit.
@@ -249,6 +252,7 @@ Adjust the broken questlines so they use a custom method of progression
 22110000 Greatshield of Glory # WA: Shield Bash
 
 240 Divine Blessing
+
 
 //------------------------
 // Phantoms

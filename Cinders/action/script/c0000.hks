@@ -1431,73 +1431,65 @@ function ExecGuard(event, blend_type)
 
                 -- Per Sidearm Effects
                 if IsCannon() == TRUE then
-                    if 100 > env(2016) then
+                    if 100 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112900) -- FP Cost
                         act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsChurchCannon() == TRUE then
-                    if 100 > env(2016) then
+                    if 100 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112901) -- FP Cost
                         act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsHunterPistol() == TRUE then
-                    if 40 > env(2016) then
+                    if 50 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112902) -- FP Cost
                         act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsRepeatingPistol() == TRUE then
-                    if 50 > env(2016) then
+                    if 60 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112903) -- FP Cost
                         act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsEvelynn() == TRUE then
-                    if 60 > env(2016) then
+                    if 70 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112904) -- FP Cost
                         act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsBlunderbuss() == TRUE then
-                    if 50 > env(2016) then
+                    if 80 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112905) -- FP Cost
                         act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsRosamarinus() == TRUE then
-                    if 30 > env(2016) then
+                    if 15 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112906) -- FP Cost
                         act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsFistOfGratia() == TRUE then
-                    if 100 > env(2016) then
+                    if 50 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
-                        act(2002, 112907) -- FP Cost
                         act(2002, 113005) -- FP Pause
                     end
                 end
