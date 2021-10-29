@@ -6817,23 +6817,39 @@ Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
 //-------------------------------------------
 // Phantom - Betray Player
-// <summon flag>, <entity id>, <hp value>
+// <summon flag>, <entity id>, <betrayer entity id>, <hp value>, 
 //-------------------------------------------
 Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    ChangeCharacterEnableState(X8_4, Disabled);
+    SetCharacterAnimationState(X8_4, Disabled);
+    SetCharacterAIState(X8_4, Disabled);
+    
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
     
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_01);
     
     // Player is below 50% HP
-    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, X8_4, ComparisonType.Equal, 1);
+    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0.3, ComparisonType.Equal, 1);
     
-    SetSpEffect(X4_4, 160803020);
+    DisplayMessage(X12_4, 1);
     
-    SetCharacterTeamType(X4_4, TeamType.ArchEnemyTeam);
-    SetCharacterAIId(X4_4, X12_4);
+    ChangeCharacterEnableState(X4_4, Disabled);
+    SetCharacterAnimationState(X4_4, Disabled);
+    SetCharacterAIState(X4_4, Disabled);
+    
+    ChangeCharacterEnableState(X8_4, Enabled);
+    SetCharacterAnimationState(X8_4, Enabled);
+    SetCharacterDefaultBackreadState(X8_4, Enabled);
+    
+    SetSpEffect(X8_4, 160803020);
+    SetCharacterAIState(X8_4, Enabled);
+    
+    // Play FFX on player
+    SpawnOneshotSFX(TargetEntityType.Character, 10000, 233, 527006);
+    
+    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, 10000, 271, 10000);
 });
-
 
 //----------------------------------------------
 // NPC - Talk Toggle

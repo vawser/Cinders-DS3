@@ -31,7 +31,7 @@ Goal.Activate = function (self, ai, goal)
     
     local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
     
-    if ai:GetHpRate(TARGET_LOCALPLAYER) >= 0.5 then
+    if ai:GetNpcThinkParamID() == 50010 then
         goal:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
     else
         goal:AddSubGoal(GOAL_NPC_BlackGhost_Battle, 2)
@@ -633,11 +633,6 @@ function NPC_Maldron_Act15(self, ai, goal)
     local run_start_distance = 5.0
     local animation = NPC_ATK_L1Hold
     
-    -- Force 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
-    
     -- Change to no guard if stamina is low
     if stamina <= 30 then
         animation = -1
@@ -681,11 +676,6 @@ function NPC_Maldron_Act16(self, ai, goal)
     local run_start_distance = 5.0
     local animation = NPC_ATK_L1Hold
     
-    -- Force 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
-    
     if distance >= run_start_distance then
         ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
     else
@@ -700,11 +690,6 @@ end
 function NPC_Maldron_Act17(self, ai, goal)
     local end_approach_distance = 5.0
     local animation = NPC_ATK_L1Hold
-    
-    -- Force 2H mode
-    if not self:IsBothHandMode(TARGET_SELF) then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
-    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)

@@ -266,3 +266,4 @@ InitializeCommonEvent(20090103, 13900765, 3900765, 3902770, 3902771); // Collisi
 InitializeCommonEvent(20090103, 13900765, 3900765, 3902772, 3902773); // Collision Transition Warp 2
 InitializeCommonEvent(20090103, 13900765, 3900765, 3902774, 3902775); // Collision Transition Warp 3
 
+
