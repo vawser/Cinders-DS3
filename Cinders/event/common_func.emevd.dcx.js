@@ -6815,6 +6815,26 @@ Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//-------------------------------------------
+// Phantom - Betray Player
+// <summon flag>, <entity id>, <hp value>
+//-------------------------------------------
+Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    // Player is below 50% HP
+    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, X8_4, ComparisonType.Equal, 1);
+    
+    SetSpEffect(X4_4, 160803020);
+    
+    SetCharacterTeamType(X4_4, TeamType.ArchEnemyTeam);
+    SetCharacterAIId(X4_4, X12_4);
+});
+
+
 //----------------------------------------------
 // NPC - Talk Toggle
 //----------------------------------------------

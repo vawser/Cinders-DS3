@@ -121,6 +121,7 @@ GOAL_NPC_Graverobber = 34500
 GOAL_NPC_Cerah = 34600
 GOAL_NPC_DragonCultist = 34700
 GOAL_NPC_SellswordLuet = 40000
+GOAL_NPC_Maldron = 40010
 GOAL_Corrupted_Gundyr_60000_Switch = 60000
 GOAL_Corrupted_Gundyr_60000_Battle = 60010
 GOAL_Corrupted_Gundyr_60000_AfterAttackAct = 60011
