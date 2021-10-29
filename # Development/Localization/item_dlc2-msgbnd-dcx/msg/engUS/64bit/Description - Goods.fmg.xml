@@ -4863,12 +4863,14 @@ The frigid environment provides ample opportunity to master the basics of cryoma
 The conjuration of blades caused much amusement for the young sister.
 
 Cast cascade of frozen blades from sky that rain down upon foes.
-Inflicts 50 Frost.</text>
+Inflicts 50 Frost.
+Lasts 4 seconds.</text>
 <text id="1808110">A sorcery once used by Sister Friede. 
 The conjuration of blades caused much amusement for the young sister.
 
 Cast cascade of frozen blades from sky that rain down upon foes.
-Inflicts 50 Frost.</text>
+Inflicts 50 Frost.
+Lasts 6 seconds.</text>
 <text id="1808200">A sorcery taught to all young sorcerers of the Painted World.
 
 Fire piercing ice towards foe.
@@ -4897,22 +4899,22 @@ Emit rime of frost, knocking back enemies.
 Inflicts 160 Frost.
 
 The chilling cold causes foes to collapse and shudder.</text>
-<text id="1808400">A sorcery created by Prince Dorthunus.
+<text id="1808400">A sorcery created by Prince Dorthinus.
 To reach his beloved, the Prince had to navigate a treacherous and icy world.
 
 Emit chilling path of frost.
 Inflicts 30 Frost.</text>
-<text id="1808410">A sorcery created by Prince Dorthunus.
+<text id="1808410">A sorcery created by Prince Dorthinus.
 To reach his beloved, the Prince had to navigate a treacherous and icy world.
 
 Emit chilling path of frost.
 Inflicts 30 Frost.</text>
-<text id="1808500">A sorcery created by Prince Dorthunus.
+<text id="1808500">A sorcery created by Prince Dorthinus.
 As a gift to his beloved, the Prince attempted to woo the Princess, and attempted to display his mastery of the frost.
 
 Emit discs of Dorthinus towards foes.
 Inflicts 50 Frost.</text>
-<text id="1808510">A sorcery created by Prince Dorthunus.
+<text id="1808510">A sorcery created by Prince Dorthinus.
 As a gift to his beloved, the Prince attempted to woo the Princess, and attempted to display his mastery of the frost.
 
 Emit discs of Dorthinus towards foes.

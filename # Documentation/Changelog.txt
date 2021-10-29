@@ -244,4 +244,14 @@ Adjust the broken questlines so they use a custom method of progression
 
 # Phantoms
 
-13900861
+//------------------------
+// Phantoms
+//------------------------
+// Sellsword Luet
+InitializeCommonEvent(20090100, 3902765, 13900765, -1, 60000); // Interaction State
+InitializeCommonEvent(20090101, 3900765, 13900765, 99071010); // Character State
+InitializeCommonEvent(20090102, 13900765, 13900724, 3900765, 3902766); // Boss Warp - Yhorm
+InitializeCommonEvent(20090102, 13900765, 13900861, 3900765, 3902767); // Boss Warp - Fallen Protector
+InitializeCommonEvent(20090103, 13900765, 3900765, 3902770, 3902771); // Collision Transition Warp 1
+InitializeCommonEvent(20090103, 13900765, 3900765, 3902772, 3902773); // Collision Transition Warp 2
+InitializeCommonEvent(20090103, 13900765, 3900765, 3902774, 3902775); // Collision Transition Warp 3

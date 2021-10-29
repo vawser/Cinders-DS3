@@ -282,14 +282,15 @@
 #--------------------------------
 # Hail of Blades
 #--------------------------------
-- FP Cost: 120
-- INT Req: 30
+- FP Cost: 250
+- INT Req: 50
 - Slot Use: 2
-- Magic Damage: 50 {150} {*20, individual}
+- Magic Damage: 50 {150}
 - Frost Inflict: 50
+- Lasts for 4 seconds.
 
-#---- Focused Hail of Blades
-- Reduces the spread of the hail of blades.
+#---- Lingering Hail of Blades
+- Increases the duration to 6 seconds.
 
 #--------------------------------
 # Piercing Ice

@@ -1235,7 +1235,7 @@
 6315 Killed High Lord Wolnir
 6317 Killed Old Demon King
 6318 Killed Yhorm the Giant
-6319 Killed Dismal Knight
+6319 Killed Corrupted Gundyr
 6320 Killed Champion Gundyr
 6321 Killed Soul of Cinder
 6322 Killed Sister Friede
@@ -1249,7 +1249,7 @@
 6341 Killed Mirror Knight
 6342 Killed Aborr
 6343 Killed Princess Yngvil
-6344 Killed The Rock
+6344 Killed Trio of Explorers
 6345 Killed Twisted Knight
 6346 Killed Fallen Protector
 6347 Killed Titanite Abomination
@@ -1272,7 +1272,7 @@
 9315 Killed High Lord Wolnir
 9317 Killed Old Demon King
 9318 Killed Yhorm the Giant
-9319 Killed Dismal Knight
+9319 Killed Corrupted Gundyr
 9320 Killed Champion Gundyr
 9321 Killed Soul of Cinder
 9322 Killed Sister Friede
@@ -1286,7 +1286,7 @@
 9341 Killed Mirror Knight
 9342 Killed Aborr
 9343 Killed Princess Yngvil
-9344 Killed The Rock
+9344 Killed Trio of Explorers
 9345 Killed Twisted Knight
 9346 Killed Fallen Protector
 9347 Killed Titanite Abomination
@@ -1507,7 +1507,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000605 Tablet of Mass Summoning
 25000606 Tablet of Hollow Summoning
 
-25001001 Boss Kill: Dismal Knight
+25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt
 25001003 Boss Kill: Curse-rotted Greatwood
 25001004 Boss Kill: Crystal Sage
@@ -1537,7 +1537,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001028 Boss Kill: Mirror Knight
 25001029 Boss Kill: Aborr
 25001030 Boss Kill: Princess Yngvil
-25001031 Boss Kill: The Rock
+25001031 Boss Kill: Trio of Explorers
 25001032 Boss Kill: Twisted Knight
 25001033 Boss Kill: Fallen Protector
 25001034 Boss Kill: Titanite Abomination
@@ -1663,7 +1663,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009831 Ringed City
 25009840 Random location
 
-25002001 First Boss Kill: Dismal Knight
+25002001 First Boss Kill: Corrupted Gundyr
 25002002 First Boss Kill: Vordt
 25002003 First Boss Kill: Curse-rotted Greatwood
 25002004 First Boss Kill: Crystal Sage
@@ -1693,7 +1693,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002028 First Boss Kill: Mirror Knight
 25002029 First Boss Kill: Aborr             
 25002030 First Boss Kill: Princess Yngvil
-25002031 First Boss Kill: The Rock
+25002031 First Boss Kill: Trio of Explorers
 25002032 First Boss Kill: Twisted Knight
 25002033 First Boss Kill: Fallen Protector
 25002034 First Boss Kill: Titanite Abomination
@@ -1709,7 +1709,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003204 Gauntlet: Reverse Endless
 25003205 Gauntlet: Boss Select
 
-25003001 Selection: Dismal Knight
+25003001 Selection: Corrupted Gundyr
 25003002 Selection: Vordt
 25003003 Selection: Curse-rotted Greatwood
 25003004 Selection: Crystal Sage
@@ -1739,7 +1739,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003028 Selection: Mirror Knight
 25003029 Selection: Aborr             
 25003030 Selection: Princess Yngvil
-25003031 Selection: The Rock
+25003031 Selection: Trio of Explorers
 25003032 Selection: Twisted Knight
 25003033 Selection: Fallen Protector
 25003034 Selection: Titanite Abomination

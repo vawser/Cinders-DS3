@@ -1608,21 +1608,21 @@
 7042 Sleep
 7043 Toast
 7044 Silent Ally
-7045 Frigid Tumult 
-7046 Hail of Blades
-7047 Piercing Ice
-7048 Rime
-7049 Path of Frost
-7050 Discs of Dorthinus
+7045 Gesture
+7046 Gesture
+7047 Gesture
+7048 Gesture
+7049 Gesture
+7050 Gesture
 7051 DUMMY
 7052 DUMMY
 7053 DUMMY
-7054 DUMMY
-7055 DUMMY
-7056 DUMMY 
-7057 DUMMY
-7058 DUMMY
-7059 DUMMY
+7054 Frigid Tumult 
+7055 Hail of Blades
+7056 Piercing Ice
+7057 Rime
+7058 Path of Frost
+7059 Discs of Dorthinus
 7060 Gold-Hemmed Black Hood
 7061 Gold-Hemmed Black Cloak
 7062 Gold-Hemmed Black Gloves
