@@ -6734,7 +6734,7 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Phantom - Setup Phantom
 // <entity id>, <summoned flag>, <gesture>, <msg>
 //-------------------------------------------
-Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
+Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     // Disable by default
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -6770,6 +6770,9 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     
     ClearSpEffect(X0_4, 160803000);
     SetSpEffect(X0_4, 160803010);
+    
+    SkipIfComparison(1, ComparisonType.Equal, X16_4, -1);
+    SetSpEffect(X0_4, X16_4);
     
     WaitFixedTimeSeconds(5.3);
     
@@ -7437,7 +7440,7 @@ Event(20080003, Restart, function(X0_4) {
 // Interaction Point - Guaranteed Action
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>
 //----------------------------------------------
-Event(20085000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7452,7 +7455,7 @@ Event(20085000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Interaction Point - Random A/B
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>
 //----------------------------------------------
-Event(20085001, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7487,7 +7490,7 @@ Event(20085001, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 // Interaction Point - Random Pool
 // <entity id>, <action id>, <sfx id>
 //----------------------------------------------
-Event(20085002, Default, function(X0_4, X4_4, X8_4) {
+Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7538,7 +7541,7 @@ Event(20085002, Default, function(X0_4, X4_4, X8_4) {
 // Interaction Point - Covenant Specific
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>, <covenant speffect>
 //----------------------------------------------
-Event(20085003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
