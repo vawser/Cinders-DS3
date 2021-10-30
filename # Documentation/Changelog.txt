@@ -153,6 +153,7 @@ Finish following weapons:
 - Made the Bloodthirst charge gain/cost clear in the descriptions of items that interact with the mechanic.
 - Rouge/Crimson Water now boost FP recovery for 60 seconds.
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
+- Added Bone Marrow Ash: boosts damage of firearms by 300% for 8 seconds. Sold by Master Benjin.
 
 # Map:
 - Cathedral of the Deep:
@@ -248,22 +249,20 @@ Change companion consumables
 Adjust the broken questlines so they use a custom method of progression
 
 # Phantoms
-31720000 Heide Greatlance # WA: Heide's Fury
-22110000 Greatshield of Glory # WA: Shield Bash
+# Ashen Hunter
+GOAL_NPC_AshenHunter = 34800
 
-240 Divine Blessing
+36200 
 
+30340000 Beast Cutter [Normal]
+14450000 Blunderbuss
+14410000 Church Cannon
 
-//------------------------
-// Phantoms
-//------------------------
-// Sellsword Luet
-InitializeCommonEvent(20090100, 3902765, 13900765, -1, 60000); // Interaction State
-InitializeCommonEvent(20090101, 3900765, 13900765, 99071010); // Character State
-InitializeCommonEvent(20090102, 13900765, 13900724, 3900765, 3902766); // Boss Warp - Yhorm
-InitializeCommonEvent(20090102, 13900765, 13900861, 3900765, 3902767); // Boss Warp - Fallen Protector
-InitializeCommonEvent(20090103, 13900765, 3900765, 3902770, 3902771); // Collision Transition Warp 1
-InitializeCommonEvent(20090103, 13900765, 3900765, 3902772, 3902773); // Collision Transition Warp 2
-InitializeCommonEvent(20090103, 13900765, 3900765, 3902774, 3902775); // Collision Transition Warp 3
+1190000
+1191000
+1192000
+1193000
 
+7053 Bone Marrow Ash
 
+530 
