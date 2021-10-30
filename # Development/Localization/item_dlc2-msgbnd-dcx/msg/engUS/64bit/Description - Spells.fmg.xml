@@ -1149,6 +1149,7 @@ the Great Swamp long ago.
 
 Creates a poison mist, inflicting 25 Poison per tick.
 Lasts 6 seconds.
+Once inflicted, reduces enemy damage by 10% for its duration.
 
 Eingyi was driven from the Great Swamp,
 however his pyromancy continues to succeed him.
@@ -1160,6 +1161,7 @@ the Great Swamp long ago.
 
 Creates a poison mist, inflicting 25 Poison per tick.
 Lasts 12 seconds.
+Once inflicted, reduces enemy damage by 10% for its duration.
 
 Eingyi was driven from the Great Swamp,
 however his pyromancy continues to succeed him.
@@ -1171,6 +1173,7 @@ gained currency in the Great Swamp.
 
 Creates an intense poison mist, inflicting 10 Toxic per tick.
 Lasts 6 seconds.
+Once inflicted, reduces enemy damage by 10% and Stamina recovery by 5 for its duration.
 
 Driven from the Great Swamp, they say that at the
 end of his journey, Eingyi happened upon a
@@ -1180,6 +1183,7 @@ gained currency in the Great Swamp.
 
 Creates an intense poison mist, inflicting 10 Toxic per tick.
 Lasts 12 seconds.
+Once inflicted, reduces enemy damage by 10% and Stamina recovery by 5 for its duration.
 
 Driven from the Great Swamp, they say that at the
 end of his journey, Eingyi happened upon a
@@ -1544,7 +1548,7 @@ Lasts 60 seconds.
 Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
-<text id="2714000">A pyromancy that creates imbues the caster with flame.
+<text id="2714000">A pyromancy that imbues the caster with flame.
 Needless to say, this is a perilous spell that burns the caster.
 
 Immolate oneself for 25% HP, leaving a trail of fire in your wake for 15 seconds.
