@@ -135,6 +135,8 @@ Skill: Prying Wedge
 A chain attack that wedges below foes and swings upward,breaking their guard.Strong attack can be used to follow up the onslaught with a fatal blow.</text>
 <text id="4120200">Great curved sword wielded by Farron Followers. Its great weight enables heavy-handed chain attacks.
 
+Inflicts 30 Curse.
+
 Skill: Prying Wedge
 A chain attack that wedges below foes and swings upward,breaking their guard.Strong attack can be used to follow up the onslaught with a fatal blow.</text>
 <text id="4120300">Great curved sword wielded by Farron Followers. Its great weight enables heavy-handed chain attacks.
@@ -200,6 +202,8 @@ The unique warcry of the Millwood Knights entailed a leap straight toward the en
 <text id="7170200">Battle axe wielded by Millwood Knights. Its blade is blessed by the symbol of the Ethereal Oak.
 
 A hefty axe normally wielded by the mightiest of warriors.
+
+Inflicts 30 Curse.
 
 Skill: Warcry
 The unique warcry of the Millwood Knights entailed a leap straight toward the enemy and a fearsome roar.</text>
@@ -296,6 +300,8 @@ Thrust weapon into earth with a prayer to trigger explosive tremors.</text>
 Millwood is a land of primitive earth worship where chieftain knights served as high priests.
 
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
+
+Inflicts 45 Curse.
 
 Skill: Earthen Wrath
 Thrust weapon into earth with a prayer to trigger explosive tremors.</text>
@@ -417,6 +423,8 @@ The Knights of Millwood would fight hand-in-hand with the earth itself, and this
 
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
 
+Inflicts 45 Curse.
+
 Skill: Quakestone
 Burrow hammer head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
 <text id="8310300">A stone hammer wielded by Millwood Knights, with a head of naturally-formed stone.
@@ -524,6 +532,8 @@ Emulate the practice of the Followers by throwing an illusory spear that assumes
 Skill: Hurl Spear
 Emulate the practice of the Followers by throwing an illusory spear that assumes temporary form.</text>
 <text id="9230200">Light spear wielded by the Farron Followers. Balanced to allow for throwing.
+
+Inflicts 30 Curse.
 
 Skill: Hurl Spear
 Emulate the practice of the Followers by throwing an illusory spear that assumes temporary form.</text>
@@ -651,6 +661,8 @@ Spread right and left talons like a broad set of wings and launch into a tornado
 
 In their infatuation with Sister Friede, the Corvian Knights swore to protect the painting from fire, and to this end, took to the execution of their own brethren.
 
+Inflicts 15 Curse.
+
 Skill: Raptor Flurry
 Spread right and left talons like a broad set of wings and launch into a tornado of consecutive attacks.</text>
 <text id="11050300">Talons used by Corvian Knights. Inflicts five perpendicular slashes, causing heavy bleeding.
@@ -752,6 +764,8 @@ While in stance, use normal attack to thrust forward with shield up, and strong 
 The Champion fought on, without rest, until he lost his mind. In the end, only his page and a lone wolf stayed at his side.
 
 The Guard Absorption of this weapon scales with Dexterity, and its Stability with Strength.
+
+Inflicts 30 Curse.
 
 Skill: Lion Stance
 While in stance, use normal attack to thrust forward with shield up, and strong attack to execute a shield bash with a lion's roar.</text>
@@ -862,6 +876,8 @@ Skill: Quill Dart
 Simultaneously throw temporarily substantial illusions of the four thin-edged blades wielded in the left hand.
 A thrusting attack can be chained using strong attack upon landing.</text>
 <text id="16150200">Thrusting sword wielded by Corvian Knights, and a special paired weapon. When twin-handed, brandish four thin-edged blades in the left hand.
+
+Inflicts 30 Curse.
 
 Skill: Quill Dart
 Simultaneously throw temporarily substantial illusions of the four thin-edged blades wielded in the left hand.

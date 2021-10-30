@@ -362,7 +362,7 @@
 <text id="20197">%null%</text>
 <text id="20198">%null%</text>
 <text id="20199">%null%</text>
-<text id="20200">Strengthens weapon counter attacks</text>
+<text id="20200">Strengthens weapon thrust counter attacks</text>
 <text id="20201">%null%</text>
 <text id="20202">%null%</text>
 <text id="20203">%null%</text>
@@ -1086,7 +1086,7 @@
 <text id="30373">Applies dark damage on roll and kick</text>
 <text id="30374">Applies dark damage on roll and kick</text>
 <text id="30375">Applies dark damage on roll and kick</text>
-<text id="30380">Prevents equipment degradation</text>
+<text id="30380">Prevents weapon degradation when causing damage to enemies</text>
 <text id="30390">Increases vigor</text>
 <text id="30391">Increases vigor</text>
 <text id="30392">Increases vigor</text>

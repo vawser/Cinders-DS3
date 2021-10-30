@@ -63,6 +63,11 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+
+# General:
+- Curse infused weapons now mention their curse build-up amounts in their descriptions.
+- Added how some weapons change with certain infusions in their descriptions.
+
 # Bosses:
 - Marauder:
  - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
@@ -228,6 +233,7 @@ Finish following weapons:
 
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
+- Fixed several item descriptions.
 
 # Multiplayer
 - Increased the HP and damage gained by enemies when you have summons in your world.
