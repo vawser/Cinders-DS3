@@ -236,6 +236,14 @@ Finish following weapons:
 - Acolyte now starts with the Censuring Palm instead of the Staff of Serpents
 - Assassin now starts with Magic Weapon instead of Spook
 
+# Training Dummies
+- There is now a NPC called the Bone Collector where El Hueso used to be found.
+- This NPC allows you to enable 3 types of training dummies:
+ - Immovable: doesn't get moved by normal attacks
+ - Movable: is moved by normal attacks
+ - Aggressive: attacks you to allow for parry training
+- You can toggle between Inside and Outside training with the Bone Collector. This will switch the positions of the dummies and the NPC to their outside/inside locations.
+
 #------------------------------
 # TODO
 #------------------------------
@@ -263,6 +271,7 @@ GOAL_NPC_AshenHunter = 34800
 1192000
 1193000
 
-7053 Bone Marrow Ash
+400516 Bone Collector
 
-530 
+# 400501 El Hueso talk
+

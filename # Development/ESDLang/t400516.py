@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- UNUSED
+#-- Bone Collector
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -159,11 +159,14 @@ def t400516_x9():
     while True:
         ClearTalkListData()
        
-        # Learn the Dark Arts
-        AddTalkListData(1, 15003023, -1)
+        # Training Dummies
+        AddTalkListData(1, 15003040, -1)
         
-        # Talk
-        AddTalkListData(2, 15000000, -1)
+        # Train Outside
+        AddTalkListDataIf(GetEventStatus(25007600) == 0, 2, 15003050, -1)
+        
+        # Train Inside
+        AddTalkListDataIf(GetEventStatus(25007600) == 1, 3, 15003051, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -172,14 +175,18 @@ def t400516_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Learn the Dark Arts
+        # Training Dummies
         if GetTalkListEntryResult() == 1:
-            OpenRegularShop(240000, 249999)
+            assert t400516_x20()
             continue
-        # Talk
+        # Train Outside
         elif GetTalkListEntryResult() == 2:
-            assert t400516_x10(text1=10017000, flag1=0, mode1=0)
-            continue
+            SetEventState(25007600, 1)
+            return 0
+        # Train Inside
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25007600, 0)
+            return 0   
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -214,20 +221,64 @@ def t400516_x11():
     """ State 2 """
     return 0
     
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-# Acquire Gesture
-def t400516_x50(z2=_, z3=_, flag1=_):
-    """ State 0,1 """
-    if GetEventStatus(flag1) == 1:
-        """ State 2 """
-        pass
-    else:
-        """ State 3,4 """
-        AcquireGesture(z2)
-        OpenItemAcquisitionMenu(3, z3, 1)
-        SetEventState(flag1, 1)
-        assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
-    """ State 5 """
-    return 0
+# Training Dummies
+def t400516_x20():
+    c1110()
+    while True:
+        ClearTalkListData()
+        
+        # Enable Immovable Dummy
+        AddTalkListDataIf(GetEventStatus(25007510) == 0, 1, 15003041, -1)
+        
+        # Disable Immovable Dummy
+        AddTalkListDataIf(GetEventStatus(25007510) == 1, 2, 15003044, -1)
+        
+        # Enable Movable Dummy
+        AddTalkListDataIf(GetEventStatus(25007520) == 0, 3, 15003042, -1)
+        
+        # Disable Movable Dummy
+        AddTalkListDataIf(GetEventStatus(25007520) == 1, 4, 15003045, -1)
+        
+        # Enable Aggressive Dummy
+        AddTalkListDataIf(GetEventStatus(25007530) == 0, 5, 15003043, -1)
+        
+        # Disable Aggressive Dummy
+        AddTalkListDataIf(GetEventStatus(25007530) == 1, 6, 15003046, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable Immovable Dummy
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25007510, 1)
+            continue
+        # Disable Immovable Dummy
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25007510, 0)
+            continue
+        # Enable Movable Dummy
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25007520, 1)
+            continue
+        # Disable Movable Dummy
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25007520, 0)
+            continue
+        # Enable Aggressive Dummy
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25007530, 1)
+            continue
+        # Disable Aggressive Dummy
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(25007530, 0)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            

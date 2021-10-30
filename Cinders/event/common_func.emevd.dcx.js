@@ -6535,6 +6535,8 @@ Event(20081200, Default, function(X0_4, X4_4, X8_4) {
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
 Event(20081210, Default, function(X0_4, X4_4) {
+    SetCharacterAIState(X4_4, Disabled);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     IfCharacterDamagedBy(AND_01, X4_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -6542,9 +6544,15 @@ Event(20081210, Default, function(X0_4, X4_4) {
     SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
 
     // Disable
-    SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
+    
+    WaitFixedTimeSeconds(5.0);
+    
+    SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
+    
+    ChangeCharacterEnableState(X4_4, Enabled);
+    SetCharacterAnimationState(X4_4, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });

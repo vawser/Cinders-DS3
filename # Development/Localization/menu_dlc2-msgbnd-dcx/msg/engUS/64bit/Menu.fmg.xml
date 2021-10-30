@@ -1969,6 +1969,18 @@ Persisting will transform you into a grub.</text>
 <text id="15003033">The Champion's Pact has been disabled.</text>
 <text id="15003034">Face the Spurned Shade</text>
 
+<text id="15003040">Training Dummies</text>
+<text id="15003041">Enable Immovable Dummy</text>
+<text id="15003042">Enable Movable Dummy</text>
+<text id="15003043">Enable Aggressive Dummy</text>
+<text id="15003044">Disable Immovable Dummy</text>
+<text id="15003045">Disable Movable Dummy</text>
+<text id="15003046">Disable Aggressive Dummy</text>
+
+<text id="15003050">Train Outside</text>
+<text id="15003051">Train Inside</text>
+
+
 <text id="15003060">Insignias and Emblems</text>
 <text id="15003061">Elixirs</text>
 <text id="15003062">Writs</text>

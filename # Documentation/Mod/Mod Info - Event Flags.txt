@@ -1757,6 +1757,12 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007080 Faith Mastery
 25007090 Luck Mastery
 
+# Training Dummy
+25007510 Dummy 1 enabled
+25007520 Dummy 2 enabled
+25007530 Dummy 3 enabled
+25007600 Outside location enabled
+
 # Quests
 25005000
 
