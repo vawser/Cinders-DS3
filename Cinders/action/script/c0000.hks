@@ -1502,6 +1502,9 @@ function ExecGuard(event, blend_type)
                 -- Allow the AI to always fire
                 if env(1007) == TRUE then -- IsCOMPlayer
                     l1 = "W_AttackLeftLight1"
+                    
+                    -- Boost AI damage with sidearms
+                    act(2002, 112450)
                 end
                 
                 ExecEventAllBody(l1)

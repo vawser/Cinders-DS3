@@ -34,40 +34,23 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 6 then
+    if distance >= 3 then
         actChanceList[1] = 0 -- Right Light Attack + Approach
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
         actChanceList[5] = 0 -- WA: Spin Slash
-        actChanceList[6] = 10 -- Sidearm: Blunderbuss
+        actChanceList[6] = 20 -- Sidearm: Blunderbuss
         actChanceList[7] = 10 -- Sidearm: Church Cannon
         
-        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 10 -- Approach
-    elseif distance >= 3 then
-        actChanceList[1] = 5 -- Right Light Attack + Approach
-        actChanceList[2] = 5 -- Right Heavy Attack + Approach
-        actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 10 -- Jump Attack + Approach
-        actChanceList[5] = 5 -- WA: Spin Slash
-        actChanceList[6] = 5 -- Sidearm: Blunderbuss
-        actChanceList[7] = 5 -- Sidearm: Church Cannon
-        
-        actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 5 -- Backstep Roll
-        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
-        actChanceList[15] = 0 -- Strafe
-        actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 0 -- Approach
+        actChanceList[17] = 3 -- Approach
     else
         actChanceList[1] = 15 -- Right Light Attack + Approach
         actChanceList[2] = 10 -- Right Heavy Attack + Approach
@@ -98,16 +81,6 @@ Goal.Activate = function (self, ai, goal)
     -- Kick guarding player
     if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
         actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
-    end
-    
-    -- Block Sidearm if stamina when low on stamina
-    if stamina < 100 then
-        actChanceList[6] = 0 -- Sidearm: Blunderbuss
-    end
-    
-    -- Block Sidearm if stamina when low on stamina
-    if stamina < 100 then
-        actChanceList[7] = 0 -- Sidearm: Church Cannon
     end
     
     -- Block WA if stamina when low on stamina
@@ -439,7 +412,6 @@ end
 
 -- Sidearm: Blunderbuss
 function NPC_AshenHunter_Act06(self, ai, goal)
-    local max_attack_distance = 4.0
     local distance = self:GetDist(TARGET_ENE_0)
     
     -- Force 1H mode
@@ -452,7 +424,7 @@ function NPC_AshenHunter_Act06(self, ai, goal)
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
     
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -460,7 +432,6 @@ end
 
 -- Sidearm: Church Cannon
 function NPC_AshenHunter_Act07(self, ai, goal)
-    local max_attack_distance = 4.0
     local distance = self:GetDist(TARGET_ENE_0)
     
     -- Force 1H mode
@@ -473,7 +444,7 @@ function NPC_AshenHunter_Act07(self, ai, goal)
         ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
     
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
