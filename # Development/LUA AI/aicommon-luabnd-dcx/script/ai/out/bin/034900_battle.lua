@@ -34,13 +34,13 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 3 then
+    if distance >= 6 then
         actChanceList[1] = 0 -- Right Light Attack + Approach
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
         actChanceList[5] = 0 -- WA: Spin Slash
-        actChanceList[6] = 20 -- Sidearm: Blunderbuss
+        actChanceList[6] = 0 -- Sidearm: Blunderbuss
         actChanceList[7] = 10 -- Sidearm: Church Cannon
         
         actChanceList[10] = 0 -- Approach + Running Attack
@@ -50,15 +50,32 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 3 -- Approach
-    else
-        actChanceList[1] = 15 -- Right Light Attack + Approach
-        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[17] = 10 -- Approach
+    elseif distance >= 3 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 3 -- Jump Attack + Approach
-        actChanceList[5] = 10 -- WA: Spin Slash
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Spin Slash
         actChanceList[6] = 5 -- Sidearm: Blunderbuss
-        actChanceList[7] = 5 -- Sidearm: Church Cannon
+        actChanceList[7] = 3 -- Sidearm: Church Cannon
+        
+        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 10 -- Approach
+    else
+        actChanceList[1] = 20 -- Right Light Attack + Approach
+        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+        actChanceList[3] = 5 -- Kick + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Spin Slash
+        actChanceList[6] = 10 -- Sidearm: Blunderbuss
+        actChanceList[7] = 0 -- Sidearm: Church Cannon
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 5 -- Backstep Roll

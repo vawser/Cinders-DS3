@@ -136,6 +136,7 @@ Finish following weapons:
 - Sidearm weapons no longer use FP, instead they require a specific amount of stamina to use properly, otherwise you will get the fumble animation.
 - Increased the stamina consumption of the Sidearm weapons.
 - Reduced the damage of the Sidearm weapons.
+- Added secondary explosion for Cannon and Church Cannon that deal damage to anything near the end of the barrel when fired.
 
 # Infusions:
 - Weapon magic infusion now gains additional bloodthirst charges on hit.
@@ -230,6 +231,7 @@ Finish following weapons:
 - The Mother: now has a custom AI, expanded loadout.
 - The Child: now has a custom AI, expanded loadout.
 - Dragon Cultist: now has a custom AI, expanded loadout.
+- Added Ashen Hunter Yafuh to Undead Settlement.
 
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
@@ -261,19 +263,4 @@ Change companion consumables
 
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
-
-# Phantoms
-# Ashen Hunter
-GOAL_NPC_AshenHunter = 34800
-
-36200 
-
-30340000 Beast Cutter [Normal]
-14450000 Blunderbuss
-14410000 Church Cannon
-
-1190000
-1191000
-1192000
-1193000
 
