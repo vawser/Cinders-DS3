@@ -267,5 +267,10 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Add a bonfire to the level so it is warped to via warp menu
  Do the same for the other DLC arenas for future content
 
+Change some of the mimics into trapped chests
+ Poison cloud
+ Acid cloud
+ Skeleton spawn
+
 Change FP cost of weapon arts
 Change companion consumables
