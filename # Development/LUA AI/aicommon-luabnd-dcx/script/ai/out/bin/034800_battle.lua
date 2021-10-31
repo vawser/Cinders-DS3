@@ -39,74 +39,57 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[5] = 0 -- WA: Spin Slash
+        actChanceList[6] = 10 -- Sidearm: Blunderbuss
+        actChanceList[7] = 10 -- Sidearm: Church Cannon
         
-        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[10] = 10 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
         actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
         actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
+        actChanceList[17] = 10 -- Approach
     elseif distance >= 3 then
-        actChanceList[1] = 0 -- Right Light Attack + Approach
-        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[1] = 5 -- Right Light Attack + Approach
+        actChanceList[2] = 5 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[4] = 10 -- Jump Attack + Approach
+        actChanceList[5] = 5 -- WA: Spin Slash
+        actChanceList[6] = 5 -- Sidearm: Blunderbuss
+        actChanceList[7] = 5 -- Sidearm: Church Cannon
         
         actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
     else
-        actChanceList[1] = 0 -- Right Light Attack + Approach
-        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[1] = 15 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
-        actChanceList[4] = 0 -- Jump Attack + Approach
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[4] = 3 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Spin Slash
+        actChanceList[6] = 5 -- Sidearm: Blunderbuss
+        actChanceList[7] = 5 -- Sidearm: Church Cannon
         
         actChanceList[10] = 0 -- Approach + Running Attack
-        actChanceList[11] = 0 -- Backstep Roll
-        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
-        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
-        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
         actChanceList[17] = 0 -- Approach
-        
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
-        
-        actChanceList[30] = 0 -- Cast Spell (Slot 0) - Lightning Arrow
-        actChanceList[31] = 0 -- Cast Spell (Slot 1) - Great Heal
-        actChanceList[32] = 0 -- Cast Spell (Slot 2) - Tears of Denial
     end
     
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Snipe the player is they are low
-    if ai:GetHpRate(TARGET_ENE_0) < 0.1 then
-        actChanceList[30] = 100 -- Cast Spell (Slot 0) - Lightning Arrow
-    end
-    
     -- Invalid Item check
     if speffect_no_invalid_item then
         actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
@@ -117,16 +100,19 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
     end
     
-    -- Block repeat usage of Gold Pine Resin while active
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
+    -- Block Sidearm if stamina when low on stamina
+    if stamina < 100 then
+        actChanceList[6] = 0 -- Sidearm: Blunderbuss
+    end
     
-    if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
-        actChanceList[20] = 0 -- Use Item (Slot 0) - Gold Pine Resin
+    -- Block Sidearm if stamina when low on stamina
+    if stamina < 100 then
+        actChanceList[7] = 0 -- Sidearm: Church Cannon
     end
     
     -- Block WA if stamina when low on stamina
     if stamina < 30 then
-        actChanceList[5] = 0 -- WA: Stance
+        actChanceList[5] = 0 -- WA: Spin Slash
     end
     
     -- Block dash and rolls when low on stamina
@@ -184,7 +170,9 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act02) -- Right Heavy Attack + Approach
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act03) -- Kick + Approach
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act04) -- Jump Attack + Approach
-    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act05) -- WA: Stance
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act05) -- WA: Spin Slash
+    actFuncList[6] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act06) -- Sidearm: Blunderbuss
+    actFuncList[7] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act07) -- Sidearm: Church Cannon
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act10) -- Approach + Running Attack
@@ -195,14 +183,6 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[15] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act15) -- Strafe
     actFuncList[16] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act16) -- Backstep
     actFuncList[17] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act17) -- Approach
-    
-    -- Items
-    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act20)   -- Use Item (Slot 0) - Gold Pine Resin
-    
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_AshenHunter_Act32) -- Cast Spell (Slot 2) - Tears of Denial
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_AshenHunter_ActAfter_AdjustSpace), actTblList)
     return 
@@ -431,7 +411,7 @@ function NPC_AshenHunter_Act04(self, ai, goal)
     return GetWellSpace_Odds
 end
 
--- WA: Stance
+-- WA: Spin Slash
 function NPC_AshenHunter_Act05(self, ai, goal)
     local max_attack_distance = 2.6
     local distance = self:GetDist(TARGET_ENE_0)
@@ -452,6 +432,48 @@ function NPC_AshenHunter_Act05(self, ai, goal)
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
     end
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Sidearm: Blunderbuss
+function NPC_AshenHunter_Act06(self, ai, goal)
+    local max_attack_distance = 4.0
+    local distance = self:GetDist(TARGET_ENE_0)
+    
+    -- Force 1H mode
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
+    -- Switch to Blunderbuss if not out
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Sidearm: Church Cannon
+function NPC_AshenHunter_Act07(self, ai, goal)
+    local max_attack_distance = 4.0
+    local distance = self:GetDist(TARGET_ENE_0)
+    
+    -- Force 1H mode
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
+    -- Switch to Church Cannon if not out
+    if self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -663,7 +685,7 @@ function NPC_AshenHunter_Act15(self, ai, goal)
     local stamina = self:GetSp(TARGET_SELF)
     local duration = 1.8
     local run_start_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = -1
     
     -- Change to no guard if stamina is low
     if stamina <= 30 then
@@ -721,92 +743,13 @@ end
 -- Approach
 function NPC_AshenHunter_Act17(self, ai, goal)
     local end_approach_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = -1
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
     else
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, animation)
     end
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Use Item (Slot 0) - Gold Pine Resin
-function NPC_AshenHunter_Act20(self, ai, goal)
-    self:ChangeEquipItem(0) 
-    self:SetStringIndexedNumber("Gold Pine Resin", self:GetStringIndexedNumber("Gold Pine Resin") - 1)
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 0) - Lightning Arrow
-function NPC_AshenHunter_Act30(self, ai, goal)
-    self:ChangeEquipMagic(0) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(0, self:GetRandam_Int(0.5, 1), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.25, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 1) - Great Heal
-function NPC_AshenHunter_Act31(self, ai, goal)
-    self:ChangeEquipMagic(1) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(1, self:GetRandam_Int(2, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
-    
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
--- Cast Spell (Slot 2) - Tears of Denial
-function NPC_AshenHunter_Act32(self, ai, goal)
-    self:ChangeEquipMagic(2) 
-    local roll_a = self:GetRandam_Int(1, 100)
-    local roll_b = self:GetRandam_Int(1, 100)
-    local distance = self:GetDist(TARGET_ENE_0)
-    local stamina = self:GetSp(TARGET_SELF)
-    
-    if self:IsBothHandMode(TARGET_SELF) or self:GetEquipWeaponIndex(ARM_L) == WEP_Primary then
-        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
-    end
-    
-    -- Cast Spell with Left Light Attack
-    local subgoal = ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 1, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
-    subgoal = subgoal:TimingSetTimer(2, self:GetRandam_Int(3, 5), UPDATE_SUCCESS)
-    subgoal:SetLifeEndSuccess(true)
-    
-    ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -853,13 +796,9 @@ Goal.Interrupt = function (self, ai, goal)
         return true
     -- Occurs if the player is vulnerable to a parry
     elseif ai:IsInterupt(INTERUPT_ParryTiming) then
-        if not ai:IsBothHandMode(TARGET_SELF) then
-            if distance < 2 and roll <= 50 and 20 <= stamina then
-                goal:ClearSubGoal()
-                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
-                return true
-            end
-        end
+        goal:ClearSubGoal()
+        NPC_AshenHunter_Act06(ai, goal, paramTbl) -- Sidearm: Blunderbuss
+        return true
     -- Occurs if a parry has been applied to the player
     elseif ai:IsInterupt(INTERUPT_SuccessParry) then
         goal:ClearSubGoal()

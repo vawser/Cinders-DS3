@@ -1499,6 +1499,11 @@ function ExecGuard(event, blend_type)
                     end
                 end
                 
+                -- Allow the AI to always fire
+                if env(1007) == TRUE then -- IsCOMPlayer
+                    l1 = "W_AttackLeftLight1"
+                end
+                
                 ExecEventAllBody(l1)
             end
             

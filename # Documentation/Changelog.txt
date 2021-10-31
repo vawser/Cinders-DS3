@@ -250,9 +250,6 @@ Finish following weapons:
  - Aggressive: attacks you to allow for parry training
 - You can toggle between Inside and Outside training with the Bone Collector. This will switch the positions of the dummies and the NPC to their outside/inside locations.
 
-# Interactables
-
-
 #------------------------------
 # TODO
 #------------------------------
