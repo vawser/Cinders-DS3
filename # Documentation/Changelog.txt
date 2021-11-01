@@ -95,6 +95,21 @@ Finish following weapons:
  - Moved the Marauder into the starting area near to the broken fountain.
  - Added a Ravenous Crystal Lizard encounter in the old Corrupted Gundyr location.
  
+- Irithyll Dungeon:
+ - Changed 4 chests into trapped chests.
+ 
+- Catacombs of Carthus
+ - Changed 2 chests into trapped chests. 
+ 
+- Smouldering Lake
+ - Changed 2 chests into trapped chests. 
+ 
+- Undead Settlement
+ - Changed 4 chests into trapped chests.
+ 
+- Road of Sacrifices/Farron Keep
+ - Changed 2 chests into trapped chests.
+ 
 # Bosses:
 - Marauder:
  - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
@@ -267,9 +282,3 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Add a bonfire to the level so it is warped to via warp menu
  Do the same for the other DLC arenas for future content
 
-Change some of the mimics into trapped chests
- Poison cloud
- Acid cloud
- Skeleton spawn
-
-Change companion consumables

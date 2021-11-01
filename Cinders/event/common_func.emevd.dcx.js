@@ -7558,3 +7558,132 @@ Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetSpEffect(10000, X20_4);
     DisplayEpitaphMessage(X24_4);
 });
+
+//------------------------
+// Trapped Chest - Spawn Bullet
+// <used flag>, <object id>, <ObjAct id>, <bullet spawner id>, <behavior id>
+// InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002020); // Poison Cloud
+//------------------------
+Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
+    
+    // Used chest
+    ReproduceObjectAnimation(X4_4, 1); // Open the chest
+    SetObjactState(X4_4, -1, Disabled); // Disable interaction
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    EndUnconditionally(EventEndType.End);
+    
+    // Unused chest
+    Label0();
+    SetObjectTreasureState(X4_4, Disabled); // Disable treasure
+    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFixedTimeFrames(10);
+    ShootBullet(X12_4, X12_4, -1, X16_4, 0, 0, 0);
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    SetEventFlag(X0_4, ON);
+});
+
+//------------------------
+// Trapped Chest - Spawn Enemies
+// <used flag>, <object id>, <ObjAct id>, <enemy 1 id>, <enemy 2 id>, <enemy 3 id>, 
+//------------------------
+Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    SkipIfComparison(3, ComparisonType.Equal, X12_4, -1);
+    ChangeCharacterEnableState(X12_4, Disabled);
+    SetCharacterAnimationState(X12_4, Disabled);
+    SetCharacterAIState(X12_4, Disabled);
+    
+    SkipIfComparison(3, ComparisonType.Equal, X16_4, -1);
+    ChangeCharacterEnableState(X16_4, Disabled);
+    SetCharacterAnimationState(X16_4, Disabled);
+    SetCharacterAIState(X16_4, Disabled);
+    
+    SkipIfComparison(3, ComparisonType.Equal, X20_4, -1);
+    ChangeCharacterEnableState(X20_4, Disabled);
+    SetCharacterAnimationState(X20_4, Disabled);
+    SetCharacterAIState(X20_4, Disabled);
+    
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
+    
+    // Used chest
+    ReproduceObjectAnimation(X4_4, 1); // Open the chest
+    SetObjactState(X4_4, -1, Disabled); // Disable interaction
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    EndUnconditionally(EventEndType.End);
+    
+    // Unused chest
+    Label0();
+    SetObjectTreasureState(X4_4, Disabled); // Disable treasure
+    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFixedTimeFrames(10);
+    
+    // Spawn enemies
+    SkipIfComparison(3, ComparisonType.Equal, X12_4, -1);
+    ChangeCharacterEnableState(X12_4, Enabled);
+    SetCharacterAnimationState(X12_4, Enabled);
+    SetCharacterAIState(X12_4, Enabled);
+    
+    SkipIfComparison(3, ComparisonType.Equal, X16_4, -1);
+    ChangeCharacterEnableState(X16_4, Enabled);
+    SetCharacterAnimationState(X16_4, Enabled);
+    SetCharacterAIState(X16_4, Enabled);
+    
+    SkipIfComparison(3, ComparisonType.Equal, X20_4, -1);
+    ChangeCharacterEnableState(X20_4, Enabled);
+    SetCharacterAnimationState(X20_4, Enabled);
+    SetCharacterAIState(X20_4, Enabled);
+    
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    SetEventFlag(X0_4, ON);
+});
+
+//------------------------
+// Trapped Chest - Activate Enemies
+// <used flag>, <object id>, <ObjAct id>, <enemy 1 id>, <enemy 2 id>, <enemy 3 id>, <inactive anim>, <wakeup anim>
+// 700, 1700 for skeletons
+// InitializeCommonEvent(20086002, 14001620, 4001620, 4004620, 4000621, 4000622, 4000623, 700, 1700); // Skeletons
+//------------------------
+Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    SetCharacterAnimationState(X12_4, Disabled);
+    SetCharacterAIState(X12_4, Disabled);
+    ForceAnimationPlayback(X12_4, X24_4, true, false, false, 0, 1);
+    
+    SetCharacterAnimationState(X16_4, Disabled);
+    SetCharacterAIState(X16_4, Disabled);
+    ForceAnimationPlayback(X16_4, X24_4, true, false, false, 0, 1);
+    
+    SetCharacterAnimationState(X20_4, Disabled);
+    SetCharacterAIState(X20_4, Disabled);
+    ForceAnimationPlayback(X20_4, X24_4, true, false, false, 0, 1);
+    
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
+    
+    // Used chest
+    ReproduceObjectAnimation(X4_4, 1); // Open the chest
+    SetObjactState(X4_4, -1, Disabled); // Disable interaction
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    EndUnconditionally(EventEndType.End);
+    
+    // Unused chest
+    Label0();
+    SetObjectTreasureState(X4_4, Disabled); // Disable treasure
+    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFixedTimeFrames(10);
+    
+    // Spawn enemies
+    SetCharacterAnimationState(X12_4, Enabled);
+    SetCharacterAIState(X12_4, Enabled);
+    ForceAnimationPlayback(X12_4, X28_4, true, false, false, 0, 1);
+    
+    SetCharacterAnimationState(X16_4, Enabled);
+    SetCharacterAIState(X16_4, Enabled);
+    ForceAnimationPlayback(X16_4, X28_4, true, false, false, 0, 1);
+    
+    SetCharacterAnimationState(X20_4, Enabled);
+    SetCharacterAIState(X20_4, Enabled);
+    ForceAnimationPlayback(X20_4, X28_4, true, false, false, 0, 1);
+    
+    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+    SetEventFlag(X0_4, ON);
+});
+
