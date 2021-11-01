@@ -1452,7 +1452,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsHunterPistol() == TRUE then
-                    if 50 > env(1001) then
+                    if 30 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113003) -- FP Pause
@@ -1460,7 +1460,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsRepeatingPistol() == TRUE then
-                    if 60 > env(1001) then
+                    if 35 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113003) -- FP Pause
@@ -1468,7 +1468,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsEvelynn() == TRUE then
-                    if 70 > env(1001) then
+                    if 40 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113003) -- FP Pause
@@ -1476,7 +1476,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsBlunderbuss() == TRUE then
-                    if 80 > env(1001) then
+                    if 50 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113005) -- FP Pause
@@ -1492,7 +1492,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsFistOfGratia() == TRUE then
-                    if 50 > env(1001) then
+                    if 60 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113005) -- FP Pause
