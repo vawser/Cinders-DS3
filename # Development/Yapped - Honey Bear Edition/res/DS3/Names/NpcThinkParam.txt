@@ -204,6 +204,7 @@
 35900 The Father
 36000 The Mother
 36100 The Child
+36200 Ashen Hunter Yafuh
 39999 ### Companions ###
 40000 Hollow
 40010 Lothric Knight (Sword)
@@ -225,6 +226,9 @@
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
+50002 Sellsword Luet - Profaned Capital
+50010 Maldron the Assassin - Irithyll
+50011 Maldron the Assassin - Betrayer
 89999 ### Enemies ###
 90390 Dungeon Objects (for bullet owners)
 101000 Gyrm
@@ -273,6 +277,8 @@
 107095 Skeleton
 107096 Skeleton
 107126 Skeleton
+107400 El Hueso
+107401 El Hueso - Parry Practice
 109000 Pus of Man
 109001 Pus of Man - TOG
 109010 Pus of Man
@@ -982,6 +988,7 @@
 722800 Hex Scribe
 722900 Priestess Emilia
 723000 Knight Lun
+724000 Bone Collector
 750000 The Lord's Blade
 751000 The Abyss Walker
 752000 The Dragonslayer

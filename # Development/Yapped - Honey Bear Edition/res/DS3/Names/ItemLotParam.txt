@@ -306,6 +306,8 @@
 15702 [Disciple of Alsanna] Ivory King Gauntlets
 15703 [Disciple of Alsanna] Ivory King Leggings
 15800 [Pot King Greg] Bloodthirsty Frying Pan
+15900 [Ashen Hunter Yafuh] Bone Marrow Ash
+15901 [Ashen Hunter Yafuh] Cannon
 50391 ### Treasure - NPC
 50400 [Yuria of Londor] Darkdrift
 50600 [Company Captain Yorshka] Blade of the Darkmoon
@@ -512,13 +514,13 @@
 66310 [Midir Defeated] Ring of Calamity
 66311 [Midir Defeated] Sacred Chime of Filianore
 79999 ### Script - Ascended Spells
-80000 [Sorcery] Refined Farron Dart
+80000 [Sorcery] Bloodthirsty Farron Dart
 80010 [Sorcery] Swift Soul Wave
 80020 [Sorcery] Explosive Soul Arrow
 80030 [Sorcery] Explosive Soul Spear
 80040 [Sorcery] Homing Crystal Soul Spear
 80050 [Sorcery] Extended White Dragon Breath
-80060 [Sorcery] Refined Farron Flashsword
+80060 [Sorcery] Bloodthirsty Farron Flashsword
 80070 [Sorcery] Heavy Soul Greatsword
 80080 [Sorcery] Heavy Old Moonlight
 80090 [Sorcery] Surging Soulmass
@@ -552,7 +554,7 @@
 80400 [Sorcery] Focused Hail of Blades
 80410 [Sorcery] Explosive Ice
 80420 [Sorcery] Chilling Rime
-80430 [Sorcery] Refined Path of Frost
+80430 [Sorcery] Bloodthirsty Path of Frost
 80440 [Sorcery] Quickened Discs of Dorthinus
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
@@ -561,14 +563,14 @@
 81040 [Pyromancy] Distant Profaned Flame
 81050 [Pyromancy] Chaos Vortex
 81060 [Pyromancy] Great Seething Chaos
-81070 [Pyromancy] Refined Flame Fan
+81070 [Pyromancy] Bloodthirsty Flame Fan
 81080 [Pyromancy] Incendiary Combustion
-81090 [Pyromancy] Refined Fire Surge
+81090 [Pyromancy] Bloodthirsty Fire Surge
 81100 [Pyromancy] Incendiary Fire Whip
-81110 [Pyromancy] Refined Sacred Flame
+81110 [Pyromancy] Bloodthirsty Sacred Flame
 81120 [Pyromancy] Repeating Firestorm
 81130 [Pyromancy] Repeating Chaos Storm
-81140 [Pyromancy] Refined Lingering Chaos
+81140 [Pyromancy] Bloodthirsty Lingering Chaos
 81150 [Pyromancy] Lingering Floating Chaos
 81160 [Pyromancy] Incinerating Chaos Beam
 81170 [Pyromancy] Great Cataclysm
@@ -590,7 +592,7 @@
 81330 [Pyromancy] Refined Profuse Sweat
 81340 [Pyromancy] Lingering Iron Flesh
 81350 [Pyromancy] Lingering Rockflesh
-82000 [Miracle] Refined Lightning Arrow
+82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
 82030 [Miracle] Homing Sunlight Spear
@@ -601,9 +603,9 @@
 82080 [Miracle] Sunlight Storm
 82090 [Miracle] Repeating Heavenly Thunder
 82100 [Miracle] Lingering Overwhelming Power
-82110 [Miracle] Refined Way of White Corona
+82110 [Miracle] Bloodthirsty Way of White Corona
 82120 [Miracle] Quickened Halo
-82130 [Miracle] Refined Divine Arrow
+82130 [Miracle] Bloodthirsty Divine Arrow
 82140 [Miracle] Homing Lothric's Holy Spear
 82150 [Miracle] Refined Force
 82160 [Miracle] Quickened Wrath of the Gods
@@ -631,17 +633,17 @@
 82390 [Miracle] Lingering Perseverance
 82400 [Miracle] Mass Tears of Denial
 82410 [Miracle] Refined Homeward
-83000 [Hex] Refined Deep Barb
+83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
 83030 [Hex] Quickened Soul Dregs
-83040 [Hex] Refined Surging Deep
+83040 [Hex] Bloodthirsty Surging Deep
 83050 [Hex] Explosive Climax
 83060 [Hex] Great Writhing Deep
-83070 [Hex] Refined Dark Edge
+83070 [Hex] Bloodthirsty Dark Edge
 83080 [Hex] Heavy Abyssal Edge
 83090 [Hex] Pursuers
-83100 [Hex] Cursed Dark Bead
+83100 [Hex] Great Dark Bead
 83110 [Hex] Lingering Cascading Deep
 83120 [Hex] Repeating Dreg Torrent
 83130 [Hex] Repeating Yearning Dregs
@@ -654,7 +656,7 @@
 83200 [Hex] Scorching Mournful Flames
 83210 [Hex] Forceful Dark Dance
 83220 [Hex] Scorching Recollection
-83230 [Hex] Refined Nibble
+83230 [Hex] Bloodthirsty Nibble
 83240 [Hex] Gnawing Swarm
 83250 [Hex] Quickened Dorhys' Gnawing
 83260 [Hex] Repeating Swarm

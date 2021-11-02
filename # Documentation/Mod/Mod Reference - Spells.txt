@@ -9,8 +9,8 @@
 - Slot Use: 1
 - Magic Damage: 70 {210}
 
-#---- Spellbound Farron Dart
-- Gives spellbound charges on hit.
+#---- Bloodthirsty Farron Dart
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Farron Flashsword
@@ -20,8 +20,8 @@
 - Slot Use: 1
 - Magic Damage: 100 {300}
 
-#---- Spellbound Flashsword
-- Gives spellbound charges on hit.
+#---- Bloodthirsty Flashsword
+- Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
 # Scattering Soul Orb
@@ -181,7 +181,7 @@
 #--------------------------------
 # Soul Wave
 #--------------------------------
-- FP Cost: 45
+- FP Cost: 35
 - INT Req: 10
 - Slot Use: 1
 - Magic Damage: 70 {210}
@@ -307,7 +307,7 @@
 #--------------------------------
 # Rime
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 120
 - INT Req: 40
 - Slot Use: 2
 - Magic Damage: 100 {300}
@@ -328,8 +328,8 @@
 - Magic Damage: 250 {750}
 - Frost Inflict: 30
 
-#---- Refined Path of Frost
-- Reduces FP cost to 150.
+#---- Bloodthirsty Path of Frost
+- Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
 # Discs of Dorthinus
@@ -512,8 +512,8 @@
 - Slot Use: 1
 - Fire Damage: 100 {300}
 
-#---- Spellbound Flame Fan
-- Gives spellbound charges on hit.
+#---- Bloodthirsty Flame Fan
+- Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
 # Fireball
@@ -552,8 +552,8 @@
 - Slot Use: 1
 - Fire Damage: 50 {150}
 
-#---- Spellbound Fire Surge
-- Gives spellbound charges on hit.
+#---- Bloodthirsty Fire Surge
+- Gives 1 bloodthirst charges on hit.
 
 #--------------------------------
 # Great Combustion
@@ -623,7 +623,7 @@
 - Fire Damage: 40 {120} {*10, shared}
 
 #---- Great Cataclysm
-- Releases a single giant fire orb. Fire damage: orb 300 {900} [200 {600}].
+- Releases a single giant fire orb. Fire damage: orb 300 {900} [300 {900}] {shared}.
 
 #--------------------------------
 # Floating Chaos
@@ -662,8 +662,8 @@
 - Slot Use: 1
 - Fire Damage: based on spell tool.
 
-#---- Spellbound Sacred Flame
-- Gives spellbound charges on hit.
+#---- Bloodthirsty Sacred Flame
+- Gives 10 bloodthirst charges.
 
 #--------------------------------
 # Seething Chaos
@@ -702,8 +702,8 @@
 - Slot Use: 1
 - Fire Damage: 100 {300}
 
-#---- Refined Lingering Chaos
-- FP consumption reduced to 0.
+#---- Bloodthirsty Lingering Chaos
+- Gives 10 bloodthirst charges on hit.
 
 #--------------------------------
 # Earthfall
@@ -877,18 +877,20 @@
 #--------------------------------
 # Way of White Corona
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 35
 - FTH Req: 10
+- Slot Use: 1
 - Physical Damage: 50 {150} [50 {150}] [50 {150}]
 
-#---- Refined Way of White Corona
-- FP consumption reduced to 0.
+#---- Bloodthirsty Way of White Corona
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Force
 #--------------------------------
 - FP Cost: 30
 - FTH Req: 10
+- Slot Use: 1
 
 #---- Refined Force
 - FP consumption reduced to 0.
@@ -896,9 +898,10 @@
 #--------------------------------
 # Emit Force
 #--------------------------------
-- FP Cost: 70
-- Physical Damage: 150 {450} [100 {300}] 
-- FTH Req: 30
+- FP Cost: 80
+- FTH Req: 20
+- Slot Use: 1
+- Physical Damage: 125 {375} [75 {225}] 
 
 #---- Emit Wrath
 - Increases the radius of the burst on impact.
@@ -906,10 +909,10 @@
 #--------------------------------
 # Wrath of the Gods
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 95
+- FTH Req: 30
 - Slot Use: 2
-- Physical Damage: 300 {900}
-- FTH Req: 50
+- Physical Damage: 200 {600}
 
 #---- Quickened Wrath of the Gods
 - Changes cast animation to Force.
@@ -917,9 +920,10 @@
 #--------------------------------
 # Lightning Spear
 #--------------------------------
-- FP Cost: 90
-- Lightning Damage: 120 {360} [50 {150}] [50 {150}] 
-- FTH Req: 20
+- FP Cost: 70
+- FTH Req: 10
+- Slot Use: 1
+- Lightning Damage: 110 {330} [50 {150}] [50 {150}] 
 
 #---- Lightning Surge
 - Changes cast animation to Fire Surge and reduces damage to 100.
@@ -927,9 +931,10 @@
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
-- FP Cost: 125
-- Lightning Damage: 200 {600} [80 {240}] [80 {240}] 
-- FTH Req: 40
+- FP Cost: 80
+- Lightning Damage: 160 {480} [80 {240}] [80 {240}] 
+- FTH Req: 25
+- Slot Use: 1
 
 #---- Storm Spear
 - Adds a ground lighting AoE wave on impact, damage 80 {240}.
@@ -937,10 +942,10 @@
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
-- FP Cost: 180
+- FP Cost: 120
+- Lightning Damage: 250 {750} [100 {300}] [100 {300}]
+- FTH Req: 40
 - Slot Use: 2
-- Lightning Damage: 300 {900} [100 {300}] [100 {300}]
-- FTH Req: 60
 
 #---- Homing Sunlight Spear
 - Increases projectile homing to 180 degrees.
@@ -949,18 +954,20 @@
 # Lightning Arrow
 #--------------------------------
 - FP Cost: 30
-- Lightning Damage: 75 {225}
-- FTH Req: 20
+- Lightning Damage: 65 {195}
+- FTH Req: 10
+- Slot Use: 1
 
-#---- Refined Lightning Arrow
-- FP consumption reduced to 0.
+#---- Bloodthirsty Lightning Arrow
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Lightning Storm
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 70
 - Lightning Damage: 80 {240} {*6, shared}
-- FTH Req: 40
+- FTH Req: 35
+- Slot Use: 1
 
 #---- Sunlight Storm
 - Changes the spell to be a ranged center strike with a wave of lightning around it.
@@ -968,9 +975,10 @@
 #--------------------------------
 # Lightning Stake
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 95
 - Lightning Damage: 200 {600} [100 {300}] 
 - FTH Req: 40
+- Slot Use: 2
 
 #---- Sunlight Stake
 - Increases the radius of each of the hits.
@@ -978,10 +986,10 @@
 #--------------------------------
 # Divine Pillars of Light
 #--------------------------------
-- FP Cost: 5 (10)
-- Slot Use: 2
+- FP Cost: 5 (5)
 - Physical Damage: 200 {600} {*5, individual}
 - FTH Req: 50
+- Slot Use: 1
 
 #---- Repeating Divine Pillars of Light
 - Doubles the amount of bullets emitted.
@@ -989,10 +997,10 @@
 #--------------------------------
 # Halo
 #--------------------------------
-- FP Cost: 100
-- Slot Use: 2
-- Physical Damage: 75 {225} [75 {225}] [75 {225}] {*10, shared}
+- FP Cost: 140
+- Physical Damage: 120 {360} [120 {360}] [120 {360}] {*10, shared}
 - FTH Req: 50
+- Slot Use: 2
 
 #---- Quickened Halo
 - Changes cast animation to Force.
@@ -1000,10 +1008,10 @@
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 200
-- Slot Use: 2
-- Lightning Damage: 100 {300} {*10, shared}
+- FP Cost: 140
+- Lightning Damage: 40 {120} {*10, shared}
 - FTH Req: 60
+- Slot Use: 2
 
 #---- Repeating Heavenly Thunder
 - Doubles the amount of bullets emitted.
@@ -1011,20 +1019,21 @@
 #--------------------------------
 # Angelic Barrage
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 190
+- Physical Damage: 60 {180} {*16, shared}
+- FTH Req: 60
 - Slot Use: 2
-- Physical Damage: 80 {240} {*16, shared}
-- FTH Req: 50
 
 #---- Angelic Punishment
-- Changes cast animation to Fire Surge, reduces FP cost to 30 per tick, reduces damage to 30 {90} per bullet, emits 2 bullets every 0.1 second.
+- Changes cast animation to Fire Surge, reduces FP cost to 20 per tick, reduces damage to 30 {90} per bullet, emits 2 bullets every 0.1 second.
 
 #--------------------------------
 # Divine Arrow
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 70
 - Physical Damage: 100 {300}
-- FTH Req: 30
+- FTH Req: 15
+- Slot Use: 1
 
 #---- Refined Divine Arrow
 - FP consumption reduced to 0.
@@ -1032,10 +1041,10 @@
 #--------------------------------
 # Lothric's Holy Spear
 #--------------------------------
-- FP Cost: 125
-- Slot Use: 2
+- FP Cost: 120
 - Physical Damage: 250 {750}
-- FTH Req: 50
+- FTH Req: 40
+- Slot Use: 2
 
 #---- Homing Lothric's Holy Spear
 - Increases projectile homing to 90 degrees.
@@ -1043,10 +1052,10 @@
 #--------------------------------
 # Proof of a Pact
 #--------------------------------
-- FP Cost: 30
-- Slot Use: 2
+- FP Cost: 110
 - Physical Damage: 200 {600}
-- FTH Req: 40
+- FTH Req: 50
+- Slot Use: 2
 
 #---- Repeating Proof of a Pact
 - Now summons a knight every half second.
@@ -1056,7 +1065,8 @@
 #--------------------------------
 - FP Cost: 120
 - Lightning Damage: 100 {300} {shared}
-- FTH Req: 40
+- FTH Req: 50
+- Slot Use: 1
 
 #---- Lingering Overwhelming Power
 - Increases duration to 8 seconds.
@@ -1064,10 +1074,10 @@
 #--------------------------------
 # Ghostly Assault
 #--------------------------------
-- FP Cost: 150
-- Slot Use: 2
+- FP Cost: 140
 - Physical Damage: 30 {90} (*15, individual)
 - FTH Req: 50
+- Slot Use: 1
 
 #---- Extended Ghostly Assault
 - The arrows now have unlimited range.
@@ -1075,9 +1085,10 @@
 #--------------------------------
 # Wrathful Orbs
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 80
 - Lightning Damage: 50 {150} {*5, individual}
-- INT Req: 40
+- INT Req: 25
+- Slot Use: 1
 
 #---- Weakening Wrathful Orbs
 - Impact reduces the Lightning absorption of the target by 10% for 5 seconds.
@@ -1085,9 +1096,10 @@
 #--------------------------------
 # Holy Schism
 #--------------------------------
-- FP Cost: 200
-- Lightning Damage: 100 {300} [150 {450}] (*4, shared)
-- FTH Req: 40
+- FP Cost: 190
+- Lightning Damage: 100 {300} [100 {300}] (*4, shared)
+- FTH Req: 60
+- Slot Use: 2
 
 #---- Quickened Holy Schism
 - Changes cast animation to Force.
@@ -1095,9 +1107,10 @@
 #--------------------------------
 # Wrathful Barrage
 #--------------------------------
-- FP Cost: 35 (35)
-- Lightning Damage: 50 {150} {*20, shared}
-- FTH Req: 30
+- FP Cost: 30 (30)
+- Lightning Damage: 60 {180} {*20, shared}
+- FTH Req: 35
+- Slot Use: 1
 
 #---- Wrathful Wave
 - Changes cast animation to Farron Dart and fires 1 wave per cast.
@@ -1110,6 +1123,7 @@
 #--------------------------------
 - FP Cost: 100
 - FTH Req: 10
+- Slot Use: 1
 - Base Effect: Heals 200 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Heal Aid
@@ -1120,6 +1134,7 @@
 #--------------------------------
 - FP Cost: 150
 - FTH Req: 20
+- Slot Use: 1
 - Base Effect: Heals 300 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Heal
@@ -1130,6 +1145,7 @@
 #--------------------------------
 - FP Cost: 200
 - FTH Req: 30
+- Slot Use: 1
 - Base Effect: Heals 350 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Med Heal
@@ -1140,6 +1156,7 @@
 #--------------------------------
 - FP Cost: 250
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: Heals 400 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Great Heal
@@ -1149,8 +1166,8 @@
 # Soothing Sunlight
 #--------------------------------
 - FP Cost: 300
-- Slot Use: 2
 - FTH Req: 50
+- Slot Use: 1
 - Base Effect: Heals 500 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Soothing Sunlight
@@ -1161,6 +1178,7 @@
 #--------------------------------
 - FP Cost: 150
 - FTH Req: 30
+- Slot Use: 1
 - Base Effect: Heals 300 HP and reduces max FP by 10% for 60 seconds. Stacks.
 
 #---- Extended Projected Heal
@@ -1171,6 +1189,7 @@
 #--------------------------------
 - FP Cost: 150
 - FTH Req: 30
+- Slot Use: 1
 - Base Effect: Heals 600 HP over 60 seconds (5 HP/s) and reduces max FP by 40% for 60 seconds.
 
 #---- Lingering Replenishment
@@ -1181,6 +1200,7 @@
 #--------------------------------
 - FP Cost: 200
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: Heals 1200 HP over 60 seconds (10 HP/s) and reduces max FP by 40% for 60 seconds.
 
 #---- Lingering Bountiful Light
@@ -1190,8 +1210,8 @@
 # Bountiful Sunlight
 #--------------------------------
 - FP Cost: 250
-- Slot Use: 2
 - FTH Req: 50
+- Slot Use: 1
 - Base Effect: Heals 1800 HP over 60 seconds (15 HP/s) and reduces max FP by 40% for 60 seconds.
 
 #---- Lingering Bountiful Sunlight
@@ -1202,6 +1222,7 @@
 #--------------------------------
 - FP Cost: 200
 - FTH Req: 20
+- Slot Use: 1
 - Base Effect: Cures all status aux for caster and allies in range.
 
 #---- Quickened Caressing Tears
@@ -1211,8 +1232,8 @@
 # Tears of Denial
 #--------------------------------
 - FP Cost: 300
-- Slot Use: 2
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: prevents killing blow whilst active. Lasts until death.
 
 #---- Mass Tears of Denial
@@ -1223,6 +1244,7 @@
 #--------------------------------
 - FP Cost: 50
 - FTH Req: 10
+- Slot Use: 1
 - Base Effect: return to bonfire.
 
 #---- Refined Homeward
@@ -1232,8 +1254,8 @@
 # Blessed Weapon
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds and reduces max FP by 20% for 60 seconds.
 
 #---- Supreme Blessed Weapon
@@ -1243,8 +1265,8 @@
 # Sacred Oath
 #--------------------------------
 - FP Cost: 300
-- Slot Use: 2
 - FTH Req: 60
+- Slot Use: 1
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds and reduces max FP by 25% for 60 seconds.
 
 #---- Extended Great Heal
@@ -1254,9 +1276,9 @@
 # Lightning Blade
 #--------------------------------
 - FP Cost: 200
-- Slot Use: 2
 - Lightning Damage: 80
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: adds 75 Lightning damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
 
 #---- Sunlight Blade
@@ -1266,9 +1288,9 @@
 # Darkmoon Blade
 #--------------------------------
 - FP Cost: 200
-- Slot Use: 2
 - Magic Damage: 80
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: adds 75 Magic damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
 
 #---- Supreme Darkmoon Blade
@@ -1279,17 +1301,18 @@
 #--------------------------------
 - FP Cost: 120
 - FTH Req: 30
+- Slot Use: 1
 - Base Effect: increases Magic absorption by 30% for 60 seconds.
 
 #--------------------------------
 # Great Magic Barrier
 #--------------------------------
 - FP Cost: 200
-- Slot Use: 2
 - FTH Req: 60
+- Slot Use: 1
 - Base Effect: increases Magic absorption by 50% for 60 seconds.
 
-#---- Refined Way of White Corona
+#---- Supreme Magic Barrier
 - Increases Magic, Fire, Lightning and Dark absorption by 50%.
 
 #--------------------------------
@@ -1297,6 +1320,7 @@
 #--------------------------------
 - FP Cost: 250
 - FTH Req: 30
+- Slot Use: 1
 - Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds and reduces max FP by 25% for 60 seconds.
 
 #---- Divine Relief
@@ -1306,8 +1330,8 @@
 # Perseverance
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - FTH Req: 40
+- Slot Use: 1
 - Base Effect: boosts Poise by 50% for 60 seconds and reduces max FP by 10% for 60 seconds.
 
 #---- Lingering Perseverance
@@ -1320,21 +1344,23 @@
 # Deep Barb
 #--------------------------------
 - FP Cost: 30
-- Dark Damage: 75 {225}
+- Dark Damage: 70 {210}
 - Base Effect: inflicts 10 Curse.
 - INT Req: 5
 - FTH Req: 5
+- Slot Use: 1
 
-#---- Refined Deep Barb
-- FP consumption reduced to 20.
+#---- Bloodthirsty Deep Barb
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Deep Soul
 #--------------------------------
 - FP Cost: 70
 - Dark Damage: 120 {360}
-- INT Req: 10
-- FTH Req: 10
+- INT Req: 5
+- FTH Req: 5
+- Slot Use: 1
 - Base Effect: inflicts 20 Curse.
 
 #---- Deep Overflow
@@ -1343,10 +1369,11 @@
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
-- FP Cost: 120
-- Dark Damage: 200 {600}
-- INT Req: 15
-- FTH Req: 15
+- FP Cost: 80
+- Dark Damage: 175 {525}
+- INT Req: 10
+- FTH Req: 10
+- Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
 #---- Weakening Deep Soul
@@ -1355,11 +1382,11 @@
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 95
+- Dark Damage: 250 {700} 
+- INT Req: 15
+- FTH Req: 15
 - Slot Use: 2
-- Dark Damage: 300 {900} 
-- INT Req: 25
-- FTH Req: 25
 - Base Effect: inflicts 40 Curse.
 
 #---- Quickened Soul Dregs
@@ -1372,19 +1399,20 @@
 - Dark Damage: 100 {300}
 - INT Req: 5
 - FTH Req: 5
+- Slot Use: 1
 - Base Effect: inflicts 10 Curse.
 
-#---- Refined Dark Edge
-- FP consumption reduced to 20.
+#---- Bloodthirsty Dark Edge
+- Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
 # Abyssal Edge
 #--------------------------------
-- FP Cost: 100
-- Slot Use: 2
-- Dark Damage: 250 {750}  
-- INT Req: 20
-- FTH Req: 20
+- FP Cost: 70
+- Dark Damage: 200 {600}  
+- INT Req: 15
+- FTH Req: 15
+- Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
 #---- Heavy Abyssal Edge
@@ -1393,34 +1421,36 @@
 #--------------------------------
 # Dark Bead
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 130
+- Dark Damage: 50 {150} {*7, individual}
+- INT Req: 30
+- FTH Req: 30
 - Slot Use: 2
-- Dark Damage: 80 {240} {*7, individual}
-- INT Req: 25
-- FTH Req: 25
 
-#---- Cursed Dark Bead
-- Adds 10 Curse inflict to projectiles.
+#---- Great Dark Bead
+- Adds 10 Curse inflict to projectiles and increases their damage to 75.
 
 #--------------------------------
 # Surging Deep
 #--------------------------------
-- FP Cost: 25
-- Dark Damage: 50 {150}
-- INT Req: 15 
+- FP Cost: 40
+- Dark Damage: 80 {240}
+- INT Req: 15
 - FTH Req: 15
+- Slot Use: 1
 - Base Effect: inflicts 8 Curse.
 
-#---- Refined Surging Deep
-- FP consumption reduced to 0.
+#---- Bloodthirsty Surging Deep
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Cascading Deep
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 95
 - Dark Damage: 25 {75} {*50, individual}
 - INT Req: 20
 - FTH Req: 20
+- Slot Use: 2
 - Base Effect: inflicts 10 Curse per bullet.
 
 #---- Lingering Cascading Deep
@@ -1429,12 +1459,12 @@
 #--------------------------------
 # Yearning Dregs
 #--------------------------------
-- FP Cost: 5 (10)
+- FP Cost: 5 (5)
 - Dark Damage: 200 {600} {*5, shared}
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 25
+- FTH Req: 25
+- Slot Use: 1
 - Base Effect: inflicts 60 Curse per pillar.
-- FTH Req: 50
 
 #---- Repeating Yearning Dregs
 - Doubles the amount of bullets emitted.
@@ -1443,10 +1473,10 @@
 # Dreg Torrent
 #--------------------------------
 - FP Cost: 80
-- Slot Use: 2
 - Dark Damage: 25 {75} {*25, individual}
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 10
+- FTH Req: 10
+- Slot Use: 1
 - Base Effect: inflicts 10 Curse per bullet.
 
 #---- Repeating Dreg Torrent
@@ -1455,10 +1485,11 @@
 #--------------------------------
 # Writhing Deep
 #--------------------------------
-- FP Cost: 60
-- Dark Damage: 150 {450} [300 {900}] 
-- INT Req: 15
-- FTH Req: 15
+- FP Cost: 140
+- Dark Damage: 135 {405} [275 {825}] 
+- INT Req: 25
+- FTH Req: 25
+- Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
 #---- Great Writhing Deep
@@ -1467,11 +1498,11 @@
 #--------------------------------
 # Climax
 #--------------------------------
-- FP Cost: 200
-- Slot Use: 2
-- Dark Damage: 250 {750} 
-- INT Req: 30
-- FTH Req: 30
+- FP Cost: 120
+- Dark Damage: 225 {675} 
+- INT Req: 20
+- FTH Req: 20
+- Slot Use: 1
 - Base Effect: inflicts 20 Curse.
 
 #---- Explosive Climax
@@ -1480,15 +1511,15 @@
 #--------------------------------
 # Affinity
 #--------------------------------
-- FP Cost: 175
-- Slot Use: 2
-- Dark Damage: 75 {225} {*5, individual}
+- FP Cost: 120
+- Dark Damage: 60 {180} {*5, individual}
 - INT Req: 20
 - FTH Req: 20
+- Slot Use: 2
 - Base Effect: inflicts 10 Curse.
 
 #---- Pursuers
-- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 60. Each bullet does 40 {120} Dark damage and no curse build up.
+- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 200. Each bullet does 40 {120} Dark damage and no curse build up. Requirements increased to 30 INT and 30 FTH.
 
 #--------------------------------
 # Whisper of Despair
@@ -1496,6 +1527,7 @@
 - FP Cost: 80
 - INT Req: 15
 - FTH Req: 15
+- Slot Use: 1
 - Base Effect: inflicts 50 Curse.
 
 #---- Echo of Despair
@@ -1504,22 +1536,24 @@
 #--------------------------------
 # Black Fireball
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 70
 - INT Req: 5
 - FTH Req: 5
+- Slot Use: 1
 - Dark Damage: 100 {300} [50 {150}]
 - Base Effect: inflicts 20 Toxic.
 
 #---- Black Fire Whip
-- Spell becomes Fire Whip, toxic inflict reduced to 5.
+- Spell becomes Fire Whip, toxic inflict reduced to 5. Requirements increased to 25 INT and 25 FTH.
 
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
-- FP Cost: 90
-- INT Req: 15
-- FTH Req: 15
-- Dark Damage: 180 {560} [100 {300}]
+- FP Cost: 80
+- INT Req: 10
+- FTH Req: 10
+- Slot Use: 1
+- Dark Damage: 160 {480} [80 {240}]
 - Base Effect: inflicts 30 Toxic.
 
 #---- Weakening Black Fire Orb
@@ -1528,11 +1562,11 @@
 #--------------------------------
 # Black Fire Vestiges
 #--------------------------------
-- FP Cost: 130
+- FP Cost: 95
+- INT Req: 15
+- FTH Req: 15
 - Slot Use: 2
-- INT Req: 30
-- FTH Req: 30
-- Magic Damage: 250 {750} [150 {450}]
+- Magic Damage: 225 {675} [150 {450}]
 - Base Effect: inflicts 40 Toxic.
 
 #---- Scorching Black Fire Vestiges
@@ -1541,9 +1575,10 @@
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
-- FP Cost: 60
-- INT Req: 15
-- FTH Req: 15
+- FP Cost: 80
+- INT Req: 10
+- FTH Req: 10
+- Slot Use: 1
 - Dark Damage: 40 {120} {*5, shared added per wave)
 - Base Effect: inflicts 10 Toxic.
 
@@ -1556,6 +1591,7 @@
 - FP Cost: 60
 - INT Req: 15
 - FTH Req: 15
+- Slot Use: 1
 - Dark Damage: 150 {450} [50 {150}]
 - Base Effect: inflicts 20 Toxic.
 
@@ -1566,10 +1602,10 @@
 # Black Serpent
 #--------------------------------
 - FP Cost: 100
-- Slot Use: 2
-- INT Req: 20
-- FTH Req: 20
-- Dark Damage: 200 {600}
+- INT Req: 5
+- FTH Req: 5
+- Slot Use: 1
+- Dark Damage: 160 {480}
 - Base Effect: inflicts 30 Toxic.
 
 #---- Quickened Black Serpent
@@ -1578,23 +1614,23 @@
 #--------------------------------
 # Dark Dance  
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 95
+- INT Req: 15
+- FTH Req: 15
 - Slot Use: 2
-- INT Req: 25
-- FTH Req: 25
-- Dark Damage: 60 {180} {*4, individual} {720}
+- Dark Damage: 50 {150} {*4, individual} {600}
 - Base Effect: inflicts 10 Toxic.
 
 #---- Forceful Dark Dance
-- Adds a ground black flame patch that act as a shockwave. 60 {180} Dark damage.
+- Adds a ground black flame patch that act as a shockwave. 50 {150} Dark damage.
 
 #--------------------------------
 # Recollection  
 #--------------------------------
-- FP Cost: 80
-- Slot Use: 2
+- FP Cost: 95
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 2
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Toxic.
 
@@ -1604,10 +1640,10 @@
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
-- FP Cost: 150
-- Slot Use: 2
-- INT Req: 25
-- FTH Req: 25
+- FP Cost: 120
+- INT Req: 20
+- FTH Req: 20
+- Slot Use: 1
 - Dark Damage: 100 {300} [200 {600}]
 - Base Effect: inflicts 40 Toxic.
 
@@ -1620,18 +1656,20 @@
 - FP Cost: 30
 - INT Req: 5
 - FTH Req: 5
+- Slot Use: 1
 - Dark Damage: 50 {150}
 - Base Effect: inflicts 10 Bleed
 
-#---- Refined Nibble
-- FP consumption reduced to 20.
+#---- Bloodthirsty Nibble
+- Gives 3 bloodthirst charges on hit.
 
 #--------------------------------
 # Gnaw
 #--------------------------------
 - FP Cost: 70
-- INT Req: 10
-- FTH Req: 10
+- INT Req: 5
+- FTH Req: 5
+- Slot Use: 1
 - Dark Damage: 100 {300}
 - Base Effect: inflicts 20 Bleed
 
@@ -1641,11 +1679,11 @@
 #--------------------------------
 # Dorhys' Gnawing
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 95
+- INT Req: 15
+- FTH Req: 15
 - Slot Use: 2
-- INT Req: 20
-- FTH Req: 20
-- Dark Damage: 150 {450}
+- Dark Damage: 175 {450}
 - Base Effect: inflicts 30 Bleed
 
 #---- Quickened Dorhys' Gnawing
@@ -1654,23 +1692,23 @@
 #--------------------------------
 # Lifehunt Scythe
 #--------------------------------
-- FP Cost: 100
-- Slot Use: 2
-- INT Req: 25
-- FTH Req: 25
-- Dark Damage: 150 {450}
+- FP Cost: 95
+- INT Req: 20
+- FTH Req: 20
+- Slot Use: 1
+- Dark Damage: 250 {750}
 - Base Effect: absorbs 10% HP on hit.
 
 #---- Great Lifehunt Scythe
-- Increases damage dealt to 250 {750}.
+- Increases damage dealt to 400 {1200}.
 
 #--------------------------------
 # Devouring Swarm
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 80
+- INT Req: 20
+- FTH Req: 20
 - Slot Use: 2
-- INT Req: 25
-- FTH Req: 25
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Bleed
 
@@ -1683,6 +1721,7 @@
 - FP Cost: 50
 - INT Req: 10
 - FTH Req: 10
+- Slot Use: 1
 - Base Effect: causes corpses to explode, dealing damage to foes.
 
 #---- Refined Dead Again
@@ -1691,9 +1730,10 @@
 #--------------------------------
 # Vow of Agony
 #--------------------------------
-- FP Cost: 100
-- INT Req: 20
-- FTH Req: 20
+- FP Cost: 160
+- INT Req: 30
+- FTH Req: 30
+- Slot Use: 1
 - Dark Damage: 50 {150} (per tick)
 
 #---- Curse of Agony
@@ -1702,15 +1742,15 @@
 #--------------------------------
 # Gravelord Sword Dance
 #--------------------------------
-- FP Cost: 5 (10)
-- Slot Use: 2
+- FP Cost: 10 (10)
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 1
 - Dark Damage: 200 {600} {*1, shared}
 - Base Effect: inflicts 60 Toxic.
 
 #---- Gravelord Sword
-- Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 30 per cast.
+- Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 95 per cast.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect
@@ -1721,6 +1761,7 @@
 - FP Cost: 100
 - INT Req: 20
 - FTH Req: 20
+- Slot Use: 1
 - Base Effect: increases absorption to 100% for 2 seconds
 
 #---- Lingering Repel
@@ -1730,9 +1771,9 @@
 # Numbness
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 1
 - Base Effect: increases absorption by 35% for 60 seconds but reduces camera FOV to 20 and reduces max FP by 25% for 60 seconds.
 
 #---- Lingering Numbness
@@ -1742,21 +1783,21 @@
 # Black Flame Arc
 #--------------------------------
 - FP Cost: 200
-- Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 1
 - Base Effect: adds 75 Dark damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
 
 #---- Supreme Black Flame Arc
-- Adds 100 Dark damage to main weapon and boosts damage against Demon enemies by 20%.
+- Adds 100 Dark damage to main weapon, boosts damage against Demon enemies by 20% and reduces max FP by 40%. FP cost increased to 300.
 
 #--------------------------------
 # Pungent Blade
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - INT Req: 20
 - FTH Req: 20
+- Slot Use: 1
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds and reduces max FP by 20% for 60 seconds.
 
 #---- Supreme Pungent Blade
@@ -1768,6 +1809,7 @@
 - FP Cost: 120
 - INT Req: 15
 - FTH Req: 15
+- Slot Use: 1
 - Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. Lasts 60 seconds. Reduces max FP by 10% for 60 seconds.
 
 #---- Bottomless Deep Protection
@@ -1777,9 +1819,9 @@
 # Dark Blade
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 1
 - Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10% and reduces max FP by 20% for 60 seconds.
 
 #---- Supreme Dark Blade
@@ -1791,6 +1833,7 @@
 - FP Cost: 80
 - INT Req: 15
 - FTH Req: 15
+- Slot Use: 1
 - Base Effect: boosts Magic, Fire, Lightning, Dark absorption by 50%, but reduces Physical absorption by 50%. Lasts 30 seconds. Reduces max FP by 10% for 30 seconds.
 
 #---- Lingering Atonement
@@ -1802,6 +1845,7 @@
 - FP Cost: 100
 - INT Req: 20
 - FTH Req: 20
+- Slot Use: 1
 - Base Effect: silence self and target for 15 seconds.
 
 #---- Curse of Silence
@@ -1811,9 +1855,9 @@
 # Pulsating Blade
 #--------------------------------
 - FP Cost: 150
-- Slot Use: 2
 - INT Req: 25
 - FTH Req: 25
+- Slot Use: 1
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds and reduces max FP by 20% for 60 seconds.
 
 #---- Supreme Pulsating Blade

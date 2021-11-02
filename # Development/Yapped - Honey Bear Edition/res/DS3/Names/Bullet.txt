@@ -2846,6 +2846,7 @@
 13508000 [Miracle] Caressing Tears
 13508001 [Miracle] Caressing Tears
 13509000 [Miracle] Lightning Arrow
+13509010 [Miracle] Bloodthirsty Lightning Arrow
 13513000 [Miracle] Morbid Temptation [unused]
 13530000 [Miracle] Force
 13531000 [Miracle] Wrath of the Gods
@@ -2895,6 +2896,10 @@
 13556010 [Miracle] Way of White Corona [Hit]
 13556020 [Miracle] Way of White Corona [Hit]
 13556021 [Miracle] Way of White Corona [Hit]
+13556100 [Miracle] Bloodthirsty Way of White Corona
+13556110 [Miracle] Bloodthirsty Way of White Corona [Hit]
+13556120 [Miracle] Bloodthirsty Way of White Corona [Hit]
+13556121 [Miracle] Bloodthirsty Way of White Corona [Hit]
 13557000 [Miracle] Projected Heal
 13557010 [Miracle] Projected Heal [Hit]
 13557020 [Miracle] Extended Projected Heal
@@ -3455,6 +3460,7 @@
 108140100 [Miracle] Heavenly Thunder [Emitter]
 108140200 [Miracle] Heavenly Thunder [Hit]
 108160000 [Miracle] Nibble
+108160100 [Miracle] Bloodthirsty Nibble
 108210000 [Pyromancy] Dark Hail
 108220000 [Pyromancy] Dark Dance
 108220100 [Pyromancy] Forceful Dark Dance
@@ -3477,9 +3483,11 @@
 108241010 [Sorcery] Lingering Repel
 108280000 [Sorcery] Blinding Light
 108290000 [Sorcery] Deep Barb
+108290100 [Sorcery] Bloodthirsty Deep Barb
 108300000 [Sorcery] Surging Deep
+108300100 [Sorcery] Bloodthirsty Surging Deep
 108310000 [Sorcery] Dark Bead
-108310010 [Sorcery] Cursed Dark Bead
+108310010 [Sorcery] Great Dark Bead
 108320000 [Sorcery] Cascading Deep
 108320100 [Sorcery] Cascading Deep [Emitter]
 108320200 [Sorcery] Cascading Deep [Hit]
@@ -3676,6 +3684,7 @@
 109547000 [Miracle] Lothric's Holy Spear
 109547010 [Miracle] Homing Lothric's Holy Spear
 109548000 [Miracle] Divine Arrow
+109548100 [Miracle] Bloodthirsty Divine Arrow
 109549001 [Miracle] Proof of a Pact
 109549002 [Miracle] Proof of a Pact [Hit]
 109549003 [Miracle] Proof of a Pact [Hit]
@@ -3761,9 +3770,9 @@
 109560200 [Sorcery] Hail of Blades
 109560201 [Sorcery] Hail of Blades [Emitter]
 109560202 [Sorcery] Hail of Blades [Hit]
-109560210 [Sorcery] Focused Hail of Blades
-109560211 [Sorcery] Focused Hail of Blades [Emitter]
-109560212 [Sorcery] Focused Hail of Blades [Hit]
+109560210 [Sorcery] Lingering Hail of Blades
+109560211 [Sorcery] Lingering Hail of Blades [Emitter]
+109560212 [Sorcery] Lingering Hail of Blades [Hit]
 109560300 [Sorcery] Piercing Ice
 109560310 [Sorcery] Explosive Ice
 109560311 [Sorcery] Explosive Ice [Hit]
@@ -3799,7 +3808,38 @@
 109560527 [Sorcery] Path of Frost [Hit]
 109560528 [Sorcery] Path of Frost [Hit]
 109560529 [Sorcery] Path of Frost [Hit]
-109560590 [Sorcery] Path of Frost - Explosion
+109560530 [Sorcery] Path of Frost - Explosion
+109560550 [Sorcery] Bloodthirsty Path of Frost
+109560551 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560552 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560553 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560554 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560555 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560556 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560557 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560558 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560559 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560560 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560561 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560562 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560563 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560564 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560565 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560566 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560567 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560568 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560569 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560570 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560571 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560572 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560573 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560574 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560575 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560576 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560577 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560578 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560579 [Sorcery] Bloodthirsty Path of Frost [Hit]
+109560580 [Sorcery] Bloodthirsty Path of Frost - Explosion
 109560600 [Sorcery] Discs of Dorthinus - Outward
 109560601 [Sorcery] Discs of Dorthinus - Linger
 109560602 [Sorcery] Discs of Dorthinus - Return
@@ -4112,6 +4152,7 @@
 221000001 Cannon - Bullet [Hit]
 221000002 Cannon - Bullet [Hit]
 221000003 Cannon - Bullet [Hit]
+221000010 Cannon - Explosion
 221000100 Cannon (Poison) - Bullet
 221000101 Cannon (Poison) - Bullet [Hit]
 221000200 Cannon (Magic) - Bullet
@@ -4124,6 +4165,7 @@
 221000501 Cannon (Dark) - Bullet [Hit]
 221001000 Church Cannon - Bullet
 221001001 Church Cannon - Bullet [Hit]
+221001010 Church Cannon - Explosion
 221002000 Hunter's Pistol - Bullet
 221002001 Hunter's Pistol - Bullet [Hit]
 221003000 Repeating Pistol - Bullet 1
@@ -4297,6 +4339,10 @@
 224002301 I'm sorry Carving [Hit]
 224002400 Help me! Carving
 224002401 Help me! Carving [Hit]
+224999999 ### Trapped Chests ###
+225000000 Poison Cloud
+225000010 Acid Mist
+225000020 Combustion
 229999999 ### General ###
 230000000 Darkness
 230010000 Remnants of Lordran - Gough's Arrow

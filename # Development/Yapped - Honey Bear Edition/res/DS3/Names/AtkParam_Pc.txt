@@ -4342,7 +4342,9 @@
 4601403 Cannon (Fire) - Bullet
 4601404 Cannon (Lightning) - Bullet
 4601405 Cannon (Dark) - Bullet
+4601410 Cannon - Explosion
 4603400 Church Cannon - Bullet
+4603410 Church Cannon - Explosion
 4604400 Hunter's Pistol - Bullet
 4605400 Repeating Pistol - Bullet 1
 4605401 Repeating Pistol - Bullet 2
@@ -5211,12 +5213,10 @@
 13532000 [Miracle] Emit Force
 13532100 [Miracle] Emit Force [HitBullet]
 13550000 [Miracle] Lightning Spear [Ranged]
-13550001 [Miracle] Lightning Spear [Ranged] - Ascended
 13550010 [Miracle] Lightning Spear
 13550100 [Miracle] Lightning Spear [Proximity]
 13550200 [Miracle] Lightning Surge
 13551000 [Miracle] Great Lightning Spear [Ranged]
-13551001 [Miracle] Great Lightning Spear [Ranged] - Ascended
 13551010 [Miracle] Great Lightning Spear
 13551100 [Miracle] Great Lightning Spear [Proximity]
 13551110 [Miracle] Storm Spear
@@ -5269,9 +5269,9 @@
 13710000 [Miracle] Lightning Stake
 13710001 [Miracle] Lightning Stake [HitBullet]
 13710002 [Miracle] Lightning Stake [HitBullet]
-13710100 [Miracle] Lightning Stake - Ascended
-13710101 [Miracle] Lightning Stake [HitBullet] - Ascended
-13710102 [Miracle] Lightning Stake [HitBullet] - Ascended
+13710100 [Miracle] Sunlight Stake
+13710101 [Miracle] Sunlight Stake [HitBullet]
+13710102 [Miracle] SunlightStake [HitBullet]
 13710310 [Miracle] Lightning Stake [HitBullet]
 13710320 [Miracle] Lightning Stake [HitBullet]
 13720000 [Miracle] Divine Pillars of Light
@@ -5296,8 +5296,8 @@
 15002000 [Sorcery] Soul Wave
 15003000 [Sorcery] Dark Edge - Right
 15003010 [Sorcery] Dark Edge - Left
-15003200 [Sorcery] Dark Edge - Right - Ascended
-15003210 [Sorcery] Dark Edge - Left - Ascended
+15003200 [Sorcery] Bloodthirsty Dark Edge - Right
+15003210 [Sorcery] Bloodthirsty Dark Edge - Left
 15004000 [Miracle] Halo
 15006000 [Sorcery] Crystal Storm
 15006100 [Sorcery] Crystal Storm [HitBullet]
@@ -5339,6 +5339,7 @@
 18290000 [Sorcery] Deep Barb
 18300000 [Sorcery] Surging Deep
 18310000 [Sorcery] Dark Bead
+18310100 [Sorcery] Great Dark Bead
 18320000 [Sorcery] Cascading Deep
 18320100 [Sorcery] Cascading Deep [BulletEmitter]
 18320200 [Sorcery] Cascading Deep [BulletEmitter HitBullet]
@@ -5373,6 +5374,8 @@
 18402000 [Pyromancy] Mournful Flames - Fireball
 18402010 [Pyromancy] Mournful Flames [EmittedBullet]
 18402100 [Pyromancy] Mournful Flames - Serpent
+18402200 [Pyromancy] Scorching Mournful Flames - Ground Black Fire Patch
+18402210 [Pyromancy] Scorching Mournful Flames - Ground Black Fire Patch
 18403000 [Miracle] Devouring Swarm
 18403010 [Miracle] Devouring Swarm
 18403100 [Miracle] Devouring Swarm [BulletEmitter]
@@ -5413,9 +5416,6 @@
 19550000 [Miracle] Ghostly Assault
 19551900 [Pyromancy] Black Fireball
 19551901 [Pyromancy] Black Fireball [Hit]
-19551910 [Pyromancy] Black Fireball - Ascended [Hit]
-19551911 [Pyromancy] Black Fireball - Ascended [Hit]
-19551912 [Pyromancy] Black Fireball - Ascended - Lava [Hit]
 19551950 [Pyromancy] Black Fire Whip
 19552000 [Pyromancy] Black Fire Scatter
 19552001 [Pyromancy] Black Fire Scatter [Hit]

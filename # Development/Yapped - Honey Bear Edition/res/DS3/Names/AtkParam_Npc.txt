@@ -90,6 +90,9 @@
 5870 Material - Fire
 6000 Return of poison blood for human type
 7000 FDP Proto explosive Tal
+8000 Trapped Chest - Poison Cloud
+8010 Trapped Chest - Acid Mist
+8020 Trapped Chest - Combustion
 9900 FDP proto-Oil jar
 9902 FDP proto-oil jar (obj generation)
 9910 FDP Proto Flame Bottle

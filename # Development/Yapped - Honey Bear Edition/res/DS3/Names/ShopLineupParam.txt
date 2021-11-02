@@ -1562,6 +1562,7 @@
 270007 [Master Benjin] Burial Scythe
 270008 [Master Benjin] Burial Blade
 270009 [Master Benjin] Nil Blade
+270010 [Master Benjin] Bone Marrow Ash
 270020 [Master Benjin - Tortured Soul] Church Cannon
 270021 [Master Benjin - Tortured Soul] Rosamarius
 270040 [Master Benjin - Smithbox] Cannon
@@ -3068,7 +3069,7 @@
 802142 [Gauntlet Accessory] Ravenous Chalice
 802143 [Gauntlet Accessory] Old Man's Gambit
 803000 [Gauntlet Spell] Farron Dart
-803001 [Gauntlet Spell] Refined Farron Dart
+803001 [Gauntlet Spell] Bloodthirsty Farron Dart
 803002 [Gauntlet Spell] Scattering Soul Orb
 803003 [Gauntlet Spell] Repeating Soul Orb
 803004 [Gauntlet Spell] Soul Arrow
@@ -3119,7 +3120,7 @@
 803049 [Gauntlet Spell] Soul Greatsword
 803050 [Gauntlet Spell] Heavy Soul Greatsword
 803051 [Gauntlet Spell] Farron Flashsword
-803052 [Gauntlet Spell] Refined Farron Flashsword
+803052 [Gauntlet Spell] Bloodthirsty Farron Flashsword
 803053 [Gauntlet Spell] Old Moonlight
 803054 [Gauntlet Spell] Heavy Old Moonlight
 803055 [Gauntlet Spell] Soul Stream
@@ -3149,7 +3150,7 @@
 803079 [Gauntlet Spell] Firestorm
 803080 [Gauntlet Spell] Repeating Firestorm
 803081 [Gauntlet Spell] Fire Surge
-803082 [Gauntlet Spell] Refined Fire Surge
+803082 [Gauntlet Spell] Bloodthirsty Fire Surge
 803083 [Gauntlet Spell] Great Combustion
 803084 [Gauntlet Spell] Incendiary Combustion
 803085 [Gauntlet Spell] Poison Mist
@@ -3181,7 +3182,7 @@
 803111 [Gauntlet Spell] Floating Chaos
 803112 [Gauntlet Spell] Lingering Floating Chaos
 803113 [Gauntlet Spell] Flame Fan
-803114 [Gauntlet Spell] Refined Flame Fan
+803114 [Gauntlet Spell] Bloodthirsty Flame Fan
 803115 [Gauntlet Spell] Warmth
 803116 [Gauntlet Spell] Fond Warmth
 803117 [Gauntlet Spell] Profuse Sweat
@@ -3191,13 +3192,13 @@
 803121 [Gauntlet Spell] Boulder Heave
 803122 [Gauntlet Spell] Swift Boulder Heave
 803123 [Gauntlet Spell] Sacred Flame
-803124 [Gauntlet Spell] Refined Sacred Flame
+803124 [Gauntlet Spell] Bloodthirsty Sacred Flame
 803125 [Gauntlet Spell] Carthus Beacon
 803126 [Gauntlet Spell] Lingering Carthus Beacon
 803127 [Gauntlet Spell] Seething Chaos
 803128 [Gauntlet Spell] Great Seething Chaos
 803129 [Gauntlet Spell] Lingering Chaos
-803130 [Gauntlet Spell] Refined Lingering Chaos
+803130 [Gauntlet Spell] Bloodthirsty Lingering Chaos
 803131 [Gauntlet Spell] Cataclysm
 803132 [Gauntlet Spell] Great Cataclysm
 803133 [Gauntlet Spell] Earthfall
@@ -3233,7 +3234,7 @@
 803163 [Gauntlet Spell] Caressing Tears
 803164 [Gauntlet Spell] Quickened Caressing Tears
 803165 [Gauntlet Spell] Lightning Arrow
-803166 [Gauntlet Spell] Refined Lightning Arrow
+803166 [Gauntlet Spell] Bloodthirsty Lightning Arrow
 803167 [Gauntlet Spell] Tears of Denial
 803168 [Gauntlet Spell] Mass Tears of Denial
 803169 [Gauntlet Spell] Homeward
@@ -3255,7 +3256,7 @@
 803185 [Gauntlet Spell] Lightning Storm
 803186 [Gauntlet Spell] Sunlight Storm
 803187 [Gauntlet Spell] Way of White Corona
-803188 [Gauntlet Spell] Refined Way of White Corona
+803188 [Gauntlet Spell] Bloodthirsty Way of White Corona
 803189 [Gauntlet Spell] Projected Heal
 803190 [Gauntlet Spell] Extended Projected Heal
 803191 [Gauntlet Spell] Magic Barrier
@@ -3282,7 +3283,7 @@
 803212 [Gauntlet Spell] Angelic Barrage
 803213 [Gauntlet Spell] Angelic Punishment
 803214 [Gauntlet Spell] Divine Arrow
-803215 [Gauntlet Spell] Refined Divine Arrow
+803215 [Gauntlet Spell] Bloodthirsty Divine Arrow
 803216 [Gauntlet Spell] Lothric's Holy Spear
 803217 [Gauntlet Spell] Homing Lothric's Holy Spear
 803218 [Gauntlet Spell] Proof of a Pact
@@ -3298,7 +3299,7 @@
 803228 [Gauntlet Spell] Wrathful Barrage
 803229 [Gauntlet Spell] Wrathful Wave
 803230 [Gauntlet Spell] Deep Barb
-803231 [Gauntlet Spell] Refined Deep Barb
+803231 [Gauntlet Spell] Bloodthirsty Deep Barb
 803232 [Gauntlet Spell] Deep Soul
 803233 [Gauntlet Spell] Deep Overflow
 803234 [Gauntlet Spell] Great Deep Soul
@@ -3306,13 +3307,13 @@
 803236 [Gauntlet Spell] Great Soul Dregs
 803237 [Gauntlet Spell] Quickened Soul Dregs
 803238 [Gauntlet Spell] Dark Edge
-803239 [Gauntlet Spell] Refined Dark Edge
+803239 [Gauntlet Spell] Bloodthirsty Dark Edge
 803240 [Gauntlet Spell] Abyssal Edge
 803241 [Gauntlet Spell] Heavy Abyssal Edge
 803242 [Gauntlet Spell] Dark Bead
-803243 [Gauntlet Spell] Cursed Dark Bead
+803243 [Gauntlet Spell] Great Dark Bead
 803244 [Gauntlet Spell] Surging Deep
-803245 [Gauntlet Spell] Refined Surging Deep
+803245 [Gauntlet Spell] Bloodthirsty Surging Deep
 803246 [Gauntlet Spell] Cascading Deep
 803247 [Gauntlet Spell] Lingering Cascading Deep
 803248 [Gauntlet Spell] Yearning Dregs
@@ -3352,7 +3353,7 @@
 803282 [Gauntlet Spell] Black Flame Arc
 803283 [Gauntlet Spell] Supreme Black Flame Arc
 803284 [Gauntlet Spell] Nibble
-803285 [Gauntlet Spell] Refined Nibble
+803285 [Gauntlet Spell] Bloodthirsty Nibble
 803286 [Gauntlet Spell] Gnaw
 803287 [Gauntlet Spell] Gnawing Swarm
 803288 [Gauntlet Spell] Dorhys' Gnawing
@@ -3388,7 +3389,7 @@
 803318 [Gauntlet Spell] Rime
 803319 [Gauntlet Spell] Chilling Rime
 803320 [Gauntlet Spell] Path of Frost
-803321 [Gauntlet Spell] Refined Path of Frost
+803321 [Gauntlet Spell] Bloodthirsty Path of Frost
 803322 [Gauntlet Spell] Discs of Dorthinus
 803323 [Gauntlet Spell] Quickened Discs of Dorthinus
 804000 [Gauntlet Item] Titanite Fragment
