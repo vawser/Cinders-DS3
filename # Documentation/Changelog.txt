@@ -222,6 +222,9 @@ Finish following weapons:
 - Reduced the duration of the Poison/Toxic Mist effects to 30 seconds.
 - Reduced the duration of Fortified Rapport to 30 seconds and increased the absorption buff to 75%.
 - Slightly changed Fire Surge, Cataclysm, Quickened Earthquake and Earthfall.
+- The fire orb and explosion of Great Cataclysm now share their damage.
+- Increased the amount of bullets emited of Gravelord Sword Dance.
+- Renamed Cursed Dark Bead to Great Dark Bead.
 - Changed Overwhelming Power: the spell VFX is now bigger, the lightning spears have minor homing and the impact on the ground now has a AOE, meaning the spell is a lot more useful for area denial.
 - Added new Frost spell: Frigid Tumult 
 - Added new Frost spell: Hail of Blades
@@ -263,10 +266,11 @@ Finish following weapons:
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
 - Added Bone Marrow Ash: boosts damage of firearms by 300% for 8 seconds. Sold by Master Benjin.
 
-
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
 - Fixed several item descriptions.
+- Fixed the curse aux from the Curse infused Dragonslayer's Axe and Runelock.
+- Fixed Crow Quills granting the wrong amount of Bloodthirst charges.
 
 #------------------------------
 # TODO

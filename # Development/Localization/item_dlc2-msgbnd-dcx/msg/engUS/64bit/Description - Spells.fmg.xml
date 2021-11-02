@@ -1054,7 +1054,8 @@ Inflicts 30 Frost.</text>
 To reach his beloved, the Prince had to navigate a treacherous and icy world.
 
 Emit chilling path of frost.
-Inflicts 30 Frost.</text>
+Inflicts 30 Frost.
+Grants 5 Bloodthirst charges.</text>
 <text id="1808500">A sorcery created by Prince Dorthinus.
 As a gift to his beloved, the Prince attempted to woo the Princess, and attempted to display his mastery of the frost.
 
@@ -1122,7 +1123,7 @@ Emits a constant stream of fire.
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
 <text id="2405010">Pyromancy of Cornyx of the Great Swamp.
 Emits a constant stream of fire.
-Grants 1 Bloodthirst charges.
+Grants 1 Bloodthirst charge.
 
 Cornyx is a venerable pyromancer of an older mold, said to have restored a number of spells lost to the past, amongst which this is the most well-known.</text>
 <text id="2411000">Pyromancy which improves upon Combustion.
@@ -1487,7 +1488,7 @@ The flame of chaos cares not for what it burns.</text>
 
 Throw a lingering chaos orb that explodes on contact.
 
-Can be used with no focus cost.
+Grants 10 Bloodthirst charges.
 
 The flame of chaos cares not for what it burns.</text>
 <text id="2702000">Pyromancy belonging to Salaman.
@@ -2073,7 +2074,8 @@ Fire a divine arrow.
 Although their form is grotesque, their devotion is a sight to behold.</text>
 <text id="3813010">Miracle used by the grubs found in Rosaria's Chamber.
 
-Fire a divine arrow with no focus cost.
+Fire a divine arrow.
+Grants 5 Bloodthirst charges.
 
 Although their form is grotesque, their devotion is a sight to behold.</text>
 <text id="3814000">Miracle used by the sickly Prince Lothric.
@@ -2148,7 +2150,8 @@ Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4100010">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
-Hurl homing soul sediment with no focus cost, inflicting 10 Curse.
+Hurl homing soul sediment, inflicting 10 Curse.
+Grants 3 Bloodthirst charges.
 
 Souls which swell from the deep pursue their target, drawn towards life.</text>
 <text id="4101000">Hex of Archdeacon Royce and his deacons,
@@ -2191,7 +2194,8 @@ Strikes with blade formed of humanity's darkness, inflicting 10 Curse.
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4104010">A forbidden hex, borne from a corrupted sorcery.
 
-Strikes with blade formed of humanity's darkness with no focus cost, inflicting 10 Curse.
+Strikes with blade formed of humanity's darkness, inflicting 10 Curse.
+Grants 5 Bloodthirst charges.
 
 Passed from mother to daughter, this blade was intended for both protection and as a means of taking one's own life. The young girl never swung it more than once.</text>
 <text id="4105000">A forbidden hex, borne from a corrupted sorcery.
@@ -2220,7 +2224,8 @@ Souls which swell from the deep pursue their target, drawn towards life.</text>
 Emit a constant stream of homing soul sediment, inflicting 8 Curse.</text>
 <text id="4107010">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
-Emit a constant stream of homing soul sediment with no focus cost, inflicting 8 Curse.</text>
+Emit a constant stream of homing soul sediment, inflicting 8 Curse.
+Grants 3 Bloodthirst charges.</text>
 <text id="4108000">Hex of Archdeacon Royce and his deacons, said to have been imparted to them by McDonnell of the Boreal Valley.
 
 Cast cascade of homing soul sediment from sky, inflicting 10 Curse with each hit.
@@ -2314,6 +2319,7 @@ The sorcerer Gilleah took no apprentice, and it is unclear how his spells were p
 
 Boosts absorption by 35%, but narrows vision.
 Lasts 60 seconds.
+Reduces max FP by 25% for 60 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
@@ -2321,6 +2327,7 @@ The sorcerer Gilleah took no apprentice, and it is unclear how his spells were p
 
 Boosts absorption by 35%, but narrows vision.
 Lasts 90 seconds.
+Reduces max FP by 25% for 90 seconds.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
@@ -2432,12 +2439,14 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
+Reduces max FP by 30% for 60 seconds.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
+Reduces max FP by 40% for 60 seconds.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
@@ -2446,7 +2455,8 @@ Summons an insect swarm to feast on foes, inflicting 10 Bleed.
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
 <text id="4301010">One of the first hexes known by Dorhys the deranged evangelist.
 
-Summons an insect swarm to feast on foes with no focus cost, inflicting 10 Bleed.
+Summons an insect swarm to feast on foes, inflicting 10 Bleed.
+Grants 3 Bloodthirst charges.
 
 Those who linger too long on the brink of the Deep will often slip. Dorhys is sure to have wallowed in this darkness, intoxicated by its peril.</text>
 <text id="4302000">Hex taught in the Cathedral of the Deep.
@@ -2485,24 +2495,26 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
 Effect duration can be extended.
+Reduces max FP by 10% for 60 seconds.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
 Effect duration can be extended.
+Reduces max FP by 10% for 120 seconds.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
 
-Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. 
-Lasts 30 seconds.
+Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. Lasts 30 seconds.
+Reduces max FP by 10% for 30 seconds.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4306010">Hex given to those cast out from the Sable Church of Londor.
 
-Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. 
-Lasts 60 seconds.
+Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. Lasts 60 seconds.
+Reduces max FP by 10% for 60 seconds.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4307000">Hex used by the hollow clerics of the Ringed City. 
@@ -2547,6 +2559,7 @@ Reinforces right weapon with dark.
 Increases Dark damage by 60 and boosts Dark absorption by 10% for 60 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
+Reduces max FP by 20% for 60 seconds.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2557,6 +2570,7 @@ Reinforces right weapon with dark.
 Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
 Scales with Spell Buff.
 Effect duration can be extended.
+Reduces max FP by 20% for 120 seconds.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2594,22 +2608,26 @@ imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
 Lasts 60 seconds.
-Effect duration can be extended.</text>
+Effect duration can be extended.
+Reduces max FP by 20% for 60 seconds.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 60 Bleed on hit.
 Lasts 120 seconds.
-Effect duration can be extended.</text>
+Effect duration can be extended.
+Reduces max FP by 20% for 60 seconds.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.
-Effect duration can be extended.</text>
+Effect duration can be extended.
+Reduces max FP by 20% for 60 seconds.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
 Lasts 120 seconds.
-Effect duration can be extended.</text>
+Effect duration can be extended.
+Reduces max FP by 20% for 60 seconds.</text>
 </entries>
 </fmg>

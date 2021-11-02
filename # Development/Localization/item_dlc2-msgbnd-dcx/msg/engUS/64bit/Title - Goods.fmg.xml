@@ -1321,7 +1321,7 @@
 <text id="1808300">Rime</text>
 <text id="1808310">Chilling Rime</text>
 <text id="1808400">Path of Frost</text>
-<text id="1808410">Refined Path of Frost</text>
+<text id="1808410">Bloodthirsty Path of Frost</text>
 <text id="1808500">Discs of Dorthinus</text>
 <text id="1808510">Quickened Discs of Dorthinus</text>
 <text id="2400000">Fireball</text>
@@ -1373,7 +1373,7 @@
 <text id="2650000">Carthus Beacon</text>
 <text id="2650010">Lingering Carthus Beacon</text>
 <text id="2701000">Lingering Chaos</text>
-<text id="2701010">Refined Lingering Chaos</text>
+<text id="2701010">Bloodthirsty Lingering Chaos</text>
 <text id="2702000">Cataclysm</text>
 <text id="2702010">Great Cataclysm</text>
 <text id="2710000">Earthfall</text>
@@ -1452,7 +1452,7 @@
 <text id="3812000">Angelic Barrage</text>
 <text id="3812010">Angelic Punishment</text>
 <text id="3813000">Divine Arrow</text>
-<text id="3813010">Refined Divine Arrow</text>
+<text id="3813010">Bloodthirsty Divine Arrow</text>
 <text id="3814000">Lothric's Holy Spear</text>
 <text id="3814010">Homing Lothric's Holy Spear</text>
 <text id="3815000">Proof of a Pact</text>
@@ -1468,7 +1468,7 @@
 <text id="3821000">Wrathful Barrage</text>
 <text id="3821010">Wrathful Wave</text>
 <text id="4100000">Deep Barb</text>
-<text id="4100010">Refined Deep Barb</text>
+<text id="4100010">Bloodthirsty Deep Barb</text>
 <text id="4101000">Deep Soul</text>
 <text id="4101010">Deep Overflow</text>
 <text id="4102000">Great Deep Soul</text>
@@ -1476,13 +1476,13 @@
 <text id="4103000">Great Soul Dregs</text>
 <text id="4103010">Quickened Soul Dregs</text>
 <text id="4104000">Dark Edge</text>
-<text id="4104010">Refined Dark Edge</text>
+<text id="4104010">Bloodthirsty Dark Edge</text>
 <text id="4105000">Abyssal Edge</text>
 <text id="4105010">Heavy Abyssal Edge</text>
 <text id="4106000">Dark Bead</text>
-<text id="4106010">Cursed Dark Bead</text>
+<text id="4106010">Great Dark Bead</text>
 <text id="4107000">Surging Deep</text>
-<text id="4107010">Refined Surging Deep</text>
+<text id="4107010">Bloodthirsty Surging Deep</text>
 <text id="4108000">Cascading Deep</text>
 <text id="4108010">Lingering Cascading Deep</text>
 <text id="4109000">Yearning Dregs</text>
@@ -1522,7 +1522,7 @@
 <text id="4210000">Black Flame Arc</text>
 <text id="4210010">Supreme Black Flame Arc</text>
 <text id="4301000">Nibble</text>
-<text id="4301010">Refined Nibble</text>
+<text id="4301010">Bloodthirsty Nibble</text>
 <text id="4302000">Gnaw</text>
 <text id="4302010">Gnawing Swarm</text>
 <text id="4303000">Dorhys' Gnawing</text>

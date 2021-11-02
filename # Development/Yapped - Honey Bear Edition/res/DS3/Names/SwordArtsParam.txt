@@ -8,7 +8,7 @@
 91 [Shield] Weapon Skill (Small Shield)
 92 [Shield] Spell Parry (Small Shield)
 93 [Shield] Spell Parry (Normal Shield)
-94 [Shield] Black Dragon’s Ire
+94 [Shield] Black Dragon's Ire
 99 [Dagger] Parry
 100 [Dagger] Quickstep
 101 [Dagger] Blind Spot
@@ -59,7 +59,7 @@
 317 [Greatsword] Tranquil Walk of Peace
 318 [Greatsword] Beckon Storm
 319 [Greatsword] Moonlight Vortex
-321 [Greatsword] Abyssal Outburst
+321 [Greatsword] Abyssal Fire
 322 [Greatsword] Flame of the Great Lord
 323 [Greatsword] Black Dragon's Maw
 324 [Greatsword] Charge
@@ -95,7 +95,7 @@
 607 [Curved Sword] Prying Wedge
 608 [Curved Sword] Spin Slash (Demon's Scar)
 609 [Curved Sword] Concussive Blows
-610 [Curved Sword] Quelaag's Rage
+610 [Curved Sword] Quelaag's Fury
 611 [Curved Sword] Hunter's Fury
 612 [Curved Sword] Whirlwind Fury
 700 [Curved Greatsword] Spin Slash
@@ -227,7 +227,7 @@
 1503 [Scythe] ?
 1504 [Scythe] Elfriede's Stance
 1505 [Scythe] Divine Punishment
-1506 [Scythe] Nashandra’s Avarice
+1506 [Scythe] Nashandra's Avarice
 1507 [Scythe] Stomp
 1508 [Scythe] Flames of Nahr Alma
 1509 [Scythe] Hunter's Reaping

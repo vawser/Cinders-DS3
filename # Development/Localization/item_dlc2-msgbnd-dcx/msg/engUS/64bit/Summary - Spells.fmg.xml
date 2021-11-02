@@ -613,7 +613,7 @@
 <text id="2650000">Damage increases with consecutive attacks</text>
 <text id="2650010">Damage increases with consecutive attacks</text>
 <text id="2701000">Throw a lingering chaos orb that explodes on contact</text>
-<text id="2701010">Throw a lingering chaos orb that explodes on contact with no focus cost</text>
+<text id="2701010">Throw a lingering chaos orb that explodes on contact</text>
 <text id="2702000">Release flaming chaos orbs from sky</text>
 <text id="2702010">Release Giant flaming chaos orb from sky</text>
 <text id="2710000">Call down boulders from the sky</text>
@@ -694,7 +694,7 @@
 <text id="3812000">Call forth a barrage of holy spears upon foes</text>
 <text id="3812010">Call forth a barrage of holy spears upon foes</text>
 <text id="3813000">Fire a divine arrow</text>
-<text id="3813010">Fire a divine arrow with no focus cost</text>
+<text id="3813010">Fire a divine arrow</text>
 <text id="3814000">Fire piercing holy soul spear</text>
 <text id="3814010">Fire homing holy soul spear</text>
 <text id="3815000">Summon forth a ghostly knight</text>
@@ -710,7 +710,7 @@
 <text id="3821000">Fire cascade of divine spears</text>
 <text id="3821010">Fire wave of divine spears</text>
 <text id="4100000">Hurl darkened soul sediment</text>
-<text id="4100010">Hurl darkened soul sediment with no focus cost</text>
+<text id="4100010">Hurl darkened soul sediment</text>
 <text id="4101000">Fire darkened soul sediment</text>
 <text id="4101010">Fire darkened soul sediment</text>
 <text id="4102000">Fire powerful darkened soul sediment</text>
@@ -718,13 +718,13 @@
 <text id="4103000">Fires great dark soul dregs</text>
 <text id="4103010">Fires great dark soul dregs</text>
 <text id="4104000">Strike with blade formed of humanity's darkness</text>
-<text id="4104010">Strike with blade formed of humanity's darkness with no focus cost</text>
+<text id="4104010">Strike with blade formed of humanity's darkness</text>
 <text id="4105000">Strike with blade formed of humanity's darkness</text>
 <text id="4105010">Strike with heavy blade formed of humanity's darkness</text>
 <text id="4106000">Fires multiple soul dregs in an arc forward</text>
 <text id="4106010">Fires multiple soul dregs in an arc forward</text>
 <text id="4107000">Emit a constant stream of darkened soul sediment</text>
-<text id="4107010">Emit a constant stream of darkened soul sediment with no focus cost</text>
+<text id="4107010">Emit a constant stream of darkened soul sediment</text>
 <text id="4108000">Cast cascade of darkened soul sediment from sky</text>
 <text id="4108010">Cast cascade of darkened soul sediment from sky</text>
 <text id="4109000">Summon multiple dark soul sediment spots in vicinity</text>
@@ -764,7 +764,7 @@
 <text id="4210000">Imbue right weapon with black flame</text>
 <text id="4210010">Imbue right weapon with black flame</text>
 <text id="4301000">Summon insect swarm to feast on foes</text>
-<text id="4301010">Summon insect swarm to feast on foes with no focus cost</text>
+<text id="4301010">Summon insect swarm to feast on foes</text>
 <text id="4302000">Summon insect swarm to feast on foes</text>
 <text id="4302010">Summon insect swarm to feast on foes</text>
 <text id="4303000">Summon great insect swarm to feast on foes</text>

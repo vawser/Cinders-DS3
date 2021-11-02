@@ -4399,8 +4399,11 @@
 104600800 Crossbow
 104600990 Crossbow - Quickstep
 104601400 Cannon - Bullet
+104601410 Cannon - Explosion
 104602400 Cannon (Poison) - Bullet
+104602410 Cannon (Poison) - Explosion
 104603400 Church Cannon - Bullet
+104603410 Church Cannon - Explosion
 104604400 Hunter's Pistol - Bullet
 104605400 Repeating Pistol - Bullet 1
 104605401 Repeating Pistol - Bullet 2
@@ -4415,11 +4418,15 @@
 104614400 Fulgurius - Bullet
 104615400 Vitainus - Bullet
 104616400 Cannon (Magic) - Bullet
+104616410 Cannon (Magic) - Explosion
 104617400 Cannon (Fire) - Bullet
+104617410 Cannon (Fire) - Explosion
 104618400 Cannon (Lightning) - Bullet
+104618410 Cannon (Lightning) - Explosion
 104619400 Cannon (Dark) - Bullet
+104619410 Cannon (Dark) - Explosion
 104620400 Fist of Gratia - Punch
-104620401 Fist of Gratia - Punch - No FP
+104620401 Fist of Gratia - Punch - Low Stamina
 104700000 Large Shield - 1H Light #1
 104700001 Large Shield
 104700010 Large Shield - 1H Light #2
@@ -5372,5 +5379,5 @@
 202458110 Flame Fan - Left - Ascended
 202458200 Dark Edge - Right
 202458210 Dark Edge - Left
-202458300 Dark Edge - Right - Ascended
-202458310 Dark Edge - Left - Ascended
+202458300 Bloodthirsty Dark Edge - Right
+202458310 Bloodthirsty Dark Edge - Left

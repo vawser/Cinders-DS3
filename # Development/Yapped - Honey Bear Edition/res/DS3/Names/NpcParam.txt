@@ -22,6 +22,7 @@
 10298 City Map intrusion NPC test
 10299 City map cooperation NPC Logic test
 10300 Announcer
+10400 Trapped Chest
 20000 NPC Behavior Test 1
 21000 Slave Knight Gael - White Phantom [Ariandel]
 21001 Slave Knight Gael - Illusion [Ariandel]
@@ -225,6 +226,7 @@
 35900 The Father [Smouldering Lake]
 36000 The Mother [Smouldering Lake]
 36100 The Child [Smouldering Lake]
+36200 Ashen Hunter Yafuh [Undead Settlement]
 39999 ### Companions ###
 40000 m30_0 - Hollow
 40010 m30_1 - Lothric Knight (Sword)
@@ -246,6 +248,9 @@
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
+50002 Sellsword Luet - Profaned Capital
+50010 Maldron the Assassin - Irithyll
+50011 Maldron the Assassin - Betrayer
 99999 ### Enemies ###
 100000 Bonfire
 100010 Bullet Owner
@@ -298,7 +303,9 @@
 107302 Skeleton - Falchion [Ringed City]
 107313 Skeleton - Scimitar [Ringed City]
 107314 Skeleton - Scimitar [Ringed City]
-107400 El Hueso [Firelink Shrine]
+107400 El Hueso - Immovable [Firelink Shrine]
+107401 El Hueso - Movable [Firelink Shrine]
+107402 El Hueso - Aggressive [Firelink Shrine]
 109000 Pus of Man [High Wall of Lothric]
 109001 Pus of Man [High Wall of Lothric]
 109100 Pus of Man [Lothric Castle]
@@ -1225,6 +1232,7 @@
 722800 Hex Scribe
 722900 Priestess Emilia
 723000 Knight Lun
+724000 Bone Collector
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)

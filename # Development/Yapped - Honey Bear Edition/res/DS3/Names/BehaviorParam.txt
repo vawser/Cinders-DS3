@@ -5470,13 +5470,7 @@
 280000100 [Script] Lordran Remnant Entry
 280001000 [Script] Freezing Wind - Irithyll
 280001100 [Script] Freezing Wind - Vordt
-299900100 Vanguards of c9990_ caries: Attack 1
-299900110 Vanguards of c9990_ caries: a throwing attack
-299900700 Vanguards of c9990_ caries: Paris.
-299900710 c1070_ Throw a flame pot
-299900720 C1070_ Guard
-299900730 c1070_ Soul Arrow
-299900740 c1070_ explosion
-299900750 C1070_ Proximity Magic
-990000100 Test character for damage adjustment
-990000110 Test character for damage adjustment
+280001999 ### Trapped Chests ###
+280002000 [Trapped Chest] Poison Cloud
+280002010 [Trapped Chest] Acid Mist
+280002020 [Trapped Chest] Explosive Burst

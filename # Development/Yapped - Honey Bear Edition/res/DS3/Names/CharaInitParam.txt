@@ -283,11 +283,15 @@
 35900 The Father [Smouldering Lake]
 36000 The Mother [Smouldering Lake]
 36100 The Child [Smouldering Lake]
+36200 Ashen Hunter Yafuh [Irithyll]
 39999 ### Companions ###
 40110 Solaire of Astora
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
+50002 Sellsword Luet - Profaned Capital
+50010 Maldron the Assassin - Irithyll
+50011 Maldron the Assassin - Betrayer
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight
@@ -309,6 +313,7 @@
 722800 Hex Scribe
 722900 Priestess Emilia
 723000 Knight Lun
+724000 Bone Collector
 999999 ### Enemies ###
 1000000 Bonfire
 1000010 1000010: [For the weapon animation confirmation] ◎ 01 Dagger (id_20: Dagger)

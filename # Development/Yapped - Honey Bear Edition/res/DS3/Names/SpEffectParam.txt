@@ -1770,6 +1770,7 @@
 17501 NPC: Invisibility until Close
 18020 NPC: Ignore Sight Reductions with VFX
 18100 NPC: Ignore Sight Reductions
+19999 ### NPC Status Effects ###
 20000 NPC: Poison 10
 20001 NPC: Poison 20
 20002 NPC: Poison 30
@@ -1882,6 +1883,7 @@
 24120 NPC: Frost 3
 24130 NPC: Frost - Pontiff Knight
 24140 NPC: Frost 40
+24500 NPC: Durability Damage
 30000 NPC: Disable Poison
 30010 NPC: Disable Toxic
 30020 NPC: Disable Bleed
@@ -2151,19 +2153,15 @@
 112421 [Behavior] Vitality Mastery - Trigger
 112422 [Behavior] Vitality Mastery - Cooldown
 112430 [Behavior] Attunement Mastery - Trigger
+112440 [Behavior] Bone Marrow Ash - Trigger
+112441 [Behavior] Bone Marrow Ash - Boost
+112450 [Behavior] AI Sidearm Damage Boost
 112499 [Behavior] Critical Hit
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
 112899 ### Sidearms ###
-112900 FP Cost: Cannon
-112901 FP Cost: Church Cannon
-112902 FP Cost: Hunter's Pistol
-112903 FP Cost: Repeating Pistol
-112904 FP Cost: Evelynn
-112905 FP Cost: Hunter's Blunderbuss
-112906 FP Cost: Rosamarinus
-112907 FP Cost: Fist of Gratia
+112910 Firearm Parry Duration
 112999 ### FP Pause ###
 113000 Base Interval
 113001 Seconds: 1
@@ -2234,6 +2232,9 @@
 113242 [Behavior] Effect - Darkmoon Faithful III
 113243 [Behavior] Effect - Darkmoon Faithful IV
 113244 [Behavior] Effect - Darkmoon Faithful V
+113499 ### Bloodthirst Charges ###
+113500 [Behavior] Bloodthirst Charge - Base Interval
+113501 [Behavior] Restore Bloodthirst Charge - Baseline - 2 per second
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -3876,12 +3877,13 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Sorcery] Bloodthirsty Flashsword
-160500470 [Sorcery] Bloodthirsty Farron Dart
+160500460 [Sorcery] Bloodthirsty Flashsword - Dark Edge - Path of Frost
+160500470 [Sorcery] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep
 160500480 [Pyromancy] Bloodthirsty Flame Fan
 160500490 [Pyromancy] Bloodthirsty Lingering Chaos
 160500500 [Pyromancy] Bloodthirsty Fire Surge
 160500510 [Pyromancy] Bloodthirsty Sacred Flame
+160500520 [Miracle] Bloodthirsty Divine Arrow
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -5512,14 +5514,19 @@
 160800003 Base - Friendly NPC
 160800004 Base - Hostile NPC
 160800005 Base - Boss
+160800007 Base - Menu NPC
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian
 160800020 Summoned NPC - Boost at Low HP
-160801050 Enemy - El Hueso
 160801070 Enemy - Magnum Ursus - Strong Punch
 160802000 Poise Override - Easy Stagger
 160803000 Summon - Illusion Form
 160803010 Summon - Phantom Form
+160803020 Summon - Betrayal Form
+160809999 ### Training Dummy ###
+160810000 Training Dummy - Baseline
+160810010 Training Dummy - No Damage
+160810020 Training Dummy - Restore HP
 170000000 ### Status Effect - Spells ###
 170000010 Frost - Frozen Weapon [AttackOccurance]
 170000020 Frost - Snap Freeze [CycleOccurance]
@@ -5913,7 +5920,7 @@
 200006440 Fire - Paired Greatshield
 200006450 Fire - Paired Daggers - Gotthard Twinswords
 200006460 Fire - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
-200006470 Fire - Paired Curved Swords - Paired Katanas - Paired Spears
+200006470 Fire - Paired Curved Swords - Paired Katanas - Paired Spears - Crow Quills
 200007000 Lightning - Dagger
 200007020 Lightning - Straight Sword
 200007040 Lightning - Greatsword
@@ -5941,7 +5948,7 @@
 200007440 Lightning - Paired Greatshield
 200007450 Lightning - Paired Daggers - Gotthard Twinswords
 200007460 Lightning - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
-200007470 Lightning - Paired Curved Swords - Paired Katanas - Paired Spears
+200007470 Lightning - Paired Curved Swords - Paired Katanas - Paired Spears - Crow Quills
 200008000 Dark - Dagger
 200008020 Dark - Straight Sword
 200008040 Dark - Greatsword
@@ -5970,36 +5977,36 @@
 200008440 Dark - Paired Greatshield
 200008450 Dark - Paired Daggers - Gotthard Twinswords
 200008460 Dark - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
-200008470 Dark - Paired Curved Swords - Paired Katanas - Paired Spears
-200009000 Other Infusions - Dagger
-200009020 Other Infusions - Straight Sword
-200009040 Other Infusions - Greatsword
-200009060 Other Infusions - Ultra Greatsword
-200009080 Other Infusions - Curved Sword
-200009100 Other Infusions - Katana
-200009120 Other Infusions - Curved Greatsword
-200009140 Other Infusions - Axe
-200009160 Other Infusions - Greataxe
-200009180 Other Infusions - Hammer
-200009200 Other Infusions - Great Hammer
-200009220 Other Infusions - Spear
-200009240 Other Infusions - Halberd
-200009260 Other Infusions - Whip
-200009280 Other Infusions - Fist
-200009300 Other Infusions - Claw
-200009320 Other Infusions - Battlestaff
-200009340 Other Infusions - Torch
-200009360 Other Infusions - Thrusting Sword
-200009380 Other Infusions - Reaper
-200009390 Other Infusions - Cannon Sidearm
-200009400 Other Infusions - Pistol Sidearm
-200009410 Other Infusions - Fist Sidearm
-200009420 Other Infusions - Blunderbuss Sidearm
-200009430 Other Infusions - Winged Knight Twinaxes - Drang Hammers
-200009440 Other Infusions - Paired Greatshield
-200009450 Other Infusions - Paired Daggers - Gotthard Twinswords
-200009460 Other Infusions - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
-200009470 Other Infusions - Paired Curved Swords - Paired Katanas - Paired Spears
+200008470 Dark - Paired Curved Swords - Paired Katanas - Paired Spears - Crow Quills
+200009000 Bloodthirst Charges - Dagger
+200009020 Bloodthirst Charges - Straight Sword
+200009040 Bloodthirst Charges - Greatsword
+200009060 Bloodthirst Charges - Ultra Greatsword
+200009080 Bloodthirst Charges - Curved Sword
+200009100 Bloodthirst Charges - Katana
+200009120 Bloodthirst Charges - Curved Greatsword
+200009140 Bloodthirst Charges - Axe
+200009160 Bloodthirst Charges - Greataxe
+200009180 Bloodthirst Charges - Hammer
+200009200 Bloodthirst Charges - Great Hammer
+200009220 Bloodthirst Charges - Spear
+200009240 Bloodthirst Charges - Halberd
+200009260 Bloodthirst Charges - Whip
+200009280 Bloodthirst Charges - Fist
+200009300 Bloodthirst Charges - Claw
+200009320 Bloodthirst Charges - Battlestaff
+200009340 Bloodthirst Charges - Torch
+200009360 Bloodthirst Charges - Thrusting Sword
+200009380 Bloodthirst Charges - Reaper
+200009390 Bloodthirst Charges - Cannon Sidearm
+200009400 Bloodthirst Charges - Pistol Sidearm
+200009410 Bloodthirst Charges - Fist Sidearm
+200009420 Bloodthirst Charges - Blunderbuss Sidearm
+200009430 Bloodthirst Charges - Winged Knight Twinaxes - Drang Hammers
+200009440 Bloodthirst Charges - Paired Greatshield
+200009450 Bloodthirst Charges - Paired Daggers - Gotthard Twinswords
+200009460 Bloodthirst Charges - Farron Greatsword - Ringed Knight Paired Greatswords - Missionary Axes - Fume Slated Swords
+200009470 Bloodthirst Charges - Paired Curved Swords - Paired Katanas - Paired Spears - Crow Quills
 249999999 ### Journey Modifiers ###
 250000100 Mythic Mode - Player Effect - Damage
 250000101 Mythic Mode - Player Effect - Absorption

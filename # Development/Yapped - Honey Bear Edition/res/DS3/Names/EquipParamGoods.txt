@@ -184,6 +184,7 @@
 522 Very good! Carving
 523 I'm sorry Carving
 524 Help me! Carving
+530 Bone Marrow Ash
 650 Ritual Spear Fragment
 651 Bloodthirsty Spear Fragment
 700 Soul of Corrupted Gundyr
@@ -1168,7 +1169,7 @@
 1808000 Frigid Tumult
 1808010 Frigid Roar
 1808100 Hail of Blades
-1808110 Focused Hail of Blades
+1808110 Lingering Hail of Blades
 1808200 Piercing Ice
 1808210 Explosive Ice
 1808300 Rime
@@ -1233,7 +1234,7 @@
 2660000 Seething Chaos
 2660010 Great Seething Chaos
 2701000 Lingering Chaos
-2701010 Refined Lingering Chaos
+2701010 Bloodthirsty Lingering Chaos
 2702000 Cataclysm
 2702010 Great Cataclysm
 2710000 Earthfall
@@ -1270,7 +1271,7 @@
 3508000 Caressing Tears
 3508010 Quickened Caressing Tears
 3509000 Lightning Arrow
-3509010 Refined Lightning Arrow
+3509010 Bloodthirsty Lightning Arrow
 3520000 Tears of Denial
 3520010 Mass Tears of Denial
 3521000 Homeward
@@ -1292,7 +1293,7 @@
 3553000 Lightning Storm
 3553010 Sunlight Storm
 3556000 Way of White Corona
-3556010 Refined Way of White Corona
+3556010 Bloodthirsty Way of White Corona
 3557000 Projected Heal
 3557010 Extended Projected Heal
 3560000 Magic Barrier
@@ -1319,7 +1320,7 @@
 3812000 Angelic Barrage
 3812010 Angelic Punishment
 3813000 Divine Arrow
-3813010 Refined Divine Arrow
+3813010 Bloodthirsty Divine Arrow
 3814000 Lothric's Holy Spear
 3814010 Homing Lothric's Holy Spear
 3815000 Proof of a Pact
@@ -1336,7 +1337,7 @@
 3821010 Wrathful Wave
 4099999 ### Hexes ###
 4100000 Deep Barb
-4100010 Refined Deep Barb
+4100010 Bloodthirsty Deep Barb
 4101000 Deep Soul
 4101010 Deep Overflow
 4102000 Great Deep Soul
@@ -1344,13 +1345,13 @@
 4103000 Great Soul Dregs
 4103010 Quickened Soul Dregs
 4104000 Dark Edge
-4104010 Refined Dark Edge
+4104010 Bloodthirsty Dark Edge
 4105000 Abyssal Edge
 4105010 Heavy Abyssal Edge
 4106000 Dark Bead
-4106010 Cursed Dark Bead
+4106010 Great Dark Bead
 4107000 Surging Deep
-4107010 Refined Surging Deep
+4107010 Bloodthirsty Surging Deep
 4108000 Cascading Deep
 4108010 Lingering Cascading Deep
 4109000 Yearning Dregs
