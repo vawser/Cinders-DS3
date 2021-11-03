@@ -13815,6 +13815,8 @@ function Throw_Activate()
     SetVariable("ThrowHolding", false)
     SetVariable("ThrowNoRegistTime", 0)
     
+    local hand = HAND_RIGHT
+    
     -- Handle weapon hand position
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
@@ -16945,6 +16947,7 @@ end
 
 function UpdateHawkRingEffect()
     local style = c_Style
+    local hand = HAND_RIGHT
     
     -- Handle weapon hand position
     if style == HAND_LEFT_BOTH then
