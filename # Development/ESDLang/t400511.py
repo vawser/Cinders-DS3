@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- UNUSED
+#-- Marauder
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -160,6 +160,7 @@ def t400511_x9():
     # Player has activated boss
     if GetEventStatus(14000852) == 1:
         assert t400511_x10(text1=10131010, flag1=0, mode1=0)
+        SetEventState(14000853, 1)
         return 0
     else:
         assert t400511_x10(text1=10131000, flag1=0, mode1=0)
