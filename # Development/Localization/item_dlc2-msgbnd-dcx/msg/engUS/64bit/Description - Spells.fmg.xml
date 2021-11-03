@@ -1671,24 +1671,24 @@ a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 40% for 60 seconds. 
+Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3504010">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 120 seconds.
+Reduces max FP by 40% for 120 seconds. 
 Effect duration can be extended.
-Reduces max FP by 40% for 60 seconds. 
 
 Replenishment is a relic of the old Lloyd faith,
 whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 40% for 60 seconds. 
+Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -1696,8 +1696,8 @@ a great many warriors.</text>
 <text id="3505010">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
+Reduces max FP by 40% for 120 seconds. 
 Effect duration can be extended.
-Reduces max FP by 40% for 60 seconds. 
 
 The miracles of Gwynevere, loved as both
 mother and wife bestow their blessing on
@@ -1706,8 +1706,8 @@ a great many warriors.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 40% for 60 seconds. 
+Effect duration can be extended.
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -1715,8 +1715,8 @@ the Queen's child.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
+Reduces max FP by 40% for 120 seconds. 
 Effect duration can be extended.
-Reduces max FP by 40% for 60 seconds. 
 
 The Heavenly Daughter is said to be
 the Queen's child.</text>
@@ -1812,8 +1812,8 @@ anger and the like with confidence.</text>
 
 Boosts equipment load by 25% and reveals summon signs without using an ember.
 Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 25% for 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -1822,8 +1822,8 @@ of hope for the lost.</text>
 
 Boosts equipment load by 40% and reveals summon signs without using an ember.
 Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 25% for 60 seconds.
+Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
 down from soul to soul, providing a tiny ray
@@ -1919,16 +1919,16 @@ in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
 Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
-Effect duration can be extended.
 Reduces max FP by 25% for 60 seconds.
+Effect duration can be extended.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3563010">Miracle of those chosen by the Sunlight covenant.
 
 Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
 Effect duration can be extended.
-Range increased to 8 meters.
 Reduces max FP by 25% for 60 seconds.
+Range increased to 8 meters.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3590000">Miracle allegedly wielded by a certain 
@@ -1937,8 +1937,8 @@ Reinforces right weapon with lightning.
 
 Increases Lightning damage by 75 for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 30% for 60 seconds.
+Effect duration can be extended.
 
 Tales of dragonslayers are now a rare thing, told
 only in fragments and whispers in remote regions.</text>
@@ -1947,8 +1947,8 @@ Reinforces right weapon with sunlight.
 
 Increases Lightning damage by 100 and boosts damage against Hollow enemies by 20% for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 30% for 60 seconds.
+Effect duration can be extended.
 
 The power of the sun has never been forgotten, and its power burns bright.</text>
 <text id="3591000">Miracle of those who devoted themselves
@@ -1957,8 +1957,8 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 75 for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 30% for 60 seconds.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -1969,8 +1969,8 @@ Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 100 and boosts damage against Abyssal enemies by 20% for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 30% for 60 seconds.
+Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
 
@@ -2003,8 +2003,8 @@ Despite losing both her sight and her voice, she was determined to record the ta
 
 Increases Physical damage by 60, restores 5 HP every second and boosts damage to undead enemies by 20% for 60 seconds.
 Prevents skeleton reassembly.
-Effect duration can be extended.
 Reduces max FP by 20% for 60 seconds.
+Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -2013,8 +2013,8 @@ after the Scholars acquired the Grand Archives.</text>
 
 Increases Physical damage by 75, restores 5 HP every second and boosts damage to undead enemies by 20% for 120 seconds.
 Prevents skeleton reassembly.
+Reduces max FP by 20% for 120 seconds.
 Effect duration can be extended.
-Reduces max FP by 20% for 60 seconds.
 
 The Knight is one of the Three Pillars of Lothric,
 said to have strengthened ties with the High Priestess
@@ -2053,7 +2053,7 @@ Lindelt ascetics are sent to distant lands for proselytizing and self-training, 
 deflecting blows that would otherwise hit.
 
 Boosts poise by 50%. Lasts 120 seconds.
-Reduces max FP by 10% for 60 seconds.
+Reduces max FP by 10% for 120 seconds.
 
 Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
 </text>
@@ -2438,15 +2438,15 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 30% for 60 seconds.
+Effect duration can be extended.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 40% for 60 seconds.
+Effect duration can be extended.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
 
@@ -2494,15 +2494,15 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 <text id="4305000">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
-Effect duration can be extended.
 Reduces max FP by 10% for 60 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
-Effect duration can be extended.
 Reduces max FP by 10% for 120 seconds.
+Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
@@ -2558,8 +2558,8 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 60 and boosts Dark absorption by 10% for 60 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 20% for 60 seconds.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2569,8 +2569,8 @@ Reinforces right weapon with dark.
 
 Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
 Scales with Spell Buff.
-Effect duration can be extended.
 Reduces max FP by 20% for 120 seconds.
+Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
 of the Sable Church, is said to recount tales that
@@ -2608,26 +2608,26 @@ imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
 Lasts 60 seconds.
-Effect duration can be extended.
-Reduces max FP by 20% for 60 seconds.</text>
+Reduces max FP by 20% for 60 seconds.
+Effect duration can be extended.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 60 Bleed on hit.
 Lasts 120 seconds.
-Effect duration can be extended.
-Reduces max FP by 20% for 60 seconds.</text>
+Reduces max FP by 20% for 120 seconds.
+Effect duration can be extended.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.
-Effect duration can be extended.
-Reduces max FP by 20% for 60 seconds.</text>
+Reduces max FP by 20% for 60 seconds.
+Effect duration can be extended.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
 Lasts 120 seconds.
-Effect duration can be extended.
-Reduces max FP by 20% for 60 seconds.</text>
+Reduces max FP by 20% for 120 seconds.
+Effect duration can be extended.</text>
 </entries>
 </fmg>

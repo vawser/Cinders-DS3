@@ -1035,8 +1035,8 @@
 - FTH Req: 15
 - Slot Use: 1
 
-#---- Refined Divine Arrow
-- FP consumption reduced to 0.
+#---- Bloodthirsty Divine Arrow
+- Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
 # Lothric's Holy Spear
@@ -1269,7 +1269,7 @@
 - Slot Use: 1
 - Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds and reduces max FP by 25% for 60 seconds.
 
-#---- Extended Great Heal
+#---- Extended Sacred Oath
 - Increases radius to 8 metres.
 
 #--------------------------------
