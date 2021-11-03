@@ -266,6 +266,10 @@ Finish following weapons:
 - Added the Assassin's Mark: boosts backstab/riposte damage from daggers by 200%.
  - Dropped by Eija the Shadow.
 - Hawk Ring: added direct damage boost: 5/10/15/20/25/30% based on ring level.
+- Changed the icon for Ring of Momentum.
+- Changed the name of Ring of Grace to Bell of Grace and changed the icon.
+- Added the Gower's Ring of Protection: hits to the back rapidly recover HP, restoring 25% of max HP over 1 second.
+ - Dropped by Huntermaster Ava.
 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
@@ -296,4 +300,3 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Do the same for the other DLC arenas for future content
 
 Go over the vanilla NPC AI
-

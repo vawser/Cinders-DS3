@@ -1511,7 +1511,7 @@
 <text id="30805">Elden Ring+5</text>
 <text id="30840">Fool's Sigil</text>
 <text id="30870">Ring of Momentum</text>
-<text id="30880">Ring of Grace</text>
+<text id="30880">Bell of Grace</text>
 <text id="30890">Ring of Punishment</text>
 <text id="30891">Ring of Punishment+1</text>
 <text id="30892">Ring of Punishment+2</text>
@@ -1612,5 +1612,6 @@
 <text id="31120">Scroll of Humanity</text>
 <text id="31130">Scroll of Cooperation</text>
 <text id="31200">Assassin's Mark</text>
+<text id="31300">Gower's Ring of Protection</text>
 </entries>
 </fmg>

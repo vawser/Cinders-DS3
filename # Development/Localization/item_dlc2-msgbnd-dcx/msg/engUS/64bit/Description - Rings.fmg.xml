@@ -3836,7 +3836,7 @@ Allows you to quickstep easily, overriding regular rolling. Disabled if current 
 <text id="30877">%null%</text>
 <text id="30878">%null%</text>
 <text id="30879">%null%</text>
-<text id="30880">An exotic ring from the eastern lands. Favoured by ninjas.
+<text id="30880">An exotic bell from the eastern lands. Favoured by ninjas.
 
 Allows you to jump easily, overriding guard and left attacks.</text>
 <text id="30881">%null%</text>
@@ -4392,6 +4392,11 @@ Little is known about it significance.
 Boosts critical damage of backstabs and ripostes by daggers by 200%.
 
 A true assassin knows exactly where to strike.</text>
+<text id="31300">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Hits to the back rapidly recover HP, restoring 25% of max HP.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
 
 </entries>
 </fmg>

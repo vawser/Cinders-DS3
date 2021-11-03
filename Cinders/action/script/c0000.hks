@@ -4225,13 +4225,17 @@ function ExecDamage(is_parry, is_attackwhileguard)
             act(2002, 112101)
         end
     end
-    
     if damage_level <= DAMAGE_LEVEL_NONE and is_damaged == FALSE and (damage_type == DAMAGE_TYPE_INVALID or damage_type == DAMAGE_TYPE_WEAK_POINT or damage_type == DAMAGE_LEVEL_MINIMUM) then
         return FALSE
     end
     local attack_dir = env(1119) -- GetAtkDirection
     local damage_angle = env(222) -- GetReceivedDamageDirection
     local style = c_Style
+    
+    -- Gower's Ring of Protection
+    if env(1116, 112500) == TRUE and damage_angle == DAMAGE_DIR_BACK then
+        act(2002, 112501)
+    end
     
     if env(1116, 31) == TRUE and env(1116, 112910) == TRUE then
         ExecEventAllBody("W_DamageParry")
@@ -16950,7 +16954,7 @@ function UpdateHawkRingEffect()
     local hand = HAND_RIGHT
     
     -- Handle weapon hand position
-    if style == HAND_LEFT_BOTH then
+    if style == HAND_LEFT_BOTH or env(225, HAND_LEFT) == WEAPON_CATEGORY_CROSSBOW then
         hand = HAND_LEFT
     else
         hand = HAND_RIGHT
@@ -16958,6 +16962,7 @@ function UpdateHawkRingEffect()
     
     -- Assassin's Mark
     if env(225, hand) == WEAPON_CATEGORY_SMALL_ARROW or env(225, hand) == WEAPON_CATEGORY_LARGE_ARROW or env(225, hand) == WEAPON_CATEGORY_CROSSBOW then
+    
         -- Hawk Ring 0
         if env(1116, 112480) == TRUE then
             act(2002, 112481)
