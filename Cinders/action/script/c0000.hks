@@ -6684,7 +6684,7 @@ function Rolling_onUpdate()
 	local b2 = "W_AttackBothHeavy2Start"
    	local hand = HAND_RIGHT
 	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
-    SetThrowAtkInvalid() -- GetSpecialEffectID
+    SetThrowAtkInvalid()
     if env(1116, 100390) == TRUE then
         ResetDamageCount()
     end
@@ -13764,6 +13764,7 @@ end
 function ThrowBackStab_Activate()
     act("バックスタブ発動")
     local style = c_Style
+    
     if style == HAND_LEFT_BOTH then
         SetAttackHand(HAND_LEFT)
     else
@@ -13813,6 +13814,12 @@ function Throw_Activate()
     SetVariable("ThrowHoldBlendWeight", 0)
     SetVariable("ThrowHolding", false)
     SetVariable("ThrowNoRegistTime", 0)
+    
+    -- Hornet Ring
+    if env(1116, 112460) == TRUE then
+        act(2002, 112461)
+    end
+    
     return 
 end
 

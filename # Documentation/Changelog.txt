@@ -243,6 +243,7 @@ Finish following weapons:
 - Increased the stamina consumption of the Sidearm weapons.
 - Reduced the damage of the Sidearm weapons.
 - Added secondary explosion for Cannon and Church Cannon that deal damage to anything near the end of the barrel when fired.
+- Reduced STR req for Executioner's Greatsword to 26
 
 # Infusions:
 - Weapon magic infusion now gains additional bloodthirst charges on hit.
@@ -258,6 +259,7 @@ Finish following weapons:
 - Added Scroll of Hollowing: grants hollow form and boosts defences by 10%. Sold by Alchemist Jiji.
 - Added Scroll of Humanity: grants human form and boosts max stamina by 5%. Sold by Alchemist Jiji.
 - Added Scroll of Cooperation: grants white phantom form and boosts max HP by 5%. Sold by Alchemist Jiji.
+- Hornet Ring: now boosts backstab/riposte damage by 100%.
 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
@@ -287,4 +289,9 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Add a bonfire to the level so it is warped to via warp menu
  Do the same for the other DLC arenas for future content
 
-14000853
+Go over the vanilla NPC AI
+
+-- Hornet Ring
+if env(1116, 112460) == TRUE then
+    act(2002, 112461)
+end
