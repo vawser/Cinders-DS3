@@ -296,9 +296,3 @@ Adjust Memory so select of type is done via bonfire menu in the level
 
 Go over the vanilla NPC AI
 
--- Hornet Ring
-if env(1116, 112460) == TRUE then
-    act(2002, 112461)
-end
-
-6008 Assassin's Mark

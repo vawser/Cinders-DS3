@@ -13824,8 +13824,8 @@ function Throw_Activate()
     
     -- Hornet Ring
     if env(1116, 112460) == TRUE then
-        -- Add diminished effect if stacked with other rings
-        if env(1116, 112470) == TRUE then
+        -- Add diminished effect if using dagger with Assassin's Mark
+        if env(1116, 112470) == TRUE and env(225, HAND_RIGHT) == WEAPON_CATEGORY_SHORT_SWORD then
             act(2002, 112462)
         else
             act(2002, 112461)
