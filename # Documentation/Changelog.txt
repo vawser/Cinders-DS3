@@ -113,6 +113,9 @@ Finish following weapons:
 # Bosses:
 - Marauder:
  - Reduced the amount of bullets spawned by the combustion/bursting fireball spells on impact.
+ - Now considered Hollow.
+ - Now has 60% Fire absorption.
+ - Now has 40% Dark absorption.
 
 - Cathedral Guardian:
  - Changed the Cathedral Guardian's arena - it is now the path and entrance hall for the Cathedral.
