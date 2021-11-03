@@ -265,6 +265,7 @@ Finish following weapons:
 - Hornet Ring: now boosts backstab/riposte damage by 100%. Stacks with other sources of critical boost, but with a diminished effect.
 - Added the Assassin's Mark: boosts backstab/riposte damage from daggers by 200%.
  - Dropped by Eija the Shadow.
+- Hawk Ring: added direct damage boost: 5/10/15/20/25/30% based on ring level.
 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.

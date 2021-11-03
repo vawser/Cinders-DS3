@@ -532,12 +532,12 @@
 <text id="20367">%null%</text>
 <text id="20368">%null%</text>
 <text id="20369">%null%</text>
-<text id="20370">Extends the range of bows</text>
-<text id="20371">Extends the range of bows</text>
-<text id="20372">Extends the range of bows</text>
-<text id="20373">Extends the range of bows</text>
-<text id="20374">Extends the range of bows</text>
-<text id="20375">Extends the range of bows</text>
+<text id="20370">Extends the range of bows and boosts damage</text>
+<text id="20371">Extends the range of bows and boosts damage</text>
+<text id="20372">Extends the range of bows and boosts damage</text>
+<text id="20373">Extends the range of bows and boosts damage</text>
+<text id="20374">Extends the range of bows and boosts damage</text>
+<text id="20375">Extends the range of bows and boosts damage</text>
 <text id="20376">%null%</text>
 <text id="20377">%null%</text>
 <text id="20378">%null%</text>
@@ -1278,6 +1278,6 @@
 <text id="31110">Take the appearance of a hollowed human and boost defences</text>
 <text id="31120">Take the appearance of a human and boost max stamina</text>
 <text id="31130">Take the appearance of a white phantom and boost max HP</text>
-<text id="31200">Boosts critical damage of backstabs and ripostes for daggers</text>
+<text id="31200">Boosts critical damage of backstabs and ripostes by daggers</text>
 </entries>
 </fmg>

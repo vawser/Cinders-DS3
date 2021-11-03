@@ -13815,8 +13815,15 @@ function Throw_Activate()
     SetVariable("ThrowHolding", false)
     SetVariable("ThrowNoRegistTime", 0)
     
+    -- Handle weapon hand position
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    else
+        hand = HAND_RIGHT
+    end
+    
     -- Assassin's Mark
-    if env(225, HAND_RIGHT) == WEAPON_CATEGORY_SHORT_SWORD then
+    if env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
         if env(1116, 112470) == TRUE then
             act(2002, 112471)
         end
@@ -13825,7 +13832,7 @@ function Throw_Activate()
     -- Hornet Ring
     if env(1116, 112460) == TRUE then
         -- Add diminished effect if using dagger with Assassin's Mark
-        if env(1116, 112470) == TRUE and env(225, HAND_RIGHT) == WEAPON_CATEGORY_SHORT_SWORD then
+        if env(1116, 112470) == TRUE and env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
             act(2002, 112462)
         else
             act(2002, 112461)
@@ -16496,6 +16503,7 @@ function Update()
     UpdateImpermanenceCurseEffect()
     UpdatePsychedelicElixirEffect()
     UpdateVitalityMasteryEffect()
+    UpdateHawkRingEffect()
     
     -- Rings
     UpdateSigilEffect()
@@ -16931,6 +16939,50 @@ function UpdateVitalityMasteryEffect()
         if env(1116, 112422) ~= TRUE then
             act(2002, 112422)
             act(2002, 112420)
+        end
+    end
+end
+
+function UpdateHawkRingEffect()
+    local style = c_Style
+    
+    -- Handle weapon hand position
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    else
+        hand = HAND_RIGHT
+    end
+    
+    -- Assassin's Mark
+    if env(225, hand) == WEAPON_CATEGORY_SMALL_ARROW or env(225, hand) == WEAPON_CATEGORY_LARGE_ARROW or env(225, hand) == WEAPON_CATEGORY_CROSSBOW then
+        -- Hawk Ring 0
+        if env(1116, 112480) == TRUE then
+            act(2002, 112481)
+        end
+        
+        -- Hawk Ring 1
+        if env(1116, 112482) == TRUE then
+            act(2002, 112483)
+        end
+        
+        -- Hawk Ring 2
+        if env(1116, 112484) == TRUE then
+            act(2002, 112485)
+        end
+        
+        -- Hawk Ring 3
+        if env(1116, 112486) == TRUE then
+            act(2002, 112487)
+        end
+        
+        -- Hawk Ring 4
+        if env(1116, 112488) == TRUE then
+            act(2002, 112489)
+        end
+        
+        -- Hawk Ring 5
+        if env(1116, 112490) == TRUE then
+            act(2002, 112491)
         end
     end
 end
