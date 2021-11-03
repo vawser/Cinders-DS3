@@ -157,17 +157,8 @@ def t400511_x8():
     
 # Menu Loop
 def t400511_x9():
-    # Player has 100,000 souls OR in Gauntlet mode
-    if ComparePlayerStatus(8, 2, 100000) or GetEventStatus(25009813) == 1:
-        SetEventState(14000852, 1)
-        
-        # Remove souls only in normal mode
-        if GetEventStatus(25009813) == 0:
-            ChangePlayerStats(8, 1, 100000) # Remove 100,000 souls
-            assert GetCurrentStateElapsedFrames() > 1
-        else:
-            assert GetCurrentStateElapsedFrames() > 1
-            
+    # Player has activated boss
+    if GetEventStatus(14000852) == 1:
         assert t400511_x10(text1=10131010, flag1=0, mode1=0)
         return 0
     else:

@@ -137,7 +137,8 @@ Finish following weapons:
   - He switches phase at 50% HP and his eyes go red.
 
 - Spurned Shade: 
- - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one. Has a custom AI.
+ - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one. Appears only after Champion Gundyr has been defeated.
+ - Has a custom AI.
 
 # NPCs:
 - Adjusted the HP of all NPCs so they are harder to burst down than before.
@@ -286,12 +287,3 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Add a bonfire to the level so it is warped to via warp menu
  Do the same for the other DLC arenas for future content
 
-Change some of the chests into trapped chests
- Poison cloud
- Acid cloud
- Skeleton spawn
-
-// InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002000); // Poison Cloud
-// InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002010); // Acid Cloud
-// InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002020); // Combustion
-// InitializeCommonEvent(20086002, 14001620, 4001620, 4004620, 4000621, 4000622, 4000623, 700, 1700); // Skeletons
