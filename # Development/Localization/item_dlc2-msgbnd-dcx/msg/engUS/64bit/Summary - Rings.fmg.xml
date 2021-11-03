@@ -542,7 +542,7 @@
 <text id="20377">%null%</text>
 <text id="20378">%null%</text>
 <text id="20379">%null%</text>
-<text id="20380">Boosts the damage of backstabs and ripostes</text>
+<text id="20380">Boosts critical damage for backstabs and ripostes</text>
 <text id="20381">%null%</text>
 <text id="20382">%null%</text>
 <text id="20383">%null%</text>
@@ -1278,5 +1278,6 @@
 <text id="31110">Take the appearance of a hollowed human and boost defences</text>
 <text id="31120">Take the appearance of a human and boost max stamina</text>
 <text id="31130">Take the appearance of a white phantom and boost max HP</text>
+<text id="31200">Boosts critical damage of backstabs and ripostes for daggers</text>
 </entries>
 </fmg>

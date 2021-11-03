@@ -1648,7 +1648,8 @@ In his later years, the giant Gough was blinded, but this did not prevent him fr
 <text id="20379">%null%</text>
 <text id="20380">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
 
-Boosts backstab and riposte damage by 100%.
+Boosts critical damage of backstabs and ripostes by 100%.
+Effect is diminished if other critical boosting equipment is worn.
 
 The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
 <text id="20381">%null%</text>
@@ -4379,6 +4380,12 @@ Take the appearance of a human and boost max stamina by 5%.</text>
 <text id="31130">A magical scroll once owned by a helpful human.
 
 Take the appearance of a white phantom and boost max HP by 5%.</text>
+<text id="31200">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes of daggers by 200%.
+
+A true assassin knows exactly where to strike.</text>
 
 </entries>
 </fmg>

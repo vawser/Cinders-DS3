@@ -13815,9 +13815,21 @@ function Throw_Activate()
     SetVariable("ThrowHolding", false)
     SetVariable("ThrowNoRegistTime", 0)
     
+    -- Assassin's Mark
+    if env(225, HAND_RIGHT) == WEAPON_CATEGORY_SHORT_SWORD then
+        if env(1116, 112470) == TRUE then
+            act(2002, 112471)
+        end
+    end
+    
     -- Hornet Ring
     if env(1116, 112460) == TRUE then
-        act(2002, 112461)
+        -- Add diminished effect if stacked with other rings
+        if env(1116, 112470) == TRUE then
+            act(2002, 112462)
+        else
+            act(2002, 112461)
+        end
     end
     
     return 

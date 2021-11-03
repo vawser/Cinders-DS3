@@ -371,7 +371,7 @@
 
 # Hornet Ring
 - Weight: 1
-- Increases critical damage.
+- Increases damage of backstabs and ripostes by 100%.
 
 # Covetous Gold Serpent Ring
 - Weight: 2
@@ -1007,3 +1007,4 @@
     - Reduces FP consumption of skills by 30/32/34/36/38/40%.
     - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
 - Source: Hitless run - Hard mode
+

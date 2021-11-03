@@ -262,7 +262,9 @@ Finish following weapons:
 - Added Scroll of Hollowing: grants hollow form and boosts defences by 10%. Sold by Alchemist Jiji.
 - Added Scroll of Humanity: grants human form and boosts max stamina by 5%. Sold by Alchemist Jiji.
 - Added Scroll of Cooperation: grants white phantom form and boosts max HP by 5%. Sold by Alchemist Jiji.
-- Hornet Ring: now boosts backstab/riposte damage by 100%.
+- Hornet Ring: now boosts backstab/riposte damage by 100%. Stacks with other sources of critical boost, but with a diminished effect.
+- Added the Assassin's Mark: boosts backstab/riposte damage from daggers by 200%.
+ - Dropped by Eija the Shadow.
 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
@@ -298,3 +300,5 @@ Go over the vanilla NPC AI
 if env(1116, 112460) == TRUE then
     act(2002, 112461)
 end
+
+6008 Assassin's Mark
