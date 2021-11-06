@@ -2738,13 +2738,14 @@ thought only to exist in legend...</text>
 
 <text id="60045000">Do you wish to restore your purity and reclaim the betrothal ring?</text>
 
-<text id="60050000">The memory swirls...</text>
-<text id="60050001">Irritating thoughts emerge...</text>
-<text id="60050002">Afflicted thoughts emerge...</text>
-<text id="60050003">Pestering thoughts emerge...</text>
-<text id="60050004">Tormented thoughts emerge...</text>
-<text id="60050005">Amalgamation of anguish emerges!</text>
-<text id="60050006">Tranquility restored!</text>
+<text id="60050000">The memory writhes...</text>
+<text id="60050001">Assailants emerge!</text>
+<text id="60050002">Assailants emerge!</text>
+<text id="60050003">Assailants emerge!</text>
+<text id="60050004">Assailants emerge!</text>
+<text id="60050005">Assailants emerge!</text>
+<text id="60050006">Memory endured!</text>
+
 <text id="60060000">...Akseliane..</text>
 <text id="60060100">Oh dear... What have we here?</text>
 <text id="60060101">Prove your worth against my knights, or scram!</text>

@@ -30,4 +30,10 @@ copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III
 
 copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang\output\m51_01_00_00.talkesdbnd.dcx" "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\Cinders\script\talk\m51_01_00_00.talkesdbnd.dcx"
 
+copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang\output\m46_00_00_00.talkesdbnd.dcx" "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\Cinders\script\talk\m46_00_00_00.talkesdbnd.dcx"
+
 copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang\output\m47_00_00_00.talkesdbnd.dcx" "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\Cinders\script\talk\m47_00_00_00.talkesdbnd.dcx"
+
+copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang\output\m53_00_00_00.talkesdbnd.dcx" "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\Cinders\script\talk\m53_00_00_00.talkesdbnd.dcx"
+
+copy /b/v/y "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang\output\m54_00_00_00.talkesdbnd.dcx" "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\Cinders\script\talk\m54_00_00_00.talkesdbnd.dcx"

@@ -268,7 +268,7 @@ Finish following weapons:
 - Hawk Ring: added direct damage boost: 5/10/15/20/25/30% based on ring level.
 - Changed the icon for Ring of Momentum.
 - Changed the name of Ring of Grace to Bell of Grace and changed the icon.
-- Added the Gower's Ring of Protection: hits to the back rapidly recover HP, restoring 25% of max HP over 1 second.
+- Added the Gower's Ring of Protection: hits to the back rapidly recover HP, restoring 20% of max HP over 1 second.
  - Dropped by Huntermaster Ava.
 
 # Items:
@@ -279,6 +279,23 @@ Finish following weapons:
 - The FP cost reduction from the Soul of a Fallen Sage is now also applied to spells.
 - Added Bone Marrow Ash: boosts damage of firearms by 300% for 8 seconds. Sold by Master Benjin.
 
+# Memories
+- You now directly warp to Memories via the warp menu.
+- Renamed the current Memory level to Memory of Endurance.
+- Changed the format of the waves. Each wave consists of 20 enemies. 10 will spawn in gradually, and once those 10 have been killed another 10 will then start.
+- The old types of memories have been changed into each of the individual waves.
+- You can now select the difficulty of the Memory.
+ - Easy: no soul absorption boost but no HP or damage boost for enemies.
+  - Rewards 10 Titanite Shards.
+ - Normal: +50% soul absorption but enemies gain +50% HP and damage.
+  - Rewards 10 Large Titanite Shards.
+ - Hard: +100% soul absorption but enemies gain +100% HP and damage.
+  - Rewards 6 Titanite Chunks.
+ - Very Hard: +150% soul absorption but enemies gain +150% HP and damage.
+  - Rewards 1 Titanite Slab.
+ - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
+  - Rewards 5 Primordial Fragments.
+  
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
 - Fixed several item descriptions.
@@ -300,3 +317,9 @@ Adjust Memory so select of type is done via bonfire menu in the level
  Do the same for the other DLC arenas for future content
 
 Go over the vanilla NPC AI
+
+Kiln of Flame: m47  # Memory of Endurance - Swarms
+
+Dragon Ruins: m53   # Memory of Strength - Few but strong enemies
+Round Plaza: m54    # Memory of Glory - NPC enemies
+

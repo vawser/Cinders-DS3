@@ -7687,3 +7687,17 @@ Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetEventFlag(X0_4, ON);
 });
 
+//------------------------
+// Enable Wave Enemy
+//------------------------
+Event(20087100, Restart, function(X0_4) {
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+    
+    // Spawn FFX
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060);
+});
+
+
+

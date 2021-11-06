@@ -4225,6 +4225,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
             act(2002, 112101)
         end
     end
+    
     if damage_level <= DAMAGE_LEVEL_NONE and is_damaged == FALSE and (damage_type == DAMAGE_TYPE_INVALID or damage_type == DAMAGE_TYPE_WEAK_POINT or damage_type == DAMAGE_LEVEL_MINIMUM) then
         return FALSE
     end

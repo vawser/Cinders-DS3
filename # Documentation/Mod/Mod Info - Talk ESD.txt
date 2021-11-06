@@ -346,8 +346,6 @@ Then create the python version and recompile it.
 450561 Father Ariandel
 450590 Dying Corvian
 
-470000 Announcer
-
 500000
 500001
 500002
@@ -410,3 +408,23 @@ Then create the python version and recompile it.
 511509 GENERIC UNUSED
 511740
 511770
+
+460000 Bonfire
+460001
+460002
+460003
+
+470000 Bonfire
+470001 Announcer
+470002
+470003
+
+530000 Bonfire
+530001
+530002
+530003
+
+540000 Bonfire
+540001
+540002
+540003
