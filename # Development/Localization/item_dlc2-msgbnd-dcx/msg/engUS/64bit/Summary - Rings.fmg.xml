@@ -612,7 +612,7 @@
 <text id="20447">%null%</text>
 <text id="20448">%null%</text>
 <text id="20449">%null%</text>
-<text id="20450">Reduces evasion stamina consumption slightly and obscures rolling</text>
+<text id="20450">Reduces evasion stamina consumption slightly and lengthens your roll distance</text>
 <text id="20451">%null%</text>
 <text id="20452">%null%</text>
 <text id="20453">%null%</text>
@@ -1025,7 +1025,7 @@
 <text id="30083">Increases the effectiveness of HP recovery</text>
 <text id="30084">Increases the effectiveness of HP recovery</text>
 <text id="30085">Increases the effectiveness of HP recovery</text>
-<text id="30090">Boosts defense but increases evasion stamina consumption</text>
+<text id="30090">Boosts defense but shortens your roll distance</text>
 <text id="30170">Boosts damage against demons</text>
 <text id="30171">Boosts damage against demons</text>
 <text id="30172">Boosts damage against demons</text>
@@ -1173,14 +1173,14 @@
 <text id="30800">Boosts critical damage of backstabs and ripostes by halberds</text>
 <text id="30840">Bestows a random effect every 15 seconds</text>
 <text id="30870">Allows the wearer to quickstep easily</text>
-<text id="30880">Allows the wearer to jump easily</text>
+<text id="30880">Allows the wearer to jump simply and extends jump distance significantly</text>
 <text id="30890">Imbues weapon with Bleed</text>
 <text id="30891">Imbues weapon with Bleed</text>
 <text id="30892">Imbues weapon with Bleed</text>
 <text id="30893">Imbues weapon with Bleed</text>
 <text id="30894">Imbues weapon with Bleed</text>
 <text id="30895">Imbues weapon with Bleed</text>
-<text id="30900">Allows you to sprint endlessly and automatically</text>
+<text id="30900">Increases movement speed significantly</text>
 <text id="30910">Grants a multitude of benefits</text>
 <text id="30911">Grants a multitude of benefits</text>
 <text id="30912">Grants a multitude of benefits</text>

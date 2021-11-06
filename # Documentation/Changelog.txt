@@ -392,6 +392,18 @@ Finish following weapons:
 - Speckled Stoneplate Ring:
  - Grants 5/8/12/16/20/25% Magic, Fire, Lightning and Dark Absorption
  
+- Greatwood Remnants
+ - Increases physical defense by 50% but shortens your roll distance.
+ 
+- Carthus Milkring
+ - Reduces evasion stamina consumption by 25% aand lengthens your roll distance.
+ 
+- Bell of Grace:
+ - Allows you to jump simply and extends jump distance significantly.
+ 
+- Dashmaster's Ring:
+ - Increases movement speed significantly.
+ 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
 - Added a small passive gain of Bloodthirst charges.
@@ -445,6 +457,7 @@ Finish following weapons:
 - Fixed Crow Quills granting the wrong amount of Bloodthirst charges.
 - Sidearms now have priority over Bell of Grace and Horsehoof Ring right when it comes to guard action.
 - Bell of Grace and Horsehoof Ring should work more consistently.
+- Fixed sidearms guarding when you press L1 while rolling
 
 #------------------------------
 # TODO
@@ -480,3 +493,4 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
+Move clutter objs into general assets for maps to allow for better map furnishment

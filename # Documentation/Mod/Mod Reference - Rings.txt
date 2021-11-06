@@ -414,7 +414,7 @@
 
 # Carthus Milkring
 - Weight: 0.5
-- Reduces the stamina cost of evasion actions by 25% and obscures rolling.
+- Reduces evasion stamina consumption by 25% aand lengthens your roll distance.
 
 # Knight's Ring
 - Weight: 1
@@ -649,7 +649,7 @@
 
 # Greatwood Remnants
 - Weight: 3
-- Increases physical defence by 50% but increases evasive stamina consumption by 20%.
+- Increases physical defense by 50% but shortens your roll distance.%.
 
 # Demonsbane Ring
 - Weight: 2

@@ -1829,7 +1829,7 @@ The Soulfeeder was a beast that insatiably absorbed souls to feed its own power.
 <text id="20449">%null%</text>
 <text id="20450">Ring worn by warriors of the sand kingdom, Carthus.
 
-Reduces evasion stamina consumption by 25% and obscures rolling.
+Reduces evasion stamina consumption by 25% aand lengthens your roll distance.
 
 The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
 <text id="20451">%null%</text>
@@ -2933,7 +2933,7 @@ In time, dedication yields its own reward.
 <text id="30089">%null%</text>
 <text id="30090">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
 
-Increases physical defense by 50% but increases evasive stamina costs by 20%.
+Increases physical defense by 50% but shortens your roll distance.
 
 Greatwoods are known for their hardiness, but not for their swiftness.
 </text>
@@ -3821,7 +3821,8 @@ Allows you to quickstep easily, overriding regular rolling. Disabled if current 
 <text id="30879">%null%</text>
 <text id="30880">An exotic bell from the eastern lands. Favoured by ninjas.
 
-Allows you to jump simply. Replaces Guard action with shield or weapon with Jump.</text>
+Allows you to jump simply and extends jump distance significantly.
+Replaces Guard action with shield or weapon with Jump.</text>
 <text id="30881">%null%</text>
 <text id="30882">%null%</text>
 <text id="30883">%null%</text>
@@ -3862,7 +3863,7 @@ Imbues right-hand weapon, causing strikes to inflict 50 Bleed.</text>
 <text id="30900">A red band of string used by a man known only as the Dashmaster.
 Famed for his endless endurance, of which he used to sprint from place to place.
 
-Allows you to sprint endlessly and automatically.</text>
+Increases movement speed significantly.</text>
 <text id="30901">%null%</text>
 <text id="30902">%null%</text>
 <text id="30903">%null%</text>
