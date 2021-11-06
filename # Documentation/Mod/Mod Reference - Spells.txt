@@ -1121,7 +1121,7 @@
 - FP Cost: 100
 - FTH Req: 40
 - Slot Use: 1
-- Effect: Repels target foe backwards significantly.
+- Effect: Repels target weak foe backwards significantly.
 
 #---- Gwynevere's Refined Abnegation
 - Reduces FP cost to 50.
