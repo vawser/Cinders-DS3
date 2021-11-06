@@ -4239,8 +4239,8 @@ function ExecDamage(is_parry, is_attackwhileguard)
     end
     
     -- Redeye Ring
-    if env(1116, 160601240) == TRUE then
-        act(2002, 160601241)
+    if env(1116, 112520) == TRUE then
+        act(2002, 112521)
     end
     
     if env(1116, 31) == TRUE and env(1116, 112910) == TRUE then
