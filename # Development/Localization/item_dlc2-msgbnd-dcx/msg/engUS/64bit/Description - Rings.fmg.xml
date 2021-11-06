@@ -2499,37 +2499,37 @@ Once a treasure brought before Lothric's Queen, she had it enshrined in the Ceme
 <text id="20719">%null%</text>
 <text id="20720">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon.
 Boosts stamina drain by 100% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
 <text id="20721">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon with Kick.
 Boosts stamina drain by 120% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
 <text id="20722">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon with Kick.
 Boosts stamina drain by 140% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
 <text id="20723">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon with Kick.
 Boosts stamina drain by 160% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
 <text id="20724">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon with Kick.
 Boosts stamina drain by 180% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
 <text id="20725">An old ring with a seal depicting a horse's hoof.
 
-Enables simple kicking, overriding guard or left attack.
+Enables simple kicking. Replaces Guard action with shield or weapon with Kick.
 Boosts stamina drain by 200% when kicking.
 
 Unbreakable Patches adored this ring and the feeling that it gave it him when he kicked his marks into the depths of treacherous traps, but suffered no shortage of ridicule from his associates for relying so heavily on the tired old trick. But who is the sorrier? The horse who knows only to kick, or the fool who approaches the old beast without thought?</text>
@@ -3821,7 +3821,7 @@ Allows you to quickstep easily, overriding regular rolling. Disabled if current 
 <text id="30879">%null%</text>
 <text id="30880">An exotic bell from the eastern lands. Favoured by ninjas.
 
-Allows you to jump easily, overriding guard and left attacks.</text>
+Allows you to jump simply. Replaces Guard action with shield or weapon with Jump.</text>
 <text id="30881">%null%</text>
 <text id="30882">%null%</text>
 <text id="30883">%null%</text>

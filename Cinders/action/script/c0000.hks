@@ -1208,10 +1208,13 @@ end
 function IsEnableGuard()
     local style = c_Style
     local hand = HAND_LEFT
+    
     if style == HAND_RIGHT_BOTH then
         hand = HAND_RIGHT
     end
+    
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) -- GetEquipWeaponSpecialCategoryNumber
+    
     if style == HAND_RIGHT then
         if GetEquipType(hand, WEAPON_CATEGORY_STAFF) == TRUE then
             return FALSE
@@ -1379,48 +1382,44 @@ function ResetDamageCount()
 end
 
 function ExecGuard(event, blend_type)
-    if env(1106, ACTION_ARM_L1) == TRUE or 0 < env(1108, ACTION_ARM_L1) then -- ActionRequest, ActionDuration
-        if env(1001) <= 0 then -- GetStamina
+    -- L1 pressed and L1 held for longer than 0 seconds
+    if env(1106, ACTION_ARM_L1) == TRUE or env(1108, ACTION_ARM_L1) > 0 then
+        -- Return if stamina is less or equal to 0
+        if env(1001) <= 0 then
             return FALSE
+        -- Proceed if weapon supports guarding
         elseif IsEnableGuard() == TRUE then
             local style = c_Style
+            
+            -- Handle weapon position
             local hand = HAND_LEFT
+            
             if style == HAND_RIGHT_BOTH then
                 hand = HAND_RIGHT
             end
-            local kind = env(225, hand) -- GetEquipWeaponCategory
-            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) -- GetEquipWeaponSpecialCategoryNumber
-            local guardindex = env(278, hand) -- GetGuardMotionCategory
+            
+            -- GetEquipWeaponCategory
+            local kind = env(225, hand) 
+            -- GetEquipWeaponSpecialCategoryNumber
+            local sp_kind = env("装備武器特殊カテゴリ番号取得", hand) 
+            -- GetGuardMotionCategory
+            local guardindex = env(278, hand) 
+            
+            -- Handle Torch guarding
             if kind == WEAPON_CATEGORY_TORCH and style == HAND_RIGHT then
                 guardindex = GUARD_STYLE_TORCH
+            -- Handle Follower Torch guarding
             elseif sp_kind == 240 and style == HAND_RIGHT then
-                -- Follower Torch
                 guardindex = GUARD_STYLE_TORCH
-            elseif (style == HAND_RIGHT_BOTH or style == HAND_LEFT_BOTH) and env("待機アニメカテゴリ取得") ~= 15 then -- GetStayAnimCategory
+            -- Weapon Hold Position - 2H is not 'Idle Hold - 2H Shield' and style is 2H
+            elseif (style == HAND_RIGHT_BOTH or style == HAND_LEFT_BOTH) and env("待機アニメカテゴリ取得") ~= 15 then 
                 guardindex = GUARD_STYLE_DEFAULT
             end
+            
             SetVariable("IndexGuardStyle", guardindex)
+            
             if blend_type == ALLBODY and MoveStart(LOWER, Event_MoveLong, FALSE) == TRUE then
                 blend_type = UPPER
-            end
-            
-            -- Jump Action Override
-            if env(1116, 112007) == TRUE then
-                AddStamina(-10)
-                ExecEventAllBody("W_Jump")
-            else
-                ExecEventHalfBlend(event, blend_type)
-            end
-            
-            -- Horsehoof Ring
-            if env(1116, 112090) == TRUE then
-                if style == HAND_RIGHT_BOTH then
-                    ExecEventAllBody("W_AttackBothLightKick")
-                else
-                    ExecEventAllBody("W_AttackRightLightKick")
-                end
-            else
-                ExecEventHalfBlend(event, blend_type)
             end
             
             --------------------
@@ -1508,7 +1507,32 @@ function ExecGuard(event, blend_type)
                 end
                 
                 ExecEventAllBody(l1)
+                return FALSE
             end
+            
+            --------------------
+            -- Bell of Grace
+            --------------------
+            if env(1116, 112007) == TRUE then
+                AddStamina(-10)
+                ExecEventAllBody("W_Jump")
+                return FALSE
+            end
+            
+            --------------------
+            -- Horsehoof Ring
+            --------------------
+            if env(1116, 112090) == TRUE then
+                if style == HAND_RIGHT_BOTH then
+                    ExecEventAllBody("W_AttackBothLightKick")
+                else
+                    ExecEventAllBody("W_AttackRightLightKick")
+                end
+                return FALSE
+            end
+            
+            -- Play guard event
+            ExecEventHalfBlend(event, blend_type)
             
             return TRUE
         end
@@ -1750,46 +1774,12 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif request == ATTACK_REQUEST_LEFT_LIGHT then
         atk_hand = HAND_LEFT
         
-        -- Jump Action Override
-        if env(1116, 112007) == TRUE then
-            AddStamina(-10)
-            ExecEventAllBody("W_Jump")
-            return FALSE
-        end
-        
-        -- Horsehoof Ring
-        if env(1116, 112090) == TRUE then
-            if style == HAND_RIGHT_BOTH then
-                ExecEventAllBody("W_AttackBothLightKick")
-            else
-                ExecEventAllBody("W_AttackRightLightKick")
-            end
-            return FALSE
-        end
-        
         ExecEventAllBody(l1)
     --------------------------------------------
     -- L2
     --------------------------------------------
     elseif request == ATTACK_REQUEST_LEFT_HEAVY then
         atk_hand = HAND_LEFT
-        
-        -- Jump Action Override
-        if env(1116, 112007) == TRUE then
-            AddStamina(-10)
-            ExecEventAllBody("W_Jump")
-            return FALSE
-        end
-        
-        -- Horsehoof Ring
-        if env(1116, 112090) == TRUE then
-            if style == HAND_RIGHT_BOTH then
-                ExecEventAllBody("W_AttackBothLightKick")
-            else
-                ExecEventAllBody("W_AttackRightLightKick")
-            end
-            return FALSE
-        end
         
         ExecEventAllBody(l2)
     --------------------------------------------
@@ -2079,12 +2069,18 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         ExecEventHalfBlend(Event_Endure, ALLBODY)
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
+    --------------------------------------------
+    -- L2 - Right Weapon (e.g. WA: Steady Chant)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_MAGICBUFF then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         if blend_type == ALLBODY and MoveStart(LOWER, Event_MoveLong, FALSE) == TRUE then
             blend_type = UPPER
         end
         ExecEventHalfBlend(Event_MagicBuffRight, blend_type)
+    --------------------------------------------
+    -- L2 - Right Weapon (e.g. WA: Feasting Branch)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_MAGICBUFFATTACK then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         local sp_kind_left = env("装備武器特殊カテゴリ番号取得", HAND_LEFT) -- GetEquipWeaponSpecialCategoryNumber
@@ -2120,6 +2116,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventHalfBlend(Event_MagicBuffRight, ALLBODY)
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_DAGGERSTANCE or request == SWORDARTS_REQUEST_RIGHT_DAGGERSTANCE then
         if IsNodeActive("AttackRight_Script") == TRUE or IsNodeActive("AttackBoth_Script") == TRUE then
             if GetLocomotionState() == PLAYER_STATE_IDLE then
@@ -2144,20 +2143,44 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             return FALSE
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_SAMAGIC or request == SWORDARTS_REQUEST_LEFT_SAMAGIC then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_DRAWSTANCE or request == SWORDARTS_REQUEST_RIGHT_DRAWSTANCE then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_CHAINSHOT or request == SWORDARTS_REQUEST_RIGHT_CHAINSHOT then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_WIDESHOT or request == SWORDARTS_REQUEST_RIGHT_WIDESHOT then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_STRONGSHOT or request == SWORDARTS_REQUEST_RIGHT_STRONGSHOT then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_SAMAGICMEDIUM or request == SWORDARTS_REQUEST_LEFT_SAMAGICMEDIUM then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_SAMAGICSTRONG or request == SWORDARTS_REQUEST_LEFT_SAMAGICSTRONG then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: Quickstep)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_CIRCLESTEP or request == SWORDARTS_REQUEST_LEFT_CIRCLESTEP then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2206,23 +2229,38 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 ExecEventAllBody("W_CircleStepStart")
             end
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_CHARGESHOT or request == SWORDARTS_REQUEST_LEFT_CHARGESHOT then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
         ExecEventHalfBlend(Event_ChargeShotRightStart, ALLBODY)
+    --------------------------------------------
+    -- L2 - Right Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_CROSSBOWSTEPIN then
         is_find_atk = FALSE
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         ExecEventHalfBlend(Event_CrossbowStepInRightStart, ALLBODY)
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: Neck Swipe)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_HEADHUNT or request == SWORDARTS_REQUEST_LEFT_HEADHUNT then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         ExecEventHalfBlend(Event_HeadHunt, ALLBODY)
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_ONESHOT or request == SWORDARTS_REQUEST_LEFT_ONESHOT then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         ExecEventHalfBlend(Event_OneShot, ALLBODY)
+    --------------------------------------------
+    -- L2 - Right Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_ONESHOTFULL then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         if style == HAND_RIGHT then
@@ -2230,15 +2268,27 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventAllBody("W_OneShotFullBothStart")
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_ONESHOT_NOGENTRANS or request == SWORDARTS_REQUEST_LEFT_ONESHOT_NOGENTRANS then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         ExecEventAllBody("W_OneShotNoGenTransStart")
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: Storm King)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_STORMSTANCE or request == SWORDARTS_REQUEST_LEFT_STORMSTANCE then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right Weapon (e.g. WA: Gentle Prayer)
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_MAGICBUFFPRAY then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         SetArtsGeneratorTransitionIndex(GEN_TRANS_LEFT, FALSE)
         ExecEventHalfBlend(Event_MagicBuffRight, ALLBODY)
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_FOURWAYATTACK or request == SWORDARTS_REQUEST_LEFT_FOURWAYATTACK then
         local angle = GetVariable("MoveAngle")
         if GetWeightIndex(FALSE) == EVASION_WEIGHT_INDEX_OVERWEIGHT then
@@ -2285,6 +2335,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 ExecEventAllBody("W_FourWayAttackStart_SelfTrans")
             end
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_RIGHT_FOURWAYDRAWSTANCE or request == SWORDARTS_REQUEST_LEFT_FOURWAYDRAWSTANCE then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2327,11 +2380,20 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             ExecEventAllBody("W_FourWayDrawStanceRightStart")
             act(1001, -10)
         end
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_GATLINGSTANCE or request == SWORDARTS_REQUEST_RIGHT_GATLINGSTANCE then
         return FALSE
+    --------------------------------------------
+    -- L2 - Right/Left Weapon (e.g. WA: )
+    --------------------------------------------
     elseif request == SWORDARTS_REQUEST_LEFT_RANDOMONESHOT or request == SWORDARTS_REQUEST_RIGHT_RANDOMONESHOT then
         SetSwordArtsPointInfo(ACTION_ARM_L2, TRUE)
         ExecEventAllBody("W_RandomOneShot1")
+    --------------------------------------------
+    -- R1 - Right/Left Weapon (e.g. Bow)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_ARROW_FIRE_RIGHT or request == ATTACK_REQUEST_ARROW_FIRE_RIGHT2 then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2375,6 +2437,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             end
             ExecEventHalfBlend(Event_AttackArrowRightStart, blend_type)
         end
+    --------------------------------------------
+    -- R1 - Right Weapon (e.g. Crossbow)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_RIGHT_CROSSBOW or request == ATTACK_REQUEST_RIGHT_CROSSBOW2 then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2388,6 +2453,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventHalfBlend(Event_AttackCrossbowRightReload, blend_type)
         end
+    --------------------------------------------
+    -- L1 - Left Weapon (e.g. Crossbow)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_LEFT_CROSSBOW or request == ATTACK_REQUEST_LEFT_CROSSBOW2 then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2402,6 +2470,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventHalfBlend(Event_AttackCrossbowLeftReload, blend_type)
         end
+    --------------------------------------------
+    -- R1 - Right/Left Weapon (e.g. Crossbow)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_BOTHRIGHT_CROSSBOW or request == ATTACK_REQUEST_BOTHRIGHT_CROSSBOW2 then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2415,6 +2486,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventHalfBlend(Event_AttackCrossbowBothRightReload, blend_type)
         end
+    --------------------------------------------
+    -- L1 - Right/Left Weapon (e.g. Crossbow)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_BOTHLEFT_CROSSBOW or request == ATTACK_REQUEST_BOTHLEFT_CROSSBOW2 then
         is_find_atk = FALSE
         is_atk_auto_aim = FALSE
@@ -2428,6 +2502,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         else
             ExecEventHalfBlend(Event_AttackCrossbowBothLeftReload, blend_type)
         end
+    --------------------------------------------
+    -- R1 - Right/Left Weapon (e.g. Spear with Shield Up)
+    --------------------------------------------
     elseif request == ATTACK_REQUEST_ATTACK_WHILE_GUARD then
         local index = env(278, HAND_LEFT) -- GetGuardMotionCategory
         if GetVariable("IndexGuardStyle") == GUARD_STYLE_TORCH then
@@ -2438,24 +2515,29 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     else
         return FALSE
     end
+    
     if is_find_atk == TRUE then
         SetInterruptType(INTERRUPT_FINDATTACK)
     end
+    
     if is_atk_auto_aim == TRUE then
         SetVariable("AtkAutoAimFlag", true)
         if GetVariable("IsLockon") == false then
             act("自動捕捉対象設定") -- Update Lockon Target
         end
     end
+    
     SetVariable("AtkAutoAimTime", 0)
+    
     if style == HAND_RIGHT_BOTH then
         atk_hand = HAND_RIGHT
     elseif style == HAND_LEFT_BOTH then
         atk_hand = HAND_LEFT
     end
-    SetAttackHand(atk_hand)
     
+    SetAttackHand(atk_hand)
     SetAIActionState()
+    
     return TRUE
 end
 
@@ -4675,7 +4757,8 @@ function ExecDamage(is_parry, is_attackwhileguard)
 end
 
 function ExecGuardOnCancelTiming(guardcondition, blend_type)
-    if env(243) == FALSE then -- IsGuardFromAtkCancel
+    -- IsGuardFromAtkCancel
+    if env(243) == FALSE then 
         return FALSE
     elseif guardcondition == TO_GUARDON then
         if ExecGuard(Event_GuardOn, blend_type) == TRUE then
@@ -4684,6 +4767,7 @@ function ExecGuardOnCancelTiming(guardcondition, blend_type)
     elseif ExecGuard(Event_GuardStart, blend_type) == TRUE then
         return TRUE
     end
+    
     return FALSE
 end
 
@@ -5133,9 +5217,11 @@ function AttackCommonFunction(r1, r2, l1, l2, b1, b2, guardcondition, use_atk_qu
     SetAIActionState()
     UpdateAtkAutoAim()
     local bool = FALSE
+    
     if guardcondition == TO_GUARDON then
         bool = TRUE
     end
+    
     if ExecPassiveAction(FALSE, FALL_TYPE_DEFAULT, bool) == TRUE then
         return TRUE
     elseif ExecEvasion(FALSE, ESTEP_NONE, FALSE) == TRUE then

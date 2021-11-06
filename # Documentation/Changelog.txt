@@ -434,15 +434,17 @@ Finish following weapons:
   - Rewards 3 Titanite Slab.
  - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
   - Rewards 5 Primordial Fragments.
+
+# Memes
+- You can now parry Point Down/Dismissive Point/Well! What is it! gestures.
   
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
 - Fixed several item descriptions.
 - Fixed the curse aux from the Curse infused Dragonslayer's Axe and Runelock.
 - Fixed Crow Quills granting the wrong amount of Bloodthirst charges.
-
-# Memes
-- You can now parry Point Down/Dismissive Point/Well! What is it! gestures.
+- Sidearms now have priority over Bell of Grace and Horsehoof Ring right when it comes to guard action.
+- Bell of Grace and Horsehoof Ring should work more consistently.
 
 #------------------------------
 # TODO
