@@ -121,7 +121,7 @@ def t540000_x5():
         EndBonfireKindleAnimLoop()
     if call.Done():
         Goto('L0')
-    elif HasPlayerBeenAttacked() == 1 or GetDistanceToPlayer() > 3 or CompareBonfireState(0):
+    elif HasPlayerBeenAttacked() == 1 or GetDistanceToPlayer() > 3 or CompareBonfireState(0) or GetEventStatus(25009600) == 1:
         """ State 13 """
         assert t540000_x10()
         Goto('L0')
@@ -173,7 +173,11 @@ def t540000_x9():
     """ State 1 """
     while True:
         ClearTalkListData()
+        
         """ State 2 """
+        # Configure Memory
+        AddTalkListData(30, 99090001, -1)
+        
         # Travel
         AddTalkListData(1, 15000150, -1)
         
@@ -302,6 +306,10 @@ def t540000_x9():
             assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
                     2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
             continue
+        # Configure Memory
+        elif GetTalkListEntryResult() == 30:
+            assert t540000_x20()
+            continue
         elif (GetTalkListEntryResult() == 99 or not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not
               CheckSpecificPersonGenericDialogIsOpen(0))):
             """ State 5,22 """
@@ -315,4 +323,280 @@ def t540000_x10():
     assert t540000_x0()
     """ State 2 """
     return 0
+
+#------------------------------------
+# Configure Memory
+#------------------------------------
+def t540000_x20():
+    c1110()
+    while True:
+        ClearTalkListData()
+        
+        # Easy Difficulty
+        AddTalkListData(1, 99090011, -1)
+        
+        # Normal Difficulty
+        AddTalkListData(2, 99090012, -1)
+        
+        # Hard Difficulty
+        AddTalkListData(3, 99090013, -1)
+        
+        # Very Hard Difficulty
+        AddTalkListData(4, 99090014, -1)
+        
+        # Mythic Difficulty
+        AddTalkListData(5, 99090015, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Easy Difficulty
+        if GetTalkListEntryResult() == 1:
+            assert t540000_x21()
+            continue
+        # Normal Difficulty
+        elif GetTalkListEntryResult() == 2:
+            assert t540000_x22()
+            continue 
+        # Hard Difficulty
+        elif GetTalkListEntryResult() == 3:
+            assert t540000_x23()
+            continue 
+        # Very Hard Difficulty
+        elif GetTalkListEntryResult() == 4:
+            assert t540000_x24()
+            continue
+        # Mythic Difficulty
+        elif GetTalkListEntryResult() == 5:
+            assert t540000_x25()
+            continue 
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Easy Difficulty
+def t540000_x21():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009610) == 0, 2, 99060002, -1)
+        
+        # Start Memory
+        AddTalkListDataIf(GetEventStatus(25009610) == 1, 3, 99090010, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99090021, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009610, 1)
+            SetEventState(25009611, 0)
+            SetEventState(25009612, 0)
+            SetEventState(25009613, 0)
+            SetEventState(25009614, 0)
+            continue 
+        # Start Memory
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009600, 1)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Normal Difficulty
+def t540000_x22():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009611) == 0, 2, 99060002, -1)
+        
+        # Start Memory
+        AddTalkListDataIf(GetEventStatus(25009611) == 1, 3, 99090010, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99090022, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009610, 0)
+            SetEventState(25009611, 1)
+            SetEventState(25009612, 0)
+            SetEventState(25009613, 0)
+            SetEventState(25009614, 0)
+            continue 
+        # Start Memory
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009600, 1)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Hard Difficulty
+def t540000_x23():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009612) == 0, 2, 99060002, -1)
+        
+        # Start Memory
+        AddTalkListDataIf(GetEventStatus(25009612) == 1, 3, 99090010, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99090023, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009610, 0)
+            SetEventState(25009611, 0)
+            SetEventState(25009612, 1)
+            SetEventState(25009613, 0)
+            SetEventState(25009614, 0)
+            continue 
+        # Start Memory
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009600, 1)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Very Hard Difficulty
+def t540000_x24():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009613) == 0, 2, 99060002, -1)
+        
+        # Start Memory
+        AddTalkListDataIf(GetEventStatus(25009613) == 1, 3, 99090010, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99090024, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009610, 0)
+            SetEventState(25009611, 0)
+            SetEventState(25009612, 0)
+            SetEventState(25009613, 1)
+            SetEventState(25009614, 0)
+            continue 
+        # Start Memory
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009600, 1)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Mythic Difficulty
+def t540000_x25():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009614) == 0, 2, 99060002, -1)
+        
+        # Start Memory
+        AddTalkListDataIf(GetEventStatus(25009614) == 1, 3, 99090010, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99090025, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009610, 0)
+            SetEventState(25009611, 0)
+            SetEventState(25009612, 0)
+            SetEventState(25009613, 0)
+            SetEventState(25009614, 1)
+            continue 
+        # Start Memory
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009600, 1)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
 

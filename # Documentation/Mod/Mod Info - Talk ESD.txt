@@ -420,11 +420,11 @@ Then create the python version and recompile it.
 470003
 
 530000 Bonfire
-530001
+530001 Announcer
 530002
 530003
 
 540000 Bonfire
-540001
+540001 Announcer
 540002
 540003

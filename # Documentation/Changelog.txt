@@ -281,6 +281,8 @@ Finish following weapons:
 
 # Memories
 - You now directly warp to Memories via the warp menu.
+
+# Memory of Endurance
 - Renamed the current Memory level to Memory of Endurance.
 - Changed the format of the waves. Each wave consists of 20 enemies. 10 will spawn in gradually, and once those 10 have been killed another 10 will then start.
 - The old types of memories have been changed into each of the individual waves.
@@ -288,11 +290,43 @@ Finish following weapons:
  - Easy: no soul absorption boost but no HP or damage boost for enemies.
   - Rewards 10 Titanite Shards.
  - Normal: +50% soul absorption but enemies gain +50% HP and damage.
-  - Rewards 10 Large Titanite Shards.
+  - Rewards 8 Large Titanite Shards.
  - Hard: +100% soul absorption but enemies gain +100% HP and damage.
-  - Rewards 6 Titanite Chunks.
+  - Rewards 5 Titanite Chunks.
  - Very Hard: +150% soul absorption but enemies gain +150% HP and damage.
   - Rewards 1 Titanite Slab.
+ - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
+  - Rewards 3 Primordial Fragments.
+  
+# Memory of Strength
+- A new memory gauntlet set in the Dragon Ruins map.
+- Similar format to Memory of Endurance, but instead of many weaker enemies, you face 6 strong enemies per wave, 2 at a time. 
+- There are 2 different sets of enemies for each wave, which is used is random.
+- You can now select the difficulty of the Memory.
+ - Easy: no soul absorption boost but no HP or damage boost for enemies.
+  - Rewards 15 Titanite Shards.
+ - Normal: +50% soul absorption but enemies gain +50% HP and damage.
+  - Rewards 12 Large Titanite Shards.
+ - Hard: +100% soul absorption but enemies gain +100% HP and damage.
+  - Rewards 8 Titanite Chunks.
+ - Very Hard: +150% soul absorption but enemies gain +150% HP and damage.
+  - Rewards 3 Titanite Slab.
+ - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
+  - Rewards 5 Primordial Fragments.
+  
+# Memory of Glory
+- A new memory gauntlet set in the Round Plaza map.
+- Similar format to Memory of Endurance, but instead of many weaker enemies, you face 1 NPC intruder per wave. 
+- There are 3 different intruders per wave, which is used is random. 
+- You can now select the difficulty of the Memory.
+ - Easy: no soul absorption boost but no HP or damage boost for enemies.
+  - Rewards 15 Titanite Shards.
+ - Normal: +50% soul absorption but enemies gain +50% HP and damage.
+  - Rewards 12 Large Titanite Shards.
+ - Hard: +100% soul absorption but enemies gain +100% HP and damage.
+  - Rewards 8 Titanite Chunks.
+ - Very Hard: +150% soul absorption but enemies gain +150% HP and damage.
+  - Rewards 3 Titanite Slab.
  - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
   - Rewards 5 Primordial Fragments.
   
@@ -312,14 +346,68 @@ Change healing spells to heal when holding the cast
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
 
-Adjust Memory so select of type is done via bonfire menu in the level
- Add a bonfire to the level so it is warped to via warp menu
- Do the same for the other DLC arenas for future content
-
 Go over the vanilla NPC AI
 
 Kiln of Flame: m47  # Memory of Endurance - Swarms
 
-Dragon Ruins: m53   # Memory of Strength - Few but strong enemies
+Dragon Ruins: m53   # Memory of Strength - Fewer but strong enemies
 Round Plaza: m54    # Memory of Glory - NPC enemies
 
+25009630 Memory of Glory - Random Set 1
+25009631 Memory of Glory - Random Set 2
+25009632 Memory of Glory - Random Set 3
+
+# Round 1
+30100 Luyila of Londor [Lothric Castle]
+30200 Forgotten Locklin [Farron Keep]
+30300 Holy Knight Morton [Catacombs of Carthus]
+30500 Tiny [Lothric Castle]
+30600 Captain Morrel [High Wall of Lothric]
+30700 Dominatrix Sharron [Lothric Castle]
+30800 Sanctum Knight Norjask [Cathedral of the Deep]
+30900 Tomb Raider Dyfan [Catacombs of Carthus]
+31000 Chaos Servant Eygor [Smouldering Lake]
+
+# Round 2
+31100 Unstoppable Ifrit [Irithyll of the Boreal Valley]
+31200 Fester the Jester [Profaned Capital]
+31300 Inquisitor Ashford [Consumed King's Garden]
+31500 Corrupted Knight Lloyd [Irithyll Dungeon]
+31600 Huntmaster Ava [High Wall of Lothric]
+31710 The Pursuer [Lothric Castle]
+31800 Eccentric Archibald [Undead Settlement]
+31900 Jailer Eileen [Irithyll Dungeon]
+32000 Ollis the Merciless [Irithyll Dungeon]
+
+# Round 3
+32100 Vileblood Annalise [Profaned Capital]
+32200 The Forlorn [Road of Sacrifices]
+33000 Glaive Master Hodir [Ringed City]
+33100 Ezekiel the Duelist [Ariandel]
+33200 Eija the Shadow [Ariandel]
+33300 Ironclad Xavier [Dreg Heap]
+33400 Freya the Wretched [Ringed City]
+33500 Nahor the Fallen [Ringed City]
+33700 Gaius the Mighty [Archdragon Peak
+
+# Round 4
+33800 Quintus the Monstrous [Grand Archives]
+34200 Blacksmith's Nightmare [Untended Graves]
+34300 Frozen Knight Torbjorn [Ariandel]
+34500 Wandering Knight Osvaldo [Irithyll of the Boreal Valley]
+34900 Ashen Keeper Sofija [Untended Graves]
+35000 Hallowed Knight Orthell [Cathedral of the Deep]
+35100 Dragon Hunter Karstark [Archdragon Peak]
+35200 Disciple of Alsanna [Ariandel]
+36200 Ashen Hunter Yafuh [Undead Settlement]
+
+# Round 5
+34600 Lord Takatsuji [Profaned Capital]
+34700 Lieutenant Ugali [Profaned Capital]
+34800 Lieutenant Hanji [Profaned Capital]
+33600 Easterner Iazeel [Ringed City]
+34400 Bewitched Knight Iwai [Profaned Capital]
+35900 The Father [Smouldering Lake]
+36000 The Mother [Smouldering Lake]
+36100 The Child [Smouldering Lake]
+32900 Lord Zakar [Kiln]
