@@ -5623,6 +5623,21 @@ Event(20008150, Default, function(X0_4, X4_4) {
     EndUnconditionally(EventEndType.End);
 });
 
+//------------------------
+// Warp Enemy to Player
+//------------------------
+Event(20008160, Restart, function(X0_4) {
+    IfCharacterHasSpEffect(MAIN, X0_4, 160500530, true, ComparisonType.Equal, 1);
+    IssueShortWarpRequest(X0_4, TargetEntityType.Character, 10000, 270);
+    
+    // Spawn FFX
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 270, 1060);
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 //----------------------------------------------
 // Warp to Location 
 //----------------------------------------------
@@ -7698,6 +7713,3 @@ Event(20087100, Restart, function(X0_4) {
     // Spawn FFX
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060);
 });
-
-
-

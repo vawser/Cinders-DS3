@@ -340,6 +340,9 @@ def t350500_x20():
         # Refined Homeward
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3521000, 4, 1, 0) == 1, 42, 99047041, -1)
         
+        # Gwynevere's Refined Abnegation
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3822000, 4, 1, 0) == 1, 43, 99047042, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -509,6 +512,10 @@ def t350500_x20():
         # Refined Homeward
         elif GetTalkListEntryResult() == 42:
             assert t350500_x50(82410, 1090, 9, -10, 99048041, 99049041, 99040020)
+            continue
+        # Gwynevere's Refined Abnegation
+        elif GetTalkListEntryResult() == 43:
+            assert t350500_x50(82420, 1090, 9, -10, 99048042, 99049042, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

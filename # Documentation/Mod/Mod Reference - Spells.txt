@@ -1115,6 +1115,17 @@
 #---- Wrathful Wave
 - Changes cast animation to Farron Dart and fires 1 wave per cast.
 
+#--------------------------------
+# Gwynevere's Abnegation
+#--------------------------------
+- FP Cost: 100
+- FTH Req: 40
+- Slot Use: 1
+- Effect: Repels target foe backwards significantly.
+
+#---- Gwynevere's Refined Abnegation
+- Reduces FP cost to 50.
+
 #--------------------------------------------------------------------------
 # Miracles - Effects
 #--------------------------------------------------------------------------
