@@ -1133,7 +1133,7 @@
 <text id="30520">Enemies will randomly explode when dead, reduces max HP</text>
 <text id="30530">Randomly deflects spells, reduces max HP</text>
 <text id="30540">Emits a confusion aura, allowing enemies to harm one another, reduces max HP</text>
-<text id="30560">Increases the persistence of foes whilst pursuing the player</text>
+<text id="30560">Hits taken increase stamina recovery, and increases enemy target priority of player</text>
 <text id="30650">Boosts damage upon killing enemies, but harms the wearer</text>
 <text id="30651">Boosts damage upon killing enemies, but harms the wearer</text>
 <text id="30652">Boosts damage upon killing enemies, but harms the wearer</text>
@@ -1170,12 +1170,7 @@
 <text id="30703">Boosts dark defense massively</text>
 <text id="30704">Boosts dark defense massively</text>
 <text id="30705">Boosts dark defense massively</text>
-<text id="30800">Boosts physical attack</text>
-<text id="30801">Boosts physical attack</text>
-<text id="30802">Boosts physical attack</text>
-<text id="30803">Boosts physical attack</text>
-<text id="30804">Boosts physical attack</text>
-<text id="30805">Boosts physical attack</text>
+<text id="30800">Boosts critical damage of backstabs and ripostes by halberds</text>
 <text id="30840">Bestows a random effect every 15 seconds</text>
 <text id="30870">Allows the wearer to quickstep easily</text>
 <text id="30880">Allows the wearer to jump easily</text>

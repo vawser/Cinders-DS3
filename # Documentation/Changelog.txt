@@ -143,6 +143,9 @@ Finish following weapons:
  - A special miniboss that you fight to reclaim the Ring of Betrothal if you lack one. Appears only after Champion Gundyr has been defeated.
  - Has a custom AI.
 
+- Aborr:
+ - Can now be riposted.
+
 # NPCs:
 - Adjusted the HP of all NPCs so they are harder to burst down than before.
 - Added a friendly Spurned Shade in Firelink Shrine if you have picked up the Ring of Betrothal and no longer possess one.
@@ -254,23 +257,140 @@ Finish following weapons:
 - Increased the FP cost reduction of the Lucidity infusion to 10%.
 
 # Rings:
-- Spirit Amethyst now boosts the damage of all spells by 7.5%/8.5%/9.5%/10.5%/11.5%/12.5%.
-- Dusk Crown Ring reduces all spell FP cost by 40% and reduces max HP by 30%/26%/22%/18%/14%/10%.
-- Pontiff's Left Eye now grants additional bloodthirst charges with successive attacks.
-- Aldrich's Sapphire now grants additional bloodthirst charges on a successful critical attack.
-- Added Scroll of Ethereality: grants tomb ghost form and boosts physical absorption by 5%. Sold by Alchemist Jiji.
-- Added Scroll of Hollowing: grants hollow form and boosts defences by 10%. Sold by Alchemist Jiji.
-- Added Scroll of Humanity: grants human form and boosts max stamina by 5%. Sold by Alchemist Jiji.
-- Added Scroll of Cooperation: grants white phantom form and boosts max HP by 5%. Sold by Alchemist Jiji.
-- Hornet Ring: now boosts backstab/riposte damage by 100%. Stacks with other sources of critical boost, but with a diminished effect.
-- Added the Assassin's Mark: boosts backstab/riposte damage from daggers by 200%.
- - Dropped by Eija the Shadow.
-- Hawk Ring: added direct damage boost: 5/10/15/20/25/30% based on ring level.
 - Changed the icon for Ring of Momentum.
-- Changed the name of Ring of Grace to Bell of Grace and changed the icon.
-- Added the Gower's Ring of Protection: hits to the back rapidly recover HP, restoring 20% of max HP over 1 second.
- - Dropped by Huntermaster Ava.
+- Changed the name of Ring of Grace to Bell of Grace and changed the icon
 
+- Spirit Amethyst:
+ - Boosts the damage of all spells by 5/10/15/20/25/30%.
+
+- Dusk Crown Ring 
+ - Reduces all spell FP cost by 40% and reduces max HP by 30%/26%/22%/18%/14%/10%.
+
+- Pontiff's Left Eye:
+ - Now grants additional bloodthirst charges with successive attacks.
+
+- Aldrich's Sapphire:
+ - Now grants additional bloodthirst charges on a successful critical attack.
+
+- Scroll of Ethereality: 
+ - Grants tomb ghost form and boosts physical absorption by 5%. 
+ - Sold by Alchemist Jiji.
+ - Added to the game.
+ 
+- Scroll of Hollowing: 
+ - Grants hollow form and boosts defences by 10%. 
+ - Sold by Alchemist Jiji.
+ - Added to the game.
+ 
+- Added Scroll of Humanity: 
+ - Grants human form and boosts max stamina by 5%.  
+ - Sold by Alchemist Jiji.
+ - Added to the game.
+
+- Scroll of Cooperation: 
+ - Grants white phantom form and boosts max HP by 5%. 
+ - Sold by Alchemist Jiji.
+ - Added to the game.
+
+- Hornet Ring: 
+ - Boosts backstab/riposte damage by 100%. 
+ - Stacks with other sources of critical boost, but with a diminished effect.
+
+- Assassin's Mark: 
+ - Boosts backstab/riposte damage from daggers by 200%.
+ - Dropped by Eija the Shadow.
+ - Added to the game.
+ 
+- Hawk Ring: 
+ - Added direct damage boost: 5/10/15/20/25/30% based on ring level.
+ 
+- Gower's Ring of Protection: 
+ - Hits to the back rapidly recover HP, restoring 20% of max HP over 1 second.
+ - Dropped by Huntermaster Ava.
+ - Added to the game.
+ 
+- Elden Ring: 
+ - Grants 15/20/25/30/35/40% boost to physical damage.
+ 
+- Bestial Band: 
+ - Killing enemies grants Beasthood stacks. Each stack lasts 300 seconds, increases damage inflicted by 1/2/3/4/5/6% but reduces absorption by 5
+ 
+- Ring of Calamity:
+ - Boosts all damage by 25/30/35/40/45/50% but lose 50 HP every second.
+
+- Redeye Ring:
+ - Hits taken increase stamina recovery by 5 for 120 seconds. Stacks.
+ - Increases enemy target priority of player.
+ 
+- Scholar Ring:
+ - Increases INT by 5/8/12/16/20/25
+ 
+- Priestess Ring:
+ - Increases FTH by 5/8/12/16/20/25
+ 
+- Knight's Ring:
+ - Increases STR by 5/8/12/16/20/25
+
+- Hunter's Ring:
+ - Increases DEX by 5/8/12/16/20/25
+
+- Mercenary Ring:
+ - Increases VIG by 5/8/12/16/20/25
+
+- Heretic Ring:
+ - Increases ATN by 5/8/12/16/20/25
+ 
+- Mercant Ring:
+ - Increases END by 5/8/12/16/20/25
+ 
+- Physician Ring:
+ - Increases VIT by 5/8/12/16/20/25
+ 
+- Jester Ring:
+ - Increases LCK by 5/8/12/16/20/25
+ 
+- Demonsbane Ring:
+ - Increase damage against Demon enemies by 15/20/25/30/35/40%
+ 
+- Crypt Ring:
+ - Increase damage against Undead enemies by 15/20/25/30/35/40%
+ 
+- Blight Ring:
+ - Increase damage against Hollow enemies by 15/20/25/30/35/40%
+ 
+- Hallowed Ring:
+ - Increase damage against Abyssal enemies by 15/20/25/30/35/40%
+ 
+- Flynn's Ring:
+ - Boosts physical weapon damage by 25/30/35/40/45/50%, scaling downwards with equip load to 0% at 30 weight.
+ 
+- Magic Clutch Ring:
+ - Grants 15/20/25/30/35/40% boost to magic damage.
+ 
+- Lightning Clutch Ring:
+ - Grants 15/20/25/30/35/40% boost to lightning damage.
+ 
+- Fire Clutch Ring:
+ - Grants 15/20/25/30/35/40% boost to fire damage.
+ 
+- Dark Clutch Ring:
+ - Grants 15/20/25/30/35/40% boost to dark damage.
+ 
+- Unholy Remains
+ - Grants 15/20/25/30/35/40% boost to the power of Hexes.
+ 
+- Ring of the Sun's First Born
+ - Grants 15/20/25/30/35/40% boost to the power of Miracles.
+ 
+- Witch's Ring
+ - Grants 15/20/25/30/35/40% boost to the power of Pyromancies.
+ 
+- Bellowing Dragoncrest Ring
+ - Grants 15/20/25/30/35/40% boost to the power of Sorceries.
+ 
+- Speckled Stoneplate Ring:
+ - Grants 5/8/12/16/20/25% Magic, Fire, Lightning and Dark Absorption
+ 
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
 - Added a small passive gain of Bloodthirst charges.
@@ -314,22 +434,6 @@ Finish following weapons:
  - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
   - Rewards 5 Primordial Fragments.
   
-# Memory of Glory
-- A new memory gauntlet set in the Round Plaza map.
-- Similar format to Memory of Endurance, but instead of many weaker enemies, you face 1 NPC intruder per wave. 
-- There are 3 different intruders per wave, which is used is random. 
-- You can now select the difficulty of the Memory.
- - Easy: no soul absorption boost but no HP or damage boost for enemies.
-  - Rewards 15 Titanite Shards.
- - Normal: +50% soul absorption but enemies gain +50% HP and damage.
-  - Rewards 12 Large Titanite Shards.
- - Hard: +100% soul absorption but enemies gain +100% HP and damage.
-  - Rewards 8 Titanite Chunks.
- - Very Hard: +150% soul absorption but enemies gain +150% HP and damage.
-  - Rewards 3 Titanite Slab.
- - Mythic: +200% soul absorption but enemies gain +200% HP and damage.
-  - Rewards 5 Primordial Fragments.
-  
 # Bugfix
 - Fixed a bug that caused Random Gauntlet to loop if you got Titanite Abomination or the Marauder.
 - Fixed several item descriptions.
@@ -348,66 +452,3 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
-Kiln of Flame: m47  # Memory of Endurance - Swarms
-
-Dragon Ruins: m53   # Memory of Strength - Fewer but strong enemies
-Round Plaza: m54    # Memory of Glory - NPC enemies
-
-25009630 Memory of Glory - Random Set 1
-25009631 Memory of Glory - Random Set 2
-25009632 Memory of Glory - Random Set 3
-
-# Round 1
-30100 Luyila of Londor [Lothric Castle]
-30200 Forgotten Locklin [Farron Keep]
-30300 Holy Knight Morton [Catacombs of Carthus]
-30500 Tiny [Lothric Castle]
-30600 Captain Morrel [High Wall of Lothric]
-30700 Dominatrix Sharron [Lothric Castle]
-30800 Sanctum Knight Norjask [Cathedral of the Deep]
-30900 Tomb Raider Dyfan [Catacombs of Carthus]
-31000 Chaos Servant Eygor [Smouldering Lake]
-
-# Round 2
-31100 Unstoppable Ifrit [Irithyll of the Boreal Valley]
-31200 Fester the Jester [Profaned Capital]
-31300 Inquisitor Ashford [Consumed King's Garden]
-31500 Corrupted Knight Lloyd [Irithyll Dungeon]
-31600 Huntmaster Ava [High Wall of Lothric]
-31710 The Pursuer [Lothric Castle]
-31800 Eccentric Archibald [Undead Settlement]
-31900 Jailer Eileen [Irithyll Dungeon]
-32000 Ollis the Merciless [Irithyll Dungeon]
-
-# Round 3
-32100 Vileblood Annalise [Profaned Capital]
-32200 The Forlorn [Road of Sacrifices]
-33000 Glaive Master Hodir [Ringed City]
-33100 Ezekiel the Duelist [Ariandel]
-33200 Eija the Shadow [Ariandel]
-33300 Ironclad Xavier [Dreg Heap]
-33400 Freya the Wretched [Ringed City]
-33500 Nahor the Fallen [Ringed City]
-33700 Gaius the Mighty [Archdragon Peak
-
-# Round 4
-33800 Quintus the Monstrous [Grand Archives]
-34200 Blacksmith's Nightmare [Untended Graves]
-34300 Frozen Knight Torbjorn [Ariandel]
-34500 Wandering Knight Osvaldo [Irithyll of the Boreal Valley]
-34900 Ashen Keeper Sofija [Untended Graves]
-35000 Hallowed Knight Orthell [Cathedral of the Deep]
-35100 Dragon Hunter Karstark [Archdragon Peak]
-35200 Disciple of Alsanna [Ariandel]
-36200 Ashen Hunter Yafuh [Undead Settlement]
-
-# Round 5
-34600 Lord Takatsuji [Profaned Capital]
-34700 Lieutenant Ugali [Profaned Capital]
-34800 Lieutenant Hanji [Profaned Capital]
-33600 Easterner Iazeel [Ringed City]
-34400 Bewitched Knight Iwai [Profaned Capital]
-35900 The Father [Smouldering Lake]
-36000 The Mother [Smouldering Lake]
-36100 The Child [Smouldering Lake]
-32900 Lord Zakar [Kiln]

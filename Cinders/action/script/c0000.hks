@@ -4238,6 +4238,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         act(2002, 112501)
     end
     
+    -- Redeye Ring
+    if env(1116, 160601240) == TRUE then
+        act(2002, 160601241)
+    end
+    
     if env(1116, 31) == TRUE and env(1116, 112910) == TRUE then
         ExecEventAllBody("W_DamageParry")
         return TRUE
@@ -13836,10 +13841,20 @@ function Throw_Activate()
         end
     end
     
+    -- Elden Ring
+    if env(225, hand) == WEAPON_CATEGORY_HALBERD then
+        if env(1116, 112510) == TRUE then
+            act(2002, 112511)
+        end
+    end
+    
     -- Hornet Ring
     if env(1116, 112460) == TRUE then
-        -- Add diminished effect if using dagger with Assassin's Mark
+        -- Add diminished effect if using with Assassin's Mark
         if env(1116, 112470) == TRUE and env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
+            act(2002, 112462)
+        -- Add diminished effect if using with Elden Ring
+        elseif env(1116, 112510) == TRUE and env(225, hand) == WEAPON_CATEGORY_HALBERD then
             act(2002, 112462)
         else
             act(2002, 112461)

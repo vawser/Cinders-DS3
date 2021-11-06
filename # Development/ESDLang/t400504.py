@@ -508,7 +508,7 @@ def t400504_x41():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20520, 4, 1, 0) == 1, 39, 99015138, -1)
         
         # Elden Ring
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30800, 4, 1, 0) == 1, 81, 99015180, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30800, 4, 1, 0) == 1, 81, 99015180, -1)
         # Bellowing Dragoncrest Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20340, 4, 1, 0) == 1, 25, 99015124, -1)
         # Witch's Ring
@@ -1074,7 +1074,7 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20521, 4, 1, 0) == 1, 39, 99015138, -1)
         
         # Elden Ring
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30801, 4, 1, 0) == 1, 81, 99015180, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30801, 4, 1, 0) == 1, 81, 99015180, -1)
         # Bellowing Dragoncrest Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20341, 4, 1, 0) == 1, 25, 99015124, -1)
         # Witch's Ring
@@ -1640,7 +1640,7 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20522, 4, 1, 0) == 1, 39, 99015138, -1)
         
         # Elden Ring
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30802, 4, 1, 0) == 1, 81, 99015180, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30802, 4, 1, 0) == 1, 81, 99015180, -1)
         # Bellowing Dragoncrest Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20342, 4, 1, 0) == 1, 25, 99015124, -1)
         # Witch's Ring
@@ -2206,7 +2206,7 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20523, 4, 1, 0) == 1, 39, 99015138, -1)
         
         # Elden Ring
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30803, 4, 1, 0) == 1, 81, 99015180, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30803, 4, 1, 0) == 1, 81, 99015180, -1)
         # Bellowing Dragoncrest Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20343, 4, 1, 0) == 1, 25, 99015124, -1)
         # Witch's Ring
@@ -2773,7 +2773,7 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20524, 4, 1, 0) == 1, 39, 99015138, -1)
         
         # Elden Ring
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30804, 4, 1, 0) == 1, 81, 99015180, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30804, 4, 1, 0) == 1, 81, 99015180, -1)
         # Bellowing Dragoncrest Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20344, 4, 1, 0) == 1, 25, 99015124, -1)
         # Witch's Ring
