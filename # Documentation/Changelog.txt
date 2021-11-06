@@ -449,6 +449,28 @@ Change healing spells to heal when holding the cast
 
 # Vawser
 Adjust the broken questlines so they use a custom method of progression
+ - Potential change:
+  - Break each quest into its individual stages, these stages are tied to usage of the relevant NPC as a summon on a previous boss
+  - Once the NPC has been used once, the stage will appear.
+  - Progression is done via the NPC usage (except in circumstances where that doesn't make sense)
+  
+  - Greirat:
+   - Tie loot in shop to NPC usage of Greirat in Undead Settlement, Irithyll, then Lothric Castle. If used in Lothric Castle he dies in Firelink.
+   
+  - Yoel:
+   - Usable for Crystal Sage, dies after usage there.
+   
+  - Yuria
+   - Appears after Yoel dies.
+   - Usable for Soul of Cinder, if used and Anri was used for Pontiff Sulyvahn, Lord of Hollows ending occurs.
+   
+  - Anri
+   - Usable for Deacons of the Deep, triggers Firelink appearance.
+   - Usable for Pontiff Sulyvahn, triggers Darkmoon Tomb stuff
+   - If Pilgrim is killed, usable for Aldrich
+   
+  - Horace
+   - Usable for Abyss Watchers, triggers Anri/Horace stuff in Catacombs/Lake
 
 Go over the vanilla NPC AI
 
