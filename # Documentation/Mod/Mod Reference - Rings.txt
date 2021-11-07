@@ -913,13 +913,13 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 - Weight: 1
 - Allows you to quickstep easily.
 
-# Ring of Grace
+# Bell of Grace
 - Weight: 1
-- Allows you to jump easily.
+- Allows you to jump simply and extends jump distance significantly.
 
 # Dashmaster's String
 - Weight: 1
-- Allows you to sprint endlessly and automatically.
+- Increases movement speed significantly.
 
 # Relic of Power
 - Weight: 1
@@ -1016,3 +1016,7 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 # Gower's Ring of Protection
 - Weight: 1
 - Hits to the back rapidly recover HP, restoring 20% of max HP over 1 second.
+
+# Ring of Retreat
+- Weight: 1 
+- Increases backstep distance significantly.

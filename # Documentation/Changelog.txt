@@ -401,8 +401,13 @@ Finish following weapons:
 - Bell of Grace:
  - Allows you to jump simply and extends jump distance significantly.
  
-- Dashmaster's Ring:
+- Dashmaster's String:
  - Increases movement speed significantly.
+ - Now dropped by Forgotten Locklin.
+ 
+- Ring of Retreat
+ - Increases backstep distance significantly.
+ - Found in the old chest location of Dashmaster's String
  
 # Items:
 - Spellbound system has been renamed into Bloodthirsty/Bloodthirst Charges to make the connection between hitting enemies and gaining charges more inituitive.
@@ -494,3 +499,7 @@ Adjust the broken questlines so they use a custom method of progression
 Go over the vanilla NPC AI
 
 Move clutter objs into general assets for maps to allow for better map furnishment
+
+31400
+
+30900 Dashmaster's String

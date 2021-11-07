@@ -7365,6 +7365,11 @@ function BackStep_onUpdate()
     local hand = HAND_RIGHT
     local style = c_Style
     
+    -- Ring of Retreat
+    if env(1116, 112530) == TRUE then 
+        act(2001, 2)
+    end
+    
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
