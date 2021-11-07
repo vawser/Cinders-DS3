@@ -63,7 +63,13 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Map
+- Memory of Endurance:
+ - Closed off the area behind the fallen tower and added collision.
 
+# Bugfixes
+- Fixed missing warp list title in warp menu.
+- 
 
 #------------------------------
 # TODO
@@ -99,5 +105,4 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
-Move clutter objs into general assets for maps to allow for better map furnishment
-
+o401502

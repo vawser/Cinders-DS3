@@ -1,682 +1,682 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData01</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData02</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData03</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData04</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData05</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData06</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData07</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData08</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData09</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData10</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData11</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData12</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData13</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData14</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData15</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData16</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData17</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData18</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData19</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData20</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData21</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData22</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData23</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData24</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData25</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData26</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData27</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData28</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData29</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData30</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData31</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData32</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData33</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData34</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData35</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData36</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData37</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData38</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData39</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData40</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData41</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData42</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData43</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData44</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData45</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData46</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData47</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData48</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceGeoData49</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData00</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData01</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData02</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData03</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData04</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData05</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData06</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData07</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData08</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData09</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData10</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData11</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData12</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData13</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData14</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData15</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData16</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData17</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData18</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData19</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData20</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData21</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData22</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData23</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData24</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData25</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData26</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData27</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData28</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData29</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData30</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData31</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData32</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData33</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData34</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData35</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData36</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData37</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData38</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData39</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData40</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData41</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData42</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData43</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData44</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData45</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData46</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData47</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData48</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>FaceTexData49</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>facePartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>skinColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>skinColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>skinColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>hairPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>hairColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>hairColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>hairColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>hairColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeLPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeLColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeLColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeLColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeRPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeRColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeRColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeRColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeBrowPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeBrowColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeBrowColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>eyeBrowColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>beardPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>beardColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>beardColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>beardColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>accessoriesPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>accessoriesColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>accessoriesColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>accessoriesColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalPartsId</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalColor_R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalColor_G</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalColor_B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalPosX</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalPosY</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalAngle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Unk</name>
+    <name>decalScale</name>
     <type>u8</type>
     <default>0</default>
   </entry>

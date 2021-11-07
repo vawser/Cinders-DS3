@@ -6,12 +6,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Torch FFX EmissiveIntensityScale</name>
+    <name>Torch FFX Emissive Intensity Scale</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Torch FFX Model EmissiveIntensityScale</name>
+    <name>Torch FFX Model Emissive Intensity Scale</name>
     <type>u16</type>
     <default>0</default>
   </entry>
@@ -21,17 +21,17 @@
     <size>2</size>
   </entry>
   <entry>
-    <name>PlainLightMutex</name>
+    <name>Plain Light Mutex</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ClothSpeed1</name>
+    <name>Cloth Speed 1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ClothSpeed2</name>
+    <name>Cloth Speed 2</name>
     <type>f32</type>
     <default>0</default>
   </entry>

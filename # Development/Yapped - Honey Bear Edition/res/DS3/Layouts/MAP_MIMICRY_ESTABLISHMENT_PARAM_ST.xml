@@ -1,62 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>VFX 0 - Time</name>
+    <name>VFX 0 - Randomizer Coefficient</name>
     <type>f32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>VFX 1 - Time</name>
+    <name>VFX 1 - Randomizer Coefficient</name>
     <type>f32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>VFX 2 - Time</name>
+    <name>VFX 2 - Randomizer Coefficient</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 0 - Init</name>
+    <name>VFX 0 - Transform</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 0 - Main</name>
+    <name>VFX 0 - Loop</name>
     <type>s32</type>
     <default>430041</default>
   </entry>
   <entry>
-    <name>VFX 0 - Sub</name>
+    <name>VFX 0 - Destroy</name>
     <type>s32</type>
     <default>430042</default>
   </entry>
   <entry>
-    <name>VFX 1 - Init</name>
+    <name>VFX 1 - Transform</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 1 - Main</name>
+    <name>VFX 1 - Loop</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 1 - Sub</name>
+    <name>VFX 1 - Destroy</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 2 - Init</name>
+    <name>VFX 2 - Transform</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 2 - Main</name>
+    <name>VFX 2 - Loop</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VFX 2 - Sub</name>
+    <name>VFX 2 - Destroy</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

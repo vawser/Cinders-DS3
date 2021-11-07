@@ -623,7 +623,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit Stope Type</name>
+    <name>Hit Stop Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>

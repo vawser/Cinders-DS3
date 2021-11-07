@@ -6,7 +6,7 @@
     <default>6100</default>
   </entry>
   <entry>
-    <name>Flag ID</name>
+    <name>Progress Flag ID</name>
     <type>u8</type>
     <default>10</default>
   </entry>

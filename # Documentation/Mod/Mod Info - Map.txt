@@ -8,7 +8,35 @@ map/mXX_XX_XX_XX folder:
 map/mXX folder:
     Contains the textures used by map piece models
     
+Adding a object to a map from another:
+ The textures used if not contained within the obj, need to added to the target map's tpf
+ You can find the textures needed in the flver with FLVER Editor
+    
 #---------------
 # New Objects
 #---------------
 o375000 # Irithyll Guard Rail (Snowy)
+o009100 Test
+
+#---------------
+# Obj Reference
+#---------------
+# m33
+o331304 -> o331310  # Ruins
+o331315 # Short Bridge
+o331316 # Long Bridge
+o331323 # Curved Ruins
+o331324 # Curved Ruins
+
+o331325 # Statue with Plinth
+o331326 # Praying Statue
+o331327 # Praying Statue - Headless
+o331328 # Fallen Tower
+
+o331350 # Wooden Walkway
+
+o331380 # Rock Wall End
+o331381 # Rock Wall 
+
+o331400 # Bookcase
+

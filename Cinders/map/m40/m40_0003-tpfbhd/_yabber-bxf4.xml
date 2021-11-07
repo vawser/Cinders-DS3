@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bxf4>
+  <bhd>
+    <filename>m40_0003.tpfbhd</filename>
+    <timestamp>07D7R6</timestamp>
+    <format>0x74</format>
+    <unicode>True</unicode>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <extended>0x04</extended>
+  </bhd>
+  <bdt>
+    <filename>m40_0003.tpfbdt</filename>
+    <timestamp>07D7R6</timestamp>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <unk1>0x0000000000000030</unk1>
+  </bdt>
+  <files>
+    <file>
+      <flags>0x40</flags>
+      <id>400</id>
+      <root />
+      <path>m40_00_stonecoffin_biggest_500_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>401</id>
+      <root />
+      <path>m40_00_stonecoffin_biggest_500_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>402</id>
+      <root />
+      <path>m40_00_stonecoffin_biggest_500_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>403</id>
+      <root />
+      <path>m40_00_stonecoffin_biggest_500_n_l.tpf.dcx</path>
+    </file>
+  </files>
+</bxf4>
