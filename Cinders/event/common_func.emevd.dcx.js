@@ -6785,7 +6785,7 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Phantom - Setup Phantom
 // <entity id>, <summoned flag>, <gesture>, <msg>
 //-------------------------------------------
-Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     // Disable by default
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -6822,8 +6822,8 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     ClearSpEffect(X0_4, 160803000);
     SetSpEffect(X0_4, 160803010);
     
-    SkipIfComparison(1, ComparisonType.Equal, X16_4, -1);
-    SetSpEffect(X0_4, X16_4);
+    SkipIfComparison(1, ComparisonType.Equal, X12_4, -1);
+    SetSpEffect(X0_4, X12_4);
     
     WaitFixedTimeSeconds(5.3);
     
@@ -6837,7 +6837,7 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);
     
-    DisplayMessage(X12_4, 1);
+    DisplayMessage(X8_4, 1);
 });
 
 //-------------------------------------------
