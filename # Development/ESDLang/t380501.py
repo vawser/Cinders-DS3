@@ -179,7 +179,7 @@ def t380501_x9():
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:
-            assert t380501_x10(text1=10024000, flag1=0, mode1=0)
+            assert t380501_x10(text1=10025000, flag1=0, mode1=0)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

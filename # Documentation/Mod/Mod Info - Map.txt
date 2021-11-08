@@ -12,6 +12,34 @@ Adding a object to a map from another:
  The textures used if not contained within the obj, need to added to the target map's tpf
  You can find the textures needed in the flver with FLVER Editor
     
+#------------------------------------
+# Corpse
+#------------------------------------
+0 - Sitting with bent knees
+1 - Lying down with arms forward
+10 - Lying down with arms to the side
+20 - Lying on back facing upwards, arms to the side
+21 - Lying on back facing upward, 1 arm sticking up
+30 - Lying over, 1 arm forward, 1 to the side
+31 - Lying over, both arms down
+32 - Lying over, both arms down, knees bent
+33 - Hanging off, by legs
+34 - Hanging off, by chest
+35 - Lying over, both arms down
+40 - Lying over, both arms down
+41 - Lying over, 1 arm forward, 1 to the side
+50 - Sitting with legs out
+51 - Sitting with crossed legs
+60 - Lying down with arms foward
+61 - Sitting on chair, arms drooped forwards
+62 - Fetal position
+63 - Kneeling position
+64 - Leaning forwards with bent legs
+65 - Falling backwards
+66 - Crawling and reaching out (opposite dir to set angle)
+67 - Kneeling and punching the ground
+68 - Kneeling and holding heart
+
 #---------------
 # New Objects
 #---------------
@@ -33,10 +61,10 @@ o331326 # Praying Statue
 o331327 # Praying Statue - Headless
 o331328 # Fallen Tower
 
-o331350 # Wooden Walkway
-
 o331380 # Rock Wall End
 o331381 # Rock Wall 
 
 o331400 # Bookcase
 
+# m40
+o401502 # Flat Illusory Wall (good for collision)

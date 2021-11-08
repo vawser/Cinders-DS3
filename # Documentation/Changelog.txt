@@ -67,9 +67,17 @@ Finish following weapons:
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
 
+- Smouldering Lake:
+ - Overhauled the lake area with new objects.
+ - Moved Helia of the Lake to a new location.
+ - Removed 2 of the sandworms.
+ - Added the 2 removed sandworm treasure to 2 new corpse treasures.
+ - Added 3 patrolling Demons
+ - Added 1 patrolling Demon Cleric
+
 # Bugfixes
 - Fixed missing warp list title in warp menu.
-- 
+ - Fixed several Demon Clerics in m38 that lacked fire orb support
 
 #------------------------------
 # TODO
@@ -105,4 +113,6 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
-o401502
+o331316 # Long Bridge
+o331309 # Tower
+
