@@ -588,6 +588,12 @@ def t400510_x30():
         ShowShopMessage(1)
         
         if GetTalkListEntryResult() == 1:
+            # Award Darksign during first playthrough
+            if IsEquipmentIDObtained(3, 117) == 0:
+                GetItemFromItemLot(9040)
+            else:
+                pass
+                
             # Fallback to Standard Mode if none are set
             if GetEventStatus(25009810) == 0 and GetEventStatus(25009811) == 0 and GetEventStatus(25009812) == 0 and GetEventStatus(25009813) == 0 and GetEventStatus(25009814) == 0:
                 SetEventState(25009810, 1)

@@ -77,7 +77,8 @@ Finish following weapons:
 
 # Bugfixes
 - Fixed missing warp list title in warp menu.
- - Fixed several Demon Clerics in m38 that lacked fire orb support
+- Fixed several Demon Clerics in m38 that lacked fire orb support
+- Darksign is now given after Journey Configuration, to prevent warping out before starting a journey. 
 
 #------------------------------
 # TODO
@@ -113,6 +114,6 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
-o331316 # Long Bridge
-o331309 # Tower
+Award Darksign after Journey Configuration
 
+117 Darksign
