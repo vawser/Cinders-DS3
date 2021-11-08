@@ -307,13 +307,13 @@ def t400240_x16(goods1=2127, goods2=2128, goods3=2129, goods4=2130, goods5=2131,
         """ State 2 """
         
         # Learn Pyromancies
-        AddTalkListData(1, 15014000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15014000, -1)
         
         # Covenant
-        AddTalkListData(7, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 7, 99062000, -1)
         
         # Purchase Item
-        AddTalkListData(5, 15011020, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 5, 15011020, -1)
         
         # Give Pyromancy Tome
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1, 3, 15014002, -1)

@@ -542,10 +542,10 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
         """ State 11 """
         
         # Purchase Item
-        AddTalkListData(1, 15011020, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15011020, -1)
         
         # Sell Item
-        AddTalkListData(2, 15000012, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15000012, -1)
         
         # Ashes
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1, 3, 15011000, -1)

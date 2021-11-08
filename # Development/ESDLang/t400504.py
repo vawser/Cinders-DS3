@@ -161,10 +161,10 @@ def t400504_x9():
         ClearTalkListData()
         
         # Purchase Item
-        AddTalkListData(1, 15010007, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15010007, -1)
         
         # Browse Collection
-        AddTalkListDataIf(GetEventStatus(25009812) == 1, 4, 15010008, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(25009812) == 1, 4, 15010008, -1)
         
         # Affixes
         AddTalkListDataIf(GetEventStatus(25009814) == 0, 3, 99002532, -1)

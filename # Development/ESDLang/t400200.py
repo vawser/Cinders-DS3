@@ -243,23 +243,26 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         AddTalkListData(8, 15002003, -1)
         
         # Purchase Item
-        AddTalkListData(15, 15003018, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 15, 15003018, -1)
         
         # Learn Gesture
         AddTalkListDataIf(GetEventStatus(6074) == 0, 9, 99000960, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008130) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
+        
         # Flirt
         AddTalkListDataIf(GetEventStatus(25008130) == 1, 31, 15015041, -1)
+        
         # Divorce
         AddTalkListDataIf(GetEventStatus(25008130) == 1, 32, 15015042, -1)
         
         # Talk
         AddTalkListData(5, 15000000, -1)
 
-        # action:15000005:Leave
+        # Leave
         AddTalkListData(99, 15000005, -1)
+        
         """ State 13 """
         ShowShopMessage(1)
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))

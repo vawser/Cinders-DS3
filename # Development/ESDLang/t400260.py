@@ -127,13 +127,13 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 2 """
         # Learn Miracles
-        AddTalkListData(1, 15016000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15016000, -1)
         
         # Covenant
-        AddTalkListData(7, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 7, 99062000, -1)
         
         # Purchase Item
-        AddTalkListData(2, 15011020, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15011020, -1)
         
         # Give Divine Tome
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1,

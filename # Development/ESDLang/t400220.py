@@ -301,10 +301,10 @@ def t400220_x15(goods1=2118):
         """ State 2 """
         
         # Covenant
-        AddTalkListData(7, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 7, 99062000, -1)
         
         # Purchase Item
-        AddTalkListData(1, 15010004, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15010004, -1)
         
         # Sell Item
         AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)

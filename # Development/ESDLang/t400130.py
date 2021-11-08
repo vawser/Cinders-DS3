@@ -168,10 +168,10 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         AddTalkListDataIf(DoesPlayerHaveSpEffect(160700460) == 0, 20, 99061000, -1)
         
         # Transpose
-        AddTalkListData(1, 15003000, 74000171)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003000, 74000171)
         
         # Transpose brothers' blades
-        AddTalkListDataIf(GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002, -1)   
+        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002, -1)   
          
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008100) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

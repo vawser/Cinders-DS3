@@ -5363,6 +5363,42 @@ Event(20006032, Default, function(X0_4, X4_4) {
     DeleteObjectfollowingSFX(X4_4, true);
 });
 
+//----------------------------------
+// Gauntlet - Spawn Treasure
+// <invisible entity>, <action button>, <selection value>, <itemlot>, <loot flag>
+//----------------------------------
+Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
+    // End if loot has been picked up
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
+    
+    // End if not in Gauntlet mode
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009813);
+
+    
+    // Goto label based on selection arg
+    GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 1, X8_4);
+    GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 2, X8_4);
+    
+    CreateObjectfollowingSFX(X0_4, 90, 60); // Rarity 0
+    GotoUnconditionally(Label.LABEL20);
+    
+    Label1();
+    CreateObjectfollowingSFX(X0_4, 90, 61); // Rarity 1
+    GotoUnconditionally(Label.LABEL20);
+    
+    Label2();
+    CreateObjectfollowingSFX(X0_4, 90, 62); // Rarity 2
+    
+    // Setup treasure pickup for player
+    Label20();
+    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
+    AwardItemLot(X12_4);
+    DeleteObjectfollowingSFX(X0_4, true);
+});
+
 //----------------------------------------------
 // Character - Warp Entity on SpEffect Trigger
 //----------------------------------------------

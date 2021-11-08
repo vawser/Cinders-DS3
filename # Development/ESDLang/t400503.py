@@ -164,7 +164,7 @@ def t400503_x9():
         ClearTalkListData()
        
         # Learn the Dark Arts
-        AddTalkListData(1, 15003023, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003023, -1)
 
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008180) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

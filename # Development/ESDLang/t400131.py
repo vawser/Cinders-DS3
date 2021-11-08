@@ -37,16 +37,17 @@ def t400131_x1(weapon1=6260000, weapon2=6280000):
         """ State 2 """
         
         # Masteries
-        AddTalkListData(20, 99061000, -1)
+        AddTalkListDataIf(DoesPlayerHaveSpEffect(160700460) == 0, 20, 99061000, -1)
         
-        # action:15003000:Begin Transposition
-        AddTalkListData(1, 15003000, 74000171)
+        # Transpose
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003000, 74000171)
         
-        # action:15003002:Transpose brothers' blades
-        AddTalkListDataIf(GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002,
+        # Transpose brothers' blades
+        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002,
                           -1)
-        # action:15000005:Leave
+        # Leave
         AddTalkListData(99, 15000005, -1)
+        
         """ State 3 """
         ShowShopMessage(1)
         if GetTalkListEntryResult() == 1:

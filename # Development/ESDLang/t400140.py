@@ -162,7 +162,7 @@ def t400140_x9():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 2 """
         # Purchase Item
-        AddTalkListData(1, 15011020, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15011020, -1)
           
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008110) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

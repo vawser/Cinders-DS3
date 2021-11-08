@@ -63,6 +63,16 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Gauntlet Mode
+- Added a new NPC: Oathkeeper Xavius to host the Gauntlet menu.
+ - The Fire Keeper is now absent in Gauntlet mode.
+ - He is found in sitting on a chair in the corner that the Fire Keeper occasionally stands in.
+- Removed access to most of the other shops in Firelink Shrine so that Oathkeeper Xavius is the main source of items.
+ - Jiji and Grudore shops remain since they don't overlap with Xavius.
+- Restored access to the memories while in Gauntlet Mode.
+- Begin new journey is now accessible after you kill the Soul of Cinder, you no longer need to kill every boss to unlock in while in Gauntlet Mode.
+- The starting items for Gauntlet Mode are now found near Oathkeeper Xavius as treasures.
+
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -114,6 +124,7 @@ Adjust the broken questlines so they use a custom method of progression
 
 Go over the vanilla NPC AI
 
-Award Darksign after Journey Configuration
+25009813 Gauntlet Mode
 
-117 Darksign
+GetEventStatus(25009813) == 0
+

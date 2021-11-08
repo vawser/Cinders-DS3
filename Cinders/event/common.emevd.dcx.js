@@ -2828,13 +2828,21 @@ Event(20070, Restart, function() {
     var flag_Gauntlet_Setup_Completed = 25009804;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
-    
+
     SetSpEffect(10000, 260120100); // Soul boost
     
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Gauntlet_Setup_Completed);
+    // Bonfires
+    SetEventFlag(14000001, OFF);
+    SetEventFlag(14000002, OFF);
+    SetEventFlag(14000003, OFF);
+    SetEventFlag(14000001, OFF);
+    SetEventFlag(13000009, OFF);
+    SetEventFlag(13000000, OFF);
+    SetEventFlag(13100004, OFF);
+    SetEventFlag(14700000, ON);
+    SetEventFlag(15300000, ON);
     
-    AwardItemLot(800002010); // Initial tokens
-    SetEventFlag(25009803, ON); // Unlock Memories
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Gauntlet_Setup_Completed);
     
     // Coals
     SetEventFlag(25009580, ON);

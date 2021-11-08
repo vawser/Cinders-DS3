@@ -163,7 +163,7 @@ def t400506_x9():
         ClearTalkListData()
         
         # Covenant
-        AddTalkListData(1, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 99062000, -1)
         
         # Undead Match
         AddTalkListData(8, 15000350, -1)

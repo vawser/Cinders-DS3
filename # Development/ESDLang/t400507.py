@@ -161,7 +161,7 @@ def t400507_x9():
         ClearTalkListData()
        
         # Purchase Sidearms
-        AddTalkListData(1, 15003024, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003024, -1)
 
         # Tortured Soul
         AddTalkListDataIf(GetEventStatus(25009530) == 0, 2, 99013100, -1)
