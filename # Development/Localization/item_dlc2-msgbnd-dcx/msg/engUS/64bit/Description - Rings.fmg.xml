@@ -4419,7 +4419,34 @@ Whilst equipped, the wearer gains the following:
 <text id="31080">A notebook filled to the brim with precise and obscure information.
 Provides the wearer with intimate knowledge of enemy weakpoints.
 
-Whilst equipped, you gain a 5% chance to deal double damage with any weapon attack.</text>
+Grants 5.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+<text id="31081">A notebook filled to the brim with precise and obscure information.
+Provides the wearer with intimate knowledge of enemy weakpoints.
+
+Grants 6.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+<text id="31082">A notebook filled to the brim with precise and obscure information.
+Provides the wearer with intimate knowledge of enemy weakpoints.
+
+Grants 7.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+<text id="31083">A notebook filled to the brim with precise and obscure information.
+Provides the wearer with intimate knowledge of enemy weakpoints.
+
+Grants 8.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+<text id="31084">A notebook filled to the brim with precise and obscure information.
+Provides the wearer with intimate knowledge of enemy weakpoints.
+
+Grants 9.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+<text id="31085">A notebook filled to the brim with precise and obscure information.
+Provides the wearer with intimate knowledge of enemy weakpoints.
+
+Grants 10.0% chance to cause Shatter.
+Shatter causes your attack to deal 100% more damage.</text>
+
 <text id="31100">A magical scroll once owned by a forlorn ghost.
 
 Take the appearance of a tomb ghost and boost physical absorptions by 5%.</text>
@@ -4440,7 +4467,38 @@ Boosts critical damage of backstabs and ripostes by daggers by 200%.
 A true assassin knows exactly where to strike.</text>
 <text id="31300">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
 
-Hits to the back rapidly recover HP, restoring 20% of max HP over 2 seconds.
+Grants 10.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
+<text id="31301">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Grants 12.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
+<text id="31302">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Grants 14.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
+<text id="31303">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Grants 16.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
+<text id="31304">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Grants 18.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
+
+For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
+<text id="31305">The ring of the assassin Gower, who has killed a half-dozen kings, and several distinguished clergymen. 
+
+Grants 20.0% chance to cause Shatter for 5 seconds whenever you are hit on the back.
+Shatter causes your attack to deal 100% more damage.
 
 For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
 <text id="31400">The ring of a perpetual coward.

@@ -671,6 +671,11 @@ def t400504_x41():
         # Ring of Retreat
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31400, 4, 1, 0) == 1, 93, 99015192, -1)
         
+        # Gower's Ring of Retribution
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31300, 4, 1, 0) == 1, 94, 99015193, -1)
+        # Old Man's Gambit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31080, 4, 1, 0) == 1, 95, 99015194, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1049,6 +1054,14 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 93:
             assert t400504_x50(31400, 31401, 1, -2)
             return 0
+        # Gower's Ring of Retribution
+        elif GetTalkListEntryResult() == 94:
+            assert t400504_x50(31300, 31301, 1, -2)
+            return 0
+        # Old Man's Gambit
+        elif GetTalkListEntryResult() == 95:
+            assert t400504_x50(31080, 31081, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1261,6 +1274,11 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30901, 4, 1, 0) == 1, 92, 99015191, -1)
         # Ring of Retreat
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31401, 4, 1, 0) == 1, 93, 99015192, -1)
+        
+        # Gower's Ring of Retribution
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31301, 4, 1, 0) == 1, 94, 99015193, -1)
+        # Old Man's Gambit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31081, 4, 1, 0) == 1, 95, 99015194, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1640,6 +1658,14 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 93:
             assert t400504_x50(31401, 31402, 3, -4)
             return 0
+        # Gower's Ring of Retribution
+        elif GetTalkListEntryResult() == 94:
+            assert t400504_x50(31301, 31302, 2, -4)
+            return 0
+        # Old Man's Gambit
+        elif GetTalkListEntryResult() == 95:
+            assert t400504_x50(31081, 31082, 2, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1852,6 +1878,11 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30902, 4, 1, 0) == 1, 92, 99015191, -1)
         # Ring of Retreat
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31402, 4, 1, 0) == 1, 93, 99015192, -1)
+        
+        # Gower's Ring of Retribution
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31302, 4, 1, 0) == 1, 94, 99015193, -1)
+        # Old Man's Gambit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31082, 4, 1, 0) == 1, 95, 99015194, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2231,6 +2262,14 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 93:
             assert t400504_x50(31402, 31403, 5, -6)
             return 0
+        # Gower's Ring of Retribution
+        elif GetTalkListEntryResult() == 94:
+            assert t400504_x50(31302, 31303, 5, -6)
+            return 0
+        # Old Man's Gambit
+        elif GetTalkListEntryResult() == 95:
+            assert t400504_x50(31082, 31083, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2443,6 +2482,11 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30903, 4, 1, 0) == 1, 92, 99015191, -1)
         # Ring of Retreat
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31403, 4, 1, 0) == 1, 93, 99015192, -1)
+        
+        # Gower's Ring of Retribution
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31303, 4, 1, 0) == 1, 94, 99015193, -1)
+        # Old Man's Gambit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31083, 4, 1, 0) == 1, 95, 99015194, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2822,6 +2866,14 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 93:
             assert t400504_x50(31403, 31404, 7, -8)
             return 0
+        # Gower's Ring of Retribution
+        elif GetTalkListEntryResult() == 94:
+            assert t400504_x50(31303, 31304, 7, -8)
+            return 0
+        # Old Man's Gambit
+        elif GetTalkListEntryResult() == 95:
+            assert t400504_x50(31083, 31084, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3035,6 +3087,11 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30904, 4, 1, 0) == 1, 92, 99015191, -1)
         # Ring of Retreat
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31404, 4, 1, 0) == 1, 93, 99015192, -1)
+        
+        # Gower's Ring of Retribution
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31304, 4, 1, 0) == 1, 94, 99015193, -1)
+        # Old Man's Gambit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31084, 4, 1, 0) == 1, 95, 99015194, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3413,6 +3470,14 @@ def t400504_x45():
         # Ring of Retreat
         elif GetTalkListEntryResult() == 93:
             assert t400504_x50(31404, 31405, 9, -10)
+            return 0
+        # Gower's Ring of Retribution
+        elif GetTalkListEntryResult() == 94:
+            assert t400504_x50(31304, 31305, 9, -10)
+            return 0
+        # Old Man's Gambit
+        elif GetTalkListEntryResult() == 95:
+            assert t400504_x50(31084, 31085, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

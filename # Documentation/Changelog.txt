@@ -94,6 +94,14 @@ Finish following weapons:
  - Now increases backstep distance by 15/30/50/65/80/100%.
  - Affixable.
  
+- Gower's Ring of Retribution (was Gower's Ring of Protection)
+ - Grants 10/12/14/16/18/20% chance to cause Shatter for 5 seconds whenever you are hit on the back. Shatter causes your attack to deal 100% more damage.
+ - Affixable.
+ 
+- Old Man's Gambit
+ - Grants 5.0% chance to cause Shatter. Shatter causes your attack to deal 100% more damage.
+ - Affixable.
+
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -149,3 +157,11 @@ Go over the vanilla NPC AI
 296 Undead Hunter Charm # 3151
 304 Duel Charm # 3351
 240 Divine Blessing
+
+# Add to affix
+31300 Gower's Ring of Retribution
+31080 Old Man's Gambit
+
+
+<text id="99015193">Gower's Ring of Retribution</text>
+<text id="99015194">Old Man's Gambit</text>

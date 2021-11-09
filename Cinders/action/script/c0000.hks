@@ -1689,26 +1689,60 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     end
     
     -----------------------
-    -- Crit Setup
+    -- Shatter
     -----------------------
-    local db_chance = 0
+    local shatter_chance = 0
     local roll = math.random(0, 100)
-    
-    -- Old Man's Gambit
-    if env(1116, 112400) == TRUE then
-        db_chance = db_chance + 5
-    end
     
     -- Luck Mastery
     if env(1116, 112401) == TRUE then
-        db_chance = db_chance + 5
+        shatter_chance = shatter_chance + 5
     end
     
-    -- Crit Check
-    if roll < db_chance then
-         act(2002, 112499)
+    -- Old Man's Gambit
+    if IsOldMansGambit() == TRUE then
+        -- Add chance for current ring
+        if env(1116, 112360) == TRUE then
+            shatter_chance = shatter_chance + 5
+        elseif env(1116, 112361) == TRUE then
+            shatter_chance = shatter_chance + 6
+        elseif env(1116, 112362) == TRUE then
+            shatter_chance = shatter_chance + 7
+        elseif env(1116, 112363) == TRUE then
+            shatter_chance = shatter_chance + 8
+        elseif env(1116, 112364) == TRUE then
+            shatter_chance = shatter_chance + 9
+        elseif env(1116, 112365) == TRUE then
+            shatter_chance = shatter_chance + 10
+        end
     end
     
+    -- Shatter Window for Gower's Ring of Retribution
+    if env(1116, 112506) == TRUE then
+        -- Add chance for current ring
+        if env(1116, 112500) == TRUE then
+            shatter_chance = shatter_chance + 10
+        elseif env(1116, 112501) == TRUE then
+            shatter_chance = shatter_chance + 12
+        elseif env(1116, 112502) == TRUE then
+            shatter_chance = shatter_chance + 14
+        elseif env(1116, 112503) == TRUE then
+            shatter_chance = shatter_chance + 16
+        elseif env(1116, 112504) == TRUE then
+            shatter_chance = shatter_chance + 18
+        elseif env(1116, 112505) == TRUE then
+            shatter_chance = shatter_chance + 20
+        end
+    end
+    
+    -- Apply Shatter if lucky
+    if roll < shatter_chance then
+         act(2002, 113510)
+    end
+    
+    -----------------------
+    -- Sidearms
+    -----------------------
     -- Sidearms
     local sidearm_sp_kind = env(345, HAND_LEFT)
     local sidearm_can_fire = false
@@ -4667,8 +4701,10 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local style = c_Style
     
     -- Gower's Ring of Protection
-    if env(1116, 112500) == TRUE and damage_angle == DAMAGE_DIR_BACK then
-        act(2002, 112501)
+    if IsGowersRingOfRetribution() == TRUE then
+        if damage_angle == DAMAGE_DIR_BACK then
+            act(2002, 112506) -- Shatter window
+        end
     end
     
     -- Redeye Ring
@@ -17714,6 +17750,22 @@ end
 
 function IsRingOfRetreat()
     if env(1116, 112530) == TRUE or env(1116, 112531) == TRUE or env(1116, 112532) == TRUE or env(1116, 112533) == TRUE or env(1116, 112534) == TRUE or env(1116, 112535) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsGowersRingOfRetribution()
+    if env(1116, 112500) == TRUE or env(1116, 112501) == TRUE or env(1116, 112502) == TRUE or env(1116, 112503) == TRUE or env(1116, 112504) == TRUE or env(1116, 112505) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsOldMansGambit()
+    if env(1116, 112360) == TRUE or env(1116, 112361) == TRUE or env(1116, 112362) == TRUE or env(1116, 112363) == TRUE or env(1116, 112364) == TRUE or env(1116, 112365) == TRUE then
         return TRUE
     else
         return FALSE
