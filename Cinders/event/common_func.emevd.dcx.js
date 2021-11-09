@@ -6782,9 +6782,12 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // Player is embered
     IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
     
+    CreateObjectfollowingSFX(X0_4, 1, 30020);
+    
     // Player has used prompt
     IfActionButtonInArea(MAIN, X12_4, X0_4);
     
+    DeleteObjectfollowingSFX(X0_4, true);
     DeactivateObject(X4_4, Disabled);
     
     SetEventFlag(X4_4, ON);
@@ -6815,8 +6818,8 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
 
     // Show illusion form
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetSpEffect(X0_4, 160803000);
+    //ChangeCharacterEnableState(X0_4, Disabled);
+    //SetSpEffect(X0_4, 160803000);
     
     // Phantom is summoned
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);

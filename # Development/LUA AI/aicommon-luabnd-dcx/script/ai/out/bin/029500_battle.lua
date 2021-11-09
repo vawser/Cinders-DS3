@@ -88,7 +88,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[4] = 5 -- Kick
         actChanceList[5] = 3 -- Jump Attack
         actChanceList[6] = 3 -- Running R1/R2
-        actChanceList[7] = 3 -- Right WA: Stance
+        actChanceList[7] = 0 -- Right WA: Stance
         
         -- Movement
         actChanceList[20] = 0 -- Approach

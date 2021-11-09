@@ -161,11 +161,6 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Modifiers
     ----------------------------------
-    -- Invalid Item check
-    if ai:HasSpecialEffectId(TARGET_SELF, 5111) then
-        actChanceList[30] = 0 -- Use Item (Slot 0) - ITEM_HERE
-    end
-    
     -- Kick guarding player
     if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
         actChanceList[4] = actChanceList[4] + 20 -- Kick
@@ -175,7 +170,7 @@ Goal.Activate = function (self, ai, goal)
     ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 2120)
     
     if ai:HasSpecialEffectId(TARGET_SELF, 2120) then
-        actChanceList[30] = 0 -- Use Item (Slot 0) - ITEM_HERE
+        actChanceList[30] = 0 -- ITEM_HERE
     end
     
     -- Block dash and rolls when low on stamina
@@ -185,6 +180,11 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[24] = 0 -- Forward Roll
         actChanceList[25] = 0 -- Side Roll
         actChanceList[26] = 0 -- Back Roll
+    end
+    
+    -- Invalid Item check
+    if ai:HasSpecialEffectId(TARGET_SELF, 5111) then
+        actChanceList[30] = 0 -- ITEM_HERE
     end
     
     ----------------------------------

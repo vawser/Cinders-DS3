@@ -276,6 +276,14 @@ GOAL_COMMON_MoveToSomewhere
     # 
     <goal>, <?>, <point>, <direction>, <?>, <target>, <bool?>
     
+GOAL_COMMON_KeepDist
+    # Keep between 2 distances
+    <goal>, <duration>, <target>, <first distance>, <second distance>, <bool>, <anim>
+    
+INTERUPT_ParryTiming
+    # Parry for normal enemies
+    <goal>, <duration>, <anim>, <target>, <int>
+    
 #---------------------------------------------------
 # Target
 #---------------------------------------------------

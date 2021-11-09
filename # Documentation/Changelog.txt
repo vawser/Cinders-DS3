@@ -89,6 +89,7 @@ Finish following weapons:
  - Sword Master now patrols the flat roof area that leads to the rafters.
 
 # Phantoms
+- Phantom prompts now appear as summon signs instead of phantom form.
 - Added Sword Master as a summonable phantom in Untended Graves for Champion Gundyr. Replaces old-type summon.
 
 # AI
@@ -96,6 +97,8 @@ Finish following weapons:
 - Butcher: updated AI.
 - Greirat: updated AI.
 - Kirk: updated AI. Will taunt you if you get low.
+- Sellsword Luet: adjusted AI.
+- Maldron: adjusted AI. Will now point down on weak enemies randomly.
  
 # Bugfixes
 - Fixed missing warp list title in warp menu.
@@ -110,9 +113,7 @@ Finish following weapons:
 Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
 Change healing spells to heal when holding the cast
 
+Add Gatling Gun
+
 Go over the vanilla NPC AI
 
-2210400 Barbed Straight Sword # Stance
-21130000 Spiked Shield # Shield Strike
-
-325 Lacerating Knife
