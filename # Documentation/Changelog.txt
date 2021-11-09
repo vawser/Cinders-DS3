@@ -101,7 +101,19 @@ Finish following weapons:
 - Old Man's Gambit
  - Grants 5.0% chance to cause Shatter. Shatter causes your attack to deal 100% more damage.
  - Affixable.
-
+ 
+- Hornet Ring
+ - Increases damage of backstabs and ripostes by 50/60/70/80/90/100%.
+ - Affixable.
+ 
+- Assassin's Mark
+ - Increases damage of backstabs and ripostes from daggers by 100/120/140/160/180/200%.
+ - Affixable.
+ 
+- Elden Ring
+ - Increases damage of backstabs and ripostes from halberds by 100/120/140/160/180/200%.
+ - Affixable.
+ 
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -158,10 +170,6 @@ Go over the vanilla NPC AI
 304 Duel Charm # 3351
 240 Divine Blessing
 
-# Add to affix
-31300 Gower's Ring of Retribution
-31080 Old Man's Gambit
-
-
-<text id="99015193">Gower's Ring of Retribution</text>
-<text id="99015194">Old Man's Gambit</text>
+<text id="99015195">Hornet Ring</text           20380
+<text id="99015196">Assassin's Mark</text>      31200
+<text id="99015197">Elden Ring</text>           30800

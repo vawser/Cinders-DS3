@@ -14541,30 +14541,58 @@ function Throw_Activate()
         hand = HAND_RIGHT
     end
     
+    -- Hornet Ring
+    if IsHornetRing() == TRUE then
+        if env(1116, 112700) == TRUE then
+            act(2002, 112710)
+        elseif env(1116, 112701) == TRUE then
+            act(2002, 112711)
+        elseif env(1116, 112702) == TRUE then
+            act(2002, 112712)
+        elseif env(1116, 112703) == TRUE then
+            act(2002, 112713)
+        elseif env(1116, 112704) == TRUE then
+            act(2002, 112714)
+        elseif env(1116, 112705) == TRUE then
+            act(2002, 112715)
+        end
+    end
+    
     -- Assassin's Mark
-    if env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
-        if env(1116, 112470) == TRUE then
-            act(2002, 112471)
+    if IsAssassinsMark() == TRUE then
+        if env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
+            if env(1116, 112720) == TRUE then
+                act(2002, 112730)
+            elseif env(1116, 112721) == TRUE then
+                act(2002, 112731)
+            elseif env(1116, 112722) == TRUE then
+                act(2002, 112732)
+            elseif env(1116, 112723) == TRUE then
+                act(2002, 112733)
+            elseif env(1116, 112724) == TRUE then
+                act(2002, 112734)
+            elseif env(1116, 112725) == TRUE then
+                act(2002, 112735)
+            end
         end
     end
     
     -- Elden Ring
-    if env(225, hand) == WEAPON_CATEGORY_HALBERD then
-        if env(1116, 112510) == TRUE then
-            act(2002, 112511)
-        end
-    end
-    
-    -- Hornet Ring
-    if env(1116, 112460) == TRUE then
-        -- Add diminished effect if using with Assassin's Mark
-        if env(1116, 112470) == TRUE and env(225, hand) == WEAPON_CATEGORY_SHORT_SWORD then
-            act(2002, 112462)
-        -- Add diminished effect if using with Elden Ring
-        elseif env(1116, 112510) == TRUE and env(225, hand) == WEAPON_CATEGORY_HALBERD then
-            act(2002, 112462)
-        else
-            act(2002, 112461)
+    if IsEldenRing() == TRUE then
+        if env(225, hand) == WEAPON_CATEGORY_HALBERD then
+            if env(1116, 112740) == TRUE then
+                act(2002, 112750)
+            elseif env(1116, 112741) == TRUE then
+                act(2002, 112751)
+            elseif env(1116, 112742) == TRUE then
+                act(2002, 112752)
+            elseif env(1116, 112743) == TRUE then
+                act(2002, 112753)
+            elseif env(1116, 112744) == TRUE then
+                act(2002, 112754)
+            elseif env(1116, 112745) == TRUE then
+                act(2002, 112755)
+            end
         end
     end
     
@@ -17766,6 +17794,30 @@ end
 
 function IsOldMansGambit()
     if env(1116, 112360) == TRUE or env(1116, 112361) == TRUE or env(1116, 112362) == TRUE or env(1116, 112363) == TRUE or env(1116, 112364) == TRUE or env(1116, 112365) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsHornetRing()
+    if env(1116, 112700) == TRUE or env(1116, 112701) == TRUE or env(1116, 112702) == TRUE or env(1116, 112703) == TRUE or env(1116, 112704) == TRUE or env(1116, 112705) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsAssassinsMark()
+    if env(1116, 112720) == TRUE or env(1116, 112721) == TRUE or env(1116, 112722) == TRUE or env(1116, 112723) == TRUE or env(1116, 112724) == TRUE or env(1116, 112725) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsEldenRing()
+    if env(1116, 112740) == TRUE or env(1116, 112741) == TRUE or env(1116, 112742) == TRUE or env(1116, 112743) == TRUE or env(1116, 112744) == TRUE or env(1116, 112745) == TRUE then
         return TRUE
     else
         return FALSE

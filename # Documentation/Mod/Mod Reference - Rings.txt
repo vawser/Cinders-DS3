@@ -370,7 +370,7 @@
 
 # Hornet Ring
 - Weight: 1
-- Increases damage of backstabs and ripostes by 100%.
+- Increases damage of backstabs and ripostes by 50/60/70/80/90/100%.
 
 # Covetous Gold Serpent Ring
 - Weight: 2
@@ -895,7 +895,7 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 
 # Elden Ring
 - Weight: 1
-- Boosts backstab/riposte damage from halberds by 200%.
+- Boosts backstab/riposte damage from halberds by 100/120/140/160/180/200%.
 
 # Fool's Sigil
 - Weight: 1
@@ -911,15 +911,15 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 
 # Ring of Momentum
 - Weight: 1
-- Allows you to quickstep easily.
+- Allows you to quickstep easily and adds 15/13/10/8/6/3 stamina cost to quickstep roll. 
 
 # Bell of Grace
 - Weight: 1
-- Allows you to jump simply and extends jump distance significantly.
+- Allows you to jump simply and extends jump distance by 75/100/125/150/175/200%.
 
 # Dashmaster's String
 - Weight: 1
-- Increases movement speed significantly.
+- Increases movement speed by 25/30/35/40/45/50%.
 
 # Relic of Power
 - Weight: 1
@@ -1009,14 +1009,23 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
     - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
 - Source: Hitless run - Hard mode
 
+# Gwynevere's Urn
+- Weight: 1
+- Stand still in contemplation to gain Gwynevere's Blessing, granting one the chance to endure upon reaching 0 HP. 
+- Can only be triggered every 60 seconds.
+
+# Old Man's Gambit
+- Weight: 1
+- Grants 5/6/7/8/9/10% chance to cause Shatter. Shatter causes your attack to deal 100% more damage.
+
 # Assassin's Mark
 - Weight: 1
-- Boosts backstab/riposte damage from daggers by 200%.
+- Boosts backstab/riposte damage from daggers by 100/120/140/160/180/200%.
 
 # Gower's Ring of Protection
 - Weight: 1
-- Hits to the back rapidly recover HP, restoring 20% of max HP over 1 second.
+- Grants 10/12/14/16/18/20% chance to cause Shatter for 5 seconds whenever you are hit on the back. Shatter causes your attack to deal 100% more damage.
 
 # Ring of Retreat
 - Weight: 1 
-- Increases backstep distance significantly.
+- increases backstep distance by 15/30/50/65/80/100%.

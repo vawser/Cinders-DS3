@@ -1654,15 +1654,34 @@ In his later years, the giant Gough was blinded, but this did not prevent him fr
 <text id="20379">%null%</text>
 <text id="20380">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
 
-Boosts critical damage of backstabs and ripostes by 100%.
-Effect is diminished if other critical boosting equipment is worn.
+Boosts critical damage of backstabs and ripostes by 50%.
 
 The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
-<text id="20381">%null%</text>
-<text id="20382">%null%</text>
-<text id="20383">%null%</text>
-<text id="20384">%null%</text>
-<text id="20385">%null%</text>
+<text id="20381">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
+
+Boosts critical damage of backstabs and ripostes by 60%.
+
+The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
+<text id="20382">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
+
+Boosts critical damage of backstabs and ripostes by 70%.
+
+The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
+<text id="20383">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
+
+Boosts critical damage of backstabs and ripostes by 80%.
+
+The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
+<text id="20384">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
+
+Boosts critical damage of backstabs and ripostes by 90%.
+
+The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
+<text id="20385">Ring associated with the Lord's Blade Ciaran, one of the Four Knights of Gwyn, the First Lord.
+
+Boosts critical damage of backstabs and ripostes by 100%.
+
+The masked Ciaran was the only woman to serve in Gwyn's Four Knights, and her curved sword granted a swift death to any and all enemies of the throne.</text>
 <text id="20386">%null%</text>
 <text id="20387">%null%</text>
 <text id="20388">%null%</text>
@@ -3785,10 +3804,34 @@ Increases Dark defense by 100.</text>
 <text id="30709">%null%</text>
 <text id="30800">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
 
+Boosts critical damage of backstabs and ripostes by halberds by 100%.
+
+'So, it appears you have made a ... glaive mistake'</text>
+<text id="30801">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
+
+Boosts critical damage of backstabs and ripostes by halberds by 120%.
+
+'So, it appears you have made a ... glaive mistake'</text>
+<text id="30802">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
+
+Boosts critical damage of backstabs and ripostes by halberds by 140%.
+
+'So, it appears you have made a ... glaive mistake'</text>
+<text id="30803">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
+
+Boosts critical damage of backstabs and ripostes by halberds by 160%.
+
+'So, it appears you have made a ... glaive mistake'</text>
+<text id="30804">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
+
+Boosts critical damage of backstabs and ripostes by halberds by 180%.
+
+'So, it appears you have made a ... glaive mistake'</text>
+<text id="30805">The ring used by the esteemed Glaive Master Hodir. It is said that he once resided within Stonehaven Sanctuary, where he honed his mastery of the glaive.
+
 Boosts critical damage of backstabs and ripostes by halberds by 200%.
 
 'So, it appears you have made a ... glaive mistake'</text>
-
 <text id="30806">%null%</text>
 <text id="30807">%null%</text>
 <text id="30808">%null%</text>
@@ -4460,6 +4503,36 @@ Take the appearance of a human and boost max stamina by 5%.</text>
 
 Take the appearance of a white phantom and boost max HP by 5%.</text>
 <text id="31200">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes by daggers by 100%.
+
+A true assassin knows exactly where to strike.</text>
+<text id="31201">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes by daggers by 120%.
+
+A true assassin knows exactly where to strike.</text>
+<text id="31202">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes by daggers by 140%.
+
+A true assassin knows exactly where to strike.</text>
+<text id="31203">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes by daggers by 160%.
+
+A true assassin knows exactly where to strike.</text>
+<text id="31204">An unique mark worn by an elusive shadow.
+Little is known about it significance.
+
+Boosts critical damage of backstabs and ripostes by daggers by 180%.
+
+A true assassin knows exactly where to strike.</text>
+<text id="31205">An unique mark worn by an elusive shadow.
 Little is known about it significance.
 
 Boosts critical damage of backstabs and ripostes by daggers by 200%.

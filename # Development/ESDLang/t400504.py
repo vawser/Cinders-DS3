@@ -676,6 +676,13 @@ def t400504_x41():
         # Old Man's Gambit
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31080, 4, 1, 0) == 1, 95, 99015194, -1)
         
+        # Hornet Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20380, 4, 1, 0) == 1, 96, 99015195, -1)
+        # Assassin's Mark
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31200, 4, 1, 0) == 1, 97, 99015196, -1)
+        # Elden Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30800, 4, 1, 0) == 1, 98, 99015197, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1062,6 +1069,18 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 95:
             assert t400504_x50(31080, 31081, 1, -2)
             return 0
+        # Hornet Ring
+        elif GetTalkListEntryResult() == 96:
+            assert t400504_x50(20380, 20381, 1, -2)
+            return 0
+        # Assassin's Mark
+        elif GetTalkListEntryResult() == 97:
+            assert t400504_x50(31200, 31201, 1, -2)
+            return 0
+        # Elden Ring
+        elif GetTalkListEntryResult() == 98:
+            assert t400504_x50(30800, 30801, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1279,6 +1298,13 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31301, 4, 1, 0) == 1, 94, 99015193, -1)
         # Old Man's Gambit
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31081, 4, 1, 0) == 1, 95, 99015194, -1)
+        
+        # Hornet Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20381, 4, 1, 0) == 1, 96, 99015195, -1)
+        # Assassin's Mark
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31201, 4, 1, 0) == 1, 97, 99015196, -1)
+        # Elden Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30801, 4, 1, 0) == 1, 98, 99015197, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1660,11 +1686,23 @@ def t400504_x42():
             return 0
         # Gower's Ring of Retribution
         elif GetTalkListEntryResult() == 94:
-            assert t400504_x50(31301, 31302, 2, -4)
+            assert t400504_x50(31301, 31302, 3, -4)
             return 0
         # Old Man's Gambit
         elif GetTalkListEntryResult() == 95:
-            assert t400504_x50(31081, 31082, 2, -4)
+            assert t400504_x50(31081, 31082, 3, -4)
+            return 0
+        # Hornet Ring
+        elif GetTalkListEntryResult() == 96:
+            assert t400504_x50(20381, 20382, 3, -4)
+            return 0
+        # Assassin's Mark
+        elif GetTalkListEntryResult() == 97:
+            assert t400504_x50(31201, 31202, 3, -4)
+            return 0
+        # Elden Ring
+        elif GetTalkListEntryResult() == 98:
+            assert t400504_x50(30801, 30802, 3, -4)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
@@ -1883,6 +1921,13 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31302, 4, 1, 0) == 1, 94, 99015193, -1)
         # Old Man's Gambit
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31082, 4, 1, 0) == 1, 95, 99015194, -1)
+        
+        # Hornet Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20382, 4, 1, 0) == 1, 96, 99015195, -1)
+        # Assassin's Mark
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31202, 4, 1, 0) == 1, 97, 99015196, -1)
+        # Elden Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30802, 4, 1, 0) == 1, 98, 99015197, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2270,6 +2315,18 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 95:
             assert t400504_x50(31082, 31083, 5, -6)
             return 0
+        # Hornet Ring
+        elif GetTalkListEntryResult() == 96:
+            assert t400504_x50(20382, 20383, 5, -6)
+            return 0
+        # Assassin's Mark
+        elif GetTalkListEntryResult() == 97:
+            assert t400504_x50(31202, 31203, 5, -6)
+            return 0
+        # Elden Ring
+        elif GetTalkListEntryResult() == 98:
+            assert t400504_x50(30802, 30803, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2487,6 +2544,13 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31303, 4, 1, 0) == 1, 94, 99015193, -1)
         # Old Man's Gambit
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31083, 4, 1, 0) == 1, 95, 99015194, -1)
+        
+        # Hornet Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20383, 4, 1, 0) == 1, 96, 99015195, -1)
+        # Assassin's Mark
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31203, 4, 1, 0) == 1, 97, 99015196, -1)
+        # Elden Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30803, 4, 1, 0) == 1, 98, 99015197, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2874,6 +2938,18 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 95:
             assert t400504_x50(31083, 31084, 7, -8)
             return 0
+        # Hornet Ring
+        elif GetTalkListEntryResult() == 96:
+            assert t400504_x50(20383, 20384, 7, -8)
+            return 0
+        # Assassin's Mark
+        elif GetTalkListEntryResult() == 97:
+            assert t400504_x50(31203, 31204, 7, -8)
+            return 0
+        # Elden Ring
+        elif GetTalkListEntryResult() == 98:
+            assert t400504_x50(30803, 30804, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3092,6 +3168,13 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31304, 4, 1, 0) == 1, 94, 99015193, -1)
         # Old Man's Gambit
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31084, 4, 1, 0) == 1, 95, 99015194, -1)
+        
+        # Hornet Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20384, 4, 1, 0) == 1, 96, 99015195, -1)
+        # Assassin's Mark
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31204, 4, 1, 0) == 1, 97, 99015196, -1)
+        # Elden Ring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30804, 4, 1, 0) == 1, 98, 99015197, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3478,6 +3561,18 @@ def t400504_x45():
         # Old Man's Gambit
         elif GetTalkListEntryResult() == 95:
             assert t400504_x50(31084, 31085, 9, -10)
+            return 0
+        # Hornet Ring
+        elif GetTalkListEntryResult() == 96:
+            assert t400504_x50(20384, 20385, 9, -10)
+            return 0
+        # Assassin's Mark
+        elif GetTalkListEntryResult() == 97:
+            assert t400504_x50(31204, 31205, 9, -10)
+            return 0
+        # Elden Ring
+        elif GetTalkListEntryResult() == 98:
+            assert t400504_x50(30804, 30805, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
