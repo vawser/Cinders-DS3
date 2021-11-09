@@ -85,6 +85,14 @@ Finish following weapons:
  - Added 3 patrolling Demons
  - Added 1 patrolling Demon Cleric
 
+- Cemetery of Ash:
+ - Sword Master now patrols the flat roof area that leads to the rafters.
+
+# Phantoms
+- Sword Master:
+ - Updated Sword Master AI.
+ - Now operates like the other phantoms. Appears in Untended Graves for Champion Gundyr.
+
 # Bugfixes
 - Fixed missing warp list title in warp menu.
 - Fixed several Demon Clerics in m38 that lacked fire orb support
@@ -97,31 +105,11 @@ Finish following weapons:
 Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
 Change healing spells to heal when holding the cast
 
-# Vawser
-Adjust the broken questlines so they use a custom method of progression
- - Potential change:
-  - Break each quest into its individual stages, these stages are tied to usage of the relevant NPC as a summon on a previous boss
-  - Once the NPC has been used once, the stage will appear.
-  - Progression is done via the NPC usage (except in circumstances where that doesn't make sense)
-  
-  - Greirat:
-   - Tie loot in shop to NPC usage of Greirat in Undead Settlement, Irithyll, then Lothric Castle. If used in Lothric Castle he dies in Firelink.
-   
-  - Yoel:
-   - Usable for Crystal Sage, dies after usage there.
-   
-  - Yuria
-   - Appears after Yoel dies.
-   - Usable for Soul of Cinder, if used and Anri was used for Pontiff Sulyvahn, Lord of Hollows ending occurs.
-   
-  - Anri
-   - Usable for Deacons of the Deep, triggers Firelink appearance.
-   - Usable for Pontiff Sulyvahn, triggers Darkmoon Tomb stuff
-   - If Pilgrim is killed, usable for Aldrich
-   
-  - Horace
-   - Usable for Abyss Watchers, triggers Anri/Horace stuff in Catacombs/Lake
-
 Go over the vanilla NPC AI
 
+5000010 Uchi # WA: Spin Slash
+1020010 Parrying Dagger 
 
+304 Duel Charm
+
+walk_route_SwordMaster_P_0000

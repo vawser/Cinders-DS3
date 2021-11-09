@@ -4510,23 +4510,32 @@ Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // ----------------------------------------
 Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
+    
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
     SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
     IfConditionGroup(MAIN, PASS, AND_01);
+    
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
     IfConditionGroup(MAIN, PASS, OR_01);
     GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
+    
     EnableBossMapSound(X20_4, Enabled);
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    
     Label0();
+    
     EnableBossMapSound(-1, Disabled);
 });
 

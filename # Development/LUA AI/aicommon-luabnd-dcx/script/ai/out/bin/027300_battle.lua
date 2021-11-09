@@ -1,753 +1,840 @@
-RegisterTableGoal(GOAL_NPC_GenericA, "GOAL_NPC_GenericA")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_GenericA, true)
+RegisterTableGoal(GOAL_NPC_SwordMaster, "GOAL_NPC_SwordMaster")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_SwordMaster, true)
 
---------------------------------------
--- NPC: Light AI
---------------------------------------
-Goal.Initialize = function (goal, ai, arg2, arg3)
+-------------------------
+-- Initialize
+-------------------------
+Goal.Initialize = function (self, ai, goal, arg3)
     return 
 end
 
-Goal.Activate = function (goal, ai, arg2)
-
-    -- Sword Master
-    if ai:GetNpcThinkParamID() == 27320 then
-        if ai:GetEventRequest(0) == 10 then
-            ai:SetStringIndexedNumber("NPC_PointFrontWall", 3002820)
-        elseif ai:GetEventRequest(0) == 11 then
-            ai:SetStringIndexedNumber("NPC_PointFrontWall", 3002870)
-        end
-        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
-    elseif ai:GetNpcThinkParamID() == 27321 then
-        ai:SetStringIndexedNumber("NPC_PointFrontWall", 4002805)
-        arg2:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
-    end
+-------------------------
+-- Activate
+-------------------------
+Goal.Activate = function (self, ai, goal)
+    Init_Pseudo_Global(ai, goal)
     
-    Init_Pseudo_Global(ai, arg2)
-    
-    ai:SetStringIndexedNumber("Dist_Rolling", 4.4)
-    ai:SetStringIndexedNumber("Dist_BackStep", 2.6)
+    ai:SetStringIndexedNumber("Dist_Rolling", 3.0)      -- Distance to roll at
+    ai:SetStringIndexedNumber("Dist_BackStep", 2.0)     -- Distance to backstep at
     ai:SetStringIndexedNumber("AddDistWalk", 0)
     ai:SetStringIndexedNumber("AddDistRun", 0.2)
     
     local actChanceList = {}
     local actFuncList = {}
     local actTblList = {}
+    
     Common_Clear_Param(actChanceList, actFuncList, actTblList)
     
-    local local3 = ai:GetRandam_Int(1, 100)
-    local local4 = ai:GetDist(TARGET_ENE_0)
-    local local5 = ai:GetSp(TARGET_SELF)
+    local roll      = ai:GetRandam_Int(1, 100)
+    local distance  = ai:GetDist(TARGET_ENE_0)
+    local stamina   = ai:GetSp(TARGET_SELF)
     
-    -- Force 2H mode
-    ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 160770000)
-
-    -- If not in 2H mode, switch to it
-    if ai:HasSpecialEffectId(TARGET_SELF, 160770000) and not ai:IsBothHandMode(TARGET_SELF) then
-        actChanceList[48] = 100 -- Switch Hand Mode
-    elseif ai:GetHpRate(TARGET_SELF) <= 0.5 and not ai:HasSpecialEffectId(TARGET_SELF, 5110) then
-        actChanceList[1] = 1
-        actChanceList[2] = 1
-        actChanceList[21] = 20
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 40
-        actChanceList[41] = 40
-        actChanceList[42] = 25
-    elseif local5 < 40 then
-        if 5 <= local4 then
-            actChanceList[1] = 5
-            actChanceList[2] = 5
-            actChanceList[40] = 5
-            actChanceList[41] = 5
-        else
-            actChanceList[1] = 5
-            actChanceList[2] = 5
-            actChanceList[24] = 5
-            actChanceList[40] = 5
-            actChanceList[41] = 5
-        end
-    elseif 7 <= local4 then
-        actChanceList[1] = 10
-        actChanceList[2] = 10
-        actChanceList[3] = 0
-        actChanceList[4] = 20
-        actChanceList[5] = 20
-        actChanceList[20] = 0
-        actChanceList[21] = 0
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 0
-        actChanceList[25] = 0
-        actChanceList[40] = 40
-        actChanceList[41] = 0
-    elseif 3 <= local4 then
-        actChanceList[1] = 10
-        actChanceList[2] = 10
-        actChanceList[3] = 0
-        actChanceList[4] = 0
-        actChanceList[5] = 20
-        actChanceList[20] = 0
-        actChanceList[21] = 0
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 0
-        actChanceList[25] = 0
-        actChanceList[40] = 40
-        actChanceList[41] = 0
-    elseif 1 <= local4 then
-        actChanceList[1] = 10
-        actChanceList[2] = 10
-        actChanceList[3] = 0
-        actChanceList[4] = 0
-        actChanceList[5] = 20
-        actChanceList[20] = 0
-        actChanceList[21] = 20
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 0
-        actChanceList[25] = 0
-        actChanceList[40] = 0
-        actChanceList[41] = 20
+    local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
+    
+    -- Friendly Mode
+    if ai:HasSpecialEffectId(TARGET_SELF, 160803050) then
+        goal:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
+    end
+    
+    ----------------------------------
+    -- Act Distribution
+    ----------------------------------
+    if distance >= 6 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Spin Slash
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 100 -- Approach
+        
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+    elseif distance >= 3 then
+        actChanceList[1] = 10 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
+        actChanceList[3] = 0 -- Kick + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Spin Slash
+        
+        actChanceList[10] = 10 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 0 -- Approach
+        
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Duel Charm
     else
-        actChanceList[1] = 10
-        actChanceList[2] = 10
-        actChanceList[3] = 0
-        actChanceList[4] = 0
-        actChanceList[5] = 20
-        actChanceList[20] = 0
-        actChanceList[21] = 20
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 0
-        actChanceList[25] = 0
-        actChanceList[40] = 0
-        actChanceList[41] = 20
+        actChanceList[1] = 20 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[3] = 5 -- Kick + Approach
+        actChanceList[4] = 3 -- Jump Attack + Approach
+        actChanceList[5] = 10 -- WA: Spin Slash
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 5 -- Backstep Roll
+        actChanceList[12] = 5 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 5 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 5 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 0 -- Approach
+        
+        actChanceList[20] = 3 -- Use Item (Slot 0) - Duel Charm
     end
-    if ai:HasSpecialEffectId(TARGET_SELF, 5111) then
-        actChanceList[25] = 0
-    end
-    if ai:IsTargetGuard(TARGET_ENE_0) then
-        actChanceList[5] = actChanceList[5] + 10
-    end
-    if SpaceCheck(ai, arg2, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
-        actChanceList[21] = 0
-    end
-    if SpaceCheck(ai, arg2, -45, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, arg2, 45, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[22] = 0
-    end
-    if SpaceCheck(ai, arg2, -90, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, arg2, 90, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[23] = 0
-    end
-    if SpaceCheck(ai, arg2, -135, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, arg2, 135, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[24] = 0
-    end
-    if SpaceCheck(ai, arg2, 180, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
-        actChanceList[24] = 0
-    end
-    if SpaceCheck(ai, arg2, 180, 1) == false then
-        actChanceList[41] = 0
-    end
-    if SpaceCheck(ai, arg2, -90, 1) == false and SpaceCheck(ai, arg2, 90, 1) == false then
-        actChanceList[40] = 0
-    end
-    if local5 < 20 then
-        actChanceList[20] = 0
-        actChanceList[21] = 0
-        actChanceList[22] = 0
-        actChanceList[23] = 0
-        actChanceList[24] = 0
-    end
-    actFuncList[1] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act01)
-    actFuncList[2] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act02)
-    actFuncList[3] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act03)
-    actFuncList[4] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act04)
-    actFuncList[5] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act05)
-    actFuncList[19] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act19)
-    actFuncList[20] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act20)
-    actFuncList[21] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act21)
-    actFuncList[22] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act22)
-    actFuncList[23] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act23)
-    actFuncList[24] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act24)
-    actFuncList[25] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act25)
-    actFuncList[40] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act40)
-    actFuncList[41] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act41)
-    actFuncList[42] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act42)
-    actFuncList[43] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act43)
-    actFuncList[44] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act44)
-    actFuncList[45] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act45)
-    actFuncList[46] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act46)
-    actFuncList[47] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act47)
-    actFuncList[48] = REGIST_FUNC(ai, arg2, NPC_GenericA_Act48)
     
-    Common_Battle_Activate(ai, arg2, actChanceList, actFuncList, REGIST_FUNC(ai, arg2, NPC_GenericA_ActAfter_AdjustSpace), actTblList)
+    ----------------------------------
+    -- Act Modifiers
+    ----------------------------------
+    -- Invalid Item check
+    if speffect_no_invalid_item then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+    end
+    
+    -- Kick guarding player
+    if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
+        actChanceList[3] = actChanceList[3] + 20 -- Kick + Approach
+    end
+    
+    -- Block repeat usage of Duel Charm while active
+    ai:AddObserveSpecialEffectAttribute(TARGET_ENE_0, 3351)
+    
+    if ai:HasSpecialEffectId(TARGET_ENE_0, 3351) then
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Duel Charm
+    end
+    
+    -- Block WA if stamina when low on stamina
+    if stamina < 30 then
+        actChanceList[5] = 0 -- WA: Spin Slash
+    end
+    
+    -- Block dash and rolls when low on stamina
+    if stamina < 20 then
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+    
+    ----------------------------------
+    -- Movement Checks
+    ----------------------------------
+    -- Block backstep if there is an obstacle behind the AI within 2.6 meters
+    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_BackStep")) == false then
+        actChanceList[11] = 0 -- Backstep Roll
+    end
+    
+    -- Block forward roll if there is an obstacle +/- 45 degrees in front the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -45, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 45, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+    end
+    
+    -- Block side roll if there is an obstacle +/- 90 degrees to the side of the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -90, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 90, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+    end
+    
+    -- Block back roll if there is an obstacle +/- 135 degrees to the side of the AI within 4.4 meters
+    if SpaceCheck(ai, goal, -135, ai:GetStringIndexedNumber("Dist_Rolling")) == false and SpaceCheck(ai, goal, 135, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+    
+    -- Block back roll if there is an obstacle behind the AI within 4.4 meters
+    if SpaceCheck(ai, goal, 180, ai:GetStringIndexedNumber("Dist_Rolling")) == false then
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+    end
+
+    -- Block Backstep if there is an obstacle behind the AI within 1 meters
+    if SpaceCheck(ai, goal, 180, 1) == false then
+        actChanceList[16] = 0 -- Backstep
+    end
+    
+    -- Block strafe if there is an obstacle +/- 90 degrees to the side of the AI within 1 meters
+    if SpaceCheck(ai, goal, -90, 1) == false and SpaceCheck(ai, goal, 90, 1) == false then
+        actChanceList[15] = 0 -- Strafe
+    end
+    
+    ----------------------------------
+    -- Acts
+    ----------------------------------
+    -- Attacks
+    actFuncList[1] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act01) -- Right Light Attack + Approach
+    actFuncList[2] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act02) -- Right Heavy Attack + Approach
+    actFuncList[3] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act03) -- Kick + Approach
+    actFuncList[4] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act05) -- WA: Spin Slash
+    
+    -- Utility
+    actFuncList[10] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act10) -- Approach + Running Attack
+    actFuncList[11] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act11) -- Backstep Roll
+    actFuncList[12] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act12) -- Forward Roll + Run + Basic Light Attack
+    actFuncList[13] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act13) -- Side Roll + Run + Basic Light Attack
+    actFuncList[14] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act14) -- Back Roll + Basic Light Attack
+    actFuncList[15] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act15) -- Strafe
+    actFuncList[16] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act16) -- Backstep
+    actFuncList[17] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act17) -- Approach
+    
+    -- Items
+    actFuncList[20] = REGIST_FUNC(ai, goal, NPC_SwordMaster_Act20)   -- Use Item (Slot 0) - Duel Charm
+    
+    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_SwordMaster_ActAfter_AdjustSpace), actTblList)
     return 
 end
 
-function NPC_GenericA_Act19(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = arg0:GetDist(TARGET_ENE_0)
-    local local3 = 2.2
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local3 = 2
-        local4 = 100
+-------------------------
+-- Functions
+-------------------------
+-- Right Light Attack + Approach
+function NPC_SwordMaster_Act01(self, ai, goal)
+    local roll_a    = self:GetRandam_Int(1, 100)
+    local distance  = self:GetDist(TARGET_ENE_0)
+    local stamina   = self:GetSp(TARGET_SELF)
+    
+    local max_attack_distance = 2.1
+    local roll_b   = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        max_attack_distance = 2.1
+        roll_b = 0
     end
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
-    local local5 = local3
-    if arg0:GetSp(TARGET_SELF) < 50 then
-        local4 = 0
-    end
-    NPC_Approach_Act_Flex(arg0, arg1, local5, local3 + 0, local3 + 2, 100, local4, 1.8, 2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-    arg1:AddSubGoal(GOAL_COMMON_LeaveTarget, 3, TARGET_ENE_0, local5 + 3, TARGET_ENE_0, false, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act01(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetDist(TARGET_ENE_0)
-    local local2 = arg0:GetSp(TARGET_SELF)
-    local local3 = 2.2
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local3 = 2
-        local4 = 100
-    end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
-    end
-    if 1 <= local1 then
-        if not arg0:IsBothHandMode(TARGET_SELF) then
-            local local5 = 67
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local5 = local5 + 33
+    
+    if 1 <= distance then
+        if not self:IsBothHandMode(TARGET_SELF) then
+            local roll_c = 25
+            
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_c = roll_c + 25
             end
-            if local0 <= local5 then
-                local4 = 100
-                local3 = 2
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            
+            if roll_a <= roll_c then
+                roll_b = 0
+                max_attack_distance = 2.1
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
-        elseif arg0:IsBothHandMode(TARGET_SELF) then
-            local local5 = 25
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local5 = local5 - 25
+        elseif self:IsBothHandMode(TARGET_SELF) then
+            local roll_c = 50
+            
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_c = roll_c - 25
             end
-            if local0 <= local5 then
-                local4 = 0
-                local3 = 2.2
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            
+            if roll_a <= roll_c then
+                roll_b = 100
+                max_attack_distance = 2.1
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         end
     end
-    if local2 < 50 then
-        local4 = 0
+    
+    if stamina < 60 then
+        roll_b = 0
     end
-    NPC_Approach_Act_Flex(arg0, arg1, local3, local3 + 2, local3 + 8, 50, local4, 1.8, 2)
-    if arg0:GetRandam_Int(1, 100) <= 50 and 0 < local4 and local3 <= local1 then
-        if arg0:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, arg0:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold)
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_b, 1.8, 2)
+    
+    if self:GetRandam_Int(1, 100) <= 50 and 0 < roll_b and max_attack_distance <= distance then
+        if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
         else
-            arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, arg0:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold)
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
         end
     end
-    if 40 <= local2 then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-    elseif 20 <= local2 then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
+    
+    if 120 <= stamina then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
+    elseif 60 <= stamina then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0) -- Right Light Attack + Approach
     else
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Light Attack + Approach
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act02(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = arg0:GetDist(TARGET_ENE_0)
-    local local3 = arg0:GetSp(TARGET_SELF)
-    local local4 = 2.6
-    local local5 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local4 = 2
-        local5 = 100
+-- Right Heavy Attack + Approach
+function NPC_SwordMaster_Act02(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    local max_attack_distance = 2.2
+    local roll_c = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        max_attack_distance = 2.2
+        roll_c = 0
     end
-    if 1 <= local2 then
-        if not arg0:IsBothHandMode(TARGET_SELF) then
-            local local6 = 67
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local6 = local6 + 33
+    
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    if 1 <= distance then
+        if not self:IsBothHandMode(TARGET_SELF) then
+            local roll_d = 25
+            
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_d = roll_d + 25
             end
-            if local0 <= local6 then
-                local5 = 100
-                local4 = 2
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            
+            if roll_a <= roll_d then
+                roll_c = 0
+                max_attack_distance = 2.2
+                
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
-        elseif arg0:IsBothHandMode(TARGET_SELF) then
-            local local6 = 25
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local6 = local6 - 25
+        elseif self:IsBothHandMode(TARGET_SELF) then
+            local roll_d = 50
+
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_d = roll_d - 25
             end
-            if local0 <= local6 then
-                local5 = 0
-                local4 = 2.6
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            
+            if roll_a <= roll_d then
+                roll_c = 100
+                max_attack_distance = 2.2
+                
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         end
     end
-    if local3 < 50 then
-        local5 = 0
+    
+    if stamina < 60 then
+        roll_c = 0
     end
-    NPC_Approach_Act_Flex(arg0, arg1, local4, local4 + 2, local4 + 8, 50, local5, 1.8, 2)
-    if local1 <= 50 and 0 < local5 and local4 <= local2 then
-        if arg0:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, arg0:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold)
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
+    
+    if roll_b <= 50 and 0 < roll_c and max_attack_distance <= distance then
+        if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
         else
-            arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, arg0:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold)
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
         end
     end
-    if 60 <= local3 and 67 < local0 then
-        if local1 <= 50 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, local4, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)
-        elseif local1 <= 75 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, local4, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, 999, 0, 0)
+    
+    if 60 <= stamina and 67 < roll_a then
+        if roll_b <= 50 then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
+        elseif roll_b <= 75 then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
         else
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, local4, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, max_attack_distance, 0, 0) -- Right Heavy Attack + Approach
+            ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0) -- Right Heavy Attack + Approach
         end
-    elseif local1 <= 50 then
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, local4, 0, 0)
+    elseif roll_b <= 50 then
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2_Hold, TARGET_ENE_0, max_attack_distance, 0, 0)
     else
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, local4, 0, 0)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, max_attack_distance, 0, 0)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act03(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = arg0:GetDist(TARGET_ENE_0)
-    local local3 = 2
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local3 = 2
-        local4 = 100
+-- Kick + Approach
+function NPC_SwordMaster_Act03(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local max_attack_distance = 1.6
+    local roll_c = 0
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        max_attack_distance = 1.6
+        roll_c = 0
     end
-    if arg0:GetSp(TARGET_SELF) < 50 then
-        local4 = 0
+    
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
-    NPC_Approach_Act_Flex(arg0, arg1, local3, local3 + 2, local3 + 4, 50, local4, 1.8, 2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R1, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:GetSp(TARGET_SELF) < 50 then
+        roll_c = 0
+    end
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
+    
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R1, TARGET_ENE_0, 999, 0, 0) -- Kick
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act04(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = arg0:GetDist(TARGET_ENE_0)
-    local local3 = 4.2
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local3 = 4.6
-        local4 = 100
+-- Jump Attack + Approach
+function NPC_SwordMaster_Act04(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local max_attack_distance = 4.8
+    local roll_c = 100
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        max_attack_distance = 5.6
+        roll_c = 0
     end
-    if arg0:GetSp(TARGET_SELF) < 50 then
-        local4 = 0
+    
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
     end
-    NPC_Approach_Act_Flex(arg0, arg1, local3, local3 + 2, local3 + 4, 50, local4, 1.8, 2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R2, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:GetSp(TARGET_SELF) < 60 then
+        roll_c = 0
+    end
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, roll_c, 1.8, 2)
+    
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Up_R2, TARGET_ENE_0, 999, 0, 0) -- Jump Attack + Approach
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act05(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = arg0:GetSp(TARGET_SELF)
-    local local3 = 3.2
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local4 = 100
+-- WA: Spin Slash
+function NPC_SwordMaster_Act05(self, ai, goal)
+    local max_attack_distance = 2.6
+    local distance = self:GetDist(TARGET_ENE_0)
+    local roll_a = self:GetRandam_Int(1, 100)
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:IsBothHandMode(TARGET_SELF) then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
-    end
-    local local5 = local3
-    local local6 = local3 + 2
-    local local7 = local3 + 4
-    local local8 = 50
-    local local9 = 1.8
-    local local10 = 2
-    if local2 < 50 then
-        local4 = 0
-    end
-    if local3 < arg0:GetDist(TARGET_ENE_0) then
-        arg1:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, local3, TARGET_SELF, false, NPC_ATK_L2Hold)
-        if local2 <= 40 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-        elseif local2 <= 20 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-        else
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-        end
+    
+    -- Approach
+    NPC_Approach_Act_Flex(self, ai, max_attack_distance, max_attack_distance + 0, max_attack_distance + 2, 100, 100, 1.8, 2)
+    
+    -- Stance -> Light or Heavy attack
+    if roll_a <= 50 then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
     else
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpHold_L2Hold, TARGET_ENE_0, local3, 0, 0)
-        if 40 <= local2 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-        elseif 20 <= local2 then
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
-        else
-            arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, local3, 0, 0)
-        end
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, NPC_ATK_L2Hold)
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act20(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    local local2 = 2.6
-    local local3 = -1
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        local2 = 2.6
-        local3 = 4
+-- Approach + Running Attack
+function NPC_SwordMaster_Act10(self, ai, goal)
+    local roll_a = self:GetRandam_Int(1, 100)
+    local roll_b = self:GetRandam_Int(1, 100)
+    local max_attack_distance = 2.8
+    local const_a = 4
+    
+    -- Force 2H mode
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
     end
-    if not arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        max_attack_distance = 3.2
+        const_a = -1
     end
-    if 1 <= arg0:GetDist(TARGET_ENE_0) then
-        if not arg0:IsBothHandMode(TARGET_SELF) then
-            local local4 = 33
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local4 = local4 + 34
+    
+    if self:GetEquipWeaponIndex(ARM_L) ~= WEP_Primary then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0) -- Switch Weapon (Left)
+    end
+    
+    if 1 <= self:GetDist(TARGET_ENE_0) then
+        if not self:IsBothHandMode(TARGET_SELF) then
+            local roll_c = 25
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_c = roll_c + 25
             end
-            if local0 <= local4 then
-                local3 = 4
-                local2 = 2.6
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            if roll_a <= roll_c then
+                const_a = -1
+                max_attack_distance = 3.2
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
-        elseif arg0:IsBothHandMode(TARGET_SELF) then
-            local local4 = 33
-            if arg0:IsTargetGuard(TARGET_ENE_0) then
-                local4 = local4 - 33
+        elseif self:IsBothHandMode(TARGET_SELF) then
+            local roll_c = 50
+            if self:IsTargetGuard(TARGET_ENE_0) then
+                roll_c = roll_c - 25
             end
-            if local0 <= local4 then
-                local3 = -1
-                local2 = 2.6
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+            if roll_a <= roll_c then
+                const_a = 4
+                max_attack_distance = 2.8
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
             end
         end
     end
-    local local4 = local2
-    if arg0:GetSp(TARGET_SELF) < 50 then
-        local3 = -1
+    
+    if self:GetSp(TARGET_SELF) < 60 then
+        const_a = -1
     end
-    if local0 <= 50 then
-        arg1:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, local4, TARGET_SELF, local3)
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
+    
+    if roll_a <= 50 then
+        ai:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, const_a)   -- Dash to Enemy
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)               -- Right Light Attack + Approach
     else
-        arg1:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, local4, TARGET_SELF, local3)
-        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)
+        ai:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, const_a)   -- Dash to Enemy
+        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)               -- Right Heavy Attack + Approach
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act21(arg0, arg1, arg2)
-    local local0 = arg0:GetDist(TARGET_ENE_0)
-    local local1 = arg0:GetRandam_Int(1, 100)
-    if SpaceCheck(arg0, arg1, 180, arg0:GetStringIndexedNumber("Dist_BackStep")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+-- Backstep Roll
+function NPC_SwordMaster_Act11(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already distant from the target
+    if distance >= 6.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
     end
-    if arg0:GetRandam_Int(1, 100) <= 80 and 0 < arg0:GetSp(TARGET_SELF) then
-        local local2 = 2.6
-        local local3 = 1
-        if arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary and arg0:IsBothHandMode(TARGET_SELF) then
-            local2 = 2.6
-            local3 = 0.2
+    
+    if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_BackStep")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Roll
+    end
+    
+    if stamina >= 60 and distance <= 2.0 then
+        local max_attack_distance = 2.8
+        local spin_time = 0.8
+        
+        if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
+            max_attack_distance = 3.2
+            spin_time = 1
         end
-        arg1:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, local2, local3, 50)
+        
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act22(arg0, arg1, arg2)
-    if 5 <= arg0:GetDist(TARGET_ENE_0) and SpaceCheck(arg0, arg1, 0, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
-    elseif SpaceCheck(arg0, arg1, -45, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        if SpaceCheck(arg0, arg1, 45, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-            if arg0:GetRandam_Int(1, 100) <= 50 then
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+-- Forward Roll + Run + Basic Light Attack
+function NPC_SwordMaster_Act12(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Skip if already next to the target
+    if distance <= 1.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 5 and SpaceCheck(self, ai, 0, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Up_ButtonXmark, TARGET_ENE_0, 3.0, 0, 0) -- Forward Roll
+    end
+    
+    if stamina >= 60 and distance <= 3.0 then
+        local max_attack_distance = 5.8
+        local spin_time = 5.4
+        
+        if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
+            max_attack_distance = 5.4
+            spin_time = 4.6
+        end
+        
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50) -- Roll Attack
+    end
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Side Roll + Run + Basic Light Attack
+function NPC_SwordMaster_Act13(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    if SpaceCheck(self, ai, -90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        if SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            if self:GetRandam_Int(1, 100) <= 50 then
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Left_ButtonXmark, TARGET_ENE_0, 999, 0, 0)  -- Left Roll
             else
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Roll
             end
         else
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Left_ButtonXmark, TARGET_ENE_0, 999, 0, 0)  -- Left Roll
         end
-    elseif SpaceCheck(arg0, arg1, 45, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_UpRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+    elseif SpaceCheck(self, ai, 90, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0) -- Right Roll
     end
-    if arg0:GetRandam_Int(1, 100) <= 80 and 0 < arg0:GetSp(TARGET_SELF) then
-        local local0 = 5.4
-        local local1 = 6
-        if arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary and arg0:IsBothHandMode(TARGET_SELF) then
-            local0 = 5.6
-            local1 = 5.6
+    
+    if stamina >= 60 and distance <= 3.0 then
+        local max_attack_distance = 3.8
+        local spin_time = 3.4
+        
+        if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
+            max_attack_distance = 3.4
+            spin_time = 2.6
         end
-        arg1:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, local0, local1, 50)
+        
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, R1Fate)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act23(arg0, arg1, arg2)
-    local local0 = arg0:GetDist(TARGET_ENE_0)
-    if SpaceCheck(arg0, arg1, -90, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        if SpaceCheck(arg0, arg1, 90, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-            if arg0:GetRandam_Int(1, 100) <= 50 then
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Left_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+-- Back Roll + Basic Light Attack
+function NPC_SwordMaster_Act14(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    local retreat_distance = 3.0
+    
+    -- Skip if already distant from the target
+    if distance >= 10.0 then
+        GetWellSpace_Odds = 100
+        return GetWellSpace_Odds
+    end
+    
+    if distance >= 1 then
+        if SpaceCheck(self, ai, 180, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0)
+        end
+    elseif SpaceCheck(self, ai, -135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        if SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+            if self:GetRandam_Int(1, 100) <= 50 then
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
             else
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+                ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
             end
         else
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Left_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+            ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Left Back Roll
         end
-    elseif SpaceCheck(arg0, arg1, 90, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Right_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+    elseif SpaceCheck(self, ai, 135, self:GetStringIndexedNumber("Dist_Rolling")) == true then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, retreat_distance, 0, 0) -- Right Back Roll
     end
-    if arg0:GetRandam_Int(1, 100) <= 80 and 0 < arg0:GetSp(TARGET_SELF) then
-        local local1 = 5.4 - 2
-        local local2 = 6 - 2
-        if arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary and arg0:IsBothHandMode(TARGET_SELF) then
-            local1 = 5.6 - 2
-            local2 = 5.6 - 2
+    
+    -- Step Attack
+    if stamina >= 60 then
+        local max_attack_distance = 1.8
+        local spin_time = 1.4
+        
+        if self:GetEquipWeaponIndex(ARM_R) == WEP_Primary and self:IsBothHandMode(TARGET_SELF) then
+            max_attack_distance = 1.4
+            spin_time = 0.6
         end
-        arg1:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, local1, local2, R1Fate)
+        
+        ai:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, max_attack_distance, spin_time, 50)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act24(arg0, arg1, arg2)
-    if arg0:GetDist(TARGET_ENE_0) <= 1 and SpaceCheck(arg0, arg1, 180, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_Down_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
-    elseif SpaceCheck(arg0, arg1, -135, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        if SpaceCheck(arg0, arg1, 135, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-            if arg0:GetRandam_Int(1, 100) <= 50 then
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+-- Strafe
+function NPC_SwordMaster_Act15(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    local duration = 1.8
+    local run_start_distance = 5.0
+    local animation = -1
+    
+    -- Change to no guard if stamina is low
+    if stamina <= 30 then
+        animation = -1
+    end
+    
+    local direction = 0
+    
+    -- Adjust direction based on location, or end early if colliding
+    if SpaceCheck(self, ai, -90, 1) == true then
+        if SpaceCheck(self, ai, 90, 1) == true then
+            if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
+                direction = 0
             else
-                arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+                direction = 1
             end
         else
-            arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownLeft_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
+            direction = 0
         end
-    elseif SpaceCheck(arg0, arg1, 135, arg0:GetStringIndexedNumber("Dist_Rolling")) == true then
-        arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_DownRight_ButtonXmark, TARGET_ENE_0, 999, 0, 0)
-    end
-    if arg0:GetRandam_Int(1, 100) <= 80 and 0 < arg0:GetSp(TARGET_SELF) then
-        local local0 = 5.4 - 4
-        local local1 = 6 - 4
-        if arg0:GetEquipWeaponIndex(ARM_R) == WEP_Primary and arg0:IsBothHandMode(TARGET_SELF) then
-            local0 = 5.6 - 4
-            local1 = 5.6 - 4
-        end
-        arg1:AddSubGoal(GOAL_COMMON_NPCStepAttack, 10, TARGET_ENE_0, local0, local1, 50)
-    end
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act25(arg0, arg1, arg2)
-    arg0:ChangeEquipItem(2)
-    arg0:SetStringIndexedNumber("item_Knife", arg0:GetStringIndexedNumber("item_Knife") - 1)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act40(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetSp(TARGET_SELF)
-    local local2 = 40
-    local local3 = 1.8
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        if local2 <= local1 and local0 <= 75 then
-            local4 = NPC_ATK_L2Hold
-        end
-    elseif local2 <= local1 and local0 <= 0 then
-        local4 = NPC_ATK_L2Hold
-    end
-    local local5 = 0
-    if SpaceCheck(arg0, arg1, -90, 1) == true then
-        if SpaceCheck(arg0, arg1, 90, 1) == true then
-            if arg0:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-                local5 = 0
-            else
-                local5 = 1
-            end
-        else
-            local5 = 0
-        end
-    elseif SpaceCheck(arg0, arg1, 90, 1) == true then
-        local5 = 1
+    elseif SpaceCheck(self, ai, 90, 1) == true then
+        direction = 1
     else
         GetWellSpace_Odds = 100
         return GetWellSpace_Odds
     end
-    if arg0:GetDist(TARGET_ENE_0) < 3 then
-        arg1:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local5, arg0:GetRandam_Int(75, 90), false, true, local4)
+    
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), false, true, animation) -- Guard with Left Weapon
     else
-        arg1:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local5, arg0:GetRandam_Int(75, 90), true, true, local4)
+        ai:AddSubGoal(GOAL_COMMON_SidewayMove, duration, TARGET_ENE_0, direction, self:GetRandam_Int(75, 90), true, true, animation)  -- Guard with Left Weapon
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act41(arg0, arg1, arg2)
-    local local0 = arg0:GetRandam_Int(1, 100)
-    local local1 = arg0:GetSp(TARGET_SELF)
-    local local2 = 1.8
-    local local3 = 4
-    local local4 = 0
-    if arg0:IsBothHandMode(TARGET_SELF) then
-        if 40 <= local1 and local0 <= 75 then
-            local4 = NPC_ATK_L2Hold
-        end
-    elseif guardsp <= local1 and local0 <= 0 then
-        local4 = NPC_ATK_L2Hold
-    end
-    if arg0:GetDist(TARGET_ENE_0) < 3 then
-        arg1:AddSubGoal(GOAL_COMMON_LeaveTarget, local2, TARGET_ENE_0, local3, TARGET_ENE_0, false, local4)
+-- Backstep
+function NPC_SwordMaster_Act16(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local duration = 1.8
+    local backstep_start_distance = 3.0
+    local run_start_distance = 5.0
+    local animation = -1
+    
+    if distance >= run_start_distance then
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, false, animation) -- Backstep
     else
-        arg1:AddSubGoal(GOAL_COMMON_LeaveTarget, local2, TARGET_ENE_0, local3, TARGET_ENE_0, true, local4)
+        ai:AddSubGoal(GOAL_COMMON_LeaveTarget, duration, TARGET_ENE_0, backstep_start_distance, TARGET_ENE_0, true, animation) -- Backstep
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act42(arg0, arg1, arg2)
-    arg0:AddObserveSpecialEffectAttribute(TARGET_SELF, 3020)
-    arg0:ChangeEquipItem(0)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+-- Approach
+function NPC_SwordMaster_Act17(self, ai, goal)
+    local end_approach_distance = 5.0
+    local animation = NPC_ATK_L1Hold
+    
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
+    else
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, animation)
+    end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act43(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_ENE_0, 0, 0, 0)
+-- Use Item (Slot 0) - Duel Charm
+function NPC_SwordMaster_Act20(self, ai, goal)
+    self:ChangeEquipItem(0) 
+    self:SetStringIndexedNumber("Duel Charm", self:GetStringIndexedNumber("Duel Charm") - 1)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function NPC_GenericA_Act44(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ArrowKeyRight, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act45(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ArrowKeyLeft, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act46(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Gesture00, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act47(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_Gesture03, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_Act48(arg0, arg1, arg2)
-    arg1:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function NPC_GenericA_ActAfter_AdjustSpace(arg0, arg1, arg2)
+-------------------------
+-- Act After
+-------------------------
+function NPC_SwordMaster_ActAfter_AdjustSpace(self, ai, goal)
     return 
 end
 
-Goal.Update = function (arg0, arg1, arg2)
-    return Update_Default_NoSubGoal(arg0, arg1, arg2)
+-------------------------
+-- Update
+-------------------------
+Goal.Update = function (self, ai, goal)
+    return Update_Default_NoSubGoal(self, ai, goal)
 end
 
-Goal.Terminate = function (arg0, arg1, arg2)
+-------------------------
+-- Terminate
+-------------------------
+Goal.Terminate = function (self, ai, goal)
     return 
 end
 
-Goal.Interrupt = function (arg0, arg1, arg2)
-    local local0 = arg1:GetSp(TARGET_SELF)
-    local local1 = arg1:GetDist(TARGET_ENE_0)
-    local local2 = arg1:GetRandam_Int(1, 100)
-    if arg1:IsInterupt(INTERUPT_Damaged) and local2 <= 25 and local1 <= 4 and 20 <= local0 then
-        arg2:ClearSubGoal()
-        NPC_GenericA_Act24(arg1, arg2)
+-------------------------
+-- Interrupt
+-------------------------
+Goal.Interrupt = function (self, ai, goal)
+    local stamina   = ai:GetSp(TARGET_SELF)
+    local distance  = ai:GetDist(TARGET_ENE_0)
+    local roll      = ai:GetRandam_Int(1, 100)
+    
+     -- Occurs if the player has been guard broken
+    if ai:IsInterupt(INTERUPT_GuardBreak) and distance < 3 then
+        goal:ClearSubGoal()
+        
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0)
+        subgoal:SetLifeEndSuccess(true)
+        
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
+        
         return true
-    elseif arg1:IsInterupt(INTERUPT_Shoot) and local2 <= 33 and 20 <= local0 and arg1:GetEventRequest(3) ~= 50 then
-        arg2:ClearSubGoal()
-        NPC_GenericA_Act23(arg1, arg2)
-        return true
-    elseif arg1:IsInterupt(INTERUPT_ParryTiming) then
-        if local1 < 4 and 2 <= local1 then
-            if arg1:HasSpecialEffectId(TARGET_SELF, 100150) and 20 <= local0 then
-                arg2:ClearSubGoal()
-                arg2:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
+    -- Occurs if the player is vulnerable to a parry
+    elseif ai:IsInterupt(INTERUPT_ParryTiming) then
+        if not ai:IsBothHandMode(TARGET_SELF) then
+            if distance < 2 and roll <= 50 and 20 <= stamina then
+                goal:ClearSubGoal()
+                goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 0.05, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0) -- Left WA (Parry)
                 return true
             end
-        elseif local1 < 2 and arg1:HasSpecialEffectId(TARGET_SELF, 100150) and 20 <= local0 then
-            arg2:ClearSubGoal()
-            arg2:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
+        end
+    -- Occurs if a parry has been applied to the player
+    elseif ai:IsInterupt(INTERUPT_SuccessParry) then
+        goal:ClearSubGoal()
+        local subgoal = goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0) -- Approach
+        subgoal:SetLifeEndSuccess(true)
+        goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1) -- Right Light Attack + Approach
+        return true
+    -- Occurs when the AI looks for an attack
+    elseif ai:IsInterupt(INTERUPT_FindAttack) then
+        if distance < 1.8 and roll <= 80 then
+            if roll <= 60 and 30 <= stamina then
+                goal:ClearSubGoal()
+                NPC_SwordMaster_Act15(ai, goal, paramTbl) -- Strafe
+                return true
+            elseif stamina <= 35 and 0 <= stamina then
+                goal:ClearSubGoal()
+                NPC_SwordMaster_Act12(ai, goal, paramTbl) -- Forward Roll + Run + Basic Light Attack
+                return true
+            end
+        elseif distance <= 3 and 20 <= stamina and roll <= 60 then
+            goal:ClearSubGoal()
+            NPC_SwordMaster_Act10(ai, goal, paramTbl) -- Approach + Running Attack
             return true
         end
-    end
-    if arg1:IsInterupt(INTERUPT_SuccessParry) then
-        arg2:ClearSubGoal()
-        local local3 = arg2:AddSubGoal(GOAL_COMMON_ApproachTarget, 1, TARGET_ENE_0, -1, TARGET_SELF, false, 0)
-        local3:SetLifeEndSuccess(true)
-        arg2:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R1, TARGET_ENE_0, 999, 0, -1)
+    -- Occurs if a ranged attack occurs
+    elseif ai:IsInterupt(INTERUPT_Shoot) and roll <= 33 and 20 <= stamina then
+        goal:ClearSubGoal()
+        NPC_SwordMaster_Act13(ai, goal) -- Side Roll + Run + Basic Light Attack
         return true
     else
         return false
     end
 end
 
+-------------------------
+-- End
+-------------------------
 return 
