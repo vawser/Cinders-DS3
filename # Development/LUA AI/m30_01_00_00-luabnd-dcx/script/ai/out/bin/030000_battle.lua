@@ -31,6 +31,11 @@ Goal.Activate = function (self, ai, goal)
     local number    = ai:GetNumber(0)
     local hp_rate   = ai:GetHpRate(TARGET_SELF)
 
+    -- Friendly Mode
+    if ai:HasSpecialEffectId(TARGET_SELF, 160803050) then
+        goal:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
+    end
+    
     ----------------------------------
     -- Act Distribution
     ----------------------------------

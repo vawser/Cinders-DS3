@@ -33,6 +33,11 @@ Goal.Activate = function (self, ai, goal)
     
     local speffect_no_invalid_item = ai:HasSpecialEffectId(TARGET_SELF, 5111)
     
+    -- Friendly Mode
+    if ai:HasSpecialEffectId(TARGET_SELF, 160803050) then
+        goal:AddSubGoal(GOAL_NPC_WhiteGhost_Battle, 2)
+    end
+    
     ----------------------------------
     -- Act Distribution
     ----------------------------------
@@ -97,7 +102,7 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Limit WA to above 50% HP
     if ai:GetHpRate(TARGET_SELF) >= 0.75 then
-        actChanceList[5] = 10 -- WA: Seppuku
+        actChanceList[5] = 3 -- WA: Seppuku
     end
     
     -- Invalid Item check

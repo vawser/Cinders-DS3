@@ -89,14 +89,19 @@ Finish following weapons:
  - Sword Master now patrols the flat roof area that leads to the rafters.
 
 # Phantoms
-- Sword Master:
- - Updated Sword Master AI.
- - Now operates like the other phantoms. Appears in Untended Graves for Champion Gundyr.
+- Added Sword Master as a summonable phantom in Untended Graves for Champion Gundyr. Replaces old-type summon.
 
+# AI
+- Sword Master: updated AI.
+- Butcher: updated AI.
+- Greirat: updated AI.
+- Kirk: updated AI. Will taunt you if you get low.
+ 
 # Bugfixes
 - Fixed missing warp list title in warp menu.
 - Fixed several Demon Clerics in m38 that lacked fire orb support
 - Darksign is now given after Journey Configuration, to prevent warping out before starting a journey. 
+- Fixed Corrupted Gundyr BGM playing incorrectly.
 
 #------------------------------
 # TODO
@@ -107,9 +112,7 @@ Change healing spells to heal when holding the cast
 
 Go over the vanilla NPC AI
 
-5000010 Uchi # WA: Spin Slash
-1020010 Parrying Dagger 
+2210400 Barbed Straight Sword # Stance
+21130000 Spiked Shield # Shield Strike
 
-304 Duel Charm
-
-walk_route_SwordMaster_P_0000
+325 Lacerating Knife

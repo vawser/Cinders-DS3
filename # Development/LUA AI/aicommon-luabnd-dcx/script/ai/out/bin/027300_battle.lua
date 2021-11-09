@@ -254,9 +254,9 @@ function NPC_SwordMaster_Act01(self, ai, goal)
     
     if self:GetRandam_Int(1, 100) <= 50 and 0 < roll_b and max_attack_distance <= distance then
         if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, -1) -- Strafe
         else
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, -1) -- Strafe
         end
     end
     
@@ -337,9 +337,9 @@ function NPC_SwordMaster_Act02(self, ai, goal)
     
     if roll_b <= 50 and 0 < roll_c and max_attack_distance <= distance then
         if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_L, 180) then
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 0, self:GetRandam_Int(75, 90), true, true, -1) -- Strafe
         else
-            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, NPC_ATK_L1Hold) -- Strafe
+            ai:AddSubGoal(GOAL_COMMON_SidewayMove, 0.3, TARGET_ENE_0, 1, self:GetRandam_Int(75, 90), true, true, -1) -- Strafe
         end
     end
     
@@ -730,7 +730,7 @@ end
 -- Approach
 function NPC_SwordMaster_Act17(self, ai, goal)
     local end_approach_distance = 5.0
-    local animation = NPC_ATK_L1Hold
+    local animation = -1
     
     if self:IsBothHandMode(TARGET_SELF) then
         ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, end_approach_distance, TARGET_SELF, false, -1)
