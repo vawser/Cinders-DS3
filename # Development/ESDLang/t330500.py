@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Vernax the Wanderer (Farron Keep)
+#-- Abyss Watcher Vernix
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -159,45 +159,25 @@ def t330500_x9():
     while True:
         ClearTalkListData()
        
-        # Purchase Item
-        AddTalkListData(1, 15000010, -1)
-
-        # Purchase Item
-        AddTalkListDataIf(1, 15000010, -1)
+        # Farron Transposition
+        AddTalkListData(1, 99091000, -1)
         
         # Talk
-        AddTalkListData(6, 99010001, -1) 
+        AddTalkListData(4, 99010001, -1) 
         
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Insignias and Emblems
+        # Farron Transposition
         if GetTalkListEntryResult() == 1:
-            OpenRegularShop(250200, 250699)
-            continue
-        # Elixirs
-        elif GetTalkListEntryResult() == 2:
-            OpenRegularShop(250100, 250199)
-            continue
-        # Writs
-        elif GetTalkListEntryResult() == 3:
-            OpenRegularShop(250800, 250899)
-            continue
-        # Oils
-        elif GetTalkListEntryResult() == 4:
-            OpenRegularShop(250700, 250799)
-            continue
-        # Odds and Ends
-        elif GetTalkListEntryResult() == 5:
-            OpenRegularShop(250000, 250099)
+            c1111(24000, 24010)
             continue
         # Talk
-        elif GetTalkListEntryResult() == 6:
-            assert t330500_x10(text1=10019000, flag1=0, mode1=0)
+        elif GetTalkListEntryResult() == 4:
+            assert t330500_x10(text1=10135000, flag1=0, mode1=0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -229,20 +209,3 @@ def t330500_x11():
     """ State 2 """
     return 0
     
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-# Acquire Gesture
-def t330500_x50(z2=_, z3=_, flag1=_):
-    """ State 0,1 """
-    if GetEventStatus(flag1) == 1:
-        """ State 2 """
-        pass
-    else:
-        """ State 3,4 """
-        AcquireGesture(z2)
-        OpenItemAcquisitionMenu(3, z3, 1)
-        SetEventState(flag1, 1)
-        assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
-    """ State 5 """
-    return 0

@@ -91,6 +91,11 @@ Finish following weapons:
 - Cemetery of Ash:
  - Sword Master now patrols the flat roof area that leads to the rafters.
 
+# NPC
+- Added Abyss Watcher Vernix:
+ - Found in the Abyss Watcher boss room after they have been defeated.
+ - Allows you to transfuse the Abyss Watcher soul into Farron Greatsword (Parry) or Farron Greatsword (Stomp).
+
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
 - Added Sword Master as a summonable phantom in Untended Graves for Champion Gundyr. Replaces old-type summon.
@@ -122,3 +127,5 @@ Add Gatling Gun
 Go over the vanilla NPC AI
 
 
+203000 Farron Greatsword - Parry +0
+203100 Farron Greatsword - Stomp +0
