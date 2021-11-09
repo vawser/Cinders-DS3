@@ -1173,7 +1173,17 @@
 <text id="30800">Boosts critical damage of backstabs and ripostes by halberds</text>
 <text id="30840">Bestows a random effect every 15 seconds</text>
 <text id="30870">Allows the wearer to quickstep easily</text>
+<text id="30871">Allows the wearer to quickstep easily</text>
+<text id="30872">Allows the wearer to quickstep easily</text>
+<text id="30873">Allows the wearer to quickstep easily</text>
+<text id="30874">Allows the wearer to quickstep easily</text>
+<text id="30875">Allows the wearer to quickstep easily</text>
 <text id="30880">Allows the wearer to jump simply and extends jump distance significantly</text>
+<text id="30881">Allows the wearer to jump simply and extends jump distance significantly</text>
+<text id="30882">Allows the wearer to jump simply and extends jump distance significantly</text>
+<text id="30883">Allows the wearer to jump simply and extends jump distance significantly</text>
+<text id="30884">Allows the wearer to jump simply and extends jump distance significantly</text>
+<text id="30885">Allows the wearer to jump simply and extends jump distance significantly</text>
 <text id="30890">Imbues weapon with Bleed</text>
 <text id="30891">Imbues weapon with Bleed</text>
 <text id="30892">Imbues weapon with Bleed</text>
@@ -1181,6 +1191,11 @@
 <text id="30894">Imbues weapon with Bleed</text>
 <text id="30895">Imbues weapon with Bleed</text>
 <text id="30900">Increases movement speed significantly</text>
+<text id="30901">Increases movement speed significantly</text>
+<text id="30902">Increases movement speed significantly</text>
+<text id="30903">Increases movement speed significantly</text>
+<text id="30904">Increases movement speed significantly</text>
+<text id="30905">Increases movement speed significantly</text>
 <text id="30910">Grants a multitude of benefits</text>
 <text id="30911">Grants a multitude of benefits</text>
 <text id="30912">Grants a multitude of benefits</text>
@@ -1276,5 +1291,10 @@
 <text id="31200">Boosts critical damage of backstabs and ripostes by daggers</text>
 <text id="31300">Hits to the back rapidly recover HP</text>
 <text id="31400">Increases backstep distance significantly</text>
+<text id="31401">Increases backstep distance significantly</text>
+<text id="31402">Increases backstep distance significantly</text>
+<text id="31403">Increases backstep distance significantly</text>
+<text id="31404">Increases backstep distance significantly</text>
+<text id="31405">Increases backstep distance significantly</text>
 </entries>
 </fmg>

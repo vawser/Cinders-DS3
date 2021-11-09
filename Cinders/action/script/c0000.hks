@@ -1510,7 +1510,7 @@ function ExecGuard(event, blend_type)
             --------------------
             -- Bell of Grace
             --------------------
-            if env(1116, 112007) == TRUE then
+            if IsBellOfGrace() == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_Jump")
                 
@@ -3970,6 +3970,22 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
                     SetVariable("CircleStepAngle", angle)
                     ExecEventAllBody("W_CircleStepStart")
                 end
+                
+                -- Ring of Momentum: Stamina Costs
+                if env(1116, 112560) == TRUE then
+                    AddStamina(-15)
+                elseif env(1116, 112561) == TRUE then
+                    AddStamina(-13)
+                elseif env(1116, 112562) == TRUE then
+                    AddStamina(-10)
+                elseif env(1116, 112563) == TRUE then
+                    AddStamina(-8)
+                elseif env(1116, 112564) == TRUE then
+                    AddStamina(-6)
+                elseif env(1116, 112565) == TRUE then
+                    AddStamina(-3)
+                end
+                
                 SetAIActionState()
                 return TRUE
             end
@@ -7366,8 +7382,20 @@ function BackStep_onUpdate()
     local style = c_Style
     
     -- Ring of Retreat
-    if env(1116, 112530) == TRUE then 
-        act(2001, 2)
+    if IsRingOfRetreat() == TRUE then 
+        if env(1116, 112530) == TRUE then
+            act(2001, 1.15)
+        elseif env(1116, 112531) == TRUE then
+            act(2001, 1.3)
+        elseif env(1116, 112532) == TRUE then
+            act(2001, 1.5)
+        elseif env(1116, 112533) == TRUE then
+            act(2001, 1.65)
+        elseif env(1116, 112534) == TRUE then
+            act(2001, 1.8)
+        elseif env(1116, 112535) == TRUE then
+            act(2001, 2)
+        end
     end
     
     if style == HAND_LEFT_BOTH then
@@ -7394,8 +7422,20 @@ end
 
 function Jump_onUpdate()
     -- Bell of Grace
-    if env(1116, 112007) == TRUE then 
-        act(2001, 3)
+    if IsBellOfGrace == TRUE then 
+        if env(1116, 112550) == TRUE then
+            act(2001, 1.75)
+        elseif env(1116, 112551) == TRUE then
+            act(2001, 2)
+        elseif env(1116, 112552) == TRUE then
+            act(2001, 2.25)
+        elseif env(1116, 112553) == TRUE then
+            act(2001, 2.5)
+        elseif env(1116, 112554) == TRUE then
+            act(2001, 2.75)
+        elseif env(1116, 112555) == TRUE then
+            act(2001, 3)
+        end
     end
     
     if EvasionCommonFunction(FALL_TYPE_JUMP, "W_AttackRightLightStep", "W_AttackRightHeavy2Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLightStep", "W_AttackBothHeavy2Start") == TRUE then
@@ -7516,8 +7556,20 @@ function Move_onUpdate()
     end
     
     -- Dashmaster's String
-    if env(1116, 112009) == TRUE then
-        base_move_mult = base_move_mult + 0.6
+    if IsDashmastersString() == TRUE then
+        if env(1116, 112540) == TRUE then
+            base_move_mult = base_move_mult + 0.25
+        elseif env(1116, 112541) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 112542) == TRUE then
+            base_move_mult = base_move_mult + 0.35
+        elseif env(1116, 112543) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 112544) == TRUE then
+            base_move_mult = base_move_mult + 0.45
+        elseif env(1116, 112545) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
     end
     
     act(2001, base_move_mult)
@@ -17637,7 +17689,31 @@ function IsBBDashWeapon()
 end
 
 function IsRingOfMomentum()
-    if env(1116, 112008) == TRUE then
+    if env(1116, 112560) == TRUE or env(1116, 112561) == TRUE or env(1116, 112562) == TRUE or env(1116, 112563) == TRUE or env(1116, 112564) == TRUE or env(1116, 112565) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsBellOfGrace()
+    if env(1116, 112550) == TRUE or env(1116, 112551) == TRUE or env(1116, 112552) == TRUE or env(1116, 112553) == TRUE or env(1116, 112554) == TRUE or env(1116, 112555) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsDashmastersString()
+    if env(1116, 112540) == TRUE or env(1116, 112541) == TRUE or env(1116, 112542) == TRUE or env(1116, 112543) == TRUE or env(1116, 112544) == TRUE or env(1116, 112545) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsRingOfRetreat()
+    if env(1116, 112530) == TRUE or env(1116, 112531) == TRUE or env(1116, 112532) == TRUE or env(1116, 112533) == TRUE or env(1116, 112534) == TRUE or env(1116, 112535) == TRUE then
         return TRUE
     else
         return FALSE

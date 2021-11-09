@@ -3809,7 +3809,29 @@ Bestows a random effect every 15 seconds. Removing the ring will physically harm
 <text id="30849">%null%</text>
 <text id="30870">An exotic ring from the eastern lands. Favoured by ninjas.
 
-Allows you to quickstep easily, overriding regular rolling. Disabled if current equipment load is above 70% of max.</text>
+Allows you to quickstep easily, overriding regular rolling. Costs 15 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+<text id="30871">An exotic ring from the eastern lands. Favoured by ninjas.
+
+Allows you to quickstep easily, overriding regular rolling. Costs 13 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+<text id="30872">An exotic ring from the eastern lands. Favoured by ninjas.
+
+Allows you to quickstep easily, overriding regular rolling. Costs 10 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+<text id="30873">An exotic ring from the eastern lands. Favoured by ninjas.
+
+Allows you to quickstep easily, overriding regular rolling. Costs 8 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+<text id="30874">An exotic ring from the eastern lands. Favoured by ninjas.
+
+Allows you to quickstep easily, overriding regular rolling. Costs 6 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+<text id="30875">An exotic ring from the eastern lands. Favoured by ninjas.
+
+Allows you to quickstep easily, overriding regular rolling. Costs 3 additional stamina.
+Disabled if current equipment load is above 70% of max.</text>
+
 <text id="30871">%null%</text>
 <text id="30872">%null%</text>
 <text id="30873">%null%</text>
@@ -3821,7 +3843,27 @@ Allows you to quickstep easily, overriding regular rolling. Disabled if current 
 <text id="30879">%null%</text>
 <text id="30880">An exotic bell from the eastern lands. Favoured by ninjas.
 
-Allows you to jump simply and extends jump distance significantly.
+Allows you to jump simply and extends jump distance by 75%.
+Replaces Guard action with shield or weapon with Jump.</text>
+<text id="30881">An exotic bell from the eastern lands. Favoured by ninjas.
+
+Allows you to jump simply and extends jump distance by 100%.
+Replaces Guard action with shield or weapon with Jump.</text>
+<text id="30882">An exotic bell from the eastern lands. Favoured by ninjas.
+
+Allows you to jump simply and extends jump distance by 125%.
+Replaces Guard action with shield or weapon with Jump.</text>
+<text id="30883">An exotic bell from the eastern lands. Favoured by ninjas.
+
+Allows you to jump simply and extends jump distance by 150%.
+Replaces Guard action with shield or weapon with Jump.</text>
+<text id="30884">An exotic bell from the eastern lands. Favoured by ninjas.
+
+Allows you to jump simply and extends jump distance by 175%.
+Replaces Guard action with shield or weapon with Jump.</text>
+<text id="30885">An exotic bell from the eastern lands. Favoured by ninjas.
+
+Allows you to jump simply and extends jump distance by 200%.
 Replaces Guard action with shield or weapon with Jump.</text>
 <text id="30881">%null%</text>
 <text id="30882">%null%</text>
@@ -3863,7 +3905,27 @@ Imbues right-hand weapon, causing strikes to inflict 50 Bleed.</text>
 <text id="30900">A red band of string used by a man known only as the Dashmaster.
 Famed for his endless endurance, of which he used to sprint from place to place.
 
-Increases movement speed significantly.</text>
+Increases movement speed by 25%.</text>
+<text id="30901">A red band of string used by a man known only as the Dashmaster.
+Famed for his endless endurance, of which he used to sprint from place to place.
+
+Increases movement speed by 30%.</text>
+<text id="30902">A red band of string used by a man known only as the Dashmaster.
+Famed for his endless endurance, of which he used to sprint from place to place.
+
+Increases movement speed by 35%.</text>
+<text id="30903">A red band of string used by a man known only as the Dashmaster.
+Famed for his endless endurance, of which he used to sprint from place to place.
+
+Increases movement speed by 40%.</text>
+<text id="30904">A red band of string used by a man known only as the Dashmaster.
+Famed for his endless endurance, of which he used to sprint from place to place.
+
+Increases movement speed by 45%.</text>
+<text id="30905">A red band of string used by a man known only as the Dashmaster.
+Famed for his endless endurance, of which he used to sprint from place to place.
+
+Increases movement speed by 50%.</text>
 <text id="30901">%null%</text>
 <text id="30902">%null%</text>
 <text id="30903">%null%</text>
@@ -4383,7 +4445,32 @@ Hits to the back rapidly recover HP, restoring 20% of max HP over 2 seconds.
 For an assassin. whose own life is always at stake, the greatest liability is one's exposed back.</text>
 <text id="31400">The ring of a perpetual coward.
 
-Increases backstep distance significantly.
+Increases backstep distance by 15%.
+
+A coward may survive to live another day, but the guilt is eternal.</text>
+<text id="31401">The ring of a perpetual coward.
+
+Increases backstep distance by 30%.
+
+A coward may survive to live another day, but the guilt is eternal.</text>
+<text id="31402">The ring of a perpetual coward.
+
+Increases backstep distance by 50%.
+
+A coward may survive to live another day, but the guilt is eternal.</text>
+<text id="31403">The ring of a perpetual coward.
+
+Increases backstep distance by 65%.
+
+A coward may survive to live another day, but the guilt is eternal.</text>
+<text id="31404">The ring of a perpetual coward.
+
+Increases backstep distance by 80%.
+
+A coward may survive to live another day, but the guilt is eternal.</text>
+<text id="31405">The ring of a perpetual coward.
+
+Increases backstep distance by 100%.
 
 A coward may survive to live another day, but the guilt is eternal.</text>
 

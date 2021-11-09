@@ -51,6 +51,8 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[7] = 0 -- Right WA: HOLD AND USE
         actChanceList[8] = 0 -- Right WA: PRESS
         actChanceList[9] = 0 -- Left WA: PRESS
+        actChanceList[10] = 0 -- Crossbow: R1
+        actChanceList[11] = 0 -- Crossbow: L1
         
         -- Movement
         actChanceList[20] = 0 -- Approach
@@ -77,6 +79,8 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[7] = 0 -- Right WA: HOLD AND USE
         actChanceList[8] = 0 -- Right WA: PRESS
         actChanceList[9] = 0 -- Left WA: PRESS
+        actChanceList[10] = 0 -- Crossbow: R1
+        actChanceList[11] = 0 -- Crossbow: L1
         
         -- Movement
         actChanceList[20] = 0 -- Approach
@@ -103,6 +107,8 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[7] = 0 -- Right WA: HOLD AND USE
         actChanceList[8] = 0 -- Right WA: PRESS
         actChanceList[9] = 0 -- Left WA: PRESS
+        actChanceList[10] = 0 -- Crossbow: R1
+        actChanceList[11] = 0 -- Crossbow: L1
         
         -- Movement
         actChanceList[20] = 0 -- Approach
@@ -163,7 +169,7 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Kick guarding player
     if ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.0 then
-        actChanceList[4] = actChanceList[4] + 20 -- Kick
+        actChanceList[4] = actChanceList[4] + 10 -- Kick
     end
     
     -- Block repeat usage of ITEM_HERE while active
@@ -677,6 +683,42 @@ function NPC_EXAMPLE_Act09(self, ai, goal)
     
     -- WA Combo
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Crossbow: R1
+function NPC_Alva_Act10(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Switch to 1H mode if in 2H mode
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
+    -- Shoot
+    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_L1Hold, TARGET_ENE_0, 999, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_L1, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- Crossbow: L1
+function NPC_Alva_Act11(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    -- Switch to 1H mode if in 2H mode
+    if self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0) -- Toggle 2H state of Weapon
+    end
+    
+    -- Shoot
+    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_R1Hold, TARGET_ENE_0, 999, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 3, NPC_ATK_R1, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds

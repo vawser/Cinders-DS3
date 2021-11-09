@@ -1506,7 +1506,17 @@
 <text id="30800">Elden Ring</text>
 <text id="30840">Fool's Sigil</text>
 <text id="30870">Ring of Momentum</text>
+<text id="30871">Ring of Momentum+1</text>
+<text id="30872">Ring of Momentum+2</text>
+<text id="30873">Ring of Momentum+3</text>
+<text id="30874">Ring of Momentum+4</text>
+<text id="30875">Ring of Momentum+5</text>
 <text id="30880">Bell of Grace</text>
+<text id="30881">Bell of Grace+1</text>
+<text id="30882">Bell of Grace+2</text>
+<text id="30883">Bell of Grace+3</text>
+<text id="30884">Bell of Grace+4</text>
+<text id="30885">Bell of Grace+5</text>
 <text id="30890">Ring of Punishment</text>
 <text id="30891">Ring of Punishment+1</text>
 <text id="30892">Ring of Punishment+2</text>
@@ -1514,6 +1524,11 @@
 <text id="30894">Ring of Punishment+4</text>
 <text id="30895">Ring of Punishment+5</text>
 <text id="30900">Dashmaster's String</text>
+<text id="30901">Dashmaster's String+1</text>
+<text id="30902">Dashmaster's String+2</text>
+<text id="30903">Dashmaster's String+3</text>
+<text id="30904">Dashmaster's String+4</text>
+<text id="30905">Dashmaster's String+5</text>
 <text id="30910">Relic of Power</text>
 <text id="30911">Relic of Power+1</text>
 <text id="30912">Relic of Power+2</text>
@@ -1609,5 +1624,10 @@
 <text id="31200">Assassin's Mark</text>
 <text id="31300">Gower's Ring of Protection</text>
 <text id="31400">Ring of Retreat</text>
+<text id="31401">Ring of Retreat+1</text>
+<text id="31402">Ring of Retreat+2</text>
+<text id="31403">Ring of Retreat+3</text>
+<text id="31404">Ring of Retreat+4</text>
+<text id="31405">Ring of Retreat+5</text>
 </entries>
 </fmg>

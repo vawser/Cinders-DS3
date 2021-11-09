@@ -662,6 +662,15 @@ def t400504_x41():
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30370, 4, 1, 0) == 1, 67, 99015166, -1)
         
+        # Ring of Momentum
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30870, 4, 1, 0) == 1, 90, 99015189, -1)
+        # Bell of Grace
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30880, 4, 1, 0) == 1, 91, 99015190, -1)
+        # Dashmaster's String
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30900, 4, 1, 0) == 1, 92, 99015191, -1)
+        # Ring of Retreat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31400, 4, 1, 0) == 1, 93, 99015192, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1024,6 +1033,22 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 89:
             assert t400504_x50(31070, 31071, 1, -2)
             return 0
+        # Ring of Momentum
+        elif GetTalkListEntryResult() == 90:
+            assert t400504_x50(30870, 30871, 1, -2)
+            return 0 
+        # Bell of Grace
+        elif GetTalkListEntryResult() == 91:
+            assert t400504_x50(30880, 30881, 1, -2)
+            return 0
+        # Dashmaster's String
+        elif GetTalkListEntryResult() == 92:
+            assert t400504_x50(30900, 30901, 1, -2)
+            return 0
+        # Ring of Retreat
+        elif GetTalkListEntryResult() == 93:
+            assert t400504_x50(31400, 31401, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1228,6 +1253,15 @@ def t400504_x42():
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30371, 4, 1, 0) == 1, 67, 99015166, -1)
  
+        # Ring of Momentum
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30871, 4, 1, 0) == 1, 90, 99015189, -1)
+        # Bell of Grace
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30881, 4, 1, 0) == 1, 91, 99015190, -1)
+        # Dashmaster's String
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30901, 4, 1, 0) == 1, 92, 99015191, -1)
+        # Ring of Retreat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31401, 4, 1, 0) == 1, 93, 99015192, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1590,6 +1624,22 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 89:
             assert t400504_x50(31071, 31072, 3, -4)
             return 0
+        # Ring of Momentum
+        elif GetTalkListEntryResult() == 90:
+            assert t400504_x50(30871, 30872, 3, -4)
+            return 0 
+        # Bell of Grace
+        elif GetTalkListEntryResult() == 91:
+            assert t400504_x50(30881, 30882, 3, -4)
+            return 0
+        # Dashmaster's String
+        elif GetTalkListEntryResult() == 92:
+            assert t400504_x50(30901, 30902, 3, -4)
+            return 0
+        # Ring of Retreat
+        elif GetTalkListEntryResult() == 93:
+            assert t400504_x50(31401, 31402, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1794,6 +1844,15 @@ def t400504_x43():
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30372, 4, 1, 0) == 1, 67, 99015166, -1)
 
+        # Ring of Momentum
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30872, 4, 1, 0) == 1, 90, 99015189, -1)
+        # Bell of Grace
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30882, 4, 1, 0) == 1, 91, 99015190, -1)
+        # Dashmaster's String
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30902, 4, 1, 0) == 1, 92, 99015191, -1)
+        # Ring of Retreat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31402, 4, 1, 0) == 1, 93, 99015192, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -2156,6 +2215,22 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 89:
             assert t400504_x50(31072, 31073, 5, -6)
             return 0
+        # Ring of Momentum
+        elif GetTalkListEntryResult() == 90:
+            assert t400504_x50(30872, 30873, 5, -6)
+            return 0 
+        # Bell of Grace
+        elif GetTalkListEntryResult() == 91:
+            assert t400504_x50(30882, 30883, 5, -6)
+            return 0
+        # Dashmaster's String
+        elif GetTalkListEntryResult() == 92:
+            assert t400504_x50(30902, 30903, 5, -6)
+            return 0
+        # Ring of Retreat
+        elif GetTalkListEntryResult() == 93:
+            assert t400504_x50(31402, 31403, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2359,6 +2434,15 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30363, 4, 1, 0) == 1, 66, 99015165, -1)
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30373, 4, 1, 0) == 1, 67, 99015166, -1)
+        
+        # Ring of Momentum
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30873, 4, 1, 0) == 1, 90, 99015189, -1)
+        # Bell of Grace
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30883, 4, 1, 0) == 1, 91, 99015190, -1)
+        # Dashmaster's String
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30903, 4, 1, 0) == 1, 92, 99015191, -1)
+        # Ring of Retreat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31403, 4, 1, 0) == 1, 93, 99015192, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2722,6 +2806,22 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 89:
             assert t400504_x50(31073, 31074, 7, -8)
             return 0
+        # Ring of Momentum
+        elif GetTalkListEntryResult() == 90:
+            assert t400504_x50(30873, 30874, 7, -8)
+            return 0 
+        # Bell of Grace
+        elif GetTalkListEntryResult() == 91:
+            assert t400504_x50(30883, 30884, 7, -8)
+            return 0
+        # Dashmaster's String
+        elif GetTalkListEntryResult() == 92:
+            assert t400504_x50(30903, 30904, 7, -8)
+            return 0
+        # Ring of Retreat
+        elif GetTalkListEntryResult() == 93:
+            assert t400504_x50(31403, 31404, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2926,6 +3026,15 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30364, 4, 1, 0) == 1, 66, 99015165, -1)
         # Ring of Vengeance
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30374, 4, 1, 0) == 1, 67, 99015166, -1)
+        
+        # Ring of Momentum
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30874, 4, 1, 0) == 1, 90, 99015189, -1)
+        # Bell of Grace
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30884, 4, 1, 0) == 1, 91, 99015190, -1)
+        # Dashmaster's String
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30904, 4, 1, 0) == 1, 92, 99015191, -1)
+        # Ring of Retreat
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31404, 4, 1, 0) == 1, 93, 99015192, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3288,6 +3397,22 @@ def t400504_x45():
         # Relic of Myths
         elif GetTalkListEntryResult() == 89:
             assert t400504_x50(31074, 31075, 9, -10)
+            return 0
+        # Ring of Momentum
+        elif GetTalkListEntryResult() == 90:
+            assert t400504_x50(30874, 30875, 9, -10)
+            return 0 
+        # Bell of Grace
+        elif GetTalkListEntryResult() == 91:
+            assert t400504_x50(30884, 30885, 9, -10)
+            return 0
+        # Dashmaster's String
+        elif GetTalkListEntryResult() == 92:
+            assert t400504_x50(30904, 30905, 9, -10)
+            return 0
+        # Ring of Retreat
+        elif GetTalkListEntryResult() == 93:
+            assert t400504_x50(31404, 31405, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

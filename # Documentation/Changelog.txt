@@ -74,8 +74,26 @@ Finish following weapons:
 - The starting items for Gauntlet Mode are now found near Oathkeeper Xavius as treasures.
 
 # Weapons
-- Changed Farron Greatsword WA back to Parry
+- Changed default Farron Greatsword WA back to Parry.
+ - Added method to get Stomp version of Farron Greatsword.
 
+# Rings
+- Ring of Momentum: 
+ - Now adds 15/13/10/8/6/3 stamina cost to quickstep roll. 
+ - Affixable.
+
+- Bell of Grace
+ - Now extends jump distance by 75/100/125/150/175/200%.
+ - Affixable.
+ 
+- Dashmaster's String
+ - Now increases movement speed by 25/30/35/40/45/50%.
+ - Affixable.
+ 
+- Ring of Retreat
+ - Now increases backstep distance by 15/30/50/65/80/100%.
+ - Affixable.
+ 
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -99,14 +117,15 @@ Finish following weapons:
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
 - Added Sword Master as a summonable phantom in Untended Graves for Champion Gundyr. Replaces old-type summon.
+- Sellsword Luet: adjusted AI.
+- Maldron: adjusted AI. Will now point down on weak enemies randomly.
 
 # AI
 - Sword Master: updated AI.
 - Butcher: updated AI.
 - Greirat: updated AI.
 - Kirk: updated AI. Will taunt you if you get low.
-- Sellsword Luet: adjusted AI.
-- Maldron: adjusted AI. Will now point down on weak enemies randomly.
+- Alva: updated AI.
  
 # Bugfixes
 - Fixed missing warp list title in warp menu.
@@ -126,6 +145,7 @@ Add Gatling Gun
 
 Go over the vanilla NPC AI
 
-
-203000 Farron Greatsword - Parry +0
-203100 Farron Greatsword - Stomp +0
+7080010 Dragonslayer's Axe # Warcry
+296 Undead Hunter Charm # 3151
+304 Duel Charm # 3351
+240 Divine Blessing
