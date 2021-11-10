@@ -77,6 +77,8 @@ Finish following weapons:
 - Changed default Farron Greatsword WA back to Parry.
  - Added method to get Stomp version of Farron Greatsword.
 
+- Reduced minimum stamina for Cannon/Church Cannon to 80.
+
 # Rings
 - Ring of Momentum: 
  - Now adds 15/13/10/8/6/3 stamina cost to quickstep roll. 
@@ -165,6 +167,39 @@ Finish following weapons:
  - Reduced damage output.
  - Removed damage boost from Enrage.
  - Aborr can now potentially be staggered.
+ 
+- Crystal Sage:
+ - HP is now 6000.
+ 
+- Cathedral Guardian:
+ - HP is now 6000.
+ 
+- Aldrich:
+ - HP is now 10,000.
+
+- Nameless King:
+ - HP is now 16,000.
+ - Increased damage output.
+ 
+- Champion Gundyr:
+ - HP is now 10,000.
+ - Increased damage output.
+ 
+- Sister Friede:
+ - HP is now 8000/16,000.
+ - Increased damage output.
+
+- Father Ariandel:
+ - HP is now 12,000.
+ 
+- Demon Prince:
+ - HP is now 9000/18,000.
+
+- Darkeater Midir:
+ - HP is now 22,000.
+ 
+- Slave Knight Gael:
+ - HP is now 18,000.
  
 # Bugfixes
 - Fixed missing warp list title in warp menu.

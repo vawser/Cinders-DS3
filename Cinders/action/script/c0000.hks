@@ -1431,7 +1431,7 @@ function ExecGuard(event, blend_type)
 
                 -- Per Sidearm Effects
                 if IsCannon() == TRUE then
-                    if 100 > env(1001) then
+                    if 80 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113005) -- FP Pause
@@ -1439,7 +1439,7 @@ function ExecGuard(event, blend_type)
                 end
                 
                 if IsChurchCannon() == TRUE then
-                    if 100 > env(1001) then
+                    if 80 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
                     else
                         act(2002, 113005) -- FP Pause

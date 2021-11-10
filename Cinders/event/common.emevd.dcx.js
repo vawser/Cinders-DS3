@@ -3654,7 +3654,7 @@ Event(20060, Default, function(X0_4) {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     SetEventFlag(25000020, ON); // Debug flag
-    SetEventFlag(13800196, OFF);
+    SetEventFlag(25001004, ON);
     
     ChangeCharacterEnableState(4000899, Enabled);
     SetCharacterAnimationState(4000899, Enabled);
