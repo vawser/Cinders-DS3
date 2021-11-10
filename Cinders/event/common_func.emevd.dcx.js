@@ -6684,6 +6684,7 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     
     // Trigger Invader if in region
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
     IfConditionGroup(MAIN, PASS, AND_01);
     WaitRandomTimeSeconds(1, 3);
     
@@ -6722,6 +6723,7 @@ Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     // Trigger Invader if in region
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4); // Has conditional flag
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
+    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
     IfConditionGroup(MAIN, PASS, AND_01);
     WaitRandomTimeSeconds(1, 3);
     

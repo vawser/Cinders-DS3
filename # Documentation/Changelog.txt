@@ -133,6 +133,9 @@ Finish following weapons:
 - Added Abyss Watcher Vernix:
  - Found in the Abyss Watcher boss room after they have been defeated.
  - Allows you to transfuse the Abyss Watcher soul into Farron Greatsword (Parry) or Farron Greatsword (Stomp).
+ 
+# Intruders
+- Intruders now only appear if you are embered.
 
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
@@ -146,6 +149,22 @@ Finish following weapons:
 - Greirat: updated AI.
 - Kirk: updated AI. Will taunt you if you get low.
 - Alva: updated AI.
+
+# Bosses
+- Corrupted Gundyr:
+ - HP is now 8000.
+ - Increased damage output a bit.
+ 
+- Vordt:
+ - HP is now 6000.
+ - Physical absorption is better.
+ - Frost Breath is now 360.
+ 
+- Aborr:
+ - HP is now 5000.
+ - Reduced damage output.
+ - Removed damage boost from Enrage.
+ - Aborr can now potentially be staggered.
  
 # Bugfixes
 - Fixed missing warp list title in warp menu.
@@ -170,6 +189,3 @@ Go over the vanilla NPC AI
 304 Duel Charm # 3351
 240 Divine Blessing
 
-<text id="99015195">Hornet Ring</text           20380
-<text id="99015196">Assassin's Mark</text>      31200
-<text id="99015197">Elden Ring</text>           30800

@@ -68,3 +68,25 @@ o331400 # Bookcase
 
 # m40
 o401502 # Flat Illusory Wall (good for collision)
+
+# m51
+o512000 # Cluster of Gravestones
+o512140 # Thick Candle
+o512170 # Short Pew
+o512210 # Ornate Chair
+o513000 # Fallen Harald Knight 1
+o513001 # Fallen Harald Knight 2
+o513002 # Fallen Harald Knight 3
+o519012 # Divine Spear
+
+# m51_1
+o512300 # Throne on Rubble
+o512301 # Throne on Rubble (partial broken)
+o512302 # Throne on Rubble (broken)
+o518000 # Pilgrim Lord
+o518001 # Fallen Pilgrim Lord 1
+o518002 # Fallen Pilgrim Lord 2
+o518003 # Fallen Pilgrim Lord 3
+o518004 # Fallen Pilgrim Lord 4
+o518005 # Fallen Pilgrim Lord 5
+o518006 # Fallen Pilgrim Lord 6
