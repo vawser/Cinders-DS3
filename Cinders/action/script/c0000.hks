@@ -1694,7 +1694,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             end
         -- All other attacks
         else
-            act(2002, 113005) 
+            act(2002, 113002) 
         end
     end
     

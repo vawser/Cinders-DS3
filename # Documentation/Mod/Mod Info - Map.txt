@@ -49,6 +49,12 @@ o009100 Test
 #---------------
 # Obj Reference
 #---------------
+# m30
+
+# m31
+
+# m32
+
 # m33
 o331304 -> o331310  # Ruins
 o331315 # Short Bridge
@@ -66,8 +72,22 @@ o331381 # Rock Wall
 
 o331400 # Bookcase
 
+# m34_1
+
+# m35
+
+# m37
+
+# m38
+
+# m39
+
 # m40
 o401502 # Flat Illusory Wall (good for collision)
+
+# m41
+
+# m50
 
 # m51
 o512000 # Cluster of Gravestones
