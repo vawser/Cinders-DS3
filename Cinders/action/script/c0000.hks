@@ -857,10 +857,20 @@ function SetEvasionStaminaCost()
     end
     
     -- Carthus Milkring Effect
-    if env(1116, 112001) == TRUE then 
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.75
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
-        c_StaminaCostJump = c_StaminaCostJump * 0.75
+    if IsCarthusMilkRing() == TRUE then 
+        if env(1116, 112010) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.75
+        elseif env(1116, 112011) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.7
+        elseif env(1116, 112012) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.65
+        elseif env(1116, 112013) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.6
+        elseif env(1116, 112014) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.55
+        elseif env(1116, 112015) == TRUE then
+            c_StaminaCostRolling = c_StaminaCostRolling * 0.5
+        end
     end
     
     -- Cursed Ring of Evasion Effect
@@ -7333,13 +7343,51 @@ function Rolling_onUpdate()
     local endratio = 1
 
     -- Greatwood Remnants
-    if env(1116, 112002) == TRUE then
+    if IsGreatwoodRemnants() == TRUE then
         base_move_mult = base_move_mult - 0.4
     end
     
     -- Carthus Milkring
-    if env(1116, 112001) == TRUE then 
-        base_move_mult = base_move_mult + 0.8
+    if IsCarthusMilkRing() == TRUE then 
+        if env(1116, 112010) == TRUE then
+            base_move_mult = base_move_mult + 0.25
+        elseif env(1116, 112011) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 112012) == TRUE then
+            base_move_mult = base_move_mult + 0.35
+        elseif env(1116, 112013) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 112014) == TRUE then
+            base_move_mult = base_move_mult + 0.45
+        elseif env(1116, 112015) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
+    end
+    
+    -- Fool's Sigil
+    if IsFoolsSigil() == TRUE then
+        -- Randomise movement speed
+        if env(1116, 114100) == TRUE then
+            base_move_mult = base_move_mult - 0.1
+        elseif env(1116, 114101) == TRUE then
+            base_move_mult = base_move_mult - 0.2
+        elseif env(1116, 114102) == TRUE then
+            base_move_mult = base_move_mult - 0.3
+        elseif env(1116, 114103) == TRUE then
+            base_move_mult = base_move_mult - 0.4
+        elseif env(1116, 114104) == TRUE then
+            base_move_mult = base_move_mult - 0.5
+        elseif env(1116, 114105) == TRUE then
+            base_move_mult = base_move_mult + 0.1
+        elseif env(1116, 114106) == TRUE then
+            base_move_mult = base_move_mult + 0.2
+        elseif env(1116, 114107) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 114108) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 114109) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
     end
     
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
@@ -7385,13 +7433,51 @@ function RollingSelftrans_onUpdate()
     local endratio = 1
     
     -- Greatwood Remnants
-    if env(1116, 112002) == TRUE then
+    if IsGreatwoodRemnants() == TRUE then
         base_move_mult = base_move_mult - 0.4
     end
     
     -- Carthus Milkring
-    if env(1116, 112001) == TRUE then 
-        base_move_mult = base_move_mult + 0.8
+    if IsCarthusMilkRing() == TRUE then 
+        if env(1116, 112010) == TRUE then
+            base_move_mult = base_move_mult + 0.25
+        elseif env(1116, 112011) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 112012) == TRUE then
+            base_move_mult = base_move_mult + 0.35
+        elseif env(1116, 112013) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 112014) == TRUE then
+            base_move_mult = base_move_mult + 0.45
+        elseif env(1116, 112015) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
+    end
+    
+    -- Fool's Sigil
+    if IsFoolsSigil() == TRUE then
+        -- Randomise movement speed
+        if env(1116, 114100) == TRUE then
+            base_move_mult = base_move_mult - 0.1
+        elseif env(1116, 114101) == TRUE then
+            base_move_mult = base_move_mult - 0.2
+        elseif env(1116, 114102) == TRUE then
+            base_move_mult = base_move_mult - 0.3
+        elseif env(1116, 114103) == TRUE then
+            base_move_mult = base_move_mult - 0.4
+        elseif env(1116, 114104) == TRUE then
+            base_move_mult = base_move_mult - 0.5
+        elseif env(1116, 114105) == TRUE then
+            base_move_mult = base_move_mult + 0.1
+        elseif env(1116, 114106) == TRUE then
+            base_move_mult = base_move_mult + 0.2
+        elseif env(1116, 114107) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 114108) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 114109) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
     end
     
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
@@ -7431,6 +7517,32 @@ function BackStep_onUpdate()
             act(2001, 1.8)
         elseif env(1116, 112535) == TRUE then
             act(2001, 2)
+        end
+    end
+    
+    -- Fool's Sigil
+    if IsFoolsSigil() == TRUE then
+        -- Randomise movement speed
+        if env(1116, 114100) == TRUE then
+            base_move_mult = base_move_mult - 0.1
+        elseif env(1116, 114101) == TRUE then
+            base_move_mult = base_move_mult - 0.2
+        elseif env(1116, 114102) == TRUE then
+            base_move_mult = base_move_mult - 0.3
+        elseif env(1116, 114103) == TRUE then
+            base_move_mult = base_move_mult - 0.4
+        elseif env(1116, 114104) == TRUE then
+            base_move_mult = base_move_mult - 0.5
+        elseif env(1116, 114105) == TRUE then
+            base_move_mult = base_move_mult + 0.1
+        elseif env(1116, 114106) == TRUE then
+            base_move_mult = base_move_mult + 0.2
+        elseif env(1116, 114107) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 114108) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 114109) == TRUE then
+            base_move_mult = base_move_mult + 0.5
         end
     end
     
@@ -7604,6 +7716,32 @@ function Move_onUpdate()
         elseif env(1116, 112544) == TRUE then
             base_move_mult = base_move_mult + 0.45
         elseif env(1116, 112545) == TRUE then
+            base_move_mult = base_move_mult + 0.5
+        end
+    end
+    
+    -- Fool's Sigil
+    if IsFoolsSigil() == TRUE then
+        -- Randomise movement speed
+        if env(1116, 114100) == TRUE then
+            base_move_mult = base_move_mult - 0.1
+        elseif env(1116, 114101) == TRUE then
+            base_move_mult = base_move_mult - 0.2
+        elseif env(1116, 114102) == TRUE then
+            base_move_mult = base_move_mult - 0.3
+        elseif env(1116, 114103) == TRUE then
+            base_move_mult = base_move_mult - 0.4
+        elseif env(1116, 114104) == TRUE then
+            base_move_mult = base_move_mult - 0.5
+        elseif env(1116, 114105) == TRUE then
+            base_move_mult = base_move_mult + 0.1
+        elseif env(1116, 114106) == TRUE then
+            base_move_mult = base_move_mult + 0.2
+        elseif env(1116, 114107) == TRUE then
+            base_move_mult = base_move_mult + 0.3
+        elseif env(1116, 114108) == TRUE then
+            base_move_mult = base_move_mult + 0.4
+        elseif env(1116, 114109) == TRUE then
             base_move_mult = base_move_mult + 0.5
         end
     end
@@ -17544,55 +17682,115 @@ function UpdateSigilEffect()
     if env(1007) == TRUE then
         return
     end
-    
-    local roll = math.random(0, 100)
-    
     -- Has Fool's Sigil equipped
-    if env(1116, 112120) == TRUE then
-        if env(1116, 112121) ~= TRUE then -- Not applied effect in past 15 seconds
-            act(2002, 112121) -- Cooldown
+    if IsFoolsSigil() == TRUE then  
+        local roll = math.random(0, 100)
+        local movement_roll = math.random(0, 100)
+    
+        -- Apply every 10 seconds
+        if env(1116, 114000) ~= TRUE then
+            act(2002, 114000)
             
-            -- Attack
-            if roll >= 0 and roll < 12 then
-                act(2002, 112122)
-            end
-
-            -- Absorption
-            if roll >= 12 and roll < 24 then
-                act(2002, 112123)
-            end
-            
-            -- Stamina Recovery
-            if roll >= 24 and roll < 36 then
-                act(2002, 112124)
-            end
-            
-            -- FP Regen
-            if roll >= 36 and roll < 48 then
-                act(2002, 112125)
+            -- +0
+            if env(1116, 112030) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114010)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114011)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114012)
+                else
+                    act(2002, 114013)
+                end
             end
             
-            -- Stamina/FP Consumption
-            if roll >= 48 and roll < 60 then
-                act(2002, 112126)
+            -- +1
+            if env(1116, 112031) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114020)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114021)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114022)
+                else
+                    act(2002, 114023)
+                end
             end
             
-            -- Immunity to Status
-            if roll >= 60 and roll < 72 then
-                act(2002, 112127)
+            -- +2
+            if env(1116, 112032) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114030)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114031)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114032)
+                else
+                    act(2002, 114033)
+                end
             end
             
-            -- No Estus
-            if roll >= 72 and roll < 84 then
-                act(2002, 112128)
+            -- +3
+            if env(1116, 112033) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114040)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114041)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114042)
+                else
+                    act(2002, 114043)
+                end
             end
             
-            -- Negative Absorption
-            if roll >= 84 and roll < 96 then
-                act(2002, 112129)
+            -- +4
+            if env(1116, 112034) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114050)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114051)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114052)
+                else
+                    act(2002, 114053)
+                end
             end
             
-            -- Nothing
+            -- +5
+            if env(1116, 112035) == TRUE then
+                if roll <= 25 then
+                    act(2002, 114060)
+                elseif roll > 25 and roll <= 50 then
+                    act(2002, 114061)
+                elseif roll > 50 and roll <= 75 then
+                    act(2002, 114062)
+                else
+                    act(2002, 114063)
+                end
+            end
+            
+            -- Set movement speed for this cycle
+            if movement_roll <= 10 then
+                act(2002, 114100)
+            elseif movement_roll > 10 and movement_roll <= 20 then
+                act(2002, 114101)
+            elseif movement_roll > 20 and movement_roll <= 30 then
+                act(2002, 114102)
+            elseif movement_roll > 30 and movement_roll <= 40 then
+                act(2002, 114103)
+            elseif movement_roll > 40 and movement_roll <= 50 then
+                act(2002, 114104)
+            elseif movement_roll > 50 and movement_roll <= 60 then
+                act(2002, 114105)
+            elseif movement_roll > 60 and movement_roll <= 70 then
+                act(2002, 114106)
+            elseif movement_roll > 70 and movement_roll <= 80 then
+                act(2002, 114107)
+            elseif movement_roll > 80 and movement_roll <= 90 then
+                act(2002, 114108)
+            else
+                act(2002, 114109)
+            end
         end
     end
 end
@@ -17818,6 +18016,30 @@ end
 
 function IsEldenRing()
     if env(1116, 112740) == TRUE or env(1116, 112741) == TRUE or env(1116, 112742) == TRUE or env(1116, 112743) == TRUE or env(1116, 112744) == TRUE or env(1116, 112745) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsCarthusMilkRing()
+    if env(1116, 112010) == TRUE or env(1116, 112011) == TRUE or env(1116, 112012) == TRUE or env(1116, 112013) == TRUE or env(1116, 112014) == TRUE or env(1116, 112015) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsGreatwoodRemnants()
+    if env(1116, 112020) == TRUE or env(1116, 112021) == TRUE or env(1116, 112022) == TRUE or env(1116, 112023) == TRUE or env(1116, 112024) == TRUE or env(1116, 112025) == TRUE then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function IsFoolsSigil()
+    if env(1116, 112030) == TRUE or env(1116, 112031) == TRUE or env(1116, 112032) == TRUE or env(1116, 112033) == TRUE or env(1116, 112034) == TRUE or env(1116, 112035) == TRUE then
         return TRUE
     else
         return FALSE

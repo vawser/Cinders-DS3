@@ -116,6 +116,24 @@ Finish following weapons:
  - Increases damage of backstabs and ripostes from halberds by 100/120/140/160/180/200%.
  - Affixable.
  
+- Carthus Milkring:
+ - Reduces roll stamina consumption by 25/30/35/40/45/50%.
+ - Lengthens your roll distance by 25/30/35/40/45/50%.
+ - Affixable.
+ 
+- Greatwood Remnants:
+ - Increases physical defense by 50/60/70/80/90/100% but shortens your roll distance by 40%.
+ - Affixable.
+ 
+- Fool's Sigil:
+ - Cycles between beneficial effects every 10 seconds, but movement is randomised too.
+  - Strength: boosts attack by 15/20/25/30/35/40%.
+  - Defence: boosts absorption by 15/20/25/30/35/40%.
+  - Fervor: boosts stamina recovery by 10/20/30/40/50/60.
+  - Focus: reduces stamina and FP consumpion by 15/20/25/30/35/40%.
+  - Movement speed is also adjusted, between -50% and +50%.
+ - Affixable.
+ 
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -224,3 +242,7 @@ Go over the vanilla NPC AI
 304 Duel Charm # 3351
 240 Divine Blessing
 
+# Add to Affix
+20450 Carthus Milkring
+30090 Greatwood Remnants
+30840 Fool's Sigil

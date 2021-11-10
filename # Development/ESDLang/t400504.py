@@ -683,6 +683,14 @@ def t400504_x41():
         # Elden Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30800, 4, 1, 0) == 1, 98, 99015197, -1)
         
+        # Carthus Milkring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20450, 4, 1, 0) == 1, 99, 99015198, -1)
+        # Greatwood Remnants
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30090, 4, 1, 0) == 1, 100, 99015199, -1)
+        # Fool's Sigil
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30840, 4, 1, 0) == 1, 101, 99015200, -1)
+        
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1081,6 +1089,18 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 98:
             assert t400504_x50(30800, 30801, 1, -2)
             return 0
+        # Carthus Milkring
+        elif GetTalkListEntryResult() == 99:
+            assert t400504_x50(20450, 20451, 1, -2)
+            return 0
+        # Greatwood Remnants
+        elif GetTalkListEntryResult() == 100:
+            assert t400504_x50(30090, 30091, 1, -2)
+            return 0
+        # Fool's Sigil
+        elif GetTalkListEntryResult() == 101:
+            assert t400504_x50(30840, 30841, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1305,6 +1325,13 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31201, 4, 1, 0) == 1, 97, 99015196, -1)
         # Elden Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30801, 4, 1, 0) == 1, 98, 99015197, -1)
+        
+        # Carthus Milkring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20451, 4, 1, 0) == 1, 99, 99015198, -1)
+        # Greatwood Remnants
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30091, 4, 1, 0) == 1, 100, 99015199, -1)
+        # Fool's Sigil
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30841, 4, 1, 0) == 1, 101, 99015200, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1704,6 +1731,18 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 98:
             assert t400504_x50(30801, 30802, 3, -4)
             return 0
+        # Carthus Milkring
+        elif GetTalkListEntryResult() == 99:
+            assert t400504_x50(20451, 20452, 3, -4)
+            return 0
+        # Greatwood Remnants
+        elif GetTalkListEntryResult() == 100:
+            assert t400504_x50(30091, 30092, 3, -4)
+            return 0
+        # Fool's Sigil
+        elif GetTalkListEntryResult() == 101:
+            assert t400504_x50(30841, 30842, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1928,6 +1967,13 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31202, 4, 1, 0) == 1, 97, 99015196, -1)
         # Elden Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30802, 4, 1, 0) == 1, 98, 99015197, -1)
+        
+        # Carthus Milkring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20452, 4, 1, 0) == 1, 99, 99015198, -1)
+        # Greatwood Remnants
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30092, 4, 1, 0) == 1, 100, 99015199, -1)
+        # Fool's Sigil
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30842, 4, 1, 0) == 1, 101, 99015200, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2327,6 +2373,18 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 98:
             assert t400504_x50(30802, 30803, 5, -6)
             return 0
+        # Carthus Milkring
+        elif GetTalkListEntryResult() == 99:
+            assert t400504_x50(20452, 20453, 5, -6)
+            return 0
+        # Greatwood Remnants
+        elif GetTalkListEntryResult() == 100:
+            assert t400504_x50(30092, 30093, 5, -6)
+            return 0
+        # Fool's Sigil
+        elif GetTalkListEntryResult() == 101:
+            assert t400504_x50(30842, 30843, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2551,6 +2609,13 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31203, 4, 1, 0) == 1, 97, 99015196, -1)
         # Elden Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30803, 4, 1, 0) == 1, 98, 99015197, -1)
+        
+        # Carthus Milkring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20453, 4, 1, 0) == 1, 99, 99015198, -1)
+        # Greatwood Remnants
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30093, 4, 1, 0) == 1, 100, 99015199, -1)
+        # Fool's Sigil
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30843, 4, 1, 0) == 1, 101, 99015200, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2950,6 +3015,18 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 98:
             assert t400504_x50(30803, 30804, 7, -8)
             return 0
+        # Carthus Milkring
+        elif GetTalkListEntryResult() == 99:
+            assert t400504_x50(20453, 20454, 7, -8)
+            return 0
+        # Greatwood Remnants
+        elif GetTalkListEntryResult() == 100:
+            assert t400504_x50(30093, 30094, 7, -8)
+            return 0
+        # Fool's Sigil
+        elif GetTalkListEntryResult() == 101:
+            assert t400504_x50(30843, 30844, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3175,6 +3252,13 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31204, 4, 1, 0) == 1, 97, 99015196, -1)
         # Elden Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30804, 4, 1, 0) == 1, 98, 99015197, -1)
+        
+        # Carthus Milkring
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20454, 4, 1, 0) == 1, 99, 99015198, -1)
+        # Greatwood Remnants
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30094, 4, 1, 0) == 1, 100, 99015199, -1)
+        # Fool's Sigil
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30844, 4, 1, 0) == 1, 101, 99015200, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3573,6 +3657,18 @@ def t400504_x45():
         # Elden Ring
         elif GetTalkListEntryResult() == 98:
             assert t400504_x50(30804, 30805, 9, -10)
+            return 0
+        # Carthus Milkring
+        elif GetTalkListEntryResult() == 99:
+            assert t400504_x50(20454, 20455, 9, -10)
+            return 0
+        # Greatwood Remnants
+        elif GetTalkListEntryResult() == 100:
+            assert t400504_x50(30094, 30095, 9, -10)
+            return 0
+        # Fool's Sigil
+        elif GetTalkListEntryResult() == 101:
+            assert t400504_x50(30844, 30845, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

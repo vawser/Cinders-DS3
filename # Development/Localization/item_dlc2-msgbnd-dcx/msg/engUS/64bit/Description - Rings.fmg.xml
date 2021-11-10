@@ -1848,14 +1848,40 @@ The Soulfeeder was a beast that insatiably absorbed souls to feed its own power.
 <text id="20449">%null%</text>
 <text id="20450">Ring worn by warriors of the sand kingdom, Carthus.
 
-Reduces evasion stamina consumption by 25% aand lengthens your roll distance.
+Reduces roll stamina consumption by 25%.
+Lengthens your roll distance by 25%.
 
 The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
-<text id="20451">%null%</text>
-<text id="20452">%null%</text>
-<text id="20453">%null%</text>
-<text id="20454">%null%</text>
-<text id="20455">%null%</text>
+<text id="20451">Ring worn by warriors of the sand kingdom, Carthus.
+
+Reduces roll stamina consumption by 30%.
+Lengthens your roll distance by 30%.
+
+The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
+<text id="20452">Ring worn by warriors of the sand kingdom, Carthus.
+
+Reduces roll stamina consumption by 35%.
+Lengthens your roll distance by 35%.
+
+The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
+<text id="20453">Ring worn by warriors of the sand kingdom, Carthus.
+
+Reduces roll stamina consumption by 40%.
+Lengthens your roll distance by 40%.
+
+The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
+<text id="20454">Ring worn by warriors of the sand kingdom, Carthus.
+
+Reduces roll stamina consumption by 45%.
+Lengthens your roll distance by 45%.
+
+The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
+<text id="20455">Ring worn by warriors of the sand kingdom, Carthus.
+
+Reduces roll stamina consumption by 50%.
+Lengthens your roll distance by 50%.
+
+The sword technique of Carthus allows for fluid movement with a curved sword. Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand.</text>
 <text id="20456">%null%</text>
 <text id="20457">%null%</text>
 <text id="20458">%null%</text>
@@ -2952,15 +2978,40 @@ In time, dedication yields its own reward.
 <text id="30089">%null%</text>
 <text id="30090">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
 
-Increases physical defense by 50% but shortens your roll distance.
+Increases physical defense by 50% but shortens your roll distance by 40%.
 
 Greatwoods are known for their hardiness, but not for their swiftness.
 </text>
-<text id="30091">%null%</text>
-<text id="30092">%null%</text>
-<text id="30093">%null%</text>
-<text id="30094">%null%</text>
-<text id="30095">%null%</text>
+<text id="30091">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
+
+Increases physical defense by 60% but shortens your roll distance by 40%.
+
+Greatwoods are known for their hardiness, but not for their swiftness.
+</text>
+<text id="30092">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
+
+Increases physical defense by 70% but shortens your roll distance by 40%.
+
+Greatwoods are known for their hardiness, but not for their swiftness.
+</text>
+<text id="30093">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
+
+Increases physical defense by 80% but shortens your roll distance by 40%.
+
+Greatwoods are known for their hardiness, but not for their swiftness.
+</text>
+<text id="30094">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
+
+Increases physical defense by 90% but shortens your roll distance by 40%.
+
+Greatwoods are known for their hardiness, but not for their swiftness.
+</text>
+<text id="30095">The remnants of a greatwood tree. The surface of this ring is craggy and rock hard.
+
+Increases physical defense by 100% but shortens your roll distance by 40%.
+
+Greatwoods are known for their hardiness, but not for their swiftness.
+</text>
 <text id="30096">%null%</text>
 <text id="30097">%null%</text>
 <text id="30098">%null%</text>
@@ -3838,14 +3889,34 @@ Boosts critical damage of backstabs and ripostes by halberds by 200%.
 <text id="30809">%null%</text>
 <text id="30840">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
 
-Bestows a random effect every 15 seconds. Removing the ring will physically harm the wearer.
+Bestows a random beneficial effect every 10 seconds, but causes movement to be erratic.
 
 'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
-<text id="30841">%null%</text>
-<text id="30842">%null%</text>
-<text id="30843">%null%</text>
-<text id="30844">%null%</text>
-<text id="30845">%null%</text>
+<text id="30841">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
+
+Bestows a random beneficial effect every 10 seconds, but movement speed is randomised too, between -50% and +50%.
+
+'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
+<text id="30842">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
+
+Bestows a random beneficial effect every 10 seconds, but movement speed is randomised too, between -50% and +50%.
+
+'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
+<text id="30843">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
+
+Bestows a random beneficial effect every 10 seconds, but movement speed is randomised too, between -50% and +50%.
+
+'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
+<text id="30844">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
+
+Bestows a random beneficial effect every 10 seconds, but movement speed is randomised too, between -50% and +50%.
+
+'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
+<text id="30845">A ring used by an infamous fool, derided for the misguided belief that Lady Luck presided over him.
+
+Bestows a random beneficial effect every 10 seconds, but movement speed is randomised too, between -50% and +50%.
+
+'Let Lady Luck guide you, for she is a kind, if capricious mistress'.</text>
 <text id="30846">%null%</text>
 <text id="30847">%null%</text>
 <text id="30848">%null%</text>
