@@ -152,6 +152,15 @@ Finish following weapons:
 
 - Cemetery of Ash:
  - Sword Master now patrols the flat roof area that leads to the rafters.
+ 
+- High Wall of Lothric:
+ - Moved the Pursuer intruder into the upper section of Ocerios's area.
+
+- Irityll:
+ - Irithyll Common bonfire is now available without needing to kill the Pursuer.
+ 
+- Irithyll Dunge:
+ - Profaned Capital bonfire is now available without needing to kill the Pursuer.
 
 # NPC
 - Added Abyss Watcher Vernix:
@@ -248,6 +257,3 @@ Go over the vanilla NPC AI
 304 Duel Charm # 3351
 240 Divine Blessing
 
-Add more bonfires
-Change the Pursuer bonfire unlocks
-Move Pursuer from High Wall to Oceiros area
