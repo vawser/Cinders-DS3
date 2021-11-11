@@ -249,6 +249,7 @@ Finish following weapons:
 - Fixed Corrupted Gundyr BGM playing incorrectly.
 - Fixed Way of Blue description.
 - Cathedral Guardian now dies if he falls off the balcony.
+- Memory of Endurance now ends sub-waves after 120 seconds to circumvent odd bugs where enemies aren't killable.
 
 #------------------------------
 # TODO
@@ -266,28 +267,5 @@ Go over the vanilla NPC AI
 296 Undead Hunter Charm # 3151
 304 Duel Charm # 3351
 240 Divine Blessing
-
-# 
-19820000 Demon's Scar
-
-30090000 Demon's Axe [Boss] # Skill: Demonic Flare
- - 2402000 Fire Orb
- - 2660000 Seething Chaos
-20010000 Small Leather Shield [Normal]
- 
-30620000 Demon's Great Axe [Boss] # Skill: Warcry
-30630000 Demon's Great Hammer [Boss] # Skill: Warcry
-30640000 Demon's Machete [Boss] # Skill: Stomp
-11030000 Demon's Fist [Boss] # Skill: Flame Whirlwind
- - 2452000 Fire Whip
- - 2451000 Chaos Storm
-
-1170000 Capra Demon
-
-GOAL_NPC_FallenPyromancer_Axe = 34900
-GOAL_NPC_FallenPyromancer_Greataxe = 34910
-GOAL_NPC_FallenPyromancer_GreatHammer = 34920
-GOAL_NPC_FallenPyromancer_Machete = 34930
-GOAL_NPC_FallenPyromancer_Fist = 34940
 
 Add method to buy covenant ranks in Gauntlet mode
