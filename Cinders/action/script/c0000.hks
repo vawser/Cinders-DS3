@@ -17394,6 +17394,7 @@ function Update()
     UpdatePsychedelicElixirEffect()
     UpdateVitalityMasteryEffect()
     UpdateHawkRingEffect()
+    UpdateCatalystAffinityEffect()
     
     -- Rings
     UpdateSigilEffect()
@@ -17936,6 +17937,43 @@ function UpdateHawkRingEffect()
         if env(1116, 112490) == TRUE then
             act(2002, 112491)
         end
+    end
+end
+
+function UpdateCatalystAffinityEffect()
+    -- Cast
+    if env(1116, 113420) == TRUE or env(1116, 113421) == TRUE then
+        -- Physical
+        if env(1116, 113400) == TRUE then
+            if env(1116, 113401) == FALSE and env(1116, 113402) == FALSE and env(1116, 113403) == FALSE and env(1116, 113404) == FALSE then 
+                act(2002, 113450)
+            end
+        -- Magic
+        elseif env(1116, 113401) == TRUE then
+            if env(1116, 113400) == FALSE and env(1116, 113402) == FALSE and env(1116, 113403) == FALSE and env(1116, 113404) == FALSE then 
+                act(2002, 113451)
+            end
+        -- Fire
+        elseif env(1116, 113402) == TRUE then
+            if env(1116, 113400) == FALSE and env(1116, 113401) == FALSE and env(1116, 113403) == FALSE and env(1116, 113404) == FALSE then 
+                act(2002, 113452)
+            end
+        -- Lightning
+        elseif env(1116, 113403) == TRUE then
+            if env(1116, 113400) == FALSE and env(1116, 113401) == FALSE and env(1116, 113402) == FALSE and env(1116, 113404) == FALSE then 
+                act(2002, 113453)
+            end
+        -- Dark
+        elseif env(1116, 113404) == TRUE then
+            if env(1116, 113400) == FALSE and env(1116, 113401) == FALSE and env(1116, 113402) == FALSE and env(1116, 113403) == FALSE then 
+                act(2002, 113454)
+            end
+        end
+    end
+    
+    -- Add Torch effect to Fire affinitry
+    if env(1116, 113402) == TRUE then
+        act(2002, 401)
     end
 end
 

@@ -79,6 +79,11 @@ Finish following weapons:
 - Reduced minimum stamina for Cannon/Church Cannon to 80.
 - Reduced FP pause from WA to 2 seconds.
 
+# Spell Tools
+- Adjusted several of the dark catalysts so they now cast specific combinations of Sorcery/Miracle/Pyromancy instead of them all having the ability to cast all three.
+- Adjusted the INT/FTH distribution for several catalysts.
+- Added affinity to a specific damage type to each catalyst. Note that having 2 catalysts out at the same time will nullify this effect.
+
 # Armor
 - Gauntlets/Leggings now share the same icon as the Torso. This has been done mainly to free up icon space.
 - Added a border flair to the armor icons so they are visually easier to scan through.
@@ -173,6 +178,7 @@ Finish following weapons:
 # Intruders
 - Intruders now only appear if you are embered.
 - Reduced the HP of several intruders.
+- Reduced the stagger resistance of several intruders.
 
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
@@ -193,7 +199,7 @@ Finish following weapons:
  - Increased damage output a bit.
  
 - Vordt:
- - HP is now 6000.
+ - HP is now 4000.
  - Physical absorption is better.
  - Frost Breath is now 360.
  
@@ -221,17 +227,17 @@ Finish following weapons:
  - Increased damage output.
  
 - Sister Friede:
- - HP is now 8000/16,000.
+ - HP is now 7000/11,000.
  - Increased damage output.
 
 - Father Ariandel:
- - HP is now 12,000.
+ - HP is now 9000.
  
 - Demon Prince:
  - HP is now 9000/18,000.
 
 - Darkeater Midir:
- - HP is now 22,000.
+ - HP is now 20,000.
  
 - Slave Knight Gael:
  - HP is now 18,000.
@@ -242,6 +248,8 @@ Finish following weapons:
 - Darksign is now given after Journey Configuration, to prevent warping out before starting a journey. 
 - Fixed Corrupted Gundyr BGM playing incorrectly.
 - Fixed Way of Blue description.
+- Cathedral Guardian now dies if he falls off the balcony.
+- Memory of Endurance now ends sub-waves after 120 seconds to circumvent odd bugs where enemies aren't killable.
 
 #------------------------------
 # TODO
@@ -252,12 +260,12 @@ Change healing spells to heal when holding the cast
 
 Add Gatling Gun
 
-Change Path of Frost FFX
-
 Go over the vanilla NPC AI
 
+# 
 7080010 Dragonslayer's Axe # Warcry
 296 Undead Hunter Charm # 3151
 304 Duel Charm # 3351
 240 Divine Blessing
 
+Add method to buy covenant ranks in Gauntlet mode

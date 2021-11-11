@@ -4344,8 +4344,7 @@ to commune with the fallen knight.</text>
 - Weaponry and shields can no longer be reinforced.
 - World is populated by more enemies.
 - Reduces absorptions by 33%.
-- Reduces aux resistances by 33%.
-- Curses no longer grant soul absorption bonuses.</text>
+- Reduces aux resistances by 33%.</text>
 <text id="99060023">Gauntlet mode applies the following effects:
 - You will face a gauntlet comprised of every boss.
 - Each boss will drop a Weapon, Armor or Accessory token.
@@ -4399,6 +4398,7 @@ once you begin your journey.</text>
 once you begin your journey.</text>
 <text id="99060063">You will start in a random location 
 once you begin your journey.</text>
+
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
 <text id="99060110">Enter the Gauntlet</text>
