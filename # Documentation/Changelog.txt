@@ -138,6 +138,9 @@ Finish following weapons:
   - Movement speed is also adjusted, between -50% and +50%.
  - Affixable.
  
+# Spells
+- Changed the FFX of Path of Frost to a nicer one.
+ 
 # Map
 - Memory of Endurance:
  - Closed off the area behind the fallen tower and added collision.
@@ -169,6 +172,7 @@ Finish following weapons:
  
 # Intruders
 - Intruders now only appear if you are embered.
+- Reduced the HP of several intruders.
 
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
