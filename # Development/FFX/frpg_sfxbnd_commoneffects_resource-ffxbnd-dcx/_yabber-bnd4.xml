@@ -3304,5 +3304,11 @@
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\tex\s98050.tpf</path>
     </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100291</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\tex\s98060.tpf</path>
+    </file>
   </files>
 </bnd4>

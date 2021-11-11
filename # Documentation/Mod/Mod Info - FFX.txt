@@ -449,6 +449,8 @@ s98043_a Frost Throwing Knife Texture
 s98050.flver Dark Edge model
 s98050.tpf Dark Edge texture
 
+s98060 Slightly larger s3000 (embers) with no black background, also black and white, good for recolours
+
 #------------------------
 # Reference
 #------------------------
