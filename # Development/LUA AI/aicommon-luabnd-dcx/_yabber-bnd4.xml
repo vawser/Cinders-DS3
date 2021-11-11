@@ -1279,11 +1279,35 @@
     <file>
       <id>9193</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\040000_battle.lua</path>
+      <path>script\ai\out\bin\034910_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
       <id>9194</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034920_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>9195</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034930_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>9196</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\034940_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>9200</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\040000_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>9201</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\040010_battle.lua</path>
       <flags>0x40</flags>

@@ -2677,7 +2677,9 @@ Event(20051, Restart, function() {
 // Mythic Mode
 //----------------------------------------------
 Event(20052, Restart, function() {
-    var flag_MythicMode = 25009812;
+    var flag_MythicMode                    = 25009812;
+    var flag_Mythic_Weaponry_Standard      = 25009850;
+    var flag_Mythic_Weaponry_Wanderer = 25009851;
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_MythicMode);
     SetSpEffect(10000, 250000100);
@@ -3654,8 +3656,7 @@ Event(20060, Default, function(X0_4) {
     IfConditionGroup(MAIN, PASS, AND_01);
     
     SetEventFlag(25000020, ON); // Debug flag
-    SetEventFlag(25001004, ON);
-    
+
     ChangeCharacterEnableState(4000899, Enabled);
     SetCharacterAnimationState(4000899, Enabled);
     
