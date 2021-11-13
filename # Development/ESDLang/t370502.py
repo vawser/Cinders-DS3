@@ -343,6 +343,9 @@ def t370502_x20():
         # Quickened Discs of Dorthinus
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1808500, 4, 1, 0) == 1, 45, 99041044, -1)
         
+        # Refined Teleport
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1809000, 4, 1, 0) == 1, 46, 99041045, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -503,11 +506,11 @@ def t370502_x20():
             continue
         # Explosive Ice
         elif GetTalkListEntryResult() == 42:
-            assert t370502_x50(80410, 1070, 9, -10, 99042041, 99043041, 99040010)
+            assert t370502_x50(80410, 1070, 9, -10, 99042041, 99043041, 99040011)
             continue
         # Chilling Rime
         elif GetTalkListEntryResult() == 43:
-            assert t370502_x50(80420, 1070, 14, -15, 99042042, 99043042, 99040010)
+            assert t370502_x50(80420, 1070, 14, -15, 99042042, 99043042, 99040011)
             continue
         # Refined Path of Frost
         elif GetTalkListEntryResult() == 44:
@@ -515,7 +518,11 @@ def t370502_x20():
             continue
         # Quickened Discs of Dorthinus
         elif GetTalkListEntryResult() == 45:
-            assert t370502_x50(80440, 1070, 14, -15, 99042044, 99043044, 99040010)
+            assert t370502_x50(80440, 1070, 14, -15, 99042044, 99043044, 99040011)
+            continue
+        # Refined Teleport
+        elif GetTalkListEntryResult() == 46:
+            assert t370502_x50(80450, 1070, 14, -15, 99042045, 99043045, 99040011)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

@@ -161,7 +161,16 @@ Finish following weapons:
 - Undead Hunter Charm now reduces HP recovery effectiveness to 0%, preventing other forms of healing too.
  
 # Spells
+- Restored FP pause after cast: 
+ - 3 seconds for most spells.
+ - 1 second for dart/flashsword spells.
+ 
 - Changed the FFX of Path of Frost to a nicer one.
+
+- Added Teleport spell:
+ - Teleport in the direction of travel. Lack of movement will result in no change of position.
+ - Occurs as soon as you cast, allowing you to cover a large distance quickly. However it will cost FP each time, making it expensive to do so.
+ - Transposed from Aldrich soul.
  
 # Map
 - Memory of Endurance:
@@ -342,3 +351,5 @@ Tidy up the spell summon AI, make skeleton and hollow more aggressive
 140006
 
 25009813 Gauntlet mode
+
+1809000 Teleport
