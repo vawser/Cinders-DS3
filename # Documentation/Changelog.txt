@@ -285,6 +285,7 @@ Finish following weapons:
   - Found in Profaned Capital.
 - These can be used in any map, and multiple can be active at once.
 - They last 50 seconds, after which you must re-use the spell to conjure them again.
+- They are immune to status effects.
 
 - Added Ferverous Ritual:
  - Boosts the damage of conjured allies by 20% and increases stamina recovery by 30. 
@@ -329,9 +330,8 @@ Go over the vanilla NPC AI
 240 Divine Blessing
 
 Add method to buy covenant ranks in Gauntlet mode
-
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
-
 Add Conjurator Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
 
-7087 Sacrificial Ritual
+Tidy up the spell summon AI, make skeleton and hollow more aggressive
+

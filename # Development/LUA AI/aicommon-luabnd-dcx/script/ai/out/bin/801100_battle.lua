@@ -31,103 +31,70 @@ Goal.Activate = function (self, ai, goal)
     local doAdmirer = ai:GetExcelParam(AI_EXCEL_THINK_PARAM_TYPE__thinkAttr_doAdmirer)
     local roll_a = ai:GetRandam_Int(1, 100)
     local roll_b = ai:GetRandam_Int(1, 100)
-    local local9 = 0
-    local multiplier_a = 0
-    local multiplier_b = 0
-    local multiplier_c = 0
     
-    if ai:GetNpcThinkParamID() == 144010 and ai:GetHpRate(TARGET_SELF) <= 0.5 then
-        multiplier_c = 1
-    end
-    
-    if ai:GetNpcThinkParamID() == 110001 then
-        local9 = 1
-    elseif ai:GetNpcThinkParamID() == 110003 then
-        multiplier_a = 1
-    end
-    
-    if ai:GetNpcThinkParamID() == 110004 then
-        multiplier_b = 1
-        multiplier_a = 1
-    end
-    
-    if ai:GetEventRequest(1) == 100 then
-        actChanceList[20] = 100
-    elseif doAdmirer == 1 and ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Kankyaku then
-        actChanceList[11] = 60
-        actChanceList[12] = 40
-    elseif doAdmirer == 1 and ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Torimaki then
-        actChanceList[1] = 3
-        actChanceList[4] = 3
-        actChanceList[7] = 6
-        actChanceList[8] = 3
-        actChanceList[11] = 50
-        actChanceList[12] = 35
-    elseif ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 240) then
-        actChanceList[13] = 100
-    elseif local9 == 1 and 8 <= ai:GetAttackPassedTime(3007) and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 65 then
-        actChanceList[6] = 100
-    elseif multiplier_b == 1 and 13 - ai:GetMapHitRadius(TARGET_SELF) + math.abs(distance_vertical) <= distance and distance_vertical < -2 then
-        actChanceList[16] = 100
-    elseif multiplier_b == 1 and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and distance_vertical < -2 then
-        actChanceList[15] = 100
-    elseif multiplier_b == 1 and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 85 then
-        actChanceList[9] = 100
-    elseif multiplier_a == 1 and 8 <= ai:GetAttackPassedTime(3011) and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 65 then
-        actChanceList[9] = 100
+    -- Turn if enemy is behind
+    if ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 240) then
+        actChanceList[13] = 100 -- Turn
+    -- Oilbomb
+    elseif 8 <= ai:GetAttackPassedTime(3007) and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 65 then
+        actChanceList[6] = 100 -- Throw Oilbomb
+    -- Wait to throw Firebomb
+    elseif 13 - ai:GetMapHitRadius(TARGET_SELF) + math.abs(distance_vertical) <= distance and distance_vertical < -2 then
+        actChanceList[16] = 100 -- Wait
+    -- Firebomb with no approach
+    elseif 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and distance_vertical < -2 then
+        actChanceList[15] = 100 -- Throw Firebomb (No Approach)
+    -- Firebomb
+    elseif 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 85 then
+        actChanceList[9] = 100 -- Throw Firebomb
+    -- Firebomb
+    elseif 8 <= ai:GetAttackPassedTime(3011) and 5 - ai:GetMapHitRadius(TARGET_SELF) <= distance and roll_a <= 65 then
+        actChanceList[9] = 100 -- Throw Firebomb
+    -- Punish guarding enemy
     elseif ai:IsTargetGuard(TARGET_ENE_0) and 2.5 < distance and distance <= 5 and roll_b <= 40 then
-        actChanceList[10] = 100
+        actChanceList[10] = 100 -- Guard Breakable - Shield Bash + Thrust
+    -- Punish guarding enemy
     elseif ai:IsTargetGuard(TARGET_ENE_0) and distance <= 2.5 and ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 60) and roll_b <= 50 then
-        actChanceList[10] = 100
+        actChanceList[10] = 100 -- Guard Breakable - Shield Bash + Thrust
     elseif 10 <= distance then
-        actChanceList[1] = 15
-        actChanceList[2] = 30
-        actChanceList[4] = 5
-        actChanceList[7] = 15
-        actChanceList[8] = 10
-        actChanceList[12] = 15
-        actChanceList[14] = 10
-        actChanceList[20] = 10 * multiplier_c
-        actChanceList[21] = 5 * multiplier_c
+        actChanceList[1] = 15 -- Slash Combo
+        actChanceList[2] = 30 -- Running Stab
+        actChanceList[4] = 5 -- 2H Slash
+        actChanceList[7] = 15 -- Stab
+        actChanceList[8] = 10 -- Wild Backslash
+        actChanceList[12] = 0 -- Strafe
+        actChanceList[14] = 10 -- Shield Bash + Thrust
     elseif 5.5 <= distance then
-        actChanceList[1] = 5
-        actChanceList[2] = 20
-        actChanceList[4] = 5
-        actChanceList[7] = 10
-        actChanceList[8] = 10
-        actChanceList[12] = 20
-        actChanceList[14] = 15
-        actChanceList[20] = 5 * multiplier_c
-        actChanceList[21] = 10 * multiplier_c
+        actChanceList[1] = 5 -- Slash Combo
+        actChanceList[2] = 20 -- Running Stab
+        actChanceList[4] = 5 -- 2H Slash
+        actChanceList[7] = 10 -- Stab
+        actChanceList[8] = 10 -- Wild Backslash
+        actChanceList[12] = 0 -- Strafe
+        actChanceList[14] = 15 -- Shield Bash + Thrust
     elseif 3 <= distance then
-        actChanceList[1] = 15
-        actChanceList[2] = 15
-        actChanceList[4] = 5
-        actChanceList[7] = 10
-        actChanceList[8] = 10
-        actChanceList[12] = 30
-        actChanceList[20] = 0 * multiplier_c
-        actChanceList[21] = 15 * multiplier_c
+        actChanceList[1] = 15 -- Slash Combo
+        actChanceList[2] = 15 -- Running Stab
+        actChanceList[4] = 5 -- 2H Slash
+        actChanceList[7] = 10 -- Stab
+        actChanceList[8] = 10 -- Wild Backslash
+        actChanceList[12] = 0 -- Strafe
     elseif 1 <= distance then
-        actChanceList[1] = 15
-        actChanceList[2] = 0
-        actChanceList[4] = 5
-        actChanceList[7] = 10
-        actChanceList[8] = 15
-        actChanceList[12] = 30
-        actChanceList[14] = 20
-        actChanceList[20] = 0 * multiplier_c
-        actChanceList[21] = 5 * multiplier_c
+        actChanceList[1] = 15 -- Slash Combo
+        actChanceList[2] = 0 -- Running Stab
+        actChanceList[4] = 5 -- 2H Slash
+        actChanceList[7] = 10 -- Stab
+        actChanceList[8] = 15 -- Wild Backslash
+        actChanceList[12] = 0 -- Strafe
+        actChanceList[14] = 20 -- Shield Bash + Thrust
     else
-        actChanceList[1] = 30
-        actChanceList[2] = 0
-        actChanceList[4] = 15
-        actChanceList[7] = 15
-        actChanceList[8] = 20
-        actChanceList[12] = 0
-        actChanceList[14] = 20
-        actChanceList[20] = 0 * multiplier_c
-        actChanceList[21] = 0 * multiplier_c
+        actChanceList[1] = 30 -- Slash Combo
+        actChanceList[2] = 0 -- Running Stab
+        actChanceList[4] = 15 -- 2H Slash
+        actChanceList[7] = 15 -- Stab
+        actChanceList[8] = 20 -- Wild Backslash
+        actChanceList[12] = 0 -- Strafe
+        actChanceList[14] = 20 -- Shield Bash + Thrust
     end
     
     actFuncList[1] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act01)
@@ -145,8 +112,6 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[14] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act14)
     actFuncList[15] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act15)
     actFuncList[16] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act16)
-    actFuncList[20] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act20)
-    actFuncList[21] = REGIST_FUNC(ai, goal, SpellSummon_Hollow_Act21)
     
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, SpellSummon_Hollow_ActAfter_AdjustSpace), actTblList)
     return 
@@ -154,7 +119,17 @@ end
 
 -- Slash Combo
 function SpellSummon_Hollow_Act01(self, ai, goal)
-    Approach_Act_Flex(self, ai, 3.2 - self:GetMapHitRadius(TARGET_SELF), 3.2 - self:GetMapHitRadius(TARGET_SELF) + 1, 3.2 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
+    local start_approach_distance = 3.2
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
     
     local anim_LeftSlash = 3000
     local anim_LeftBackslash = 3001
@@ -177,173 +152,321 @@ function SpellSummon_Hollow_Act01(self, ai, goal)
     return GetWellSpace_Odds
 end
 
+-- Running Stab
 function SpellSummon_Hollow_Act02(self, ai, goal)
-    Approach_Act_Flex(self, ai, 7 - self:GetMapHitRadius(TARGET_SELF), 7 - self:GetMapHitRadius(TARGET_SELF) + 1, 7 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3003, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    local start_approach_distance = 7.0
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_RunningStab = 3003
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_RunningStab, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- 2H Slash
 function SpellSummon_Hollow_Act04(self, ai, goal)
-    Approach_Act_Flex(self, ai, 3.5 - self:GetMapHitRadius(TARGET_SELF), 3.5 - self:GetMapHitRadius(TARGET_SELF) + 1, 3.5 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3005, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    local start_approach_distance = 3.5
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 0
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_2H_Slash = 3005
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_2H_Slash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Wild Slash
 function SpellSummon_Hollow_Act05(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.3 - self:GetMapHitRadius(TARGET_SELF), 2.3 - self:GetMapHitRadius(TARGET_SELF) + 1, 2.3 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3006, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    local start_approach_distance = 2.3
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 0
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_WildSlash = 3006
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_WildSlash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Throw Oilbomb
 function SpellSummon_Hollow_Act06(self, ai, goal)
-    Approach_Act_Flex(self, ai, 13 - self:GetMapHitRadius(TARGET_SELF), 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 13 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 50, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3007, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), -1, 45, 0, 0)
-    local local1 = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
-    local1:SetTargetRange(0, 4, 999)
+    local start_approach_distance = 13.0
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_ThrowOilbomb = 3007
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ThrowOilbomb, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), -1, 45, 0, 0)
+    
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
+    subgoal:SetTargetRange(0, 4, 999)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Stab
 function SpellSummon_Hollow_Act07(self, ai, goal)
-    Approach_Act_Flex(self, ai, 3.5 - self:GetMapHitRadius(TARGET_SELF), 3.5 - self:GetMapHitRadius(TARGET_SELF) + 1, 3.5 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3008, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    local start_approach_distance = 3.5
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_Stab = 3008
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_Stab, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Wild Backslash
 function SpellSummon_Hollow_Act08(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.2 - self:GetMapHitRadius(TARGET_SELF), 2.2 - self:GetMapHitRadius(TARGET_SELF) + 1, 2.2 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3009, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    local start_approach_distance = 2.2
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_WildBackslash = 3009
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_WildBackslash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Throw Firebomb
 function SpellSummon_Hollow_Act09(self, ai, goal)
-    Approach_Act_Flex(self, ai, 13 - self:GetMapHitRadius(TARGET_SELF), 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 13 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 50, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3011, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), -1, 45, 0, 0)
-    local local1 = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
-    local1:SetTargetRange(0, 4, 999)
+    local start_approach_distance = 13.0
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 0
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_ThrowFirebomb = 3011
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ThrowFirebomb, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), -1, 45, 0, 0)
+    
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
+    subgoal:SetTargetRange(0, 4, 999)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Guard Breakable - Shield Bash + Thrust
 function SpellSummon_Hollow_Act10(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.8 - self:GetMapHitRadius(TARGET_SELF), 2.8 - self:GetMapHitRadius(TARGET_SELF) + 1, 2.8 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_GuardBreakTunable, 10, 3004, TARGET_ENE_0, 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 0, 0, 0, 0)
-    ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3008, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0)
+    local start_approach_distance = 2.8
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 0
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+
+    local anim_ShieldBash = 3004
+    local anim_Thrust = 3008
+    
+    ai:AddSubGoal(GOAL_COMMON_GuardBreakTunable, 10, anim_ShieldBash, TARGET_ENE_0, 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 0, 0, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_Thrust, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Approach
 function SpellSummon_Hollow_Act11(self, ai, goal)
-    local local0 = self:GetDist(TARGET_ENE_0)
-    local local1 = 10
-    if local1 <= self:GetDist(TARGET_ENE_0) then
-        Approach_Act(self, ai, local1, 12, 75, 3)
+    local target_distance = 10
+    
+    -- Approach if enemy exceeds target distance
+    if self:GetDist(TARGET_ENE_0) >= target_distance then
+        Approach_Act(self, ai, target_distance, 12, 75, 3)
     end
+    
     ai:AddSubGoal(GOAL_COMMON_LeaveTarget, 5, TARGET_ENE_0, 10, TARGET_ENE_0, true, 9910)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Strafe
 function SpellSummon_Hollow_Act12(self, ai, goal)
-    local local0 = 100
+    local roll = 100
+    
     if 8 <= self:GetDist(TARGET_ENE_0) then
-        local0 = 75
+        roll = 75
     end
-    local local1 = -1
-    if self:GetRandam_Int(1, 100) <= local0 then
-        local1 = 9910
+    
+    local anim = -1
+    
+    if self:GetRandam_Int(1, 100) <= roll then
+        anim = 9910
     end
-    ai:AddSubGoal(GOAL_COMMON_SidewayMove, 4, TARGET_ENE_0, self:GetRandam_Int(0, 1), self:GetRandam_Int(30, 45), true, true, local1)
+    
+    ai:AddSubGoal(GOAL_COMMON_SidewayMove, 4, TARGET_ENE_0, self:GetRandam_Int(0, 1), self:GetRandam_Int(30, 45), true, true, anim)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Turn
 function SpellSummon_Hollow_Act13(self, ai, goal)
     ai:AddSubGoal(GOAL_COMMON_Turn, 3, TARGET_ENE_0, self:GetRandam_Int(15, 20))
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Shield Bash + Thrust
 function SpellSummon_Hollow_Act14(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.8 - self:GetMapHitRadius(TARGET_SELF), 2.8 - self:GetMapHitRadius(TARGET_SELF) + 1, 2.8 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3004, TARGET_ENE_0, 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 0, 0, 0, 0)
-    ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3008, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
+    local start_approach_distance = 2.8
+    local start_approach_distance_close = start_approach_distance - self:GetMapHitRadius(TARGET_SELF)
+    local start_approach_distance_mid = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 1
+    local start_approach_distance_far = start_approach_distance - self:GetMapHitRadius(TARGET_SELF) + 10
+    local roll_for_mid_distance_to_use_duration_far = 50
+    local roll_for_L1_use = 20
+    local approach_duration_close = 4
+    local approach_duration_far = 8
+    
+    -- Approach if enemy exceeds approach distance
+    Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    local anim_ShieldBash = 3004
+    local anim_Thrust = 3008
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldBash, TARGET_ENE_0, 13 - self:GetMapHitRadius(TARGET_SELF) + 1, 0, 0, 0, 0)
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_Thrust, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Throw Firebomb (No Approach)
 function SpellSummon_Hollow_Act15(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3011, TARGET_ENE_0, 999, -1, 45, 0, 0)
-    local local0 = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
-    local0:SetTargetRange(0, 4, 999)
+    local anim_ThrowFirebomb = 3011
+    
+    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ThrowFirebomb, TARGET_ENE_0, 999, -1, 45, 0, 0)
+    
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
+    subgoal:SetTargetRange(0, 4, 999)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Wait
 function SpellSummon_Hollow_Act16(self, ai, goal)
-    local local0 = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
-    local0:SetTargetRange(0, 4, 999)
+    local subgoal = ai:AddSubGoal(GOAL_COMMON_Wait, self:GetRandam_Float(1.4, 2.2), TARGET_ENE_0, 0, 0, 0)
+    subgoal:SetTargetRange(0, 4, 999)
+    
     GetWellSpace_Odds = 0
-    return GetWellSpace_Odds
-end
-
-function SpellSummon_Hollow_Act20(self, ai, goal)
-    Approach_Act_Flex(self, ai, 20 - self:GetMapHitRadius(TARGET_SELF), 20 - self:GetMapHitRadius(TARGET_SELF) + 1, 20 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 20005, TARGET_ENE_0, 999, -1, 90, 0, 0)
-    GetWellSpace_Odds = 100
-    return GetWellSpace_Odds
-end
-
-function SpellSummon_Hollow_Act21(self, ai, goal)
-    Approach_Act_Flex(self, ai, 15 - self:GetMapHitRadius(TARGET_SELF), 15 - self:GetMapHitRadius(TARGET_SELF) + 1, 15 - self:GetMapHitRadius(TARGET_SELF) + 10, 50, 100, 4, 8)
-    local local0 = self:GetRandam_Int(1, 100)
-    ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 20006, TARGET_ENE_0, 999, -1, 90, 0, 0)
-    GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
 function SpellSummon_Hollow_ActAfter_AdjustSpace(self, ai, goal)
-    ai:AddSubGoal(GOAL_SpellSummon_Hollow_801100_AfterAttackAct, 10)
     return 
 end
 
+-------------------------
+-- Update
+-------------------------
 Goal.Update = function (self, ai, goal)
     return Update_Default_NoSubGoal(self, ai, goal)
 end
 
+-------------------------
+-- Terminate
+-------------------------
 Goal.Terminate = function (self, ai, goal)
     return 
 end
 
+-------------------------
+-- Interrupt
+-------------------------
 Goal.Interrupt = function (self, ai, goal)
     if ai:IsInterupt(INTERUPT_Damaged) then
-        local local0 = ai:GetDist(TARGET_ENE_0)
-        local local1 = ai:GetDistYSigned(TARGET_ENE_0)
-        if (ai:GetNpcThinkParamID() == 110004 or ai:GetNpcThinkParamID() == 110006) and 13 - ai:GetMapHitRadius(TARGET_SELF) + math.abs(local1) <= local0 and local1 < -2 then
+        local distance = ai:GetDist(TARGET_ENE_0)
+        local distance_vertical = ai:GetDistYSigned(TARGET_ENE_0)
+        
+        local current_distance = 13 - ai:GetMapHitRadius(TARGET_SELF) + math.abs(distance_vertical)
+        
+        -- Approach
+        if current_distance <= distance and distance_vertical < -2 then
             goal:ClearSubGoal()
             Approach_Act_Flex(ai, goal, 13 - ai:GetMapHitRadius(TARGET_SELF) - 1, 13 - ai:GetMapHitRadius(TARGET_SELF) + 0, 13 - ai:GetMapHitRadius(TARGET_SELF) + 10, 100, 100, 4, 8)
             return true
-        elseif local0 <= 3.5 and ai:GetRandam_Int(1, 100) <= 80 then
+        -- Strafe
+        elseif distance <= 3.5 and ai:GetRandam_Int(1, 100) <= 80 then
             goal:ClearSubGoal()
             goal:AddSubGoal(GOAL_COMMON_SidewayMove, ai:GetRandam_Float(1, 2), TARGET_ENE_0, ai:GetRandam_Int(0, 1), 45, true, true, 9910)
             return true
         end
     end
+    
     if ai:IsInterupt(INTERUPT_TargetOutOfRange) and ai:IsTargetOutOfRangeInterruptSlot(0) then
         goal:ClearSubGoal()
         return true
@@ -352,68 +475,7 @@ Goal.Interrupt = function (self, ai, goal)
     end
 end
 
-RegisterTableGoal(GOAL_SpellSummon_Hollow_801100_AfterAttackAct, "GOAL_SpellSummon_Hollow_801100_AfterAttackAct")
-REGISTER_GOAL_NO_SUB_GOAL(GOAL_SpellSummon_Hollow_801100_AfterAttackAct, true)
-Goal.Activate = function (self, ai, goal)
-    local local0 = ai:GetDist(TARGET_ENE_0)
-    local local1 = ai:GetRandam_Int(1, 100)
-    local local2 = 100
-    local local3 = ai:GetRandam_Float(2.5, 4.5)
-    local local4 = ai:GetRandam_Int(0, 1)
-    local local5 = ai:GetRandam_Int(30, 45)
-    local local6 = ai:GetRandam_Float(2.5, 4.5)
-    local local7 = local0 + ai:GetRandam_Float(2.5, 4.5)
-    if 8 <= local0 then
-        local2 = 75
-    end
-    local local8 = -1
-    if ai:GetRandam_Int(1, 100) <= local2 then
-        local8 = 9910
-    end
-    if ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Kankyaku then
-        if local0 <= 6 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, local6, TARGET_ENE_0, 8, TARGET_ENE_0, true, local8)
-        else
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        end
-    elseif ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Torimaki then
-        if local0 <= 6 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, local6, TARGET_ENE_0, 8, TARGET_ENE_0, true, local8)
-        else
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        end
-    elseif 6 <= local0 then
-        if local1 <= 50 then
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        else
-            goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 10, TARGET_ENE_0, 4, TARGET_SELF, false, -1)
-        end
-    elseif 4 <= local0 then
-        if local1 <= 55 then
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        end
-    elseif 2 <= local0 then
-        if local1 <= 40 then
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        elseif local1 <= 50 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, local6, TARGET_ENE_0, local7, TARGET_ENE_0, true, local8)
-        end
-    elseif 0.5 <= local0 then
-        if local1 <= 10 then
-            goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-        elseif local1 <= 30 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, local6, TARGET_ENE_0, local7, TARGET_ENE_0, true, local8)
-        end
-    elseif local1 <= 0 then
-        goal:AddSubGoal(GOAL_COMMON_SidewayMove, local3, TARGET_ENE_0, local4, local5, true, true, local8)
-    elseif local1 <= 35 then
-        goal:AddSubGoal(GOAL_COMMON_LeaveTarget, local6, TARGET_ENE_0, local7, TARGET_ENE_0, true, local8)
-    end
-    return 
-end
-
-Goal.Update = function (self, ai, goal)
-    return Update_Default_NoSubGoal(self, ai, goal)
-end
-
+-------------------------
+-- End
+-------------------------
 return 

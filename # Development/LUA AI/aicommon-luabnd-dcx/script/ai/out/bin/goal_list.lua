@@ -1024,7 +1024,6 @@ GOAL_DismalKnight_767000_AfterAttackAct = 767001
 GOAL_SpellSummon_Skeleton_801000_Battle = 801000
 GOAL_SpellSummon_Skeleton_801000_AfterAttackAct = 801001
 GOAL_SpellSummon_Hollow_801100_Battle = 801100
-GOAL_SpellSummon_Hollow_801100_AfterAttackAct = 801101
 GOAL_SpellSummon_UndeadDog_801200_Battle = 801200
 GOAL_SpellSummon_UndeadDog_801200_AfterAttackAct = 801201
 GOAL_SpellSummon_CarthusSwordsman_801300_Battle = 801300

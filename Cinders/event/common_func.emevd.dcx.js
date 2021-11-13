@@ -7051,7 +7051,6 @@ Event(20080000, Restart, function(X0_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
-    SetCharacterBackreadState(X0_4, true);
     
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060); // Spawn FFX
     
@@ -7131,7 +7130,6 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     SetCharacterAIState(X0_4, Enabled);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterBackreadState(X0_4, false);
     
     SetSpeffect(X0_4, X8_4);        // Damage scaling
     SetSpeffect(X0_4, 160761000);   // Summon effect
