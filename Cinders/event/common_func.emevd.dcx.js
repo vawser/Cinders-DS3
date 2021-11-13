@@ -7172,14 +7172,14 @@ Event(20080002, Restart, function(X0_4) {
     SetSpeffect(10000, 113010); // FP Pause
     
     // Minor Restoration Ritual
-    IfCharacterHasSpeffect(AND_03, 10000, 160762030, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
+    IfCharacterHasSpeffect(AND_04, 10000, 160762030, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
     SetSpeffect(X0_4, 160762130);
-    SetSpeffect(10000, 113005); // FP Pause
+    SetSpeffect(10000, 113003); // FP Pause
     
     // Sacrificial Ritual
-    IfCharacterHasSpeffect(AND_04, 10000, 160762040, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_04);
+    IfCharacterHasSpeffect(AND_05, 10000, 160762040, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_05);
     SetSpeffect(X0_4, 160762140);
     SetSpeffect(10000, 160762141);
     SetSpeffect(10000, 113005); // FP Pause
