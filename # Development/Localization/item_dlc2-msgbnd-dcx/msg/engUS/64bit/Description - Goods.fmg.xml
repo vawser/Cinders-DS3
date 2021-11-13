@@ -798,7 +798,7 @@ The Rat King is proud and merciful, as any king true to his stature should be.
 The Rat King looks favorably upon those who follow the path of right, even disgraceful humans.</text>
 <text id="382">Ritual incense used in cryptic rituals.
 
-Demonstrate fidelity by offering it to Ritualist Ellie, and strengthen the bond with your covenant.</text>
+Demonstrate fidelity by offering it to Conjurator Ellie, and strengthen the bond with your covenant.</text>
 <text id="383">A trinket once owned by a fellow thief.
 
 Demonstrate fidelity by offering it to Greirat of the Undead Settlement, and strengthen the bond with your covenant.</text>
@@ -2742,11 +2742,6 @@ Those who cannot remember the past are condemned to repeat it...</text>
 Read to revive the Marauder and warp to the entrance of the boss arena.
 
 Those who cannot remember the past are condemned to repeat it...</text>
-<text id="5300">Enchanted book inscribed with a cryptic ritual.
-
-Whilst embered, beckon a local companion to the player. Once present, they will defend the player for 60 seconds.
-
-Once defeated, you must rest at a bonfire to revive them.</text>
 <text id="5400">Bisque urn filled with black powder.
 Explodes, inflicting 500 fire damage.
 Does not scale with any stat.
@@ -4315,22 +4310,7 @@ Applies illusionary helmet based on the Herald Set with lowered visor.</text>
 <text id="12550">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary helmet based on the Undead Legion Set with only the cap.</text>
-<text id="20050">A blue phial concocted by Ritualist Ellie.
 
-Scoff down the phial to restore 20% HP to nearby active companions.</text>
-<text id="20051">An unique coin enchanted by Ritualist Ellie.
-
-Banishes active companions from your world.</text>
-<text id="20052">An unique bone enchanted by Ritualist Ellie.
-Possesses the essence of recollection within.
-
-Recall your active companions, causing them to appear in front of you.</text>
-<text id="20053">A yellow phial concocted by Ritualist Ellie.
-
-Scoff down the phial to boost the damage of nearby active companions by 20% for 30 seconds.</text>
-<text id="20054">A purple phial concocted by Ritualist Ellie.
-
-Scoff down the phial to boost the max stamina of nearby active companions by 300% and their stamina recovery by 30, allowing them to attack for longer. Lasts 30 seconds.</text>
 <text id="40000">A crumbling token.
 
 Exchange with the Fire Keeper for weaponry and spells</text>
@@ -5444,6 +5424,88 @@ Rage, rage against the dying of the flame.
 
 Deals 5 damage per hit every second for 10 seconds. Stacks.
 </text>
+<text id="2730000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly skeleton to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Rattle, tattle go the bones."</text>
+<text id="2731000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly hollow to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"The soldiers of the High Wall will serve once again.</text>
+<text id="2732000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly hound to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Woof. Woof. Woof, woof. Woof."</text>
+<text id="2733000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly warrior of Carthus to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Roll away from this!"
+</text>
+<text id="2734000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly sentinel of Lothric to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Finally my enemies shall know terror."</text>
+<text id="2735000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly lycanthrope to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Excellent scout. Hairy."</text>
+<text id="2736000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly black knight to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"These charred blades will once again serve a queen."</text>
+<text id="2737000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly abyss watcher to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Found it yet?"</text>
+<text id="2738000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly gargoyle to assist in battle.
+Lasts 50 seconds.
+
+Scrawled on the page:
+"Rough and ready."</text>
+<text id="2751000">An eclectic pyromancy created by an elusive conjurator.
+Incites those that contain the caster's inner flame.
+
+Grant boon to active conjured allies, increasing damage by 20% and increasing stamina recovery by 30.</text>
+<text id="2752000">An eclectic pyromancy created by an elusive conjurator.
+Restores those that contain the caster's inner flame.
+
+Restore 100% of the health of active conjured allies over 1 second.</text>
+
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 

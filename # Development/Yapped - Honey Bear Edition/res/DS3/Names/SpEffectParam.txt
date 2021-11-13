@@ -1301,6 +1301,7 @@
 12061 [Nameless King] Effect VFX
 12062 [Nameless King] Effect VFX
 12063 [Nameless King]
+12080 [Lycanthrope]
 12110 [Soul of Cinder] Effect VFX
 12111 [Soul of Cinder]
 12112 [Soul of Cinder]
@@ -2066,14 +2067,27 @@
 100960 [Behavior]
 110999 ### Custom Behavior Trigger ###
 112000 [Behavior] Carthus Bloodring
-112001 [Behavior] Carthus Milkring
-112002 [Behavior] Greatwood Remnants
 112003 [Behavior] Cursed Ring of Evasion
 112004 [Behavior] Insanity Catalyst - Insanity
 112005 [Behavior] Insanity Catalyst - HP
-112007 [Behavior] Enable Jump on Guard/Left Attack
-112008 [Behavior] Enable Quickstep on Action
-112009 [Behavior] Enable Endless Sprinting
+112010 [Behavior] Carthus Milkring +0 - Trigger
+112011 [Behavior] Carthus Milkring +1 - Trigger
+112012 [Behavior] Carthus Milkring +2 - Trigger
+112013 [Behavior] Carthus Milkring +3 - Trigger
+112014 [Behavior] Carthus Milkring +4 - Trigger
+112015 [Behavior] Carthus Milkring +5 - Trigger
+112020 [Behavior] Greatwood Remnants +0 - Trigger
+112021 [Behavior] Greatwood Remnants +1 - Trigger
+112022 [Behavior] Greatwood Remnants +2 - Trigger
+112023 [Behavior] Greatwood Remnants +3 - Trigger
+112024 [Behavior] Greatwood Remnants +4 - Trigger
+112025 [Behavior] Greatwood Remnants +5 - Trigger
+112030 [Behavior] Fool's Sigil +0 - Trigger
+112031 [Behavior] Fool's Sigil +1 - Trigger
+112032 [Behavior] Fool's Sigil +2 - Trigger
+112033 [Behavior] Fool's Sigil +3 - Trigger
+112034 [Behavior] Fool's Sigil +4 - Trigger
+112035 [Behavior] Fool's Sigil +5 - Trigger
 112050 [Behavior] Using Prostration
 112060 [Behavior] Disable No Hit Status
 112070 [Behavior] Curse of Gluttony
@@ -2085,16 +2099,6 @@
 112112 [Behavior] Rolling Stamina Growth 3
 112113 [Behavior] Rolling Stamina Growth 4
 112114 [Behavior] Rolling Stamina Growth 5
-112120 [Behavior] Fool's Sigil
-112121 [Behavior] Fool's Sigil - Cooldown
-112122 [Behavior] Fool's Sigil - Attack
-112123 [Behavior] Fool's Sigil - Absorption
-112124 [Behavior] Fool's Sigil - Stamina Recovery
-112125 [Behavior] Fool's Sigil - FP Regen
-112126 [Behavior] Fool's Sigil - Stamina/FP Consumption
-112127 [Behavior] Fool's Sigil - Immunity to Status
-112128 [Behavior] Fool's Sigil - No Estus
-112129 [Behavior] Fool's Sigil - Negative Absorption
 112130 [Behavior] Curse of Impermanence
 112131 [Behavior] Curse of Impermanence - Cooldown
 112132 [Behavior] Curse of Impermanence - Right Durability Loss
@@ -2143,7 +2147,12 @@
 112351 [Behavior] Stagger Threshold: 3
 112352 [Behavior] Stagger Threshold: 5
 112353 [Behavior] Stagger Threshold: 7
-112400 [Behavior] Old Man's Gambit
+112360 [Behavior] Old Man's Gambit +0 - Trigger
+112361 [Behavior] Old Man's Gambit +1 - Trigger
+112362 [Behavior] Old Man's Gambit +2 - Trigger
+112363 [Behavior] Old Man's Gambit +3 - Trigger
+112364 [Behavior] Old Man's Gambit +4 - Trigger
+112365 [Behavior] Old Man's Gambit +5 - Trigger
 112401 [Behavior] Luck Mastery - Trigger
 112410 [Behavior] Short Leap
 112411 [Behavior] Long Leap
@@ -2156,10 +2165,91 @@
 112440 [Behavior] Bone Marrow Ash - Trigger
 112441 [Behavior] Bone Marrow Ash - Boost
 112450 [Behavior] AI Sidearm Damage Boost
-112499 [Behavior] Critical Hit
+112480 [Behavior] Hawk Ring - Trigger - 0
+112481 [Behavior] Hawk Ring - Boost - 0
+112482 [Behavior] Hawk Ring - Trigger - 1
+112483 [Behavior] Hawk Ring - Boost - 1
+112484 [Behavior] Hawk Ring - Trigger - 2
+112485 [Behavior] Hawk Ring - Boost - 2
+112486 [Behavior] Hawk Ring - Trigger - 3
+112487 [Behavior] Hawk Ring - Boost - 3
+112488 [Behavior] Hawk Ring - Trigger - 4
+112489 [Behavior] Hawk Ring - Boost - 4
+112490 [Behavior] Hawk Ring - Trigger - 5
+112491 [Behavior] Hawk Ring - Boost - 5
+112500 [Behavior] Gower's Ring of Retribution +0 - Trigger
+112501 [Behavior] Gower's Ring of Retribution +1 - Trigger
+112502 [Behavior] Gower's Ring of Retribution +2 - Trigger
+112503 [Behavior] Gower's Ring of Retribution +3 - Trigger
+112504 [Behavior] Gower's Ring of Retribution +4 - Trigger
+112505 [Behavior] Gower's Ring of Retribution +5 - Trigger
+112506 [Behavior] Gower's Ring of Retribution - Shatter Window
+112520 [Behavior] Redeye Ring - Baseline
+112521 [Behavior] Redeye Ring - Boost
+112530 [Behavior] Ring of Retreat +0 - Trigger
+112531 [Behavior] Ring of Retreat +1 - Trigger
+112532 [Behavior] Ring of Retreat +2 - Trigger
+112533 [Behavior] Ring of Retreat +3 - Trigger
+112534 [Behavior] Ring of Retreat +4 - Trigger
+112535 [Behavior] Ring of Retreat +5 - Trigger
+112540 [Behavior] Dashmaster's String +0 - Trigger
+112541 [Behavior] Dashmaster's String +1 - Trigger
+112542 [Behavior] Dashmaster's String +2 - Trigger
+112543 [Behavior] Dashmaster's String +3 - Trigger
+112544 [Behavior] Dashmaster's String +4 - Trigger
+112545 [Behavior] Dashmaster's String +5 - Trigger
+112550 [Behavior] Bell of Grace +0 - Trigger
+112551 [Behavior] Bell of Grace +1 - Trigger
+112552 [Behavior] Bell of Grace +2 - Trigger
+112553 [Behavior] Bell of Grace +3 - Trigger
+112554 [Behavior] Bell of Grace +4 - Trigger
+112555 [Behavior] Bell of Grace +5 - Trigger
+112560 [Behavior] Ring of Momentum +0 - Trigger
+112561 [Behavior] Ring of Momentum +1 - Trigger
+112562 [Behavior] Ring of Momentum +2 - Trigger
+112563 [Behavior] Ring of Momentum +3 - Trigger
+112564 [Behavior] Ring of Momentum +4 - Trigger
+112565 [Behavior] Ring of Momentum +5 - Trigger
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
+112699 ### Critical Damage ###
+112700 [Behavior] Hornet Ring +0 - Trigger
+112701 [Behavior] Hornet Ring +1 - Trigger
+112702 [Behavior] Hornet Ring +2 - Trigger
+112703 [Behavior] Hornet Ring +3 - Trigger
+112704 [Behavior] Hornet Ring +4 - Trigger
+112705 [Behavior] Hornet Ring +5 - Trigger
+112710 [Behavior] Hornet Ring +0 - Damage Boost
+112711 [Behavior] Hornet Ring +1 - Damage Boost
+112712 [Behavior] Hornet Ring +2 - Damage Boost
+112713 [Behavior] Hornet Ring +3 - Damage Boost
+112714 [Behavior] Hornet Ring +4 - Damage Boost
+112715 [Behavior] Hornet Ring +5 - Damage Boost
+112720 [Behavior] Assassin's Mark +0 - Trigger
+112721 [Behavior] Assassin's Mark +1 - Trigger
+112722 [Behavior] Assassin's Mark +2 - Trigger
+112723 [Behavior] Assassin's Mark +3 - Trigger
+112724 [Behavior] Assassin's Mark +4 - Trigger
+112725 [Behavior] Assassin's Mark +5 - Trigger
+112730 [Behavior] Assassin's Mark +0 - Damage Boost
+112731 [Behavior] Assassin's Mark +1 - Damage Boost
+112732 [Behavior] Assassin's Mark +2 - Damage Boost
+112733 [Behavior] Assassin's Mark +3 - Damage Boost
+112734 [Behavior] Assassin's Mark +4 - Damage Boost
+112735 [Behavior] Assassin's Mark +5 - Damage Boost
+112740 [Behavior] Elden Ring +0 - Trigger
+112741 [Behavior] Elden Ring +1 - Trigger
+112742 [Behavior] Elden Ring +2 - Trigger
+112743 [Behavior] Elden Ring +3 - Trigger
+112744 [Behavior] Elden Ring +4 - Trigger
+112745 [Behavior] Elden Ring +5 - Trigger
+112750 [Behavior] Elden Ring +0 - Damage Boost
+112751 [Behavior] Elden Ring +1 - Damage Boost
+112752 [Behavior] Elden Ring +2 - Damage Boost
+112753 [Behavior] Elden Ring +3 - Damage Boost
+112754 [Behavior] Elden Ring +4 - Damage Boost
+112755 [Behavior] Elden Ring +5 - Damage Boost
 112899 ### Sidearms ###
 112910 Firearm Parry Duration
 112999 ### FP Pause ###
@@ -2232,9 +2322,59 @@
 113242 [Behavior] Effect - Darkmoon Faithful III
 113243 [Behavior] Effect - Darkmoon Faithful IV
 113244 [Behavior] Effect - Darkmoon Faithful V
-113499 ### Bloodthirst Charges ###
+113399 ### Affinities ###
+113400 Affinity: Physical
+113401 Affinity: Magic
+113402 Affinity: Fire
+113403 Affinity: Lightning
+113404 Affinity: Dark
+113420 Affinity - Left Trigger
+113421 Affinity - Right Trigger
+113450 Affinity: Physical Boost
+113451 Affinity: Magic Boost
+113452 Affinity: Fire Boost
+113453 Affinity: Lightning Boost
+113454 Affinity: Dark Boost
+113499 ### System ###
 113500 [Behavior] Bloodthirst Charge - Base Interval
 113501 [Behavior] Restore Bloodthirst Charge - Baseline - 2 per second
+113510 [Behavior] Shatter Effect
+113999 ### Fool's Sigil ###
+114000 [Behavior] Fool's Sigil - Cooldown
+114010 [Behavior] Fool's Sigil +0 - Attack
+114011 [Behavior] Fool's Sigil +0 - Absorption
+114012 [Behavior] Fool's Sigil +0 - Stamina Recovery
+114013 [Behavior] Fool's Sigil +0 - Stamina/FP Consumption
+114020 [Behavior] Fool's Sigil +1 - Attack
+114021 [Behavior] Fool's Sigil +1 - Absorption
+114022 [Behavior] Fool's Sigil +1 - Stamina Recovery
+114023 [Behavior] Fool's Sigil +1 - Stamina/FP Consumption
+114030 [Behavior] Fool's Sigil +2 - Attack
+114031 [Behavior] Fool's Sigil +2 - Absorption
+114032 [Behavior] Fool's Sigil +2 - Stamina Recovery
+114033 [Behavior] Fool's Sigil +2 - Stamina/FP Consumption
+114040 [Behavior] Fool's Sigil +3 - Attack
+114041 [Behavior] Fool's Sigil +3 - Absorption
+114042 [Behavior] Fool's Sigil +3 - Stamina Recovery
+114043 [Behavior] Fool's Sigil +3 - Stamina/FP Consumption
+114050 [Behavior] Fool's Sigil +4 - Attack
+114051 [Behavior] Fool's Sigil +4 - Absorption
+114052 [Behavior] Fool's Sigil +4 - Stamina Recovery
+114053 [Behavior] Fool's Sigil +4 - Stamina/FP Consumption
+114060 [Behavior] Fool's Sigil +5 - Attack
+114061 [Behavior] Fool's Sigil +5 - Absorption
+114062 [Behavior] Fool's Sigil +5 - Stamina Recovery
+114063 [Behavior] Fool's Sigil +5 - Stamina/FP Consumption
+114100 [Behavior] Fool's Sigil - Movement -10%
+114101 [Behavior] Fool's Sigil - Movement -20%
+114102 [Behavior] Fool's Sigil - Movement -30%
+114103 [Behavior] Fool's Sigil - Movement -40%
+114104 [Behavior] Fool's Sigil - Movement -50%
+114105 [Behavior] Fool's Sigil - Movement +10%
+114106 [Behavior] Fool's Sigil - Movement +20%
+114107 [Behavior] Fool's Sigil - Movement +30%
+114108 [Behavior] Fool's Sigil - Movement +40%
+114109 [Behavior] Fool's Sigil - Movement +50%
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -2719,7 +2859,7 @@
 111004000 Blue Sentinels [old]
 112020000 Anim - Leo Ring
 112022000 Anim - Rare Ring of Sacrifice
-112038000 Anim - Hornet Ring
+112038000 Anim - Hornet Ring (Old)
 112045010 Anim - Rolling - Carthus Milkring StateInfo
 112062000 Anim - Aldrich's Ruby
 112062001 Anim - Aldrich's Ruby [TriggerState]
@@ -3884,6 +4024,7 @@
 160500500 [Pyromancy] Bloodthirsty Fire Surge
 160500510 [Pyromancy] Bloodthirsty Sacred Flame
 160500520 [Miracle] Bloodthirsty Divine Arrow
+160500530 [Miracle] Beckoning Grace
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4278,7 +4419,6 @@
 160601183 Londor Tincture+3
 160601184 Londor Tincture+4
 160601185 Londor Tincture+5
-160601240 Redeye Ring
 160601340 Band of Stone
 160601341 Band of Stone+1
 160601342 Band of Stone+2
@@ -4309,19 +4449,12 @@
 160601383 Band of Darkness+3
 160601384 Band of Darkness+4
 160601385 Band of Darkness+5
-160601520 Elden Ring
-160601521 Elden Ring+1
-160601522 Elden Ring+2
-160601523 Elden Ring+3
-160601524 Elden Ring+4
-160601525 Elden Ring+5
 160601540 Wolf Ring
 160601541 Wolf Ring+1
 160601542 Wolf Ring+2
 160601543 Wolf Ring+3
 160601544 Wolf Ring+4
 160601545 Wolf Ring+5
-160601570 Fool's Sigil
 160601740 Relic of Power
 160601741 Relic of Power+1
 160601742 Relic of Power+2
@@ -4621,7 +4754,6 @@
 160603794 Relic of Myths+4
 160603795 Relic of Myths+5
 160603800 Ring of Londor
-160603900 Old Man's Gambit
 160604000 Scroll of Ethereality
 160604010 Scroll of Hollowing
 160604020 Scroll of Humanity
@@ -5396,6 +5528,7 @@
 160742200 The Marauder - Passive State
 160742210 The Marauder - Stat Drain
 160742300 Cathedral Guardian - Immunity
+160742310 Boss - Kill Automatically
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5514,6 +5647,7 @@
 160800003 Base - Friendly NPC
 160800004 Base - Hostile NPC
 160800005 Base - Boss
+160800006 Base - Primal Summon
 160800007 Base - Menu NPC
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian
@@ -5523,6 +5657,7 @@
 160803000 Summon - Illusion Form
 160803010 Summon - Phantom Form
 160803020 Summon - Betrayal Form
+160803050 Summon - Enable Friendly Mode in AI Lua
 160809999 ### Training Dummy ###
 160810000 Training Dummy - Baseline
 160810010 Training Dummy - No Damage
@@ -6257,10 +6392,12 @@
 260140008 Hollowing - Player Effect - 90
 260140009 Hollowing - Player Effect - 99
 260199999 ### Memories ###
-260200100 Power Scaling: SL 50
-260200101 Power Scaling: SL 100
-260200102 Power Scaling: SL 150
-260200103 Power Scaling: SL 200
+260200100 Memory Difficulty: Easy
+260200101 Memory Difficulty: Normal
+260200102 Memory Difficulty: Hard
+260200103 Memory Difficulty: Very Hard
+260200104 Memory Difficulty: Mythic
+260200200 Memory of Strength Boost
 260209999 ### Multiplayer Adjustments ###
 260210000 Normal Enemy - 1 Summon
 260210001 Normal Enemy - 2 Summon

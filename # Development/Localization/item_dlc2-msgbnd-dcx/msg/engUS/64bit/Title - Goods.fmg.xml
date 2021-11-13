@@ -699,7 +699,6 @@
 <text id="5033">Tome: Fallen Protector</text>
 <text id="5034">Tome: Titanite Abomination</text>
 <text id="5035">Tome: The Marauder</text>
-<text id="5300">Opus of Rituals</text>
 <text id="5400">Bloodthirsty Firebomb</text>
 <text id="5401">Bloodthirsty Black Firebomb</text>
 <text id="5402">Bloodthirsty Holy Water Urn</text>
@@ -1234,11 +1233,6 @@
 <text id="12531">Overgrown Lothric Knight Emblem</text>
 <text id="12540">Herald (Alt) Insignia</text>
 <text id="12550">Undead Legion (Alt) Insignia</text>
-<text id="20050">Rejuvenating Phial</text>
-<text id="20051">Banishing Coin</text>
-<text id="20052">Beckoning Bone</text>
-<text id="20053">Invigorating Phial</text>
-<text id="20054">Energizing Phial</text>
 <text id="40000">Weapon Token</text>
 <text id="40001">Armor Token</text>
 <text id="40002">Accessory Token</text>
@@ -1390,6 +1384,17 @@
 <text id="2720010">Great Fecal Expulsion</text>
 <text id="2721000">Chaos Beam</text>
 <text id="2721010">Incinerating Chaos Beam</text>
+<text id="2730000">Conjure Skeleton</text>
+<text id="2731000">Conjure Hollow</text>
+<text id="2732000">Conjure Hound</text>
+<text id="2733000">Conjure Warrior</text>
+<text id="2734000">Conjure Sentinel</text>
+<text id="2735000">Conjure Lycanthrope</text>
+<text id="2736000">Conjure Knight</text>
+<text id="2737000">Conjure Watcher</text>
+<text id="2738000">Conjure Gargoyle</text>
+<text id="2751000">Ferverous Ritual</text>
+<text id="2752000">Restoration Ritual</text>
 <text id="3490000">Heal Aid</text>
 <text id="3490010">Extended Heal Aid</text>
 <text id="3500000">Heal</text>

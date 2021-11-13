@@ -538,7 +538,7 @@
 5029 Tome: Aborr
 5030 Tome: Prince Dorthinus
 5031 Tome: Trio of Explorers
-5032 Tome: Twisted Experiment
+5032 Tome: Twisted Knight
 5033 Tome: Fallen Protector
 5034 Tome: Titanite Abomination
 5035 Tome: The Marauder
@@ -1335,6 +1335,8 @@
 3820010 Quickened Holy Schism
 3821000 Wrathful Barrage
 3821010 Wrathful Wave
+3822000 Gwynevere's Abnegation
+3822010 Gwynevere's Refined Abnegation
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100010 Bloodthirsty Deep Barb

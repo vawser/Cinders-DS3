@@ -183,7 +183,7 @@
 <text id="379">%null%</text>
 <text id="380">Rubbish of no value, and certainly no avail</text>
 <text id="381">Offer to Remy the Rat</text>
-<text id="382">Offer to Ritualist Ellie</text>
+<text id="382">Offer to Conjurator Ellie</text>
 <text id="383">Offer to Greirat of the Undead Settlement</text>
 <text id="384">Offer to Priestess Emilia</text>
 <text id="385">Should only be used with the greatest of caution</text>
@@ -704,7 +704,6 @@
 <text id="5033">Revive the Fallen Protector</text>
 <text id="5034">Revive the Titanite Abomination</text>
 <text id="5035">Revive the Marauder</text>
-<text id="5300">Beckon local companion to the player</text>
 <text id="5400">Explodes, inflicting fire damage</text>
 <text id="5401">Explodes, inflicting fire damage</text>
 <text id="5402">Explodes, inflicting physical damage and reducing all absorptions</text>
@@ -1197,11 +1196,6 @@
 <text id="12531">Applies an armor illusion</text>
 <text id="12540">Applies a helmet illusion</text>
 <text id="12550">Applies a helmet illusion</text>
-<text id="20050">Restores health to active companions</text>
-<text id="20051">Banish active companions from your world</text>
-<text id="20052">Recall active companions</text>
-<text id="20053">Boosts the damage of active companions</text>
-<text id="20054">Boosts the stamina of active companions</text>
 <text id="40000">Exchange with the Fire Keeper for weaponry and spells</text>
 <text id="40001">Exchange with the Fire Keeper for armor</text>
 <text id="40002">Exchange with the Fire Keeper for accessories</text>
@@ -1358,6 +1352,17 @@
 <text id="2720010">Spew fecal matter from one's mouth</text>
 <text id="2721000">Breathe demonic chaos beam</text>
 <text id="2721010">Breathe incinerating chaos beam</text>
+<text id="2730000">Conjure friendly skeleton to assist in battle</text>
+<text id="2731000">Conjure friendly hollow to assist in battle</text>
+<text id="2732000">Conjure friendly hound to assist in battle</text>
+<text id="2733000">Conjure friendly warrior of Carthus to assist in battle</text>
+<text id="2734000">Conjure friendly sentinel of Lothric to assist in battle</text>
+<text id="2735000">Conjure friendly lycanthrope to assist in battle</text>
+<text id="2736000">Conjure friendly black knight to assist in battle</text>
+<text id="2737000">Conjure friendly abyss watcher to assist in battle</text>
+<text id="2738000">Conjure friendly gargoyle to assist in battle</text>
+<text id="2751000">Grant boon to active conjured allies</text>
+<text id="2752000">Restore health of active conjured allies</text>
 <text id="3490000">Restore HP for self and vicinity</text>
 <text id="3490010">Restore HP for self and vicinity</text>
 <text id="3500000">Restore HP for self and vicinity</text>

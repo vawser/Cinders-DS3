@@ -73,6 +73,10 @@ Finish following weapons:
 - Begin new journey is now accessible after you kill the Soul of Cinder, you no longer need to kill every boss to unlock it while in Gauntlet Mode.
 - The starting items for Gauntlet Mode are now found near Oathkeeper Xavius as treasures.
 
+# Classes
+- Renamed Summoner class to Conjurator
+ - Changed loadout to use the new Pyromancy based conjuration spells.
+
 # Weapons
 - Changed default Farron Greatsword WA back to Parry.
  - Added method to get Stomp version of Farron Greatsword.
@@ -143,6 +147,14 @@ Finish following weapons:
   - Movement speed is also adjusted, between -50% and +50%.
  - Affixable.
  
+- Ring of Conjuration:
+ - Boosts damage of conjured allies by 20/40/60/80/100/150%.
+ - Affixable.
+ 
+# Covenants
+- Renamed Ritualist Pact convenat item to Conjurator's Pact.
+ - Changed effect to boost absorption of conjured allies by 10/20/30/40/50%.
+ 
 # Spells
 - Changed the FFX of Path of Frost to a nicer one.
  
@@ -174,7 +186,9 @@ Finish following weapons:
 - Added Abyss Watcher Vernix:
  - Found in the Abyss Watcher boss room after they have been defeated.
  - Allows you to transfuse the Abyss Watcher soul into Farron Greatsword (Parry) or Farron Greatsword (Stomp).
- 
+- Renamed Ritualist Ellie to Conjurator Ellie.
+  - She now sells Ring of Conjurator if you defeat the Abyss Watchers.
+  
 # Intruders
 - Intruders now only appear if you are embered.
 - Reduced the HP of several intruders.
@@ -242,6 +256,38 @@ Finish following weapons:
 - Slave Knight Gael:
  - HP is now 18,000.
  
+# Companions
+- Removed the old companion system and related items.
+
+# Conjuration
+- Added conjuration spells to Pyromancy, that act like the old companion system.
+ - Conjure Skeleton
+  - Found in Undead Settlement.
+ - Conjure Hollow
+  - Sold by Conjurator Ellie.
+ - Conjure Hound
+  - Sold by Conjurator Ellie.
+ - Conjure Warrior (Carthus Swordsman)
+  - Found in Smouldering Lake.
+ - Conjure Sentinel (Lothric Knight)
+  - Found in Lothric Castle.
+ - Conjure Lycanthrope
+  - Found in Road of Sacrifice.
+ - Conjure Knight (Black Knight)
+  - Transposed from Marauder soul.
+ - Conjure Watcher (Abyss Watcher)
+  - Transposed from Abyss Watcher soul.
+ - Conjure Gargoyle
+  - Found in Profaned Capital.
+- These can be used in any map, and multiple can be active at once.
+- They last 30 seconds, after which you must re-use the spell to conjure them again.
+
+- Added Ferverous Ritual:
+ - Boosts the damage of conjured allies by 20% and increases stamina recovery by 30. Lasts 30 seconds.
+ 
+- Added Restoration Ritual:
+ - Restores 50% HP of conjured allies over 1 second.
+
 # Bugfixes
 - Fixed missing warp list title in warp menu.
 - Fixed several Demon Clerics in m38 that lacked fire orb support
@@ -259,6 +305,7 @@ Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
 Change healing spells to heal when holding the cast
 
 Add Gatling Gun
+Add Solaire as summon to Soul of Cinder
 
 Go over the vanilla NPC AI
 
@@ -269,3 +316,8 @@ Go over the vanilla NPC AI
 240 Divine Blessing
 
 Add method to buy covenant ranks in Gauntlet mode
+
+Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
+
+Add Ritualist Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
+

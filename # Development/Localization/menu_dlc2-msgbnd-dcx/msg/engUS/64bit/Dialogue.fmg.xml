@@ -2525,9 +2525,16 @@ thought only to exist in legend...</text>
 <text id="60009002">Say, how would you like to try one of my enchanted oils?</text>
 <text id="60010000">Thou hast the eyes of one who perceiveth true beauty.</text>
 <text id="60010001">Human, thou mayest serve.</text>
-<text id="60011000">Bring me any ritual incense you find.</text>
-<text id="60011001">In exchange I can offer improvements to your rituals.</text>
-<text id="60011002">Don't tarry now, on you go.</text>
+
+<text id="60011000">Hello there. So, I take it you are interested in my pyromancies?</text>
+<text id="60011001">Through the use of your inner flame, you too may conjure allies.</text>
+<text id="60011002">Once those accursed watchers are dead, perhaps I'll even share even more.</text>
+<text id="60011003">Don't tarry now, on you go.</text>
+
+<text id="60011010">Well done on slaying those accursed watchers.</text>
+<text id="60011011">As promised, I will now offer you a ring of conjuration.</text>
+<text id="60011012">In exchange for souls, of course.</text>
+
 <text id="60012000">Still a bit stiff, I'm afraid.</text>
 <text id="60012001">I'm known as Grudore, a wandering occultist of sorts.</text>
 <text id="60012002">If you wish to experiment with curses, simply ask.</text>

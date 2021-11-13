@@ -1251,6 +1251,17 @@
 <text id="2720010">Great Fecal Expulsion</text>
 <text id="2721000">Chaos Beam</text>
 <text id="2721010">Incinerating Chaos Beam</text>
+<text id="2730000">Conjure Skeleton</text>
+<text id="2731000">Conjure Hollow</text>
+<text id="2732000">Conjure Hound</text>
+<text id="2733000">Conjure Warrior</text>
+<text id="2734000">Conjure Sentinel</text>
+<text id="2735000">Conjure Lycanthrope</text>
+<text id="2736000">Conjure Knight</text>
+<text id="2737000">Conjure Watcher</text>
+<text id="2738000">Conjure Gargoyle</text>
+<text id="2751000">Ferverous Ritual</text>
+<text id="2752000">Restoration Ritual</text>
 <text id="3490000">Heal Aid</text>
 <text id="3490010">Extended Heal Aid</text>
 <text id="3500000">Heal</text>

@@ -1,6 +1,6 @@
 0 Firelink Shrine
 1 [Cemetery of Ash] Firelink Shrine
-2 [Cemetery of Ash] Lonely Hollow
+2 [Cemetery of Ash] Cemetery of Ash
 3 [Cemetery of Ash] Overgrown Sanctum
 4 [Cemetery of Ash] Untended Graves
 5 [Cemetery of Ash] Champion Gundyr
@@ -81,3 +81,5 @@
 80 [The Ringed City] Filianore's Rest
 81 [The Ringed City] Slave Knight Gael
 82 [Ariandel] Dunnel's Respite
+91 [Kiln of Flame] Memory of Endurance
+92 [Dragon Ruins] Memory of Strength

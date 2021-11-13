@@ -44,6 +44,7 @@
 24801 Greirat of the Undead Settlement [Firelink Shrine]
 24802 Greirat of the Undead Settlement [Irithyll]
 24803 Greirat of the Undead Settlement [Grand Archives]
+24810 Greirat of the Undead Settlement - Hostile
 25000 Yuria of Londor [Firelink Shrine]
 25020 Yuria of Londor - White Phantom [Kiln of the First Flame]
 25100 Hawkwood the Deserter [Firelink Shrine]
@@ -479,6 +480,7 @@
 130020 Black Knight - Greataxe
 130021 Black Knight - Greataxe - TOG
 130030 Black Knight - Halberd
+130040 Black Knight - Sword
 130100 Black Knight - Sword
 130110 Black Knight - Greatsword
 130120 Black Knight - Greataxe
@@ -724,6 +726,7 @@
 305100 Old Demon Prince
 306000 Demon
 306001 Demon - TOG
+306002 Demon - Smouldering Lake
 306099 Demon (Old)
 306100 Demon (Undead Settlement)
 307000 Demon Cleric
@@ -981,7 +984,7 @@
 722100 Ritualist Ellie
 722200 Occultist Grudore
 722300 Erstwhile George
-722400 Destitute Jester
+722400 Oathkeeper Xavius
 722500 Sorcery Scribe
 722600 Pyromancy Scribe
 722700 Miracle Scribe
@@ -989,6 +992,7 @@
 722900 Priestess Emilia
 723000 Knight Lun
 724000 Bone Collector
+725000 Abyss Watcher Vernax
 750000 The Lord's Blade
 751000 The Abyss Walker
 752000 The Dragonslayer
@@ -1012,7 +1016,23 @@
 770100 Maiden
 771000 Titanite Abomination
 772000 Royal Rat Authority
-804999 ### Memory Enemies ###
+803999 ### Memory of Strength ###
+804000 Aborr
+804010 Pus of Man
+804020 Winged Knight - Halberd
+804021 Winged Knight - Twinaxes
+804030 Black Knight - Greatsword
+804031 Black Knight - Greataxe
+804040 Lycanthrope
+804050 Giant Serpent-man - Chainaxe
+804051 Giant Serpent-man - Greataxe
+804060 Mimic
+804070 Gargoyle - Hammer
+804071 Gargoyle - Spear
+804080 Demon
+804090 Stray Demon
+804100 Ravenous Crystal Lizard
+804999 ### Memory of Endurance ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion
 805002 Skeleton - Bow
@@ -1021,7 +1041,6 @@
 805011 Carthus Swordsman - Greatsword
 805012 Carthus Swordsman - Shotel
 805013 Carthus Swordsman - Twin Shotel
-805020 Twisted Knight
 805100 Ghru - Spear
 805101 Ghru - Curved Sword
 805102 Ghru - Dagger and Talisman
@@ -1030,7 +1049,6 @@
 805111 Smouldering Ghru - Curved Sword
 805112 Smouldering Ghru - Dagger and Talisman
 805113 Smouldering Ghru - Mad and Horned
-805120 Elder Ghru
 805200 Hollow Soldier - Sword
 805201 Hollow Soldier - Sword and Shield
 805202 Hollow Soldier - Crossbow
@@ -1039,7 +1057,6 @@
 805211 Large Hollow Soldier - Halberd
 805220 Lothric Knight - Sword
 805221 Lothric Knight - Spear
-805230 Winged Knight - Twinaxes
 805300 Devout of the Deep #1
 805301 Devout of the Deep #2
 805302 Devout of the Deep #3
@@ -1050,7 +1067,6 @@
 805340 Cathedral Knight - Mace
 805341 Cathedral Knight - Greatsword
 805350 Writhing Infested Corpse
-805360 Cathedral Guardian
 805400 Peasant Hollow - Axe
 805401 Peasant Hollow - Sickle
 805402 Peasant Hollow - Mallet
@@ -1059,7 +1075,6 @@
 805420 Hollow Manservant - Saw with Board
 805421 Hollow Manservant - Pot with Board
 805430 Large Undead Dog
-805440 Aborr
 900000 ### Old ###
 901000 Hiras Test
 901100 Yoshihi Test

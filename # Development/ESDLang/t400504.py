@@ -690,6 +690,8 @@ def t400504_x41():
         # Fool's Sigil
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30840, 4, 1, 0) == 1, 101, 99015200, -1)
         
+        # Ring of Conjuration
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30990, 4, 1, 0) == 1, 102, 99015201, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1101,6 +1103,10 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 101:
             assert t400504_x50(30840, 30841, 1, -2)
             return 0
+        # Ring of Conjuration
+        elif GetTalkListEntryResult() == 102:
+            assert t400504_x50(30990, 30991, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1332,6 +1338,9 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30091, 4, 1, 0) == 1, 100, 99015199, -1)
         # Fool's Sigil
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30841, 4, 1, 0) == 1, 101, 99015200, -1)
+        
+        # Ring of Conjuration
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30991, 4, 1, 0) == 1, 102, 99015201, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1743,6 +1752,10 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 101:
             assert t400504_x50(30841, 30842, 3, -4)
             return 0
+        # Ring of Conjuration
+        elif GetTalkListEntryResult() == 102:
+            assert t400504_x50(30991, 30992, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1974,6 +1987,9 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30092, 4, 1, 0) == 1, 100, 99015199, -1)
         # Fool's Sigil
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30842, 4, 1, 0) == 1, 101, 99015200, -1)
+        
+        # Ring of Conjuration
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30992, 4, 1, 0) == 1, 102, 99015201, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2385,6 +2401,10 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 101:
             assert t400504_x50(30842, 30843, 5, -6)
             return 0
+        # Ring of Conjuration
+        elif GetTalkListEntryResult() == 102:
+            assert t400504_x50(30992, 30993, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2616,6 +2636,9 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30093, 4, 1, 0) == 1, 100, 99015199, -1)
         # Fool's Sigil
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30843, 4, 1, 0) == 1, 101, 99015200, -1)
+        
+        # Ring of Conjuration
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30993, 4, 1, 0) == 1, 102, 99015201, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3027,6 +3050,10 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 101:
             assert t400504_x50(30843, 30844, 7, -8)
             return 0
+        # Ring of Conjuration
+        elif GetTalkListEntryResult() == 102:
+            assert t400504_x50(30993, 30994, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3259,6 +3286,9 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30094, 4, 1, 0) == 1, 100, 99015199, -1)
         # Fool's Sigil
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30844, 4, 1, 0) == 1, 101, 99015200, -1)
+        
+        # Ring of Conjuration
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30994, 4, 1, 0) == 1, 102, 99015201, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3669,6 +3699,10 @@ def t400504_x45():
         # Fool's Sigil
         elif GetTalkListEntryResult() == 101:
             assert t400504_x50(30844, 30845, 9, -10)
+            return 0
+        # Ring of Conjuration
+        elif GetTalkListEntryResult() == 102:
+            assert t400504_x50(30994, 30995, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

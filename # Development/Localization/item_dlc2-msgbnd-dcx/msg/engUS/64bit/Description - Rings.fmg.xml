@@ -603,34 +603,34 @@ Increases all defences and resistances by 15%.
 
 Enables the collection of Rat Tails from enemies.</text>
 
-<text id="10180">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+<text id="10180">A sigil representing a pact between conjurators.
+The ability to wield the inner flame in such a manner is rare, and as such fellow conjurators often group together.
 
-Boosts the damage of companions by 20% whilst worn.
-
-Enables the collection of Ritual Incense from enemies.</text>
-<text id="10181">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
-
-Boosts the damage of companions by 40% whilst worn.
+Boosts the absorption of conjured allies by 10% whilst worn.
 
 Enables the collection of Ritual Incense from enemies.</text>
-<text id="10182">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+<text id="10181">A sigil representing a pact between conjurators.
+The ability to wield the inner flame in such a manner is rare, and as such fellow conjurators often group together.
 
-Boosts the damage of companions by 60% whilst worn.
-
-Enables the collection of Ritual Incense from enemies.</text>
-<text id="10183">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
-
-Boosts the damage of companions by 80% whilst worn.
+Boosts the absorption of conjured allies by 20% whilst worn.
 
 Enables the collection of Ritual Incense from enemies.</text>
-<text id="10184">Sigil of the ritualists.
-Humans that utilise rituals must wear this crest at all times to signify their allegiance to the cause.
+<text id="10182">A sigil representing a pact between conjurators.
+The ability to wield the inner flame in such a manner is rare, and as such fellow conjurators often group together.
 
-Boosts the damage of companions by 100% whilst worn.
+Boosts the absorption of conjured allies by 30% whilst worn.
+
+Enables the collection of Ritual Incense from enemies.</text>
+<text id="10183">A sigil representing a pact between conjurators.
+The ability to wield the inner flame in such a manner is rare, and as such fellow conjurators often group together.
+
+Boosts the absorption of conjured allies by 40% whilst worn.
+
+Enables the collection of Ritual Incense from enemies.</text>
+<text id="10184">A sigil representing a pact between conjurators.
+The ability to wield the inner flame in such a manner is rare, and as such fellow conjurators often group together.
+
+Boosts the absorption of conjured allies by 50% whilst worn.
 
 Enables the collection of Ritual Incense from enemies.</text>
 
@@ -4250,174 +4250,30 @@ Stand still in contemplation to gain Gwynevere's Blessing, granting one the chan
 Can only be triggered every 60 seconds.
 
 Through daily discipline and concerted effort, all shall find peace in the Sun Princess.</text>
-<text id="30980">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+<text id="30990">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 90 seconds whilst worn.</text>
-<text id="30981">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+Boosts the damage and health of conjured allies by 20% whilst worn.</text>
+<text id="30991">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 120 seconds whilst worn.</text>
-<text id="30982">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+Boosts the damage and health of conjured allies by 40% whilst worn.</text>
+<text id="30992">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 150 seconds whilst worn.</text>
-<text id="30983">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+Boosts the damage and health of conjured allies by 60% whilst worn.</text>
+<text id="30993">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 180 seconds whilst worn.</text>
-<text id="30984">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+Boosts the damage and health of conjured allies by 80% whilst worn.</text>
+<text id="30994">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 210 seconds whilst worn.</text>
-<text id="30985">Metal dial crafted by Ritualist Ellie.
-Imbued with occult power.
+Boosts the damage and health of conjured allies by 100% whilst worn.</text>
+<text id="30995">A ring once worn by an elusive conjurator.
+Imbued with a fragment of her inner flame.
 
-Increases the duration of a summoned companion to 250 seconds whilst worn.</text>
-<text id="30990">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 20% whilst worn.</text>
-<text id="30991">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 40% whilst worn.</text>
-<text id="30992">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 60% whilst worn.</text>
-<text id="30993">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 80% whilst worn.</text>
-<text id="30994">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 100% whilst worn.</text>
-<text id="30995">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the damage of companions by 150% whilst worn.</text>
-<text id="31000">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 10% whilst worn.</text>
-<text id="31001">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 20% whilst worn.</text>
-<text id="31002">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 30% whilst worn.</text>
-<text id="31003">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 40% whilst worn.</text>
-<text id="31004">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 50% whilst worn.</text>
-<text id="31005">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the absorption of companions by 60% whilst worn.</text>
-<text id="31010">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 25 whilst worn.</text>
-<text id="31011">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 50 whilst worn.</text>
-<text id="31012">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 75 whilst worn.</text>
-<text id="31013">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 100 whilst worn.</text>
-<text id="31014">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 125 whilst worn.</text>
-<text id="31015">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the poise of companions by 150 whilst worn.</text>
-<text id="31020">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 25% whilst worn.</text>
-<text id="31021">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 50% whilst worn.</text>
-<text id="31022">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 75% whilst worn.</text>
-<text id="31023">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 100% whilst worn.</text>
-<text id="31024">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 150% whilst worn.</text>
-<text id="31025">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Boosts the HP of companions by 200% whilst worn.</text>
-<text id="31030">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 1% HP per second whilst worn.</text>
-<text id="31031">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 2% HP per second whilst worn.</text>
-<text id="31032">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 3% HP per second whilst worn.</text>
-<text id="31033">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 4% HP per second whilst worn.</text>
-<text id="31034">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 5% HP per second whilst worn.</text>
-<text id="31035">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now restore 6% HP per second whilst worn.</text>
-<text id="31040">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 30 stamina recovery whilst worn.</text>
-<text id="31041">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 40 stamina recovery whilst worn.</text>
-<text id="31042">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 50 stamina recovery whilst worn.</text>
-<text id="31043">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 60 stamina recovery whilst worn.</text>
-<text id="31044">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 70 stamina recovery whilst worn.</text>
-<text id="31045">Ritual offering crafted by Ritualist Ellie.
-Imbued with occult power.
-
-Companions now gain an additional 80 stamina recovery whilst worn.</text>
+Boosts the damage and health of conjured allies by 150% whilst worn.</text>
 <text id="31050">A chalice once coveted by a man with ravenous greed.
 Imbued with occult power.
 

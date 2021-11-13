@@ -173,9 +173,10 @@
 9010 Ember
 9020 INVALID
 9030 Charcoal Pine Resin
+9040 Darksign
 9999 ### Treasure - Intruders
 10100 [Luyila of Londor] Darkdrift
-10200 [Forgotten Locklin] Smouldering Stones
+10200 [Forgotten Locklin] Dashmaster's String
 10300 [Holy Knight Morton] Titanite Fragment
 10500 [Tiny] Smough's Helm
 10501 [Tiny] Smough's Armor
@@ -201,7 +202,7 @@
 11304 [Fester the Jester] Fool's Catalyst
 11400 [Inquisitor Ashford] Moonlight Sword
 11500 [Dragon Cultist Xeric] Staff of Serpents
-11600 [Huntmaster Ava] Veloxi Moss
+11600 [Huntmaster Ava] Gower's Ring of Protection
 11700 [The Pursuer - High Wall of Lothric] Pursuer's Ultra Greatsword
 11710 [The Pursuer - Lothric Castle] Pursuer's Helm
 11720 [The Pursuer - Grand Archives] Pursuer's Armor
@@ -242,7 +243,7 @@
 13601 [Ezekiel of Mirrah] Penetrator Armor
 13602 [Ezekiel of Mirrah] Penetrator Gauntlets
 13603 [Ezekiel of Mirrah] Penetrator Leggings
-13700 [Eija the Shadow] Vindicti Petal
+13700 [Eija the Shadow] Assassin's Mark
 13800 [Ironclad Xavier] Ironclad Helm
 13801 [Ironclad Xavier] Ironclad Armor
 13802 [Ironclad Xavier] Ironclad Gauntlets
@@ -394,6 +395,7 @@
 57201 [Sword Master] Master's Attire
 57202 [Sword Master] Master's Gloves
 57203 [Sword Master] Ragged Mask
+57204 [Sword Master] Ember
 57300 [Brigand] Spider Shield
 57400 [Drakeblood Knight] Drakeblood Greatsword
 57500 [Prince Ricard] Ricard's Rapier
@@ -633,6 +635,7 @@
 82390 [Miracle] Lingering Perseverance
 82400 [Miracle] Mass Tears of Denial
 82410 [Miracle] Refined Homeward
+82420 [Miracle] Gwynevere's Refined Abnegation
 83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
@@ -712,16 +715,21 @@
 100020 Relic of Legends
 100030 Relic of Myths
 109999 ### Script - Memories
-110000 [Memory of the Crypts] Large Titanite Shard
-110001 [Memory of the Crypts] Primordial Fragment
-110010 [Memory of the Swamp] Titanite Shard
-110011 [Memory of the Swamp] Primordial Fragment
-110020 [Memory of the Wall] Titanite Shard
-110021 [Memory of the Wall] Primordial Fragment
-110030 [Memory of the Cathedral] Large Titanite Shard
-110031 [Memory of the Cathedral] Primordial Fragment
-110040 [Memory of the Settlement] Titanite Shard
-110041 [Memory of the Settlement] Primordial Fragment
+110000 [Memory of Endurance - Easy] Titanite Shard
+110010 [Memory of Endurance - Normal] Large Titanite Shard
+110020 [Memory of Endurance - Hard] Titanite Chunk
+110030 [Memory of Endurance - Very Hard] Titanite Slab
+110040 [Memory of Endurance - Mythic] Primordial Fragment
+110100 [Memory of Strength - Easy] Titanite Shard
+110110 [Memory of Strength - Normal] Large Titanite Shard
+110120 [Memory of Strength - Hard] Titanite Chunk
+110130 [Memory of Strength - Very Hard] Titanite Slab
+110140 [Memory of Strength - Mythic] Primordial Fragment
+110200 [Memory of Glory - Easy] Titanite Shard
+110210 [Memory of Glory - Normal] Large Titanite Shard
+110220 [Memory of Glory - Hard] Titanite Chunk
+110230 [Memory of Glory - Very Hard] Titanite Slab
+110240 [Memory of Glory - Mythic] Primordial Fragment
 199999 ### Script - Crows
 200000 [Petrified Something] Set 1 - Rings
 200010 [Petrified Something] Set 2 - Weapons
@@ -1784,6 +1792,10 @@
 3800550 [Chest] Crypt Blacksword
 3800560 [Chest] Gravelord Sword
 3800561 [Chest] Gravelord Sword Dance
+3800600 [Corpse] Soul of a Nameless Soldier
+3800601 [Corpse] Bone Scythe
+3800610 [Corpse] Large Soul of a Weary Warrior
+3800611 [Corpse] Physician Ring
 3800800 [Unique - Crab Puzzle] Old Man's Gambit
 3800810 [Unique - Old Demon King] Quelaag's Fury Sword
 3800820 [Unique - High Lord Wolnir] Unholy Remains
@@ -1807,8 +1819,6 @@
 3802050 [OTD - Carthus Swordsman] Carthus Curved Sword
 3802051 [OTD - Carthus Swordsman] Carthus Shield
 3802060 [OTD - Carthus Sandworm] Undead Bone Shard
-3802070 [OTD - Carthus Sandworm] Bone Scythe
-3802080 [OTD - Carthus Sandworm] Physician Ring
 3802090 [OTD - Smouldering Ghru] Smouldering Spear
 3802091 [OTD - Smouldering Ghru] Smouldering Shield
 3802100 [OTD - Smouldering Ghru] Smouldering Curved Sword
@@ -2000,11 +2010,11 @@
 4000513 [COA - Chest] Burial Knight Leggings
 4000520 [COA - Chest] Frying Pan
 4000521 [COA - Chest] Plank Shield
-4000530 [COA - Chest] Redeye Ring
-4000540 [COA - Chest] Dashmaster's String
+4000530 [COA - Chest] East-West Shield
+4000540 [COA - Chest] Ring of Retreat
 4000550 [COA - Chest] Estus Ring
 4000560 [COA - Chest] Censuring Palm
-4000570 [COA - Chest] East-West Shield
+4000570 [COA - Chest] Redeye Ring
 4000580 [COA - Chest] Hands of God
 4000600 [UG - Chest] Estus Shard
 4000610 [UG - Chest] Handmaid's Ladle
@@ -2949,9 +2959,11 @@
 800001230 [Covenant] Way of Blue
 800001999 ### Script - Gauntlet ###
 800002000 [Boss Kill] Token Drop
-800002010 [Initial Tokens] Weapon Token
-800002011 [Initial Tokens] Armor Token
-800002012 [Initial Tokens] Accessory Token
+800002010 [Starting Items] Weapon Token
+800002020 [Starting Items] Armor Token
+800002030 [Starting Items] Accessory Token
+800002040 [Starting Items] Soul of a Champion
+800002050 [Starting Items] Coiled Sword Fragment
 800009999 ### Covenant Material Drops ###
 800011000 [Covenant] Proof of a Concord Kept
 800011010 [Covenant] Wolf's Blood Swordgrass

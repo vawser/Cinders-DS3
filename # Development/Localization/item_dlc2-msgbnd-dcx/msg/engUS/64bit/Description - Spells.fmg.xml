@@ -1582,6 +1582,124 @@ Rage, rage against the dying of the flame.
 
 Deals 5 damage per hit every second for 10 seconds. Stacks.
 </text>
+<text id="2730000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly skeleton to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Rattle, tattle go the bones."</text>
+<text id="2731000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly hollow to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"The soldiers of the High Wall will serve once again.</text>
+<text id="2732000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly hound to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Woof. Woof. Woof, woof. Woof."</text>
+<text id="2733000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly warrior of Carthus to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Roll away from this!"
+</text>
+<text id="2734000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly sentinel of Lothric to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Finally my enemies shall know terror."</text>
+<text id="2735000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly lycanthrope to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Excellent scout. Hairy."</text>
+<text id="2736000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly black knight to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"These charred blades will once again serve a queen."</text>
+<text id="2737000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly abyss watcher to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Found it yet?"</text>
+<text id="2738000">An eclectic pyromancy created by an elusive conjurator.
+Draws upon the inner flame to conjure life from collected remains.
+
+Conjure friendly gargoyle to assist in battle.
+Lasts 50 seconds.
+
+If already active, this spell will reposition them to your location.
+
+Once killed, will not return until death or reload.
+
+Scrawled on the page:
+"Rough and ready."</text>
+<text id="2751000">An eclectic pyromancy created by an elusive conjurator.
+Incites those that contain the caster's inner flame.
+
+Grant boon to active conjured allies, increasing damage by 20% and increasing stamina recovery by 30.</text>
+<text id="2752000">An eclectic pyromancy created by an elusive conjurator.
+Restores those that contain the caster's inner flame.
+
+Restore 100% of the health of active conjured allies over 1 second.</text>
+
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 

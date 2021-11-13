@@ -267,6 +267,11 @@
 20374 Hawk Ring+4
 20375 Hawk Ring+5
 20380 Hornet Ring
+20381 Hornet Ring+1
+20382 Hornet Ring+2
+20383 Hornet Ring+3
+20384 Hornet Ring+4
+20385 Hornet Ring+5
 20390 Covetous Gold Serpent Ring
 20391 Covetous Gold Serpent Ring+1
 20392 Covetous Gold Serpent Ring+2
@@ -293,6 +298,11 @@
 20434 Skull Ring+4
 20435 Skull Ring+5
 20450 Carthus Milkring
+20451 Carthus Milkring+1
+20452 Carthus Milkring+2
+20453 Carthus Milkring+3
+20454 Carthus Milkring+4
+20455 Carthus Milkring+5
 20460 Knight's Ring
 20461 Knight's Ring+1
 20462 Knight's Ring+2
@@ -452,6 +462,11 @@
 30084 Tome of Sunlight+4
 30085 Tome of Sunlight+5
 30090 Greatwood Remnants
+30091 Greatwood Remnants+1
+30092 Greatwood Remnants+2
+30093 Greatwood Remnants+3
+30094 Greatwood Remnants+4
+30095 Greatwood Remnants+5
 30170 Demonsbane Ring
 30171 Demonsbane Ring+1
 30172 Demonsbane Ring+2
@@ -603,8 +618,23 @@
 30804 Elden Ring+4
 30805 Elden Ring+5
 30840 Fool's Sigil
+30841 Fool's Sigil+1
+30842 Fool's Sigil+2
+30843 Fool's Sigil+3
+30844 Fool's Sigil+4
+30845 Fool's Sigil+5
 30870 Ring of Momentum
-30880 Ring of Grace
+30871 Ring of Momentum+1
+30872 Ring of Momentum+2
+30873 Ring of Momentum+3
+30874 Ring of Momentum+4
+30875 Ring of Momentum+5
+30880 Bell of Grace
+30881 Bell of Grace+1
+30882 Bell of Grace+2
+30883 Bell of Grace+3
+30884 Bell of Grace+4
+30885 Bell of Grace+5
 30890 Ring of Punishment
 30891 Ring of Punishment+1
 30892 Ring of Punishment+2
@@ -612,6 +642,11 @@
 30894 Ring of Punishment+4
 30895 Ring of Punishment+5
 30900 Dashmaster's String
+30901 Dashmaster's String+1
+30902 Dashmaster's String+2
+30903 Dashmaster's String+3
+30904 Dashmaster's String+4
+30905 Dashmaster's String+5
 30910 Relic of Power
 30911 Relic of Power+1
 30912 Relic of Power+2
@@ -700,7 +735,30 @@
 31074 Relic of Myths+4
 31075 Relic of Myths+5
 31080 Old Man's Gambit
+31081 Old Man's Gambit+1
+31082 Old Man's Gambit+2
+31083 Old Man's Gambit+3
+31084 Old Man's Gambit+4
+31085 Old Man's Gambit+5
 31100 Scroll of Ethereality
 31110 Scroll of Hollowing
 31120 Scroll of Humanity
 31130 Scroll of Cooperation
+31200 Assassin's Mark
+31201 Assassin's Mark+1
+31202 Assassin's Mark+2
+31203 Assassin's Mark+3
+31204 Assassin's Mark+4
+31205 Assassin's Mark+5
+31300 Gower's Ring of Retribution
+31301 Gower's Ring of Retribution+1
+31302 Gower's Ring of Retribution+2
+31303 Gower's Ring of Retribution+3
+31304 Gower's Ring of Retribution+4
+31305 Gower's Ring of Retribution+5
+31400 Ring of Retreat
+31401 Ring of Retreat+1
+31402 Ring of Retreat+2
+31403 Ring of Retreat+3
+31404 Ring of Retreat+4
+31405 Ring of Retreat+5

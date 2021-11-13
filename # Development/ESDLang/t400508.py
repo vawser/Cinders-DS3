@@ -159,11 +159,11 @@ def t400508_x9():
     while True:
         ClearTalkListData()
         
-        # Opuses
-        AddTalkListData(2, 99016031, -1)
-        
         # Covenant
         AddTalkListData(1, 99062000, -1)
+        
+        # Purchase Item
+        AddTalkListData(2, 15000010, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008240) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
@@ -188,9 +188,9 @@ def t400508_x9():
         if GetTalkListEntryResult() == 1:
             assert t400508_x12()
             continue
-        # Opuses
+        # Purchase Item
         elif GetTalkListEntryResult() == 2:
-            c1111(280100, 280999)
+            OpenRegularShop(280000, 280099)
             continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
@@ -218,7 +218,12 @@ def t400508_x9():
             return 0
         # Talk
         elif GetTalkListEntryResult() == 4:
-            assert t400508_x10(text1=10022000, flag1=0, mode1=0)
+            if GetEventStatus(25002006) == 1 and GetEventStatus(25008300) == 1:
+                assert t400508_x10(text1=10022010, flag1=0, mode1=0)
+            else:
+                assert t400508_x10(text1=10022000, flag1=0, mode1=0)
+                SetEventState(25008300, 1)
+                
             continue
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
@@ -288,9 +293,6 @@ def t400508_x12():
         IsEquipmentIDEquipped(2, 10183) == 0 and 
         IsEquipmentIDEquipped(2, 10184) == 0, 7, 99062001, -1)
         
-        # Imbuement
-        AddTalkListData(8, 99016030, -1)
-        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -303,7 +305,7 @@ def t400508_x12():
             return 0
         # View Inventory
         elif GetTalkListEntryResult() == 2:
-            c1111(280000, 280099)
+            c1111(280100, 280199)
             continue
         # Strengthen Bond - II
         elif GetTalkListEntryResult() == 3:
@@ -329,10 +331,6 @@ def t400508_x12():
         elif GetTalkListEntryResult() == 7:
             assert t400508_x52(action1=99062005)
             ReportConversationEndToHavokBehavior()
-            return 0
-        # Imbuement
-        elif GetTalkListEntryResult() == 8:
-            assert t400508_x20()
             return 0
         # Leave
         elif GetTalkListEntryResult() == 99:

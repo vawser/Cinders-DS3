@@ -2097,27 +2097,27 @@
 7059 Discs of Dorthinus
 7060 Gold-Hemmed Black H
 7061 Gold-Hemmed Black T
-7062 []
-7063 []
+7062 Conjure Skeleton
+7063 Conjure Hollow
 7064 Charred Loyce H
 7065 Charred Loyce T
-7066 []
-7067 []
+7066 Conjure Hound
+7067 Conjure Warrior
 7068 Forlorn H
 7069 Forlorn T
-7070 []
-7071 []
+7070 Conjure Sentinel
+7071 Conjure Lycanthrope
 7072 Jester H
 7073 Jester T
-7074 []
-7075 []
+7074 Conjure Knight
+7075 Conjure Watcher
 7076 Royal Soldier H
 7077 Royal Soldier T
-7078 []
-7079 []
+7078 Conjure Gargoyle
+7079 Ferverous Ritual
 7080 Loyce H
 7081 Loyce T
-7082 []
+7082 Restoration Ritual
 7083 []
 7084 Chariot Lance
 7085 Golem H
@@ -2131,7 +2131,7 @@
 7093 Aurous H
 7094 Aurous T
 7095 []
-7096 L[]
+7096 []
 7097 Dragon Acolyte H
 7098 Dragon Acolyte T
 7099 []

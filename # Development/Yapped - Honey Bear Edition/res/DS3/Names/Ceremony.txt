@@ -34,4 +34,4 @@
 40000000 [Cemetery of Ash] Daytime
 40000010 [Cemetery of Ash] Night
 40000020 [Cemetery of Ash]
-47000010 [Memory] Night
+47000000 [Memory] Day

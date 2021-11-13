@@ -29,6 +29,7 @@
 21002 Slave Knight Gael [Cathedral of the Deep]
 21005 Slave Knight Gael - White Phantom [Dreg Heap]
 21006 Slave Knight Gael [Illusion]
+21010 Slave Knight Gael - Hostile
 21100 Sir Vilhelm [Ariandel]
 21140 Sir Vilhelm - Enemy [Ariandel]
 21200 Livid Pyromancer Dunnel - Mad Phantom [Ariandel]
@@ -38,6 +39,7 @@
 21403 Amnesiac Lapp - Room on Ramparts [The Ringed City]
 21404 Amnesiac Lapp - Shared Grave [The Ringed City]
 21405 Amnesiac Lapp [Dreg Heap]
+21410 Amnesiac Lapp - Hostile
 21420 Amnesiac Lapp - White Phantom [Dreg Heap]
 21421 Amnesiac Lapp - White Phantom [The Ringed City]
 21440 Amnesiac Lapp - Red Phantom [The Ringed City]
@@ -58,10 +60,13 @@
 24801 Greirat of the Undead Settlement [Firelink Shrine]
 24802 Greirat of the Undead Settlement [Irithyll]
 24803 Greirat of the Undead Settlement [Grand Archives]
+24810 Greirat of the Undead Settlement - Hostile
 25000 Yuria of Londor [Firelink Shrine]
+25010 Yuria of Londor - Hostile
 25020 Yuria of Londor - White Phantom [Kiln of the First Flame]
 25100 Hawkwood the Deserter [Firelink Shrine]
 25101 Hawkwood the Deserter [Farron Keep]
+25110 Hawkwood the Deserter - Hostile
 25120 Hawkwood the Deserter - White Phantom
 25121 Hawkwood the Deserter - White Phantom [Archdragon Peak]
 25200 Sirris of the Sunless Realms [Firelink Shrine]
@@ -76,18 +81,23 @@
 25300 Ringfinger Leonhard [Firelink Shrine]
 25301 Ringfinger Leonhard [Cathedral of the Deep]
 25302 Ringfinger Leonhard [Irithyll]
+25310 Ringfinger Leonhard - Hostile
 25400 Orbeck of Vinheim [Road of Sacrifices]
 25401 Orbeck of Vinheim [Firelink Shrine]
 25402 Orbeck of Vinheim [Grand Archives]
+25410 Orbeck of Vinheim - Hostile
 25420 Orbeck of Vinheim - White Phantom [Grand Archives]
 25500 Cornyx of the Great Swamp [Undead Settlement]
 25501 Cornyx of the Great Swamp [Firelink Shrine]
+25510 Cornyx of the Great Swamp - Hostile
 25600 Karla [Irithyll Dungeon]
 25601 Karla [Firelink Shrine]
+25610 Karla - Hostile
 25700 Irina of Carim [Undead Settlement]
 25701 Irina of Carim [Firelink Shrine]
 25702 Irina of Carim [Firelink Shrine]
 25703 Irina of Carim [Firelink Shrine]
+25710 Irina of Carim - Hostile
 25800 Eygon of Carim [Undead Settlement]
 25801 Eygon of Carim [Firelink Shrine]
 25802 Eygon of Carim - Enemy [Firelink Shrine]
@@ -110,16 +120,18 @@
 26102 Unbreakable Patches [Cathedral of the Deep]
 26103 Unbreakable Patches [Firelink Shrine]
 26104 Unbreakable Patches [Firelink Shrine]
+26110 Unbreakable Patches - Hostile
 26200 Siegward of Catarina - Lift [Undead Settlement]
 26201 Siegward of Catarina - Ledge [Undead Settlement]
 26202 Siegward of Catarina [Irithyll]
 26203 Siegward of Catarina [Profaned Capital]
 26204 Siegward of Catarina [Profaned Capital]
+26210 Siegward of Catarina - Hostile
 26300 Horace the Hushed [Road of Sacrifices]
 26301 Horace the Hushed [Firelink Shrine]
 26302 Horace the Hushed - Enemy [Smouldering Lake]
 26320 Horace the Hushed - White Phantom [Cathedral of the Deep]
-27300 Sword Master [Firelink Shrine]
+27300 Sword Master - Hostile [Firelink Shrine]
 27320 Sword Master - White Phantom [High Wall of Lothric]
 27321 Sword Master - White Phantom [Untended Graves]
 27420 Yellowfinger Heysel - White Phantom [Farron Keep]
@@ -144,7 +156,7 @@
 27900 Lion Knight Albert - Enemy [Grand Archives]
 27920 Lion Knight Albert - White Phantom
 28000 Daughter of Crystal Kriemhild - Enemy [Grand Archives]
-28040 Daughter of Crystal Kriemhild - Red Phantom [Untended Graves]
+28040 Daughter of Crystal Kriemhild - Red Phantom [Cemetery of Ash]
 28100 Exile Watchdog - Exile Greatsword - Enemy [Farron Keep]
 28200 Exile Watchdog - Great Club - Enemy [Farron Keep]
 28300 Unkindled Brigand - Enemy [Cathedral of the Deep]
@@ -227,24 +239,6 @@
 36000 The Mother [Smouldering Lake]
 36100 The Child [Smouldering Lake]
 36200 Ashen Hunter Yafuh [Undead Settlement]
-39999 ### Companions ###
-40000 m30_0 - Hollow
-40010 m30_1 - Lothric Knight (Sword)
-40020 m31_0 - Hollow Manservant (Saw and Board)
-40030 m32_0 - Serpent-man - Dagger
-40040 m33_0 - Abyss Watcher
-40050 m34_1 - Lothric Knight (Spear)
-40060 m35_0 - Cathedral Knight (Mace)
-40070 m37_0 - Pontiff Knight (Curved Sword)
-40080 m38_0 - Black Knight (Sword)
-40090 m39_0 - Wretch (Spear)
-40100 m40_0 - Cathedral Grave Warden
-40110 m41_0 - Knight Solaire
-40120 m45_0 - Great Wolf
-40130 m47_0 - Twisted Knight
-40140 m50_0 - Harald Knight
-40150 m51_0 - Ringed Knight
-40160 m51_1 - Hollow Cleric
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
@@ -508,9 +502,8 @@
 129410 Winged Knight - Twinaxes [Farron Keep]
 129500 Winged Knight - Halberd [Grand Archives]
 129510 Winged Knight - Twinaxes [Grand Archives]
-130000 Black Knight - Greatsword [Cemetery of Ash]
-130010 Black Knight - Greatsword [Unturned Graves]
-130020 Black Knight - Greataxe [Unturned Graves]
+130010 Black Knight - Greatsword [Cemetery of Ash]
+130020 Black Knight - Greataxe [Cemetery of Ash]
 130110 Black Knight - Greatsword [Smouldering Lake]
 130120 Black Knight - Greataxe [Smouldering Lake]
 130121 Black Knight - Greataxe [Smouldering Lake] - Hostile
@@ -1225,7 +1218,7 @@
 722100 Ritualist Ellie
 722200 Occultist Grudore
 722300 Erstwhile George
-722400 Destitute Jester
+722400 Oathkeeper Xavius
 722500 Sorcery Scribe
 722600 Pyromancy Scribe
 722700 Miracle Scribe
@@ -1233,6 +1226,7 @@
 722900 Priestess Emilia
 723000 Knight Lun
 724000 Bone Collector
+725000 Abyss Watcher Vernix
 750000 [Boss] The Lord's Blade (Ciaran)
 751000 [Boss] The Abyss Walker (Artorias)
 752000 [Boss] The Dragonslayer (Ornstein)
@@ -1256,7 +1250,34 @@
 770100 [Boss] Fair Maiden
 771000 [Boss] Titanite Abomination
 772000 Royal Rat Authority
-804999 ### Memory Enemies ###
+800999 ### Spell Summons ###
+801000 Skeleton - Falchion
+801100 Hollow Soldier - Sword and Shield
+801200 Undead Dog
+801300 Carthus Swordsman - Greatsword
+801400 Lothric Knight - Greatsword
+801500 Lycanthrope
+801600 Black Knight - Greataxe
+801700 Abyss Watcher
+801800 Gargoyle - Hammer
+803999 ### Memory of Strength ###
+804000 Aborr
+804010 Pus of Man
+804020 Winged Knight - Halberd
+804021 Winged Knight - Twinaxes
+804030 Black Knight - Greatsword
+804031 Black Knight - Greataxe
+804040 Lycanthrope
+804050 Giant Serpent-man - Chainaxe
+804051 Giant Serpent-man - Greataxe
+804060 Mimic 1
+804061 Mimic 2
+804070 Gargoyle - Hammer
+804071 Gargoyle - Spear
+804080 Demon
+804090 Stray Demon
+804100 Ravenous Crystal Lizard
+804999 ### Memory of Endurance ###
 805000 Skeleton - Scimitar
 805001 Skeleton - Falchion
 805002 Skeleton - Bow
@@ -1265,7 +1286,6 @@
 805011 Carthus Swordsman - Greatsword
 805012 Carthus Swordsman - Shotel
 805013 Carthus Swordsman - Twin Shotel
-805020 Twisted Knight
 805100 Ghru - Spear
 805101 Ghru - Curved Sword
 805102 Ghru - Dagger and Talisman
@@ -1274,7 +1294,6 @@
 805111 Smouldering Ghru - Curved Sword
 805112 Smouldering Ghru - Dagger and Talisman
 805113 Smouldering Ghru - Mad and Horned
-805120 Elder Ghru
 805200 Hollow Soldier - Sword
 805201 Hollow Soldier - Sword and Shield
 805202 Hollow Soldier - Crossbow
@@ -1283,7 +1302,6 @@
 805211 Large Hollow Soldier - Halberd
 805220 Lothric Knight - Sword
 805221 Lothric Knight - Spear
-805230 Winged Knight - Twinaxes
 805300 Devout of the Deep #1
 805301 Devout of the Deep #2
 805302 Devout of the Deep #3
@@ -1294,7 +1312,6 @@
 805340 Cathedral Knight - Mace
 805341 Cathedral Knight - Greatsword
 805350 Writhing Infested Corpse
-805360 Cathedral Guardian
 805400 Peasant Hollow - Axe
 805401 Peasant Hollow - Sickle
 805402 Peasant Hollow - Mallet
@@ -1303,7 +1320,6 @@
 805420 Hollow Manservant - Saw with Board
 805421 Hollow Manservant - Pot with Board
 805430 Large Undead Dog
-805440 Aborr
 808999 ### Primordial Enemies ###
 809000 Pus of Man
 809001 Cathedral Knight

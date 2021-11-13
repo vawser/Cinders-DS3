@@ -185,6 +185,8 @@
 23205 [Thieves' Pact] Helix Halberd
 23206 [Thieves' Pact] Melu Scimitars
 23207 [Thieves' Pact] Flynn's Bow
+24000 [Abyss Watcher Vernix] Farron Greatsword - Parry
+24001 [Abyss Watcher Vernix] Farron Greatsword - Stomp
 30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
 30001 [Ludleth - Corrupted Gundyr] Atonement
 30010 [Ludleth - Vordt] Vordt's Great Hammer
@@ -231,6 +233,7 @@
 30102 [Ludleth - Yhorm the Giant] Ring of Punishment
 30110 [Ludleth - Dancer] Dancer's Enchanted Swords
 30111 [Ludleth - Dancer] Soothing Sunlight
+30112 [Ludleth - Dancer] Gwynevere's Abnegation
 30120 [Ludleth - Oceiros] Moonlight Greatsword
 30121 [Ludleth - Oceiros] White Dragon Breath
 30122 [Ludleth - Oceiros] Crystal Storm
@@ -3068,6 +3071,9 @@
 802141 [Gauntlet Accessory] Offering of Fervor
 802142 [Gauntlet Accessory] Ravenous Chalice
 802143 [Gauntlet Accessory] Old Man's Gambit
+802144 [Gauntlet Accessory] Assassin's Mark
+802145 [Gauntlet Accessory] Gower's Ring of Protection
+802146 [Gauntlet Accessory] Ring of Retreat
 803000 [Gauntlet Spell] Farron Dart
 803001 [Gauntlet Spell] Bloodthirsty Farron Dart
 803002 [Gauntlet Spell] Scattering Soul Orb
@@ -3392,6 +3398,8 @@
 803321 [Gauntlet Spell] Bloodthirsty Path of Frost
 803322 [Gauntlet Spell] Discs of Dorthinus
 803323 [Gauntlet Spell] Quickened Discs of Dorthinus
+803324 [Gauntlet Spell] Gwynevere's Abnegation
+803325 [Gauntlet Spell] Gwynevere's Refined Abnegation
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal

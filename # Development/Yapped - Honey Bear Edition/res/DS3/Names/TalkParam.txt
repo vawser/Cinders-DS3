@@ -361,15 +361,21 @@
 10125000 Do you wish to restore your purity and reclaim the betrothal ring?
 10130999 ### Boss - The Marauder
 10131000 Oh dear... What have we here?
-10131001 A vagabond in all their glory for the world to see!
-10131002 Unless you can prove your worth, scram!
-10131010 Finally, a worthy challenge.
-10131011 Prepare to die!
+10131001 Prove your worth against my knights, or scram!
+10131010 Finally, a worthy challenger.
 10131999 ### Talk - Knight Lun
 10132000 Hello there. Do you seek to help those in distress too?
 10132999 ### Talk - Priestess Emilia
 10133000 I hear you have met the High Priestess too.
 10133001 She has charged me with assisting those that wish to help the Way of Blue.
+10133999 ### Talk - Oathkeeper Xavius
+10134000 Welcome to the Gauntlet!
+10134001 Try your hand against the mighty and powerful of Lothric.
+10134002 If you need supplies, don't hesitate to inquire.
+10134999 ### Talk - Abyss Watcher Vernix
+10135000 My fallen brothers...
+10135001 Alas.
+10135002 If you seek to unlock the potential of Abyss Watcher weaponry, look no further.
 11999999 ### Vanilla Talk
 12000000 [Fire Keeper]
 12000001 [Fire Keeper]

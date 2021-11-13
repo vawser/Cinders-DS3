@@ -208,7 +208,7 @@
 27900 Lion Knight Albert
 27920 Lion Knight Albert
 28000 Daughter of Crystal Kriemhild
-28040 Daughter of Crystal Kriemhild [Untended Graves]
+28040 Daughter of Crystal Kriemhild [Cemetery of Ash]
 28100 Unkindled Watchdog [Road of Sacrifices]
 28200 Unkindled Watchdog [Road of Sacrifices]
 28300 Unkindled Brigand [Cathedral of the Deep]
@@ -284,14 +284,13 @@
 36000 The Mother [Smouldering Lake]
 36100 The Child [Smouldering Lake]
 36200 Ashen Hunter Yafuh [Irithyll]
-39999 ### Companions ###
-40110 Solaire of Astora
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
 50002 Sellsword Luet - Profaned Capital
 50010 Maldron the Assassin - Irithyll
 50011 Maldron the Assassin - Betrayer
+50020 Solaire of Astora
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight
@@ -306,7 +305,7 @@
 722000 Master Benjin
 722100 Ritualist Ellie
 722200 Occultist Grudore
-722400 Destitute Jester
+722400 Oathkeeper Xavius
 722500 Sorcery Scribe
 722600 Pyromancy Scribe
 722700 Miracle Scribe
@@ -314,6 +313,7 @@
 722900 Priestess Emilia
 723000 Knight Lun
 724000 Bone Collector
+725000 Abyss Watcher Vernix
 999999 ### Enemies ###
 1000000 Bonfire
 1000010 1000010: [For the weapon animation confirmation] ◎ 01 Dagger (id_20: Dagger)

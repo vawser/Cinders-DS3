@@ -630,6 +630,17 @@
 <text id="2720010">Spew fecal matter from one's mouth</text>
 <text id="2721000">Breathe demonic chaos beam</text>
 <text id="2721010">Breathe incinerating chaos beam</text>
+<text id="2730000">Conjure friendly skeleton to assist in battle</text>
+<text id="2731000">Conjure friendly hollow to assist in battle</text>
+<text id="2732000">Conjure friendly hound to assist in battle</text>
+<text id="2733000">Conjure friendly warrior of Carthus to assist in battle</text>
+<text id="2734000">Conjure friendly sentinel of Lothric to assist in battle</text>
+<text id="2735000">Conjure friendly lycanthrope to assist in battle</text>
+<text id="2736000">Conjure friendly black knight to assist in battle</text>
+<text id="2737000">Conjure friendly abyss watcher to assist in battle</text>
+<text id="2738000">Conjure friendly gargoyle to assist in battle</text>
+<text id="2751000">Grant boon to active conjured allies</text>
+<text id="2752000">Restore health of active conjured allies</text>
 <text id="3490000">Restore HP for self and vicinity</text>
 <text id="3490010">Restore HP for self and vicinity</text>
 <text id="3500000">Restore HP for self and vicinity</text>
