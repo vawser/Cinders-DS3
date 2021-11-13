@@ -5,6 +5,7 @@ REGISTER_GOAL_NO_SUB_GOAL(GOAL_NPC_Morton, true)
 -- Initialize
 -------------------------
 Goal.Initialize = function (self, ai, goal, arg3)
+    ai:SetNumber(0, 0)
     return 
 end
 
@@ -119,14 +120,14 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[20] = 0       -- Use Item (Slot 0) - Gold Pine Resin
     end
     
-    -- Punish a defensive player by healing
-    if ai:IsTargetGuard(TARGET_ENE_0) and hp_rate <= 0.75 then
-        actChanceList[31] = actChanceList[31] + 20 -- Cast Spell (Slot 1) - Great Heal
+    -- Kick guarding player
+    if ai:IsTargetGuard(TARGET_ENE_0) then
+        actChanceList[3] = actChanceList[3] + 10 -- Kick
     end
     
-    -- Use Great Heal more often once below 50% HP
-    if hp_rate <= 0.5 then
-        actChanceList[31] = 20 -- Cast Spell (Slot 1) - Great Heal
+    -- Use Great Heal once
+    if hp_rate <= 0.25 and ai:GetNumber(0) == 0 then
+        actChanceList[31] = 100 -- Cast Spell (Slot 1) - Great Heal
     end
     
     -- Block repeat usage of Gold Pine Resin while active
@@ -802,6 +803,8 @@ function NPC_Morton_Act31(self, ai, goal)
     subgoal:SetLifeEndSuccess(true)
     
     ai:AddSubGoal(GOAL_COMMON_Wait, 2.0, TARGET_ENE_0, 0, 0, 0)
+    
+    self:SetNumber(0, 1)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
