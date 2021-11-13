@@ -5504,7 +5504,17 @@ Grant boon to active conjured allies, increasing damage by 20% and increasing st
 <text id="2752000">An eclectic pyromancy created by an elusive conjurator.
 Restores those that contain the caster's inner flame.
 
-Restore 100% of the health of active conjured allies over 1 second.</text>
+Restore 50% of the health of active conjured allies over 1 second.</text>
+<text id="2753000">An eclectic pyromancy created by an elusive conjurator.
+Restores those that contain the caster's inner flame.
+
+Restore 20% of the health of active conjured allies over 1 second.</text>
+<text id="2754000">An eclectic pyromancy created by an elusive conjurator.
+The sacrifice of oneself is noble. Such nobility is rewarded by swift vengeance upon those that wish to strike you down.
+
+Sacrifice self, reducing max HP by 99%. 
+Empower active conjured allies massively, boosting damage by 100% and granting immunity to damage.
+Lasts 30 seconds.</text>
 
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.

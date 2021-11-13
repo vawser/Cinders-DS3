@@ -7167,11 +7167,24 @@ Event(20080002, Restart, function(X0_4) {
     SetSpeffect(X0_4, 160762110);
     SetSpeffect(10000, 113010); // FP Pause
     
-    // Restoration Ritual
+    // Major Restoration Ritual
     IfCharacterHasSpeffect(AND_03, 10000, 160762020, true, ComparisonType.Equal, 1);
     SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
     SetSpeffect(X0_4, 160762120);
     SetSpeffect(10000, 113010); // FP Pause
+    
+    // Minor Restoration Ritual
+    IfCharacterHasSpeffect(AND_03, 10000, 160762030, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
+    SetSpeffect(X0_4, 160762130);
+    SetSpeffect(10000, 113005); // FP Pause
+    
+    // Sacrificial Ritual
+    IfCharacterHasSpeffect(AND_04, 10000, 160762040, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_04);
+    SetSpeffect(X0_4, 160762140);
+    SetSpeffect(10000, 160762141);
+    SetSpeffect(10000, 113005); // FP Pause
     
     Label0();
     

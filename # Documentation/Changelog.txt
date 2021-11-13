@@ -287,11 +287,20 @@ Finish following weapons:
 - They last 50 seconds, after which you must re-use the spell to conjure them again.
 
 - Added Ferverous Ritual:
- - Boosts the damage of conjured allies by 20% and increases stamina recovery by 30. Lasts 30 seconds.
+ - Boosts the damage of conjured allies by 20% and increases stamina recovery by 30. 
+ - Lasts 30 seconds.
  
-- Added Restoration Ritual:
+- Added Major Restoration Ritual:
  - Restores 50% HP of conjured allies over 1 second.
 
+- Added Minor Restoration Ritual:
+ - Restores 20% HP of conjured allies over 1 second.
+ 
+- Added Sacrificial Ritual:
+ - Sacrifice self, reducing max HP by 99%. 
+ - Empower active conjured allies massively, boosting damage by 100% and granting immunity to damage.
+ - Lasts 30 seconds.
+ 
 # Bugfixes
 - Fixed missing warp list title in warp menu.
 - Fixed several Demon Clerics in m38 that lacked fire orb support
@@ -325,3 +334,4 @@ Add unreachable item handling for OTK enemies that don't award loot directly: mi
 
 Add Conjurator Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
 
+7087 Sacrificial Ritual

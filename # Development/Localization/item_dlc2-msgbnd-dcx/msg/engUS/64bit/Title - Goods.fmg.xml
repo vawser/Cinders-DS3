@@ -1394,7 +1394,9 @@
 <text id="2737000">Conjure Watcher</text>
 <text id="2738000">Conjure Gargoyle</text>
 <text id="2751000">Ferverous Ritual</text>
-<text id="2752000">Restoration Ritual</text>
+<text id="2752000">Major Restoration Ritual</text>
+<text id="2753000">Minor Restoration Ritual</text>
+<text id="2754000">Sacrificial Ritual</text>
 <text id="3490000">Heal Aid</text>
 <text id="3490010">Extended Heal Aid</text>
 <text id="3500000">Heal</text>

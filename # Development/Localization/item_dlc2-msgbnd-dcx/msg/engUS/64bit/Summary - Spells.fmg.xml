@@ -640,7 +640,9 @@
 <text id="2737000">Conjure friendly abyss watcher to assist in battle</text>
 <text id="2738000">Conjure friendly gargoyle to assist in battle</text>
 <text id="2751000">Grant boon to active conjured allies</text>
-<text id="2752000">Restore health of active conjured allies</text>
+<text id="2752000">Restore large amount of health to active conjured allies</text>
+<text id="2753000">Restore small amount of health to active conjured allies</text>
+<text id="2754000">Sacrifice self, bring you to the brink of death, to empower active conjured allies massively</text>
 <text id="3490000">Restore HP for self and vicinity</text>
 <text id="3490010">Restore HP for self and vicinity</text>
 <text id="3500000">Restore HP for self and vicinity</text>
