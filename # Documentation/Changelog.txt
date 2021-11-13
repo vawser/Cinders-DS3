@@ -155,6 +155,9 @@ Finish following weapons:
 - Renamed Ritualist Pact convenat item to Conjurator's Pact.
  - Changed effect to boost absorption of conjured allies by 10/20/30/40/50%.
  
+# Items
+- Undead Hunter Charm now reduces HP recovery effectiveness to 0%, preventing other forms of healing too.
+ 
 # Spells
 - Changed the FFX of Path of Frost to a nicer one.
  
@@ -193,6 +196,7 @@ Finish following weapons:
 - Intruders now only appear if you are embered.
 - Reduced the HP of several intruders.
 - Reduced the stagger resistance of several intruders.
+- Intruders that used Divine Blessings now use Elizabeth Mushroom instead.
 
 # Phantoms
 - Phantom prompts now appear as summon signs instead of phantom form.
@@ -280,7 +284,7 @@ Finish following weapons:
  - Conjure Gargoyle
   - Found in Profaned Capital.
 - These can be used in any map, and multiple can be active at once.
-- They last 30 seconds, after which you must re-use the spell to conjure them again.
+- They last 50 seconds, after which you must re-use the spell to conjure them again.
 
 - Added Ferverous Ritual:
  - Boosts the damage of conjured allies by 20% and increases stamina recovery by 30. Lasts 30 seconds.
@@ -319,5 +323,5 @@ Add method to buy covenant ranks in Gauntlet mode
 
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-Add Ritualist Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
+Add Conjurator Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
 

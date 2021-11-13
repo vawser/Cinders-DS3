@@ -82,7 +82,7 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Invalid Item check
     if speffect_no_invalid_item then
-        actChanceList[20] = 0       -- Use Item (Slot 0) - Divine Blessing
+        actChanceList[20] = 0 -- Use Item (Slot 0) - Divine Blessing
     end
     
     -- Kick guarding player
@@ -93,14 +93,7 @@ Goal.Activate = function (self, ai, goal)
     -- Divine Blessing (may be used 3 times)
     if ai:GetHpRate(TARGET_SELF) <= 0.25 then
         if ai:GetNumber(0) == 0 then
-            actChanceList[20] = 100 -- Use Item (Slot 0) - Divine Blessing
-            ai:SetNumber(0, 1)
-        elseif ai:GetNumber(0) == 1 then
-            actChanceList[20] = 100 -- Use Item (Slot 0) - Divine Blessing
-            ai:SetNumber(0, 2)
-        elseif ai:GetNumber(0) == 2 then
-            actChanceList[20] = 100 -- Use Item (Slot 0) - Divine Blessing
-            ai:SetNumber(0, 3)
+            actChanceList[20] = 100 -- Use Item (Slot 0) - Divine Blessing)
         end
     end
     
@@ -729,8 +722,11 @@ end
 function NPC_Zakar_Act20(self, ai, goal)
     self:ChangeEquipItem(0) 
     self:SetStringIndexedNumber("Divine Blessing", self:GetStringIndexedNumber("Divine Blessing") - 1)
+    
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
+    self:SetNumber(0, 1)
+            
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
