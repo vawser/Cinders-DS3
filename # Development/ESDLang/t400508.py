@@ -160,10 +160,10 @@ def t400508_x9():
         ClearTalkListData()
         
         # Covenant
-        AddTalkListData(1, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 99062000, -1)
         
         # Purchase Item
-        AddTalkListData(2, 15000010, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15000010, -1)
         
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008240) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

@@ -466,6 +466,9 @@ def t400517_x50():
         # Browse Accessories
         AddTalkListData(4, 15013004, -1)
         
+        # Browse Covenant Accessories
+        AddTalkListData(6, 15013011, -1)
+        
         # Browse Items
         AddTalkListData(5, 15013009, -1)
         
@@ -492,9 +495,13 @@ def t400517_x50():
         elif GetTalkListEntryResult() == 4:
             c1111(802000, 802999)
             continue
+        # Browse Covenant Accessories
+        elif GetTalkListEntryResult() == 6:
+            c1111(804500, 804699)
+            continue
         # Purchase Item
         elif GetTalkListEntryResult() == 5:
-            OpenRegularShop(804000, 804999)
+            OpenRegularShop(804000, 804499)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

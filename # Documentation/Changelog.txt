@@ -72,6 +72,8 @@ Finish following weapons:
 - Restored access to the memories while in Gauntlet Mode.
 - Begin new journey is now accessible after you kill the Soul of Cinder, you no longer need to kill every boss to unlock it while in Gauntlet Mode.
 - The starting items for Gauntlet Mode are now found near Oathkeeper Xavius as treasures.
+- Added Ring of Sacrifice to gauntlet shop.
+- Added the covenant items and each rank of it to a Covenant shop at Oathkeeper Xavius.
 
 # Classes
 - Renamed Summoner class to Conjurator
@@ -335,3 +337,8 @@ Add Conjurator Ellie in Farron Swamp somewhere, add return to Firelink Shrine me
 
 Tidy up the spell summon AI, make skeleton and hollow more aggressive
 
+140000
+140002
+140006
+
+25009813 Gauntlet mode
