@@ -84,6 +84,7 @@ Finish following weapons:
  - Added method to get Stomp version of Farron Greatsword.
 - Reduced minimum stamina for Cannon/Church Cannon to 80.
 - Reduced FP pause from WA to 2 seconds.
+- Tackle WA is now much faster.
 
 # Spell Tools
 - Adjusted several of the dark catalysts so they now cast specific combinations of Sorcery/Miracle/Pyromancy instead of them all having the ability to cast all three.
@@ -333,12 +334,53 @@ Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-Go over the vanilla NPC AI
-
 # 
 7080010 Dragonslayer's Axe # Warcry
 296 Undead Hunter Charm # 3151
 304 Duel Charm # 3351
 240 Divine Blessing
 
-Tidy up the spell summon AI, make skeleton and hollow more aggressive
+# AI Pass:
+Skeleton
+Undead Dog
+Carthus Swordsman
+Lycanthrope
+Black Knight
+Abyss Watcher
+Gargoyle
+
+Creighton the Wanderer
+Knight Slayer Tsorig
+Drang Knight - Hammer
+Drang Knight - Spears
+Unkindled Ricard
+Drakeblood Knight
+Havel the Rock
+Court Sorcerer
+Unkindled Thief
+Unkindled Brigand
+Exile Watchdog (Club)
+Exile Watchdog (Sword)
+Daughter of Crystal Kriemhild
+Lion Knight Albert
+Londor Pale Shade
+Holy Knight Hodrick
+Great Swamp Cuculus
+Black Hand Gotthard
+Black Hand Kamui
+Yellowfinger Heysel
+Horace the Hushed
+Siegward of Catarina
+Patches
+Anri of Astora
+Eygon of Carim
+Ringfinger Leonhard
+Sirris of the Sunless Realms
+Hawkwood the Deserter
+Yuria of Londor
+Silver Knight Ledo
+Desert Pyromancer Zoey
+Sir Vilhelm
+Livid Pyromancer Dunnel
+Amnesiac Lapp
+Slave Knight Gael
