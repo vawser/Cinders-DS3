@@ -331,6 +331,7 @@ Change healing spells to heal when holding the cast
 
 Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
+Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
 Go over the vanilla NPC AI
 
@@ -340,16 +341,4 @@ Go over the vanilla NPC AI
 304 Duel Charm # 3351
 240 Divine Blessing
 
-Add method to buy covenant ranks in Gauntlet mode
-Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
-Add Conjurator Ellie in Farron Swamp somewhere, add return to Firelink Shrine mechanic
-
 Tidy up the spell summon AI, make skeleton and hollow more aggressive
-
-140000
-140002
-140006
-
-25009813 Gauntlet mode
-
-1809000 Teleport
