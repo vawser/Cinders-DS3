@@ -1779,7 +1779,20 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsArtsSpAtk() == TRUE and r1 == "W_AttackRightLightStep" then
             r1 = "W_AttackRightLightStepSpecial"
         end
-        
+	    local hand = HAND_RIGHT
+		if style == HAND_LEFT_BOTH then
+				hand = HAND_LEFT
+		end				
+		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)		
+        if sp_kind == 752 then
+            if r1 == "W_AttackRightLight1" then
+                r1 = "W_AttackRightLight1Alt"
+            elseif r1 == "W_AttackRightLightDash" then
+                r1 = "W_AttackRightLightDashAlt"
+			elseif r1 == "W_AttackRightLightStep" then
+                r1 = "W_AttackRightLightStepAlt"
+			end
+        end        
         ExecEventAllBody(r1)
     --------------------------------------------
     -- R1 + Forward
@@ -1823,7 +1836,16 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 r2 = "W_AttackRightHeavyWepBroken2Start"
             end
         end
-        
+		
+		if sp_kind == 752 then
+            if r2 == "W_AttackRightHeavy1Start" then
+                r2 = "W_AttackRightHeavy1StartAlt"
+            elseif r2 == "W_AttackRightHeavy1SubStart" then
+                r2 = "W_AttackRightHeavy1SubStartAlt"
+            elseif r2 == "W_AttackRightHeavy2Start" then
+                r2 = "W_AttackRightHeavy2StartAlt"
+            end		
+        end
         ExecEventAllBody(r2)
     --------------------------------------------
     -- R2 + Forward
@@ -1878,7 +1900,21 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         if IsArtsSpAtk() == TRUE and b1 == "W_AttackBothLightStep" then
             b1 = "W_AttackBothLightStepSpecial"
         end
-        
+	    local hand = HAND_RIGHT
+		if style == HAND_LEFT_BOTH then
+				hand = HAND_LEFT
+		end				
+		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)		
+        if sp_kind == 752 then
+            if b1 == "W_AttackBothLight1" then
+                b1 = "W_AttackBothLight1Alt"
+            elseif b1 == "W_AttackBothDash" then
+                b1 = "W_AttackBothDashAlt"
+			elseif b1 == "W_AttackBothLightStep" then
+                b1 = "W_AttackBothLightStepAlt"
+			end
+        end     		
+		       
         ExecEventAllBody(b1)
     --------------------------------------------
     -- 2H - L1
@@ -1927,7 +1963,16 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
                 b2 = "W_AttackBothHeavyWepBroken2Start"
             end
         end
-        
+		
+		if sp_kind == 752 then
+            if b2 == "W_AttackBothHeavy1Start" then
+                b2 = "W_AttackBothHeavy1StartAlt"
+            elseif b2 == "W_AttackBothHeavy1SubStart" then
+                b2 = "W_AttackBothHeavy1SubStartAlt"
+            elseif b2 == "W_AttackBothHeavy2Start" then
+                b2 = "W_AttackBothHeavy2StartAlt"
+            end		
+        end        
         ExecEventAllBody(b2)
     --------------------------------------------
     -- Bow - R1
@@ -18106,8 +18151,429 @@ function IsFoolsSigil()
 end
 
 ------------------------------------------
+-- Cat's Stuff
 ------------------------------------------
+function AttackRightLight1Alt_onUpdate()
+	local r1 = "W_AttackRightLight2Alt"
+    local r2 = "W_AttackRightHeavy1SubStartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end	
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
 
+function AttackRightLight2Alt_onUpdate()
+	local r1 = "W_AttackRightLight3Alt"
+    local r2 = "W_AttackRightHeavy1StartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end		
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight3", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightLight3Alt_onUpdate()
+	local r1 = "W_AttackRightLight2Alt"
+    local r2 = "W_AttackRightHeavy1SubStartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if sp_kind == 752 then
+        r1 = "W_AttackRightLight4Alt"
+    end
+
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end		
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight2", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightLight4Alt_onUpdate()
+	local r1 = "W_AttackRightLight2Alt"
+    local r2 = "W_AttackRightHeavy1StartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if sp_kind == 752 then
+        r2 = "W_AttackRightHeavy2StartAlt"
+    end	
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end	
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight3", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightLight5Alt_onUpdate()
+	local r1 = "W_AttackRightLight3Alt"
+    local r2 = "W_AttackRightHeavy2StartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end		
+					
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight3", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightLightDashAlt_onUpdate()
+    local r1 = "W_AttackRightLight1Alt"
+	local r2 = "W_AttackRightHeavy1StartAlt"
+    local hand = HAND_RIGHT
+       
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+	if sp_kind == 752 then
+		r1 = "W_AttackRightLight2Alt"
+	end		
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial2Start"
+    end		
+	
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightHeavy1SubStartAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy2Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(301, 0) == TRUE or env("アニメ終了か", 1) == TRUE then -- GetEventEzStateFlag or IsAnimEnd
+        act("特殊補間設定", 0, TRUE) -- Special interpolation setting
+        ExecEventAllBody("W_AttackRightHeavy1StartAlt")
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightHeavy1StartAlt_onUpdate()
+    act("特殊補間設定", 0, FALSE) -- Special interpolation setting
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy2Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration 
+        ExecEventAllBody("W_AttackRightHeavy1EndAlt")
+        return		
+    else
+		return
+    end
+end
+
+function AttackRightHeavy1EndAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy2Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightHeavy2StartAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration 
+        ExecEventAllBody("W_AttackRightHeavy2EndAlt")
+        return		
+    else
+        return 
+    end
+end
+
+function AttackRightHeavy2EndAlt_onUpdate()
+	local r1 = "W_AttackRightLight1Alt"
+    local hand = HAND_RIGHT
+	
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if AttackCommonFunction(r1, "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackRightLightStepAlt_onUpdate()
+    local r1 = "W_AttackRightLight1Alt"
+	local r2 = "W_AttackRightHeavy1StartAlt"
+    local hand = HAND_RIGHT
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        r2 = "W_AttackRightHeavySpecial1SubStart"
+    end		
+    
+    if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLight1Alt_onUpdate()
+    local b1 = "W_AttackBothLight2Alt"
+    local b2 = "W_AttackBothHeavy1SubStartAlt"
+	local l1 = "W_AttackBothLeft2"
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+	
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end		
+	
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLight2Alt_onUpdate()
+    local b1 = "W_AttackBothLight3Alt"
+    local b2 = "W_AttackBothHeavy1StartAlt"
+    local l1 = "W_AttackBothLeft3"	
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end			
+    
+    if AttackCommonFunction("W_AttackRightLight3", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLight3Alt_onUpdate()
+    local b1 = "W_AttackBothLight2Alt"
+    local b2 = "W_AttackBothHeavy1SubStartAlt"	
+	local l1 = "W_AttackBothLeft2"
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+    	
+	if sp_kind == 752 then
+		b1 = "W_AttackBothLight4Alt"
+	end
+	
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end			   	
+
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLight4Alt_onUpdate()
+    local b1 = "W_AttackBothLight2Alt"
+    local b2 = "W_AttackBothHeavy2StartAlt"	
+	local l1 = "W_AttackBothLeft1"
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end	
+	
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLight5Alt_onUpdate()
+    local b1 = "W_AttackBothLight3Alt"
+    local b2 = "W_AttackBothHeavy1SubStartAlt"	
+	local l1 = "W_AttackBothLeft2"
+    local hand = HAND_RIGHT
+    local style = c_Style
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+
+    local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end		
+
+    if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothHeavy1SubStartAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(301, 0) == TRUE or env("アニメ終了か", 1) == TRUE then
+        act("特殊補間設定", 0, TRUE)
+        ExecEventAllBody("W_AttackBothHeavy1StartAlt")
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothHeavy1StartAlt_onUpdate()
+    act("特殊補間設定", 0, FALSE)
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavy1EndAlt")
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothHeavy1EndAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothHeavy2StartAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavy2EndAlt")
+        return
+    else
+        return 
+    end
+end
+
+function AttackBothHeavy2EndAlt_onUpdate()
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackBothLeft1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothDashAlt_onUpdate()
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1Alt"
+	local b2 = "W_AttackBothHeavy1StartAlt"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+	
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	    	
+	if sp_kind == 752 then
+		b1 = "W_AttackBothLight2Alt"
+	end		
+	
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial2Start"
+    end		
+	
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+function AttackBothLightStepAlt_onUpdate()
+	local l1 = "W_AttackBothLeft1"
+	local b1 = "W_AttackBothLight1Alt"
+	local b2 = "W_AttackBothHeavy1StartAlt"
+   	local hand = HAND_RIGHT
+   	local style = c_Style
+	
+   	if style == HAND_LEFT_BOTH then
+      	hand = HAND_LEFT
+    end
+	
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	
+    if IsWarcrySpAtk() == TRUE then
+        b2 = "W_AttackBothHeavySpecial1SubStart"
+    end		
+	
+    if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
+        return 
+    else
+        return 
+    end
+end
+
+------------------------------------------
+------------------------------------------
 global = {}
 function dummy()
     return 
