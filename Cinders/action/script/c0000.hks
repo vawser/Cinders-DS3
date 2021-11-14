@@ -1540,6 +1540,10 @@ function ExecGuard(event, blend_type)
                 return FALSE
             end
             
+            -- if env(1106, ACTION_ARM_R1) == TRUE or env(1108, ACTION_ARM_R1) > 0 then
+                -- AddStamina(-100)
+            -- end
+            
             -- Play guard event
             ExecEventHalfBlend(event, blend_type)
             
