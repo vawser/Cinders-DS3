@@ -160,6 +160,7 @@ Finish following weapons:
  
 # Items
 - Undead Hunter Charm now reduces HP recovery effectiveness to 0%, preventing other forms of healing too.
+- Draconic Fire/Draconic Might/Draconic Fire Orbs and Draconic Fury no longer require you to be naked to use.
  
 # Spells
 - Restored FP pause after cast: 
@@ -341,7 +342,6 @@ Add unreachable item handling for OTK enemies that don't award loot directly: mi
 240 Divine Blessing
 
 # AI Pass:
-Skeleton
 Undead Dog
 Carthus Swordsman
 Lycanthrope
@@ -384,3 +384,4 @@ Sir Vilhelm
 Livid Pyromancer Dunnel
 Amnesiac Lapp
 Slave Knight Gael
+

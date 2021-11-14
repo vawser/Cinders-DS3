@@ -27,6 +27,19 @@
 	<item value="24" name="24 - Twinkling Dragon Torso Stone" />
 	<item value="25" name="25 - Spear Fragment" />
 	<item value="26" name="26 - Church Guardian Shiv" />
+	<item value="27" name="27 - Draconic Fire" />
+	<item value="28" name="28 - Draconic Might" />
+	<item value="29" name="29 - WIP" />
+	<item value="30" name="30 - WIP" />
+	<item value="31" name="31 - WIP" />
+	<item value="32" name="32 - WIP" />
+	<item value="33" name="33 - WIP" />
+	<item value="34" name="34 - WIP" />
+	<item value="35" name="35 - WIP" />
+	<item value="36" name="36 - WIP" />
+	<item value="37" name="37 - WIP" />
+	<item value="38" name="38 - WIP" />
+	<item value="39" name="39 - WIP" />
   </enum>
   <enum name="OpenMenuType" type="u8">
     <item value="0" name="None" />

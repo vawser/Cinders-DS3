@@ -1098,3 +1098,113 @@ CEREMONY_STATE_IDLE
 CEREMONY_STATE_MOVE
 CEREMONY_STATE_RELEASE
 CEREMONY_STATE_FORCE_RELEASE
+
+#------------------------
+# Behavior Structure
+#------------------------
+An example of the structure needed for the Evasion moves, following the generator field.
+
+hkbBehaviorGraph #90 - hkRootLevelContainer
+ Root #91 - hkbBehaviorGraph
+  Master #93 - hkbStateMachineStateInfo
+   ModifiersLayer_Script #94 - hkbScriptGenerator
+    ModifiersLayer_ModifierGenerator #95 - hkbModifierGenerator
+     Master_Script #204 - hkbScriptGenerator
+      Master Blend #205 - hkbBlenderGenerator
+       <> #255 - hkbBlenderGeneratorChild
+        Master_SM #256 - hkbStateMachine
+ <------
+ Evasion #11985 - hkbStateMachineStateInfo
+  Evasion Script #11986 - hkbScriptGenerator
+   Evasion LayerGenerator #11987 - hkbLayerGenerator
+    <> #11988 - hkbLayer
+     Evasion_SM #11989 - hkbStateMachine
+  <------
+  RollingSelftrans #11990 - hkbStateMachineStateInfo 
+   RollingSelftrans_CMSG #11991 - CustomManualSelectorGenerator
+    RollingSelftrans_SM #11992 - hkbStateMachine
+     RollingLightSelftrans #11993 - hkbStateMachineStateInfo
+      RollingLightSelftrans_Blend #11994 - hkbBlenderGenerator
+       <> #11996 - hkbBlenderGeneratorChild
+        RollingLightFrontSelftrans_Selector #11997 - hkbManualSelectorGenerator
+         RollingFrontRightSelftrans_CMSG #11999 - CustomManualSelectorGenerator
+          a000_027104_hkx_AutoSet_01 #12001 - hkbClipGenerator
+          
+#------------------------
+# Cast Animation
+#------------------------
+# Normal
+MagicLaunchRight_Selector
+MagicLaunchRightSA_Selector
+MagicLaunchRight_Upper_Selector
+
+MagicLaunchLeft_Selector
+MagicLaunchLeftSA_Selector
+MagicLaunchLeft_Upper_Selector
+
+MagicFireRight_Selector
+MagicFireRight_Upper_Selector
+
+MagicFireLeft_Selector
+MagicFireLeft_Upper_Selector
+
+# Launch/Fire Loop
+MagicLaunchRight_Selector
+MagicLaunchRightSA_Selector
+MagicLaunchRight_Upper_Selector
+
+MagicLaunchLeft_Selector
+MagicLaunchLeftSA_Selector
+MagicLaunchLeft_Upper_Selector
+
+MagicLoopRight_Selector
+MagicLoopRight_Upper_Selector
+MagicLoopRightSA_Selector
+MagicLoopRightSA_Upper_Selector
+
+MagicLoopLeft_Selector
+MagicLoopLeft_Upper_Selector
+MagicLoopLeftSA_Selector
+MagicLoopLeftSA_Upper_Selector
+
+# Quick Slash
+MagicLaunchRight_Selector
+MagicLaunchRightSA_Selector
+MagicLaunchRight_Upper_Selector
+
+MagicLaunchLeft_Selector
+MagicLaunchLeftSA_Selector
+MagicLaunchLeft_Upper_Selector
+
+MagicFireRight_Selector
+MagicFireRight_Upper_Selector
+
+MagicFireLeft_Selector
+MagicFireLeft_Upper_Selector
+
+QuickMagicFireRightAttackRight_Selector
+QuickMagicFireRightAttackRight_Upper Selector
+QuickMagicFireRightAttackRight2_Selector
+QuickMagicFireRightAttackRight2_Upper Selector
+QuickMagicFireRightAttackLeft_Selector
+QuickMagicFireRightAttackLeft_Upper Selector
+QuickMagicFireRightAttackLeft2_Selector
+QuickMagicFireRightAttackLeft2_Upper Selector
+QuickMagicFireRightStep_Selector
+QuickMagicFireRightStep_Upper Selector
+QuickMagicFireRightDash_Selector
+QuickMagicFireRightDash_Upper Selector
+
+QuickMagicFireLeftAttackRight_Selector
+QuickMagicFireLeftAttackRight_Upper Selector
+QuickMagicFireLeftAttackRight2_Selector
+QuickMagicFireLeftAttackRight2_Upper Selector
+QuickMagicFireLeftAttackLeft_Selector
+QuickMagicFireLeftAttackLeft_Upper Selector
+QuickMagicFireLeftAttackLeft2_Selector
+QuickMagicFireLeftAttackLeft2_Upper Selector
+QuickMagicFireLeftStep_Selector
+QuickMagicFireLeftStep_Upper Selector
+QuickMagicFireLeftDash_Selector
+QuickMagicFireLeftDash_Upper Selector
+

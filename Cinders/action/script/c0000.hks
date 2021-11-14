@@ -1540,10 +1540,6 @@ function ExecGuard(event, blend_type)
                 return FALSE
             end
             
-            -- if env(1106, ACTION_ARM_R1) == TRUE or env(1108, ACTION_ARM_R1) > 0 then
-                -- AddStamina(-100)
-            -- end
-            
             -- Play guard event
             ExecEventHalfBlend(event, blend_type)
             
@@ -3651,6 +3647,29 @@ function ExecItem(quick_type, blend_type)
             blend_type = UPPER
         end
         ExecEventHalfBlend(Event_ItemDrinkEmpty, blend_type)
+    -- Draconic Fire
+    elseif item_type == 27 then
+        if env(305, CONDITION_TYPE_DRAGONHEAD) == FALSE or env(305, CONDITION_TYPE_DRAGONFULL) == FALSE then -- GetStateChangeType
+            if env(1001) <= 0 then -- GetStamina
+                ResetRequest()
+                return FALSE
+            end
+            ExecEventHalfBlend(Event_DragonHeadStartAfterLVL2, blend_type)
+        else
+            ExecEventHalfBlend(Event_DragonHeadStartBefore, blend_type)
+        end
+    -- Draconic Might
+    elseif item_type == 28 then
+        if env(305, CONDITION_TYPE_DRAGONFULL) == FALSE then -- GetStateChangeType
+            if env(1001) < 0 then -- GetStamina
+                ResetRequest()
+                return FALSE
+            end
+            AddStamina(-100)
+            ExecEventHalfBlend(Event_DragonFullStartAfterLVL2, blend_type)
+        else
+            ExecEventHalfBlend(Event_DragonFullStartBefore, blend_type)
+        end
     elseif item_type == ITEM_INVALID then
         if env(1007) == TRUE and env(1116, 5111) == FALSE then
             act(2002, 5111) 
@@ -13931,9 +13950,11 @@ function MagicLaunchRight_Upper_onUpdate()
         end
         local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
         local button = ACTION_ARM_R1
+        
         if sp_kind == 178 or sp_kind == 207 or sp_kind == 217 or sp_kind == 220 or sp_kind == 234 or sp_kind == 257 then
             button = ACTION_ARM_R2
         end
+        
         if IsHoldMagic() == TRUE then
             if 0 < env(1108, button) then
                 -- Generic Hold Magic
