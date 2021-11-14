@@ -273,6 +273,9 @@ Finish following weapons:
 - Slave Knight Gael:
  - HP is now 18,000.
  
+# Enemies
+- Slowed down parts of Aborr's moveset so they suit his heavyset nature better.
+ 
 # Companions
 - Removed the old companion system and related items.
 
