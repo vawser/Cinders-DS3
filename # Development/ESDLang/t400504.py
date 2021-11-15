@@ -693,6 +693,9 @@ def t400504_x41():
         # Ring of Conjuration
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30990, 4, 1, 0) == 1, 102, 99015201, -1)
         
+        # Wretched Pendant
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30040, 4, 1, 0) == 1, 103, 99015202, -1)
+        
         # Quit
         AddTalkListData(99, 15000180, -1)
         
@@ -1107,6 +1110,10 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 102:
             assert t400504_x50(30990, 30991, 1, -2)
             return 0
+        # Wretched Pendant
+        elif GetTalkListEntryResult() == 103:
+            assert t400504_x50(30040, 30041, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1341,6 +1348,9 @@ def t400504_x42():
         
         # Ring of Conjuration
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30991, 4, 1, 0) == 1, 102, 99015201, -1)
+        
+        # Wretched Pendant
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30041, 4, 1, 0) == 1, 103, 99015202, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -1756,6 +1766,10 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 102:
             assert t400504_x50(30991, 30992, 3, -4)
             return 0
+        # Wretched Pendant
+        elif GetTalkListEntryResult() == 103:
+            assert t400504_x50(30041, 30042, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1990,6 +2004,9 @@ def t400504_x43():
         
         # Ring of Conjuration
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30992, 4, 1, 0) == 1, 102, 99015201, -1)
+        
+        # Wretched Pendant
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30042, 4, 1, 0) == 1, 103, 99015202, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2405,6 +2422,10 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 102:
             assert t400504_x50(30992, 30993, 5, -6)
             return 0
+        # Wretched Pendant
+        elif GetTalkListEntryResult() == 103:
+            assert t400504_x50(30042, 30043, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2639,6 +2660,9 @@ def t400504_x44():
         
         # Ring of Conjuration
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30993, 4, 1, 0) == 1, 102, 99015201, -1)
+        
+        # Wretched Pendant
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30043, 4, 1, 0) == 1, 103, 99015202, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3054,6 +3078,10 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 102:
             assert t400504_x50(30993, 30994, 7, -8)
             return 0
+        # Wretched Pendant
+        elif GetTalkListEntryResult() == 103:
+            assert t400504_x50(30043, 30044, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3289,6 +3317,9 @@ def t400504_x45():
         
         # Ring of Conjuration
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30994, 4, 1, 0) == 1, 102, 99015201, -1)
+        
+        # Wretched Pendant
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30044, 4, 1, 0) == 1, 103, 99015202, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -3703,6 +3734,10 @@ def t400504_x45():
         # Ring of Conjuration
         elif GetTalkListEntryResult() == 102:
             assert t400504_x50(30994, 30995, 9, -10)
+            return 0
+        # Wretched Pendant
+        elif GetTalkListEntryResult() == 103:
+            assert t400504_x50(30044, 30045, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

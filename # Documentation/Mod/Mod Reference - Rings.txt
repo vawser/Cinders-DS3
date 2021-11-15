@@ -260,12 +260,12 @@
 
 # Bellowing Dragoncrest Ring
 - Weight: 0.5
-- [+0] Grants 15% boost to the power of Sorceries.
-- [+1] Grants 20% boost to the power of Sorceries.
-- [+2] Grants 25% boost to the power of Sorceries.
-- [+3] Grants 30% boost to the power of Sorceries.
-- [+4] Grants 35% boost to the power of Sorceries.
-- [+5] Grants 40% boost to the power of Sorceries.
+- [+0] Reduces FP consumption of Sorceries by 15%.
+- [+1] Reduces FP consumption of Sorceries by 20%.
+- [+2] Reduces FP consumption of Sorceries by 25%.
+- [+3] Reduces FP consumption of Sorceries by 30%.
+- [+4] Reduces FP consumption of Sorceries by 35%.
+- [+5] Reduces FP consumption of Sorceries by 40%.
 
 # Great Swamp Ring
 - Weight: 0.5
@@ -273,12 +273,12 @@
 
 # Witch's Ring
 - Weight: 0.5
-- [+0] Grants 15% boost to the power of Pyromancies.
-- [+1] Grants 20% boost to the power of Pyromancies.
-- [+2] Grants 25% boost to the power of Pyromancies.
-- [+3] Grants 30% boost to the power of Pyromancies.
-- [+4] Grants 35% boost to the power of Pyromancies.
-- [+5] Grants 40% boost to the power of Pyromancies.
+- [+0] Reduces FP consumption of Pyromancies by 15%.
+- [+1] Reduces FP consumption of Pyromancies by 20%.
+- [+2] Reduces FP consumption of Pyromancies by 25%.
+- [+3] Reduces FP consumption of Pyromancies by 30%.
+- [+4] Reduces FP consumption of Pyromancies by 35%.
+- [+5] Reduces FP consumption of Pyromancies by 40%.
 
 # Morne's Ring
 - Weight: 0.5
@@ -286,12 +286,12 @@
 
 # Ring of the Sun's First Born
 - Weight: 0.5
-- [+0] Grants 15% boost to the power of Miracles.
-- [+1] Grants 20% boost to the power of Miracles.
-- [+2] Grants 25% boost to the power of Miracles.
-- [+3] Grants 30% boost to the power of Miracles.
-- [+4] Grants 35% boost to the power of Miracles.
-- [+5] Grants 40% boost to the power of Miracles.
+- [+0] Reduces FP consumption of Miracles by 15%.
+- [+1] Reduces FP consumption of Miracles by 20%.
+- [+2] Reduces FP consumption of Miracles by 25%.
+- [+3] Reduces FP consumption of Miracles by 30%.
+- [+4] Reduces FP consumption of Miracles by 35%.
+- [+5] Reduces FP consumption of Miracles by 40%.
 
 # Deep Ring
 - Weight: 0.5
@@ -299,12 +299,12 @@
 
 # Unholy Remains
 - Weight: 1
-- [+0] Grants 15% boost to the power of Hexes.
-- [+1] Grants 20% boost to the power of Hexes.
-- [+2] Grants 25% boost to the power of Hexes.
-- [+3] Grants 30% boost to the power of Hexes.
-- [+4] Grants 35% boost to the power of Hexes.
-- [+5] Grants 40% boost to the power of Hexes.
+- [+0] Grants 15% boost to the power of spells, but reduces healing effectiveness by 50%.
+- [+1] Grants 15% boost to the power of spells, but reduces healing effectiveness by 45%.
+- [+2] Grants 15% boost to the power of spells, but reduces healing effectiveness by 40%.
+- [+3] Grants 15% boost to the power of spells, but reduces healing effectiveness by 35%.
+- [+4] Grants 15% boost to the power of spells, but reduces healing effectiveness by 30%.
+- [+5] Grants 15% boost to the power of spells, but reduces healing effectiveness by 25%.
 
 # Dusk Crown Ring
 - Weight: 0.5
@@ -622,16 +622,21 @@
 
 # Spirit Amethyst
 - Weight: 0.5
-- [+0] Boosts potency of all spells by 5%.
+- [+0] Boosts potency of all spells by 7.5%.
 - [+1] Boosts potency of all spells by 10%.
-- [+2] Boosts potency of all spells by 15%.
-- [+3] Boosts potency of all spells by 20%.
-- [+4] Boosts potency of all spells by 25%.
-- [+5] Boosts potency of all spells by 30%.
+- [+2] Boosts potency of all spells by 12.5%.
+- [+3] Boosts potency of all spells by 15%.
+- [+4] Boosts potency of all spells by 17.5%.
+- [+5] Boosts potency of all spells by 20%.
 
 # Wretched Pendant
 - Weight: 1
-- Emits degredation aura, reducing the absorption of nearby enemies by 2.5% every second (each stack expires after 10 seconds), and slows their movement. Slows the wearer.
+- [+0] Grants 15% boost to Physical damage but reduces healing effectiveness by 50%.
+- [+1] Grants 15% boost to Physical damage but reduces healing effectiveness by 45%.
+- [+2] Grants 15% boost to Physical damage but reduces healing effectiveness by 40%.
+- [+3] Grants 15% boost to Physical damage but reduces healing effectiveness by 35%.
+- [+4] Grants 15% boost to Physical damage but reduces healing effectiveness by 30%.
+- [+5] Grants 15% boost to Physical damage but reduces healing effectiveness by 25%.
 
 # Symbol of the Penitent
 - Weight: 1
@@ -880,7 +885,7 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 
 # Cursed Ring of Vengeance
 - Weight: 1
-- Dead enemies will explode, dealing damage to other enemies.
+- Increases all damage in melee by 10%.
 - Reduced max HP by 50%.
 
 # Cursed Ring of Deflection
@@ -899,15 +904,11 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 
 # Fool's Sigil
 - Weight: 1
-- Bestows a random effect every 15 seconds.
- - 15% Damage boost.
- - 15% Absorption boost.
- - 30 Stamina Recovery.
- - 1 FP restored every second.
- - -25% Stamina Consumption and FP Consumption.
- - Immunity to Status Effects.
- - Estus Flask and Ashen Estus Flask usage blocked.
- - -100% Absorption.
+- Randomizes movement speed between -50% and +50% and bestows a random effect every 10 seconds:
+ - +15/20/25/30/35/40% Damage boost.
+ - +15/20/25/30/35/40% Absorption boost.
+ - 10/15/20/25/30/35 Stamina Recovery.
+ - -15/20/25/30/35/40% Stamina Consumption and FP Consumption.
 
 # Ring of Momentum
 - Weight: 1

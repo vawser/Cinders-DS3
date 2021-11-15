@@ -154,6 +154,29 @@ Finish following weapons:
  - Boosts damage of conjured allies by 20/40/60/80/100/150%.
  - Affixable.
  
+- Bellowing Dragoncrest Ring:
+ - Reduces FP consumption of Sorceries by 15/20/25/30/35/40%.
+ 
+- Witch's Ring:
+ - Reduces FP consumption of Pyromancies by 15/20/25/30/35/40%.
+ 
+- Ring of the Sun's First Born:
+ - Reduces FP consumption of Miracles by 15/20/25/30/35/40%.
+ 
+- Unholy Remains:
+ - Grants 15% boost to the power of spells, but reduces healing effectiveness by 50/45/40/35/30/25%.
+ 
+- Spirit Amethyst:
+ - Boosts potency of all spells by 7.5/10/12.5/15/17.5/20%.
+ 
+- Wretched Pendant:
+ - Grants 15% boost to Physical damage, but reduces healing effectiveness by 50/45/40/35/30/25%.
+ - Affixable
+ 
+- Cursed Ring of Vengeance
+ - Increases all melee damage by 10%.
+ - Reduces max HP by 50%.
+ 
 # Covenants
 - Renamed Ritualist Pact convenat item to Conjurator's Pact.
  - Changed effect to boost absorption of conjured allies by 10/20/30/40/50%.
