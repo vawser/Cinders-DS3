@@ -3367,7 +3367,7 @@ Lightning: increases Lightning absorption by 5%.
 Dark: increases Dark absorption by 5%.</text>
 <text id="99004002">Pulsating: increases FP recovery by 13.
 Vibrating: restores an additional 5 HP per second.
-Throbbing: reduces FP cost of all spells by 20%.
+Throbbing: reduces FP cost of all spells by 10%.
 Quivering: boosts cast speed by 25.
 Laughing: converts the catalyst into Luck form:
 - Halves the INT and FTH required for spells.

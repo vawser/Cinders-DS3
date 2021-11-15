@@ -89,7 +89,12 @@ Finish following weapons:
 # Spell Tools
 - Adjusted several of the dark catalysts so they now cast specific combinations of Sorcery/Miracle/Pyromancy instead of them all having the ability to cast all three.
 - Adjusted the INT/FTH distribution for several catalysts.
-- Added affinity to a specific damage type to each catalyst. Note that having 2 catalysts out at the same time will nullify this effect.
+- Added affinity to a specific damage type to each catalyst.
+ - Affinity boosts that damage type by 10%.
+ - Note that having 2 catalysts out at the same time will nullify this effect.
+- Hybrid catalysts can now be reinforced to increase base damage.
+- Reduced max spellbuff to 250.
+- Throbbing infusion now reduces FP consumption by 10%.
 
 # Armor
 - Gauntlets/Leggings now share the same icon as the Torso. This has been done mainly to free up icon space.
@@ -155,13 +160,13 @@ Finish following weapons:
  - Affixable.
  
 - Bellowing Dragoncrest Ring:
- - Reduces FP consumption of Sorceries by 15/20/25/30/35/40%.
+ - Reduces FP consumption of Sorceries by 7.5/10/12.5/15/17.5/20%.
  
 - Witch's Ring:
- - Reduces FP consumption of Pyromancies by 15/20/25/30/35/40%.
+ - Reduces FP consumption of Pyromancies by 7.5/10/12.5/15/17.5/20%.
  
 - Ring of the Sun's First Born:
- - Reduces FP consumption of Miracles by 15/20/25/30/35/40%.
+ - Reduces FP consumption of Miracles by 7.5/10/12.5/15/17.5/20%.
  
 - Unholy Remains:
  - Grants 15% boost to the power of spells, but reduces healing effectiveness by 50/45/40/35/30/25%.
@@ -232,6 +237,7 @@ Finish following weapons:
 - Intruders now only appear if you are embered.
 - Reduced the HP of several intruders.
 - Reduced the stagger resistance of several intruders.
+- Changed the stagger resistance steps to 1/2/3/4, instead of 1/3/5/7.
 - Intruders that used Divine Blessings now use Elizabeth Mushroom instead.
 
 # Phantoms

@@ -4982,8 +4982,19 @@ function ExecDamage(is_parry, is_attackwhileguard)
                     end
                 end
                 
-                -- Stagger Threshold: 3
+                -- Stagger Threshold: 2
                 if env(1116, 112351) == TRUE then
+                    if env(1116, 112301) == FALSE then
+                        act(2002, 112301) -- Hit 1
+                    elseif env(1116, 112301) == TRUE and env(1116, 112302) == FALSE then
+                        act(2002, 112302) -- Hit 2
+                    elseif env(1116, 112302) == TRUE then
+                        act(2002, 112300) -- Easy stagger
+                    end
+                end
+                
+                -- Stagger Threshold: 3
+                if env(1116, 112352) == TRUE then
                     if env(1116, 112301) == FALSE then
                         act(2002, 112301) -- Hit 1
                     elseif env(1116, 112301) == TRUE and env(1116, 112302) == FALSE then
@@ -4995,24 +5006,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
                     end
                 end
                 
-                -- Stagger Threshold: 5
-                if env(1116, 112352) == TRUE then
-                    if env(1116, 112301) == FALSE then
-                        act(2002, 112301) -- Hit 1
-                    elseif env(1116, 112301) == TRUE and env(1116, 112302) == FALSE then
-                        act(2002, 112302) -- Hit 2
-                    elseif env(1116, 112302) == TRUE and env(1116, 112303) == FALSE then
-                        act(2002, 112303) -- Hit 3
-                    elseif env(1116, 112303) == TRUE and env(1116, 112304) == FALSE then
-                        act(2002, 112304) -- Hit 4
-                    elseif env(1116, 112304) == TRUE and env(1116, 112305) == FALSE then
-                        act(2002, 112305) -- Hit 5
-                    elseif env(1116, 112305) == TRUE then
-                        act(2002, 112300) -- Easy stagger
-                    end
-                end
-                
-                -- Stagger Threshold: 7
+                -- Stagger Threshold: 4
                 if env(1116, 112353) == TRUE then
                     if env(1116, 112301) == FALSE then
                         act(2002, 112301) -- Hit 1
@@ -5022,13 +5016,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
                         act(2002, 112303) -- Hit 3
                     elseif env(1116, 112303) == TRUE and env(1116, 112304) == FALSE then
                         act(2002, 112304) -- Hit 4
-                    elseif env(1116, 112304) == TRUE and env(1116, 112305) == FALSE then
-                        act(2002, 112305) -- Hit 5
-                    elseif env(1116, 112305) == TRUE and env(1116, 112306) == FALSE then
-                        act(2002, 112306) -- Hit 6
-                    elseif env(1116, 112306) == TRUE and env(1116, 112307) == FALSE then
-                        act(2002, 112307) -- Hit 7
-                    elseif env(1116, 112307) == TRUE then
+                    elseif env(1116, 112304) == TRUE then
                         act(2002, 112300) -- Easy stagger
                     end
                 end
