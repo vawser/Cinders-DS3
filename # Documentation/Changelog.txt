@@ -273,8 +273,13 @@ Finish following weapons:
 - Slave Knight Gael:
  - HP is now 18,000.
  
+- Forlorn Giant:
+ - HP is now 9000.
+ 
 # Enemies
 - Slowed down parts of Aborr's moveset so they suit his heavyset nature better.
+- Sped up parts of the Forlorn Giant's moveset so he is more of a threat as a boss.
+- Altered the AI for the Forlorn Giant so he is more aggressive than a normal giant.
  
 # Companions
 - Removed the old companion system and related items.

@@ -1063,3 +1063,5 @@ GOAL_Dragonslayer_825000_AfterAttackAct = 825001
 GOAL_Marauder_826000_Battle = 826000
 GOAL_Marauder_826000_AfterAttackAct = 826001
 GOAL_TwistedKnight_827000_Battle = 827000
+GOAL_ForlornGiant_828000_Battle = 828000
+GOAL_ForlornGiant_828000_AfterAttackAct = 828001

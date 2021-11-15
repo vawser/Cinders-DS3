@@ -7619,7 +7619,7 @@ end
 
 function Jump_onUpdate()
     -- Bell of Grace
-    if IsBellOfGrace == TRUE then 
+    if IsBellOfGrace() == TRUE then 
         if env(1116, 112550) == TRUE then
             act(2001, 1.75)
         elseif env(1116, 112551) == TRUE then
