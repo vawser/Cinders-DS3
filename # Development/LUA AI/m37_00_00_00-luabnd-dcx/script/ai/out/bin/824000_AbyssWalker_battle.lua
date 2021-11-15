@@ -30,7 +30,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = 15 -- Thrust Combo
         actChanceList[4] = 15 -- Jump Combo
         actChanceList[5] = 5 -- Side Slash Combo
-        actChanceList[6] = 35 -- 2H Jump Slash
+        actChanceList[6] = 5 -- 2H Jump Slash
         actChanceList[8] = 0 -- Kick and Grab
         actChanceList[9] = 0 -- Flying Slash Combo
     elseif distance >= 10 then
@@ -39,7 +39,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[3] = 20 -- Thrust Combo
         actChanceList[4] = 20 -- Jump Combo
         actChanceList[5] = 10 -- Side Slash Combo
-        actChanceList[6] = 20 -- 2H Jump Slash
+        actChanceList[6] = 5 -- 2H Jump Slash
         actChanceList[8] = 0 -- Kick and Grab
         actChanceList[9] = 0 -- Flying Slash Combo
     elseif distance >= 6 then
@@ -59,7 +59,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[5] = 15 -- Side Slash Combo
         actChanceList[6] = 0 -- 2H Jump Slash
         actChanceList[8] = 0 -- Kick and Grab
-        actChanceList[9] = 20 -- Flying Slash Combo
+        actChanceList[9] = 5 -- Flying Slash Combo
     else
         actChanceList[1] = 25 -- Slash Combo
         actChanceList[2] = 20 -- Grab
@@ -68,7 +68,7 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[5] = 20 -- Side Slash Combo
         actChanceList[6] = 0 -- 2H Jump Slash
         actChanceList[8] = 20 -- Kick and Grab
-        actChanceList[9] = 20 -- Flying Slash Combo
+        actChanceList[9] = 5 -- Flying Slash Combo
     end
     
     ----------------------------------
@@ -79,7 +79,7 @@ Goal.Activate = function (self, ai, goal)
     -- Cooldowns
     ----------------------------------
     actChanceList[8] = SetCoolTime(ai, goal, 3021, 8, actChanceList[8], 0) -- Kick and Grab
-    
+
     ----------------------------------
     -- Acts
     ----------------------------------
