@@ -289,9 +289,11 @@ Finish following weapons:
 - Sister Friede:
  - HP is now 7000/11,000.
  - Increased damage output.
+ - Increased elemental absorption.
 
 - Father Ariandel:
  - HP is now 9000.
+ - Increased elemental absorption.
  
 - Demon Prince:
  - HP is now 9000/18,000.
@@ -309,6 +311,7 @@ Finish following weapons:
 - Slowed down parts of Aborr's moveset so they suit his heavyset nature better.
 - Sped up parts of the Forlorn Giant's moveset so he is more of a threat as a boss.
 - Altered the AI for the Forlorn Giant so he is more aggressive than a normal giant.
+- Increased the HP of several big enemies.
  
 # Companions
 - Removed the old companion system and related items.
