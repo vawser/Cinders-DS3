@@ -309,6 +309,7 @@ Finish following weapons:
 - Slowed down parts of Aborr's moveset so they suit his heavyset nature better.
 - Sped up parts of the Forlorn Giant's moveset so he is more of a threat as a boss.
 - Altered the AI for the Forlorn Giant so he is more aggressive than a normal giant.
+- Added parry frames for Soul of Cinder, Dancer and Sister Friede first stage.
  
 # Companions
 - Removed the old companion system and related items.
