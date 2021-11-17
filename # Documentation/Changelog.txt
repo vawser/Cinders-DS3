@@ -86,12 +86,13 @@ Finish following weapons:
  - Restores 800 HP
  
 # Merchants
-- Solaire now sells Lifegem, Radiant Lifegem, Old Radient Lifegem and Rouge Water.
+- Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
  
 # Map
 - Moved some chests in High Wall.
 - Removed/moved some enemies in High Wall to make it easier to traverse on initial runthrough.
 - The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed .
+- Added a portcullis in front of Corrupted Gundyr's fogwall. This is to discourage immediate engagement with him. It can be raised by a lever found in the upper area with the 2 chests. Once opened, it remains open.
 
 #------------------------------
 # TODO
@@ -104,9 +105,7 @@ Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-801 Radiant Lifegem
-802 Old Radiant Lifegem
-805 Rouge Water
+o312300_0000
 
 # AI Pass:
 Undead Dog
