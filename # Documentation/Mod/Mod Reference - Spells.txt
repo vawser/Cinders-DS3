@@ -26,7 +26,7 @@
 #--------------------------------
 # Scattering Soul Orb
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 25 {75} {*25, individual}
@@ -37,7 +37,7 @@
 #--------------------------------
 # Soul Arrow
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - INT Req: 10
 - Slot Use: 1
 - Magic Damage: 125 {375}
@@ -48,7 +48,7 @@
 #--------------------------------
 # Scattering Crystal Orb
 #--------------------------------
-- FP Cost: 130
+- FP Cost: 80
 - INT Req: 30
 - Slot Use: 1
 - Magic Damage: 40 {120} {*25, individual}
@@ -59,7 +59,7 @@
 #--------------------------------
 # Soul Spear
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 70
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 175 {525}
@@ -70,7 +70,7 @@
 #--------------------------------
 # Crystal Soul Spear
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 100
 - INT Req: 30
 - Slot Use: 2
 - Magic Damage: 250 {750}
@@ -81,7 +81,7 @@
 #--------------------------------
 # Homing Soulmass
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 75
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 40 {120} {*5, individual}
@@ -92,7 +92,7 @@
 #--------------------------------
 # Homing Crystal Soulmass
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 100
 - INT Req: 40
 - Slot Use: 2
 - Magic Damage: 50 {150} {*5, individual}
@@ -103,7 +103,7 @@
 #--------------------------------
 # Soul Geyser
 #--------------------------------
-- FP Cost: 165
+- FP Cost: 120
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 50 {350} {*8, individual} {1050}
@@ -114,7 +114,7 @@
 #--------------------------------
 # White Dragon Breath
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 75
 - INT Req: 30
 - Slot Use: 2
 - Magic Damage: 275 {825} [25 {75}] 
@@ -126,7 +126,7 @@
 #--------------------------------
 # Crystal Storm
 #--------------------------------
-- FP Cost: 5 (5)
+- FP Cost: 3 (3)
 - INT Req: 50
 - Slot Use: 1
 - Magic Damage: 200 {600} {*5, shared}
@@ -148,7 +148,7 @@
 #--------------------------------
 # Crystal Hail
 #--------------------------------
-- FP Cost: 129
+- FP Cost: 80
 - INT Req: 40
 - Slot Use: 1
 - Magic Damage: 25 {75} {*40, individual}
@@ -159,7 +159,7 @@
 #--------------------------------
 # Soul Greatsword
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 200 {600}
@@ -170,7 +170,7 @@
 #--------------------------------
 # Old Moonlight
 #--------------------------------
-- FP Cost: 165
+- FP Cost: 80
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 250 {750} (350 {1050} charged) [200 {600}]
@@ -181,7 +181,7 @@
 #--------------------------------
 # Soul Wave
 #--------------------------------
-- FP Cost: 35
+- FP Cost: 40
 - INT Req: 10
 - Slot Use: 1
 - Magic Damage: 70 {210}
@@ -192,7 +192,7 @@
 #--------------------------------
 # Soul Stream
 #--------------------------------
-- FP Cost: 190
+- FP Cost: 120
 - INT Req: 60
 - Slot Use: 2
 - Magic Damage: 80 {240} {*10, individual}
@@ -203,7 +203,7 @@
 #--------------------------------
 # Blizzard
 #--------------------------------
-- FP Cost: 5 (5)
+- FP Cost: 3 (3)
 - INT Req: 50
 - Slot Use: 1
 - Magic Damage: 200 {600} {*5, shared}
@@ -215,7 +215,7 @@
 #--------------------------------
 # Orbs of Judgment
 #--------------------------------
-- FP Cost: 90
+- FP Cost: 60
 - INT Req: 30
 - Slot Use: 1
 - Magic Damage: 35 {105} {*6, individual}
@@ -226,7 +226,7 @@
 #--------------------------------
 # Pestilent Mist
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 80
 - INT Req: 40
 - Slot Use: 1
 - Base Effect: inflicts 15 Curse and removes 0.2% HP per tick. Lasts 5 seconds.
@@ -237,7 +237,7 @@
 #--------------------------------
 # Snap Freeze
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 60
 - INT Req: 20
 - Slot Use: 1
 - Base Effect: summons patch that deals 15 Frost per tick. Lasts 5 seconds.
@@ -248,7 +248,7 @@
 #--------------------------------
 # Blinding Light
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 30
 - INT Req: 20
 - Slot Use: 1
 - Base Effect: knocks enemies back.
@@ -259,7 +259,7 @@
 #--------------------------------
 # Shockwave
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 30
 - INT Req: 20
 - Slot Use: 1
 - Base Effect: Knocks down enemies.
@@ -270,7 +270,7 @@
 #--------------------------------
 # Frigid Tumult
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 30
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 120 {380} [30 {90}]
@@ -282,7 +282,7 @@
 #--------------------------------
 # Hail of Blades
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 120
 - INT Req: 50
 - Slot Use: 2
 - Magic Damage: 50 {150}
@@ -295,7 +295,7 @@
 #--------------------------------
 # Piercing Ice
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 40
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 125 {375}
@@ -307,7 +307,7 @@
 #--------------------------------
 # Rime
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 80
 - INT Req: 40
 - Slot Use: 2
 - Magic Damage: 100 {300}
@@ -322,7 +322,7 @@
 #--------------------------------
 # Path of Frost
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 80
 - Slot Use: 2
 - INT Req: 50
 - Magic Damage: 250 {750}
@@ -334,7 +334,7 @@
 #--------------------------------
 # Discs of Dorthinus
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 120
 - Slot Use: 2
 - INT Req: 40
 - Magic Damage: 150 {450} [200 {600}]
@@ -349,37 +349,42 @@
 #--------------------------------
 # Magic Weapon
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: Adds 50 Magic damage to main weapon and reduces max FP by 10% for 90 seconds.
+- Base Effect: Adds 50 Magic damage to main weapon for 90 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #--------------------------------
 # Great Magic Weapon
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 75
 - INT Req: 40
 - Slot Use: 1
-- Base Effect: Adds 60 Magic damage to main weapon and reduces max FP by 20% for 60 seconds.
+- Base Effect: Adds 60 Magic damage to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #--------------------------------
 # Crystal Magic Weapon
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Adds 75 Magic damage to main weapon and reduces max FP by 30% for 30 seconds.
+- Base Effect: Adds 75 Magic damage to main weapon for 30 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Magic Weapon
 - Adds 100 Magic damage to main weapon and reduces max FP by 40% for 120 seconds. FP cost increased to 300.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #--------------------------------
 # Frozen Weapon
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - INT Req: 30
 - Slot Use: 1
-- Base Effect: Adds 30 Frost inflict to main weapon and reduces max FP by 20% for 60 seconds.
+- Base Effect: Adds 30 Frost inflict to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Supreme Frozen Weapon
 - Adds 60 Frost inflict to main weapon and reduces max FP by 30% for 120 seconds. FP cost increased to 200.
@@ -387,29 +392,32 @@
 #--------------------------------
 # Magic Shield
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - INT Req: 30
 - Slot Use: 1
-- Base Effect: Adds 30% absorption and 5% stability to main shield and reduces max FP by 10% for 60 seconds.
+- Base Effect: Adds 30% absorption and 5% stability to main shield for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #--------------------------------
 # Great Magic Shield
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 75
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Adds max absorption and 10% stability to main shield and reduces max FP by 20% for 30 seconds.
+- Base Effect: Adds max absorption and 10% stability to main shield for 30 seconds.- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Magic Shield
-- Adds max absorption and 20% stability to main shield and reduces max FP by 30% for 120 seconds. FP cost increased to 300.
+- Adds max absorption and 20% stability to main shield for 120 seconds. FP cost increased to 300.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #--------------------------------
 # Hidden Weapon
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: hides main weapon and reduces max FP by 10% for 120 seconds.
+- Base Effect: hides main weapon for 120 seconds.
+- Fatigues focus, increasing FP consumption costs by 10% while active.
 
 #---- Refined Hidden Weapon
 - FP consumption reduced to 0.
@@ -417,10 +425,11 @@
 #--------------------------------
 # Hidden Body
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 100
 - INT Req: 40
 - Slot Use: 1
-- Base Effect: hides player and reduces max FP by 30% for 60 seconds, reducing enemy detection via sight by 100%.
+- Base Effect: hides player for 60 seconds, reducing enemy detection via sight by 100%.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Mass Hidden Body
 - Applies the effect to self and allies in a radius of 8 meters.
@@ -428,10 +437,10 @@
 #--------------------------------
 # Cast Light
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 30
 - INT Req: 10
 - Slot Use: 1
-- Base Effect: summons a light source that follows you and reduces max FP by 10% for 120 seconds.
+- Base Effect: summons a light source that follows you for 120 seconds.
 
 #---- Refined Cast Light
 - FP consumption reduced to 0.
@@ -439,7 +448,7 @@
 #--------------------------------
 # Repair
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 150
 - INT Req: 20
 - Slot Use: 1
 - Base Effect: restores 50 durability.
@@ -450,10 +459,11 @@
 #--------------------------------
 # Spook
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 100
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: reduces enemy detection via sound by 100% and reduces max FP by 30% for 60 seconds.
+- Base Effect: reduces enemy detection via sound by 100% for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Mass Spook
 - Applies the effect to self and allies in a radius of 8 meters.
@@ -464,7 +474,7 @@
 - FP Cost: 100
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: transforms player into object from level and reduces max FP by 10%.
+- Base Effect: transforms player into object from level.
 
 #---- Refined Chameleon
 - FP consumption reduced to 0.
@@ -472,7 +482,7 @@
 #--------------------------------
 # Aural Decoy
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 30
 - INT Req: 20
 - Slot Use: 1
 - Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
@@ -483,24 +493,24 @@
 #--------------------------------
 # Twisted Wall of Light
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 20
 - INT Req: 30
 - Slot Use: 1
 - Base Effect: reflect spells away for 2 seconds.
 
 #---- Impenetrable Wall of Light
-- Changes the cast animation to Fire Surge, FP fost to 20 and duration to 1 second.
+- Changes the cast animation to Fire Surge, FP cost to 10 and duration to 1 second.
 
 #--------------------------------
 # Unleash Magic
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - INT Req: 60
 - Slot Use: 2
-- Base Effect: Increases potency of Sorceries by 20% for 30 seconds, but reduces max HP by 50%.
+- Base Effect: Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%. Lasts 12 seconds. 
 
 #---- Lingering Unleash Magic
-- Increases duration to 60 seconds.
+- Lasts 16 seconds. 
 
 #--------------------------------------------------------------------------
 # Pyromancies - Offensive
@@ -518,7 +528,7 @@
 #--------------------------------
 # Fireball
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 30
 - Slot Use: 1
 - Fire Damage: 100 {300} [50 {150}]
 
@@ -528,7 +538,7 @@
 #--------------------------------
 # Fire Orb
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - Slot Use: 1
 - Fire Damage: 160 {480} [80 {240}]
 
@@ -538,7 +548,7 @@
 #--------------------------------
 # Firestorm
 #--------------------------------
-- FP Cost: 5 (5)
+- FP Cost: 3 (3)
 - Slot Use: 1
 - Fire Damage: 180 {520} {*5, shared}
 
@@ -548,7 +558,7 @@
 #--------------------------------
 # Fire Surge
 #--------------------------------
-- FP Cost: 15
+- FP Cost: 10
 - Slot Use: 1
 - Fire Damage: 50 {150}
 
@@ -558,7 +568,7 @@
 #--------------------------------
 # Great Combustion
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 40
 - Slot Use: 1
 - Fire Damage: 150 {450} [50 {150}]
 
@@ -568,7 +578,7 @@
 #--------------------------------
 # Great Chaos Fire Orb
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 80
 - Slot Use: 2
 - Fire Damage: 220 {660} [90 {270}] [90 {270}] 
 
@@ -578,7 +588,7 @@
 #--------------------------------
 # Chaos Storm
 #--------------------------------
-- FP Cost: 10 (10)
+- FP Cost: 5 (5)
 - Slot Use: 2
 - Fire Damage: 200 {600} [100 {300}] {*5, shared} 
 
@@ -588,7 +598,7 @@
 #--------------------------------
 # Fire Whip
 #--------------------------------
-- FP Cost: 9
+- FP Cost: 5
 - Slot Use: 2
 - Fire Damage: 40 {120} {*20, individual}
 
@@ -598,7 +608,7 @@
 #--------------------------------
 # Profaned Flame
 #--------------------------------
-- FP Cost: 190
+- FP Cost: 80
 - Slot Use: 2
 - Fire Damage: 300 {900}
 
@@ -608,7 +618,7 @@
 #--------------------------------
 # Chaos Bed Vestiges
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 100
 - Slot Use: 2
 - Fire Damage: 250 {750} [50 {150}] [50 {150}]
 
@@ -618,7 +628,7 @@
 #--------------------------------
 # Cataclysm
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 120
 - Slot Use: 2
 - Fire Damage: 40 {120} {*10, shared}
 
@@ -638,7 +648,7 @@
 #--------------------------------
 # Bursting Fireball
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - Slot Use: 1
 - Fire Damage: 40 {120} {*5, shared per added wave)
 
@@ -648,7 +658,7 @@
 #--------------------------------
 # Boulder Heave
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 75
 - Slot Use: 1
 - Physical Damage: 200 {600} [100 {300}]
 
@@ -658,7 +668,7 @@
 #--------------------------------
 # Sacred Flame
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 75
 - Slot Use: 1
 - Fire Damage: based on spell tool.
 
@@ -668,7 +678,7 @@
 #--------------------------------
 # Seething Chaos
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 80
 - Slot Use: 1
 - Fire Damage: 135 {405} [275 {825}] 
 
@@ -678,7 +688,7 @@
 #--------------------------------
 # Heave Earth
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 75
 - Slot Use: 2
 - Physical Damage: 250 {750}
 
@@ -698,7 +708,7 @@
 #--------------------------------
 # Lingering Chaos
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - Slot Use: 1
 - Fire Damage: 100 {300}
 
@@ -708,7 +718,7 @@
 #--------------------------------
 # Earthfall
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 120
 - Slot Use: 2
 - Physical Damage: 40 {120} {*10, shared}
 
@@ -718,7 +728,7 @@
 #--------------------------------
 # Poison Mist
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 60
 - Slot Use: 1
 - Base Effect: summons patch of poison that deals 30 Poison aux for 6 seconds.
 
@@ -728,7 +738,7 @@
 #--------------------------------
 # Toxic Mist
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 80
 - Slot Use: 1
 - Base Effect: summons patch of poison that deals 15 Toxic aux for 6 seconds.
 
@@ -738,7 +748,7 @@
 #--------------------------------
 # Acid Surge
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Slot Use: 1
 - Base Effect: summons patch of corrosion that reduces durability by 1 and removes 5 + 0.1% HP per tick. Lasts for 6 seconds.
 
@@ -748,7 +758,7 @@
 #--------------------------------
 # Immolation
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 50
 - Slot Use: 1
 - Fire Damage: 50 per tick
 - Base Effect: consumes 25% of player's HP, causes a fire trail to appear in their wake for 15 seconds, dealing Fire damage to any enemy that touches it.
@@ -759,7 +769,7 @@
 #--------------------------------
 # Fecal Explusion
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - Slot Use: 1
 - Physical Damage: 20 {60}
 - Base Effect: expel 5 dung pies, inflicting Toxic. Each pie deals 25 Toxic, which deals 50 + 0.1% HP per second for 15 seconds.
@@ -770,7 +780,7 @@
 #--------------------------------
 # Chaos Beam
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 100
 - Slot Use: 2
 - Fire Damage: 40 {120} per tick
 - Base Effect: shoots chaos beam.
@@ -778,25 +788,118 @@
 #---- Incinerating Chaos Beam
 - Deals 5 damage per hit every second for 10 seconds. Stacks.
 
+#--------------------------------
+# Conjure Skeleton
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Base Effect: summon friendly Skeleton.
+
+#--------------------------------
+# Conjure Hollow
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Base Effect: summon friendly Hollow.
+
+#--------------------------------
+# Conjure Hound
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Base Effect: summon friendly Hound.
+
+#--------------------------------
+# Conjure Warrior
+#--------------------------------
+- FP Cost: 80
+- Slot Use: 2
+- Base Effect: summon friendly Warrior
+
+#--------------------------------
+# Conjure Sentinel
+#--------------------------------
+- FP Cost: 80
+- Slot Use: 2
+- Base Effect: summon friendly Lothric Knight.
+
+#--------------------------------
+# Conjure Lycanthrope
+#--------------------------------
+- FP Cost: 80
+- Slot Use: 2
+- Base Effect: summon friendly Lycanthrope
+
+#--------------------------------
+# Conjure Knight
+#--------------------------------
+- FP Cost: 120
+- Slot Use: 3
+- Base Effect: summon friendly Black Knight
+
+#--------------------------------
+# Conjure Watcher
+#--------------------------------
+- FP Cost: 120
+- Slot Use: 3
+- Base Effect: summon friendly Abyss Watcher
+
+#--------------------------------
+# Conjure Gargoyle
+#--------------------------------
+- FP Cost: 120
+- Slot Use: 3
+- Base Effect: summon friendly Gargoyle
+
+#--------------------------------
+# Ferverous Ritual
+#--------------------------------
+- FP Cost: 100
+- Slot Use: 1
+- Base Effect: boost damage by 20% and stamina recovery by 30 of conjured allies
+
+#--------------------------------
+# Major Restoration Ritual
+#--------------------------------
+- FP Cost: 100
+- Slot Use: 1
+- Base Effect: restore 50% of the HP of conjured allies
+
+#--------------------------------
+# Minor Restoration Ritual
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Base Effect: restore 20% of the HP of conjured allies
+
+#--------------------------------
+# Sacrificial Ritual
+#--------------------------------
+- FP Cost: 100
+- Slot Use: 1
+- Base Effect: reduce own health by 99%, but make conjured allies immune to damage.
+
 #--------------------------------------------------------------------------
 # Pyromancies - Effects
 #--------------------------------------------------------------------------
 #--------------------------------
 # Carthus Beacon
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Slot Use: 1
-- Base Effect: boosts attack whilst attacking persists and reduces max FP by 10%. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
+- Base Effect: boosts attack whilst attacking persists. Starts at 15%, increases to 30% with unbroken attacking. Lasts 30 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Lingering Carthus Beacon
-- Increases duration to 60 seconds and reduces max FP by 20%.
+- Increases duration to 60 seconds.
 
 #--------------------------------
 # Warmth
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 150
 - Slot Use: 2
-- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second and reduces max FP by 30%. Lasts 60 seconds.
+- Base Effect: summons healing orb that heals self, allies and foes for 30 HP per second. Lasts 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #---- Fond Warmth
 - Will now only affect the caster and allies.
@@ -806,7 +909,8 @@
 #--------------------------------
 - FP Cost: 100
 - Slot Use: 1
-- Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 and reduces max FP by 10% for 60 seconds.
+- Base Effect: increases Poison, Toxic, Bleed, Curse and Frost resistance by 200 for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Refined Profuse Sweat
 - FP consumption reduced to 0.
@@ -814,37 +918,41 @@
 #--------------------------------
 # Iron Flesh
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Slot Use: 2
-- Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Reduces max FP by 10%. Lasts 17 seconds.
+- Base Effect: increases physical absorption by 40% and resistances by 50. Reduces lightning absorption by 60%. Increases melee deflection and slows movement. Lasts 15 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Lingering Iron Flesh
-- Reduces max FP by 20% and increases duration to 30 seconds.
+- Increases duration to 30 seconds.
 
 #--------------------------------
 # Flash Sweat
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - Slot Use: 1
-- Base Effect: Increases Fire absorption by 30% and reduces max FP by 10% for 30 seconds.
+- Base Effect: Increases Fire absorption by 30% for 30 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Great Flash Sweat
-- Increases Fire absorption by 50% and reduces max FP by 20% for 30 seconds.
+- Increases Fire absorption by 50% for 30 seconds.
 
 #--------------------------------
 # Carthus Flame Arc
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 150
 - Slot Use: 2
-- Base Effect: adds 75 Fire damage to main weapon and reduces max FP by 30% for 60 seconds.
+- Base Effect: adds 75 Fire damage to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Carthus Flame Arc
-- Adds 100 Fire damage to main weapon, reduces Stamina Consumption by 20% and reduces max FP by 40%.
+- Adds 100 Fire damage to main weapon, reduces Stamina Consumption by 20%.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #--------------------------------
 # Rapport
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 150
 - Slot Use: 2
 - Base Effect: converts target enemy to player team for 30 seconds.
 
@@ -854,22 +962,25 @@
 #--------------------------------
 # Power Within
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 100
 - Slot Use: 2
-- Base Effect: increases damage by 20% and stamina recovery by 30 and reduces max FP by 20% for 30 seconds. Lose 1% HP per second whilst active.
+- Base Effect: increases damage by 20% and stamina recovery by 30 for 30 seconds. Lose 1% HP per second whilst active.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #---- Lingering Power Within
-- Reduces max FP by 30% and increases duration to 60 seconds.
+- Increases duration to 60 seconds.
 
 #--------------------------------
 # Rockflesh
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 100
 - Slot Use: 2
-- Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement and reduces max FP by 20% for 30 seconds.
+- Base Effect: Grants rockflesh, increases absorption by 30% and prevents staggering, but slows movement for 30 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Lingering Rockflesh
-- Increases duration to 60 seconds and reduces max FP by 30%.
+- Increases duration to 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
@@ -877,7 +988,7 @@
 #--------------------------------
 # Way of White Corona
 #--------------------------------
-- FP Cost: 35
+- FP Cost: 30
 - FTH Req: 10
 - Slot Use: 1
 - Physical Damage: 50 {150} [50 {150}] [50 {150}]
@@ -898,7 +1009,7 @@
 #--------------------------------
 # Emit Force
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - FTH Req: 20
 - Slot Use: 1
 - Physical Damage: 125 {375} [75 {225}] 
@@ -909,7 +1020,7 @@
 #--------------------------------
 # Wrath of the Gods
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 75
 - FTH Req: 30
 - Slot Use: 2
 - Physical Damage: 200 {600}
@@ -920,7 +1031,7 @@
 #--------------------------------
 # Lightning Spear
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - FTH Req: 10
 - Slot Use: 1
 - Lightning Damage: 110 {330} [50 {150}] [50 {150}] 
@@ -931,7 +1042,7 @@
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 75
 - Lightning Damage: 160 {480} [80 {240}] [80 {240}] 
 - FTH Req: 25
 - Slot Use: 1
@@ -942,7 +1053,7 @@
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 100
 - Lightning Damage: 250 {750} [100 {300}] [100 {300}]
 - FTH Req: 40
 - Slot Use: 2
@@ -953,7 +1064,7 @@
 #--------------------------------
 # Lightning Arrow
 #--------------------------------
-- FP Cost: 30
+- FP Cost: 20
 - Lightning Damage: 65 {195}
 - FTH Req: 10
 - Slot Use: 1
@@ -964,18 +1075,19 @@
 #--------------------------------
 # Lightning Storm
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - Lightning Damage: 80 {240} {*6, shared}
 - FTH Req: 35
 - Slot Use: 1
 
 #---- Sunlight Storm
+- FP Cost: 100
 - Changes the spell to be a ranged center strike with a wave of lightning around it.
 
 #--------------------------------
 # Lightning Stake
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 60
 - Lightning Damage: 200 {600} [100 {300}] 
 - FTH Req: 40
 - Slot Use: 2
@@ -997,7 +1109,7 @@
 #--------------------------------
 # Halo
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 100
 - Physical Damage: 120 {360} [120 {360}] [120 {360}] {*10, shared}
 - FTH Req: 50
 - Slot Use: 2
@@ -1008,7 +1120,7 @@
 #--------------------------------
 # Heavenly Thunder
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 120
 - Lightning Damage: 40 {120} {*10, shared}
 - FTH Req: 60
 - Slot Use: 2
@@ -1019,7 +1131,7 @@
 #--------------------------------
 # Angelic Barrage
 #--------------------------------
-- FP Cost: 190
+- FP Cost: 100
 - Physical Damage: 60 {180} {*16, shared}
 - FTH Req: 60
 - Slot Use: 2
@@ -1030,7 +1142,7 @@
 #--------------------------------
 # Divine Arrow
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 40
 - Physical Damage: 100 {300}
 - FTH Req: 15
 - Slot Use: 1
@@ -1041,7 +1153,7 @@
 #--------------------------------
 # Lothric's Holy Spear
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 80
 - Physical Damage: 250 {750}
 - FTH Req: 40
 - Slot Use: 2
@@ -1052,7 +1164,7 @@
 #--------------------------------
 # Proof of a Pact
 #--------------------------------
-- FP Cost: 110
+- FP Cost: 50
 - Physical Damage: 200 {600}
 - FTH Req: 50
 - Slot Use: 2
@@ -1063,7 +1175,7 @@
 #--------------------------------
 # Overwhelming Power
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 75
 - Lightning Damage: 100 {300} {shared}
 - FTH Req: 50
 - Slot Use: 1
@@ -1074,7 +1186,7 @@
 #--------------------------------
 # Ghostly Assault
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 80
 - Physical Damage: 30 {90} (*15, individual)
 - FTH Req: 50
 - Slot Use: 1
@@ -1085,7 +1197,7 @@
 #--------------------------------
 # Wrathful Orbs
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 60
 - Lightning Damage: 50 {150} {*5, individual}
 - INT Req: 25
 - Slot Use: 1
@@ -1096,7 +1208,7 @@
 #--------------------------------
 # Holy Schism
 #--------------------------------
-- FP Cost: 190
+- FP Cost: 120
 - Lightning Damage: 100 {300} [100 {300}] (*4, shared)
 - FTH Req: 60
 - Slot Use: 2
@@ -1118,13 +1230,13 @@
 #--------------------------------
 # Gwynevere's Abnegation
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - FTH Req: 40
 - Slot Use: 1
 - Effect: Repels target weak foe backwards significantly.
 
 #---- Gwynevere's Refined Abnegation
-- Reduces FP cost to 50.
+- Reduces FP cost to 0.
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
@@ -1132,10 +1244,11 @@
 #--------------------------------
 # Heal Aid
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 50
 - FTH Req: 10
 - Slot Use: 1
-- Base Effect: Heals 200 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 200 HP
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Heal Aid
 - Increases heal radius to 2 metres.
@@ -1143,10 +1256,11 @@
 #--------------------------------
 # Heal
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 75
 - FTH Req: 20
 - Slot Use: 1
-- Base Effect: Heals 300 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 300 HP
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Heal
 - Increases heal radius to 8 metres.
@@ -1154,10 +1268,11 @@
 #--------------------------------
 # Med Heal
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - FTH Req: 30
 - Slot Use: 1
-- Base Effect: Heals 350 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 400 HP
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Med Heal
 - Increases heal radius to 8 metres.
@@ -1165,10 +1280,11 @@
 #--------------------------------
 # Great Heal
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 120
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: Heals 400 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 600 HP.
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Great Heal
 - Increases heal radius to 8 metres.
@@ -1179,7 +1295,8 @@
 - FP Cost: 300
 - FTH Req: 50
 - Slot Use: 1
-- Base Effect: Heals 500 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 800 HP
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Soothing Sunlight
 - Increases initial radius to 7 metres and final radius to 17 metres.
@@ -1187,10 +1304,11 @@
 #--------------------------------
 # Projected Heal
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 80
 - FTH Req: 30
 - Slot Use: 1
-- Base Effect: Heals 300 HP and reduces max FP by 10% for 60 seconds. Stacks.
+- Base Effect: Heals 300 HP
+- Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 #---- Extended Projected Heal
 - Increases heal radius to 5 metres.
@@ -1198,10 +1316,11 @@
 #--------------------------------
 # Replenishment
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 80
 - FTH Req: 30
 - Slot Use: 1
-- Base Effect: Heals 600 HP over 60 seconds (5 HP/s) and reduces max FP by 40% for 60 seconds.
+- Base Effect: Heals 600 HP over 60 seconds (5 HP/s) for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Lingering Replenishment
 - Increases duration to 120 seconds.
@@ -1209,10 +1328,11 @@
 #--------------------------------
 # Bountiful Light
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: Heals 1200 HP over 60 seconds (10 HP/s) and reduces max FP by 40% for 60 seconds.
+- Base Effect: Heals 1200 HP over 60 seconds (10 HP/s) for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 30% while active.
 
 #---- Lingering Bountiful Light
 - Increases duration to 120 seconds.
@@ -1220,10 +1340,11 @@
 #--------------------------------
 # Bountiful Sunlight
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 150
 - FTH Req: 50
 - Slot Use: 1
-- Base Effect: Heals 1800 HP over 60 seconds (15 HP/s) and reduces max FP by 40% for 60 seconds.
+- Base Effect: Heals 1800 HP over 60 seconds (15 HP/s) for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 40% while active.
 
 #---- Lingering Bountiful Sunlight
 - Increases duration to 120 seconds.
@@ -1231,7 +1352,7 @@
 #--------------------------------
 # Caressing Tears
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - FTH Req: 20
 - Slot Use: 1
 - Base Effect: Cures all status aux for caster and allies in range.
@@ -1242,7 +1363,7 @@
 #--------------------------------
 # Tears of Denial
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 150
 - FTH Req: 40
 - Slot Use: 1
 - Base Effect: prevents killing blow whilst active. Lasts until death.
@@ -1253,7 +1374,7 @@
 #--------------------------------
 # Homeward
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 30
 - FTH Req: 10
 - Slot Use: 1
 - Base Effect: return to bonfire.
@@ -1264,10 +1385,11 @@
 #--------------------------------
 # Blessed Weapon
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds and reduces max FP by 20% for 60 seconds.
+- Base Effect: increases Physical damage by 60 and restores 5 HP per second for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Blessed Weapon
 - Adds 75 Physical damage to main weapon for 120 seconds.
@@ -1275,10 +1397,11 @@
 #--------------------------------
 # Sacred Oath
 #--------------------------------
-- FP Cost: 300
+- FP Cost: 150
 - FTH Req: 60
-- Slot Use: 1
-- Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds and reduces max FP by 25% for 60 seconds.
+- Slot Use: 2
+- Base Effect: Increases physical and lightning damage and all absorption by 20% for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Extended Sacred Oath
 - Increases radius to 8 metres.
@@ -1286,11 +1409,12 @@
 #--------------------------------
 # Lightning Blade
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Lightning Damage: 80
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: adds 75 Lightning damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
+- Base Effect: adds 75 Lightning damage to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Sunlight Blade
 - Adds 100 Lightning damage to main weapon and boosts damage against Hollow enemies by 20%.
@@ -1298,11 +1422,12 @@
 #--------------------------------
 # Darkmoon Blade
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - Magic Damage: 80
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: adds 75 Magic damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
+- Base Effect: adds 75 Magic damage to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Darkmoon Blade
 - Adds 100 Magic damage to main weapon and boosts damage against Abyssal enemies by 20%.
@@ -1310,7 +1435,7 @@
 #--------------------------------
 # Magic Barrier
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 75
 - FTH Req: 30
 - Slot Use: 1
 - Base Effect: increases Magic absorption by 30% for 60 seconds.
@@ -1318,7 +1443,7 @@
 #--------------------------------
 # Great Magic Barrier
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 150
 - FTH Req: 60
 - Slot Use: 1
 - Base Effect: increases Magic absorption by 50% for 60 seconds.
@@ -1329,10 +1454,11 @@
 #--------------------------------
 # Heavenly Relief
 #--------------------------------
-- FP Cost: 250
+- FP Cost: 100
 - FTH Req: 30
 - Slot Use: 1
-- Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds and reduces max FP by 25% for 60 seconds.
+- Base Effect: boosts equipment load by 25% and reveals signs without ember. Lasts 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Divine Relief
 - Increases equipment load boost to 40%.
@@ -1340,10 +1466,11 @@
 #--------------------------------
 # Perseverance
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - FTH Req: 40
 - Slot Use: 1
-- Base Effect: boosts Poise by 50% for 60 seconds and reduces max FP by 10% for 60 seconds.
+- Base Effect: boosts Poise by 50% for 60 seconds for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Lingering Perseverance
 - Increases duration to 120 seconds.
@@ -1367,7 +1494,7 @@
 #--------------------------------
 # Deep Soul
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - Dark Damage: 120 {360}
 - INT Req: 5
 - FTH Req: 5
@@ -1380,7 +1507,7 @@
 #--------------------------------
 # Great Deep Soul
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 75
 - Dark Damage: 175 {525}
 - INT Req: 10
 - FTH Req: 10
@@ -1393,7 +1520,7 @@
 #--------------------------------
 # Great Soul Dregs
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 100
 - Dark Damage: 250 {700} 
 - INT Req: 15
 - FTH Req: 15
@@ -1419,7 +1546,7 @@
 #--------------------------------
 # Abyssal Edge
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 50
 - Dark Damage: 200 {600}  
 - INT Req: 15
 - FTH Req: 15
@@ -1432,7 +1559,7 @@
 #--------------------------------
 # Dark Bead
 #--------------------------------
-- FP Cost: 130
+- FP Cost: 80
 - Dark Damage: 50 {150} {*7, individual}
 - INT Req: 30
 - FTH Req: 30
@@ -1444,7 +1571,7 @@
 #--------------------------------
 # Surging Deep
 #--------------------------------
-- FP Cost: 40
+- FP Cost: 20
 - Dark Damage: 80 {240}
 - INT Req: 15
 - FTH Req: 15
@@ -1457,7 +1584,7 @@
 #--------------------------------
 # Cascading Deep
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 80
 - Dark Damage: 25 {75} {*50, individual}
 - INT Req: 20
 - FTH Req: 20
@@ -1496,7 +1623,7 @@
 #--------------------------------
 # Writhing Deep
 #--------------------------------
-- FP Cost: 140
+- FP Cost: 80
 - Dark Damage: 135 {405} [275 {825}] 
 - INT Req: 25
 - FTH Req: 25
@@ -1509,7 +1636,7 @@
 #--------------------------------
 # Climax
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 70
 - Dark Damage: 225 {675} 
 - INT Req: 20
 - FTH Req: 20
@@ -1522,7 +1649,7 @@
 #--------------------------------
 # Affinity
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 100
 - Dark Damage: 60 {180} {*5, individual}
 - INT Req: 20
 - FTH Req: 20
@@ -1530,12 +1657,12 @@
 - Base Effect: inflicts 10 Curse.
 
 #---- Pursuers
-- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 200. Each bullet does 40 {120} Dark damage and no curse build up. Requirements increased to 30 INT and 30 FTH.
+- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 150. Each bullet does 40 {120} Dark damage and no curse build up. Requirements increased to 30 INT and 30 FTH.
 
 #--------------------------------
 # Whisper of Despair
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 50
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 1
@@ -1547,7 +1674,7 @@
 #--------------------------------
 # Black Fireball
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 40
 - INT Req: 5
 - FTH Req: 5
 - Slot Use: 1
@@ -1560,7 +1687,7 @@
 #--------------------------------
 # Black Fire Orb
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 60
 - INT Req: 10
 - FTH Req: 10
 - Slot Use: 1
@@ -1573,7 +1700,7 @@
 #--------------------------------
 # Black Fire Vestiges
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 100
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 2
@@ -1586,7 +1713,7 @@
 #--------------------------------
 # Black Fire Scatter
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 60
 - INT Req: 10
 - FTH Req: 10
 - Slot Use: 1
@@ -1612,7 +1739,7 @@
 #--------------------------------
 # Black Serpent
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 75
 - INT Req: 5
 - FTH Req: 5
 - Slot Use: 1
@@ -1625,7 +1752,7 @@
 #--------------------------------
 # Dark Dance  
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 75
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 2
@@ -1638,7 +1765,7 @@
 #--------------------------------
 # Recollection  
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 80
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 2
@@ -1651,7 +1778,7 @@
 #--------------------------------
 # Mournful Flames 
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 100
 - INT Req: 20
 - FTH Req: 20
 - Slot Use: 1
@@ -1677,7 +1804,7 @@
 #--------------------------------
 # Gnaw
 #--------------------------------
-- FP Cost: 70
+- FP Cost: 40
 - INT Req: 5
 - FTH Req: 5
 - Slot Use: 1
@@ -1690,7 +1817,7 @@
 #--------------------------------
 # Dorhys' Gnawing
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 60
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 2
@@ -1703,7 +1830,7 @@
 #--------------------------------
 # Lifehunt Scythe
 #--------------------------------
-- FP Cost: 95
+- FP Cost: 70
 - INT Req: 20
 - FTH Req: 20
 - Slot Use: 1
@@ -1741,7 +1868,7 @@
 #--------------------------------
 # Vow of Agony
 #--------------------------------
-- FP Cost: 160
+- FP Cost: 75
 - INT Req: 30
 - FTH Req: 30
 - Slot Use: 1
@@ -1753,7 +1880,7 @@
 #--------------------------------
 # Gravelord Sword Dance
 #--------------------------------
-- FP Cost: 10 (10)
+- FP Cost: 5 (5)
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
@@ -1761,7 +1888,7 @@
 - Base Effect: inflicts 60 Toxic.
 
 #---- Gravelord Sword
-- Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 95 per cast.
+- Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 75 per cast.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect
@@ -1769,7 +1896,7 @@
 #--------------------------------
 # Repel
 #--------------------------------
-- FP Cost: 100
+- FP Cost: 30
 - INT Req: 20
 - FTH Req: 20
 - Slot Use: 1
@@ -1781,11 +1908,12 @@
 #--------------------------------
 # Numbness
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 120
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
-- Base Effect: increases absorption by 35% for 60 seconds but reduces camera FOV to 20 and reduces max FP by 25% for 60 seconds.
+- Base Effect: increases absorption by 35% for 60 seconds but reduces camera FOV to 20 for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Lingering Numbness
 - Increases duration to 90 seconds.
@@ -1793,23 +1921,25 @@
 #--------------------------------
 # Black Flame Arc
 #--------------------------------
-- FP Cost: 200
+- FP Cost: 100
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
-- Base Effect: adds 75 Dark damage to main weapon for 60 seconds and reduces max FP by 30% for 60 seconds.
+- Base Effect: adds 75 Dark damage to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Black Flame Arc
-- Adds 100 Dark damage to main weapon, boosts damage against Demon enemies by 20% and reduces max FP by 40%. FP cost increased to 300.
+- Adds 100 Dark damage to main weapon, boosts damage against Demon enemies by 20%. FP cost increased to 300.
 
 #--------------------------------
 # Pungent Blade
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - INT Req: 20
 - FTH Req: 20
 - Slot Use: 1
-- Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds and reduces max FP by 20% for 60 seconds.
+- Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Supreme Pungent Blade
 - Adds 80 Poison inflict to main weapon for 120 seconds.
@@ -1817,11 +1947,12 @@
 #--------------------------------
 # Deep Protection
 #--------------------------------
-- FP Cost: 120
+- FP Cost: 100
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 1
-- Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. Lasts 60 seconds. Reduces max FP by 10% for 60 seconds.
+- Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. Lasts 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Bottomless Deep Protection
 - Increases damage and absorption boost to 10%. Increases Poison, Toxic, Bleed, Curse and Frost resistance boost to 100. Lasts 120 seconds.
@@ -1829,11 +1960,12 @@
 #--------------------------------
 # Dark Blade
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
-- Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10% and reduces max FP by 20% for 60 seconds.
+- Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10%.
+- Fatigues focus, increasing FP consumption costs by 25% while active.
 
 #---- Supreme Dark Blade
 - Adds 75 Dark damage to main weapon and increases Dark absorption by 20% for 120 seconds.
@@ -1841,11 +1973,12 @@
 #--------------------------------
 # Atonement
 #--------------------------------
-- FP Cost: 80
+- FP Cost: 100
 - INT Req: 15
 - FTH Req: 15
 - Slot Use: 1
-- Base Effect: boosts Magic, Fire, Lightning, Dark absorption by 50%, but reduces Physical absorption by 50%. Lasts 30 seconds. Reduces max FP by 10% for 30 seconds.
+- Base Effect: boosts Magic, Fire, Lightning, Dark absorption by 50%, but reduces Physical absorption by 50%. Lasts 30 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Lingering Atonement
 - Increases duration to 60 seconds.
@@ -1865,11 +1998,12 @@
 #--------------------------------
 # Pulsating Blade
 #--------------------------------
-- FP Cost: 150
+- FP Cost: 100
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
-- Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds and reduces max FP by 20% for 60 seconds.
+- Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
+- Fatigues focus, increasing FP consumption costs by 15% while active.
 
 #---- Supreme Pulsating Blade
 - Adds 60 Bleed inflict to main weapon for 120 seconds.

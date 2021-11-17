@@ -599,7 +599,9 @@ According to the Crystal Sages, old Big Hat achieved enlightenment within the Re
 <text id="1310000">Sorcery for casters who wield swords.
 Reinforces right weapon with magic. 
 
-Increases Magic damage by 50 and reduces max FP by 10% for 90 seconds.
+Increases Magic damage by 50 for 90 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -609,7 +611,9 @@ Many warriors learn sorcery just for this enchantment.</text>
 <text id="1311000">Sorcery which improves upon Magic Weapon.
 Greatly reinforces right weapon with magic.
 
-Increases Magic damage by 60 and reduces max FP by 20% for 60 seconds.
+Increases Magic damage by 60 for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -619,7 +623,9 @@ is said to cut down heavily armored knights with ease.</text>
 <text id="1312000">Further sharpens Magic Weapon via crystallization.
 Reinforces right weapon with crystal.
 
-Increases Magic damage by 75 and reduces max FP by 30% for 30 seconds.
+Increases Magic damage by 75 for 30 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -629,7 +635,9 @@ between weapon and soul.</text>
 <text id="1312010">Further sharpens Crystal Magic Weapon.
 Reinforces right weapon with crystal.
 
-Increases Magic damage by 100 and reduces max FP by 40% for 120 seconds.
+Increases Magic damage by 100 for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -639,7 +647,9 @@ between weapon and soul.</text>
 <text id="1330000">Sorcery for casters who wield swords.
 Reinforces left shield with magic.
 
-Boosts shield absorption by 30%, stability by 5% and reduces max FP by 10% for 60 seconds.
+Boosts shield absorption by 30% and stability by 5% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Even the smallest of shields can be toughened
@@ -647,22 +657,27 @@ considerably with the use of this spell.</text>
 <text id="1331000">Sorcery which improves upon Magic Shield.
 Greatly reinforces left shield with magic.
 
-Boosts shield absorption by 100%, stability by 10% and reduces max FP by 20% for 30 seconds.
+Boosts shield absorption by 100% and stability by 10% for 30 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1331010">Sorcery which improves upon Great Magic Shield.
 Greatly reinforces left shield with magic.
 
-Boosts shield absorption by 100%, stability by 20% and reduces max FP by 30% for 120 seconds.
+Boosts shield absorption by 100% and stability by 20% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
+
 Effect duration can be extended.
 
 Only sorcerer-swordsmen with special duties are permitted the use of this spell, which temporarily grants even the smallest of shields fortitude more akin to that of a greatshield.</text>
 <text id="1340000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible and reduces max FP by 10%.
-Lasts 120 seconds.
+Turns right weapon invisible for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 10% while active.
+
 Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
@@ -671,8 +686,9 @@ is reliant upon the ingenuity of its caster.</text>
 <text id="1340010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible and reduces max FP by 10% with no focus cost.
-Lasts 120 seconds.
+Turns right weapon invisible for 120 seconds with no focus cost.
+Fatigues focus, increasing FP consumption costs by 10% while active.
+
 Effect duration can be extended.
 
 The weapon itself undergoes no inherent changes.
@@ -681,8 +697,9 @@ is reliant upon the ingenuity of its caster.</text>
 <text id="1341000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns body nigh on invisible and reduces max FP by 30%, reducing enemy detection via sight by 100%.
-Lasts 60 seconds.
+Turns body nigh on invisible, reducing enemy detection via sight by 100% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Although perfect invisibility is unachievable
@@ -692,8 +709,8 @@ in to environs with astounding camouflage.</text>
 <text id="1341010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns body of self and allies nigh on invisible and reduces max FP by 30%, reducing enemy detection via sight by 100%.
-Lasts 60 seconds.
+Turns body of self and allies nigh on invisible, reducing enemy detection via sight by 100% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
 Effect duration can be extended.
 
 Although perfect invisibility is unachievable
@@ -703,8 +720,8 @@ in to environs with astounding camouflage.</text>
 <text id="1350000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Casts a light to illuminate surroundings and reduces max FP by 10%.
-Lasts 120 seconds.
+Casts a light to illuminate surroundings for 120 seconds.
+
 Effect duration can be extended.
 
 This light-producing magic is elementary
@@ -714,8 +731,8 @@ not been developed even at the Dragon School.</text>
 <text id="1350010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Casts a light to illuminate surroundings and reduces max FP by 10% with no focus cost.
-Lasts 120 seconds.
+Casts a light to illuminate surroundings for 120 seconds with no focus cost.
+
 Effect duration can be extended.
 
 This light-producing magic is elementary
@@ -751,9 +768,10 @@ is a forbidden art.</text>
 <text id="1354000">Sorcery developed by a certain surreptitious
 sorcerer at Vinheim Dragon School.
 
-Masks noises of the caster, prevents fall damage and reduces max FP by 30%.
-Reduces enemy detection via sound by 100%.
-Lasts 60 seconds.
+Masks noises of the caster, reducing enemy detection via sound by 100%,
+as well as preventing fall damage for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Their mastery of this sorcery alone allows
@@ -762,9 +780,9 @@ for their services. </text>
 <text id="1354010">Sorcery developed by a certain surreptitious
 sorcerer at Vinheim Dragon School.
 
-Masks noises of the caster and allies, prevents fall damage and reduces max FP by 30%.
-Reduces enemy detection via sound by 100%.
-Lasts 60 seconds.
+Masks noises of the caster, reducing enemy detection via sound by 100%,
+as well as preventing fall damage for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
 
 Their mastery of this sorcery alone allows
 Vinheim spooks to demand handsome payment
@@ -772,7 +790,7 @@ for their services. </text>
 <text id="1355000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Transforms into something inconspicuous and reduces max FP by 10%.
+Transforms into something inconspicuous.
 
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
@@ -780,7 +798,7 @@ sought relief from the solitude of the woods at dusk.</text>
 <text id="1355010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Transforms into something inconspicuous and reduces max FP by 10% with no focus cost.
+Transforms into something inconspicuous.
 
 Far from formally developed, this magic was
 instead born from the mischief of a young girl who
@@ -947,20 +965,18 @@ The curiosity of the paledrake knew no bounds, and even great souls succumb to m
 Summon forth a storm of crystals.
 
 The curiosity of the paledrake knew no bounds, and even great souls succumb to madness on the frontiers of knowledge.</text>
-<text id="1801000">Sorcery belonging to a sorcerer of 
-Vinheim.
+<text id="1801000">A forbidden sorcery belonging to a heretical sorcerer of Vinheim.
 
-Boosts the damage of Sorceries by 20% but reduces max HP by 50%.
-Lasts 30 seconds.
+Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%.
+Lasts 12 seconds.
 
-In Vinheim, potent spells often requires a great deal of sacrifice, as epitomised by this spell.</text>
-<text id="1801010">Sorcery belonging to a sorcerer of 
-Vinheim.
+Focus is a resource, and to truly ascend beyond human limitations, one must sacrifice corporeal life.</text>
+<text id="1801010">A forbidden sorcery belonging to a heretical sorcerer of Vinheim.
 
-Boosts the damage of Sorceries by 20% but reduces max HP by 50%.
-Lasts 60 seconds.
+Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%.
+Lasts 16 seconds.
 
-In Vinheim, potent spells often requires a great deal of sacrifice, as epitomised by this spell.</text>
+Focus is a resource, and to truly ascend beyond human limitations, one must sacrifice corporeal life.</text>
 <text id="1802000">Sorcery developed by a Vinheim scholar, said to be an apprentice to the eminent Logan.
 
 Fires soul wave that pierces enemies.</text>
@@ -1219,31 +1235,30 @@ Carthus' swordsmen attached great value to victory,
 and would not shun the use of such pyromancies.
 For where is the honor in death and scoured bones?</text>
 <text id="2430000">Pyromancy that internalizes flame.
-Iron flesh boosts physical absorptions by 75%, 
-but reduces elemental absorption by 100% and max FP by 10%.
 
-Slows movement, but grants 65 attack deflection 
-and prevents stagger from most attacks.
+Iron flesh boosts physical absorptions by 75%, but reduces elemental absorption by 100%.
+Slows movement, but grants 65 attack deflection and prevents stagger from most attacks. 
 Lasts 15 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
 <text id="2430010">Pyromancy that internalizes flame.
-Iron flesh boosts physical absorptions by 75%, 
-but reduces elemental absorption by 100% and max FP by 20%.
-
-Slows movement, but grants 65 attack deflection 
-and prevents stagger from most attacks.
+Iron flesh boosts physical absorptions by 75%, but reduces elemental absorption by 100%.
+Slows movement, but grants 65 attack deflection and prevents stagger from most attacks. 
 Lasts 30 seconds.
-Effect duration can be extended.
+Fatigues focus, increasing FP consumption costs by 25% while active.
 
 Not advisable for walking in marshlands, perhaps
 resulting in its obsolescence in the Great Swamp.</text>
 <text id="2431000">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
-Intense sweating increases Fire absorption by 30% and reduces max FP by 10% for 30 seconds.
+Intense sweating increases Fire absorption by 30% for 30 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
@@ -1251,7 +1266,9 @@ likely forming the foundation for many subsequent spells.</text>
 <text id="2431010">Unique pyromancy of the Great Swamp associated
 with Carmina.
 
-Intense sweating increases Fire absorption by 50% and reduces max FP by 20% for 30 seconds.
+Intense sweating increases Fire absorption by 50% for 30 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 An influential pyromancy that internalizes flame,
@@ -1259,7 +1276,9 @@ likely forming the foundation for many subsequent spells.</text>
 <text id="2435000">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 75 and reduces max FP by 30% for 60 seconds.
+Increases Fire damage by 75 for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -1267,7 +1286,9 @@ Warriors of Carthus favored supplemental pyromancies such as this, which was use
 <text id="2435010">Pyromancy of Carthus of the Sands.
 Reinforces right weapon with flame.
 
-Increases Fire damage by 100, reduces Stamina Consumption by 20% and reduces max FP by 40% for 60 seconds.
+Increases Fire damage by 100, reduces Stamina Consumption by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
+
 Scales with Spell Buff.
 Effect duration can be extended.
 
@@ -1290,8 +1311,10 @@ The living are lured by flame, and this tendency is
 elemental to the art of pyromancy.</text>
 <text id="2440000">Forbidden pyromancy amongst those who internalize flame.
 
-Boosts damage by 20%, stamina recovery by 30 and reduces max FP by 20%, but deals 1% of max health in damage every second.
+Boosts damage by 20%, stamina recovery by 30 but deals 1% of max health in damage every second.
 Lasts 30 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
+
 Effect duration can be extended.
 
 A pyromancer fears the flame.
@@ -1299,8 +1322,10 @@ However, this fear subsides once it is
 accepted as a substitute for strength.</text>
 <text id="2440010">Forbidden pyromancy amongst those who internalize flame.
 
-Boosts damage by 20%, stamina recovery by 30 and reduces max FP by 30%, but deals 1% of max health in damage every second.
+Boosts damage by 20%, stamina recovery by 30 but deals 1% of max health in damage every second.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
+
 Effect duration can be extended.
 
 A pyromancer fears the flame.
@@ -1388,16 +1413,18 @@ Hurls chaos flame that scorches vicinity.
 Demons born from fire bore its smoldering essence and perished soon after. Man shares this rapport with the flames to this day.</text>
 <text id="2470000">Peculiar pyromancy of the Mound-makers.
 
-Creates a gentle flame that restores 30 HP and reduces max FP by 30% on touch, friendly or not.
+Creates a gentle flame that restores 30 HP on touch, friendly or not.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
 
 They feared separation from the gods
 and sought a familial bond, perhaps leading to
 the creation of this flame of harmony.</text>
 <text id="2470010">Peculiar pyromancy of the Mound-makers.
 
-Creates a gentle flame that restores 30 HP and reduces max FP by 30% on touch to self and allies.
+Creates a gentle flame that restores 30 HP on touch to self and allies.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 30% while active.
 
 They feared separation from the gods
 and sought a familial bond, perhaps leading to
@@ -1406,16 +1433,20 @@ the creation of this flame of harmony.</text>
 <text id="2562000">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
-Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200 and reduces max FP by 10%.
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 The yellowish sweat cures all kinds of ailments.</text>
 <text id="2562010">Advanced pyromancy that internalizes flame,
 associated with Carmina.
 
-Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200 and reduces max FP by 10%.
+Profuse sweating temporarily boosts resistance to bleeding, poison, frost and curses by 200.
 Lasts 60 seconds. 
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 Can be used with no focus cost.
 
@@ -1473,8 +1504,10 @@ who consider themselves servants of the divine.</text>
 <text id="2650000">The most obscure pyromancy developed
 in Carthus of the Sands.
 
-Boosts damage by 15%, growing to 30% with consecutive attacks. Reduces max FP by 10%.
+Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 30 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Carthus's aggression has been likened to
@@ -1483,8 +1516,10 @@ its beacon has been used as a signal for war.</text>
 <text id="2650010">The most obscure pyromancy developed
 in Carthus of the Sands.
 
-Boosts damage by 15%, growing to 30% with consecutive attacks. Reduces max FP by 20%.
+Boosts damage by 15%, growing to 30% with consecutive attacks.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Carthus's aggression has been likened to
@@ -1547,16 +1582,20 @@ The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2713000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call forth rock, boosting absorption by 30%.
-Slows movement and reduces max FP by 20%, but grants 80 attack deflection and prevents stagger from all attacks.
+Slows movement but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 30 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
 <text id="2713010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Call forth rock, boosting absorption by 30%.
-Slows movement and reduces max FP by 30%, but grants 80 attack deflection and prevents stagger from all attacks.
+Slows movement but grants 80 attack deflection and prevents stagger from all attacks.
 Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Rockflesh protects the adept pyromancer in times of trouble.</text>
@@ -1726,7 +1765,7 @@ A show of tolerance from the Way of White.
 
 Restores 200 HP for self and those in the vicinity.
 Scales with Spell Buff.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
@@ -1735,7 +1774,7 @@ A show of tolerance from the Way of White.
 
 Restores 200 HP for self and those in the vicinity.
 Scales with Spell Buff. Range increased to 2 meters.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
@@ -1743,7 +1782,7 @@ and attune a miracle at a bonfire.</text>
 
 Restores 300 HP for self and those in the vicinity.
 Scales with Spell Buff.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
@@ -1751,38 +1790,38 @@ and attune a miracle at a bonfire.</text>
 
 Restores 300 HP for self and those in the vicinity.
 Scales with Spell Buff. Range increased to 8 meters.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 To use miracles, equip a talisman or sacred chime
 and attune a miracle at a bonfire.</text>
 <text id="3501000">Miracle superior to Heal.
 
-Restores 350 HP for self and those in the vicinity.
+Restores 400 HP for self and those in the vicinity.
 Scales with Spell Buff.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
 <text id="3501010">Miracle superior to Heal.
 
-Restores 350 HP for self and those in the vicinity.
+Restores 400 HP for self and those in the vicinity.
 Scales with Spell Buff. Range increased to 8 meters.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 Miracles are fruit of the study of divine tales, a blessing received from the gods through acts of prayer. Miracle strength depends on the caster's faith.</text>
 <text id="3502000">Glorious miracle used by high-ranking clerics.
 
-Restores 400 HP for self and those in the vicinity.
+Restores 600 HP for self and those in the vicinity.
 Scales with Spell Buff.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 Only a select few have learned to recite this
 epic tale in its entirety, but those who do
 are amply rewarded. </text>
 <text id="3502010">Glorious miracle used by high-ranking clerics.
 
-Restores 400 HP for self and those in the vicinity.
+Restores 600 HP for self and those in the vicinity.
 Scales with Spell Buff. Range increased to 8 meters.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 Only a select few have learned to recite this
 epic tale in its entirety, but those who do
@@ -1792,7 +1831,7 @@ of the Princess of Sunlight.
 
 Restores a 500 HP for self and those in the general area.
 Scales with Spell Buff.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 The miracles of Gwynevere, the princess
 cherished by all, bestow their blessing on
@@ -1802,7 +1841,7 @@ of the Princess of Sunlight.
 
 Restores a 500 HP for self and those in the general area.
 Scales with Spell Buff. Range increased to 17 meters.
-Reduces max FP by 10% for 60 seconds. This effect stacks.
+Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
 The miracles of Gwynevere, the princess
 cherished by all, bestow their blessing on
@@ -1810,7 +1849,8 @@ a great many warriors.</text>
 <text id="3504000">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 60 seconds.
-Reduces max FP by 40% for 60 seconds. 
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
@@ -1818,7 +1858,7 @@ whose cleric knights were unfaltering in battle.</text>
 <text id="3504010">Miracle once cherished by cleric knights.
 
 Restores 5 HP for self every second. Lasts 120 seconds.
-Reduces max FP by 40% for 120 seconds. 
+Fatigues focus, increasing FP consumption costs by 25% while active.
 Effect duration can be extended.
 
 Replenishment is a relic of the old Lloyd faith,
@@ -1826,7 +1866,7 @@ whose cleric knights were unfaltering in battle.</text>
 <text id="3505000">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 60 seconds.
-Reduces max FP by 40% for 60 seconds. 
+Fatigues focus, increasing FP consumption costs by 40% while active.
 Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
@@ -1835,7 +1875,7 @@ a great many warriors.</text>
 <text id="3505010">Special miracle granted by the Princess of Sunlight.
 
 Restores 15 HP for self and those in the vicinity. Lasts 120 seconds.
-Reduces max FP by 40% for 120 seconds. 
+Fatigues focus, increasing FP consumption costs by 40% while active.
 Effect duration can be extended.
 
 The miracles of Gwynevere, loved as both
@@ -1845,7 +1885,7 @@ a great many warriors.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 60 seconds.
-Reduces max FP by 40% for 60 seconds. 
+Fatigues focus, increasing FP consumption costs by 30% while active.
 Effect duration can be extended.
 
 The Heavenly Daughter is said to be
@@ -1854,7 +1894,7 @@ the Queen's child.</text>
 holy maiden to the Queen.
 
 Restores 10 HP for self and those in the vicinity. Lasts 120 seconds.
-Reduces max FP by 40% for 120 seconds. 
+Fatigues focus, increasing FP consumption costs by 30% while active.
 Effect duration can be extended.
 
 The Heavenly Daughter is said to be
@@ -1951,7 +1991,8 @@ anger and the like with confidence.</text>
 
 Boosts equipment load by 25% and reveals summon signs without using an ember.
 Lasts 60 seconds.
-Reduces max FP by 25% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
@@ -1961,7 +2002,8 @@ of hope for the lost.</text>
 
 Boosts equipment load by 40% and reveals summon signs without using an ember.
 Lasts 60 seconds.
-Reduces max FP by 25% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 Be that as it may, this miracle has been passed
@@ -2057,16 +2099,18 @@ Havel despised magic, and was never complacent
 in preparing means to counter it.</text>
 <text id="3563000">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
-Reduces max FP by 25% for 60 seconds.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity. Lasts for 60 seconds
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
 <text id="3563010">Miracle of those chosen by the Sunlight covenant.
 
-Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity.
+Boosts Physical and Lightning weapon damage by 20% and all absorption by 20% for self and those in the vicinity. Lasts for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Effect duration can be extended.
-Reduces max FP by 25% for 60 seconds.
 Range increased to 8 meters.
 
 This is the tale of the Sun's firstborn, his faithful first knight, and the brave dragonslayer who served them both.</text>
@@ -2075,8 +2119,9 @@ dragonslayer knight in the Age of Gods.
 Reinforces right weapon with lightning.
 
 Increases Lightning damage by 75 for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 30% for 60 seconds.
 Effect duration can be extended.
 
 Tales of dragonslayers are now a rare thing, told
@@ -2085,8 +2130,9 @@ only in fragments and whispers in remote regions.</text>
 Reinforces right weapon with sunlight.
 
 Increases Lightning damage by 100 and boosts damage against Hollow enemies by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 30% for 60 seconds.
 Effect duration can be extended.
 
 The power of the sun has never been forgotten, and its power burns bright.</text>
@@ -2095,8 +2141,9 @@ to the Darkmoon covenant.
 Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 75 for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 30% for 60 seconds.
 Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
@@ -2107,8 +2154,9 @@ to the Darkmoon covenant.
 Reinforces right weapon with Darkmoon light.
 
 Increases Magic damage by 100 and boosts damage against Abyssal enemies by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 30% for 60 seconds.
 Effect duration can be extended.
 
 Miracles of the Darkmoon are tales of revenge, but Captain Yorshka recites only for the sake of remembering her brother, without knowledge of its meaning.
@@ -2141,8 +2189,9 @@ Despite losing both her sight and her voice, she was determined to record the ta
 <text id="3760000">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 60, restores 5 HP every second and boosts damage to undead enemies by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Prevents skeleton reassembly.
-Reduces max FP by 20% for 60 seconds.
 Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
@@ -2151,8 +2200,9 @@ after the Scholars acquired the Grand Archives.</text>
 <text id="3760010">Miracle taught to Lothric Knights.
 
 Increases Physical damage by 75, restores 5 HP every second and boosts damage to undead enemies by 20% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Prevents skeleton reassembly.
-Reduces max FP by 20% for 120 seconds.
 Effect duration can be extended.
 
 The Knight is one of the Three Pillars of Lothric,
@@ -2184,7 +2234,7 @@ Those who yearned for the long-lost aureoles fully believed that they would retu
 deflecting blows that would otherwise hit.
 
 Boosts poise by 50%. Lasts 60 seconds.
-Reduces max FP by 10% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
 </text>
@@ -2192,7 +2242,7 @@ Lindelt ascetics are sent to distant lands for proselytizing and self-training, 
 deflecting blows that would otherwise hit.
 
 Boosts poise by 50%. Lasts 120 seconds.
-Reduces max FP by 10% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 Lindelt ascetics are sent to distant lands for proselytizing and self-training, but many of them decide not to return.
 </text>
@@ -2471,7 +2521,7 @@ The sorcerer Gilleah took no apprentice, and it is unclear how his spells were p
 
 Boosts absorption by 35%, but narrows vision.
 Lasts 60 seconds.
-Reduces max FP by 25% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
@@ -2479,7 +2529,7 @@ The sorcerer Gilleah took no apprentice, and it is unclear how his spells were p
 
 Boosts absorption by 35%, but narrows vision.
 Lasts 90 seconds.
-Reduces max FP by 25% for 90 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 The sorcerer Gilleah took no apprentice, and it is unclear how his spells were passed down.
 </text>
@@ -2589,15 +2639,17 @@ Those who linger too long on the brink of the Abyss will often slip. What they f
 <text id="4210000">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 75 Dark damage. Lasts 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 30% for 60 seconds.
 Effect duration can be extended.
 </text>
 <text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 40% for 60 seconds.
 Effect duration can be extended.
 </text>
 <text id="4301000">One of the first hexes known by Dorhys the deranged evangelist.
@@ -2646,27 +2698,29 @@ Those who linger too long on the brink of the Deep will often slip. Dorhys is su
 <text id="4305000">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 5%, increases stamina recovery by 10 and increases resistances by 50. Lasts 60 seconds.
-Reduces max FP by 10% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4305010">Hex taught to inaugurated deacons of the Cathedral of the Deep.
 
 Boosts damage and absorption by 10%, increases stamina recovery by 10 and increases resistances by 100. Lasts 120 seconds.
-Reduces max FP by 10% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.
 
 The Deep was originally a peaceful and sacred place, but became the final rest for many abhorrent things. This tale of the Deep offers protection for those who worship amidst those horrors.</text>
 <text id="4306000">Hex given to those cast out from the Sable Church of Londor.
 
 Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. Lasts 30 seconds.
-Reduces max FP by 10% for 30 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4306010">Hex given to those cast out from the Sable Church of Londor.
 
 Boosts Magic, Fire, Lightning and Dark absorption by 50%, but reduces Physical absorption by 50%. Draws enemies to the caster, encouraging them to attack more readily. Lasts 60 seconds.
-Reduces max FP by 10% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
 
 This is the only tale known by the exiles, who believe it carries words of forgiveness. Cursed journeys, too, must ultimately come to an end.</text>
 <text id="4307000">Hex used by the hollow clerics of the Ringed City. 
@@ -2709,8 +2763,9 @@ as they bear the leaden silence of Londor.</text>
 Reinforces right weapon with dark.
 
 Increases Dark damage by 60 and boosts Dark absorption by 10% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 20% for 60 seconds.
 Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
@@ -2720,8 +2775,9 @@ portray the suffering and conflict of Hollows.</text>
 Reinforces right weapon with dark.
 
 Increases Dark damage by 75 and boosts Dark absorption by 20% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 25% while active.
+
 Scales with Spell Buff.
-Reduces max FP by 20% for 120 seconds.
 Effect duration can be extended.
 
 The third daughter Liliane, one of the founders
@@ -2760,26 +2816,30 @@ imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 30 Bleed on hit.
 Lasts 60 seconds.
-Reduces max FP by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
 Imbue right weapon with blood, inflicting 60 Bleed on hit.
 Lasts 120 seconds.
-Reduces max FP by 20% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.</text>
 <text id="4314000">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 40 Poison on hit.
 Lasts 60 seconds.
-Reduces max FP by 20% for 60 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
 Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
 Lasts 120 seconds.
-Reduces max FP by 20% for 120 seconds.
+Fatigues focus, increasing FP consumption costs by 15% while active.
+
 Effect duration can be extended.</text>
 </entries>
 </fmg>

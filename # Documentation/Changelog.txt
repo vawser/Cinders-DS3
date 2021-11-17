@@ -63,10 +63,28 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Stats
+- Changed the base FP value to 150.
+
 # Intruders
 - Reduced HP of several hostile NPCs.
 - Reduced damage of several hostile NPCs.
 
+# Spells
+- Changed the passive spells that reduced max FP to instead increase FP consumption costs for their duration instead.
+- Adjusted the cost of several spells.
+
+- The instant healing spells now apply a stacking healing effectiveness debuff of -10% for 15 seconds when usage.
+
+- Changed the effect of Unleash Magic:
+ - Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%. Lasts 12 seconds. (16 for ascended)
+ 
+- Great Heal:
+ - Restores 600 HP
+ 
+- Soothing Sunlight:
+ - Restores 800 HP
+ 
 #------------------------------
 # TODO
 #------------------------------
