@@ -17444,10 +17444,10 @@ function Update()
     
     -- Rings
     UpdateSigilEffect()
-    UpdateBulletRingEffect(112160, 112161)
-    UpdateBulletRingEffect(112162, 112163)
-    UpdateBulletRingEffect(112164, 112165)
-    UpdateBulletRingEffect(112166, 112167)
+    UpdateYoungDragonRingEffect()
+    UpdateGreatSwampRingEffect()
+    UpdateMornesRingEffect()
+    UpdateDeepRingEffect()
     
     UpdateOldMonkState()
     act(101, FALSE)
@@ -17879,32 +17879,62 @@ function UpdatePsychedelicElixirEffect()
     end
 end
 
-function UpdateBulletRingEffect(trigger_effect, bullet_effect)  
+-- Young Dragon Ring
+function UpdateYoungDragonRingEffect()  
     -- End if AI player
     if env(1007) == TRUE then
         return
     end
     
-    if env(1116, trigger_effect) == TRUE then
-        if env(1116, 112170) ~= TRUE and env(1116, 112171) ~= TRUE and env(1116, 112172) ~= TRUE and env(1116, 112173) ~= TRUE and env(1116, 112174) ~= TRUE and env(1116, 112175) ~= TRUE then
-            
-            -- Randomise cooldownd duration
-            local roll = math.random(0, 100)
-            if roll >= 0 and roll < 10 then
-                act(2002, 112170)
-            elseif roll >= 10 and roll < 30 then
-                act(2002, 112171)
-            elseif roll >= 30 and roll < 50 then
-                act(2002, 112172)
-            elseif roll >= 50 and roll < 70 then
-                act(2002, 112173)
-            elseif roll >= 70 and roll < 90 then
-                act(2002, 112174)
-            elseif roll >= 90 then
-                act(2002, 112175)
-            end
-            
-            act(2002, bullet_effect) -- Effect
+    if env(1116, 112160) == TRUE then
+        if env(1116, 112170) ~= TRUE then
+            act(2002, 112170) -- Timer
+            act(2002, 112161) -- Effect
+        end
+    end
+end
+
+-- Great Swamp Ring
+function UpdateGreatSwampRingEffect()  
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
+    if env(1116, 112162) == TRUE then
+        if env(1116, 112171) ~= TRUE then
+            act(2002, 112171) -- Timer
+            act(2002, 112163) -- Effect
+        end
+    end
+end
+
+-- Morne's Ring
+function UpdateMornesRingEffect()  
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
+    if env(1116, 112164) == TRUE then
+        if env(1116, 112172) ~= TRUE then
+            act(2002, 112172) -- Timer
+            act(2002, 112165) -- Effect
+        end
+    end
+end
+
+-- Deep Ring
+function UpdateDeepRingEffect()  
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
+    if env(1116, 112166) == TRUE then
+       if env(1116, 112173) ~= TRUE then
+            act(2002, 112173) -- Timer
+            act(2002, 112167) -- Effect
         end
     end
 end

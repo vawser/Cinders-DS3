@@ -85,13 +85,19 @@ Finish following weapons:
 - Soothing Sunlight:
  - Restores 800 HP
  
+# Rings
+- Young Dragon Ring: effect now occurs every 15 seconds, no longer randomly.
+- Great Swamp Ring: effect now occurs every 15 seconds, no longer randomly.
+- Morne's Ring: effect now occurs every 15 seconds, no longer randomly.
+- Deep Ring: effect now occurs every 15 seconds, no longer randomly.
+
 # Merchants
 - Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
  
 # Map
 - Moved some chests in High Wall.
 - Removed/moved some enemies in High Wall to make it easier to traverse on initial runthrough.
-- The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed .
+- The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed.
 - Added a portcullis in front of Corrupted Gundyr's fogwall. This is to discourage immediate engagement with him. It can be raised by a lever found in the upper area with the 2 chests. Once opened, it remains open.
 
 # Bugfix

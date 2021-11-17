@@ -1281,7 +1281,7 @@ A sacrifice is only worth as much as the life it spares.</text>
 <text id="20229">%null%</text>
 <text id="20230">Ring given in Vinheim, home of sorcery, when newly ordained as a sorcerer.
 
-Periodically summons homing soulmasses.
+Periodically summons homing soulmasses every 15 seconds.
 
 Apropos to the Dragon School, the seal depicts an everlasting dragon. A young dragon presages the great length of the journey to mastery.</text>
 <text id="20231">%null%</text>
@@ -1295,7 +1295,7 @@ Apropos to the Dragon School, the seal depicts an everlasting dragon. A young dr
 <text id="20239">%null%</text>
 <text id="20240">Ring said to be chiselled from the bone of a flame salamander by blighted Pyromancers living in the Great Swamp.
 
-Periodically emit pillars of flame.
+Periodically emit pillars of flame every 1 to 5 seconds.
 
 It is believed that salamanders are the descendants of demons, born of the Chaos Flame, from which Pyromancy is also said to have originated.</text>
 <text id="20241">%null%</text>
@@ -1309,7 +1309,7 @@ It is believed that salamanders are the descendants of demons, born of the Chaos
 <text id="20249">%null%</text>
 <text id="20250">A malformed ring given to knights of Carim.
 
-Periodically emit damaging force wave.
+Periodically emit damaging force wave every 15 seconds.
 
 Morne served the goddess Caitha and later became an apostle of the Archbishop.
 They labored together to provide comfort to the suffering.</text>
@@ -1464,7 +1464,7 @@ In Carim, the saints give voice to the ancient tales. They memorize countless cu
 <text id="20319">%null%</text>
 <text id="20320">A ring bestowed upon the Deacons of the Cathedral of the Deep. 
 
-Periodically leave a wake of abyssal explosions behind you.
+Periodically leave a wake of abyssal explosions behind you every 15 seconds.
 
 In the Cathedral slumber things most terrible, and as such, the deacons require a grand narrative, to ensure they do not falter in their duty. A philosophy, to ward away the madness beckoned by the grotesqueries at hand.</text>
 <text id="20321">%null%</text>
