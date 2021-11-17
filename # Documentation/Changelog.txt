@@ -85,6 +85,11 @@ Finish following weapons:
 - Soothing Sunlight:
  - Restores 800 HP
  
+# Map
+- Moved some chests in High Wall.
+- Removed/moved some enemies in High Wall to make it easier to traverse on initial runthrough.
+- The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed .
+
 #------------------------------
 # TODO
 #------------------------------
