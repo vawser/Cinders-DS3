@@ -63,6 +63,9 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# General
+- Reverted the armor icon change.
+
 # Stats
 - Changed the base FP value to 150.
 

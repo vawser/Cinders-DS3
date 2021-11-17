@@ -10,8 +10,12 @@
 5   Darksign
 6   Estus Flask
 7   Estus Flask
-10  Ashen Estus Flask
-11  Ashen Estus Flask
+8   Estus Flask
+9   Estus Flask
+10  Conjure Skeleton
+11  Conjure Hollow
+12  Conjure Hound
+13  Conjure Warrior
 14  Divine Blessing
 15  Green Blossom
 16  Bloodred Moss Clump
@@ -27,9 +31,9 @@
 26  Throwing Knife - Poison
 27  Wood Greatarrow
 28  Firebomb
-29  Molotov
+29  Conjure Sentinel
 30  Black Firebomb
-31  Black Molotov
+31  Conjure Lycanthrope
 32  Dung Pie
 33  Alluring Skull
 34  Undead Hunter Charm
@@ -57,14 +61,14 @@
 56  Rockflesh
 57  Witching Urn
 58  Pursuer's Ultra Greatsword
-59  []
-60  []
+59  Pursuer H
+60  Pursuer T
 61  Titanite Shard
 62  Large Titanite Shard
-63  []
+63  Pursuer A
 64  Titanite Chunk
-65  []
-66  []
+65  Pursuer L
+66  Conjure Knight
 67  Skull Mask
 68  Titanite Slab
 69  Wanderer's Coat
@@ -140,18 +144,18 @@
 140 Sage's Coal
 141 Giant's Coal
 142 Profaned Coal
-143 Mortician's Ashes
+143 Conjure Watcher
 
 # _1
-144 Dreamchaser's Ashes
-145 Paladin's Ashes
-146 Grave Warden's Ashes
-147 Greirat's Ashes
-148 Orbeck's Ashes
-149 Cornyx's Ashes
-150 Karla's Ashes
-151 Irina's Ashes
-152 Yuria's Ashes
+144 Conjure Gargoyle
+145 Ferverous Ritual
+146 Major Restoration Ritual
+147 Minor Restoration Ritual
+148 Sacrificial Ritual
+149 Teleport
+150 []
+151 []
+152 []
 153 Loretta's Bone
 154 Braille Divine Tome of Carim
 155 Braille Divine Tome of Lothric
@@ -176,7 +180,7 @@
 174 Small Doll
 175 Gower's Ring of Protection
 176 Beckoning Grace
-177 Coiled Sword
+177 []
 178 Twinkling Dragon Head Stone
 179 Twinkling Dragon Torso Stone
 180 Jailbreaker's Key
@@ -208,11 +212,11 @@
 206 Red Bug Pellet
 207 Yellow Bug Pellet
 208 Black Bug Pellet
-209 Excrement-covered Ashes
-210 Prisoner Chief's Ashes
-211 Xanthous Ashes
-212 Hollow's Ashes
-213 Patches' Ashes
+209 []
+210 []
+211 []
+212 []
+213 []
 214 Fading Soul
 215 Soul of a Deserted Corpse
 216 Large Soul of a Deserted Corpse
@@ -249,17 +253,18 @@
 247 Soul of the Lords
 248 Soul of the Blood of the Wolf
 249 Budding Green Blossom
-251 Easterner's Ashes
+250 Budding Green Blossom
+251 []
 252 Forked Pale Tongue
-253 Champion's Bones
+253 []
 254 Soul of Sister Friede
-255 Captain's Ashes
+255 []
 256 Contraption Key
 257 Soul of Slave Knight Gael
 258 Soul of the Demon Prince
 259 Small Envoy Banner
 260 Church Guardian Shiv
-261 Old Woman's Ashes
+261 []
 262 Blood of the Dark Soul
 263 Filianore's Spear Ornament
 264 Soul of Darkeater Midir
@@ -276,12 +281,12 @@
 275 []
 276 []
 277 Ring of Wisdom
-278 Green Tearstone Ring
-279 Yellow Tearstone Ring
-280 Violet Tearstone Ring
-281 Ring of Woe
-282 Ring of Adversity
-283 Ring of Catastrophe
+278 []
+279 []
+280 []
+281 []
+282 []
+283 []
 284 Demonsbane Ring
 285 Crypt Ring
 286 Blight Ring
@@ -338,13 +343,13 @@
 1045 Bastard Sword
 1046 Slug Whistle
 1047 Claymore
-1048 []
+1048 Mask of the Father
 1049 Zweihander
 1050 Greatsword
-1051 []
+1051 Mask of the Mother
 1052 Astora Greatsword
 1053 Murakumo
-1054 []
+1054 Mask of the Child
 1055 Lothric Knight Greatsword
 1056 Black Tearstone Ring
 1057 Blessed Pine Resin
@@ -385,10 +390,10 @@
 1092 Throwing Knife - Dark
 1093 Cursed Resin
 1094 Great Mace
-1095 []
-1096 []
-1097 []
-1098 []
+1095 Giant H
+1096 Giant T
+1097 Giant A
+1098 Giant L
 1099 Great Wooden Hammer
 1100 Gargoyle Flame Hammer
 1101 Vordt's Great Hammer
@@ -590,66 +595,66 @@
 1297 Ringed Knight Paired Greatswords
 1298 Preacher's Right Arm
 1299 Harald Curved Greatsword
-1300 []
-1301 []
-1302 []
-1303 []
-1304 Dragonrider Helm
-1305 Dragonrider Armor
-1306 []
-1307 []
-1308 Penetrator Helm
-1309 Penetrator Armor
-1310 []
-1311 []
-1312 Paladin Helm
-1313 Paladin Armor
-1314 []
-1315 []
-1316 Quicksilver Helm
-1317 Quicksilver Armor
-1318 []
-1319 []
+1300 Steel H
+1301 Steel T
+1302 Steel A
+1303 Steel L
+1304 Dragonrider H
+1305 Dragonrider T
+1306 Dragonrider A
+1307 Dragonrider L
+1308 Penetrator H
+1309 Penetrator T
+1310 Penetrator A
+1311 Penetrator L
+1312 Paladin H
+1313 Paladin T
+1314 Paladin A
+1315 Paladin L
+1316 Quicksilver H
+1317 Quicksilver T
+1318 Quicksilver A
+1319 Quicksilver L
 1320 Heide Mask
-1321 Gloom Helm
-1322 Gloom Armor
-1323 []
-1324 []
+1321 Gloom H
+1322 Gloom T
+1323 Gloom A
+1324 Gloom L
 1325 Gargoyle Skull
 1326 Crab Helmet
-1327 Crown of the Great Lord
-1328 Robe of the Great Lord
-1329 []
-1330 []
+1327 Great Lord H
+1328 Great Lord T
+1329 Great Lord A
+1330 Great Lord L
 1331 Giant Slave Helmet
 1332 Corvian Knight Helmet
-1333 Porcelain Mask
-1334 Lord's Blade Robe
-1335 []
-1336 []
-1337 Ancient King's Mask
-1338 Ancient King's Breastplate
-1339 []
-1340 []
+1333 Ciaran H
+1334 Ciaran T
+1335 Ciaran A
+1336 Ciaran L
+1337 Ancient King H
+1338 Ancient King T
+1339 Ancient King A
+1340 Ancient King L
 1341 Demon Cleric Mask
 1342 Pontiff's Crown
 1343 Pontiff's Bracelets
-1344 Mask of Velka
-1345 Black Cleric Robe
-1346 []
-1347 []
-1348 Binded Hood
-1349 Binded Cross
-1350 []
-1351 []
-1352 Venerable Sage's Hood
-1353 Venerable Sage's Robe
-1354 []
-1355 []
-1356 Crown of the Dark Sun
-1357 Moonlight Robe
-1358 []
-1359 []
+1344 Black Cleric H
+1345 Black Cleric T
+1346 Black Cleric A
+1347 Black Cleric L
+1348 Binded H
+1349 Binded T
+1350 Binded A
+1351 Binded L
+1352 Venerable Sage H
+1353 Venerable Sage T
+1354 Venerable Sage A
+1355 Venerable Sage L
+1356 Moonlight H
+1357 Moonlight T
+1358 Moonlight A
+1359 Moonlight L
 1360 Beast Claw
 1361 Rakuyo
 1362 Ladle
@@ -689,26 +694,26 @@
 1396 Consumed King's Staff
 1397 Rotten Talisman
 1398 Smouldering Talisman
-1399 Dragon Hunter Helm
-1400 Dragon Hunter Armor
-1401 []
-1402 []
-1403 Ivory King Helm
-1404 Ivory King Armor
-1405 []
-1406 []
-1407 Mad Warrior Helm
-1408 Mad Warrior Armor
-1409 []
-1410 []
-1411 Mirror Knight Helm
-1412 Mirror Knight Armor
-1413 []
-1414 []
-1415 Syan Knight Helm
-1416 Syan Knight Armor
-1417 []
-1418 []
+1399 Dragon Hunter H
+1400 Dragon Hunter T
+1401 Dragon Hunter A
+1402 Dragon Hunter L
+1403 Ivory King H
+1404 Ivory King T
+1405 Ivory King A
+1406 Ivory King L
+1407 Mad Warrior H
+1408 Mad Warrior T
+1409 Mad Warrior A
+1410 Mad Warrior L
+1411 Mirror Knight H
+1412 Mirror Knight T
+1413 Mirror Knight A
+1414 Mirror Knight L
+1415 Syan Knight H
+1416 Syan Knight T
+1417 Syan Knight A
+1418 Syan Knight L
 1419 Hands of Sin
 1420 Frying Pan / Throwing Frying Pan
 1421 Serpentine Chain-axe
@@ -718,9 +723,9 @@
 1425 Thorned Greatsword
 1426 King's Mirror
 1427 True Manikin Mask
-1428 Manikin Top
-1429 []
-1430 []
+1428 Manikin T
+1429 Manikin A
+1430 Manikin L
 1431 False Manikin Mask
 
 #------------------------
@@ -839,26 +844,26 @@
 2119 Ring of Thorns (Unassigned)
 2120 Red String
 2121 Ludleth's Crown
-2122 Stone Helm
-2123 Stone Armor
-2124 []
-2125 []
-2126 Guardian Helm
-2127 Guardian Armor
-2128 []
-2129 []
-2130 Gough's Helm
-2131 Gough's Chest
-2132 []
-2133 []
-2134 Mask of the Sealer
-2135 Crimson Robe
-2136 []
-2137 []
-2138 Six-Eyed Helm of the Channelers
-2139 Robe of the Channelers
-2140 []
-2141 []
+2122 Stone H
+2123 Stone T
+2124 Stone A
+2125 Stone L
+2126 Guardian H
+2127 Guardian T
+2128 Guardian A
+2129 Guardian L
+2130 Gough H
+2131 Gough T
+2132 Gough A
+2133 Gough L
+2134 Crimson H
+2135 Crimson T
+2136 Crimson A
+2137 Crimson L
+2138 Channeler H
+2139 Channeler T
+2140 Channeler A
+2141 Channeler L
 2142 Fist of Gratia
 2143 Gatling Gun
 
@@ -899,514 +904,514 @@
 3031 Brushwood T
 3032 Xanthous H
 3033 Xanthous T
-3034 []
-3035 []
+3034 Xanthous A
+3035 Xanthous L
 3036 Northern H
 3037 Northern T
-3038 []
-3039 []
+3038 Northern A
+3039 Northern L
 3040 Morne's H
 3041 Morne's T
-3042 []
-3043 []
+3042 Morne A
+3043 Morne L
 3044 Leonhard's H
 3045 Leonhard's T
-3046 []
-3047 []
+3046 Leonhard A
+3047 Leonhard L
 3048 Pale Shade H
 3049 Pale Shade T
-3050 []
-3051 []
+3050 Pale Shade A
+3051 Pale Shade L
 3052 Sunset H
 3053 Sunset T
-3054 []
-3055 []
+3054 Sunset A
+3055 Sunset L
 3056 Cornyx H
 3057 Cornyx T
-3058 []
-3059 []
+3058 Cornyx A
+3059 Cornyx L
 3060 Executioner H
 3061 Executioner T
-3062 []
-3063 []
+3062 Executioner A
+3063 Executioner L
 3064 Yuria H
 3065 Yuria T
-3066 []
-3067 []
+3066 Yuria A
+3067 Yuria L
 3068 Pyromancer H
 3069 Pyromancer T
-3070 []
-3071 []
+3070 Pyromancer A
+3071 Pyromancer L
 3072 Court Sorcerer H
 3073 Court Sorcerer T
-3074 []
-3075 []
+3074 Court Sorcerer A
+3075 Court Sorcerer L
 3076 Sorcerer H
 3077 Sorcerer T
-3078 []
-3079 []
+3078 Sorcerer A
+3079 Sorcerer L
 3080 Cleric H
 3081 Cleric T
-3082 []
-3083 []
+3082 Cleric A
+3083 Cleric L
 3084 Lapp's H 
 3085 Lapp's T
-3086 []
-3087 []
+3086 Lapp A
+3087 Lapp L
 3088 Grotto H
 3089 Grotto H
-3090 []
-3091 []
+3090 Grotto A
+3091 Grotto L
 3092 Deserter H
 3093 Deserter T
-3094 []
-3095 []
+3094 Gallant H
+3095 Gallant T
 3096 Deserter Hood
 3097 Thrall Hood
-3098 []
-3099 []
+3098 USED
+3099 USED
 3100 Warden H
 3101 Warden T
-3102 []
-3103 []
+3102 USED
+3103 USED
 3104 Jailer H
 3105 Jailer T
-3106 []
-3107 []
+3106 USED
+3107 USED
 3108 Maiden H
 3109 Maiden T
-3110 []
-3111 []
+3110 USED
+3111 USED
 3112 Footman H
 3113 Footman T
-3114 []
-3115 []
+3114 USED
+3115 USED
 3116 Grave Warden H
 3117 Grave Warden T
-3118 []
-3119 []
+3118 USED
+3119 USED
 3120 Worker H
 3121 Worker T
-3122 []
-3123 []
-3124 []
-3125 []
-3126 []
-3127 []
+3122 USED
+3123 USED
+3124 USED
+3125 USED
+3126 USED
+3127 USED
 3128 Evangelist H
 3129 Evangelist T
-3130 []
-3131 []
+3130 USED
+3131 USED
 3132 Scholar H
 3133 Scholar T
 3134 Fluted H
 3135 Fluted T
 3136 Winged Knight H
 3137 Winged Knight T
-3138 []
-3139 []
-3140 []
-3141 []
+3138 USED
+3139 USED
+3140 USED
+3141 USED
 3142 Huntsman's Cap
 3143 Huntsman's Armor
 
 # _1
 3144 Cathedral Knight H
 3145 Cathedral Knight T
-3146 []
-3147 []
-3148 []
-3149 []
+3146 USED
+3147 USED
+3148 USED
+3149 USED
 3150 Mirdan H
 3151 Mirdan T
 3152 Lothric Knight H
 3153 Lothric Knight T
-3154 []
-3155 []
+3154 USED
+3155 USED
 3156 Outrider Knight H
 3157 Outrider Knight T
-3158 []
-3159 []
+3158 USED
+3159 USED
 3160 Black Knight H
 3161 Black Knight T
-3162 []
-3163 []
+3162 USED
+3163 USED
 3164 Darkwraith H
 3165 Darkwraith T
-3166 []
-3167 []
+3166 USED
+3167 USED
 3168 Exile H
 3169 Exile T
-3170 []
-3171 []
+3170 USED
+3171 USED
 3172 Pontiff Knight H
 3173 Pontiff Knight T
-3174 []
-3175 []
+3174 USED
+3175 USED
 3176 Nameless King H
 3177 Nameless King T
-3178 []
-3179 []
+3178 USED
+3179 USED
 3180 Wolnir's Crown
-3181 []
-3182 []
+3181 USED
+3182 USED
 3183 Sentinel Helmet
 3184 Undead Legion H
 3185 Undead Legion T
-3186 []
-3187 []
+3186 USED
+3187 USED
 3188 Sentinel Armor
-3189 []
-3190 []
+3189 USED
+3190 USED
 3191 Three-cornered Hat
 3192 Serpentine H
 3193 Serpentine T
 3194 Old Raggedy Robes
-3195 []
+3195 USED
 3196 Fire Witch H
 3197 Fire Witch T
-3198 []
-3199 []
+3198 USED
+3199 USED
 3200 Lorian H
 3201 Lorian T
-3202 []
-3203 []
+3202 USED
+3203 USED
 3204 Prayer H
 3205 Prayer T
-3206 []
-3207 []
+3206 USED
+3207 USED
 3208 Yhorm H
 3209 Yhorm T
-3210 []
-3211 []
+3210 USED
+3211 USED
 3212 Dancer H
 3213 Dancer T
-3214 []
-3215 []
+3214 USED
+3215 USED
 3216 Gundyr H
 3217 Gundyr T
-3218 []
-3219 []
+3218 USED
+3219 USED
 3220 Charlatan H
 3221 Charlatan T
-3222 []
-3223 []
+3222 USED
+3223 USED
 3224 Archdeacon H
 3225 Archdeacon T
 3226 Martyr T
-3227 []
-3228 []
+3227 USED
+3228 USED
 3229 Deacon T
-3230 []
-3231 []
+3230 USED
+3231 USED
 3232 Frigid Valley Mask 
 3233 Pickpocket H
 3234 Pickpocket T
-3235 []
+3235 USED
 3236 Fire Keeper H
 3237 Fire Keeper T
-3238 []
-3239 []
-3240 []
+3238 USED
+3239 USED
+3240 USED
 3241 Magician T
-3242 []
-3243 []
+3242 USED
+3243 USED
 3244 Elite Knight H
 3245 Elite Knight T
-3246 []
-3247 []
+3246 USED
+3247 USED
 3248 Faraam H
 3249 Faraam T
-3250 []
-3251 []
+3250 USED
+3251 USED
 3252 Catarina H
 3253 Catarina T
-3254 []
-3255 []
+3254 USED
+3255 USED
 3256 Havel H
 3257 Havel T
-3258 []
-3259 []
+3258 USED
+3259 USED
 3260 Pharis H
 3261 Pharis T
-3262 []
-3263 []
+3262 USED
+3263 USED
 3264 Old Sorcerer H
 3265 Old Sorcerer T
-3266 []
-3267 []
+3266 USED
+3267 USED
 3268 Black Leather H
 3269 Black Leather T
-3270 []
-3271 []
+3270 USED
+3271 USED
 3272 Creighton H
 3273 Creighton T
-3274 []
-3275 []
+3274 USED
+3275 USED
 3276 Alva H
 3277 Alva T
-3278 []
-3279 []
+3278 USED
+3279 USED
 3280 Shadow H
 3281 Shadow T
-3282 []
-3283 []
+3282 USED
+3283 USED
 3284 Eastern H
 3285 Eastern T
-3286 []
-3287 []
+3286 USED
+3287 USED
 
 # _2
 3288 Favor H
 3289 Favor T
-3290 []
-3291 []
+3290 USED
+3291 USED
 3292 Brass H
 3293 Brass T
-3294 []
-3295 []
+3294 USED
+3295 USED
 3296 Silver Knight H
 3297 Silver Knight T
-3298 []
-3299 []
+3298 USED
+3299 USED
 3300 Lucatiel H
 3301 Lucatiel T
-3302 []
-3303 []
+3302 USED
+3303 USED
 3304 Sunlight H
 3305 Sunlight T
-3306 []
-3307 []
+3306 USED
+3307 USED
 3308 ?
 3309 ?
-3310 []
-3311 []
+3310 USED
+3311 USED
 3312 Frostfall
 3313 Drang T
-3314 []
-3315 []
+3314 USED
+3315 USED
 3316 Black Iron H
 3317 Black Iron T
-3318 []
-3319 []
+3318 USED
+3319 USED
 3320 Painting Guardian H
 3321 Painting Guardian T
-3322 []
-3323 []
+3322 USED
+3323 USED
 3324 Wolf Knight H
 3325 Wolf Knight T
-3326 []
-3327 []
+3326 USED
+3327 USED
 3328 Dragonslayer H
 3329 Dragonslayer T
-3330 []
-3331 []
+3330 USED
+3331 USED
 3332 Smough H
 3333 Smough T
-3334 []
-3335 []
+3334 USED
+3335 USED
 3336 Maiden H
 3337 Maiden T
-3338 []
-3339 []
+3338 USED
+3339 USED
 3340 Deserter H
 3341 Deserter T
-3342 []
-3343 []
+3342 USED
+3343 USED
 3344 Nameless Knight H
 3345 Nameless Knight T
-3346 []
-3347 []
+3346 USED
+3347 USED
 3348 Hard Leather H
 3349 Hard Leather T
-3350 []
-3351 []
+3350 USED
+3351 USED
 3352 Brigand H
 3353 Brigand T
-3354 []
-3355 []
+3354 USED
+3355 USED
 3356 Sword Master H
 3357 Sword Master T
-3358 []
-3359 []
+3358 USED
+3359 USED
 3360 Conjurator H
 3361 Confjurator T
-3362 []
-3363 []
+3362 USED
+3363 USED
 3364 Symbol of Avarice
 3365 Eastern Commander H
 3366 Eastern Commander T 
-3367 []
+3367 USED
 3368 Hexer H
 3369 Hexer T
-3370 []
-3371 []
+3370 USED
+3371 USED
 3372 Thorns H
 3373 Thorns T
-3374 []
-3375 []
+3374 USED
+3375 USED
 3376 Varangian H
 3377 Varangian T
-3378 []
-3379 []
+3378 USED
+3379 USED
 3380 Dusk H
 3381 Dusk T
-3382 []
-3383 []
+3382 USED
+3383 USED
 3384 Karla H
 3385 Karla T
-3386 []
-3387 []
+3386 USED
+3387 USED
 3388 Assassin H
 3389 Assassin T
-3390 []
+3390 USED
 3391 Eastern General H
 3392 ?
 3393 Cleric (F) H
 3394 Cleric (F) T
 3395 Eastern General T
-3396 []
+3396 USED
 3397 Cleric T
 3398 Chain H
 3399 Chain T
-3400 []
-3401 []
+3400 USED
+3401 USED
 3402 Hard Leather (F) H
 3403 Hard Leather (F) T
-3404 []
-3405 []
+3404 USED
+3405 USED
 3406 Sellsword (F) H
 3407 Sellsword (F) T
-3408 []
-3409 []
+3408 USED
+3409 USED
 3410 Pharis (F) H
 3411 Pahris (F) T
-3412 []
-3413 []
+3412 USED
+3413 USED
 3414 Old Sorcerer (F) H
 3415 Old Sorcerer (F) T
-3416 []
-3417 []
-3418 []
+3416 USED
+3417 USED
+3418 USED
 3419 Eastern Wolf T
 3420 Thief Mask (Hood)
 3421 Cleric T
 3422 Clandestine Coat
-3423 []
-3424 []
+3423 USED
+3424 USED
 3425 Dorthinus H
 3426 Dorthinus T
 3427 Pyromancer (F) H
 3428 Pyromancer (F) T
-3429 []
-3430 []
+3429 USED
+3430 USED
 3431 Thief Mask
 
 # _3
 3432 Thief T
-3433 []
-3434 []
+3433 USED
+3434 USED
 3435 Shadow H
 3436 Shadow T
-3437 []
-3438 []
+3437 USED
+3438 USED
 3439 Sword Master (F) T
 3440 Sorcerer (F) T
 3441 Farron Follower H
 3442 Farron Follower T
-3443 []
-3444 []
+3443 USED
+3444 USED
 3445 Millwood H
 3446 Millwood T
-3447 []
-3448 []
+3447 USED
+3448 USED
 3449 Vilhelm H
 3450 Vilhelm T
-3451 []
-3452 []
+3451 USED
+3452 USED
 3453 Slave Knight H
 3454 Slave Knight T
-3455 []
-3456 []
+3455 USED
+3456 USED
 3457 Friede H
 3458 Friede T
-3459 []
-3460 []
+3459 USED
+3460 USED
 3461 Friede T
-3462 []
-3463 []
+3462 USED
+3463 USED
 3464 Halflight T
-3465 []
-3466 []
+3465 USED
+3466 USED
 3467 Shira H
 3468 Shira T
-3469 []
-3470 []
+3469 USED
+3470 USED
 3471 Lapp's H
 3472 Lapp's T
-3473 []
-3474 []
+3473 USED
+3474 USED
 3475 Ruin Sentinel H
 3476 Ruin Sentinel T
-3477 []
-3478 []
+3477 USED
+3478 USED
 3479 Harald Knight T
-3480 []
-3481 []
+3480 USED
+3481 USED
 3482 Tarnished Knight H
 3483 Tarnished Knight T
-3484 []
-3485 []
+3484 USED
+3485 USED
 3486 Desert Pyromancer H
 3487 Desert Pyromancer T
-3488 []
-3489 []
+3488 USED
+3489 USED
 3490 Black Witch H
 3491 Black Witch T
-3492 []
+3492 USED
 3493 Black Witch Veil
 3494 Purple Mask
 3495 Ringed Knight H
 3496 Ringed Knight T
-3497 []
-3498 []
+3497 USED
+3498 USED
 3499 Harald Knight H
 3500 Halflight (F) T
-3501 []
+3501 USED
 3502 Desert Pyromancer (F) T
-3503 []
+3503 USED
 3504 Black Witch (F) T
 3505 []
-3506 []
+3506 USED
 3507 Iron Dragonslayer H
 3508 Iron Dragonslayer T
-3509 []
-3510 []
+3509 USED
+3510 USED
 3511 Preacher Head
 3512 Alonne H
 3513 Alonne T
-3514 []
-3515 []
+3514 USED
+3515 USED
 3516 Rampart Golem H
 3517 Rampart Golem T
-3518 []
-3519 []
+3518 USED
+3519 USED
 3520 Smelter Demon H
 3521 Smelter Demon T
-3522 []
-3523 []
+3522 USED
+3523 USED
 3524 Bone Ash H
 3525 Bone Ash T
-3526 []
-3527 []
+3526 USED
+3527 USED
 3528 Heide H
 3529 Heide T
-3530 []
-3531 []
+3530 USED
+3531 USED
 3532 Imperious H
 3533 Imperious T
-3534 []
-3535 []
+3534 USED
+3535 USED
 3536 Badger's Black Hat
 3537 Mask of Horror
 3538 Genichiro's Helmet
@@ -1431,21 +1436,21 @@
 3557 Priest Mask
 3558 Helm of the Wise
 3559 Armor of the Glorious
-3560 []
+3560 USED
 3561 Hallowed Knight H
 3562 Hallowed Knight B
-3563 []
-3564 []
+3563 USED
+3564 USED
 3565 Courtier's Wig
 3566 Courtier's Garb
-3567 []
-3568 []
+3567 USED
+3568 USED
 3569 Crown of the Fallen
 3570 Steel Helm
 3571 Steel Armor
-3572 []
-3573 []
-3574 []
+3572 USED
+3573 USED
+3574 USED
 3575 Accursed Emblem
 
 #------------------------
@@ -1525,12 +1530,12 @@
 4072 Caressing Tears
 4073 Humanity
 4074 Vow of Silence
-4075 Black Dragon Helm
-4076 Black Dragon Armor
+4075 Black Dragon H
+4076 Black Dragon T
 4077 Darkmoon Blade
-4078 []
-4079 []
-4080 []
+4078 Black Dragon A
+4079 Black Dragon L
+4080 Blue Band
 4081 Devil's Trumpet
 4082 Moonflower
 4083 Henbane
@@ -1644,12 +1649,12 @@
 4191 Winged Helm of Ridoh
 4192 King's Crown
 4193 King's Armor
-4194 []
-4195 []
+4194 USED
+4195 USED
 4196 Cowl of the Bear
 4197 Armor of the Bear
-4198 []
-4199 []
+4198 USED
+4199 USED
 4200 Hunter's Mark
 4201 Cannon
 4202 Church Cannon
@@ -1659,27 +1664,27 @@
 4206 Hunter's Blunderbuss
 4207 Rosamarius
 4208 Corvian Knight T
-4209 []
-4210 []
+4209 USED
+4210 USED
 4211 Gargoyle T
-4212 []
-4213 []
+4212 USED
+4213 USED
 4214 Elite Cleric H
 4215 Elite Cleric T
-4216 []
-4217 []
+4216 USED
+4217 USED
 4218 Raime H
 4219 Raime T
-4220 []
-4221 []
+4220 USED
+4221 USED
 4222 Alonne Captain H
 4223 Alonne Captain T
-4224 []
-4225 []
+4224 USED
+4225 USED
 4226 Gravekeeper H
 4227 Gravekeeper T
-4228 []
-4229 []
+4228 USED
+4229 USED
 4230 Attendant H
 4231 Attendant T
 4232 Artifical Helmet
@@ -1800,9 +1805,9 @@
 5056 Imported H
 5057 Imported T
 5058 Lingering Dragoncrest Ring
-5059 []
+5059 USED
 5061 Sage Ring
-5062 []
+5062 USED
 5063 Ironclad H
 5064 Slumbering Dragoncrest Ring
 5065 Dusk Crown Ring
@@ -1816,9 +1821,9 @@
 5073 Hornet Ring
 5074 Covetous Gold Serpent Ring
 5075 Ironclad T
-5076 []
+5076 USED
 5077 Covetous Silver Serpent Ring
-5078 []
+5078 USED
 5079 Okami H
 5080 Sun Princess Ring
 5081 Silvercat Ring
@@ -1838,17 +1843,17 @@
 5095 Untrue Dark Ring
 5096 Yorgh's Ring
 5098 Ring of the Evil Eye
-5099 []
+5099 USED
 5100 Sanctum Knight Head
 5101 Calamity Ring
 5102 Farron Ring
 5103 Aldrich's Ruby
 5104 Aldrich's Sapphire
 5105 Sanctum Knight T
-5106 []
+5106 USED
 5107 Lloyd's Sword Ring
 5108 Lloyd's Shield Ring
-5109 []
+5109 USED
 5110 Obscuring Ring
 5111 Estus Ring
 5112 Ashen Estus Ring
@@ -1858,10 +1863,10 @@
 5116 Pontiff's Right Eye
 5117 Stalwart Knight H
 5118 Stalwart Knight T
-5119 []
+5119 Corrupted Bow
 5120 Pontiff's Left Eye
-5121 Stalwart Knight Legs
-5122 Corrupted Bow
+5121 []
+5122 []
 5123 []
 5124 Dragonscale Ring
 5125 Chillbite Ring
@@ -1921,8 +1926,8 @@
 6031 Executioner Gauntlets
 6032 Vileblood Helmet
 6033 Vileblood Armor
-6034 []
-6035 []
+6034 Vileblood
+6035 Vileblood
 6036 Bone Fragment
 6037 Fire Seed
 6038 Lizard Hide
@@ -2052,15 +2057,15 @@
 7014 Jump for joy
 7015 My thanks!
 7016 Joy
-7017 Offering 1
+7017 []
 7018 Rest
-7019 Offering 2
-7020 Offering 3
-7021 Offering 4
-7022 Offering 5
-7023 Offering 6
+7019 []
+7020 []
+7021 []
+7022 []
+7023 []
 7024 By my sword
-7025 Dial of Obedience
+7025 []
 7026 Chalice of Greed
 7027 Empty H
 7028 Empty T
@@ -2126,24 +2131,24 @@
 7088 Teleport
 7089 Astrologist H
 7090 Astrologist T
-7091 []
-7092 []
+7091 Astrologist
+7092 Astrologist
 7093 Aurous H
 7094 Aurous T
-7095 []
-7096 []
+7095 Aurous
+7096 Aurous
 7097 Dragon Acolyte H
 7098 Dragon Acolyte T
-7099 []
-7100 []
+7099 Dragon Acolyte
+7100 Dragon Acolyte
 7101 Vengarl H
 7102 Vengarl T
-7103 []
-7104 []
+7103 Vengarl
+7104 Vengarl
 7105 Chester H
 7106 Chester T
-7107 []
-7108 []
+7107 Chester
+7108 Chester
 7109 Essence of Cleansing
 7110 Essence of Magic
 7111 Essence of Fire
@@ -2174,8 +2179,8 @@
 7136 Smouldering Rubble
 7137 Ledo H
 7138 Ledo T
-7139 []
-7140 []
+7139 Ledo
+7140 Ledo
 7141 Primordial Essence
 7142 Focus Implement
 7143 Chaos Beam
