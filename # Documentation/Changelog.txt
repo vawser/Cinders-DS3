@@ -94,6 +94,9 @@ Finish following weapons:
 - The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed .
 - Added a portcullis in front of Corrupted Gundyr's fogwall. This is to discourage immediate engagement with him. It can be raised by a lever found in the upper area with the 2 chests. Once opened, it remains open.
 
+# Bugfix
+- Fixed the HP effectiveness adjustment being incorrect for affixed Unholy Remains and Wretched Pendant.
+
 #------------------------------
 # TODO
 #------------------------------
